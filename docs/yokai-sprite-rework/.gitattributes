@@ -1,0 +1,3 @@
+# Preserve the exact original palette copies, including their line endings.
+proposals/**/*.pal -text -eol
+*.csv text eol=lf
