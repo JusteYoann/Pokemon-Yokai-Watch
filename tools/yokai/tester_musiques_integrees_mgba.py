@@ -6,6 +6,7 @@ Fixture warps/flags/strong party are explicit; not full adventure or hardware QA
 Private audio demos remain outside checkout. Public reports contain metadata only.
 """
 import argparse,ctypes,hashlib,json,os,struct,wave
+from collections import deque
 from pathlib import Path
 import numpy as np
 from scipy.signal import resample_poly,fftconvolve
@@ -43,7 +44,14 @@ def wait_header(r,n,limit=1800):
  raise AssertionError(('Expected actual private song not playing',n,hex(r.u32(r.symbols['gMPlayInfo_BGM']))))
 def run_song(r,n,trigger):
  wait_header(r,n);r.keys=set();r.run(30);ptr=channel(r,n);assert ptr
- chunks=[];callback=BATCH(lambda data,frames:(chunks.append(ctypes.string_at(data,frames*4)) if sum_frames[0]<8*65536 else None,sum_frames.__setitem__(0,sum_frames[0]+frames),frames)[-1]);sum_frames=[0];r.lib.retro_set_audio_sample_batch(callback)
+ chunks=[];ring=deque(maxlen=200);sum_frames=[0];seam_audio=[];pending=[]
+ def audio_callback(data,frames):
+  block=ctypes.string_at(data,frames*4);ring.append(block)
+  if sum_frames[0]<8*65536:chunks.append(block)
+  sum_frames[0]+=frames
+  return frames
+ callback=BATCH(audio_callback);r.lib.retro_set_audio_sample_batch(callback)
+
  first=r.u32(ptr+40);prev=first;wraps=[];frames=0;row=LOOPS[n];loop_start=row['source_loop_start_samples']-row['source_start_samples'];period=row['source_end_samples']-row['source_loop_start_samples'];max_frames=int((row['source_end_samples']-row['source_start_samples']+period*5)/224)+1800
  for f in range(max_frames):
   if f==120:r.call('PlaySE',boss.C.get('SE_SELECT',5))
@@ -52,10 +60,15 @@ def run_song(r,n,trigger):
   if pos+100<prev:
    assert loop_start<=pos<=loop_start+900,(n,'Intro returned or invalid loop',pos,loop_start)
    wraps.append({'frame':frames,'sample_after_wrap':pos})
-   if len(wraps)==5:break
+   pending.append((frames+40,len(wraps)))
+  if pending and frames>=pending[0][0]:
+   _,which=pending.pop(0);seam_audio.append((which,b''.join(ring)))
+  if len(seam_audio)==5:break
   prev=pos
   if f%2048==0:assert channel(r,n)==ptr and r.u32(r.symbols['gMPlayInfo_BGM'])==r.symbols[f'mus_yokai_{n:02d}']
  else:raise AssertionError((n,'Five loops not completed',wraps))
+ assert len(wraps)==5 and len(seam_audio)==5
+ assert all(abs((b['frame']-a['frame'])-period/224)<2 for a,b in zip(wraps,wraps[1:]))
  assert r.call('IsCryFinished')!=0
  # Compare real mixer output with encoded reference, in a low band independent of volume.
  audio=np.frombuffer(b''.join(chunks),dtype='<i2').reshape(-1,2).mean(axis=1)
@@ -77,12 +90,23 @@ def run_song(r,n,trigger):
   np.savez(debug/f'{n:02d}-identity.npz',actual=actual,decoded=decoded,first=first,raw=audio)
   r.frame.save(P/'preuves'/f'ost-{n:02d}-diagnostic.png')
  assert min(identity,after_cry_identity)>.85,(n,'Actual decoded source not recognizable before/after SFX',identity,after_cry_identity,first)
+ # Actual audio across each of the five native loop boundaries, not just RAM counters.
+ seam_reference=np.r_[decoded[-round(.35*13379):],decoded[loop_start:loop_start+round(.35*13379)]]
+ seam_template=resample_poly(resample_poly(seam_reference,4000,13379),4,1);seam_template-=seam_template.mean();seam_scores=[]
+ for which,raw_seam in seam_audio:
+  signal=np.frombuffer(raw_seam,dtype='<i2').reshape(-1,2).mean(axis=1)
+  signal=resample_poly(resample_poly(signal,125,2048),4,1)
+  c=fftconvolve(signal,seam_template[::-1],mode='valid');variance=fftconvolve(signal**2,np.ones(len(seam_template)),mode='valid')-fftconvolve(signal,np.ones(len(seam_template)),mode='valid')**2/len(seam_template)
+  score=float(max(c/np.sqrt(np.maximum(1e-12,variance*sum(seam_template**2)))));seam_scores.append(score)
+  debug=private/'previews';debug.mkdir(exist_ok=True)
+  with wave.open(str(debug/f'{n:02d}-loop-{which}.wav'),'wb') as w:w.setnchannels(2);w.setsampwidth(2);w.setframerate(65536);w.writeframes(raw_seam)
+ assert min(seam_scores)>.85,(n,'Actual loop audio does not match wrapped encoded waveform',seam_scores)
  demo=private/'previews';demo.mkdir(exist_ok=True)
  with wave.open(str(demo/f'{n:02d}-mgba-8s.wav'),'wb') as w:w.setnchannels(2);w.setsampwidth(2);w.setframerate(65536);w.writeframes(b''.join(chunks))
  r.frame.save(P/'preuves'/f'ost-{n:02d}-en-jeu.png');r.lib.retro_set_audio_sample_batch(r.callbacks[3])
  assert r.call('TrySavingData',0,max_frames=1200)==1
  assert r.u32(r.symbols['gMPlayInfo_BGM'])==r.symbols[f'mus_yokai_{n:02d}']
- results.append({'number':n,'passed':True,'trigger':trigger,'five_native_loop_wraps':wraps,'native_samples_per_frame':224,'expected_frames_per_cycle':period/224,'intro_not_repeated':True,'audio_reference_pearson_correlation':identity,'after_SFX_and_cry_correlation':after_cry_identity,'analysis_sample_rate_hz':4000,'alignment_grid_hz':16000,'initial_native_sample_position':first,'select_SFX_and_cry_native_calls':True,'cry_completed':True,'native_Flash_save_with_music':True,'native_frames':frames,'source_sample_period':period,'perceptual_listening_validated':False,'audio_demo':'Private output/previews only, not public GitHub'})
+ results.append({'number':n,'passed':True,'trigger':trigger,'five_native_loop_wraps':wraps,'five_actual_audio_seam_correlations':seam_scores,'native_samples_per_frame':224,'expected_frames_per_cycle':period/224,'intro_not_repeated':True,'audio_reference_pearson_correlation':identity,'after_SFX_and_cry_correlation':after_cry_identity,'analysis_sample_rate_hz':4000,'alignment_grid_hz':16000,'initial_native_sample_position':first,'select_SFX_and_cry_native_calls':True,'cry_completed':True,'native_Flash_save_with_music':True,'native_frames':frames,'source_sample_period':period,'perceptual_listening_validated':False,'audio_demo':'Private output/previews only, not public GitHub'})
 
 def main(numbers):
  for n in numbers:

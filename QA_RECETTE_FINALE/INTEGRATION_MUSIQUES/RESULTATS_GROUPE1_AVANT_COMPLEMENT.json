@@ -1,0 +1,265 @@
+{
+  "passed": false,
+  "error": "(17, 'Actual decoded source not recognizable in mixer output', 0.7533735513074792, 85120)",
+  "private_rom_sha256": "8ede0e72be0db5a4b19c72794c06c12c0c44cb847493dec8df349d483199bf47",
+  "private_rom_bytes": 21208756,
+  "scope": "Real map/bicycle/NPC music in compiled optional audio ROM; fixture warps/flags; five native full loops. Not whole story, hardware profiling or perceptual listening.",
+  "results": [
+    {
+      "number": 1,
+      "passed": true,
+      "trigger": "Registered Bicycle SELECT",
+      "five_native_loop_wraps": [
+        {
+          "frame": 4455,
+          "sample_after_wrap": 142
+        },
+        {
+          "frame": 8942,
+          "sample_after_wrap": 60
+        },
+        {
+          "frame": 13430,
+          "sample_after_wrap": 202
+        },
+        {
+          "frame": 17917,
+          "sample_after_wrap": 120
+        },
+        {
+          "frame": 22404,
+          "sample_after_wrap": 38
+        }
+      ],
+      "intro_not_repeated": true,
+      "audio_reference_pearson_correlation_2kHz": 0.9650857403166017,
+      "select_SFX_and_cry_native_calls": true,
+      "cry_completed": true,
+      "native_Flash_save_with_music": true,
+      "native_frames": 22404,
+      "source_sample_period": 1005170,
+      "perceptual_listening_validated": false,
+      "audio_demo": "Private output/previews only, not public GitHub",
+      "second_SELECT_restores_zone_music_and_on_foot": true
+    },
+    {
+      "number": 2,
+      "passed": true,
+      "trigger": "Actual optional NPC battle through A/Yes; progression flags/strong party prepared",
+      "five_native_loop_wraps": [
+        {
+          "frame": 2622,
+          "sample_after_wrap": 67271
+        },
+        {
+          "frame": 5762,
+          "sample_after_wrap": 67342
+        },
+        {
+          "frame": 8901,
+          "sample_after_wrap": 67189
+        },
+        {
+          "frame": 12041,
+          "sample_after_wrap": 67260
+        },
+        {
+          "frame": 15181,
+          "sample_after_wrap": 67331
+        }
+      ],
+      "intro_not_repeated": true,
+      "audio_reference_pearson_correlation_2kHz": 0.9418246496876033,
+      "select_SFX_and_cry_native_calls": true,
+      "cry_completed": true,
+      "native_Flash_save_with_music": true,
+      "native_frames": 15181,
+      "source_sample_period": 703289,
+      "perceptual_listening_validated": false,
+      "audio_demo": "Private output/previews only, not public GitHub",
+      "actual_battle_finished_and_exploration_music_restored": true
+    },
+    {
+      "number": 4,
+      "passed": true,
+      "trigger": "Native warp/map music: PokemonTower_1F",
+      "five_native_loop_wraps": [
+        {
+          "frame": 6460,
+          "sample_after_wrap": 121106
+        },
+        {
+          "frame": 12713,
+          "sample_after_wrap": 121252
+        },
+        {
+          "frame": 18965,
+          "sample_after_wrap": 121174
+        },
+        {
+          "frame": 25217,
+          "sample_after_wrap": 121096
+        },
+        {
+          "frame": 31470,
+          "sample_after_wrap": 121242
+        }
+      ],
+      "intro_not_repeated": true,
+      "audio_reference_pearson_correlation_2kHz": 0.9663021203522096,
+      "select_SFX_and_cry_native_calls": true,
+      "cry_completed": true,
+      "native_Flash_save_with_music": true,
+      "native_frames": 31470,
+      "source_sample_period": 1400526,
+      "perceptual_listening_validated": false,
+      "audio_demo": "Private output/previews only, not public GitHub"
+    },
+    {
+      "number": 6,
+      "passed": true,
+      "trigger": "Actual optional NPC battle through A/Yes; progression flags/strong party prepared",
+      "five_native_loop_wraps": [
+        {
+          "frame": 6056,
+          "sample_after_wrap": 27381
+        },
+        {
+          "frame": 12814,
+          "sample_after_wrap": 27434
+        },
+        {
+          "frame": 19571,
+          "sample_after_wrap": 27263
+        },
+        {
+          "frame": 26329,
+          "sample_after_wrap": 27316
+        },
+        {
+          "frame": 33087,
+          "sample_after_wrap": 27369
+        }
+      ],
+      "intro_not_repeated": true,
+      "audio_reference_pearson_correlation_2kHz": 0.9554467419187057,
+      "select_SFX_and_cry_native_calls": true,
+      "cry_completed": true,
+      "native_Flash_save_with_music": true,
+      "native_frames": 33087,
+      "source_sample_period": 1513739,
+      "perceptual_listening_validated": false,
+      "audio_demo": "Private output/previews only, not public GitHub",
+      "actual_battle_finished_and_exploration_music_restored": true
+    },
+    {
+      "number": 11,
+      "passed": true,
+      "trigger": "Native warp/map music: SilphCo_11F",
+      "five_native_loop_wraps": [
+        {
+          "frame": 5837,
+          "sample_after_wrap": 1306
+        },
+        {
+          "frame": 11701,
+          "sample_after_wrap": 1268
+        },
+        {
+          "frame": 17565,
+          "sample_after_wrap": 1230
+        },
+        {
+          "frame": 23430,
+          "sample_after_wrap": 1416
+        },
+        {
+          "frame": 29294,
+          "sample_after_wrap": 1378
+        }
+      ],
+      "intro_not_repeated": true,
+      "audio_reference_pearson_correlation_2kHz": 0.9491438008869632,
+      "select_SFX_and_cry_native_calls": true,
+      "cry_completed": true,
+      "native_Flash_save_with_music": true,
+      "native_frames": 29294,
+      "source_sample_period": 1313574,
+      "perceptual_listening_validated": false,
+      "audio_demo": "Private output/previews only, not public GitHub",
+      "liberated_Silph_returns_native_music": true
+    },
+    {
+      "number": 14,
+      "passed": true,
+      "trigger": "Native warp/map music: ThreeIsland_BerryForest",
+      "five_native_loop_wraps": [
+        {
+          "frame": 3486,
+          "sample_after_wrap": 40973
+        },
+        {
+          "frame": 7172,
+          "sample_after_wrap": 40954
+        },
+        {
+          "frame": 10858,
+          "sample_after_wrap": 40935
+        },
+        {
+          "frame": 14544,
+          "sample_after_wrap": 40916
+        },
+        {
+          "frame": 18230,
+          "sample_after_wrap": 40897
+        }
+      ],
+      "intro_not_repeated": true,
+      "audio_reference_pearson_correlation_2kHz": 0.9560733990108996,
+      "select_SFX_and_cry_native_calls": true,
+      "cry_completed": true,
+      "native_Flash_save_with_music": true,
+      "native_frames": 18230,
+      "source_sample_period": 825683,
+      "perceptual_listening_validated": false,
+      "audio_demo": "Private output/previews only, not public GitHub"
+    },
+    {
+      "number": 16,
+      "passed": true,
+      "trigger": "Native warp/map music: TwoIsland",
+      "five_native_loop_wraps": [
+        {
+          "frame": 4995,
+          "sample_after_wrap": 54302
+        },
+        {
+          "frame": 10132,
+          "sample_after_wrap": 54396
+        },
+        {
+          "frame": 15269,
+          "sample_after_wrap": 54490
+        },
+        {
+          "frame": 20405,
+          "sample_after_wrap": 54360
+        },
+        {
+          "frame": 25542,
+          "sample_after_wrap": 54454
+        }
+      ],
+      "intro_not_repeated": true,
+      "audio_reference_pearson_correlation_2kHz": 0.9118657207857859,
+      "select_SFX_and_cry_native_calls": true,
+      "cry_completed": true,
+      "native_Flash_save_with_music": true,
+      "native_frames": 25542,
+      "source_sample_period": 1150594,
+      "perceptual_listening_validated": false,
+      "audio_demo": "Private output/previews only, not public GitHub"
+    }
+  ]
+}

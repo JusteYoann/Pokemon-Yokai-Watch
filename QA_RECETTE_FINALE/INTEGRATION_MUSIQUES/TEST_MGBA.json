@@ -1,46 +1,58 @@
 {
   "passed": true,
   "error": null,
-  "private_rom_sha256": "78df2ecc88c70461b809b9410bd974aefe07e007a209f9f2afe755cf2d719d7d",
-  "private_rom_bytes": 21208756,
+  "private_rom_sha256": "1d67655132a306aa5418f8861a0b5c5af4a6cf4a8a4fa1b4e6a4416e4b1cb2d9",
+  "private_rom_bytes": 21209184,
   "scope": "Real map/bicycle/NPC music in compiled optional audio ROM; fixture warps/flags; five native full loops. Not whole story, hardware profiling or perceptual listening.",
   "results": [
     {
-      "number": 1,
+      "number": 17,
       "passed": true,
-      "trigger": "Registered Bicycle SELECT",
+      "trigger": "Native warp/map music: RocketHideout_B1F",
       "five_native_loop_wraps": [
         {
-          "frame": 4455,
-          "sample_after_wrap": 142
+          "frame": 6264,
+          "sample_after_wrap": 67452
         },
         {
-          "frame": 8942,
-          "sample_after_wrap": 60
+          "frame": 12608,
+          "sample_after_wrap": 67256
         },
         {
-          "frame": 13430,
-          "sample_after_wrap": 202
+          "frame": 18953,
+          "sample_after_wrap": 67284
         },
         {
-          "frame": 17917,
-          "sample_after_wrap": 120
+          "frame": 25298,
+          "sample_after_wrap": 67312
         },
         {
-          "frame": 22404,
-          "sample_after_wrap": 38
+          "frame": 31643,
+          "sample_after_wrap": 67340
         }
       ],
+      "five_actual_audio_seam_correlations": [
+        0.932899072001142,
+        0.9206332041833262,
+        0.9484525394849007,
+        0.9465020986052218,
+        0.9216306580489161
+      ],
+      "native_samples_per_frame": 224,
+      "expected_frames_per_cycle": 6344.875,
       "intro_not_repeated": true,
-      "audio_reference_correlation_1kHz": 0.9442783231720805,
+      "audio_reference_pearson_correlation": 0.9395033034533158,
+      "after_SFX_and_cry_correlation": 0.9256798964192821,
+      "analysis_sample_rate_hz": 4000,
+      "alignment_grid_hz": 16000,
+      "initial_native_sample_position": 85120,
       "select_SFX_and_cry_native_calls": true,
       "cry_completed": true,
       "native_Flash_save_with_music": true,
-      "native_frames": 22404,
-      "source_sample_period": 1005170,
+      "native_frames": 31683,
+      "source_sample_period": 1421252,
       "perceptual_listening_validated": false,
-      "audio_demo": "Private output/previews only, not public GitHub",
-      "second_SELECT_restores_zone_music_and_on_foot": true
+      "audio_demo": "Private output/previews only, not public GitHub"
     }
   ]
 }

@@ -1,0 +1,47 @@
+{
+  "passed": false,
+  "error": "(20, 'Actual decoded source not recognizable in mixer output', 0.8083495779535271, 174272)",
+  "private_rom_sha256": "8ede0e72be0db5a4b19c72794c06c12c0c44cb847493dec8df349d483199bf47",
+  "private_rom_bytes": 21208756,
+  "scope": "Real map/bicycle/NPC music in compiled optional audio ROM; fixture warps/flags; five native full loops. Not whole story, hardware profiling or perceptual listening.",
+  "results": [
+    {
+      "number": 17,
+      "passed": true,
+      "trigger": "Native warp/map music: RocketHideout_B1F",
+      "five_native_loop_wraps": [
+        {
+          "frame": 6264,
+          "sample_after_wrap": 67452
+        },
+        {
+          "frame": 12608,
+          "sample_after_wrap": 67256
+        },
+        {
+          "frame": 18953,
+          "sample_after_wrap": 67284
+        },
+        {
+          "frame": 25298,
+          "sample_after_wrap": 67312
+        },
+        {
+          "frame": 31643,
+          "sample_after_wrap": 67340
+        }
+      ],
+      "intro_not_repeated": true,
+      "audio_reference_pearson_correlation": 0.8607509043060282,
+      "analysis_sample_rate_hz": 4000,
+      "initial_native_sample_position": 85120,
+      "select_SFX_and_cry_native_calls": true,
+      "cry_completed": true,
+      "native_Flash_save_with_music": true,
+      "native_frames": 31643,
+      "source_sample_period": 1421252,
+      "perceptual_listening_validated": false,
+      "audio_demo": "Private output/previews only, not public GitHub"
+    }
+  ]
+}

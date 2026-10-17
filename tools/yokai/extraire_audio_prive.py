@@ -10,7 +10,7 @@ def extract(archives,destination):
  lib=C.CDLL(ctypes.util.find_library('archive'))
  signatures=[('archive_read_new',[],C.c_void_p),('archive_read_support_filter_all',[C.c_void_p],C.c_int),('archive_read_support_format_all',[C.c_void_p],C.c_int),('archive_read_open_filename',[C.c_void_p,C.c_char_p,C.c_size_t],C.c_int),('archive_read_next_header',[C.c_void_p,C.POINTER(C.c_void_p)],C.c_int),('archive_entry_pathname_utf8',[C.c_void_p],C.c_char_p),('archive_entry_filetype',[C.c_void_p],C.c_uint),('archive_read_data',[C.c_void_p,C.c_void_p,C.c_size_t],C.c_longlong),('archive_read_free',[C.c_void_p],C.c_int),('archive_error_string',[C.c_void_p],C.c_char_p)]
  for name,args,result in signatures:f=getattr(lib,name);f.argtypes=args;f.restype=result
- rows=[];destination=destination.resolve();destination.mkdir(parents=True,exist_ok=True)
+ rows=[];destination=destination.resolve();assert not destination.is_relative_to(Path(__file__).resolve().parents[2]), 'Extract protected references outside checkout';destination.mkdir(parents=True,exist_ok=True)
  for archive in archives:
   handle=lib.archive_read_new();lib.archive_read_support_filter_all(handle);lib.archive_read_support_format_all(handle)
   try:
