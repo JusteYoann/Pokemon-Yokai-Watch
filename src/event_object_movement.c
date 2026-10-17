@@ -475,6 +475,7 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 #define OBJ_EVENT_PAL_TAG_YOKAI_MORLEONE_GROUP 0x1125
 #define OBJ_EVENT_PAL_TAG_YOKAI_FRIEND                 0x1120
 #define OBJ_EVENT_PAL_TAG_YOKAI_PLAYER_BRIDGE          0x111F
+#define OBJ_EVENT_PAL_TAG_YOKAI_ENMA_CREATURE 0x1126
 #define OBJ_EVENT_PAL_TAG_YOKAI_ENMA                  0x111E
 #define OBJ_EVENT_PAL_TAG_ARIANE                      0x111D
 #define OBJ_EVENT_PAL_TAG_MATT                        0x111C
@@ -497,6 +498,7 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_YokaiDonMorleoneGroup, OBJ_EVENT_PAL_TAG_YOKAI_MORLEONE_GROUP},
     {gObjectEventPal_Matt, OBJ_EVENT_PAL_TAG_MATT},
     {gObjectEventPal_Ariane, OBJ_EVENT_PAL_TAG_ARIANE},
+    {gObjectEventPal_YokaiEnmaCreature, OBJ_EVENT_PAL_TAG_YOKAI_ENMA_CREATURE},
     {gObjectEventPal_YokaiEnma, OBJ_EVENT_PAL_TAG_YOKAI_ENMA},
     {gObjectEventPal_YokaiPlayerBridge, OBJ_EVENT_PAL_TAG_YOKAI_PLAYER_BRIDGE},
     {gObjectEventPal_NpcBlue,                 OBJ_EVENT_PAL_TAG_NPC_BLUE},
@@ -532,6 +534,7 @@ static const u16 sYokaiDomniscianGroupReflectionPaletteTags[] = {OBJ_EVENT_PAL_T
 
 static const u16 sYokaiDonMorleoneGroupReflectionPaletteTags[] = {OBJ_EVENT_PAL_TAG_YOKAI_MORLEONE_GROUP, OBJ_EVENT_PAL_TAG_YOKAI_MORLEONE_GROUP, OBJ_EVENT_PAL_TAG_YOKAI_MORLEONE_GROUP, OBJ_EVENT_PAL_TAG_YOKAI_MORLEONE_GROUP};
 
+static const u16 sYokaiEnmaCreatureReflectionPaletteTags[] = {OBJ_EVENT_PAL_TAG_YOKAI_ENMA_CREATURE, OBJ_EVENT_PAL_TAG_YOKAI_ENMA_CREATURE, OBJ_EVENT_PAL_TAG_YOKAI_ENMA_CREATURE, OBJ_EVENT_PAL_TAG_YOKAI_ENMA_CREATURE};
 static const u16 sYokaiEnmaReflectionPaletteTags[] = {OBJ_EVENT_PAL_TAG_YOKAI_ENMA, OBJ_EVENT_PAL_TAG_YOKAI_ENMA, OBJ_EVENT_PAL_TAG_YOKAI_ENMA, OBJ_EVENT_PAL_TAG_YOKAI_ENMA};
 
 static const u16 sArianeReflectionPaletteTags[] = {OBJ_EVENT_PAL_TAG_ARIANE, OBJ_EVENT_PAL_TAG_ARIANE, OBJ_EVENT_PAL_TAG_ARIANE, OBJ_EVENT_PAL_TAG_ARIANE};
@@ -655,6 +658,7 @@ static const struct PairedPalettes gSpecialObjectReflectionPaletteSets[] = {
     {OBJ_EVENT_PAL_TAG_YOKAI_WYATT, sYokaiWyattReflectionPaletteTags},
     {OBJ_EVENT_PAL_TAG_YOKAI_DOMNISCIAN_GROUP, sYokaiDomniscianGroupReflectionPaletteTags},
     {OBJ_EVENT_PAL_TAG_YOKAI_MORLEONE_GROUP, sYokaiDonMorleoneGroupReflectionPaletteTags},
+    {OBJ_EVENT_PAL_TAG_YOKAI_ENMA_CREATURE, sYokaiEnmaCreatureReflectionPaletteTags},
     {OBJ_EVENT_PAL_TAG_YOKAI_ENMA,          sYokaiEnmaReflectionPaletteTags},
     {OBJ_EVENT_PAL_TAG_YOKAI_FRIEND,        sYokaiFriendReflectionPaletteTags},
     {OBJ_EVENT_PAL_TAG_RS_SUBMARINE_SHADOW, sRSSubmarineShadowReflectionPaletteTags},

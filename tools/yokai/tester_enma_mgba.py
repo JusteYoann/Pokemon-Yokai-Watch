@@ -117,12 +117,17 @@ try:
  r.w32(r.symbols['gBattleTypeFlags'],0)
  interact();frames=fight_until(0x303)
  assert flag(0x303) and not flag(0x305)
+ assert r.call('GetSetPokedexFlag',150,1)==0, 'Trainer victory must not mark Enma caught'
  results.append({'test':'Native six-member approved team and actual victory unlock persistent Enma flag','frames':frames,'passed':True})
  strong();before=r.call('GetGameStat',9)
  interact();frames=fight_until(0x303)
  assert r.call('GetGameStat',9)==before+1
  results.append({'test':'Voluntary rematch completes, no extra item reward','frames':frames,'passed':True})
  warp(1,74,7,13);assert visible(3,74,1)
+ enma_object=r.call('GetObjectEventIdByLocalIdAndMap',3,74,1)
+ assert r.read(r.symbols['gObjectEvents']+enma_object*36+5,1)==bytes([168]), 'Capturable feline must not use Lord Enma NPC'
+ assert r.read(r.symbols['gPlttBufferUnfaded']+512+10*32,32)==(ROOT/'graphics/yokai_characters/enma_creature/normal.gbapal').read_bytes()
+ results.append({'test':'Capturable feline Enma uses distinct object168/palette, Lord Enma NPC remains154 at summit; trainer win did not mark creature caught','passed':True})
  r.frame.save(proof/'enma-debloque-caverne-azuree.png')
  assert flag(0x303)
  assert r.call('TrySavingData',0,max_frames=1200)==1
@@ -164,6 +169,7 @@ try:
   raise AssertionError('Actual Master Ball capture did not return to map')
  r.keys=set();finish_dialogue()
  assert flag(0x305) and flag(0x2BC) and not visible(3,74,1)
+ assert r.call('GetSetPokedexFlag',150,1)==1, 'Only actual capture marks Enma caught'
  assert r.call('GetMonData',r.symbols['gPlayerParty']+100,C['MON_DATA_SPECIES'],0)==150
  r.frame.save(proof/'enma-capture-unique.png')
  assert r.call('TrySavingData',0,max_frames=1200)==1

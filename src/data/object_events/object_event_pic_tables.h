@@ -1830,3 +1830,7 @@ static const struct SpriteFrameImage sPicTable_YokaiMafiamille3[] = {
     overworld_frame(gObjectEventPic_YokaiMafiamille3, 2, 4, 1),
     overworld_frame(gObjectEventPic_YokaiMafiamille3, 2, 4, 2),
 };
+
+static const struct SpriteFrameImage sPicTable_YokaiEnmaCreature[] = {
+    overworld_frame(gObjectEventPic_YokaiEnmaCreature, 4, 4, 0),
+};

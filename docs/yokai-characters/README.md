@@ -23,3 +23,11 @@ Nathan/Katie disposent des séries de déplacement/action et des écrans seconda
 - [Don Morleone](../../graphics/yokai_characters/don_morleone/preview-checkerboard.png), [Mafiamille1](../../graphics/yokai_characters/mafiamille_1/preview-checkerboard.png), [Mafiamille2](../../graphics/yokai_characters/mafiamille_2/preview-checkerboard.png), [Mafiamille3](../../graphics/yokai_characters/mafiamille_3/preview-checkerboard.png).
 
 Ces sept portraits et leurs overworld sont actifs. Chaque groupe utilise une palette commune vérifiée dans la mémoire de mGBA. [Domniscian et employés, quatre orientations](../../QA_RECETTE_FINALE/RECONSTRUCTION/preuves/cameo-domniscian-groupe-directions.png) ; [Don Morleone et Mafiamille, quatre orientations](../../QA_RECETTE_FINALE/RECONSTRUCTION/preuves/cameo-morleone-groupe-directions.png). Les combats, prérequis et récompenses sont contrôlés dans TEST_CAMEOS_BOSS_MGBA.json ; les musiques personnelles restent en attente.
+
+## Enma : personnage et créature distincts
+
+Le Seigneur Enma du Mont Braise conserve son portrait de dresseur et ses trois poses de PNJ. Le Yo-kai Enma capturable de la Caverne Azurée possède désormais un overworld félin violet à flammes, adapté de son sprite de combat validé n°150. Les données de l’espèce et les conditions de capture ne changent pas.
+
+![Créature Enma — aperçu sur damier](../../graphics/yokai_characters/enma_creature/preview-checkerboard.png)
+
+Ressources : `graphics/yokai_characters/enma_creature/` ; dessin source conservé, conversion technique reproductible avec `tools/yokai/convertir_enma_creature.py`. Une pose statique32×32, palette4bpp15couleurs opaques +index0 transparent ; animation inanimée native, aucune marche requise pour cette rencontre.

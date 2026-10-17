@@ -1,6 +1,6 @@
 {
   "engine": "mGBA libretro",
-  "rom_sha256": "f0fc873c7081db9ba04bce90af9d37b0a14b8eff8170f1ff2e0a11d1fdfd739f",
+  "rom_sha256": "c8cea690940e430e13784bc7a6bd59546bb159268161ee2862c6d2ef292885f7",
   "scope": "Native map transitions and actual NPC/controller battles/capture; fixture warps, progress flags and strong party, not a complete adventure playthrough",
   "fixture_isolation": "Independent emulator instances for defeat and victory; no savestate restore in Flash tests",
   "battle_style_after_capture": "SET option in test fixture; captured Enma retained in party",
@@ -25,7 +25,11 @@
     },
     {
       "test": "Voluntary rematch completes, no extra item reward",
-      "frames": 12160,
+      "frames": 12608,
+      "passed": true
+    },
+    {
+      "test": "Capturable feline Enma uses distinct object168/palette, Lord Enma NPC remains154 at summit; trainer win did not mark creature caught",
       "passed": true
     },
     {

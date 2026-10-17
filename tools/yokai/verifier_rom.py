@@ -135,6 +135,13 @@ if enma.exists():
     im=Image.open(enma/'kyubi_overworld.png');assert im.size==(32,32)
     assert data('gObjectEventPic_YokaiKyubi')==encode4(im)
     assert data('gObjectEventPal_YokaiEnma')==(enma/'normal.gbapal').read_bytes()
+enma_creature=R/'graphics/yokai_characters/enma_creature'
+if enma_creature.exists():
+    im=Image.open(enma_creature/'overworld.png');assert im.size==(32,32) and im.mode=='P' and im.info.get('transparency')==0
+    assert data('gObjectEventPic_YokaiEnmaCreature')==encode4(im)
+    assert data('gObjectEventPal_YokaiEnmaCreature')==(enma_creature/'normal.gbapal').read_bytes()
+    assert '"OBJ_EVENT_GFX_YOKAI_ENMA_CREATURE"' in (R/'data/maps/CeruleanCave_B1F/map.json').read_text()
+    assert '"OBJ_EVENT_GFX_YOKAI_ENMA"' in (R/'data/maps/MtEmber_Summit/map.json').read_text()
 protagonists_active='graphics/yokai_characters/nathan/normal.4bpp' in (R/'src/data/object_events/object_event_graphics.h').read_text()
 def encode8(im):
     return bytes(im.getpixel((tx+x,ty+y)) for ty in range(0,im.height,8) for tx in range(0,im.width,8) for y in range(8) for x in range(8))
@@ -188,6 +195,6 @@ if boss_spec.exists():
         assert data('gObjectEventPal_Yokai'+group+'Group')==(root/'normal.gbapal').read_bytes()
         assert data('gObjectEventPic_Yokai'+person)==b''.join(encode4(ow.crop((x,0,x+width,32))) for x in range(0,width*3,width))
         boss_cameo_frames+=4
-report={'rom_sha256':hashlib.sha256(rom).hexdigest(),'rom_size':len(rom),'species_stats_and_abilities_verified':151,'encoded_display_names_verified':151,'linked_graphic_resources_verified':checks,'historical_graphics_preserved_except_whitelist':True,'evolution_edges_verified':len(evolutions),'linked_learnsets_verified':151,'french_move_and_ability_labels_verified':len(json.loads((R/'data/yokai/libelles_attaques_talents.json').read_text())),'matt_native_frames_verified':12 if matt.exists() else 0,'ariane_and_usapion_native_frames_verified':5 if ariane.exists() else 0,'enma_and_kyubi_native_frames_verified':5 if enma.exists() else 0,'protagonist_native_frame_slots_verified':146 if protagonists_active else 0,'matt_additional_intro_and_credit_frames_verified':7 if protagonists_active else 0,'additional_adventure_cameo_native_frames_verified':cameo_extra_frames,'postgame_boss_cameo_native_frames_verified':boss_cameo_frames,'emulator_tests':False,'final_shiny_artwork_validated':False,'verdict':'JALON DONNEES/GRAPHISMES LIE ; RECETTE COMPLETE NON TERMINEE'}
+report={'rom_sha256':hashlib.sha256(rom).hexdigest(),'rom_size':len(rom),'species_stats_and_abilities_verified':151,'encoded_display_names_verified':151,'linked_graphic_resources_verified':checks,'historical_graphics_preserved_except_whitelist':True,'evolution_edges_verified':len(evolutions),'linked_learnsets_verified':151,'french_move_and_ability_labels_verified':len(json.loads((R/'data/yokai/libelles_attaques_talents.json').read_text())),'matt_native_frames_verified':12 if matt.exists() else 0,'ariane_and_usapion_native_frames_verified':5 if ariane.exists() else 0,'enma_and_kyubi_native_frames_verified':5 if enma.exists() else 0,'distinct_enma_creature_frame_verified':1 if enma_creature.exists() else 0,'protagonist_native_frame_slots_verified':146 if protagonists_active else 0,'matt_additional_intro_and_credit_frames_verified':7 if protagonists_active else 0,'additional_adventure_cameo_native_frames_verified':cameo_extra_frames,'postgame_boss_cameo_native_frames_verified':boss_cameo_frames,'emulator_tests':False,'final_shiny_artwork_validated':False,'verdict':'JALON DONNEES/GRAPHISMES LIE ; RECETTE COMPLETE NON TERMINEE'}
 out=R/'QA_RECETTE_FINALE/RECONSTRUCTION/CONTROLE_ROM.json';out.parent.mkdir(parents=True,exist_ok=True);out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))

@@ -172,7 +172,8 @@
 #define OBJ_EVENT_GFX_YOKAI_MAFIAMILLE1 165
 #define OBJ_EVENT_GFX_YOKAI_MAFIAMILLE2 166
 #define OBJ_EVENT_GFX_YOKAI_MAFIAMILLE3 167
-#define NUM_OBJ_EVENT_GFX     168
+#define OBJ_EVENT_GFX_YOKAI_ENMA_CREATURE 168
+#define NUM_OBJ_EVENT_GFX     169
 
 // These are dynamic object gfx ids.
 // They correspond with the values of the VAR_OBJ_GFX_ID_X vars.

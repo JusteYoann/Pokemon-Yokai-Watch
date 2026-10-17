@@ -269,3 +269,6 @@ const u16 gObjectEventPic_YokaiMafiamille3[] = INCBIN_U16("graphics/yokai_charac
 const u16 gObjectEventPal_YokaiDomniscianGroup[] = INCBIN_U16("graphics/yokai_characters/domniscian/normal.gbapal");
 
 const u16 gObjectEventPal_YokaiDonMorleoneGroup[] = INCBIN_U16("graphics/yokai_characters/don_morleone/normal.gbapal");
+
+const u16 gObjectEventPal_YokaiEnmaCreature[] = INCBIN_U16("graphics/yokai_characters/enma_creature/normal.gbapal");
+const u16 gObjectEventPic_YokaiEnmaCreature[] = INCBIN_U16("graphics/yokai_characters/enma_creature/overworld.4bpp");
