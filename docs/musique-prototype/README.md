@@ -1,5 +1,7 @@
 # Direction validée et prototype instrumental Bicycle Theme
 
+> **Mise à jour après demande explicite du créateur :** [télécharger l’extrait MP3 de 30 secondes](previews/BICYCLE_EXTRAIT_30S.mp3?raw=true). Seul cet extrait de la synthèse GBA est désormais public. Les mentions de confidentialité ci-dessous décrivent la livraison initiale ; le rendu complet, le MIDI, la séquence, le paquet de travail et les MP3 originaux restent privés.
+
 Les thèmes personnels demandés sont tous deux dans les 80 MP3. Aucune référence supplémentaire n’est nécessaire pour ces deux combats.
 
 |Combat|Référence retenue obligatoirement|Source exacte|
