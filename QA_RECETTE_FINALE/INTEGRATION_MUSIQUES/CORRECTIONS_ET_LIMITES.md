@@ -21,3 +21,11 @@ La mesure finale compare une bande échantillonnée à4kHz, retire le continu, p
 Les fenêtres natives, les captures et les empreintes correspondent aux ROM indiquées dans chaque rapport. Les anciens rapports de tests partiels/échoués restent des preuves historiques, pas le verdict de la version courante. Aucun test ciblé ne prouve le parcours complet du jeu ni les performances sur une console physique.
 
 La comparaison des raccords est maintenant effectuée sur **cinq fenêtres audio réellement sorties de mGBA par morceau**, autour de chaque retour de l’échantillon. Ces fenêtres correspondent au signal décodé fin→début de boucle, pas seulement à la position lue dans la RAM. Les WAV de preuve restent privés. La fréquence d’analyse4kHz et la grille d’alignement16kHz sont des paramètres de mesure ; tous les morceaux restent encodés/lus à **13 379Hz**. La cadence entre raccords est aussi comparée à la durée attendue du sample.
+
+## Bois Baies : raccord superposé à un cri ambiant
+
+La capture du premier raccord du Bois Baies contenait un cri ambiant natif. La trace montre deux voix : la musique reste active et progresse normalement, tandis qu’un canal appartenant à gPokemonCryTracks joue par-dessus. Cela empêchait la fenêtre mélangée de correspondre à la musique seule ; les quatre raccords suivants correspondaient déjà à plus de0,97.
+
+La première sonde de cri lisait le mauvais offset de MusicPlayerTrack.chan (28 au lieu de32). Elle est corrigée et comparée à IsPokemonCryPlaying natif sur un vrai cri sans atténuation. TRACE_FORET_PREMIER_RACCORD.json conserve les données de l’ancien essai, y compris ses booléens de sonde incorrects ; VERIFICATION_LECTURE_CRI.json valide la sonde corrigée.
+
+La recette ne désactive pas les sons de la forêt : elle conserve la fenêtre avec cri et réalise un sixième cycle pour obtenir **cinq raccords audio propres**, en plus de la coexistence observée avec ce cri. Un raccord mal corrélé sans cri natif reste un échec. Cela distingue une superposition sonore normale d’une corruption de musique, sans baisser le seuil ni supprimer les bruitages.
