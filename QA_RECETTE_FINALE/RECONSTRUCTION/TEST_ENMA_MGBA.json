@@ -1,6 +1,6 @@
 {
   "engine": "mGBA libretro",
-  "rom_sha256": "4ffa27b3d719c11885c292782823f83052120b03b2a98d7e96b0719c33ac8155",
+  "rom_sha256": "f0fc873c7081db9ba04bce90af9d37b0a14b8eff8170f1ff2e0a11d1fdfd739f",
   "scope": "Native map transitions and actual NPC/controller battles/capture; fixture warps, progress flags and strong party, not a complete adventure playthrough",
   "fixture_isolation": "Independent emulator instances for defeat and victory; no savestate restore in Flash tests",
   "battle_style_after_capture": "SET option in test fixture; captured Enma retained in party",
@@ -20,12 +20,12 @@
     },
     {
       "test": "Native six-member approved team and actual victory unlock persistent Enma flag",
-      "frames": 11904,
+      "frames": 11776,
       "passed": true
     },
     {
       "test": "Voluntary rematch completes, no extra item reward",
-      "frames": 11648,
+      "frames": 12160,
       "passed": true
     },
     {

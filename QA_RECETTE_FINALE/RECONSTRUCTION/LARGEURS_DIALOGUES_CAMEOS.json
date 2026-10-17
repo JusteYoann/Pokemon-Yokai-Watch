@@ -1,10 +1,10 @@
 {
-  "rom_sha256": "4ffa27b3d719c11885c292782823f83052120b03b2a98d7e96b0719c33ac8155",
+  "rom_sha256": "f0fc873c7081db9ba04bce90af9d37b0a14b8eff8170f1ff2e0a11d1fdfd739f",
   "engine": "native GetStringWidth in mGBA",
   "font": "FONT_NORMAL (2)",
   "max_pixels": 208,
   "scope": "Added cameo static dialogue lines only; not all game text or battle dynamic placeholders; not all game text or battle dynamic placeholders",
-  "lines_checked": 190,
+  "lines_checked": 202,
   "results": [
     {
       "file": "data/maps/Route25/scripts.inc",
@@ -177,162 +177,234 @@
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
       "line": 101,
-      "text": "Enma: Alors, c’est toi qui as",
-      "pixels": 157
+      "text": "Enma: Bravo pour la Ligue!",
+      "pixels": 149
     },
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
       "line": 102,
-      "text": "remporté la Ligue? Bien joué!",
-      "pixels": 165
+      "text": "Je suis le Seigneur Enma.",
+      "pixels": 139
     },
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
       "line": 103,
-      "text": "Moi, c’est Enma. J’adore voir",
-      "pixels": 157
+      "text": "J’ai un drôle de protégé…",
+      "pixels": 140
     },
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
       "line": 104,
-      "text": "ce dont les humains sont capables!",
-      "pixels": 191
+      "text": "Des savants ont tenté de copier",
+      "pixels": 173
     },
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
       "line": 105,
-      "text": "Tes amis ont l’air redoutables.",
-      "pixels": 168
+      "text": "ma puissance à partir d’un Jibanyan.",
+      "pixels": 197
     },
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
       "line": 106,
-      "text": "Ça te dit de nous affronter?",
-      "pixels": 156
+      "text": "Ils ont créé un Yo-kai céleste",
+      "pixels": 168
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 107,
+      "text": "artificiel, nommé Enma.",
+      "pixels": 124
     },
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
       "line": 108,
+      "text": "Ce n’est pas moi! Lui et moi,",
+      "pixels": 159
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 109,
+      "text": "nous sommes bien deux êtres.",
+      "pixels": 157
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 110,
+      "text": "Il s’est enfui du laboratoire.",
+      "pixels": 162
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 111,
+      "text": "Je l’ai accueilli et protégé.",
+      "pixels": 158
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 112,
+      "text": "Il combat parfois dans mon équipe!",
+      "pixels": 192
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 113,
+      "text": "Prêt à nous affronter?",
+      "pixels": 122
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 115,
       "text": "Enma: Te revoilà! Depuis notre",
       "pixels": 168
     },
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
-      "line": 109,
+      "line": 116,
       "text": "combat, j’attendais ta visite.",
       "pixels": 161
     },
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
-      "line": 110,
+      "line": 117,
       "text": "Cette fois, je ne retiens rien!",
       "pixels": 168
     },
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
-      "line": 111,
+      "line": 118,
       "text": "On remet ça?",
       "pixels": 69
     },
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
-      "line": 113,
+      "line": 120,
       "text": "Enma: Amusons-nous!",
       "pixels": 107
     },
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
-      "line": 114,
+      "line": 121,
       "text": "Je compte bien tout donner!",
       "pixels": 153
     },
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
-      "line": 116,
+      "line": 123,
       "text": "Ha ha! Quelle énergie!",
       "pixels": 126
     },
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
-      "line": 117,
+      "line": 124,
       "text": "Vous avez été formidables!",
       "pixels": 148
     },
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
-      "line": 119,
-      "text": "Enma: Ce lien avec tes Yo-kai…",
-      "pixels": 169
-    },
-    {
-      "file": "data/maps/MtEmber_Summit/scripts.inc",
-      "line": 120,
-      "text": "Voilà ce qui fait votre force!",
-      "pixels": 167
-    },
-    {
-      "file": "data/maps/MtEmber_Summit/scripts.inc",
-      "line": 121,
-      "text": "Un Enma t’attend maintenant",
-      "pixels": 146
-    },
-    {
-      "file": "data/maps/MtEmber_Summit/scripts.inc",
-      "line": 122,
-      "text": "au fond de la Caverne Azurée.",
-      "pixels": 167
-    },
-    {
-      "file": "data/maps/MtEmber_Summit/scripts.inc",
-      "line": 123,
-      "text": "Va lui montrer votre force!",
+      "line": 126,
+      "text": "Enma: Je suis fier de vous!",
       "pixels": 151
     },
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
-      "line": 124,
+      "line": 127,
+      "text": "Vos liens font votre force.",
+      "pixels": 148
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 128,
+      "text": "L’équilibre entre les humains",
+      "pixels": 156
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 129,
+      "text": "et les Yo-kai reste fragile.",
+      "pixels": 153
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 130,
+      "text": "Je compte beaucoup sur toi",
+      "pixels": 150
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 131,
+      "text": "pour nous aider à le préserver.",
+      "pixels": 174
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 132,
+      "text": "Mon protégé, le Yo-kai Enma,",
+      "pixels": 158
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 133,
+      "text": "est dans la Caverne Azurée.",
+      "pixels": 153
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 134,
+      "text": "Va le rencontrer au plus profond.",
+      "pixels": 185
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 135,
+      "text": "À toi de gagner sa confiance!",
+      "pixels": 163
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 136,
       "text": "Moi, je reste ici pour la revanche.",
       "pixels": 195
     },
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
-      "line": 126,
+      "line": 138,
       "text": "Enma: Excellent! Impossible de",
       "pixels": 169
     },
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
-      "line": 127,
+      "line": 139,
       "text": "s’ennuyer contre vous!",
       "pixels": 121
     },
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
-      "line": 128,
+      "line": 140,
       "text": "Reviens quand tu veux.",
       "pixels": 125
     },
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
-      "line": 129,
+      "line": 141,
       "text": "La prochaine sera encore meilleure!",
       "pixels": 197
     },
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
-      "line": 131,
+      "line": 143,
       "text": "Enma: Pas de problème!",
       "pixels": 127
     },
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
-      "line": 132,
+      "line": 144,
       "text": "Prends le temps de te préparer.",
       "pixels": 175
     },
     {
       "file": "data/maps/MtEmber_Summit/scripts.inc",
-      "line": 133,
+      "line": 145,
       "text": "Un beau combat, ça se savoure!",
       "pixels": 174
     },

@@ -31,7 +31,7 @@ for gender,person in [(0,'nathan'),(1,'katie')]:
   naming_templates.add(r.read(r.u32(r.symbols['sNamingScreen'])+0x1E2C,1)[0])
   # Real keyboard starts at A: type two As, START moves to OK, A accepts.
   pulse(8,15);pulse(8,15);pulse(3,15);pulse(8,20)
-  wait_task('Task_OakSpeech_HandleConfirmNameInput');r.run(10)
+  wait_task('Task_OakSpeech_HandleConfirmNameInput');r.keys=set();r.run(180)
   raw=r.read(r.u32(r.symbols['gSaveBlock2Ptr']),8)
   assert raw.startswith(bytes([glyphs['A'],glyphs['A'],255])),(person,raw.hex())
   r.frame.save(P/(person+'-confirmation-prenom.png'));pulse(8,0)
@@ -42,7 +42,7 @@ for gender,person in [(0,'nathan'),(1,'katie')]:
    if 'Naming' in cb:
     naming_templates.add(r.read(r.u32(r.symbols['sNamingScreen'])+0x1E2C,1)[0])
    if 'Task_OakSpeech_FadeOutRivalPic' in t and not saw_matt:
-    r.keys=set();r.run(10);r.frame.save(P/(person+'-introduction-matt.png'));saw_matt=True
+    r.keys=set();r.run(180);r.frame.save(P/(person+'-introduction-matt.png'));saw_matt=True
    if cb=='CB2_Overworld':break
   else:raise AssertionError((person,'Intro did not reach actual new-game map',cb,tasks()))
   r.keys=set();r.run(180);r.frame.save(P/(person+'-debut-aventure.png'))
