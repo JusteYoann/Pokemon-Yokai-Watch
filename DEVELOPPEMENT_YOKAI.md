@@ -19,7 +19,7 @@ Debian 13 amd64 : `bash RECUPERATION_PROJET/scripts/configurer_outils_debian.sh`
 
 ## Reste à reconstruire et vérifier
 
-Graphismes Nathan/Katie, caméos restants, dialogues français complets, shiny finaux, musiques DPCM, dix quêtes et recette du parcours complet. Les jalons reconstruits sont détaillés ci-dessous.
+Vérifications secondaires Nathan/Katie, caméos restants, dialogues français complets, shiny finaux, musiques DPCM, dix quêtes et recette du parcours complet. Les jalons reconstruits sont détaillés ci-dessous.
 
 Les palettes shiny actuellement raccordées sont HISTORIQUES, pas une validation de la direction artistique finale. Aucune fonctionnalité non testée ne doit être annoncée terminée. Les états et preuves sont conservés dans QA_RECETTE_FINALE/RECONSTRUCTION/.
 
@@ -68,7 +68,7 @@ Référence Protagoniste/Matt Descartes.webp ouverte et comparée à Blue dans l
 
 La grande planche générée est conservée intégralement dans source/generated-sheet.png. Son format réel différait du quadrillage demandé ; les rectangles de découpe audités, l’échantillonnage sans lissage et la conversion GBA sont reproductibles par tools/yokai/convertir_matt.py. Les tons orange du casque et les tons olive sont conservés dans une palette commune. Aperçu opaque sur damier : preview-checkerboard.png. Une frame de marche orientée à droite est retournée via les commandes d’animation du moteur, sans dessiner un autre personnage.
 
-Un défaut d’ordre des tuiles a été détecté sur les captures en jeu et corrigé par une règle explicite de conversion des frames 16×32 dans spritesheet_rules.mk. Les captures corrigées montrent les quatre orientations et trois cycles de marche sur place, ainsi que les trois portraits dans de vrais combats mGBA. Tous les sprites liés sont aussi comparés aux pixels des PNG. Les apparitions scénarisées complètes restent à tester. Nathan et Katie ne sont pas encore dessinés/intégrés ; leurs anciennes ressources restent actives à ce stade.
+Un défaut d’ordre des tuiles a été détecté sur les captures en jeu et corrigé par une règle explicite de conversion des frames 16×32 dans spritesheet_rules.mk. Les captures corrigées montrent les quatre orientations et trois cycles de marche sur place, ainsi que les trois portraits dans de vrais combats mGBA. Tous les sprites liés sont aussi comparés aux pixels des PNG. Les apparitions scénarisées complètes restent à tester. Nathan et Katie sont désormais intégrés dans le jalon décrit ci-dessous.
 
 ## Outils QA et synchronisation
 
@@ -86,7 +86,7 @@ Recette mGBA par vraie interaction sur la carte : refus avec équipe valide ; vi
 
 Les noms/descriptions des cinq pierres d’évolution, de l’Œuf Chance et des trois fossiles sont traduits. Les identifiants techniques et mécanismes sont conservés ; Fossile Nautile est abrégé « Foss. Nauti. » pour les 13 caractères disponibles. Les boutons généraux affichent Oui/Non. Le reste de la traduction reste à faire.
 
-Les autres caméos, Nathan/Katie, les shiny définitifs, les 20 OST DPCM et les dix quêtes restent incomplets. Ariane est un caméo de la base à restaurer, pas l’une des dix nouvelles quêtes. Le verrou supplémentaire d’Enma est désormais décrit dans le jalon suivant.
+Les autres caméos, les vérifications secondaires Nathan/Katie, les shiny définitifs, les 20 OST DPCM et les dix quêtes restent incomplets. Ariane est un caméo de la base à restaurer, pas l’une des dix nouvelles quêtes. Le verrou supplémentaire d’Enma est désormais décrit dans le jalon suivant.
 
 
 ## Seigneur Enma, rencontre unique et overworld Kyubi
@@ -102,3 +102,12 @@ Le test natif couvre les cartes avant/après Ligue, refus, vraie défaite sans d
 L'événement est partagé avec la quête 8, sans duplication. Sa partie dialogue/combat/déblocage est présente ; ses musiques DPCM restent à intégrer. Les neuf autres quêtes ne sont pas encore reconstruites : aucune des dix n'est annoncée complète. Les graphismes des autres rencontres statiques restent à adapter. Résultats et captures : TEST_ENMA_MGBA.json et preuves/enma-*.png.
 
 Les contrôles automatiques sont publiés dans .github/workflows/build.yml : compilation du hack avec COMPARE=0, contrôles des sources liées et tests natifs mGBA. L'accès à l'API Actions est refusé par le proxy actuel ; aucun résultat de CI distante n'est présumé. Les tests locaux et la compilation du clone GitHub sont documentés séparément.
+
+
+## Nathan et Katie : séries originales intégrées
+
+Les sources originales complètes et leur découpe explicite sont conservées dans graphics/yokai_characters/nathan/ et katie/. Pour chacun : marche, course, surf, vélo, montre/cherche VS, pêche, portrait de combat, cinq dos animés, introduction, icône de carte et six frames de crédits. Les 73 emplacements natifs par personnage sont liés et comparés aux PNG. Matt reçoit également son portrait d’introduction et ses six frames de crédits. Les ressources historiques inutilisées restent archivées.
+
+Les premières découpes des planches d’actions incluaient des fragments de cellules voisines ; le contrôle des composantes et la nouvelle découpe corrigent ce problème avant activation. Les aperçus complets opaques montrent les orientations réellement prévues par les commandes hFlip. La palette commune Nathan/Katie conserve les couleurs distinctives, avec reflets propres au joueur, sans modifier les palettes partagées des PNJ. Les animations d’objet utilisent désormais des cadres 32×32 pour que le bras levé ne soit pas tronqué.
+
+Compilation réussie ; 146 frames contrôlées dans la ROM, 151 espèces et 137 graphismes normaux protégés inchangés. Essais mGBA réussis pour les deux sexes : trois cycles marche/course dans les quatre directions, vélo, montre, Cherche VS à pied et à vélo, véritable tâche de pêche dans les quatre directions et retour normal, entrée en combat et lancer avec les nouveaux dos. Preuves TEST_PROTAGONISTES_MGBA.json et preuves/nathan-* / katie-*. Les fixtures choisissent le sexe et le prénom en mémoire ; elles ne prouvent pas encore le parcours de l’introduction, Surf sur l’eau, la carte de dresseur, le Panthéon ou le déroulement des crédits. Aucun parcours complet n’est annoncé.

@@ -1,0 +1,37 @@
+{
+  "engine": "mGBA libretro",
+  "rom_sha256": "cad16543352b97a7002d68b27fe4dcf298bb5da330128362d965a26ea2142e9f",
+  "scope": "Native animation fixtures on Dojo map with defeated original trainers; gender and custom name assigned in fixture, not via intro UI; existing battle entry, not a complete story run",
+  "results": [
+    {
+      "person": "nathan",
+      "test": "Native player actor, three four-direction walk/run cycles, bicycle cycles, field/watch and VS Seeker animations, actual fishing task in four directions and return to normal",
+      "custom_fixture_name_preserved": true,
+      "passed": true
+    },
+    {
+      "person": "nathan",
+      "test": "Actual trainer battle entry and back-throw animation captured; battle not completed",
+      "passed": true
+    },
+    {
+      "person": "katie",
+      "test": "Native player actor, three four-direction walk/run cycles, bicycle cycles, field/watch and VS Seeker animations, actual fishing task in four directions and return to normal",
+      "custom_fixture_name_preserved": true,
+      "passed": true
+    },
+    {
+      "person": "katie",
+      "test": "Actual trainer battle entry and back-throw animation captured; battle not completed",
+      "passed": true
+    }
+  ],
+  "remaining": [
+    "Full introduction UI and naming",
+    "Surf entry on real water",
+    "Trainer Card and Hall of Fame scenes",
+    "Credits playback",
+    "Opposite protagonist cameo events",
+    "Complete adventure"
+  ]
+}

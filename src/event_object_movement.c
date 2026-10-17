@@ -468,6 +468,7 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 #define OBJ_EVENT_PAL_TAG_RS_GROUDON                  0x1119
 #define OBJ_EVENT_PAL_TAG_RS_GROUDON_REFLECTION       0x111A
 #define OBJ_EVENT_PAL_TAG_RS_SUBMARINE_SHADOW         0x111B
+#define OBJ_EVENT_PAL_TAG_YOKAI_PLAYER_BRIDGE          0x111F
 #define OBJ_EVENT_PAL_TAG_YOKAI_ENMA                  0x111E
 #define OBJ_EVENT_PAL_TAG_ARIANE                      0x111D
 #define OBJ_EVENT_PAL_TAG_MATT                        0x111C
@@ -485,6 +486,7 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_Matt, OBJ_EVENT_PAL_TAG_MATT},
     {gObjectEventPal_Ariane, OBJ_EVENT_PAL_TAG_ARIANE},
     {gObjectEventPal_YokaiEnma, OBJ_EVENT_PAL_TAG_YOKAI_ENMA},
+    {gObjectEventPal_YokaiPlayerBridge, OBJ_EVENT_PAL_TAG_YOKAI_PLAYER_BRIDGE},
     {gObjectEventPal_NpcBlue,                 OBJ_EVENT_PAL_TAG_NPC_BLUE},
     {gObjectEventPal_NpcPink,                 OBJ_EVENT_PAL_TAG_NPC_PINK},
     {gObjectEventPal_NpcGreen,                OBJ_EVENT_PAL_TAG_NPC_GREEN},

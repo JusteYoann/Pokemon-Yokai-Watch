@@ -17,7 +17,7 @@ Branche active : **dev/reconstruction-finalisation**. `master` reste préservée
 | Caméos | Ariane/Usapion et Seigneur Enma restaurés ; les cinq autres groupes demandés restent à reconstruire. |
 | Dix quêtes | Quête 8 partielle par l'événement Enma partagé ; neuf autres non reconstruites ; aucune annoncée complète. |
 | 20 OST DPCM | Direction et références préservées ; intégration active : zéro. Inspection du pilote dans AUDIO_DPCM_PREPARATION.md. |
-| Nathan/Katie et autres overworld | Non terminés. Enma/Kyubi et Matt/Ariane sont présents ; les autres ressources restent à produire. |
+| Nathan/Katie et autres overworld | Séries originales complètes intégrées : 73 emplacements par protagoniste, tests natifs terrain/combat réussis. Introduction, Surf et écrans secondaires restent à éprouver. Enma/Kyubi et Matt/Ariane présents ; autres overworld à produire. |
 | Français complet, animations, aventure | Incomplets ; les tests natifs ciblés ne remplacent pas une traversée réelle complète. |
 
 Les essais Enma utilisent les contrôles du jeu pour refus, défaite, victoire, revanches et capture à la Master Ball. Téléportations, niveaux artificiels et option SET de la fixture sont documentés dans TEST_ENMA_MGBA.json. Les 56 lignes ajoutées Ariane/Enma tiennent dans 208 pixels avec la police native.
@@ -35,3 +35,5 @@ La CI est publiée, mais son résultat distant n'a pas pu être consulté (proxy
 Continuer les caméos manquants, Nathan/Katie et les overworld, les shiny finaux, les quêtes et le pipeline musical DPCM, puis la traduction, l'équilibrage et la recette complète. Préserver les choix validés et publier par jalons testés ; aucun nouveau feu vert n'est requis pour les travaux déjà autorisés dans MANDAT_RECONSTRUCTION.md.
 
 **Verdict global : NON PRÊT.** Aucun parcours intégral ni contrôle exhaustif des 354 animations n'a encore été réalisé.
+
+Jalon protagonistes actif : TEST_PROTAGONISTES_MGBA.json, sources graphics/yokai_characters/{nathan,katie,matt}, découpe et conversions reproductibles dans tools/yokai. Les premiers aperçus GIF peuvent être noirs dans l’interface ; chaque animation possède aussi une planche PNG opaque de vraies captures. Reprise : terminer les tests introduction/Surf/écrans secondaires, puis caméos manquants, sans régénérer les dessins déjà intégrés.

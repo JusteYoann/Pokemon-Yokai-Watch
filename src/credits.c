@@ -463,12 +463,12 @@ static const struct WindowTemplate sCreditsWindowTemplate = {
     .baseBlock = 0x008
 };
 
-static const u16 sPlayerMale_Pal[]     = INCBIN_U16("graphics/credits/player_male.gbapal");
-static const u32 sPlayerMale_Tiles[]   = INCBIN_U32("graphics/credits/player_male.4bpp.lz");
-static const u16 sPlayerFemale_Pal[]   = INCBIN_U16("graphics/credits/player_female.gbapal");
-static const u32 sPlayerFemale_Tiles[] = INCBIN_U32("graphics/credits/player_female.4bpp.lz");
-static const u16 sRival_Pal[]          = INCBIN_U16("graphics/credits/rival.gbapal");
-static const u32 sRival_Tiles[]        = INCBIN_U32("graphics/credits/rival.4bpp.lz");
+static const u16 sPlayerMale_Pal[]     = INCBIN_U16("graphics/yokai_characters/nathan/normal.gbapal");
+static const u32 sPlayerMale_Tiles[]   = INCBIN_U32("graphics/yokai_characters/nathan/credits.4bpp.lz");
+static const u16 sPlayerFemale_Pal[]   = INCBIN_U16("graphics/yokai_characters/katie/normal.gbapal");
+static const u32 sPlayerFemale_Tiles[] = INCBIN_U32("graphics/yokai_characters/katie/credits.4bpp.lz");
+static const u16 sRival_Pal[]          = INCBIN_U16("graphics/yokai_characters/matt/normal.gbapal");
+static const u32 sRival_Tiles[]        = INCBIN_U32("graphics/yokai_characters/matt/credits.4bpp.lz");
 static const u16 sGround_Grass_Pal[]   = INCBIN_U16("graphics/credits/ground_grass.gbapal");
 static const u32 sGround_Grass_Tiles[] = INCBIN_U32("graphics/credits/ground_grass.4bpp.lz");
 static const u16 sGround_Dirt_Pal[]    = INCBIN_U16("graphics/credits/ground_dirt.gbapal");

@@ -135,6 +135,31 @@ if enma.exists():
     im=Image.open(enma/'kyubi_overworld.png');assert im.size==(32,32)
     assert data('gObjectEventPic_YokaiKyubi')==encode4(im)
     assert data('gObjectEventPal_YokaiEnma')==(enma/'normal.gbapal').read_bytes()
-report={'rom_sha256':hashlib.sha256(rom).hexdigest(),'rom_size':len(rom),'species_stats_and_abilities_verified':151,'encoded_display_names_verified':151,'linked_graphic_resources_verified':checks,'historical_graphics_preserved_except_whitelist':True,'evolution_edges_verified':len(evolutions),'linked_learnsets_verified':151,'french_move_and_ability_labels_verified':len(json.loads((R/'data/yokai/libelles_attaques_talents.json').read_text())),'matt_native_frames_verified':12 if matt.exists() else 0,'ariane_and_usapion_native_frames_verified':5 if ariane.exists() else 0,'enma_and_kyubi_native_frames_verified':5 if enma.exists() else 0,'emulator_tests':False,'final_shiny_artwork_validated':False,'verdict':'JALON DONNEES/GRAPHISMES LIE ; RECETTE COMPLETE NON TERMINEE'}
+protagonists_active='graphics/yokai_characters/nathan/normal.4bpp' in (R/'src/data/object_events/object_event_graphics.h').read_text()
+def encode8(im):
+    return bytes(im.getpixel((tx+x,ty+y)) for ty in range(0,im.height,8) for tx in range(0,im.width,8) for y in range(8) for x in range(8))
+if protagonists_active:
+    for person,prefix,trainer,role in [('nathan','Red','Red','Male'),('katie','Green','Leaf','Female')]:
+        root=R/'graphics/yokai_characters'/person
+        for file,suffix,width in [('normal','Normal',16),('surf_run','SurfRun',16),('bike','Bike',32),('vs_seeker_bike','VSSeekerBike',32),('item','Item',32),('fish','Fish',32)]:
+            im=Image.open(root/(file+'.png'));assert im.mode=='P' and im.height==32
+            assert data('gObjectEventPic_'+prefix+suffix)==b''.join(encode4(im.crop((x,0,x+width,32))) for x in range(0,im.width,width)),(person,file,'frame tile order')
+        assert unlz(data('gTrainerFrontPic_'+trainer))==encode4(Image.open(root/'front.png'))
+        assert data('gTrainerBackPic_'+trainer)==encode4(Image.open(root/'back.png'))
+        assert unlz(data('gTrainerPalette_'+trainer))==(root/'normal.gbapal').read_bytes()
+        assert unlz(data('gTrainerPalette_'+trainer+'BackPic'))==(root/'normal.gbapal').read_bytes()
+        assert unlz(data('sPlayerIcon_'+trainer))==encode4(Image.open(root/'region_icon.png'))
+        assert data('sPlayerIcon_'+trainer+'Pal')==(root/'normal.gbapal').read_bytes()
+        assert unlz(data('sOakSpeech_'+trainer+'_Tiles'))==encode8(Image.open(root/'intro.png'))
+        assert data('sOakSpeech_'+trainer+'_Pal')==(root/'intro.gbapal').read_bytes()
+        assert unlz(data('sPlayer'+role+'_Tiles'))==encode4(Image.open(root/'credits.png'))
+        assert data('sPlayer'+role+'_Pal')==(root/'normal.gbapal').read_bytes()
+    assert data('gObjectEventPal_Player')==(R/'graphics/yokai_characters/nathan/normal.gbapal').read_bytes()
+    assert data('gObjectEventPal_PlayerReflection')==(R/'graphics/yokai_characters/nathan/reflection.gbapal').read_bytes()
+    assert data('gObjectEventPal_YokaiPlayerBridge')==(R/'graphics/yokai_characters/nathan/bridge_reflection.gbapal').read_bytes()
+    assert unlz(data('sOakSpeech_Rival_Tiles'))==encode8(Image.open(matt/'intro.png'))
+    assert data('sOakSpeech_Rival_Pal')==(matt/'intro.gbapal').read_bytes()
+    assert unlz(data('sRival_Tiles'))==encode4(Image.open(matt/'credits.png'))
+report={'rom_sha256':hashlib.sha256(rom).hexdigest(),'rom_size':len(rom),'species_stats_and_abilities_verified':151,'encoded_display_names_verified':151,'linked_graphic_resources_verified':checks,'historical_graphics_preserved_except_whitelist':True,'evolution_edges_verified':len(evolutions),'linked_learnsets_verified':151,'french_move_and_ability_labels_verified':len(json.loads((R/'data/yokai/libelles_attaques_talents.json').read_text())),'matt_native_frames_verified':12 if matt.exists() else 0,'ariane_and_usapion_native_frames_verified':5 if ariane.exists() else 0,'enma_and_kyubi_native_frames_verified':5 if enma.exists() else 0,'protagonist_native_frame_slots_verified':146 if protagonists_active else 0,'matt_additional_intro_and_credit_frames_verified':7 if protagonists_active else 0,'emulator_tests':False,'final_shiny_artwork_validated':False,'verdict':'JALON DONNEES/GRAPHISMES LIE ; RECETTE COMPLETE NON TERMINEE'}
 out=R/'QA_RECETTE_FINALE/RECONSTRUCTION/CONTROLE_ROM.json';out.parent.mkdir(parents=True,exist_ok=True);out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))

@@ -4,100 +4,100 @@
     "source": "source/core-sheet.png",
     "rectangles": [
       [
-        0,
-        0,
-        313,
-        410
+        60,
+        32,
+        256,
+        380
       ],
       [
-        313,
-        0,
-        626,
-        410
+        348,
+        125,
+        579,
+        388
       ],
       [
-        626,
-        0,
-        939,
-        410
+        638,
+        125,
+        929,
+        389
       ],
       [
-        939,
-        0,
-        1254,
-        410
+        963,
+        138,
+        1248,
+        388
       ],
       [
-        0,
-        430,
-        313,
-        750
+        34,
+        475,
+        309,
+        724
       ],
       [
-        313,
-        430,
-        626,
-        750
+        364,
+        479,
+        582,
+        730
       ],
       [
-        626,
-        430,
-        939,
-        750
+        709,
+        512,
+        846,
+        713
       ],
       [
-        939,
-        430,
-        1254,
-        750
+        1031,
+        512,
+        1159,
+        715
       ],
       [
-        0,
-        750,
-        313,
-        1000
+        98,
+        786,
+        223,
+        962
       ],
       [
-        313,
-        750,
-        626,
-        1000
+        408,
+        770,
+        528,
+        965
       ],
       [
-        626,
-        750,
-        939,
-        1000
+        725,
+        769,
+        846,
+        965
       ],
       [
-        939,
-        750,
-        1254,
-        1000
+        1043,
+        774,
+        1156,
+        966
       ],
       [
-        0,
-        1000,
-        313,
-        1254
+        101,
+        1023,
+        217,
+        1218
       ],
       [
-        313,
-        1000,
-        626,
-        1254
+        408,
+        1021,
+        546,
+        1209
       ],
       [
-        626,
-        1000,
-        939,
-        1254
+        719,
+        1021,
+        851,
+        1209
       ],
       [
-        939,
-        1000,
-        1254,
-        1254
+        1051,
+        1082,
+        1143,
+        1168
       ]
     ],
     "trainer_front": 0,
@@ -120,107 +120,108 @@
       14
     ],
     "region_icon": 15,
-    "back_pose_note": "Nathan: four distinct throw keyposes and return to neutral for native frame4; Katie: five distinct keyposes."
+    "back_pose_note": "Nathan: four distinct throw keyposes and return to neutral for native frame4; Katie: five distinct keyposes.",
+    "rectangle_provenance": "Alpha >=128, 3px dilation for connectivity only, connected components>1000 pixels, baseline row grouping; source pixels unchanged."
   },
-  "integration_state": "NOT ACTIVE: wait for all movement/action/credits sets before retargeting game resources",
+  "integration_state": "ACTIVE — requires compile/native graphical validation",
   "motion": {
     "source": "source/motion-sheet.png",
     "rectangles": [
       [
-        0,
-        0,
-        314,
-        325
+        67,
+        39,
+        233,
+        308
       ],
       [
-        314,
-        0,
-        627,
-        325
+        381,
+        35,
+        545,
+        300
       ],
       [
-        627,
-        0,
-        940,
-        325
+        709,
+        35,
+        873,
+        305
       ],
       [
-        940,
-        0,
-        1254,
-        325
+        1022,
+        39,
+        1184,
+        304
       ],
       [
-        0,
-        325,
-        314,
-        640
+        78,
+        349,
+        240,
+        615
       ],
       [
-        314,
-        325,
-        627,
-        640
+        386,
+        349,
+        549,
+        615
       ],
       [
-        627,
-        325,
-        940,
-        640
+        698,
+        350,
+        872,
+        614
       ],
       [
-        940,
-        325,
-        1254,
-        640
+        1008,
+        349,
+        1180,
+        614
       ],
       [
-        0,
-        640,
-        314,
-        920
+        65,
+        665,
+        243,
+        921
       ],
       [
-        314,
-        640,
-        627,
-        920
+        394,
+        687,
+        546,
+        914
       ],
       [
-        627,
-        640,
-        940,
-        920
+        709,
+        687,
+        860,
+        908
       ],
       [
-        940,
-        640,
-        1254,
-        920
+        1019,
+        679,
+        1189,
+        911
       ],
       [
-        0,
-        920,
-        314,
-        1254
+        83,
+        959,
+        237,
+        1211
       ],
       [
-        314,
-        920,
-        627,
-        1254
+        391,
+        954,
+        544,
+        1211
       ],
       [
-        627,
-        920,
-        940,
-        1254
+        676,
+        930,
+        888,
+        1226
       ],
       [
-        940,
-        920,
-        1254,
-        1254
+        1010,
+        933,
+        1213,
+        1227
       ]
     ],
     "run": [
@@ -247,106 +248,107 @@
       14,
       15
     ],
-    "native_animation_override": "Source run pose8 faces right; Katie-only West frame17 uses hardware hFlip, East uses no hFlip. Do not change Nathan animations."
+    "native_animation_override": "Source run pose8 faces right; Katie-only West frame17 uses hardware hFlip, East uses no hFlip. Do not change Nathan animations.",
+    "rectangle_provenance": "Alpha >=128, 3px dilation for connectivity only, connected components>1000 pixels, baseline row grouping; source pixels unchanged."
   },
   "equipment": {
     "source": "source/equipment-sheet.png",
     "rectangles": [
       [
-        0,
-        0,
-        314,
-        340
+        94,
+        80,
+        243,
+        323
       ],
       [
-        314,
-        0,
-        627,
-        340
+        407,
+        80,
+        544,
+        323
       ],
       [
-        627,
-        0,
-        940,
-        340
+        672,
+        79,
+        864,
+        314
       ],
       [
-        940,
-        0,
-        1254,
-        340
+        997,
+        80,
+        1147,
+        323
       ],
       [
-        0,
-        340,
-        314,
-        650
+        95,
+        376,
+        243,
+        619
       ],
       [
-        314,
-        340,
-        627,
-        650
+        407,
+        373,
+        544,
+        619
       ],
       [
-        627,
-        340,
-        940,
-        650
+        705,
+        375,
+        842,
+        619
       ],
       [
-        940,
-        340,
-        1254,
-        650
+        986,
+        370,
+        1177,
+        614
       ],
       [
-        0,
-        650,
-        314,
-        930
+        77,
+        654,
+        268,
+        889
       ],
       [
-        314,
-        650,
-        627,
-        930
+        395,
+        655,
+        544,
+        899
       ],
       [
-        627,
-        650,
-        940,
-        930
+        698,
+        656,
+        844,
+        899
       ],
       [
-        940,
-        650,
-        1254,
-        930
+        1002,
+        656,
+        1174,
+        898
       ],
       [
-        0,
-        930,
-        314,
-        1254
+        95,
+        938,
+        271,
+        1182
       ],
       [
-        314,
-        930,
-        627,
-        1254
+        394,
+        938,
+        556,
+        1182
       ],
       [
-        627,
-        930,
-        940,
-        1254
+        690,
+        938,
+        841,
+        1182
       ],
       [
-        940,
-        930,
-        1254,
-        1254
+        1002,
+        938,
+        1152,
+        1183
       ]
     ],
     "bike": [
@@ -371,160 +373,161 @@
     "unused_source_cells": [
       15
     ],
-    "native_animation_override": "Bike source frames2/7 face right, frame8 faces left. Katie-only animation tables XOR hardware hFlip for indices2/7; no pixel redraw or change to Nathan."
+    "native_animation_override": "Bike source frames2/7 face right, frame8 faces left. Katie-only animation tables XOR hardware hFlip for indices2/7; no pixel redraw or change to Nathan.",
+    "rectangle_provenance": "Alpha >=128, 3px dilation for connectivity only, connected components>1000 pixels, baseline row grouping; source pixels unchanged."
   },
   "actions": {
     "source": "source/actions-sheet.png",
     "rectangles": [
       [
+        114,
         0,
-        0,
-        314,
-        260
+        255,
+        258
       ],
       [
-        314,
-        0,
-        627,
-        260
+        327,
+        46,
+        572,
+        258
       ],
       [
-        627,
-        0,
-        940,
-        260
+        629,
+        47,
+        908,
+        258
       ],
       [
-        940,
-        0,
-        1254,
-        260
+        947,
+        45,
+        1198,
+        258
       ],
       [
-        0,
+        96,
+        261,
+        244,
+        492
+      ],
+      [
+        368,
+        282,
+        585,
+        491
+      ],
+      [
+        662,
+        296,
+        916,
+        494
+      ],
+      [
+        991,
+        293,
+        1206,
+        494
+      ],
+      [
+        117,
+        487,
         260,
-        314,
-        500
+        732
       ],
       [
-        314,
-        260,
-        627,
-        500
-      ],
-      [
-        627,
-        260,
-        940,
-        500
-      ],
-      [
-        940,
-        260,
-        1254,
-        500
-      ],
-      [
-        0,
-        500,
-        314,
-        750
-      ],
-      [
-        314,
-        500,
-        627,
-        750
-      ],
-      [
-        627,
-        500,
-        940,
-        750
-      ],
-      [
-        940,
-        500,
-        1254,
-        750
-      ],
-      [
-        0,
-        750,
-        251,
-        930
-      ],
-      [
-        251,
-        750,
+        407,
         502,
-        930
+        600,
+        732
       ],
       [
-        502,
-        750,
-        752,
-        930
+        663,
+        534,
+        919,
+        732
       ],
       [
-        752,
-        750,
-        1003,
-        930
+        979,
+        533,
+        1203,
+        732
       ],
       [
-        1003,
-        750,
-        1254,
-        930
+        100,
+        747,
+        205,
+        908
       ],
       [
-        0,
-        930,
-        314,
-        1080
+        337,
+        744,
+        442,
+        908
       ],
       [
-        314,
-        930,
-        627,
-        1080
+        572,
+        744,
+        679,
+        909
       ],
       [
-        627,
-        930,
-        940,
-        1080
+        808,
+        744,
+        933,
+        909
       ],
       [
-        940,
-        930,
-        1254,
-        1080
+        1047,
+        744,
+        1162,
+        909
       ],
       [
-        0,
-        1080,
-        314,
-        1254
+        100,
+        922,
+        206,
+        1074
       ],
       [
-        314,
-        1080,
-        627,
-        1254
+        336,
+        922,
+        443,
+        1074
       ],
       [
-        627,
-        1080,
-        940,
-        1254
+        566,
+        922,
+        722,
+        1074
       ],
       [
-        940,
-        1080,
-        1254,
-        1254
+        812,
+        923,
+        919,
+        1074
+      ],
+      [
+        111,
+        1074,
+        251,
+        1246
+      ],
+      [
+        400,
+        1068,
+        535,
+        1246
+      ],
+      [
+        674,
+        1065,
+        826,
+        1246
+      ],
+      [
+        1009,
+        1064,
+        1158,
+        1246
       ]
     ],
     "fish": [
@@ -572,82 +575,83 @@
       200,
       200,
       200
-    ]
+    ],
+    "rectangle_provenance": "Alpha >=128, 3px dilation for connectivity only, connected components>1000 pixels, baseline row grouping; source pixels unchanged."
   },
   "supplement": {
     "source": "source/supplement-sheet.png",
     "rectangles": [
       [
-        0,
-        0,
-        314,
-        530
+        79,
+        145,
+        304,
+        519
       ],
       [
-        314,
-        0,
-        627,
-        530
+        360,
+        85,
+        587,
+        519
       ],
       [
-        627,
-        0,
-        940,
-        530
+        730,
+        20,
+        849,
+        519
       ],
       [
-        940,
-        0,
-        1254,
-        530
+        1044,
+        77,
+        1164,
+        520
       ],
       [
-        0,
-        530,
-        314,
-        900
+        63,
+        587,
+        294,
+        874
       ],
       [
-        314,
-        530,
-        627,
-        900
+        406,
+        586,
+        593,
+        880
       ],
       [
-        627,
-        530,
-        940,
-        900
+        674,
+        590,
+        896,
+        875
       ],
       [
-        940,
-        530,
-        1254,
-        900
+        1026,
+        594,
+        1204,
+        880
       ],
       [
-        0,
-        900,
-        314,
-        1254
+        89,
+        926,
+        293,
+        1198
       ],
       [
-        314,
-        900,
-        627,
-        1254
+        371,
+        919,
+        605,
+        1201
       ],
       [
-        627,
-        900,
-        940,
-        1254
+        730,
+        936,
+        869,
+        1205
       ],
       [
-        940,
-        900,
-        1254,
-        1254
+        1035,
+        936,
+        1176,
+        1205
       ]
     ],
     "credits": [
@@ -666,34 +670,35 @@
       10,
       11
     ],
-    "north_not_used": "North fishing replaced by a separate compact-rod sheet; original supplement figures have excessively long rods or incorrect rod appearance."
+    "north_not_used": "North fishing replaced by a separate compact-rod sheet; original supplement figures have excessively long rods or incorrect rod appearance.",
+    "rectangle_provenance": "Alpha >=128, 3px dilation for connectivity only, connected components>1000 pixels, baseline row grouping; source pixels unchanged."
   },
   "north_fishing": {
     "source": "source/north-fishing-sheet.png",
     "rectangles": [
       [
-        0,
-        0,
-        444,
-        887
+        152,
+        329,
+        393,
+        730
       ],
       [
-        444,
-        0,
-        887,
-        887
+        554,
+        207,
+        799,
+        730
       ],
       [
-        887,
-        0,
-        1330,
-        887
+        986,
+        219,
+        1203,
+        730
       ],
       [
-        1330,
-        0,
-        1774,
-        887
+        1419,
+        257,
+        1610,
+        730
       ]
     ],
     "body_heights": [
@@ -702,6 +707,7 @@
       400,
       400
     ],
-    "notes": "Compact brown rod with no weapon/glow; North actor scale annotated separately from other source sheets."
+    "notes": "Compact brown rod with no weapon/glow; North actor scale annotated separately from other source sheets.",
+    "rectangle_provenance": "Alpha >=128, 3px dilation for connectivity only, connected components>1000 pixels, baseline row grouping; source pixels unchanged."
   }
 }

@@ -1409,3 +1409,212 @@ static const union AnimCmd *const sAnimTable_Ariane[] = {
     [ANIM_STD_GO_FASTEST_EAST] = sAnim_FaceEast,
     [ANIM_RAISE_HAND] = sAnim_FaceSouth,
 };
+
+static const union AnimCmd sAnim_RunWest_KatieNormal[] = {
+    ANIMCMD_FRAME(15, 5),
+    ANIMCMD_FRAME(16, 3),
+    ANIMCMD_FRAME(15, 5),
+    ANIMCMD_FRAME(17, 3, .hFlip = TRUE),
+    ANIMCMD_JUMP(0),
+};
+
+static const union AnimCmd sAnim_RunEast_KatieNormal[] = {
+    ANIMCMD_FRAME(15, 5, .hFlip = TRUE),
+    ANIMCMD_FRAME(16, 3, .hFlip = TRUE),
+    ANIMCMD_FRAME(15, 5, .hFlip = TRUE),
+    ANIMCMD_FRAME(17, 3, .hFlip = FALSE),
+    ANIMCMD_JUMP(0),
+};
+
+static const union AnimCmd *const sAnimTable_KatieNormal[] = {
+    [ANIM_STD_FACE_SOUTH] = sAnim_FaceSouth,
+    [ANIM_STD_FACE_NORTH] = sAnim_FaceNorth,
+    [ANIM_STD_FACE_WEST] = sAnim_FaceWest,
+    [ANIM_STD_FACE_EAST] = sAnim_FaceEast,
+    [ANIM_STD_GO_SOUTH] = sAnim_GoSouth,
+    [ANIM_STD_GO_NORTH] = sAnim_GoNorth,
+    [ANIM_STD_GO_WEST] = sAnim_GoWest,
+    [ANIM_STD_GO_EAST] = sAnim_GoEast,
+    [ANIM_STD_GO_FAST_SOUTH] = sAnim_GoFastSouth,
+    [ANIM_STD_GO_FAST_NORTH] = sAnim_GoFastNorth,
+    [ANIM_STD_GO_FAST_WEST] = sAnim_GoFastWest,
+    [ANIM_STD_GO_FAST_EAST] = sAnim_GoFastEast,
+    [ANIM_STD_GO_FASTER_SOUTH] = sAnim_GoFasterSouth,
+    [ANIM_STD_GO_FASTER_NORTH] = sAnim_GoFasterNorth,
+    [ANIM_STD_GO_FASTER_WEST] = sAnim_GoFasterWest,
+    [ANIM_STD_GO_FASTER_EAST] = sAnim_GoFasterEast,
+    [ANIM_STD_GO_FASTEST_SOUTH] = sAnim_GoFastestSouth,
+    [ANIM_STD_GO_FASTEST_NORTH] = sAnim_GoFastestNorth,
+    [ANIM_STD_GO_FASTEST_WEST] = sAnim_GoFastestWest,
+    [ANIM_STD_GO_FASTEST_EAST] = sAnim_GoFastestEast,
+    [ANIM_RUN_SOUTH] = sAnim_RunSouth,
+    [ANIM_RUN_NORTH] = sAnim_RunNorth,
+    [ANIM_RUN_WEST] = sAnim_RunWest_KatieNormal,
+    [ANIM_RUN_EAST] = sAnim_RunEast_KatieNormal,
+    [ANIM_SPIN_SOUTH] = sAnim_SpinSouth,
+    [ANIM_SPIN_NORTH] = sAnim_SpinNorth,
+    [ANIM_SPIN_WEST] = sAnim_SpinWest,
+    [ANIM_SPIN_EAST] = sAnim_SpinEast,
+    [ANIM_SHAKE_HEAD_OR_WALK_IN_PLACE] = sAnim_ShakeHeadOrWalkInPlace,
+};
+
+static const union AnimCmd sAnim_GoFasterWest_KatieBike[] = {
+    ANIMCMD_FRAME(7, 2, .hFlip = TRUE),
+    ANIMCMD_FRAME(2, 2, .hFlip = TRUE),
+    ANIMCMD_FRAME(8, 2),
+    ANIMCMD_FRAME(2, 2, .hFlip = TRUE),
+    ANIMCMD_JUMP(0),
+};
+
+static const union AnimCmd sAnim_GoEast_KatieBike[] = {
+    ANIMCMD_FRAME(7, 8, .hFlip = FALSE),
+    ANIMCMD_FRAME(2, 8, .hFlip = FALSE),
+    ANIMCMD_FRAME(8, 8, .hFlip = TRUE),
+    ANIMCMD_FRAME(2, 8, .hFlip = FALSE),
+    ANIMCMD_JUMP(0),
+};
+
+static const union AnimCmd sAnim_GoWest_KatieBike[] = {
+    ANIMCMD_FRAME(7, 8, .hFlip = TRUE),
+    ANIMCMD_FRAME(2, 8, .hFlip = TRUE),
+    ANIMCMD_FRAME(8, 8),
+    ANIMCMD_FRAME(2, 8, .hFlip = TRUE),
+    ANIMCMD_JUMP(0),
+};
+
+static const union AnimCmd sAnim_GoFastestWest_KatieBike[] = {
+    ANIMCMD_FRAME(7, 1, .hFlip = TRUE),
+    ANIMCMD_FRAME(2, 1, .hFlip = TRUE),
+    ANIMCMD_FRAME(8, 1),
+    ANIMCMD_FRAME(2, 1, .hFlip = TRUE),
+    ANIMCMD_JUMP(0),
+};
+
+static const union AnimCmd sAnim_FaceWest_KatieBike[] = {
+    ANIMCMD_FRAME(2, 16, .hFlip = TRUE),
+    ANIMCMD_JUMP(0),
+};
+
+static const union AnimCmd sAnim_FaceEast_KatieBike[] = {
+    ANIMCMD_FRAME(2, 16, .hFlip = FALSE),
+    ANIMCMD_JUMP(0),
+};
+
+static const union AnimCmd sAnim_GoFastEast_KatieBike[] = {
+    ANIMCMD_FRAME(7, 4, .hFlip = FALSE),
+    ANIMCMD_FRAME(2, 4, .hFlip = FALSE),
+    ANIMCMD_FRAME(8, 4, .hFlip = TRUE),
+    ANIMCMD_FRAME(2, 4, .hFlip = FALSE),
+    ANIMCMD_JUMP(0),
+};
+
+static const union AnimCmd sAnim_GoFastWest_KatieBike[] = {
+    ANIMCMD_FRAME(7, 4, .hFlip = TRUE),
+    ANIMCMD_FRAME(2, 4, .hFlip = TRUE),
+    ANIMCMD_FRAME(8, 4),
+    ANIMCMD_FRAME(2, 4, .hFlip = TRUE),
+    ANIMCMD_JUMP(0),
+};
+
+static const union AnimCmd sAnim_GoFastestEast_KatieBike[] = {
+    ANIMCMD_FRAME(7, 1, .hFlip = FALSE),
+    ANIMCMD_FRAME(2, 1, .hFlip = FALSE),
+    ANIMCMD_FRAME(8, 1, .hFlip = TRUE),
+    ANIMCMD_FRAME(2, 1, .hFlip = FALSE),
+    ANIMCMD_JUMP(0),
+};
+
+static const union AnimCmd sAnim_GoFasterEast_KatieBike[] = {
+    ANIMCMD_FRAME(7, 2, .hFlip = FALSE),
+    ANIMCMD_FRAME(2, 2, .hFlip = FALSE),
+    ANIMCMD_FRAME(8, 2, .hFlip = TRUE),
+    ANIMCMD_FRAME(2, 2, .hFlip = FALSE),
+    ANIMCMD_JUMP(0),
+};
+
+static const union AnimCmd *const sAnimTable_KatieBike[] = {
+    [ANIM_STD_FACE_SOUTH] = sAnim_FaceSouth,
+    [ANIM_STD_FACE_NORTH] = sAnim_FaceNorth,
+    [ANIM_STD_FACE_WEST] = sAnim_FaceWest_KatieBike,
+    [ANIM_STD_FACE_EAST] = sAnim_FaceEast_KatieBike,
+    [ANIM_STD_GO_SOUTH] = sAnim_GoSouth,
+    [ANIM_STD_GO_NORTH] = sAnim_GoNorth,
+    [ANIM_STD_GO_WEST] = sAnim_GoWest_KatieBike,
+    [ANIM_STD_GO_EAST] = sAnim_GoEast_KatieBike,
+    [ANIM_STD_GO_FAST_SOUTH] = sAnim_GoFastSouth,
+    [ANIM_STD_GO_FAST_NORTH] = sAnim_GoFastNorth,
+    [ANIM_STD_GO_FAST_WEST] = sAnim_GoFastWest_KatieBike,
+    [ANIM_STD_GO_FAST_EAST] = sAnim_GoFastEast_KatieBike,
+    [ANIM_STD_GO_FASTER_SOUTH] = sAnim_GoFasterSouth,
+    [ANIM_STD_GO_FASTER_NORTH] = sAnim_GoFasterNorth,
+    [ANIM_STD_GO_FASTER_WEST] = sAnim_GoFasterWest_KatieBike,
+    [ANIM_STD_GO_FASTER_EAST] = sAnim_GoFasterEast_KatieBike,
+    [ANIM_STD_GO_FASTEST_SOUTH] = sAnim_GoFastestSouth,
+    [ANIM_STD_GO_FASTEST_NORTH] = sAnim_GoFastestNorth,
+    [ANIM_STD_GO_FASTEST_WEST] = sAnim_GoFastestWest_KatieBike,
+    [ANIM_STD_GO_FASTEST_EAST] = sAnim_GoFastestEast_KatieBike,
+    [ANIM_RAISE_HAND] = sAnim_RaiseHand,
+};
+
+static const union AnimCmd sAnim_HookedPokemonWest_KatieFish[] = {
+    ANIMCMD_FRAME(2, 6, .hFlip = TRUE),
+    ANIMCMD_FRAME(3, 6, .hFlip = TRUE),
+    ANIMCMD_LOOP(1),
+    ANIMCMD_FRAME(3, 30, .hFlip = TRUE),
+    ANIMCMD_JUMP(0),
+};
+
+static const union AnimCmd sAnim_TakeOutRodEast_KatieFish[] = {
+    ANIMCMD_FRAME(0, 4, .hFlip = FALSE),
+    ANIMCMD_FRAME(1, 4, .hFlip = FALSE),
+    ANIMCMD_FRAME(2, 4, .hFlip = FALSE),
+    ANIMCMD_FRAME(3, 4, .hFlip = FALSE),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_PutAwayRodEast_KatieFish[] = {
+    ANIMCMD_FRAME(3, 4, .hFlip = FALSE),
+    ANIMCMD_FRAME(2, 4, .hFlip = FALSE),
+    ANIMCMD_FRAME(1, 4, .hFlip = FALSE),
+    ANIMCMD_FRAME(0, 4, .hFlip = FALSE),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_HookedPokemonEast_KatieFish[] = {
+    ANIMCMD_FRAME(2, 6, .hFlip = FALSE),
+    ANIMCMD_FRAME(3, 6, .hFlip = FALSE),
+    ANIMCMD_LOOP(1),
+    ANIMCMD_FRAME(3, 30, .hFlip = FALSE),
+    ANIMCMD_JUMP(0),
+};
+
+static const union AnimCmd sAnim_PutAwayRodWest_KatieFish[] = {
+    ANIMCMD_FRAME(3, 4, .hFlip = TRUE),
+    ANIMCMD_FRAME(2, 4, .hFlip = TRUE),
+    ANIMCMD_FRAME(1, 4, .hFlip = TRUE),
+    ANIMCMD_FRAME(0, 4, .hFlip = TRUE),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_TakeOutRodWest_KatieFish[] = {
+    ANIMCMD_FRAME(0, 4, .hFlip = TRUE),
+    ANIMCMD_FRAME(1, 4, .hFlip = TRUE),
+    ANIMCMD_FRAME(2, 4, .hFlip = TRUE),
+    ANIMCMD_FRAME(3, 4, .hFlip = TRUE),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd *const sAnimTable_KatieFish[] = {
+    [ANIM_TAKE_OUT_ROD_SOUTH] = sAnim_TakeOutRodSouth,
+    [ANIM_TAKE_OUT_ROD_NORTH] = sAnim_TakeOutRodNorth,
+    [ANIM_TAKE_OUT_ROD_WEST] = sAnim_TakeOutRodWest_KatieFish,
+    [ANIM_TAKE_OUT_ROD_EAST] = sAnim_TakeOutRodEast_KatieFish,
+    [ANIM_PUT_AWAY_ROD_SOUTH] = sAnim_PutAwayRodSouth,
+    [ANIM_PUT_AWAY_ROD_NORTH] = sAnim_PutAwayRodNorth,
+    [ANIM_PUT_AWAY_ROD_WEST] = sAnim_PutAwayRodWest_KatieFish,
+    [ANIM_PUT_AWAY_ROD_EAST] = sAnim_PutAwayRodEast_KatieFish,
+    [ANIM_HOOKED_POKEMON_SOUTH] = sAnim_HookedPokemonSouth,
+    [ANIM_HOOKED_POKEMON_NORTH] = sAnim_HookedPokemonNorth,
+    [ANIM_HOOKED_POKEMON_WEST] = sAnim_HookedPokemonWest_KatieFish,
+    [ANIM_HOOKED_POKEMON_EAST] = sAnim_HookedPokemonEast_KatieFish,
+};

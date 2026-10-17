@@ -22,7 +22,7 @@
   "palette_colors": 16,
   "transparent_index": 0,
   "intro": "8bpp, opaque indices65..79, bank4 palette",
-  "integrated": false,
+  "integrated": true,
   "completed_source_packs": [
     "core",
     "equipment",
@@ -32,5 +32,5 @@
     "north_fishing"
   ],
   "remaining_source_packs": [],
-  "remaining": "All packs must be reviewed, integrated together, and tested in mGBA before replacement is complete"
+  "remaining": "Native field and battle fixtures passed; full intro, Surf, card, Hall of Fame and credits still require dedicated checks (see QA reports)"
 }
