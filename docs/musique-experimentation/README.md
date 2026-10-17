@@ -1,5 +1,7 @@
 # Comparaison A / B — Bicycle Theme uniquement
 
+> **Mise à jour après demande explicite du créateur : [les 16 échantillons audio sont désormais téléchargeables sur GitHub](previews/README.md), individuellement ou en ZIP.** Les mentions « privé » ci-dessous décrivent la livraison initiale ; les samples binaires, MIDI, partitions de travail, ROM et MP3 sources restent privés.
+
 **La lecture échantillonnée fonctionne réellement avec le moteur actuel de Rouge Feu, sans modification de son code.** Une copie privée de la ROM joue une onde PCM ou DPCM issue du morceau fourni, et non une reconstruction des instruments. Les démonstrations sont des captures de mGBA.
 
 Le premier arrangement A1 reste rejeté artistiquement par le créateur. Une révision A2 est livrée, avec ses limites de transcription explicites. La méthode B est la plus sûre pour conserver les notes et les instruments de l’enregistrement ; elle impose un coût ROM bien supérieur et une réduction de bande passante.
