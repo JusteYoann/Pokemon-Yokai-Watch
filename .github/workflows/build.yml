@@ -1,104 +1,67 @@
-name: CI
+name: Construction et recette Yo-kai
 
 on:
   push:
-    branches: [ master ]
+    branches: [master, dev/reconstruction-finalisation]
   pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
-  build:
+  firered-yokai:
     runs-on: ubuntu-latest
+    container: debian:trixie-slim
+    timeout-minutes: 30
+    defaults:
+      run:
+        shell: bash
     env:
-      GAME_VERSION: FIRERED
-      GAME_LANGUAGE: ENGLISH
-      GAME_REVISION: 0
-      MODERN: 0
-      COMPARE: 1
+      YOKAI_SETUP_DIR: ${{ runner.temp }}/yokai-tools
+      MGBA_SETUP_ROOT: ${{ runner.temp }}/yokai-tools
+      MGBA_LIBRETRO_PATH: ${{ runner.temp }}/yokai-tools/mgba-build/mgba_libretro.so
+      COMPARE: 0
     steps:
-      - name: Checkout
-        uses: actions/checkout@master
-
-      - name: Checkout agbcc
-        uses: actions/checkout@master
+      - name: Dépendances Debian
+        run: |
+          apt-get update
+          apt-get install -y --no-install-recommends ca-certificates git build-essential python3 python3-venv zlib1g-dev cmake pkg-config
+      - name: Sources publiques, avec historique nécessaire aux contrôles
+        uses: actions/checkout@v4
         with:
-          path: 'agbcc'
-          repository: 'pret/agbcc'
-
-      - name: Checkout symbols
-        if: ${{ github.event_name == 'push' }}
-        uses: actions/checkout@master
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Outils de compilation fixés
+        run: bash RECUPERATION_PROJET/scripts/configurer_outils_debian.sh
+      - name: Compilation du hack
+        run: |
+          source "$YOKAI_SETUP_DIR/env.sh"
+          make -j4
+          sha256sum pokefirered.gba
+      - name: Outils de recette
+        run: |
+          python3 -m venv "$YOKAI_SETUP_DIR/qa-python"
+          source "$YOKAI_SETUP_DIR/qa-python/bin/activate"
+          pip install -r tools/yokai/requirements.txt
+          bash tools/yokai/installer_tests_debian.sh
+      - name: Données liées, obtentions et tests natifs mGBA
+        run: |
+          source "$YOKAI_SETUP_DIR/env.sh"
+          source "$YOKAI_SETUP_DIR/qa-python/bin/activate"
+          python3 tools/yokai/verifier_rom.py
+          python3 tools/yokai/verifier_obtentions.py
+          python3 tools/yokai/tester_mgba.py
+          for test_script in tools/yokai/tester_*_mgba.py; do
+            python3 "$test_script"
+          done
+      - name: Rapports et captures seulement — aucune ROM ou musique
+        if: always()
+        uses: actions/upload-artifact@v4
         with:
-          path: 'symbols'
-          ref: 'symbols'
-
-      - name: Install binutils
-        run: |
-          sudo apt update
-          sudo apt install gcc-arm-none-eabi binutils-arm-none-eabi libpng-dev
-        # build-essential and git are already installed
-        # gcc-arm-none-eabi is only needed for the modern build
-        # as an alternative to dkP
-
-      - name: Install agbcc
-        run: |
-          ./build.sh
-          ./install.sh ../
-        working-directory: ./agbcc
-
-      - name: Compare FireRed
-        run: |
-          make -j${nproc} all syms
-
-      - name: Compare FireRed rev1
-        env:
-          GAME_REVISION: 1
-        run: |
-          make -j${nproc} all syms
-
-      - name: Compare FireRed rev10
-        env:
-          GAME_REVISION: 10
-        run: |
-          make -j${nproc} all syms
-
-      - name: Compare LeafGreen
-        env:
-          GAME_VERSION: LEAFGREEN
-        run: |
-          make -j${nproc} all syms
-
-      - name: Compare LeafGreen rev1
-        env:
-          GAME_VERSION: LEAFGREEN
-          GAME_REVISION: 1
-        run: |
-          make -j${nproc} all syms
-
-      - name: Compare LeafGreen rev10
-        env:
-          GAME_VERSION: LEAFGREEN
-          GAME_REVISION: 10
-        run: |
-          make -j${nproc} all syms
-
-      - name: Build Modern
-        env:
-          MODERN: 1
-          COMPARE: 0
-        run: |
-          make -j${nproc} all
-
-      - name: Move symfiles
-        if: ${{ github.event_name == 'push' }}
-        run: |
-          cp *.sym symbols/
-          echo "SYMBOLS_COMMIT_MSG=$( git log --format=%s ${GITHUB_SHA} )" >> $GITHUB_ENV
-
-      - name: Update symfiles
-        if: ${{ github.event_name == 'push' }}
-        uses: EndBug/add-and-commit@v7
-        with:
-          branch: symbols
-          cwd: "./symbols"
-          add: "*.sym"
-          message: ${{ env.SYMBOLS_COMMIT_MSG }}
+          name: qa-yokai-${{ github.sha }}
+          path: |
+            QA_RECETTE_FINALE/RECONSTRUCTION/*.json
+            QA_RECETTE_FINALE/RECONSTRUCTION/preuves/*.png
+            QA_RECETTE_FINALE/RECONSTRUCTION/preuves/*.gif
+          retention-days: 14
