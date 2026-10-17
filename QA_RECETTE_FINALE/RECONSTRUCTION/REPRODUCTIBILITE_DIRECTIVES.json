@@ -16,5 +16,11 @@
     "No whole-game playthrough",
     "No final private OST active",
     "Remote CI status unavailable"
-  ]
+  ],
+  "native_sampled_intro_loop_check_from_github": {
+    "source_commit": "4a6c9e805781eb242d0cd6b6253a11b51705fe93",
+    "passed": true,
+    "same_independently_built_mgba_core": true,
+    "test": "TEST_DPCM_LECTURE_MGBA.json; synthetic assets, 420 frames, intro +11 periods, SFX/cry calls and API return to MUS_PALLET"
+  }
 }
