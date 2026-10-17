@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "base_rom_sha256": "f0fc873c7081db9ba04bce90af9d37b0a14b8eff8170f1ff2e0a11d1fdfd739f",
+  "test_rom_sha256": "e77738db09c9b75ee805c7f9201bcbdbe2934691adde7bcad85f4a7d726ca2c1",
+  "engine": "native m4a mixer in mGBA; test-only appended resources",
+  "synthetic_audio_only": true,
+  "sample_rate_hz": 13379,
+  "intro_samples": 5352,
+  "loop_samples": 8027,
+  "wave_data_bytes": 6946,
+  "libretro_sample_rate_hz": 65536.0,
+  "native_frames": 420,
+  "intro_peak_hz": 440.0067139696346,
+  "loop_peaks_hz": [
+    661.081969992371,
+    661.138012885724,
+    661.138012885724,
+    661.081969992371,
+    661.138012885724,
+    661.138012885724
+  ],
+  "periods_elapsed_after_intro": 11.109553231476578,
+  "select_sound_and_species1_cry_triggered": true,
+  "original_pallet_bgm_restored_via_native_PlayBGM": true,
+  "limitations": [
+    "Not a private music listening/loop test",
+    "Not bicycle field enter/exit",
+    "Not hardware CPU profiling",
+    "No production song table or game engine changes"
+  ],
+  "captured_audio_frames": 463040
+}

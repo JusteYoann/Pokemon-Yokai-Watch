@@ -1,0 +1,20 @@
+{
+  "source_commit": "ce6359ba08b0c2c821f23d70846e63b13f0e7f8c",
+  "source": "Fresh shallow GitHub clone /workspace/repro-directives-finalisation, no copied game sources or build outputs",
+  "dependencies": "Public Debian installer re-executed; independent pinned /workspace/repro-tools compiler/core",
+  "clean_build": true,
+  "local_rom_sha256": "f0fc873c7081db9ba04bce90af9d37b0a14b8eff8170f1ff2e0a11d1fdfd739f",
+  "fresh_clone_rom_sha256": "f0fc873c7081db9ba04bce90af9d37b0a14b8eff8170f1ff2e0a11d1fdfd739f",
+  "byte_identical": true,
+  "native_checks_from_clone": {
+    "introduction_both_genders_and_fixed_Matt": true,
+    "boss_cameos_all_cases": 19,
+    "dpcm_decoder_vectors": 4
+  },
+  "limitations": [
+    "Same cloud machine, not separate VM",
+    "No whole-game playthrough",
+    "No final private OST active",
+    "Remote CI status unavailable"
+  ]
+}
