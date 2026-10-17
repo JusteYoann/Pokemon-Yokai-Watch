@@ -1,0 +1,102 @@
+{
+  "source_sha256": "ebeac3783190d817569bae9570a6db4898af876dae703e1617118d6b14098cf7",
+  "source_dimensions": [
+    1254,
+    1254
+  ],
+  "audited_crop_rectangles": [
+    [
+      45,
+      20,
+      280,
+      400
+    ],
+    [
+      325,
+      20,
+      645,
+      400
+    ],
+    [
+      690,
+      20,
+      915,
+      400
+    ],
+    [
+      75,
+      430,
+      240,
+      670
+    ],
+    [
+      393,
+      430,
+      550,
+      670
+    ],
+    [
+      705,
+      430,
+      865,
+      670
+    ],
+    [
+      1015,
+      430,
+      1180,
+      670
+    ],
+    [
+      75,
+      715,
+      235,
+      960
+    ],
+    [
+      393,
+      715,
+      550,
+      960
+    ],
+    [
+      706,
+      715,
+      862,
+      960
+    ],
+    [
+      1020,
+      715,
+      1183,
+      960
+    ],
+    [
+      70,
+      1005,
+      235,
+      1230
+    ]
+  ],
+  "native_frames": {
+    "battle": [
+      64,
+      64,
+      3
+    ],
+    "overworld": [
+      16,
+      32,
+      9
+    ]
+  },
+  "opaque_palette_colors": 15,
+  "transparent_index": 0,
+  "technical_conversion": [
+    "binary alpha threshold 128",
+    "uniform nearest-neighbor sampling per role",
+    "shared RGB555 palette, retaining distinct orange and olive source hues"
+  ],
+  "orientation_note": "Generated walk frame 7 faces right; engine animation flips that frame in west direction and leaves it unflipped in east direction.",
+  "artwork_review": "Recognizable Matt, original drawing. Pixel-scale and walking fidelity require in-game review before acceptance."
+}

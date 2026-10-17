@@ -316,8 +316,8 @@ const u32 gTrainerPalette_BirdKeeper[] = INCBIN_U32("graphics/trainers/palettes/
 const u32 gTrainerFrontPic_BlackBelt[] = INCBIN_U32("graphics/trainers/front_pics/black_belt_front_pic.4bpp.lz");
 const u32 gTrainerPalette_BlackBelt[] = INCBIN_U32("graphics/trainers/palettes/black_belt.gbapal.lz");
 
-const u32 gTrainerFrontPic_RivalEarly[] = INCBIN_U32("graphics/trainers/front_pics/rival_early_front_pic.4bpp.lz");
-const u32 gTrainerPalette_RivalEarly[] = INCBIN_U32("graphics/trainers/palettes/rival_early.gbapal.lz");
+const u32 gTrainerFrontPic_RivalEarly[] = INCBIN_U32("graphics/yokai_characters/matt/battle_early.4bpp.lz");
+const u32 gTrainerPalette_RivalEarly[] = INCBIN_U32("graphics/yokai_characters/matt/normal.gbapal.lz");
 
 const u32 gTrainerFrontPic_Scientist[] = INCBIN_U32("graphics/trainers/front_pics/scientist_front_pic.4bpp.lz");
 const u32 gTrainerPalette_Scientist[] = INCBIN_U32("graphics/trainers/palettes/scientist.gbapal.lz");
@@ -370,11 +370,11 @@ const u32 gTrainerPalette_LeaderSabrina[] = INCBIN_U32("graphics/trainers/palett
 const u32 gTrainerFrontPic_Gentleman[] = INCBIN_U32("graphics/trainers/front_pics/gentleman_front_pic.4bpp.lz");
 const u32 gTrainerPalette_Gentleman[] = INCBIN_U32("graphics/trainers/palettes/gentleman.gbapal.lz");
 
-const u32 gTrainerFrontPic_RivalLate[] = INCBIN_U32("graphics/trainers/front_pics/rival_late_front_pic.4bpp.lz");
-const u32 gTrainerPalette_RivalLate[] = INCBIN_U32("graphics/trainers/palettes/rival_late.gbapal.lz");
+const u32 gTrainerFrontPic_RivalLate[] = INCBIN_U32("graphics/yokai_characters/matt/battle_late.4bpp.lz");
+const u32 gTrainerPalette_RivalLate[] = INCBIN_U32("graphics/yokai_characters/matt/normal.gbapal.lz");
 
-const u32 gTrainerFrontPic_ChampionRival[] = INCBIN_U32("graphics/trainers/front_pics/champion_rival_front_pic.4bpp.lz");
-const u32 gTrainerPalette_ChampionRival[] = INCBIN_U32("graphics/trainers/palettes/champion_rival.gbapal.lz");
+const u32 gTrainerFrontPic_ChampionRival[] = INCBIN_U32("graphics/yokai_characters/matt/battle_champion.4bpp.lz");
+const u32 gTrainerPalette_ChampionRival[] = INCBIN_U32("graphics/yokai_characters/matt/normal.gbapal.lz");
 
 const u32 gTrainerFrontPic_Channeler[] = INCBIN_U32("graphics/trainers/front_pics/channeler_front_pic.4bpp.lz");
 const u32 gTrainerPalette_Channeler[] = INCBIN_U32("graphics/trainers/palettes/channeler.gbapal.lz");

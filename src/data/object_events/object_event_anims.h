@@ -1302,3 +1302,86 @@ static const struct StepAnimTable sStepAnimTables[] = {
     },
     {}
 };
+
+
+// Matt frame 7 is drawn facing east. Correct direction through native flip bits.
+static const union AnimCmd sAnim_MattGoWest[] = {
+    ANIMCMD_FRAME(7, 8, .hFlip = TRUE),
+    ANIMCMD_FRAME(2, 8, .hFlip = FALSE),
+    ANIMCMD_FRAME(8, 8, .hFlip = FALSE),
+    ANIMCMD_FRAME(2, 8, .hFlip = FALSE),
+    ANIMCMD_JUMP(0),
+};
+static const union AnimCmd sAnim_MattGoEast[] = {
+    ANIMCMD_FRAME(7, 8, .hFlip = FALSE),
+    ANIMCMD_FRAME(2, 8, .hFlip = TRUE),
+    ANIMCMD_FRAME(8, 8, .hFlip = TRUE),
+    ANIMCMD_FRAME(2, 8, .hFlip = TRUE),
+    ANIMCMD_JUMP(0),
+};
+static const union AnimCmd sAnim_MattGoFastWest[] = {
+    ANIMCMD_FRAME(7, 4, .hFlip = TRUE),
+    ANIMCMD_FRAME(2, 4, .hFlip = FALSE),
+    ANIMCMD_FRAME(8, 4, .hFlip = FALSE),
+    ANIMCMD_FRAME(2, 4, .hFlip = FALSE),
+    ANIMCMD_JUMP(0),
+};
+static const union AnimCmd sAnim_MattGoFastEast[] = {
+    ANIMCMD_FRAME(7, 4, .hFlip = FALSE),
+    ANIMCMD_FRAME(2, 4, .hFlip = TRUE),
+    ANIMCMD_FRAME(8, 4, .hFlip = TRUE),
+    ANIMCMD_FRAME(2, 4, .hFlip = TRUE),
+    ANIMCMD_JUMP(0),
+};
+static const union AnimCmd sAnim_MattGoFasterWest[] = {
+    ANIMCMD_FRAME(7, 2, .hFlip = TRUE),
+    ANIMCMD_FRAME(2, 2, .hFlip = FALSE),
+    ANIMCMD_FRAME(8, 2, .hFlip = FALSE),
+    ANIMCMD_FRAME(2, 2, .hFlip = FALSE),
+    ANIMCMD_JUMP(0),
+};
+static const union AnimCmd sAnim_MattGoFasterEast[] = {
+    ANIMCMD_FRAME(7, 2, .hFlip = FALSE),
+    ANIMCMD_FRAME(2, 2, .hFlip = TRUE),
+    ANIMCMD_FRAME(8, 2, .hFlip = TRUE),
+    ANIMCMD_FRAME(2, 2, .hFlip = TRUE),
+    ANIMCMD_JUMP(0),
+};
+static const union AnimCmd sAnim_MattGoFastestWest[] = {
+    ANIMCMD_FRAME(7, 1, .hFlip = TRUE),
+    ANIMCMD_FRAME(2, 1, .hFlip = FALSE),
+    ANIMCMD_FRAME(8, 1, .hFlip = FALSE),
+    ANIMCMD_FRAME(2, 1, .hFlip = FALSE),
+    ANIMCMD_JUMP(0),
+};
+static const union AnimCmd sAnim_MattGoFastestEast[] = {
+    ANIMCMD_FRAME(7, 1, .hFlip = FALSE),
+    ANIMCMD_FRAME(2, 1, .hFlip = TRUE),
+    ANIMCMD_FRAME(8, 1, .hFlip = TRUE),
+    ANIMCMD_FRAME(2, 1, .hFlip = TRUE),
+    ANIMCMD_JUMP(0),
+};
+static const union AnimCmd sAnim_MattRaiseHand[] = {ANIMCMD_FRAME(0, 0), ANIMCMD_END};
+static const union AnimCmd *const sAnimTable_Matt[] = {
+    [ANIM_STD_FACE_SOUTH] = sAnim_FaceSouth,
+    [ANIM_STD_FACE_NORTH] = sAnim_FaceNorth,
+    [ANIM_STD_FACE_WEST] = sAnim_FaceWest,
+    [ANIM_STD_FACE_EAST] = sAnim_FaceEast,
+    [ANIM_STD_GO_SOUTH] = sAnim_GoSouth,
+    [ANIM_STD_GO_NORTH] = sAnim_GoNorth,
+    [ANIM_STD_GO_WEST] = sAnim_MattGoWest,
+    [ANIM_STD_GO_EAST] = sAnim_MattGoEast,
+    [ANIM_STD_GO_FAST_SOUTH] = sAnim_GoFastSouth,
+    [ANIM_STD_GO_FAST_NORTH] = sAnim_GoFastNorth,
+    [ANIM_STD_GO_FAST_WEST] = sAnim_MattGoFastWest,
+    [ANIM_STD_GO_FAST_EAST] = sAnim_MattGoFastEast,
+    [ANIM_STD_GO_FASTER_SOUTH] = sAnim_GoFasterSouth,
+    [ANIM_STD_GO_FASTER_NORTH] = sAnim_GoFasterNorth,
+    [ANIM_STD_GO_FASTER_WEST] = sAnim_MattGoFasterWest,
+    [ANIM_STD_GO_FASTER_EAST] = sAnim_MattGoFasterEast,
+    [ANIM_STD_GO_FASTEST_SOUTH] = sAnim_GoFastestSouth,
+    [ANIM_STD_GO_FASTEST_NORTH] = sAnim_GoFastestNorth,
+    [ANIM_STD_GO_FASTEST_WEST] = sAnim_MattGoFastestWest,
+    [ANIM_STD_GO_FASTEST_EAST] = sAnim_MattGoFastestEast,
+    [ANIM_RAISE_HAND] = sAnim_MattRaiseHand,
+};

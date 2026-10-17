@@ -1,0 +1,15 @@
+{
+  "source_branch": "dev/reconstruction-finalisation",
+  "source_commit": "3f65e9015d370b6a958a8bafa62116cab7b14a46",
+  "clone_origin": "https://github.com/JusteYoann/Pokemon-Yokai-Watch.git",
+  "independent_checkout": "/workspace/repro-github-recovery",
+  "independent_tool_install": "/workspace/repro-tools",
+  "build_exit_code": 0,
+  "local_rom_sha256": "0fc6561a1e1968f30c9e57ae9b4efa928e1342dec02e5e8becbd766befe03d23",
+  "clone_rom_sha256": "0fc6561a1e1968f30c9e57ae9b4efa928e1342dec02e5e8becbd766befe03d23",
+  "byte_identical": true,
+  "scope": "Teams checkpoint before Matt artwork. Subsequent checkpoints need their own reproduction test.",
+  "public_sources_sufficient_for_current_build": true,
+  "yokai_protected_audio_included": false,
+  "music_status": "Native FireRed soundtrack active; DPCM integration remains pending."
+}

@@ -1,0 +1,45 @@
+{
+  "engine": "mGBA libretro",
+  "rom_sha256": "1353906bad50708f9a892b44e5980b9ff288f1b245f52ce9a2d06f0dbbb627d1",
+  "results": [
+    {
+      "test": "Real trainer battle portrait early",
+      "name": "Matt",
+      "capture": "matt-combat-early.png",
+      "battle_finished": false
+    },
+    {
+      "test": "Real trainer battle portrait late",
+      "name": "Matt",
+      "capture": "matt-combat-late.png",
+      "battle_finished": false
+    },
+    {
+      "test": "Real trainer battle portrait champion",
+      "name": "Matt",
+      "capture": "matt-combat-champion.png",
+      "battle_finished": false
+    },
+    {
+      "test": "Four native facing directions and three walk-in-place cycles each",
+      "fixture_map": "Dojo with defeated trainers",
+      "capture": "matt-marche-quatre-directions.gif"
+    }
+  ],
+  "native_assets": {
+    "battle": [
+      64,
+      64,
+      3
+    ],
+    "overworld": [
+      16,
+      32,
+      9
+    ]
+  },
+  "palette": "15 opaque RGB555 colors, transparent index 0, dedicated special NPC palette",
+  "complete_story_appearances_verified": false,
+  "Nathan_Katie_artwork_completed": false,
+  "remaining": "All scripted rival appearances, gender variants, real navigation and protagonist artwork still pending."
+}

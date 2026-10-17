@@ -81,6 +81,40 @@ for row in evolutions:
     param=int(row['niveau']) if method==4 else constants[row['item_evolution'] if method==7 else row['item_tenu']]
     entries=[struct.unpack_from('<HHH',data('gEvolutionTable'),(start*5+i)*evo_stride) for i in range(5)]
     assert (method,param,end) in entries,row
-report={'rom_sha256':hashlib.sha256(rom).hexdigest(),'rom_size':len(rom),'species_stats_and_abilities_verified':151,'encoded_display_names_verified':151,'linked_graphic_resources_verified':checks,'historical_graphics_preserved_except_whitelist':True,'evolution_edges_verified':len(evolutions),'emulator_tests':False,'final_shiny_artwork_validated':False,'verdict':'JALON DONNEES/GRAPHISMES LIE ; RECETTE COMPLETE NON TERMINEE'}
+# Check actual learned-move arrays and French labels, independent of C compilation success.
+constants.update({k:int(v) for k,v in re.findall(r'^#define\s+(MOVE_\w+)\s+(\d+)\s*$',(R/'include/constants/moves.h').read_text(),re.M)})
+move_rows=list(csv.DictReader((R/'data/yokai/attaques_validees.csv').open(),delimiter=';'))
+for number in range(1,152):
+    expected=[];delayed=[]
+    for row in move_rows:
+        if int(row['numero_yokai'])!=number:continue
+        if row['apprentissage']=='EVOLUTION_PLUS_2':delayed.append((101<<9)|constants[row['move_id']])
+        else:expected.append((int(row['niveau'])<<9)|constants[row['move_id']])
+    expected+=delayed+[0xFFFF]
+    assert data(f'sYokai{number:03}LevelUpLearnset')==struct.pack('<'+'H'*len(expected),*expected),(number,'linked learnset')
+for label in json.loads((R/'data/yokai/libelles_attaques_talents.json').read_text()):
+    index=int(label['id']);symbol='gMoveNames' if label['constant'].startswith('MOVE_') else 'gAbilityNames'
+    expected=bytes(glyphs[c] for c in label['display'])+b'\xff'
+    assert data(symbol)[index*13:index*13+len(expected)]==expected,(symbol,index,label)
+# Matt uses per-frame 16x32 tile ordering; a whole-image conversion corrupts sprites.
+matt=R/'graphics/yokai_characters/matt'
+if matt.exists():
+    from PIL import Image
+    def encode4(im):
+        output=bytearray()
+        for ty in range(0,im.height,8):
+            for tx in range(0,im.width,8):
+                for y in range(8):
+                    for x in range(0,8,2):output.append(im.getpixel((tx+x,ty+y))|(im.getpixel((tx+x+1,ty+y))<<4))
+        return bytes(output)
+    im=Image.open(matt/'overworld.png')
+    assert im.size==(144,32) and im.mode=='P'
+    assert data('gObjectEventPic_Blue')==b''.join(encode4(im.crop((i*16,0,i*16+16,32))) for i in range(9))
+    for role,suffix in [('early','RivalEarly'),('late','RivalLate'),('champion','ChampionRival')]:
+        im=Image.open(matt/f'battle_{role}.png');assert im.size==(64,64)
+        assert unlz(data('gTrainerFrontPic_'+suffix))==encode4(im)
+        assert unlz(data('gTrainerPalette_'+suffix))==(matt/'normal.gbapal').read_bytes()
+    assert data('gObjectEventPal_Matt')==(matt/'normal.gbapal').read_bytes()
+report={'rom_sha256':hashlib.sha256(rom).hexdigest(),'rom_size':len(rom),'species_stats_and_abilities_verified':151,'encoded_display_names_verified':151,'linked_graphic_resources_verified':checks,'historical_graphics_preserved_except_whitelist':True,'evolution_edges_verified':len(evolutions),'linked_learnsets_verified':151,'french_move_and_ability_labels_verified':len(json.loads((R/'data/yokai/libelles_attaques_talents.json').read_text())),'matt_native_frames_verified':12 if matt.exists() else 0,'emulator_tests':False,'final_shiny_artwork_validated':False,'verdict':'JALON DONNEES/GRAPHISMES LIE ; RECETTE COMPLETE NON TERMINEE'}
 out=R/'QA_RECETTE_FINALE/RECONSTRUCTION/CONTROLE_ROM.json';out.parent.mkdir(parents=True,exist_ok=True);out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))
