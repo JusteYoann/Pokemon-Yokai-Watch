@@ -1,0 +1,1110 @@
+{
+  "specification": "PERSONNAGES_PRINCIPAUX_YOKAI_WATCH_CODEX.md v1.1; current creator priority: protagonists first",
+  "object_resources": [
+    {
+      "symbol": "gObjectEventPic_RedNormal",
+      "source": "graphics/object_events/pics/people/red_normal.png",
+      "dimensions": [
+        144,
+        32
+      ],
+      "frame_dimensions": [
+        16,
+        32
+      ],
+      "frames": 9,
+      "references_in_frame_tables": 9,
+      "active": true,
+      "opaque_bounds": [
+        [
+          1,
+          12,
+          15,
+          31
+        ],
+        [
+          1,
+          12,
+          15,
+          31
+        ],
+        [
+          0,
+          12,
+          14,
+          31
+        ],
+        [
+          0,
+          13,
+          15,
+          32
+        ],
+        [
+          1,
+          13,
+          16,
+          32
+        ],
+        [
+          1,
+          13,
+          15,
+          32
+        ],
+        [
+          1,
+          13,
+          15,
+          32
+        ],
+        [
+          0,
+          13,
+          14,
+          31
+        ],
+        [
+          0,
+          13,
+          14,
+          31
+        ]
+      ]
+    },
+    {
+      "symbol": "gObjectEventPic_GreenNormal",
+      "source": "graphics/object_events/pics/people/green_normal.png",
+      "dimensions": [
+        144,
+        32
+      ],
+      "frame_dimensions": [
+        16,
+        32
+      ],
+      "frames": 9,
+      "references_in_frame_tables": 9,
+      "active": true,
+      "opaque_bounds": [
+        [
+          1,
+          12,
+          15,
+          31
+        ],
+        [
+          1,
+          12,
+          15,
+          31
+        ],
+        [
+          1,
+          12,
+          16,
+          31
+        ],
+        [
+          1,
+          13,
+          15,
+          32
+        ],
+        [
+          1,
+          13,
+          15,
+          32
+        ],
+        [
+          1,
+          13,
+          15,
+          32
+        ],
+        [
+          1,
+          13,
+          15,
+          32
+        ],
+        [
+          1,
+          13,
+          16,
+          31
+        ],
+        [
+          1,
+          13,
+          16,
+          31
+        ]
+      ]
+    },
+    {
+      "symbol": "gObjectEventPic_RedSurfRun",
+      "source": "graphics/object_events/pics/people/red_surf_run.png",
+      "dimensions": [
+        224,
+        32
+      ],
+      "frame_dimensions": [
+        16,
+        32
+      ],
+      "frames": 14,
+      "references_in_frame_tables": 23,
+      "active": true,
+      "opaque_bounds": [
+        [
+          1,
+          12,
+          15,
+          30
+        ],
+        [
+          1,
+          12,
+          15,
+          30
+        ],
+        [
+          1,
+          12,
+          15,
+          30
+        ],
+        [
+          1,
+          12,
+          15,
+          29
+        ],
+        [
+          0,
+          13,
+          15,
+          31
+        ],
+        [
+          1,
+          13,
+          16,
+          31
+        ],
+        [
+          1,
+          12,
+          15,
+          30
+        ],
+        [
+          1,
+          13,
+          15,
+          32
+        ],
+        [
+          1,
+          13,
+          15,
+          32
+        ],
+        [
+          0,
+          12,
+          15,
+          30
+        ],
+        [
+          0,
+          13,
+          16,
+          31
+        ],
+        [
+          0,
+          13,
+          15,
+          30
+        ],
+        [
+          1,
+          12,
+          15,
+          31
+        ],
+        [
+          1,
+          12,
+          15,
+          31
+        ]
+      ]
+    },
+    {
+      "symbol": "gObjectEventPic_GreenSurfRun",
+      "source": "graphics/object_events/pics/people/green_surf_run.png",
+      "dimensions": [
+        224,
+        32
+      ],
+      "frame_dimensions": [
+        16,
+        32
+      ],
+      "frames": 14,
+      "references_in_frame_tables": 23,
+      "active": true,
+      "opaque_bounds": [
+        [
+          1,
+          12,
+          15,
+          30
+        ],
+        [
+          1,
+          12,
+          15,
+          30
+        ],
+        [
+          1,
+          12,
+          16,
+          30
+        ],
+        [
+          0,
+          10,
+          16,
+          29
+        ],
+        [
+          0,
+          12,
+          15,
+          31
+        ],
+        [
+          1,
+          12,
+          16,
+          31
+        ],
+        [
+          1,
+          12,
+          15,
+          30
+        ],
+        [
+          1,
+          13,
+          15,
+          32
+        ],
+        [
+          1,
+          13,
+          15,
+          32
+        ],
+        [
+          0,
+          12,
+          16,
+          30
+        ],
+        [
+          0,
+          13,
+          15,
+          30
+        ],
+        [
+          0,
+          13,
+          15,
+          30
+        ],
+        [
+          1,
+          13,
+          15,
+          32
+        ],
+        [
+          1,
+          13,
+          15,
+          32
+        ]
+      ]
+    },
+    {
+      "symbol": "gObjectEventPic_RedItem",
+      "source": "graphics/object_events/pics/people/red_item.png",
+      "dimensions": [
+        144,
+        32
+      ],
+      "frame_dimensions": [
+        16,
+        32
+      ],
+      "frames": 9,
+      "references_in_frame_tables": 9,
+      "active": true,
+      "opaque_bounds": [
+        [
+          1,
+          12,
+          15,
+          31
+        ],
+        [
+          0,
+          13,
+          14,
+          31
+        ],
+        [
+          1,
+          12,
+          15,
+          31
+        ],
+        [
+          1,
+          12,
+          15,
+          31
+        ],
+        [
+          0,
+          12,
+          16,
+          31
+        ],
+        [
+          1,
+          12,
+          15,
+          31
+        ],
+        [
+          1,
+          12,
+          15,
+          31
+        ],
+        [
+          0,
+          12,
+          16,
+          31
+        ],
+        [
+          0,
+          12,
+          16,
+          31
+        ]
+      ]
+    },
+    {
+      "symbol": "gObjectEventPic_GreenItem",
+      "source": "graphics/object_events/pics/people/green_item.png",
+      "dimensions": [
+        144,
+        32
+      ],
+      "frame_dimensions": [
+        16,
+        32
+      ],
+      "frames": 9,
+      "references_in_frame_tables": 9,
+      "active": true,
+      "opaque_bounds": [
+        [
+          0,
+          12,
+          15,
+          31
+        ],
+        [
+          1,
+          13,
+          16,
+          31
+        ],
+        [
+          0,
+          12,
+          15,
+          31
+        ],
+        [
+          1,
+          12,
+          16,
+          31
+        ],
+        [
+          0,
+          12,
+          15,
+          31
+        ],
+        [
+          0,
+          12,
+          15,
+          31
+        ],
+        [
+          1,
+          12,
+          16,
+          31
+        ],
+        [
+          0,
+          12,
+          15,
+          31
+        ],
+        [
+          0,
+          12,
+          15,
+          31
+        ]
+      ]
+    },
+    {
+      "symbol": "gObjectEventPic_RedSurf",
+      "source": "graphics/object_events/pics/people/red_surf.png",
+      "dimensions": [
+        288,
+        32
+      ],
+      "frame_dimensions": [
+        32,
+        32
+      ],
+      "frames": 9,
+      "references_in_frame_tables": 0,
+      "active": false,
+      "opaque_bounds": [
+        [
+          7,
+          4,
+          25,
+          28
+        ],
+        [
+          6,
+          5,
+          26,
+          28
+        ],
+        [
+          7,
+          4,
+          25,
+          28
+        ],
+        [
+          6,
+          5,
+          26,
+          28
+        ],
+        [
+          4,
+          4,
+          26,
+          28
+        ],
+        [
+          5,
+          5,
+          27,
+          29
+        ],
+        [
+          8,
+          15,
+          24,
+          32
+        ],
+        [
+          8,
+          15,
+          24,
+          32
+        ],
+        [
+          8,
+          14,
+          22,
+          32
+        ]
+      ]
+    },
+    {
+      "symbol": "gObjectEventPic_GreenSurf",
+      "source": "graphics/object_events/pics/people/green_surf.png",
+      "dimensions": [
+        288,
+        32
+      ],
+      "frame_dimensions": [
+        32,
+        32
+      ],
+      "frames": 9,
+      "references_in_frame_tables": 0,
+      "active": false,
+      "opaque_bounds": [
+        [
+          7,
+          4,
+          25,
+          28
+        ],
+        [
+          6,
+          5,
+          26,
+          28
+        ],
+        [
+          7,
+          4,
+          25,
+          28
+        ],
+        [
+          6,
+          5,
+          26,
+          28
+        ],
+        [
+          4,
+          4,
+          26,
+          28
+        ],
+        [
+          5,
+          5,
+          27,
+          29
+        ],
+        [
+          8,
+          15,
+          24,
+          32
+        ],
+        [
+          8,
+          15,
+          24,
+          32
+        ],
+        [
+          8,
+          14,
+          24,
+          32
+        ]
+      ]
+    },
+    {
+      "symbol": "gObjectEventPic_RedBike",
+      "source": "graphics/object_events/pics/people/red_bike.png",
+      "dimensions": [
+        288,
+        32
+      ],
+      "frame_dimensions": [
+        32,
+        32
+      ],
+      "frames": 9,
+      "references_in_frame_tables": 9,
+      "active": true,
+      "opaque_bounds": [
+        [
+          9,
+          11,
+          23,
+          32
+        ],
+        [
+          9,
+          10,
+          23,
+          32
+        ],
+        [
+          5,
+          10,
+          25,
+          32
+        ],
+        [
+          8,
+          11,
+          22,
+          32
+        ],
+        [
+          10,
+          11,
+          24,
+          32
+        ],
+        [
+          8,
+          10,
+          23,
+          32
+        ],
+        [
+          9,
+          10,
+          24,
+          32
+        ],
+        [
+          5,
+          10,
+          25,
+          32
+        ],
+        [
+          5,
+          10,
+          25,
+          32
+        ]
+      ]
+    },
+    {
+      "symbol": "gObjectEventPic_GreenBike",
+      "source": "graphics/object_events/pics/people/green_bike.png",
+      "dimensions": [
+        288,
+        32
+      ],
+      "frame_dimensions": [
+        32,
+        32
+      ],
+      "frames": 9,
+      "references_in_frame_tables": 9,
+      "active": true,
+      "opaque_bounds": [
+        [
+          9,
+          11,
+          23,
+          32
+        ],
+        [
+          9,
+          10,
+          23,
+          32
+        ],
+        [
+          5,
+          10,
+          25,
+          32
+        ],
+        [
+          8,
+          11,
+          24,
+          32
+        ],
+        [
+          8,
+          11,
+          24,
+          32
+        ],
+        [
+          8,
+          10,
+          23,
+          32
+        ],
+        [
+          9,
+          10,
+          24,
+          32
+        ],
+        [
+          5,
+          10,
+          25,
+          32
+        ],
+        [
+          5,
+          10,
+          25,
+          32
+        ]
+      ]
+    },
+    {
+      "symbol": "gObjectEventPic_RedVSSeekerBike",
+      "source": "graphics/object_events/pics/people/red_vs_seeker_bike.png",
+      "dimensions": [
+        192,
+        32
+      ],
+      "frame_dimensions": [
+        32,
+        32
+      ],
+      "frames": 6,
+      "references_in_frame_tables": 6,
+      "active": true,
+      "opaque_bounds": [
+        [
+          9,
+          11,
+          23,
+          32
+        ],
+        [
+          8,
+          12,
+          22,
+          32
+        ],
+        [
+          9,
+          11,
+          23,
+          32
+        ],
+        [
+          9,
+          11,
+          23,
+          32
+        ],
+        [
+          8,
+          11,
+          24,
+          32
+        ],
+        [
+          8,
+          11,
+          24,
+          32
+        ]
+      ]
+    },
+    {
+      "symbol": "gObjectEventPic_GreenVSSeekerBike",
+      "source": "graphics/object_events/pics/people/green_vs_seeker_bike.png",
+      "dimensions": [
+        192,
+        32
+      ],
+      "frame_dimensions": [
+        32,
+        32
+      ],
+      "frames": 6,
+      "references_in_frame_tables": 6,
+      "active": true,
+      "opaque_bounds": [
+        [
+          8,
+          11,
+          23,
+          32
+        ],
+        [
+          9,
+          12,
+          24,
+          32
+        ],
+        [
+          8,
+          11,
+          23,
+          32
+        ],
+        [
+          9,
+          11,
+          24,
+          32
+        ],
+        [
+          8,
+          11,
+          23,
+          32
+        ],
+        [
+          8,
+          11,
+          23,
+          32
+        ]
+      ]
+    },
+    {
+      "symbol": "gObjectEventPic_RedFish",
+      "source": "graphics/object_events/pics/people/red_fish.png",
+      "dimensions": [
+        384,
+        32
+      ],
+      "frame_dimensions": [
+        32,
+        32
+      ],
+      "frames": 12,
+      "references_in_frame_tables": 13,
+      "active": true,
+      "opaque_bounds": [
+        [
+          10,
+          6,
+          32,
+          31
+        ],
+        [
+          16,
+          5,
+          31,
+          31
+        ],
+        [
+          4,
+          11,
+          29,
+          32
+        ],
+        [
+          3,
+          12,
+          30,
+          31
+        ],
+        [
+          8,
+          8,
+          23,
+          31
+        ],
+        [
+          8,
+          14,
+          25,
+          32
+        ],
+        [
+          9,
+          5,
+          25,
+          29
+        ],
+        [
+          9,
+          3,
+          23,
+          30
+        ],
+        [
+          10,
+          2,
+          24,
+          29
+        ],
+        [
+          7,
+          1,
+          24,
+          23
+        ],
+        [
+          8,
+          6,
+          24,
+          30
+        ],
+        [
+          9,
+          3,
+          23,
+          32
+        ]
+      ]
+    },
+    {
+      "symbol": "gObjectEventPic_GreenFish",
+      "source": "graphics/object_events/pics/people/green_fish.png",
+      "dimensions": [
+        384,
+        32
+      ],
+      "frame_dimensions": [
+        32,
+        32
+      ],
+      "frames": 12,
+      "references_in_frame_tables": 12,
+      "active": true,
+      "opaque_bounds": [
+        [
+          10,
+          6,
+          32,
+          31
+        ],
+        [
+          17,
+          5,
+          32,
+          31
+        ],
+        [
+          4,
+          11,
+          32,
+          32
+        ],
+        [
+          3,
+          12,
+          32,
+          31
+        ],
+        [
+          8,
+          8,
+          23,
+          31
+        ],
+        [
+          8,
+          14,
+          25,
+          32
+        ],
+        [
+          9,
+          5,
+          25,
+          29
+        ],
+        [
+          9,
+          3,
+          23,
+          30
+        ],
+        [
+          10,
+          2,
+          24,
+          29
+        ],
+        [
+          7,
+          1,
+          24,
+          23
+        ],
+        [
+          8,
+          6,
+          24,
+          30
+        ],
+        [
+          9,
+          3,
+          23,
+          32
+        ]
+      ]
+    }
+  ],
+  "normal_frame_mapping": "walk0..8 from normal; run9..17 from surf_run slots3..11; look-left/right18/19 from slots12/13",
+  "surfing_source": "surf_run.png first three16x32 frames; native surf effect below remains engine resource",
+  "unreferenced_surf_pngs": "red_surf.png and green_surf.png have no frame table reference; preserve as archive, not required active animations",
+  "other_resources": [
+    {
+      "role": "trainer_front",
+      "native_size": [
+        64,
+        64
+      ],
+      "frames": 1
+    },
+    {
+      "role": "trainer_back",
+      "native_size": [
+        64,
+        64
+      ],
+      "frames": 5,
+      "layout": "vertical"
+    },
+    {
+      "role": "oak_intro",
+      "native_size": [
+        64,
+        96
+      ],
+      "format": "8bpp"
+    },
+    {
+      "role": "region_map_icon",
+      "native_size": [
+        16,
+        16
+      ]
+    },
+    {
+      "role": "credits",
+      "native_size": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "layout": "vertical"
+    }
+  ],
+  "state": "Artwork production, not integrated yet; retain active game resources until all required sets pass conversion and visual checks",
+  "item_frame_semantics": "Nine front-facing action frames: field move 0..4; VS Seeker uses0/1 and5..8; not three directional triplets",
+  "fishing_frame_order": "Four WEST casting phases, four NORTH phases, four SOUTH phases; EAST uses engine horizontal mirroring",
+  "palette_plan": "Common 15 opaque RGB555 colors for both protagonists and all equipment; dedicated player palette and existing reflection tags, without editing common NPC palettes",
+  "native_frame_slots_per_character": 73
+}

@@ -1,0 +1,109 @@
+{
+  "status": "ARTWORK_IN_PROGRESS_NOT_INTEGRATED",
+  "rom_unchanged": "8e33517256e38b541b181c9f3bf210d73cedfa0979ae7207d627bf7eb53dfa2a",
+  "normal_yokai_sprites_modified": 0,
+  "characters": {
+    "nathan": {
+      "front.png": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "native_frame_slots": 1,
+        "visible_pixels": 1097,
+        "sha256": "64891f8e9c9fc7b2babc56a4d6b5f64c44543510bd884333d237b543903875c8"
+      },
+      "back.png": {
+        "dimensions": [
+          64,
+          320
+        ],
+        "native_frame_slots": 5,
+        "visible_pixels": 7364,
+        "sha256": "f8cf13cfe27feeffe0bae7401794724dddabc2d3bf66d9f50dcc9de476299096"
+      },
+      "normal.png": {
+        "dimensions": [
+          144,
+          32
+        ],
+        "native_frame_slots": 9,
+        "visible_pixels": 1261,
+        "sha256": "502abc34aa5f6d87e364e32a0f8b2523d12078b8a975c610d2fda298a9d51871"
+      },
+      "region_icon.png": {
+        "dimensions": [
+          16,
+          16
+        ],
+        "native_frame_slots": 1,
+        "visible_pixels": 130,
+        "sha256": "2f9a4e917b2085574808af7f21ece9bc34bb1b9a8d8f95515de678b2cd080eef"
+      },
+      "intro.png": {
+        "dimensions": [
+          64,
+          96
+        ],
+        "native_frame_slots": 1,
+        "visible_pixels": 2551,
+        "sha256": "416d305a7a0430acc6c750081f9208b423a36d56e75e7af188e3750fdb3fc69c"
+      }
+    },
+    "katie": {
+      "front.png": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "native_frame_slots": 1,
+        "visible_pixels": 1174,
+        "sha256": "0c34fce7ca670a0f74da1a27c5f65c0d601a928f42155701c439d64b45b57974"
+      },
+      "back.png": {
+        "dimensions": [
+          64,
+          320
+        ],
+        "native_frame_slots": 5,
+        "visible_pixels": 7774,
+        "sha256": "e091e92b08ecead65ece07470b3a65f54156f289110616f17234238f4d775122"
+      },
+      "normal.png": {
+        "dimensions": [
+          144,
+          32
+        ],
+        "native_frame_slots": 9,
+        "visible_pixels": 1337,
+        "sha256": "4efb2f7ead3e625d5a6602670505141933b541086e94132d01384977ac8cca34"
+      },
+      "region_icon.png": {
+        "dimensions": [
+          16,
+          16
+        ],
+        "native_frame_slots": 1,
+        "visible_pixels": 137,
+        "sha256": "eeb1d503a0a6cb5d782d9933baf2fd9a09597b26b8021fddc1f6ef8667cbbdce"
+      },
+      "intro.png": {
+        "dimensions": [
+          64,
+          96
+        ],
+        "native_frame_slots": 1,
+        "visible_pixels": 2656,
+        "sha256": "4b50f03f0d33287f757b3d2014670cdc0f81940ca4b39b640e7a337c9d3770d7"
+      }
+    }
+  },
+  "remaining": [
+    "run and surf poses",
+    "bicycle and VS Seeker bicycle",
+    "fishing and field actions",
+    "credits animation",
+    "active integration",
+    "mGBA tests for both genders and opposite cameo resources"
+  ]
+}

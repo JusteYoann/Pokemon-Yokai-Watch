@@ -1,0 +1,126 @@
+{
+  "character": "katie",
+  "core": {
+    "source": "source/core-sheet.png",
+    "rectangles": [
+      [
+        0,
+        0,
+        313,
+        410
+      ],
+      [
+        313,
+        0,
+        626,
+        410
+      ],
+      [
+        626,
+        0,
+        939,
+        410
+      ],
+      [
+        939,
+        0,
+        1254,
+        410
+      ],
+      [
+        0,
+        430,
+        313,
+        750
+      ],
+      [
+        313,
+        430,
+        626,
+        750
+      ],
+      [
+        626,
+        430,
+        939,
+        750
+      ],
+      [
+        939,
+        430,
+        1254,
+        750
+      ],
+      [
+        0,
+        750,
+        313,
+        1000
+      ],
+      [
+        313,
+        750,
+        626,
+        1000
+      ],
+      [
+        626,
+        750,
+        939,
+        1000
+      ],
+      [
+        939,
+        750,
+        1254,
+        1000
+      ],
+      [
+        0,
+        1000,
+        313,
+        1254
+      ],
+      [
+        313,
+        1000,
+        626,
+        1254
+      ],
+      [
+        626,
+        1000,
+        939,
+        1254
+      ],
+      [
+        939,
+        1000,
+        1254,
+        1254
+      ]
+    ],
+    "trainer_front": 0,
+    "trainer_back": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "normal": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "region_icon": 15,
+    "back_pose_note": "Nathan: four distinct throw keyposes and return to neutral for native frame4; Katie: five distinct keyposes."
+  },
+  "integration_state": "NOT ACTIVE: wait for all movement/action/credits sets before retargeting game resources"
+}
