@@ -1,0 +1,313 @@
+{
+  "specification": "CAMEOS_YOKAI_WATCH_CODEX.md §2.2, approved protagonist references",
+  "location": "CeladonCity",
+  "coordinates": [
+    25,
+    13
+  ],
+  "original_objects_preserved": 15,
+  "appearance": "Male player -> Katie; female player -> Nathan; separate map graphics IDs, common original player artwork palette with dedicated NPC tag",
+  "teams": [
+    {
+      "trainer_entry": "TRAINER_YOKAI_KATIE",
+      "trainer_id": 4,
+      "person": "Katie",
+      "postgame": false,
+      "members": [
+        {
+          "number": 1,
+          "species": "SPECIES_BULBASAUR",
+          "level": 29,
+          "moves": [
+            "MOVE_FURY_SWIPES",
+            "MOVE_SMOKESCREEN",
+            "MOVE_FLAME_WHEEL",
+            "MOVE_SLASH"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 8,
+          "species": "SPECIES_WARTORTLE",
+          "level": 28,
+          "moves": [
+            "MOVE_DISABLE",
+            "MOVE_NIGHT_SHADE",
+            "MOVE_SPITE",
+            "MOVE_CURSE"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 5,
+          "species": "SPECIES_CHARMELEON",
+          "level": 28,
+          "moves": [
+            "MOVE_SMOKESCREEN",
+            "MOVE_FIRE_SPIN",
+            "MOVE_FLAME_WHEEL",
+            "MOVE_SUNNY_DAY"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 87,
+          "species": "SPECIES_DEWGONG",
+          "level": 29,
+          "moves": [
+            "MOVE_WATER_PULSE",
+            "MOVE_FURY_CUTTER",
+            "MOVE_BUBBLE_BEAM",
+            "MOVE_SLASH"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 49,
+          "species": "SPECIES_VENOMOTH",
+          "level": 30,
+          "moves": [
+            "MOVE_YAWN",
+            "MOVE_PSYBEAM",
+            "MOVE_DISABLE",
+            "MOVE_REFLECT"
+          ],
+          "held_item": "ITEM_NONE"
+        }
+      ]
+    },
+    {
+      "trainer_entry": "TRAINER_YOKAI_KATIE_POST",
+      "trainer_id": 5,
+      "person": "Katie",
+      "postgame": true,
+      "members": [
+        {
+          "number": 4,
+          "species": "SPECIES_CHARMANDER",
+          "level": 58,
+          "moves": [
+            "MOVE_BRICK_BREAK",
+            "MOVE_SWORDS_DANCE",
+            "MOVE_METEOR_MASH",
+            "MOVE_DOUBLE_EDGE"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 88,
+          "species": "SPECIES_GRIMER",
+          "level": 59,
+          "moves": [
+            "MOVE_PROTECT",
+            "MOVE_AGILITY",
+            "MOVE_HYDRO_PUMP",
+            "MOVE_DOUBLE_EDGE"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 126,
+          "species": "SPECIES_MAGMAR",
+          "level": 60,
+          "moves": [
+            "MOVE_MORNING_SUN",
+            "MOVE_REFLECT",
+            "MOVE_LIGHT_SCREEN",
+            "MOVE_SKY_ATTACK"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 8,
+          "species": "SPECIES_WARTORTLE",
+          "level": 61,
+          "moves": [
+            "MOVE_REFLECT",
+            "MOVE_LIGHT_SCREEN",
+            "MOVE_HEAL_BELL",
+            "MOVE_SHADOW_BALL"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 6,
+          "species": "SPECIES_CHARIZARD",
+          "level": 62,
+          "moves": [
+            "MOVE_CALM_MIND",
+            "MOVE_AMNESIA",
+            "MOVE_HEAT_WAVE",
+            "MOVE_FIRE_BLAST"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 50,
+          "species": "SPECIES_DIGLETT",
+          "level": 63,
+          "moves": [
+            "MOVE_PSYCHIC",
+            "MOVE_RECOVER",
+            "MOVE_FUTURE_SIGHT",
+            "MOVE_DREAM_EATER"
+          ],
+          "held_item": "ITEM_NONE"
+        }
+      ]
+    },
+    {
+      "trainer_entry": "TRAINER_YOKAI_NATHAN",
+      "trainer_id": 6,
+      "person": "Nathan",
+      "postgame": false,
+      "members": [
+        {
+          "number": 1,
+          "species": "SPECIES_BULBASAUR",
+          "level": 29,
+          "moves": [
+            "MOVE_FURY_SWIPES",
+            "MOVE_SMOKESCREEN",
+            "MOVE_FLAME_WHEEL",
+            "MOVE_SLASH"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 8,
+          "species": "SPECIES_WARTORTLE",
+          "level": 28,
+          "moves": [
+            "MOVE_DISABLE",
+            "MOVE_NIGHT_SHADE",
+            "MOVE_SPITE",
+            "MOVE_CURSE"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 5,
+          "species": "SPECIES_CHARMELEON",
+          "level": 28,
+          "moves": [
+            "MOVE_SMOKESCREEN",
+            "MOVE_FIRE_SPIN",
+            "MOVE_FLAME_WHEEL",
+            "MOVE_SUNNY_DAY"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 87,
+          "species": "SPECIES_DEWGONG",
+          "level": 29,
+          "moves": [
+            "MOVE_WATER_PULSE",
+            "MOVE_FURY_CUTTER",
+            "MOVE_BUBBLE_BEAM",
+            "MOVE_SLASH"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 49,
+          "species": "SPECIES_VENOMOTH",
+          "level": 30,
+          "moves": [
+            "MOVE_YAWN",
+            "MOVE_PSYBEAM",
+            "MOVE_DISABLE",
+            "MOVE_REFLECT"
+          ],
+          "held_item": "ITEM_NONE"
+        }
+      ]
+    },
+    {
+      "trainer_entry": "TRAINER_YOKAI_NATHAN_POST",
+      "trainer_id": 7,
+      "person": "Nathan",
+      "postgame": true,
+      "members": [
+        {
+          "number": 4,
+          "species": "SPECIES_CHARMANDER",
+          "level": 58,
+          "moves": [
+            "MOVE_BRICK_BREAK",
+            "MOVE_SWORDS_DANCE",
+            "MOVE_METEOR_MASH",
+            "MOVE_DOUBLE_EDGE"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 88,
+          "species": "SPECIES_GRIMER",
+          "level": 59,
+          "moves": [
+            "MOVE_PROTECT",
+            "MOVE_AGILITY",
+            "MOVE_HYDRO_PUMP",
+            "MOVE_DOUBLE_EDGE"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 126,
+          "species": "SPECIES_MAGMAR",
+          "level": 60,
+          "moves": [
+            "MOVE_MORNING_SUN",
+            "MOVE_REFLECT",
+            "MOVE_LIGHT_SCREEN",
+            "MOVE_SKY_ATTACK"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 8,
+          "species": "SPECIES_WARTORTLE",
+          "level": 61,
+          "moves": [
+            "MOVE_REFLECT",
+            "MOVE_LIGHT_SCREEN",
+            "MOVE_HEAL_BELL",
+            "MOVE_SHADOW_BALL"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 6,
+          "species": "SPECIES_CHARIZARD",
+          "level": 62,
+          "moves": [
+            "MOVE_CALM_MIND",
+            "MOVE_AMNESIA",
+            "MOVE_HEAT_WAVE",
+            "MOVE_FIRE_BLAST"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 50,
+          "species": "SPECIES_DIGLETT",
+          "level": 63,
+          "moves": [
+            "MOVE_PSYCHIC",
+            "MOVE_RECOVER",
+            "MOVE_FUTURE_SIGHT",
+            "MOVE_DREAM_EATER"
+          ],
+          "held_item": "ITEM_NONE"
+        }
+      ]
+    }
+  ],
+  "reward": "ITEM_LEAF_STONE",
+  "reward_choice": "A valid Jibanyan evolution item (Epinyan); no evolution or species mapping change",
+  "battle_policy": "Optional Yes/No, adventure victory once, unlimited post-League rematches, direct postgame team on first late visit, unique reward retry on full bag",
+  "secondary_choices": "IV parameter150 adventure /200 post, primary abilities, last four available validated moves, no held items or bag, post levels58..63",
+  "not_complete": "Other cameo groups, quests, music and full progression remain"
+}

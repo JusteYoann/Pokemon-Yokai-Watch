@@ -5,6 +5,10 @@
 #define TRAINER_YOKAI_ENMA                         TRAINER_AQUA_GRUNT_F
 #define TRAINER_YOKAI_ARIANE                       TRAINER_AQUA_LEADER
 #define TRAINER_YOKAI_ARIANE_POST                  TRAINER_AQUA_GRUNT_M
+#define TRAINER_YOKAI_KATIE TRAINER_RS_AROMA_LADY
+#define TRAINER_YOKAI_KATIE_POST TRAINER_RS_RUIN_MANIAC
+#define TRAINER_YOKAI_NATHAN TRAINER_INTERVIEWER
+#define TRAINER_YOKAI_NATHAN_POST TRAINER_RS_TUBER_F
 // Dummy trainers for all the RS trainer classes
 #define TRAINER_AQUA_LEADER                        1
 #define TRAINER_AQUA_GRUNT_M                       2

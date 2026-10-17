@@ -1,0 +1,73 @@
+{
+  "engine": "mGBA libretro",
+  "rom_sha256": "a141fa6f6e637b1716e3b6da1afa1e1ca4a67fd07f9b1f718f29e56fc33d578e",
+  "scope": "Real A interaction and controller-driven fights at Celadon (25,13), both genders; fixture warp, overpower party for victories, weak party for actual defeat, no savestates in Flash tests",
+  "balance_validated": false,
+  "results": [
+    {
+      "test": "cameo-katie-aventure correct sole NPC and No declines without battle",
+      "passed": true
+    },
+    {
+      "test": "cameo-katie-aventure actual victory, correct adventure/post team, one Leaf Stone; full bag retry for adventure",
+      "frames": 5120,
+      "passed": true
+    },
+    {
+      "test": "cameo-katie-aventure repeated actual postgame rematches, no duplicate reward, flags survive native Flash reload",
+      "passed": true
+    },
+    {
+      "test": "cameo-katie-post correct sole NPC and No declines without battle",
+      "passed": true
+    },
+    {
+      "test": "cameo-katie-post actual victory, correct adventure/post team, one Leaf Stone; full bag retry for adventure",
+      "frames": 6912,
+      "passed": true
+    },
+    {
+      "test": "cameo-katie-post repeated actual postgame rematches, no duplicate reward, flags survive native Flash reload",
+      "passed": true
+    },
+    {
+      "test": "cameo-nathan-aventure correct sole NPC and No declines without battle",
+      "passed": true
+    },
+    {
+      "test": "cameo-nathan-aventure actual victory, correct adventure/post team, one Leaf Stone; full bag retry for adventure",
+      "frames": 5184,
+      "passed": true
+    },
+    {
+      "test": "cameo-nathan-aventure repeated actual postgame rematches, no duplicate reward, flags survive native Flash reload",
+      "passed": true
+    },
+    {
+      "test": "cameo-nathan-post correct sole NPC and No declines without battle",
+      "passed": true
+    },
+    {
+      "test": "cameo-nathan-post actual victory, correct adventure/post team, one Leaf Stone; full bag retry for adventure",
+      "frames": 6976,
+      "passed": true
+    },
+    {
+      "test": "cameo-nathan-post repeated actual postgame rematches, no duplicate reward, flags survive native Flash reload",
+      "passed": true
+    },
+    {
+      "test": "Four native trainer parties: 22 members, exact approved species/order and adventure levels; post levels58..63, validated moves, primary abilities, no held items",
+      "passed": true
+    },
+    {
+      "test": "Actual weak-party loss and whiteout grants no victory, reward or unlock",
+      "passed": true
+    }
+  ],
+  "remaining": [
+    "Actual trip to Celadon",
+    "Difficulty with ordinary team",
+    "Other cameo groups"
+  ]
+}

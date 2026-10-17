@@ -13812,3 +13812,37 @@ static const struct TrainerMonItemCustomMoves sParty_YokaiLordEnma[] = {
     {.iv = 255, .lvl = 74, .species = SPECIES_MUK, .heldItem = ITEM_NONE, .moves = {MOVE_SYNTHESIS, MOVE_AROMATHERAPY, MOVE_PETAL_DANCE, MOVE_SOLAR_BEAM}},
     {.iv = 255, .lvl = 75, .species = SPECIES_ALAKAZAM, .heldItem = ITEM_NONE, .moves = {MOVE_ROCK_SLIDE, MOVE_FACADE, MOVE_EARTHQUAKE, MOVE_SUPERPOWER}},
 };
+
+static const struct TrainerMonItemCustomMoves sParty_YokaiKatie[] = {
+    {.iv = 150, .lvl = 29, .species = SPECIES_BULBASAUR, .heldItem = ITEM_NONE, .moves = {MOVE_FURY_SWIPES, MOVE_SMOKESCREEN, MOVE_FLAME_WHEEL, MOVE_SLASH}},
+    {.iv = 150, .lvl = 28, .species = SPECIES_WARTORTLE, .heldItem = ITEM_NONE, .moves = {MOVE_DISABLE, MOVE_NIGHT_SHADE, MOVE_SPITE, MOVE_CURSE}},
+    {.iv = 150, .lvl = 28, .species = SPECIES_CHARMELEON, .heldItem = ITEM_NONE, .moves = {MOVE_SMOKESCREEN, MOVE_FIRE_SPIN, MOVE_FLAME_WHEEL, MOVE_SUNNY_DAY}},
+    {.iv = 150, .lvl = 29, .species = SPECIES_DEWGONG, .heldItem = ITEM_NONE, .moves = {MOVE_WATER_PULSE, MOVE_FURY_CUTTER, MOVE_BUBBLE_BEAM, MOVE_SLASH}},
+    {.iv = 150, .lvl = 30, .species = SPECIES_VENOMOTH, .heldItem = ITEM_NONE, .moves = {MOVE_YAWN, MOVE_PSYBEAM, MOVE_DISABLE, MOVE_REFLECT}},
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YokaiKatiePost[] = {
+    {.iv = 200, .lvl = 58, .species = SPECIES_CHARMANDER, .heldItem = ITEM_NONE, .moves = {MOVE_BRICK_BREAK, MOVE_SWORDS_DANCE, MOVE_METEOR_MASH, MOVE_DOUBLE_EDGE}},
+    {.iv = 200, .lvl = 59, .species = SPECIES_GRIMER, .heldItem = ITEM_NONE, .moves = {MOVE_PROTECT, MOVE_AGILITY, MOVE_HYDRO_PUMP, MOVE_DOUBLE_EDGE}},
+    {.iv = 200, .lvl = 60, .species = SPECIES_MAGMAR, .heldItem = ITEM_NONE, .moves = {MOVE_MORNING_SUN, MOVE_REFLECT, MOVE_LIGHT_SCREEN, MOVE_SKY_ATTACK}},
+    {.iv = 200, .lvl = 61, .species = SPECIES_WARTORTLE, .heldItem = ITEM_NONE, .moves = {MOVE_REFLECT, MOVE_LIGHT_SCREEN, MOVE_HEAL_BELL, MOVE_SHADOW_BALL}},
+    {.iv = 200, .lvl = 62, .species = SPECIES_CHARIZARD, .heldItem = ITEM_NONE, .moves = {MOVE_CALM_MIND, MOVE_AMNESIA, MOVE_HEAT_WAVE, MOVE_FIRE_BLAST}},
+    {.iv = 200, .lvl = 63, .species = SPECIES_DIGLETT, .heldItem = ITEM_NONE, .moves = {MOVE_PSYCHIC, MOVE_RECOVER, MOVE_FUTURE_SIGHT, MOVE_DREAM_EATER}},
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YokaiNathan[] = {
+    {.iv = 150, .lvl = 29, .species = SPECIES_BULBASAUR, .heldItem = ITEM_NONE, .moves = {MOVE_FURY_SWIPES, MOVE_SMOKESCREEN, MOVE_FLAME_WHEEL, MOVE_SLASH}},
+    {.iv = 150, .lvl = 28, .species = SPECIES_WARTORTLE, .heldItem = ITEM_NONE, .moves = {MOVE_DISABLE, MOVE_NIGHT_SHADE, MOVE_SPITE, MOVE_CURSE}},
+    {.iv = 150, .lvl = 28, .species = SPECIES_CHARMELEON, .heldItem = ITEM_NONE, .moves = {MOVE_SMOKESCREEN, MOVE_FIRE_SPIN, MOVE_FLAME_WHEEL, MOVE_SUNNY_DAY}},
+    {.iv = 150, .lvl = 29, .species = SPECIES_DEWGONG, .heldItem = ITEM_NONE, .moves = {MOVE_WATER_PULSE, MOVE_FURY_CUTTER, MOVE_BUBBLE_BEAM, MOVE_SLASH}},
+    {.iv = 150, .lvl = 30, .species = SPECIES_VENOMOTH, .heldItem = ITEM_NONE, .moves = {MOVE_YAWN, MOVE_PSYBEAM, MOVE_DISABLE, MOVE_REFLECT}},
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YokaiNathanPost[] = {
+    {.iv = 200, .lvl = 58, .species = SPECIES_CHARMANDER, .heldItem = ITEM_NONE, .moves = {MOVE_BRICK_BREAK, MOVE_SWORDS_DANCE, MOVE_METEOR_MASH, MOVE_DOUBLE_EDGE}},
+    {.iv = 200, .lvl = 59, .species = SPECIES_GRIMER, .heldItem = ITEM_NONE, .moves = {MOVE_PROTECT, MOVE_AGILITY, MOVE_HYDRO_PUMP, MOVE_DOUBLE_EDGE}},
+    {.iv = 200, .lvl = 60, .species = SPECIES_MAGMAR, .heldItem = ITEM_NONE, .moves = {MOVE_MORNING_SUN, MOVE_REFLECT, MOVE_LIGHT_SCREEN, MOVE_SKY_ATTACK}},
+    {.iv = 200, .lvl = 61, .species = SPECIES_WARTORTLE, .heldItem = ITEM_NONE, .moves = {MOVE_REFLECT, MOVE_LIGHT_SCREEN, MOVE_HEAL_BELL, MOVE_SHADOW_BALL}},
+    {.iv = 200, .lvl = 62, .species = SPECIES_CHARIZARD, .heldItem = ITEM_NONE, .moves = {MOVE_CALM_MIND, MOVE_AMNESIA, MOVE_HEAT_WAVE, MOVE_FIRE_BLAST}},
+    {.iv = 200, .lvl = 63, .species = SPECIES_DIGLETT, .heldItem = ITEM_NONE, .moves = {MOVE_PSYCHIC, MOVE_RECOVER, MOVE_FUTURE_SIGHT, MOVE_DREAM_EATER}},
+};

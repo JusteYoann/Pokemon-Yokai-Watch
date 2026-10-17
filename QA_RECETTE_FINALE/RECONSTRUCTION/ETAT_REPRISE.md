@@ -14,7 +14,7 @@ Branche active : **dev/reconstruction-finalisation**. `master` reste préservée
 | Légendaires | Kyubi au Mont Braise, Mademoaiselle aux Îles Écume, Octorgone à la Centrale ; Enma verrouillé par son duel caméo. |
 | Équipes et rival | 639 équipes contrôlées, 17 boss verrouillés ; Matt nommé et dessiné. |
 | Multi Exp. | Actif et testé en combat. Équilibrage du parcours encore à faire. |
-| Caméos | Ariane/Usapion et Seigneur Enma restaurés ; les cinq autres groupes demandés restent à reconstruire. |
+| Caméos | Ariane/Usapion et Seigneur Enma restaurés ; Nathan/Katie à Céladopole restaurés ; quatre autres groupes à reconstruire. |
 | Dix quêtes | Quête 8 partielle par l'événement Enma partagé ; neuf autres non reconstruites ; aucune annoncée complète. |
 | 20 OST DPCM | Direction et références préservées ; intégration active : zéro. Inspection du pilote dans AUDIO_DPCM_PREPARATION.md. |
 | Nathan/Katie et autres overworld | Séries originales complètes intégrées : 73 emplacements par protagoniste, tests natifs terrain/combat réussis. Introduction avec prénom personnalisable/Matt fixe, Surf, carte dresseur, Panthéon et crédits testés nativement pour les deux sexes. Enma/Kyubi et Matt/Ariane présents ; autres overworld à produire. |
@@ -37,3 +37,5 @@ Continuer les caméos manquants, Nathan/Katie et les overworld, les shiny finaux
 **Verdict global : NON PRÊT.** Aucun parcours intégral ni contrôle exhaustif des 354 animations n'a encore été réalisé.
 
 Jalon protagonistes actif : TEST_PROTAGONISTES_MGBA.json, sources graphics/yokai_characters/{nathan,katie,matt}, découpe et conversions reproductibles dans tools/yokai. Les premiers aperçus GIF peuvent être noirs dans l’interface ; chaque animation possède aussi une planche PNG opaque de vraies captures. Reprise : continuer les caméos manquants, sans régénérer les dessins déjà intégrés.
+
+Caméo Nathan/Katie de Céladopole : actif, testé avec les deux sexes en aventure et postgame, récompense unique/retry sac plein/revanches/Flash/défaite. Données data/yokai/cameo_protagonistes.json ; preuve TEST_CAMEO_PROTAGONISTES_MGBA.json. Prochaine étape : Nathaniel/Michael et Wyatt (références visuelles consultées ; nouveaux dessins en préparation), puis deux groupes de boss restants.

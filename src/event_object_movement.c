@@ -468,6 +468,7 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 #define OBJ_EVENT_PAL_TAG_RS_GROUDON                  0x1119
 #define OBJ_EVENT_PAL_TAG_RS_GROUDON_REFLECTION       0x111A
 #define OBJ_EVENT_PAL_TAG_RS_SUBMARINE_SHADOW         0x111B
+#define OBJ_EVENT_PAL_TAG_YOKAI_FRIEND                 0x1120
 #define OBJ_EVENT_PAL_TAG_YOKAI_PLAYER_BRIDGE          0x111F
 #define OBJ_EVENT_PAL_TAG_YOKAI_ENMA                  0x111E
 #define OBJ_EVENT_PAL_TAG_ARIANE                      0x111D
@@ -483,6 +484,7 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 #include "data/object_events/object_event_graphics_info.h"
 
 static const struct SpritePalette sObjectEventSpritePalettes[] = {
+    {gObjectEventPal_Player, OBJ_EVENT_PAL_TAG_YOKAI_FRIEND},
     {gObjectEventPal_Matt, OBJ_EVENT_PAL_TAG_MATT},
     {gObjectEventPal_Ariane, OBJ_EVENT_PAL_TAG_ARIANE},
     {gObjectEventPal_YokaiEnma, OBJ_EVENT_PAL_TAG_YOKAI_ENMA},
@@ -507,6 +509,8 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_Seagallop,               OBJ_EVENT_PAL_TAG_SEAGALLOP},
     {},
 };
+
+static const u16 sYokaiFriendReflectionPaletteTags[] = {OBJ_EVENT_PAL_TAG_YOKAI_FRIEND, OBJ_EVENT_PAL_TAG_YOKAI_FRIEND, OBJ_EVENT_PAL_TAG_YOKAI_FRIEND, OBJ_EVENT_PAL_TAG_YOKAI_FRIEND};
 
 static const u16 sYokaiEnmaReflectionPaletteTags[] = {OBJ_EVENT_PAL_TAG_YOKAI_ENMA, OBJ_EVENT_PAL_TAG_YOKAI_ENMA, OBJ_EVENT_PAL_TAG_YOKAI_ENMA, OBJ_EVENT_PAL_TAG_YOKAI_ENMA};
 
@@ -627,6 +631,7 @@ static const struct PairedPalettes gSpecialObjectReflectionPaletteSets[] = {
     {OBJ_EVENT_PAL_TAG_MATT,                sMattReflectionPaletteTags},
     {OBJ_EVENT_PAL_TAG_ARIANE,              sArianeReflectionPaletteTags},
     {OBJ_EVENT_PAL_TAG_YOKAI_ENMA,          sYokaiEnmaReflectionPaletteTags},
+    {OBJ_EVENT_PAL_TAG_YOKAI_FRIEND,        sYokaiFriendReflectionPaletteTags},
     {OBJ_EVENT_PAL_TAG_RS_SUBMARINE_SHADOW, sRSSubmarineShadowReflectionPaletteTags},
     {OBJ_EVENT_PAL_TAG_NONE, NULL},
 };

@@ -1,10 +1,10 @@
 {
-  "rom_sha256": "cad16543352b97a7002d68b27fe4dcf298bb5da330128362d965a26ea2142e9f",
+  "rom_sha256": "a141fa6f6e637b1716e3b6da1afa1e1ca4a67fd07f9b1f718f29e56fc33d578e",
   "engine": "native GetStringWidth in mGBA",
   "font": "FONT_NORMAL (2)",
   "max_pixels": 208,
-  "scope": "Added Ariane/Enma static dialogue lines only; not all game text or battle dynamic placeholders",
-  "lines_checked": 56,
+  "scope": "Added Ariane/Enma/opposite protagonist static dialogue lines only; not all game text or battle dynamic placeholders",
+  "lines_checked": 75,
   "results": [
     {
       "file": "data/maps/Route25/scripts.inc",
@@ -341,6 +341,120 @@
       "line": 74,
       "text": "Enma te lance un regard déterminé!",
       "pixels": 192
+    },
+    {
+      "file": "data/maps/CeladonCity/scripts.inc",
+      "line": 170,
+      "text": "Toi aussi, tu voyages avec des",
+      "pixels": 170
+    },
+    {
+      "file": "data/maps/CeladonCity/scripts.inc",
+      "line": 171,
+      "text": "Yo-kai? Mes amis sont en forme!",
+      "pixels": 173
+    },
+    {
+      "file": "data/maps/CeladonCity/scripts.inc",
+      "line": 172,
+      "text": "Ça te dit de faire un combat?",
+      "pixels": 164
+    },
+    {
+      "file": "data/maps/CeladonCity/scripts.inc",
+      "line": 174,
+      "text": "Jibanyan, à toi de jouer!",
+      "pixels": 141
+    },
+    {
+      "file": "data/maps/CeladonCity/scripts.inc",
+      "line": 176,
+      "text": "Notre équipe a bien grandi!",
+      "pixels": 151
+    },
+    {
+      "file": "data/maps/CeladonCity/scripts.inc",
+      "line": 177,
+      "text": "Montrons nos progrès!",
+      "pixels": 116
+    },
+    {
+      "file": "data/maps/CeladonCity/scripts.inc",
+      "line": 179,
+      "text": "Quelle belle équipe!",
+      "pixels": 114
+    },
+    {
+      "file": "data/maps/CeladonCity/scripts.inc",
+      "line": 180,
+      "text": "On a encore tant à apprendre!",
+      "pixels": 165
+    },
+    {
+      "file": "data/maps/CeladonCity/scripts.inc",
+      "line": 182,
+      "text": "Merci pour ce combat!",
+      "pixels": 121
+    },
+    {
+      "file": "data/maps/CeladonCity/scripts.inc",
+      "line": 183,
+      "text": "Nos amis ont tout donné.",
+      "pixels": 133
+    },
+    {
+      "file": "data/maps/CeladonCity/scripts.inc",
+      "line": 185,
+      "text": "Prends cette Pierre Plante.",
+      "pixels": 149
+    },
+    {
+      "file": "data/maps/CeladonCity/scripts.inc",
+      "line": 186,
+      "text": "Jibanyan peut évoluer avec elle!",
+      "pixels": 183
+    },
+    {
+      "file": "data/maps/CeladonCity/scripts.inc",
+      "line": 188,
+      "text": "Jibanyan et moi allons continuer",
+      "pixels": 175
+    },
+    {
+      "file": "data/maps/CeladonCity/scripts.inc",
+      "line": 189,
+      "text": "notre voyage. Après la Ligue,",
+      "pixels": 164
+    },
+    {
+      "file": "data/maps/CeladonCity/scripts.inc",
+      "line": 190,
+      "text": "on fera un autre combat!",
+      "pixels": 137
+    },
+    {
+      "file": "data/maps/CeladonCity/scripts.inc",
+      "line": 192,
+      "text": "Pas de problème!",
+      "pixels": 93
+    },
+    {
+      "file": "data/maps/CeladonCity/scripts.inc",
+      "line": 193,
+      "text": "Reviens quand tu voudras.",
+      "pixels": 141
+    },
+    {
+      "file": "data/maps/CeladonCity/scripts.inc",
+      "line": 195,
+      "text": "Ton sac est plein.",
+      "pixels": 99
+    },
+    {
+      "file": "data/maps/CeladonCity/scripts.inc",
+      "line": 196,
+      "text": "Je garde ta pierre pour plus tard!",
+      "pixels": 193
     }
   ]
 }
