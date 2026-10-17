@@ -460,3 +460,12 @@ const u32 gTrainerPalette_Ariane[] = INCBIN_U32("graphics/yokai_characters/arian
 
 const u32 gTrainerFrontPic_YokaiEnma[] = INCBIN_U32("graphics/yokai_characters/enma/battle.4bpp.lz");
 const u32 gTrainerPalette_YokaiEnma[] = INCBIN_U32("graphics/yokai_characters/enma/normal.gbapal.lz");
+
+const u32 gTrainerFrontPic_YokaiNathaniel[] = INCBIN_U32("graphics/yokai_characters/nathaniel/battle.4bpp.lz");
+const u32 gTrainerPalette_YokaiNathaniel[] = INCBIN_U32("graphics/yokai_characters/nathaniel/normal.gbapal.lz");
+
+const u32 gTrainerFrontPic_YokaiMichael[] = INCBIN_U32("graphics/yokai_characters/michael/battle.4bpp.lz");
+const u32 gTrainerPalette_YokaiMichael[] = INCBIN_U32("graphics/yokai_characters/michael/normal.gbapal.lz");
+
+const u32 gTrainerFrontPic_YokaiWyatt[] = INCBIN_U32("graphics/yokai_characters/wyatt/battle.4bpp.lz");
+const u32 gTrainerPalette_YokaiWyatt[] = INCBIN_U32("graphics/yokai_characters/wyatt/normal.gbapal.lz");

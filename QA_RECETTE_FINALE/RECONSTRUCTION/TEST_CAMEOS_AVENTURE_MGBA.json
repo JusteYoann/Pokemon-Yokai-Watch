@@ -1,0 +1,109 @@
+{
+  "engine": "mGBA libretro",
+  "rom_sha256": "3d041e202c7775964de3bdfea455ecef1a58e54926cbc87c304ce27bd35ff5ce",
+  "scope": "Real controller interactions and completed battles on Fuchsia/Cinnabar maps; fixture warps, gender and postgame flags, overpower party for victories and weak party for defeats; independent instances, no savestates in Flash assertions",
+  "balance_validated": false,
+  "results": [
+    {
+      "test": "cameo-nathaniel-aventure sole correct NPC, four native facings, No declines",
+      "passed": true
+    },
+    {
+      "test": "cameo-nathaniel-aventure actual victory, correct team, unique reward, full-bag retry on adventure",
+      "frames": 5440,
+      "passed": true
+    },
+    {
+      "test": "cameo-nathaniel-aventure repeated postgame rematches, no duplicate item, flags survive native Flash reload",
+      "passed": true
+    },
+    {
+      "test": "cameo-nathaniel-post sole correct NPC, four native facings, No declines",
+      "passed": true
+    },
+    {
+      "test": "cameo-nathaniel-post actual victory, correct team, unique reward, full-bag retry on adventure",
+      "frames": 8192,
+      "passed": true
+    },
+    {
+      "test": "cameo-nathaniel-post repeated postgame rematches, no duplicate item, flags survive native Flash reload",
+      "passed": true
+    },
+    {
+      "test": "cameo-michael-aventure sole correct NPC, four native facings, No declines",
+      "passed": true
+    },
+    {
+      "test": "cameo-michael-aventure actual victory, correct team, unique reward, full-bag retry on adventure",
+      "frames": 5952,
+      "passed": true
+    },
+    {
+      "test": "cameo-michael-aventure repeated postgame rematches, no duplicate item, flags survive native Flash reload",
+      "passed": true
+    },
+    {
+      "test": "cameo-michael-post sole correct NPC, four native facings, No declines",
+      "passed": true
+    },
+    {
+      "test": "cameo-michael-post actual victory, correct team, unique reward, full-bag retry on adventure",
+      "frames": 8000,
+      "passed": true
+    },
+    {
+      "test": "cameo-michael-post repeated postgame rematches, no duplicate item, flags survive native Flash reload",
+      "passed": true
+    },
+    {
+      "test": "cameo-wyatt-aventure sole correct NPC, four native facings, No declines",
+      "passed": true
+    },
+    {
+      "test": "cameo-wyatt-aventure actual victory, correct team, unique reward, full-bag retry on adventure",
+      "frames": 7488,
+      "passed": true
+    },
+    {
+      "test": "cameo-wyatt-aventure repeated postgame rematches, no duplicate item, flags survive native Flash reload",
+      "passed": true
+    },
+    {
+      "test": "cameo-wyatt-post sole correct NPC, four native facings, No declines",
+      "passed": true
+    },
+    {
+      "test": "cameo-wyatt-post actual victory, correct team, unique reward, full-bag retry on adventure",
+      "frames": 8768,
+      "passed": true
+    },
+    {
+      "test": "cameo-wyatt-post repeated postgame rematches, no duplicate item, flags survive native Flash reload",
+      "passed": true
+    },
+    {
+      "test": "nathaniel actual defeat/whiteout gives no victory, unlock or reward",
+      "passed": true
+    },
+    {
+      "test": "wyatt actual defeat/whiteout gives no victory, unlock or reward",
+      "passed": true
+    },
+    {
+      "test": "Katie player also interacts with and defeats Wyatt, receives Water Stone",
+      "frames": 6400,
+      "passed": true
+    },
+    {
+      "test": "All six native parties /34 members match approved species and order, selected levels, validated moves, primary abilities and no held items",
+      "passed": true
+    }
+  ],
+  "remaining": [
+    "Actual access during whole adventure",
+    "Balanced ordinary party difficulty",
+    "Domniscian and Don Morleone cameos",
+    "Private DPCM themes"
+  ]
+}

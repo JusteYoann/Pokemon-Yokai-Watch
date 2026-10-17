@@ -1,10 +1,10 @@
 {
-  "rom_sha256": "a141fa6f6e637b1716e3b6da1afa1e1ca4a67fd07f9b1f718f29e56fc33d578e",
+  "rom_sha256": "3d041e202c7775964de3bdfea455ecef1a58e54926cbc87c304ce27bd35ff5ce",
   "engine": "native GetStringWidth in mGBA",
   "font": "FONT_NORMAL (2)",
   "max_pixels": 208,
-  "scope": "Added Ariane/Enma/opposite protagonist static dialogue lines only; not all game text or battle dynamic placeholders",
-  "lines_checked": 75,
+  "scope": "Added Ariane/Enma/Nathan-Katie/Nathaniel-Michael/Wyatt static dialogue lines only; not all game text or battle dynamic placeholders",
+  "lines_checked": 113,
   "results": [
     {
       "file": "data/maps/Route25/scripts.inc",
@@ -453,6 +453,234 @@
     {
       "file": "data/maps/CeladonCity/scripts.inc",
       "line": 196,
+      "text": "Je garde ta pierre pour plus tard!",
+      "pixels": 193
+    },
+    {
+      "file": "data/maps/FuchsiaCity/scripts.inc",
+      "line": 205,
+      "text": "Toi aussi, tu voyages avec des",
+      "pixels": 170
+    },
+    {
+      "file": "data/maps/FuchsiaCity/scripts.inc",
+      "line": 206,
+      "text": "Yo-kai? Mes amis sont en forme!",
+      "pixels": 173
+    },
+    {
+      "file": "data/maps/FuchsiaCity/scripts.inc",
+      "line": 207,
+      "text": "Ça te dit de faire un combat?",
+      "pixels": 164
+    },
+    {
+      "file": "data/maps/FuchsiaCity/scripts.inc",
+      "line": 209,
+      "text": "Hovernyan, à toi de jouer!",
+      "pixels": 148
+    },
+    {
+      "file": "data/maps/FuchsiaCity/scripts.inc",
+      "line": 211,
+      "text": "Notre équipe a bien grandi!",
+      "pixels": 151
+    },
+    {
+      "file": "data/maps/FuchsiaCity/scripts.inc",
+      "line": 212,
+      "text": "Montrons nos progrès!",
+      "pixels": 116
+    },
+    {
+      "file": "data/maps/FuchsiaCity/scripts.inc",
+      "line": 214,
+      "text": "Quelle belle équipe!",
+      "pixels": 114
+    },
+    {
+      "file": "data/maps/FuchsiaCity/scripts.inc",
+      "line": 215,
+      "text": "On a encore tant à apprendre!",
+      "pixels": 165
+    },
+    {
+      "file": "data/maps/FuchsiaCity/scripts.inc",
+      "line": 217,
+      "text": "Merci pour ce combat!",
+      "pixels": 121
+    },
+    {
+      "file": "data/maps/FuchsiaCity/scripts.inc",
+      "line": 218,
+      "text": "Nos amis ont tout donné.",
+      "pixels": 133
+    },
+    {
+      "file": "data/maps/FuchsiaCity/scripts.inc",
+      "line": 220,
+      "text": "Prends cette Pierre Plante.",
+      "pixels": 149
+    },
+    {
+      "file": "data/maps/FuchsiaCity/scripts.inc",
+      "line": 221,
+      "text": "Pour faire évoluer ton Jibanyan!",
+      "pixels": 179
+    },
+    {
+      "file": "data/maps/FuchsiaCity/scripts.inc",
+      "line": 223,
+      "text": "Jibanyan et moi allons continuer",
+      "pixels": 175
+    },
+    {
+      "file": "data/maps/FuchsiaCity/scripts.inc",
+      "line": 224,
+      "text": "notre voyage. Après la Ligue,",
+      "pixels": 164
+    },
+    {
+      "file": "data/maps/FuchsiaCity/scripts.inc",
+      "line": 225,
+      "text": "on fera un autre combat!",
+      "pixels": 137
+    },
+    {
+      "file": "data/maps/FuchsiaCity/scripts.inc",
+      "line": 227,
+      "text": "Pas de problème!",
+      "pixels": 93
+    },
+    {
+      "file": "data/maps/FuchsiaCity/scripts.inc",
+      "line": 228,
+      "text": "Reviens quand tu voudras.",
+      "pixels": 141
+    },
+    {
+      "file": "data/maps/FuchsiaCity/scripts.inc",
+      "line": 230,
+      "text": "Ton sac est plein.",
+      "pixels": 99
+    },
+    {
+      "file": "data/maps/FuchsiaCity/scripts.inc",
+      "line": 231,
+      "text": "Je garde ta pierre pour plus tard!",
+      "pixels": 193
+    },
+    {
+      "file": "data/maps/CinnabarIsland/scripts.inc",
+      "line": 396,
+      "text": "Toi aussi, tu voyages avec des",
+      "pixels": 170
+    },
+    {
+      "file": "data/maps/CinnabarIsland/scripts.inc",
+      "line": 397,
+      "text": "Yo-kai? Mes amis sont en forme!",
+      "pixels": 173
+    },
+    {
+      "file": "data/maps/CinnabarIsland/scripts.inc",
+      "line": 398,
+      "text": "Ça te dit de faire un combat?",
+      "pixels": 164
+    },
+    {
+      "file": "data/maps/CinnabarIsland/scripts.inc",
+      "line": 400,
+      "text": "Tukappa, à toi de jouer!",
+      "pixels": 138
+    },
+    {
+      "file": "data/maps/CinnabarIsland/scripts.inc",
+      "line": 402,
+      "text": "Notre équipe a bien grandi!",
+      "pixels": 151
+    },
+    {
+      "file": "data/maps/CinnabarIsland/scripts.inc",
+      "line": 403,
+      "text": "Montrons nos progrès!",
+      "pixels": 116
+    },
+    {
+      "file": "data/maps/CinnabarIsland/scripts.inc",
+      "line": 405,
+      "text": "Quelle belle équipe!",
+      "pixels": 114
+    },
+    {
+      "file": "data/maps/CinnabarIsland/scripts.inc",
+      "line": 406,
+      "text": "On a encore tant à apprendre!",
+      "pixels": 165
+    },
+    {
+      "file": "data/maps/CinnabarIsland/scripts.inc",
+      "line": 408,
+      "text": "Merci pour ce combat!",
+      "pixels": 121
+    },
+    {
+      "file": "data/maps/CinnabarIsland/scripts.inc",
+      "line": 409,
+      "text": "Nos amis ont tout donné.",
+      "pixels": 133
+    },
+    {
+      "file": "data/maps/CinnabarIsland/scripts.inc",
+      "line": 411,
+      "text": "Prends cette Pierre Eau.",
+      "pixels": 134
+    },
+    {
+      "file": "data/maps/CinnabarIsland/scripts.inc",
+      "line": 412,
+      "text": "Faux Kappa évolue grâce à elle!",
+      "pixels": 182
+    },
+    {
+      "file": "data/maps/CinnabarIsland/scripts.inc",
+      "line": 414,
+      "text": "Tukappa et moi allons continuer",
+      "pixels": 172
+    },
+    {
+      "file": "data/maps/CinnabarIsland/scripts.inc",
+      "line": 415,
+      "text": "notre voyage. Après la Ligue,",
+      "pixels": 164
+    },
+    {
+      "file": "data/maps/CinnabarIsland/scripts.inc",
+      "line": 416,
+      "text": "on fera un autre combat!",
+      "pixels": 137
+    },
+    {
+      "file": "data/maps/CinnabarIsland/scripts.inc",
+      "line": 418,
+      "text": "Pas de problème!",
+      "pixels": 93
+    },
+    {
+      "file": "data/maps/CinnabarIsland/scripts.inc",
+      "line": 419,
+      "text": "Reviens quand tu voudras.",
+      "pixels": 141
+    },
+    {
+      "file": "data/maps/CinnabarIsland/scripts.inc",
+      "line": 421,
+      "text": "Ton sac est plein.",
+      "pixels": 99
+    },
+    {
+      "file": "data/maps/CinnabarIsland/scripts.inc",
+      "line": 422,
       "text": "Je garde ta pierre pour plus tard!",
       "pixels": 193
     }

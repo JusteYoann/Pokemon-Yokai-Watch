@@ -458,3 +458,12 @@ graphics/yokai_characters/katie/credits.4bpp: %.4bpp: %.png
 
 graphics/yokai_characters/matt/credits.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 8 -mheight 8
+
+graphics/yokai_characters/nathaniel/overworld.4bpp: graphics/yokai_characters/nathaniel/overworld.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/michael/overworld.4bpp: graphics/yokai_characters/michael/overworld.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/wyatt/overworld.4bpp: graphics/yokai_characters/wyatt/overworld.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4

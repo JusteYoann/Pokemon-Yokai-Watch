@@ -13846,3 +13846,55 @@ static const struct TrainerMonItemCustomMoves sParty_YokaiNathanPost[] = {
     {.iv = 200, .lvl = 62, .species = SPECIES_CHARIZARD, .heldItem = ITEM_NONE, .moves = {MOVE_CALM_MIND, MOVE_AMNESIA, MOVE_HEAT_WAVE, MOVE_FIRE_BLAST}},
     {.iv = 200, .lvl = 63, .species = SPECIES_DIGLETT, .heldItem = ITEM_NONE, .moves = {MOVE_PSYCHIC, MOVE_RECOVER, MOVE_FUTURE_SIGHT, MOVE_DREAM_EATER}},
 };
+
+static const struct TrainerMonItemCustomMoves sParty_YokaiNathaniel[] = {
+    {.iv = 150, .lvl = 34, .species = SPECIES_DRAGONITE, .heldItem = ITEM_NONE, .moves = {MOVE_WING_ATTACK, MOVE_AERIAL_ACE, MOVE_FEATHER_DANCE, MOVE_SLASH}},
+    {.iv = 150, .lvl = 33, .species = SPECIES_MEOWTH, .heldItem = ITEM_NONE, .moves = {MOVE_SAND_TOMB, MOVE_MAGNITUDE, MOVE_ROCK_TOMB, MOVE_PROTECT}},
+    {.iv = 150, .lvl = 33, .species = SPECIES_RATICATE, .heldItem = ITEM_NONE, .moves = {MOVE_MUD_SHOT, MOVE_WATER_PULSE, MOVE_RAIN_DANCE, MOVE_AGILITY}},
+    {.iv = 150, .lvl = 34, .species = SPECIES_NIDOKING, .heldItem = ITEM_NONE, .moves = {MOVE_RAIN_DANCE, MOVE_SUNNY_DAY, MOVE_HEADBUTT, MOVE_HAIL}},
+    {.iv = 150, .lvl = 35, .species = SPECIES_MACHOP, .heldItem = ITEM_NONE, .moves = {MOVE_WATER_PULSE, MOVE_BUBBLE_BEAM, MOVE_MUDDY_WATER, MOVE_RAIN_DANCE}},
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YokaiNathanielPost[] = {
+    {.iv = 200, .lvl = 59, .species = SPECIES_DRAGONITE, .heldItem = ITEM_NONE, .moves = {MOVE_DRILL_PECK, MOVE_PROTECT, MOVE_EXTREME_SPEED, MOVE_SKY_ATTACK}},
+    {.iv = 200, .lvl = 60, .species = SPECIES_DRAGONAIR, .heldItem = ITEM_NONE, .moves = {MOVE_SWORDS_DANCE, MOVE_PSYCHIC, MOVE_HI_JUMP_KICK, MOVE_CROSS_CHOP}},
+    {.iv = 200, .lvl = 61, .species = SPECIES_CLEFAIRY, .heldItem = ITEM_NONE, .moves = {MOVE_AMNESIA, MOVE_BULK_UP, MOVE_REST, MOVE_DOUBLE_EDGE}},
+    {.iv = 200, .lvl = 62, .species = SPECIES_MACHOKE, .heldItem = ITEM_NONE, .moves = {MOVE_WISH, MOVE_MIRROR_COAT, MOVE_SURF, MOVE_HYDRO_PUMP}},
+    {.iv = 200, .lvl = 63, .species = SPECIES_RATICATE, .heldItem = ITEM_NONE, .moves = {MOVE_BUBBLE_BEAM, MOVE_MUDDY_WATER, MOVE_PROTECT, MOVE_HYDRO_PUMP}},
+    {.iv = 200, .lvl = 64, .species = SPECIES_WIGGLYTUFF, .heldItem = ITEM_NONE, .moves = {MOVE_COUNTER, MOVE_REST, MOVE_CROSS_CHOP, MOVE_SUPERPOWER}},
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YokaiMichael[] = {
+    {.iv = 150, .lvl = 34, .species = SPECIES_DRAGONITE, .heldItem = ITEM_NONE, .moves = {MOVE_WING_ATTACK, MOVE_AERIAL_ACE, MOVE_FEATHER_DANCE, MOVE_SLASH}},
+    {.iv = 150, .lvl = 33, .species = SPECIES_MEOWTH, .heldItem = ITEM_NONE, .moves = {MOVE_SAND_TOMB, MOVE_MAGNITUDE, MOVE_ROCK_TOMB, MOVE_PROTECT}},
+    {.iv = 150, .lvl = 33, .species = SPECIES_RATICATE, .heldItem = ITEM_NONE, .moves = {MOVE_MUD_SHOT, MOVE_WATER_PULSE, MOVE_RAIN_DANCE, MOVE_AGILITY}},
+    {.iv = 150, .lvl = 34, .species = SPECIES_NIDOKING, .heldItem = ITEM_NONE, .moves = {MOVE_RAIN_DANCE, MOVE_SUNNY_DAY, MOVE_HEADBUTT, MOVE_HAIL}},
+    {.iv = 150, .lvl = 35, .species = SPECIES_MACHOP, .heldItem = ITEM_NONE, .moves = {MOVE_WATER_PULSE, MOVE_BUBBLE_BEAM, MOVE_MUDDY_WATER, MOVE_RAIN_DANCE}},
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YokaiMichaelPost[] = {
+    {.iv = 200, .lvl = 59, .species = SPECIES_DRAGONITE, .heldItem = ITEM_NONE, .moves = {MOVE_DRILL_PECK, MOVE_PROTECT, MOVE_EXTREME_SPEED, MOVE_SKY_ATTACK}},
+    {.iv = 200, .lvl = 60, .species = SPECIES_DRAGONAIR, .heldItem = ITEM_NONE, .moves = {MOVE_SWORDS_DANCE, MOVE_PSYCHIC, MOVE_HI_JUMP_KICK, MOVE_CROSS_CHOP}},
+    {.iv = 200, .lvl = 61, .species = SPECIES_CLEFAIRY, .heldItem = ITEM_NONE, .moves = {MOVE_AMNESIA, MOVE_BULK_UP, MOVE_REST, MOVE_DOUBLE_EDGE}},
+    {.iv = 200, .lvl = 62, .species = SPECIES_MACHOKE, .heldItem = ITEM_NONE, .moves = {MOVE_WISH, MOVE_MIRROR_COAT, MOVE_SURF, MOVE_HYDRO_PUMP}},
+    {.iv = 200, .lvl = 63, .species = SPECIES_RATICATE, .heldItem = ITEM_NONE, .moves = {MOVE_BUBBLE_BEAM, MOVE_MUDDY_WATER, MOVE_PROTECT, MOVE_HYDRO_PUMP}},
+    {.iv = 200, .lvl = 64, .species = SPECIES_WIGGLYTUFF, .heldItem = ITEM_NONE, .moves = {MOVE_COUNTER, MOVE_REST, MOVE_CROSS_CHOP, MOVE_SUPERPOWER}},
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YokaiWyatt[] = {
+    {.iv = 150, .lvl = 42, .species = SPECIES_SPEAROW, .heldItem = ITEM_NONE, .moves = {MOVE_RAIN_DANCE, MOVE_BODY_SLAM, MOVE_AGILITY, MOVE_BUBBLE_BEAM}},
+    {.iv = 150, .lvl = 42, .species = SPECIES_SEADRA, .heldItem = ITEM_NONE, .moves = {MOVE_WATER_PULSE, MOVE_BODY_SLAM, MOVE_SLACK_OFF, MOVE_RAIN_DANCE}},
+    {.iv = 150, .lvl = 43, .species = SPECIES_STARMIE, .heldItem = ITEM_NONE, .moves = {MOVE_SLUDGE, MOVE_TOXIC, MOVE_POISON_FANG, MOVE_HAZE}},
+    {.iv = 150, .lvl = 44, .species = SPECIES_MOLTRES, .heldItem = ITEM_NONE, .moves = {MOVE_TAKE_DOWN, MOVE_CHARM, MOVE_RETURN, MOVE_BODY_SLAM}},
+    {.iv = 150, .lvl = 44, .species = SPECIES_HAUNTER, .heldItem = ITEM_NONE, .moves = {MOVE_FIRE_SPIN, MOVE_BODY_SLAM, MOVE_FLAMETHROWER, MOVE_SUNNY_DAY}},
+    {.iv = 150, .lvl = 45, .species = SPECIES_DROWZEE, .heldItem = ITEM_NONE, .moves = {MOVE_HEADBUTT, MOVE_SCREECH, MOVE_PROTECT, MOVE_BODY_SLAM}},
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YokaiWyattPost[] = {
+    {.iv = 200, .lvl = 61, .species = SPECIES_SPEAROW, .heldItem = ITEM_NONE, .moves = {MOVE_MUDDY_WATER, MOVE_BULK_UP, MOVE_HYDRO_PUMP, MOVE_DOUBLE_EDGE}},
+    {.iv = 200, .lvl = 62, .species = SPECIES_DUGTRIO, .heldItem = ITEM_NONE, .moves = {MOVE_RECOVER, MOVE_PSYCHIC, MOVE_FUTURE_SIGHT, MOVE_PSYCHO_BOOST}},
+    {.iv = 200, .lvl = 63, .species = SPECIES_HORSEA, .heldItem = ITEM_NONE, .moves = {MOVE_TAUNT, MOVE_ROCK_SLIDE, MOVE_CROSS_CHOP, MOVE_SUPERPOWER}},
+    {.iv = 200, .lvl = 64, .species = SPECIES_HYPNO, .heldItem = ITEM_NONE, .moves = {MOVE_BRICK_BREAK, MOVE_IRON_TAIL, MOVE_METEOR_MASH, MOVE_DOUBLE_EDGE}},
+    {.iv = 200, .lvl = 65, .species = SPECIES_EEVEE, .heldItem = ITEM_NONE, .moves = {MOVE_SHADOW_BALL, MOVE_EARTHQUAKE, MOVE_METEOR_MASH, MOVE_HYPER_BEAM}},
+    {.iv = 200, .lvl = 66, .species = SPECIES_MOLTRES, .heldItem = ITEM_NONE, .moves = {MOVE_BODY_SLAM, MOVE_ENCORE, MOVE_REST, MOVE_DOUBLE_EDGE}},
+};

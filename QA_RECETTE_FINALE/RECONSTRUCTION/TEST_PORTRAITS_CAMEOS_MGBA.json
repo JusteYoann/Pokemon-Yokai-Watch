@@ -1,0 +1,28 @@
+{
+  "engine": "mGBA libretro",
+  "rom_sha256": "3d041e202c7775964de3bdfea455ecef1a58e54926cbc87c304ce27bd35ff5ce",
+  "scope": "Direct battle-entry fixtures for visual inspection of trainer portrait and player back; these three specific battles are not completed here",
+  "results": [
+    {
+      "person": "nathaniel",
+      "trainer_id": 8,
+      "test": "Real battle opening captured at401frames; battle completions are in TEST_CAMEOS_AVENTURE_MGBA.json",
+      "capture": "cameo-nathaniel-portrait-combat.png",
+      "passed": true
+    },
+    {
+      "person": "michael",
+      "trainer_id": 10,
+      "test": "Real battle opening captured at401frames; battle completions are in TEST_CAMEOS_AVENTURE_MGBA.json",
+      "capture": "cameo-michael-portrait-combat.png",
+      "passed": true
+    },
+    {
+      "person": "wyatt",
+      "trainer_id": 12,
+      "test": "Real battle opening captured at401frames; battle completions are in TEST_CAMEOS_AVENTURE_MGBA.json",
+      "capture": "cameo-wyatt-portrait-combat.png",
+      "passed": true
+    }
+  ]
+}

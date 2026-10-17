@@ -350,3 +350,73 @@ CinnabarIsland_EventScript_GymSign::
 	msgbox CinnabarIsland_Text_GymSign
 	releaseall
 	end
+CinnabarIsland_EventScript_YokaiWyatt::
+	lock
+	faceplayer
+	goto_if_unset FLAG_YOKAI_WYATT_WON, CinnabarIsland_YokaiWyattOffer
+	goto_if_unset FLAG_YOKAI_WYATT_REWARD, CinnabarIsland_YokaiWyattReward
+	goto_if_unset FLAG_SYS_GAME_CLEAR, CinnabarIsland_YokaiWyattAlreadyWon
+CinnabarIsland_YokaiWyattOffer::
+	msgbox CinnabarIsland_Text_YokaiWyattOffer, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, CinnabarIsland_YokaiWyattDecline
+	closemessage
+	goto_if_set FLAG_SYS_GAME_CLEAR, CinnabarIsland_YokaiWyattWyattPost
+	trainerbattle_single TRAINER_YOKAI_WYATT, CinnabarIsland_Text_YokaiWyattStart, CinnabarIsland_Text_YokaiWyattDefeat, CinnabarIsland_YokaiWyattVictory
+	goto EventScript_ReleaseEnd
+CinnabarIsland_YokaiWyattWyattPost::
+	cleartrainerflag TRAINER_YOKAI_WYATT_POST
+	trainerbattle_single TRAINER_YOKAI_WYATT_POST, CinnabarIsland_Text_YokaiWyattPostStart, CinnabarIsland_Text_YokaiWyattDefeat, CinnabarIsland_YokaiWyattPostVictory
+	goto EventScript_ReleaseEnd
+CinnabarIsland_YokaiWyattPostVictory::
+	setflag FLAG_YOKAI_WYATT_POST_WON
+CinnabarIsland_YokaiWyattVictory::
+	closemessage
+	setflag FLAG_YOKAI_WYATT_WON
+	msgbox CinnabarIsland_Text_YokaiWyattAfter
+	goto_if_set FLAG_YOKAI_WYATT_REWARD, EventScript_ReleaseEnd
+CinnabarIsland_YokaiWyattReward::
+	checkitemspace ITEM_WATER_STONE, 1
+	goto_if_eq VAR_RESULT, FALSE, CinnabarIsland_YokaiWyattBagFull
+	msgbox CinnabarIsland_Text_YokaiWyattReward
+	giveitem ITEM_WATER_STONE, 1
+	goto_if_eq VAR_0x8007, FALSE, CinnabarIsland_YokaiWyattBagFull
+	setflag FLAG_YOKAI_WYATT_REWARD
+	goto EventScript_ReleaseEnd
+CinnabarIsland_YokaiWyattAlreadyWon::
+	msgbox CinnabarIsland_Text_YokaiWyattRevisit
+	goto EventScript_ReleaseEnd
+CinnabarIsland_YokaiWyattDecline::
+	msgbox CinnabarIsland_Text_YokaiWyattDecline
+	goto EventScript_ReleaseEnd
+CinnabarIsland_YokaiWyattBagFull::
+	msgbox CinnabarIsland_Text_YokaiWyattBagFull
+	goto EventScript_ReleaseEnd
+
+CinnabarIsland_Text_YokaiWyattOffer::
+	.string "Toi aussi, tu voyages avec des\n"
+	.string "Yo-kai? Mes amis sont en forme!\p"
+	.string "Ça te dit de faire un combat?$"
+CinnabarIsland_Text_YokaiWyattStart::
+	.string "Tukappa, à toi de jouer!$"
+CinnabarIsland_Text_YokaiWyattPostStart::
+	.string "Notre équipe a bien grandi!\n"
+	.string "Montrons nos progrès!$"
+CinnabarIsland_Text_YokaiWyattDefeat::
+	.string "Quelle belle équipe!\n"
+	.string "On a encore tant à apprendre!$"
+CinnabarIsland_Text_YokaiWyattAfter::
+	.string "Merci pour ce combat!\n"
+	.string "Nos amis ont tout donné.$"
+CinnabarIsland_Text_YokaiWyattReward::
+	.string "Prends cette Pierre Eau.\n"
+	.string "Faux Kappa évolue grâce à elle!$"
+CinnabarIsland_Text_YokaiWyattRevisit::
+	.string "Tukappa et moi allons continuer\n"
+	.string "notre voyage. Après la Ligue,\p"
+	.string "on fera un autre combat!$"
+CinnabarIsland_Text_YokaiWyattDecline::
+	.string "Pas de problème!\n"
+	.string "Reviens quand tu voudras.$"
+CinnabarIsland_Text_YokaiWyattBagFull::
+	.string "Ton sac est plein.\n"
+	.string "Je garde ta pierre pour plus tard!$"

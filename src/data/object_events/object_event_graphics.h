@@ -242,3 +242,12 @@ const u16 gObjectEventPic_YokaiEnma[] = INCBIN_U16("graphics/yokai_characters/en
 const u16 gObjectEventPic_YokaiKyubi[] = INCBIN_U16("graphics/yokai_characters/enma/kyubi_overworld.4bpp");
 
 const u16 gObjectEventPal_YokaiPlayerBridge[] = INCBIN_U16("graphics/yokai_characters/nathan/bridge_reflection.gbapal");
+
+const u16 gObjectEventPal_YokaiNathaniel[] = INCBIN_U16("graphics/yokai_characters/nathaniel/normal.gbapal");
+const u16 gObjectEventPic_YokaiNathaniel[] = INCBIN_U16("graphics/yokai_characters/nathaniel/overworld.4bpp");
+
+const u16 gObjectEventPal_YokaiMichael[] = INCBIN_U16("graphics/yokai_characters/michael/normal.gbapal");
+const u16 gObjectEventPic_YokaiMichael[] = INCBIN_U16("graphics/yokai_characters/michael/overworld.4bpp");
+
+const u16 gObjectEventPal_YokaiWyatt[] = INCBIN_U16("graphics/yokai_characters/wyatt/normal.gbapal");
+const u16 gObjectEventPic_YokaiWyatt[] = INCBIN_U16("graphics/yokai_characters/wyatt/overworld.4bpp");

@@ -4,6 +4,7 @@ FuchsiaCity_MapScripts::
 
 FuchsiaCity_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_FUCHSIA_CITY
+	call FuchsiaCity_OnTransitionYokaiAncestor
 	call_if_set FLAG_GOT_DOME_FOSSIL, FuchsiaCity_EventScript_SetOmanyteGfx
 	call_if_unset FLAG_GOT_DOME_FOSSIL, FuchsiaCity_EventScript_SetKabutoGfx
 	end
@@ -137,3 +138,94 @@ FuchsiaCity_EventScript_OmanyteSign::
 	hidemonpic
 	releaseall
 	end
+
+FuchsiaCity_OnTransitionYokaiAncestor::
+	setflag FLAG_HIDE_YOKAI_NATHANIEL
+	setflag FLAG_HIDE_YOKAI_MICHAEL
+	checkplayergender
+	goto_if_eq VAR_RESULT, FEMALE, FuchsiaCity_ShowMichael
+	clearflag FLAG_HIDE_YOKAI_NATHANIEL
+	return
+FuchsiaCity_ShowMichael::
+	clearflag FLAG_HIDE_YOKAI_MICHAEL
+	return
+FuchsiaCity_EventScript_YokaiAncestor::
+	lock
+	faceplayer
+	goto_if_unset FLAG_YOKAI_ANCESTOR_WON, FuchsiaCity_YokaiAncestorOffer
+	goto_if_unset FLAG_YOKAI_ANCESTOR_REWARD, FuchsiaCity_YokaiAncestorReward
+	goto_if_unset FLAG_SYS_GAME_CLEAR, FuchsiaCity_YokaiAncestorAlreadyWon
+FuchsiaCity_YokaiAncestorOffer::
+	msgbox FuchsiaCity_Text_YokaiAncestorOffer, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, FuchsiaCity_YokaiAncestorDecline
+	closemessage
+	checkplayergender
+	goto_if_eq VAR_RESULT, FEMALE, FuchsiaCity_YokaiAncestorMichael
+	goto_if_set FLAG_SYS_GAME_CLEAR, FuchsiaCity_YokaiAncestorNathanielPost
+	trainerbattle_single TRAINER_YOKAI_NATHANIEL, FuchsiaCity_Text_YokaiAncestorStart, FuchsiaCity_Text_YokaiAncestorDefeat, FuchsiaCity_YokaiAncestorVictory
+	goto EventScript_ReleaseEnd
+FuchsiaCity_YokaiAncestorNathanielPost::
+	cleartrainerflag TRAINER_YOKAI_NATHANIEL_POST
+	trainerbattle_single TRAINER_YOKAI_NATHANIEL_POST, FuchsiaCity_Text_YokaiAncestorPostStart, FuchsiaCity_Text_YokaiAncestorDefeat, FuchsiaCity_YokaiAncestorPostVictory
+	goto EventScript_ReleaseEnd
+FuchsiaCity_YokaiAncestorMichael::
+	goto_if_set FLAG_SYS_GAME_CLEAR, FuchsiaCity_YokaiAncestorMichaelPost
+	trainerbattle_single TRAINER_YOKAI_MICHAEL, FuchsiaCity_Text_YokaiAncestorStart, FuchsiaCity_Text_YokaiAncestorDefeat, FuchsiaCity_YokaiAncestorVictory
+	goto EventScript_ReleaseEnd
+FuchsiaCity_YokaiAncestorMichaelPost::
+	cleartrainerflag TRAINER_YOKAI_MICHAEL_POST
+	trainerbattle_single TRAINER_YOKAI_MICHAEL_POST, FuchsiaCity_Text_YokaiAncestorPostStart, FuchsiaCity_Text_YokaiAncestorDefeat, FuchsiaCity_YokaiAncestorPostVictory
+	goto EventScript_ReleaseEnd
+FuchsiaCity_YokaiAncestorPostVictory::
+	setflag FLAG_YOKAI_ANCESTOR_POST_WON
+FuchsiaCity_YokaiAncestorVictory::
+	closemessage
+	setflag FLAG_YOKAI_ANCESTOR_WON
+	msgbox FuchsiaCity_Text_YokaiAncestorAfter
+	goto_if_set FLAG_YOKAI_ANCESTOR_REWARD, EventScript_ReleaseEnd
+FuchsiaCity_YokaiAncestorReward::
+	checkitemspace ITEM_LEAF_STONE, 1
+	goto_if_eq VAR_RESULT, FALSE, FuchsiaCity_YokaiAncestorBagFull
+	msgbox FuchsiaCity_Text_YokaiAncestorReward
+	giveitem ITEM_LEAF_STONE, 1
+	goto_if_eq VAR_0x8007, FALSE, FuchsiaCity_YokaiAncestorBagFull
+	setflag FLAG_YOKAI_ANCESTOR_REWARD
+	goto EventScript_ReleaseEnd
+FuchsiaCity_YokaiAncestorAlreadyWon::
+	msgbox FuchsiaCity_Text_YokaiAncestorRevisit
+	goto EventScript_ReleaseEnd
+FuchsiaCity_YokaiAncestorDecline::
+	msgbox FuchsiaCity_Text_YokaiAncestorDecline
+	goto EventScript_ReleaseEnd
+FuchsiaCity_YokaiAncestorBagFull::
+	msgbox FuchsiaCity_Text_YokaiAncestorBagFull
+	goto EventScript_ReleaseEnd
+
+FuchsiaCity_Text_YokaiAncestorOffer::
+	.string "Toi aussi, tu voyages avec des\n"
+	.string "Yo-kai? Mes amis sont en forme!\p"
+	.string "Ça te dit de faire un combat?$"
+FuchsiaCity_Text_YokaiAncestorStart::
+	.string "Hovernyan, à toi de jouer!$"
+FuchsiaCity_Text_YokaiAncestorPostStart::
+	.string "Notre équipe a bien grandi!\n"
+	.string "Montrons nos progrès!$"
+FuchsiaCity_Text_YokaiAncestorDefeat::
+	.string "Quelle belle équipe!\n"
+	.string "On a encore tant à apprendre!$"
+FuchsiaCity_Text_YokaiAncestorAfter::
+	.string "Merci pour ce combat!\n"
+	.string "Nos amis ont tout donné.$"
+FuchsiaCity_Text_YokaiAncestorReward::
+	.string "Prends cette Pierre Plante.\n"
+	.string "Pour faire évoluer ton Jibanyan!$"
+FuchsiaCity_Text_YokaiAncestorRevisit::
+	.string "Jibanyan et moi allons continuer\n"
+	.string "notre voyage. Après la Ligue,\p"
+	.string "on fera un autre combat!$"
+FuchsiaCity_Text_YokaiAncestorDecline::
+	.string "Pas de problème!\n"
+	.string "Reviens quand tu voudras.$"
+FuchsiaCity_Text_YokaiAncestorBagFull::
+	.string "Ton sac est plein.\n"
+	.string "Je garde ta pierre pour plus tard!$"

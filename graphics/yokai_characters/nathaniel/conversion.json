@@ -1,0 +1,49 @@
+{
+  "source": "graphics/yokai_characters/cameos_aventure/source/generated-sheet.png",
+  "source_sha256": "fd4c2ac60cc6c03fce6a198edc135ea1481a485c78c52da3d3001638466dd9ec",
+  "source_dimensions": [
+    1536,
+    1024
+  ],
+  "reference_opened": "Nathaniel Adams.webp",
+  "rectangles": [
+    [
+      145,
+      0,
+      445,
+      337
+    ],
+    [
+      580,
+      80,
+      785,
+      330
+    ],
+    [
+      870,
+      80,
+      1070,
+      330
+    ],
+    [
+      1170,
+      80,
+      1360,
+      330
+    ]
+  ],
+  "dimensions": {
+    "battle": [
+      64,
+      64
+    ],
+    "overworld": [
+      16,
+      32,
+      3
+    ]
+  },
+  "palette": "15 opaque RGB555 colors, transparent index0; per-character palette",
+  "animation_policy": "Stationary cameos only; south/north/west plus native east mirror, no walk cycle claimed",
+  "integrated": true
+}

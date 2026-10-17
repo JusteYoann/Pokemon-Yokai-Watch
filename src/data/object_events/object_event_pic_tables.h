@@ -1770,3 +1770,21 @@ static const struct SpriteFrameImage sPicTable_YokaiEnma[] = {
 static const struct SpriteFrameImage sPicTable_YokaiKyubi[] = {
     overworld_frame(gObjectEventPic_YokaiKyubi, 4, 4, 0),
 };
+
+static const struct SpriteFrameImage sPicTable_YokaiNathaniel[] = {
+    overworld_frame(gObjectEventPic_YokaiNathaniel, 2, 4, 0),
+    overworld_frame(gObjectEventPic_YokaiNathaniel, 2, 4, 1),
+    overworld_frame(gObjectEventPic_YokaiNathaniel, 2, 4, 2),
+};
+
+static const struct SpriteFrameImage sPicTable_YokaiMichael[] = {
+    overworld_frame(gObjectEventPic_YokaiMichael, 2, 4, 0),
+    overworld_frame(gObjectEventPic_YokaiMichael, 2, 4, 1),
+    overworld_frame(gObjectEventPic_YokaiMichael, 2, 4, 2),
+};
+
+static const struct SpriteFrameImage sPicTable_YokaiWyatt[] = {
+    overworld_frame(gObjectEventPic_YokaiWyatt, 2, 4, 0),
+    overworld_frame(gObjectEventPic_YokaiWyatt, 2, 4, 1),
+    overworld_frame(gObjectEventPic_YokaiWyatt, 2, 4, 2),
+};

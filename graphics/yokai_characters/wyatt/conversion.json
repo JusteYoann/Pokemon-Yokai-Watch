@@ -1,0 +1,49 @@
+{
+  "source": "graphics/yokai_characters/cameos_aventure/source/generated-sheet.png",
+  "source_sha256": "fd4c2ac60cc6c03fce6a198edc135ea1481a485c78c52da3d3001638466dd9ec",
+  "source_dimensions": [
+    1536,
+    1024
+  ],
+  "reference_opened": "Wyatt Cardamom.webp",
+  "rectangles": [
+    [
+      165,
+      655,
+      420,
+      1024
+    ],
+    [
+      570,
+      720,
+      790,
+      1000
+    ],
+    [
+      870,
+      720,
+      1065,
+      1000
+    ],
+    [
+      1170,
+      720,
+      1350,
+      1000
+    ]
+  ],
+  "dimensions": {
+    "battle": [
+      64,
+      64
+    ],
+    "overworld": [
+      16,
+      32,
+      3
+    ]
+  },
+  "palette": "15 opaque RGB555 colors, transparent index0; per-character palette",
+  "animation_policy": "Stationary cameos only; south/north/west plus native east mirror, no walk cycle claimed",
+  "integrated": true
+}

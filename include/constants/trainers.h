@@ -167,6 +167,9 @@
 #define TRAINER_PIC_LADY                  146
 #define TRAINER_PIC_PAINTER               147
 #define TRAINER_PIC_ARIANE                148
+#define TRAINER_PIC_YOKAI_NATHANIEL 150
+#define TRAINER_PIC_YOKAI_MICHAEL 151
+#define TRAINER_PIC_YOKAI_WYATT 152
 #define TRAINER_PIC_YOKAI_ENMA            149
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
