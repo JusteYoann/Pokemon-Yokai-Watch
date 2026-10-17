@@ -101,6 +101,51 @@
       "trainer_sight_or_berry_tree_id": "5",
       "script": "SilphCo_11F_EventScript_Grunt2",
       "flag": "FLAG_HIDE_SILPH_ROCKETS"
+    },
+    {
+      "type": "object",
+      "local_id": "LOCALID_YOKAI_DOMNISCIAN",
+      "graphics_id": "OBJ_EVENT_GFX_YOKAI_DOMNISCIAN",
+      "x": 10,
+      "y": 14,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "YokaiCameo_Domniscian",
+      "flag": "FLAG_HIDE_YOKAI_DOMNISCIAN_GROUP"
+    },
+    {
+      "type": "object",
+      "local_id": "LOCALID_YOKAI_EMPLOYEROUGE",
+      "graphics_id": "OBJ_EVENT_GFX_YOKAI_EMPLOYEROUGE",
+      "x": 7,
+      "y": 14,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "YokaiCameo_EmployeRouge",
+      "flag": "FLAG_HIDE_YOKAI_DOMNISCIAN_GROUP"
+    },
+    {
+      "type": "object",
+      "local_id": "LOCALID_YOKAI_EMPLOYEBLEU",
+      "graphics_id": "OBJ_EVENT_GFX_YOKAI_EMPLOYEBLEU",
+      "x": 12,
+      "y": 14,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "YokaiCameo_EmployeBleu",
+      "flag": "FLAG_HIDE_YOKAI_DOMNISCIAN_GROUP"
     }
   ],
   "warp_events": [

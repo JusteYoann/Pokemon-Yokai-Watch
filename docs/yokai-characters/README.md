@@ -17,9 +17,9 @@ Les PNG ci-dessous sont opaques sur damier. Les sources natives conservent leur 
 
 Nathan/Katie disposent des séries de déplacement/action et des écrans secondaires complets. Les caméos fixes utilisent trois orientations, l’est par miroir, sans prétendre à un cycle de marche absent. Le caméo de Céladopole réutilise les nouvelles ressources de Nathan/Katie avec ses propres identifiants de PNJ.
 
-## Dessins prêts, intégration restante
+## Groupes postgame actifs et testés
 
 - [Domniscian](../../graphics/yokai_characters/domniscian/preview-checkerboard.png), [employé rouge](../../graphics/yokai_characters/employe_rouge/preview-checkerboard.png), [employé bleu](../../graphics/yokai_characters/employe_bleu/preview-checkerboard.png).
 - [Don Morleone](../../graphics/yokai_characters/don_morleone/preview-checkerboard.png), [Mafiamille1](../../graphics/yokai_characters/mafiamille_1/preview-checkerboard.png), [Mafiamille2](../../graphics/yokai_characters/mafiamille_2/preview-checkerboard.png), [Mafiamille3](../../graphics/yokai_characters/mafiamille_3/preview-checkerboard.png).
 
-Ces sept derniers portraits et leurs overworld ne remplacent encore aucune ressource active. Les deux groupes utiliseront chacun une palette commune pour leurs PNJ simultanés. Leur présence dans cette galerie ne prouve pas leur intégration.
+Ces sept portraits et leurs overworld sont actifs. Chaque groupe utilise une palette commune vérifiée dans la mémoire de mGBA. [Domniscian et employés, quatre orientations](../../QA_RECETTE_FINALE/RECONSTRUCTION/preuves/cameo-domniscian-groupe-directions.png) ; [Don Morleone et Mafiamille, quatre orientations](../../QA_RECETTE_FINALE/RECONSTRUCTION/preuves/cameo-morleone-groupe-directions.png). Les combats, prérequis et récompenses sont contrôlés dans TEST_CAMEOS_BOSS_MGBA.json ; les musiques personnelles restent en attente.

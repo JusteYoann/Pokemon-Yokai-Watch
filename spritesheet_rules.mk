@@ -467,3 +467,24 @@ graphics/yokai_characters/michael/overworld.4bpp: graphics/yokai_characters/mich
 
 graphics/yokai_characters/wyatt/overworld.4bpp: graphics/yokai_characters/wyatt/overworld.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/domniscian/overworld.4bpp: graphics/yokai_characters/domniscian/overworld.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+graphics/yokai_characters/employe_rouge/overworld.4bpp: graphics/yokai_characters/employe_rouge/overworld.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/employe_bleu/overworld.4bpp: graphics/yokai_characters/employe_bleu/overworld.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/don_morleone/overworld.4bpp: graphics/yokai_characters/don_morleone/overworld.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/mafiamille_1/overworld.4bpp: graphics/yokai_characters/mafiamille_1/overworld.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/mafiamille_2/overworld.4bpp: graphics/yokai_characters/mafiamille_2/overworld.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/mafiamille_3/overworld.4bpp: graphics/yokai_characters/mafiamille_3/overworld.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4

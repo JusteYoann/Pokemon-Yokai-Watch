@@ -469,3 +469,24 @@ const u32 gTrainerPalette_YokaiMichael[] = INCBIN_U32("graphics/yokai_characters
 
 const u32 gTrainerFrontPic_YokaiWyatt[] = INCBIN_U32("graphics/yokai_characters/wyatt/battle.4bpp.lz");
 const u32 gTrainerPalette_YokaiWyatt[] = INCBIN_U32("graphics/yokai_characters/wyatt/normal.gbapal.lz");
+
+const u32 gTrainerFrontPic_YokaiDomniscian[] = INCBIN_U32("graphics/yokai_characters/domniscian/battle.4bpp.lz");
+const u32 gTrainerPalette_YokaiDomniscian[] = INCBIN_U32("graphics/yokai_characters/domniscian/normal.gbapal.lz");
+
+const u32 gTrainerFrontPic_YokaiEmployeRouge[] = INCBIN_U32("graphics/yokai_characters/employe_rouge/battle.4bpp.lz");
+const u32 gTrainerPalette_YokaiEmployeRouge[] = INCBIN_U32("graphics/yokai_characters/employe_rouge/normal.gbapal.lz");
+
+const u32 gTrainerFrontPic_YokaiEmployeBleu[] = INCBIN_U32("graphics/yokai_characters/employe_bleu/battle.4bpp.lz");
+const u32 gTrainerPalette_YokaiEmployeBleu[] = INCBIN_U32("graphics/yokai_characters/employe_bleu/normal.gbapal.lz");
+
+const u32 gTrainerFrontPic_YokaiDonMorleone[] = INCBIN_U32("graphics/yokai_characters/don_morleone/battle.4bpp.lz");
+const u32 gTrainerPalette_YokaiDonMorleone[] = INCBIN_U32("graphics/yokai_characters/don_morleone/normal.gbapal.lz");
+
+const u32 gTrainerFrontPic_YokaiMafiamille1[] = INCBIN_U32("graphics/yokai_characters/mafiamille_1/battle.4bpp.lz");
+const u32 gTrainerPalette_YokaiMafiamille1[] = INCBIN_U32("graphics/yokai_characters/mafiamille_1/normal.gbapal.lz");
+
+const u32 gTrainerFrontPic_YokaiMafiamille2[] = INCBIN_U32("graphics/yokai_characters/mafiamille_2/battle.4bpp.lz");
+const u32 gTrainerPalette_YokaiMafiamille2[] = INCBIN_U32("graphics/yokai_characters/mafiamille_2/normal.gbapal.lz");
+
+const u32 gTrainerFrontPic_YokaiMafiamille3[] = INCBIN_U32("graphics/yokai_characters/mafiamille_3/battle.4bpp.lz");
+const u32 gTrainerPalette_YokaiMafiamille3[] = INCBIN_U32("graphics/yokai_characters/mafiamille_3/normal.gbapal.lz");

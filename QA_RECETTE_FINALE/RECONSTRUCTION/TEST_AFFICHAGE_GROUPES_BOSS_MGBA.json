@@ -1,0 +1,137 @@
+{
+  "engine": "mGBA libretro",
+  "rom_sha256": "4ffa27b3d719c11885c292782823f83052120b03b2a98d7e96b0719c33ac8155",
+  "scope": "Fixtures teleport to real maps; actual four facings and shared palette readback. Wait300frames after CB2_Overworld for map-preview fade before PNG captures. No change to game sprites or map transitions for preview correction. Does not prove maze access during a playthrough.",
+  "results": [
+    {
+      "group": "domniscian",
+      "postgame_objects": 3,
+      "four_native_facings": "south/north/west/east columns",
+      "simultaneous_OBJ_palette10_matches_group_source": true,
+      "floor_and_interaction_tiles": [
+        {
+          "person": "Domniscian",
+          "tile": [
+            10,
+            14
+          ],
+          "behavior": 0
+        },
+        {
+          "person": "Domniscian",
+          "tile": [
+            10,
+            15
+          ],
+          "behavior": 0
+        },
+        {
+          "person": "EmployeRouge",
+          "tile": [
+            7,
+            14
+          ],
+          "behavior": 0
+        },
+        {
+          "person": "EmployeRouge",
+          "tile": [
+            7,
+            15
+          ],
+          "behavior": 0
+        },
+        {
+          "person": "EmployeBleu",
+          "tile": [
+            12,
+            14
+          ],
+          "behavior": 0
+        },
+        {
+          "person": "EmployeBleu",
+          "tile": [
+            12,
+            15
+          ],
+          "behavior": 0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "group": "morleone",
+      "postgame_objects": 4,
+      "four_native_facings": "south/north/west/east columns",
+      "simultaneous_OBJ_palette10_matches_group_source": true,
+      "floor_and_interaction_tiles": [
+        {
+          "person": "DonMorleone",
+          "tile": [
+            26,
+            23
+          ],
+          "behavior": 0
+        },
+        {
+          "person": "DonMorleone",
+          "tile": [
+            26,
+            24
+          ],
+          "behavior": 0
+        },
+        {
+          "person": "Mafiamille1",
+          "tile": [
+            22,
+            22
+          ],
+          "behavior": 0
+        },
+        {
+          "person": "Mafiamille1",
+          "tile": [
+            22,
+            23
+          ],
+          "behavior": 88
+        },
+        {
+          "person": "Mafiamille2",
+          "tile": [
+            24,
+            22
+          ],
+          "behavior": 0
+        },
+        {
+          "person": "Mafiamille2",
+          "tile": [
+            24,
+            23
+          ],
+          "behavior": 0
+        },
+        {
+          "person": "Mafiamille3",
+          "tile": [
+            26,
+            21
+          ],
+          "behavior": 88
+        },
+        {
+          "person": "Mafiamille3",
+          "tile": [
+            26,
+            22
+          ],
+          "behavior": 0
+        }
+      ],
+      "passed": true
+    }
+  ]
+}

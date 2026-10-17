@@ -1,3 +1,10 @@
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiMafiamille3;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiMafiamille2;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiMafiamille1;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiDonMorleone;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiEmployeBleu;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiEmployeRouge;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiDomniscian;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiWyatt;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiMichael;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiNathaniel;
@@ -323,4 +330,11 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_YOKAI_NATHANIEL] = &gObjectEventGraphicsInfo_YokaiNathaniel,
     [OBJ_EVENT_GFX_YOKAI_MICHAEL] = &gObjectEventGraphicsInfo_YokaiMichael,
     [OBJ_EVENT_GFX_YOKAI_WYATT] = &gObjectEventGraphicsInfo_YokaiWyatt,
+    [OBJ_EVENT_GFX_YOKAI_DOMNISCIAN] = &gObjectEventGraphicsInfo_YokaiDomniscian,
+    [OBJ_EVENT_GFX_YOKAI_EMPLOYEROUGE] = &gObjectEventGraphicsInfo_YokaiEmployeRouge,
+    [OBJ_EVENT_GFX_YOKAI_EMPLOYEBLEU] = &gObjectEventGraphicsInfo_YokaiEmployeBleu,
+    [OBJ_EVENT_GFX_YOKAI_DONMORLEONE] = &gObjectEventGraphicsInfo_YokaiDonMorleone,
+    [OBJ_EVENT_GFX_YOKAI_MAFIAMILLE1] = &gObjectEventGraphicsInfo_YokaiMafiamille1,
+    [OBJ_EVENT_GFX_YOKAI_MAFIAMILLE2] = &gObjectEventGraphicsInfo_YokaiMafiamille2,
+    [OBJ_EVENT_GFX_YOKAI_MAFIAMILLE3] = &gObjectEventGraphicsInfo_YokaiMafiamille3,
 };

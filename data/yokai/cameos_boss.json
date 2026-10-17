@@ -1,0 +1,479 @@
+{
+  "specification": "CAMEOS_YOKAI_WATCH_CODEX.md §3.1/3.2 plus MUSIQUES_QUETES approved creative choices",
+  "teams": [
+    {
+      "person": "Domniscian",
+      "trainer_entry": "TRAINER_YOKAI_DOMNISCIAN",
+      "trainer_id": 14,
+      "display_name": "Domniscian",
+      "members": [
+        {
+          "number": 1,
+          "species": "SPECIES_BULBASAUR",
+          "level": 62,
+          "moves": [
+            "MOVE_SWIFT",
+            "MOVE_FLAMETHROWER",
+            "MOVE_AGILITY",
+            "MOVE_HEAT_WAVE"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 5,
+          "species": "SPECIES_CHARMELEON",
+          "level": 63,
+          "moves": [
+            "MOVE_FLAMETHROWER",
+            "MOVE_AMNESIA",
+            "MOVE_HEAT_WAVE",
+            "MOVE_FIRE_BLAST"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 100,
+          "species": "SPECIES_VOLTORB",
+          "level": 64,
+          "moves": [
+            "MOVE_PROTECT",
+            "MOVE_SWORDS_DANCE",
+            "MOVE_IRON_TAIL",
+            "MOVE_METEOR_MASH"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 8,
+          "species": "SPECIES_WARTORTLE",
+          "level": 64,
+          "moves": [
+            "MOVE_REFLECT",
+            "MOVE_LIGHT_SCREEN",
+            "MOVE_HEAL_BELL",
+            "MOVE_SHADOW_BALL"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 17,
+          "species": "SPECIES_PIDGEOTTO",
+          "level": 65,
+          "moves": [
+            "MOVE_SCREECH",
+            "MOVE_REST",
+            "MOVE_IRON_TAIL",
+            "MOVE_DOUBLE_EDGE"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 9,
+          "species": "SPECIES_BLASTOISE",
+          "level": 66,
+          "moves": [
+            "MOVE_QUICK_ATTACK",
+            "MOVE_SWORDS_DANCE",
+            "MOVE_ENDURE",
+            "MOVE_MEGAHORN"
+          ],
+          "held_item": "ITEM_NONE"
+        }
+      ]
+    },
+    {
+      "person": "EmployeRouge",
+      "trainer_entry": "TRAINER_YOKAI_EMPLOYEROUGE",
+      "trainer_id": 15,
+      "display_name": "Employé R.",
+      "members": [
+        {
+          "number": 1,
+          "species": "SPECIES_BULBASAUR",
+          "level": 58,
+          "moves": [
+            "MOVE_SWIFT",
+            "MOVE_FLAMETHROWER",
+            "MOVE_AGILITY",
+            "MOVE_HEAT_WAVE"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 28,
+          "species": "SPECIES_SANDSLASH",
+          "level": 60,
+          "moves": [
+            "MOVE_FLAMETHROWER",
+            "MOVE_BULK_UP",
+            "MOVE_DOUBLE_EDGE",
+            "MOVE_FIRE_BLAST"
+          ],
+          "held_item": "ITEM_NONE"
+        }
+      ]
+    },
+    {
+      "person": "EmployeBleu",
+      "trainer_entry": "TRAINER_YOKAI_EMPLOYEBLEU",
+      "trainer_id": 16,
+      "display_name": "Employé B.",
+      "members": [
+        {
+          "number": 5,
+          "species": "SPECIES_CHARMELEON",
+          "level": 58,
+          "moves": [
+            "MOVE_FLAMETHROWER",
+            "MOVE_AMNESIA",
+            "MOVE_HEAT_WAVE",
+            "MOVE_FIRE_BLAST"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 17,
+          "species": "SPECIES_PIDGEOTTO",
+          "level": 60,
+          "moves": [
+            "MOVE_SCREECH",
+            "MOVE_REST",
+            "MOVE_IRON_TAIL",
+            "MOVE_DOUBLE_EDGE"
+          ],
+          "held_item": "ITEM_NONE"
+        }
+      ]
+    },
+    {
+      "person": "DonMorleone",
+      "trainer_entry": "TRAINER_YOKAI_DONMORLEONE",
+      "trainer_id": 17,
+      "display_name": "Don Morleo.",
+      "members": [
+        {
+          "number": 147,
+          "species": "SPECIES_DRATINI",
+          "level": 66,
+          "moves": [
+            "MOVE_IRON_DEFENSE",
+            "MOVE_REST",
+            "MOVE_EARTHQUAKE",
+            "MOVE_HYPER_BEAM"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 70,
+          "species": "SPECIES_WEEPINBELL",
+          "level": 67,
+          "moves": [
+            "MOVE_SHADOW_BALL",
+            "MOVE_ROCK_SLIDE",
+            "MOVE_EARTHQUAKE",
+            "MOVE_DOUBLE_EDGE"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 140,
+          "species": "SPECIES_KABUTO",
+          "level": 68,
+          "moves": [
+            "MOVE_CALM_MIND",
+            "MOVE_HEAL_BELL",
+            "MOVE_LIGHT_SCREEN",
+            "MOVE_SOLAR_BEAM"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 136,
+          "species": "SPECIES_FLAREON",
+          "level": 68,
+          "moves": [
+            "MOVE_BODY_SLAM",
+            "MOVE_PSYCHIC",
+            "MOVE_FUTURE_SIGHT",
+            "MOVE_RECOVER"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 115,
+          "species": "SPECIES_KANGASKHAN",
+          "level": 69,
+          "moves": [
+            "MOVE_SHADOW_PUNCH",
+            "MOVE_SCREECH",
+            "MOVE_PAIN_SPLIT",
+            "MOVE_GRUDGE"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 86,
+          "species": "SPECIES_SEEL",
+          "level": 70,
+          "moves": [
+            "MOVE_BRICK_BREAK",
+            "MOVE_SURF",
+            "MOVE_CROSS_CHOP",
+            "MOVE_SUPERPOWER"
+          ],
+          "held_item": "ITEM_NONE"
+        }
+      ]
+    },
+    {
+      "person": "Mafiamille1",
+      "trainer_entry": "TRAINER_YOKAI_MAFIAMILLE1",
+      "trainer_id": 18,
+      "display_name": "Mafiamille",
+      "members": [
+        {
+          "number": 52,
+          "species": "SPECIES_MEOWTH",
+          "level": 60,
+          "moves": [
+            "MOVE_DIG",
+            "MOVE_SANDSTORM",
+            "MOVE_EARTHQUAKE",
+            "MOVE_DOUBLE_EDGE"
+          ],
+          "held_item": "ITEM_NONE"
+        }
+      ]
+    },
+    {
+      "person": "Mafiamille2",
+      "trainer_entry": "TRAINER_YOKAI_MAFIAMILLE2",
+      "trainer_id": 19,
+      "display_name": "Mafiamille",
+      "members": [
+        {
+          "number": 38,
+          "species": "SPECIES_NINETALES",
+          "level": 61,
+          "moves": [
+            "MOVE_TORMENT",
+            "MOVE_KNOCK_OFF",
+            "MOVE_CRUNCH",
+            "MOVE_SUBSTITUTE"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 103,
+          "species": "SPECIES_EXEGGUTOR",
+          "level": 62,
+          "moves": [
+            "MOVE_IRON_DEFENSE",
+            "MOVE_AERIAL_ACE",
+            "MOVE_IRON_TAIL",
+            "MOVE_DOUBLE_EDGE"
+          ],
+          "held_item": "ITEM_NONE"
+        }
+      ]
+    },
+    {
+      "person": "Mafiamille3",
+      "trainer_entry": "TRAINER_YOKAI_MAFIAMILLE3",
+      "trainer_id": 20,
+      "display_name": "Mafiamille",
+      "members": [
+        {
+          "number": 57,
+          "species": "SPECIES_PRIMEAPE",
+          "level": 63,
+          "moves": [
+            "MOVE_AIR_CUTTER",
+            "MOVE_FEATHER_DANCE",
+            "MOVE_CRUNCH",
+            "MOVE_SKY_ATTACK"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 141,
+          "species": "SPECIES_KABUTOPS",
+          "level": 64,
+          "moves": [
+            "MOVE_DRILL_PECK",
+            "MOVE_HEAL_BELL",
+            "MOVE_MORNING_SUN",
+            "MOVE_SKY_ATTACK"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 46,
+          "species": "SPECIES_PARAS",
+          "level": 65,
+          "moves": [
+            "MOVE_SLUDGE_BOMB",
+            "MOVE_AGILITY",
+            "MOVE_SWORDS_DANCE",
+            "MOVE_MEGAHORN"
+          ],
+          "held_item": "ITEM_NONE"
+        }
+      ]
+    }
+  ],
+  "actors": [
+    {
+      "name": "Domniscian",
+      "map": "SilphCo_11F",
+      "x": 10,
+      "y": 14,
+      "won": "FLAG_YOKAI_DOMNISCIAN_WON",
+      "need": [
+        "FLAG_YOKAI_EMPLOYEE_RED_WON",
+        "FLAG_YOKAI_EMPLOYEE_BLUE_WON"
+      ],
+      "reward": [
+        "ITEM_THUNDER_STONE",
+        1,
+        "FLAG_YOKAI_DOMNISCIAN_REWARD"
+      ]
+    },
+    {
+      "name": "EmployeRouge",
+      "map": "SilphCo_11F",
+      "x": 7,
+      "y": 14,
+      "won": "FLAG_YOKAI_EMPLOYEE_RED_WON"
+    },
+    {
+      "name": "EmployeBleu",
+      "map": "SilphCo_11F",
+      "x": 12,
+      "y": 14,
+      "won": "FLAG_YOKAI_EMPLOYEE_BLUE_WON"
+    },
+    {
+      "name": "DonMorleone",
+      "map": "FiveIsland_RocketWarehouse",
+      "x": 26,
+      "y": 23,
+      "won": "FLAG_YOKAI_MORLEONE_WON",
+      "need": [
+        "FLAG_YOKAI_MAFIA1_WON",
+        "FLAG_YOKAI_MAFIA2_WON",
+        "FLAG_YOKAI_MAFIA3_WON"
+      ],
+      "reward": [
+        "ITEM_NUGGET",
+        3,
+        "FLAG_YOKAI_MORLEONE_REWARD"
+      ]
+    },
+    {
+      "name": "Mafiamille1",
+      "map": "FiveIsland_RocketWarehouse",
+      "x": 22,
+      "y": 22,
+      "won": "FLAG_YOKAI_MAFIA1_WON"
+    },
+    {
+      "name": "Mafiamille2",
+      "map": "FiveIsland_RocketWarehouse",
+      "x": 24,
+      "y": 22,
+      "won": "FLAG_YOKAI_MAFIA2_WON"
+    },
+    {
+      "name": "Mafiamille3",
+      "map": "FiveIsland_RocketWarehouse",
+      "x": 26,
+      "y": 21,
+      "won": "FLAG_YOKAI_MAFIA3_WON"
+    }
+  ],
+  "flags": {
+    "FLAG_HIDE_YOKAI_DOMNISCIAN_GROUP": 787,
+    "FLAG_YOKAI_EMPLOYEE_RED_WON": 788,
+    "FLAG_YOKAI_EMPLOYEE_BLUE_WON": 789,
+    "FLAG_YOKAI_DOMNISCIAN_WON": 790,
+    "FLAG_YOKAI_DOMNISCIAN_REWARD": 791,
+    "FLAG_HIDE_YOKAI_MORLEONE_GROUP": 792,
+    "FLAG_YOKAI_MAFIA1_WON": 793,
+    "FLAG_YOKAI_MAFIA2_WON": 794,
+    "FLAG_YOKAI_MAFIA3_WON": 795,
+    "FLAG_YOKAI_MORLEONE_WON": 796,
+    "FLAG_YOKAI_MORLEONE_REWARD": 797
+  },
+  "graphics": [
+    {
+      "person": "Domniscian",
+      "folder": "domniscian",
+      "display_name": "Domniscian",
+      "trainer_pic": 153,
+      "object_gfx": 161,
+      "ow_width": 32,
+      "palette_group": "DOMNISCIAN"
+    },
+    {
+      "person": "EmployeRouge",
+      "folder": "employe_rouge",
+      "display_name": "Employé R.",
+      "trainer_pic": 154,
+      "object_gfx": 162,
+      "ow_width": 16,
+      "palette_group": "DOMNISCIAN"
+    },
+    {
+      "person": "EmployeBleu",
+      "folder": "employe_bleu",
+      "display_name": "Employé B.",
+      "trainer_pic": 155,
+      "object_gfx": 163,
+      "ow_width": 16,
+      "palette_group": "DOMNISCIAN"
+    },
+    {
+      "person": "DonMorleone",
+      "folder": "don_morleone",
+      "display_name": "Don Morleo.",
+      "trainer_pic": 156,
+      "object_gfx": 164,
+      "ow_width": 16,
+      "palette_group": "MORLEONE"
+    },
+    {
+      "person": "Mafiamille1",
+      "folder": "mafiamille_1",
+      "display_name": "Mafiamille",
+      "trainer_pic": 157,
+      "object_gfx": 165,
+      "ow_width": 16,
+      "palette_group": "MORLEONE"
+    },
+    {
+      "person": "Mafiamille2",
+      "folder": "mafiamille_2",
+      "display_name": "Mafiamille",
+      "trainer_pic": 158,
+      "object_gfx": 166,
+      "ow_width": 16,
+      "palette_group": "MORLEONE"
+    },
+    {
+      "person": "Mafiamille3",
+      "folder": "mafiamille_3",
+      "display_name": "Mafiamille",
+      "trainer_pic": 159,
+      "object_gfx": 167,
+      "ow_width": 16,
+      "palette_group": "MORLEONE"
+    }
+  ],
+  "postgame_only": true,
+  "secondary_choices": "IV parameter255, primary ability, last four validated moves at level, no held items or trainer bag; levels within approved ranges",
+  "rematches": "All optional encounters repeatable; prerequisite wins persist, boss rewards unique and full-bag safe",
+  "name_constraint": "Trainer name array12 bytes including EOS; Don Morleone displayed Don Morleo. in battle, full name in dialogue",
+  "placement_constraint": "Warehouse group on southeast entry-room floor, outside arrow tiles and exit, to preserve Rocket maze and Gideon; no new map or original event replacement",
+  "music_status": "Original engine placeholder; personal Hinozall/Ghoulfather DPCM themes still pending, no generic Sangokushi substitution"
+}

@@ -1,6 +1,6 @@
 {
   "engine": "mGBA libretro",
-  "rom_sha256": "a141fa6f6e637b1716e3b6da1afa1e1ca4a67fd07f9b1f718f29e56fc33d578e",
+  "rom_sha256": "4ffa27b3d719c11885c292782823f83052120b03b2a98d7e96b0719c33ac8155",
   "scope": "Native map transitions and actual NPC/controller battles/capture; fixture warps, progress flags and strong party, not a complete adventure playthrough",
   "fixture_isolation": "Independent emulator instances for defeat and victory; no savestate restore in Flash tests",
   "battle_style_after_capture": "SET option in test fixture; captured Enma retained in party",

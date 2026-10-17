@@ -1,4 +1,5 @@
 SilphCo_11F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, SilphCo_11F_OnTransitionYokaiBosses
 	map_script MAP_SCRIPT_ON_LOAD, SilphCo_11F_OnLoad
 	.byte 0
 
@@ -130,4 +131,11 @@ SilphCo_11F_EventScript_Grunt1::
 SilphCo_11F_EventScript_Grunt2::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_41, SilphCo_11F_Text_Grunt2Intro, SilphCo_11F_Text_Grunt2Defeat
 	msgbox SilphCo_11F_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SilphCo_11F_OnTransitionYokaiBosses::
+	setflag FLAG_HIDE_YOKAI_DOMNISCIAN_GROUP
+	goto_if_unset FLAG_SYS_GAME_CLEAR, SilphCo_11F_OnTransitionYokaiBossesReturn
+	clearflag FLAG_HIDE_YOKAI_DOMNISCIAN_GROUP
+SilphCo_11F_OnTransitionYokaiBossesReturn::
 	end

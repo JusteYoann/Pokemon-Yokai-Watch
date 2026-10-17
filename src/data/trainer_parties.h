@@ -13898,3 +13898,46 @@ static const struct TrainerMonItemCustomMoves sParty_YokaiWyattPost[] = {
     {.iv = 200, .lvl = 65, .species = SPECIES_EEVEE, .heldItem = ITEM_NONE, .moves = {MOVE_SHADOW_BALL, MOVE_EARTHQUAKE, MOVE_METEOR_MASH, MOVE_HYPER_BEAM}},
     {.iv = 200, .lvl = 66, .species = SPECIES_MOLTRES, .heldItem = ITEM_NONE, .moves = {MOVE_BODY_SLAM, MOVE_ENCORE, MOVE_REST, MOVE_DOUBLE_EDGE}},
 };
+
+static const struct TrainerMonItemCustomMoves sParty_YokaiDomniscian[] = {
+    {.iv = 255, .lvl = 62, .species = SPECIES_BULBASAUR, .heldItem = ITEM_NONE, .moves = {MOVE_SWIFT, MOVE_FLAMETHROWER, MOVE_AGILITY, MOVE_HEAT_WAVE}},
+    {.iv = 255, .lvl = 63, .species = SPECIES_CHARMELEON, .heldItem = ITEM_NONE, .moves = {MOVE_FLAMETHROWER, MOVE_AMNESIA, MOVE_HEAT_WAVE, MOVE_FIRE_BLAST}},
+    {.iv = 255, .lvl = 64, .species = SPECIES_VOLTORB, .heldItem = ITEM_NONE, .moves = {MOVE_PROTECT, MOVE_SWORDS_DANCE, MOVE_IRON_TAIL, MOVE_METEOR_MASH}},
+    {.iv = 255, .lvl = 64, .species = SPECIES_WARTORTLE, .heldItem = ITEM_NONE, .moves = {MOVE_REFLECT, MOVE_LIGHT_SCREEN, MOVE_HEAL_BELL, MOVE_SHADOW_BALL}},
+    {.iv = 255, .lvl = 65, .species = SPECIES_PIDGEOTTO, .heldItem = ITEM_NONE, .moves = {MOVE_SCREECH, MOVE_REST, MOVE_IRON_TAIL, MOVE_DOUBLE_EDGE}},
+    {.iv = 255, .lvl = 66, .species = SPECIES_BLASTOISE, .heldItem = ITEM_NONE, .moves = {MOVE_QUICK_ATTACK, MOVE_SWORDS_DANCE, MOVE_ENDURE, MOVE_MEGAHORN}},
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YokaiEmployeRouge[] = {
+    {.iv = 255, .lvl = 58, .species = SPECIES_BULBASAUR, .heldItem = ITEM_NONE, .moves = {MOVE_SWIFT, MOVE_FLAMETHROWER, MOVE_AGILITY, MOVE_HEAT_WAVE}},
+    {.iv = 255, .lvl = 60, .species = SPECIES_SANDSLASH, .heldItem = ITEM_NONE, .moves = {MOVE_FLAMETHROWER, MOVE_BULK_UP, MOVE_DOUBLE_EDGE, MOVE_FIRE_BLAST}},
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YokaiEmployeBleu[] = {
+    {.iv = 255, .lvl = 58, .species = SPECIES_CHARMELEON, .heldItem = ITEM_NONE, .moves = {MOVE_FLAMETHROWER, MOVE_AMNESIA, MOVE_HEAT_WAVE, MOVE_FIRE_BLAST}},
+    {.iv = 255, .lvl = 60, .species = SPECIES_PIDGEOTTO, .heldItem = ITEM_NONE, .moves = {MOVE_SCREECH, MOVE_REST, MOVE_IRON_TAIL, MOVE_DOUBLE_EDGE}},
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YokaiDonMorleone[] = {
+    {.iv = 255, .lvl = 66, .species = SPECIES_DRATINI, .heldItem = ITEM_NONE, .moves = {MOVE_IRON_DEFENSE, MOVE_REST, MOVE_EARTHQUAKE, MOVE_HYPER_BEAM}},
+    {.iv = 255, .lvl = 67, .species = SPECIES_WEEPINBELL, .heldItem = ITEM_NONE, .moves = {MOVE_SHADOW_BALL, MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_DOUBLE_EDGE}},
+    {.iv = 255, .lvl = 68, .species = SPECIES_KABUTO, .heldItem = ITEM_NONE, .moves = {MOVE_CALM_MIND, MOVE_HEAL_BELL, MOVE_LIGHT_SCREEN, MOVE_SOLAR_BEAM}},
+    {.iv = 255, .lvl = 68, .species = SPECIES_FLAREON, .heldItem = ITEM_NONE, .moves = {MOVE_BODY_SLAM, MOVE_PSYCHIC, MOVE_FUTURE_SIGHT, MOVE_RECOVER}},
+    {.iv = 255, .lvl = 69, .species = SPECIES_KANGASKHAN, .heldItem = ITEM_NONE, .moves = {MOVE_SHADOW_PUNCH, MOVE_SCREECH, MOVE_PAIN_SPLIT, MOVE_GRUDGE}},
+    {.iv = 255, .lvl = 70, .species = SPECIES_SEEL, .heldItem = ITEM_NONE, .moves = {MOVE_BRICK_BREAK, MOVE_SURF, MOVE_CROSS_CHOP, MOVE_SUPERPOWER}},
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YokaiMafiamille1[] = {
+    {.iv = 255, .lvl = 60, .species = SPECIES_MEOWTH, .heldItem = ITEM_NONE, .moves = {MOVE_DIG, MOVE_SANDSTORM, MOVE_EARTHQUAKE, MOVE_DOUBLE_EDGE}},
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YokaiMafiamille2[] = {
+    {.iv = 255, .lvl = 61, .species = SPECIES_NINETALES, .heldItem = ITEM_NONE, .moves = {MOVE_TORMENT, MOVE_KNOCK_OFF, MOVE_CRUNCH, MOVE_SUBSTITUTE}},
+    {.iv = 255, .lvl = 62, .species = SPECIES_EXEGGUTOR, .heldItem = ITEM_NONE, .moves = {MOVE_IRON_DEFENSE, MOVE_AERIAL_ACE, MOVE_IRON_TAIL, MOVE_DOUBLE_EDGE}},
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YokaiMafiamille3[] = {
+    {.iv = 255, .lvl = 63, .species = SPECIES_PRIMEAPE, .heldItem = ITEM_NONE, .moves = {MOVE_AIR_CUTTER, MOVE_FEATHER_DANCE, MOVE_CRUNCH, MOVE_SKY_ATTACK}},
+    {.iv = 255, .lvl = 64, .species = SPECIES_KABUTOPS, .heldItem = ITEM_NONE, .moves = {MOVE_DRILL_PECK, MOVE_HEAL_BELL, MOVE_MORNING_SUN, MOVE_SKY_ATTACK}},
+    {.iv = 255, .lvl = 65, .species = SPECIES_PARAS, .heldItem = ITEM_NONE, .moves = {MOVE_SLUDGE_BOMB, MOVE_AGILITY, MOVE_SWORDS_DANCE, MOVE_MEGAHORN}},
+};

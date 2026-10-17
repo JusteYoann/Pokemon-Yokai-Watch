@@ -1788,3 +1788,45 @@ static const struct SpriteFrameImage sPicTable_YokaiWyatt[] = {
     overworld_frame(gObjectEventPic_YokaiWyatt, 2, 4, 1),
     overworld_frame(gObjectEventPic_YokaiWyatt, 2, 4, 2),
 };
+
+static const struct SpriteFrameImage sPicTable_YokaiDomniscian[] = {
+    overworld_frame(gObjectEventPic_YokaiDomniscian, 4, 4, 0),
+    overworld_frame(gObjectEventPic_YokaiDomniscian, 4, 4, 1),
+    overworld_frame(gObjectEventPic_YokaiDomniscian, 4, 4, 2),
+};
+
+static const struct SpriteFrameImage sPicTable_YokaiEmployeRouge[] = {
+    overworld_frame(gObjectEventPic_YokaiEmployeRouge, 2, 4, 0),
+    overworld_frame(gObjectEventPic_YokaiEmployeRouge, 2, 4, 1),
+    overworld_frame(gObjectEventPic_YokaiEmployeRouge, 2, 4, 2),
+};
+
+static const struct SpriteFrameImage sPicTable_YokaiEmployeBleu[] = {
+    overworld_frame(gObjectEventPic_YokaiEmployeBleu, 2, 4, 0),
+    overworld_frame(gObjectEventPic_YokaiEmployeBleu, 2, 4, 1),
+    overworld_frame(gObjectEventPic_YokaiEmployeBleu, 2, 4, 2),
+};
+
+static const struct SpriteFrameImage sPicTable_YokaiDonMorleone[] = {
+    overworld_frame(gObjectEventPic_YokaiDonMorleone, 2, 4, 0),
+    overworld_frame(gObjectEventPic_YokaiDonMorleone, 2, 4, 1),
+    overworld_frame(gObjectEventPic_YokaiDonMorleone, 2, 4, 2),
+};
+
+static const struct SpriteFrameImage sPicTable_YokaiMafiamille1[] = {
+    overworld_frame(gObjectEventPic_YokaiMafiamille1, 2, 4, 0),
+    overworld_frame(gObjectEventPic_YokaiMafiamille1, 2, 4, 1),
+    overworld_frame(gObjectEventPic_YokaiMafiamille1, 2, 4, 2),
+};
+
+static const struct SpriteFrameImage sPicTable_YokaiMafiamille2[] = {
+    overworld_frame(gObjectEventPic_YokaiMafiamille2, 2, 4, 0),
+    overworld_frame(gObjectEventPic_YokaiMafiamille2, 2, 4, 1),
+    overworld_frame(gObjectEventPic_YokaiMafiamille2, 2, 4, 2),
+};
+
+static const struct SpriteFrameImage sPicTable_YokaiMafiamille3[] = {
+    overworld_frame(gObjectEventPic_YokaiMafiamille3, 2, 4, 0),
+    overworld_frame(gObjectEventPic_YokaiMafiamille3, 2, 4, 1),
+    overworld_frame(gObjectEventPic_YokaiMafiamille3, 2, 4, 2),
+};

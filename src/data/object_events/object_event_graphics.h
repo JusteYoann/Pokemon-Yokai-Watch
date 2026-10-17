@@ -251,3 +251,21 @@ const u16 gObjectEventPic_YokaiMichael[] = INCBIN_U16("graphics/yokai_characters
 
 const u16 gObjectEventPal_YokaiWyatt[] = INCBIN_U16("graphics/yokai_characters/wyatt/normal.gbapal");
 const u16 gObjectEventPic_YokaiWyatt[] = INCBIN_U16("graphics/yokai_characters/wyatt/overworld.4bpp");
+
+const u16 gObjectEventPic_YokaiDomniscian[] = INCBIN_U16("graphics/yokai_characters/domniscian/overworld.4bpp");
+
+const u16 gObjectEventPic_YokaiEmployeRouge[] = INCBIN_U16("graphics/yokai_characters/employe_rouge/overworld.4bpp");
+
+const u16 gObjectEventPic_YokaiEmployeBleu[] = INCBIN_U16("graphics/yokai_characters/employe_bleu/overworld.4bpp");
+
+const u16 gObjectEventPic_YokaiDonMorleone[] = INCBIN_U16("graphics/yokai_characters/don_morleone/overworld.4bpp");
+
+const u16 gObjectEventPic_YokaiMafiamille1[] = INCBIN_U16("graphics/yokai_characters/mafiamille_1/overworld.4bpp");
+
+const u16 gObjectEventPic_YokaiMafiamille2[] = INCBIN_U16("graphics/yokai_characters/mafiamille_2/overworld.4bpp");
+
+const u16 gObjectEventPic_YokaiMafiamille3[] = INCBIN_U16("graphics/yokai_characters/mafiamille_3/overworld.4bpp");
+
+const u16 gObjectEventPal_YokaiDomniscianGroup[] = INCBIN_U16("graphics/yokai_characters/domniscian/normal.gbapal");
+
+const u16 gObjectEventPal_YokaiDonMorleoneGroup[] = INCBIN_U16("graphics/yokai_characters/don_morleone/normal.gbapal");

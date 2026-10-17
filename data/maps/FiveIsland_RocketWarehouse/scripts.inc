@@ -8,6 +8,7 @@ FiveIsland_RocketWarehouse_MapScripts::
 
 FiveIsland_RocketWarehouse_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_FIVE_ISLAND_ROCKET_WAREHOUSE
+	call FiveIsland_RocketWarehouse_OnTransitionYokaiBosses
 	end
 
 FiveIsland_RocketWarehouse_OnLoad::
@@ -171,3 +172,10 @@ FiveIsland_RocketWarehouse_Movement_AdminWalkToSwitch::
 	walk_right
 	walk_in_place_faster_up
 	step_end
+
+FiveIsland_RocketWarehouse_OnTransitionYokaiBosses::
+	setflag FLAG_HIDE_YOKAI_MORLEONE_GROUP
+	goto_if_unset FLAG_SYS_GAME_CLEAR, FiveIsland_RocketWarehouse_OnTransitionYokaiBossesReturn
+	clearflag FLAG_HIDE_YOKAI_MORLEONE_GROUP
+FiveIsland_RocketWarehouse_OnTransitionYokaiBossesReturn::
+	return

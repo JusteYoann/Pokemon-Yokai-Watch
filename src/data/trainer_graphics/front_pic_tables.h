@@ -153,6 +153,13 @@ const struct MonCoords gTrainerFrontPicCoords[] =
     [TRAINER_PIC_YOKAI_NATHANIEL] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_YOKAI_MICHAEL] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_YOKAI_WYATT] = {.size = 8, .y_offset = 1},
+    [TRAINER_PIC_YOKAI_DOMNISCIAN] = {.size = 8, .y_offset = 1},
+    [TRAINER_PIC_YOKAI_EMPLOYEROUGE] = {.size = 8, .y_offset = 1},
+    [TRAINER_PIC_YOKAI_EMPLOYEBLEU] = {.size = 8, .y_offset = 1},
+    [TRAINER_PIC_YOKAI_DONMORLEONE] = {.size = 8, .y_offset = 1},
+    [TRAINER_PIC_YOKAI_MAFIAMILLE1] = {.size = 8, .y_offset = 1},
+    [TRAINER_PIC_YOKAI_MAFIAMILLE2] = {.size = 8, .y_offset = 1},
+    [TRAINER_PIC_YOKAI_MAFIAMILLE3] = {.size = 8, .y_offset = 1},
 };
 
 const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
@@ -310,6 +317,13 @@ const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
     TRAINER_SPRITE(YOKAI_NATHANIEL, gTrainerFrontPic_YokaiNathaniel, 0x800),
     TRAINER_SPRITE(YOKAI_MICHAEL, gTrainerFrontPic_YokaiMichael, 0x800),
     TRAINER_SPRITE(YOKAI_WYATT, gTrainerFrontPic_YokaiWyatt, 0x800),
+    TRAINER_SPRITE(YOKAI_DOMNISCIAN, gTrainerFrontPic_YokaiDomniscian, 0x800),
+    TRAINER_SPRITE(YOKAI_EMPLOYEROUGE, gTrainerFrontPic_YokaiEmployeRouge, 0x800),
+    TRAINER_SPRITE(YOKAI_EMPLOYEBLEU, gTrainerFrontPic_YokaiEmployeBleu, 0x800),
+    TRAINER_SPRITE(YOKAI_DONMORLEONE, gTrainerFrontPic_YokaiDonMorleone, 0x800),
+    TRAINER_SPRITE(YOKAI_MAFIAMILLE1, gTrainerFrontPic_YokaiMafiamille1, 0x800),
+    TRAINER_SPRITE(YOKAI_MAFIAMILLE2, gTrainerFrontPic_YokaiMafiamille2, 0x800),
+    TRAINER_SPRITE(YOKAI_MAFIAMILLE3, gTrainerFrontPic_YokaiMafiamille3, 0x800),
 };
 
 const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
@@ -467,4 +481,11 @@ const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
     TRAINER_PAL(YOKAI_NATHANIEL, gTrainerPalette_YokaiNathaniel),
     TRAINER_PAL(YOKAI_MICHAEL, gTrainerPalette_YokaiMichael),
     TRAINER_PAL(YOKAI_WYATT, gTrainerPalette_YokaiWyatt),
+    TRAINER_PAL(YOKAI_DOMNISCIAN, gTrainerPalette_YokaiDomniscian),
+    TRAINER_PAL(YOKAI_EMPLOYEROUGE, gTrainerPalette_YokaiEmployeRouge),
+    TRAINER_PAL(YOKAI_EMPLOYEBLEU, gTrainerPalette_YokaiEmployeBleu),
+    TRAINER_PAL(YOKAI_DONMORLEONE, gTrainerPalette_YokaiDonMorleone),
+    TRAINER_PAL(YOKAI_MAFIAMILLE1, gTrainerPalette_YokaiMafiamille1),
+    TRAINER_PAL(YOKAI_MAFIAMILLE2, gTrainerPalette_YokaiMafiamille2),
+    TRAINER_PAL(YOKAI_MAFIAMILLE3, gTrainerPalette_YokaiMafiamille3),
 };

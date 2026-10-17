@@ -1,10 +1,10 @@
 {
-  "rom_sha256": "3d041e202c7775964de3bdfea455ecef1a58e54926cbc87c304ce27bd35ff5ce",
+  "rom_sha256": "4ffa27b3d719c11885c292782823f83052120b03b2a98d7e96b0719c33ac8155",
   "engine": "native GetStringWidth in mGBA",
   "font": "FONT_NORMAL (2)",
   "max_pixels": 208,
-  "scope": "Added Ariane/Enma/Nathan-Katie/Nathaniel-Michael/Wyatt static dialogue lines only; not all game text or battle dynamic placeholders",
-  "lines_checked": 113,
+  "scope": "Added cameo static dialogue lines only; not all game text or battle dynamic placeholders; not all game text or battle dynamic placeholders",
+  "lines_checked": 190,
   "results": [
     {
       "file": "data/maps/Route25/scripts.inc",
@@ -683,6 +683,468 @@
       "line": 422,
       "text": "Je garde ta pierre pour plus tard!",
       "pixels": 193
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 44,
+      "text": "Domniscian: Voici mon grand projet!",
+      "pixels": 193
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 45,
+      "text": "Un combat digne de mon génie?",
+      "pixels": 165
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 47,
+      "text": "Mes meilleurs collaborateurs!",
+      "pixels": 161
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 48,
+      "text": "Même les petits ont du talent!",
+      "pixels": 167
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 50,
+      "text": "Impossible! Mon idée était parfaite!",
+      "pixels": 199
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 52,
+      "text": "D’accord, ton équipe mérite",
+      "pixels": 149
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 53,
+      "text": "une place au générique!",
+      "pixels": 132
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 55,
+      "text": "Mes employés veulent te rencontrer.",
+      "pixels": 196
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 56,
+      "text": "Bats-les avant de me défier!",
+      "pixels": 158
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 58,
+      "text": "Cette Pierre Foudre fait évoluer",
+      "pixels": 179
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 59,
+      "text": "Komaous en Komastar.",
+      "pixels": 114
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 61,
+      "text": "Pas de souci. Une autre fois.",
+      "pixels": 161
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 63,
+      "text": "Reviens après ta victoire",
+      "pixels": 137
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 64,
+      "text": "à la Ligue de Kanto.",
+      "pixels": 114
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 66,
+      "text": "Ton sac est plein.",
+      "pixels": 99
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 67,
+      "text": "Je garde ta récompense pour toi.",
+      "pixels": 182
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 92,
+      "text": "Je garde les projets du patron.",
+      "pixels": 176
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 93,
+      "text": "Tu veux faire un combat?",
+      "pixels": 138
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 95,
+      "text": "Jibanyan, Feulion! Au travail!",
+      "pixels": 166
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 97,
+      "text": "Pause bien méritée pour mon équipe!",
+      "pixels": 198
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 99,
+      "text": "Belle démonstration!",
+      "pixels": 110
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 100,
+      "text": "Le patron va en entendre parler.",
+      "pixels": 180
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 102,
+      "text": "Pas de souci. Une autre fois.",
+      "pixels": 161
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 104,
+      "text": "Reviens après ta victoire",
+      "pixels": 137
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 105,
+      "text": "à la Ligue de Kanto.",
+      "pixels": 114
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 130,
+      "text": "Mon équipe vérifie ton niveau.",
+      "pixels": 165
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 131,
+      "text": "Tu acceptes le combat?",
+      "pixels": 128
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 133,
+      "text": "Komasan, Robonyan! À vous!",
+      "pixels": 150
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 135,
+      "text": "Notre rapport est clair: tu gagnes!",
+      "pixels": 195
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 137,
+      "text": "Ton équipe est prête.",
+      "pixels": 118
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 138,
+      "text": "Garde cette énergie pour le patron!",
+      "pixels": 198
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 140,
+      "text": "Pas de souci. Une autre fois.",
+      "pixels": 161
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 142,
+      "text": "Reviens après ta victoire",
+      "pixels": 137
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 143,
+      "text": "à la Ligue de Kanto.",
+      "pixels": 114
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 187,
+      "text": "Don Morleone: On m’a parlé de toi.",
+      "pixels": 189
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 188,
+      "text": "Un duel pour régler nos affaires?",
+      "pixels": 184
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 190,
+      "text": "Que personne ne nous dérange!",
+      "pixels": 165
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 192,
+      "text": "Tu as gagné. Nous réglerons ça...",
+      "pixels": 186
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 193,
+      "text": "avec un autre combat!",
+      "pixels": 122
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 195,
+      "text": "Affaire conclue. Je respecte",
+      "pixels": 157
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 196,
+      "text": "les partenaires qui tiennent parole.",
+      "pixels": 195
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 198,
+      "text": "Ma famille doit d’abord te juger.",
+      "pixels": 183
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 199,
+      "text": "Reviens après leurs trois combats.",
+      "pixels": 187
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 201,
+      "text": "Voici trois Pépites.",
+      "pixels": 106
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 202,
+      "text": "Une bonne affaire se paie comptant.",
+      "pixels": 195
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 204,
+      "text": "Pas de souci. Une autre fois.",
+      "pixels": 161
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 206,
+      "text": "Reviens après ta victoire",
+      "pixels": 137
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 207,
+      "text": "à la Ligue de Kanto.",
+      "pixels": 114
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 209,
+      "text": "Ton sac est plein.",
+      "pixels": 99
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 210,
+      "text": "Je garde ta récompense pour toi.",
+      "pixels": 182
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 235,
+      "text": "Le patron reçoit sur rendez-vous.",
+      "pixels": 185
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 236,
+      "text": "Un combat pour commencer?",
+      "pixels": 145
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 238,
+      "text": "Bouh, on fait ça proprement!",
+      "pixels": 158
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 240,
+      "text": "J’ai sous-estimé ton équipe!",
+      "pixels": 153
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 242,
+      "text": "Tu as passé mon contrôle.",
+      "pixels": 141
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 243,
+      "text": "Je préviens le patron.",
+      "pixels": 122
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 245,
+      "text": "Pas de souci. Une autre fois.",
+      "pixels": 161
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 247,
+      "text": "Reviens après ta victoire",
+      "pixels": 137
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 248,
+      "text": "à la Ligue de Kanto.",
+      "pixels": 114
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 273,
+      "text": "La famille teste chaque visiteur.",
+      "pixels": 182
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 274,
+      "text": "Tu veux tenter ta chance?",
+      "pixels": 144
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 276,
+      "text": "Gardons nos cartes en main!",
+      "pixels": 150
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 278,
+      "text": "Cette fois, tes cartes gagnent.",
+      "pixels": 170
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 280,
+      "text": "Bien joué. On tient toujours",
+      "pixels": 155
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 281,
+      "text": "notre parole dans la famille.",
+      "pixels": 160
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 283,
+      "text": "Pas de souci. Une autre fois.",
+      "pixels": 161
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 285,
+      "text": "Reviens après ta victoire",
+      "pixels": 137
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 286,
+      "text": "à la Ligue de Kanto.",
+      "pixels": 114
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 311,
+      "text": "Pas de bagarre sans accord.",
+      "pixels": 154
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 312,
+      "text": "Un combat de Yo-kai, ça te va?",
+      "pixels": 173
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 314,
+      "text": "À nous de montrer notre force!",
+      "pixels": 169
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 316,
+      "text": "D’accord. On se calme!",
+      "pixels": 124
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 318,
+      "text": "Tu as notre respect.",
+      "pixels": 112
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 319,
+      "text": "Va parler au patron.",
+      "pixels": 113
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 321,
+      "text": "Pas de souci. Une autre fois.",
+      "pixels": 161
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 323,
+      "text": "Reviens après ta victoire",
+      "pixels": 137
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "line": 324,
+      "text": "à la Ligue de Kanto.",
+      "pixels": 114
     }
   ]
 }

@@ -1,27 +1,76 @@
 {
   "engine": "mGBA libretro",
-  "rom_sha256": "3d041e202c7775964de3bdfea455ecef1a58e54926cbc87c304ce27bd35ff5ce",
+  "rom_sha256": "4ffa27b3d719c11885c292782823f83052120b03b2a98d7e96b0719c33ac8155",
   "scope": "Direct battle-entry fixtures for visual inspection of trainer portrait and player back; these three specific battles are not completed here",
   "results": [
     {
       "person": "nathaniel",
       "trainer_id": 8,
-      "test": "Real battle opening captured at401frames; battle completions are in TEST_CAMEOS_AVENTURE_MGBA.json",
+      "test": "Real battle opening captured at401frames; battle completions are in TEST_CAMEOS_AVENTURE_MGBA.json / TEST_CAMEOS_BOSS_MGBA.json",
       "capture": "cameo-nathaniel-portrait-combat.png",
       "passed": true
     },
     {
       "person": "michael",
       "trainer_id": 10,
-      "test": "Real battle opening captured at401frames; battle completions are in TEST_CAMEOS_AVENTURE_MGBA.json",
+      "test": "Real battle opening captured at401frames; battle completions are in TEST_CAMEOS_AVENTURE_MGBA.json / TEST_CAMEOS_BOSS_MGBA.json",
       "capture": "cameo-michael-portrait-combat.png",
       "passed": true
     },
     {
       "person": "wyatt",
       "trainer_id": 12,
-      "test": "Real battle opening captured at401frames; battle completions are in TEST_CAMEOS_AVENTURE_MGBA.json",
+      "test": "Real battle opening captured at401frames; battle completions are in TEST_CAMEOS_AVENTURE_MGBA.json / TEST_CAMEOS_BOSS_MGBA.json",
       "capture": "cameo-wyatt-portrait-combat.png",
+      "passed": true
+    },
+    {
+      "person": "domniscian",
+      "trainer_id": 14,
+      "test": "Real battle opening captured at401frames; battle completions are in TEST_CAMEOS_AVENTURE_MGBA.json / TEST_CAMEOS_BOSS_MGBA.json",
+      "capture": "cameo-domniscian-portrait-combat.png",
+      "passed": true
+    },
+    {
+      "person": "employe_rouge",
+      "trainer_id": 15,
+      "test": "Real battle opening captured at401frames; battle completions are in TEST_CAMEOS_AVENTURE_MGBA.json / TEST_CAMEOS_BOSS_MGBA.json",
+      "capture": "cameo-employe_rouge-portrait-combat.png",
+      "passed": true
+    },
+    {
+      "person": "employe_bleu",
+      "trainer_id": 16,
+      "test": "Real battle opening captured at401frames; battle completions are in TEST_CAMEOS_AVENTURE_MGBA.json / TEST_CAMEOS_BOSS_MGBA.json",
+      "capture": "cameo-employe_bleu-portrait-combat.png",
+      "passed": true
+    },
+    {
+      "person": "don_morleone",
+      "trainer_id": 17,
+      "test": "Real battle opening captured at401frames; battle completions are in TEST_CAMEOS_AVENTURE_MGBA.json / TEST_CAMEOS_BOSS_MGBA.json",
+      "capture": "cameo-don_morleone-portrait-combat.png",
+      "passed": true
+    },
+    {
+      "person": "mafiamille_1",
+      "trainer_id": 18,
+      "test": "Real battle opening captured at401frames; battle completions are in TEST_CAMEOS_AVENTURE_MGBA.json / TEST_CAMEOS_BOSS_MGBA.json",
+      "capture": "cameo-mafiamille_1-portrait-combat.png",
+      "passed": true
+    },
+    {
+      "person": "mafiamille_2",
+      "trainer_id": 19,
+      "test": "Real battle opening captured at401frames; battle completions are in TEST_CAMEOS_AVENTURE_MGBA.json / TEST_CAMEOS_BOSS_MGBA.json",
+      "capture": "cameo-mafiamille_2-portrait-combat.png",
+      "passed": true
+    },
+    {
+      "person": "mafiamille_3",
+      "trainer_id": 20,
+      "test": "Real battle opening captured at401frames; battle completions are in TEST_CAMEOS_AVENTURE_MGBA.json / TEST_CAMEOS_BOSS_MGBA.json",
+      "capture": "cameo-mafiamille_3-portrait-combat.png",
       "passed": true
     }
   ]
