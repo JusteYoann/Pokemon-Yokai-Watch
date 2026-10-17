@@ -1,0 +1,12 @@
+{
+  "source_commit": "c700fdeb2709fec62f165a4afc3ae07520e0d09c",
+  "source": "Fresh shallow clone directly from GitHub /workspace/repro-finalisation-cameos, no copied game files or build outputs",
+  "documented_dependencies": "Public Debian installer re-executed for new checkout, independent pinned /workspace/repro-tools compiler installation",
+  "clean_build": true,
+  "local_rom_sha256": "4ffa27b3d719c11885c292782823f83052120b03b2a98d7e96b0719c33ac8155",
+  "fresh_clone_rom_sha256": "4ffa27b3d719c11885c292782823f83052120b03b2a98d7e96b0719c33ac8155",
+  "byte_identical": true,
+  "public_sources_sufficient_for_current_soundtrack": true,
+  "private_yokai_OST_integrated": 0,
+  "limitation": "Same Debian cloud machine, not another VM; remote Actions status not accessible; native tests from this fresh clone recorded separately"
+}
