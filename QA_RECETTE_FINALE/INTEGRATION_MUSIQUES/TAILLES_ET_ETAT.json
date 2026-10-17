@@ -14,10 +14,10 @@
   "optimized15_total_bytes": 8750916,
   "storage_bound20_optimized15_plus5_uncut_bytes": 14024099,
   "public_rom_sha256": "bc5a17e32774f58a8fcb8f6fd4cabab5b2996fd366f199e24f27360844bea362",
-  "private_rom_sha256": "78df2ecc88c70461b809b9410bd974aefe07e007a209f9f2afe755cf2d719d7d",
-  "private_rom_file_bytes": 21208756,
+  "private_rom_sha256": "1d67655132a306aa5418f8861a0b5c5af4a6cf4a8a4fa1b4e6a4416e4b1cb2d9",
+  "private_rom_file_bytes": 21209184,
   "limit_bytes": 33554432,
-  "note": "Storage bound is not proof of musical loops/20 integrations. Native results in TEST_MGBA.json; currently bicycle validated, others under test. Private outputs and recordings not published.",
+  "note": "Nine actual integrated tracks validated in native maps/SELECT/NPC fights; at least five clean rendered audio seams per track. Forest has six cycles because one seam overlaps native ambient cry. Eleven still pending; no track removed.",
   "tracks": [
     {
       "number": 1,
@@ -34,7 +34,7 @@
         "loop_length_samples": 1005170,
         "loop_boundary_step_pcm8": 1,
         "max_adjacent_step_pcm8": 64,
-        "native_loop_tested": false,
+        "native_loop_tested": true,
         "perceptual_listening_validated": false
       },
       "active_in_private_build": true,
@@ -56,11 +56,11 @@
         "loop_length_samples": 703289,
         "loop_boundary_step_pcm8": 3,
         "max_adjacent_step_pcm8": 207,
-        "native_loop_tested": false,
+        "native_loop_tested": true,
         "perceptual_listening_validated": false
       },
       "active_in_private_build": true,
-      "native_tested": false,
+      "native_tested": true,
       "source_mp3_sha256": "d3998755b523d56ce22fb8585c633ecaddb1acc82ac41579ff5f2b0cef5525c8"
     },
     {
@@ -88,11 +88,11 @@
         "loop_length_samples": 1400526,
         "loop_boundary_step_pcm8": 0,
         "max_adjacent_step_pcm8": 64,
-        "native_loop_tested": false,
+        "native_loop_tested": true,
         "perceptual_listening_validated": false
       },
       "active_in_private_build": true,
-      "native_tested": false,
+      "native_tested": true,
       "source_mp3_sha256": "46e71f9cecba4bed7e1f21953139c1b3cd33758e294d7fa16658f0d6d5ed5e03"
     },
     {
@@ -120,11 +120,11 @@
         "loop_length_samples": 1513739,
         "loop_boundary_step_pcm8": 0,
         "max_adjacent_step_pcm8": 64,
-        "native_loop_tested": false,
+        "native_loop_tested": true,
         "perceptual_listening_validated": false
       },
       "active_in_private_build": true,
-      "native_tested": false,
+      "native_tested": true,
       "source_mp3_sha256": "7d245f8a4510913a3f02bf130588528270d61f15208cd43a05b8cf39783b55ad"
     },
     {
@@ -206,11 +206,11 @@
         "loop_length_samples": 1313574,
         "loop_boundary_step_pcm8": 1,
         "max_adjacent_step_pcm8": 49,
-        "native_loop_tested": false,
+        "native_loop_tested": true,
         "perceptual_listening_validated": false
       },
       "active_in_private_build": true,
-      "native_tested": false,
+      "native_tested": true,
       "source_mp3_sha256": "b844386727acc054e1a591938b815cf359808a06d63b6b9bcc746e68f93332ef"
     },
     {
@@ -260,11 +260,11 @@
         "loop_length_samples": 825683,
         "loop_boundary_step_pcm8": 1,
         "max_adjacent_step_pcm8": 36,
-        "native_loop_tested": false,
+        "native_loop_tested": true,
         "perceptual_listening_validated": false
       },
       "active_in_private_build": true,
-      "native_tested": false,
+      "native_tested": true,
       "source_mp3_sha256": "1bf47311695277a1153cb57f20e67e3e6a05021f0eb3e87de9d4dd93023ea844"
     },
     {
@@ -304,11 +304,11 @@
         "loop_length_samples": 1150594,
         "loop_boundary_step_pcm8": 0,
         "max_adjacent_step_pcm8": 64,
-        "native_loop_tested": false,
+        "native_loop_tested": true,
         "perceptual_listening_validated": false
       },
       "active_in_private_build": true,
-      "native_tested": false,
+      "native_tested": true,
       "source_mp3_sha256": "cda0b1bf58bcd7f52e93ca549c9726fb9b1244cea26e7e4ef2e752ac87e9f792"
     },
     {
@@ -326,11 +326,11 @@
         "loop_length_samples": 1421252,
         "loop_boundary_step_pcm8": 0,
         "max_adjacent_step_pcm8": 73,
-        "native_loop_tested": false,
+        "native_loop_tested": true,
         "perceptual_listening_validated": false
       },
       "active_in_private_build": true,
-      "native_tested": false,
+      "native_tested": true,
       "source_mp3_sha256": "3c6e03a267073204d2cf33c705cb33a430d6dc0d6fc57671ca4f23b71c95dd1d"
     },
     {
@@ -392,12 +392,23 @@
         "loop_length_samples": 1263331,
         "loop_boundary_step_pcm8": 1,
         "max_adjacent_step_pcm8": 49,
-        "native_loop_tested": false,
+        "native_loop_tested": true,
         "perceptual_listening_validated": false
       },
       "active_in_private_build": true,
-      "native_tested": false,
+      "native_tested": true,
       "source_mp3_sha256": "d566ec61018d51a9b2fc9a57d1e4ea74f4c634a67683bbcac8466f878d92ce3b"
     }
+  ],
+  "native_tested_tracks": [
+    1,
+    2,
+    4,
+    6,
+    11,
+    14,
+    16,
+    17,
+    20
   ]
 }
