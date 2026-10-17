@@ -1,0 +1,49 @@
+{
+  "date_utc": "2026-10-17T08:27:54.004373+00:00",
+  "head": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+  "initial_status": "",
+  "refs": [
+    {
+      "ref": "refs/heads/work",
+      "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+      "modified_game_files_vs_master": 0
+    },
+    {
+      "ref": "refs/remotes/origin/art/yokai-sprite-rework-phase1",
+      "commit": "773cb21b1d3c06e6236787d6408c4e611edc5879",
+      "modified_game_files_vs_master": 0
+    },
+    {
+      "ref": "refs/remotes/origin/audio/audit-musical-publication",
+      "commit": "f7e99e62ba7bfff6162f67a17761136104f62601",
+      "modified_game_files_vs_master": 0
+    },
+    {
+      "ref": "refs/remotes/origin/master",
+      "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+      "modified_game_files_vs_master": 0
+    },
+    {
+      "ref": "refs/remotes/origin/preview/yokai-84-contact-sheets",
+      "commit": "2f8b5b3911b75480ae447e027c9624300e57dae9",
+      "modified_game_files_vs_master": 0
+    },
+    {
+      "ref": "refs/remotes/origin/preview/yokai-gallery-151",
+      "commit": "d9d4673e17f19019f0eb00fb02ac5e3873f40bec",
+      "modified_game_files_vs_master": 0
+    }
+  ],
+  "required_qa_commit": "145044ec29f4ad7ee03c1942e8a925d15a9f89e1",
+  "required_qa_available_locally": false,
+  "required_qa_fetch_result": "upload-pack: not our ref",
+  "previous_audio_commit": "6d11139e2c257f5887ce7e26b56e8c56a8eab46d",
+  "previous_audio_available_locally": false,
+  "unreachable_objects_found": false,
+  "missing_directories": [
+    "/workspace/.setup",
+    "/workspace/private-audio",
+    "/workspace/scratch/music-before"
+  ],
+  "baseline_file_count": 9857
+}
