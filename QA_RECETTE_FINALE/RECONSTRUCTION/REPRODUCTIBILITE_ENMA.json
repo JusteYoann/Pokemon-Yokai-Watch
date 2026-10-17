@@ -1,0 +1,18 @@
+{
+  "source_commit": "b481fc4b154abe54bae9f90a1ae698ba6d977681",
+  "remote": "https://github.com/JusteYoann/Pokemon-Yokai-Watch.git",
+  "source_branch": "dev/reconstruction-finalisation",
+  "clean_source_checkout": true,
+  "generated_assets_removed": "make clean, after confirming that none of its asset patterns targeted tracked files",
+  "full_build_exit_code": 0,
+  "local_rom_sha256": "8e33517256e38b541b181c9f3bf210d73cedfa0979ae7207d627bf7eb53dfa2a",
+  "clone_rom_sha256": "8e33517256e38b541b181c9f3bf210d73cedfa0979ae7207d627bf7eb53dfa2a",
+  "byte_identical": true,
+  "toolchain": "Independent install /workspace/repro-tools, same pinned public scripts",
+  "emulator": "Independent mGBA build in /workspace/repro-tools/mgba-build via public QA installer",
+  "native_enma_scenarios_passed": 7,
+  "isolation_limit": "Independent checkout and tool install in the same Debian cloud machine; no second VM was provisioned",
+  "public_sources_sufficient_for_current_build": true,
+  "private_music_used": false,
+  "native_tests_are_not_full_playthrough": true
+}

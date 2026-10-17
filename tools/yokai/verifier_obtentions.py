@@ -54,7 +54,7 @@ report={'wild_tables':tables,'wild_slots':slots,'original_levels_and_rates_prese
         'wild_species_outside_151':0,'direct_obtention_species':len(roots),'evolution_closure':len(closure),
         'starters_sevault_land_percent_each':5,'kyubi_location':'Mont Braise, confirmed by creator',
         'full_playthrough_verified':False,'overworld_graphics_finished':False,
-        'remaining':'Full-PC/actual-map interactions, special event encounters, full progression, Enma cameo gate, final artwork',
+        'remaining':'All special encounter approaches, full progression, remaining static overworlds and final artwork',
         'verdict':'151 SPECIES COVERED IN SOURCES; COMPLETE PLAYTHROUGH STILL UNVERIFIED'}
 (R/'QA_RECETTE_FINALE/RECONSTRUCTION/COUVERTURE_OBTENTIONS.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))
