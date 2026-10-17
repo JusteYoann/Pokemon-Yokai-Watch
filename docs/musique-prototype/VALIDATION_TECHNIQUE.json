@@ -1,0 +1,271 @@
+{
+  "validation-mgba.json": {
+    "frames": 9258,
+    "wall_time_s": 8.873920163001458,
+    "pcm_active_max": 4,
+    "pcm_active_p95": 4.0,
+    "sound_vcount_lines_max": 37,
+    "sound_vcount_lines_p95": 28.0,
+    "clock_first": 1,
+    "clock_last": 7159,
+    "pcm_active_histogram": {
+      "0": 135,
+      "1": 1303,
+      "2": 4004,
+      "3": 3187,
+      "4": 629
+    },
+    "rom_sha256": "84d3bffbb7e74322aa69d5df211f774576d00b1e3e16eec3794c5b74fc66e186",
+    "rom_changed": false,
+    "sequence_loaded_in": "emulated EWRAM allocated through real AllocZeroed; original ROM untouched",
+    "ram_address": "0x2000010",
+    "song_header": "0x2000864",
+    "voicegroup": "native voicegroup141",
+    "sequence_bytes": 2160,
+    "new_sample_bytes": 0,
+    "track_count": 5,
+    "pcm_limit_unchanged": 5,
+    "sample_rate_output_hz": 32768,
+    "emulated_fps": 59.727500915527344,
+    "duration_s": 155.00399780273438,
+    "peak_dbfs": -16.005651542225202,
+    "clipped_samples": 0,
+    "loop_ticks": 3456,
+    "loop_targets": [
+      "0x2000012",
+      "0x20001bf",
+      "0x2000409",
+      "0x20006a8",
+      "0x200077b"
+    ],
+    "loop_boundary_frames": [
+      4468,
+      8937
+    ],
+    "approx_loop_duration_s": 74.82315401611245,
+    "approx_two_cycle_waveform_correlation": 0.4016508401742514,
+    "native_bicycle_baseline": {
+      "frames": 597,
+      "wall_time_s": 0.6156389550014865,
+      "pcm_active_max": 5,
+      "pcm_active_p95": 5.0,
+      "sound_vcount_lines_max": 44,
+      "sound_vcount_lines_p95": 41.19999999999993,
+      "clock_first": 1,
+      "clock_last": 533,
+      "pcm_active_histogram": {
+        "2": 20,
+        "3": 67,
+        "4": 224,
+        "5": 286
+      }
+    },
+    "emulator_core": "/workspace/.setup/emulator/root/usr/lib/x86_64-linux-gnu/libretro/mgba_libretro.so",
+    "limitations": [
+      "RAM music-player test, not cycling gameplay integration",
+      "No physical GBA or auditory fidelity certification",
+      "VCOUNT difference is scanline resolution, not a complete CPU benchmark",
+      "Active-channel count alone does not prove absence of every release-tail steal",
+      "Waveform period is approximate; engine frame scheduling can offset individual samples"
+    ]
+  },
+  "validation-stress.json": {
+    "frames": 9258,
+    "wall_time_s": 9.628226404998713,
+    "pcm_active_max": 5,
+    "pcm_active_p95": 4.0,
+    "sound_vcount_lines_max": 49,
+    "sound_vcount_lines_p95": 32.0,
+    "clock_first": 1,
+    "clock_last": 7179,
+    "pcm_active_histogram": {
+      "0": 130,
+      "1": 1239,
+      "2": 3842,
+      "3": 3225,
+      "4": 777,
+      "5": 45
+    },
+    "stress_events": [
+      {
+        "frame": 358,
+        "function": "PlaySE",
+        "song": 5
+      },
+      {
+        "frame": 716,
+        "function": "PlayCry_NormalNoDucking",
+        "species": 1
+      },
+      {
+        "frame": 1074,
+        "function": "PlaySE",
+        "song": 5
+      },
+      {
+        "frame": 1432,
+        "function": "PlayCry_NormalNoDucking",
+        "species": 1
+      },
+      {
+        "frame": 1790,
+        "function": "PlaySE",
+        "song": 5
+      },
+      {
+        "frame": 2148,
+        "function": "PlayCry_NormalNoDucking",
+        "species": 1
+      },
+      {
+        "frame": 2506,
+        "function": "PlaySE",
+        "song": 5
+      },
+      {
+        "frame": 2864,
+        "function": "PlayCry_NormalNoDucking",
+        "species": 1
+      },
+      {
+        "frame": 3222,
+        "function": "PlaySE",
+        "song": 5
+      },
+      {
+        "frame": 3580,
+        "function": "PlayCry_NormalNoDucking",
+        "species": 1
+      },
+      {
+        "frame": 3938,
+        "function": "PlaySE",
+        "song": 5
+      },
+      {
+        "frame": 4296,
+        "function": "PlayCry_NormalNoDucking",
+        "species": 1
+      },
+      {
+        "frame": 4654,
+        "function": "PlaySE",
+        "song": 5
+      },
+      {
+        "frame": 5012,
+        "function": "PlayCry_NormalNoDucking",
+        "species": 1
+      },
+      {
+        "frame": 5370,
+        "function": "PlaySE",
+        "song": 5
+      },
+      {
+        "frame": 5728,
+        "function": "PlayCry_NormalNoDucking",
+        "species": 1
+      },
+      {
+        "frame": 6086,
+        "function": "PlaySE",
+        "song": 5
+      },
+      {
+        "frame": 6444,
+        "function": "PlayCry_NormalNoDucking",
+        "species": 1
+      },
+      {
+        "frame": 6802,
+        "function": "PlaySE",
+        "song": 5
+      },
+      {
+        "frame": 7160,
+        "function": "PlayCry_NormalNoDucking",
+        "species": 1
+      },
+      {
+        "frame": 7518,
+        "function": "PlaySE",
+        "song": 5
+      },
+      {
+        "frame": 7876,
+        "function": "PlayCry_NormalNoDucking",
+        "species": 1
+      },
+      {
+        "frame": 8234,
+        "function": "PlaySE",
+        "song": 5
+      },
+      {
+        "frame": 8592,
+        "function": "PlayCry_NormalNoDucking",
+        "species": 1
+      },
+      {
+        "frame": 8950,
+        "function": "PlaySE",
+        "song": 5
+      }
+    ],
+    "rom_sha256": "84d3bffbb7e74322aa69d5df211f774576d00b1e3e16eec3794c5b74fc66e186",
+    "rom_changed": false,
+    "sequence_loaded_in": "emulated EWRAM allocated through real AllocZeroed; original ROM untouched",
+    "ram_address": "0x2000010",
+    "song_header": "0x2000864",
+    "voicegroup": "native voicegroup141",
+    "sequence_bytes": 2160,
+    "new_sample_bytes": 0,
+    "track_count": 5,
+    "pcm_limit_unchanged": 5,
+    "sample_rate_output_hz": 32768,
+    "emulated_fps": 59.727500915527344,
+    "duration_s": 155.42254638671875,
+    "peak_dbfs": -10.08435849280704,
+    "clipped_samples": 0,
+    "loop_ticks": 3456,
+    "loop_targets": [
+      "0x2000012",
+      "0x20001bf",
+      "0x2000409",
+      "0x20006a8",
+      "0x200077b"
+    ],
+    "loop_boundary_frames": [
+      4456,
+      8913
+    ],
+    "approx_loop_duration_s": 74.62224154169013,
+    "approx_two_cycle_waveform_correlation": -0.011401172863285711,
+    "native_bicycle_baseline": {
+      "frames": 597,
+      "wall_time_s": 0.68014391700126,
+      "pcm_active_max": 5,
+      "pcm_active_p95": 5.0,
+      "sound_vcount_lines_max": 44,
+      "sound_vcount_lines_p95": 41.19999999999993,
+      "clock_first": 1,
+      "clock_last": 533,
+      "pcm_active_histogram": {
+        "2": 20,
+        "3": 67,
+        "4": 224,
+        "5": 286
+      },
+      "stress_events": []
+    },
+    "emulator_core": "/workspace/.setup/emulator/root/usr/lib/x86_64-linux-gnu/libretro/mgba_libretro.so",
+    "limitations": [
+      "RAM music-player test, not cycling gameplay integration",
+      "No physical GBA or auditory fidelity certification",
+      "VCOUNT difference is scanline resolution, not a complete CPU benchmark",
+      "Active-channel count alone does not prove absence of every release-tail steal",
+      "Waveform period is approximate; engine frame scheduling can offset individual samples"
+    ]
+  }
+}

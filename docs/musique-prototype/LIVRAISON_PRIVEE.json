@@ -1,0 +1,67 @@
+{
+  "location": "/workspace/private-audio/bicycle-prototype",
+  "public_audio_or_scores": false,
+  "files": {
+    "LIRE_AVANT_ECOUTE.txt": {
+      "bytes": 1489,
+      "sha256": "6f4113b71dc2d0612e4e95b2dab2964a027a05d452a4ca4dd3e5623c18bd591b"
+    },
+    "BICYCLE_PROTOTYPE_GBA.mp3": {
+      "bytes": 2481452,
+      "sha256": "b5bb5a2ac2fe8a42c25f6e83f4e7ddfef87f57b3480a6f9877fbbac86944a4ff"
+    },
+    "BICYCLE_EXTRAIT_30S.mp3": {
+      "bytes": 481580,
+      "sha256": "d53b4964f1e0de9bb9ac3b480f45e8e90f6b3d3f020ed3668450e1986b862f33"
+    },
+    "bicycle-prototype-mgba.wav": {
+      "bytes": 20316728,
+      "sha256": "9d5151019798fc9e4f76cb3ab5730d9ea3fff7b84ab9df3e7bd89637d6ed2294"
+    },
+    "bicycle-prototype.mid": {
+      "bytes": 10404,
+      "sha256": "f47273ae2377aa8ef0f9538ac8b1d09836f667df1e3f9080a602cd68dd1454ee"
+    },
+    "bicycle-prototype.s": {
+      "bytes": 35199,
+      "sha256": "3b3e0f55ca1c9f22a3dd9d35e280f799503aada841bec735e2ac7991a39e6188"
+    },
+    "arrangement.json": {
+      "bytes": 143687,
+      "sha256": "9d4460b187e14f204691fc64197428eb25184d048aac3abed0a5df71703ab4b7"
+    },
+    "structure.json": {
+      "bytes": 9124,
+      "sha256": "aafbd3cf4464857aac6d6ca25cc2ef0b92bcd4e671605eb29843fef48e17f96a"
+    },
+    "transcription-brute.mid": {
+      "bytes": 10073,
+      "sha256": "740b7b928762d242ac703c39abd170bb2e38115039ea302e8243e7cdaf6873dc"
+    },
+    "transcription-brute.json": {
+      "bytes": 151357,
+      "sha256": "47ffbe62d2615e2c0f7241ee3916202bec3bb4d26720894a6896384dff5a95c9"
+    },
+    "validation-mgba.json": {
+      "bytes": 152815,
+      "sha256": "5dce7bba0bd407a7a5c5503062e5bacd4e71bcec4cde27817b7a11d91f8b1c3f"
+    },
+    "validation-stress.json": {
+      "bytes": 155069,
+      "sha256": "071e44eaa38bb3aee6adba479d58763562826d524e754a94dfde87eecf1f350e"
+    }
+  },
+  "bundle": {
+    "path": "/workspace/private-audio/bicycle-prototype/BICYCLE_PROTOTYPE_PRIVE.zip",
+    "bytes": 13088402,
+    "sha256": "695b07bf31a8f82435cd2b3781548831ca74dc3edb8a109f56ed16289c10649d"
+  },
+  "arrangement_notes": 1118,
+  "corrections": {
+    "isolated_pitch_switches_filtered": 4,
+    "repeat_consensus": 2,
+    "quantization": "sixteenth notes; monophonic lead/bass; no bends",
+    "octave_rejection": "lead restricted to MIDI48..84 after detecting omitted low-register melody; bass35..55; rejected harmonics not manually verified",
+    "soft_notes": "continuous model activations revisited where hard event extraction produced gaps"
+  }
+}

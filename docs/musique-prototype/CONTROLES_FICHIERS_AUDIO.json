@@ -1,0 +1,38 @@
+[
+  {
+    "file": "BICYCLE_PROTOTYPE_GBA.mp3",
+    "decode": "passed",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "155.052000"
+      }
+    }
+  },
+  {
+    "file": "BICYCLE_EXTRAIT_30S.mp3",
+    "decode": "passed",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "30.060000"
+      }
+    }
+  }
+]
