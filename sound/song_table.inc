@@ -347,5 +347,27 @@ gSongTable::
 	song mus_slow_pallet, 0, 0
 	song mus_teachy_tv_menu, 0, 0
 
+@ Dedicated IDs retain explicit native fallback in the public build.
+	song mus_cycling, 0, 0 @ MUS_YOKAI_BICYCLE
+	song mus_vs_trainer, 0, 0 @ MUS_YOKAI_HINOZALL
+	song mus_vs_trainer, 0, 0 @ MUS_YOKAI_GHOULFATHER
+	song mus_pallet, 0, 0 @ MUS_YOKAI_INFINITE_TUNNEL
+	song mus_encounter_gym_leader, 0, 0 @ MUS_YOKAI_ENMA_DIALOGUE
+	song mus_vs_trainer, 0, 0 @ MUS_YOKAI_ZAZELMARE
+	song mus_pallet, 0, 0 @ MUS_YOKAI_NATHAN_HOUSE
+	song mus_pallet, 0, 0 @ MUS_YOKAI_KATIE_HOUSE
+	song mus_pallet, 0, 0 @ MUS_YOKAI_BLASTERS_HIDEOUT
+	song mus_vs_trainer, 0, 0 @ MUS_YOKAI_BLASTERS_THEME
+	song mus_rocket_hideout, 0, 0 @ MUS_YOKAI_BADA_BING
+	song mus_celadon, 0, 0 @ MUS_YOKAI_BLOSSOM_HEIGHTS
+	song mus_pallet, 0, 0 @ MUS_YOKAI_ENMA_VILLA
+	song mus_sevii_route, 0, 0 @ MUS_YOKAI_WILDWOOD
+	song mus_vs_gym_leader, 0, 0 @ MUS_YOKAI_DECISIVE_BATTLE
+	song mus_sevii_123, 0, 0 @ MUS_YOKAI_HARRISVILLE
+	song mus_rocket_hideout, 0, 0 @ MUS_YOKAI_DODGY
+	song mus_pallet, 0, 0 @ MUS_YOKAI_ROBON_ARRIVES
+	song mus_vs_trainer, 0, 0 @ MUS_YOKAI_ROBON_3000
+	song mus_vs_trainer, 0, 0 @ MUS_YOKAI_MINI_BOSS
+
 dummy_song_header:
 	.byte 0, 0, 0, 0

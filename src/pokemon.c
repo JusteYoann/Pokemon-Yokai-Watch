@@ -5906,6 +5906,17 @@ static u16 GetBattleBGM(void)
         return MUS_RS_VS_TRAINER;
     if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
     {
+        switch (gTrainerBattleOpponent_A)
+        {
+        case TRAINER_YOKAI_DOMNISCIAN: return MUS_YOKAI_HINOZALL;
+        case TRAINER_YOKAI_DONMORLEONE: return MUS_YOKAI_GHOULFATHER;
+        case TRAINER_YOKAI_ENMA: return MUS_YOKAI_ZAZELMARE;
+        case TRAINER_YOKAI_EMPLOYEROUGE:
+        case TRAINER_YOKAI_EMPLOYEBLEU:
+        case TRAINER_YOKAI_MAFIAMILLE1:
+        case TRAINER_YOKAI_MAFIAMILLE2:
+        case TRAINER_YOKAI_MAFIAMILLE3: return MUS_YOKAI_MINI_BOSS;
+        }
         switch (gTrainers[gTrainerBattleOpponent_A].trainerClass)
         {
         case TRAINER_CLASS_CHAMPION:

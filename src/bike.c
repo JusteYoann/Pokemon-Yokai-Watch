@@ -323,10 +323,10 @@ void GetOnOffBike(u8 flags)
     else
     {
         SetPlayerAvatarTransitionFlags(flags);
-        if (Overworld_MusicCanOverrideMapMusic(MUS_CYCLING))
+        if (Overworld_MusicCanOverrideMapMusic(MUS_YOKAI_BICYCLE))
         {
-            Overworld_SetSavedMusic(MUS_CYCLING);
-            Overworld_ChangeMusicTo(MUS_CYCLING);
+            Overworld_SetSavedMusic(MUS_YOKAI_BICYCLE);
+            Overworld_ChangeMusicTo(MUS_YOKAI_BICYCLE);
         }
     }
 }

@@ -61,12 +61,13 @@ class Emulator:
         self.lib.retro_serialize.argtypes=[C.c_void_p,C.c_size_t];self.lib.retro_serialize.restype=C.c_bool
         self.lib.retro_unserialize.argtypes=[C.c_void_p,C.c_size_t];self.lib.retro_unserialize.restype=C.c_bool
         self.lib.retro_init()
-        path=Path(rom or ROOT/'pokefirered.gba')
+        path=Path(rom or os.environ.get('YOKAI_QA_ROM',str(ROOT/'pokefirered.gba')))
+        self.elf_path = Path(os.environ.get('YOKAI_QA_ELF',str(path.with_suffix('.elf') if path.with_suffix('.elf').exists() else ROOT/'pokefirered.elf')))
         self.rom_buffer=C.create_string_buffer(path.read_bytes())
         info=GameInfo(str(path).encode(),C.cast(self.rom_buffer,C.c_void_p),path.stat().st_size,None)
         assert self.lib.retro_load_game(C.byref(info)), 'mGBA ROM load failed'
         self.symbols={}
-        for line in subprocess.check_output(['arm-none-eabi-nm','--defined-only','pokefirered.elf'],cwd=ROOT,text=True).splitlines():
+        for line in subprocess.check_output(['arm-none-eabi-nm','--defined-only',str(self.elf_path)],cwd=ROOT,text=True).splitlines():
             fields=line.split()
             if len(fields)==3:self.symbols[fields[2]]=int(fields[0],16)
         for name in ['GetMonData','GetBoxMonData']:

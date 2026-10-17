@@ -71,12 +71,19 @@ SHELL := bash -o pipefail
 # Set flags for tools
 ASFLAGS := -mcpu=arm7tdmi --defsym $(GAME_VERSION)=1 --defsym REVISION=$(GAME_REVISION) --defsym $(GAME_LANGUAGE)=1 --defsym MODERN=$(MODERN)
 
+ifneq ($(strip $(YOKAI_AUDIO_DIR)),)
+  YOKAI_AUDIO_DIR := $(abspath $(YOKAI_AUDIO_DIR))
+endif
+
 INCLUDE_DIRS := include
 INCLUDE_CPP_ARGS := $(INCLUDE_DIRS:%=-iquote %)
 INCLUDE_SCANINC_ARGS := $(INCLUDE_DIRS:%=-I %)
 
 O_LEVEL ?= 2
 CPPFLAGS := $(INCLUDE_CPP_ARGS) -Wno-trigraphs -D$(GAME_VERSION) -DREVISION=$(GAME_REVISION) -D$(GAME_LANGUAGE) -DMODERN=$(MODERN)
+ifneq ($(strip $(YOKAI_AUDIO_DIR)),)
+  CPPFLAGS += -DYOKAI_PRIVATE_AUDIO
+endif
 ifeq ($(MODERN),0)
   CPPFLAGS += -I tools/agbcc/include -I tools/agbcc -nostdinc -undef -std=gnu89
   CC1 := tools/agbcc/bin/agbcc$(EXE)
@@ -188,6 +195,12 @@ SONG_OBJS := $(patsubst $(SONG_SUBDIR)/%.s,$(SONG_BUILDDIR)/%.o,$(SONG_SRCS))
 
 MID_SRCS := $(wildcard $(MID_SUBDIR)/*.mid)
 MID_OBJS := $(patsubst $(MID_SUBDIR)/%.mid,$(MID_BUILDDIR)/%.o,$(MID_SRCS))
+
+ifneq ($(strip $(YOKAI_AUDIO_DIR)),)
+  DATA_ASM_OBJS += $(DATA_ASM_BUILDDIR)/yokai_private_audio.o
+  $(DATA_ASM_BUILDDIR)/yokai_private_audio.o: $(YOKAI_AUDIO_DIR)/yokai_music.s $(wildcard $(YOKAI_AUDIO_DIR)/*.dpcm)
+	$(AS) $(ASFLAGS) -o $@ $<
+endif
 
 OBJS     := $(C_OBJS) $(C_ASM_OBJS) $(ASM_OBJS) $(DATA_ASM_OBJS) $(SONG_OBJS) $(MID_OBJS)
 OBJS_REL := $(patsubst $(OBJ_DIR)/%,%,$(OBJS))

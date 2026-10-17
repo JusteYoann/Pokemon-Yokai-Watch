@@ -990,7 +990,12 @@ void Overworld_SetWarpDestinationFromWarp(struct WarpData * warp)
 
 static u16 GetLocationMusic(struct WarpData * warp)
 {
-    return Overworld_GetMapHeaderByGroupAndId(warp->mapGroup, warp->mapNum)->music;
+    u16 music = Overworld_GetMapHeaderByGroupAndId(warp->mapGroup, warp->mapNum)->music;
+    if (music == MUS_YOKAI_NATHAN_HOUSE && gSaveBlock2Ptr->playerGender == FEMALE)
+        return MUS_YOKAI_KATIE_HOUSE;
+    if (music == MUS_YOKAI_BADA_BING && FlagGet(FLAG_HIDE_SILPH_ROCKETS))
+        return MUS_ROCKET_HIDEOUT;
+    return music;
 }
 
 static u16 GetCurrLocationDefaultMusic(void)
@@ -1192,7 +1197,7 @@ static void ChooseAmbientCrySpecies(void)
 
 bool32 Overworld_MusicCanOverrideMapMusic(u16 music)
 {
-    if (music == MUS_CYCLING || music == MUS_SURF)
+    if (music == MUS_YOKAI_BICYCLE || music == MUS_SURF)
     {
         if (gMapHeader.regionMapSectionId == MAPSEC_KANTO_VICTORY_ROAD || gMapHeader.regionMapSectionId == MAPSEC_ROUTE_23 || gMapHeader.regionMapSectionId == MAPSEC_INDIGO_PLATEAU)
             return FALSE;

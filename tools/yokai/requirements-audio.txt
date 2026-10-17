@@ -1,3 +1,4 @@
 # Optional spectral verification; native game build does not require NumPy.
 -r requirements.txt
 numpy==2.3.5
+scipy==1.17.0

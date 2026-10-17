@@ -1,0 +1,167 @@
+{
+  "rate": 13379,
+  "active_tracks": [
+    1,
+    2,
+    4,
+    6,
+    11,
+    14,
+    16,
+    17,
+    20
+  ],
+  "status": "Measured source repetitions, explicit sample points; native tests recorded separately. Tracks3,5,7,8,12 remain pending. No track deleted.",
+  "tracks": [
+    {
+      "number": 1,
+      "pcm_wav_sha256": "2d0fb7d025e33bbebf1ae58fe92f4e9d6215fd8c37aad7dd55c51506e730ba2f",
+      "source_start_samples": 66973,
+      "source_loop_start_samples": 66973,
+      "source_end_samples": 1072143,
+      "period_waveform_correlation": 0.9666314259564629,
+      "derivation": "FFT recurrence refined to source sample precision; stable repeated windows then <=100ms phase alignment; bike skips non-repeating intro",
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 2,
+      "pcm_wav_sha256": "b1cbf1a104ec217b743176284dc3aacaaeb0a2c7ae3335b3e7d8d2647dbd7757",
+      "source_start_samples": 0,
+      "source_loop_start_samples": 67152,
+      "source_end_samples": 770441,
+      "period_waveform_correlation": 0.9275363134675166,
+      "derivation": "FFT recurrence refined to source sample precision; stable repeated windows then <=100ms phase alignment; bike skips non-repeating intro",
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 4,
+      "pcm_wav_sha256": "2ed999f762088b587addc6af88b3afe5693ba3b49d2bc9ad131fa27debd05afa",
+      "source_start_samples": 0,
+      "source_loop_start_samples": 121078,
+      "source_end_samples": 1521604,
+      "period_waveform_correlation": 0.992957811875826,
+      "derivation": "FFT recurrence refined to source sample precision; stable repeated windows then <=100ms phase alignment; bike skips non-repeating intro",
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 6,
+      "pcm_wav_sha256": "2b1a06e728b2e15522a3afcbeeeb8c0b165881e53642194974f844c3a08bff71",
+      "source_start_samples": 0,
+      "source_loop_start_samples": 27255,
+      "source_end_samples": 1540994,
+      "period_waveform_correlation": 0.9907323655451229,
+      "derivation": "FFT recurrence refined to source sample precision; stable repeated windows then <=100ms phase alignment; bike skips non-repeating intro",
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 9,
+      "pcm_wav_sha256": "0deae5cbb8ce444fa37c51d36b893966c37d32b9cb532ebf1fe186fc267cdd34",
+      "source_start_samples": 0,
+      "source_loop_start_samples": 27297,
+      "source_end_samples": 1144160,
+      "period_waveform_correlation": 0.9954347769193453,
+      "derivation": "FFT recurrence refined to source sample precision; stable repeated windows then <=100ms phase alignment; bike skips non-repeating intro",
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 10,
+      "pcm_wav_sha256": "85cf7b69ccb3cf21ee2f2b0a5389a3a2726c437ae9214c0264036e814d6b2d83",
+      "source_start_samples": 0,
+      "source_loop_start_samples": 107199,
+      "source_end_samples": 1134706,
+      "period_waveform_correlation": 0.9756429319964074,
+      "derivation": "FFT recurrence refined to source sample precision; stable repeated windows then <=100ms phase alignment; bike skips non-repeating intro",
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 11,
+      "pcm_wav_sha256": "336f70f35b49c0d3f1dc92d02bbeed3e39b22faa715a0f95922ae245ee97d078",
+      "source_start_samples": 0,
+      "source_loop_start_samples": 1211,
+      "source_end_samples": 1314785,
+      "period_waveform_correlation": 0.9953114076169014,
+      "derivation": "FFT recurrence refined to source sample precision; stable repeated windows then <=100ms phase alignment; bike skips non-repeating intro",
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 13,
+      "pcm_wav_sha256": "fef3e853eacac76972196bb42e9afd274950987a3e0b342e8feb1e5a74c0e5a3",
+      "source_start_samples": 0,
+      "source_loop_start_samples": 948,
+      "source_end_samples": 1320520,
+      "period_waveform_correlation": 0.9973236961424535,
+      "derivation": "FFT recurrence refined to source sample precision; stable repeated windows then <=100ms phase alignment; bike skips non-repeating intro",
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 14,
+      "pcm_wav_sha256": "286cc321f4b3e63254b77a14c4d00747665208db1faebc022fdcf86ffc03d698",
+      "source_start_samples": 0,
+      "source_loop_start_samples": 40872,
+      "source_end_samples": 866555,
+      "period_waveform_correlation": 0.9961232158805656,
+      "derivation": "FFT recurrence refined to source sample precision; stable repeated windows then <=100ms phase alignment; bike skips non-repeating intro",
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 15,
+      "pcm_wav_sha256": "4be47a94b3cb6449726aeeff92ead30d03ad9ddce550d53af707aa349998e1a9",
+      "source_start_samples": 0,
+      "source_loop_start_samples": 188026,
+      "source_end_samples": 889090,
+      "period_waveform_correlation": 0.9948391233846654,
+      "derivation": "FFT recurrence refined to source sample precision; stable repeated windows then <=100ms phase alignment; bike skips non-repeating intro",
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 16,
+      "pcm_wav_sha256": "4d58cea04ac46a4b9d08347d93d1db8edd64083dc934d89a714838e4c0087da1",
+      "source_start_samples": 0,
+      "source_loop_start_samples": 54301,
+      "source_end_samples": 1204895,
+      "period_waveform_correlation": 0.9913622088545962,
+      "derivation": "FFT recurrence refined to source sample precision; stable repeated windows then <=100ms phase alignment; bike skips non-repeating intro",
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 17,
+      "pcm_wav_sha256": "bd9989d46278c9df0e4ae17c4ceaf15fde48058f22f04311598a18874f7e0c46",
+      "source_start_samples": 0,
+      "source_loop_start_samples": 67245,
+      "source_end_samples": 1488497,
+      "period_waveform_correlation": 0.9811742644750352,
+      "derivation": "FFT recurrence refined to source sample precision; stable repeated windows then <=100ms phase alignment; bike skips non-repeating intro",
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 18,
+      "pcm_wav_sha256": "8d5eb93400cfcf01be4e5925a5c22c3feaaf6f0143544be00c820985de905110",
+      "source_start_samples": 0,
+      "source_loop_start_samples": 14597,
+      "source_end_samples": 793955,
+      "period_waveform_correlation": 0.9899948717032129,
+      "derivation": "FFT recurrence refined to source sample precision; stable repeated windows then <=100ms phase alignment; bike skips non-repeating intro",
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 19,
+      "pcm_wav_sha256": "b7762609729f1c67cdb5b6e04627c7761e711d6f0ee9f8bd68600ac26230162d",
+      "source_start_samples": 0,
+      "source_loop_start_samples": 107514,
+      "source_end_samples": 550518,
+      "period_waveform_correlation": 0.9769399494897314,
+      "derivation": "FFT recurrence refined to source sample precision; stable repeated windows then <=100ms phase alignment; bike skips non-repeating intro",
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 20,
+      "pcm_wav_sha256": "08da6ff4446cd0b4d0b01cc2ffb51a1405d18ed0df03f060a56b96207efa0f63",
+      "source_start_samples": 0,
+      "source_loop_start_samples": 161255,
+      "source_end_samples": 1424586,
+      "period_waveform_correlation": 0.9922583430958793,
+      "derivation": "FFT recurrence refined to source sample precision; stable repeated windows then <=100ms phase alignment; bike skips non-repeating intro",
+      "perceptual_listening_validated": false
+    }
+  ]
+}

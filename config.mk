@@ -56,3 +56,8 @@ endif
 ifeq ($(GAME_LANGUAGE),ENGLISH)
   GAME_CODE  := $(GAME_CODE)E
 endif
+
+# Private audio is optional; never reuse the public object's compile flags.
+ifneq ($(strip $(YOKAI_AUDIO_DIR)),)
+  BUILD_NAME := $(BUILD_NAME)_audio
+endif

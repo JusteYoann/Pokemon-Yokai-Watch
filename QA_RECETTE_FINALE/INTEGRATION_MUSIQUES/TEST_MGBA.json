@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "error": null,
+  "private_rom_sha256": "78df2ecc88c70461b809b9410bd974aefe07e007a209f9f2afe755cf2d719d7d",
+  "private_rom_bytes": 21208756,
+  "scope": "Real map/bicycle/NPC music in compiled optional audio ROM; fixture warps/flags; five native full loops. Not whole story, hardware profiling or perceptual listening.",
+  "results": [
+    {
+      "number": 1,
+      "passed": true,
+      "trigger": "Registered Bicycle SELECT",
+      "five_native_loop_wraps": [
+        {
+          "frame": 4455,
+          "sample_after_wrap": 142
+        },
+        {
+          "frame": 8942,
+          "sample_after_wrap": 60
+        },
+        {
+          "frame": 13430,
+          "sample_after_wrap": 202
+        },
+        {
+          "frame": 17917,
+          "sample_after_wrap": 120
+        },
+        {
+          "frame": 22404,
+          "sample_after_wrap": 38
+        }
+      ],
+      "intro_not_repeated": true,
+      "audio_reference_correlation_1kHz": 0.9442783231720805,
+      "select_SFX_and_cry_native_calls": true,
+      "cry_completed": true,
+      "native_Flash_save_with_music": true,
+      "native_frames": 22404,
+      "source_sample_period": 1005170,
+      "perceptual_listening_validated": false,
+      "audio_demo": "Private output/previews only, not public GitHub",
+      "second_SELECT_restores_zone_music_and_on_foot": true
+    }
+  ]
+}

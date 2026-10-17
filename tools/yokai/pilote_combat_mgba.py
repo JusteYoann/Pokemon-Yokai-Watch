@@ -10,7 +10,7 @@ from mgba_rpc import ROOT
 def battle_keys(r,frame):
  if not hasattr(r,'qa_move_callbacks'):
   r.qa_move_callbacks=set()
-  for line in subprocess.check_output(['arm-none-eabi-nm','--defined-only','pokefirered.elf'],cwd=ROOT,text=True).splitlines():
+  for line in subprocess.check_output(['arm-none-eabi-nm','--defined-only',str(r.elf_path)],cwd=ROOT,text=True).splitlines():
    f=line.split()
    if len(f)==3 and f[2]=='HandleInputChooseMove':r.qa_move_callbacks.add(int(f[0],16)|1)
   assert r.qa_move_callbacks

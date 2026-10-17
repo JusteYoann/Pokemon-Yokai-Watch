@@ -1,5 +1,6 @@
 #include "global.h"
 #include "gba/m4a_internal.h"
+#include "yokai_music.h"
 
 extern const u8 gCgb3Vol[];
 
@@ -111,7 +112,7 @@ void m4aSongNumStart(u16 n)
     const struct Song *song = &songTable[n];
     const struct MusicPlayer *mplay = &mplayTable[song->ms];
 
-    MPlayStart(mplay->info, song->header);
+    MPlayStart(mplay->info, YokaiGetSongHeader(n, song->header));
 }
 
 void m4aSongNumStartOrChange(u16 n)
@@ -121,16 +122,16 @@ void m4aSongNumStartOrChange(u16 n)
     const struct Song *song = &songTable[n];
     const struct MusicPlayer *mplay = &mplayTable[song->ms];
 
-    if (mplay->info->songHeader != song->header)
+    if (mplay->info->songHeader != YokaiGetSongHeader(n, song->header))
     {
-        MPlayStart(mplay->info, song->header);
+        MPlayStart(mplay->info, YokaiGetSongHeader(n, song->header));
     }
     else
     {
         if ((mplay->info->status & MUSICPLAYER_STATUS_TRACK) == 0
          || (mplay->info->status & MUSICPLAYER_STATUS_PAUSE))
         {
-            MPlayStart(mplay->info, song->header);
+            MPlayStart(mplay->info, YokaiGetSongHeader(n, song->header));
         }
     }
 }
@@ -142,10 +143,10 @@ void m4aSongNumStartOrContinue(u16 n)
     const struct Song *song = &songTable[n];
     const struct MusicPlayer *mplay = &mplayTable[song->ms];
 
-    if (mplay->info->songHeader != song->header)
-        MPlayStart(mplay->info, song->header);
+    if (mplay->info->songHeader != YokaiGetSongHeader(n, song->header))
+        MPlayStart(mplay->info, YokaiGetSongHeader(n, song->header));
     else if ((mplay->info->status & MUSICPLAYER_STATUS_TRACK) == 0)
-        MPlayStart(mplay->info, song->header);
+        MPlayStart(mplay->info, YokaiGetSongHeader(n, song->header));
     else if (mplay->info->status & MUSICPLAYER_STATUS_PAUSE)
         MPlayContinue(mplay->info);
 }
@@ -157,7 +158,7 @@ void m4aSongNumStop(u16 n)
     const struct Song *song = &songTable[n];
     const struct MusicPlayer *mplay = &mplayTable[song->ms];
 
-    if (mplay->info->songHeader == song->header)
+    if (mplay->info->songHeader == YokaiGetSongHeader(n, song->header))
         m4aMPlayStop(mplay->info);
 }
 
@@ -168,7 +169,7 @@ void m4aSongNumContinue(u16 n)
     const struct Song *song = &songTable[n];
     const struct MusicPlayer *mplay = &mplayTable[song->ms];
 
-    if (mplay->info->songHeader == song->header)
+    if (mplay->info->songHeader == YokaiGetSongHeader(n, song->header))
         MPlayContinue(mplay->info);
 }
 
