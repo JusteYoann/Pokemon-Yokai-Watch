@@ -1,0 +1,54 @@
+{
+  "callback2": "0x80110e9",
+  "battle_controller": "0x802e3b9",
+  "outcome": 0,
+  "move_cursor": 1,
+  "battle_mons": [
+    {
+      "species": 1,
+      "hp": 999,
+      "pp": [
+        0,
+        15,
+        20,
+        20
+      ],
+      "moves": [
+        332,
+        351,
+        129,
+        345
+      ]
+    },
+    {
+      "species": 140,
+      "hp": 18,
+      "pp": [
+        18,
+        5,
+        30,
+        10
+      ],
+      "moves": [
+        347,
+        215,
+        113,
+        76
+      ]
+    }
+  ],
+  "fallbacks": [
+    {
+      "loop_iteration": 18800,
+      "from_slot": 0,
+      "to_slot": 1,
+      "unusable_mask": 1,
+      "pp": [
+        0,
+        20,
+        20,
+        20
+      ]
+    }
+  ]
+}

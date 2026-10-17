@@ -2,6 +2,7 @@
 """Native postgame boss cameos, employees, gating, optional fights and unique rewards."""
 import hashlib,json,re
 from mgba_rpc import Emulator,ROOT
+from pilote_combat_mgba import battle_keys,capture_failure
 P=ROOT/'QA_RECETTE_FINALE/RECONSTRUCTION/preuves';results=[]
 C={}
 for name in ['pokemon','items','moves','species','flags']:
@@ -16,9 +17,9 @@ def fixture(group,post=True,weak=False):
  if post:
   for flag in [C['FLAG_SYS_GAME_CLEAR'],C['FLAG_HIDE_SILPH_ROCKETS'],C['FLAG_SILPH_11F_DOOR'],C['FLAG_DEFEATED_ROCKETS_IN_WAREHOUSE'],C['FLAG_HIDE_FIVE_ISLAND_ROCKETS']]:r.call('FlagSet',flag)
  r.call('CreateMon',r.symbols['gPlayerParty'],1,1 if weak else 100,31,1,100,0,0);r.write(r.symbols['gPlayerPartyCount'],b'\x01');scratch=r.PARAMS+128
- for f in ['MON_DATA_HP','MON_DATA_MAX_HP','MON_DATA_ATK','MON_DATA_DEF','MON_DATA_SPDEF']:
+ for f in ['MON_DATA_HP','MON_DATA_MAX_HP','MON_DATA_ATK','MON_DATA_SPATK','MON_DATA_DEF','MON_DATA_SPDEF']:
   r.w32(scratch,1 if weak else 999);r.call('SetMonData',r.symbols['gPlayerParty'],C[f],scratch)
- r.call('SetMonMoveSlot',r.symbols['gPlayerParty'],C['MOVE_TACKLE'] if weak else C['MOVE_AERIAL_ACE'],0)
+ for slot,move in enumerate(['MOVE_TACKLE'] if weak else ['MOVE_AERIAL_ACE','MOVE_SHOCK_WAVE','MOVE_SWIFT','MOVE_MAGICAL_LEAF']):r.call('SetMonMoveSlot',r.symbols['gPlayerParty'],C[move],slot)
  warp(r,group,group['boss'])
  return r
 
@@ -44,16 +45,20 @@ def interact(r):
  raise AssertionError('NPC not interactable')
 def fight(r,flag,stem,loss=False):
  started=False
- for f in range(25000):
-  r.keys={8} if f%16<4 else set();r.run()
+ for f in range(60000): # Long legal battles include defensive boosts, healing and PP fallback.
+  r.keys=battle_keys(r,f);r.run()
   if f%64==0:
    cb=r.u32(r.symbols['gMain']+4)
    if cb==r.symbols['BattleMainCB2']|1:started=True
    if f==1024:r.frame.save(P/(stem+'-combat.png'))
    if started and cb==r.symbols['CB2_Overworld']|1 and r.read(r.symbols['gBattleOutcome'],1)==bytes([2 if loss else 1]):
     if not loss and not r.call('FlagGet',flag):continue
-    r.keys=set();finish(r);return f
- raise AssertionError(('Battle not completed',stem,started))
+    r.keys=set();finish(r)
+    if getattr(r,'qa_fallbacks',[]):
+     results.append({'test':stem+' controller changed move after native limitations/PP exhaustion','fallbacks':list(r.qa_fallbacks),'passed':True});r.qa_fallbacks=[]
+    return f
+ state=capture_failure(r,stem)
+ raise AssertionError(('Battle not completed',stem,started,state))
 def main():
  spec=json.loads((ROOT/'data/yokai/cameos_boss.json').read_text());actors={a['name']:a for a in spec['actors']};gfx={a['person']:a['object_gfx'] for a in spec['graphics']}
  groups=[{'name':'domniscian','map':57,'boss':actors['Domniscian'],'staff':[actors['EmployeRouge'],actors['EmployeBleu']]}, {'name':'morleone','map':114,'boss':actors['DonMorleone'],'staff':[actors['Mafiamille1'],actors['Mafiamille2'],actors['Mafiamille3']]}]
@@ -126,7 +131,12 @@ def main():
     assert [r.call('GetMonData',mon,C['MON_DATA_MOVE'+str(j)],0) for j in range(1,5)]==[C[x] for x in m['moves']];assert r.call('GetMonData',mon,C['MON_DATA_ABILITY_NUM'],0)==0
   results.append({'test':'Seven native trainer parties /22 members match approved species, order, levels, moves and abilities; trainer names have EOS within12bytes','passed':True})
  finally:r.close()
- report={'engine':'mGBA libretro','rom_sha256':hashlib.sha256((ROOT/'pokefirered.gba').read_bytes()).hexdigest(),'scope':'Actual NPC interaction, prerequisite staff battles, boss battles, No choices, full bags and native Flash reload; fixture warps and post-story flags, overpower party for wins and weak party for defeats, independent instances/no savestates. Not whole story or balance proof.','balance_validated':False,'results':results,'remaining':['Normal access through Silph/Rocket maze during a full adventure','Difficulty with ordinary party','Private personal boss themes in DPCM']}
+ report={'engine':'mGBA libretro','rom_sha256':hashlib.sha256((ROOT/'pokefirered.gba').read_bytes()).hexdigest(),'scope':'Actual NPC interaction, prerequisite staff battles, boss battles, No choices, full bags and native Flash reload; fixture warps and post-story flags, overpower party with four attacking moves for wins, native legal-move controller for PP/Grudge, weak party for defeats, independent instances/no savestates. Not whole story or balance proof.','balance_validated':False,'results':results,'remaining':['Normal access through Silph/Rocket maze during a full adventure','Difficulty with ordinary party','Private personal boss themes in DPCM']}
  (ROOT/'QA_RECETTE_FINALE/RECONSTRUCTION/TEST_CAMEOS_BOSS_MGBA.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report,ensure_ascii=False,indent=2))
 
-if __name__=='__main__':main()
+if __name__=='__main__':
+ try:main()
+ except Exception as error:
+  failure={'engine':'mGBA libretro','rom_sha256':hashlib.sha256((ROOT/'pokefirered.gba').read_bytes()).hexdigest(),'passed':False,'error':str(error),'partial_results':results}
+  (ROOT/'QA_RECETTE_FINALE/RECONSTRUCTION/TEST_CAMEOS_BOSS_MGBA.json').write_text(json.dumps(failure,ensure_ascii=False,indent=2)+'\n')
+  raise

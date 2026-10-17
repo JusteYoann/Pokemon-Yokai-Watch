@@ -1,0 +1,24 @@
+{
+  "engine": "mGBA libretro",
+  "rom_sha256": "4ffa27b3d719c11885c292782823f83052120b03b2a98d7e96b0719c33ac8155",
+  "scope": "Party fixture at level100/999stats with four attacking moves, first move initially PP0; boss prerequisite flags set only to isolate driver; actual optional Don Morleone battle and reward through native controller input. Enemy teams unchanged. Not a Grudge move-execution or balance test.",
+  "old_A_only_driver_stalls_on_legally_exhausted_first_move": true,
+  "new_driver_uses_native_CheckMoveLimitations_and_dpad_only": true,
+  "new_driver_completes_real_boss_battle_and_reward": true,
+  "fallbacks": [
+    {
+      "loop_iteration": 96,
+      "from_slot": 0,
+      "to_slot": 1,
+      "unusable_mask": 1,
+      "pp": [
+        0,
+        20,
+        20,
+        20
+      ]
+    }
+  ],
+  "controller_loop_iterations_to_win": 10240,
+  "passed": true
+}
