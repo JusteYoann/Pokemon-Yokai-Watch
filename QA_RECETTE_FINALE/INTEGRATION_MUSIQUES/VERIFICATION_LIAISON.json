@@ -1,9 +1,9 @@
 {
   "passed": true,
-  "public_rom_sha256": "d5b2452ceebde70bba65de4b3aac11b678348246515c51d31baa91a6e2b25a53",
-  "private_rom_sha256": "1d67655132a306aa5418f8861a0b5c5af4a6cf4a8a4fa1b4e6a4416e4b1cb2d9",
-  "private_rom_bytes": 21209184,
-  "private_audio_mask": 631851,
+  "public_rom_sha256": "1a2ddbc6e95035b34934a94b078de183c146f16ba000d29ca77749476d2647b6",
+  "private_rom_sha256": "00b834f536d8e490bb5c357301eaff0eed9b3a0f6c20db5c0f0760b9361ec0ad",
+  "private_rom_bytes": 21667712,
+  "private_audio_mask": 648235,
   "active_tracks": [
     1,
     2,
@@ -11,11 +11,12 @@
     6,
     11,
     14,
+    15,
     16,
     17,
     20
   ],
-  "remaining_bytes_to32MiB": 12345248,
+  "remaining_bytes_to32MiB": 11886720,
   "results": [
     {
       "test": "Exact public native fallback",
@@ -73,6 +74,12 @@
     },
     {
       "test": "Exact public native fallback",
+      "number": 15,
+      "symbol": "mus_vs_gym_leader",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
       "number": 16,
       "symbol": "mus_sevii_123",
       "passed": true
@@ -123,6 +130,12 @@
       "test": "Private sample byte-identical, bounded loop and correct native compression bit",
       "number": 14,
       "bytes": 446836,
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, bounded loop and correct native compression bit",
+      "number": 15,
+      "bytes": 458485,
       "passed": true
     },
     {

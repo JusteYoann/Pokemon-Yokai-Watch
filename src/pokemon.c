@@ -5908,6 +5908,14 @@ static u16 GetBattleBGM(void)
     {
         switch (gTrainerBattleOpponent_A)
         {
+        case TRAINER_ELITE_FOUR_LORELEI:
+        case TRAINER_ELITE_FOUR_BRUNO:
+        case TRAINER_ELITE_FOUR_AGATHA:
+        case TRAINER_ELITE_FOUR_LANCE:
+        case TRAINER_ELITE_FOUR_LORELEI_2:
+        case TRAINER_ELITE_FOUR_BRUNO_2:
+        case TRAINER_ELITE_FOUR_AGATHA_2:
+        case TRAINER_ELITE_FOUR_LANCE_2: return MUS_YOKAI_DECISIVE_BATTLE;
         case TRAINER_YOKAI_DOMNISCIAN: return MUS_YOKAI_HINOZALL;
         case TRAINER_YOKAI_DONMORLEONE: return MUS_YOKAI_GHOULFATHER;
         case TRAINER_YOKAI_ENMA: return MUS_YOKAI_ZAZELMARE;

@@ -11,7 +11,7 @@ def load(name):
  return rom,symbols
 results=[];public,ps=load('pokefirered');private,ss=load('pokefirered_audio')
 assert len(public)<=33554432 and len(private)<=33554432
-fallback={1:'mus_cycling',2:'mus_vs_trainer',4:'mus_poke_tower',6:'mus_vs_trainer',7:'mus_pallet',8:'mus_pallet',11:'mus_silph',12:'mus_celadon',14:'mus_viridian_forest',16:'mus_sevii_123',17:'mus_rocket_hideout',20:'mus_vs_trainer'}
+fallback={1:'mus_cycling',2:'mus_vs_trainer',4:'mus_poke_tower',6:'mus_vs_trainer',7:'mus_pallet',8:'mus_pallet',11:'mus_silph',12:'mus_celadon',14:'mus_viridian_forest',15:'mus_vs_gym_leader',16:'mus_sevii_123',17:'mus_rocket_hideout',20:'mus_vs_trainer'}
 for number,symbol in fallback.items():
  address=struct.unpack_from('<I',public,ps['gSongTable']-0x08000000+(346+number)*8)[0];assert address==ps[symbol],(number,symbol,hex(address))
  results.append({'test':'Exact public native fallback','number':number,'symbol':symbol,'passed':True})

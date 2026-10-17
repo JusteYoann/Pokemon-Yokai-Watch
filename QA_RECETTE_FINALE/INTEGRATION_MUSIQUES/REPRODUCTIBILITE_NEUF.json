@@ -1,0 +1,17 @@
+{
+  "game_source_commit": "27ee82a1b",
+  "test_source_commit": "a458f41f1",
+  "fresh_github_checkout": "/workspace/repro-musique-integration",
+  "build": "Cold public and private builds, independent pinned /workspace/repro-tools compiler/core; DPCM generated again from externally supplied private WAVs with pinned hashes, no copied ROM/assets/objects",
+  "private_rom_sha256": "1d67655132a306aa5418f8861a0b5c5af4a6cf4a8a4fa1b4e6a4416e4b1cb2d9",
+  "public_rom_sha256": "d5b2452ceebde70bba65de4b3aac11b678348246515c51d31baa91a6e2b25a53",
+  "both_builds_byte_identical_to_local_reference": true,
+  "private_source_recordings_published": false,
+  "native_tests_from_github": {
+    "tracks": 9,
+    "clean_rendered_seams": 45,
+    "total_rendered_seams_including_ambient_cry": 46,
+    "fanfare_pause_save_reload_checks": 7
+  },
+  "scope": "Same cloud machine, independent checkout/toolbox, not another VM or complete adventure. This proof is for the nine-track checkpoint, not subsequent additions."
+}
