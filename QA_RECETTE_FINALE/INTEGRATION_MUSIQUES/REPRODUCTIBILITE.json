@@ -1,0 +1,25 @@
+{
+  "game_source_commit": "8ff0c49f6",
+  "test_source_commit": "900d45952 plus unchanged test code at8ff0c49f6",
+  "source": "Fresh GitHub clone /workspace/repro-musique-integration, public installer with independent pinned /workspace/repro-tools compiler/mGBA. Both object trees removed from checkout and preserved outside before the cold ten-cue builds; final one-line Silph script update then rebuilt normally from GitHub. No game objects, ROM or encoded samples copied from local project.",
+  "external_private_inputs": "Supplied private WAVs whose hashes are pinned in data/yokai/audio_loops.json; DPCM encoded again into a separate directory",
+  "public_rom_sha256": "4f7324f8d1d6580e63a42be0a72d4d00d8ecc09fe2fd71e9c2b8be4acba08f30",
+  "private_rom_sha256": "6ea995cb85d834ce06760ccf1a31e522ee0a9cf4c61336ecd93af6f0d61c8b93",
+  "public_rom_bytes": 16777216,
+  "private_rom_bytes": 21667712,
+  "both_roms_byte_identical": true,
+  "all15_prepared_encodings_byte_identical": true,
+  "native_tests_in_independent_checkout": {
+    "active_cues": 10,
+    "clean_rendered_loop_seams": 50,
+    "total_rendered_loop_seams": 51,
+    "actual_Giovanni_liberation_and_music_restoration": true
+  },
+  "limitations": [
+    "Same cloud machine, not a separate VM",
+    "No complete adventure playthrough or physical GBA profiling",
+    "No perceptual human listening claim",
+    "Ten remaining selected OSTs not integrated"
+  ],
+  "protected_audio_and_ROM_published": false
+}
