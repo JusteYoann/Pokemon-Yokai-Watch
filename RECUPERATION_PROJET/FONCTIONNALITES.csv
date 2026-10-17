@@ -1,0 +1,18 @@
+fonctionnalite;fichiers_ou_design_recuperes;active_dans_les_sources_du_jeu;limites
+Correspondances 151 espèces et noms canoniques;CSV 151/151, correspondances constantes/IDs vérifiées;NON;"Réimportation future des données après validation ; pas réassigner les constantes"
+Sprites face/dos, icônes, empreintes et palettes;906 ressources + 3 palettes icônes, SHA256 et formats vérifiés;NON;"Instantané historique avant les derniers shiny ; conserve les originaux récupérés"
+14 redesigns approuvés;"28 PNG indexés 64x64 et 28 palettes retrouvés ; liste blanche enregistrée";NON;"Ne pas appliquer les 37 autres essais ; palettes shiny anciennes non finales"
+Statistiques/types/talents;151 lignes de données, BST vérifiés;NON;"Code des talents spécifiques éventuellement nécessaire ; source moteur absente"
+Évolutions;56 relations CSV et décisions explicites récupérées;NON;Noko : amitié >=220 + Œuf Chance tenu à la montée de niveau, sans consommation
+Attaques de niveau;282 lignes CSV pour 21 espèces + 154 captures de référence;NON;"Ne pas assimiler les 282 lignes à 151 learnsets ; transcription et arbitrages à reprendre si aucun code retrouvé"
+CT/CS;151 entrées source TMHM_LEARNSET dans le fichier fourni;NON;Compatibilités récupérées, fichier actif du moteur original inchangé
+Obtention et rencontres sauvages;CSV 151 + répartition validée et décisions de la conversation;NON;Placements provisoires détaillés et correctifs de scripts non retrouvés
+Équipes champions/Conseil 4/boss/rival;Cahier de synthèse validé retrouvé;NON;Données C intégrées et ajustements exacts du rival non retrouvés
+Nathan/Katie/Matt;Références images et cahier des charges retrouvés;NON;Sprites GBA complets, animations et code de nommage Matt non retrouvés
+Caméos / statiques / overworld;Documents et références visuelles retrouvés;NON;Scripts, flags, équipes intégrées et sprites overworld créés non retrouvés
+Textes français / noms attaques-talents;Directives et orthographe canonique retrouvées;NON;"Traduction intégrale effectivement rédigée non retrouvée ; cahier != texte exact"
+Shiny finaux / 67 espèces sans statut shiny;50 références graphiques + règles explicites retrouvées;NON;"Ni derniers assets ni verrou moteur retrouvés ; les 151 palettes du snapshot ne prouvent pas la règle finale"
+Multi Exp. permanent / progression XP;Demande historique accessible dans la conversation;NON;Code personnalisé non retrouvé
+Corrections QA / preuves de recette finale;Rapports musicaux citant la sauvegarde de recette;NON;Dossier QA historique complet, scripts mGBA et correctifs absents
+DPCM Bicycle expérimental;"Rapports et échantillons publics accessibles ; pas recopiés ici";NON;Onde BIN, outils de banc privés et ROM de test non retrouvés
+20 nouvelles OST / 10 quêtes / Red / Juste Yoann;Mandats et référence avatar reçus;NON;"Nouvelles fonctionnalités non développées dans cette récupération ; attente de validation"

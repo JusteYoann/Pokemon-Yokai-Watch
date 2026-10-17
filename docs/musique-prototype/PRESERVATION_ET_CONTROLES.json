@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "baseline_commit": "cac7671f54cd603b288747f678c52da50321c1b9",
+  "working_branch": "audio/prototype-bicycle-gba",
+  "tracked_files_preserved": 15144,
+  "changed_baseline_files": [],
+  "rom_sha256": "84d3bffbb7e74322aa69d5df211f774576d00b1e3e16eec3794c5b74fc66e186",
+  "two_personal_boss_themes_found_and_fixed": true,
+  "other_reference_choices_unchanged": 20,
+  "m4a_render_passed": true,
+  "two_cycles_and_five_tracks_verified": true,
+  "stress_events": 25,
+  "no_saturated_samples": true,
+  "private_package_integrity_passed": true,
+  "new_audio_or_scores_in_reports_directory": false,
+  "full_game_build": "make -j4: Nothing to be done",
+  "musical_fidelity_certified": false,
+  "cycling_gameplay_integration_tested": false,
+  "original_recordings_published": false
+}

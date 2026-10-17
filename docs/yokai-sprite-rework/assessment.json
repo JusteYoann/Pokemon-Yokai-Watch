@@ -1,0 +1,4532 @@
+[
+  {
+    "index": 1,
+    "name": "Jibanyan",
+    "classification": "A",
+    "observation": "Tête, ventre et deux flammes immédiatement lisibles ; dos sans visage, volume rond cohérent.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/001_jibanyan/front.png",
+      "back": "graphics/yokai/001_jibanyan/back.png",
+      "normal": "graphics/yokai/001_jibanyan/normal.pal",
+      "shiny": "graphics/yokai/001_jibanyan/shiny.pal",
+      "icon": "graphics/yokai/001_jibanyan/icon.png",
+      "footprint": "graphics/yokai/001_jibanyan/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/001_jibanyan/front.4bpp.lz",
+      "back": "graphics/yokai/001_jibanyan/back.4bpp.lz",
+      "normal": "graphics/yokai/001_jibanyan/normal.gbapal.lz",
+      "shiny": "graphics/yokai/001_jibanyan/shiny.gbapal.lz",
+      "icon": "graphics/yokai/001_jibanyan/icon.4bpp",
+      "footprint": "graphics/yokai/001_jibanyan/footprint.1bpp"
+    }
+  },
+  {
+    "index": 2,
+    "name": "Bandinyan",
+    "classification": "A",
+    "observation": "Profil de voyou et tenue bien séparés ; emblème dorsal cohérent, queue compacte.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/002_bandinyan/front.png",
+      "back": "graphics/yokai/002_bandinyan/back.png",
+      "normal": "graphics/yokai/002_bandinyan/normal.pal",
+      "shiny": "graphics/yokai/002_bandinyan/shiny.pal",
+      "icon": "graphics/yokai/002_bandinyan/icon.png",
+      "footprint": "graphics/yokai/002_bandinyan/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/002_bandinyan/front.4bpp.lz",
+      "back": "graphics/yokai/002_bandinyan/back.4bpp.lz",
+      "normal": "graphics/yokai/002_bandinyan/normal.gbapal.lz",
+      "shiny": "graphics/yokai/002_bandinyan/shiny.gbapal.lz",
+      "icon": "graphics/yokai/002_bandinyan/icon.4bpp",
+      "footprint": "graphics/yokai/002_bandinyan/footprint.1bpp"
+    }
+  },
+  {
+    "index": 3,
+    "name": "Épinyan",
+    "classification": "A",
+    "observation": "Piquants organisés autour de la tête sans masquer les yeux ; continuité des piquants au dos.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/003_epinyan/front.png",
+      "back": "graphics/yokai/003_epinyan/back.png",
+      "normal": "graphics/yokai/003_epinyan/normal.pal",
+      "shiny": "graphics/yokai/003_epinyan/shiny.pal",
+      "icon": "graphics/yokai/003_epinyan/icon.png",
+      "footprint": "graphics/yokai/003_epinyan/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/003_epinyan/front.4bpp.lz",
+      "back": "graphics/yokai/003_epinyan/back.4bpp.lz",
+      "normal": "graphics/yokai/003_epinyan/normal.gbapal.lz",
+      "shiny": "graphics/yokai/003_epinyan/shiny.gbapal.lz",
+      "icon": "graphics/yokai/003_epinyan/icon.4bpp",
+      "footprint": "graphics/yokai/003_epinyan/footprint.1bpp"
+    }
+  },
+  {
+    "index": 4,
+    "name": "Shogunyan",
+    "classification": "A",
+    "observation": "Casque et armure distincts malgré la petite taille ; arrière du casque et bandeau lisibles.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/004_shogunyan/front.png",
+      "back": "graphics/yokai/004_shogunyan/back.png",
+      "normal": "graphics/yokai/004_shogunyan/normal.pal",
+      "shiny": "graphics/yokai/004_shogunyan/shiny.pal",
+      "icon": "graphics/yokai/004_shogunyan/icon.png",
+      "footprint": "graphics/yokai/004_shogunyan/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/004_shogunyan/front.4bpp.lz",
+      "back": "graphics/yokai/004_shogunyan/back.4bpp.lz",
+      "normal": "graphics/yokai/004_shogunyan/normal.gbapal.lz",
+      "shiny": "graphics/yokai/004_shogunyan/shiny.gbapal.lz",
+      "icon": "graphics/yokai/004_shogunyan/icon.4bpp",
+      "footprint": "graphics/yokai/004_shogunyan/footprint.1bpp"
+    }
+  },
+  {
+    "index": 5,
+    "name": "Komasan",
+    "classification": "A",
+    "observation": "Cornes bleues, visage clair et spirale verte bien hiérarchisés ; sac dorsal identifiable.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/005_komasan/front.png",
+      "back": "graphics/yokai/005_komasan/back.png",
+      "normal": "graphics/yokai/005_komasan/normal.pal",
+      "shiny": "graphics/yokai/005_komasan/shiny.pal",
+      "icon": "graphics/yokai/005_komasan/icon.png",
+      "footprint": "graphics/yokai/005_komasan/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/005_komasan/front.4bpp.lz",
+      "back": "graphics/yokai/005_komasan/back.4bpp.lz",
+      "normal": "graphics/yokai/005_komasan/normal.gbapal.lz",
+      "shiny": "graphics/yokai/005_komasan/shiny.gbapal.lz",
+      "icon": "graphics/yokai/005_komasan/icon.4bpp",
+      "footprint": "graphics/yokai/005_komasan/footprint.1bpp"
+    }
+  },
+  {
+    "index": 6,
+    "name": "Komaous",
+    "classification": "A",
+    "observation": "Cornes et queues latérales encadrent un corps encore lisible ; dos raccord avec le sac.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/006_komaous/front.png",
+      "back": "graphics/yokai/006_komaous/back.png",
+      "normal": "graphics/yokai/006_komaous/normal.pal",
+      "shiny": "graphics/yokai/006_komaous/shiny.pal",
+      "icon": "graphics/yokai/006_komaous/icon.png",
+      "footprint": "graphics/yokai/006_komaous/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/006_komaous/front.4bpp.lz",
+      "back": "graphics/yokai/006_komaous/back.4bpp.lz",
+      "normal": "graphics/yokai/006_komaous/normal.gbapal.lz",
+      "shiny": "graphics/yokai/006_komaous/shiny.gbapal.lz",
+      "icon": "graphics/yokai/006_komaous/icon.4bpp",
+      "footprint": "graphics/yokai/006_komaous/footprint.1bpp"
+    }
+  },
+  {
+    "index": 7,
+    "name": "Komastar",
+    "classification": "A",
+    "observation": "Corps central suffisamment présent sous les cornes ; foulard et dos se distinguent.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/007_komastar/front.png",
+      "back": "graphics/yokai/007_komastar/back.png",
+      "normal": "graphics/yokai/007_komastar/normal.pal",
+      "shiny": "graphics/yokai/007_komastar/shiny.pal",
+      "icon": "graphics/yokai/007_komastar/icon.png",
+      "footprint": "graphics/yokai/007_komastar/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/007_komastar/front.4bpp.lz",
+      "back": "graphics/yokai/007_komastar/back.4bpp.lz",
+      "normal": "graphics/yokai/007_komastar/normal.gbapal.lz",
+      "shiny": "graphics/yokai/007_komastar/shiny.gbapal.lz",
+      "icon": "graphics/yokai/007_komastar/icon.4bpp",
+      "footprint": "graphics/yokai/007_komastar/footprint.1bpp"
+    }
+  },
+  {
+    "index": 8,
+    "name": "Whisper",
+    "classification": "A",
+    "observation": "Grande masse blanche expressive, contours détachés ; dos uni conforme à cette silhouette.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/008_whisper/front.png",
+      "back": "graphics/yokai/008_whisper/back.png",
+      "normal": "graphics/yokai/008_whisper/normal.pal",
+      "shiny": "graphics/yokai/008_whisper/shiny.pal",
+      "icon": "graphics/yokai/008_whisper/icon.png",
+      "footprint": "graphics/yokai/008_whisper/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/008_whisper/front.4bpp.lz",
+      "back": "graphics/yokai/008_whisper/back.4bpp.lz",
+      "normal": "graphics/yokai/008_whisper/normal.gbapal.lz",
+      "shiny": "graphics/yokai/008_whisper/shiny.gbapal.lz",
+      "icon": "graphics/yokai/008_whisper/icon.4bpp",
+      "footprint": "graphics/yokai/008_whisper/footprint.1bpp"
+    }
+  },
+  {
+    "index": 9,
+    "name": "Cigalopin",
+    "classification": "A",
+    "observation": "Abdomen et tête d'insecte imposants ; ailes secondaires et dos ne concurrencent pas le corps.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/009_cigalopin/front.png",
+      "back": "graphics/yokai/009_cigalopin/back.png",
+      "normal": "graphics/yokai/009_cigalopin/normal.pal",
+      "shiny": "graphics/yokai/009_cigalopin/shiny.pal",
+      "icon": "graphics/yokai/009_cigalopin/icon.png",
+      "footprint": "graphics/yokai/009_cigalopin/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/009_cigalopin/front.4bpp.lz",
+      "back": "graphics/yokai/009_cigalopin/back.4bpp.lz",
+      "normal": "graphics/yokai/009_cigalopin/normal.gbapal.lz",
+      "shiny": "graphics/yokai/009_cigalopin/shiny.gbapal.lz",
+      "icon": "graphics/yokai/009_cigalopin/icon.4bpp",
+      "footprint": "graphics/yokai/009_cigalopin/footprint.1bpp"
+    }
+  },
+  {
+    "index": 10,
+    "name": "Cigallard",
+    "classification": "A",
+    "observation": "Carrure et vêtements bien présents ; cape arrière cohérente avec les épaules.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/010_cigallard/front.png",
+      "back": "graphics/yokai/010_cigallard/back.png",
+      "normal": "graphics/yokai/010_cigallard/normal.pal",
+      "shiny": "graphics/yokai/010_cigallard/shiny.pal",
+      "icon": "graphics/yokai/010_cigallard/icon.png",
+      "footprint": "graphics/yokai/010_cigallard/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/010_cigallard/front.4bpp.lz",
+      "back": "graphics/yokai/010_cigallard/back.4bpp.lz",
+      "normal": "graphics/yokai/010_cigallard/normal.gbapal.lz",
+      "shiny": "graphics/yokai/010_cigallard/shiny.gbapal.lz",
+      "icon": "graphics/yokai/010_cigallard/icon.4bpp",
+      "footprint": "graphics/yokai/010_cigallard/footprint.1bpp"
+    }
+  },
+  {
+    "index": 11,
+    "name": "Murhaine",
+    "classification": "A",
+    "observation": "Profil aquatique allongé assumé ; nageoires et queue lisibles dans les deux vues.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/011_murhaine/front.png",
+      "back": "graphics/yokai/011_murhaine/back.png",
+      "normal": "graphics/yokai/011_murhaine/normal.pal",
+      "shiny": "graphics/yokai/011_murhaine/shiny.pal",
+      "icon": "graphics/yokai/011_murhaine/icon.png",
+      "footprint": "graphics/yokai/011_murhaine/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/011_murhaine/front.4bpp.lz",
+      "back": "graphics/yokai/011_murhaine/back.4bpp.lz",
+      "normal": "graphics/yokai/011_murhaine/normal.gbapal.lz",
+      "shiny": "graphics/yokai/011_murhaine/shiny.gbapal.lz",
+      "icon": "graphics/yokai/011_murhaine/icon.4bpp",
+      "footprint": "graphics/yokai/011_murhaine/footprint.1bpp"
+    }
+  },
+  {
+    "index": 12,
+    "name": "Saumhonni",
+    "classification": "A",
+    "observation": "Crête rouge et museau bien séparés ; arrière des nageoires et volume du ventre cohérents.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/012_saumhonni/front.png",
+      "back": "graphics/yokai/012_saumhonni/back.png",
+      "normal": "graphics/yokai/012_saumhonni/normal.pal",
+      "shiny": "graphics/yokai/012_saumhonni/shiny.pal",
+      "icon": "graphics/yokai/012_saumhonni/icon.png",
+      "footprint": "graphics/yokai/012_saumhonni/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/012_saumhonni/front.4bpp.lz",
+      "back": "graphics/yokai/012_saumhonni/back.4bpp.lz",
+      "normal": "graphics/yokai/012_saumhonni/normal.gbapal.lz",
+      "shiny": "graphics/yokai/012_saumhonni/shiny.gbapal.lz",
+      "icon": "graphics/yokai/012_saumhonni/icon.4bpp",
+      "footprint": "graphics/yokai/012_saumhonni/footprint.1bpp"
+    }
+  },
+  {
+    "index": 13,
+    "name": "Dracounet",
+    "classification": "A",
+    "observation": "Petite forme volontairement ramassée ; globe et tête distincts, arrière sans visage.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/013_dracounet/front.png",
+      "back": "graphics/yokai/013_dracounet/back.png",
+      "normal": "graphics/yokai/013_dracounet/normal.pal",
+      "shiny": "graphics/yokai/013_dracounet/shiny.pal",
+      "icon": "graphics/yokai/013_dracounet/icon.png",
+      "footprint": "graphics/yokai/013_dracounet/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/013_dracounet/front.4bpp.lz",
+      "back": "graphics/yokai/013_dracounet/back.4bpp.lz",
+      "normal": "graphics/yokai/013_dracounet/normal.gbapal.lz",
+      "shiny": "graphics/yokai/013_dracounet/shiny.gbapal.lz",
+      "icon": "graphics/yokai/013_dracounet/icon.4bpp",
+      "footprint": "graphics/yokai/013_dracounet/footprint.1bpp"
+    }
+  },
+  {
+    "index": 14,
+    "name": "Sir Dragon",
+    "classification": "A",
+    "observation": "Dragon serpentin identifiable ; enroulement et crinière cohérents entre les vues.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/014_sir_dragon/front.png",
+      "back": "graphics/yokai/014_sir_dragon/back.png",
+      "normal": "graphics/yokai/014_sir_dragon/normal.pal",
+      "shiny": "graphics/yokai/014_sir_dragon/shiny.pal",
+      "icon": "graphics/yokai/014_sir_dragon/icon.png",
+      "footprint": "graphics/yokai/014_sir_dragon/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/014_sir_dragon/front.4bpp.lz",
+      "back": "graphics/yokai/014_sir_dragon/back.4bpp.lz",
+      "normal": "graphics/yokai/014_sir_dragon/normal.gbapal.lz",
+      "shiny": "graphics/yokai/014_sir_dragon/shiny.gbapal.lz",
+      "icon": "graphics/yokai/014_sir_dragon/icon.4bpp",
+      "footprint": "graphics/yokai/014_sir_dragon/footprint.1bpp"
+    }
+  },
+  {
+    "index": 15,
+    "name": "Octorgone",
+    "classification": "C",
+    "observation": "Dragons cyan dominants, torse et bras centraux comprimés ; dos à reconstruire au-delà de la tête.",
+    "proportions_list": false,
+    "specific_defect_list": true,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Corps central plus haut et dragons rapprochés ; arrière du vêtement redessiné.",
+    "remaining": "Le dos reste très symétrique ; préciser les épaules et le raccord des dragons.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/015_octorgone/front.png",
+      "back": "graphics/yokai/015_octorgone/back.png",
+      "normal": "graphics/yokai/015_octorgone/normal.pal",
+      "shiny": "graphics/yokai/015_octorgone/shiny.pal",
+      "icon": "graphics/yokai/015_octorgone/icon.png",
+      "footprint": "graphics/yokai/015_octorgone/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/015_octorgone/front.4bpp.lz",
+      "back": "graphics/yokai/015_octorgone/back.4bpp.lz",
+      "normal": "graphics/yokai/015_octorgone/normal.gbapal.lz",
+      "shiny": "graphics/yokai/015_octorgone/shiny.gbapal.lz",
+      "icon": "graphics/yokai/015_octorgone/icon.4bpp",
+      "footprint": "graphics/yokai/015_octorgone/footprint.1bpp"
+    }
+  },
+  {
+    "index": 16,
+    "name": "Kyubi",
+    "classification": "C",
+    "observation": "Éventail de queues plus visible que le renard ; neuf queues à conserver et rendre dénombrables.",
+    "proportions_list": false,
+    "specific_defect_list": true,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Tête et torse agrandis, éventail réorganisé.",
+    "remaining": "Neuf queues non dénombrables avec certitude ; essai non retenu en l'état, séparation à redessiner.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/016_kyubi/front.png",
+      "back": "graphics/yokai/016_kyubi/back.png",
+      "normal": "graphics/yokai/016_kyubi/normal.pal",
+      "shiny": "graphics/yokai/016_kyubi/shiny.pal",
+      "icon": "graphics/yokai/016_kyubi/icon.png",
+      "footprint": "graphics/yokai/016_kyubi/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/016_kyubi/front.4bpp.lz",
+      "back": "graphics/yokai/016_kyubi/back.4bpp.lz",
+      "normal": "graphics/yokai/016_kyubi/normal.gbapal.lz",
+      "shiny": "graphics/yokai/016_kyubi/shiny.gbapal.lz",
+      "icon": "graphics/yokai/016_kyubi/icon.4bpp",
+      "footprint": "graphics/yokai/016_kyubi/footprint.1bpp"
+    }
+  },
+  {
+    "index": 17,
+    "name": "Robonyan",
+    "classification": "B",
+    "observation": "Grande surface bleue du dos différente du métal sombre de face ; face à préserver.",
+    "proportions_list": false,
+    "specific_defect_list": true,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Dos gris métallique, oreilles et mains dans la gamme rouge existante ; face copiée sans changement.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/017_robonyan/front.png",
+      "back": "graphics/yokai/017_robonyan/back.png",
+      "normal": "graphics/yokai/017_robonyan/normal.pal",
+      "shiny": "graphics/yokai/017_robonyan/shiny.pal",
+      "icon": "graphics/yokai/017_robonyan/icon.png",
+      "footprint": "graphics/yokai/017_robonyan/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/017_robonyan/front.4bpp.lz",
+      "back": "graphics/yokai/017_robonyan/back.4bpp.lz",
+      "normal": "graphics/yokai/017_robonyan/normal.gbapal.lz",
+      "shiny": "graphics/yokai/017_robonyan/shiny.gbapal.lz",
+      "icon": "graphics/yokai/017_robonyan/icon.4bpp",
+      "footprint": "graphics/yokai/017_robonyan/footprint.1bpp"
+    }
+  },
+  {
+    "index": 18,
+    "name": "Robonyan F",
+    "classification": "A",
+    "observation": "Bleu métallique cohérent sur les deux vues de cette variante ; ne pas appliquer la correction de 017 ici.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/018_robonyan_f/front.png",
+      "back": "graphics/yokai/018_robonyan_f/back.png",
+      "normal": "graphics/yokai/018_robonyan_f/normal.pal",
+      "shiny": "graphics/yokai/018_robonyan_f/shiny.pal",
+      "icon": "graphics/yokai/018_robonyan_f/icon.png",
+      "footprint": "graphics/yokai/018_robonyan_f/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/018_robonyan_f/front.4bpp.lz",
+      "back": "graphics/yokai/018_robonyan_f/back.4bpp.lz",
+      "normal": "graphics/yokai/018_robonyan_f/normal.gbapal.lz",
+      "shiny": "graphics/yokai/018_robonyan_f/shiny.gbapal.lz",
+      "icon": "graphics/yokai/018_robonyan_f/icon.4bpp",
+      "footprint": "graphics/yokai/018_robonyan_f/footprint.1bpp"
+    }
+  },
+  {
+    "index": 19,
+    "name": "Robonyan 28",
+    "classification": "A",
+    "observation": "Masse robotique, épaules et mains lisibles ; détails dorsaux distincts du visage frontal.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/019_robonyan_28/front.png",
+      "back": "graphics/yokai/019_robonyan_28/back.png",
+      "normal": "graphics/yokai/019_robonyan_28/normal.pal",
+      "shiny": "graphics/yokai/019_robonyan_28/shiny.pal",
+      "icon": "graphics/yokai/019_robonyan_28/icon.png",
+      "footprint": "graphics/yokai/019_robonyan_28/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/019_robonyan_28/front.4bpp.lz",
+      "back": "graphics/yokai/019_robonyan_28/back.4bpp.lz",
+      "normal": "graphics/yokai/019_robonyan_28/normal.gbapal.lz",
+      "shiny": "graphics/yokai/019_robonyan_28/shiny.gbapal.lz",
+      "icon": "graphics/yokai/019_robonyan_28/icon.4bpp",
+      "footprint": "graphics/yokai/019_robonyan_28/footprint.1bpp"
+    }
+  },
+  {
+    "index": 20,
+    "name": "Faux Kappa",
+    "classification": "A",
+    "observation": "Chapeau végétal large mais corps et bec lisibles ; carapace et cheveux arrière cohérents.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/020_faux_kappa/front.png",
+      "back": "graphics/yokai/020_faux_kappa/back.png",
+      "normal": "graphics/yokai/020_faux_kappa/normal.pal",
+      "shiny": "graphics/yokai/020_faux_kappa/shiny.pal",
+      "icon": "graphics/yokai/020_faux_kappa/icon.png",
+      "footprint": "graphics/yokai/020_faux_kappa/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/020_faux_kappa/front.4bpp.lz",
+      "back": "graphics/yokai/020_faux_kappa/back.4bpp.lz",
+      "normal": "graphics/yokai/020_faux_kappa/normal.gbapal.lz",
+      "shiny": "graphics/yokai/020_faux_kappa/shiny.gbapal.lz",
+      "icon": "graphics/yokai/020_faux_kappa/icon.4bpp",
+      "footprint": "graphics/yokai/020_faux_kappa/footprint.1bpp"
+    }
+  },
+  {
+    "index": 21,
+    "name": "Tukappa",
+    "classification": "A",
+    "observation": "Tenue violette plus présente que celle de 020 ; vue arrière distincte, proportions cohérentes.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/021_tukappa/front.png",
+      "back": "graphics/yokai/021_tukappa/back.png",
+      "normal": "graphics/yokai/021_tukappa/normal.pal",
+      "shiny": "graphics/yokai/021_tukappa/shiny.pal",
+      "icon": "graphics/yokai/021_tukappa/icon.png",
+      "footprint": "graphics/yokai/021_tukappa/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/021_tukappa/front.4bpp.lz",
+      "back": "graphics/yokai/021_tukappa/back.4bpp.lz",
+      "normal": "graphics/yokai/021_tukappa/normal.gbapal.lz",
+      "shiny": "graphics/yokai/021_tukappa/shiny.gbapal.lz",
+      "icon": "graphics/yokai/021_tukappa/icon.4bpp",
+      "footprint": "graphics/yokai/021_tukappa/footprint.1bpp"
+    }
+  },
+  {
+    "index": 22,
+    "name": "Granpapéti",
+    "classification": "B",
+    "observation": "Petites marques claires au sommet arrière rappellent des sourcils ; reconstruire la capuche, garder la face.",
+    "proportions_list": false,
+    "specific_defect_list": true,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Marques de sourcils retirées du dos, capuche rose reconstruite ; face intacte.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/022_granpapeti/front.png",
+      "back": "graphics/yokai/022_granpapeti/back.png",
+      "normal": "graphics/yokai/022_granpapeti/normal.pal",
+      "shiny": "graphics/yokai/022_granpapeti/shiny.pal",
+      "icon": "graphics/yokai/022_granpapeti/icon.png",
+      "footprint": "graphics/yokai/022_granpapeti/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/022_granpapeti/front.4bpp.lz",
+      "back": "graphics/yokai/022_granpapeti/back.4bpp.lz",
+      "normal": "graphics/yokai/022_granpapeti/normal.gbapal.lz",
+      "shiny": "graphics/yokai/022_granpapeti/shiny.gbapal.lz",
+      "icon": "graphics/yokai/022_granpapeti/icon.4bpp",
+      "footprint": "graphics/yokai/022_granpapeti/footprint.1bpp"
+    }
+  },
+  {
+    "index": 23,
+    "name": "Puissanfon",
+    "classification": "B",
+    "observation": "Petits points sombres isolés en haut et sur le côté du canevas ; possibles résidus, à distinguer des effets voulus.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": true,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "Diagnostic à confirmer et proposition graphique à préparer.",
+    "review_status": "not_drawn",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/023_puissanfon/front.png",
+      "back": "graphics/yokai/023_puissanfon/back.png",
+      "normal": "graphics/yokai/023_puissanfon/normal.pal",
+      "shiny": "graphics/yokai/023_puissanfon/shiny.pal",
+      "icon": "graphics/yokai/023_puissanfon/icon.png",
+      "footprint": "graphics/yokai/023_puissanfon/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/023_puissanfon/front.4bpp.lz",
+      "back": "graphics/yokai/023_puissanfon/back.4bpp.lz",
+      "normal": "graphics/yokai/023_puissanfon/normal.gbapal.lz",
+      "shiny": "graphics/yokai/023_puissanfon/shiny.gbapal.lz",
+      "icon": "graphics/yokai/023_puissanfon/icon.4bpp",
+      "footprint": "graphics/yokai/023_puissanfon/footprint.1bpp"
+    }
+  },
+  {
+    "index": 24,
+    "name": "Nanpart",
+    "classification": "A",
+    "observation": "Mur et visage fortement lisibles ; dos sans visage, petites mains conservées.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/024_nanpart/front.png",
+      "back": "graphics/yokai/024_nanpart/back.png",
+      "normal": "graphics/yokai/024_nanpart/normal.pal",
+      "shiny": "graphics/yokai/024_nanpart/shiny.pal",
+      "icon": "graphics/yokai/024_nanpart/icon.png",
+      "footprint": "graphics/yokai/024_nanpart/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/024_nanpart/front.4bpp.lz",
+      "back": "graphics/yokai/024_nanpart/back.4bpp.lz",
+      "normal": "graphics/yokai/024_nanpart/normal.gbapal.lz",
+      "shiny": "graphics/yokai/024_nanpart/shiny.gbapal.lz",
+      "icon": "graphics/yokai/024_nanpart/icon.4bpp",
+      "footprint": "graphics/yokai/024_nanpart/footprint.1bpp"
+    }
+  },
+  {
+    "index": 25,
+    "name": "Passpa",
+    "classification": "C",
+    "observation": "Dos sans visage mais pose très frontale ; demander une rotation construite du costume et des pieds.",
+    "proportions_list": false,
+    "specific_defect_list": true,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Arrière du costume simplifié et pieds redessinés ; face intacte.",
+    "remaining": "Rotation vers l'adversaire encore insuffisante ; reprendre la pose, pas un miroir.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/025_passpa/front.png",
+      "back": "graphics/yokai/025_passpa/back.png",
+      "normal": "graphics/yokai/025_passpa/normal.pal",
+      "shiny": "graphics/yokai/025_passpa/shiny.pal",
+      "icon": "graphics/yokai/025_passpa/icon.png",
+      "footprint": "graphics/yokai/025_passpa/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/025_passpa/front.4bpp.lz",
+      "back": "graphics/yokai/025_passpa/back.4bpp.lz",
+      "normal": "graphics/yokai/025_passpa/normal.gbapal.lz",
+      "shiny": "graphics/yokai/025_passpa/shiny.gbapal.lz",
+      "icon": "graphics/yokai/025_passpa/icon.4bpp",
+      "footprint": "graphics/yokai/025_passpa/footprint.1bpp"
+    }
+  },
+  {
+    "index": 26,
+    "name": "Angelik",
+    "classification": "A",
+    "observation": "Capuche et manches offrent une silhouette simple ; arrière de capuche et taille cohérents.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/026_angelik/front.png",
+      "back": "graphics/yokai/026_angelik/back.png",
+      "normal": "graphics/yokai/026_angelik/normal.pal",
+      "shiny": "graphics/yokai/026_angelik/shiny.pal",
+      "icon": "graphics/yokai/026_angelik/icon.png",
+      "footprint": "graphics/yokai/026_angelik/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/026_angelik/front.4bpp.lz",
+      "back": "graphics/yokai/026_angelik/back.4bpp.lz",
+      "normal": "graphics/yokai/026_angelik/normal.gbapal.lz",
+      "shiny": "graphics/yokai/026_angelik/shiny.gbapal.lz",
+      "icon": "graphics/yokai/026_angelik/icon.4bpp",
+      "footprint": "graphics/yokai/026_angelik/footprint.1bpp"
+    }
+  },
+  {
+    "index": 27,
+    "name": "Blizzaria",
+    "classification": "C",
+    "observation": "Face convaincante ; arrière des cheveux et épaules à orienter vers l'adversaire sans simple miroir.",
+    "proportions_list": false,
+    "specific_defect_list": true,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Arrière des cheveux et manches redessiné en léger trois-quarts ; face intacte.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/027_blizzaria/front.png",
+      "back": "graphics/yokai/027_blizzaria/back.png",
+      "normal": "graphics/yokai/027_blizzaria/normal.pal",
+      "shiny": "graphics/yokai/027_blizzaria/shiny.pal",
+      "icon": "graphics/yokai/027_blizzaria/icon.png",
+      "footprint": "graphics/yokai/027_blizzaria/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/027_blizzaria/front.4bpp.lz",
+      "back": "graphics/yokai/027_blizzaria/back.4bpp.lz",
+      "normal": "graphics/yokai/027_blizzaria/normal.gbapal.lz",
+      "shiny": "graphics/yokai/027_blizzaria/shiny.gbapal.lz",
+      "icon": "graphics/yokai/027_blizzaria/icon.4bpp",
+      "footprint": "graphics/yokai/027_blizzaria/footprint.1bpp"
+    }
+  },
+  {
+    "index": 28,
+    "name": "Feulion",
+    "classification": "C",
+    "observation": "Face agressive réussie ; torse et jambes arrière à accorder à l'orientation de la crinière.",
+    "proportions_list": false,
+    "specific_defect_list": true,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Crinière, épaules et jambes arrière recomposées ensemble ; face intacte.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/028_feulion/front.png",
+      "back": "graphics/yokai/028_feulion/back.png",
+      "normal": "graphics/yokai/028_feulion/normal.pal",
+      "shiny": "graphics/yokai/028_feulion/shiny.pal",
+      "icon": "graphics/yokai/028_feulion/icon.png",
+      "footprint": "graphics/yokai/028_feulion/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/028_feulion/front.4bpp.lz",
+      "back": "graphics/yokai/028_feulion/back.4bpp.lz",
+      "normal": "graphics/yokai/028_feulion/normal.gbapal.lz",
+      "shiny": "graphics/yokai/028_feulion/shiny.gbapal.lz",
+      "icon": "graphics/yokai/028_feulion/icon.4bpp",
+      "footprint": "graphics/yokai/028_feulion/footprint.1bpp"
+    }
+  },
+  {
+    "index": 29,
+    "name": "Padrezo",
+    "classification": "A",
+    "observation": "Antennes et éclairs encadrent un corps lisible ; abdomen rayé et arrière de tête cohérents.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/029_padrezo/front.png",
+      "back": "graphics/yokai/029_padrezo/back.png",
+      "normal": "graphics/yokai/029_padrezo/normal.pal",
+      "shiny": "graphics/yokai/029_padrezo/shiny.pal",
+      "icon": "graphics/yokai/029_padrezo/icon.png",
+      "footprint": "graphics/yokai/029_padrezo/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/029_padrezo/front.4bpp.lz",
+      "back": "graphics/yokai/029_padrezo/back.4bpp.lz",
+      "normal": "graphics/yokai/029_padrezo/normal.gbapal.lz",
+      "shiny": "graphics/yokai/029_padrezo/shiny.gbapal.lz",
+      "icon": "graphics/yokai/029_padrezo/icon.4bpp",
+      "footprint": "graphics/yokai/029_padrezo/footprint.1bpp"
+    }
+  },
+  {
+    "index": 30,
+    "name": "Émettor",
+    "classification": "A",
+    "observation": "Bras et buste bien plus imposants que 029 ; masse arrière et rayures raccordées.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/030_emettor/front.png",
+      "back": "graphics/yokai/030_emettor/back.png",
+      "normal": "graphics/yokai/030_emettor/normal.pal",
+      "shiny": "graphics/yokai/030_emettor/shiny.pal",
+      "icon": "graphics/yokai/030_emettor/icon.png",
+      "footprint": "graphics/yokai/030_emettor/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/030_emettor/front.4bpp.lz",
+      "back": "graphics/yokai/030_emettor/back.4bpp.lz",
+      "normal": "graphics/yokai/030_emettor/normal.gbapal.lz",
+      "shiny": "graphics/yokai/030_emettor/shiny.gbapal.lz",
+      "icon": "graphics/yokai/030_emettor/icon.4bpp",
+      "footprint": "graphics/yokai/030_emettor/footprint.1bpp"
+    }
+  },
+  {
+    "index": 31,
+    "name": "Crocho",
+    "classification": "B",
+    "observation": "Gants très présents ; tête et buste peuvent gagner légèrement en carrure, sans refonte du boxeur.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Essai de boxeur plus compact avec torse redessiné.",
+    "remaining": "Bouche et expression trop changées pour une correction légère ; essai non retenu, garder l'expression d'origine.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/031_crocho/front.png",
+      "back": "graphics/yokai/031_crocho/back.png",
+      "normal": "graphics/yokai/031_crocho/normal.pal",
+      "shiny": "graphics/yokai/031_crocho/shiny.pal",
+      "icon": "graphics/yokai/031_crocho/icon.png",
+      "footprint": "graphics/yokai/031_crocho/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/031_crocho/front.4bpp.lz",
+      "back": "graphics/yokai/031_crocho/back.4bpp.lz",
+      "normal": "graphics/yokai/031_crocho/normal.gbapal.lz",
+      "shiny": "graphics/yokai/031_crocho/shiny.gbapal.lz",
+      "icon": "graphics/yokai/031_crocho/icon.4bpp",
+      "footprint": "graphics/yokai/031_crocho/footprint.1bpp"
+    }
+  },
+  {
+    "index": 32,
+    "name": "Potofeu",
+    "classification": "A",
+    "observation": "Large chapeau constitutif de l'identité ; bouche lisible, arrière du couvre-chef bien différencié.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/032_potofeu/front.png",
+      "back": "graphics/yokai/032_potofeu/back.png",
+      "normal": "graphics/yokai/032_potofeu/normal.pal",
+      "shiny": "graphics/yokai/032_potofeu/shiny.pal",
+      "icon": "graphics/yokai/032_potofeu/icon.png",
+      "footprint": "graphics/yokai/032_potofeu/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/032_potofeu/front.4bpp.lz",
+      "back": "graphics/yokai/032_potofeu/back.4bpp.lz",
+      "normal": "graphics/yokai/032_potofeu/normal.gbapal.lz",
+      "shiny": "graphics/yokai/032_potofeu/shiny.gbapal.lz",
+      "icon": "graphics/yokai/032_potofeu/icon.4bpp",
+      "footprint": "graphics/yokai/032_potofeu/footprint.1bpp"
+    }
+  },
+  {
+    "index": 33,
+    "name": "Misterre",
+    "classification": "A",
+    "observation": "Forme de monticule volontaire ; la faible hauteur est un trait de silhouette, pas un défaut à corriger automatiquement.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/033_misterre/front.png",
+      "back": "graphics/yokai/033_misterre/back.png",
+      "normal": "graphics/yokai/033_misterre/normal.pal",
+      "shiny": "graphics/yokai/033_misterre/shiny.pal",
+      "icon": "graphics/yokai/033_misterre/icon.png",
+      "footprint": "graphics/yokai/033_misterre/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/033_misterre/front.4bpp.lz",
+      "back": "graphics/yokai/033_misterre/back.4bpp.lz",
+      "normal": "graphics/yokai/033_misterre/normal.gbapal.lz",
+      "shiny": "graphics/yokai/033_misterre/shiny.gbapal.lz",
+      "icon": "graphics/yokai/033_misterre/icon.4bpp",
+      "footprint": "graphics/yokai/033_misterre/footprint.1bpp"
+    }
+  },
+  {
+    "index": 34,
+    "name": "Métaurolog",
+    "classification": "A",
+    "observation": "Tête et petit corps distincts, cornes contenues ; vue de dos sans yeux ni museau.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/034_metaurolog/front.png",
+      "back": "graphics/yokai/034_metaurolog/back.png",
+      "normal": "graphics/yokai/034_metaurolog/normal.pal",
+      "shiny": "graphics/yokai/034_metaurolog/shiny.pal",
+      "icon": "graphics/yokai/034_metaurolog/icon.png",
+      "footprint": "graphics/yokai/034_metaurolog/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/034_metaurolog/front.4bpp.lz",
+      "back": "graphics/yokai/034_metaurolog/back.4bpp.lz",
+      "normal": "graphics/yokai/034_metaurolog/normal.gbapal.lz",
+      "shiny": "graphics/yokai/034_metaurolog/shiny.gbapal.lz",
+      "icon": "graphics/yokai/034_metaurolog/icon.4bpp",
+      "footprint": "graphics/yokai/034_metaurolog/footprint.1bpp"
+    }
+  },
+  {
+    "index": 35,
+    "name": "Tauracle",
+    "classification": "A",
+    "observation": "Anneau et cou participent au design ; torse et pattes restent lisibles, dos cohérent.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/035_tauracle/front.png",
+      "back": "graphics/yokai/035_tauracle/back.png",
+      "normal": "graphics/yokai/035_tauracle/normal.pal",
+      "shiny": "graphics/yokai/035_tauracle/shiny.pal",
+      "icon": "graphics/yokai/035_tauracle/icon.png",
+      "footprint": "graphics/yokai/035_tauracle/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/035_tauracle/front.4bpp.lz",
+      "back": "graphics/yokai/035_tauracle/back.4bpp.lz",
+      "normal": "graphics/yokai/035_tauracle/normal.gbapal.lz",
+      "shiny": "graphics/yokai/035_tauracle/shiny.gbapal.lz",
+      "icon": "graphics/yokai/035_tauracle/icon.4bpp",
+      "footprint": "graphics/yokai/035_tauracle/footprint.1bpp"
+    }
+  },
+  {
+    "index": 36,
+    "name": "Poulpatouch",
+    "classification": "B",
+    "observation": "Tête déjà expressive ; légère présence supplémentaire possible en préservant intégralement les deux armes.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Corps plus présent sous la chevelure, tête et arrière redessinés.",
+    "remaining": "Conservation de toutes les armes non établie ; vérifier les extrémités et ne pas intégrer cet essai.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/036_poulpatouch/front.png",
+      "back": "graphics/yokai/036_poulpatouch/back.png",
+      "normal": "graphics/yokai/036_poulpatouch/normal.pal",
+      "shiny": "graphics/yokai/036_poulpatouch/shiny.pal",
+      "icon": "graphics/yokai/036_poulpatouch/icon.png",
+      "footprint": "graphics/yokai/036_poulpatouch/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/036_poulpatouch/front.4bpp.lz",
+      "back": "graphics/yokai/036_poulpatouch/back.4bpp.lz",
+      "normal": "graphics/yokai/036_poulpatouch/normal.gbapal.lz",
+      "shiny": "graphics/yokai/036_poulpatouch/shiny.gbapal.lz",
+      "icon": "graphics/yokai/036_poulpatouch/icon.4bpp",
+      "footprint": "graphics/yokai/036_poulpatouch/footprint.1bpp"
+    }
+  },
+  {
+    "index": 37,
+    "name": "Poulpater",
+    "classification": "A",
+    "observation": "Couronne et tentacules équilibrés autour de la face ; arrière de couronne et bras cohérents.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/037_poulpater/front.png",
+      "back": "graphics/yokai/037_poulpater/back.png",
+      "normal": "graphics/yokai/037_poulpater/normal.pal",
+      "shiny": "graphics/yokai/037_poulpater/shiny.pal",
+      "icon": "graphics/yokai/037_poulpater/icon.png",
+      "footprint": "graphics/yokai/037_poulpater/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/037_poulpater/front.4bpp.lz",
+      "back": "graphics/yokai/037_poulpater/back.4bpp.lz",
+      "normal": "graphics/yokai/037_poulpater/normal.gbapal.lz",
+      "shiny": "graphics/yokai/037_poulpater/shiny.gbapal.lz",
+      "icon": "graphics/yokai/037_poulpater/icon.4bpp",
+      "footprint": "graphics/yokai/037_poulpater/footprint.1bpp"
+    }
+  },
+  {
+    "index": 38,
+    "name": "Bonneto",
+    "classification": "A",
+    "observation": "Chapeau oblique et cape forment une silhouette volontaire ; arrière sombre différencié du visage.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/038_bonneto/front.png",
+      "back": "graphics/yokai/038_bonneto/back.png",
+      "normal": "graphics/yokai/038_bonneto/normal.pal",
+      "shiny": "graphics/yokai/038_bonneto/shiny.pal",
+      "icon": "graphics/yokai/038_bonneto/icon.png",
+      "footprint": "graphics/yokai/038_bonneto/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/038_bonneto/front.4bpp.lz",
+      "back": "graphics/yokai/038_bonneto/back.4bpp.lz",
+      "normal": "graphics/yokai/038_bonneto/normal.gbapal.lz",
+      "shiny": "graphics/yokai/038_bonneto/shiny.gbapal.lz",
+      "icon": "graphics/yokai/038_bonneto/icon.4bpp",
+      "footprint": "graphics/yokai/038_bonneto/footprint.1bpp"
+    }
+  },
+  {
+    "index": 39,
+    "name": "Sabri",
+    "classification": "A",
+    "observation": "Guerrier identifiable malgré son chapeau ; cape arrière et arme restent séparées.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/039_sabri/front.png",
+      "back": "graphics/yokai/039_sabri/back.png",
+      "normal": "graphics/yokai/039_sabri/normal.pal",
+      "shiny": "graphics/yokai/039_sabri/shiny.pal",
+      "icon": "graphics/yokai/039_sabri/icon.png",
+      "footprint": "graphics/yokai/039_sabri/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/039_sabri/front.4bpp.lz",
+      "back": "graphics/yokai/039_sabri/back.4bpp.lz",
+      "normal": "graphics/yokai/039_sabri/normal.gbapal.lz",
+      "shiny": "graphics/yokai/039_sabri/shiny.gbapal.lz",
+      "icon": "graphics/yokai/039_sabri/icon.4bpp",
+      "footprint": "graphics/yokai/039_sabri/footprint.1bpp"
+    }
+  },
+  {
+    "index": 40,
+    "name": "Démophage",
+    "classification": "C",
+    "observation": "Tête jaune expressive mais masse centrale à renforcer ; mains et griffes doivent rester complètes.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Tête jaune et corps rouge aux contours plus compacts ; mains blanches gardées.",
+    "remaining": "Gain de carrure encore modéré ; renforcer le tronc sans réduire les griffes.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/040_demophage/front.png",
+      "back": "graphics/yokai/040_demophage/back.png",
+      "normal": "graphics/yokai/040_demophage/normal.pal",
+      "shiny": "graphics/yokai/040_demophage/shiny.pal",
+      "icon": "graphics/yokai/040_demophage/icon.png",
+      "footprint": "graphics/yokai/040_demophage/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/040_demophage/front.4bpp.lz",
+      "back": "graphics/yokai/040_demophage/back.4bpp.lz",
+      "normal": "graphics/yokai/040_demophage/normal.gbapal.lz",
+      "shiny": "graphics/yokai/040_demophage/shiny.gbapal.lz",
+      "icon": "graphics/yokai/040_demophage/icon.4bpp",
+      "footprint": "graphics/yokai/040_demophage/footprint.1bpp"
+    }
+  },
+  {
+    "index": 41,
+    "name": "Brumette",
+    "classification": "B",
+    "observation": "Grande spirale blanche supérieure indue au dos ; préserver les volutes pâles légitimes du bas et la face.",
+    "proportions_list": false,
+    "specific_defect_list": true,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Spirale blanche supérieure retirée du dos ; nuage bleu continu et vapeur pâle conservés ; face intacte.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/041_brumette/front.png",
+      "back": "graphics/yokai/041_brumette/back.png",
+      "normal": "graphics/yokai/041_brumette/normal.pal",
+      "shiny": "graphics/yokai/041_brumette/shiny.pal",
+      "icon": "graphics/yokai/041_brumette/icon.png",
+      "footprint": "graphics/yokai/041_brumette/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/041_brumette/front.4bpp.lz",
+      "back": "graphics/yokai/041_brumette/back.4bpp.lz",
+      "normal": "graphics/yokai/041_brumette/normal.gbapal.lz",
+      "shiny": "graphics/yokai/041_brumette/shiny.gbapal.lz",
+      "icon": "graphics/yokai/041_brumette/icon.4bpp",
+      "footprint": "graphics/yokai/041_brumette/footprint.1bpp"
+    }
+  },
+  {
+    "index": 42,
+    "name": "Brumella",
+    "classification": "A",
+    "observation": "Nuage et longue barbe/volute différenciés ; ne pas confondre les détails blancs avec le défaut de 041.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/042_brumella/front.png",
+      "back": "graphics/yokai/042_brumella/back.png",
+      "normal": "graphics/yokai/042_brumella/normal.pal",
+      "shiny": "graphics/yokai/042_brumella/shiny.pal",
+      "icon": "graphics/yokai/042_brumella/icon.png",
+      "footprint": "graphics/yokai/042_brumella/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/042_brumella/front.4bpp.lz",
+      "back": "graphics/yokai/042_brumella/back.4bpp.lz",
+      "normal": "graphics/yokai/042_brumella/normal.gbapal.lz",
+      "shiny": "graphics/yokai/042_brumella/shiny.gbapal.lz",
+      "icon": "graphics/yokai/042_brumella/icon.4bpp",
+      "footprint": "graphics/yokai/042_brumella/footprint.1bpp"
+    }
+  },
+  {
+    "index": 43,
+    "name": "Télémir",
+    "classification": "A",
+    "observation": "Miroir, reflet et pieds lisibles ; dos violet uni conforme à l'objet.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/043_telemir/front.png",
+      "back": "graphics/yokai/043_telemir/back.png",
+      "normal": "graphics/yokai/043_telemir/normal.pal",
+      "shiny": "graphics/yokai/043_telemir/shiny.pal",
+      "icon": "graphics/yokai/043_telemir/icon.png",
+      "footprint": "graphics/yokai/043_telemir/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/043_telemir/front.4bpp.lz",
+      "back": "graphics/yokai/043_telemir/back.4bpp.lz",
+      "normal": "graphics/yokai/043_telemir/normal.gbapal.lz",
+      "shiny": "graphics/yokai/043_telemir/shiny.gbapal.lz",
+      "icon": "graphics/yokai/043_telemir/icon.4bpp",
+      "footprint": "graphics/yokai/043_telemir/footprint.1bpp"
+    }
+  },
+  {
+    "index": 44,
+    "name": "Triptic-tac",
+    "classification": "A",
+    "observation": "Panneaux et surface réfléchissante immédiatement identifiables ; arrière des panneaux correctement opaque.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/044_triptic_tac/front.png",
+      "back": "graphics/yokai/044_triptic_tac/back.png",
+      "normal": "graphics/yokai/044_triptic_tac/normal.pal",
+      "shiny": "graphics/yokai/044_triptic_tac/shiny.pal",
+      "icon": "graphics/yokai/044_triptic_tac/icon.png",
+      "footprint": "graphics/yokai/044_triptic_tac/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/044_triptic_tac/front.4bpp.lz",
+      "back": "graphics/yokai/044_triptic_tac/back.4bpp.lz",
+      "normal": "graphics/yokai/044_triptic_tac/normal.gbapal.lz",
+      "shiny": "graphics/yokai/044_triptic_tac/shiny.gbapal.lz",
+      "icon": "graphics/yokai/044_triptic_tac/icon.4bpp",
+      "footprint": "graphics/yokai/044_triptic_tac/footprint.1bpp"
+    }
+  },
+  {
+    "index": 45,
+    "name": "Nihilistik",
+    "classification": "A",
+    "observation": "Tête d'insecte et ailes distinctes ; arrière du thorax et abdomen visibles.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/045_nihilistik/front.png",
+      "back": "graphics/yokai/045_nihilistik/back.png",
+      "normal": "graphics/yokai/045_nihilistik/normal.pal",
+      "shiny": "graphics/yokai/045_nihilistik/shiny.pal",
+      "icon": "graphics/yokai/045_nihilistik/icon.png",
+      "footprint": "graphics/yokai/045_nihilistik/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/045_nihilistik/front.4bpp.lz",
+      "back": "graphics/yokai/045_nihilistik/back.4bpp.lz",
+      "normal": "graphics/yokai/045_nihilistik/normal.gbapal.lz",
+      "shiny": "graphics/yokai/045_nihilistik/shiny.gbapal.lz",
+      "icon": "graphics/yokai/045_nihilistik/icon.4bpp",
+      "footprint": "graphics/yokai/045_nihilistik/footprint.1bpp"
+    }
+  },
+  {
+    "index": 46,
+    "name": "Émousstik",
+    "classification": "A",
+    "observation": "Grandes ailes nécessaires à la variante ; corps assez lisible et arrière différencié, pas de réduction automatique.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/046_emousstik/front.png",
+      "back": "graphics/yokai/046_emousstik/back.png",
+      "normal": "graphics/yokai/046_emousstik/normal.pal",
+      "shiny": "graphics/yokai/046_emousstik/shiny.pal",
+      "icon": "graphics/yokai/046_emousstik/icon.png",
+      "footprint": "graphics/yokai/046_emousstik/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/046_emousstik/front.4bpp.lz",
+      "back": "graphics/yokai/046_emousstik/back.4bpp.lz",
+      "normal": "graphics/yokai/046_emousstik/normal.gbapal.lz",
+      "shiny": "graphics/yokai/046_emousstik/shiny.gbapal.lz",
+      "icon": "graphics/yokai/046_emousstik/icon.4bpp",
+      "footprint": "graphics/yokai/046_emousstik/footprint.1bpp"
+    }
+  },
+  {
+    "index": 47,
+    "name": "Humainequin",
+    "classification": "D",
+    "observation": "Tête tournée mais cage thoracique et bassin conservent des lectures de face ; anatomie arrière à redessiner.",
+    "proportions_list": false,
+    "specific_defect_list": true,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Dos du mannequin redessiné avec omoplates et plans arrière ; face d'origine conservée.",
+    "remaining": "Bassin et mains encore schématiques ; retouche anatomique à 64 pixels souhaitable.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/047_humainequin/front.png",
+      "back": "graphics/yokai/047_humainequin/back.png",
+      "normal": "graphics/yokai/047_humainequin/normal.pal",
+      "shiny": "graphics/yokai/047_humainequin/shiny.pal",
+      "icon": "graphics/yokai/047_humainequin/icon.png",
+      "footprint": "graphics/yokai/047_humainequin/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/047_humainequin/front.4bpp.lz",
+      "back": "graphics/yokai/047_humainequin/back.4bpp.lz",
+      "normal": "graphics/yokai/047_humainequin/normal.gbapal.lz",
+      "shiny": "graphics/yokai/047_humainequin/shiny.gbapal.lz",
+      "icon": "graphics/yokai/047_humainequin/icon.4bpp",
+      "footprint": "graphics/yokai/047_humainequin/footprint.1bpp"
+    }
+  },
+  {
+    "index": 48,
+    "name": "Slurpent",
+    "classification": "C",
+    "observation": "Masse inférieure arrière évoque une jupe ; expliciter la continuité du corps et d'une queue de serpent.",
+    "proportions_list": false,
+    "specific_defect_list": true,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Queue serpentine unique enroulée sous la masse rouge arrière ; face intacte.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/048_slurpent/front.png",
+      "back": "graphics/yokai/048_slurpent/back.png",
+      "normal": "graphics/yokai/048_slurpent/normal.pal",
+      "shiny": "graphics/yokai/048_slurpent/shiny.pal",
+      "icon": "graphics/yokai/048_slurpent/icon.png",
+      "footprint": "graphics/yokai/048_slurpent/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/048_slurpent/front.4bpp.lz",
+      "back": "graphics/yokai/048_slurpent/back.4bpp.lz",
+      "normal": "graphics/yokai/048_slurpent/normal.gbapal.lz",
+      "shiny": "graphics/yokai/048_slurpent/shiny.gbapal.lz",
+      "icon": "graphics/yokai/048_slurpent/icon.4bpp",
+      "footprint": "graphics/yokai/048_slurpent/footprint.1bpp"
+    }
+  },
+  {
+    "index": 49,
+    "name": "Baku",
+    "classification": "C",
+    "observation": "Corps du tapir trop mince derrière le long museau ; arrondir le tronc sans en faire un bipède.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Tapir violet plus arrondi, museau rapproché et arrière plus volumineux.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/049_baku/front.png",
+      "back": "graphics/yokai/049_baku/back.png",
+      "normal": "graphics/yokai/049_baku/normal.pal",
+      "shiny": "graphics/yokai/049_baku/shiny.pal",
+      "icon": "graphics/yokai/049_baku/icon.png",
+      "footprint": "graphics/yokai/049_baku/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/049_baku/front.4bpp.lz",
+      "back": "graphics/yokai/049_baku/back.4bpp.lz",
+      "normal": "graphics/yokai/049_baku/normal.gbapal.lz",
+      "shiny": "graphics/yokai/049_baku/shiny.gbapal.lz",
+      "icon": "graphics/yokai/049_baku/icon.4bpp",
+      "footprint": "graphics/yokai/049_baku/footprint.1bpp"
+    }
+  },
+  {
+    "index": 50,
+    "name": "Bakuku",
+    "classification": "A",
+    "observation": "Évolution bien plus massive que 049 ; ventre, crête et mains se distinguent, arrière plein.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/050_bakuku/front.png",
+      "back": "graphics/yokai/050_bakuku/back.png",
+      "normal": "graphics/yokai/050_bakuku/normal.pal",
+      "shiny": "graphics/yokai/050_bakuku/shiny.pal",
+      "icon": "graphics/yokai/050_bakuku/icon.png",
+      "footprint": "graphics/yokai/050_bakuku/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/050_bakuku/front.4bpp.lz",
+      "back": "graphics/yokai/050_bakuku/back.4bpp.lz",
+      "normal": "graphics/yokai/050_bakuku/normal.gbapal.lz",
+      "shiny": "graphics/yokai/050_bakuku/shiny.gbapal.lz",
+      "icon": "graphics/yokai/050_bakuku/icon.4bpp",
+      "footprint": "graphics/yokai/050_bakuku/footprint.1bpp"
+    }
+  },
+  {
+    "index": 51,
+    "name": "Mognyan",
+    "classification": "A",
+    "observation": "Visage clair et petit corps suffisamment lisibles ; dos simple et petite queue conservés.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/051_mognyan/front.png",
+      "back": "graphics/yokai/051_mognyan/back.png",
+      "normal": "graphics/yokai/051_mognyan/normal.pal",
+      "shiny": "graphics/yokai/051_mognyan/shiny.pal",
+      "icon": "graphics/yokai/051_mognyan/icon.png",
+      "footprint": "graphics/yokai/051_mognyan/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/051_mognyan/front.4bpp.lz",
+      "back": "graphics/yokai/051_mognyan/back.4bpp.lz",
+      "normal": "graphics/yokai/051_mognyan/normal.gbapal.lz",
+      "shiny": "graphics/yokai/051_mognyan/shiny.gbapal.lz",
+      "icon": "graphics/yokai/051_mognyan/icon.4bpp",
+      "footprint": "graphics/yokai/051_mognyan/footprint.1bpp"
+    }
+  },
+  {
+    "index": 52,
+    "name": "Bouh",
+    "classification": "A",
+    "observation": "Amas volontairement aplati et asymétrique ; les deux vues restent compatibles, pas d'agrandissement arbitraire.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/052_bouh/front.png",
+      "back": "graphics/yokai/052_bouh/back.png",
+      "normal": "graphics/yokai/052_bouh/normal.pal",
+      "shiny": "graphics/yokai/052_bouh/shiny.pal",
+      "icon": "graphics/yokai/052_bouh/icon.png",
+      "footprint": "graphics/yokai/052_bouh/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/052_bouh/front.4bpp.lz",
+      "back": "graphics/yokai/052_bouh/back.4bpp.lz",
+      "normal": "graphics/yokai/052_bouh/normal.gbapal.lz",
+      "shiny": "graphics/yokai/052_bouh/shiny.gbapal.lz",
+      "icon": "graphics/yokai/052_bouh/icon.4bpp",
+      "footprint": "graphics/yokai/052_bouh/footprint.1bpp"
+    }
+  },
+  {
+    "index": 53,
+    "name": "Lacanne",
+    "classification": "A",
+    "observation": "Feuillage partie intégrante du personnage ; visage du légume lisible, arrière sans traits frontaux.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/053_lacanne/front.png",
+      "back": "graphics/yokai/053_lacanne/back.png",
+      "normal": "graphics/yokai/053_lacanne/normal.pal",
+      "shiny": "graphics/yokai/053_lacanne/shiny.pal",
+      "icon": "graphics/yokai/053_lacanne/icon.png",
+      "footprint": "graphics/yokai/053_lacanne/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/053_lacanne/front.4bpp.lz",
+      "back": "graphics/yokai/053_lacanne/back.4bpp.lz",
+      "normal": "graphics/yokai/053_lacanne/normal.gbapal.lz",
+      "shiny": "graphics/yokai/053_lacanne/shiny.gbapal.lz",
+      "icon": "graphics/yokai/053_lacanne/icon.4bpp",
+      "footprint": "graphics/yokai/053_lacanne/footprint.1bpp"
+    }
+  },
+  {
+    "index": 54,
+    "name": "Canastelle",
+    "classification": "A",
+    "observation": "Évolution végétale plus détaillée ; fleurs et petites lueurs paraissent constitutives, ne pas les supprimer comme parasites.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/054_canastelle/front.png",
+      "back": "graphics/yokai/054_canastelle/back.png",
+      "normal": "graphics/yokai/054_canastelle/normal.pal",
+      "shiny": "graphics/yokai/054_canastelle/shiny.pal",
+      "icon": "graphics/yokai/054_canastelle/icon.png",
+      "footprint": "graphics/yokai/054_canastelle/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/054_canastelle/front.4bpp.lz",
+      "back": "graphics/yokai/054_canastelle/back.4bpp.lz",
+      "normal": "graphics/yokai/054_canastelle/normal.gbapal.lz",
+      "shiny": "graphics/yokai/054_canastelle/shiny.gbapal.lz",
+      "icon": "graphics/yokai/054_canastelle/icon.4bpp",
+      "footprint": "graphics/yokai/054_canastelle/footprint.1bpp"
+    }
+  },
+  {
+    "index": 55,
+    "name": "Yvantouse",
+    "classification": "A",
+    "observation": "Corps carapacé identifiable et cou distinct ; carapace dorsale remplace correctement le ventre clair.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/055_yvantouse/front.png",
+      "back": "graphics/yokai/055_yvantouse/back.png",
+      "normal": "graphics/yokai/055_yvantouse/normal.pal",
+      "shiny": "graphics/yokai/055_yvantouse/shiny.pal",
+      "icon": "graphics/yokai/055_yvantouse/icon.png",
+      "footprint": "graphics/yokai/055_yvantouse/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/055_yvantouse/front.4bpp.lz",
+      "back": "graphics/yokai/055_yvantouse/back.4bpp.lz",
+      "normal": "graphics/yokai/055_yvantouse/normal.gbapal.lz",
+      "shiny": "graphics/yokai/055_yvantouse/shiny.gbapal.lz",
+      "icon": "graphics/yokai/055_yvantouse/icon.4bpp",
+      "footprint": "graphics/yokai/055_yvantouse/footprint.1bpp"
+    }
+  },
+  {
+    "index": 56,
+    "name": "Ed Mémoire",
+    "classification": "A",
+    "observation": "Personnage âgé et accessoires lisibles ; vue arrière des cheveux, tenue et nuage différenciée.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/056_ed_memoire/front.png",
+      "back": "graphics/yokai/056_ed_memoire/back.png",
+      "normal": "graphics/yokai/056_ed_memoire/normal.pal",
+      "shiny": "graphics/yokai/056_ed_memoire/shiny.pal",
+      "icon": "graphics/yokai/056_ed_memoire/icon.png",
+      "footprint": "graphics/yokai/056_ed_memoire/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/056_ed_memoire/front.4bpp.lz",
+      "back": "graphics/yokai/056_ed_memoire/back.4bpp.lz",
+      "normal": "graphics/yokai/056_ed_memoire/normal.gbapal.lz",
+      "shiny": "graphics/yokai/056_ed_memoire/shiny.gbapal.lz",
+      "icon": "graphics/yokai/056_ed_memoire/icon.4bpp",
+      "footprint": "graphics/yokai/056_ed_memoire/footprint.1bpp"
+    }
+  },
+  {
+    "index": 57,
+    "name": "Couchtar",
+    "classification": "A",
+    "observation": "Petit dormeur encadré par nuage et lune ; arrière du bonnet différencié sans visage.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/057_couchtar/front.png",
+      "back": "graphics/yokai/057_couchtar/back.png",
+      "normal": "graphics/yokai/057_couchtar/normal.pal",
+      "shiny": "graphics/yokai/057_couchtar/shiny.pal",
+      "icon": "graphics/yokai/057_couchtar/icon.png",
+      "footprint": "graphics/yokai/057_couchtar/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/057_couchtar/front.4bpp.lz",
+      "back": "graphics/yokai/057_couchtar/back.4bpp.lz",
+      "normal": "graphics/yokai/057_couchtar/normal.gbapal.lz",
+      "shiny": "graphics/yokai/057_couchtar/shiny.gbapal.lz",
+      "icon": "graphics/yokai/057_couchtar/icon.4bpp",
+      "footprint": "graphics/yokai/057_couchtar/footprint.1bpp"
+    }
+  },
+  {
+    "index": 58,
+    "name": "Noctambill",
+    "classification": "A",
+    "observation": "Masse rouge et accessoires magiques participent au design ; arrière de chevelure identifiable.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/058_noctambill/front.png",
+      "back": "graphics/yokai/058_noctambill/back.png",
+      "normal": "graphics/yokai/058_noctambill/normal.pal",
+      "shiny": "graphics/yokai/058_noctambill/shiny.pal",
+      "icon": "graphics/yokai/058_noctambill/icon.png",
+      "footprint": "graphics/yokai/058_noctambill/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/058_noctambill/front.4bpp.lz",
+      "back": "graphics/yokai/058_noctambill/back.4bpp.lz",
+      "normal": "graphics/yokai/058_noctambill/normal.gbapal.lz",
+      "shiny": "graphics/yokai/058_noctambill/shiny.gbapal.lz",
+      "icon": "graphics/yokai/058_noctambill/icon.4bpp",
+      "footprint": "graphics/yokai/058_noctambill/footprint.1bpp"
+    }
+  },
+  {
+    "index": 59,
+    "name": "Fouetar",
+    "classification": "A",
+    "observation": "Fourrure et fouets clairement hiérarchisés ; dos sans visage, fouets latéraux complets.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/059_fouetar/front.png",
+      "back": "graphics/yokai/059_fouetar/back.png",
+      "normal": "graphics/yokai/059_fouetar/normal.pal",
+      "shiny": "graphics/yokai/059_fouetar/shiny.pal",
+      "icon": "graphics/yokai/059_fouetar/icon.png",
+      "footprint": "graphics/yokai/059_fouetar/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/059_fouetar/front.4bpp.lz",
+      "back": "graphics/yokai/059_fouetar/back.4bpp.lz",
+      "normal": "graphics/yokai/059_fouetar/normal.gbapal.lz",
+      "shiny": "graphics/yokai/059_fouetar/shiny.gbapal.lz",
+      "icon": "graphics/yokai/059_fouetar/icon.4bpp",
+      "footprint": "graphics/yokai/059_fouetar/footprint.1bpp"
+    }
+  },
+  {
+    "index": 60,
+    "name": "Superfouetar",
+    "classification": "A",
+    "observation": "Évolution plus volumineuse que 059 ; crinière et corps bien remplis, arrière distinct du masque frontal.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/060_superfouetar/front.png",
+      "back": "graphics/yokai/060_superfouetar/back.png",
+      "normal": "graphics/yokai/060_superfouetar/normal.pal",
+      "shiny": "graphics/yokai/060_superfouetar/shiny.pal",
+      "icon": "graphics/yokai/060_superfouetar/icon.png",
+      "footprint": "graphics/yokai/060_superfouetar/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/060_superfouetar/front.4bpp.lz",
+      "back": "graphics/yokai/060_superfouetar/back.4bpp.lz",
+      "normal": "graphics/yokai/060_superfouetar/normal.gbapal.lz",
+      "shiny": "graphics/yokai/060_superfouetar/shiny.gbapal.lz",
+      "icon": "graphics/yokai/060_superfouetar/icon.4bpp",
+      "footprint": "graphics/yokai/060_superfouetar/footprint.1bpp"
+    }
+  },
+  {
+    "index": 61,
+    "name": "Égare-dare",
+    "classification": "C",
+    "observation": "Objet sur roues : perspective du plan arrière à confirmer avec les roues et les mains ; orientation ambiguë, aucun miroir automatique.",
+    "proportions_list": false,
+    "specific_defect_list": true,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Roue et plan vert arrière reconstruits ; face intacte.",
+    "remaining": "Direction de la caisse encore ambiguë ; essai de perspective, non correction validée.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/061_egare_dare/front.png",
+      "back": "graphics/yokai/061_egare_dare/back.png",
+      "normal": "graphics/yokai/061_egare_dare/normal.pal",
+      "shiny": "graphics/yokai/061_egare_dare/shiny.pal",
+      "icon": "graphics/yokai/061_egare_dare/icon.png",
+      "footprint": "graphics/yokai/061_egare_dare/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/061_egare_dare/front.4bpp.lz",
+      "back": "graphics/yokai/061_egare_dare/back.4bpp.lz",
+      "normal": "graphics/yokai/061_egare_dare/normal.gbapal.lz",
+      "shiny": "graphics/yokai/061_egare_dare/shiny.gbapal.lz",
+      "icon": "graphics/yokai/061_egare_dare/icon.4bpp",
+      "footprint": "graphics/yokai/061_egare_dare/footprint.1bpp"
+    }
+  },
+  {
+    "index": 62,
+    "name": "Charivari",
+    "classification": "C",
+    "observation": "Capuche et épaules arrière à accorder à la direction de combat ; vérifier la pose plutôt que retourner le dessin.",
+    "proportions_list": false,
+    "specific_defect_list": true,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Arrière de capuche et de corps redessiné sans miroir de la face.",
+    "remaining": "Orientation encore proche du dos initial ; contrôle artistique de la pose nécessaire.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/062_charivari/front.png",
+      "back": "graphics/yokai/062_charivari/back.png",
+      "normal": "graphics/yokai/062_charivari/normal.pal",
+      "shiny": "graphics/yokai/062_charivari/shiny.pal",
+      "icon": "graphics/yokai/062_charivari/icon.png",
+      "footprint": "graphics/yokai/062_charivari/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/062_charivari/front.4bpp.lz",
+      "back": "graphics/yokai/062_charivari/back.4bpp.lz",
+      "normal": "graphics/yokai/062_charivari/normal.gbapal.lz",
+      "shiny": "graphics/yokai/062_charivari/shiny.gbapal.lz",
+      "icon": "graphics/yokai/062_charivari/icon.4bpp",
+      "footprint": "graphics/yokai/062_charivari/footprint.1bpp"
+    }
+  },
+  {
+    "index": 63,
+    "name": "Chihuaglagla",
+    "classification": "B",
+    "observation": "Petits segments bleus isolés à droite, surtout au dos ; possibles résidus du détourage à examiner, chien à préserver.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": true,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "Diagnostic à confirmer et proposition graphique à préparer.",
+    "review_status": "not_drawn",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/063_chihuaglagla/front.png",
+      "back": "graphics/yokai/063_chihuaglagla/back.png",
+      "normal": "graphics/yokai/063_chihuaglagla/normal.pal",
+      "shiny": "graphics/yokai/063_chihuaglagla/shiny.pal",
+      "icon": "graphics/yokai/063_chihuaglagla/icon.png",
+      "footprint": "graphics/yokai/063_chihuaglagla/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/063_chihuaglagla/front.4bpp.lz",
+      "back": "graphics/yokai/063_chihuaglagla/back.4bpp.lz",
+      "normal": "graphics/yokai/063_chihuaglagla/normal.gbapal.lz",
+      "shiny": "graphics/yokai/063_chihuaglagla/shiny.gbapal.lz",
+      "icon": "graphics/yokai/063_chihuaglagla/icon.4bpp",
+      "footprint": "graphics/yokai/063_chihuaglagla/footprint.1bpp"
+    }
+  },
+  {
+    "index": 64,
+    "name": "Frohuahua",
+    "classification": "A",
+    "observation": "Cape et oreilles donnent une progression nette depuis 063 ; corps central lisible, dos de cape différencié.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/064_frohuahua/front.png",
+      "back": "graphics/yokai/064_frohuahua/back.png",
+      "normal": "graphics/yokai/064_frohuahua/normal.pal",
+      "shiny": "graphics/yokai/064_frohuahua/shiny.pal",
+      "icon": "graphics/yokai/064_frohuahua/icon.png",
+      "footprint": "graphics/yokai/064_frohuahua/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/064_frohuahua/front.4bpp.lz",
+      "back": "graphics/yokai/064_frohuahua/back.4bpp.lz",
+      "normal": "graphics/yokai/064_frohuahua/normal.gbapal.lz",
+      "shiny": "graphics/yokai/064_frohuahua/shiny.gbapal.lz",
+      "icon": "graphics/yokai/064_frohuahua/icon.4bpp",
+      "footprint": "graphics/yokai/064_frohuahua/footprint.1bpp"
+    }
+  },
+  {
+    "index": 65,
+    "name": "Gorgouille",
+    "classification": "A",
+    "observation": "Poings et silhouette de combattant imposants ; dos musculaire et crête cohérents.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/065_gorgouille/front.png",
+      "back": "graphics/yokai/065_gorgouille/back.png",
+      "normal": "graphics/yokai/065_gorgouille/normal.pal",
+      "shiny": "graphics/yokai/065_gorgouille/shiny.pal",
+      "icon": "graphics/yokai/065_gorgouille/icon.png",
+      "footprint": "graphics/yokai/065_gorgouille/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/065_gorgouille/front.4bpp.lz",
+      "back": "graphics/yokai/065_gorgouille/back.4bpp.lz",
+      "normal": "graphics/yokai/065_gorgouille/normal.gbapal.lz",
+      "shiny": "graphics/yokai/065_gorgouille/shiny.gbapal.lz",
+      "icon": "graphics/yokai/065_gorgouille/icon.4bpp",
+      "footprint": "graphics/yokai/065_gorgouille/footprint.1bpp"
+    }
+  },
+  {
+    "index": 66,
+    "name": "Siréné",
+    "classification": "A",
+    "observation": "Queue de sirène et éventail de cheveux bien séparés ; cheveux et queue vus de derrière.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/066_sirene/front.png",
+      "back": "graphics/yokai/066_sirene/back.png",
+      "normal": "graphics/yokai/066_sirene/normal.pal",
+      "shiny": "graphics/yokai/066_sirene/shiny.pal",
+      "icon": "graphics/yokai/066_sirene/icon.png",
+      "footprint": "graphics/yokai/066_sirene/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/066_sirene/front.4bpp.lz",
+      "back": "graphics/yokai/066_sirene/back.4bpp.lz",
+      "normal": "graphics/yokai/066_sirene/normal.gbapal.lz",
+      "shiny": "graphics/yokai/066_sirene/shiny.gbapal.lz",
+      "icon": "graphics/yokai/066_sirene/icon.4bpp",
+      "footprint": "graphics/yokai/066_sirene/footprint.1bpp"
+    }
+  },
+  {
+    "index": 67,
+    "name": "Sirénité",
+    "classification": "A",
+    "observation": "Évolution plus majestueuse que 066 ; couronne et queue dominent sans effacer la tête.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/067_sirenite/front.png",
+      "back": "graphics/yokai/067_sirenite/back.png",
+      "normal": "graphics/yokai/067_sirenite/normal.pal",
+      "shiny": "graphics/yokai/067_sirenite/shiny.pal",
+      "icon": "graphics/yokai/067_sirenite/icon.png",
+      "footprint": "graphics/yokai/067_sirenite/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/067_sirenite/front.4bpp.lz",
+      "back": "graphics/yokai/067_sirenite/back.4bpp.lz",
+      "normal": "graphics/yokai/067_sirenite/normal.gbapal.lz",
+      "shiny": "graphics/yokai/067_sirenite/shiny.gbapal.lz",
+      "icon": "graphics/yokai/067_sirenite/icon.4bpp",
+      "footprint": "graphics/yokai/067_sirenite/footprint.1bpp"
+    }
+  },
+  {
+    "index": 68,
+    "name": "Papa Ress",
+    "classification": "A",
+    "observation": "Petite taille inhérente au fantôme ; grand chapeau et manteau raccordés entre les vues.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/068_papa_ress/front.png",
+      "back": "graphics/yokai/068_papa_ress/back.png",
+      "normal": "graphics/yokai/068_papa_ress/normal.pal",
+      "shiny": "graphics/yokai/068_papa_ress/shiny.pal",
+      "icon": "graphics/yokai/068_papa_ress/icon.png",
+      "footprint": "graphics/yokai/068_papa_ress/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/068_papa_ress/front.4bpp.lz",
+      "back": "graphics/yokai/068_papa_ress/back.4bpp.lz",
+      "normal": "graphics/yokai/068_papa_ress/normal.gbapal.lz",
+      "shiny": "graphics/yokai/068_papa_ress/shiny.gbapal.lz",
+      "icon": "graphics/yokai/068_papa_ress/icon.4bpp",
+      "footprint": "graphics/yokai/068_papa_ress/footprint.1bpp"
+    }
+  },
+  {
+    "index": 69,
+    "name": "Ralbouc",
+    "classification": "A",
+    "observation": "Barbe et manteau forment une masse volontaire ; vue arrière débarrassée des traits du visage.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/069_ralbouc/front.png",
+      "back": "graphics/yokai/069_ralbouc/back.png",
+      "normal": "graphics/yokai/069_ralbouc/normal.pal",
+      "shiny": "graphics/yokai/069_ralbouc/shiny.pal",
+      "icon": "graphics/yokai/069_ralbouc/icon.png",
+      "footprint": "graphics/yokai/069_ralbouc/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/069_ralbouc/front.4bpp.lz",
+      "back": "graphics/yokai/069_ralbouc/back.4bpp.lz",
+      "normal": "graphics/yokai/069_ralbouc/normal.gbapal.lz",
+      "shiny": "graphics/yokai/069_ralbouc/shiny.gbapal.lz",
+      "icon": "graphics/yokai/069_ralbouc/icon.4bpp",
+      "footprint": "graphics/yokai/069_ralbouc/footprint.1bpp"
+    }
+  },
+  {
+    "index": 70,
+    "name": "Sorcophage",
+    "classification": "C",
+    "observation": "Poings dominants sur la face ; tête et torse à renforcer, dos actuel explicitement satisfaisant à conserver.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Face de guerrier au torse et à la tête plus présents ; dos d'origine conservé octet pour octet.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/070_sorcophage/front.png",
+      "back": "graphics/yokai/070_sorcophage/back.png",
+      "normal": "graphics/yokai/070_sorcophage/normal.pal",
+      "shiny": "graphics/yokai/070_sorcophage/shiny.pal",
+      "icon": "graphics/yokai/070_sorcophage/icon.png",
+      "footprint": "graphics/yokai/070_sorcophage/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/070_sorcophage/front.4bpp.lz",
+      "back": "graphics/yokai/070_sorcophage/back.4bpp.lz",
+      "normal": "graphics/yokai/070_sorcophage/normal.gbapal.lz",
+      "shiny": "graphics/yokai/070_sorcophage/shiny.gbapal.lz",
+      "icon": "graphics/yokai/070_sorcophage/icon.4bpp",
+      "footprint": "graphics/yokai/070_sorcophage/footprint.1bpp"
+    }
+  },
+  {
+    "index": 71,
+    "name": "Insomnel",
+    "classification": "C",
+    "observation": "Grand œil, cornes et corps mal hiérarchisés ; dos, cornes et queue à construire vers l'adversaire.",
+    "proportions_list": false,
+    "specific_defect_list": true,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Grand œil recentré, corps et queue plus lisibles, cornes arrière redessinées.",
+    "remaining": "Direction arrière encore assez frontale au plan de symétrie ; préciser le trois-quarts.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/071_insomnel/front.png",
+      "back": "graphics/yokai/071_insomnel/back.png",
+      "normal": "graphics/yokai/071_insomnel/normal.pal",
+      "shiny": "graphics/yokai/071_insomnel/shiny.pal",
+      "icon": "graphics/yokai/071_insomnel/icon.png",
+      "footprint": "graphics/yokai/071_insomnel/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/071_insomnel/front.4bpp.lz",
+      "back": "graphics/yokai/071_insomnel/back.4bpp.lz",
+      "normal": "graphics/yokai/071_insomnel/normal.gbapal.lz",
+      "shiny": "graphics/yokai/071_insomnel/shiny.gbapal.lz",
+      "icon": "graphics/yokai/071_insomnel/icon.4bpp",
+      "footprint": "graphics/yokai/071_insomnel/footprint.1bpp"
+    }
+  },
+  {
+    "index": 72,
+    "name": "Tata Aura",
+    "classification": "A",
+    "observation": "Coiffe fleur et coussin encadrent un corps lisible ; arrière de fleur et vêtements cohérents.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/072_tata_aura/front.png",
+      "back": "graphics/yokai/072_tata_aura/back.png",
+      "normal": "graphics/yokai/072_tata_aura/normal.pal",
+      "shiny": "graphics/yokai/072_tata_aura/shiny.pal",
+      "icon": "graphics/yokai/072_tata_aura/icon.png",
+      "footprint": "graphics/yokai/072_tata_aura/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/072_tata_aura/front.4bpp.lz",
+      "back": "graphics/yokai/072_tata_aura/back.4bpp.lz",
+      "normal": "graphics/yokai/072_tata_aura/normal.gbapal.lz",
+      "shiny": "graphics/yokai/072_tata_aura/shiny.gbapal.lz",
+      "icon": "graphics/yokai/072_tata_aura/icon.4bpp",
+      "footprint": "graphics/yokai/072_tata_aura/footprint.1bpp"
+    }
+  },
+  {
+    "index": 73,
+    "name": "Tontonnerre",
+    "classification": "A",
+    "observation": "Nuage et tambours font partie de l'identité ; masse centrale expressive, arrière sans visage.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/073_tontonnerre/front.png",
+      "back": "graphics/yokai/073_tontonnerre/back.png",
+      "normal": "graphics/yokai/073_tontonnerre/normal.pal",
+      "shiny": "graphics/yokai/073_tontonnerre/shiny.pal",
+      "icon": "graphics/yokai/073_tontonnerre/icon.png",
+      "footprint": "graphics/yokai/073_tontonnerre/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/073_tontonnerre/front.4bpp.lz",
+      "back": "graphics/yokai/073_tontonnerre/back.4bpp.lz",
+      "normal": "graphics/yokai/073_tontonnerre/normal.gbapal.lz",
+      "shiny": "graphics/yokai/073_tontonnerre/shiny.gbapal.lz",
+      "icon": "graphics/yokai/073_tontonnerre/icon.4bpp",
+      "footprint": "graphics/yokai/073_tontonnerre/footprint.1bpp"
+    }
+  },
+  {
+    "index": 74,
+    "name": "Antonnerre",
+    "classification": "A",
+    "observation": "Petite silhouette aérienne cohérente avec l'éclair ; tête reste identifiable et arrière du vêtement différencié.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/074_antonnerre/front.png",
+      "back": "graphics/yokai/074_antonnerre/back.png",
+      "normal": "graphics/yokai/074_antonnerre/normal.pal",
+      "shiny": "graphics/yokai/074_antonnerre/shiny.pal",
+      "icon": "graphics/yokai/074_antonnerre/icon.png",
+      "footprint": "graphics/yokai/074_antonnerre/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/074_antonnerre/front.4bpp.lz",
+      "back": "graphics/yokai/074_antonnerre/back.4bpp.lz",
+      "normal": "graphics/yokai/074_antonnerre/normal.gbapal.lz",
+      "shiny": "graphics/yokai/074_antonnerre/shiny.gbapal.lz",
+      "icon": "graphics/yokai/074_antonnerre/icon.4bpp",
+      "footprint": "graphics/yokai/074_antonnerre/footprint.1bpp"
+    }
+  },
+  {
+    "index": 75,
+    "name": "Parantonn",
+    "classification": "A",
+    "observation": "Petite forme aérienne accompagnée d'arcs ; silhouette et arrière de casque suffisamment clairs.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/075_parantonn/front.png",
+      "back": "graphics/yokai/075_parantonn/back.png",
+      "normal": "graphics/yokai/075_parantonn/normal.pal",
+      "shiny": "graphics/yokai/075_parantonn/shiny.pal",
+      "icon": "graphics/yokai/075_parantonn/icon.png",
+      "footprint": "graphics/yokai/075_parantonn/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/075_parantonn/front.4bpp.lz",
+      "back": "graphics/yokai/075_parantonn/back.4bpp.lz",
+      "normal": "graphics/yokai/075_parantonn/normal.gbapal.lz",
+      "shiny": "graphics/yokai/075_parantonn/shiny.gbapal.lz",
+      "icon": "graphics/yokai/075_parantonn/icon.4bpp",
+      "footprint": "graphics/yokai/075_parantonn/footprint.1bpp"
+    }
+  },
+  {
+    "index": 76,
+    "name": "Scoltine",
+    "classification": "A",
+    "observation": "Corps segmenté lisible malgré la courbure ; arrière, antennes et queue cohérents.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/076_scoltine/front.png",
+      "back": "graphics/yokai/076_scoltine/back.png",
+      "normal": "graphics/yokai/076_scoltine/normal.pal",
+      "shiny": "graphics/yokai/076_scoltine/shiny.pal",
+      "icon": "graphics/yokai/076_scoltine/icon.png",
+      "footprint": "graphics/yokai/076_scoltine/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/076_scoltine/front.4bpp.lz",
+      "back": "graphics/yokai/076_scoltine/back.4bpp.lz",
+      "normal": "graphics/yokai/076_scoltine/normal.gbapal.lz",
+      "shiny": "graphics/yokai/076_scoltine/shiny.gbapal.lz",
+      "icon": "graphics/yokai/076_scoltine/icon.4bpp",
+      "footprint": "graphics/yokai/076_scoltine/footprint.1bpp"
+    }
+  },
+  {
+    "index": 77,
+    "name": "Scolérique",
+    "classification": "A",
+    "observation": "Forme plus menaçante que 076 ; bouche frontale absente du dos, abdomen segmenté lisible.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/077_scolerique/front.png",
+      "back": "graphics/yokai/077_scolerique/back.png",
+      "normal": "graphics/yokai/077_scolerique/normal.pal",
+      "shiny": "graphics/yokai/077_scolerique/shiny.pal",
+      "icon": "graphics/yokai/077_scolerique/icon.png",
+      "footprint": "graphics/yokai/077_scolerique/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/077_scolerique/front.4bpp.lz",
+      "back": "graphics/yokai/077_scolerique/back.4bpp.lz",
+      "normal": "graphics/yokai/077_scolerique/normal.gbapal.lz",
+      "shiny": "graphics/yokai/077_scolerique/shiny.gbapal.lz",
+      "icon": "graphics/yokai/077_scolerique/icon.4bpp",
+      "footprint": "graphics/yokai/077_scolerique/footprint.1bpp"
+    }
+  },
+  {
+    "index": 78,
+    "name": "Coléroptere",
+    "classification": "A",
+    "observation": "Carrure et bois caractéristiques ; dos massif et jambes bien délimités.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/078_coleroptere/front.png",
+      "back": "graphics/yokai/078_coleroptere/back.png",
+      "normal": "graphics/yokai/078_coleroptere/normal.pal",
+      "shiny": "graphics/yokai/078_coleroptere/shiny.pal",
+      "icon": "graphics/yokai/078_coleroptere/icon.png",
+      "footprint": "graphics/yokai/078_coleroptere/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/078_coleroptere/front.4bpp.lz",
+      "back": "graphics/yokai/078_coleroptere/back.4bpp.lz",
+      "normal": "graphics/yokai/078_coleroptere/normal.gbapal.lz",
+      "shiny": "graphics/yokai/078_coleroptere/shiny.gbapal.lz",
+      "icon": "graphics/yokai/078_coleroptere/icon.4bpp",
+      "footprint": "graphics/yokai/078_coleroptere/footprint.1bpp"
+    }
+  },
+  {
+    "index": 79,
+    "name": "Rhinolimit",
+    "classification": "A",
+    "observation": "Carapace/cape marquée et silhouette trapue ; dos différencié, pas d'accessoire écrasant le visage.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/079_rhinolimit/front.png",
+      "back": "graphics/yokai/079_rhinolimit/back.png",
+      "normal": "graphics/yokai/079_rhinolimit/normal.pal",
+      "shiny": "graphics/yokai/079_rhinolimit/shiny.pal",
+      "icon": "graphics/yokai/079_rhinolimit/icon.png",
+      "footprint": "graphics/yokai/079_rhinolimit/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/079_rhinolimit/front.4bpp.lz",
+      "back": "graphics/yokai/079_rhinolimit/back.4bpp.lz",
+      "normal": "graphics/yokai/079_rhinolimit/normal.gbapal.lz",
+      "shiny": "graphics/yokai/079_rhinolimit/shiny.gbapal.lz",
+      "icon": "graphics/yokai/079_rhinolimit/icon.4bpp",
+      "footprint": "graphics/yokai/079_rhinolimit/footprint.1bpp"
+    }
+  },
+  {
+    "index": 80,
+    "name": "Scatcheur",
+    "classification": "A",
+    "observation": "Cornes hautes mais corps guerrier lisible ; cape arrière et bras identifiables.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/080_scatcheur/front.png",
+      "back": "graphics/yokai/080_scatcheur/back.png",
+      "normal": "graphics/yokai/080_scatcheur/normal.pal",
+      "shiny": "graphics/yokai/080_scatcheur/shiny.pal",
+      "icon": "graphics/yokai/080_scatcheur/icon.png",
+      "footprint": "graphics/yokai/080_scatcheur/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/080_scatcheur/front.4bpp.lz",
+      "back": "graphics/yokai/080_scatcheur/back.4bpp.lz",
+      "normal": "graphics/yokai/080_scatcheur/normal.gbapal.lz",
+      "shiny": "graphics/yokai/080_scatcheur/shiny.gbapal.lz",
+      "icon": "graphics/yokai/080_scatcheur/icon.4bpp",
+      "footprint": "graphics/yokai/080_scatcheur/footprint.1bpp"
+    }
+  },
+  {
+    "index": 81,
+    "name": "Scarmouche",
+    "classification": "A",
+    "observation": "Évolution plus développée que 080 ; fourrure et cape établissent une hiérarchie cohérente.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/081_scarmouche/front.png",
+      "back": "graphics/yokai/081_scarmouche/back.png",
+      "normal": "graphics/yokai/081_scarmouche/normal.pal",
+      "shiny": "graphics/yokai/081_scarmouche/shiny.pal",
+      "icon": "graphics/yokai/081_scarmouche/icon.png",
+      "footprint": "graphics/yokai/081_scarmouche/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/081_scarmouche/front.4bpp.lz",
+      "back": "graphics/yokai/081_scarmouche/back.4bpp.lz",
+      "normal": "graphics/yokai/081_scarmouche/normal.gbapal.lz",
+      "shiny": "graphics/yokai/081_scarmouche/shiny.gbapal.lz",
+      "icon": "graphics/yokai/081_scarmouche/icon.4bpp",
+      "footprint": "graphics/yokai/081_scarmouche/footprint.1bpp"
+    }
+  },
+  {
+    "index": 82,
+    "name": "Noko",
+    "classification": "A",
+    "observation": "Noko petit et rond par choix ; ventre et queue visibles, arrière sans visage.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/082_noko/front.png",
+      "back": "graphics/yokai/082_noko/back.png",
+      "normal": "graphics/yokai/082_noko/normal.pal",
+      "shiny": "graphics/yokai/082_noko/shiny.pal",
+      "icon": "graphics/yokai/082_noko/icon.png",
+      "footprint": "graphics/yokai/082_noko/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/082_noko/front.4bpp.lz",
+      "back": "graphics/yokai/082_noko/back.4bpp.lz",
+      "normal": "graphics/yokai/082_noko/normal.gbapal.lz",
+      "shiny": "graphics/yokai/082_noko/shiny.gbapal.lz",
+      "icon": "graphics/yokai/082_noko/icon.4bpp",
+      "footprint": "graphics/yokai/082_noko/footprint.1bpp"
+    }
+  },
+  {
+    "index": 83,
+    "name": "Nénunoko",
+    "classification": "A",
+    "observation": "Fleur et corps serpentins raccordés ; progression depuis 082 lisible, dos sans museau.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/083_nenunoko/front.png",
+      "back": "graphics/yokai/083_nenunoko/back.png",
+      "normal": "graphics/yokai/083_nenunoko/normal.pal",
+      "shiny": "graphics/yokai/083_nenunoko/shiny.pal",
+      "icon": "graphics/yokai/083_nenunoko/icon.png",
+      "footprint": "graphics/yokai/083_nenunoko/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/083_nenunoko/front.4bpp.lz",
+      "back": "graphics/yokai/083_nenunoko/back.4bpp.lz",
+      "normal": "graphics/yokai/083_nenunoko/normal.gbapal.lz",
+      "shiny": "graphics/yokai/083_nenunoko/shiny.gbapal.lz",
+      "icon": "graphics/yokai/083_nenunoko/icon.4bpp",
+      "footprint": "graphics/yokai/083_nenunoko/footprint.1bpp"
+    }
+  },
+  {
+    "index": 84,
+    "name": "Trytik",
+    "classification": "D",
+    "observation": "Corps larvaire sous-représenté face aux trois têtes ; vrai dos et deux pieds communs à reconstruire.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Corps larvaire commun plus massif, trois têtes compactées, deux pieds et vrai dos sans œil frontal.",
+    "remaining": "Nuque de la tête centrale à mieux distinguer au dos ; détails et raccords à finir au pixel.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/084_trytik/front.png",
+      "back": "graphics/yokai/084_trytik/back.png",
+      "normal": "graphics/yokai/084_trytik/normal.pal",
+      "shiny": "graphics/yokai/084_trytik/shiny.pal",
+      "icon": "graphics/yokai/084_trytik/icon.png",
+      "footprint": "graphics/yokai/084_trytik/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/084_trytik/front.4bpp.lz",
+      "back": "graphics/yokai/084_trytik/back.4bpp.lz",
+      "normal": "graphics/yokai/084_trytik/normal.gbapal.lz",
+      "shiny": "graphics/yokai/084_trytik/shiny.gbapal.lz",
+      "icon": "graphics/yokai/084_trytik/icon.4bpp",
+      "footprint": "graphics/yokai/084_trytik/footprint.1bpp"
+    }
+  },
+  {
+    "index": 85,
+    "name": "Carpitaine",
+    "classification": "A",
+    "observation": "Petit capitaine aquatique identifiable ; arrière du chapeau et du gilet différenciés, forme de départ à préserver.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/085_carpitaine/front.png",
+      "back": "graphics/yokai/085_carpitaine/back.png",
+      "normal": "graphics/yokai/085_carpitaine/normal.pal",
+      "shiny": "graphics/yokai/085_carpitaine/shiny.pal",
+      "icon": "graphics/yokai/085_carpitaine/icon.png",
+      "footprint": "graphics/yokai/085_carpitaine/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/085_carpitaine/front.4bpp.lz",
+      "back": "graphics/yokai/085_carpitaine/back.4bpp.lz",
+      "normal": "graphics/yokai/085_carpitaine/normal.gbapal.lz",
+      "shiny": "graphics/yokai/085_carpitaine/shiny.gbapal.lz",
+      "icon": "graphics/yokai/085_carpitaine/icon.4bpp",
+      "footprint": "graphics/yokai/085_carpitaine/footprint.1bpp"
+    }
+  },
+  {
+    "index": 86,
+    "name": "Turboss",
+    "classification": "D",
+    "observation": "Fins et équipements écrasent la carrure ; agrandir franchement visage, buste et bras du capitaine.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Bras et poitrine du capitaine pirate redessinés plus massifs ; fins et équipements rapprochés.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/086_turboss/front.png",
+      "back": "graphics/yokai/086_turboss/back.png",
+      "normal": "graphics/yokai/086_turboss/normal.pal",
+      "shiny": "graphics/yokai/086_turboss/shiny.pal",
+      "icon": "graphics/yokai/086_turboss/icon.png",
+      "footprint": "graphics/yokai/086_turboss/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/086_turboss/front.4bpp.lz",
+      "back": "graphics/yokai/086_turboss/back.4bpp.lz",
+      "normal": "graphics/yokai/086_turboss/normal.gbapal.lz",
+      "shiny": "graphics/yokai/086_turboss/shiny.gbapal.lz",
+      "icon": "graphics/yokai/086_turboss/icon.4bpp",
+      "footprint": "graphics/yokai/086_turboss/footprint.1bpp"
+    }
+  },
+  {
+    "index": 87,
+    "name": "Kappacap",
+    "classification": "C",
+    "observation": "Chapeau trop large par rapport au visage et aux jambes ; recomposer le petit kappa sans perdre son identité.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Chapeau plus compact, visage et jambes plus présents, dos du petit kappa reconstruit.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/087_kappacap/front.png",
+      "back": "graphics/yokai/087_kappacap/back.png",
+      "normal": "graphics/yokai/087_kappacap/normal.pal",
+      "shiny": "graphics/yokai/087_kappacap/shiny.pal",
+      "icon": "graphics/yokai/087_kappacap/icon.png",
+      "footprint": "graphics/yokai/087_kappacap/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/087_kappacap/front.4bpp.lz",
+      "back": "graphics/yokai/087_kappacap/back.4bpp.lz",
+      "normal": "graphics/yokai/087_kappacap/normal.gbapal.lz",
+      "shiny": "graphics/yokai/087_kappacap/shiny.gbapal.lz",
+      "icon": "graphics/yokai/087_kappacap/icon.4bpp",
+      "footprint": "graphics/yokai/087_kappacap/footprint.1bpp"
+    }
+  },
+  {
+    "index": 88,
+    "name": "Appak",
+    "classification": "C",
+    "observation": "Évolution guerrière limitée par cheveux et armes ; tête, torse et arrière à rendre plus présents.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Tête, torse et armes rapprochées pour une silhouette plus développée que 087.",
+    "remaining": "Vérifier la fidélité des armes et des mains sur une prochaine retouche fine.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/088_appak/front.png",
+      "back": "graphics/yokai/088_appak/back.png",
+      "normal": "graphics/yokai/088_appak/normal.pal",
+      "shiny": "graphics/yokai/088_appak/shiny.pal",
+      "icon": "graphics/yokai/088_appak/icon.png",
+      "footprint": "graphics/yokai/088_appak/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/088_appak/front.4bpp.lz",
+      "back": "graphics/yokai/088_appak/back.4bpp.lz",
+      "normal": "graphics/yokai/088_appak/normal.gbapal.lz",
+      "shiny": "graphics/yokai/088_appak/shiny.gbapal.lz",
+      "icon": "graphics/yokai/088_appak/icon.4bpp",
+      "footprint": "graphics/yokai/088_appak/footprint.1bpp"
+    }
+  },
+  {
+    "index": 89,
+    "name": "Camaueil",
+    "classification": "A",
+    "observation": "Corps et vêtements bien présents, figure expressive ; arrière de tenue et coiffe cohérent.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/089_camaueil/front.png",
+      "back": "graphics/yokai/089_camaueil/back.png",
+      "normal": "graphics/yokai/089_camaueil/normal.pal",
+      "shiny": "graphics/yokai/089_camaueil/shiny.pal",
+      "icon": "graphics/yokai/089_camaueil/icon.png",
+      "footprint": "graphics/yokai/089_camaueil/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/089_camaueil/front.4bpp.lz",
+      "back": "graphics/yokai/089_camaueil/back.4bpp.lz",
+      "normal": "graphics/yokai/089_camaueil/normal.gbapal.lz",
+      "shiny": "graphics/yokai/089_camaueil/shiny.gbapal.lz",
+      "icon": "graphics/yokai/089_camaueil/icon.4bpp",
+      "footprint": "graphics/yokai/089_camaueil/footprint.1bpp"
+    }
+  },
+  {
+    "index": 90,
+    "name": "Glapie",
+    "classification": "C",
+    "observation": "Bec du dos pointe à gauche ; reconstruire tête, ailes et pattes vers la droite, ne pas retourner la face.",
+    "proportions_list": false,
+    "specific_defect_list": true,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Bec arrière maintenant dirigé à droite ; tête, aile et pattes recomposées ; face intacte.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/090_glapie/front.png",
+      "back": "graphics/yokai/090_glapie/back.png",
+      "normal": "graphics/yokai/090_glapie/normal.pal",
+      "shiny": "graphics/yokai/090_glapie/shiny.pal",
+      "icon": "graphics/yokai/090_glapie/icon.png",
+      "footprint": "graphics/yokai/090_glapie/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/090_glapie/front.4bpp.lz",
+      "back": "graphics/yokai/090_glapie/back.4bpp.lz",
+      "normal": "graphics/yokai/090_glapie/normal.gbapal.lz",
+      "shiny": "graphics/yokai/090_glapie/shiny.gbapal.lz",
+      "icon": "graphics/yokai/090_glapie/icon.4bpp",
+      "footprint": "graphics/yokai/090_glapie/footprint.1bpp"
+    }
+  },
+  {
+    "index": 91,
+    "name": "Chiperpiou",
+    "classification": "A",
+    "observation": "Oiseau rond expressif ; arrière des ailes et de la tête bien distinct.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/091_chiperpiou/front.png",
+      "back": "graphics/yokai/091_chiperpiou/back.png",
+      "normal": "graphics/yokai/091_chiperpiou/normal.pal",
+      "shiny": "graphics/yokai/091_chiperpiou/shiny.pal",
+      "icon": "graphics/yokai/091_chiperpiou/icon.png",
+      "footprint": "graphics/yokai/091_chiperpiou/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/091_chiperpiou/front.4bpp.lz",
+      "back": "graphics/yokai/091_chiperpiou/back.4bpp.lz",
+      "normal": "graphics/yokai/091_chiperpiou/normal.gbapal.lz",
+      "shiny": "graphics/yokai/091_chiperpiou/shiny.gbapal.lz",
+      "icon": "graphics/yokai/091_chiperpiou/icon.4bpp",
+      "footprint": "graphics/yokai/091_chiperpiou/footprint.1bpp"
+    }
+  },
+  {
+    "index": 92,
+    "name": "Rapiaf",
+    "classification": "A",
+    "observation": "Forme plus active que 091 ; appendices et silhouette d'oiseau restent lisibles dans les deux vues.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/092_rapiaf/front.png",
+      "back": "graphics/yokai/092_rapiaf/back.png",
+      "normal": "graphics/yokai/092_rapiaf/normal.pal",
+      "shiny": "graphics/yokai/092_rapiaf/shiny.pal",
+      "icon": "graphics/yokai/092_rapiaf/icon.png",
+      "footprint": "graphics/yokai/092_rapiaf/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/092_rapiaf/front.4bpp.lz",
+      "back": "graphics/yokai/092_rapiaf/back.4bpp.lz",
+      "normal": "graphics/yokai/092_rapiaf/normal.gbapal.lz",
+      "shiny": "graphics/yokai/092_rapiaf/shiny.gbapal.lz",
+      "icon": "graphics/yokai/092_rapiaf/icon.4bpp",
+      "footprint": "graphics/yokai/092_rapiaf/footprint.1bpp"
+    }
+  },
+  {
+    "index": 93,
+    "name": "Tête de lard",
+    "classification": "B",
+    "observation": "Dos déjà dépourvu de visage ; la tranche plate autorise une silhouette proche de face, rotation à évaluer sans l'imposer.",
+    "proportions_list": false,
+    "specific_defect_list": true,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Essai de tranche arrière simplifiée, sans visage ; face intacte.",
+    "remaining": "Pas de gain évident de perspective ; original déjà défendable, essai non recommandé.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/093_tete_de_lard/front.png",
+      "back": "graphics/yokai/093_tete_de_lard/back.png",
+      "normal": "graphics/yokai/093_tete_de_lard/normal.pal",
+      "shiny": "graphics/yokai/093_tete_de_lard/shiny.pal",
+      "icon": "graphics/yokai/093_tete_de_lard/icon.png",
+      "footprint": "graphics/yokai/093_tete_de_lard/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/093_tete_de_lard/front.4bpp.lz",
+      "back": "graphics/yokai/093_tete_de_lard/back.4bpp.lz",
+      "normal": "graphics/yokai/093_tete_de_lard/normal.gbapal.lz",
+      "shiny": "graphics/yokai/093_tete_de_lard/shiny.gbapal.lz",
+      "icon": "graphics/yokai/093_tete_de_lard/icon.4bpp",
+      "footprint": "graphics/yokai/093_tete_de_lard/footprint.1bpp"
+    }
+  },
+  {
+    "index": 94,
+    "name": "Potache",
+    "classification": "A",
+    "observation": "Visage et oreilles du petit objet bien lisibles ; arrière dépourvu d'yeux.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/094_potache/front.png",
+      "back": "graphics/yokai/094_potache/back.png",
+      "normal": "graphics/yokai/094_potache/normal.pal",
+      "shiny": "graphics/yokai/094_potache/shiny.pal",
+      "icon": "graphics/yokai/094_potache/icon.png",
+      "footprint": "graphics/yokai/094_potache/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/094_potache/front.4bpp.lz",
+      "back": "graphics/yokai/094_potache/back.4bpp.lz",
+      "normal": "graphics/yokai/094_potache/normal.gbapal.lz",
+      "shiny": "graphics/yokai/094_potache/shiny.gbapal.lz",
+      "icon": "graphics/yokai/094_potache/icon.4bpp",
+      "footprint": "graphics/yokai/094_potache/footprint.1bpp"
+    }
+  },
+  {
+    "index": 95,
+    "name": "Dépotache",
+    "classification": "A",
+    "observation": "Évolution plus massive que 094 ; masse rouge centrale lisible, dos sans expression frontale.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/095_depotache/front.png",
+      "back": "graphics/yokai/095_depotache/back.png",
+      "normal": "graphics/yokai/095_depotache/normal.pal",
+      "shiny": "graphics/yokai/095_depotache/shiny.pal",
+      "icon": "graphics/yokai/095_depotache/icon.png",
+      "footprint": "graphics/yokai/095_depotache/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/095_depotache/front.4bpp.lz",
+      "back": "graphics/yokai/095_depotache/back.4bpp.lz",
+      "normal": "graphics/yokai/095_depotache/normal.gbapal.lz",
+      "shiny": "graphics/yokai/095_depotache/shiny.gbapal.lz",
+      "icon": "graphics/yokai/095_depotache/icon.4bpp",
+      "footprint": "graphics/yokai/095_depotache/footprint.1bpp"
+    }
+  },
+  {
+    "index": 96,
+    "name": "Navétéran",
+    "classification": "A",
+    "observation": "Coque et corps de petit marin bien séparés ; arrière de coque et uniforme raccordés.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/096_naveteran/front.png",
+      "back": "graphics/yokai/096_naveteran/back.png",
+      "normal": "graphics/yokai/096_naveteran/normal.pal",
+      "shiny": "graphics/yokai/096_naveteran/shiny.pal",
+      "icon": "graphics/yokai/096_naveteran/icon.png",
+      "footprint": "graphics/yokai/096_naveteran/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/096_naveteran/front.4bpp.lz",
+      "back": "graphics/yokai/096_naveteran/back.4bpp.lz",
+      "normal": "graphics/yokai/096_naveteran/normal.gbapal.lz",
+      "shiny": "graphics/yokai/096_naveteran/shiny.gbapal.lz",
+      "icon": "graphics/yokai/096_naveteran/icon.4bpp",
+      "footprint": "graphics/yokai/096_naveteran/footprint.1bpp"
+    }
+  },
+  {
+    "index": 97,
+    "name": "Navigarmateur",
+    "classification": "A",
+    "observation": "Coque plus imposante que 096 ; visage central reste lisible, dos de l'uniforme différencié.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/097_navigarmateur/front.png",
+      "back": "graphics/yokai/097_navigarmateur/back.png",
+      "normal": "graphics/yokai/097_navigarmateur/normal.pal",
+      "shiny": "graphics/yokai/097_navigarmateur/shiny.pal",
+      "icon": "graphics/yokai/097_navigarmateur/icon.png",
+      "footprint": "graphics/yokai/097_navigarmateur/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/097_navigarmateur/front.4bpp.lz",
+      "back": "graphics/yokai/097_navigarmateur/back.4bpp.lz",
+      "normal": "graphics/yokai/097_navigarmateur/normal.gbapal.lz",
+      "shiny": "graphics/yokai/097_navigarmateur/shiny.gbapal.lz",
+      "icon": "graphics/yokai/097_navigarmateur/icon.4bpp",
+      "footprint": "graphics/yokai/097_navigarmateur/footprint.1bpp"
+    }
+  },
+  {
+    "index": 98,
+    "name": "Sergent Rampant",
+    "classification": "B",
+    "observation": "Point sombre frontal signalé à isoler précisément ; dos de la tête et des antennes à réorienter, ne pas supprimer une tache anatomique légitime.",
+    "proportions_list": false,
+    "specific_defect_list": true,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Dos de coquille et appendices redessiné ; face maintenue strictement identique.",
+    "remaining": "Point frontal NON corrigé : sa position exacte parmi les taches légitimes n'est pas établie ; tête arrière encore trop latérale.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/098_sergent_rampant/front.png",
+      "back": "graphics/yokai/098_sergent_rampant/back.png",
+      "normal": "graphics/yokai/098_sergent_rampant/normal.pal",
+      "shiny": "graphics/yokai/098_sergent_rampant/shiny.pal",
+      "icon": "graphics/yokai/098_sergent_rampant/icon.png",
+      "footprint": "graphics/yokai/098_sergent_rampant/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/098_sergent_rampant/front.4bpp.lz",
+      "back": "graphics/yokai/098_sergent_rampant/back.4bpp.lz",
+      "normal": "graphics/yokai/098_sergent_rampant/normal.gbapal.lz",
+      "shiny": "graphics/yokai/098_sergent_rampant/shiny.gbapal.lz",
+      "icon": "graphics/yokai/098_sergent_rampant/icon.4bpp",
+      "footprint": "graphics/yokai/098_sergent_rampant/footprint.1bpp"
+    }
+  },
+  {
+    "index": 99,
+    "name": "Coach Antonic",
+    "classification": "B",
+    "observation": "Bras musclés déjà lisibles ; léger gain de torse et de hauteur, garder la petite tête.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Essai de buste et d'épaules musclés redessinés.",
+    "remaining": "La tête prend trop de place et le bénéfice reste faible ; essai non retenu, reprendre une correction réellement légère.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/099_coach_antonic/front.png",
+      "back": "graphics/yokai/099_coach_antonic/back.png",
+      "normal": "graphics/yokai/099_coach_antonic/normal.pal",
+      "shiny": "graphics/yokai/099_coach_antonic/shiny.pal",
+      "icon": "graphics/yokai/099_coach_antonic/icon.png",
+      "footprint": "graphics/yokai/099_coach_antonic/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/099_coach_antonic/front.4bpp.lz",
+      "back": "graphics/yokai/099_coach_antonic/back.4bpp.lz",
+      "normal": "graphics/yokai/099_coach_antonic/normal.gbapal.lz",
+      "shiny": "graphics/yokai/099_coach_antonic/shiny.gbapal.lz",
+      "icon": "graphics/yokai/099_coach_antonic/icon.4bpp",
+      "footprint": "graphics/yokai/099_coach_antonic/footprint.1bpp"
+    }
+  },
+  {
+    "index": 100,
+    "name": "Usapion",
+    "classification": "B",
+    "observation": "Oreille arrière implantée de façon ambiguë ; remettre les deux oreilles en perspective sur le casque, garder la face.",
+    "proportions_list": false,
+    "specific_defect_list": true,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Oreilles arrière réimplantées avec faces sombres cohérentes sur le casque ; face intacte.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/100_usapion/front.png",
+      "back": "graphics/yokai/100_usapion/back.png",
+      "normal": "graphics/yokai/100_usapion/normal.pal",
+      "shiny": "graphics/yokai/100_usapion/shiny.pal",
+      "icon": "graphics/yokai/100_usapion/icon.png",
+      "footprint": "graphics/yokai/100_usapion/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/100_usapion/front.4bpp.lz",
+      "back": "graphics/yokai/100_usapion/back.4bpp.lz",
+      "normal": "graphics/yokai/100_usapion/normal.gbapal.lz",
+      "shiny": "graphics/yokai/100_usapion/shiny.gbapal.lz",
+      "icon": "graphics/yokai/100_usapion/icon.4bpp",
+      "footprint": "graphics/yokai/100_usapion/footprint.1bpp"
+    }
+  },
+  {
+    "index": 101,
+    "name": "Emperor",
+    "classification": "A",
+    "observation": "Grand casque et foulard différenciés ; arrière simple raccordé aux oreilles.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/101_emperor/front.png",
+      "back": "graphics/yokai/101_emperor/back.png",
+      "normal": "graphics/yokai/101_emperor/normal.pal",
+      "shiny": "graphics/yokai/101_emperor/shiny.pal",
+      "icon": "graphics/yokai/101_emperor/icon.png",
+      "footprint": "graphics/yokai/101_emperor/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/101_emperor/front.4bpp.lz",
+      "back": "graphics/yokai/101_emperor/back.4bpp.lz",
+      "normal": "graphics/yokai/101_emperor/normal.gbapal.lz",
+      "shiny": "graphics/yokai/101_emperor/shiny.gbapal.lz",
+      "icon": "graphics/yokai/101_emperor/icon.4bpp",
+      "footprint": "graphics/yokai/101_emperor/footprint.1bpp"
+    }
+  },
+  {
+    "index": 102,
+    "name": "Castelius III",
+    "classification": "C",
+    "observation": "Mât et bannière réduisent la citadelle bronze ; corps et visage à agrandir en famille avec 103–105.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Citadelle bronze redessinée en famille, bannière rapprochée, visage et étages clarifiés.",
+    "remaining": "Mât encore dominant ; raccourcissement à accentuer sans changer l'échelle commune de la famille.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/102_castelius_iii/front.png",
+      "back": "graphics/yokai/102_castelius_iii/back.png",
+      "normal": "graphics/yokai/102_castelius_iii/normal.pal",
+      "shiny": "graphics/yokai/102_castelius_iii/shiny.pal",
+      "icon": "graphics/yokai/102_castelius_iii/icon.png",
+      "footprint": "graphics/yokai/102_castelius_iii/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/102_castelius_iii/front.4bpp.lz",
+      "back": "graphics/yokai/102_castelius_iii/back.4bpp.lz",
+      "normal": "graphics/yokai/102_castelius_iii/normal.gbapal.lz",
+      "shiny": "graphics/yokai/102_castelius_iii/shiny.gbapal.lz",
+      "icon": "graphics/yokai/102_castelius_iii/icon.4bpp",
+      "footprint": "graphics/yokai/102_castelius_iii/footprint.1bpp"
+    }
+  },
+  {
+    "index": 103,
+    "name": "Castelius II",
+    "classification": "C",
+    "observation": "Même problème de hiérarchie mât/citadelle que 102 ; conserver les matériaux argentés et la progression de famille.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Même composition familiale que 102, métal argenté conservé.",
+    "remaining": "Mât encore dominant ; même reprise que 102.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/103_castelius_ii/front.png",
+      "back": "graphics/yokai/103_castelius_ii/back.png",
+      "normal": "graphics/yokai/103_castelius_ii/normal.pal",
+      "shiny": "graphics/yokai/103_castelius_ii/shiny.pal",
+      "icon": "graphics/yokai/103_castelius_ii/icon.png",
+      "footprint": "graphics/yokai/103_castelius_ii/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/103_castelius_ii/front.4bpp.lz",
+      "back": "graphics/yokai/103_castelius_ii/back.4bpp.lz",
+      "normal": "graphics/yokai/103_castelius_ii/normal.gbapal.lz",
+      "shiny": "graphics/yokai/103_castelius_ii/shiny.gbapal.lz",
+      "icon": "graphics/yokai/103_castelius_ii/icon.4bpp",
+      "footprint": "graphics/yokai/103_castelius_ii/footprint.1bpp"
+    }
+  },
+  {
+    "index": 104,
+    "name": "Castelius I",
+    "classification": "C",
+    "observation": "Même recomposition familiale nécessaire ; conserver l'or et rendre le visage moins noyé dans les étages.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Même composition familiale que 102, gamme or conservée.",
+    "remaining": "Mât encore dominant ; même reprise que 102.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/104_castelius_i/front.png",
+      "back": "graphics/yokai/104_castelius_i/back.png",
+      "normal": "graphics/yokai/104_castelius_i/normal.pal",
+      "shiny": "graphics/yokai/104_castelius_i/shiny.pal",
+      "icon": "graphics/yokai/104_castelius_i/icon.png",
+      "footprint": "graphics/yokai/104_castelius_i/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/104_castelius_i/front.4bpp.lz",
+      "back": "graphics/yokai/104_castelius_i/back.4bpp.lz",
+      "normal": "graphics/yokai/104_castelius_i/normal.gbapal.lz",
+      "shiny": "graphics/yokai/104_castelius_i/shiny.gbapal.lz",
+      "icon": "graphics/yokai/104_castelius_i/icon.4bpp",
+      "footprint": "graphics/yokai/104_castelius_i/footprint.1bpp"
+    }
+  },
+  {
+    "index": 105,
+    "name": "Castelius Max",
+    "classification": "C",
+    "observation": "Bannière dominante ; corps nacré à agrandir et rendre plus majestueux, logique commune avec 102–104.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Citadelle nacrée redessinée avec la famille, drapeau rapproché et étages clarifiés.",
+    "remaining": "Majesté relative encore peu marquée et mât trop présent ; poursuivre avec les quatre formes ensemble.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/105_castelius_max/front.png",
+      "back": "graphics/yokai/105_castelius_max/back.png",
+      "normal": "graphics/yokai/105_castelius_max/normal.pal",
+      "shiny": "graphics/yokai/105_castelius_max/shiny.pal",
+      "icon": "graphics/yokai/105_castelius_max/icon.png",
+      "footprint": "graphics/yokai/105_castelius_max/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/105_castelius_max/front.4bpp.lz",
+      "back": "graphics/yokai/105_castelius_max/back.4bpp.lz",
+      "normal": "graphics/yokai/105_castelius_max/normal.gbapal.lz",
+      "shiny": "graphics/yokai/105_castelius_max/shiny.gbapal.lz",
+      "icon": "graphics/yokai/105_castelius_max/icon.4bpp",
+      "footprint": "graphics/yokai/105_castelius_max/footprint.1bpp"
+    }
+  },
+  {
+    "index": 106,
+    "name": "Pitou",
+    "classification": "A",
+    "observation": "Petit félin et cœur lisibles ; arrière du cœur et de la casquette cohérents.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/106_pitou/front.png",
+      "back": "graphics/yokai/106_pitou/back.png",
+      "normal": "graphics/yokai/106_pitou/normal.pal",
+      "shiny": "graphics/yokai/106_pitou/shiny.pal",
+      "icon": "graphics/yokai/106_pitou/icon.png",
+      "footprint": "graphics/yokai/106_pitou/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/106_pitou/front.4bpp.lz",
+      "back": "graphics/yokai/106_pitou/back.4bpp.lz",
+      "normal": "graphics/yokai/106_pitou/normal.gbapal.lz",
+      "shiny": "graphics/yokai/106_pitou/shiny.gbapal.lz",
+      "icon": "graphics/yokai/106_pitou/icon.4bpp",
+      "footprint": "graphics/yokai/106_pitou/footprint.1bpp"
+    }
+  },
+  {
+    "index": 107,
+    "name": "Choubidou",
+    "classification": "A",
+    "observation": "Forme plus développée que 106 ; oreilles, corps et cœur bien séparés, arrière sans visage.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/107_choubidou/front.png",
+      "back": "graphics/yokai/107_choubidou/back.png",
+      "normal": "graphics/yokai/107_choubidou/normal.pal",
+      "shiny": "graphics/yokai/107_choubidou/shiny.pal",
+      "icon": "graphics/yokai/107_choubidou/icon.png",
+      "footprint": "graphics/yokai/107_choubidou/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/107_choubidou/front.4bpp.lz",
+      "back": "graphics/yokai/107_choubidou/back.4bpp.lz",
+      "normal": "graphics/yokai/107_choubidou/normal.gbapal.lz",
+      "shiny": "graphics/yokai/107_choubidou/shiny.gbapal.lz",
+      "icon": "graphics/yokai/107_choubidou/icon.4bpp",
+      "footprint": "graphics/yokai/107_choubidou/footprint.1bpp"
+    }
+  },
+  {
+    "index": 108,
+    "name": "Arbrézo",
+    "classification": "A",
+    "observation": "Grand corps sphérique intentionnel ; petite pousse verte ne réduit pas le visage, arrière homogène.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/108_arbrezo/front.png",
+      "back": "graphics/yokai/108_arbrezo/back.png",
+      "normal": "graphics/yokai/108_arbrezo/normal.pal",
+      "shiny": "graphics/yokai/108_arbrezo/shiny.pal",
+      "icon": "graphics/yokai/108_arbrezo/icon.png",
+      "footprint": "graphics/yokai/108_arbrezo/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/108_arbrezo/front.4bpp.lz",
+      "back": "graphics/yokai/108_arbrezo/back.4bpp.lz",
+      "normal": "graphics/yokai/108_arbrezo/normal.gbapal.lz",
+      "shiny": "graphics/yokai/108_arbrezo/shiny.gbapal.lz",
+      "icon": "graphics/yokai/108_arbrezo/icon.4bpp",
+      "footprint": "graphics/yokai/108_arbrezo/footprint.1bpp"
+    }
+  },
+  {
+    "index": 109,
+    "name": "Abrézo Social",
+    "classification": "A",
+    "observation": "Évolution arborée identifiable ; feuillage et couronne accompagnent le ventre sans le masquer.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/109_abrezo_social/front.png",
+      "back": "graphics/yokai/109_abrezo_social/back.png",
+      "normal": "graphics/yokai/109_abrezo_social/normal.pal",
+      "shiny": "graphics/yokai/109_abrezo_social/shiny.pal",
+      "icon": "graphics/yokai/109_abrezo_social/icon.png",
+      "footprint": "graphics/yokai/109_abrezo_social/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/109_abrezo_social/front.4bpp.lz",
+      "back": "graphics/yokai/109_abrezo_social/back.4bpp.lz",
+      "normal": "graphics/yokai/109_abrezo_social/normal.gbapal.lz",
+      "shiny": "graphics/yokai/109_abrezo_social/shiny.gbapal.lz",
+      "icon": "graphics/yokai/109_abrezo_social/icon.4bpp",
+      "footprint": "graphics/yokai/109_abrezo_social/footprint.1bpp"
+    }
+  },
+  {
+    "index": 110,
+    "name": "Espreschiot",
+    "classification": "A",
+    "observation": "Petit chien sous chapeau lisible ; vue arrière de tête et queue distinctes de la cravate.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/110_espreschiot/front.png",
+      "back": "graphics/yokai/110_espreschiot/back.png",
+      "normal": "graphics/yokai/110_espreschiot/normal.pal",
+      "shiny": "graphics/yokai/110_espreschiot/shiny.pal",
+      "icon": "graphics/yokai/110_espreschiot/icon.png",
+      "footprint": "graphics/yokai/110_espreschiot/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/110_espreschiot/front.4bpp.lz",
+      "back": "graphics/yokai/110_espreschiot/back.4bpp.lz",
+      "normal": "graphics/yokai/110_espreschiot/normal.gbapal.lz",
+      "shiny": "graphics/yokai/110_espreschiot/shiny.gbapal.lz",
+      "icon": "graphics/yokai/110_espreschiot/icon.4bpp",
+      "footprint": "graphics/yokai/110_espreschiot/footprint.1bpp"
+    }
+  },
+  {
+    "index": 111,
+    "name": "Duc DeLaFeuille",
+    "classification": "D",
+    "observation": "Face à conserver strictement ; dos encore trop frontal/trois-quarts, reconstruire tête, plumes et tenue arrière.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Véritable arrière bleu et robe orange sans visage frontal ; face originale copiée sans changement.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/111_duc_delafeuille/front.png",
+      "back": "graphics/yokai/111_duc_delafeuille/back.png",
+      "normal": "graphics/yokai/111_duc_delafeuille/normal.pal",
+      "shiny": "graphics/yokai/111_duc_delafeuille/shiny.pal",
+      "icon": "graphics/yokai/111_duc_delafeuille/icon.png",
+      "footprint": "graphics/yokai/111_duc_delafeuille/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/111_duc_delafeuille/front.4bpp.lz",
+      "back": "graphics/yokai/111_duc_delafeuille/back.4bpp.lz",
+      "normal": "graphics/yokai/111_duc_delafeuille/normal.gbapal.lz",
+      "shiny": "graphics/yokai/111_duc_delafeuille/shiny.gbapal.lz",
+      "icon": "graphics/yokai/111_duc_delafeuille/icon.4bpp",
+      "footprint": "graphics/yokai/111_duc_delafeuille/footprint.1bpp"
+    }
+  },
+  {
+    "index": 112,
+    "name": "FeuildeChou",
+    "classification": "C",
+    "observation": "Très grandes oreilles, corps minuscule et dos peu volumineux ; replier les oreilles sans perdre leurs motifs colorés.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Tête plus lisible, oreilles compactées et corps dorsal redessiné.",
+    "remaining": "Oreilles encore trop étalées ; présence centrale inférieure à 111 et pliage à accentuer.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/112_feuildechou/front.png",
+      "back": "graphics/yokai/112_feuildechou/back.png",
+      "normal": "graphics/yokai/112_feuildechou/normal.pal",
+      "shiny": "graphics/yokai/112_feuildechou/shiny.pal",
+      "icon": "graphics/yokai/112_feuildechou/icon.png",
+      "footprint": "graphics/yokai/112_feuildechou/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/112_feuildechou/front.4bpp.lz",
+      "back": "graphics/yokai/112_feuildechou/back.4bpp.lz",
+      "normal": "graphics/yokai/112_feuildechou/normal.gbapal.lz",
+      "shiny": "graphics/yokai/112_feuildechou/shiny.gbapal.lz",
+      "icon": "graphics/yokai/112_feuildechou/icon.4bpp",
+      "footprint": "graphics/yokai/112_feuildechou/footprint.1bpp"
+    }
+  },
+  {
+    "index": 113,
+    "name": "Sal de bain",
+    "classification": "A",
+    "observation": "Silhouette, visage et masse centrale convaincants ; aucune modification, conformément à la consigne explicite.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/113_sal_de_bain/front.png",
+      "back": "graphics/yokai/113_sal_de_bain/back.png",
+      "normal": "graphics/yokai/113_sal_de_bain/normal.pal",
+      "shiny": "graphics/yokai/113_sal_de_bain/shiny.pal",
+      "icon": "graphics/yokai/113_sal_de_bain/icon.png",
+      "footprint": "graphics/yokai/113_sal_de_bain/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/113_sal_de_bain/front.4bpp.lz",
+      "back": "graphics/yokai/113_sal_de_bain/back.4bpp.lz",
+      "normal": "graphics/yokai/113_sal_de_bain/normal.gbapal.lz",
+      "shiny": "graphics/yokai/113_sal_de_bain/shiny.gbapal.lz",
+      "icon": "graphics/yokai/113_sal_de_bain/icon.4bpp",
+      "footprint": "graphics/yokai/113_sal_de_bain/footprint.1bpp"
+    }
+  },
+  {
+    "index": 114,
+    "name": "XXL de bain",
+    "classification": "C",
+    "observation": "Langue étalée impose un petit corps ; la courber et agrandir tête/torse, comparer à 113 sans modifier celui-ci.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Langue courbée près du corps, tête et vêtement plus lisibles, dos recomposé.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/114_xxl_de_bain/front.png",
+      "back": "graphics/yokai/114_xxl_de_bain/back.png",
+      "normal": "graphics/yokai/114_xxl_de_bain/normal.pal",
+      "shiny": "graphics/yokai/114_xxl_de_bain/shiny.pal",
+      "icon": "graphics/yokai/114_xxl_de_bain/icon.png",
+      "footprint": "graphics/yokai/114_xxl_de_bain/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/114_xxl_de_bain/front.4bpp.lz",
+      "back": "graphics/yokai/114_xxl_de_bain/back.4bpp.lz",
+      "normal": "graphics/yokai/114_xxl_de_bain/normal.gbapal.lz",
+      "shiny": "graphics/yokai/114_xxl_de_bain/shiny.gbapal.lz",
+      "icon": "graphics/yokai/114_xxl_de_bain/icon.4bpp",
+      "footprint": "graphics/yokai/114_xxl_de_bain/footprint.1bpp"
+    }
+  },
+  {
+    "index": 115,
+    "name": "Tristos",
+    "classification": "A",
+    "observation": "Silhouette squelettique volontaire, tête et cage thoracique lisibles ; dos sans grand œil frontal.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/115_tristos/front.png",
+      "back": "graphics/yokai/115_tristos/back.png",
+      "normal": "graphics/yokai/115_tristos/normal.pal",
+      "shiny": "graphics/yokai/115_tristos/shiny.pal",
+      "icon": "graphics/yokai/115_tristos/icon.png",
+      "footprint": "graphics/yokai/115_tristos/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/115_tristos/front.4bpp.lz",
+      "back": "graphics/yokai/115_tristos/back.4bpp.lz",
+      "normal": "graphics/yokai/115_tristos/normal.gbapal.lz",
+      "shiny": "graphics/yokai/115_tristos/shiny.gbapal.lz",
+      "icon": "graphics/yokai/115_tristos/icon.4bpp",
+      "footprint": "graphics/yokai/115_tristos/footprint.1bpp"
+    }
+  },
+  {
+    "index": 116,
+    "name": "Rocky Badboya",
+    "classification": "B",
+    "observation": "Petit segment rose isolé près du bord latéral ; possible résidu de voisin d'atlas, conserver la crête et le poing.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": true,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "Diagnostic à confirmer et proposition graphique à préparer.",
+    "review_status": "not_drawn",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/116_rocky_badboya/front.png",
+      "back": "graphics/yokai/116_rocky_badboya/back.png",
+      "normal": "graphics/yokai/116_rocky_badboya/normal.pal",
+      "shiny": "graphics/yokai/116_rocky_badboya/shiny.pal",
+      "icon": "graphics/yokai/116_rocky_badboya/icon.png",
+      "footprint": "graphics/yokai/116_rocky_badboya/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/116_rocky_badboya/front.4bpp.lz",
+      "back": "graphics/yokai/116_rocky_badboya/back.4bpp.lz",
+      "normal": "graphics/yokai/116_rocky_badboya/normal.gbapal.lz",
+      "shiny": "graphics/yokai/116_rocky_badboya/shiny.gbapal.lz",
+      "icon": "graphics/yokai/116_rocky_badboya/icon.4bpp",
+      "footprint": "graphics/yokai/116_rocky_badboya/footprint.1bpp"
+    }
+  },
+  {
+    "index": 117,
+    "name": "Raton Glandeur",
+    "classification": "C",
+    "observation": "Bouée et éclaboussures dominent le raton ; donner la priorité à sa tête, son torse et sa position assise.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Raton et arrière de tête plus visibles dans la bouée, éclaboussures simplifiées.",
+    "remaining": "Bouée encore large ; réduire davantage son emprise et mettre plus de torse à découvert.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/117_raton_glandeur/front.png",
+      "back": "graphics/yokai/117_raton_glandeur/back.png",
+      "normal": "graphics/yokai/117_raton_glandeur/normal.pal",
+      "shiny": "graphics/yokai/117_raton_glandeur/shiny.pal",
+      "icon": "graphics/yokai/117_raton_glandeur/icon.png",
+      "footprint": "graphics/yokai/117_raton_glandeur/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/117_raton_glandeur/front.4bpp.lz",
+      "back": "graphics/yokai/117_raton_glandeur/back.4bpp.lz",
+      "normal": "graphics/yokai/117_raton_glandeur/normal.gbapal.lz",
+      "shiny": "graphics/yokai/117_raton_glandeur/shiny.gbapal.lz",
+      "icon": "graphics/yokai/117_raton_glandeur/icon.4bpp",
+      "footprint": "graphics/yokai/117_raton_glandeur/footprint.1bpp"
+    }
+  },
+  {
+    "index": 118,
+    "name": "Vertipiou",
+    "classification": "A",
+    "observation": "Oiseau sphérique à petits membres assumé ; arrière sans yeux, ailes et pieds bien distincts.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/118_vertipiou/front.png",
+      "back": "graphics/yokai/118_vertipiou/back.png",
+      "normal": "graphics/yokai/118_vertipiou/normal.pal",
+      "shiny": "graphics/yokai/118_vertipiou/shiny.pal",
+      "icon": "graphics/yokai/118_vertipiou/icon.png",
+      "footprint": "graphics/yokai/118_vertipiou/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/118_vertipiou/front.4bpp.lz",
+      "back": "graphics/yokai/118_vertipiou/back.4bpp.lz",
+      "normal": "graphics/yokai/118_vertipiou/normal.gbapal.lz",
+      "shiny": "graphics/yokai/118_vertipiou/shiny.gbapal.lz",
+      "icon": "graphics/yokai/118_vertipiou/icon.4bpp",
+      "footprint": "graphics/yokai/118_vertipiou/footprint.1bpp"
+    }
+  },
+  {
+    "index": 119,
+    "name": "Samoussrai",
+    "classification": "B",
+    "observation": "Chapeau large mais légitime ; léger gain de corps sous le chapeau en gardant la petite forme d'apprenti.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Corps, bras et jambes plus visibles sous le chapeau ; accessoires conservés dans le canevas.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/119_samoussrai/front.png",
+      "back": "graphics/yokai/119_samoussrai/back.png",
+      "normal": "graphics/yokai/119_samoussrai/normal.pal",
+      "shiny": "graphics/yokai/119_samoussrai/shiny.pal",
+      "icon": "graphics/yokai/119_samoussrai/icon.png",
+      "footprint": "graphics/yokai/119_samoussrai/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/119_samoussrai/front.4bpp.lz",
+      "back": "graphics/yokai/119_samoussrai/back.4bpp.lz",
+      "normal": "graphics/yokai/119_samoussrai/normal.gbapal.lz",
+      "shiny": "graphics/yokai/119_samoussrai/shiny.gbapal.lz",
+      "icon": "graphics/yokai/119_samoussrai/icon.4bpp",
+      "footprint": "graphics/yokai/119_samoussrai/footprint.1bpp"
+    }
+  },
+  {
+    "index": 120,
+    "name": "Ronimpec",
+    "classification": "A",
+    "observation": "Évolution plus massive et armée que 119 ; casque, bras et torse assez présents, dos différencié.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/120_ronimpec/front.png",
+      "back": "graphics/yokai/120_ronimpec/back.png",
+      "normal": "graphics/yokai/120_ronimpec/normal.pal",
+      "shiny": "graphics/yokai/120_ronimpec/shiny.pal",
+      "icon": "graphics/yokai/120_ronimpec/icon.png",
+      "footprint": "graphics/yokai/120_ronimpec/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/120_ronimpec/front.4bpp.lz",
+      "back": "graphics/yokai/120_ronimpec/back.4bpp.lz",
+      "normal": "graphics/yokai/120_ronimpec/normal.gbapal.lz",
+      "shiny": "graphics/yokai/120_ronimpec/shiny.gbapal.lz",
+      "icon": "graphics/yokai/120_ronimpec/icon.4bpp",
+      "footprint": "graphics/yokai/120_ronimpec/footprint.1bpp"
+    }
+  },
+  {
+    "index": 121,
+    "name": "Moufpète",
+    "classification": "A",
+    "observation": "Queue touffue essentielle à la moufette ; tête et corps encore visibles, dos et bande claire cohérents.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/121_moufpete/front.png",
+      "back": "graphics/yokai/121_moufpete/back.png",
+      "normal": "graphics/yokai/121_moufpete/normal.pal",
+      "shiny": "graphics/yokai/121_moufpete/shiny.pal",
+      "icon": "graphics/yokai/121_moufpete/icon.png",
+      "footprint": "graphics/yokai/121_moufpete/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/121_moufpete/front.4bpp.lz",
+      "back": "graphics/yokai/121_moufpete/back.4bpp.lz",
+      "normal": "graphics/yokai/121_moufpete/normal.gbapal.lz",
+      "shiny": "graphics/yokai/121_moufpete/shiny.gbapal.lz",
+      "icon": "graphics/yokai/121_moufpete/icon.4bpp",
+      "footprint": "graphics/yokai/121_moufpete/footprint.1bpp"
+    }
+  },
+  {
+    "index": 122,
+    "name": "Gloups",
+    "classification": "A",
+    "observation": "Bouche géante constitutive du design ; arrière vert sans cavité buccale frontale.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/122_gloups/front.png",
+      "back": "graphics/yokai/122_gloups/back.png",
+      "normal": "graphics/yokai/122_gloups/normal.pal",
+      "shiny": "graphics/yokai/122_gloups/shiny.pal",
+      "icon": "graphics/yokai/122_gloups/icon.png",
+      "footprint": "graphics/yokai/122_gloups/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/122_gloups/front.4bpp.lz",
+      "back": "graphics/yokai/122_gloups/back.4bpp.lz",
+      "normal": "graphics/yokai/122_gloups/normal.gbapal.lz",
+      "shiny": "graphics/yokai/122_gloups/shiny.gbapal.lz",
+      "icon": "graphics/yokai/122_gloups/icon.4bpp",
+      "footprint": "graphics/yokai/122_gloups/footprint.1bpp"
+    }
+  },
+  {
+    "index": 123,
+    "name": "Chip-Chop",
+    "classification": "A",
+    "observation": "Grosse sphère et petit corps typiques du personnage ; dos sans visage, pas de correction fondée sur la seule taille du torse.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/123_chip_chop/front.png",
+      "back": "graphics/yokai/123_chip_chop/back.png",
+      "normal": "graphics/yokai/123_chip_chop/normal.pal",
+      "shiny": "graphics/yokai/123_chip_chop/shiny.pal",
+      "icon": "graphics/yokai/123_chip_chop/icon.png",
+      "footprint": "graphics/yokai/123_chip_chop/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/123_chip_chop/front.4bpp.lz",
+      "back": "graphics/yokai/123_chip_chop/back.4bpp.lz",
+      "normal": "graphics/yokai/123_chip_chop/normal.gbapal.lz",
+      "shiny": "graphics/yokai/123_chip_chop/shiny.gbapal.lz",
+      "icon": "graphics/yokai/123_chip_chop/icon.4bpp",
+      "footprint": "graphics/yokai/123_chip_chop/footprint.1bpp"
+    }
+  },
+  {
+    "index": 124,
+    "name": "Chaipo",
+    "classification": "C",
+    "observation": "Nez orangé et yeux trop frontaux au dos ; supprimer le nez arrière et reconstruire les extrémités des appendices.",
+    "proportions_list": false,
+    "specific_defect_list": true,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Nez orangé supprimé du dos et masse verte arrière reconstruite ; face intacte.",
+    "remaining": "Spirales des deux yeux encore trop frontales ; reconstruire les extrémités vues de derrière.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/124_chaipo/front.png",
+      "back": "graphics/yokai/124_chaipo/back.png",
+      "normal": "graphics/yokai/124_chaipo/normal.pal",
+      "shiny": "graphics/yokai/124_chaipo/shiny.pal",
+      "icon": "graphics/yokai/124_chaipo/icon.png",
+      "footprint": "graphics/yokai/124_chaipo/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/124_chaipo/front.4bpp.lz",
+      "back": "graphics/yokai/124_chaipo/back.4bpp.lz",
+      "normal": "graphics/yokai/124_chaipo/normal.gbapal.lz",
+      "shiny": "graphics/yokai/124_chaipo/shiny.gbapal.lz",
+      "icon": "graphics/yokai/124_chaipo/icon.4bpp",
+      "footprint": "graphics/yokai/124_chaipo/footprint.1bpp"
+    }
+  },
+  {
+    "index": 125,
+    "name": "Mémogre",
+    "classification": "A",
+    "observation": "Livre et tête composent une silhouette identifiable ; dos de couverture distinct du visage frontal.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/125_memogre/front.png",
+      "back": "graphics/yokai/125_memogre/back.png",
+      "normal": "graphics/yokai/125_memogre/normal.pal",
+      "shiny": "graphics/yokai/125_memogre/shiny.pal",
+      "icon": "graphics/yokai/125_memogre/icon.png",
+      "footprint": "graphics/yokai/125_memogre/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/125_memogre/front.4bpp.lz",
+      "back": "graphics/yokai/125_memogre/back.4bpp.lz",
+      "normal": "graphics/yokai/125_memogre/normal.gbapal.lz",
+      "shiny": "graphics/yokai/125_memogre/shiny.gbapal.lz",
+      "icon": "graphics/yokai/125_memogre/icon.4bpp",
+      "footprint": "graphics/yokai/125_memogre/footprint.1bpp"
+    }
+  },
+  {
+    "index": 126,
+    "name": "Jojojoyeux",
+    "classification": "A",
+    "observation": "Silhouette plate/flottante volontaire ; tête et sourire lisibles, arrière sans visage.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/126_jojojoyeux/front.png",
+      "back": "graphics/yokai/126_jojojoyeux/back.png",
+      "normal": "graphics/yokai/126_jojojoyeux/normal.pal",
+      "shiny": "graphics/yokai/126_jojojoyeux/shiny.pal",
+      "icon": "graphics/yokai/126_jojojoyeux/icon.png",
+      "footprint": "graphics/yokai/126_jojojoyeux/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/126_jojojoyeux/front.4bpp.lz",
+      "back": "graphics/yokai/126_jojojoyeux/back.4bpp.lz",
+      "normal": "graphics/yokai/126_jojojoyeux/normal.gbapal.lz",
+      "shiny": "graphics/yokai/126_jojojoyeux/shiny.gbapal.lz",
+      "icon": "graphics/yokai/126_jojojoyeux/icon.4bpp",
+      "footprint": "graphics/yokai/126_jojojoyeux/footprint.1bpp"
+    }
+  },
+  {
+    "index": 127,
+    "name": "Chauvkipeut",
+    "classification": "A",
+    "observation": "Ailes repliées forment déjà une silhouette compacte ; visage et motifs bien lisibles, bon contre-exemple pour 128.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/127_chauvkipeut/front.png",
+      "back": "graphics/yokai/127_chauvkipeut/back.png",
+      "normal": "graphics/yokai/127_chauvkipeut/normal.pal",
+      "shiny": "graphics/yokai/127_chauvkipeut/shiny.pal",
+      "icon": "graphics/yokai/127_chauvkipeut/icon.png",
+      "footprint": "graphics/yokai/127_chauvkipeut/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/127_chauvkipeut/front.4bpp.lz",
+      "back": "graphics/yokai/127_chauvkipeut/back.4bpp.lz",
+      "normal": "graphics/yokai/127_chauvkipeut/normal.gbapal.lz",
+      "shiny": "graphics/yokai/127_chauvkipeut/shiny.gbapal.lz",
+      "icon": "graphics/yokai/127_chauvkipeut/icon.4bpp",
+      "footprint": "graphics/yokai/127_chauvkipeut/footprint.1bpp"
+    }
+  },
+  {
+    "index": 128,
+    "name": "Chauv'coucou",
+    "classification": "C",
+    "observation": "Envergure domine la maison ; maison à agrandir et ailes à rabattre, préserver toit et entrée.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Maison et porte plus présentes, toit arrière identifiable, ailes redessinées.",
+    "remaining": "Ailes pas assez rabattues ; maison encore à renforcer, essai partiel.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/128_chauv_coucou/front.png",
+      "back": "graphics/yokai/128_chauv_coucou/back.png",
+      "normal": "graphics/yokai/128_chauv_coucou/normal.pal",
+      "shiny": "graphics/yokai/128_chauv_coucou/shiny.pal",
+      "icon": "graphics/yokai/128_chauv_coucou/icon.png",
+      "footprint": "graphics/yokai/128_chauv_coucou/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/128_chauv_coucou/front.4bpp.lz",
+      "back": "graphics/yokai/128_chauv_coucou/back.4bpp.lz",
+      "normal": "graphics/yokai/128_chauv_coucou/normal.gbapal.lz",
+      "shiny": "graphics/yokai/128_chauv_coucou/shiny.gbapal.lz",
+      "icon": "graphics/yokai/128_chauv_coucou/icon.4bpp",
+      "footprint": "graphics/yokai/128_chauv_coucou/footprint.1bpp"
+    }
+  },
+  {
+    "index": 129,
+    "name": "Pachycool",
+    "classification": "C",
+    "observation": "Oreilles très larges pour un petit corps ; plus de hauteur, tête et trompe plus lisibles.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Tête et corps plus hauts, oreilles rapprochées et trompe compacte ; dos plus rond.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/129_pachycool/front.png",
+      "back": "graphics/yokai/129_pachycool/back.png",
+      "normal": "graphics/yokai/129_pachycool/normal.pal",
+      "shiny": "graphics/yokai/129_pachycool/shiny.pal",
+      "icon": "graphics/yokai/129_pachycool/icon.png",
+      "footprint": "graphics/yokai/129_pachycool/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/129_pachycool/front.4bpp.lz",
+      "back": "graphics/yokai/129_pachycool/back.4bpp.lz",
+      "normal": "graphics/yokai/129_pachycool/normal.gbapal.lz",
+      "shiny": "graphics/yokai/129_pachycool/shiny.gbapal.lz",
+      "icon": "graphics/yokai/129_pachycool/icon.4bpp",
+      "footprint": "graphics/yokai/129_pachycool/footprint.1bpp"
+    }
+  },
+  {
+    "index": 130,
+    "name": "Pachypipi",
+    "classification": "C",
+    "observation": "Défenses et largeur limitent la masse ; augmenter tête, ventre et jambes, silhouette plus massive que 129.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Mammouth au corps plus plein et jambes mieux délimitées, défenses conservées.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/130_pachypipi/front.png",
+      "back": "graphics/yokai/130_pachypipi/back.png",
+      "normal": "graphics/yokai/130_pachypipi/normal.pal",
+      "shiny": "graphics/yokai/130_pachypipi/shiny.pal",
+      "icon": "graphics/yokai/130_pachypipi/icon.png",
+      "footprint": "graphics/yokai/130_pachypipi/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/130_pachypipi/front.4bpp.lz",
+      "back": "graphics/yokai/130_pachypipi/back.4bpp.lz",
+      "normal": "graphics/yokai/130_pachypipi/normal.gbapal.lz",
+      "shiny": "graphics/yokai/130_pachypipi/shiny.gbapal.lz",
+      "icon": "graphics/yokai/130_pachypipi/icon.4bpp",
+      "footprint": "graphics/yokai/130_pachypipi/footprint.1bpp"
+    }
+  },
+  {
+    "index": 131,
+    "name": "Loubarbare",
+    "classification": "C",
+    "observation": "Pompadour et éléments latéraux dominent ; recomposer le lézard et rendre sa queue arrière unique, sans ambiguïté.",
+    "proportions_list": true,
+    "specific_defect_list": true,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Lézard plus présent sous la coiffure, dos redessiné avec un seul tracé de queue voulu.",
+    "remaining": "Queue encore peu séparée des pattes ; sa lecture unique doit être rendue évidente.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/131_loubarbare/front.png",
+      "back": "graphics/yokai/131_loubarbare/back.png",
+      "normal": "graphics/yokai/131_loubarbare/normal.pal",
+      "shiny": "graphics/yokai/131_loubarbare/shiny.pal",
+      "icon": "graphics/yokai/131_loubarbare/icon.png",
+      "footprint": "graphics/yokai/131_loubarbare/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/131_loubarbare/front.4bpp.lz",
+      "back": "graphics/yokai/131_loubarbare/back.4bpp.lz",
+      "normal": "graphics/yokai/131_loubarbare/normal.gbapal.lz",
+      "shiny": "graphics/yokai/131_loubarbare/shiny.gbapal.lz",
+      "icon": "graphics/yokai/131_loubarbare/icon.4bpp",
+      "footprint": "graphics/yokai/131_loubarbare/footprint.1bpp"
+    }
+  },
+  {
+    "index": 132,
+    "name": "Racaïd",
+    "classification": "C",
+    "observation": "Batte et coiffure limitent la carrure ; torse et épaules à renforcer tout en gardant l'arme.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Torse et bras de bagarreur redessinés, batte gardée proche des épaules.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/132_racaid/front.png",
+      "back": "graphics/yokai/132_racaid/back.png",
+      "normal": "graphics/yokai/132_racaid/normal.pal",
+      "shiny": "graphics/yokai/132_racaid/shiny.pal",
+      "icon": "graphics/yokai/132_racaid/icon.png",
+      "footprint": "graphics/yokai/132_racaid/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/132_racaid/front.4bpp.lz",
+      "back": "graphics/yokai/132_racaid/back.4bpp.lz",
+      "normal": "graphics/yokai/132_racaid/normal.gbapal.lz",
+      "shiny": "graphics/yokai/132_racaid/shiny.gbapal.lz",
+      "icon": "graphics/yokai/132_racaid/icon.4bpp",
+      "footprint": "graphics/yokai/132_racaid/footprint.1bpp"
+    }
+  },
+  {
+    "index": 133,
+    "name": "Terminyanator",
+    "classification": "C",
+    "observation": "Moto domine la face ; tête et épaules à agrandir, dos actuel plus imposant à conserver.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Tête métallique et épaules plus lisibles au-dessus de la moto ; dos d'origine conservé.",
+    "remaining": "Moto encore dominante ; proposition partielle de composition, pas de gain définitif affirmé.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/133_terminyanator/front.png",
+      "back": "graphics/yokai/133_terminyanator/back.png",
+      "normal": "graphics/yokai/133_terminyanator/normal.pal",
+      "shiny": "graphics/yokai/133_terminyanator/shiny.pal",
+      "icon": "graphics/yokai/133_terminyanator/icon.png",
+      "footprint": "graphics/yokai/133_terminyanator/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/133_terminyanator/front.4bpp.lz",
+      "back": "graphics/yokai/133_terminyanator/back.4bpp.lz",
+      "normal": "graphics/yokai/133_terminyanator/normal.gbapal.lz",
+      "shiny": "graphics/yokai/133_terminyanator/shiny.gbapal.lz",
+      "icon": "graphics/yokai/133_terminyanator/icon.4bpp",
+      "footprint": "graphics/yokai/133_terminyanator/footprint.1bpp"
+    }
+  },
+  {
+    "index": 134,
+    "name": "Sabruine",
+    "classification": "A",
+    "observation": "Parapluie et chevelure sont la silhouette du personnage ; arrière sans visage ni traits frontaux.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/134_sabruine/front.png",
+      "back": "graphics/yokai/134_sabruine/back.png",
+      "normal": "graphics/yokai/134_sabruine/normal.pal",
+      "shiny": "graphics/yokai/134_sabruine/shiny.pal",
+      "icon": "graphics/yokai/134_sabruine/icon.png",
+      "footprint": "graphics/yokai/134_sabruine/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/134_sabruine/front.4bpp.lz",
+      "back": "graphics/yokai/134_sabruine/back.4bpp.lz",
+      "normal": "graphics/yokai/134_sabruine/normal.gbapal.lz",
+      "shiny": "graphics/yokai/134_sabruine/shiny.gbapal.lz",
+      "icon": "graphics/yokai/134_sabruine/icon.4bpp",
+      "footprint": "graphics/yokai/134_sabruine/footprint.1bpp"
+    }
+  },
+  {
+    "index": 135,
+    "name": "Sabrille",
+    "classification": "D",
+    "observation": "Rayons satisfaisants mais torse arrière encore frontal ; supprimer chemise/revers de face et redessiner les vêtements de dos.",
+    "proportions_list": true,
+    "specific_defect_list": true,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Dos de veste redessiné sans chemise frontale évidente ; face légèrement recomposée.",
+    "remaining": "Plis du veston et bras encore ambigus ; contrôle et retouches au pixel requis.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/135_sabrille/front.png",
+      "back": "graphics/yokai/135_sabrille/back.png",
+      "normal": "graphics/yokai/135_sabrille/normal.pal",
+      "shiny": "graphics/yokai/135_sabrille/shiny.pal",
+      "icon": "graphics/yokai/135_sabrille/icon.png",
+      "footprint": "graphics/yokai/135_sabrille/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/135_sabrille/front.4bpp.lz",
+      "back": "graphics/yokai/135_sabrille/back.4bpp.lz",
+      "normal": "graphics/yokai/135_sabrille/normal.gbapal.lz",
+      "shiny": "graphics/yokai/135_sabrille/shiny.gbapal.lz",
+      "icon": "graphics/yokai/135_sabrille/icon.4bpp",
+      "footprint": "graphics/yokai/135_sabrille/footprint.1bpp"
+    }
+  },
+  {
+    "index": 136,
+    "name": "Fourchelang",
+    "classification": "A",
+    "observation": "Langue et bouche géante participent au personnage ; arrière cohérent sans expression frontale.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/136_fourchelang/front.png",
+      "back": "graphics/yokai/136_fourchelang/back.png",
+      "normal": "graphics/yokai/136_fourchelang/normal.pal",
+      "shiny": "graphics/yokai/136_fourchelang/shiny.pal",
+      "icon": "graphics/yokai/136_fourchelang/icon.png",
+      "footprint": "graphics/yokai/136_fourchelang/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/136_fourchelang/front.4bpp.lz",
+      "back": "graphics/yokai/136_fourchelang/back.4bpp.lz",
+      "normal": "graphics/yokai/136_fourchelang/normal.gbapal.lz",
+      "shiny": "graphics/yokai/136_fourchelang/shiny.gbapal.lz",
+      "icon": "graphics/yokai/136_fourchelang/icon.4bpp",
+      "footprint": "graphics/yokai/136_fourchelang/footprint.1bpp"
+    }
+  },
+  {
+    "index": 137,
+    "name": "Felipaix",
+    "classification": "B",
+    "observation": "Petites particules orange/sombres à droite de la silhouette, sur les deux vues ; possibles résidus à nettoyer après identification.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": true,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "Diagnostic à confirmer et proposition graphique à préparer.",
+    "review_status": "not_drawn",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/137_felipaix/front.png",
+      "back": "graphics/yokai/137_felipaix/back.png",
+      "normal": "graphics/yokai/137_felipaix/normal.pal",
+      "shiny": "graphics/yokai/137_felipaix/shiny.pal",
+      "icon": "graphics/yokai/137_felipaix/icon.png",
+      "footprint": "graphics/yokai/137_felipaix/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/137_felipaix/front.4bpp.lz",
+      "back": "graphics/yokai/137_felipaix/back.4bpp.lz",
+      "normal": "graphics/yokai/137_felipaix/normal.gbapal.lz",
+      "shiny": "graphics/yokai/137_felipaix/shiny.gbapal.lz",
+      "icon": "graphics/yokai/137_felipaix/icon.4bpp",
+      "footprint": "graphics/yokai/137_felipaix/footprint.1bpp"
+    }
+  },
+  {
+    "index": 138,
+    "name": "M. Felipaix",
+    "classification": "A",
+    "observation": "Corps simple et arrondi cohérent avec 137 ; dos propre, pas de particules similaires évidentes.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/138_m_felipaix/front.png",
+      "back": "graphics/yokai/138_m_felipaix/back.png",
+      "normal": "graphics/yokai/138_m_felipaix/normal.pal",
+      "shiny": "graphics/yokai/138_m_felipaix/shiny.pal",
+      "icon": "graphics/yokai/138_m_felipaix/icon.png",
+      "footprint": "graphics/yokai/138_m_felipaix/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/138_m_felipaix/front.4bpp.lz",
+      "back": "graphics/yokai/138_m_felipaix/back.4bpp.lz",
+      "normal": "graphics/yokai/138_m_felipaix/normal.gbapal.lz",
+      "shiny": "graphics/yokai/138_m_felipaix/shiny.gbapal.lz",
+      "icon": "graphics/yokai/138_m_felipaix/icon.4bpp",
+      "footprint": "graphics/yokai/138_m_felipaix/footprint.1bpp"
+    }
+  },
+  {
+    "index": 139,
+    "name": "Doyaris",
+    "classification": "B",
+    "observation": "Face un peu moins présente que le dos ; gain léger sans modifier le couvre-chef ni le dos réussi.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Essai de visage et manteau de face plus lisibles ; dos d'origine conservé.",
+    "remaining": "Gain de présence faible par rapport à l'original ; version optionnelle, ne pas considérer l'agrandissement demandé comme acquis.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/139_doyaris/front.png",
+      "back": "graphics/yokai/139_doyaris/back.png",
+      "normal": "graphics/yokai/139_doyaris/normal.pal",
+      "shiny": "graphics/yokai/139_doyaris/shiny.pal",
+      "icon": "graphics/yokai/139_doyaris/icon.png",
+      "footprint": "graphics/yokai/139_doyaris/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/139_doyaris/front.4bpp.lz",
+      "back": "graphics/yokai/139_doyaris/back.4bpp.lz",
+      "normal": "graphics/yokai/139_doyaris/normal.gbapal.lz",
+      "shiny": "graphics/yokai/139_doyaris/shiny.gbapal.lz",
+      "icon": "graphics/yokai/139_doyaris/icon.4bpp",
+      "footprint": "graphics/yokai/139_doyaris/footprint.1bpp"
+    }
+  },
+  {
+    "index": 140,
+    "name": "Doyen Doyaris",
+    "classification": "A",
+    "observation": "Forme âgée plus développée que 139 ; tête, bâton et cape bien hiérarchisés, arrière lisible.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/140_doyen_doyaris/front.png",
+      "back": "graphics/yokai/140_doyen_doyaris/back.png",
+      "normal": "graphics/yokai/140_doyen_doyaris/normal.pal",
+      "shiny": "graphics/yokai/140_doyen_doyaris/shiny.pal",
+      "icon": "graphics/yokai/140_doyen_doyaris/icon.png",
+      "footprint": "graphics/yokai/140_doyen_doyaris/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/140_doyen_doyaris/front.4bpp.lz",
+      "back": "graphics/yokai/140_doyen_doyaris/back.4bpp.lz",
+      "normal": "graphics/yokai/140_doyen_doyaris/normal.gbapal.lz",
+      "shiny": "graphics/yokai/140_doyen_doyaris/shiny.gbapal.lz",
+      "icon": "graphics/yokai/140_doyen_doyaris/icon.4bpp",
+      "footprint": "graphics/yokai/140_doyen_doyaris/footprint.1bpp"
+    }
+  },
+  {
+    "index": 141,
+    "name": "Volroulo",
+    "classification": "A",
+    "observation": "Grande coiffure mais buste et veste présents ; dos de veste correctement distinct de la chemise.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/141_volroulo/front.png",
+      "back": "graphics/yokai/141_volroulo/back.png",
+      "normal": "graphics/yokai/141_volroulo/normal.pal",
+      "shiny": "graphics/yokai/141_volroulo/shiny.pal",
+      "icon": "graphics/yokai/141_volroulo/icon.png",
+      "footprint": "graphics/yokai/141_volroulo/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/141_volroulo/front.4bpp.lz",
+      "back": "graphics/yokai/141_volroulo/back.4bpp.lz",
+      "normal": "graphics/yokai/141_volroulo/normal.gbapal.lz",
+      "shiny": "graphics/yokai/141_volroulo/shiny.gbapal.lz",
+      "icon": "graphics/yokai/141_volroulo/icon.4bpp",
+      "footprint": "graphics/yokai/141_volroulo/footprint.1bpp"
+    }
+  },
+  {
+    "index": 142,
+    "name": "Lulugubre",
+    "classification": "C",
+    "observation": "Masse centrale trop plate ; augmenter volume et tristesse lisible en conservant l'affaissement.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Masse centrale plus haute et bombée, plis affaissés et expression triste conservés.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/142_lulugubre/front.png",
+      "back": "graphics/yokai/142_lulugubre/back.png",
+      "normal": "graphics/yokai/142_lulugubre/normal.pal",
+      "shiny": "graphics/yokai/142_lulugubre/shiny.pal",
+      "icon": "graphics/yokai/142_lulugubre/icon.png",
+      "footprint": "graphics/yokai/142_lulugubre/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/142_lulugubre/front.4bpp.lz",
+      "back": "graphics/yokai/142_lulugubre/back.4bpp.lz",
+      "normal": "graphics/yokai/142_lulugubre/normal.gbapal.lz",
+      "shiny": "graphics/yokai/142_lulugubre/shiny.gbapal.lz",
+      "icon": "graphics/yokai/142_lulugubre/icon.4bpp",
+      "footprint": "graphics/yokai/142_lulugubre/footprint.1bpp"
+    }
+  },
+  {
+    "index": 143,
+    "name": "Toumou",
+    "classification": "C",
+    "observation": "Lame énorme réduit le petit personnage ; rapprocher sa courbe et donner plus de place à la tête et aux pieds.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Courbe de la grande lame rapprochée du petit corps, pieds et face rendus plus lisibles.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/143_toumou/front.png",
+      "back": "graphics/yokai/143_toumou/back.png",
+      "normal": "graphics/yokai/143_toumou/normal.pal",
+      "shiny": "graphics/yokai/143_toumou/shiny.pal",
+      "icon": "graphics/yokai/143_toumou/icon.png",
+      "footprint": "graphics/yokai/143_toumou/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/143_toumou/front.4bpp.lz",
+      "back": "graphics/yokai/143_toumou/back.4bpp.lz",
+      "normal": "graphics/yokai/143_toumou/normal.gbapal.lz",
+      "shiny": "graphics/yokai/143_toumou/shiny.gbapal.lz",
+      "icon": "graphics/yokai/143_toumou/icon.4bpp",
+      "footprint": "graphics/yokai/143_toumou/footprint.1bpp"
+    }
+  },
+  {
+    "index": 144,
+    "name": "Lamlam'mou",
+    "classification": "C",
+    "observation": "Plusieurs lames saturent la silhouette ; recomposer autour d'un corps plus lisible et plus menaçant que 143.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Lames courbées autour d'un corps central redessiné, arrière sans visage.",
+    "remaining": "Corps encore petit sous les lames ; menace et progression depuis 143 à renforcer.",
+    "review_status": "incomplete",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/144_lamlam_mou/front.png",
+      "back": "graphics/yokai/144_lamlam_mou/back.png",
+      "normal": "graphics/yokai/144_lamlam_mou/normal.pal",
+      "shiny": "graphics/yokai/144_lamlam_mou/shiny.pal",
+      "icon": "graphics/yokai/144_lamlam_mou/icon.png",
+      "footprint": "graphics/yokai/144_lamlam_mou/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/144_lamlam_mou/front.4bpp.lz",
+      "back": "graphics/yokai/144_lamlam_mou/back.4bpp.lz",
+      "normal": "graphics/yokai/144_lamlam_mou/normal.gbapal.lz",
+      "shiny": "graphics/yokai/144_lamlam_mou/shiny.gbapal.lz",
+      "icon": "graphics/yokai/144_lamlam_mou/icon.4bpp",
+      "footprint": "graphics/yokai/144_lamlam_mou/footprint.1bpp"
+    }
+  },
+  {
+    "index": 145,
+    "name": "Savantard",
+    "classification": "B",
+    "observation": "Bâton et coiffe limitent un peu le visage ; gain mesuré de tête et de corps, rester un savant.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Savant redessiné avec tête plus lisible et bâton proche du corps, sans carrure guerrière.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/145_savantard/front.png",
+      "back": "graphics/yokai/145_savantard/back.png",
+      "normal": "graphics/yokai/145_savantard/normal.pal",
+      "shiny": "graphics/yokai/145_savantard/shiny.pal",
+      "icon": "graphics/yokai/145_savantard/icon.png",
+      "footprint": "graphics/yokai/145_savantard/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/145_savantard/front.4bpp.lz",
+      "back": "graphics/yokai/145_savantard/back.4bpp.lz",
+      "normal": "graphics/yokai/145_savantard/normal.gbapal.lz",
+      "shiny": "graphics/yokai/145_savantard/shiny.gbapal.lz",
+      "icon": "graphics/yokai/145_savantard/icon.4bpp",
+      "footprint": "graphics/yokai/145_savantard/footprint.1bpp"
+    }
+  },
+  {
+    "index": 146,
+    "name": "Loupépin",
+    "classification": "A",
+    "observation": "Tête orange et arc séparés ; corps de loup et cape arrière lisibles, arme complète.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/146_loupepin/front.png",
+      "back": "graphics/yokai/146_loupepin/back.png",
+      "normal": "graphics/yokai/146_loupepin/normal.pal",
+      "shiny": "graphics/yokai/146_loupepin/shiny.pal",
+      "icon": "graphics/yokai/146_loupepin/icon.png",
+      "footprint": "graphics/yokai/146_loupepin/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/146_loupepin/front.4bpp.lz",
+      "back": "graphics/yokai/146_loupepin/back.4bpp.lz",
+      "normal": "graphics/yokai/146_loupepin/normal.gbapal.lz",
+      "shiny": "graphics/yokai/146_loupepin/shiny.gbapal.lz",
+      "icon": "graphics/yokai/146_loupepin/icon.4bpp",
+      "footprint": "graphics/yokai/146_loupepin/footprint.1bpp"
+    }
+  },
+  {
+    "index": 147,
+    "name": "Mademoaiselle",
+    "classification": "C",
+    "observation": "Bijoux concurrencent le visage de pierre ; accentuer le nez et la masse Moaï, réduire légèrement les anneaux.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Visage de pierre redessiné, grand nez accentué, anneaux plus petits ; dos d'origine conservé.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/147_mademoaiselle/front.png",
+      "back": "graphics/yokai/147_mademoaiselle/back.png",
+      "normal": "graphics/yokai/147_mademoaiselle/normal.pal",
+      "shiny": "graphics/yokai/147_mademoaiselle/shiny.pal",
+      "icon": "graphics/yokai/147_mademoaiselle/icon.png",
+      "footprint": "graphics/yokai/147_mademoaiselle/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/147_mademoaiselle/front.4bpp.lz",
+      "back": "graphics/yokai/147_mademoaiselle/back.4bpp.lz",
+      "normal": "graphics/yokai/147_mademoaiselle/normal.gbapal.lz",
+      "shiny": "graphics/yokai/147_mademoaiselle/shiny.gbapal.lz",
+      "icon": "graphics/yokai/147_mademoaiselle/icon.4bpp",
+      "footprint": "graphics/yokai/147_mademoaiselle/footprint.1bpp"
+    }
+  },
+  {
+    "index": 148,
+    "name": "Maître Nyada",
+    "classification": "A",
+    "observation": "Grande tête féline et manteau bien lisibles ; arrière du manteau et oreilles cohérents.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/148_maitre_nyada/front.png",
+      "back": "graphics/yokai/148_maitre_nyada/back.png",
+      "normal": "graphics/yokai/148_maitre_nyada/normal.pal",
+      "shiny": "graphics/yokai/148_maitre_nyada/shiny.pal",
+      "icon": "graphics/yokai/148_maitre_nyada/icon.png",
+      "footprint": "graphics/yokai/148_maitre_nyada/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/148_maitre_nyada/front.4bpp.lz",
+      "back": "graphics/yokai/148_maitre_nyada/back.4bpp.lz",
+      "normal": "graphics/yokai/148_maitre_nyada/normal.gbapal.lz",
+      "shiny": "graphics/yokai/148_maitre_nyada/shiny.gbapal.lz",
+      "icon": "graphics/yokai/148_maitre_nyada/icon.4bpp",
+      "footprint": "graphics/yokai/148_maitre_nyada/footprint.1bpp"
+    }
+  },
+  {
+    "index": 149,
+    "name": "Hovernyan",
+    "classification": "C",
+    "observation": "Cape horizontale écrase le chat ; la rabattre vers le bas et supprimer le disque blanc erroné du dos.",
+    "proportions_list": true,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": true,
+    "work_done": "Cape rouge retombant derrière le chat sur les deux vues ; disque blanc arrière supprimé, tête mieux dégagée.",
+    "remaining": "—",
+    "review_status": "ready_for_user_review",
+    "user_approval": "not_requested_yet",
+    "sources": {
+      "front": "graphics/yokai/149_hovernyan/front.png",
+      "back": "graphics/yokai/149_hovernyan/back.png",
+      "normal": "graphics/yokai/149_hovernyan/normal.pal",
+      "shiny": "graphics/yokai/149_hovernyan/shiny.pal",
+      "icon": "graphics/yokai/149_hovernyan/icon.png",
+      "footprint": "graphics/yokai/149_hovernyan/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/149_hovernyan/front.4bpp.lz",
+      "back": "graphics/yokai/149_hovernyan/back.4bpp.lz",
+      "normal": "graphics/yokai/149_hovernyan/normal.gbapal.lz",
+      "shiny": "graphics/yokai/149_hovernyan/shiny.gbapal.lz",
+      "icon": "graphics/yokai/149_hovernyan/icon.4bpp",
+      "footprint": "graphics/yokai/149_hovernyan/footprint.1bpp"
+    }
+  },
+  {
+    "index": 150,
+    "name": "Enma",
+    "classification": "C",
+    "observation": "Flammes et accessoires encadrent une petite tête ; piste autonome de simplification secondaire, sans toucher à la correspondance Mewtwo.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": true,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "Diagnostic à confirmer et proposition graphique à préparer.",
+    "review_status": "not_drawn",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/150_enma/front.png",
+      "back": "graphics/yokai/150_enma/back.png",
+      "normal": "graphics/yokai/150_enma/normal.pal",
+      "shiny": "graphics/yokai/150_enma/shiny.pal",
+      "icon": "graphics/yokai/150_enma/icon.png",
+      "footprint": "graphics/yokai/150_enma/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/150_enma/front.4bpp.lz",
+      "back": "graphics/yokai/150_enma/back.4bpp.lz",
+      "normal": "graphics/yokai/150_enma/normal.gbapal.lz",
+      "shiny": "graphics/yokai/150_enma/shiny.gbapal.lz",
+      "icon": "graphics/yokai/150_enma/icon.4bpp",
+      "footprint": "graphics/yokai/150_enma/footprint.1bpp"
+    }
+  },
+  {
+    "index": 151,
+    "name": "Raltesse",
+    "classification": "A",
+    "observation": "Couronne, oreilles et ventre de rat bien lisibles ; arrière sans visage, queue unique cohérente.",
+    "proportions_list": false,
+    "specific_defect_list": false,
+    "additional_finding": false,
+    "proposal_present": false,
+    "work_done": "Aucune modification.",
+    "remaining": "—",
+    "review_status": "preserve_original",
+    "user_approval": "not_applicable",
+    "sources": {
+      "front": "graphics/yokai/151_raltesse/front.png",
+      "back": "graphics/yokai/151_raltesse/back.png",
+      "normal": "graphics/yokai/151_raltesse/normal.pal",
+      "shiny": "graphics/yokai/151_raltesse/shiny.pal",
+      "icon": "graphics/yokai/151_raltesse/icon.png",
+      "footprint": "graphics/yokai/151_raltesse/footprint.png"
+    },
+    "compiled": {
+      "front": "graphics/yokai/151_raltesse/front.4bpp.lz",
+      "back": "graphics/yokai/151_raltesse/back.4bpp.lz",
+      "normal": "graphics/yokai/151_raltesse/normal.gbapal.lz",
+      "shiny": "graphics/yokai/151_raltesse/shiny.gbapal.lz",
+      "icon": "graphics/yokai/151_raltesse/icon.4bpp",
+      "footprint": "graphics/yokai/151_raltesse/footprint.1bpp"
+    }
+  }
+]

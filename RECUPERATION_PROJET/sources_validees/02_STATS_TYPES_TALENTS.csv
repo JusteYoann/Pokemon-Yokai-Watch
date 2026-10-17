@@ -1,0 +1,152 @@
+﻿numero_yokai;nom_yokai;species_constant;type_1;type_2;pv;attaque;defense;attaque_speciale;defense_speciale;vitesse;bst;talent_1;talent_2;ability_1;ability_2;provenance
+001;Jibanyan;SPECIES_BULBASAUR;Feu;;40;58;42;60;39;81;320;Brasier;;ABILITY_BLAZE;;Validé + corrigé vs V1
+002;Bandinyan;SPECIES_IVYSAUR;Feu;Ténèbres;79;98;77;80;58;78;470;Cran;;ABILITY_GUTS;;Validé + corrigé vs V1
+003;Épinyan;SPECIES_VENUSAUR;Feu;Poison;60;112;58;65;60;115;470;Point Poison;;ABILITY_POISON_POINT;;Validé + corrigé vs V1
+004;Shogunyan;SPECIES_CHARMANDER;Feu;Acier;69;150;66;54;73;138;550;Attention;;ABILITY_INNER_FOCUS;;V1 conservée après validation
+005;Komasan;SPECIES_CHARMELEON;Feu;;60;45;50;70;55;40;320;Brasier;;ABILITY_BLAZE;;V1 conservée après validation
+006;Komaous;SPECIES_CHARIZARD;Feu;;80;90;70;130;75;75;520;Brasier;;ABILITY_BLAZE;;V1 conservée après validation
+007;Komastar;SPECIES_SQUIRTLE;Feu;Électrik;90;110;90;130;80;60;560;Torche;;ABILITY_FLASH_FIRE;;V1 conservée après validation
+008;Whisper;SPECIES_WARTORTLE;Spectre;;85;32;68;70;101;54;410;Lévitation;;ABILITY_LEVITATE;;V1 conservée après validation
+009;Cigalopin;SPECIES_BLASTOISE;Insecte;;34;74;35;28;40;69;280;Essaim;Œil Composé;ABILITY_SWARM;ABILITY_COMPOUND_EYES;V1 conservée après validation
+010;Cigallard;SPECIES_CATERPIE;Insecte;;69;104;67;50;56;64;410;Essaim;Œil Composé;ABILITY_SWARM;ABILITY_COMPOUND_EYES;V1 conservée après validation
+011;Murhaine;SPECIES_METAPOD;Eau;;33;31;33;81;41;61;280;Absorb Eau;Glissade;ABILITY_WATER_ABSORB;ABILITY_SWIFT_SWIM;V1 conservée après validation
+012;Saumhonni;SPECIES_BUTTERFREE;Eau;;93;37;78;117;118;27;470;Absorb Eau;Cuvette;ABILITY_WATER_ABSORB;ABILITY_RAIN_DISH;Validé + corrigé vs V1
+013;Dracounet;SPECIES_WEEDLE;Dragon;;42;33;44;99;46;76;340;Attention;Pression;ABILITY_INNER_FOCUS;ABILITY_PRESSURE;V1 conservée après validation
+014;Sir Dragon;SPECIES_KAKUNA;Dragon;Vol;108;112;116;85;77;32;530;Attention;Pression;ABILITY_INNER_FOCUS;ABILITY_PRESSURE;Validé + corrigé vs V1
+015;Octorgone;SPECIES_BEEDRILL;Ténèbres;;110;120;100;110;100;60;600;Pression;;ABILITY_PRESSURE;;Validé + corrigé vs V1
+016;Kyubi;SPECIES_PIDGEY;Feu;;85;75;80;145;120;95;600;Torche;;ABILITY_FLASH_FIRE;;V1 conservée après validation
+017;Robonyan;SPECIES_PIDGEOTTO;Acier;;82;100;105;26;69;28;410;Armurbaston;;ABILITY_BATTLE_ARMOR;;V1 conservée après validation
+018;Robonyan F;SPECIES_PIDGEOT;Acier;;101;124;118;30;78;29;480;Armurbaston;;ABILITY_BATTLE_ARMOR;;V1 conservée après validation
+019;Robonyan 28;SPECIES_RATTATA;Acier;;112;124;141;48;89;36;550;Armurbaston;Pression;ABILITY_BATTLE_ARMOR;ABILITY_PRESSURE;Validé + corrigé vs V1
+020;Faux Kappa;SPECIES_RATICATE;Eau;;46;65;44;60;45;80;340;Glissade;;ABILITY_SWIFT_SWIM;;Validé + corrigé vs V1
+021;Tukappa;SPECIES_SPEAROW;Eau;;98;105;106;75;66;20;470;Glissade;;ABILITY_SWIFT_SWIM;;Validé + corrigé vs V1
+022;Granpapéti;SPECIES_FEAROW;Normal;;65;25;59;55;86;50;340;Fuite;Ramassage;ABILITY_RUN_AWAY;ABILITY_PICKUP;V1 conservée après validation
+023;Puissanfon;SPECIES_EKANS;Normal;;113;73;116;54;83;31;470;Isograisse;Ramassage;ABILITY_THICK_FAT;ABILITY_PICKUP;Validé + corrigé vs V1
+024;Nanpart;SPECIES_ARBOK;Roche;;51;55;55;43;49;27;280;Fermeté;Tête de Roc;ABILITY_STURDY;ABILITY_ROCK_HEAD;Validé + corrigé vs V1
+025;Passpa;SPECIES_PIKACHU;Roche;;101;80;102;32;74;21;410;Fermeté;Tête de Roc;ABILITY_STURDY;ABILITY_ROCK_HEAD;Validé + corrigé vs V1
+026;Angelik;SPECIES_RAICHU;Glace;;65;28;56;84;87;20;340;Isograisse;Ignifu-Voile;ABILITY_THICK_FAT;ABILITY_WATER_VEIL;V1 conservée après validation
+027;Blizzaria;SPECIES_SANDSHREW;Glace;;65;46;58;130;65;106;470;Isograisse;Ignifu-Voile;ABILITY_THICK_FAT;ABILITY_WATER_VEIL;Validé + corrigé vs V1
+028;Feulion;SPECIES_SANDSLASH;Feu;;86;106;93;90;67;88;530;Torche;Corps Ardent;ABILITY_FLASH_FIRE;ABILITY_FLAME_BODY;Validé + corrigé vs V1
+029;Padrezo;SPECIES_NIDORAN_F;Électrik;;55;50;55;80;45;35;320;Statik;;ABILITY_STATIC;;V1 conservée après validation
+030;Émettor;SPECIES_NIDORINA;Électrik;;80;70;70;125;85;90;520;Statik;;ABILITY_STATIC;;V1 conservée après validation
+031;Crocho;SPECIES_NIDOQUEEN;Normal;;90;103;98;25;67;27;410;Cran;;ABILITY_GUTS;;V1 conservée après validation
+032;Potofeu;SPECIES_NIDORAN_M;Spectre;;108;92;86;78;132;34;530;Lévitation;;ABILITY_LEVITATE;;Validé + corrigé vs V1
+033;Misterre;SPECIES_NIDORINO;Sol;Plante;106;72;92;80;115;65;530;Chlorophylle;;ABILITY_CHLOROPHYLL;;Validé + corrigé vs V1
+034;Métaurolog;SPECIES_NIDOKING;Normal;;64;57;53;68;56;42;340;Fuite;Ramassage;ABILITY_RUN_AWAY;ABILITY_PICKUP;V1 conservée après validation
+035;Tauracle;SPECIES_CLEFAIRY;Normal;;98;100;110;75;61;26;470;Intimidation;Ramassage;ABILITY_INTIMIDATE;ABILITY_PICKUP;Validé + corrigé vs V1
+036;Poulpatouch;SPECIES_CLEFABLE;Normal;;65;59;55;65;55;41;340;Fuite;Ramassage;ABILITY_RUN_AWAY;ABILITY_PICKUP;V1 conservée après validation
+037;Poulpater;SPECIES_VULPIX;Normal;Feu;79;101;58;106;57;69;470;Corps Ardent;Ramassage;ABILITY_FLAME_BODY;ABILITY_PICKUP;Validé + corrigé vs V1
+038;Bonneto;SPECIES_NINETALES;Ténèbres;;46;34;38;83;47;92;340;Intimidation;Attention;ABILITY_INTIMIDATE;ABILITY_INNER_FOCUS;V1 conservée après validation
+039;Sabri;SPECIES_JIGGLYPUFF;Ténèbres;Combat;63;116;54;72;52;113;470;Intimidation;Attention;ABILITY_INTIMIDATE;ABILITY_INNER_FOCUS;Validé + corrigé vs V1
+040;Démophage;SPECIES_WIGGLYTUFF;Combat;;109;133;132;39;86;31;530;Cran;Esprit Vital;ABILITY_GUTS;ABILITY_VITAL_SPIRIT;V1 conservée après validation
+041;Brumette;SPECIES_ZUBAT;Spectre;;53;48;46;25;65;43;280;Lévitation;Insomnia;ABILITY_LEVITATE;ABILITY_INSOMNIA;Validé + corrigé vs V1
+042;Brumella;SPECIES_GOLBAT;Spectre;;85;75;62;61;104;23;410;Lévitation;Insomnia;ABILITY_LEVITATE;ABILITY_INSOMNIA;Validé + corrigé vs V1
+043;Télémir;SPECIES_ODDISH;Spectre;;68;55;54;32;80;51;340;Lévitation;Insomnia;ABILITY_LEVITATE;ABILITY_INSOMNIA;Validé + corrigé vs V1
+044;Triptic-tac;SPECIES_GLOOM;Spectre;;91;79;79;90;103;28;470;Lévitation;Insomnia;ABILITY_LEVITATE;ABILITY_INSOMNIA;Validé + corrigé vs V1
+045;Nihilistik;SPECIES_VILEPLUME;Insecte;Poison;36;73;37;26;36;72;280;Essaim;Œil Composé;ABILITY_SWARM;ABILITY_COMPOUND_EYES;V1 conservée après validation
+046;Émousstik;SPECIES_PARAS;Insecte;Poison;65;124;53;45;60;123;470;Essaim;Œil Composé;ABILITY_SWARM;ABILITY_COMPOUND_EYES;V1 conservée après validation
+047;Humainequin;SPECIES_PARASECT;Normal;;79;120;60;84;57;70;470;Calque;Ramassage;ABILITY_TRACE;ABILITY_PICKUP;Validé + corrigé vs V1
+048;Slurpent;SPECIES_VENONAT;Poison;;98;90;75;70;112;25;470;Suintement;;ABILITY_LIQUID_OOZE;;Validé + corrigé vs V1
+049;Baku;SPECIES_VENOMOTH;Psy;;70;26;51;84;87;22;340;Synchro;Attention;ABILITY_SYNCHRONIZE;ABILITY_INNER_FOCUS;V1 conservée après validation
+050;Bakuku;SPECIES_DIGLETT;Psy;;90;39;78;121;113;29;470;Synchro;Attention;ABILITY_SYNCHRONIZE;ABILITY_INNER_FOCUS;V1 conservée après validation
+051;Mognyan;SPECIES_DUGTRIO;Psy;;71;51;65;153;70;120;530;Synchro;;ABILITY_SYNCHRONIZE;;V1 conservée après validation
+052;Bouh;SPECIES_MEOWTH;Sol;;55;85;44;63;48;45;340;Voile Sable;Tête de Roc;ABILITY_SAND_VEIL;ABILITY_ROCK_HEAD;Validé + corrigé vs V1
+053;Lacanne;SPECIES_PERSIAN;Plante;;52;50;48;50;41;39;280;Chlorophylle;Engrais;ABILITY_CHLOROPHYLL;ABILITY_OVERGROW;V1 conservée après validation
+054;Canastelle;SPECIES_PSYDUCK;Plante;;101;44;96;72;73;24;410;Chlorophylle;Engrais;ABILITY_CHLOROPHYLL;ABILITY_OVERGROW;Validé + corrigé vs V1
+055;Yvantouse;SPECIES_GOLDUCK;Normal;;64;75;52;52;52;45;340;Fuite;Ramassage;ABILITY_RUN_AWAY;ABILITY_PICKUP;Validé + corrigé vs V1
+056;Ed Mémoire;SPECIES_MANKEY;Psy;;92;40;76;119;116;27;470;Synchro;Attention;ABILITY_SYNCHRONIZE;ABILITY_INNER_FOCUS;V1 conservée après validation
+057;Couchtar;SPECIES_PRIMEAPE;Ténèbres;Vol;44;55;38;63;50;90;340;Intimidation;Attention;ABILITY_INTIMIDATE;ABILITY_INNER_FOCUS;Validé + corrigé vs V1
+058;Noctambill;SPECIES_GROWLITHE;Ténèbres;Vol;70;95;56;100;80;129;530;Intimidation;Attention;ABILITY_INTIMIDATE;ABILITY_INNER_FOCUS;Validé + corrigé vs V1
+059;Fouetar;SPECIES_ARCANINE;Combat;Ténèbres;58;87;55;37;46;57;340;Cran;Esprit Vital;ABILITY_GUTS;ABILITY_VITAL_SPIRIT;V1 conservée après validation
+060;Superfouetar;SPECIES_POLIWAG;Combat;Ténèbres;114;115;110;80;82;29;530;Cran;Esprit Vital;ABILITY_GUTS;ABILITY_VITAL_SPIRIT;Validé + corrigé vs V1
+061;Égare-dare;SPECIES_POLIWHIRL;Acier;;65;46;72;30;47;20;280;Fermeté;Armurbaston;ABILITY_STURDY;ABILITY_BATTLE_ARMOR;V1 conservée après validation
+062;Charivari;SPECIES_POLIWRATH;Acier;;103;115;117;36;73;26;470;Fermeté;Armurbaston;ABILITY_STURDY;ABILITY_BATTLE_ARMOR;V1 conservée après validation
+063;Chihuaglagla;SPECIES_ABRA;Glace;;40;25;37;79;38;61;280;Isograisse;Ignifu-Voile;ABILITY_THICK_FAT;ABILITY_WATER_VEIL;V1 conservée après validation
+064;Frohuahua;SPECIES_KADABRA;Glace;;94;38;76;122;116;24;470;Isograisse;Ignifu-Voile;ABILITY_THICK_FAT;ABILITY_WATER_VEIL;V1 conservée après validation
+065;Gorgouille;SPECIES_ALAKAZAM;Combat;;114;132;128;40;85;31;530;Cran;;ABILITY_GUTS;;V1 conservée après validation
+066;Siréné;SPECIES_MACHOP;Eau;;41;33;37;100;47;82;340;Absorb Eau;Glissade;ABILITY_WATER_ABSORB;ABILITY_SWIFT_SWIM;V1 conservée après validation
+067;Sirénité;SPECIES_MACHOKE;Eau;;95;40;72;113;119;31;470;Absorb Eau;Cuvette;ABILITY_WATER_ABSORB;ABILITY_RAIN_DISH;Validé + corrigé vs V1
+068;Papa Ress;SPECIES_MACHAMP;Normal;;65;50;61;32;82;50;340;Fuite;Ramassage;ABILITY_RUN_AWAY;ABILITY_PICKUP;Validé + corrigé vs V1
+069;Ralbouc;SPECIES_BELLSPROUT;Normal;;114;78;118;48;81;31;470;Intimidation;Ramassage;ABILITY_INTIMIDATE;ABILITY_PICKUP;Validé + corrigé vs V1
+070;Sorcophage;SPECIES_WEEPINBELL;Spectre;;117;140;137;39;89;28;550;Lévitation;Insomnia;ABILITY_LEVITATE;ABILITY_INSOMNIA;V1 conservée après validation
+071;Insomnel;SPECIES_VICTREEBEL;Psy;;64;44;49;115;68;130;470;Synchro;Attention;ABILITY_SYNCHRONIZE;ABILITY_INNER_FOCUS;V1 conservée après validation
+072;Tata Aura;SPECIES_TENTACOOL;Vol;;105;70;85;65;135;70;530;Médic Nature;;ABILITY_NATURAL_CURE;;Validé + corrigé vs V1
+073;Tontonnerre;SPECIES_TENTACRUEL;Vol;;56;95;47;61;57;94;410;Regard Vif;Matinal;ABILITY_KEEN_EYE;ABILITY_EARLY_BIRD;Validé + corrigé vs V1
+074;Antonnerre;SPECIES_GEODUDE;Électrik;;45;35;45;80;65;70;340;Statik;;ABILITY_STATIC;;V1 conservée après validation
+075;Parantonn;SPECIES_GRAVELER;Électrik;Vol;85;75;70;95;100;65;490;Paratonnerre;;ABILITY_LIGHTNING_ROD;;Validé + corrigé vs V1
+076;Scoltine;SPECIES_GOLEM;Insecte;;40;75;45;20;35;65;280;Essaim;;ABILITY_SWARM;;V1 conservée après validation
+077;Scolérique;SPECIES_PONYTA;Insecte;Ténèbres;80;115;90;55;50;85;475;Cran;;ABILITY_GUTS;;Validé + corrigé vs V1
+078;Coléroptere;SPECIES_RAPIDASH;Insecte;;75;110;115;25;75;50;450;Essaim;;ABILITY_SWARM;;V1 conservée après validation
+079;Rhinolimit;SPECIES_SLOWPOKE;Insecte;Acier;95;125;160;25;85;40;530;Armurbaston;;ABILITY_BATTLE_ARMOR;;V1 conservée après validation
+080;Scatcheur;SPECIES_SLOWBRO;Insecte;;65;115;65;30;60;115;450;Essaim;;ABILITY_SWARM;;V1 conservée après validation
+081;Scarmouche;SPECIES_MAGNEMITE;Insecte;;75;135;80;30;75;135;530;Hyper Cutter;;ABILITY_HYPER_CUTTER;;Validé + corrigé vs V1
+082;Noko;SPECIES_MAGNETON;Normal;;60;50;45;25;40;60;280;Ramassage;;ABILITY_PICKUP;;Validé + corrigé vs V1
+083;Nénunoko;SPECIES_FARFETCHD;Normal;;100;65;80;55;110;70;480;Sérénité;;ABILITY_SERENE_GRACE;;Validé + corrigé vs V1
+084;Trytik;SPECIES_DODUO;Feu;Sol;100;100;85;125;60;60;530;Intimidation;;ABILITY_INTIMIDATE;;Validé + corrigé vs V1
+085;Carpitaine;SPECIES_DODRIO;Eau;;95;100;110;67;73;25;470;Absorb Eau;Cuvette;ABILITY_WATER_ABSORB;ABILITY_RAIN_DISH;Validé + corrigé vs V1
+086;Turboss;SPECIES_SEEL;Eau;Combat;116;125;120;70;80;29;540;Intimidation;;ABILITY_INTIMIDATE;;Validé + corrigé vs V1
+087;Kappacap;SPECIES_DEWGONG;Eau;;60;60;60;65;45;30;320;Torrent;;ABILITY_TORRENT;;V1 conservée après validation
+088;Appak;SPECIES_GRIMER;Eau;;95;105;95;100;80;45;520;Torrent;;ABILITY_TORRENT;;V1 conservée après validation
+089;Camaueil;SPECIES_MUK;Plante;;74;51;71;142;76;116;530;Calque;;ABILITY_TRACE;;Validé + corrigé vs V1
+090;Glapie;SPECIES_SHELLDER;Vol;Spectre;69;115;61;92;71;122;530;Pression;;ABILITY_PRESSURE;;Validé + corrigé vs V1
+091;Chiperpiou;SPECIES_CLOYSTER;Normal;;33;79;30;28;37;73;280;Fuite;Ramassage;ABILITY_RUN_AWAY;ABILITY_PICKUP;V1 conservée après validation
+092;Rapiaf;SPECIES_GASTLY;Normal;;59;127;55;41;64;124;470;Regard Vif;Ramassage;ABILITY_KEEN_EYE;ABILITY_PICKUP;Validé + corrigé vs V1
+093;Tête de lard;SPECIES_HAUNTER;Feu;;63;71;40;73;44;49;340;Torche;Corps Ardent;ABILITY_FLASH_FIRE;ABILITY_FLAME_BODY;V1 conservée après validation
+094;Potache;SPECIES_GENGAR;Plante;;55;20;52;47;68;38;280;Chlorophylle;Engrais;ABILITY_CHLOROPHYLL;ABILITY_OVERGROW;V1 conservée après validation
+095;Dépotache;SPECIES_ONIX;Plante;;94;39;73;118;118;28;470;Chlorophylle;Engrais;ABILITY_CHLOROPHYLL;ABILITY_OVERGROW;V1 conservée après validation
+096;Navétéran;SPECIES_DROWZEE;Acier;;83;106;99;30;69;23;410;Fermeté;Armurbaston;ABILITY_STURDY;ABILITY_BATTLE_ARMOR;V1 conservée après validation
+097;Navigarmateur;SPECIES_HYPNO;Acier;;110;135;131;39;88;27;530;Fermeté;Armurbaston;ABILITY_STURDY;ABILITY_BATTLE_ARMOR;V1 conservée après validation
+098;Sergent Rampant;SPECIES_KRABBY;Insecte;;60;70;68;20;42;20;280;Essaim;Œil Composé;ABILITY_SWARM;ABILITY_COMPOUND_EYES;V1 conservée après validation
+099;Coach Antonic;SPECIES_KINGLER;Combat;;84;104;103;32;63;24;410;Cran;;ABILITY_GUTS;;V1 conservée après validation
+100;Usapion;SPECIES_VOLTORB;Acier;;45;89;41;30;46;89;340;Regard Vif;;ABILITY_KEEN_EYE;;V1 conservée après validation
+101;Emperor;SPECIES_ELECTRODE;Acier;Ténèbres;96;116;116;36;73;33;470;Armurbaston;;ABILITY_BATTLE_ARMOR;;V1 conservée après validation
+102;Castelius III;SPECIES_EXEGGCUTE;Vol;Acier;72;85;86;27;50;20;340;Regard Vif;Matinal;ABILITY_KEEN_EYE;ABILITY_EARLY_BIRD;V1 conservée après validation
+103;Castelius II;SPECIES_EXEGGUTOR;Vol;Acier;98;68;104;42;70;28;410;Regard Vif;Matinal;ABILITY_KEEN_EYE;ABILITY_EARLY_BIRD;V1 conservée après validation
+104;Castelius I;SPECIES_CUBONE;Vol;Acier;97;119;118;33;75;28;470;Regard Vif;Matinal;ABILITY_KEEN_EYE;ABILITY_EARLY_BIRD;V1 conservée après validation
+105;Castelius Max;SPECIES_MAROWAK;Vol;Acier;110;133;136;39;86;36;540;Pression;;ABILITY_PRESSURE;;V1 conservée après validation
+106;Pitou;SPECIES_HITMONLEE;Normal;;55;110;48;37;56;104;410;Fuite;Ramassage;ABILITY_RUN_AWAY;ABILITY_PICKUP;V1 conservée après validation
+107;Choubidou;SPECIES_HITMONCHAN;Normal;;114;132;127;38;86;33;530;Intimidation;Ramassage;ABILITY_INTIMIDATE;ABILITY_PICKUP;Validé + corrigé vs V1
+108;Arbrézo;SPECIES_LICKITUNG;Plante;;36;52;34;48;38;72;280;Chlorophylle;Engrais;ABILITY_CHLOROPHYLL;ABILITY_OVERGROW;Validé + corrigé vs V1
+109;Abrézo Social;SPECIES_KOFFING;Plante;Psy;101;65;108;105;64;27;470;Chlorophylle;Engrais;ABILITY_CHLOROPHYLL;ABILITY_OVERGROW;Validé + corrigé vs V1
+110;Espreschiot;SPECIES_WEEZING;Normal;Glace;52;39;52;121;49;97;410;Attention;;ABILITY_INNER_FOCUS;;V1 conservée après validation
+111;Duc DeLaFeuille;SPECIES_RHYHORN;Vol;;71;48;61;34;82;44;340;Regard Vif;Matinal;ABILITY_KEEN_EYE;ABILITY_EARLY_BIRD;Validé + corrigé vs V1
+112;FeuildeChou;SPECIES_RHYDON;Vol;;105;108;83;68;133;33;530;Regard Vif;Matinal;ABILITY_KEEN_EYE;ABILITY_EARLY_BIRD;Validé + corrigé vs V1
+113;Sal de bain;SPECIES_CHANSEY;Ténèbres;;67;25;57;57;84;50;340;Insomnia;Suintement;ABILITY_INSOMNIA;ABILITY_LIQUID_OOZE;Validé + corrigé vs V1
+114;XXL de bain;SPECIES_TANGELA;Ténèbres;;96;40;74;118;118;24;470;Intimidation;Suintement;ABILITY_INTIMIDATE;ABILITY_LIQUID_OOZE;Validé + corrigé vs V1
+115;Tristos;SPECIES_KANGASKHAN;Spectre;;96;35;77;79;115;68;470;Insomnia;;ABILITY_INSOMNIA;;V1 conservée après validation
+116;Rocky Badboya;SPECIES_HORSEA;Combat;;105;130;85;35;80;60;495;Cran;;ABILITY_GUTS;;Validé + corrigé vs V1
+117;Raton Glandeur;SPECIES_SEADRA;Normal;Eau;87;90;96;55;59;23;410;Tempo Perso;;ABILITY_OWN_TEMPO;;Validé + corrigé vs V1
+118;Vertipiou;SPECIES_GOLDEEN;Vol;;56;55;43;40;66;20;280;Agitation;;ABILITY_HUSTLE;;Validé + corrigé vs V1
+119;Samoussrai;SPECIES_SEAKING;Combat;;50;60;70;35;50;25;290;Cran;Esprit Vital;ABILITY_GUTS;ABILITY_VITAL_SPIRIT;Validé + corrigé vs V1
+120;Ronimpec;SPECIES_STARYU;Combat;;85;105;105;65;80;40;480;Cran;Esprit Vital;ABILITY_GUTS;ABILITY_VITAL_SPIRIT;Validé + corrigé vs V1
+121;Moufpète;SPECIES_STARMIE;Poison;;70;85;70;65;65;55;410;Puanteur;Point Poison;ABILITY_STENCH;ABILITY_POISON_POINT;Validé + corrigé vs V1
+122;Gloups;SPECIES_MR_MIME;Ténèbres;;36;54;38;40;36;76;280;Intimidation;Attention;ABILITY_INTIMIDATE;ABILITY_INNER_FOCUS;Validé + corrigé vs V1
+123;Chip-Chop;SPECIES_SCYTHER;Ténèbres;;85;80;98;70;54;23;410;Intimidation;Attention;ABILITY_INTIMIDATE;ABILITY_INNER_FOCUS;Validé + corrigé vs V1
+124;Chaipo;SPECIES_JYNX;Spectre;;56;48;44;40;71;21;280;Lévitation;Insomnia;ABILITY_LEVITATE;ABILITY_INSOMNIA;Validé + corrigé vs V1
+125;Mémogre;SPECIES_ELECTABUZZ;Spectre;;58;125;59;40;65;123;470;Pression;;ABILITY_PRESSURE;;V1 conservée après validation
+126;Jojojoyeux;SPECIES_MAGMAR;Vol;;84;58;67;44;100;57;410;Regard Vif;Matinal;ABILITY_KEEN_EYE;ABILITY_EARLY_BIRD;Validé + corrigé vs V1
+127;Chauvkipeut;SPECIES_PINSIR;Vol;Ténèbres;92;56;81;56;118;67;470;Regard Vif;Matinal;ABILITY_KEEN_EYE;ABILITY_EARLY_BIRD;Validé + corrigé vs V1
+128;Chauv'coucou;SPECIES_TAUROS;Vol;Ténèbres;111;115;119;68;83;34;530;Regard Vif;Matinal;ABILITY_KEEN_EYE;ABILITY_EARLY_BIRD;Validé + corrigé vs V1
+129;Pachycool;SPECIES_MAGIKARP;Sol;;65;70;52;54;52;47;340;Voile Sable;Tête de Roc;ABILITY_SAND_VEIL;ABILITY_ROCK_HEAD;Validé + corrigé vs V1
+130;Pachypipi;SPECIES_GYARADOS;Sol;;62;105;58;77;60;108;470;Voile Sable;Tête de Roc;ABILITY_SAND_VEIL;ABILITY_ROCK_HEAD;Validé + corrigé vs V1
+131;Loubarbare;SPECIES_LAPRAS;Ténèbres;;46;34;37;102;42;79;340;Intimidation;Attention;ABILITY_INTIMIDATE;ABILITY_INNER_FOCUS;V1 conservée après validation
+132;Racaïd;SPECIES_DITTO;Ténèbres;;100;105;107;65;63;30;470;Intimidation;Attention;ABILITY_INTIMIDATE;ABILITY_INNER_FOCUS;Validé + corrigé vs V1
+133;Terminyanator;SPECIES_EEVEE;Acier;Ténèbres;113;115;125;70;73;34;530;Armurbaston;;ABILITY_BATTLE_ARMOR;;Validé + corrigé vs V1
+134;Sabruine;SPECIES_VAPOREON;Eau;;55;85;45;80;53;92;410;Absorb Eau;Glissade;ABILITY_WATER_ABSORB;ABILITY_SWIFT_SWIM;Validé + corrigé vs V1
+135;Sabrille;SPECIES_JOLTEON;Feu;;65;45;55;117;53;75;410;Torche;;ABILITY_FLASH_FIRE;;Validé + corrigé vs V1
+136;Fourchelang;SPECIES_FLAREON;Psy;;96;85;108;90;64;27;470;Synchro;Attention;ABILITY_SYNCHRONIZE;ABILITY_INNER_FOCUS;Validé + corrigé vs V1
+137;Felipaix;SPECIES_PORYGON;Sol;;55;49;44;44;67;21;280;Voile Sable;Tête de Roc;ABILITY_SAND_VEIL;ABILITY_ROCK_HEAD;Validé + corrigé vs V1
+138;M. Felipaix;SPECIES_OMANYTE;Sol;;53;100;50;60;56;91;410;Voile Sable;Tête de Roc;ABILITY_SAND_VEIL;ABILITY_ROCK_HEAD;Validé + corrigé vs V1
+139;Doyaris;SPECIES_OMASTAR;Plante;;70;31;59;51;83;46;340;Chlorophylle;Engrais;ABILITY_CHLOROPHYLL;ABILITY_OVERGROW;V1 conservée après validation
+140;Doyen Doyaris;SPECIES_KABUTO;Plante;;90;34;78;120;119;29;470;Chlorophylle;Engrais;ABILITY_CHLOROPHYLL;ABILITY_OVERGROW;V1 conservée après validation
+141;Volroulo;SPECIES_KABUTOPS;Vol;;106;75;94;52;131;72;530;Regard Vif;Matinal;ABILITY_KEEN_EYE;ABILITY_EARLY_BIRD;Validé + corrigé vs V1
+142;Lulugubre;SPECIES_AERODACTYL;Poison;;84;52;87;37;58;22;340;Point Poison;Suintement;ABILITY_POISON_POINT;ABILITY_LIQUID_OOZE;V1 conservée après validation
+143;Toumou;SPECIES_SNORLAX;Poison;;57;44;47;47;65;20;280;Point Poison;Suintement;ABILITY_POISON_POINT;ABILITY_LIQUID_OOZE;Validé + corrigé vs V1
+144;Lamlam'mou;SPECIES_ARTICUNO;Normal;;87;103;102;26;66;26;410;Immunité;Ramassage;ABILITY_IMMUNITY;ABILITY_PICKUP;Validé + corrigé vs V1
+145;Savantard;SPECIES_ZAPDOS;Psy;;110;40;95;145;120;70;580;Calque;;ABILITY_TRACE;;V1 conservée après validation
+146;Loupépin;SPECIES_MOLTRES;Normal;;57;89;56;39;42;57;340;Fuite;Ramassage;ABILITY_RUN_AWAY;ABILITY_PICKUP;V1 conservée après validation
+147;Mademoaiselle;SPECIES_DRATINI;Roche;;120;85;130;95;120;50;600;Corps Sain;;ABILITY_CLEAR_BODY;;V1 conservée après validation
+148;Maître Nyada;SPECIES_DRAGONAIR;Psy;;75;120;75;120;75;120;585;Attention;;ABILITY_INNER_FOCUS;;V1 conservée après validation
+149;Hovernyan;SPECIES_DRAGONITE;Vol;;65;144;62;47;70;142;530;Regard Vif;;ABILITY_KEEN_EYE;;V1 conservée après validation
+150;Enma;SPECIES_MEWTWO;Psy;;115;110;110;125;110;110;680;Pression;;ABILITY_PRESSURE;;Validé + corrigé vs V1
+151;Raltesse;SPECIES_MEW;Ténèbres;;62;63;54;65;51;45;340;Synchro;;ABILITY_SYNCHRONIZE;;V1 conservée après validation

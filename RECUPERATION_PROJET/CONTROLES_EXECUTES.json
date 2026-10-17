@@ -1,0 +1,150 @@
+{
+  "scope": "integrite des fichiers recuperes, pas validation du jeu",
+  "custom_yokai_game_build_executed": false,
+  "emulator_executed": false,
+  "PROVENANCE_GITHUB.json": {
+    "verified_files": 417
+  },
+  "PROVENANCE_DOCUMENTS.json": {
+    "verified_files": 18
+  },
+  "gallery": {
+    "species": 151,
+    "hashed_resources": 906,
+    "nonempty_combat_sprites": 302,
+    "shared_icon_palettes": 3,
+    "mapping_matches_canonical_151": true,
+    "snapshot_predates_final_names_and_shiny_art": true,
+    "name_differences_from_snapshot": [
+      {
+        "number": 26,
+        "snapshot_name": "Angelik",
+        "canonical_name": "Angélik"
+      },
+      {
+        "number": 29,
+        "snapshot_name": "Padrezo",
+        "canonical_name": "Padrézo"
+      },
+      {
+        "number": 34,
+        "snapshot_name": "Métaurolog",
+        "canonical_name": "Métaureaulog"
+      },
+      {
+        "number": 59,
+        "snapshot_name": "Fouetar",
+        "canonical_name": "Fouétar"
+      },
+      {
+        "number": 60,
+        "snapshot_name": "Superfouetar",
+        "canonical_name": "Superfouétar"
+      },
+      {
+        "number": 62,
+        "snapshot_name": "Charivari",
+        "canonical_name": "Chauvekipeut"
+      },
+      {
+        "number": 64,
+        "snapshot_name": "Frohuahua",
+        "canonical_name": "Froahuahua"
+      },
+      {
+        "number": 66,
+        "snapshot_name": "Siréné",
+        "canonical_name": "Sirénée"
+      },
+      {
+        "number": 67,
+        "snapshot_name": "Sirénité",
+        "canonical_name": "Sirènité"
+      },
+      {
+        "number": 71,
+        "snapshot_name": "Insomnel",
+        "canonical_name": "Insomnelle"
+      },
+      {
+        "number": 78,
+        "snapshot_name": "Coléroptere",
+        "canonical_name": "Coléroptère"
+      },
+      {
+        "number": 84,
+        "snapshot_name": "Trytik",
+        "canonical_name": "Tryptik"
+      },
+      {
+        "number": 89,
+        "snapshot_name": "Camaueil",
+        "canonical_name": "Camaïeul"
+      },
+      {
+        "number": 100,
+        "snapshot_name": "Usapion",
+        "canonical_name": "Usapyon"
+      },
+      {
+        "number": 111,
+        "snapshot_name": "Duc DeLaFeuille",
+        "canonical_name": "Duc Delafeuille"
+      },
+      {
+        "number": 112,
+        "snapshot_name": "FeuildeChou",
+        "canonical_name": "Feuildechou"
+      },
+      {
+        "number": 119,
+        "snapshot_name": "Samoussrai",
+        "canonical_name": "Samoussraï"
+      },
+      {
+        "number": 129,
+        "snapshot_name": "Pachycool",
+        "canonical_name": "Pachycoul"
+      },
+      {
+        "number": 136,
+        "snapshot_name": "Fourchelang",
+        "canonical_name": "Fourchelangue"
+      },
+      {
+        "number": 139,
+        "snapshot_name": "Doyaris",
+        "canonical_name": "Doyagari"
+      },
+      {
+        "number": 140,
+        "snapshot_name": "Doyen Doyaris",
+        "canonical_name": "Doyen Doyagari"
+      }
+    ]
+  },
+  "approved_proposals": {
+    "species": 14,
+    "indexed_64x64_pngs": 28,
+    "normal_and_historical_shiny_palettes": 28,
+    "engine_integration_or_final_shiny_approval_implied": false
+  },
+  "validated_design_inputs": {
+    "stats_species_with_valid_bst_sum": 151,
+    "evolution_rows": 56,
+    "initial_learnset_rows": 282,
+    "initial_learnset_species": 21,
+    "tm_hm_species_entries": 151,
+    "obtaining_rows": 151,
+    "implemented_in_game": false
+  },
+  "game_files_unchanged_from_original": [
+    "src/data/text/species_names.h",
+    "src/data/pokemon/species_info.h",
+    "src/data/pokemon/evolution.h",
+    "src/data/trainers.h",
+    "src/data/wild_encounters.json",
+    "src/battle_script_commands.c"
+  ],
+  "verdict": "RECUPERATION PARTIELLE ; BASE COMPLETE NON RETROUVEE"
+}
