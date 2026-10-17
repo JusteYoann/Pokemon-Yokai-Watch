@@ -39,6 +39,8 @@ Le commit `145044ec29f4ad7ee03c1942e8a925d15a9f89e1` de `qa/recette-finale` et l
 
 Les 417 fichiers récupérés des branches GitHub et les 18 documents récupérés des pièces jointes possèdent des manifestes de provenance. Les 19 fichiers d'écoute/archives audio déjà publiés ne sont pas recopiés sur cette nouvelle branche. Aucun nouvel enregistrement musical ni ROM n'est publié.
 
+Les **14 archives musicales originales** ont également été retrouvées en privé (295 806 850 octets). Les **80/80 pistes** concordent par SHA256 avec l’inventaire historique ; aucun MP3 original n’est donc manquant dans cet inventaire. Cela ne restaure pas les anciens binaires DPCM de travail. Seuls leurs noms et hashes sont publiés dans `REFERENCES_AUDIO_EXTERNES.json`.
+
 ## Fonctionnalités réellement actives / manquantes
 
 La table [FONCTIONNALITES.csv](FONCTIONNALITES.csv) distingue chaque donnée récupérée de son intégration. Les fichiers actifs de noms, données d'espèces, évolutions, rencontres, équipes et partage d'expérience sont toujours identiques à master d'origine.
@@ -53,7 +55,7 @@ Les 20 OST, dix quêtes, nouveau Red et Juste Yoann relèvent de la phase suivan
 
 Recherche effectuée dans les checkouts et emplacements accessibles de `/workspace`, `/tmp`, `/home/agent`, `/mnt` et les dossiers partagés. Aucune autre copie de projet ni ancienne ROM Yo-kai complète retrouvée. Les trois petits fichiers `.gba` déjà présents dans `data/` sont des ressources du dépôt d'origine, pas la ROM personnalisée recherchée. Les caches et répertoires d'identifiants ne sont pas lus.
 
-Les objets Git et reflogs accessibles ne contiennent pas de commit QA orphelin. Les références distantes annoncées comprennent HEAD et cinq branches ; aucune référence tag/pull supplémentaire n'est annoncée. L'API GitHub des pull requests est inaccessible par cette connexion (403 du proxy) : les éventuels artefacts Actions, PR supprimées ou historiques d'autres environnements ne sont donc pas déclarés exhaustivement inspectés. Aucun outil disponible ici ne permet de reconnecter un ancien environnement ou de parcourir l'ensemble des autres sessions ; l'historique utilisé est celui de cette conversation et les rapports récupérés.
+Les objets Git et reflogs accessibles ne contiennent pas de commit QA orphelin. Les références distantes annoncées comprennent HEAD et cinq branches ; aucune référence tag/pull supplémentaire n'est annoncée. L'API GitHub est inaccessible par cette connexion (403 du proxy), mais les pages Web publiques ont pu être consultées : 0 pull request ouverte ou fermée, 0 exécution Actions et aucune release affichées. Les preuves sont dans `RECHERCHE_SAUVEGARDES_GITHUB.json`. Les PR supprimées, artefacts expirés et historiques privés d'autres environnements ne sont pas déclarés exhaustivement inspectés. Aucun outil disponible ici ne permet de reconnecter un ancien environnement ou de parcourir l'ensemble des autres sessions ; l'historique utilisé est celui de cette conversation et les rapports récupérés.
 
 **Aucune perte définitive n'est démontrée.** Les fichiers sont non retrouvés dans le périmètre vérifié ; une ancienne instance, un export utilisateur ou une sauvegarde indépendante peut encore les contenir.
 
@@ -76,11 +78,24 @@ python3 RECUPERATION_PROJET/scripts/verifier_archives.py
 
 Python 3, Pillow et libarchive sont nécessaires pour ces contrôles. Ils n'exigent ni ROM ni fichiers cachés de l'ancien environnement. La portée reste l'intégrité des ressources et données ; ils ne valident pas le fonctionnement du hack.
 
-La préparation de la chaîne de compilation et le contrôle d'un clone GitHub propre sont en cours. Le résultat sera ajouté à ce rapport. Si le moteur d'origine compile, cela validera uniquement sa reproductibilité, pas les fonctionnalités Yo-kai absentes. Aucun parcours mGBA ni test de gameplay de la version personnalisée n'a été exécuté ici.
+**Compilation locale réussie et compilation depuis un clone GitHub propre réussie.** Le clone a été téléchargé depuis GitHub au commit `a3dfd15a06e11ec10e6c9d22677b49fcacaea8ef`, avec une nouvelle installation indépendante des outils sous `/workspace/repro-tools`, sans réutiliser l'ancien agbcc compilé. Il s'agit d'un checkout et d'outils neufs sur le même hôte ; aucune nouvelle machine cloud n'a été provisionnée.
+
+Les deux ROM font **16 777 216 octets**, passent `sha1sum -c firered.sha1` et ont le même SHA256 : `3d0c79f1627022e18765766f6cb5ea067f6b5bf7dca115552189ad65a5c3a8ac`. Le clone est resté propre après build et vérification des 417 fichiers GitHub, des 18 documents, des 906 ressources et des 530 membres d'archives. Les 9 857 fichiers initiaux ont été préservés.
+
+**Ces deux ROM sont Rouge Feu d'origine, pas le hack récupéré.** Leur hash diffère du hash historique Yo-kai `84d3bffbb7e74322aa69d5df211f774576d00b1e3e16eec3794c5b74fc66e186`. L'ancienne ROM et les sources manquantes ne sont pas disponibles pour analyser un diff binaire détaillé ; les fichiers moteur actifs et le nom BULBASAUR démontrent déjà l'absence de l'intégration Yo-kai. Le moteur conserve aussi `POKEMON_NAME_LENGTH 10`, sans les derniers changements de noms.
+
+Voir [SYNCHRONISATION_ET_BUILD.json](SYNCHRONISATION_ET_BUILD.json). La reproductibilité de ce snapshot original et l'intégrité des fichiers récupérés sont vérifiées, **pas la présence des fonctionnalités personnalisées**. Aucun parcours mGBA ni test de gameplay de la version personnalisée n'a été exécuté ici.
 
 ## Sauvegarde GitHub et exception musicale
 
-La sauvegarde est effectuée sur la branche dédiée, sans pousser de version incomplète sur master. Une référence de sauvegarde distincte de master est créée. L'état exact de publication et de vérification depuis un clone figure dans le rapport de synchronisation ajouté à ce dossier.
+**Publication effectuée** sur `recovery/sauvegarde-elements-retrouves` ; 467 nouveaux fichiers sont présents au premier jalon par rapport à master (dont les cinq documents d'audit du jalon précédent). Les compléments suivants ne concernent que les rapports. Le clone propre a été téléchargé directement depuis cette branche GitHub.
+
+Sauvegarde distante de master : `backup/master-avant-recuperation-20261017`, pointant sur `037335f4c725d7c9aecdac87066f2002b4bd7e14`, identique à master. Aucune branche existante n'est écrasée ; aucune fusion ni force-push. Ne pas fusionner cette récupération partielle vers master comme s'il s'agissait du hack complet.
+
+- [Branche de récupération](https://github.com/JusteYoann/Pokemon-Yokai-Watch/tree/recovery/sauvegarde-elements-retrouves)
+- [Sauvegarde master](https://github.com/JusteYoann/Pokemon-Yokai-Watch/tree/backup/master-avant-recuperation-20261017)
+
+Le script d'installation et les instructions de démarrage cloud ont aussi été enregistrés dans un brouillon de configuration. Leur activation future demande d'enregistrer/publier la configuration dans les paramètres de l'environnement ; cela est distinct de la sauvegarde GitHub déjà publiée. Aucune restauration automatique dans une nouvelle session n'est revendiquée.
 
 Les sources et ressources actuellement retrouvées sont publiables sur la branche de récupération. Les sources manquantes ne peuvent pas être incluses par une simple synchronisation. Les sauvegardes locales sont complémentaires, jamais une preuve de sauvegarde distante.
 

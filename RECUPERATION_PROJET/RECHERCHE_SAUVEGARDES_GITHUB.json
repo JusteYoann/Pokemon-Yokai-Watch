@@ -1,0 +1,24 @@
+{
+  "scope": "pages publiques anonymes ; ne concerne pas les sauvegardes privees ou instances anciennes",
+  "api_github": "403 du proxy, non utilisee comme preuve d’absence",
+  "pages": [
+    {
+      "url": "https://github.com/JusteYoann/Pokemon-Yokai-Watch/pulls?q=is%3Apr",
+      "http_status": 200,
+      "observed": "0 open, 0 closed, 0 results",
+      "response_sha256": "5a38ba01543351d2c57bfc3e27e6c595d276b9ec9c3eb563ac7dd862cbac14f3"
+    },
+    {
+      "url": "https://github.com/JusteYoann/Pokemon-Yokai-Watch/actions",
+      "http_status": 200,
+      "observed": "0 workflow runs ; There are no workflow runs yet",
+      "response_sha256": "29939db78f709784043386066e37f71bf0e2428846eadcb33d851d8f12001296"
+    },
+    {
+      "url": "https://github.com/JusteYoann/Pokemon-Yokai-Watch/releases",
+      "http_status": 200,
+      "observed": "There aren’t any releases here",
+      "response_sha256": "4ee0d6c7b6bf9c7c5fd847d7c9e66f15cfd39023d4c679390ee8a29e9e20b431"
+    }
+  ]
+}
