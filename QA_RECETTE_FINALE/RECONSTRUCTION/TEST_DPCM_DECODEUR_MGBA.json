@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "rom_sha256": "f0fc873c7081db9ba04bce90af9d37b0a14b8eff8170f1ff2e0a11d1fdfd739f",
+  "engine": "mGBA actual SoundMainRAM_Unk2 ARM routine",
+  "scope": "Synthetic sample decoding only, block boundaries and signed wrapping; no musical playback/loop/SFX/performance claim",
+  "vectors": [
+    {
+      "vector": "silence",
+      "samples": 128,
+      "encoded_bytes": 82,
+      "native_matches_python_sample_for_sample": true
+    },
+    {
+      "vector": "signed_extremes",
+      "samples": 133,
+      "encoded_bytes": 115,
+      "native_matches_python_sample_for_sample": true
+    },
+    {
+      "vector": "sine_440",
+      "samples": 193,
+      "encoded_bytes": 148,
+      "native_matches_python_sample_for_sample": true
+    },
+    {
+      "vector": "ramp",
+      "samples": 256,
+      "encoded_bytes": 148,
+      "native_matches_python_sample_for_sample": true
+    }
+  ]
+}

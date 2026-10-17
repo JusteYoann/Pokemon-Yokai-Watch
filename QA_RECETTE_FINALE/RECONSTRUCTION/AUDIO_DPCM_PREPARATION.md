@@ -17,3 +17,18 @@ La direction validée reste l'audio échantillonné **DPCM mono à 13 379 Hz**. 
 4. Documenter le build avec `YOKAI_AUDIO_DIR` ou équivalent. Les sources publiques doivent compiler avec une solution de repli explicite ; une ROM sans ressources musicales privées ne sera pas musicalement identique à la version complète.
 
 **État actuel : aucun des 20 morceaux n'est encore intégré dans cette reconstruction.** Ce document est une inspection des sources, pas un essai de lecture en émulateur. La bande-son originale reste active pour les caméos reconstruits. Aucun MP3, enregistrement adapté ou fichier ROM n'est publié.
+
+## Encodeur reconstruit et comparaison au décodeur natif
+
+`tools/yokai/dpcm_m4a.py` convertit un WAV mono PCM16 dans le format WaveData natif, avec en-tête, fréquence, taille, éventuel début de boucle et blocs de 33 octets. Les notes/instruments ne sont pas reconstruits. Préparation privée, par exemple :
+
+```sh
+ffmpeg -i "$YOKAI_AUDIO_DIR/source.mp3" -ac 1 -ar 13379 -c:a pcm_s16le "$YOKAI_AUDIO_DIR/source-13379.wav"
+python3 tools/yokai/dpcm_m4a.py "$YOKAI_AUDIO_DIR/source-13379.wav" "$YOKAI_AUDIO_DIR/source.dpcm" --loop-start POINT_EN_ECHANTILLONS
+```
+
+Le début de boucle doit être mesuré par morceau ; ne pas employer un point arbitraire en production. Une boucle d’échantillon permet une introduction unique puis le retour au début de boucle, mais la séquence m4a et ses transitions ne sont pas encore restaurées. Ne pas ajouter les fichiers de sortie protégés à Git.
+
+`tester_dpcm_decodeur_mgba.py` appelle la véritable routine ARM SoundMainRAM_Unk2 du jeu, via une passerelle temporaire en RAM, sur silence, extrêmes signés, sinusoïde et rampe. Les 710 échantillons correspondent exactement au décodeur Python, y compris les limites de blocs et le repli signé. La preuve est TEST_DPCM_DECODEUR_MGBA.json. Les sources de tests sont libres et synthétiques ; aucun enregistrement original n’est publié.
+
+L’encodeur est glouton : la fidélité musicale et l’erreur sur les attaques complexes devront être écoutées et mesurées sur les références. Ces essais ne valident pas encore la lecture BGM, les boucles, les bruitages, la charge CPU ou les transitions. Aucun des 20 morceaux n’est encore intégré ; le système public continue de compiler avec la bande-son de repli.
