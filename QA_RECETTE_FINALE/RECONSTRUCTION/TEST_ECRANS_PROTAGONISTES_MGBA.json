@@ -1,0 +1,93 @@
+{
+  "engine": "mGBA libretro",
+  "rom_sha256": "cad16543352b97a7002d68b27fe4dcf298bb5da330128362d965a26ea2142e9f",
+  "scope": "Direct entry to native scenes with valid party and gender fixtures; does not prove access to Surf, League or ending during actual adventure",
+  "results": [
+    {
+      "person": "nathan",
+      "test": "Native Surf field effect from Route21 North shore (12,10), real surf blob, four facings, UP input to return to land",
+      "passed": true,
+      "HM_progression_checked": false
+    },
+    {
+      "person": "nathan",
+      "test": "Native Trainer Card front and reverse captured",
+      "passed": true
+    },
+    {
+      "person": "nathan",
+      "test": "Native Hall of Fame team then player portrait; fresh Flash save fixture, League not played",
+      "passed": true
+    },
+    {
+      "person": "nathan",
+      "test": "Native credits run from DoCredits with player gender fixture; state changes captured",
+      "passed": true,
+      "frames_run": 14317,
+      "states": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "main_callback_at_end": "0x0"
+    },
+    {
+      "person": "katie",
+      "test": "Native Surf field effect from Route21 North shore (12,10), real surf blob, four facings, UP input to return to land",
+      "passed": true,
+      "HM_progression_checked": false
+    },
+    {
+      "person": "katie",
+      "test": "Native Trainer Card front and reverse captured",
+      "passed": true
+    },
+    {
+      "person": "katie",
+      "test": "Native Hall of Fame team then player portrait; fresh Flash save fixture, League not played",
+      "passed": true
+    },
+    {
+      "person": "katie",
+      "test": "Native credits run from DoCredits with player gender fixture; state changes captured",
+      "passed": true,
+      "frames_run": 14317,
+      "states": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "main_callback_at_end": "0x0"
+    }
+  ]
+}

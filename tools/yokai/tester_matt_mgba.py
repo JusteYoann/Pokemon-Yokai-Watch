@@ -50,7 +50,7 @@ finally:r.close()
 report={'engine':'mGBA libretro','rom_sha256':hashlib.sha256((ROOT/'pokefirered.gba').read_bytes()).hexdigest(),
         'results':results,'native_assets':{'battle':[64,64,3],'overworld':[16,32,9]},
         'palette':'15 opaque RGB555 colors, transparent index 0, dedicated special NPC palette',
-        'complete_story_appearances_verified':False,'Nathan_Katie_artwork_completed':False,
-        'remaining':'All scripted rival appearances, gender variants, real navigation and protagonist artwork still pending.'}
+        'complete_story_appearances_verified':False,'Nathan_Katie_artwork_completed':'graphics/yokai_characters/nathan/normal.4bpp' in (ROOT/'src/data/object_events/object_event_graphics.h').read_text(),
+        'remaining':'All scripted rival appearances and real navigation remain to be played; protagonist tests are reported separately.'}
 (ROOT/'QA_RECETTE_FINALE/RECONSTRUCTION/TEST_MATT_MGBA.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))

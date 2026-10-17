@@ -95,6 +95,6 @@ for gender,person,prefix in [(0,'nathan','RED'),(1,'katie','GREEN')]:
   gif(movie,person+'-lancer-combat')
   results.append({'person':person,'test':'Actual trainer battle entry and back-throw animation captured; battle not completed','passed':True})
  finally:r.close()
-report={'engine':'mGBA libretro','rom_sha256':hashlib.sha256((ROOT/'pokefirered.gba').read_bytes()).hexdigest(),'scope':'Native animation fixtures on Dojo map with defeated original trainers; gender and custom name assigned in fixture, not via intro UI; existing battle entry, not a complete story run','results':results,'remaining':['Full introduction UI and naming','Surf entry on real water','Trainer Card and Hall of Fame scenes','Credits playback','Opposite protagonist cameo events','Complete adventure']}
+report={'engine':'mGBA libretro','rom_sha256':hashlib.sha256((ROOT/'pokefirered.gba').read_bytes()).hexdigest(),'scope':'Native animation fixtures on Dojo map with defeated original trainers; gender and custom name assigned in fixture, not via intro UI; existing battle entry, not a complete story run','results':results,'remaining':['Opposite protagonist cameo events','Complete adventure']}
 (ROOT/'QA_RECETTE_FINALE/RECONSTRUCTION/TEST_PROTAGONISTES_MGBA.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))

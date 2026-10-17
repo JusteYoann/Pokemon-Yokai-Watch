@@ -1,0 +1,9 @@
+{
+  "source_commit": "d4a0a02a671099258cf9d5a95479295e0dc1c2c6",
+  "source": "HTTPS GitHub fetch in independent checkout /workspace/repro-github-recovery; separate pinned compiler install /workspace/repro-tools",
+  "clean_working_tree_before_fetch": true,
+  "local_rom_sha256": "cad16543352b97a7002d68b27fe4dcf298bb5da330128362d965a26ea2142e9f",
+  "independent_rom_sha256": "cad16543352b97a7002d68b27fe4dcf298bb5da330128362d965a26ea2142e9f",
+  "byte_identical": true,
+  "limitation": "Same cloud machine, not a second VM; previous full-clean build of Enma checkpoint then dependency-aware rebuild of public protagonist checkpoint. Remote CI status not accessible."
+}

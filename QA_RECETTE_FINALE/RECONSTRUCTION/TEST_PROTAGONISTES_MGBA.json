@@ -27,11 +27,8 @@
     }
   ],
   "remaining": [
-    "Full introduction UI and naming",
-    "Surf entry on real water",
-    "Trainer Card and Hall of Fame scenes",
-    "Credits playback",
     "Opposite protagonist cameo events",
     "Complete adventure"
-  ]
+  ],
+  "additional_scene_tests": "TEST_INTRODUCTION_MGBA.json and TEST_ECRANS_PROTAGONISTES_MGBA.json"
 }
