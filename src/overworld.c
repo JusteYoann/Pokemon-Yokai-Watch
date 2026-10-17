@@ -994,7 +994,7 @@ static u16 GetLocationMusic(struct WarpData * warp)
     if (music == MUS_YOKAI_NATHAN_HOUSE && gSaveBlock2Ptr->playerGender == FEMALE)
         return MUS_YOKAI_KATIE_HOUSE;
     if (music == MUS_YOKAI_BADA_BING && FlagGet(FLAG_HIDE_SILPH_ROCKETS))
-        return MUS_ROCKET_HIDEOUT;
+        return MUS_SILPH;
     return music;
 }
 
@@ -1042,7 +1042,14 @@ void Overworld_PlaySpecialMapMusic(void)
     music = GetCurrLocationDefaultMusic();
 
     if (gSaveBlock1Ptr->savedMusic)
+    {
         music = gSaveBlock1Ptr->savedMusic;
+        if (music == MUS_CYCLING)
+        {
+            music = MUS_YOKAI_BICYCLE;
+            gSaveBlock1Ptr->savedMusic = music;
+        }
+    }
     else if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING) && Overworld_MusicCanOverrideMapMusic(MUS_SURF))
         music = MUS_SURF;
 
@@ -1197,7 +1204,7 @@ static void ChooseAmbientCrySpecies(void)
 
 bool32 Overworld_MusicCanOverrideMapMusic(u16 music)
 {
-    if (music == MUS_YOKAI_BICYCLE || music == MUS_SURF)
+    if (music == MUS_YOKAI_BICYCLE || music == MUS_CYCLING || music == MUS_SURF)
     {
         if (gMapHeader.regionMapSectionId == MAPSEC_KANTO_VICTORY_ROAD || gMapHeader.regionMapSectionId == MAPSEC_ROUTE_23 || gMapHeader.regionMapSectionId == MAPSEC_INDIGO_PLATEAU)
             return FALSE;

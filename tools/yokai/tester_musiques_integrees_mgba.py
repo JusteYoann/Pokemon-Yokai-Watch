@@ -59,18 +59,30 @@ def run_song(r,n,trigger):
  assert r.call('IsCryFinished')!=0
  # Compare real mixer output with encoded reference, in a low band independent of volume.
  audio=np.frombuffer(b''.join(chunks),dtype='<i2').reshape(-1,2).mean(axis=1)
- actual=resample_poly(audio,125,8192) # core output65536 ->1000Hz, as verified by AV in earlier mixer test
+ actual=resample_poly(resample_poly(audio,125,2048),4,1) # bandlimit4kHz, align on16kHz grid; reject DAC DC bias below
  blob=(private/f'{n:02d}.dpcm').read_bytes();size=struct.unpack_from('<I',blob,12)[0];decoded=np.array(decode(blob[16:],size),float)
- expected=decoded[first:first+round(2*13379)]
- if len(expected)<13379:expected=np.r_[expected,decoded[loop_start:loop_start+2*13379]]
- template=resample_poly(expected,1000,13379)[500:1500];search=actual[200:1800]
- corr=fftconvolve(search,template[::-1],mode='valid');energy=np.sqrt(np.maximum(1e-12,fftconvolve(search**2,np.ones(len(template)),mode='valid')*sum(template**2)));identity=float(max(corr/energy));assert identity>.85,(n,'Actual decoded source not recognizable in mixer output',identity,first)
+ expected=decoded[first:first+round(8*13379)]
+ if len(expected)<8*13379:expected=np.r_[expected,decoded[loop_start:loop_start+8*13379]]
+ reference=resample_poly(resample_poly(expected,4000,13379),4,1)
+ def correlate(second):
+  template=reference[round(second*16000):round((second+1)*16000)];template=template-template.mean()
+  search=actual[round((second-.25)*16000):round((second+1.25)*16000)]
+  corr=fftconvolve(search,template[::-1],mode='valid')
+  variance=fftconvolve(search**2,np.ones(len(template)),mode='valid')-fftconvolve(search,np.ones(len(template)),mode='valid')**2/len(template)
+  energy=np.sqrt(np.maximum(1e-12,variance*sum(template**2)))
+  return float(max(corr/energy))
+ identity=correlate(.5);after_cry_identity=correlate(6)
+ if identity<=.85:
+  debug=private/'debug';debug.mkdir(exist_ok=True)
+  np.savez(debug/f'{n:02d}-identity.npz',actual=actual,decoded=decoded,first=first,raw=audio)
+  r.frame.save(P/'preuves'/f'ost-{n:02d}-diagnostic.png')
+ assert min(identity,after_cry_identity)>.85,(n,'Actual decoded source not recognizable before/after SFX',identity,after_cry_identity,first)
  demo=private/'previews';demo.mkdir(exist_ok=True)
  with wave.open(str(demo/f'{n:02d}-mgba-8s.wav'),'wb') as w:w.setnchannels(2);w.setsampwidth(2);w.setframerate(65536);w.writeframes(b''.join(chunks))
  r.frame.save(P/'preuves'/f'ost-{n:02d}-en-jeu.png');r.lib.retro_set_audio_sample_batch(r.callbacks[3])
  assert r.call('TrySavingData',0,max_frames=1200)==1
  assert r.u32(r.symbols['gMPlayInfo_BGM'])==r.symbols[f'mus_yokai_{n:02d}']
- results.append({'number':n,'passed':True,'trigger':trigger,'five_native_loop_wraps':wraps,'intro_not_repeated':True,'audio_reference_correlation_1kHz':identity,'select_SFX_and_cry_native_calls':True,'cry_completed':True,'native_Flash_save_with_music':True,'native_frames':frames,'source_sample_period':period,'perceptual_listening_validated':False,'audio_demo':'Private output/previews only, not public GitHub'})
+ results.append({'number':n,'passed':True,'trigger':trigger,'five_native_loop_wraps':wraps,'native_samples_per_frame':224,'expected_frames_per_cycle':period/224,'intro_not_repeated':True,'audio_reference_pearson_correlation':identity,'after_SFX_and_cry_correlation':after_cry_identity,'analysis_sample_rate_hz':4000,'alignment_grid_hz':16000,'initial_native_sample_position':first,'select_SFX_and_cry_native_calls':True,'cry_completed':True,'native_Flash_save_with_music':True,'native_frames':frames,'source_sample_period':period,'perceptual_listening_validated':False,'audio_demo':'Private output/previews only, not public GitHub'})
 
 def main(numbers):
  for n in numbers:
@@ -86,7 +98,7 @@ def main(numbers):
     if r.u32(r.symbols['gMain']+4)==r.symbols['BattleMainCB2']|1 and r.u32(r.symbols['gMPlayInfo_BGM'])==r.symbols[f'mus_yokai_{n:02d}']:break
     r.keys={8} if f%16<4 else set();r.run()
    else:raise AssertionError(('Actual NPC battle not started',n))
-   r.keys=set();run_song(r,n,'Actual optional NPC battle through A/Yes; progression flags/strong party prepared')
+   r.keys=set();r.run(600);run_song(r,n,'Actual optional NPC battle through A/Yes; progression flags/strong party prepared')
    # Finish the actual optional fight using legal controller input; native return to exploration.
    won=0x316 if n==2 else 0x303 if n==6 else 0x314
    before=r.call('GetGameStat',9);boss.fight(r,won,f'audio-boss-{n:02d}')

@@ -52,6 +52,7 @@ void MPlayContinue(struct MusicPlayerInfo *mplayInfo)
     {
         mplayInfo->ident++;
         mplayInfo->status &= ~MUSICPLAYER_STATUS_PAUSE;
+        YokaiResumePausedSample(mplayInfo);
         mplayInfo->ident = ID_NUMBER;
     }
 }
@@ -102,6 +103,7 @@ void m4aSoundInit(void)
 
 void m4aSoundMain(void)
 {
+    YokaiRetryPausedSample();
     SoundMain();
 }
 
@@ -226,6 +228,7 @@ void m4aMPlayFadeIn(struct MusicPlayerInfo *mplayInfo, u16 speed)
         mplayInfo->fadeOI = speed;
         mplayInfo->fadeOV = (0 << FADE_VOL_SHIFT) | FADE_IN;
         mplayInfo->status &= ~MUSICPLAYER_STATUS_PAUSE;
+        YokaiResumePausedSample(mplayInfo);
         mplayInfo->ident = ID_NUMBER;
     }
 }
@@ -627,6 +630,7 @@ void MPlayStart(struct MusicPlayerInfo *mplayInfo, struct SongHeader *songHeader
         || (mplayInfo->priority <= songHeader->priority))
     {
         mplayInfo->ident++;
+        YokaiDiscardPausedSample(mplayInfo);
         mplayInfo->status = 0;
         mplayInfo->songHeader = songHeader;
         mplayInfo->tone = songHeader->tone;
@@ -675,6 +679,7 @@ void m4aMPlayStop(struct MusicPlayerInfo *mplayInfo)
         return;
 
     mplayInfo->ident++;
+    YokaiRememberPausedSample(mplayInfo);
     mplayInfo->status |= MUSICPLAYER_STATUS_PAUSE;
 
     i = mplayInfo->trackCount;
@@ -715,6 +720,10 @@ void FadeOutBody(struct MusicPlayerInfo *mplayInfo)
     {
         if ((s16)(mplayInfo->fadeOV -= (4 << FADE_VOL_SHIFT)) <= 0)
         {
+            if (mplayInfo->fadeOV & TEMPORARY_FADE)
+                YokaiRememberPausedSample(mplayInfo);
+            else
+                YokaiDiscardPausedSample(mplayInfo);
             i = mplayInfo->trackCount;
             track = mplayInfo->tracks;
 

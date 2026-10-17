@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Vérifie les données réellement liées dans la ROM compilée, sans simuler mGBA."""
+import os
 import csv
 import hashlib
 import json
@@ -10,9 +11,11 @@ import zipfile
 from pathlib import Path
 
 R = Path(__file__).resolve().parents[2]
-rom = (R/'pokefirered.gba').read_bytes()
+rom_path = Path(os.environ.get('YOKAI_VERIFY_ROM',str(R/'pokefirered.gba')))
+elf_path = rom_path.with_suffix('.elf')
+rom = rom_path.read_bytes()
 symbols = {}
-for line in subprocess.check_output(['arm-none-eabi-nm','-S','--defined-only','pokefirered.elf'],cwd=R,text=True).splitlines():
+for line in subprocess.check_output(['arm-none-eabi-nm','-S','--defined-only',str(elf_path)],cwd=R,text=True).splitlines():
     fields = line.split()
     if len(fields) == 4:
         symbols[fields[3]] = (int(fields[0],16), int(fields[1],16))
@@ -196,5 +199,5 @@ if boss_spec.exists():
         assert data('gObjectEventPic_Yokai'+person)==b''.join(encode4(ow.crop((x,0,x+width,32))) for x in range(0,width*3,width))
         boss_cameo_frames+=4
 report={'rom_sha256':hashlib.sha256(rom).hexdigest(),'rom_size':len(rom),'species_stats_and_abilities_verified':151,'encoded_display_names_verified':151,'linked_graphic_resources_verified':checks,'historical_graphics_preserved_except_whitelist':True,'evolution_edges_verified':len(evolutions),'linked_learnsets_verified':151,'french_move_and_ability_labels_verified':len(json.loads((R/'data/yokai/libelles_attaques_talents.json').read_text())),'matt_native_frames_verified':12 if matt.exists() else 0,'ariane_and_usapion_native_frames_verified':5 if ariane.exists() else 0,'enma_and_kyubi_native_frames_verified':5 if enma.exists() else 0,'distinct_enma_creature_frame_verified':1 if enma_creature.exists() else 0,'protagonist_native_frame_slots_verified':146 if protagonists_active else 0,'matt_additional_intro_and_credit_frames_verified':7 if protagonists_active else 0,'additional_adventure_cameo_native_frames_verified':cameo_extra_frames,'postgame_boss_cameo_native_frames_verified':boss_cameo_frames,'emulator_tests':False,'final_shiny_artwork_validated':False,'verdict':'JALON DONNEES/GRAPHISMES LIE ; RECETTE COMPLETE NON TERMINEE'}
-out=R/'QA_RECETTE_FINALE/RECONSTRUCTION/CONTROLE_ROM.json';out.parent.mkdir(parents=True,exist_ok=True);out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+out=R/('QA_RECETTE_FINALE/INTEGRATION_MUSIQUES/CONTROLE_ROM_PRIVEE.json' if os.environ.get('YOKAI_VERIFY_ROM') else 'QA_RECETTE_FINALE/RECONSTRUCTION/CONTROLE_ROM.json');out.parent.mkdir(parents=True,exist_ok=True);out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))

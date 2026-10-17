@@ -1,0 +1,6 @@
+{
+  "rom_sha256": "8ede0e72be0db5a4b19c72794c06c12c0c44cb847493dec8df349d483199bf47",
+  "expected_failure_reproduced": true,
+  "test": "Actual native PlayFanfare(MUS_OBTAIN_ITEM), wait400frames, sampled BGM header retained but voice absent after Continue",
+  "requires_fix": true
+}

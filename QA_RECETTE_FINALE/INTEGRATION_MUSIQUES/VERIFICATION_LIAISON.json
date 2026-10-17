@@ -1,0 +1,147 @@
+{
+  "passed": true,
+  "public_rom_sha256": "d5b2452ceebde70bba65de4b3aac11b678348246515c51d31baa91a6e2b25a53",
+  "private_rom_sha256": "1d67655132a306aa5418f8861a0b5c5af4a6cf4a8a4fa1b4e6a4416e4b1cb2d9",
+  "private_rom_bytes": 21209184,
+  "private_audio_mask": 631851,
+  "active_tracks": [
+    1,
+    2,
+    4,
+    6,
+    11,
+    14,
+    16,
+    17,
+    20
+  ],
+  "remaining_bytes_to32MiB": 12345248,
+  "results": [
+    {
+      "test": "Exact public native fallback",
+      "number": 1,
+      "symbol": "mus_cycling",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 2,
+      "symbol": "mus_vs_trainer",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 4,
+      "symbol": "mus_poke_tower",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 6,
+      "symbol": "mus_vs_trainer",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 7,
+      "symbol": "mus_pallet",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 8,
+      "symbol": "mus_pallet",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 11,
+      "symbol": "mus_silph",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 12,
+      "symbol": "mus_celadon",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 14,
+      "symbol": "mus_viridian_forest",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 16,
+      "symbol": "mus_sevii_123",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 17,
+      "symbol": "mus_rocket_hideout",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 20,
+      "symbol": "mus_vs_trainer",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, bounded loop and correct native compression bit",
+      "number": 1,
+      "bytes": 518314,
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, bounded loop and correct native compression bit",
+      "number": 2,
+      "bytes": 397303,
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, bounded loop and correct native compression bit",
+      "number": 4,
+      "bytes": 784624,
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, bounded loop and correct native compression bit",
+      "number": 6,
+      "bytes": 794623,
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, bounded loop and correct native compression bit",
+      "number": 11,
+      "bytes": 677968,
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, bounded loop and correct native compression bit",
+      "number": 14,
+      "bytes": 446836,
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, bounded loop and correct native compression bit",
+      "number": 16,
+      "bytes": 621307,
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, bounded loop and correct native compression bit",
+      "number": 17,
+      "bytes": 767530,
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, bounded loop and correct native compression bit",
+      "number": 20,
+      "bytes": 734596,
+      "passed": true
+    }
+  ]
+}
