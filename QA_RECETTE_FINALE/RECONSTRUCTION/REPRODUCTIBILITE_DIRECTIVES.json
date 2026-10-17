@@ -22,5 +22,13 @@
     "passed": true,
     "same_independently_built_mgba_core": true,
     "test": "TEST_DPCM_LECTURE_MGBA.json; synthetic assets, 420 frames, intro +11 periods, SFX/cry calls and API return to MUS_PALLET"
+  },
+  "private_encoding_reproduction": {
+    "source_commit": "08b702180",
+    "sources": "User supplied archives extracted again outside checkout with public tool; separate output directory",
+    "tracks_compared": 20,
+    "all_encoded_sha256_identical": true,
+    "audio_files_published": false,
+    "meaning": "Reproducible full-source encoding, not final soundtrack/loops"
   }
 }
