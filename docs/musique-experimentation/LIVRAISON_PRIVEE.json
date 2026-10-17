@@ -1,0 +1,194 @@
+{
+  "public_music_files": false,
+  "location": "/workspace/private-audio/bicycle-ab",
+  "primary_demos": [
+    "DEMO_A_ARRANGEMENT_REVISE.mp3",
+    "DEMO_B_DPCM_13379.mp3"
+  ],
+  "listening_exports": [
+    {
+      "file": "DEMO_A_ARRANGEMENT_REVISE.mp3",
+      "source_emulator_capture": "A2-5loops.wav",
+      "start_seconds": 0,
+      "duration_seconds": 45.0,
+      "listening_gain_db": 8.366932805379598,
+      "normalized_rms_dbfs": -18.0,
+      "peak_dbfs": -6.730600814926877,
+      "sha256": "d07bc38b8402cae1a5ee2fca8236ace5a79d634147dc17a85b20ca54d27d24cb",
+      "bytes": 901484
+    },
+    {
+      "file": "DEMO_B_DPCM_13379.mp3",
+      "source_emulator_capture": "B-dpcm4-13379-5loops.wav",
+      "start_seconds": 0,
+      "duration_seconds": 45.0,
+      "listening_gain_db": 8.927325829895382,
+      "normalized_rms_dbfs": -18.0,
+      "peak_dbfs": -4.539477600486775,
+      "sha256": "9d2f1cdd22a5e8b9cfe4429155e07d3aeb1d4f8bc5ea47766c3fe1b21a6e71b7",
+      "bytes": 901484
+    },
+    {
+      "file": "DEMO_B_PCM8_13379.mp3",
+      "source_emulator_capture": "B-pcm8-13379-5loops.wav",
+      "start_seconds": 0,
+      "duration_seconds": 45.0,
+      "listening_gain_db": 8.926189037671893,
+      "normalized_rms_dbfs": -18.0,
+      "peak_dbfs": -4.651264164709485,
+      "sha256": "bc0ec5fee6102b4a18a3fc41be65ba5407b94f4cfd2853bf495f7faed9beaf20",
+      "bytes": 901484
+    },
+    {
+      "file": "DEMO_B_DPCM_16000_MIX18157.mp3",
+      "source_emulator_capture": "B-dpcm4-16000-mix18157-5loops.wav",
+      "start_seconds": 0,
+      "duration_seconds": 45.0,
+      "listening_gain_db": 8.90465415178015,
+      "normalized_rms_dbfs": -18.0,
+      "peak_dbfs": -4.693069514032273,
+      "sha256": "ad304178ac5707bbf5d71c8c06c3d946d35884c3a36cad37e325896fd77f38e5",
+      "bytes": 901484
+    },
+    {
+      "file": "RETOUR_DE_BOUCLE_B.mp3",
+      "source_emulator_capture": "B-dpcm4-13379-5loops.wav",
+      "start_seconds": 146.24904545549188,
+      "duration_seconds": 8.0,
+      "listening_gain_db": 9.234395391687526,
+      "normalized_rms_dbfs": -18.0,
+      "peak_dbfs": -6.626861423964359,
+      "sha256": "2a149e9595e93c0a7c90e0732395878b8a831963a4f12c293938594c933898ae",
+      "bytes": 162044
+    },
+    {
+      "file": "DESCENTE_VELO_MUSIQUE_ZONE.mp3",
+      "source_emulator_capture": "B-dpcm4-13379-5loops-retour-zone.wav",
+      "start_seconds": 0,
+      "duration_seconds": 3.063934326171875,
+      "listening_gain_db": 5.883665220488103,
+      "normalized_rms_dbfs": -18.0,
+      "peak_dbfs": -5.278935541599439,
+      "sha256": "975f91ef70943c560b0513ac502f8d3b8d9c31fc67d2608ce13e65161d2c517d",
+      "bytes": 63404
+    },
+    {
+      "file": "B-pcm8-8000-comparaison-frequence.mp3",
+      "source_emulator_capture": "B-pcm8-8000-short.wav",
+      "start_seconds": 0,
+      "duration_seconds": 12.0,
+      "listening_gain_db": 9.060413724384727,
+      "normalized_rms_dbfs": -18.0,
+      "peak_dbfs": -6.372120542734625,
+      "sha256": "e817a4875a71d63a0b08bbc1329958e58b26721637724fe84e9ade49fcd40d12",
+      "bytes": 241964
+    },
+    {
+      "file": "B-dpcm4-8000-comparaison-frequence.mp3",
+      "source_emulator_capture": "B-dpcm4-8000-short.wav",
+      "start_seconds": 0,
+      "duration_seconds": 12.0,
+      "listening_gain_db": 9.05983359418387,
+      "normalized_rms_dbfs": -18.0,
+      "peak_dbfs": -6.374267533161265,
+      "sha256": "2becfb4267d8e28ee30bc0894d73aefd05f611bca942eb078669d9d8b0f4d843",
+      "bytes": 241964
+    },
+    {
+      "file": "B-pcm8-11025-comparaison-frequence.mp3",
+      "source_emulator_capture": "B-pcm8-11025-short.wav",
+      "start_seconds": 0,
+      "duration_seconds": 12.0,
+      "listening_gain_db": 9.05309755928064,
+      "normalized_rms_dbfs": -18.0,
+      "peak_dbfs": -6.354405308272569,
+      "sha256": "9db1c13aa654acd41f9c74c4c7d001de3f8c46236df0efad0fca724fc6ab829e",
+      "bytes": 241964
+    },
+    {
+      "file": "B-dpcm4-11025-comparaison-frequence.mp3",
+      "source_emulator_capture": "B-dpcm4-11025-short.wav",
+      "start_seconds": 0,
+      "duration_seconds": 12.0,
+      "listening_gain_db": 9.053057760174596,
+      "normalized_rms_dbfs": -18.0,
+      "peak_dbfs": -6.349759740203202,
+      "sha256": "6e8f28a358a8ca13f70cb1ab0926aa176395fac29836dab7f5420e0b0b0ce33c",
+      "bytes": 241964
+    },
+    {
+      "file": "B-pcm8-13379-comparaison-frequence.mp3",
+      "source_emulator_capture": "B-pcm8-13379-short.wav",
+      "start_seconds": 0,
+      "duration_seconds": 12.0,
+      "listening_gain_db": 9.049482254538844,
+      "normalized_rms_dbfs": -18.0,
+      "peak_dbfs": -6.331503554824293,
+      "sha256": "74ab3743dc28c42250269437d3a6ba1eec7e84076efaabb015bc4061a075d436",
+      "bytes": 241964
+    },
+    {
+      "file": "B-dpcm4-13379-comparaison-frequence.mp3",
+      "source_emulator_capture": "B-dpcm4-13379-short.wav",
+      "start_seconds": 0,
+      "duration_seconds": 12.0,
+      "listening_gain_db": 9.049747143957283,
+      "normalized_rms_dbfs": -18.0,
+      "peak_dbfs": -6.385921126312816,
+      "sha256": "6e3ee3d50a88afc93e7117bb4e3577aed8009841e7de17eb8fa5c81e23bf96b9",
+      "bytes": 241964
+    },
+    {
+      "file": "B-pcm8-16000-comparaison-frequence.mp3",
+      "source_emulator_capture": "B-pcm8-16000-short.wav",
+      "start_seconds": 0,
+      "duration_seconds": 12.0,
+      "listening_gain_db": 9.04643225300305,
+      "normalized_rms_dbfs": -18.0,
+      "peak_dbfs": -6.339227158645599,
+      "sha256": "e56d8da3870d4e3d09bef103807362c58dfca588449af31373fa838d0cfff61e",
+      "bytes": 241964
+    },
+    {
+      "file": "B-dpcm4-16000-comparaison-frequence.mp3",
+      "source_emulator_capture": "B-dpcm4-16000-short.wav",
+      "start_seconds": 0,
+      "duration_seconds": 12.0,
+      "listening_gain_db": 9.04658628461171,
+      "normalized_rms_dbfs": -18.0,
+      "peak_dbfs": -6.335957112783587,
+      "sha256": "49337c2068a13a059c56123593abf8fe9826cd047623e692b9e4be3d319fef80",
+      "bytes": 241964
+    },
+    {
+      "file": "A2-CINQ_BOUCLES.mp3",
+      "source_emulator_capture": "A2-5loops.wav",
+      "start_seconds": 0,
+      "duration_seconds": 376.108154296875,
+      "listening_gain_db": 8.395737337267358,
+      "normalized_rms_dbfs": -18.0,
+      "peak_dbfs": -6.549382129265569,
+      "sha256": "1d14ba6a7f5caf6374f8d67830a6746ad6a1b2bfc5d089886f71f514bb5724cf",
+      "bytes": 7524044
+    },
+    {
+      "file": "B-dpcm4-13379-CINQ_BOUCLES.mp3",
+      "source_emulator_capture": "B-dpcm4-13379-5loops.wav",
+      "start_seconds": 0,
+      "duration_seconds": 377.6651916503906,
+      "listening_gain_db": 9.107771440895355,
+      "normalized_rms_dbfs": -18.0,
+      "peak_dbfs": -4.3477945830832345,
+      "sha256": "4dacc36a35511e6fc95d8d96d3740823e24d629736afc2b67a328d7311e431be",
+      "bytes": 7555004
+    }
+  ],
+  "private_bundle": {
+    "file": "COMPARAISON_A_B_PRIVEE.zip",
+    "bytes": 21001050,
+    "sha256": "bc1e8ddef650a0d31e95dc655b7b35af34bdf51f539a06b147a69bf6b67fb403"
+  },
+  "source_original_mp3_in_bundle": false,
+  "full_rom_in_bundle": false,
+  "perceptual_listening_certified": false
+}

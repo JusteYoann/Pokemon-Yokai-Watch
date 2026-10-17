@@ -1,5 +1,7 @@
 # Direction validée et prototype instrumental Bicycle Theme
 
+> **Prototype A1 refusé par le créateur :** [consulter la révision A2 et la comparaison avec l’audio échantillonné B](../musique-experimentation/README.md). L’ancien extrait publié ci-dessous ne représente pas les nouveaux essais.
+
 > **Mise à jour après demande explicite du créateur :** [télécharger l’extrait MP3 de 30 secondes](previews/BICYCLE_EXTRAIT_30S.mp3?raw=true). Seul cet extrait de la synthèse GBA est désormais public. Les mentions de confidentialité ci-dessous décrivent la livraison initiale ; le rendu complet, le MIDI, la séquence, le paquet de travail et les MP3 originaux restent privés.
 
 Les thèmes personnels demandés sont tous deux dans les 80 MP3. Aucune référence supplémentaire n’est nécessaire pour ces deux combats.

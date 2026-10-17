@@ -1,5 +1,7 @@
 # Audit musical — analyse du corpus reçu et sélection à valider
 
+> **Expérience A/B suivante :** [diagnostic du premier prototype, lecture PCM/DPCM réelle, tests et budget ROM](../musique-experimentation/README.md). Les nouveaux fichiers musicaux restent privés.
+
 > **Phase suivante :** [tableau actualisé, thèmes personnels validés et rapport du prototype Bicycle GBA](../musique-prototype/README.md). Les fichiers audio et les partitions restent privés, hors GitHub.
 
 > Publication des rapports : cette branche `audio/audit-musical-publication` contient uniquement l’audit musical, ajouté à `master`. Les mentions « aucun push » dans les rapports décrivent la clôture de l’analyse avant la demande de publication. Le point de sauvegarde QA et les autres développements restent locaux ; ils ne sont pas inclus dans cette branche. Les contrôles et chemins de reproduction décrivent l’environnement local d’origine.
