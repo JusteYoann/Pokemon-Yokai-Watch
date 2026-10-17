@@ -1,5 +1,7 @@
 # Audit musical — analyse du corpus reçu et sélection à valider
 
+> Publication des rapports : cette branche `audio/audit-musical-publication` contient uniquement l’audit musical, ajouté à `master`. Les mentions « aucun push » dans les rapports décrivent la clôture de l’analyse avant la demande de publication. Le point de sauvegarde QA et les autres développements restent locaux ; ils ne sont pas inclus dans cette branche. Les contrôles et chemins de reproduction décrivent l’environnement local d’origine.
+
 Le développement est sécurisé par le commit local **`145044ec29f4ad7ee03c1942e8a925d15a9f89e1`** sur `qa/recette-finale`. L’audit se trouve sur **`audio/direction-musicale-audit`**, créée depuis ce point. Aucun merge, push ou PR n’est réalisé. La recette du jeu reste **NON PRÊT** : l’audit musical ne remplace pas les vérifications de parcours encore ouvertes.
 
 ## Résultat
