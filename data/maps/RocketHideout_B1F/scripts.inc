@@ -61,3 +61,17 @@ RocketHideout_B1F_EventScript_RemoveBarrier::
 	setmetatile 20, 21, METATILE_SilphCo_HideoutFloor_ShadeFull, 0
 	setmetatile 21, 21, METATILE_SilphCo_HideoutFloor, 0
 	return
+
+RocketHideout_B1F_EventScript_Yokai110::
+	lock
+	faceplayer
+	bufferspeciesname STR_VAR_1, SPECIES_WEEZING
+	msgbox RocketHideout_B1F_EventScript_Yokai110_Text, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventScript_ReleaseEnd
+	setwildbattle SPECIES_WEEZING, 24
+	dowildbattle
+	release
+	end
+RocketHideout_B1F_EventScript_Yokai110_Text::
+	.string "Un {STR_VAR_1} se cache ici.\n"
+	.string "Veux-tu le rencontrer?$"

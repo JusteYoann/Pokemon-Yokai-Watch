@@ -8,8 +8,9 @@ CeladonCity_Condominiums_RoofRoom_EventScript_BlackBelt::
 CeladonCity_Condominiums_RoofRoom_EventScript_EeveeBall::
 	lock
 	faceplayer
-	setvar VAR_TEMP_1, SPECIES_EEVEE
-	givemon SPECIES_EEVEE, 25
+	goto_if_ge VAR_YOKAI_JIBANYAN_GIFTS, 3, EventScript_ReleaseEnd
+	setvar VAR_TEMP_1, SPECIES_BULBASAUR
+	givemon SPECIES_BULBASAUR, 25
 	goto_if_eq VAR_RESULT, 0, CeladonCity_Condominiums_RoofRoom_EventScript_GetEeveeParty
 	goto_if_eq VAR_RESULT, 1, CeladonCity_Condominiums_RoofRoom_EventScript_GetEeveePC
 	goto_if_eq VAR_RESULT, 2, EventScript_NoMoreRoomForPokemon
@@ -17,12 +18,11 @@ CeladonCity_Condominiums_RoofRoom_EventScript_EeveeBall::
 	end
 
 CeladonCity_Condominiums_RoofRoom_EventScript_GetEeveeParty::
-	removeobject LOCALID_EEVEE_POKEBALL
 	playfanfare MUS_LEVEL_UP
 	message CeladonCity_Condominiums_RoofRoom_Text_ObtainedAnEevee
 	waitmessage
 	waitfanfare
-	bufferspeciesname STR_VAR_1, SPECIES_EEVEE
+	bufferspeciesname STR_VAR_1, SPECIES_BULBASAUR
 	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, CeladonCity_Condominiums_RoofRoom_EventScript_SetGotEevee
 	call EventScript_GetGiftMonPartySlot
@@ -31,12 +31,11 @@ CeladonCity_Condominiums_RoofRoom_EventScript_GetEeveeParty::
 	end
 
 CeladonCity_Condominiums_RoofRoom_EventScript_GetEeveePC::
-	removeobject LOCALID_EEVEE_POKEBALL
 	playfanfare MUS_LEVEL_UP
 	message CeladonCity_Condominiums_RoofRoom_Text_ObtainedAnEevee
 	waitmessage
 	waitfanfare
-	bufferspeciesname STR_VAR_1, SPECIES_EEVEE
+	bufferspeciesname STR_VAR_1, SPECIES_BULBASAUR
 	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, CeladonCity_Condominiums_RoofRoom_EventScript_TransferEeveeToPC
 	call EventScript_NameReceivedBoxMon
@@ -49,7 +48,11 @@ CeladonCity_Condominiums_RoofRoom_EventScript_TransferEeveeToPC::
 	end
 
 CeladonCity_Condominiums_RoofRoom_EventScript_SetGotEevee::
+	addvar VAR_YOKAI_JIBANYAN_GIFTS, 1
+	goto_if_lt VAR_YOKAI_JIBANYAN_GIFTS, 3, CeladonCity_Condominiums_RoofRoom_EventScript_MoreJibanyan
+	removeobject LOCALID_EEVEE_POKEBALL
 	setflag FLAG_GOT_EEVEE
+	setflag FLAG_HIDE_EEVEE_BALL
 	release
 	end
 
@@ -102,3 +105,12 @@ CeladonCity_Condominiums_RoofRoom_EventScript_UnionRoom::
 CeladonCity_Condominiums_RoofRoom_EventScript_ExitBlackboard::
 	releaseall
 	end
+
+CeladonCity_Condominiums_RoofRoom_EventScript_MoreJibanyan::
+	msgbox CeladonCity_Condominiums_RoofRoom_Text_MoreJibanyan
+	release
+	end
+
+CeladonCity_Condominiums_RoofRoom_Text_MoreJibanyan::
+	.string "Un autre Jibanyan t’attend ici.\n"
+	.string "Reviens le chercher!$"

@@ -1,0 +1,312 @@
+{
+  "land_pools": {
+    "MAP_ROUTE1": [
+      91
+    ],
+    "MAP_ROUTE2": [
+      22,
+      76
+    ],
+    "MAP_ROUTE3": [
+      53,
+      146
+    ],
+    "MAP_ROUTE4": [
+      53,
+      146,
+      24,
+      52
+    ],
+    "MAP_ROUTE5": [
+      151
+    ],
+    "MAP_ROUTE6": [
+      151
+    ],
+    "MAP_ROUTE7": [
+      113,
+      135
+    ],
+    "MAP_ROUTE8": [
+      113,
+      135,
+      113,
+      135,
+      113,
+      135,
+      113,
+      135,
+      113,
+      135,
+      116,
+      116
+    ],
+    "MAP_ROUTE9": [
+      111
+    ],
+    "MAP_ROUTE10": [
+      111
+    ],
+    "MAP_ROUTE11": [
+      119,
+      54
+    ],
+    "MAP_ROUTE12": [
+      119,
+      106
+    ],
+    "MAP_ROUTE13": [
+      106,
+      126
+    ],
+    "MAP_ROUTE14": [
+      106,
+      126
+    ],
+    "MAP_ROUTE15": [
+      106,
+      126
+    ],
+    "MAP_ROUTE16": [
+      127,
+      131
+    ],
+    "MAP_ROUTE17": [
+      127,
+      131
+    ],
+    "MAP_ROUTE18": [
+      127,
+      131,
+      106,
+      126
+    ],
+    "MAP_ROUTE19": [
+      106,
+      126
+    ],
+    "MAP_ROUTE20": [
+      106,
+      126
+    ],
+    "MAP_ROUTE21_NORTH": [
+      91,
+      106
+    ],
+    "MAP_ROUTE21_SOUTH": [
+      91,
+      106
+    ],
+    "MAP_ROUTE22": [
+      68
+    ],
+    "MAP_ROUTE23": [
+      141
+    ],
+    "MAP_ROUTE24": [
+      36,
+      49
+    ],
+    "MAP_ROUTE25": [
+      36,
+      49
+    ],
+    "MAP_VIRIDIAN_FOREST": [
+      9,
+      45,
+      118,
+      8
+    ],
+    "MAP_DIGLETTS_CAVE": [
+      34,
+      94,
+      137
+    ],
+    "MAP_MT_MOON": [
+      24,
+      52
+    ],
+    "MAP_ROCK_TUNNEL": [
+      38,
+      57
+    ],
+    "MAP_POKEMON_TOWER": [
+      41,
+      43,
+      124,
+      143,
+      41,
+      43,
+      124,
+      143,
+      41,
+      43,
+      13,
+      71
+    ],
+    "MAP_POWER_PLANT": [
+      74,
+      73,
+      100
+    ],
+    "MAP_POKEMON_MANSION": [
+      28,
+      31,
+      99,
+      28,
+      31,
+      99,
+      28,
+      31,
+      99,
+      28,
+      90,
+      90
+    ],
+    "MAP_SAFARI_ZONE": [
+      98,
+      20,
+      85,
+      129,
+      139,
+      82,
+      98,
+      20,
+      85,
+      82,
+      89,
+      89
+    ],
+    "MAP_SEAFOAM_ISLANDS": [
+      26,
+      63,
+      26,
+      63,
+      26,
+      63,
+      26,
+      63,
+      26,
+      63,
+      86,
+      86
+    ],
+    "MAP_VICTORY_ROAD": [
+      40,
+      59,
+      65,
+      72,
+      136
+    ],
+    "MAP_CERULEAN_CAVE": [
+      84,
+      84,
+      84,
+      84,
+      84,
+      84,
+      84,
+      84,
+      84,
+      84,
+      145,
+      145
+    ],
+    "MAP_FIVE_ISLAND_LOST_CAVE": [
+      48
+    ],
+    "MAP_SEVEN_ISLAND_SEVAULT_CANYON": [
+      149,
+      149,
+      149,
+      149,
+      149,
+      149,
+      5,
+      29,
+      87,
+      149,
+      87,
+      149
+    ]
+  },
+  "neighbor_fallbacks": {
+    "MAP_MT_EMBER": [
+      28,
+      38,
+      57
+    ],
+    "MAP_ONE_ISLAND": [
+      53,
+      146,
+      111
+    ],
+    "MAP_TWO_ISLAND": [
+      36,
+      49,
+      151
+    ],
+    "MAP_THREE_ISLAND": [
+      106,
+      126,
+      139
+    ],
+    "MAP_FOUR_ISLAND": [
+      26,
+      63
+    ],
+    "MAP_FIVE_ISLAND": [
+      106,
+      126,
+      127
+    ],
+    "MAP_SIX_ISLAND": [
+      36,
+      49,
+      139
+    ],
+    "MAP_SEVEN_ISLAND": [
+      127,
+      131,
+      139
+    ],
+    "MAP_SSANNE": [
+      96
+    ],
+    "MAP_PALLET_TOWN": [
+      91
+    ],
+    "MAP_VIRIDIAN_CITY": [
+      91
+    ],
+    "MAP_CERULEAN_CITY": [
+      36,
+      49
+    ],
+    "MAP_CELADON_CITY": [
+      113,
+      135
+    ],
+    "MAP_VERMILION_CITY": [
+      119
+    ],
+    "MAP_FUCHSIA_CITY": [
+      106,
+      126
+    ],
+    "MAP_CINNABAR_ISLAND": [
+      28,
+      31
+    ]
+  },
+  "ocean_water_pool": [
+    11,
+    96,
+    117,
+    134
+  ],
+  "route12_fishing_pool": [
+    66
+  ],
+  "policy": "Retain all source levels/rates. Sevault Canyon starters each 5%; Hovernyan 85%. Rare land slots total 2%. Fallbacks provisional, authorized by creator."
+}

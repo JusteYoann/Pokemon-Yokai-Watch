@@ -293,6 +293,7 @@
 #define VAR_0x40F0                 0x40F0
 #define VAR_DAILY_BP               0x40F1
 #define VAR_0x40F2                 0x40F2
+#define VAR_YOKAI_JIBANYAN_GIFTS   VAR_0x40F2
 #define VAR_0x40F3                 0x40F3
 #define VAR_0x40F4                 0x40F4
 #define VAR_0x40F5                 0x40F5

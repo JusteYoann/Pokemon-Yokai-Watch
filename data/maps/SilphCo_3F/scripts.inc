@@ -33,3 +33,17 @@ SilphCo_3F_EventScript_Grunt::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_25, SilphCo_3F_Text_GruntIntro, SilphCo_3F_Text_GruntDefeat
 	msgbox SilphCo_3F_Text_GruntPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+SilphCo_3F_EventScript_Yokai051::
+	lock
+	faceplayer
+	bufferspeciesname STR_VAR_1, SPECIES_DUGTRIO
+	msgbox SilphCo_3F_EventScript_Yokai051_Text, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventScript_ReleaseEnd
+	setwildbattle SPECIES_DUGTRIO, 28
+	dowildbattle
+	release
+	end
+SilphCo_3F_EventScript_Yokai051_Text::
+	.string "Un {STR_VAR_1} se cache ici.\n"
+	.string "Veux-tu le rencontrer?$"

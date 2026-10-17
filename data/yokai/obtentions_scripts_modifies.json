@@ -1,0 +1,50 @@
+{
+  "files": [
+    "data/maps/PalletTown_ProfessorOaksLab/scripts.inc",
+    "src/field_specials.c",
+    "data/maps/Route12/scripts.inc",
+    "data/maps/Route16/scripts.inc",
+    "data/maps/PowerPlant/scripts.inc",
+    "data/maps/SeafoamIslands_B4F/scripts.inc",
+    "data/maps/MtEmber_Summit/scripts.inc",
+    "data/maps/SilphCo_7F/scripts.inc",
+    "data/maps/Route4_PokemonCenter_1F/scripts.inc",
+    "data/maps/CeladonCity_Condominiums_RoofRoom/scripts.inc",
+    "data/maps/SaffronCity_Dojo/scripts.inc",
+    "data/maps/CinnabarIsland_PokemonLab_ExperimentRoom/scripts.inc",
+    "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.inc",
+    "include/constants/vars.h",
+    "data/maps/CeladonCity_Condominiums_RoofRoom/scripts.inc",
+    "data/maps/CeladonCity_Condominiums_RoofRoom/text.inc",
+    "data/maps/SaffronCity_Dojo/scripts.inc",
+    "src/data/ingame_trades.h",
+    "data/maps/VermilionCity_House2/scripts.inc",
+    "data/maps/CinnabarIsland_PokemonLab_ExperimentRoom/scripts.inc",
+    "data/maps/CinnabarIsland_PokemonLab_Lounge/scripts.inc",
+    "src/wild_encounter.c"
+  ],
+  "kyubi_location": "Confirmed by creator: Mont Braise; Mademoaiselle stays Seafoam Islands",
+  "choices": {
+    "fossils": {
+      "helix": 115,
+      "dome": 70,
+      "amber": 32
+    },
+    "jibanyan_copies": 3,
+    "dojo_both_gifts": true,
+    "starters_ball_order": [
+      5,
+      29,
+      87
+    ],
+    "casino_alternatives": [
+      49,
+      52,
+      108,
+      126,
+      106,
+      105
+    ]
+  },
+  "pending": "Additional scripted wild encounters, overworld artwork, cameo Enma lock and full UI validation"
+}

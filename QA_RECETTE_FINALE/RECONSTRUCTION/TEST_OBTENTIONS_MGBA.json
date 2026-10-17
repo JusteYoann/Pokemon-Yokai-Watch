@@ -1,0 +1,38 @@
+{
+  "engine": "mGBA",
+  "rom_sha256": "b8071365ac89aa716b85e1283422ff5a3b7f395299b6f3af3284da3ec0eae674",
+  "scope": "Native function and script fixtures on a new-game field. Gift entry scripts and common Dojo reward path tested; overworld object approach and Dojo Yes/No selection still pending.",
+  "results": [
+    {
+      "test": "Native starter selection order",
+      "species": [
+        5,
+        29,
+        87
+      ],
+      "passed": true
+    },
+    {
+      "test": "Wild post-League guard, six restricted species before and after flag",
+      "passed": true
+    },
+    {
+      "test": "Three Jibanyan gifts, fourth attempt gives nothing; full native script and B input",
+      "passed": true
+    },
+    {
+      "test": "Jibanyan gift counter survives native Flash save/load",
+      "passed": true
+    },
+    {
+      "test": "Full party and 420 full PC slots: no Jibanyan gift consumed",
+      "passed": true
+    },
+    {
+      "test": "Both Dojo gifts sent to PC on actual Dojo map; independent persistent flags",
+      "passed": true
+    }
+  ],
+  "all_151_obtainable_verified": false,
+  "complete_story_verified": false
+}

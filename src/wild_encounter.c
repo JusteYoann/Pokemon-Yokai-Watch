@@ -16,6 +16,7 @@
 #include "constants/maps.h"
 #include "constants/abilities.h"
 #include "constants/items.h"
+#include "constants/flags.h"
 
 #define MAX_ENCOUNTER_RATE 1600
 
@@ -227,6 +228,13 @@ static void GenerateWildMon(u16 species, u8 level, u8 slot)
 {
     u32 personality;
     s8 chamber;
+    // Never let legacy/debug access bypass post-League-only wild obtainments.
+    if (!FlagGet(FLAG_SYS_GAME_CLEAR))
+    {
+        if (species == SPECIES_VENONAT || species == SPECIES_DODUO || species == SPECIES_ZAPDOS
+         || species == SPECIES_CHARMELEON || species == SPECIES_NIDORAN_F || species == SPECIES_DEWGONG)
+            species = SPECIES_CLOYSTER;
+    }
     ZeroEnemyPartyMons();
     if (species != SPECIES_UNOWN)
     {

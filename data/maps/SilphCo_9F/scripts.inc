@@ -43,3 +43,17 @@ SilphCo_9F_EventScript_Grunt2::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_38, SilphCo_9F_Text_Grunt2Intro, SilphCo_9F_Text_Grunt2Defeat
 	msgbox SilphCo_9F_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+SilphCo_9F_EventScript_Yokai108::
+	lock
+	faceplayer
+	bufferspeciesname STR_VAR_1, SPECIES_LICKITUNG
+	msgbox SilphCo_9F_EventScript_Yokai108_Text, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventScript_ReleaseEnd
+	setwildbattle SPECIES_LICKITUNG, 30
+	dowildbattle
+	release
+	end
+SilphCo_9F_EventScript_Yokai108_Text::
+	.string "Un {STR_VAR_1} se cache ici.\n"
+	.string "Veux-tu le rencontrer?$"

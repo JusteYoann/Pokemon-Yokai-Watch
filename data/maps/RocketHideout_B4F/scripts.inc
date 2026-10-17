@@ -119,3 +119,17 @@ RocketHideout_B4F_EventScript_RemoveBarrier::
 	setmetatile 17, 14, METATILE_SilphCo_HideoutFloor_ShadeFull, 0
 	setmetatile 18, 14, METATILE_SilphCo_HideoutFloor, 0
 	return
+
+RocketHideout_B4F_EventScript_Yokai142::
+	lock
+	faceplayer
+	bufferspeciesname STR_VAR_1, SPECIES_AERODACTYL
+	msgbox RocketHideout_B4F_EventScript_Yokai142_Text, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventScript_ReleaseEnd
+	setwildbattle SPECIES_AERODACTYL, 27
+	dowildbattle
+	release
+	end
+RocketHideout_B4F_EventScript_Yokai142_Text::
+	.string "Un {STR_VAR_1} se cache ici.\n"
+	.string "Veux-tu le rencontrer?$"

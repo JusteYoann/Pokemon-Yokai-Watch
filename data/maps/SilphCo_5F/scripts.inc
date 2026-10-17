@@ -56,3 +56,17 @@ SilphCo_5F_EventScript_Dalton::
 	trainerbattle_single TRAINER_JUGGLER_DALTON, SilphCo_5F_Text_DaltonIntro, SilphCo_5F_Text_DaltonDefeat
 	msgbox SilphCo_5F_Text_DaltonPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+SilphCo_5F_EventScript_Yokai061::
+	lock
+	faceplayer
+	bufferspeciesname STR_VAR_1, SPECIES_POLIWHIRL
+	msgbox SilphCo_5F_EventScript_Yokai061_Text, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventScript_ReleaseEnd
+	setwildbattle SPECIES_POLIWHIRL, 27
+	dowildbattle
+	release
+	end
+SilphCo_5F_EventScript_Yokai061_Text::
+	.string "Un {STR_VAR_1} se cache ici.\n"
+	.string "Veux-tu le rencontrer?$"

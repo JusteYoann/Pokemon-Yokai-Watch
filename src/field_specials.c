@@ -1517,9 +1517,9 @@ void ForcePlayerToStartSurfing(void)
 }
 
 static const u16 sStarterSpecies[] = {
-    SPECIES_BULBASAUR,
-    SPECIES_SQUIRTLE,
-    SPECIES_CHARMANDER
+    SPECIES_CHARMELEON, // Komasan
+    SPECIES_NIDORAN_F, // Padrezo
+    SPECIES_DEWGONG // Kappacap
 };
 
 static u16 GetStarterSpeciesById(u16 idx)

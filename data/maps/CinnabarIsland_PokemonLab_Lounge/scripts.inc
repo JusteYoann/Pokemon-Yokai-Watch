@@ -2,7 +2,11 @@ CinnabarIsland_PokemonLab_Lounge_MapScripts::
 	.byte 0
 
 CinnabarIsland_PokemonLab_Lounge_EventScript_Scientist::
-	msgbox CinnabarIsland_PokemonLab_Lounge_Text_FoundFossilInMtMoon, MSGBOX_NPC
+	lock
+	faceplayer
+	msgbox CinnabarIsland_PokemonLab_Lounge_Text_FossilShop
+	pokemart CinnabarIsland_PokemonLab_Lounge_FossilShop
+	release
 	end
 
 CinnabarIsland_PokemonLab_Lounge_EventScript_Clifton::
@@ -82,3 +86,12 @@ CinnabarIsland_PokemonLab_Lounge_EventScript_NormaAlreadyTraded::
 	msgbox Trade_Text_HowIsMyOldMon
 	release
 	end
+
+CinnabarIsland_PokemonLab_Lounge_Text_FossilShop::
+	.string "Je vends des fossiles authentiques.\n"
+	.string "Notre labo peut les faire revivre!$"
+	.align 2
+CinnabarIsland_PokemonLab_Lounge_FossilShop::
+	.2byte ITEM_HELIX_FOSSIL
+	.2byte ITEM_DOME_FOSSIL
+	.2byte ITEM_NONE

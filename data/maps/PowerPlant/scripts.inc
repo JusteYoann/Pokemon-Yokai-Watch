@@ -37,9 +37,9 @@ PowerPlant_EventScript_Zapdos::
 	special QuestLog_CutRecording
 	lock
 	faceplayer
-	setwildbattle SPECIES_ZAPDOS, 50
+	setwildbattle SPECIES_BEEDRILL, 50
 	waitse
-	playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_BEEDRILL, CRY_MODE_ENCOUNTER
 	message Text_Gyaoo
 	waitmessage
 	waitmoncry
@@ -64,7 +64,7 @@ PowerPlant_EventScript_DefeatedZapdos::
 	end
 
 PowerPlant_EventScript_RanFromZapdos::
-	setvar VAR_0x8004, SPECIES_ZAPDOS
+	setvar VAR_0x8004, SPECIES_BEEDRILL
 	goto EventScript_MonFlewAway
 	end
 
