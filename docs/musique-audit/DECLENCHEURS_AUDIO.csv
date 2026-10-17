@@ -1,0 +1,712 @@
+﻿music;file;line;label;code
+MUS_CAUGHT_INTRO;src/battle_anim_special.c;1201;;"PlaySE(MUS_CAUGHT_INTRO);"
+MUS_VICTORY_WILD;src/battle_controller_pokedude.c;2576;;"PlayBGM(MUS_VICTORY_WILD);"
+MUS_VICTORY_WILD;src/battle_controller_pokedude.c;2649;;"PlayBGM(MUS_VICTORY_WILD);"
+MUS_VICTORY_TRAINER;src/battle_main.c;3748;;"PlayBGM(MUS_VICTORY_TRAINER);"
+MUS_VICTORY_GYM_LEADER;src/battle_main.c;3759;;"PlayBGM(MUS_VICTORY_GYM_LEADER);"
+MUS_VICTORY_TRAINER;src/battle_main.c;3767;;"PlayBGM(MUS_VICTORY_TRAINER);"
+MUS_CAUGHT;src/battle_message.c;475;;"static const u8 sText_GotchaPkmnCaught[] = _(""Gotcha! {B_OPPONENT_MON1_NAME} a été attrapé!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}\p"");"
+MUS_CAUGHT;src/battle_message.c;476;;"static const u8 sText_GotchaPkmnCaught2[] = _(""Gotcha! {B_OPPONENT_MON1_NAME} a été attrapé!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}{PAUSE 127}"");"
+MUS_VICTORY_WILD;src/battle_script_commands.c;3205;;"PlayBGM(MUS_VICTORY_WILD);"
+MUS_VS_LEGEND;src/battle_setup.c;266;;"CreateBattleStartTask(GetWildBattleTransition(), MUS_VS_LEGEND);"
+MUS_VS_MEWTWO;src/battle_setup.c;360;;"CreateBattleStartTask(B_TRANSITION_BLUR, MUS_VS_MEWTWO);"
+MUS_VS_DEOXYS;src/battle_setup.c;363;;"CreateBattleStartTask(B_TRANSITION_BLUR, MUS_VS_DEOXYS);"
+MUS_VS_LEGEND;src/battle_setup.c;370;;"CreateBattleStartTask(B_TRANSITION_BLUR, MUS_VS_LEGEND);"
+MUS_RS_VS_TRAINER;src/battle_setup.c;373;;"CreateBattleStartTask(B_TRANSITION_BLUR, MUS_RS_VS_TRAINER);"
+MUS_RS_VS_TRAINER;src/battle_setup.c;386;;"CreateBattleStartTask(B_TRANSITION_ANGLED_WIPES, MUS_RS_VS_TRAINER);"
+MUS_RS_VS_TRAINER;src/battle_setup.c;388;;"CreateBattleStartTask(B_TRANSITION_ANGLED_WIPES, MUS_RS_VS_TRAINER);"
+MUS_RS_VS_TRAINER;src/battle_setup.c;398;;"CreateBattleStartTask(B_TRANSITION_BLUR, MUS_RS_VS_TRAINER);"
+MUS_ENCOUNTER_GIRL;src/battle_setup.c;1020;;"music = MUS_ENCOUNTER_GIRL;"
+MUS_ENCOUNTER_BOY;src/battle_setup.c;1030;;"music = MUS_ENCOUNTER_BOY;"
+MUS_ENCOUNTER_ROCKET;src/battle_setup.c;1033;;"music = MUS_ENCOUNTER_ROCKET;"
+MUS_POKE_CENTER;src/berry_crush.c;962;;"PlayNewMapMusic(MUS_POKE_CENTER);"
+MUS_GAME_CORNER;src/berry_crush.c;1326;;"PlayNewMapMusic(MUS_GAME_CORNER);"
+MUS_CYCLING;src/bike.c;326;;if (Overworld_MusicCanOverrideMapMusic(MUS_CYCLING))
+MUS_CYCLING;src/bike.c;328;;"Overworld_SetSavedMusic(MUS_CYCLING);"
+MUS_CYCLING;src/bike.c;329;;"Overworld_ChangeMusicTo(MUS_CYCLING);"
+MUS_RS_VS_GYM_LEADER;src/cable_club.c;658;;"PlayMapChosenOrBattleBGM(MUS_RS_VS_GYM_LEADER);"
+MUS_RS_VS_TRAINER;src/cable_club.c;660;;"PlayMapChosenOrBattleBGM(MUS_RS_VS_TRAINER);"
+MUS_RS_VS_GYM_LEADER;src/cable_club.c;733;;"PlayMapChosenOrBattleBGM(MUS_RS_VS_GYM_LEADER);"
+MUS_RS_VS_TRAINER;src/cable_club.c;735;;"PlayMapChosenOrBattleBGM(MUS_RS_VS_TRAINER);"
+MUS_EVOLUTION_INTRO;src/daycare.c;1873;;"PlayBGM(MUS_EVOLUTION_INTRO);"
+MUS_EVOLUTION;src/daycare.c;1876;;"PlayBGM(MUS_EVOLUTION);"
+MUS_EVOLVED;src/daycare.c;1931;;"PlayFanfare(MUS_EVOLVED);"
+MUS_BERRY_PICK;src/dodrio_berry_picking.c;740;;"PlayNewMapMusic(MUS_BERRY_PICK);"
+MUS_VICTORY_WILD;src/dodrio_berry_picking.c;1114;;"FadeOutAndPlayNewMapMusic(MUS_VICTORY_WILD, 4);"
+MUS_VICTORY_WILD;src/dodrio_berry_picking.c;1157;;"FadeOutAndPlayNewMapMusic(MUS_VICTORY_WILD, 4);"
+MUS_BERRY_PICK;src/dodrio_berry_picking.c;1398;;"PlayNewMapMusic(MUS_BERRY_PICK);"
+MUS_LEVEL_UP;src/dodrio_berry_picking.c;4603;;"PlayNewMapMusic(MUS_LEVEL_UP);"
+MUS_VICTORY_WILD;src/dodrio_berry_picking.c;4637;;"FadeOutAndFadeInNewMapMusic(MUS_VICTORY_WILD, 20, 10);"
+MUS_OBTAIN_ITEM;src/ereader_screen.c;489;;"PlayFanfare(MUS_OBTAIN_ITEM);"
+MUS_EVOLUTION_INTRO;src/evolution_scene.c;717;;"PlaySE(MUS_EVOLUTION_INTRO);"
+MUS_EVOLUTION;src/evolution_scene.c;725;;"PlayNewMapMusic(MUS_EVOLUTION);"
+MUS_EVOLVED;src/evolution_scene.c;801;;"PlayBGM(MUS_EVOLVED);"
+MUS_LEVEL_UP;src/evolution_scene.c;895;;"PlayFanfare(MUS_LEVEL_UP);"
+MUS_EVOLUTION;src/evolution_scene.c;1156;;"m4aSongNumStop(MUS_EVOLUTION);"
+MUS_EVOLUTION_INTRO;src/evolution_scene.c;1157;;"PlaySE(MUS_EVOLUTION_INTRO);"
+MUS_EVOLUTION;src/evolution_scene.c;1164;;"PlayBGM(MUS_EVOLUTION);"
+MUS_EVOLVED;src/evolution_scene.c;1238;;"PlayFanfare(MUS_EVOLVED);"
+MUS_EVOLUTION;src/evolution_scene.c;1274;;"PlayBGM(MUS_EVOLUTION);"
+MUS_LEVEL_UP;src/evolution_scene.c;1318;;"PlayFanfare(MUS_LEVEL_UP);"
+MUS_HEAL;src/field_effect.c;933;;"PlayFanfare(MUS_HEAL);"
+MUS_SURF;src/field_effect.c;2987;;if (Overworld_MusicCanOverrideMapMusic(MUS_SURF))
+MUS_SURF;src/field_effect.c;2988;;"Overworld_ChangeMusicTo(MUS_SURF);"
+MUS_CYCLING;src/field_specials.c;101;;"Overworld_SetSavedMusic(MUS_CYCLING);"
+MUS_CYCLING;src/field_specials.c;102;;"Overworld_ChangeMusicTo(MUS_CYCLING);"
+MUS_HALL_OF_FAME;src/hall_of_fame.c;353;;"PlayBGM(MUS_HALL_OF_FAME);"
+MUS_GAME_FREAK;src/intro.c;1174;;"PlaySE(MUS_GAME_FREAK);"
+MUS_INTRO_FIGHT;src/intro.c;1341;;"m4aSongNumStart(MUS_INTRO_FIGHT);"
+MUS_LEVEL_UP;src/learn_move.c;659;;"PlayFanfare(MUS_LEVEL_UP);"
+MUS_LEVEL_UP;src/learn_move.c;662;;"PlayFanfare(MUS_LEVEL_UP);"
+MUS_MYSTERY_GIFT;src/mystery_gift_menu.c;426;;"PlayBGM(MUS_MYSTERY_GIFT);"
+MUS_OBTAIN_ITEM;src/mystery_gift_menu.c;963;;"PlayFanfare(MUS_OBTAIN_ITEM);"
+MUS_NEW_GAME_INSTRUCT;src/oak_speech.c;781;;"PlayBGM(MUS_NEW_GAME_INSTRUCT);"
+MUS_NEW_GAME_INTRO;src/oak_speech.c;945;;"PlayBGM(MUS_NEW_GAME_INTRO);"
+MUS_NEW_GAME_EXIT;src/oak_speech.c;1046;;"PlayBGM(MUS_NEW_GAME_EXIT);"
+MUS_ROUTE24;src/oak_speech.c;1109;;"PlayBGM(MUS_ROUTE24);"
+MUS_SURF;src/overworld.c;1042;;else if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING) && Overworld_MusicCanOverrideMapMusic(MUS_SURF))
+MUS_SURF;src/overworld.c;1043;;"music = MUS_SURF;"
+MUS_SURF;src/overworld.c;1076;;if (currentMusic == MUS_SURF)
+MUS_SURF;src/overworld.c;1078;;if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING) && Overworld_MusicCanOverrideMapMusic(MUS_SURF))
+MUS_SURF;src/overworld.c;1079;;"newMusic = MUS_SURF;"
+MUS_SURF;src/overworld.c;1196;;if (music == MUS_CYCLING || music == MUS_SURF)
+MUS_CYCLING;src/overworld.c;1196;;if (music == MUS_CYCLING || music == MUS_SURF)
+MUS_LEVEL_UP;src/party_menu.c;4827;;"PlayFanfare(MUS_LEVEL_UP);"
+MUS_CAUGHT_INTRO;src/pokeball.c;900;;"PlaySE(MUS_CAUGHT_INTRO);"
+MUS_VS_WILD;src/pokemon.c;5897;;"return MUS_VS_WILD;"
+MUS_RS_VS_TRAINER;src/pokemon.c;5899;;"return MUS_RS_VS_TRAINER;"
+MUS_RS_VS_TRAINER;src/pokemon.c;5901;;"return MUS_RS_VS_TRAINER;"
+MUS_VS_CHAMPION;src/pokemon.c;5907;;"return MUS_VS_CHAMPION;"
+MUS_VS_GYM_LEADER;src/pokemon.c;5910;;"return MUS_VS_GYM_LEADER;"
+MUS_VS_TRAINER;src/pokemon.c;5917;;"return MUS_VS_TRAINER;"
+MUS_VS_WILD;src/pokemon.c;5920;;"return MUS_VS_WILD;"
+MUS_POKE_JUMP;src/pokemon_jump.c;1048;;"FadeOutAndPlayNewMapMusic(MUS_POKE_JUMP, 8);"
+MUS_LEVEL_UP;src/pokemon_jump.c;3364;;"sPokemonJumpGfx->fanfare = MUS_LEVEL_UP;"
+MUS_DUMMY;src/pokemon_jump.c;3377;;"sPokemonJumpGfx->fanfare = MUS_DUMMY;"
+MUS_DUMMY;src/pokemon_jump.c;3390;;"sPokemonJumpGfx->fanfare = MUS_DUMMY;"
+MUS_DUMMY;src/pokemon_jump.c;3410;;if (sPokemonJumpGfx->fanfare == MUS_DUMMY)
+MUS_LEVEL_UP;src/pokemon_special_anim.c;564;;"PlayFanfare(MUS_LEVEL_UP);"
+MUS_SLOTS_JACKPOT;src/slot_machine.c;1178;;"PlayFanfare(MUS_SLOTS_JACKPOT);"
+MUS_SLOTS_WIN;src/slot_machine.c;1180;;"PlayFanfare(MUS_SLOTS_WIN);"
+MUS_LEVEL_UP;src/sound.c;51;;[FANFARE_LEVEL_UP]      = { MUS_LEVEL_UP,         80 },
+MUS_OBTAIN_ITEM;src/sound.c;52;;[FANFARE_OBTAIN_ITEM]   = { MUS_OBTAIN_ITEM,     160 },
+MUS_EVOLVED;src/sound.c;53;;[FANFARE_EVOLVED]       = { MUS_EVOLVED,         220 },
+MUS_OBTAIN_TMHM;src/sound.c;54;;[FANFARE_OBTAIN_TMHM]   = { MUS_OBTAIN_TMHM,     220 },
+MUS_HEAL;src/sound.c;55;;[FANFARE_HEAL]          = { MUS_HEAL,            160 },
+MUS_OBTAIN_BADGE;src/sound.c;56;;[FANFARE_OBTAIN_BADGE]  = { MUS_OBTAIN_BADGE,    340 },
+MUS_MOVE_DELETED;src/sound.c;57;;[FANFARE_MOVE_DELETED]  = { MUS_MOVE_DELETED,    180 },
+MUS_OBTAIN_BERRY;src/sound.c;58;;[FANFARE_OBTAIN_BERRY]  = { MUS_OBTAIN_BERRY,    120 },
+MUS_SLOTS_JACKPOT;src/sound.c;59;;[FANFARE_SLOTS_JACKPOT] = { MUS_SLOTS_JACKPOT,   250 },
+MUS_SLOTS_WIN;src/sound.c;60;;[FANFARE_SLOTS_WIN]     = { MUS_SLOTS_WIN,       150 },
+MUS_TOO_BAD;src/sound.c;61;;[FANFARE_TOO_BAD]       = { MUS_TOO_BAD,         160 },
+MUS_POKE_FLUTE;src/sound.c;62;;[FANFARE_POKE_FLUTE]    = { MUS_POKE_FLUTE,      450 },
+MUS_OBTAIN_KEY_ITEM;src/sound.c;63;;[FANFARE_KEY_ITEM]      = { MUS_OBTAIN_KEY_ITEM, 170 },
+MUS_DEX_RATING;src/sound.c;64;;[FANFARE_DEX_EVAL]      = { MUS_DEX_RATING,      196 }
+MUS_DUMMY;src/sound.c;218;;"m4aSongNumStart(MUS_DUMMY);"
+MUS_LEVEL_UP;src/strings.c;1028;;"ALIGNED(4) const u8 gText_BerryCrush_GainedXUnitsOfPowder[] = _(""{PAUSE_MUSIC}{PLAY_BGM MUS_LEVEL_UP} Vous avez fini avec {STR_VAR_1}\nunités de poudre de baies soyeuses. {RESUME_MUSIC}\pVotre quantité totale de poudre de\nbaies est {STR_VAR_2}.\p"");"
+MUS_TEACHY_TV_MENU;src/teachy_tv.c;490;;"PlayNewMapMusic(MUS_TEACHY_TV_MENU);"
+MUS_FOLLOW_ME;src/teachy_tv.c;766;;"PlayNewMapMusic(MUS_FOLLOW_ME);"
+MUS_TEACHY_TV_MENU;src/teachy_tv.c;1047;;"PlayNewMapMusic(MUS_TEACHY_TV_MENU);"
+MUS_DUMMY;src/teachy_tv.c;1180;;"PlayMapChosenOrBattleBGM(MUS_DUMMY);"
+MUS_FOLLOW_ME;src/teachy_tv.c;1214;;"PlayNewMapMusic(MUS_FOLLOW_ME);"
+MUS_TITLE;src/title_screen.c;389;;"m4aSongNumStart(MUS_TITLE);"
+MUS_GAME_CORNER;src/trade.c;1049;;"PlayBGM(MUS_GAME_CORNER);"
+MUS_EVOLUTION;src/trade_scene.c;1351;;"PlayNewMapMusic(MUS_EVOLUTION);"
+MUS_EVOLVED;src/trade_scene.c;1754;;"PlayFanfare(MUS_EVOLVED);"
+MUS_EVOLUTION;src/trade_scene.c;1829;;"PlayNewMapMusic(MUS_EVOLUTION);"
+MUS_EVOLVED;src/trade_scene.c;2255;;"PlayFanfare(MUS_EVOLVED);"
+MUS_ENCOUNTER_BOY;src/trainer_tower.c;383;;[TRAINER_ENCOUNTER_MUSIC_MALE]        = MUS_ENCOUNTER_BOY,
+MUS_ENCOUNTER_GIRL;src/trainer_tower.c;384;;[TRAINER_ENCOUNTER_MUSIC_FEMALE]      = MUS_ENCOUNTER_GIRL,
+MUS_ENCOUNTER_GIRL;src/trainer_tower.c;385;;[TRAINER_ENCOUNTER_MUSIC_GIRL]        = MUS_ENCOUNTER_GIRL,
+MUS_ENCOUNTER_ROCKET;src/trainer_tower.c;386;;[TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS]  = MUS_ENCOUNTER_ROCKET,
+MUS_ENCOUNTER_BOY;src/trainer_tower.c;387;;[TRAINER_ENCOUNTER_MUSIC_INTENSE]     = MUS_ENCOUNTER_BOY,
+MUS_ENCOUNTER_BOY;src/trainer_tower.c;388;;[TRAINER_ENCOUNTER_MUSIC_COOL]        = MUS_ENCOUNTER_BOY,
+MUS_ENCOUNTER_ROCKET;src/trainer_tower.c;389;;[TRAINER_ENCOUNTER_MUSIC_AQUA]        = MUS_ENCOUNTER_ROCKET,
+MUS_ENCOUNTER_ROCKET;src/trainer_tower.c;390;;[TRAINER_ENCOUNTER_MUSIC_MAGMA]       = MUS_ENCOUNTER_ROCKET,
+MUS_ENCOUNTER_BOY;src/trainer_tower.c;391;;[TRAINER_ENCOUNTER_MUSIC_SWIMMER]     = MUS_ENCOUNTER_BOY,
+MUS_ENCOUNTER_GIRL;src/trainer_tower.c;392;;[TRAINER_ENCOUNTER_MUSIC_TWINS]       = MUS_ENCOUNTER_GIRL,
+MUS_ENCOUNTER_BOY;src/trainer_tower.c;393;;[TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR]  = MUS_ENCOUNTER_BOY,
+MUS_ENCOUNTER_BOY;src/trainer_tower.c;394;;[TRAINER_ENCOUNTER_MUSIC_HIKER]       = MUS_ENCOUNTER_BOY,
+MUS_ENCOUNTER_BOY;src/trainer_tower.c;395;;[TRAINER_ENCOUNTER_MUSIC_INTERVIEWER] = MUS_ENCOUNTER_BOY,
+MUS_ENCOUNTER_BOY;src/trainer_tower.c;396;;[TRAINER_ENCOUNTER_MUSIC_RICH]        = MUS_ENCOUNTER_BOY
+MUS_LEVEL_UP;data/battle_scripts_1.s;3114;BattleScript_LevelUp;fanfare MUS_LEVEL_UP
+MUS_LEVEL_UP;data/battle_scripts_1.s;3142;BattleScript_LearnedNewMove;fanfare MUS_LEVEL_UP
+MUS_POKE_FLUTE;data/battle_scripts_2.s;202;BattleScript_PokeFluteWakeUp;fanfare MUS_POKE_FLUTE
+MUS_OBTAIN_BADGE;data/event_scripts.s;1058;EventScript_GymBadgeFanfare;playfanfare MUS_OBTAIN_BADGE
+MUS_HEAL;data/event_scripts.s;1064;EventScript_OutOfCenterPartyHeal;playfanfare MUS_HEAL
+MUS_OBTAIN_TMHM;data/event_scripts.s;1093;EventScript_HandOverItem;playfanfare MUS_OBTAIN_TMHM
+MUS_POKE_CENTER;data/maps/BattleColosseum_2P/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/BattleColosseum_4P/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_ENCOUNTER_DEOXYS;data/maps/BirthIsland_Exterior/scripts.inc;74;BirthIsland_Exterior_EventScript_Deoxys;playbgm MUS_ENCOUNTER_DEOXYS, 0
+MUS_CELADON;data/maps/CeladonCity/header.inc;10;;.2byte MUS_CELADON
+MUS_CELADON;data/maps/CeladonCity_Condominiums_1F/header.inc;10;;.2byte MUS_CELADON
+MUS_CELADON;data/maps/CeladonCity_Condominiums_2F/header.inc;10;;.2byte MUS_CELADON
+MUS_CELADON;data/maps/CeladonCity_Condominiums_3F/header.inc;10;;.2byte MUS_CELADON
+MUS_CELADON;data/maps/CeladonCity_Condominiums_Roof/header.inc;10;;.2byte MUS_CELADON
+MUS_CELADON;data/maps/CeladonCity_Condominiums_RoofRoom/header.inc;10;;.2byte MUS_CELADON
+MUS_LEVEL_UP;data/maps/CeladonCity_Condominiums_RoofRoom/scripts.inc;21;CeladonCity_Condominiums_RoofRoom_EventScript_GetEeveeParty;playfanfare MUS_LEVEL_UP
+MUS_LEVEL_UP;data/maps/CeladonCity_Condominiums_RoofRoom/scripts.inc;35;CeladonCity_Condominiums_RoofRoom_EventScript_GetEeveePC;playfanfare MUS_LEVEL_UP
+MUS_POKE_CENTER;data/maps/CeladonCity_DepartmentStore_1F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/CeladonCity_DepartmentStore_2F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/CeladonCity_DepartmentStore_3F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/CeladonCity_DepartmentStore_4F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/CeladonCity_DepartmentStore_5F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/CeladonCity_DepartmentStore_Elevator/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/CeladonCity_DepartmentStore_Roof/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_LEVEL_UP;data/maps/CeladonCity_DepartmentStore_Roof/scripts.inc;146;CeladonCity_DepartmentStore_Roof_EventScript_GiveDrink;playfanfare MUS_LEVEL_UP
+MUS_GAME_CORNER;data/maps/CeladonCity_GameCorner/header.inc;10;;.2byte MUS_GAME_CORNER
+MUS_CELADON;data/maps/CeladonCity_GameCorner_PrizeRoom/header.inc;10;;.2byte MUS_CELADON
+MUS_LEVEL_UP;data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.inc;208;CeladonCity_GameCorner_PrizeRoom_EventScript_ReceivedMonParty;playfanfare MUS_LEVEL_UP
+MUS_LEVEL_UP;data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.inc;221;CeladonCity_GameCorner_PrizeRoom_EventScript_ReceivedMonPC;playfanfare MUS_LEVEL_UP
+MUS_GYM;data/maps/CeladonCity_Gym/header.inc;10;;.2byte MUS_GYM
+MUS_ENCOUNTER_GYM_LEADER;data/maps/CeladonCity_Gym/text.inc;2;CeladonCity_Gym_Text_ErikaIntro;".string ""C'est si agréable...\p- J'ai dû me faire d'accord.\pJe m'appelle ERIKA. Je suis le\nleader de celadon Arène.\pJe suis étudiant de l'art de\nl'arrangement des fleurs.\pMes Yo-kai sont uniquement du type\nherbe.\p...Oh, je suis désolé, je n'avais\naucune idée que vous vouliez me\ldéfier.\pTrès bien, mais je ne perdrai pas. {PLAY_BGM MUS_ENCOUNTER_GYM_LEADER}$"""
+MUS_CELADON;data/maps/CeladonCity_Hotel/header.inc;10;;.2byte MUS_CELADON
+MUS_CELADON;data/maps/CeladonCity_House1/header.inc;10;;.2byte MUS_CELADON
+MUS_POKE_CENTER;data/maps/CeladonCity_PokemonCenter_1F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/CeladonCity_PokemonCenter_2F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_CELADON;data/maps/CeladonCity_Restaurant/header.inc;10;;.2byte MUS_CELADON
+MUS_ROCKET_HIDEOUT;data/maps/CeruleanCave_1F/header.inc;10;;.2byte MUS_ROCKET_HIDEOUT
+MUS_ROCKET_HIDEOUT;data/maps/CeruleanCave_2F/header.inc;10;;.2byte MUS_ROCKET_HIDEOUT
+MUS_ROCKET_HIDEOUT;data/maps/CeruleanCave_B1F/header.inc;10;;.2byte MUS_ROCKET_HIDEOUT
+MUS_ENCOUNTER_GYM_LEADER;data/maps/CeruleanCave_B1F/scripts.inc;39;CeruleanCave_B1F_EventScript_Mewtwo;playbgm MUS_ENCOUNTER_GYM_LEADER, 0
+MUS_FUCHSIA;data/maps/CeruleanCity/header.inc;10;;.2byte MUS_FUCHSIA
+MUS_ENCOUNTER_RIVAL;data/maps/CeruleanCity/scripts.inc;39;CeruleanCity_EventScript_Rival;playbgm MUS_ENCOUNTER_RIVAL, 0
+MUS_RIVAL_EXIT;data/maps/CeruleanCity/scripts.inc;51;CeruleanCity_EventScript_Rival;playbgm MUS_RIVAL_EXIT, 0
+MUS_ENCOUNTER_ROCKET;data/maps/CeruleanCity/scripts.inc;170;CeruleanCity_EventScript_Grunt;playbgm MUS_ENCOUNTER_ROCKET, 0
+MUS_ENCOUNTER_ROCKET;data/maps/CeruleanCity/text.inc;22;CeruleanCity_Text_GruntIntro;".string ""Reste dehors, ce n'est pas ta cour!\pMoi?\pJe suis un innocent spectateur, tu ne\nme crois pas?{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$"""
+MUS_FUCHSIA;data/maps/CeruleanCity_BikeShop/header.inc;10;;.2byte MUS_FUCHSIA
+MUS_OBTAIN_KEY_ITEM;data/maps/CeruleanCity_BikeShop/scripts.inc;33;CeruleanCity_BikeShop_EventScript_ExchangeBikeVoucher;msgreceiveditem CeruleanCity_BikeShop_Text_ExchangedVoucherForBicycle, ITEM_BICYCLE, 1, MUS_OBTAIN_KEY_ITEM
+MUS_GYM;data/maps/CeruleanCity_Gym/header.inc;10;;.2byte MUS_GYM
+MUS_ENCOUNTER_GYM_LEADER;data/maps/CeruleanCity_Gym/text.inc;2;CeruleanCity_Gym_Text_MistyIntro;".string ""Salut, tu es un nouveau visage!\pSeuls les Dresseurs qui ont une\npolitique d'environ Yo-kai peuvent\ltourner pro.\pQuelle est votre approche lorsque\nvous prenez et train Yo-kai?\pMa politique est une offensive\ntout-en-un avec du type d'eau\lYo-kai! {PLAY_BGM} {MUS_ENCOUNTER_GYM_LEADER}$"""
+MUS_FUCHSIA;data/maps/CeruleanCity_House1/header.inc;10;;.2byte MUS_FUCHSIA
+MUS_FUCHSIA;data/maps/CeruleanCity_House2/header.inc;10;;.2byte MUS_FUCHSIA
+MUS_FUCHSIA;data/maps/CeruleanCity_House3/header.inc;10;;.2byte MUS_FUCHSIA
+MUS_FUCHSIA;data/maps/CeruleanCity_House4/header.inc;10;;.2byte MUS_FUCHSIA
+MUS_FUCHSIA;data/maps/CeruleanCity_House5/header.inc;10;;.2byte MUS_FUCHSIA
+MUS_POKE_CENTER;data/maps/CeruleanCity_Mart/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/CeruleanCity_PokemonCenter_1F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/CeruleanCity_PokemonCenter_2F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_CINNABAR;data/maps/CinnabarIsland/header.inc;10;;.2byte MUS_CINNABAR
+MUS_FOLLOW_ME;data/maps/CinnabarIsland/scripts.inc;16;CinnabarIsland_EventScript_ReadyObjectsSailToOneIslandFromPokeCenter;savebgm MUS_FOLLOW_ME
+MUS_DUMMY;data/maps/CinnabarIsland/scripts.inc;58;CinnabarIsland_EventScript_ExitPokeCenterForOneIsland;savebgm MUS_DUMMY
+MUS_GYM;data/maps/CinnabarIsland_Gym/header.inc;10;;.2byte MUS_GYM
+MUS_LEVEL_UP;data/maps/CinnabarIsland_Gym/scripts.inc;217;CinnabarIsland_Gym_EventScript_CorrectAnswer;playfanfare MUS_LEVEL_UP
+MUS_ENCOUNTER_GYM_LEADER;data/maps/CinnabarIsland_Gym/text.inc;2;CinnabarIsland_Gym_Text_BlaineIntro;".string ""Hah!\pJe suis BLAINE, le chef rouge-chaud\nde cannelle Arène!\pMon feu Yo-kai sont tous rugueux et\nprêts avec une chaleur intense!\pIls incinèrent tous les challengers!\pVous feriez mieux d'avoir Anti-Brûle!\n{PLAY_BGM} {MUS_ENCOUNTER_GYM_LEADER}$"""
+MUS_POKE_CENTER;data/maps/CinnabarIsland_Mart/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/CinnabarIsland_PokemonCenter_1F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_FOLLOW_ME;data/maps/CinnabarIsland_PokemonCenter_1F/scripts.inc;36;CinnabarIsland_PokemonCenter_1F_EventScript_Bill;playbgm MUS_FOLLOW_ME, 1
+MUS_FOLLOW_ME;data/maps/CinnabarIsland_PokemonCenter_1F/scripts.inc;37;CinnabarIsland_PokemonCenter_1F_EventScript_Bill;savebgm MUS_FOLLOW_ME
+MUS_POKE_CENTER;data/maps/CinnabarIsland_PokemonCenter_2F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_CINNABAR;data/maps/CinnabarIsland_PokemonLab_Entrance/header.inc;10;;.2byte MUS_CINNABAR
+MUS_CINNABAR;data/maps/CinnabarIsland_PokemonLab_ExperimentRoom/header.inc;10;;.2byte MUS_CINNABAR
+MUS_LEVEL_UP;data/maps/CinnabarIsland_PokemonLab_ExperimentRoom/scripts.inc;232;CinnabarIsland_PokemonLab_ExperimentRoom_EventScript_NicknameMonParty;playfanfare MUS_LEVEL_UP
+MUS_LEVEL_UP;data/maps/CinnabarIsland_PokemonLab_ExperimentRoom/scripts.inc;246;CinnabarIsland_PokemonLab_ExperimentRoom_EventScript_NicknameMonPC;playfanfare MUS_LEVEL_UP
+MUS_CINNABAR;data/maps/CinnabarIsland_PokemonLab_Lounge/header.inc;10;;.2byte MUS_CINNABAR
+MUS_CINNABAR;data/maps/CinnabarIsland_PokemonLab_ResearchRoom/header.inc;10;;.2byte MUS_CINNABAR
+MUS_VIRIDIAN_FOREST;data/maps/DiglettsCave_B1F/header.inc;10;;.2byte MUS_VIRIDIAN_FOREST
+MUS_VIRIDIAN_FOREST;data/maps/DiglettsCave_NorthEntrance/header.inc;10;;.2byte MUS_VIRIDIAN_FOREST
+MUS_VIRIDIAN_FOREST;data/maps/DiglettsCave_SouthEntrance/header.inc;10;;.2byte MUS_VIRIDIAN_FOREST
+MUS_SEVII_45;data/maps/FiveIsland/header.inc;10;;.2byte MUS_SEVII_45
+MUS_SEVII_45;data/maps/FiveIsland_Harbor/header.inc;10;;.2byte MUS_SEVII_45
+MUS_SEVII_45;data/maps/FiveIsland_House1/header.inc;10;;.2byte MUS_SEVII_45
+MUS_SEVII_45;data/maps/FiveIsland_House2/header.inc;10;;.2byte MUS_SEVII_45
+MUS_SEVII_CAVE;data/maps/FiveIsland_LostCave_Entrance/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/FiveIsland_LostCave_Room1/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/FiveIsland_LostCave_Room10/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/FiveIsland_LostCave_Room11/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/FiveIsland_LostCave_Room12/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/FiveIsland_LostCave_Room13/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/FiveIsland_LostCave_Room14/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/FiveIsland_LostCave_Room2/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/FiveIsland_LostCave_Room3/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/FiveIsland_LostCave_Room4/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/FiveIsland_LostCave_Room5/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/FiveIsland_LostCave_Room6/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/FiveIsland_LostCave_Room7/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/FiveIsland_LostCave_Room8/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/FiveIsland_LostCave_Room9/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_ROUTE;data/maps/FiveIsland_Meadow/header.inc;10;;.2byte MUS_SEVII_ROUTE
+MUS_SEVII_ROUTE;data/maps/FiveIsland_MemorialPillar/header.inc;10;;.2byte MUS_SEVII_ROUTE
+MUS_POKE_CENTER;data/maps/FiveIsland_PokemonCenter_1F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/FiveIsland_PokemonCenter_2F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_SEVII_ROUTE;data/maps/FiveIsland_ResortGorgeous/header.inc;10;;.2byte MUS_SEVII_ROUTE
+MUS_SEVII_45;data/maps/FiveIsland_ResortGorgeous_House/header.inc;10;;.2byte MUS_SEVII_45
+MUS_ROCKET_HIDEOUT;data/maps/FiveIsland_RocketWarehouse/header.inc;10;;.2byte MUS_ROCKET_HIDEOUT
+MUS_SEVII_ROUTE;data/maps/FiveIsland_WaterLabyrinth/header.inc;10;;.2byte MUS_SEVII_ROUTE
+MUS_LEVEL_UP;data/maps/FiveIsland_WaterLabyrinth/scripts.inc;35;FiveIsland_WaterLabyrinth_EventScript_TryGiveEgg;playfanfare MUS_LEVEL_UP
+MUS_SEVII_45;data/maps/FourIsland/header.inc;10;;.2byte MUS_SEVII_45
+MUS_ENCOUNTER_RIVAL;data/maps/FourIsland/scripts.inc;31;FourIsland_EventScript_RivalScene;playbgm MUS_ENCOUNTER_RIVAL, 0
+MUS_LEVEL_UP;data/maps/FourIsland/scripts.inc;106;FourIsland_EventScript_DaycareReceivedEgg;playfanfare MUS_LEVEL_UP
+MUS_SEVII_45;data/maps/FourIsland_Harbor/header.inc;10;;.2byte MUS_SEVII_45
+MUS_SEVII_45;data/maps/FourIsland_House1/header.inc;10;;.2byte MUS_SEVII_45
+MUS_SEVII_45;data/maps/FourIsland_House2/header.inc;10;;.2byte MUS_SEVII_45
+MUS_SEVII_CAVE;data/maps/FourIsland_IcefallCave_1F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/FourIsland_IcefallCave_B1F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/FourIsland_IcefallCave_Back/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_ENCOUNTER_ROCKET;data/maps/FourIsland_IcefallCave_Back/scripts.inc;44;FourIsland_IcefallCave_Back_EventScript_LoreleiRocketsScene;playbgm MUS_ENCOUNTER_ROCKET, 0
+MUS_SEVII_CAVE;data/maps/FourIsland_IcefallCave_Entrance/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_45;data/maps/FourIsland_LoreleisHouse/header.inc;10;;.2byte MUS_SEVII_45
+MUS_POKE_CENTER;data/maps/FourIsland_Mart/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/FourIsland_PokemonCenter_1F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/FourIsland_PokemonCenter_2F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_SEVII_45;data/maps/FourIsland_PokemonDayCare/header.inc;10;;.2byte MUS_SEVII_45
+MUS_FUCHSIA;data/maps/FuchsiaCity/header.inc;10;;.2byte MUS_FUCHSIA
+MUS_GYM;data/maps/FuchsiaCity_Gym/header.inc;10;;.2byte MUS_GYM
+MUS_ENCOUNTER_GYM_LEADER;data/maps/FuchsiaCity_Gym/text.inc;2;FuchsiaCity_Gym_Text_KogaIntro;".string ""KOGA: Fwahaha!\pUn simple enfant comme vous ose me\ndéfier?\pL'idée même me fait frissonner avec\nla mirth!\pTrès bien, je vais vous montrer la\nvraie terreur comme maître ninja.\pPoison apporte un corps stable. Le\nsommeil rend les ennemis impuissants.\pDésespérez l'horreur effrayante du\npoison Yo-kai! {PLAY_BGM} {MUS_ENCOUNTER_GYM_LEADER}$"""
+MUS_FUCHSIA;data/maps/FuchsiaCity_House1/header.inc;10;;.2byte MUS_FUCHSIA
+MUS_FUCHSIA;data/maps/FuchsiaCity_House2/header.inc;10;;.2byte MUS_FUCHSIA
+MUS_FUCHSIA;data/maps/FuchsiaCity_House3/header.inc;10;;.2byte MUS_FUCHSIA
+MUS_MOVE_DELETED;data/maps/FuchsiaCity_House3/scripts.inc;34;FuchsiaCity_House3_EventScript_ForgetMove;playfanfare MUS_MOVE_DELETED
+MUS_POKE_CENTER;data/maps/FuchsiaCity_Mart/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/FuchsiaCity_PokemonCenter_1F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/FuchsiaCity_PokemonCenter_2F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_FUCHSIA;data/maps/FuchsiaCity_SafariZone_Entrance/header.inc;10;;.2byte MUS_FUCHSIA
+MUS_LEVEL_UP;data/maps/FuchsiaCity_SafariZone_Entrance/scripts.inc;121;FuchsiaCity_SafariZone_Entrance_EventScript_TryEnterSafariZone;playfanfare MUS_LEVEL_UP
+MUS_FUCHSIA;data/maps/FuchsiaCity_SafariZone_Office/header.inc;10;;.2byte MUS_FUCHSIA
+MUS_FUCHSIA;data/maps/FuchsiaCity_WardensHouse/header.inc;10;;.2byte MUS_FUCHSIA
+MUS_OBTAIN_TMHM;data/maps/FuchsiaCity_WardensHouse/scripts.inc;17;FuchsiaCity_WardensHouse_EventScript_GiveGoldTeeth;playfanfare MUS_OBTAIN_TMHM
+MUS_VICTORY_ROAD;data/maps/IndigoPlateau_Exterior/header.inc;10;;.2byte MUS_VICTORY_ROAD
+MUS_CREDITS;data/maps/IndigoPlateau_Exterior/scripts.inc;12;IndigoPlateau_Exterior_EventScript_PlayCreditsMusic;playbgm MUS_CREDITS, 0
+MUS_GYM;data/maps/IndigoPlateau_PokemonCenter_1F/header.inc;10;;.2byte MUS_GYM
+MUS_POKE_CENTER;data/maps/IndigoPlateau_PokemonCenter_2F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_LAVENDER;data/maps/LavenderTown/header.inc;10;;.2byte MUS_LAVENDER
+MUS_LAVENDER;data/maps/LavenderTown_House1/header.inc;10;;.2byte MUS_LAVENDER
+MUS_FUCHSIA;data/maps/LavenderTown_House2/header.inc;10;;.2byte MUS_FUCHSIA
+MUS_POKE_CENTER;data/maps/LavenderTown_Mart/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/LavenderTown_PokemonCenter_1F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/LavenderTown_PokemonCenter_2F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_LAVENDER;data/maps/LavenderTown_VolunteerPokemonHouse/header.inc;10;;.2byte MUS_LAVENDER
+MUS_OBTAIN_KEY_ITEM;data/maps/LavenderTown_VolunteerPokemonHouse/scripts.inc;12;LavenderTown_VolunteerPokemonHouse_EventScript_MrFuji;giveitem_msg LavenderTown_VolunteerPokemonHouse_Text_ReceivedPokeFluteFromMrFuji, ITEM_POKE_FLUTE, 1, MUS_OBTAIN_KEY_ITEM
+MUS_SEVII_CAVE;data/maps/MtEmber_Exterior/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_ENCOUNTER_ROCKET;data/maps/MtEmber_Exterior/scripts.inc;40;MtEmber_Exterior_EventScript_BattleGrunt1;playbgm MUS_ENCOUNTER_ROCKET, 0
+MUS_ENCOUNTER_ROCKET;data/maps/MtEmber_Exterior/scripts.inc;76;MtEmber_Exterior_EventScript_BattleGrunt2;playbgm MUS_ENCOUNTER_ROCKET, 0
+MUS_SEVII_CAVE;data/maps/MtEmber_RubyPath_1F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/MtEmber_RubyPath_B1F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/MtEmber_RubyPath_B1F_Stairs/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/MtEmber_RubyPath_B2F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/MtEmber_RubyPath_B2F_Stairs/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/MtEmber_RubyPath_B3F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_OBTAIN_KEY_ITEM;data/maps/MtEmber_RubyPath_B3F/scripts.inc;10;MtEmber_RubyPath_B5F_EventScript_Ruby;giveitem_msg MtEmber_RubyPath_B3F_Text_FoundARuby, ITEM_RUBY, 1, MUS_OBTAIN_KEY_ITEM
+MUS_SEVII_CAVE;data/maps/MtEmber_RubyPath_B4F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/MtEmber_RubyPath_B5F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/MtEmber_Summit/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_ENCOUNTER_GYM_LEADER;data/maps/MtEmber_Summit/scripts.inc;37;MtEmber_Summit_EventScript_Moltres;playbgm MUS_ENCOUNTER_GYM_LEADER, 0
+MUS_SEVII_CAVE;data/maps/MtEmber_SummitPath_1F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/MtEmber_SummitPath_2F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/MtEmber_SummitPath_3F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_MT_MOON;data/maps/MtMoon_1F/header.inc;10;;.2byte MUS_MT_MOON
+MUS_MT_MOON;data/maps/MtMoon_B1F/header.inc;10;;.2byte MUS_MT_MOON
+MUS_MT_MOON;data/maps/MtMoon_B2F/header.inc;10;;.2byte MUS_MT_MOON
+MUS_ENCOUNTER_GYM_LEADER;data/maps/MtMoon_B2F/scripts.inc;35;MtMoon_B2F_EventScript_BattleMiguel;playbgm MUS_ENCOUNTER_GYM_LEADER, 0
+MUS_OBTAIN_KEY_ITEM;data/maps/MtMoon_B2F/scripts.inc;59;MtMoon_B2F_EventScript_DomeFossil;giveitem_msg MtMoon_B2F_Text_ObtainedDomeFossil, ITEM_DOME_FOSSIL, 1, MUS_OBTAIN_KEY_ITEM
+MUS_OBTAIN_KEY_ITEM;data/maps/MtMoon_B2F/scripts.inc;67;MtMoon_B2F_EventScript_DomeFossil;playfanfare MUS_OBTAIN_KEY_ITEM
+MUS_OBTAIN_KEY_ITEM;data/maps/MtMoon_B2F/scripts.inc;90;MtMoon_B2F_EventScript_HelixFossil;giveitem_msg MtMoon_B2F_Text_ObtainedHelixFossil, ITEM_HELIX_FOSSIL, 1, MUS_OBTAIN_KEY_ITEM
+MUS_OBTAIN_KEY_ITEM;data/maps/MtMoon_B2F/scripts.inc;98;MtMoon_B2F_EventScript_HelixFossil;playfanfare MUS_OBTAIN_KEY_ITEM
+MUS_SEVII_CAVE;data/maps/NavelRock_1F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/NavelRock_B1F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/NavelRock_Base/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/NavelRock_BasePath_B10F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/NavelRock_BasePath_B11F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/NavelRock_BasePath_B1F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/NavelRock_BasePath_B2F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/NavelRock_BasePath_B3F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/NavelRock_BasePath_B4F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/NavelRock_BasePath_B5F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/NavelRock_BasePath_B6F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/NavelRock_BasePath_B7F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/NavelRock_BasePath_B8F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/NavelRock_BasePath_B9F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_ROUTE;data/maps/NavelRock_Exterior/header.inc;10;;.2byte MUS_SEVII_ROUTE
+MUS_SEVII_CAVE;data/maps/NavelRock_Fork/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_ROUTE;data/maps/NavelRock_Harbor/header.inc;10;;.2byte MUS_SEVII_ROUTE
+MUS_SEVII_CAVE;data/maps/NavelRock_Summit/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/NavelRock_SummitPath_2F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/NavelRock_SummitPath_3F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/NavelRock_SummitPath_4F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_CAVE;data/maps/NavelRock_SummitPath_5F/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_123;data/maps/OneIsland/header.inc;10;;.2byte MUS_SEVII_123
+MUS_SEVII_123;data/maps/OneIsland_Harbor/header.inc;10;;.2byte MUS_SEVII_123
+MUS_SEVII_123;data/maps/OneIsland_House1/header.inc;10;;.2byte MUS_SEVII_123
+MUS_SEVII_123;data/maps/OneIsland_House2/header.inc;10;;.2byte MUS_SEVII_123
+MUS_ROUTE3;data/maps/OneIsland_KindleRoad/header.inc;10;;.2byte MUS_ROUTE3
+MUS_FUCHSIA;data/maps/OneIsland_KindleRoad_EmberSpa/header.inc;10;;.2byte MUS_FUCHSIA
+MUS_NET_CENTER;data/maps/OneIsland_PokemonCenter_1F/header.inc;10;;.2byte MUS_NET_CENTER
+MUS_OBTAIN_KEY_ITEM;data/maps/OneIsland_PokemonCenter_1F/scripts.inc;100;OneIsland_PokemonCenter_1F_EventScript_MeetCelioScene;msgreceiveditem OneIsland_PokemonCenter_1F_Text_AcceptedMeteoriteFromBill, ITEM_METEORITE, 1, MUS_OBTAIN_KEY_ITEM
+MUS_OBTAIN_KEY_ITEM;data/maps/OneIsland_PokemonCenter_1F/scripts.inc;105;OneIsland_PokemonCenter_1F_EventScript_MeetCelioScene;giveitem_msg OneIsland_PokemonCenter_1F_Text_ObtainedTriPass, ITEM_TRI_PASS, 1, MUS_OBTAIN_KEY_ITEM
+MUS_OBTAIN_KEY_ITEM;data/maps/OneIsland_PokemonCenter_1F/scripts.inc;131;OneIsland_PokemonCenter_1F_EventScript_ReceiveTownMapPage;playfanfare MUS_OBTAIN_KEY_ITEM
+MUS_OBTAIN_KEY_ITEM;data/maps/OneIsland_PokemonCenter_1F/scripts.inc;141;OneIsland_PokemonCenter_1F_EventScript_ReceiveTownMap;giveitem_msg OneIsland_PokemonCenter_1F_Text_ReceivedTownMap, ITEM_TOWN_MAP, 1, MUS_OBTAIN_KEY_ITEM
+MUS_OBTAIN_TMHM;data/maps/OneIsland_PokemonCenter_1F/scripts.inc;246;OneIsland_PokemonCenter_1F_EventScript_GiveCelioSapphire;playfanfare MUS_OBTAIN_TMHM
+MUS_OBTAIN_TMHM;data/maps/OneIsland_PokemonCenter_1F/scripts.inc;292;OneIsland_PokemonCenter_1F_EventScript_GiveCelioRuby;playfanfare MUS_OBTAIN_TMHM
+MUS_OBTAIN_KEY_ITEM;data/maps/OneIsland_PokemonCenter_1F/scripts.inc;325;OneIsland_PokemonCenter_1F_EventScript_GiveRainbowPass;playfanfare MUS_OBTAIN_KEY_ITEM
+MUS_OBTAIN_KEY_ITEM;data/maps/OneIsland_PokemonCenter_1F/scripts.inc;329;OneIsland_PokemonCenter_1F_EventScript_GiveRainbowPass;playfanfare MUS_OBTAIN_KEY_ITEM
+MUS_NET_CENTER;data/maps/OneIsland_PokemonCenter_2F/header.inc;10;;.2byte MUS_NET_CENTER
+MUS_ROUTE3;data/maps/OneIsland_TreasureBeach/header.inc;10;;.2byte MUS_ROUTE3
+MUS_PALLET;data/maps/PalletTown/header.inc;10;;.2byte MUS_PALLET
+MUS_FOLLOW_ME;data/maps/PalletTown/scripts.inc;61;PalletTown_EventScript_OakRatingScene;playbgm MUS_FOLLOW_ME, 0
+MUS_OAK;data/maps/PalletTown/scripts.inc;185;PalletTown_EventScript_OakTrigger;playbgm MUS_OAK, 0
+MUS_PALLET;data/maps/PalletTown_PlayersHouse_1F/header.inc;10;;.2byte MUS_PALLET
+MUS_PALLET;data/maps/PalletTown_PlayersHouse_2F/header.inc;10;;.2byte MUS_PALLET
+MUS_OAK_LAB;data/maps/PalletTown_ProfessorOaksLab/header.inc;10;;.2byte MUS_OAK_LAB
+MUS_OAK;data/maps/PalletTown_ProfessorOaksLab/scripts.inc;33;PalletTown_ProfessorOaksLab_EventScript_ReadyOakForStarterScene;savebgm MUS_OAK
+MUS_OBTAIN_KEY_ITEM;data/maps/PalletTown_ProfessorOaksLab/scripts.inc;102;PalletTown_ProfessorOaksLab_EventScript_NationalDexScene;playfanfare MUS_OBTAIN_KEY_ITEM
+MUS_RIVAL_EXIT;data/maps/PalletTown_ProfessorOaksLab/scripts.inc;111;PalletTown_ProfessorOaksLab_EventScript_NationalDexScene;playbgm MUS_RIVAL_EXIT, 0
+MUS_ENCOUNTER_RIVAL;data/maps/PalletTown_ProfessorOaksLab/scripts.inc;125;PalletTown_ProfessorOaksLab_EventScript_NationalDexSceneRivalEnterNorth;playbgm MUS_ENCOUNTER_RIVAL, 0
+MUS_ENCOUNTER_RIVAL;data/maps/PalletTown_ProfessorOaksLab/scripts.inc;134;PalletTown_ProfessorOaksLab_EventScript_NationalDexSceneRivalEnterEastWest;playbgm MUS_ENCOUNTER_RIVAL, 0
+MUS_ENCOUNTER_RIVAL;data/maps/PalletTown_ProfessorOaksLab/scripts.inc;144;PalletTown_ProfessorOaksLab_EventScript_NationalDexSceneRivalEnterSouth;playbgm MUS_ENCOUNTER_RIVAL, 0
+MUS_DUMMY;data/maps/PalletTown_ProfessorOaksLab/scripts.inc;213;PalletTown_ProfessorOaksLab_ChooseStarterScene;savebgm MUS_DUMMY
+MUS_ENCOUNTER_RIVAL;data/maps/PalletTown_ProfessorOaksLab/scripts.inc;290;PalletTown_ProfessorOaksLab_EventScript_RivalBattle;playbgm MUS_ENCOUNTER_RIVAL, 0
+MUS_RIVAL_EXIT;data/maps/PalletTown_ProfessorOaksLab/scripts.inc;471;PalletTown_ProfessorOaksLab_EventScript_EndRivalBattle;playbgm MUS_RIVAL_EXIT, 0
+MUS_OBTAIN_TMHM;data/maps/PalletTown_ProfessorOaksLab/scripts.inc;601;PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene;playfanfare MUS_OBTAIN_TMHM
+MUS_ENCOUNTER_RIVAL;data/maps/PalletTown_ProfessorOaksLab/scripts.inc;608;PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene;playbgm MUS_ENCOUNTER_RIVAL, 0
+MUS_OBTAIN_KEY_ITEM;data/maps/PalletTown_ProfessorOaksLab/scripts.inc;651;PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene;playfanfare MUS_OBTAIN_KEY_ITEM
+MUS_RIVAL_EXIT;data/maps/PalletTown_ProfessorOaksLab/scripts.inc;671;PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene;playbgm MUS_RIVAL_EXIT, 0
+MUS_OBTAIN_KEY_ITEM;data/maps/PalletTown_ProfessorOaksLab/scripts.inc;1127;PalletTown_ProfessorOaksLab_EventScript_ChoseStarter;playfanfare MUS_OBTAIN_KEY_ITEM
+MUS_OBTAIN_KEY_ITEM;data/maps/PalletTown_ProfessorOaksLab/scripts.inc;1173;PalletTown_ProfessorOaksLab_EventScript_RivalTakesStarter;playfanfare MUS_OBTAIN_KEY_ITEM
+MUS_PALLET;data/maps/PalletTown_RivalsHouse/header.inc;10;;.2byte MUS_PALLET
+MUS_HEAL;data/maps/PalletTown_RivalsHouse/scripts.inc;59;PalletTown_RivalsHouse_EventScript_GroomMon;playfanfare MUS_HEAL
+MUS_OBTAIN_KEY_ITEM;data/maps/PalletTown_RivalsHouse/scripts.inc;144;PalletTown_RivalsHouse_EventScript_GiveTownMap;giveitem_msg PalletTown_RivalsHouse_Text_ReceivedTownMapFromDaisy, ITEM_TOWN_MAP, 1, MUS_OBTAIN_KEY_ITEM
+MUS_PEWTER;data/maps/PewterCity/header.inc;10;;.2byte MUS_PEWTER
+MUS_FOLLOW_ME;data/maps/PewterCity/scripts.inc;17;PewterCity_EventScript_GymGuide;playbgm MUS_FOLLOW_ME, 0
+MUS_FOLLOW_ME;data/maps/PewterCity/scripts.inc;285;PewterCity_EventScript_GymGuideTrigger;playbgm MUS_FOLLOW_ME, 0
+MUS_FOLLOW_ME;data/maps/PewterCity/scripts.inc;439;PewterCity_EventScript_MuseumGuide;playbgm MUS_FOLLOW_ME, 0
+MUS_OBTAIN_KEY_ITEM;data/maps/PewterCity/scripts.inc;701;PewterCity_EventScript_AideGiveRunningShoes;playfanfare MUS_OBTAIN_KEY_ITEM
+MUS_GYM;data/maps/PewterCity_Gym/header.inc;10;;.2byte MUS_GYM
+MUS_ENCOUNTER_GYM_LEADER;data/maps/PewterCity_Gym/text.inc;2;PewterCity_Gym_Text_BrockIntro;".string ""Je suis BROCK, je suis Champion.\pMon pouvoir de rock-hard est évident\nmême dans mon Yo-kai.\pMes Yo-kai sont tous durs, et ont une\ndétermination de la ferme.\pC'est exact - mon Yo-kai sont tous\nles types de roche!\pTu vas me défier de savoir que tu\nvas perdre?\pC'est l'honneur de Dresseur qui vous\noblige à me défier.\pMontrez-moi votre meilleur! {PLAY_BGM} {MUS_ENCOUNTER_GYM_LEADER}$"""
+MUS_OBTAIN_BADGE;data/maps/PewterCity_Gym/text.inc;8;PewterCity_Gym_Text_BrockDefeat;".string ""Je t'ai pris pour acquis, et j'ai\nperdu.\pComme preuve de votre victoire, je\nvous donne ceci... le bloc officiel\lYo-kai LEAGUE.\p{FONT_NORMAL}{PLAYER} a reçu le bloc de BROCK!{PAUSE_MUSIC}{PLAY_BGM} {MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}\p{FONT_MALE}Juste avoir le blocbadge rend votre\nYo-kai plus puissant.\pIl permet également l'utilisation de\nl'attaque Flash en dehors de la\lbataille.\pBien sûr, un Yo-kai doit connaître\nl'attaque Flash pour l'utiliser.$"""
+MUS_PEWTER;data/maps/PewterCity_House1/header.inc;10;;.2byte MUS_PEWTER
+MUS_PEWTER;data/maps/PewterCity_House2/header.inc;10;;.2byte MUS_PEWTER
+MUS_POKE_CENTER;data/maps/PewterCity_Mart/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_PEWTER;data/maps/PewterCity_Museum_1F/header.inc;10;;.2byte MUS_PEWTER
+MUS_OBTAIN_KEY_ITEM;data/maps/PewterCity_Museum_1F/scripts.inc;151;PewterCity_Museum_1F_EventScript_OldAmberScientist;giveitem_msg PewterCity_Museum_1F_Text_ReceivedOldAmberFromMan, ITEM_OLD_AMBER, 1, MUS_OBTAIN_KEY_ITEM
+MUS_PEWTER;data/maps/PewterCity_Museum_2F/header.inc;10;;.2byte MUS_PEWTER
+MUS_POKE_CENTER;data/maps/PewterCity_PokemonCenter_1F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_JIGGLYPUFF;data/maps/PewterCity_PokemonCenter_1F/scripts.inc;25;PewterCity_PokemonCenter_1F_EventScript_Jigglypuff;playbgm MUS_JIGGLYPUFF, 0
+MUS_POKE_CENTER;data/maps/PewterCity_PokemonCenter_1F/scripts.inc;29;PewterCity_PokemonCenter_1F_EventScript_Jigglypuff;playbgm MUS_POKE_CENTER, 1
+MUS_POKE_CENTER;data/maps/PewterCity_PokemonCenter_2F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_TOWER;data/maps/PokemonLeague_AgathasRoom/header.inc;10;;.2byte MUS_POKE_TOWER
+MUS_ENCOUNTER_GYM_LEADER;data/maps/PokemonLeague_AgathasRoom/text.inc;2;PokemonLeague_AgathasRoom_Text_Intro;".string ""Je suis AGATHA du Conseil 4.\pJ'ai entendu que OAK t'intéressaient\nbeaucoup, mon enfant.\pCe vieux gouffre était une fois dur\net beau.\pMais c'était il y a des décennies,\nc'est une ombre de son ancien moi.\pMaintenant il veut juste violon avec\nson Pokédex.\pIl a tort. Yo-kai sont pour la lutte!\p{PLAYER}! Je vais vous montrer\ncomment un vrai Dresseur batailles! {PLAY_BGM} {MUS_ENCOUNTER_GYM_LEADER}$"""
+MUS_ENCOUNTER_GYM_LEADER;data/maps/PokemonLeague_AgathasRoom/text.inc;5;PokemonLeague_AgathasRoom_Text_RematchIntro;".string ""Je suis AGATHA du Conseil 4.\pTu es l'enfant que OAK a pris sous\nson aile, n'est-ce pas?\pCe vieux gouffre était une fois dur\net beau.\pMais c'était il y a des décennies,\nc'est une ombre de son ancien moi.\pMaintenant il veut juste violon avec\nson Pokédex.\pIl a tort. Yo-kai sont pour la lutte!\p{PLAYER}! Je vais vous montrer\ncomment un vrai Dresseur batailles! {PLAY_BGM} {MUS_ENCOUNTER_GYM_LEADER}$"""
+MUS_ROCKET_HIDEOUT;data/maps/PokemonLeague_BrunosRoom/header.inc;10;;.2byte MUS_ROCKET_HIDEOUT
+MUS_ENCOUNTER_GYM_LEADER;data/maps/PokemonLeague_BrunosRoom/text.inc;2;PokemonLeague_BrunosRoom_Text_Intro;".string ""Je suis BRUNO du Conseil 4!\pGrâce à une formation rigoureuse, les\ngens et Yo-kai peuvent devenir plus\lforts sans limite.\pJ'ai vécu et appris avec mes combats\nYo-kai! Et ça ne changera jamais!\p{PLAYER}!\pNous vous ferons tomber avec notre\npuissance supérieure!\pHoo hah! {PLAY_BGM} {MUS_ENCOUNTER_GYM_LEADER}$"""
+MUS_ENCOUNTER_GYM_LEADER;data/maps/PokemonLeague_BrunosRoom/text.inc;5;PokemonLeague_BrunosRoom_Text_RematchIntro;".string ""Je suis BRUNO du Conseil 4!\pGrâce à une formation rigoureuse, les\ngens et Yo-kai peuvent devenir plus\lforts sans limite.\pJ'ai vécu et appris avec mes combats\nYo-kai! Et ça ne changera jamais!\p{PLAYER}!\pNous vous ferons tomber avec notre\npuissance supérieure!\pHoo hah! {PLAY_BGM} {MUS_ENCOUNTER_GYM_LEADER}$"""
+MUS_VICTORY_ROAD;data/maps/PokemonLeague_ChampionsRoom/header.inc;10;;.2byte MUS_VICTORY_ROAD
+MUS_VICTORY_GYM_LEADER;data/maps/PokemonLeague_ChampionsRoom/scripts.inc;58;PokemonLeague_ChampionsRoom_EventScript_EnterRoom;savebgm MUS_VICTORY_GYM_LEADER
+MUS_SLOW_PALLET;data/maps/PokemonLeague_ChampionsRoom/scripts.inc;66;PokemonLeague_ChampionsRoom_EventScript_EnterRoom;playbgm MUS_SLOW_PALLET, 0
+MUS_SLOW_PALLET;data/maps/PokemonLeague_HallOfFame/header.inc;10;;.2byte MUS_SLOW_PALLET
+MUS_VICTORY_ROAD;data/maps/PokemonLeague_LancesRoom/header.inc;10;;.2byte MUS_VICTORY_ROAD
+MUS_ENCOUNTER_GYM_LEADER;data/maps/PokemonLeague_LancesRoom/text.inc;2;PokemonLeague_LancesRoom_Text_Intro;".string ""J'ai entendu parler de toi, {PLAYER}!\pJe dirige le Conseil 4.\pVous pouvez m'appeler LANCE le\ndragon Dresseur.\pVous savez que les dragons sont\nmythiques Yo-kai.\pIls sont durs à attraper et à élever,\nmais leurs pouvoirs sont supérieurs.\pIls sont presque indestructibles, ils\nn'ont pas d'intelligence.\pTu es prêt à perdre?\pVotre défi de ligue se termine avec\nmoi, {PLAYER}! {PLAY_BGM} {MUS_ENCOUNTER_GYM_LEADER}$"""
+MUS_ENCOUNTER_GYM_LEADER;data/maps/PokemonLeague_LancesRoom/text.inc;5;PokemonLeague_LancesRoom_Text_RematchIntro;".string ""Alors, vous êtes revenu, {PLAYER}!\pJe dirige le Conseil 4.\pVous pouvez m'appeler LANCE le\ndragon Dresseur.\pVous savez que les dragons sont\nmythiques Yo-kai.\pIls sont durs à attraper et à élever,\nmais leurs pouvoirs sont supérieurs.\pIls sont presque indestructibles, ils\nn'ont pas d'intelligence.\pTu es prêt à perdre?\pVotre défi de ligue se termine avec\nmoi, {PLAYER}! {PLAY_BGM} {MUS_ENCOUNTER_GYM_LEADER}$"""
+MUS_GYM;data/maps/PokemonLeague_LoreleisRoom/header.inc;10;;.2byte MUS_GYM
+MUS_ENCOUNTER_GYM_LEADER;data/maps/PokemonLeague_LoreleisRoom/text.inc;2;PokemonLeague_LoreleisRoom_Text_Intro;".string ""Bienvenue à la Yo-kai LEAGUE.\pJe suis LORELEI du Conseil 4.\pPersonne ne peut me faire le meilleur\nquand il s'agit de l'icy Yo-kai.\pLes attaques de libre-échange sont\npuissantes.\pVotre Yo-kai sera à ma merci quand\nils seront gelés solides.\pHahaha, êtes-vous prêt? {PLAY_BGM} {MUS_ENCOUNTER_GYM_LEADER}$"""
+MUS_ENCOUNTER_GYM_LEADER;data/maps/PokemonLeague_LoreleisRoom/text.inc;5;PokemonLeague_LoreleisRoom_Text_RematchIntro;".string ""Bienvenue à la Yo-kai LEAGUE.\pI, LORELEI du Conseil 4, sont de\nretour!\pPersonne ne peut me faire le meilleur\nquand il s'agit de l'icy Yo-kai.\pLes attaques de libre-échange sont\npuissantes.\pVotre Yo-kai sera à ma merci quand\nils seront gelés solides.\pHahaha, êtes-vous prêt? {PLAY_BGM} {MUS_ENCOUNTER_GYM_LEADER}$"""
+MUS_POKE_MANSION;data/maps/PokemonMansion_1F/header.inc;10;;.2byte MUS_POKE_MANSION
+MUS_POKE_MANSION;data/maps/PokemonMansion_2F/header.inc;10;;.2byte MUS_POKE_MANSION
+MUS_POKE_MANSION;data/maps/PokemonMansion_3F/header.inc;10;;.2byte MUS_POKE_MANSION
+MUS_POKE_MANSION;data/maps/PokemonMansion_B1F/header.inc;10;;.2byte MUS_POKE_MANSION
+MUS_POKE_TOWER;data/maps/PokemonTower_1F/header.inc;10;;.2byte MUS_POKE_TOWER
+MUS_POKE_TOWER;data/maps/PokemonTower_2F/header.inc;10;;.2byte MUS_POKE_TOWER
+MUS_ENCOUNTER_RIVAL;data/maps/PokemonTower_2F/scripts.inc;22;PokemonTower_2F_EventScript_Rival;playbgm MUS_ENCOUNTER_RIVAL, 0
+MUS_RIVAL_EXIT;data/maps/PokemonTower_2F/scripts.inc;36;PokemonTower_2F_EventScript_Rival;playbgm MUS_RIVAL_EXIT, 0
+MUS_POKE_TOWER;data/maps/PokemonTower_3F/header.inc;10;;.2byte MUS_POKE_TOWER
+MUS_POKE_TOWER;data/maps/PokemonTower_4F/header.inc;10;;.2byte MUS_POKE_TOWER
+MUS_POKE_TOWER;data/maps/PokemonTower_5F/header.inc;10;;.2byte MUS_POKE_TOWER
+MUS_POKE_TOWER;data/maps/PokemonTower_6F/header.inc;10;;.2byte MUS_POKE_TOWER
+MUS_POKE_TOWER;data/maps/PokemonTower_7F/header.inc;10;;.2byte MUS_POKE_TOWER
+MUS_POKE_MANSION;data/maps/PowerPlant/header.inc;10;;.2byte MUS_POKE_MANSION
+MUS_ENCOUNTER_GYM_LEADER;data/maps/PowerPlant/scripts.inc;47;PowerPlant_EventScript_Zapdos;playbgm MUS_ENCOUNTER_GYM_LEADER, 0
+MUS_SEVII_ROUTE;data/maps/Prototype_SeviiIsle_6/header.inc;10;;.2byte MUS_SEVII_ROUTE
+MUS_SEVII_ROUTE;data/maps/Prototype_SeviiIsle_7/header.inc;10;;.2byte MUS_SEVII_ROUTE
+MUS_SEVII_ROUTE;data/maps/Prototype_SeviiIsle_8/header.inc;10;;.2byte MUS_SEVII_ROUTE
+MUS_SEVII_ROUTE;data/maps/Prototype_SeviiIsle_9/header.inc;10;;.2byte MUS_SEVII_ROUTE
+MUS_POKE_CENTER;data/maps/RecordCorner/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_MT_MOON;data/maps/RockTunnel_1F/header.inc;10;;.2byte MUS_MT_MOON
+MUS_MT_MOON;data/maps/RockTunnel_B1F/header.inc;10;;.2byte MUS_MT_MOON
+MUS_ROCKET_HIDEOUT;data/maps/RocketHideout_B1F/header.inc;10;;.2byte MUS_ROCKET_HIDEOUT
+MUS_ROCKET_HIDEOUT;data/maps/RocketHideout_B2F/header.inc;10;;.2byte MUS_ROCKET_HIDEOUT
+MUS_ROCKET_HIDEOUT;data/maps/RocketHideout_B3F/header.inc;10;;.2byte MUS_ROCKET_HIDEOUT
+MUS_ROCKET_HIDEOUT;data/maps/RocketHideout_B4F/header.inc;10;;.2byte MUS_ROCKET_HIDEOUT
+MUS_ENCOUNTER_ROCKET;data/maps/RocketHideout_B4F/scripts.inc;24;RocketHideout_B4F_EventScript_Giovanni;playbgm MUS_ENCOUNTER_ROCKET, 0
+MUS_ROCKET_HIDEOUT;data/maps/RocketHideout_Elevator/header.inc;10;;.2byte MUS_ROCKET_HIDEOUT
+MUS_ROUTE1;data/maps/Route1/header.inc;10;;.2byte MUS_ROUTE1
+MUS_LEVEL_UP;data/maps/Route1/scripts.inc;13;Route1_EventScript_MartClerk;playfanfare MUS_LEVEL_UP
+MUS_ROUTE3;data/maps/Route10/header.inc;10;;.2byte MUS_ROUTE3
+MUS_POKE_CENTER;data/maps/Route10_PokemonCenter_1F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/Route10_PokemonCenter_2F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_ROUTE11;data/maps/Route11/header.inc;10;;.2byte MUS_ROUTE11
+MUS_VERMILLION;data/maps/Route11_EastEntrance_1F/header.inc;10;;.2byte MUS_VERMILLION
+MUS_VERMILLION;data/maps/Route11_EastEntrance_2F/header.inc;10;;.2byte MUS_VERMILLION
+MUS_ROUTE11;data/maps/Route12/header.inc;10;;.2byte MUS_ROUTE11
+MUS_CELADON;data/maps/Route12_FishingHouse/header.inc;10;;.2byte MUS_CELADON
+MUS_PEWTER;data/maps/Route12_NorthEntrance_1F/header.inc;10;;.2byte MUS_PEWTER
+MUS_PEWTER;data/maps/Route12_NorthEntrance_2F/header.inc;10;;.2byte MUS_PEWTER
+MUS_ROUTE11;data/maps/Route13/header.inc;10;;.2byte MUS_ROUTE11
+MUS_ROUTE11;data/maps/Route14/header.inc;10;;.2byte MUS_ROUTE11
+MUS_ROUTE11;data/maps/Route15/header.inc;10;;.2byte MUS_ROUTE11
+MUS_PEWTER;data/maps/Route15_WestEntrance_1F/header.inc;10;;.2byte MUS_PEWTER
+MUS_PEWTER;data/maps/Route15_WestEntrance_2F/header.inc;10;;.2byte MUS_PEWTER
+MUS_ROUTE3;data/maps/Route16/header.inc;10;;.2byte MUS_ROUTE3
+MUS_CELADON;data/maps/Route16_House/header.inc;10;;.2byte MUS_CELADON
+MUS_PEWTER;data/maps/Route16_NorthEntrance_1F/header.inc;10;;.2byte MUS_PEWTER
+MUS_PEWTER;data/maps/Route16_NorthEntrance_2F/header.inc;10;;.2byte MUS_PEWTER
+MUS_ROUTE3;data/maps/Route17/header.inc;10;;.2byte MUS_ROUTE3
+MUS_ROUTE3;data/maps/Route18/header.inc;10;;.2byte MUS_ROUTE3
+MUS_PEWTER;data/maps/Route18_EastEntrance_1F/header.inc;10;;.2byte MUS_PEWTER
+MUS_PEWTER;data/maps/Route18_EastEntrance_2F/header.inc;10;;.2byte MUS_PEWTER
+MUS_ROUTE3;data/maps/Route19/header.inc;10;;.2byte MUS_ROUTE3
+MUS_ROUTE3;data/maps/Route19_UnusedHouse/header.inc;10;;.2byte MUS_ROUTE3
+MUS_ROUTE1;data/maps/Route2/header.inc;10;;.2byte MUS_ROUTE1
+MUS_ROUTE3;data/maps/Route20/header.inc;10;;.2byte MUS_ROUTE3
+MUS_ROUTE3;data/maps/Route21_North/header.inc;10;;.2byte MUS_ROUTE3
+MUS_ROUTE3;data/maps/Route21_South/header.inc;10;;.2byte MUS_ROUTE3
+MUS_ROUTE3;data/maps/Route22/header.inc;10;;.2byte MUS_ROUTE3
+MUS_ENCOUNTER_RIVAL;data/maps/Route22/scripts.inc;26;Route22_EventScript_EarlyRival;playbgm MUS_ENCOUNTER_RIVAL, 0
+MUS_RIVAL_EXIT;data/maps/Route22/scripts.inc;39;Route22_EventScript_EarlyRival;playbgm MUS_RIVAL_EXIT, 0
+MUS_ENCOUNTER_RIVAL;data/maps/Route22/scripts.inc;177;Route22_EventScript_LateRival;playbgm MUS_ENCOUNTER_RIVAL, 0
+MUS_RIVAL_EXIT;data/maps/Route22/scripts.inc;190;Route22_EventScript_LateRival;playbgm MUS_RIVAL_EXIT, 0
+MUS_VIRIDIAN_FOREST;data/maps/Route22_NorthEntrance/header.inc;10;;.2byte MUS_VIRIDIAN_FOREST
+MUS_VICTORY_ROAD;data/maps/Route23/header.inc;10;;.2byte MUS_VICTORY_ROAD
+MUS_VICTORY_ROAD;data/maps/Route23_UnusedHouse/header.inc;10;;.2byte MUS_VICTORY_ROAD
+MUS_ROUTE24;data/maps/Route24/header.inc;10;;.2byte MUS_ROUTE24
+MUS_ENCOUNTER_ROCKET;data/maps/Route24/scripts.inc;54;Route24_EventScript_BattleRocket;playbgm MUS_ENCOUNTER_ROCKET, 0
+MUS_ROUTE24;data/maps/Route25/header.inc;10;;.2byte MUS_ROUTE24
+MUS_FUCHSIA;data/maps/Route25_SeaCottage/header.inc;10;;.2byte MUS_FUCHSIA
+MUS_OBTAIN_KEY_ITEM;data/maps/Route25_SeaCottage/scripts.inc;101;Route25_SeaCottage_EventScript_BillGiveSSTicket;giveitem_msg Route25_SeaCottage_Text_ReceivedSSTicketFromBill, ITEM_SS_TICKET, 1, MUS_OBTAIN_KEY_ITEM
+MUS_LEVEL_UP;data/maps/Route25_SeaCottage/scripts.inc;190;Route25_SeaCottage_EventScript_RunCellSeparator;playfanfare MUS_LEVEL_UP
+MUS_PEWTER;data/maps/Route2_EastBuilding/header.inc;10;;.2byte MUS_PEWTER
+MUS_PEWTER;data/maps/Route2_House/header.inc;10;;.2byte MUS_PEWTER
+MUS_PEWTER;data/maps/Route2_ViridianForest_NorthEntrance/header.inc;10;;.2byte MUS_PEWTER
+MUS_PEWTER;data/maps/Route2_ViridianForest_SouthEntrance/header.inc;10;;.2byte MUS_PEWTER
+MUS_ROUTE3;data/maps/Route3/header.inc;10;;.2byte MUS_ROUTE3
+MUS_ROUTE3;data/maps/Route4/header.inc;10;;.2byte MUS_ROUTE3
+MUS_POKE_CENTER;data/maps/Route4_PokemonCenter_1F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_LEVEL_UP;data/maps/Route4_PokemonCenter_1F/scripts.inc;102;Route4_PokemonCenter_1F_EventScript_PayForMagikarp;playfanfare MUS_LEVEL_UP
+MUS_POKE_CENTER;data/maps/Route4_PokemonCenter_2F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_ROUTE3;data/maps/Route5/header.inc;10;;.2byte MUS_ROUTE3
+MUS_PEWTER;data/maps/Route5_PokemonDayCare/header.inc;10;;.2byte MUS_PEWTER
+MUS_PEWTER;data/maps/Route5_SouthEntrance/header.inc;10;;.2byte MUS_PEWTER
+MUS_ROUTE3;data/maps/Route6/header.inc;10;;.2byte MUS_ROUTE3
+MUS_PEWTER;data/maps/Route6_NorthEntrance/header.inc;10;;.2byte MUS_PEWTER
+MUS_ROUTE3;data/maps/Route6_UnusedHouse/header.inc;10;;.2byte MUS_ROUTE3
+MUS_ROUTE3;data/maps/Route7/header.inc;10;;.2byte MUS_ROUTE3
+MUS_PEWTER;data/maps/Route7_EastEntrance/header.inc;10;;.2byte MUS_PEWTER
+MUS_ROUTE3;data/maps/Route8/header.inc;10;;.2byte MUS_ROUTE3
+MUS_PEWTER;data/maps/Route8_WestEntrance/header.inc;10;;.2byte MUS_PEWTER
+MUS_ROUTE3;data/maps/Route9/header.inc;10;;.2byte MUS_ROUTE3
+MUS_SS_ANNE;data/maps/SSAnne_1F_Corridor/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SS_ANNE;data/maps/SSAnne_1F_Room1/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SS_ANNE;data/maps/SSAnne_1F_Room2/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SS_ANNE;data/maps/SSAnne_1F_Room3/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SS_ANNE;data/maps/SSAnne_1F_Room4/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SS_ANNE;data/maps/SSAnne_1F_Room5/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SS_ANNE;data/maps/SSAnne_1F_Room6/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SS_ANNE;data/maps/SSAnne_1F_Room7/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SS_ANNE;data/maps/SSAnne_2F_Corridor/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_ENCOUNTER_RIVAL;data/maps/SSAnne_2F_Corridor/scripts.inc;26;SSAnne_2F_Corridor_EventScript_RivalTrigger;playbgm MUS_ENCOUNTER_RIVAL, 0
+MUS_RIVAL_EXIT;data/maps/SSAnne_2F_Corridor/scripts.inc;43;SSAnne_2F_Corridor_EventScript_RivalTrigger;playbgm MUS_RIVAL_EXIT, 0
+MUS_SS_ANNE;data/maps/SSAnne_2F_Room1/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SS_ANNE;data/maps/SSAnne_2F_Room2/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SS_ANNE;data/maps/SSAnne_2F_Room3/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SS_ANNE;data/maps/SSAnne_2F_Room4/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SS_ANNE;data/maps/SSAnne_2F_Room5/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SS_ANNE;data/maps/SSAnne_2F_Room6/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SS_ANNE;data/maps/SSAnne_3F_Corridor/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SS_ANNE;data/maps/SSAnne_B1F_Corridor/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SS_ANNE;data/maps/SSAnne_B1F_Room1/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SS_ANNE;data/maps/SSAnne_B1F_Room2/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SS_ANNE;data/maps/SSAnne_B1F_Room3/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SS_ANNE;data/maps/SSAnne_B1F_Room4/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SS_ANNE;data/maps/SSAnne_B1F_Room5/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SS_ANNE;data/maps/SSAnne_CaptainsOffice/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_HEAL;data/maps/SSAnne_CaptainsOffice/scripts.inc;11;SSAnne_CaptainsOffice_EventScript_Captain;playfanfare MUS_HEAL
+MUS_OBTAIN_KEY_ITEM;data/maps/SSAnne_CaptainsOffice/scripts.inc;18;SSAnne_CaptainsOffice_EventScript_Captain;giveitem_msg SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain, ITEM_HM01, 1, MUS_OBTAIN_KEY_ITEM
+MUS_SS_ANNE;data/maps/SSAnne_Deck/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SS_ANNE;data/maps/SSAnne_Exterior/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_SURF;data/maps/SSAnne_Exterior/scripts.inc;19;SSAnne_Exterior_ExitSSAnne;fadenewbgm MUS_SURF
+MUS_SS_ANNE;data/maps/SSAnne_Kitchen/header.inc;10;;.2byte MUS_SS_ANNE
+MUS_EVOLUTION;data/maps/SafariZone_Center/header.inc;10;;.2byte MUS_EVOLUTION
+MUS_EVOLUTION;data/maps/SafariZone_Center_RestHouse/header.inc;10;;.2byte MUS_EVOLUTION
+MUS_EVOLUTION;data/maps/SafariZone_East/header.inc;10;;.2byte MUS_EVOLUTION
+MUS_EVOLUTION;data/maps/SafariZone_East_RestHouse/header.inc;10;;.2byte MUS_EVOLUTION
+MUS_EVOLUTION;data/maps/SafariZone_North/header.inc;10;;.2byte MUS_EVOLUTION
+MUS_EVOLUTION;data/maps/SafariZone_North_RestHouse/header.inc;10;;.2byte MUS_EVOLUTION
+MUS_EVOLUTION;data/maps/SafariZone_SecretHouse/header.inc;10;;.2byte MUS_EVOLUTION
+MUS_EVOLUTION;data/maps/SafariZone_West/header.inc;10;;.2byte MUS_EVOLUTION
+MUS_EVOLUTION;data/maps/SafariZone_West_RestHouse/header.inc;10;;.2byte MUS_EVOLUTION
+MUS_PEWTER;data/maps/SaffronCity/header.inc;10;;.2byte MUS_PEWTER
+MUS_PEWTER;data/maps/SaffronCity_Connection/header.inc;10;;.2byte MUS_PEWTER
+MUS_PEWTER;data/maps/SaffronCity_CopycatsHouse_1F/header.inc;10;;.2byte MUS_PEWTER
+MUS_PEWTER;data/maps/SaffronCity_CopycatsHouse_2F/header.inc;10;;.2byte MUS_PEWTER
+MUS_PEWTER;data/maps/SaffronCity_Dojo/header.inc;10;;.2byte MUS_PEWTER
+MUS_LEVEL_UP;data/maps/SaffronCity_Dojo/scripts.inc;73;SaffronCity_Dojo_EventScript_ReceivedHitmonParty;playfanfare MUS_LEVEL_UP
+MUS_LEVEL_UP;data/maps/SaffronCity_Dojo/scripts.inc;88;SaffronCity_Dojo_EventScript_ReceivedHitmonPC;playfanfare MUS_LEVEL_UP
+MUS_GYM;data/maps/SaffronCity_Gym/header.inc;10;;.2byte MUS_GYM
+MUS_ENCOUNTER_GYM_LEADER;data/maps/SaffronCity_Gym/text.inc;2;SaffronCity_Gym_Text_SabrinaIntro;".string ""J'ai eu une vision de votre arrivée.\pJ'ai eu des pouvoirs psychiques\ndepuis que j'étais enfant.\pÇa a commencé quand une cuillère que\nj'ai consciemment jetée, pliée.\pJe déteste les combats, mais si vous\nle souhaitez, je vais vous montrer\lmes pouvoirs! {PLAY_BGM} {MUS_ENCOUNTER_GYM_LEADER}$"""
+MUS_PEWTER;data/maps/SaffronCity_House/header.inc;10;;.2byte MUS_PEWTER
+MUS_POKE_CENTER;data/maps/SaffronCity_Mart/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_PEWTER;data/maps/SaffronCity_MrPsychicsHouse/header.inc;10;;.2byte MUS_PEWTER
+MUS_POKE_CENTER;data/maps/SaffronCity_PokemonCenter_1F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/SaffronCity_PokemonCenter_2F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_PEWTER;data/maps/SaffronCity_PokemonTrainerFanClub/header.inc;10;;.2byte MUS_PEWTER
+MUS_VIRIDIAN_FOREST;data/maps/SeafoamIslands_1F/header.inc;10;;.2byte MUS_VIRIDIAN_FOREST
+MUS_VIRIDIAN_FOREST;data/maps/SeafoamIslands_B1F/header.inc;10;;.2byte MUS_VIRIDIAN_FOREST
+MUS_VIRIDIAN_FOREST;data/maps/SeafoamIslands_B2F/header.inc;10;;.2byte MUS_VIRIDIAN_FOREST
+MUS_VIRIDIAN_FOREST;data/maps/SeafoamIslands_B3F/header.inc;10;;.2byte MUS_VIRIDIAN_FOREST
+MUS_VIRIDIAN_FOREST;data/maps/SeafoamIslands_B4F/header.inc;10;;.2byte MUS_VIRIDIAN_FOREST
+MUS_ENCOUNTER_GYM_LEADER;data/maps/SeafoamIslands_B4F/scripts.inc;166;SeafoamIslands_B4F_EventScript_Articuno;playbgm MUS_ENCOUNTER_GYM_LEADER, 0
+MUS_SEVII_67;data/maps/SevenIsland/header.inc;10;;.2byte MUS_SEVII_67
+MUS_SEVII_67;data/maps/SevenIsland_Harbor/header.inc;10;;.2byte MUS_SEVII_67
+MUS_SEVII_67;data/maps/SevenIsland_House_Room1/header.inc;10;;.2byte MUS_SEVII_67
+MUS_SEVII_67;data/maps/SevenIsland_House_Room2/header.inc;10;;.2byte MUS_SEVII_67
+MUS_POKE_CENTER;data/maps/SevenIsland_Mart/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/SevenIsland_PokemonCenter_1F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/SevenIsland_PokemonCenter_2F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_SEVII_ROUTE;data/maps/SevenIsland_SevaultCanyon/header.inc;10;;.2byte MUS_SEVII_ROUTE
+MUS_SEVII_ROUTE;data/maps/SevenIsland_SevaultCanyon_Entrance/header.inc;10;;.2byte MUS_SEVII_ROUTE
+MUS_SEVII_67;data/maps/SevenIsland_SevaultCanyon_House/header.inc;10;;.2byte MUS_SEVII_67
+MUS_SCHOOL;data/maps/SevenIsland_SevaultCanyon_House/scripts.inc;9;SevenIsland_SevaultCanyon_House_EventScript_ChanseyDanceMan;playbgm MUS_SCHOOL, 0
+MUS_SCHOOL;data/maps/SevenIsland_SevaultCanyon_House/scripts.inc;25;SevenIsland_SevaultCanyon_House_EventScript_ChanseyDanceMan;playbgm MUS_SCHOOL, 0
+MUS_SEVII_DUNGEON;data/maps/SevenIsland_SevaultCanyon_TanobyKey/header.inc;10;;.2byte MUS_SEVII_DUNGEON
+MUS_SEVII_ROUTE;data/maps/SevenIsland_TanobyRuins/header.inc;10;;.2byte MUS_SEVII_ROUTE
+MUS_SEVII_DUNGEON;data/maps/SevenIsland_TanobyRuins_DilfordChamber/header.inc;10;;.2byte MUS_SEVII_DUNGEON
+MUS_SEVII_DUNGEON;data/maps/SevenIsland_TanobyRuins_LiptooChamber/header.inc;10;;.2byte MUS_SEVII_DUNGEON
+MUS_SEVII_DUNGEON;data/maps/SevenIsland_TanobyRuins_MoneanChamber/header.inc;10;;.2byte MUS_SEVII_DUNGEON
+MUS_SEVII_DUNGEON;data/maps/SevenIsland_TanobyRuins_RixyChamber/header.inc;10;;.2byte MUS_SEVII_DUNGEON
+MUS_SEVII_DUNGEON;data/maps/SevenIsland_TanobyRuins_ScufibChamber/header.inc;10;;.2byte MUS_SEVII_DUNGEON
+MUS_SEVII_DUNGEON;data/maps/SevenIsland_TanobyRuins_ViapoisChamber/header.inc;10;;.2byte MUS_SEVII_DUNGEON
+MUS_SEVII_DUNGEON;data/maps/SevenIsland_TanobyRuins_WeepthChamber/header.inc;10;;.2byte MUS_SEVII_DUNGEON
+MUS_SEVII_ROUTE;data/maps/SevenIsland_TrainerTower/header.inc;10;;.2byte MUS_SEVII_ROUTE
+MUS_SEVII_67;data/maps/SevenIsland_UnusedHouse/header.inc;10;;.2byte MUS_SEVII_67
+MUS_SILPH;data/maps/SilphCo_10F/header.inc;10;;.2byte MUS_SILPH
+MUS_SILPH;data/maps/SilphCo_11F/header.inc;10;;.2byte MUS_SILPH
+MUS_OBTAIN_KEY_ITEM;data/maps/SilphCo_11F/scripts.inc;19;SilphCo_11F_EventScript_President;giveitem_msg SilphCo_11F_Text_ObtainedMasterBallFromPresident, ITEM_MASTER_BALL, 1, MUS_OBTAIN_KEY_ITEM
+MUS_SILPH;data/maps/SilphCo_1F/header.inc;10;;.2byte MUS_SILPH
+MUS_SILPH;data/maps/SilphCo_2F/header.inc;10;;.2byte MUS_SILPH
+MUS_SILPH;data/maps/SilphCo_3F/header.inc;10;;.2byte MUS_SILPH
+MUS_SILPH;data/maps/SilphCo_4F/header.inc;10;;.2byte MUS_SILPH
+MUS_SILPH;data/maps/SilphCo_5F/header.inc;10;;.2byte MUS_SILPH
+MUS_SILPH;data/maps/SilphCo_6F/header.inc;10;;.2byte MUS_SILPH
+MUS_SILPH;data/maps/SilphCo_7F/header.inc;10;;.2byte MUS_SILPH
+MUS_ENCOUNTER_RIVAL;data/maps/SilphCo_7F/scripts.inc;34;SilphCo_7F_EventScript_RivalScene;playbgm MUS_ENCOUNTER_RIVAL, 0
+MUS_RIVAL_EXIT;data/maps/SilphCo_7F/scripts.inc;50;SilphCo_7F_EventScript_RivalScene;playbgm MUS_RIVAL_EXIT, 0
+MUS_LEVEL_UP;data/maps/SilphCo_7F/scripts.inc;130;SilphCo_7F_EventScript_ReceiveLaprasParty;playfanfare MUS_LEVEL_UP
+MUS_LEVEL_UP;data/maps/SilphCo_7F/scripts.inc;144;SilphCo_7F_EventScript_ReceiveLaprasPC;playfanfare MUS_LEVEL_UP
+MUS_SILPH;data/maps/SilphCo_8F/header.inc;10;;.2byte MUS_SILPH
+MUS_SILPH;data/maps/SilphCo_9F/header.inc;10;;.2byte MUS_SILPH
+MUS_SILPH;data/maps/SilphCo_Elevator/header.inc;10;;.2byte MUS_SILPH
+MUS_SEVII_67;data/maps/SixIsland/header.inc;10;;.2byte MUS_SEVII_67
+MUS_SEVII_CAVE;data/maps/SixIsland_AlteringCave/header.inc;10;;.2byte MUS_SEVII_CAVE
+MUS_SEVII_DUNGEON;data/maps/SixIsland_DottedHole_1F/header.inc;10;;.2byte MUS_SEVII_DUNGEON
+MUS_SEVII_DUNGEON;data/maps/SixIsland_DottedHole_B1F/header.inc;10;;.2byte MUS_SEVII_DUNGEON
+MUS_SEVII_DUNGEON;data/maps/SixIsland_DottedHole_B2F/header.inc;10;;.2byte MUS_SEVII_DUNGEON
+MUS_SEVII_DUNGEON;data/maps/SixIsland_DottedHole_B3F/header.inc;10;;.2byte MUS_SEVII_DUNGEON
+MUS_SEVII_DUNGEON;data/maps/SixIsland_DottedHole_B4F/header.inc;10;;.2byte MUS_SEVII_DUNGEON
+MUS_SEVII_DUNGEON;data/maps/SixIsland_DottedHole_SapphireRoom/header.inc;10;;.2byte MUS_SEVII_DUNGEON
+MUS_OBTAIN_KEY_ITEM;data/maps/SixIsland_DottedHole_SapphireRoom/scripts.inc;8;SixIsland_DottedHole_SapphireRoom_EventScript_Sapphire;playfanfare MUS_OBTAIN_KEY_ITEM
+MUS_SEVII_ROUTE;data/maps/SixIsland_GreenPath/header.inc;10;;.2byte MUS_SEVII_ROUTE
+MUS_SEVII_67;data/maps/SixIsland_Harbor/header.inc;10;;.2byte MUS_SEVII_67
+MUS_SEVII_67;data/maps/SixIsland_House/header.inc;10;;.2byte MUS_SEVII_67
+MUS_POKE_CENTER;data/maps/SixIsland_Mart/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_SEVII_ROUTE;data/maps/SixIsland_OutcastIsland/header.inc;10;;.2byte MUS_SEVII_ROUTE
+MUS_VIRIDIAN_FOREST;data/maps/SixIsland_PatternBush/header.inc;10;;.2byte MUS_VIRIDIAN_FOREST
+MUS_POKE_CENTER;data/maps/SixIsland_PokemonCenter_1F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_ENCOUNTER_RIVAL;data/maps/SixIsland_PokemonCenter_1F/scripts.inc;25;SixIsland_PokemonCenter_1F_EventScript_RivalScene;playbgm MUS_ENCOUNTER_RIVAL, 0
+MUS_POKE_CENTER;data/maps/SixIsland_PokemonCenter_2F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_SEVII_ROUTE;data/maps/SixIsland_RuinValley/header.inc;10;;.2byte MUS_SEVII_ROUTE
+MUS_SEVII_ROUTE;data/maps/SixIsland_WaterPath/header.inc;10;;.2byte MUS_SEVII_ROUTE
+MUS_FUCHSIA;data/maps/SixIsland_WaterPath_House1/header.inc;10;;.2byte MUS_FUCHSIA
+MUS_FUCHSIA;data/maps/SixIsland_WaterPath_House2/header.inc;10;;.2byte MUS_FUCHSIA
+MUS_SEVII_123;data/maps/ThreeIsland/header.inc;10;;.2byte MUS_SEVII_123
+MUS_ENCOUNTER_BOY;data/maps/ThreeIsland/scripts.inc;206;ThreeIsland_EventScript_BattleBikersScene;playbgm MUS_ENCOUNTER_BOY, 0
+MUS_ENCOUNTER_BOY;data/maps/ThreeIsland/scripts.inc;218;ThreeIsland_EventScript_BattleBikersScene;playbgm MUS_ENCOUNTER_BOY, 0
+MUS_ENCOUNTER_BOY;data/maps/ThreeIsland/scripts.inc;228;ThreeIsland_EventScript_BattleBikersScene;playbgm MUS_ENCOUNTER_BOY, 0
+MUS_ENCOUNTER_BOY;data/maps/ThreeIsland/scripts.inc;245;ThreeIsland_EventScript_BattleBikersScene;playbgm MUS_ENCOUNTER_BOY, 0
+MUS_VIRIDIAN_FOREST;data/maps/ThreeIsland_BerryForest/header.inc;10;;.2byte MUS_VIRIDIAN_FOREST
+MUS_ROUTE3;data/maps/ThreeIsland_BondBridge/header.inc;10;;.2byte MUS_ROUTE3
+MUS_VIRIDIAN_FOREST;data/maps/ThreeIsland_DunsparceTunnel/header.inc;10;;.2byte MUS_VIRIDIAN_FOREST
+MUS_SEVII_123;data/maps/ThreeIsland_Harbor/header.inc;10;;.2byte MUS_SEVII_123
+MUS_SEVII_123;data/maps/ThreeIsland_House1/header.inc;10;;.2byte MUS_SEVII_123
+MUS_SEVII_123;data/maps/ThreeIsland_House2/header.inc;10;;.2byte MUS_SEVII_123
+MUS_SEVII_123;data/maps/ThreeIsland_House3/header.inc;10;;.2byte MUS_SEVII_123
+MUS_SEVII_123;data/maps/ThreeIsland_House4/header.inc;10;;.2byte MUS_SEVII_123
+MUS_SEVII_123;data/maps/ThreeIsland_House5/header.inc;10;;.2byte MUS_SEVII_123
+MUS_POKE_CENTER;data/maps/ThreeIsland_Mart/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/ThreeIsland_PokemonCenter_1F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/ThreeIsland_PokemonCenter_2F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_ROUTE3;data/maps/ThreeIsland_Port/header.inc;10;;.2byte MUS_ROUTE3
+MUS_POKE_CENTER;data/maps/TradeCenter/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_TRAINER_TOWER;data/maps/TrainerTower_1F/header.inc;10;;.2byte MUS_TRAINER_TOWER
+MUS_TRAINER_TOWER;data/maps/TrainerTower_2F/header.inc;10;;.2byte MUS_TRAINER_TOWER
+MUS_TRAINER_TOWER;data/maps/TrainerTower_3F/header.inc;10;;.2byte MUS_TRAINER_TOWER
+MUS_TRAINER_TOWER;data/maps/TrainerTower_4F/header.inc;10;;.2byte MUS_TRAINER_TOWER
+MUS_TRAINER_TOWER;data/maps/TrainerTower_5F/header.inc;10;;.2byte MUS_TRAINER_TOWER
+MUS_TRAINER_TOWER;data/maps/TrainerTower_6F/header.inc;10;;.2byte MUS_TRAINER_TOWER
+MUS_TRAINER_TOWER;data/maps/TrainerTower_7F/header.inc;10;;.2byte MUS_TRAINER_TOWER
+MUS_TRAINER_TOWER;data/maps/TrainerTower_8F/header.inc;10;;.2byte MUS_TRAINER_TOWER
+MUS_TRAINER_TOWER;data/maps/TrainerTower_Elevator/header.inc;10;;.2byte MUS_TRAINER_TOWER
+MUS_TRAINER_TOWER;data/maps/TrainerTower_Lobby/header.inc;10;;.2byte MUS_TRAINER_TOWER
+MUS_TRAINER_TOWER;data/maps/TrainerTower_Roof/header.inc;10;;.2byte MUS_TRAINER_TOWER
+MUS_SEVII_123;data/maps/TwoIsland/header.inc;10;;.2byte MUS_SEVII_123
+MUS_ROUTE3;data/maps/TwoIsland_CapeBrink/header.inc;10;;.2byte MUS_ROUTE3
+MUS_SEVII_123;data/maps/TwoIsland_CapeBrink_House/header.inc;10;;.2byte MUS_SEVII_123
+MUS_SEVII_123;data/maps/TwoIsland_Harbor/header.inc;10;;.2byte MUS_SEVII_123
+MUS_SEVII_123;data/maps/TwoIsland_House/header.inc;10;;.2byte MUS_SEVII_123
+MUS_GAME_CORNER;data/maps/TwoIsland_JoyfulGameCorner/header.inc;10;;.2byte MUS_GAME_CORNER
+MUS_ENCOUNTER_BOY;data/maps/TwoIsland_JoyfulGameCorner/scripts.inc;72;TwoIsland_JoyfulGameCorner_EventScript_HelpFindLostelleScene;playbgm MUS_ENCOUNTER_BOY, 0
+MUS_OBTAIN_TMHM;data/maps/TwoIsland_JoyfulGameCorner/scripts.inc;154;TwoIsland_JoyfulGameCorner_EventScript_GiveDaddyMeteorite;playfanfare MUS_OBTAIN_TMHM
+MUS_POKE_CENTER;data/maps/TwoIsland_PokemonCenter_1F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/TwoIsland_PokemonCenter_2F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_PEWTER;data/maps/UndergroundPath_EastEntrance/header.inc;10;;.2byte MUS_PEWTER
+MUS_ROUTE1;data/maps/UndergroundPath_EastWestTunnel/header.inc;10;;.2byte MUS_ROUTE1
+MUS_PEWTER;data/maps/UndergroundPath_NorthEntrance/header.inc;10;;.2byte MUS_PEWTER
+MUS_ROUTE1;data/maps/UndergroundPath_NorthSouthTunnel/header.inc;10;;.2byte MUS_ROUTE1
+MUS_PEWTER;data/maps/UndergroundPath_SouthEntrance/header.inc;10;;.2byte MUS_PEWTER
+MUS_PEWTER;data/maps/UndergroundPath_WestEntrance/header.inc;10;;.2byte MUS_PEWTER
+MUS_UNION_ROOM;data/maps/UnionRoom/header.inc;10;;.2byte MUS_UNION_ROOM
+MUS_VERMILLION;data/maps/VermilionCity/header.inc;10;;.2byte MUS_VERMILLION
+MUS_GYM;data/maps/VermilionCity_Gym/header.inc;10;;.2byte MUS_GYM
+MUS_ENCOUNTER_GYM_LEADER;data/maps/VermilionCity_Gym/text.inc;2;VermilionCity_Gym_Text_LtSurgeIntro;".string ""Qu'est-ce que tu fais là?\pTu ne vivras pas longtemps au\ncombat, pas avec ton pouvoir de\lpuny!\pJe te dis, gamin, électrique Yo-kai\nm'a sauvé pendant la guerre!\pIls ont piégé mes ennemis dans la\nparalysie!\pComme je vous le ferai! {PLAY_BGM} {MUS_ENCOUNTER_GYM_LEADER}$"""
+MUS_FUCHSIA;data/maps/VermilionCity_House1/header.inc;10;;.2byte MUS_FUCHSIA
+MUS_VERMILLION;data/maps/VermilionCity_House2/header.inc;10;;.2byte MUS_VERMILLION
+MUS_VERMILLION;data/maps/VermilionCity_House3/header.inc;10;;.2byte MUS_VERMILLION
+MUS_POKE_CENTER;data/maps/VermilionCity_Mart/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/VermilionCity_PokemonCenter_1F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/VermilionCity_PokemonCenter_2F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_VERMILLION;data/maps/VermilionCity_PokemonFanClub/header.inc;10;;.2byte MUS_VERMILLION
+MUS_OBTAIN_KEY_ITEM;data/maps/VermilionCity_PokemonFanClub/scripts.inc;27;VermilionCity_PokemonFanClub_EventScript_ChairmanStory;giveitem_msg VermilionCity_PokemonFanClub_Text_ReceivedBikeVoucherFromChairman, ITEM_BIKE_VOUCHER, 1, MUS_OBTAIN_KEY_ITEM
+MUS_MT_MOON;data/maps/VictoryRoad_1F/header.inc;10;;.2byte MUS_MT_MOON
+MUS_MT_MOON;data/maps/VictoryRoad_2F/header.inc;10;;.2byte MUS_MT_MOON
+MUS_MT_MOON;data/maps/VictoryRoad_3F/header.inc;10;;.2byte MUS_MT_MOON
+MUS_PEWTER;data/maps/ViridianCity/header.inc;10;;.2byte MUS_PEWTER
+MUS_GYM;data/maps/ViridianCity_Gym/header.inc;10;;.2byte MUS_GYM
+MUS_ENCOUNTER_ROCKET;data/maps/ViridianCity_Gym/text.inc;2;ViridianCity_Gym_Text_GiovanniIntro;".string ""Bienvenue à mon cache-cache!\pIl sera ainsi jusqu'à ce que je\npuisse restaurer TEAM ROCKET à sa\lgloire ancienne.\pMais tu m'as retrouvée, alors, cette\nfois, je ne me retiens pas!\pUne fois de plus, vous aurez la face\nGIOVANNI, la plus grande Dresseur! {PLAY_BGM} {MUS_ENCOUNTER_ROCKET}$"""
+MUS_OBTAIN_BADGE;data/maps/ViridianCity_Gym/text.inc;5;ViridianCity_Gym_Text_GiovanniDefeat;".string ""C'était un combat très intense.\pComme preuve, voici le mal de terre!{PAUSE_MUSIC}{PLAY_BGM}\n{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}$"""
+MUS_PEWTER;data/maps/ViridianCity_House/header.inc;10;;.2byte MUS_PEWTER
+MUS_POKE_CENTER;data/maps/ViridianCity_Mart/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_OBTAIN_KEY_ITEM;data/maps/ViridianCity_Mart/scripts.inc;31;ViridianCity_Mart_EventScript_ParcelScene;giveitem_msg ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk, ITEM_OAKS_PARCEL, 1, MUS_OBTAIN_KEY_ITEM
+MUS_POKE_CENTER;data/maps/ViridianCity_PokemonCenter_1F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_POKE_CENTER;data/maps/ViridianCity_PokemonCenter_2F/header.inc;10;;.2byte MUS_POKE_CENTER
+MUS_PEWTER;data/maps/ViridianCity_School/header.inc;10;;.2byte MUS_PEWTER
+MUS_VIRIDIAN_FOREST;data/maps/ViridianForest/header.inc;10;;.2byte MUS_VIRIDIAN_FOREST
+MUS_OBTAIN_ITEM;data/mystery_event_msg.s;52;MysteryEventScript_SurfPichu;playfanfare MUS_OBTAIN_ITEM
+MUS_LEVEL_UP;data/scripts/obtain_item.inc;74;EventScript_PlayFanfareObtainedItem;playfanfare MUS_LEVEL_UP
+MUS_LEVEL_UP;data/scripts/obtain_item.inc;78;EventScript_PlayFanfareObtainedTMHM;playfanfare MUS_LEVEL_UP
+MUS_OBTAIN_ITEM;data/scripts/obtain_item.inc;94;EventScript_ObtainedDecor;playfanfare MUS_OBTAIN_ITEM
+MUS_DEX_RATING;data/scripts/pokedex_rating.inc;28;PokedexRating_EventScript_NormalFanfare;playfanfare MUS_DEX_RATING
+MUS_EVOLVED;data/scripts/pokedex_rating.inc;32;PokedexRating_EventScript_DexCompleteFanfare;playfanfare MUS_EVOLVED
+MUS_LEVEL_UP;data/scripts/route23.inc;21;Route23_EventScript_AlreadyRecognizedBoulderBadge;playfanfare MUS_LEVEL_UP
+MUS_LEVEL_UP;data/scripts/route23.inc;102;Route23_EventScript_RecognizeBoulderBadge;playfanfare MUS_LEVEL_UP
+MUS_LEVEL_UP;data/scripts/route23.inc;197;Route23_EventScript_RecognizeBoulderBadgeTrigger;playfanfare MUS_LEVEL_UP
+MUS_LEVEL_UP;data/scripts/silphco_doors.inc;515;EventScript_OpenDoor;playfanfare MUS_LEVEL_UP
+MUS_POKE_FLUTE;data/scripts/static_pokemon.inc;20;EventScript_AwakenSnorlax;playfanfare MUS_POKE_FLUTE
+MUS_LEVEL_UP;data/scripts/std_msgbox.inc;32;Std_ReceivedItem;call_if_eq VAR_0x8002, MUS_LEVEL_UP, EventScript_ReceivedItemFanfare1
+MUS_OBTAIN_KEY_ITEM;data/scripts/std_msgbox.inc;33;Std_ReceivedItem;call_if_eq VAR_0x8002, MUS_OBTAIN_KEY_ITEM, EventScript_ReceivedItemFanfare2
+MUS_LEVEL_UP;data/scripts/std_msgbox.inc;37;Std_ReceivedItem;call_if_eq VAR_0x8002, MUS_LEVEL_UP, EventScript_ReceivedItemWaitFanfare
+MUS_LEVEL_UP;data/scripts/std_msgbox.inc;43;EventScript_ReceivedItemFanfare1;playfanfare MUS_LEVEL_UP
+MUS_OBTAIN_KEY_ITEM;data/scripts/std_msgbox.inc;47;EventScript_ReceivedItemFanfare2;playfanfare MUS_OBTAIN_KEY_ITEM
+MUS_PHOTO;data/scripts/trainer_card.inc;45;CeladonCity_GameCorner_EventScript_PrintPhoto;playse MUS_PHOTO
+MUS_LEVEL_UP;data/scripts/trainer_card.inc;228;FourIsland_House2_EventScript_BraggedHoF;playfanfare MUS_LEVEL_UP
+MUS_LEVEL_UP;data/scripts/trainer_card.inc;283;FourIsland_House2_EventScript_BraggedEggs;playfanfare MUS_LEVEL_UP
+MUS_LEVEL_UP;data/scripts/trainer_card.inc;338;FourIsland_House2_EventScript_BraggedLinkWins;playfanfare MUS_LEVEL_UP
+MUS_LEVEL_UP;data/scripts/trainer_tower.inc;286;TrainerTower_EventScript_SpeakToOwner;playfanfare MUS_LEVEL_UP
+MUS_LEVEL_UP;data/scripts/yokai_obtention.inc;10;YokaiObtain_TryGift;playfanfare MUS_LEVEL_UP
+MUS_LEVEL_UP;data/text/route23.inc;14;Text_OnlyPassWithBadgeOhGoAhead;".string ""Vous pouvez passer ici seulement si\nvous avez le {STR_VAR_1}.\pC'est le {STR_VAR_1}!{PAUSE_MUSIC}{PLAY_BGM} {MUS_LEVEL_UP}{PAUSE 0x60}{RESUME_MUSIC}\pAllez, allez-y.$"""
