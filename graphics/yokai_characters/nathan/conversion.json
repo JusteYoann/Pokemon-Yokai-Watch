@@ -23,5 +23,14 @@
   "transparent_index": 0,
   "intro": "8bpp, opaque indices65..79, bank4 palette",
   "integrated": false,
-  "remaining": "running, surf, bike, fishing, field actions, credits and all in-game validation"
+  "completed_source_packs": [
+    "core",
+    "equipment",
+    "motion",
+    "actions",
+    "supplement",
+    "north_fishing"
+  ],
+  "remaining_source_packs": [],
+  "remaining": "All packs must be reviewed, integrated together, and tested in mGBA before replacement is complete"
 }

@@ -1,5 +1,5 @@
 {
-  "status": "ARTWORK_IN_PROGRESS_NOT_INTEGRATED",
+  "status": "ALL_NATIVE_ASSETS_PREPARED_NOT_ACTIVE_NOT_YET_TESTED_IN_GAME",
   "rom_unchanged": "8e33517256e38b541b181c9f3bf210d73cedfa0979ae7207d627bf7eb53dfa2a",
   "normal_yokai_sprites_modified": 0,
   "characters": {
@@ -9,7 +9,6 @@
           64,
           64
         ],
-        "native_frame_slots": 1,
         "visible_pixels": 1097,
         "sha256": "64891f8e9c9fc7b2babc56a4d6b5f64c44543510bd884333d237b543903875c8"
       },
@@ -18,7 +17,6 @@
           64,
           320
         ],
-        "native_frame_slots": 5,
         "visible_pixels": 7364,
         "sha256": "f8cf13cfe27feeffe0bae7401794724dddabc2d3bf66d9f50dcc9de476299096"
       },
@@ -27,7 +25,6 @@
           144,
           32
         ],
-        "native_frame_slots": 9,
         "visible_pixels": 1261,
         "sha256": "502abc34aa5f6d87e364e32a0f8b2523d12078b8a975c610d2fda298a9d51871"
       },
@@ -36,7 +33,6 @@
           16,
           16
         ],
-        "native_frame_slots": 1,
         "visible_pixels": 130,
         "sha256": "2f9a4e917b2085574808af7f21ece9bc34bb1b9a8d8f95515de678b2cd080eef"
       },
@@ -45,9 +41,56 @@
           64,
           96
         ],
-        "native_frame_slots": 1,
         "visible_pixels": 2551,
         "sha256": "416d305a7a0430acc6c750081f9208b423a36d56e75e7af188e3750fdb3fc69c"
+      },
+      "surf_run.png": {
+        "dimensions": [
+          224,
+          32
+        ],
+        "visible_pixels": 2098,
+        "sha256": "3ddb84169f39311e30769ea65b2b7d1060e7451cab69f762850a9de5454dc0b0"
+      },
+      "bike.png": {
+        "dimensions": [
+          288,
+          32
+        ],
+        "visible_pixels": 2283,
+        "sha256": "189669c0c120cc47013c088ca6cc466316b459d734979304757c2b6133391ba3"
+      },
+      "vs_seeker_bike.png": {
+        "dimensions": [
+          192,
+          32
+        ],
+        "visible_pixels": 1466,
+        "sha256": "46df7068840c78f3e88be28495184d17a8967595e4d395a18eb338dae2fa13d2"
+      },
+      "item.png": {
+        "dimensions": [
+          288,
+          32
+        ],
+        "visible_pixels": 1514,
+        "sha256": "f5c6090fa95ccfa682106182456bb93a13fd027ec639da51938c0635af36c879"
+      },
+      "fish.png": {
+        "dimensions": [
+          384,
+          32
+        ],
+        "visible_pixels": 1599,
+        "sha256": "51c66288cb04be99b8ffd440747270e8ecea42bf2de166d2dee942a04f31aff2"
+      },
+      "credits.png": {
+        "dimensions": [
+          64,
+          384
+        ],
+        "visible_pixels": 5882,
+        "sha256": "d7089ffabf60c6a6598e613c97ccb4137d54606306012394a2ccead20d490785"
       }
     },
     "katie": {
@@ -56,7 +99,6 @@
           64,
           64
         ],
-        "native_frame_slots": 1,
         "visible_pixels": 1174,
         "sha256": "0c34fce7ca670a0f74da1a27c5f65c0d601a928f42155701c439d64b45b57974"
       },
@@ -65,7 +107,6 @@
           64,
           320
         ],
-        "native_frame_slots": 5,
         "visible_pixels": 7774,
         "sha256": "e091e92b08ecead65ece07470b3a65f54156f289110616f17234238f4d775122"
       },
@@ -74,7 +115,6 @@
           144,
           32
         ],
-        "native_frame_slots": 9,
         "visible_pixels": 1337,
         "sha256": "4efb2f7ead3e625d5a6602670505141933b541086e94132d01384977ac8cca34"
       },
@@ -83,7 +123,6 @@
           16,
           16
         ],
-        "native_frame_slots": 1,
         "visible_pixels": 137,
         "sha256": "eeb1d503a0a6cb5d782d9933baf2fd9a09597b26b8021fddc1f6ef8667cbbdce"
       },
@@ -92,18 +131,63 @@
           64,
           96
         ],
-        "native_frame_slots": 1,
         "visible_pixels": 2656,
         "sha256": "4b50f03f0d33287f757b3d2014670cdc0f81940ca4b39b640e7a337c9d3770d7"
+      },
+      "surf_run.png": {
+        "dimensions": [
+          224,
+          32
+        ],
+        "visible_pixels": 2434,
+        "sha256": "1a97771bac8f575e46ad221592367514ca22599a1dd9757b98401c56d920078d"
+      },
+      "bike.png": {
+        "dimensions": [
+          288,
+          32
+        ],
+        "visible_pixels": 3478,
+        "sha256": "3b8d155e2caae63e77829bb9c5b5de56dc24cb93feaab6b7b3c1377d4c23d07e"
+      },
+      "vs_seeker_bike.png": {
+        "dimensions": [
+          192,
+          32
+        ],
+        "visible_pixels": 2375,
+        "sha256": "c15ccac42222bd95a4edb5138b47c81466140737996a0ed65f27e510393ab6bf"
+      },
+      "item.png": {
+        "dimensions": [
+          288,
+          32
+        ],
+        "visible_pixels": 426,
+        "sha256": "06b31333bfc48516cdd0add32f7f593050a9954fd8e6391369b0bb22d4e0aefd"
+      },
+      "fish.png": {
+        "dimensions": [
+          384,
+          32
+        ],
+        "visible_pixels": 1814,
+        "sha256": "72f4265b9b8b9f91fc47a2203585f8ecd66532f26c5788b02822ddc6c1796bb4"
+      },
+      "credits.png": {
+        "dimensions": [
+          64,
+          384
+        ],
+        "visible_pixels": 6369,
+        "sha256": "331641ecc8c9f8271434b28fcff706e0ab19d795a4d446bb5caa08f252dc2dfe"
       }
     }
   },
   "remaining": [
-    "run and surf poses",
-    "bicycle and VS Seeker bicycle",
-    "fishing and field actions",
-    "credits animation",
     "active integration",
-    "mGBA tests for both genders and opposite cameo resources"
+    "mGBA visual/action tests",
+    "full introduction and scripted appearances",
+    "opposite protagonist cameo events"
   ]
 }
