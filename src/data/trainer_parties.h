@@ -13789,3 +13789,17 @@ static const struct TrainerMonItemCustomMoves sYokaiParty_CUE_BALL_PAXTON[] = {
     {.iv = 50, .lvl = 39, .species = SPECIES_HORSEA, .heldItem = ITEM_NONE, .moves = {MOVE_MACH_PUNCH, MOVE_BULK_UP, MOVE_REVENGE, MOVE_BRICK_BREAK}},
     {.iv = 50, .lvl = 39, .species = SPECIES_DITTO, .heldItem = ITEM_NONE, .moves = {MOVE_FAINT_ATTACK, MOVE_KNOCK_OFF, MOVE_SCREECH, MOVE_BULK_UP}},
 };
+
+static const struct TrainerMonItemCustomMoves sParty_YokaiAriane[] = {
+    {.iv = 150, .lvl = 17, .species = SPECIES_VOLTORB, .heldItem = ITEM_NONE, .moves = {MOVE_HARDEN, MOVE_METAL_CLAW, MOVE_SWIFT, MOVE_QUICK_ATTACK}},
+    {.iv = 150, .lvl = 18, .species = SPECIES_SANDSLASH, .heldItem = ITEM_NONE, .moves = {MOVE_GROWL, MOVE_EMBER, MOVE_HOWL, MOVE_BITE}},
+    {.iv = 150, .lvl = 20, .species = SPECIES_ZAPDOS, .heldItem = ITEM_NONE, .moves = {MOVE_CONFUSION, MOVE_DISABLE, MOVE_REFLECT, MOVE_PSYBEAM}},
+};
+
+static const struct TrainerMonItemCustomMoves sParty_YokaiArianePost[] = {
+    {.iv = 200, .lvl = 56, .species = SPECIES_ELECTRODE, .heldItem = ITEM_NONE, .moves = {MOVE_CRUNCH, MOVE_PROTECT, MOVE_IRON_TAIL, MOVE_METEOR_MASH}},
+    {.iv = 200, .lvl = 57, .species = SPECIES_SANDSLASH, .heldItem = ITEM_NONE, .moves = {MOVE_BODY_SLAM, MOVE_FLAMETHROWER, MOVE_BULK_UP, MOVE_DOUBLE_EDGE}},
+    {.iv = 200, .lvl = 58, .species = SPECIES_WEEZING, .heldItem = ITEM_NONE, .moves = {MOVE_ICE_BEAM, MOVE_DOUBLE_TEAM, MOVE_HAZE, MOVE_BLIZZARD}},
+    {.iv = 200, .lvl = 59, .species = SPECIES_NIDORINA, .heldItem = ITEM_NONE, .moves = {MOVE_AGILITY, MOVE_CALM_MIND, MOVE_ZAP_CANNON, MOVE_THUNDER}},
+    {.iv = 200, .lvl = 60, .species = SPECIES_ZAPDOS, .heldItem = ITEM_NONE, .moves = {MOVE_PSYCHIC, MOVE_SUBSTITUTE, MOVE_MIRROR_COAT, MOVE_PSYCHO_BOOST}},
+};

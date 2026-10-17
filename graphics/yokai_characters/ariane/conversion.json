@@ -1,0 +1,56 @@
+{
+  "source_sha256": "629d2a4b8eb520fbbb152885e208058214b69b8b10ceba7b75aeabcd21046e31",
+  "source_dimensions": [
+    1536,
+    1024
+  ],
+  "crop_rectangles": [
+    [
+      280,
+      20,
+      650,
+      650
+    ],
+    [
+      900,
+      200,
+      1200,
+      655
+    ],
+    [
+      290,
+      675,
+      505,
+      1000
+    ],
+    [
+      665,
+      675,
+      875,
+      1000
+    ],
+    [
+      1045,
+      675,
+      1255,
+      1000
+    ]
+  ],
+  "trainer": [
+    64,
+    64
+  ],
+  "ariane_overworld": [
+    16,
+    32,
+    3
+  ],
+  "usapion_overworld": [
+    32,
+    32,
+    1
+  ],
+  "palette_colors": 16,
+  "transparent_index": 0,
+  "npc_animation_policy": "Stationary NPC, four facing directions via three frames and native horizontal flip; no walking scene required or claimed."
+}

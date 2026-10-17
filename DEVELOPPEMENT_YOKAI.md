@@ -75,3 +75,15 @@ Un défaut d’ordre des tuiles a été détecté sur les captures en jeu et cor
 Après l’installation de compilation, bash tools/yokai/installer_tests_debian.sh installe CMake (si absent) dans le sysroot utilisateur et construit le core mGBA fixé. Les paquets Debian sont vérifiés par empreintes. Pillow est une dépendance Python de la QA et des conversions PNG (tools/yokai/requirements.txt), pas du build du jeu. Ne pas exiger les fichiers privés ou un BIOS pour compiler/tester les sources publiques actuelles.
 
 Le clone indépendant depuis GitHub a reproduit octet pour octet le jalon 3f65e9015 : voir REPRODUCTIBILITE_EQUIPES.json. Une vérification du jalon graphique suivant est distincte. Les enregistrements musicaux restent privés ; à ce stade aucune OST Yo-kai ni quête finale n’a encore été intégrée.
+
+## Premier caméo restauré : Ariane et Usapion
+
+Ariane et son accompagnateur Usapion sont visibles au Cap de la Route 25 (57,7 et 59,7), sans gêner la maison de Léo ni les PNJ existants. Sprites originaux : un portrait de combat 64×64, trois orientations stationnaires 16×32, Usapion 32×32 ; une palette commune dédiée, indépendante des autres PNJ. Les références de l’archive ont été ouvertes avant dessin. Sources et aperçu sur damier dans graphics/yokai_characters/ariane/.
+
+Les équipes validées sont actives : aventure 100/28/145 aux niveaux 17/18/20 ; postgame 101/28/110/30/145 aux niveaux 56/57/58/59/60. Le postgame est sélectionné même lors d’une première visite tardive. Combat volontaire Oui/Non, une seule victoire nécessaire pendant l’aventure, revanches postgame à volonté. Pierre Lune unique, récupérable plus tard sans refaire le combat si le sac était plein. Les deux IDs de dresseurs proviennent de placeholders Ruby/Saphir sans ancien événement, sans agrandir les structures de sauvegarde. Registre : data/yokai/registre_identifiants.json.
+
+Recette mGBA par vraie interaction sur la carte : refus avec équipe valide ; victoire avec 42 emplacements d’objets pleins ; retour après libération d’une place ; absence de cadeau dupliqué ; revanches répétées ; premier combat directement en postgame ; défaite et retour après K.O. sans victoire fictive ni récompense ; flags conservés en sauvegarde Flash. La fixture de victoire utilise volontairement un combattant surpuissant : elle valide les scripts, pas la difficulté. L’attente du pilote suit désormais la fin réelle des dialogues, au lieu d’une durée supposée.
+
+Les noms/descriptions des cinq pierres d’évolution, de l’Œuf Chance et des trois fossiles sont traduits. Les identifiants techniques et mécanismes sont conservés ; Fossile Nautile est abrégé « Foss. Nauti. » pour les 13 caractères disponibles. Les boutons généraux affichent Oui/Non. Le reste de la traduction reste à faire.
+
+Les autres caméos, Nathan/Katie, les shiny définitifs, les 20 OST DPCM et les dix quêtes restent incomplets. Ariane est un caméo de la base à restaurer, pas l’une des dix nouvelles quêtes. Le verrou supplémentaire d’Enma lié à son futur combat caméo reste encore à intégrer.

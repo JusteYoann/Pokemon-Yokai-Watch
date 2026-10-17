@@ -2549,6 +2549,8 @@ extern const u32 gTrainerFrontPic_Juggler[];
 extern const u32 gTrainerFrontPic_Tamer[];
 extern const u32 gTrainerFrontPic_BirdKeeper[];
 extern const u32 gTrainerFrontPic_BlackBelt[];
+extern const u32 gTrainerFrontPic_Ariane[];
+extern const u32 gTrainerPalette_Ariane[];
 extern const u32 gTrainerFrontPic_RivalEarly[];
 extern const u32 gTrainerFrontPic_Scientist[];
 extern const u32 gTrainerFrontPic_LeaderGiovanni[];

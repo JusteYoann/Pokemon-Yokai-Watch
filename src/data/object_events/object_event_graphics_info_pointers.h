@@ -1,3 +1,5 @@
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ariane;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UsapionCameo;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedNormal;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedBike;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedSurf;
@@ -305,4 +307,6 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_DEOXYS_A]                 = &gObjectEventGraphicsInfo_DeoxysA,
     [OBJ_EVENT_GFX_DEOXYS_N]                 = &gObjectEventGraphicsInfo_DeoxysN,
     [OBJ_EVENT_GFX_SS_ANNE]                  = &gObjectEventGraphicsInfo_SSAnne,
+    [OBJ_EVENT_GFX_ARIANE] = &gObjectEventGraphicsInfo_Ariane,
+    [OBJ_EVENT_GFX_USAPION_CAMEO] = &gObjectEventGraphicsInfo_UsapionCameo,
 };

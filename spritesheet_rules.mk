@@ -400,3 +400,6 @@ $(OBJEVENTGFXDIR)/pokemon/wigglytuff.4bpp: %.4bpp: %.png
 # Matt: nine 16x32 frames must be grouped per sprite, not as a whole-image tile row.
 graphics/yokai_characters/matt/overworld.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/ariane/overworld.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4

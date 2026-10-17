@@ -1,0 +1,134 @@
+{
+  "specification": "CAMEOS_YOKAI_WATCH_CODEX.md + last mandate: Usapion visibly next to Ariane",
+  "teams": [
+    {
+      "trainer_entry": "TRAINER_AQUA_LEADER",
+      "members": [
+        {
+          "number": 100,
+          "species": "SPECIES_VOLTORB",
+          "level": 17,
+          "moves": [
+            "MOVE_HARDEN",
+            "MOVE_METAL_CLAW",
+            "MOVE_SWIFT",
+            "MOVE_QUICK_ATTACK"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 28,
+          "species": "SPECIES_SANDSLASH",
+          "level": 18,
+          "moves": [
+            "MOVE_GROWL",
+            "MOVE_EMBER",
+            "MOVE_HOWL",
+            "MOVE_BITE"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 145,
+          "species": "SPECIES_ZAPDOS",
+          "level": 20,
+          "moves": [
+            "MOVE_CONFUSION",
+            "MOVE_DISABLE",
+            "MOVE_REFLECT",
+            "MOVE_PSYBEAM"
+          ],
+          "held_item": "ITEM_NONE"
+        }
+      ]
+    },
+    {
+      "trainer_entry": "TRAINER_AQUA_GRUNT_M",
+      "members": [
+        {
+          "number": 101,
+          "species": "SPECIES_ELECTRODE",
+          "level": 56,
+          "moves": [
+            "MOVE_CRUNCH",
+            "MOVE_PROTECT",
+            "MOVE_IRON_TAIL",
+            "MOVE_METEOR_MASH"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 28,
+          "species": "SPECIES_SANDSLASH",
+          "level": 57,
+          "moves": [
+            "MOVE_BODY_SLAM",
+            "MOVE_FLAMETHROWER",
+            "MOVE_BULK_UP",
+            "MOVE_DOUBLE_EDGE"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 110,
+          "species": "SPECIES_WEEZING",
+          "level": 58,
+          "moves": [
+            "MOVE_ICE_BEAM",
+            "MOVE_DOUBLE_TEAM",
+            "MOVE_HAZE",
+            "MOVE_BLIZZARD"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 30,
+          "species": "SPECIES_NIDORINA",
+          "level": 59,
+          "moves": [
+            "MOVE_AGILITY",
+            "MOVE_CALM_MIND",
+            "MOVE_ZAP_CANNON",
+            "MOVE_THUNDER"
+          ],
+          "held_item": "ITEM_NONE"
+        },
+        {
+          "number": 145,
+          "species": "SPECIES_ZAPDOS",
+          "level": 60,
+          "moves": [
+            "MOVE_PSYCHIC",
+            "MOVE_SUBSTITUTE",
+            "MOVE_MIRROR_COAT",
+            "MOVE_PSYCHO_BOOST"
+          ],
+          "held_item": "ITEM_NONE"
+        }
+      ]
+    }
+  ],
+  "reward": "ITEM_MOON_STONE",
+  "reward_once_flag": "FLAG_YOKAI_ARIANE_REWARD",
+  "location": "Route25",
+  "artwork": "original battle portrait, three overworld facings, Usapion static companion",
+  "not_complete": "Other cameos remain to integrate",
+  "map_objects": {
+    "Ariane": {
+      "coordinates": [
+        57,
+        7
+      ],
+      "graphics_id": 152
+    },
+    "Usapion": {
+      "coordinates": [
+        59,
+        7
+      ],
+      "graphics_id": 153
+    }
+  },
+  "battle_policy": "Optional Yes/No, adventure once then unlimited post-League rematches; first post-League meeting uses postgame team",
+  "tests": "QA_RECETTE_FINALE/RECONSTRUCTION/TEST_ARIANE_MGBA.json"
+}

@@ -1385,3 +1385,27 @@ static const union AnimCmd *const sAnimTable_Matt[] = {
     [ANIM_STD_GO_FASTEST_EAST] = sAnim_MattGoFastestEast,
     [ANIM_RAISE_HAND] = sAnim_MattRaiseHand,
 };
+
+static const union AnimCmd *const sAnimTable_Ariane[] = {
+    [ANIM_STD_FACE_SOUTH] = sAnim_FaceSouth,
+    [ANIM_STD_FACE_NORTH] = sAnim_FaceNorth,
+    [ANIM_STD_FACE_WEST] = sAnim_FaceWest,
+    [ANIM_STD_FACE_EAST] = sAnim_FaceEast,
+    [ANIM_STD_GO_SOUTH] = sAnim_FaceSouth,
+    [ANIM_STD_GO_NORTH] = sAnim_FaceNorth,
+    [ANIM_STD_GO_WEST] = sAnim_FaceWest,
+    [ANIM_STD_GO_EAST] = sAnim_FaceEast,
+    [ANIM_STD_GO_FAST_SOUTH] = sAnim_FaceSouth,
+    [ANIM_STD_GO_FAST_NORTH] = sAnim_FaceNorth,
+    [ANIM_STD_GO_FAST_WEST] = sAnim_FaceWest,
+    [ANIM_STD_GO_FAST_EAST] = sAnim_FaceEast,
+    [ANIM_STD_GO_FASTER_SOUTH] = sAnim_FaceSouth,
+    [ANIM_STD_GO_FASTER_NORTH] = sAnim_FaceNorth,
+    [ANIM_STD_GO_FASTER_WEST] = sAnim_FaceWest,
+    [ANIM_STD_GO_FASTER_EAST] = sAnim_FaceEast,
+    [ANIM_STD_GO_FASTEST_SOUTH] = sAnim_FaceSouth,
+    [ANIM_STD_GO_FASTEST_NORTH] = sAnim_FaceNorth,
+    [ANIM_STD_GO_FASTEST_WEST] = sAnim_FaceWest,
+    [ANIM_STD_GO_FASTEST_EAST] = sAnim_FaceEast,
+    [ANIM_RAISE_HAND] = sAnim_FaceSouth,
+};

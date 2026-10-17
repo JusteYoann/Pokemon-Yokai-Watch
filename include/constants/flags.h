@@ -795,6 +795,9 @@
 
 // Unused?
 #define FLAG_0x300               0x300
+#define FLAG_YOKAI_ARIANE_WON         FLAG_0x300
+#define FLAG_YOKAI_ARIANE_REWARD      FLAG_0x301
+#define FLAG_YOKAI_ARIANE_POST_WON    FLAG_0x302
 #define FLAG_0x301               0x301
 #define FLAG_0x302               0x302
 #define FLAG_0x303               0x303

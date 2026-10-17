@@ -2,6 +2,8 @@
 #define GUARD_CONSTANTS_OPPONENTS_H
 
 #define TRAINER_NONE                               0
+#define TRAINER_YOKAI_ARIANE                       TRAINER_AQUA_LEADER
+#define TRAINER_YOKAI_ARIANE_POST                  TRAINER_AQUA_GRUNT_M
 // Dummy trainers for all the RS trainer classes
 #define TRAINER_AQUA_LEADER                        1
 #define TRAINER_AQUA_GRUNT_M                       2
