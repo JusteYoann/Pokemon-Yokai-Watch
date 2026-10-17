@@ -56,6 +56,7 @@ struct MonSpritesGfxManager
 };
 
 static EWRAM_DATA u8 sLearningMoveTableID = 0;
+static EWRAM_DATA u8 sYokaiLearningPhase = 0;
 EWRAM_DATA u8 gPlayerPartyCount = 0;
 EWRAM_DATA u8 gEnemyPartyCount = 0;
 EWRAM_DATA struct Pokemon gEnemyParty[PARTY_SIZE] = {};
@@ -1394,6 +1395,7 @@ static const s8 sNatureStatTable[NUM_NATURES][NUM_NATURE_STATS] =
 #include "data/pokemon/level_up_learnsets.h"
 #include "data/pokemon/evolution.h"
 #include "data/pokemon/yokai_shiny.h"
+#include "data/pokemon/yokai_delayed_moves.h"
 #include "data/pokemon/level_up_learnset_pointers.h"
 
 static const s8 sPokeblockFlavorCompatibilityTable[NUM_NATURES * FLAVOR_COUNT] =
@@ -2300,19 +2302,34 @@ u16 MonTryLearningNewMove(struct Pokemon *mon, bool8 firstMove)
     u16 species = GetMonData(mon, MON_DATA_SPECIES, NULL);
     u8 level = GetMonData(mon, MON_DATA_LEVEL, NULL);
 
-    // since you can learn more than one move per level
-    // the game needs to know whether you decided to
-    // learn it or keep the old set to avoid asking
-    // you to learn the same move over and over again
     if (firstMove)
     {
         sLearningMoveTableID = 0;
-
-        while ((gLevelUpLearnsets[species][sLearningMoveTableID] & LEVEL_UP_MOVE_LV) != (level << 9))
+        sYokaiLearningPhase = firstMove == 2 ? 0 : 1;
+    }
+    // Evolution scenes explicitly request phase 0. Normal level-ups skip it.
+    if (sYokaiLearningPhase == 0)
+    {
+        if (gLevelUpLearnsets[species][sLearningMoveTableID] != LEVEL_UP_END
+         && (gLevelUpLearnsets[species][sLearningMoveTableID] & LEVEL_UP_MOVE_LV) == 0)
         {
+            gMoveToLearn = gLevelUpLearnsets[species][sLearningMoveTableID++] & LEVEL_UP_MOVE_ID;
+            return GiveMoveToMon(mon, gMoveToLearn);
+        }
+        sYokaiLearningPhase = 1;
+    }
+    if (sYokaiLearningPhase == 1)
+    {
+        u16 stamp = GetMonData(mon, MON_DATA_ENCRYPT_SEPARATOR, NULL);
+        sYokaiLearningPhase = 2;
+        while (gLevelUpLearnsets[species][sLearningMoveTableID] != LEVEL_UP_END
+            && (gLevelUpLearnsets[species][sLearningMoveTableID] & LEVEL_UP_MOVE_LV) != (level << 9))
             sLearningMoveTableID++;
-            if (gLevelUpLearnsets[species][sLearningMoveTableID] == LEVEL_UP_END)
-                return MOVE_NONE;
+        if ((stamp & 0xFF00) == 0x5900 && (stamp & 0xFF) == level
+         && sYokaiDelayedEvolutionMoves[species] != MOVE_NONE)
+        {
+            gMoveToLearn = sYokaiDelayedEvolutionMoves[species];
+            return GiveMoveToMon(mon, gMoveToLearn);
         }
     }
 
@@ -2324,6 +2341,22 @@ u16 MonTryLearningNewMove(struct Pokemon *mon, bool8 firstMove)
     }
 
     return retVal;
+}
+
+void RecordYokaiEvolutionLevel(struct Pokemon *mon)
+{
+    u16 species = GetMonData(mon, MON_DATA_SPECIES, NULL);
+    u16 level = GetMonData(mon, MON_DATA_LEVEL, NULL);
+    u16 stamp;
+    if (sYokaiDelayedEvolutionMoves[species] == MOVE_NONE)
+        return;
+    // Shogunyan's source explicitly grants Slash immediately for very late evolution.
+    if (species == SPECIES_CHARMANDER && level + 2 > 58)
+        stamp = 0x5900 | level;
+    else
+        stamp = 0x5900 | (level + 2);
+    // Reserved 16-bit header: unchanged Pokemon/BoxPokemon sizes and save layout.
+    SetMonData(mon, MON_DATA_ENCRYPT_SEPARATOR, &stamp);
 }
 
 void DeleteFirstMoveAndGiveMoveToMon(struct Pokemon *mon, u16 move)
@@ -5771,7 +5804,10 @@ u8 GetMoveRelearnerMoves(struct Pokemon *mon, u16 *moves)
 
         moveLevel = gLevelUpLearnsets[species][i] & LEVEL_UP_MOVE_LV;
 
-        if (moveLevel <= (level << 9))
+        if (moveLevel <= (level << 9)
+         || (moveLevel == (101 << 9)
+          && (GetMonData(mon, MON_DATA_ENCRYPT_SEPARATOR, NULL) & 0xFF00) == 0x5900
+          && (GetMonData(mon, MON_DATA_ENCRYPT_SEPARATOR, NULL) & 0xFF) <= level))
         {
             for (j = 0; j < MAX_MON_MOVES && learnedMoves[j] != (gLevelUpLearnsets[species][i] & LEVEL_UP_MOVE_ID); j++)
                 ;

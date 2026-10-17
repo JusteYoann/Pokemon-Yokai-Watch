@@ -1,0 +1,2600 @@
+[
+  {
+    "id": "0",
+    "constant": "MOVE_NONE",
+    "nom_fr": "-",
+    "display": "-"
+  },
+  {
+    "id": "1",
+    "constant": "MOVE_POUND",
+    "nom_fr": "Écras’Face",
+    "display": "Écras’Face"
+  },
+  {
+    "id": "2",
+    "constant": "MOVE_KARATE_CHOP",
+    "nom_fr": "Poing Karaté",
+    "display": "Poing Karaté"
+  },
+  {
+    "id": "3",
+    "constant": "MOVE_DOUBLE_SLAP",
+    "nom_fr": "Torgnoles",
+    "display": "Torgnoles"
+  },
+  {
+    "id": "4",
+    "constant": "MOVE_COMET_PUNCH",
+    "nom_fr": "Poing Comète",
+    "display": "Poing Comète"
+  },
+  {
+    "id": "5",
+    "constant": "MOVE_MEGA_PUNCH",
+    "nom_fr": "Ultimapoing",
+    "display": "Ultimapoing"
+  },
+  {
+    "id": "6",
+    "constant": "MOVE_PAY_DAY",
+    "nom_fr": "Jackpot",
+    "display": "Jackpot"
+  },
+  {
+    "id": "7",
+    "constant": "MOVE_FIRE_PUNCH",
+    "nom_fr": "Poing Feu",
+    "display": "Poing Feu"
+  },
+  {
+    "id": "8",
+    "constant": "MOVE_ICE_PUNCH",
+    "nom_fr": "Poing Glace",
+    "display": "Poing Glace"
+  },
+  {
+    "id": "9",
+    "constant": "MOVE_THUNDER_PUNCH",
+    "nom_fr": "Poing Éclair",
+    "display": "Poing Éclair"
+  },
+  {
+    "id": "10",
+    "constant": "MOVE_SCRATCH",
+    "nom_fr": "Griffe",
+    "display": "Griffe"
+  },
+  {
+    "id": "11",
+    "constant": "MOVE_VICE_GRIP",
+    "nom_fr": "Force Poigne",
+    "display": "Force Poigne"
+  },
+  {
+    "id": "12",
+    "constant": "MOVE_GUILLOTINE",
+    "nom_fr": "Guillotine",
+    "display": "Guillotine"
+  },
+  {
+    "id": "13",
+    "constant": "MOVE_RAZOR_WIND",
+    "nom_fr": "Coupe-Vent",
+    "display": "Coupe-Vent"
+  },
+  {
+    "id": "14",
+    "constant": "MOVE_SWORDS_DANCE",
+    "nom_fr": "Danse Lames",
+    "display": "Danse Lames"
+  },
+  {
+    "id": "15",
+    "constant": "MOVE_CUT",
+    "nom_fr": "Coupe",
+    "display": "Coupe"
+  },
+  {
+    "id": "16",
+    "constant": "MOVE_GUST",
+    "nom_fr": "Tornade",
+    "display": "Tornade"
+  },
+  {
+    "id": "17",
+    "constant": "MOVE_WING_ATTACK",
+    "nom_fr": "Cru-Ailes",
+    "display": "Cru-Ailes"
+  },
+  {
+    "id": "18",
+    "constant": "MOVE_WHIRLWIND",
+    "nom_fr": "Cyclone",
+    "display": "Cyclone"
+  },
+  {
+    "id": "19",
+    "constant": "MOVE_FLY",
+    "nom_fr": "Vol",
+    "display": "Vol"
+  },
+  {
+    "id": "20",
+    "constant": "MOVE_BIND",
+    "nom_fr": "Étreinte",
+    "display": "Étreinte"
+  },
+  {
+    "id": "21",
+    "constant": "MOVE_SLAM",
+    "nom_fr": "Souplesse",
+    "display": "Souplesse"
+  },
+  {
+    "id": "22",
+    "constant": "MOVE_VINE_WHIP",
+    "nom_fr": "Fouet Lianes",
+    "display": "Fouet Lianes"
+  },
+  {
+    "id": "23",
+    "constant": "MOVE_STOMP",
+    "nom_fr": "Écrasement",
+    "display": "Écrasement"
+  },
+  {
+    "id": "24",
+    "constant": "MOVE_DOUBLE_KICK",
+    "nom_fr": "Double Pied",
+    "display": "Double Pied"
+  },
+  {
+    "id": "25",
+    "constant": "MOVE_MEGA_KICK",
+    "nom_fr": "Ultimawashi",
+    "display": "Ultimawashi"
+  },
+  {
+    "id": "26",
+    "constant": "MOVE_JUMP_KICK",
+    "nom_fr": "Pied Sauté",
+    "display": "Pied Sauté"
+  },
+  {
+    "id": "27",
+    "constant": "MOVE_ROLLING_KICK",
+    "nom_fr": "Mawashi Geri",
+    "display": "Mawashi Geri"
+  },
+  {
+    "id": "28",
+    "constant": "MOVE_SAND_ATTACK",
+    "nom_fr": "Jet de Sable",
+    "display": "Jet de Sable"
+  },
+  {
+    "id": "29",
+    "constant": "MOVE_HEADBUTT",
+    "nom_fr": "Coup d’Boule",
+    "display": "Coup d’Boule"
+  },
+  {
+    "id": "30",
+    "constant": "MOVE_HORN_ATTACK",
+    "nom_fr": "Koud’Korne",
+    "display": "Koud’Korne"
+  },
+  {
+    "id": "31",
+    "constant": "MOVE_FURY_ATTACK",
+    "nom_fr": "Furie",
+    "display": "Furie"
+  },
+  {
+    "id": "32",
+    "constant": "MOVE_HORN_DRILL",
+    "nom_fr": "Empal’Korne",
+    "display": "Empal’Korne"
+  },
+  {
+    "id": "33",
+    "constant": "MOVE_TACKLE",
+    "nom_fr": "Charge",
+    "display": "Charge"
+  },
+  {
+    "id": "34",
+    "constant": "MOVE_BODY_SLAM",
+    "nom_fr": "Plaquage",
+    "display": "Plaquage"
+  },
+  {
+    "id": "35",
+    "constant": "MOVE_WRAP",
+    "nom_fr": "Ligotage",
+    "display": "Ligotage"
+  },
+  {
+    "id": "36",
+    "constant": "MOVE_TAKE_DOWN",
+    "nom_fr": "Bélier",
+    "display": "Bélier"
+  },
+  {
+    "id": "37",
+    "constant": "MOVE_THRASH",
+    "nom_fr": "Mania",
+    "display": "Mania"
+  },
+  {
+    "id": "38",
+    "constant": "MOVE_DOUBLE_EDGE",
+    "nom_fr": "Damoclès",
+    "display": "Damoclès"
+  },
+  {
+    "id": "39",
+    "constant": "MOVE_TAIL_WHIP",
+    "nom_fr": "Mimi-Queue",
+    "display": "Mimi-Queue"
+  },
+  {
+    "id": "40",
+    "constant": "MOVE_POISON_STING",
+    "nom_fr": "Dard-Venin",
+    "display": "Dard-Venin"
+  },
+  {
+    "id": "41",
+    "constant": "MOVE_TWINEEDLE",
+    "nom_fr": "Double Dard",
+    "display": "Double Dard"
+  },
+  {
+    "id": "42",
+    "constant": "MOVE_PIN_MISSILE",
+    "nom_fr": "Dard-Nuée",
+    "display": "Dard-Nuée"
+  },
+  {
+    "id": "43",
+    "constant": "MOVE_LEER",
+    "nom_fr": "Groz’Yeux",
+    "display": "Groz’Yeux"
+  },
+  {
+    "id": "44",
+    "constant": "MOVE_BITE",
+    "nom_fr": "Morsure",
+    "display": "Morsure"
+  },
+  {
+    "id": "45",
+    "constant": "MOVE_GROWL",
+    "nom_fr": "Rugissement",
+    "display": "Rugissement"
+  },
+  {
+    "id": "46",
+    "constant": "MOVE_ROAR",
+    "nom_fr": "Hurlement",
+    "display": "Hurlement"
+  },
+  {
+    "id": "47",
+    "constant": "MOVE_SING",
+    "nom_fr": "Berceuse",
+    "display": "Berceuse"
+  },
+  {
+    "id": "48",
+    "constant": "MOVE_SUPERSONIC",
+    "nom_fr": "Ultrason",
+    "display": "Ultrason"
+  },
+  {
+    "id": "49",
+    "constant": "MOVE_SONIC_BOOM",
+    "nom_fr": "Sonic Boom",
+    "display": "Sonic Boom"
+  },
+  {
+    "id": "50",
+    "constant": "MOVE_DISABLE",
+    "nom_fr": "Entrave",
+    "display": "Entrave"
+  },
+  {
+    "id": "51",
+    "constant": "MOVE_ACID",
+    "nom_fr": "Acide",
+    "display": "Acide"
+  },
+  {
+    "id": "52",
+    "constant": "MOVE_EMBER",
+    "nom_fr": "Flammèche",
+    "display": "Flammèche"
+  },
+  {
+    "id": "53",
+    "constant": "MOVE_FLAMETHROWER",
+    "nom_fr": "Lance-Flammes",
+    "display": "Lance-Flamm."
+  },
+  {
+    "id": "54",
+    "constant": "MOVE_MIST",
+    "nom_fr": "Brume",
+    "display": "Brume"
+  },
+  {
+    "id": "55",
+    "constant": "MOVE_WATER_GUN",
+    "nom_fr": "Pistolet à O",
+    "display": "Pistolet à O"
+  },
+  {
+    "id": "56",
+    "constant": "MOVE_HYDRO_PUMP",
+    "nom_fr": "Hydrocanon",
+    "display": "Hydrocanon"
+  },
+  {
+    "id": "57",
+    "constant": "MOVE_SURF",
+    "nom_fr": "Surf",
+    "display": "Surf"
+  },
+  {
+    "id": "58",
+    "constant": "MOVE_ICE_BEAM",
+    "nom_fr": "Laser Glace",
+    "display": "Laser Glace"
+  },
+  {
+    "id": "59",
+    "constant": "MOVE_BLIZZARD",
+    "nom_fr": "Blizzard",
+    "display": "Blizzard"
+  },
+  {
+    "id": "60",
+    "constant": "MOVE_PSYBEAM",
+    "nom_fr": "Rafale Psy",
+    "display": "Rafale Psy"
+  },
+  {
+    "id": "61",
+    "constant": "MOVE_BUBBLE_BEAM",
+    "nom_fr": "Bulles d’O",
+    "display": "Bulles d’O"
+  },
+  {
+    "id": "62",
+    "constant": "MOVE_AURORA_BEAM",
+    "nom_fr": "Onde Boréale",
+    "display": "Onde Boréale"
+  },
+  {
+    "id": "63",
+    "constant": "MOVE_HYPER_BEAM",
+    "nom_fr": "Ultralaser",
+    "display": "Ultralaser"
+  },
+  {
+    "id": "64",
+    "constant": "MOVE_PECK",
+    "nom_fr": "Picpic",
+    "display": "Picpic"
+  },
+  {
+    "id": "65",
+    "constant": "MOVE_DRILL_PECK",
+    "nom_fr": "Bec Vrille",
+    "display": "Bec Vrille"
+  },
+  {
+    "id": "66",
+    "constant": "MOVE_SUBMISSION",
+    "nom_fr": "Sacrifice",
+    "display": "Sacrifice"
+  },
+  {
+    "id": "67",
+    "constant": "MOVE_LOW_KICK",
+    "nom_fr": "Balayage",
+    "display": "Balayage"
+  },
+  {
+    "id": "68",
+    "constant": "MOVE_COUNTER",
+    "nom_fr": "Riposte",
+    "display": "Riposte"
+  },
+  {
+    "id": "69",
+    "constant": "MOVE_SEISMIC_TOSS",
+    "nom_fr": "Frappe Atlas",
+    "display": "Frappe Atlas"
+  },
+  {
+    "id": "70",
+    "constant": "MOVE_STRENGTH",
+    "nom_fr": "Force",
+    "display": "Force"
+  },
+  {
+    "id": "71",
+    "constant": "MOVE_ABSORB",
+    "nom_fr": "Vole-Vie",
+    "display": "Vole-Vie"
+  },
+  {
+    "id": "72",
+    "constant": "MOVE_MEGA_DRAIN",
+    "nom_fr": "Méga-Sangsue",
+    "display": "Méga-Sangsue"
+  },
+  {
+    "id": "73",
+    "constant": "MOVE_LEECH_SEED",
+    "nom_fr": "Vampigraine",
+    "display": "Vampigraine"
+  },
+  {
+    "id": "74",
+    "constant": "MOVE_GROWTH",
+    "nom_fr": "Croissance",
+    "display": "Croissance"
+  },
+  {
+    "id": "75",
+    "constant": "MOVE_RAZOR_LEAF",
+    "nom_fr": "Tranch’Herbe",
+    "display": "Tranch’Herbe"
+  },
+  {
+    "id": "76",
+    "constant": "MOVE_SOLAR_BEAM",
+    "nom_fr": "Lance-Soleil",
+    "display": "Lance-Soleil"
+  },
+  {
+    "id": "77",
+    "constant": "MOVE_POISON_POWDER",
+    "nom_fr": "Poudre Toxik",
+    "display": "Poudre Toxik"
+  },
+  {
+    "id": "78",
+    "constant": "MOVE_STUN_SPORE",
+    "nom_fr": "Para-Spore",
+    "display": "Para-Spore"
+  },
+  {
+    "id": "79",
+    "constant": "MOVE_SLEEP_POWDER",
+    "nom_fr": "Poudre Dodo",
+    "display": "Poudre Dodo"
+  },
+  {
+    "id": "80",
+    "constant": "MOVE_PETAL_DANCE",
+    "nom_fr": "Danse Fleurs",
+    "display": "Danse Fleurs"
+  },
+  {
+    "id": "81",
+    "constant": "MOVE_STRING_SHOT",
+    "nom_fr": "Sécrétion",
+    "display": "Sécrétion"
+  },
+  {
+    "id": "82",
+    "constant": "MOVE_DRAGON_RAGE",
+    "nom_fr": "Draco-Rage",
+    "display": "Draco-Rage"
+  },
+  {
+    "id": "83",
+    "constant": "MOVE_FIRE_SPIN",
+    "nom_fr": "Danse Flammes",
+    "display": "Danse Flamm."
+  },
+  {
+    "id": "84",
+    "constant": "MOVE_THUNDER_SHOCK",
+    "nom_fr": "Éclair",
+    "display": "Éclair"
+  },
+  {
+    "id": "85",
+    "constant": "MOVE_THUNDERBOLT",
+    "nom_fr": "Tonnerre",
+    "display": "Tonnerre"
+  },
+  {
+    "id": "86",
+    "constant": "MOVE_THUNDER_WAVE",
+    "nom_fr": "Cage Éclair",
+    "display": "Cage Éclair"
+  },
+  {
+    "id": "87",
+    "constant": "MOVE_THUNDER",
+    "nom_fr": "Fatal-Foudre",
+    "display": "Fatal-Foudre"
+  },
+  {
+    "id": "88",
+    "constant": "MOVE_ROCK_THROW",
+    "nom_fr": "Jet-Pierres",
+    "display": "Jet-Pierres"
+  },
+  {
+    "id": "89",
+    "constant": "MOVE_EARTHQUAKE",
+    "nom_fr": "Séisme",
+    "display": "Séisme"
+  },
+  {
+    "id": "90",
+    "constant": "MOVE_FISSURE",
+    "nom_fr": "Abîme",
+    "display": "Abîme"
+  },
+  {
+    "id": "91",
+    "constant": "MOVE_DIG",
+    "nom_fr": "Tunnel",
+    "display": "Tunnel"
+  },
+  {
+    "id": "92",
+    "constant": "MOVE_TOXIC",
+    "nom_fr": "Toxik",
+    "display": "Toxik"
+  },
+  {
+    "id": "93",
+    "constant": "MOVE_CONFUSION",
+    "nom_fr": "Choc Mental",
+    "display": "Choc Mental"
+  },
+  {
+    "id": "94",
+    "constant": "MOVE_PSYCHIC",
+    "nom_fr": "Psyko",
+    "display": "Psyko"
+  },
+  {
+    "id": "95",
+    "constant": "MOVE_HYPNOSIS",
+    "nom_fr": "Hypnose",
+    "display": "Hypnose"
+  },
+  {
+    "id": "96",
+    "constant": "MOVE_MEDITATE",
+    "nom_fr": "Yoga",
+    "display": "Yoga"
+  },
+  {
+    "id": "97",
+    "constant": "MOVE_AGILITY",
+    "nom_fr": "Hâte",
+    "display": "Hâte"
+  },
+  {
+    "id": "98",
+    "constant": "MOVE_QUICK_ATTACK",
+    "nom_fr": "Vive-Attaque",
+    "display": "Vive-Attaque"
+  },
+  {
+    "id": "99",
+    "constant": "MOVE_RAGE",
+    "nom_fr": "Frénésie",
+    "display": "Frénésie"
+  },
+  {
+    "id": "100",
+    "constant": "MOVE_TELEPORT",
+    "nom_fr": "Téléport",
+    "display": "Téléport"
+  },
+  {
+    "id": "101",
+    "constant": "MOVE_NIGHT_SHADE",
+    "nom_fr": "Ombre Nocturne",
+    "display": "Ombre Noctu."
+  },
+  {
+    "id": "102",
+    "constant": "MOVE_MIMIC",
+    "nom_fr": "Copie",
+    "display": "Copie"
+  },
+  {
+    "id": "103",
+    "constant": "MOVE_SCREECH",
+    "nom_fr": "Grincement",
+    "display": "Grincement"
+  },
+  {
+    "id": "104",
+    "constant": "MOVE_DOUBLE_TEAM",
+    "nom_fr": "Reflet",
+    "display": "Reflet"
+  },
+  {
+    "id": "105",
+    "constant": "MOVE_RECOVER",
+    "nom_fr": "Soin",
+    "display": "Soin"
+  },
+  {
+    "id": "106",
+    "constant": "MOVE_HARDEN",
+    "nom_fr": "Armure",
+    "display": "Armure"
+  },
+  {
+    "id": "107",
+    "constant": "MOVE_MINIMIZE",
+    "nom_fr": "Lilliput",
+    "display": "Lilliput"
+  },
+  {
+    "id": "108",
+    "constant": "MOVE_SMOKESCREEN",
+    "nom_fr": "Brouillard",
+    "display": "Brouillard"
+  },
+  {
+    "id": "109",
+    "constant": "MOVE_CONFUSE_RAY",
+    "nom_fr": "Onde Folie",
+    "display": "Onde Folie"
+  },
+  {
+    "id": "110",
+    "constant": "MOVE_WITHDRAW",
+    "nom_fr": "Repli",
+    "display": "Repli"
+  },
+  {
+    "id": "111",
+    "constant": "MOVE_DEFENSE_CURL",
+    "nom_fr": "Boul’Armure",
+    "display": "Boul’Armure"
+  },
+  {
+    "id": "112",
+    "constant": "MOVE_BARRIER",
+    "nom_fr": "Bouclier",
+    "display": "Bouclier"
+  },
+  {
+    "id": "113",
+    "constant": "MOVE_LIGHT_SCREEN",
+    "nom_fr": "Mur Lumière",
+    "display": "Mur Lumière"
+  },
+  {
+    "id": "114",
+    "constant": "MOVE_HAZE",
+    "nom_fr": "Buée Noire",
+    "display": "Buée Noire"
+  },
+  {
+    "id": "115",
+    "constant": "MOVE_REFLECT",
+    "nom_fr": "Protection",
+    "display": "Protection"
+  },
+  {
+    "id": "116",
+    "constant": "MOVE_FOCUS_ENERGY",
+    "nom_fr": "Puissance",
+    "display": "Puissance"
+  },
+  {
+    "id": "117",
+    "constant": "MOVE_BIDE",
+    "nom_fr": "Patience",
+    "display": "Patience"
+  },
+  {
+    "id": "118",
+    "constant": "MOVE_METRONOME",
+    "nom_fr": "Métronome",
+    "display": "Métronome"
+  },
+  {
+    "id": "119",
+    "constant": "MOVE_MIRROR_MOVE",
+    "nom_fr": "Mimique",
+    "display": "Mimique"
+  },
+  {
+    "id": "120",
+    "constant": "MOVE_SELF_DESTRUCT",
+    "nom_fr": "Destruction",
+    "display": "Destruction"
+  },
+  {
+    "id": "121",
+    "constant": "MOVE_EGG_BOMB",
+    "nom_fr": "Bombe Œuf",
+    "display": "Bombe Œuf"
+  },
+  {
+    "id": "122",
+    "constant": "MOVE_LICK",
+    "nom_fr": "Léchouille",
+    "display": "Léchouille"
+  },
+  {
+    "id": "123",
+    "constant": "MOVE_SMOG",
+    "nom_fr": "Purédpois",
+    "display": "Purédpois"
+  },
+  {
+    "id": "124",
+    "constant": "MOVE_SLUDGE",
+    "nom_fr": "Détritus",
+    "display": "Détritus"
+  },
+  {
+    "id": "125",
+    "constant": "MOVE_BONE_CLUB",
+    "nom_fr": "Massd’Os",
+    "display": "Massd’Os"
+  },
+  {
+    "id": "126",
+    "constant": "MOVE_FIRE_BLAST",
+    "nom_fr": "Déflagration",
+    "display": "Déflagration"
+  },
+  {
+    "id": "127",
+    "constant": "MOVE_WATERFALL",
+    "nom_fr": "Cascade",
+    "display": "Cascade"
+  },
+  {
+    "id": "128",
+    "constant": "MOVE_CLAMP",
+    "nom_fr": "Claquoir",
+    "display": "Claquoir"
+  },
+  {
+    "id": "129",
+    "constant": "MOVE_SWIFT",
+    "nom_fr": "Météores",
+    "display": "Météores"
+  },
+  {
+    "id": "130",
+    "constant": "MOVE_SKULL_BASH",
+    "nom_fr": "Coud’Krâne",
+    "display": "Coud’Krâne"
+  },
+  {
+    "id": "131",
+    "constant": "MOVE_SPIKE_CANNON",
+    "nom_fr": "Picanon",
+    "display": "Picanon"
+  },
+  {
+    "id": "132",
+    "constant": "MOVE_CONSTRICT",
+    "nom_fr": "Constriction",
+    "display": "Constriction"
+  },
+  {
+    "id": "133",
+    "constant": "MOVE_AMNESIA",
+    "nom_fr": "Amnésie",
+    "display": "Amnésie"
+  },
+  {
+    "id": "134",
+    "constant": "MOVE_KINESIS",
+    "nom_fr": "Télékinésie",
+    "display": "Télékinésie"
+  },
+  {
+    "id": "135",
+    "constant": "MOVE_SOFT_BOILED",
+    "nom_fr": "E-Coque",
+    "display": "E-Coque"
+  },
+  {
+    "id": "136",
+    "constant": "MOVE_HI_JUMP_KICK",
+    "nom_fr": "Pied Voltige",
+    "display": "Pied Voltige"
+  },
+  {
+    "id": "137",
+    "constant": "MOVE_GLARE",
+    "nom_fr": "Regard Médusant",
+    "display": "Regard Médu."
+  },
+  {
+    "id": "138",
+    "constant": "MOVE_DREAM_EATER",
+    "nom_fr": "Dévorêve",
+    "display": "Dévorêve"
+  },
+  {
+    "id": "139",
+    "constant": "MOVE_POISON_GAS",
+    "nom_fr": "Gaz Toxik",
+    "display": "Gaz Toxik"
+  },
+  {
+    "id": "140",
+    "constant": "MOVE_BARRAGE",
+    "nom_fr": "Pilonnage",
+    "display": "Pilonnage"
+  },
+  {
+    "id": "141",
+    "constant": "MOVE_LEECH_LIFE",
+    "nom_fr": "Vampirisme",
+    "display": "Vampirisme"
+  },
+  {
+    "id": "142",
+    "constant": "MOVE_LOVELY_KISS",
+    "nom_fr": "Grobisou",
+    "display": "Grobisou"
+  },
+  {
+    "id": "143",
+    "constant": "MOVE_SKY_ATTACK",
+    "nom_fr": "Piqué",
+    "display": "Piqué"
+  },
+  {
+    "id": "144",
+    "constant": "MOVE_TRANSFORM",
+    "nom_fr": "Morphing",
+    "display": "Morphing"
+  },
+  {
+    "id": "145",
+    "constant": "MOVE_BUBBLE",
+    "nom_fr": "Écume",
+    "display": "Écume"
+  },
+  {
+    "id": "146",
+    "constant": "MOVE_DIZZY_PUNCH",
+    "nom_fr": "Uppercut",
+    "display": "Uppercut"
+  },
+  {
+    "id": "147",
+    "constant": "MOVE_SPORE",
+    "nom_fr": "Spore",
+    "display": "Spore"
+  },
+  {
+    "id": "148",
+    "constant": "MOVE_FLASH",
+    "nom_fr": "Flash",
+    "display": "Flash"
+  },
+  {
+    "id": "149",
+    "constant": "MOVE_PSYWAVE",
+    "nom_fr": "Vague Psy",
+    "display": "Vague Psy"
+  },
+  {
+    "id": "150",
+    "constant": "MOVE_SPLASH",
+    "nom_fr": "Trempette",
+    "display": "Trempette"
+  },
+  {
+    "id": "151",
+    "constant": "MOVE_ACID_ARMOR",
+    "nom_fr": "Acidarmure",
+    "display": "Acidarmure"
+  },
+  {
+    "id": "152",
+    "constant": "MOVE_CRABHAMMER",
+    "nom_fr": "Pince-Masse",
+    "display": "Pince-Masse"
+  },
+  {
+    "id": "153",
+    "constant": "MOVE_EXPLOSION",
+    "nom_fr": "Explosion",
+    "display": "Explosion"
+  },
+  {
+    "id": "154",
+    "constant": "MOVE_FURY_SWIPES",
+    "nom_fr": "Combo-Griffe",
+    "display": "Combo-Griffe"
+  },
+  {
+    "id": "155",
+    "constant": "MOVE_BONEMERANG",
+    "nom_fr": "Osmerang",
+    "display": "Osmerang"
+  },
+  {
+    "id": "156",
+    "constant": "MOVE_REST",
+    "nom_fr": "Repos",
+    "display": "Repos"
+  },
+  {
+    "id": "157",
+    "constant": "MOVE_ROCK_SLIDE",
+    "nom_fr": "Éboulement",
+    "display": "Éboulement"
+  },
+  {
+    "id": "158",
+    "constant": "MOVE_HYPER_FANG",
+    "nom_fr": "Croc de Mort",
+    "display": "Croc de Mort"
+  },
+  {
+    "id": "159",
+    "constant": "MOVE_SHARPEN",
+    "nom_fr": "Affûtage",
+    "display": "Affûtage"
+  },
+  {
+    "id": "160",
+    "constant": "MOVE_CONVERSION",
+    "nom_fr": "Conversion",
+    "display": "Conversion"
+  },
+  {
+    "id": "161",
+    "constant": "MOVE_TRI_ATTACK",
+    "nom_fr": "Triplattaque",
+    "display": "Triplattaque"
+  },
+  {
+    "id": "162",
+    "constant": "MOVE_SUPER_FANG",
+    "nom_fr": "Croc Fatal",
+    "display": "Croc Fatal"
+  },
+  {
+    "id": "163",
+    "constant": "MOVE_SLASH",
+    "nom_fr": "Tranche",
+    "display": "Tranche"
+  },
+  {
+    "id": "164",
+    "constant": "MOVE_SUBSTITUTE",
+    "nom_fr": "Clonage",
+    "display": "Clonage"
+  },
+  {
+    "id": "165",
+    "constant": "MOVE_STRUGGLE",
+    "nom_fr": "Lutte",
+    "display": "Lutte"
+  },
+  {
+    "id": "166",
+    "constant": "MOVE_SKETCH",
+    "nom_fr": "Gribouille",
+    "display": "Gribouille"
+  },
+  {
+    "id": "167",
+    "constant": "MOVE_TRIPLE_KICK",
+    "nom_fr": "Triple Pied",
+    "display": "Triple Pied"
+  },
+  {
+    "id": "168",
+    "constant": "MOVE_THIEF",
+    "nom_fr": "Larcin",
+    "display": "Larcin"
+  },
+  {
+    "id": "169",
+    "constant": "MOVE_SPIDER_WEB",
+    "nom_fr": "Toile",
+    "display": "Toile"
+  },
+  {
+    "id": "170",
+    "constant": "MOVE_MIND_READER",
+    "nom_fr": "Lire-Esprit",
+    "display": "Lire-Esprit"
+  },
+  {
+    "id": "171",
+    "constant": "MOVE_NIGHTMARE",
+    "nom_fr": "Cauchemar",
+    "display": "Cauchemar"
+  },
+  {
+    "id": "172",
+    "constant": "MOVE_FLAME_WHEEL",
+    "nom_fr": "Roue de Feu",
+    "display": "Roue de Feu"
+  },
+  {
+    "id": "173",
+    "constant": "MOVE_SNORE",
+    "nom_fr": "Ronflement",
+    "display": "Ronflement"
+  },
+  {
+    "id": "174",
+    "constant": "MOVE_CURSE",
+    "nom_fr": "Malédiction",
+    "display": "Malédiction"
+  },
+  {
+    "id": "175",
+    "constant": "MOVE_FLAIL",
+    "nom_fr": "Gigotage",
+    "display": "Gigotage"
+  },
+  {
+    "id": "176",
+    "constant": "MOVE_CONVERSION_2",
+    "nom_fr": "Conversion 2",
+    "display": "Conversion 2"
+  },
+  {
+    "id": "177",
+    "constant": "MOVE_AEROBLAST",
+    "nom_fr": "Aéroblast",
+    "display": "Aéroblast"
+  },
+  {
+    "id": "178",
+    "constant": "MOVE_COTTON_SPORE",
+    "nom_fr": "Spore Coton",
+    "display": "Spore Coton"
+  },
+  {
+    "id": "179",
+    "constant": "MOVE_REVERSAL",
+    "nom_fr": "Contre",
+    "display": "Contre"
+  },
+  {
+    "id": "180",
+    "constant": "MOVE_SPITE",
+    "nom_fr": "Dépit",
+    "display": "Dépit"
+  },
+  {
+    "id": "181",
+    "constant": "MOVE_POWDER_SNOW",
+    "nom_fr": "Poudreuse",
+    "display": "Poudreuse"
+  },
+  {
+    "id": "182",
+    "constant": "MOVE_PROTECT",
+    "nom_fr": "Abri",
+    "display": "Abri"
+  },
+  {
+    "id": "183",
+    "constant": "MOVE_MACH_PUNCH",
+    "nom_fr": "Mach Punch",
+    "display": "Mach Punch"
+  },
+  {
+    "id": "184",
+    "constant": "MOVE_SCARY_FACE",
+    "nom_fr": "Grimace",
+    "display": "Grimace"
+  },
+  {
+    "id": "185",
+    "constant": "MOVE_FAINT_ATTACK",
+    "nom_fr": "Feinte",
+    "display": "Feinte"
+  },
+  {
+    "id": "186",
+    "constant": "MOVE_SWEET_KISS",
+    "nom_fr": "Doux Baiser",
+    "display": "Doux Baiser"
+  },
+  {
+    "id": "187",
+    "constant": "MOVE_BELLY_DRUM",
+    "nom_fr": "Cognobidon",
+    "display": "Cognobidon"
+  },
+  {
+    "id": "188",
+    "constant": "MOVE_SLUDGE_BOMB",
+    "nom_fr": "Bombe Beurk",
+    "display": "Bombe Beurk"
+  },
+  {
+    "id": "189",
+    "constant": "MOVE_MUD_SLAP",
+    "nom_fr": "Coud’Boue",
+    "display": "Coud’Boue"
+  },
+  {
+    "id": "190",
+    "constant": "MOVE_OCTAZOOKA",
+    "nom_fr": "Octazooka",
+    "display": "Octazooka"
+  },
+  {
+    "id": "191",
+    "constant": "MOVE_SPIKES",
+    "nom_fr": "Picots",
+    "display": "Picots"
+  },
+  {
+    "id": "192",
+    "constant": "MOVE_ZAP_CANNON",
+    "nom_fr": "Élecanon",
+    "display": "Élecanon"
+  },
+  {
+    "id": "193",
+    "constant": "MOVE_FORESIGHT",
+    "nom_fr": "Clairvoyance",
+    "display": "Clairvoyance"
+  },
+  {
+    "id": "194",
+    "constant": "MOVE_DESTINY_BOND",
+    "nom_fr": "Lien du Destin",
+    "display": "Lien du Des."
+  },
+  {
+    "id": "195",
+    "constant": "MOVE_PERISH_SONG",
+    "nom_fr": "Requiem",
+    "display": "Requiem"
+  },
+  {
+    "id": "196",
+    "constant": "MOVE_ICY_WIND",
+    "nom_fr": "Vent Glace",
+    "display": "Vent Glace"
+  },
+  {
+    "id": "197",
+    "constant": "MOVE_DETECT",
+    "nom_fr": "Détection",
+    "display": "Détection"
+  },
+  {
+    "id": "198",
+    "constant": "MOVE_BONE_RUSH",
+    "nom_fr": "Charge Os",
+    "display": "Charge Os"
+  },
+  {
+    "id": "199",
+    "constant": "MOVE_LOCK_ON",
+    "nom_fr": "Verrouillage",
+    "display": "Verrouillage"
+  },
+  {
+    "id": "200",
+    "constant": "MOVE_OUTRAGE",
+    "nom_fr": "Colère",
+    "display": "Colère"
+  },
+  {
+    "id": "201",
+    "constant": "MOVE_SANDSTORM",
+    "nom_fr": "Tempête de Sable",
+    "display": "Tempête de."
+  },
+  {
+    "id": "202",
+    "constant": "MOVE_GIGA_DRAIN",
+    "nom_fr": "Giga-Sangsue",
+    "display": "Giga-Sangsue"
+  },
+  {
+    "id": "203",
+    "constant": "MOVE_ENDURE",
+    "nom_fr": "Ténacité",
+    "display": "Ténacité"
+  },
+  {
+    "id": "204",
+    "constant": "MOVE_CHARM",
+    "nom_fr": "Charme",
+    "display": "Charme"
+  },
+  {
+    "id": "205",
+    "constant": "MOVE_ROLLOUT",
+    "nom_fr": "Roulade",
+    "display": "Roulade"
+  },
+  {
+    "id": "206",
+    "constant": "MOVE_FALSE_SWIPE",
+    "nom_fr": "Faux-Chage",
+    "display": "Faux-Chage"
+  },
+  {
+    "id": "207",
+    "constant": "MOVE_SWAGGER",
+    "nom_fr": "Vantardise",
+    "display": "Vantardise"
+  },
+  {
+    "id": "208",
+    "constant": "MOVE_MILK_DRINK",
+    "nom_fr": "Lait à Boire",
+    "display": "Lait à Boire"
+  },
+  {
+    "id": "209",
+    "constant": "MOVE_SPARK",
+    "nom_fr": "Étincelle",
+    "display": "Étincelle"
+  },
+  {
+    "id": "210",
+    "constant": "MOVE_FURY_CUTTER",
+    "nom_fr": "Taillade",
+    "display": "Taillade"
+  },
+  {
+    "id": "211",
+    "constant": "MOVE_STEEL_WING",
+    "nom_fr": "Ailes d’Acier",
+    "display": "Ailes d’Aci."
+  },
+  {
+    "id": "212",
+    "constant": "MOVE_MEAN_LOOK",
+    "nom_fr": "Regard Noir",
+    "display": "Regard Noir"
+  },
+  {
+    "id": "213",
+    "constant": "MOVE_ATTRACT",
+    "nom_fr": "Attraction",
+    "display": "Attraction"
+  },
+  {
+    "id": "214",
+    "constant": "MOVE_SLEEP_TALK",
+    "nom_fr": "Blabla Dodo",
+    "display": "Blabla Dodo"
+  },
+  {
+    "id": "215",
+    "constant": "MOVE_HEAL_BELL",
+    "nom_fr": "Glas de Soin",
+    "display": "Glas de Soin"
+  },
+  {
+    "id": "216",
+    "constant": "MOVE_RETURN",
+    "nom_fr": "Retour",
+    "display": "Retour"
+  },
+  {
+    "id": "217",
+    "constant": "MOVE_PRESENT",
+    "nom_fr": "Cadeau",
+    "display": "Cadeau"
+  },
+  {
+    "id": "218",
+    "constant": "MOVE_FRUSTRATION",
+    "nom_fr": "Frustration",
+    "display": "Frustration"
+  },
+  {
+    "id": "219",
+    "constant": "MOVE_SAFEGUARD",
+    "nom_fr": "Rune Protect",
+    "display": "Rune Protect"
+  },
+  {
+    "id": "220",
+    "constant": "MOVE_PAIN_SPLIT",
+    "nom_fr": "Balance",
+    "display": "Balance"
+  },
+  {
+    "id": "221",
+    "constant": "MOVE_SACRED_FIRE",
+    "nom_fr": "Feu Sacré",
+    "display": "Feu Sacré"
+  },
+  {
+    "id": "222",
+    "constant": "MOVE_MAGNITUDE",
+    "nom_fr": "Ampleur",
+    "display": "Ampleur"
+  },
+  {
+    "id": "223",
+    "constant": "MOVE_DYNAMIC_PUNCH",
+    "nom_fr": "Dynamo-Poing",
+    "display": "Dynamo-Poing"
+  },
+  {
+    "id": "224",
+    "constant": "MOVE_MEGAHORN",
+    "nom_fr": "Mégacorne",
+    "display": "Mégacorne"
+  },
+  {
+    "id": "225",
+    "constant": "MOVE_DRAGON_BREATH",
+    "nom_fr": "Draco-Souffle",
+    "display": "Draco-Souff."
+  },
+  {
+    "id": "226",
+    "constant": "MOVE_BATON_PASS",
+    "nom_fr": "Relais",
+    "display": "Relais"
+  },
+  {
+    "id": "227",
+    "constant": "MOVE_ENCORE",
+    "nom_fr": "Encore",
+    "display": "Encore"
+  },
+  {
+    "id": "228",
+    "constant": "MOVE_PURSUIT",
+    "nom_fr": "Poursuite",
+    "display": "Poursuite"
+  },
+  {
+    "id": "229",
+    "constant": "MOVE_RAPID_SPIN",
+    "nom_fr": "Tour Rapide",
+    "display": "Tour Rapide"
+  },
+  {
+    "id": "230",
+    "constant": "MOVE_SWEET_SCENT",
+    "nom_fr": "Doux Parfum",
+    "display": "Doux Parfum"
+  },
+  {
+    "id": "231",
+    "constant": "MOVE_IRON_TAIL",
+    "nom_fr": "Queue de Fer",
+    "display": "Queue de Fer"
+  },
+  {
+    "id": "232",
+    "constant": "MOVE_METAL_CLAW",
+    "nom_fr": "Griffe Acier",
+    "display": "Griffe Acier"
+  },
+  {
+    "id": "233",
+    "constant": "MOVE_VITAL_THROW",
+    "nom_fr": "Corps Perdu",
+    "display": "Corps Perdu"
+  },
+  {
+    "id": "234",
+    "constant": "MOVE_MORNING_SUN",
+    "nom_fr": "Aurore",
+    "display": "Aurore"
+  },
+  {
+    "id": "235",
+    "constant": "MOVE_SYNTHESIS",
+    "nom_fr": "Synthèse",
+    "display": "Synthèse"
+  },
+  {
+    "id": "236",
+    "constant": "MOVE_MOONLIGHT",
+    "nom_fr": "Rayon Lune",
+    "display": "Rayon Lune"
+  },
+  {
+    "id": "237",
+    "constant": "MOVE_HIDDEN_POWER",
+    "nom_fr": "Puissance Cachée",
+    "display": "Puissance C."
+  },
+  {
+    "id": "238",
+    "constant": "MOVE_CROSS_CHOP",
+    "nom_fr": "Coup Croix",
+    "display": "Coup Croix"
+  },
+  {
+    "id": "239",
+    "constant": "MOVE_TWISTER",
+    "nom_fr": "Ouragan",
+    "display": "Ouragan"
+  },
+  {
+    "id": "240",
+    "constant": "MOVE_RAIN_DANCE",
+    "nom_fr": "Danse Pluie",
+    "display": "Danse Pluie"
+  },
+  {
+    "id": "241",
+    "constant": "MOVE_SUNNY_DAY",
+    "nom_fr": "Zénith",
+    "display": "Zénith"
+  },
+  {
+    "id": "242",
+    "constant": "MOVE_CRUNCH",
+    "nom_fr": "Mâchouille",
+    "display": "Mâchouille"
+  },
+  {
+    "id": "243",
+    "constant": "MOVE_MIRROR_COAT",
+    "nom_fr": "Voile Miroir",
+    "display": "Voile Miroir"
+  },
+  {
+    "id": "244",
+    "constant": "MOVE_PSYCH_UP",
+    "nom_fr": "Boost",
+    "display": "Boost"
+  },
+  {
+    "id": "245",
+    "constant": "MOVE_EXTREME_SPEED",
+    "nom_fr": "Vitesse Extrême",
+    "display": "Vitesse Ext."
+  },
+  {
+    "id": "246",
+    "constant": "MOVE_ANCIENT_POWER",
+    "nom_fr": "Pouvoir Antique",
+    "display": "Pouvoir Ant."
+  },
+  {
+    "id": "247",
+    "constant": "MOVE_SHADOW_BALL",
+    "nom_fr": "Ball’Ombre",
+    "display": "Ball’Ombre"
+  },
+  {
+    "id": "248",
+    "constant": "MOVE_FUTURE_SIGHT",
+    "nom_fr": "Prescience",
+    "display": "Prescience"
+  },
+  {
+    "id": "249",
+    "constant": "MOVE_ROCK_SMASH",
+    "nom_fr": "Éclate-Roc",
+    "display": "Éclate-Roc"
+  },
+  {
+    "id": "250",
+    "constant": "MOVE_WHIRLPOOL",
+    "nom_fr": "Siphon",
+    "display": "Siphon"
+  },
+  {
+    "id": "251",
+    "constant": "MOVE_BEAT_UP",
+    "nom_fr": "Baston",
+    "display": "Baston"
+  },
+  {
+    "id": "252",
+    "constant": "MOVE_FAKE_OUT",
+    "nom_fr": "Bluff",
+    "display": "Bluff"
+  },
+  {
+    "id": "253",
+    "constant": "MOVE_UPROAR",
+    "nom_fr": "Brouhaha",
+    "display": "Brouhaha"
+  },
+  {
+    "id": "254",
+    "constant": "MOVE_STOCKPILE",
+    "nom_fr": "Stockage",
+    "display": "Stockage"
+  },
+  {
+    "id": "255",
+    "constant": "MOVE_SPIT_UP",
+    "nom_fr": "Relâche",
+    "display": "Relâche"
+  },
+  {
+    "id": "256",
+    "constant": "MOVE_SWALLOW",
+    "nom_fr": "Avale",
+    "display": "Avale"
+  },
+  {
+    "id": "257",
+    "constant": "MOVE_HEAT_WAVE",
+    "nom_fr": "Canicule",
+    "display": "Canicule"
+  },
+  {
+    "id": "258",
+    "constant": "MOVE_HAIL",
+    "nom_fr": "Grêle",
+    "display": "Grêle"
+  },
+  {
+    "id": "259",
+    "constant": "MOVE_TORMENT",
+    "nom_fr": "Tourmente",
+    "display": "Tourmente"
+  },
+  {
+    "id": "260",
+    "constant": "MOVE_FLATTER",
+    "nom_fr": "Flatterie",
+    "display": "Flatterie"
+  },
+  {
+    "id": "261",
+    "constant": "MOVE_WILL_O_WISP",
+    "nom_fr": "Feu Follet",
+    "display": "Feu Follet"
+  },
+  {
+    "id": "262",
+    "constant": "MOVE_MEMENTO",
+    "nom_fr": "Souvenir",
+    "display": "Souvenir"
+  },
+  {
+    "id": "263",
+    "constant": "MOVE_FACADE",
+    "nom_fr": "Façade",
+    "display": "Façade"
+  },
+  {
+    "id": "264",
+    "constant": "MOVE_FOCUS_PUNCH",
+    "nom_fr": "Mitra-Poing",
+    "display": "Mitra-Poing"
+  },
+  {
+    "id": "265",
+    "constant": "MOVE_SMELLING_SALT",
+    "nom_fr": "Stimulant",
+    "display": "Stimulant"
+  },
+  {
+    "id": "266",
+    "constant": "MOVE_FOLLOW_ME",
+    "nom_fr": "Par Ici",
+    "display": "Par Ici"
+  },
+  {
+    "id": "267",
+    "constant": "MOVE_NATURE_POWER",
+    "nom_fr": "Force Nature",
+    "display": "Force Nature"
+  },
+  {
+    "id": "268",
+    "constant": "MOVE_CHARGE",
+    "nom_fr": "Chargeur",
+    "display": "Chargeur"
+  },
+  {
+    "id": "269",
+    "constant": "MOVE_TAUNT",
+    "nom_fr": "Provoc",
+    "display": "Provoc"
+  },
+  {
+    "id": "270",
+    "constant": "MOVE_HELPING_HAND",
+    "nom_fr": "Coup d’Main",
+    "display": "Coup d’Main"
+  },
+  {
+    "id": "271",
+    "constant": "MOVE_TRICK",
+    "nom_fr": "Tour de Magie",
+    "display": "Tour de Mag."
+  },
+  {
+    "id": "272",
+    "constant": "MOVE_ROLE_PLAY",
+    "nom_fr": "Imitation",
+    "display": "Imitation"
+  },
+  {
+    "id": "273",
+    "constant": "MOVE_WISH",
+    "nom_fr": "Vœu",
+    "display": "Vœu"
+  },
+  {
+    "id": "274",
+    "constant": "MOVE_ASSIST",
+    "nom_fr": "Assistance",
+    "display": "Assistance"
+  },
+  {
+    "id": "275",
+    "constant": "MOVE_INGRAIN",
+    "nom_fr": "Racines",
+    "display": "Racines"
+  },
+  {
+    "id": "276",
+    "constant": "MOVE_SUPERPOWER",
+    "nom_fr": "Surpuissance",
+    "display": "Surpuissance"
+  },
+  {
+    "id": "277",
+    "constant": "MOVE_MAGIC_COAT",
+    "nom_fr": "Reflet Magik",
+    "display": "Reflet Magik"
+  },
+  {
+    "id": "278",
+    "constant": "MOVE_RECYCLE",
+    "nom_fr": "Recyclage",
+    "display": "Recyclage"
+  },
+  {
+    "id": "279",
+    "constant": "MOVE_REVENGE",
+    "nom_fr": "Vendetta",
+    "display": "Vendetta"
+  },
+  {
+    "id": "280",
+    "constant": "MOVE_BRICK_BREAK",
+    "nom_fr": "Casse-Brique",
+    "display": "Casse-Brique"
+  },
+  {
+    "id": "281",
+    "constant": "MOVE_YAWN",
+    "nom_fr": "Bâillement",
+    "display": "Bâillement"
+  },
+  {
+    "id": "282",
+    "constant": "MOVE_KNOCK_OFF",
+    "nom_fr": "Sabotage",
+    "display": "Sabotage"
+  },
+  {
+    "id": "283",
+    "constant": "MOVE_ENDEAVOR",
+    "nom_fr": "Effort",
+    "display": "Effort"
+  },
+  {
+    "id": "284",
+    "constant": "MOVE_ERUPTION",
+    "nom_fr": "Éruption",
+    "display": "Éruption"
+  },
+  {
+    "id": "285",
+    "constant": "MOVE_SKILL_SWAP",
+    "nom_fr": "Échange",
+    "display": "Échange"
+  },
+  {
+    "id": "286",
+    "constant": "MOVE_IMPRISON",
+    "nom_fr": "Possessif",
+    "display": "Possessif"
+  },
+  {
+    "id": "287",
+    "constant": "MOVE_REFRESH",
+    "nom_fr": "Régénération",
+    "display": "Régénération"
+  },
+  {
+    "id": "288",
+    "constant": "MOVE_GRUDGE",
+    "nom_fr": "Rancune",
+    "display": "Rancune"
+  },
+  {
+    "id": "289",
+    "constant": "MOVE_SNATCH",
+    "nom_fr": "Saisie",
+    "display": "Saisie"
+  },
+  {
+    "id": "290",
+    "constant": "MOVE_SECRET_POWER",
+    "nom_fr": "Force Cachée",
+    "display": "Force Cachée"
+  },
+  {
+    "id": "291",
+    "constant": "MOVE_DIVE",
+    "nom_fr": "Plongée",
+    "display": "Plongée"
+  },
+  {
+    "id": "292",
+    "constant": "MOVE_ARM_THRUST",
+    "nom_fr": "Cogne",
+    "display": "Cogne"
+  },
+  {
+    "id": "293",
+    "constant": "MOVE_CAMOUFLAGE",
+    "nom_fr": "Camouflage",
+    "display": "Camouflage"
+  },
+  {
+    "id": "294",
+    "constant": "MOVE_TAIL_GLOW",
+    "nom_fr": "Lumi-Queue",
+    "display": "Lumi-Queue"
+  },
+  {
+    "id": "295",
+    "constant": "MOVE_LUSTER_PURGE",
+    "nom_fr": "Lumi-Éclat",
+    "display": "Lumi-Éclat"
+  },
+  {
+    "id": "296",
+    "constant": "MOVE_MIST_BALL",
+    "nom_fr": "Ball’Brume",
+    "display": "Ball’Brume"
+  },
+  {
+    "id": "297",
+    "constant": "MOVE_FEATHER_DANCE",
+    "nom_fr": "Danse Plumes",
+    "display": "Danse Plumes"
+  },
+  {
+    "id": "298",
+    "constant": "MOVE_TEETER_DANCE",
+    "nom_fr": "Danse Folle",
+    "display": "Danse Folle"
+  },
+  {
+    "id": "299",
+    "constant": "MOVE_BLAZE_KICK",
+    "nom_fr": "Pied Brûleur",
+    "display": "Pied Brûleur"
+  },
+  {
+    "id": "300",
+    "constant": "MOVE_MUD_SPORT",
+    "nom_fr": "Lance-Boue",
+    "display": "Lance-Boue"
+  },
+  {
+    "id": "301",
+    "constant": "MOVE_ICE_BALL",
+    "nom_fr": "Ball’Glace",
+    "display": "Ball’Glace"
+  },
+  {
+    "id": "302",
+    "constant": "MOVE_NEEDLE_ARM",
+    "nom_fr": "Poing Dard",
+    "display": "Poing Dard"
+  },
+  {
+    "id": "303",
+    "constant": "MOVE_SLACK_OFF",
+    "nom_fr": "Paresse",
+    "display": "Paresse"
+  },
+  {
+    "id": "304",
+    "constant": "MOVE_HYPER_VOICE",
+    "nom_fr": "Mégaphone",
+    "display": "Mégaphone"
+  },
+  {
+    "id": "305",
+    "constant": "MOVE_POISON_FANG",
+    "nom_fr": "Crochet Venin",
+    "display": "Crochet Ven."
+  },
+  {
+    "id": "306",
+    "constant": "MOVE_CRUSH_CLAW",
+    "nom_fr": "Éclate Griffe",
+    "display": "Éclate Grif."
+  },
+  {
+    "id": "307",
+    "constant": "MOVE_BLAST_BURN",
+    "nom_fr": "Rafale Feu",
+    "display": "Rafale Feu"
+  },
+  {
+    "id": "308",
+    "constant": "MOVE_HYDRO_CANNON",
+    "nom_fr": "Hydroblast",
+    "display": "Hydroblast"
+  },
+  {
+    "id": "309",
+    "constant": "MOVE_METEOR_MASH",
+    "nom_fr": "Poing Météore",
+    "display": "Poing Météo."
+  },
+  {
+    "id": "310",
+    "constant": "MOVE_ASTONISH",
+    "nom_fr": "Étonnement",
+    "display": "Étonnement"
+  },
+  {
+    "id": "311",
+    "constant": "MOVE_WEATHER_BALL",
+    "nom_fr": "Ball’Météo",
+    "display": "Ball’Météo"
+  },
+  {
+    "id": "312",
+    "constant": "MOVE_AROMATHERAPY",
+    "nom_fr": "Aromathérapie",
+    "display": "Aromathérap."
+  },
+  {
+    "id": "313",
+    "constant": "MOVE_FAKE_TEARS",
+    "nom_fr": "Croco Larme",
+    "display": "Croco Larme"
+  },
+  {
+    "id": "314",
+    "constant": "MOVE_AIR_CUTTER",
+    "nom_fr": "Tranch’Air",
+    "display": "Tranch’Air"
+  },
+  {
+    "id": "315",
+    "constant": "MOVE_OVERHEAT",
+    "nom_fr": "Surchauffe",
+    "display": "Surchauffe"
+  },
+  {
+    "id": "316",
+    "constant": "MOVE_ODOR_SLEUTH",
+    "nom_fr": "Flair",
+    "display": "Flair"
+  },
+  {
+    "id": "317",
+    "constant": "MOVE_ROCK_TOMB",
+    "nom_fr": "Tomberoche",
+    "display": "Tomberoche"
+  },
+  {
+    "id": "318",
+    "constant": "MOVE_SILVER_WIND",
+    "nom_fr": "Vent Argenté",
+    "display": "Vent Argenté"
+  },
+  {
+    "id": "319",
+    "constant": "MOVE_METAL_SOUND",
+    "nom_fr": "Strido-Son",
+    "display": "Strido-Son"
+  },
+  {
+    "id": "320",
+    "constant": "MOVE_GRASS_WHISTLE",
+    "nom_fr": "Siffl’Herbe",
+    "display": "Siffl’Herbe"
+  },
+  {
+    "id": "321",
+    "constant": "MOVE_TICKLE",
+    "nom_fr": "Chatouille",
+    "display": "Chatouille"
+  },
+  {
+    "id": "322",
+    "constant": "MOVE_COSMIC_POWER",
+    "nom_fr": "Force Cosmique",
+    "display": "Force Cosmi."
+  },
+  {
+    "id": "323",
+    "constant": "MOVE_WATER_SPOUT",
+    "nom_fr": "Giclédo",
+    "display": "Giclédo"
+  },
+  {
+    "id": "324",
+    "constant": "MOVE_SIGNAL_BEAM",
+    "nom_fr": "Rayon Signal",
+    "display": "Rayon Signal"
+  },
+  {
+    "id": "325",
+    "constant": "MOVE_SHADOW_PUNCH",
+    "nom_fr": "Poing Ombre",
+    "display": "Poing Ombre"
+  },
+  {
+    "id": "326",
+    "constant": "MOVE_EXTRASENSORY",
+    "nom_fr": "Extrasenseur",
+    "display": "Extrasenseur"
+  },
+  {
+    "id": "327",
+    "constant": "MOVE_SKY_UPPERCUT",
+    "nom_fr": "Stratopercut",
+    "display": "Stratopercut"
+  },
+  {
+    "id": "328",
+    "constant": "MOVE_SAND_TOMB",
+    "nom_fr": "Tourbi-Sable",
+    "display": "Tourbi-Sable"
+  },
+  {
+    "id": "329",
+    "constant": "MOVE_SHEER_COLD",
+    "nom_fr": "Glaciation",
+    "display": "Glaciation"
+  },
+  {
+    "id": "330",
+    "constant": "MOVE_MUDDY_WATER",
+    "nom_fr": "Ocroupi",
+    "display": "Ocroupi"
+  },
+  {
+    "id": "331",
+    "constant": "MOVE_BULLET_SEED",
+    "nom_fr": "Balle Graine",
+    "display": "Balle Graine"
+  },
+  {
+    "id": "332",
+    "constant": "MOVE_AERIAL_ACE",
+    "nom_fr": "Aéropique",
+    "display": "Aéropique"
+  },
+  {
+    "id": "333",
+    "constant": "MOVE_ICICLE_SPEAR",
+    "nom_fr": "Stalactite",
+    "display": "Stalactite"
+  },
+  {
+    "id": "334",
+    "constant": "MOVE_IRON_DEFENSE",
+    "nom_fr": "Mur de Fer",
+    "display": "Mur de Fer"
+  },
+  {
+    "id": "335",
+    "constant": "MOVE_BLOCK",
+    "nom_fr": "Barrage",
+    "display": "Barrage"
+  },
+  {
+    "id": "336",
+    "constant": "MOVE_HOWL",
+    "nom_fr": "Grondement",
+    "display": "Grondement"
+  },
+  {
+    "id": "337",
+    "constant": "MOVE_DRAGON_CLAW",
+    "nom_fr": "Draco-Griffe",
+    "display": "Draco-Griffe"
+  },
+  {
+    "id": "338",
+    "constant": "MOVE_FRENZY_PLANT",
+    "nom_fr": "Végé-Attaque",
+    "display": "Végé-Attaque"
+  },
+  {
+    "id": "339",
+    "constant": "MOVE_BULK_UP",
+    "nom_fr": "Gonflette",
+    "display": "Gonflette"
+  },
+  {
+    "id": "340",
+    "constant": "MOVE_BOUNCE",
+    "nom_fr": "Rebond",
+    "display": "Rebond"
+  },
+  {
+    "id": "341",
+    "constant": "MOVE_MUD_SHOT",
+    "nom_fr": "Tir de Boue",
+    "display": "Tir de Boue"
+  },
+  {
+    "id": "342",
+    "constant": "MOVE_POISON_TAIL",
+    "nom_fr": "Queue-Poison",
+    "display": "Queue-Poison"
+  },
+  {
+    "id": "343",
+    "constant": "MOVE_COVET",
+    "nom_fr": "Implore",
+    "display": "Implore"
+  },
+  {
+    "id": "344",
+    "constant": "MOVE_VOLT_TACKLE",
+    "nom_fr": "Électacle",
+    "display": "Électacle"
+  },
+  {
+    "id": "345",
+    "constant": "MOVE_MAGICAL_LEAF",
+    "nom_fr": "Feuille Magik",
+    "display": "Feuille Mag."
+  },
+  {
+    "id": "346",
+    "constant": "MOVE_WATER_SPORT",
+    "nom_fr": "Tourniquet",
+    "display": "Tourniquet"
+  },
+  {
+    "id": "347",
+    "constant": "MOVE_CALM_MIND",
+    "nom_fr": "Plénitude",
+    "display": "Plénitude"
+  },
+  {
+    "id": "348",
+    "constant": "MOVE_LEAF_BLADE",
+    "nom_fr": "Lame Feuille",
+    "display": "Lame Feuille"
+  },
+  {
+    "id": "349",
+    "constant": "MOVE_DRAGON_DANCE",
+    "nom_fr": "Danse Draco",
+    "display": "Danse Draco"
+  },
+  {
+    "id": "350",
+    "constant": "MOVE_ROCK_BLAST",
+    "nom_fr": "Boule Roc",
+    "display": "Boule Roc"
+  },
+  {
+    "id": "351",
+    "constant": "MOVE_SHOCK_WAVE",
+    "nom_fr": "Onde de Choc",
+    "display": "Onde de Choc"
+  },
+  {
+    "id": "352",
+    "constant": "MOVE_WATER_PULSE",
+    "nom_fr": "Vibraqua",
+    "display": "Vibraqua"
+  },
+  {
+    "id": "353",
+    "constant": "MOVE_DOOM_DESIRE",
+    "nom_fr": "Vœu Destructeur",
+    "display": "Vœu Destruc."
+  },
+  {
+    "id": "354",
+    "constant": "MOVE_PSYCHO_BOOST",
+    "nom_fr": "Psycho-Boost",
+    "display": "Psycho-Boost"
+  },
+  {
+    "id": "0",
+    "constant": "ABILITY_NONE",
+    "nom_fr": "Aucun",
+    "display": "Aucun"
+  },
+  {
+    "id": "1",
+    "constant": "ABILITY_STENCH",
+    "nom_fr": "Puanteur",
+    "display": "Puanteur"
+  },
+  {
+    "id": "2",
+    "constant": "ABILITY_DRIZZLE",
+    "nom_fr": "Crachin",
+    "display": "Crachin"
+  },
+  {
+    "id": "3",
+    "constant": "ABILITY_SPEED_BOOST",
+    "nom_fr": "Turbo",
+    "display": "Turbo"
+  },
+  {
+    "id": "4",
+    "constant": "ABILITY_BATTLE_ARMOR",
+    "nom_fr": "Armurbaston",
+    "display": "Armurbaston"
+  },
+  {
+    "id": "5",
+    "constant": "ABILITY_STURDY",
+    "nom_fr": "Fermeté",
+    "display": "Fermeté"
+  },
+  {
+    "id": "6",
+    "constant": "ABILITY_DAMP",
+    "nom_fr": "Moiteur",
+    "display": "Moiteur"
+  },
+  {
+    "id": "7",
+    "constant": "ABILITY_LIMBER",
+    "nom_fr": "Échauffement",
+    "display": "Échauffement"
+  },
+  {
+    "id": "8",
+    "constant": "ABILITY_SAND_VEIL",
+    "nom_fr": "Voile Sable",
+    "display": "Voile Sable"
+  },
+  {
+    "id": "9",
+    "constant": "ABILITY_STATIC",
+    "nom_fr": "Statik",
+    "display": "Statik"
+  },
+  {
+    "id": "10",
+    "constant": "ABILITY_VOLT_ABSORB",
+    "nom_fr": "Absorbe-Volt",
+    "display": "Absorbe-Volt"
+  },
+  {
+    "id": "11",
+    "constant": "ABILITY_WATER_ABSORB",
+    "nom_fr": "Absorbe-Eau",
+    "display": "Absorbe-Eau"
+  },
+  {
+    "id": "12",
+    "constant": "ABILITY_OBLIVIOUS",
+    "nom_fr": "Benêt",
+    "display": "Benêt"
+  },
+  {
+    "id": "13",
+    "constant": "ABILITY_CLOUD_NINE",
+    "nom_fr": "Ciel Gris",
+    "display": "Ciel Gris"
+  },
+  {
+    "id": "14",
+    "constant": "ABILITY_COMPOUND_EYES",
+    "nom_fr": "Œil Composé",
+    "display": "Œil Composé"
+  },
+  {
+    "id": "15",
+    "constant": "ABILITY_INSOMNIA",
+    "nom_fr": "Insomnia",
+    "display": "Insomnia"
+  },
+  {
+    "id": "16",
+    "constant": "ABILITY_COLOR_CHANGE",
+    "nom_fr": "Homochromie",
+    "display": "Homochromie"
+  },
+  {
+    "id": "17",
+    "constant": "ABILITY_IMMUNITY",
+    "nom_fr": "Vaccin",
+    "display": "Vaccin"
+  },
+  {
+    "id": "18",
+    "constant": "ABILITY_FLASH_FIRE",
+    "nom_fr": "Torche",
+    "display": "Torche"
+  },
+  {
+    "id": "19",
+    "constant": "ABILITY_SHIELD_DUST",
+    "nom_fr": "Écran Poudre",
+    "display": "Écran Poudre"
+  },
+  {
+    "id": "20",
+    "constant": "ABILITY_OWN_TEMPO",
+    "nom_fr": "Tempo Perso",
+    "display": "Tempo Perso"
+  },
+  {
+    "id": "21",
+    "constant": "ABILITY_SUCTION_CUPS",
+    "nom_fr": "Ventouse",
+    "display": "Ventouse"
+  },
+  {
+    "id": "22",
+    "constant": "ABILITY_INTIMIDATE",
+    "nom_fr": "Intimidation",
+    "display": "Intimidation"
+  },
+  {
+    "id": "23",
+    "constant": "ABILITY_SHADOW_TAG",
+    "nom_fr": "Marque Ombre",
+    "display": "Marque Ombre"
+  },
+  {
+    "id": "24",
+    "constant": "ABILITY_ROUGH_SKIN",
+    "nom_fr": "Peau Dure",
+    "display": "Peau Dure"
+  },
+  {
+    "id": "25",
+    "constant": "ABILITY_WONDER_GUARD",
+    "nom_fr": "Garde Mystik",
+    "display": "Garde Mystik"
+  },
+  {
+    "id": "26",
+    "constant": "ABILITY_LEVITATE",
+    "nom_fr": "Lévitation",
+    "display": "Lévitation"
+  },
+  {
+    "id": "27",
+    "constant": "ABILITY_EFFECT_SPORE",
+    "nom_fr": "Pose Spore",
+    "display": "Pose Spore"
+  },
+  {
+    "id": "28",
+    "constant": "ABILITY_SYNCHRONIZE",
+    "nom_fr": "Synchro",
+    "display": "Synchro"
+  },
+  {
+    "id": "29",
+    "constant": "ABILITY_CLEAR_BODY",
+    "nom_fr": "Corps Sain",
+    "display": "Corps Sain"
+  },
+  {
+    "id": "30",
+    "constant": "ABILITY_NATURAL_CURE",
+    "nom_fr": "Médic Nature",
+    "display": "Médic Nature"
+  },
+  {
+    "id": "31",
+    "constant": "ABILITY_LIGHTNING_ROD",
+    "nom_fr": "Paratonnerre",
+    "display": "Paratonnerre"
+  },
+  {
+    "id": "32",
+    "constant": "ABILITY_SERENE_GRACE",
+    "nom_fr": "Sérénité",
+    "display": "Sérénité"
+  },
+  {
+    "id": "33",
+    "constant": "ABILITY_SWIFT_SWIM",
+    "nom_fr": "Glissade",
+    "display": "Glissade"
+  },
+  {
+    "id": "34",
+    "constant": "ABILITY_CHLOROPHYLL",
+    "nom_fr": "Chlorophylle",
+    "display": "Chlorophylle"
+  },
+  {
+    "id": "35",
+    "constant": "ABILITY_ILLUMINATE",
+    "nom_fr": "Lumiattirance",
+    "display": "Lumiattiran."
+  },
+  {
+    "id": "36",
+    "constant": "ABILITY_TRACE",
+    "nom_fr": "Calque",
+    "display": "Calque"
+  },
+  {
+    "id": "37",
+    "constant": "ABILITY_HUGE_POWER",
+    "nom_fr": "Coloforce",
+    "display": "Coloforce"
+  },
+  {
+    "id": "38",
+    "constant": "ABILITY_POISON_POINT",
+    "nom_fr": "Point Poison",
+    "display": "Point Poison"
+  },
+  {
+    "id": "39",
+    "constant": "ABILITY_INNER_FOCUS",
+    "nom_fr": "Attention",
+    "display": "Attention"
+  },
+  {
+    "id": "40",
+    "constant": "ABILITY_MAGMA_ARMOR",
+    "nom_fr": "Armumagma",
+    "display": "Armumagma"
+  },
+  {
+    "id": "41",
+    "constant": "ABILITY_WATER_VEIL",
+    "nom_fr": "Ignifu-Voile",
+    "display": "Ignifu-Voile"
+  },
+  {
+    "id": "42",
+    "constant": "ABILITY_MAGNET_PULL",
+    "nom_fr": "Magnépiège",
+    "display": "Magnépiège"
+  },
+  {
+    "id": "43",
+    "constant": "ABILITY_SOUNDPROOF",
+    "nom_fr": "Anti-Bruit",
+    "display": "Anti-Bruit"
+  },
+  {
+    "id": "44",
+    "constant": "ABILITY_RAIN_DISH",
+    "nom_fr": "Cuvette",
+    "display": "Cuvette"
+  },
+  {
+    "id": "45",
+    "constant": "ABILITY_SAND_STREAM",
+    "nom_fr": "Sable Volant",
+    "display": "Sable Volant"
+  },
+  {
+    "id": "46",
+    "constant": "ABILITY_PRESSURE",
+    "nom_fr": "Pression",
+    "display": "Pression"
+  },
+  {
+    "id": "47",
+    "constant": "ABILITY_THICK_FAT",
+    "nom_fr": "Isograisse",
+    "display": "Isograisse"
+  },
+  {
+    "id": "48",
+    "constant": "ABILITY_EARLY_BIRD",
+    "nom_fr": "Matinal",
+    "display": "Matinal"
+  },
+  {
+    "id": "49",
+    "constant": "ABILITY_FLAME_BODY",
+    "nom_fr": "Corps Ardent",
+    "display": "Corps Ardent"
+  },
+  {
+    "id": "50",
+    "constant": "ABILITY_RUN_AWAY",
+    "nom_fr": "Fuite",
+    "display": "Fuite"
+  },
+  {
+    "id": "51",
+    "constant": "ABILITY_KEEN_EYE",
+    "nom_fr": "Regard Vif",
+    "display": "Regard Vif"
+  },
+  {
+    "id": "52",
+    "constant": "ABILITY_HYPER_CUTTER",
+    "nom_fr": "Hyper Cutter",
+    "display": "Hyper Cutter"
+  },
+  {
+    "id": "53",
+    "constant": "ABILITY_PICKUP",
+    "nom_fr": "Ramassage",
+    "display": "Ramassage"
+  },
+  {
+    "id": "54",
+    "constant": "ABILITY_TRUANT",
+    "nom_fr": "Absentéisme",
+    "display": "Absentéisme"
+  },
+  {
+    "id": "55",
+    "constant": "ABILITY_HUSTLE",
+    "nom_fr": "Agitation",
+    "display": "Agitation"
+  },
+  {
+    "id": "56",
+    "constant": "ABILITY_CUTE_CHARM",
+    "nom_fr": "Joli Sourire",
+    "display": "Joli Sourire"
+  },
+  {
+    "id": "57",
+    "constant": "ABILITY_PLUS",
+    "nom_fr": "Plus",
+    "display": "Plus"
+  },
+  {
+    "id": "58",
+    "constant": "ABILITY_MINUS",
+    "nom_fr": "Moins",
+    "display": "Moins"
+  },
+  {
+    "id": "59",
+    "constant": "ABILITY_FORECAST",
+    "nom_fr": "Météo",
+    "display": "Météo"
+  },
+  {
+    "id": "60",
+    "constant": "ABILITY_STICKY_HOLD",
+    "nom_fr": "Glu",
+    "display": "Glu"
+  },
+  {
+    "id": "61",
+    "constant": "ABILITY_SHED_SKIN",
+    "nom_fr": "Mue",
+    "display": "Mue"
+  },
+  {
+    "id": "62",
+    "constant": "ABILITY_GUTS",
+    "nom_fr": "Cran",
+    "display": "Cran"
+  },
+  {
+    "id": "63",
+    "constant": "ABILITY_MARVEL_SCALE",
+    "nom_fr": "Écaille Spéciale",
+    "display": "Écaille Spé."
+  },
+  {
+    "id": "64",
+    "constant": "ABILITY_LIQUID_OOZE",
+    "nom_fr": "Suintement",
+    "display": "Suintement"
+  },
+  {
+    "id": "65",
+    "constant": "ABILITY_OVERGROW",
+    "nom_fr": "Engrais",
+    "display": "Engrais"
+  },
+  {
+    "id": "66",
+    "constant": "ABILITY_BLAZE",
+    "nom_fr": "Brasier",
+    "display": "Brasier"
+  },
+  {
+    "id": "67",
+    "constant": "ABILITY_TORRENT",
+    "nom_fr": "Torrent",
+    "display": "Torrent"
+  },
+  {
+    "id": "68",
+    "constant": "ABILITY_SWARM",
+    "nom_fr": "Essaim",
+    "display": "Essaim"
+  },
+  {
+    "id": "69",
+    "constant": "ABILITY_ROCK_HEAD",
+    "nom_fr": "Tête de Roc",
+    "display": "Tête de Roc"
+  },
+  {
+    "id": "70",
+    "constant": "ABILITY_DROUGHT",
+    "nom_fr": "Sécheresse",
+    "display": "Sécheresse"
+  },
+  {
+    "id": "71",
+    "constant": "ABILITY_ARENA_TRAP",
+    "nom_fr": "Piège Sable",
+    "display": "Piège Sable"
+  },
+  {
+    "id": "72",
+    "constant": "ABILITY_VITAL_SPIRIT",
+    "nom_fr": "Esprit Vital",
+    "display": "Esprit Vital"
+  },
+  {
+    "id": "73",
+    "constant": "ABILITY_WHITE_SMOKE",
+    "nom_fr": "Écran Fumée",
+    "display": "Écran Fumée"
+  },
+  {
+    "id": "74",
+    "constant": "ABILITY_PURE_POWER",
+    "nom_fr": "Force Pure",
+    "display": "Force Pure"
+  },
+  {
+    "id": "75",
+    "constant": "ABILITY_SHELL_ARMOR",
+    "nom_fr": "Coque Armure",
+    "display": "Coque Armure"
+  },
+  {
+    "id": "76",
+    "constant": "ABILITY_CACOPHONY",
+    "nom_fr": "Cacophonie",
+    "display": "Cacophonie"
+  },
+  {
+    "id": "77",
+    "constant": "ABILITY_AIR_LOCK",
+    "nom_fr": "Air Lock",
+    "display": "Air Lock"
+  }
+]

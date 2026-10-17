@@ -1,0 +1,396 @@
+{
+  "source": "Recovered attack screenshots and validated evolution CSV; Dragon variant 015 selected by creator",
+  "species": 151,
+  "rows": 1977,
+  "delayed_moves": {
+    "4": {
+      "numero_yokai": 4,
+      "species_constant": "SPECIES_CHARMANDER",
+      "niveau": 0,
+      "move_id": "MOVE_SLASH",
+      "apprentissage": "EVOLUTION_PLUS_2",
+      "libelle_source": "Tranche",
+      "source_png": "Screenshot 2026-10-16 at 03-44-35 Concept vidéo Pokémon.png"
+    },
+    "14": {
+      "numero_yokai": 14,
+      "species_constant": "SPECIES_KAKUNA",
+      "niveau": 0,
+      "move_id": "MOVE_DRILL_PECK",
+      "apprentissage": "EVOLUTION_PLUS_2",
+      "libelle_source": "Bec Vrille",
+      "source_png": "Screenshot 2026-10-16 at 03-46-49 Concept vidéo Pokémon.png"
+    },
+    "19": {
+      "numero_yokai": 19,
+      "species_constant": "SPECIES_RATTATA",
+      "niveau": 0,
+      "move_id": "MOVE_ZAP_CANNON",
+      "apprentissage": "EVOLUTION_PLUS_2",
+      "libelle_source": "Elecanon",
+      "source_png": "Screenshot 2026-10-16 at 03-48-26 Concept vidéo Pokémon.png"
+    },
+    "44": {
+      "numero_yokai": 44,
+      "species_constant": "SPECIES_GLOOM",
+      "niveau": 0,
+      "move_id": "MOVE_SHADOW_PUNCH",
+      "apprentissage": "EVOLUTION_PLUS_2",
+      "libelle_source": "Poing Ombre",
+      "source_png": "Screenshot 2026-10-16 at 03-51-58 Concept vidéo Pokémon.png"
+    }
+  },
+  "corrected_numeric_ocr": [
+    {
+      "number": 21,
+      "move": "MOVE_MUDDY_WATER",
+      "ocr_level": 4,
+      "level": 44,
+      "source": "Screenshot 2026-10-16 at 03-49-00 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 21,
+      "move": "MOVE_DOUBLE_EDGE",
+      "ocr_level": 38,
+      "level": 58,
+      "source": "Screenshot 2026-10-16 at 03-49-00 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 23,
+      "move": "MOVE_HYPER_BEAM",
+      "ocr_level": 38,
+      "level": 58,
+      "source": "Screenshot 2026-10-16 at 03-49-12 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 25,
+      "move": "MOVE_DOUBLE_EDGE",
+      "ocr_level": 38,
+      "level": 58,
+      "source": "Screenshot 2026-10-16 at 03-49-24 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 27,
+      "move": "MOVE_AGILITY",
+      "ocr_level": 4,
+      "level": 41,
+      "source": "Screenshot 2026-10-16 at 03-49-47 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 31,
+      "move": "MOVE_HYPER_BEAM",
+      "ocr_level": 38,
+      "level": 58,
+      "source": "Screenshot 2026-10-16 at 03-50-16 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 33,
+      "move": "MOVE_SOLAR_BEAM",
+      "ocr_level": 38,
+      "level": 58,
+      "source": "Screenshot 2026-10-16 at 03-50-28 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 35,
+      "move": "MOVE_DOUBLE_EDGE",
+      "ocr_level": 33,
+      "level": 53,
+      "source": "Screenshot 2026-10-16 at 03-50-56 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 41,
+      "move": "MOVE_SPITE",
+      "ocr_level": 7,
+      "level": 17,
+      "source": "Screenshot 2026-10-16 at 03-51-41 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 47,
+      "move": "MOVE_HYPER_BEAM",
+      "ocr_level": 38,
+      "level": 58,
+      "source": "Screenshot 2026-10-16 at 03-52-34 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 52,
+      "move": "MOVE_DOUBLE_EDGE",
+      "ocr_level": 38,
+      "level": 58,
+      "source": "Screenshot 2026-10-16 at 03-53-59 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 59,
+      "move": "MOVE_BITE",
+      "ocr_level": 7,
+      "level": 17,
+      "source": "Screenshot 2026-10-16 at 03-55-21 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 66,
+      "move": "MOVE_BUBBLE_BEAM",
+      "ocr_level": 5,
+      "level": 26,
+      "source": "Screenshot 2026-10-16 at 03-56-54 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 69,
+      "move": "MOVE_HYPER_VOICE",
+      "ocr_level": 38,
+      "level": 58,
+      "source": "Screenshot 2026-10-16 at 03-57-29 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 70,
+      "move": "MOVE_DOUBLE_EDGE",
+      "ocr_level": 38,
+      "level": 58,
+      "source": "Screenshot 2026-10-16 at 03-57-54 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 71,
+      "move": "MOVE_RECOVER",
+      "ocr_level": 38,
+      "level": 58,
+      "source": "Screenshot 2026-10-16 at 03-58-06 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 75,
+      "move": "MOVE_SKY_ATTACK",
+      "ocr_level": 38,
+      "level": 58,
+      "source": "Screenshot 2026-10-16 at 03-58-34 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 77,
+      "move": "MOVE_MEGAHORN",
+      "ocr_level": 38,
+      "level": 58,
+      "source": "Screenshot 2026-10-16 at 03-58-49 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 78,
+      "move": "MOVE_MEGAHORN",
+      "ocr_level": 38,
+      "level": 58,
+      "source": "Screenshot 2026-10-16 at 03-58-56 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 79,
+      "move": "MOVE_METEOR_MASH",
+      "ocr_level": 35,
+      "level": 55,
+      "source": "Screenshot 2026-10-16 at 03-59-06 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 80,
+      "move": "MOVE_MEGAHORN",
+      "ocr_level": 38,
+      "level": 58,
+      "source": "Screenshot 2026-10-16 at 03-59-13 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 81,
+      "move": "MOVE_MEGAHORN",
+      "ocr_level": 38,
+      "level": 58,
+      "source": "Screenshot 2026-10-16 at 03-59-23 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 83,
+      "move": "MOVE_DOUBLE_EDGE",
+      "ocr_level": 38,
+      "level": 58,
+      "source": "Screenshot 2026-10-16 at 03-59-39 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 86,
+      "move": "MOVE_CROSS_CHOP",
+      "ocr_level": 31,
+      "level": 51,
+      "source": "Screenshot 2026-10-16 at 04-00-00 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 89,
+      "move": "MOVE_PETAL_DANCE",
+      "ocr_level": 33,
+      "level": 53,
+      "source": "Screenshot 2026-10-16 at 04-00-33 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 91,
+      "move": "MOVE_HEADBUTT",
+      "ocr_level": 7,
+      "level": 17,
+      "source": "Screenshot 2026-10-16 at 04-00-52 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 105,
+      "move": "MOVE_IRON_TAIL",
+      "ocr_level": 33,
+      "level": 53,
+      "source": "Screenshot 2026-10-16 at 04-02-34 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 111,
+      "move": "MOVE_FEATHER_DANCE",
+      "ocr_level": 7,
+      "level": 17,
+      "source": "Screenshot 2026-10-16 at 04-03-15 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 118,
+      "move": "MOVE_QUICK_ATTACK",
+      "ocr_level": 7,
+      "level": 17,
+      "source": "Screenshot 2026-10-16 at 04-03-57 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 129,
+      "move": "MOVE_EARTHQUAKE",
+      "ocr_level": 37,
+      "level": 57,
+      "source": "Screenshot 2026-10-16 at 04-05-20 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 133,
+      "move": "MOVE_BITE",
+      "ocr_level": 7,
+      "level": 17,
+      "source": "Screenshot 2026-10-16 at 04-05-59 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 141,
+      "move": "MOVE_SING",
+      "ocr_level": 7,
+      "level": 17,
+      "source": "Screenshot 2026-10-16 at 04-07-02 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 142,
+      "move": "MOVE_SLUDGE_BOMB",
+      "ocr_level": 38,
+      "level": 58,
+      "source": "Screenshot 2026-10-16 at 04-07-08 Concept vidéo Pokémon.png"
+    },
+    {
+      "number": 143,
+      "move": "MOVE_SLUDGE_BOMB",
+      "ocr_level": 38,
+      "level": 58,
+      "source": "Screenshot 2026-10-16 at 04-07-14 Concept vidéo Pokémon.png"
+    }
+  ],
+  "unmatched_lines_to_review": [
+    {
+      "number": 12,
+      "source": "Screenshot 2026-10-16 at 03-46-34 Concept vidéo Pokémon.png",
+      "line": "Sa stratégie repose sur trois capacités complémentaires : Danse Pluie active Cuvette, qui restaure ses PV a"
+    },
+    {
+      "number": 13,
+      "source": "Screenshot 2026-10-16 at 03-46-42 Concept vidéo Pokémon.png",
+      "line": "Il apprend également Danse Draco, qui améliore son Attaque physique et sa Vitesse. Cette capacité sera"
+    },
+    {
+      "number": 14,
+      "source": "Screenshot 2026-10-16 at 03-46-49 Concept vidéo Pokémon.png",
+      "line": "85 en Attaque spéciale."
+    },
+    {
+      "number": 14,
+      "source": "Screenshot 2026-10-16 at 03-46-49 Concept vidéo Pokémon.png",
+      "line": "Il devient donc capable d'utiliser ses attaques Vol physiques tout en conservant une bonne puissance avec"
+    },
+    {
+      "number": 22,
+      "source": "Screenshot 2026-10-16 at 03-49-06 Concept vidéo Pokémon.png",
+      "line": "évolution pourra continuer 4 développer ce réle."
+    },
+    {
+      "number": 34,
+      "source": "Screenshot 2026-10-16 at 03-50-36 Concept vidéo Pokémon.png",
+      "line": "ll apprend quatre climats différents avant ou aprés son niveau habituel d’évolution, puis Lance-Soleil au"
+    },
+    {
+      "number": 35,
+      "source": "Screenshot 2026-10-16 at 03-50-56 Concept vidéo Pokémon.png",
+      "line": "Il recoit Plaquage immédiatement a I'évolution, méme si le joueur attend aprés le niveau 32. Son talent"
+    },
+    {
+      "number": 47,
+      "source": "Screenshot 2026-10-16 at 03-52-34 Concept vidéo Pokémon.png",
+      "line": "Il conserve néanmoins une véritable efficacité offensive grace 4 Coup d’Boule, Plaquage et Damocleés."
+    },
+    {
+      "number": 49,
+      "source": "Screenshot 2026-10-16 at 03-53-19 Concept vidéo Pokémon.png",
+      "line": "Il dispose dés le départ d'Hypnose, puis apprend Baillement au niveau 12, ce qui lui donne deux fagons"
+    },
+    {
+      "number": 50,
+      "source": "Screenshot 2026-10-16 at 03-53-33 Concept vidéo Pokémon.png",
+      "line": "A cette transformation, Bakuku apprend immédiatement Cauchemar, méme si le joueur retarde son"
+    },
+    {
+      "number": 55,
+      "source": "Screenshot 2026-10-16 at 03-54-35 Concept vidéo Pokémon.png",
+      "line": "Il apprend donc:"
+    },
+    {
+      "number": 58,
+      "source": "Screenshot 2026-10-16 at 03-55-12 Concept vidéo Pokémon.png",
+      "line": "A son évolution, je propose Machouille, une attaque Ténébres spéciale de 80 de puissance. Elle exploite ses"
+    },
+    {
+      "number": 58,
+      "source": "Screenshot 2026-10-16 at 03-55-12 Concept vidéo Pokémon.png",
+      "line": "Il apprend ensuite Aéropique pour exploiter ses 95 points d'Attaque physique, puis Danse Plumes pour"
+    },
+    {
+      "number": 58,
+      "source": "Screenshot 2026-10-16 at 03-55-12 Concept vidéo Pokémon.png",
+      "line": "Il devient ainsi un Yo-kai trés rapide, capable de frapper fort et de perturber ses adversaires."
+    },
+    {
+      "number": 60,
+      "source": "Screenshot 2026-10-16 at 03-55-41 Concept vidéo Pokémon.png",
+      "line": "Il profite également de Gonflette, Riposte et Coup-Croix pour développer un style trés offensif."
+    },
+    {
+      "number": 73,
+      "source": "Screenshot 2026-10-16 at 03-58-20 Concept vidéo Pokémon.png",
+      "line": "95 points d'Attaque physique rendent Bec Vrille et Piqué particuliérement intéressants. Tonnerre et Fatal-Foudre utilisent"
+    },
+    {
+      "number": 75,
+      "source": "Screenshot 2026-10-16 at 03-58-34 Concept vidéo Pokémon.png",
+      "line": "75 est plus modeste."
+    },
+    {
+      "number": 105,
+      "source": "Screenshot 2026-10-16 at 04-02-34 Concept vidéo Pokémon.png",
+      "line": "a son évolution au niveau 45. Gonflette peut renforcer encore ses capacités physiques, tandis que Queue de Fer lui donne"
+    }
+  ],
+  "aliases": {
+    "danseflamme": "FIRE_SPIN",
+    "bombbeurk": "SLUDGE_BOMB",
+    "poingdefeu": "FIRE_PUNCH",
+    "pistolet4o": "WATER_GUN",
+    "cruaile": "WING_ATTACK",
+    "ailedacier": "STEEL_WING",
+    "volvie": "ABSORB",
+    "vengeance": "REVENGE",
+    "convoitise": "COVET",
+    "tourmagik": "TRICK",
+    "privtdestin": "DESTINY_BOND",
+    "tempetesable": "SANDSTORM",
+    "meditation": "MEDITATE",
+    "dansefleur": "PETAL_DANCE",
+    "ecume": "BUBBLE",
+    "poingkarate": "KARATE_CHOP",
+    "crocolarme": "FAKE_TEARS",
+    "sifflherbe": "GRASS_WHISTLE"
+  },
+  "all_rows_manually_reviewed": false
+}

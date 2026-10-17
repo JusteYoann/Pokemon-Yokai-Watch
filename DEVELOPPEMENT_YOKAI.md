@@ -19,7 +19,7 @@ Debian 13 amd64 : `bash RECUPERATION_PROJET/scripts/configurer_outils_debian.sh`
 
 ## Reste à reconstruire et vérifier
 
-Listes d'attaques complètes et attaques à l'évolution ; obtentions/scripts/rencontres et équipes validées ; Nathan/Katie/Matt ; caméos ; partage Exp. ; noms de capacités/talents et dialogues français ; shiny finaux et verrou des 67 exclus ; musiques DPCM ; dix quêtes ; recette complète et contrôle d'un clone propre.
+Obtentions/scripts/rencontres et équipes validées ; graphismes Nathan/Katie/Matt ; caméos ; dialogues français ; shiny finaux ; musiques DPCM ; dix quêtes ; recette complète et contrôle d'un clone propre.
 
 Les palettes shiny actuellement raccordées sont HISTORIQUES, pas une validation de la direction artistique finale. Aucune fonctionnalité non testée ne doit être annoncée terminée. Les états et preuves sont conservés dans QA_RECETTE_FINALE/RECONSTRUCTION/.
 
@@ -27,9 +27,15 @@ Les fichiers PNG/palettes sont les sources maintenables. Les .4bpp/.gbapal/.lz s
 
 ## Moteur : deuxième jalon
 
-- Multi Exp. permanent dans le chemin réel de distribution : participants se partagent le gain complet ; chaque réserve vivante non-œuf reçoit 50 %. Objets Œuf Chance, bonus dresseur et bonus d'échange préservés. L'équilibrage du parcours et le test en combat réel restent à effectuer.
+- Multi Exp. permanent dans le chemin réel de distribution : participants se partagent le gain complet ; chaque réserve vivante non-œuf reçoit 50 %. Objets Œuf Chance, bonus dresseur et bonus d'échange préservés. Le test en combat réel est reproduit par tester_combat_mgba.py ; l'équilibrage du parcours reste à effectuer.
 - Matt imposé à la création et dans le placeholder des dialogues ; étape de choix du prénom rival sautée dans l'introduction. Le nom du joueur reste personnalisable. L'introduction complète et les affichages secondaires restent à tester.
 - 84 espèces shiny autorisées dérivées des références et des familles ; 67 exclues au niveau des PID générés, des palettes, du résumé et des étoiles de combat. Appak justifie la famille Kappacap ; la référence propre à Kappacap est ignorée. Noko reste exclu. Le dessin des 84 shiny n'est pas terminé.
 - Tests natifs dans mGBA : les quatre cas limites Noko, les 151 statuts shiny avec PID forcés, le maintien nature/sexe et une sauvegarde/relecture Flash native passent. Ce sont des fixtures par appel des fonctions du jeu, pas une partie de validation.
 
 Pour reconstruire mGBA : disposer de CMake et d'un compilateur C/C++, activer les outils de compilation, puis `bash tools/yokai/installer_mgba.sh`. Le commit du core est fixé. Si le répertoire diffère, définir MGBA_LIBRETRO_PATH vers mgba_libretro.so. Exécuter `python3 tools/yokai/tester_mgba.py`. Versions/hashes dans QA_RECETTE_FINALE/RECONSTRUCTION/OUTILS_MGBA.json. Aucun BIOS commercial n'est requis : mode HLE du core.
+
+## Apprentissages et libellés français
+
+Les 151 listes sont actives : 1 977 lignes transcrites des captures récupérées, avec provenance et corrections OCR documentées. Octorgone utilise bien la version Dragon (Dracosouffle 24, Dracogriffe 46). Les lignes à l’évolution et les quatre apprentissages à évolution +2 niveaux sont intégrés, avec mémorisation du niveau d’évolution dans un champ réservé existant, sans changement de format de sauvegarde. Les tests natifs comparent les 151 jeux de capacités et vérifient les cas différés, y compris une évolution tardive. La totalité des lignes OCR n’a pas fait l’objet d’une double relecture humaine : cette réserve est explicite.
+
+Les 354 capacités et les talents utilisent leurs noms français, abrégés avec un point si le libellé dépasse les 12 caractères du moteur. Noms complets et affichés : data/yokai/libelles_attaques_talents.json. Les puissances et identifiants techniques restent ceux du moteur Gen III.
