@@ -1,0 +1,19 @@
+{
+  "source_commit": "772d41cb49bd3980f2a1477488e8190777c328ec",
+  "source": "Earlier fresh GitHub checkout fetched this public commit; source changes rebuilt with independent /workspace/repro-tools compiler and mGBA core, no source/build files copied from local project",
+  "base_fresh_clone": "REPRODUCTIBILITE_DIRECTIVES.json",
+  "local_rom_sha256": "c8cea690940e430e13784bc7a6bd59546bb159268161ee2862c6d2ef292885f7",
+  "github_checkout_rom_sha256": "c8cea690940e430e13784bc7a6bd59546bb159268161ee2862c6d2ef292885f7",
+  "byte_identical": true,
+  "native_enma_checks": 8,
+  "all_native_checks_passed": true,
+  "creature_object_palette_and_pokedex_capture_flags_checked": true,
+  "actual_master_ball_capture_and_Flash_reload": true,
+  "protected_gameplay_sources_unchanged_since": "df11055df (species, moves/evolutions, teams, wild encounters and Exp Share code)",
+  "limitations": [
+    "Same cloud machine, independent checkout/toolbox; not separate VM",
+    "Not full adventure or balance validation",
+    "Private OST not yet integrated",
+    "Other static sprites and final shiny artwork incomplete"
+  ]
+}
