@@ -1,0 +1,52 @@
+{
+  "engine": "mGBA libretro",
+  "scope": "native-function fixtures with RAM trampoline; no full story/battle UI playthrough",
+  "rom_sha256": "ae6ca987943a4f02366a40826355212cb5dab4ba69b82242b26d29346e6b2f8c",
+  "results": [
+    {
+      "test": "Noko evolution",
+      "friendship": 219,
+      "held_item": 197,
+      "result": 0,
+      "passed": true
+    },
+    {
+      "test": "Noko evolution",
+      "friendship": 220,
+      "held_item": 0,
+      "result": 0,
+      "passed": true
+    },
+    {
+      "test": "Noko evolution",
+      "friendship": 220,
+      "held_item": 197,
+      "result": 83,
+      "passed": true
+    },
+    {
+      "test": "Noko evolution",
+      "friendship": 255,
+      "held_item": 197,
+      "result": 83,
+      "passed": true
+    },
+    {
+      "test": "151 species shiny eligibility / 67 PID exclusions",
+      "eligible": 84,
+      "excluded": 67,
+      "forced_pids_tested": 152,
+      "nature_gender_preserved": true,
+      "passed": true
+    },
+    {
+      "test": "Native Flash save/load restores party and Noko evolution requirements",
+      "save_status": 1,
+      "load_status": 1,
+      "passed": true
+    }
+  ],
+  "full_adventure_tested": false,
+  "all_attack_animations_tested": false,
+  "exp_share_in_real_battle_tested": false
+}

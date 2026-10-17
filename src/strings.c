@@ -1,5 +1,6 @@
 #include "global.h"
 #include "strings.h"
+const u8 gText_RivalMatt[] = _("Matt");
 
 const u8 gExpandedPlaceholder_Empty[] = _("");
 const u8 gExpandedPlaceholder_Kun[] = _("");

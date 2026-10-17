@@ -1,5 +1,6 @@
 #include "global.h"
 #include "gflib.h"
+extern const u8 gText_RivalMatt[];
 
 EWRAM_DATA u8 gStringVar1[32] = {};
 EWRAM_DATA u8 gStringVar2[20] = {};
@@ -393,17 +394,8 @@ static u8 *ExpandPlaceholder_KunChan(void)
 
 static u8 *ExpandPlaceholder_RivalName(void)
 {
-    if (gSaveBlock1Ptr->rivalName[0] == EOS)
-    {
-        if (gSaveBlock2Ptr->playerGender == MALE)
-            return gExpandedPlaceholder_Green;
-        else
-            return gExpandedPlaceholder_Red;
-    }
-    else
-    {
-        return gSaveBlock1Ptr->rivalName;
-    }
+    StringCopy(gSaveBlock1Ptr->rivalName, gText_RivalMatt);
+    return gSaveBlock1Ptr->rivalName;
 }
 
 static u8 *ExpandPlaceholder_Version(void)

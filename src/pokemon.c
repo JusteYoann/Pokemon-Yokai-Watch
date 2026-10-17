@@ -1393,6 +1393,7 @@ static const s8 sNatureStatTable[NUM_NATURES][NUM_NATURE_STATS] =
 #include "data/pokemon/species_info.h"
 #include "data/pokemon/level_up_learnsets.h"
 #include "data/pokemon/evolution.h"
+#include "data/pokemon/yokai_shiny.h"
 #include "data/pokemon/level_up_learnset_pointers.h"
 
 static const s8 sPokeblockFlavorCompatibilityTable[NUM_NATURES * FLAVOR_COUNT] =
@@ -1777,8 +1778,6 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
     else
         personality = Random32();
 
-    SetBoxMonData(boxMon, MON_DATA_PERSONALITY, &personality);
-
     //Determine original trainer ID
     if (otIdType == OT_ID_RANDOM_NO_SHINY) //Pokemon cannot be shiny
     {
@@ -1801,6 +1800,16 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
               | (gSaveBlock2Ptr->playerTrainerId[3] << 24);
     }
 
+    // Preserve nature (mod 25), gender and ability bits while excluding shiny PIDs.
+    if (!IsYokaiShinyAllowed(species))
+        while (GET_SHINY_VALUE(value, personality) < SHINY_ODDS)
+        {
+            if (personality <= 0xFFE6FFFF)
+                personality += 25 * 0x10000;
+            else
+                personality -= 25 * 0x10000;
+        }
+    SetBoxMonData(boxMon, MON_DATA_PERSONALITY, &personality);
     SetBoxMonData(boxMon, MON_DATA_OT_ID, &value);
 
     checksum = CalculateBoxMonChecksum(boxMon);
@@ -5913,7 +5922,7 @@ const u32 *GetMonSpritePalFromSpeciesAndPersonality(u16 species, u32 otId, u32 p
         return gMonPaletteTable[0].data;
 
     shinyValue = GET_SHINY_VALUE(otId, personality);
-    if (shinyValue < SHINY_ODDS)
+    if (shinyValue < SHINY_ODDS && IsYokaiShinyAllowed(species))
         return gMonShinyPaletteTable[species].data;
     else
         return gMonPaletteTable[species].data;
@@ -5932,7 +5941,7 @@ const struct CompressedSpritePalette *GetMonSpritePalStructFromOtIdPersonality(u
     u32 shinyValue;
 
     shinyValue = GET_SHINY_VALUE(otId, personality);
-    if (shinyValue < SHINY_ODDS)
+    if (shinyValue < SHINY_ODDS && IsYokaiShinyAllowed(species))
         return &gMonShinyPaletteTable[species];
     else
         return &gMonPaletteTable[species];
@@ -6056,11 +6065,18 @@ void SetWildMonHeldItem(void)
     }
 }
 
+bool8 IsYokaiShinyAllowed(u16 species)
+{
+    if (species >= 1 && species <= 151)
+        return sYokaiShinyAllowed[species];
+    return TRUE;
+}
+
 bool8 IsMonShiny(struct Pokemon *mon)
 {
     u32 otId = GetMonData(mon, MON_DATA_OT_ID, NULL);
     u32 personality = GetMonData(mon, MON_DATA_PERSONALITY, NULL);
-    return IsShinyOtIdPersonality(otId, personality);
+    return IsYokaiShinyAllowed(GetMonData(mon, MON_DATA_SPECIES, NULL)) && IsShinyOtIdPersonality(otId, personality);
 }
 
 static bool8 IsShinyOtIdPersonality(u32 otId, u32 personality)

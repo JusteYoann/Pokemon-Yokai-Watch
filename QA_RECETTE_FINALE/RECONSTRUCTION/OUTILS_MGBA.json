@@ -1,0 +1,27 @@
+{
+  "core_repository": "https://github.com/libretro/mgba",
+  "core_commit": "7a12d6d4b9acb14c0ae62c9166b6a2f3d08007f6",
+  "library_sha256": "3dd2f402e0fbab54f76e611d30f886823fbdb90fa7ead971c2dc631ae375696b",
+  "cmake_packages_verified_by_signed_apt_metadata": [
+    {
+      "filename": "cmake_3.31.6-2_amd64.deb",
+      "sha256": "dee2fc94973325240604ffbca677a3f16b462fb6520946bd81be1ecbac770a02"
+    },
+    {
+      "filename": "cmake-data_3.31.6-2_all.deb",
+      "sha256": "d9060145be892f43cd1888024114ceab019c81479d4b0a3383fe14cebe2295cb"
+    },
+    {
+      "filename": "librhash1_1.4.5-1_amd64.deb",
+      "sha256": "9bf56d7d8ce3e7680a0dd8e3cfe8acdf50e0aa3b98b0a907cf744a4d1711af72"
+    },
+    {
+      "filename": "libjsoncpp26_1.9.6-3_amd64.deb",
+      "sha256": "fd0b75839fe7b1a08df49e4203b1fb042df4f7d982db8d91c1fd7bdbcd4b1460"
+    },
+    {
+      "filename": "libuv1t64_1.50.0-2_amd64.deb",
+      "sha256": "5fec8035002e0c745b64d1c5b3e1dc42790d1a77574315b976cf3e4aab9ddc0a"
+    }
+  ]
+}

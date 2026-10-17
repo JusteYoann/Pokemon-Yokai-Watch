@@ -1,4 +1,5 @@
 #include "global.h"
+#include "strings.h"
 #include "gflib.h"
 #include "decompress.h"
 #include "task.h"
@@ -1559,9 +1560,11 @@ static void Task_OakSpeech_AskRivalsName(u8 taskId)
 
     if (tTrainerPicFadeState != 0)
     {
-        OakSpeechPrintMessage(gOakSpeech_Text_WhatWasHisName, sOakSpeechResources->textSpeed);
+        GetDefaultName(TRUE, 0);
+        StringExpandPlaceholders(gStringVar4, gOakSpeech_Text_RememberRivalsName);
+        OakSpeechPrintMessage(gStringVar4, sOakSpeechResources->textSpeed);
         sOakSpeechResources->hasPlayerBeenNamed = TRUE;
-        gTasks[taskId].func = Task_OakSpeech_MoveRivalDisplayNameOptions;
+        gTasks[taskId].func = Task_OakSpeech_FadeOutRivalPic;
     }
 }
 
@@ -2150,7 +2153,7 @@ static void GetDefaultName(u8 hasPlayerBeenNamed, u8 rivalNameChoice)
     }
     else
     {
-        src = sRivalNameChoices[rivalNameChoice];
+        src = gText_RivalMatt;
         dest = gSaveBlock1Ptr->rivalName;
     }
     for (i = 0; i < PLAYER_NAME_LENGTH && src[i] != EOS; i++)

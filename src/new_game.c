@@ -1,4 +1,5 @@
 #include "global.h"
+#include "strings.h"
 #include "gflib.h"
 #include "random.h"
 #include "overworld.h"
@@ -108,7 +109,7 @@ void NewGameInitData(void)
 {
     u8 rivalName[PLAYER_NAME_LENGTH + 1];
 
-    StringCopy(rivalName, gSaveBlock1Ptr->rivalName);
+    StringCopy(rivalName, gText_RivalMatt);
     gDifferentSaveFile = TRUE;
     gSaveBlock2Ptr->encryptionKey = 0;
     ZeroPlayerPartyMons();

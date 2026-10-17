@@ -24,3 +24,12 @@ Listes d'attaques complètes et attaques à l'évolution ; obtentions/scripts/re
 Les palettes shiny actuellement raccordées sont HISTORIQUES, pas une validation de la direction artistique finale. Aucune fonctionnalité non testée ne doit être annoncée terminée. Les états et preuves sont conservés dans QA_RECETTE_FINALE/RECONSTRUCTION/.
 
 Les fichiers PNG/palettes sont les sources maintenables. Les .4bpp/.gbapal/.lz sont générés par le build et ignorés. Le script outils/yokai est `tools/yokai/reconstruire_base.py` ; il reconstruit le premier jalon depuis les sources validées et l'instantané original. Ne pas le relancer aveuglément après des retouches ultérieures : il réécrit ses fichiers de sortie, dont les palettes historiques.
+
+## Moteur : deuxième jalon
+
+- Multi Exp. permanent dans le chemin réel de distribution : participants se partagent le gain complet ; chaque réserve vivante non-œuf reçoit 50 %. Objets Œuf Chance, bonus dresseur et bonus d'échange préservés. L'équilibrage du parcours et le test en combat réel restent à effectuer.
+- Matt imposé à la création et dans le placeholder des dialogues ; étape de choix du prénom rival sautée dans l'introduction. Le nom du joueur reste personnalisable. L'introduction complète et les affichages secondaires restent à tester.
+- 84 espèces shiny autorisées dérivées des références et des familles ; 67 exclues au niveau des PID générés, des palettes, du résumé et des étoiles de combat. Appak justifie la famille Kappacap ; la référence propre à Kappacap est ignorée. Noko reste exclu. Le dessin des 84 shiny n'est pas terminé.
+- Tests natifs dans mGBA : les quatre cas limites Noko, les 151 statuts shiny avec PID forcés, le maintien nature/sexe et une sauvegarde/relecture Flash native passent. Ce sont des fixtures par appel des fonctions du jeu, pas une partie de validation.
+
+Pour reconstruire mGBA : disposer de CMake et d'un compilateur C/C++, activer les outils de compilation, puis `bash tools/yokai/installer_mgba.sh`. Le commit du core est fixé. Si le répertoire diffère, définir MGBA_LIBRETRO_PATH vers mgba_libretro.so. Exécuter `python3 tools/yokai/tester_mgba.py`. Versions/hashes dans QA_RECETTE_FINALE/RECONSTRUCTION/OUTILS_MGBA.json. Aucun BIOS commercial n'est requis : mode HLE du core.

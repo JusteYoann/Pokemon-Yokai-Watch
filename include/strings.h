@@ -2,6 +2,7 @@
 #define GUARD_STRINGS_H
 
 #include "global.h"
+extern const u8 gText_RivalMatt[];
 
 // Exported type declarations
 
