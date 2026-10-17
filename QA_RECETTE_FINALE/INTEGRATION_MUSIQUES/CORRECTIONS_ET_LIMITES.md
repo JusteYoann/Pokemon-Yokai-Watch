@@ -29,3 +29,7 @@ La capture du premier raccord du Bois Baies contenait un cri ambiant natif. La t
 La première sonde de cri lisait le mauvais offset de MusicPlayerTrack.chan (28 au lieu de32). Elle est corrigée et comparée à IsPokemonCryPlaying natif sur un vrai cri sans atténuation. TRACE_FORET_PREMIER_RACCORD.json conserve les données de l’ancien essai, y compris ses booléens de sonde incorrects ; VERIFICATION_LECTURE_CRI.json valide la sonde corrigée.
 
 La recette ne désactive pas les sons de la forêt : elle conserve la fenêtre avec cri et réalise un sixième cycle pour obtenir **cinq raccords audio propres**, en plus de la coexistence observée avec ce cri. Un raccord mal corrélé sans cri natif reste un échec. Cela distingue une superposition sonore normale d’une corruption de musique, sans baisser le seuil ni supprimer les bruitages.
+
+## Libération de la Sylphe : transition dans le vrai événement
+
+La sélection de thème selon FLAG_HIDE_SILPH_ROCKETS ne suffit pas à elle seule à changer la musique déjà en cours après la disparition de Giovanni. Le script original reçoit donc uniquement un `fadedefaultbgm` après le retrait des Rocket. Une recette joue le véritable déclencheur de coordonnées, les déplacements et le combat Giovanni2, puis vérifie le passage de Bada-Bing au thème natif mus_silph, sans appeler manuellement un changement musical depuis le test. Les équipes, objets, dialogues et flags de progression originaux ne changent pas. Preuve : TEST_LIBERATION_SYLPHE_MGBA.json.
