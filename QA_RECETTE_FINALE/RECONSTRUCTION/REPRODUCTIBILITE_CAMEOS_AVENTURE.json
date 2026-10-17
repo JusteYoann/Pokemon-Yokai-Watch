@@ -1,0 +1,8 @@
+{
+  "source_commit": "3abcd3586c9e5ab06d775223ab6213cd3ee4d3c7",
+  "source": "HTTPS GitHub fetch, clean independent checkout /workspace/repro-github-recovery, separate pinned compiler /workspace/repro-tools",
+  "local_rom_sha256": "3d041e202c7775964de3bdfea455ecef1a58e54926cbc87c304ce27bd35ff5ce",
+  "independent_rom_sha256": "3d041e202c7775964de3bdfea455ecef1a58e54926cbc87c304ce27bd35ff5ce",
+  "byte_identical": true,
+  "limitation": "Same cloud machine and dependency-aware rebuild; no second VM or remote CI claim"
+}

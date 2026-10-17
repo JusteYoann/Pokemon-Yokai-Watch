@@ -1,0 +1,49 @@
+{
+  "source": "graphics/yokai_characters/cameos_boss/source/morleone-sheet.png",
+  "source_sha256": "078a7b817173024b2783bf0529560c7b2df564f73371514604462be959f8d09f",
+  "source_dimensions": [
+    1230,
+    1278
+  ],
+  "reference_opened": "Mafiamille1.webp /4.webp, slender",
+  "rectangles": [
+    [
+      45,
+      625,
+      400,
+      960
+    ],
+    [
+      430,
+      650,
+      665,
+      955
+    ],
+    [
+      690,
+      650,
+      900,
+      955
+    ],
+    [
+      950,
+      650,
+      1200,
+      955
+    ]
+  ],
+  "dimensions": {
+    "battle": [
+      64,
+      64
+    ],
+    "overworld": [
+      16,
+      32,
+      3
+    ]
+  },
+  "palette": "15 opaque RGB555 colors, transparent index0; per-character palette",
+  "animation_policy": "Stationary cameos only; south/north/west plus native east mirror, no walk cycle claimed",
+  "integrated": false
+}

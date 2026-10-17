@@ -1,0 +1,49 @@
+{
+  "source": "graphics/yokai_characters/cameos_boss/source/domniscian-sheet.png",
+  "source_sha256": "4e93e303f7883634d5700dc6f56b44e6dfa5a426dbb61fffafcf694a70ed81fb",
+  "source_dimensions": [
+    1536,
+    1024
+  ],
+  "reference_opened": "Employé1.png / Employé3.jpg, red",
+  "rectangles": [
+    [
+      55,
+      395,
+      500,
+      715
+    ],
+    [
+      610,
+      430,
+      840,
+      700
+    ],
+    [
+      900,
+      430,
+      1130,
+      700
+    ],
+    [
+      1220,
+      430,
+      1460,
+      700
+    ]
+  ],
+  "dimensions": {
+    "battle": [
+      64,
+      64
+    ],
+    "overworld": [
+      16,
+      32,
+      3
+    ]
+  },
+  "palette": "15 opaque RGB555 colors, transparent index0; per-character palette",
+  "animation_policy": "Stationary cameos only; south/north/west plus native east mirror, no walk cycle claimed",
+  "integrated": false
+}
