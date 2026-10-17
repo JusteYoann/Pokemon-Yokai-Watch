@@ -457,3 +457,6 @@ const u32 gTrainerPalette_OldManBackPic[] = INCBIN_U32("graphics/trainers/palett
 
 const u32 gTrainerFrontPic_Ariane[] = INCBIN_U32("graphics/yokai_characters/ariane/battle.4bpp.lz");
 const u32 gTrainerPalette_Ariane[] = INCBIN_U32("graphics/yokai_characters/ariane/normal.gbapal.lz");
+
+const u32 gTrainerFrontPic_YokaiEnma[] = INCBIN_U32("graphics/yokai_characters/enma/battle.4bpp.lz");
+const u32 gTrainerPalette_YokaiEnma[] = INCBIN_U32("graphics/yokai_characters/enma/normal.gbapal.lz");

@@ -17,4 +17,17 @@ Références visuelles consultées : `Ariane Celestin.webp` et `100 - Usapion.we
 | Revisite avant Ligue | Recherches avec Usapion et proposition de revenir après la Ligue. |
 | Usapion | Il vérifie son équipement et semble prêt pour l’aventure. |
 
-Texte exact avec sauts de ligne : `data/maps/Route25/scripts.inc`. Les accents et contrôles sont compilés dans la ROM. Les autres scènes de caméos ne sont pas encore implémentées. Les équipes des boss verrouillés ne sont pas modifiées par ce chantier.
+Texte exact avec sauts de ligne : `data/maps/Route25/scripts.inc`. Les accents et contrôles sont compilés dans la ROM. Le caméo Enma est décrit ci-dessous ; les autres scènes restent à reconstruire. Les équipes des boss verrouillés ne sont pas modifiées par ce chantier.
+
+
+## Seigneur Enma — épreuve partagée avec la quête 8
+
+Personnalité fondée sur les indications explicites du cahier MUSIQUES_QUETES : énergique, joueur, curieux des humains, admiratif après un beau combat ; pas de souverain froid ou pompeux. Les répliques sont des adaptations originales pour ce hack, pas des citations officielles.
+
+- Première proposition : félicitations pour la Ligue, présentation et curiosité pour la force du joueur, choix Oui/Non.
+- Refus : invitation à prendre son temps et à préparer un beau combat ; aucune victoire enregistrée.
+- Victoire du joueur : admiration pour le lien avec ses Yo-kai et annonce explicite de l'apparition d'Enma dans la Caverne Azurée.
+- Revisite : proposition volontaire de revanche, puis enthousiasme renouvelé après victoire. Aucun cadeau d'objet ni deuxième déblocage.
+- Rencontre sauvage : « Enma te lance un regard déterminé ! » à l'emplacement original de Mewtwo.
+
+Texte complet : `data/maps/MtEmber_Summit/scripts.inc` et `data/maps/CeruleanCave_B1F/scripts.inc`. Les 56 lignes ajoutées d'Ariane/Enma sont mesurées avec la fonction native GetStringWidth dans mGBA : `LARGEURS_DIALOGUES_CAMEOS.json`. Deux lignes dépassaient 208 pixels et ont été reformulées. Les musiques DPCM de présentation et de combat restent nécessaires pour achever la quête 8.

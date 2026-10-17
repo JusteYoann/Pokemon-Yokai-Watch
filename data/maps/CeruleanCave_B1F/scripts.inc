@@ -10,11 +10,21 @@ CeruleanCave_B1F_OnResume::
 CeruleanCave_B1F_EventScript_TryRemoveMewtwo::
 	specialvar VAR_RESULT, GetBattleOutcome
 	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_Return
+	setflag FLAG_YOKAI_ENMA_CAUGHT
+	setflag FLAG_FOUGHT_MEWTWO
+	setflag FLAG_HIDE_MEWTWO
 	removeobject VAR_LAST_TALKED
 	return
 
 CeruleanCave_B1F_OnTransition::
+	goto_if_unset FLAG_SYS_GAME_CLEAR, CeruleanCave_B1F_EventScript_HideLockedEnma
+	goto_if_unset FLAG_YOKAI_ENMA_WON, CeruleanCave_B1F_EventScript_HideLockedEnma
+	goto_if_set FLAG_YOKAI_ENMA_CAUGHT, CeruleanCave_B1F_EventScript_HideLockedEnma
 	call_if_unset FLAG_FOUGHT_MEWTWO, CeruleanCave_B1F_EventScript_ShowMewtwo
+	end
+
+CeruleanCave_B1F_EventScript_HideLockedEnma::
+	setflag FLAG_HIDE_MEWTWO
 	end
 
 CeruleanCave_B1F_EventScript_ShowMewtwo::
@@ -22,13 +32,16 @@ CeruleanCave_B1F_EventScript_ShowMewtwo::
 	return
 
 CeruleanCave_B1F_EventScript_Mewtwo::
+	goto_if_unset FLAG_SYS_GAME_CLEAR, EventScript_ReleaseEnd
+	goto_if_unset FLAG_YOKAI_ENMA_WON, EventScript_ReleaseEnd
+	goto_if_set FLAG_YOKAI_ENMA_CAUGHT, EventScript_ReleaseEnd
 	goto_if_questlog EventScript_ReleaseEnd
 	special QuestLog_CutRecording
 	lock
 	faceplayer
 	waitse
 	playmoncry SPECIES_MEWTWO, CRY_MODE_ENCOUNTER
-	message CeruleanCave_B1F_Text_Mew
+	message CeruleanCave_B1F_Text_YokaiEnma
 	waitmessage
 	waitmoncry
 	delay 20
@@ -56,3 +69,6 @@ CeruleanCave_B1F_EventScript_RanFromMewtwo::
 	setvar VAR_0x8004, SPECIES_MEWTWO
 	goto EventScript_MonFlewAway
 	end
+
+CeruleanCave_B1F_Text_YokaiEnma::
+	.string "Enma te lance un regard déterminé!$"

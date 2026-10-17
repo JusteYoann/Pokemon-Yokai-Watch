@@ -889,4 +889,5 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
     [TRAINER_PIC_LADY]                  = sAnims_Lady,
     [TRAINER_PIC_PAINTER]               = sAnims_Painter,
     [TRAINER_PIC_ARIANE] = sAnims_AquaLeaderArchie,
+    [TRAINER_PIC_YOKAI_ENMA] = sAnims_AquaLeaderArchie,
 };

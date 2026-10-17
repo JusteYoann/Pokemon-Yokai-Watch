@@ -1,0 +1,41 @@
+{
+  "engine": "mGBA libretro",
+  "rom_sha256": "8e33517256e38b541b181c9f3bf210d73cedfa0979ae7207d627bf7eb53dfa2a",
+  "scope": "Native map transitions and actual NPC/controller battles/capture; fixture warps, progress flags and strong party, not a complete adventure playthrough",
+  "fixture_isolation": "Independent emulator instances for defeat and victory; no savestate restore in Flash tests",
+  "battle_style_after_capture": "SET option in test fixture; captured Enma retained in party",
+  "balance_validated": false,
+  "results": [
+    {
+      "test": "Before League: Lord Enma hidden, Kyubi present. Capturable Enma hidden before boss victory, including after League",
+      "passed": true
+    },
+    {
+      "test": "Actual optional NPC interaction and No: no battle or unlock",
+      "passed": true
+    },
+    {
+      "test": "Actual defeat and whiteout do not unlock capturable Enma",
+      "passed": true
+    },
+    {
+      "test": "Native six-member approved team and actual victory unlock persistent Enma flag",
+      "frames": 11904,
+      "passed": true
+    },
+    {
+      "test": "Voluntary rematch completes, no extra item reward",
+      "frames": 11648,
+      "passed": true
+    },
+    {
+      "test": "Unlock survives native Flash save/reload; actual map object appears in original cave location",
+      "passed": true
+    },
+    {
+      "test": "Real Master Ball capture; caught flag saved in Flash; no respawn after map reload, another boss rematch and a simulated fought-flag reset",
+      "passed": true
+    }
+  ],
+  "music_status": "Native placeholder, DPCM pending"
+}

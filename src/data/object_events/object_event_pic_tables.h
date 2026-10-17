@@ -1761,3 +1761,12 @@ static const struct SpriteFrameImage sPicTable_Ariane[] = {
 static const struct SpriteFrameImage sPicTable_UsapionCameo[] = {
     overworld_frame(gObjectEventPic_UsapionCameo, 4, 4, 0),
 };
+
+static const struct SpriteFrameImage sPicTable_YokaiEnma[] = {
+    overworld_frame(gObjectEventPic_YokaiEnma, 2, 4, 0),
+    overworld_frame(gObjectEventPic_YokaiEnma, 2, 4, 1),
+    overworld_frame(gObjectEventPic_YokaiEnma, 2, 4, 2),
+};
+static const struct SpriteFrameImage sPicTable_YokaiKyubi[] = {
+    overworld_frame(gObjectEventPic_YokaiKyubi, 4, 4, 0),
+};

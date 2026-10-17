@@ -4552,3 +4552,6 @@ extern const u16 gDexScreen_TopMenuIconPals_AtoZ[];
 extern const u32 gDexScreen_TopMenuIconTiles_AtoZ[];
 
 #endif //GUARD_GRAPHICS_H
+
+extern const u32 gTrainerFrontPic_YokaiEnma[];
+extern const u32 gTrainerPalette_YokaiEnma[];

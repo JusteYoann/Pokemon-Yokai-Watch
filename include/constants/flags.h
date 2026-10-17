@@ -800,6 +800,9 @@
 #define FLAG_YOKAI_ARIANE_POST_WON    FLAG_0x302
 #define FLAG_0x301               0x301
 #define FLAG_0x302               0x302
+#define FLAG_YOKAI_ENMA_WON         FLAG_0x303
+#define FLAG_HIDE_YOKAI_LORD_ENMA    FLAG_0x304
+#define FLAG_YOKAI_ENMA_CAUGHT      FLAG_0x305
 #define FLAG_0x303               0x303
 #define FLAG_0x304               0x304
 #define FLAG_0x305               0x305

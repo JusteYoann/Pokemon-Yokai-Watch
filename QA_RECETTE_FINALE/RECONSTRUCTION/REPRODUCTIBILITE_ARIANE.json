@@ -1,0 +1,13 @@
+{
+  "source_commit": "b1ad7311060b20d8ea44ba2a0d2e6a95d29824a5",
+  "clone_origin": "https://github.com/JusteYoann/Pokemon-Yokai-Watch.git",
+  "checkout": "independent clean clone fetched directly from GitHub",
+  "tool_install": "/workspace/repro-tools independent from main toolchain",
+  "build_exit_code": 0,
+  "local_rom_sha256": "1a42b1160b5eb49ab236f64afb01a17f8719e2fe702f55ee964887171ecdb530",
+  "clone_rom_sha256": "1a42b1160b5eb49ab236f64afb01a17f8719e2fe702f55ee964887171ecdb530",
+  "byte_identical": true,
+  "scope": "Published Matt and Ariane checkpoints; no private assets required; no commercial ROM or audio published",
+  "music_status": "DPCM still pending",
+  "github_actions_observation": "Workflow published; Actions API not accessible from current environment: HTTPS proxy 403. No remote CI success claimed."
+}

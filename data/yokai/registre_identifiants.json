@@ -5,20 +5,28 @@
   "flags": {
     "FLAG_YOKAI_ARIANE_WON": "0x300",
     "FLAG_YOKAI_ARIANE_REWARD": "0x301",
-    "FLAG_YOKAI_ARIANE_POST_WON": "0x302"
+    "FLAG_YOKAI_ARIANE_POST_WON": "0x302",
+    "FLAG_YOKAI_ENMA_WON": "0x303",
+    "FLAG_HIDE_YOKAI_LORD_ENMA": "0x304",
+    "FLAG_YOKAI_ENMA_CAUGHT": "0x305"
   },
   "trainer_slots": {
     "TRAINER_YOKAI_ARIANE": 1,
-    "TRAINER_YOKAI_ARIANE_POST": 2
+    "TRAINER_YOKAI_ARIANE_POST": 2,
+    "TRAINER_YOKAI_ENMA": 3
   },
   "trainer_slot_policy": "Unused Ruby/Sapphire placeholders, no previous map reference, no save-layout expansion",
   "graphics": {
     "TRAINER_PIC_ARIANE": 148,
     "OBJ_EVENT_GFX_ARIANE": 152,
-    "OBJ_EVENT_GFX_USAPION_CAMEO": 153
+    "OBJ_EVENT_GFX_USAPION_CAMEO": 153,
+    "TRAINER_PIC_YOKAI_ENMA": 149,
+    "OBJ_EVENT_GFX_YOKAI_ENMA": 154,
+    "OBJ_EVENT_GFX_YOKAI_KYUBI": 155
   },
   "palette_tags": {
     "MATT": "0x111C",
-    "ARIANE_AND_USAPION": "0x111D"
+    "ARIANE_AND_USAPION": "0x111D",
+    "ENMA_AND_KYUBI": "0x111E"
   }
 }

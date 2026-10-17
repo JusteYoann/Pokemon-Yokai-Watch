@@ -125,6 +125,16 @@ if ariane.exists():
     im=Image.open(ariane/'usapion_overworld.png');assert im.size==(32,32)
     assert data('gObjectEventPic_UsapionCameo')==encode4(im)
     assert data('gObjectEventPal_Ariane')==(ariane/'normal.gbapal').read_bytes()
-report={'rom_sha256':hashlib.sha256(rom).hexdigest(),'rom_size':len(rom),'species_stats_and_abilities_verified':151,'encoded_display_names_verified':151,'linked_graphic_resources_verified':checks,'historical_graphics_preserved_except_whitelist':True,'evolution_edges_verified':len(evolutions),'linked_learnsets_verified':151,'french_move_and_ability_labels_verified':len(json.loads((R/'data/yokai/libelles_attaques_talents.json').read_text())),'matt_native_frames_verified':12 if matt.exists() else 0,'ariane_and_usapion_native_frames_verified':5 if ariane.exists() else 0,'emulator_tests':False,'final_shiny_artwork_validated':False,'verdict':'JALON DONNEES/GRAPHISMES LIE ; RECETTE COMPLETE NON TERMINEE'}
+enma=R/'graphics/yokai_characters/enma'
+if enma.exists():
+    im=Image.open(enma/'battle.png');assert im.size==(64,64) and im.mode=='P'
+    assert unlz(data('gTrainerFrontPic_YokaiEnma'))==encode4(im)
+    assert unlz(data('gTrainerPalette_YokaiEnma'))==(enma/'normal.gbapal').read_bytes()
+    im=Image.open(enma/'overworld.png');assert im.size==(48,32)
+    assert data('gObjectEventPic_YokaiEnma')==b''.join(encode4(im.crop((i*16,0,i*16+16,32))) for i in range(3))
+    im=Image.open(enma/'kyubi_overworld.png');assert im.size==(32,32)
+    assert data('gObjectEventPic_YokaiKyubi')==encode4(im)
+    assert data('gObjectEventPal_YokaiEnma')==(enma/'normal.gbapal').read_bytes()
+report={'rom_sha256':hashlib.sha256(rom).hexdigest(),'rom_size':len(rom),'species_stats_and_abilities_verified':151,'encoded_display_names_verified':151,'linked_graphic_resources_verified':checks,'historical_graphics_preserved_except_whitelist':True,'evolution_edges_verified':len(evolutions),'linked_learnsets_verified':151,'french_move_and_ability_labels_verified':len(json.loads((R/'data/yokai/libelles_attaques_talents.json').read_text())),'matt_native_frames_verified':12 if matt.exists() else 0,'ariane_and_usapion_native_frames_verified':5 if ariane.exists() else 0,'enma_and_kyubi_native_frames_verified':5 if enma.exists() else 0,'emulator_tests':False,'final_shiny_artwork_validated':False,'verdict':'JALON DONNEES/GRAPHISMES LIE ; RECETTE COMPLETE NON TERMINEE'}
 out=R/'QA_RECETTE_FINALE/RECONSTRUCTION/CONTROLE_ROM.json';out.parent.mkdir(parents=True,exist_ok=True);out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))

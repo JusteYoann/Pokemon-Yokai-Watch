@@ -1,0 +1,346 @@
+{
+  "rom_sha256": "8e33517256e38b541b181c9f3bf210d73cedfa0979ae7207d627bf7eb53dfa2a",
+  "engine": "native GetStringWidth in mGBA",
+  "font": "FONT_NORMAL (2)",
+  "max_pixels": 208,
+  "scope": "Added Ariane/Enma static dialogue lines only; not all game text or battle dynamic placeholders",
+  "lines_checked": 56,
+  "results": [
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 73,
+      "text": "Ariane: Un nouveau mystère!",
+      "pixels": 152
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 74,
+      "text": "Tes Yo-kai m’intriguent.",
+      "pixels": 127
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 75,
+      "text": "Usapion et moi, on est prêts!",
+      "pixels": 160
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 76,
+      "text": "Tu veux faire un combat?",
+      "pixels": 138
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 78,
+      "text": "Allons-y, Usapion!",
+      "pixels": 99
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 79,
+      "text": "On va leur montrer!",
+      "pixels": 107
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 81,
+      "text": "Emperor et moi avons progressé!",
+      "pixels": 175
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 82,
+      "text": "À toi de le découvrir!",
+      "pixels": 124
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 84,
+      "text": "Mes calculs étaient presque bons!",
+      "pixels": 185
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 85,
+      "text": "Bon, je vais les revoir…",
+      "pixels": 133
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 87,
+      "text": "Ariane: Quelle équipe incroyable!",
+      "pixels": 184
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 88,
+      "text": "Il faut que je note tout ça.",
+      "pixels": 160
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 89,
+      "text": "La prochaine fois, notre équipe",
+      "pixels": 172
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 90,
+      "text": "essaiera une autre stratégie!",
+      "pixels": 160
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 92,
+      "text": "Prends cette Pierre Lune.",
+      "pixels": 139
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 93,
+      "text": "Usapion peut évoluer grâce à elle.",
+      "pixels": 193
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 94,
+      "text": "Tu trouveras sûrement comment",
+      "pixels": 164
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 95,
+      "text": "en faire bon usage!",
+      "pixels": 107
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 97,
+      "text": "Ariane: J’ai encore des recherches",
+      "pixels": 188
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 98,
+      "text": "à faire avec Usapion.",
+      "pixels": 117
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 99,
+      "text": "Reviens après la Ligue!",
+      "pixels": 129
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 100,
+      "text": "On te préparera une surprise.",
+      "pixels": 161
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 102,
+      "text": "Ariane: Pas de souci!",
+      "pixels": 117
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 103,
+      "text": "On reste ici encore un peu.",
+      "pixels": 150
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 105,
+      "text": "Ariane: Ton sac est plein.",
+      "pixels": 142
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 106,
+      "text": "Je te garde la Pierre Lune!",
+      "pixels": 154
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 108,
+      "text": "Usapion vérifie son équipement.",
+      "pixels": 169
+    },
+    {
+      "file": "data/maps/Route25/scripts.inc",
+      "line": 109,
+      "text": "Il semble prêt pour l’aventure!",
+      "pixels": 173
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 101,
+      "text": "Enma: Alors, c’est toi qui as",
+      "pixels": 157
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 102,
+      "text": "remporté la Ligue? Bien joué!",
+      "pixels": 165
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 103,
+      "text": "Moi, c’est Enma. J’adore voir",
+      "pixels": 157
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 104,
+      "text": "ce dont les humains sont capables!",
+      "pixels": 191
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 105,
+      "text": "Tes amis ont l’air redoutables.",
+      "pixels": 168
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 106,
+      "text": "Ça te dit de nous affronter?",
+      "pixels": 156
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 108,
+      "text": "Enma: Te revoilà! Depuis notre",
+      "pixels": 168
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 109,
+      "text": "combat, j’attendais ta visite.",
+      "pixels": 161
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 110,
+      "text": "Cette fois, je ne retiens rien!",
+      "pixels": 168
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 111,
+      "text": "On remet ça?",
+      "pixels": 69
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 113,
+      "text": "Enma: Amusons-nous!",
+      "pixels": 107
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 114,
+      "text": "Je compte bien tout donner!",
+      "pixels": 153
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 116,
+      "text": "Ha ha! Quelle énergie!",
+      "pixels": 126
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 117,
+      "text": "Vous avez été formidables!",
+      "pixels": 148
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 119,
+      "text": "Enma: Ce lien avec tes Yo-kai…",
+      "pixels": 169
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 120,
+      "text": "Voilà ce qui fait votre force!",
+      "pixels": 167
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 121,
+      "text": "Un Enma t’attend maintenant",
+      "pixels": 146
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 122,
+      "text": "au fond de la Caverne Azurée.",
+      "pixels": 167
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 123,
+      "text": "Va lui montrer votre force!",
+      "pixels": 151
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 124,
+      "text": "Moi, je reste ici pour la revanche.",
+      "pixels": 195
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 126,
+      "text": "Enma: Excellent! Impossible de",
+      "pixels": 169
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 127,
+      "text": "s’ennuyer contre vous!",
+      "pixels": 121
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 128,
+      "text": "Reviens quand tu veux.",
+      "pixels": 125
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 129,
+      "text": "La prochaine sera encore meilleure!",
+      "pixels": 197
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 131,
+      "text": "Enma: Pas de problème!",
+      "pixels": 127
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 132,
+      "text": "Prends le temps de te préparer.",
+      "pixels": 175
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "line": 133,
+      "text": "Un beau combat, ça se savoure!",
+      "pixels": 174
+    },
+    {
+      "file": "data/maps/CeruleanCave_B1F/scripts.inc",
+      "line": 74,
+      "text": "Enma te lance un regard déterminé!",
+      "pixels": 192
+    }
+  ]
+}

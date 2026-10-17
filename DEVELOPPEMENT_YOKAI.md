@@ -19,7 +19,7 @@ Debian 13 amd64 : `bash RECUPERATION_PROJET/scripts/configurer_outils_debian.sh`
 
 ## Reste à reconstruire et vérifier
 
-Obtentions/scripts/rencontres et équipes validées ; graphismes Nathan/Katie/Matt ; caméos ; dialogues français ; shiny finaux ; musiques DPCM ; dix quêtes ; recette complète et contrôle d'un clone propre.
+Graphismes Nathan/Katie, caméos restants, dialogues français complets, shiny finaux, musiques DPCM, dix quêtes et recette du parcours complet. Les jalons reconstruits sont détaillés ci-dessous.
 
 Les palettes shiny actuellement raccordées sont HISTORIQUES, pas une validation de la direction artistique finale. Aucune fonctionnalité non testée ne doit être annoncée terminée. Les états et preuves sont conservés dans QA_RECETTE_FINALE/RECONSTRUCTION/.
 
@@ -86,4 +86,19 @@ Recette mGBA par vraie interaction sur la carte : refus avec équipe valide ; vi
 
 Les noms/descriptions des cinq pierres d’évolution, de l’Œuf Chance et des trois fossiles sont traduits. Les identifiants techniques et mécanismes sont conservés ; Fossile Nautile est abrégé « Foss. Nauti. » pour les 13 caractères disponibles. Les boutons généraux affichent Oui/Non. Le reste de la traduction reste à faire.
 
-Les autres caméos, Nathan/Katie, les shiny définitifs, les 20 OST DPCM et les dix quêtes restent incomplets. Ariane est un caméo de la base à restaurer, pas l’une des dix nouvelles quêtes. Le verrou supplémentaire d’Enma lié à son futur combat caméo reste encore à intégrer.
+Les autres caméos, Nathan/Katie, les shiny définitifs, les 20 OST DPCM et les dix quêtes restent incomplets. Ariane est un caméo de la base à restaurer, pas l’une des dix nouvelles quêtes. Le verrou supplémentaire d’Enma est désormais décrit dans le jalon suivant.
+
+
+## Seigneur Enma, rencontre unique et overworld Kyubi
+
+Seigneur Enma apparaît au Mont Braise après la Ligue uniquement, à (11,6), à côté de la rencontre Kyubi inchangée (9,6). Duel volontaire Oui/Non et revanches ; sa première victoire débloque Enma au point original de Mewtwo dans la Caverne Azurée. Aucun autre boss n'est imposé comme prérequis supplémentaire. La logique de capture unique conserve ses flags natifs et ajoute un flag de capture distinct, jamais remis à zéro par une revanche.
+
+L'équipe validée est 150/60/40/105/89/65, niveaux 70/71/72/73/74/75 choisis dans la plage autorisée ; quatre derniers apprentissages, talents primaires, paramètre IV 255, aucun objet tenu ni sac. Ces choix secondaires et leurs constantes sont dans data/yokai/cameo_enma.json ; les 17 équipes de boss verrouillées et Matt restent inchangés.
+
+Graphismes originaux Enma : portrait 64×64 et trois orientations stationnaires 16×32, également utilisées explicitement pour sa rencontre statique. Kyubi reçoit son propre overworld 32×32 sur cet événement précis. Palette dédiée commune, 15 couleurs RGB555 et index transparent 0. Ni les identifiants globaux de Mewtwo/Sulfura ni les sprites de combat des 151 Yo-kai ne sont remplacés par cet ajout. Sources, découpe reproductible et aperçu opaque dans graphics/yokai_characters/enma/.
+
+Le test natif couvre les cartes avant/après Ligue, refus, vraie défaite sans déblocage, victoire, revanches, sauvegarde/relecture Flash, capture réelle à la Master Ball et absence de nouvelle apparition après une revanche. Les fixtures utilisent des téléportations et une équipe surpuissante ; elles ne valident pas l'équilibrage ni le trajet jusqu'aux deux sommets. Après capture, l'option SET est choisie dans la fixture pour éviter une réponse automatique Oui au menu normal de remplacement SHIFT. Les parties de défaite et victoire utilisent des instances indépendantes, sans mélange de savestate et de sauvegarde Flash.
+
+L'événement est partagé avec la quête 8, sans duplication. Sa partie dialogue/combat/déblocage est présente ; ses musiques DPCM restent à intégrer. Les neuf autres quêtes ne sont pas encore reconstruites : aucune des dix n'est annoncée complète. Les graphismes des autres rencontres statiques restent à adapter. Résultats et captures : TEST_ENMA_MGBA.json et preuves/enma-*.png.
+
+Les contrôles automatiques sont publiés dans .github/workflows/build.yml : compilation du hack avec COMPARE=0, contrôles des sources liées et tests natifs mGBA. L'accès à l'API Actions est refusé par le proxy actuel ; aucun résultat de CI distante n'est présumé. Les tests locaux et la compilation du clone GitHub sont documentés séparément.

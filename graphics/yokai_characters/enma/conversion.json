@@ -1,0 +1,56 @@
+{
+  "source_sha256": "be9888ed828e0386fd2ea1184aa6265c28ebf01de5a031d53e6f174064a0b40c",
+  "source_dimensions": [
+    1536,
+    1024
+  ],
+  "crop_rectangles": [
+    [
+      210,
+      15,
+      740,
+      680
+    ],
+    [
+      830,
+      140,
+      1400,
+      680
+    ],
+    [
+      250,
+      700,
+      470,
+      1005
+    ],
+    [
+      650,
+      700,
+      880,
+      1005
+    ],
+    [
+      1040,
+      700,
+      1260,
+      1005
+    ]
+  ],
+  "trainer": [
+    64,
+    64
+  ],
+  "enma_overworld": [
+    16,
+    32,
+    3
+  ],
+  "kyubi_overworld": [
+    32,
+    32,
+    1
+  ],
+  "palette_colors": 16,
+  "transparent_index": 0,
+  "npc_animation_policy": "Stationary NPC, four facing directions via three frames and native horizontal flip; no walking scene required or claimed."
+}

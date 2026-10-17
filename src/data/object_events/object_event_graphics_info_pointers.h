@@ -1,3 +1,5 @@
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiEnma;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiKyubi;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ariane;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UsapionCameo;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedNormal;
@@ -309,4 +311,6 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_SS_ANNE]                  = &gObjectEventGraphicsInfo_SSAnne,
     [OBJ_EVENT_GFX_ARIANE] = &gObjectEventGraphicsInfo_Ariane,
     [OBJ_EVENT_GFX_USAPION_CAMEO] = &gObjectEventGraphicsInfo_UsapionCameo,
+    [OBJ_EVENT_GFX_YOKAI_ENMA] = &gObjectEventGraphicsInfo_YokaiEnma,
+    [OBJ_EVENT_GFX_YOKAI_KYUBI] = &gObjectEventGraphicsInfo_YokaiKyubi,
 };

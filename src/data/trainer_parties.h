@@ -13803,3 +13803,12 @@ static const struct TrainerMonItemCustomMoves sParty_YokaiArianePost[] = {
     {.iv = 200, .lvl = 59, .species = SPECIES_NIDORINA, .heldItem = ITEM_NONE, .moves = {MOVE_AGILITY, MOVE_CALM_MIND, MOVE_ZAP_CANNON, MOVE_THUNDER}},
     {.iv = 200, .lvl = 60, .species = SPECIES_ZAPDOS, .heldItem = ITEM_NONE, .moves = {MOVE_PSYCHIC, MOVE_SUBSTITUTE, MOVE_MIRROR_COAT, MOVE_PSYCHO_BOOST}},
 };
+
+static const struct TrainerMonItemCustomMoves sParty_YokaiLordEnma[] = {
+    {.iv = 255, .lvl = 70, .species = SPECIES_MEWTWO, .heldItem = ITEM_NONE, .moves = {MOVE_PSYCHIC, MOVE_RECOVER, MOVE_EARTHQUAKE, MOVE_HYPER_BEAM}},
+    {.iv = 255, .lvl = 71, .species = SPECIES_POLIWAG, .heldItem = ITEM_NONE, .moves = {MOVE_TAUNT, MOVE_COUNTER, MOVE_CROSS_CHOP, MOVE_DYNAMIC_PUNCH}},
+    {.iv = 255, .lvl = 72, .species = SPECIES_WIGGLYTUFF, .heldItem = ITEM_NONE, .moves = {MOVE_COUNTER, MOVE_REST, MOVE_CROSS_CHOP, MOVE_SUPERPOWER}},
+    {.iv = 255, .lvl = 73, .species = SPECIES_MAROWAK, .heldItem = ITEM_NONE, .moves = {MOVE_PROTECT, MOVE_BULK_UP, MOVE_IRON_TAIL, MOVE_SKY_ATTACK}},
+    {.iv = 255, .lvl = 74, .species = SPECIES_MUK, .heldItem = ITEM_NONE, .moves = {MOVE_SYNTHESIS, MOVE_AROMATHERAPY, MOVE_PETAL_DANCE, MOVE_SOLAR_BEAM}},
+    {.iv = 255, .lvl = 75, .species = SPECIES_ALAKAZAM, .heldItem = ITEM_NONE, .moves = {MOVE_ROCK_SLIDE, MOVE_FACADE, MOVE_EARTHQUAKE, MOVE_SUPERPOWER}},
+};

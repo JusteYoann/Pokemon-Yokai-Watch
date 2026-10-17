@@ -236,3 +236,7 @@ const u16 gObjectEventPal_Matt[] = INCBIN_U16("graphics/yokai_characters/matt/no
 const u16 gObjectEventPal_Ariane[] = INCBIN_U16("graphics/yokai_characters/ariane/normal.gbapal");
 const u16 gObjectEventPic_Ariane[] = INCBIN_U16("graphics/yokai_characters/ariane/overworld.4bpp");
 const u16 gObjectEventPic_UsapionCameo[] = INCBIN_U16("graphics/yokai_characters/ariane/usapion_overworld.4bpp");
+
+const u16 gObjectEventPal_YokaiEnma[] = INCBIN_U16("graphics/yokai_characters/enma/normal.gbapal");
+const u16 gObjectEventPic_YokaiEnma[] = INCBIN_U16("graphics/yokai_characters/enma/overworld.4bpp");
+const u16 gObjectEventPic_YokaiKyubi[] = INCBIN_U16("graphics/yokai_characters/enma/kyubi_overworld.4bpp");
