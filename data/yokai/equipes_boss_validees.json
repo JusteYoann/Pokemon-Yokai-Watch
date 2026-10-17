@@ -1,0 +1,1040 @@
+{
+  "TRAINER_LEADER_BROCK": {
+    "source_heading": "Pierre — Argenta — VALIDÉ DÉFINITIVEMENT",
+    "items": [],
+    "party": [
+      {
+        "species": "SPECIES_PORYGON",
+        "level": 8,
+        "moves": [
+          "MOVE_TACKLE",
+          "MOVE_SAND_ATTACK",
+          "MOVE_MUD_SLAP",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_SAND_VEIL",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_MEOWTH",
+        "level": 10,
+        "moves": [
+          "MOVE_SCRATCH",
+          "MOVE_SAND_ATTACK",
+          "MOVE_MUD_SLAP",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_ROCK_HEAD",
+        "ability_num": 1,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_PIKACHU",
+        "level": 12,
+        "moves": [
+          "MOVE_TACKLE",
+          "MOVE_ROCK_THROW",
+          "MOVE_GROWL",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_STURDY",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  },
+  "TRAINER_LEADER_MISTY": {
+    "source_heading": "Ondine — Azuria — VALIDÉ DÉFINITIVEMENT",
+    "items": [],
+    "party": [
+      {
+        "species": "SPECIES_METAPOD",
+        "level": 14,
+        "moves": [
+          "MOVE_TACKLE",
+          "MOVE_BUBBLE",
+          "MOVE_LEER",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_SWIFT_SWIM",
+        "ability_num": 1,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_RATICATE",
+        "level": 16,
+        "moves": [
+          "MOVE_SCRATCH",
+          "MOVE_WATER_GUN",
+          "MOVE_TAIL_WHIP",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_SWIFT_SWIM",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_MACHOKE",
+        "level": 19,
+        "moves": [
+          "MOVE_WATER_PULSE",
+          "MOVE_TACKLE",
+          "MOVE_GROWL",
+          "MOVE_WATER_GUN"
+        ],
+        "ability": "ABILITY_RAIN_DISH",
+        "ability_num": 1,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  },
+  "TRAINER_LEADER_LT_SURGE": {
+    "source_heading": "Major Bob — Carmin-sur-Mer — VALIDÉ DÉFINITIVEMENT",
+    "items": [
+      "ITEM_SUPER_POTION",
+      "ITEM_FULL_HEAL"
+    ],
+    "party": [
+      {
+        "species": "SPECIES_GEODUDE",
+        "level": 18,
+        "moves": [
+          "MOVE_THUNDER_SHOCK",
+          "MOVE_TACKLE",
+          "MOVE_THUNDER_WAVE",
+          "MOVE_GROWL"
+        ],
+        "ability": "ABILITY_STATIC",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_VOLTORB",
+        "level": 19,
+        "moves": [
+          "MOVE_METAL_CLAW",
+          "MOVE_TACKLE",
+          "MOVE_HARDEN",
+          "MOVE_LEER"
+        ],
+        "ability": "ABILITY_KEEN_EYE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_TENTACRUEL",
+        "level": 21,
+        "moves": [
+          "MOVE_PECK",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_LEER",
+          "MOVE_TACKLE"
+        ],
+        "ability": "ABILITY_EARLY_BIRD",
+        "ability_num": 1,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_GRAVELER",
+        "level": 23,
+        "moves": [
+          "MOVE_SHOCK_WAVE",
+          "MOVE_PECK",
+          "MOVE_TACKLE",
+          "MOVE_LEER"
+        ],
+        "ability": "ABILITY_LIGHTNING_ROD",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  },
+  "TRAINER_LEADER_ERIKA": {
+    "source_heading": "Erika — Céladopole — VALIDÉ DÉFINITIVEMENT",
+    "items": [
+      "ITEM_HYPER_POTION",
+      "ITEM_FULL_HEAL"
+    ],
+    "party": [
+      {
+        "species": "SPECIES_PERSIAN",
+        "level": 23,
+        "moves": [
+          "MOVE_VINE_WHIP",
+          "MOVE_ABSORB",
+          "MOVE_TACKLE",
+          "MOVE_GROWTH"
+        ],
+        "ability": "ABILITY_CHLOROPHYLL",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_GENGAR",
+        "level": 24,
+        "moves": [
+          "MOVE_RAZOR_LEAF",
+          "MOVE_TACKLE",
+          "MOVE_GROWL",
+          "MOVE_ABSORB"
+        ],
+        "ability": "ABILITY_CHLOROPHYLL",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_PSYDUCK",
+        "level": 26,
+        "moves": [
+          "MOVE_RAZOR_LEAF",
+          "MOVE_STUN_SPORE",
+          "MOVE_ABSORB",
+          "MOVE_GROWTH"
+        ],
+        "ability": "ABILITY_OVERGROW",
+        "ability_num": 1,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_NIDORINO",
+        "level": 28,
+        "moves": [
+          "MOVE_RAZOR_LEAF",
+          "MOVE_MUD_SHOT",
+          "MOVE_GROWTH",
+          "MOVE_TACKLE"
+        ],
+        "ability": "ABILITY_CHLOROPHYLL",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  },
+  "TRAINER_LEADER_KOGA": {
+    "source_heading": "Koga — Parmanie — VALIDÉ DÉFINITIVEMENT",
+    "items": [
+      "ITEM_HYPER_POTION",
+      "ITEM_FULL_HEAL"
+    ],
+    "party": [
+      {
+        "species": "SPECIES_SNORLAX",
+        "level": 34,
+        "moves": [
+          "MOVE_POISON_STING",
+          "MOVE_SMOG",
+          "MOVE_HARDEN",
+          "MOVE_SLUDGE"
+        ],
+        "ability": "ABILITY_POISON_POINT",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_AERODACTYL",
+        "level": 35,
+        "moves": [
+          "MOVE_SLUDGE",
+          "MOVE_POISON_FANG",
+          "MOVE_LEER",
+          "MOVE_SMOG"
+        ],
+        "ability": "ABILITY_POISON_POINT",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_PARAS",
+        "level": 36,
+        "moves": [
+          "MOVE_POISON_FANG",
+          "MOVE_LEECH_LIFE",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_SCREECH"
+        ],
+        "ability": "ABILITY_SWARM",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_VENUSAUR",
+        "level": 38,
+        "moves": [
+          "MOVE_EMBER",
+          "MOVE_POISON_STING",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_BITE"
+        ],
+        "ability": "ABILITY_POISON_POINT",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_VENONAT",
+        "level": 40,
+        "moves": [
+          "MOVE_TOXIC",
+          "MOVE_SLUDGE",
+          "MOVE_BODY_SLAM",
+          "MOVE_LEER"
+        ],
+        "ability": "ABILITY_LIQUID_OOZE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  },
+  "TRAINER_LEADER_SABRINA": {
+    "source_heading": "Morgane — Safrania — VALIDÉ DÉFINITIVEMENT",
+    "items": [
+      "ITEM_HYPER_POTION",
+      "ITEM_FULL_HEAL"
+    ],
+    "party": [
+      {
+        "species": "SPECIES_VENOMOTH",
+        "level": 36,
+        "moves": [
+          "MOVE_CONFUSION",
+          "MOVE_POUND",
+          "MOVE_DISABLE",
+          "MOVE_LEER"
+        ],
+        "ability": "ABILITY_INNER_FOCUS",
+        "ability_num": 1,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_MANKEY",
+        "level": 37,
+        "moves": [
+          "MOVE_PSYBEAM",
+          "MOVE_CONFUSION",
+          "MOVE_DISABLE",
+          "MOVE_HEADBUTT"
+        ],
+        "ability": "ABILITY_SYNCHRONIZE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_FLAREON",
+        "level": 38,
+        "moves": [
+          "MOVE_PSYBEAM",
+          "MOVE_REFLECT",
+          "MOVE_HEADBUTT",
+          "MOVE_MEDITATE"
+        ],
+        "ability": "ABILITY_INNER_FOCUS",
+        "ability_num": 1,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_DUGTRIO",
+        "level": 39,
+        "moves": [
+          "MOVE_PSYBEAM",
+          "MOVE_CONFUSION",
+          "MOVE_DISABLE",
+          "MOVE_HEADBUTT"
+        ],
+        "ability": "ABILITY_SYNCHRONIZE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_ZAPDOS",
+        "level": 42,
+        "moves": [
+          "MOVE_EXTRASENSORY",
+          "MOVE_FUTURE_SIGHT",
+          "MOVE_DISABLE",
+          "MOVE_CONFUSION"
+        ],
+        "ability": "ABILITY_TRACE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  },
+  "TRAINER_LEADER_BLAINE": {
+    "source_heading": "Auguste — Cramois’Île — VALIDÉ DÉFINITIVEMENT",
+    "items": [
+      "ITEM_HYPER_POTION",
+      "ITEM_FULL_HEAL"
+    ],
+    "party": [
+      {
+        "species": "SPECIES_HAUNTER",
+        "level": 40,
+        "moves": [
+          "MOVE_EMBER",
+          "MOVE_BITE",
+          "MOVE_ROAR",
+          "MOVE_SMOKESCREEN"
+        ],
+        "ability": "ABILITY_FLAME_BODY",
+        "ability_num": 1,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_JOLTEON",
+        "level": 41,
+        "moves": [
+          "MOVE_FLAME_WHEEL",
+          "MOVE_WILL_O_WISP",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_SMOKESCREEN"
+        ],
+        "ability": "ABILITY_FLASH_FIRE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_VULPIX",
+        "level": 42,
+        "moves": [
+          "MOVE_EMBER",
+          "MOVE_HEADBUTT",
+          "MOVE_SCRATCH",
+          "MOVE_TAIL_WHIP"
+        ],
+        "ability": "ABILITY_PICKUP",
+        "ability_num": 1,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_SANDSLASH",
+        "level": 43,
+        "moves": [
+          "MOVE_FLAMETHROWER",
+          "MOVE_BITE",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_ROAR"
+        ],
+        "ability": "ABILITY_FLAME_BODY",
+        "ability_num": 1,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_PIDGEY",
+        "level": 45,
+        "moves": [
+          "MOVE_FLAMETHROWER",
+          "MOVE_BITE",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_LEER"
+        ],
+        "ability": "ABILITY_FLASH_FIRE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  },
+  "TRAINER_LEADER_GIOVANNI": {
+    "source_heading": "Giovanni — Jadielle — VALIDÉ DÉFINITIVEMENT",
+    "items": [
+      "ITEM_HYPER_POTION",
+      "ITEM_FULL_HEAL"
+    ],
+    "party": [
+      {
+        "species": "SPECIES_MAGIKARP",
+        "level": 41,
+        "moves": [
+          "MOVE_TACKLE",
+          "MOVE_MUD_SHOT",
+          "MOVE_ROCK_TOMB",
+          "MOVE_HARDEN"
+        ],
+        "ability": "ABILITY_ROCK_HEAD",
+        "ability_num": 1,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_OMANYTE",
+        "level": 42,
+        "moves": [
+          "MOVE_MUD_SHOT",
+          "MOVE_ROCK_TOMB",
+          "MOVE_TAKE_DOWN",
+          "MOVE_AGILITY"
+        ],
+        "ability": "ABILITY_ROCK_HEAD",
+        "ability_num": 1,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_NIDOQUEEN",
+        "level": 44,
+        "moves": [
+          "MOVE_BODY_SLAM",
+          "MOVE_SLASH",
+          "MOVE_ROCK_TOMB",
+          "MOVE_LEER"
+        ],
+        "ability": "ABILITY_GUTS",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_GYARADOS",
+        "level": 45,
+        "moves": [
+          "MOVE_DIG",
+          "MOVE_ROCK_SLIDE",
+          "MOVE_SCREECH",
+          "MOVE_TACKLE"
+        ],
+        "ability": "ABILITY_ROCK_HEAD",
+        "ability_num": 1,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_DODUO",
+        "level": 49,
+        "moves": [
+          "MOVE_FLAMETHROWER",
+          "MOVE_EARTHQUAKE",
+          "MOVE_ROCK_TOMB",
+          "MOVE_LEER"
+        ],
+        "ability": "ABILITY_INTIMIDATE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  },
+  "TRAINER_ELITE_FOUR_LORELEI": {
+    "source_heading": "Olga — Conseil 4 n°1 — VALIDÉ DÉFINITIVEMENT",
+    "items": [
+      "ITEM_FULL_RESTORE"
+    ],
+    "party": [
+      {
+        "species": "SPECIES_RAICHU",
+        "level": 50,
+        "moves": [
+          "MOVE_ICY_WIND",
+          "MOVE_POWDER_SNOW",
+          "MOVE_LIGHT_SCREEN",
+          "MOVE_QUICK_ATTACK"
+        ],
+        "ability": "ABILITY_THICK_FAT",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_WEEZING",
+        "level": 51,
+        "moves": [
+          "MOVE_ICE_BEAM",
+          "MOVE_SWIFT",
+          "MOVE_ICY_WIND",
+          "MOVE_TAIL_WHIP"
+        ],
+        "ability": "ABILITY_INNER_FOCUS",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_VAPOREON",
+        "level": 52,
+        "moves": [
+          "MOVE_SURF",
+          "MOVE_SLASH",
+          "MOVE_RAIN_DANCE",
+          "MOVE_AERIAL_ACE"
+        ],
+        "ability": "ABILITY_WATER_ABSORB",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_KADABRA",
+        "level": 53,
+        "moves": [
+          "MOVE_ICE_BEAM",
+          "MOVE_PSYCHIC",
+          "MOVE_AGILITY",
+          "MOVE_SWIFT"
+        ],
+        "ability": "ABILITY_THICK_FAT",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_SANDSHREW",
+        "level": 54,
+        "moves": [
+          "MOVE_ICE_BEAM",
+          "MOVE_WATER_PULSE",
+          "MOVE_ICY_WIND",
+          "MOVE_REFLECT"
+        ],
+        "ability": "ABILITY_THICK_FAT",
+        "ability_num": 0,
+        "held_item": "ITEM_SITRUS_BERRY"
+      }
+    ]
+  },
+  "TRAINER_ELITE_FOUR_BRUNO": {
+    "source_heading": "Aldo — Conseil 4 n°2 — VALIDÉ DÉFINITIVEMENT",
+    "items": [
+      "ITEM_FULL_RESTORE"
+    ],
+    "party": [
+      {
+        "species": "SPECIES_KINGLER",
+        "level": 51,
+        "moves": [
+          "MOVE_BRICK_BREAK",
+          "MOVE_ROCK_TOMB",
+          "MOVE_BULK_UP",
+          "MOVE_HEADBUTT"
+        ],
+        "ability": "ABILITY_GUTS",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_SLOWBRO",
+        "level": 52,
+        "moves": [
+          "MOVE_FURY_CUTTER",
+          "MOVE_BRICK_BREAK",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_AGILITY"
+        ],
+        "ability": "ABILITY_SWARM",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_JIGGLYPUFF",
+        "level": 53,
+        "moves": [
+          "MOVE_BRICK_BREAK",
+          "MOVE_FAINT_ATTACK",
+          "MOVE_ROCK_TOMB",
+          "MOVE_SCREECH"
+        ],
+        "ability": "ABILITY_INTIMIDATE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_HORSEA",
+        "level": 54,
+        "moves": [
+          "MOVE_BRICK_BREAK",
+          "MOVE_REVENGE",
+          "MOVE_ROCK_TOMB",
+          "MOVE_LEER"
+        ],
+        "ability": "ABILITY_GUTS",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_SEEL",
+        "level": 56,
+        "moves": [
+          "MOVE_BRICK_BREAK",
+          "MOVE_SURF",
+          "MOVE_ROCK_TOMB",
+          "MOVE_BULK_UP"
+        ],
+        "ability": "ABILITY_INTIMIDATE",
+        "ability_num": 0,
+        "held_item": "ITEM_SITRUS_BERRY"
+      }
+    ]
+  },
+  "TRAINER_ELITE_FOUR_AGATHA": {
+    "source_heading": "Agatha — Conseil 4 n°3 — VALIDÉ DÉFINITIVEMENT",
+    "items": [
+      "ITEM_FULL_RESTORE"
+    ],
+    "party": [
+      {
+        "species": "SPECIES_GOLBAT",
+        "level": 53,
+        "moves": [
+          "MOVE_SHADOW_BALL",
+          "MOVE_CONFUSE_RAY",
+          "MOVE_SPITE",
+          "MOVE_FAINT_ATTACK"
+        ],
+        "ability": "ABILITY_LEVITATE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_WEEPINBELL",
+        "level": 54,
+        "moves": [
+          "MOVE_SHADOW_BALL",
+          "MOVE_ROCK_TOMB",
+          "MOVE_HEADBUTT",
+          "MOVE_LEER"
+        ],
+        "ability": "ABILITY_INSOMNIA",
+        "ability_num": 1,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_GLOOM",
+        "level": 55,
+        "moves": [
+          "MOVE_SHADOW_BALL",
+          "MOVE_PSYCHIC",
+          "MOVE_REFLECT",
+          "MOVE_DISABLE"
+        ],
+        "ability": "ABILITY_INSOMNIA",
+        "ability_num": 1,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_ELECTABUZZ",
+        "level": 56,
+        "moves": [
+          "MOVE_SHADOW_BALL",
+          "MOVE_HEADBUTT",
+          "MOVE_SCREECH",
+          "MOVE_QUICK_ATTACK"
+        ],
+        "ability": "ABILITY_PRESSURE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_NIDORAN_M",
+        "level": 58,
+        "moves": [
+          "MOVE_SHADOW_BALL",
+          "MOVE_PSYCHIC",
+          "MOVE_WILL_O_WISP",
+          "MOVE_HEADBUTT"
+        ],
+        "ability": "ABILITY_LEVITATE",
+        "ability_num": 0,
+        "held_item": "ITEM_SITRUS_BERRY"
+      }
+    ]
+  },
+  "TRAINER_ELITE_FOUR_LANCE": {
+    "source_heading": "Peter — Conseil 4 n°4 — VALIDÉ DÉFINITIVEMENT",
+    "items": [
+      "ITEM_FULL_RESTORE"
+    ],
+    "party": [
+      {
+        "species": "SPECIES_WEEDLE",
+        "level": 54,
+        "moves": [
+          "MOVE_DRAGON_CLAW",
+          "MOVE_BITE",
+          "MOVE_TACKLE",
+          "MOVE_AGILITY"
+        ],
+        "ability": "ABILITY_INNER_FOCUS",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_PINSIR",
+        "level": 55,
+        "moves": [
+          "MOVE_AERIAL_ACE",
+          "MOVE_FAINT_ATTACK",
+          "MOVE_LIGHT_SCREEN",
+          "MOVE_LEER"
+        ],
+        "ability": "ABILITY_KEEN_EYE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_GROWLITHE",
+        "level": 56,
+        "moves": [
+          "MOVE_CRUNCH",
+          "MOVE_AERIAL_ACE",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_ROAR"
+        ],
+        "ability": "ABILITY_INTIMIDATE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_KAKUNA",
+        "level": 58,
+        "moves": [
+          "MOVE_DRAGON_CLAW",
+          "MOVE_AERIAL_ACE",
+          "MOVE_DRAGON_DANCE",
+          "MOVE_ROCK_TOMB"
+        ],
+        "ability": "ABILITY_INNER_FOCUS",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_BEEDRILL",
+        "level": 60,
+        "moves": [
+          "MOVE_CRUNCH",
+          "MOVE_BRICK_BREAK",
+          "MOVE_DRAGON_CLAW",
+          "MOVE_HYPER_BEAM"
+        ],
+        "ability": "ABILITY_PRESSURE",
+        "ability_num": 0,
+        "held_item": "ITEM_SITRUS_BERRY"
+      }
+    ]
+  },
+  "TRAINER_BOSS_GIOVANNI": {
+    "source_heading": "Giovanni — Repaire Rocket, Céladopole — VALIDÉ DÉFINITIVEMENT",
+    "items": [],
+    "party": [
+      {
+        "species": "SPECIES_PORYGON",
+        "level": 24,
+        "moves": [
+          "MOVE_TACKLE",
+          "MOVE_MUD_SHOT",
+          "MOVE_MAGNITUDE",
+          "MOVE_ROCK_TOMB"
+        ],
+        "ability": "ABILITY_SAND_VEIL",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_MAGIKARP",
+        "level": 25,
+        "moves": [
+          "MOVE_TACKLE",
+          "MOVE_SAND_ATTACK",
+          "MOVE_MUD_SLAP",
+          "MOVE_MUD_SHOT"
+        ],
+        "ability": "ABILITY_ROCK_HEAD",
+        "ability_num": 1,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_NIDOQUEEN",
+        "level": 29,
+        "moves": [
+          "MOVE_BODY_SLAM",
+          "MOVE_SCRATCH",
+          "MOVE_LEER",
+          "MOVE_BITE"
+        ],
+        "ability": "ABILITY_GUTS",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  },
+  "TRAINER_BOSS_GIOVANNI_2": {
+    "source_heading": "Giovanni — Sylphe SARL, Safrania — VALIDÉ DÉFINITIVEMENT",
+    "items": [],
+    "party": [
+      {
+        "species": "SPECIES_MEOWTH",
+        "level": 35,
+        "moves": [
+          "MOVE_SCRATCH",
+          "MOVE_SAND_ATTACK",
+          "MOVE_MUD_SLAP",
+          "MOVE_MUD_SHOT"
+        ],
+        "ability": "ABILITY_SAND_VEIL",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_OMANYTE",
+        "level": 37,
+        "moves": [
+          "MOVE_MUD_SHOT",
+          "MOVE_ROCK_TOMB",
+          "MOVE_DIG",
+          "MOVE_TAKE_DOWN"
+        ],
+        "ability": "ABILITY_ROCK_HEAD",
+        "ability_num": 1,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_GYARADOS",
+        "level": 37,
+        "moves": [
+          "MOVE_TAKE_DOWN",
+          "MOVE_DIG",
+          "MOVE_ROCK_TOMB",
+          "MOVE_SCREECH"
+        ],
+        "ability": "ABILITY_ROCK_HEAD",
+        "ability_num": 1,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_NIDOQUEEN",
+        "level": 41,
+        "moves": [
+          "MOVE_BODY_SLAM",
+          "MOVE_SLASH",
+          "MOVE_ROCK_TOMB",
+          "MOVE_LEER"
+        ],
+        "ability": "ABILITY_GUTS",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  },
+  "TRAINER_TEAM_ROCKET_ADMIN": {
+    "source_heading": "Admin Rocket n°1 — premier cadre — VALIDÉ DÉFINITIVEMENT",
+    "items": [],
+    "party": [
+      {
+        "species": "SPECIES_CHANSEY",
+        "level": 52,
+        "moves": [
+          "MOVE_FAINT_ATTACK",
+          "MOVE_TAUNT",
+          "MOVE_SCREECH",
+          "MOVE_CONFUSE_RAY"
+        ],
+        "ability": "ABILITY_INSOMNIA",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_ARTICUNO",
+        "level": 53,
+        "moves": [
+          "MOVE_BODY_SLAM",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_SWORDS_DANCE",
+          "MOVE_DOUBLE_EDGE"
+        ],
+        "ability": "ABILITY_IMMUNITY",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_PARAS",
+        "level": 54,
+        "moves": [
+          "MOVE_POISON_FANG",
+          "MOVE_LEECH_LIFE",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_SCREECH"
+        ],
+        "ability": "ABILITY_SWARM",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  },
+  "TRAINER_TEAM_ROCKET_ADMIN_2": {
+    "source_heading": "Admin Rocket n°2 — second cadre — VALIDÉ DÉFINITIVEMENT",
+    "items": [],
+    "party": [
+      {
+        "species": "SPECIES_DITTO",
+        "level": 53,
+        "moves": [
+          "MOVE_CRUNCH",
+          "MOVE_BULK_UP",
+          "MOVE_BODY_SLAM",
+          "MOVE_ROCK_SLIDE"
+        ],
+        "ability": "ABILITY_INTIMIDATE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_PARASECT",
+        "level": 54,
+        "moves": [
+          "MOVE_BODY_SLAM",
+          "MOVE_SLASH",
+          "MOVE_BRICK_BREAK",
+          "MOVE_SCREECH"
+        ],
+        "ability": "ABILITY_TRACE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_EEVEE",
+        "level": 55,
+        "moves": [
+          "MOVE_METAL_CLAW",
+          "MOVE_BRICK_BREAK",
+          "MOVE_CRUNCH",
+          "MOVE_SCREECH"
+        ],
+        "ability": "ABILITY_BATTLE_ARMOR",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  },
+  "TRAINER_BLACK_BELT_KOICHI": {
+    "source_heading": "Koichi — Maître du Dojo — VALIDÉ DÉFINITIVEMENT",
+    "items": [],
+    "party": [
+      {
+        "species": "SPECIES_KINGLER",
+        "level": 35,
+        "moves": [
+          "MOVE_BRICK_BREAK",
+          "MOVE_BULK_UP",
+          "MOVE_HEADBUTT",
+          "MOVE_ROCK_TOMB"
+        ],
+        "ability": "ABILITY_GUTS",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_SLOWBRO",
+        "level": 37,
+        "moves": [
+          "MOVE_FURY_CUTTER",
+          "MOVE_BRICK_BREAK",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_AGILITY"
+        ],
+        "ability": "ABILITY_SWARM",
+        "ability_num": 0,
+        "held_item": "ITEM_BLACK_BELT"
+      },
+      {
+        "species": "SPECIES_RAPIDASH",
+        "level": 37,
+        "moves": [
+          "MOVE_BRICK_BREAK",
+          "MOVE_FURY_CUTTER",
+          "MOVE_ROCK_TOMB",
+          "MOVE_FOCUS_ENERGY"
+        ],
+        "ability": "ABILITY_SWARM",
+        "ability_num": 0,
+        "held_item": "ITEM_BLACK_BELT"
+      }
+    ]
+  }
+}

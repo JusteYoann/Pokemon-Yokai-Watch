@@ -42,6 +42,8 @@
 #include "constants/pokemon.h"
 #include "constants/songs.h"
 #include "constants/trainers.h"
+#include "constants/opponents.h"
+#include "data/yokai_trainer_abilities.h"
 
 static void SpriteCB_UnusedDebugSprite(struct Sprite *sprite);
 static void HandleAction_UseMove(void);
@@ -1630,6 +1632,11 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum)
             }
             }
         }
+
+        // Boss documents may choose either of the species' two validated abilities.
+        // Apply the slot after creation; no per-mon layout or PID mutation is needed.
+        for (i = 0; i < gTrainers[trainerNum].partySize; i++)
+            SetMonData(&party[i], MON_DATA_ABILITY_NUM, &sYokaiTrainerAbilitySlots[trainerNum][i]);
 
         gBattleTypeFlags |= gTrainers[trainerNum].doubleBattle;
     }
