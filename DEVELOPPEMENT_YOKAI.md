@@ -69,3 +69,9 @@ Référence Protagoniste/Matt Descartes.webp ouverte et comparée à Blue dans l
 La grande planche générée est conservée intégralement dans source/generated-sheet.png. Son format réel différait du quadrillage demandé ; les rectangles de découpe audités, l’échantillonnage sans lissage et la conversion GBA sont reproductibles par tools/yokai/convertir_matt.py. Les tons orange du casque et les tons olive sont conservés dans une palette commune. Aperçu opaque sur damier : preview-checkerboard.png. Une frame de marche orientée à droite est retournée via les commandes d’animation du moteur, sans dessiner un autre personnage.
 
 Un défaut d’ordre des tuiles a été détecté sur les captures en jeu et corrigé par une règle explicite de conversion des frames 16×32 dans spritesheet_rules.mk. Les captures corrigées montrent les quatre orientations et trois cycles de marche sur place, ainsi que les trois portraits dans de vrais combats mGBA. Tous les sprites liés sont aussi comparés aux pixels des PNG. Les apparitions scénarisées complètes restent à tester. Nathan et Katie ne sont pas encore dessinés/intégrés ; leurs anciennes ressources restent actives à ce stade.
+
+## Outils QA et synchronisation
+
+Après l’installation de compilation, bash tools/yokai/installer_tests_debian.sh installe CMake (si absent) dans le sysroot utilisateur et construit le core mGBA fixé. Les paquets Debian sont vérifiés par empreintes. Pillow est une dépendance Python de la QA et des conversions PNG (tools/yokai/requirements.txt), pas du build du jeu. Ne pas exiger les fichiers privés ou un BIOS pour compiler/tester les sources publiques actuelles.
+
+Le clone indépendant depuis GitHub a reproduit octet pour octet le jalon 3f65e9015 : voir REPRODUCTIBILITE_EQUIPES.json. Une vérification du jalon graphique suivant est distincte. Les enregistrements musicaux restent privés ; à ce stade aucune OST Yo-kai ni quête finale n’a encore été intégrée.
