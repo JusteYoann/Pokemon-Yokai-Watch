@@ -1,0 +1,780 @@
+{
+  "changes": [
+    {
+      "map": "CeladonCity_Condominiums_1F",
+      "before": "MUS_CELADON",
+      "after": "MUS_YOKAI_UPTOWN",
+      "zone": "CeladonCity"
+    },
+    {
+      "map": "CeladonCity_Condominiums_2F",
+      "before": "MUS_CELADON",
+      "after": "MUS_YOKAI_UPTOWN",
+      "zone": "CeladonCity"
+    },
+    {
+      "map": "CeladonCity_Condominiums_3F",
+      "before": "MUS_CELADON",
+      "after": "MUS_YOKAI_UPTOWN",
+      "zone": "CeladonCity"
+    },
+    {
+      "map": "CeladonCity_Condominiums_Roof",
+      "before": "MUS_CELADON",
+      "after": "MUS_YOKAI_UPTOWN",
+      "zone": "CeladonCity"
+    },
+    {
+      "map": "CeladonCity_Condominiums_RoofRoom",
+      "before": "MUS_CELADON",
+      "after": "MUS_YOKAI_UPTOWN",
+      "zone": "CeladonCity"
+    },
+    {
+      "map": "CeladonCity_DepartmentStore_1F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_YOKAI_UPTOWN",
+      "zone": "CeladonCity"
+    },
+    {
+      "map": "CeladonCity_DepartmentStore_2F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_YOKAI_UPTOWN",
+      "zone": "CeladonCity"
+    },
+    {
+      "map": "CeladonCity_DepartmentStore_3F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_YOKAI_UPTOWN",
+      "zone": "CeladonCity"
+    },
+    {
+      "map": "CeladonCity_DepartmentStore_4F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_YOKAI_UPTOWN",
+      "zone": "CeladonCity"
+    },
+    {
+      "map": "CeladonCity_DepartmentStore_5F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_YOKAI_UPTOWN",
+      "zone": "CeladonCity"
+    },
+    {
+      "map": "CeladonCity_DepartmentStore_Elevator",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_YOKAI_UPTOWN",
+      "zone": "CeladonCity"
+    },
+    {
+      "map": "CeladonCity_DepartmentStore_Roof",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_YOKAI_UPTOWN",
+      "zone": "CeladonCity"
+    },
+    {
+      "map": "CeladonCity_GameCorner",
+      "before": "MUS_GAME_CORNER",
+      "after": "MUS_YOKAI_UPTOWN",
+      "zone": "CeladonCity"
+    },
+    {
+      "map": "CeladonCity_GameCorner_PrizeRoom",
+      "before": "MUS_CELADON",
+      "after": "MUS_YOKAI_UPTOWN",
+      "zone": "CeladonCity"
+    },
+    {
+      "map": "CeladonCity_Hotel",
+      "before": "MUS_CELADON",
+      "after": "MUS_YOKAI_UPTOWN",
+      "zone": "CeladonCity"
+    },
+    {
+      "map": "CeladonCity_House1",
+      "before": "MUS_CELADON",
+      "after": "MUS_YOKAI_UPTOWN",
+      "zone": "CeladonCity"
+    },
+    {
+      "map": "CeladonCity_PokemonCenter_1F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_YOKAI_UPTOWN",
+      "zone": "CeladonCity"
+    },
+    {
+      "map": "CeladonCity_PokemonCenter_2F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_YOKAI_UPTOWN",
+      "zone": "CeladonCity"
+    },
+    {
+      "map": "CeladonCity_Restaurant",
+      "before": "MUS_CELADON",
+      "after": "MUS_YOKAI_UPTOWN",
+      "zone": "CeladonCity"
+    },
+    {
+      "map": "CeruleanCity_Mart",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_FUCHSIA",
+      "zone": "CeruleanCity"
+    },
+    {
+      "map": "CeruleanCity_PokemonCenter_1F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_FUCHSIA",
+      "zone": "CeruleanCity"
+    },
+    {
+      "map": "CeruleanCity_PokemonCenter_2F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_FUCHSIA",
+      "zone": "CeruleanCity"
+    },
+    {
+      "map": "CinnabarIsland_Mart",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_CINNABAR",
+      "zone": "CinnabarIsland"
+    },
+    {
+      "map": "CinnabarIsland_PokemonCenter_1F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_CINNABAR",
+      "zone": "CinnabarIsland"
+    },
+    {
+      "map": "CinnabarIsland_PokemonCenter_2F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_CINNABAR",
+      "zone": "CinnabarIsland"
+    },
+    {
+      "map": "FiveIsland_LostCave_Entrance",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_SEVII_45",
+      "zone": "FiveIsland"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room1",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_SEVII_45",
+      "zone": "FiveIsland"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room10",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_SEVII_45",
+      "zone": "FiveIsland"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room11",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_SEVII_45",
+      "zone": "FiveIsland"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room12",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_SEVII_45",
+      "zone": "FiveIsland"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room13",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_SEVII_45",
+      "zone": "FiveIsland"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room14",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_SEVII_45",
+      "zone": "FiveIsland"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room2",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_SEVII_45",
+      "zone": "FiveIsland"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room3",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_SEVII_45",
+      "zone": "FiveIsland"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room4",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_SEVII_45",
+      "zone": "FiveIsland"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room5",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_SEVII_45",
+      "zone": "FiveIsland"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room6",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_SEVII_45",
+      "zone": "FiveIsland"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room7",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_SEVII_45",
+      "zone": "FiveIsland"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room8",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_SEVII_45",
+      "zone": "FiveIsland"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room9",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_SEVII_45",
+      "zone": "FiveIsland"
+    },
+    {
+      "map": "FiveIsland_Meadow",
+      "before": "MUS_SEVII_ROUTE",
+      "after": "MUS_SEVII_45",
+      "zone": "FiveIsland"
+    },
+    {
+      "map": "FiveIsland_MemorialPillar",
+      "before": "MUS_SEVII_ROUTE",
+      "after": "MUS_SEVII_45",
+      "zone": "FiveIsland"
+    },
+    {
+      "map": "FiveIsland_PokemonCenter_1F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_SEVII_45",
+      "zone": "FiveIsland"
+    },
+    {
+      "map": "FiveIsland_PokemonCenter_2F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_SEVII_45",
+      "zone": "FiveIsland"
+    },
+    {
+      "map": "FiveIsland_ResortGorgeous",
+      "before": "MUS_SEVII_ROUTE",
+      "after": "MUS_SEVII_45",
+      "zone": "FiveIsland"
+    },
+    {
+      "map": "FiveIsland_RocketWarehouse",
+      "before": "MUS_ROCKET_HIDEOUT",
+      "after": "MUS_SEVII_45",
+      "zone": "FiveIsland"
+    },
+    {
+      "map": "FiveIsland_WaterLabyrinth",
+      "before": "MUS_SEVII_ROUTE",
+      "after": "MUS_SEVII_45",
+      "zone": "FiveIsland"
+    },
+    {
+      "map": "FourIsland_IcefallCave_1F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_SEVII_45",
+      "zone": "FourIsland"
+    },
+    {
+      "map": "FourIsland_IcefallCave_B1F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_SEVII_45",
+      "zone": "FourIsland"
+    },
+    {
+      "map": "FourIsland_IcefallCave_Back",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_SEVII_45",
+      "zone": "FourIsland"
+    },
+    {
+      "map": "FourIsland_IcefallCave_Entrance",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_SEVII_45",
+      "zone": "FourIsland"
+    },
+    {
+      "map": "FourIsland_Mart",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_SEVII_45",
+      "zone": "FourIsland"
+    },
+    {
+      "map": "FourIsland_PokemonCenter_1F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_SEVII_45",
+      "zone": "FourIsland"
+    },
+    {
+      "map": "FourIsland_PokemonCenter_2F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_SEVII_45",
+      "zone": "FourIsland"
+    },
+    {
+      "map": "FuchsiaCity_Mart",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_FUCHSIA",
+      "zone": "FuchsiaCity"
+    },
+    {
+      "map": "FuchsiaCity_PokemonCenter_1F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_FUCHSIA",
+      "zone": "FuchsiaCity"
+    },
+    {
+      "map": "FuchsiaCity_PokemonCenter_2F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_FUCHSIA",
+      "zone": "FuchsiaCity"
+    },
+    {
+      "map": "LavenderTown_House2",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_LAVENDER",
+      "zone": "LavenderTown"
+    },
+    {
+      "map": "LavenderTown_Mart",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_LAVENDER",
+      "zone": "LavenderTown"
+    },
+    {
+      "map": "LavenderTown_PokemonCenter_1F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_LAVENDER",
+      "zone": "LavenderTown"
+    },
+    {
+      "map": "LavenderTown_PokemonCenter_2F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_LAVENDER",
+      "zone": "LavenderTown"
+    },
+    {
+      "map": "OneIsland_KindleRoad",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_SEVII_123",
+      "zone": "OneIsland"
+    },
+    {
+      "map": "OneIsland_KindleRoad_EmberSpa",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_SEVII_123",
+      "zone": "OneIsland"
+    },
+    {
+      "map": "OneIsland_PokemonCenter_1F",
+      "before": "MUS_NET_CENTER",
+      "after": "MUS_SEVII_123",
+      "zone": "OneIsland"
+    },
+    {
+      "map": "OneIsland_PokemonCenter_2F",
+      "before": "MUS_NET_CENTER",
+      "after": "MUS_SEVII_123",
+      "zone": "OneIsland"
+    },
+    {
+      "map": "OneIsland_TreasureBeach",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_SEVII_123",
+      "zone": "OneIsland"
+    },
+    {
+      "map": "PalletTown_ProfessorOaksLab",
+      "before": "MUS_OAK_LAB",
+      "after": "MUS_PALLET",
+      "zone": "PalletTown"
+    },
+    {
+      "map": "PewterCity_Mart",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_PEWTER",
+      "zone": "PewterCity"
+    },
+    {
+      "map": "PewterCity_PokemonCenter_1F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_PEWTER",
+      "zone": "PewterCity"
+    },
+    {
+      "map": "PewterCity_PokemonCenter_2F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_PEWTER",
+      "zone": "PewterCity"
+    },
+    {
+      "map": "Route1",
+      "before": "MUS_ROUTE1",
+      "after": "MUS_PALLET",
+      "zone": "PalletTown"
+    },
+    {
+      "map": "Route11",
+      "before": "MUS_ROUTE11",
+      "after": "MUS_YOKAI_SAN_FANTASTICO",
+      "zone": "VermilionCity"
+    },
+    {
+      "map": "SaffronCity_Mart",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_PEWTER",
+      "zone": "SaffronCity"
+    },
+    {
+      "map": "SaffronCity_PokemonCenter_1F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_PEWTER",
+      "zone": "SaffronCity"
+    },
+    {
+      "map": "SaffronCity_PokemonCenter_2F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_PEWTER",
+      "zone": "SaffronCity"
+    },
+    {
+      "map": "SevenIsland_Mart",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_SEVII_67",
+      "zone": "SevenIsland"
+    },
+    {
+      "map": "SevenIsland_PokemonCenter_1F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_SEVII_67",
+      "zone": "SevenIsland"
+    },
+    {
+      "map": "SevenIsland_PokemonCenter_2F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_SEVII_67",
+      "zone": "SevenIsland"
+    },
+    {
+      "map": "SevenIsland_SevaultCanyon",
+      "before": "MUS_SEVII_ROUTE",
+      "after": "MUS_SEVII_67",
+      "zone": "SevenIsland"
+    },
+    {
+      "map": "SevenIsland_SevaultCanyon_Entrance",
+      "before": "MUS_SEVII_ROUTE",
+      "after": "MUS_SEVII_67",
+      "zone": "SevenIsland"
+    },
+    {
+      "map": "SevenIsland_SevaultCanyon_TanobyKey",
+      "before": "MUS_SEVII_DUNGEON",
+      "after": "MUS_SEVII_67",
+      "zone": "SevenIsland"
+    },
+    {
+      "map": "SevenIsland_TanobyRuins",
+      "before": "MUS_SEVII_ROUTE",
+      "after": "MUS_SEVII_67",
+      "zone": "SevenIsland"
+    },
+    {
+      "map": "SevenIsland_TanobyRuins_DilfordChamber",
+      "before": "MUS_SEVII_DUNGEON",
+      "after": "MUS_SEVII_67",
+      "zone": "SevenIsland"
+    },
+    {
+      "map": "SevenIsland_TanobyRuins_LiptooChamber",
+      "before": "MUS_SEVII_DUNGEON",
+      "after": "MUS_SEVII_67",
+      "zone": "SevenIsland"
+    },
+    {
+      "map": "SevenIsland_TanobyRuins_MoneanChamber",
+      "before": "MUS_SEVII_DUNGEON",
+      "after": "MUS_SEVII_67",
+      "zone": "SevenIsland"
+    },
+    {
+      "map": "SevenIsland_TanobyRuins_RixyChamber",
+      "before": "MUS_SEVII_DUNGEON",
+      "after": "MUS_SEVII_67",
+      "zone": "SevenIsland"
+    },
+    {
+      "map": "SevenIsland_TanobyRuins_ScufibChamber",
+      "before": "MUS_SEVII_DUNGEON",
+      "after": "MUS_SEVII_67",
+      "zone": "SevenIsland"
+    },
+    {
+      "map": "SevenIsland_TanobyRuins_ViapoisChamber",
+      "before": "MUS_SEVII_DUNGEON",
+      "after": "MUS_SEVII_67",
+      "zone": "SevenIsland"
+    },
+    {
+      "map": "SevenIsland_TanobyRuins_WeepthChamber",
+      "before": "MUS_SEVII_DUNGEON",
+      "after": "MUS_SEVII_67",
+      "zone": "SevenIsland"
+    },
+    {
+      "map": "SevenIsland_TrainerTower",
+      "before": "MUS_SEVII_ROUTE",
+      "after": "MUS_SEVII_67",
+      "zone": "SevenIsland"
+    },
+    {
+      "map": "SixIsland_AlteringCave",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_SEVII_67",
+      "zone": "SixIsland"
+    },
+    {
+      "map": "SixIsland_DottedHole_1F",
+      "before": "MUS_SEVII_DUNGEON",
+      "after": "MUS_SEVII_67",
+      "zone": "SixIsland"
+    },
+    {
+      "map": "SixIsland_DottedHole_B1F",
+      "before": "MUS_SEVII_DUNGEON",
+      "after": "MUS_SEVII_67",
+      "zone": "SixIsland"
+    },
+    {
+      "map": "SixIsland_DottedHole_B2F",
+      "before": "MUS_SEVII_DUNGEON",
+      "after": "MUS_SEVII_67",
+      "zone": "SixIsland"
+    },
+    {
+      "map": "SixIsland_DottedHole_B3F",
+      "before": "MUS_SEVII_DUNGEON",
+      "after": "MUS_SEVII_67",
+      "zone": "SixIsland"
+    },
+    {
+      "map": "SixIsland_DottedHole_B4F",
+      "before": "MUS_SEVII_DUNGEON",
+      "after": "MUS_SEVII_67",
+      "zone": "SixIsland"
+    },
+    {
+      "map": "SixIsland_DottedHole_SapphireRoom",
+      "before": "MUS_SEVII_DUNGEON",
+      "after": "MUS_SEVII_67",
+      "zone": "SixIsland"
+    },
+    {
+      "map": "SixIsland_GreenPath",
+      "before": "MUS_SEVII_ROUTE",
+      "after": "MUS_SEVII_67",
+      "zone": "SixIsland"
+    },
+    {
+      "map": "SixIsland_Mart",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_SEVII_67",
+      "zone": "SixIsland"
+    },
+    {
+      "map": "SixIsland_OutcastIsland",
+      "before": "MUS_SEVII_ROUTE",
+      "after": "MUS_SEVII_67",
+      "zone": "SixIsland"
+    },
+    {
+      "map": "SixIsland_PatternBush",
+      "before": "MUS_VIRIDIAN_FOREST",
+      "after": "MUS_SEVII_67",
+      "zone": "SixIsland"
+    },
+    {
+      "map": "SixIsland_PokemonCenter_1F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_SEVII_67",
+      "zone": "SixIsland"
+    },
+    {
+      "map": "SixIsland_PokemonCenter_2F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_SEVII_67",
+      "zone": "SixIsland"
+    },
+    {
+      "map": "SixIsland_RuinValley",
+      "before": "MUS_SEVII_ROUTE",
+      "after": "MUS_SEVII_67",
+      "zone": "SixIsland"
+    },
+    {
+      "map": "SixIsland_WaterPath",
+      "before": "MUS_SEVII_ROUTE",
+      "after": "MUS_SEVII_67",
+      "zone": "SixIsland"
+    },
+    {
+      "map": "SixIsland_WaterPath_House1",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_SEVII_67",
+      "zone": "SixIsland"
+    },
+    {
+      "map": "SixIsland_WaterPath_House2",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_SEVII_67",
+      "zone": "SixIsland"
+    },
+    {
+      "map": "ThreeIsland_BerryForest",
+      "before": "MUS_VIRIDIAN_FOREST",
+      "after": "MUS_SEVII_123",
+      "zone": "ThreeIsland"
+    },
+    {
+      "map": "ThreeIsland_BondBridge",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_SEVII_123",
+      "zone": "ThreeIsland"
+    },
+    {
+      "map": "ThreeIsland_DunsparceTunnel",
+      "before": "MUS_VIRIDIAN_FOREST",
+      "after": "MUS_SEVII_123",
+      "zone": "ThreeIsland"
+    },
+    {
+      "map": "ThreeIsland_Mart",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_SEVII_123",
+      "zone": "ThreeIsland"
+    },
+    {
+      "map": "ThreeIsland_PokemonCenter_1F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_SEVII_123",
+      "zone": "ThreeIsland"
+    },
+    {
+      "map": "ThreeIsland_PokemonCenter_2F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_SEVII_123",
+      "zone": "ThreeIsland"
+    },
+    {
+      "map": "ThreeIsland_Port",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_SEVII_123",
+      "zone": "ThreeIsland"
+    },
+    {
+      "map": "TwoIsland_CapeBrink",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_SEVII_123",
+      "zone": "TwoIsland"
+    },
+    {
+      "map": "TwoIsland_JoyfulGameCorner",
+      "before": "MUS_GAME_CORNER",
+      "after": "MUS_SEVII_123",
+      "zone": "TwoIsland"
+    },
+    {
+      "map": "TwoIsland_PokemonCenter_1F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_SEVII_123",
+      "zone": "TwoIsland"
+    },
+    {
+      "map": "TwoIsland_PokemonCenter_2F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_SEVII_123",
+      "zone": "TwoIsland"
+    },
+    {
+      "map": "VermilionCity_House1",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_YOKAI_SAN_FANTASTICO",
+      "zone": "VermilionCity"
+    },
+    {
+      "map": "VermilionCity_House2",
+      "before": "MUS_VERMILLION",
+      "after": "MUS_YOKAI_SAN_FANTASTICO",
+      "zone": "VermilionCity"
+    },
+    {
+      "map": "VermilionCity_House3",
+      "before": "MUS_VERMILLION",
+      "after": "MUS_YOKAI_SAN_FANTASTICO",
+      "zone": "VermilionCity"
+    },
+    {
+      "map": "VermilionCity_Mart",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_YOKAI_SAN_FANTASTICO",
+      "zone": "VermilionCity"
+    },
+    {
+      "map": "VermilionCity_PokemonCenter_1F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_YOKAI_SAN_FANTASTICO",
+      "zone": "VermilionCity"
+    },
+    {
+      "map": "VermilionCity_PokemonCenter_2F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_YOKAI_SAN_FANTASTICO",
+      "zone": "VermilionCity"
+    },
+    {
+      "map": "VermilionCity_PokemonFanClub",
+      "before": "MUS_VERMILLION",
+      "after": "MUS_YOKAI_SAN_FANTASTICO",
+      "zone": "VermilionCity"
+    },
+    {
+      "map": "ViridianCity_Mart",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_PEWTER",
+      "zone": "ViridianCity"
+    },
+    {
+      "map": "ViridianCity_PokemonCenter_1F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_PEWTER",
+      "zone": "ViridianCity"
+    },
+    {
+      "map": "ViridianCity_PokemonCenter_2F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_PEWTER",
+      "zone": "ViridianCity"
+    }
+  ],
+  "maps_audited": 425,
+  "new_compositions_activated": 0,
+  "exceptions": [
+    "Gym",
+    "FightingDojo",
+    "standalone dungeons/story maps",
+    "multiplayer shared UnionRoom retains its own music"
+  ]
+}

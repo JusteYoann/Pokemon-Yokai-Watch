@@ -633,6 +633,7 @@ void MPlayStart(struct MusicPlayerInfo *mplayInfo, struct SongHeader *songHeader
         YokaiDiscardPausedSample(mplayInfo);
         mplayInfo->status = 0;
         mplayInfo->songHeader = songHeader;
+        YokaiCalibrateSong(mplayInfo, songHeader);
         mplayInfo->tone = songHeader->tone;
         mplayInfo->priority = songHeader->priority;
         mplayInfo->clock = 0;
@@ -778,11 +779,15 @@ void TrkVolPitSet(struct MusicPlayerInfo *mplayInfo, struct MusicPlayerTrack *tr
     {
         s32 x;
         s32 y;
+        u32 rightVolume;
+        u32 leftVolume;
 
         x = (u32)(track->vol * track->volX) >> 5;
 
         if (track->modT == 1)
             x = (u32)(x * (track->modM + 128)) >> 7;
+
+        x = YokaiScaleTrackVolume(mplayInfo, x);
 
         y = 2 * track->pan + track->panX;
 
@@ -794,8 +799,10 @@ void TrkVolPitSet(struct MusicPlayerInfo *mplayInfo, struct MusicPlayerTrack *tr
         else if (y > 127)
             y = 127;
 
-        track->volMR = (u32)((y + 128) * x) >> 8;
-        track->volML = (u32)((127 - y) * x) >> 8;
+        rightVolume = (u32)((y + 128) * x) >> 8;
+        leftVolume = (u32)((127 - y) * x) >> 8;
+        track->volMR = rightVolume > 255 ? 255 : rightVolume;
+        track->volML = leftVolume > 255 ? 255 : leftVolume;
     }
 
     if (track->flags & MPT_FLG_PITSET)

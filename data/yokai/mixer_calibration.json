@@ -1,0 +1,3726 @@
+{
+  "method": "Actual B13 mGBA finite-window EBU R128, 20 Hz DC rejection; BGM target -29, repeated UI -28, other SFX -25 LUFS; no native sample amplification, private gain capped 3x, output volume components clamped safely",
+  "tracks": [
+    {
+      "constant": "SE_USE_ITEM",
+      "song_id": 1,
+      "baseline_window_lufs": -19.8,
+      "target_window_lufs": -25,
+      "gain_q8": 141,
+      "gain_db": -5.18,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_PC_LOGIN",
+      "song_id": 2,
+      "baseline_window_lufs": -19.8,
+      "target_window_lufs": -28,
+      "gain_q8": 100,
+      "gain_db": -8.16,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_PC_OFF",
+      "song_id": 3,
+      "baseline_window_lufs": -20.2,
+      "target_window_lufs": -28,
+      "gain_q8": 104,
+      "gain_db": -7.82,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_PC_ON",
+      "song_id": 4,
+      "baseline_window_lufs": -19.0,
+      "target_window_lufs": -28,
+      "gain_q8": 91,
+      "gain_db": -8.98,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_SELECT",
+      "song_id": 5,
+      "baseline_window_lufs": -21.8,
+      "target_window_lufs": -28,
+      "gain_q8": 125,
+      "gain_db": -6.23,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_WIN_OPEN",
+      "song_id": 6,
+      "baseline_window_lufs": -17.8,
+      "target_window_lufs": -28,
+      "gain_q8": 79,
+      "gain_db": -10.21,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_WALL_HIT",
+      "song_id": 7,
+      "baseline_window_lufs": -25.3,
+      "target_window_lufs": -28,
+      "gain_q8": 188,
+      "gain_db": -2.68,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_RS_DOOR",
+      "song_id": 8,
+      "baseline_window_lufs": -22.7,
+      "target_window_lufs": -25,
+      "gain_q8": 196,
+      "gain_db": -2.32,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_EXIT",
+      "song_id": 9,
+      "baseline_window_lufs": -21.0,
+      "target_window_lufs": -28,
+      "gain_q8": 114,
+      "gain_db": -7.03,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_LEDGE",
+      "song_id": 10,
+      "baseline_window_lufs": -24.0,
+      "target_window_lufs": -25,
+      "gain_q8": 228,
+      "gain_db": -1.01,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BIKE_BELL",
+      "song_id": 11,
+      "baseline_window_lufs": -19.8,
+      "target_window_lufs": -25,
+      "gain_q8": 141,
+      "gain_db": -5.18,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_NOT_EFFECTIVE",
+      "song_id": 12,
+      "baseline_window_lufs": -20.9,
+      "target_window_lufs": -25,
+      "gain_q8": 160,
+      "gain_db": -4.08,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_EFFECTIVE",
+      "song_id": 13,
+      "baseline_window_lufs": -17.5,
+      "target_window_lufs": -25,
+      "gain_q8": 108,
+      "gain_db": -7.5,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_SUPER_EFFECTIVE",
+      "song_id": 14,
+      "baseline_window_lufs": -15.9,
+      "target_window_lufs": -25,
+      "gain_q8": 90,
+      "gain_db": -9.08,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BALL_OPEN",
+      "song_id": 15,
+      "baseline_window_lufs": -18.7,
+      "target_window_lufs": -25,
+      "gain_q8": 124,
+      "gain_db": -6.3,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_FAINT",
+      "song_id": 16,
+      "baseline_window_lufs": -19.0,
+      "target_window_lufs": -25,
+      "gain_q8": 128,
+      "gain_db": -6.02,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_FLEE",
+      "song_id": 17,
+      "baseline_window_lufs": -19.1,
+      "target_window_lufs": -25,
+      "gain_q8": 130,
+      "gain_db": -5.89,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_SLIDING_DOOR",
+      "song_id": 18,
+      "baseline_window_lufs": -25.6,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_SHIP",
+      "song_id": 19,
+      "baseline_window_lufs": -13.8,
+      "target_window_lufs": -25,
+      "gain_q8": 71,
+      "gain_db": -11.14,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BANG",
+      "song_id": 20,
+      "baseline_window_lufs": -19.0,
+      "target_window_lufs": -25,
+      "gain_q8": 128,
+      "gain_db": -6.02,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_PIN",
+      "song_id": 21,
+      "baseline_window_lufs": -26.3,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BOO",
+      "song_id": 22,
+      "baseline_window_lufs": -22.7,
+      "target_window_lufs": -25,
+      "gain_q8": 196,
+      "gain_db": -2.32,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BALL",
+      "song_id": 23,
+      "baseline_window_lufs": -25.5,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_CONTEST_PLACE",
+      "song_id": 24,
+      "baseline_window_lufs": -19.2,
+      "target_window_lufs": -25,
+      "gain_q8": 131,
+      "gain_db": -5.82,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_SUCCESS",
+      "song_id": 25,
+      "baseline_window_lufs": -22.6,
+      "target_window_lufs": -25,
+      "gain_q8": 194,
+      "gain_db": -2.41,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_FAILURE",
+      "song_id": 26,
+      "baseline_window_lufs": -20.4,
+      "target_window_lufs": -25,
+      "gain_q8": 151,
+      "gain_db": -4.59,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_EXP",
+      "song_id": 27,
+      "baseline_window_lufs": -21.3,
+      "target_window_lufs": -25,
+      "gain_q8": 167,
+      "gain_db": -3.71,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BIKE_HOP",
+      "song_id": 28,
+      "baseline_window_lufs": -23.4,
+      "target_window_lufs": -25,
+      "gain_q8": 213,
+      "gain_db": -1.6,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_SWITCH",
+      "song_id": 29,
+      "baseline_window_lufs": -22.5,
+      "target_window_lufs": -25,
+      "gain_q8": 192,
+      "gain_db": -2.5,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_CLICK",
+      "song_id": 30,
+      "baseline_window_lufs": -20.0,
+      "target_window_lufs": -25,
+      "gain_q8": 144,
+      "gain_db": -5.0,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_FU_ZAKU",
+      "song_id": 31,
+      "baseline_window_lufs": -26.1,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_CONTEST_CONDITION_LOSE",
+      "song_id": 32,
+      "baseline_window_lufs": -24.4,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_LAVARIDGE_FALL_WARP",
+      "song_id": 33,
+      "baseline_window_lufs": -20.1,
+      "target_window_lufs": -25,
+      "gain_q8": 146,
+      "gain_db": -4.88,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_ICE_STAIRS",
+      "song_id": 34,
+      "baseline_window_lufs": -20.4,
+      "target_window_lufs": -25,
+      "gain_q8": 151,
+      "gain_db": -4.59,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_ICE_BREAK",
+      "song_id": 35,
+      "baseline_window_lufs": -19.1,
+      "target_window_lufs": -25,
+      "gain_q8": 130,
+      "gain_db": -5.89,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_ICE_CRACK",
+      "song_id": 36,
+      "baseline_window_lufs": -22.3,
+      "target_window_lufs": -25,
+      "gain_q8": 188,
+      "gain_db": -2.68,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_FALL",
+      "song_id": 37,
+      "baseline_window_lufs": -21.2,
+      "target_window_lufs": -25,
+      "gain_q8": 165,
+      "gain_db": -3.82,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_UNLOCK",
+      "song_id": 38,
+      "baseline_window_lufs": -21.3,
+      "target_window_lufs": -25,
+      "gain_q8": 167,
+      "gain_db": -3.71,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_WARP_IN",
+      "song_id": 39,
+      "baseline_window_lufs": -20.1,
+      "target_window_lufs": -25,
+      "gain_q8": 146,
+      "gain_db": -4.88,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_WARP_OUT",
+      "song_id": 40,
+      "baseline_window_lufs": -21.5,
+      "target_window_lufs": -25,
+      "gain_q8": 171,
+      "gain_db": -3.5,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_REPEL",
+      "song_id": 41,
+      "baseline_window_lufs": -21.9,
+      "target_window_lufs": -25,
+      "gain_q8": 179,
+      "gain_db": -3.11,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_ROTATING_GATE",
+      "song_id": 42,
+      "baseline_window_lufs": -21.7,
+      "target_window_lufs": -25,
+      "gain_q8": 175,
+      "gain_db": -3.3,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_TRUCK_MOVE",
+      "song_id": 43,
+      "baseline_window_lufs": -30.9,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_TRUCK_STOP",
+      "song_id": 44,
+      "baseline_window_lufs": -20.5,
+      "target_window_lufs": -25,
+      "gain_q8": 152,
+      "gain_db": -4.53,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_TRUCK_UNLOAD",
+      "song_id": 45,
+      "baseline_window_lufs": -25.1,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_TRUCK_DOOR",
+      "song_id": 46,
+      "baseline_window_lufs": -26.0,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BERRY_BLENDER",
+      "song_id": 47,
+      "baseline_window_lufs": -24.6,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_SAVE",
+      "song_id": 48,
+      "baseline_window_lufs": -17.8,
+      "target_window_lufs": -25,
+      "gain_q8": 112,
+      "gain_db": -7.18,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BALL_BOUNCE_1",
+      "song_id": 49,
+      "baseline_window_lufs": -22.5,
+      "target_window_lufs": -25,
+      "gain_q8": 192,
+      "gain_db": -2.5,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BALL_BOUNCE_2",
+      "song_id": 50,
+      "baseline_window_lufs": -23.6,
+      "target_window_lufs": -25,
+      "gain_q8": 218,
+      "gain_db": -1.4,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BALL_BOUNCE_3",
+      "song_id": 51,
+      "baseline_window_lufs": -24.8,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BALL_BOUNCE_4",
+      "song_id": 52,
+      "baseline_window_lufs": -28.1,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BALL_TRADE",
+      "song_id": 53,
+      "baseline_window_lufs": -24.2,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BALL_THROW",
+      "song_id": 54,
+      "baseline_window_lufs": -19.5,
+      "target_window_lufs": -25,
+      "gain_q8": 136,
+      "gain_db": -5.49,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_NOTE_C",
+      "song_id": 55,
+      "baseline_window_lufs": -22.1,
+      "target_window_lufs": -25,
+      "gain_q8": 183,
+      "gain_db": -2.92,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_NOTE_D",
+      "song_id": 56,
+      "baseline_window_lufs": -22.2,
+      "target_window_lufs": -25,
+      "gain_q8": 185,
+      "gain_db": -2.82,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_NOTE_E",
+      "song_id": 57,
+      "baseline_window_lufs": -21.3,
+      "target_window_lufs": -25,
+      "gain_q8": 167,
+      "gain_db": -3.71,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_NOTE_F",
+      "song_id": 58,
+      "baseline_window_lufs": -21.8,
+      "target_window_lufs": -25,
+      "gain_q8": 177,
+      "gain_db": -3.21,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_NOTE_G",
+      "song_id": 59,
+      "baseline_window_lufs": -21.7,
+      "target_window_lufs": -25,
+      "gain_q8": 175,
+      "gain_db": -3.3,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_NOTE_A",
+      "song_id": 60,
+      "baseline_window_lufs": -21.2,
+      "target_window_lufs": -25,
+      "gain_q8": 165,
+      "gain_db": -3.82,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_NOTE_B",
+      "song_id": 61,
+      "baseline_window_lufs": -21.1,
+      "target_window_lufs": -25,
+      "gain_q8": 163,
+      "gain_db": -3.92,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_NOTE_C_HIGH",
+      "song_id": 62,
+      "baseline_window_lufs": -21.4,
+      "target_window_lufs": -25,
+      "gain_q8": 169,
+      "gain_db": -3.61,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_PUDDLE",
+      "song_id": 63,
+      "baseline_window_lufs": -39.1,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BRIDGE_WALK",
+      "song_id": 64,
+      "baseline_window_lufs": -29.6,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_ITEMFINDER",
+      "song_id": 65,
+      "baseline_window_lufs": -19.1,
+      "target_window_lufs": -25,
+      "gain_q8": 130,
+      "gain_db": -5.89,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_DING_DONG",
+      "song_id": 66,
+      "baseline_window_lufs": -19.4,
+      "target_window_lufs": -25,
+      "gain_q8": 134,
+      "gain_db": -5.62,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BALLOON_RED",
+      "song_id": 67,
+      "baseline_window_lufs": -24.5,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BALLOON_BLUE",
+      "song_id": 68,
+      "baseline_window_lufs": -23.9,
+      "target_window_lufs": -25,
+      "gain_q8": 226,
+      "gain_db": -1.08,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BALLOON_YELLOW",
+      "song_id": 69,
+      "baseline_window_lufs": -23.6,
+      "target_window_lufs": -25,
+      "gain_q8": 218,
+      "gain_db": -1.4,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BREAKABLE_DOOR",
+      "song_id": 70,
+      "baseline_window_lufs": -21.8,
+      "target_window_lufs": -25,
+      "gain_q8": 177,
+      "gain_db": -3.21,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_MUD_BALL",
+      "song_id": 71,
+      "baseline_window_lufs": -26.8,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_FIELD_POISON",
+      "song_id": 72,
+      "baseline_window_lufs": -23.5,
+      "target_window_lufs": -25,
+      "gain_q8": 215,
+      "gain_db": -1.52,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_ESCALATOR",
+      "song_id": 73,
+      "baseline_window_lufs": -27.1,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_THUNDERSTORM",
+      "song_id": 74,
+      "baseline_window_lufs": -27.8,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_THUNDERSTORM_STOP",
+      "song_id": 75,
+      "baseline_window_lufs": -29.4,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_DOWNPOUR",
+      "song_id": 76,
+      "baseline_window_lufs": -26.1,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_DOWNPOUR_STOP",
+      "song_id": 77,
+      "baseline_window_lufs": -27.8,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_RAIN",
+      "song_id": 78,
+      "baseline_window_lufs": -28.6,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_RAIN_STOP",
+      "song_id": 79,
+      "baseline_window_lufs": -30.3,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_THUNDER",
+      "song_id": 80,
+      "baseline_window_lufs": -18.8,
+      "target_window_lufs": -25,
+      "gain_q8": 125,
+      "gain_db": -6.23,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_THUNDER2",
+      "song_id": 81,
+      "baseline_window_lufs": -20.0,
+      "target_window_lufs": -25,
+      "gain_q8": 144,
+      "gain_db": -5.0,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_ELEVATOR",
+      "song_id": 82,
+      "baseline_window_lufs": -21.8,
+      "target_window_lufs": -25,
+      "gain_q8": 177,
+      "gain_db": -3.21,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_LOW_HEALTH",
+      "song_id": 83,
+      "baseline_window_lufs": -20.3,
+      "target_window_lufs": -25,
+      "gain_q8": 149,
+      "gain_db": -4.7,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_EXP_MAX",
+      "song_id": 84,
+      "baseline_window_lufs": -23.1,
+      "target_window_lufs": -25,
+      "gain_q8": 206,
+      "gain_db": -1.89,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_ROULETTE_BALL",
+      "song_id": 85,
+      "baseline_window_lufs": -23.9,
+      "target_window_lufs": -25,
+      "gain_q8": 226,
+      "gain_db": -1.08,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_ROULETTE_BALL2",
+      "song_id": 86,
+      "baseline_window_lufs": -24.4,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_TAILLOW_WING_FLAP",
+      "song_id": 87,
+      "baseline_window_lufs": -24.1,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_RS_SHOP",
+      "song_id": 88,
+      "baseline_window_lufs": -19.3,
+      "target_window_lufs": -25,
+      "gain_q8": 133,
+      "gain_db": -5.69,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_CONTEST_HEART",
+      "song_id": 89,
+      "baseline_window_lufs": -24.6,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_CONTEST_CURTAIN_RISE",
+      "song_id": 90,
+      "baseline_window_lufs": -26.1,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_CONTEST_CURTAIN_FALL",
+      "song_id": 91,
+      "baseline_window_lufs": -26.1,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_CONTEST_ICON_CHANGE",
+      "song_id": 92,
+      "baseline_window_lufs": -25.9,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_CONTEST_ICON_CLEAR",
+      "song_id": 93,
+      "baseline_window_lufs": -29.3,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_CONTEST_MONS_TURN",
+      "song_id": 94,
+      "baseline_window_lufs": -21.9,
+      "target_window_lufs": -25,
+      "gain_q8": 179,
+      "gain_db": -3.11,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_SHINY",
+      "song_id": 95,
+      "baseline_window_lufs": -21.2,
+      "target_window_lufs": -25,
+      "gain_q8": 165,
+      "gain_db": -3.82,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_INTRO_BLAST",
+      "song_id": 96,
+      "baseline_window_lufs": -24.3,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_MUGSHOT",
+      "song_id": 97,
+      "baseline_window_lufs": -25.5,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_APPLAUSE",
+      "song_id": 98,
+      "baseline_window_lufs": -22.4,
+      "target_window_lufs": -25,
+      "gain_q8": 190,
+      "gain_db": -2.59,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_VEND",
+      "song_id": 99,
+      "baseline_window_lufs": -25.9,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_ORB",
+      "song_id": 100,
+      "baseline_window_lufs": -20.5,
+      "target_window_lufs": -25,
+      "gain_q8": 152,
+      "gain_db": -4.53,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_DEX_SCROLL",
+      "song_id": 101,
+      "baseline_window_lufs": -34.7,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_DEX_PAGE",
+      "song_id": 102,
+      "baseline_window_lufs": -27.1,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_POKENAV_ON",
+      "song_id": 103,
+      "baseline_window_lufs": -25.5,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_POKENAV_OFF",
+      "song_id": 104,
+      "baseline_window_lufs": -25.6,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_DEX_SEARCH",
+      "song_id": 105,
+      "baseline_window_lufs": -22.3,
+      "target_window_lufs": -25,
+      "gain_q8": 188,
+      "gain_db": -2.68,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_EGG_HATCH",
+      "song_id": 106,
+      "baseline_window_lufs": -22.7,
+      "target_window_lufs": -25,
+      "gain_q8": 196,
+      "gain_db": -2.32,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BALL_TRAY_ENTER",
+      "song_id": 107,
+      "baseline_window_lufs": -31.4,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BALL_TRAY_BALL",
+      "song_id": 108,
+      "baseline_window_lufs": -33.5,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BALL_TRAY_EXIT",
+      "song_id": 109,
+      "baseline_window_lufs": -34.0,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_GLASS_FLUTE",
+      "song_id": 110,
+      "baseline_window_lufs": -24.5,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_THUNDERBOLT",
+      "song_id": 111,
+      "baseline_window_lufs": -19.3,
+      "target_window_lufs": -25,
+      "gain_q8": 133,
+      "gain_db": -5.69,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_THUNDERBOLT2",
+      "song_id": 112,
+      "baseline_window_lufs": -20.3,
+      "target_window_lufs": -25,
+      "gain_q8": 149,
+      "gain_db": -4.7,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_HARDEN",
+      "song_id": 113,
+      "baseline_window_lufs": -20.3,
+      "target_window_lufs": -25,
+      "gain_q8": 149,
+      "gain_db": -4.7,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_NIGHTMARE",
+      "song_id": 114,
+      "baseline_window_lufs": -19.5,
+      "target_window_lufs": -25,
+      "gain_q8": 136,
+      "gain_db": -5.49,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_VITAL_THROW",
+      "song_id": 115,
+      "baseline_window_lufs": -22.6,
+      "target_window_lufs": -25,
+      "gain_q8": 194,
+      "gain_db": -2.41,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_VITAL_THROW2",
+      "song_id": 116,
+      "baseline_window_lufs": -20.7,
+      "target_window_lufs": -25,
+      "gain_q8": 156,
+      "gain_db": -4.3,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_BUBBLE",
+      "song_id": 117,
+      "baseline_window_lufs": -22.9,
+      "target_window_lufs": -25,
+      "gain_q8": 201,
+      "gain_db": -2.1,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_BUBBLE2",
+      "song_id": 118,
+      "baseline_window_lufs": -29.0,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_BUBBLE3",
+      "song_id": 119,
+      "baseline_window_lufs": -22.1,
+      "target_window_lufs": -25,
+      "gain_q8": 183,
+      "gain_db": -2.92,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_RAIN_DANCE",
+      "song_id": 120,
+      "baseline_window_lufs": -24.4,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_CUT",
+      "song_id": 121,
+      "baseline_window_lufs": -19.4,
+      "target_window_lufs": -25,
+      "gain_q8": 134,
+      "gain_db": -5.62,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_STRING_SHOT",
+      "song_id": 122,
+      "baseline_window_lufs": -18.9,
+      "target_window_lufs": -25,
+      "gain_q8": 127,
+      "gain_db": -6.09,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_STRING_SHOT2",
+      "song_id": 123,
+      "baseline_window_lufs": -19.4,
+      "target_window_lufs": -25,
+      "gain_q8": 134,
+      "gain_db": -5.62,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_ROCK_THROW",
+      "song_id": 124,
+      "baseline_window_lufs": -20.5,
+      "target_window_lufs": -25,
+      "gain_q8": 152,
+      "gain_db": -4.53,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_GUST",
+      "song_id": 125,
+      "baseline_window_lufs": -20.2,
+      "target_window_lufs": -25,
+      "gain_q8": 147,
+      "gain_db": -4.82,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_GUST2",
+      "song_id": 126,
+      "baseline_window_lufs": -23.8,
+      "target_window_lufs": -25,
+      "gain_q8": 223,
+      "gain_db": -1.2,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_DOUBLE_SLAP",
+      "song_id": 127,
+      "baseline_window_lufs": -24.5,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_DOUBLE_TEAM",
+      "song_id": 128,
+      "baseline_window_lufs": -25.5,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_RAZOR_WIND",
+      "song_id": 129,
+      "baseline_window_lufs": -21.1,
+      "target_window_lufs": -25,
+      "gain_q8": 163,
+      "gain_db": -3.92,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_ICY_WIND",
+      "song_id": 130,
+      "baseline_window_lufs": -24.2,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_THUNDER_WAVE",
+      "song_id": 131,
+      "baseline_window_lufs": -19.4,
+      "target_window_lufs": -25,
+      "gain_q8": 134,
+      "gain_db": -5.62,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_COMET_PUNCH",
+      "song_id": 132,
+      "baseline_window_lufs": -23.5,
+      "target_window_lufs": -25,
+      "gain_q8": 215,
+      "gain_db": -1.52,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_MEGA_KICK",
+      "song_id": 133,
+      "baseline_window_lufs": -20.3,
+      "target_window_lufs": -25,
+      "gain_q8": 149,
+      "gain_db": -4.7,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_MEGA_KICK2",
+      "song_id": 134,
+      "baseline_window_lufs": -19.5,
+      "target_window_lufs": -25,
+      "gain_q8": 136,
+      "gain_db": -5.49,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_CRABHAMMER",
+      "song_id": 135,
+      "baseline_window_lufs": -26.9,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_JUMP_KICK",
+      "song_id": 136,
+      "baseline_window_lufs": -25.1,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_FLAME_WHEEL",
+      "song_id": 137,
+      "baseline_window_lufs": -21.1,
+      "target_window_lufs": -25,
+      "gain_q8": 163,
+      "gain_db": -3.92,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_FLAME_WHEEL2",
+      "song_id": 138,
+      "baseline_window_lufs": -17.2,
+      "target_window_lufs": -25,
+      "gain_q8": 104,
+      "gain_db": -7.82,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_FLAMETHROWER",
+      "song_id": 139,
+      "baseline_window_lufs": -17.0,
+      "target_window_lufs": -25,
+      "gain_q8": 102,
+      "gain_db": -7.99,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_FIRE_PUNCH",
+      "song_id": 140,
+      "baseline_window_lufs": -18.0,
+      "target_window_lufs": -25,
+      "gain_q8": 114,
+      "gain_db": -7.03,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_TOXIC",
+      "song_id": 141,
+      "baseline_window_lufs": -23.9,
+      "target_window_lufs": -25,
+      "gain_q8": 226,
+      "gain_db": -1.08,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_SACRED_FIRE",
+      "song_id": 142,
+      "baseline_window_lufs": -20.4,
+      "target_window_lufs": -25,
+      "gain_q8": 151,
+      "gain_db": -4.59,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_SACRED_FIRE2",
+      "song_id": 143,
+      "baseline_window_lufs": -19.3,
+      "target_window_lufs": -25,
+      "gain_q8": 133,
+      "gain_db": -5.69,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_EMBER",
+      "song_id": 144,
+      "baseline_window_lufs": -24.3,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_TAKE_DOWN",
+      "song_id": 145,
+      "baseline_window_lufs": -19.3,
+      "target_window_lufs": -25,
+      "gain_q8": 133,
+      "gain_db": -5.69,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_BLIZZARD",
+      "song_id": 146,
+      "baseline_window_lufs": -19.2,
+      "target_window_lufs": -25,
+      "gain_q8": 131,
+      "gain_db": -5.82,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_BLIZZARD2",
+      "song_id": 147,
+      "baseline_window_lufs": -22.6,
+      "target_window_lufs": -25,
+      "gain_q8": 194,
+      "gain_db": -2.41,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_SCRATCH",
+      "song_id": 148,
+      "baseline_window_lufs": -26.5,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_VICEGRIP",
+      "song_id": 149,
+      "baseline_window_lufs": -23.7,
+      "target_window_lufs": -25,
+      "gain_q8": 220,
+      "gain_db": -1.32,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_WING_ATTACK",
+      "song_id": 150,
+      "baseline_window_lufs": -23.0,
+      "target_window_lufs": -25,
+      "gain_q8": 203,
+      "gain_db": -2.01,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_FLY",
+      "song_id": 151,
+      "baseline_window_lufs": -19.9,
+      "target_window_lufs": -25,
+      "gain_q8": 142,
+      "gain_db": -5.12,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_SAND_ATTACK",
+      "song_id": 152,
+      "baseline_window_lufs": -24.7,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_RAZOR_WIND2",
+      "song_id": 153,
+      "baseline_window_lufs": -26.9,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_BITE",
+      "song_id": 154,
+      "baseline_window_lufs": -22.5,
+      "target_window_lufs": -25,
+      "gain_q8": 192,
+      "gain_db": -2.5,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_HEADBUTT",
+      "song_id": 155,
+      "baseline_window_lufs": -23.2,
+      "target_window_lufs": -25,
+      "gain_q8": 208,
+      "gain_db": -1.8,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_SURF",
+      "song_id": 156,
+      "baseline_window_lufs": -21.5,
+      "target_window_lufs": -25,
+      "gain_q8": 171,
+      "gain_db": -3.5,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_HYDRO_PUMP",
+      "song_id": 157,
+      "baseline_window_lufs": -17.6,
+      "target_window_lufs": -25,
+      "gain_q8": 109,
+      "gain_db": -7.42,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_WHIRLPOOL",
+      "song_id": 158,
+      "baseline_window_lufs": -18.0,
+      "target_window_lufs": -25,
+      "gain_q8": 114,
+      "gain_db": -7.03,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_HORN_ATTACK",
+      "song_id": 159,
+      "baseline_window_lufs": -28.0,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_TAIL_WHIP",
+      "song_id": 160,
+      "baseline_window_lufs": -26.7,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_MIST",
+      "song_id": 161,
+      "baseline_window_lufs": -29.1,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_POISON_POWDER",
+      "song_id": 162,
+      "baseline_window_lufs": -31.0,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_BIND",
+      "song_id": 163,
+      "baseline_window_lufs": -26.0,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_DRAGON_RAGE",
+      "song_id": 164,
+      "baseline_window_lufs": -21.1,
+      "target_window_lufs": -25,
+      "gain_q8": 163,
+      "gain_db": -3.92,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_SING",
+      "song_id": 165,
+      "baseline_window_lufs": -21.3,
+      "target_window_lufs": -25,
+      "gain_q8": 167,
+      "gain_db": -3.71,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_PERISH_SONG",
+      "song_id": 166,
+      "baseline_window_lufs": -27.9,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_PAY_DAY",
+      "song_id": 167,
+      "baseline_window_lufs": -21.7,
+      "target_window_lufs": -25,
+      "gain_q8": 175,
+      "gain_db": -3.3,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_DIG",
+      "song_id": 168,
+      "baseline_window_lufs": -23.6,
+      "target_window_lufs": -25,
+      "gain_q8": 218,
+      "gain_db": -1.4,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_DIZZY_PUNCH",
+      "song_id": 169,
+      "baseline_window_lufs": -25.1,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_SELF_DESTRUCT",
+      "song_id": 170,
+      "baseline_window_lufs": -19.6,
+      "target_window_lufs": -25,
+      "gain_q8": 137,
+      "gain_db": -5.43,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_EXPLOSION",
+      "song_id": 171,
+      "baseline_window_lufs": -16.8,
+      "target_window_lufs": -25,
+      "gain_q8": 100,
+      "gain_db": -8.16,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_ABSORB_2",
+      "song_id": 172,
+      "baseline_window_lufs": -18.9,
+      "target_window_lufs": -25,
+      "gain_q8": 127,
+      "gain_db": -6.09,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_ABSORB",
+      "song_id": 173,
+      "baseline_window_lufs": -28.0,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_SCREECH",
+      "song_id": 174,
+      "baseline_window_lufs": -20.8,
+      "target_window_lufs": -25,
+      "gain_q8": 158,
+      "gain_db": -4.19,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_BUBBLE_BEAM",
+      "song_id": 175,
+      "baseline_window_lufs": -23.0,
+      "target_window_lufs": -25,
+      "gain_q8": 203,
+      "gain_db": -2.01,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_BUBBLE_BEAM2",
+      "song_id": 176,
+      "baseline_window_lufs": -23.2,
+      "target_window_lufs": -25,
+      "gain_q8": 208,
+      "gain_db": -1.8,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_SUPERSONIC",
+      "song_id": 177,
+      "baseline_window_lufs": -22.3,
+      "target_window_lufs": -25,
+      "gain_q8": 188,
+      "gain_db": -2.68,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_BELLY_DRUM",
+      "song_id": 178,
+      "baseline_window_lufs": -21.4,
+      "target_window_lufs": -25,
+      "gain_q8": 169,
+      "gain_db": -3.61,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_METRONOME",
+      "song_id": 179,
+      "baseline_window_lufs": -26.7,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_BONEMERANG",
+      "song_id": 180,
+      "baseline_window_lufs": -24.4,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_LICK",
+      "song_id": 181,
+      "baseline_window_lufs": -21.7,
+      "target_window_lufs": -25,
+      "gain_q8": 175,
+      "gain_db": -3.3,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_PSYBEAM",
+      "song_id": 182,
+      "baseline_window_lufs": -19.4,
+      "target_window_lufs": -25,
+      "gain_q8": 134,
+      "gain_db": -5.62,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_FAINT_ATTACK",
+      "song_id": 183,
+      "baseline_window_lufs": -22.7,
+      "target_window_lufs": -25,
+      "gain_q8": 196,
+      "gain_db": -2.32,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_SWORDS_DANCE",
+      "song_id": 184,
+      "baseline_window_lufs": -19.4,
+      "target_window_lufs": -25,
+      "gain_q8": 134,
+      "gain_db": -5.62,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_LEER",
+      "song_id": 185,
+      "baseline_window_lufs": -22.4,
+      "target_window_lufs": -25,
+      "gain_q8": 190,
+      "gain_db": -2.59,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_SWAGGER",
+      "song_id": 186,
+      "baseline_window_lufs": -23.5,
+      "target_window_lufs": -25,
+      "gain_q8": 215,
+      "gain_db": -1.52,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_SWAGGER2",
+      "song_id": 187,
+      "baseline_window_lufs": -26.2,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_HEAL_BELL",
+      "song_id": 188,
+      "baseline_window_lufs": -23.5,
+      "target_window_lufs": -25,
+      "gain_q8": 215,
+      "gain_db": -1.52,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_CONFUSE_RAY",
+      "song_id": 189,
+      "baseline_window_lufs": -24.4,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_SNORE",
+      "song_id": 190,
+      "baseline_window_lufs": -21.4,
+      "target_window_lufs": -25,
+      "gain_q8": 169,
+      "gain_db": -3.61,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_BRICK_BREAK",
+      "song_id": 191,
+      "baseline_window_lufs": -19.8,
+      "target_window_lufs": -25,
+      "gain_q8": 141,
+      "gain_db": -5.18,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_GIGA_DRAIN",
+      "song_id": 192,
+      "baseline_window_lufs": -20.7,
+      "target_window_lufs": -25,
+      "gain_q8": 156,
+      "gain_db": -4.3,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_PSYBEAM2",
+      "song_id": 193,
+      "baseline_window_lufs": -22.3,
+      "target_window_lufs": -25,
+      "gain_q8": 188,
+      "gain_db": -2.68,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_SOLAR_BEAM",
+      "song_id": 194,
+      "baseline_window_lufs": -20.4,
+      "target_window_lufs": -25,
+      "gain_q8": 151,
+      "gain_db": -4.59,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_PETAL_DANCE",
+      "song_id": 195,
+      "baseline_window_lufs": -21.2,
+      "target_window_lufs": -25,
+      "gain_q8": 165,
+      "gain_db": -3.82,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_TELEPORT",
+      "song_id": 196,
+      "baseline_window_lufs": -21.3,
+      "target_window_lufs": -25,
+      "gain_q8": 167,
+      "gain_db": -3.71,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_MINIMIZE",
+      "song_id": 197,
+      "baseline_window_lufs": -21.0,
+      "target_window_lufs": -25,
+      "gain_q8": 162,
+      "gain_db": -3.97,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_SKETCH",
+      "song_id": 198,
+      "baseline_window_lufs": -28.3,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_SWIFT",
+      "song_id": 199,
+      "baseline_window_lufs": -22.7,
+      "target_window_lufs": -25,
+      "gain_q8": 196,
+      "gain_db": -2.32,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_REFLECT",
+      "song_id": 200,
+      "baseline_window_lufs": -20.1,
+      "target_window_lufs": -25,
+      "gain_q8": 146,
+      "gain_db": -4.88,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_BARRIER",
+      "song_id": 201,
+      "baseline_window_lufs": -21.0,
+      "target_window_lufs": -25,
+      "gain_q8": 162,
+      "gain_db": -3.97,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_DETECT",
+      "song_id": 202,
+      "baseline_window_lufs": -18.1,
+      "target_window_lufs": -25,
+      "gain_q8": 116,
+      "gain_db": -6.88,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_LOCK_ON",
+      "song_id": 203,
+      "baseline_window_lufs": -29.1,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_MOONLIGHT",
+      "song_id": 204,
+      "baseline_window_lufs": -21.1,
+      "target_window_lufs": -25,
+      "gain_q8": 163,
+      "gain_db": -3.92,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_CHARM",
+      "song_id": 205,
+      "baseline_window_lufs": -26.1,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_CHARGE",
+      "song_id": 206,
+      "baseline_window_lufs": -19.3,
+      "target_window_lufs": -25,
+      "gain_q8": 133,
+      "gain_db": -5.69,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_STRENGTH",
+      "song_id": 207,
+      "baseline_window_lufs": -20.2,
+      "target_window_lufs": -25,
+      "gain_q8": 147,
+      "gain_db": -4.82,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_HYPER_BEAM",
+      "song_id": 208,
+      "baseline_window_lufs": -22.5,
+      "target_window_lufs": -25,
+      "gain_q8": 192,
+      "gain_db": -2.5,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_WATERFALL",
+      "song_id": 209,
+      "baseline_window_lufs": -16.7,
+      "target_window_lufs": -25,
+      "gain_q8": 98,
+      "gain_db": -8.34,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_REVERSAL",
+      "song_id": 210,
+      "baseline_window_lufs": -21.5,
+      "target_window_lufs": -25,
+      "gain_q8": 171,
+      "gain_db": -3.5,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_ACID_ARMOR",
+      "song_id": 211,
+      "baseline_window_lufs": -22.0,
+      "target_window_lufs": -25,
+      "gain_q8": 181,
+      "gain_db": -3.01,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_SANDSTORM",
+      "song_id": 212,
+      "baseline_window_lufs": -28.0,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_TRI_ATTACK",
+      "song_id": 213,
+      "baseline_window_lufs": -23.3,
+      "target_window_lufs": -25,
+      "gain_q8": 210,
+      "gain_db": -1.72,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_TRI_ATTACK2",
+      "song_id": 214,
+      "baseline_window_lufs": -17.3,
+      "target_window_lufs": -25,
+      "gain_q8": 105,
+      "gain_db": -7.74,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_ENCORE",
+      "song_id": 215,
+      "baseline_window_lufs": -25.6,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_ENCORE2",
+      "song_id": 216,
+      "baseline_window_lufs": -21.7,
+      "target_window_lufs": -25,
+      "gain_q8": 175,
+      "gain_db": -3.3,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_BATON_PASS",
+      "song_id": 217,
+      "baseline_window_lufs": -21.0,
+      "target_window_lufs": -25,
+      "gain_q8": 162,
+      "gain_db": -3.97,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_MILK_DRINK",
+      "song_id": 218,
+      "baseline_window_lufs": -21.1,
+      "target_window_lufs": -25,
+      "gain_q8": 163,
+      "gain_db": -3.92,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_ATTRACT",
+      "song_id": 219,
+      "baseline_window_lufs": -21.7,
+      "target_window_lufs": -25,
+      "gain_q8": 175,
+      "gain_db": -3.3,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_ATTRACT2",
+      "song_id": 220,
+      "baseline_window_lufs": -21.0,
+      "target_window_lufs": -25,
+      "gain_q8": 162,
+      "gain_db": -3.97,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_MORNING_SUN",
+      "song_id": 221,
+      "baseline_window_lufs": -20.3,
+      "target_window_lufs": -25,
+      "gain_q8": 149,
+      "gain_db": -4.7,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_FLATTER",
+      "song_id": 222,
+      "baseline_window_lufs": -21.3,
+      "target_window_lufs": -25,
+      "gain_q8": 167,
+      "gain_db": -3.71,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_SAND_TOMB",
+      "song_id": 223,
+      "baseline_window_lufs": -19.8,
+      "target_window_lufs": -25,
+      "gain_q8": 141,
+      "gain_db": -5.18,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_GRASSWHISTLE",
+      "song_id": 224,
+      "baseline_window_lufs": -20.1,
+      "target_window_lufs": -25,
+      "gain_q8": 146,
+      "gain_db": -4.88,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_SPIT_UP",
+      "song_id": 225,
+      "baseline_window_lufs": -21.0,
+      "target_window_lufs": -25,
+      "gain_q8": 162,
+      "gain_db": -3.97,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_DIVE",
+      "song_id": 226,
+      "baseline_window_lufs": -18.4,
+      "target_window_lufs": -25,
+      "gain_q8": 120,
+      "gain_db": -6.58,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_EARTHQUAKE",
+      "song_id": 227,
+      "baseline_window_lufs": -17.1,
+      "target_window_lufs": -25,
+      "gain_q8": 103,
+      "gain_db": -7.91,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_TWISTER",
+      "song_id": 228,
+      "baseline_window_lufs": -19.7,
+      "target_window_lufs": -25,
+      "gain_q8": 139,
+      "gain_db": -5.3,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_SWEET_SCENT",
+      "song_id": 229,
+      "baseline_window_lufs": -19.5,
+      "target_window_lufs": -25,
+      "gain_q8": 136,
+      "gain_db": -5.49,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_YAWN",
+      "song_id": 230,
+      "baseline_window_lufs": -20.1,
+      "target_window_lufs": -25,
+      "gain_q8": 146,
+      "gain_db": -4.88,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_SKY_UPPERCUT",
+      "song_id": 231,
+      "baseline_window_lufs": -21.4,
+      "target_window_lufs": -25,
+      "gain_q8": 169,
+      "gain_db": -3.61,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_STAT_INCREASE",
+      "song_id": 232,
+      "baseline_window_lufs": -23.8,
+      "target_window_lufs": -25,
+      "gain_q8": 223,
+      "gain_db": -1.2,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_HEAT_WAVE",
+      "song_id": 233,
+      "baseline_window_lufs": -17.4,
+      "target_window_lufs": -25,
+      "gain_q8": 107,
+      "gain_db": -7.58,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_UPROAR",
+      "song_id": 234,
+      "baseline_window_lufs": -20.9,
+      "target_window_lufs": -25,
+      "gain_q8": 160,
+      "gain_db": -4.08,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_HAIL",
+      "song_id": 235,
+      "baseline_window_lufs": -22.8,
+      "target_window_lufs": -25,
+      "gain_q8": 199,
+      "gain_db": -2.19,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_COSMIC_POWER",
+      "song_id": 236,
+      "baseline_window_lufs": -20.5,
+      "target_window_lufs": -25,
+      "gain_q8": 152,
+      "gain_db": -4.53,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_TEETER_DANCE",
+      "song_id": 237,
+      "baseline_window_lufs": -23.2,
+      "target_window_lufs": -25,
+      "gain_q8": 208,
+      "gain_db": -1.8,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_STAT_DECREASE",
+      "song_id": 238,
+      "baseline_window_lufs": -23.2,
+      "target_window_lufs": -25,
+      "gain_q8": 208,
+      "gain_db": -1.8,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_HAZE",
+      "song_id": 239,
+      "baseline_window_lufs": -23.8,
+      "target_window_lufs": -25,
+      "gain_q8": 223,
+      "gain_db": -1.2,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_M_HYPER_BEAM2",
+      "song_id": 240,
+      "baseline_window_lufs": -24.1,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_DOOR",
+      "song_id": 241,
+      "baseline_window_lufs": -19.5,
+      "target_window_lufs": -25,
+      "gain_q8": 136,
+      "gain_db": -5.49,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_CARD_FLIP",
+      "song_id": 242,
+      "baseline_window_lufs": -21.9,
+      "target_window_lufs": -25,
+      "gain_q8": 179,
+      "gain_db": -3.11,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_CARD_FLIPPING",
+      "song_id": 243,
+      "baseline_window_lufs": -23.2,
+      "target_window_lufs": -25,
+      "gain_q8": 208,
+      "gain_db": -1.8,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_CARD_OPEN",
+      "song_id": 244,
+      "baseline_window_lufs": -22.5,
+      "target_window_lufs": -25,
+      "gain_q8": 192,
+      "gain_db": -2.5,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BAG_CURSOR",
+      "song_id": 245,
+      "baseline_window_lufs": -27.4,
+      "target_window_lufs": -28,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BAG_POCKET",
+      "song_id": 246,
+      "baseline_window_lufs": -23.0,
+      "target_window_lufs": -28,
+      "gain_q8": 144,
+      "gain_db": -5.0,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_BALL_CLICK",
+      "song_id": 247,
+      "baseline_window_lufs": -27.4,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_SHOP",
+      "song_id": 248,
+      "baseline_window_lufs": -21.2,
+      "target_window_lufs": -28,
+      "gain_q8": 117,
+      "gain_db": -6.8,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_SS_ANNE_HORN",
+      "song_id": 249,
+      "baseline_window_lufs": -24.2,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_HELP_OPEN",
+      "song_id": 250,
+      "baseline_window_lufs": -26.4,
+      "target_window_lufs": -28,
+      "gain_q8": 213,
+      "gain_db": -1.6,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_HELP_CLOSE",
+      "song_id": 251,
+      "baseline_window_lufs": -25.9,
+      "target_window_lufs": -28,
+      "gain_q8": 201,
+      "gain_db": -2.1,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_HELP_ERROR",
+      "song_id": 252,
+      "baseline_window_lufs": -24.0,
+      "target_window_lufs": -28,
+      "gain_q8": 162,
+      "gain_db": -3.97,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_DEOXYS_MOVE",
+      "song_id": 253,
+      "baseline_window_lufs": -24.9,
+      "target_window_lufs": -25,
+      "gain_q8": 230,
+      "gain_db": -0.93,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_POKE_JUMP_SUCCESS",
+      "song_id": 254,
+      "baseline_window_lufs": -18.9,
+      "target_window_lufs": -25,
+      "gain_q8": 127,
+      "gain_db": -6.09,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "SE_POKE_JUMP_FAILURE",
+      "song_id": 255,
+      "baseline_window_lufs": -20.4,
+      "target_window_lufs": -25,
+      "gain_q8": 151,
+      "gain_db": -4.59,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_HEAL",
+      "song_id": 256,
+      "baseline_window_lufs": -24.5,
+      "target_window_lufs": -29,
+      "gain_q8": 152,
+      "gain_db": -4.53,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_LEVEL_UP",
+      "song_id": 257,
+      "baseline_window_lufs": -22.3,
+      "target_window_lufs": -29,
+      "gain_q8": 118,
+      "gain_db": -6.73,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_OBTAIN_ITEM",
+      "song_id": 258,
+      "baseline_window_lufs": -20.9,
+      "target_window_lufs": -29,
+      "gain_q8": 101,
+      "gain_db": -8.08,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_EVOLVED",
+      "song_id": 259,
+      "baseline_window_lufs": -18.2,
+      "target_window_lufs": -29,
+      "gain_q8": 74,
+      "gain_db": -10.78,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_OBTAIN_BADGE",
+      "song_id": 260,
+      "baseline_window_lufs": -16.6,
+      "target_window_lufs": -29,
+      "gain_q8": 64,
+      "gain_db": -12.04,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_OBTAIN_TMHM",
+      "song_id": 261,
+      "baseline_window_lufs": -16.9,
+      "target_window_lufs": -29,
+      "gain_q8": 64,
+      "gain_db": -12.04,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_OBTAIN_BERRY",
+      "song_id": 262,
+      "baseline_window_lufs": -20.5,
+      "target_window_lufs": -29,
+      "gain_q8": 96,
+      "gain_db": -8.52,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_EVOLUTION_INTRO",
+      "song_id": 263,
+      "baseline_window_lufs": -23.4,
+      "target_window_lufs": -29,
+      "gain_q8": 134,
+      "gain_db": -5.62,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_EVOLUTION",
+      "song_id": 264,
+      "baseline_window_lufs": -21.0,
+      "target_window_lufs": -29,
+      "gain_q8": 102,
+      "gain_db": -7.99,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_RS_VS_GYM_LEADER",
+      "song_id": 265,
+      "baseline_window_lufs": -17.9,
+      "target_window_lufs": -29,
+      "gain_q8": 71,
+      "gain_db": -11.14,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_RS_VS_TRAINER",
+      "song_id": 266,
+      "baseline_window_lufs": -18.6,
+      "target_window_lufs": -29,
+      "gain_q8": 77,
+      "gain_db": -10.43,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_SCHOOL",
+      "song_id": 267,
+      "baseline_window_lufs": -23.3,
+      "target_window_lufs": -29,
+      "gain_q8": 133,
+      "gain_db": -5.69,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_SLOTS_JACKPOT",
+      "song_id": 268,
+      "baseline_window_lufs": -16.2,
+      "target_window_lufs": -29,
+      "gain_q8": 64,
+      "gain_db": -12.04,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_SLOTS_WIN",
+      "song_id": 269,
+      "baseline_window_lufs": -16.9,
+      "target_window_lufs": -29,
+      "gain_q8": 64,
+      "gain_db": -12.04,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_MOVE_DELETED",
+      "song_id": 270,
+      "baseline_window_lufs": -21.2,
+      "target_window_lufs": -29,
+      "gain_q8": 104,
+      "gain_db": -7.82,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_TOO_BAD",
+      "song_id": 271,
+      "baseline_window_lufs": -21.2,
+      "target_window_lufs": -29,
+      "gain_q8": 104,
+      "gain_db": -7.82,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_FOLLOW_ME",
+      "song_id": 272,
+      "baseline_window_lufs": -21.0,
+      "target_window_lufs": -29,
+      "gain_q8": 102,
+      "gain_db": -7.99,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_GAME_CORNER",
+      "song_id": 273,
+      "baseline_window_lufs": -20.5,
+      "target_window_lufs": -29,
+      "gain_q8": 96,
+      "gain_db": -8.52,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_ROCKET_HIDEOUT",
+      "song_id": 274,
+      "baseline_window_lufs": -18.0,
+      "target_window_lufs": -29,
+      "gain_q8": 72,
+      "gain_db": -11.02,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_GYM",
+      "song_id": 275,
+      "baseline_window_lufs": -18.5,
+      "target_window_lufs": -29,
+      "gain_q8": 76,
+      "gain_db": -10.55,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_JIGGLYPUFF",
+      "song_id": 276,
+      "baseline_window_lufs": -26.0,
+      "target_window_lufs": -29,
+      "gain_q8": 181,
+      "gain_db": -3.01,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_INTRO_FIGHT",
+      "song_id": 277,
+      "baseline_window_lufs": -14.0,
+      "target_window_lufs": -29,
+      "gain_q8": 64,
+      "gain_db": -12.04,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_TITLE",
+      "song_id": 278,
+      "baseline_window_lufs": -16.9,
+      "target_window_lufs": -29,
+      "gain_q8": 64,
+      "gain_db": -12.04,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_CINNABAR",
+      "song_id": 279,
+      "baseline_window_lufs": -18.8,
+      "target_window_lufs": -29,
+      "gain_q8": 79,
+      "gain_db": -10.21,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_LAVENDER",
+      "song_id": 280,
+      "baseline_window_lufs": -27.1,
+      "target_window_lufs": -29,
+      "gain_q8": 206,
+      "gain_db": -1.89,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_HEAL_UNUSED",
+      "song_id": 281,
+      "baseline_window_lufs": -22.6,
+      "target_window_lufs": -29,
+      "gain_q8": 123,
+      "gain_db": -6.37,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_CYCLING",
+      "song_id": 282,
+      "baseline_window_lufs": -20.4,
+      "target_window_lufs": -29,
+      "gain_q8": 95,
+      "gain_db": -8.61,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_ENCOUNTER_ROCKET",
+      "song_id": 283,
+      "baseline_window_lufs": -21.7,
+      "target_window_lufs": -29,
+      "gain_q8": 110,
+      "gain_db": -7.34,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_ENCOUNTER_GIRL",
+      "song_id": 284,
+      "baseline_window_lufs": -22.2,
+      "target_window_lufs": -29,
+      "gain_q8": 117,
+      "gain_db": -6.8,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_ENCOUNTER_BOY",
+      "song_id": 285,
+      "baseline_window_lufs": -19.4,
+      "target_window_lufs": -29,
+      "gain_q8": 85,
+      "gain_db": -9.58,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_HALL_OF_FAME",
+      "song_id": 286,
+      "baseline_window_lufs": -17.2,
+      "target_window_lufs": -29,
+      "gain_q8": 66,
+      "gain_db": -11.77,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_VIRIDIAN_FOREST",
+      "song_id": 287,
+      "baseline_window_lufs": -20.9,
+      "target_window_lufs": -29,
+      "gain_q8": 101,
+      "gain_db": -8.08,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_MT_MOON",
+      "song_id": 288,
+      "baseline_window_lufs": -23.6,
+      "target_window_lufs": -29,
+      "gain_q8": 137,
+      "gain_db": -5.43,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_POKE_MANSION",
+      "song_id": 289,
+      "baseline_window_lufs": -25.4,
+      "target_window_lufs": -29,
+      "gain_q8": 169,
+      "gain_db": -3.61,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_CREDITS",
+      "song_id": 290,
+      "baseline_window_lufs": -23.5,
+      "target_window_lufs": -29,
+      "gain_q8": 136,
+      "gain_db": -5.49,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_ROUTE1",
+      "song_id": 291,
+      "baseline_window_lufs": -22.8,
+      "target_window_lufs": -29,
+      "gain_q8": 125,
+      "gain_db": -6.23,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_ROUTE24",
+      "song_id": 292,
+      "baseline_window_lufs": -18.5,
+      "target_window_lufs": -29,
+      "gain_q8": 76,
+      "gain_db": -10.55,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_ROUTE3",
+      "song_id": 293,
+      "baseline_window_lufs": -19.0,
+      "target_window_lufs": -29,
+      "gain_q8": 81,
+      "gain_db": -10.0,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_ROUTE11",
+      "song_id": 294,
+      "baseline_window_lufs": -18.6,
+      "target_window_lufs": -29,
+      "gain_q8": 77,
+      "gain_db": -10.43,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_VICTORY_ROAD",
+      "song_id": 295,
+      "baseline_window_lufs": -22.2,
+      "target_window_lufs": -29,
+      "gain_q8": 117,
+      "gain_db": -6.8,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_VS_GYM_LEADER",
+      "song_id": 296,
+      "baseline_window_lufs": -16.5,
+      "target_window_lufs": -29,
+      "gain_q8": 64,
+      "gain_db": -12.04,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_VS_TRAINER",
+      "song_id": 297,
+      "baseline_window_lufs": -16.6,
+      "target_window_lufs": -29,
+      "gain_q8": 64,
+      "gain_db": -12.04,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_VS_WILD",
+      "song_id": 298,
+      "baseline_window_lufs": -15.7,
+      "target_window_lufs": -29,
+      "gain_q8": 64,
+      "gain_db": -12.04,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_VS_CHAMPION",
+      "song_id": 299,
+      "baseline_window_lufs": -15.7,
+      "target_window_lufs": -29,
+      "gain_q8": 64,
+      "gain_db": -12.04,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_PALLET",
+      "song_id": 300,
+      "baseline_window_lufs": -21.5,
+      "target_window_lufs": -29,
+      "gain_q8": 108,
+      "gain_db": -7.5,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_OAK_LAB",
+      "song_id": 301,
+      "baseline_window_lufs": -21.0,
+      "target_window_lufs": -29,
+      "gain_q8": 102,
+      "gain_db": -7.99,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_OAK",
+      "song_id": 302,
+      "baseline_window_lufs": -18.5,
+      "target_window_lufs": -29,
+      "gain_q8": 76,
+      "gain_db": -10.55,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_POKE_CENTER",
+      "song_id": 303,
+      "baseline_window_lufs": -21.2,
+      "target_window_lufs": -29,
+      "gain_q8": 104,
+      "gain_db": -7.82,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_SS_ANNE",
+      "song_id": 304,
+      "baseline_window_lufs": -22.0,
+      "target_window_lufs": -29,
+      "gain_q8": 114,
+      "gain_db": -7.03,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_SURF",
+      "song_id": 305,
+      "baseline_window_lufs": -22.8,
+      "target_window_lufs": -29,
+      "gain_q8": 125,
+      "gain_db": -6.23,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_POKE_TOWER",
+      "song_id": 306,
+      "baseline_window_lufs": -22.8,
+      "target_window_lufs": -29,
+      "gain_q8": 125,
+      "gain_db": -6.23,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_SILPH",
+      "song_id": 307,
+      "baseline_window_lufs": -19.5,
+      "target_window_lufs": -29,
+      "gain_q8": 86,
+      "gain_db": -9.47,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_FUCHSIA",
+      "song_id": 308,
+      "baseline_window_lufs": -22.1,
+      "target_window_lufs": -29,
+      "gain_q8": 116,
+      "gain_db": -6.88,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_CELADON",
+      "song_id": 309,
+      "baseline_window_lufs": -21.4,
+      "target_window_lufs": -29,
+      "gain_q8": 107,
+      "gain_db": -7.58,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_VICTORY_TRAINER",
+      "song_id": 310,
+      "baseline_window_lufs": -19.2,
+      "target_window_lufs": -29,
+      "gain_q8": 83,
+      "gain_db": -9.78,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_VICTORY_WILD",
+      "song_id": 311,
+      "baseline_window_lufs": -18.2,
+      "target_window_lufs": -29,
+      "gain_q8": 74,
+      "gain_db": -10.78,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_VICTORY_GYM_LEADER",
+      "song_id": 312,
+      "baseline_window_lufs": -20.0,
+      "target_window_lufs": -29,
+      "gain_q8": 91,
+      "gain_db": -8.98,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_VERMILLION",
+      "song_id": 313,
+      "baseline_window_lufs": -19.8,
+      "target_window_lufs": -29,
+      "gain_q8": 89,
+      "gain_db": -9.18,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_PEWTER",
+      "song_id": 314,
+      "baseline_window_lufs": -19.7,
+      "target_window_lufs": -29,
+      "gain_q8": 88,
+      "gain_db": -9.28,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_ENCOUNTER_RIVAL",
+      "song_id": 315,
+      "baseline_window_lufs": -18.4,
+      "target_window_lufs": -29,
+      "gain_q8": 76,
+      "gain_db": -10.55,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_RIVAL_EXIT",
+      "song_id": 316,
+      "baseline_window_lufs": -18.3,
+      "target_window_lufs": -29,
+      "gain_q8": 75,
+      "gain_db": -10.66,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_DEX_RATING",
+      "song_id": 317,
+      "baseline_window_lufs": -20.0,
+      "target_window_lufs": -29,
+      "gain_q8": 91,
+      "gain_db": -8.98,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_OBTAIN_KEY_ITEM",
+      "song_id": 318,
+      "baseline_window_lufs": -20.5,
+      "target_window_lufs": -29,
+      "gain_q8": 96,
+      "gain_db": -8.52,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_CAUGHT_INTRO",
+      "song_id": 319,
+      "baseline_window_lufs": -16.8,
+      "target_window_lufs": -29,
+      "gain_q8": 64,
+      "gain_db": -12.04,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_PHOTO",
+      "song_id": 320,
+      "baseline_window_lufs": -21.5,
+      "target_window_lufs": -29,
+      "gain_q8": 108,
+      "gain_db": -7.5,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_GAME_FREAK",
+      "song_id": 321,
+      "baseline_window_lufs": -26.2,
+      "target_window_lufs": -29,
+      "gain_q8": 185,
+      "gain_db": -2.82,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_CAUGHT",
+      "song_id": 322,
+      "baseline_window_lufs": -17.6,
+      "target_window_lufs": -29,
+      "gain_q8": 69,
+      "gain_db": -11.39,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_NEW_GAME_INSTRUCT",
+      "song_id": 323,
+      "baseline_window_lufs": -25.6,
+      "target_window_lufs": -29,
+      "gain_q8": 173,
+      "gain_db": -3.4,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_NEW_GAME_INTRO",
+      "song_id": 324,
+      "baseline_window_lufs": -21.6,
+      "target_window_lufs": -29,
+      "gain_q8": 109,
+      "gain_db": -7.42,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_NEW_GAME_EXIT",
+      "song_id": 325,
+      "baseline_window_lufs": -20.4,
+      "target_window_lufs": -29,
+      "gain_q8": 95,
+      "gain_db": -8.61,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_POKE_JUMP",
+      "song_id": 326,
+      "baseline_window_lufs": -21.2,
+      "target_window_lufs": -29,
+      "gain_q8": 104,
+      "gain_db": -7.82,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_UNION_ROOM",
+      "song_id": 327,
+      "baseline_window_lufs": -21.3,
+      "target_window_lufs": -29,
+      "gain_q8": 105,
+      "gain_db": -7.74,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_NET_CENTER",
+      "song_id": 328,
+      "baseline_window_lufs": -21.0,
+      "target_window_lufs": -29,
+      "gain_q8": 102,
+      "gain_db": -7.99,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_MYSTERY_GIFT",
+      "song_id": 329,
+      "baseline_window_lufs": -20.6,
+      "target_window_lufs": -29,
+      "gain_q8": 97,
+      "gain_db": -8.43,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_BERRY_PICK",
+      "song_id": 330,
+      "baseline_window_lufs": -20.3,
+      "target_window_lufs": -29,
+      "gain_q8": 94,
+      "gain_db": -8.7,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_SEVII_CAVE",
+      "song_id": 331,
+      "baseline_window_lufs": -23.6,
+      "target_window_lufs": -29,
+      "gain_q8": 137,
+      "gain_db": -5.43,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_TEACHY_TV_SHOW",
+      "song_id": 332,
+      "baseline_window_lufs": -20.9,
+      "target_window_lufs": -29,
+      "gain_q8": 101,
+      "gain_db": -8.08,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_SEVII_ROUTE",
+      "song_id": 333,
+      "baseline_window_lufs": -18.3,
+      "target_window_lufs": -29,
+      "gain_q8": 75,
+      "gain_db": -10.66,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_SEVII_DUNGEON",
+      "song_id": 334,
+      "baseline_window_lufs": -20.9,
+      "target_window_lufs": -29,
+      "gain_q8": 101,
+      "gain_db": -8.08,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_SEVII_123",
+      "song_id": 335,
+      "baseline_window_lufs": -19.7,
+      "target_window_lufs": -29,
+      "gain_q8": 88,
+      "gain_db": -9.28,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_SEVII_45",
+      "song_id": 336,
+      "baseline_window_lufs": -19.2,
+      "target_window_lufs": -29,
+      "gain_q8": 83,
+      "gain_db": -9.78,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_SEVII_67",
+      "song_id": 337,
+      "baseline_window_lufs": -19.8,
+      "target_window_lufs": -29,
+      "gain_q8": 89,
+      "gain_db": -9.18,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_POKE_FLUTE",
+      "song_id": 338,
+      "baseline_window_lufs": -26.0,
+      "target_window_lufs": -29,
+      "gain_q8": 181,
+      "gain_db": -3.01,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_VS_DEOXYS",
+      "song_id": 339,
+      "baseline_window_lufs": -20.9,
+      "target_window_lufs": -29,
+      "gain_q8": 101,
+      "gain_db": -8.08,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_VS_MEWTWO",
+      "song_id": 340,
+      "baseline_window_lufs": -17.1,
+      "target_window_lufs": -29,
+      "gain_q8": 65,
+      "gain_db": -11.91,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_VS_LEGEND",
+      "song_id": 341,
+      "baseline_window_lufs": -16.5,
+      "target_window_lufs": -29,
+      "gain_q8": 64,
+      "gain_db": -12.04,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_ENCOUNTER_GYM_LEADER",
+      "song_id": 342,
+      "baseline_window_lufs": -18.6,
+      "target_window_lufs": -29,
+      "gain_q8": 77,
+      "gain_db": -10.43,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_ENCOUNTER_DEOXYS",
+      "song_id": 343,
+      "baseline_window_lufs": -23.7,
+      "target_window_lufs": -29,
+      "gain_q8": 139,
+      "gain_db": -5.3,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_TRAINER_TOWER",
+      "song_id": 344,
+      "baseline_window_lufs": -18.6,
+      "target_window_lufs": -29,
+      "gain_q8": 77,
+      "gain_db": -10.43,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_SLOW_PALLET",
+      "song_id": 345,
+      "baseline_window_lufs": -22.2,
+      "target_window_lufs": -29,
+      "gain_q8": 117,
+      "gain_db": -6.8,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_TEACHY_TV_MENU",
+      "song_id": 346,
+      "baseline_window_lufs": -26.4,
+      "target_window_lufs": -29,
+      "gain_q8": 190,
+      "gain_db": -2.59,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_BICYCLE",
+      "song_id": 347,
+      "baseline_window_lufs": -30.6,
+      "target_window_lufs": -29,
+      "gain_q8": 308,
+      "gain_db": 1.61,
+      "private_sample": true,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_HINOZALL",
+      "song_id": 348,
+      "baseline_window_lufs": -27.9,
+      "target_window_lufs": -29,
+      "gain_q8": 226,
+      "gain_db": -1.08,
+      "private_sample": true,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_GHOULFATHER",
+      "song_id": 349,
+      "baseline_window_lufs": -28.7,
+      "target_window_lufs": -29,
+      "gain_q8": 247,
+      "gain_db": -0.31,
+      "private_sample": true,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_INFINITE_TUNNEL",
+      "song_id": 350,
+      "baseline_window_lufs": -41.1,
+      "target_window_lufs": -29,
+      "gain_q8": 768,
+      "gain_db": 9.54,
+      "private_sample": true,
+      "limited": true
+    },
+    {
+      "constant": "MUS_YOKAI_ENMA_DIALOGUE",
+      "song_id": 351,
+      "baseline_window_lufs": -18.6,
+      "target_window_lufs": -29,
+      "gain_q8": 77,
+      "gain_db": -10.43,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_ZAZELMARE",
+      "song_id": 352,
+      "baseline_window_lufs": -31.5,
+      "target_window_lufs": -29,
+      "gain_q8": 341,
+      "gain_db": 2.49,
+      "private_sample": true,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_NATHAN_HOUSE",
+      "song_id": 353,
+      "baseline_window_lufs": -21.6,
+      "target_window_lufs": -29,
+      "gain_q8": 109,
+      "gain_db": -7.42,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_KATIE_HOUSE",
+      "song_id": 354,
+      "baseline_window_lufs": -21.6,
+      "target_window_lufs": -29,
+      "gain_q8": 109,
+      "gain_db": -7.42,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_BLASTERS_HIDEOUT",
+      "song_id": 355,
+      "baseline_window_lufs": -21.6,
+      "target_window_lufs": -29,
+      "gain_q8": 109,
+      "gain_db": -7.42,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_BLASTERS_THEME",
+      "song_id": 356,
+      "baseline_window_lufs": -16.6,
+      "target_window_lufs": -29,
+      "gain_q8": 64,
+      "gain_db": -12.04,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_BADA_BING",
+      "song_id": 357,
+      "baseline_window_lufs": -36.0,
+      "target_window_lufs": -29,
+      "gain_q8": 573,
+      "gain_db": 7.0,
+      "private_sample": true,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "song_id": 358,
+      "baseline_window_lufs": -21.4,
+      "target_window_lufs": -29,
+      "gain_q8": 107,
+      "gain_db": -7.58,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_ENMA_VILLA",
+      "song_id": 359,
+      "baseline_window_lufs": -21.5,
+      "target_window_lufs": -29,
+      "gain_q8": 108,
+      "gain_db": -7.5,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_WILDWOOD",
+      "song_id": 360,
+      "baseline_window_lufs": -20.9,
+      "target_window_lufs": -29,
+      "gain_q8": 101,
+      "gain_db": -8.08,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_DECISIVE_BATTLE",
+      "song_id": 361,
+      "baseline_window_lufs": -32.1,
+      "target_window_lufs": -29,
+      "gain_q8": 366,
+      "gain_db": 3.1,
+      "private_sample": true,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_HARRISVILLE",
+      "song_id": 362,
+      "baseline_window_lufs": -19.7,
+      "target_window_lufs": -29,
+      "gain_q8": 88,
+      "gain_db": -9.28,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_DODGY",
+      "song_id": 363,
+      "baseline_window_lufs": -37.6,
+      "target_window_lufs": -29,
+      "gain_q8": 689,
+      "gain_db": 8.6,
+      "private_sample": true,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_ROBON_ARRIVES",
+      "song_id": 364,
+      "baseline_window_lufs": -21.6,
+      "target_window_lufs": -29,
+      "gain_q8": 109,
+      "gain_db": -7.42,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_ROBON_3000",
+      "song_id": 365,
+      "baseline_window_lufs": -16.6,
+      "target_window_lufs": -29,
+      "gain_q8": 64,
+      "gain_db": -12.04,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_MINI_BOSS",
+      "song_id": 366,
+      "baseline_window_lufs": -16.5,
+      "target_window_lufs": -29,
+      "gain_q8": 64,
+      "gain_db": -12.04,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_SAN_FANTASTICO",
+      "song_id": 367,
+      "baseline_window_lufs": -32.8,
+      "target_window_lufs": -29,
+      "gain_q8": 396,
+      "gain_db": 3.79,
+      "private_sample": true,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_UPTOWN",
+      "song_id": 368,
+      "baseline_window_lufs": -34.7,
+      "target_window_lufs": -29,
+      "gain_q8": 493,
+      "gain_db": 5.69,
+      "private_sample": true,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_MYSTIC_GROVE",
+      "song_id": 369,
+      "baseline_window_lufs": -41.3,
+      "target_window_lufs": -29,
+      "gain_q8": 768,
+      "gain_db": 9.54,
+      "private_sample": true,
+      "limited": true
+    },
+    {
+      "constant": "MUS_YOKAI_HOPPERS_GORGE",
+      "song_id": 370,
+      "baseline_window_lufs": -35.9,
+      "target_window_lufs": -29,
+      "gain_q8": 567,
+      "gain_db": 6.91,
+      "private_sample": true,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_FINAL_BATTLE",
+      "song_id": 371,
+      "baseline_window_lufs": -15.7,
+      "target_window_lufs": -29,
+      "gain_q8": 64,
+      "gain_db": -12.04,
+      "private_sample": false,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_TAKE_CARE",
+      "song_id": 372,
+      "baseline_window_lufs": -44.5,
+      "target_window_lufs": -29,
+      "gain_q8": 768,
+      "gain_db": 9.54,
+      "private_sample": true,
+      "limited": true
+    }
+  ],
+  "cry_volume_percent": 60
+}

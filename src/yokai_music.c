@@ -130,3 +130,52 @@ void YokaiResumePausedSample(struct MusicPlayerInfo *player)
     }
 #endif
 }
+
+
+/* Calibrate at song start, then one cached integer multiply per volume update.
+ * The fader, help reduction and cry ducking remain relative to this gain.
+ * No changes to track sequence data or private sampled waveform bytes.
+ */
+#include "data/yokai_mixer_gains.h"
+static EWRAM_DATA u16 sMixGain[4] = {256, 256, 256, 256};
+
+static s32 MixerPlayerIndex(struct MusicPlayerInfo *player)
+{
+    if (player == &gMPlayInfo_BGM) return 0;
+    if (player == &gMPlayInfo_SE1) return 1;
+    if (player == &gMPlayInfo_SE2) return 2;
+    if (player == &gMPlayInfo_SE3) return 3;
+    return -1;
+}
+
+void YokaiCalibrateSong(struct MusicPlayerInfo *player, struct SongHeader *header)
+{
+    s32 index = MixerPlayerIndex(player);
+    u32 n;
+    if (index < 0) return;
+    sMixGain[index] = 256;
+#ifdef YOKAI_PRIVATE_AUDIO
+    for (n = 0; n < YOKAI_MUSIC_SLOT_COUNT; n++)
+        if (gYokaiPrivateHeaders[n] != NULL && gYokaiPrivateHeaders[n] == header)
+        {
+            sMixGain[index] = sYokaiSongGain[MUS_YOKAI_BICYCLE + n];
+            return;
+        }
+#endif
+    for (n = 0; n <= MUS_YOKAI_TAKE_CARE; n++)
+        if (gSongTable[n].header == header)
+        {
+            sMixGain[index] = sYokaiSongGain[n];
+            return;
+        }
+}
+
+u32 YokaiScaleTrackVolume(struct MusicPlayerInfo *player, u32 volume)
+{
+    s32 index = MixerPlayerIndex(player);
+    if (index >= 0)
+        volume = (volume * sMixGain[index] + 128) >> 8;
+    /* volML/volMR are bytes: prohibit wrap-around at boosted private levels. */
+    if (volume > 510) volume = 510;
+    return volume;
+}

@@ -460,7 +460,8 @@ void PlayCryInternal(u16 species, s8 pan, s8 volume, u8 priority, u8 mode)
         break;
     }
 
-    SetPokemonCryVolume(volume);
+    /* Keep original cry identity; soften combat and ambient cries consistently. */
+    SetPokemonCryVolume((volume * 60) / 100);
     SetPokemonCryPanpot(pan);
     SetPokemonCryPitch(pitch);
     SetPokemonCryLength(length);

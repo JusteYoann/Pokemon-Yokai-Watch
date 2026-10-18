@@ -9,4 +9,6 @@ void YokaiRememberPausedSample(struct MusicPlayerInfo *player);
 void YokaiResumePausedSample(struct MusicPlayerInfo *player);
 void YokaiDiscardPausedSample(struct MusicPlayerInfo *player);
 void YokaiRetryPausedSample(void);
+void YokaiCalibrateSong(struct MusicPlayerInfo *player, struct SongHeader *header);
+u32 YokaiScaleTrackVolume(struct MusicPlayerInfo *player, u32 volume);
 #endif
