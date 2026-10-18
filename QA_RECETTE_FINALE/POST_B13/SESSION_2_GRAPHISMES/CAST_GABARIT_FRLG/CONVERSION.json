@@ -1,0 +1,1812 @@
+{
+  "palette_changes": 0,
+  "assets": [
+    {
+      "actor": "ariane",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-a.png",
+      "source_sha256": "d3dabafafd20fe89314e52d7434c0ee8560e65593cee1cba062758563e381e17",
+      "frames": 3,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "97828ce2e2bb201ae66359139147570fa5d6653a818baa996101eb2527eec3f6",
+      "transparent_index": 0,
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            98,
+            122,
+            257,
+            352
+          ],
+          "target_bbox": [
+            1,
+            11,
+            15,
+            31
+          ]
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            465,
+            122,
+            622,
+            352
+          ],
+          "target_bbox": [
+            1,
+            11,
+            15,
+            31
+          ]
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            836,
+            122,
+            985,
+            352
+          ],
+          "target_bbox": [
+            2,
+            11,
+            15,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "actor": "enma",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-a.png",
+      "source_sha256": "d3dabafafd20fe89314e52d7434c0ee8560e65593cee1cba062758563e381e17",
+      "frames": 3,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "e70c3c7f9a9bc2ef9aaea983c106fae970a332ba3a76d311db30ae5680dbb173",
+      "transparent_index": 0,
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            100,
+            442,
+            260,
+            707
+          ],
+          "target_bbox": [
+            2,
+            9,
+            15,
+            31
+          ]
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            464,
+            442,
+            623,
+            707
+          ],
+          "target_bbox": [
+            2,
+            9,
+            15,
+            31
+          ]
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            830,
+            442,
+            990,
+            707
+          ],
+          "target_bbox": [
+            2,
+            9,
+            15,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "actor": "nathaniel",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-a.png",
+      "source_sha256": "d3dabafafd20fe89314e52d7434c0ee8560e65593cee1cba062758563e381e17",
+      "frames": 3,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "29c3fc2ac4b5c5db02ab0ea5eac409fd70c8de6dd0d6a918fc9c4e23a1bdf534",
+      "transparent_index": 0,
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            93,
+            797,
+            265,
+            1046
+          ],
+          "target_bbox": [
+            1,
+            10,
+            15,
+            31
+          ]
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            458,
+            796,
+            629,
+            1046
+          ],
+          "target_bbox": [
+            1,
+            10,
+            15,
+            31
+          ]
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            845,
+            791,
+            1000,
+            1046
+          ],
+          "target_bbox": [
+            2,
+            10,
+            15,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "actor": "michael",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-a.png",
+      "source_sha256": "d3dabafafd20fe89314e52d7434c0ee8560e65593cee1cba062758563e381e17",
+      "frames": 3,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "6b627519c6873a763c9a1bb9afd1fe5605df07194d6dd61697c2e898efb2b6f4",
+      "transparent_index": 0,
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            93,
+            1122,
+            257,
+            1368
+          ],
+          "target_bbox": [
+            1,
+            10,
+            15,
+            31
+          ]
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            464,
+            1122,
+            629,
+            1368
+          ],
+          "target_bbox": [
+            1,
+            10,
+            15,
+            31
+          ]
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            833,
+            1125,
+            1001,
+            1368
+          ],
+          "target_bbox": [
+            1,
+            10,
+            15,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "actor": "wyatt",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-b.png",
+      "source_sha256": "6ba14dd1cde29580bcff297350bbc6f39d368c922eed00da2c55a48c037eb71e",
+      "frames": 3,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "146559cafb6fabbeeb19666a4763549c80bfb10f3b7f8a5ff5019c6dd71500c8",
+      "transparent_index": 0,
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            97,
+            124,
+            261,
+            339
+          ],
+          "target_bbox": [
+            0,
+            11,
+            15,
+            31
+          ]
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            466,
+            127,
+            623,
+            339
+          ],
+          "target_bbox": [
+            1,
+            12,
+            15,
+            31
+          ]
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            836,
+            127,
+            998,
+            340
+          ],
+          "target_bbox": [
+            0,
+            12,
+            15,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "actor": "don_morleone",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-b.png",
+      "source_sha256": "6ba14dd1cde29580bcff297350bbc6f39d368c922eed00da2c55a48c037eb71e",
+      "frames": 3,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "358969ad0588f118dd6093191adf517d019cce78ad978181926144211b3fa6a6",
+      "transparent_index": 0,
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            97,
+            453,
+            285,
+            701
+          ],
+          "target_bbox": [
+            0,
+            11,
+            15,
+            31
+          ]
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            466,
+            453,
+            621,
+            696
+          ],
+          "target_bbox": [
+            2,
+            12,
+            14,
+            31
+          ]
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            827,
+            453,
+            1013,
+            700
+          ],
+          "target_bbox": [
+            0,
+            11,
+            15,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "actor": "mafiamille_1",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-b.png",
+      "source_sha256": "6ba14dd1cde29580bcff297350bbc6f39d368c922eed00da2c55a48c037eb71e",
+      "frames": 3,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "358969ad0588f118dd6093191adf517d019cce78ad978181926144211b3fa6a6",
+      "transparent_index": 0,
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            87,
+            819,
+            278,
+            1019
+          ],
+          "target_bbox": [
+            0,
+            14,
+            16,
+            31
+          ]
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            452,
+            819,
+            634,
+            1019
+          ],
+          "target_bbox": [
+            0,
+            14,
+            15,
+            31
+          ]
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            840,
+            818,
+            1005,
+            1019
+          ],
+          "target_bbox": [
+            1,
+            14,
+            15,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "actor": "mafiamille_2",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-b.png",
+      "source_sha256": "6ba14dd1cde29580bcff297350bbc6f39d368c922eed00da2c55a48c037eb71e",
+      "frames": 3,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "358969ad0588f118dd6093191adf517d019cce78ad978181926144211b3fa6a6",
+      "transparent_index": 0,
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            92,
+            1104,
+            246,
+            1369
+          ],
+          "target_bbox": [
+            2,
+            9,
+            15,
+            31
+          ]
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            476,
+            1099,
+            625,
+            1367
+          ],
+          "target_bbox": [
+            2,
+            9,
+            14,
+            31
+          ]
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            842,
+            1102,
+            1004,
+            1371
+          ],
+          "target_bbox": [
+            2,
+            9,
+            15,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "actor": "mafiamille_3",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-c.png",
+      "source_sha256": "5a0487c8eadd97c3a9ad48382742369fff0b1b9db70d08f5a9412435f43fcacc",
+      "frames": 3,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "358969ad0588f118dd6093191adf517d019cce78ad978181926144211b3fa6a6",
+      "transparent_index": 0,
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            103,
+            86,
+            292,
+            309
+          ],
+          "target_bbox": [
+            0,
+            12,
+            16,
+            31
+          ]
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            450,
+            93,
+            637,
+            309
+          ],
+          "target_bbox": [
+            0,
+            13,
+            16,
+            31
+          ]
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            813,
+            91,
+            974,
+            309
+          ],
+          "target_bbox": [
+            1,
+            13,
+            15,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "actor": "employe_rouge",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-c.png",
+      "source_sha256": "5a0487c8eadd97c3a9ad48382742369fff0b1b9db70d08f5a9412435f43fcacc",
+      "frames": 3,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "0372011ff0997c17265edaf8a7eb0c1dbc29f73f11653504889b7318c17f7984",
+      "transparent_index": 0,
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            128,
+            403,
+            277,
+            658
+          ],
+          "target_bbox": [
+            2,
+            10,
+            14,
+            31
+          ]
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            473,
+            414,
+            618,
+            658
+          ],
+          "target_bbox": [
+            2,
+            11,
+            14,
+            31
+          ]
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            837,
+            417,
+            949,
+            658
+          ],
+          "target_bbox": [
+            4,
+            11,
+            13,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "actor": "employe_bleu",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-c.png",
+      "source_sha256": "5a0487c8eadd97c3a9ad48382742369fff0b1b9db70d08f5a9412435f43fcacc",
+      "frames": 3,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "0372011ff0997c17265edaf8a7eb0c1dbc29f73f11653504889b7318c17f7984",
+      "transparent_index": 0,
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            132,
+            737,
+            262,
+            993
+          ],
+          "target_bbox": [
+            2,
+            10,
+            13,
+            31
+          ]
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            482,
+            745,
+            612,
+            994
+          ],
+          "target_bbox": [
+            2,
+            11,
+            13,
+            31
+          ]
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            823,
+            749,
+            949,
+            993
+          ],
+          "target_bbox": [
+            3,
+            11,
+            13,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "actor": "domniscian",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-c.png",
+      "source_sha256": "5a0487c8eadd97c3a9ad48382742369fff0b1b9db70d08f5a9412435f43fcacc",
+      "frames": 3,
+      "width": 32,
+      "height": 32,
+      "palette_sha256": "0372011ff0997c17265edaf8a7eb0c1dbc29f73f11653504889b7318c17f7984",
+      "transparent_index": 0,
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            48,
+            1038,
+            344,
+            1403
+          ],
+          "target_bbox": [
+            4,
+            4,
+            27,
+            31
+          ]
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            404,
+            1038,
+            696,
+            1401
+          ],
+          "target_bbox": [
+            5,
+            3,
+            27,
+            31
+          ]
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            772,
+            1038,
+            1037,
+            1401
+          ],
+          "target_bbox": [
+            6,
+            3,
+            26,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "actor": "matt",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/matt.png",
+      "source_sha256": "5757208a6032f2a5e4baaa4a5188f3f206f0d661dc786eb01c848390334f39db",
+      "frames": 9,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "1129168633e9b747336957f729883152024c3a6ef2a1a762a9b431246fa37a3a",
+      "transparent_index": 0,
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            117,
+            138,
+            299,
+            365
+          ],
+          "target_bbox": [
+            0,
+            12,
+            15,
+            31
+          ]
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            545,
+            138,
+            709,
+            365
+          ],
+          "target_bbox": [
+            2,
+            12,
+            15,
+            31
+          ]
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            975,
+            138,
+            1144,
+            365
+          ],
+          "target_bbox": [
+            0,
+            12,
+            14,
+            31
+          ]
+        },
+        {
+          "frame": 3,
+          "source_bbox": [
+            118,
+            536,
+            299,
+            776
+          ],
+          "target_bbox": [
+            0,
+            12,
+            15,
+            32
+          ]
+        },
+        {
+          "frame": 4,
+          "source_bbox": [
+            540,
+            535,
+            723,
+            771
+          ],
+          "target_bbox": [
+            0,
+            13,
+            15,
+            32
+          ]
+        },
+        {
+          "frame": 5,
+          "source_bbox": [
+            968,
+            536,
+            1138,
+            773
+          ],
+          "target_bbox": [
+            1,
+            13,
+            15,
+            32
+          ]
+        },
+        {
+          "frame": 6,
+          "source_bbox": [
+            125,
+            929,
+            294,
+            1163
+          ],
+          "target_bbox": [
+            1,
+            13,
+            15,
+            32
+          ]
+        },
+        {
+          "frame": 7,
+          "source_bbox": [
+            542,
+            928,
+            724,
+            1154
+          ],
+          "target_bbox": [
+            0,
+            12,
+            15,
+            31
+          ]
+        },
+        {
+          "frame": 8,
+          "source_bbox": [
+            966,
+            928,
+            1144,
+            1154
+          ],
+          "target_bbox": [
+            0,
+            12,
+            15,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "actor": "katie",
+      "asset": "normal",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/katie-normal.png",
+      "source_sha256": "8ca326df854cae582c9a3604b8178d3cba9102ca2f318bc21d0498bb0d005a78",
+      "frames": 9,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "9607152170a3601876b599082ebfed34cc18dab42a3d63b121f514898db211e2",
+      "transparent_index": 0,
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            138,
+            167,
+            286,
+            391
+          ],
+          "target_bbox": [
+            2,
+            12,
+            15,
+            31
+          ]
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            552,
+            167,
+            696,
+            390
+          ],
+          "target_bbox": [
+            2,
+            12,
+            14,
+            31
+          ]
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            970,
+            167,
+            1126,
+            391
+          ],
+          "target_bbox": [
+            2,
+            12,
+            15,
+            31
+          ]
+        },
+        {
+          "frame": 3,
+          "source_bbox": [
+            137,
+            575,
+            286,
+            794
+          ],
+          "target_bbox": [
+            2,
+            13,
+            15,
+            32
+          ]
+        },
+        {
+          "frame": 4,
+          "source_bbox": [
+            555,
+            575,
+            704,
+            794
+          ],
+          "target_bbox": [
+            2,
+            13,
+            15,
+            32
+          ]
+        },
+        {
+          "frame": 5,
+          "source_bbox": [
+            976,
+            584,
+            1118,
+            794
+          ],
+          "target_bbox": [
+            2,
+            14,
+            14,
+            32
+          ]
+        },
+        {
+          "frame": 6,
+          "source_bbox": [
+            138,
+            967,
+            276,
+            1185
+          ],
+          "target_bbox": [
+            2,
+            14,
+            14,
+            32
+          ]
+        },
+        {
+          "frame": 7,
+          "source_bbox": [
+            540,
+            968,
+            706,
+            1185
+          ],
+          "target_bbox": [
+            2,
+            13,
+            16,
+            31
+          ]
+        },
+        {
+          "frame": 8,
+          "source_bbox": [
+            961,
+            968,
+            1126,
+            1175
+          ],
+          "target_bbox": [
+            2,
+            13,
+            16,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "actor": "katie",
+      "asset": "surf_run",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/katie-surf_run.png",
+      "source_sha256": "cf6ef88017c4e3794570e4fc9c3c2afde5129c4c1ffcc9c478d9b0a458224623",
+      "frames": 14,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "9607152170a3601876b599082ebfed34cc18dab42a3d63b121f514898db211e2",
+      "transparent_index": 0,
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            94,
+            127,
+            261,
+            318
+          ],
+          "target_bbox": [
+            1,
+            14,
+            15,
+            30
+          ]
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            403,
+            127,
+            568,
+            318
+          ],
+          "target_bbox": [
+            1,
+            14,
+            15,
+            30
+          ]
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            713,
+            136,
+            888,
+            318
+          ],
+          "target_bbox": [
+            1,
+            14,
+            16,
+            30
+          ]
+        },
+        {
+          "frame": 3,
+          "source_bbox": [
+            85,
+            413,
+            239,
+            623
+          ],
+          "target_bbox": [
+            2,
+            11,
+            15,
+            29
+          ]
+        },
+        {
+          "frame": 4,
+          "source_bbox": [
+            409,
+            413,
+            563,
+            623
+          ],
+          "target_bbox": [
+            1,
+            13,
+            14,
+            31
+          ]
+        },
+        {
+          "frame": 5,
+          "source_bbox": [
+            738,
+            413,
+            891,
+            623
+          ],
+          "target_bbox": [
+            2,
+            13,
+            15,
+            31
+          ]
+        },
+        {
+          "frame": 6,
+          "source_bbox": [
+            84,
+            718,
+            239,
+            930
+          ],
+          "target_bbox": [
+            2,
+            12,
+            15,
+            30
+          ]
+        },
+        {
+          "frame": 7,
+          "source_bbox": [
+            408,
+            718,
+            563,
+            921
+          ],
+          "target_bbox": [
+            2,
+            15,
+            15,
+            32
+          ]
+        },
+        {
+          "frame": 8,
+          "source_bbox": [
+            732,
+            718,
+            888,
+            930
+          ],
+          "target_bbox": [
+            2,
+            14,
+            15,
+            32
+          ]
+        },
+        {
+          "frame": 9,
+          "source_bbox": [
+            75,
+            1017,
+            242,
+            1228
+          ],
+          "target_bbox": [
+            1,
+            12,
+            15,
+            30
+          ]
+        },
+        {
+          "frame": 10,
+          "source_bbox": [
+            397,
+            1019,
+            568,
+            1230
+          ],
+          "target_bbox": [
+            0,
+            12,
+            15,
+            30
+          ]
+        },
+        {
+          "frame": 11,
+          "source_bbox": [
+            729,
+            1020,
+            902,
+            1228
+          ],
+          "target_bbox": [
+            0,
+            12,
+            15,
+            30
+          ]
+        },
+        {
+          "frame": 12,
+          "source_bbox": [
+            84,
+            1332,
+            239,
+            1539
+          ],
+          "target_bbox": [
+            2,
+            14,
+            15,
+            32
+          ]
+        },
+        {
+          "frame": 13,
+          "source_bbox": [
+            398,
+            1332,
+            550,
+            1539
+          ],
+          "target_bbox": [
+            2,
+            14,
+            15,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "actor": "katie",
+      "asset": "bike",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/katie-bike.png",
+      "source_sha256": "bbf36549887c9d577bd539721f25751f06c6c5acde95a6b0743417c5ed786a78",
+      "frames": 9,
+      "width": 32,
+      "height": 32,
+      "palette_sha256": "9607152170a3601876b599082ebfed34cc18dab42a3d63b121f514898db211e2",
+      "transparent_index": 0,
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            127,
+            166,
+            292,
+            440
+          ],
+          "target_bbox": [
+            10,
+            10,
+            23,
+            32
+          ]
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            547,
+            166,
+            707,
+            438
+          ],
+          "target_bbox": [
+            10,
+            10,
+            23,
+            32
+          ]
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            943,
+            167,
+            1140,
+            423
+          ],
+          "target_bbox": [
+            7,
+            11,
+            23,
+            32
+          ]
+        },
+        {
+          "frame": 3,
+          "source_bbox": [
+            127,
+            563,
+            293,
+            836
+          ],
+          "target_bbox": [
+            10,
+            10,
+            23,
+            32
+          ]
+        },
+        {
+          "frame": 4,
+          "source_bbox": [
+            544,
+            562,
+            711,
+            835
+          ],
+          "target_bbox": [
+            10,
+            10,
+            23,
+            32
+          ]
+        },
+        {
+          "frame": 5,
+          "source_bbox": [
+            961,
+            563,
+            1126,
+            834
+          ],
+          "target_bbox": [
+            9,
+            10,
+            22,
+            32
+          ]
+        },
+        {
+          "frame": 6,
+          "source_bbox": [
+            127,
+            950,
+            292,
+            1217
+          ],
+          "target_bbox": [
+            10,
+            11,
+            23,
+            32
+          ]
+        },
+        {
+          "frame": 7,
+          "source_bbox": [
+            525,
+            952,
+            725,
+            1206
+          ],
+          "target_bbox": [
+            7,
+            12,
+            23,
+            32
+          ]
+        },
+        {
+          "frame": 8,
+          "source_bbox": [
+            943,
+            951,
+            1142,
+            1206
+          ],
+          "target_bbox": [
+            7,
+            12,
+            23,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "actor": "katie",
+      "asset": "vs_seeker_bike",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/katie-vs_seeker_bike.png",
+      "source_sha256": "82d977a325e5ce5f37239a9969953d7aeb0b1e7b9f38c0f7e3e95e10c6aa687d",
+      "frames": 6,
+      "width": 32,
+      "height": 32,
+      "palette_sha256": "9607152170a3601876b599082ebfed34cc18dab42a3d63b121f514898db211e2",
+      "transparent_index": 0,
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            155,
+            203,
+            350,
+            495
+          ],
+          "target_bbox": [
+            8,
+            9,
+            23,
+            32
+          ]
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            668,
+            203,
+            865,
+            494
+          ],
+          "target_bbox": [
+            9,
+            9,
+            24,
+            32
+          ]
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            1185,
+            202,
+            1382,
+            495
+          ],
+          "target_bbox": [
+            8,
+            9,
+            23,
+            32
+          ]
+        },
+        {
+          "frame": 3,
+          "source_bbox": [
+            152,
+            635,
+            350,
+            925
+          ],
+          "target_bbox": [
+            8,
+            9,
+            24,
+            32
+          ]
+        },
+        {
+          "frame": 4,
+          "source_bbox": [
+            668,
+            636,
+            865,
+            924
+          ],
+          "target_bbox": [
+            8,
+            9,
+            23,
+            32
+          ]
+        },
+        {
+          "frame": 5,
+          "source_bbox": [
+            1187,
+            636,
+            1384,
+            924
+          ],
+          "target_bbox": [
+            8,
+            9,
+            23,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "actor": "katie",
+      "asset": "fish",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/katie-fish.png",
+      "source_sha256": "a24eacf4a0c8c3e0c696755524e63602c8776f8eed641498cc55978afd0017e6",
+      "frames": 12,
+      "width": 32,
+      "height": 32,
+      "palette_sha256": "9607152170a3601876b599082ebfed34cc18dab42a3d63b121f514898db211e2",
+      "transparent_index": 0,
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            56,
+            170,
+            264,
+            420
+          ],
+          "target_bbox": [
+            12,
+            8,
+            31,
+            31
+          ]
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            330,
+            154,
+            482,
+            420
+          ],
+          "target_bbox": [
+            18,
+            7,
+            32,
+            31
+          ]
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            551,
+            222,
+            798,
+            420
+          ],
+          "target_bbox": [
+            7,
+            14,
+            29,
+            32
+          ]
+        },
+        {
+          "frame": 3,
+          "source_bbox": [
+            844,
+            212,
+            1053,
+            419
+          ],
+          "target_bbox": [
+            8,
+            12,
+            27,
+            31
+          ]
+        },
+        {
+          "frame": 4,
+          "source_bbox": [
+            70,
+            603,
+            251,
+            864
+          ],
+          "target_bbox": [
+            8,
+            7,
+            24,
+            31
+          ]
+        },
+        {
+          "frame": 5,
+          "source_bbox": [
+            343,
+            580,
+            489,
+            864
+          ],
+          "target_bbox": [
+            10,
+            6,
+            23,
+            32
+          ]
+        },
+        {
+          "frame": 6,
+          "source_bbox": [
+            604,
+            661,
+            838,
+            857
+          ],
+          "target_bbox": [
+            6,
+            11,
+            23,
+            29
+          ]
+        },
+        {
+          "frame": 7,
+          "source_bbox": [
+            868,
+            659,
+            1043,
+            864
+          ],
+          "target_bbox": [
+            8,
+            11,
+            24,
+            30
+          ]
+        },
+        {
+          "frame": 8,
+          "source_bbox": [
+            62,
+            1064,
+            226,
+            1311
+          ],
+          "target_bbox": [
+            10,
+            7,
+            25,
+            29
+          ]
+        },
+        {
+          "frame": 9,
+          "source_bbox": [
+            343,
+            1056,
+            494,
+            1309
+          ],
+          "target_bbox": [
+            8,
+            2,
+            22,
+            23
+          ]
+        },
+        {
+          "frame": 10,
+          "source_bbox": [
+            578,
+            1105,
+            753,
+            1352
+          ],
+          "target_bbox": [
+            8,
+            8,
+            24,
+            30
+          ]
+        },
+        {
+          "frame": 11,
+          "source_bbox": [
+            871,
+            1040,
+            1022,
+            1317
+          ],
+          "target_bbox": [
+            9,
+            13,
+            23,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "actor": "katie",
+      "asset": "item",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/katie-item.png",
+      "source_sha256": "156088e265ad7c771be2028c68990490d7229962f96eed0566e87941b51ac9b0",
+      "frames": 9,
+      "width": 32,
+      "height": 32,
+      "palette_sha256": "9607152170a3601876b599082ebfed34cc18dab42a3d63b121f514898db211e2",
+      "transparent_index": 0,
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            138,
+            166,
+            291,
+            389
+          ],
+          "target_bbox": [
+            8,
+            8,
+            24,
+            31
+          ]
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            556,
+            166,
+            709,
+            389
+          ],
+          "target_bbox": [
+            8,
+            8,
+            24,
+            31
+          ]
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            963,
+            168,
+            1134,
+            389
+          ],
+          "target_bbox": [
+            6,
+            8,
+            24,
+            31
+          ]
+        },
+        {
+          "frame": 3,
+          "source_bbox": [
+            134,
+            584,
+            291,
+            804
+          ],
+          "target_bbox": [
+            8,
+            8,
+            24,
+            31
+          ]
+        },
+        {
+          "frame": 4,
+          "source_bbox": [
+            556,
+            585,
+            698,
+            804
+          ],
+          "target_bbox": [
+            8,
+            8,
+            23,
+            31
+          ]
+        },
+        {
+          "frame": 5,
+          "source_bbox": [
+            973,
+            585,
+            1127,
+            806
+          ],
+          "target_bbox": [
+            8,
+            8,
+            24,
+            31
+          ]
+        },
+        {
+          "frame": 6,
+          "source_bbox": [
+            138,
+            977,
+            280,
+            1191
+          ],
+          "target_bbox": [
+            9,
+            9,
+            24,
+            31
+          ]
+        },
+        {
+          "frame": 7,
+          "source_bbox": [
+            556,
+            977,
+            698,
+            1191
+          ],
+          "target_bbox": [
+            8,
+            9,
+            23,
+            31
+          ]
+        },
+        {
+          "frame": 8,
+          "source_bbox": [
+            974,
+            976,
+            1116,
+            1182
+          ],
+          "target_bbox": [
+            8,
+            10,
+            23,
+            31
+          ]
+        }
+      ]
+    }
+  ]
+}

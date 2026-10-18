@@ -3,16 +3,16 @@
 
 Real new game, prepared party and shore warp. Not HM/badge progression proof.
 """
-import hashlib,json
+import hashlib,json,os
 from PIL import Image
 from mgba_rpc import ROOT
 from mgba_new_game import new_game
-P=ROOT/'QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/NATHAN_GABARIT_RED/surf';P.mkdir(parents=True,exist_ok=True)
+P=ROOT/os.environ.get('YOKAI_SURF_REPORT_DIR','QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/NATHAN_GABARIT_RED/surf');P.mkdir(parents=True,exist_ok=True)
 def contact(frames,name):
  out=Image.new('RGB',(960,320),(224,224,224))
  for i in range(8):out.paste(frames[round(i*(len(frames)-1)/7)],((i%4)*240,(i//4)*160))
  out.save(P/(name+'.png'))
-r=new_game();passed=False;error='Interrupted'
+r=new_game(int(os.environ.get('YOKAI_SURF_GENDER','0')));passed=False;error='Interrupted'
 try:
  r.call('CreateMon',r.symbols['gPlayerParty'],1,30,31,1,100,1,0);r.write(r.symbols['gPlayerPartyCount'],b'\x01');r.call('SetMonMoveSlot',r.symbols['gPlayerParty'],57,0)
  r.call('SetWarpDestination',3,39,255,12,10);r.call('WarpIntoMap');r.call('SetMainCallback2',r.symbols['CB2_LoadMap']|1);r.run(600)

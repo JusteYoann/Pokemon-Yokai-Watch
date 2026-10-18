@@ -23,6 +23,8 @@ def fit(c,size,scale=None,bottom=None):
  v=c.resize((max(1,round(c.width*scale)),max(1,round(c.height*scale))),Image.Resampling.NEAREST)
  out=Image.new('RGBA',size);out.alpha_composite(v,((size[0]-v.width)//2,(bottom if bottom is not None else size[1]-1)-v.height));return indexed(out)
 def save(im,path):
+ if path.parent.name=='katie' and path.stem in {'normal','surf_run','bike','vs_seeker_bike','fish','item'} and (path.parent.parent/'overworld_frlg_v2/source/katie-normal.png').exists():
+  print('Preserved Katie FRLG-base overworld:',path.name);return
  # Nathan's map sprites were redrawn on Red's body template. Preserve this
  # later revision when maintaining legacy battle/intro/Katie source packs.
  if path.parent.name=='nathan' and path.stem in {'normal','surf_run','bike','vs_seeker_bike','fish','item'} and (path.parent/'source/red-base/normal.png').exists():

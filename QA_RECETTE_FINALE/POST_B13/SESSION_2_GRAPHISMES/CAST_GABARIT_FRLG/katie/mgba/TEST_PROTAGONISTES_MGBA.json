@@ -1,0 +1,18 @@
+{
+  "engine": "mGBA libretro",
+  "rom_sha256": "431ba94236270358f2fa091cf612ad1fbaf2ed40bcfffd071efbc8bc552a2142",
+  "overworld_only": true,
+  "scope": "Native animation fixtures on Dojo map with defeated original trainers; gender and custom name assigned in fixture, not via intro UI; battle entry only when overworld_only is false; not a complete story run",
+  "results": [
+    {
+      "person": "katie",
+      "test": "Native player actor, three four-direction walk/run cycles, bicycle cycles, field/watch and VS Seeker animations, actual fishing task in four directions and return to normal; native surf graphics/four facings/return in rendering fixture (not HM progression or water traversal)",
+      "custom_fixture_name_preserved": true,
+      "passed": true
+    }
+  ],
+  "remaining": [
+    "Opposite protagonist cameo events",
+    "Complete adventure"
+  ]
+}

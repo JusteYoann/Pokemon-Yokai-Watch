@@ -1,0 +1,333 @@
+{
+  "passed": true,
+  "restore_commit": "2e95fcfb9bb89759bdc1776307055d49a9da3cd5",
+  "old_rom_sha256": "cb24569268ca5946f78d04360a39f901e60cff53bded5fd8f06fb5ad629c9501",
+  "new_rom_sha256": "431ba94236270358f2fa091cf612ad1fbaf2ed40bcfffd071efbc8bc552a2142",
+  "rom_bytes": 27718259,
+  "changed_bytes": 13818,
+  "changes_confined_to_overworld_bitmaps_and_hflip_commands": true,
+  "all_other_graphics_and_palettes_identical": 5641,
+  "palettes_changed": 0,
+  "gameplay_changes": 0,
+  "audio_changes": 0,
+  "battle_portrait_changes": 0,
+  "intro_title_changes": 0,
+  "nathan_changes": 0,
+  "arrays": [
+    {
+      "symbol": "gObjectEventPic_Ariane",
+      "type": "overworld_bitmap",
+      "offset": 3851132,
+      "size": 768,
+      "changed_bytes": 308
+    },
+    {
+      "symbol": "gObjectEventPic_YokaiEnma",
+      "type": "overworld_bitmap",
+      "offset": 3852444,
+      "size": 768,
+      "changed_bytes": 472
+    },
+    {
+      "symbol": "gObjectEventPic_YokaiNathaniel",
+      "type": "overworld_bitmap",
+      "offset": 3853788,
+      "size": 768,
+      "changed_bytes": 347
+    },
+    {
+      "symbol": "gObjectEventPic_YokaiMichael",
+      "type": "overworld_bitmap",
+      "offset": 3854588,
+      "size": 768,
+      "changed_bytes": 341
+    },
+    {
+      "symbol": "gObjectEventPic_YokaiWyatt",
+      "type": "overworld_bitmap",
+      "offset": 3855388,
+      "size": 768,
+      "changed_bytes": 308
+    },
+    {
+      "symbol": "gObjectEventPic_YokaiDonMorleone",
+      "type": "overworld_bitmap",
+      "offset": 3859228,
+      "size": 768,
+      "changed_bytes": 271
+    },
+    {
+      "symbol": "gObjectEventPic_YokaiMafiamille1",
+      "type": "overworld_bitmap",
+      "offset": 3859996,
+      "size": 768,
+      "changed_bytes": 320
+    },
+    {
+      "symbol": "gObjectEventPic_YokaiMafiamille2",
+      "type": "overworld_bitmap",
+      "offset": 3860764,
+      "size": 768,
+      "changed_bytes": 298
+    },
+    {
+      "symbol": "gObjectEventPic_YokaiMafiamille3",
+      "type": "overworld_bitmap",
+      "offset": 3861532,
+      "size": 768,
+      "changed_bytes": 315
+    },
+    {
+      "symbol": "gObjectEventPic_YokaiEmployeRouge",
+      "type": "overworld_bitmap",
+      "offset": 3857692,
+      "size": 768,
+      "changed_bytes": 268
+    },
+    {
+      "symbol": "gObjectEventPic_YokaiEmployeBleu",
+      "type": "overworld_bitmap",
+      "offset": 3858460,
+      "size": 768,
+      "changed_bytes": 276
+    },
+    {
+      "symbol": "gObjectEventPic_YokaiDomniscian",
+      "type": "overworld_bitmap",
+      "offset": 3856156,
+      "size": 1536,
+      "changed_bytes": 625
+    },
+    {
+      "symbol": "gObjectEventPic_Blue",
+      "type": "overworld_bitmap",
+      "offset": 3763100,
+      "size": 2304,
+      "changed_bytes": 1100
+    },
+    {
+      "symbol": "gObjectEventPic_GreenNormal",
+      "type": "overworld_bitmap",
+      "offset": 3573724,
+      "size": 2304,
+      "changed_bytes": 829
+    },
+    {
+      "symbol": "gObjectEventPic_GreenSurfRun",
+      "type": "overworld_bitmap",
+      "offset": 3576028,
+      "size": 3584,
+      "changed_bytes": 1592
+    },
+    {
+      "symbol": "gObjectEventPic_GreenBike",
+      "type": "overworld_bitmap",
+      "offset": 3605788,
+      "size": 4608,
+      "changed_bytes": 1894
+    },
+    {
+      "symbol": "gObjectEventPic_GreenVSSeekerBike",
+      "type": "overworld_bitmap",
+      "offset": 3610396,
+      "size": 3072,
+      "changed_bytes": 1311
+    },
+    {
+      "symbol": "gObjectEventPic_GreenFish",
+      "type": "overworld_bitmap",
+      "offset": 3624220,
+      "size": 6144,
+      "changed_bytes": 1700
+    },
+    {
+      "symbol": "gObjectEventPic_GreenItem",
+      "type": "overworld_bitmap",
+      "offset": 3584284,
+      "size": 4608,
+      "changed_bytes": 1185
+    },
+    {
+      "symbol": "sAnim_FaceEast_KatieBike",
+      "type": "visual_flip_commands",
+      "offset": 3885380,
+      "size": 8,
+      "changed_bytes": 1
+    },
+    {
+      "symbol": "sAnim_FaceWest_KatieBike",
+      "type": "visual_flip_commands",
+      "offset": 3885372,
+      "size": 8,
+      "changed_bytes": 1
+    },
+    {
+      "symbol": "sAnim_GoEast_KatieBike",
+      "type": "visual_flip_commands",
+      "offset": 3885312,
+      "size": 20,
+      "changed_bytes": 3
+    },
+    {
+      "symbol": "sAnim_GoFastEast_KatieBike",
+      "type": "visual_flip_commands",
+      "offset": 3885388,
+      "size": 20,
+      "changed_bytes": 3
+    },
+    {
+      "symbol": "sAnim_GoFastWest_KatieBike",
+      "type": "visual_flip_commands",
+      "offset": 3885408,
+      "size": 20,
+      "changed_bytes": 3
+    },
+    {
+      "symbol": "sAnim_GoFasterEast_KatieBike",
+      "type": "visual_flip_commands",
+      "offset": 3885448,
+      "size": 20,
+      "changed_bytes": 3
+    },
+    {
+      "symbol": "sAnim_GoFasterWest_KatieBike",
+      "type": "visual_flip_commands",
+      "offset": 3885292,
+      "size": 20,
+      "changed_bytes": 3
+    },
+    {
+      "symbol": "sAnim_GoFastestEast_KatieBike",
+      "type": "visual_flip_commands",
+      "offset": 3885428,
+      "size": 20,
+      "changed_bytes": 3
+    },
+    {
+      "symbol": "sAnim_GoFastestWest_KatieBike",
+      "type": "visual_flip_commands",
+      "offset": 3885352,
+      "size": 20,
+      "changed_bytes": 3
+    },
+    {
+      "symbol": "sAnim_GoWest_KatieBike",
+      "type": "visual_flip_commands",
+      "offset": 3885332,
+      "size": 20,
+      "changed_bytes": 3
+    },
+    {
+      "symbol": "sAnim_HookedPokemonEast_KatieFish",
+      "type": "visual_flip_commands",
+      "offset": 3885612,
+      "size": 20,
+      "changed_bytes": 3
+    },
+    {
+      "symbol": "sAnim_HookedPokemonWest_KatieFish",
+      "type": "visual_flip_commands",
+      "offset": 3885552,
+      "size": 20,
+      "changed_bytes": 3
+    },
+    {
+      "symbol": "sAnim_MattGoEast",
+      "type": "visual_flip_commands",
+      "offset": 3884820,
+      "size": 20,
+      "changed_bytes": 1
+    },
+    {
+      "symbol": "sAnim_MattGoFastEast",
+      "type": "visual_flip_commands",
+      "offset": 3884860,
+      "size": 20,
+      "changed_bytes": 1
+    },
+    {
+      "symbol": "sAnim_MattGoFastWest",
+      "type": "visual_flip_commands",
+      "offset": 3884840,
+      "size": 20,
+      "changed_bytes": 1
+    },
+    {
+      "symbol": "sAnim_MattGoFasterEast",
+      "type": "visual_flip_commands",
+      "offset": 3884900,
+      "size": 20,
+      "changed_bytes": 1
+    },
+    {
+      "symbol": "sAnim_MattGoFasterWest",
+      "type": "visual_flip_commands",
+      "offset": 3884880,
+      "size": 20,
+      "changed_bytes": 1
+    },
+    {
+      "symbol": "sAnim_MattGoFastestEast",
+      "type": "visual_flip_commands",
+      "offset": 3884940,
+      "size": 20,
+      "changed_bytes": 1
+    },
+    {
+      "symbol": "sAnim_MattGoFastestWest",
+      "type": "visual_flip_commands",
+      "offset": 3884920,
+      "size": 20,
+      "changed_bytes": 1
+    },
+    {
+      "symbol": "sAnim_MattGoWest",
+      "type": "visual_flip_commands",
+      "offset": 3884800,
+      "size": 20,
+      "changed_bytes": 1
+    },
+    {
+      "symbol": "sAnim_PutAwayRodEast_KatieFish",
+      "type": "visual_flip_commands",
+      "offset": 3885592,
+      "size": 20,
+      "changed_bytes": 4
+    },
+    {
+      "symbol": "sAnim_PutAwayRodWest_KatieFish",
+      "type": "visual_flip_commands",
+      "offset": 3885632,
+      "size": 20,
+      "changed_bytes": 4
+    },
+    {
+      "symbol": "sAnim_RunEast_KatieNormal",
+      "type": "visual_flip_commands",
+      "offset": 3885156,
+      "size": 20,
+      "changed_bytes": 1
+    },
+    {
+      "symbol": "sAnim_RunWest_KatieNormal",
+      "type": "visual_flip_commands",
+      "offset": 3885136,
+      "size": 20,
+      "changed_bytes": 1
+    },
+    {
+      "symbol": "sAnim_TakeOutRodEast_KatieFish",
+      "type": "visual_flip_commands",
+      "offset": 3885572,
+      "size": 20,
+      "changed_bytes": 4
+    },
+    {
+      "symbol": "sAnim_TakeOutRodWest_KatieFish",
+      "type": "visual_flip_commands",
+      "offset": 3885652,
+      "size": 20,
+      "changed_bytes": 4
+    }
+  ]
+}

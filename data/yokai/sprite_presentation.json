@@ -1323,36 +1323,6 @@
       "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
     },
     {
-      "id": "overworld/ariane",
-      "source": "graphics/yokai_characters/ariane/overworld.4bpp",
-      "target": "graphics/yokai_characters/ariane/overworld-display.4bpp",
-      "frame_width": 16,
-      "frame_height": 32,
-      "scale_q8": 218,
-      "bottom": 31,
-      "reason": "Session2 : hauteur visible22–23px, référence Red19px et PNJ RougeFeu ; toutes les poses, silhouettes et palettes source préservées."
-    },
-    {
-      "id": "overworld/matt",
-      "source": "graphics/yokai_characters/matt/overworld.4bpp",
-      "target": "graphics/yokai_characters/matt/overworld-display.4bpp",
-      "frame_width": 16,
-      "frame_height": 32,
-      "scale_q8": 235,
-      "bottom": 31,
-      "reason": "Session2 : hauteur visible22–23px, référence Red19px et PNJ RougeFeu ; toutes les poses, silhouettes et palettes source préservées."
-    },
-    {
-      "id": "overworld/wyatt",
-      "source": "graphics/yokai_characters/wyatt/overworld.4bpp",
-      "target": "graphics/yokai_characters/wyatt/overworld-display.4bpp",
-      "frame_width": 16,
-      "frame_height": 32,
-      "scale_q8": 235,
-      "bottom": 31,
-      "reason": "Session2 : hauteur visible22–23px, référence Red19px et PNJ RougeFeu ; toutes les poses, silhouettes et palettes source préservées."
-    },
-    {
       "id": "001/icon",
       "source": "graphics/yokai/001/icon.4bpp",
       "target": "graphics/yokai/001/icon-display.4bpp",
