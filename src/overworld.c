@@ -991,8 +991,6 @@ void Overworld_SetWarpDestinationFromWarp(struct WarpData * warp)
 static u16 GetLocationMusic(struct WarpData * warp)
 {
     u16 music = Overworld_GetMapHeaderByGroupAndId(warp->mapGroup, warp->mapNum)->music;
-    if (music == MUS_YOKAI_NATHAN_HOUSE && gSaveBlock2Ptr->playerGender == FEMALE)
-        return MUS_YOKAI_KATIE_HOUSE;
     if (music == MUS_YOKAI_BADA_BING && FlagGet(FLAG_HIDE_SILPH_ROCKETS))
         return MUS_SILPH;
     return music;

@@ -475,6 +475,10 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 #define OBJ_EVENT_PAL_TAG_YOKAI_MORLEONE_GROUP 0x1125
 #define OBJ_EVENT_PAL_TAG_YOKAI_FRIEND                 0x1120
 #define OBJ_EVENT_PAL_TAG_YOKAI_PLAYER_BRIDGE          0x111F
+#define OBJ_EVENT_PAL_TAG_YOKAI_MISTERRE 0x1127
+#define OBJ_EVENT_PAL_TAG_YOKAI_OCTORGONE 0x1128
+#define OBJ_EVENT_PAL_TAG_YOKAI_MADEMOAISELLE 0x1129
+#define OBJ_EVENT_PAL_TAG_YOKAI_LEO_JIBANYAN 0x112A
 #define OBJ_EVENT_PAL_TAG_YOKAI_ENMA_CREATURE 0x1126
 #define OBJ_EVENT_PAL_TAG_YOKAI_ENMA                  0x111E
 #define OBJ_EVENT_PAL_TAG_ARIANE                      0x111D
@@ -498,6 +502,10 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_YokaiDonMorleoneGroup, OBJ_EVENT_PAL_TAG_YOKAI_MORLEONE_GROUP},
     {gObjectEventPal_Matt, OBJ_EVENT_PAL_TAG_MATT},
     {gObjectEventPal_Ariane, OBJ_EVENT_PAL_TAG_ARIANE},
+    {gObjectEventPal_YokaiMisterre, OBJ_EVENT_PAL_TAG_YOKAI_MISTERRE},
+    {gObjectEventPal_YokaiOctorgone, OBJ_EVENT_PAL_TAG_YOKAI_OCTORGONE},
+    {gObjectEventPal_YokaiMademoaiselle, OBJ_EVENT_PAL_TAG_YOKAI_MADEMOAISELLE},
+    {gObjectEventPal_YokaiLeoJibanyan, OBJ_EVENT_PAL_TAG_YOKAI_LEO_JIBANYAN},
     {gObjectEventPal_YokaiEnmaCreature, OBJ_EVENT_PAL_TAG_YOKAI_ENMA_CREATURE},
     {gObjectEventPal_YokaiEnma, OBJ_EVENT_PAL_TAG_YOKAI_ENMA},
     {gObjectEventPal_YokaiPlayerBridge, OBJ_EVENT_PAL_TAG_YOKAI_PLAYER_BRIDGE},
@@ -534,6 +542,10 @@ static const u16 sYokaiDomniscianGroupReflectionPaletteTags[] = {OBJ_EVENT_PAL_T
 
 static const u16 sYokaiDonMorleoneGroupReflectionPaletteTags[] = {OBJ_EVENT_PAL_TAG_YOKAI_MORLEONE_GROUP, OBJ_EVENT_PAL_TAG_YOKAI_MORLEONE_GROUP, OBJ_EVENT_PAL_TAG_YOKAI_MORLEONE_GROUP, OBJ_EVENT_PAL_TAG_YOKAI_MORLEONE_GROUP};
 
+static const u16 sYokaiMisterreReflectionPaletteTags[] = {OBJ_EVENT_PAL_TAG_YOKAI_MISTERRE, OBJ_EVENT_PAL_TAG_YOKAI_MISTERRE, OBJ_EVENT_PAL_TAG_YOKAI_MISTERRE, OBJ_EVENT_PAL_TAG_YOKAI_MISTERRE};
+static const u16 sYokaiOctorgoneReflectionPaletteTags[] = {OBJ_EVENT_PAL_TAG_YOKAI_OCTORGONE, OBJ_EVENT_PAL_TAG_YOKAI_OCTORGONE, OBJ_EVENT_PAL_TAG_YOKAI_OCTORGONE, OBJ_EVENT_PAL_TAG_YOKAI_OCTORGONE};
+static const u16 sYokaiMademoaiselleReflectionPaletteTags[] = {OBJ_EVENT_PAL_TAG_YOKAI_MADEMOAISELLE, OBJ_EVENT_PAL_TAG_YOKAI_MADEMOAISELLE, OBJ_EVENT_PAL_TAG_YOKAI_MADEMOAISELLE, OBJ_EVENT_PAL_TAG_YOKAI_MADEMOAISELLE};
+static const u16 sYokaiLeoJibanyanReflectionPaletteTags[] = {OBJ_EVENT_PAL_TAG_YOKAI_LEO_JIBANYAN, OBJ_EVENT_PAL_TAG_YOKAI_LEO_JIBANYAN, OBJ_EVENT_PAL_TAG_YOKAI_LEO_JIBANYAN, OBJ_EVENT_PAL_TAG_YOKAI_LEO_JIBANYAN};
 static const u16 sYokaiEnmaCreatureReflectionPaletteTags[] = {OBJ_EVENT_PAL_TAG_YOKAI_ENMA_CREATURE, OBJ_EVENT_PAL_TAG_YOKAI_ENMA_CREATURE, OBJ_EVENT_PAL_TAG_YOKAI_ENMA_CREATURE, OBJ_EVENT_PAL_TAG_YOKAI_ENMA_CREATURE};
 static const u16 sYokaiEnmaReflectionPaletteTags[] = {OBJ_EVENT_PAL_TAG_YOKAI_ENMA, OBJ_EVENT_PAL_TAG_YOKAI_ENMA, OBJ_EVENT_PAL_TAG_YOKAI_ENMA, OBJ_EVENT_PAL_TAG_YOKAI_ENMA};
 
@@ -658,6 +670,10 @@ static const struct PairedPalettes gSpecialObjectReflectionPaletteSets[] = {
     {OBJ_EVENT_PAL_TAG_YOKAI_WYATT, sYokaiWyattReflectionPaletteTags},
     {OBJ_EVENT_PAL_TAG_YOKAI_DOMNISCIAN_GROUP, sYokaiDomniscianGroupReflectionPaletteTags},
     {OBJ_EVENT_PAL_TAG_YOKAI_MORLEONE_GROUP, sYokaiDonMorleoneGroupReflectionPaletteTags},
+    {OBJ_EVENT_PAL_TAG_YOKAI_MISTERRE, sYokaiMisterreReflectionPaletteTags},
+    {OBJ_EVENT_PAL_TAG_YOKAI_OCTORGONE, sYokaiOctorgoneReflectionPaletteTags},
+    {OBJ_EVENT_PAL_TAG_YOKAI_MADEMOAISELLE, sYokaiMademoaiselleReflectionPaletteTags},
+    {OBJ_EVENT_PAL_TAG_YOKAI_LEO_JIBANYAN, sYokaiLeoJibanyanReflectionPaletteTags},
     {OBJ_EVENT_PAL_TAG_YOKAI_ENMA_CREATURE, sYokaiEnmaCreatureReflectionPaletteTags},
     {OBJ_EVENT_PAL_TAG_YOKAI_ENMA,          sYokaiEnmaReflectionPaletteTags},
     {OBJ_EVENT_PAL_TAG_YOKAI_FRIEND,        sYokaiFriendReflectionPaletteTags},

@@ -11,7 +11,7 @@ def load(name):
  return rom,symbols
 results=[];public,ps=load('pokefirered');private,ss=load('pokefirered_audio')
 assert len(public)<=33554432 and len(private)<=33554432
-fallback={1:'mus_cycling',2:'mus_vs_trainer',4:'mus_poke_tower',6:'mus_vs_trainer',7:'mus_pallet',8:'mus_pallet',11:'mus_silph',12:'mus_celadon',14:'mus_viridian_forest',15:'mus_vs_gym_leader',16:'mus_sevii_123',17:'mus_rocket_hideout',20:'mus_vs_trainer'}
+fallback={1:'mus_cycling',2:'mus_vs_trainer',4:'mus_poke_tower',6:'mus_vs_trainer',7:'mus_pallet',8:'mus_pallet',11:'mus_silph',12:'mus_celadon',14:'mus_viridian_forest',15:'mus_vs_gym_leader',16:'mus_sevii_123',17:'mus_rocket_hideout',20:'mus_vs_trainer',21:'mus_vermillion',22:'mus_celadon',23:'mus_mt_moon',24:'mus_mt_moon',25:'mus_vs_champion',26:'mus_slow_pallet'}
 for number,symbol in fallback.items():
  address=struct.unpack_from('<I',public,ps['gSongTable']-0x08000000+(346+number)*8)[0];assert address==ps[symbol],(number,symbol,hex(address))
  results.append({'test':'Exact public native fallback','number':number,'symbol':symbol,'passed':True})
@@ -19,7 +19,7 @@ config=json.loads((ROOT/'data/yokai/audio_loops.json').read_text());active=confi
 # Metadata fixes the expected encoded hashes; no protected audio need be read here.
 import os
 manifest=json.loads((Path(os.environ['YOKAI_AUDIO_DIR'])/'manifest.json').read_text());rows={r['number']:r for r in manifest['prepared_tracks']}
-for number in range(1,21):
+for number in range(1,config.get('slot_count',20)+1):
  ptr=struct.unpack_from('<I',private,ss['gYokaiPrivateHeaders']-0x08000000+(number-1)*4)[0]
  if number not in active:assert ptr==0;continue
  assert ptr==ss[f'mus_yokai_{number:02d}']

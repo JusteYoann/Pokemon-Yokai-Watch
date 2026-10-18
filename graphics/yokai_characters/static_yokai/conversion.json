@@ -1,0 +1,63 @@
+{
+  "source_sha256": "7fdd9366adffd0411aa6ee6bb9366a19ec3e199623dc596c5373a1cb6ca1a686",
+  "scope": "New static overworld art only; approved normal/shiny battle graphics untouched",
+  "sprites": [
+    {
+      "name": "misterre",
+      "species": 33,
+      "dimensions": [
+        32,
+        32
+      ],
+      "opaque_pixels": 481,
+      "transparent_index": 0,
+      "source_cell": 0,
+      "crop": [
+        90,
+        251,
+        619,
+        668
+      ],
+      "palette_colors": 16,
+      "animation": "Stationary inanimate pose, matches original encounter object animation"
+    },
+    {
+      "name": "octorgone",
+      "species": 15,
+      "dimensions": [
+        32,
+        32
+      ],
+      "opaque_pixels": 601,
+      "transparent_index": 0,
+      "source_cell": 1,
+      "crop": [
+        109,
+        195,
+        625,
+        668
+      ],
+      "palette_colors": 16,
+      "animation": "Stationary inanimate pose, matches original encounter object animation"
+    },
+    {
+      "name": "mademoaiselle",
+      "species": 147,
+      "dimensions": [
+        32,
+        32
+      ],
+      "opaque_pixels": 515,
+      "transparent_index": 0,
+      "source_cell": 2,
+      "crop": [
+        117,
+        225,
+        633,
+        668
+      ],
+      "palette_colors": 16,
+      "animation": "Stationary inanimate pose, matches original encounter object animation"
+    }
+  ]
+}

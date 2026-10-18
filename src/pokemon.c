@@ -5923,12 +5923,12 @@ static u16 GetBattleBGM(void)
         case TRAINER_YOKAI_EMPLOYEBLEU:
         case TRAINER_YOKAI_MAFIAMILLE1:
         case TRAINER_YOKAI_MAFIAMILLE2:
-        case TRAINER_YOKAI_MAFIAMILLE3: return MUS_YOKAI_MINI_BOSS;
+        case TRAINER_YOKAI_MAFIAMILLE3: return MUS_VS_TRAINER;
         }
         switch (gTrainers[gTrainerBattleOpponent_A].trainerClass)
         {
         case TRAINER_CLASS_CHAMPION:
-            return MUS_VS_CHAMPION;
+            return MUS_YOKAI_FINAL_BATTLE;
         case TRAINER_CLASS_LEADER:
         case TRAINER_CLASS_ELITE_FOUR:
             return MUS_VS_GYM_LEADER;

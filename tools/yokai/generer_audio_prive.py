@@ -26,7 +26,7 @@ def main():
  with concurrent.futures.ProcessPoolExecutor(max_workers=a.jobs) as pool:results=list(pool.map(encode_track,[(r,a.full_source_dir,output) for r in rows]))
  active=set(config['active_tracks']);available={r['number'] for r in rows};assert active<=available
  lines=['.section .rodata','.align 2','.global gYokaiPrivateHeaders','gYokaiPrivateHeaders:']
- lines.extend(f'.4byte '+(f'mus_yokai_{n:02d}' if n in active else '0') for n in range(1,21))
+ lines.extend(f'.4byte '+(f'mus_yokai_{n:02d}' if n in active else '0') for n in range(1,config.get('slot_count',20)+1))
  lines+=['.global gYokaiPrivateAudioMask','gYokaiPrivateAudioMask:',f'.4byte {sum(1<<(n-1) for n in active)}']
  for n in sorted(active):
   lines += ['.align 2',f'.global mus_yokai_{n:02d}',f'mus_yokai_{n:02d}:','.byte 1,0,0,0',f'.4byte yokai_voice_{n:02d}, yokai_track_{n:02d}',f'yokai_voice_{n:02d}:','.byte 0x28,60,0,0',f'.4byte yokai_wave_{n:02d}','.byte 255,0,255,0',f'yokai_track_{n:02d}:','.byte 0xbb,75,0xbd,0,0xbe,80,0xcf,60,100',f'yokai_wait_{n:02d}:','.byte 0xb0,0xb2',f'.4byte yokai_wait_{n:02d}','.align 2',f'.global yokai_wave_{n:02d}',f'yokai_wave_{n:02d}:',f'.incbin "{output/n.__format__("02d")}.dpcm"']

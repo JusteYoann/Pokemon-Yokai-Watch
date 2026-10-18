@@ -4,14 +4,14 @@
 #include "yokai_music.h"
 
 #ifdef YOKAI_PRIVATE_AUDIO
-extern struct SongHeader *const gYokaiPrivateHeaders[20];
+extern struct SongHeader *const gYokaiPrivateHeaders[YOKAI_MUSIC_SLOT_COUNT];
 extern const u32 gYokaiPrivateAudioMask;
 #endif
 
 struct SongHeader *YokaiGetSongHeader(u16 song, struct SongHeader *fallback)
 {
 #ifdef YOKAI_PRIVATE_AUDIO
-    if (song >= MUS_YOKAI_BICYCLE && song <= MUS_YOKAI_MINI_BOSS)
+    if (song >= MUS_YOKAI_BICYCLE && song <= MUS_YOKAI_TAKE_CARE)
     {
         struct SongHeader *header = gYokaiPrivateHeaders[song - MUS_YOKAI_BICYCLE];
         if (header != NULL)
@@ -43,7 +43,7 @@ static bool8 sResumePending;
 static bool8 IsPrivateSampleHeader(struct SongHeader *header)
 {
     u32 i;
-    for (i = 0; i < 20; i++)
+    for (i = 0; i < YOKAI_MUSIC_SLOT_COUNT; i++)
         if (gYokaiPrivateHeaders[i] != NULL && header == gYokaiPrivateHeaders[i])
             return TRUE;
     return FALSE;

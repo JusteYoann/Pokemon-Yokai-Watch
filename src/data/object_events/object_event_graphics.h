@@ -272,3 +272,13 @@ const u16 gObjectEventPal_YokaiDonMorleoneGroup[] = INCBIN_U16("graphics/yokai_c
 
 const u16 gObjectEventPal_YokaiEnmaCreature[] = INCBIN_U16("graphics/yokai_characters/enma_creature/normal.gbapal");
 const u16 gObjectEventPic_YokaiEnmaCreature[] = INCBIN_U16("graphics/yokai_characters/enma_creature/overworld.4bpp");
+
+const u16 gObjectEventPal_YokaiMisterre[] = INCBIN_U16("graphics/yokai_characters/static_yokai/misterre/normal.gbapal");
+const u16 gObjectEventPic_YokaiMisterre[] = INCBIN_U16("graphics/yokai_characters/static_yokai/misterre/overworld.4bpp");
+const u16 gObjectEventPal_YokaiOctorgone[] = INCBIN_U16("graphics/yokai_characters/static_yokai/octorgone/normal.gbapal");
+const u16 gObjectEventPic_YokaiOctorgone[] = INCBIN_U16("graphics/yokai_characters/static_yokai/octorgone/overworld.4bpp");
+const u16 gObjectEventPal_YokaiMademoaiselle[] = INCBIN_U16("graphics/yokai_characters/static_yokai/mademoaiselle/normal.gbapal");
+const u16 gObjectEventPic_YokaiMademoaiselle[] = INCBIN_U16("graphics/yokai_characters/static_yokai/mademoaiselle/overworld.4bpp");
+
+const u16 gObjectEventPal_YokaiLeoJibanyan[] = INCBIN_U16("graphics/yokai_characters/leo_jibanyan/normal.gbapal");
+const u16 gObjectEventPic_YokaiLeoJibanyan[] = INCBIN_U16("graphics/yokai_characters/leo_jibanyan/overworld.4bpp");

@@ -66,6 +66,7 @@ MtEmber_Summit_EventScript_LordEnma::
 	lock
 	faceplayer
 	goto_if_unset FLAG_SYS_GAME_CLEAR, EventScript_ReleaseEnd
+	playbgm MUS_YOKAI_ENMA_DIALOGUE, 0
 	goto_if_set FLAG_YOKAI_ENMA_WON, MtEmber_Summit_EventScript_EnmaRematchOffer
 	msgbox MtEmber_Summit_Text_EnmaOffer, MSGBOX_YESNO
 	goto MtEmber_Summit_EventScript_EnmaChoice
@@ -85,16 +86,19 @@ MtEmber_Summit_EventScript_EnmaVictory::
 	setflag FLAG_YOKAI_ENMA_WON
 	msgbox MtEmber_Summit_Text_EnmaUnlocked
 	closemessage
+	fadedefaultbgm
 	release
 	end
 MtEmber_Summit_EventScript_EnmaRematchVictory::
 	msgbox MtEmber_Summit_Text_EnmaRematchVictory
 	closemessage
+	fadedefaultbgm
 	release
 	end
 MtEmber_Summit_EventScript_EnmaDecline::
 	msgbox MtEmber_Summit_Text_EnmaDecline
 	closemessage
+	fadedefaultbgm
 	release
 	end
 MtEmber_Summit_Text_EnmaOffer::

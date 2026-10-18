@@ -369,5 +369,12 @@ gSongTable::
 	song mus_vs_trainer, 0, 0 @ MUS_YOKAI_ROBON_3000
 	song mus_vs_trainer, 0, 0 @ MUS_YOKAI_MINI_BOSS
 
+	song mus_vermillion, 0, 0 @ MUS_YOKAI_SAN_FANTASTICO
+	song mus_celadon, 0, 0 @ MUS_YOKAI_UPTOWN
+	song mus_mt_moon, 0, 0 @ MUS_YOKAI_MYSTIC_GROVE
+	song mus_mt_moon, 0, 0 @ MUS_YOKAI_HOPPERS_GORGE
+	song mus_vs_champion, 0, 0 @ MUS_YOKAI_FINAL_BATTLE
+	song mus_slow_pallet, 0, 0 @ MUS_YOKAI_TAKE_CARE
+
 dummy_song_header:
 	.byte 0, 0, 0, 0

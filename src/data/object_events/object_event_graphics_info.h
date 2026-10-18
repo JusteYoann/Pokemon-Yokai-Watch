@@ -3220,3 +3220,45 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiEnmaCreature 
     .anims = sAnimTable_Inanimate, .images = sPicTable_YokaiEnmaCreature,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiMisterre = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_YOKAI_MISTERRE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = TRUE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_32x32, .subspriteTables = gObjectEventSpriteOamTables_32x32,
+    .anims = sAnimTable_Inanimate, .images = sPicTable_YokaiMisterre,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiOctorgone = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_YOKAI_OCTORGONE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = TRUE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_32x32, .subspriteTables = gObjectEventSpriteOamTables_32x32,
+    .anims = sAnimTable_Inanimate, .images = sPicTable_YokaiOctorgone,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiMademoaiselle = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_YOKAI_MADEMOAISELLE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = TRUE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_32x32, .subspriteTables = gObjectEventSpriteOamTables_32x32,
+    .anims = sAnimTable_Inanimate, .images = sPicTable_YokaiMademoaiselle,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiLeoJibanyan = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_YOKAI_LEO_JIBANYAN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_32x32, .subspriteTables = gObjectEventSpriteOamTables_32x32,
+    .anims = sAnimTable_Standard, .images = sPicTable_YokaiLeoJibanyan,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};

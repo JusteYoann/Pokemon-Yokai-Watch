@@ -1,147 +1,233 @@
 {
-  "source": "CAHIER_DES_CHARGES_POKEMON_YOKAI_WATCH_MUSIQUES_QUETES.md section1.1; updated priorities NOUVELLES_DIRECTIVES_FINALISATION.md",
+  "source": "MISSION_FINALE_V1.md: definitive selection of 15, stable legacy IDs preserved",
   "sample_rate_hz": 13379,
-  "status": "20 approved assignments preserved. Actual private integration and native tests: QA_RECETTE_FINALE/INTEGRATION_MUSIQUES. Public build has native fallback; no sacrifice order implied.",
+  "status": "15 selected for v1.0; historical slots retained for source/save compatibility, inactive slots not compiled into private audio",
   "tracks": [
     {
       "number": 1,
       "title": "Bicycle Theme",
       "game": "YW1",
       "source_stem": "Yo-kai Watch OST - Bicycle Theme",
-      "destination": "velo"
+      "destination": "velo",
+      "selected_v1": true
     },
     {
       "number": 2,
       "title": "Vs. Hinozall (English)",
       "game": "BLASTERS",
       "source_stem": "28.5. Vs. Hinozall (English) - Yo-Kai Watch Blasters OST",
-      "destination": "combat_domniscian"
+      "destination": "combat_domniscian",
+      "selected_v1": true
     },
     {
       "number": 3,
       "title": "vs. The Ghoulfather",
       "game": "YW3",
       "source_stem": "57. vs. The Ghoulfather - Yo-Kai Watch 3 OST",
-      "destination": "combat_don_morleone"
+      "destination": "combat_don_morleone",
+      "selected_v1": true
     },
     {
       "number": 4,
       "title": "Infinite Tunnel",
       "game": "YW2",
       "source_stem": "23. Infinite Tunnel - Yo-Kai Watch 2 OST",
-      "destination": "tour_pokemon"
+      "destination": "tour_pokemon",
+      "selected_v1": true
     },
     {
       "number": 5,
       "title": "Enma Track",
       "game": "BLASTERS",
       "source_stem": "27. Enma Track - Yo-Kai Watch Blasters OST",
-      "destination": "dialogue_seigneur_enma"
+      "destination": "dialogue_seigneur_enma",
+      "selected_v1": true
     },
     {
       "number": 6,
       "title": "Vs. Zazelmare",
       "game": "BLASTERS",
       "source_stem": "26. Vs. Zazelmare - Yo-Kai Watch Blasters OST",
-      "destination": "combat_seigneur_enma"
+      "destination": "combat_seigneur_enma",
+      "selected_v1": true
     },
     {
       "number": 7,
       "title": "Nates House",
       "game": "YW1",
       "source_stem": "Yo-kai Watch OST - Nates House",
-      "destination": "maison_nathan"
+      "destination": "maison_nathan",
+      "selected_v1": false
     },
     {
       "number": 8,
       "title": "Katies House",
       "game": "YW1",
       "source_stem": "Yo-kai Watch OST - Katies House(1)",
-      "destination": "maison_katie"
+      "destination": "maison_katie",
+      "selected_v1": false
     },
     {
       "number": 9,
       "title": "Blasters Hideout",
       "game": "BLASTERS",
       "source_stem": "3. Blasters Hideout - Yo-Kai Watch Blasters OST",
-      "destination": "base_coach"
+      "destination": "base_coach",
+      "selected_v1": false
     },
     {
       "number": 10,
       "title": "Yo-kai Watch Blasters! Theme",
       "game": "BLASTERS",
       "source_stem": "1. Yo-kai Watch Blasters! Theme - Yo-Kai Watch Blasters OST",
-      "destination": "combat_coach"
+      "destination": "combat_coach",
+      "selected_v1": false
     },
     {
       "number": 11,
       "title": "Bada-Bing Tower",
       "game": "YW3",
       "source_stem": "16. Bada-Bing Tower - Yo-Kai Watch 3 OST",
-      "destination": "sylphe_occupee"
+      "destination": "sylphe_occupee",
+      "selected_v1": true
     },
     {
       "number": 12,
       "title": "Blossom Heights",
       "game": "YW1",
       "source_stem": "Yo-kai Watch OST - Blossom Heights(4)",
-      "destination": "celadopole"
+      "destination": "celadopole",
+      "selected_v1": false
     },
     {
       "number": 13,
       "title": "Enma Villa",
       "game": "YW3",
       "source_stem": "22. Enma Villa - Yo-Kai Watch 3 OST",
-      "destination": "approche_enma_si_justifiee"
+      "destination": "approche_enma_si_justifiee",
+      "selected_v1": false
     },
     {
       "number": 14,
       "title": "Mount Wildwood in the Past",
       "game": "YW2",
       "source_stem": "3. Mount Wildwood in the Past - Yo-Kai Watch 2 OST(2)",
-      "destination": "bois_baies"
+      "destination": "bois_baies",
+      "selected_v1": false
     },
     {
       "number": 15,
       "title": "Decisive Battle",
       "game": "SANGOKUSHI",
       "source_stem": "7. Decisive Battle - Yo-Kai Sangokushi OST",
-      "destination": "moment_ligue_si_pertinent"
+      "destination": "moment_ligue_si_pertinent",
+      "selected_v1": true
     },
     {
       "number": 16,
       "title": "Harrisville",
       "game": "YW2",
       "source_stem": "6. Yo-Kai Watch 2 OST - Harrisville(1)",
-      "destination": "ile_deux"
+      "destination": "ile_deux",
+      "selected_v1": false
     },
     {
       "number": 17,
       "title": "Somewhere A Bit Dodgy (BBQ)",
       "game": "YW3",
       "source_stem": "14. Somewhere A Bit Dodgy (BBQ) - Yo-Kai Watch 3 OST",
-      "destination": "repaire_rocket"
+      "destination": "repaire_rocket",
+      "selected_v1": true
     },
     {
       "number": 18,
       "title": "Messenger from the Future ~ Robonyan Arrives",
       "game": "YW2",
       "source_stem": "68. Messenger from the Future ~ Robonyan Arrives - Yo-Kai Watch 2 OST",
-      "destination": "dialogue_scientifique"
+      "destination": "dialogue_scientifique",
+      "selected_v1": false
     },
     {
       "number": 19,
       "title": "Vs. Robonyan 3000",
       "game": "BLASTERS",
       "source_stem": "21. Vs. Robonyan 3000 - Yo-Kai Watch Blasters OST",
-      "destination": "combat_scientifique"
+      "destination": "combat_scientifique",
+      "selected_v1": false
     },
     {
       "number": 20,
       "title": "Mini Boss Battle",
       "game": "SANGOKUSHI",
       "source_stem": "11. Mini Boss Battle - Yo-Kai Sangokushi OST",
-      "destination": "employes_mafiamille"
+      "destination": "employes_mafiamille",
+      "selected_v1": false
+    },
+    {
+      "number": 21,
+      "title": "San Fantastico",
+      "game": "YW2",
+      "source_stem": "8. San Fantastico - Yo-Kai Watch 2 OST",
+      "destination": "carmin_sur_mer",
+      "selected_v1": true
+    },
+    {
+      "number": 22,
+      "title": "Uptown Springdale",
+      "game": "YW2",
+      "source_stem": "2. Uptown Springdale - Yo-Kai Watch 2 OST",
+      "destination": "celadopole",
+      "selected_v1": true
+    },
+    {
+      "number": 23,
+      "title": "Mystic Grove",
+      "game": "YW4",
+      "source_stem": "35. Mystic Grove - Yo-Kai Watch 4 OST(1)",
+      "destination": "caverne_azuree",
+      "selected_v1": true
+    },
+    {
+      "number": 24,
+      "title": "Hoppers Gorge",
+      "game": "YW3",
+      "source_stem": "8. Hoppers Gorge - Yo-Kai Watch 3 OST",
+      "destination": "mont_selenite",
+      "selected_v1": true
+    },
+    {
+      "number": 25,
+      "title": "Final Battle – Are You Ready?",
+      "game": "YW1",
+      "source_stem": "Yo-kai Watch OST - Final Battle - Are You Ready(1)",
+      "destination": "matt_champion",
+      "selected_v1": true
+    },
+    {
+      "number": 26,
+      "title": "Take Care, Grandpa 1",
+      "game": "YW2",
+      "source_stem": "36. Take Care, Grandpa 1 - Yo-Kai Watch 2 OST",
+      "destination": "conclusion_ligue",
+      "selected_v1": true
     }
-  ]
+  ],
+  "selected_tracks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    11,
+    15,
+    17,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "slot_count": 26
 }

@@ -1834,3 +1834,25 @@ static const struct SpriteFrameImage sPicTable_YokaiMafiamille3[] = {
 static const struct SpriteFrameImage sPicTable_YokaiEnmaCreature[] = {
     overworld_frame(gObjectEventPic_YokaiEnmaCreature, 4, 4, 0),
 };
+
+static const struct SpriteFrameImage sPicTable_YokaiMisterre[] = {
+    overworld_frame(gObjectEventPic_YokaiMisterre, 4, 4, 0),
+};
+static const struct SpriteFrameImage sPicTable_YokaiOctorgone[] = {
+    overworld_frame(gObjectEventPic_YokaiOctorgone, 4, 4, 0),
+};
+static const struct SpriteFrameImage sPicTable_YokaiMademoaiselle[] = {
+    overworld_frame(gObjectEventPic_YokaiMademoaiselle, 4, 4, 0),
+};
+
+static const struct SpriteFrameImage sPicTable_YokaiLeoJibanyan[] = {
+    overworld_frame(gObjectEventPic_YokaiLeoJibanyan, 4, 4, 0),
+    overworld_frame(gObjectEventPic_YokaiLeoJibanyan, 4, 4, 1),
+    overworld_frame(gObjectEventPic_YokaiLeoJibanyan, 4, 4, 2),
+    overworld_frame(gObjectEventPic_YokaiLeoJibanyan, 4, 4, 3),
+    overworld_frame(gObjectEventPic_YokaiLeoJibanyan, 4, 4, 4),
+    overworld_frame(gObjectEventPic_YokaiLeoJibanyan, 4, 4, 5),
+    overworld_frame(gObjectEventPic_YokaiLeoJibanyan, 4, 4, 6),
+    overworld_frame(gObjectEventPic_YokaiLeoJibanyan, 4, 4, 7),
+    overworld_frame(gObjectEventPic_YokaiLeoJibanyan, 4, 4, 8),
+};

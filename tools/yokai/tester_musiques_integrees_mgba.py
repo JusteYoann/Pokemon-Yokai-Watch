@@ -119,14 +119,14 @@ def run_song(r,n,trigger):
 def main(numbers):
  for n in numbers:
   print('START',n,flush=True)
-  if n in [2,6,15,20]:
+  if n in [2,3,6,15,20]:
    spec=json.loads((ROOT/'data/yokai/cameos_boss.json').read_text());actors={a['name']:a for a in spec['actors']}
-   actor=actors['Domniscian'] if n==2 else actors['EmployeRouge'] if n==20 else {'x':6,'y':5} if n==15 else {'x':11,'y':6}
-   r=boss.fixture({'map':57 if n in [2,20] else MAPS['PokemonLeague_LoreleisRoom'][1] if n==15 else 101,'boss':actor})
+   actor=actors['Domniscian'] if n==2 else actors['DonMorleone'] if n==3 else actors['EmployeRouge'] if n==20 else {'x':6,'y':5} if n==15 else {'x':11,'y':6}
+   r=boss.fixture({'map':57 if n in [2,20] else 114 if n==3 else MAPS['PokemonLeague_LoreleisRoom'][1] if n==15 else 101,'boss':actor})
    if n==15:
     r.call('FlagClear',boss.C['FLAG_DEFEATED_LORELEI']);r.call('VarSet',16488,1) # isolated battle fixture, entry walking already completed
     boss.warp(r,{'map':MAPS['PokemonLeague_LoreleisRoom'][1]},actor)
-   if n==2:
+   if n in [2,3]:
     for flag in actor['need']:r.call('FlagSet',boss.C[flag])
    boss.interact(r)
    for f in range(4000):
@@ -135,11 +135,11 @@ def main(numbers):
    else:raise AssertionError(('Actual NPC battle not started',n))
    r.keys=set();r.run(600);run_song(r,n,'Actual original Lorelei interaction and trainer battle; entry flags/strong party prepared' if n==15 else 'Actual optional NPC battle through A/Yes; progression flags/strong party prepared')
    # Finish the actual optional fight using legal controller input; native return to exploration.
-   won=0x316 if n==2 else 0x303 if n==6 else boss.C['FLAG_DEFEATED_LORELEI'] if n==15 else 0x314
+   won=0x316 if n==2 else 0x31C if n==3 else 0x303 if n==6 else boss.C['FLAG_DEFEATED_LORELEI'] if n==15 else 0x314
    before=r.call('GetGameStat',9);boss.fight(r,won,f'audio-boss-{n:02d}')
    r.run(240);assert r.u32(r.symbols['gMPlayInfo_BGM'])!=r.symbols[f'mus_yokai_{n:02d}'];results[-1]['actual_battle_finished_and_exploration_music_restored']=True
   else:
-   name,x,y={1:('PalletTown',10,10),4:('PokemonTower_1F',10,10),11:('SilphCo_11F',10,15),14:('ThreeIsland_BerryForest',10,10),16:('TwoIsland',10,10),17:('RocketHideout_B1F',20,20)}[n]
+   name,x,y={1:('PalletTown',10,10),4:('PokemonTower_1F',10,10),11:('SilphCo_11F',10,15),14:('ThreeIsland_BerryForest',10,10),16:('TwoIsland',10,10),17:('RocketHideout_B1F',20,20),21:('VermilionCity',14,6),22:('CeladonCity',25,15),23:('CeruleanCave_1F',22,7),24:('MtMoon_1F',14,8)}[n]
    r=fixture(name,x,y)
    if n==11:
     r.call('FlagClear',boss.C['FLAG_HIDE_SILPH_ROCKETS']);r.call('Overworld_ChangeMusicToDefault')
@@ -152,7 +152,7 @@ def main(numbers):
     r.call('FlagSet',boss.C['FLAG_HIDE_SILPH_ROCKETS']);r.call('Overworld_ChangeMusicToDefault');r.run(240);assert r.u32(r.symbols['gMPlayInfo_BGM'])!=r.symbols['mus_yokai_11'];results[-1]['liberated_Silph_returns_native_music']=True
   r.close();print('PASS',n,flush=True)
 if __name__=='__main__':
- parser=argparse.ArgumentParser();parser.add_argument('--tracks',default='1,2,4,6,11,14,15,16,17,20');a=parser.parse_args()
+ parser=argparse.ArgumentParser();parser.add_argument('--tracks',default='1,2,3,4,6,11,15,17,21,22,23,24');a=parser.parse_args()
  try:main([int(n) for n in a.tracks.split(',')]);passed=True;error=None
  except Exception as e:passed=False;error=str(e);raise
  finally:

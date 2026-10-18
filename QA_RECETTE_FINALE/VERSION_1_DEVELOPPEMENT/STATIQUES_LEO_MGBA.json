@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "70d25ad72af0d6d28937052003a3de9cb58aabe44d5a7bbed37f658b45f545b0",
+  "scope": "Native objects/interactions/captures, warp/progression/item fixtures; not whole adventure",
+  "results": [
+    {
+      "test": "misterre-route12 correct dedicated object and native RGB555 palette in map",
+      "object_gfx": 169,
+      "passed": true
+    },
+    {
+      "test": "misterre-route12 original map interaction, correct wild species and actual Master Ball capture into party/Medallium",
+      "species": 33,
+      "passed": true
+    },
+    {
+      "test": "misterre-route16 correct dedicated object and native RGB555 palette in map",
+      "object_gfx": 169,
+      "passed": true
+    },
+    {
+      "test": "misterre-route16 original map interaction, correct wild species and actual Master Ball capture into party/Medallium",
+      "species": 33,
+      "passed": true
+    },
+    {
+      "test": "octorgone correct dedicated object and native RGB555 palette in map",
+      "object_gfx": 170,
+      "passed": true
+    },
+    {
+      "test": "octorgone original map interaction, correct wild species and actual Master Ball capture into party/Medallium",
+      "species": 15,
+      "passed": true
+    },
+    {
+      "test": "mademoaiselle correct dedicated object and native RGB555 palette in map",
+      "object_gfx": 171,
+      "passed": true
+    },
+    {
+      "test": "mademoaiselle original map interaction, correct wild species and actual Master Ball capture into party/Medallium",
+      "species": 147,
+      "passed": true
+    },
+    {
+      "test": "Leo/Jibanyan original walking/teleporter and restoration, actual room controls",
+      "gender": 0,
+      "passed": true
+    },
+    {
+      "test": "Leo/Jibanyan original walking/teleporter and restoration, actual room controls",
+      "gender": 1,
+      "passed": true
+    }
+  ]
+}

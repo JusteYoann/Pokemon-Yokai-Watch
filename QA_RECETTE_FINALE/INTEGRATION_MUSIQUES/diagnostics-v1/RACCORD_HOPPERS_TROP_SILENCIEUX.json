@@ -1,0 +1,249 @@
+{
+  "passed": false,
+  "error": "(24, 'Loop audio mismatch not explained by native cry, or fewer than five clean seams', [{'loop': 1, 'correlation': 0.7557978612799718, 'cry_at_capture': False, 'cry_at_wrap': False}, {'loop': 2, 'correlation': 0.7550931208680968, 'cry_at_capture': False, 'cry_at_wrap': False}, {'loop': 3, 'correlation': 0.7559215523109392, 'cry_at_capture': False, 'cry_at_wrap': False}, {'loop': 4, 'correlation': 0.754903720033699, 'cry_at_capture': False, 'cry_at_wrap': False}, {'loop': 5, 'correlation': 0.7550655161545327, 'cry_at_capture': False, 'cry_at_wrap': False}])",
+  "private_rom_sha256": "04f01af06078305b9e2d581722b6b72b53f5b60f221091033d09c01147e58c5f",
+  "private_rom_bytes": 22740256,
+  "scope": "Real map/bicycle/NPC music in compiled optional audio ROM; fixture warps/flags; five native full loops. Not whole story, hardware profiling or perceptual listening.",
+  "results": [
+    {
+      "number": 21,
+      "passed": true,
+      "trigger": "Native warp/map music: VermilionCity",
+      "native_loop_wraps": [
+        {
+          "frame": 5195,
+          "sample_after_wrap": 107559,
+          "native_cry_active": false
+        },
+        {
+          "frame": 10295,
+          "sample_after_wrap": 107598,
+          "native_cry_active": false
+        },
+        {
+          "frame": 15395,
+          "sample_after_wrap": 107637,
+          "native_cry_active": false
+        },
+        {
+          "frame": 20495,
+          "sample_after_wrap": 107676,
+          "native_cry_active": false
+        },
+        {
+          "frame": 25595,
+          "sample_after_wrap": 107715,
+          "native_cry_active": false
+        }
+      ],
+      "clean_audio_seams_required": 5,
+      "actual_audio_seam_checks": [
+        {
+          "loop": 1,
+          "correlation": 0.986846693110797,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 2,
+          "correlation": 0.9873075246350932,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 3,
+          "correlation": 0.9872511489608999,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 4,
+          "correlation": 0.9865995022073528,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 5,
+          "correlation": 0.9856379085973227,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        }
+      ],
+      "native_samples_per_frame": 224,
+      "expected_frames_per_cycle": 5099.825892857143,
+      "intro_not_repeated": true,
+      "audio_reference_pearson_correlation": 0.9812317061653738,
+      "after_SFX_and_cry_correlation": 0.9831957320049103,
+      "analysis_sample_rate_hz": 4000,
+      "alignment_grid_hz": 16000,
+      "initial_native_sample_position": 85792,
+      "select_SFX_and_cry_native_calls": true,
+      "cry_completed": true,
+      "native_Flash_save_with_music": true,
+      "native_frames": 25635,
+      "source_sample_period": 1142361,
+      "perceptual_listening_validated": false,
+      "audio_demo": "Private output/previews only, not public GitHub"
+    },
+    {
+      "number": 22,
+      "passed": true,
+      "trigger": "Native warp/map music: CeladonCity",
+      "native_loop_wraps": [
+        {
+          "frame": 5885,
+          "sample_after_wrap": 13929,
+          "native_cry_active": false
+        },
+        {
+          "frame": 12092,
+          "sample_after_wrap": 13970,
+          "native_cry_active": false
+        },
+        {
+          "frame": 18299,
+          "sample_after_wrap": 14011,
+          "native_cry_active": false
+        },
+        {
+          "frame": 24506,
+          "sample_after_wrap": 14052,
+          "native_cry_active": false
+        },
+        {
+          "frame": 30712,
+          "sample_after_wrap": 13869,
+          "native_cry_active": false
+        }
+      ],
+      "clean_audio_seams_required": 5,
+      "actual_audio_seam_checks": [
+        {
+          "loop": 1,
+          "correlation": 0.9773003275018073,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 2,
+          "correlation": 0.976329362467784,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 3,
+          "correlation": 0.9763453360179825,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 4,
+          "correlation": 0.9772191745879591,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 5,
+          "correlation": 0.9768498140227626,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        }
+      ],
+      "native_samples_per_frame": 224,
+      "expected_frames_per_cycle": 6206.816964285715,
+      "intro_not_repeated": true,
+      "audio_reference_pearson_correlation": 0.9836190576450493,
+      "after_SFX_and_cry_correlation": 0.9822751843114264,
+      "analysis_sample_rate_hz": 4000,
+      "alignment_grid_hz": 16000,
+      "initial_native_sample_position": 85568,
+      "select_SFX_and_cry_native_calls": true,
+      "cry_completed": true,
+      "native_Flash_save_with_music": true,
+      "native_frames": 30752,
+      "source_sample_period": 1390327,
+      "perceptual_listening_validated": false,
+      "audio_demo": "Private output/previews only, not public GitHub"
+    },
+    {
+      "number": 23,
+      "passed": true,
+      "trigger": "Native warp/map music: CeruleanCave_1F",
+      "native_loop_wraps": [
+        {
+          "frame": 4026,
+          "sample_after_wrap": 80134,
+          "native_cry_active": false
+        },
+        {
+          "frame": 8027,
+          "sample_after_wrap": 80076,
+          "native_cry_active": false
+        },
+        {
+          "frame": 12029,
+          "sample_after_wrap": 80242,
+          "native_cry_active": false
+        },
+        {
+          "frame": 16030,
+          "sample_after_wrap": 80184,
+          "native_cry_active": false
+        },
+        {
+          "frame": 20031,
+          "sample_after_wrap": 80126,
+          "native_cry_active": false
+        }
+      ],
+      "clean_audio_seams_required": 5,
+      "actual_audio_seam_checks": [
+        {
+          "loop": 1,
+          "correlation": 0.9544980066585439,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 2,
+          "correlation": 0.9564052415798653,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 3,
+          "correlation": 0.9560888191409287,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 4,
+          "correlation": 0.9564108079407854,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 5,
+          "correlation": 0.9552104762611572,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        }
+      ],
+      "native_samples_per_frame": 224,
+      "expected_frames_per_cycle": 4001.2589285714284,
+      "intro_not_repeated": true,
+      "audio_reference_pearson_correlation": 0.9696596451708261,
+      "after_SFX_and_cry_correlation": 0.9604773313921077,
+      "analysis_sample_rate_hz": 4000,
+      "alignment_grid_hz": 16000,
+      "initial_native_sample_position": 74144,
+      "select_SFX_and_cry_native_calls": true,
+      "cry_completed": true,
+      "native_Flash_save_with_music": true,
+      "native_frames": 20071,
+      "source_sample_period": 896282,
+      "perceptual_listening_validated": false,
+      "audio_demo": "Private output/previews only, not public GitHub"
+    }
+  ]
+}

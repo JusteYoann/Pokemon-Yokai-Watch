@@ -22,6 +22,7 @@ def main():
  config=json.loads((ROOT/'data/yokai/audio_candidates.json').read_text());references=json.loads(args.extracted_manifest.read_text());jobs=[]
  output=args.private_output.resolve();assert not output.is_relative_to(ROOT),'Private audio must stay outside checkout';output.mkdir(parents=True,exist_ok=True)
  for track in config['tracks']:
+  if not track.get('selected_v1',True):continue
   matches=[r for r in references if Path(r['member']).stem==track['source_stem']];assert len(matches)==1,(track['title'],len(matches))
   reference=matches[0];assert hashlib.sha256(Path(reference['private_path']).read_bytes()).hexdigest()==reference['sha256']
   jobs.append((track,reference,output,config['sample_rate_hz']))

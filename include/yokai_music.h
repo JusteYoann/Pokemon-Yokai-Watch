@@ -1,5 +1,6 @@
 #ifndef GUARD_YOKAI_MUSIC_H
 #define GUARD_YOKAI_MUSIC_H
+#define YOKAI_MUSIC_SLOT_COUNT 26
 struct SongHeader;
 struct SongHeader *YokaiGetSongHeader(u16 song, struct SongHeader *fallback);
 u32 YokaiGetPrivateAudioMask(void);

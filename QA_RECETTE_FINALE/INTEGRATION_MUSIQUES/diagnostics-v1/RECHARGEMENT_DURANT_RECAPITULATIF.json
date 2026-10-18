@@ -1,0 +1,124 @@
+{
+  "passed": false,
+  "error": "",
+  "private_rom_sha256": "04f01af06078305b9e2d581722b6b72b53f5b60f221091033d09c01147e58c5f",
+  "scope": "Original Champion scene and actual battle to postgame save continuation, warp/strong-party fixture; not a complete adventure playthrough",
+  "results": [
+    {
+      "test": "Actual original Champion entry, dialogue, selected starter team and battle started",
+      "trainer_id": 440,
+      "passed": true
+    },
+    {
+      "test": "Actual Champion battle victory triggers Take Care, Grandpa 1 only after post-battle message",
+      "passed": true,
+      "frames_to_music": 9987
+    },
+    {
+      "number": 26,
+      "passed": true,
+      "trigger": "Actual Matt Champion victory and original conclusion script, not direct music call",
+      "native_loop_wraps": [
+        {
+          "frame": 4266,
+          "sample_after_wrap": 135,
+          "native_cry_active": false
+        },
+        {
+          "frame": 8566,
+          "sample_after_wrap": 46,
+          "native_cry_active": false
+        },
+        {
+          "frame": 12867,
+          "sample_after_wrap": 181,
+          "native_cry_active": false
+        },
+        {
+          "frame": 17167,
+          "sample_after_wrap": 92,
+          "native_cry_active": false
+        },
+        {
+          "frame": 21468,
+          "sample_after_wrap": 227,
+          "native_cry_active": false
+        }
+      ],
+      "clean_audio_seams_required": 5,
+      "actual_audio_seam_checks": [
+        {
+          "loop": 1,
+          "correlation": 0.883528634919915,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 2,
+          "correlation": 0.8870386425802791,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 3,
+          "correlation": 0.8772708446596708,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 4,
+          "correlation": 0.8834785329901931,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 5,
+          "correlation": 0.8831337166995499,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        }
+      ],
+      "native_samples_per_frame": 224,
+      "expected_frames_per_cycle": 4300.397321428572,
+      "intro_not_repeated": true,
+      "audio_reference_pearson_correlation": 0.9043907772352003,
+      "after_SFX_and_cry_correlation": 0.9208551281075141,
+      "analysis_sample_rate_hz": 4000,
+      "alignment_grid_hz": 16000,
+      "initial_native_sample_position": 7392,
+      "select_SFX_and_cry_native_calls": true,
+      "cry_completed": true,
+      "native_Flash_save_with_music": true,
+      "native_frames": 21508,
+      "source_sample_period": 963289,
+      "perceptual_listening_validated": false,
+      "audio_demo": "Private output/previews only, not public GitHub"
+    },
+    {
+      "test": "Original conclusion continues into Hall of Fame, sets League-clear flag and completes native credits states 17/18",
+      "passed": true,
+      "frames": 19666,
+      "credits_states": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  ]
+}
