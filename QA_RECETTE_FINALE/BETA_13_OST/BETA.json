@@ -1,0 +1,15 @@
+{
+  "version": "BETA-B13-20261018",
+  "final_release": false,
+  "branch": "dev/reconstruction-finalisation",
+  "github_checkpoint": "822ea2de1951bf46e12cbda6146fae8873532060",
+  "game_source_commit": "f029b5236e34f9571f48fb928020f5adcff5debc",
+  "rom_bytes": 24400776,
+  "rom_sha256": "36bbf1f1c759f0e355be122caf68d7d110f86c83c1862bda1e85c72ea37abfc5",
+  "active_ost": 13,
+  "recompiled_for_beta": false,
+  "delivery": "documented local reconstruction; no full ROM, protected audio or recording-containing patch published",
+  "tests": "TEST_BETA_MGBA.json",
+  "known_issues": "README.md#réserves-connues",
+  "beta_verdict": "TESTABLE_WITH_KNOWN_FINALIZATION_RESERVATIONS"
+}

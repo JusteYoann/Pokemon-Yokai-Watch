@@ -1,0 +1,56 @@
+{
+  "engine": "mGBA libretro",
+  "rom_sha256": "36bbf1f1c759f0e355be122caf68d7d110f86c83c1862bda1e85c72ea37abfc5",
+  "scope": "Existing private ROM, actual startup/title/New Game/intro/custom name via controller for both genders; actual Start/Save menu confirmed by native success callback, 128 KiB battery exported to private .sav, new emulator instance, reset/title/Continue through controller; no save states, no full adventure",
+  "results": [
+    {
+      "person": "nathan",
+      "passed": true,
+      "gender_selected_via_buttons": 0,
+      "custom_player_name_typed": "AA",
+      "naming_templates": [
+        0
+      ],
+      "rival_renaming_not_shown": true,
+      "actual_overworld_reached": true,
+      "native_flash_save_created": true,
+      "battery_file_bytes": 131072,
+      "battery_sha256": "85525ed95db21fd77301bf6748aa13c4364d47ae46c669c3092e0ecdcd9fec1d",
+      "fresh_emulator_continue": true,
+      "name_gender_map_preserved": true
+    },
+    {
+      "person": "katie",
+      "passed": true,
+      "gender_selected_via_buttons": 1,
+      "custom_player_name_typed": "AA",
+      "naming_templates": [
+        0
+      ],
+      "rival_renaming_not_shown": true,
+      "actual_overworld_reached": true,
+      "native_flash_save_created": true,
+      "battery_file_bytes": 131072,
+      "battery_sha256": "114f0942d009c1a00efc195deae1fdda9efaf9a0a1e47691ceb73d39e89ecef6",
+      "fresh_emulator_continue": true,
+      "name_gender_map_preserved": true
+    }
+  ],
+  "visual_review": {
+    "completed": true,
+    "results": [
+      {
+        "person": "nathan",
+        "before_after_png_byte_identical": true,
+        "png_sha256": "20e8c23ce53fffdd5b1153be3f09efd2a820c6a3e9ce56426b7c73128d4a325c"
+      },
+      {
+        "person": "katie",
+        "before_after_png_byte_identical": true,
+        "png_sha256": "2c2302d5d1463bca80ca3d81ac7c4bc5001861d8c8f570d55b986b24a23fac3d"
+      }
+    ],
+    "reload_rendering_regression_identified": false,
+    "diagnostic_correction": "Initial visual suspicion of partial black decor was not a reload regression: exactly the same image was already present before save. No ROM change made."
+  }
+}
