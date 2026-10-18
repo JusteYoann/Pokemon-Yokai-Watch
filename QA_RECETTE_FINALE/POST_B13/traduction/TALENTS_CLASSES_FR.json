@@ -1,0 +1,759 @@
+{
+  "ability_descriptions": [
+    {
+      "symbol": "sNoneDescription",
+      "text": "Aucun effet particulier."
+    },
+    {
+      "symbol": "sStenchDescription",
+      "text": "Repousse les Yo-kai sauvages."
+    },
+    {
+      "symbol": "sDrizzleDescription",
+      "text": "Provoque la pluie en combat."
+    },
+    {
+      "symbol": "sSpeedBoostDescription",
+      "text": "Augmente peu à peu la Vitesse."
+    },
+    {
+      "symbol": "sBattleArmorDescription",
+      "text": "Bloque les coups critiques."
+    },
+    {
+      "symbol": "sSturdyDescription",
+      "text": "Bloque les attaques K.O. direct."
+    },
+    {
+      "symbol": "sDampDescription",
+      "text": "Empêche les explosions."
+    },
+    {
+      "symbol": "sLimberDescription",
+      "text": "Empêche la paralysie."
+    },
+    {
+      "symbol": "sSandVeilDescription",
+      "text": "Esquive accrue dans le sable."
+    },
+    {
+      "symbol": "sStaticDescription",
+      "text": "Peut paralyser au contact."
+    },
+    {
+      "symbol": "sVoltAbsorbDescription",
+      "text": "Change l'électricité en PV."
+    },
+    {
+      "symbol": "sWaterAbsorbDescription",
+      "text": "Change l'eau reçue en PV."
+    },
+    {
+      "symbol": "sObliviousDescription",
+      "text": "Empêche l'amour."
+    },
+    {
+      "symbol": "sCloudNineDescription",
+      "text": "Annule les effets de la météo."
+    },
+    {
+      "symbol": "sCompoundEyesDescription",
+      "text": "Augmente la Précision."
+    },
+    {
+      "symbol": "sInsomniaDescription",
+      "text": "Empêche le sommeil."
+    },
+    {
+      "symbol": "sColorChangeDescription",
+      "text": "Adopte le type de l'attaque reçue."
+    },
+    {
+      "symbol": "sImmunityDescription",
+      "text": "Empêche l'empoisonnement."
+    },
+    {
+      "symbol": "sFlashFireDescription",
+      "text": "Le Feu reçu renforce ses flammes."
+    },
+    {
+      "symbol": "sShieldDustDescription",
+      "text": "Bloque les effets secondaires."
+    },
+    {
+      "symbol": "sOwnTempoDescription",
+      "text": "Empêche la confusion."
+    },
+    {
+      "symbol": "sSuctionCupsDescription",
+      "text": "Empêche les expulsions."
+    },
+    {
+      "symbol": "sIntimidateDescription",
+      "text": "Réduit l'Attaque adverse."
+    },
+    {
+      "symbol": "sShadowTagDescription",
+      "text": "Empêche la fuite adverse."
+    },
+    {
+      "symbol": "sRoughSkinDescription",
+      "text": "Blesse les attaquants au contact."
+    },
+    {
+      "symbol": "sWonderGuardDescription",
+      "text": "Seul le super efficace touche."
+    },
+    {
+      "symbol": "sLevitateDescription",
+      "text": "Immunise aux attaques de Sol."
+    },
+    {
+      "symbol": "sEffectSporeDescription",
+      "text": "Peut altérer le statut au contact."
+    },
+    {
+      "symbol": "sSynchronizeDescription",
+      "text": "Renvoie certains statuts reçus."
+    },
+    {
+      "symbol": "sClearBodyDescription",
+      "text": "Empêche les baisses de stats."
+    },
+    {
+      "symbol": "sNaturalCureDescription",
+      "text": "Soigne le statut au retrait."
+    },
+    {
+      "symbol": "sLightningRodDescription",
+      "text": "Attire les attaques électriques."
+    },
+    {
+      "symbol": "sSereneGraceDescription",
+      "text": "Favorise les effets secondaires."
+    },
+    {
+      "symbol": "sSwiftSwimDescription",
+      "text": "Vitesse doublée sous la pluie."
+    },
+    {
+      "symbol": "sChlorophyllDescription",
+      "text": "Vitesse doublée au soleil."
+    },
+    {
+      "symbol": "sIlluminateDescription",
+      "text": "Attire les Yo-kai sauvages."
+    },
+    {
+      "symbol": "sTraceDescription",
+      "text": "Copie le talent adverse."
+    },
+    {
+      "symbol": "sHugePowerDescription",
+      "text": "Double l'Attaque."
+    },
+    {
+      "symbol": "sPoisonPointDescription",
+      "text": "Peut empoisonner au contact."
+    },
+    {
+      "symbol": "sInnerFocusDescription",
+      "text": "Empêche la peur."
+    },
+    {
+      "symbol": "sMagmaArmorDescription",
+      "text": "Empêche le gel."
+    },
+    {
+      "symbol": "sWaterVeilDescription",
+      "text": "Empêche les brûlures."
+    },
+    {
+      "symbol": "sMagnetPullDescription",
+      "text": "Piège les Yo-kai de type Acier."
+    },
+    {
+      "symbol": "sSoundproofDescription",
+      "text": "Bloque les capacités sonores."
+    },
+    {
+      "symbol": "sRainDishDescription",
+      "text": "Rend des PV sous la pluie."
+    },
+    {
+      "symbol": "sSandStreamDescription",
+      "text": "Provoque une tempête de sable."
+    },
+    {
+      "symbol": "sPressureDescription",
+      "text": "Fait dépenser plus de PP."
+    },
+    {
+      "symbol": "sThickFatDescription",
+      "text": "Résiste au Feu et à la Glace."
+    },
+    {
+      "symbol": "sEarlyBirdDescription",
+      "text": "Se réveille plus vite."
+    },
+    {
+      "symbol": "sFlameBodyDescription",
+      "text": "Peut brûler au contact."
+    },
+    {
+      "symbol": "sRunAwayDescription",
+      "text": "Assure la fuite dans la nature."
+    },
+    {
+      "symbol": "sKeenEyeDescription",
+      "text": "Empêche les pertes de Précision."
+    },
+    {
+      "symbol": "sHyperCutterDescription",
+      "text": "Empêche les baisses d'Attaque."
+    },
+    {
+      "symbol": "sPickupDescription",
+      "text": "Peut ramasser des objets."
+    },
+    {
+      "symbol": "sTruantDescription",
+      "text": "Agit un tour sur deux."
+    },
+    {
+      "symbol": "sHustleDescription",
+      "text": "Attaque accrue, Précision réduite."
+    },
+    {
+      "symbol": "sCuteCharmDescription",
+      "text": "Peut rendre amoureux au contact."
+    },
+    {
+      "symbol": "sPlusDescription",
+      "text": "Atq. Spé. accrue avec Moins."
+    },
+    {
+      "symbol": "sMinusDescription",
+      "text": "Atq. Spé. accrue avec Plus."
+    },
+    {
+      "symbol": "sForecastDescription",
+      "text": "Change de forme selon la météo."
+    },
+    {
+      "symbol": "sStickyHoldDescription",
+      "text": "Empêche le vol d'objets."
+    },
+    {
+      "symbol": "sShedSkinDescription",
+      "text": "Peut soigner le statut en muant."
+    },
+    {
+      "symbol": "sGutsDescription",
+      "text": "Attaque accrue si statut altéré."
+    },
+    {
+      "symbol": "sMarvelScaleDescription",
+      "text": "Défense accrue si statut altéré."
+    },
+    {
+      "symbol": "sLiquidOozeDescription",
+      "text": "Blesse les voleurs de PV."
+    },
+    {
+      "symbol": "sOvergrowDescription",
+      "text": "Renforce Plante si les PV baissent."
+    },
+    {
+      "symbol": "sBlazeDescription",
+      "text": "Renforce le Feu si les PV baissent."
+    },
+    {
+      "symbol": "sTorrentDescription",
+      "text": "Renforce l'Eau si les PV baissent."
+    },
+    {
+      "symbol": "sSwarmDescription",
+      "text": "Renforce Insecte si PV faibles."
+    },
+    {
+      "symbol": "sRockHeadDescription",
+      "text": "Empêche les dégâts de recul."
+    },
+    {
+      "symbol": "sDroughtDescription",
+      "text": "Provoque le soleil en combat."
+    },
+    {
+      "symbol": "sArenaTrapDescription",
+      "text": "Empêche la fuite au sol."
+    },
+    {
+      "symbol": "sVitalSpiritDescription",
+      "text": "Empêche le sommeil."
+    },
+    {
+      "symbol": "sWhiteSmokeDescription",
+      "text": "Empêche les baisses de stats."
+    },
+    {
+      "symbol": "sPurePowerDescription",
+      "text": "Double l'Attaque."
+    },
+    {
+      "symbol": "sShellArmorDescription",
+      "text": "Bloque les coups critiques."
+    },
+    {
+      "symbol": "sCacophonyDescription",
+      "text": "Bloque les capacités sonores."
+    },
+    {
+      "symbol": "sAirLockDescription",
+      "text": "Annule les effets de la météo."
+    }
+  ],
+  "trainer_classes": [
+    {
+      "old": "{PKMN} TRAINER",
+      "text": "DRESSEUR"
+    },
+    {
+      "old": "{PKMN} TRAINER",
+      "text": "DRESSEUR"
+    },
+    {
+      "old": "AQUA LEADER",
+      "text": "CHEF AQUA"
+    },
+    {
+      "old": "TEAM AQUA",
+      "text": "ÉQUIPE AQUA"
+    },
+    {
+      "old": "AROMA LADY",
+      "text": "AROMA"
+    },
+    {
+      "old": "RUIN MANIAC",
+      "text": "RUINEMANIAC"
+    },
+    {
+      "old": "INTERVIEWER",
+      "text": "REPORTER"
+    },
+    {
+      "old": "TUBER",
+      "text": "BOUÉE"
+    },
+    {
+      "old": "TUBER",
+      "text": "BOUÉE"
+    },
+    {
+      "old": "COOLTRAINER",
+      "text": "TOPDRESSEUR"
+    },
+    {
+      "old": "HEX MANIAC",
+      "text": "MYSTIMANIAC"
+    },
+    {
+      "old": "LADY",
+      "text": "MADEMOISELLE"
+    },
+    {
+      "old": "BEAUTY",
+      "text": "CANON"
+    },
+    {
+      "old": "RICH BOY",
+      "text": "RICHARD"
+    },
+    {
+      "old": "POKéMANIAC",
+      "text": "FAN YO-KAI"
+    },
+    {
+      "old": "SWIMMER♂",
+      "text": "NAGEUR"
+    },
+    {
+      "old": "BLACK BELT",
+      "text": "KARATÉKA"
+    },
+    {
+      "old": "GUITARIST",
+      "text": "GUITARISTE"
+    },
+    {
+      "old": "KINDLER",
+      "text": "PYROMANE"
+    },
+    {
+      "old": "CAMPER",
+      "text": "CAMPEUR"
+    },
+    {
+      "old": "BUG MANIAC",
+      "text": "INSECTOMANE"
+    },
+    {
+      "old": "PSYCHIC",
+      "text": "KINÉSISTE"
+    },
+    {
+      "old": "GENTLEMAN",
+      "text": "GENTLEMAN"
+    },
+    {
+      "old": "ELITE FOUR",
+      "text": "CONSEIL 4"
+    },
+    {
+      "old": "LEADER",
+      "text": "CHAMPION"
+    },
+    {
+      "old": "SCHOOL KID",
+      "text": "ÉCOLIER"
+    },
+    {
+      "old": "SR. AND JR.",
+      "text": "SENIOR/CADET"
+    },
+    {
+      "old": "POKéFAN",
+      "text": "FAN YO-KAI"
+    },
+    {
+      "old": "EXPERT",
+      "text": "EXPERT"
+    },
+    {
+      "old": "YOUNGSTER",
+      "text": "GAMIN"
+    },
+    {
+      "old": "CHAMPION",
+      "text": "MAÎTRE"
+    },
+    {
+      "old": "FISHERMAN",
+      "text": "PÊCHEUR"
+    },
+    {
+      "old": "TRIATHLETE",
+      "text": "TRIATHLÈTE"
+    },
+    {
+      "old": "DRAGON TAMER",
+      "text": "DRACOLOGUE"
+    },
+    {
+      "old": "BIRD KEEPER",
+      "text": "ORNITHOLOGUE"
+    },
+    {
+      "old": "NINJA BOY",
+      "text": "NINJA"
+    },
+    {
+      "old": "BATTLE GIRL",
+      "text": "COMBATTANTE"
+    },
+    {
+      "old": "PARASOL LADY",
+      "text": "PARASOL"
+    },
+    {
+      "old": "SWIMMER♀",
+      "text": "NAGEUSE"
+    },
+    {
+      "old": "PICNICKER",
+      "text": "PIQUE-NIQUE"
+    },
+    {
+      "old": "TWINS",
+      "text": "JUMELLES"
+    },
+    {
+      "old": "SAILOR",
+      "text": "MARIN"
+    },
+    {
+      "old": "BOARDER",
+      "text": "SKIEUR"
+    },
+    {
+      "old": "COLLECTOR",
+      "text": "COLLECTION."
+    },
+    {
+      "old": "{PKMN} TRAINER",
+      "text": "DRESSEUR"
+    },
+    {
+      "old": "{PKMN} BREEDER",
+      "text": "ÉLEVEUR"
+    },
+    {
+      "old": "{PKMN} RANGER",
+      "text": "RANGER"
+    },
+    {
+      "old": "MAGMA LEADER",
+      "text": "CHEF MAGMA"
+    },
+    {
+      "old": "TEAM MAGMA",
+      "text": "ÉQUIPE MAGMA"
+    },
+    {
+      "old": "LASS",
+      "text": "FILLETTE"
+    },
+    {
+      "old": "BUG CATCHER",
+      "text": "SCOUT"
+    },
+    {
+      "old": "HIKER",
+      "text": "MONTAGNARD"
+    },
+    {
+      "old": "YOUNG COUPLE",
+      "text": "JEUNE COUPLE"
+    },
+    {
+      "old": "OLD COUPLE",
+      "text": "VIEUX COUPLE"
+    },
+    {
+      "old": "SIS AND BRO",
+      "text": "FRÈRE/SOEUR"
+    },
+    {
+      "old": "AQUA ADMIN",
+      "text": "ADMIN AQUA"
+    },
+    {
+      "old": "MAGMA ADMIN",
+      "text": "ADMIN MAGMA"
+    },
+    {
+      "old": "YOUNGSTER",
+      "text": "GAMIN"
+    },
+    {
+      "old": "BUG CATCHER",
+      "text": "SCOUT"
+    },
+    {
+      "old": "LASS",
+      "text": "FILLETTE"
+    },
+    {
+      "old": "SAILOR",
+      "text": "MARIN"
+    },
+    {
+      "old": "CAMPER",
+      "text": "CAMPEUR"
+    },
+    {
+      "old": "PICNICKER",
+      "text": "PIQUE-NIQUE"
+    },
+    {
+      "old": "POKéMANIAC",
+      "text": "FAN YO-KAI"
+    },
+    {
+      "old": "SUPER NERD",
+      "text": "INTELLO"
+    },
+    {
+      "old": "HIKER",
+      "text": "MONTAGNARD"
+    },
+    {
+      "old": "BIKER",
+      "text": "MOTARD"
+    },
+    {
+      "old": "BURGLAR",
+      "text": "PILLARD"
+    },
+    {
+      "old": "ENGINEER",
+      "text": "MÉCANO"
+    },
+    {
+      "old": "FISHERMAN",
+      "text": "PÊCHEUR"
+    },
+    {
+      "old": "SWIMMER♂",
+      "text": "NAGEUR"
+    },
+    {
+      "old": "CUE BALL",
+      "text": "LOUBARD"
+    },
+    {
+      "old": "GAMER",
+      "text": "CROUPIER"
+    },
+    {
+      "old": "BEAUTY",
+      "text": "CANON"
+    },
+    {
+      "old": "SWIMMER♀",
+      "text": "NAGEUSE"
+    },
+    {
+      "old": "PSYCHIC",
+      "text": "KINÉSISTE"
+    },
+    {
+      "old": "ROCKER",
+      "text": "ROCKER"
+    },
+    {
+      "old": "JUGGLER",
+      "text": "JONGLEUR"
+    },
+    {
+      "old": "TAMER",
+      "text": "DOMPTEUR"
+    },
+    {
+      "old": "BIRD KEEPER",
+      "text": "ORNITHOLOGUE"
+    },
+    {
+      "old": "BLACK BELT",
+      "text": "KARATÉKA"
+    },
+    {
+      "old": "RIVAL",
+      "text": "RIVAL"
+    },
+    {
+      "old": "SCIENTIST",
+      "text": "SCIENTIFIQUE"
+    },
+    {
+      "old": "BOSS",
+      "text": "CHEF"
+    },
+    {
+      "old": "LEADER",
+      "text": "CHAMPION"
+    },
+    {
+      "old": "TEAM ROCKET",
+      "text": "TEAM ROCKET"
+    },
+    {
+      "old": "COOLTRAINER",
+      "text": "TOPDRESSEUR"
+    },
+    {
+      "old": "ELITE FOUR",
+      "text": "CONSEIL 4"
+    },
+    {
+      "old": "GENTLEMAN",
+      "text": "GENTLEMAN"
+    },
+    {
+      "old": "RIVAL",
+      "text": "RIVAL"
+    },
+    {
+      "old": "CHAMPION",
+      "text": "MAÎTRE"
+    },
+    {
+      "old": "CHANNELER",
+      "text": "EXORCISTE"
+    },
+    {
+      "old": "TWINS",
+      "text": "JUMELLES"
+    },
+    {
+      "old": "COOL COUPLE",
+      "text": "COUPLE CHOC"
+    },
+    {
+      "old": "YOUNG COUPLE",
+      "text": "JEUNE COUPLE"
+    },
+    {
+      "old": "CRUSH KIN",
+      "text": "DUO KARATÉ"
+    },
+    {
+      "old": "SIS AND BRO",
+      "text": "FRÈRE/SOEUR"
+    },
+    {
+      "old": "{PKMN} PROF.",
+      "text": "PROFESSEUR"
+    },
+    {
+      "old": "PLAYER",
+      "text": "JOUEUR"
+    },
+    {
+      "old": "CRUSH GIRL",
+      "text": "KARATÉKA"
+    },
+    {
+      "old": "TUBER",
+      "text": "BOUÉE"
+    },
+    {
+      "old": "{PKMN} BREEDER",
+      "text": "ÉLEVEUR"
+    },
+    {
+      "old": "{PKMN} RANGER",
+      "text": "RANGER"
+    },
+    {
+      "old": "AROMA LADY",
+      "text": "AROMA"
+    },
+    {
+      "old": "RUIN MANIAC",
+      "text": "RUINEMANIAC"
+    },
+    {
+      "old": "LADY",
+      "text": "MADEMOISELLE"
+    },
+    {
+      "old": "PAINTER",
+      "text": "PEINTRE"
+    }
+  ],
+  "boss_name_labels_only": {
+    "BROCK": "PIERRE",
+    "MISTY": "ONDINE",
+    "LT. SURGE": "MAJOR BOB",
+    "ERIKA": "ÉRIKA",
+    "SABRINA": "MORGANE",
+    "BLAINE": "AUGUSTE",
+    "LORELEI": "OLGA",
+    "BRUNO": "ALDO",
+    "LANCE": "PETER",
+    "PROF. OAK": "PROF. CHEN"
+  },
+  "gameplay_unchanged": true
+}
