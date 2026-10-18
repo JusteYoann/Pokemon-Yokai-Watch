@@ -39,7 +39,7 @@ Help_Text_DescAboutThisGame::
 	.string "about this game.$"
 
 Help_Text_DescTypeMatchupList::
-	.string "The matchups of  POKéMON types\n"
+	.string "The matchups of  Yo-kai types\n"
 	.string "and moves are listed.$"
 
 Help_Text_DescExit::
@@ -101,25 +101,25 @@ Help_Text_HowDoIPrepareForBattle::
 	.string "How do I prepare for battle?$"
 
 Help_Text_WhatIsAMonsVitality::
-	.string "What is a POKéMON's vitality?$"
+	.string "What is a Yo-kai's vitality?$"
 
 Help_Text_MyMonsAreHurt::
-	.string "My POKéMON are hurt!$"
+	.string "My Yo-kai are hurt!$"
 
 Help_Text_WhatIsStatusProblem::
 	.string "What is a status problem?$"
 
 Help_Text_WhatHappensIfAllMyMonsFaint::
-	.string "What happens if all my POKéMON faint?$"
+	.string "What happens if all my Yo-kai faint?$"
 
 Help_Text_CantCatchMons::
-	.string "I can't catch POKéMON!$"
+	.string "I can't catch Yo-kai!$"
 
 Help_Text_RanOutOfPotions::
 	.string "I ran out of POTIONS.$"
 
 Help_Text_CanIBuyPokeBalls::
-	.string "Can I buy POKé BALLS?$"
+	.string "Can I buy Yo-kai Balls?$"
 
 Help_Text_WhatsATrainer::
 	.string "What's a TRAINER?$"
@@ -128,10 +128,10 @@ Help_Text_HowDoIWinAgainstTrainer::
 	.string "How do I win against a TRAINER?$"
 
 Help_Text_WhereDoMonsAppear::
-	.string "Where do POKéMON appear?$"
+	.string "Where do Yo-kai appear?$"
 
 Help_Text_WhatAreMoves::
-	.string "What are POKéMON moves?$"
+	.string "What are Yo-kai moves?$"
 
 Help_Text_WhatAreHiddenMoves::
 	.string "What are HIDDEN moves?$"
@@ -143,10 +143,10 @@ Help_Text_WantToAddMoreMoves::
 	.string "I want to add more moves.$"
 
 Help_Text_WantToMakeMonStronger::
-	.string "I want to make my POKéMON stronger.$"
+	.string "I want to make my Yo-kai stronger.$"
 
 Help_Text_FoeMonsTooStrong::
-	.string "The foe POKéMON are too strong!$"
+	.string "The foe Yo-kai are too strong!$"
 
 Help_Text_WhatDoIDoInCave::
 	.string "What do I do in a cave?$"
@@ -155,16 +155,16 @@ Help_Text_NothingIWantToKnow::
 	.string "There's nothing that I want to know!$"
 
 Help_Text_WhatsPokemonCenter::
-	.string "What's a POKéMON CENTER?$"
+	.string "What's a Centre Yo-kai?$"
 
 Help_Text_WhatsPokemonMart::
-	.string "What's a POKéMON MART?$"
+	.string "What's a Yo-kai MART?$"
 
 Help_Text_WantToEndGame::
 	.string "I want to end the game.$"
 
 Help_Text_WhatsAMon::
-	.string "What's a POKéMON?$"
+	.string "What's a Yo-kai?$"
 
 Help_Text_WhatIsThatPersonLike::
 	.string "What is that person like?$"
@@ -186,11 +186,11 @@ Help_Text_WhatIsAGym::
 
 Help_Text_AnswerPlayingForFirstTime::
 	.string "You become the main character,\n"
-	.string "exploring the world of POKéMON.\l"
+	.string "exploring the world of Yo-kai.\l"
 	.string "By talking to people and solving\l"
 	.string "mysteries, new paths will open to you.\l"
 	.string "Strive for the goal together with your\l"
-	.string "wonderful POKéMON.$"
+	.string "wonderful Yo-kai.$"
 
 Help_Text_AnswerWhatShouldIBeDoing::
 	.string "When you come across another person,\n"
@@ -254,13 +254,13 @@ Help_Text_AnswerWhatHappenedToItemIGot::
 	.string "“How do I do this?” heading.$"
 
 Help_Text_AnswerWhatAreMyAdventureBasics::
-	.string "If POKéMON are hurt in battle,\n"
-	.string "take them to a POKéMON CENTER and\l"
+	.string "If Yo-kai are hurt in battle,\n"
+	.string "take them to a Centre Yo-kai and\l"
 	.string "have them healed by the staff.\l"
 	.string "Get in the habit of saving your\l"
 	.string "game and recording your progress.\l"
 	.string "Stock up on healing items at\l"
-	.string "POKéMON MARTS before traveling far.$"
+	.string "Yo-kai MARTS before traveling far.$"
 
 Help_Text_AnswerHowAreRoadsForestsDifferent::
 	.string "Forests are basically the same as\n"
@@ -270,15 +270,15 @@ Help_Text_AnswerHowAreRoadsForestsDifferent::
 
 Help_Text_AnswerHowAreCavesDifferent::
 	.string "Caves are dark and dangerous. Wild\n"
-	.string "POKéMON can appear anywhere in them.\l"
+	.string "Yo-kai can appear anywhere in them.\l"
 	.string "If there is an emergency, rush to a\l"
-	.string "POKéMON CENTER or use items.\l"
+	.string "Centre Yo-kai or use items.\l"
 	.string "New towns await discovery beyond some\l"
 	.string "caves, so don't give up.$"
 
 Help_Text_AnswerHowDoIProgress::
 	.string "The object of the game is to train\n"
-	.string "your POKéMON and move forward.\l"
+	.string "your Yo-kai and move forward.\l"
 	.string "You must collect info and solve\l"
 	.string "problems. For example, what do you\l"
 	.string "need to get around an obstacle?\l"
@@ -294,83 +294,83 @@ Help_Text_AnswerWhenCanIUseItem::
 	.string "you will be alerted.$"
 
 Help_Text_AnswerWhatsABattle::
-	.string "In a battle, POKéMON try to reduce\n"
+	.string "In a battle, Yo-kai try to reduce\n"
 	.string "one another's vitality, expressed as\l"
-	.string "HP. If a POKéMON's HP falls to zero,\l"
-	.string "it faints, and the other POKéMON\l"
-	.string "wins. By winning a battle, POKéMON\l"
+	.string "HP. If a Yo-kai's HP falls to zero,\l"
+	.string "it faints, and the other Yo-kai\l"
+	.string "wins. By winning a battle, Yo-kai\l"
 	.string "earn EXP. Points, which help them\l"
 	.string "level up (grow stronger).$"
 
 Help_Text_AnswerHowDoIPrepareForBattle::
-	.string "First, fully heal the POKéMON in your\n"
-	.string "party (the POKéMON with you) at any\l"
-	.string "POKéMON CENTER.\l"
+	.string "First, fully heal the Yo-kai in your\n"
+	.string "party (the Yo-kai with you) at any\l"
+	.string "Centre Yo-kai.\l"
 	.string "You should also buy healing items for\l"
-	.string "emergencies at a POKéMON MART.$"
+	.string "emergencies at a Yo-kai MART.$"
 
 Help_Text_AnswerWhatIsAMonsVitality::
-	.string "A POKéMON's vitality is expressed in HP.\n"
-	.string "If a POKéMON is hurt in battle, HP is\l"
+	.string "A Yo-kai's vitality is expressed in HP.\n"
+	.string "If a Yo-kai is hurt in battle, HP is\l"
 	.string "subtracted. If its HP drops to zero,\l"
-	.string "the POKéMON faints.\l"
-	.string "Heal hurt or fainted POKéMON at a\l"
-	.string "POKéMON CENTER or by using items.$"
+	.string "the Yo-kai faints.\l"
+	.string "Heal hurt or fainted Yo-kai at a\l"
+	.string "Centre Yo-kai or by using items.$"
 
 Help_Text_AnswerMyMonsAreHurt::
-	.string "A POKéMON CENTER is like an inn for\n"
-	.string "POKéMON. It will fully heal POKéMON of\l"
+	.string "A Centre Yo-kai is like an inn for\n"
+	.string "Yo-kai. It will fully heal Yo-kai of\l"
 	.string "any status problems and fully restore\l"
 	.string "their HP using a special machine.\l"
 	.string "This service is free, so get in the\l"
-	.string "habit of healing your POKéMON often.$"
+	.string "habit of healing your Yo-kai often.$"
 
 Help_Text_AnswerWhatIsStatusProblem::
 	.string "A status problem refers to an ailment\n"
-	.string "that is inflicted on a POKéMON by its\l"
+	.string "that is inflicted on a Yo-kai by its\l"
 	.string "foe's attack. These include burns,\l"
 	.string "paralysis, poisoning, sleep, and\l"
 	.string "freezing. These can be healed by\l"
-	.string "visiting a POKéMON CENTER or using\l"
+	.string "visiting a Centre Yo-kai or using\l"
 	.string "the appropriate item.$"
 
 Help_Text_AnswerWhatHappensIfAllMyMonsFaint::
-	.string "If all the POKéMON in your party\n"
-	.string "(all the POKéMON with you) faint, you\l"
+	.string "If all the Yo-kai in your party\n"
+	.string "(all the Yo-kai with you) faint, you\l"
 	.string "lose some MONEY, and you are\l"
-	.string "returned home or to a POKéMON\l"
+	.string "returned home or to a Yo-kai\l"
 	.string "CENTER. To reduce that chance, visit\l"
-	.string "POKéMON CENTERS often. Also, get\l"
+	.string "Yo-kai CENTERS often. Also, get\l"
 	.string "in the habit of saving often.$"
 
 Help_Text_AnswerCantCatchMons::
-	.string "If a wild POKéMON escapes from a POKé\n"
+	.string "If a wild Yo-kai escapes from a POKé\n"
 	.string "BALL, it's obviously still feisty.\l"
 	.string "Try reducing its HP some more, and\l"
 	.string "try to weaken it with paralysis or sleep\l"
 	.string "before trying to catch it.\l"
-	.string "If the POKé BALL rocks for a while,\l"
+	.string "If the Yo-kai Ball rocks for a while,\l"
 	.string "the quarry is close to being caught!$"
 
 Help_Text_AnswerRanOutOfPotions::
-	.string "There are shops, known as POKéMON\n"
+	.string "There are shops, known as Yo-kai\n"
 	.string "MARTS, that sell items.\l"
-	.string "You will not find POKéMON MARTS on\l"
+	.string "You will not find Yo-kai MARTS on\l"
 	.string "roads, in forests, or in caves.\l"
 	.string "Stock up on needed items while you are\l"
-	.string "visiting a town with a POKéMON MART.$"
+	.string "visiting a town with a Yo-kai MART.$"
 
 Help_Text_AnswerCanIBuyPokeBalls::
-	.string "You may buy POKé BALLS at any\n"
-	.string "POKéMON MART in any town.\l"
-	.string "You will not find POKéMON MARTS on\l"
+	.string "You may buy Yo-kai Balls at any\n"
+	.string "Yo-kai MART in any town.\l"
+	.string "You will not find Yo-kai MARTS on\l"
 	.string "roads, in forests, or in caves.\l"
-	.string "Stock up on POKé BALLS while you are\l"
-	.string "visiting a town with a POKéMON MART.$"
+	.string "Stock up on Yo-kai Balls when\l"
+	.string "visiting a town with a Yo-kai MART.$"
 
 Help_Text_AnswerWhatsATrainer::
 	.string "A TRAINER is a person who raises\n"
-	.string "POKéMON through battling.\l"
+	.string "Yo-kai through battling.\l"
 	.string "TRAINERS will challenge you \l"
 	.string "wherever they are - it could be on\l"
 	.string "a road, in forests, caves, anywhere.\l"
@@ -379,36 +379,36 @@ Help_Text_AnswerWhatsATrainer::
 
 Help_Text_AnswerHowDoIWinAgainstTrainer::
 	.string "To beat a TRAINER in battle, use\n"
-	.string "POKéMON that have type advantages\l"
-	.string "over the foe's POKéMON. You may also\l"
-	.string "use highly trained POKéMON with\l"
+	.string "Yo-kai that have type advantages\l"
+	.string "over the foe's Yo-kai. You may also\l"
+	.string "use highly trained Yo-kai with\l"
 	.string "overwhelming power. Outnumbering the\l"
-	.string "foe's POKéMON is another obvious\l"
+	.string "foe's Yo-kai is another obvious\l"
 	.string "tactic.$"
 
 Help_Text_AnswerWhereDoMonsAppear::
-	.string "Wild POKéMON will appear in tall grass,\n"
+	.string "Wild Yo-kai will appear in tall grass,\n"
 	.string "on roads, and in forests. They will\l"
 	.string "appear anywhere in dark caves.\l"
-	.string "There are no wild POKéMON or TRAINERS\l"
+	.string "There are no wild Yo-kai or TRAINERS\l"
 	.string "in towns, so they are safe places.$"
 
 Help_Text_AnswerWhatAreMoves::
-	.string "POKéMON may learn up to four different\n"
+	.string "Yo-kai may learn up to four different\n"
 	.string "techniques, or moves. There is a great\l"
 	.string "variety of moves including attacks and\l"
 	.string "those with special effects. The kinds\l"
 	.string "of moves that can be learned vary\l"
-	.string "for each POKéMON. Some moves\l"
+	.string "for each Yo-kai. Some moves\l"
 	.string "can be learned from machines.$"
 
 Help_Text_AnswerWhatAreHiddenMoves::
 	.string "HIDDEN moves are those that are\n"
 	.string "especially important for your\l"
 	.string "adventure. To use such a move outside\l"
-	.string "of battle, open the “POKéMON” MENU\l"
-	.string "and make the POKéMON that knows the\l"
-	.string "move use it. A fainted POKéMON may use\l"
+	.string "of battle, open the “Yo-kai” MENU\l"
+	.string "and make the Yo-kai that knows the\l"
+	.string "move use it. A fainted Yo-kai may use\l"
 	.string "a HIDDEN move outside of battle.$"
 
 Help_Text_AnswerWhatMovesShouldIUse::
@@ -416,40 +416,40 @@ Help_Text_AnswerWhatMovesShouldIUse::
 	.string "will appear. Consider the type\l"
 	.string "matchups, and use the most effective\l"
 	.string "moves. You can check the effects of\l"
-	.string "moves by opening “POKéMON,”\l"
-	.string "picking a POKéMON, opening “SUMMARY,”\l"
-	.string "then opening “POKéMON SKILLS.”$"
+	.string "moves by opening “Yo-kai,”\l"
+	.string "picking a Yo-kai, opening “SUMMARY,”\l"
+	.string "then opening “Yo-kai SKILLS.”$"
 
 Help_Text_AnswerWantToAddMoreMoves::
-	.string "The most a POKéMON can learn is four\n"
+	.string "The most a Yo-kai can learn is four\n"
 	.string "moves. They are learned as the\l"
-	.string "POKéMON levels up. It can also be\l"
+	.string "Yo-kai levels up. It can also be\l"
 	.string "taught a move using a TM (Technical\l"
 	.string "Machine) or HM (Hidden Machine).\l"
 	.string "There are also people who teach moves.$"
 
 Help_Text_AnswerWantToMakeMonStronger::
-	.string "The key to making your POKéMON\n"
+	.string "The key to making your Yo-kai\n"
 	.string "strong is to battle and win often.\l"
 	.string "The EXP. (Experience) Points earned\l"
 	.string "by winning battles accumulate to\l"
-	.string "level up POKéMON that participated in\l"
-	.string "them. Battle wild POKéMON often to\l"
+	.string "level up Yo-kai that participated in\l"
+	.string "them. Battle wild Yo-kai often to\l"
 	.string "level up your party.$"
 
 Help_Text_AnswerFoeMonsTooStrong::
 	.string "If your foes are too strong, try\n"
-	.string "leveling up your POKéMON some more.\l"
+	.string "leveling up your Yo-kai some more.\l"
 	.string "Go back the way you came and battle\l"
-	.string "wild POKéMON to level up your party.\l"
+	.string "wild Yo-kai to level up your party.\l"
 	.string "You may also battle TRAINERS whom you\l"
 	.string "have not battled before.$"
 
 Help_Text_AnswerWhatDoIDoInCave::
-	.string "Unlike roads and forests, wild POKéMON\n"
+	.string "Unlike roads and forests, wild Yo-kai\n"
 	.string "can appear anywhere in caves.\l"
-	.string "If your POKéMON are hurt in a cave,\l"
-	.string "rush to a POKéMON CENTER or use items\l"
+	.string "If your Yo-kai are hurt in a cave,\l"
+	.string "rush to a Centre Yo-kai or use items\l"
 	.string "to heal them right away. It is very\l"
 	.string "dangerous to force your luck in caves.$"
 
@@ -458,19 +458,19 @@ Help_Text_AnswerNothingIWantToKnow::
 	.string "Believe in yourself and find your way!$"
 
 Help_Text_AnswerWhatsPokemonCenter::
-	.string "A POKéMON CENTER is identified by its\n"
+	.string "A Centre Yo-kai is identified by its\n"
 	.string "red roof and a “P.C” sign. Every\l"
-	.string "POKéMON CENTER offers such services as\l"
-	.string "fully healing POKéMON and free PC use,\l"
+	.string "Centre Yo-kai offers such services as\l"
+	.string "fully healing Yo-kai and free PC use,\l"
 	.string "making it essential for your travels.\l"
 	.string "On the upper floor are facilities for\l"
 	.string "linking with friends and others.$"
 
 Help_Text_AnswerWhatsPokemonMart::
-	.string "A POKéMON MART is identified by its\n"
+	.string "A Yo-kai MART is identified by its\n"
 	.string "blue roof and a “MART” sign.\l"
 	.string "Items can be bought and sold at any\l"
-	.string "POKéMON MART. Some MARTS carry items\l"
+	.string "Yo-kai MART. Some MARTS carry items\l"
 	.string "that are available only in their towns.$"
 
 Help_Text_AnswerWantToEndGame::
@@ -482,7 +482,7 @@ Help_Text_AnswerWantToEndGame::
 	.string "where you last saved.$"
 
 Help_Text_AnswerWhatsAMon::
-	.string "POKéMON are living beings about which\n"
+	.string "Yo-kai are living beings about which\n"
 	.string "many mysteries still remain. You may\l"
 	.string "see them in grass, the sea, and caves.\l"
 	.string "They appear to obey the wishes of the\l"
@@ -494,7 +494,7 @@ Help_Text_AnswerWhatIsThatPersonLike::
 	.string "It may give you a hint, so try it out.$"
 
 Help_Text_AnswerWhatDoesHiddenMoveDo::
-	.string "A HIDDEN move is taught to a POKéMON\n"
+	.string "A HIDDEN move is taught to a Yo-kai\n"
 	.string "using an HM (Hidden Machine).\l"
 	.string "A HIDDEN move is important for helping\l"
 	.string "your adventure. For example, one is\l"
@@ -503,7 +503,7 @@ Help_Text_AnswerWhatDoesHiddenMoveDo::
 	.string "for traveling on water, and so on.$"
 
 Help_Text_AnswerWhatDoIDoInSafari::
-	.string "Try to catch wild POKéMON by throwing\n"
+	.string "Try to catch wild Yo-kai by throwing\n"
 	.string "the special SAFARI BALLS.\l"
 	.string "You may keep any item you find, too.$"
 
@@ -520,8 +520,8 @@ Help_Text_AnswerWantToEndSafari::
 	.string "“RETIRE” at the top of the list.$"
 
 Help_Text_AnswerWhatIsAGym::
-	.string "POKéMON GYMS are operated by the\n"
-	.string "POKéMON LEAGUE and are training\l"
+	.string "Yo-kai GYMS are operated by the\n"
+	.string "Ligue Yo-kai and are training\l"
 	.string "facilities for TRAINERS. They are all\l"
 	.string "across the land in cities and towns.\l"
 	.string "Each one is headed by a LEADER, who\l"
@@ -529,10 +529,10 @@ Help_Text_AnswerWhatIsAGym::
 	.string "LEADER to collect a BADGE.$"
 
 Help_Text_UsingPokedex::
-	.string " Using “POKéDEX”$"
+	.string " Using “Médallium”$"
 
 Help_Text_UsingPokemon::
-	.string " Using “POKéMON”$"
+	.string " Using “Yo-kai”$"
 
 Help_Text_UsingSummary::
 	.string "  Using “SUMMARY”$"
@@ -553,7 +553,7 @@ Help_Text_UsingKeyItem::
 	.string "  Using a key item$"
 
 Help_Text_UsingPokeBall::
-	.string "  Using a POKé BALL$"
+	.string "  Using a Yo-kai Ball$"
 
 Help_Text_UsingPlayer::
 	.string " Using “{PLAYER}”$"
@@ -625,7 +625,7 @@ Help_Text_UsingFight::
 	.string " Using “FIGHT”$"
 
 Help_Text_UsingPokemon2::
-	.string " Using “POKéMON”$"
+	.string " Using “Yo-kai”$"
 
 Help_Text_UsingShift::
 	.string "  Using “SHIFT”$"
@@ -637,7 +637,7 @@ Help_Text_UsingBag2::
 	.string " Using “BAG”$"
 
 Help_Text_ReadingPokedex::
-	.string " Reading the “POKéDEX”$"
+	.string " Reading the “Médallium”$"
 
 Help_Text_UsingHomePC::
 	.string "Using the PC at home$"
@@ -673,17 +673,17 @@ Help_Text_UsingHallOfFame::
 	.string " Using “HALL OF FAME”$"
 
 Help_Text_HowToUsePokedex::
-	.string "{CIRCLE_1} Select “POKéDEX” on the MENU.\n"
-	.string "{CIRCLE_2} Choose POKéMON using commands such\n"
-	.string "   as “POKéMON LIST,”\n"
-	.string "   “HABITATS OF POKéMON,” and\n"
+	.string "{CIRCLE_1} Select “Médallium” on the MENU.\n"
+	.string "{CIRCLE_2} Choose Yo-kai using commands such\n"
+	.string "   as “Yo-kai LIST,”\n"
+	.string "   “HABITATS OF Yo-kai,” and\n"
 	.string "   “SEARCH.”\n"
-	.string "{CIRCLE_3} Select a POKéMON to obtain detailed\n"
+	.string "{CIRCLE_3} Select a Yo-kai to obtain detailed\n"
 	.string "   information.$"
 
 Help_Text_HowToUsePokemon::
-	.string "{CIRCLE_1} Select “POKéMON” on the MENU.\n"
-	.string "{CIRCLE_2} Choose a POKéMON in your party.\n"
+	.string "{CIRCLE_1} Select “Yo-kai” on the MENU.\n"
+	.string "{CIRCLE_2} Choose a Yo-kai in your party.\n"
 	.string "{CIRCLE_3} Select “SUMMARY,” “SWITCH,”\n"
 	.string "   or “ITEM.”$"
 
@@ -691,25 +691,25 @@ Help_Text_HowToUseSummary::
 	.string "{CIRCLE_1} Select “SUMMARY.”\n"
 	.string "{CIRCLE_2} Press left or right on the {PLUS} Control\n"
 	.string "   Pad to check the information:\n"
-	.string "   “POKéMON INFO”\n"
-	.string "   “POKéMON SKILLS”\n"
+	.string "   “Yo-kai INFO”\n"
+	.string "   “Yo-kai SKILLS”\n"
 	.string "   “KNOWN MOVES”$"
 
 Help_Text_HowToUseSwitch::
-	.string "{CIRCLE_1} Choose the POKéMON you want to\n"
+	.string "{CIRCLE_1} Choose the Yo-kai you want to\n"
 	.string "   switch around.\n"
 	.string "{CIRCLE_2} Select “SWITCH.”\n"
-	.string "{CIRCLE_3} Select the POKéMON to switch with\n"
+	.string "{CIRCLE_3} Select the Yo-kai to switch with\n"
 	.string "   the first one.\n"
-	.string "The POKéMON at the left of the screen\n"
+	.string "The Yo-kai at the left of the screen\n"
 	.string "will be the first one out in a battle.$"
 
 Help_Text_HowToUseItem::
 	.string "{CIRCLE_1} Select “ITEM.”\n"
 	.string "{CIRCLE_2} Select whether you want to “GIVE”\n"
-	.string "   an item to the POKéMON to hold,\n"
+	.string "   an item to the Yo-kai to hold,\n"
 	.string "   or “TAKE” an item it is holding.\n"
-	.string "A POKéMON can hold no more than one\n"
+	.string "A Yo-kai can hold no more than one\n"
 	.string "item!$"
 
 Help_Text_HowToUseBag::
@@ -718,7 +718,7 @@ Help_Text_HowToUseBag::
 	.string "   Pad to check the data headings:\n"
 	.string "   “ITEMS”\n"
 	.string "   “KEY ITEMS”\n"
-	.string "   “POKé BALLS”\n"
+	.string "   “Yo-kai Balls”\n"
 	.string "   Press up or down to select an item.$"
 
 Help_Text_HowToUseAnItem::
@@ -738,13 +738,13 @@ Help_Text_HowToUseKeyItem::
 	.string "   key item.$"
 
 Help_Text_HowToUsePokeBall::
-	.string "{CIRCLE_1} While battling a wild POKéMON,\n"
-	.string "   select the BAG's “POKé BALLS”\n"
+	.string "{CIRCLE_1} While battling a wild Yo-kai,\n"
+	.string "   select the BAG's “Yo-kai Balls”\n"
 	.string "   POCKET.\n"
 	.string "{CIRCLE_2} Press up or down on the {PLUS} Control\n"
-	.string "   Pad to select a POKé BALL.\n"
+	.string "   Pad to select a Yo-kai Ball.\n"
 	.string "{CIRCLE_3} Select “USE” to throw the selected\n"
-	.string "   POKé BALL.$"
+	.string "   Yo-kai Ball.$"
 
 Help_Text_HowToUsePlayer::
 	.string "{CIRCLE_1} Select “{PLAYER}” on the MENU.\n"
@@ -778,7 +778,7 @@ Help_Text_HowToUsePotion::
 	.string "{CIRCLE_3} Select “POTION” in the “ITEMS”\n"
 	.string "   POCKET.\n"
 	.string "{CIRCLE_4} Select “USE.”\n"
-	.string "{CIRCLE_5} Select the POKéMON to be healed.$"
+	.string "{CIRCLE_5} Select the Yo-kai to be healed.$"
 
 Help_Text_HowToUseTownMap::
 	.string "{CIRCLE_1} Open the MENU.\n"
@@ -795,7 +795,7 @@ Help_Text_HowToUseTM::
 	.string "   “BAG.”\n"
 	.string "{CIRCLE_3} “OPEN” the TM CASE.\n"
 	.string "{CIRCLE_4} Select and “USE” a TM.\n"
-	.string "{CIRCLE_5} Select a POKéMON that can learn the\n"
+	.string "{CIRCLE_5} Select a Yo-kai that can learn the\n"
 	.string "   move in the TM.$"
 
 Help_Text_HowToUseHM::
@@ -804,13 +804,13 @@ Help_Text_HowToUseHM::
 	.string "   “BAG.”\n"
 	.string "{CIRCLE_3} “OPEN” the TM CASE.\n"
 	.string "{CIRCLE_4} Select and “USE” an HM.\n"
-	.string "{CIRCLE_5} Select a POKéMON that can learn it.\n"
+	.string "{CIRCLE_5} Select a Yo-kai that can learn it.\n"
 	.string "HMs are hard to remove, so be careful!$"
 
 Help_Text_HowToUseMoveOutsideOfBattle::
 	.string "{CIRCLE_1} Open the MENU.\n"
-	.string "{CIRCLE_2} Select “POKéMON.”\n"
-	.string "{CIRCLE_3} Select a POKéMON that knows an\n"
+	.string "{CIRCLE_2} Select “Yo-kai.”\n"
+	.string "{CIRCLE_3} Select a Yo-kai that knows an\n"
 	.string "   HM move. The usable HM move(s)\n"
 	.string "   will be shown in blue. Select and\n"
 	.string "   use the desired move to destroy an\n"
@@ -835,52 +835,52 @@ Help_Text_HowToEnterName::
 	.string "{CIRCLE_4} Press the A Button on “OK.”$"
 
 Help_Text_HowToUsePC::
-	.string "{CIRCLE_1} Go to any POKéMON CENTER, go up\n"
+	.string "{CIRCLE_1} Go to any Centre Yo-kai, go up\n"
 	.string "   to the PC, then press the A Button.$"
 
 Help_Text_HowToUseBillsPC::
 	.string "{CIRCLE_1} Select “{STR_VAR_1}'S PC” on the PC.\n"
 	.string "{CIRCLE_2} Select from one of the top three\n"
-	.string "   MENU items to access the POKéMON\n"
+	.string "   MENU items to access the Yo-kai\n"
 	.string "   Storage System.\n"
-	.string "If you catch a POKéMON when you have\n"
-	.string "six in your party, the POKéMON is sent\n"
+	.string "If you catch a Yo-kai when you have\n"
+	.string "six in your party, the Yo-kai is sent\n"
 	.string "automatically to a BOX in the System!$"
 
 Help_Text_HowToUseWithdraw::
-	.string "{CIRCLE_1} Select a POKéMON in the open BOX\n"
+	.string "{CIRCLE_1} Select a Yo-kai in the open BOX\n"
 	.string "   with the {PLUS} Control Pad.\n"
 	.string "{CIRCLE_2} Select “WITHDRAW” to remove the\n"
-	.string "   POKéMON from the BOX and add it to\n"
+	.string "   Yo-kai from the BOX and add it to\n"
 	.string "   your party.\n"
-	.string "You may not withdraw a POKéMON if you\n"
-	.string "already have six POKéMON with you!$"
+	.string "You may not withdraw a Yo-kai if you\n"
+	.string "already have six Yo-kai with you!$"
 
 Help_Text_HowToUseDeposit::
-	.string "{CIRCLE_1} Select a POKéMON in your party with\n"
+	.string "{CIRCLE_1} Select a Yo-kai in your party with\n"
 	.string "   the {PLUS} Control Pad.\n"
 	.string "{CIRCLE_2} Select “DEPOSIT.”\n"
 	.string "{CIRCLE_3} Select the BOX, then press the\n"
-	.string "   A Button to store the POKéMON.\n"
-	.string "If you have only one POKéMON with you,\n"
+	.string "   A Button to store the Yo-kai.\n"
+	.string "If you have only one Yo-kai with you,\n"
 	.string "it may not be stored!$"
 
 Help_Text_HowToUseMove::
-	.string "{CIRCLE_1} Select a POKéMON in the open BOX.\n"
-	.string "{CIRCLE_2} Pick up the POKéMON by selecting\n"
+	.string "{CIRCLE_1} Select a Yo-kai in the open BOX.\n"
+	.string "{CIRCLE_2} Pick up the Yo-kai by selecting\n"
 	.string "   “MOVE” and move it anywhere with\n"
 	.string "   the {PLUS} Control Pad.\n"
-	.string "{CIRCLE_3} Move the POKéMON to the BOX name\n"
+	.string "{CIRCLE_3} Move the Yo-kai to the BOX name\n"
 	.string "   and press left or right to move it\n"
 	.string "   to another BOX.$"
 
 Help_Text_HowToMoveItems::
-	.string "{CIRCLE_1} Faintly shown POKéMON can be made\n"
+	.string "{CIRCLE_1} Faintly shown Yo-kai can be made\n"
 	.string "   to hold an item by selecting it and\n"
 	.string "   pressing the A Button.\n"
-	.string "{CIRCLE_2} Clearly shown POKéMON can be made\n"
+	.string "{CIRCLE_2} Clearly shown Yo-kai can be made\n"
 	.string "   to give the item they are holding to\n"
-	.string "   another POKéMON, or return the item\n"
+	.string "   another Yo-kai, or return the item\n"
 	.string "   to the BAG with the A Button.$"
 
 Help_Text_HowToUsePlayersPC::
@@ -897,7 +897,7 @@ Help_Text_HowToUseWithdrawItem::
 	.string "{CIRCLE_3} The item can be withdrawn and\n"
 	.string "   placed in the BAG's ITEMS POCKET.\n"
 	.string "   It may also be directly given to a\n"
-	.string "   POKéMON to hold.$"
+	.string "   Yo-kai to hold.$"
 
 Help_Text_HowToUseDepositItem::
 	.string "{CIRCLE_1} Select “DEPOSIT ITEM.”\n"
@@ -909,19 +909,19 @@ Help_Text_HowToUseDepositItem::
 	.string "   then press the A Button.$"
 
 Help_Text_HowToUseMailbox::
-	.string "When MAIL is taken from a POKéMON,\n"
+	.string "When MAIL is taken from a Yo-kai,\n"
 	.string "it is moved to the MAILBOX. If it has\n"
 	.string "no MAIL, the MAILBOX can't be used.\n"
 	.string "{CIRCLE_1} Select “{PLAYER}'S PC” on the PC.\n"
 	.string "{CIRCLE_2} Select “MAILBOX” to read MAIL or\n"
-	.string "   make a POKéMON hold MAIL.$"
+	.string "   make a Yo-kai hold MAIL.$"
 
 Help_Text_HowToUseProfOaksPC::
 	.string "{CIRCLE_1} Select “PROF. OAK'S PC” on the PC.\n"
 	.string "{CIRCLE_2} PROF. OAK will evaluate your\n"
-	.string "   POKéDEX.\n"
+	.string "   Médallium.\n"
 	.string "His evaluations should give you hints\n"
-	.string "for catching more POKéMON!$"
+	.string "for catching more Yo-kai!$"
 
 Help_Text_HowToOpenMenu::
 	.string "{CIRCLE_1} Press START.\n"
@@ -938,28 +938,28 @@ Help_Text_HowToUseFight::
 	.string "and that move will be used!$"
 
 Help_Text_HowToUsePokemon2::
-	.string "{CIRCLE_1} Select “POKéMON.”\n"
-	.string "{CIRCLE_2} Select the POKéMON in your party\n"
+	.string "{CIRCLE_1} Select “Yo-kai.”\n"
+	.string "{CIRCLE_2} Select the Yo-kai in your party\n"
 	.string "   that you want to use.\n"
-	.string "{CIRCLE_3} If you have two or more POKéMON\n"
+	.string "{CIRCLE_3} If you have two or more Yo-kai\n"
 	.string "   with you, they may be switched by\n"
-	.string "   selecting “SHIFT.” Check POKéMON\n"
+	.string "   selecting “SHIFT.” Check Yo-kai\n"
 	.string "   data by selecting “SUMMARY.”$"
 
 Help_Text_HowToUseShift::
-	.string "This command switches the POKéMON in\n"
+	.string "This command switches the Yo-kai in\n"
 	.string "battle with another one in your party.\n"
-	.string "{CIRCLE_1} Select the POKéMON to be sent out.\n"
+	.string "{CIRCLE_1} Select the Yo-kai to be sent out.\n"
 	.string "{CIRCLE_2} Select “SHIFT.”\n"
-	.string "{CIRCLE_3} The selected POKéMON will switch\n"
-	.string "   places with the POKéMON in battle!$"
+	.string "{CIRCLE_3} The selected Yo-kai will switch\n"
+	.string "   places with the Yo-kai in battle!$"
 
 Help_Text_HowToUseSummary2::
 	.string "{CIRCLE_1} Select “SUMMARY.”\n"
 	.string "{CIRCLE_2} Press left or right on the {PLUS} Control\n"
 	.string "   Pad to check the information:\n"
-	.string "   “POKéMON INFO”\n"
-	.string "   “POKéMON SKILLS”\n"
+	.string "   “Yo-kai INFO”\n"
+	.string "   “Yo-kai SKILLS”\n"
 	.string "   “KNOWN MOVES”$"
 
 Help_Text_HowToUseBag2::
@@ -968,18 +968,18 @@ Help_Text_HowToUseBag2::
 	.string "   Pad to check the data headings:\n"
 	.string "   “ITEMS”\n"
 	.string "   “KEY ITEMS”\n"
-	.string "   “POKé BALLS”\n"
+	.string "   “Yo-kai Balls”\n"
 	.string "   Press up or down to select an item.$"
 
 Help_Text_HowToReadPokedex::
-	.string "{CIRCLE_1} POKéMON that you have caught are\n"
-	.string "   identified by a POKé BALL mark on\n"
-	.string "   the POKéDEX list.\n"
-	.string "{CIRCLE_2} A caught POKéMON will provide a\n"
+	.string "{CIRCLE_1} Yo-kai that you have caught are\n"
+	.string "   marked by a Yo-kai Ball on\n"
+	.string "   the Médallium list.\n"
+	.string "{CIRCLE_2} A caught Yo-kai will provide a\n"
 	.string "   large amount of data.\n"
 	.if REVISION < 1
 	.string "{CIRCLE_3} Select “AREA” to display the TOWN\n"
-	.string "   MAP with the POKéMON's habitat(s).$"
+	.string "   MAP with the Yo-kai's habitat(s).$"
 	.else
 	.string "{CIRCLE_3} Select “NEXT DATA” to display the\n"
 	.string "   TOWN MAP with its habitat(s).$"
@@ -1004,7 +1004,7 @@ Help_Text_HowToUseWithdrawItem2::
 	.string "{CIRCLE_3} The item can be withdrawn and\n"
 	.string "   placed in the BAG's ITEMS POCKET.\n"
 	.string "   It may also be directly given to a\n"
-	.string "   POKéMON to hold.$"
+	.string "   Yo-kai to hold.$"
 
 Help_Text_HowToUseDepositItem2::
 	.string "{CIRCLE_1} Select “DEPOSIT ITEM.”\n"
@@ -1014,18 +1014,18 @@ Help_Text_HowToUseDepositItem2::
 	.string "   command can't be used!$"
 
 Help_Text_HowToUseMailbox2::
-	.string "When MAIL is taken from a POKéMON,\n"
+	.string "When MAIL is taken from a Yo-kai,\n"
 	.string "it is moved to the MAILBOX. If it has\n"
 	.string "no MAIL, the MAILBOX can't be used.\n"
 	.string "{CIRCLE_1} Select MAIL by name to read it or\n"
-	.string "   make a POKéMON hold it.$"
+	.string "   make a Yo-kai hold it.$"
 
 Help_Text_HowToUseRun::
 	.string "You may not “RUN” from a TRAINER\n"
 	.string "battle!\n"
-	.string "{CIRCLE_1} You may “RUN” from a wild POKéMON.\n"
+	.string "{CIRCLE_1} You may “RUN” from a wild Yo-kai.\n"
 	.string "{CIRCLE_2} Your chance of escape is improved\n"
-	.string "   if your POKéMON in battle is fast.$"
+	.string "   if your Yo-kai in battle is fast.$"
 
 Help_Text_HowToRegisterKeyItem::
 	.string "You may “REGISTER” a key item for\n"
@@ -1037,27 +1037,27 @@ Help_Text_HowToRegisterKeyItem::
 Help_Text_HowToUseBall::
 	.string "{CIRCLE_1} Select to throw the special POKé\n"
 	.string "   BALL used only in the SAFARI ZONE.\n"
-	.string "When wild POKéMON appear, throw lots\n"
+	.string "When wild Yo-kai appear, throw lots\n"
 	.string "of SAFARI BALLS to catch them!$"
 
 Help_Text_HowToUseBait::
 	.string "{CIRCLE_1} Select to throw the special food\n"
 	.string "   used only in the SAFARI ZONE.\n"
-	.string "It is POKéMON food rolled up into\n"
+	.string "It is Yo-kai food rolled up into\n"
 	.string "a ball for easy eating. When BAIT is\n"
-	.string "thrown, the wild POKéMON may get\n"
+	.string "thrown, the wild Yo-kai may get\n"
 	.string "attracted by it, and may not flee!$"
 
 Help_Text_HowToUseRock::
 	.string "{CIRCLE_1} Select to throw a rock lying on\n"
 	.string "   the ground in the SAFARI ZONE.\n"
-	.string "Throwing a rock at a POKéMON may \n"
+	.string "Throwing a rock at a Yo-kai may \n"
 	.string "make it run away, but it becomes easier\n"
 	.string "to catch!$"
 
 Help_Text_HowToUseHallOfFame::
 	.string "{CIRCLE_1} Select “HALL OF FAME” on the PC.\n"
-	.string "{CIRCLE_2} The POKéMON that have entered the\n"
+	.string "{CIRCLE_2} The Yo-kai that have entered the\n"
 	.string "   HALL OF FAME can be examined.$"
 
 Help_Text_HP::
@@ -1130,10 +1130,10 @@ Help_Text_KeyItems::
 	.string "KEY ITEMS$"
 
 Help_Text_PokeBalls::
-	.string "POKé BALLS$"
+	.string "Yo-kai Balls$"
 
 Help_Text_Pokedex::
-	.string "POKéDEX$"
+	.string "Médallium$"
 
 Help_Text_PlayTime::
 	.string "PLAY TIME$"
@@ -1178,7 +1178,7 @@ Help_Text_StatusProblem::
 	.string "STATUS PROBLEM$"
 
 Help_Text_Pokemon::
-	.string "POKéMON$"
+	.string "Yo-kai$"
 
 Help_Text_IDNo2::
 	.string "ID No.$"
@@ -1190,30 +1190,30 @@ Help_Text_Badges2::
 	.string "BADGES$"
 
 Help_Text_DefineHP::
-	.string "HP indicates a POKéMON's vitality.\n"
-	.string "If a POKéMON's HP drops to zero, it\l"
+	.string "HP indicates a Yo-kai's vitality.\n"
+	.string "If a Yo-kai's HP drops to zero, it\l"
 	.string "faints and is unable to battle.\l"
 	.string "So, the key in battle is to try to\l"
 	.string "reduce the foe's HP to zero.\l"
-	.string "If your POKéMON are hurt, restore their\l"
-	.string "HP at a POKéMON CENTER or use items.$"
+	.string "If your Yo-kai are hurt, restore their\l"
+	.string "HP at a Centre Yo-kai or use items.$"
 
 Help_Text_DefineEXP::
 	.string "EXP. Points stands for “Experience\n"
-	.string "Points.” POKéMON gain EXP. Points by\l"
+	.string "Points.” Yo-kai gain EXP. Points by\l"
 	.string "participating in winning battles.\l"
-	.string "When a POKéMON accumulates sufficient\l"
+	.string "When a Yo-kai accumulates sufficient\l"
 	.string "EXP. Points, it levels up. The EXP. Bar\l"
 	.string "indicates accumulated EXP. Points.\l"
 	.string "It returns to zero upon leveling up.$"
 
 Help_Text_DefineMoves::
-	.string "POKéMON may learn up to four different\n"
+	.string "Yo-kai may learn up to four different\n"
 	.string "moves. There are many kinds of moves\l"
 	.string "including attacks and those with\l"
 	.string "special effects. The kinds of moves\l"
 	.string "that can be learned vary for each\l"
-	.string "POKéMON. Some moves can be learned\l"
+	.string "Yo-kai. Some moves can be learned\l"
 	.string "from items.$"
 
 Help_Text_DefineAttack::
@@ -1227,7 +1227,7 @@ Help_Text_DefineAttack::
 
 Help_Text_DefineDefense::
 	.string "DEFENSE indicates the resistance a\n"
-	.string "POKéMON has against physical attacks.\l"
+	.string "Yo-kai has against physical attacks.\l"
 	.string "The higher this stat, the less damage\l"
 	.string "sustained from a foe's physical hit.$"
 
@@ -1242,28 +1242,28 @@ Help_Text_DefineSpAtk::
 
 Help_Text_DefineSpDef::
 	.string "SP. DEF (Special Defense) indicates\n"
-	.string "the resistance a POKéMON has against\l"
+	.string "the resistance a Yo-kai has against\l"
 	.string "special attacks.\l"
 	.string "The higher this stat, the less damage\l"
 	.string "sustained from a foe's special attack.$"
 
 Help_Text_DefineSpeed::
 	.string "SPEED indicates the agility of a\n"
-	.string "POKéMON. If this stat exceeds the foe's\l"
-	.string "in battle, the POKéMON can make a move\l"
+	.string "Yo-kai. If this stat exceeds the foe's\l"
+	.string "in battle, the Yo-kai can make a move\l"
 	.string "before its slower opponent.$"
 
 Help_Text_DefineLevel::
 	.string "Lv. (Level) indicates the growth and\n"
-	.string "strength of a POKéMON.\l"
-	.string "In general, when a POKéMON levels up,\l"
+	.string "strength of a Yo-kai.\l"
+	.string "In general, when a Yo-kai levels up,\l"
 	.string "its stats such as HP, ATTACK, and\l"
 	.string "DEFENSE rise, making it stronger.\l"
-	.string "POKéMON may learn a new move upon\l"
+	.string "Yo-kai may learn a new move upon\l"
 	.string "leveling up.$"
 
 Help_Text_DefineType::
-	.string "POKéMON and moves are classified by\n"
+	.string "Yo-kai and moves are classified by\n"
 	.string "type. Every type has advantageous and\l"
 	.string "disadvantageous matchups against\l"
 	.string "other types. For example, like a rock-\l"
@@ -1274,20 +1274,20 @@ Help_Text_DefineType::
 Help_Text_DefineOT::
 	.string "OT stands for “Original TRAINER,”\n"
 	.string "the first TRAINER to have caught the\l"
-	.string "selected POKéMON.\l"
-	.string "Even if the POKéMON is traded, the OT\l"
+	.string "selected Yo-kai.\l"
+	.string "Even if the Yo-kai is traded, the OT\l"
 	.string "name will remain unchanged.$"
 
 Help_Text_DefineItem::
-	.string "All POKéMON can be made to hold one\n"
+	.string "All Yo-kai can be made to hold one\n"
 	.string "item each. Some items will be used by\l"
-	.string "the POKéMON automatically in certain\l"
-	.string "situations. To make a POKéMON hold an\l"
+	.string "the Yo-kai automatically in certain\l"
+	.string "situations. To make a Yo-kai hold an\l"
 	.string "item, select the item from the BAG and\l"
-	.string "“GIVE” it to the POKéMON.$"
+	.string "“GIVE” it to the Yo-kai.$"
 
 Help_Text_DefineAbility::
-	.string "All POKéMON have a special ABILITY.\n"
+	.string "All Yo-kai have a special ABILITY.\n"
 	.string "There are many different kinds of these\l"
 	.string "abilities, some used in battle, some\l"
 	.string "elsewhere. The abilities differ from\l"
@@ -1298,11 +1298,11 @@ Help_Text_DefineMoney::
 	.string "Whenever you win a battle against a\n"
 	.string "TRAINER, you are given prize money.\l"
 	.string "Save up your prize money so you can\l"
-	.string "enjoy shopping at POKéMON MARTS!$"
+	.string "enjoy shopping at Yo-kai MARTS!$"
 
 Help_Text_DefineMoveType::
 	.string "Moves are also classified by types.\n"
-	.string "If a POKéMON of a certain type uses\l"
+	.string "If a Yo-kai of a certain type uses\l"
 	.string "a move of the same type, the move's\l"
 	.string "power is boosted. If the move's type\l"
 	.string "has a matchup advantage against the\l"
@@ -1310,10 +1310,10 @@ Help_Text_DefineMoveType::
 	.string "boosted.$"
 
 Help_Text_DefineNature::
-	.string "All POKéMON have a personality,\n"
-	.string "or “NATURE.” The POKéMON's\l"
+	.string "All Yo-kai have a personality,\n"
+	.string "or “NATURE.” The Yo-kai's\l"
 	.string "nature appears to affect how the\l"
-	.string "POKéMON will grow upon leveling up.$"
+	.string "Yo-kai will grow upon leveling up.$"
 
 Help_Text_DefineIDNo::
 	.string "The ID No. is a special number assigned\n"
@@ -1322,14 +1322,14 @@ Help_Text_DefineIDNo::
 	.string "is used to precisely identify the\l"
 	.string "Original TRAINER.\l"
 	.string "The ID No. does not change even if the\l"
-	.string "POKéMON is traded.$"
+	.string "Yo-kai is traded.$"
 
 Help_Text_DefinePP::
 	.string "PP stands for “Power Points.”\n"
 	.string "It indicates the number of times a\l"
 	.string "certain move can be used in battle.\l"
 	.string "Like HP, PP can be restored by visiting\l"
-	.string "a POKéMON CENTER or using certain\l"
+	.string "a Centre Yo-kai or using certain\l"
 	.string "items.$"
 
 Help_Text_DefinePower::
@@ -1346,16 +1346,16 @@ Help_Text_DefineAccuracy::
 
 Help_Text_DefineFNT::
 	.string "FNT stands for “fainted.”\n"
-	.string "A POKéMON faints if its HP is reduced\l"
+	.string "A Yo-kai faints if its HP is reduced\l"
 	.string "to zero. It becomes incapable of taking\l"
 	.string "part in battle.\l"
-	.string "Restore a fainted POKéMON at a POKéMON\l"
+	.string "Restore a fainted Yo-kai at a Yo-kai\l"
 	.string "CENTER, or use an item.$"
 
 Help_Text_DefineItems::
-	.string "Ordinary items bought at any POKéMON\n"
+	.string "Ordinary items bought at any Yo-kai\n"
 	.string "MART are placed in the ITEMS POCKET.\l"
-	.string "Items may be used, given to a POKéMON\l"
+	.string "Items may be used, given to a Yo-kai\l"
 	.string "to hold, or tossed out as garbage.$"
 
 Help_Text_DefineKeyItems::
@@ -1368,27 +1368,27 @@ Help_Text_DefineKeyItems::
 	.string "without opening the MENU and BAG.$"
 
 Help_Text_DefinePokeBalls::
-	.string "POKé BALLS, which are used for\n"
-	.string "catching wild POKéMON, are placed in\l"
-	.string "the POKé BALLS POCKET.\l"
-	.string "POKé BALLS may be bought at POKéMON\l"
+	.string "Yo-kai Balls, which are used for\n"
+	.string "catching wild Yo-kai, are placed in\l"
+	.string "the Yo-kai Balls POCKET.\l"
+	.string "Yo-kai Balls may be bought at Yo-kai\l"
 	.string "MARTS. They may be used, given to a\l"
-	.string "POKéMON to hold, or tossed out as\l"
+	.string "Yo-kai to hold, or tossed out as\l"
 	.string "garbage.$"
 
 Help_Text_DefinePokedex::
 	.string "This indicates the number of species of\n"
-	.string "POKéMON you have caught and/or\l"
-	.string "evolved to fill the POKéDEX.\l"
+	.string "Yo-kai you have caught and/or\l"
+	.string "evolved to fill the Médallium.\l"
 	.string "Try hard to catch all sorts of\l"
-	.string "POKéMON!$"
+	.string "Yo-kai!$"
 
 Help_Text_DefinePlayTime::
 	.string "This is the total amount of time that\n"
 	.string "you have played this game.$"
 
 Help_Text_DefineBadges::
-	.string "The POKéMON LEAGUE BADGES that you\n"
+	.string "The Ligue Yo-kai BADGES that you\n"
 	.string "have won are registered and shown.\l"
 	.string "Earn BADGES by defeating GYM LEADERS\l"
 	.string "in various cities and towns.$"
@@ -1404,10 +1404,10 @@ Help_Text_DefineBattleScene::
 
 Help_Text_DefineBattleStyle::
 	.string "You can choose whether or not a\n"
-	.string "TRAINER can switch a POKéMON after\l"
+	.string "TRAINER can switch a Yo-kai after\l"
 	.string "it has made its foe faint.\l"
 	.string "Set to “SHIFT” if you would like the\l"
-	.string "chance to switch a POKéMON after it\l"
+	.string "chance to switch a Yo-kai after it\l"
 	.string "has made its foe faint.$"
 
 Help_Text_DefineSound::
@@ -1418,7 +1418,7 @@ Help_Text_DefineButtonMode::
 	.string "Set to “HELP” to display help messages\n"
 	.string "by pressing the L or R Button.\l"
 	.string "Set to “LR” to enable the switching\l"
-	.string "of the POKéDEX pages and BAG POCKETS\l"
+	.string "Médallium pages and BAG POCKETS\l"
 	.string "using the L and R Buttons.\l"
 	.string "Set to “L=A” to make the L Button\l"
 	.string "work the same as the A Button.$"
@@ -1435,37 +1435,37 @@ Help_Text_DefineCancel2::
 
 Help_Text_DefineTM::
 	.string "A TM (Technical Machine) is a device\n"
-	.string "used to teach a move to a POKéMON.\l"
+	.string "used to teach a move to a Yo-kai.\l"
 	.string "There are many different kinds.\l"
 	.string "Moves can be taught only to those\l"
-	.string "POKéMON capable of using them.\l"
+	.string "Yo-kai capable of using them.\l"
 	.string "A TM breaks after a single use.$"
 
 Help_Text_DefineHM::
 	.string "An HM (Hidden Machine) is a device used\n"
-	.string "to teach a HIDDEN move to a POKéMON.\l"
+	.string "to teach a HIDDEN move to a Yo-kai.\l"
 	.string "A HIDDEN move can be taught only to\l"
-	.string "those POKéMON capable of using it.\l"
+	.string "those Yo-kai capable of using it.\l"
 	.string "Unlike a TM, an HM can be used over\l"
 	.string "and over. A HIDDEN move can be tough\l"
-	.string "for a POKéMON to forget.$"
+	.string "for a Yo-kai to forget.$"
 
 Help_Text_DefineHMMove::
 	.string "HIDDEN moves are those that are\n"
 	.string "especially important for your\l"
 	.string "adventure. To use such a move outside\l"
-	.string "of battle, open the “POKéMON” MENU\l"
-	.string "and make the POKéMON that knows the\l"
-	.string "move use it. A fainted POKéMON may use\l"
+	.string "of battle, open the “Yo-kai” MENU\l"
+	.string "and make the Yo-kai that knows the\l"
+	.string "move use it. A fainted Yo-kai may use\l"
 	.string "a HIDDEN move outside of battle.$"
 
 Help_Text_DefineEvolution::
-	.string "Among POKéMON, there are some that\n"
+	.string "Among Yo-kai, there are some that\n"
 	.string "undergo major changes (evolution) upon\l"
 	.string "growing to certain levels. Evolution\l"
-	.string "causes a POKéMON to alter form, change\l"
+	.string "causes a Yo-kai to alter form, change\l"
 	.string "its name, and perhaps change the moves\l"
-	.string "it may learn. Some POKéMON evolve\l"
+	.string "it may learn. Some Yo-kai evolve\l"
 	.string "due to reasons other than leveling up.$"
 
 Help_Text_DefineStatusProblem::
@@ -1478,10 +1478,10 @@ Help_Text_DefineStatusProblem::
 	.string "These can be healed with items, etc.$"
 
 Help_Text_DefinePokemon::
-	.string "POKéMON is a name given to describe\n"
+	.string "Yo-kai is a name given to describe\n"
 	.string "wondrous creatures that inhabit all\l"
 	.string "corners of this world.\l"
-	.string "People raise POKéMON to be their pets,\l"
+	.string "People raise Yo-kai to be their pets,\l"
 	.string "use them for battling, and so on.$"
 
 Help_Text_DefineIDNo2::
@@ -1491,16 +1491,16 @@ Help_Text_DefineIDNo2::
 	.string "is used to precisely identify the\l"
 	.string "Original TRAINER.\l"
 	.string "The ID No. does not change even if the\l"
-	.string "POKéMON is traded.$"
+	.string "Yo-kai is traded.$"
 
 Help_Text_DefineMoney2::
 	.string "Whenever you win a battle against a\n"
 	.string "TRAINER, you are given prize money.\l"
 	.string "Save up your prize money so you can\l"
-	.string "enjoy shopping at POKéMON MARTS!$"
+	.string "enjoy shopping at Yo-kai MARTS!$"
 
 Help_Text_DefineBadges2::
-	.string "This indicates the number of POKéMON\n"
+	.string "This indicates the number of Yo-kai\n"
 	.string "LEAGUE BADGES that you have won.\l"
 	.string "Earn BADGES by defeating GYM LEADERS\l"
 	.string "in various cities and towns.$"
@@ -1524,7 +1524,7 @@ Help_Text_GameFundamentals3::
 	.string "Game fundamentals 3$"
 
 Help_Text_WhatArePokemon::
-	.string "What are POKéMON?$"
+	.string "What are Yo-kai?$"
 
 Help_Text_DescTheHelpSystem::
 	.string "The help messages change depending on\n"
@@ -1536,11 +1536,11 @@ Help_Text_DescTheHelpSystem::
 
 Help_Text_DescTheGame::
 	.string "You become the main character to\n"
-	.string "explore the world of POKéMON!\l"
+	.string "explore the world of Yo-kai!\l"
 	.string "By talking to people and solving\l"
 	.string "mysteries, new paths will open to you.\l"
 	.string "Strive for the goal together with your\l"
-	.string "wonderful POKéMON!$"
+	.string "wonderful Yo-kai!$"
 
 Help_Text_DescWirelessAdapter::
 	.string "This game communicates over a wireless\n"
@@ -1555,7 +1555,7 @@ Help_Text_DescGameFundamentals1::
 	.string "road, explore every cave, and face\l"
 	.string "every challenge as you strive to\l"
 	.string "become the greatest TRAINER of\l"
-	.string "POKéMON!$"
+	.string "Yo-kai!$"
 
 Help_Text_DescGameFundamentals2::
 	.string "On your adventure, you will be faced\n"
@@ -1567,11 +1567,11 @@ Help_Text_DescGameFundamentals2::
 
 Help_Text_DescGameFundamentals3::
 	.string "Some of the obstacles in your way can\n"
-	.string "be removed once your POKéMON learn\l"
+	.string "be removed once your Yo-kai learn\l"
 	.string "specific moves.$"
 
 Help_Text_DescWhatArePokemon::
-	.string "POKéMON are wondrous creatures that\n"
+	.string "Yo-kai are wondrous creatures that\n"
 	.string "are shrouded in mystery. You may meet\l"
 	.string "them all over the world…in tall\l"
 	.string "grass, caves, the sea, and more.\l"
@@ -1585,107 +1585,107 @@ Help_Text_OwnMoveDark::
 	.string "Own move type: DARK$"
 
 Help_Text_OwnPokemonDark::
-	.string "Own POKéMON type: DARK$"
+	.string "Own Yo-kai type: DARK$"
 
 Help_Text_OwnMoveRock::
 	.string "Own move type: ROCK$"
 
 Help_Text_OwnPokemonRock::
-	.string "Own POKéMON type: ROCK$"
+	.string "Own Yo-kai type: ROCK$"
 
 Help_Text_OwnMovePsychic::
 	.string "Own move type: PSYCHIC$"
 
 Help_Text_OwnPokemonPsychic::
-	.string "Own POKéMON type: PSYCHIC$"
+	.string "Own Yo-kai type: PSYCHIC$"
 
 Help_Text_OwnMoveFighting::
 	.string "Own move type: FIGHTING$"
 
 Help_Text_OwnPokemonFighting::
-	.string "Own POKéMON type: FIGHTING$"
+	.string "Own Yo-kai type: FIGHTING$"
 
 Help_Text_OwnMoveGrass::
 	.string "Own move type: GRASS$"
 
 Help_Text_OwnPokemonGrass::
-	.string "Own POKéMON type: GRASS$"
+	.string "Own Yo-kai type: GRASS$"
 
 Help_Text_OwnMoveGhost::
 	.string "Own move type: GHOST$"
 
 Help_Text_OwnPokemonGhost::
-	.string "Own POKéMON type: GHOST$"
+	.string "Own Yo-kai type: GHOST$"
 
 Help_Text_OwnMoveIce::
 	.string "Own move type: ICE$"
 
 Help_Text_OwnPokemonIce::
-	.string "Own POKéMON type: ICE$"
+	.string "Own Yo-kai type: ICE$"
 
 Help_Text_OwnMoveGround::
 	.string "Own move type: GROUND$"
 
 Help_Text_OwnPokemonGround::
-	.string "Own POKéMON type: GROUND$"
+	.string "Own Yo-kai type: GROUND$"
 
 Help_Text_OwnMoveElectric::
 	.string "Own move type: ELECTRIC$"
 
 Help_Text_OwnPokemonElectric::
-	.string "Own POKéMON type: ELECTRIC$"
+	.string "Own Yo-kai type: ELECTRIC$"
 
 Help_Text_OwnMovePoison::
 	.string "Own move type: POISON$"
 
 Help_Text_OwnPokemonPoison::
-	.string "Own POKéMON type: POISON$"
+	.string "Own Yo-kai type: POISON$"
 
 Help_Text_OwnMoveDragon::
 	.string "Own move type: DRAGON$"
 
 Help_Text_OwnPokemonDragon::
-	.string "Own POKéMON type: DRAGON$"
+	.string "Own Yo-kai type: DRAGON$"
 
 Help_Text_OwnMoveNormal::
 	.string "Own move type: NORMAL$"
 
 Help_Text_OwnPokemonNormal::
-	.string "Own POKéMON type: NORMAL$"
+	.string "Own Yo-kai type: NORMAL$"
 
 Help_Text_OwnMoveSteel::
 	.string "Own move type: STEEL$"
 
 Help_Text_OwnPokemonSteel::
-	.string "Own POKéMON type: STEEL$"
+	.string "Own Yo-kai type: STEEL$"
 
 Help_Text_OwnMoveFlying::
 	.string "Own move type: FLYING$"
 
 Help_Text_OwnPokemonFlying::
-	.string "Own POKéMON type: FLYING$"
+	.string "Own Yo-kai type: FLYING$"
 
 Help_Text_OwnMoveFire::
 	.string "Own move type: FIRE$"
 
 Help_Text_OwnPokemonFire::
-	.string "Own POKéMON type: FIRE$"
+	.string "Own Yo-kai type: FIRE$"
 
 Help_Text_OwnMoveWater::
 	.string "Own move type: WATER$"
 
 Help_Text_OwnPokemonWater::
-	.string "Own POKéMON type: WATER$"
+	.string "Own Yo-kai type: WATER$"
 
 Help_Text_OwnMoveBug::
 	.string "Own move type: BUG$"
 
 Help_Text_OwnPokemonBug::
-	.string "Own POKéMON type: BUG$"
+	.string "Own Yo-kai type: BUG$"
 
 Help_Text_HowToUseTypeMatchupList::
 	.string "Depending on the matchup of the\n"
-	.string "move type and the target POKéMON's\l"
+	.string "move type and the target Yo-kai's\l"
 	.string "type, the move's effectiveness varies:\l"
 	.string "{CIRCLE_DOT}: Super effective!\l"
 	.string "{TRIANGLE}: Not very effective\l"
@@ -1693,144 +1693,144 @@ Help_Text_HowToUseTypeMatchupList::
 	.string "(No changes for other matchups.)$"
 
 Help_Text_TypeMatchupOwnMoveDark::
-	.string "Effect on the opposing POKéMON:\p"
+	.string "Effect on the opposing Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: PSYCHIC, GHOST\p"
 	.string "   {TRIANGLE}: FIGHTING, DARK, STEEL$"
 
 Help_Text_TypeMatchupOwnPokemonDark::
-	.string "Effect of foe's move on own POKéMON:\p"
+	.string "Effect of foe's move on own Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: FIGHTING, BUG\p"
 	.string "   {TRIANGLE}: GHOST, DARK\p"
 	.string "   {BIG_MULT_X}: PSYCHIC$"
 
 Help_Text_TypeMatchupOwnMoveRock::
-	.string "Effect on the opposing POKéMON:\p"
+	.string "Effect on the opposing Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: FIRE, ICE, FLYING, BUG\p"
 	.string "   {TRIANGLE}: FIGHTING, GROUND, STEEL$"
 
 Help_Text_TypeMatchupOwnPokemonRock::
-	.string "Effect of foe's move on own POKéMON:\p"
+	.string "Effect of foe's move on own Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: WATER, GRASS, FIGHTING,\n"
 	.string "       GROUND, STEEL\p"
 	.string "   {TRIANGLE}: NORMAL, FIRE, POISON, FLYING$"
 
 Help_Text_TypeMatchupOwnMovePsychic::
-	.string "Effect on the opposing POKéMON:\p"
+	.string "Effect on the opposing Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: FIGHTING, POISON\p"
 	.string "   {TRIANGLE}: PSYCHIC, STEEL\p"
 	.string "   {BIG_MULT_X}: DARK$"
 
 Help_Text_TypeMatchupOwnPokemonPsychic::
-	.string "Effect of foe's move on own POKéMON:\p"
+	.string "Effect of foe's move on own Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: BUG, GHOST, DARK\p"
 	.string "   {TRIANGLE}: FIGHTING, PSYCHIC$"
 
 Help_Text_TypeMatchupOwnMoveFighting::
-	.string "Effect on the opposing POKéMON:\p"
+	.string "Effect on the opposing Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: NORMAL, ICE, ROCK, DARK, STEEL\p"
 	.string "   {TRIANGLE}: POISON, FLYING, PSYCHIC, BUG\p"
 	.string "   {BIG_MULT_X}: GHOST$"
 
 Help_Text_TypeMatchupOwnPokemonFighting::
-	.string "Effect of foe's move on own POKéMON:\p"
+	.string "Effect of foe's move on own Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: FLYING, PSYCHIC\p"
 	.string "   {TRIANGLE}: BUG, ROCK, DARK$"
 
 Help_Text_TypeMatchupOwnMoveGrass::
-	.string "Effect on the opposing POKéMON:\p"
+	.string "Effect on the opposing Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: WATER, GROUND, ROCK\p"
 	.string "   {TRIANGLE}: FIRE, GRASS, POISON, FLYING,\n"
 	.string "       BUG, DRAGON, STEEL$"
 
 Help_Text_TypeMatchupOwnPokemonGrass::
-	.string "Effect of foe's move on own POKéMON:\p"
+	.string "Effect of foe's move on own Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: FIRE, ICE, POISON, FLYING, BUG\p"
 	.string "   {TRIANGLE}: WATER, ELECTRIC, GRASS, GROUND$"
 
 Help_Text_TypeMatchupOwnMoveGhost::
-	.string "Effect on the opposing POKéMON:\p"
+	.string "Effect on the opposing Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: PSYCHIC, GHOST\p"
 	.string "   {TRIANGLE}: DARK, STEEL\p"
 	.string "   {BIG_MULT_X}: NORMAL$"
 
 Help_Text_TypeMatchupOwnPokemonGhost::
-	.string "Effect of foe's move on own POKéMON:\p"
+	.string "Effect of foe's move on own Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: GHOST, DARK\p"
 	.string "   {TRIANGLE}: POISON, BUG\p"
 	.string "   {BIG_MULT_X}: NORMAL, FIGHTING$"
 
 Help_Text_TypeMatchupOwnMoveIce::
-	.string "Effect on the opposing POKéMON:\p"
+	.string "Effect on the opposing Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: GRASS, GROUND, FLYING, DRAGON\p"
 	.string "   {TRIANGLE}: FIRE, WATER, ICE, STEEL$"
 
 Help_Text_TypeMatchupOwnPokemonIce::
-	.string "Effect of foe's move on own POKéMON:\p"
+	.string "Effect of foe's move on own Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: FIRE, FIGHTING, ROCK, STEEL\p"
 	.string "   {TRIANGLE}: ICE$"
 
 Help_Text_TypeMatchupOwnMoveGround::
-	.string "Effect on the opposing POKéMON:\p"
+	.string "Effect on the opposing Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: FIRE, ELECTRIC, POISON, ROCK,\n"
 	.string "       STEEL\p"
 	.string "   {TRIANGLE}: GRASS, BUG\n"
 	.string "   {BIG_MULT_X}: FLYING$"
 
 Help_Text_TypeMatchupOwnPokemonGround::
-	.string "Effect of foe's move on own POKéMON:\p"
+	.string "Effect of foe's move on own Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: WATER, GRASS, ICE\p"
 	.string "   {TRIANGLE}: POISON, ROCK\p"
 	.string "   {BIG_MULT_X}: ELECTRIC$"
 
 Help_Text_TypeMatchupOwnMoveElectric::
-	.string "Effect on the opposing POKéMON:\p"
+	.string "Effect on the opposing Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: WATER, FLYING\p"
 	.string "   {TRIANGLE}: ELECTRIC, GRASS, DRAGON\p"
 	.string "   {BIG_MULT_X}: GROUND$"
 
 Help_Text_TypeMatchupOwnPokemonElectric::
-	.string "Effect of foe's move on own POKéMON:\p"
+	.string "Effect of foe's move on own Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: GROUND\p"
 	.string "   {TRIANGLE}: ELECTRIC, FLYING, STEEL$"
 
 Help_Text_TypeMatchupOwnMovePoison::
-	.string "Effect on the opposing POKéMON:\p"
+	.string "Effect on the opposing Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: GRASS\p"
 	.string "   {TRIANGLE}: POISON, GROUND, ROCK, GHOST\p"
 	.string "   {BIG_MULT_X}: STEEL$"
 
 Help_Text_TypeMatchupOwnPokemonPoison::
-	.string "Effect of foe's move on own POKéMON:\p"
+	.string "Effect of foe's move on own Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: GROUND, PSYCHIC\p"
 	.string "   {TRIANGLE}: GRASS, FIGHTING, POISON, BUG$"
 
 Help_Text_TypeMatchupOwnMoveDragon::
-	.string "Effect on the opposing POKéMON:\p"
+	.string "Effect on the opposing Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: DRAGON\p"
 	.string "   {TRIANGLE}: STEEL$"
 
 Help_Text_TypeMatchupOwnPokemonDragon::
-	.string "Effect of foe's move on own POKéMON:\p"
+	.string "Effect of foe's move on own Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: ICE, DRAGON\p"
 	.string "   {TRIANGLE}: FIRE, WATER, ELECTRIC, GRASS$"
 
 Help_Text_TypeMatchupOwnMoveNormal::
-	.string "Effect on the opposing POKéMON:\p"
+	.string "Effect on the opposing Yo-kai:\p"
 	.string "   {TRIANGLE}: ROCK, STEEL\p"
 	.string "   {BIG_MULT_X}: GHOST$"
 
 Help_Text_TypeMatchupOwnPokemonNormal::
-	.string "Effect of foe's move on own POKéMON:\p"
+	.string "Effect of foe's move on own Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: FIGHTING\p"
 	.string "   {BIG_MULT_X}: GHOST$"
 
 Help_Text_TypeMatchupOwnMoveSteel::
-	.string "Effect on the opposing POKéMON:\p"
+	.string "Effect on the opposing Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: ICE, ROCK\p"
 	.string "   {TRIANGLE}: FIRE, WATER, ELECTRIC, STEEL$"
 
 Help_Text_TypeMatchupOwnPokemonSteel::
-	.string "Effect of foe's move on own POKéMON:\p"
+	.string "Effect of foe's move on own Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: FIRE, FIGHTING, GROUND\n"
 	.string "   {TRIANGLE}: NORMAL, GRASS, ICE, FLYING,\l"
 	.string "       PSYCHIC, BUG, ROCK, GHOST,\l"
@@ -1838,44 +1838,44 @@ Help_Text_TypeMatchupOwnPokemonSteel::
 	.string "   {BIG_MULT_X}: POISON$"
 
 Help_Text_TypeMatchupOwnMoveFlying::
-	.string "Effect on the opposing POKéMON:\p"
+	.string "Effect on the opposing Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: GRASS, FIGHTING, BUG\p"
 	.string "   {TRIANGLE}: ELECTRIC, ROCK, STEEL$"
 
 Help_Text_TypeMatchupOwnPokemonFlying::
-	.string "Effect of foe's move on own POKéMON:\p"
+	.string "Effect of foe's move on own Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: ELECTRIC, ICE, ROCK\p"
 	.string "   {TRIANGLE}: GRASS, FIGHTING, BUG\p"
 	.string "   {BIG_MULT_X}: GROUND$"
 
 Help_Text_TypeMatchupOwnMoveFire::
-	.string "Effect on the opposing POKéMON:\p"
+	.string "Effect on the opposing Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: GRASS, ICE, BUG, STEEL\p"
 	.string "   {TRIANGLE}: FIRE, WATER, ROCK, DRAGON$"
 
 Help_Text_TypeMatchupOwnPokemonFire::
-	.string "Effect of foe's move on own POKéMON:\p"
+	.string "Effect of foe's move on own Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: WATER, GROUND, ROCK\p"
 	.string "   {TRIANGLE}: FIRE, GRASS, ICE, BUG, STEEL$"
 
 Help_Text_TypeMatchupOwnMoveWater::
-	.string "Effect on the opposing POKéMON:\p"
+	.string "Effect on the opposing Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: FIRE, GROUND, ROCK\p"
 	.string "   {TRIANGLE}: WATER, GRASS, DRAGON$"
 
 Help_Text_TypeMatchupOwnPokemonWater::
-	.string "Effect of foe's move on own POKéMON:\p"
+	.string "Effect of foe's move on own Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: ELECTRIC, GRASS\p"
 	.string "   {TRIANGLE}: FIRE, WATER, ICE, STEEL$"
 
 Help_Text_TypeMatchupOwnMoveBug::
-	.string "Effect on the opposing POKéMON:\p"
+	.string "Effect on the opposing Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: GRASS, PSYCHIC, DARK\p"
 	.string "   {TRIANGLE}: FIRE, FIGHTING, POISON,\n"
 	.string "       FLYING, GHOST, STEEL$"
 
 Help_Text_TypeMatchupOwnPokemonBug::
-	.string "Effect of foe's move on own POKéMON:\p"
+	.string "Effect of foe's move on own Yo-kai:\p"
 	.string "   {CIRCLE_DOT}: FIRE, FLYING, ROCK\p"
 	.string "   {TRIANGLE}: GRASS, FIGHTING, GROUND$"
 

@@ -1,0 +1,207 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "7f4248b27ec01f4d32acdcacc11c3b1bb5f03ef434431bea099ba85d1496b4ac",
+  "scope": "Native linked labels, font widths and controller-opened interfaces; does not validate every text/window in game",
+  "results": [
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_NewGame",
+      "text": "NOUVEAU JEU",
+      "width_pixels": 66,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_Continue",
+      "text": "CONTINUER",
+      "width_pixels": 54,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_MenuPokemon",
+      "text": "Yo-kai",
+      "width_pixels": 33,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_MenuPokedex",
+      "text": "Médallium",
+      "width_pixels": 50,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_MenuBag",
+      "text": "SAC",
+      "width_pixels": 18,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_MenuSave",
+      "text": "SAUVER",
+      "width_pixels": 36,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_MenuOption",
+      "text": "OPTIONS",
+      "width_pixels": 42,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_MenuExit",
+      "text": "FERMER",
+      "width_pixels": 36,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_Item",
+      "text": "OBJET",
+      "width_pixels": 30,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_Take",
+      "text": "PRENDRE",
+      "width_pixels": 42,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_Items2",
+      "text": "OBJETS",
+      "width_pixels": 36,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_Shift",
+      "text": "ENVOYER",
+      "width_pixels": 42,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_Switch2",
+      "text": "ÉCHANGER",
+      "width_pixels": 48,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_Summary5",
+      "text": "RÉSUMÉ",
+      "width_pixels": 36,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_Take2",
+      "text": "PRENDRE",
+      "width_pixels": 42,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_ChoosePokemon",
+      "text": "Choisis un Yo-kai.",
+      "width_pixels": 97,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_UseOnWhichPokemon",
+      "text": "Utiliser sur quel Yo-kai?",
+      "width_pixels": 136,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_GiveToWhichPokemon",
+      "text": "Donner à quel Yo-kai?",
+      "width_pixels": 119,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_EggNickname",
+      "text": "ŒUF",
+      "width_pixels": 20,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_Boy",
+      "text": "GARÇON",
+      "width_pixels": 36,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_Girl",
+      "text": "FILLE",
+      "width_pixels": 30,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gSaveStatName_Pokedex",
+      "text": "Médallium",
+      "width_pixels": 50,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_ClosePokedex",
+      "text": "FERMER",
+      "width_pixels": 36,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_PokemonListNoColor",
+      "text": "LISTE YO-KAI",
+      "width_pixels": 72,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_PokedexTableOfContents",
+      "text": "MÉDALLIUM   SOMMAIRE",
+      "width_pixels": 120,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_PokeBalls2",
+      "text": "Yo-kai Balls",
+      "width_pixels": 66,
+      "passed": true
+    },
+    {
+      "test": "Actual START/DPAD/A opens medallium",
+      "passed": true
+    },
+    {
+      "test": "National postgame unlock preserves151-entry Medallium in six sorts and seen/caught counts; outside151 imported flag ignored by UI",
+      "passed": true,
+      "actual_capture_of151_tested": false
+    },
+    {
+      "test": "Actual START/DPAD/A opens equipe",
+      "passed": true
+    },
+    {
+      "test": "Actual START/DPAD/A opens sac",
+      "passed": true
+    }
+  ]
+}

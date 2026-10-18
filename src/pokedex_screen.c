@@ -1370,7 +1370,7 @@ static void DexScreen_CreateCharacteristicListMenu(void)
 
 static u16 DexScreen_CountMonsInOrderedList(u8 orderIdx)
 {
-    s32 max_n = IsNationalPokedexEnabled() ? NATIONAL_DEX_COUNT : KANTO_DEX_COUNT;
+    s32 max_n = KANTO_DEX_COUNT; // The playable Medallium contains151 Yo-kai, even after Sevii unlock.
     u16 ndex_num;
     u16 ret = NATIONAL_DEX_NONE;
     s32 i;
@@ -1467,7 +1467,7 @@ static u16 DexScreen_CountMonsInOrderedList(u8 orderIdx)
         }
         break;
     case DEX_ORDER_NUMERICAL_NATIONAL:
-        for (i = 0; i < NATIONAL_DEX_COUNT; i++)
+        for (i = 0; i < KANTO_DEX_COUNT; i++)
         {
             ndex_num = i + 1;
             seen = DexScreen_GetSetPokedexFlag(ndex_num, FLAG_GET_SEEN, FALSE);
@@ -2283,7 +2283,7 @@ static u16 DexScreen_GetDexCount(u8 caseId, bool8 whichDex)
         }
         break;
     case 1: // National
-        for (i = 0; i < NATIONAL_DEX_COUNT; i++)
+        for (i = 0; i < KANTO_DEX_COUNT; i++)
         {
             if (DexScreen_GetSetPokedexFlag(i + 1, caseId, FALSE))
                 count++;

@@ -1,19 +1,19 @@
 PokedexRating_Text_HowIsPokedexComingAlong::
 	.string "OAK: Good to see you!\n"
-	.string "How is your POKéDEX coming along?\p"
+	.string "How is your Médallium coming along?\p"
 	.string "Here, let me take a look.$"
 
 PokedexRating_Text_SeenXOwnedY::
 	.string "The amount of progress you've made\n"
-	.string "on your POKéDEX is:\p"
-	.string "{STR_VAR_1} POKéMON seen and\n"
-	.string "{STR_VAR_2} POKéMON owned.\p"
+	.string "on your Médallium is:\p"
+	.string "{STR_VAR_1} Yo-kai seen and\n"
+	.string "{STR_VAR_2} Yo-kai owned.\p"
 	.string "{FONT_NORMAL}PROF. OAK's rating:$"
 
 PokedexRating_Text_LessThan10::
 	.string "You still have lots to do.\p"
 	.string "Go into every patch of grass you\n"
-	.string "see and look for POKéMON!$"
+	.string "see and look for Yo-kai!$"
 
 PokedexRating_Text_LessThan20::
 	.string "It looks as if you're getting on\n"
@@ -22,10 +22,10 @@ PokedexRating_Text_LessThan20::
 	.string "HM. Make sure you go get it!$"
 
 PokedexRating_Text_LessThan30::
-	.string "Your POKéDEX could use a bit more\n"
+	.string "Your Médallium could use a bit more\n"
 	.string "volume still!\p"
 	.string "Try to catch other species of\n"
-	.string "POKéMON!$"
+	.string "Yo-kai!$"
 
 PokedexRating_Text_LessThan40::
 	.string "Good, it's apparent that you're\n"
@@ -34,7 +34,7 @@ PokedexRating_Text_LessThan40::
 	.string "ITEMFINDER. Be sure to collect it!$"
 
 PokedexRating_Text_LessThan50::
-	.string "Your POKéDEX is coming along quite\n"
+	.string "Your Médallium is coming along quite\n"
 	.string "well!\p"
 	.string "I've given one of my AIDES an\n"
 	.string "AMULET COIN. Be sure to get it!$"
@@ -47,12 +47,12 @@ PokedexRating_Text_LessThan60::
 
 PokedexRating_Text_LessThan70::
 	.string "Hoho! This is turning into quite the\n"
-	.string "respectable POKéDEX!$"
+	.string "respectable Médallium!$"
 
 PokedexRating_Text_LessThan80::
 	.string "Very good!\p"
 	.string "I think you'll collect even more\n"
-	.string "POKéMON by going fishing!$"
+	.string "Yo-kai by going fishing!$"
 
 PokedexRating_Text_LessThan90::
 	.string "Wonderful! Let me guess… You\n"
@@ -68,7 +68,7 @@ PokedexRating_Text_LessThan110::
 
 PokedexRating_Text_LessThan120::
 	.string "You even have the evolved forms\n"
-	.string "of POKéMON! Super!$"
+	.string "of Yo-kai! Super!$"
 
 PokedexRating_Text_LessThan130::
 	.string "Excellent! Trade with friends to\n"
@@ -80,25 +80,25 @@ PokedexRating_Text_LessThan140::
 
 PokedexRating_Text_LessThan150::
 	.string "I have nothing left to say!\n"
-	.string "You're the POKéMON PROFESSOR now!$"
+	.string "You're the Yo-kai PROFESSOR now!$"
 
 PokedexRating_Text_Complete::
-	.string "Your POKéDEX is entirely complete!\n"
+	.string "Your Médallium is entirely complete!\n"
 	.string "Congratulations!!$"
 
 PokedexRating_Text_NationalDexSeenXOwnedY::
-	.string "And your NATIONAL POKéDEX is:\p"
-	.string "{STR_VAR_1} POKéMON seen and\n"
-	.string "{STR_VAR_2} POKéMON owned.$"
+	.string "And your NATIONAL Médallium is:\p"
+	.string "{STR_VAR_1} Yo-kai seen and\n"
+	.string "{STR_VAR_2} Yo-kai owned.$"
 
 PokedexRating_Text_LookForwardToFilledNationalDex::
 	.string "I'll be looking forward to seeing\n"
-	.string "you fill the NATIONAL POKéDEX!$"
+	.string "you fill the NATIONAL Médallium!$"
 
 PokedexRating_Text_YouveCompletedDex::
 	.string "Finally…\p"
 	.string "You've finally completed the\n"
-	.string "POKéDEX!\p"
+	.string "Médallium!\p"
 	.string "It's magnificent!\n"
 	.string "Truly, this is a fantastic feat!$"
 
@@ -115,7 +115,7 @@ PokedexRating_Text_ThankYouMadeDreamReality::
 
 PokedexRating_Text_LoveSeeingYourPokedex::
 	.string "OAK: Ah, welcome!\p"
-	.string "Tell me, how is your POKéDEX\n"
+	.string "Tell me, how is your Médallium\n"
 	.string "coming along?\p"
 	.string "Wahaha!\p"
 	.string "Actually, I know how it is, but I\n"

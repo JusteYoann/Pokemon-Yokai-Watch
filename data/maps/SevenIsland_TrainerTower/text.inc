@@ -12,14 +12,14 @@ SevenIsland_TrainerTower_Text_DarioPostBattle::
 
 SevenIsland_TrainerTower_Text_RodetteIntro::
     .string "Somewhere on this island, peculiar\n"
-    .string "POKéMON are sleeping.$"
+    .string "Yo-kai are sleeping.$"
 
 SevenIsland_TrainerTower_Text_RodetteDefeat::
     .string "What an amazing TRAINER!$"
 
 SevenIsland_TrainerTower_Text_RodettePostBattle::
     .string "Somewhere on this island, peculiar\n"
-    .string "POKéMON are sleeping.\p"
+    .string "Yo-kai are sleeping.\p"
     .string "Could it be that they're waiting\n"
     .string "for you?$"
 

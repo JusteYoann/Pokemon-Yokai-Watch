@@ -1,7 +1,7 @@
 const u8 gTeachyTvString_TeachBattle[] = _("Teach me how to battle.");
 const u8 gTeachyTvString_StatusProblems[] = _("What are status problems?");
 const u8 gTeachyTvString_TypeMatchups[] = _("What are type matchups?");
-const u8 gTeachyTvString_CatchPkmn[] = _("I want to catch POKéMON.");
+const u8 gTeachyTvString_CatchPkmn[] = _("I want to catch Yo-kai.");
 const u8 gTeachyTvString_AboutTMs[] = _("Teach me about TMs.");
 const u8 gTeachyTvString_RegisterItem[] = _("How do I register an item?");
 const u8 gTeachyTvString_Cancel[] = _("CANCEL");

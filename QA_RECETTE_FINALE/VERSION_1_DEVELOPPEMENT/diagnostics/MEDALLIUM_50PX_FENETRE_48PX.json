@@ -1,0 +1,29 @@
+{
+  "passed": false,
+  "error": "('gText_MenuPokedex', 50, '7tiles minus8px cursor')",
+  "rom_sha256": "26def6af9bfacc70d32efaf00136202b58fbd42dbf850cc516415fb613986f02",
+  "scope": "Native linked labels, font widths and controller-opened interfaces; does not validate every text/window in game",
+  "results": [
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_NewGame",
+      "text": "NOUVEAU JEU",
+      "width_pixels": 66,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_Continue",
+      "text": "CONTINUER",
+      "width_pixels": 54,
+      "passed": true
+    },
+    {
+      "test": "Exact linked label/native normal font",
+      "symbol": "gText_MenuPokemon",
+      "text": "Yo-kai",
+      "width_pixels": 33,
+      "passed": true
+    }
+  ]
+}

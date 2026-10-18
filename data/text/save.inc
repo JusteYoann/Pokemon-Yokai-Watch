@@ -1,26 +1,26 @@
 gText_WouldYouLikeToSaveTheGame::
-	.string "Would you like to save the game?$"
+	.string "Veux-tu sauvegarder la partie?$"
 
 gText_AlreadySaveFile_WouldLikeToOverwrite::
-	.string "There is already a saved file.\n"
-	.string "Is it okay to overwrite it?$"
+	.string "Une sauvegarde existe déjà.\n"
+	.string "Veux-tu la remplacer?$"
 
 gText_SavingDontTurnOffThePower::
-	.string "SAVING…\n"
-	.string "DON'T TURN OFF THE POWER.$"
+	.string "Sauvegarde…\n"
+	.string "N’éteins pas la console.$"
 
 gText_PlayerSavedTheGame::
-	.string "{PLAYER} saved the game.$"
+	.string "{PLAYER} a sauvegardé la partie.$"
 
 gText_SaveFailed2::
-	.string "セーブに　しっぱい　しました‥$"
+	.string "La sauvegarde a échoué…$"
 
 gText_DifferentGameFile::
-	.string "WARNING!\p"
-	.string "There is a different game file that\n"
-	.string "is already saved.\p"
-	.string "If you save now, the other file's\n"
-	.string "adventure, including items and\l"
-	.string "POKéMON, will be entirely lost.\p"
-	.string "Are you sure you want to save now\n"
-	.string "and overwrite the other save file?$"
+	.string "Attention!\p"
+	.string "Une autre partie est déjà\n"
+	.string "enregistrée sur cette cartouche.\p"
+	.string "Si tu sauvegardes maintenant,\n"
+	.string "sa progression, ses objets et\l"
+	.string "ses Yo-kai seront perdus.\p"
+	.string "Veux-tu vraiment sauvegarder\n"
+	.string "et remplacer cette autre partie?$"

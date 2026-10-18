@@ -6,9 +6,9 @@ FuchsiaCity_SafariZone_Office_Text_NicknamedWardenSlowpoke::
 
 FuchsiaCity_SafariZone_Office_Text_WardenIsVeryKnowledgeable::
     .string "WARDEN SLOWPOKE is very\n"
-    .string "knowledgeable about POKéMON.\p"
+    .string "knowledgeable about Yo-kai.\p"
     .string "He even has some fossils of rare,\n"
-    .string "extinct POKéMON.$"
+    .string "extinct Yo-kai.$"
 
 FuchsiaCity_SafariZone_Office_Text_CouldntUnderstandWarden::
     .string "WARDEN SLOWPOKE came in, but\n"

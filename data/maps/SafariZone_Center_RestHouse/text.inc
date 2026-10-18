@@ -3,6 +3,6 @@ SafariZone_Center_Text_WhereDidErikGo::
     .string "ERIK, go?$"
 
 SafariZone_Center_Text_CatchingMonsAsGifts::
-    .string "I'm catching POKéMON to take home\n"
+    .string "I'm catching Yo-kai to take home\n"
     .string "as gifts.$"
 
