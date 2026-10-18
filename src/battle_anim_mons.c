@@ -1982,6 +1982,7 @@ u8 CreateAdditionalMonSpriteForMoveAnim(u16 species, bool8 isBackpic, u8 templat
                                personality,
                                FALSE);
     }
+    TryLoadYokaiShinyPicWithPalette(gMonSpritesGfxPtr->multiUseBuffer, species, GetMonSpritePalFromSpeciesAndPersonality(species, trainerId, personality), !isBackpic);
     RequestDma3Copy(gMonSpritesGfxPtr->multiUseBuffer, (void *)(OBJ_VRAM0 + (sheet * 0x20)), 0x800, 1);
     FREE_AND_SET_NULL(gMonSpritesGfxPtr->multiUseBuffer);
     if (!isBackpic)

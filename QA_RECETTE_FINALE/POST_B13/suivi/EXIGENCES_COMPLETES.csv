@@ -13,15 +13,15 @@ AUD-11,Audio,Anciennes musiques/doublons réellement inutiles,INVENTORIE_SANS_SU
 GRA-01,Graphismes,151 face/dos en combat,SESSION2_151_AVANT_APRES_CONTROLES,SESSION_2_GRAPHISMES/REGISTRE_151_COMBATS.csv,Contrôle final après shiny/OW ; validation artistique utilisateur distincte
 GRA-02,Graphismes,Pitou/Baku/Cigalopin face,SESSION2_151_AVANT_APRES_CONTROLES,SESSION_2_GRAPHISMES/REGISTRE_151_COMBATS.csv,Contrôle final après shiny/OW ; validation artistique utilisateur distincte
 GRA-03,Graphismes,Komasan/Komaous/Cigalopin/Nihilistik dos,SESSION2_151_AVANT_APRES_CONTROLES,SESSION_2_GRAPHISMES/REGISTRE_151_COMBATS.csv,Contrôle final après shiny/OW ; validation artistique utilisateur distincte
-GRA-04,Graphismes,151 icônes équipe/PC/autres,HARMONISEES_151_EQUIPE_ET_PC_CAPTUREES,sprites/pc-lot2/TEST_PC_151.json,Autres menus spécifiques ; finitions artistiques utilisateur
-GRA-05,Graphismes,Nathan/Katie/Matt OW et animations,RESSOURCES_LIEES_QA_VISUEL_RESTANT,CONTROLE_ROM_18_OST.json,Marche/course/vélo/surf/pêche toutes orientations
-GRA-06,Graphismes,Ariane/Usapyon,CORRIGE_ET_TEST_NATIF,audio/ariane/,Finitions stylistiques éventuelles
-GRA-07,Graphismes,Léo/Jibanyan,CORRIGE_ET_TEST_NATIF,sprites/overworld/,Deux variantes téléporteur passent
-GRA-08,Graphismes,Misterre correction limitée,CORRIGE_ET_TEST_CAPTURE,sprites/MISTERRE_CORRECTION.json,Pas de redessin global
-GRA-09,Graphismes,Lord Enma/Domniscian/employés,QA_VISUEL_RESTANT,,"Proportions, palettes, interactions"
-GRA-10,Graphismes,Don Morleone/Mafiamille,QA_VISUEL_RESTANT,,"Proportions, palettes, interactions"
-GRA-11,Graphismes,Nathaniel/Michael/Wyatt/autres OW existants,QA_VISUEL_RESTANT,,Ne pas créer caméos reportés
-GRA-12,Graphismes,Shiny familles autorisées +67 exclusions,VERROU_NATIF_TESTE_ART_RESTANT,REGRESSION_MOTEUR_MGBA.json,"Couleurs/motifs/horns Robonyan28, rendu normal/shiny"
+GRA-04,Graphismes,151 icônes équipe/PC/autres,SESSION2_151_DEUX_IMAGES_ET_PALETTES_TESTEES,SESSION_2_GRAPHISMES/icones-final/TEST_ICÔNES_151.json,151 espèces en26 menus et six boîtes ; autres interfaces particulières non exhaustives
+GRA-05,Graphismes,Nathan/Katie/Matt OW et animations,SESSION2_DEUX_JOUEURS_ANIMATIONS_TESTEES,SESSION_2_GRAPHISMES/protagonistes/TEST_PROTAGONISTES_MGBA.json,Surf représentation seulement ; Matt quatre faces contrôlées mais marche non exercée
+GRA-06,Graphismes,Ariane/Usapyon,SESSION2_GABARIT_ARIANE_CORRIGE,SESSION_2_GRAPHISMES/overworld/apres/TEST_GALERIE_MGBA.json,Quatre faces natives ; interaction Ariane non rejouée ici
+GRA-07,Graphismes,Léo/Jibanyan,SESSION2_DEUX_VARIANTES_TELEPORTEUR_TESTEES,SESSION_2_GRAPHISMES/rencontres-statiques-completes/MISTERRE_LEO_MGBA.json,Deux variantes réellement jouées avec commandes
+GRA-08,Graphismes,Misterre correction limitée,SESSION2_DEUX_EVENEMENTS_CAPTURE_TESTES,SESSION_2_GRAPHISMES/rencontres-statiques-completes/MISTERRE_LEO_MGBA.json,Graphisme déjà corrigé préservé ; aucun redessin supplémentaire
+GRA-09,Graphismes,Lord Enma/Domniscian/employés,SESSION2_QUATRE_FACES_TESTEES,SESSION_2_GRAPHISMES/overworld/apres/TEST_GALERIE_MGBA.json,Galerie temporaire objet par objet ; groupes en situation réelle non rejoués
+GRA-10,Graphismes,Don Morleone/Mafiamille,SESSION2_QUATRE_FACES_TESTEES,SESSION_2_GRAPHISMES/overworld/apres/TEST_GALERIE_MGBA.json,Galerie temporaire objet par objet ; groupes en situation réelle non rejoués
+GRA-11,Graphismes,Nathaniel/Michael/Wyatt/autres OW existants,SESSION2_QUATRE_FACES_WYATT_GABARIT_CORRIGE,SESSION_2_GRAPHISMES/overworld/apres/TEST_GALERIE_MGBA.json,Pas de création de caméo reporté ; tous les événements conditionnels non rejoués
+GRA-12,Graphismes,Shiny familles autorisées +67 exclusions,SESSION2_9_SHINY_RESTAURES_SUR84,SESSION_2_GRAPHISMES/SHINY_ETAT_SESSION2.json,67 sans statut vérifiés ;75 autres shiny autorisés restent à restaurer ou valider
 PRE-01,Presentation,Cinématique mystérieuse courte sans spoilers,IMPLEMENTEE_CAPTUREE_ASSISTANT,presentation/TEST_PRESENTATION_MGBA.json,"Évaluation artistique utilisateur ; séquence courte de fondus/captions, pas un film complexe"
 PRE-02,Presentation,Titre original sans Dracaufeu/logo Rouge Feu,IMPLEMENTE_CAPTURE,presentation/titre.png,Évaluation artistique utilisateur
 PRE-03,Presentation,Jibanyan aide initiale,IMPLEMENTE_3_PAGES_TESTEES,presentation/aide-1.png,Conserver contrôle avec autres traductions

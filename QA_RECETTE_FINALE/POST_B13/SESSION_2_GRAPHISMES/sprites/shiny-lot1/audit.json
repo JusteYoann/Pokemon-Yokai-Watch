@@ -1,0 +1,628 @@
+{
+  "rom_sha256": "24ece1e52de1c5afc4b2daa807f3dfe86f6b6f5a1955d4740c1db89a8a87bf45",
+  "stage": "shiny-lot1",
+  "species_count": 8,
+  "shiny_request": true,
+  "shiny_actual_count": 5,
+  "scope": "Native scripted wild battle fixtures, each species on player and opponent sides; no human visual approval implied; icons source-asset view, not native menu capture",
+  "species": [
+    {
+      "number": 17,
+      "name": "Robonyan",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/shiny-lot1/017.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "shiny_requested": true,
+      "shiny_actual": true,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          6,
+          60,
+          57
+        ],
+        "occupied_pixels": 1513,
+        "centroid": [
+          32.49,
+          32.19
+        ],
+        "sha256": "61ba48be87b1a2ae7d9971b701acd66df7ccb79e9947128d794d9c42d87ec416"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          3,
+          19,
+          62,
+          64
+        ],
+        "occupied_pixels": 1611,
+        "centroid": [
+          31.43,
+          43.02
+        ],
+        "sha256": "22b7be25e11e6e1ca1d9f83637cf3c22a98ed848299c3b86cfb5d8dfc31f6cf6"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          6,
+          7,
+          26,
+          57
+        ],
+        "occupied_pixels": 498,
+        "centroid": [
+          15.61,
+          31.89
+        ],
+        "sha256": "cc9130759daef63564622f3287ffd8feb1d30218ce6663f555c3d21ac57ebea2"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          47,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 18,
+      "name": "Robonyan F",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/shiny-lot1/018.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "shiny_requested": true,
+      "shiny_actual": true,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          8,
+          60,
+          55
+        ],
+        "occupied_pixels": 1456,
+        "centroid": [
+          31.85,
+          31.76
+        ],
+        "sha256": "f8ac9488ecbdc8c10b9ca871b32c1f3f4c8e05cddb6477d434b2bcd531c60f58"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          9,
+          60,
+          55
+        ],
+        "occupied_pixels": 1440,
+        "centroid": [
+          30.78,
+          32.37
+        ],
+        "sha256": "2ea24d15b3a0879015f34677e4ce860c1130f3fdbb976990eafe2ef2596b6e32"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          6,
+          8,
+          26,
+          55
+        ],
+        "occupied_pixels": 416,
+        "centroid": [
+          15.68,
+          31.79
+        ],
+        "sha256": "52a5c2baa37f546cd5b248136da911db72b5382b80d92428f36b41e9eadb9be7"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          49,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "name": "Robonyan 28",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/shiny-lot1/019.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "shiny_requested": true,
+      "shiny_actual": true,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          13,
+          60,
+          50
+        ],
+        "occupied_pixels": 1208,
+        "centroid": [
+          31.41,
+          30.46
+        ],
+        "sha256": "127ee5046e316c1f564c66ab98195950a3007c9d9be64c8685762e9e81103443"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          10,
+          60,
+          54
+        ],
+        "occupied_pixels": 1455,
+        "centroid": [
+          31.3,
+          31.14
+        ],
+        "sha256": "4c05d6224c239e24bbfccdb665fde1eed8d42695c6452bca95cd1ee45a548bc1"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          5,
+          7,
+          27,
+          56
+        ],
+        "occupied_pixels": 532,
+        "centroid": [
+          15.34,
+          31.29
+        ],
+        "sha256": "35a61b981bc69c4362e140b70354d3d6187fa5a1910af218879016f495d76e3f"
+      },
+      "back_native_artwork_matches": true,
+      "front_native_artwork_matches": true,
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          54,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 41,
+      "name": "Brumette",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/shiny-lot1/041.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "shiny_requested": true,
+      "shiny_actual": true,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          6,
+          60,
+          58
+        ],
+        "occupied_pixels": 1766,
+        "centroid": [
+          30.59,
+          31.31
+        ],
+        "sha256": "93dd6c8967d84d1db2bfd207ffae9187dbbbd585f6b83c02de952ee21a4e20a5"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          6,
+          59,
+          58
+        ],
+        "occupied_pixels": 1740,
+        "centroid": [
+          31.71,
+          31.11
+        ],
+        "sha256": "a45c346c5c7e452d2d390fa6e3275fceb5669ecca17df878db2be4f5c916a244"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          8,
+          8,
+          25,
+          56
+        ],
+        "occupied_pixels": 377,
+        "centroid": [
+          16.13,
+          31.95
+        ],
+        "sha256": "14b56db53d54261a3fdc8571120d415d091de266625263295af694a8b18d39fc"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 42,
+      "name": "Brumella",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/shiny-lot1/042.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "shiny_requested": true,
+      "shiny_actual": true,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          8,
+          60,
+          55
+        ],
+        "occupied_pixels": 1588,
+        "centroid": [
+          30.24,
+          32.92
+        ],
+        "sha256": "2fc75d3733d899d5d33f455adcb6ddd93f986c58bf39759031fedc3a71fc583f"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          6,
+          60,
+          57
+        ],
+        "occupied_pixels": 1836,
+        "centroid": [
+          31.32,
+          32.84
+        ],
+        "sha256": "4bfda10c72d9b7d74ed5b249b31499f7fd105fad3909eadf8d789e5e4919f4c1"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          6,
+          7,
+          25,
+          57
+        ],
+        "occupied_pixels": 475,
+        "centroid": [
+          15.81,
+          31.56
+        ],
+        "sha256": "201fca3bc0eedd0819af2d6ec9d4ab447405cecaf646f0e0c046405ec09fe842"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 82,
+      "name": "Noko",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/shiny-lot1/082.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "shiny_requested": true,
+      "shiny_actual": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          6,
+          60,
+          57
+        ],
+        "occupied_pixels": 1620,
+        "centroid": [
+          28.48,
+          31.48
+        ],
+        "sha256": "b55d8384ed53fc85802f752a85874e3a11fd7a7ad674b1ca8e447a02807e6ce7"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          4,
+          60,
+          60
+        ],
+        "occupied_pixels": 1903,
+        "centroid": [
+          33.08,
+          32.53
+        ],
+        "sha256": "6457e7e5bc2bf5c5c4906b420d139f7a16aa3f4d9bf191d233e2bc8a2b7cdff7"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          8,
+          8,
+          26,
+          55
+        ],
+        "occupied_pixels": 329,
+        "centroid": [
+          15.64,
+          30.78
+        ],
+        "sha256": "1e49d6e2eb121ad15bdc90d992502db133975d6bf3e644cc279f660f84ee4ca6"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 83,
+      "name": "Nénunoko",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/shiny-lot1/083.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "shiny_requested": true,
+      "shiny_actual": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          6,
+          4,
+          57,
+          60
+        ],
+        "occupied_pixels": 1782,
+        "centroid": [
+          32.8,
+          33.2
+        ],
+        "sha256": "c547d4d1b9320cf25f624b6d29146d96e42344385708c3c9b5cdf57f268fbd9b"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          8,
+          4,
+          55,
+          60
+        ],
+        "occupied_pixels": 1693,
+        "centroid": [
+          30.25,
+          32.75
+        ],
+        "sha256": "4466b24af7763fd23159ba4b6900cbec95bce1643b01889818d2c111fbfc8066"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          6,
+          6,
+          26,
+          58
+        ],
+        "occupied_pixels": 556,
+        "centroid": [
+          15.96,
+          31.67
+        ],
+        "sha256": "81997835dab2ff4c99f43b7aceacd8bf7da1e169797f73cbf247a16ce20f25cd"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 90,
+      "name": "Glapie",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/shiny-lot1/090.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "shiny_requested": true,
+      "shiny_actual": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          8,
+          60,
+          55
+        ],
+        "occupied_pixels": 1297,
+        "centroid": [
+          27.78,
+          30.35
+        ],
+        "sha256": "ac0862c01ed002ae8e22d68d31f9dd674fa1c3a67cd94ce9aba1e30b1d76d96e"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          8,
+          60,
+          56
+        ],
+        "occupied_pixels": 1402,
+        "centroid": [
+          34.55,
+          32.08
+        ],
+        "sha256": "0dc4555457a3a74796702537807bb2054d90796496018a518ebbdc2817bcf5be"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          9,
+          8,
+          26,
+          56
+        ],
+        "occupied_pixels": 299,
+        "centroid": [
+          16.1,
+          31.24
+        ],
+        "sha256": "2cfc1cd2f130b8ec6ce42e2d352086053be0f85b8c2f5aec8bf9f610f5d9aca5"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

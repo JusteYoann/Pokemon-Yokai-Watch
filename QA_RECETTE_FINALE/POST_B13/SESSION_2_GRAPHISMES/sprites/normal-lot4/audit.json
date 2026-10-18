@@ -1,0 +1,405 @@
+{
+  "rom_sha256": "60c61beaaebf5ae01f3e4b8d4c7c4b342af04cd917a03dab2f346b886596a778",
+  "stage": "normal-lot4",
+  "species_count": 5,
+  "shiny_request": false,
+  "shiny_actual_count": 0,
+  "scope": "Native scripted wild battle fixtures, each species on player and opponent sides; no human visual approval implied; icons source-asset view, not native menu capture",
+  "species": [
+    {
+      "number": 19,
+      "name": "Robonyan 28",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/normal-lot4/019.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "shiny_requested": false,
+      "shiny_actual": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          13,
+          60,
+          50
+        ],
+        "occupied_pixels": 1208,
+        "centroid": [
+          31.41,
+          30.46
+        ],
+        "sha256": "127ee5046e316c1f564c66ab98195950a3007c9d9be64c8685762e9e81103443"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          10,
+          60,
+          54
+        ],
+        "occupied_pixels": 1455,
+        "centroid": [
+          31.3,
+          31.14
+        ],
+        "sha256": "4c05d6224c239e24bbfccdb665fde1eed8d42695c6452bca95cd1ee45a548bc1"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          5,
+          7,
+          27,
+          56
+        ],
+        "occupied_pixels": 532,
+        "centroid": [
+          15.34,
+          31.29
+        ],
+        "sha256": "35a61b981bc69c4362e140b70354d3d6187fa5a1910af218879016f495d76e3f"
+      },
+      "back_native_artwork_matches": true,
+      "front_native_artwork_matches": true,
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          54,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 99,
+      "name": "Coach Antonic",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/normal-lot4/099.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "shiny_requested": false,
+      "shiny_actual": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          5,
+          60,
+          59
+        ],
+        "occupied_pixels": 1810,
+        "centroid": [
+          32.54,
+          33.45
+        ],
+        "sha256": "69dd2d6a018c02c10f281a400407952eb93642f267259cdde7bbbe48b620ec50"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          1,
+          20,
+          63,
+          64
+        ],
+        "occupied_pixels": 1638,
+        "centroid": [
+          31.64,
+          43.75
+        ],
+        "sha256": "18f3aa531ed2addaae2c3c010d452d0f505cf58c5075b1190c1ca836471de0b8"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          7,
+          7,
+          25,
+          58
+        ],
+        "occupied_pixels": 465,
+        "centroid": [
+          15.76,
+          32.07
+        ],
+        "sha256": "4080076323b08fa9a41a3390be4662eadfad1dc22e9d5e17ed44dd9288faf649"
+      },
+      "back_native_artwork_matches": true,
+      "front_native_artwork_matches": true,
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          45,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 100,
+      "name": "Usapyon",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/normal-lot4/100.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "shiny_requested": false,
+      "shiny_actual": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          12,
+          4,
+          52,
+          60
+        ],
+        "occupied_pixels": 1372,
+        "centroid": [
+          29.97,
+          32.98
+        ],
+        "sha256": "d36f3a1329ae7ec085c12c0308412ad5ee072ffd584a88784202c1c7c219cb57"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          8,
+          13,
+          59,
+          64
+        ],
+        "occupied_pixels": 1773,
+        "centroid": [
+          34.17,
+          42.46
+        ],
+        "sha256": "ac5a8f0a88ae6b31901a2c2b1c6d579d569fea9c4a6182fd0d872783b0e0fb19"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          10,
+          7,
+          22,
+          57
+        ],
+        "occupied_pixels": 333,
+        "centroid": [
+          15.52,
+          32.02
+        ],
+        "sha256": "ac8b818fafa62bd9f19ad3b89df3359550e0b8319147bf664cac89a4925ae311"
+      },
+      "back_native_artwork_matches": true,
+      "front_native_artwork_matches": true,
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 101,
+      "name": "Emperor",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/normal-lot4/101.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "shiny_requested": false,
+      "shiny_actual": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          13,
+          4,
+          51,
+          60
+        ],
+        "occupied_pixels": 1437,
+        "centroid": [
+          31.03,
+          33.71
+        ],
+        "sha256": "7977d9d41e14638328c0abcd0f4f67d8460e1f713be364b4e40d986299e2783a"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          10,
+          13,
+          53,
+          64
+        ],
+        "occupied_pixels": 1525,
+        "centroid": [
+          30.93,
+          42.43
+        ],
+        "sha256": "344015bb49a2ec21fb4f3534b2c5d66c24ef13c1f2c2c888b54df3bb6dbe583d"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          9,
+          6,
+          23,
+          58
+        ],
+        "occupied_pixels": 408,
+        "centroid": [
+          15.53,
+          32.15
+        ],
+        "sha256": "0dd1aa1cd20156a5aa272d5994ed522161614e0f0352b8d465b39c5019ddb671"
+      },
+      "back_native_artwork_matches": true,
+      "front_native_artwork_matches": true,
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 126,
+      "name": "Jojojoyeux",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/normal-lot4/126.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "shiny_requested": false,
+      "shiny_actual": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          12,
+          60,
+          51
+        ],
+        "occupied_pixels": 1235,
+        "centroid": [
+          31.44,
+          32.78
+        ],
+        "sha256": "055a65d74be765d69e8ffc65afc528549ac40f4f39be92851f498c8d467087f3"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          11,
+          60,
+          53
+        ],
+        "occupied_pixels": 1341,
+        "centroid": [
+          31.41,
+          33.45
+        ],
+        "sha256": "b754e1ecef63f528d374a94f8b41ae4bda96799e44b2f895b157720a07d4caca"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          7,
+          9,
+          25,
+          54
+        ],
+        "occupied_pixels": 295,
+        "centroid": [
+          15.48,
+          31.57
+        ],
+        "sha256": "4da54269b3d260a1ef8aa4959d6ff4819cdf5c157a70417a1085eb6dba6dafa4"
+      },
+      "back_native_artwork_matches": true,
+      "front_native_artwork_matches": true,
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

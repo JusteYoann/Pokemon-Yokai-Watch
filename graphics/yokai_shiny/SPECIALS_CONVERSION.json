@@ -1,0 +1,202 @@
+[
+  {
+    "number": 99,
+    "source": "graphics/yokai_shiny/source/specials-beach-emperor-tuxedo.png",
+    "source_sha256": "5126f979ed36dde19cc2009d10cc86be707bc3f12fec4fac24537f99e93b5817",
+    "palette_colors": 16,
+    "transparent_index": 0,
+    "normal_art_preserved": true,
+    "frames": [
+      {
+        "view": "front",
+        "crop": [
+          0,
+          0,
+          495,
+          529
+        ],
+        "alpha_bbox": [
+          27,
+          81,
+          462,
+          505
+        ],
+        "native_size": [
+          55,
+          54
+        ],
+        "baseline": 59
+      },
+      {
+        "view": "back",
+        "crop": [
+          495,
+          0,
+          991,
+          529
+        ],
+        "alpha_bbox": [
+          38,
+          92,
+          477,
+          496
+        ],
+        "native_size": [
+          56,
+          52
+        ],
+        "baseline": 57
+      }
+    ]
+  },
+  {
+    "number": 100,
+    "source": "graphics/yokai_shiny/source/specials-beach-emperor-tuxedo.png",
+    "source_sha256": "5126f979ed36dde19cc2009d10cc86be707bc3f12fec4fac24537f99e93b5817",
+    "palette_colors": 16,
+    "transparent_index": 0,
+    "normal_art_preserved": true,
+    "frames": [
+      {
+        "view": "front",
+        "crop": [
+          0,
+          529,
+          495,
+          1058
+        ],
+        "alpha_bbox": [
+          103,
+          76,
+          409,
+          514
+        ],
+        "native_size": [
+          39,
+          56
+        ],
+        "baseline": 60
+      },
+      {
+        "view": "back",
+        "crop": [
+          495,
+          529,
+          991,
+          1058
+        ],
+        "alpha_bbox": [
+          95,
+          76,
+          375,
+          511
+        ],
+        "native_size": [
+          36,
+          56
+        ],
+        "baseline": 59
+      }
+    ]
+  },
+  {
+    "number": 101,
+    "source": "graphics/yokai_shiny/source/emperor-cape.png",
+    "source_sha256": "803fd1b5cd9c370164c49abb90fe18de903621e237ef77b94ae2ebd64751f9d1",
+    "palette_colors": 16,
+    "transparent_index": 0,
+    "normal_art_preserved": true,
+    "frames": [
+      {
+        "view": "front",
+        "crop": [
+          0,
+          0,
+          887,
+          887
+        ],
+        "alpha_bbox": [
+          179,
+          57,
+          832,
+          830
+        ],
+        "native_size": [
+          47,
+          56
+        ],
+        "baseline": 60
+      },
+      {
+        "view": "back",
+        "crop": [
+          887,
+          0,
+          1774,
+          887
+        ],
+        "alpha_bbox": [
+          56,
+          57,
+          694,
+          831
+        ],
+        "native_size": [
+          46,
+          56
+        ],
+        "baseline": 60
+      }
+    ]
+  },
+  {
+    "number": 126,
+    "source": "graphics/yokai_shiny/source/specials-beach-emperor-tuxedo.png",
+    "source_sha256": "5126f979ed36dde19cc2009d10cc86be707bc3f12fec4fac24537f99e93b5817",
+    "palette_colors": 16,
+    "transparent_index": 0,
+    "normal_art_preserved": true,
+    "frames": [
+      {
+        "view": "front",
+        "crop": [
+          0,
+          1058,
+          495,
+          1588
+        ],
+        "alpha_bbox": [
+          28,
+          80,
+          462,
+          430
+        ],
+        "native_size": [
+          56,
+          45
+        ],
+        "baseline": 51
+      },
+      {
+        "view": "back",
+        "crop": [
+          495,
+          1058,
+          991,
+          1588
+        ],
+        "alpha_bbox": [
+          41,
+          81,
+          468,
+          433
+        ],
+        "native_size": [
+          56,
+          46
+        ],
+        "baseline": 53
+      }
+    ]
+  }
+]

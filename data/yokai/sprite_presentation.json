@@ -3012,6 +3012,66 @@
       "top": 7,
       "center_x": 16,
       "reason": "Icône 151: gabarit petit, boîte initiale 24×29, plafond 18px, centre de masse et deux images préservés"
+    },
+    {
+      "id": "019/shiny-back",
+      "source": "graphics/yokai_shiny/019/back.4bpp",
+      "target": "graphics/yokai_shiny/019/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 17,
+      "reason": "Shiny-only horns remain above head; normal robot back and normal palette unchanged. Native battle check required."
+    },
+    {
+      "id": "099/shiny-back",
+      "source": "graphics/yokai_shiny/099/back.4bpp",
+      "target": "graphics/yokai_shiny/099/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "top": 20,
+      "reason": "Shiny-only derived presentation, same uniform nearest scale and anchor as normal; native verification required."
+    },
+    {
+      "id": "100/shiny-front",
+      "source": "graphics/yokai_shiny/100/front.4bpp",
+      "target": "graphics/yokai_shiny/100/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 210,
+      "bottom": 58,
+      "reason": "Shiny-only derived presentation, same uniform nearest scale and anchor as normal; native verification required."
+    },
+    {
+      "id": "100/shiny-back",
+      "source": "graphics/yokai_shiny/100/back.4bpp",
+      "target": "graphics/yokai_shiny/100/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 384,
+      "top": 13,
+      "reason": "Shiny-only derived presentation, same uniform nearest scale and anchor as normal; native verification required."
+    },
+    {
+      "id": "101/shiny-back",
+      "source": "graphics/yokai_shiny/101/back.4bpp",
+      "target": "graphics/yokai_shiny/101/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 307,
+      "top": 13,
+      "reason": "Shiny-only derived presentation, same uniform nearest scale and anchor as normal; native verification required."
+    },
+    {
+      "id": "126/shiny-front",
+      "source": "graphics/yokai_shiny/126/front.4bpp",
+      "target": "graphics/yokai_shiny/126/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Shiny-only derived presentation, same uniform nearest scale and anchor as normal; native verification required."
     }
   ]
 }

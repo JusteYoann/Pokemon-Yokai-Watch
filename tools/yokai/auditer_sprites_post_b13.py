@@ -7,6 +7,9 @@ from mgba_rpc import Emulator,ROOT
 from mgba_new_game import new_game
 P=ROOT/'QA_RECETTE_FINALE/POST_B13'
 USE_DISPLAY=False
+FORCE_SHINY=False
+FAMILIES=json.loads((ROOT/'data/yokai/shiny_families.json').read_text())
+ELIGIBLE={m['number'] for f in FAMILIES['families'] if f['shiny_allowed'] for m in f['members']}
 NAMES=json.loads((ROOT/'data/yokai/noms_affiches.json').read_text())
 
 def visible(path):
@@ -35,7 +38,9 @@ def capture(stage):
  try:
   for n in NAMES:
    sid=int(n['species_id']);r.restore(base)
-   for slot in ['gPlayerParty','gEnemyParty']:r.call('CreateMon',r.symbols[slot],sid,30,31,1,100,0,0)
+   for slot in ['gPlayerParty','gEnemyParty']:r.call('CreateMon',r.symbols[slot],sid,30,31,1,0 if FORCE_SHINY else 100,1,0)
+   for slot in ['gPlayerParty','gEnemyParty']:
+    actual=bool(r.call('IsMonShiny',r.symbols[slot]));assert actual==(FORCE_SHINY and sid in ELIGIBLE),(sid,slot,'Shiny status mismatch',actual)
    r.write(r.symbols['gPlayerPartyCount'],b'\x01');r.write(r.symbols['gEnemyPartyCount'],b'\x01');r.call('SetMonMoveSlot',r.symbols['gPlayerParty'],33,0)
    r.call('StartScriptedWildBattle')
    for f in range(6000):
@@ -43,16 +48,25 @@ def capture(stage):
     if r.u32(r.symbols['gMain']+4)==r.symbols['BattleMainCB2']|1 and r.u32(r.symbols['gBattlerControllerFuncs']) in callbacks:break
    else:raise AssertionError(('battle not ready',sid))
    r.keys=set();r.run(12);r.frame.save(out/f'{sid:03d}.png')
-   row={'number':sid,'name':n['nom_yokai'],'native_capture':str((out/f'{sid:03d}.png').relative_to(ROOT)),'battle_fixture':True,'human_reviewed':False}
+   row={'number':sid,'name':n['nom_yokai'],'native_capture':str((out/f'{sid:03d}.png').relative_to(ROOT)),'battle_fixture':True,'human_reviewed':False,'shiny_requested':FORCE_SHINY,'shiny_actual':FORCE_SHINY and sid in ELIGIBLE}
    for asset in ['front','back','icon']:row[asset]=metric(ROOT/f'graphics/yokai/{sid:03d}/{asset}.png')
    positions={}
    for side,label in [(0,'back'),(1,'front')]:
     sp=r.symbols['gSprites']+68*r.read(r.symbols['gBattlerSpriteIds']+side,1)[0]
     positions[label]=list(struct.unpack('<hhhh',r.read(sp+32,8)))
+    palette='shiny' if row['shiny_actual'] else 'normal';bank=(int.from_bytes(r.read(sp+4,2),'little')>>12)&15
+    assert r.read(r.symbols['gPlttBufferUnfaded']+512+32*bank,32)==(ROOT/f'graphics/yokai/{sid:03d}/{palette}.gbapal').read_bytes(),(sid,label,'Native palette mismatch')
+    if sid in [19,99,100,101,126]:
+     folder=f'graphics/yokai_shiny/{sid:03d}' if row['shiny_actual'] else f'graphics/yokai/{sid:03d}'
+     file=ROOT/f'{folder}/{label}-display.4bpp'
+     if not file.exists():file=ROOT/f'{folder}/{label}.4bpp'
+     ptr=r.u32(r.u32(r.symbols['gMonSpritesGfxPtr'])+4+4*side)
+     assert r.read(ptr,2048)==file.read_bytes(),(sid,label,'Native artwork mismatch')
+     row[label+'_native_artwork_matches']=True
    row['native_positions_x_y_x2_y2']=positions;rows.append(row)
    if sid%15==0:print('CAPTURE',sid,flush=True)
  finally:r.close()
- report={'rom_sha256':hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),'stage':stage,'species_count':len(rows),'scope':'Native scripted wild battle fixtures, each species on player and opponent sides; no human visual approval implied; icons source-asset view, not native menu capture','species':rows}
+ report={'rom_sha256':hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),'stage':stage,'species_count':len(rows),'shiny_request':FORCE_SHINY,'shiny_actual_count':sum(x['shiny_actual'] for x in rows),'scope':'Native scripted wild battle fixtures, each species on player and opponent sides; no human visual approval implied; icons source-asset view, not native menu capture','species':rows}
  (out/'audit.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
  return report
 
@@ -65,6 +79,9 @@ def sheets(report,stage):
    x=(i%4)*272;y=(i//4)*280
    d.text((x+6,y+4),f"{n['number']:03d} {n['name']}",fill='black')
    canvas.paste(Image.open(ROOT/n['native_capture']),(x+16,y+24))
+   if FORCE_SHINY:
+    d.text((x+16,y+195),'SHINY' if n['shiny_actual'] else 'SANS STATUT SHINY',fill='black')
+    continue
    for j,asset in enumerate(['front','back','icon']):
     im=visible(ROOT/f"graphics/yokai/{n['number']:03d}/{asset}.png")
     if asset=='icon':im=im.crop((0,0,32,32)).resize((64,64),Image.Resampling.NEAREST)
@@ -76,7 +93,8 @@ def sheets(report,stage):
   canvas.save(out/f'planche-{page+1:02d}.png')
 
 if __name__=='__main__':
- a=argparse.ArgumentParser();a.add_argument('--stage',default='baseline-b13');a.add_argument('--sheets-only',action='store_true');a.add_argument('--report-root',type=Path);a.add_argument('--numbers');args=a.parse_args()
+ a=argparse.ArgumentParser();a.add_argument('--stage',default='baseline-b13');a.add_argument('--sheets-only',action='store_true');a.add_argument('--report-root',type=Path);a.add_argument('--numbers');a.add_argument('--force-shiny',action='store_true');args=a.parse_args()
+ FORCE_SHINY=args.force_shiny
  if args.report_root:P=(ROOT/args.report_root).resolve()
  if args.numbers:
   numbers=set(map(int,args.numbers.split(',')));NAMES=[n for n in NAMES if int(n['species_id']) in numbers]

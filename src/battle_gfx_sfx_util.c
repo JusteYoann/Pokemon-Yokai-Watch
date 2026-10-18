@@ -346,6 +346,7 @@ void BattleLoadOpponentMonSpriteGfx(struct Pokemon *mon, u8 battlerId)
         lzPaletteData = GetMonFrontSpritePal(mon);
     else
         lzPaletteData = GetMonSpritePalFromSpeciesAndPersonality(species, otId, monsPersonality);
+    TryLoadYokaiShinyPicWithPalette(gMonSpritesGfxPtr->sprites[position], species, lzPaletteData, GetBattlerSide(battlerId) == B_SIDE_OPPONENT);
     buffer = AllocZeroed(0x400);
     LZDecompressWram(lzPaletteData, buffer);
     LoadPalette(buffer, paletteOffset, PLTT_SIZE_4BPP);
@@ -400,6 +401,7 @@ void BattleLoadPlayerMonSpriteGfx(struct Pokemon *mon, u8 battlerId)
         lzPaletteData = GetMonFrontSpritePal(mon);
     else
         lzPaletteData = GetMonSpritePalFromSpeciesAndPersonality(species, otId, monsPersonality);
+    TryLoadYokaiShinyPicWithPalette(gMonSpritesGfxPtr->sprites[position], species, lzPaletteData, GetBattlerSide(battlerId) == B_SIDE_OPPONENT);
     buffer = AllocZeroed(0x400);
     LZDecompressWram(lzPaletteData, buffer);
     LoadPalette(buffer, paletteOffset, PLTT_SIZE_4BPP);
@@ -672,6 +674,7 @@ void HandleSpeciesGfxDataChange(u8 battlerAtk, u8 battlerDef, u8 transformType)
                                                   gMonSpritesGfxPtr->sprites[position],
                                                   targetSpecies,
                                                   personalityValue);
+        TryLoadYokaiShinyPicWithPalette(gMonSpritesGfxPtr->sprites[position], targetSpecies, GetMonSpritePalFromSpeciesAndPersonality(targetSpecies, otId, personalityValue), GetBattlerSide(battlerAtk) == B_SIDE_OPPONENT);
         src = gMonSpritesGfxPtr->sprites[position];
         dst = (void *)(VRAM + 0x10000 + gSprites[gBattlerSpriteIds[battlerAtk]].oam.tileNum * 32);
         DmaCopy32(3, src, dst, 0x800);
@@ -730,6 +733,7 @@ void HandleSpeciesGfxDataChange(u8 battlerAtk, u8 battlerDef, u8 transformType)
                                                       targetSpecies,
                                                       gTransformedPersonalities[battlerAtk]);
         }
+        TryLoadYokaiShinyPicWithPalette(gMonSpritesGfxPtr->sprites[position], targetSpecies, GetMonSpritePalFromSpeciesAndPersonality(targetSpecies, otId, personalityValue), GetBattlerSide(battlerAtk) == B_SIDE_OPPONENT);
         src = gMonSpritesGfxPtr->sprites[position];
         dst = (void *)(VRAM + 0x10000 + gSprites[gBattlerSpriteIds[battlerAtk]].oam.tileNum * 32);
         DmaCopy32(3, src, dst, 0x800);

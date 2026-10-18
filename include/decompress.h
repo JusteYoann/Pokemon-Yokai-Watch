@@ -29,6 +29,8 @@ void LoadSpecialPokePic(const struct CompressedSpriteSheet *src, void *dest, s32
 void LoadSpecialPokePic_2(const struct CompressedSpriteSheet *src, void *dest, s32 species, u32 personality, bool8 isFrontPic);
 void LoadSpecialPokePic_DontHandleDeoxys(const struct CompressedSpriteSheet *src, void *dest, s32 species, u32 personality, bool8 isFrontPic);
 
+bool8 TryLoadYokaiShinyPicWithPalette(void *dest, u16 species, const void *palette, bool8 isFrontPic);
+
 u32 GetDecompressedDataSize(const u8 *ptr);
 
 #endif // GUARD_DECOMPRESS_H

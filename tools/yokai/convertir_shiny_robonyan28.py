@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Native-format conversion of the approved original black/gold horned shiny artwork."""
+"""Archived, unintegrated draft conversion; NOT the current Session2 renderer assets."""
 import hashlib,json
 from pathlib import Path
 from PIL import Image,ImageDraw

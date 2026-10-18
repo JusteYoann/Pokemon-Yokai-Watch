@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Actual map objects, 5 static encounters/captures and original Leo teleporter.
+"""Actual map objects, 6 visible static encounters/captures and original Leo teleporter.
 
 Fixtures set progression/item access and warp; not proof of travel or full story.
 """
@@ -50,13 +50,15 @@ def capture(r,species,stem):
  b.finish(r);assert r.call('GetMonData',r.symbols['gPlayerParty']+100,b.C['MON_DATA_SPECIES'],0)==species;assert r.call('GetSetPokedexFlag',species,1)==1
  checks.append(dict(test=stem+' original map interaction, correct wild species and actual Master Ball capture into party/Medallium',species=species,passed=True))
 def statics():
- for name,old,gfx,species,slug in [('Route12','SNORLAX',169,33,'misterre-route12'),('Route16','SNORLAX',169,33,'misterre-route16')]:
+ for name,old,gfx,species,slug in [('Route12','SNORLAX',169,33,'misterre-route12'),('Route16','SNORLAX',169,33,'misterre-route16'),('PowerPlant','ZAPDOS',170,15,'octorgone'),('SeafoamIslands_B4F','ARTICUNO',171,147,'mademoaiselle'),('MtEmber_Summit','MOLTRES',155,16,'kyubi'),('CeruleanCave_B1F','MEWTWO',168,150,'enma')]:
   print('START',slug,flush=True);r=fixture()
   try:
-   objects=json.loads((ROOT/f'data/maps/{name}/map.json').read_text())['object_events'];obj=next(o for o in objects if o['graphics_id']==f'OBJ_EVENT_GFX_YOKAI_'+('MISTERRE' if species==33 else 'OCTORGONE' if species==15 else 'MADEMOAISELLE'))
+   objects=json.loads((ROOT/f'data/maps/{name}/map.json').read_text())['object_events'];obj=next(o for o in objects if o['graphics_id']==f'OBJ_EVENT_GFX_YOKAI_'+{33:'MISTERRE',15:'OCTORGONE',147:'MADEMOAISELLE',16:'KYUBI',150:'ENMA_CREATURE'}[species])
    if species==33:r.call('FlagSet',b.C['FLAG_GOT_POKE_FLUTE']);r.call('AddBagItem',b.C['ITEM_POKE_FLUTE'],1)
+   if species==150:r.call('FlagSet',b.C[re.search(r'^#define\s+FLAG_YOKAI_ENMA_WON\s+(\w+)',(ROOT/'include/constants/flags.h').read_text(),re.M).group(1)])
    r.call('ClearBag');r.call('AddBagItem',b.C['ITEM_MASTER_BALL'],1);warp(r,name,obj['x'],obj['y']+1);ptr=object_ptr(r,name,gfx);r.frame.save(P/'preuves'/f'{slug}-carte.png')
-   pal=ROOT/'graphics/yokai_characters/static_yokai'/('misterre' if species==33 else 'octorgone' if species==15 else 'mademoaiselle')/'normal.gbapal'
+   directory={33:'static_yokai/misterre',15:'static_yokai/octorgone',147:'static_yokai/mademoaiselle',16:'enma',150:'enma_creature'}[species]
+   pal=ROOT/'graphics/yokai_characters'/directory/'normal.gbapal'
    assert r.read(r.symbols['gPlttBufferUnfaded']+512+10*32,32)==pal.read_bytes()
    checks.append(dict(test=slug+' correct dedicated object and native RGB555 palette in map',object_gfx=gfx,passed=True))
    b.interact(r);capture(r,species,slug)

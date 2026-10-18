@@ -1,0 +1,40 @@
+{
+  "source_sha256": "2593c1a9f45833ad480423f3153ea5cbb9f2b00805f41286be31a1cda63fb7bc",
+  "records": [
+    {
+      "view": "front",
+      "source_crop": [
+        26,
+        146,
+        865,
+        738
+      ],
+      "target_bbox": [
+        4,
+        10,
+        60,
+        50
+      ],
+      "visible_pixels": 1450
+    },
+    {
+      "view": "back",
+      "source_crop": [
+        23,
+        146,
+        860,
+        741
+      ],
+      "target_bbox": [
+        4,
+        14,
+        60,
+        54
+      ],
+      "visible_pixels": 1430
+    }
+  ],
+  "palette_colors": 16,
+  "transparent_index": 0,
+  "normal_art_untouched": true
+}

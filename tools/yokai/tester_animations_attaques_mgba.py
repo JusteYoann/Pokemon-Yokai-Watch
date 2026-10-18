@@ -5,18 +5,20 @@ Prepared mons/battle and direct DoMoveAnim/callback calls are explicit fixtures.
 No ROM patch, no rewrite of animations, no claim of whole-battle effects/hardware.
 Snapshots isolate each animation; no savedata is read/written between restores.
 """
-import argparse,hashlib,json,struct,subprocess
+import argparse,hashlib,json,struct,subprocess,os
 from pathlib import Path
 from PIL import Image
-from mgba_rpc import Emulator,ROOT
+from mgba_rpc import ROOT
+from mgba_new_game import new_game
 import tester_cameos_boss_mgba as b
-P=ROOT/'QA_RECETTE_FINALE/ANIMATIONS_ATTAQUES';P.mkdir(exist_ok=True);(P/'preuves').mkdir(exist_ok=True)
+P=ROOT/os.environ.get('YOKAI_ANIMATION_REPORT_DIR','QA_RECETTE_FINALE/ANIMATIONS_ATTAQUES');P.mkdir(parents=True,exist_ok=True);(P/'preuves').mkdir(exist_ok=True)
 PAIRS=[(1,33),(15,147),(150,19),(114,84),(86,100),(98,127)]
 SPECIAL={106,107,151,211,232,293,334}
 TWO_TURN={13,19,76,91,130,143,291,340}
-rows=[];errors=[]
+rows=[];errors=[];ROM_SHA256=None
 def setup(pair,shiny):
- r=Emulator();r.call('SetSaveBlocksPointers');r.call('Sav2_ClearSetDefault');r.call('CB2_NewGame');r.run(180)
+ global ROM_SHA256
+ r=new_game();ROM_SHA256=hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest()
  r.write(r.u32(r.symbols['gSaveBlock2Ptr']),bytes(b.glyphs[c] for c in 'Test')+b'\xff')
  for symbol,species in [('gPlayerParty',pair[0]),('gEnemyParty',pair[1])]:
   r.call('CreateMon',r.symbols[symbol],species,50,31,1,0 if shiny else 100,1,0)
@@ -82,7 +84,9 @@ def run(moves):
    finally:r.close()
   print('PAIR COMPLETE',pair,flush=True)
 if __name__=='__main__':
- parser=argparse.ArgumentParser();parser.add_argument('--moves',default='all');args=parser.parse_args();moves=list(range(1,355)) if args.moves=='all' else [int(x) for x in args.moves.split(',')];fatal=None
+ parser=argparse.ArgumentParser();parser.add_argument('--moves',default='all');parser.add_argument('--pairs',help='Rendering fixture species pairs, e.g.19:19');args=parser.parse_args();
+ if args.pairs:PAIRS=[tuple(map(int,p.split(':'))) for p in args.pairs.split(',')]
+ moves=list(range(1,355)) if args.moves=='all' else [int(x) for x in args.moves.split(',')];fatal=None
  try:run(moves)
  except BaseException as e:fatal=type(e).__name__+': '+str(e);raise
  finally:
@@ -91,5 +95,5 @@ if __name__=='__main__':
   unexpected_palette_changes=[row for row in rows if not row['battler_palettes_restored'] and row['move'] not in [144,164]]
   unexpected_tile_changes=[row for row in rows if not row['battler_tile_bytes_unchanged'] and row['move'] not in [144,164]]
   passed=not errors and fatal is None and len(rows)==expected_cases and not unexpected_palette_changes and not unexpected_tile_changes
-  report=dict(passed=passed,fatal=fatal,errors=errors,rom_sha256=hashlib.sha256((ROOT/'pokefirered.gba').read_bytes()).hexdigest(),scope='Actual GBA native animation scripts/callbacks and rendering in mGBA; seeded battle/DoMoveAnim/snapshots, not actual move effects/AI, full adventure or physical hardware',moves_requested=moves,distinct_moves_completed=sorted({r['move'] for r in rows}),cases=len(rows),expected_cases=expected_cases,unexpected_palette_changes=unexpected_palette_changes,unexpected_tile_changes=unexpected_tile_changes,expected_persistent_graphic_changes=[144,164],visual_validation_complete=False,results=rows)
+  report=dict(passed=passed,fatal=fatal,errors=errors,rom_sha256=ROM_SHA256,scope='Actual GBA native animation scripts/callbacks and rendering in mGBA; seeded battle/DoMoveAnim/snapshots, not actual move effects/AI, full adventure or physical hardware',moves_requested=moves,distinct_moves_completed=sorted({r['move'] for r in rows}),cases=len(rows),expected_cases=expected_cases,unexpected_palette_changes=unexpected_palette_changes,unexpected_tile_changes=unexpected_tile_changes,expected_persistent_graphic_changes=[144,164],visual_validation_complete=False,results=rows)
   (P/'TEST_MGBA.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(dict(passed=passed,fatal=fatal,errors=len(errors),cases=len(rows))),flush=True)

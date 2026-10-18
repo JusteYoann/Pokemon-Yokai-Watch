@@ -4157,6 +4157,7 @@ static void CreateJumpMonSprite(struct PokemonJumpGfx *jumpGfx, struct PokemonJu
             monInfo->species,
             monInfo->personality);
 
+        TryLoadYokaiShinyPicWithPalette(buffer, monInfo->species, GetMonSpritePalFromSpeciesAndPersonality(monInfo->species, monInfo->otId, monInfo->personality), TRUE);
         spriteSheet.data = buffer;
         spriteSheet.tag = multiplayerId;
         spriteSheet.size = MON_PIC_SIZE;

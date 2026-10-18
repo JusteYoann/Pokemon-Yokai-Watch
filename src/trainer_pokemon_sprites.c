@@ -40,7 +40,7 @@ bool16 ResetAllPicSprites(void)
     return FALSE;
 }
 
-static bool16 DecompressPic(u16 species, u32 personality, bool8 isFrontPic, u8 *dest, bool8 isTrainer, bool8 ignoreDeoxys)
+static bool16 DecompressPic(u16 species, u32 otId, u32 personality, bool8 isFrontPic, u8 *dest, bool8 isTrainer, bool8 ignoreDeoxys)
 {
     if (!isTrainer)
     {
@@ -66,12 +66,14 @@ static bool16 DecompressPic(u16 species, u32 personality, bool8 isFrontPic, u8 *
         else
             DecompressPicFromTable(&gTrainerBackPicTable[species], dest, species);
     }
+    if (!isTrainer)
+        TryLoadYokaiShinyPicWithPalette(dest, species, GetMonSpritePalFromSpeciesAndPersonality(species, otId, personality), isFrontPic);
     return FALSE;
 }
 
-static bool16 DecompressPic_HandleDeoxys(u16 species, u32 personality, bool8 isFrontPic, u8 *dest, bool8 isTrainer)
+static bool16 DecompressPic_HandleDeoxys(u16 species, u32 otId, u32 personality, bool8 isFrontPic, u8 *dest, bool8 isTrainer)
 {
-    return DecompressPic(species, personality, isFrontPic, dest, isTrainer, FALSE);
+    return DecompressPic(species, otId, personality, isFrontPic, dest, isTrainer, FALSE);
 }
 
 void LoadPicPaletteByTagOrSlot(u16 species, u32 otId, u32 personality, u8 paletteSlot, u16 paletteTag, bool8 isTrainer)
@@ -146,7 +148,7 @@ u16 CreatePicSprite(u16 species, u32 otId, u32 personality, bool8 isFrontPic, s1
         Free(framePics);
         return 0xFFFF;
     }
-    if (DecompressPic(species, personality, isFrontPic, framePics, isTrainer, ignoreDeoxys))
+    if (DecompressPic(species, otId, personality, isFrontPic, framePics, isTrainer, ignoreDeoxys))
     {
         // debug trap?
         return 0xFFFF;
@@ -206,7 +208,7 @@ u16 FreeAndDestroyPicSpriteInternal(u16 spriteId)
 
 static u16 LoadPicSpriteInWindow(u16 species, u32 otId, u32 personality, bool8 isFrontPic, u8 paletteSlot, u8 windowId, bool8 isTrainer)
 {
-    if (DecompressPic_HandleDeoxys(species, personality, isFrontPic, (u8 *)GetWindowAttribute(windowId, WINDOW_TILE_DATA), FALSE))
+    if (DecompressPic_HandleDeoxys(species, otId, personality, isFrontPic, (u8 *)GetWindowAttribute(windowId, WINDOW_TILE_DATA), FALSE))
         return 0xFFFF;
 
     LoadPicPaletteBySlot(species, otId, personality, paletteSlot, isTrainer);
@@ -218,7 +220,7 @@ u16 CreateTrainerCardSprite(u16 species, u32 otId, u32 personality, bool8 isFron
     u8 *framePics;
 
     framePics = Alloc(4 * 0x800);
-    if (framePics && !DecompressPic_HandleDeoxys(species, personality, isFrontPic, framePics, isTrainer))
+    if (framePics && !DecompressPic_HandleDeoxys(species, otId, personality, isFrontPic, framePics, isTrainer))
     {
         BlitBitmapRectToWindow(windowId, framePics, 0, 0, 0x40, 0x40, destX, destY, 0x40, 0x40);
         LoadPicPaletteBySlot(species, otId, personality, paletteSlot, isTrainer);

@@ -672,6 +672,7 @@ void PSA_CreateMonSpriteAtCloseness(u8 closeness)
     if (monPicBuffer != NULL && unusedBuffer != NULL && monPalBuffer != NULL)
     {
         HandleLoadSpecialPokePic(&gMonFrontPicTable[species], monPicBuffer, species, personality);
+        TryLoadYokaiShinyPicWithPalette(monPicBuffer, species, GetMonFrontSpritePal(pokemon), TRUE);
         LZ77UnCompWram(GetMonFrontSpritePal(pokemon), monPalBuffer);
         LoadMonSpriteGraphics(monPicBuffer, monPalBuffer);
         spriteId = CreateSprite(&sSpriteTemplate_MonSprite, 120, scene->monSpriteY1, 4);

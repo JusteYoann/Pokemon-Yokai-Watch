@@ -74,7 +74,7 @@ struct {
     /*0x00*/ struct Pokemon tempMon; // Used as a temp variable when swapping Pokémon
     /*0x64*/ u32 timer;
     /*0x68*/ u32 monPersonalities[2];
-    /*0x70*/ u8 filler_70[2];
+    /*0x70*/ bool8 monIsShiny[2]; // Preserve palette choice across the party-data swap.
     /*0x72*/ u8 playerFinishStatus;
     /*0x73*/ u8 partnerFinishStatus;
     /*0x74*/ u16 linkData[10];
@@ -762,7 +762,9 @@ static void LoadTradeMonPic(u8 whichParty, u8 state)
         else
             HandleLoadSpecialPokePic_DontHandleDeoxys(&gMonFrontPicTable[species], gMonSpritesGfxPtr->sprites[whichParty * 2 + 1], species, personality);
 
+        TryLoadYokaiShinyPicWithPalette(gMonSpritesGfxPtr->sprites[whichParty == TRADE_PLAYER ? 1 : whichParty * 2 + 1], species, GetMonSpritePalStruct(mon)->data, TRUE);
         LoadCompressedSpritePalette(GetMonSpritePalStruct(mon));
+        sTradeAnim->monIsShiny[whichParty] = GetMonSpritePalStruct(mon)->data == gMonShinyPaletteTable[species].data;
         sTradeAnim->monSpecies[whichParty] = species;
         sTradeAnim->monPersonalities[whichParty] = personality;
         break;
@@ -1708,6 +1710,7 @@ static bool8 DoTradeAnim_Cable(void)
                                       gMonSpritesGfxPtr->sprites[B_POSITION_OPPONENT_RIGHT],
                                       sTradeAnim->monSpecies[TRADE_PARTNER],
                                       sTradeAnim->monPersonalities[TRADE_PARTNER]);
+            TryLoadYokaiShinyPicWithPalette(gMonSpritesGfxPtr->sprites[B_POSITION_OPPONENT_RIGHT], sTradeAnim->monSpecies[TRADE_PARTNER], sTradeAnim->monIsShiny[TRADE_PARTNER] ? gMonShinyPaletteTable[sTradeAnim->monSpecies[TRADE_PARTNER]].data : gMonPaletteTable[sTradeAnim->monSpecies[TRADE_PARTNER]].data, TRUE);
             sTradeAnim->state++;
         }
         break;
@@ -2208,6 +2211,7 @@ static bool8 DoTradeAnim_Wireless(void)
                                      gMonSpritesGfxPtr->sprites[B_POSITION_OPPONENT_RIGHT],
                                      sTradeAnim->monSpecies[TRADE_PARTNER],
                                      sTradeAnim->monPersonalities[TRADE_PARTNER]);
+            TryLoadYokaiShinyPicWithPalette(gMonSpritesGfxPtr->sprites[B_POSITION_OPPONENT_RIGHT], sTradeAnim->monSpecies[TRADE_PARTNER], sTradeAnim->monIsShiny[TRADE_PARTNER] ? gMonShinyPaletteTable[sTradeAnim->monSpecies[TRADE_PARTNER]].data : gMonPaletteTable[sTradeAnim->monSpecies[TRADE_PARTNER]].data, TRUE);
             sTradeAnim->state++;
         }
         break;
