@@ -1,0 +1,36 @@
+{
+  "profiles": [
+    {
+      "id": "overworld/ariane",
+      "source": "graphics/yokai_characters/ariane/overworld.4bpp",
+      "target": "graphics/yokai_characters/ariane/overworld-display.4bpp",
+      "frame_width": 16,
+      "frame_height": 32,
+      "scale_q8": 218,
+      "bottom": 31,
+      "reason": "Session2 : hauteur visible22–23px, référence Red19px et PNJ RougeFeu ; toutes les poses, silhouettes et palettes source préservées."
+    },
+    {
+      "id": "overworld/matt",
+      "source": "graphics/yokai_characters/matt/overworld.4bpp",
+      "target": "graphics/yokai_characters/matt/overworld-display.4bpp",
+      "frame_width": 16,
+      "frame_height": 32,
+      "scale_q8": 235,
+      "bottom": 31,
+      "reason": "Session2 : hauteur visible22–23px, référence Red19px et PNJ RougeFeu ; toutes les poses, silhouettes et palettes source préservées."
+    },
+    {
+      "id": "overworld/wyatt",
+      "source": "graphics/yokai_characters/wyatt/overworld.4bpp",
+      "target": "graphics/yokai_characters/wyatt/overworld-display.4bpp",
+      "frame_width": 16,
+      "frame_height": 32,
+      "scale_q8": 235,
+      "bottom": 31,
+      "reason": "Session2 : hauteur visible22–23px, référence Red19px et PNJ RougeFeu ; toutes les poses, silhouettes et palettes source préservées."
+    }
+  ],
+  "unchanged_protagonists": "Nathan/Katie20px vsRed19px : pas de redessin ou agrandissement arbitraire.",
+  "large_creatures": "Domniscian, autres grands Yo-kai et rencontres statiques évalués séparément des humains."
+}

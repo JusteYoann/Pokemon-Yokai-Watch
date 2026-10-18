@@ -104,7 +104,7 @@ const u16 gObjectEventPic_GymGuy[] = INCBIN_U16("graphics/object_events/pics/peo
 const u16 gObjectEventPic_Man[] = INCBIN_U16("graphics/object_events/pics/people/man.4bpp");
 const u16 gObjectEventPic_Rocker[] = INCBIN_U16("graphics/object_events/pics/people/rocker.4bpp");
 const u16 gObjectEventPic_ProfOak[] = INCBIN_U16("graphics/object_events/pics/people/prof_oak.4bpp");
-const u16 gObjectEventPic_Blue[] = INCBIN_U16("graphics/yokai_characters/matt/overworld.4bpp");
+const u16 gObjectEventPic_Blue[] = INCBIN_U16("graphics/yokai_characters/matt/overworld-display.4bpp");
 const u16 gObjectEventPic_Nurse[] = INCBIN_U16("graphics/object_events/pics/people/nurse.4bpp");
 const u16 gObjectEventPic_CableClubReceptionist[] = INCBIN_U16("graphics/object_events/pics/people/cable_club_receptionist.4bpp");
 const u16 gObjectEventPic_UnionRoomReceptionist[] = INCBIN_U16("graphics/object_events/pics/people/union_room_receptionist.4bpp");
@@ -234,7 +234,7 @@ const u16 gFieldEffectObjectPic_Bird[] = INCBIN_U16("graphics/field_effects/pics
 const u16 gObjectEventPal_Matt[] = INCBIN_U16("graphics/yokai_characters/matt/normal.gbapal");
 
 const u16 gObjectEventPal_Ariane[] = INCBIN_U16("graphics/yokai_characters/ariane/normal.gbapal");
-const u16 gObjectEventPic_Ariane[] = INCBIN_U16("graphics/yokai_characters/ariane/overworld.4bpp");
+const u16 gObjectEventPic_Ariane[] = INCBIN_U16("graphics/yokai_characters/ariane/overworld-display.4bpp");
 const u16 gObjectEventPic_UsapionCameo[] = INCBIN_U16("graphics/yokai_characters/ariane/usapion_overworld-display.4bpp");
 
 const u16 gObjectEventPal_YokaiEnma[] = INCBIN_U16("graphics/yokai_characters/enma/normal.gbapal");
@@ -250,7 +250,7 @@ const u16 gObjectEventPal_YokaiMichael[] = INCBIN_U16("graphics/yokai_characters
 const u16 gObjectEventPic_YokaiMichael[] = INCBIN_U16("graphics/yokai_characters/michael/overworld.4bpp");
 
 const u16 gObjectEventPal_YokaiWyatt[] = INCBIN_U16("graphics/yokai_characters/wyatt/normal.gbapal");
-const u16 gObjectEventPic_YokaiWyatt[] = INCBIN_U16("graphics/yokai_characters/wyatt/overworld.4bpp");
+const u16 gObjectEventPic_YokaiWyatt[] = INCBIN_U16("graphics/yokai_characters/wyatt/overworld-display.4bpp");
 
 const u16 gObjectEventPic_YokaiDomniscian[] = INCBIN_U16("graphics/yokai_characters/domniscian/overworld.4bpp");
 

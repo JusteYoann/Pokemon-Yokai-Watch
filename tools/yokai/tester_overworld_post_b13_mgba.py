@@ -9,7 +9,7 @@ from mgba_rpc import Emulator,ROOT
 from mgba_new_game import new_game
 import tester_cameos_boss_mgba as b
 G=json.loads((ROOT/'data/maps/map_groups.json').read_text());MAPS={name:(i,j) for i,key in enumerate(G['group_order']) for j,name in enumerate(G[key])}
-P=ROOT/'QA_RECETTE_FINALE/POST_B13/sprites/overworld';P.mkdir(parents=True,exist_ok=True);(P/'preuves').mkdir(exist_ok=True);checks=[]
+P=ROOT/os.environ.get('YOKAI_STATIC_REPORT_DIR','QA_RECETTE_FINALE/POST_B13/sprites/overworld');P.mkdir(parents=True,exist_ok=True);(P/'preuves').mkdir(exist_ok=True);checks=[]
 def warp(r,name,x,y):
  g,n=MAPS[name];r.keys=set();r.call('SetWarpDestination',g,n,255,x,y);r.call('WarpIntoMap');r.call('SetMainCallback2',r.symbols['CB2_LoadMap']|1)
  for f in range(1800):

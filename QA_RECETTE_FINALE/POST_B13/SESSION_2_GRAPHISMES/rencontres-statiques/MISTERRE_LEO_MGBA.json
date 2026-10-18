@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "34c203761b5777f539938ffbcdd5c2e846de38d64e7f75f758b4585ae8b0792d",
+  "scope": "Native objects/interactions/captures, warp/progression/item fixtures; not whole adventure",
+  "results": [
+    {
+      "test": "misterre-route12 correct dedicated object and native RGB555 palette in map",
+      "object_gfx": 169,
+      "passed": true
+    },
+    {
+      "test": "misterre-route12 original map interaction, correct wild species and actual Master Ball capture into party/Medallium",
+      "species": 33,
+      "passed": true
+    },
+    {
+      "test": "misterre-route16 correct dedicated object and native RGB555 palette in map",
+      "object_gfx": 169,
+      "passed": true
+    },
+    {
+      "test": "misterre-route16 original map interaction, correct wild species and actual Master Ball capture into party/Medallium",
+      "species": 33,
+      "passed": true
+    },
+    {
+      "test": "Leo/Jibanyan original walking/teleporter and restoration, actual room controls",
+      "gender": 0,
+      "passed": true
+    },
+    {
+      "test": "Leo/Jibanyan original walking/teleporter and restoration, actual room controls",
+      "gender": 1,
+      "passed": true
+    }
+  ]
+}

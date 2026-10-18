@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """All151 actual PC-box icons, with explicit populated-box and native-menu fixtures."""
-import hashlib,json
+import hashlib,json,os
 from PIL import Image,ImageDraw
 from mgba_rpc import ROOT
 from mgba_new_game import new_game
-P=ROOT/'QA_RECETTE_FINALE/POST_B13/sprites/pc-lot2';P.mkdir(parents=True,exist_ok=True);r=new_game();checks=[];passed=False;error='Interrupted'
+P=ROOT/os.environ.get('YOKAI_PC_REPORT_DIR','QA_RECETTE_FINALE/POST_B13/sprites/pc-lot2');P.mkdir(parents=True,exist_ok=True);r=new_game();checks=[];passed=False;error='Interrupted'
 try:
  r.call('CreateMon',r.symbols['gPlayerParty'],1,30,31,1,100,1,0);r.write(r.symbols['gPlayerPartyCount'],b'\x01')
  for n in range(1,152):

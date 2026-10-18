@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Native player-actor animation fixtures for both genders; not a full playthrough."""
-import hashlib,json,re,subprocess
+import hashlib,json,re,subprocess,os
 from PIL import Image
-from mgba_rpc import Emulator,ROOT
-P=ROOT/'QA_RECETTE_FINALE/RECONSTRUCTION/preuves';P.mkdir(exist_ok=True)
+from mgba_rpc import ROOT
+from mgba_new_game import new_game
+REPORT=ROOT/os.environ.get('YOKAI_PROTAGONISTS_REPORT_DIR','QA_RECETTE_FINALE/RECONSTRUCTION')
+P=REPORT/'preuves';P.mkdir(parents=True,exist_ok=True)
 C={}
 for f in ['event_objects','opponents']:
  C.update({k:int(v) for k,v in re.findall(r'^#define\s+(\w+)\s+(\d+)\s*$',(ROOT/f'include/constants/{f}.h').read_text(),re.M)})
@@ -30,9 +32,8 @@ def warp(r,group,num,x,y):
  else:raise AssertionError('Field load did not complete')
  r.run(120)
 for gender,person,prefix in [(0,'nathan','RED'),(1,'katie','GREEN')]:
- r=Emulator()
+ r=new_game(gender)
  try:
-  r.call('SetSaveBlocksPointers');r.call('Sav2_ClearSetDefault');r.call('CB2_NewGame');r.run(180)
   sav=r.u32(r.symbols['gSaveBlock2Ptr']);name=bytes(glyphs[c] for c in 'Test')+b'\xff'
   r.write(sav,name);r.write(sav+8,bytes([gender]))
   r.call('CreateMon',r.symbols['gPlayerParty'],1,30,31,1,100,0,0);r.write(r.symbols['gPlayerPartyCount'],b'\x01')
@@ -85,8 +86,18 @@ for gender,person,prefix in [(0,'nathan','RED'),(1,'katie','GREEN')]:
    assert graphic()==C['OBJ_EVENT_GFX_'+prefix+'_NORMAL'],(person,label,'fishing did not return')
    assert r.call('FindTaskIdByFunc',r.symbols['Task_Fishing']|1)==255,(person,label,'Fishing task still active')
    r.keys=set();r.run(90);gif(movie,person+'-peche-'+label)
+  # Native surf graphics/poses in an isolated rendering fixture. This does not
+  # claim HM access, shoreline collision or a real water-route traversal.
+  r.call('SetPlayerAvatarTransitionFlags',8);r.run(30)
+  assert graphic()==C['OBJ_EVENT_GFX_'+prefix+'_SURF'],(person,'surf',graphic())
+  surf=[]
+  for direction in [1,2,3,4]:
+   r.call('ObjectEventTurn',obj(),direction);surf+=capture(r,person,40)
+  gif(surf,person+'-surf-quatre-directions')
+  r.call('SetPlayerAvatarTransitionFlags',1);r.run(30)
+  assert graphic()==C['OBJ_EVENT_GFX_'+prefix+'_NORMAL']
   assert r.read(r.u32(r.symbols['gSaveBlock2Ptr']),len(name))==name
-  results.append({'person':person,'test':'Native player actor, three four-direction walk/run cycles, bicycle cycles, field/watch and VS Seeker animations, actual fishing task in four directions and return to normal','custom_fixture_name_preserved':True,'passed':True})
+  results.append({'person':person,'test':'Native player actor, three four-direction walk/run cycles, bicycle cycles, field/watch and VS Seeker animations, actual fishing task in four directions and return to normal; native surf graphics/four facings/return in rendering fixture (not HM progression or water traversal)','custom_fixture_name_preserved':True,'passed':True})
   r.w32(r.symbols['gTrainerBattleOpponent_A'],C['TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER'])
   r.call('StartTrainerBattle');r.run(401);r.frame.save(P/(person+'-combat-dos.png'));movie=[]
   for f in range(1500):
@@ -95,6 +106,6 @@ for gender,person,prefix in [(0,'nathan','RED'),(1,'katie','GREEN')]:
   gif(movie,person+'-lancer-combat')
   results.append({'person':person,'test':'Actual trainer battle entry and back-throw animation captured; battle not completed','passed':True})
  finally:r.close()
-report={'engine':'mGBA libretro','rom_sha256':hashlib.sha256((ROOT/'pokefirered.gba').read_bytes()).hexdigest(),'scope':'Native animation fixtures on Dojo map with defeated original trainers; gender and custom name assigned in fixture, not via intro UI; existing battle entry, not a complete story run','results':results,'remaining':['Opposite protagonist cameo events','Complete adventure']}
-(ROOT/'QA_RECETTE_FINALE/RECONSTRUCTION/TEST_PROTAGONISTES_MGBA.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+report={'engine':'mGBA libretro','rom_sha256':hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),'scope':'Native animation fixtures on Dojo map with defeated original trainers; gender and custom name assigned in fixture, not via intro UI; existing battle entry, not a complete story run','results':results,'remaining':['Opposite protagonist cameo events','Complete adventure']}
+(REPORT/'TEST_PROTAGONISTES_MGBA.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))

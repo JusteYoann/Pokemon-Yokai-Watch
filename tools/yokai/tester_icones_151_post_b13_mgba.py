@@ -5,7 +5,7 @@ from PIL import Image,ImageDraw
 from mgba_rpc import ROOT
 from mgba_new_game import new_game
 P=ROOT/os.environ.get('YOKAI_ICONS_REPORT_DIR','QA_RECETTE_FINALE/POST_B13/sprites/icones-menu');P.mkdir(parents=True,exist_ok=True)
-r=new_game();r.call('FlagSet',0x828);r.call('FlagSet',0x829);base=r.snapshot();checks=[]
+r=new_game();r.call('FlagSet',0x828);r.call('FlagSet',0x829);base=r.snapshot();checks=[];animations=[]
 def pulse(key,after=60):
  r.keys=set();r.run(6);r.keys={key};r.run(8);r.keys=set();r.run(after)
 try:
@@ -19,6 +19,24 @@ try:
   assert r.read(r.symbols['sStartMenuCursorPos'],1)[0]==index
   pulse(8,600);assert r.u32(r.symbols['gMain']+4)!=r.symbols['CB2_Overworld']|1
   r.frame.save(P/f'groupe-{start:03d}.png')
+  if os.environ.get('YOKAI_ICON_ANIMATION_CHECK'):
+   sprites=[]
+   for i,species in enumerate(ids):
+    sid=r.read(r.u32(r.symbols['sPartyMenuBoxes'])+16*i+9,1)[0];sp=r.symbols['gSprites']+68*sid
+    source=r.u32(r.symbols['gMonIconTable']+4*species);expected=[r.read(source,512),r.read(source+512,512)]
+    assert expected[0]!=expected[1],(species,'Animation collapsed')
+    tile=r.u32(sp+4)&1023;bank=(r.u32(sp+4)>>12)&15
+    palindex=r.read(r.symbols['gMonIconPaletteIndices']+species,1)[0]
+    pal=r.u32(r.symbols['gMonIconPaletteTable']+8*palindex)
+    assert r.read(r.symbols['gPlttBufferUnfaded']+512+bank*32,32)==r.read(pal,32),(species,'Native icon palette mismatch')
+    sprites.append((species,0x06010000+32*tile,expected,set()))
+   for frame in range(48):
+    r.run()
+    for species,vram,expected,seen in sprites:
+     data=r.read(vram,512);assert data in expected,(species,'Corrupt native icon tiles');seen.add(expected.index(data))
+   for species,vram,expected,seen in sprites:
+    assert seen=={0,1},(species,'Two native frames not observed',seen)
+    animations.append(dict(species=species,native_frames_observed=sorted(seen),palette_matches=True,no_corruption=True))
   checks.append({'species':ids,'native_party_menu_opened':True,'screenshot':str((P/f'groupe-{start:03d}.png').relative_to(ROOT))})
   print('PARTY ICONS',ids,flush=True)
 finally:r.close()
@@ -38,4 +56,4 @@ if len(checks)>24:
   canvas.paste(Image.open(ROOT/row['screenshot']).resize((480,320),Image.Resampling.NEAREST),(i*500+4,24))
  canvas.save(P/'planche-menu-04.png')
 assert [n for c in checks for n in c['species']]==list(range(1,152))
-(P/'TEST_ICÔNES_151.json').write_text(json.dumps({'passed':True,'rom_sha256':hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),'species_count':151,'scope':'Real new game then explicit party fixtures; actual party menu via controller. Screenshots for all species; no full PC-menu coverage or human approval implied','groups':checks},ensure_ascii=False,indent=2)+'\n')
+(P/'TEST_ICÔNES_151.json').write_text(json.dumps({'passed':True,'rom_sha256':hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),'species_count':151,'scope':'Real new game then explicit party fixtures; actual party menu via controller. Optional48-frame native VRAM and palette verification for all151; no human approval implied','groups':checks,'animations':animations},ensure_ascii=False,indent=2)+'\n')

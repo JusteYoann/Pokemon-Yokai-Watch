@@ -19,3 +19,15 @@ Les11 images de `REFERENCES_SESSION_2.rar` ont été ouvertes et examinées. Voi
 ## Suite de cette session
 
 Vérifier les151 icônes dans les interfaces, les personnages et événements overworld, puis corriger les shiny autorisés et les cornes de Robonyan28. Conserver les67 exclusions. Compiler et contrôler tous les changements avant le bilan final, sans modification audio, de traduction ou de gameplay.
+
+## Deuxième lot : icônes et overworld
+
+Les151 icônes ont été affichées dans26 menus réels et six boîtes PC. Un contrôle de48 images par groupe compare les tuiles VRAM aux deux images originales dérivées et les palettes réellement chargées :151 animations sur151 passent. Les planches `pc/` montrent le premier contrôle ; `pc-final/` montre la correction des largeurs après cette comparaison. Les plafonds individuels sont maintenant18/20/22 pixels sur les deux axes, dans des cases espacées de24 pixels. Les fichiers PNG originaux et leurs couleurs restent inchangés. `icones-final/` contient le contrôle après correction.
+
+Correction technique : les trois anciennes entrées de palettes d’icônes3–5 pointaient au-delà des trois tableaux disponibles. Elles réutilisent maintenant explicitement les trois palettes valides. Les indices des151 espèces restent0–2.
+
+Ariane, Matt et Wyatt ont reçu un réglage individuel de présentation ; les autres silhouettes existantes sont préservées. `overworld/avant/` et `overworld/apres/` présentent22 objets natifs dans les quatre orientations. Un premier placement du banc de test cachait les acteurs derrière un toit : ces images ont été rejetées et les captures finales proviennent d’un terrain dégagé. Ce banc temporaire ne modifie aucune carte ni aucun événement.
+
+`protagonistes/` vérifie Nathan et Katie : marche, course, vélo, Cherch’VS, action de terrain, pêche dans quatre directions avec retour normal, affichage Surf et lancer en entrée de combat. Surf est ici un contrôle de représentation, pas un parcours réel sur l’eau ni une validation des conditions de CS. `rencontres-statiques/` confirme les deux événements Misterre, avec interaction et capture, ainsi que les deux variantes du téléporteur de Léo. Les autres événements statiques n’ont à ce stade qu’un contrôle graphique dans la galerie temporaire.
+
+Les shiny restent en cours : les références antérieures révèlent des palettes génériques incompatibles avec plusieurs intentions validées. Aucun achèvement artistique des84 shiny n’est affirmé par ce lot. La session3 (introduction/titre) reste séparée.

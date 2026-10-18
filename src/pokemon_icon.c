@@ -915,11 +915,11 @@ const struct SpritePalette gMonIconPaletteTable[] = {
     { gMonIconPalettes[0], POKE_ICON_BASE_PAL_TAG + 0 },
     { gMonIconPalettes[1], POKE_ICON_BASE_PAL_TAG + 1 },
     { gMonIconPalettes[2], POKE_ICON_BASE_PAL_TAG + 2 },
-    // The following three point outside the gMonIconPalettes array
-    // and are therefore invalid. Fortunately, they are never used.
-    { gMonIconPalettes[3], POKE_ICON_BASE_PAL_TAG + 3 },
-    { gMonIconPalettes[4], POKE_ICON_BASE_PAL_TAG + 4 },
-    { gMonIconPalettes[5], POKE_ICON_BASE_PAL_TAG + 5 }
+    // Keep legacy tags valid without reading beyond the three real palettes.
+    // Yo-kai icon indices still use0..2; no icon colors or assignments change.
+    { gMonIconPalettes[0], POKE_ICON_BASE_PAL_TAG + 3 },
+    { gMonIconPalettes[1], POKE_ICON_BASE_PAL_TAG + 4 },
+    { gMonIconPalettes[2], POKE_ICON_BASE_PAL_TAG + 5 }
 };
 
 static const struct OamData sMonIconOamData = {
