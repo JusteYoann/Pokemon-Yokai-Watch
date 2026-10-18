@@ -1,0 +1,52 @@
+{
+  "output": "/tmp/b13-fresh-diagnostic.json",
+  "rom_sha256": "36bbf1f1c759f0e355be122caf68d7d110f86c83c1862bda1e85c72ea37abfc5",
+  "comparison": {
+    "exact_expected_rom": true,
+    "generated_headers": {
+      "different": [],
+      "missing": [],
+      "extra": []
+    },
+    "source_mp3": {
+      "different": [],
+      "missing": [],
+      "extra": []
+    },
+    "dpcm": {
+      "different": [],
+      "missing": [],
+      "extra": []
+    },
+    "wav": {
+      "different": [],
+      "missing": [],
+      "extra": []
+    },
+    "object_allocated_sections": {
+      "different": [],
+      "missing": [],
+      "extra": []
+    },
+    "rom_allocated_sections": {
+      "different": [],
+      "missing": [],
+      "extra": []
+    },
+    "compiler_binaries": {
+      "different": [],
+      "missing": [],
+      "extra": []
+    },
+    "different_rom_64k_blocks": []
+  },
+  "source_checkpoint": "ff1cb36b2ecbe7b8ce167e375a6bff378df31347",
+  "checkout": "New clean clone from existing local Git repository, not new VM or Windows",
+  "game_recompiled": true,
+  "reference_compiler_reused": true,
+  "private_audio_profile_reused": true,
+  "no_game_objects_copied": true,
+  "windows_failure_reproduced": false,
+  "expected_sha_unchanged": true,
+  "user_report_needed": true
+}

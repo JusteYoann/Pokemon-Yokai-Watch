@@ -18,13 +18,25 @@ archives=("$archives_dir"/*.rar "$archives_dir"/*.RAR)
 # Do not reuse or overwrite another checkout or an earlier attempt.
 work=$(mktemp -d "$HOME/yokai-beta-b13.XXXXXXXX")
 printf 'Dossier de travail conserve : %s\n' "$work"
-trap 'printf "En cas dechec, conserver ce dossier pour diagnostic : %s\n" "$work" >&2' ERR
+on_error() {
+  status=$?
+  printf 'En cas dechec, conserver ce dossier pour diagnostic : %s\n' "$work" >&2
+  if [[ -f "$work/diagnostic-tools/diagnostiquer_beta_b13.py" && -f "$work/sources/pokefirered_audio.gba" && -f "$work/sources/pokefirered_audio.elf" ]]; then
+    python "$work/diagnostic-tools/diagnostiquer_beta_b13.py" --work "$work" --reference "$work/diagnostic-tools/REFERENCE_B13_DIAGNOSTIC.json" --output "$output_dir/diagnostic-b13.json" || printf 'Le diagnostic automatique a aussi echoue ; conserver le dossier complet.\n' >&2
+  fi
+  exit "$status"
+}
+trap on_error ERR
 sudo apt-get update
 sudo apt-get install -y git build-essential zlib1g-dev python3 python3-venv libarchive13t64 'ffmpeg=7:7.1.5-0+deb13u1'
 git clone --branch dev/reconstruction-finalisation https://github.com/JusteYoann/Pokemon-Yokai-Watch.git "$work/sources"
 cd "$work/sources"
 # Latest tested B13 checkpoint; subsequent delivery docs do not alter the ROM.
 git checkout --detach ff1cb36b2ecbe7b8ce167e375a6bff378df31347
+# Delivery diagnostics come from the fetched branch, outside the pinned checkout.
+mkdir -p "$work/diagnostic-tools"
+git show origin/dev/reconstruction-finalisation:tools/yokai/diagnostiquer_beta_b13.py > "$work/diagnostic-tools/diagnostiquer_beta_b13.py"
+git show origin/dev/reconstruction-finalisation:QA_RECETTE_FINALE/BETA_13_OST/REFERENCE_B13_DIAGNOSTIC.json > "$work/diagnostic-tools/REFERENCE_B13_DIAGNOSTIC.json"
 export YOKAI_SETUP_DIR="$work/outils"
 bash RECUPERATION_PROJET/scripts/configurer_outils_debian.sh
 source "$YOKAI_SETUP_DIR/env.sh"

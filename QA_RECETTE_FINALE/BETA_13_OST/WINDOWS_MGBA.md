@@ -79,3 +79,32 @@ Sur la ROM privée de cette empreinte, mGBA libretro a démarré, parcouru Nouve
 La chaîne Linux sous-jacente a déjà produit la même ROM depuis un clone GitHub propre et des ressources privées régénérées : [preuve de reproductibilité](../VERSION_1_DEVELOPPEMENT/REPRODUCTIBILITE.json). **Cette nouvelle enveloppe Windows/WSL n’a pas été exécutée sur un PC Windows dans cet environnement Linux** ; sa syntaxe et l’étape d’export/SHA-256 ont été vérifiées. Cela ne remplace pas un test Windows réel.
 
 Problèmes connus : deux OST non finalisées (Enma Track et Final Battle – Are You Ready?), dessins shiny et cornes shiny de Robonyan 28 encore à finaliser, français partiel, équilibrage et parcours intégral principal/postgame non validés. Les 67 espèces exclues restent sans statut shiny. Les dix nouvelles quêtes reportées ne sont pas annoncées comme intégrées. **Bêta pour essais, pas une sortie finale validée.** [Rapport complet](README.md).
+
+
+## Si la taille est correcte mais le SHA-256 diffère
+
+**Ne pas changer le SHA attendu et ne pas refaire toute la compilation.** Le script de compilation mis à jour produit désormais automatiquement `diagnostic-b13.json` en cas d’échec final ; pour la tentative déjà conservée, utiliser la procédure de diagnostic ci-dessous. Le préfixe du SHA et la taille ne localisent pas les différences. Conserver le dossier `/home/yoann/yokai-beta-b13.…` affiché par le script.
+
+Le générateur original valide déjà l’empreinte des WAV actifs avant compilation. Atteindre le contrôle final rend peu probable une mauvaise référence musicale, mais il faut également comparer les DPCM et les sections réellement liées. Une nouvelle compilation propre du même commit a encore produit l’empreinte B13 attendue dans l’environnement de référence ; le problème Windows n’est pas reproduit à ce stade.
+
+Dans PowerShell :
+
+```powershell
+Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/JusteYoann/Pokemon-Yokai-Watch/dev/reconstruction-finalisation/QA_RECETTE_FINALE/BETA_13_OST/diagnostiquer_windows_wsl.sh' -OutFile 'C:\YokaiBeta\diagnostiquer_windows_wsl.sh'
+```
+
+Retrouver les dossiers dans Debian, sans en effacer :
+
+```powershell
+wsl -d Debian -- bash -lc 'ls -dt /home/yoann/yokai-beta-b13.*'
+```
+
+Remplacer `XXXXXXXX` par le suffixe exact de la tentative concernée, puis :
+
+```powershell
+wsl -d Debian -- bash /mnt/c/YokaiBeta/diagnostiquer_windows_wsl.sh /home/yoann/yokai-beta-b13.XXXXXXXX
+```
+
+Envoyer **`C:\YokaiBeta\diagnostic-b13.json`** dans la conversation. Le diagnostic lit les fichiers existants, ne recompile rien et ne modifie pas la ROM. Il télécharge uniquement du code de diagnostic public et des empreintes de référence. Il n’envoie aucun fichier automatiquement. Le JSON contient des versions et empreintes : sources MP3 sélectionnées indépendamment du nom de l’archive RAR, WAV, DPCM, 651 objets compilés, sections de l’ELF et blocs de ROM. Aucun contenu audio, ROM ni secret n’est inclus. Les numéros de version ne suffisent pas : les sections allouées des objets sont comparées en ignorant les informations de débogage et chemins de compilation.
+
+La correction de la cause exacte nécessite ce rapport ; aucune différence propre au PC Windows ne peut être identifiée à partir du seul préfixe `505eabc4`. Ne pas considérer le fichier divergent comme la bêta B13 vérifiée tant que l’écart n’est pas expliqué.
