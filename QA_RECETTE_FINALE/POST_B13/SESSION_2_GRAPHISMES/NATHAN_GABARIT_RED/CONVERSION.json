@@ -1,0 +1,1429 @@
+{
+  "source_base": "Original Red overworld pose order/anchors, actual source drawing by imagegen",
+  "palette_unchanged": true,
+  "assets": [
+    {
+      "asset": "normal",
+      "source_sha256": "53daa34df5ec9cac635c24574e1f676794459b4d52efde98099cdda3b9a2d78e",
+      "frames": 9,
+      "frame_width": 16,
+      "frame_height": 32,
+      "transparent_index": 0,
+      "palette_sha256": "9607152170a3601876b599082ebfed34cc18dab42a3d63b121f514898db211e2",
+      "native": [
+        {
+          "frame": 0,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/normal.png",
+          "source_figure": 0,
+          "source_bbox": [
+            137,
+            212,
+            282,
+            444
+          ],
+          "red_visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "target_bbox": [
+            2,
+            12,
+            14,
+            31
+          ]
+        },
+        {
+          "frame": 1,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/normal.png",
+          "source_figure": 1,
+          "source_bbox": [
+            556,
+            212,
+            699,
+            444
+          ],
+          "red_visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "target_bbox": [
+            2,
+            12,
+            14,
+            31
+          ]
+        },
+        {
+          "frame": 2,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/normal.png",
+          "source_figure": 2,
+          "source_bbox": [
+            973,
+            213,
+            1121,
+            444
+          ],
+          "red_visible_bbox": [
+            0,
+            12,
+            14,
+            31
+          ],
+          "target_bbox": [
+            1,
+            12,
+            13,
+            31
+          ]
+        },
+        {
+          "frame": 3,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/normal.png",
+          "source_figure": 3,
+          "source_bbox": [
+            133,
+            613,
+            282,
+            844
+          ],
+          "red_visible_bbox": [
+            0,
+            13,
+            15,
+            32
+          ],
+          "target_bbox": [
+            2,
+            13,
+            14,
+            32
+          ]
+        },
+        {
+          "frame": 4,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/normal.png",
+          "source_figure": 4,
+          "source_bbox": [
+            556,
+            613,
+            710,
+            844
+          ],
+          "red_visible_bbox": [
+            1,
+            13,
+            16,
+            32
+          ],
+          "target_bbox": [
+            2,
+            13,
+            15,
+            32
+          ]
+        },
+        {
+          "frame": 5,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/normal.png",
+          "source_figure": 5,
+          "source_bbox": [
+            974,
+            621,
+            1119,
+            849
+          ],
+          "red_visible_bbox": [
+            1,
+            13,
+            15,
+            32
+          ],
+          "target_bbox": [
+            2,
+            13,
+            14,
+            32
+          ]
+        },
+        {
+          "frame": 6,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/normal.png",
+          "source_figure": 6,
+          "source_bbox": [
+            137,
+            958,
+            282,
+            1193
+          ],
+          "red_visible_bbox": [
+            1,
+            13,
+            15,
+            32
+          ],
+          "target_bbox": [
+            2,
+            13,
+            14,
+            32
+          ]
+        },
+        {
+          "frame": 7,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/normal.png",
+          "source_figure": 7,
+          "source_bbox": [
+            548,
+            959,
+            700,
+            1193
+          ],
+          "red_visible_bbox": [
+            0,
+            13,
+            14,
+            31
+          ],
+          "target_bbox": [
+            1,
+            12,
+            13,
+            31
+          ]
+        },
+        {
+          "frame": 8,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/normal.png",
+          "source_figure": 8,
+          "source_bbox": [
+            969,
+            959,
+            1121,
+            1193
+          ],
+          "red_visible_bbox": [
+            0,
+            13,
+            14,
+            31
+          ],
+          "target_bbox": [
+            1,
+            12,
+            13,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "surf_run",
+      "source_sha256": "4ba52e1510be46f364902ad217c3164f6f6c33b8ad01a0b114b5fd1cbdba4d8b",
+      "frames": 14,
+      "frame_width": 16,
+      "frame_height": 32,
+      "transparent_index": 0,
+      "palette_sha256": "9607152170a3601876b599082ebfed34cc18dab42a3d63b121f514898db211e2",
+      "native": [
+        {
+          "frame": 0,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/surf_run.png",
+          "source_figure": 0,
+          "source_bbox": [
+            99,
+            97,
+            250,
+            323
+          ],
+          "red_visible_bbox": [
+            1,
+            12,
+            15,
+            30
+          ],
+          "target_bbox": [
+            2,
+            12,
+            14,
+            30
+          ]
+        },
+        {
+          "frame": 1,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/surf_run.png",
+          "source_figure": 1,
+          "source_bbox": [
+            411,
+            96,
+            560,
+            323
+          ],
+          "red_visible_bbox": [
+            1,
+            12,
+            15,
+            30
+          ],
+          "target_bbox": [
+            2,
+            12,
+            14,
+            30
+          ]
+        },
+        {
+          "frame": 2,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/surf_run.png",
+          "source_figure": 2,
+          "source_bbox": [
+            715,
+            96,
+            877,
+            323
+          ],
+          "red_visible_bbox": [
+            1,
+            12,
+            15,
+            30
+          ],
+          "target_bbox": [
+            2,
+            12,
+            15,
+            30
+          ]
+        },
+        {
+          "frame": 3,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/surf_run.png",
+          "source_figure": 3,
+          "source_bbox": [
+            98,
+            393,
+            251,
+            636
+          ],
+          "red_visible_bbox": [
+            1,
+            12,
+            15,
+            29
+          ],
+          "target_bbox": [
+            2,
+            10,
+            14,
+            29
+          ]
+        },
+        {
+          "frame": 4,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/surf_run.png",
+          "source_figure": 4,
+          "source_bbox": [
+            407,
+            393,
+            562,
+            636
+          ],
+          "red_visible_bbox": [
+            0,
+            13,
+            15,
+            31
+          ],
+          "target_bbox": [
+            2,
+            12,
+            14,
+            31
+          ]
+        },
+        {
+          "frame": 5,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/surf_run.png",
+          "source_figure": 5,
+          "source_bbox": [
+            721,
+            393,
+            875,
+            636
+          ],
+          "red_visible_bbox": [
+            1,
+            13,
+            16,
+            31
+          ],
+          "target_bbox": [
+            2,
+            12,
+            14,
+            31
+          ]
+        },
+        {
+          "frame": 6,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/surf_run.png",
+          "source_figure": 1,
+          "source_bbox": [
+            411,
+            96,
+            560,
+            323
+          ],
+          "red_visible_bbox": [
+            1,
+            12,
+            15,
+            30
+          ],
+          "target_bbox": [
+            2,
+            11,
+            14,
+            30
+          ]
+        },
+        {
+          "frame": 7,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/surf_run.png",
+          "source_figure": 7,
+          "source_bbox": [
+            411,
+            703,
+            565,
+            947
+          ],
+          "red_visible_bbox": [
+            1,
+            13,
+            15,
+            32
+          ],
+          "target_bbox": [
+            2,
+            13,
+            14,
+            32
+          ]
+        },
+        {
+          "frame": 8,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/surf_run.png",
+          "source_figure": 8,
+          "source_bbox": [
+            726,
+            704,
+            880,
+            948
+          ],
+          "red_visible_bbox": [
+            1,
+            13,
+            15,
+            32
+          ],
+          "target_bbox": [
+            2,
+            13,
+            14,
+            32
+          ]
+        },
+        {
+          "frame": 9,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/surf_run.png",
+          "source_figure": 9,
+          "source_bbox": [
+            91,
+            1017,
+            254,
+            1261
+          ],
+          "red_visible_bbox": [
+            0,
+            12,
+            15,
+            30
+          ],
+          "target_bbox": [
+            1,
+            11,
+            14,
+            30
+          ]
+        },
+        {
+          "frame": 10,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/surf_run.png",
+          "source_figure": 10,
+          "source_bbox": [
+            403,
+            1017,
+            569,
+            1261
+          ],
+          "red_visible_bbox": [
+            0,
+            13,
+            16,
+            31
+          ],
+          "target_bbox": [
+            2,
+            12,
+            15,
+            31
+          ]
+        },
+        {
+          "frame": 11,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/surf_run.png",
+          "source_figure": 11,
+          "source_bbox": [
+            715,
+            1017,
+            879,
+            1262
+          ],
+          "red_visible_bbox": [
+            0,
+            13,
+            15,
+            30
+          ],
+          "target_bbox": [
+            1,
+            11,
+            14,
+            30
+          ]
+        },
+        {
+          "frame": 12,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/surf_run.png",
+          "source_figure": 12,
+          "source_bbox": [
+            94,
+            1323,
+            252,
+            1565
+          ],
+          "red_visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "target_bbox": [
+            2,
+            12,
+            14,
+            31
+          ]
+        },
+        {
+          "frame": 13,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/surf_run.png",
+          "source_figure": 13,
+          "source_bbox": [
+            406,
+            1323,
+            565,
+            1565
+          ],
+          "red_visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "target_bbox": [
+            2,
+            12,
+            14,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "bike",
+      "source_sha256": "f344193672ca6ac62abfdfd2dc2a3b57211b34de45c73a398f55346f1cb1e782",
+      "frames": 9,
+      "frame_width": 32,
+      "frame_height": 32,
+      "transparent_index": 0,
+      "palette_sha256": "9607152170a3601876b599082ebfed34cc18dab42a3d63b121f514898db211e2",
+      "native": [
+        {
+          "frame": 0,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/bike-front.png",
+          "source_figure": 0,
+          "source_bbox": [
+            233,
+            164,
+            476,
+            586
+          ],
+          "red_visible_bbox": [
+            9,
+            11,
+            23,
+            32
+          ],
+          "target_bbox": [
+            10,
+            10,
+            23,
+            32
+          ]
+        },
+        {
+          "frame": 1,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/bike.png",
+          "source_figure": 1,
+          "source_bbox": [
+            559,
+            136,
+            707,
+            409
+          ],
+          "red_visible_bbox": [
+            9,
+            10,
+            23,
+            32
+          ],
+          "target_bbox": [
+            10,
+            10,
+            22,
+            32
+          ]
+        },
+        {
+          "frame": 2,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/bike.png",
+          "source_figure": 2,
+          "source_bbox": [
+            951,
+            136,
+            1157,
+            401
+          ],
+          "red_visible_bbox": [
+            5,
+            10,
+            25,
+            32
+          ],
+          "target_bbox": [
+            6,
+            10,
+            23,
+            32
+          ]
+        },
+        {
+          "frame": 3,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/bike-front.png",
+          "source_figure": 1,
+          "source_bbox": [
+            957,
+            164,
+            1200,
+            586
+          ],
+          "red_visible_bbox": [
+            8,
+            11,
+            22,
+            32
+          ],
+          "target_bbox": [
+            8,
+            10,
+            21,
+            32
+          ]
+        },
+        {
+          "frame": 4,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/bike-front.png",
+          "source_figure": 2,
+          "source_bbox": [
+            1681,
+            164,
+            1924,
+            586
+          ],
+          "red_visible_bbox": [
+            10,
+            11,
+            24,
+            32
+          ],
+          "target_bbox": [
+            10,
+            10,
+            23,
+            32
+          ]
+        },
+        {
+          "frame": 5,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/bike.png",
+          "source_figure": 4,
+          "source_bbox": [
+            559,
+            500,
+            707,
+            775
+          ],
+          "red_visible_bbox": [
+            8,
+            10,
+            23,
+            32
+          ],
+          "target_bbox": [
+            10,
+            10,
+            22,
+            32
+          ]
+        },
+        {
+          "frame": 6,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/bike.png",
+          "source_figure": 6,
+          "source_bbox": [
+            137,
+            872,
+            287,
+            1138
+          ],
+          "red_visible_bbox": [
+            9,
+            10,
+            24,
+            32
+          ],
+          "target_bbox": [
+            10,
+            10,
+            22,
+            32
+          ]
+        },
+        {
+          "frame": 7,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/bike.png",
+          "source_figure": 5,
+          "source_bbox": [
+            951,
+            500,
+            1157,
+            765
+          ],
+          "red_visible_bbox": [
+            5,
+            10,
+            25,
+            32
+          ],
+          "target_bbox": [
+            6,
+            10,
+            23,
+            32
+          ]
+        },
+        {
+          "frame": 8,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/bike.png",
+          "source_figure": 7,
+          "source_bbox": [
+            520,
+            873,
+            731,
+            1127
+          ],
+          "red_visible_bbox": [
+            5,
+            10,
+            25,
+            32
+          ],
+          "target_bbox": [
+            6,
+            10,
+            24,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "vs_seeker_bike",
+      "source_sha256": "8771217165f85744f3b90c382ebeecfd879dfaa8d242462501080f76b3f37bff",
+      "frames": 6,
+      "frame_width": 32,
+      "frame_height": 32,
+      "transparent_index": 0,
+      "palette_sha256": "9607152170a3601876b599082ebfed34cc18dab42a3d63b121f514898db211e2",
+      "native": [
+        {
+          "frame": 0,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/vs_seeker_bike.png",
+          "source_figure": 0,
+          "source_bbox": [
+            167,
+            138,
+            376,
+            454
+          ],
+          "red_visible_bbox": [
+            9,
+            11,
+            23,
+            32
+          ],
+          "target_bbox": [
+            9,
+            11,
+            23,
+            32
+          ]
+        },
+        {
+          "frame": 1,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/vs_seeker_bike.png",
+          "source_figure": 1,
+          "source_bbox": [
+            664,
+            138,
+            852,
+            454
+          ],
+          "red_visible_bbox": [
+            8,
+            12,
+            22,
+            32
+          ],
+          "target_bbox": [
+            9,
+            12,
+            21,
+            32
+          ]
+        },
+        {
+          "frame": 2,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/vs_seeker_bike.png",
+          "source_figure": 2,
+          "source_bbox": [
+            1171,
+            138,
+            1369,
+            455
+          ],
+          "red_visible_bbox": [
+            9,
+            11,
+            23,
+            32
+          ],
+          "target_bbox": [
+            10,
+            11,
+            23,
+            32
+          ]
+        },
+        {
+          "frame": 3,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/vs_seeker_bike.png",
+          "source_figure": 3,
+          "source_bbox": [
+            168,
+            577,
+            353,
+            902
+          ],
+          "red_visible_bbox": [
+            9,
+            11,
+            23,
+            32
+          ],
+          "target_bbox": [
+            10,
+            11,
+            22,
+            32
+          ]
+        },
+        {
+          "frame": 4,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/vs_seeker_bike.png",
+          "source_figure": 4,
+          "source_bbox": [
+            676,
+            577,
+            862,
+            879
+          ],
+          "red_visible_bbox": [
+            8,
+            11,
+            24,
+            32
+          ],
+          "target_bbox": [
+            10,
+            11,
+            23,
+            32
+          ]
+        },
+        {
+          "frame": 5,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/vs_seeker_bike.png",
+          "source_figure": 5,
+          "source_bbox": [
+            1188,
+            577,
+            1382,
+            879
+          ],
+          "red_visible_bbox": [
+            8,
+            11,
+            24,
+            32
+          ],
+          "target_bbox": [
+            10,
+            11,
+            23,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "fish",
+      "source_sha256": "f6500bb29add58a5cf30a7bfc7e86a2e36dc7f74d4608e3762005363f7bdcc48",
+      "frames": 12,
+      "frame_width": 32,
+      "frame_height": 32,
+      "transparent_index": 0,
+      "palette_sha256": "9607152170a3601876b599082ebfed34cc18dab42a3d63b121f514898db211e2",
+      "native": [
+        {
+          "frame": 0,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/fish.png",
+          "source_figure": 0,
+          "source_bbox": [
+            130,
+            112,
+            291,
+            323
+          ],
+          "red_visible_bbox": [
+            10,
+            6,
+            32,
+            31
+          ],
+          "target_bbox": [
+            11,
+            5,
+            31,
+            31
+          ]
+        },
+        {
+          "frame": 1,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/fish.png",
+          "source_figure": 1,
+          "source_bbox": [
+            535,
+            83,
+            652,
+            320
+          ],
+          "red_visible_bbox": [
+            16,
+            5,
+            31,
+            31
+          ],
+          "target_bbox": [
+            17,
+            4,
+            30,
+            31
+          ]
+        },
+        {
+          "frame": 2,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/fish.png",
+          "source_figure": 2,
+          "source_bbox": [
+            819,
+            154,
+            1004,
+            323
+          ],
+          "red_visible_bbox": [
+            4,
+            11,
+            29,
+            32
+          ],
+          "target_bbox": [
+            4,
+            10,
+            28,
+            32
+          ]
+        },
+        {
+          "frame": 3,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/fish.png",
+          "source_figure": 3,
+          "source_bbox": [
+            69,
+            492,
+            288,
+            665
+          ],
+          "red_visible_bbox": [
+            3,
+            12,
+            30,
+            31
+          ],
+          "target_bbox": [
+            4,
+            11,
+            29,
+            31
+          ]
+        },
+        {
+          "frame": 4,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/fish.png",
+          "source_figure": 4,
+          "source_bbox": [
+            486,
+            468,
+            603,
+            665
+          ],
+          "red_visible_bbox": [
+            8,
+            8,
+            23,
+            31
+          ],
+          "target_bbox": [
+            8,
+            7,
+            22,
+            31
+          ]
+        },
+        {
+          "frame": 5,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/fish.png",
+          "source_figure": 5,
+          "source_bbox": [
+            845,
+            496,
+            989,
+            665
+          ],
+          "red_visible_bbox": [
+            8,
+            14,
+            25,
+            32
+          ],
+          "target_bbox": [
+            8,
+            13,
+            24,
+            32
+          ]
+        },
+        {
+          "frame": 6,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/fish.png",
+          "source_figure": 6,
+          "source_bbox": [
+            123,
+            809,
+            258,
+            1002
+          ],
+          "red_visible_bbox": [
+            9,
+            5,
+            25,
+            29
+          ],
+          "target_bbox": [
+            8,
+            4,
+            25,
+            29
+          ]
+        },
+        {
+          "frame": 7,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/fish.png",
+          "source_figure": 7,
+          "source_bbox": [
+            493,
+            782,
+            608,
+            1001
+          ],
+          "red_visible_bbox": [
+            9,
+            3,
+            23,
+            30
+          ],
+          "target_bbox": [
+            8,
+            2,
+            23,
+            30
+          ]
+        },
+        {
+          "frame": 8,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/fish.png",
+          "source_figure": 8,
+          "source_bbox": [
+            879,
+            781,
+            998,
+            1001
+          ],
+          "red_visible_bbox": [
+            10,
+            2,
+            24,
+            29
+          ],
+          "target_bbox": [
+            10,
+            1,
+            25,
+            29
+          ]
+        },
+        {
+          "frame": 9,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/fish.png",
+          "source_figure": 9,
+          "source_bbox": [
+            100,
+            1142,
+            237,
+            1336
+          ],
+          "red_visible_bbox": [
+            7,
+            1,
+            24,
+            23
+          ],
+          "target_bbox": [
+            8,
+            0,
+            24,
+            23
+          ]
+        },
+        {
+          "frame": 10,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/fish.png",
+          "source_figure": 10,
+          "source_bbox": [
+            481,
+            1157,
+            626,
+            1376
+          ],
+          "red_visible_bbox": [
+            8,
+            6,
+            24,
+            30
+          ],
+          "target_bbox": [
+            8,
+            5,
+            25,
+            30
+          ]
+        },
+        {
+          "frame": 11,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/fish.png",
+          "source_figure": 11,
+          "source_bbox": [
+            862,
+            1147,
+            979,
+            1392
+          ],
+          "red_visible_bbox": [
+            9,
+            3,
+            23,
+            32
+          ],
+          "target_bbox": [
+            9,
+            2,
+            23,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "item",
+      "source_sha256": "5d704bfd010964bc3a94ec1abff045c0415a1d52d2344ff00809faed845a5843",
+      "frames": 9,
+      "frame_width": 32,
+      "frame_height": 32,
+      "transparent_index": 0,
+      "palette_sha256": "9607152170a3601876b599082ebfed34cc18dab42a3d63b121f514898db211e2",
+      "native": [
+        {
+          "frame": 0,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/item.png",
+          "source_figure": 3,
+          "source_bbox": [
+            116,
+            485,
+            288,
+            753
+          ],
+          "red_visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "target_bbox": [
+            10,
+            12,
+            22,
+            31
+          ]
+        },
+        {
+          "frame": 1,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/item.png",
+          "source_figure": 5,
+          "source_bbox": [
+            958,
+            485,
+            1134,
+            753
+          ],
+          "red_visible_bbox": [
+            0,
+            13,
+            14,
+            31
+          ],
+          "target_bbox": [
+            9,
+            12,
+            21,
+            31
+          ]
+        },
+        {
+          "frame": 2,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/item.png",
+          "source_figure": 5,
+          "source_bbox": [
+            958,
+            485,
+            1134,
+            753
+          ],
+          "red_visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "target_bbox": [
+            10,
+            12,
+            22,
+            31
+          ]
+        },
+        {
+          "frame": 3,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/item.png",
+          "source_figure": 0,
+          "source_bbox": [
+            115,
+            141,
+            287,
+            407
+          ],
+          "red_visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "target_bbox": [
+            10,
+            12,
+            22,
+            31
+          ]
+        },
+        {
+          "frame": 4,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/item.png",
+          "source_figure": 2,
+          "source_bbox": [
+            957,
+            140,
+            1142,
+            414
+          ],
+          "red_visible_bbox": [
+            0,
+            12,
+            16,
+            31
+          ],
+          "target_bbox": [
+            10,
+            12,
+            23,
+            31
+          ]
+        },
+        {
+          "frame": 5,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/item.png",
+          "source_figure": 0,
+          "source_bbox": [
+            115,
+            141,
+            287,
+            407
+          ],
+          "red_visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "target_bbox": [
+            10,
+            12,
+            22,
+            31
+          ]
+        },
+        {
+          "frame": 6,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/item.png",
+          "source_figure": 1,
+          "source_bbox": [
+            538,
+            140,
+            709,
+            418
+          ],
+          "red_visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "target_bbox": [
+            10,
+            12,
+            22,
+            31
+          ]
+        },
+        {
+          "frame": 7,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/item.png",
+          "source_figure": 4,
+          "source_bbox": [
+            539,
+            485,
+            709,
+            754
+          ],
+          "red_visible_bbox": [
+            0,
+            12,
+            16,
+            31
+          ],
+          "target_bbox": [
+            10,
+            12,
+            22,
+            31
+          ]
+        },
+        {
+          "frame": 8,
+          "source_file": "graphics/yokai_characters/nathan/source/red-base/item.png",
+          "source_figure": 2,
+          "source_bbox": [
+            957,
+            140,
+            1142,
+            414
+          ],
+          "red_visible_bbox": [
+            0,
+            12,
+            16,
+            31
+          ],
+          "target_bbox": [
+            10,
+            12,
+            23,
+            31
+          ]
+        }
+      ]
+    }
+  ]
+}

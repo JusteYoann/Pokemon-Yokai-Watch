@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "scope": "Actual Nathan field/four facings and temporary native-VRAM Red reference.\n\nOriginal Red reference is a rendering fixture, not an active game replacement.\nOptional old ROM permits real before/after captures; no ROM/savedata published.\n",
+  "results": [
+    {
+      "stage": "avant",
+      "rom_sha256": "60c61beaaebf5ae01f3e4b8d4c7c4b342af04cd917a03dab2f346b886596a778",
+      "four_native_facings": true,
+      "linked_overworld_resources_match": false
+    },
+    {
+      "stage": "apres",
+      "rom_sha256": "cb24569268ca5946f78d04360a39f901e60cff53bded5fd8f06fb5ad629c9501",
+      "four_native_facings": true,
+      "linked_overworld_resources_match": true
+    }
+  ]
+}

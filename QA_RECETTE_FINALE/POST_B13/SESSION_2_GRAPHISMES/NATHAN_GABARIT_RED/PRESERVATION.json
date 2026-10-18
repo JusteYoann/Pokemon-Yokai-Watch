@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "restore_commit": "e00c7853bcef495afaaeb82fa433c57722d4c4d8",
+  "old_rom_sha256": "60c61beaaebf5ae01f3e4b8d4c7c4b342af04cd917a03dab2f346b886596a778",
+  "new_rom_sha256": "cb24569268ca5946f78d04360a39f901e60cff53bded5fd8f06fb5ad629c9501",
+  "rom_bytes": 27718259,
+  "changes_only_in_six_overworld_graphic_arrays": true,
+  "changed_bytes": 6739,
+  "arrays": [
+    {
+      "asset": "normal",
+      "start": 3567836,
+      "size": 2304,
+      "changed_bytes": 708
+    },
+    {
+      "asset": "surf_run",
+      "start": 3570140,
+      "size": 3584,
+      "changed_bytes": 1203
+    },
+    {
+      "asset": "bike",
+      "start": 3598108,
+      "size": 4608,
+      "changed_bytes": 1353
+    },
+    {
+      "asset": "vs_seeker_bike",
+      "start": 3602716,
+      "size": 3072,
+      "changed_bytes": 881
+    },
+    {
+      "asset": "fish",
+      "start": 3618076,
+      "size": 6144,
+      "changed_bytes": 1687
+    },
+    {
+      "asset": "item",
+      "start": 3579676,
+      "size": 4608,
+      "changed_bytes": 907
+    }
+  ],
+  "all_other_character_images_and_palettes_identical": 127,
+  "palette_changes": 0,
+  "gameplay_changes": 0,
+  "audio_changes": 0,
+  "trainer_battle_front_back_changes": 0,
+  "intro_title_changes": 0
+}

@@ -687,5 +687,20 @@
     ],
     "notes": "Compact brown rod with no weapon/glow; North actor scale annotated separately from other source sheets.",
     "rectangle_provenance": "Alpha >=128, 3px dilation for connectivity only, connected components>1000 pixels, baseline row grouping; source pixels unchanged."
+  },
+  "overworld_red_base_revision": {
+    "restore_commit": "e00c7853bcef495afaaeb82fa433c57722d4c4d8",
+    "converter": "tools/yokai/convertir_nathan_base_red.py",
+    "source_directory": "source/red-base",
+    "assets": {
+      "normal": 9,
+      "surf_run": 14,
+      "bike": 9,
+      "vs_seeker_bike": 6,
+      "fish": 12,
+      "item": 9
+    },
+    "scope": "Overworld only. Legacy source packs remain authoritative for unchanged battle/intro/credits/icon. Shared palette unchanged.",
+    "legacy_converter_must_preserve_overworld": true
   }
 }

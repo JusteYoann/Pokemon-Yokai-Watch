@@ -22,7 +22,12 @@ def fit(c,size,scale=None,bottom=None):
  if scale is None:scale=min((size[0]-2)/c.width,(size[1]-2)/c.height)
  v=c.resize((max(1,round(c.width*scale)),max(1,round(c.height*scale))),Image.Resampling.NEAREST)
  out=Image.new('RGBA',size);out.alpha_composite(v,((size[0]-v.width)//2,(bottom if bottom is not None else size[1]-1)-v.height));return indexed(out)
-def save(im,path):im.save(path,bits=4,transparency=0)
+def save(im,path):
+ # Nathan's map sprites were redrawn on Red's body template. Preserve this
+ # later revision when maintaining legacy battle/intro/Katie source packs.
+ if path.parent.name=='nathan' and path.stem in {'normal','surf_run','bike','vs_seeker_bike','fish','item'} and (path.parent/'source/red-base/normal.png').exists():
+  print('Preserved Nathan Red-base overworld:',path.name);return
+ im.save(path,bits=4,transparency=0)
 def load_pack(directory,pack):
  src=Image.open(directory/pack['source']).convert('RGBA');parts=[]
  for rect in pack['rectangles']:

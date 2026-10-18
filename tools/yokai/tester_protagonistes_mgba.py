@@ -31,7 +31,7 @@ def warp(r,group,num,x,y):
   if f>60 and r.u32(r.symbols['gMain']+4)==r.symbols['CB2_Overworld']|1:break
  else:raise AssertionError('Field load did not complete')
  r.run(120)
-for gender,person,prefix in [(0,'nathan','RED'),(1,'katie','GREEN')]:
+for gender,person,prefix in [(g,n,p) for g,n,p in [(0,'nathan','RED'),(1,'katie','GREEN')] if n in os.environ.get('YOKAI_PROTAGONISTS','nathan,katie').split(',')]:
  r=new_game(gender)
  try:
   sav=r.u32(r.symbols['gSaveBlock2Ptr']);name=bytes(glyphs[c] for c in 'Test')+b'\xff'
@@ -98,6 +98,7 @@ for gender,person,prefix in [(0,'nathan','RED'),(1,'katie','GREEN')]:
   assert graphic()==C['OBJ_EVENT_GFX_'+prefix+'_NORMAL']
   assert r.read(r.u32(r.symbols['gSaveBlock2Ptr']),len(name))==name
   results.append({'person':person,'test':'Native player actor, three four-direction walk/run cycles, bicycle cycles, field/watch and VS Seeker animations, actual fishing task in four directions and return to normal; native surf graphics/four facings/return in rendering fixture (not HM progression or water traversal)','custom_fixture_name_preserved':True,'passed':True})
+  if os.environ.get('YOKAI_PROTAGONISTS_OW_ONLY'):continue
   r.w32(r.symbols['gTrainerBattleOpponent_A'],C['TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER'])
   r.call('StartTrainerBattle');r.run(401);r.frame.save(P/(person+'-combat-dos.png'));movie=[]
   for f in range(1500):
@@ -106,6 +107,6 @@ for gender,person,prefix in [(0,'nathan','RED'),(1,'katie','GREEN')]:
   gif(movie,person+'-lancer-combat')
   results.append({'person':person,'test':'Actual trainer battle entry and back-throw animation captured; battle not completed','passed':True})
  finally:r.close()
-report={'engine':'mGBA libretro','rom_sha256':hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),'scope':'Native animation fixtures on Dojo map with defeated original trainers; gender and custom name assigned in fixture, not via intro UI; existing battle entry, not a complete story run','results':results,'remaining':['Opposite protagonist cameo events','Complete adventure']}
+report={'engine':'mGBA libretro','rom_sha256':hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),'overworld_only':bool(os.environ.get('YOKAI_PROTAGONISTS_OW_ONLY')),'scope':'Native animation fixtures on Dojo map with defeated original trainers; gender and custom name assigned in fixture, not via intro UI; battle entry only when overworld_only is false; not a complete story run','results':results,'remaining':['Opposite protagonist cameo events','Complete adventure']}
 (REPORT/'TEST_PROTAGONISTES_MGBA.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))

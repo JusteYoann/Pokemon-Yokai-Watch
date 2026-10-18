@@ -51,3 +51,7 @@ Le commit `c980460b3f2d327fe5c4ec6d0c49e37c4ee384cc` a été récupéré directe
 Résultat strictement identique, octet pour octet : **27,718,259 octets**, SHA-256 `60c61beaaebf5ae01f3e4b8d4c7c4b342af04cd917a03dab2f346b886596a778`. Voir `REPRODUCTIBILITE_GITHUB.json` et `AUDIO_PRESERVE.json`. La compilation publique avec repli musical natif passe également. Sans les ressources DPCM externes, le résultat musical ne peut pas être identique à la ROM privée. La recette matérielle physique et une nouvelle partie complète jusqu’au postgame ne sont pas réalisées ici.
 
 La planche `overworld/apres/planche-22-acteurs.png` rassemble les quatre orientations des objets natifs. Les statiques et Usapyon utilisent encore une représentation fixe prévue par leur table `Inanimate` : tourner la direction de l’objet ne crée pas de nouvelles vues dessinées. Aucun mouvement de marche nouveau n’est affirmé pour ces objets.
+
+## Révision demandée : Nathan sur la base de Red
+
+À la demande explicite de l’utilisateur après ce premier contrôle, les six ressources overworld de Nathan ont été refaites sur le gabarit et les poses de Red. La décision précédente de conserver son ancien dessin est donc remplacée. Voir [comparaison et rapport](NATHAN_GABARIT_RED/README.md). Portraits, combat, introduction et autres personnages restent inchangés ; comparaison des ROM à l’appui. Les autres chantiers de session2 conservent leur état précédent.
