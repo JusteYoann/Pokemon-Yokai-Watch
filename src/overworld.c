@@ -24,6 +24,7 @@
 #include "link_rfu.h"
 #include "load_save.h"
 #include "m4a.h"
+#include "yokai_music.h"
 #include "map_name_popup.h"
 #include "map_preview_screen.h"
 #include "metatile_behavior.h"
@@ -1030,7 +1031,7 @@ void Overworld_PlaySpecialMapMusic(void)
     if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_POKEMON_LEAGUE_CHAMPIONS_ROOM) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_POKEMON_LEAGUE_CHAMPIONS_ROOM))
     {
         PlayerGetDestCoords(&x, &y);
-        if (y - 7 < 11 && gMPlayInfo_BGM.songHeader == &mus_victory_gym_leader)
+        if (y - 7 < 11 && gMPlayInfo_BGM.songHeader == YokaiGetSongHeader(MUS_VICTORY_GYM_LEADER, (struct SongHeader *)&mus_victory_gym_leader))
         {
             FadeInBGM(4);
             return;

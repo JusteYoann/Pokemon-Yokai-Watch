@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Native fanfare pause/resume preserves the sampled music cursor, not a restart."""
-import hashlib,json,re
+import hashlib,json,re,os
 from mgba_rpc import ROOT
 from mgba_new_game import new_game
 C={k:int(v) for k,v in re.findall(r'^#define\s+(MUS_\w+)\s+(\d+)\b',(ROOT/'include/constants/songs.h').read_text(),re.M)}
@@ -14,7 +14,7 @@ def channel(n):
     return None
 try:
     cases=[(27,mus) for mus,_ in fanfares]+[(n,'MUS_OBTAIN_ITEM') for n in active]
-    assert len(fanfares)==14 and len(cases)==33
+    assert len(fanfares)==14 and len(cases)==14+len(active)
     for n,mus in cases:
         r.restore(base);r.call('m4aMPlayAllStop');r.call('m4aSongNumStart',346+n);r.run(750)
         before=r.u32(channel(n)+40);r.call('PlayFanfare',C[mus])
@@ -32,7 +32,8 @@ try:
     passed=True;error=None
 except BaseException as e:error=str(e);raise
 finally:
-    r.close();(ROOT/'QA_RECETTE_FINALE/SESSION_1_AUDIO/FANFARES_MGBA.json').write_text(json.dumps(dict(passed=passed,error=error,
+    output=ROOT/os.environ.get('YOKAI_AUDIO_QA_REPORT_ROOT','QA_RECETTE_FINALE/SESSION_1_AUDIO');output.mkdir(parents=True,exist_ok=True)
+    r.close();(output/'FANFARES_MGBA.json').write_text(json.dumps(dict(passed=passed,error=error,
         rom_sha256=hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),results=rows,
-        scope='33 isolated native fanfare calls after real new-game init; actual sequencer pause, sampled-channel restoration and advancing cursor. Not every in-world item/evolution event.'),indent=2)+'\n')
+        scope=f'{len(rows)} isolated native fanfare calls after real new-game init; actual sequencer pause, sampled-channel restoration and advancing cursor. Not every in-world item/evolution event.'),indent=2)+'\n')
     print('FANFARES',len(rows),passed,error,flush=True)

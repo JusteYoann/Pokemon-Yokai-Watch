@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "e63f84dc175b902b6783d8ffcd78c330e6e55b066c00fd3908d891f9bb68cb1e",
+  "results": [
+    {
+      "number": 12,
+      "frames": 2898,
+      "duration_seconds": 48.537109375,
+      "integrated_lufs": -29.0,
+      "lra_lu": 5.9,
+      "true_peak_dbfs": -17.1,
+      "raw_clipped_samples": 0,
+      "samples": 6361856
+    }
+  ],
+  "scope": "Actual native mixer, complete intro plus one source cycle, EBU R128 after20Hz DC rejection; no subjective listening, no simultaneous effects in this measurement."
+}

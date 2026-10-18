@@ -15,7 +15,7 @@ struct SongHeader *YokaiGetSongHeader(u16 song, struct SongHeader *fallback)
 {
     u32 i;
     /* Resolve legacy script/engine BGM calls as well as map headers. Dedicated
-     * character themes, fanfares, cries and SE IDs never enter this table.
+     * character IDs are preserved; fanfares, cries and SE IDs are never aliased.
      * Public builds use the dedicated theme's native fallback, not private data.
      */
     for (i = 0; i < NELEMS(sYokaiMusicAliases); i++)
@@ -31,6 +31,19 @@ struct SongHeader *YokaiGetSongHeader(u16 song, struct SongHeader *fallback)
         u32 slot = song - MUS_YOKAI_BICYCLE;
         if (slot < gYokaiPrivateSlotCount && gYokaiPrivateHeaders[slot] != NULL)
             return gYokaiPrivateHeaders[slot];
+        /* A declared but unavailable sample must not silently reintroduce
+         * FireRed BGM into the private soundtrack. Reuse an explicit active
+         * cue until its own full arrangement is ready. Public fallback stays
+         * unchanged. No recursion and no extra copied sample or RAM state.
+         */
+        for (i = 0; i < NELEMS(sYokaiUnavailableMusicFallbacks); i++)
+            if (sYokaiUnavailableMusicFallbacks[i][0] == song)
+            {
+                slot = sYokaiUnavailableMusicFallbacks[i][1] - MUS_YOKAI_BICYCLE;
+                if (slot < gYokaiPrivateSlotCount && gYokaiPrivateHeaders[slot] != NULL)
+                    return gYokaiPrivateHeaders[slot];
+                break;
+            }
     }
 #endif
     return fallback;

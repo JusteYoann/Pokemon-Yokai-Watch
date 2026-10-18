@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Real controller door crossings for ordinary city/route facilities, explicit warps."""
-import hashlib,json
+import hashlib,json,os
 from mgba_rpc import ROOT
 from mgba_new_game import new_game
-P=ROOT/'QA_RECETTE_FINALE/SESSION_1_AUDIO/portes';P.mkdir(parents=True,exist_ok=True)
+P=ROOT/os.environ.get('YOKAI_AUDIO_QA_REPORT_ROOT','QA_RECETTE_FINALE/SESSION_1_AUDIO')/'portes';P.mkdir(parents=True,exist_ok=True)
 G=json.loads((ROOT/'data/maps/map_groups.json').read_text())
 MAPS={n:(i,j) for i,k in enumerate(G['group_order']) for j,n in enumerate(G[k])}
 maps={p.parent.name:json.loads(p.read_text()) for p in (ROOT/'data/maps').glob('*/map.json')}

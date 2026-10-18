@@ -8,6 +8,7 @@
     6,
     7,
     11,
+    12,
     15,
     17,
     21,
@@ -21,7 +22,7 @@
     30,
     31
   ],
-  "status": "Session1 audio: 19 active; Enma5, Blossom12 and Final25 await reliable full-section loops",
+  "status": "20 active tracks; Blossom Heights uses an explicit full-phrase assembly pending human listening. Enma5 and Final25 keep their dedicated IDs with documented private Yo-kai substitutes until their own loops are ready.",
   "tracks": [
     {
       "number": 1,
@@ -92,6 +93,19 @@
       "period_waveform_correlation": 0.9953114076169014,
       "derivation": "FFT recurrence refined to source sample precision; stable repeated windows then <=100ms phase alignment; bike skips non-repeating intro",
       "perceptual_listening_validated": false
+    },
+    {
+      "number": 12,
+      "pcm_wav_sha256": "2235a331a83b0b48aa2eae39e9ec88856653b7ec2b50655e34130dc8e265be7e",
+      "source_start_samples": 0,
+      "source_loop_start_samples": 64349,
+      "source_end_samples": 642321,
+      "period_waveform_correlation": null,
+      "boundary_one_second_correlation": 0.8620299714030775,
+      "derivation": "Manual complete 43.2s musical phrase assembly, not a claim that the entire recording repeats; compatible chroma head/tail and bounded phase alignment; no crossfade or time stretch. Human listening pending.",
+      "perceptual_listening_validated": false,
+      "loop_kind": "explicit phrase assembly, not full-source recurrence",
+      "artistic_status": "PROVISIONAL_LISTENING_REQUIRED"
     },
     {
       "number": 15,
@@ -401,7 +415,6 @@
   ],
   "pending_tracks": [
     5,
-    12,
     25
   ]
 }

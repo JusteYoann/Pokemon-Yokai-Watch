@@ -1,5 +1,5 @@
 {
-  "scope": "Musiques uniquement. Aucun SE_*, cri ou jingle sur lecteur de fanfare remplacé.",
+  "scope": "Musiques de fond uniquement. SE_*, cris et jingles fonctionnels sur lecteur de fanfare conservés. Replis privés explicites pour les sélections non encodées ; leurs identifiants et déclencheurs dédiés restent intacts.",
   "aliases": [
     {
       "source": "MUS_SCHOOL",
@@ -320,6 +320,113 @@
       "source": "MUS_EVOLUTION",
       "target": "MUS_YOKAI_CURIOUS",
       "reason": "Musique de métamorphose ; fanfare courte de réussite conservée."
+    },
+    {
+      "source": "MUS_INTRO_FIGHT",
+      "target": "MUS_YOKAI_VS_YOKAI",
+      "reason": "Complément audio : suppression du fond musical natif, réutilisation sans nouveau sample ; bruitages/fanfares conservés."
+    },
+    {
+      "source": "MUS_HEAL_UNUSED",
+      "target": "MUS_YOKAI_UPTOWN",
+      "reason": "Complément audio : suppression du fond musical natif, réutilisation sans nouveau sample ; bruitages/fanfares conservés."
+    },
+    {
+      "source": "MUS_HALL_OF_FAME",
+      "target": "MUS_YOKAI_TAKE_CARE",
+      "reason": "Complément audio : suppression du fond musical natif, réutilisation sans nouveau sample ; bruitages/fanfares conservés."
+    },
+    {
+      "source": "MUS_VICTORY_TRAINER",
+      "target": "MUS_YOKAI_UPTOWN",
+      "reason": "Complément audio : suppression du fond musical natif, réutilisation sans nouveau sample ; bruitages/fanfares conservés."
+    },
+    {
+      "source": "MUS_VICTORY_WILD",
+      "target": "MUS_YOKAI_PATROL_MISSION",
+      "reason": "Complément audio : suppression du fond musical natif, réutilisation sans nouveau sample ; bruitages/fanfares conservés."
+    },
+    {
+      "source": "MUS_VICTORY_GYM_LEADER",
+      "target": "MUS_YOKAI_UPTOWN",
+      "reason": "Complément audio : suppression du fond musical natif, réutilisation sans nouveau sample ; bruitages/fanfares conservés."
+    },
+    {
+      "source": "MUS_CAUGHT",
+      "target": "MUS_YOKAI_UPTOWN",
+      "reason": "Complément audio : suppression du fond musical natif, réutilisation sans nouveau sample ; bruitages/fanfares conservés."
+    },
+    {
+      "source": "MUS_TEACHY_TV_SHOW",
+      "target": "MUS_YOKAI_CURIOUS",
+      "reason": "Complément audio : suppression du fond musical natif, réutilisation sans nouveau sample ; bruitages/fanfares conservés."
+    },
+    {
+      "source": "MUS_TEACHY_TV_MENU",
+      "target": "MUS_YOKAI_CURIOUS",
+      "reason": "Complément audio : suppression du fond musical natif, réutilisation sans nouveau sample ; bruitages/fanfares conservés."
+    }
+  ],
+  "private_unavailable_fallbacks": [
+    {
+      "source": "MUS_YOKAI_ENMA_DIALOGUE",
+      "target": "MUS_YOKAI_CURIOUS",
+      "reason": "Réaffectation temporaire tant que le sample dédié est absent ; la présence de son propre sample reste prioritaire."
+    },
+    {
+      "source": "MUS_YOKAI_KATIE_HOUSE",
+      "target": "MUS_YOKAI_NATHAN_HOUSE",
+      "reason": "Réaffectation temporaire tant que le sample dédié est absent ; la présence de son propre sample reste prioritaire."
+    },
+    {
+      "source": "MUS_YOKAI_BLASTERS_HIDEOUT",
+      "target": "MUS_YOKAI_UPTOWN",
+      "reason": "Réaffectation temporaire tant que le sample dédié est absent ; la présence de son propre sample reste prioritaire."
+    },
+    {
+      "source": "MUS_YOKAI_BLASTERS_THEME",
+      "target": "MUS_YOKAI_BOSS_YOKAI",
+      "reason": "Réaffectation temporaire tant que le sample dédié est absent ; la présence de son propre sample reste prioritaire."
+    },
+    {
+      "source": "MUS_YOKAI_ENMA_VILLA",
+      "target": "MUS_YOKAI_TAKE_CARE",
+      "reason": "Réaffectation temporaire tant que le sample dédié est absent ; la présence de son propre sample reste prioritaire."
+    },
+    {
+      "source": "MUS_YOKAI_WILDWOOD",
+      "target": "MUS_YOKAI_MYSTIC_GROVE",
+      "reason": "Réaffectation temporaire tant que le sample dédié est absent ; la présence de son propre sample reste prioritaire."
+    },
+    {
+      "source": "MUS_YOKAI_HARRISVILLE",
+      "target": "MUS_YOKAI_SAN_FANTASTICO",
+      "reason": "Réaffectation temporaire tant que le sample dédié est absent ; la présence de son propre sample reste prioritaire."
+    },
+    {
+      "source": "MUS_YOKAI_ROBON_ARRIVES",
+      "target": "MUS_YOKAI_CURIOUS",
+      "reason": "Réaffectation temporaire tant que le sample dédié est absent ; la présence de son propre sample reste prioritaire."
+    },
+    {
+      "source": "MUS_YOKAI_ROBON_3000",
+      "target": "MUS_YOKAI_VS_YOKAI",
+      "reason": "Réaffectation temporaire tant que le sample dédié est absent ; la présence de son propre sample reste prioritaire."
+    },
+    {
+      "source": "MUS_YOKAI_MINI_BOSS",
+      "target": "MUS_YOKAI_BOSS_YOKAI",
+      "reason": "Réaffectation temporaire tant que le sample dédié est absent ; la présence de son propre sample reste prioritaire."
+    },
+    {
+      "source": "MUS_YOKAI_FINAL_BATTLE",
+      "target": "MUS_YOKAI_DECISIVE_BATTLE",
+      "reason": "Réaffectation temporaire tant que le sample dédié est absent ; la présence de son propre sample reste prioritaire."
+    },
+    {
+      "source": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "target": "MUS_YOKAI_UPTOWN",
+      "reason": "Réaffectation temporaire tant que le sample dédié est absent ; la présence de son propre sample reste prioritaire."
     }
   ]
 }

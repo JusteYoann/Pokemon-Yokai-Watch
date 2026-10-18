@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Build optional native m4a songs from measured private source loop sections.
+"""Build optional native m4a songs from pinned private source sections.
 
 Only metadata/configuration belongs in Git. All output remains outside checkout.
 The source sample points are pinned; no automatic cut/tempo guess at build time.
+Consult each track's derivation: a phrase assembly is not full-source recurrence.
 """
 import argparse,concurrent.futures,hashlib,json,struct,wave
 from pathlib import Path

@@ -3599,10 +3599,14 @@
       "song_id": 358,
       "baseline_window_lufs": -21.4,
       "target_window_lufs": -29,
-      "gain_q8": 107,
-      "gain_db": -7.58,
-      "private_sample": false,
-      "limited": false
+      "gain_q8": 294,
+      "gain_db": 1.2,
+      "private_sample": true,
+      "limited": false,
+      "legacy_native_fallback_gain_q8": 107,
+      "measurement_status": "Native complete intro+cycle at unity: -30.2 LUFS; calibrated towards -29 LUFS",
+      "full_cycle_unity_lufs": -30.2,
+      "full_cycle_measurement": "QA_RECETTE_FINALE/AUDIO_COMPLEMENT/BLOSSOM_LUFS_AVANT.json"
     },
     {
       "constant": "MUS_YOKAI_ENMA_VILLA",
