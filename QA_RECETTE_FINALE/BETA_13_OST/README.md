@@ -17,6 +17,8 @@ Les publications documentaires ultérieures ne changent pas ces octets. Le manif
 
 **Sous Windows : suivre [WINDOWS_MGBA.md](WINDOWS_MGBA.md)** et son script dédié pour produire directement le fichier `.gba` dans `C:\YokaiBeta`.
 
+**Compilation WSL déjà terminée avec un SHA `505eabc4…` : [correction sans recompilation](CORRECTION_WSL_B13.md).**
+
 ## Obtenir la bêta sans redistribuer les ressources protégées
 
 La méthode fournie est une **reconstruction locale** : aucun patch contenant les enregistrements ni ROM complète n’est publié. Utiliser uniquement les archives musicales auxquelles vous avez légalement accès. Les archives personnelles restent hors du dépôt ; ne fournir qu’une copie de chaque lot pour éviter des références audio en double. Le moteur de décompilation ne nécessite pas de ROM commerciale d’entrée ; sa compilation ne confère aucun droit de redistribution des ressources du jeu.
@@ -38,6 +40,11 @@ git checkout --detach 822ea2de1951bf46e12cbda6146fae8873532060
 export YOKAI_SETUP_DIR="$PWD/../outils-beta-b13"
 bash RECUPERATION_PROJET/scripts/configurer_outils_debian.sh
 source "$YOKAI_SETUP_DIR/env.sh"
+# Le checkout B13 ancien précède la correction du parcours non trié de libc.
+git show origin/dev/reconstruction-finalisation:tools/yokai/normaliser_bibliotheques_b13.py > "$YOKAI_SETUP_DIR/normaliser_bibliotheques_b13.py"
+git show origin/dev/reconstruction-finalisation:QA_RECETTE_FINALE/BETA_13_OST/BIBLIOTHEQUES_B13_LOCK.json > "$YOKAI_SETUP_DIR/BIBLIOTHEQUES_B13_LOCK.json"
+python3 "$YOKAI_SETUP_DIR/normaliser_bibliotheques_b13.py" --lib-dir "$YOKAI_SETUP_DIR/agbcc" --lock "$YOKAI_SETUP_DIR/BIBLIOTHEQUES_B13_LOCK.json"
+python3 "$YOKAI_SETUP_DIR/normaliser_bibliotheques_b13.py" --lib-dir "$PWD/tools/agbcc/lib" --lock "$YOKAI_SETUP_DIR/BIBLIOTHEQUES_B13_LOCK.json"
 python3 -m venv "$YOKAI_SETUP_DIR/venv"
 source "$YOKAI_SETUP_DIR/venv/bin/activate"
 python -m pip install -r tools/yokai/requirements-audio.txt

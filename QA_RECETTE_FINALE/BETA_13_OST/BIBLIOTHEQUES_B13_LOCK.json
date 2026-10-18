@@ -1,0 +1,2648 @@
+{
+  "agbcc_commit": "da598c1d918402c42c0c0d7128ba14567f3175e9",
+  "scope": "B13 runtime archive order and allocated-section hashes; metadata only, no compiled code or protected game/audio data",
+  "libraries": {
+    "libgcc.a": {
+      "members": [
+        {
+          "name": "_ashldi3.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 52,
+              "sha256": "e1d103a4b2b1b0804119df147b38ca0ca9eae96394e632b6044ea17f2b4d7ab2"
+            }
+          }
+        },
+        {
+          "name": "_ashrdi3.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 52,
+              "sha256": "4f416bc40e9094b699cd9cd1dc0e37bc69b911609f1f878885a4dad238af70d9"
+            }
+          }
+        },
+        {
+          "name": "_call_via_rX.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 60,
+              "sha256": "074f3ace44a2eb0745a927fc7ef482e0f52b4c91c32643ac56cf0c4af34a6d73"
+            }
+          }
+        },
+        {
+          "name": "_cmpdi2.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 28,
+              "sha256": "c50838aadd193e8e629b4854861c6b675502968522e1baa6aa722e884e7a02a0"
+            }
+          }
+        },
+        {
+          "name": "_divdi3.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 1076,
+              "sha256": "6501ebb6d942c17edce1d88d0f0fa4992689db47209422bb08a8111c4ce740da"
+            },
+            ".rodata": {
+              "bytes": 256,
+              "sha256": "14a5d850c255623f9472e3c650abce0c78d32f0276b315b3a276a0462d97a1ac"
+            }
+          }
+        },
+        {
+          "name": "_divsi3.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 148,
+              "sha256": "e9dfbdbf898414c3ec6199436297d3e9b626e2ca53de311c0557df32ffd3ebfa"
+            }
+          }
+        },
+        {
+          "name": "_dvmd_tls.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 4,
+              "sha256": "aad34e7f7239f66b87e511a5ad008715fe86a4b977201c5fec08c3777a9011d0"
+            }
+          }
+        },
+        {
+          "name": "_ffsdi2.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 40,
+              "sha256": "fbb44911c22b4b9c5275560ecd92c9e61a63efed9191903fa792395b8079abcf"
+            }
+          }
+        },
+        {
+          "name": "_fixdfdi.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 56,
+              "sha256": "7824de7ae5e5997eedf14923c8a21b729f0adb538027c5ace8298dc25457e985"
+            }
+          }
+        },
+        {
+          "name": "_fixsfdi.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 44,
+              "sha256": "c52d469cba56b50203acd64047bb93b64756aaa9f5cbd5c34bb0dcf07c751d67"
+            }
+          }
+        },
+        {
+          "name": "_fixunsdfdi.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 212,
+              "sha256": "75a58a960b03e3dc7165d64fd4f48bcb6eb6f90602569c50076a38c8e31cb14a"
+            }
+          }
+        },
+        {
+          "name": "_fixunsdfsi.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 68,
+              "sha256": "55492fada54873f777241eaf218c0c4e131e53bbb58fd6ea47528869ccbd98bb"
+            }
+          }
+        },
+        {
+          "name": "_fixunssfdi.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 216,
+              "sha256": "7acad63ea5e1e7cb53e8db30c1733bd7e58e3e580ff0c9738259468778a603f5"
+            }
+          }
+        },
+        {
+          "name": "_fixunssfsi.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 52,
+              "sha256": "6c62bb5960f1f0a1d38c667ef572ed89ce615483274c319161c161c371d50539"
+            }
+          }
+        },
+        {
+          "name": "_floatdidf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 104,
+              "sha256": "45e25452d8b87bc712c37d888b4634eba97e8e633829e3d5de9307b9285c2bdd"
+            }
+          }
+        },
+        {
+          "name": "_floatdisf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 188,
+              "sha256": "1287b00a316494759b004e5949f1f59bb57067b2e754cc1134b2aaca75265e81"
+            }
+          }
+        },
+        {
+          "name": "_lshrdi3.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 52,
+              "sha256": "8fb04e77a92f583804e1b4feee1e23e0ab28b7e8d509bebfe50f90eac5726f5a"
+            }
+          }
+        },
+        {
+          "name": "_moddi3.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 1008,
+              "sha256": "9fc6e99a3fc31e6093f9c5222e011f846fe7f8258aa498913a691511db9eec1b"
+            },
+            ".rodata": {
+              "bytes": 256,
+              "sha256": "14a5d850c255623f9472e3c650abce0c78d32f0276b315b3a276a0462d97a1ac"
+            }
+          }
+        },
+        {
+          "name": "_modsi3.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 208,
+              "sha256": "b6cff6667b7e1a6335e2f82f82db5fa64e135b0a3defb14c7f0b49f600a2b031"
+            }
+          }
+        },
+        {
+          "name": "_muldi3.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 112,
+              "sha256": "d857546c6b037216853d139ba1d164c2a71b81b8d73a96fb15ff7e29fe79d669"
+            }
+          }
+        },
+        {
+          "name": "_negdi2.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 24,
+              "sha256": "059711c3a0ebcd77f91b47fd802665fe1bbe2416c84caffbf31cc1782815e29d"
+            }
+          }
+        },
+        {
+          "name": "_ucmpdi2.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 28,
+              "sha256": "50696eea45fe0bc4dfd77f3769315ac6de6328ccaf320d168b58e9abcc96e952"
+            }
+          }
+        },
+        {
+          "name": "_udiv_w_sdiv.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 4,
+              "sha256": "a7ddd513d149ea16fdd4db3f82267f83087aeaddd06b5dde5468adb704205fc4"
+            }
+          }
+        },
+        {
+          "name": "_udivdi3.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 984,
+              "sha256": "fb015dd28bb17e245f1e6c8de53b87d9ba227e7b128c4f82d6c838873f8b37f0"
+            },
+            ".rodata": {
+              "bytes": 256,
+              "sha256": "14a5d850c255623f9472e3c650abce0c78d32f0276b315b3a276a0462d97a1ac"
+            }
+          }
+        },
+        {
+          "name": "_udivmoddi4.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 1164,
+              "sha256": "46f05d53e4eef6830b85a14270325bb5410aba53ebd5fb30e2003f863b2b4ee8"
+            },
+            ".rodata": {
+              "bytes": 256,
+              "sha256": "14a5d850c255623f9472e3c650abce0c78d32f0276b315b3a276a0462d97a1ac"
+            }
+          }
+        },
+        {
+          "name": "_udivsi3.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 120,
+              "sha256": "ef44b6e0f7b9f3f9bb0d72fcad4e9b09c2f7369e86c39f00541475629a293afb"
+            }
+          }
+        },
+        {
+          "name": "_umoddi3.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 940,
+              "sha256": "d2c8819cc66a814cb443f7f7f146322700b4d7010c30b4ee052858e411625981"
+            },
+            ".rodata": {
+              "bytes": 256,
+              "sha256": "14a5d850c255623f9472e3c650abce0c78d32f0276b315b3a276a0462d97a1ac"
+            }
+          }
+        },
+        {
+          "name": "_umodsi3.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 192,
+              "sha256": "cff75b95f09ef0d5116d3b9643fe49e7e4bb56bb43d6618e802a3cce2823882c"
+            }
+          }
+        },
+        {
+          "name": "dp-bit.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 3484,
+              "sha256": "1196bb69a72696dc57edc564244f39e508ce0d30ac154156144d690fd9427a29"
+            }
+          }
+        },
+        {
+          "name": "fp-bit.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 2380,
+              "sha256": "bcbe623d504b40e226878fcc198d5036237b16dd8a4013038fb58ca65fd84a4c"
+            }
+          }
+        }
+      ]
+    },
+    "libc.a": {
+      "members": [
+        {
+          "name": "atol.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 12,
+              "sha256": "700e03bb2ba36807e0611ac758d57c0f5d6f9d89ff4d89a8b150266f92d68c3c"
+            }
+          }
+        },
+        {
+          "name": "putenv.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 64,
+              "sha256": "d7898ca3c26e013e43663fde5167c398de56adacd6b322f9f0a22b6693a8f60a"
+            }
+          }
+        },
+        {
+          "name": "__exp10.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 68,
+              "sha256": "5c14b7e1162863a3e43f64d9f3e3afb797c7a1cac435ce3d1375cd676241b4f9"
+            },
+            ".rodata": {
+              "bytes": 40,
+              "sha256": "98cbc101d9a9081fdb15208e28fe643e782acb523432134b788a236f04056068"
+            }
+          }
+        },
+        {
+          "name": "strdup.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 36,
+              "sha256": "bbb3837092992a158a5df0c3c86eebd4db5fb47c1dd57bebd4c5001d32cd8bfa"
+            }
+          }
+        },
+        {
+          "name": "__adjust.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 144,
+              "sha256": "42c6b63f46e44869ad87185b6adf47d9da4a6855270c7d22791cca04df1899af"
+            }
+          }
+        },
+        {
+          "name": "efgcvt.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 212,
+              "sha256": "d4b850c920411636ed6af0d850df8c352d8ee6a8391f439579e6196d5cd4392f"
+            }
+          }
+        },
+        {
+          "name": "eprintf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 36,
+              "sha256": "063bd95698c7ef49f09fda884a803a494ac7f34729e41b07d99ead34515cbf95"
+            }
+          }
+        },
+        {
+          "name": "realloc.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 24,
+              "sha256": "e7198f74d5983fbcbffacb5373e91f2af66b4636e9db37461c116a2ad236618e"
+            }
+          }
+        },
+        {
+          "name": "dtoastub.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 56,
+              "sha256": "81a93d0d97bd5360956a14a2b36258208d1059de2b36e137e04234c64f7cec6b"
+            }
+          }
+        },
+        {
+          "name": "dtoa.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 3668,
+              "sha256": "a0c6dfe4fc233ea1efa27fde50353b59b7f02bc4cfc3a64bd09e5c71f9823e36"
+            },
+            ".rodata": {
+              "bytes": 18,
+              "sha256": "fb9ffa3d870b0d263dd866dbb5c25817864a5e2f2af84c5b4177f0eb9c98f9d6"
+            }
+          }
+        },
+        {
+          "name": "malloc.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 40,
+              "sha256": "bba38583212abf45b7b16b0a0483db3dac2d73d4b3c4fd099e07973cd9c16f06"
+            }
+          }
+        },
+        {
+          "name": "div.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 68,
+              "sha256": "d22b6927afb91e3422a05648147905ad6711340f9610fe18e97f3348ceef10ed"
+            }
+          }
+        },
+        {
+          "name": "mblen.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 28,
+              "sha256": "a14c1a440366f79c1d34ce8d3a15584b6be118effe925236de28400ff5808dc9"
+            }
+          }
+        },
+        {
+          "name": "environ.o",
+          "allocated_sections": {
+            ".data": {
+              "bytes": 8,
+              "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+            }
+          }
+        },
+        {
+          "name": "mbtowc.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 40,
+              "sha256": "467bd475552355dc1a8f734dcb42324f29a4866ddf0c57adffc5449d4500f361"
+            }
+          }
+        },
+        {
+          "name": "wctomb.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 16,
+              "sha256": "33e290ad2db01bf5e8aa08ddfc9a985879c58c62a934b44d360fd8c5455c7aa6"
+            }
+          }
+        },
+        {
+          "name": "getopt.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 408,
+              "sha256": "17fe590d44e72a39e55a98870b99fe6c04762fa27c054fb1a2eae4b57b32d0ef"
+            },
+            ".data": {
+              "bytes": 12,
+              "sha256": "7d450465ceb49083708a6970827f0e0b116ed285072a95b451e55f583f56da8d"
+            },
+            ".rodata": {
+              "bytes": 71,
+              "sha256": "782fcb4cda83ade8519a38502cb9fc9b1a36f855b0ac8cc8d8cce630452c4a8b"
+            }
+          }
+        },
+        {
+          "name": "malign.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 24,
+              "sha256": "e7198f74d5983fbcbffacb5373e91f2af66b4636e9db37461c116a2ad236618e"
+            }
+          }
+        },
+        {
+          "name": "calloc.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 24,
+              "sha256": "e7198f74d5983fbcbffacb5373e91f2af66b4636e9db37461c116a2ad236618e"
+            }
+          }
+        },
+        {
+          "name": "wcstombs_r.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 124,
+              "sha256": "51b86edbcc85fde66abb0e2e89def8cba0bcc3702f70938ee28b9d8b81870633"
+            }
+          }
+        },
+        {
+          "name": "bsearch.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 88,
+              "sha256": "8583f094efff7f90973e3cdd3f7bfaa7d51f279e7d6823fc35fdeb5da9040114"
+            }
+          }
+        },
+        {
+          "name": "assert.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 36,
+              "sha256": "bcfa317b9141d89d83ad4e2851d5074115dae6546175edad474282ce30ab2d68"
+            },
+            ".rodata": {
+              "bytes": 43,
+              "sha256": "152b716ed9bc555700785ec1a688b193ccdbdbb4d97fce9e872150bd0c45c3ed"
+            }
+          }
+        },
+        {
+          "name": "rand_r.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 32,
+              "sha256": "2c9ba2768f98d7b33b379abe7bc39dce74e81152a79872ee3f1ec127ca0fc032"
+            }
+          }
+        },
+        {
+          "name": "exit.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 80,
+              "sha256": "ad3e5d5ffcffe2ffeaabfb6d53fae93c27f5419636865d4e20ad519cae2805e7"
+            }
+          }
+        },
+        {
+          "name": "mprec.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 2256,
+              "sha256": "9c3e89f67147d6ed05352b7212ab076f4c5d07e415f654bb84971c0ed241afb6"
+            },
+            ".rodata": {
+              "bytes": 292,
+              "sha256": "98b48ea3c6ebeb36072b20f32c97cd5ee871083dd79ea8938b8264e711660ced"
+            }
+          }
+        },
+        {
+          "name": "ecvtbuf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 1612,
+              "sha256": "c747019b5fd003a121f794d5af8b994e301e5b19acc99ee8380d19e9b704bb61"
+            }
+          }
+        },
+        {
+          "name": "abs.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "5073bcf2bfebde4b5d4d8a7e28591e65cb12d3b21da13f3091f3d6ded41571c1"
+            }
+          }
+        },
+        {
+          "name": "atoff.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 12,
+              "sha256": "7427374cf41087cb3beaad55e281faff918d0ea8baeb903abff928d10cd41c17"
+            }
+          }
+        },
+        {
+          "name": "strtoul.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 308,
+              "sha256": "b0232bf2c701dcbc0d94098b4dd0093eb94ba074d30654cc692e69105cce0a50"
+            }
+          }
+        },
+        {
+          "name": "__ten_mu.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 68,
+              "sha256": "92a96c3642105f9c522589555108ed05e79057243067d0f0f0de23ed965c9ae2"
+            }
+          }
+        },
+        {
+          "name": "atof.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 12,
+              "sha256": "7427374cf41087cb3beaad55e281faff918d0ea8baeb903abff928d10cd41c17"
+            }
+          }
+        },
+        {
+          "name": "atoi.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 12,
+              "sha256": "700e03bb2ba36807e0611ac758d57c0f5d6f9d89ff4d89a8b150266f92d68c3c"
+            }
+          }
+        },
+        {
+          "name": "qsort.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 1424,
+              "sha256": "d909a7ecc5b755bb7dee03dfb36b09ee54b2111f745a0ba4157c3f49984a6b91"
+            }
+          }
+        },
+        {
+          "name": "valloc.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 40,
+              "sha256": "bba38583212abf45b7b16b0a0483db3dac2d73d4b3c4fd099e07973cd9c16f06"
+            }
+          }
+        },
+        {
+          "name": "msize.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 20,
+              "sha256": "2c57842db9d3662d0c08fa0d9c916403b31416f69a827575c7ae974108b6baeb"
+            }
+          }
+        },
+        {
+          "name": "mbstowcs.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 32,
+              "sha256": "9300a5d07d58d181490e31c7240f26e24850d56ab063088bf6abea95dc7698d4"
+            }
+          }
+        },
+        {
+          "name": "atexit.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 92,
+              "sha256": "0e5f93097689ab0cfb784120478ddd0369fc009b464b1ec8dc2272e1872238c5"
+            }
+          }
+        },
+        {
+          "name": "ldiv.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 68,
+              "sha256": "d22b6927afb91e3422a05648147905ad6711340f9610fe18e97f3348ceef10ed"
+            }
+          }
+        },
+        {
+          "name": "strtod.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 2904,
+              "sha256": "8546827f19968b88c61545a462cb615316219efab11797db0a5a8df7fca17f32"
+            }
+          }
+        },
+        {
+          "name": "wctomb_r.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 344,
+              "sha256": "5ddd9176b38dfcde817d35a6d370ade5c0ebb214d5d3dcc5ec41770d2f6ceb5c"
+            },
+            ".rodata": {
+              "bytes": 22,
+              "sha256": "091a19196e16ab9c187c3b353dd40b04e9364a375622a8b88f90e598cbed84b7"
+            }
+          }
+        },
+        {
+          "name": "rand.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 52,
+              "sha256": "0b2dff1ef0f03b87fbd0f8e0a6d9ff65598d2c6f5f6d5dbdd560fed464ce81cd"
+            }
+          }
+        },
+        {
+          "name": "wcstombs.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 36,
+              "sha256": "ecf2c3e651d579f386a382b7924a2e23ca3a0688c793d7bba4ac9adc009eca7f"
+            }
+          }
+        },
+        {
+          "name": "labs.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "5073bcf2bfebde4b5d4d8a7e28591e65cb12d3b21da13f3091f3d6ded41571c1"
+            }
+          }
+        },
+        {
+          "name": "mtrim.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 20,
+              "sha256": "2c57842db9d3662d0c08fa0d9c916403b31416f69a827575c7ae974108b6baeb"
+            }
+          }
+        },
+        {
+          "name": "strtol.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 328,
+              "sha256": "772d2e5353698a2538029c116762afc277cf0767fe636074a80e6cc98dd4281d"
+            }
+          }
+        },
+        {
+          "name": "mbstowcs_r.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 96,
+              "sha256": "faacafaa3d0a97dca98aaa15cee63f5bf2f3a03950918560b754c4c585a8352b"
+            }
+          }
+        },
+        {
+          "name": "setenv.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 384,
+              "sha256": "45c53bd9c0380c938265623513ddb7e59beb02ff4bcb1964198f9b97d2d11486"
+            }
+          }
+        },
+        {
+          "name": "mstats.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 112,
+              "sha256": "61ae04c0dfdadb98be5c863e0c53889d12be6213eb9865ab430228f4e07c8c65"
+            },
+            ".rodata": {
+              "bytes": 33,
+              "sha256": "8a2a1716a66c96b81ba0156977e38b69aa61212d5f61f8b2a99cfb27ddb9440b"
+            }
+          }
+        },
+        {
+          "name": "mbtowc_r.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 44,
+              "sha256": "81b1b6098bb7831717679c7a4836362ee87a030207f6748ef3f32e6855024062"
+            }
+          }
+        },
+        {
+          "name": "system.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 44,
+              "sha256": "86342e40b4e3bdf9d175bc8402ab328c819be27172a15e93fcb30c9a8b40accf"
+            }
+          }
+        },
+        {
+          "name": "abort.o",
+          "allocated_sections": {
+            ".data": {
+              "bytes": 4,
+              "sha256": "67abdd721024f0ff4e0b3f4c2fc13bc5bad42d0b7851d456d88d203d15aaa450"
+            }
+          }
+        },
+        {
+          "name": "mlock.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "003c0b847efb07b6b20b062cbc0629446eaa8df1fc6565ee378a1aa962c4128c"
+            }
+          }
+        },
+        {
+          "name": "getenv.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 116,
+              "sha256": "26b3b4c6d040ea3f17695198bd46d527e48bfdd0f50f93e04661b500a6e5d3fc"
+            }
+          }
+        },
+        {
+          "name": "sysgetpid.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "99db61481ef0851aa9d7c2d024a3b049113116a7aa47b57028555c42f9f888c9"
+            }
+          }
+        },
+        {
+          "name": "sysgettod.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "99db61481ef0851aa9d7c2d024a3b049113116a7aa47b57028555c42f9f888c9"
+            }
+          }
+        },
+        {
+          "name": "systimes.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "99db61481ef0851aa9d7c2d024a3b049113116a7aa47b57028555c42f9f888c9"
+            }
+          }
+        },
+        {
+          "name": "syswait.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "99db61481ef0851aa9d7c2d024a3b049113116a7aa47b57028555c42f9f888c9"
+            }
+          }
+        },
+        {
+          "name": "sysfork.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "99db61481ef0851aa9d7c2d024a3b049113116a7aa47b57028555c42f9f888c9"
+            }
+          }
+        },
+        {
+          "name": "sysexecve.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "99db61481ef0851aa9d7c2d024a3b049113116a7aa47b57028555c42f9f888c9"
+            }
+          }
+        },
+        {
+          "name": "sysstat.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "99db61481ef0851aa9d7c2d024a3b049113116a7aa47b57028555c42f9f888c9"
+            }
+          }
+        },
+        {
+          "name": "syswrite.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "99db61481ef0851aa9d7c2d024a3b049113116a7aa47b57028555c42f9f888c9"
+            }
+          }
+        },
+        {
+          "name": "syslseek.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "99db61481ef0851aa9d7c2d024a3b049113116a7aa47b57028555c42f9f888c9"
+            }
+          }
+        },
+        {
+          "name": "syssbrk.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "99db61481ef0851aa9d7c2d024a3b049113116a7aa47b57028555c42f9f888c9"
+            }
+          }
+        },
+        {
+          "name": "sysclose.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "99db61481ef0851aa9d7c2d024a3b049113116a7aa47b57028555c42f9f888c9"
+            }
+          }
+        },
+        {
+          "name": "syskill.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "99db61481ef0851aa9d7c2d024a3b049113116a7aa47b57028555c42f9f888c9"
+            }
+          }
+        },
+        {
+          "name": "sysfstat.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "99db61481ef0851aa9d7c2d024a3b049113116a7aa47b57028555c42f9f888c9"
+            }
+          }
+        },
+        {
+          "name": "sysread.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "99db61481ef0851aa9d7c2d024a3b049113116a7aa47b57028555c42f9f888c9"
+            }
+          }
+        },
+        {
+          "name": "sysopen.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 20,
+              "sha256": "d37ef57e9398ed4cdbbd8e335087cdbc0c1eb19605cc65061caa2936d7f741c7"
+            }
+          }
+        },
+        {
+          "name": "sysunlink.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "99db61481ef0851aa9d7c2d024a3b049113116a7aa47b57028555c42f9f888c9"
+            }
+          }
+        },
+        {
+          "name": "syslink.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "99db61481ef0851aa9d7c2d024a3b049113116a7aa47b57028555c42f9f888c9"
+            }
+          }
+        },
+        {
+          "name": "sysfcntl.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "99db61481ef0851aa9d7c2d024a3b049113116a7aa47b57028555c42f9f888c9"
+            }
+          }
+        },
+        {
+          "name": "unctrl.o",
+          "allocated_sections": {
+            ".data": {
+              "bytes": 35,
+              "sha256": "39058345f65e85794874b4e3cd9408acb8390035e189fbc49da882f25ee01d3a"
+            },
+            ".rodata": {
+              "bytes": 2815,
+              "sha256": "26c4e806c82f547f216cc8c5e3c8a12e2eb1200c69c84c55160f3c0cdc037425"
+            }
+          }
+        },
+        {
+          "name": "ffs.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 32,
+              "sha256": "fe38f55cbad7762aaf8fc7f7c3a236e299e516b80f7e35b3cefe1b277e56ffbf"
+            }
+          }
+        },
+        {
+          "name": "dprintf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 956,
+              "sha256": "fb92b94a0c22d8a1a598550bd6a4ac0de559e8fa3318ee063f7e457504fbc5da"
+            },
+            ".data": {
+              "bytes": 16,
+              "sha256": "9f9f5111f7b27a781f1f1ddde5ebc2dd2b796bfc7365c9c28b548e564176929f"
+            }
+          }
+        },
+        {
+          "name": "s_isinf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 36,
+              "sha256": "e29fc3f7fa51454d492b2bcd8dac65274d3fa9db4bb11e3cd68519572afe8994"
+            }
+          }
+        },
+        {
+          "name": "sf_finite.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 24,
+              "sha256": "2de33c7baffd14bef5ac16f8ce4669f42e15f0fa88c952d88ccef4c460d888db"
+            }
+          }
+        },
+        {
+          "name": "sf_modf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 92,
+              "sha256": "b6193d943887e121c244b55c66ecd4598a8ed8363fefd02578a6226b0df85198"
+            },
+            ".rodata": {
+              "bytes": 4,
+              "sha256": "e00e5eb9444182f352323374ef4e08ebcb784725fdd4fd612d7730540b3e0c8c"
+            }
+          }
+        },
+        {
+          "name": "s_ldexp.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 104,
+              "sha256": "48eb6da723ce8e987ac988e487265a2816b2f1be618eea7acdf362a518c6d3f4"
+            }
+          }
+        },
+        {
+          "name": "sf_isinf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 28,
+              "sha256": "d3b2bec27abcf197939db588e7df1acee557939e5fce8f8e6d73ed73f1c2a770"
+            }
+          }
+        },
+        {
+          "name": "s_copysign.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 40,
+              "sha256": "9875e1c14e5d68450fd48f3b2c4c5cff604ef84c38b01cecb57395e8ea0de33c"
+            }
+          }
+        },
+        {
+          "name": "s_infconst.o",
+          "allocated_sections": {
+            ".rodata": {
+              "bytes": 8,
+              "sha256": "157294566aa42230b88f489dae6bfe46ec3dcbfe685214081732dc9ef00cfdd1"
+            }
+          }
+        },
+        {
+          "name": "sf_copysign.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 20,
+              "sha256": "c3b02abb1404f28ac0f535cb22dd84161adb1c8fdfc10b598f704403a3796636"
+            }
+          }
+        },
+        {
+          "name": "sf_ldexp.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 76,
+              "sha256": "292d29d1f7110d8f841d0b8e554cbb67b4188c6cdffa7a650d8b9da7a1113c67"
+            }
+          }
+        },
+        {
+          "name": "sf_scalbn.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 236,
+              "sha256": "85c8763bce689591bb428fcfaf7fe55af0f2368bad388fb0d3989174d92e55ab"
+            },
+            ".rodata": {
+              "bytes": 16,
+              "sha256": "a904d898b37df447676b067a8a316d2693ac2a5f63ebddaafcf537bbee36385f"
+            }
+          }
+        },
+        {
+          "name": "s_modf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 236,
+              "sha256": "9154936140dc9942a3c6aac0b4007dd1faecbaee320c4445b743acb1a4f07fd8"
+            },
+            ".rodata": {
+              "bytes": 8,
+              "sha256": "6240a6d55bb75ff2296e57c166fbbef9f33e7f9b965967951d19bd7611f65279"
+            }
+          }
+        },
+        {
+          "name": "sf_isnan.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 20,
+              "sha256": "d7a1745b21a9efef37751b3aae1cb1bb46897938bf159725ede5c9c1b4d529a1"
+            }
+          }
+        },
+        {
+          "name": "s_frexp.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 140,
+              "sha256": "4b80b33e9cb3e31a4988818c34c9e445c542fd020def353662394586dfb33cc8"
+            },
+            ".rodata": {
+              "bytes": 8,
+              "sha256": "0fec95d942e957fc8e1740833a43d709843071be00fce6a9c91a38221a09a812"
+            }
+          }
+        },
+        {
+          "name": "s_isnan.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 32,
+              "sha256": "34d4088fc83e8336d2419181a254110427049d1e6efc30be515e3eb387336e0b"
+            }
+          }
+        },
+        {
+          "name": "s_finite.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 24,
+              "sha256": "0b1ae68ae1c982c725c995a2e129a6edaf14d4c9de7eda2bb47071cba3660155"
+            }
+          }
+        },
+        {
+          "name": "s_scalbn.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 348,
+              "sha256": "31809360bc64e97f15640bc2db18b7b67442637d518932ca2b8ad73d9a138b1c"
+            },
+            ".rodata": {
+              "bytes": 32,
+              "sha256": "d3a12328682f3a3d5c1070147fd2d28edde81a2945ede1d9bdb09551b01f597c"
+            }
+          }
+        },
+        {
+          "name": "sf_frexp.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 104,
+              "sha256": "fab4307dd18daecbb5bf0ac21617514507f269e46f562815e9df984d4c8160e8"
+            },
+            ".rodata": {
+              "bytes": 4,
+              "sha256": "dbf8f061b38993c8d7dc1f521c3df09f31359d1fb947e19efac98362f99d46de"
+            }
+          }
+        },
+        {
+          "name": "libcfunc.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 40,
+              "sha256": "2e3e49f3e994542dfa0f92b61e8b52bdfa08fd71b197410eb0e904d0d7eac427"
+            }
+          }
+        },
+        {
+          "name": "syscalls.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 1124,
+              "sha256": "dcf5c21d01204048ca727aac49c3ae851672fe70a5723641d3d66d01596168a2"
+            },
+            ".rodata": {
+              "bytes": 37,
+              "sha256": "fca0d5227dfadf11e0969f8d68407dc1e03c4008d0864b09208aa2355d6d80c4"
+            }
+          }
+        },
+        {
+          "name": "locale.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 108,
+              "sha256": "f973d47e97d9cb1bbed91ecb457f653095b9e1bfc209760986a2ced8b6bbae7c"
+            },
+            ".data": {
+              "bytes": 20,
+              "sha256": "5c7d44aa6b51fb8d82e57148738c2b113d6423c801bc0028ad7088d8af4c3db0"
+            },
+            ".rodata": {
+              "bytes": 58,
+              "sha256": "2f50728460b0a4c1c68ba09af304f5305e517c2f9a6303b8a19fd0c546f1debb"
+            }
+          }
+        },
+        {
+          "name": "signalr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 52,
+              "sha256": "0825ed7d8abbad9acd0f2066ac7dbd4e9028ec15a2350f54bb21d1171e5d90c2"
+            }
+          }
+        },
+        {
+          "name": "sbrkr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 44,
+              "sha256": "6617b0b942cd67811b04fe4db600e0b1c679b9d79bfb82c832b658c1b8d3e5e1"
+            }
+          }
+        },
+        {
+          "name": "readr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 48,
+              "sha256": "227485268f5767cda91736729518a56c2bbfd46fa4eb165db2cf848dd09a58ee"
+            }
+          }
+        },
+        {
+          "name": "fstatr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 44,
+              "sha256": "b809f55b13f9fe8ccbc5c9e46a9f9e001982b29f58c61defb69a4286bea18d2b"
+            }
+          }
+        },
+        {
+          "name": "execr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 132,
+              "sha256": "a1c406e86f0f1b148a262f04044b241ad7ad6a3344d20a5574fc223e5689ac10"
+            }
+          }
+        },
+        {
+          "name": "openr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 48,
+              "sha256": "227485268f5767cda91736729518a56c2bbfd46fa4eb165db2cf848dd09a58ee"
+            }
+          }
+        },
+        {
+          "name": "writer.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 48,
+              "sha256": "227485268f5767cda91736729518a56c2bbfd46fa4eb165db2cf848dd09a58ee"
+            }
+          }
+        },
+        {
+          "name": "linkr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 88,
+              "sha256": "133a498aacfaba96019397036610c999a18c26a0dea982f7b91fb2256d766c71"
+            }
+          }
+        },
+        {
+          "name": "impure.o",
+          "allocated_sections": {
+            ".data": {
+              "bytes": 752,
+              "sha256": "4a5bb5b3ba3631b0aa9b467285449a44957d47c40987610eed189167ddb4905c"
+            },
+            ".rodata": {
+              "bytes": 2,
+              "sha256": "7e46dde720f00e74467c313a1142b572a18a5f03561bc08d6633de9a09d9eaa6"
+            }
+          }
+        },
+        {
+          "name": "statr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 44,
+              "sha256": "b809f55b13f9fe8ccbc5c9e46a9f9e001982b29f58c61defb69a4286bea18d2b"
+            }
+          }
+        },
+        {
+          "name": "lseekr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 48,
+              "sha256": "227485268f5767cda91736729518a56c2bbfd46fa4eb165db2cf848dd09a58ee"
+            }
+          }
+        },
+        {
+          "name": "timer.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 56,
+              "sha256": "135fc8c7d695f6a0759da0b19cea5bf802997b56cd18b564e6c50c8c940cb820"
+            }
+          }
+        },
+        {
+          "name": "closer.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 44,
+              "sha256": "6617b0b942cd67811b04fe4db600e0b1c679b9d79bfb82c832b658c1b8d3e5e1"
+            }
+          }
+        },
+        {
+          "name": "reent.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 256,
+              "sha256": "5dcd3fb8bdf1e57e6e20d84842d1d92beed0626e3525363d6d3c827cb16d47ee"
+            }
+          }
+        },
+        {
+          "name": "errno.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 12,
+              "sha256": "9d3fd4ef2595120eb31021905df74e2ab619cb481942bb2a1742a20cd483ec98"
+            }
+          }
+        },
+        {
+          "name": "vprintf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 24,
+              "sha256": "f2e5a606e61ffeed9450b795ce1c2584f372cfda6096d159db548e89949f26a6"
+            }
+          }
+        },
+        {
+          "name": "perror.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 84,
+              "sha256": "18becc4455a0b4753f4515eebceaf2f360b9d8260bbbd8cafba933c5de64c934"
+            },
+            ".rodata": {
+              "bytes": 3,
+              "sha256": "009837f45c558b8c59e1d415d41e65141be5d51ca7bf56ef3eed489187825a88"
+            }
+          }
+        },
+        {
+          "name": "setbuf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 20,
+              "sha256": "59373fb054afa773fc316e6f6c3b38ba910635f05c9b4cc6cf54eface57d155d"
+            }
+          }
+        },
+        {
+          "name": "fwalk.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 64,
+              "sha256": "97af075745766724aba968602e5cdbd18d95d5957a63620b3f4c8dea8c12eb7c"
+            }
+          }
+        },
+        {
+          "name": "rget.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 36,
+              "sha256": "a632e4886c6b20551bd7235eee985f340af9395c7908884caec96b7a57f30d5d"
+            }
+          }
+        },
+        {
+          "name": "sscanf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 76,
+              "sha256": "51529d561c93a9d28548c27a76af4d2e09298f79352f45e8e30c12a33479a3c3"
+            }
+          }
+        },
+        {
+          "name": "ftell.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 152,
+              "sha256": "dd0212ea8b79ff0e9c83328c6543ddf7590392a12401177b19eec33710395873"
+            }
+          }
+        },
+        {
+          "name": "fopen.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 152,
+              "sha256": "f06e6d3afdff2aec27da67ff07d861327e63ee402b4fc9fe4fa3d9c6bda9a19a"
+            }
+          }
+        },
+        {
+          "name": "clearerr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 12,
+              "sha256": "d910abcbc4af2f9573378ba994539e4fc5f98477c3bdc7489708e895d4fea3ee"
+            }
+          }
+        },
+        {
+          "name": "fclose.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 160,
+              "sha256": "3174c9bb41931a21adc11836953c61ad9e4e772134a1d59d0fcb419943f4016a"
+            }
+          }
+        },
+        {
+          "name": "wsetup.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 172,
+              "sha256": "aa22c2ec8b6717e14be4f67f10057dfb58f894b58e36055b3caa0b811b642f88"
+            }
+          }
+        },
+        {
+          "name": "vsprintf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 52,
+              "sha256": "da8ea69e01625d2e4bcb050266304fb1d863018080ecacf52f60d80de8e914da"
+            }
+          }
+        },
+        {
+          "name": "fgets.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 152,
+              "sha256": "d1840d0ad668a5f7756b58a7f4551d950000dbb41ed0b85ff8e20d8611374153"
+            }
+          }
+        },
+        {
+          "name": "vfprintf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 4460,
+              "sha256": "4e9985cb91bd253417e0705aee6820a12c8e603f6fcf7fe218cba7a071fcc1d2"
+            },
+            ".rodata": {
+              "bytes": 122,
+              "sha256": "1528774b6f50397998c1f2a7ceababb4b9b05a55601c43fdd3a7e8cc78ffd2de"
+            }
+          }
+        },
+        {
+          "name": "tmpnam.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 348,
+              "sha256": "76718df3ecde972c6823f73ea45a44256b9708d2d4e4221037e5802c0c876fe6"
+            },
+            ".rodata": {
+              "bytes": 35,
+              "sha256": "5e251be46f0059520229d62edcdcb631cada67f29485956236a7019c1e670b48"
+            }
+          }
+        },
+        {
+          "name": "mktemp.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 392,
+              "sha256": "f7368ab59f79834e5eb208694f13f0631e63545aee40d25d85fc00ea3e21838c"
+            }
+          }
+        },
+        {
+          "name": "fileno.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 40,
+              "sha256": "b20ac5a08f1d77bb89c6f190db91700d0ddd73ad2cacd6e9fe639d32c95bcaa7"
+            }
+          }
+        },
+        {
+          "name": "makebuf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 220,
+              "sha256": "78de7de5be9f497beac57bc1e7fc0c0945c4a1c124b6aaa13e67a75d3518421f"
+            }
+          }
+        },
+        {
+          "name": "fgetc.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 32,
+              "sha256": "c5a1842e2a016c6d203b1990234e0bd89ee67855de9e05d4bb27f6cf0c00425d"
+            }
+          }
+        },
+        {
+          "name": "fseek.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 744,
+              "sha256": "6138340d562924222f22aa7e4d07faf4696abc73c1cf7e2ddaeec8fa19b10935"
+            }
+          }
+        },
+        {
+          "name": "ungetc.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 352,
+              "sha256": "786d61ac63e7b948603979fed6c98fa840a000b8db40a28cd9bce40b0e91cae5"
+            }
+          }
+        },
+        {
+          "name": "fdopen.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 168,
+              "sha256": "0828e854d1c347ae9a1bbb6c6128732c616ac2013260d7785ee83f4f8f24715a"
+            }
+          }
+        },
+        {
+          "name": "fprintf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 20,
+              "sha256": "b94ace9f1e6d64626e9c922f4bf335f82f568ec1b0aef3804d0e5b57e09f0975"
+            }
+          }
+        },
+        {
+          "name": "rewind.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 24,
+              "sha256": "a40cf8c341572e85e112926f2eb03017fdfc247f16ebcaa502ffc7a22c7f5f86"
+            }
+          }
+        },
+        {
+          "name": "setvbuf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 256,
+              "sha256": "42254eca3013f036dc76882a3dcfbad59bdfec69670186f87ef5b708fad6c066"
+            }
+          }
+        },
+        {
+          "name": "ferror.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 12,
+              "sha256": "78b51c4aa08a067c7ae8e2c2368439b85fe221e5744a601a6e2a78a2a9106597"
+            }
+          }
+        },
+        {
+          "name": "fscanf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 20,
+              "sha256": "b94ace9f1e6d64626e9c922f4bf335f82f568ec1b0aef3804d0e5b57e09f0975"
+            }
+          }
+        },
+        {
+          "name": "fsetpos.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 24,
+              "sha256": "9444e3a010bff14485c06f5835f698ec1d2663d33aed4b30bbdbf6689ae41f17"
+            }
+          }
+        },
+        {
+          "name": "flags.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 92,
+              "sha256": "345ee3f5bca697e4bcc967f36376a61dbc54c5951b7895d72dc675756550dade"
+            }
+          }
+        },
+        {
+          "name": "putc.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 64,
+              "sha256": "33aa57fc8b3fdc3b27d256e27fd93b3812343d50a46c5cc65d6dcb6dbc47b374"
+            }
+          }
+        },
+        {
+          "name": "fiprintf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 20,
+              "sha256": "b94ace9f1e6d64626e9c922f4bf335f82f568ec1b0aef3804d0e5b57e09f0975"
+            }
+          }
+        },
+        {
+          "name": "fvwrite.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 556,
+              "sha256": "c65456b90b52ae1a11f02c83fc7608af78178153e3cbc5ec97de68ae179aa611"
+            }
+          }
+        },
+        {
+          "name": "putchar.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 92,
+              "sha256": "0fb462dbf2ac19003ea6b170905c34c1a9f533ccc79a7a6de84fab31279d5ad5"
+            }
+          }
+        },
+        {
+          "name": "freopen.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 276,
+              "sha256": "804846175b87100f4ba3fd842a447c735f0b878c3d7f63b81902d70cc49feac2"
+            }
+          }
+        },
+        {
+          "name": "fgetpos.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 28,
+              "sha256": "0e54b9cfc9cafce8b11f4daf1481c395998850acc19227f703bc88005d3b6349"
+            }
+          }
+        },
+        {
+          "name": "findfp.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 348,
+              "sha256": "aa3c83f7b38f4c921b4ad95669e9b59995f7770200283d3ce66962e3c812aaed"
+            }
+          }
+        },
+        {
+          "name": "refill.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 252,
+              "sha256": "b17dc62bc9ccacd1075a2fcfde6cc1b31b52f547fa5a22914a4012a40b1ec3c7"
+            }
+          }
+        },
+        {
+          "name": "wbuf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 152,
+              "sha256": "59d19b577a1e688f2b19ec236fb593e1b494c68225588c6959ea70602bb9fd91"
+            }
+          }
+        },
+        {
+          "name": "fwrite.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 56,
+              "sha256": "9c9b7816e2c409f789048d41e9a694e8bea642c4a3e4cb2a535a708f38a9de1f"
+            }
+          }
+        },
+        {
+          "name": "siprintf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 64,
+              "sha256": "ecefc533da699d959448e9af58e7ba3bd6a4f14702e1f44183c910a473dc43f5"
+            }
+          }
+        },
+        {
+          "name": "getchar.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 48,
+              "sha256": "3ffabae1caffec3a76ce23922e638249f1178252928223e237ca009ec0216d3b"
+            }
+          }
+        },
+        {
+          "name": "iprintf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 52,
+              "sha256": "3fa0020d1c6c0753579ea7a45c6b01046bc038b23d66e8f72b972e1502ea39af"
+            }
+          }
+        },
+        {
+          "name": "tmpfile.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 80,
+              "sha256": "1e004f3f993d644b7d9146ca4bfb23d3d91993ebbf3dfe5d6e71b7b8ab1678c0"
+            },
+            ".rodata": {
+              "bytes": 4,
+              "sha256": "3fe05b100afce0cb35d8919354ffad380103dd654417f0582127fce4dd0be880"
+            }
+          }
+        },
+        {
+          "name": "fread.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 128,
+              "sha256": "dffbb7a4d800535fb4b82610fbc3148312577532f95d50a157b7e660c4467f78"
+            }
+          }
+        },
+        {
+          "name": "feof.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 12,
+              "sha256": "e8c258ea78984c7eed00e3c8f4267b0464a48ceca5430dddae1b3cb5b670481d"
+            }
+          }
+        },
+        {
+          "name": "remove.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 44,
+              "sha256": "5345be7723b399cce45603fdf91f0671bb83d841f908a46c0830b0602f19360b"
+            }
+          }
+        },
+        {
+          "name": "puts.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 84,
+              "sha256": "7eda3544ffce50e074c1edd4e5134c7ee49ff38a72a291362699b160089be1f6"
+            },
+            ".rodata": {
+              "bytes": 2,
+              "sha256": "102b51b9765a56a3e899f7cf0ee38e5251f9c503b357b330a49183eb7b155604"
+            }
+          }
+        },
+        {
+          "name": "scanf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 48,
+              "sha256": "7a79707d0319f2a8b9395a85700380adb4efd98812b89669c293e482838822da"
+            }
+          }
+        },
+        {
+          "name": "fputc.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 64,
+              "sha256": "33aa57fc8b3fdc3b27d256e27fd93b3812343d50a46c5cc65d6dcb6dbc47b374"
+            }
+          }
+        },
+        {
+          "name": "vfscanf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 3156,
+              "sha256": "0be4cb2ae55623fa6835454b09128f0eced57004d1f839a89b26e1feb6d978a9"
+            },
+            ".rodata": {
+              "bytes": 34,
+              "sha256": "dd6ca879828b24ddb6c171a3acd1e238dc0080e3b9f466c4b11c39cdc402a413"
+            }
+          }
+        },
+        {
+          "name": "fflush.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 148,
+              "sha256": "496e08fa4663d44bc3e214f12fcfbc1d9a0348e27ef2463bbc4ce3305510dc31"
+            }
+          }
+        },
+        {
+          "name": "stdio.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 196,
+              "sha256": "f8188d1e6e8926c866a980dff83181540463569dc1ce2e5bb9bd4a65f5226919"
+            }
+          }
+        },
+        {
+          "name": "sprintf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 124,
+              "sha256": "0f0616c44ec569edd383a6b1184ec80fbe16db2e0fe64d027315accd62b47564"
+            }
+          }
+        },
+        {
+          "name": "gets.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 72,
+              "sha256": "326b6ff53b87fba68c40e3a25c01c7361b07fe481be9a15ecf4a1ed435e218ea"
+            }
+          }
+        },
+        {
+          "name": "getc.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 32,
+              "sha256": "c5a1842e2a016c6d203b1990234e0bd89ee67855de9e05d4bb27f6cf0c00425d"
+            }
+          }
+        },
+        {
+          "name": "rename.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 64,
+              "sha256": "f2913a3c47f091d41512ce380a0c5d455bd0d9cede58ec47660f6d85db3249dc"
+            }
+          }
+        },
+        {
+          "name": "printf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 52,
+              "sha256": "f759bb450efe3c6c76db95235addfd4d6662c85d425fd2af582d6c2fae849710"
+            }
+          }
+        },
+        {
+          "name": "fputs.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 36,
+              "sha256": "e8be7815fc8aa87a00ed2351614332a10c609371d13aa78bcc7fef3054b7c1f9"
+            }
+          }
+        },
+        {
+          "name": "gmtime.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 20,
+              "sha256": "5ad3f200d358d8ef06790afc929fe3e372cc0914e0a6616e322ec1ac486ad375"
+            }
+          }
+        },
+        {
+          "name": "clock.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 48,
+              "sha256": "140ff2e797971a4ff2884469c4ba27da89ff473df2d49807d4be74b13787953d"
+            }
+          }
+        },
+        {
+          "name": "mktime.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 844,
+              "sha256": "e885b885c4b064e478c094a9c4d88c6881108aee7dcc28141c447adadc5f2403"
+            },
+            ".rodata": {
+              "bytes": 96,
+              "sha256": "822a228f8c5ccf3184802714191b3c4ce2afc9832a98e12bbb5737923319c8c7"
+            }
+          }
+        },
+        {
+          "name": "gmtime_r.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 20,
+              "sha256": "5ad3f200d358d8ef06790afc929fe3e372cc0914e0a6616e322ec1ac486ad375"
+            }
+          }
+        },
+        {
+          "name": "strftime.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 1472,
+              "sha256": "fe4217c8f7abd67d99351a2a78bd796e17f323775e7236dabeedca636a1ae530"
+            },
+            ".rodata": {
+              "bytes": 429,
+              "sha256": "95a02ff2dc547cfe5647d1f44b5603eddbee63409ed51374681c7b44595a4357"
+            }
+          }
+        },
+        {
+          "name": "lcltime.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 20,
+              "sha256": "0a40d5d18844f3b8bde965de1361a639a999d10a08e2c05f9fee4538346ed9d7"
+            }
+          }
+        },
+        {
+          "name": "lcltime_r.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 352,
+              "sha256": "af7e4021f0e29b3b3cdb3634a1bde165b48b14f5e80a6f0abc6290e5e39f5a9d"
+            },
+            ".rodata": {
+              "bytes": 104,
+              "sha256": "3b1bbb239f48ae626be98ff7971c55521ba6530687ef9610683909cb7875f38f"
+            }
+          }
+        },
+        {
+          "name": "ctime.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 12,
+              "sha256": "0d796bdb46cf8cbae2e1c8b8a790a2bd4fba8d53a81f951c0c5a9d26b3470a38"
+            }
+          }
+        },
+        {
+          "name": "time.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 44,
+              "sha256": "2937b23a514317fc6c37a5d07e3f866f4c025b86aaaaf765d4f303b10d9f59de"
+            }
+          }
+        },
+        {
+          "name": "ctime_r.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 24,
+              "sha256": "6d43aa1a50c5cf130063d48573546b8e38dca0da41ea22a350b19b49e71dd735"
+            }
+          }
+        },
+        {
+          "name": "asctime_r.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 80,
+              "sha256": "3df43aa29a755f6febb991701b43c1f3be73ea10313b090a5dabfbd1a09299c6"
+            },
+            ".rodata": {
+              "bytes": 94,
+              "sha256": "a00545716ed37f6234e5a1b740c944ea4873c0bdf80d48af3acfad70f9ff1719"
+            }
+          }
+        },
+        {
+          "name": "asctime.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 20,
+              "sha256": "b3014ffca04f749e83d25a013e43b2bb7f5652fa98277bc2f1c3c42ab3312cac"
+            }
+          }
+        },
+        {
+          "name": "difftime.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 32,
+              "sha256": "a27208f127bdba311af471e9aa6ca07822c03ea70e0ee99955d4c0f2ec97f555"
+            }
+          }
+        },
+        {
+          "name": "raise.o",
+          "allocated_sections": {}
+        },
+        {
+          "name": "signal.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 464,
+              "sha256": "0f75df80e5bbcb863d752720297c1ffa257b89ab16bfffa2532c3db7d7d31172"
+            }
+          }
+        },
+        {
+          "name": "strtok.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 20,
+              "sha256": "97d1725b9359f856bbd77247a6b035cc3b79af6f4c7124a9c2a87493acecc043"
+            }
+          }
+        },
+        {
+          "name": "strrchr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 36,
+              "sha256": "7361ac413f5b71e3df96b8346bf1dbc77a70f5b65458c748b7d16e0447fdac09"
+            }
+          }
+        },
+        {
+          "name": "strlen.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 68,
+              "sha256": "4a97c8c8cc9a453a571811bf5e047b3518cca2426562b5c3bb3804eb0b136128"
+            }
+          }
+        },
+        {
+          "name": "strpbrk.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 68,
+              "sha256": "cb155f8278615eed782c45bcaeb2cbeffba38a95c9bf286db9394de447d82082"
+            }
+          }
+        },
+        {
+          "name": "strcat.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 72,
+              "sha256": "7e8833f4c44994cbd05016bd2021d4d67ea2c84af6c6719a36f839efb77ac1ee"
+            }
+          }
+        },
+        {
+          "name": "strchr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 140,
+              "sha256": "574add0df5797bcad4f62326f5e6606970b506c0f1f10174f8233c063d9c67b8"
+            }
+          }
+        },
+        {
+          "name": "memcmp.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 72,
+              "sha256": "b38499d8e01bbee14d28cb55c24fe79a2565eb1f0c0de262f7b657c29342f3fe"
+            }
+          }
+        },
+        {
+          "name": "strspn.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 52,
+              "sha256": "fce1ff8b9b0f7daf428e5ade8a336178329243967b1556ea6606b2aff15d0604"
+            }
+          }
+        },
+        {
+          "name": "strerror.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 1060,
+              "sha256": "400d84088893ef5084e18da10145a0b0680c647b9d3354664d8a3a4daa2fa78b"
+            },
+            ".rodata": {
+              "bytes": 1573,
+              "sha256": "f608762cff18539085403bf7cd27f9185cbe697353f83373e9dcbb56c3fde576"
+            }
+          }
+        },
+        {
+          "name": "strcspn.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 52,
+              "sha256": "7cad9215ce049b48a4b900c7fb67f1cc1a6e2f1a281f66545262d3b29dcd4fd6"
+            }
+          }
+        },
+        {
+          "name": "index.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "99db61481ef0851aa9d7c2d024a3b049113116a7aa47b57028555c42f9f888c9"
+            }
+          }
+        },
+        {
+          "name": "strtok_r.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 96,
+              "sha256": "348fa9c1a87905d808cc748e88738d98944c2d0d24c2003e4855d3c2c979b11b"
+            }
+          }
+        },
+        {
+          "name": "strcasecmp.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 112,
+              "sha256": "b05bf42cb5edf9f1e6542bfb0831568d2208cea4ad5b1e9c94dbd92d9c518a1e"
+            }
+          }
+        },
+        {
+          "name": "memset.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 84,
+              "sha256": "082024106dafc0d4943c25c05f1e2704df0b2ea1dd5876929b97384e3179abff"
+            }
+          }
+        },
+        {
+          "name": "memmove.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 136,
+              "sha256": "51abd62881ab3a984bff36e973b07938c5a7f55ffb621c1b5b538d2ac6df4733"
+            }
+          }
+        },
+        {
+          "name": "strcpy.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 76,
+              "sha256": "e6fec731464677978f23752f6d0e920ba2ad91f2ff09baf18d0f65383d6508c5"
+            }
+          }
+        },
+        {
+          "name": "strlwr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 52,
+              "sha256": "21da7e332f3ee5bb7cd510071d9e3b05e5ce71a898cd626511458a21e34b3f78"
+            }
+          }
+        },
+        {
+          "name": "bzero.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 28,
+              "sha256": "626940510b10e89c38949f3f26ee2c2bf1201465b5469eabb5956ceeb88888e3"
+            }
+          }
+        },
+        {
+          "name": "strncat.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 104,
+              "sha256": "48911a3e264b679e6235196f6259fe920871f8b58d7301f2f305260964f36489"
+            }
+          }
+        },
+        {
+          "name": "strcmp.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 92,
+              "sha256": "1b7aa0f0af6362299cacd47685f7bf60cb4f6da1d9d84bc72330440631b0eb1c"
+            }
+          }
+        },
+        {
+          "name": "strstr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 68,
+              "sha256": "9532efcb2ca423d71fe24198d1fa81194290bb9027e9c4ff851f905db2cffd0e"
+            }
+          }
+        },
+        {
+          "name": "strncpy.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 112,
+              "sha256": "c020b6946667e383cb7d7fd0260154320f49f82e635438045bc9fe041ee6ed1e"
+            }
+          }
+        },
+        {
+          "name": "u_strerr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 4,
+              "sha256": "a7ddd513d149ea16fdd4db3f82267f83087aeaddd06b5dde5468adb704205fc4"
+            }
+          }
+        },
+        {
+          "name": "strcoll.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "99db61481ef0851aa9d7c2d024a3b049113116a7aa47b57028555c42f9f888c9"
+            }
+          }
+        },
+        {
+          "name": "memcpy.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 96,
+              "sha256": "79749a95af8d1e1b6b7f16d76da958e2faee958f09e7e4e4d1509e9840a85a44"
+            }
+          }
+        },
+        {
+          "name": "memchr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 128,
+              "sha256": "6fe461f0000cde21371a499723f03c57ad744cd8ece826d91712aff276a9e9cc"
+            }
+          }
+        },
+        {
+          "name": "strupr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 52,
+              "sha256": "18412391c571a675591897ecd8c96038aebdb8fd437ec141f8612c5b79a6f4c5"
+            }
+          }
+        },
+        {
+          "name": "rindex.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "99db61481ef0851aa9d7c2d024a3b049113116a7aa47b57028555c42f9f888c9"
+            }
+          }
+        },
+        {
+          "name": "strncasecmp.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 164,
+              "sha256": "0b3b4d3611fbb2e9a55b8e9710bd6d47811a75fa7c30bc570d605218b155e1f9"
+            }
+          }
+        },
+        {
+          "name": "strncmp.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 136,
+              "sha256": "d596313e3bae9594720a2159c0d5b4850854df83bbd3a28c0f5a39368d9be7c4"
+            }
+          }
+        },
+        {
+          "name": "bcopy.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 16,
+              "sha256": "5d3c0aeddf532fb22a617d91a94cd656f2e5c90d566f1e2afb0c404c88f9cf54"
+            }
+          }
+        },
+        {
+          "name": "bcmp.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "99db61481ef0851aa9d7c2d024a3b049113116a7aa47b57028555c42f9f888c9"
+            }
+          }
+        },
+        {
+          "name": "strxfrm.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 48,
+              "sha256": "4831cd9067298480049b965008fa07840c754181c65d72ecd12d74eacfe930c3"
+            }
+          }
+        },
+        {
+          "name": "toascii.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 8,
+              "sha256": "72567959c1f6e549b317a5a21eecf48c6ac5c40ade3721f1b9f9bfbc59f64246"
+            }
+          }
+        },
+        {
+          "name": "isascii.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 12,
+              "sha256": "fa04004a6afbb551f5e7add973c44ca45bdc01cf8237bfd0bc0351665aca5f02"
+            }
+          }
+        },
+        {
+          "name": "ctype_.o",
+          "allocated_sections": {
+            ".rodata": {
+              "bytes": 257,
+              "sha256": "8b55a0d9c781d7001042c99e21523fef362440f572faef950e8e600fae5de813"
+            }
+          }
+        },
+        {
+          "name": "isalnum.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 20,
+              "sha256": "4623ef9201c0986cb88974b034b2d2638a0efd3ff1b72a77cb03233078949df4"
+            }
+          }
+        },
+        {
+          "name": "isdigit.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 24,
+              "sha256": "fc9aaf5182945e8eb0aac87aa819165dfd910f4ebe321c3b4f0c4c58ee5f3595"
+            }
+          }
+        },
+        {
+          "name": "isspace.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 24,
+              "sha256": "1eca2d2d256593541e21ee72483fed294cc2e998f06900807a9c9c63ba668767"
+            }
+          }
+        },
+        {
+          "name": "ispunct.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 24,
+              "sha256": "13f9a7097e45acfd098871bf404b3ceb65c681bd5f8620767449665ac33beac5"
+            }
+          }
+        },
+        {
+          "name": "tolower.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 28,
+              "sha256": "ed89b610ea4e39aedab6a9ac2282f9e6bbfb28a73a4ba3f969f661f03b653f0e"
+            }
+          }
+        },
+        {
+          "name": "isxdigit.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 20,
+              "sha256": "e22d4f894f7e7ce751da01c603fcbe9c00102c91b3eff097dfe3779cfd6db328"
+            }
+          }
+        },
+        {
+          "name": "isalpha.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 20,
+              "sha256": "0d9ba86afad897b6b712bdb65abd442f70e1da2028612878907449f1024f3762"
+            }
+          }
+        },
+        {
+          "name": "isprint.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 40,
+              "sha256": "d65f08ae105a13c051ca47df29e9a79f53c82e5e9b41a71a657ed527c831e750"
+            }
+          }
+        },
+        {
+          "name": "islower.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 24,
+              "sha256": "177583940b15a1ff1ca8abd68ccf77effef1c22036860d23d31c0620ceff2acb"
+            }
+          }
+        },
+        {
+          "name": "iscntrl.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 24,
+              "sha256": "d9de0a01fa86757f309f0e4cd245f91010f458e4ad0d6eb1c8f97efc52bd7662"
+            }
+          }
+        },
+        {
+          "name": "_tolower.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 28,
+              "sha256": "ed89b610ea4e39aedab6a9ac2282f9e6bbfb28a73a4ba3f969f661f03b653f0e"
+            }
+          }
+        },
+        {
+          "name": "isupper.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 20,
+              "sha256": "b376bec297b0fa5d5249dffcbcc900431a338ae0c20b4c5b03082d9078c8df21"
+            }
+          }
+        },
+        {
+          "name": "_toupper.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 28,
+              "sha256": "f70b935859ae6336a9fb5eba85f62a2650c40f393d3a09173d4252d04c37eee7"
+            }
+          }
+        },
+        {
+          "name": "toupper.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 28,
+              "sha256": "f70b935859ae6336a9fb5eba85f62a2650c40f393d3a09173d4252d04c37eee7"
+            }
+          }
+        },
+        {
+          "name": "mallocr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 1308,
+              "sha256": "befd7e1cb419f607a75cca6dd6b05e1baaac02c65d15d6841af5f13edaaef9fb"
+            },
+            ".data": {
+              "bytes": 1092,
+              "sha256": "7e29936d3e384423c4367799a03062edb124ceabc3a5c13c629cfd49221b243d"
+            }
+          }
+        },
+        {
+          "name": "freer.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 640,
+              "sha256": "2c5b2026c5e55f09013a7c8272cb860f9346300e5cbf2eed316fd1bc8a19c97d"
+            }
+          }
+        },
+        {
+          "name": "reallocr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 760,
+              "sha256": "bb40436393515048d86d80c00ac4fff318e6825b6b9b72df9d76f7e12b86c460"
+            }
+          }
+        },
+        {
+          "name": "callocr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 88,
+              "sha256": "a4a33b87bab9eee9c1b811e5011c898f2ccb876c7dc0ae9cb6711e5fcb9a01ff"
+            }
+          }
+        },
+        {
+          "name": "cfreer.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 20,
+              "sha256": "2c57842db9d3662d0c08fa0d9c916403b31416f69a827575c7ae974108b6baeb"
+            }
+          }
+        },
+        {
+          "name": "malignr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 224,
+              "sha256": "606266145b615534d150732fb4d67c934454cc2cbb27416b88578730ab6b5ea2"
+            }
+          }
+        },
+        {
+          "name": "vallocr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 16,
+              "sha256": "438362f886b9331f7ffd692998ad73e63701c6678e0813c470edadf4e45d8a7e"
+            }
+          }
+        },
+        {
+          "name": "pvallocr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 28,
+              "sha256": "1a6b4690d76600d13491c6b6337352c2f9536fe87bf2655ad7516ecbe4dd2539"
+            }
+          }
+        },
+        {
+          "name": "mallinfor.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 184,
+              "sha256": "184c84827e4b3b05b207d83839ed693b8830458723f62b7680e0d8ba1d205307"
+            }
+          }
+        },
+        {
+          "name": "mallstatsr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 104,
+              "sha256": "963915e0e2ef83f698b685088806eaffc0e19ade740b5b20747fb4e43532670c"
+            },
+            ".rodata": {
+              "bytes": 81,
+              "sha256": "408278963ab46e584896b10466383e588c43e3ccd0fb3562be6d23c48eb28421"
+            }
+          }
+        },
+        {
+          "name": "msizer.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 60,
+              "sha256": "4b029814f6fb7305492a4292e2a111adbbe80586b43da9adef1ad6cbcf0f688f"
+            }
+          }
+        },
+        {
+          "name": "malloptr.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 104,
+              "sha256": "407bb034903697ed36c658061b019b29bd4cac931d7ea626daec8d6f882c781a"
+            }
+          }
+        },
+        {
+          "name": "vfiprintf.o",
+          "allocated_sections": {
+            ".text": {
+              "bytes": 2468,
+              "sha256": "7548f4ee45f3337319f7d99e7fe1c191ef41af527b617273ea6c14cfc39d5eb8"
+            },
+            ".rodata": {
+              "bytes": 106,
+              "sha256": "fc58075511fcb254c378492c4d257a4ebc54c0808ffced032bc60fe17cb45951"
+            }
+          }
+        },
+        {
+          "name": "setjmp.o",
+          "allocated_sections": {}
+        },
+        {
+          "name": "trap.o",
+          "allocated_sections": {}
+        }
+      ]
+    }
+  }
+}

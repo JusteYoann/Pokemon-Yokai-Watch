@@ -1,0 +1,48 @@
+{
+  "version": "BETA-B13-20261018",
+  "checkpoint": "ff1cb36b2ecbe7b8ce167e375a6bff378df31347",
+  "original_sha256": "505eabc4470f967aa2d6c6441f923dfa0ea530a16008de8b41a1bcfda1287b79",
+  "rom_sha256": "36bbf1f1c759f0e355be122caf68d7d110f86c83c1862bda1e85c72ea37abfc5",
+  "rom_bytes": 24400776,
+  "active_ost": 13,
+  "game_recompiled": false,
+  "original_rom_preserved": true,
+  "compiled_objects_preserved": true,
+  "libraries": [
+    {
+      "archive": "libgcc.a",
+      "members_verified": 30,
+      "order_changed": false,
+      "member_bytes_preserved": true,
+      "before_sha256": "2d1bcc5b3ef3126daf1ebec81ca5b080029cc535503b9b5be04337799233fecf",
+      "after_sha256": "2d1bcc5b3ef3126daf1ebec81ca5b080029cc535503b9b5be04337799233fecf",
+      "backup": null
+    },
+    {
+      "archive": "libc.a",
+      "members_verified": 247,
+      "order_changed": true,
+      "member_bytes_preserved": true,
+      "before_sha256": "c1ca310a6e2e71d471353f3e22c2bd94a83cb591f8cc4b5f36f11fafc774b2ac",
+      "after_sha256": "0d9db0dff926e9654cfd8e61abe998f32ed1eee65adb6e7abadc83eae2fb2b01",
+      "backup": "Preserved locally next to the original installed runtime archive"
+    }
+  ],
+  "output": "Private local test output; no ROM redistributed",
+  "cause": "libc.a member order from unsorted filesystem traversal changes ARM/Thumb veneer ordering",
+  "root_cause_reproduced": true,
+  "differing_rom_bytes": 25,
+  "first_differing_rom_offset": "0x1deed0",
+  "last_differing_rom_offset": "0x1ebecd",
+  "source_mp3_wav_dpcm_and_651_game_objects_identical": true,
+  "ar_member_count": {
+    "libgcc.a": 30,
+    "libc.a": 247
+  },
+  "tested_on_windows": false,
+  "new_full_game_build_run": false,
+  "negative_validation_test": "Modified expected library code hash rejected before either archive changed",
+  "normalization_idempotent": true,
+  "expected_rom_sha_unchanged": true,
+  "uploaded_report_sha256": "6472145576058bc447c2149610c7abfc500d9f3ad02938560444c8fdc4778cf0"
+}

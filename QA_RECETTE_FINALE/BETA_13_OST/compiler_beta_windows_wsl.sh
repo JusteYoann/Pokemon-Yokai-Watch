@@ -37,9 +37,16 @@ git checkout --detach ff1cb36b2ecbe7b8ce167e375a6bff378df31347
 mkdir -p "$work/diagnostic-tools"
 git show origin/dev/reconstruction-finalisation:tools/yokai/diagnostiquer_beta_b13.py > "$work/diagnostic-tools/diagnostiquer_beta_b13.py"
 git show origin/dev/reconstruction-finalisation:QA_RECETTE_FINALE/BETA_13_OST/REFERENCE_B13_DIAGNOSTIC.json > "$work/diagnostic-tools/REFERENCE_B13_DIAGNOSTIC.json"
+git show origin/dev/reconstruction-finalisation:tools/yokai/normaliser_bibliotheques_b13.py > "$work/diagnostic-tools/normaliser_bibliotheques_b13.py"
+git show origin/dev/reconstruction-finalisation:QA_RECETTE_FINALE/BETA_13_OST/BIBLIOTHEQUES_B13_LOCK.json > "$work/diagnostic-tools/BIBLIOTHEQUES_B13_LOCK.json"
 export YOKAI_SETUP_DIR="$work/outils"
 bash RECUPERATION_PROJET/scripts/configurer_outils_debian.sh
 source "$YOKAI_SETUP_DIR/env.sh"
+# The pinned ff1 checkout predates the installer fix: normalize both its cached
+# runtime and installed archives without changing any source or member bytes.
+python3 "$work/diagnostic-tools/normaliser_bibliotheques_b13.py" --lib-dir "$YOKAI_SETUP_DIR/agbcc" --lock "$work/diagnostic-tools/BIBLIOTHEQUES_B13_LOCK.json"
+python3 "$work/diagnostic-tools/normaliser_bibliotheques_b13.py" --lib-dir "$work/sources/tools/agbcc/lib" --lock "$work/diagnostic-tools/BIBLIOTHEQUES_B13_LOCK.json"
+
 python3 -m venv "$work/venv"
 source "$work/venv/bin/activate"
 python -m pip install -r tools/yokai/requirements-audio.txt

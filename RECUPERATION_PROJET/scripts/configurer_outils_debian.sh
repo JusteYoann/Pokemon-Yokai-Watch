@@ -46,6 +46,9 @@ fi
 if [ ! -x "$setup_root/agbcc/agbcc" ] || [ ! -f "$setup_root/agbcc/libc.a" ]; then
  (cd "$setup_root/agbcc" && bash ./build.sh)
 fi
+# libc's upstream Makefile uses an unsorted find; pin member order so the
+# ARM/Thumb linker veneers match the tested B13 on ext4/WSL/overlay filesystems.
+python3 "$repo_root/tools/yokai/normaliser_bibliotheques_b13.py" --lib-dir "$setup_root/agbcc" --lock "$repo_root/QA_RECETTE_FINALE/BETA_13_OST/BIBLIOTHEQUES_B13_LOCK.json"
 (cd "$setup_root/agbcc" && bash ./install.sh "$repo_root")
 arm-none-eabi-as --version | head -1
 printf 'Installation terminee. Activer avec : source %s/env.sh\n' "$setup_root"
