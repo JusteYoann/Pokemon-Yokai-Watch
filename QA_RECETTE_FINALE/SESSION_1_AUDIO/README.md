@@ -79,3 +79,7 @@ Les outils `tester_session1_*_mgba.py` rejouent les campagnes. Définir `YOKAI_Q
 Les sources sont présentes : il ne s’agit pas de fichiers perdus. Les mesures détaillées sont dans `BOUCLES_NON_VALIDEES.json`. Un montage musical validé ou une meilleure référence de boucle est nécessaire avant d’activer ces morceaux ; aucune répétition arbitraire d’un court motif n’est intégrée.
 
 **Limites restantes :** absence d’écoute humaine de la bande-son, absence de profilage sur une vraie GBA et absence de parcours intégral de l’aventure. Les mesures, captures et essais mGBA ne remplacent pas ces validations. Les 64 portes et 6 connexions ne couvrent pas toutes les maisons, toutes les transitions surf/vélo, tous les téléporteurs ni tous les événements. Le jeu n’est pas déclaré prêt pour une version finale.
+
+## Complément ultérieur : 20e OST et routage intégral des BGM
+
+La demande ultérieure de remplacer tous les fonds musicaux est documentée dans [AUDIO_COMPLEMENT](../AUDIO_COMPLEMENT/README.md). Ce nouveau jalon intègre Blossom Heights sous forme de montage explicite de phrase, à écouter humainement ; il atteint20 OST, route les104 identifiants BGM vers des samples Yo-kai privés et conserve les bruitages/jingles fonctionnels. Les résultats de cette ancienne session restent historiques : consulter le nouveau rapport pour les substitutions temporaires Enma Track/Final Battle, les mesures et la dernière empreinte de ROM.

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "baseline_commit": "f4eb55d4f0d0979f992862626a812e4f9168fc0a",
+  "rom_sha256": "e63f84dc175b902b6783d8ffcd78c330e6e55b066c00fd3908d891f9bb68cb1e",
+  "all_eight_native_test_reports_same_ROM": true,
+  "graphics_changed": 0,
+  "map_or_event_scripts_changed": 0,
+  "species_teams_evolutions_encounters_changed": 0,
+  "audio_bytes_publicly_added": 0,
+  "changed_tracked_game_sources": [
+    "data/yokai/audio_loops.json",
+    "data/yokai/audio_session1_aliases.json",
+    "data/yokai/mixer_calibration.json",
+    "src/data/yokai_mixer_gains.h",
+    "src/data/yokai_music_aliases.h",
+    "src/overworld.c",
+    "src/yokai_music.c"
+  ],
+  "note": "Only music resolution, calibration, pinned loop metadata and the champion victory music-pointer comparison change; no claims about a full playthrough."
+}
