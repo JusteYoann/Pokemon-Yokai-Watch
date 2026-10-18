@@ -1,7 +1,7 @@
 {
   "passed": true,
   "error": null,
-  "private_rom_sha256": "90992ee0580630310c0f64f4dd07a35a7a68ad38c1ec7112b49b47067f5b13a6",
+  "private_rom_sha256": "36bbf1f1c759f0e355be122caf68d7d110f86c83c1862bda1e85c72ea37abfc5",
   "scope": "Original Champion scene and actual battle to postgame save continuation, warp/strong-party fixture; not a complete adventure playthrough",
   "results": [
     {
@@ -49,31 +49,31 @@
       "actual_audio_seam_checks": [
         {
           "loop": 1,
-          "correlation": 0.883779590301409,
+          "correlation": 0.8815815545593519,
           "cry_at_capture": false,
           "cry_at_wrap": false
         },
         {
           "loop": 2,
-          "correlation": 0.8872371823763371,
+          "correlation": 0.8862443895283217,
           "cry_at_capture": false,
           "cry_at_wrap": false
         },
         {
           "loop": 3,
-          "correlation": 0.8772759081478043,
+          "correlation": 0.8806788366492972,
           "cry_at_capture": false,
           "cry_at_wrap": false
         },
         {
           "loop": 4,
-          "correlation": 0.8838583664594601,
+          "correlation": 0.8817041494716372,
           "cry_at_capture": false,
           "cry_at_wrap": false
         },
         {
           "loop": 5,
-          "correlation": 0.8829761826150874,
+          "correlation": 0.8854323679328638,
           "cry_at_capture": false,
           "cry_at_wrap": false
         }
@@ -81,8 +81,8 @@
       "native_samples_per_frame": 224,
       "expected_frames_per_cycle": 4300.397321428572,
       "intro_not_repeated": true,
-      "audio_reference_pearson_correlation": 0.9044254701743545,
-      "after_SFX_and_cry_correlation": 0.9208346916039256,
+      "audio_reference_pearson_correlation": 0.908255405129312,
+      "after_SFX_and_cry_correlation": 0.91706136631885,
       "analysis_sample_rate_hz": 4000,
       "alignment_grid_hz": 16000,
       "initial_native_sample_position": 7392,

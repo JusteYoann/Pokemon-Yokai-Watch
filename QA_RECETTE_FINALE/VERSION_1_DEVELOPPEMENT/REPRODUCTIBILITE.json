@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "source_commit": "f029b5236e34f9571f48fb928020f5adcff5debc",
+  "clone": "/workspace/repro-v1-finale",
+  "clone_fetched_from": "https://github.com/JusteYoann/Pokemon-Yokai-Watch.git",
+  "tool_setup": "YOKAI_SETUP_DIR=/workspace/repro-tools bash RECUPERATION_PROJET/scripts/configurer_outils_debian.sh",
+  "independently_regenerated_private_sources": true,
+  "private_sources_from_user_archives": true,
+  "no_object_or_ROM_copied_into_clone": true,
+  "new_VM": false,
+  "scope": "Fresh GitHub checkout in same cloud machine, pinned independent toolchain. Private WAV/DPCM regenerated, not copied from main working profile. Initial generated-header mismatch fixed in source JSON and template without changing technical IDs.",
+  "variants": [
+    {
+      "variant": "public_native_fallback",
+      "bytes": 16777216,
+      "local_sha256": "7f4248b27ec01f4d32acdcacc11c3b1bb5f03ef434431bea099ba85d1496b4ac",
+      "github_clone_sha256": "7f4248b27ec01f4d32acdcacc11c3b1bb5f03ef434431bea099ba85d1496b4ac",
+      "byte_identical": true
+    },
+    {
+      "variant": "private_13_ost",
+      "bytes": 24400776,
+      "local_sha256": "36bbf1f1c759f0e355be122caf68d7d110f86c83c1862bda1e85c72ea37abfc5",
+      "github_clone_sha256": "36bbf1f1c759f0e355be122caf68d7d110f86c83c1862bda1e85c72ea37abfc5",
+      "byte_identical": true
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "rom_sha256": "6ea995cb85d834ce06760ccf1a31e522ee0a9cf4c61336ecd93af6f0d61c8b93",
-  "scope": "Native selection only, not every battle played. Actual original Lorelei and cameo battles tested separately. Don Morleone source still not active while loop is pending.",
+  "rom_sha256": "90992ee0580630310c0f64f4dd07a35a7a68ad38c1ec7112b49b47067f5b13a6",
+  "scope": "Native selection only, not every battle played. Actual original Lorelei and cameo battles tested separately. Selected V1 boss/Champion routes; a route alone does not prove private sample integration.",
   "results": [
     {
       "trainer": "TRAINER_RIVAL_OAKS_LAB_SQUIRTLE",
@@ -204,19 +204,19 @@
     {
       "trainer": "TRAINER_CHAMPION_FIRST_SQUIRTLE",
       "trainer_id": 438,
-      "music_id": 299,
+      "music_id": 371,
       "passed": true
     },
     {
       "trainer": "TRAINER_CHAMPION_FIRST_BULBASAUR",
       "trainer_id": 439,
-      "music_id": 299,
+      "music_id": 371,
       "passed": true
     },
     {
       "trainer": "TRAINER_CHAMPION_FIRST_CHARMANDER",
       "trainer_id": 440,
-      "music_id": 299,
+      "music_id": 371,
       "passed": true
     },
     {
@@ -246,19 +246,19 @@
     {
       "trainer": "TRAINER_CHAMPION_REMATCH_SQUIRTLE",
       "trainer_id": 739,
-      "music_id": 299,
+      "music_id": 371,
       "passed": true
     },
     {
       "trainer": "TRAINER_CHAMPION_REMATCH_BULBASAUR",
       "trainer_id": 740,
-      "music_id": 299,
+      "music_id": 371,
       "passed": true
     },
     {
       "trainer": "TRAINER_CHAMPION_REMATCH_CHARMANDER",
       "trainer_id": 741,
-      "music_id": 299,
+      "music_id": 371,
       "passed": true
     },
     {
@@ -281,32 +281,32 @@
     },
     {
       "trainer_id": 15,
-      "selected_yokai_track": 20,
-      "music_id": 366,
+      "selected_yokai_track": null,
+      "music_id": 297,
       "passed": true
     },
     {
       "trainer_id": 16,
-      "selected_yokai_track": 20,
-      "music_id": 366,
+      "selected_yokai_track": null,
+      "music_id": 297,
       "passed": true
     },
     {
       "trainer_id": 18,
-      "selected_yokai_track": 20,
-      "music_id": 366,
+      "selected_yokai_track": null,
+      "music_id": 297,
       "passed": true
     },
     {
       "trainer_id": 19,
-      "selected_yokai_track": 20,
-      "music_id": 366,
+      "selected_yokai_track": null,
+      "music_id": 297,
       "passed": true
     },
     {
       "trainer_id": 20,
-      "selected_yokai_track": 20,
-      "music_id": 366,
+      "selected_yokai_track": null,
+      "music_id": 297,
       "passed": true
     }
   ]

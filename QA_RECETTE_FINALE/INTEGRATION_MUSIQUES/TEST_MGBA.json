@@ -1,8 +1,8 @@
 {
   "passed": true,
   "error": null,
-  "private_rom_sha256": "6ea995cb85d834ce06760ccf1a31e522ee0a9cf4c61336ecd93af6f0d61c8b93",
-  "private_rom_bytes": 21667712,
+  "private_rom_sha256": "90992ee0580630310c0f64f4dd07a35a7a68ad38c1ec7112b49b47067f5b13a6",
+  "private_rom_bytes": 24400776,
   "scope": "Real map/bicycle/NPC music in compiled optional audio ROM; fixture warps/flags; five native full loops. Not whole story, hardware profiling or perceptual listening.",
   "results": [
     {
@@ -163,6 +163,87 @@
       "native_Flash_save_with_music": true,
       "native_frames": 15221,
       "source_sample_period": 703289,
+      "perceptual_listening_validated": false,
+      "audio_demo": "Private output/previews only, not public GitHub",
+      "actual_battle_finished_and_exploration_music_restored": true
+    },
+    {
+      "number": 3,
+      "passed": true,
+      "trigger": "Actual optional NPC battle through A/Yes; progression flags/strong party prepared",
+      "native_loop_wraps": [
+        {
+          "frame": 13142,
+          "sample_after_wrap": 79899,
+          "native_cry_active": false
+        },
+        {
+          "frame": 26750,
+          "sample_after_wrap": 80054,
+          "native_cry_active": false
+        },
+        {
+          "frame": 40357,
+          "sample_after_wrap": 79985,
+          "native_cry_active": false
+        },
+        {
+          "frame": 53964,
+          "sample_after_wrap": 79916,
+          "native_cry_active": false
+        },
+        {
+          "frame": 67571,
+          "sample_after_wrap": 79847,
+          "native_cry_active": false
+        }
+      ],
+      "clean_audio_seams_required": 5,
+      "actual_audio_seam_checks": [
+        {
+          "loop": 1,
+          "correlation": 0.9825556669571492,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 2,
+          "correlation": 0.981686367887331,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 3,
+          "correlation": 0.9759235724801337,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 4,
+          "correlation": 0.9755091360005141,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 5,
+          "correlation": 0.9792061642250989,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        }
+      ],
+      "native_samples_per_frame": 224,
+      "expected_frames_per_cycle": 13607.308035714286,
+      "intro_not_repeated": true,
+      "audio_reference_pearson_correlation": 0.9809385468448023,
+      "after_SFX_and_cry_correlation": 0.9777426136948709,
+      "analysis_sample_rate_hz": 4000,
+      "alignment_grid_hz": 16000,
+      "initial_native_sample_position": 183680,
+      "select_SFX_and_cry_native_calls": true,
+      "cry_completed": true,
+      "native_Flash_save_with_music": true,
+      "native_frames": 67611,
+      "source_sample_period": 3048037,
       "perceptual_listening_validated": false,
       "audio_demo": "Private output/previews only, not public GitHub",
       "actual_battle_finished_and_exploration_music_restored": true
@@ -410,97 +491,6 @@
       "liberated_Silph_returns_native_music": true
     },
     {
-      "number": 14,
-      "passed": true,
-      "trigger": "Native warp/map music: ThreeIsland_BerryForest",
-      "native_loop_wraps": [
-        {
-          "frame": 3486,
-          "sample_after_wrap": 40973,
-          "native_cry_active": true
-        },
-        {
-          "frame": 7172,
-          "sample_after_wrap": 40954,
-          "native_cry_active": false
-        },
-        {
-          "frame": 10858,
-          "sample_after_wrap": 40935,
-          "native_cry_active": false
-        },
-        {
-          "frame": 14544,
-          "sample_after_wrap": 40916,
-          "native_cry_active": false
-        },
-        {
-          "frame": 18230,
-          "sample_after_wrap": 40897,
-          "native_cry_active": false
-        },
-        {
-          "frame": 21916,
-          "sample_after_wrap": 40878,
-          "native_cry_active": false
-        }
-      ],
-      "clean_audio_seams_required": 5,
-      "actual_audio_seam_checks": [
-        {
-          "loop": 1,
-          "correlation": 0.2311211015683499,
-          "cry_at_capture": false,
-          "cry_at_wrap": true
-        },
-        {
-          "loop": 2,
-          "correlation": 0.9815058695153762,
-          "cry_at_capture": false,
-          "cry_at_wrap": false
-        },
-        {
-          "loop": 3,
-          "correlation": 0.9785008836362581,
-          "cry_at_capture": false,
-          "cry_at_wrap": false
-        },
-        {
-          "loop": 4,
-          "correlation": 0.9815297228566179,
-          "cry_at_capture": false,
-          "cry_at_wrap": false
-        },
-        {
-          "loop": 5,
-          "correlation": 0.9796262617176,
-          "cry_at_capture": false,
-          "cry_at_wrap": false
-        },
-        {
-          "loop": 6,
-          "correlation": 0.9811397187222698,
-          "cry_at_capture": false,
-          "cry_at_wrap": false
-        }
-      ],
-      "native_samples_per_frame": 224,
-      "expected_frames_per_cycle": 3686.0848214285716,
-      "intro_not_repeated": true,
-      "audio_reference_pearson_correlation": 0.9704010245212096,
-      "after_SFX_and_cry_correlation": 0.9791073338331958,
-      "analysis_sample_rate_hz": 4000,
-      "alignment_grid_hz": 16000,
-      "initial_native_sample_position": 85344,
-      "select_SFX_and_cry_native_calls": true,
-      "cry_completed": true,
-      "native_Flash_save_with_music": true,
-      "native_frames": 21956,
-      "source_sample_period": 825683,
-      "perceptual_listening_validated": false,
-      "audio_demo": "Private output/previews only, not public GitHub"
-    },
-    {
       "number": 15,
       "passed": true,
       "trigger": "Actual original Lorelei interaction and trainer battle; entry flags/strong party prepared",
@@ -580,86 +570,6 @@
       "perceptual_listening_validated": false,
       "audio_demo": "Private output/previews only, not public GitHub",
       "actual_battle_finished_and_exploration_music_restored": true
-    },
-    {
-      "number": 16,
-      "passed": true,
-      "trigger": "Native warp/map music: TwoIsland",
-      "native_loop_wraps": [
-        {
-          "frame": 4995,
-          "sample_after_wrap": 54302,
-          "native_cry_active": false
-        },
-        {
-          "frame": 10132,
-          "sample_after_wrap": 54396,
-          "native_cry_active": false
-        },
-        {
-          "frame": 15269,
-          "sample_after_wrap": 54490,
-          "native_cry_active": false
-        },
-        {
-          "frame": 20405,
-          "sample_after_wrap": 54360,
-          "native_cry_active": false
-        },
-        {
-          "frame": 25542,
-          "sample_after_wrap": 54454,
-          "native_cry_active": false
-        }
-      ],
-      "clean_audio_seams_required": 5,
-      "actual_audio_seam_checks": [
-        {
-          "loop": 1,
-          "correlation": 0.9895178549085237,
-          "cry_at_capture": false,
-          "cry_at_wrap": false
-        },
-        {
-          "loop": 2,
-          "correlation": 0.9893375775653144,
-          "cry_at_capture": false,
-          "cry_at_wrap": false
-        },
-        {
-          "loop": 3,
-          "correlation": 0.988917456780029,
-          "cry_at_capture": false,
-          "cry_at_wrap": false
-        },
-        {
-          "loop": 4,
-          "correlation": 0.9899480126591019,
-          "cry_at_capture": false,
-          "cry_at_wrap": false
-        },
-        {
-          "loop": 5,
-          "correlation": 0.9898733239087785,
-          "cry_at_capture": false,
-          "cry_at_wrap": false
-        }
-      ],
-      "native_samples_per_frame": 224,
-      "expected_frames_per_cycle": 5136.580357142857,
-      "intro_not_repeated": true,
-      "audio_reference_pearson_correlation": 0.9455101740241169,
-      "after_SFX_and_cry_correlation": 0.9748167362310471,
-      "analysis_sample_rate_hz": 4000,
-      "alignment_grid_hz": 16000,
-      "initial_native_sample_position": 85568,
-      "select_SFX_and_cry_native_calls": true,
-      "cry_completed": true,
-      "native_Flash_save_with_music": true,
-      "native_frames": 25582,
-      "source_sample_period": 1150594,
-      "perceptual_listening_validated": false,
-      "audio_demo": "Private output/previews only, not public GitHub"
     },
     {
       "number": 17,
@@ -742,33 +652,33 @@
       "audio_demo": "Private output/previews only, not public GitHub"
     },
     {
-      "number": 20,
+      "number": 21,
       "passed": true,
-      "trigger": "Actual optional NPC battle through A/Yes; progression flags/strong party prepared",
+      "trigger": "Native warp/map music: VermilionCity",
       "native_loop_wraps": [
         {
-          "frame": 5580,
-          "sample_after_wrap": 161309,
+          "frame": 5195,
+          "sample_after_wrap": 107559,
           "native_cry_active": false
         },
         {
-          "frame": 11220,
-          "sample_after_wrap": 161338,
+          "frame": 10295,
+          "sample_after_wrap": 107598,
           "native_cry_active": false
         },
         {
-          "frame": 16860,
-          "sample_after_wrap": 161367,
+          "frame": 15395,
+          "sample_after_wrap": 107637,
           "native_cry_active": false
         },
         {
-          "frame": 22500,
-          "sample_after_wrap": 161396,
+          "frame": 20495,
+          "sample_after_wrap": 107676,
           "native_cry_active": false
         },
         {
-          "frame": 28140,
-          "sample_after_wrap": 161425,
+          "frame": 25595,
+          "sample_after_wrap": 107715,
           "native_cry_active": false
         }
       ],
@@ -776,51 +686,290 @@
       "actual_audio_seam_checks": [
         {
           "loop": 1,
-          "correlation": 0.9874434998578906,
+          "correlation": 0.986846693110797,
           "cry_at_capture": false,
           "cry_at_wrap": false
         },
         {
           "loop": 2,
-          "correlation": 0.9903820890527216,
+          "correlation": 0.9873075246350932,
           "cry_at_capture": false,
           "cry_at_wrap": false
         },
         {
           "loop": 3,
-          "correlation": 0.9905727572664772,
+          "correlation": 0.9872511489608999,
           "cry_at_capture": false,
           "cry_at_wrap": false
         },
         {
           "loop": 4,
-          "correlation": 0.9878312705651748,
+          "correlation": 0.9865995022073528,
           "cry_at_capture": false,
           "cry_at_wrap": false
         },
         {
           "loop": 5,
-          "correlation": 0.9870932783581443,
+          "correlation": 0.9856379085973227,
           "cry_at_capture": false,
           "cry_at_wrap": false
         }
       ],
       "native_samples_per_frame": 224,
-      "expected_frames_per_cycle": 5639.870535714285,
+      "expected_frames_per_cycle": 5099.825892857143,
       "intro_not_repeated": true,
-      "audio_reference_pearson_correlation": 0.978272387305415,
-      "after_SFX_and_cry_correlation": 0.9792958641026808,
+      "audio_reference_pearson_correlation": 0.9812317061653738,
+      "after_SFX_and_cry_correlation": 0.9831957320049103,
       "analysis_sample_rate_hz": 4000,
       "alignment_grid_hz": 16000,
-      "initial_native_sample_position": 174272,
+      "initial_native_sample_position": 85792,
       "select_SFX_and_cry_native_calls": true,
       "cry_completed": true,
       "native_Flash_save_with_music": true,
-      "native_frames": 28180,
-      "source_sample_period": 1263331,
+      "native_frames": 25635,
+      "source_sample_period": 1142361,
       "perceptual_listening_validated": false,
-      "audio_demo": "Private output/previews only, not public GitHub",
-      "actual_battle_finished_and_exploration_music_restored": true
+      "audio_demo": "Private output/previews only, not public GitHub"
+    },
+    {
+      "number": 22,
+      "passed": true,
+      "trigger": "Native warp/map music: CeladonCity",
+      "native_loop_wraps": [
+        {
+          "frame": 5885,
+          "sample_after_wrap": 13929,
+          "native_cry_active": false
+        },
+        {
+          "frame": 12092,
+          "sample_after_wrap": 13970,
+          "native_cry_active": false
+        },
+        {
+          "frame": 18299,
+          "sample_after_wrap": 14011,
+          "native_cry_active": false
+        },
+        {
+          "frame": 24506,
+          "sample_after_wrap": 14052,
+          "native_cry_active": false
+        },
+        {
+          "frame": 30712,
+          "sample_after_wrap": 13869,
+          "native_cry_active": false
+        }
+      ],
+      "clean_audio_seams_required": 5,
+      "actual_audio_seam_checks": [
+        {
+          "loop": 1,
+          "correlation": 0.9773003275018073,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 2,
+          "correlation": 0.976329362467784,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 3,
+          "correlation": 0.9763453360179825,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 4,
+          "correlation": 0.9772191745879591,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 5,
+          "correlation": 0.9768498140227626,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        }
+      ],
+      "native_samples_per_frame": 224,
+      "expected_frames_per_cycle": 6206.816964285715,
+      "intro_not_repeated": true,
+      "audio_reference_pearson_correlation": 0.9836190576450493,
+      "after_SFX_and_cry_correlation": 0.9822751843114264,
+      "analysis_sample_rate_hz": 4000,
+      "alignment_grid_hz": 16000,
+      "initial_native_sample_position": 85568,
+      "select_SFX_and_cry_native_calls": true,
+      "cry_completed": true,
+      "native_Flash_save_with_music": true,
+      "native_frames": 30752,
+      "source_sample_period": 1390327,
+      "perceptual_listening_validated": false,
+      "audio_demo": "Private output/previews only, not public GitHub"
+    },
+    {
+      "number": 23,
+      "passed": true,
+      "trigger": "Native warp/map music: CeruleanCave_1F",
+      "native_loop_wraps": [
+        {
+          "frame": 4026,
+          "sample_after_wrap": 80134,
+          "native_cry_active": false
+        },
+        {
+          "frame": 8027,
+          "sample_after_wrap": 80076,
+          "native_cry_active": false
+        },
+        {
+          "frame": 12029,
+          "sample_after_wrap": 80242,
+          "native_cry_active": false
+        },
+        {
+          "frame": 16030,
+          "sample_after_wrap": 80184,
+          "native_cry_active": false
+        },
+        {
+          "frame": 20031,
+          "sample_after_wrap": 80126,
+          "native_cry_active": false
+        }
+      ],
+      "clean_audio_seams_required": 5,
+      "actual_audio_seam_checks": [
+        {
+          "loop": 1,
+          "correlation": 0.9544980066585439,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 2,
+          "correlation": 0.9564052415798653,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 3,
+          "correlation": 0.9560888191409287,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 4,
+          "correlation": 0.9564108079407854,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 5,
+          "correlation": 0.9552104762611572,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        }
+      ],
+      "native_samples_per_frame": 224,
+      "expected_frames_per_cycle": 4001.2589285714284,
+      "intro_not_repeated": true,
+      "audio_reference_pearson_correlation": 0.9696596451708261,
+      "after_SFX_and_cry_correlation": 0.9604773313921077,
+      "analysis_sample_rate_hz": 4000,
+      "alignment_grid_hz": 16000,
+      "initial_native_sample_position": 74144,
+      "select_SFX_and_cry_native_calls": true,
+      "cry_completed": true,
+      "native_Flash_save_with_music": true,
+      "native_frames": 20071,
+      "source_sample_period": 896282,
+      "perceptual_listening_validated": false,
+      "audio_demo": "Private output/previews only, not public GitHub"
+    },
+    {
+      "number": 24,
+      "passed": true,
+      "trigger": "Native warp/map music: MtMoon_1F",
+      "native_loop_wraps": [
+        {
+          "frame": 4464,
+          "sample_after_wrap": 280064,
+          "native_cry_active": false
+        },
+        {
+          "frame": 8011,
+          "sample_after_wrap": 280128,
+          "native_cry_active": false
+        },
+        {
+          "frame": 11558,
+          "sample_after_wrap": 280192,
+          "native_cry_active": false
+        },
+        {
+          "frame": 15104,
+          "sample_after_wrap": 280032,
+          "native_cry_active": false
+        },
+        {
+          "frame": 18651,
+          "sample_after_wrap": 280096,
+          "native_cry_active": false
+        }
+      ],
+      "clean_audio_seams_required": 5,
+      "actual_audio_seam_checks": [
+        {
+          "loop": 1,
+          "correlation": 0.958511853577348,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 2,
+          "correlation": 0.9588989382323566,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 3,
+          "correlation": 0.9590848852126599,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 4,
+          "correlation": 0.9593759186930271,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 5,
+          "correlation": 0.9590049385500521,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        }
+      ],
+      "native_samples_per_frame": 224,
+      "expected_frames_per_cycle": 3546.714285714286,
+      "intro_not_repeated": true,
+      "audio_reference_pearson_correlation": 0.9283706981347091,
+      "after_SFX_and_cry_correlation": 0.9814068675853552,
+      "analysis_sample_rate_hz": 4000,
+      "alignment_grid_hz": 16000,
+      "initial_native_sample_position": 74144,
+      "select_SFX_and_cry_native_calls": true,
+      "cry_completed": true,
+      "native_Flash_save_with_music": true,
+      "native_frames": 18691,
+      "source_sample_period": 794464,
+      "perceptual_listening_validated": false,
+      "audio_demo": "Private output/previews only, not public GitHub"
     }
   ]
 }

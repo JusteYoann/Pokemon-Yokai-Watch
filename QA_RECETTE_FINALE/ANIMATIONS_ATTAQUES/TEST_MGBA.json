@@ -1,0 +1,787 @@
+{
+  "passed": true,
+  "fatal": null,
+  "errors": [],
+  "rom_sha256": "7f4248b27ec01f4d32acdcacc11c3b1bb5f03ef434431bea099ba85d1496b4ac",
+  "scope": "Actual GBA native animation scripts/callbacks and rendering in mGBA; seeded battle/DoMoveAnim/snapshots, not actual move effects/AI, full adventure or physical hardware",
+  "moves_requested": [
+    91,
+    106,
+    107,
+    151,
+    211,
+    232,
+    293,
+    334
+  ],
+  "distinct_moves_completed": [
+    91,
+    106,
+    107,
+    151,
+    211,
+    232,
+    293,
+    334
+  ],
+  "cases": 36,
+  "visual_validation_complete": false,
+  "results": [
+    {
+      "move": 91,
+      "side": 0,
+      "turn": 0,
+      "pair": [
+        1,
+        33
+      ],
+      "shiny_requested": false,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 192,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 91,
+      "side": 0,
+      "turn": 1,
+      "pair": [
+        1,
+        33
+      ],
+      "shiny_requested": false,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 58,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 91,
+      "side": 1,
+      "turn": 0,
+      "pair": [
+        1,
+        33
+      ],
+      "shiny_requested": false,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 192,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 91,
+      "side": 1,
+      "turn": 1,
+      "pair": [
+        1,
+        33
+      ],
+      "shiny_requested": false,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 58,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 151,
+      "side": 0,
+      "turn": 0,
+      "pair": [
+        1,
+        33
+      ],
+      "shiny_requested": false,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 113,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 151,
+      "side": 1,
+      "turn": 0,
+      "pair": [
+        1,
+        33
+      ],
+      "shiny_requested": false,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 113,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 211,
+      "side": 0,
+      "turn": 0,
+      "pair": [
+        1,
+        33
+      ],
+      "shiny_requested": false,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 187,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 211,
+      "side": 1,
+      "turn": 0,
+      "pair": [
+        1,
+        33
+      ],
+      "shiny_requested": false,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 187,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 91,
+      "side": 0,
+      "turn": 0,
+      "pair": [
+        1,
+        33
+      ],
+      "shiny_requested": true,
+      "actual_shiny": [
+        true,
+        true
+      ],
+      "native_callback_render_steps": 192,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 91,
+      "side": 0,
+      "turn": 1,
+      "pair": [
+        1,
+        33
+      ],
+      "shiny_requested": true,
+      "actual_shiny": [
+        true,
+        true
+      ],
+      "native_callback_render_steps": 58,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 91,
+      "side": 1,
+      "turn": 0,
+      "pair": [
+        1,
+        33
+      ],
+      "shiny_requested": true,
+      "actual_shiny": [
+        true,
+        true
+      ],
+      "native_callback_render_steps": 192,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 91,
+      "side": 1,
+      "turn": 1,
+      "pair": [
+        1,
+        33
+      ],
+      "shiny_requested": true,
+      "actual_shiny": [
+        true,
+        true
+      ],
+      "native_callback_render_steps": 58,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 151,
+      "side": 0,
+      "turn": 0,
+      "pair": [
+        1,
+        33
+      ],
+      "shiny_requested": true,
+      "actual_shiny": [
+        true,
+        true
+      ],
+      "native_callback_render_steps": 113,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 151,
+      "side": 1,
+      "turn": 0,
+      "pair": [
+        1,
+        33
+      ],
+      "shiny_requested": true,
+      "actual_shiny": [
+        true,
+        true
+      ],
+      "native_callback_render_steps": 113,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 211,
+      "side": 0,
+      "turn": 0,
+      "pair": [
+        1,
+        33
+      ],
+      "shiny_requested": true,
+      "actual_shiny": [
+        true,
+        true
+      ],
+      "native_callback_render_steps": 187,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 211,
+      "side": 1,
+      "turn": 0,
+      "pair": [
+        1,
+        33
+      ],
+      "shiny_requested": true,
+      "actual_shiny": [
+        true,
+        true
+      ],
+      "native_callback_render_steps": 187,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 106,
+      "side": 0,
+      "turn": 0,
+      "pair": [
+        114,
+        84
+      ],
+      "shiny_requested": false,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 97,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 106,
+      "side": 1,
+      "turn": 0,
+      "pair": [
+        114,
+        84
+      ],
+      "shiny_requested": false,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 97,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 232,
+      "side": 0,
+      "turn": 0,
+      "pair": [
+        114,
+        84
+      ],
+      "shiny_requested": false,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 140,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 232,
+      "side": 1,
+      "turn": 0,
+      "pair": [
+        114,
+        84
+      ],
+      "shiny_requested": false,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 140,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 334,
+      "side": 0,
+      "turn": 0,
+      "pair": [
+        114,
+        84
+      ],
+      "shiny_requested": false,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 97,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 334,
+      "side": 1,
+      "turn": 0,
+      "pair": [
+        114,
+        84
+      ],
+      "shiny_requested": false,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 97,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 106,
+      "side": 0,
+      "turn": 0,
+      "pair": [
+        114,
+        84
+      ],
+      "shiny_requested": true,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 97,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 106,
+      "side": 1,
+      "turn": 0,
+      "pair": [
+        114,
+        84
+      ],
+      "shiny_requested": true,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 97,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 232,
+      "side": 0,
+      "turn": 0,
+      "pair": [
+        114,
+        84
+      ],
+      "shiny_requested": true,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 140,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 232,
+      "side": 1,
+      "turn": 0,
+      "pair": [
+        114,
+        84
+      ],
+      "shiny_requested": true,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 140,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 334,
+      "side": 0,
+      "turn": 0,
+      "pair": [
+        114,
+        84
+      ],
+      "shiny_requested": true,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 97,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 334,
+      "side": 1,
+      "turn": 0,
+      "pair": [
+        114,
+        84
+      ],
+      "shiny_requested": true,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 97,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 107,
+      "side": 0,
+      "turn": 0,
+      "pair": [
+        86,
+        100
+      ],
+      "shiny_requested": false,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 152,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 107,
+      "side": 1,
+      "turn": 0,
+      "pair": [
+        86,
+        100
+      ],
+      "shiny_requested": false,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 152,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 293,
+      "side": 0,
+      "turn": 0,
+      "pair": [
+        86,
+        100
+      ],
+      "shiny_requested": false,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 143,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 293,
+      "side": 1,
+      "turn": 0,
+      "pair": [
+        86,
+        100
+      ],
+      "shiny_requested": false,
+      "actual_shiny": [
+        false,
+        false
+      ],
+      "native_callback_render_steps": 143,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 107,
+      "side": 0,
+      "turn": 0,
+      "pair": [
+        86,
+        100
+      ],
+      "shiny_requested": true,
+      "actual_shiny": [
+        false,
+        true
+      ],
+      "native_callback_render_steps": 152,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 107,
+      "side": 1,
+      "turn": 0,
+      "pair": [
+        86,
+        100
+      ],
+      "shiny_requested": true,
+      "actual_shiny": [
+        false,
+        true
+      ],
+      "native_callback_render_steps": 152,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 293,
+      "side": 0,
+      "turn": 0,
+      "pair": [
+        86,
+        100
+      ],
+      "shiny_requested": true,
+      "actual_shiny": [
+        false,
+        true
+      ],
+      "native_callback_render_steps": 143,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    },
+    {
+      "move": 293,
+      "side": 1,
+      "turn": 0,
+      "pair": [
+        86,
+        100
+      ],
+      "shiny_requested": true,
+      "actual_shiny": [
+        false,
+        true
+      ],
+      "native_callback_render_steps": 143,
+      "native_script_finished": true,
+      "battler_tile_bytes_unchanged": true,
+      "battler_palettes_restored": true,
+      "visual_task_count": 0,
+      "sound_task_count": 0,
+      "human_visual_review": false
+    }
+  ]
+}
