@@ -3720,7 +3720,58 @@
       "gain_db": 9.54,
       "private_sample": true,
       "limited": true
+    },
+    {
+      "constant": "MUS_YOKAI_PATROL_MISSION",
+      "song_id": 373,
+      "baseline_window_lufs": -33.8,
+      "target_window_lufs": -29,
+      "gain_q8": 445,
+      "gain_db": 4.8,
+      "private_sample": true,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_VS_YOKAI",
+      "song_id": 374,
+      "baseline_window_lufs": -30.1,
+      "target_window_lufs": -29,
+      "gain_q8": 291,
+      "gain_db": 1.11,
+      "private_sample": true,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_BOSS_YOKAI",
+      "song_id": 375,
+      "baseline_window_lufs": -33.5,
+      "target_window_lufs": -29,
+      "gain_q8": 430,
+      "gain_db": 4.5,
+      "private_sample": true,
+      "limited": false
+    },
+    {
+      "constant": "MUS_YOKAI_CURIOUS",
+      "song_id": 376,
+      "baseline_window_lufs": -39.1,
+      "target_window_lufs": -29,
+      "gain_q8": 768,
+      "gain_db": 9.54,
+      "private_sample": true,
+      "limited": true
+    },
+    {
+      "constant": "MUS_YOKAI_ARIANE",
+      "song_id": 377,
+      "baseline_window_lufs": -36.0,
+      "target_window_lufs": -29,
+      "gain_q8": 573,
+      "gain_db": 7.0,
+      "private_sample": true,
+      "limited": false
     }
   ],
-  "cry_volume_percent": 60
+  "cry_volume_percent": 60,
+  "new_tracks_measurement": "POST_B13/audio/niveaux-nouveaux-avant-gain.json; 12s native mixer, finite window only"
 }

@@ -1,0 +1,49 @@
+{
+  "engine": "mGBA libretro",
+  "rom_sha256": "ceee3955c48aaa6b0f49b26dba10cfac855f5b773da2254fd1ed23be72cadd1c",
+  "scope": "Actual NPC interaction on Route25, ordinary controller input through fights and dialogs; fixture warp to Route25, level100/999-stat party for transition tests, normal weak party for defeat case",
+  "balance_validated": false,
+  "results": [
+    {
+      "test": "Actual A interaction then No: no fight and no victory/reward flags",
+      "passed": true
+    },
+    {
+      "test": "Win actual adventure battle with full bag: victory retained, reward pending",
+      "frames": 4224,
+      "passed": true
+    },
+    {
+      "test": "Retry reward without another battle; one Moon Stone, no duplicate on revisit",
+      "passed": true
+    },
+    {
+      "test": "Post-League rematch selects five-member team; unique reward preserved",
+      "frames": 7616,
+      "passed": true
+    },
+    {
+      "test": "Ariane battle/reward/rematch flags survive native Flash reload",
+      "passed": true
+    },
+    {
+      "test": "Second voluntary postgame rematch really starts and completes; no duplicate reward",
+      "frames": 8704,
+      "passed": true
+    },
+    {
+      "test": "First ever Ariane encounter after League directly uses postgame team and gives unique reward",
+      "frames": 7616,
+      "passed": true
+    },
+    {
+      "test": "Real player defeat and whiteout: no victory or reward flags and no item granted",
+      "passed": true
+    }
+  ],
+  "remaining": [
+    "Other cameos",
+    "Full story traversal",
+    "Balanced party difficulty assessment"
+  ]
+}

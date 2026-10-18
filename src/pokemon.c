@@ -5899,7 +5899,7 @@ void ClearBattleMonForms(void)
 static u16 GetBattleBGM(void)
 {
     if (gBattleTypeFlags & BATTLE_TYPE_KYOGRE_GROUDON)
-        return MUS_VS_WILD;
+        return MUS_YOKAI_VS_YOKAI;
     if (gBattleTypeFlags & BATTLE_TYPE_REGI)
         return MUS_RS_VS_TRAINER;
     if (gBattleTypeFlags & BATTLE_TYPE_LINK)
@@ -5923,7 +5923,7 @@ static u16 GetBattleBGM(void)
         case TRAINER_YOKAI_EMPLOYEBLEU:
         case TRAINER_YOKAI_MAFIAMILLE1:
         case TRAINER_YOKAI_MAFIAMILLE2:
-        case TRAINER_YOKAI_MAFIAMILLE3: return MUS_VS_TRAINER;
+        case TRAINER_YOKAI_MAFIAMILLE3: return MUS_YOKAI_VS_YOKAI;
         }
         switch (gTrainers[gTrainerBattleOpponent_A].trainerClass)
         {
@@ -5931,17 +5931,17 @@ static u16 GetBattleBGM(void)
             return MUS_YOKAI_FINAL_BATTLE;
         case TRAINER_CLASS_LEADER:
         case TRAINER_CLASS_ELITE_FOUR:
-            return MUS_VS_GYM_LEADER;
+            return MUS_YOKAI_BOSS_YOKAI;
         case TRAINER_CLASS_BOSS:
         case TRAINER_CLASS_TEAM_ROCKET:
         case TRAINER_CLASS_COOLTRAINER:
         case TRAINER_CLASS_GENTLEMAN:
         case TRAINER_CLASS_RIVAL_LATE:
         default:
-            return MUS_VS_TRAINER;
+            return MUS_YOKAI_VS_YOKAI;
         }
     }
-    return MUS_VS_WILD;
+    return MUS_YOKAI_VS_YOKAI;
 }
 
 void PlayBattleBGM(void)

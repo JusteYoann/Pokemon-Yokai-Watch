@@ -1,0 +1,17 @@
+{
+  "private_rom_sha256": "ceee3955c48aaa6b0f49b26dba10cfac855f5b773da2254fd1ed23be72cadd1c",
+  "private_rom_bytes": 27064355,
+  "b13_bytes": 24400776,
+  "increase_from_b13_bytes": 2663579,
+  "remaining_bytes_to32MiB": 6490077,
+  "public_build_bytes_including_minimum_padding": 16777216,
+  "song_table_entries_all_retained": 378,
+  "native_header_entries_all_retained": 347,
+  "explicit_token_absence_candidates": [],
+  "pokemon_graphic_header_incbins": 1503,
+  "yokai_graphic_header_incbins": 905,
+  "original_graphics_note": "151 custom front/back/icon pointers are verified separately in verifier_rom. Other species/footprints/engine assets remain intentionally present; source directories alone are not duplicate ROM allocations. No deletion inferred from filenames.",
+  "removed_resources": [],
+  "measured_reclamation_bytes": 0,
+  "scope": "No speculative space savings. Native song-table references keep original sequence headers live. Removing such entries needs separate dynamic/cross-reference validation and a measured rebuild."
+}

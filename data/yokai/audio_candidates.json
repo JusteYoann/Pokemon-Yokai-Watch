@@ -1,7 +1,7 @@
 {
-  "source": "MISSION_FINALE_V1.md: definitive selection of 15, stable legacy IDs preserved",
+  "source": "Original15 mandatory + explicit approval of POST_B13/audio/propositions_ambiance.csv",
   "sample_rate_hz": 13379,
-  "status": "15 selected for v1.0; historical slots retained for source/save compatibility, inactive slots not compiled into private audio",
+  "status": "POST_B13 user-approved 22 selections, legacy IDs retained; selected_v1 is historical field name",
   "tracks": [
     {
       "number": 1,
@@ -57,7 +57,7 @@
       "game": "YW1",
       "source_stem": "Yo-kai Watch OST - Nates House",
       "destination": "maison_nathan",
-      "selected_v1": false
+      "selected_v1": true
     },
     {
       "number": 8,
@@ -97,7 +97,7 @@
       "game": "YW1",
       "source_stem": "Yo-kai Watch OST - Blossom Heights(4)",
       "destination": "celadopole",
-      "selected_v1": false
+      "selected_v1": true
     },
     {
       "number": 13,
@@ -210,6 +210,46 @@
       "source_stem": "36. Take Care, Grandpa 1 - Yo-Kai Watch 2 OST",
       "destination": "conclusion_ligue",
       "selected_v1": true
+    },
+    {
+      "number": 27,
+      "title": "Patrol Mission",
+      "game": "BLASTERS",
+      "source_stem": "12. Patrol Mission - Yo-Kai Watch Blasters OST",
+      "destination": "routes",
+      "selected_v1": true
+    },
+    {
+      "number": 28,
+      "title": "vs. Yo-kai ~2~",
+      "game": "YW2",
+      "source_stem": "12. vs. Yo-kai ~2~ - Yo-Kai Watch 2 OST",
+      "destination": "combats_courants",
+      "selected_v1": true
+    },
+    {
+      "number": 29,
+      "title": "vs. Boss Yo-kai",
+      "game": "SANGOKUSHI",
+      "source_stem": "13. vs. Boss Yo-kai - Yo-Kai Sangokushi OST",
+      "destination": "champions",
+      "selected_v1": true
+    },
+    {
+      "number": 30,
+      "title": "The Very Curious Yo-kai Watch",
+      "game": "YW2",
+      "source_stem": "0. The Very Curious Yo-kai Watch - Yo-Kai Watch 2 OST",
+      "destination": "titre_introduction",
+      "selected_v1": true
+    },
+    {
+      "number": 31,
+      "title": "Usapyon and Hailey Annes Theme (Reused)",
+      "game": "YW4",
+      "source_stem": "72. Usapyon and Hailey Annes Theme (Reused) - Yo-Kai Watch 4 OST",
+      "destination": "ariane",
+      "selected_v1": true
     }
   ],
   "selected_tracks": [
@@ -219,7 +259,9 @@
     4,
     5,
     6,
+    7,
     11,
+    12,
     15,
     17,
     21,
@@ -227,7 +269,12 @@
     23,
     24,
     25,
-    26
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
   ],
-  "slot_count": 26
+  "slot_count": 31
 }

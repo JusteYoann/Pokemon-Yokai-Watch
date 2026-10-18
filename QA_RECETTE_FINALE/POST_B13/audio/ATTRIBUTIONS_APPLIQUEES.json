@@ -1,0 +1,902 @@
+{
+  "scope": "User approved table; fallback explicit for7/12 pending reliable loops; no new battles or gameplay changes",
+  "changes": [
+    {
+      "map": "CeruleanCity",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "CeruleanCity_BikeShop",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "CeruleanCity_House1",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "CeruleanCity_House2",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "CeruleanCity_House3",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "CeruleanCity_House4",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "CeruleanCity_House5",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "CeruleanCity_Mart",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "CeruleanCity_PokemonCenter_1F",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "CeruleanCity_PokemonCenter_2F",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "CinnabarIsland",
+      "before": "MUS_CINNABAR",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "CinnabarIsland_Mart",
+      "before": "MUS_CINNABAR",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "CinnabarIsland_PokemonCenter_1F",
+      "before": "MUS_CINNABAR",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "CinnabarIsland_PokemonCenter_2F",
+      "before": "MUS_CINNABAR",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "CinnabarIsland_PokemonLab_Entrance",
+      "before": "MUS_CINNABAR",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "CinnabarIsland_PokemonLab_ExperimentRoom",
+      "before": "MUS_CINNABAR",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "CinnabarIsland_PokemonLab_Lounge",
+      "before": "MUS_CINNABAR",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "CinnabarIsland_PokemonLab_ResearchRoom",
+      "before": "MUS_CINNABAR",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "FuchsiaCity",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "FuchsiaCity_House1",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "FuchsiaCity_House2",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "FuchsiaCity_House3",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "FuchsiaCity_Mart",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "FuchsiaCity_PokemonCenter_1F",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "FuchsiaCity_PokemonCenter_2F",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "FuchsiaCity_SafariZone_Entrance",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "FuchsiaCity_SafariZone_Office",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "FuchsiaCity_WardensHouse",
+      "before": "MUS_FUCHSIA",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "IndigoPlateau_Exterior",
+      "before": "MUS_VICTORY_ROAD",
+      "after": "MUS_YOKAI_MYSTIC_GROVE"
+    },
+    {
+      "map": "IndigoPlateau_PokemonCenter_1F",
+      "before": "MUS_GYM",
+      "after": "MUS_YOKAI_MYSTIC_GROVE"
+    },
+    {
+      "map": "IndigoPlateau_PokemonCenter_2F",
+      "before": "MUS_POKE_CENTER",
+      "after": "MUS_YOKAI_MYSTIC_GROVE"
+    },
+    {
+      "map": "LavenderTown",
+      "before": "MUS_LAVENDER",
+      "after": "MUS_YOKAI_MYSTIC_GROVE"
+    },
+    {
+      "map": "LavenderTown_House1",
+      "before": "MUS_LAVENDER",
+      "after": "MUS_YOKAI_MYSTIC_GROVE"
+    },
+    {
+      "map": "LavenderTown_House2",
+      "before": "MUS_LAVENDER",
+      "after": "MUS_YOKAI_MYSTIC_GROVE"
+    },
+    {
+      "map": "LavenderTown_Mart",
+      "before": "MUS_LAVENDER",
+      "after": "MUS_YOKAI_MYSTIC_GROVE"
+    },
+    {
+      "map": "LavenderTown_PokemonCenter_1F",
+      "before": "MUS_LAVENDER",
+      "after": "MUS_YOKAI_MYSTIC_GROVE"
+    },
+    {
+      "map": "LavenderTown_PokemonCenter_2F",
+      "before": "MUS_LAVENDER",
+      "after": "MUS_YOKAI_MYSTIC_GROVE"
+    },
+    {
+      "map": "LavenderTown_VolunteerPokemonHouse",
+      "before": "MUS_LAVENDER",
+      "after": "MUS_YOKAI_MYSTIC_GROVE"
+    },
+    {
+      "map": "MtEmber_Exterior",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "MtEmber_RubyPath_1F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "MtEmber_RubyPath_B1F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "MtEmber_RubyPath_B1F_Stairs",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "MtEmber_RubyPath_B2F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "MtEmber_RubyPath_B2F_Stairs",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "MtEmber_RubyPath_B3F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "MtEmber_RubyPath_B4F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "MtEmber_RubyPath_B5F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "MtEmber_Summit",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "MtEmber_SummitPath_1F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "MtEmber_SummitPath_2F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "MtEmber_SummitPath_3F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "NavelRock_1F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "NavelRock_B1F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "NavelRock_Base",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "NavelRock_BasePath_B10F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "NavelRock_BasePath_B11F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "NavelRock_BasePath_B1F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "NavelRock_BasePath_B2F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "NavelRock_BasePath_B3F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "NavelRock_BasePath_B4F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "NavelRock_BasePath_B5F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "NavelRock_BasePath_B6F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "NavelRock_BasePath_B7F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "NavelRock_BasePath_B8F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "NavelRock_BasePath_B9F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "NavelRock_Exterior",
+      "before": "MUS_SEVII_ROUTE",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "NavelRock_Fork",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "NavelRock_Harbor",
+      "before": "MUS_SEVII_ROUTE",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "NavelRock_Summit",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "NavelRock_SummitPath_2F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "NavelRock_SummitPath_3F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "NavelRock_SummitPath_4F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "NavelRock_SummitPath_5F",
+      "before": "MUS_SEVII_CAVE",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "PalletTown",
+      "before": "MUS_PALLET",
+      "after": "MUS_YOKAI_NATHAN_HOUSE"
+    },
+    {
+      "map": "PalletTown_PlayersHouse_1F",
+      "before": "MUS_PALLET",
+      "after": "MUS_YOKAI_NATHAN_HOUSE"
+    },
+    {
+      "map": "PalletTown_PlayersHouse_2F",
+      "before": "MUS_PALLET",
+      "after": "MUS_YOKAI_NATHAN_HOUSE"
+    },
+    {
+      "map": "PalletTown_ProfessorOaksLab",
+      "before": "MUS_PALLET",
+      "after": "MUS_YOKAI_NATHAN_HOUSE"
+    },
+    {
+      "map": "PalletTown_RivalsHouse",
+      "before": "MUS_PALLET",
+      "after": "MUS_YOKAI_NATHAN_HOUSE"
+    },
+    {
+      "map": "PewterCity",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_BLOSSOM_HEIGHTS"
+    },
+    {
+      "map": "PewterCity_House1",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_BLOSSOM_HEIGHTS"
+    },
+    {
+      "map": "PewterCity_House2",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_BLOSSOM_HEIGHTS"
+    },
+    {
+      "map": "PewterCity_Mart",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_BLOSSOM_HEIGHTS"
+    },
+    {
+      "map": "PewterCity_Museum_1F",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_BLOSSOM_HEIGHTS"
+    },
+    {
+      "map": "PewterCity_Museum_2F",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_BLOSSOM_HEIGHTS"
+    },
+    {
+      "map": "PewterCity_PokemonCenter_1F",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_BLOSSOM_HEIGHTS"
+    },
+    {
+      "map": "PewterCity_PokemonCenter_2F",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_BLOSSOM_HEIGHTS"
+    },
+    {
+      "map": "Prototype_SeviiIsle_6",
+      "before": "MUS_SEVII_ROUTE",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Prototype_SeviiIsle_7",
+      "before": "MUS_SEVII_ROUTE",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Prototype_SeviiIsle_8",
+      "before": "MUS_SEVII_ROUTE",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Prototype_SeviiIsle_9",
+      "before": "MUS_SEVII_ROUTE",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "RockTunnel_1F",
+      "before": "MUS_MT_MOON",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "RockTunnel_B1F",
+      "before": "MUS_MT_MOON",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "Route1",
+      "before": "MUS_PALLET",
+      "after": "MUS_YOKAI_NATHAN_HOUSE"
+    },
+    {
+      "map": "Route10",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route11_EastEntrance_1F",
+      "before": "MUS_VERMILLION",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "Route11_EastEntrance_2F",
+      "before": "MUS_VERMILLION",
+      "after": "MUS_YOKAI_SAN_FANTASTICO"
+    },
+    {
+      "map": "Route12",
+      "before": "MUS_ROUTE11",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route13",
+      "before": "MUS_ROUTE11",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route14",
+      "before": "MUS_ROUTE11",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route15",
+      "before": "MUS_ROUTE11",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route16",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route17",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route18",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route19",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route19_UnusedHouse",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route2",
+      "before": "MUS_ROUTE1",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route20",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route21_North",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route21_South",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route22",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route24",
+      "before": "MUS_ROUTE24",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route25",
+      "before": "MUS_ROUTE24",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route3",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route4",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route5",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route6",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route6_UnusedHouse",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route7",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route8",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "Route9",
+      "before": "MUS_ROUTE3",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "SaffronCity",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_UPTOWN"
+    },
+    {
+      "map": "SaffronCity_Connection",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_UPTOWN"
+    },
+    {
+      "map": "SaffronCity_CopycatsHouse_1F",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_UPTOWN"
+    },
+    {
+      "map": "SaffronCity_CopycatsHouse_2F",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_UPTOWN"
+    },
+    {
+      "map": "SaffronCity_Dojo",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_UPTOWN"
+    },
+    {
+      "map": "SaffronCity_House",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_UPTOWN"
+    },
+    {
+      "map": "SaffronCity_Mart",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_UPTOWN"
+    },
+    {
+      "map": "SaffronCity_MrPsychicsHouse",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_UPTOWN"
+    },
+    {
+      "map": "SaffronCity_PokemonCenter_1F",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_UPTOWN"
+    },
+    {
+      "map": "SaffronCity_PokemonCenter_2F",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_UPTOWN"
+    },
+    {
+      "map": "SaffronCity_PokemonTrainerFanClub",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_UPTOWN"
+    },
+    {
+      "map": "UndergroundPath_EastWestTunnel",
+      "before": "MUS_ROUTE1",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "UndergroundPath_NorthSouthTunnel",
+      "before": "MUS_ROUTE1",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "VictoryRoad_1F",
+      "before": "MUS_MT_MOON",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "VictoryRoad_2F",
+      "before": "MUS_MT_MOON",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "VictoryRoad_3F",
+      "before": "MUS_MT_MOON",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "ViridianCity",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_BLOSSOM_HEIGHTS"
+    },
+    {
+      "map": "ViridianCity_House",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_BLOSSOM_HEIGHTS"
+    },
+    {
+      "map": "ViridianCity_Mart",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_BLOSSOM_HEIGHTS"
+    },
+    {
+      "map": "ViridianCity_PokemonCenter_1F",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_BLOSSOM_HEIGHTS"
+    },
+    {
+      "map": "ViridianCity_PokemonCenter_2F",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_BLOSSOM_HEIGHTS"
+    },
+    {
+      "map": "ViridianCity_School",
+      "before": "MUS_PEWTER",
+      "after": "MUS_YOKAI_BLOSSOM_HEIGHTS"
+    },
+    {
+      "map": "FiveIsland_LostCave_Entrance",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room1",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room10",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room11",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room12",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room13",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room14",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room2",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room3",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room4",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room5",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room6",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room7",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room8",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room9",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "FiveIsland_Meadow",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "FiveIsland_MemorialPillar",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "FiveIsland_ResortGorgeous",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "FiveIsland_WaterLabyrinth",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "FourIsland_IcefallCave_1F",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "FourIsland_IcefallCave_B1F",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "FourIsland_IcefallCave_Back",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "FourIsland_IcefallCave_Entrance",
+      "before": "MUS_SEVII_45",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "OneIsland_KindleRoad",
+      "before": "MUS_SEVII_123",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "OneIsland_TreasureBeach",
+      "before": "MUS_SEVII_123",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "SevenIsland_SevaultCanyon",
+      "before": "MUS_SEVII_67",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "SevenIsland_SevaultCanyon_Entrance",
+      "before": "MUS_SEVII_67",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "SevenIsland_TanobyRuins",
+      "before": "MUS_SEVII_67",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "SevenIsland_TrainerTower",
+      "before": "MUS_SEVII_67",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "SixIsland_GreenPath",
+      "before": "MUS_SEVII_67",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "SixIsland_OutcastIsland",
+      "before": "MUS_SEVII_67",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "SixIsland_RuinValley",
+      "before": "MUS_SEVII_67",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "SixIsland_WaterPath",
+      "before": "MUS_SEVII_67",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "ThreeIsland_BondBridge",
+      "before": "MUS_SEVII_123",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    },
+    {
+      "map": "ThreeIsland_DunsparceTunnel",
+      "before": "MUS_SEVII_123",
+      "after": "MUS_YOKAI_HOPPERS_GORGE"
+    },
+    {
+      "map": "TwoIsland_CapeBrink",
+      "before": "MUS_SEVII_123",
+      "after": "MUS_YOKAI_PATROL_MISSION"
+    }
+  ],
+  "pending_samples": [
+    5,
+    7,
+    12,
+    25
+  ],
+  "mandatory15_preserved": true
+}

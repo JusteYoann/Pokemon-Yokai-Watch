@@ -13,9 +13,14 @@
     22,
     23,
     24,
-    26
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
   ],
-  "status": "V1 selected15; 13 active, Enma Track5 and Final Battle25 pending reliable source loops; exact native fallback until activation. Retired songs excluded.",
+  "status": "POST_B13 approved allocations: 22 selected; 18 active; Enma5, Nate7, Blossom12 and Final25 await reliable full-section loops",
   "tracks": [
     {
       "number": 1,
@@ -35,6 +40,16 @@
       "source_end_samples": 770441,
       "period_waveform_correlation": 0.9275363134675166,
       "derivation": "FFT recurrence refined to source sample precision; stable repeated windows then <=100ms phase alignment; bike skips non-repeating intro",
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 3,
+      "pcm_wav_sha256": "723cab39687280192dd24aa5a3768430a46676f475552d77bcb154b794c11050",
+      "source_start_samples": 0,
+      "source_loop_start_samples": 79847,
+      "source_end_samples": 3127884,
+      "period_waveform_correlation": 0.8585363550072133,
+      "derivation": "Long full-cycle reprise at lag227.822482996s confirmed at exactly3048037 native samples across four consecutive one-second windows4/5/6/7s (Pearson .824/.842/.859/.840); 6s intro retained. Not a short repeated percussion cut. Explicit seam alignment <=40ms. Human listening pending.",
       "perceptual_listening_validated": false
     },
     {
@@ -298,17 +313,57 @@
       "perceptual_listening_validated": false
     },
     {
-      "number": 3,
-      "pcm_wav_sha256": "723cab39687280192dd24aa5a3768430a46676f475552d77bcb154b794c11050",
+      "number": 27,
+      "pcm_wav_sha256": "1428b0777ed69dee7d782f454ffa2c85cd545aeb4547df71a2d940700a1ab1a5",
       "source_start_samples": 0,
-      "source_loop_start_samples": 79847,
-      "source_end_samples": 3127884,
-      "period_waveform_correlation": 0.8585363550072133,
-      "derivation": "Long full-cycle reprise at lag227.822482996s confirmed at exactly3048037 native samples across four consecutive one-second windows4/5/6/7s (Pearson .824/.842/.859/.840); 6s intro retained. Not a short repeated percussion cut. Explicit seam alignment <=40ms. Human listening pending.",
+      "source_loop_start_samples": 93016,
+      "source_end_samples": 1056304,
+      "period_waveform_correlation": 0.9937341783519555,
+      "derivation": "Approved allocation, 3s waveform period refined at 13379Hz, >=6s stable recurrence, <=100ms phase alignment, original intro retained once; no time stretch or crossfade",
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 28,
+      "pcm_wav_sha256": "f53eb78489b2dba5c003dc5ecb2077f6afbe443fead567f8cc5b91d72a5ff2ab",
+      "source_start_samples": 0,
+      "source_loop_start_samples": 187525,
+      "source_end_samples": 1104943,
+      "period_waveform_correlation": 0.9953224393089075,
+      "derivation": "Approved allocation, 3s waveform period refined at 13379Hz, >=6s stable recurrence, <=100ms phase alignment, original intro retained once; no time stretch or crossfade",
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 29,
+      "pcm_wav_sha256": "e60adfe249c6040eeb8097114c70daf17786b19521e9acc0e007b3952e0aad19",
+      "source_start_samples": 0,
+      "source_loop_start_samples": 240808,
+      "source_end_samples": 1343079,
+      "period_waveform_correlation": 0.9676274368579114,
+      "derivation": "Approved allocation, 3s waveform period refined at 13379Hz, >=6s stable recurrence, <=100ms phase alignment, original intro retained once; no time stretch or crossfade",
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 30,
+      "pcm_wav_sha256": "2c0840118f16ad0883e23f3267da45c203906200c92672ac3790e92cd8fdd7b8",
+      "source_start_samples": 0,
+      "source_loop_start_samples": 187284,
+      "source_end_samples": 778778,
+      "period_waveform_correlation": 0.9940067550480007,
+      "derivation": "Approved allocation, 3s waveform period refined at 13379Hz, >=6s stable recurrence, <=100ms phase alignment, original intro retained once; no time stretch or crossfade",
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 31,
+      "pcm_wav_sha256": "7261222b88c07985fad8962d81ff2312cb6632d57729de1833898a1b367407a2",
+      "source_start_samples": 0,
+      "source_loop_start_samples": 173907,
+      "source_end_samples": 878494,
+      "period_waveform_correlation": 0.9791019474804395,
+      "derivation": "Approved allocation, 3s waveform period refined at 13379Hz, >=6s stable recurrence, <=100ms phase alignment, original intro retained once; no time stretch or crossfade",
       "perceptual_listening_validated": false
     }
   ],
-  "slot_count": 26,
+  "slot_count": 31,
   "selected_tracks": [
     1,
     2,
@@ -316,7 +371,9 @@
     4,
     5,
     6,
+    7,
     11,
+    12,
     15,
     17,
     21,
@@ -324,10 +381,17 @@
     23,
     24,
     25,
-    26
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
   ],
   "pending_tracks": [
     5,
+    7,
+    12,
     25
   ]
 }

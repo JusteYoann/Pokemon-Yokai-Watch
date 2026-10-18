@@ -1,0 +1,2560 @@
+{
+  "passed": true,
+  "rom_sha256": "ceee3955c48aaa6b0f49b26dba10cfac855f5b773da2254fd1ed23be72cadd1c",
+  "rom_bytes": 27064355,
+  "remaining_bytes_to32MiB": 6490077,
+  "maps_verified": 425,
+  "scope": "All linked map headers match source assignments; not proof of runtime script overrides or travel through every map",
+  "results": [
+    {
+      "map": "BattleColosseum_2P",
+      "music": "MUS_POKE_CENTER",
+      "music_id": 303,
+      "passed": true
+    },
+    {
+      "map": "BattleColosseum_4P",
+      "music": "MUS_POKE_CENTER",
+      "music_id": 303,
+      "passed": true
+    },
+    {
+      "map": "BirthIsland_Exterior",
+      "music": "MUS_NONE",
+      "music_id": 65535,
+      "passed": true
+    },
+    {
+      "map": "BirthIsland_Harbor",
+      "music": "MUS_NONE",
+      "music_id": 65535,
+      "passed": true
+    },
+    {
+      "map": "CeladonCity",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "CeladonCity_Condominiums_1F",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "CeladonCity_Condominiums_2F",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "CeladonCity_Condominiums_3F",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "CeladonCity_Condominiums_Roof",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "CeladonCity_Condominiums_RoofRoom",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "CeladonCity_DepartmentStore_1F",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "CeladonCity_DepartmentStore_2F",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "CeladonCity_DepartmentStore_3F",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "CeladonCity_DepartmentStore_4F",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "CeladonCity_DepartmentStore_5F",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "CeladonCity_DepartmentStore_Elevator",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "CeladonCity_DepartmentStore_Roof",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "CeladonCity_GameCorner",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "CeladonCity_GameCorner_PrizeRoom",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "CeladonCity_Gym",
+      "music": "MUS_GYM",
+      "music_id": 275,
+      "passed": true
+    },
+    {
+      "map": "CeladonCity_Hotel",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "CeladonCity_House1",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "CeladonCity_PokemonCenter_1F",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "CeladonCity_PokemonCenter_2F",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "CeladonCity_Restaurant",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "CeruleanCave_1F",
+      "music": "MUS_YOKAI_MYSTIC_GROVE",
+      "music_id": 369,
+      "passed": true
+    },
+    {
+      "map": "CeruleanCave_2F",
+      "music": "MUS_YOKAI_MYSTIC_GROVE",
+      "music_id": 369,
+      "passed": true
+    },
+    {
+      "map": "CeruleanCave_B1F",
+      "music": "MUS_YOKAI_MYSTIC_GROVE",
+      "music_id": 369,
+      "passed": true
+    },
+    {
+      "map": "CeruleanCity",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "CeruleanCity_BikeShop",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "CeruleanCity_Gym",
+      "music": "MUS_GYM",
+      "music_id": 275,
+      "passed": true
+    },
+    {
+      "map": "CeruleanCity_House1",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "CeruleanCity_House2",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "CeruleanCity_House3",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "CeruleanCity_House4",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "CeruleanCity_House5",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "CeruleanCity_Mart",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "CeruleanCity_PokemonCenter_1F",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "CeruleanCity_PokemonCenter_2F",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "CinnabarIsland",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "CinnabarIsland_Gym",
+      "music": "MUS_GYM",
+      "music_id": 275,
+      "passed": true
+    },
+    {
+      "map": "CinnabarIsland_Mart",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "CinnabarIsland_PokemonCenter_1F",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "CinnabarIsland_PokemonCenter_2F",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "CinnabarIsland_PokemonLab_Entrance",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "CinnabarIsland_PokemonLab_ExperimentRoom",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "CinnabarIsland_PokemonLab_Lounge",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "CinnabarIsland_PokemonLab_ResearchRoom",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "DiglettsCave_B1F",
+      "music": "MUS_VIRIDIAN_FOREST",
+      "music_id": 287,
+      "passed": true
+    },
+    {
+      "map": "DiglettsCave_NorthEntrance",
+      "music": "MUS_VIRIDIAN_FOREST",
+      "music_id": 287,
+      "passed": true
+    },
+    {
+      "map": "DiglettsCave_SouthEntrance",
+      "music": "MUS_VIRIDIAN_FOREST",
+      "music_id": 287,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland",
+      "music": "MUS_SEVII_45",
+      "music_id": 336,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_Harbor",
+      "music": "MUS_SEVII_45",
+      "music_id": 336,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_House1",
+      "music": "MUS_SEVII_45",
+      "music_id": 336,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_House2",
+      "music": "MUS_SEVII_45",
+      "music_id": 336,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Entrance",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room1",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room10",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room11",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room12",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room13",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room14",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room2",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room3",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room4",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room5",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room6",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room7",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room8",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room9",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_Meadow",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_MemorialPillar",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_PokemonCenter_1F",
+      "music": "MUS_SEVII_45",
+      "music_id": 336,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_PokemonCenter_2F",
+      "music": "MUS_SEVII_45",
+      "music_id": 336,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_ResortGorgeous",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_ResortGorgeous_House",
+      "music": "MUS_SEVII_45",
+      "music_id": 336,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_RocketWarehouse",
+      "music": "MUS_SEVII_45",
+      "music_id": 336,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_WaterLabyrinth",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "FourIsland",
+      "music": "MUS_SEVII_45",
+      "music_id": 336,
+      "passed": true
+    },
+    {
+      "map": "FourIsland_Harbor",
+      "music": "MUS_SEVII_45",
+      "music_id": 336,
+      "passed": true
+    },
+    {
+      "map": "FourIsland_House1",
+      "music": "MUS_SEVII_45",
+      "music_id": 336,
+      "passed": true
+    },
+    {
+      "map": "FourIsland_House2",
+      "music": "MUS_SEVII_45",
+      "music_id": 336,
+      "passed": true
+    },
+    {
+      "map": "FourIsland_IcefallCave_1F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "FourIsland_IcefallCave_B1F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "FourIsland_IcefallCave_Back",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "FourIsland_IcefallCave_Entrance",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "FourIsland_LoreleisHouse",
+      "music": "MUS_SEVII_45",
+      "music_id": 336,
+      "passed": true
+    },
+    {
+      "map": "FourIsland_Mart",
+      "music": "MUS_SEVII_45",
+      "music_id": 336,
+      "passed": true
+    },
+    {
+      "map": "FourIsland_PokemonCenter_1F",
+      "music": "MUS_SEVII_45",
+      "music_id": 336,
+      "passed": true
+    },
+    {
+      "map": "FourIsland_PokemonCenter_2F",
+      "music": "MUS_SEVII_45",
+      "music_id": 336,
+      "passed": true
+    },
+    {
+      "map": "FourIsland_PokemonDayCare",
+      "music": "MUS_SEVII_45",
+      "music_id": 336,
+      "passed": true
+    },
+    {
+      "map": "FuchsiaCity",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "FuchsiaCity_Gym",
+      "music": "MUS_GYM",
+      "music_id": 275,
+      "passed": true
+    },
+    {
+      "map": "FuchsiaCity_House1",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "FuchsiaCity_House2",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "FuchsiaCity_House3",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "FuchsiaCity_Mart",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "FuchsiaCity_PokemonCenter_1F",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "FuchsiaCity_PokemonCenter_2F",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "FuchsiaCity_SafariZone_Entrance",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "FuchsiaCity_SafariZone_Office",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "FuchsiaCity_WardensHouse",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "IndigoPlateau_Exterior",
+      "music": "MUS_YOKAI_MYSTIC_GROVE",
+      "music_id": 369,
+      "passed": true
+    },
+    {
+      "map": "IndigoPlateau_PokemonCenter_1F",
+      "music": "MUS_YOKAI_MYSTIC_GROVE",
+      "music_id": 369,
+      "passed": true
+    },
+    {
+      "map": "IndigoPlateau_PokemonCenter_2F",
+      "music": "MUS_YOKAI_MYSTIC_GROVE",
+      "music_id": 369,
+      "passed": true
+    },
+    {
+      "map": "LavenderTown",
+      "music": "MUS_YOKAI_MYSTIC_GROVE",
+      "music_id": 369,
+      "passed": true
+    },
+    {
+      "map": "LavenderTown_House1",
+      "music": "MUS_YOKAI_MYSTIC_GROVE",
+      "music_id": 369,
+      "passed": true
+    },
+    {
+      "map": "LavenderTown_House2",
+      "music": "MUS_YOKAI_MYSTIC_GROVE",
+      "music_id": 369,
+      "passed": true
+    },
+    {
+      "map": "LavenderTown_Mart",
+      "music": "MUS_YOKAI_MYSTIC_GROVE",
+      "music_id": 369,
+      "passed": true
+    },
+    {
+      "map": "LavenderTown_PokemonCenter_1F",
+      "music": "MUS_YOKAI_MYSTIC_GROVE",
+      "music_id": 369,
+      "passed": true
+    },
+    {
+      "map": "LavenderTown_PokemonCenter_2F",
+      "music": "MUS_YOKAI_MYSTIC_GROVE",
+      "music_id": 369,
+      "passed": true
+    },
+    {
+      "map": "LavenderTown_VolunteerPokemonHouse",
+      "music": "MUS_YOKAI_MYSTIC_GROVE",
+      "music_id": 369,
+      "passed": true
+    },
+    {
+      "map": "MtEmber_Exterior",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "MtEmber_RubyPath_1F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "MtEmber_RubyPath_B1F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "MtEmber_RubyPath_B1F_Stairs",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "MtEmber_RubyPath_B2F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "MtEmber_RubyPath_B2F_Stairs",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "MtEmber_RubyPath_B3F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "MtEmber_RubyPath_B4F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "MtEmber_RubyPath_B5F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "MtEmber_Summit",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "MtEmber_SummitPath_1F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "MtEmber_SummitPath_2F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "MtEmber_SummitPath_3F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "MtMoon_1F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "MtMoon_B1F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "MtMoon_B2F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "NavelRock_1F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "NavelRock_B1F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "NavelRock_Base",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "NavelRock_BasePath_B10F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "NavelRock_BasePath_B11F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "NavelRock_BasePath_B1F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "NavelRock_BasePath_B2F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "NavelRock_BasePath_B3F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "NavelRock_BasePath_B4F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "NavelRock_BasePath_B5F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "NavelRock_BasePath_B6F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "NavelRock_BasePath_B7F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "NavelRock_BasePath_B8F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "NavelRock_BasePath_B9F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "NavelRock_Exterior",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "NavelRock_Fork",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "NavelRock_Harbor",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "NavelRock_Summit",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "NavelRock_SummitPath_2F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "NavelRock_SummitPath_3F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "NavelRock_SummitPath_4F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "NavelRock_SummitPath_5F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "OneIsland",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "OneIsland_Harbor",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "OneIsland_House1",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "OneIsland_House2",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "OneIsland_KindleRoad",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "OneIsland_KindleRoad_EmberSpa",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "OneIsland_PokemonCenter_1F",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "OneIsland_PokemonCenter_2F",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "OneIsland_TreasureBeach",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "PalletTown",
+      "music": "MUS_YOKAI_NATHAN_HOUSE",
+      "music_id": 353,
+      "passed": true
+    },
+    {
+      "map": "PalletTown_PlayersHouse_1F",
+      "music": "MUS_YOKAI_NATHAN_HOUSE",
+      "music_id": 353,
+      "passed": true
+    },
+    {
+      "map": "PalletTown_PlayersHouse_2F",
+      "music": "MUS_YOKAI_NATHAN_HOUSE",
+      "music_id": 353,
+      "passed": true
+    },
+    {
+      "map": "PalletTown_ProfessorOaksLab",
+      "music": "MUS_YOKAI_NATHAN_HOUSE",
+      "music_id": 353,
+      "passed": true
+    },
+    {
+      "map": "PalletTown_RivalsHouse",
+      "music": "MUS_YOKAI_NATHAN_HOUSE",
+      "music_id": 353,
+      "passed": true
+    },
+    {
+      "map": "PewterCity",
+      "music": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "music_id": 358,
+      "passed": true
+    },
+    {
+      "map": "PewterCity_Gym",
+      "music": "MUS_GYM",
+      "music_id": 275,
+      "passed": true
+    },
+    {
+      "map": "PewterCity_House1",
+      "music": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "music_id": 358,
+      "passed": true
+    },
+    {
+      "map": "PewterCity_House2",
+      "music": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "music_id": 358,
+      "passed": true
+    },
+    {
+      "map": "PewterCity_Mart",
+      "music": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "music_id": 358,
+      "passed": true
+    },
+    {
+      "map": "PewterCity_Museum_1F",
+      "music": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "music_id": 358,
+      "passed": true
+    },
+    {
+      "map": "PewterCity_Museum_2F",
+      "music": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "music_id": 358,
+      "passed": true
+    },
+    {
+      "map": "PewterCity_PokemonCenter_1F",
+      "music": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "music_id": 358,
+      "passed": true
+    },
+    {
+      "map": "PewterCity_PokemonCenter_2F",
+      "music": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "music_id": 358,
+      "passed": true
+    },
+    {
+      "map": "PokemonLeague_AgathasRoom",
+      "music": "MUS_POKE_TOWER",
+      "music_id": 306,
+      "passed": true
+    },
+    {
+      "map": "PokemonLeague_BrunosRoom",
+      "music": "MUS_ROCKET_HIDEOUT",
+      "music_id": 274,
+      "passed": true
+    },
+    {
+      "map": "PokemonLeague_ChampionsRoom",
+      "music": "MUS_VICTORY_ROAD",
+      "music_id": 295,
+      "passed": true
+    },
+    {
+      "map": "PokemonLeague_HallOfFame",
+      "music": "MUS_SLOW_PALLET",
+      "music_id": 345,
+      "passed": true
+    },
+    {
+      "map": "PokemonLeague_LancesRoom",
+      "music": "MUS_VICTORY_ROAD",
+      "music_id": 295,
+      "passed": true
+    },
+    {
+      "map": "PokemonLeague_LoreleisRoom",
+      "music": "MUS_GYM",
+      "music_id": 275,
+      "passed": true
+    },
+    {
+      "map": "PokemonMansion_1F",
+      "music": "MUS_POKE_MANSION",
+      "music_id": 289,
+      "passed": true
+    },
+    {
+      "map": "PokemonMansion_2F",
+      "music": "MUS_POKE_MANSION",
+      "music_id": 289,
+      "passed": true
+    },
+    {
+      "map": "PokemonMansion_3F",
+      "music": "MUS_POKE_MANSION",
+      "music_id": 289,
+      "passed": true
+    },
+    {
+      "map": "PokemonMansion_B1F",
+      "music": "MUS_POKE_MANSION",
+      "music_id": 289,
+      "passed": true
+    },
+    {
+      "map": "PokemonTower_1F",
+      "music": "MUS_YOKAI_INFINITE_TUNNEL",
+      "music_id": 350,
+      "passed": true
+    },
+    {
+      "map": "PokemonTower_2F",
+      "music": "MUS_YOKAI_INFINITE_TUNNEL",
+      "music_id": 350,
+      "passed": true
+    },
+    {
+      "map": "PokemonTower_3F",
+      "music": "MUS_YOKAI_INFINITE_TUNNEL",
+      "music_id": 350,
+      "passed": true
+    },
+    {
+      "map": "PokemonTower_4F",
+      "music": "MUS_YOKAI_INFINITE_TUNNEL",
+      "music_id": 350,
+      "passed": true
+    },
+    {
+      "map": "PokemonTower_5F",
+      "music": "MUS_YOKAI_INFINITE_TUNNEL",
+      "music_id": 350,
+      "passed": true
+    },
+    {
+      "map": "PokemonTower_6F",
+      "music": "MUS_YOKAI_INFINITE_TUNNEL",
+      "music_id": 350,
+      "passed": true
+    },
+    {
+      "map": "PokemonTower_7F",
+      "music": "MUS_YOKAI_INFINITE_TUNNEL",
+      "music_id": 350,
+      "passed": true
+    },
+    {
+      "map": "PowerPlant",
+      "music": "MUS_POKE_MANSION",
+      "music_id": 289,
+      "passed": true
+    },
+    {
+      "map": "Prototype_SeviiIsle_6",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Prototype_SeviiIsle_7",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Prototype_SeviiIsle_8",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Prototype_SeviiIsle_9",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "RecordCorner",
+      "music": "MUS_POKE_CENTER",
+      "music_id": 303,
+      "passed": true
+    },
+    {
+      "map": "RockTunnel_1F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "RockTunnel_B1F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "RocketHideout_B1F",
+      "music": "MUS_YOKAI_DODGY",
+      "music_id": 363,
+      "passed": true
+    },
+    {
+      "map": "RocketHideout_B2F",
+      "music": "MUS_YOKAI_DODGY",
+      "music_id": 363,
+      "passed": true
+    },
+    {
+      "map": "RocketHideout_B3F",
+      "music": "MUS_YOKAI_DODGY",
+      "music_id": 363,
+      "passed": true
+    },
+    {
+      "map": "RocketHideout_B4F",
+      "music": "MUS_YOKAI_DODGY",
+      "music_id": 363,
+      "passed": true
+    },
+    {
+      "map": "RocketHideout_Elevator",
+      "music": "MUS_YOKAI_DODGY",
+      "music_id": 363,
+      "passed": true
+    },
+    {
+      "map": "Route1",
+      "music": "MUS_YOKAI_NATHAN_HOUSE",
+      "music_id": 353,
+      "passed": true
+    },
+    {
+      "map": "Route10",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route10_PokemonCenter_1F",
+      "music": "MUS_POKE_CENTER",
+      "music_id": 303,
+      "passed": true
+    },
+    {
+      "map": "Route10_PokemonCenter_2F",
+      "music": "MUS_POKE_CENTER",
+      "music_id": 303,
+      "passed": true
+    },
+    {
+      "map": "Route11",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "Route11_EastEntrance_1F",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "Route11_EastEntrance_2F",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "Route12",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route12_FishingHouse",
+      "music": "MUS_CELADON",
+      "music_id": 309,
+      "passed": true
+    },
+    {
+      "map": "Route12_NorthEntrance_1F",
+      "music": "MUS_PEWTER",
+      "music_id": 314,
+      "passed": true
+    },
+    {
+      "map": "Route12_NorthEntrance_2F",
+      "music": "MUS_PEWTER",
+      "music_id": 314,
+      "passed": true
+    },
+    {
+      "map": "Route13",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route14",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route15",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route15_WestEntrance_1F",
+      "music": "MUS_PEWTER",
+      "music_id": 314,
+      "passed": true
+    },
+    {
+      "map": "Route15_WestEntrance_2F",
+      "music": "MUS_PEWTER",
+      "music_id": 314,
+      "passed": true
+    },
+    {
+      "map": "Route16",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route16_House",
+      "music": "MUS_CELADON",
+      "music_id": 309,
+      "passed": true
+    },
+    {
+      "map": "Route16_NorthEntrance_1F",
+      "music": "MUS_PEWTER",
+      "music_id": 314,
+      "passed": true
+    },
+    {
+      "map": "Route16_NorthEntrance_2F",
+      "music": "MUS_PEWTER",
+      "music_id": 314,
+      "passed": true
+    },
+    {
+      "map": "Route17",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route18",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route18_EastEntrance_1F",
+      "music": "MUS_PEWTER",
+      "music_id": 314,
+      "passed": true
+    },
+    {
+      "map": "Route18_EastEntrance_2F",
+      "music": "MUS_PEWTER",
+      "music_id": 314,
+      "passed": true
+    },
+    {
+      "map": "Route19",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route19_UnusedHouse",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route2",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route20",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route21_North",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route21_South",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route22",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route22_NorthEntrance",
+      "music": "MUS_VIRIDIAN_FOREST",
+      "music_id": 287,
+      "passed": true
+    },
+    {
+      "map": "Route23",
+      "music": "MUS_VICTORY_ROAD",
+      "music_id": 295,
+      "passed": true
+    },
+    {
+      "map": "Route23_UnusedHouse",
+      "music": "MUS_VICTORY_ROAD",
+      "music_id": 295,
+      "passed": true
+    },
+    {
+      "map": "Route24",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route25",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route25_SeaCottage",
+      "music": "MUS_FUCHSIA",
+      "music_id": 308,
+      "passed": true
+    },
+    {
+      "map": "Route2_EastBuilding",
+      "music": "MUS_PEWTER",
+      "music_id": 314,
+      "passed": true
+    },
+    {
+      "map": "Route2_House",
+      "music": "MUS_PEWTER",
+      "music_id": 314,
+      "passed": true
+    },
+    {
+      "map": "Route2_ViridianForest_NorthEntrance",
+      "music": "MUS_PEWTER",
+      "music_id": 314,
+      "passed": true
+    },
+    {
+      "map": "Route2_ViridianForest_SouthEntrance",
+      "music": "MUS_PEWTER",
+      "music_id": 314,
+      "passed": true
+    },
+    {
+      "map": "Route3",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route4",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route4_PokemonCenter_1F",
+      "music": "MUS_POKE_CENTER",
+      "music_id": 303,
+      "passed": true
+    },
+    {
+      "map": "Route4_PokemonCenter_2F",
+      "music": "MUS_POKE_CENTER",
+      "music_id": 303,
+      "passed": true
+    },
+    {
+      "map": "Route5",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route5_PokemonDayCare",
+      "music": "MUS_PEWTER",
+      "music_id": 314,
+      "passed": true
+    },
+    {
+      "map": "Route5_SouthEntrance",
+      "music": "MUS_PEWTER",
+      "music_id": 314,
+      "passed": true
+    },
+    {
+      "map": "Route6",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route6_NorthEntrance",
+      "music": "MUS_PEWTER",
+      "music_id": 314,
+      "passed": true
+    },
+    {
+      "map": "Route6_UnusedHouse",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route7",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route7_EastEntrance",
+      "music": "MUS_PEWTER",
+      "music_id": 314,
+      "passed": true
+    },
+    {
+      "map": "Route8",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "Route8_WestEntrance",
+      "music": "MUS_PEWTER",
+      "music_id": 314,
+      "passed": true
+    },
+    {
+      "map": "Route9",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_1F_Corridor",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_1F_Room1",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_1F_Room2",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_1F_Room3",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_1F_Room4",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_1F_Room5",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_1F_Room6",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_1F_Room7",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_2F_Corridor",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_2F_Room1",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_2F_Room2",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_2F_Room3",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_2F_Room4",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_2F_Room5",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_2F_Room6",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_3F_Corridor",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_B1F_Corridor",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_B1F_Room1",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_B1F_Room2",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_B1F_Room3",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_B1F_Room4",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_B1F_Room5",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_CaptainsOffice",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_Deck",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_Exterior",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SSAnne_Kitchen",
+      "music": "MUS_SS_ANNE",
+      "music_id": 304,
+      "passed": true
+    },
+    {
+      "map": "SafariZone_Center",
+      "music": "MUS_EVOLUTION",
+      "music_id": 264,
+      "passed": true
+    },
+    {
+      "map": "SafariZone_Center_RestHouse",
+      "music": "MUS_EVOLUTION",
+      "music_id": 264,
+      "passed": true
+    },
+    {
+      "map": "SafariZone_East",
+      "music": "MUS_EVOLUTION",
+      "music_id": 264,
+      "passed": true
+    },
+    {
+      "map": "SafariZone_East_RestHouse",
+      "music": "MUS_EVOLUTION",
+      "music_id": 264,
+      "passed": true
+    },
+    {
+      "map": "SafariZone_North",
+      "music": "MUS_EVOLUTION",
+      "music_id": 264,
+      "passed": true
+    },
+    {
+      "map": "SafariZone_North_RestHouse",
+      "music": "MUS_EVOLUTION",
+      "music_id": 264,
+      "passed": true
+    },
+    {
+      "map": "SafariZone_SecretHouse",
+      "music": "MUS_EVOLUTION",
+      "music_id": 264,
+      "passed": true
+    },
+    {
+      "map": "SafariZone_West",
+      "music": "MUS_EVOLUTION",
+      "music_id": 264,
+      "passed": true
+    },
+    {
+      "map": "SafariZone_West_RestHouse",
+      "music": "MUS_EVOLUTION",
+      "music_id": 264,
+      "passed": true
+    },
+    {
+      "map": "SaffronCity",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "SaffronCity_Connection",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "SaffronCity_CopycatsHouse_1F",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "SaffronCity_CopycatsHouse_2F",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "SaffronCity_Dojo",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "SaffronCity_Gym",
+      "music": "MUS_GYM",
+      "music_id": 275,
+      "passed": true
+    },
+    {
+      "map": "SaffronCity_House",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "SaffronCity_Mart",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "SaffronCity_MrPsychicsHouse",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "SaffronCity_PokemonCenter_1F",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "SaffronCity_PokemonCenter_2F",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "SaffronCity_PokemonTrainerFanClub",
+      "music": "MUS_YOKAI_UPTOWN",
+      "music_id": 368,
+      "passed": true
+    },
+    {
+      "map": "SeafoamIslands_1F",
+      "music": "MUS_VIRIDIAN_FOREST",
+      "music_id": 287,
+      "passed": true
+    },
+    {
+      "map": "SeafoamIslands_B1F",
+      "music": "MUS_VIRIDIAN_FOREST",
+      "music_id": 287,
+      "passed": true
+    },
+    {
+      "map": "SeafoamIslands_B2F",
+      "music": "MUS_VIRIDIAN_FOREST",
+      "music_id": 287,
+      "passed": true
+    },
+    {
+      "map": "SeafoamIslands_B3F",
+      "music": "MUS_VIRIDIAN_FOREST",
+      "music_id": 287,
+      "passed": true
+    },
+    {
+      "map": "SeafoamIslands_B4F",
+      "music": "MUS_VIRIDIAN_FOREST",
+      "music_id": 287,
+      "passed": true
+    },
+    {
+      "map": "SevenIsland",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SevenIsland_Harbor",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SevenIsland_House_Room1",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SevenIsland_House_Room2",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SevenIsland_Mart",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SevenIsland_PokemonCenter_1F",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SevenIsland_PokemonCenter_2F",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SevenIsland_SevaultCanyon",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "SevenIsland_SevaultCanyon_Entrance",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "SevenIsland_SevaultCanyon_House",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SevenIsland_SevaultCanyon_TanobyKey",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SevenIsland_TanobyRuins",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "SevenIsland_TanobyRuins_DilfordChamber",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SevenIsland_TanobyRuins_LiptooChamber",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SevenIsland_TanobyRuins_MoneanChamber",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SevenIsland_TanobyRuins_RixyChamber",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SevenIsland_TanobyRuins_ScufibChamber",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SevenIsland_TanobyRuins_ViapoisChamber",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SevenIsland_TanobyRuins_WeepthChamber",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SevenIsland_TrainerTower",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "SevenIsland_UnusedHouse",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SilphCo_10F",
+      "music": "MUS_YOKAI_BADA_BING",
+      "music_id": 357,
+      "passed": true
+    },
+    {
+      "map": "SilphCo_11F",
+      "music": "MUS_YOKAI_BADA_BING",
+      "music_id": 357,
+      "passed": true
+    },
+    {
+      "map": "SilphCo_1F",
+      "music": "MUS_YOKAI_BADA_BING",
+      "music_id": 357,
+      "passed": true
+    },
+    {
+      "map": "SilphCo_2F",
+      "music": "MUS_YOKAI_BADA_BING",
+      "music_id": 357,
+      "passed": true
+    },
+    {
+      "map": "SilphCo_3F",
+      "music": "MUS_YOKAI_BADA_BING",
+      "music_id": 357,
+      "passed": true
+    },
+    {
+      "map": "SilphCo_4F",
+      "music": "MUS_YOKAI_BADA_BING",
+      "music_id": 357,
+      "passed": true
+    },
+    {
+      "map": "SilphCo_5F",
+      "music": "MUS_YOKAI_BADA_BING",
+      "music_id": 357,
+      "passed": true
+    },
+    {
+      "map": "SilphCo_6F",
+      "music": "MUS_YOKAI_BADA_BING",
+      "music_id": 357,
+      "passed": true
+    },
+    {
+      "map": "SilphCo_7F",
+      "music": "MUS_YOKAI_BADA_BING",
+      "music_id": 357,
+      "passed": true
+    },
+    {
+      "map": "SilphCo_8F",
+      "music": "MUS_YOKAI_BADA_BING",
+      "music_id": 357,
+      "passed": true
+    },
+    {
+      "map": "SilphCo_9F",
+      "music": "MUS_YOKAI_BADA_BING",
+      "music_id": 357,
+      "passed": true
+    },
+    {
+      "map": "SilphCo_Elevator",
+      "music": "MUS_SILPH",
+      "music_id": 307,
+      "passed": true
+    },
+    {
+      "map": "SixIsland",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SixIsland_AlteringCave",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SixIsland_DottedHole_1F",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SixIsland_DottedHole_B1F",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SixIsland_DottedHole_B2F",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SixIsland_DottedHole_B3F",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SixIsland_DottedHole_B4F",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SixIsland_DottedHole_SapphireRoom",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SixIsland_GreenPath",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "SixIsland_Harbor",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SixIsland_House",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SixIsland_Mart",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SixIsland_OutcastIsland",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "SixIsland_PatternBush",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SixIsland_PokemonCenter_1F",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SixIsland_PokemonCenter_2F",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SixIsland_RuinValley",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "SixIsland_WaterPath",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "SixIsland_WaterPath_House1",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "SixIsland_WaterPath_House2",
+      "music": "MUS_SEVII_67",
+      "music_id": 337,
+      "passed": true
+    },
+    {
+      "map": "ThreeIsland",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "ThreeIsland_BerryForest",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "ThreeIsland_BondBridge",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "ThreeIsland_DunsparceTunnel",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "ThreeIsland_Harbor",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "ThreeIsland_House1",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "ThreeIsland_House2",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "ThreeIsland_House3",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "ThreeIsland_House4",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "ThreeIsland_House5",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "ThreeIsland_Mart",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "ThreeIsland_PokemonCenter_1F",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "ThreeIsland_PokemonCenter_2F",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "ThreeIsland_Port",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "TradeCenter",
+      "music": "MUS_POKE_CENTER",
+      "music_id": 303,
+      "passed": true
+    },
+    {
+      "map": "TrainerTower_1F",
+      "music": "MUS_TRAINER_TOWER",
+      "music_id": 344,
+      "passed": true
+    },
+    {
+      "map": "TrainerTower_2F",
+      "music": "MUS_TRAINER_TOWER",
+      "music_id": 344,
+      "passed": true
+    },
+    {
+      "map": "TrainerTower_3F",
+      "music": "MUS_TRAINER_TOWER",
+      "music_id": 344,
+      "passed": true
+    },
+    {
+      "map": "TrainerTower_4F",
+      "music": "MUS_TRAINER_TOWER",
+      "music_id": 344,
+      "passed": true
+    },
+    {
+      "map": "TrainerTower_5F",
+      "music": "MUS_TRAINER_TOWER",
+      "music_id": 344,
+      "passed": true
+    },
+    {
+      "map": "TrainerTower_6F",
+      "music": "MUS_TRAINER_TOWER",
+      "music_id": 344,
+      "passed": true
+    },
+    {
+      "map": "TrainerTower_7F",
+      "music": "MUS_TRAINER_TOWER",
+      "music_id": 344,
+      "passed": true
+    },
+    {
+      "map": "TrainerTower_8F",
+      "music": "MUS_TRAINER_TOWER",
+      "music_id": 344,
+      "passed": true
+    },
+    {
+      "map": "TrainerTower_Elevator",
+      "music": "MUS_TRAINER_TOWER",
+      "music_id": 344,
+      "passed": true
+    },
+    {
+      "map": "TrainerTower_Lobby",
+      "music": "MUS_TRAINER_TOWER",
+      "music_id": 344,
+      "passed": true
+    },
+    {
+      "map": "TrainerTower_Roof",
+      "music": "MUS_TRAINER_TOWER",
+      "music_id": 344,
+      "passed": true
+    },
+    {
+      "map": "TwoIsland",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "TwoIsland_CapeBrink",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "TwoIsland_CapeBrink_House",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "TwoIsland_Harbor",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "TwoIsland_House",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "TwoIsland_JoyfulGameCorner",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "TwoIsland_PokemonCenter_1F",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "TwoIsland_PokemonCenter_2F",
+      "music": "MUS_SEVII_123",
+      "music_id": 335,
+      "passed": true
+    },
+    {
+      "map": "UndergroundPath_EastEntrance",
+      "music": "MUS_PEWTER",
+      "music_id": 314,
+      "passed": true
+    },
+    {
+      "map": "UndergroundPath_EastWestTunnel",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "UndergroundPath_NorthEntrance",
+      "music": "MUS_PEWTER",
+      "music_id": 314,
+      "passed": true
+    },
+    {
+      "map": "UndergroundPath_NorthSouthTunnel",
+      "music": "MUS_YOKAI_PATROL_MISSION",
+      "music_id": 373,
+      "passed": true
+    },
+    {
+      "map": "UndergroundPath_SouthEntrance",
+      "music": "MUS_PEWTER",
+      "music_id": 314,
+      "passed": true
+    },
+    {
+      "map": "UndergroundPath_WestEntrance",
+      "music": "MUS_PEWTER",
+      "music_id": 314,
+      "passed": true
+    },
+    {
+      "map": "UnionRoom",
+      "music": "MUS_UNION_ROOM",
+      "music_id": 327,
+      "passed": true
+    },
+    {
+      "map": "VermilionCity",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "VermilionCity_Gym",
+      "music": "MUS_GYM",
+      "music_id": 275,
+      "passed": true
+    },
+    {
+      "map": "VermilionCity_House1",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "VermilionCity_House2",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "VermilionCity_House3",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "VermilionCity_Mart",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "VermilionCity_PokemonCenter_1F",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "VermilionCity_PokemonCenter_2F",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "VermilionCity_PokemonFanClub",
+      "music": "MUS_YOKAI_SAN_FANTASTICO",
+      "music_id": 367,
+      "passed": true
+    },
+    {
+      "map": "VictoryRoad_1F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "VictoryRoad_2F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "VictoryRoad_3F",
+      "music": "MUS_YOKAI_HOPPERS_GORGE",
+      "music_id": 370,
+      "passed": true
+    },
+    {
+      "map": "ViridianCity",
+      "music": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "music_id": 358,
+      "passed": true
+    },
+    {
+      "map": "ViridianCity_Gym",
+      "music": "MUS_GYM",
+      "music_id": 275,
+      "passed": true
+    },
+    {
+      "map": "ViridianCity_House",
+      "music": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "music_id": 358,
+      "passed": true
+    },
+    {
+      "map": "ViridianCity_Mart",
+      "music": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "music_id": 358,
+      "passed": true
+    },
+    {
+      "map": "ViridianCity_PokemonCenter_1F",
+      "music": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "music_id": 358,
+      "passed": true
+    },
+    {
+      "map": "ViridianCity_PokemonCenter_2F",
+      "music": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "music_id": 358,
+      "passed": true
+    },
+    {
+      "map": "ViridianCity_School",
+      "music": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "music_id": 358,
+      "passed": true
+    },
+    {
+      "map": "ViridianForest",
+      "music": "MUS_VIRIDIAN_FOREST",
+      "music_id": 287,
+      "passed": true
+    }
+  ]
+}

@@ -950,7 +950,7 @@ static void Task_PikachuIntro_LoadPage1(u8 taskId)
     }
     else
     {
-        PlayBGM(MUS_NEW_GAME_INTRO);
+        PlayBGM(MUS_YOKAI_CURIOUS);
         ClearTopBarWindow();
         TopBarWindowPrintString(gText_ABUTTONNext, 0, 1);
         sOakSpeechResources->pikachuIntroTilemap = MallocAndDecompress(sPikachuIntro_Background_Tilemap, &size);

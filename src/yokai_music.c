@@ -6,16 +6,17 @@
 #ifdef YOKAI_PRIVATE_AUDIO
 extern struct SongHeader *const gYokaiPrivateHeaders[YOKAI_MUSIC_SLOT_COUNT];
 extern const u32 gYokaiPrivateAudioMask;
+extern const u32 gYokaiPrivateSlotCount;
 #endif
 
 struct SongHeader *YokaiGetSongHeader(u16 song, struct SongHeader *fallback)
 {
 #ifdef YOKAI_PRIVATE_AUDIO
-    if (song >= MUS_YOKAI_BICYCLE && song <= MUS_YOKAI_TAKE_CARE)
+    if (song >= MUS_YOKAI_BICYCLE && song <= MUS_YOKAI_LAST)
     {
-        struct SongHeader *header = gYokaiPrivateHeaders[song - MUS_YOKAI_BICYCLE];
-        if (header != NULL)
-            return header;
+        u32 slot = song - MUS_YOKAI_BICYCLE;
+        if (slot < gYokaiPrivateSlotCount && gYokaiPrivateHeaders[slot] != NULL)
+            return gYokaiPrivateHeaders[slot];
     }
 #endif
     return fallback;
@@ -155,14 +156,14 @@ void YokaiCalibrateSong(struct MusicPlayerInfo *player, struct SongHeader *heade
     if (index < 0) return;
     sMixGain[index] = 256;
 #ifdef YOKAI_PRIVATE_AUDIO
-    for (n = 0; n < YOKAI_MUSIC_SLOT_COUNT; n++)
+    for (n = 0; n < gYokaiPrivateSlotCount && n < YOKAI_MUSIC_SLOT_COUNT; n++)
         if (gYokaiPrivateHeaders[n] != NULL && gYokaiPrivateHeaders[n] == header)
         {
             sMixGain[index] = sYokaiSongGain[MUS_YOKAI_BICYCLE + n];
             return;
         }
 #endif
-    for (n = 0; n <= MUS_YOKAI_TAKE_CARE; n++)
+    for (n = 0; n <= MUS_YOKAI_LAST; n++)
         if (gSongTable[n].header == header)
         {
             sMixGain[index] = sYokaiSongGain[n];

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Native-function fixtures in mGBA; explicitly not an adventure playthrough."""
 import hashlib
+import os
 import json
 import re
 import struct
@@ -135,8 +136,8 @@ try:
 finally:
     r.close()
 report={'engine':'mGBA libretro','scope':'native-function fixtures with RAM trampoline; no full story/battle UI playthrough',
-        'rom_sha256':hashlib.sha256((ROOT/'pokefirered.gba').read_bytes()).hexdigest(),'results':results,
+        'rom_sha256':hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),'results':results,
         'full_adventure_tested':False,'all_attack_animations_tested':False,'exp_share_in_real_battle_tested':False}
-path=ROOT/'QA_RECETTE_FINALE/RECONSTRUCTION/TESTS_MGBA_MOTEUR.json'
+path=Path(os.environ.get('YOKAI_ENGINE_TEST_REPORT',str(ROOT/'QA_RECETTE_FINALE/RECONSTRUCTION/TESTS_MGBA_MOTEUR.json')))
 path.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))

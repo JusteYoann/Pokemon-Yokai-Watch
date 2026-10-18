@@ -12,6 +12,7 @@ Route25_EventScript_Man::
 Route25_EventScript_Ariane::
 	lock
 	faceplayer
+	playbgm MUS_YOKAI_ARIANE, 0
 	goto_if_unset FLAG_YOKAI_ARIANE_WON, Route25_EventScript_ArianeOffer
 	goto_if_unset FLAG_YOKAI_ARIANE_REWARD, Route25_EventScript_ArianeReward
 	goto_if_unset FLAG_SYS_GAME_CLEAR, Route25_EventScript_ArianeAlreadyWon
@@ -22,21 +23,20 @@ Route25_EventScript_ArianeOffer::
 	goto_if_set FLAG_SYS_GAME_CLEAR, Route25_EventScript_ArianePostBattle
 	trainerbattle_single TRAINER_YOKAI_ARIANE, Route25_Text_ArianeStart, Route25_Text_ArianeDefeat, Route25_EventScript_ArianeVictory
 	closemessage
-	release
-	end
+	goto Route25_EventScript_ArianeMusicEnd
 Route25_EventScript_ArianePostBattle::
 	cleartrainerflag TRAINER_YOKAI_ARIANE_POST
 	trainerbattle_single TRAINER_YOKAI_ARIANE_POST, Route25_Text_ArianePostStart, Route25_Text_ArianeDefeat, Route25_EventScript_ArianePostVictory
 	closemessage
-	release
-	end
+	goto Route25_EventScript_ArianeMusicEnd
 Route25_EventScript_ArianePostVictory::
 	setflag FLAG_YOKAI_ARIANE_POST_WON
 Route25_EventScript_ArianeVictory::
+	playbgm MUS_YOKAI_ARIANE, 0
 	closemessage
 	setflag FLAG_YOKAI_ARIANE_WON
 	msgbox Route25_Text_ArianeAfterVictory
-	goto_if_set FLAG_YOKAI_ARIANE_REWARD, EventScript_ReleaseEnd
+	goto_if_set FLAG_YOKAI_ARIANE_REWARD, Route25_EventScript_ArianeMusicEnd
 Route25_EventScript_ArianeReward::
 	checkitemspace ITEM_MOON_STONE, 1
 	goto_if_eq VAR_RESULT, FALSE, Route25_EventScript_ArianeBagFull
@@ -45,21 +45,21 @@ Route25_EventScript_ArianeReward::
 	goto_if_eq VAR_0x8007, FALSE, Route25_EventScript_ArianeBagFull
 	setflag FLAG_YOKAI_ARIANE_REWARD
 	closemessage
-	release
-	end
+	goto Route25_EventScript_ArianeMusicEnd
 Route25_EventScript_ArianeAlreadyWon::
 	msgbox Route25_Text_ArianeRevisit
 	closemessage
-	release
-	end
+	goto Route25_EventScript_ArianeMusicEnd
 Route25_EventScript_ArianeDecline::
 	msgbox Route25_Text_ArianeDecline
 	closemessage
-	release
-	end
+	goto Route25_EventScript_ArianeMusicEnd
 Route25_EventScript_ArianeBagFull::
 	msgbox Route25_Text_ArianeBagFull
 	closemessage
+	goto Route25_EventScript_ArianeMusicEnd
+Route25_EventScript_ArianeMusicEnd::
+	fadedefaultbgm
 	release
 	end
 Route25_EventScript_UsapionCameo::

@@ -1,0 +1,73 @@
+{
+  "stage": "nouveaux-calibres",
+  "rom_sha256": "177ca20ba2c52e49bd51accf40f4e04ca8c2ff04b3a39810f4d90b624a1bb3ac",
+  "method": "Actual libretro mGBA mixer captured privately, EBU R128 via ffmpeg after 20 Hz DC rejection; 720 frames BGM, 180 frames repeating SFX/isolated cries. No subjective listening claim; finite-window measures, not entire compositions",
+  "recordings_public": false,
+  "results": [
+    {
+      "constant": "MUS_YOKAI_PATROL_MISSION",
+      "number": 373,
+      "emulated_frames": 720,
+      "mixer_hz": 65536,
+      "integrated_lufs": -29.1,
+      "loudness_range_lu": 3.0,
+      "true_peak_dbfs": -14.8,
+      "raw_clipped_samples": 0,
+      "pcm_samples_stereo_interleaved": 1582232,
+      "dc_offset_pcm16": -103.135,
+      "analysis_filter": "20 Hz highpass, EBU R128 true-peak; filter for measurement only"
+    },
+    {
+      "constant": "MUS_YOKAI_VS_YOKAI",
+      "number": 374,
+      "emulated_frames": 720,
+      "mixer_hz": 65536,
+      "integrated_lufs": -29.0,
+      "loudness_range_lu": 3.2,
+      "true_peak_dbfs": -15.6,
+      "raw_clipped_samples": 0,
+      "pcm_samples_stereo_interleaved": 1582232,
+      "dc_offset_pcm16": -108.862,
+      "analysis_filter": "20 Hz highpass, EBU R128 true-peak; filter for measurement only"
+    },
+    {
+      "constant": "MUS_YOKAI_BOSS_YOKAI",
+      "number": 375,
+      "emulated_frames": 720,
+      "mixer_hz": 65536,
+      "integrated_lufs": -29.0,
+      "loudness_range_lu": 7.0,
+      "true_peak_dbfs": -16.0,
+      "raw_clipped_samples": 0,
+      "pcm_samples_stereo_interleaved": 1582232,
+      "dc_offset_pcm16": -114.686,
+      "analysis_filter": "20 Hz highpass, EBU R128 true-peak; filter for measurement only"
+    },
+    {
+      "constant": "MUS_YOKAI_CURIOUS",
+      "number": 376,
+      "emulated_frames": 720,
+      "mixer_hz": 65536,
+      "integrated_lufs": -29.5,
+      "loudness_range_lu": 1.1,
+      "true_peak_dbfs": -14.3,
+      "raw_clipped_samples": 0,
+      "pcm_samples_stereo_interleaved": 1582232,
+      "dc_offset_pcm16": -108.561,
+      "analysis_filter": "20 Hz highpass, EBU R128 true-peak; filter for measurement only"
+    },
+    {
+      "constant": "MUS_YOKAI_ARIANE",
+      "number": 377,
+      "emulated_frames": 720,
+      "mixer_hz": 65536,
+      "integrated_lufs": -29.0,
+      "loudness_range_lu": 0.5,
+      "true_peak_dbfs": -13.6,
+      "raw_clipped_samples": 0,
+      "pcm_samples_stereo_interleaved": 1582232,
+      "dc_offset_pcm16": -93.356,
+      "analysis_filter": "20 Hz highpass, EBU R128 true-peak; filter for measurement only"
+    }
+  ]
+}

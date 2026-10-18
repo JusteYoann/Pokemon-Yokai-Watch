@@ -1,5 +1,5 @@
 /* Measured post-B13 mix calibration. Source: data/yokai/mixer_calibration.json. */
-static const u16 sYokaiSongGain[MUS_YOKAI_TAKE_CARE + 1] = {
+static const u16 sYokaiSongGain[MUS_YOKAI_LAST + 1] = {
     [0] = 256,
     [SE_USE_ITEM] = 141,
     [SE_PC_LOGIN] = 100,
@@ -373,4 +373,9 @@ static const u16 sYokaiSongGain[MUS_YOKAI_TAKE_CARE + 1] = {
     [MUS_YOKAI_HOPPERS_GORGE] = 567,
     [MUS_YOKAI_FINAL_BATTLE] = 64,
     [MUS_YOKAI_TAKE_CARE] = 768,
+    [MUS_YOKAI_PATROL_MISSION] = 445,
+    [MUS_YOKAI_VS_YOKAI] = 291,
+    [MUS_YOKAI_BOSS_YOKAI] = 430,
+    [MUS_YOKAI_CURIOUS] = 768,
+    [MUS_YOKAI_ARIANE] = 573,
 };

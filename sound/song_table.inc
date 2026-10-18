@@ -376,5 +376,11 @@ gSongTable::
 	song mus_vs_champion, 0, 0 @ MUS_YOKAI_FINAL_BATTLE
 	song mus_slow_pallet, 0, 0 @ MUS_YOKAI_TAKE_CARE
 
+	song mus_route1, 0, 0 @ MUS_YOKAI_PATROL_MISSION
+	song mus_vs_trainer, 0, 0 @ MUS_YOKAI_VS_YOKAI
+	song mus_vs_gym_leader, 0, 0 @ MUS_YOKAI_BOSS_YOKAI
+	song mus_title, 0, 0 @ MUS_YOKAI_CURIOUS
+	song mus_route24, 0, 0 @ MUS_YOKAI_ARIANE
+
 dummy_song_header:
 	.byte 0, 0, 0, 0

@@ -25,3 +25,28 @@ Les nouvelles attributions de `audio/propositions_ambiance.csv` ont été **vali
 - `audio/CONTINUITE_MGBA.json` : six franchissements réels aux boutons, après introduction puis fixtures de position/progression : Carmin/centre/Route11, Palette/labo/Route1. Même piste, horloge strictement avançante sans remise à zéro et aucune pause. L’échec initial d’une fixture sans véritable introduction est conservé dans `audio/diagnostics/` ; le test vérifie désormais aussi l’état valide du mixeur.
 
 Ces preuves portent sur des ROM distinctes dont les empreintes figurent dans chaque JSON. Elles ne prouvent ni une partie complète ni la recette finale. La B13 et ses contrôles SHA restent inchangés. Aucun enregistrement musical, DPCM ou ROM n’est publié.
+
+## Attributions approuvées — jalon 18 OST
+
+Cinq nouvelles compositions sont désormais **réellement liées et lues par le moteur** : Patrol Mission (routes), vs. Yo-kai ~2~ (sauvages/dresseurs/Matt avant Champion), vs. Boss Yo-kai (champions), The Very Curious Yo-kai Watch (intro/titre/Chen) et thème d’Ariane. Les quinze thèmes imposés restent sélectionnés avec leurs rôles particuliers. Réemploi de San Fantastico, Uptown, Mystic Grove et Hoppers dans les zones approuvées ;178 cartes modifiées dans ce lot après les128 corrections initiales de continuité (ces nombres ne s’additionnent pas en cartes uniques).
+
+**État réel :22 sélections /18 échantillons actifs.** Les reprises de Nate’s House et Blossom Heights sont ambiguës : motifs courts très répétitifs, sans boucle complète fiable établie. Leur attribution est enregistrée, leur repli natif explicite. Enma5 et Final25 restent aussi en attente ; aucune boucle arbitraire ne remplace ces quatre pistes.
+
+ROM privée mesurée : **27 064 355 octets (25,81 Mio)**, SHA `ceee3955c48aaa6b0f49b26dba10cfac855f5b773da2254fd1ed23be72cadd1c`, marge **6 490 077 octets** avant32 Mio. Ce n’est pas une nouvelle B13 ni une version finale distribuée. Le profil reproductible est décrit dans `audio/RECONSTRUCTION_PRIVEE.md`.
+
+Preuves supplémentaires :
+
+- `audio/boucles-nouvelles/TEST_MGBA.json` : cinq vrais tours pour chacune des cinq nouvelles pistes ;25 coutures contrôlées dans l’audio natif, corrélations minimales0,952 à0,978. Introduction jouée une fois, SFX/cri et sauvegarde Flash natifs. Appels musicaux isolés après vraie introduction ; ce test ne prouve pas tous les déclencheurs de l’aventure. SHA177ca20… avant les seules extensions cartographiques Sevii.
+- `audio/niveaux-nouveaux-calibres.json` : cinq mesures natives après calibration, −29,5 à−29 LUFS sur les fenêtres initiales ; aucun échantillon saturé. Pas d’écoute subjective revendiquée.
+- `audio/ariane/TEST_ARIANE_MGBA.json` : huit scénarios réels, refus, victoire/sac plein/retrait différé, revanches, première rencontre postgame et défaite ; thème31 en dialogue,28 en combat,27 restauré ensuite. Équipes et récompense Pierre Lune conservées. Fixtures de progression et équipe forte pour les transitions, pas un test d’équilibrage.
+- `audio/transition-sauvage/TEST_MGBA.json` : exploration Mont Sélénite→combat sauvage gagné aux boutons→victoire→exploration ; musique24 restaurée, aucune saturation sur les extraits privés ; allié non participant EXP1000→1120, Multi Exp. permanent confirmé dans ce combat. Ennemi/niveau/position préparés explicitement.
+- `audio/CONTINUITE_MGBA.json` : six passages réexécutés sur le dernier ROM, aucune coupure ni remise à zéro observée.
+- `audio/CARTES_COMPILEES.json` : les425 en-têtes compilés correspondent aux affectations sources, sans prétendre parcourir425 cartes.
+- `audio/LIAISON_18_OST.json`, `PROVENANCE_18_OST.json` : limites, repli public, SHA et boucles des18 ressources privées vérifiés ; treize anciens échantillons inchangés.
+- `REGRESSION_MOTEUR_MGBA.json` :13 contrôles natifs, dont151 ensembles d’attaques, règles d’évolution/amitié220+Œuf Chance non consommé, persistance Flash et151 éligibilités shiny avec67 exclusions. Ce test ne valide pas les dessins shiny ni toutes les animations d’attaques.
+- `sprites/overworld/MISTERRE_LEO_MGBA.json` : deux objets Misterre, deux captures réelles et transformation de Léo pour garçon/fille ; six contrôles réussis, captures examinées.
+- `audio/STOCKAGE_ET_CANDIDATS.json` : inventaire conservateur. Les séquences natives restent référencées par la table ; absence d’un nom dans les scripts ne prouve pas qu’une ressource soit supprimable. **Aucune économie de suppression revendiquée :0 octet.**
+
+### Reprise et réserves
+
+P0 restant : quatre boucles, écoute humaine sur parcours, finition des gabarits/icônes encore imposants et audit des autres overworld, validation artistique shiny. P1 restant : traduction résiduelle (dont CANCEL et menu à un seul membre), descriptions,151 propositions d’habitats avec incertitudes à valider, examen Pierre/Passpa/Nanpart. P2 : titre/intro/aide. Pas de nouvelle quête reportée ni modification des villes/Kanto, statistiques, évolutions, rencontres ou équipes. Aucun parcours intégral, profilage matériel ou validation exhaustive des animations n’est revendiqué. **Recette finale NON TERMINÉE.**

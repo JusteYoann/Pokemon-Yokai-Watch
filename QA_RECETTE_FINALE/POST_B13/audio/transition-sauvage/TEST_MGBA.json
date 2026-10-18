@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "ceee3955c48aaa6b0f49b26dba10cfac855f5b773da2254fd1ed23be72cadd1c",
+  "scope": "Real intro then explicit map/party/enemy fixture; native StartWildBattle, actual controller win, quiet ally receives EXP without participating, exploration sample24 returns. Private audio captured at constant emulator settings; no subjective listening or full adventure claim",
+  "idle_ally_exp_before": 1000,
+  "idle_ally_exp_after": 1120,
+  "observed_music_headers": [
+    {
+      "frame": 0,
+      "header": "0x97caa48"
+    },
+    {
+      "frame": 718,
+      "header": "0x86f804c"
+    },
+    {
+      "frame": 1006,
+      "header": "0x9645180"
+    }
+  ],
+  "measurements": [
+    {
+      "phase": "01-exploration",
+      "integrated_lufs": -26.8,
+      "loudness_range_lu": 4.4,
+      "true_peak_dbfs": -11.1,
+      "raw_clipped_samples": 0,
+      "pcm_samples_stereo_interleaved": 1580040,
+      "dc_offset_pcm16": -101.555,
+      "analysis_filter": "20 Hz highpass, EBU R128 true-peak; filter for measurement only"
+    },
+    {
+      "phase": "02-combat",
+      "integrated_lufs": -28.4,
+      "loudness_range_lu": 4.6,
+      "true_peak_dbfs": -15.1,
+      "raw_clipped_samples": 0,
+      "pcm_samples_stereo_interleaved": 1806072,
+      "dc_offset_pcm16": -124.278,
+      "analysis_filter": "20 Hz highpass, EBU R128 true-peak; filter for measurement only"
+    },
+    {
+      "phase": "03-victoire-retour",
+      "integrated_lufs": -26.8,
+      "loudness_range_lu": 8.2,
+      "true_peak_dbfs": -11.5,
+      "raw_clipped_samples": 0,
+      "pcm_samples_stereo_interleaved": 2872600,
+      "dc_offset_pcm16": -106.26,
+      "analysis_filter": "20 Hz highpass, EBU R128 true-peak; filter for measurement only"
+    },
+    {
+      "phase": "04-exploration-reprise",
+      "integrated_lufs": -27.8,
+      "loudness_range_lu": 6.1,
+      "true_peak_dbfs": -11.9,
+      "raw_clipped_samples": 0,
+      "pcm_samples_stereo_interleaved": 1582232,
+      "dc_offset_pcm16": -91.609,
+      "analysis_filter": "20 Hz highpass, EBU R128 true-peak; filter for measurement only"
+    }
+  ]
+}

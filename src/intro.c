@@ -1338,7 +1338,7 @@ static void IntroCB_Scene1(struct IntroSequenceData * this)
     case 3:
         if (!gPaletteFade.active)
         {
-            m4aSongNumStart(MUS_INTRO_FIGHT);
+            m4aSongNumStart(MUS_YOKAI_CURIOUS);
             this->timer = 0;
             this->state++;
         }

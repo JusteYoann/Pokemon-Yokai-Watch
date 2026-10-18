@@ -19,7 +19,7 @@ def measure(path):
  with wave.open(str(path)) as f:audio=np.frombuffer(f.readframes(f.getnframes()),'<i2')
  return {'integrated_lufs':number(r'I:\s+(-?[\d.]+) LUFS'),'loudness_range_lu':number(r'LRA:\s+([\d.]+) LU'),'true_peak_dbfs':number(r'Peak:\s+(-?[\d.]+) dBFS'),'raw_clipped_samples':int(np.count_nonzero((audio==32767)|(audio==-32768))),'pcm_samples_stereo_interleaved':len(audio),'dc_offset_pcm16':round(float(audio.mean()),3),'analysis_filter':'20 Hz highpass, EBU R128 true-peak; filter for measurement only'}
 
-def run(stage,private,kinds):
+def run(stage,private,kinds,only=None):
  private=private.resolve();assert not private.is_relative_to(ROOT)
  private.mkdir(parents=True,exist_ok=True)
  r=Emulator();r.call('SetSaveBlocksPointers');r.call('Sav2_ClearSetDefault');r.call('CB2_NewGame');r.run(180);base=r.snapshot()
@@ -27,6 +27,8 @@ def run(stage,private,kinds):
  try:
   chosen=[(k,v) for k,v in CONSTANTS.items() if (k.startswith('MUS_') and v and 'bgm' in kinds) or (k.startswith('SE_') and 'sfx' in kinds)]
   chosen+= [('CRY_JIBANYAN',1),('CRY_CIGALOPIN',9),('CRY_AMBIENT_CIGALOPIN',9)] if 'cry' in kinds else []
+  if only:chosen=[row for row in chosen if row[0] in only]
+  assert chosen, 'No requested cues matched'
   for index,(name,number) in enumerate(chosen):
    r.restore(base);r.call('m4aMPlayAllStop');chunks=[]
    cb=BATCH(lambda ptr,n:(chunks.append(ctypes.string_at(ptr,n*4)) or n))
@@ -49,4 +51,4 @@ def run(stage,private,kinds):
  print('PASS measurements',len(rows),flush=True)
 
 if __name__=='__main__':
- p=argparse.ArgumentParser();p.add_argument('--stage',default='baseline-b13');p.add_argument('--private-output',type=Path,required=True);p.add_argument('--kinds',default='bgm,sfx,cry');a=p.parse_args();run(a.stage,a.private_output,a.kinds.split(','))
+ p=argparse.ArgumentParser();p.add_argument('--stage',default='baseline-b13');p.add_argument('--private-output',type=Path,required=True);p.add_argument('--kinds',default='bgm,sfx,cry');p.add_argument('--constants',help='Optional comma-separated exact constants');a=p.parse_args();run(a.stage,a.private_output,a.kinds.split(','),a.constants.split(',') if a.constants else None)
