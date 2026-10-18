@@ -1,0 +1,17 @@
+{
+  "public_build_passed": true,
+  "private_build_passed": true,
+  "private_OST_count": 26,
+  "maximum_rom_bytes": 33554432,
+  "roms": {
+    "pokefirered.gba": {
+      "bytes": 16777216,
+      "sha256": "7c0e72304624f6bd32998049c43ae65b2e694e9b099235228822a5583800e408"
+    },
+    "pokefirered_audio.gba": {
+      "bytes": 31272243,
+      "sha256": "8172026185b9c640b02275a86781e745a7835d831172337babf6f9bea0a50bca"
+    }
+  },
+  "original_roms_and_audio_not_published": true
+}

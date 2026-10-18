@@ -1,5 +1,7 @@
 # Session 2/4 — graphismes (en cours)
 
+**Dernière révision des personnages overworld :** [Red, avant/après et preuves mGBA](RED_STRICT_V3/README.md). Après la demande de gabarits plus fidèles à Red, 13 personnages sont corrigés ou recalés individuellement ; Katie et Nathan sont conservés. Les trois Mafiamilles partagent désormais exactement le même sprite de carte, les deux employés la même géométrie avec des costumes différents ; leurs cinq portraits de combat restent distincts et inchangés. Cette révision remplace le lot précédent pour ces ressources de carte uniquement.
+
 Base de reprise : `14b6eb679`, session audio préservée. Consignes intégrales dans `sources/SESSION_2_CONSIGNES.md`.
 
 ## Premier lot : combat

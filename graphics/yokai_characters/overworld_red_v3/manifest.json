@@ -1,0 +1,20 @@
+{
+  "scope": "Overworld only, individual Red tracing revision requested after v2 review",
+  "restore_commit": "daff2e5b824c4e76dc89270820a0574ffc15f3ae",
+  "converter": "tools/yokai/convertir_overworld_red_strict.py",
+  "source_red": "graphics/object_events/pics/people/red_normal.png",
+  "identical_map_resources": [
+    "mafiamille_1",
+    "mafiamille_2",
+    "mafiamille_3"
+  ],
+  "shared_map_geometry": [
+    "employe_rouge",
+    "employe_bleu"
+  ],
+  "preserved_player_art": [
+    "nathan",
+    "katie"
+  ],
+  "battle_art_all_unchanged": true
+}

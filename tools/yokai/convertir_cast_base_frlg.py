@@ -6,6 +6,8 @@ import numpy as np
 from PIL import Image,ImageDraw
 R=Path(__file__).resolve().parents[2]
 D=R/'graphics/yokai_characters'; S=D/'overworld_frlg_v2/source'
+if (D/'overworld_red_v3/manifest.json').exists():
+ raise SystemExit('Red strict v3 supersedes this map-art converter. Use tools/yokai/convertir_overworld_red_strict.py; do not overwrite the approved shared Mafia/employee revision.')
 Q=R/'QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/CAST_GABARIT_FRLG';Q.mkdir(parents=True,exist_ok=True)
 
 def runs(bits,gap=6):

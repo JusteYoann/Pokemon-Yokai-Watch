@@ -1,0 +1,119 @@
+{
+  "passed": true,
+  "restore_commit": "daff2e5b824c4e76dc89270820a0574ffc15f3ae",
+  "old_rom_sha256": "586ee6b7934b4825291934f5fcbbe1c4f9a3a1fc83a642fb9ab7a75b8e56bd58",
+  "new_rom_sha256": "8172026185b9c640b02275a86781e745a7835d831172337babf6f9bea0a50bca",
+  "rom_bytes": 31272243,
+  "changed_bytes": 4278,
+  "changes_confined_to13_OW_bitmap_arrays": true,
+  "other_graphics_and_palettes_identical": 5657,
+  "palettes_changed": 0,
+  "animation_commands_changed": 0,
+  "audio_changes": 0,
+  "gameplay_changes": 0,
+  "battle_art_changes": 0,
+  "nathan_and_katie_changes": 0,
+  "mafia_map_pngs_byte_identical": true,
+  "employee_map_alpha_identical": true,
+  "employee_suit_colors_different": true,
+  "distinct_unchanged_battle_portraits": {
+    "mafiamille_1": "41a54ed1eed0b7f8c7902dbcc423fc97855212ef187c08a2455c86c060649689",
+    "mafiamille_2": "b0d456fdf23bbdc0c35c19439e494c7f7650214231abf82e9596109adae2cfa6",
+    "mafiamille_3": "dbce2c71f846285d555873ef3d68c882fee49e04891b9b61109d7e01e9cd3522",
+    "employe_rouge": "9adb4a01f19cf7bd1a32ed8e6026e6e82b4bbb03cc0caac1f61818d26ff46614",
+    "employe_bleu": "639c4db18a12be374dd5bd48c09f000fa81eae6f29fd4246dbf59bed9a87632c"
+  },
+  "arrays": [
+    {
+      "actor": "ariane",
+      "symbol": "gObjectEventPic_Ariane",
+      "offset": 3851228,
+      "size": 768,
+      "changed_bytes": 205
+    },
+    {
+      "actor": "enma",
+      "symbol": "gObjectEventPic_YokaiEnma",
+      "offset": 3852540,
+      "size": 768,
+      "changed_bytes": 347
+    },
+    {
+      "actor": "nathaniel",
+      "symbol": "gObjectEventPic_YokaiNathaniel",
+      "offset": 3853884,
+      "size": 768,
+      "changed_bytes": 332
+    },
+    {
+      "actor": "michael",
+      "symbol": "gObjectEventPic_YokaiMichael",
+      "offset": 3854684,
+      "size": 768,
+      "changed_bytes": 290
+    },
+    {
+      "actor": "wyatt",
+      "symbol": "gObjectEventPic_YokaiWyatt",
+      "offset": 3855484,
+      "size": 768,
+      "changed_bytes": 272
+    },
+    {
+      "actor": "don_morleone",
+      "symbol": "gObjectEventPic_YokaiDonMorleone",
+      "offset": 3859324,
+      "size": 768,
+      "changed_bytes": 308
+    },
+    {
+      "actor": "mafiamille_1",
+      "symbol": "gObjectEventPic_YokaiMafiamille1",
+      "offset": 3860092,
+      "size": 768,
+      "changed_bytes": 253
+    },
+    {
+      "actor": "mafiamille_2",
+      "symbol": "gObjectEventPic_YokaiMafiamille2",
+      "offset": 3860860,
+      "size": 768,
+      "changed_bytes": 274
+    },
+    {
+      "actor": "mafiamille_3",
+      "symbol": "gObjectEventPic_YokaiMafiamille3",
+      "offset": 3861628,
+      "size": 768,
+      "changed_bytes": 327
+    },
+    {
+      "actor": "employe_rouge",
+      "symbol": "gObjectEventPic_YokaiEmployeRouge",
+      "offset": 3857788,
+      "size": 768,
+      "changed_bytes": 274
+    },
+    {
+      "actor": "employe_bleu",
+      "symbol": "gObjectEventPic_YokaiEmployeBleu",
+      "offset": 3858556,
+      "size": 768,
+      "changed_bytes": 280
+    },
+    {
+      "actor": "domniscian",
+      "symbol": "gObjectEventPic_YokaiDomniscian",
+      "offset": 3856252,
+      "size": 1536,
+      "changed_bytes": 671
+    },
+    {
+      "actor": "matt",
+      "symbol": "gObjectEventPic_Blue",
+      "offset": 3763196,
+      "size": 2304,
+      "changed_bytes": 445
+    }
+  ]
+}

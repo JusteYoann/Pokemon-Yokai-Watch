@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Real initialized mGBA: native boss-group palettes and Matt's four gait speeds."""
-import hashlib,json,re
+import hashlib,json,re,os
 from PIL import Image
 from mgba_rpc import ROOT
 from mgba_new_game import new_game
-P=ROOT/'QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/CAST_GABARIT_FRLG/groupes';P.mkdir(parents=True,exist_ok=True)
+P=ROOT/os.environ.get('YOKAI_CAST_GROUP_REPORT_DIR','QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/CAST_GABARIT_FRLG/groupes');P.mkdir(parents=True,exist_ok=True)
 C={}
 for file in ['flags','event_objects','event_object_movement']:
  C.update({k:int(v,0) for k,v in re.findall(r'^#define\s+(\w+)\s+(0x[0-9A-Fa-f]+|\d+)\b',(ROOT/f'include/constants/{file}.h').read_text(),re.M)})

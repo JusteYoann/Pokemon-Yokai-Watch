@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "8172026185b9c640b02275a86781e745a7835d831172337babf6f9bea0a50bca",
+  "scope": "Real new-game initialization then RAM progression fixtures and map warps, no saved game changes; does not revalidate complete boss battles/rewards",
+  "results": [
+    {
+      "group": "Domniscian",
+      "simultaneous_actors": 3,
+      "palette_bank": 10,
+      "palette_exact": true,
+      "facings": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pre_league_hidden": true,
+      "passed": true
+    },
+    {
+      "group": "DonMorleone",
+      "simultaneous_actors": 4,
+      "palette_bank": 10,
+      "palette_exact": true,
+      "facings": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pre_league_hidden": true,
+      "passed": true
+    },
+    {
+      "person": "Matt",
+      "native_gait_cycles": [
+        {
+          "speed": "GO",
+          "direction": "WEST",
+          "frames": 72,
+          "constant_correct_hflip": true
+        },
+        {
+          "speed": "GO",
+          "direction": "EAST",
+          "frames": 72,
+          "constant_correct_hflip": true
+        },
+        {
+          "speed": "GO_FAST",
+          "direction": "WEST",
+          "frames": 72,
+          "constant_correct_hflip": true
+        },
+        {
+          "speed": "GO_FAST",
+          "direction": "EAST",
+          "frames": 72,
+          "constant_correct_hflip": true
+        },
+        {
+          "speed": "GO_FASTER",
+          "direction": "WEST",
+          "frames": 72,
+          "constant_correct_hflip": true
+        },
+        {
+          "speed": "GO_FASTER",
+          "direction": "EAST",
+          "frames": 72,
+          "constant_correct_hflip": true
+        },
+        {
+          "speed": "GO_FASTEST",
+          "direction": "WEST",
+          "frames": 72,
+          "constant_correct_hflip": true
+        },
+        {
+          "speed": "GO_FASTEST",
+          "direction": "EAST",
+          "frames": 72,
+          "constant_correct_hflip": true
+        }
+      ],
+      "scope": "Animation on a native temporary object, fixed tile; tests gait image directions at all four speeds, not a replay of story movement scripts",
+      "passed": true
+    }
+  ]
+}

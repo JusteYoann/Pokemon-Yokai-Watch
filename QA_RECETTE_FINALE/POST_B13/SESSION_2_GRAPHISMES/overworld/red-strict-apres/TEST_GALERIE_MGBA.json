@@ -1,0 +1,998 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "8172026185b9c640b02275a86781e745a7835d831172337babf6f9bea0a50bca",
+  "results": [
+    {
+      "person": "nathan",
+      "graphics_id": 156,
+      "actual_native_map_sprite": true,
+      "temporary_spawn_only": true,
+      "poses": [
+        {
+          "direction": "sud",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 4,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "nord",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 1,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "ouest",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 2,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "est",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 3,
+          "oam_attribute1": 37008
+        }
+      ],
+      "walking_policy": "Native9-frame walk exists"
+    },
+    {
+      "person": "katie",
+      "graphics_id": 157,
+      "actual_native_map_sprite": true,
+      "temporary_spawn_only": true,
+      "poses": [
+        {
+          "direction": "sud",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 4,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "nord",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 1,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "ouest",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 2,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "est",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 3,
+          "oam_attribute1": 37008
+        }
+      ],
+      "walking_policy": "Native9-frame walk exists"
+    },
+    {
+      "person": "matt",
+      "graphics_id": 72,
+      "actual_native_map_sprite": true,
+      "temporary_spawn_only": true,
+      "poses": [
+        {
+          "direction": "sud",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 4,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "nord",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 1,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "ouest",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 2,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "est",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 3,
+          "oam_attribute1": 37008
+        }
+      ],
+      "walking_policy": "Native9-frame walk exists"
+    },
+    {
+      "person": "ariane",
+      "graphics_id": 152,
+      "actual_native_map_sprite": true,
+      "temporary_spawn_only": true,
+      "poses": [
+        {
+          "direction": "sud",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 4,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "nord",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 1,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "ouest",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 2,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "est",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 3,
+          "oam_attribute1": 37008
+        }
+      ],
+      "walking_policy": "Stationary event or creature; native facing poses, not a claimed new walking animation"
+    },
+    {
+      "person": "nathaniel",
+      "graphics_id": 158,
+      "actual_native_map_sprite": true,
+      "temporary_spawn_only": true,
+      "poses": [
+        {
+          "direction": "sud",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 4,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "nord",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 1,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "ouest",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 2,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "est",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 3,
+          "oam_attribute1": 37008
+        }
+      ],
+      "walking_policy": "Stationary event or creature; native facing poses, not a claimed new walking animation"
+    },
+    {
+      "person": "michael",
+      "graphics_id": 159,
+      "actual_native_map_sprite": true,
+      "temporary_spawn_only": true,
+      "poses": [
+        {
+          "direction": "sud",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 4,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "nord",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 1,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "ouest",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 2,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "est",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 3,
+          "oam_attribute1": 37008
+        }
+      ],
+      "walking_policy": "Stationary event or creature; native facing poses, not a claimed new walking animation"
+    },
+    {
+      "person": "wyatt",
+      "graphics_id": 160,
+      "actual_native_map_sprite": true,
+      "temporary_spawn_only": true,
+      "poses": [
+        {
+          "direction": "sud",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 4,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "nord",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 1,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "ouest",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 2,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "est",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 3,
+          "oam_attribute1": 37008
+        }
+      ],
+      "walking_policy": "Stationary event or creature; native facing poses, not a claimed new walking animation"
+    },
+    {
+      "person": "domniscian",
+      "graphics_id": 161,
+      "actual_native_map_sprite": true,
+      "temporary_spawn_only": true,
+      "poses": [
+        {
+          "direction": "sud",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 4,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "nord",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 1,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "ouest",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 2,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "est",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 3,
+          "oam_attribute1": 37000
+        }
+      ],
+      "walking_policy": "Stationary event or creature; native facing poses, not a claimed new walking animation"
+    },
+    {
+      "person": "employe-rouge",
+      "graphics_id": 162,
+      "actual_native_map_sprite": true,
+      "temporary_spawn_only": true,
+      "poses": [
+        {
+          "direction": "sud",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 4,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "nord",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 1,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "ouest",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 2,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "est",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 3,
+          "oam_attribute1": 37008
+        }
+      ],
+      "walking_policy": "Stationary event or creature; native facing poses, not a claimed new walking animation"
+    },
+    {
+      "person": "employe-bleu",
+      "graphics_id": 163,
+      "actual_native_map_sprite": true,
+      "temporary_spawn_only": true,
+      "poses": [
+        {
+          "direction": "sud",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 4,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "nord",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 1,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "ouest",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 2,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "est",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 3,
+          "oam_attribute1": 37008
+        }
+      ],
+      "walking_policy": "Stationary event or creature; native facing poses, not a claimed new walking animation"
+    },
+    {
+      "person": "don-morleone",
+      "graphics_id": 164,
+      "actual_native_map_sprite": true,
+      "temporary_spawn_only": true,
+      "poses": [
+        {
+          "direction": "sud",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 4,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "nord",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 1,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "ouest",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 2,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "est",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 3,
+          "oam_attribute1": 37008
+        }
+      ],
+      "walking_policy": "Stationary event or creature; native facing poses, not a claimed new walking animation"
+    },
+    {
+      "person": "mafiamille-1",
+      "graphics_id": 165,
+      "actual_native_map_sprite": true,
+      "temporary_spawn_only": true,
+      "poses": [
+        {
+          "direction": "sud",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 4,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "nord",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 1,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "ouest",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 2,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "est",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 3,
+          "oam_attribute1": 37008
+        }
+      ],
+      "walking_policy": "Stationary event or creature; native facing poses, not a claimed new walking animation"
+    },
+    {
+      "person": "mafiamille-2",
+      "graphics_id": 166,
+      "actual_native_map_sprite": true,
+      "temporary_spawn_only": true,
+      "poses": [
+        {
+          "direction": "sud",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 4,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "nord",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 1,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "ouest",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 2,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "est",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 3,
+          "oam_attribute1": 37008
+        }
+      ],
+      "walking_policy": "Stationary event or creature; native facing poses, not a claimed new walking animation"
+    },
+    {
+      "person": "mafiamille-3",
+      "graphics_id": 167,
+      "actual_native_map_sprite": true,
+      "temporary_spawn_only": true,
+      "poses": [
+        {
+          "direction": "sud",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 4,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "nord",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 1,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "ouest",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 2,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "est",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 3,
+          "oam_attribute1": 37008
+        }
+      ],
+      "walking_policy": "Stationary event or creature; native facing poses, not a claimed new walking animation"
+    },
+    {
+      "person": "lord-enma",
+      "graphics_id": 154,
+      "actual_native_map_sprite": true,
+      "temporary_spawn_only": true,
+      "poses": [
+        {
+          "direction": "sud",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 4,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "nord",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 1,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "ouest",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 2,
+          "oam_attribute1": 32912
+        },
+        {
+          "direction": "est",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 3,
+          "oam_attribute1": 37008
+        }
+      ],
+      "walking_policy": "Stationary event or creature; native facing poses, not a claimed new walking animation"
+    },
+    {
+      "person": "leo-jibanyan",
+      "graphics_id": 172,
+      "actual_native_map_sprite": true,
+      "temporary_spawn_only": true,
+      "poses": [
+        {
+          "direction": "sud",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 4,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "nord",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 1,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "ouest",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 2,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "est",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 3,
+          "oam_attribute1": 37000
+        }
+      ],
+      "walking_policy": "Stationary event or creature; native facing poses, not a claimed new walking animation"
+    },
+    {
+      "person": "usapyon",
+      "graphics_id": 153,
+      "actual_native_map_sprite": true,
+      "temporary_spawn_only": true,
+      "poses": [
+        {
+          "direction": "sud",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "nord",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "ouest",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "est",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        }
+      ],
+      "walking_policy": "Stationary event or creature; native facing poses, not a claimed new walking animation"
+    },
+    {
+      "person": "misterre",
+      "graphics_id": 169,
+      "actual_native_map_sprite": true,
+      "temporary_spawn_only": true,
+      "poses": [
+        {
+          "direction": "sud",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "nord",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "ouest",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "est",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        }
+      ],
+      "walking_policy": "Stationary event or creature; native facing poses, not a claimed new walking animation"
+    },
+    {
+      "person": "octorgone",
+      "graphics_id": 170,
+      "actual_native_map_sprite": true,
+      "temporary_spawn_only": true,
+      "poses": [
+        {
+          "direction": "sud",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "nord",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "ouest",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "est",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        }
+      ],
+      "walking_policy": "Stationary event or creature; native facing poses, not a claimed new walking animation"
+    },
+    {
+      "person": "mademoaiselle",
+      "graphics_id": 171,
+      "actual_native_map_sprite": true,
+      "temporary_spawn_only": true,
+      "poses": [
+        {
+          "direction": "sud",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "nord",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "ouest",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "est",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        }
+      ],
+      "walking_policy": "Stationary event or creature; native facing poses, not a claimed new walking animation"
+    },
+    {
+      "person": "kyubi",
+      "graphics_id": 155,
+      "actual_native_map_sprite": true,
+      "temporary_spawn_only": true,
+      "poses": [
+        {
+          "direction": "sud",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "nord",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "ouest",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "est",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        }
+      ],
+      "walking_policy": "Stationary event or creature; native facing poses, not a claimed new walking animation"
+    },
+    {
+      "person": "enma-creature",
+      "graphics_id": 168,
+      "actual_native_map_sprite": true,
+      "temporary_spawn_only": true,
+      "poses": [
+        {
+          "direction": "sud",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "nord",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "ouest",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        },
+        {
+          "direction": "est",
+          "position": [
+            152,
+            112
+          ],
+          "anim_num": 0,
+          "oam_attribute1": 32904
+        }
+      ],
+      "walking_policy": "Stationary event or creature; native facing poses, not a claimed new walking animation"
+    }
+  ],
+  "scope": "Real new-game then actual native object spawning on Pallet Town as a temporary RAM fixture; four orientations rendered. Not actual story placements/interactions or a whole adventure."
+}
