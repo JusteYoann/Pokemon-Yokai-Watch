@@ -22,6 +22,7 @@ def main():
  parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--apply',action='store_true');a=parser.parse_args();rows=[]
  paths=sorted(set([*ROOT.glob('data/maps/**/*.inc'),*ROOT.glob('data/text/**/*.inc'),*ROOT.glob('data/scripts/**/*.inc'),*ROOT.glob('src/**/*.c'),*ROOT.glob('src/data/**/*.h')]))
  for p in paths:
+  if str(p.relative_to(ROOT)) in ['src/data/items.h','src/data/region_map/region_map_entry_strings.h']:continue # Generated from source JSON.
   old=p.read_text();edits=[]
   def replace(m):
    before=m['text'];after=adapt(before)
@@ -33,6 +34,21 @@ def main():
   if edits:
    rows.append(dict(file=str(p.relative_to(ROOT)),literals=len(edits),edits=edits))
    if a.apply:p.write_text(new)
+ for relative,fields in [('src/data/items.json',{'english','description_english'}),('src/data/region_map/region_map_sections.json',{'display_name'})]:
+  p=ROOT/relative;obj=json.loads(p.read_text());edits=[]
+  def visit(value):
+   if isinstance(value,dict):
+    for key,item in list(value.items()):
+     if key in fields and isinstance(item,str):
+      after=adapt(item)
+      if after!=item:edits.append(dict(before=item,after=after));value[key]=after
+     else:visit(item)
+   elif isinstance(value,list):
+    for item in value:visit(item)
+  visit(obj)
+  if edits:
+   rows.append(dict(file=relative,literals=len(edits),edits=edits))
+   if a.apply:p.write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n')
  report=dict(applied=a.apply,scope='Display literals only; full French translation and all-window validation still pending; no identifier/placeholder/escape/script command changes',files=len(rows),literals=sum(r['literals'] for r in rows),changes=rows)
  if a.apply:(ROOT/'QA_RECETTE_FINALE/VERSION_1_DEVELOPPEMENT/HARMONISATION_VOCABULAIRE.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
  print(json.dumps({k:v for k,v in report.items() if k!='changes'},ensure_ascii=False))

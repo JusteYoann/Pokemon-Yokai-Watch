@@ -11,6 +11,7 @@ La consigne exhaustive est conservée dans `RECUPERATION_PROJET/sources_validees
 - Take Care, Grandpa 1 commence après la victoire contre Matt, dans la scène originale avec Chen, puis laisse place au Panthéon et aux crédits natifs.
 - Trois nouveaux sprites de carte 32×32 : Misterre (Routes 12 et 16), Octorgone (Centrale), Mademoaiselle (Îles Écume). Kyubi et Enma capturable conservés, Seigneur Enma distinct. Aucun sprite normal/shiny de combat remplacé.
 - Léo devient Jibanyan avec neuf images directionnelles et sa propre palette. Son dialogue français explique le PC et les Boîtes Yo-kai. Les scripts de séparation/restitution humaine sont conservés.
+-1850chaînes affichées harmonisées, puis menus principaux/aide/sauvegarde et34messages de combat traduits. Médallium50px : menu agrandi de7à8tuiles. Six classements et compteurs bornés à151 après déblocage national, sans supprimer les flags existants.30contrôles natifs de libellés et interfaces. Deux en-têtes générés corrigés via leurs JSON sources après comparaison de clone propre.
 - Dialogues français de Matt/Chen dans la salle du Champion et le Panthéon. Les autres textes du jeu ne sont pas tous traduits : aucune revendication de français intégral.
 
 ## Preuves et limites

@@ -1,0 +1,1419 @@
+{
+  "scope": "Cold GitHub clone revealed two generated headers with local display edits; changes moved to source JSON. All non-display JSON fields unchanged.",
+  "changes": [
+    {
+      "file": "src/data/items.json",
+      "fields_allowed": [
+        "description_english",
+        "english"
+      ],
+      "edits": [
+        {
+          "path": [
+            "items",
+            1,
+            "description_english"
+          ],
+          "before": "The best BALL with the ultimate\\nperformance. It will catch any wild\\nPOKéMON without fail.",
+          "after": "The best BALL with the ultimate\\nperformance. It will catch any wild\\nYo-kai without fail."
+        },
+        {
+          "path": [
+            "items",
+            2,
+            "description_english"
+          ],
+          "before": "A very high-grade BALL that offers\\na higher POKéMON catch rate than\\na GREAT BALL.",
+          "after": "A very high-grade BALL that offers\\na higher Yo-kai catch rate than\\na GREAT BALL."
+        },
+        {
+          "path": [
+            "items",
+            3,
+            "description_english"
+          ],
+          "before": "A good, quality BALL that offers\\na higher POKéMON catch rate than\\na standard POKé BALL.",
+          "after": "A good, quality BALL that offers\\na higher Yo-kai catch rate than\\na standard Yo-kai Ball."
+        },
+        {
+          "path": [
+            "items",
+            4,
+            "english"
+          ],
+          "before": "POKé BALL",
+          "after": "Yo-kai Ball"
+        },
+        {
+          "path": [
+            "items",
+            4,
+            "description_english"
+          ],
+          "before": "A BALL thrown to catch a wild\\nPOKéMON. It is designed in a\\ncapsule style.",
+          "after": "A BALL thrown to catch a wild\\nYo-kai. It is designed in a\\ncapsule style."
+        },
+        {
+          "path": [
+            "items",
+            6,
+            "description_english"
+          ],
+          "before": "A somewhat different BALL that\\nworks especially well on WATER- and\\nBUG-type POKéMON.",
+          "after": "A somewhat different BALL that\\nworks especially well on WATER- and\\nBUG-type Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            7,
+            "description_english"
+          ],
+          "before": "A somewhat different BALL that\\nworks especially well on POKéMON\\ndeep in the sea.",
+          "after": "A somewhat different BALL that\\nworks especially well on Yo-kai\\ndeep in the sea."
+        },
+        {
+          "path": [
+            "items",
+            8,
+            "description_english"
+          ],
+          "before": "A somewhat different BALL that\\nworks especially well on weaker\\nPOKéMON.",
+          "after": "A somewhat different BALL that\\nworks especially well on weaker\\nYo-kai."
+        },
+        {
+          "path": [
+            "items",
+            9,
+            "description_english"
+          ],
+          "before": "A somewhat different BALL that\\nworks especially well on POKéMON\\ncaught before.",
+          "after": "A somewhat different BALL that\\nworks especially well on Yo-kai\\ncaught before."
+        },
+        {
+          "path": [
+            "items",
+            11,
+            "description_english"
+          ],
+          "before": "A comfortable BALL that makes a\\ncaptured wild POKéMON quickly grow\\nfriendly.",
+          "after": "A comfortable BALL that makes a\\ncaptured wild Yo-kai quickly grow\\nfriendly."
+        },
+        {
+          "path": [
+            "items",
+            13,
+            "description_english"
+          ],
+          "before": "A spray-type wound medicine.\\nIt restores the HP of one POKéMON\\nby 20 points.",
+          "after": "A spray-type wound medicine.\\nIt restores the HP of one Yo-kai\\nby 20 points."
+        },
+        {
+          "path": [
+            "items",
+            14,
+            "description_english"
+          ],
+          "before": "A spray-type medicine.\\nIt heals one POKéMON from a\\npoisoning.",
+          "after": "A spray-type medicine.\\nIt heals one Yo-kai from a\\npoisoning."
+        },
+        {
+          "path": [
+            "items",
+            15,
+            "description_english"
+          ],
+          "before": "A spray-type medicine.\\nIt heals one POKéMON of a burn.",
+          "after": "A spray-type medicine.\\nIt heals one Yo-kai of a burn."
+        },
+        {
+          "path": [
+            "items",
+            16,
+            "description_english"
+          ],
+          "before": "A spray-type medicine.\\nIt defrosts a frozen POKéMON.",
+          "after": "A spray-type medicine.\\nIt defrosts a frozen Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            17,
+            "description_english"
+          ],
+          "before": "A spray-type medicine.\\nIt awakens a sleeping POKéMON.",
+          "after": "A spray-type medicine.\\nIt awakens a sleeping Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            18,
+            "description_english"
+          ],
+          "before": "A spray-type medicine.\\nIt heals one POKéMON from\\nparalysis.",
+          "after": "A spray-type medicine.\\nIt heals one Yo-kai from\\nparalysis."
+        },
+        {
+          "path": [
+            "items",
+            19,
+            "description_english"
+          ],
+          "before": "A medicine that fully restores the\\nHP and heals any status problems\\nof one POKéMON.",
+          "after": "A medicine that fully restores the\\nHP and heals any status problems\\nof one Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            20,
+            "description_english"
+          ],
+          "before": "A spray-type wound medicine.\\nIt fully restores the HP of one\\nPOKéMON.",
+          "after": "A spray-type wound medicine.\\nIt fully restores the HP of one\\nYo-kai."
+        },
+        {
+          "path": [
+            "items",
+            21,
+            "description_english"
+          ],
+          "before": "A spray-type wound medicine.\\nIt restores the HP of one POKéMON\\nby 200 points.",
+          "after": "A spray-type wound medicine.\\nIt restores the HP of one Yo-kai\\nby 200 points."
+        },
+        {
+          "path": [
+            "items",
+            22,
+            "description_english"
+          ],
+          "before": "A spray-type wound medicine.\\nIt restores the HP of one POKéMON\\nby 50 points.",
+          "after": "A spray-type wound medicine.\\nIt restores the HP of one Yo-kai\\nby 50 points."
+        },
+        {
+          "path": [
+            "items",
+            23,
+            "description_english"
+          ],
+          "before": "A spray-type medicine.\\nIt heals all the status problems of\\none POKéMON.",
+          "after": "A spray-type medicine.\\nIt heals all the status problems of\\none Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            24,
+            "description_english"
+          ],
+          "before": "A medicine that revives a fainted\\nPOKéMON, restoring HP by half the\\nmaximum amount.",
+          "after": "A medicine that revives a fainted\\nYo-kai, restoring HP by half the\\nmaximum amount."
+        },
+        {
+          "path": [
+            "items",
+            25,
+            "description_english"
+          ],
+          "before": "A medicine that revives a fainted\\nPOKéMON, restoring HP fully.",
+          "after": "A medicine that revives a fainted\\nYo-kai, restoring HP fully."
+        },
+        {
+          "path": [
+            "items",
+            26,
+            "description_english"
+          ],
+          "before": "Water with a high mineral content.\\nIt restores the HP of one POKéMON\\nby 50 points.",
+          "after": "Water with a high mineral content.\\nIt restores the HP of one Yo-kai\\nby 50 points."
+        },
+        {
+          "path": [
+            "items",
+            27,
+            "description_english"
+          ],
+          "before": "A fizzy soda drink.\\nIt restores the HP of one POKéMON\\nby 60 points.",
+          "after": "A fizzy soda drink.\\nIt restores the HP of one Yo-kai\\nby 60 points."
+        },
+        {
+          "path": [
+            "items",
+            28,
+            "description_english"
+          ],
+          "before": "A very sweet drink.\\nIt restores the HP of one POKéMON\\nby 80 points.",
+          "after": "A very sweet drink.\\nIt restores the HP of one Yo-kai\\nby 80 points."
+        },
+        {
+          "path": [
+            "items",
+            29,
+            "description_english"
+          ],
+          "before": "Highly nutritious milk.\\nIt restores the HP of one POKéMON\\nby 100 points.",
+          "after": "Highly nutritious milk.\\nIt restores the HP of one Yo-kai\\nby 100 points."
+        },
+        {
+          "path": [
+            "items",
+            30,
+            "description_english"
+          ],
+          "before": "A very bitter medicine powder.\\nIt restores the HP of one POKéMON\\nby 50 points.",
+          "after": "A very bitter medicine powder.\\nIt restores the HP of one Yo-kai\\nby 50 points."
+        },
+        {
+          "path": [
+            "items",
+            31,
+            "description_english"
+          ],
+          "before": "A very bitter root.\\nIt restores the HP of one POKéMON\\nby 200 points.",
+          "after": "A very bitter root.\\nIt restores the HP of one Yo-kai\\nby 200 points."
+        },
+        {
+          "path": [
+            "items",
+            32,
+            "description_english"
+          ],
+          "before": "A very bitter medicine powder.\\nIt heals all the status problems of\\none POKéMON.",
+          "after": "A very bitter medicine powder.\\nIt heals all the status problems of\\none Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            33,
+            "description_english"
+          ],
+          "before": "A very bitter medicinal herb.\\nIt revives a fainted POKéMON,\\nrestoring HP fully.",
+          "after": "A very bitter medicinal herb.\\nIt revives a fainted Yo-kai,\\nrestoring HP fully."
+        },
+        {
+          "path": [
+            "items",
+            34,
+            "description_english"
+          ],
+          "before": "Restores a selected move's PP by\\n10 points for one POKéMON.",
+          "after": "Restores a selected move's PP by\\n10 points for one Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            35,
+            "description_english"
+          ],
+          "before": "Fully restores a selected move's PP\\nfor one POKéMON.",
+          "after": "Fully restores a selected move's PP\\nfor one Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            36,
+            "description_english"
+          ],
+          "before": "Restores the PP of all moves for\\none POKéMON by 10 points each.",
+          "after": "Restores the PP of all moves for\\none Yo-kai by 10 points each."
+        },
+        {
+          "path": [
+            "items",
+            37,
+            "description_english"
+          ],
+          "before": "Fully restores the PP of all moves\\nfor one POKéMON.",
+          "after": "Fully restores the PP of all moves\\nfor one Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            38,
+            "description_english"
+          ],
+          "before": "LAVARIDGE TOWN's local specialty.\\nIt heals all the status problems of\\none POKéMON.",
+          "after": "LAVARIDGE TOWN's local specialty.\\nIt heals all the status problems of\\none Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            39,
+            "description_english"
+          ],
+          "before": "A blue glass flute that awakens\\na sleeping POKéMON.",
+          "after": "A blue glass flute that awakens\\na sleeping Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            40,
+            "description_english"
+          ],
+          "before": "A yellow glass flute that snaps one\\nPOKéMON out of confusion.",
+          "after": "A yellow glass flute that snaps one\\nYo-kai out of confusion."
+        },
+        {
+          "path": [
+            "items",
+            41,
+            "description_english"
+          ],
+          "before": "A red glass flute that snaps one\\nPOKéMON out of infatuation.",
+          "after": "A red glass flute that snaps one\\nYo-kai out of infatuation."
+        },
+        {
+          "path": [
+            "items",
+            42,
+            "description_english"
+          ],
+          "before": "A black glass flute.\\nWhen blown, it makes wild POKéMON\\nless likely to appear.",
+          "after": "A black glass flute.\\nWhen blown, it makes wild Yo-kai\\nless likely to appear."
+        },
+        {
+          "path": [
+            "items",
+            43,
+            "description_english"
+          ],
+          "before": "A white glass flute.\\nWhen blown, it makes wild POKéMON\\nmore likely to appear.",
+          "after": "A white glass flute.\\nWhen blown, it makes wild Yo-kai\\nmore likely to appear."
+        },
+        {
+          "path": [
+            "items",
+            44,
+            "description_english"
+          ],
+          "before": "A 100% pure juice.\\nIt restores the HP of one POKéMON\\nby 20 points.",
+          "after": "A 100% pure juice.\\nIt restores the HP of one Yo-kai\\nby 20 points."
+        },
+        {
+          "path": [
+            "items",
+            45,
+            "description_english"
+          ],
+          "before": "Revives all fainted POKéMON,\\nrestoring HP fully.",
+          "after": "Revives all fainted Yo-kai,\\nrestoring HP fully."
+        },
+        {
+          "path": [
+            "items",
+            63,
+            "description_english"
+          ],
+          "before": "A nutritious drink for POKéMON.\\nIt raises the base HP of one\\nPOKéMON.",
+          "after": "A nutritious drink for Yo-kai.\\nIt raises the base HP of one\\nYo-kai."
+        },
+        {
+          "path": [
+            "items",
+            64,
+            "description_english"
+          ],
+          "before": "A nutritious drink for POKéMON.\\nIt raises the base ATTACK stat of\\none POKéMON.",
+          "after": "A nutritious drink for Yo-kai.\\nIt raises the base ATTACK stat of\\none Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            65,
+            "description_english"
+          ],
+          "before": "A nutritious drink for POKéMON.\\nIt raises the base DEFENSE stat of\\none POKéMON.",
+          "after": "A nutritious drink for Yo-kai.\\nIt raises the base DEFENSE stat of\\none Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            66,
+            "description_english"
+          ],
+          "before": "A nutritious drink for POKéMON.\\nIt raises the base SPEED stat of\\none POKéMON.",
+          "after": "A nutritious drink for Yo-kai.\\nIt raises the base SPEED stat of\\none Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            67,
+            "description_english"
+          ],
+          "before": "A nutritious drink for POKéMON.\\nIt raises the base SP. ATK stat\\nof one POKéMON.",
+          "after": "A nutritious drink for Yo-kai.\\nIt raises the base SP. ATK stat\\nof one Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            68,
+            "description_english"
+          ],
+          "before": "A candy that is packed with energy.\\nIt raises the level of a POKéMON\\nby one.",
+          "after": "A candy that is packed with energy.\\nIt raises the level of a Yo-kai\\nby one."
+        },
+        {
+          "path": [
+            "items",
+            69,
+            "description_english"
+          ],
+          "before": "Slightly raises the maximum PP of\\na selected move for one POKéMON.",
+          "after": "Slightly raises the maximum PP of\\na selected move for one Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            70,
+            "description_english"
+          ],
+          "before": "A nutritious drink for POKéMON.\\nIt raises the base SP. DEF stat\\nof one POKéMON.",
+          "after": "A nutritious drink for Yo-kai.\\nIt raises the base SP. DEF stat\\nof one Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            71,
+            "description_english"
+          ],
+          "before": "Raises the PP of a selected move\\nto its maximum level for one\\nPOKéMON.",
+          "after": "Raises the PP of a selected move\\nto its maximum level for one\\nYo-kai."
+        },
+        {
+          "path": [
+            "items",
+            73,
+            "description_english"
+          ],
+          "before": "An item that prevents stat reduction\\namong party POKéMON for five turns\\nafter use.",
+          "after": "An item that prevents stat reduction\\namong party Yo-kai for five turns\\nafter use."
+        },
+        {
+          "path": [
+            "items",
+            74,
+            "description_english"
+          ],
+          "before": "Raises the critical-hit ratio of\\nPOKéMON in battle. Wears off if the\\nPOKéMON is withdrawn.",
+          "after": "Raises the critical-hit ratio of\\nYo-kai in battle. Wears off if the\\nYo-kai is withdrawn."
+        },
+        {
+          "path": [
+            "items",
+            75,
+            "description_english"
+          ],
+          "before": "Raises the ATTACK stat of POKéMON\\nin battle. Wears off if the POKéMON\\nis withdrawn.",
+          "after": "Raises the ATTACK stat of Yo-kai\\nin battle. Wears off if the Yo-kai\\nis withdrawn."
+        },
+        {
+          "path": [
+            "items",
+            76,
+            "description_english"
+          ],
+          "before": "Raises the DEFENSE stat of POKéMON\\nin battle. Wears off if the POKéMON\\nis withdrawn.",
+          "after": "Raises the DEFENSE stat of Yo-kai\\nin battle. Wears off if the Yo-kai\\nis withdrawn."
+        },
+        {
+          "path": [
+            "items",
+            77,
+            "description_english"
+          ],
+          "before": "Raises the SPEED stat of POKéMON\\nin battle. Wears off if the POKéMON\\nis withdrawn.",
+          "after": "Raises the SPEED stat of Yo-kai\\nin battle. Wears off if the Yo-kai\\nis withdrawn."
+        },
+        {
+          "path": [
+            "items",
+            78,
+            "description_english"
+          ],
+          "before": "Raises the accuracy stat of\\nPOKéMON in battle. Wears off if the\\nPOKéMON is withdrawn.",
+          "after": "Raises the accuracy stat of\\nYo-kai in battle. Wears off if the\\nYo-kai is withdrawn."
+        },
+        {
+          "path": [
+            "items",
+            79,
+            "description_english"
+          ],
+          "before": "Raises the SP. ATK stat of\\nPOKéMON in battle. Wears off if the\\nPOKéMON is withdrawn.",
+          "after": "Raises the SP. ATK stat of\\nYo-kai in battle. Wears off if the\\nYo-kai is withdrawn."
+        },
+        {
+          "path": [
+            "items",
+            80,
+            "description_english"
+          ],
+          "before": "An attractive doll.\\nUse it to flee from any battle with\\na wild POKéMON.",
+          "after": "An attractive doll.\\nUse it to flee from any battle with\\na wild Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            81,
+            "description_english"
+          ],
+          "before": "An attractive item.\\nUse it to flee from any battle with\\na wild POKéMON.",
+          "after": "An attractive item.\\nUse it to flee from any battle with\\na wild Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            83,
+            "description_english"
+          ],
+          "before": "Prevents weak wild POKéMON from\\nappearing for 200 steps.",
+          "after": "Prevents weak wild Yo-kai from\\nappearing for 200 steps."
+        },
+        {
+          "path": [
+            "items",
+            84,
+            "description_english"
+          ],
+          "before": "Prevents weak wild POKéMON from\\nappearing for 250 steps.",
+          "after": "Prevents weak wild Yo-kai from\\nappearing for 250 steps."
+        },
+        {
+          "path": [
+            "items",
+            86,
+            "description_english"
+          ],
+          "before": "Prevents weak wild POKéMON from\\nappearing for 100 steps.",
+          "after": "Prevents weak wild Yo-kai from\\nappearing for 100 steps."
+        },
+        {
+          "path": [
+            "items",
+            93,
+            "description_english"
+          ],
+          "before": "A peculiar stone that makes certain\\nspecies of POKéMON evolve.\\nIt is as red as the sun.",
+          "after": "A peculiar stone that makes certain\\nspecies of Yo-kai evolve.\\nIt is as red as the sun."
+        },
+        {
+          "path": [
+            "items",
+            121,
+            "description_english"
+          ],
+          "before": "A piece of MAIL featuring a cute\\nZIGZAGOON print.\\nIt is to be held by a POKéMON.",
+          "after": "A piece of MAIL featuring a cute\\nZIGZAGOON print.\\nIt is to be held by a Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            122,
+            "description_english"
+          ],
+          "before": "A piece of MAIL featuring a cute\\nWINGULL print.\\nIt is to be held by a POKéMON.",
+          "after": "A piece of MAIL featuring a cute\\nWINGULL print.\\nIt is to be held by a Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            123,
+            "description_english"
+          ],
+          "before": "A piece of MAIL featuring a cute\\nPIKACHU print.\\nIt is to be held by a POKéMON.",
+          "after": "A piece of MAIL featuring a cute\\nPIKACHU print.\\nIt is to be held by a Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            124,
+            "description_english"
+          ],
+          "before": "A piece of MAIL featuring a cute\\nMAGNEMITE print.\\nIt is to be held by a POKéMON.",
+          "after": "A piece of MAIL featuring a cute\\nMAGNEMITE print.\\nIt is to be held by a Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            125,
+            "description_english"
+          ],
+          "before": "A piece of MAIL featuring a cute\\nSLAKOTH print.\\nIt is to be held by a POKéMON.",
+          "after": "A piece of MAIL featuring a cute\\nSLAKOTH print.\\nIt is to be held by a Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            126,
+            "description_english"
+          ],
+          "before": "A piece of MAIL featuring a cute\\nWAILMER print.\\nIt is to be held by a POKéMON.",
+          "after": "A piece of MAIL featuring a cute\\nWAILMER print.\\nIt is to be held by a Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            127,
+            "description_english"
+          ],
+          "before": "A piece of MAIL to be held by a\\nPOKéMON. It will bear the print of\\nthe POKéMON holding it.",
+          "after": "A piece of MAIL to be held by a\\nYo-kai. It will bear the print of\\nthe Yo-kai holding it."
+        },
+        {
+          "path": [
+            "items",
+            128,
+            "description_english"
+          ],
+          "before": "A piece of MAIL featuring a cute\\nDUSKULL print.\\nIt is to be held by a POKéMON.",
+          "after": "A piece of MAIL featuring a cute\\nDUSKULL print.\\nIt is to be held by a Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            129,
+            "description_english"
+          ],
+          "before": "A piece of MAIL featuring a cute\\nBELLOSSOM print.\\nIt is to be held by a POKéMON.",
+          "after": "A piece of MAIL featuring a cute\\nBELLOSSOM print.\\nIt is to be held by a Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            130,
+            "description_english"
+          ],
+          "before": "A piece of MAIL to be held by a\\nPOKéMON. It will bear the print of\\nthe POKéMON holding it.",
+          "after": "A piece of MAIL to be held by a\\nYo-kai. It will bear the print of\\nthe Yo-kai holding it."
+        },
+        {
+          "path": [
+            "items",
+            131,
+            "description_english"
+          ],
+          "before": "A piece of MAIL featuring a\\ngorgeous, extravagant print.\\nIt is to be held by a POKéMON.",
+          "after": "A piece of MAIL featuring a\\ngorgeous, extravagant print.\\nIt is to be held by a Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            132,
+            "description_english"
+          ],
+          "before": "A piece of MAIL featuring a print\\nof three cute POKéMON.\\nIt is to be held by a POKéMON.",
+          "after": "A piece of MAIL featuring a print\\nof three cute Yo-kai.\\nIt is to be held by a Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            133,
+            "description_english"
+          ],
+          "before": "When held by a POKéMON, it will be\\nused in battle to heal paralysis.",
+          "after": "When held by a Yo-kai, it will be\\nused in battle to heal paralysis."
+        },
+        {
+          "path": [
+            "items",
+            134,
+            "description_english"
+          ],
+          "before": "When held by a POKéMON, it will be\\nused in battle to wake up.",
+          "after": "When held by a Yo-kai, it will be\\nused in battle to wake up."
+        },
+        {
+          "path": [
+            "items",
+            135,
+            "description_english"
+          ],
+          "before": "When held by a POKéMON, it will be\\nused in battle to cure poison.",
+          "after": "When held by a Yo-kai, it will be\\nused in battle to cure poison."
+        },
+        {
+          "path": [
+            "items",
+            136,
+            "description_english"
+          ],
+          "before": "When held by a POKéMON, it will be\\nused in battle to heal a burn.",
+          "after": "When held by a Yo-kai, it will be\\nused in battle to heal a burn."
+        },
+        {
+          "path": [
+            "items",
+            137,
+            "description_english"
+          ],
+          "before": "When held by a POKéMON, it will be\\nused in battle for defrosting.",
+          "after": "When held by a Yo-kai, it will be\\nused in battle for defrosting."
+        },
+        {
+          "path": [
+            "items",
+            138,
+            "description_english"
+          ],
+          "before": "When held by a POKéMON, it will be\\nused in battle to restore 10 PP.",
+          "after": "When held by a Yo-kai, it will be\\nused in battle to restore 10 PP."
+        },
+        {
+          "path": [
+            "items",
+            139,
+            "description_english"
+          ],
+          "before": "When held by a POKéMON, it will be\\nused in battle to restore 10 HP.",
+          "after": "When held by a Yo-kai, it will be\\nused in battle to restore 10 HP."
+        },
+        {
+          "path": [
+            "items",
+            140,
+            "description_english"
+          ],
+          "before": "When held by a POKéMON, it will be\\nused in battle to lift confusion.",
+          "after": "When held by a Yo-kai, it will be\\nused in battle to lift confusion."
+        },
+        {
+          "path": [
+            "items",
+            141,
+            "description_english"
+          ],
+          "before": "When held by a POKéMON, it will be\\nused in battle to heal any problem.",
+          "after": "When held by a Yo-kai, it will be\\nused in battle to heal any problem."
+        },
+        {
+          "path": [
+            "items",
+            142,
+            "description_english"
+          ],
+          "before": "When held by a POKéMON, it will be\\nused in battle to restore 30 HP.",
+          "after": "When held by a Yo-kai, it will be\\nused in battle to restore 30 HP."
+        },
+        {
+          "path": [
+            "items",
+            168,
+            "description_english"
+          ],
+          "before": "When held by a POKéMON, it raises\\nthe ATTACK stat in a pinch.",
+          "after": "When held by a Yo-kai, it raises\\nthe ATTACK stat in a pinch."
+        },
+        {
+          "path": [
+            "items",
+            169,
+            "description_english"
+          ],
+          "before": "When held by a POKéMON, it raises\\nthe DEFENSE stat in a pinch.",
+          "after": "When held by a Yo-kai, it raises\\nthe DEFENSE stat in a pinch."
+        },
+        {
+          "path": [
+            "items",
+            170,
+            "description_english"
+          ],
+          "before": "When held by a POKéMON, it raises\\nthe SPEED stat in a pinch.",
+          "after": "When held by a Yo-kai, it raises\\nthe SPEED stat in a pinch."
+        },
+        {
+          "path": [
+            "items",
+            171,
+            "description_english"
+          ],
+          "before": "When held by a POKéMON, it raises\\nthe SP. ATK stat in a pinch.",
+          "after": "When held by a Yo-kai, it raises\\nthe SP. ATK stat in a pinch."
+        },
+        {
+          "path": [
+            "items",
+            172,
+            "description_english"
+          ],
+          "before": "When held by a POKéMON, it raises\\nthe SP. DEF stat in a pinch.",
+          "after": "When held by a Yo-kai, it raises\\nthe SP. DEF stat in a pinch."
+        },
+        {
+          "path": [
+            "items",
+            173,
+            "description_english"
+          ],
+          "before": "When held by a POKéMON, it raises\\nthe critical-hit ratio in a pinch.",
+          "after": "When held by a Yo-kai, it raises\\nthe critical-hit ratio in a pinch."
+        },
+        {
+          "path": [
+            "items",
+            174,
+            "description_english"
+          ],
+          "before": "When held by a POKéMON, it sharply\\nraises one stat in a pinch.",
+          "after": "When held by a Yo-kai, it sharply\\nraises one stat in a pinch."
+        },
+        {
+          "path": [
+            "items",
+            179,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nIt casts a tricky glare that lowers\\nthe opponent's accuracy.",
+          "after": "An item to be held by a Yo-kai.\\nIt casts a tricky glare that lowers\\nthe opponent's accuracy."
+        },
+        {
+          "path": [
+            "items",
+            180,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nIt restores any lowered stat in\\nbattle. It can be used only once.",
+          "after": "An item to be held by a Yo-kai.\\nIt restores any lowered stat in\\nbattle. It can be used only once."
+        },
+        {
+          "path": [
+            "items",
+            181,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nIt promotes strong growth but\\nlowers SPEED while it is held.",
+          "after": "An item to be held by a Yo-kai.\\nIt promotes strong growth but\\nlowers SPEED while it is held."
+        },
+        {
+          "path": [
+            "items",
+            182,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nThe holder gets a share of EXP.\\npoints without having to battle.",
+          "after": "An item to be held by a Yo-kai.\\nThe holder gets a share of EXP.\\npoints without having to battle."
+        },
+        {
+          "path": [
+            "items",
+            183,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nA light and sharp claw. The holder\\nmay be able to strike first.",
+          "after": "An item to be held by a Yo-kai.\\nA light and sharp claw. The holder\\nmay be able to strike first."
+        },
+        {
+          "path": [
+            "items",
+            184,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nA bell with a comforting chime that\\nmakes the holder calm and friendly.",
+          "after": "An item to be held by a Yo-kai.\\nA bell with a comforting chime that\\nmakes the holder calm and friendly."
+        },
+        {
+          "path": [
+            "items",
+            185,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nIt snaps the holder out of\\ninfatuation. It can be used once.",
+          "after": "An item to be held by a Yo-kai.\\nIt snaps the holder out of\\ninfatuation. It can be used once."
+        },
+        {
+          "path": [
+            "items",
+            186,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nIt powers up one move, which\\nbecomes the only usable one.",
+          "after": "An item to be held by a Yo-kai.\\nIt powers up one move, which\\nbecomes the only usable one."
+        },
+        {
+          "path": [
+            "items",
+            187,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nIt may cause the foe to flinch\\nupon taking damage.",
+          "after": "An item to be held by a Yo-kai.\\nIt may cause the foe to flinch\\nupon taking damage."
+        },
+        {
+          "path": [
+            "items",
+            188,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nA shiny silver powder that boosts\\nthe power of BUG-type moves.",
+          "after": "An item to be held by a Yo-kai.\\nA shiny silver powder that boosts\\nthe power of BUG-type moves."
+        },
+        {
+          "path": [
+            "items",
+            189,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nIt doubles the battle money if the\\nholding POKéMON takes part.",
+          "after": "An item to be held by a Yo-kai.\\nIt doubles the battle money if the\\nholding Yo-kai takes part."
+        },
+        {
+          "path": [
+            "items",
+            190,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nIt repels wild POKéMON if the\\nholder is first in the party.",
+          "after": "An item to be held by a Yo-kai.\\nIt repels wild Yo-kai if the\\nholder is first in the party."
+        },
+        {
+          "path": [
+            "items",
+            192,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nA fang that gleams a sharp silver.\\nIt raises the SP. ATK stat.",
+          "after": "An item to be held by a Yo-kai.\\nA fang that gleams a sharp silver.\\nIt raises the SP. ATK stat."
+        },
+        {
+          "path": [
+            "items",
+            193,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nA scale that shines a faint pink.\\nIt raises the SP. DEF stat.",
+          "after": "An item to be held by a Yo-kai.\\nA scale that shines a faint pink.\\nIt raises the SP. DEF stat."
+        },
+        {
+          "path": [
+            "items",
+            194,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nThe holding POKéMON can flee from\\nany wild POKéMON for sure.",
+          "after": "An item to be held by a Yo-kai.\\nThe holding Yo-kai can flee from\\nany wild Yo-kai for sure."
+        },
+        {
+          "path": [
+            "items",
+            195,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nThe holding POKéMON is prevented\\nfrom evolving.",
+          "after": "An item to be held by a Yo-kai.\\nThe holding Yo-kai is prevented\\nfrom evolving."
+        },
+        {
+          "path": [
+            "items",
+            196,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nThe holding POKéMON may endure an\\nattack, leaving just 1 HP.",
+          "after": "An item to be held by a Yo-kai.\\nThe holding Yo-kai may endure an\\nattack, leaving just 1 HP."
+        },
+        {
+          "path": [
+            "items",
+            198,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nA lens that boosts the critical-hit\\nratio of the holding POKéMON.",
+          "after": "An item to be held by a Yo-kai.\\nA lens that boosts the critical-hit\\nratio of the holding Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            199,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nA special metallic film that boosts\\nthe power of STEEL-type moves.",
+          "after": "An item to be held by a Yo-kai.\\nA special metallic film that boosts\\nthe power of STEEL-type moves."
+        },
+        {
+          "path": [
+            "items",
+            200,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nThe holding POKéMON gradually\\nregains HP during battle.",
+          "after": "An item to be held by a Yo-kai.\\nThe holding Yo-kai gradually\\nregains HP during battle."
+        },
+        {
+          "path": [
+            "items",
+            201,
+            "description_english"
+          ],
+          "before": "A thick and tough scale.\\nA DRAGON-type POKéMON may be\\nholding it.",
+          "after": "A thick and tough scale.\\nA DRAGON-type Yo-kai may be\\nholding it."
+        },
+        {
+          "path": [
+            "items",
+            203,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nA loose, silky sand that boosts the\\npower of GROUND-type moves.",
+          "after": "An item to be held by a Yo-kai.\\nA loose, silky sand that boosts the\\npower of GROUND-type moves."
+        },
+        {
+          "path": [
+            "items",
+            204,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nAn unbreakable stone that boosts\\nthe power of ROCK-type moves.",
+          "after": "An item to be held by a Yo-kai.\\nAn unbreakable stone that boosts\\nthe power of ROCK-type moves."
+        },
+        {
+          "path": [
+            "items",
+            205,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nA seed imbued with life that boosts\\nthe power of GRASS-type moves.",
+          "after": "An item to be held by a Yo-kai.\\nA seed imbued with life that boosts\\nthe power of GRASS-type moves."
+        },
+        {
+          "path": [
+            "items",
+            206,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nA shady-looking pair of glasses\\nthat boosts DARK-type moves.",
+          "after": "An item to be held by a Yo-kai.\\nA shady-looking pair of glasses\\nthat boosts DARK-type moves."
+        },
+        {
+          "path": [
+            "items",
+            207,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nA belt that boosts determination\\nand FIGHTING-type moves.",
+          "after": "An item to be held by a Yo-kai.\\nA belt that boosts determination\\nand FIGHTING-type moves."
+        },
+        {
+          "path": [
+            "items",
+            208,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nA powerful magnet that boosts the\\npower of ELECTRIC-type moves.",
+          "after": "An item to be held by a Yo-kai.\\nA powerful magnet that boosts the\\npower of ELECTRIC-type moves."
+        },
+        {
+          "path": [
+            "items",
+            209,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nA teardrop-shaped gem that boosts\\nthe power of WATER-type moves.",
+          "after": "An item to be held by a Yo-kai.\\nA teardrop-shaped gem that boosts\\nthe power of WATER-type moves."
+        },
+        {
+          "path": [
+            "items",
+            210,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nA long, sharp beak that boosts the\\npower of FLYING-type moves.",
+          "after": "An item to be held by a Yo-kai.\\nA long, sharp beak that boosts the\\npower of FLYING-type moves."
+        },
+        {
+          "path": [
+            "items",
+            211,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nA small, poisonous barb that boosts\\nthe power of POISON-type moves.",
+          "after": "An item to be held by a Yo-kai.\\nA small, poisonous barb that boosts\\nthe power of POISON-type moves."
+        },
+        {
+          "path": [
+            "items",
+            212,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nA piece of ice that repels heat\\nand boosts ICE-type moves.",
+          "after": "An item to be held by a Yo-kai.\\nA piece of ice that repels heat\\nand boosts ICE-type moves."
+        },
+        {
+          "path": [
+            "items",
+            213,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nA sinister, eerie tag that boosts\\nGHOST-type moves.",
+          "after": "An item to be held by a Yo-kai.\\nA sinister, eerie tag that boosts\\nGHOST-type moves."
+        },
+        {
+          "path": [
+            "items",
+            214,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nA spoon imbued with telekinetic\\npower boosts PSYCHIC-type moves.",
+          "after": "An item to be held by a Yo-kai.\\nA spoon imbued with telekinetic\\npower boosts PSYCHIC-type moves."
+        },
+        {
+          "path": [
+            "items",
+            215,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nA combustible fuel that boosts the\\npower of FIRE-type moves.",
+          "after": "An item to be held by a Yo-kai.\\nA combustible fuel that boosts the\\npower of FIRE-type moves."
+        },
+        {
+          "path": [
+            "items",
+            216,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nA hard and sharp fang that boosts\\nthe power of DRAGON-type moves.",
+          "after": "An item to be held by a Yo-kai.\\nA hard and sharp fang that boosts\\nthe power of DRAGON-type moves."
+        },
+        {
+          "path": [
+            "items",
+            217,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nA sumptuous scarf that boosts the\\npower of NORMAL-type moves.",
+          "after": "An item to be held by a Yo-kai.\\nA sumptuous scarf that boosts the\\npower of NORMAL-type moves."
+        },
+        {
+          "path": [
+            "items",
+            219,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nThe holding POKéMON regains some\\nHP upon striking the foe.",
+          "after": "An item to be held by a Yo-kai.\\nThe holding Yo-kai regains some\\nHP upon striking the foe."
+        },
+        {
+          "path": [
+            "items",
+            220,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nIt slightly boosts the power of\\nWATER-type moves.",
+          "after": "An item to be held by a Yo-kai.\\nIt slightly boosts the power of\\nWATER-type moves."
+        },
+        {
+          "path": [
+            "items",
+            221,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nIts tricky aroma slightly reduces\\nthe foe's accuracy.",
+          "after": "An item to be held by a Yo-kai.\\nIts tricky aroma slightly reduces\\nthe foe's accuracy."
+        },
+        {
+          "path": [
+            "items",
+            254,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nIt boosts the holding POKéMON's\\nCOOL condition in CONTESTS.",
+          "after": "An item to be held by a Yo-kai.\\nIt boosts the holding Yo-kai's\\nCOOL condition in CONTESTS."
+        },
+        {
+          "path": [
+            "items",
+            255,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nIt boosts the holding POKéMON's\\nBEAUTY condition in CONTESTS.",
+          "after": "An item to be held by a Yo-kai.\\nIt boosts the holding Yo-kai's\\nBEAUTY condition in CONTESTS."
+        },
+        {
+          "path": [
+            "items",
+            256,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nIt boosts the holding POKéMON's\\nCUTE condition in CONTESTS.",
+          "after": "An item to be held by a Yo-kai.\\nIt boosts the holding Yo-kai's\\nCUTE condition in CONTESTS."
+        },
+        {
+          "path": [
+            "items",
+            257,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nIt boosts the holding POKéMON's\\nSMART condition in CONTESTS.",
+          "after": "An item to be held by a Yo-kai.\\nIt boosts the holding Yo-kai's\\nSMART condition in CONTESTS."
+        },
+        {
+          "path": [
+            "items",
+            258,
+            "description_english"
+          ],
+          "before": "An item to be held by a POKéMON.\\nIt boosts the holding POKéMON's\\nTOUGH condition in CONTESTS.",
+          "after": "An item to be held by a Yo-kai.\\nIt boosts the holding Yo-kai's\\nTOUGH condition in CONTESTS."
+        },
+        {
+          "path": [
+            "items",
+            262,
+            "description_english"
+          ],
+          "before": "An old and beat-up fishing rod.\\nUse it by any body of water to \\nfish for wild POKéMON.",
+          "after": "An old and beat-up fishing rod.\\nUse it by any body of water to \\nfish for wild Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            263,
+            "description_english"
+          ],
+          "before": "A new, good-quality fishing rod.\\nUse it by any body of water to \\nfish for wild POKéMON.",
+          "after": "A new, good-quality fishing rod.\\nUse it by any body of water to \\nfish for wild Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            264,
+            "description_english"
+          ],
+          "before": "An awesome, high-tech fishing rod.\\nUse it by any body of water to fish\\nfor wild POKéMON.",
+          "after": "An awesome, high-tech fishing rod.\\nUse it by any body of water to fish\\nfor wild Yo-kai."
+        },
+        {
+          "path": [
+            "items",
+            266,
+            "description_english"
+          ],
+          "before": "The pass required for entering\\nPOKéMON CONTESTS. It has a\\ndrawing of an award ribbon on it.",
+          "after": "The pass required for entering\\nYo-kai CONTESTS. It has a\\ndrawing of an award ribbon on it."
+        },
+        {
+          "path": [
+            "items",
+            286,
+            "description_english"
+          ],
+          "before": "A fossil of an ancient, seafloor-\\ndwelling POKéMON. It appears to be\\npart of a plant root.",
+          "after": "A fossil of an ancient, seafloor-\\ndwelling Yo-kai. It appears to be\\npart of a plant root."
+        },
+        {
+          "path": [
+            "items",
+            287,
+            "description_english"
+          ],
+          "before": "A fossil of an ancient, seafloor-\\ndwelling POKéMON. It appears to be\\npart of a claw.",
+          "after": "A fossil of an ancient, seafloor-\\ndwelling Yo-kai. It appears to be\\npart of a claw."
+        },
+        {
+          "path": [
+            "items",
+            288,
+            "description_english"
+          ],
+          "before": "A scope that signals the presence\\nof any unseeable POKéMON.\\nIt is made by the DEVON CORP.",
+          "after": "A scope that signals the presence\\nof any unseeable Yo-kai.\\nIt is made by the DEVON CORP."
+        },
+        {
+          "path": [
+            "items",
+            298,
+            "description_english"
+          ],
+          "before": "A variable move that changes type\\nand power depending on the POKéMON\\nusing it.",
+          "after": "A variable move that changes type\\nand power depending on the Yo-kai\\nusing it."
+        },
+        {
+          "path": [
+            "items",
+            309,
+            "description_english"
+          ],
+          "before": "This attack move grows more\\npowerful the more the POKéMON\\ndislikes its TRAINER.",
+          "after": "This attack move grows more\\npowerful the more the Yo-kai\\ndislikes its TRAINER."
+        },
+        {
+          "path": [
+            "items",
+            314,
+            "description_english"
+          ],
+          "before": "Causes an earthquake that strikes\\nall POKéMON in battle, excluding\\nthe user.",
+          "after": "Causes an earthquake that strikes\\nall Yo-kai in battle, excluding\\nthe user."
+        },
+        {
+          "path": [
+            "items",
+            315,
+            "description_english"
+          ],
+          "before": "This attack move grows more\\npowerful the more the POKéMON\\nlikes its TRAINER.",
+          "after": "This attack move grows more\\npowerful the more the Yo-kai\\nlikes its TRAINER."
+        },
+        {
+          "path": [
+            "items",
+            349,
+            "description_english"
+          ],
+          "before": "A parcel to be delivered to PROF.\\nOAK from VIRIDIAN CITY's POKéMON\\nMART.",
+          "after": "A parcel to be delivered to PROF.\\nOAK from VIRIDIAN CITY's Yo-kai\\nMART."
+        },
+        {
+          "path": [
+            "items",
+            350,
+            "description_english"
+          ],
+          "before": "A flute that is said to instantly\\nawaken any POKéMON. It has a\\nlovely tone.",
+          "after": "A flute that is said to instantly\\nawaken any Yo-kai. It has a\\nlovely tone."
+        },
+        {
+          "path": [
+            "items",
+            359,
+            "description_english"
+          ],
+          "before": "A scope that makes unseeable\\nPOKéMON visible.\\nIt is made by SILPH CO.",
+          "after": "A scope that makes unseeable\\nYo-kai visible.\\nIt is made by SILPH CO."
+        }
+      ]
+    },
+    {
+      "file": "src/data/region_map/region_map_sections.json",
+      "fields_allowed": [
+        "display_name"
+      ],
+      "edits": [
+        {
+          "path": [
+            "map_sections",
+            135,
+            "name"
+          ],
+          "before": "POKéMON MANSION",
+          "after": "Yo-kai MANSION"
+        },
+        {
+          "path": [
+            "map_sections",
+            137,
+            "name"
+          ],
+          "before": "POKéMON LEAGUE",
+          "after": "Ligue Yo-kai"
+        },
+        {
+          "path": [
+            "map_sections",
+            140,
+            "name"
+          ],
+          "before": "POKéMON TOWER",
+          "after": "Yo-kai TOWER"
+        }
+      ],
+      "technical_names_and_ids_unchanged": true
+    }
+  ],
+  "template_change": "Optional display_name affects only emitted string literal, leaving original symbol derivation and constants unchanged"
+}
