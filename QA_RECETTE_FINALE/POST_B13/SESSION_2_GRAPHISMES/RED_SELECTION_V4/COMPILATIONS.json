@@ -1,0 +1,15 @@
+{
+  "public_build_passed": true,
+  "private_build_passed": true,
+  "conversion_reproduces_all_active_map_pngs": true,
+  "roms": {
+    "pokefirered.gba": {
+      "bytes": 16777216,
+      "sha256": "724bb9d3e9fb4cf96525cb603c329363383de76e3195eea74c7f6df38f820d8b"
+    },
+    "pokefirered_audio.gba": {
+      "bytes": 31272243,
+      "sha256": "6c86dc6c2e8b46b81d661834cc8606da817f3f066b93bec0480ec6b03411d41a"
+    }
+  }
+}

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Five original staff interactions: shared OW models, distinct native battle art."""
-import hashlib,json,re
+import hashlib,json,re,os
 from PIL import Image,ImageDraw
 from mgba_rpc import ROOT
 from mgba_new_game import new_game
-P=ROOT/'QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/RED_STRICT_V3/carte-combat';P.mkdir(parents=True,exist_ok=True)
+P=ROOT/os.environ.get('YOKAI_IDENTITIES_REPORT_DIR','QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/RED_STRICT_V3/carte-combat');P.mkdir(parents=True,exist_ok=True)
 spec=json.loads((ROOT/'data/yokai/cameos_boss.json').read_text());actors={x['name']:x for x in spec['actors']};gfx={x['person']:x for x in spec['graphics']}
 groups=json.loads((ROOT/'data/maps/map_groups.json').read_text());maps={n:(i,j) for i,k in enumerate(groups['group_order']) for j,n in enumerate(groups[k])};flags={k:int(v,0) for k,v in re.findall(r'^#define\s+(FLAG_\w+)\s+(0x[0-9A-Fa-f]+|\d+)\b',(ROOT/'include/constants/flags.h').read_text(),re.M)}
 r=new_game();rows=[];passed=False;error='Interrupted'

@@ -16,5 +16,14 @@
     "nathan",
     "katie"
   ],
-  "battle_art_all_unchanged": true
+  "battle_art_all_unchanged": true,
+  "latest_selection": "Restore pre-v3 Enma and Domniscian; pre-v3 Mafiamille3 shared by all three agents.",
+  "approved_overrides": {
+    "enma": "approved_overrides/enma.png",
+    "domniscian": "approved_overrides/domniscian.png",
+    "mafiamille_1": "approved_overrides/mafiamille.png",
+    "mafiamille_2": "approved_overrides/mafiamille.png",
+    "mafiamille_3": "approved_overrides/mafiamille.png"
+  },
+  "override_source_commit": "daff2e5b824c4e76dc89270820a0574ffc15f3ae"
 }

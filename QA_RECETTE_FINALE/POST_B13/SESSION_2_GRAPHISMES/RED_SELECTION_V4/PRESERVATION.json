@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "baseline_commit": "e0d3147a0ec6221ffed5a7a656c870833049671e",
+  "restored_from": "daff2e5b824c4e76dc89270820a0574ffc15f3ae",
+  "restored_bitmaps": [
+    "enma",
+    "domniscian",
+    "mafiamille_1",
+    "mafiamille_2",
+    "mafiamille_3"
+  ],
+  "map_palette_black_index": 1,
+  "map_palette_banks": [
+    "nathan",
+    "matt",
+    "ariane",
+    "enma",
+    "nathaniel",
+    "michael",
+    "wyatt",
+    "domniscian",
+    "don_morleone"
+  ],
+  "rom_bytes": 31272243,
+  "rom_sha256": "6c86dc6c2e8b46b81d661834cc8606da817f3f066b93bec0480ec6b03411d41a",
+  "changed_bytes": 2017,
+  "changes_confined_to_five_bitmaps_and_nine_map_palette_outline_entries": true,
+  "other_graphics_and_palettes_unchanged": 5674,
+  "battle_art_and_battle_palettes_unchanged": true,
+  "audio_OST_count_unchanged": 26,
+  "gameplay_and_animation_commands_unchanged": true,
+  "modified_ROM_arrays": [
+    "gObjectEventPic_YokaiEnma",
+    "gObjectEventPic_YokaiDomniscian",
+    "gObjectEventPic_YokaiMafiamille1",
+    "gObjectEventPic_YokaiMafiamille2",
+    "gObjectEventPic_YokaiMafiamille3",
+    "gObjectEventPal_Player",
+    "gObjectEventPal_Matt",
+    "gObjectEventPal_Ariane",
+    "gObjectEventPal_YokaiEnma",
+    "gObjectEventPal_YokaiNathaniel",
+    "gObjectEventPal_YokaiMichael",
+    "gObjectEventPal_YokaiWyatt",
+    "gObjectEventPal_YokaiDomniscianGroup",
+    "gObjectEventPal_YokaiDonMorleoneGroup"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "6c86dc6c2e8b46b81d661834cc8606da817f3f066b93bec0480ec6b03411d41a",
+  "scope": "Real new-game; postgame/party/warp fixtures; five original NPC interactions and native trainer entries. Battle portraits captured, fights not completed. Source/ROM preservation checked separately.",
+  "results": [
+    {
+      "actor": "Mafiamille1",
+      "original_map": "FiveIsland_RocketWarehouse",
+      "actual_map_NPC_interaction": true,
+      "trainer_id": 18,
+      "trainer_front_pic_id": 157,
+      "normal_map_gfx": 165,
+      "battle_slot": 20,
+      "native_battle_entry_captured": true,
+      "battle_won_or_replayed": false,
+      "passed": true
+    },
+    {
+      "actor": "Mafiamille2",
+      "original_map": "FiveIsland_RocketWarehouse",
+      "actual_map_NPC_interaction": true,
+      "trainer_id": 19,
+      "trainer_front_pic_id": 158,
+      "normal_map_gfx": 166,
+      "battle_slot": 20,
+      "native_battle_entry_captured": true,
+      "battle_won_or_replayed": false,
+      "passed": true
+    },
+    {
+      "actor": "Mafiamille3",
+      "original_map": "FiveIsland_RocketWarehouse",
+      "actual_map_NPC_interaction": true,
+      "trainer_id": 20,
+      "trainer_front_pic_id": 159,
+      "normal_map_gfx": 167,
+      "battle_slot": 20,
+      "native_battle_entry_captured": true,
+      "battle_won_or_replayed": false,
+      "passed": true
+    },
+    {
+      "actor": "EmployeRouge",
+      "original_map": "SilphCo_11F",
+      "actual_map_NPC_interaction": true,
+      "trainer_id": 15,
+      "trainer_front_pic_id": 154,
+      "normal_map_gfx": 162,
+      "battle_slot": 20,
+      "native_battle_entry_captured": true,
+      "battle_won_or_replayed": false,
+      "passed": true
+    },
+    {
+      "actor": "EmployeBleu",
+      "original_map": "SilphCo_11F",
+      "actual_map_NPC_interaction": true,
+      "trainer_id": 16,
+      "trainer_front_pic_id": 155,
+      "normal_map_gfx": 163,
+      "battle_slot": 20,
+      "native_battle_entry_captured": true,
+      "battle_won_or_replayed": false,
+      "passed": true
+    }
+  ]
+}

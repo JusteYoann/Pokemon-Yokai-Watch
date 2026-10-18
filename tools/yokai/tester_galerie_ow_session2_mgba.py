@@ -4,7 +4,7 @@ import argparse,hashlib,json,re,struct
 from PIL import Image,ImageDraw
 from mgba_rpc import ROOT
 from mgba_new_game import new_game
-parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--stage',required=True);args=parser.parse_args()
+parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--stage',required=True);parser.add_argument('--black-contours',action='store_true');args=parser.parse_args()
 P=ROOT/'QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/overworld'/args.stage;P.mkdir(parents=True,exist_ok=True)
 C={k:int(v,0) for k,v in re.findall(r'^#define\s+(\w+)\s+(0x[0-9a-fA-F]+|\d+)\b',
    '\n'.join((ROOT/f'include/constants/{n}.h').read_text() for n in ['event_objects','event_object_movement']),re.M)}
@@ -36,6 +36,9 @@ try:
             sprite=r.symbols['gSprites']+68*r.read(obj+4,1)[0]
             assert r.read(sprite+62,1)[0]&1,(name,'Sprite inactive')
             assert not r.read(sprite+62,1)[0]&4,(name,'Sprite invisible')
+            if args.black_contours and name in {p[0] for p in people[:15]}:
+                bank=r.read(sprite+5,1)[0]>>4
+                assert r.read(r.symbols['gPlttBufferUnfaded']+512+bank*32+2,2)==b'\x00\x00',(name,'Contour index1 is not black')
             frames.append(r.frame.copy());r.frame.save(P/f'{name}-{label}.png')
             poses.append(dict(direction=label,position=list(struct.unpack('<hh',r.read(sprite+32,4))),
                               anim_num=r.read(sprite+42,1)[0],oam_attribute1=int.from_bytes(r.read(sprite+2,2),'little')))

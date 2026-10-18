@@ -27,7 +27,7 @@ try:
    objects=[r.symbols['gObjectEvents']+36*i for i in range(16) if r.read(r.symbols['gObjectEvents']+36*i,1)[0]&1 and r.read(r.symbols['gObjectEvents']+36*i+5,1)[0] in expected]
    assert len(objects)==(len(expected) if post else 0),(name,post,len(objects))
    if not post:r.frame.save(P/f'{pal}-avant-ligue.png');continue
-   source=(ROOT/f'graphics/yokai_characters/{pal}/normal.gbapal').read_bytes();assert r.read(r.symbols['gPlttBufferUnfaded']+512+10*32,32)==source
+   source=(ROOT/f'graphics/yokai_characters/{pal}/overworld.gbapal').read_bytes();assert r.read(r.symbols['gPlttBufferUnfaded']+512+10*32,32)==source
    contact=Image.new('RGB',(960,160));poses=[]
    for i,d in enumerate([1,2,3,4]):
     for obj in objects:r.call('ObjectEventTurn',obj,d)

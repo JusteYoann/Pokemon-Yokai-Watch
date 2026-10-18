@@ -1,0 +1,1000 @@
+{
+  "artwork": "Individually generated edits of original Red pose guide",
+  "no_palette_changes": true,
+  "assets": [
+    {
+      "actor": "nathaniel",
+      "source": "graphics/yokai_characters/overworld_red_v3/source/nathaniel.png",
+      "source_sha256": "a8adcc5280056dce888a8ba6e4fafed1c9f70012b4a747893a9498c560fcfa6f",
+      "frame_width": 16,
+      "frame_height": 32,
+      "frames": 3,
+      "palette_sha256": "29c3fc2ac4b5c5db02ab0ea5eac409fd70c8de6dd0d6a918fc9c4e23a1bdf534",
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            130,
+            244,
+            412,
+            639
+          ],
+          "red_target_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "alpha_iou_with_red": 0.9136363636363637,
+          "row_width_mean_difference_from_red": 0.59375
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            781,
+            244,
+            1059,
+            639
+          ],
+          "red_target_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "alpha_iou_with_red": 0.8787878787878788,
+          "row_width_mean_difference_from_red": 0.875
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            1401,
+            244,
+            1685,
+            656
+          ],
+          "red_target_bbox": [
+            0,
+            12,
+            14,
+            31
+          ],
+          "visible_bbox": [
+            0,
+            12,
+            14,
+            31
+          ],
+          "alpha_iou_with_red": 0.8564102564102564,
+          "row_width_mean_difference_from_red": 0.75
+        }
+      ]
+    },
+    {
+      "actor": "wyatt",
+      "source": "graphics/yokai_characters/overworld_red_v3/source/wyatt.png",
+      "source_sha256": "eee9aead024179a3607ea0ff987d19462a9d96470d14458a7b3fbf55ae25cb04",
+      "frame_width": 16,
+      "frame_height": 32,
+      "frames": 3,
+      "palette_sha256": "146559cafb6fabbeeb19666a4763549c80bfb10f3b7f8a5ff5019c6dd71500c8",
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            169,
+            211,
+            457,
+            615
+          ],
+          "red_target_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "alpha_iou_with_red": 0.8472222222222222,
+          "row_width_mean_difference_from_red": 0.78125
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            807,
+            213,
+            1076,
+            615
+          ],
+          "red_target_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "alpha_iou_with_red": 0.8552036199095022,
+          "row_width_mean_difference_from_red": 0.875
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            1403,
+            211,
+            1685,
+            615
+          ],
+          "red_target_bbox": [
+            0,
+            12,
+            14,
+            31
+          ],
+          "visible_bbox": [
+            0,
+            12,
+            14,
+            31
+          ],
+          "alpha_iou_with_red": 0.7835051546391752,
+          "row_width_mean_difference_from_red": 1.1875
+        }
+      ]
+    },
+    {
+      "actor": "don_morleone",
+      "source": "graphics/yokai_characters/overworld_red_v3/source/don_morleone.png",
+      "source_sha256": "26a088e4d7d0e2cd6a8abc1ff3e9f521c58c4c72e6e6e2b4fc986201ecaa3778",
+      "frame_width": 16,
+      "frame_height": 32,
+      "frames": 3,
+      "palette_sha256": "358969ad0588f118dd6093191adf517d019cce78ad978181926144211b3fa6a6",
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            127,
+            214,
+            487,
+            699
+          ],
+          "red_target_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "alpha_iou_with_red": 0.8990825688073395,
+          "row_width_mean_difference_from_red": 0.6875
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            749,
+            213,
+            1115,
+            700
+          ],
+          "red_target_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "alpha_iou_with_red": 0.8807339449541285,
+          "row_width_mean_difference_from_red": 0.8125
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            1360,
+            213,
+            1755,
+            700
+          ],
+          "red_target_bbox": [
+            0,
+            12,
+            14,
+            31
+          ],
+          "visible_bbox": [
+            0,
+            12,
+            14,
+            31
+          ],
+          "alpha_iou_with_red": 0.8020833333333334,
+          "row_width_mean_difference_from_red": 1.125
+        }
+      ]
+    },
+    {
+      "actor": "michael",
+      "source": "graphics/yokai_characters/overworld_red_v3/source/michael.png",
+      "source_sha256": "2456bf26d992b997546dbe5b32b9d97e6a81d92193dc42fea66f062e87f0528f",
+      "frame_width": 16,
+      "frame_height": 32,
+      "frames": 3,
+      "palette_sha256": "6b627519c6873a763c9a1bb9afd1fe5605df07194d6dd61697c2e898efb2b6f4",
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            152,
+            195,
+            439,
+            632
+          ],
+          "red_target_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "alpha_iou_with_red": 0.8513513513513513,
+          "row_width_mean_difference_from_red": 1.03125
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            786,
+            195,
+            1075,
+            632
+          ],
+          "red_target_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "alpha_iou_with_red": 0.8597285067873304,
+          "row_width_mean_difference_from_red": 0.96875
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            1408,
+            195,
+            1708,
+            632
+          ],
+          "red_target_bbox": [
+            0,
+            12,
+            14,
+            31
+          ],
+          "visible_bbox": [
+            0,
+            12,
+            14,
+            31
+          ],
+          "alpha_iou_with_red": 0.7794871794871795,
+          "row_width_mean_difference_from_red": 1.28125
+        }
+      ]
+    },
+    {
+      "actor": "enma",
+      "source": "graphics/yokai_characters/overworld_red_v3/source/enma.png",
+      "source_sha256": "33868256ab6ea4844fd52187462c7d5644704378681a583df4b8aceb2b813806",
+      "frame_width": 16,
+      "frame_height": 32,
+      "frames": 3,
+      "palette_sha256": "e70c3c7f9a9bc2ef9aaea983c106fae970a332ba3a76d311db30ae5680dbb173",
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            127,
+            223,
+            440,
+            653
+          ],
+          "red_target_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "alpha_iou_with_red": 0.8744186046511628,
+          "row_width_mean_difference_from_red": 0.84375
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            762,
+            223,
+            1075,
+            653
+          ],
+          "red_target_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "alpha_iou_with_red": 0.8790697674418605,
+          "row_width_mean_difference_from_red": 0.8125
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            1380,
+            223,
+            1686,
+            654
+          ],
+          "red_target_bbox": [
+            0,
+            12,
+            14,
+            31
+          ],
+          "visible_bbox": [
+            0,
+            12,
+            14,
+            31
+          ],
+          "alpha_iou_with_red": 0.8291457286432161,
+          "row_width_mean_difference_from_red": 0.75
+        }
+      ]
+    },
+    {
+      "actor": "domniscian",
+      "source": "graphics/yokai_characters/overworld_red_v3/source/domniscian.png",
+      "source_sha256": "011993d215f3c24ca7ce81da794dd8d169f98b80614bb539ec4fc59aea7e0c8f",
+      "frame_width": 32,
+      "frame_height": 32,
+      "frames": 3,
+      "palette_sha256": "0372011ff0997c17265edaf8a7eb0c1dbc29f73f11653504889b7318c17f7984",
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            189,
+            273,
+            495,
+            651
+          ],
+          "red_target_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "visible_bbox": [
+            9,
+            12,
+            23,
+            31
+          ],
+          "alpha_iou_with_red": 0.85,
+          "row_width_mean_difference_from_red": 0.90625
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            784,
+            273,
+            1076,
+            651
+          ],
+          "red_target_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "visible_bbox": [
+            9,
+            12,
+            23,
+            31
+          ],
+          "alpha_iou_with_red": 0.8311111111111111,
+          "row_width_mean_difference_from_red": 0.875
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            1367,
+            261,
+            1674,
+            651
+          ],
+          "red_target_bbox": [
+            0,
+            12,
+            14,
+            31
+          ],
+          "visible_bbox": [
+            8,
+            12,
+            22,
+            31
+          ],
+          "alpha_iou_with_red": 0.7536231884057971,
+          "row_width_mean_difference_from_red": 1.03125
+        }
+      ]
+    },
+    {
+      "actor": "mafiamille_1",
+      "source": "graphics/yokai_characters/overworld_red_v3/source/mafiamille.png",
+      "source_sha256": "a87558deabeb57f1b1bf3f5826e0d4c6009d35cf4988190334024bb72218d3d8",
+      "frame_width": 16,
+      "frame_height": 32,
+      "frames": 3,
+      "palette_sha256": "358969ad0588f118dd6093191adf517d019cce78ad978181926144211b3fa6a6",
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            136,
+            214,
+            447,
+            617
+          ],
+          "red_target_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "alpha_iou_with_red": 0.8666666666666667,
+          "row_width_mean_difference_from_red": 0.875
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            775,
+            214,
+            1087,
+            617
+          ],
+          "red_target_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "alpha_iou_with_red": 0.8349056603773585,
+          "row_width_mean_difference_from_red": 1.09375
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            1414,
+            214,
+            1708,
+            617
+          ],
+          "red_target_bbox": [
+            0,
+            12,
+            14,
+            31
+          ],
+          "visible_bbox": [
+            0,
+            12,
+            14,
+            31
+          ],
+          "alpha_iou_with_red": 0.8080808080808081,
+          "row_width_mean_difference_from_red": 1.0
+        }
+      ]
+    },
+    {
+      "actor": "mafiamille_2",
+      "exact_indexed_clone_of": "mafiamille_1",
+      "battle_portrait_unchanged": true
+    },
+    {
+      "actor": "mafiamille_3",
+      "exact_indexed_clone_of": "mafiamille_1",
+      "battle_portrait_unchanged": true
+    },
+    {
+      "actor": "employe_rouge",
+      "source": "graphics/yokai_characters/overworld_red_v3/source/employe.png",
+      "source_sha256": "c0167b22e085f83c1138ad278f0fd08a68f9facee5c4111903737544616c9bea",
+      "frame_width": 16,
+      "frame_height": 32,
+      "frames": 3,
+      "palette_sha256": "0372011ff0997c17265edaf8a7eb0c1dbc29f73f11653504889b7318c17f7984",
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            143,
+            178,
+            456,
+            655
+          ],
+          "red_target_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "alpha_iou_with_red": 0.8119266055045872,
+          "row_width_mean_difference_from_red": 1.28125
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            786,
+            177,
+            1107,
+            662
+          ],
+          "red_target_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "alpha_iou_with_red": 0.8136363636363636,
+          "row_width_mean_difference_from_red": 1.28125
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            1410,
+            177,
+            1709,
+            667
+          ],
+          "red_target_bbox": [
+            0,
+            12,
+            14,
+            31
+          ],
+          "visible_bbox": [
+            0,
+            12,
+            14,
+            31
+          ],
+          "alpha_iou_with_red": 0.77,
+          "row_width_mean_difference_from_red": 1.25
+        }
+      ]
+    },
+    {
+      "actor": "employe_bleu",
+      "exact_geometry_of": "employe_rouge",
+      "shared_head_and_body": true,
+      "suit_index_variant": {
+        "4": 10,
+        "5": 10,
+        "6": 2
+      },
+      "battle_portrait_unchanged": true
+    },
+    {
+      "actor": "matt",
+      "source": "graphics/yokai_characters/overworld_red_v3/source/matt.png",
+      "source_sha256": "5757208a6032f2a5e4baaa4a5188f3f206f0d661dc786eb01c848390334f39db",
+      "frame_width": 16,
+      "frame_height": 32,
+      "frames": 9,
+      "palette_sha256": "1129168633e9b747336957f729883152024c3a6ef2a1a762a9b431246fa37a3a",
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            117,
+            138,
+            299,
+            365
+          ],
+          "red_target_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "alpha_iou_with_red": 0.817351598173516,
+          "row_width_mean_difference_from_red": 1.0
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            545,
+            138,
+            709,
+            365
+          ],
+          "red_target_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "alpha_iou_with_red": 0.8552036199095022,
+          "row_width_mean_difference_from_red": 0.875
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            975,
+            138,
+            1144,
+            365
+          ],
+          "red_target_bbox": [
+            0,
+            12,
+            14,
+            31
+          ],
+          "visible_bbox": [
+            0,
+            12,
+            14,
+            31
+          ],
+          "alpha_iou_with_red": 0.7989690721649485,
+          "row_width_mean_difference_from_red": 1.09375
+        },
+        {
+          "frame": 3,
+          "source_bbox": [
+            118,
+            536,
+            299,
+            776
+          ],
+          "red_target_bbox": [
+            0,
+            13,
+            15,
+            32
+          ],
+          "visible_bbox": [
+            0,
+            13,
+            15,
+            32
+          ],
+          "alpha_iou_with_red": 0.8666666666666667,
+          "row_width_mean_difference_from_red": 0.8125
+        },
+        {
+          "frame": 4,
+          "source_bbox": [
+            540,
+            535,
+            723,
+            771
+          ],
+          "red_target_bbox": [
+            1,
+            13,
+            16,
+            32
+          ],
+          "visible_bbox": [
+            1,
+            13,
+            16,
+            32
+          ],
+          "alpha_iou_with_red": 0.8341013824884793,
+          "row_width_mean_difference_from_red": 0.75
+        },
+        {
+          "frame": 5,
+          "source_bbox": [
+            968,
+            536,
+            1138,
+            773
+          ],
+          "red_target_bbox": [
+            1,
+            13,
+            15,
+            32
+          ],
+          "visible_bbox": [
+            1,
+            13,
+            15,
+            32
+          ],
+          "alpha_iou_with_red": 0.8537735849056604,
+          "row_width_mean_difference_from_red": 0.84375
+        },
+        {
+          "frame": 6,
+          "source_bbox": [
+            125,
+            929,
+            294,
+            1163
+          ],
+          "red_target_bbox": [
+            1,
+            13,
+            15,
+            32
+          ],
+          "visible_bbox": [
+            1,
+            13,
+            15,
+            32
+          ],
+          "alpha_iou_with_red": 0.8657407407407407,
+          "row_width_mean_difference_from_red": 0.71875
+        },
+        {
+          "frame": 7,
+          "source_bbox": [
+            542,
+            928,
+            724,
+            1154
+          ],
+          "red_target_bbox": [
+            0,
+            13,
+            14,
+            31
+          ],
+          "visible_bbox": [
+            0,
+            13,
+            14,
+            31
+          ],
+          "alpha_iou_with_red": 0.7538461538461538,
+          "row_width_mean_difference_from_red": 1.3125
+        },
+        {
+          "frame": 8,
+          "source_bbox": [
+            966,
+            928,
+            1144,
+            1154
+          ],
+          "red_target_bbox": [
+            0,
+            13,
+            14,
+            31
+          ],
+          "visible_bbox": [
+            0,
+            13,
+            14,
+            31
+          ],
+          "alpha_iou_with_red": 0.8052631578947368,
+          "row_width_mean_difference_from_red": 1.15625
+        }
+      ]
+    },
+    {
+      "actor": "ariane",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-a.png",
+      "source_sha256": "d3dabafafd20fe89314e52d7434c0ee8560e65593cee1cba062758563e381e17",
+      "frame_width": 16,
+      "frame_height": 32,
+      "frames": 3,
+      "palette_sha256": "97828ce2e2bb201ae66359139147570fa5d6653a818baa996101eb2527eec3f6",
+      "poses": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            98,
+            122,
+            257,
+            352
+          ],
+          "red_target_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "alpha_iou_with_red": 0.8387096774193549,
+          "row_width_mean_difference_from_red": 0.84375
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            465,
+            122,
+            622,
+            352
+          ],
+          "red_target_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "visible_bbox": [
+            1,
+            12,
+            15,
+            31
+          ],
+          "alpha_iou_with_red": 0.8394495412844036,
+          "row_width_mean_difference_from_red": 0.96875
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            836,
+            122,
+            985,
+            352
+          ],
+          "red_target_bbox": [
+            0,
+            12,
+            14,
+            31
+          ],
+          "visible_bbox": [
+            0,
+            12,
+            14,
+            31
+          ],
+          "alpha_iou_with_red": 0.7623762376237624,
+          "row_width_mean_difference_from_red": 1.125
+        }
+      ]
+    },
+    {
+      "actor": "enma",
+      "final_approved_override": "graphics/yokai_characters/overworld_red_v3/approved_overrides/enma.png",
+      "source_sha256": "a7523a291749c3779d02e2fb2e8757ce0ee44d20f5646e54234f66d30d1b550e",
+      "restored_byte_for_byte": true,
+      "source_commit": "daff2e5b824c4e76dc89270820a0574ffc15f3ae"
+    },
+    {
+      "actor": "domniscian",
+      "final_approved_override": "graphics/yokai_characters/overworld_red_v3/approved_overrides/domniscian.png",
+      "source_sha256": "a3b865db98b6e0f3c79e7449e2372ae066489457899f6a726715dc724b412427",
+      "restored_byte_for_byte": true,
+      "source_commit": "daff2e5b824c4e76dc89270820a0574ffc15f3ae"
+    },
+    {
+      "actor": "mafiamille_1",
+      "final_approved_override": "graphics/yokai_characters/overworld_red_v3/approved_overrides/mafiamille.png",
+      "source_sha256": "f60f25c72311a5bd86f06d188b1a523819e0c2a3d0134e72e91ca3f93147ebd6",
+      "restored_byte_for_byte": true,
+      "source_commit": "daff2e5b824c4e76dc89270820a0574ffc15f3ae"
+    },
+    {
+      "actor": "mafiamille_2",
+      "final_approved_override": "graphics/yokai_characters/overworld_red_v3/approved_overrides/mafiamille.png",
+      "source_sha256": "f60f25c72311a5bd86f06d188b1a523819e0c2a3d0134e72e91ca3f93147ebd6",
+      "restored_byte_for_byte": true,
+      "source_commit": "daff2e5b824c4e76dc89270820a0574ffc15f3ae"
+    },
+    {
+      "actor": "mafiamille_3",
+      "final_approved_override": "graphics/yokai_characters/overworld_red_v3/approved_overrides/mafiamille.png",
+      "source_sha256": "f60f25c72311a5bd86f06d188b1a523819e0c2a3d0134e72e91ca3f93147ebd6",
+      "restored_byte_for_byte": true,
+      "source_commit": "daff2e5b824c4e76dc89270820a0574ffc15f3ae"
+    }
+  ]
+}

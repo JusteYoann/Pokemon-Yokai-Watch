@@ -10,7 +10,7 @@ import hashlib,json
 from pathlib import Path
 import numpy as np
 from PIL import Image,ImageDraw
-R=Path(__file__).resolve().parents[2];D=R/'graphics/yokai_characters';S=D/'overworld_red_v3/source';Q=R/'QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/RED_STRICT_V3';Q.mkdir(parents=True,exist_ok=True)
+R=Path(__file__).resolve().parents[2];D=R/'graphics/yokai_characters';S=D/'overworld_red_v3/source';Q=R/'QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/RED_SELECTION_V4';Q.mkdir(parents=True,exist_ok=True)
 def runs(bits,gap=6):
  out=[];start=last=None
  for i,v in enumerate(bits):
@@ -82,6 +82,14 @@ if (S/'matt.png').exists():convert('matt',S/'matt.png',16,9)
 # anchoring are normalized from20px to Red19px. Katie already uses19px and is
 # deliberately preserved across all59 player frames, like approved Nathan.
 convert('ariane',D/'overworld_frlg_v2/source/group-a.png',source_count=12,selection=[0,1,2])
+# Final explicit artistic selection: restore these native PNGs byte for byte.
+# Kept in the source tree, so reconversion never needs Git history/network.
+manifest=json.loads((S.parent/'manifest.json').read_text())
+for actor,relative in manifest.get('approved_overrides',{}).items():
+ source=S.parent/relative;target=D/actor/'overworld.png';target.write_bytes(source.read_bytes())
+ views=[v for v in views if v[0]!=actor];im=Image.open(target);width=32 if actor=='domniscian' else 16
+ for i in range(3):views.append((actor,i,im.crop((i*width,0,(i+1)*width,32))))
+ report.append(dict(actor=actor,final_approved_override=str(source.relative_to(R)),source_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),restored_byte_for_byte=True,source_commit=manifest['override_source_commit']))
 sheet=Image.new('RGB',(768,((len(views)+7)//8)*148),(224,224,224));draw=ImageDraw.Draw(sheet)
 for k,(actor,i,im) in enumerate(views):
  x=k%8*96;y=k//8*148;draw.text((x+2,y+2),actor[:14],fill='black');draw.text((x+2,y+14),str(i),fill='black');p=im.convert('RGBA').resize((im.width*3,96),Image.Resampling.NEAREST);sheet.paste(p,(x+(96-p.width)//2,y+36),p)
