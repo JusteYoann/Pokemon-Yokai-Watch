@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "source_commit": "1281cf536e4bb23f0c0a6b3c8c1c0e57a1623815",
+  "github_branch": "dev/reconstruction-finalisation",
+  "clone_command": "git clone --depth 1 --single-branch --branch dev/reconstruction-finalisation https://github.com/JusteYoann/Pokemon-Yokai-Watch.git <empty-directory>",
+  "tracked_tree_pristine_after_build": true,
+  "game_objects_or_generated_graphics_copied": false,
+  "toolchain_cache_reused": true,
+  "agbcc_source_commit": "da598c1d918402c42c0c0d7128ba14567f3175e9",
+  "toolchain_binary_hashes": {
+    "bin/agbcc": "e5151b5333f881efde851e679cd9b3ba95c4d5df252b242e58f808658a757b13",
+    "bin/agbcc_arm": "5137b09584e88281c5c0fd17ef1cbb74d8371d27ad05748d633f09c79bf2e9d1",
+    "bin/old_agbcc": "b8215ca4053440acf197a63bb29cd0a4f5e8723d28128f3b03c882f7ad17e5b2",
+    "lib/libc.a": "0d9db0dff926e9654cfd8e61abe998f32ed1eee65adb6e7abadc83eae2fb2b01",
+    "lib/libgcc.a": "2d1bcc5b3ef3126daf1ebec81ca5b080029cc535503b9b5be04337799233fecf"
+  },
+  "binutils": "GNU assembler (2.44-3+23+b1) 2.44",
+  "builds": [
+    "bash build_tools.sh",
+    "make -j4",
+    "generer_audio_prive.py with locked private WAVs into a new private directory",
+    "make -j4 YOKAI_AUDIO_DIR=<new-private-directory>"
+  ],
+  "private_source_decode": "18 separate fresh MP3 decodes match locked WAV SHA; audio/DECODAGE_REPRO.json",
+  "results": [
+    {
+      "target": "pokefirered.gba",
+      "bytes": 16777216,
+      "local_sha256": "95b52121c36003738827fbf7ba56362fc02bd515f499a293bf610eb92ab78844",
+      "clean_clone_sha256": "95b52121c36003738827fbf7ba56362fc02bd515f499a293bf610eb92ab78844",
+      "byte_identical": true
+    },
+    {
+      "target": "pokefirered_audio.gba",
+      "bytes": 27064355,
+      "local_sha256": "ceee3955c48aaa6b0f49b26dba10cfac855f5b773da2254fd1ed23be72cadd1c",
+      "clean_clone_sha256": "ceee3955c48aaa6b0f49b26dba10cfac855f5b773da2254fd1ed23be72cadd1c",
+      "byte_identical": true
+    }
+  ],
+  "limits": [
+    "Fresh GitHub checkout on same cloud host, not a new OS/VM or Windows PC",
+    "Pinned cached compiler/runtime reused, no cached game objects, generated graphics or private DPCM copied into clone",
+    "Private source recordings are external; public fallback ROM differs musically",
+    "Not a whole-adventure or perceptual acceptance test"
+  ]
+}

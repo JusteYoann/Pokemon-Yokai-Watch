@@ -4,14 +4,14 @@ Le cahier des charges complet est archivé dans `sources/`. Priorités : ambianc
 
 - `BASELINE.json` : 24 400 776 octets, SHA B13, 13 OST actives sur 15, marge 9 153 656 octets avant 32 Mio.
 - `audio/niveaux-baseline-b13.json` : 375 mesures natives mGBA, fenêtres finies analysées par EBU R128 après rejet du continu à 20 Hz. Ce sont des mesures, pas une écoute humaine ni des valeurs intégrales de chaque composition. Enregistrements conservés hors Git.
-- `audio/cartographie_cartes.csv` : inventaire des 425 cartes ; 128 corrections de continuité vers le thème déjà utilisé par leur ville, centres de soins et labos compris. Route 1 rattachée à Palette, Route 11 à Carmin. Arènes/dojos et donjons scénaristiques explicitement séparés. Tests de portes et connexions à produire.
-- `audio/propositions_ambiance.csv` : nouvelles attributions artistiques proposées **avant validation**, non activées. Les 15 choix imposés sont conservés ; aucune nouvelle composition ajoutée pour l’instant.
+- `audio/cartographie_cartes.csv` : inventaire des425 cartes avec affectation actuelle ;128 corrections initiales de continuité, puis attributions approuvées appliquées. Route1 rattachée à Palette, Route11 à Carmin. Tests natifs de six passages réussis, voir bilan ci-dessous.
+- `audio/propositions_ambiance.csv` : nouvelles attributions proposées avant arbitrage, puis **validées explicitement par le joueur**. Cinq nouveaux échantillons actifs, deux nouveaux choix encore en repli ; quinze choix imposés conservés.
 - `sprites/baseline-b13/` : 151 scènes de combat réelles mGBA (chaque espèce sur les deux côtés), dix planches sur damier avec face/dos/icône. Fixtures de combat, sans parcours de capture. Les icônes sont montrées depuis les fichiers sources ; ce n’est pas encore une vérification des 151 dans le menu.
 - `sprites/registre_151.csv` : suivi de chaque espèce. Les dix planches ont été examinées par l’assistant avec vision ; aucune approbation artistique humaine n’est revendiquée. Les sources normales/shiny n’ont pas encore été modifiées.
 
 La calibration du mixeur est issue des mesures, sans modifier les DPCM ni les fichiers musicaux : cible indicative −29 LUFS pour les fenêtres de BGM, −28 pour l’interface répétée, −25 pour les autres effets ; renforcement des pistes privées plafonné à ×3 et composantes du volume bornées pour éviter un débordement. Le volume demandé des cris est ramené à 60 %. Les fondus, la réduction pour cris/aide et les pauses de fanfare restent relatifs au niveau calibré. `data/yokai/mixer_calibration.json` documente chaque coefficient ; valeurs définitives à confirmer par mesures et transitions en jeu après compilation.
 
-Restent notamment : vérifier le résultat sonore, appliquer les corrections individuelles de sprites et comparer en jeu, obtenir la validation des nouvelles attributions musicales, finir les deux boucles, inventaire SFX dédiés, traduction complète, habitats, examen Pierre/Passpa/Nanpart, puis les finitions titre/intro. Aucun bilan final de ces points n’est annoncé à ce stade.
+Le bilan actualisé et les réserves figurent ci-dessous. Les rapports successifs conservent les SHA de chaque ROM testée ; ne pas confondre la baseline et le dernier jalon.
 
 ## Jalon présentation et mesures après correction
 
@@ -50,3 +50,13 @@ Preuves supplémentaires :
 ### Reprise et réserves
 
 P0 restant : quatre boucles, écoute humaine sur parcours, finition des gabarits/icônes encore imposants et audit des autres overworld, validation artistique shiny. P1 restant : traduction résiduelle (dont CANCEL et menu à un seul membre), descriptions,151 propositions d’habitats avec incertitudes à valider, examen Pierre/Passpa/Nanpart. P2 : titre/intro/aide. Pas de nouvelle quête reportée ni modification des villes/Kanto, statistiques, évolutions, rencontres ou équipes. Aucun parcours intégral, profilage matériel ou validation exhaustive des animations n’est revendiqué. **Recette finale NON TERMINÉE.**
+
+### Reconstruction effectivement vérifiée depuis GitHub
+
+`REPRODUCTIBILITE_CLONE_GITHUB.json` porte sur le commit de jeu `1281cf536e4bb23f0c0a6b3c8c1c0e57a1623815` récupéré par un **clone neuf depuis GitHub**. Aucun objet du jeu, dérivé graphique ou ancien DPCM n’a été copié dans ce clone. Seule la chaîne agbcc/bibliothèques épinglée est réutilisée, avec ses empreintes consignées ; dépendances déjà installées sur le même hôte cloud, pas un nouveau PC Windows.
+
+- ROM publique sans fichiers musicaux protégés :16 777 216 octets, SHA `95b52121c36003738827fbf7ba56362fc02bd515f499a293bf610eb92ab78844`, **identique octet pour octet** à celle du checkout de référence.
+- Profil privé reconstruit dans un nouveau dossier externe puis compilation :27 064 355 octets, SHA `ceee3955c48aaa6b0f49b26dba10cfac855f5b773da2254fd1ed23be72cadd1c`, **identique octet pour octet** à la référence18 OST.
+- `audio/DECODAGE_REPRO.json` :18 MP3 revérifiés par SHA puis redécodés séparément ; les18 WAV retrouvent les empreintes verrouillées utilisées par le générateur. Les médias eux-mêmes restent privés.
+
+Outils rejouables : `verifier_sources_audio_post_b13.py --help` puis `verifier_reproductibilite_post_b13.py --help`. Les commits de preuve/documentation ultérieurs n’altèrent pas ces ROM. Le script de livraison Windows B13 reste épinglé à sa vraie B13 ; ce jalon post-B13 n’est pas encore conditionné comme une nouvelle bêta utilisateur.

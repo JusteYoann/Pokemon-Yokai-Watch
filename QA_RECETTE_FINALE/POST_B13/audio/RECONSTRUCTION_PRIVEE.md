@@ -21,3 +21,13 @@ Le premier outil prépare les références complètes pour l’analyse (aucune i
 Résultat local : `pokefirered_audio.gba`, jouable dans mGBA, sans publication du fichier. Les contrôles `verifier_liaison_audio.py`, `verifier_attributions_post_b13.py` et `verifier_rom.py` vérifient les échantillons liés, les425 cartes et les données/graphismes. Utiliser leurs variables de rapport `YOKAI_AUDIO_LINK_REPORT` et `YOKAI_VERIFY_REPORT` pour conserver les anciens jalons.
 
 18 pistes actives,22 sélectionnées : Enma5, Nate7, Blossom12 et Final25 restent en repli natif en attente de boucles de sections complètes fiables. Les cinq nouvelles pistes sont27–31. Les treize anciens DPCM restent identiques octet pour octet. Les gains sont reproduits avec `generer_calibration_mixeur.py` à partir des mesures JSON, sans traitement arbitraire des enregistrements.
+
+Contrôle rapide des sources sans reconstruire la ROM :
+
+```sh
+python3 tools/yokai/verifier_sources_audio_post_b13.py \
+  --extracted-manifest /chemin/prive/manifest-private.json \
+  --private-output /chemin/prive/redecodage --jobs 2
+```
+
+Cet outil vérifie le SHA des MP3, redécode les18 pistes actives, puis exige les SHA WAV verrouillés. Il échoue en cas d’écart ; ne pas changer les empreintes pour contourner l’échec.
