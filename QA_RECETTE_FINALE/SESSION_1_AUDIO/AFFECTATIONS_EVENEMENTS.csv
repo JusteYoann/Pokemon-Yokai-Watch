@@ -1,0 +1,18 @@
+contexte,slot,theme,statut,source
+Introduction et titre existants (aucune retouche visuelle),30,The Very Curious Yo-kai Watch,OST_ACTIVE,src/yokai_presentation.c
+Présentation de Chen,30,The Very Curious Yo-kai Watch,OST_ACTIVE,src/oak_speech.c
+Vélo,1,Bicycle Theme,OST_ACTIVE,src/overworld.c
+"Surf, via ancien appel MUS_SURF",21,San Fantastico,OST_ACTIVE,src/overworld.c + audio_session1_aliases.json
+Combats courants et Matt hors Champion,28,vs. Yo-kai ~2~,OST_ACTIVE,src/pokemon.c:GetBattleBGM
+Champions d’arène,29,vs. Boss Yo-kai,OST_ACTIVE,src/pokemon.c:GetBattleBGM
+Conseil4 et revanches,15,Decisive Battle,OST_ACTIVE,src/pokemon.c:GetBattleBGM
+Matt Champion,25,Final Battle – Are You Ready?,BOUCLE_NON_VALIDEE_REPLI_NATIF,src/pokemon.c:GetBattleBGM
+Domniscian,2,Vs. Hinozall (English),OST_ACTIVE,src/pokemon.c:GetBattleBGM
+Don Morleone,3,vs. The Ghoulfather,OST_ACTIVE,src/pokemon.c:GetBattleBGM
+Seigneur Enma : combat,6,Vs. Zazelmare,OST_ACTIVE,src/pokemon.c:GetBattleBGM
+Seigneur Enma : dialogue,5,Enma Track,BOUCLE_NON_VALIDEE_REPLI_NATIF,data/maps/MtEmber_Summit/scripts.inc
+Ariane : dialogue,31,Usapyon and Hailey Annes Theme (Reused),OST_ACTIVE,data/maps/Route25/scripts.inc
+Ariane : combat,28,vs. Yo-kai ~2~,OST_ACTIVE,src/pokemon.c:GetBattleBGM
+Mafiamille et employés : combats,28,vs. Yo-kai ~2~,OST_ACTIVE,src/pokemon.c:GetBattleBGM
+"Évolution : accompagnement, via MUS_EVOLUTION",30,The Very Curious Yo-kai Watch,OST_ACTIVE,src/evolution_scene.c + audio_session1_aliases.json
+Après le Champion et crédits,26,"Take Care, Grandpa 1",OST_ACTIVE,data/maps/PokemonLeague_ChampionsRoom/scripts.inc + alias MUS_CREDITS

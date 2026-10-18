@@ -1,0 +1,68 @@
+{
+  "status": "AUDIO_AVANCE_NON_TERMINE",
+  "private_rom_filename": "session1-final.gba",
+  "private_rom_bytes": 27712771,
+  "private_rom_sha256": "5d6151756916f9e28ad0e1c8a0527d9174a52cdf7b6381680a77ebc10b9aefc2",
+  "remaining_bytes_to32MiB": 5841661,
+  "active_ost": 19,
+  "selected_ost": 22,
+  "pending_ost": [
+    5,
+    12,
+    25
+  ],
+  "maps_active_ost": 405,
+  "maps_native_pending_fallback": 18,
+  "maps_intentional_silence": 2,
+  "native_aliases_tested": 64,
+  "native_sfx_ids_unchanged": 255,
+  "fanfares_and_sfx_native_ids_checked": 273,
+  "native_loop_wraps_tested": 95,
+  "minimum_native_seam_reference_correlation": 0.9522732736912001,
+  "full_cycle_lufs_range": [
+    -29.2,
+    -28.9
+  ],
+  "full_cycle_clipped_samples": 0,
+  "actual_controller_door_crossings": 64,
+  "actual_controller_connections_or_lab_crossings": 6,
+  "fanfare_pause_resume_cases": 33,
+  "native_wild_battle_victory_and_exploration_return": true,
+  "permanent_exp_share_still_active": true,
+  "native_special_boss_routes": [
+    {
+      "trainer": "TRAINER_YOKAI_DOMNISCIAN",
+      "music": "MUS_YOKAI_HINOZALL",
+      "passed": true
+    },
+    {
+      "trainer": "TRAINER_YOKAI_DONMORLEONE",
+      "music": "MUS_YOKAI_GHOULFATHER",
+      "passed": true
+    },
+    {
+      "trainer": "TRAINER_YOKAI_ENMA",
+      "music": "MUS_YOKAI_ZAZELMARE",
+      "passed": true
+    },
+    {
+      "trainer": "TRAINER_ELITE_FOUR_LORELEI",
+      "music": "MUS_YOKAI_DECISIVE_BATTLE",
+      "passed": true
+    },
+    {
+      "trainer": "TRAINER_LEADER_BROCK",
+      "music": "MUS_YOKAI_BOSS_YOKAI",
+      "passed": true
+    }
+  ],
+  "human_listening": false,
+  "physical_GBA_profiling": false,
+  "whole_adventure_playthrough": false,
+  "new_Windows_B13_delivery": false,
+  "master_unchanged": true,
+  "master_verified_remote_commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+  "public_build_sha256": "33e8915108d17d6130cd23deba64b1ce5ac9495a638c4346ce8d4ea3cf5dd99f",
+  "public_build_bytes": 16777216,
+  "incremental_rebuild_matches_frozen_tested_private_rom": true
+}

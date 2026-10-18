@@ -1,0 +1,21 @@
+{
+  "stage": "session1-19ost-avant",
+  "rom_sha256": "5f3ef7e38d364306ecf2ddb527d1e05fecc48e3701f6ad2d979f42cf050a7d02",
+  "method": "Actual libretro mGBA mixer captured privately, EBU R128 via ffmpeg after 20 Hz DC rejection; 720 frames BGM, 180 frames repeating SFX/isolated cries. No subjective listening claim; finite-window measures, not entire compositions",
+  "recordings_public": false,
+  "results": [
+    {
+      "constant": "MUS_YOKAI_NATHAN_HOUSE",
+      "number": 353,
+      "emulated_frames": 720,
+      "mixer_hz": 65536,
+      "integrated_lufs": -37.3,
+      "loudness_range_lu": 2.3,
+      "true_peak_dbfs": -25.6,
+      "raw_clipped_samples": 0,
+      "pcm_samples_stereo_interleaved": 1582232,
+      "dc_offset_pcm16": -83.67,
+      "analysis_filter": "20 Hz highpass, EBU R128 true-peak; filter for measurement only"
+    }
+  ]
+}

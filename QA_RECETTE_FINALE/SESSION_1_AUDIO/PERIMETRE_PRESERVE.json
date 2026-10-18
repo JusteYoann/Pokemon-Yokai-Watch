@@ -1,0 +1,59 @@
+{
+  "reference_commit": "11ae692cb",
+  "map_files_changed": 187,
+  "map_changes_music_field_only": true,
+  "protected_files": [
+    {
+      "path": "src/battle_anim.c",
+      "sha256": "5883d9ee0483120ef67461952f5880499f322fb1c706cc213ca13c0c2b0e88c5",
+      "unchanged": true
+    },
+    {
+      "path": "src/pokemon.c",
+      "sha256": "f5ba5d33091ba62a84b8fc0cab318916be7027ad3500570d6ff05aeff11b1db1",
+      "unchanged": true
+    },
+    {
+      "path": "src/intro.c",
+      "sha256": "6e8f87df1008cee08572e4189841682ceb0c884c4d4a767a222a8aba525e8c13",
+      "unchanged": true
+    },
+    {
+      "path": "src/title_screen.c",
+      "sha256": "cfe2bf22aa0e899ed5d22248adbcc498da6e7e4954aa3e8e16b542be129fef4a",
+      "unchanged": true
+    },
+    {
+      "path": "src/yokai_presentation.c",
+      "sha256": "e270f5d870536b3f1f678de3ec7990d6c0ede167d893029c040304ed86e6ff15",
+      "unchanged": true
+    },
+    {
+      "path": "sound/song_table.inc",
+      "sha256": "bfba53046e62023289a7882e4b4076e54963bc0c9ca4cf6bad9478954123c5d7",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/pokemon/evolution.h",
+      "sha256": "e37a0c61146ff91135419c55976381a471e5f5be8484a65490718fed91adb700",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/trainer_parties.h",
+      "sha256": "71ad860bdcbe1820e1abcccf52f15f6ca0ae723f8e7beb0165ac28b3fa02ecff",
+      "unchanged": true
+    },
+    {
+      "path": "src/sound.c",
+      "sha256": "e0818c1374582df530d999dd65ee693ffaa06fa26d83966795da349a221645a9",
+      "unchanged": true
+    },
+    {
+      "path": "src/m4a.c",
+      "sha256": "e666181b927c4e3926dfc4fdf983bd1d17d11baa8335499cd00e95cb3095b9fb",
+      "unchanged": true
+    }
+  ],
+  "scope": "Changes since pre-session checkpoint only; not artistic acceptance of pre-existing resources.",
+  "no_original_sound_bank_modified": true
+}

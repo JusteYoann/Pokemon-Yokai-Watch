@@ -11,7 +11,7 @@ from mgba_rpc import ROOT,BATCH
 from mgba_new_game import new_game
 from pilote_combat_mgba import battle_keys
 from auditer_niveaux_audio_post_b13 import measure
-P=ROOT/'QA_RECETTE_FINALE/POST_B13/audio/transition-sauvage';P.mkdir(parents=True,exist_ok=True)
+P=Path(os.environ.get('YOKAI_TRANSITION_REPORT',str(ROOT/'QA_RECETTE_FINALE/POST_B13/audio/transition-sauvage')));P.mkdir(parents=True,exist_ok=True)
 private=Path(os.environ['YOKAI_TRANSITION_PRIVATE']).resolve();assert not private.is_relative_to(ROOT);private.mkdir(parents=True,exist_ok=True)
 C={}
 for file in ['pokemon','moves']:

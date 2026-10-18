@@ -1,0 +1,874 @@
+{
+  "active": false,
+  "tracks": [
+    {
+      "number": 5,
+      "reason": "Aucune reprise longue stable établie ; les ressemblances courtes de13,33s ne suffisent pas.",
+      "source_available": true,
+      "action": "Repli natif conservé ; pas de boucle courte arbitraire ni de changement du choix musical validé."
+    },
+    {
+      "number": 12,
+      "reason": "Seul le début de43,2s se ressemble puis la corrélation s’effondre ;86,4s non confirmé. Ne pas couper au simple motif.",
+      "source_available": true,
+      "action": "Repli natif conservé ; pas de boucle courte arbitraire ni de changement du choix musical validé."
+    },
+    {
+      "number": 25,
+      "reason": "Reprise candidate153,6s près de30s ; correspondance trop locale et décroissante pour certifier le cycle complet.",
+      "source_available": true,
+      "action": "Repli natif conservé ; pas de boucle courte arbitraire ni de changement du choix musical validé."
+    }
+  ],
+  "recurrence_measurements": [
+    {
+      "track": 12,
+      "guess": 43.2,
+      "windows": [
+        {
+          "second": 0,
+          "period_samples": 577973,
+          "correlation": 0.5973600309083591
+        },
+        {
+          "second": 2,
+          "period_samples": 577973,
+          "correlation": 0.7502697714415919
+        },
+        {
+          "second": 4,
+          "period_samples": 577973,
+          "correlation": 0.7613230677591943
+        },
+        {
+          "second": 6,
+          "period_samples": 577973,
+          "correlation": 0.1621555081799629
+        },
+        {
+          "second": 8,
+          "period_samples": 577404,
+          "correlation": 0.04566943815646169
+        },
+        {
+          "second": 10,
+          "period_samples": 577524,
+          "correlation": 0.03670691466575548
+        },
+        {
+          "second": 12,
+          "period_samples": 578514,
+          "correlation": 0.03700051285649635
+        },
+        {
+          "second": 14,
+          "period_samples": 578535,
+          "correlation": 0.06098236733407769
+        },
+        {
+          "second": 16,
+          "period_samples": 577628,
+          "correlation": 0.05130002254676388
+        },
+        {
+          "second": 18,
+          "period_samples": 578567,
+          "correlation": 0.0877706257211603
+        },
+        {
+          "second": 20,
+          "period_samples": 578567,
+          "correlation": 0.07459946127393194
+        },
+        {
+          "second": 22,
+          "period_samples": 578437,
+          "correlation": 0.033433072474762654
+        },
+        {
+          "second": 24,
+          "period_samples": 578608,
+          "correlation": 0.04978521308222188
+        },
+        {
+          "second": 26,
+          "period_samples": 578606,
+          "correlation": 0.01732165594477246
+        },
+        {
+          "second": 28,
+          "period_samples": 577337,
+          "correlation": 0.04013217157454872
+        },
+        {
+          "second": 30,
+          "period_samples": 578256,
+          "correlation": 0.047756391736772937
+        },
+        {
+          "second": 32,
+          "period_samples": 578561,
+          "correlation": 0.08130999837105968
+        },
+        {
+          "second": 34,
+          "period_samples": 578561,
+          "correlation": 0.06269069878169965
+        },
+        {
+          "second": 36,
+          "period_samples": 578559,
+          "correlation": 0.0401658068845706
+        },
+        {
+          "second": 38,
+          "period_samples": 577449,
+          "correlation": 0.026685231034723936
+        },
+        {
+          "second": 40,
+          "period_samples": 577962,
+          "correlation": 0.09632950914641265
+        },
+        {
+          "second": 42,
+          "period_samples": 577964,
+          "correlation": 0.08379970746674141
+        },
+        {
+          "second": 44,
+          "period_samples": 577989,
+          "correlation": 0.04967737263116669
+        },
+        {
+          "second": 46,
+          "period_samples": 578310,
+          "correlation": 0.04573972354335137
+        },
+        {
+          "second": 48,
+          "period_samples": 578059,
+          "correlation": 0.1257465331684717
+        },
+        {
+          "second": 50,
+          "period_samples": 578522,
+          "correlation": 0.024429960410502157
+        },
+        {
+          "second": 52,
+          "period_samples": 577972,
+          "correlation": 0.04974823114587975
+        },
+        {
+          "second": 54,
+          "period_samples": 577930,
+          "correlation": 0.04160259682292433
+        },
+        {
+          "second": 56,
+          "period_samples": 578070,
+          "correlation": 0.06893202553358353
+        },
+        {
+          "second": 58,
+          "period_samples": 577812,
+          "correlation": 0.06317327870342872
+        }
+      ]
+    },
+    {
+      "track": 12,
+      "guess": 86.4,
+      "windows": [
+        {
+          "second": 0,
+          "period_samples": 1155962,
+          "correlation": 0.06990608729679625
+        },
+        {
+          "second": 2,
+          "period_samples": 1155599,
+          "correlation": 0.07053785483501353
+        },
+        {
+          "second": 4,
+          "period_samples": 1156397,
+          "correlation": 0.14367630504023443
+        },
+        {
+          "second": 6,
+          "period_samples": 1156032,
+          "correlation": 0.1336393273332673
+        },
+        {
+          "second": 8,
+          "period_samples": 1156032,
+          "correlation": 0.05533243038846562
+        },
+        {
+          "second": 10,
+          "period_samples": 1155774,
+          "correlation": 0.1011133332502752
+        },
+        {
+          "second": 12,
+          "period_samples": 1156015,
+          "correlation": 0.055044195650502586
+        },
+        {
+          "second": 14,
+          "period_samples": 1155762,
+          "correlation": 0.15659308284031612
+        },
+        {
+          "second": 16,
+          "period_samples": 1156197,
+          "correlation": 0.05915484472272905
+        },
+        {
+          "second": 18,
+          "period_samples": 1155946,
+          "correlation": 0.10570410451481539
+        },
+        {
+          "second": 20,
+          "period_samples": 1155946,
+          "correlation": 0.14260353948179247
+        },
+        {
+          "second": 22,
+          "period_samples": 1156508,
+          "correlation": 0.0689033740652691
+        },
+        {
+          "second": 24,
+          "period_samples": 1155930,
+          "correlation": 0.03273439610230502
+        },
+        {
+          "second": 26,
+          "period_samples": 1155946,
+          "correlation": 0.09455610955668117
+        },
+        {
+          "second": 28,
+          "period_samples": 1155801,
+          "correlation": 0.08884785263521716
+        },
+        {
+          "second": 30,
+          "period_samples": 1155553,
+          "correlation": 0.07401259230479106
+        },
+        {
+          "second": 32,
+          "period_samples": 1155460,
+          "correlation": 0.0819962451949006
+        },
+        {
+          "second": 34,
+          "period_samples": 1156164,
+          "correlation": 0.07273539016613371
+        },
+        {
+          "second": 36,
+          "period_samples": 1156548,
+          "correlation": 0.026714374291259033
+        },
+        {
+          "second": 38,
+          "period_samples": 1155997,
+          "correlation": 0.02429973857563833
+        },
+        {
+          "second": 40,
+          "period_samples": 1155608,
+          "correlation": 0.02564768170513974
+        }
+      ]
+    },
+    {
+      "track": 5,
+      "guess": 53.3333,
+      "windows": [
+        {
+          "second": 0,
+          "period_samples": 713897,
+          "correlation": 0.059289734194387864
+        },
+        {
+          "second": 2,
+          "period_samples": 713434,
+          "correlation": 0.03332160639707174
+        },
+        {
+          "second": 4,
+          "period_samples": 713022,
+          "correlation": 0.03343686167930608
+        },
+        {
+          "second": 6,
+          "period_samples": 713547,
+          "correlation": 0.2610490584643263
+        },
+        {
+          "second": 8,
+          "period_samples": 712924,
+          "correlation": 0.1085674358786099
+        },
+        {
+          "second": 10,
+          "period_samples": 713045,
+          "correlation": 0.18555646901035883
+        },
+        {
+          "second": 12,
+          "period_samples": 712974,
+          "correlation": 0.07134186384655852
+        },
+        {
+          "second": 14,
+          "period_samples": 713885,
+          "correlation": 0.10396053596538624
+        },
+        {
+          "second": 16,
+          "period_samples": 712974,
+          "correlation": 0.049465000306028885
+        },
+        {
+          "second": 18,
+          "period_samples": 713926,
+          "correlation": 0.05461165251566448
+        },
+        {
+          "second": 20,
+          "period_samples": 713602,
+          "correlation": 0.23564491549502117
+        },
+        {
+          "second": 22,
+          "period_samples": 713431,
+          "correlation": 0.2985447479764956
+        },
+        {
+          "second": 24,
+          "period_samples": 713432,
+          "correlation": 0.2707147599375953
+        },
+        {
+          "second": 26,
+          "period_samples": 713444,
+          "correlation": 0.10129829147364465
+        },
+        {
+          "second": 28,
+          "period_samples": 713546,
+          "correlation": 0.21148248614239631
+        },
+        {
+          "second": 30,
+          "period_samples": 713541,
+          "correlation": 0.11636640060589136
+        },
+        {
+          "second": 32,
+          "period_samples": 713554,
+          "correlation": 0.11153076939805005
+        },
+        {
+          "second": 34,
+          "period_samples": 713079,
+          "correlation": 0.04374335052342393
+        },
+        {
+          "second": 36,
+          "period_samples": 713327,
+          "correlation": 0.06430387178668828
+        },
+        {
+          "second": 38,
+          "period_samples": 713588,
+          "correlation": 0.05132744491557887
+        },
+        {
+          "second": 40,
+          "period_samples": 713939,
+          "correlation": 0.07451881910073713
+        },
+        {
+          "second": 42,
+          "period_samples": 713479,
+          "correlation": 0.07015713979157222
+        },
+        {
+          "second": 44,
+          "period_samples": 713936,
+          "correlation": 0.06538498686646671
+        },
+        {
+          "second": 46,
+          "period_samples": 714122,
+          "correlation": 0.1810039233086198
+        },
+        {
+          "second": 48,
+          "period_samples": 713695,
+          "correlation": 0.2250465742436625
+        },
+        {
+          "second": 50,
+          "period_samples": 713685,
+          "correlation": 0.0581850368346712
+        },
+        {
+          "second": 52,
+          "period_samples": 713842,
+          "correlation": 0.1300398133203427
+        },
+        {
+          "second": 54,
+          "period_samples": 713555,
+          "correlation": 0.4180422209869588
+        },
+        {
+          "second": 56,
+          "period_samples": 713131,
+          "correlation": 0.15190996594117032
+        },
+        {
+          "second": 58,
+          "period_samples": 713960,
+          "correlation": 0.0740863715150034
+        }
+      ]
+    },
+    {
+      "track": 5,
+      "guess": 66.6667,
+      "windows": [
+        {
+          "second": 0,
+          "period_samples": 892274,
+          "correlation": 0.07603563680324436
+        },
+        {
+          "second": 2,
+          "period_samples": 892389,
+          "correlation": 0.05271407655289555
+        },
+        {
+          "second": 4,
+          "period_samples": 891364,
+          "correlation": 0.038264648386838906
+        },
+        {
+          "second": 6,
+          "period_samples": 892592,
+          "correlation": 0.23377122926658464
+        },
+        {
+          "second": 8,
+          "period_samples": 892590,
+          "correlation": 0.29777932820993974
+        },
+        {
+          "second": 10,
+          "period_samples": 892130,
+          "correlation": 0.3331547135009217
+        },
+        {
+          "second": 12,
+          "period_samples": 891357,
+          "correlation": 0.1252801265225516
+        },
+        {
+          "second": 14,
+          "period_samples": 892273,
+          "correlation": 0.1297123255573685
+        },
+        {
+          "second": 16,
+          "period_samples": 892384,
+          "correlation": 0.14001430586396296
+        },
+        {
+          "second": 18,
+          "period_samples": 891816,
+          "correlation": 0.05928933939542482
+        },
+        {
+          "second": 20,
+          "period_samples": 891654,
+          "correlation": 0.05528692809167321
+        },
+        {
+          "second": 22,
+          "period_samples": 892414,
+          "correlation": 0.060750865323888265
+        },
+        {
+          "second": 24,
+          "period_samples": 891844,
+          "correlation": 0.07974289711153681
+        },
+        {
+          "second": 26,
+          "period_samples": 892427,
+          "correlation": 0.060570829553231814
+        },
+        {
+          "second": 28,
+          "period_samples": 891954,
+          "correlation": 0.06902493576665868
+        },
+        {
+          "second": 30,
+          "period_samples": 891612,
+          "correlation": 0.08553189714322663
+        },
+        {
+          "second": 32,
+          "period_samples": 892422,
+          "correlation": 0.10183149843597855
+        },
+        {
+          "second": 34,
+          "period_samples": 891473,
+          "correlation": 0.04345544187905793
+        },
+        {
+          "second": 36,
+          "period_samples": 891722,
+          "correlation": 0.06356661030375305
+        },
+        {
+          "second": 38,
+          "period_samples": 891983,
+          "correlation": 0.05153850684226246
+        },
+        {
+          "second": 40,
+          "period_samples": 892334,
+          "correlation": 0.07395110135122028
+        },
+        {
+          "second": 42,
+          "period_samples": 891874,
+          "correlation": 0.06993923256277884
+        },
+        {
+          "second": 44,
+          "period_samples": 892330,
+          "correlation": 0.06546156143404536
+        },
+        {
+          "second": 46,
+          "period_samples": 892517,
+          "correlation": 0.16939197572188222
+        }
+      ]
+    },
+    {
+      "track": 5,
+      "guess": 80,
+      "windows": [
+        {
+          "second": 0,
+          "period_samples": 1069974,
+          "correlation": 0.10845420019511358
+        },
+        {
+          "second": 2,
+          "period_samples": 1070428,
+          "correlation": 0.11001421897552337
+        },
+        {
+          "second": 4,
+          "period_samples": 1070314,
+          "correlation": 0.10974313771748345
+        },
+        {
+          "second": 6,
+          "period_samples": 1069866,
+          "correlation": 0.07506768953042917
+        },
+        {
+          "second": 8,
+          "period_samples": 1070627,
+          "correlation": 0.060677372454053996
+        },
+        {
+          "second": 10,
+          "period_samples": 1070921,
+          "correlation": 0.0812014688976808
+        },
+        {
+          "second": 12,
+          "period_samples": 1070269,
+          "correlation": 0.07375467850278443
+        },
+        {
+          "second": 14,
+          "period_samples": 1070840,
+          "correlation": 0.08863944084840167
+        },
+        {
+          "second": 16,
+          "period_samples": 1070927,
+          "correlation": 0.08039253916627635
+        },
+        {
+          "second": 18,
+          "period_samples": 1070953,
+          "correlation": 0.09321521452847648
+        },
+        {
+          "second": 20,
+          "period_samples": 1069820,
+          "correlation": 0.05783698337923952
+        },
+        {
+          "second": 22,
+          "period_samples": 1070809,
+          "correlation": 0.06369071346775619
+        },
+        {
+          "second": 24,
+          "period_samples": 1070583,
+          "correlation": 0.0809507764329936
+        },
+        {
+          "second": 26,
+          "period_samples": 1070821,
+          "correlation": 0.06339710475223796
+        },
+        {
+          "second": 28,
+          "period_samples": 1070348,
+          "correlation": 0.07051680397168986
+        },
+        {
+          "second": 30,
+          "period_samples": 1070616,
+          "correlation": 0.08679301287699072
+        },
+        {
+          "second": 32,
+          "period_samples": 1070817,
+          "correlation": 0.10579625599476435
+        },
+        {
+          "second": 34,
+          "period_samples": 1070213,
+          "correlation": 0.04244852759279339
+        }
+      ]
+    },
+    {
+      "track": 5,
+      "guess": 93.3333,
+      "windows": [
+        {
+          "second": 0,
+          "period_samples": 1248768,
+          "correlation": 0.05555954707511869
+        },
+        {
+          "second": 2,
+          "period_samples": 1249143,
+          "correlation": 0.07686878843690725
+        },
+        {
+          "second": 4,
+          "period_samples": 1248702,
+          "correlation": 0.1425565561569354
+        },
+        {
+          "second": 6,
+          "period_samples": 1248261,
+          "correlation": 0.07172479857930104
+        },
+        {
+          "second": 8,
+          "period_samples": 1249021,
+          "correlation": 0.06163358359731324
+        },
+        {
+          "second": 10,
+          "period_samples": 1249316,
+          "correlation": 0.08230363093326878
+        },
+        {
+          "second": 12,
+          "period_samples": 1248664,
+          "correlation": 0.07601606201051421
+        },
+        {
+          "second": 14,
+          "period_samples": 1249234,
+          "correlation": 0.08846327696802397
+        },
+        {
+          "second": 16,
+          "period_samples": 1249321,
+          "correlation": 0.07840843493602251
+        },
+        {
+          "second": 18,
+          "period_samples": 1249347,
+          "correlation": 0.09654340293864166
+        },
+        {
+          "second": 20,
+          "period_samples": 1248214,
+          "correlation": 0.0557036177884547
+        }
+      ]
+    },
+    {
+      "track": 5,
+      "guess": 106.6667,
+      "windows": [
+        {
+          "second": 0,
+          "period_samples": 1427163,
+          "correlation": 0.05673845897379735
+        },
+        {
+          "second": 2,
+          "period_samples": 1427537,
+          "correlation": 0.07727703847701442
+        },
+        {
+          "second": 4,
+          "period_samples": 1427097,
+          "correlation": 0.14191342451463063
+        },
+        {
+          "second": 6,
+          "period_samples": 1426656,
+          "correlation": 0.06906070909391979
+        }
+      ]
+    },
+    {
+      "track": 25,
+      "guess": 153.6,
+      "windows": [
+        {
+          "second": 0,
+          "period_samples": 2054473,
+          "correlation": 0.050284660082286596
+        },
+        {
+          "second": 2,
+          "period_samples": 2055373,
+          "correlation": 0.056935695557055854
+        },
+        {
+          "second": 4,
+          "period_samples": 2054955,
+          "correlation": 0.05238487112586821
+        },
+        {
+          "second": 6,
+          "period_samples": 2054371,
+          "correlation": 0.029879166660600795
+        },
+        {
+          "second": 8,
+          "period_samples": 2055349,
+          "correlation": 0.02117207734434791
+        },
+        {
+          "second": 10,
+          "period_samples": 2054415,
+          "correlation": 0.02890465264251165
+        },
+        {
+          "second": 12,
+          "period_samples": 2055476,
+          "correlation": 0.04355548504938621
+        },
+        {
+          "second": 14,
+          "period_samples": 2055492,
+          "correlation": 0.03282234260451328
+        },
+        {
+          "second": 16,
+          "period_samples": 2054660,
+          "correlation": 0.046572939434880764
+        },
+        {
+          "second": 18,
+          "period_samples": 2055470,
+          "correlation": 0.035687726371487025
+        },
+        {
+          "second": 20,
+          "period_samples": 2055250,
+          "correlation": 0.04205752243474102
+        },
+        {
+          "second": 22,
+          "period_samples": 2055390,
+          "correlation": 0.02579856794258869
+        },
+        {
+          "second": 24,
+          "period_samples": 2054436,
+          "correlation": 0.03149143921380571
+        },
+        {
+          "second": 26,
+          "period_samples": 2054744,
+          "correlation": 0.04150644936706817
+        },
+        {
+          "second": 28,
+          "period_samples": 2055014,
+          "correlation": 0.20097283855862547
+        },
+        {
+          "second": 30,
+          "period_samples": 2055014,
+          "correlation": 0.7333563295640023
+        },
+        {
+          "second": 32,
+          "period_samples": 2055014,
+          "correlation": 0.6507568318510654
+        },
+        {
+          "second": 34,
+          "period_samples": 2055014,
+          "correlation": 0.4322080564956378
+        },
+        {
+          "second": 36,
+          "period_samples": 2055014,
+          "correlation": 0.3607388953468855
+        },
+        {
+          "second": 38,
+          "period_samples": 2055017,
+          "correlation": 0.1732740254969368
+        },
+        {
+          "second": 40,
+          "period_samples": 2055108,
+          "correlation": 0.04242857992048199
+        },
+        {
+          "second": 42,
+          "period_samples": 2055298,
+          "correlation": 0.04789361705274869
+        }
+      ]
+    }
+  ],
+  "scope": "Measured PCM waveform recurrence, not human listening or proof that a manual musical edit is impossible."
+}

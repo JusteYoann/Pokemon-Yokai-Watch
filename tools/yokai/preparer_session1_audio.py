@@ -67,11 +67,12 @@ def csvfile(name, rows, fields):
 
 maprows=[]
 active = set(json.loads((ROOT/'data/yokai/audio_loops.json').read_text())['active_tracks'])
+titles={t['number']:t['title'] for t in json.loads((ROOT/'data/yokai/audio_candidates.json').read_text())['tracks']}
 for name,(_,d) in maps.items():
     m=d['music']; n=constants.get(m,65535)-346
     status='OST_PRIVEE_ACTIVE' if n in active else 'OST_EN_ATTENTE_REPLI_NATIF' if m.startswith('MUS_YOKAI') else 'SILENCE_INTENTIONNEL' if m=='MUS_NONE' else 'NATIF_CONSERVE'
-    maprows.append(dict(map=name,music=m,private_slot=n if m.startswith('MUS_YOKAI') else '',status=status))
-csvfile('AFFECTATIONS_425_CARTES.csv',maprows,['map','music','private_slot','status'])
+    maprows.append(dict(map=name,music=m,private_slot=n if m.startswith('MUS_YOKAI') else '',theme=titles.get(n,''),status=status))
+csvfile('AFFECTATIONS_425_CARTES.csv',maprows,['map','music','private_slot','theme','status'])
 references=[]
 for folder in ['src','data']:
     for p in sorted((ROOT/folder).rglob('*')):
@@ -88,8 +89,10 @@ names={v:k for k,v in constants.items() if k.startswith('MUS_')}
 for n in range(256,len(entries)):
     name=names.get(n,str(n)); target=aliases.get(name,name)
     status='ALIAS_OST' if name in aliases else 'OST_EXPLICITE' if n>=347 else 'FANFARE_NATIVE_CONSERVEE' if entries[n][1]!='0' else 'NATIF_CONSERVE'
-    songrows.append(dict(id=n,name=name,sequence=entries[n][0],player=entries[n][1],resolved=target,status=status))
-csvfile('AFFECTATIONS_MOTEUR_ET_JINGLES.csv',songrows,['id','name','sequence','player','resolved','status'])
+    slot=constants.get(target,0)-346 if target.startswith('MUS_YOKAI') else 0
+    songrows.append(dict(id=n,name=name,sequence=entries[n][0],player=entries[n][1],resolved=target,
+                         theme=titles.get(slot,''),private_sample_active=slot in active,status=status))
+csvfile('AFFECTATIONS_MOTEUR_ET_JINGLES.csv',songrows,['id','name','sequence','player','resolved','theme','private_sample_active','status'])
 previous=OUT/'MODIFICATIONS_CARTES.json'
 if changes:
     oldchanges=json.loads(previous.read_text())['changes'] if previous.exists() else []

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Native door/connection continuity with controller input, explicit warp fixtures."""
-import hashlib,json,struct
+import hashlib,json,struct,os
 from pathlib import Path
 from mgba_rpc import Emulator,ROOT
 from mgba_new_game import new_game
-P=ROOT/'QA_RECETTE_FINALE/POST_B13/audio';(P/'preuves').mkdir(parents=True,exist_ok=True)
+P=Path(os.environ.get('YOKAI_CONTINUITY_REPORT',str(ROOT/'QA_RECETTE_FINALE/POST_B13/audio')));(P/'preuves').mkdir(parents=True,exist_ok=True)
 groups=json.loads((ROOT/'data/maps/map_groups.json').read_text());MAPS={name:(i,j) for i,key in enumerate(groups['group_order']) for j,name in enumerate(groups[key])}
 
 def location(r):return tuple(r.read(r.u32(r.symbols['gSaveBlock1Ptr'])+4,2))

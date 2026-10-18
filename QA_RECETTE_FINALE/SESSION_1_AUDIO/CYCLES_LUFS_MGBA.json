@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "cd36cffe3655a9ecb1bcc9c174372c2ca9d16ca5eb317a394aeae965ace38f28",
+  "results": [
+    {
+      "number": 4,
+      "frames": 6823,
+      "duration_seconds": 114.252197265625,
+      "integrated_lufs": -25.2,
+      "lra_lu": 11.7,
+      "true_peak_dbfs": -7.5,
+      "raw_clipped_samples": 0,
+      "samples": 14975264
+    },
+    {
+      "number": 23,
+      "frames": 4389,
+      "duration_seconds": 73.50048828125,
+      "integrated_lufs": -29.2,
+      "lra_lu": 6.8,
+      "true_peak_dbfs": -14.5,
+      "raw_clipped_samples": 0,
+      "samples": 9633856
+    },
+    {
+      "number": 26,
+      "frames": 4331,
+      "duration_seconds": 72.52935791015625,
+      "integrated_lufs": -25.9,
+      "lra_lu": 14.5,
+      "true_peak_dbfs": -9.2,
+      "raw_clipped_samples": 0,
+      "samples": 9506568
+    }
+  ],
+  "scope": "Actual native mixer, complete intro plus one source cycle, EBU R128 after20Hz DC rejection; no subjective listening, no simultaneous effects in this measurement."
+}

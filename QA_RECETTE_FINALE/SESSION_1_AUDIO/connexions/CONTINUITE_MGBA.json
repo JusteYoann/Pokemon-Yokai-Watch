@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "rom_sha256": "5d6151756916f9e28ad0e1c8a0527d9174a52cdf7b6381680a77ebc10b9aefc2",
+  "scope": "Real controller new game, then actual controller door/connection crossings after warp and progression fixtures, music header/monotonic sequencer clock/no pause; not whole-adventure travel, not a subjective listening pass",
+  "results": [
+    {
+      "test": "carmin-centre-entree",
+      "destination": "VermilionCity_PokemonCenter_1F",
+      "controller_frames": 102,
+      "same_header": true,
+      "sequence_clock_before": 590,
+      "sequence_clock_after": 692,
+      "clock_never_reset": true,
+      "paused_frames": 0,
+      "passed": true
+    },
+    {
+      "test": "carmin-centre-sortie",
+      "destination": "VermilionCity",
+      "controller_frames": 102,
+      "same_header": true,
+      "sequence_clock_before": 752,
+      "sequence_clock_after": 854,
+      "clock_never_reset": true,
+      "paused_frames": 0,
+      "passed": true
+    },
+    {
+      "test": "carmin-route11-connexion",
+      "destination": "Route11",
+      "controller_frames": 102,
+      "same_header": true,
+      "sequence_clock_before": 1517,
+      "sequence_clock_after": 1619,
+      "clock_never_reset": true,
+      "paused_frames": 0,
+      "passed": true
+    },
+    {
+      "test": "palette-labo-entree",
+      "destination": "PalletTown_ProfessorOaksLab",
+      "controller_frames": 102,
+      "same_header": true,
+      "sequence_clock_before": 590,
+      "sequence_clock_after": 692,
+      "clock_never_reset": true,
+      "paused_frames": 0,
+      "passed": true
+    },
+    {
+      "test": "palette-labo-sortie",
+      "destination": "PalletTown",
+      "controller_frames": 102,
+      "same_header": true,
+      "sequence_clock_before": 752,
+      "sequence_clock_after": 854,
+      "clock_never_reset": true,
+      "paused_frames": 0,
+      "passed": true
+    },
+    {
+      "test": "palette-route1-connexion",
+      "destination": "Route1",
+      "controller_frames": 102,
+      "same_header": true,
+      "sequence_clock_before": 1517,
+      "sequence_clock_after": 1619,
+      "clock_never_reset": true,
+      "paused_frames": 0,
+      "passed": true
+    }
+  ]
+}

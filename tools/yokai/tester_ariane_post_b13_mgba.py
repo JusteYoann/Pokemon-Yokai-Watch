@@ -8,7 +8,7 @@ C={}
 for name in ['pokemon','items','moves','opponents']:
  C.update({k:int(v) for k,v in re.findall(r'^#define\s+(\w+)\s+(\d+)\s*(?:$|//)',(ROOT/f'include/constants/{name}.h').read_text(),re.M)})
 glyphs={m[1]:int(m[2],16) for m in re.finditer(r"^'(.*?)'\s*= ([0-9A-F]{2})$",(ROOT/'charmap.txt').read_text(),re.M)}
-P=ROOT/'QA_RECETTE_FINALE/POST_B13/audio/ariane';P.mkdir(parents=True,exist_ok=True);proof=P/'preuves';proof.mkdir(exist_ok=True)
+P=Path(os.environ.get('YOKAI_ARIANE_REPORT',str(ROOT/'QA_RECETTE_FINALE/POST_B13/audio/ariane')));P.mkdir(parents=True,exist_ok=True);proof=P/'preuves';proof.mkdir(exist_ok=True)
 results=[]
 r=new_game()
 def flag(n):return r.call('FlagGet',n)

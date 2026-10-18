@@ -1,0 +1,7 @@
+{
+  "passed": false,
+  "error": "Rejected fixture: MAP_* destination IDs were compared to directory names; zero doors executed. Fixed using map ID/name lookup and >=40 required crossings.",
+  "rom_sha256": "5f3ef7e38d364306ecf2ddb527d1e05fecc48e3701f6ad2d979f42cf050a7d02",
+  "results": [],
+  "scope": "Actual controller doors after real new-game initialization and explicit position/progression fixtures. Header, monotonic sequencer clock, no pause. Not all homes/routes or a whole-adventure playthrough."
+}

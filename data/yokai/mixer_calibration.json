@@ -1,5 +1,5 @@
 {
-  "method": "Actual B13 mGBA finite-window EBU R128, 20 Hz DC rejection; BGM target -29, repeated UI -28, other SFX -25 LUFS; no native sample amplification, private gain capped 3x, output volume components clamped safely",
+  "method": "Full-cycle native EBU R128 for19 active private BGMs target -29 LUFS; native SFX/cries unchanged from prior measured attenuation. Runtime gain capped3x, safe channel-byte clamp; quiet intros retain their dynamics.",
   "tracks": [
     {
       "constant": "SE_USE_ITEM",
@@ -3466,40 +3466,52 @@
       "song_id": 347,
       "baseline_window_lufs": -30.6,
       "target_window_lufs": -29,
-      "gain_q8": 308,
-      "gain_db": 1.61,
+      "gain_q8": 245,
+      "gain_db": -0.38,
       "private_sample": true,
-      "limited": false
+      "limited": false,
+      "session1_before_full_cycle_lufs": -27.0,
+      "session1_full_cycle_previous_gain_q8": 308,
+      "session1_measurement": "CYCLES_19_OST_AVANT.json; target -29 LUFS over native full intro+cycle"
     },
     {
       "constant": "MUS_YOKAI_HINOZALL",
       "song_id": 348,
       "baseline_window_lufs": -27.9,
       "target_window_lufs": -29,
-      "gain_q8": 226,
-      "gain_db": -1.08,
+      "gain_q8": 199,
+      "gain_db": -2.19,
       "private_sample": true,
-      "limited": false
+      "limited": false,
+      "session1_before_full_cycle_lufs": -27.9,
+      "session1_full_cycle_previous_gain_q8": 226,
+      "session1_measurement": "CYCLES_19_OST_AVANT.json; target -29 LUFS over native full intro+cycle"
     },
     {
       "constant": "MUS_YOKAI_GHOULFATHER",
       "song_id": 349,
       "baseline_window_lufs": -28.7,
       "target_window_lufs": -29,
-      "gain_q8": 247,
-      "gain_db": -0.31,
+      "gain_q8": 250,
+      "gain_db": -0.21,
       "private_sample": true,
-      "limited": false
+      "limited": false,
+      "session1_before_full_cycle_lufs": -29.1,
+      "session1_full_cycle_previous_gain_q8": 247,
+      "session1_measurement": "CYCLES_19_OST_AVANT.json; target -29 LUFS over native full intro+cycle"
     },
     {
       "constant": "MUS_YOKAI_INFINITE_TUNNEL",
       "song_id": 350,
       "baseline_window_lufs": -41.1,
       "target_window_lufs": -29,
-      "gain_q8": 768,
-      "gain_db": 9.54,
+      "gain_q8": 496,
+      "gain_db": 5.74,
       "private_sample": true,
-      "limited": true
+      "limited": false,
+      "session1_before_full_cycle_lufs": -25.2,
+      "session1_full_cycle_previous_gain_q8": 768,
+      "session1_measurement": "CYCLES_19_OST_AVANT.json; target -29 LUFS over native full intro+cycle"
     },
     {
       "constant": "MUS_YOKAI_ENMA_DIALOGUE",
@@ -3516,23 +3528,28 @@
       "song_id": 352,
       "baseline_window_lufs": -31.5,
       "target_window_lufs": -29,
-      "gain_q8": 341,
-      "gain_db": 2.49,
+      "gain_q8": 311,
+      "gain_db": 1.69,
       "private_sample": true,
-      "limited": false
+      "limited": false,
+      "session1_before_full_cycle_lufs": -28.2,
+      "session1_full_cycle_previous_gain_q8": 341,
+      "session1_measurement": "CYCLES_19_OST_AVANT.json; target -29 LUFS over native full intro+cycle"
     },
     {
       "constant": "MUS_YOKAI_NATHAN_HOUSE",
       "song_id": 353,
       "baseline_window_lufs": -21.6,
       "target_window_lufs": -29,
-      "gain_q8": 283,
-      "gain_db": 0.87,
+      "gain_q8": 249,
+      "gain_db": -0.24,
       "private_sample": true,
       "limited": false,
       "session1_previous_gain_q8": 109,
       "session1_previous_window_lufs": -37.3,
-      "session1_measurement": "niveaux-session1-19ost-avant.json; multiplier derived, native remeasurement required"
+      "session1_measurement": "CYCLES_19_OST_AVANT.json; target -29 LUFS over native full intro+cycle",
+      "session1_before_full_cycle_lufs": -27.9,
+      "session1_full_cycle_previous_gain_q8": 283
     },
     {
       "constant": "MUS_YOKAI_KATIE_HOUSE",
@@ -3569,10 +3586,13 @@
       "song_id": 357,
       "baseline_window_lufs": -36.0,
       "target_window_lufs": -29,
-      "gain_q8": 573,
-      "gain_db": 7.0,
+      "gain_q8": 362,
+      "gain_db": 3.01,
       "private_sample": true,
-      "limited": false
+      "limited": false,
+      "session1_before_full_cycle_lufs": -25.0,
+      "session1_full_cycle_previous_gain_q8": 573,
+      "session1_measurement": "CYCLES_19_OST_AVANT.json; target -29 LUFS over native full intro+cycle"
     },
     {
       "constant": "MUS_YOKAI_BLOSSOM_HEIGHTS",
@@ -3609,10 +3629,13 @@
       "song_id": 361,
       "baseline_window_lufs": -32.1,
       "target_window_lufs": -29,
-      "gain_q8": 366,
-      "gain_db": 3.1,
+      "gain_q8": 287,
+      "gain_db": 0.99,
       "private_sample": true,
-      "limited": false
+      "limited": false,
+      "session1_before_full_cycle_lufs": -26.9,
+      "session1_full_cycle_previous_gain_q8": 366,
+      "session1_measurement": "CYCLES_19_OST_AVANT.json; target -29 LUFS over native full intro+cycle"
     },
     {
       "constant": "MUS_YOKAI_HARRISVILLE",
@@ -3629,10 +3652,13 @@
       "song_id": 363,
       "baseline_window_lufs": -37.6,
       "target_window_lufs": -29,
-      "gain_q8": 689,
-      "gain_db": 8.6,
+      "gain_q8": 460,
+      "gain_db": 5.09,
       "private_sample": true,
-      "limited": false
+      "limited": false,
+      "session1_before_full_cycle_lufs": -25.5,
+      "session1_full_cycle_previous_gain_q8": 689,
+      "session1_measurement": "CYCLES_19_OST_AVANT.json; target -29 LUFS over native full intro+cycle"
     },
     {
       "constant": "MUS_YOKAI_ROBON_ARRIVES",
@@ -3669,20 +3695,26 @@
       "song_id": 367,
       "baseline_window_lufs": -32.8,
       "target_window_lufs": -29,
-      "gain_q8": 396,
-      "gain_db": 3.79,
+      "gain_q8": 307,
+      "gain_db": 1.58,
       "private_sample": true,
-      "limited": false
+      "limited": false,
+      "session1_before_full_cycle_lufs": -26.8,
+      "session1_full_cycle_previous_gain_q8": 396,
+      "session1_measurement": "CYCLES_19_OST_AVANT.json; target -29 LUFS over native full intro+cycle"
     },
     {
       "constant": "MUS_YOKAI_UPTOWN",
       "song_id": 368,
       "baseline_window_lufs": -34.7,
       "target_window_lufs": -29,
-      "gain_q8": 493,
-      "gain_db": 5.69,
+      "gain_q8": 337,
+      "gain_db": 2.39,
       "private_sample": true,
-      "limited": false
+      "limited": false,
+      "session1_before_full_cycle_lufs": -25.7,
+      "session1_full_cycle_previous_gain_q8": 493,
+      "session1_measurement": "CYCLES_19_OST_AVANT.json; target -29 LUFS over native full intro+cycle"
     },
     {
       "constant": "MUS_YOKAI_MYSTIC_GROVE",
@@ -3692,17 +3724,23 @@
       "gain_q8": 768,
       "gain_db": 9.54,
       "private_sample": true,
-      "limited": true
+      "limited": true,
+      "session1_before_full_cycle_lufs": -29.2,
+      "session1_full_cycle_previous_gain_q8": 768,
+      "session1_measurement": "CYCLES_19_OST_AVANT.json; target -29 LUFS over native full intro+cycle"
     },
     {
       "constant": "MUS_YOKAI_HOPPERS_GORGE",
       "song_id": 370,
       "baseline_window_lufs": -35.9,
       "target_window_lufs": -29,
-      "gain_q8": 567,
-      "gain_db": 6.91,
+      "gain_q8": 401,
+      "gain_db": 3.9,
       "private_sample": true,
-      "limited": false
+      "limited": false,
+      "session1_before_full_cycle_lufs": -26.0,
+      "session1_full_cycle_previous_gain_q8": 567,
+      "session1_measurement": "CYCLES_19_OST_AVANT.json; target -29 LUFS over native full intro+cycle"
     },
     {
       "constant": "MUS_YOKAI_FINAL_BATTLE",
@@ -3719,60 +3757,78 @@
       "song_id": 372,
       "baseline_window_lufs": -44.5,
       "target_window_lufs": -29,
-      "gain_q8": 768,
-      "gain_db": 9.54,
+      "gain_q8": 537,
+      "gain_db": 6.43,
       "private_sample": true,
-      "limited": true
+      "limited": false,
+      "session1_before_full_cycle_lufs": -25.9,
+      "session1_full_cycle_previous_gain_q8": 768,
+      "session1_measurement": "CYCLES_19_OST_AVANT.json; target -29 LUFS over native full intro+cycle"
     },
     {
       "constant": "MUS_YOKAI_PATROL_MISSION",
       "song_id": 373,
       "baseline_window_lufs": -33.8,
       "target_window_lufs": -29,
-      "gain_q8": 445,
-      "gain_db": 4.8,
+      "gain_q8": 311,
+      "gain_db": 1.69,
       "private_sample": true,
-      "limited": false
+      "limited": false,
+      "session1_before_full_cycle_lufs": -25.9,
+      "session1_full_cycle_previous_gain_q8": 445,
+      "session1_measurement": "CYCLES_19_OST_AVANT.json; target -29 LUFS over native full intro+cycle"
     },
     {
       "constant": "MUS_YOKAI_VS_YOKAI",
       "song_id": 374,
       "baseline_window_lufs": -30.1,
       "target_window_lufs": -29,
-      "gain_q8": 291,
-      "gain_db": 1.11,
+      "gain_q8": 231,
+      "gain_db": -0.89,
       "private_sample": true,
-      "limited": false
+      "limited": false,
+      "session1_before_full_cycle_lufs": -27.0,
+      "session1_full_cycle_previous_gain_q8": 291,
+      "session1_measurement": "CYCLES_19_OST_AVANT.json; target -29 LUFS over native full intro+cycle"
     },
     {
       "constant": "MUS_YOKAI_BOSS_YOKAI",
       "song_id": 375,
       "baseline_window_lufs": -33.5,
       "target_window_lufs": -29,
-      "gain_q8": 430,
-      "gain_db": 4.5,
+      "gain_q8": 346,
+      "gain_db": 2.62,
       "private_sample": true,
-      "limited": false
+      "limited": false,
+      "session1_before_full_cycle_lufs": -27.1,
+      "session1_full_cycle_previous_gain_q8": 430,
+      "session1_measurement": "CYCLES_19_OST_AVANT.json; target -29 LUFS over native full intro+cycle"
     },
     {
       "constant": "MUS_YOKAI_CURIOUS",
       "song_id": 376,
       "baseline_window_lufs": -39.1,
       "target_window_lufs": -29,
-      "gain_q8": 768,
-      "gain_db": 9.54,
+      "gain_q8": 677,
+      "gain_db": 8.45,
       "private_sample": true,
-      "limited": true
+      "limited": false,
+      "session1_before_full_cycle_lufs": -27.9,
+      "session1_full_cycle_previous_gain_q8": 768,
+      "session1_measurement": "CYCLES_19_OST_AVANT.json; target -29 LUFS over native full intro+cycle"
     },
     {
       "constant": "MUS_YOKAI_ARIANE",
       "song_id": 377,
       "baseline_window_lufs": -36.0,
       "target_window_lufs": -29,
-      "gain_q8": 573,
-      "gain_db": 7.0,
+      "gain_q8": 440,
+      "gain_db": 4.7,
       "private_sample": true,
-      "limited": false
+      "limited": false,
+      "session1_before_full_cycle_lufs": -26.7,
+      "session1_full_cycle_previous_gain_q8": 573,
+      "session1_measurement": "CYCLES_19_OST_AVANT.json; target -29 LUFS over native full intro+cycle"
     }
   ],
   "cry_volume_percent": 60,
