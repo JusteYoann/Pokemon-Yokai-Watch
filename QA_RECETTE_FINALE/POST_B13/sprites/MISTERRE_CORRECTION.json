@@ -1,0 +1,44 @@
+{
+  "source_generated_sha256": "9115ebb18e06ead35200e7253e3cc6d530929992aea68023815625d4cb0389ba",
+  "regions": [
+    [
+      10,
+      15,
+      14,
+      18
+    ],
+    [
+      16,
+      15,
+      21,
+      18
+    ],
+    [
+      9,
+      19,
+      14,
+      22
+    ],
+    [
+      17,
+      19,
+      22,
+      22
+    ],
+    [
+      11,
+      22,
+      21,
+      26
+    ]
+  ],
+  "modified_pixels": 92,
+  "outside_regions_byte_indices_unchanged": true,
+  "palette_unchanged": true,
+  "silhouette_transparency_unchanged": true,
+  "dimensions": [
+    32,
+    32
+  ],
+  "artwork_process": "Imagegen removes face; only masked bark regions transferred and quantized to existing brown palette. Whole generated silhouette not integrated."
+}

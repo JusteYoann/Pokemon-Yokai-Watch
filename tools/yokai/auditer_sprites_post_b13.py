@@ -5,10 +5,16 @@ from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont
 from mgba_rpc import Emulator,ROOT
 P=ROOT/'QA_RECETTE_FINALE/POST_B13'
+USE_DISPLAY=False
 NAMES=json.loads((ROOT/'data/yokai/noms_affiches.json').read_text())
 
 def visible(path):
  im=Image.open(path);assert im.mode=='P',(path,im.mode)
+ display=path.with_name(path.stem+'-display.4bpp')
+ if USE_DISPLAY and display.exists():
+  from presentation_4bpp import decode
+  pixels=decode(display.read_bytes(),im.width,im.height)
+  shown=Image.new('P',im.size);shown.putpalette(im.getpalette());shown.putdata([v for row in pixels for v in row]);im=shown
  alpha=im.point(lambda i:255 if i else 0).convert('L')
  # Palette indices, not RGB colors, define transparent index zero.
  mask=Image.new('L',im.size);mask.putdata([255 if i else 0 for i in im.getdata()])
@@ -70,6 +76,7 @@ def sheets(report,stage):
 
 if __name__=='__main__':
  a=argparse.ArgumentParser();a.add_argument('--stage',default='baseline-b13');a.add_argument('--sheets-only',action='store_true');args=a.parse_args()
+ USE_DISPLAY=args.stage!='baseline-b13'
  report=json.loads((P/'sprites'/args.stage/'audit.json').read_text()) if args.sheets_only else capture(args.stage)
  sheets(report,args.stage)
  print('PASS',len(report['species']),'native front/back scenes; source icon review sheets, no original graphics changed')

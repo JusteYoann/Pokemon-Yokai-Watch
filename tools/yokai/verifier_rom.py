@@ -59,6 +59,7 @@ for row,name in zip(stats,names):
     assert entry[22:24]==bytes([constants[row['ability_1']],constants.get(row['ability_2'],0)]),number
     expected=bytes(glyphs[c] for c in name['nom_affiche_gba'])+b'\xff'
     assert data('gSpeciesNames')[number*11:number*11+len(expected)]==expected,(number,name)
+presentation={row['source']:row['target'] for row in json.loads((R/'data/yokai/sprite_presentation.json').read_text())['profiles']} if (R/'data/yokai/sprite_presentation.json').exists() else {}
 checks=0
 with zipfile.ZipFile(R/'docs/yokai-gallery/sources/gba-graphics.zip') as archive:
     for entry in json.loads(archive.read('manifest.json'))['species']:
@@ -67,9 +68,10 @@ with zipfile.ZipFile(R/'docs/yokai-gallery/sources/gba-graphics.zip') as archive
             binary=data(asset['symbol'])
             raw=unlz(binary) if kind in ['front','back','normal','shiny'] else binary
             path=R/f'graphics/yokai/{n:03}'/ {'front':'front.4bpp','back':'back.4bpp','normal':'normal.gbapal','shiny':'shiny.gbapal','icon':'icon.4bpp','footprint':'footprint.1bpp'}[kind]
-            assert raw==path.read_bytes(),(n,kind,'linked file mismatch')
+            displayed=R/presentation.get(str(path.relative_to(R)),str(path.relative_to(R)))
+            assert raw==displayed.read_bytes(),(n,kind,'linked file mismatch')
             if n not in {17,22,41,71,84,86,100,112,114,117,124,128,133,149} or kind in ['icon','footprint']:
-                assert raw==archive.read(asset['snapshot']),(n,kind,'snapshot roundtrip mismatch')
+                assert path.read_bytes()==archive.read(asset['snapshot']),(n,kind,'source snapshot roundtrip mismatch')
             if kind in ['front','back']:
                 table=data('gMonFrontPicTable' if kind=='front' else 'gMonBackPicTable')
                 pointer=struct.unpack_from('<I',table,n*8)[0]
@@ -126,7 +128,7 @@ if ariane.exists():
     im=Image.open(ariane/'overworld.png');assert im.size==(48,32)
     assert data('gObjectEventPic_Ariane')==b''.join(encode4(im.crop((i*16,0,i*16+16,32))) for i in range(3))
     im=Image.open(ariane/'usapion_overworld.png');assert im.size==(32,32)
-    assert data('gObjectEventPic_UsapionCameo')==encode4(im)
+    assert data('gObjectEventPic_UsapionCameo')==(R/presentation['graphics/yokai_characters/ariane/usapion_overworld.4bpp']).read_bytes() if 'graphics/yokai_characters/ariane/usapion_overworld.4bpp' in presentation else data('gObjectEventPic_UsapionCameo')==encode4(im)
     assert data('gObjectEventPal_Ariane')==(ariane/'normal.gbapal').read_bytes()
 enma=R/'graphics/yokai_characters/enma'
 if enma.exists():
@@ -198,6 +200,6 @@ if boss_spec.exists():
         assert data('gObjectEventPal_Yokai'+group+'Group')==(root/'normal.gbapal').read_bytes()
         assert data('gObjectEventPic_Yokai'+person)==b''.join(encode4(ow.crop((x,0,x+width,32))) for x in range(0,width*3,width))
         boss_cameo_frames+=4
-report={'rom_sha256':hashlib.sha256(rom).hexdigest(),'rom_size':len(rom),'species_stats_and_abilities_verified':151,'encoded_display_names_verified':151,'linked_graphic_resources_verified':checks,'historical_graphics_preserved_except_whitelist':True,'evolution_edges_verified':len(evolutions),'linked_learnsets_verified':151,'french_move_and_ability_labels_verified':len(json.loads((R/'data/yokai/libelles_attaques_talents.json').read_text())),'matt_native_frames_verified':12 if matt.exists() else 0,'ariane_and_usapion_native_frames_verified':5 if ariane.exists() else 0,'enma_and_kyubi_native_frames_verified':5 if enma.exists() else 0,'distinct_enma_creature_frame_verified':1 if enma_creature.exists() else 0,'protagonist_native_frame_slots_verified':146 if protagonists_active else 0,'matt_additional_intro_and_credit_frames_verified':7 if protagonists_active else 0,'additional_adventure_cameo_native_frames_verified':cameo_extra_frames,'postgame_boss_cameo_native_frames_verified':boss_cameo_frames,'emulator_tests':False,'final_shiny_artwork_validated':False,'verdict':'JALON DONNEES/GRAPHISMES LIE ; RECETTE COMPLETE NON TERMINEE'}
-out=R/('QA_RECETTE_FINALE/INTEGRATION_MUSIQUES/CONTROLE_ROM_PRIVEE.json' if os.environ.get('YOKAI_VERIFY_ROM') else 'QA_RECETTE_FINALE/RECONSTRUCTION/CONTROLE_ROM.json');out.parent.mkdir(parents=True,exist_ok=True);out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+report={'rom_sha256':hashlib.sha256(rom).hexdigest(),'rom_size':len(rom),'species_stats_and_abilities_verified':151,'encoded_display_names_verified':151,'linked_graphic_resources_verified':checks,'canonical_battle_artwork_preserved_except_whitelist':True,'presentation_overrides_verified':len(presentation),'evolution_edges_verified':len(evolutions),'linked_learnsets_verified':151,'french_move_and_ability_labels_verified':len(json.loads((R/'data/yokai/libelles_attaques_talents.json').read_text())),'matt_native_frames_verified':12 if matt.exists() else 0,'ariane_and_usapion_native_frames_verified':5 if ariane.exists() else 0,'enma_and_kyubi_native_frames_verified':5 if enma.exists() else 0,'distinct_enma_creature_frame_verified':1 if enma_creature.exists() else 0,'protagonist_native_frame_slots_verified':146 if protagonists_active else 0,'matt_additional_intro_and_credit_frames_verified':7 if protagonists_active else 0,'additional_adventure_cameo_native_frames_verified':cameo_extra_frames,'postgame_boss_cameo_native_frames_verified':boss_cameo_frames,'emulator_tests':False,'final_shiny_artwork_validated':False,'verdict':'JALON DONNEES/GRAPHISMES LIE ; RECETTE COMPLETE NON TERMINEE'}
+out=Path(os.environ['YOKAI_VERIFY_REPORT']) if os.environ.get('YOKAI_VERIFY_REPORT') else R/('QA_RECETTE_FINALE/INTEGRATION_MUSIQUES/CONTROLE_ROM_PRIVEE.json' if os.environ.get('YOKAI_VERIFY_ROM') else 'QA_RECETTE_FINALE/RECONSTRUCTION/CONTROLE_ROM.json');out.parent.mkdir(parents=True,exist_ok=True);out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))

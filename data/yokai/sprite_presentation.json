@@ -1,0 +1,285 @@
+{
+  "scope": "Build-time nearest-neighbor presentation from unchanged 4bpp indexed originals; per-asset choices, no global zoom, no palette change, no runtime RAM or CPU cost",
+  "profiles": [
+    {
+      "id": "009/front",
+      "source": "graphics/yokai/009/front.4bpp",
+      "target": "graphics/yokai/009/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 220,
+      "bottom": 58,
+      "reason": "Cigalopin : petite espèce, réduction légère et appui au sol"
+    },
+    {
+      "id": "049/front",
+      "source": "graphics/yokai/049/front.4bpp",
+      "target": "graphics/yokai/049/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 276,
+      "bottom": 58,
+      "reason": "Baku : légère hausse de gabarit et ancrage sur l’ovale"
+    },
+    {
+      "id": "106/front",
+      "source": "graphics/yokai/106/front.4bpp",
+      "target": "graphics/yokai/106/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 220,
+      "bottom": 58,
+      "reason": "Pitou : réduire le gabarit de la pré-évolution"
+    },
+    {
+      "id": "005/back",
+      "source": "graphics/yokai/005/back.4bpp",
+      "target": "graphics/yokai/005/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 307,
+      "top": 4,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "006/back",
+      "source": "graphics/yokai/006/back.4bpp",
+      "target": "graphics/yokai/006/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "top": 10,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "007/back",
+      "source": "graphics/yokai/007/back.4bpp",
+      "target": "graphics/yokai/007/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "top": 11,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "009/back",
+      "source": "graphics/yokai/009/back.4bpp",
+      "target": "graphics/yokai/009/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "top": 12,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "017/back",
+      "source": "graphics/yokai/017/back.4bpp",
+      "target": "graphics/yokai/017/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "top": 8,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "045/back",
+      "source": "graphics/yokai/045/back.4bpp",
+      "target": "graphics/yokai/045/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 17,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "047/back",
+      "source": "graphics/yokai/047/back.4bpp",
+      "target": "graphics/yokai/047/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 333,
+      "top": 4,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "070/back",
+      "source": "graphics/yokai/070/back.4bpp",
+      "target": "graphics/yokai/070/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "top": 6,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "087/back",
+      "source": "graphics/yokai/087/back.4bpp",
+      "target": "graphics/yokai/087/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "top": 16,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "097/back",
+      "source": "graphics/yokai/097/back.4bpp",
+      "target": "graphics/yokai/097/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 333,
+      "top": 4,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "099/back",
+      "source": "graphics/yokai/099/back.4bpp",
+      "target": "graphics/yokai/099/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "top": 9,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "100/back",
+      "source": "graphics/yokai/100/back.4bpp",
+      "target": "graphics/yokai/100/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 384,
+      "top": 4,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "101/back",
+      "source": "graphics/yokai/101/back.4bpp",
+      "target": "graphics/yokai/101/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 307,
+      "top": 4,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "110/back",
+      "source": "graphics/yokai/110/back.4bpp",
+      "target": "graphics/yokai/110/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 294,
+      "top": 4,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "119/back",
+      "source": "graphics/yokai/119/back.4bpp",
+      "target": "graphics/yokai/119/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "top": 10,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "120/back",
+      "source": "graphics/yokai/120/back.4bpp",
+      "target": "graphics/yokai/120/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "top": 9,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "137/back",
+      "source": "graphics/yokai/137/back.4bpp",
+      "target": "graphics/yokai/137/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 358,
+      "top": 4,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "138/back",
+      "source": "graphics/yokai/138/back.4bpp",
+      "target": "graphics/yokai/138/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 410,
+      "top": 4,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "145/back",
+      "source": "graphics/yokai/145/back.4bpp",
+      "target": "graphics/yokai/145/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "top": 8,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "146/back",
+      "source": "graphics/yokai/146/back.4bpp",
+      "target": "graphics/yokai/146/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 294,
+      "top": 4,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "148/back",
+      "source": "graphics/yokai/148/back.4bpp",
+      "target": "graphics/yokai/148/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "top": 9,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "009/icon",
+      "source": "graphics/yokai/009/icon.4bpp",
+      "target": "graphics/yokai/009/icon-display.4bpp",
+      "frame_width": 32,
+      "frame_height": 32,
+      "scale_q8": 230,
+      "bottom": 30,
+      "reason": "Réduction légère de l’icône cohérente avec petite forme"
+    },
+    {
+      "id": "106/icon",
+      "source": "graphics/yokai/106/icon.4bpp",
+      "target": "graphics/yokai/106/icon-display.4bpp",
+      "frame_width": 32,
+      "frame_height": 32,
+      "scale_q8": 230,
+      "bottom": 30,
+      "reason": "Réduction légère de l’icône cohérente avec petite forme"
+    },
+    {
+      "id": "overworld/leo",
+      "source": "graphics/yokai_characters/leo_jibanyan/overworld.4bpp",
+      "target": "graphics/yokai_characters/leo_jibanyan/overworld-display.4bpp",
+      "frame_width": 32,
+      "frame_height": 32,
+      "scale_q8": 184,
+      "bottom": 31,
+      "reason": "Gabarit de petit Yo-kai de carte, ancrage au sol, toutes orientations conservées"
+    },
+    {
+      "id": "overworld/usapyon",
+      "source": "graphics/yokai_characters/ariane/usapion_overworld.4bpp",
+      "target": "graphics/yokai_characters/ariane/usapion_overworld-display.4bpp",
+      "frame_width": 32,
+      "frame_height": 32,
+      "scale_q8": 218,
+      "bottom": 31,
+      "reason": "Gabarit de petit Yo-kai de carte, ancrage au sol, toutes orientations conservées"
+    }
+  ]
+}

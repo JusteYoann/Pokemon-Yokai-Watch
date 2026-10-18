@@ -20,6 +20,6 @@ for path in sorted((ROOT/'data/maps').glob('*/map.json')):
   d['music']=new;path.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n');changes.append({'map':name,'before':old,'after':new,'zone':zone});status='CONTINUITY_APPLIED'
  rows.append({'map':name,'current_b13':old,'current_post_b13':new,'zone':zone,'future_theme':'Pending proposed artistic allocation' if not new.startswith('MUS_YOKAI') else new,'reason':reason,'status':status})
 with (P/'cartographie_cartes.csv').open('w') as f:
- w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+ w=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator='\n');w.writeheader();w.writerows(rows)
 (P/'continuite_modifications.json').write_text(json.dumps({'changes':changes,'maps_audited':len(rows),'new_compositions_activated':0,'exceptions':['Gym','FightingDojo','standalone dungeons/story maps','multiplayer shared UnionRoom retains its own music']},ensure_ascii=False,indent=2)+'\n')
 print(len(rows),'maps inventoried;',len(changes),'existing-theme continuity corrections')
