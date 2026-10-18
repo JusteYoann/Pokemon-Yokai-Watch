@@ -84,9 +84,12 @@ def run(moves):
 if __name__=='__main__':
  parser=argparse.ArgumentParser();parser.add_argument('--moves',default='all');args=parser.parse_args();moves=list(range(1,355)) if args.moves=='all' else [int(x) for x in args.moves.split(',')];fatal=None
  try:run(moves)
- except Exception as e:fatal=str(e);raise
+ except BaseException as e:fatal=type(e).__name__+': '+str(e);raise
  finally:
   # Completion is runtime-only: palette/masking/geometry still need image review.
-  passed=not errors and fatal is None
-  report=dict(passed=passed,fatal=fatal,errors=errors,rom_sha256=hashlib.sha256((ROOT/'pokefirered.gba').read_bytes()).hexdigest(),scope='Actual GBA native animation scripts/callbacks and rendering in mGBA; seeded battle/DoMoveAnim/snapshots, not actual move effects/AI, full adventure or physical hardware',moves_requested=moves,distinct_moves_completed=sorted({r['move'] for r in rows}),cases=len(rows),visual_validation_complete=False,results=rows)
+  expected_cases=sum(4*(2 if move in TWO_TURN else 1) for move in moves)
+  unexpected_palette_changes=[row for row in rows if not row['battler_palettes_restored'] and row['move'] not in [144,164]]
+  unexpected_tile_changes=[row for row in rows if not row['battler_tile_bytes_unchanged'] and row['move'] not in [144,164]]
+  passed=not errors and fatal is None and len(rows)==expected_cases and not unexpected_palette_changes and not unexpected_tile_changes
+  report=dict(passed=passed,fatal=fatal,errors=errors,rom_sha256=hashlib.sha256((ROOT/'pokefirered.gba').read_bytes()).hexdigest(),scope='Actual GBA native animation scripts/callbacks and rendering in mGBA; seeded battle/DoMoveAnim/snapshots, not actual move effects/AI, full adventure or physical hardware',moves_requested=moves,distinct_moves_completed=sorted({r['move'] for r in rows}),cases=len(rows),expected_cases=expected_cases,unexpected_palette_changes=unexpected_palette_changes,unexpected_tile_changes=unexpected_tile_changes,expected_persistent_graphic_changes=[144,164],visual_validation_complete=False,results=rows)
   (P/'TEST_MGBA.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(dict(passed=passed,fatal=fatal,errors=len(errors),cases=len(rows))),flush=True)

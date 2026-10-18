@@ -31,3 +31,14 @@ Le Seigneur Enma du Mont Braise conserve son portrait de dresseur et ses trois p
 ![Créature Enma — aperçu sur damier](../../graphics/yokai_characters/enma_creature/preview-checkerboard.png)
 
 Ressources : `graphics/yokai_characters/enma_creature/` ; dessin source conservé, conversion technique reproductible avec `tools/yokai/convertir_enma_creature.py`. Une pose statique32×32, palette4bpp15couleurs opaques +index0 transparent ; animation inanimée native, aucune marche requise pour cette rencontre.
+
+
+## Rencontres statiques et Léo — jalon v1
+
+Graphismes de carte ajoutés, sans modification des sprites de combat validés :
+
+- [Misterre, Octorgone et Mademoaiselle, aperçu sur damier](../../graphics/yokai_characters/static_yokai/preview-checkerboard.png).
+- [Léo transformé en Jibanyan, neuf images directionnelles](../../graphics/yokai_characters/leo_jibanyan/preview-checkerboard.png).
+- [Captures et contrôles réels mGBA](../../QA_RECETTE_FINALE/VERSION_1_DEVELOPPEMENT/README.md).
+
+Misterre utilise ses deux rencontres d’origine, Routes12/16 ; Octorgone la Centrale ; Mademoaiselle les Îles Écume. Kyubi reste au Mont Braise. Le sprite félin d’Enma capturable est conservé, distinct du Seigneur Enma. Léo retrouve sa forme humaine via le téléporteur original.

@@ -1,0 +1,46 @@
+{
+  "verdict": "NON PRÊT",
+  "reason": "Mandatory V1 artistic/language/music and full-adventure acceptance criteria incomplete; not a claim of an environment failure",
+  "source_game_commit": "f029b5236e34f9571f48fb928020f5adcff5debc",
+  "branch": "dev/reconstruction-finalisation",
+  "master_unchanged": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+  "public_rom_sha256": "7f4248b27ec01f4d32acdcacc11c3b1bb5f03ef434431bea099ba85d1496b4ac",
+  "private_rom_sha256": "36bbf1f1c759f0e355be122caf68d7d110f86c83c1862bda1e85c72ea37abfc5",
+  "private_rom_bytes": 24400776,
+  "private_rom_mib": 23.27039337158203,
+  "active_selected_ost": 13,
+  "selected_ost": 15,
+  "remaining_mandatory": [
+    "Enma Track and Final Battle: sources present, reliable loops/activation not complete",
+    "Final84 shiny direction, including active alternate horned Robonyan28 (source art saved, renderer not integrated)",
+    "Full French and contextual species references; vocabulary migration and core UI are partial",
+    "Balance/EXP progression to60–70 and actual complete adventure/postgame validation",
+    "151 obtainable on a single played save: structural/native fixtures exist, full collection not performed"
+  ],
+  "explicitly_deferred_by_user": [
+    "Ten new side quests",
+    "Scientist/Robonyan quest",
+    "Coach Antonic base/quest",
+    "Additional Red fight",
+    "Juste Yoann cameo",
+    "New introduction cinematic",
+    "Non-selected musical tracks"
+  ],
+  "verified_now": [
+    "Public/private builds under32MiB and byte-identical clean GitHub reconstructions after generator-source correction",
+    "Four new static object encounters and actual captures, Leo teleporter for both genders",
+    "Champion battle through Take Care conclusion, Hall of Fame, complete credits and Continue to saved postgame",
+    "1850 vocabulary literals, core French interface/battle/save text; native50px Medallium fits enlarged menu; six Medallium sorts/counts bound to151",
+    "354 native move animation scripts,1448cases, no remaining wait, expected Morphing/Substitute persistent changes distinguished",
+    "46 selected native attack SFX cases preserve the actual private sampled BGM voice",
+    "Native Noko friendship/held-item evolution,151 eligibility/67 shiny exclusions and real permanent team EXP fixture unchanged"
+  ],
+  "not_claimed": [
+    "Whole adventure played from fresh save to postgame",
+    "All151 actually captured/evolved in one played save",
+    "All84 final shiny designs artistically complete",
+    "All354 animations visually reviewed in every situation",
+    "Human perceptual soundtrack listening and physical GBA profiling",
+    "Completed V1.0 or approval to merge master"
+  ]
+}

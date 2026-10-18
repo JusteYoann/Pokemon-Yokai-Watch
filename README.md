@@ -1,3 +1,5 @@
+> **État Pokémon × Yo-kai Watch — branche `dev/reconstruction-finalisation` : version de développement, pas v1.0 finale.** Treize OST sur quinze actives ; nouvelles rencontres statiques et Léo intégrés ;354animations exécutées dans1448cas mGBA. Les critères restants et la reconstruction publique/privée sont documentés dans [le rapport de finalisation](QA_RECETTE_FINALE/VERSION_1_DEVELOPPEMENT/README.md). Aucun fichier ROM ou audio privé n’est publié ici.
+
 # Pokémon FireRed and LeafGreen
 
 This is a decompilation of English Pokémon FireRed and LeafGreen.
