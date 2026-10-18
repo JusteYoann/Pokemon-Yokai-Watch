@@ -1,0 +1,21 @@
+{
+  "private": {
+    "command": "make -j4 YOKAI_AUDIO_DIR=/workspace/private-audio/session1-integration",
+    "bytes": 27718259,
+    "sha256": "431ba94236270358f2fa091cf612ad1fbaf2ed40bcfffd071efbc8bc552a2142",
+    "linker_rom_bytes": 27718259,
+    "ewram_bytes": 261052,
+    "iwram_bytes": 29888,
+    "audio_resources": 19,
+    "protected_assets_not_published": true
+  },
+  "public": {
+    "command": "make -j4",
+    "bytes": 16777216,
+    "sha256": "e444b63b7edc403b42dedfc30b30b155c787d31b0d496d6167fb7eefba0d016c",
+    "native_audio_fallback": true
+  },
+  "converter_rerun_changes_to_active_pngs": 0,
+  "full_story_playthrough": false,
+  "physical_GBA_test": false
+}

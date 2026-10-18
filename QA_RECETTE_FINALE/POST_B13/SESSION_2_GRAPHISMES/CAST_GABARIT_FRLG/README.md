@@ -4,11 +4,13 @@ Révision après validation du nouveau Nathan : Matt, Ariane, Katie, Domniscian,
 
 Les références officielles de l'archive caméos et de Protagoniste ont été examinées. Les dessins source sont dans `graphics/yokai_characters/overworld_frlg_v2/source/`. Dessin par imagegen, puis conversion technique reproductible par `python tools/yokai/convertir_cast_base_frlg.py` : découpage, réduction nearest, indexation sur les palettes existantes, conservation des dimensions et nombres d'images. Les PNG ne sont pas une simple recoloration des anciens personnages.
 
+- [Comparaison avant/après des 14 personnages, quatre directions](COMPARAISON_14_AVANT_APRES.png).
 - [Toutes les images au format natif, agrandies x3 sur gris](CAST_NATIF_X3.png).
 - [Rendu natif mGBA après, quatre orientations](../overworld/cast-apres/planche-22-acteurs.png) ; [avant](../overworld/cast-avant/planche-22-acteurs.png). Les 8 autres acteurs de cette galerie servent de témoins inchangés.
 - [Conversion et cadres individuels](CONVERSION.json).
 - [Preuve de préservation au niveau des octets ROM](PRESERVATION.json).
 - [Tests des déplacements et actions de Katie](katie/mgba/TEST_PROTAGONISTES_MGBA.json), [images et animations](katie/mgba/preuves/).
+- [Groupes de boss simultanés et pas de Matt aux quatre vitesses](groupes/TEST_MGBA.json), [captures](groupes/).
 - [Surf réel : entrée depuis la rive, quatre directions, sortie à la manette](katie/surf/TEST_MGBA.json), [captures sur l'eau](katie/surf/quatre-directions.png).
 
 Les proportions utilisent Blue pour Matt, Leaf pour Katie, et les gabarits fille, garçon, homme, gentleman ou homme corpulent selon le rôle des PNJ. Domniscian conserve son bureau et sa silhouette spéciale 32×32. Les autres utilisent des images 16×32, sauf les équipements de Katie en 32×32. Les trois Mafiamilles conservent des corpulences différentes. Les employés conservent leur tête de fantôme, leurs costumes rouge/bleu et leurs accessoires.
@@ -26,3 +28,7 @@ mGBA démarre par une vraie nouvelle partie. Galerie native des 22 acteurs × 4 
 Comparaison à `2e95fcfb9bb89759bdc1776307055d49a9da3cd5` : **13 818 octets ROM modifiés, exclusivement dans les 19 tableaux graphiques overworld et commandes hFlip ciblées**. Aucun changement de données, code moteur, gameplay, son, intro/titre, portrait/dos de combat, palette ou Nathan. 5 641 autres images et palettes restent identiques au contenu Git (fins de ligne des palettes normalisées selon .gitattributes).
 
 Cette vérification graphique ciblée ne constitue pas une nouvelle partie complète ni une validation intégrale des événements de l'aventure. ROM et audio protégés restent privés.
+
+Contrôle complémentaire : les trois acteurs du groupe Domniscian et les quatre du groupe Don Morleone sont présents ensemble sur leurs vraies cartes après préparation du postgame, invisibles avant la Ligue. Les quatre orientations ont été capturées ; la palette OBJ10 correspond exactement à la palette partagée prévue. Matt a été animé sur objet natif, dans les deux profils à quatre vitesses (576 images vérifiées), avec contrôle du miroir OAM à chaque image. Ce contrôle des pas est effectué sur case fixe ; il ne rejoue pas ses scènes de déplacement scénarisées.
+
+Pour régénérer ces overworld, utiliser exclusivement le convertisseur `convertir_cast_base_frlg.py` et le nouveau manifeste. Les anciens convertisseurs de création des caméos restent des archives de fabrication de leurs portraits et ne sont pas appelés par `make` ; ne pas les utiliser pour écraser cette révision des overworld ou des palettes partagées.

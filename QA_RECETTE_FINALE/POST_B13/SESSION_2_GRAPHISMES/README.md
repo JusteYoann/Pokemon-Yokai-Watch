@@ -55,3 +55,9 @@ La planche `overworld/apres/planche-22-acteurs.png` rassemble les quatre orienta
 ## Révision demandée : Nathan sur la base de Red
 
 À la demande explicite de l’utilisateur après ce premier contrôle, les six ressources overworld de Nathan ont été refaites sur le gabarit et les poses de Red. La décision précédente de conserver son ancien dessin est donc remplacée. Voir [comparaison et rapport](NATHAN_GABARIT_RED/README.md). Portraits, combat, introduction et autres personnages restent inchangés ; comparaison des ROM à l’appui. Les autres chantiers de session2 conservent leur état précédent.
+
+## Révision demandée : les 14 autres personnages sur gabarits Rouge Feu
+
+Après approbation de Nathan, le même traitement est appliqué aux seuls overworld de Matt, Ariane, Katie, Domniscian, Seigneur Enma humain, Nathaniel, Michael, Wyatt, Don Morleone, trois Mafiamilles et deux employés. **104 images natives, 19 PNG actifs**, dont les six séries complètes de Katie. Les anciennes réductions de présentation Ariane/Matt/Wyatt et les miroirs compensatoires des anciens dessins sont remplacés par ces nouveaux gabarits et orientations. Nathan reste strictement identique.
+
+[Comparaison avant/après et rapport des contrôles](CAST_GABARIT_FRLG/README.md). Les contrôles mGBA couvrent les quatre orientations, les actions de Katie, le véritable Surf, les groupes de boss simultanés et les pas de Matt aux quatre vitesses. Compilation publique et privée réussies ; comparaison octet par octet des ROM : uniquement graphismes overworld et drapeaux hFlip ciblés. Les portraits de combat, sprites des151 espèces, palettes, audio et gameplay ne changent pas. Les réserves sur les autres chantiers de session2, notamment les75 shiny restants, restent valables.

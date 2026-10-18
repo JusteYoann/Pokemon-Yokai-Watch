@@ -1,0 +1,220 @@
+{
+  "scope": "Active map art only, supersedes legacy source packs for these assets; battle portraits retain legacy sources",
+  "restore_commit": "2e95fcfb9bb89759bdc1776307055d49a9da3cd5",
+  "converter": "tools/yokai/convertir_cast_base_frlg.py",
+  "reference_archives": [
+    "Référence_CAMÉOS_YOKAI_WATCH.rar",
+    "Protagoniste.rar"
+  ],
+  "assets": [
+    {
+      "actor": "ariane",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-a.png",
+      "source_sha256": "d3dabafafd20fe89314e52d7434c0ee8560e65593cee1cba062758563e381e17",
+      "frames": 3,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "97828ce2e2bb201ae66359139147570fa5d6653a818baa996101eb2527eec3f6",
+      "transparent_index": 0
+    },
+    {
+      "actor": "enma",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-a.png",
+      "source_sha256": "d3dabafafd20fe89314e52d7434c0ee8560e65593cee1cba062758563e381e17",
+      "frames": 3,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "e70c3c7f9a9bc2ef9aaea983c106fae970a332ba3a76d311db30ae5680dbb173",
+      "transparent_index": 0
+    },
+    {
+      "actor": "nathaniel",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-a.png",
+      "source_sha256": "d3dabafafd20fe89314e52d7434c0ee8560e65593cee1cba062758563e381e17",
+      "frames": 3,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "29c3fc2ac4b5c5db02ab0ea5eac409fd70c8de6dd0d6a918fc9c4e23a1bdf534",
+      "transparent_index": 0
+    },
+    {
+      "actor": "michael",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-a.png",
+      "source_sha256": "d3dabafafd20fe89314e52d7434c0ee8560e65593cee1cba062758563e381e17",
+      "frames": 3,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "6b627519c6873a763c9a1bb9afd1fe5605df07194d6dd61697c2e898efb2b6f4",
+      "transparent_index": 0
+    },
+    {
+      "actor": "wyatt",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-b.png",
+      "source_sha256": "6ba14dd1cde29580bcff297350bbc6f39d368c922eed00da2c55a48c037eb71e",
+      "frames": 3,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "146559cafb6fabbeeb19666a4763549c80bfb10f3b7f8a5ff5019c6dd71500c8",
+      "transparent_index": 0
+    },
+    {
+      "actor": "don_morleone",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-b.png",
+      "source_sha256": "6ba14dd1cde29580bcff297350bbc6f39d368c922eed00da2c55a48c037eb71e",
+      "frames": 3,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "358969ad0588f118dd6093191adf517d019cce78ad978181926144211b3fa6a6",
+      "transparent_index": 0
+    },
+    {
+      "actor": "mafiamille_1",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-b.png",
+      "source_sha256": "6ba14dd1cde29580bcff297350bbc6f39d368c922eed00da2c55a48c037eb71e",
+      "frames": 3,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "358969ad0588f118dd6093191adf517d019cce78ad978181926144211b3fa6a6",
+      "transparent_index": 0
+    },
+    {
+      "actor": "mafiamille_2",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-b.png",
+      "source_sha256": "6ba14dd1cde29580bcff297350bbc6f39d368c922eed00da2c55a48c037eb71e",
+      "frames": 3,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "358969ad0588f118dd6093191adf517d019cce78ad978181926144211b3fa6a6",
+      "transparent_index": 0
+    },
+    {
+      "actor": "mafiamille_3",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-c.png",
+      "source_sha256": "5a0487c8eadd97c3a9ad48382742369fff0b1b9db70d08f5a9412435f43fcacc",
+      "frames": 3,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "358969ad0588f118dd6093191adf517d019cce78ad978181926144211b3fa6a6",
+      "transparent_index": 0
+    },
+    {
+      "actor": "employe_rouge",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-c.png",
+      "source_sha256": "5a0487c8eadd97c3a9ad48382742369fff0b1b9db70d08f5a9412435f43fcacc",
+      "frames": 3,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "0372011ff0997c17265edaf8a7eb0c1dbc29f73f11653504889b7318c17f7984",
+      "transparent_index": 0
+    },
+    {
+      "actor": "employe_bleu",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-c.png",
+      "source_sha256": "5a0487c8eadd97c3a9ad48382742369fff0b1b9db70d08f5a9412435f43fcacc",
+      "frames": 3,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "0372011ff0997c17265edaf8a7eb0c1dbc29f73f11653504889b7318c17f7984",
+      "transparent_index": 0
+    },
+    {
+      "actor": "domniscian",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/group-c.png",
+      "source_sha256": "5a0487c8eadd97c3a9ad48382742369fff0b1b9db70d08f5a9412435f43fcacc",
+      "frames": 3,
+      "width": 32,
+      "height": 32,
+      "palette_sha256": "0372011ff0997c17265edaf8a7eb0c1dbc29f73f11653504889b7318c17f7984",
+      "transparent_index": 0
+    },
+    {
+      "actor": "matt",
+      "asset": "overworld",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/matt.png",
+      "source_sha256": "5757208a6032f2a5e4baaa4a5188f3f206f0d661dc786eb01c848390334f39db",
+      "frames": 9,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "1129168633e9b747336957f729883152024c3a6ef2a1a762a9b431246fa37a3a",
+      "transparent_index": 0
+    },
+    {
+      "actor": "katie",
+      "asset": "normal",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/katie-normal.png",
+      "source_sha256": "8ca326df854cae582c9a3604b8178d3cba9102ca2f318bc21d0498bb0d005a78",
+      "frames": 9,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "9607152170a3601876b599082ebfed34cc18dab42a3d63b121f514898db211e2",
+      "transparent_index": 0
+    },
+    {
+      "actor": "katie",
+      "asset": "surf_run",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/katie-surf_run.png",
+      "source_sha256": "cf6ef88017c4e3794570e4fc9c3c2afde5129c4c1ffcc9c478d9b0a458224623",
+      "frames": 14,
+      "width": 16,
+      "height": 32,
+      "palette_sha256": "9607152170a3601876b599082ebfed34cc18dab42a3d63b121f514898db211e2",
+      "transparent_index": 0
+    },
+    {
+      "actor": "katie",
+      "asset": "bike",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/katie-bike.png",
+      "source_sha256": "bbf36549887c9d577bd539721f25751f06c6c5acde95a6b0743417c5ed786a78",
+      "frames": 9,
+      "width": 32,
+      "height": 32,
+      "palette_sha256": "9607152170a3601876b599082ebfed34cc18dab42a3d63b121f514898db211e2",
+      "transparent_index": 0
+    },
+    {
+      "actor": "katie",
+      "asset": "vs_seeker_bike",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/katie-vs_seeker_bike.png",
+      "source_sha256": "82d977a325e5ce5f37239a9969953d7aeb0b1e7b9f38c0f7e3e95e10c6aa687d",
+      "frames": 6,
+      "width": 32,
+      "height": 32,
+      "palette_sha256": "9607152170a3601876b599082ebfed34cc18dab42a3d63b121f514898db211e2",
+      "transparent_index": 0
+    },
+    {
+      "actor": "katie",
+      "asset": "fish",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/katie-fish.png",
+      "source_sha256": "a24eacf4a0c8c3e0c696755524e63602c8776f8eed641498cc55978afd0017e6",
+      "frames": 12,
+      "width": 32,
+      "height": 32,
+      "palette_sha256": "9607152170a3601876b599082ebfed34cc18dab42a3d63b121f514898db211e2",
+      "transparent_index": 0
+    },
+    {
+      "actor": "katie",
+      "asset": "item",
+      "source": "graphics/yokai_characters/overworld_frlg_v2/source/katie-item.png",
+      "source_sha256": "156088e265ad7c771be2028c68990490d7229962f96eed0566e87941b51ac9b0",
+      "frames": 9,
+      "width": 32,
+      "height": 32,
+      "palette_sha256": "9607152170a3601876b599082ebfed34cc18dab42a3d63b121f514898db211e2",
+      "transparent_index": 0
+    }
+  ]
+}
