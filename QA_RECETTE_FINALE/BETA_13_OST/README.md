@@ -15,6 +15,8 @@ Ce paquet documentaire identifie la ROM existante, sans recompilation, changemen
 
 Les publications documentaires ultérieures ne changent pas ces octets. Le manifeste machine est `BETA.json`. La copie privée conservée dans l’environnement est `/workspace/private-builds/pokemon-yokai-watch-dev-13ost/pokemon-yokai-watch-dev-13ost.gba` ; ce chemin n’est pas un téléchargement GitHub.
 
+**Sous Windows : suivre [WINDOWS_MGBA.md](WINDOWS_MGBA.md)** et son script dédié pour produire directement le fichier `.gba` dans `C:\YokaiBeta`.
+
 ## Obtenir la bêta sans redistribuer les ressources protégées
 
 La méthode fournie est une **reconstruction locale** : aucun patch contenant les enregistrements ni ROM complète n’est publié. Utiliser uniquement les archives musicales auxquelles vous avez légalement accès. Les archives personnelles restent hors du dépôt ; ne fournir qu’une copie de chaque lot pour éviter des références audio en double. Le moteur de décompilation ne nécessite pas de ROM commerciale d’entrée ; sa compilation ne confère aucun droit de redistribution des ressources du jeu.
