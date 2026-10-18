@@ -6,6 +6,7 @@
     3,
     4,
     6,
+    7,
     11,
     15,
     17,
@@ -20,7 +21,7 @@
     30,
     31
   ],
-  "status": "POST_B13 approved allocations: 22 selected; 18 active; Enma5, Nate7, Blossom12 and Final25 await reliable full-section loops",
+  "status": "Session1 audio: 19 active; Enma5, Blossom12 and Final25 await reliable full-section loops",
   "tracks": [
     {
       "number": 1,
@@ -70,6 +71,16 @@
       "source_end_samples": 1540994,
       "period_waveform_correlation": 0.9907323655451229,
       "derivation": "FFT recurrence refined to source sample precision; stable repeated windows then <=100ms phase alignment; bike skips non-repeating intro",
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 7,
+      "pcm_wav_sha256": "03d53e8d1af808f018bdc2adcb39e9ba2e8652de14bb54d596b15a5cc9be4e5b",
+      "source_start_samples": 0,
+      "source_loop_start_samples": 26756,
+      "source_end_samples": 1182702,
+      "period_waveform_correlation": 0.9075113205008563,
+      "derivation": "86.4s long cycle, 28 consecutive one-second recurrence windows examined; first8 matched windows mean>.85/min>.78, original intro once, <=100ms seam phase alignment. 19.2s recurring motif rejected as incomplete. Native five-wrap and perceptual checks tracked separately.",
       "perceptual_listening_validated": false
     },
     {
@@ -390,7 +401,6 @@
   ],
   "pending_tracks": [
     5,
-    7,
     12,
     25
   ]

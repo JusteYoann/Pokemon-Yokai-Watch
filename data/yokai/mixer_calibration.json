@@ -3526,10 +3526,13 @@
       "song_id": 353,
       "baseline_window_lufs": -21.6,
       "target_window_lufs": -29,
-      "gain_q8": 109,
-      "gain_db": -7.42,
-      "private_sample": false,
-      "limited": false
+      "gain_q8": 283,
+      "gain_db": 0.87,
+      "private_sample": true,
+      "limited": false,
+      "session1_previous_gain_q8": 109,
+      "session1_previous_window_lufs": -37.3,
+      "session1_measurement": "niveaux-session1-19ost-avant.json; multiplier derived, native remeasurement required"
     },
     {
       "constant": "MUS_YOKAI_KATIE_HOUSE",

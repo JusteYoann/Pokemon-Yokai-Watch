@@ -1,0 +1,325 @@
+{
+  "scope": "Musiques uniquement. Aucun SE_*, cri ou jingle sur lecteur de fanfare remplacé.",
+  "aliases": [
+    {
+      "source": "MUS_SCHOOL",
+      "target": "MUS_YOKAI_CURIOUS",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_NEW_GAME_INSTRUCT",
+      "target": "MUS_YOKAI_CURIOUS",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_NEW_GAME_INTRO",
+      "target": "MUS_YOKAI_CURIOUS",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_NEW_GAME_EXIT",
+      "target": "MUS_YOKAI_CURIOUS",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_TITLE",
+      "target": "MUS_YOKAI_CURIOUS",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_OAK",
+      "target": "MUS_YOKAI_CURIOUS",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_MYSTERY_GIFT",
+      "target": "MUS_YOKAI_CURIOUS",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_GAME_FREAK",
+      "target": "MUS_YOKAI_CURIOUS",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_FOLLOW_ME",
+      "target": "MUS_YOKAI_UPTOWN",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_GAME_CORNER",
+      "target": "MUS_YOKAI_UPTOWN",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_GYM",
+      "target": "MUS_YOKAI_UPTOWN",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_CELADON",
+      "target": "MUS_YOKAI_UPTOWN",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_POKE_CENTER",
+      "target": "MUS_YOKAI_UPTOWN",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_UNION_ROOM",
+      "target": "MUS_YOKAI_UPTOWN",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_NET_CENTER",
+      "target": "MUS_YOKAI_UPTOWN",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_POKE_JUMP",
+      "target": "MUS_YOKAI_UPTOWN",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_BERRY_PICK",
+      "target": "MUS_YOKAI_UPTOWN",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_SILPH",
+      "target": "MUS_YOKAI_UPTOWN",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_ROCKET_HIDEOUT",
+      "target": "MUS_YOKAI_DODGY",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_POKE_MANSION",
+      "target": "MUS_YOKAI_DODGY",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_ENCOUNTER_ROCKET",
+      "target": "MUS_YOKAI_DODGY",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_CINNABAR",
+      "target": "MUS_YOKAI_SAN_FANTASTICO",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_FUCHSIA",
+      "target": "MUS_YOKAI_SAN_FANTASTICO",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_VERMILLION",
+      "target": "MUS_YOKAI_SAN_FANTASTICO",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_SS_ANNE",
+      "target": "MUS_YOKAI_SAN_FANTASTICO",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_SURF",
+      "target": "MUS_YOKAI_SAN_FANTASTICO",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_SEVII_123",
+      "target": "MUS_YOKAI_SAN_FANTASTICO",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_SEVII_45",
+      "target": "MUS_YOKAI_SAN_FANTASTICO",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_SEVII_67",
+      "target": "MUS_YOKAI_SAN_FANTASTICO",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_LAVENDER",
+      "target": "MUS_YOKAI_MYSTIC_GROVE",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_POKE_TOWER",
+      "target": "MUS_YOKAI_MYSTIC_GROVE",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_SEVII_DUNGEON",
+      "target": "MUS_YOKAI_MYSTIC_GROVE",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_VIRIDIAN_FOREST",
+      "target": "MUS_YOKAI_MYSTIC_GROVE",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_MT_MOON",
+      "target": "MUS_YOKAI_HOPPERS_GORGE",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_SEVII_CAVE",
+      "target": "MUS_YOKAI_HOPPERS_GORGE",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_ROUTE1",
+      "target": "MUS_YOKAI_PATROL_MISSION",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_ROUTE24",
+      "target": "MUS_YOKAI_PATROL_MISSION",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_ROUTE3",
+      "target": "MUS_YOKAI_PATROL_MISSION",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_ROUTE11",
+      "target": "MUS_YOKAI_PATROL_MISSION",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_SEVII_ROUTE",
+      "target": "MUS_YOKAI_PATROL_MISSION",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_ENCOUNTER_GIRL",
+      "target": "MUS_YOKAI_PATROL_MISSION",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_ENCOUNTER_BOY",
+      "target": "MUS_YOKAI_PATROL_MISSION",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_CYCLING",
+      "target": "MUS_YOKAI_BICYCLE",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_VS_TRAINER",
+      "target": "MUS_YOKAI_VS_YOKAI",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_VS_WILD",
+      "target": "MUS_YOKAI_VS_YOKAI",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_RS_VS_TRAINER",
+      "target": "MUS_YOKAI_VS_YOKAI",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_VS_DEOXYS",
+      "target": "MUS_YOKAI_VS_YOKAI",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_VS_MEWTWO",
+      "target": "MUS_YOKAI_VS_YOKAI",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_VS_LEGEND",
+      "target": "MUS_YOKAI_VS_YOKAI",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_ENCOUNTER_RIVAL",
+      "target": "MUS_YOKAI_VS_YOKAI",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_RIVAL_EXIT",
+      "target": "MUS_YOKAI_VS_YOKAI",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_ENCOUNTER_DEOXYS",
+      "target": "MUS_YOKAI_VS_YOKAI",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_VS_GYM_LEADER",
+      "target": "MUS_YOKAI_BOSS_YOKAI",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_RS_VS_GYM_LEADER",
+      "target": "MUS_YOKAI_BOSS_YOKAI",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_ENCOUNTER_GYM_LEADER",
+      "target": "MUS_YOKAI_BOSS_YOKAI",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_TRAINER_TOWER",
+      "target": "MUS_YOKAI_BOSS_YOKAI",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_VICTORY_ROAD",
+      "target": "MUS_YOKAI_DECISIVE_BATTLE",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_CREDITS",
+      "target": "MUS_YOKAI_TAKE_CARE",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_SLOW_PALLET",
+      "target": "MUS_YOKAI_TAKE_CARE",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_PALLET",
+      "target": "MUS_YOKAI_NATHAN_HOUSE",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_OAK_LAB",
+      "target": "MUS_YOKAI_NATHAN_HOUSE",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_PEWTER",
+      "target": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_VS_CHAMPION",
+      "target": "MUS_YOKAI_FINAL_BATTLE",
+      "reason": "Réutilisation d’une OST existante ; thèmes spéciaux MUS_YOKAI_* inchangés."
+    },
+    {
+      "source": "MUS_EVOLUTION",
+      "target": "MUS_YOKAI_CURIOUS",
+      "reason": "Musique de métamorphose ; fanfare courte de réussite conservée."
+    }
+  ]
+}

@@ -9,8 +9,22 @@ extern const u32 gYokaiPrivateAudioMask;
 extern const u32 gYokaiPrivateSlotCount;
 #endif
 
+#include "data/yokai_music_aliases.h"
+
 struct SongHeader *YokaiGetSongHeader(u16 song, struct SongHeader *fallback)
 {
+    u32 i;
+    /* Resolve legacy script/engine BGM calls as well as map headers. Dedicated
+     * character themes, fanfares, cries and SE IDs never enter this table.
+     * Public builds use the dedicated theme's native fallback, not private data.
+     */
+    for (i = 0; i < NELEMS(sYokaiMusicAliases); i++)
+        if (sYokaiMusicAliases[i][0] == song)
+        {
+            song = sYokaiMusicAliases[i][1];
+            fallback = gSongTable[song].header;
+            break;
+        }
 #ifdef YOKAI_PRIVATE_AUDIO
     if (song >= MUS_YOKAI_BICYCLE && song <= MUS_YOKAI_LAST)
     {
