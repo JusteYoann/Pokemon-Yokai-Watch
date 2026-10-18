@@ -5923,7 +5923,8 @@ static u16 GetBattleBGM(void)
         case TRAINER_YOKAI_EMPLOYEBLEU:
         case TRAINER_YOKAI_MAFIAMILLE1:
         case TRAINER_YOKAI_MAFIAMILLE2:
-        case TRAINER_YOKAI_MAFIAMILLE3: return MUS_YOKAI_VS_YOKAI;
+        case TRAINER_YOKAI_MAFIAMILLE3: return MUS_YOKAI_MINI_BOSS;
+        case TRAINER_BLACK_BELT_KOICHI: return MUS_YOKAI_BLASTERS_THEME;
         }
         switch (gTrainers[gTrainerBattleOpponent_A].trainerClass)
         {
@@ -5932,6 +5933,8 @@ static u16 GetBattleBGM(void)
         case TRAINER_CLASS_LEADER:
         case TRAINER_CLASS_ELITE_FOUR:
             return MUS_YOKAI_BOSS_YOKAI;
+        case TRAINER_CLASS_SCIENTIST:
+            return MUS_YOKAI_ROBON_3000;
         case TRAINER_CLASS_BOSS:
         case TRAINER_CLASS_TEAM_ROCKET:
         case TRAINER_CLASS_COOLTRAINER:

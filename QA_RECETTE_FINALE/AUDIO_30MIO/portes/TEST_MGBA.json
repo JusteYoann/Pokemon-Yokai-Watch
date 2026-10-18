@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "586ee6b7934b4825291934f5fcbbe1c4f9a3a1fc83a642fb9ab7a75b8e56bd58",
+  "results": [
+    {
+      "test": "TwoIsland--TwoIsland_PokemonCenter_1F-entree",
+      "destination": "TwoIsland_PokemonCenter_1F",
+      "controller_frames": 102,
+      "same_header": true,
+      "clock_before": 589,
+      "clock_after": 691,
+      "no_restart": true,
+      "no_pause": true,
+      "passed": true
+    },
+    {
+      "test": "TwoIsland--TwoIsland_PokemonCenter_1F-sortie",
+      "destination": "TwoIsland",
+      "controller_frames": 102,
+      "same_header": true,
+      "clock_before": 751,
+      "clock_after": 853,
+      "no_restart": true,
+      "no_pause": true,
+      "passed": true
+    }
+  ],
+  "scope": "Actual controller doors after real new-game initialization and explicit position/progression fixtures. Header, monotonic sequencer clock, no pause. Not all homes/routes or a whole-adventure playthrough."
+}

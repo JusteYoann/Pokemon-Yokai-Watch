@@ -1,7 +1,7 @@
 {
   "source": "Original15 mandatory + explicit approval of POST_B13/audio/propositions_ambiance.csv",
   "sample_rate_hz": 13379,
-  "status": "POST_B13 user-approved 22 selections, legacy IDs retained; selected_v1 is historical field name",
+  "status": "User-authorized expansion towards30MiB; six legacy candidates restored on validated recurrence, two previous personal loops pending.",
   "tracks": [
     {
       "number": 1,
@@ -73,7 +73,7 @@
       "game": "BLASTERS",
       "source_stem": "3. Blasters Hideout - Yo-Kai Watch Blasters OST",
       "destination": "base_coach",
-      "selected_v1": false
+      "selected_v1": true
     },
     {
       "number": 10,
@@ -81,7 +81,7 @@
       "game": "BLASTERS",
       "source_stem": "1. Yo-kai Watch Blasters! Theme - Yo-Kai Watch Blasters OST",
       "destination": "combat_coach",
-      "selected_v1": false
+      "selected_v1": true
     },
     {
       "number": 11,
@@ -129,7 +129,7 @@
       "game": "YW2",
       "source_stem": "6. Yo-Kai Watch 2 OST - Harrisville(1)",
       "destination": "ile_deux",
-      "selected_v1": false
+      "selected_v1": true
     },
     {
       "number": 17,
@@ -145,7 +145,7 @@
       "game": "YW2",
       "source_stem": "68. Messenger from the Future ~ Robonyan Arrives - Yo-Kai Watch 2 OST",
       "destination": "dialogue_scientifique",
-      "selected_v1": false
+      "selected_v1": true
     },
     {
       "number": 19,
@@ -153,7 +153,7 @@
       "game": "BLASTERS",
       "source_stem": "21. Vs. Robonyan 3000 - Yo-Kai Watch Blasters OST",
       "destination": "combat_scientifique",
-      "selected_v1": false
+      "selected_v1": true
     },
     {
       "number": 20,
@@ -161,7 +161,7 @@
       "game": "SANGOKUSHI",
       "source_stem": "11. Mini Boss Battle - Yo-Kai Sangokushi OST",
       "destination": "employes_mafiamille",
-      "selected_v1": false
+      "selected_v1": true
     },
     {
       "number": 21,
@@ -260,10 +260,16 @@
     5,
     6,
     7,
+    9,
+    10,
     11,
     12,
     15,
+    16,
     17,
+    18,
+    19,
+    20,
     21,
     22,
     23,

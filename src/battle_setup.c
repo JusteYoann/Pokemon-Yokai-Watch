@@ -1012,6 +1012,11 @@ void PlayTrainerEncounterMusic(void)
      && sTrainerBattleMode != TRAINER_BATTLE_CONTINUE_SCRIPT_NO_MUSIC
      && sTrainerBattleMode != TRAINER_BATTLE_CONTINUE_SCRIPT_DOUBLE_NO_MUSIC)
     {
+        if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_SCIENTIST)
+        {
+            PlayNewMapMusic(MUS_YOKAI_ROBON_ARRIVES);
+            return;
+        }
         switch (GetTrainerEncounterMusicId(gTrainerBattleOpponent_A))
         {
         case TRAINER_ENCOUNTER_MUSIC_FEMALE:

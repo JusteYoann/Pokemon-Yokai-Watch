@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "586ee6b7934b4825291934f5fcbbe1c4f9a3a1fc83a642fb9ab7a75b8e56bd58",
+  "results": [
+    {
+      "number": 9,
+      "frames": 5137,
+      "duration_seconds": 86.02398681640625,
+      "integrated_lufs": -29.1,
+      "lra_lu": 3.7,
+      "true_peak_dbfs": -13.4,
+      "raw_clipped_samples": 0,
+      "samples": 11275336
+    },
+    {
+      "number": 10,
+      "frames": 5095,
+      "duration_seconds": 85.32080078125,
+      "integrated_lufs": -29.0,
+      "lra_lu": 3.7,
+      "true_peak_dbfs": -16.6,
+      "raw_clipped_samples": 0,
+      "samples": 11183168
+    },
+    {
+      "number": 16,
+      "frames": 5406,
+      "duration_seconds": 90.52777099609375,
+      "integrated_lufs": -29.1,
+      "lra_lu": 6.4,
+      "true_peak_dbfs": -14.2,
+      "raw_clipped_samples": 0,
+      "samples": 11865656
+    },
+    {
+      "number": 18,
+      "frames": 3569,
+      "duration_seconds": 59.77142333984375,
+      "integrated_lufs": -28.9,
+      "lra_lu": 3.2,
+      "true_peak_dbfs": -13.4,
+      "raw_clipped_samples": 0,
+      "samples": 7834360
+    },
+    {
+      "number": 19,
+      "frames": 2487,
+      "duration_seconds": 41.65582275390625,
+      "integrated_lufs": -29.1,
+      "lra_lu": 6.4,
+      "true_peak_dbfs": -17.4,
+      "raw_clipped_samples": 0,
+      "samples": 5459912
+    },
+    {
+      "number": 20,
+      "frames": 6388,
+      "duration_seconds": 106.9691162109375,
+      "integrated_lufs": -29.0,
+      "lra_lu": 3.4,
+      "true_peak_dbfs": -15.4,
+      "raw_clipped_samples": 0,
+      "samples": 14020656
+    }
+  ],
+  "scope": "Actual native mixer, complete intro plus one source cycle, EBU R128 after20Hz DC rejection; no subjective listening, no simultaneous effects in this measurement."
+}

@@ -8,6 +8,7 @@ G=json.loads((ROOT/'data/maps/map_groups.json').read_text())
 MAPS={n:(i,j) for i,k in enumerate(G['group_order']) for j,n in enumerate(G[k])}
 maps={p.parent.name:json.loads(p.read_text()) for p in (ROOT/'data/maps').glob('*/map.json')}
 names={d['id']:name for name,d in maps.items()}
+selected_towns=set(filter(None,os.environ.get('YOKAI_AUDIO_DOOR_TOWNS','').split(',')))
 r=new_game();checks=[];passed=False;error='Interrupted'
 def location():return tuple(r.read(r.u32(r.symbols['gSaveBlock1Ptr'])+4,2))
 def warp(name,x,y):
@@ -40,6 +41,7 @@ try:
     r.call('VarSet',0x4057,2)  # Parcel already delivered; no introductory clerk lock.
     base=r.snapshot()
     for town,d in sorted(maps.items()):
+        if selected_towns and town not in selected_towns:continue
         if d['map_type'] not in ['MAP_TYPE_TOWN','MAP_TYPE_CITY','MAP_TYPE_ROUTE']:continue
         for w in d.get('warp_events',[]):
             dest=names.get(w['dest_map'],'')
@@ -50,7 +52,7 @@ try:
             checks.append(cross(dest,4,label+'-entree'))
             checks.append(cross(town,5,label+'-sortie'))
             print('DOORS',town,dest,flush=True)
-    assert len(checks)>=40, 'Too few door tests executed'
+    assert len(checks)>=(2 if selected_towns else 40), 'Too few door tests executed'
     passed=True;error=None
 except BaseException as e:
     error=str(e);r.frame.save(P/'diagnostic.png');raise
