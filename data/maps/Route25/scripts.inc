@@ -72,10 +72,10 @@ Route25_EventScript_UsapionCameo::
 Route25_Text_ArianeOffer::
 	.string "Ariane: Un nouveau mystère!\n"
 	.string "Tes Yo-kai m’intriguent.\p"
-	.string "Usapion et moi, on est prêts!\n"
+	.string "Usapyon et moi, on est prêts!\n"
 	.string "Tu veux faire un combat?$"
 Route25_Text_ArianeStart::
-	.string "Allons-y, Usapion!\n"
+	.string "Allons-y, Usapyon!\n"
 	.string "On va leur montrer!$"
 Route25_Text_ArianePostStart::
 	.string "Emperor et moi avons progressé!\n"
@@ -90,12 +90,12 @@ Route25_Text_ArianeAfterVictory::
 	.string "essaiera une autre stratégie!$"
 Route25_Text_ArianeReward::
 	.string "Prends cette Pierre Lune.\n"
-	.string "Usapion peut évoluer grâce à elle.\p"
+	.string "Usapyon peut évoluer grâce à elle.\p"
 	.string "Tu trouveras sûrement comment\n"
 	.string "en faire bon usage!$"
 Route25_Text_ArianeRevisit::
 	.string "Ariane: J’ai encore des recherches\n"
-	.string "à faire avec Usapion.\p"
+	.string "à faire avec Usapyon.\p"
 	.string "Reviens après la Ligue!\n"
 	.string "On te préparera une surprise.$"
 Route25_Text_ArianeDecline::
@@ -105,5 +105,5 @@ Route25_Text_ArianeBagFull::
 	.string "Ariane: Ton sac est plein.\n"
 	.string "Je te garde la Pierre Lune!$"
 Route25_Text_UsapionCameo::
-	.string "Usapion vérifie son équipement.\n"
+	.string "Usapyon vérifie son équipement.\n"
 	.string "Il semble prêt pour l’aventure!$"

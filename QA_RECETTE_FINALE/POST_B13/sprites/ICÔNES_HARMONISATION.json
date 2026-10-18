@@ -1,0 +1,2421 @@
+{
+  "scope": "All151 source icons inspected for native menu cell bounds; individual natural-size caps18–24px, no upscaling, original PNG/palette unchanged; actual menu/PC QA still required",
+  "species": [
+    {
+      "number": 1,
+      "source_bbox": [
+        2,
+        3,
+        30,
+        28
+      ],
+      "target_pixels": [
+        27,
+        24
+      ],
+      "scale_q8": 245,
+      "natural_height_cap": 24,
+      "reason": "Icône 001: gabarit grand, boîte initiale 28×25, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 2,
+      "source_bbox": [
+        2,
+        3,
+        30,
+        27
+      ],
+      "target_pixels": [
+        26,
+        22
+      ],
+      "scale_q8": 234,
+      "natural_height_cap": 22,
+      "reason": "Icône 002: gabarit moyen, boîte initiale 28×24, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 3,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        29
+      ],
+      "target_pixels": [
+        22,
+        22
+      ],
+      "scale_q8": 201,
+      "natural_height_cap": 22,
+      "reason": "Icône 003: gabarit moyen, boîte initiale 28×28, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 4,
+      "source_bbox": [
+        2,
+        3,
+        30,
+        28
+      ],
+      "target_pixels": [
+        25,
+        22
+      ],
+      "scale_q8": 225,
+      "natural_height_cap": 22,
+      "reason": "Icône 004: gabarit moyen, boîte initiale 28×25, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 5,
+      "source_bbox": [
+        3,
+        1,
+        29,
+        30
+      ],
+      "target_pixels": [
+        20,
+        22
+      ],
+      "scale_q8": 194,
+      "natural_height_cap": 22,
+      "reason": "Icône 005: gabarit moyen, boîte initiale 26×29, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 6,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        29
+      ],
+      "target_pixels": [
+        22,
+        22
+      ],
+      "scale_q8": 201,
+      "natural_height_cap": 22,
+      "reason": "Icône 006: gabarit moyen, boîte initiale 28×28, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 7,
+      "source_bbox": [
+        4,
+        1,
+        27,
+        30
+      ],
+      "target_pixels": [
+        17,
+        22
+      ],
+      "scale_q8": 194,
+      "natural_height_cap": 22,
+      "reason": "Icône 007: gabarit moyen, boîte initiale 23×29, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 8,
+      "source_bbox": [
+        2,
+        1,
+        29,
+        30
+      ],
+      "target_pixels": [
+        20,
+        22
+      ],
+      "scale_q8": 194,
+      "natural_height_cap": 22,
+      "reason": "Icône 008: gabarit moyen, boîte initiale 27×29, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 9,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        30
+      ],
+      "target_pixels": [
+        17,
+        18
+      ],
+      "scale_q8": 158,
+      "natural_height_cap": 18,
+      "reason": "Icône 009: gabarit petit, boîte initiale 28×29, plafond 18px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 10,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        30
+      ],
+      "target_pixels": [
+        21,
+        22
+      ],
+      "scale_q8": 194,
+      "natural_height_cap": 22,
+      "reason": "Icône 010: gabarit moyen, boîte initiale 28×29, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 11,
+      "source_bbox": [
+        4,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        17,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 011: gabarit petit, boîte initiale 24×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 12,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        28
+      ],
+      "target_pixels": [
+        24,
+        22
+      ],
+      "scale_q8": 216,
+      "natural_height_cap": 22,
+      "reason": "Icône 012: gabarit moyen, boîte initiale 28×26, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 13,
+      "source_bbox": [
+        4,
+        1,
+        27,
+        30
+      ],
+      "target_pixels": [
+        17,
+        22
+      ],
+      "scale_q8": 194,
+      "natural_height_cap": 22,
+      "reason": "Icône 013: gabarit moyen, boîte initiale 23×29, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 14,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        30
+      ],
+      "target_pixels": [
+        23,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 014: gabarit grand, boîte initiale 28×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 15,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        29
+      ],
+      "target_pixels": [
+        25,
+        24
+      ],
+      "scale_q8": 227,
+      "natural_height_cap": 24,
+      "reason": "Icône 015: gabarit grand, boîte initiale 28×27, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 16,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        30
+      ],
+      "target_pixels": [
+        23,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 016: gabarit grand, boîte initiale 28×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 17,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        29
+      ],
+      "target_pixels": [
+        22,
+        22
+      ],
+      "scale_q8": 201,
+      "natural_height_cap": 22,
+      "reason": "Icône 017: gabarit moyen, boîte initiale 28×28, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 18,
+      "source_bbox": [
+        2,
+        3,
+        30,
+        27
+      ],
+      "target_pixels": [
+        26,
+        22
+      ],
+      "scale_q8": 234,
+      "natural_height_cap": 22,
+      "reason": "Icône 018: gabarit moyen, boîte initiale 28×24, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 19,
+      "source_bbox": [
+        2,
+        3,
+        30,
+        27
+      ],
+      "target_pixels": [
+        28,
+        24
+      ],
+      "scale_q8": 256,
+      "natural_height_cap": 24,
+      "reason": "Icône 019: gabarit grand, boîte initiale 28×24, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 20,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        30
+      ],
+      "target_pixels": [
+        21,
+        22
+      ],
+      "scale_q8": 194,
+      "natural_height_cap": 22,
+      "reason": "Icône 020: gabarit moyen, boîte initiale 28×29, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 21,
+      "source_bbox": [
+        3,
+        1,
+        29,
+        30
+      ],
+      "target_pixels": [
+        20,
+        22
+      ],
+      "scale_q8": 194,
+      "natural_height_cap": 22,
+      "reason": "Icône 021: gabarit moyen, boîte initiale 26×29, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 22,
+      "source_bbox": [
+        5,
+        1,
+        26,
+        30
+      ],
+      "target_pixels": [
+        14,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 022: gabarit petit, boîte initiale 21×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 23,
+      "source_bbox": [
+        2,
+        4,
+        28,
+        27
+      ],
+      "target_pixels": [
+        26,
+        23
+      ],
+      "scale_q8": 256,
+      "natural_height_cap": 24,
+      "reason": "Icône 023: gabarit grand, boîte initiale 26×23, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 24,
+      "source_bbox": [
+        2,
+        5,
+        30,
+        26
+      ],
+      "target_pixels": [
+        27,
+        20
+      ],
+      "scale_q8": 243,
+      "natural_height_cap": 20,
+      "reason": "Icône 024: gabarit petit, boîte initiale 28×21, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 25,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        30
+      ],
+      "target_pixels": [
+        23,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 025: gabarit grand, boîte initiale 28×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 26,
+      "source_bbox": [
+        3,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        19,
+        22
+      ],
+      "scale_q8": 194,
+      "natural_height_cap": 22,
+      "reason": "Icône 026: gabarit moyen, boîte initiale 25×29, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 27,
+      "source_bbox": [
+        3,
+        1,
+        29,
+        30
+      ],
+      "target_pixels": [
+        21,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 027: gabarit grand, boîte initiale 26×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 28,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        30
+      ],
+      "target_pixels": [
+        23,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 028: gabarit grand, boîte initiale 28×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 29,
+      "source_bbox": [
+        2,
+        1,
+        29,
+        30
+      ],
+      "target_pixels": [
+        19,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 029: gabarit petit, boîte initiale 27×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 30,
+      "source_bbox": [
+        2,
+        3,
+        30,
+        27
+      ],
+      "target_pixels": [
+        26,
+        22
+      ],
+      "scale_q8": 234,
+      "natural_height_cap": 22,
+      "reason": "Icône 030: gabarit moyen, boîte initiale 28×24, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 31,
+      "source_bbox": [
+        2,
+        4,
+        30,
+        27
+      ],
+      "target_pixels": [
+        24,
+        20
+      ],
+      "scale_q8": 222,
+      "natural_height_cap": 20,
+      "reason": "Icône 031: gabarit petit, boîte initiale 28×23, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 32,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        28
+      ],
+      "target_pixels": [
+        24,
+        22
+      ],
+      "scale_q8": 216,
+      "natural_height_cap": 22,
+      "reason": "Icône 032: gabarit moyen, boîte initiale 28×26, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 33,
+      "source_bbox": [
+        2,
+        5,
+        30,
+        25
+      ],
+      "target_pixels": [
+        28,
+        20
+      ],
+      "scale_q8": 256,
+      "natural_height_cap": 24,
+      "reason": "Icône 033: gabarit grand, boîte initiale 28×20, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 34,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        29
+      ],
+      "target_pixels": [
+        22,
+        22
+      ],
+      "scale_q8": 201,
+      "natural_height_cap": 22,
+      "reason": "Icône 034: gabarit moyen, boîte initiale 28×28, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 35,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        29
+      ],
+      "target_pixels": [
+        24,
+        24
+      ],
+      "scale_q8": 219,
+      "natural_height_cap": 24,
+      "reason": "Icône 035: gabarit grand, boîte initiale 28×28, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 36,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        29
+      ],
+      "target_pixels": [
+        20,
+        20
+      ],
+      "scale_q8": 182,
+      "natural_height_cap": 20,
+      "reason": "Icône 036: gabarit petit, boîte initiale 28×28, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 37,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        29
+      ],
+      "target_pixels": [
+        24,
+        24
+      ],
+      "scale_q8": 219,
+      "natural_height_cap": 24,
+      "reason": "Icône 037: gabarit grand, boîte initiale 28×28, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 38,
+      "source_bbox": [
+        3,
+        1,
+        29,
+        30
+      ],
+      "target_pixels": [
+        20,
+        22
+      ],
+      "scale_q8": 194,
+      "natural_height_cap": 22,
+      "reason": "Icône 038: gabarit moyen, boîte initiale 26×29, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 39,
+      "source_bbox": [
+        4,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        18,
+        22
+      ],
+      "scale_q8": 194,
+      "natural_height_cap": 22,
+      "reason": "Icône 039: gabarit moyen, boîte initiale 24×29, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 40,
+      "source_bbox": [
+        2,
+        3,
+        30,
+        27
+      ],
+      "target_pixels": [
+        28,
+        24
+      ],
+      "scale_q8": 256,
+      "natural_height_cap": 24,
+      "reason": "Icône 040: gabarit grand, boîte initiale 28×24, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 41,
+      "source_bbox": [
+        2,
+        1,
+        29,
+        30
+      ],
+      "target_pixels": [
+        19,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 041: gabarit petit, boîte initiale 27×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 42,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        30
+      ],
+      "target_pixels": [
+        21,
+        22
+      ],
+      "scale_q8": 194,
+      "natural_height_cap": 22,
+      "reason": "Icône 042: gabarit moyen, boîte initiale 28×29, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 43,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        29
+      ],
+      "target_pixels": [
+        22,
+        22
+      ],
+      "scale_q8": 201,
+      "natural_height_cap": 22,
+      "reason": "Icône 043: gabarit moyen, boîte initiale 28×28, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 44,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        28
+      ],
+      "target_pixels": [
+        24,
+        22
+      ],
+      "scale_q8": 216,
+      "natural_height_cap": 22,
+      "reason": "Icône 044: gabarit moyen, boîte initiale 28×26, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 45,
+      "source_bbox": [
+        5,
+        1,
+        26,
+        30
+      ],
+      "target_pixels": [
+        14,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 045: gabarit petit, boîte initiale 21×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 46,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        29
+      ],
+      "target_pixels": [
+        20,
+        20
+      ],
+      "scale_q8": 182,
+      "natural_height_cap": 20,
+      "reason": "Icône 046: gabarit petit, boîte initiale 28×28, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 47,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        29
+      ],
+      "target_pixels": [
+        23,
+        22
+      ],
+      "scale_q8": 208,
+      "natural_height_cap": 22,
+      "reason": "Icône 047: gabarit moyen, boîte initiale 28×27, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 48,
+      "source_bbox": [
+        2,
+        5,
+        30,
+        26
+      ],
+      "target_pixels": [
+        28,
+        21
+      ],
+      "scale_q8": 256,
+      "natural_height_cap": 24,
+      "reason": "Icône 048: gabarit grand, boîte initiale 28×21, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 49,
+      "source_bbox": [
+        2,
+        6,
+        30,
+        25
+      ],
+      "target_pixels": [
+        28,
+        19
+      ],
+      "scale_q8": 256,
+      "natural_height_cap": 20,
+      "reason": "Icône 049: gabarit petit, boîte initiale 28×19, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 50,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        29
+      ],
+      "target_pixels": [
+        22,
+        22
+      ],
+      "scale_q8": 201,
+      "natural_height_cap": 22,
+      "reason": "Icône 050: gabarit moyen, boîte initiale 28×28, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 51,
+      "source_bbox": [
+        5,
+        1,
+        26,
+        30
+      ],
+      "target_pixels": [
+        14,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 051: gabarit petit, boîte initiale 21×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 52,
+      "source_bbox": [
+        2,
+        4,
+        30,
+        26
+      ],
+      "target_pixels": [
+        25,
+        20
+      ],
+      "scale_q8": 232,
+      "natural_height_cap": 20,
+      "reason": "Icône 052: gabarit petit, boîte initiale 28×22, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 53,
+      "source_bbox": [
+        5,
+        1,
+        26,
+        30
+      ],
+      "target_pixels": [
+        14,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 053: gabarit petit, boîte initiale 21×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 54,
+      "source_bbox": [
+        5,
+        1,
+        26,
+        30
+      ],
+      "target_pixels": [
+        16,
+        22
+      ],
+      "scale_q8": 194,
+      "natural_height_cap": 22,
+      "reason": "Icône 054: gabarit moyen, boîte initiale 21×29, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 55,
+      "source_bbox": [
+        2,
+        5,
+        30,
+        26
+      ],
+      "target_pixels": [
+        27,
+        20
+      ],
+      "scale_q8": 243,
+      "natural_height_cap": 20,
+      "reason": "Icône 055: gabarit petit, boîte initiale 28×21, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 56,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        30
+      ],
+      "target_pixels": [
+        21,
+        22
+      ],
+      "scale_q8": 194,
+      "natural_height_cap": 22,
+      "reason": "Icône 056: gabarit moyen, boîte initiale 28×29, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 57,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        29
+      ],
+      "target_pixels": [
+        24,
+        24
+      ],
+      "scale_q8": 219,
+      "natural_height_cap": 24,
+      "reason": "Icône 057: gabarit grand, boîte initiale 28×28, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 58,
+      "source_bbox": [
+        2,
+        4,
+        29,
+        26
+      ],
+      "target_pixels": [
+        27,
+        22
+      ],
+      "scale_q8": 256,
+      "natural_height_cap": 22,
+      "reason": "Icône 058: gabarit moyen, boîte initiale 27×22, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 59,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        30
+      ],
+      "target_pixels": [
+        21,
+        22
+      ],
+      "scale_q8": 194,
+      "natural_height_cap": 22,
+      "reason": "Icône 059: gabarit moyen, boîte initiale 28×29, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 60,
+      "source_bbox": [
+        2,
+        3,
+        30,
+        28
+      ],
+      "target_pixels": [
+        27,
+        24
+      ],
+      "scale_q8": 245,
+      "natural_height_cap": 24,
+      "reason": "Icône 060: gabarit grand, boîte initiale 28×25, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 61,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        29
+      ],
+      "target_pixels": [
+        20,
+        20
+      ],
+      "scale_q8": 182,
+      "natural_height_cap": 20,
+      "reason": "Icône 061: gabarit petit, boîte initiale 28×28, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 62,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        29
+      ],
+      "target_pixels": [
+        21,
+        20
+      ],
+      "scale_q8": 189,
+      "natural_height_cap": 20,
+      "reason": "Icône 062: gabarit petit, boîte initiale 28×27, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 63,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        29
+      ],
+      "target_pixels": [
+        20,
+        20
+      ],
+      "scale_q8": 182,
+      "natural_height_cap": 20,
+      "reason": "Icône 063: gabarit petit, boîte initiale 28×28, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 64,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        30
+      ],
+      "target_pixels": [
+        21,
+        22
+      ],
+      "scale_q8": 194,
+      "natural_height_cap": 22,
+      "reason": "Icône 064: gabarit moyen, boîte initiale 28×29, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 65,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        30
+      ],
+      "target_pixels": [
+        23,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 065: gabarit grand, boîte initiale 28×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 66,
+      "source_bbox": [
+        4,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        17,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 066: gabarit petit, boîte initiale 24×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 67,
+      "source_bbox": [
+        3,
+        1,
+        29,
+        30
+      ],
+      "target_pixels": [
+        20,
+        22
+      ],
+      "scale_q8": 194,
+      "natural_height_cap": 22,
+      "reason": "Icône 067: gabarit moyen, boîte initiale 26×29, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 68,
+      "source_bbox": [
+        2,
+        3,
+        30,
+        28
+      ],
+      "target_pixels": [
+        25,
+        22
+      ],
+      "scale_q8": 225,
+      "natural_height_cap": 22,
+      "reason": "Icône 068: gabarit moyen, boîte initiale 28×25, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 69,
+      "source_bbox": [
+        2,
+        3,
+        30,
+        28
+      ],
+      "target_pixels": [
+        25,
+        22
+      ],
+      "scale_q8": 225,
+      "natural_height_cap": 22,
+      "reason": "Icône 069: gabarit moyen, boîte initiale 28×25, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 70,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        29
+      ],
+      "target_pixels": [
+        24,
+        24
+      ],
+      "scale_q8": 219,
+      "natural_height_cap": 24,
+      "reason": "Icône 070: gabarit grand, boîte initiale 28×28, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 71,
+      "source_bbox": [
+        4,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        20,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 071: gabarit grand, boîte initiale 24×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 72,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        30
+      ],
+      "target_pixels": [
+        21,
+        22
+      ],
+      "scale_q8": 194,
+      "natural_height_cap": 22,
+      "reason": "Icône 072: gabarit moyen, boîte initiale 28×29, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 73,
+      "source_bbox": [
+        3,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        19,
+        22
+      ],
+      "scale_q8": 194,
+      "natural_height_cap": 22,
+      "reason": "Icône 073: gabarit moyen, boîte initiale 25×29, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 74,
+      "source_bbox": [
+        3,
+        1,
+        29,
+        30
+      ],
+      "target_pixels": [
+        21,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 074: gabarit grand, boîte initiale 26×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 75,
+      "source_bbox": [
+        5,
+        1,
+        27,
+        30
+      ],
+      "target_pixels": [
+        18,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 075: gabarit grand, boîte initiale 22×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 76,
+      "source_bbox": [
+        5,
+        1,
+        26,
+        30
+      ],
+      "target_pixels": [
+        14,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 076: gabarit petit, boîte initiale 21×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 77,
+      "source_bbox": [
+        3,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        21,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 077: gabarit grand, boîte initiale 25×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 78,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        30
+      ],
+      "target_pixels": [
+        23,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 078: gabarit grand, boîte initiale 28×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 79,
+      "source_bbox": [
+        2,
+        5,
+        30,
+        26
+      ],
+      "target_pixels": [
+        28,
+        21
+      ],
+      "scale_q8": 256,
+      "natural_height_cap": 24,
+      "reason": "Icône 079: gabarit grand, boîte initiale 28×21, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 80,
+      "source_bbox": [
+        2,
+        1,
+        29,
+        30
+      ],
+      "target_pixels": [
+        22,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 080: gabarit grand, boîte initiale 27×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 81,
+      "source_bbox": [
+        3,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        21,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 081: gabarit grand, boîte initiale 25×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 82,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        29
+      ],
+      "target_pixels": [
+        19,
+        18
+      ],
+      "scale_q8": 170,
+      "natural_height_cap": 18,
+      "reason": "Icône 082: gabarit petit, boîte initiale 28×27, plafond 18px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 83,
+      "source_bbox": [
+        2,
+        1,
+        29,
+        30
+      ],
+      "target_pixels": [
+        22,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 083: gabarit grand, boîte initiale 27×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 84,
+      "source_bbox": [
+        2,
+        4,
+        30,
+        26
+      ],
+      "target_pixels": [
+        28,
+        22
+      ],
+      "scale_q8": 256,
+      "natural_height_cap": 22,
+      "reason": "Icône 084: gabarit moyen, boîte initiale 28×22, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 85,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        29
+      ],
+      "target_pixels": [
+        21,
+        20
+      ],
+      "scale_q8": 189,
+      "natural_height_cap": 20,
+      "reason": "Icône 085: gabarit petit, boîte initiale 28×27, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 86,
+      "source_bbox": [
+        2,
+        4,
+        30,
+        27
+      ],
+      "target_pixels": [
+        28,
+        23
+      ],
+      "scale_q8": 256,
+      "natural_height_cap": 24,
+      "reason": "Icône 086: gabarit grand, boîte initiale 28×23, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 87,
+      "source_bbox": [
+        2,
+        3,
+        30,
+        28
+      ],
+      "target_pixels": [
+        22,
+        20
+      ],
+      "scale_q8": 204,
+      "natural_height_cap": 20,
+      "reason": "Icône 087: gabarit petit, boîte initiale 28×25, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 88,
+      "source_bbox": [
+        2,
+        4,
+        30,
+        27
+      ],
+      "target_pixels": [
+        28,
+        23
+      ],
+      "scale_q8": 256,
+      "natural_height_cap": 24,
+      "reason": "Icône 088: gabarit grand, boîte initiale 28×23, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 89,
+      "source_bbox": [
+        3,
+        1,
+        29,
+        30
+      ],
+      "target_pixels": [
+        21,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 089: gabarit grand, boîte initiale 26×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 90,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        30
+      ],
+      "target_pixels": [
+        19,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 090: gabarit petit, boîte initiale 28×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 91,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        28
+      ],
+      "target_pixels": [
+        21,
+        20
+      ],
+      "scale_q8": 196,
+      "natural_height_cap": 20,
+      "reason": "Icône 091: gabarit petit, boîte initiale 28×26, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 92,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        28
+      ],
+      "target_pixels": [
+        26,
+        24
+      ],
+      "scale_q8": 236,
+      "natural_height_cap": 24,
+      "reason": "Icône 092: gabarit grand, boîte initiale 28×26, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 93,
+      "source_bbox": [
+        5,
+        1,
+        26,
+        30
+      ],
+      "target_pixels": [
+        14,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 093: gabarit petit, boîte initiale 21×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 94,
+      "source_bbox": [
+        3,
+        1,
+        29,
+        30
+      ],
+      "target_pixels": [
+        18,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 094: gabarit petit, boîte initiale 26×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 95,
+      "source_bbox": [
+        4,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        20,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 095: gabarit grand, boîte initiale 24×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 96,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        28
+      ],
+      "target_pixels": [
+        26,
+        24
+      ],
+      "scale_q8": 236,
+      "natural_height_cap": 24,
+      "reason": "Icône 096: gabarit grand, boîte initiale 28×26, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 97,
+      "source_bbox": [
+        3,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        21,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 097: gabarit grand, boîte initiale 25×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 98,
+      "source_bbox": [
+        4,
+        1,
+        27,
+        30
+      ],
+      "target_pixels": [
+        16,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 098: gabarit petit, boîte initiale 23×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 99,
+      "source_bbox": [
+        4,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        20,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 099: gabarit grand, boîte initiale 24×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 100,
+      "source_bbox": [
+        7,
+        1,
+        25,
+        30
+      ],
+      "target_pixels": [
+        14,
+        22
+      ],
+      "scale_q8": 194,
+      "natural_height_cap": 22,
+      "reason": "Icône 100: gabarit moyen, boîte initiale 18×29, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 101,
+      "source_bbox": [
+        7,
+        1,
+        25,
+        30
+      ],
+      "target_pixels": [
+        15,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 101: gabarit grand, boîte initiale 18×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 102,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        28
+      ],
+      "target_pixels": [
+        24,
+        22
+      ],
+      "scale_q8": 216,
+      "natural_height_cap": 22,
+      "reason": "Icône 102: gabarit moyen, boîte initiale 28×26, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 103,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        28
+      ],
+      "target_pixels": [
+        24,
+        22
+      ],
+      "scale_q8": 216,
+      "natural_height_cap": 22,
+      "reason": "Icône 103: gabarit moyen, boîte initiale 28×26, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 104,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        28
+      ],
+      "target_pixels": [
+        26,
+        24
+      ],
+      "scale_q8": 236,
+      "natural_height_cap": 24,
+      "reason": "Icône 104: gabarit grand, boîte initiale 28×26, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 105,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        28
+      ],
+      "target_pixels": [
+        26,
+        24
+      ],
+      "scale_q8": 236,
+      "natural_height_cap": 24,
+      "reason": "Icône 105: gabarit grand, boîte initiale 28×26, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 106,
+      "source_bbox": [
+        5,
+        1,
+        26,
+        30
+      ],
+      "target_pixels": [
+        14,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 106: gabarit petit, boîte initiale 21×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 107,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        29
+      ],
+      "target_pixels": [
+        25,
+        24
+      ],
+      "scale_q8": 227,
+      "natural_height_cap": 24,
+      "reason": "Icône 107: gabarit grand, boîte initiale 28×27, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 108,
+      "source_bbox": [
+        2,
+        1,
+        29,
+        30
+      ],
+      "target_pixels": [
+        19,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 108: gabarit petit, boîte initiale 27×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 109,
+      "source_bbox": [
+        4,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        20,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 109: gabarit grand, boîte initiale 24×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 110,
+      "source_bbox": [
+        3,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        17,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 110: gabarit petit, boîte initiale 25×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 111,
+      "source_bbox": [
+        3,
+        1,
+        29,
+        30
+      ],
+      "target_pixels": [
+        21,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 111: gabarit grand, boîte initiale 26×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 112,
+      "source_bbox": [
+        2,
+        5,
+        30,
+        25
+      ],
+      "target_pixels": [
+        28,
+        20
+      ],
+      "scale_q8": 256,
+      "natural_height_cap": 24,
+      "reason": "Icône 112: gabarit grand, boîte initiale 28×20, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 113,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        30
+      ],
+      "target_pixels": [
+        19,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 113: gabarit petit, boîte initiale 28×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 114,
+      "source_bbox": [
+        3,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        21,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 114: gabarit grand, boîte initiale 25×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 115,
+      "source_bbox": [
+        4,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        17,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 115: gabarit petit, boîte initiale 24×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 116,
+      "source_bbox": [
+        2,
+        4,
+        30,
+        27
+      ],
+      "target_pixels": [
+        28,
+        23
+      ],
+      "scale_q8": 256,
+      "natural_height_cap": 24,
+      "reason": "Icône 116: gabarit grand, boîte initiale 28×23, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 117,
+      "source_bbox": [
+        2,
+        6,
+        30,
+        24
+      ],
+      "target_pixels": [
+        28,
+        18
+      ],
+      "scale_q8": 256,
+      "natural_height_cap": 20,
+      "reason": "Icône 117: gabarit petit, boîte initiale 28×18, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 118,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        29
+      ],
+      "target_pixels": [
+        21,
+        20
+      ],
+      "scale_q8": 189,
+      "natural_height_cap": 20,
+      "reason": "Icône 118: gabarit petit, boîte initiale 28×27, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 119,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        28
+      ],
+      "target_pixels": [
+        21,
+        20
+      ],
+      "scale_q8": 196,
+      "natural_height_cap": 20,
+      "reason": "Icône 119: gabarit petit, boîte initiale 28×26, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 120,
+      "source_bbox": [
+        3,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        21,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 120: gabarit grand, boîte initiale 25×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 121,
+      "source_bbox": [
+        4,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        17,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 121: gabarit petit, boîte initiale 24×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 122,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        28
+      ],
+      "target_pixels": [
+        21,
+        20
+      ],
+      "scale_q8": 196,
+      "natural_height_cap": 20,
+      "reason": "Icône 122: gabarit petit, boîte initiale 28×26, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 123,
+      "source_bbox": [
+        4,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        17,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 123: gabarit petit, boîte initiale 24×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 124,
+      "source_bbox": [
+        2,
+        4,
+        30,
+        26
+      ],
+      "target_pixels": [
+        25,
+        20
+      ],
+      "scale_q8": 232,
+      "natural_height_cap": 20,
+      "reason": "Icône 124: gabarit petit, boîte initiale 28×22, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 125,
+      "source_bbox": [
+        3,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        17,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 125: gabarit petit, boîte initiale 25×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 126,
+      "source_bbox": [
+        2,
+        4,
+        30,
+        27
+      ],
+      "target_pixels": [
+        24,
+        20
+      ],
+      "scale_q8": 222,
+      "natural_height_cap": 20,
+      "reason": "Icône 126: gabarit petit, boîte initiale 28×23, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 127,
+      "source_bbox": [
+        3,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        17,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 127: gabarit petit, boîte initiale 25×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 128,
+      "source_bbox": [
+        2,
+        4,
+        30,
+        26
+      ],
+      "target_pixels": [
+        25,
+        20
+      ],
+      "scale_q8": 232,
+      "natural_height_cap": 20,
+      "reason": "Icône 128: gabarit petit, boîte initiale 28×22, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 129,
+      "source_bbox": [
+        2,
+        6,
+        30,
+        24
+      ],
+      "target_pixels": [
+        28,
+        18
+      ],
+      "scale_q8": 256,
+      "natural_height_cap": 20,
+      "reason": "Icône 129: gabarit petit, boîte initiale 28×18, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 130,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        28
+      ],
+      "target_pixels": [
+        26,
+        24
+      ],
+      "scale_q8": 236,
+      "natural_height_cap": 24,
+      "reason": "Icône 130: gabarit grand, boîte initiale 28×26, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 131,
+      "source_bbox": [
+        2,
+        4,
+        30,
+        27
+      ],
+      "target_pixels": [
+        24,
+        20
+      ],
+      "scale_q8": 222,
+      "natural_height_cap": 20,
+      "reason": "Icône 131: gabarit petit, boîte initiale 28×23, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 132,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        29
+      ],
+      "target_pixels": [
+        24,
+        24
+      ],
+      "scale_q8": 219,
+      "natural_height_cap": 24,
+      "reason": "Icône 132: gabarit grand, boîte initiale 28×28, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 133,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        29
+      ],
+      "target_pixels": [
+        25,
+        24
+      ],
+      "scale_q8": 227,
+      "natural_height_cap": 24,
+      "reason": "Icône 133: gabarit grand, boîte initiale 28×27, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 134,
+      "source_bbox": [
+        4,
+        1,
+        27,
+        30
+      ],
+      "target_pixels": [
+        16,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 134: gabarit petit, boîte initiale 23×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 135,
+      "source_bbox": [
+        3,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        21,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 135: gabarit grand, boîte initiale 25×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 136,
+      "source_bbox": [
+        3,
+        1,
+        29,
+        30
+      ],
+      "target_pixels": [
+        18,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 136: gabarit petit, boîte initiale 26×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 137,
+      "source_bbox": [
+        4,
+        1,
+        27,
+        30
+      ],
+      "target_pixels": [
+        17,
+        22
+      ],
+      "scale_q8": 194,
+      "natural_height_cap": 22,
+      "reason": "Icône 137: gabarit moyen, boîte initiale 23×29, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 138,
+      "source_bbox": [
+        7,
+        1,
+        25,
+        30
+      ],
+      "target_pixels": [
+        15,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 138: gabarit grand, boîte initiale 18×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 139,
+      "source_bbox": [
+        2,
+        1,
+        30,
+        29
+      ],
+      "target_pixels": [
+        20,
+        20
+      ],
+      "scale_q8": 182,
+      "natural_height_cap": 20,
+      "reason": "Icône 139: gabarit petit, boîte initiale 28×28, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 140,
+      "source_bbox": [
+        3,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        21,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 140: gabarit grand, boîte initiale 25×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 141,
+      "source_bbox": [
+        2,
+        1,
+        29,
+        30
+      ],
+      "target_pixels": [
+        19,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 141: gabarit petit, boîte initiale 27×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 142,
+      "source_bbox": [
+        2,
+        7,
+        30,
+        24
+      ],
+      "target_pixels": [
+        28,
+        17
+      ],
+      "scale_q8": 256,
+      "natural_height_cap": 24,
+      "reason": "Icône 142: gabarit grand, boîte initiale 28×17, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 143,
+      "source_bbox": [
+        2,
+        3,
+        30,
+        27
+      ],
+      "target_pixels": [
+        23,
+        20
+      ],
+      "scale_q8": 213,
+      "natural_height_cap": 20,
+      "reason": "Icône 143: gabarit petit, boîte initiale 28×24, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 144,
+      "source_bbox": [
+        2,
+        3,
+        30,
+        27
+      ],
+      "target_pixels": [
+        28,
+        24
+      ],
+      "scale_q8": 256,
+      "natural_height_cap": 24,
+      "reason": "Icône 144: gabarit grand, boîte initiale 28×24, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 145,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        28
+      ],
+      "target_pixels": [
+        26,
+        24
+      ],
+      "scale_q8": 236,
+      "natural_height_cap": 24,
+      "reason": "Icône 145: gabarit grand, boîte initiale 28×26, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 146,
+      "source_bbox": [
+        3,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        17,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 146: gabarit petit, boîte initiale 25×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 147,
+      "source_bbox": [
+        5,
+        1,
+        26,
+        30
+      ],
+      "target_pixels": [
+        17,
+        24
+      ],
+      "scale_q8": 211,
+      "natural_height_cap": 24,
+      "reason": "Icône 147: gabarit grand, boîte initiale 21×29, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 148,
+      "source_bbox": [
+        2,
+        3,
+        30,
+        28
+      ],
+      "target_pixels": [
+        27,
+        24
+      ],
+      "scale_q8": 245,
+      "natural_height_cap": 24,
+      "reason": "Icône 148: gabarit grand, boîte initiale 28×25, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 149,
+      "source_bbox": [
+        2,
+        1,
+        29,
+        30
+      ],
+      "target_pixels": [
+        20,
+        22
+      ],
+      "scale_q8": 194,
+      "natural_height_cap": 22,
+      "reason": "Icône 149: gabarit moyen, boîte initiale 27×29, plafond 22px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 150,
+      "source_bbox": [
+        2,
+        2,
+        30,
+        28
+      ],
+      "target_pixels": [
+        26,
+        24
+      ],
+      "scale_q8": 236,
+      "natural_height_cap": 24,
+      "reason": "Icône 150: gabarit grand, boîte initiale 28×26, plafond 24px, centre de masse et deux images préservés"
+    },
+    {
+      "number": 151,
+      "source_bbox": [
+        4,
+        1,
+        28,
+        30
+      ],
+      "target_pixels": [
+        17,
+        20
+      ],
+      "scale_q8": 176,
+      "natural_height_cap": 20,
+      "reason": "Icône 151: gabarit petit, boîte initiale 24×29, plafond 20px, centre de masse et deux images préservés"
+    }
+  ]
+}

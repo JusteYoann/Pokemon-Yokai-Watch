@@ -1,0 +1,53 @@
+id,domaine,exigence,etat,preuve,reste
+AUD-01,Audio,Volumes BGM/SFX/cris,MESURE_ET_TRANSITIONS_TESTEES,audio/niveaux-audio-lot1.json,Écoute humaine globale ; sons Yo-kai dédiés absents
+AUD-02,Audio,Continuité villes/centres/labos/routes,TEST_PARTIEL_6_PASSAGES,audio/CONTINUITE_MGBA.json,"Autres villes, entrées multiples, Vol/Téléportation"
+AUD-03,Audio,Exploration/rencontre/victoire/retour,TEST_NATIF_MONT_SELENITE,audio/transition-sauvage/TEST_MGBA.json,Autres contextes et écoute
+AUD-04,Audio,Attributions quasi exclusivement Yo-kai,EN_COURS_18_ACTIVES,audio/propositions_ambiance.csv,Quatre boucles et ambiances encore natives
+AUD-05,Audio,Enma Track dialogue,A_RESoudre,,Boucle fiable puis déclenchement
+AUD-06,Audio,Final Battle Champion Matt seulement,A_RESoudre,,Boucle fiable puis déclenchement
+AUD-07,Audio,Nate’s House Palette,A_RESoudre,,Boucle de section complète
+AUD-08,Audio,Blossom Heights Jadielle/Argenta,A_RESoudre,,Boucle de section complète
+AUD-09,Audio,Cris/apparitions/attaques/dégâts/KO/capture,RESSOURCES_DEDIEES_MANQUANTES,,Ne pas insérer de sons arbitraires
+AUD-10,Audio,Victoires/niveaux/évolution/sonneries,REFERENCES_MANQUANTES,,Identifier ressources dédiées ; volume natif calibré
+AUD-11,Audio,Anciennes musiques/doublons réellement inutiles,INVENTORIE_SANS_SUPPRESSION,audio/STOCKAGE_ET_CANDIDATS.json,Analyse références dynamiques avant suppression
+GRA-01,Graphismes,151 face/dos en combat,INSPECTION_ASSISTANT_151,sprites/presentation-lot1/,Validation artistique humaine ; retouches résiduelles
+GRA-02,Graphismes,Pitou/Baku/Cigalopin face,CORRIGE_ET_CAPTURE,sprites/registre_151.csv,Conserver suivi visuel
+GRA-03,Graphismes,Komasan/Komaous/Cigalopin/Nihilistik dos,CORRIGE_ET_CAPTURE,sprites/registre_151.csv,Vérifier équilibre familles et détails
+GRA-04,Graphismes,151 icônes équipe/PC/autres,HARMONISEES_151_EQUIPE_ET_PC_CAPTUREES,sprites/pc-lot2/TEST_PC_151.json,Autres menus spécifiques ; finitions artistiques utilisateur
+GRA-05,Graphismes,Nathan/Katie/Matt OW et animations,RESSOURCES_LIEES_QA_VISUEL_RESTANT,CONTROLE_ROM_18_OST.json,Marche/course/vélo/surf/pêche toutes orientations
+GRA-06,Graphismes,Ariane/Usapyon,CORRIGE_ET_TEST_NATIF,audio/ariane/,Finitions stylistiques éventuelles
+GRA-07,Graphismes,Léo/Jibanyan,CORRIGE_ET_TEST_NATIF,sprites/overworld/,Deux variantes téléporteur passent
+GRA-08,Graphismes,Misterre correction limitée,CORRIGE_ET_TEST_CAPTURE,sprites/MISTERRE_CORRECTION.json,Pas de redessin global
+GRA-09,Graphismes,Lord Enma/Domniscian/employés,QA_VISUEL_RESTANT,,"Proportions, palettes, interactions"
+GRA-10,Graphismes,Don Morleone/Mafiamille,QA_VISUEL_RESTANT,,"Proportions, palettes, interactions"
+GRA-11,Graphismes,Nathaniel/Michael/Wyatt/autres OW existants,QA_VISUEL_RESTANT,,Ne pas créer caméos reportés
+GRA-12,Graphismes,Shiny familles autorisées +67 exclusions,VERROU_NATIF_TESTE_ART_RESTANT,REGRESSION_MOTEUR_MGBA.json,"Couleurs/motifs/horns Robonyan28, rendu normal/shiny"
+PRE-01,Presentation,Cinématique mystérieuse courte sans spoilers,IMPLEMENTEE_CAPTUREE_ASSISTANT,presentation/TEST_PRESENTATION_MGBA.json,"Évaluation artistique utilisateur ; séquence courte de fondus/captions, pas un film complexe"
+PRE-02,Presentation,Titre original sans Dracaufeu/logo Rouge Feu,IMPLEMENTE_CAPTURE,presentation/titre.png,Évaluation artistique utilisateur
+PRE-03,Presentation,Jibanyan aide initiale,IMPLEMENTE_3_PAGES_TESTEES,presentation/aide-1.png,Conserver contrôle avec autres traductions
+PRE-04,Presentation,Textes/aide/habillage démarrage français,A_FAIRE,,Contrôles visuels et parcours nouvelle partie
+TRA-01,Traduction,Descriptions354 attaques,TRADUITES_354_LIEES_LARGEURS_ET_PANNEAUX,traduction/descriptions-natives/TEST_354.json,Vérifications représentatives dans les autres fenêtres et des effets complexes
+TRA-02,Traduction,Noms attaques/talents,LIBELLES_VERIFIES,CONTROLE_ROM_18_OST.json,Rechercher libellés graphiques résiduels
+TRA-03,Traduction,Menus/interface/PC,PARTIEL,,"Inventaire complet, largeurs contextuelles"
+TRA-04,Traduction,Combat/statuts/efficacité/apprentissage/évolutions,PARTIEL,,"Variables/codes préservés, tests natifs"
+TRA-05,Traduction,Objets/CT/CS,PARTIEL,,"Noms, descriptions et enseignement"
+TRA-06,Traduction,Dialogues/scénario/événements,PARTIEL,,Inventaire et traduction contextuelle
+TRA-07,Traduction,Usapion→Usapyon dans texte seul,CORRIGE_TEXTES_ROUTE25,traduction/INTERFACE_LOT2.json,Rechercher les autres scènes et revalider récompense
+TRA-08,Traduction,Fin/postgame/crédits/aide,A_FAIRE,,Ne pas modifier scénario
+TRA-09,Traduction,Contrôles encodage/largeurs/placeholders,PARTIEL,,Pas de troncature automatique des textes
+MED-01,Medallium,Libellés neuf habitats et commandes,A_FAIRE,,Traduire toutes commandes visibles
+MED-02,Medallium,Tableau151 actuel/proposé/incertitudes,TABLEAU_PRODUIT,medallium/HABITATS_151_PROPOSITIONS.csv,Décisions discutables à valider avant application
+MED-03,Medallium,Validation cas discutables,ATTENTE_TABLEAU,,"Demande ciblée après propositions, travail indépendant continue"
+MED-04,Medallium,Classement151 et numérotation inchangée,A_FAIRE,,"Appliquer décisions claires et validées, vérifier entrées"
+GAM-01,Gameplay,Multi Exp permanent,TEST_COMBAT_NATIF,audio/transition-sauvage/TEST_MGBA.json,À préserver
+GAM-02,Gameplay,Pierre Passpa/Nanpart,A_EXAMINER,,"Équipe réellement active, types/évolutions/solutions précoces avant changement"
+GAM-03,Gameplay,Événements personnalisés existants,TESTS_PARTIELS,,Ariane/Léo/Misterre passent ; autres à tester
+GAM-04,Gameplay,151 obtenables/évolutions/légendaires,DONNEES_VERIFIEES_QA_PARCOURS_RESTANT,,Préserver Kyubi Mont Braise / Mademoaiselle Îles Écume
+GAM-05,Gameplay,Conseil4/Matt/crédits/scénario,QA_PARCOURS_RESTANT,,Conditions réelles autant que possible
+GAM-06,Gameplay,CT/CS/capture/évolutions,QA_PARTIEL,,Tester scènes et menus réels
+LIV-01,Livraison,ROM≤33554432 octets et marge,MESURE_27102563,CONTROLE_ROM_LOT2.json,Marge6451869 octets ; mesurer chaque build
+LIV-02,Livraison,Compatibilité anciennes sauvegardes,A_TESTER,,Travailler sur copies B13 uniquement
+LIV-03,Livraison,Nouvelle bêta privée Windows reconstructible,A_PREPARER,,"Nouvelle version/locks/procédure, pas script B13 réétiqueté"
+LIV-04,Livraison,Clone GitHub propre public+privé,PASSE_JALON_18,REPRODUCTIBILITE_CLONE_GITHUB.json,Répéter pour bêta suivante après changements
+LIV-05,Livraison,GitHub synchronisé/aucun média protégé,PASSE_JALON_9C550849E,,"Commits réguliers, master inchangée"
+LIV-06,Livraison,Rapports/preuves/réserves/verdict,EN_COURS,,Ne pas confondre compilation et validation en jeu

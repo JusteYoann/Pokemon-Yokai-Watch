@@ -1,20 +1,20 @@
 gOtherText_NewName::
-    .string "NEW NAME$"
+    .string "NOUVEAU NOM$"
 
 gNameChoice_Green::
     .string "GREEN$"
 
 gNameChoice_Red::
-    .string "RED$"
+    .string "NATHAN$"
 
 gNameChoice_Leaf::
-    .string "LEAF$"
+    .string "KATIE$"
 
 gNameChoice_Fire::
     .string "FIRE$"
 
 gNameChoice_Gary::
-    .string "GARY$"
+    .string "MATT$"
 
 gNameChoice_Kaz::
     .string "KAZ$"
@@ -125,66 +125,64 @@ gNameChoice_Suzi::
     .string "SUZI$"
 
 gControlsGuide_Text_Intro::
-    .string "The various buttons will be explained in\n"
-    .string "the order of their importance.$"
+    .string "Voici les commandes utiles\n"
+    .string "pour commencer votre aventure.$"
 
 gControlsGuide_Text_DPad::
-    .string "Moves the main character.\n"
-    .string "Also used to choose various data\n"
-    .string "headings.$"
+    .string "Déplace le personnage.\n"
+    .string "Permet aussi de choisir\n"
+    .string "une option dans les menus.$"
 
 gControlsGuide_Text_AButton::
-    .string "Used to confirm a choice, check\n"
-    .string "things, chat, and scroll text.$"
+    .string "Valide un choix, examine un objet,\n"
+    .string "parle aux gens et fait défiler le texte.$"
 
 gControlsGuide_Text_BButton::
-    .string "Used to exit, cancel a choice,\n"
-    .string "and cancel a mode.$"
+    .string "Revient en arrière ou annule\n"
+    .string "un choix dans les menus.$"
 
 gControlsGuide_Text_StartButton::
-    .string "Press this button to open the\n"
-    .string "MENU.$"
+    .string "Ouvre le menu principal.$"
 
 gControlsGuide_Text_SelectButton::
-    .string "Used to shift items and to use\n"
-    .string "a registered item.$"
+    .string "Déplace des objets et utilise\n"
+    .string "l'objet associé au raccourci.$"
 
 gControlsGuide_Text_LRButtons::
-    .string "If you need help playing the\n"
-    .string "game, or on how to do things,\n"
-    .string "press the L or R Button.$"
+    .string "Besoin d'aide pour jouer?\n"
+    .string "Appuyez sur L ou R pour\n"
+    .string "consulter les explications.$"
 
 gOakSpeech_Text_AskPlayerGender::
     .string "Es-tu un garçon\n"
     .string "ou une fille?$"
 
 gPikachuIntro_Text_Page1::
-    .string "In the world which you are about to\n"
-    .string "enter, you will embark on a grand\n"
-    .string "adventure with you as the hero.\n"
+    .string "Bienvenue dans une aventure\n"
+    .string "dont vous êtes le héros!\n"
     .string "\n"
-    .string "Speak to people and check things\n"
-    .string "wherever you go, be it towns, roads,\n"
-    .string "or caves. Gather information and\n"
-    .string "hints from every source.$"
+    .string "Parlez aux habitants et examinez\n"
+    .string "ce qui vous entoure.\n"
+    .string "Villes, routes et grottes cachent\n"
+    .string "des indices et des Yo-kai.$"
 
 gPikachuIntro_Text_Page2::
-    .string "New paths will open to you by helping\n"
-    .string "people in need, overcoming challenges,\n"
-    .string "and solving mysteries.\n"
+    .string "Aidez les habitants, relevez\n"
+    .string "les défis et percez les mystères\n"
+    .string "pour découvrir de nouveaux lieux.\n"
     .string "\n"
-    .string "At times, you will be challenged by\n"
-    .string "others and attacked by wild creatures.\n"
-    .string "Be brave and keep pushing on.$"
+    .string "Des dresseurs et des Yo-kai\n"
+    .string "sauvages vous attendent.\n"
+    .string "Faites confiance à votre équipe!$"
 
 gPikachuIntro_Text_Page3::
-    .string "Through your adventure, we hope\n"
-    .string "that you will interact with all sorts\n"
-    .string "of people and achieve personal growth.\n"
-    .string "That is our biggest objective.\n"
+    .string "Rencontrez des gens, découvrez\n"
+    .string "les Yo-kai et grandissez ensemble.\n"
     .string "\n"
-    .string "Press the A Button, and let your\n"
-    .string "adventure begin!$"
+    .string "Chaque rencontre peut être\n"
+    .string "le début d'une belle amitié.\n"
+    .string "\n"
+    .string "Appuyez sur A pour commencer!$"
 
 gOakSpeech_Text_WelcomeToTheWorld::
     .string "Bonjour! Bienvenue à Kanto!\p"

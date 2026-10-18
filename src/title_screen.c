@@ -1,4 +1,5 @@
 #include "global.h"
+#include "yokai_presentation.h"
 #include "gflib.h"
 #include "task.h"
 #include "new_menu_helpers.h"
@@ -341,6 +342,8 @@ static const u32 *const sUnused_Tilemaps[] = {
 
 void CB2_InitTitleScreen(void)
 {
+    SetMainCallback2(CB2_InitYokaiTitle);
+    return;
     switch (gMain.state)
     {
     default:

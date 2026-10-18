@@ -1,4 +1,5 @@
 #include "global.h"
+#include "yokai_presentation.h"
 #include "gflib.h"
 #include "m4a.h"
 #include "task.h"
@@ -898,7 +899,7 @@ static void VBlankCB_Copyright(void)
 static void CB2_WaitFadeBeforeSetUpIntro(void)
 {
     if (!UpdatePaletteFade())
-        SetMainCallback2(CB2_SetUpIntro);
+        SetMainCallback2(CB2_InitYokaiIntro);
 }
 
 static void LoadCopyrightGraphics(u16 charBase, u16 screenBase, u16 palOffset)

@@ -1,0 +1,39 @@
+{
+  "engine": "mGBA libretro",
+  "rom_sha256": "c08f5333055415b95aa1a4218fca4ab90be546ceb81537f68a754a708288e536",
+  "scope": "Existing private ROM, actual startup/title/New Game/intro/custom name via controller for both genders; actual Start/Save menu confirmed by native success callback, 128 KiB battery exported to private .sav, new emulator instance, reset/title/Continue through controller; no save states, no full adventure",
+  "results": [
+    {
+      "person": "nathan",
+      "passed": true,
+      "gender_selected_via_buttons": 0,
+      "custom_player_name_typed": "AA",
+      "naming_templates": [
+        0
+      ],
+      "rival_renaming_not_shown": true,
+      "actual_overworld_reached": true,
+      "native_flash_save_created": true,
+      "battery_file_bytes": 131072,
+      "battery_sha256": "19cff5e636cd4310ae0b328a31c7ad278442bd57f79d70efc88b1ec857c4736b",
+      "fresh_emulator_continue": true,
+      "name_gender_map_preserved": true
+    },
+    {
+      "person": "katie",
+      "passed": true,
+      "gender_selected_via_buttons": 1,
+      "custom_player_name_typed": "AA",
+      "naming_templates": [
+        0
+      ],
+      "rival_renaming_not_shown": true,
+      "actual_overworld_reached": true,
+      "native_flash_save_created": true,
+      "battery_file_bytes": 131072,
+      "battery_sha256": "f3c846fc82439e9ade58858c18b12417970708200c32d407daf83ecb7e56eb97",
+      "fresh_emulator_continue": true,
+      "name_gender_map_preserved": true
+    }
+  ]
+}

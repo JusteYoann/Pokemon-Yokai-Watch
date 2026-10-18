@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """All151 species in actual party menus, opened via Start/D-pad/A after real intro."""
-import hashlib,json
+import hashlib,json,os
 from PIL import Image,ImageDraw
 from mgba_rpc import ROOT
 from mgba_new_game import new_game
-P=ROOT/'QA_RECETTE_FINALE/POST_B13/sprites/icones-menu';P.mkdir(parents=True,exist_ok=True)
+P=ROOT/os.environ.get('YOKAI_ICONS_REPORT_DIR','QA_RECETTE_FINALE/POST_B13/sprites/icones-menu');P.mkdir(parents=True,exist_ok=True)
 r=new_game();r.call('FlagSet',0x828);r.call('FlagSet',0x829);base=r.snapshot();checks=[]
 def pulse(key,after=60):
  r.keys=set();r.run(6);r.keys={key};r.run(8);r.keys=set();r.run(after)

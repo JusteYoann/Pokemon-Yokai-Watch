@@ -2,56 +2,56 @@ const u32 gMonFrontPic_Bulbasaur[] = INCBIN_U32("graphics/yokai/001/front.4bpp.l
 const u32 gMonPalette_Bulbasaur[] = INCBIN_U32("graphics/yokai/001/normal.gbapal.lz");
 const u32 gMonBackPic_Bulbasaur[] = INCBIN_U32("graphics/yokai/001/back.4bpp.lz");
 const u32 gMonShinyPalette_Bulbasaur[] = INCBIN_U32("graphics/yokai/001/shiny.gbapal.lz");
-const u8 gMonIcon_Bulbasaur[] = INCBIN_U8("graphics/yokai/001/icon.4bpp");
+const u8 gMonIcon_Bulbasaur[] = INCBIN_U8("graphics/yokai/001/icon-display.4bpp");
 const u8 gMonFootprint_Bulbasaur[] = INCBIN_U8("graphics/yokai/001/footprint.1bpp");
 
 const u32 gMonFrontPic_Ivysaur[] = INCBIN_U32("graphics/yokai/002/front.4bpp.lz");
 const u32 gMonPalette_Ivysaur[] = INCBIN_U32("graphics/yokai/002/normal.gbapal.lz");
 const u32 gMonBackPic_Ivysaur[] = INCBIN_U32("graphics/yokai/002/back.4bpp.lz");
 const u32 gMonShinyPalette_Ivysaur[] = INCBIN_U32("graphics/yokai/002/shiny.gbapal.lz");
-const u8 gMonIcon_Ivysaur[] = INCBIN_U8("graphics/yokai/002/icon.4bpp");
+const u8 gMonIcon_Ivysaur[] = INCBIN_U8("graphics/yokai/002/icon-display.4bpp");
 const u8 gMonFootprint_Ivysaur[] = INCBIN_U8("graphics/yokai/002/footprint.1bpp");
 
 const u32 gMonFrontPic_Venusaur[] = INCBIN_U32("graphics/yokai/003/front.4bpp.lz");
 const u32 gMonPalette_Venusaur[] = INCBIN_U32("graphics/yokai/003/normal.gbapal.lz");
 const u32 gMonBackPic_Venusaur[] = INCBIN_U32("graphics/yokai/003/back.4bpp.lz");
 const u32 gMonShinyPalette_Venusaur[] = INCBIN_U32("graphics/yokai/003/shiny.gbapal.lz");
-const u8 gMonIcon_Venusaur[] = INCBIN_U8("graphics/yokai/003/icon.4bpp");
+const u8 gMonIcon_Venusaur[] = INCBIN_U8("graphics/yokai/003/icon-display.4bpp");
 const u8 gMonFootprint_Venusaur[] = INCBIN_U8("graphics/yokai/003/footprint.1bpp");
 
 const u32 gMonFrontPic_Charmander[] = INCBIN_U32("graphics/yokai/004/front.4bpp.lz");
 const u32 gMonPalette_Charmander[] = INCBIN_U32("graphics/yokai/004/normal.gbapal.lz");
 const u32 gMonBackPic_Charmander[] = INCBIN_U32("graphics/yokai/004/back.4bpp.lz");
 const u32 gMonShinyPalette_Charmander[] = INCBIN_U32("graphics/yokai/004/shiny.gbapal.lz");
-const u8 gMonIcon_Charmander[] = INCBIN_U8("graphics/yokai/004/icon.4bpp");
+const u8 gMonIcon_Charmander[] = INCBIN_U8("graphics/yokai/004/icon-display.4bpp");
 const u8 gMonFootprint_Charmander[] = INCBIN_U8("graphics/yokai/004/footprint.1bpp");
 
 const u32 gMonFrontPic_Charmeleon[] = INCBIN_U32("graphics/yokai/005/front.4bpp.lz");
 const u32 gMonPalette_Charmeleon[] = INCBIN_U32("graphics/yokai/005/normal.gbapal.lz");
 const u32 gMonBackPic_Charmeleon[] = INCBIN_U32("graphics/yokai/005/back-display.4bpp.lz");
 const u32 gMonShinyPalette_Charmeleon[] = INCBIN_U32("graphics/yokai/005/shiny.gbapal.lz");
-const u8 gMonIcon_Charmeleon[] = INCBIN_U8("graphics/yokai/005/icon.4bpp");
+const u8 gMonIcon_Charmeleon[] = INCBIN_U8("graphics/yokai/005/icon-display.4bpp");
 const u8 gMonFootprint_Charmeleon[] = INCBIN_U8("graphics/yokai/005/footprint.1bpp");
 
 const u32 gMonFrontPic_Charizard[] = INCBIN_U32("graphics/yokai/006/front.4bpp.lz");
 const u32 gMonPalette_Charizard[] = INCBIN_U32("graphics/yokai/006/normal.gbapal.lz");
 const u32 gMonBackPic_Charizard[] = INCBIN_U32("graphics/yokai/006/back-display.4bpp.lz");
 const u32 gMonShinyPalette_Charizard[] = INCBIN_U32("graphics/yokai/006/shiny.gbapal.lz");
-const u8 gMonIcon_Charizard[] = INCBIN_U8("graphics/yokai/006/icon.4bpp");
+const u8 gMonIcon_Charizard[] = INCBIN_U8("graphics/yokai/006/icon-display.4bpp");
 const u8 gMonFootprint_Charizard[] = INCBIN_U8("graphics/yokai/006/footprint.1bpp");
 
 const u32 gMonFrontPic_Squirtle[] = INCBIN_U32("graphics/yokai/007/front.4bpp.lz");
 const u32 gMonPalette_Squirtle[] = INCBIN_U32("graphics/yokai/007/normal.gbapal.lz");
 const u32 gMonBackPic_Squirtle[] = INCBIN_U32("graphics/yokai/007/back-display.4bpp.lz");
 const u32 gMonShinyPalette_Squirtle[] = INCBIN_U32("graphics/yokai/007/shiny.gbapal.lz");
-const u8 gMonIcon_Squirtle[] = INCBIN_U8("graphics/yokai/007/icon.4bpp");
+const u8 gMonIcon_Squirtle[] = INCBIN_U8("graphics/yokai/007/icon-display.4bpp");
 const u8 gMonFootprint_Squirtle[] = INCBIN_U8("graphics/yokai/007/footprint.1bpp");
 
 const u32 gMonFrontPic_Wartortle[] = INCBIN_U32("graphics/yokai/008/front.4bpp.lz");
 const u32 gMonPalette_Wartortle[] = INCBIN_U32("graphics/yokai/008/normal.gbapal.lz");
 const u32 gMonBackPic_Wartortle[] = INCBIN_U32("graphics/yokai/008/back.4bpp.lz");
 const u32 gMonShinyPalette_Wartortle[] = INCBIN_U32("graphics/yokai/008/shiny.gbapal.lz");
-const u8 gMonIcon_Wartortle[] = INCBIN_U8("graphics/yokai/008/icon.4bpp");
+const u8 gMonIcon_Wartortle[] = INCBIN_U8("graphics/yokai/008/icon-display.4bpp");
 const u8 gMonFootprint_Wartortle[] = INCBIN_U8("graphics/yokai/008/footprint.1bpp");
 
 const u32 gMonFrontPic_Blastoise[] = INCBIN_U32("graphics/yokai/009/front-display.4bpp.lz");
@@ -65,91 +65,91 @@ const u32 gMonFrontPic_Caterpie[] = INCBIN_U32("graphics/yokai/010/front.4bpp.lz
 const u32 gMonPalette_Caterpie[] = INCBIN_U32("graphics/yokai/010/normal.gbapal.lz");
 const u32 gMonBackPic_Caterpie[] = INCBIN_U32("graphics/yokai/010/back.4bpp.lz");
 const u32 gMonShinyPalette_Caterpie[] = INCBIN_U32("graphics/yokai/010/shiny.gbapal.lz");
-const u8 gMonIcon_Caterpie[] = INCBIN_U8("graphics/yokai/010/icon.4bpp");
+const u8 gMonIcon_Caterpie[] = INCBIN_U8("graphics/yokai/010/icon-display.4bpp");
 const u8 gMonFootprint_Caterpie[] = INCBIN_U8("graphics/yokai/010/footprint.1bpp");
 
 const u32 gMonFrontPic_Metapod[] = INCBIN_U32("graphics/yokai/011/front.4bpp.lz");
 const u32 gMonPalette_Metapod[] = INCBIN_U32("graphics/yokai/011/normal.gbapal.lz");
 const u32 gMonBackPic_Metapod[] = INCBIN_U32("graphics/yokai/011/back.4bpp.lz");
 const u32 gMonShinyPalette_Metapod[] = INCBIN_U32("graphics/yokai/011/shiny.gbapal.lz");
-const u8 gMonIcon_Metapod[] = INCBIN_U8( "graphics/yokai/011/icon.4bpp");
+const u8 gMonIcon_Metapod[] = INCBIN_U8( "graphics/yokai/011/icon-display.4bpp");
 const u8 gMonFootprint_Metapod[] = INCBIN_U8("graphics/yokai/011/footprint.1bpp");
 
 const u32 gMonFrontPic_Butterfree[] = INCBIN_U32("graphics/yokai/012/front.4bpp.lz");
 const u32 gMonPalette_Butterfree[] = INCBIN_U32("graphics/yokai/012/normal.gbapal.lz");
 const u32 gMonBackPic_Butterfree[] = INCBIN_U32("graphics/yokai/012/back.4bpp.lz");
 const u32 gMonShinyPalette_Butterfree[] = INCBIN_U32("graphics/yokai/012/shiny.gbapal.lz");
-const u8 gMonIcon_Butterfree[] = INCBIN_U8("graphics/yokai/012/icon.4bpp");
+const u8 gMonIcon_Butterfree[] = INCBIN_U8("graphics/yokai/012/icon-display.4bpp");
 const u8 gMonFootprint_Butterfree[] = INCBIN_U8("graphics/yokai/012/footprint.1bpp");
 
 const u32 gMonFrontPic_Weedle[] = INCBIN_U32("graphics/yokai/013/front.4bpp.lz");
 const u32 gMonPalette_Weedle[] = INCBIN_U32("graphics/yokai/013/normal.gbapal.lz");
 const u32 gMonBackPic_Weedle[] = INCBIN_U32("graphics/yokai/013/back.4bpp.lz");
 const u32 gMonShinyPalette_Weedle[] = INCBIN_U32("graphics/yokai/013/shiny.gbapal.lz");
-const u8 gMonIcon_Weedle[] = INCBIN_U8("graphics/yokai/013/icon.4bpp");
+const u8 gMonIcon_Weedle[] = INCBIN_U8("graphics/yokai/013/icon-display.4bpp");
 const u8 gMonFootprint_Weedle[] = INCBIN_U8("graphics/yokai/013/footprint.1bpp");
 
 const u32 gMonFrontPic_Kakuna[] = INCBIN_U32("graphics/yokai/014/front.4bpp.lz");
 const u32 gMonPalette_Kakuna[] = INCBIN_U32("graphics/yokai/014/normal.gbapal.lz");
 const u32 gMonBackPic_Kakuna[] = INCBIN_U32("graphics/yokai/014/back.4bpp.lz");
 const u32 gMonShinyPalette_Kakuna[] = INCBIN_U32("graphics/yokai/014/shiny.gbapal.lz");
-const u8 gMonIcon_Kakuna[] = INCBIN_U8("graphics/yokai/014/icon.4bpp");
+const u8 gMonIcon_Kakuna[] = INCBIN_U8("graphics/yokai/014/icon-display.4bpp");
 const u8 gMonFootprint_Kakuna[] = INCBIN_U8("graphics/yokai/014/footprint.1bpp");
 
 const u32 gMonFrontPic_Beedrill[] = INCBIN_U32("graphics/yokai/015/front.4bpp.lz");
 const u32 gMonPalette_Beedrill[] = INCBIN_U32("graphics/yokai/015/normal.gbapal.lz");
 const u32 gMonBackPic_Beedrill[] = INCBIN_U32("graphics/yokai/015/back.4bpp.lz");
 const u32 gMonShinyPalette_Beedrill[] = INCBIN_U32("graphics/yokai/015/shiny.gbapal.lz");
-const u8 gMonIcon_Beedrill[] = INCBIN_U8("graphics/yokai/015/icon.4bpp");
+const u8 gMonIcon_Beedrill[] = INCBIN_U8("graphics/yokai/015/icon-display.4bpp");
 const u8 gMonFootprint_Beedrill[] = INCBIN_U8("graphics/yokai/015/footprint.1bpp");
 
 const u32 gMonFrontPic_Pidgey[] = INCBIN_U32("graphics/yokai/016/front.4bpp.lz");
 const u32 gMonPalette_Pidgey[] = INCBIN_U32("graphics/yokai/016/normal.gbapal.lz");
 const u32 gMonBackPic_Pidgey[] = INCBIN_U32("graphics/yokai/016/back.4bpp.lz");
 const u32 gMonShinyPalette_Pidgey[] = INCBIN_U32("graphics/yokai/016/shiny.gbapal.lz");
-const u8 gMonIcon_Pidgey[] = INCBIN_U8("graphics/yokai/016/icon.4bpp");
+const u8 gMonIcon_Pidgey[] = INCBIN_U8("graphics/yokai/016/icon-display.4bpp");
 const u8 gMonFootprint_Pidgey[] = INCBIN_U8("graphics/yokai/016/footprint.1bpp");
 
 const u32 gMonFrontPic_Pidgeotto[] = INCBIN_U32("graphics/yokai/017/front.4bpp.lz");
 const u32 gMonPalette_Pidgeotto[] = INCBIN_U32("graphics/yokai/017/normal.gbapal.lz");
 const u32 gMonBackPic_Pidgeotto[] = INCBIN_U32("graphics/yokai/017/back-display.4bpp.lz");
 const u32 gMonShinyPalette_Pidgeotto[] = INCBIN_U32("graphics/yokai/017/shiny.gbapal.lz");
-const u8 gMonIcon_Pidgeotto[] = INCBIN_U8("graphics/yokai/017/icon.4bpp");
+const u8 gMonIcon_Pidgeotto[] = INCBIN_U8("graphics/yokai/017/icon-display.4bpp");
 const u8 gMonFootprint_Pidgeotto[] = INCBIN_U8("graphics/yokai/017/footprint.1bpp");
 
 const u32 gMonFrontPic_Pidgeot[] = INCBIN_U32("graphics/yokai/018/front.4bpp.lz");
 const u32 gMonPalette_Pidgeot[] = INCBIN_U32("graphics/yokai/018/normal.gbapal.lz");
 const u32 gMonBackPic_Pidgeot[] = INCBIN_U32("graphics/yokai/018/back.4bpp.lz");
 const u32 gMonShinyPalette_Pidgeot[] = INCBIN_U32("graphics/yokai/018/shiny.gbapal.lz");
-const u8 gMonIcon_Pidgeot[] = INCBIN_U8("graphics/yokai/018/icon.4bpp");
+const u8 gMonIcon_Pidgeot[] = INCBIN_U8("graphics/yokai/018/icon-display.4bpp");
 const u8 gMonFootprint_Pidgeot[] = INCBIN_U8("graphics/yokai/018/footprint.1bpp");
 
 const u32 gMonFrontPic_Rattata[] = INCBIN_U32("graphics/yokai/019/front.4bpp.lz");
 const u32 gMonPalette_Rattata[] = INCBIN_U32("graphics/yokai/019/normal.gbapal.lz");
 const u32 gMonBackPic_Rattata[] = INCBIN_U32("graphics/yokai/019/back.4bpp.lz");
 const u32 gMonShinyPalette_Rattata[] = INCBIN_U32("graphics/yokai/019/shiny.gbapal.lz");
-const u8 gMonIcon_Rattata[] = INCBIN_U8("graphics/yokai/019/icon.4bpp");
+const u8 gMonIcon_Rattata[] = INCBIN_U8("graphics/yokai/019/icon-display.4bpp");
 const u8 gMonFootprint_Rattata[] = INCBIN_U8("graphics/yokai/019/footprint.1bpp");
 
 const u32 gMonFrontPic_Raticate[] = INCBIN_U32("graphics/yokai/020/front.4bpp.lz");
 const u32 gMonPalette_Raticate[] = INCBIN_U32("graphics/yokai/020/normal.gbapal.lz");
 const u32 gMonBackPic_Raticate[] = INCBIN_U32("graphics/yokai/020/back.4bpp.lz");
 const u32 gMonShinyPalette_Raticate[] = INCBIN_U32("graphics/yokai/020/shiny.gbapal.lz");
-const u8 gMonIcon_Raticate[] = INCBIN_U8("graphics/yokai/020/icon.4bpp");
+const u8 gMonIcon_Raticate[] = INCBIN_U8("graphics/yokai/020/icon-display.4bpp");
 const u8 gMonFootprint_Raticate[] = INCBIN_U8("graphics/yokai/020/footprint.1bpp");
 
 const u32 gMonFrontPic_Spearow[] = INCBIN_U32("graphics/yokai/021/front.4bpp.lz");
 const u32 gMonPalette_Spearow[] = INCBIN_U32("graphics/yokai/021/normal.gbapal.lz");
 const u32 gMonBackPic_Spearow[] = INCBIN_U32("graphics/yokai/021/back.4bpp.lz");
 const u32 gMonShinyPalette_Spearow[] = INCBIN_U32("graphics/yokai/021/shiny.gbapal.lz");
-const u8 gMonIcon_Spearow[] = INCBIN_U8("graphics/yokai/021/icon.4bpp");
+const u8 gMonIcon_Spearow[] = INCBIN_U8("graphics/yokai/021/icon-display.4bpp");
 const u8 gMonFootprint_Spearow[] = INCBIN_U8("graphics/yokai/021/footprint.1bpp");
 
 const u32 gMonFrontPic_Fearow[] = INCBIN_U32("graphics/yokai/022/front.4bpp.lz");
 const u32 gMonPalette_Fearow[] = INCBIN_U32("graphics/yokai/022/normal.gbapal.lz");
 const u32 gMonBackPic_Fearow[] = INCBIN_U32("graphics/yokai/022/back.4bpp.lz");
 const u32 gMonShinyPalette_Fearow[] = INCBIN_U32("graphics/yokai/022/shiny.gbapal.lz");
-const u8 gMonIcon_Fearow[] = INCBIN_U8("graphics/yokai/022/icon.4bpp");
+const u8 gMonIcon_Fearow[] = INCBIN_U8("graphics/yokai/022/icon-display.4bpp");
 const u8 gMonFootprint_Fearow[] = INCBIN_U8("graphics/yokai/022/footprint.1bpp");
 
 const u32 gMonFrontPic_Ekans[] = INCBIN_U32("graphics/yokai/023/front.4bpp.lz");
@@ -163,168 +163,168 @@ const u32 gMonFrontPic_Arbok[] = INCBIN_U32("graphics/yokai/024/front.4bpp.lz");
 const u32 gMonPalette_Arbok[] = INCBIN_U32("graphics/yokai/024/normal.gbapal.lz");
 const u32 gMonBackPic_Arbok[] = INCBIN_U32("graphics/yokai/024/back.4bpp.lz");
 const u32 gMonShinyPalette_Arbok[] = INCBIN_U32("graphics/yokai/024/shiny.gbapal.lz");
-const u8 gMonIcon_Arbok[] = INCBIN_U8("graphics/yokai/024/icon.4bpp");
+const u8 gMonIcon_Arbok[] = INCBIN_U8("graphics/yokai/024/icon-display.4bpp");
 const u8 gMonFootprint_Arbok[] = INCBIN_U8("graphics/yokai/024/footprint.1bpp");
 
 const u32 gMonFrontPic_Pikachu[] = INCBIN_U32("graphics/yokai/025/front.4bpp.lz");
 const u32 gMonPalette_Pikachu[] = INCBIN_U32("graphics/yokai/025/normal.gbapal.lz");
 const u32 gMonBackPic_Pikachu[] = INCBIN_U32("graphics/yokai/025/back.4bpp.lz");
 const u32 gMonShinyPalette_Pikachu[] = INCBIN_U32("graphics/yokai/025/shiny.gbapal.lz");
-const u8 gMonIcon_Pikachu[] = INCBIN_U8("graphics/yokai/025/icon.4bpp");
+const u8 gMonIcon_Pikachu[] = INCBIN_U8("graphics/yokai/025/icon-display.4bpp");
 const u8 gMonFootprint_Pikachu[] = INCBIN_U8("graphics/yokai/025/footprint.1bpp");
 
 const u32 gMonFrontPic_Raichu[] = INCBIN_U32("graphics/yokai/026/front.4bpp.lz");
 const u32 gMonPalette_Raichu[] = INCBIN_U32("graphics/yokai/026/normal.gbapal.lz");
 const u32 gMonBackPic_Raichu[] = INCBIN_U32("graphics/yokai/026/back.4bpp.lz");
 const u32 gMonShinyPalette_Raichu[] = INCBIN_U32("graphics/yokai/026/shiny.gbapal.lz");
-const u8 gMonIcon_Raichu[] = INCBIN_U8("graphics/yokai/026/icon.4bpp");
+const u8 gMonIcon_Raichu[] = INCBIN_U8("graphics/yokai/026/icon-display.4bpp");
 const u8 gMonFootprint_Raichu[] = INCBIN_U8("graphics/yokai/026/footprint.1bpp");
 
 const u32 gMonFrontPic_Sandshrew[] = INCBIN_U32("graphics/yokai/027/front.4bpp.lz");
 const u32 gMonPalette_Sandshrew[] = INCBIN_U32("graphics/yokai/027/normal.gbapal.lz");
 const u32 gMonBackPic_Sandshrew[] = INCBIN_U32("graphics/yokai/027/back.4bpp.lz");
 const u32 gMonShinyPalette_Sandshrew[] = INCBIN_U32("graphics/yokai/027/shiny.gbapal.lz");
-const u8 gMonIcon_Sandshrew[] = INCBIN_U8("graphics/yokai/027/icon.4bpp");
+const u8 gMonIcon_Sandshrew[] = INCBIN_U8("graphics/yokai/027/icon-display.4bpp");
 const u8 gMonFootprint_Sandshrew[] = INCBIN_U8("graphics/yokai/027/footprint.1bpp");
 
 const u32 gMonFrontPic_Sandslash[] = INCBIN_U32("graphics/yokai/028/front.4bpp.lz");
 const u32 gMonPalette_Sandslash[] = INCBIN_U32("graphics/yokai/028/normal.gbapal.lz");
 const u32 gMonBackPic_Sandslash[] = INCBIN_U32("graphics/yokai/028/back.4bpp.lz");
 const u32 gMonShinyPalette_Sandslash[] = INCBIN_U32("graphics/yokai/028/shiny.gbapal.lz");
-const u8 gMonIcon_Sandslash[] = INCBIN_U8("graphics/yokai/028/icon.4bpp");
+const u8 gMonIcon_Sandslash[] = INCBIN_U8("graphics/yokai/028/icon-display.4bpp");
 const u8 gMonFootprint_Sandslash[] = INCBIN_U8("graphics/yokai/028/footprint.1bpp");
 
 const u32 gMonFrontPic_NidoranF[] = INCBIN_U32("graphics/yokai/029/front.4bpp.lz");
 const u32 gMonPalette_NidoranF[] = INCBIN_U32("graphics/yokai/029/normal.gbapal.lz");
 const u32 gMonBackPic_NidoranF[] = INCBIN_U32("graphics/yokai/029/back.4bpp.lz");
 const u32 gMonShinyPalette_NidoranF[] = INCBIN_U32("graphics/yokai/029/shiny.gbapal.lz");
-const u8 gMonIcon_NidoranF[] = INCBIN_U8("graphics/yokai/029/icon.4bpp");
+const u8 gMonIcon_NidoranF[] = INCBIN_U8("graphics/yokai/029/icon-display.4bpp");
 const u8 gMonFootprint_NidoranF[] = INCBIN_U8("graphics/yokai/029/footprint.1bpp");
 
 const u32 gMonFrontPic_Nidorina[] = INCBIN_U32("graphics/yokai/030/front.4bpp.lz");
 const u32 gMonPalette_Nidorina[] = INCBIN_U32("graphics/yokai/030/normal.gbapal.lz");
 const u32 gMonBackPic_Nidorina[] = INCBIN_U32("graphics/yokai/030/back.4bpp.lz");
 const u32 gMonShinyPalette_Nidorina[] = INCBIN_U32("graphics/yokai/030/shiny.gbapal.lz");
-const u8 gMonIcon_Nidorina[] = INCBIN_U8("graphics/yokai/030/icon.4bpp");
+const u8 gMonIcon_Nidorina[] = INCBIN_U8("graphics/yokai/030/icon-display.4bpp");
 const u8 gMonFootprint_Nidorina[] = INCBIN_U8("graphics/yokai/030/footprint.1bpp");
 
 const u32 gMonFrontPic_Nidoqueen[] = INCBIN_U32("graphics/yokai/031/front.4bpp.lz");
 const u32 gMonPalette_Nidoqueen[] = INCBIN_U32("graphics/yokai/031/normal.gbapal.lz");
 const u32 gMonBackPic_Nidoqueen[] = INCBIN_U32("graphics/yokai/031/back.4bpp.lz");
 const u32 gMonShinyPalette_Nidoqueen[] = INCBIN_U32("graphics/yokai/031/shiny.gbapal.lz");
-const u8 gMonIcon_Nidoqueen[] = INCBIN_U8("graphics/yokai/031/icon.4bpp");
+const u8 gMonIcon_Nidoqueen[] = INCBIN_U8("graphics/yokai/031/icon-display.4bpp");
 const u8 gMonFootprint_Nidoqueen[] = INCBIN_U8("graphics/yokai/031/footprint.1bpp");
 
 const u32 gMonFrontPic_NidoranM[] = INCBIN_U32("graphics/yokai/032/front.4bpp.lz");
 const u32 gMonPalette_NidoranM[] = INCBIN_U32("graphics/yokai/032/normal.gbapal.lz");
 const u32 gMonBackPic_NidoranM[] = INCBIN_U32("graphics/yokai/032/back.4bpp.lz");
 const u32 gMonShinyPalette_NidoranM[] = INCBIN_U32("graphics/yokai/032/shiny.gbapal.lz");
-const u8 gMonIcon_NidoranM[] = INCBIN_U8("graphics/yokai/032/icon.4bpp");
+const u8 gMonIcon_NidoranM[] = INCBIN_U8("graphics/yokai/032/icon-display.4bpp");
 const u8 gMonFootprint_NidoranM[] = INCBIN_U8("graphics/yokai/032/footprint.1bpp");
 
 const u32 gMonFrontPic_Nidorino[] = INCBIN_U32("graphics/yokai/033/front.4bpp.lz");
 const u32 gMonPalette_Nidorino[] = INCBIN_U32("graphics/yokai/033/normal.gbapal.lz");
 const u32 gMonBackPic_Nidorino[] = INCBIN_U32("graphics/yokai/033/back.4bpp.lz");
 const u32 gMonShinyPalette_Nidorino[] = INCBIN_U32("graphics/yokai/033/shiny.gbapal.lz");
-const u8 gMonIcon_Nidorino[] = INCBIN_U8("graphics/yokai/033/icon.4bpp");
+const u8 gMonIcon_Nidorino[] = INCBIN_U8("graphics/yokai/033/icon-display.4bpp");
 const u8 gMonFootprint_Nidorino[] = INCBIN_U8("graphics/yokai/033/footprint.1bpp");
 
 const u32 gMonFrontPic_Nidoking[] = INCBIN_U32("graphics/yokai/034/front.4bpp.lz");
 const u32 gMonPalette_Nidoking[] = INCBIN_U32("graphics/yokai/034/normal.gbapal.lz");
 const u32 gMonBackPic_Nidoking[] = INCBIN_U32("graphics/yokai/034/back.4bpp.lz");
 const u32 gMonShinyPalette_Nidoking[] = INCBIN_U32("graphics/yokai/034/shiny.gbapal.lz");
-const u8 gMonIcon_Nidoking[] = INCBIN_U8("graphics/yokai/034/icon.4bpp");
+const u8 gMonIcon_Nidoking[] = INCBIN_U8("graphics/yokai/034/icon-display.4bpp");
 const u8 gMonFootprint_Nidoking[] = INCBIN_U8("graphics/yokai/034/footprint.1bpp");
 
 const u32 gMonFrontPic_Clefairy[] = INCBIN_U32("graphics/yokai/035/front.4bpp.lz");
 const u32 gMonPalette_Clefairy[] = INCBIN_U32("graphics/yokai/035/normal.gbapal.lz");
 const u32 gMonBackPic_Clefairy[] = INCBIN_U32("graphics/yokai/035/back.4bpp.lz");
 const u32 gMonShinyPalette_Clefairy[] = INCBIN_U32("graphics/yokai/035/shiny.gbapal.lz");
-const u8 gMonIcon_Clefairy[] = INCBIN_U8("graphics/yokai/035/icon.4bpp");
+const u8 gMonIcon_Clefairy[] = INCBIN_U8("graphics/yokai/035/icon-display.4bpp");
 const u8 gMonFootprint_Clefairy[] = INCBIN_U8("graphics/yokai/035/footprint.1bpp");
 
 const u32 gMonFrontPic_Clefable[] = INCBIN_U32("graphics/yokai/036/front.4bpp.lz");
 const u32 gMonPalette_Clefable[] = INCBIN_U32("graphics/yokai/036/normal.gbapal.lz");
 const u32 gMonBackPic_Clefable[] = INCBIN_U32("graphics/yokai/036/back.4bpp.lz");
 const u32 gMonShinyPalette_Clefable[] = INCBIN_U32("graphics/yokai/036/shiny.gbapal.lz");
-const u8 gMonIcon_Clefable[] = INCBIN_U8("graphics/yokai/036/icon.4bpp");
+const u8 gMonIcon_Clefable[] = INCBIN_U8("graphics/yokai/036/icon-display.4bpp");
 const u8 gMonFootprint_Clefable[] = INCBIN_U8("graphics/yokai/036/footprint.1bpp");
 
 const u32 gMonFrontPic_Vulpix[] = INCBIN_U32("graphics/yokai/037/front.4bpp.lz");
 const u32 gMonPalette_Vulpix[] = INCBIN_U32("graphics/yokai/037/normal.gbapal.lz");
 const u32 gMonBackPic_Vulpix[] = INCBIN_U32("graphics/yokai/037/back.4bpp.lz");
 const u32 gMonShinyPalette_Vulpix[] = INCBIN_U32("graphics/yokai/037/shiny.gbapal.lz");
-const u8 gMonIcon_Vulpix[] = INCBIN_U8("graphics/yokai/037/icon.4bpp");
+const u8 gMonIcon_Vulpix[] = INCBIN_U8("graphics/yokai/037/icon-display.4bpp");
 const u8 gMonFootprint_Vulpix[] = INCBIN_U8("graphics/yokai/037/footprint.1bpp");
 
 const u32 gMonFrontPic_Ninetales[] = INCBIN_U32("graphics/yokai/038/front.4bpp.lz");
 const u32 gMonPalette_Ninetales[] = INCBIN_U32("graphics/yokai/038/normal.gbapal.lz");
 const u32 gMonBackPic_Ninetales[] = INCBIN_U32("graphics/yokai/038/back.4bpp.lz");
 const u32 gMonShinyPalette_Ninetales[] = INCBIN_U32("graphics/yokai/038/shiny.gbapal.lz");
-const u8 gMonIcon_Ninetales[] = INCBIN_U8("graphics/yokai/038/icon.4bpp");
+const u8 gMonIcon_Ninetales[] = INCBIN_U8("graphics/yokai/038/icon-display.4bpp");
 const u8 gMonFootprint_Ninetales[] = INCBIN_U8("graphics/yokai/038/footprint.1bpp");
 
 const u32 gMonFrontPic_Jigglypuff[] = INCBIN_U32("graphics/yokai/039/front.4bpp.lz");
 const u32 gMonPalette_Jigglypuff[] = INCBIN_U32("graphics/yokai/039/normal.gbapal.lz");
 const u32 gMonBackPic_Jigglypuff[] = INCBIN_U32("graphics/yokai/039/back.4bpp.lz");
 const u32 gMonShinyPalette_Jigglypuff[] = INCBIN_U32("graphics/yokai/039/shiny.gbapal.lz");
-const u8 gMonIcon_Jigglypuff[] = INCBIN_U8("graphics/yokai/039/icon.4bpp");
+const u8 gMonIcon_Jigglypuff[] = INCBIN_U8("graphics/yokai/039/icon-display.4bpp");
 const u8 gMonFootprint_Jigglypuff[] = INCBIN_U8("graphics/yokai/039/footprint.1bpp");
 
 const u32 gMonFrontPic_Wigglytuff[] = INCBIN_U32("graphics/yokai/040/front.4bpp.lz");
 const u32 gMonPalette_Wigglytuff[] = INCBIN_U32("graphics/yokai/040/normal.gbapal.lz");
 const u32 gMonBackPic_Wigglytuff[] = INCBIN_U32("graphics/yokai/040/back.4bpp.lz");
 const u32 gMonShinyPalette_Wigglytuff[] = INCBIN_U32("graphics/yokai/040/shiny.gbapal.lz");
-const u8 gMonIcon_Wigglytuff[] = INCBIN_U8("graphics/yokai/040/icon.4bpp");
+const u8 gMonIcon_Wigglytuff[] = INCBIN_U8("graphics/yokai/040/icon-display.4bpp");
 const u8 gMonFootprint_Wigglytuff[] = INCBIN_U8("graphics/yokai/040/footprint.1bpp");
 
 const u32 gMonFrontPic_Zubat[] = INCBIN_U32("graphics/yokai/041/front.4bpp.lz");
 const u32 gMonPalette_Zubat[] = INCBIN_U32("graphics/yokai/041/normal.gbapal.lz");
 const u32 gMonBackPic_Zubat[] = INCBIN_U32("graphics/yokai/041/back.4bpp.lz");
 const u32 gMonShinyPalette_Zubat[] = INCBIN_U32("graphics/yokai/041/shiny.gbapal.lz");
-const u8 gMonIcon_Zubat[] = INCBIN_U8("graphics/yokai/041/icon.4bpp");
+const u8 gMonIcon_Zubat[] = INCBIN_U8("graphics/yokai/041/icon-display.4bpp");
 const u8 gMonFootprint_Zubat[] = INCBIN_U8("graphics/yokai/041/footprint.1bpp");
 
 const u32 gMonFrontPic_Golbat[] = INCBIN_U32("graphics/yokai/042/front.4bpp.lz");
 const u32 gMonPalette_Golbat[] = INCBIN_U32("graphics/yokai/042/normal.gbapal.lz");
 const u32 gMonBackPic_Golbat[] = INCBIN_U32("graphics/yokai/042/back.4bpp.lz");
 const u32 gMonShinyPalette_Golbat[] = INCBIN_U32("graphics/yokai/042/shiny.gbapal.lz");
-const u8 gMonIcon_Golbat[] = INCBIN_U8("graphics/yokai/042/icon.4bpp");
+const u8 gMonIcon_Golbat[] = INCBIN_U8("graphics/yokai/042/icon-display.4bpp");
 const u8 gMonFootprint_Golbat[] = INCBIN_U8("graphics/yokai/042/footprint.1bpp");
 
 const u32 gMonFrontPic_Oddish[] = INCBIN_U32("graphics/yokai/043/front.4bpp.lz");
 const u32 gMonPalette_Oddish[] = INCBIN_U32("graphics/yokai/043/normal.gbapal.lz");
 const u32 gMonBackPic_Oddish[] = INCBIN_U32("graphics/yokai/043/back.4bpp.lz");
 const u32 gMonShinyPalette_Oddish[] = INCBIN_U32("graphics/yokai/043/shiny.gbapal.lz");
-const u8 gMonIcon_Oddish[] = INCBIN_U8("graphics/yokai/043/icon.4bpp");
+const u8 gMonIcon_Oddish[] = INCBIN_U8("graphics/yokai/043/icon-display.4bpp");
 const u8 gMonFootprint_Oddish[] = INCBIN_U8("graphics/yokai/043/footprint.1bpp");
 
 const u32 gMonFrontPic_Gloom[] = INCBIN_U32("graphics/yokai/044/front.4bpp.lz");
 const u32 gMonPalette_Gloom[] = INCBIN_U32("graphics/yokai/044/normal.gbapal.lz");
 const u32 gMonBackPic_Gloom[] = INCBIN_U32("graphics/yokai/044/back.4bpp.lz");
 const u32 gMonShinyPalette_Gloom[] = INCBIN_U32("graphics/yokai/044/shiny.gbapal.lz");
-const u8 gMonIcon_Gloom[] = INCBIN_U8("graphics/yokai/044/icon.4bpp");
+const u8 gMonIcon_Gloom[] = INCBIN_U8("graphics/yokai/044/icon-display.4bpp");
 const u8 gMonFootprint_Gloom[] = INCBIN_U8("graphics/yokai/044/footprint.1bpp");
 
 const u32 gMonFrontPic_Vileplume[] = INCBIN_U32("graphics/yokai/045/front.4bpp.lz");
 const u32 gMonPalette_Vileplume[] = INCBIN_U32("graphics/yokai/045/normal.gbapal.lz");
 const u32 gMonBackPic_Vileplume[] = INCBIN_U32("graphics/yokai/045/back-display.4bpp.lz");
 const u32 gMonShinyPalette_Vileplume[] = INCBIN_U32("graphics/yokai/045/shiny.gbapal.lz");
-const u8 gMonIcon_Vileplume[] = INCBIN_U8("graphics/yokai/045/icon.4bpp");
+const u8 gMonIcon_Vileplume[] = INCBIN_U8("graphics/yokai/045/icon-display.4bpp");
 const u8 gMonFootprint_Vileplume[] = INCBIN_U8("graphics/yokai/045/footprint.1bpp");
 
 const u32 gMonFrontPic_Paras[] = INCBIN_U32("graphics/yokai/046/front.4bpp.lz");
 const u32 gMonPalette_Paras[] = INCBIN_U32("graphics/yokai/046/normal.gbapal.lz");
 const u32 gMonBackPic_Paras[] = INCBIN_U32("graphics/yokai/046/back.4bpp.lz");
 const u32 gMonShinyPalette_Paras[] = INCBIN_U32("graphics/yokai/046/shiny.gbapal.lz");
-const u8 gMonIcon_Paras[] = INCBIN_U8("graphics/yokai/046/icon.4bpp");
+const u8 gMonIcon_Paras[] = INCBIN_U8("graphics/yokai/046/icon-display.4bpp");
 const u8 gMonFootprint_Paras[] = INCBIN_U8("graphics/yokai/046/footprint.1bpp");
 
 const u32 gMonFrontPic_Parasect[] = INCBIN_U32("graphics/yokai/047/front.4bpp.lz");
 const u32 gMonPalette_Parasect[] = INCBIN_U32("graphics/yokai/047/normal.gbapal.lz");
 const u32 gMonBackPic_Parasect[] = INCBIN_U32("graphics/yokai/047/back-display.4bpp.lz");
 const u32 gMonShinyPalette_Parasect[] = INCBIN_U32("graphics/yokai/047/shiny.gbapal.lz");
-const u8 gMonIcon_Parasect[] = INCBIN_U8("graphics/yokai/047/icon.4bpp");
+const u8 gMonIcon_Parasect[] = INCBIN_U8("graphics/yokai/047/icon-display.4bpp");
 const u8 gMonFootprint_Parasect[] = INCBIN_U8("graphics/yokai/047/footprint.1bpp");
 
 const u32 gMonFrontPic_Venonat[] = INCBIN_U32("graphics/yokai/048/front.4bpp.lz");
@@ -345,203 +345,203 @@ const u32 gMonFrontPic_Diglett[] = INCBIN_U32("graphics/yokai/050/front.4bpp.lz"
 const u32 gMonPalette_Diglett[] = INCBIN_U32("graphics/yokai/050/normal.gbapal.lz");
 const u32 gMonBackPic_Diglett[] = INCBIN_U32("graphics/yokai/050/back.4bpp.lz");
 const u32 gMonShinyPalette_Diglett[] = INCBIN_U32("graphics/yokai/050/shiny.gbapal.lz");
-const u8 gMonIcon_Diglett[] = INCBIN_U8("graphics/yokai/050/icon.4bpp");
+const u8 gMonIcon_Diglett[] = INCBIN_U8("graphics/yokai/050/icon-display.4bpp");
 const u8 gMonFootprint_Diglett[] = INCBIN_U8("graphics/yokai/050/footprint.1bpp");
 
 const u32 gMonFrontPic_Dugtrio[] = INCBIN_U32("graphics/yokai/051/front.4bpp.lz");
 const u32 gMonPalette_Dugtrio[] = INCBIN_U32("graphics/yokai/051/normal.gbapal.lz");
 const u32 gMonBackPic_Dugtrio[] = INCBIN_U32("graphics/yokai/051/back.4bpp.lz");
 const u32 gMonShinyPalette_Dugtrio[] = INCBIN_U32("graphics/yokai/051/shiny.gbapal.lz");
-const u8 gMonIcon_Dugtrio[] = INCBIN_U8("graphics/yokai/051/icon.4bpp");
+const u8 gMonIcon_Dugtrio[] = INCBIN_U8("graphics/yokai/051/icon-display.4bpp");
 const u8 gMonFootprint_Dugtrio[] = INCBIN_U8("graphics/yokai/051/footprint.1bpp");
 
 const u32 gMonFrontPic_Meowth[] = INCBIN_U32("graphics/yokai/052/front.4bpp.lz");
 const u32 gMonPalette_Meowth[] = INCBIN_U32("graphics/yokai/052/normal.gbapal.lz");
 const u32 gMonBackPic_Meowth[] = INCBIN_U32("graphics/yokai/052/back.4bpp.lz");
 const u32 gMonShinyPalette_Meowth[] = INCBIN_U32("graphics/yokai/052/shiny.gbapal.lz");
-const u8 gMonIcon_Meowth[] = INCBIN_U8("graphics/yokai/052/icon.4bpp");
+const u8 gMonIcon_Meowth[] = INCBIN_U8("graphics/yokai/052/icon-display.4bpp");
 const u8 gMonFootprint_Meowth[] = INCBIN_U8("graphics/yokai/052/footprint.1bpp");
 
 const u32 gMonFrontPic_Persian[] = INCBIN_U32("graphics/yokai/053/front.4bpp.lz");
 const u32 gMonPalette_Persian[] = INCBIN_U32("graphics/yokai/053/normal.gbapal.lz");
 const u32 gMonBackPic_Persian[] = INCBIN_U32("graphics/yokai/053/back.4bpp.lz");
 const u32 gMonShinyPalette_Persian[] = INCBIN_U32("graphics/yokai/053/shiny.gbapal.lz");
-const u8 gMonIcon_Persian[] = INCBIN_U8("graphics/yokai/053/icon.4bpp");
+const u8 gMonIcon_Persian[] = INCBIN_U8("graphics/yokai/053/icon-display.4bpp");
 const u8 gMonFootprint_Persian[] = INCBIN_U8("graphics/yokai/053/footprint.1bpp");
 
 const u32 gMonFrontPic_Psyduck[] = INCBIN_U32("graphics/yokai/054/front.4bpp.lz");
 const u32 gMonPalette_Psyduck[] = INCBIN_U32("graphics/yokai/054/normal.gbapal.lz");
 const u32 gMonBackPic_Psyduck[] = INCBIN_U32("graphics/yokai/054/back.4bpp.lz");
 const u32 gMonShinyPalette_Psyduck[] = INCBIN_U32("graphics/yokai/054/shiny.gbapal.lz");
-const u8 gMonIcon_Psyduck[] = INCBIN_U8("graphics/yokai/054/icon.4bpp");
+const u8 gMonIcon_Psyduck[] = INCBIN_U8("graphics/yokai/054/icon-display.4bpp");
 const u8 gMonFootprint_Psyduck[] = INCBIN_U8("graphics/yokai/054/footprint.1bpp");
 
 const u32 gMonFrontPic_Golduck[] = INCBIN_U32("graphics/yokai/055/front.4bpp.lz");
 const u32 gMonPalette_Golduck[] = INCBIN_U32("graphics/yokai/055/normal.gbapal.lz");
 const u32 gMonBackPic_Golduck[] = INCBIN_U32("graphics/yokai/055/back.4bpp.lz");
 const u32 gMonShinyPalette_Golduck[] = INCBIN_U32("graphics/yokai/055/shiny.gbapal.lz");
-const u8 gMonIcon_Golduck[] = INCBIN_U8("graphics/yokai/055/icon.4bpp");
+const u8 gMonIcon_Golduck[] = INCBIN_U8("graphics/yokai/055/icon-display.4bpp");
 const u8 gMonFootprint_Golduck[] = INCBIN_U8("graphics/yokai/055/footprint.1bpp");
 
 const u32 gMonFrontPic_Mankey[] = INCBIN_U32("graphics/yokai/056/front.4bpp.lz");
 const u32 gMonPalette_Mankey[] = INCBIN_U32("graphics/yokai/056/normal.gbapal.lz");
 const u32 gMonBackPic_Mankey[] = INCBIN_U32("graphics/yokai/056/back.4bpp.lz");
 const u32 gMonShinyPalette_Mankey[] = INCBIN_U32("graphics/yokai/056/shiny.gbapal.lz");
-const u8 gMonIcon_Mankey[] = INCBIN_U8("graphics/yokai/056/icon.4bpp");
+const u8 gMonIcon_Mankey[] = INCBIN_U8("graphics/yokai/056/icon-display.4bpp");
 const u8 gMonFootprint_Mankey[] = INCBIN_U8("graphics/yokai/056/footprint.1bpp");
 
 const u32 gMonFrontPic_Primeape[] = INCBIN_U32("graphics/yokai/057/front.4bpp.lz");
 const u32 gMonPalette_Primeape[] = INCBIN_U32("graphics/yokai/057/normal.gbapal.lz");
 const u32 gMonBackPic_Primeape[] = INCBIN_U32("graphics/yokai/057/back.4bpp.lz");
 const u32 gMonShinyPalette_Primeape[] = INCBIN_U32("graphics/yokai/057/shiny.gbapal.lz");
-const u8 gMonIcon_Primeape[] = INCBIN_U8("graphics/yokai/057/icon.4bpp");
+const u8 gMonIcon_Primeape[] = INCBIN_U8("graphics/yokai/057/icon-display.4bpp");
 const u8 gMonFootprint_Primeape[] = INCBIN_U8("graphics/yokai/057/footprint.1bpp");
 
 const u32 gMonFrontPic_Growlithe[] = INCBIN_U32("graphics/yokai/058/front.4bpp.lz");
 const u32 gMonPalette_Growlithe[] = INCBIN_U32("graphics/yokai/058/normal.gbapal.lz");
 const u32 gMonBackPic_Growlithe[] = INCBIN_U32("graphics/yokai/058/back.4bpp.lz");
 const u32 gMonShinyPalette_Growlithe[] = INCBIN_U32("graphics/yokai/058/shiny.gbapal.lz");
-const u8 gMonIcon_Growlithe[] = INCBIN_U8("graphics/yokai/058/icon.4bpp");
+const u8 gMonIcon_Growlithe[] = INCBIN_U8("graphics/yokai/058/icon-display.4bpp");
 const u8 gMonFootprint_Growlithe[] = INCBIN_U8("graphics/yokai/058/footprint.1bpp");
 
 const u32 gMonFrontPic_Arcanine[] = INCBIN_U32("graphics/yokai/059/front.4bpp.lz");
 const u32 gMonPalette_Arcanine[] = INCBIN_U32("graphics/yokai/059/normal.gbapal.lz");
 const u32 gMonBackPic_Arcanine[] = INCBIN_U32("graphics/yokai/059/back.4bpp.lz");
 const u32 gMonShinyPalette_Arcanine[] = INCBIN_U32("graphics/yokai/059/shiny.gbapal.lz");
-const u8 gMonIcon_Arcanine[] = INCBIN_U8("graphics/yokai/059/icon.4bpp");
+const u8 gMonIcon_Arcanine[] = INCBIN_U8("graphics/yokai/059/icon-display.4bpp");
 const u8 gMonFootprint_Arcanine[] = INCBIN_U8("graphics/yokai/059/footprint.1bpp");
 
 const u32 gMonFrontPic_Poliwag[] = INCBIN_U32("graphics/yokai/060/front.4bpp.lz");
 const u32 gMonPalette_Poliwag[] = INCBIN_U32("graphics/yokai/060/normal.gbapal.lz");
 const u32 gMonBackPic_Poliwag[] = INCBIN_U32("graphics/yokai/060/back.4bpp.lz");
 const u32 gMonShinyPalette_Poliwag[] = INCBIN_U32("graphics/yokai/060/shiny.gbapal.lz");
-const u8 gMonIcon_Poliwag[] = INCBIN_U8("graphics/yokai/060/icon.4bpp");
+const u8 gMonIcon_Poliwag[] = INCBIN_U8("graphics/yokai/060/icon-display.4bpp");
 const u8 gMonFootprint_Poliwag[] = INCBIN_U8("graphics/yokai/060/footprint.1bpp");
 
 const u32 gMonFrontPic_Poliwhirl[] = INCBIN_U32("graphics/yokai/061/front.4bpp.lz");
 const u32 gMonPalette_Poliwhirl[] = INCBIN_U32("graphics/yokai/061/normal.gbapal.lz");
 const u32 gMonBackPic_Poliwhirl[] = INCBIN_U32("graphics/yokai/061/back.4bpp.lz");
 const u32 gMonShinyPalette_Poliwhirl[] = INCBIN_U32("graphics/yokai/061/shiny.gbapal.lz");
-const u8 gMonIcon_Poliwhirl[] = INCBIN_U8("graphics/yokai/061/icon.4bpp");
+const u8 gMonIcon_Poliwhirl[] = INCBIN_U8("graphics/yokai/061/icon-display.4bpp");
 const u8 gMonFootprint_Poliwhirl[] = INCBIN_U8("graphics/yokai/061/footprint.1bpp");
 
 const u32 gMonFrontPic_Poliwrath[] = INCBIN_U32("graphics/yokai/062/front.4bpp.lz");
 const u32 gMonPalette_Poliwrath[] = INCBIN_U32("graphics/yokai/062/normal.gbapal.lz");
 const u32 gMonBackPic_Poliwrath[] = INCBIN_U32("graphics/yokai/062/back.4bpp.lz");
 const u32 gMonShinyPalette_Poliwrath[] = INCBIN_U32("graphics/yokai/062/shiny.gbapal.lz");
-const u8 gMonIcon_Poliwrath[] = INCBIN_U8("graphics/yokai/062/icon.4bpp");
+const u8 gMonIcon_Poliwrath[] = INCBIN_U8("graphics/yokai/062/icon-display.4bpp");
 const u8 gMonFootprint_Poliwrath[] = INCBIN_U8("graphics/yokai/062/footprint.1bpp");
 
 const u32 gMonFrontPic_Abra[] = INCBIN_U32("graphics/yokai/063/front.4bpp.lz");
 const u32 gMonPalette_Abra[] = INCBIN_U32("graphics/yokai/063/normal.gbapal.lz");
 const u32 gMonBackPic_Abra[] = INCBIN_U32("graphics/yokai/063/back.4bpp.lz");
 const u32 gMonShinyPalette_Abra[] = INCBIN_U32("graphics/yokai/063/shiny.gbapal.lz");
-const u8 gMonIcon_Abra[] = INCBIN_U8("graphics/yokai/063/icon.4bpp");
+const u8 gMonIcon_Abra[] = INCBIN_U8("graphics/yokai/063/icon-display.4bpp");
 const u8 gMonFootprint_Abra[] = INCBIN_U8("graphics/yokai/063/footprint.1bpp");
 
 const u32 gMonFrontPic_Kadabra[] = INCBIN_U32("graphics/yokai/064/front.4bpp.lz");
 const u32 gMonPalette_Kadabra[] = INCBIN_U32("graphics/yokai/064/normal.gbapal.lz");
 const u32 gMonBackPic_Kadabra[] = INCBIN_U32("graphics/yokai/064/back.4bpp.lz");
 const u32 gMonShinyPalette_Kadabra[] = INCBIN_U32("graphics/yokai/064/shiny.gbapal.lz");
-const u8 gMonIcon_Kadabra[] = INCBIN_U8("graphics/yokai/064/icon.4bpp");
+const u8 gMonIcon_Kadabra[] = INCBIN_U8("graphics/yokai/064/icon-display.4bpp");
 const u8 gMonFootprint_Kadabra[] = INCBIN_U8("graphics/yokai/064/footprint.1bpp");
 
 const u32 gMonFrontPic_Alakazam[] = INCBIN_U32("graphics/yokai/065/front.4bpp.lz");
 const u32 gMonPalette_Alakazam[] = INCBIN_U32("graphics/yokai/065/normal.gbapal.lz");
 const u32 gMonBackPic_Alakazam[] = INCBIN_U32("graphics/yokai/065/back.4bpp.lz");
 const u32 gMonShinyPalette_Alakazam[] = INCBIN_U32("graphics/yokai/065/shiny.gbapal.lz");
-const u8 gMonIcon_Alakazam[] = INCBIN_U8("graphics/yokai/065/icon.4bpp");
+const u8 gMonIcon_Alakazam[] = INCBIN_U8("graphics/yokai/065/icon-display.4bpp");
 const u8 gMonFootprint_Alakazam[] = INCBIN_U8("graphics/yokai/065/footprint.1bpp");
 
 const u32 gMonFrontPic_Machop[] = INCBIN_U32("graphics/yokai/066/front.4bpp.lz");
 const u32 gMonPalette_Machop[] = INCBIN_U32("graphics/yokai/066/normal.gbapal.lz");
 const u32 gMonBackPic_Machop[] = INCBIN_U32("graphics/yokai/066/back.4bpp.lz");
 const u32 gMonShinyPalette_Machop[] = INCBIN_U32("graphics/yokai/066/shiny.gbapal.lz");
-const u8 gMonIcon_Machop[] = INCBIN_U8("graphics/yokai/066/icon.4bpp");
+const u8 gMonIcon_Machop[] = INCBIN_U8("graphics/yokai/066/icon-display.4bpp");
 const u8 gMonFootprint_Machop[] = INCBIN_U8("graphics/yokai/066/footprint.1bpp");
 
 const u32 gMonFrontPic_Machoke[] = INCBIN_U32("graphics/yokai/067/front.4bpp.lz");
 const u32 gMonPalette_Machoke[] = INCBIN_U32("graphics/yokai/067/normal.gbapal.lz");
 const u32 gMonBackPic_Machoke[] = INCBIN_U32("graphics/yokai/067/back.4bpp.lz");
 const u32 gMonShinyPalette_Machoke[] = INCBIN_U32("graphics/yokai/067/shiny.gbapal.lz");
-const u8 gMonIcon_Machoke[] = INCBIN_U8("graphics/yokai/067/icon.4bpp");
+const u8 gMonIcon_Machoke[] = INCBIN_U8("graphics/yokai/067/icon-display.4bpp");
 const u8 gMonFootprint_Machoke[] = INCBIN_U8("graphics/yokai/067/footprint.1bpp");
 
 const u32 gMonFrontPic_Machamp[] = INCBIN_U32("graphics/yokai/068/front.4bpp.lz");
 const u32 gMonPalette_Machamp[] = INCBIN_U32("graphics/yokai/068/normal.gbapal.lz");
 const u32 gMonBackPic_Machamp[] = INCBIN_U32("graphics/yokai/068/back.4bpp.lz");
 const u32 gMonShinyPalette_Machamp[] = INCBIN_U32("graphics/yokai/068/shiny.gbapal.lz");
-const u8 gMonIcon_Machamp[] = INCBIN_U8("graphics/yokai/068/icon.4bpp");
+const u8 gMonIcon_Machamp[] = INCBIN_U8("graphics/yokai/068/icon-display.4bpp");
 const u8 gMonFootprint_Machamp[] = INCBIN_U8("graphics/yokai/068/footprint.1bpp");
 
 const u32 gMonFrontPic_Bellsprout[] = INCBIN_U32("graphics/yokai/069/front.4bpp.lz");
 const u32 gMonPalette_Bellsprout[] = INCBIN_U32("graphics/yokai/069/normal.gbapal.lz");
 const u32 gMonBackPic_Bellsprout[] = INCBIN_U32("graphics/yokai/069/back.4bpp.lz");
 const u32 gMonShinyPalette_Bellsprout[] = INCBIN_U32("graphics/yokai/069/shiny.gbapal.lz");
-const u8 gMonIcon_Bellsprout[] = INCBIN_U8("graphics/yokai/069/icon.4bpp");
+const u8 gMonIcon_Bellsprout[] = INCBIN_U8("graphics/yokai/069/icon-display.4bpp");
 const u8 gMonFootprint_Bellsprout[] = INCBIN_U8("graphics/yokai/069/footprint.1bpp");
 
 const u32 gMonFrontPic_Weepinbell[] = INCBIN_U32("graphics/yokai/070/front.4bpp.lz");
 const u32 gMonPalette_Weepinbell[] = INCBIN_U32("graphics/yokai/070/normal.gbapal.lz");
 const u32 gMonBackPic_Weepinbell[] = INCBIN_U32("graphics/yokai/070/back-display.4bpp.lz");
 const u32 gMonShinyPalette_Weepinbell[] = INCBIN_U32("graphics/yokai/070/shiny.gbapal.lz");
-const u8 gMonIcon_Weepinbell[] = INCBIN_U8("graphics/yokai/070/icon.4bpp");
+const u8 gMonIcon_Weepinbell[] = INCBIN_U8("graphics/yokai/070/icon-display.4bpp");
 const u8 gMonFootprint_Weepinbell[] = INCBIN_U8("graphics/yokai/070/footprint.1bpp");
 
 const u32 gMonFrontPic_Victreebel[] = INCBIN_U32("graphics/yokai/071/front.4bpp.lz");
 const u32 gMonPalette_Victreebel[] = INCBIN_U32("graphics/yokai/071/normal.gbapal.lz");
 const u32 gMonBackPic_Victreebel[] = INCBIN_U32("graphics/yokai/071/back.4bpp.lz");
 const u32 gMonShinyPalette_Victreebel[] = INCBIN_U32("graphics/yokai/071/shiny.gbapal.lz");
-const u8 gMonIcon_Victreebel[] = INCBIN_U8("graphics/yokai/071/icon.4bpp");
+const u8 gMonIcon_Victreebel[] = INCBIN_U8("graphics/yokai/071/icon-display.4bpp");
 const u8 gMonFootprint_Victreebel[] = INCBIN_U8("graphics/yokai/071/footprint.1bpp");
 
 const u32 gMonFrontPic_Tentacool[] = INCBIN_U32("graphics/yokai/072/front.4bpp.lz");
 const u32 gMonPalette_Tentacool[] = INCBIN_U32("graphics/yokai/072/normal.gbapal.lz");
 const u32 gMonBackPic_Tentacool[] = INCBIN_U32("graphics/yokai/072/back.4bpp.lz");
 const u32 gMonShinyPalette_Tentacool[] = INCBIN_U32("graphics/yokai/072/shiny.gbapal.lz");
-const u8 gMonIcon_Tentacool[] = INCBIN_U8("graphics/yokai/072/icon.4bpp");
+const u8 gMonIcon_Tentacool[] = INCBIN_U8("graphics/yokai/072/icon-display.4bpp");
 const u8 gMonFootprint_Tentacool[] = INCBIN_U8("graphics/yokai/072/footprint.1bpp");
 
 const u32 gMonFrontPic_Tentacruel[] = INCBIN_U32("graphics/yokai/073/front.4bpp.lz");
 const u32 gMonPalette_Tentacruel[] = INCBIN_U32("graphics/yokai/073/normal.gbapal.lz");
 const u32 gMonBackPic_Tentacruel[] = INCBIN_U32("graphics/yokai/073/back.4bpp.lz");
 const u32 gMonShinyPalette_Tentacruel[] = INCBIN_U32("graphics/yokai/073/shiny.gbapal.lz");
-const u8 gMonIcon_Tentacruel[] = INCBIN_U8("graphics/yokai/073/icon.4bpp");
+const u8 gMonIcon_Tentacruel[] = INCBIN_U8("graphics/yokai/073/icon-display.4bpp");
 const u8 gMonFootprint_Tentacruel[] = INCBIN_U8("graphics/yokai/073/footprint.1bpp");
 
 const u32 gMonFrontPic_Geodude[] = INCBIN_U32("graphics/yokai/074/front.4bpp.lz");
 const u32 gMonPalette_Geodude[] = INCBIN_U32("graphics/yokai/074/normal.gbapal.lz");
 const u32 gMonBackPic_Geodude[] = INCBIN_U32("graphics/yokai/074/back.4bpp.lz");
 const u32 gMonShinyPalette_Geodude[] = INCBIN_U32("graphics/yokai/074/shiny.gbapal.lz");
-const u8 gMonIcon_Geodude[] = INCBIN_U8("graphics/yokai/074/icon.4bpp");
+const u8 gMonIcon_Geodude[] = INCBIN_U8("graphics/yokai/074/icon-display.4bpp");
 const u8 gMonFootprint_Geodude[] = INCBIN_U8("graphics/yokai/074/footprint.1bpp");
 
 const u32 gMonFrontPic_Graveler[] = INCBIN_U32("graphics/yokai/075/front.4bpp.lz");
 const u32 gMonPalette_Graveler[] = INCBIN_U32("graphics/yokai/075/normal.gbapal.lz");
 const u32 gMonBackPic_Graveler[] = INCBIN_U32("graphics/yokai/075/back.4bpp.lz");
 const u32 gMonShinyPalette_Graveler[] = INCBIN_U32("graphics/yokai/075/shiny.gbapal.lz");
-const u8 gMonIcon_Graveler[] = INCBIN_U8("graphics/yokai/075/icon.4bpp");
+const u8 gMonIcon_Graveler[] = INCBIN_U8("graphics/yokai/075/icon-display.4bpp");
 const u8 gMonFootprint_Graveler[] = INCBIN_U8("graphics/yokai/075/footprint.1bpp");
 
 const u32 gMonFrontPic_Golem[] = INCBIN_U32("graphics/yokai/076/front.4bpp.lz");
 const u32 gMonPalette_Golem[] = INCBIN_U32("graphics/yokai/076/normal.gbapal.lz");
 const u32 gMonBackPic_Golem[] = INCBIN_U32("graphics/yokai/076/back.4bpp.lz");
 const u32 gMonShinyPalette_Golem[] = INCBIN_U32("graphics/yokai/076/shiny.gbapal.lz");
-const u8 gMonIcon_Golem[] = INCBIN_U8("graphics/yokai/076/icon.4bpp");
+const u8 gMonIcon_Golem[] = INCBIN_U8("graphics/yokai/076/icon-display.4bpp");
 const u8 gMonFootprint_Golem[] = INCBIN_U8("graphics/yokai/076/footprint.1bpp");
 
 const u32 gMonFrontPic_Ponyta[] = INCBIN_U32("graphics/yokai/077/front.4bpp.lz");
 const u32 gMonPalette_Ponyta[] = INCBIN_U32("graphics/yokai/077/normal.gbapal.lz");
 const u32 gMonBackPic_Ponyta[] = INCBIN_U32("graphics/yokai/077/back.4bpp.lz");
 const u32 gMonShinyPalette_Ponyta[] = INCBIN_U32("graphics/yokai/077/shiny.gbapal.lz");
-const u8 gMonIcon_Ponyta[] = INCBIN_U8("graphics/yokai/077/icon.4bpp");
+const u8 gMonIcon_Ponyta[] = INCBIN_U8("graphics/yokai/077/icon-display.4bpp");
 const u8 gMonFootprint_Ponyta[] = INCBIN_U8("graphics/yokai/077/footprint.1bpp");
 
 const u32 gMonFrontPic_Rapidash[] = INCBIN_U32("graphics/yokai/078/front.4bpp.lz");
 const u32 gMonPalette_Rapidash[] = INCBIN_U32("graphics/yokai/078/normal.gbapal.lz");
 const u32 gMonBackPic_Rapidash[] = INCBIN_U32("graphics/yokai/078/back.4bpp.lz");
 const u32 gMonShinyPalette_Rapidash[] = INCBIN_U32("graphics/yokai/078/shiny.gbapal.lz");
-const u8 gMonIcon_Rapidash[] = INCBIN_U8("graphics/yokai/078/icon.4bpp");
+const u8 gMonIcon_Rapidash[] = INCBIN_U8("graphics/yokai/078/icon-display.4bpp");
 const u8 gMonFootprint_Rapidash[] = INCBIN_U8("graphics/yokai/078/footprint.1bpp");
 
 const u32 gMonFrontPic_Slowpoke[] = INCBIN_U32("graphics/yokai/079/front.4bpp.lz");
@@ -555,42 +555,42 @@ const u32 gMonFrontPic_Slowbro[] = INCBIN_U32("graphics/yokai/080/front.4bpp.lz"
 const u32 gMonPalette_Slowbro[] = INCBIN_U32("graphics/yokai/080/normal.gbapal.lz");
 const u32 gMonBackPic_Slowbro[] = INCBIN_U32("graphics/yokai/080/back.4bpp.lz");
 const u32 gMonShinyPalette_Slowbro[] = INCBIN_U32("graphics/yokai/080/shiny.gbapal.lz");
-const u8 gMonIcon_Slowbro[] = INCBIN_U8("graphics/yokai/080/icon.4bpp");
+const u8 gMonIcon_Slowbro[] = INCBIN_U8("graphics/yokai/080/icon-display.4bpp");
 const u8 gMonFootprint_Slowbro[] = INCBIN_U8("graphics/yokai/080/footprint.1bpp");
 
 const u32 gMonFrontPic_Magnemite[] = INCBIN_U32("graphics/yokai/081/front.4bpp.lz");
 const u32 gMonPalette_Magnemite[] = INCBIN_U32("graphics/yokai/081/normal.gbapal.lz");
 const u32 gMonBackPic_Magnemite[] = INCBIN_U32("graphics/yokai/081/back.4bpp.lz");
 const u32 gMonShinyPalette_Magnemite[] = INCBIN_U32("graphics/yokai/081/shiny.gbapal.lz");
-const u8 gMonIcon_Magnemite[] = INCBIN_U8("graphics/yokai/081/icon.4bpp");
+const u8 gMonIcon_Magnemite[] = INCBIN_U8("graphics/yokai/081/icon-display.4bpp");
 const u8 gMonFootprint_Magnemite[] = INCBIN_U8("graphics/yokai/081/footprint.1bpp");
 
 const u32 gMonFrontPic_Magneton[] = INCBIN_U32("graphics/yokai/082/front.4bpp.lz");
 const u32 gMonPalette_Magneton[] = INCBIN_U32("graphics/yokai/082/normal.gbapal.lz");
 const u32 gMonBackPic_Magneton[] = INCBIN_U32("graphics/yokai/082/back.4bpp.lz");
 const u32 gMonShinyPalette_Magneton[] = INCBIN_U32("graphics/yokai/082/shiny.gbapal.lz");
-const u8 gMonIcon_Magneton[] = INCBIN_U8("graphics/yokai/082/icon.4bpp");
+const u8 gMonIcon_Magneton[] = INCBIN_U8("graphics/yokai/082/icon-display.4bpp");
 const u8 gMonFootprint_Magneton[] = INCBIN_U8("graphics/yokai/082/footprint.1bpp");
 
 const u32 gMonFrontPic_Farfetchd[] = INCBIN_U32("graphics/yokai/083/front.4bpp.lz");
 const u32 gMonPalette_Farfetchd[] = INCBIN_U32("graphics/yokai/083/normal.gbapal.lz");
 const u32 gMonBackPic_Farfetchd[] = INCBIN_U32("graphics/yokai/083/back.4bpp.lz");
 const u32 gMonShinyPalette_Farfetchd[] = INCBIN_U32("graphics/yokai/083/shiny.gbapal.lz");
-const u8 gMonIcon_Farfetchd[] = INCBIN_U8("graphics/yokai/083/icon.4bpp");
+const u8 gMonIcon_Farfetchd[] = INCBIN_U8("graphics/yokai/083/icon-display.4bpp");
 const u8 gMonFootprint_Farfetchd[] = INCBIN_U8("graphics/yokai/083/footprint.1bpp");
 
 const u32 gMonFrontPic_Doduo[] = INCBIN_U32("graphics/yokai/084/front.4bpp.lz");
 const u32 gMonPalette_Doduo[] = INCBIN_U32("graphics/yokai/084/normal.gbapal.lz");
 const u32 gMonBackPic_Doduo[] = INCBIN_U32("graphics/yokai/084/back.4bpp.lz");
 const u32 gMonShinyPalette_Doduo[] = INCBIN_U32("graphics/yokai/084/shiny.gbapal.lz");
-const u8 gMonIcon_Doduo[] = INCBIN_U8("graphics/yokai/084/icon.4bpp");
+const u8 gMonIcon_Doduo[] = INCBIN_U8("graphics/yokai/084/icon-display.4bpp");
 const u8 gMonFootprint_Doduo[] = INCBIN_U8("graphics/yokai/084/footprint.1bpp");
 
 const u32 gMonFrontPic_Dodrio[] = INCBIN_U32("graphics/yokai/085/front.4bpp.lz");
 const u32 gMonPalette_Dodrio[] = INCBIN_U32("graphics/yokai/085/normal.gbapal.lz");
 const u32 gMonBackPic_Dodrio[] = INCBIN_U32("graphics/yokai/085/back.4bpp.lz");
 const u32 gMonShinyPalette_Dodrio[] = INCBIN_U32("graphics/yokai/085/shiny.gbapal.lz");
-const u8 gMonIcon_Dodrio[] = INCBIN_U8("graphics/yokai/085/icon.4bpp");
+const u8 gMonIcon_Dodrio[] = INCBIN_U8("graphics/yokai/085/icon-display.4bpp");
 const u8 gMonFootprint_Dodrio[] = INCBIN_U8("graphics/yokai/085/footprint.1bpp");
 
 const u32 gMonFrontPic_Seel[] = INCBIN_U32("graphics/yokai/086/front.4bpp.lz");
@@ -604,7 +604,7 @@ const u32 gMonFrontPic_Dewgong[] = INCBIN_U32("graphics/yokai/087/front.4bpp.lz"
 const u32 gMonPalette_Dewgong[] = INCBIN_U32("graphics/yokai/087/normal.gbapal.lz");
 const u32 gMonBackPic_Dewgong[] = INCBIN_U32("graphics/yokai/087/back-display.4bpp.lz");
 const u32 gMonShinyPalette_Dewgong[] = INCBIN_U32("graphics/yokai/087/shiny.gbapal.lz");
-const u8 gMonIcon_Dewgong[] = INCBIN_U8("graphics/yokai/087/icon.4bpp");
+const u8 gMonIcon_Dewgong[] = INCBIN_U8("graphics/yokai/087/icon-display.4bpp");
 const u8 gMonFootprint_Dewgong[] = INCBIN_U8("graphics/yokai/087/footprint.1bpp");
 
 const u32 gMonFrontPic_Grimer[] = INCBIN_U32("graphics/yokai/088/front.4bpp.lz");
@@ -618,119 +618,119 @@ const u32 gMonFrontPic_Muk[] = INCBIN_U32("graphics/yokai/089/front.4bpp.lz");
 const u32 gMonPalette_Muk[] = INCBIN_U32("graphics/yokai/089/normal.gbapal.lz");
 const u32 gMonBackPic_Muk[] = INCBIN_U32("graphics/yokai/089/back.4bpp.lz");
 const u32 gMonShinyPalette_Muk[] = INCBIN_U32("graphics/yokai/089/shiny.gbapal.lz");
-const u8 gMonIcon_Muk[] = INCBIN_U8("graphics/yokai/089/icon.4bpp");
+const u8 gMonIcon_Muk[] = INCBIN_U8("graphics/yokai/089/icon-display.4bpp");
 const u8 gMonFootprint_Muk[] = INCBIN_U8("graphics/yokai/089/footprint.1bpp");
 
 const u32 gMonFrontPic_Shellder[] = INCBIN_U32("graphics/yokai/090/front.4bpp.lz");
 const u32 gMonPalette_Shellder[] = INCBIN_U32("graphics/yokai/090/normal.gbapal.lz");
 const u32 gMonBackPic_Shellder[] = INCBIN_U32("graphics/yokai/090/back.4bpp.lz");
 const u32 gMonShinyPalette_Shellder[] = INCBIN_U32("graphics/yokai/090/shiny.gbapal.lz");
-const u8 gMonIcon_Shellder[] = INCBIN_U8("graphics/yokai/090/icon.4bpp");
+const u8 gMonIcon_Shellder[] = INCBIN_U8("graphics/yokai/090/icon-display.4bpp");
 const u8 gMonFootprint_Shellder[] = INCBIN_U8("graphics/yokai/090/footprint.1bpp");
 
 const u32 gMonFrontPic_Cloyster[] = INCBIN_U32("graphics/yokai/091/front.4bpp.lz");
 const u32 gMonPalette_Cloyster[] = INCBIN_U32("graphics/yokai/091/normal.gbapal.lz");
 const u32 gMonBackPic_Cloyster[] = INCBIN_U32("graphics/yokai/091/back.4bpp.lz");
 const u32 gMonShinyPalette_Cloyster[] = INCBIN_U32("graphics/yokai/091/shiny.gbapal.lz");
-const u8 gMonIcon_Cloyster[] = INCBIN_U8("graphics/yokai/091/icon.4bpp");
+const u8 gMonIcon_Cloyster[] = INCBIN_U8("graphics/yokai/091/icon-display.4bpp");
 const u8 gMonFootprint_Cloyster[] = INCBIN_U8("graphics/yokai/091/footprint.1bpp");
 
 const u32 gMonFrontPic_Gastly[] = INCBIN_U32("graphics/yokai/092/front.4bpp.lz");
 const u32 gMonPalette_Gastly[] = INCBIN_U32("graphics/yokai/092/normal.gbapal.lz");
 const u32 gMonBackPic_Gastly[] = INCBIN_U32("graphics/yokai/092/back.4bpp.lz");
 const u32 gMonShinyPalette_Gastly[] = INCBIN_U32("graphics/yokai/092/shiny.gbapal.lz");
-const u8 gMonIcon_Gastly[] = INCBIN_U8("graphics/yokai/092/icon.4bpp");
+const u8 gMonIcon_Gastly[] = INCBIN_U8("graphics/yokai/092/icon-display.4bpp");
 const u8 gMonFootprint_Gastly[] = INCBIN_U8("graphics/yokai/092/footprint.1bpp");
 
 const u32 gMonFrontPic_Haunter[] = INCBIN_U32("graphics/yokai/093/front.4bpp.lz");
 const u32 gMonPalette_Haunter[] = INCBIN_U32("graphics/yokai/093/normal.gbapal.lz");
 const u32 gMonBackPic_Haunter[] = INCBIN_U32("graphics/yokai/093/back.4bpp.lz");
 const u32 gMonShinyPalette_Haunter[] = INCBIN_U32("graphics/yokai/093/shiny.gbapal.lz");
-const u8 gMonIcon_Haunter[] = INCBIN_U8("graphics/yokai/093/icon.4bpp");
+const u8 gMonIcon_Haunter[] = INCBIN_U8("graphics/yokai/093/icon-display.4bpp");
 const u8 gMonFootprint_Haunter[] = INCBIN_U8("graphics/yokai/093/footprint.1bpp");
 
 const u32 gMonFrontPic_Gengar[] = INCBIN_U32("graphics/yokai/094/front.4bpp.lz");
 const u32 gMonPalette_Gengar[] = INCBIN_U32("graphics/yokai/094/normal.gbapal.lz");
 const u32 gMonBackPic_Gengar[] = INCBIN_U32("graphics/yokai/094/back.4bpp.lz");
 const u32 gMonShinyPalette_Gengar[] = INCBIN_U32("graphics/yokai/094/shiny.gbapal.lz");
-const u8 gMonIcon_Gengar[] = INCBIN_U8("graphics/yokai/094/icon.4bpp");
+const u8 gMonIcon_Gengar[] = INCBIN_U8("graphics/yokai/094/icon-display.4bpp");
 const u8 gMonFootprint_Gengar[] = INCBIN_U8("graphics/yokai/094/footprint.1bpp");
 
 const u32 gMonFrontPic_Onix[] = INCBIN_U32("graphics/yokai/095/front.4bpp.lz");
 const u32 gMonPalette_Onix[] = INCBIN_U32("graphics/yokai/095/normal.gbapal.lz");
 const u32 gMonBackPic_Onix[] = INCBIN_U32("graphics/yokai/095/back.4bpp.lz");
 const u32 gMonShinyPalette_Onix[] = INCBIN_U32("graphics/yokai/095/shiny.gbapal.lz");
-const u8 gMonIcon_Onix[] = INCBIN_U8("graphics/yokai/095/icon.4bpp");
+const u8 gMonIcon_Onix[] = INCBIN_U8("graphics/yokai/095/icon-display.4bpp");
 const u8 gMonFootprint_Onix[] = INCBIN_U8("graphics/yokai/095/footprint.1bpp");
 
 const u32 gMonFrontPic_Drowzee[] = INCBIN_U32("graphics/yokai/096/front.4bpp.lz");
 const u32 gMonPalette_Drowzee[] = INCBIN_U32("graphics/yokai/096/normal.gbapal.lz");
 const u32 gMonBackPic_Drowzee[] = INCBIN_U32("graphics/yokai/096/back.4bpp.lz");
 const u32 gMonShinyPalette_Drowzee[] = INCBIN_U32("graphics/yokai/096/shiny.gbapal.lz");
-const u8 gMonIcon_Drowzee[] = INCBIN_U8("graphics/yokai/096/icon.4bpp");
+const u8 gMonIcon_Drowzee[] = INCBIN_U8("graphics/yokai/096/icon-display.4bpp");
 const u8 gMonFootprint_Drowzee[] = INCBIN_U8("graphics/yokai/096/footprint.1bpp");
 
 const u32 gMonFrontPic_Hypno[] = INCBIN_U32("graphics/yokai/097/front.4bpp.lz");
 const u32 gMonPalette_Hypno[] = INCBIN_U32("graphics/yokai/097/normal.gbapal.lz");
 const u32 gMonBackPic_Hypno[] = INCBIN_U32("graphics/yokai/097/back-display.4bpp.lz");
 const u32 gMonShinyPalette_Hypno[] = INCBIN_U32("graphics/yokai/097/shiny.gbapal.lz");
-const u8 gMonIcon_Hypno[] = INCBIN_U8("graphics/yokai/097/icon.4bpp");
+const u8 gMonIcon_Hypno[] = INCBIN_U8("graphics/yokai/097/icon-display.4bpp");
 const u8 gMonFootprint_Hypno[] = INCBIN_U8("graphics/yokai/097/footprint.1bpp");
 
 const u32 gMonFrontPic_Krabby[] = INCBIN_U32("graphics/yokai/098/front.4bpp.lz");
 const u32 gMonPalette_Krabby[] = INCBIN_U32("graphics/yokai/098/normal.gbapal.lz");
 const u32 gMonBackPic_Krabby[] = INCBIN_U32("graphics/yokai/098/back.4bpp.lz");
 const u32 gMonShinyPalette_Krabby[] = INCBIN_U32("graphics/yokai/098/shiny.gbapal.lz");
-const u8 gMonIcon_Krabby[] = INCBIN_U8("graphics/yokai/098/icon.4bpp");
+const u8 gMonIcon_Krabby[] = INCBIN_U8("graphics/yokai/098/icon-display.4bpp");
 const u8 gMonFootprint_Krabby[] = INCBIN_U8("graphics/yokai/098/footprint.1bpp");
 
 const u32 gMonFrontPic_Kingler[] = INCBIN_U32("graphics/yokai/099/front.4bpp.lz");
 const u32 gMonPalette_Kingler[] = INCBIN_U32("graphics/yokai/099/normal.gbapal.lz");
 const u32 gMonBackPic_Kingler[] = INCBIN_U32("graphics/yokai/099/back-display.4bpp.lz");
 const u32 gMonShinyPalette_Kingler[] = INCBIN_U32("graphics/yokai/099/shiny.gbapal.lz");
-const u8 gMonIcon_Kingler[] = INCBIN_U8("graphics/yokai/099/icon.4bpp");
+const u8 gMonIcon_Kingler[] = INCBIN_U8("graphics/yokai/099/icon-display.4bpp");
 const u8 gMonFootprint_Kingler[] = INCBIN_U8("graphics/yokai/099/footprint.1bpp");
 
 const u32 gMonFrontPic_Voltorb[] = INCBIN_U32("graphics/yokai/100/front.4bpp.lz");
 const u32 gMonPalette_Voltorb[] = INCBIN_U32("graphics/yokai/100/normal.gbapal.lz");
 const u32 gMonBackPic_Voltorb[] = INCBIN_U32("graphics/yokai/100/back-display.4bpp.lz");
 const u32 gMonShinyPalette_Voltorb[] = INCBIN_U32("graphics/yokai/100/shiny.gbapal.lz");
-const u8 gMonIcon_Voltorb[] = INCBIN_U8("graphics/yokai/100/icon.4bpp");
+const u8 gMonIcon_Voltorb[] = INCBIN_U8("graphics/yokai/100/icon-display.4bpp");
 const u8 gMonFootprint_Voltorb[] = INCBIN_U8("graphics/yokai/100/footprint.1bpp");
 
 const u32 gMonFrontPic_Electrode[] = INCBIN_U32("graphics/yokai/101/front.4bpp.lz");
 const u32 gMonPalette_Electrode[] = INCBIN_U32("graphics/yokai/101/normal.gbapal.lz");
 const u32 gMonBackPic_Electrode[] = INCBIN_U32("graphics/yokai/101/back-display.4bpp.lz");
 const u32 gMonShinyPalette_Electrode[] = INCBIN_U32("graphics/yokai/101/shiny.gbapal.lz");
-const u8 gMonIcon_Electrode[] = INCBIN_U8("graphics/yokai/101/icon.4bpp");
+const u8 gMonIcon_Electrode[] = INCBIN_U8("graphics/yokai/101/icon-display.4bpp");
 const u8 gMonFootprint_Electrode[] = INCBIN_U8("graphics/yokai/101/footprint.1bpp");
 
 const u32 gMonFrontPic_Exeggcute[] = INCBIN_U32("graphics/yokai/102/front.4bpp.lz");
 const u32 gMonPalette_Exeggcute[] = INCBIN_U32("graphics/yokai/102/normal.gbapal.lz");
 const u32 gMonBackPic_Exeggcute[] = INCBIN_U32("graphics/yokai/102/back.4bpp.lz");
 const u32 gMonShinyPalette_Exeggcute[] = INCBIN_U32("graphics/yokai/102/shiny.gbapal.lz");
-const u8 gMonIcon_Exeggcute[] = INCBIN_U8("graphics/yokai/102/icon.4bpp");
+const u8 gMonIcon_Exeggcute[] = INCBIN_U8("graphics/yokai/102/icon-display.4bpp");
 const u8 gMonFootprint_Exeggcute[] = INCBIN_U8("graphics/yokai/102/footprint.1bpp");
 
 const u32 gMonFrontPic_Exeggutor[] = INCBIN_U32("graphics/yokai/103/front.4bpp.lz");
 const u32 gMonPalette_Exeggutor[] = INCBIN_U32("graphics/yokai/103/normal.gbapal.lz");
 const u32 gMonBackPic_Exeggutor[] = INCBIN_U32("graphics/yokai/103/back.4bpp.lz");
 const u32 gMonShinyPalette_Exeggutor[] = INCBIN_U32("graphics/yokai/103/shiny.gbapal.lz");
-const u8 gMonIcon_Exeggutor[] = INCBIN_U8("graphics/yokai/103/icon.4bpp");
+const u8 gMonIcon_Exeggutor[] = INCBIN_U8("graphics/yokai/103/icon-display.4bpp");
 const u8 gMonFootprint_Exeggutor[] = INCBIN_U8("graphics/yokai/103/footprint.1bpp");
 
 const u32 gMonFrontPic_Cubone[] = INCBIN_U32("graphics/yokai/104/front.4bpp.lz");
 const u32 gMonPalette_Cubone[] = INCBIN_U32("graphics/yokai/104/normal.gbapal.lz");
 const u32 gMonBackPic_Cubone[] = INCBIN_U32("graphics/yokai/104/back.4bpp.lz");
 const u32 gMonShinyPalette_Cubone[] = INCBIN_U32("graphics/yokai/104/shiny.gbapal.lz");
-const u8 gMonIcon_Cubone[] = INCBIN_U8("graphics/yokai/104/icon.4bpp");
+const u8 gMonIcon_Cubone[] = INCBIN_U8("graphics/yokai/104/icon-display.4bpp");
 const u8 gMonFootprint_Cubone[] = INCBIN_U8("graphics/yokai/104/footprint.1bpp");
 
 const u32 gMonFrontPic_Marowak[] = INCBIN_U32("graphics/yokai/105/front.4bpp.lz");
 const u32 gMonPalette_Marowak[] = INCBIN_U32("graphics/yokai/105/normal.gbapal.lz");
 const u32 gMonBackPic_Marowak[] = INCBIN_U32("graphics/yokai/105/back.4bpp.lz");
 const u32 gMonShinyPalette_Marowak[] = INCBIN_U32("graphics/yokai/105/shiny.gbapal.lz");
-const u8 gMonIcon_Marowak[] = INCBIN_U8("graphics/yokai/105/icon.4bpp");
+const u8 gMonIcon_Marowak[] = INCBIN_U8("graphics/yokai/105/icon-display.4bpp");
 const u8 gMonFootprint_Marowak[] = INCBIN_U8("graphics/yokai/105/footprint.1bpp");
 
 const u32 gMonFrontPic_Hitmonlee[] = INCBIN_U32("graphics/yokai/106/front-display.4bpp.lz");
@@ -744,63 +744,63 @@ const u32 gMonFrontPic_Hitmonchan[] = INCBIN_U32("graphics/yokai/107/front.4bpp.
 const u32 gMonPalette_Hitmonchan[] = INCBIN_U32("graphics/yokai/107/normal.gbapal.lz");
 const u32 gMonBackPic_Hitmonchan[] = INCBIN_U32("graphics/yokai/107/back.4bpp.lz");
 const u32 gMonShinyPalette_Hitmonchan[] = INCBIN_U32("graphics/yokai/107/shiny.gbapal.lz");
-const u8 gMonIcon_Hitmonchan[] = INCBIN_U8("graphics/yokai/107/icon.4bpp");
+const u8 gMonIcon_Hitmonchan[] = INCBIN_U8("graphics/yokai/107/icon-display.4bpp");
 const u8 gMonFootprint_Hitmonchan[] = INCBIN_U8("graphics/yokai/107/footprint.1bpp");
 
 const u32 gMonFrontPic_Lickitung[] = INCBIN_U32("graphics/yokai/108/front.4bpp.lz");
 const u32 gMonPalette_Lickitung[] = INCBIN_U32("graphics/yokai/108/normal.gbapal.lz");
 const u32 gMonBackPic_Lickitung[] = INCBIN_U32("graphics/yokai/108/back.4bpp.lz");
 const u32 gMonShinyPalette_Lickitung[] = INCBIN_U32("graphics/yokai/108/shiny.gbapal.lz");
-const u8 gMonIcon_Lickitung[] = INCBIN_U8("graphics/yokai/108/icon.4bpp");
+const u8 gMonIcon_Lickitung[] = INCBIN_U8("graphics/yokai/108/icon-display.4bpp");
 const u8 gMonFootprint_Lickitung[] = INCBIN_U8("graphics/yokai/108/footprint.1bpp");
 
 const u32 gMonFrontPic_Koffing[] = INCBIN_U32("graphics/yokai/109/front.4bpp.lz");
 const u32 gMonPalette_Koffing[] = INCBIN_U32("graphics/yokai/109/normal.gbapal.lz");
 const u32 gMonBackPic_Koffing[] = INCBIN_U32("graphics/yokai/109/back.4bpp.lz");
 const u32 gMonShinyPalette_Koffing[] = INCBIN_U32("graphics/yokai/109/shiny.gbapal.lz");
-const u8 gMonIcon_Koffing[] = INCBIN_U8("graphics/yokai/109/icon.4bpp");
+const u8 gMonIcon_Koffing[] = INCBIN_U8("graphics/yokai/109/icon-display.4bpp");
 const u8 gMonFootprint_Koffing[] = INCBIN_U8("graphics/yokai/109/footprint.1bpp");
 
 const u32 gMonFrontPic_Weezing[] = INCBIN_U32("graphics/yokai/110/front.4bpp.lz");
 const u32 gMonPalette_Weezing[] = INCBIN_U32("graphics/yokai/110/normal.gbapal.lz");
 const u32 gMonBackPic_Weezing[] = INCBIN_U32("graphics/yokai/110/back-display.4bpp.lz");
 const u32 gMonShinyPalette_Weezing[] = INCBIN_U32("graphics/yokai/110/shiny.gbapal.lz");
-const u8 gMonIcon_Weezing[] = INCBIN_U8("graphics/yokai/110/icon.4bpp");
+const u8 gMonIcon_Weezing[] = INCBIN_U8("graphics/yokai/110/icon-display.4bpp");
 const u8 gMonFootprint_Weezing[] = INCBIN_U8("graphics/yokai/110/footprint.1bpp");
 
 const u32 gMonFrontPic_Rhyhorn[] = INCBIN_U32("graphics/yokai/111/front.4bpp.lz");
 const u32 gMonPalette_Rhyhorn[] = INCBIN_U32("graphics/yokai/111/normal.gbapal.lz");
 const u32 gMonBackPic_Rhyhorn[] = INCBIN_U32("graphics/yokai/111/back.4bpp.lz");
 const u32 gMonShinyPalette_Rhyhorn[] = INCBIN_U32("graphics/yokai/111/shiny.gbapal.lz");
-const u8 gMonIcon_Rhyhorn[] = INCBIN_U8("graphics/yokai/111/icon.4bpp");
+const u8 gMonIcon_Rhyhorn[] = INCBIN_U8("graphics/yokai/111/icon-display.4bpp");
 const u8 gMonFootprint_Rhyhorn[] = INCBIN_U8("graphics/yokai/111/footprint.1bpp");
 
 const u32 gMonFrontPic_Rhydon[] = INCBIN_U32("graphics/yokai/112/front.4bpp.lz");
 const u32 gMonPalette_Rhydon[] = INCBIN_U32("graphics/yokai/112/normal.gbapal.lz");
 const u32 gMonBackPic_Rhydon[] = INCBIN_U32("graphics/yokai/112/back.4bpp.lz");
 const u32 gMonShinyPalette_Rhydon[] = INCBIN_U32("graphics/yokai/112/shiny.gbapal.lz");
-const u8 gMonIcon_Rhydon[] = INCBIN_U8("graphics/yokai/112/icon.4bpp");
+const u8 gMonIcon_Rhydon[] = INCBIN_U8("graphics/yokai/112/icon-display.4bpp");
 const u8 gMonFootprint_Rhydon[] = INCBIN_U8("graphics/yokai/112/footprint.1bpp");
 
 const u32 gMonFrontPic_Chansey[] = INCBIN_U32("graphics/yokai/113/front.4bpp.lz");
 const u32 gMonPalette_Chansey[] = INCBIN_U32("graphics/yokai/113/normal.gbapal.lz");
 const u32 gMonBackPic_Chansey[] = INCBIN_U32("graphics/yokai/113/back.4bpp.lz");
 const u32 gMonShinyPalette_Chansey[] = INCBIN_U32("graphics/yokai/113/shiny.gbapal.lz");
-const u8 gMonIcon_Chansey[] = INCBIN_U8("graphics/yokai/113/icon.4bpp");
+const u8 gMonIcon_Chansey[] = INCBIN_U8("graphics/yokai/113/icon-display.4bpp");
 const u8 gMonFootprint_Chansey[] = INCBIN_U8("graphics/yokai/113/footprint.1bpp");
 
 const u32 gMonFrontPic_Tangela[] = INCBIN_U32("graphics/yokai/114/front.4bpp.lz");
 const u32 gMonPalette_Tangela[] = INCBIN_U32("graphics/yokai/114/normal.gbapal.lz");
 const u32 gMonBackPic_Tangela[] = INCBIN_U32("graphics/yokai/114/back.4bpp.lz");
 const u32 gMonShinyPalette_Tangela[] = INCBIN_U32("graphics/yokai/114/shiny.gbapal.lz");
-const u8 gMonIcon_Tangela[] = INCBIN_U8("graphics/yokai/114/icon.4bpp");
+const u8 gMonIcon_Tangela[] = INCBIN_U8("graphics/yokai/114/icon-display.4bpp");
 const u8 gMonFootprint_Tangela[] = INCBIN_U8("graphics/yokai/114/footprint.1bpp");
 
 const u32 gMonFrontPic_Kangaskhan[] = INCBIN_U32("graphics/yokai/115/front.4bpp.lz");
 const u32 gMonPalette_Kangaskhan[] = INCBIN_U32("graphics/yokai/115/normal.gbapal.lz");
 const u32 gMonBackPic_Kangaskhan[] = INCBIN_U32("graphics/yokai/115/back.4bpp.lz");
 const u32 gMonShinyPalette_Kangaskhan[] = INCBIN_U32("graphics/yokai/115/shiny.gbapal.lz");
-const u8 gMonIcon_Kangaskhan[] = INCBIN_U8("graphics/yokai/115/icon.4bpp");
+const u8 gMonIcon_Kangaskhan[] = INCBIN_U8("graphics/yokai/115/icon-display.4bpp");
 const u8 gMonFootprint_Kangaskhan[] = INCBIN_U8("graphics/yokai/115/footprint.1bpp");
 
 const u32 gMonFrontPic_Horsea[] = INCBIN_U32("graphics/yokai/116/front.4bpp.lz");
@@ -814,175 +814,175 @@ const u32 gMonFrontPic_Seadra[] = INCBIN_U32("graphics/yokai/117/front.4bpp.lz")
 const u32 gMonPalette_Seadra[] = INCBIN_U32("graphics/yokai/117/normal.gbapal.lz");
 const u32 gMonBackPic_Seadra[] = INCBIN_U32("graphics/yokai/117/back.4bpp.lz");
 const u32 gMonShinyPalette_Seadra[] = INCBIN_U32("graphics/yokai/117/shiny.gbapal.lz");
-const u8 gMonIcon_Seadra[] = INCBIN_U8("graphics/yokai/117/icon.4bpp");
+const u8 gMonIcon_Seadra[] = INCBIN_U8("graphics/yokai/117/icon-display.4bpp");
 const u8 gMonFootprint_Seadra[] = INCBIN_U8("graphics/yokai/117/footprint.1bpp");
 
 const u32 gMonFrontPic_Goldeen[] = INCBIN_U32("graphics/yokai/118/front.4bpp.lz");
 const u32 gMonPalette_Goldeen[] = INCBIN_U32("graphics/yokai/118/normal.gbapal.lz");
 const u32 gMonBackPic_Goldeen[] = INCBIN_U32("graphics/yokai/118/back.4bpp.lz");
 const u32 gMonShinyPalette_Goldeen[] = INCBIN_U32("graphics/yokai/118/shiny.gbapal.lz");
-const u8 gMonIcon_Goldeen[] = INCBIN_U8("graphics/yokai/118/icon.4bpp");
+const u8 gMonIcon_Goldeen[] = INCBIN_U8("graphics/yokai/118/icon-display.4bpp");
 const u8 gMonFootprint_Goldeen[] = INCBIN_U8("graphics/yokai/118/footprint.1bpp");
 
 const u32 gMonFrontPic_Seaking[] = INCBIN_U32("graphics/yokai/119/front.4bpp.lz");
 const u32 gMonPalette_Seaking[] = INCBIN_U32("graphics/yokai/119/normal.gbapal.lz");
 const u32 gMonBackPic_Seaking[] = INCBIN_U32("graphics/yokai/119/back-display.4bpp.lz");
 const u32 gMonShinyPalette_Seaking[] = INCBIN_U32("graphics/yokai/119/shiny.gbapal.lz");
-const u8 gMonIcon_Seaking[] = INCBIN_U8("graphics/yokai/119/icon.4bpp");
+const u8 gMonIcon_Seaking[] = INCBIN_U8("graphics/yokai/119/icon-display.4bpp");
 const u8 gMonFootprint_Seaking[] = INCBIN_U8("graphics/yokai/119/footprint.1bpp");
 
 const u32 gMonFrontPic_Staryu[] = INCBIN_U32("graphics/yokai/120/front.4bpp.lz");
 const u32 gMonPalette_Staryu[] = INCBIN_U32("graphics/yokai/120/normal.gbapal.lz");
 const u32 gMonBackPic_Staryu[] = INCBIN_U32("graphics/yokai/120/back-display.4bpp.lz");
 const u32 gMonShinyPalette_Staryu[] = INCBIN_U32("graphics/yokai/120/shiny.gbapal.lz");
-const u8 gMonIcon_Staryu[] = INCBIN_U8("graphics/yokai/120/icon.4bpp");
+const u8 gMonIcon_Staryu[] = INCBIN_U8("graphics/yokai/120/icon-display.4bpp");
 const u8 gMonFootprint_Staryu[] = INCBIN_U8("graphics/yokai/120/footprint.1bpp");
 
 const u32 gMonFrontPic_Starmie[] = INCBIN_U32("graphics/yokai/121/front.4bpp.lz");
 const u32 gMonPalette_Starmie[] = INCBIN_U32("graphics/yokai/121/normal.gbapal.lz");
 const u32 gMonBackPic_Starmie[] = INCBIN_U32("graphics/yokai/121/back.4bpp.lz");
 const u32 gMonShinyPalette_Starmie[] = INCBIN_U32("graphics/yokai/121/shiny.gbapal.lz");
-const u8 gMonIcon_Starmie[] = INCBIN_U8("graphics/yokai/121/icon.4bpp");
+const u8 gMonIcon_Starmie[] = INCBIN_U8("graphics/yokai/121/icon-display.4bpp");
 const u8 gMonFootprint_Starmie[] = INCBIN_U8("graphics/yokai/121/footprint.1bpp");
 
 const u32 gMonFrontPic_Mrmime[] = INCBIN_U32("graphics/yokai/122/front.4bpp.lz");
 const u32 gMonPalette_Mrmime[] = INCBIN_U32("graphics/yokai/122/normal.gbapal.lz");
 const u32 gMonBackPic_Mrmime[] = INCBIN_U32("graphics/yokai/122/back.4bpp.lz");
 const u32 gMonShinyPalette_Mrmime[] = INCBIN_U32("graphics/yokai/122/shiny.gbapal.lz");
-const u8 gMonIcon_Mrmime[] = INCBIN_U8("graphics/yokai/122/icon.4bpp");
+const u8 gMonIcon_Mrmime[] = INCBIN_U8("graphics/yokai/122/icon-display.4bpp");
 const u8 gMonFootprint_Mrmime[] = INCBIN_U8("graphics/yokai/122/footprint.1bpp");
 
 const u32 gMonFrontPic_Scyther[] = INCBIN_U32("graphics/yokai/123/front.4bpp.lz");
 const u32 gMonPalette_Scyther[] = INCBIN_U32("graphics/yokai/123/normal.gbapal.lz");
 const u32 gMonBackPic_Scyther[] = INCBIN_U32("graphics/yokai/123/back.4bpp.lz");
 const u32 gMonShinyPalette_Scyther[] = INCBIN_U32("graphics/yokai/123/shiny.gbapal.lz");
-const u8 gMonIcon_Scyther[] = INCBIN_U8("graphics/yokai/123/icon.4bpp");
+const u8 gMonIcon_Scyther[] = INCBIN_U8("graphics/yokai/123/icon-display.4bpp");
 const u8 gMonFootprint_Scyther[] = INCBIN_U8("graphics/yokai/123/footprint.1bpp");
 
 const u32 gMonFrontPic_Jynx[] = INCBIN_U32("graphics/yokai/124/front.4bpp.lz");
 const u32 gMonPalette_Jynx[] = INCBIN_U32("graphics/yokai/124/normal.gbapal.lz");
 const u32 gMonBackPic_Jynx[] = INCBIN_U32("graphics/yokai/124/back.4bpp.lz");
 const u32 gMonShinyPalette_Jynx[] = INCBIN_U32("graphics/yokai/124/shiny.gbapal.lz");
-const u8 gMonIcon_Jynx[] = INCBIN_U8("graphics/yokai/124/icon.4bpp");
+const u8 gMonIcon_Jynx[] = INCBIN_U8("graphics/yokai/124/icon-display.4bpp");
 const u8 gMonFootprint_Jynx[] = INCBIN_U8("graphics/yokai/124/footprint.1bpp");
 
 const u32 gMonFrontPic_Electabuzz[] = INCBIN_U32("graphics/yokai/125/front.4bpp.lz");
 const u32 gMonPalette_Electabuzz[] = INCBIN_U32("graphics/yokai/125/normal.gbapal.lz");
 const u32 gMonBackPic_Electabuzz[] = INCBIN_U32("graphics/yokai/125/back.4bpp.lz");
 const u32 gMonShinyPalette_Electabuzz[] = INCBIN_U32("graphics/yokai/125/shiny.gbapal.lz");
-const u8 gMonIcon_Electabuzz[] = INCBIN_U8("graphics/yokai/125/icon.4bpp");
+const u8 gMonIcon_Electabuzz[] = INCBIN_U8("graphics/yokai/125/icon-display.4bpp");
 const u8 gMonFootprint_Electabuzz[] = INCBIN_U8("graphics/yokai/125/footprint.1bpp");
 
 const u32 gMonFrontPic_Magmar[] = INCBIN_U32("graphics/yokai/126/front.4bpp.lz");
 const u32 gMonPalette_Magmar[] = INCBIN_U32("graphics/yokai/126/normal.gbapal.lz");
 const u32 gMonBackPic_Magmar[] = INCBIN_U32("graphics/yokai/126/back.4bpp.lz");
 const u32 gMonShinyPalette_Magmar[] = INCBIN_U32("graphics/yokai/126/shiny.gbapal.lz");
-const u8 gMonIcon_Magmar[] = INCBIN_U8("graphics/yokai/126/icon.4bpp");
+const u8 gMonIcon_Magmar[] = INCBIN_U8("graphics/yokai/126/icon-display.4bpp");
 const u8 gMonFootprint_Magmar[] = INCBIN_U8("graphics/yokai/126/footprint.1bpp");
 
 const u32 gMonFrontPic_Pinsir[] = INCBIN_U32("graphics/yokai/127/front.4bpp.lz");
 const u32 gMonPalette_Pinsir[] = INCBIN_U32("graphics/yokai/127/normal.gbapal.lz");
 const u32 gMonBackPic_Pinsir[] = INCBIN_U32("graphics/yokai/127/back.4bpp.lz");
 const u32 gMonShinyPalette_Pinsir[] = INCBIN_U32("graphics/yokai/127/shiny.gbapal.lz");
-const u8 gMonIcon_Pinsir[] = INCBIN_U8("graphics/yokai/127/icon.4bpp");
+const u8 gMonIcon_Pinsir[] = INCBIN_U8("graphics/yokai/127/icon-display.4bpp");
 const u8 gMonFootprint_Pinsir[] = INCBIN_U8("graphics/yokai/127/footprint.1bpp");
 
 const u32 gMonFrontPic_Tauros[] = INCBIN_U32("graphics/yokai/128/front.4bpp.lz");
 const u32 gMonPalette_Tauros[] = INCBIN_U32("graphics/yokai/128/normal.gbapal.lz");
 const u32 gMonBackPic_Tauros[] = INCBIN_U32("graphics/yokai/128/back.4bpp.lz");
 const u32 gMonShinyPalette_Tauros[] = INCBIN_U32("graphics/yokai/128/shiny.gbapal.lz");
-const u8 gMonIcon_Tauros[] = INCBIN_U8("graphics/yokai/128/icon.4bpp");
+const u8 gMonIcon_Tauros[] = INCBIN_U8("graphics/yokai/128/icon-display.4bpp");
 const u8 gMonFootprint_Tauros[] = INCBIN_U8("graphics/yokai/128/footprint.1bpp");
 
 const u32 gMonFrontPic_Magikarp[] = INCBIN_U32("graphics/yokai/129/front.4bpp.lz");
 const u32 gMonPalette_Magikarp[] = INCBIN_U32("graphics/yokai/129/normal.gbapal.lz");
 const u32 gMonBackPic_Magikarp[] = INCBIN_U32("graphics/yokai/129/back.4bpp.lz");
 const u32 gMonShinyPalette_Magikarp[] = INCBIN_U32("graphics/yokai/129/shiny.gbapal.lz");
-const u8 gMonIcon_Magikarp[] = INCBIN_U8("graphics/yokai/129/icon.4bpp");
+const u8 gMonIcon_Magikarp[] = INCBIN_U8("graphics/yokai/129/icon-display.4bpp");
 const u8 gMonFootprint_Magikarp[] = INCBIN_U8("graphics/yokai/129/footprint.1bpp");
 
 const u32 gMonFrontPic_Gyarados[] = INCBIN_U32("graphics/yokai/130/front.4bpp.lz");
 const u32 gMonPalette_Gyarados[] = INCBIN_U32("graphics/yokai/130/normal.gbapal.lz");
 const u32 gMonBackPic_Gyarados[] = INCBIN_U32("graphics/yokai/130/back.4bpp.lz");
 const u32 gMonShinyPalette_Gyarados[] = INCBIN_U32("graphics/yokai/130/shiny.gbapal.lz");
-const u8 gMonIcon_Gyarados[] = INCBIN_U8("graphics/yokai/130/icon.4bpp");
+const u8 gMonIcon_Gyarados[] = INCBIN_U8("graphics/yokai/130/icon-display.4bpp");
 const u8 gMonFootprint_Gyarados[] = INCBIN_U8("graphics/yokai/130/footprint.1bpp");
 
 const u32 gMonFrontPic_Lapras[] = INCBIN_U32("graphics/yokai/131/front.4bpp.lz");
 const u32 gMonPalette_Lapras[] = INCBIN_U32("graphics/yokai/131/normal.gbapal.lz");
 const u32 gMonBackPic_Lapras[] = INCBIN_U32("graphics/yokai/131/back.4bpp.lz");
 const u32 gMonShinyPalette_Lapras[] = INCBIN_U32("graphics/yokai/131/shiny.gbapal.lz");
-const u8 gMonIcon_Lapras[] = INCBIN_U8("graphics/yokai/131/icon.4bpp");
+const u8 gMonIcon_Lapras[] = INCBIN_U8("graphics/yokai/131/icon-display.4bpp");
 const u8 gMonFootprint_Lapras[] = INCBIN_U8("graphics/yokai/131/footprint.1bpp");
 
 const u32 gMonFrontPic_Ditto[] = INCBIN_U32("graphics/yokai/132/front.4bpp.lz");
 const u32 gMonPalette_Ditto[] = INCBIN_U32("graphics/yokai/132/normal.gbapal.lz");
 const u32 gMonBackPic_Ditto[] = INCBIN_U32("graphics/yokai/132/back.4bpp.lz");
 const u32 gMonShinyPalette_Ditto[] = INCBIN_U32("graphics/yokai/132/shiny.gbapal.lz");
-const u8 gMonIcon_Ditto[] = INCBIN_U8("graphics/yokai/132/icon.4bpp");
+const u8 gMonIcon_Ditto[] = INCBIN_U8("graphics/yokai/132/icon-display.4bpp");
 const u8 gMonFootprint_Ditto[] = INCBIN_U8("graphics/yokai/132/footprint.1bpp");
 
 const u32 gMonFrontPic_Eevee[] = INCBIN_U32("graphics/yokai/133/front.4bpp.lz");
 const u32 gMonPalette_Eevee[] = INCBIN_U32("graphics/yokai/133/normal.gbapal.lz");
 const u32 gMonBackPic_Eevee[] = INCBIN_U32("graphics/yokai/133/back.4bpp.lz");
 const u32 gMonShinyPalette_Eevee[] = INCBIN_U32("graphics/yokai/133/shiny.gbapal.lz");
-const u8 gMonIcon_Eevee[] = INCBIN_U8("graphics/yokai/133/icon.4bpp");
+const u8 gMonIcon_Eevee[] = INCBIN_U8("graphics/yokai/133/icon-display.4bpp");
 const u8 gMonFootprint_Eevee[] = INCBIN_U8("graphics/yokai/133/footprint.1bpp");
 
 const u32 gMonFrontPic_Vaporeon[] = INCBIN_U32("graphics/yokai/134/front.4bpp.lz");
 const u32 gMonPalette_Vaporeon[] = INCBIN_U32("graphics/yokai/134/normal.gbapal.lz");
 const u32 gMonBackPic_Vaporeon[] = INCBIN_U32("graphics/yokai/134/back.4bpp.lz");
 const u32 gMonShinyPalette_Vaporeon[] = INCBIN_U32("graphics/yokai/134/shiny.gbapal.lz");
-const u8 gMonIcon_Vaporeon[] = INCBIN_U8("graphics/yokai/134/icon.4bpp");
+const u8 gMonIcon_Vaporeon[] = INCBIN_U8("graphics/yokai/134/icon-display.4bpp");
 const u8 gMonFootprint_Vaporeon[] = INCBIN_U8("graphics/yokai/134/footprint.1bpp");
 
 const u32 gMonFrontPic_Jolteon[] = INCBIN_U32("graphics/yokai/135/front.4bpp.lz");
 const u32 gMonPalette_Jolteon[] = INCBIN_U32("graphics/yokai/135/normal.gbapal.lz");
 const u32 gMonBackPic_Jolteon[] = INCBIN_U32("graphics/yokai/135/back.4bpp.lz");
 const u32 gMonShinyPalette_Jolteon[] = INCBIN_U32("graphics/yokai/135/shiny.gbapal.lz");
-const u8 gMonIcon_Jolteon[] = INCBIN_U8("graphics/yokai/135/icon.4bpp");
+const u8 gMonIcon_Jolteon[] = INCBIN_U8("graphics/yokai/135/icon-display.4bpp");
 const u8 gMonFootprint_Jolteon[] = INCBIN_U8("graphics/yokai/135/footprint.1bpp");
 
 const u32 gMonFrontPic_Flareon[] = INCBIN_U32("graphics/yokai/136/front.4bpp.lz");
 const u32 gMonPalette_Flareon[] = INCBIN_U32("graphics/yokai/136/normal.gbapal.lz");
 const u32 gMonBackPic_Flareon[] = INCBIN_U32("graphics/yokai/136/back.4bpp.lz");
 const u32 gMonShinyPalette_Flareon[] = INCBIN_U32("graphics/yokai/136/shiny.gbapal.lz");
-const u8 gMonIcon_Flareon[] = INCBIN_U8("graphics/yokai/136/icon.4bpp");
+const u8 gMonIcon_Flareon[] = INCBIN_U8("graphics/yokai/136/icon-display.4bpp");
 const u8 gMonFootprint_Flareon[] = INCBIN_U8("graphics/yokai/136/footprint.1bpp");
 
 const u32 gMonFrontPic_Porygon[] = INCBIN_U32("graphics/yokai/137/front.4bpp.lz");
 const u32 gMonPalette_Porygon[] = INCBIN_U32("graphics/yokai/137/normal.gbapal.lz");
 const u32 gMonBackPic_Porygon[] = INCBIN_U32("graphics/yokai/137/back-display.4bpp.lz");
 const u32 gMonShinyPalette_Porygon[] = INCBIN_U32("graphics/yokai/137/shiny.gbapal.lz");
-const u8 gMonIcon_Porygon[] = INCBIN_U8("graphics/yokai/137/icon.4bpp");
+const u8 gMonIcon_Porygon[] = INCBIN_U8("graphics/yokai/137/icon-display.4bpp");
 const u8 gMonFootprint_Porygon[] = INCBIN_U8("graphics/yokai/137/footprint.1bpp");
 
 const u32 gMonFrontPic_Omanyte[] = INCBIN_U32("graphics/yokai/138/front.4bpp.lz");
 const u32 gMonPalette_Omanyte[] = INCBIN_U32("graphics/yokai/138/normal.gbapal.lz");
 const u32 gMonBackPic_Omanyte[] = INCBIN_U32("graphics/yokai/138/back-display.4bpp.lz");
 const u32 gMonShinyPalette_Omanyte[] = INCBIN_U32("graphics/yokai/138/shiny.gbapal.lz");
-const u8 gMonIcon_Omanyte[] = INCBIN_U8("graphics/yokai/138/icon.4bpp");
+const u8 gMonIcon_Omanyte[] = INCBIN_U8("graphics/yokai/138/icon-display.4bpp");
 const u8 gMonFootprint_Omanyte[] = INCBIN_U8("graphics/yokai/138/footprint.1bpp");
 
 const u32 gMonFrontPic_Omastar[] = INCBIN_U32("graphics/yokai/139/front.4bpp.lz");
 const u32 gMonPalette_Omastar[] = INCBIN_U32("graphics/yokai/139/normal.gbapal.lz");
 const u32 gMonBackPic_Omastar[] = INCBIN_U32("graphics/yokai/139/back.4bpp.lz");
 const u32 gMonShinyPalette_Omastar[] = INCBIN_U32("graphics/yokai/139/shiny.gbapal.lz");
-const u8 gMonIcon_Omastar[] = INCBIN_U8("graphics/yokai/139/icon.4bpp");
+const u8 gMonIcon_Omastar[] = INCBIN_U8("graphics/yokai/139/icon-display.4bpp");
 const u8 gMonFootprint_Omastar[] = INCBIN_U8("graphics/yokai/139/footprint.1bpp");
 
 const u32 gMonFrontPic_Kabuto[] = INCBIN_U32("graphics/yokai/140/front.4bpp.lz");
 const u32 gMonPalette_Kabuto[] = INCBIN_U32("graphics/yokai/140/normal.gbapal.lz");
 const u32 gMonBackPic_Kabuto[] = INCBIN_U32("graphics/yokai/140/back.4bpp.lz");
 const u32 gMonShinyPalette_Kabuto[] = INCBIN_U32("graphics/yokai/140/shiny.gbapal.lz");
-const u8 gMonIcon_Kabuto[] = INCBIN_U8("graphics/yokai/140/icon.4bpp");
+const u8 gMonIcon_Kabuto[] = INCBIN_U8("graphics/yokai/140/icon-display.4bpp");
 const u8 gMonFootprint_Kabuto[] = INCBIN_U8("graphics/yokai/140/footprint.1bpp");
 
 const u32 gMonFrontPic_Kabutops[] = INCBIN_U32("graphics/yokai/141/front.4bpp.lz");
 const u32 gMonPalette_Kabutops[] = INCBIN_U32("graphics/yokai/141/normal.gbapal.lz");
 const u32 gMonBackPic_Kabutops[] = INCBIN_U32("graphics/yokai/141/back.4bpp.lz");
 const u32 gMonShinyPalette_Kabutops[] = INCBIN_U32("graphics/yokai/141/shiny.gbapal.lz");
-const u8 gMonIcon_Kabutops[] = INCBIN_U8("graphics/yokai/141/icon.4bpp");
+const u8 gMonIcon_Kabutops[] = INCBIN_U8("graphics/yokai/141/icon-display.4bpp");
 const u8 gMonFootprint_Kabutops[] = INCBIN_U8("graphics/yokai/141/footprint.1bpp");
 
 const u32 gMonFrontPic_Aerodactyl[] = INCBIN_U32("graphics/yokai/142/front.4bpp.lz");
@@ -996,63 +996,63 @@ const u32 gMonFrontPic_Snorlax[] = INCBIN_U32("graphics/yokai/143/front.4bpp.lz"
 const u32 gMonPalette_Snorlax[] = INCBIN_U32("graphics/yokai/143/normal.gbapal.lz");
 const u32 gMonBackPic_Snorlax[] = INCBIN_U32("graphics/yokai/143/back.4bpp.lz");
 const u32 gMonShinyPalette_Snorlax[] = INCBIN_U32("graphics/yokai/143/shiny.gbapal.lz");
-const u8 gMonIcon_Snorlax[] = INCBIN_U8("graphics/yokai/143/icon.4bpp");
+const u8 gMonIcon_Snorlax[] = INCBIN_U8("graphics/yokai/143/icon-display.4bpp");
 const u8 gMonFootprint_Snorlax[] = INCBIN_U8("graphics/yokai/143/footprint.1bpp");
 
 const u32 gMonFrontPic_Articuno[] = INCBIN_U32("graphics/yokai/144/front.4bpp.lz");
 const u32 gMonPalette_Articuno[] = INCBIN_U32("graphics/yokai/144/normal.gbapal.lz");
 const u32 gMonBackPic_Articuno[] = INCBIN_U32("graphics/yokai/144/back.4bpp.lz");
 const u32 gMonShinyPalette_Articuno[] = INCBIN_U32("graphics/yokai/144/shiny.gbapal.lz");
-const u8 gMonIcon_Articuno[] = INCBIN_U8("graphics/yokai/144/icon.4bpp");
+const u8 gMonIcon_Articuno[] = INCBIN_U8("graphics/yokai/144/icon-display.4bpp");
 const u8 gMonFootprint_Articuno[] = INCBIN_U8("graphics/yokai/144/footprint.1bpp");
 
 const u32 gMonFrontPic_Zapdos[] = INCBIN_U32("graphics/yokai/145/front.4bpp.lz");
 const u32 gMonPalette_Zapdos[] = INCBIN_U32("graphics/yokai/145/normal.gbapal.lz");
 const u32 gMonBackPic_Zapdos[] = INCBIN_U32("graphics/yokai/145/back-display.4bpp.lz");
 const u32 gMonShinyPalette_Zapdos[] = INCBIN_U32("graphics/yokai/145/shiny.gbapal.lz");
-const u8 gMonIcon_Zapdos[] = INCBIN_U8("graphics/yokai/145/icon.4bpp");
+const u8 gMonIcon_Zapdos[] = INCBIN_U8("graphics/yokai/145/icon-display.4bpp");
 const u8 gMonFootprint_Zapdos[] = INCBIN_U8("graphics/yokai/145/footprint.1bpp");
 
 const u32 gMonFrontPic_Moltres[] = INCBIN_U32("graphics/yokai/146/front.4bpp.lz");
 const u32 gMonPalette_Moltres[] = INCBIN_U32("graphics/yokai/146/normal.gbapal.lz");
 const u32 gMonBackPic_Moltres[] = INCBIN_U32("graphics/yokai/146/back-display.4bpp.lz");
 const u32 gMonShinyPalette_Moltres[] = INCBIN_U32("graphics/yokai/146/shiny.gbapal.lz");
-const u8 gMonIcon_Moltres[] = INCBIN_U8("graphics/yokai/146/icon.4bpp");
+const u8 gMonIcon_Moltres[] = INCBIN_U8("graphics/yokai/146/icon-display.4bpp");
 const u8 gMonFootprint_Moltres[] = INCBIN_U8("graphics/yokai/146/footprint.1bpp");
 
 const u32 gMonFrontPic_Dratini[] = INCBIN_U32("graphics/yokai/147/front.4bpp.lz");
 const u32 gMonPalette_Dratini[] = INCBIN_U32("graphics/yokai/147/normal.gbapal.lz");
 const u32 gMonBackPic_Dratini[] = INCBIN_U32("graphics/yokai/147/back.4bpp.lz");
 const u32 gMonShinyPalette_Dratini[] = INCBIN_U32("graphics/yokai/147/shiny.gbapal.lz");
-const u8 gMonIcon_Dratini[] = INCBIN_U8("graphics/yokai/147/icon.4bpp");
+const u8 gMonIcon_Dratini[] = INCBIN_U8("graphics/yokai/147/icon-display.4bpp");
 const u8 gMonFootprint_Dratini[] = INCBIN_U8("graphics/yokai/147/footprint.1bpp");
 
 const u32 gMonFrontPic_Dragonair[] = INCBIN_U32("graphics/yokai/148/front.4bpp.lz");
 const u32 gMonPalette_Dragonair[] = INCBIN_U32("graphics/yokai/148/normal.gbapal.lz");
 const u32 gMonBackPic_Dragonair[] = INCBIN_U32("graphics/yokai/148/back-display.4bpp.lz");
 const u32 gMonShinyPalette_Dragonair[] = INCBIN_U32("graphics/yokai/148/shiny.gbapal.lz");
-const u8 gMonIcon_Dragonair[] = INCBIN_U8("graphics/yokai/148/icon.4bpp");
+const u8 gMonIcon_Dragonair[] = INCBIN_U8("graphics/yokai/148/icon-display.4bpp");
 const u8 gMonFootprint_Dragonair[] = INCBIN_U8("graphics/yokai/148/footprint.1bpp");
 
 const u32 gMonFrontPic_Dragonite[] = INCBIN_U32("graphics/yokai/149/front.4bpp.lz");
 const u32 gMonPalette_Dragonite[] = INCBIN_U32("graphics/yokai/149/normal.gbapal.lz");
 const u32 gMonBackPic_Dragonite[] = INCBIN_U32("graphics/yokai/149/back.4bpp.lz");
 const u32 gMonShinyPalette_Dragonite[] = INCBIN_U32("graphics/yokai/149/shiny.gbapal.lz");
-const u8 gMonIcon_Dragonite[] = INCBIN_U8("graphics/yokai/149/icon.4bpp");
+const u8 gMonIcon_Dragonite[] = INCBIN_U8("graphics/yokai/149/icon-display.4bpp");
 const u8 gMonFootprint_Dragonite[] = INCBIN_U8("graphics/yokai/149/footprint.1bpp");
 
 const u32 gMonFrontPic_Mewtwo[] = INCBIN_U32("graphics/yokai/150/front.4bpp.lz");
 const u32 gMonPalette_Mewtwo[] = INCBIN_U32("graphics/yokai/150/normal.gbapal.lz");
 const u32 gMonBackPic_Mewtwo[] = INCBIN_U32("graphics/yokai/150/back.4bpp.lz");
 const u32 gMonShinyPalette_Mewtwo[] = INCBIN_U32("graphics/yokai/150/shiny.gbapal.lz");
-const u8 gMonIcon_Mewtwo[] = INCBIN_U8("graphics/yokai/150/icon.4bpp");
+const u8 gMonIcon_Mewtwo[] = INCBIN_U8("graphics/yokai/150/icon-display.4bpp");
 const u8 gMonFootprint_Mewtwo[] = INCBIN_U8("graphics/yokai/150/footprint.1bpp");
 
 const u32 gMonFrontPic_Mew[] = INCBIN_U32("graphics/yokai/151/front.4bpp.lz");
 const u32 gMonPalette_Mew[] = INCBIN_U32("graphics/yokai/151/normal.gbapal.lz");
 const u32 gMonBackPic_Mew[] = INCBIN_U32("graphics/yokai/151/back.4bpp.lz");
 const u32 gMonShinyPalette_Mew[] = INCBIN_U32("graphics/yokai/151/shiny.gbapal.lz");
-const u8 gMonIcon_Mew[] = INCBIN_U8("graphics/yokai/151/icon.4bpp");
+const u8 gMonIcon_Mew[] = INCBIN_U8("graphics/yokai/151/icon-display.4bpp");
 const u8 gMonFootprint_Mew[] = INCBIN_U8("graphics/yokai/151/footprint.1bpp");
 
 const u32 gMonFrontPic_Chikorita[] = INCBIN_U32("graphics/pokemon/chikorita/front.4bpp.lz");

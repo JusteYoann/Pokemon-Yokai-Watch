@@ -133,11 +133,11 @@ static const u32 sOakSpeech_Oak_Tiles[] = INCBIN_U32("graphics/oak_speech/oak/pi
 static const u16 sOakSpeech_Rival_Pal[] = INCBIN_U16("graphics/yokai_characters/matt/intro.gbapal");
 static const u32 sOakSpeech_Rival_Tiles[] = INCBIN_U32("graphics/yokai_characters/matt/intro.8bpp.lz");
 static const u16 sOakSpeech_Platform_Pal[] = INCBIN_U16("graphics/oak_speech/platform.gbapal");
-static const u16 sPikachuIntro_Pikachu_Pal[] = INCBIN_U16("graphics/oak_speech/pikachu_intro/pikachu.gbapal");
+static const u16 sPikachuIntro_Pikachu_Pal[] = INCBIN_U16("graphics/yokai_presentation/jibanyan-aide.gbapal");
 static const u32 sOakSpeech_Platform_Gfx[] = INCBIN_U32("graphics/oak_speech/platform.4bpp.lz");
-static const u32 sPikachuIntro_PikachuBody_Gfx[] = INCBIN_U32("graphics/oak_speech/pikachu_intro/body.4bpp.lz");
-static const u32 sPikachuIntro_PikachuEars_Gfx[] = INCBIN_U32("graphics/oak_speech/pikachu_intro/ears.4bpp.lz");
-static const u32 sPikachuIntro_PikachuEyes_Gfx[] = INCBIN_U32("graphics/oak_speech/pikachu_intro/eyes.4bpp.lz");
+static const u32 sPikachuIntro_PikachuBody_Gfx[] = INCBIN_U32("graphics/yokai/001/icon.4bpp.lz");
+static const u32 sPikachuIntro_PikachuEars_Gfx[] = INCBIN_U32("graphics/yokai_presentation/blank-ears.bin.lz");
+static const u32 sPikachuIntro_PikachuEyes_Gfx[] = INCBIN_U32("graphics/yokai_presentation/blank-eyes.bin.lz");
 
 static const struct BgTemplate sBgTemplates[] =
 {

@@ -5,7 +5,7 @@ import hashlib,json,re,os
 from pathlib import Path
 from mgba_rpc import Emulator,ROOT
 ROM=Path(os.environ['YOKAI_QA_ROM'])
-P=ROOT/'QA_RECETTE_FINALE/BETA_13_OST/preuves'
+P=ROOT/os.environ.get('YOKAI_BETA_PROOF_DIR','QA_RECETTE_FINALE/BETA_13_OST/preuves')
 P.mkdir(parents=True,exist_ok=True)
 glyphs={m[1]:int(m[2],16) for m in re.finditer(r"^'(.*?)'\s*= ([0-9A-F]{2})$",(ROOT/'charmap.txt').read_text(),re.M)}
 results=[]
@@ -101,4 +101,4 @@ for gender,person in [(0,'nathan'),(1,'katie')]:
  finally:
   if r:r.close()
 report={'engine':'mGBA libretro','rom_sha256':hashlib.sha256(ROM.read_bytes()).hexdigest(),'scope':'Existing private ROM, actual startup/title/New Game/intro/custom name via controller for both genders; actual Start/Save menu confirmed by native success callback, 128 KiB battery exported to private .sav, new emulator instance, reset/title/Continue through controller; no save states, no full adventure','results':results}
-(ROOT/'QA_RECETTE_FINALE/BETA_13_OST/TEST_BETA_MGBA.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report,ensure_ascii=False,indent=2))
+(P.parent/'TEST_BETA_MGBA.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report,ensure_ascii=False,indent=2))

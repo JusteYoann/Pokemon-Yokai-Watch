@@ -45,7 +45,7 @@ class Emulator:
     STUB = 0x0203FE00
     PARAMS = 0x0203FF00
 
-    def __init__(self, rom=None, library=None):
+    def __init__(self, rom=None, library=None, initial_frames=600):
         library = library or os.environ.get('MGBA_LIBRETRO_PATH','/workspace/.setup/mgba-build/mgba_libretro.so')
         self.lib = C.CDLL(str(library))
         self.maps, self.pixel_format, self.frame_packet, self.keys = [], 0, None, set()
@@ -72,7 +72,7 @@ class Emulator:
             if len(fields)==3:self.symbols[fields[2]]=int(fields[0],16)
         for name in ['GetMonData','GetBoxMonData']:
             if name not in self.symbols:self.symbols[name]=self.symbols[name+'3']
-        self.run(600)
+        self.run(initial_frames)
         self.assemble_stub()
 
     def environment(self, command, data):
