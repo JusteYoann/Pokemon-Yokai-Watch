@@ -10,9 +10,9 @@ AUD-08,Audio,Blossom Heights Jadielle/Argenta,A_RESoudre,,Boucle de section comp
 AUD-09,Audio,Cris/apparitions/attaques/dégâts/KO/capture,RESSOURCES_DEDIEES_MANQUANTES,,Ne pas insérer de sons arbitraires
 AUD-10,Audio,Victoires/niveaux/évolution/sonneries,REFERENCES_MANQUANTES,,Identifier ressources dédiées ; volume natif calibré
 AUD-11,Audio,Anciennes musiques/doublons réellement inutiles,INVENTORIE_SANS_SUPPRESSION,audio/STOCKAGE_ET_CANDIDATS.json,Analyse références dynamiques avant suppression
-GRA-01,Graphismes,151 face/dos en combat,INSPECTION_ASSISTANT_151,sprites/presentation-lot1/,Validation artistique humaine ; retouches résiduelles
-GRA-02,Graphismes,Pitou/Baku/Cigalopin face,CORRIGE_ET_CAPTURE,sprites/registre_151.csv,Conserver suivi visuel
-GRA-03,Graphismes,Komasan/Komaous/Cigalopin/Nihilistik dos,CORRIGE_ET_CAPTURE,sprites/registre_151.csv,Vérifier équilibre familles et détails
+GRA-01,Graphismes,151 face/dos en combat,SESSION2_151_AVANT_APRES_CONTROLES,SESSION_2_GRAPHISMES/REGISTRE_151_COMBATS.csv,Contrôle final après shiny/OW ; validation artistique utilisateur distincte
+GRA-02,Graphismes,Pitou/Baku/Cigalopin face,SESSION2_151_AVANT_APRES_CONTROLES,SESSION_2_GRAPHISMES/REGISTRE_151_COMBATS.csv,Contrôle final après shiny/OW ; validation artistique utilisateur distincte
+GRA-03,Graphismes,Komasan/Komaous/Cigalopin/Nihilistik dos,SESSION2_151_AVANT_APRES_CONTROLES,SESSION_2_GRAPHISMES/REGISTRE_151_COMBATS.csv,Contrôle final après shiny/OW ; validation artistique utilisateur distincte
 GRA-04,Graphismes,151 icônes équipe/PC/autres,HARMONISEES_151_EQUIPE_ET_PC_CAPTUREES,sprites/pc-lot2/TEST_PC_151.json,Autres menus spécifiques ; finitions artistiques utilisateur
 GRA-05,Graphismes,Nathan/Katie/Matt OW et animations,RESSOURCES_LIEES_QA_VISUEL_RESTANT,CONTROLE_ROM_18_OST.json,Marche/course/vélo/surf/pêche toutes orientations
 GRA-06,Graphismes,Ariane/Usapyon,CORRIGE_ET_TEST_NATIF,audio/ariane/,Finitions stylistiques éventuelles

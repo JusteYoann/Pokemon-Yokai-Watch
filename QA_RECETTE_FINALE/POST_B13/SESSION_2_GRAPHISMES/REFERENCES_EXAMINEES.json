@@ -1,0 +1,95 @@
+{
+  "archive_sha256": "a93f2430f4139ce6e84ded0a94fcaac0ce39b84df0ce97d098176b57a23b59a9",
+  "image_count": 11,
+  "images": [
+    {
+      "member": "REFERENCES_SESSION_2/01_INTRO/intro_01.png",
+      "sha256": "2fe0dec623e179a99c6c69ad97d6a8e4dc454e19cd14df9b701e42c545523b81",
+      "bytes": 713558,
+      "examined_by_assistant_vision": true,
+      "interpretation": "Session3 uniquement : forêt, yeux lumineux.",
+      "integrated_raw": false
+    },
+    {
+      "member": "REFERENCES_SESSION_2/01_INTRO/intro_02.png",
+      "sha256": "d801b76078c2f77343ff5a4c7bee92ee1b200c0574d2ad2cc6485f4d8b0ba333",
+      "bytes": 731939,
+      "examined_by_assistant_vision": true,
+      "interpretation": "Session3 uniquement : créatures cachées, contrastes nocturnes.",
+      "integrated_raw": false
+    },
+    {
+      "member": "REFERENCES_SESSION_2/01_INTRO/intro_03.png",
+      "sha256": "decc8354043b163803a79a86d99d0ac580a9b22837fc5d7d6930e699f4fd8b67",
+      "bytes": 948362,
+      "examined_by_assistant_vision": true,
+      "interpretation": "Session3 uniquement : rivière sombre et apparition.",
+      "integrated_raw": false
+    },
+    {
+      "member": "REFERENCES_SESSION_2/02_ECRAN_TITRE/titre_reference.png",
+      "sha256": "ea76b1472c46f3fadaa61592dd06182890aea6613f778068d8b2c47ad0be07ea",
+      "bytes": 2012365,
+      "examined_by_assistant_vision": true,
+      "interpretation": "Session3 uniquement : papier illustré, composition du titre.",
+      "integrated_raw": false
+    },
+    {
+      "member": "REFERENCES_SESSION_2/03_ICONES/boite_pc.png",
+      "sha256": "33dad7e050664edc22e5004f81501a598362dc1170dac9321b71021b28112975",
+      "bytes": 300222,
+      "examined_by_assistant_vision": true,
+      "interpretation": "Session2 : icônes de PC de gabarits naturels ; aucun remplissage uniforme des cases.",
+      "integrated_raw": false
+    },
+    {
+      "member": "REFERENCES_SESSION_2/03_ICONES/menu_equipe.jpg",
+      "sha256": "ba6ef40949deb723b81dddfa4a1fc6cd8448473f97b948807e71263b005772d1",
+      "bytes": 138929,
+      "examined_by_assistant_vision": true,
+      "interpretation": "Session2 : icônes d’équipe natives, contour lisible, différences de tailles naturelles.",
+      "integrated_raw": false
+    },
+    {
+      "member": "REFERENCES_SESSION_2/03_LOGO/logo_yokai_watch_reference.png",
+      "sha256": "2695e94190d94f3f923e399a79def1a3a3bdc2df328bd953b7ade45ae67ca211",
+      "bytes": 360758,
+      "examined_by_assistant_vision": true,
+      "interpretation": "Session3 uniquement : proportions et identité du logo.",
+      "integrated_raw": false
+    },
+    {
+      "member": "REFERENCES_SESSION_2/05_OVERWORLD_YOKAI/overworld_personnages.jpg",
+      "sha256": "597d704b5d11b1b798f485400c85fa125d233e177130b84e54f6bfef367a132d",
+      "bytes": 31057,
+      "examined_by_assistant_vision": true,
+      "interpretation": "Session2 : échelle des PNJ par rapport au héros, maisons et arbres de Rouge Feu.",
+      "integrated_raw": false
+    },
+    {
+      "member": "REFERENCES_SESSION_2/05_OVERWORLD_YOKAI/reference_personnages_a_corriger.png",
+      "sha256": "e103275a3b8b19835f2bfb415c7fe388f0626255e189d4e143f70eede12b3d40",
+      "bytes": 2483,
+      "examined_by_assistant_vision": true,
+      "interpretation": "Session2 : poses et proportions du véritable Red ; référence de style, pas une recoloration à intégrer.",
+      "integrated_raw": false
+    },
+    {
+      "member": "REFERENCES_SESSION_2/06_REFERENCES_POKEMON/combat_sprite_1.jpg",
+      "sha256": "333e1d13e9cb5028d0bac62adeec7794273ec1caaeb5e07348b8d7ffad2f30d6",
+      "bytes": 74535,
+      "examined_by_assistant_vision": true,
+      "interpretation": "Session2 : dos de Salamèche cadré sur la partie supérieure ; pieds masqués par la boîte de texte.",
+      "integrated_raw": false
+    },
+    {
+      "member": "REFERENCES_SESSION_2/06_REFERENCES_POKEMON/combat_sprite_2.jpg",
+      "sha256": "9951d0fdbf5c7b25200fa459d9aadcd571b5915f83d7651583b003837e6847a4",
+      "bytes": 103269,
+      "examined_by_assistant_vision": true,
+      "interpretation": "Session2 : Carapuce allié au premier plan à partir du bassin, Bulbizarre adverse entier sur sa plateforme.",
+      "integrated_raw": false
+    }
+  ],
+  "no_new_shiny_reference_present": true
+}

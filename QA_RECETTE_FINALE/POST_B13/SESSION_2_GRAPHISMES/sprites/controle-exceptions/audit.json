@@ -1,0 +1,1283 @@
+{
+  "rom_sha256": "d1bc96b6fc75fe233af164d11ba6688384d10e956d32b26a0fddc78eb1161d82",
+  "stage": "controle-exceptions",
+  "species_count": 17,
+  "scope": "Native scripted wild battle fixtures, each species on player and opponent sides; no human visual approval implied; icons source-asset view, not native menu capture",
+  "species": [
+    {
+      "number": 5,
+      "name": "Komasan",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/controle-exceptions/005.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          5,
+          4,
+          58,
+          60
+        ],
+        "occupied_pixels": 1850,
+        "centroid": [
+          32.2,
+          35.07
+        ],
+        "sha256": "942f7f513207c0b903f6be737b7fe8c3a78f40e1f6290a97184138feb14a8b23"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          3,
+          14,
+          62,
+          64
+        ],
+        "occupied_pixels": 1866,
+        "centroid": [
+          31.36,
+          44.24
+        ],
+        "sha256": "14288d46b0e9502335538790d1a789aebf2ed5991a5c592334cd23372e1a7541"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          6,
+          6,
+          26,
+          58
+        ],
+        "occupied_pixels": 485,
+        "centroid": [
+          15.48,
+          32.18
+        ],
+        "sha256": "815ff64079613c39d9e9d34e71ba8dd538a3d425ab2c4c31cf96785e61e6a42b"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": "Komaous",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/controle-exceptions/006.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          9,
+          60,
+          54
+        ],
+        "occupied_pixels": 1444,
+        "centroid": [
+          27.95,
+          33.73
+        ],
+        "sha256": "4b99185f31a039bc410881d1b81a852eb96ca0bb2753df65cf1628fd22af3a1e"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          1,
+          20,
+          63,
+          64
+        ],
+        "occupied_pixels": 1684,
+        "centroid": [
+          32.26,
+          46.79
+        ],
+        "sha256": "1ade9f243f1ebd8ce5935975ccd47a093613c8d9ba73e8849e435c23ec330720"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          6,
+          6,
+          28,
+          58
+        ],
+        "occupied_pixels": 542,
+        "centroid": [
+          15.61,
+          32.55
+        ],
+        "sha256": "2ee997e5cf4daa8a3ffb29417923769a315c5fafc571b0b531045d40f86c0078"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          50,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Cigalopin",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/controle-exceptions/009.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          11,
+          20,
+          53,
+          58
+        ],
+        "occupied_pixels": 1043,
+        "centroid": [
+          32.28,
+          39.59
+        ],
+        "sha256": "62fca80f41c5ce99ef146bc5e2bc688d5cde5389e68f04ec6c3e5f9a2999c2f2"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          20,
+          60,
+          64
+        ],
+        "occupied_pixels": 1619,
+        "centroid": [
+          33.2,
+          43.61
+        ],
+        "sha256": "575bbbc79a11061130297858bdbce74d28ce5299497bd103de9fb458956d77f0"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          8,
+          8,
+          25,
+          56
+        ],
+        "occupied_pixels": 441,
+        "centroid": [
+          16.11,
+          31.98
+        ],
+        "sha256": "0dbb9960ef4309cb94fd26565aa39cd173187fd57a8bfa30400992a8f5dfaa5e"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 24,
+      "name": "Nanpart",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/controle-exceptions/024.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          12,
+          60,
+          51
+        ],
+        "occupied_pixels": 1413,
+        "centroid": [
+          31.91,
+          28.77
+        ],
+        "sha256": "5f80905f0d055c1807e1b775c8fb83d1d5890188e569e0b1d7a79219610327a6"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          13,
+          60,
+          51
+        ],
+        "occupied_pixels": 1387,
+        "centroid": [
+          30.97,
+          29.53
+        ],
+        "sha256": "d891081653fa79987f891b814e90ae152a1fc689627bc1cf890365efb9a9bf6a"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          3,
+          7,
+          30,
+          57
+        ],
+        "occupied_pixels": 654,
+        "centroid": [
+          15.95,
+          30.53
+        ],
+        "sha256": "738f39f6469e78589c9f9d38f6a2ef45123fd9af14aa88fe6d03d6b73fb9b4ad"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 25,
+      "name": "Passpa",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/controle-exceptions/025.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          8,
+          60,
+          55
+        ],
+        "occupied_pixels": 1554,
+        "centroid": [
+          32.19,
+          32.81
+        ],
+        "sha256": "edd67e936b12f65d9a8677005d70d1d17615015489411cabdbb4974453ec99ed"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          6,
+          60,
+          58
+        ],
+        "occupied_pixels": 1770,
+        "centroid": [
+          31.3,
+          34.02
+        ],
+        "sha256": "5a12fd0745642eb37d2290fdbdb7d8e9870354b729a15e435d6028bded5b808c"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          5,
+          5,
+          28,
+          59
+        ],
+        "occupied_pixels": 679,
+        "centroid": [
+          16.13,
+          32.49
+        ],
+        "sha256": "b9eae9b5e1b8774f2a2f89d57fc3419105904d340ca0e53c70443bfb9f355ea8"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          49,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 43,
+      "name": "Télémir",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/controle-exceptions/043.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          7,
+          60,
+          57
+        ],
+        "occupied_pixels": 2092,
+        "centroid": [
+          31.67,
+          31.34
+        ],
+        "sha256": "653a528b0f10d05fda8db1296b820600ed048dd32f0a1aaf8814730249ca08d5"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          7,
+          60,
+          57
+        ],
+        "occupied_pixels": 2027,
+        "centroid": [
+          31.56,
+          31.3
+        ],
+        "sha256": "51a5658bad13d62193e6cce89d8a068eaa7b98f903971cff0d24d4a61a0ef7f8"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          5,
+          6,
+          27,
+          58
+        ],
+        "occupied_pixels": 718,
+        "centroid": [
+          15.5,
+          31.54
+        ],
+        "sha256": "6a0d769e694509595b7cff010aa32599a53de94d60e2fad46e717ae100cc6439"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          47,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 44,
+      "name": "Triptic-tac",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/controle-exceptions/044.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          10,
+          60,
+          53
+        ],
+        "occupied_pixels": 1655,
+        "centroid": [
+          30.9,
+          33.6
+        ],
+        "sha256": "b4ab5eaed0ffbdde43e4b502869928b9b198fd11e8bea6e78d38b995186e0248"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          10,
+          60,
+          53
+        ],
+        "occupied_pixels": 1721,
+        "centroid": [
+          31.6,
+          32.92
+        ],
+        "sha256": "1f22e5d6311a01ae7cea344bcf2ff41957e42cd17271c540cb54691f27a8f64d"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          6,
+          28,
+          58
+        ],
+        "occupied_pixels": 729,
+        "centroid": [
+          15.63,
+          32.38
+        ],
+        "sha256": "e963f4a3e1b7c58174777cb3b0d22d7b1fde8da3b881082db6abd8c622f2391e"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          51,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 45,
+      "name": "Nihilistik",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/controle-exceptions/045.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          10,
+          60,
+          54
+        ],
+        "occupied_pixels": 1106,
+        "centroid": [
+          30.37,
+          31.76
+        ],
+        "sha256": "a51db7e1b7b45331e22f8dfc31d6c29be44fc829a738e464fca5ee28f976e41e"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          17,
+          60,
+          59
+        ],
+        "occupied_pixels": 1247,
+        "centroid": [
+          31.32,
+          37.89
+        ],
+        "sha256": "9431876abc2e099bcfd9614f83da1fd0c72ba699246f70285ca4bc9c2f11be8c"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          9,
+          7,
+          23,
+          57
+        ],
+        "occupied_pixels": 300,
+        "centroid": [
+          15.51,
+          30.21
+        ],
+        "sha256": "b2308f50f1afe0e74b2f920e6abed73589a78369890cad7c0a9e54130ee6213d"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 49,
+      "name": "Baku",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/controle-exceptions/049.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          0,
+          29,
+          60,
+          58
+        ],
+        "occupied_pixels": 998,
+        "centroid": [
+          32.88,
+          43.66
+        ],
+        "sha256": "790d3d3ff30fa80b226599b361bde5dc5c74649f5857f1bb19be75d99439d109"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          15,
+          60,
+          49
+        ],
+        "occupied_pixels": 1112,
+        "centroid": [
+          30.92,
+          31.56
+        ],
+        "sha256": "b4c6802d3302a79ae804f2aecd631e0743eb2bf02311a0a41ab64c015341b3c0"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          2,
+          7,
+          30,
+          56
+        ],
+        "occupied_pixels": 618,
+        "centroid": [
+          16.6,
+          31.04
+        ],
+        "sha256": "62c3b62429b263f28c403fce4e1eb7432b01d05c842c3c9a3059952420e8d44f"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 93,
+      "name": "Tête de lard",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/controle-exceptions/093.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          9,
+          4,
+          55,
+          60
+        ],
+        "occupied_pixels": 1871,
+        "centroid": [
+          31.01,
+          27.86
+        ],
+        "sha256": "d436ee60324b2b21d48e77ff6e3f2db77d672bc7c8ecb262ca31e2aaa09614cc"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          10,
+          4,
+          53,
+          60
+        ],
+        "occupied_pixels": 1765,
+        "centroid": [
+          31.36,
+          28.38
+        ],
+        "sha256": "1aa7e539af605b76c501549e571a2e61f4add53e84fffeb8ec2cc5b89acc17f6"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          9,
+          7,
+          23,
+          57
+        ],
+        "occupied_pixels": 404,
+        "centroid": [
+          15.46,
+          30.59
+        ],
+        "sha256": "4ecc887a022f1bcb0758d3c5ef396e8343a76d399e1a6aff6de4875b69d8afe7"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 94,
+      "name": "Potache",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/controle-exceptions/094.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          5,
+          4,
+          59,
+          60
+        ],
+        "occupied_pixels": 2241,
+        "centroid": [
+          33.98,
+          28.39
+        ],
+        "sha256": "36b386556db5f1338fe37e5f5a2f2f11443050546a9fa966b3a15c31d7983fc8"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          5,
+          4,
+          59,
+          60
+        ],
+        "occupied_pixels": 2175,
+        "centroid": [
+          29.92,
+          28.47
+        ],
+        "sha256": "af898fb0bd74903a07bd1479b62404ba055d6f2566f9a915ef0510f42a4e18d6"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          6,
+          7,
+          24,
+          57
+        ],
+        "occupied_pixels": 545,
+        "centroid": [
+          15.08,
+          30.55
+        ],
+        "sha256": "b906589d052dc504bba5a64dc46f77b920d1c3e54eefd540992e82ef90b57842"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 95,
+      "name": "Dépotache",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/controle-exceptions/095.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          8,
+          4,
+          56,
+          60
+        ],
+        "occupied_pixels": 1893,
+        "centroid": [
+          29.71,
+          32.18
+        ],
+        "sha256": "1040e0104f653fb05e458d4464aca323c1fd78c9cb42886ad9cc3420a24d718d"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          8,
+          4,
+          55,
+          60
+        ],
+        "occupied_pixels": 1945,
+        "centroid": [
+          29.97,
+          32.84
+        ],
+        "sha256": "042acd6946d9aa7238c8148866bd9c273c0e14c806ef31145eea3774a5cce989"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          6,
+          5,
+          26,
+          59
+        ],
+        "occupied_pixels": 645,
+        "centroid": [
+          15.12,
+          32.14
+        ],
+        "sha256": "e2f316a61aecfa69cd35e89e60b3c118b5432001aa57fcbcff7c5d3bad89aeb4"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 98,
+      "name": "Sergent Rampant",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/controle-exceptions/098.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          4,
+          60,
+          59
+        ],
+        "occupied_pixels": 1860,
+        "centroid": [
+          26.95,
+          34.62
+        ],
+        "sha256": "4c727b9c8c82ba42e95c379ca39fffcbce3fc6ad2ca29591f26a2f0be7bc268f"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          5,
+          4,
+          58,
+          60
+        ],
+        "occupied_pixels": 1906,
+        "centroid": [
+          31.79,
+          34.42
+        ],
+        "sha256": "03be5603a9d34b9c46c832ddb502cf10273b976fe238038b0886a720f13d16a6"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          9,
+          7,
+          25,
+          57
+        ],
+        "occupied_pixels": 441,
+        "centroid": [
+          15.98,
+          32.58
+        ],
+        "sha256": "8139a2058786035761dce8774fd28902565b7611149d44d7d0aa04b7dbb8ff3b"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 106,
+      "name": "Pitou",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/controle-exceptions/106.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          14,
+          18,
+          50,
+          58
+        ],
+        "occupied_pixels": 1039,
+        "centroid": [
+          32.89,
+          38.12
+        ],
+        "sha256": "95ef417bac74dbb3e8a4638aebcd97271200ccd221b8227e70c530b1917c7c85"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          6,
+          4,
+          58,
+          60
+        ],
+        "occupied_pixels": 1843,
+        "centroid": [
+          30.09,
+          31.17
+        ],
+        "sha256": "238a2dd7107834d8b4ffd2171c99c1e6ef022b3d06a5880672b8bd69875ca71a"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          8,
+          7,
+          22,
+          57
+        ],
+        "occupied_pixels": 417,
+        "centroid": [
+          14.98,
+          31.8
+        ],
+        "sha256": "9d74c3bb8e74990a2888a13e5cde67f0712d19f9a460751da4602f4971bd0205"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 125,
+      "name": "Mémogre",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/controle-exceptions/125.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          4,
+          60,
+          60
+        ],
+        "occupied_pixels": 2263,
+        "centroid": [
+          31.38,
+          30.32
+        ],
+        "sha256": "b0fba9de3a75458b14e9e4c1a4e89c95f131bd8ebec34bce22baf648886f400a"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          4,
+          59,
+          60
+        ],
+        "occupied_pixels": 2145,
+        "centroid": [
+          31.07,
+          29.61
+        ],
+        "sha256": "0e47b09752e40e3ec7ef60af5c08d34e6cb863ff999cf9de043c513eed503100"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          8,
+          7,
+          25,
+          57
+        ],
+        "occupied_pixels": 501,
+        "centroid": [
+          16.0,
+          31.25
+        ],
+        "sha256": "dd2a0c0defc41f62a1627b17513d1067948740c712d9f8a3a261b096c5e48f26"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 141,
+      "name": "Volroulo",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/controle-exceptions/141.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          6,
+          60,
+          58
+        ],
+        "occupied_pixels": 1932,
+        "centroid": [
+          31.22,
+          34.28
+        ],
+        "sha256": "745c7a14ead6615eea0f7f28d65fc0e56e3afe496005ac1ef244f5193785f2a8"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          4,
+          6,
+          60,
+          58
+        ],
+        "occupied_pixels": 1906,
+        "centroid": [
+          31.82,
+          33.76
+        ],
+        "sha256": "6d2a940a7fb096bc82843c5635a1dfe7d7b175520d8adc2d0939f36355b9f547"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          7,
+          7,
+          26,
+          57
+        ],
+        "occupied_pixels": 495,
+        "centroid": [
+          15.73,
+          32.35
+        ],
+        "sha256": "892f07052c7cd7aed49db057becfcdb18ff67803a351f2eeed9a4dcaa359cef2"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 147,
+      "name": "Mademoaiselle",
+      "native_capture": "QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/sprites/controle-exceptions/147.png",
+      "battle_fixture": true,
+      "human_reviewed": false,
+      "front": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          7,
+          4,
+          56,
+          60
+        ],
+        "occupied_pixels": 1937,
+        "centroid": [
+          31.74,
+          33.04
+        ],
+        "sha256": "101dc4edd6d8ef901b500a1aabc8e3ffee6ff65d914f95132ec08b50f9fd3c73"
+      },
+      "back": {
+        "dimensions": [
+          64,
+          64
+        ],
+        "visible_bbox": [
+          7,
+          4,
+          56,
+          60
+        ],
+        "occupied_pixels": 1900,
+        "centroid": [
+          30.88,
+          32.94
+        ],
+        "sha256": "b95163803697d852d0c07ba8c2a002a76d82ef9901cbc57f8855d8fdf7371864"
+      },
+      "icon": {
+        "dimensions": [
+          32,
+          64
+        ],
+        "visible_bbox": [
+          8,
+          5,
+          25,
+          59
+        ],
+        "occupied_pixels": 601,
+        "centroid": [
+          16.0,
+          31.48
+        ],
+        "sha256": "6cd31e5dc3007691788b2355d180e93a81f9f475c9be44071f606ec56150f2e4"
+      },
+      "native_positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

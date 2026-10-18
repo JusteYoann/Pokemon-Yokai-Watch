@@ -4,6 +4,7 @@ import argparse,csv,hashlib,json,struct,subprocess
 from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont
 from mgba_rpc import Emulator,ROOT
+from mgba_new_game import new_game
 P=ROOT/'QA_RECETTE_FINALE/POST_B13'
 USE_DISPLAY=False
 NAMES=json.loads((ROOT/'data/yokai/noms_affiches.json').read_text())
@@ -28,7 +29,7 @@ def metric(path):
 
 def capture(stage):
  out=P/'sprites'/stage;out.mkdir(parents=True,exist_ok=True)
- r=Emulator();r.call('SetSaveBlocksPointers');r.call('Sav2_ClearSetDefault');r.call('CB2_NewGame');r.run(180)
+ r=new_game()
  callbacks={int(line.split()[0],16)|1 for line in subprocess.check_output(['arm-none-eabi-nm','--defined-only',str(r.elf_path)],text=True).splitlines() if len(line.split())==3 and line.split()[2]=='HandleInputChooseAction'}
  r.keys=set();base=r.snapshot();rows=[]
  try:
@@ -57,7 +58,7 @@ def capture(stage):
 
 def sheets(report,stage):
  out=P/'sprites'/stage
- for page in range(10):
+ for page in range((len(report['species'])+15)//16):
   subset=report['species'][page*16:(page+1)*16]
   canvas=Image.new('RGB',(1088,1120),(224,224,224));d=ImageDraw.Draw(canvas)
   for i,n in enumerate(subset):
@@ -75,7 +76,10 @@ def sheets(report,stage):
   canvas.save(out/f'planche-{page+1:02d}.png')
 
 if __name__=='__main__':
- a=argparse.ArgumentParser();a.add_argument('--stage',default='baseline-b13');a.add_argument('--sheets-only',action='store_true');args=a.parse_args()
+ a=argparse.ArgumentParser();a.add_argument('--stage',default='baseline-b13');a.add_argument('--sheets-only',action='store_true');a.add_argument('--report-root',type=Path);a.add_argument('--numbers');args=a.parse_args()
+ if args.report_root:P=(ROOT/args.report_root).resolve()
+ if args.numbers:
+  numbers=set(map(int,args.numbers.split(',')));NAMES=[n for n in NAMES if int(n['species_id']) in numbers]
  USE_DISPLAY=args.stage!='baseline-b13'
  report=json.loads((P/'sprites'/args.stage/'audit.json').read_text()) if args.sheets_only else capture(args.stage)
  sheets(report,args.stage)

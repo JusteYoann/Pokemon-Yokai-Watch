@@ -2,246 +2,6 @@
   "scope": "Build-time nearest-neighbor presentation from unchanged 4bpp indexed originals; per-asset choices, no global zoom, no palette change, no runtime RAM or CPU cost",
   "profiles": [
     {
-      "id": "009/front",
-      "source": "graphics/yokai/009/front.4bpp",
-      "target": "graphics/yokai/009/front-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 220,
-      "bottom": 58,
-      "reason": "Cigalopin : petite espèce, réduction légère et appui au sol"
-    },
-    {
-      "id": "049/front",
-      "source": "graphics/yokai/049/front.4bpp",
-      "target": "graphics/yokai/049/front-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 276,
-      "bottom": 58,
-      "reason": "Baku : légère hausse de gabarit et ancrage sur l’ovale"
-    },
-    {
-      "id": "106/front",
-      "source": "graphics/yokai/106/front.4bpp",
-      "target": "graphics/yokai/106/front-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 220,
-      "bottom": 58,
-      "reason": "Pitou : réduire le gabarit de la pré-évolution"
-    },
-    {
-      "id": "005/back",
-      "source": "graphics/yokai/005/back.4bpp",
-      "target": "graphics/yokai/005/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 307,
-      "top": 4,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
-    },
-    {
-      "id": "006/back",
-      "source": "graphics/yokai/006/back.4bpp",
-      "target": "graphics/yokai/006/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 282,
-      "top": 10,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
-    },
-    {
-      "id": "007/back",
-      "source": "graphics/yokai/007/back.4bpp",
-      "target": "graphics/yokai/007/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 282,
-      "top": 11,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
-    },
-    {
-      "id": "009/back",
-      "source": "graphics/yokai/009/back.4bpp",
-      "target": "graphics/yokai/009/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 282,
-      "top": 12,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
-    },
-    {
-      "id": "017/back",
-      "source": "graphics/yokai/017/back.4bpp",
-      "target": "graphics/yokai/017/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 282,
-      "top": 8,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
-    },
-    {
-      "id": "045/back",
-      "source": "graphics/yokai/045/back.4bpp",
-      "target": "graphics/yokai/045/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 256,
-      "top": 17,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
-    },
-    {
-      "id": "047/back",
-      "source": "graphics/yokai/047/back.4bpp",
-      "target": "graphics/yokai/047/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 333,
-      "top": 4,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
-    },
-    {
-      "id": "070/back",
-      "source": "graphics/yokai/070/back.4bpp",
-      "target": "graphics/yokai/070/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 282,
-      "top": 6,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
-    },
-    {
-      "id": "087/back",
-      "source": "graphics/yokai/087/back.4bpp",
-      "target": "graphics/yokai/087/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 282,
-      "top": 16,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
-    },
-    {
-      "id": "097/back",
-      "source": "graphics/yokai/097/back.4bpp",
-      "target": "graphics/yokai/097/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 333,
-      "top": 4,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
-    },
-    {
-      "id": "099/back",
-      "source": "graphics/yokai/099/back.4bpp",
-      "target": "graphics/yokai/099/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 282,
-      "top": 9,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
-    },
-    {
-      "id": "100/back",
-      "source": "graphics/yokai/100/back.4bpp",
-      "target": "graphics/yokai/100/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 384,
-      "top": 4,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
-    },
-    {
-      "id": "101/back",
-      "source": "graphics/yokai/101/back.4bpp",
-      "target": "graphics/yokai/101/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 307,
-      "top": 4,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
-    },
-    {
-      "id": "110/back",
-      "source": "graphics/yokai/110/back.4bpp",
-      "target": "graphics/yokai/110/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 294,
-      "top": 4,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
-    },
-    {
-      "id": "119/back",
-      "source": "graphics/yokai/119/back.4bpp",
-      "target": "graphics/yokai/119/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 282,
-      "top": 10,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
-    },
-    {
-      "id": "120/back",
-      "source": "graphics/yokai/120/back.4bpp",
-      "target": "graphics/yokai/120/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 282,
-      "top": 9,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
-    },
-    {
-      "id": "137/back",
-      "source": "graphics/yokai/137/back.4bpp",
-      "target": "graphics/yokai/137/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 358,
-      "top": 4,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
-    },
-    {
-      "id": "138/back",
-      "source": "graphics/yokai/138/back.4bpp",
-      "target": "graphics/yokai/138/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 410,
-      "top": 4,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
-    },
-    {
-      "id": "145/back",
-      "source": "graphics/yokai/145/back.4bpp",
-      "target": "graphics/yokai/145/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 282,
-      "top": 8,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
-    },
-    {
-      "id": "146/back",
-      "source": "graphics/yokai/146/back.4bpp",
-      "target": "graphics/yokai/146/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 294,
-      "top": 4,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
-    },
-    {
-      "id": "148/back",
-      "source": "graphics/yokai/148/back.4bpp",
-      "target": "graphics/yokai/148/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 282,
-      "top": 9,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
-    },
-    {
       "id": "overworld/leo",
       "source": "graphics/yokai_characters/leo_jibanyan/overworld.4bpp",
       "target": "graphics/yokai_characters/leo_jibanyan/overworld-display.4bpp",
@@ -1833,6 +1593,1307 @@
       "top": 6,
       "center_x": 16,
       "reason": "Icône 151: gabarit petit, boîte initiale 24×29, plafond 20px, centre de masse et deux images préservés"
+    },
+    {
+      "id": "009/front",
+      "source": "graphics/yokai/009/front.4bpp",
+      "target": "graphics/yokai/009/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 192,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "049/front",
+      "source": "graphics/yokai/049/front.4bpp",
+      "target": "graphics/yokai/049/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 276,
+      "bottom": 58,
+      "reason": "Session2 : Baku garde le léger agrandissement déjà validé ; centre du corps déplacé de2px sans couper la trompe, largeur60px limite64. Anatomie quadrupède horizontale préservée.",
+      "center_x": 30
+    },
+    {
+      "id": "106/front",
+      "source": "graphics/yokai/106/front.4bpp",
+      "target": "graphics/yokai/106/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 183,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 40px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "005/back",
+      "source": "graphics/yokai/005/back.4bpp",
+      "target": "graphics/yokai/005/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 307,
+      "top": 14,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "006/back",
+      "source": "graphics/yokai/006/back.4bpp",
+      "target": "graphics/yokai/006/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "top": 20,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "007/back",
+      "source": "graphics/yokai/007/back.4bpp",
+      "target": "graphics/yokai/007/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "top": 19,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "009/back",
+      "source": "graphics/yokai/009/back.4bpp",
+      "target": "graphics/yokai/009/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 20,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "017/back",
+      "source": "graphics/yokai/017/back.4bpp",
+      "target": "graphics/yokai/017/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "top": 19,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "045/back",
+      "source": "graphics/yokai/045/back.4bpp",
+      "target": "graphics/yokai/045/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 17,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "047/back",
+      "source": "graphics/yokai/047/back.4bpp",
+      "target": "graphics/yokai/047/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 333,
+      "top": 16,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "070/back",
+      "source": "graphics/yokai/070/back.4bpp",
+      "target": "graphics/yokai/070/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "top": 17,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "087/back",
+      "source": "graphics/yokai/087/back.4bpp",
+      "target": "graphics/yokai/087/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "top": 23,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "097/back",
+      "source": "graphics/yokai/097/back.4bpp",
+      "target": "graphics/yokai/097/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 333,
+      "top": 15,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "099/back",
+      "source": "graphics/yokai/099/back.4bpp",
+      "target": "graphics/yokai/099/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "top": 20,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "100/back",
+      "source": "graphics/yokai/100/back.4bpp",
+      "target": "graphics/yokai/100/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 384,
+      "top": 13,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "101/back",
+      "source": "graphics/yokai/101/back.4bpp",
+      "target": "graphics/yokai/101/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 307,
+      "top": 13,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "110/back",
+      "source": "graphics/yokai/110/back.4bpp",
+      "target": "graphics/yokai/110/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 294,
+      "top": 15,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "119/back",
+      "source": "graphics/yokai/119/back.4bpp",
+      "target": "graphics/yokai/119/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "top": 20,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "120/back",
+      "source": "graphics/yokai/120/back.4bpp",
+      "target": "graphics/yokai/120/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "top": 17,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "137/back",
+      "source": "graphics/yokai/137/back.4bpp",
+      "target": "graphics/yokai/137/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 358,
+      "top": 13,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "138/back",
+      "source": "graphics/yokai/138/back.4bpp",
+      "target": "graphics/yokai/138/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 410,
+      "top": 12,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "145/back",
+      "source": "graphics/yokai/145/back.4bpp",
+      "target": "graphics/yokai/145/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "top": 8,
+      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+    },
+    {
+      "id": "146/back",
+      "source": "graphics/yokai/146/back.4bpp",
+      "target": "graphics/yokai/146/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 294,
+      "top": 15,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "148/back",
+      "source": "graphics/yokai/148/back.4bpp",
+      "target": "graphics/yokai/148/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "top": 19,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "001/back",
+      "source": "graphics/yokai/001/back.4bpp",
+      "target": "graphics/yokai/001/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 20,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "002/back",
+      "source": "graphics/yokai/002/back.4bpp",
+      "target": "graphics/yokai/002/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 19,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "003/back",
+      "source": "graphics/yokai/003/back.4bpp",
+      "target": "graphics/yokai/003/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 21,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "004/back",
+      "source": "graphics/yokai/004/back.4bpp",
+      "target": "graphics/yokai/004/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 19,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "005/front",
+      "source": "graphics/yokai/005/front.4bpp",
+      "target": "graphics/yokai/005/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 210,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 46px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "010/back",
+      "source": "graphics/yokai/010/back.4bpp",
+      "target": "graphics/yokai/010/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 18,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "011/front",
+      "source": "graphics/yokai/011/front.4bpp",
+      "target": "graphics/yokai/011/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 192,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "013/front",
+      "source": "graphics/yokai/013/front.4bpp",
+      "target": "graphics/yokai/013/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 210,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 46px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "018/back",
+      "source": "graphics/yokai/018/back.4bpp",
+      "target": "graphics/yokai/018/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 20,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "019/back",
+      "source": "graphics/yokai/019/back.4bpp",
+      "target": "graphics/yokai/019/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 21,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "020/back",
+      "source": "graphics/yokai/020/back.4bpp",
+      "target": "graphics/yokai/020/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 18,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "021/back",
+      "source": "graphics/yokai/021/back.4bpp",
+      "target": "graphics/yokai/021/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 19,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "022/front",
+      "source": "graphics/yokai/022/front.4bpp",
+      "target": "graphics/yokai/022/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 192,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "024/front",
+      "source": "graphics/yokai/024/front.4bpp",
+      "target": "graphics/yokai/024/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 192,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "026/front",
+      "source": "graphics/yokai/026/front.4bpp",
+      "target": "graphics/yokai/026/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 210,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 46px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "026/back",
+      "source": "graphics/yokai/026/back.4bpp",
+      "target": "graphics/yokai/026/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 20,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "027/back",
+      "source": "graphics/yokai/027/back.4bpp",
+      "target": "graphics/yokai/027/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 18,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "029/front",
+      "source": "graphics/yokai/029/front.4bpp",
+      "target": "graphics/yokai/029/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 192,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "029/back",
+      "source": "graphics/yokai/029/back.4bpp",
+      "target": "graphics/yokai/029/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 22,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "030/back",
+      "source": "graphics/yokai/030/back.4bpp",
+      "target": "graphics/yokai/030/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 18,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "031/front",
+      "source": "graphics/yokai/031/front.4bpp",
+      "target": "graphics/yokai/031/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 192,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "036/front",
+      "source": "graphics/yokai/036/front.4bpp",
+      "target": "graphics/yokai/036/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 192,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "038/back",
+      "source": "graphics/yokai/038/back.4bpp",
+      "target": "graphics/yokai/038/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 20,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "039/back",
+      "source": "graphics/yokai/039/back.4bpp",
+      "target": "graphics/yokai/039/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 18,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "040/back",
+      "source": "graphics/yokai/040/back.4bpp",
+      "target": "graphics/yokai/040/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 20,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "041/front",
+      "source": "graphics/yokai/041/front.4bpp",
+      "target": "graphics/yokai/041/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 192,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "045/front",
+      "source": "graphics/yokai/045/front.4bpp",
+      "target": "graphics/yokai/045/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 192,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "046/front",
+      "source": "graphics/yokai/046/front.4bpp",
+      "target": "graphics/yokai/046/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 192,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "048/back",
+      "source": "graphics/yokai/048/back.4bpp",
+      "target": "graphics/yokai/048/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 19,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "051/front",
+      "source": "graphics/yokai/051/front.4bpp",
+      "target": "graphics/yokai/051/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "051/back",
+      "source": "graphics/yokai/051/back.4bpp",
+      "target": "graphics/yokai/051/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 21,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "052/front",
+      "source": "graphics/yokai/052/front.4bpp",
+      "target": "graphics/yokai/052/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 192,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "053/front",
+      "source": "graphics/yokai/053/front.4bpp",
+      "target": "graphics/yokai/053/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 192,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "055/front",
+      "source": "graphics/yokai/055/front.4bpp",
+      "target": "graphics/yokai/055/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "061/front",
+      "source": "graphics/yokai/061/front.4bpp",
+      "target": "graphics/yokai/061/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "061/back",
+      "source": "graphics/yokai/061/back.4bpp",
+      "target": "graphics/yokai/061/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 20,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "062/front",
+      "source": "graphics/yokai/062/front.4bpp",
+      "target": "graphics/yokai/062/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 192,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "062/back",
+      "source": "graphics/yokai/062/back.4bpp",
+      "target": "graphics/yokai/062/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 19,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "063/front",
+      "source": "graphics/yokai/063/front.4bpp",
+      "target": "graphics/yokai/063/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 192,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "063/back",
+      "source": "graphics/yokai/063/back.4bpp",
+      "target": "graphics/yokai/063/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 22,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "064/back",
+      "source": "graphics/yokai/064/back.4bpp",
+      "target": "graphics/yokai/064/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 19,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "065/back",
+      "source": "graphics/yokai/065/back.4bpp",
+      "target": "graphics/yokai/065/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 18,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "066/front",
+      "source": "graphics/yokai/066/front.4bpp",
+      "target": "graphics/yokai/066/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "068/front",
+      "source": "graphics/yokai/068/front.4bpp",
+      "target": "graphics/yokai/068/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 210,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 46px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "068/back",
+      "source": "graphics/yokai/068/back.4bpp",
+      "target": "graphics/yokai/068/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 21,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "069/back",
+      "source": "graphics/yokai/069/back.4bpp",
+      "target": "graphics/yokai/069/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 19,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "074/back",
+      "source": "graphics/yokai/074/back.4bpp",
+      "target": "graphics/yokai/074/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 22,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "075/back",
+      "source": "graphics/yokai/075/back.4bpp",
+      "target": "graphics/yokai/075/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 22,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "076/front",
+      "source": "graphics/yokai/076/front.4bpp",
+      "target": "graphics/yokai/076/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "078/back",
+      "source": "graphics/yokai/078/back.4bpp",
+      "target": "graphics/yokai/078/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 19,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "079/back",
+      "source": "graphics/yokai/079/back.4bpp",
+      "target": "graphics/yokai/079/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 19,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "080/back",
+      "source": "graphics/yokai/080/back.4bpp",
+      "target": "graphics/yokai/080/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 19,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "081/back",
+      "source": "graphics/yokai/081/back.4bpp",
+      "target": "graphics/yokai/081/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 19,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "082/front",
+      "source": "graphics/yokai/082/front.4bpp",
+      "target": "graphics/yokai/082/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 183,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 40px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "085/front",
+      "source": "graphics/yokai/085/front.4bpp",
+      "target": "graphics/yokai/085/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "087/front",
+      "source": "graphics/yokai/087/front.4bpp",
+      "target": "graphics/yokai/087/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "088/back",
+      "source": "graphics/yokai/088/back.4bpp",
+      "target": "graphics/yokai/088/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 21,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "089/back",
+      "source": "graphics/yokai/089/back.4bpp",
+      "target": "graphics/yokai/089/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 18,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "090/front",
+      "source": "graphics/yokai/090/front.4bpp",
+      "target": "graphics/yokai/090/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 192,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "090/back",
+      "source": "graphics/yokai/090/back.4bpp",
+      "target": "graphics/yokai/090/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 22,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "091/front",
+      "source": "graphics/yokai/091/front.4bpp",
+      "target": "graphics/yokai/091/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 183,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 40px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "093/front",
+      "source": "graphics/yokai/093/front.4bpp",
+      "target": "graphics/yokai/093/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 192,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "094/front",
+      "source": "graphics/yokai/094/front.4bpp",
+      "target": "graphics/yokai/094/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "096/back",
+      "source": "graphics/yokai/096/back.4bpp",
+      "target": "graphics/yokai/096/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 20,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "098/front",
+      "source": "graphics/yokai/098/front.4bpp",
+      "target": "graphics/yokai/098/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 192,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "100/front",
+      "source": "graphics/yokai/100/front.4bpp",
+      "target": "graphics/yokai/100/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 210,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 46px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "106/back",
+      "source": "graphics/yokai/106/back.4bpp",
+      "target": "graphics/yokai/106/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 21,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "107/back",
+      "source": "graphics/yokai/107/back.4bpp",
+      "target": "graphics/yokai/107/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 18,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "108/front",
+      "source": "graphics/yokai/108/front.4bpp",
+      "target": "graphics/yokai/108/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "110/front",
+      "source": "graphics/yokai/110/front.4bpp",
+      "target": "graphics/yokai/110/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 210,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 46px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "111/back",
+      "source": "graphics/yokai/111/back.4bpp",
+      "target": "graphics/yokai/111/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 19,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "112/front",
+      "source": "graphics/yokai/112/front.4bpp",
+      "target": "graphics/yokai/112/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 213,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "113/front",
+      "source": "graphics/yokai/113/front.4bpp",
+      "target": "graphics/yokai/113/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 210,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 46px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "113/back",
+      "source": "graphics/yokai/113/back.4bpp",
+      "target": "graphics/yokai/113/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 19,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "114/back",
+      "source": "graphics/yokai/114/back.4bpp",
+      "target": "graphics/yokai/114/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 20,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "115/front",
+      "source": "graphics/yokai/115/front.4bpp",
+      "target": "graphics/yokai/115/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "117/front",
+      "source": "graphics/yokai/117/front.4bpp",
+      "target": "graphics/yokai/117/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 195,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "118/front",
+      "source": "graphics/yokai/118/front.4bpp",
+      "target": "graphics/yokai/118/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 183,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 40px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "119/front",
+      "source": "graphics/yokai/119/front.4bpp",
+      "target": "graphics/yokai/119/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "121/front",
+      "source": "graphics/yokai/121/front.4bpp",
+      "target": "graphics/yokai/121/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "121/back",
+      "source": "graphics/yokai/121/back.4bpp",
+      "target": "graphics/yokai/121/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 18,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "122/front",
+      "source": "graphics/yokai/122/front.4bpp",
+      "target": "graphics/yokai/122/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 192,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "123/front",
+      "source": "graphics/yokai/123/front.4bpp",
+      "target": "graphics/yokai/123/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "124/front",
+      "source": "graphics/yokai/124/front.4bpp",
+      "target": "graphics/yokai/124/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 192,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "125/front",
+      "source": "graphics/yokai/125/front.4bpp",
+      "target": "graphics/yokai/125/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "126/front",
+      "source": "graphics/yokai/126/front.4bpp",
+      "target": "graphics/yokai/126/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "127/front",
+      "source": "graphics/yokai/127/front.4bpp",
+      "target": "graphics/yokai/127/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 192,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "127/back",
+      "source": "graphics/yokai/127/back.4bpp",
+      "target": "graphics/yokai/127/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 21,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "128/front",
+      "source": "graphics/yokai/128/front.4bpp",
+      "target": "graphics/yokai/128/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 236,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 48px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "128/back",
+      "source": "graphics/yokai/128/back.4bpp",
+      "target": "graphics/yokai/128/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 20,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "129/front",
+      "source": "graphics/yokai/129/front.4bpp",
+      "target": "graphics/yokai/129/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 183,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 40px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "131/front",
+      "source": "graphics/yokai/131/front.4bpp",
+      "target": "graphics/yokai/131/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "131/back",
+      "source": "graphics/yokai/131/back.4bpp",
+      "target": "graphics/yokai/131/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 22,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "132/back",
+      "source": "graphics/yokai/132/back.4bpp",
+      "target": "graphics/yokai/132/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 19,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "133/back",
+      "source": "graphics/yokai/133/back.4bpp",
+      "target": "graphics/yokai/133/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 18,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "134/front",
+      "source": "graphics/yokai/134/front.4bpp",
+      "target": "graphics/yokai/134/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "136/front",
+      "source": "graphics/yokai/136/front.4bpp",
+      "target": "graphics/yokai/136/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "136/back",
+      "source": "graphics/yokai/136/back.4bpp",
+      "target": "graphics/yokai/136/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 21,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "137/front",
+      "source": "graphics/yokai/137/front.4bpp",
+      "target": "graphics/yokai/137/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "139/front",
+      "source": "graphics/yokai/139/front.4bpp",
+      "target": "graphics/yokai/139/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "140/back",
+      "source": "graphics/yokai/140/back.4bpp",
+      "target": "graphics/yokai/140/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 18,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "143/front",
+      "source": "graphics/yokai/143/front.4bpp",
+      "target": "graphics/yokai/143/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "146/front",
+      "source": "graphics/yokai/146/front.4bpp",
+      "target": "graphics/yokai/146/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 210,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 46px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "149/back",
+      "source": "graphics/yokai/149/back.4bpp",
+      "target": "graphics/yokai/149/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 20,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+    },
+    {
+      "id": "151/front",
+      "source": "graphics/yokai/151/front.4bpp",
+      "target": "graphics/yokai/151/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 201,
+      "bottom": 58,
+      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+    },
+    {
+      "id": "151/back",
+      "source": "graphics/yokai/151/back.4bpp",
+      "target": "graphics/yokai/151/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 256,
+      "top": 20,
+      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
     }
   ]
 }
