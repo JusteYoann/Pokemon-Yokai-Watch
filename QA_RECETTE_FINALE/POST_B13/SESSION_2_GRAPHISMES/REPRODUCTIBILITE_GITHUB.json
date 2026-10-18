@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "clone_source": "https://github.com/JusteYoann/Pokemon-Yokai-Watch.git",
+  "clone_commit": "c980460b3f2d327fe5c4ec6d0c49e37c4ee384cc",
+  "clone_was_clean_no_generated_game_assets_copied": true,
+  "agbcc_source_commit": "da598c1d918402c42c0c0d7128ba14567f3175e9",
+  "toolchain": "agbcc installed through its install.sh; GNU ARM binutils2.44",
+  "external_private_assets": "Existing 19-track manifest and DPCM assets supplied separately using YOKAI_AUDIO_DIR; unchanged session1 dataset, never committed",
+  "command": "make -j4 YOKAI_AUDIO_DIR=/path/to/private-audio",
+  "rom_bytes": 27718259,
+  "rom_sha256": "60c61beaaebf5ae01f3e4b8d4c7c4b342af04cd917a03dab2f346b886596a778",
+  "byte_identical_with_reference": true,
+  "physical_hardware_tested": false
+}

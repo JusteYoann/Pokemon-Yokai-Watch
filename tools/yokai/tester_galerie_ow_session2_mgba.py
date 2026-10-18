@@ -51,3 +51,15 @@ finally:
     r.close();(P/'TEST_GALERIE_MGBA.json').write_text(json.dumps(dict(passed=passed,error=error,
         rom_sha256=hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),results=rows,
         scope='Real new-game then actual native object spawning on Pallet Town as a temporary RAM fixture; four orientations rendered. Not actual story placements/interactions or a whole adventure.'),ensure_ascii=False,indent=2)+'\n')
+if passed:
+    # Fixed-camera fixture crop in screen coordinates, not sprite.pos1: native
+    # map rendering also applies global sprite/camera offsets. Full native
+    # frames above remain the primary evidence (no hidden-background crops).
+    sheet=Image.new('RGB',(1408,900),(224,224,224));draw=ImageDraw.Draw(sheet)
+    for i,row in enumerate(rows):
+        x=i%4*352;y=i//4*150;draw.text((x+4,y+2),row['person'],fill='black')
+        for j,pose in enumerate(row['poses']):
+            frame=Image.open(P/f"{row['person']}-{pose['direction']}.png")
+            view=frame.crop((132,44,172,92)).resize((80,96),Image.Resampling.NEAREST)
+            sheet.paste(view,(x+86*j,y+20))
+    sheet.save(P/'planche-22-acteurs.png')

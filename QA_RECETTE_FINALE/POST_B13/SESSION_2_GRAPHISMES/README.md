@@ -43,3 +43,11 @@ Les captures de `sprites/shiny-lot2/` montrent les neuf formes. `shiny-interface
 `rencontres-statiques-completes/` vérifie maintenant les six rencontres visibles : les deux Misterre, Octorgone à la Centrale, Mademoaiselle aux Îles Écume, Kyubi au Mont Braise et Enma dans la Caverne Azurée, avec leurs interactions et captures. La progression est préparée par le banc de test ; aucun parcours intégral n’est affirmé.
 
 **La session2 reste en cours.** Les75 autres shiny autorisés nécessitent encore une restauration ou une validation artistique individuelle ; le sourire de Couchtar, les autres familles et leurs extrapolations ne sont pas déclarés terminés. Le tableau `FAMILLES_SHINY_ET_EXCLUSIONS.csv` distingue les95 familles, les autorisations et le travail effectivement restauré. Les anciens dessins de Robonyan28 dans `graphics/yokai_shiny_artwork/019/` restent des brouillons non raccordés ; le jeu utilise désormais `graphics/yokai_shiny/019/` pour sa seule forme shiny.
+
+## Reconstruction indépendante du jalon
+
+Le commit `c980460b3f2d327fe5c4ec6d0c49e37c4ee384cc` a été récupéré directement depuis GitHub dans un nouveau clone sans sorties générées. Installation du compilateur agbcc par son script `install.sh`, puis compilation complète avec les19 ressources audio privées externes de session1. Aucun sprite, dérivé4bpp, fichier objet ou outil de conversion compilé du checkout de travail n’a été copié dans le nouveau clone ; les outils du dépôt ont été reconstruits.
+
+Résultat strictement identique, octet pour octet : **27,718,259 octets**, SHA-256 `60c61beaaebf5ae01f3e4b8d4c7c4b342af04cd917a03dab2f346b886596a778`. Voir `REPRODUCTIBILITE_GITHUB.json` et `AUDIO_PRESERVE.json`. La compilation publique avec repli musical natif passe également. Sans les ressources DPCM externes, le résultat musical ne peut pas être identique à la ROM privée. La recette matérielle physique et une nouvelle partie complète jusqu’au postgame ne sont pas réalisées ici.
+
+La planche `overworld/apres/planche-22-acteurs.png` rassemble les quatre orientations des objets natifs. Les statiques et Usapyon utilisent encore une représentation fixe prévue par leur table `Inanimate` : tourner la direction de l’objet ne crée pas de nouvelles vues dessinées. Aucun mouvement de marche nouveau n’est affirmé pour ces objets.
