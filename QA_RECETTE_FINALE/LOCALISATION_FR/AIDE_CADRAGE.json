@@ -1,0 +1,1853 @@
+{
+  "entries": 369,
+  "fixed_width": 208,
+  "max_answer_lines": 7,
+  "scope": "Native normal-font table, conservative extra glyph widths, PLAYER7; no silent clipping or field-dialogue scrolling assumption.",
+  "results": [
+    {
+      "symbol": "Help_Text_WhatShouldIDo",
+      "lines": 1,
+      "max_conservative_pixels": 170
+    },
+    {
+      "symbol": "Help_Text_HowDoIDoThis",
+      "lines": 1,
+      "max_conservative_pixels": 78
+    },
+    {
+      "symbol": "Help_Text_WhatDoesThisTermMean",
+      "lines": 1,
+      "max_conservative_pixels": 121
+    },
+    {
+      "symbol": "Help_Text_AboutThisGame",
+      "lines": 1,
+      "max_conservative_pixels": 106
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupList",
+      "lines": 1,
+      "max_conservative_pixels": 102
+    },
+    {
+      "symbol": "Help_Text_Exit",
+      "lines": 1,
+      "max_conservative_pixels": 42
+    },
+    {
+      "symbol": "Help_Text_Cancel",
+      "lines": 1,
+      "max_conservative_pixels": 36
+    },
+    {
+      "symbol": "Help_Text_TryDoingItOnYourOwn",
+      "lines": 1,
+      "max_conservative_pixels": 175
+    },
+    {
+      "symbol": "Help_Text_DescWhatShouldIDo",
+      "lines": 2,
+      "max_conservative_pixels": 165
+    },
+    {
+      "symbol": "Help_Text_DescHowDoIDoThis",
+      "lines": 2,
+      "max_conservative_pixels": 184
+    },
+    {
+      "symbol": "Help_Text_DescWhatDoesThisTermMean",
+      "lines": 2,
+      "max_conservative_pixels": 200
+    },
+    {
+      "symbol": "Help_Text_DescAboutThisGame",
+      "lines": 2,
+      "max_conservative_pixels": 185
+    },
+    {
+      "symbol": "Help_Text_DescTypeMatchupList",
+      "lines": 2,
+      "max_conservative_pixels": 180
+    },
+    {
+      "symbol": "Help_Text_DescExit",
+      "lines": 1,
+      "max_conservative_pixels": 141
+    },
+    {
+      "symbol": "Help_Text_Greetings",
+      "lines": 5,
+      "max_conservative_pixels": 200
+    },
+    {
+      "symbol": "Help_Text_PlayingForFirstTime",
+      "lines": 1,
+      "max_conservative_pixels": 137
+    },
+    {
+      "symbol": "Help_Text_WhatShouldIBeDoing",
+      "lines": 1,
+      "max_conservative_pixels": 101
+    },
+    {
+      "symbol": "Help_Text_CantGetOutOfRoom",
+      "lines": 1,
+      "max_conservative_pixels": 152
+    },
+    {
+      "symbol": "Help_Text_CantFindPersonIWant",
+      "lines": 1,
+      "max_conservative_pixels": 170
+    },
+    {
+      "symbol": "Help_Text_TalkedToEveryoneNowWhat",
+      "lines": 1,
+      "max_conservative_pixels": 207
+    },
+    {
+      "symbol": "Help_Text_SomeoneBlockingMyWay",
+      "lines": 1,
+      "max_conservative_pixels": 177
+    },
+    {
+      "symbol": "Help_Text_ICantGoOn",
+      "lines": 1,
+      "max_conservative_pixels": 134
+    },
+    {
+      "symbol": "Help_Text_OutOfThingsToDo",
+      "lines": 1,
+      "max_conservative_pixels": 148
+    },
+    {
+      "symbol": "Help_Text_WhatHappenedToItemIGot",
+      "lines": 1,
+      "max_conservative_pixels": 170
+    },
+    {
+      "symbol": "Help_Text_WhatAreMyAdventureBasics",
+      "lines": 1,
+      "max_conservative_pixels": 134
+    },
+    {
+      "symbol": "Help_Text_HowAreRoadsForestsDifferent",
+      "lines": 1,
+      "max_conservative_pixels": 139
+    },
+    {
+      "symbol": "Help_Text_HowAreCavesDifferent",
+      "lines": 1,
+      "max_conservative_pixels": 163
+    },
+    {
+      "symbol": "Help_Text_HowDoIProgress",
+      "lines": 1,
+      "max_conservative_pixels": 107
+    },
+    {
+      "symbol": "Help_Text_WhenCanIUseItem",
+      "lines": 1,
+      "max_conservative_pixels": 143
+    },
+    {
+      "symbol": "Help_Text_WhatsABattle",
+      "lines": 1,
+      "max_conservative_pixels": 128
+    },
+    {
+      "symbol": "Help_Text_HowDoIPrepareForBattle",
+      "lines": 1,
+      "max_conservative_pixels": 155
+    },
+    {
+      "symbol": "Help_Text_WhatIsAMonsVitality",
+      "lines": 1,
+      "max_conservative_pixels": 130
+    },
+    {
+      "symbol": "Help_Text_MyMonsAreHurt",
+      "lines": 1,
+      "max_conservative_pixels": 133
+    },
+    {
+      "symbol": "Help_Text_WhatIsStatusProblem",
+      "lines": 1,
+      "max_conservative_pixels": 125
+    },
+    {
+      "symbol": "Help_Text_WhatHappensIfAllMyMonsFaint",
+      "lines": 1,
+      "max_conservative_pixels": 176
+    },
+    {
+      "symbol": "Help_Text_CantCatchMons",
+      "lines": 1,
+      "max_conservative_pixels": 150
+    },
+    {
+      "symbol": "Help_Text_RanOutOfPotions",
+      "lines": 1,
+      "max_conservative_pixels": 130
+    },
+    {
+      "symbol": "Help_Text_CanIBuyPokeBalls",
+      "lines": 1,
+      "max_conservative_pixels": 159
+    },
+    {
+      "symbol": "Help_Text_WhatsATrainer",
+      "lines": 1,
+      "max_conservative_pixels": 137
+    },
+    {
+      "symbol": "Help_Text_HowDoIWinAgainstTrainer",
+      "lines": 1,
+      "max_conservative_pixels": 152
+    },
+    {
+      "symbol": "Help_Text_WhereDoMonsAppear",
+      "lines": 1,
+      "max_conservative_pixels": 150
+    },
+    {
+      "symbol": "Help_Text_WhatAreMoves",
+      "lines": 1,
+      "max_conservative_pixels": 129
+    },
+    {
+      "symbol": "Help_Text_WhatAreHiddenMoves",
+      "lines": 1,
+      "max_conservative_pixels": 179
+    },
+    {
+      "symbol": "Help_Text_WhatMovesShouldIUse",
+      "lines": 1,
+      "max_conservative_pixels": 143
+    },
+    {
+      "symbol": "Help_Text_WantToAddMoreMoves",
+      "lines": 1,
+      "max_conservative_pixels": 183
+    },
+    {
+      "symbol": "Help_Text_WantToMakeMonStronger",
+      "lines": 1,
+      "max_conservative_pixels": 164
+    },
+    {
+      "symbol": "Help_Text_FoeMonsTooStrong",
+      "lines": 1,
+      "max_conservative_pixels": 176
+    },
+    {
+      "symbol": "Help_Text_WhatDoIDoInCave",
+      "lines": 1,
+      "max_conservative_pixels": 146
+    },
+    {
+      "symbol": "Help_Text_NothingIWantToKnow",
+      "lines": 1,
+      "max_conservative_pixels": 132
+    },
+    {
+      "symbol": "Help_Text_WhatsPokemonCenter",
+      "lines": 1,
+      "max_conservative_pixels": 175
+    },
+    {
+      "symbol": "Help_Text_WhatsPokemonMart",
+      "lines": 1,
+      "max_conservative_pixels": 144
+    },
+    {
+      "symbol": "Help_Text_WantToEndGame",
+      "lines": 1,
+      "max_conservative_pixels": 144
+    },
+    {
+      "symbol": "Help_Text_WhatsAMon",
+      "lines": 1,
+      "max_conservative_pixels": 126
+    },
+    {
+      "symbol": "Help_Text_WhatIsThatPersonLike",
+      "lines": 1,
+      "max_conservative_pixels": 128
+    },
+    {
+      "symbol": "Help_Text_WhatDoesHiddenMoveDo",
+      "lines": 1,
+      "max_conservative_pixels": 186
+    },
+    {
+      "symbol": "Help_Text_WhatDoIDoInSafari",
+      "lines": 1,
+      "max_conservative_pixels": 141
+    },
+    {
+      "symbol": "Help_Text_WhatAreSafariRules",
+      "lines": 1,
+      "max_conservative_pixels": 118
+    },
+    {
+      "symbol": "Help_Text_WantToEndSafari",
+      "lines": 1,
+      "max_conservative_pixels": 146
+    },
+    {
+      "symbol": "Help_Text_WhatIsAGym",
+      "lines": 1,
+      "max_conservative_pixels": 127
+    },
+    {
+      "symbol": "Help_Text_AnswerPlayingForFirstTime",
+      "lines": 6,
+      "max_conservative_pixels": 192
+    },
+    {
+      "symbol": "Help_Text_AnswerWhatShouldIBeDoing",
+      "lines": 6,
+      "max_conservative_pixels": 207
+    },
+    {
+      "symbol": "Help_Text_AnswerCantGetOutOfRoom",
+      "lines": 5,
+      "max_conservative_pixels": 202
+    },
+    {
+      "symbol": "Help_Text_AnswerCantFindPersonIWant",
+      "lines": 5,
+      "max_conservative_pixels": 201
+    },
+    {
+      "symbol": "Help_Text_AnswerTalkedToEveryoneNowWhat",
+      "lines": 2,
+      "max_conservative_pixels": 205
+    },
+    {
+      "symbol": "Help_Text_AnswerSomeoneBlockingMyWay",
+      "lines": 6,
+      "max_conservative_pixels": 194
+    },
+    {
+      "symbol": "Help_Text_AnswerICantGoOn",
+      "lines": 5,
+      "max_conservative_pixels": 206
+    },
+    {
+      "symbol": "Help_Text_AnswerOutOfThingsToDo",
+      "lines": 3,
+      "max_conservative_pixels": 193
+    },
+    {
+      "symbol": "Help_Text_AnswerWhatHappenedToItemIGot",
+      "lines": 6,
+      "max_conservative_pixels": 201
+    },
+    {
+      "symbol": "Help_Text_AnswerWhatAreMyAdventureBasics",
+      "lines": 5,
+      "max_conservative_pixels": 205
+    },
+    {
+      "symbol": "Help_Text_AnswerHowAreRoadsForestsDifferent",
+      "lines": 4,
+      "max_conservative_pixels": 199
+    },
+    {
+      "symbol": "Help_Text_AnswerHowAreCavesDifferent",
+      "lines": 6,
+      "max_conservative_pixels": 191
+    },
+    {
+      "symbol": "Help_Text_AnswerHowDoIProgress",
+      "lines": 6,
+      "max_conservative_pixels": 197
+    },
+    {
+      "symbol": "Help_Text_AnswerWhenCanIUseItem",
+      "lines": 5,
+      "max_conservative_pixels": 200
+    },
+    {
+      "symbol": "Help_Text_AnswerWhatsABattle",
+      "lines": 6,
+      "max_conservative_pixels": 206
+    },
+    {
+      "symbol": "Help_Text_AnswerHowDoIPrepareForBattle",
+      "lines": 4,
+      "max_conservative_pixels": 205
+    },
+    {
+      "symbol": "Help_Text_AnswerWhatIsAMonsVitality",
+      "lines": 5,
+      "max_conservative_pixels": 198
+    },
+    {
+      "symbol": "Help_Text_AnswerMyMonsAreHurt",
+      "lines": 5,
+      "max_conservative_pixels": 206
+    },
+    {
+      "symbol": "Help_Text_AnswerWhatIsStatusProblem",
+      "lines": 4,
+      "max_conservative_pixels": 207
+    },
+    {
+      "symbol": "Help_Text_AnswerWhatHappensIfAllMyMonsFaint",
+      "lines": 5,
+      "max_conservative_pixels": 202
+    },
+    {
+      "symbol": "Help_Text_AnswerCantCatchMons",
+      "lines": 6,
+      "max_conservative_pixels": 208
+    },
+    {
+      "symbol": "Help_Text_AnswerRanOutOfPotions",
+      "lines": 5,
+      "max_conservative_pixels": 200
+    },
+    {
+      "symbol": "Help_Text_AnswerCanIBuyPokeBalls",
+      "lines": 4,
+      "max_conservative_pixels": 201
+    },
+    {
+      "symbol": "Help_Text_AnswerWhatsATrainer",
+      "lines": 5,
+      "max_conservative_pixels": 197
+    },
+    {
+      "symbol": "Help_Text_AnswerHowDoIWinAgainstTrainer",
+      "lines": 5,
+      "max_conservative_pixels": 206
+    },
+    {
+      "symbol": "Help_Text_AnswerWhereDoMonsAppear",
+      "lines": 6,
+      "max_conservative_pixels": 207
+    },
+    {
+      "symbol": "Help_Text_AnswerWhatAreMoves",
+      "lines": 6,
+      "max_conservative_pixels": 201
+    },
+    {
+      "symbol": "Help_Text_AnswerWhatAreHiddenMoves",
+      "lines": 6,
+      "max_conservative_pixels": 203
+    },
+    {
+      "symbol": "Help_Text_AnswerWhatMovesShouldIUse",
+      "lines": 6,
+      "max_conservative_pixels": 204
+    },
+    {
+      "symbol": "Help_Text_AnswerWantToAddMoreMoves",
+      "lines": 4,
+      "max_conservative_pixels": 196
+    },
+    {
+      "symbol": "Help_Text_AnswerWantToMakeMonStronger",
+      "lines": 6,
+      "max_conservative_pixels": 204
+    },
+    {
+      "symbol": "Help_Text_AnswerFoeMonsTooStrong",
+      "lines": 5,
+      "max_conservative_pixels": 207
+    },
+    {
+      "symbol": "Help_Text_AnswerWhatDoIDoInCave",
+      "lines": 6,
+      "max_conservative_pixels": 202
+    },
+    {
+      "symbol": "Help_Text_AnswerNothingIWantToKnow",
+      "lines": 2,
+      "max_conservative_pixels": 199
+    },
+    {
+      "symbol": "Help_Text_AnswerWhatsPokemonCenter",
+      "lines": 5,
+      "max_conservative_pixels": 205
+    },
+    {
+      "symbol": "Help_Text_AnswerWhatsPokemonMart",
+      "lines": 5,
+      "max_conservative_pixels": 201
+    },
+    {
+      "symbol": "Help_Text_AnswerWantToEndGame",
+      "lines": 5,
+      "max_conservative_pixels": 199
+    },
+    {
+      "symbol": "Help_Text_AnswerWhatsAMon",
+      "lines": 5,
+      "max_conservative_pixels": 200
+    },
+    {
+      "symbol": "Help_Text_AnswerWhatIsThatPersonLike",
+      "lines": 4,
+      "max_conservative_pixels": 197
+    },
+    {
+      "symbol": "Help_Text_AnswerWhatDoesHiddenMoveDo",
+      "lines": 5,
+      "max_conservative_pixels": 203
+    },
+    {
+      "symbol": "Help_Text_AnswerWhatDoIDoInSafari",
+      "lines": 4,
+      "max_conservative_pixels": 206
+    },
+    {
+      "symbol": "Help_Text_AnswerWhatAreSafariRules",
+      "lines": 5,
+      "max_conservative_pixels": 193
+    },
+    {
+      "symbol": "Help_Text_AnswerWantToEndSafari",
+      "lines": 4,
+      "max_conservative_pixels": 197
+    },
+    {
+      "symbol": "Help_Text_AnswerWhatIsAGym",
+      "lines": 5,
+      "max_conservative_pixels": 205
+    },
+    {
+      "symbol": "Help_Text_UsingPokedex",
+      "lines": 1,
+      "max_conservative_pixels": 56
+    },
+    {
+      "symbol": "Help_Text_UsingPokemon",
+      "lines": 1,
+      "max_conservative_pixels": 68
+    },
+    {
+      "symbol": "Help_Text_UsingSummary",
+      "lines": 1,
+      "max_conservative_pixels": 48
+    },
+    {
+      "symbol": "Help_Text_UsingSwitch",
+      "lines": 1,
+      "max_conservative_pixels": 60
+    },
+    {
+      "symbol": "Help_Text_UsingItem",
+      "lines": 1,
+      "max_conservative_pixels": 42
+    },
+    {
+      "symbol": "Help_Text_UsingBag",
+      "lines": 1,
+      "max_conservative_pixels": 24
+    },
+    {
+      "symbol": "Help_Text_UsingAnItem",
+      "lines": 1,
+      "max_conservative_pixels": 104
+    },
+    {
+      "symbol": "Help_Text_UsingKeyItem",
+      "lines": 1,
+      "max_conservative_pixels": 133
+    },
+    {
+      "symbol": "Help_Text_UsingPokeBall",
+      "lines": 1,
+      "max_conservative_pixels": 142
+    },
+    {
+      "symbol": "Help_Text_UsingPlayer",
+      "lines": 1,
+      "max_conservative_pixels": 100
+    },
+    {
+      "symbol": "Help_Text_UsingSave",
+      "lines": 1,
+      "max_conservative_pixels": 42
+    },
+    {
+      "symbol": "Help_Text_UsingOption",
+      "lines": 1,
+      "max_conservative_pixels": 48
+    },
+    {
+      "symbol": "Help_Text_UsingPotion",
+      "lines": 1,
+      "max_conservative_pixels": 125
+    },
+    {
+      "symbol": "Help_Text_UsingTownMap",
+      "lines": 1,
+      "max_conservative_pixels": 124
+    },
+    {
+      "symbol": "Help_Text_UsingTM",
+      "lines": 1,
+      "max_conservative_pixels": 105
+    },
+    {
+      "symbol": "Help_Text_UsingHM",
+      "lines": 1,
+      "max_conservative_pixels": 105
+    },
+    {
+      "symbol": "Help_Text_UsingMoveOutsideOfBattle",
+      "lines": 1,
+      "max_conservative_pixels": 114
+    },
+    {
+      "symbol": "Help_Text_RidingBicycle",
+      "lines": 1,
+      "max_conservative_pixels": 130
+    },
+    {
+      "symbol": "Help_Text_EnteringName",
+      "lines": 1,
+      "max_conservative_pixels": 87
+    },
+    {
+      "symbol": "Help_Text_UsingPC",
+      "lines": 1,
+      "max_conservative_pixels": 75
+    },
+    {
+      "symbol": "Help_Text_UsingBillsPC",
+      "lines": 1,
+      "max_conservative_pixels": 126
+    },
+    {
+      "symbol": "Help_Text_UsingWithdraw",
+      "lines": 1,
+      "max_conservative_pixels": 54
+    },
+    {
+      "symbol": "Help_Text_UsingDeposit",
+      "lines": 1,
+      "max_conservative_pixels": 54
+    },
+    {
+      "symbol": "Help_Text_UsingMove",
+      "lines": 1,
+      "max_conservative_pixels": 60
+    },
+    {
+      "symbol": "Help_Text_MovingItems",
+      "lines": 1,
+      "max_conservative_pixels": 121
+    },
+    {
+      "symbol": "Help_Text_UsingPlayersPC",
+      "lines": 1,
+      "max_conservative_pixels": 84
+    },
+    {
+      "symbol": "Help_Text_UsingWithdrawItem",
+      "lines": 1,
+      "max_conservative_pixels": 90
+    },
+    {
+      "symbol": "Help_Text_UsingDepositItem",
+      "lines": 1,
+      "max_conservative_pixels": 90
+    },
+    {
+      "symbol": "Help_Text_UsingMailbox",
+      "lines": 1,
+      "max_conservative_pixels": 90
+    },
+    {
+      "symbol": "Help_Text_UsingProfOaksPC",
+      "lines": 1,
+      "max_conservative_pixels": 65
+    },
+    {
+      "symbol": "Help_Text_OpeningMenu",
+      "lines": 1,
+      "max_conservative_pixels": 78
+    },
+    {
+      "symbol": "Help_Text_UsingFight",
+      "lines": 1,
+      "max_conservative_pixels": 48
+    },
+    {
+      "symbol": "Help_Text_UsingPokemon2",
+      "lines": 1,
+      "max_conservative_pixels": 68
+    },
+    {
+      "symbol": "Help_Text_UsingShift",
+      "lines": 1,
+      "max_conservative_pixels": 54
+    },
+    {
+      "symbol": "Help_Text_UsingSummary2",
+      "lines": 1,
+      "max_conservative_pixels": 48
+    },
+    {
+      "symbol": "Help_Text_UsingBag2",
+      "lines": 1,
+      "max_conservative_pixels": 24
+    },
+    {
+      "symbol": "Help_Text_ReadingPokedex",
+      "lines": 1,
+      "max_conservative_pixels": 100
+    },
+    {
+      "symbol": "Help_Text_UsingHomePC",
+      "lines": 1,
+      "max_conservative_pixels": 103
+    },
+    {
+      "symbol": "Help_Text_UsingItemStorage",
+      "lines": 1,
+      "max_conservative_pixels": 126
+    },
+    {
+      "symbol": "Help_Text_UsingWithdrawItem2",
+      "lines": 1,
+      "max_conservative_pixels": 90
+    },
+    {
+      "symbol": "Help_Text_UsingDepositItem2",
+      "lines": 1,
+      "max_conservative_pixels": 90
+    },
+    {
+      "symbol": "Help_Text_UsingMailbox2",
+      "lines": 1,
+      "max_conservative_pixels": 91
+    },
+    {
+      "symbol": "Help_Text_UsingRun",
+      "lines": 1,
+      "max_conservative_pixels": 36
+    },
+    {
+      "symbol": "Help_Text_RegisterKeyItem",
+      "lines": 1,
+      "max_conservative_pixels": 151
+    },
+    {
+      "symbol": "Help_Text_UsingBall",
+      "lines": 1,
+      "max_conservative_pixels": 30
+    },
+    {
+      "symbol": "Help_Text_UsingBait",
+      "lines": 1,
+      "max_conservative_pixels": 36
+    },
+    {
+      "symbol": "Help_Text_UsingRock",
+      "lines": 1,
+      "max_conservative_pixels": 48
+    },
+    {
+      "symbol": "Help_Text_UsingHallOfFame",
+      "lines": 1,
+      "max_conservative_pixels": 54
+    },
+    {
+      "symbol": "Help_Text_HowToUsePokedex",
+      "lines": 5,
+      "max_conservative_pixels": 189
+    },
+    {
+      "symbol": "Help_Text_HowToUsePokemon",
+      "lines": 4,
+      "max_conservative_pixels": 207
+    },
+    {
+      "symbol": "Help_Text_HowToUseSummary",
+      "lines": 5,
+      "max_conservative_pixels": 205
+    },
+    {
+      "symbol": "Help_Text_HowToUseSwitch",
+      "lines": 5,
+      "max_conservative_pixels": 195
+    },
+    {
+      "symbol": "Help_Text_HowToUseItem",
+      "lines": 5,
+      "max_conservative_pixels": 197
+    },
+    {
+      "symbol": "Help_Text_HowToUseBag",
+      "lines": 5,
+      "max_conservative_pixels": 204
+    },
+    {
+      "symbol": "Help_Text_HowToUseAnItem",
+      "lines": 6,
+      "max_conservative_pixels": 201
+    },
+    {
+      "symbol": "Help_Text_HowToUseKeyItem",
+      "lines": 3,
+      "max_conservative_pixels": 200
+    },
+    {
+      "symbol": "Help_Text_HowToUsePokeBall",
+      "lines": 5,
+      "max_conservative_pixels": 208
+    },
+    {
+      "symbol": "Help_Text_HowToUsePlayer",
+      "lines": 5,
+      "max_conservative_pixels": 181
+    },
+    {
+      "symbol": "Help_Text_HowToUseSave",
+      "lines": 6,
+      "max_conservative_pixels": 208
+    },
+    {
+      "symbol": "Help_Text_HowToUseOption",
+      "lines": 6,
+      "max_conservative_pixels": 188
+    },
+    {
+      "symbol": "Help_Text_HowToUsePotion",
+      "lines": 6,
+      "max_conservative_pixels": 196
+    },
+    {
+      "symbol": "Help_Text_HowToUseTownMap",
+      "lines": 5,
+      "max_conservative_pixels": 199
+    },
+    {
+      "symbol": "Help_Text_HowToUseTM",
+      "lines": 6,
+      "max_conservative_pixels": 202
+    },
+    {
+      "symbol": "Help_Text_HowToUseHM",
+      "lines": 7,
+      "max_conservative_pixels": 202
+    },
+    {
+      "symbol": "Help_Text_HowToUseMoveOutsideOfBattle",
+      "lines": 7,
+      "max_conservative_pixels": 197
+    },
+    {
+      "symbol": "Help_Text_HowToRideBicycle",
+      "lines": 6,
+      "max_conservative_pixels": 199
+    },
+    {
+      "symbol": "Help_Text_HowToEnterName",
+      "lines": 6,
+      "max_conservative_pixels": 199
+    },
+    {
+      "symbol": "Help_Text_HowToUsePC",
+      "lines": 2,
+      "max_conservative_pixels": 205
+    },
+    {
+      "symbol": "Help_Text_HowToUseBillsPC",
+      "lines": 6,
+      "max_conservative_pixels": 202
+    },
+    {
+      "symbol": "Help_Text_HowToUseWithdraw",
+      "lines": 5,
+      "max_conservative_pixels": 208
+    },
+    {
+      "symbol": "Help_Text_HowToUseDeposit",
+      "lines": 6,
+      "max_conservative_pixels": 205
+    },
+    {
+      "symbol": "Help_Text_HowToUseMove",
+      "lines": 6,
+      "max_conservative_pixels": 198
+    },
+    {
+      "symbol": "Help_Text_HowToMoveItems",
+      "lines": 6,
+      "max_conservative_pixels": 201
+    },
+    {
+      "symbol": "Help_Text_HowToUsePlayersPC",
+      "lines": 5,
+      "max_conservative_pixels": 204
+    },
+    {
+      "symbol": "Help_Text_HowToUseWithdrawItem",
+      "lines": 5,
+      "max_conservative_pixels": 192
+    },
+    {
+      "symbol": "Help_Text_HowToUseDepositItem",
+      "lines": 6,
+      "max_conservative_pixels": 196
+    },
+    {
+      "symbol": "Help_Text_HowToUseMailbox",
+      "lines": 6,
+      "max_conservative_pixels": 207
+    },
+    {
+      "symbol": "Help_Text_HowToUseProfOaksPC",
+      "lines": 4,
+      "max_conservative_pixels": 190
+    },
+    {
+      "symbol": "Help_Text_HowToOpenMenu",
+      "lines": 6,
+      "max_conservative_pixels": 194
+    },
+    {
+      "symbol": "Help_Text_HowToUseFight",
+      "lines": 3,
+      "max_conservative_pixels": 157
+    },
+    {
+      "symbol": "Help_Text_HowToUsePokemon2",
+      "lines": 6,
+      "max_conservative_pixels": 193
+    },
+    {
+      "symbol": "Help_Text_HowToUseShift",
+      "lines": 6,
+      "max_conservative_pixels": 178
+    },
+    {
+      "symbol": "Help_Text_HowToUseSummary2",
+      "lines": 5,
+      "max_conservative_pixels": 205
+    },
+    {
+      "symbol": "Help_Text_HowToUseBag2",
+      "lines": 5,
+      "max_conservative_pixels": 204
+    },
+    {
+      "symbol": "Help_Text_HowToReadPokedex",
+      "lines": 4,
+      "max_conservative_pixels": 198
+    },
+    {
+      "symbol": "Help_Text_HowToUseHomePC",
+      "lines": 5,
+      "max_conservative_pixels": 206
+    },
+    {
+      "symbol": "Help_Text_HowToUseItemStorage",
+      "lines": 4,
+      "max_conservative_pixels": 200
+    },
+    {
+      "symbol": "Help_Text_HowToUseWithdrawItem2",
+      "lines": 5,
+      "max_conservative_pixels": 192
+    },
+    {
+      "symbol": "Help_Text_HowToUseDepositItem2",
+      "lines": 5,
+      "max_conservative_pixels": 196
+    },
+    {
+      "symbol": "Help_Text_HowToUseMailbox2",
+      "lines": 6,
+      "max_conservative_pixels": 207
+    },
+    {
+      "symbol": "Help_Text_HowToUseRun",
+      "lines": 6,
+      "max_conservative_pixels": 207
+    },
+    {
+      "symbol": "Help_Text_HowToRegisterKeyItem",
+      "lines": 4,
+      "max_conservative_pixels": 206
+    },
+    {
+      "symbol": "Help_Text_HowToUseBall",
+      "lines": 4,
+      "max_conservative_pixels": 208
+    },
+    {
+      "symbol": "Help_Text_HowToUseBait",
+      "lines": 4,
+      "max_conservative_pixels": 195
+    },
+    {
+      "symbol": "Help_Text_HowToUseRock",
+      "lines": 3,
+      "max_conservative_pixels": 189
+    },
+    {
+      "symbol": "Help_Text_HowToUseHallOfFame",
+      "lines": 3,
+      "max_conservative_pixels": 204
+    },
+    {
+      "symbol": "Help_Text_HP",
+      "lines": 1,
+      "max_conservative_pixels": 12
+    },
+    {
+      "symbol": "Help_Text_EXP",
+      "lines": 1,
+      "max_conservative_pixels": 109
+    },
+    {
+      "symbol": "Help_Text_Moves",
+      "lines": 1,
+      "max_conservative_pixels": 54
+    },
+    {
+      "symbol": "Help_Text_Attack",
+      "lines": 1,
+      "max_conservative_pixels": 42
+    },
+    {
+      "symbol": "Help_Text_Defense",
+      "lines": 1,
+      "max_conservative_pixels": 42
+    },
+    {
+      "symbol": "Help_Text_SpAtk",
+      "lines": 1,
+      "max_conservative_pixels": 52
+    },
+    {
+      "symbol": "Help_Text_SpDef",
+      "lines": 1,
+      "max_conservative_pixels": 52
+    },
+    {
+      "symbol": "Help_Text_Speed",
+      "lines": 1,
+      "max_conservative_pixels": 42
+    },
+    {
+      "symbol": "Help_Text_Level",
+      "lines": 1,
+      "max_conservative_pixels": 85
+    },
+    {
+      "symbol": "Help_Text_Type",
+      "lines": 1,
+      "max_conservative_pixels": 24
+    },
+    {
+      "symbol": "Help_Text_OT",
+      "lines": 1,
+      "max_conservative_pixels": 22
+    },
+    {
+      "symbol": "Help_Text_Item",
+      "lines": 1,
+      "max_conservative_pixels": 30
+    },
+    {
+      "symbol": "Help_Text_Ability",
+      "lines": 1,
+      "max_conservative_pixels": 36
+    },
+    {
+      "symbol": "Help_Text_Money",
+      "lines": 1,
+      "max_conservative_pixels": 36
+    },
+    {
+      "symbol": "Help_Text_MoveType",
+      "lines": 1,
+      "max_conservative_pixels": 96
+    },
+    {
+      "symbol": "Help_Text_Nature",
+      "lines": 1,
+      "max_conservative_pixels": 36
+    },
+    {
+      "symbol": "Help_Text_IDNo",
+      "lines": 1,
+      "max_conservative_pixels": 30
+    },
+    {
+      "symbol": "Help_Text_PP",
+      "lines": 1,
+      "max_conservative_pixels": 12
+    },
+    {
+      "symbol": "Help_Text_Power",
+      "lines": 1,
+      "max_conservative_pixels": 54
+    },
+    {
+      "symbol": "Help_Text_Accuracy",
+      "lines": 1,
+      "max_conservative_pixels": 54
+    },
+    {
+      "symbol": "Help_Text_FNT",
+      "lines": 1,
+      "max_conservative_pixels": 22
+    },
+    {
+      "symbol": "Help_Text_Items",
+      "lines": 1,
+      "max_conservative_pixels": 36
+    },
+    {
+      "symbol": "Help_Text_KeyItems",
+      "lines": 1,
+      "max_conservative_pixels": 72
+    },
+    {
+      "symbol": "Help_Text_PokeBalls",
+      "lines": 1,
+      "max_conservative_pixels": 66
+    },
+    {
+      "symbol": "Help_Text_Pokedex",
+      "lines": 1,
+      "max_conservative_pixels": 50
+    },
+    {
+      "symbol": "Help_Text_PlayTime",
+      "lines": 1,
+      "max_conservative_pixels": 72
+    },
+    {
+      "symbol": "Help_Text_Badges",
+      "lines": 1,
+      "max_conservative_pixels": 36
+    },
+    {
+      "symbol": "Help_Text_TextSpeed",
+      "lines": 1,
+      "max_conservative_pixels": 78
+    },
+    {
+      "symbol": "Help_Text_BattleScene",
+      "lines": 1,
+      "max_conservative_pixels": 60
+    },
+    {
+      "symbol": "Help_Text_BattleStyle",
+      "lines": 1,
+      "max_conservative_pixels": 72
+    },
+    {
+      "symbol": "Help_Text_Sound",
+      "lines": 1,
+      "max_conservative_pixels": 18
+    },
+    {
+      "symbol": "Help_Text_ButtonMode",
+      "lines": 1,
+      "max_conservative_pixels": 42
+    },
+    {
+      "symbol": "Help_Text_Frame",
+      "lines": 1,
+      "max_conservative_pixels": 30
+    },
+    {
+      "symbol": "Help_Text_Cancel2",
+      "lines": 1,
+      "max_conservative_pixels": 36
+    },
+    {
+      "symbol": "Help_Text_TM",
+      "lines": 1,
+      "max_conservative_pixels": 12
+    },
+    {
+      "symbol": "Help_Text_HM",
+      "lines": 1,
+      "max_conservative_pixels": 12
+    },
+    {
+      "symbol": "Help_Text_HMMove",
+      "lines": 1,
+      "max_conservative_pixels": 96
+    },
+    {
+      "symbol": "Help_Text_Evolution",
+      "lines": 1,
+      "max_conservative_pixels": 54
+    },
+    {
+      "symbol": "Help_Text_StatusProblem",
+      "lines": 1,
+      "max_conservative_pixels": 36
+    },
+    {
+      "symbol": "Help_Text_Pokemon",
+      "lines": 1,
+      "max_conservative_pixels": 33
+    },
+    {
+      "symbol": "Help_Text_IDNo2",
+      "lines": 1,
+      "max_conservative_pixels": 30
+    },
+    {
+      "symbol": "Help_Text_Money2",
+      "lines": 1,
+      "max_conservative_pixels": 36
+    },
+    {
+      "symbol": "Help_Text_Badges2",
+      "lines": 1,
+      "max_conservative_pixels": 36
+    },
+    {
+      "symbol": "Help_Text_DefineHP",
+      "lines": 6,
+      "max_conservative_pixels": 204
+    },
+    {
+      "symbol": "Help_Text_DefineEXP",
+      "lines": 7,
+      "max_conservative_pixels": 208
+    },
+    {
+      "symbol": "Help_Text_DefineMoves",
+      "lines": 5,
+      "max_conservative_pixels": 206
+    },
+    {
+      "symbol": "Help_Text_DefineAttack",
+      "lines": 6,
+      "max_conservative_pixels": 195
+    },
+    {
+      "symbol": "Help_Text_DefineDefense",
+      "lines": 4,
+      "max_conservative_pixels": 184
+    },
+    {
+      "symbol": "Help_Text_DefineSpAtk",
+      "lines": 5,
+      "max_conservative_pixels": 205
+    },
+    {
+      "symbol": "Help_Text_DefineSpDef",
+      "lines": 4,
+      "max_conservative_pixels": 208
+    },
+    {
+      "symbol": "Help_Text_DefineSpeed",
+      "lines": 5,
+      "max_conservative_pixels": 207
+    },
+    {
+      "symbol": "Help_Text_DefineLevel",
+      "lines": 4,
+      "max_conservative_pixels": 207
+    },
+    {
+      "symbol": "Help_Text_DefineType",
+      "lines": 6,
+      "max_conservative_pixels": 208
+    },
+    {
+      "symbol": "Help_Text_DefineOT",
+      "lines": 4,
+      "max_conservative_pixels": 197
+    },
+    {
+      "symbol": "Help_Text_DefineItem",
+      "lines": 5,
+      "max_conservative_pixels": 202
+    },
+    {
+      "symbol": "Help_Text_DefineAbility",
+      "lines": 6,
+      "max_conservative_pixels": 207
+    },
+    {
+      "symbol": "Help_Text_DefineMoney",
+      "lines": 3,
+      "max_conservative_pixels": 185
+    },
+    {
+      "symbol": "Help_Text_DefineMoveType",
+      "lines": 5,
+      "max_conservative_pixels": 201
+    },
+    {
+      "symbol": "Help_Text_DefineNature",
+      "lines": 4,
+      "max_conservative_pixels": 197
+    },
+    {
+      "symbol": "Help_Text_DefineIDNo",
+      "lines": 5,
+      "max_conservative_pixels": 189
+    },
+    {
+      "symbol": "Help_Text_DefinePP",
+      "lines": 5,
+      "max_conservative_pixels": 205
+    },
+    {
+      "symbol": "Help_Text_DefinePower",
+      "lines": 4,
+      "max_conservative_pixels": 197
+    },
+    {
+      "symbol": "Help_Text_DefineAccuracy",
+      "lines": 4,
+      "max_conservative_pixels": 207
+    },
+    {
+      "symbol": "Help_Text_DefineFNT",
+      "lines": 4,
+      "max_conservative_pixels": 207
+    },
+    {
+      "symbol": "Help_Text_DefineItems",
+      "lines": 4,
+      "max_conservative_pixels": 204
+    },
+    {
+      "symbol": "Help_Text_DefineKeyItems",
+      "lines": 5,
+      "max_conservative_pixels": 205
+    },
+    {
+      "symbol": "Help_Text_DefinePokeBalls",
+      "lines": 5,
+      "max_conservative_pixels": 207
+    },
+    {
+      "symbol": "Help_Text_DefinePokedex",
+      "lines": 5,
+      "max_conservative_pixels": 195
+    },
+    {
+      "symbol": "Help_Text_DefinePlayTime",
+      "lines": 2,
+      "max_conservative_pixels": 199
+    },
+    {
+      "symbol": "Help_Text_DefineBadges",
+      "lines": 3,
+      "max_conservative_pixels": 188
+    },
+    {
+      "symbol": "Help_Text_DefineTextSpeed",
+      "lines": 2,
+      "max_conservative_pixels": 172
+    },
+    {
+      "symbol": "Help_Text_DefineBattleScene",
+      "lines": 2,
+      "max_conservative_pixels": 205
+    },
+    {
+      "symbol": "Help_Text_DefineBattleStyle",
+      "lines": 5,
+      "max_conservative_pixels": 202
+    },
+    {
+      "symbol": "Help_Text_DefineSound",
+      "lines": 2,
+      "max_conservative_pixels": 183
+    },
+    {
+      "symbol": "Help_Text_DefineButtonMode",
+      "lines": 5,
+      "max_conservative_pixels": 206
+    },
+    {
+      "symbol": "Help_Text_DefineFrame",
+      "lines": 3,
+      "max_conservative_pixels": 182
+    },
+    {
+      "symbol": "Help_Text_DefineCancel2",
+      "lines": 2,
+      "max_conservative_pixels": 196
+    },
+    {
+      "symbol": "Help_Text_DefineTM",
+      "lines": 5,
+      "max_conservative_pixels": 185
+    },
+    {
+      "symbol": "Help_Text_DefineHM",
+      "lines": 5,
+      "max_conservative_pixels": 204
+    },
+    {
+      "symbol": "Help_Text_DefineHMMove",
+      "lines": 6,
+      "max_conservative_pixels": 197
+    },
+    {
+      "symbol": "Help_Text_DefineEvolution",
+      "lines": 6,
+      "max_conservative_pixels": 207
+    },
+    {
+      "symbol": "Help_Text_DefineStatusProblem",
+      "lines": 7,
+      "max_conservative_pixels": 208
+    },
+    {
+      "symbol": "Help_Text_DefinePokemon",
+      "lines": 4,
+      "max_conservative_pixels": 200
+    },
+    {
+      "symbol": "Help_Text_DefineIDNo2",
+      "lines": 5,
+      "max_conservative_pixels": 189
+    },
+    {
+      "symbol": "Help_Text_DefineMoney2",
+      "lines": 3,
+      "max_conservative_pixels": 185
+    },
+    {
+      "symbol": "Help_Text_DefineBadges2",
+      "lines": 3,
+      "max_conservative_pixels": 183
+    },
+    {
+      "symbol": "Help_Text_TheHelpSystem",
+      "lines": 1,
+      "max_conservative_pixels": 94
+    },
+    {
+      "symbol": "Help_Text_TheGame",
+      "lines": 1,
+      "max_conservative_pixels": 36
+    },
+    {
+      "symbol": "Help_Text_WirelessAdapter",
+      "lines": 1,
+      "max_conservative_pixels": 104
+    },
+    {
+      "symbol": "Help_Text_GameFundamentals1",
+      "lines": 1,
+      "max_conservative_pixels": 105
+    },
+    {
+      "symbol": "Help_Text_GameFundamentals2",
+      "lines": 1,
+      "max_conservative_pixels": 105
+    },
+    {
+      "symbol": "Help_Text_GameFundamentals3",
+      "lines": 1,
+      "max_conservative_pixels": 105
+    },
+    {
+      "symbol": "Help_Text_WhatArePokemon",
+      "lines": 1,
+      "max_conservative_pixels": 112
+    },
+    {
+      "symbol": "Help_Text_DescTheHelpSystem",
+      "lines": 5,
+      "max_conservative_pixels": 206
+    },
+    {
+      "symbol": "Help_Text_DescTheGame",
+      "lines": 6,
+      "max_conservative_pixels": 192
+    },
+    {
+      "symbol": "Help_Text_DescWirelessAdapter",
+      "lines": 6,
+      "max_conservative_pixels": 180
+    },
+    {
+      "symbol": "Help_Text_DescGameFundamentals1",
+      "lines": 4,
+      "max_conservative_pixels": 206
+    },
+    {
+      "symbol": "Help_Text_DescGameFundamentals2",
+      "lines": 5,
+      "max_conservative_pixels": 201
+    },
+    {
+      "symbol": "Help_Text_DescGameFundamentals3",
+      "lines": 3,
+      "max_conservative_pixels": 198
+    },
+    {
+      "symbol": "Help_Text_DescWhatArePokemon",
+      "lines": 6,
+      "max_conservative_pixels": 202
+    },
+    {
+      "symbol": "Help_Text_UsingTypeMatchupList",
+      "lines": 1,
+      "max_conservative_pixels": 151
+    },
+    {
+      "symbol": "Help_Text_HowToUseTypeMatchupList",
+      "lines": 5,
+      "max_conservative_pixels": 205
+    },
+    {
+      "symbol": "Help_Text_OwnMoveDark",
+      "lines": 1,
+      "max_conservative_pixels": 152
+    },
+    {
+      "symbol": "Help_Text_OwnPokemonDark",
+      "lines": 1,
+      "max_conservative_pixels": 140
+    },
+    {
+      "symbol": "Help_Text_OwnMoveRock",
+      "lines": 1,
+      "max_conservative_pixels": 134
+    },
+    {
+      "symbol": "Help_Text_OwnPokemonRock",
+      "lines": 1,
+      "max_conservative_pixels": 122
+    },
+    {
+      "symbol": "Help_Text_OwnMovePsychic",
+      "lines": 1,
+      "max_conservative_pixels": 122
+    },
+    {
+      "symbol": "Help_Text_OwnPokemonPsychic",
+      "lines": 1,
+      "max_conservative_pixels": 110
+    },
+    {
+      "symbol": "Help_Text_OwnMoveFighting",
+      "lines": 1,
+      "max_conservative_pixels": 140
+    },
+    {
+      "symbol": "Help_Text_OwnPokemonFighting",
+      "lines": 1,
+      "max_conservative_pixels": 128
+    },
+    {
+      "symbol": "Help_Text_OwnMoveGrass",
+      "lines": 1,
+      "max_conservative_pixels": 140
+    },
+    {
+      "symbol": "Help_Text_OwnPokemonGrass",
+      "lines": 1,
+      "max_conservative_pixels": 128
+    },
+    {
+      "symbol": "Help_Text_OwnMoveGhost",
+      "lines": 1,
+      "max_conservative_pixels": 146
+    },
+    {
+      "symbol": "Help_Text_OwnPokemonGhost",
+      "lines": 1,
+      "max_conservative_pixels": 134
+    },
+    {
+      "symbol": "Help_Text_OwnMoveIce",
+      "lines": 1,
+      "max_conservative_pixels": 134
+    },
+    {
+      "symbol": "Help_Text_OwnPokemonIce",
+      "lines": 1,
+      "max_conservative_pixels": 122
+    },
+    {
+      "symbol": "Help_Text_OwnMoveGround",
+      "lines": 1,
+      "max_conservative_pixels": 122
+    },
+    {
+      "symbol": "Help_Text_OwnPokemonGround",
+      "lines": 1,
+      "max_conservative_pixels": 110
+    },
+    {
+      "symbol": "Help_Text_OwnMoveElectric",
+      "lines": 1,
+      "max_conservative_pixels": 152
+    },
+    {
+      "symbol": "Help_Text_OwnPokemonElectric",
+      "lines": 1,
+      "max_conservative_pixels": 140
+    },
+    {
+      "symbol": "Help_Text_OwnMovePoison",
+      "lines": 1,
+      "max_conservative_pixels": 140
+    },
+    {
+      "symbol": "Help_Text_OwnPokemonPoison",
+      "lines": 1,
+      "max_conservative_pixels": 128
+    },
+    {
+      "symbol": "Help_Text_OwnMoveDragon",
+      "lines": 1,
+      "max_conservative_pixels": 140
+    },
+    {
+      "symbol": "Help_Text_OwnPokemonDragon",
+      "lines": 1,
+      "max_conservative_pixels": 128
+    },
+    {
+      "symbol": "Help_Text_OwnMoveNormal",
+      "lines": 1,
+      "max_conservative_pixels": 140
+    },
+    {
+      "symbol": "Help_Text_OwnPokemonNormal",
+      "lines": 1,
+      "max_conservative_pixels": 128
+    },
+    {
+      "symbol": "Help_Text_OwnMoveSteel",
+      "lines": 1,
+      "max_conservative_pixels": 134
+    },
+    {
+      "symbol": "Help_Text_OwnPokemonSteel",
+      "lines": 1,
+      "max_conservative_pixels": 122
+    },
+    {
+      "symbol": "Help_Text_OwnMoveFlying",
+      "lines": 1,
+      "max_conservative_pixels": 122
+    },
+    {
+      "symbol": "Help_Text_OwnPokemonFlying",
+      "lines": 1,
+      "max_conservative_pixels": 110
+    },
+    {
+      "symbol": "Help_Text_OwnMoveFire",
+      "lines": 1,
+      "max_conservative_pixels": 122
+    },
+    {
+      "symbol": "Help_Text_OwnPokemonFire",
+      "lines": 1,
+      "max_conservative_pixels": 110
+    },
+    {
+      "symbol": "Help_Text_OwnMoveWater",
+      "lines": 1,
+      "max_conservative_pixels": 122
+    },
+    {
+      "symbol": "Help_Text_OwnPokemonWater",
+      "lines": 1,
+      "max_conservative_pixels": 110
+    },
+    {
+      "symbol": "Help_Text_OwnMoveBug",
+      "lines": 1,
+      "max_conservative_pixels": 146
+    },
+    {
+      "symbol": "Help_Text_OwnPokemonBug",
+      "lines": 1,
+      "max_conservative_pixels": 134
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnMoveDark",
+      "lines": 3,
+      "max_conservative_pixels": 159
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnPokemonDark",
+      "lines": 4,
+      "max_conservative_pixels": 157
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnMoveRock",
+      "lines": 3,
+      "max_conservative_pixels": 164
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnPokemonRock",
+      "lines": 3,
+      "max_conservative_pixels": 205
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnMovePsychic",
+      "lines": 4,
+      "max_conservative_pixels": 156
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnPokemonPsychic",
+      "lines": 3,
+      "max_conservative_pixels": 177
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnMoveFighting",
+      "lines": 5,
+      "max_conservative_pixels": 205
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnPokemonFighting",
+      "lines": 3,
+      "max_conservative_pixels": 165
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnMoveGrass",
+      "lines": 4,
+      "max_conservative_pixels": 169
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnPokemonGrass",
+      "lines": 4,
+      "max_conservative_pixels": 176
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnMoveGhost",
+      "lines": 4,
+      "max_conservative_pixels": 156
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnPokemonGhost",
+      "lines": 4,
+      "max_conservative_pixels": 157
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnMoveIce",
+      "lines": 3,
+      "max_conservative_pixels": 164
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnPokemonIce",
+      "lines": 3,
+      "max_conservative_pixels": 170
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnMoveGround",
+      "lines": 4,
+      "max_conservative_pixels": 193
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnPokemonGround",
+      "lines": 4,
+      "max_conservative_pixels": 157
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnMoveElectric",
+      "lines": 4,
+      "max_conservative_pixels": 165
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnPokemonElectric",
+      "lines": 3,
+      "max_conservative_pixels": 157
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnMovePoison",
+      "lines": 4,
+      "max_conservative_pixels": 182
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnPokemonPoison",
+      "lines": 3,
+      "max_conservative_pixels": 206
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnMoveDragon",
+      "lines": 3,
+      "max_conservative_pixels": 156
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnPokemonDragon",
+      "lines": 3,
+      "max_conservative_pixels": 176
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnMoveNormal",
+      "lines": 3,
+      "max_conservative_pixels": 156
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnPokemonNormal",
+      "lines": 3,
+      "max_conservative_pixels": 157
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnMoveSteel",
+      "lines": 3,
+      "max_conservative_pixels": 170
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnPokemonSteel",
+      "lines": 5,
+      "max_conservative_pixels": 194
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnMoveFlying",
+      "lines": 3,
+      "max_conservative_pixels": 159
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnPokemonFlying",
+      "lines": 4,
+      "max_conservative_pixels": 159
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnMoveFire",
+      "lines": 3,
+      "max_conservative_pixels": 194
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnPokemonFire",
+      "lines": 4,
+      "max_conservative_pixels": 187
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnMoveWater",
+      "lines": 3,
+      "max_conservative_pixels": 156
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnPokemonWater",
+      "lines": 3,
+      "max_conservative_pixels": 157
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnMoveBug",
+      "lines": 4,
+      "max_conservative_pixels": 169
+    },
+    {
+      "symbol": "Help_Text_TypeMatchupOwnPokemonBug",
+      "lines": 3,
+      "max_conservative_pixels": 157
+    }
+  ]
+}

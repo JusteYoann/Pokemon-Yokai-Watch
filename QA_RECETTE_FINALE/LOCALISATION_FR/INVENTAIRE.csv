@@ -3654,375 +3654,375 @@ data/text/flavor_text.inc,Text_ImpressiveMachine,81,Quelle drôle de machine.\nE
 data/text/flavor_text.inc,Text_VideoGame,84,Le dernier jeu vidéo!\nIl a l'air amusant!$,False,False
 data/text/flavor_text.inc,Text_Burglary,87,On voit clairement les traces\nd'un cambriolage…$,False,False
 data/text/flavor_text.inc,Text_PlayerFacingTVScreen,90,Un Yo-kai passe à la télé!\nIl a l'air de bien s'amuser.$,False,False
-data/text/help_system.inc,Help_Text_WhatShouldIDo,1,What should I do in this situation?$,True,False
-data/text/help_system.inc,Help_Text_HowDoIDoThis,4,How do I do this?$,True,False
-data/text/help_system.inc,Help_Text_WhatDoesThisTermMean,7,What does this term mean?$,True,False
-data/text/help_system.inc,Help_Text_AboutThisGame,10,About this game$,True,False
-data/text/help_system.inc,Help_Text_TypeMatchupList,13,Type Matchup List$,False,False
-data/text/help_system.inc,Help_Text_Exit,16,EXIT$,False,False
-data/text/help_system.inc,Help_Text_Cancel,19,CANCEL$,False,False
-data/text/help_system.inc,Help_Text_TryDoingItOnYourOwn,22,じぶんの ちからで やってみよう！$,False,True
-data/text/help_system.inc,Help_Text_DescWhatShouldIDo,25,Select to obtain hints for getting\nover challenging situations.$,True,False
-data/text/help_system.inc,Help_Text_DescHowDoIDoThis,29,Detailed instructions are given for\nvarious operations.$,True,False
-data/text/help_system.inc,Help_Text_DescWhatDoesThisTermMean,33,Detailed descriptions are given for\nterms that appear in the game.$,True,False
-data/text/help_system.inc,Help_Text_DescAboutThisGame,37,Detailed descriptions are given\nabout this game.$,True,False
-data/text/help_system.inc,Help_Text_DescTypeMatchupList,41,The matchups of  Yo-kai types\nand moves are listed.$,True,False
-data/text/help_system.inc,Help_Text_DescExit,45,Select to exit the HELP System.$,True,False
-data/text/help_system.inc,Help_Text_Greetings,48,"Greetings! This is the HELP System.\nCall me up whenever and wherever you\lneed by pressing the L or R Button.\lThe help messages change to suit the\lsituation, so check them often, please.$",True,False
-data/text/help_system.inc,Help_Text_PlayingForFirstTime,55,I'm playing for the first time. Help!$,True,False
-data/text/help_system.inc,Help_Text_WhatShouldIBeDoing,58,What should I be doing?$,True,False
-data/text/help_system.inc,Help_Text_CantGetOutOfRoom,61,I can't get out of a room!$,True,False
-data/text/help_system.inc,Help_Text_CantFindPersonIWant,64,I can't find the person I want.$,True,False
-data/text/help_system.inc,Help_Text_TalkedToEveryoneNowWhat,67,I've talked to everyone. Now what?$,True,False
-data/text/help_system.inc,Help_Text_SomeoneBlockingMyWay,70,There's someone blocking my way!$,False,False
-data/text/help_system.inc,Help_Text_ICantGoOn,73,I can't go on!$,True,False
-data/text/help_system.inc,Help_Text_OutOfThingsToDo,76,I'm out of things to do.$,True,False
-data/text/help_system.inc,Help_Text_WhatHappenedToItemIGot,79,What happened to the item I got?$,True,False
-data/text/help_system.inc,Help_Text_WhatAreMyAdventureBasics,82,What are the basics of my adventure?$,True,False
-data/text/help_system.inc,Help_Text_HowAreRoadsForestsDifferent,85,How are roads and forests different?$,True,False
-data/text/help_system.inc,Help_Text_HowAreCavesDifferent,88,How are caves different?$,True,False
-data/text/help_system.inc,Help_Text_HowDoIProgress,91,How do I progress?$,True,False
-data/text/help_system.inc,Help_Text_WhenCanIUseItem,94,When can I use items?$,True,False
-data/text/help_system.inc,Help_Text_WhatsABattle,97,What's a battle?$,True,False
-data/text/help_system.inc,Help_Text_HowDoIPrepareForBattle,100,How do I prepare for battle?$,True,False
-data/text/help_system.inc,Help_Text_WhatIsAMonsVitality,103,What is a Yo-kai's vitality?$,True,False
-data/text/help_system.inc,Help_Text_MyMonsAreHurt,106,My Yo-kai are hurt!$,True,False
-data/text/help_system.inc,Help_Text_WhatIsStatusProblem,109,What is a status problem?$,True,False
-data/text/help_system.inc,Help_Text_WhatHappensIfAllMyMonsFaint,112,What happens if all my Yo-kai faint?$,True,False
-data/text/help_system.inc,Help_Text_CantCatchMons,115,I can't catch Yo-kai!$,True,False
-data/text/help_system.inc,Help_Text_RanOutOfPotions,118,I ran out of POTIONS.$,True,False
-data/text/help_system.inc,Help_Text_CanIBuyPokeBalls,121,Can I buy Yo-kai Balls?$,True,False
-data/text/help_system.inc,Help_Text_WhatsATrainer,124,What's a TRAINER?$,True,False
-data/text/help_system.inc,Help_Text_HowDoIWinAgainstTrainer,127,How do I win against a TRAINER?$,True,False
-data/text/help_system.inc,Help_Text_WhereDoMonsAppear,130,Where do Yo-kai appear?$,False,False
-data/text/help_system.inc,Help_Text_WhatAreMoves,133,What are Yo-kai moves?$,True,False
-data/text/help_system.inc,Help_Text_WhatAreHiddenMoves,136,What are HIDDEN moves?$,True,False
-data/text/help_system.inc,Help_Text_WhatMovesShouldIUse,139,What moves should I use?$,True,False
-data/text/help_system.inc,Help_Text_WantToAddMoreMoves,142,I want to add more moves.$,True,False
-data/text/help_system.inc,Help_Text_WantToMakeMonStronger,145,I want to make my Yo-kai stronger.$,True,False
-data/text/help_system.inc,Help_Text_FoeMonsTooStrong,148,The foe Yo-kai are too strong!$,True,False
-data/text/help_system.inc,Help_Text_WhatDoIDoInCave,151,What do I do in a cave?$,True,False
-data/text/help_system.inc,Help_Text_NothingIWantToKnow,154,There's nothing that I want to know!$,True,False
-data/text/help_system.inc,Help_Text_WhatsPokemonCenter,157,What's a Centre Yo-kai?$,True,False
-data/text/help_system.inc,Help_Text_WhatsPokemonMart,160,What's a Yo-kai MART?$,True,False
-data/text/help_system.inc,Help_Text_WantToEndGame,163,I want to end the game.$,True,False
-data/text/help_system.inc,Help_Text_WhatsAMon,166,What's a Yo-kai?$,True,False
-data/text/help_system.inc,Help_Text_WhatIsThatPersonLike,169,What is that person like?$,True,False
-data/text/help_system.inc,Help_Text_WhatDoesHiddenMoveDo,172,What does a HIDDEN move do?$,True,False
-data/text/help_system.inc,Help_Text_WhatDoIDoInSafari,175,What do I do in a SAFARI GAME?$,True,False
-data/text/help_system.inc,Help_Text_WhatAreSafariRules,178,What are the SAFARI GAME rules?$,True,False
-data/text/help_system.inc,Help_Text_WantToEndSafari,181,I want to end this SAFARI GAME!$,True,False
-data/text/help_system.inc,Help_Text_WhatIsAGym,184,What is a GYM?$,True,False
-data/text/help_system.inc,Help_Text_AnswerPlayingForFirstTime,187,"You become the main character,\nexploring the world of Yo-kai.\lBy talking to people and solving\lmysteries, new paths will open to you.\lStrive for the goal together with your\lwonderful Yo-kai.$",True,False
-data/text/help_system.inc,Help_Text_AnswerWhatShouldIBeDoing,195,"When you come across another person,\ngo up to them and press the A Button.\lThat will get them to talk and interact\lwith your character. You may also\lexamine various items and objects in\lthe same way. Talk to people and check\lthings often to obtain information.$",True,False
-data/text/help_system.inc,Help_Text_AnswerCantGetOutOfRoom,204,On the stairs or the exits of a\nbuilding is a red mat. Move your\lcharacter to stand on top of the\lred mat. Press the {PLUS} Control Pad \ltoward the stairs or the exit to\ladvance.$,True,False
-data/text/help_system.inc,Help_Text_AnswerCantFindPersonIWant,212,"This isn't something you should worry\nabout too much.\lTalk to other people, check signs,\lcheck things, and so on.\lSometimes, you may need to just move\lto a new town or place.$",True,False
-data/text/help_system.inc,Help_Text_AnswerTalkedToEveryoneNowWhat,220,"Try moving on to a new road, town, or\nplace.$",True,False
-data/text/help_system.inc,Help_Text_AnswerSomeoneBlockingMyWay,224,"There could be something in the town\nor inside a building that is the cause.\lTry talking to the people in the area\lagain. If there is a problem that they\lneed solved, you may have to help.\lAfterwards, try talking to the person\lblocking your way again.$",True,False
-data/text/help_system.inc,Help_Text_AnswerICantGoOn,233,"Try talking to people by going up to\nthem and pressing the A Button.\lAlso, try checking things like odd trees\land strange rocks with the A Button.\lPress the {PLUS} Control Pad and try going\lto places that look impassable, too.$",True,False
-data/text/help_system.inc,Help_Text_AnswerOutOfThingsToDo,241,"Try going to places where you \nhaven't visited yet.\lAlso, check everything that looks\lsuspicious by pressing the A Button.$",True,False
-data/text/help_system.inc,Help_Text_AnswerWhatHappenedToItemIGot,247,"Any item that you are given by another\ncharacter goes in your BAG.\lThe item is automatically sorted and\lplaced in one of three pockets.\lFor instructions on the BAG's use,\lplease refer to the HELP System's\l“How do I do this?” heading.$",True,False
-data/text/help_system.inc,Help_Text_AnswerWhatAreMyAdventureBasics,256,"If Yo-kai are hurt in battle,\ntake them to a Centre Yo-kai and\lhave them healed by the staff.\lGet in the habit of saving your\lgame and recording your progress.\lStock up on healing items at\lYo-kai MARTS before traveling far.$",True,False
-data/text/help_system.inc,Help_Text_AnswerHowAreRoadsForestsDifferent,265,"Forests are basically the same as\nroads but they can be like mazes.\lAll forests have a way out, so don't\lgive up if you get lost.$",True,False
-data/text/help_system.inc,Help_Text_AnswerHowAreCavesDifferent,271,"Caves are dark and dangerous. Wild\nYo-kai can appear anywhere in them.\lIf there is an emergency, rush to a\lCentre Yo-kai or use items.\lNew towns await discovery beyond some\lcaves, so don't give up.$",True,False
-data/text/help_system.inc,Help_Text_AnswerHowDoIProgress,279,"The object of the game is to train\nyour Yo-kai and move forward.\lYou must collect info and solve\lproblems. For example, what do you\lneed to get around an obstacle?\lWhat would get that impeding\lperson out of the way?$",True,False
-data/text/help_system.inc,Help_Text_AnswerWhenCanIUseItem,288,"There are several kinds of items.\nSome can be used only on the field.\lSome are only for use during battle.\lSome can be used anytime.\lTry using an item - if it can't be used,\lyou will be alerted.$",True,False
-data/text/help_system.inc,Help_Text_AnswerWhatsABattle,296,"In a battle, Yo-kai try to reduce\none another's vitality, expressed as\lHP. If a Yo-kai's HP falls to zero,\lit faints, and the other Yo-kai\lwins. By winning a battle, Yo-kai\learn EXP. Points, which help them\llevel up (grow stronger).$",True,False
-data/text/help_system.inc,Help_Text_AnswerHowDoIPrepareForBattle,305,"First, fully heal the Yo-kai in your\nparty (the Yo-kai with you) at any\lCentre Yo-kai.\lYou should also buy healing items for\lemergencies at a Yo-kai MART.$",True,False
-data/text/help_system.inc,Help_Text_AnswerWhatIsAMonsVitality,312,"A Yo-kai's vitality is expressed in HP.\nIf a Yo-kai is hurt in battle, HP is\lsubtracted. If its HP drops to zero,\lthe Yo-kai faints.\lHeal hurt or fainted Yo-kai at a\lCentre Yo-kai or by using items.$",True,False
-data/text/help_system.inc,Help_Text_AnswerMyMonsAreHurt,320,"A Centre Yo-kai is like an inn for\nYo-kai. It will fully heal Yo-kai of\lany status problems and fully restore\ltheir HP using a special machine.\lThis service is free, so get in the\lhabit of healing your Yo-kai often.$",True,False
-data/text/help_system.inc,Help_Text_AnswerWhatIsStatusProblem,328,"A status problem refers to an ailment\nthat is inflicted on a Yo-kai by its\lfoe's attack. These include burns,\lparalysis, poisoning, sleep, and\lfreezing. These can be healed by\lvisiting a Centre Yo-kai or using\lthe appropriate item.$",True,False
-data/text/help_system.inc,Help_Text_AnswerWhatHappensIfAllMyMonsFaint,337,"If all the Yo-kai in your party\n(all the Yo-kai with you) faint, you\llose some MONEY, and you are\lreturned home or to a Yo-kai\lCENTER. To reduce that chance, visit\lYo-kai CENTERS often. Also, get\lin the habit of saving often.$",True,False
-data/text/help_system.inc,Help_Text_AnswerCantCatchMons,346,"If a wild Yo-kai escapes from a POKé\nBALL, it's obviously still feisty.\lTry reducing its HP some more, and\ltry to weaken it with paralysis or sleep\lbefore trying to catch it.\lIf the Yo-kai Ball rocks for a while,\lthe quarry is close to being caught!$",True,False
-data/text/help_system.inc,Help_Text_AnswerRanOutOfPotions,355,"There are shops, known as Yo-kai\nMARTS, that sell items.\lYou will not find Yo-kai MARTS on\lroads, in forests, or in caves.\lStock up on needed items while you are\lvisiting a town with a Yo-kai MART.$",True,False
-data/text/help_system.inc,Help_Text_AnswerCanIBuyPokeBalls,363,"You may buy Yo-kai Balls at any\nYo-kai MART in any town.\lYou will not find Yo-kai MARTS on\lroads, in forests, or in caves.\lStock up on Yo-kai Balls when\lvisiting a town with a Yo-kai MART.$",True,False
-data/text/help_system.inc,Help_Text_AnswerWhatsATrainer,371,"A TRAINER is a person who raises\nYo-kai through battling.\lTRAINERS will challenge you \lwherever they are - it could be on\la road, in forests, caves, anywhere.\lIf your eyes meet, you have to accept\ltheir challenge. So be careful!$",True,False
-data/text/help_system.inc,Help_Text_AnswerHowDoIWinAgainstTrainer,380,"To beat a TRAINER in battle, use\nYo-kai that have type advantages\lover the foe's Yo-kai. You may also\luse highly trained Yo-kai with\loverwhelming power. Outnumbering the\lfoe's Yo-kai is another obvious\ltactic.$",True,False
-data/text/help_system.inc,Help_Text_AnswerWhereDoMonsAppear,389,"Wild Yo-kai will appear in tall grass,\non roads, and in forests. They will\lappear anywhere in dark caves.\lThere are no wild Yo-kai or TRAINERS\lin towns, so they are safe places.$",True,False
-data/text/help_system.inc,Help_Text_AnswerWhatAreMoves,396,"Yo-kai may learn up to four different\ntechniques, or moves. There is a great\lvariety of moves including attacks and\lthose with special effects. The kinds\lof moves that can be learned vary\lfor each Yo-kai. Some moves\lcan be learned from machines.$",True,False
-data/text/help_system.inc,Help_Text_AnswerWhatAreHiddenMoves,405,"HIDDEN moves are those that are\nespecially important for your\ladventure. To use such a move outside\lof battle, open the “Yo-kai” MENU\land make the Yo-kai that knows the\lmove use it. A fainted Yo-kai may use\la HIDDEN move outside of battle.$",True,False
-data/text/help_system.inc,Help_Text_AnswerWhatMovesShouldIUse,414,"Select “FIGHT,” and the MENU of moves\nwill appear. Consider the type\lmatchups, and use the most effective\lmoves. You can check the effects of\lmoves by opening “Yo-kai,”\lpicking a Yo-kai, opening “SUMMARY,”\lthen opening “Yo-kai SKILLS.”$",True,False
-data/text/help_system.inc,Help_Text_AnswerWantToAddMoreMoves,423,The most a Yo-kai can learn is four\nmoves. They are learned as the\lYo-kai levels up. It can also be\ltaught a move using a TM (Technical\lMachine) or HM (Hidden Machine).\lThere are also people who teach moves.$,True,False
-data/text/help_system.inc,Help_Text_AnswerWantToMakeMonStronger,431,The key to making your Yo-kai\nstrong is to battle and win often.\lThe EXP. (Experience) Points earned\lby winning battles accumulate to\llevel up Yo-kai that participated in\lthem. Battle wild Yo-kai often to\llevel up your party.$,True,False
-data/text/help_system.inc,Help_Text_AnswerFoeMonsTooStrong,440,"If your foes are too strong, try\nleveling up your Yo-kai some more.\lGo back the way you came and battle\lwild Yo-kai to level up your party.\lYou may also battle TRAINERS whom you\lhave not battled before.$",True,False
-data/text/help_system.inc,Help_Text_AnswerWhatDoIDoInCave,448,"Unlike roads and forests, wild Yo-kai\ncan appear anywhere in caves.\lIf your Yo-kai are hurt in a cave,\lrush to a Centre Yo-kai or use items\lto heal them right away. It is very\ldangerous to force your luck in caves.$",True,False
-data/text/help_system.inc,Help_Text_AnswerNothingIWantToKnow,456,Trust your own knowledge and power.\nBelieve in yourself and find your way!$,True,False
-data/text/help_system.inc,Help_Text_AnswerWhatsPokemonCenter,460,"A Centre Yo-kai is identified by its\nred roof and a “P.C” sign. Every\lCentre Yo-kai offers such services as\lfully healing Yo-kai and free PC use,\lmaking it essential for your travels.\lOn the upper floor are facilities for\llinking with friends and others.$",True,False
-data/text/help_system.inc,Help_Text_AnswerWhatsPokemonMart,469,A Yo-kai MART is identified by its\nblue roof and a “MART” sign.\lItems can be bought and sold at any\lYo-kai MART. Some MARTS carry items\lthat are available only in their towns.$,True,False
-data/text/help_system.inc,Help_Text_AnswerWantToEndGame,476,"You can safely end your game by\nselecting “SAVE” on the MENU.\lOnce you have saved, the game can be\lsafely turned off. When the game is\lturned back on, you can resume from\lwhere you last saved.$",True,False
-data/text/help_system.inc,Help_Text_AnswerWhatsAMon,484,"Yo-kai are living beings about which\nmany mysteries still remain. You may\lsee them in grass, the sea, and caves.\lThey appear to obey the wishes of the\lTRAINERS that caught them.$",True,False
-data/text/help_system.inc,Help_Text_AnswerWhatIsThatPersonLike,491,"Use the FAME CHECKER among the\nKEY ITEMS in your BAG.\lIt may give you a hint, so try it out.$",True,False
-data/text/help_system.inc,Help_Text_AnswerWhatDoesHiddenMoveDo,496,"A HIDDEN move is taught to a Yo-kai\nusing an HM (Hidden Machine).\lA HIDDEN move is important for helping\lyour adventure. For example, one is\lused to light up dark caves. Another\lcuts down small trees. There is one\lfor traveling on water, and so on.$",True,False
-data/text/help_system.inc,Help_Text_AnswerWhatDoIDoInSafari,505,"Try to catch wild Yo-kai by throwing\nthe special SAFARI BALLS.\lYou may keep any item you find, too.$",True,False
-data/text/help_system.inc,Help_Text_AnswerWhatAreSafariRules,510,Your SAFARI GAME ends once you have\ntraveled a certain distance or thrown\lall your SAFARI BALLS.\lOpen the MENU to check the remaining\lnumber of steps and SAFARI BALLS.$,True,False
-data/text/help_system.inc,Help_Text_AnswerWantToEndSafari,517,"If you would like to cut your SAFARI\nGAME short, open the MENU and select\l“RETIRE” at the top of the list.$",True,False
-data/text/help_system.inc,Help_Text_AnswerWhatIsAGym,522,"Yo-kai GYMS are operated by the\nLigue Yo-kai and are training\lfacilities for TRAINERS. They are all\lacross the land in cities and towns.\lEach one is headed by a LEADER, who\lis a very skilled TRAINER. Beat the\lLEADER to collect a BADGE.$",True,False
-data/text/help_system.inc,Help_Text_UsingPokedex,531, Using “Médallium”$,False,False
-data/text/help_system.inc,Help_Text_UsingPokemon,534, Using “Yo-kai”$,False,False
-data/text/help_system.inc,Help_Text_UsingSummary,537,  Using “SUMMARY”$,False,False
-data/text/help_system.inc,Help_Text_UsingSwitch,540,  Using “SWITCH”$,False,False
-data/text/help_system.inc,Help_Text_UsingItem,543,  Using “ITEM”$,False,False
-data/text/help_system.inc,Help_Text_UsingBag,546, Using “BAG”$,False,False
-data/text/help_system.inc,Help_Text_UsingAnItem,549,  Using an item$,False,False
-data/text/help_system.inc,Help_Text_UsingKeyItem,552,  Using a key item$,False,False
-data/text/help_system.inc,Help_Text_UsingPokeBall,555,  Using a Yo-kai Ball$,False,False
-data/text/help_system.inc,Help_Text_UsingPlayer,558, Using “{PLAYER}”$,False,False
-data/text/help_system.inc,Help_Text_UsingSave,561, Using “SAVE”$,False,False
-data/text/help_system.inc,Help_Text_UsingOption,564, Using “OPTION”$,False,False
-data/text/help_system.inc,Help_Text_UsingPotion,567,    Using a POTION$,False,False
-data/text/help_system.inc,Help_Text_UsingTownMap,570,    Using the TOWN MAP$,True,False
-data/text/help_system.inc,Help_Text_UsingTM,573,    Using a TM$,False,False
-data/text/help_system.inc,Help_Text_UsingHM,576,    Using an HM$,False,False
-data/text/help_system.inc,Help_Text_UsingMoveOutsideOfBattle,579,Using a move outside of battle$,True,False
-data/text/help_system.inc,Help_Text_RidingBicycle,582,    Riding the BICYCLE$,True,False
-data/text/help_system.inc,Help_Text_EnteringName,585,Entering a name$,False,False
-data/text/help_system.inc,Help_Text_UsingPC,588,Using a PC$,False,False
-data/text/help_system.inc,Help_Text_UsingBillsPC,591, Using “{STR_VAR_1}'S PC”$,False,False
-data/text/help_system.inc,Help_Text_UsingWithdraw,594,  Using “WITHDRAW”$,False,False
-data/text/help_system.inc,Help_Text_UsingDeposit,597,  Using “DEPOSIT”$,False,False
-data/text/help_system.inc,Help_Text_UsingMove,600,  Using “MOVE”$,False,False
-data/text/help_system.inc,Help_Text_MovingItems,603,  Moving items$,False,False
-data/text/help_system.inc,Help_Text_UsingPlayersPC,606, Using “{PLAYER}'s PC”$,False,False
-data/text/help_system.inc,Help_Text_UsingWithdrawItem,609,  Using “WITHDRAW ITEM”$,False,False
-data/text/help_system.inc,Help_Text_UsingDepositItem,612,  Using “DEPOSIT ITEM”$,False,False
-data/text/help_system.inc,Help_Text_UsingMailbox,615,  Using “MAILBOX”$,False,False
-data/text/help_system.inc,Help_Text_UsingProfOaksPC,618, Using “PROF. OAK'S PC”$,False,False
-data/text/help_system.inc,Help_Text_OpeningMenu,621,Opening the MENU$,True,False
-data/text/help_system.inc,Help_Text_UsingFight,624, Using “FIGHT”$,False,False
-data/text/help_system.inc,Help_Text_UsingPokemon2,627, Using “Yo-kai”$,False,False
-data/text/help_system.inc,Help_Text_UsingShift,630,  Using “SHIFT”$,False,False
-data/text/help_system.inc,Help_Text_UsingSummary2,633,  Using “SUMMARY”$,False,False
-data/text/help_system.inc,Help_Text_UsingBag2,636, Using “BAG”$,False,False
-data/text/help_system.inc,Help_Text_ReadingPokedex,639, Reading the “Médallium”$,True,False
-data/text/help_system.inc,Help_Text_UsingHomePC,642,Using the PC at home$,True,False
-data/text/help_system.inc,Help_Text_UsingItemStorage,645,Using the Item Storage System$,True,False
-data/text/help_system.inc,Help_Text_UsingWithdrawItem2,648,  Using “WITHDRAW ITEM”$,False,False
-data/text/help_system.inc,Help_Text_UsingDepositItem2,651,  Using “DEPOSIT ITEM”$,False,False
-data/text/help_system.inc,Help_Text_UsingMailbox2,654,Using the MAILBOX$,True,False
-data/text/help_system.inc,Help_Text_UsingRun,657, Using “RUN”$,False,False
-data/text/help_system.inc,Help_Text_RegisterKeyItem,660,  “REGISTER” a key item$,False,False
-data/text/help_system.inc,Help_Text_UsingBall,663, Using “BALL”$,False,False
-data/text/help_system.inc,Help_Text_UsingBait,666, Using “BAIT”$,False,False
-data/text/help_system.inc,Help_Text_UsingRock,669, Using “ROCK”$,False,False
-data/text/help_system.inc,Help_Text_UsingHallOfFame,672, Using “HALL OF FAME”$,True,False
-data/text/help_system.inc,Help_Text_HowToUsePokedex,675,"{CIRCLE_1} Select “Médallium” on the MENU.\n{CIRCLE_2} Choose Yo-kai using commands such\n   as “Yo-kai LIST,”\n   “HABITATS OF Yo-kai,” and\n   “SEARCH.”\n{CIRCLE_3} Select a Yo-kai to obtain detailed\n   information.$",True,False
-data/text/help_system.inc,Help_Text_HowToUsePokemon,684,"{CIRCLE_1} Select “Yo-kai” on the MENU.\n{CIRCLE_2} Choose a Yo-kai in your party.\n{CIRCLE_3} Select “SUMMARY,” “SWITCH,”\n   or “ITEM.”$",True,False
-data/text/help_system.inc,Help_Text_HowToUseSummary,690,{CIRCLE_1} Select “SUMMARY.”\n{CIRCLE_2} Press left or right on the {PLUS} Control\n   Pad to check the information:\n   “Yo-kai INFO”\n   “Yo-kai SKILLS”\n   “KNOWN MOVES”$,True,False
-data/text/help_system.inc,Help_Text_HowToUseSwitch,698,{CIRCLE_1} Choose the Yo-kai you want to\n   switch around.\n{CIRCLE_2} Select “SWITCH.”\n{CIRCLE_3} Select the Yo-kai to switch with\n   the first one.\nThe Yo-kai at the left of the screen\nwill be the first one out in a battle.$,True,False
-data/text/help_system.inc,Help_Text_HowToUseItem,707,"{CIRCLE_1} Select “ITEM.”\n{CIRCLE_2} Select whether you want to “GIVE”\n   an item to the Yo-kai to hold,\n   or “TAKE” an item it is holding.\nA Yo-kai can hold no more than one\nitem!$",True,False
-data/text/help_system.inc,Help_Text_HowToUseBag,715,{CIRCLE_1} Select “BAG” on the MENU.\n{CIRCLE_2} Press left or right on the {PLUS} Control\n   Pad to check the data headings:\n   “ITEMS”\n   “KEY ITEMS”\n   “Yo-kai Balls”\n   Press up or down to select an item.$,True,False
-data/text/help_system.inc,Help_Text_HowToUseAnItem,724,{CIRCLE_1} Select the “ITEMS” POCKET.\n{CIRCLE_2} Press up or down on the {PLUS} Control\n   Pad to select an item.\n{CIRCLE_3} Select “USE” to use the selected\n   item.\nSome items may not be used depending\non the place and/or situation.$,True,False
-data/text/help_system.inc,Help_Text_HowToUseKeyItem,733,{CIRCLE_1} Select the “KEY ITEMS” POCKET.\n{CIRCLE_2} Press up or down on the {PLUS} Control\n   Pad to select a key item.\n{CIRCLE_3} Select “USE” to use the selected\n   key item.$,True,False
-data/text/help_system.inc,Help_Text_HowToUsePokeBall,740,"{CIRCLE_1} While battling a wild Yo-kai,\n   select the BAG's “Yo-kai Balls”\n   POCKET.\n{CIRCLE_2} Press up or down on the {PLUS} Control\n   Pad to select a Yo-kai Ball.\n{CIRCLE_3} Select “USE” to throw the selected\n   Yo-kai Ball.$",True,False
-data/text/help_system.inc,Help_Text_HowToUsePlayer,749,{CIRCLE_1} Select “{PLAYER}” on the MENU.\n{CIRCLE_2} Your TRAINER CARD is displayed face\n   up with basic information. Press the\n   A Button to turn the CARD over.\n{CIRCLE_3} A variety of data can be found on\n   the reverse side of the CARD.$,True,False
-data/text/help_system.inc,Help_Text_HowToUseSave,757,"{CIRCLE_1} Select “SAVE” on the MENU.\n{CIRCLE_2} Select “YES” and your progress is\n   recorded in the save file.\nOnce the game is saved, you may turn\noff the game. Your game can be resumed\nfrom where you saved.$",True,False
-data/text/help_system.inc,Help_Text_HowToUseOption,765,"{CIRCLE_1} Select “OPTION” on the MENU.\n{CIRCLE_2} Press up or down on the {PLUS} Control\n   Pad to select an optional item, then\n   press left or right to alter the\n   settings.\n{CIRCLE_3} Select “CANCEL” or press the\n   B Button after making changes.$",True,False
-data/text/help_system.inc,Help_Text_HowToUsePotion,774,{CIRCLE_1} Open the MENU.\n{CIRCLE_2} Press up or down on the {PLUS} Control\n   Pad and select “BAG.”\n{CIRCLE_3} Select “POTION” in the “ITEMS”\n   POCKET.\n{CIRCLE_4} Select “USE.”\n{CIRCLE_5} Select the Yo-kai to be healed.$,True,False
-data/text/help_system.inc,Help_Text_HowToUseTownMap,783,"{CIRCLE_1} Open the MENU.\n{CIRCLE_2} Press up or down on the {PLUS} Control\n   Pad and select “BAG.”\n{CIRCLE_3} Press left or right to open the\n   “KEY ITEMS” POCKET, then press\n   up or down to select “TOWN MAP.” \n{CIRCLE_4} Select “USE” to open the TOWN MAP.$",True,False
-data/text/help_system.inc,Help_Text_HowToUseTM,792,{CIRCLE_1} Open the MENU.\n{CIRCLE_2} Open the “KEY ITEMS” POCKET in the\n   “BAG.”\n{CIRCLE_3} “OPEN” the TM CASE.\n{CIRCLE_4} Select and “USE” a TM.\n{CIRCLE_5} Select a Yo-kai that can learn the\n   move in the TM.$,True,False
-data/text/help_system.inc,Help_Text_HowToUseHM,801,"{CIRCLE_1} Open the MENU.\n{CIRCLE_2} Open the “KEY ITEMS” POCKET in the\n   “BAG.”\n{CIRCLE_3} “OPEN” the TM CASE.\n{CIRCLE_4} Select and “USE” an HM.\n{CIRCLE_5} Select a Yo-kai that can learn it.\nHMs are hard to remove, so be careful!$",True,False
-data/text/help_system.inc,Help_Text_HowToUseMoveOutsideOfBattle,810,"{CIRCLE_1} Open the MENU.\n{CIRCLE_2} Select “Yo-kai.”\n{CIRCLE_3} Select a Yo-kai that knows an\n   HM move. The usable HM move(s)\n   will be shown in blue. Select and\n   use the desired move to destroy an\n   obstacle, fly, surf, etc.$",True,False
-data/text/help_system.inc,Help_Text_HowToRideBicycle,819,{CIRCLE_1} Open the MENU. Open the\n   “KEY ITEMS” POCKET in the “BAG”\n   and select the “BICYCLE.”\n{CIRCLE_2} The BICYCLE can be ridden by\n   selecting “USE.” You may also\n   “REGISTER” it for instant use by\n   pressing SELECT.$,True,False
-data/text/help_system.inc,Help_Text_HowToEnterName,828,"{CIRCLE_1} Move the cursor to the letter you\n   want with the {PLUS} Control Pad, then\n   press the A Button to enter it.\n{CIRCLE_2} Press the B Button to back up.\n{CIRCLE_3} Press SELECT to switch between\n   uppercase and lowercase letters.\n{CIRCLE_4} Press the A Button on “OK.”$",True,False
-data/text/help_system.inc,Help_Text_HowToUsePC,837,"{CIRCLE_1} Go to any Centre Yo-kai, go up\n   to the PC, then press the A Button.$",True,False
-data/text/help_system.inc,Help_Text_HowToUseBillsPC,841,"{CIRCLE_1} Select “{STR_VAR_1}'S PC” on the PC.\n{CIRCLE_2} Select from one of the top three\n   MENU items to access the Yo-kai\n   Storage System.\nIf you catch a Yo-kai when you have\nsix in your party, the Yo-kai is sent\nautomatically to a BOX in the System!$",True,False
-data/text/help_system.inc,Help_Text_HowToUseWithdraw,850,{CIRCLE_1} Select a Yo-kai in the open BOX\n   with the {PLUS} Control Pad.\n{CIRCLE_2} Select “WITHDRAW” to remove the\n   Yo-kai from the BOX and add it to\n   your party.\nYou may not withdraw a Yo-kai if you\nalready have six Yo-kai with you!$,True,False
-data/text/help_system.inc,Help_Text_HowToUseDeposit,859,"{CIRCLE_1} Select a Yo-kai in your party with\n   the {PLUS} Control Pad.\n{CIRCLE_2} Select “DEPOSIT.”\n{CIRCLE_3} Select the BOX, then press the\n   A Button to store the Yo-kai.\nIf you have only one Yo-kai with you,\nit may not be stored!$",True,False
-data/text/help_system.inc,Help_Text_HowToUseMove,868,{CIRCLE_1} Select a Yo-kai in the open BOX.\n{CIRCLE_2} Pick up the Yo-kai by selecting\n   “MOVE” and move it anywhere with\n   the {PLUS} Control Pad.\n{CIRCLE_3} Move the Yo-kai to the BOX name\n   and press left or right to move it\n   to another BOX.$,True,False
-data/text/help_system.inc,Help_Text_HowToMoveItems,877,"{CIRCLE_1} Faintly shown Yo-kai can be made\n   to hold an item by selecting it and\n   pressing the A Button.\n{CIRCLE_2} Clearly shown Yo-kai can be made\n   to give the item they are holding to\n   another Yo-kai, or return the item\n   to the BAG with the A Button.$",True,False
-data/text/help_system.inc,Help_Text_HowToUsePlayersPC,886,{CIRCLE_1} Select “{PLAYER}'s PC” on the PC.\n{CIRCLE_2} Select either “ITEM STORAGE” or\n   “MAILBOX.”\nYou may store things in your own PC\nif your BAG is full. You may also\nwithdraw items stored in your PC.$,True,False
-data/text/help_system.inc,Help_Text_HowToUseWithdrawItem,894,{CIRCLE_1} Select “WITHDRAW ITEM.”\n{CIRCLE_2} Select the item to be withdrawn.\n{CIRCLE_3} The item can be withdrawn and\n   placed in the BAG's ITEMS POCKET.\n   It may also be directly given to a\n   Yo-kai to hold.$,True,False
-data/text/help_system.inc,Help_Text_HowToUseDepositItem,902,"{CIRCLE_1} Select “DEPOSIT ITEM.”\n{CIRCLE_2} Select the item in the BAG to be\n   deposited using the {PLUS} Control Pad.\n{CIRCLE_3} If there is more than one \n   item to be deposited, enter the\n   quantity with the {PLUS} Control Pad,\n   then press the A Button.$",True,False
-data/text/help_system.inc,Help_Text_HowToUseMailbox,911,"When MAIL is taken from a Yo-kai,\nit is moved to the MAILBOX. If it has\nno MAIL, the MAILBOX can't be used.\n{CIRCLE_1} Select “{PLAYER}'S PC” on the PC.\n{CIRCLE_2} Select “MAILBOX” to read MAIL or\n   make a Yo-kai hold MAIL.$",True,False
-data/text/help_system.inc,Help_Text_HowToUseProfOaksPC,919,{CIRCLE_1} Select “PROF. OAK'S PC” on the PC.\n{CIRCLE_2} PROF. OAK will evaluate your\n   Médallium.\nHis evaluations should give you hints\nfor catching more Yo-kai!$,True,False
-data/text/help_system.inc,Help_Text_HowToOpenMenu,926,"{CIRCLE_1} Press START.\n{CIRCLE_2} The MENU will open on the right.\n{CIRCLE_3} Depending on the situation, the MENU\n   may feature different headings.\nThe MENU will not open in certain\nsituations such as when talking, doing\nsomething, battling, etc.$",True,False
-data/text/help_system.inc,Help_Text_HowToUseFight,935,"{CIRCLE_1} Select “FIGHT.”\n{CIRCLE_2} Select one of the moves shown,\nand that move will be used!$",True,False
-data/text/help_system.inc,Help_Text_HowToUsePokemon2,940,"{CIRCLE_1} Select “Yo-kai.”\n{CIRCLE_2} Select the Yo-kai in your party\n   that you want to use.\n{CIRCLE_3} If you have two or more Yo-kai\n   with you, they may be switched by\n   selecting “SHIFT.” Check Yo-kai\n   data by selecting “SUMMARY.”$",True,False
-data/text/help_system.inc,Help_Text_HowToUseShift,949,This command switches the Yo-kai in\nbattle with another one in your party.\n{CIRCLE_1} Select the Yo-kai to be sent out.\n{CIRCLE_2} Select “SHIFT.”\n{CIRCLE_3} The selected Yo-kai will switch\n   places with the Yo-kai in battle!$,True,False
-data/text/help_system.inc,Help_Text_HowToUseSummary2,957,{CIRCLE_1} Select “SUMMARY.”\n{CIRCLE_2} Press left or right on the {PLUS} Control\n   Pad to check the information:\n   “Yo-kai INFO”\n   “Yo-kai SKILLS”\n   “KNOWN MOVES”$,True,False
-data/text/help_system.inc,Help_Text_HowToUseBag2,965,{CIRCLE_1} Select “BAG.”\n{CIRCLE_2} Press left or right on the {PLUS} Control\n   Pad to check the data headings:\n   “ITEMS”\n   “KEY ITEMS”\n   “Yo-kai Balls”\n   Press up or down to select an item.$,True,False
-data/text/help_system.inc,Help_Text_HowToReadPokedex,974,{CIRCLE_1} Yo-kai that you have caught are\n   marked by a Yo-kai Ball on\n   the Médallium list.\n{CIRCLE_2} A caught Yo-kai will provide a\n   large amount of data.\n,True,False
-data/text/help_system.inc,Help_Text_HowToUseHomePC,988,"{CIRCLE_1} Go up to the PC at home, then press\n   the A Button.\n{CIRCLE_2} The PC will turn on.\n{CIRCLE_3} Select either “ITEM STORAGE” or\n   “MAILBOX.”$",True,False
-data/text/help_system.inc,Help_Text_HowToUseItemStorage,995,{CIRCLE_1} Select “WITHDRAW ITEM” to withdraw\n   an item stored on your PC.\n{CIRCLE_2} Select “DEPOSIT ITEM” to put \n   an item from your BAG into your PC.$,True,False
-data/text/help_system.inc,Help_Text_HowToUseWithdrawItem2,1001,{CIRCLE_1} Select “WITHDRAW ITEM.”\n{CIRCLE_2} Select the item to be withdrawn.\n{CIRCLE_3} The item can be withdrawn and\n   placed in the BAG's ITEMS POCKET.\n   It may also be directly given to a\n   Yo-kai to hold.$,True,False
-data/text/help_system.inc,Help_Text_HowToUseDepositItem2,1009,"{CIRCLE_1} Select “DEPOSIT ITEM.”\n{CIRCLE_2} Select the item in the BAG to be\n   deposited using the {PLUS} Control Pad.\n{CIRCLE_3} If there is nothing in the BAG, this\n   command can't be used!$",True,False
-data/text/help_system.inc,Help_Text_HowToUseMailbox2,1016,"When MAIL is taken from a Yo-kai,\nit is moved to the MAILBOX. If it has\nno MAIL, the MAILBOX can't be used.\n{CIRCLE_1} Select MAIL by name to read it or\n   make a Yo-kai hold it.$",True,False
-data/text/help_system.inc,Help_Text_HowToUseRun,1023,You may not “RUN” from a TRAINER\nbattle!\n{CIRCLE_1} You may “RUN” from a wild Yo-kai.\n{CIRCLE_2} Your chance of escape is improved\n   if your Yo-kai in battle is fast.$,True,False
-data/text/help_system.inc,Help_Text_HowToRegisterKeyItem,1030,"You may “REGISTER” a key item for\ninstant use by pressing SELECT!\n{CIRCLE_1} Open the “KEY ITEMS” POCKET.\n{CIRCLE_2} Select the key item, then select\n   “REGISTER.”$",True,False
-data/text/help_system.inc,Help_Text_HowToUseBall,1037,"{CIRCLE_1} Select to throw the special POKé\n   BALL used only in the SAFARI ZONE.\nWhen wild Yo-kai appear, throw lots\nof SAFARI BALLS to catch them!$",True,False
-data/text/help_system.inc,Help_Text_HowToUseBait,1043,"{CIRCLE_1} Select to throw the special food\n   used only in the SAFARI ZONE.\nIt is Yo-kai food rolled up into\na ball for easy eating. When BAIT is\nthrown, the wild Yo-kai may get\nattracted by it, and may not flee!$",True,False
-data/text/help_system.inc,Help_Text_HowToUseRock,1051,"{CIRCLE_1} Select to throw a rock lying on\n   the ground in the SAFARI ZONE.\nThrowing a rock at a Yo-kai may \nmake it run away, but it becomes easier\nto catch!$",True,False
-data/text/help_system.inc,Help_Text_HowToUseHallOfFame,1058,{CIRCLE_1} Select “HALL OF FAME” on the PC.\n{CIRCLE_2} The Yo-kai that have entered the\n   HALL OF FAME can be examined.$,True,False
-data/text/help_system.inc,Help_Text_HP,1063,HP$,False,False
-data/text/help_system.inc,Help_Text_EXP,1066,EXP. {LEFT_PAREN}EXP. Points{RIGHT_PAREN}$,False,False
-data/text/help_system.inc,Help_Text_Moves,1069,MOVES$,True,False
-data/text/help_system.inc,Help_Text_Attack,1072,ATTACK$,False,False
-data/text/help_system.inc,Help_Text_Defense,1075,DEFENSE$,False,False
-data/text/help_system.inc,Help_Text_SpAtk,1078,SP. ATK$,False,False
-data/text/help_system.inc,Help_Text_SpDef,1081,SP. DEF$,False,False
-data/text/help_system.inc,Help_Text_Speed,1084,SPEED$,False,False
-data/text/help_system.inc,Help_Text_Level,1087,Lv. {LEFT_PAREN}Level{RIGHT_PAREN}$,False,False
-data/text/help_system.inc,Help_Text_Type,1090,TYPE$,False,False
-data/text/help_system.inc,Help_Text_OT,1093,OT$,False,False
-data/text/help_system.inc,Help_Text_Item,1096,ITEM$,False,False
-data/text/help_system.inc,Help_Text_Ability,1099,ABILITY$,False,False
-data/text/help_system.inc,Help_Text_Money,1102,MONEY$,False,False
-data/text/help_system.inc,Help_Text_MoveType,1105,MOVE TYPE$,False,False
-data/text/help_system.inc,Help_Text_Nature,1108,NATURE$,False,False
-data/text/help_system.inc,Help_Text_IDNo,1111,ID No.$,False,False
-data/text/help_system.inc,Help_Text_PP,1114,PP$,False,False
-data/text/help_system.inc,Help_Text_Power,1117,POWER$,False,False
-data/text/help_system.inc,Help_Text_Accuracy,1120,ACCURACY$,False,False
-data/text/help_system.inc,Help_Text_FNT,1123,FNT$,False,False
-data/text/help_system.inc,Help_Text_Items,1126,ITEMS$,False,False
-data/text/help_system.inc,Help_Text_KeyItems,1129,KEY ITEMS$,False,False
-data/text/help_system.inc,Help_Text_PokeBalls,1132,Yo-kai Balls$,False,False
-data/text/help_system.inc,Help_Text_Pokedex,1135,Médallium$,False,False
-data/text/help_system.inc,Help_Text_PlayTime,1138,PLAY TIME$,False,False
-data/text/help_system.inc,Help_Text_Badges,1141,BADGES$,False,False
-data/text/help_system.inc,Help_Text_TextSpeed,1144,TEXT SPEED$,False,False
-data/text/help_system.inc,Help_Text_BattleScene,1147,BATTLE SCENE$,True,False
-data/text/help_system.inc,Help_Text_BattleStyle,1150,BATTLE STYLE$,True,False
-data/text/help_system.inc,Help_Text_Sound,1153,SOUND$,False,False
-data/text/help_system.inc,Help_Text_ButtonMode,1156,BUTTON MODE$,False,False
-data/text/help_system.inc,Help_Text_Frame,1159,FRAME$,False,False
-data/text/help_system.inc,Help_Text_Cancel2,1162,CANCEL$,False,False
-data/text/help_system.inc,Help_Text_TM,1165,TM$,False,False
-data/text/help_system.inc,Help_Text_HM,1168,HM$,False,False
-data/text/help_system.inc,Help_Text_HMMove,1171,HM MOVE$,False,False
-data/text/help_system.inc,Help_Text_Evolution,1174,EVOLUTION$,False,False
-data/text/help_system.inc,Help_Text_StatusProblem,1177,STATUS PROBLEM$,False,False
-data/text/help_system.inc,Help_Text_Pokemon,1180,Yo-kai$,False,False
-data/text/help_system.inc,Help_Text_IDNo2,1183,ID No.$,False,False
-data/text/help_system.inc,Help_Text_Money2,1186,MONEY$,False,False
-data/text/help_system.inc,Help_Text_Badges2,1189,BADGES$,False,False
-data/text/help_system.inc,Help_Text_DefineHP,1192,"HP indicates a Yo-kai's vitality.\nIf a Yo-kai's HP drops to zero, it\lfaints and is unable to battle.\lSo, the key in battle is to try to\lreduce the foe's HP to zero.\lIf your Yo-kai are hurt, restore their\lHP at a Centre Yo-kai or use items.$",True,False
-data/text/help_system.inc,Help_Text_DefineEXP,1201,"EXP. Points stands for “Experience\nPoints.” Yo-kai gain EXP. Points by\lparticipating in winning battles.\lWhen a Yo-kai accumulates sufficient\lEXP. Points, it levels up. The EXP. Bar\lindicates accumulated EXP. Points.\lIt returns to zero upon leveling up.$",True,False
-data/text/help_system.inc,Help_Text_DefineMoves,1210,Yo-kai may learn up to four different\nmoves. There are many kinds of moves\lincluding attacks and those with\lspecial effects. The kinds of moves\lthat can be learned vary for each\lYo-kai. Some moves can be learned\lfrom items.$,True,False
-data/text/help_system.inc,Help_Text_DefineAttack,1219,"ATTACK indicates the power of an\noffensive move. The higher this stat,\lthe more powerful the move.\lIt is applied for the following move\ltypes: NORMAL, POISON, GROUND,\lFLYING, BUG, FIGHTING, ROCK, GHOST,\land STEEL.$",True,False
-data/text/help_system.inc,Help_Text_DefineDefense,1228,"DEFENSE indicates the resistance a\nYo-kai has against physical attacks.\lThe higher this stat, the less damage\lsustained from a foe's physical hit.$",True,False
-data/text/help_system.inc,Help_Text_DefineSpAtk,1234,"SP. ATK (Special Attack) indicates the\npower of a special attack move.\lThe higher this stat, the more powerful\lthe special attack move.\lIt is applied for the following move\ltypes: FIRE, WATER, ELECTRIC, GRASS,\lICE, PSYCHIC, DRAGON, and DARK.$",True,False
-data/text/help_system.inc,Help_Text_DefineSpDef,1243,"SP. DEF (Special Defense) indicates\nthe resistance a Yo-kai has against\lspecial attacks.\lThe higher this stat, the less damage\lsustained from a foe's special attack.$",True,False
-data/text/help_system.inc,Help_Text_DefineSpeed,1250,"SPEED indicates the agility of a\nYo-kai. If this stat exceeds the foe's\lin battle, the Yo-kai can make a move\lbefore its slower opponent.$",True,False
-data/text/help_system.inc,Help_Text_DefineLevel,1256,"Lv. (Level) indicates the growth and\nstrength of a Yo-kai.\lIn general, when a Yo-kai levels up,\lits stats such as HP, ATTACK, and\lDEFENSE rise, making it stronger.\lYo-kai may learn a new move upon\lleveling up.$",True,False
-data/text/help_system.inc,Help_Text_DefineType,1265,"Yo-kai and moves are classified by\ntype. Every type has advantageous and\ldisadvantageous matchups against\lother types. For example, like a rock-\lpaper-scissors game, the WATER type is\lstrong against the FIRE type and weak\lagainst the GRASS type.$",True,False
-data/text/help_system.inc,Help_Text_DefineOT,1274,"OT stands for “Original TRAINER,”\nthe first TRAINER to have caught the\lselected Yo-kai.\lEven if the Yo-kai is traded, the OT\lname will remain unchanged.$",True,False
-data/text/help_system.inc,Help_Text_DefineItem,1281,"All Yo-kai can be made to hold one\nitem each. Some items will be used by\lthe Yo-kai automatically in certain\lsituations. To make a Yo-kai hold an\litem, select the item from the BAG and\l“GIVE” it to the Yo-kai.$",True,False
-data/text/help_system.inc,Help_Text_DefineAbility,1289,"All Yo-kai have a special ABILITY.\nThere are many different kinds of these\labilities, some used in battle, some\lelsewhere. The abilities differ from\lspecies to species. Some species may\lhave more than one kind of ability.$",True,False
-data/text/help_system.inc,Help_Text_DefineMoney,1297,"Whenever you win a battle against a\nTRAINER, you are given prize money.\lSave up your prize money so you can\lenjoy shopping at Yo-kai MARTS!$",True,False
-data/text/help_system.inc,Help_Text_DefineMoveType,1303,"Moves are also classified by types.\nIf a Yo-kai of a certain type uses\la move of the same type, the move's\lpower is boosted. If the move's type\lhas a matchup advantage against the\ltarget, its effectiveness is also\lboosted.$",True,False
-data/text/help_system.inc,Help_Text_DefineNature,1312,"All Yo-kai have a personality,\nor “NATURE.” The Yo-kai's\lnature appears to affect how the\lYo-kai will grow upon leveling up.$",True,False
-data/text/help_system.inc,Help_Text_DefineIDNo,1318,"The ID No. is a special number assigned\nspecifically to you as a TRAINER.\lTogether with the OT name, the ID No.\lis used to precisely identify the\lOriginal TRAINER.\lThe ID No. does not change even if the\lYo-kai is traded.$",True,False
-data/text/help_system.inc,Help_Text_DefinePP,1327,"PP stands for “Power Points.”\nIt indicates the number of times a\lcertain move can be used in battle.\lLike HP, PP can be restored by visiting\la Centre Yo-kai or using certain\litems.$",True,False
-data/text/help_system.inc,Help_Text_DefinePower,1335,"POWER indicates the strength of an\nattack. The higher this number, the\lgreater the damage that can be\linflicted on the foe!$",True,False
-data/text/help_system.inc,Help_Text_DefineAccuracy,1341,"ACCURACY indicates the probability of\nthe move hitting the foe.\lThe higher this number, the more likely\lthe move will strike the target.$",True,False
-data/text/help_system.inc,Help_Text_DefineFNT,1347,"FNT stands for “fainted.”\nA Yo-kai faints if its HP is reduced\lto zero. It becomes incapable of taking\lpart in battle.\lRestore a fainted Yo-kai at a Yo-kai\lCENTER, or use an item.$",True,False
-data/text/help_system.inc,Help_Text_DefineItems,1355,"Ordinary items bought at any Yo-kai\nMART are placed in the ITEMS POCKET.\lItems may be used, given to a Yo-kai\lto hold, or tossed out as garbage.$",True,False
-data/text/help_system.inc,Help_Text_DefineKeyItems,1361,"Important items that you find or \nreceive from people are placed in the\lKEY ITEMS POCKET.\lKey items may be used, or registered\lfor use instantly with SELECT. Once\lregistered, the item can be used\lwithout opening the MENU and BAG.$",True,False
-data/text/help_system.inc,Help_Text_DefinePokeBalls,1370,"Yo-kai Balls, which are used for\ncatching wild Yo-kai, are placed in\lthe Yo-kai Balls POCKET.\lYo-kai Balls may be bought at Yo-kai\lMARTS. They may be used, given to a\lYo-kai to hold, or tossed out as\lgarbage.$",True,False
-data/text/help_system.inc,Help_Text_DefinePokedex,1379,This indicates the number of species of\nYo-kai you have caught and/or\levolved to fill the Médallium.\lTry hard to catch all sorts of\lYo-kai!$,True,False
-data/text/help_system.inc,Help_Text_DefinePlayTime,1386,This is the total amount of time that\nyou have played this game.$,True,False
-data/text/help_system.inc,Help_Text_DefineBadges,1390,The Ligue Yo-kai BADGES that you\nhave won are registered and shown.\lEarn BADGES by defeating GYM LEADERS\lin various cities and towns.$,True,False
-data/text/help_system.inc,Help_Text_DefineTextSpeed,1396,"You can adjust how quickly the text is\ndisplayed. Choose one: SLOW, MID,\lor FAST.$",True,False
-data/text/help_system.inc,Help_Text_DefineBattleScene,1401,You can choose to turn the battle\nanimation ON or OFF.$,True,False
-data/text/help_system.inc,Help_Text_DefineBattleStyle,1405,You can choose whether or not a\nTRAINER can switch a Yo-kai after\lit has made its foe faint.\lSet to “SHIFT” if you would like the\lchance to switch a Yo-kai after it\lhas made its foe faint.$,True,False
-data/text/help_system.inc,Help_Text_DefineSound,1413,You can choose between MONO and\nSTEREO sound output.$,True,False
-data/text/help_system.inc,Help_Text_DefineButtonMode,1417,Set to “HELP” to display help messages\nby pressing the L or R Button.\lSet to “LR” to enable the switching\lMédallium pages and BAG POCKETS\lusing the L and R Buttons.\lSet to “L=A” to make the L Button\lwork the same as the A Button.$,True,False
-data/text/help_system.inc,Help_Text_DefineFrame,1426,You may choose the design of the frame\naround certain menus. Try them out and\lsee what you like.$,True,False
-data/text/help_system.inc,Help_Text_DefineCancel2,1431,"The settings will be changed to the\nselections shown in red, and you will\lreturn to the MENU.$",True,False
-data/text/help_system.inc,Help_Text_DefineTM,1436,A TM (Technical Machine) is a device\nused to teach a move to a Yo-kai.\lThere are many different kinds.\lMoves can be taught only to those\lYo-kai capable of using them.\lA TM breaks after a single use.$,True,False
-data/text/help_system.inc,Help_Text_DefineHM,1444,"An HM (Hidden Machine) is a device used\nto teach a HIDDEN move to a Yo-kai.\lA HIDDEN move can be taught only to\lthose Yo-kai capable of using it.\lUnlike a TM, an HM can be used over\land over. A HIDDEN move can be tough\lfor a Yo-kai to forget.$",True,False
-data/text/help_system.inc,Help_Text_DefineHMMove,1453,"HIDDEN moves are those that are\nespecially important for your\ladventure. To use such a move outside\lof battle, open the “Yo-kai” MENU\land make the Yo-kai that knows the\lmove use it. A fainted Yo-kai may use\la HIDDEN move outside of battle.$",True,False
-data/text/help_system.inc,Help_Text_DefineEvolution,1462,"Among Yo-kai, there are some that\nundergo major changes (evolution) upon\lgrowing to certain levels. Evolution\lcauses a Yo-kai to alter form, change\lits name, and perhaps change the moves\lit may learn. Some Yo-kai evolve\ldue to reasons other than leveling up.$",True,False
-data/text/help_system.inc,Help_Text_DefineStatusProblem,1471,"Status problems include:\nSleep: Can't use moves.\lPoison: Causes steady HP loss.\lParalysis: May prevent moves.\lBurn: HP loss and lowers ATTACK.\lFreeze: Can't use moves.\lThese can be healed with items, etc.$",True,False
-data/text/help_system.inc,Help_Text_DefinePokemon,1480,"Yo-kai is a name given to describe\nwondrous creatures that inhabit all\lcorners of this world.\lPeople raise Yo-kai to be their pets,\luse them for battling, and so on.$",True,False
-data/text/help_system.inc,Help_Text_DefineIDNo2,1487,"The ID No. is a special number assigned\nspecifically to you as a TRAINER.\lTogether with the OT name, the ID No.\lis used to precisely identify the\lOriginal TRAINER.\lThe ID No. does not change even if the\lYo-kai is traded.$",True,False
-data/text/help_system.inc,Help_Text_DefineMoney2,1496,"Whenever you win a battle against a\nTRAINER, you are given prize money.\lSave up your prize money so you can\lenjoy shopping at Yo-kai MARTS!$",True,False
-data/text/help_system.inc,Help_Text_DefineBadges2,1502,This indicates the number of Yo-kai\nLEAGUE BADGES that you have won.\lEarn BADGES by defeating GYM LEADERS\lin various cities and towns.$,True,False
-data/text/help_system.inc,Help_Text_TheHelpSystem,1508,The HELP System$,True,False
-data/text/help_system.inc,Help_Text_TheGame,1511,The game$,True,False
-data/text/help_system.inc,Help_Text_WirelessAdapter,1514,Wireless Adapter$,False,False
-data/text/help_system.inc,Help_Text_GameFundamentals1,1517,Game fundamentals 1$,False,False
-data/text/help_system.inc,Help_Text_GameFundamentals2,1520,Game fundamentals 2$,False,False
-data/text/help_system.inc,Help_Text_GameFundamentals3,1523,Game fundamentals 3$,False,False
-data/text/help_system.inc,Help_Text_WhatArePokemon,1526,What are Yo-kai?$,True,False
-data/text/help_system.inc,Help_Text_DescTheHelpSystem,1529,"The help messages change depending on\nhow much you have progressed in the\lgame. They are designed to support you\lwhen you need them. If there is\lanything that you don't understand,\lplease look up the HELP System!$",True,False
-data/text/help_system.inc,Help_Text_DescTheGame,1537,"You become the main character to\nexplore the world of Yo-kai!\lBy talking to people and solving\lmysteries, new paths will open to you.\lStrive for the goal together with your\lwonderful Yo-kai!$",True,False
-data/text/help_system.inc,Help_Text_DescWirelessAdapter,1545,"This game communicates over a wireless\nlink using the Wireless Adapter.\pGo wireless anywhere, anytime, and\nwith anybody!\pTry playing with the Wireless Adapter\nalways attached!$",True,False
-data/text/help_system.inc,Help_Text_DescGameFundamentals1,1553,"Visit every city and town, travel every\nroad, explore every cave, and face\levery challenge as you strive to\lbecome the greatest TRAINER of\lYo-kai!$",True,False
-data/text/help_system.inc,Help_Text_DescGameFundamentals2,1560,"On your adventure, you will be faced\nwith many obstacles. Every obstacle\lcan be overcome by doing something\lor by solving mysteries. Some obstacles\lare affected by something that happens\lfar away.$",True,False
-data/text/help_system.inc,Help_Text_DescGameFundamentals3,1568,Some of the obstacles in your way can\nbe removed once your Yo-kai learn\lspecific moves.$,True,False
-data/text/help_system.inc,Help_Text_DescWhatArePokemon,1573,"Yo-kai are wondrous creatures that\nare shrouded in mystery. You may meet\lthem all over the world…in tall\lgrass, caves, the sea, and more.\lThey appear to grow obedient to the\lTRAINERS that caught them.$",True,False
-data/text/help_system.inc,Help_Text_UsingTypeMatchupList,1581,Using the Type Matchup List$,True,False
-data/text/help_system.inc,Help_Text_OwnMoveDark,1584,Own move type: DARK$,False,False
-data/text/help_system.inc,Help_Text_OwnPokemonDark,1587,Own Yo-kai type: DARK$,False,False
-data/text/help_system.inc,Help_Text_OwnMoveRock,1590,Own move type: ROCK$,False,False
-data/text/help_system.inc,Help_Text_OwnPokemonRock,1593,Own Yo-kai type: ROCK$,False,False
-data/text/help_system.inc,Help_Text_OwnMovePsychic,1596,Own move type: PSYCHIC$,False,False
-data/text/help_system.inc,Help_Text_OwnPokemonPsychic,1599,Own Yo-kai type: PSYCHIC$,False,False
-data/text/help_system.inc,Help_Text_OwnMoveFighting,1602,Own move type: FIGHTING$,False,False
-data/text/help_system.inc,Help_Text_OwnPokemonFighting,1605,Own Yo-kai type: FIGHTING$,False,False
-data/text/help_system.inc,Help_Text_OwnMoveGrass,1608,Own move type: GRASS$,False,False
-data/text/help_system.inc,Help_Text_OwnPokemonGrass,1611,Own Yo-kai type: GRASS$,False,False
-data/text/help_system.inc,Help_Text_OwnMoveGhost,1614,Own move type: GHOST$,False,False
-data/text/help_system.inc,Help_Text_OwnPokemonGhost,1617,Own Yo-kai type: GHOST$,False,False
-data/text/help_system.inc,Help_Text_OwnMoveIce,1620,Own move type: ICE$,False,False
-data/text/help_system.inc,Help_Text_OwnPokemonIce,1623,Own Yo-kai type: ICE$,False,False
-data/text/help_system.inc,Help_Text_OwnMoveGround,1626,Own move type: GROUND$,False,False
-data/text/help_system.inc,Help_Text_OwnPokemonGround,1629,Own Yo-kai type: GROUND$,False,False
-data/text/help_system.inc,Help_Text_OwnMoveElectric,1632,Own move type: ELECTRIC$,False,False
-data/text/help_system.inc,Help_Text_OwnPokemonElectric,1635,Own Yo-kai type: ELECTRIC$,False,False
-data/text/help_system.inc,Help_Text_OwnMovePoison,1638,Own move type: POISON$,False,False
-data/text/help_system.inc,Help_Text_OwnPokemonPoison,1641,Own Yo-kai type: POISON$,False,False
-data/text/help_system.inc,Help_Text_OwnMoveDragon,1644,Own move type: DRAGON$,False,False
-data/text/help_system.inc,Help_Text_OwnPokemonDragon,1647,Own Yo-kai type: DRAGON$,False,False
-data/text/help_system.inc,Help_Text_OwnMoveNormal,1650,Own move type: NORMAL$,False,False
-data/text/help_system.inc,Help_Text_OwnPokemonNormal,1653,Own Yo-kai type: NORMAL$,False,False
-data/text/help_system.inc,Help_Text_OwnMoveSteel,1656,Own move type: STEEL$,False,False
-data/text/help_system.inc,Help_Text_OwnPokemonSteel,1659,Own Yo-kai type: STEEL$,False,False
-data/text/help_system.inc,Help_Text_OwnMoveFlying,1662,Own move type: FLYING$,False,False
-data/text/help_system.inc,Help_Text_OwnPokemonFlying,1665,Own Yo-kai type: FLYING$,False,False
-data/text/help_system.inc,Help_Text_OwnMoveFire,1668,Own move type: FIRE$,False,False
-data/text/help_system.inc,Help_Text_OwnPokemonFire,1671,Own Yo-kai type: FIRE$,False,False
-data/text/help_system.inc,Help_Text_OwnMoveWater,1674,Own move type: WATER$,False,False
-data/text/help_system.inc,Help_Text_OwnPokemonWater,1677,Own Yo-kai type: WATER$,False,False
-data/text/help_system.inc,Help_Text_OwnMoveBug,1680,Own move type: BUG$,False,False
-data/text/help_system.inc,Help_Text_OwnPokemonBug,1683,Own Yo-kai type: BUG$,False,False
-data/text/help_system.inc,Help_Text_HowToUseTypeMatchupList,1686,"Depending on the matchup of the\nmove type and the target Yo-kai's\ltype, the move's effectiveness varies:\l{CIRCLE_DOT}: Super effective!\l{TRIANGLE}: Not very effective\l{BIG_MULT_X}: Not effective at all\l(No changes for other matchups.)$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveDark,1695,"Effect on the opposing Yo-kai:\p   {CIRCLE_DOT}: PSYCHIC, GHOST\p   {TRIANGLE}: FIGHTING, DARK, STEEL$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonDark,1700,"Effect of foe's move on own Yo-kai:\p   {CIRCLE_DOT}: FIGHTING, BUG\p   {TRIANGLE}: GHOST, DARK\p   {BIG_MULT_X}: PSYCHIC$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveRock,1706,"Effect on the opposing Yo-kai:\p   {CIRCLE_DOT}: FIRE, ICE, FLYING, BUG\p   {TRIANGLE}: FIGHTING, GROUND, STEEL$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonRock,1711,"Effect of foe's move on own Yo-kai:\p   {CIRCLE_DOT}: WATER, GRASS, FIGHTING,\n       GROUND, STEEL\p   {TRIANGLE}: NORMAL, FIRE, POISON, FLYING$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnMovePsychic,1717,"Effect on the opposing Yo-kai:\p   {CIRCLE_DOT}: FIGHTING, POISON\p   {TRIANGLE}: PSYCHIC, STEEL\p   {BIG_MULT_X}: DARK$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonPsychic,1723,"Effect of foe's move on own Yo-kai:\p   {CIRCLE_DOT}: BUG, GHOST, DARK\p   {TRIANGLE}: FIGHTING, PSYCHIC$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveFighting,1728,"Effect on the opposing Yo-kai:\p   {CIRCLE_DOT}: NORMAL, ICE, ROCK, DARK, STEEL\p   {TRIANGLE}: POISON, FLYING, PSYCHIC, BUG\p   {BIG_MULT_X}: GHOST$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonFighting,1734,"Effect of foe's move on own Yo-kai:\p   {CIRCLE_DOT}: FLYING, PSYCHIC\p   {TRIANGLE}: BUG, ROCK, DARK$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveGrass,1739,"Effect on the opposing Yo-kai:\p   {CIRCLE_DOT}: WATER, GROUND, ROCK\p   {TRIANGLE}: FIRE, GRASS, POISON, FLYING,\n       BUG, DRAGON, STEEL$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonGrass,1745,"Effect of foe's move on own Yo-kai:\p   {CIRCLE_DOT}: FIRE, ICE, POISON, FLYING, BUG\p   {TRIANGLE}: WATER, ELECTRIC, GRASS, GROUND$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveGhost,1750,"Effect on the opposing Yo-kai:\p   {CIRCLE_DOT}: PSYCHIC, GHOST\p   {TRIANGLE}: DARK, STEEL\p   {BIG_MULT_X}: NORMAL$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonGhost,1756,"Effect of foe's move on own Yo-kai:\p   {CIRCLE_DOT}: GHOST, DARK\p   {TRIANGLE}: POISON, BUG\p   {BIG_MULT_X}: NORMAL, FIGHTING$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveIce,1762,"Effect on the opposing Yo-kai:\p   {CIRCLE_DOT}: GRASS, GROUND, FLYING, DRAGON\p   {TRIANGLE}: FIRE, WATER, ICE, STEEL$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonIce,1767,"Effect of foe's move on own Yo-kai:\p   {CIRCLE_DOT}: FIRE, FIGHTING, ROCK, STEEL\p   {TRIANGLE}: ICE$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveGround,1772,"Effect on the opposing Yo-kai:\p   {CIRCLE_DOT}: FIRE, ELECTRIC, POISON, ROCK,\n       STEEL\p   {TRIANGLE}: GRASS, BUG\n   {BIG_MULT_X}: FLYING$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonGround,1779,"Effect of foe's move on own Yo-kai:\p   {CIRCLE_DOT}: WATER, GRASS, ICE\p   {TRIANGLE}: POISON, ROCK\p   {BIG_MULT_X}: ELECTRIC$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveElectric,1785,"Effect on the opposing Yo-kai:\p   {CIRCLE_DOT}: WATER, FLYING\p   {TRIANGLE}: ELECTRIC, GRASS, DRAGON\p   {BIG_MULT_X}: GROUND$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonElectric,1791,"Effect of foe's move on own Yo-kai:\p   {CIRCLE_DOT}: GROUND\p   {TRIANGLE}: ELECTRIC, FLYING, STEEL$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnMovePoison,1796,"Effect on the opposing Yo-kai:\p   {CIRCLE_DOT}: GRASS\p   {TRIANGLE}: POISON, GROUND, ROCK, GHOST\p   {BIG_MULT_X}: STEEL$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonPoison,1802,"Effect of foe's move on own Yo-kai:\p   {CIRCLE_DOT}: GROUND, PSYCHIC\p   {TRIANGLE}: GRASS, FIGHTING, POISON, BUG$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveDragon,1807,Effect on the opposing Yo-kai:\p   {CIRCLE_DOT}: DRAGON\p   {TRIANGLE}: STEEL$,True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonDragon,1812,"Effect of foe's move on own Yo-kai:\p   {CIRCLE_DOT}: ICE, DRAGON\p   {TRIANGLE}: FIRE, WATER, ELECTRIC, GRASS$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveNormal,1817,"Effect on the opposing Yo-kai:\p   {TRIANGLE}: ROCK, STEEL\p   {BIG_MULT_X}: GHOST$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonNormal,1822,Effect of foe's move on own Yo-kai:\p   {CIRCLE_DOT}: FIGHTING\p   {BIG_MULT_X}: GHOST$,True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveSteel,1827,"Effect on the opposing Yo-kai:\p   {CIRCLE_DOT}: ICE, ROCK\p   {TRIANGLE}: FIRE, WATER, ELECTRIC, STEEL$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonSteel,1832,"Effect of foe's move on own Yo-kai:\p   {CIRCLE_DOT}: FIRE, FIGHTING, GROUND\n   {TRIANGLE}: NORMAL, GRASS, ICE, FLYING,\l       PSYCHIC, BUG, ROCK, GHOST,\l       DRAGON, DARK, STEEL\l   {BIG_MULT_X}: POISON$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveFlying,1840,"Effect on the opposing Yo-kai:\p   {CIRCLE_DOT}: GRASS, FIGHTING, BUG\p   {TRIANGLE}: ELECTRIC, ROCK, STEEL$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonFlying,1845,"Effect of foe's move on own Yo-kai:\p   {CIRCLE_DOT}: ELECTRIC, ICE, ROCK\p   {TRIANGLE}: GRASS, FIGHTING, BUG\p   {BIG_MULT_X}: GROUND$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveFire,1851,"Effect on the opposing Yo-kai:\p   {CIRCLE_DOT}: GRASS, ICE, BUG, STEEL\p   {TRIANGLE}: FIRE, WATER, ROCK, DRAGON$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonFire,1856,"Effect of foe's move on own Yo-kai:\p   {CIRCLE_DOT}: WATER, GROUND, ROCK\p   {TRIANGLE}: FIRE, GRASS, ICE, BUG, STEEL$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveWater,1861,"Effect on the opposing Yo-kai:\p   {CIRCLE_DOT}: FIRE, GROUND, ROCK\p   {TRIANGLE}: WATER, GRASS, DRAGON$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonWater,1866,"Effect of foe's move on own Yo-kai:\p   {CIRCLE_DOT}: ELECTRIC, GRASS\p   {TRIANGLE}: FIRE, WATER, ICE, STEEL$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveBug,1871,"Effect on the opposing Yo-kai:\p   {CIRCLE_DOT}: GRASS, PSYCHIC, DARK\p   {TRIANGLE}: FIRE, FIGHTING, POISON,\n       FLYING, GHOST, STEEL$",True,False
-data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonBug,1877,"Effect of foe's move on own Yo-kai:\p   {CIRCLE_DOT}: FIRE, FLYING, ROCK\p   {TRIANGLE}: GRASS, FIGHTING, GROUND$",True,False
+data/text/help_system.inc,Help_Text_WhatShouldIDo,1,Que faire dans cette situation?$,False,False
+data/text/help_system.inc,Help_Text_HowDoIDoThis,4,Comment faire?$,False,False
+data/text/help_system.inc,Help_Text_WhatDoesThisTermMean,7,Que signifie ce terme?$,False,False
+data/text/help_system.inc,Help_Text_AboutThisGame,10,À propos de ce jeu$,False,False
+data/text/help_system.inc,Help_Text_TypeMatchupList,13,Affinités des types$,False,False
+data/text/help_system.inc,Help_Text_Exit,16,QUITTER$,False,False
+data/text/help_system.inc,Help_Text_Cancel,19,RETOUR$,False,False
+data/text/help_system.inc,Help_Text_TryDoingItOnYourOwn,22,Essaie de trouver par toi-même!$,False,False
+data/text/help_system.inc,Help_Text_DescWhatShouldIDo,25,Des indices pour surmonter les\nsituations difficiles.$,False,False
+data/text/help_system.inc,Help_Text_DescHowDoIDoThis,28,Des explications pour utiliser les\ndifférentes commandes.$,False,False
+data/text/help_system.inc,Help_Text_DescWhatDoesThisTermMean,31,Des définitions des termes rencontrés\ndans le jeu.$,False,False
+data/text/help_system.inc,Help_Text_DescAboutThisGame,34,Des informations détaillées sur ce\njeu.$,False,False
+data/text/help_system.inc,Help_Text_DescTypeMatchupList,37,Les affinités entre les types des\nYo-kai et des capacités.$,False,False
+data/text/help_system.inc,Help_Text_DescExit,40,Quitter le système d'aide.$,False,False
+data/text/help_system.inc,Help_Text_Greetings,43,Bonjour! Voici le système d'aide.\nAppuie sur L ou R si tu as besoin\nd'un conseil. Les messages changent\nselon ta progression et la situation.\nConsulte-les régulièrement!$,False,False
+data/text/help_system.inc,Help_Text_PlayingForFirstTime,46,C'est ma première partie!$,False,False
+data/text/help_system.inc,Help_Text_WhatShouldIBeDoing,49,Que dois-je faire?$,False,False
+data/text/help_system.inc,Help_Text_CantGetOutOfRoom,52,Je ne trouve pas la sortie!$,False,False
+data/text/help_system.inc,Help_Text_CantFindPersonIWant,55,Je ne trouve pas une personne.$,False,False
+data/text/help_system.inc,Help_Text_TalkedToEveryoneNowWhat,58,J'ai parlé à tout le monde. Et après?$,False,False
+data/text/help_system.inc,Help_Text_SomeoneBlockingMyWay,61,Quelqu'un me bloque le passage!$,False,False
+data/text/help_system.inc,Help_Text_ICantGoOn,64,Je ne peux pas avancer!$,False,False
+data/text/help_system.inc,Help_Text_OutOfThingsToDo,67,Je ne sais plus quoi faire.$,False,False
+data/text/help_system.inc,Help_Text_WhatHappenedToItemIGot,70,Où est l'objet qu'on m'a donné?$,False,False
+data/text/help_system.inc,Help_Text_WhatAreMyAdventureBasics,73,Les bases de l'aventure?$,False,False
+data/text/help_system.inc,Help_Text_HowAreRoadsForestsDifferent,76,Les forêts et les routes?$,False,False
+data/text/help_system.inc,Help_Text_HowAreCavesDifferent,79,Comment explorer les grottes?$,False,False
+data/text/help_system.inc,Help_Text_HowDoIProgress,82,Comment progresser?$,False,False
+data/text/help_system.inc,Help_Text_WhenCanIUseItem,85,Quand utiliser les objets?$,False,False
+data/text/help_system.inc,Help_Text_WhatsABattle,88,Qu'est-ce qu'un combat?$,False,False
+data/text/help_system.inc,Help_Text_HowDoIPrepareForBattle,91,Comment préparer un combat?$,False,False
+data/text/help_system.inc,Help_Text_WhatIsAMonsVitality,94,La vitalité d'un Yo-kai?$,False,False
+data/text/help_system.inc,Help_Text_MyMonsAreHurt,97,Mes Yo-kai sont blessés!$,False,False
+data/text/help_system.inc,Help_Text_WhatIsStatusProblem,100,Qu'est-ce qu'un statut?$,False,False
+data/text/help_system.inc,Help_Text_WhatHappensIfAllMyMonsFaint,103,Si toute mon équipe tombe K.O.?$,False,False
+data/text/help_system.inc,Help_Text_CantCatchMons,106,Je n'arrive pas à capturer!$,False,False
+data/text/help_system.inc,Help_Text_RanOutOfPotions,109,Je n'ai plus de Potions.$,False,False
+data/text/help_system.inc,Help_Text_CanIBuyPokeBalls,112,Où acheter des Yo-kai Balls?$,False,False
+data/text/help_system.inc,Help_Text_WhatsATrainer,115,Qu'est-ce qu'un Dresseur?$,False,False
+data/text/help_system.inc,Help_Text_HowDoIWinAgainstTrainer,118,Comment battre un Dresseur?$,False,False
+data/text/help_system.inc,Help_Text_WhereDoMonsAppear,121,Où apparaissent les Yo-kai?$,False,False
+data/text/help_system.inc,Help_Text_WhatAreMoves,124,Que sont les capacités?$,False,False
+data/text/help_system.inc,Help_Text_WhatAreHiddenMoves,127,Que sont les capacités secrètes?$,False,False
+data/text/help_system.inc,Help_Text_WhatMovesShouldIUse,130,Quelles capacités choisir?$,False,False
+data/text/help_system.inc,Help_Text_WantToAddMoreMoves,133,Je veux apprendre des capacités.$,False,False
+data/text/help_system.inc,Help_Text_WantToMakeMonStronger,136,Je veux renforcer mes Yo-kai.$,False,False
+data/text/help_system.inc,Help_Text_FoeMonsTooStrong,139,Les adversaires sont trop forts!$,False,False
+data/text/help_system.inc,Help_Text_WhatDoIDoInCave,142,Que faire dans une grotte?$,False,False
+data/text/help_system.inc,Help_Text_NothingIWantToKnow,145,Je n'ai pas de question!$,False,False
+data/text/help_system.inc,Help_Text_WhatsPokemonCenter,148,Qu'est-ce qu'un Centre de soins?$,False,False
+data/text/help_system.inc,Help_Text_WhatsPokemonMart,151,Qu'est-ce qu'une Boutique?$,False,False
+data/text/help_system.inc,Help_Text_WantToEndGame,154,Je veux arrêter de jouer.$,False,False
+data/text/help_system.inc,Help_Text_WhatsAMon,157,Qu'est-ce qu'un Yo-kai?$,False,False
+data/text/help_system.inc,Help_Text_WhatIsThatPersonLike,160,Qui est cette personne?$,False,False
+data/text/help_system.inc,Help_Text_WhatDoesHiddenMoveDo,163,À quoi sert une capacité secrète?$,False,False
+data/text/help_system.inc,Help_Text_WhatDoIDoInSafari,166,Que faire au Parc Safari?$,False,False
+data/text/help_system.inc,Help_Text_WhatAreSafariRules,169,Les règles du Safari?$,False,False
+data/text/help_system.inc,Help_Text_WantToEndSafari,172,Je veux quitter le Safari!$,False,False
+data/text/help_system.inc,Help_Text_WhatIsAGym,175,Qu'est-ce qu'une Arène?$,False,False
+data/text/help_system.inc,Help_Text_AnswerPlayingForFirstTime,178,Tu incarnes le personnage principal\net explores le monde des Yo-kai.\nParle aux habitants et résous les\nmystères pour ouvrir de nouveaux\nchemins. Tes Yo-kai t'accompagnent\ntout au long de cette aventure.$,False,False
+data/text/help_system.inc,Help_Text_AnswerWhatShouldIBeDoing,181,Approche-toi d'une personne et appuie\nsur A pour lui parler. Tu peux aussi\nexaminer les panneaux et les objets\nde cette façon. Discute et observe\nrégulièrement pour recueillir des\ninformations.$,False,False
+data/text/help_system.inc,Help_Text_AnswerCantGetOutOfRoom,184,Un tapis rouge indique souvent la\nsortie d'un bâtiment ou un escalier.\nPlace-toi sur ce tapis et utilise la\ncroix {PLUS} vers la sortie ou l'escalier\npour passer.$,False,False
+data/text/help_system.inc,Help_Text_AnswerCantFindPersonIWant,187,Ne t'inquiète pas trop. Parle aux\nhabitants et examine les panneaux et\nles objets. Il faut parfois\nsimplement rejoindre une autre ville\nou une nouvelle zone.$,False,False
+data/text/help_system.inc,Help_Text_AnswerTalkedToEveryoneNowWhat,190,"Essaie d'explorer une nouvelle route,\nune autre ville ou un lieu inconnu.$",False,False
+data/text/help_system.inc,Help_Text_AnswerSomeoneBlockingMyWay,193,"La cause se trouve peut-être en\nville ou dans un bâtiment. Reparle\naux gens. Si quelqu'un a besoin\nd'aide, résous son problème, puis\nreviens voir la personne qui bloque\nla route.$",False,False
+data/text/help_system.inc,Help_Text_AnswerICantGoOn,196,"Approche-toi des gens et appuie sur\nA pour leur parler. Examine aussi les\narbres et rochers étranges. Avec la\ncroix {PLUS}, essaie d'aller là où le\npassage semble impossible.$",False,False
+data/text/help_system.inc,Help_Text_AnswerOutOfThingsToDo,199,Visite les endroits encore inconnus.\nExamine tout ce qui semble suspect\nen appuyant sur A.$,False,False
+data/text/help_system.inc,Help_Text_AnswerWhatHappenedToItemIGot,202,"Les objets qu'on te donne vont dans\nton Sac. Ils sont classés\nautomatiquement dans les trois\npoches. Pour apprendre à utiliser le\nSac, consulte la rubrique Comment\nfaire?.$",False,False
+data/text/help_system.inc,Help_Text_AnswerWhatAreMyAdventureBasics,205,"Fais soigner tes Yo-kai blessés dans\nles Centres de soins. Sauvegarde\nsouvent ta progression. Avant un long\nvoyage, achète des remèdes dans une\nBoutique.$",False,False
+data/text/help_system.inc,Help_Text_AnswerHowAreRoadsForestsDifferent,208,"Les forêts ressemblent aux routes,\nmais peuvent former des labyrinthes.\nElles possèdent toujours une sortie:\nne renonce pas si tu te perds.$",False,False
+data/text/help_system.inc,Help_Text_AnswerHowAreCavesDifferent,211,Les grottes sont dangereuses. Des\nYo-kai sauvages peuvent surgir\npartout. Utilise des remèdes ou\nretourne te faire soigner. De\nnouvelles villes peuvent se cacher\nde l’autre côté. Ne renonce pas!$,False,False
+data/text/help_system.inc,Help_Text_AnswerHowDoIProgress,214,Entraîne tes Yo-kai et avance.\nRecueille des informations et résous\nles problèmes rencontrés. Comment\ncontourner cet obstacle? Comment\nconvaincre cette personne de te\nlaisser passer? Observe bien!$,False,False
+data/text/help_system.inc,Help_Text_AnswerWhenCanIUseItem,217,"Certains objets servent uniquement\nsur la carte, d'autres en combat, et\nd'autres dans les deux cas. Si un\nobjet ne peut pas être utilisé, un\nmessage te le signalera.$",False,False
+data/text/help_system.inc,Help_Text_AnswerWhatsABattle,220,"En combat, les Yo-kai cherchent à\nréduire les PV de l'adversaire à zéro\npour le mettre K.O. La victoire\nrapporte de l'expérience. Avec assez\nd'EXP., les Yo-kai gagnent des\nniveaux et se renforcent.$",False,False
+data/text/help_system.inc,Help_Text_AnswerHowDoIPrepareForBattle,223,Fais d'abord soigner toute ton équipe\ndans un Centre de soins. Achète aussi\nquelques remèdes en Boutique pour\nles urgences.$,False,False
+data/text/help_system.inc,Help_Text_AnswerWhatIsAMonsVitality,226,"La vitalité d'un Yo-kai se mesure en\nPV. Les blessures font baisser ces\npoints. À zéro PV, il tombe K.O.\nFais-le soigner dans un Centre ou\nutilise un objet adapté.$",False,False
+data/text/help_system.inc,Help_Text_AnswerMyMonsAreHurt,229,Un Centre de soins restaure les PV et\nsoigne les statuts de tes Yo-kai avec\nune machine. C'est gratuit: prends\nl'habitude d'y faire soigner souvent\nton équipe.$,False,False
+data/text/help_system.inc,Help_Text_AnswerWhatIsStatusProblem,232,"Un statut est un problème subi par un\nYo-kai: brûlure, paralysie, poison,\nsommeil ou gel. Un Centre de soins ou\nun remède adapté peut le guérir.$",False,False
+data/text/help_system.inc,Help_Text_AnswerWhatHappensIfAllMyMonsFaint,235,"Si toute ton équipe tombe K.O., tu\nperds un peu d'argent et retournes\nchez toi ou dans un Centre de soins.\nSoigne souvent tes Yo-kai et pense à\nsauvegarder régulièrement.$",False,False
+data/text/help_system.inc,Help_Text_AnswerCantCatchMons,238,"Un Yo-kai qui sort de la Ball est\nencore plein d'énergie. Réduis ses PV\net essaie de l'endormir ou de le\nparalyser avant de relancer une Ball.\nSi elle oscille longtemps, la capture\nn'est plus très loin!$",False,False
+data/text/help_system.inc,Help_Text_AnswerRanOutOfPotions,241,Les Boutiques vendent des remèdes.\nOn n'en trouve généralement pas dans\nles forêts ou les grottes. Fais tes\nprovisions en ville avant de\nreprendre la route.$,False,False
+data/text/help_system.inc,Help_Text_AnswerCanIBuyPokeBalls,244,Les Boutiques des villes vendent des\nYo-kai Balls. Fais des provisions\navant de partir explorer les routes\net les grottes.$,False,False
+data/text/help_system.inc,Help_Text_AnswerWhatsATrainer,247,"Un Dresseur élève des Yo-kai et\ncombat avec eux. Tu en rencontres\nsur les routes, dans les forêts et\ndans les grottes. Si vos regards se\ncroisent, il peut te lancer un défi!$",False,False
+data/text/help_system.inc,Help_Text_AnswerHowDoIWinAgainstTrainer,250,Exploite les faiblesses de type des\nYo-kai adverses. Une équipe bien\nentraînée et variée t'aidera à\ngagner. Avoir plusieurs partenaires\nprêts à combattre est aussi un atout.$,False,False
+data/text/help_system.inc,Help_Text_AnswerWhereDoMonsAppear,253,"Les Yo-kai sauvages apparaissent dans\nles hautes herbes, les forêts, les\ngrottes et sur l'eau. Les villes sont\ngénéralement sûres, mais certains\névénements peuvent y provoquer des\ncombats.$",False,False
+data/text/help_system.inc,Help_Text_AnswerWhatAreMoves,256,Un Yo-kai connaît jusqu'à quatre\ncapacités: attaques ou techniques\naux effets particuliers. Les\ncapacités disponibles dépendent de\nl'espèce. Certaines s'apprennent avec\ndes capsules ou des spécialistes.$,False,False
+data/text/help_system.inc,Help_Text_AnswerWhatAreHiddenMoves,259,"Les capacités secrètes facilitent\nl'exploration. Dans le menu Yo-kai,\nsélectionne le partenaire qui connaît\nla capacité et fais-la utiliser. Même\nun Yo-kai K.O. peut utiliser une\ncapacité secrète sur la carte.$",False,False
+data/text/help_system.inc,Help_Text_AnswerWhatMovesShouldIUse,262,"Choisis ATTAQUE pour afficher les\ncapacités. Réfléchis aux types et\naux effets pour choisir la meilleure.\nPour consulter les détails, ouvre\nYo-kai, puis RÉSUMÉ et la page des\nCAPACITÉS.$",False,False
+data/text/help_system.inc,Help_Text_AnswerWantToAddMoreMoves,265,"Un Yo-kai connaît au plus quatre\ncapacités. Il en apprend en montant\nde niveau, avec une CT ou une CS,\nou auprès de certains personnages.$",False,False
+data/text/help_system.inc,Help_Text_AnswerWantToMakeMonStronger,268,Gagne des combats pour obtenir de\nl'expérience. Le Multi Exp. permanent\nfait progresser toute l'équipe encore\nen état de combattre. Varie les\nadversaires et garde une équipe\nprête à se battre.$,False,False
+data/text/help_system.inc,Help_Text_AnswerFoeMonsTooStrong,271,Renforce ton équipe avant de revenir.\nAffronte des Yo-kai sauvages ou des\nDresseurs encore jamais battus.\nEssaie aussi d'autres capacités et\nexploite les faiblesses de type.$,False,False
+data/text/help_system.inc,Help_Text_AnswerWhatDoIDoInCave,274,"Dans une grotte, les Yo-kai sauvages\npeuvent apparaître presque partout.\nSoigne vite tes partenaires blessés.\nUtilise des remèdes ou retourne dans\nun Centre. Ne prends pas de risques\ninutiles.$",False,False
+data/text/help_system.inc,Help_Text_AnswerNothingIWantToKnow,277,Fais confiance à ton savoir et à tes\nforces. Trouve ta voie!$,False,False
+data/text/help_system.inc,Help_Text_AnswerWhatsPokemonCenter,280,"Le toit rouge et l'enseigne P.C\nindiquent un Centre de soins. Tu peux\ny soigner gratuitement tes Yo-kai et\nutiliser le PC. À l'étage, tu peux te\nconnecter avec d'autres joueurs.$",False,False
+data/text/help_system.inc,Help_Text_AnswerWhatsPokemonMart,283,Une Boutique se reconnaît à son toit\nbleu et son enseigne. On peut y\nacheter et vendre des objets.\nCertains produits ne sont disponibles\nque dans quelques villes.$,False,False
+data/text/help_system.inc,Help_Text_AnswerWantToEndGame,286,"Choisis SAUVER dans le menu pour\nenregistrer ta progression. Une fois\nla sauvegarde terminée, tu peux\néteindre le jeu. Tu reprendras\nensuite au dernier point sauvegardé.$",False,False
+data/text/help_system.inc,Help_Text_AnswerWhatsAMon,289,"Les Yo-kai sont des êtres mystérieux\nqui vivent dans les herbes, les\ngrottes ou la mer. Les Dresseurs\nvoyagent avec eux et les entraînent\npour combattre.$",False,False
+data/text/help_system.inc,Help_Text_AnswerWhatIsThatPersonLike,292,"Utilise le Memorydex, dans la poche\nObjets Rares du Sac. Il contient\npeut-être des indices sur cette\npersonne.$",False,False
+data/text/help_system.inc,Help_Text_AnswerWhatDoesHiddenMoveDo,295,"Une CS enseigne une capacité secrète\nutile à l'exploration. Certaines\néclairent les grottes, coupent les\npetits arbres ou permettent de\ntraverser l'eau.$",False,False
+data/text/help_system.inc,Help_Text_AnswerWhatDoIDoInSafari,298,Lance les Safari Balls spéciales pour\ncapturer des Yo-kai sauvages. Tu\npeux aussi garder les objets que tu\ntrouves dans le Parc.$,False,False
+data/text/help_system.inc,Help_Text_AnswerWhatAreSafariRules,301,La partie se termine quand tu as\nparcouru la distance autorisée ou\nlancé toutes tes Safari Balls. Le\nmenu indique les pas restants et le\nnombre de Safari Balls.$,False,False
+data/text/help_system.inc,Help_Text_AnswerWantToEndSafari,304,"Pour quitter le Safari avant la fin,\nouvre le menu et choisis ABANDON.\nCette commande est en haut de la\nliste.$",False,False
+data/text/help_system.inc,Help_Text_AnswerWhatIsAGym,307,"Les Arènes de la Ligue accueillent\nles Dresseurs dans plusieurs villes.\nChacune est dirigée par un Champion,\nun Dresseur très expérimenté. Bats-le\npour obtenir son Badge.$",False,False
+data/text/help_system.inc,Help_Text_UsingPokedex,310, Médallium$,False,False
+data/text/help_system.inc,Help_Text_UsingPokemon,313, Menu Yo-kai$,False,False
+data/text/help_system.inc,Help_Text_UsingSummary,316,  RÉSUMÉ$,False,False
+data/text/help_system.inc,Help_Text_UsingSwitch,319,  ÉCHANGER$,False,False
+data/text/help_system.inc,Help_Text_UsingItem,322,  OBJET$,False,False
+data/text/help_system.inc,Help_Text_UsingBag,325, SAC$,False,False
+data/text/help_system.inc,Help_Text_UsingAnItem,328,  Utiliser un objet$,False,False
+data/text/help_system.inc,Help_Text_UsingKeyItem,331,  Utiliser un Objet Rare$,False,False
+data/text/help_system.inc,Help_Text_UsingPokeBall,334,  Utiliser une Yo-kai Ball$,False,False
+data/text/help_system.inc,Help_Text_UsingPlayer,337, Carte de {PLAYER}$,False,False
+data/text/help_system.inc,Help_Text_UsingSave,340, SAUVER$,False,False
+data/text/help_system.inc,Help_Text_UsingOption,343, OPTIONS$,False,False
+data/text/help_system.inc,Help_Text_UsingPotion,346,    Utiliser une Potion$,False,False
+data/text/help_system.inc,Help_Text_UsingTownMap,349,    Consulter la Carte$,False,False
+data/text/help_system.inc,Help_Text_UsingTM,352,    Utiliser une CT$,False,False
+data/text/help_system.inc,Help_Text_UsingHM,355,    Utiliser une CS$,False,False
+data/text/help_system.inc,Help_Text_UsingMoveOutsideOfBattle,358,Capacité hors combat$,False,False
+data/text/help_system.inc,Help_Text_RidingBicycle,361,    Monter à Bicyclette$,False,False
+data/text/help_system.inc,Help_Text_EnteringName,364,Saisir un prénom$,False,False
+data/text/help_system.inc,Help_Text_UsingPC,367,Utiliser un PC$,False,False
+data/text/help_system.inc,Help_Text_UsingBillsPC,370, PC de {STR_VAR_1}$,False,False
+data/text/help_system.inc,Help_Text_UsingWithdraw,373,  RETIRER$,False,False
+data/text/help_system.inc,Help_Text_UsingDeposit,376,  DÉPOSER$,False,False
+data/text/help_system.inc,Help_Text_UsingMove,379,  DÉPLACER$,False,False
+data/text/help_system.inc,Help_Text_MovingItems,382,  Déplacer des objets$,False,False
+data/text/help_system.inc,Help_Text_UsingPlayersPC,385, PC de {PLAYER}$,False,False
+data/text/help_system.inc,Help_Text_UsingWithdrawItem,388,  RETIRER OBJET$,False,False
+data/text/help_system.inc,Help_Text_UsingDepositItem,391,  DÉPOSER OBJET$,False,False
+data/text/help_system.inc,Help_Text_UsingMailbox,394,  BOÎTE LETTRES$,False,False
+data/text/help_system.inc,Help_Text_UsingProfOaksPC,397, PC de Chen$,False,False
+data/text/help_system.inc,Help_Text_OpeningMenu,400,Ouvrir le menu$,False,False
+data/text/help_system.inc,Help_Text_UsingFight,403, ATTAQUE$,False,False
+data/text/help_system.inc,Help_Text_UsingPokemon2,406, Menu Yo-kai$,False,False
+data/text/help_system.inc,Help_Text_UsingShift,409,  ENVOYER$,False,False
+data/text/help_system.inc,Help_Text_UsingSummary2,412,  RÉSUMÉ$,False,False
+data/text/help_system.inc,Help_Text_UsingBag2,415, SAC$,False,False
+data/text/help_system.inc,Help_Text_ReadingPokedex,418, Lire le Médallium$,False,False
+data/text/help_system.inc,Help_Text_UsingHomePC,421,Le PC de la maison$,False,False
+data/text/help_system.inc,Help_Text_UsingItemStorage,424,Le stockage des objets$,False,False
+data/text/help_system.inc,Help_Text_UsingWithdrawItem2,427,  RETIRER OBJET$,False,False
+data/text/help_system.inc,Help_Text_UsingDepositItem2,430,  DÉPOSER OBJET$,False,False
+data/text/help_system.inc,Help_Text_UsingMailbox2,433,La Boîte Lettres$,False,False
+data/text/help_system.inc,Help_Text_UsingRun,436, FUITE$,False,False
+data/text/help_system.inc,Help_Text_RegisterKeyItem,439,  Enregistrer un Objet Rare$,False,False
+data/text/help_system.inc,Help_Text_UsingBall,442, BALL$,False,False
+data/text/help_system.inc,Help_Text_UsingBait,445, APPÂT$,False,False
+data/text/help_system.inc,Help_Text_UsingRock,448, CAILLOU$,False,False
+data/text/help_system.inc,Help_Text_UsingHallOfFame,451, PANTHÉON$,False,False
+data/text/help_system.inc,Help_Text_HowToUsePokedex,454,"{CIRCLE_1} Choisis Médallium dans le menu.\n{CIRCLE_2} Consulte la liste des Yo-kai,\nleurs habitats ou les recherches.\n{CIRCLE_3} Choisis un Yo-kai pour afficher\nles informations détaillées.$",False,False
+data/text/help_system.inc,Help_Text_HowToUsePokemon,457,"{CIRCLE_1} Choisis Yo-kai dans le menu.\n{CIRCLE_2} Sélectionne un membre de l'équipe.\n{CIRCLE_3} Choisis RÉSUMÉ, ÉCHANGER ou\nOBJET.$",False,False
+data/text/help_system.inc,Help_Text_HowToUseSummary,460,"{CIRCLE_1} Choisis RÉSUMÉ.\n{CIRCLE_2} Avec la croix {PLUS}, va à gauche ou\nà droite pour consulter les\ninformations, les statistiques et les\ncapacités du Yo-kai.$",False,False
+data/text/help_system.inc,Help_Text_HowToUseSwitch,463,{CIRCLE_1} Choisis le Yo-kai à déplacer.\n{CIRCLE_2} Sélectionne ÉCHANGER.\n{CIRCLE_3} Choisis l'autre Yo-kai. Celui qui\nest en tête de l'équipe entre au\ncombat en premier.$,False,False
+data/text/help_system.inc,Help_Text_HowToUseItem,466,"{CIRCLE_1} Choisis OBJET.\n{CIRCLE_2} Choisis DONNER pour confier un\nobjet au Yo-kai, ou PRENDRE pour\nrécupérer son objet tenu. Un Yo-kai\nne tient qu'un objet.$",False,False
+data/text/help_system.inc,Help_Text_HowToUseBag,469,"{CIRCLE_1} Choisis SAC dans le menu.\n{CIRCLE_2} Avec la croix {PLUS}, change de\npoche à gauche ou à droite: Objets,\nObjets Rares et Yo-kai Balls. Choisis\nun objet avec haut ou bas.$",False,False
+data/text/help_system.inc,Help_Text_HowToUseAnItem,472,{CIRCLE_1} Ouvre la poche Objets.\n{CIRCLE_2} Choisis un objet avec la croix\n{PLUS}.\n{CIRCLE_3} Choisis UTILISER. Certains objets\nne fonctionnent que dans des\nsituations particulières.$,False,False
+data/text/help_system.inc,Help_Text_HowToUseKeyItem,475,{CIRCLE_1} Ouvre la poche Objets Rares.\n{CIRCLE_2} Choisis l'objet avec la croix {PLUS}.\n{CIRCLE_3} Choisis UTILISER.$,False,False
+data/text/help_system.inc,Help_Text_HowToUsePokeBall,478,"{CIRCLE_1} En combat contre un Yo-kai\nsauvage, ouvre la poche Yo-kai Balls\ndu Sac.\n{CIRCLE_2} Choisis une Ball avec la croix {PLUS}.\n{CIRCLE_3} Choisis UTILISER pour la lancer.$",False,False
+data/text/help_system.inc,Help_Text_HowToUsePlayer,481,{CIRCLE_1} Choisis {PLAYER} dans le menu.\n{CIRCLE_2} Ta Carte Dresseur s'affiche.\nAppuie sur A pour la retourner.\n{CIRCLE_3} Le verso contient diverses\ninformations sur ton parcours.$,False,False
+data/text/help_system.inc,Help_Text_HowToUseSave,484,"{CIRCLE_1} Choisis SAUVER dans le menu.\n{CIRCLE_2} Choisis OUI pour enregistrer ta\nprogression. Une fois la sauvegarde\nterminée, tu peux éteindre le jeu. Tu\nreprendras au dernier point\nsauvegardé.$",False,False
+data/text/help_system.inc,Help_Text_HowToUseOption,487,"{CIRCLE_1} Choisis OPTIONS dans le menu.\n{CIRCLE_2} Avec la croix {PLUS}, choisis un\nréglage avec haut ou bas, puis\nmodifie-le avec gauche ou droite.\n{CIRCLE_3} Choisis RETOUR ou appuie sur B\npour terminer.$",False,False
+data/text/help_system.inc,Help_Text_HowToUsePotion,490,{CIRCLE_1} Ouvre le menu.\n{CIRCLE_2} Choisis SAC avec la croix {PLUS}.\n{CIRCLE_3} Choisis une Potion dans la poche\nObjets.\n{CIRCLE_4} Choisis UTILISER.\n{CIRCLE_5} Choisis le Yo-kai à soigner.$,False,False
+data/text/help_system.inc,Help_Text_HowToUseTownMap,493,{CIRCLE_1} Ouvre le menu.\n{CIRCLE_2} Choisis SAC avec la croix {PLUS}.\n{CIRCLE_3} Ouvre la poche Objets Rares et\nsélectionne la Carte.\n{CIRCLE_4} Choisis UTILISER pour l'afficher.$,False,False
+data/text/help_system.inc,Help_Text_HowToUseTM,496,{CIRCLE_1} Ouvre le menu.\n{CIRCLE_2} Ouvre la poche Objets Rares dans\nle SAC.\n{CIRCLE_3} OUVRE la Boîte CT.\n{CIRCLE_4} Choisis une CT puis UTILISER.\n{CIRCLE_5} Choisis un Yo-kai compatible.$,False,False
+data/text/help_system.inc,Help_Text_HowToUseHM,499,{CIRCLE_1} Ouvre le menu.\n{CIRCLE_2} Ouvre la poche Objets Rares dans\nle SAC.\n{CIRCLE_3} OUVRE la Boîte CT.\n{CIRCLE_4} Choisis une CS puis UTILISER.\n{CIRCLE_5} Choisis un Yo-kai compatible. Une\nCS s’oublie difficilement.$,False,False
+data/text/help_system.inc,Help_Text_HowToUseMoveOutsideOfBattle,502,"{CIRCLE_1} Ouvre le menu.\n{CIRCLE_2} Choisis Yo-kai.\n{CIRCLE_3} Choisis un Yo-kai connaissant une\ncapacité secrète utilisable. Elle\napparaît en bleu. Sélectionne cette\ncapacité pour couper, voler, surfer\nou franchir un obstacle.$",False,False
+data/text/help_system.inc,Help_Text_HowToRideBicycle,505,"{CIRCLE_1} Ouvre le menu, puis la poche\nObjets Rares du SAC. Choisis la\nBicyclette.\n{CIRCLE_2} Choisis UTILISER pour monter. Tu\npeux aussi l'ENREGISTRER pour\nl'utiliser avec SELECT.$",False,False
+data/text/help_system.inc,Help_Text_HowToEnterName,508,{CIRCLE_1} Choisis les lettres avec la croix\n{PLUS} et valide-les avec A.\n{CIRCLE_2} Appuie sur B pour effacer.\n{CIRCLE_3} SELECT change les majuscules en\nminuscules et inversement.\n{CIRCLE_4} Valide OK avec A.$,False,False
+data/text/help_system.inc,Help_Text_HowToUsePC,511,{CIRCLE_1} Approche-toi du PC d'un Centre de\nsoins et appuie sur A.$,False,False
+data/text/help_system.inc,Help_Text_HowToUseBillsPC,514,"{CIRCLE_1} Choisis le PC de {STR_VAR_1}.\n{CIRCLE_2} Les trois premières commandes\ndonnent accès aux Boîtes Yo-kai. Si\nton équipe contient déjà six Yo-kai,\nune nouvelle capture est envoyée\nautomatiquement dans une Boîte.$",False,False
+data/text/help_system.inc,Help_Text_HowToUseWithdraw,517,{CIRCLE_1} Choisis un Yo-kai dans la Boîte\navec la croix {PLUS}.\n{CIRCLE_2} Choisis RETIRER pour l'ajouter à\nton équipe. Tu ne peux pas en retirer\nsi tu as déjà six Yo-kai avec toi.$,False,False
+data/text/help_system.inc,Help_Text_HowToUseDeposit,520,{CIRCLE_1} Choisis un Yo-kai de ton équipe\navec la croix {PLUS}.\n{CIRCLE_2} Choisis DÉPOSER.\n{CIRCLE_3} Choisis la Boîte et valide avec\nA. Tu ne peux pas déposer le dernier\nYo-kai de ton équipe!$,False,False
+data/text/help_system.inc,Help_Text_HowToUseMove,523,"{CIRCLE_1} Choisis un Yo-kai dans la Boîte.\n{CIRCLE_2} Choisis DÉPLACER et déplace-le\navec la croix {PLUS}.\n{CIRCLE_3} Pour changer de Boîte, place-le\nsur le nom de la Boîte, puis appuie\nà gauche ou à droite.$",False,False
+data/text/help_system.inc,Help_Text_HowToMoveItems,526,"{CIRCLE_1} Les Yo-kai affichés en pâle\npeuvent recevoir un objet avec A.\n{CIRCLE_2} Ceux affichés clairement tiennent\nun objet. Avec A, tu peux le donner\nà un autre Yo-kai ou le remettre\ndans le Sac.$",False,False
+data/text/help_system.inc,Help_Text_HowToUsePlayersPC,529,"{CIRCLE_1} Choisis le PC de {PLAYER}.\n{CIRCLE_2} Choisis STOCKAGE OBJETS ou BOÎTE\nLETTRES. Si ton Sac est plein, tu\npeux stocker des objets dans ton PC\net les retirer plus tard.$",False,False
+data/text/help_system.inc,Help_Text_HowToUseWithdrawItem,532,{CIRCLE_1} Choisis RETIRER OBJET.\n{CIRCLE_2} Choisis l'objet à retirer.\n{CIRCLE_3} L'objet rejoint la poche Objets\ndu Sac. Tu peux aussi le confier\ndirectement à un Yo-kai.$,False,False
+data/text/help_system.inc,Help_Text_HowToUseDepositItem,535,"{CIRCLE_1} Choisis DÉPOSER OBJET.\n{CIRCLE_2} Choisis l'objet dans le Sac avec\nla croix {PLUS}.\n{CIRCLE_3} Si nécessaire, règle la quantité\navec la croix {PLUS}, puis valide en\nappuyant sur A.$",False,False
+data/text/help_system.inc,Help_Text_HowToUseMailbox,538,Une Lettre retirée d'un Yo-kai rejoint\nla Boîte Lettres. Cette Boîte est\ninutilisable si elle est vide.\n{CIRCLE_1} Choisis le PC de {PLAYER}.\n{CIRCLE_2} Choisis BOÎTE LETTRES pour lire\nune Lettre ou la donner à un Yo-kai.$,False,False
+data/text/help_system.inc,Help_Text_HowToUseProfOaksPC,541,{CIRCLE_1} Choisis le PC de Chen.\n{CIRCLE_2} Chen évalue ton Médallium. Ses\ncommentaires peuvent t'aider à\ncompléter ta collection de Yo-kai.$,False,False
+data/text/help_system.inc,Help_Text_HowToOpenMenu,544,"{CIRCLE_1} Appuie sur START.\n{CIRCLE_2} Le menu s'ouvre à droite.\n{CIRCLE_3} Les commandes changent selon la\nsituation. Le menu ne s'ouvre pas\npendant un dialogue, un combat ou\ncertaines actions.$",False,False
+data/text/help_system.inc,Help_Text_HowToUseFight,547,{CIRCLE_1} Choisis ATTAQUE.\n{CIRCLE_2} Choisis une capacité pour\nl'utiliser!$,False,False
+data/text/help_system.inc,Help_Text_HowToUsePokemon2,550,{CIRCLE_1} Choisis Yo-kai.\n{CIRCLE_2} Choisis un membre de l'équipe.\n{CIRCLE_3} ENVOYER permet de changer de\ncombattant si tu possèdes plusieurs\nYo-kai. RÉSUMÉ affiche ses\ninformations.$,False,False
+data/text/help_system.inc,Help_Text_HowToUseShift,553,Cette commande change le Yo-kai\nprésent sur le terrain.\n{CIRCLE_1} Choisis le Yo-kai à envoyer.\n{CIRCLE_2} Choisis ENVOYER.\n{CIRCLE_3} Il remplace ton combattant\nactuel!$,False,False
+data/text/help_system.inc,Help_Text_HowToUseSummary2,556,"{CIRCLE_1} Choisis RÉSUMÉ.\n{CIRCLE_2} Avec la croix {PLUS}, va à gauche ou\nà droite pour consulter les\ninformations, les statistiques et les\ncapacités du Yo-kai.$",False,False
+data/text/help_system.inc,Help_Text_HowToUseBag2,559,"{CIRCLE_1} Choisis SAC.\n{CIRCLE_2} Avec la croix {PLUS}, change de\npoche à gauche ou à droite: Objets,\nObjets Rares et Yo-kai Balls. Choisis\nun objet avec haut ou bas.$",False,False
+data/text/help_system.inc,Help_Text_HowToReadPokedex,562,{CIRCLE_1} Les Yo-kai capturés ont une Ball\nprès de leur nom dans le Médallium.\n{CIRCLE_2} Leur fiche contient davantage\nd'informations.$,False,False
+data/text/help_system.inc,Help_Text_HowToUseHomePC,572,{CIRCLE_1} Approche-toi du PC à la maison et\nappuie sur A.\n{CIRCLE_2} Le PC s'allume.\n{CIRCLE_3} Choisis STOCKAGE OBJETS ou BOÎTE\nLETTRES.$,False,False
+data/text/help_system.inc,Help_Text_HowToUseItemStorage,575,{CIRCLE_1} RETIRER OBJET récupère un objet\nstocké dans le PC.\n{CIRCLE_2} DÉPOSER OBJET range un objet du\nSac dans le PC.$,False,False
+data/text/help_system.inc,Help_Text_HowToUseWithdrawItem2,578,{CIRCLE_1} Choisis RETIRER OBJET.\n{CIRCLE_2} Choisis l'objet à retirer.\n{CIRCLE_3} L'objet rejoint la poche Objets\ndu Sac. Tu peux aussi le confier\ndirectement à un Yo-kai.$,False,False
+data/text/help_system.inc,Help_Text_HowToUseDepositItem2,581,"{CIRCLE_1} Choisis DÉPOSER OBJET.\n{CIRCLE_2} Choisis l'objet dans le Sac avec\nla croix {PLUS}.\n{CIRCLE_3} Si le Sac est vide, cette\ncommande est inutilisable.$",False,False
+data/text/help_system.inc,Help_Text_HowToUseMailbox2,584,Une Lettre retirée d'un Yo-kai rejoint\nla Boîte Lettres. Cette Boîte est\ninutilisable si elle est vide.\n{CIRCLE_1} Choisis une Lettre par son nom\npour la lire ou la confier à un\nYo-kai.$,False,False
+data/text/help_system.inc,Help_Text_HowToUseRun,587,On ne peut pas fuir un combat contre\nun Dresseur!\n{CIRCLE_1} FUITE fonctionne contre les Yo-kai\nsauvages.\n{CIRCLE_2} Un Yo-kai rapide a davantage de\nchances de s'échapper.$,False,False
+data/text/help_system.inc,Help_Text_HowToRegisterKeyItem,590,"Un Objet Rare enregistré s'utilise\nrapidement en appuyant sur SELECT!\n{CIRCLE_1} Ouvre la poche Objets Rares.\n{CIRCLE_2} Choisis l'objet, puis ENREGISTRER.$",False,False
+data/text/help_system.inc,Help_Text_HowToUseBall,593,"{CIRCLE_1} Lance une Safari Ball, réservée à\nla capture des Yo-kai du Parc.\nUtilise tes Safari Balls pour capturer\nles Yo-kai sauvages!$",False,False
+data/text/help_system.inc,Help_Text_HowToUseBait,596,{CIRCLE_1} Lance un appât spécial du Parc.\nCette nourriture peut retenir\nl'attention du Yo-kai sauvage et\nréduire ses chances de fuite.$,False,False
+data/text/help_system.inc,Help_Text_HowToUseRock,599,"{CIRCLE_1} Lance un caillou du Parc. Cela\npeut faire fuir le Yo-kai, mais le\nrend plus facile à capturer!$",False,False
+data/text/help_system.inc,Help_Text_HowToUseHallOfFame,602,{CIRCLE_1} Choisis PANTHÉON sur le PC.\n{CIRCLE_2} Tu peux revoir les Yo-kai inscrits\nau Panthéon.$,False,False
+data/text/help_system.inc,Help_Text_HP,605,PV$,False,False
+data/text/help_system.inc,Help_Text_EXP,608,EXP. {LEFT_PAREN}Expérience{RIGHT_PAREN}$,False,False
+data/text/help_system.inc,Help_Text_Moves,611,CAPACITÉS$,False,False
+data/text/help_system.inc,Help_Text_Attack,614,ATTAQUE$,False,False
+data/text/help_system.inc,Help_Text_Defense,617,DÉFENSE$,False,False
+data/text/help_system.inc,Help_Text_SpAtk,620,ATQ. SPÉ.$,False,False
+data/text/help_system.inc,Help_Text_SpDef,623,DÉF. SPÉ.$,False,False
+data/text/help_system.inc,Help_Text_Speed,626,VITESSE$,False,False
+data/text/help_system.inc,Help_Text_Level,629,Niv. {LEFT_PAREN}Niveau{RIGHT_PAREN}$,False,False
+data/text/help_system.inc,Help_Text_Type,632,TYPE$,False,False
+data/text/help_system.inc,Help_Text_OT,635,D.O.$,False,False
+data/text/help_system.inc,Help_Text_Item,638,OBJET$,False,False
+data/text/help_system.inc,Help_Text_Ability,641,TALENT$,False,False
+data/text/help_system.inc,Help_Text_Money,644,ARGENT$,False,False
+data/text/help_system.inc,Help_Text_MoveType,647,TYPE DE CAPACITÉ$,False,False
+data/text/help_system.inc,Help_Text_Nature,650,NATURE$,False,False
+data/text/help_system.inc,Help_Text_IDNo,653,Nº ID$,False,False
+data/text/help_system.inc,Help_Text_PP,656,PP$,False,False
+data/text/help_system.inc,Help_Text_Power,659,PUISSANCE$,False,False
+data/text/help_system.inc,Help_Text_Accuracy,662,PRÉCISION$,False,False
+data/text/help_system.inc,Help_Text_FNT,665,K.O.$,False,False
+data/text/help_system.inc,Help_Text_Items,668,OBJETS$,False,False
+data/text/help_system.inc,Help_Text_KeyItems,671,OBJETS RARES$,False,False
+data/text/help_system.inc,Help_Text_PokeBalls,674,Yo-kai Balls$,False,False
+data/text/help_system.inc,Help_Text_Pokedex,677,Médallium$,False,False
+data/text/help_system.inc,Help_Text_PlayTime,680,DURÉE DE JEU$,False,False
+data/text/help_system.inc,Help_Text_Badges,683,BADGES$,False,False
+data/text/help_system.inc,Help_Text_TextSpeed,686,VITESSE TEXTE$,False,False
+data/text/help_system.inc,Help_Text_BattleScene,689,ANIMATIONS$,False,False
+data/text/help_system.inc,Help_Text_BattleStyle,692,STYLE COMBAT$,False,False
+data/text/help_system.inc,Help_Text_Sound,695,SON$,False,False
+data/text/help_system.inc,Help_Text_ButtonMode,698,BOUTONS$,False,False
+data/text/help_system.inc,Help_Text_Frame,701,CADRE$,False,False
+data/text/help_system.inc,Help_Text_Cancel2,704,RETOUR$,False,False
+data/text/help_system.inc,Help_Text_TM,707,CT$,False,False
+data/text/help_system.inc,Help_Text_HM,710,CS$,False,False
+data/text/help_system.inc,Help_Text_HMMove,713,CAPACITÉ SECRÈTE$,False,False
+data/text/help_system.inc,Help_Text_Evolution,716,ÉVOLUTION$,False,False
+data/text/help_system.inc,Help_Text_StatusProblem,719,STATUT$,False,False
+data/text/help_system.inc,Help_Text_Pokemon,722,Yo-kai$,False,False
+data/text/help_system.inc,Help_Text_IDNo2,725,Nº ID$,False,False
+data/text/help_system.inc,Help_Text_Money2,728,ARGENT$,False,False
+data/text/help_system.inc,Help_Text_Badges2,731,BADGES$,False,False
+data/text/help_system.inc,Help_Text_DefineHP,734,"Les PV mesurent la vitalité d'un\nYo-kai. À zéro PV, il tombe K.O. et\nne peut plus combattre. Pour gagner,\nréduis les PV adverses à zéro. Les\nCentres de soins et les remèdes\nrestaurent les PV.$",False,False
+data/text/help_system.inc,Help_Text_DefineEXP,737,"Les points d'expérience se gagnent en\nremportant des combats. Le Multi Exp.\npermanent profite à toute l'équipe\napte à combattre. À un certain seuil,\nun Yo-kai gagne un niveau et sa\nbarre d'EXP. repart vers le niveau\nsuivant.$",False,False
+data/text/help_system.inc,Help_Text_DefineMoves,740,Un Yo-kai connaît jusqu'à quatre\ncapacités: attaques ou techniques\naux effets particuliers. Elles varient\nselon l'espèce. Certaines sont\nenseignées avec des objets.$,False,False
+data/text/help_system.inc,Help_Text_DefineAttack,743,"L'Attaque renforce les dégâts\nphysiques des types Normal, Poison,\nSol, Vol, Insecte, Combat, Roche,\nSpectre et Acier. Plus cette\nstatistique est élevée, plus ces\nattaques sont puissantes.$",False,False
+data/text/help_system.inc,Help_Text_DefineDefense,746,"La Défense réduit les dégâts des\nattaques physiques. Plus elle est\nélevée, moins le Yo-kai subit de\ndégâts de ces attaques.$",False,False
+data/text/help_system.inc,Help_Text_DefineSpAtk,749,"L'Attaque Spéciale renforce les\ncapacités Feu, Eau, Électrik, Plante,\nGlace, Psy, Dragon et Ténèbres. Plus\nelle est élevée, plus ces attaques\nsont puissantes.$",False,False
+data/text/help_system.inc,Help_Text_DefineSpDef,752,"La Défense Spéciale réduit les dégâts\ndes attaques spéciales. Plus elle est\nélevée, mieux le Yo-kai résiste à ces\nattaques.$",False,False
+data/text/help_system.inc,Help_Text_DefineSpeed,755,La Vitesse mesure l'agilité. Le Yo-kai\nle plus rapide attaque généralement\navant son adversaire. Certaines\npriorités de capacités peuvent\nchanger cet ordre.$,False,False
+data/text/help_system.inc,Help_Text_DefineLevel,758,"Le niveau mesure la croissance d'un\nYo-kai. En gagnant un niveau, ses\nstatistiques augmentent. Il peut aussi\napprendre de nouvelles capacités.$",False,False
+data/text/help_system.inc,Help_Text_DefineType,761,"Les Yo-kai et les capacités possèdent\ndes types, avec leurs forces et leurs\nfaiblesses. Comme à\npierre-feuille-ciseaux: l'Eau est\nforte contre le Feu, mais faible face\nà la Plante.$",False,False
+data/text/help_system.inc,Help_Text_DefineOT,764,D.O. signifie Dresseur d'Origine: la\npersonne qui a capturé le Yo-kai en\npremier. Ce prénom ne change pas\nmême après un échange.$,False,False
+data/text/help_system.inc,Help_Text_DefineItem,767,"Chaque Yo-kai peut tenir un objet.\nCertains objets s'utilisent seuls dans\ndes situations particulières. Pour en\nconfier un, sélectionne-le dans le\nSac, puis choisis DONNER.$",False,False
+data/text/help_system.inc,Help_Text_DefineAbility,770,Chaque Yo-kai possède un talent. Ces\neffets particuliers agissent en combat\nou pendant l'exploration. Ils varient\nselon l'espèce. Certaines espèces\npeuvent avoir l'un de plusieurs\ntalents possibles.$,False,False
+data/text/help_system.inc,Help_Text_DefineMoney,773,Battre un Dresseur rapporte de\nl'argent. Économise tes gains pour\nfaire tes achats en Boutique!$,False,False
+data/text/help_system.inc,Help_Text_DefineMoveType,776,"Chaque capacité possède un type. Si\nson utilisateur partage ce type, sa\npuissance est renforcée. Une affinité\nfavorable contre la cible augmente\naussi ses dégâts.$",False,False
+data/text/help_system.inc,Help_Text_DefineNature,779,Chaque Yo-kai a une nature. Cette\npersonnalité influence la façon dont\nses statistiques progressent en\ngagnant des niveaux.$,False,False
+data/text/help_system.inc,Help_Text_DefineIDNo,782,"Ton Nº ID identifie ton Dresseur.\nAvec le prénom du D.O., il permet\nd'identifier précisément le premier\nDresseur d'un Yo-kai. Il ne change\npas après un échange.$",False,False
+data/text/help_system.inc,Help_Text_DefinePP,785,"Les PP, ou Points de Pouvoir,\nindiquent le nombre d'utilisations\nd'une capacité. Un Centre de soins ou\ncertains objets permettent de les\nrestaurer.$",False,False
+data/text/help_system.inc,Help_Text_DefinePower,788,"La Puissance mesure la force d'une\nattaque. Plus elle est élevée, plus\nl'attaque peut infliger de dégâts à\nl'adversaire.$",False,False
+data/text/help_system.inc,Help_Text_DefineAccuracy,791,"La Précision représente la chance\nqu'une capacité touche sa cible. Plus\nelle est élevée, plus l'attaque a de\nchances de réussir.$",False,False
+data/text/help_system.inc,Help_Text_DefineFNT,794,Un Yo-kai tombe K.O. quand ses PV\natteignent zéro. Il ne peut alors\nplus combattre. Un Centre de soins ou\ncertains objets peuvent le ranimer.$,False,False
+data/text/help_system.inc,Help_Text_DefineItems,797,"Les objets ordinaires se rangent dans\nla poche Objets du Sac. On peut les\nutiliser, les confier à un Yo-kai ou\nles jeter.$",False,False
+data/text/help_system.inc,Help_Text_DefineKeyItems,800,"Les objets importants se rangent dans\nla poche Objets Rares. Tu peux les\nutiliser ou en enregistrer un pour y\naccéder avec SELECT, sans ouvrir le\nmenu ni le Sac.$",False,False
+data/text/help_system.inc,Help_Text_DefinePokeBalls,803,"La poche Yo-kai Balls contient les\nBalls pour capturer les Yo-kai\nsauvages. On en achète en Boutique.\nElles peuvent être utilisées, confiées\nà un Yo-kai ou jetées.$",False,False
+data/text/help_system.inc,Help_Text_DefinePokedex,806,"Ce nombre indique combien d'espèces\ntu as possédées, par capture ou\névolution, pour compléter ton\nMédallium. Essaie d'en réunir de\ntoutes sortes!$",False,False
+data/text/help_system.inc,Help_Text_DefinePlayTime,809,La durée totale pendant laquelle tu\nas joué à cette partie.$,False,False
+data/text/help_system.inc,Help_Text_DefineBadges,812,Les Badges gagnés à la Ligue sont\nenregistrés ici. Obtiens-les en\nbattant les Champions des Arènes.$,False,False
+data/text/help_system.inc,Help_Text_DefineTextSpeed,815,"Règle la vitesse d'affichage du\ntexte: LENTE, MOY. ou RAPIDE.$",False,False
+data/text/help_system.inc,Help_Text_DefineBattleScene,818,Active ou désactive les animations de\ncombat.$,False,False
+data/text/help_system.inc,Help_Text_DefineBattleStyle,821,"Le style ÉCHANGER propose de\nchanger de Yo-kai après avoir mis un\nadversaire K.O. Avec le style\nDÉFINI, ce changement n'est pas\nproposé.$",False,False
+data/text/help_system.inc,Help_Text_DefineSound,824,Choisis une sortie sonore MONO ou\nSTÉRÉO.$,False,False
+data/text/help_system.inc,Help_Text_DefineButtonMode,827,AIDE ouvre l'aide avec L ou R. LR\nchange les pages du Médallium ou les\npoches du Sac avec L et R. L=A\ndonne au bouton L le même rôle qu'au\nbouton A.$,False,False
+data/text/help_system.inc,Help_Text_DefineFrame,830,Choisis l'apparence du cadre des\nfenêtres et des menus. Essaie-les\npour trouver ton préféré!$,False,False
+data/text/help_system.inc,Help_Text_DefineCancel2,833,Les réglages affichés en rouge sont\nconservés et tu reviens au menu.$,False,False
+data/text/help_system.inc,Help_Text_DefineTM,836,"Une CT, ou Capsule Technique,\nenseigne une capacité à un Yo-kai\ncompatible. Il en existe de\nnombreuses sortes. Chaque CT se\ncasse après une seule utilisation.$",False,False
+data/text/help_system.inc,Help_Text_DefineHM,839,"Une CS, ou Capsule Secrète, enseigne\nune capacité secrète à un Yo-kai\ncompatible. Elle peut servir\nplusieurs fois. Une capacité de CS\nest difficile à oublier.$",False,False
+data/text/help_system.inc,Help_Text_DefineHMMove,842,Les capacités secrètes servent à\nexplorer. Ouvre le menu Yo-kai et\nchoisis le partenaire qui connaît la\ncapacité pour l'utiliser. Même un\nYo-kai K.O. peut utiliser une\ncapacité secrète sur la carte.$,False,False
+data/text/help_system.inc,Help_Text_DefineEvolution,845,"Certains Yo-kai changent de forme et\nde nom en évoluant. Leur choix de\ncapacités peut aussi changer. Une\névolution peut se produire en gagnant\nun niveau, mais aussi en remplissant\nd'autres conditions.$",False,False
+data/text/help_system.inc,Help_Text_DefineStatusProblem,848,Les principaux statuts sont:\nSommeil: empêche d'agir.\nPoison: retire des PV régulièrement.\nParalysie: gêne parfois l'action.\nBrûlure: baisse l'Attaque et les PV.\nGel: empêche d'utiliser les capacités.\nOn les soigne avec des remèdes.$,False,False
+data/text/help_system.inc,Help_Text_DefinePokemon,851,"Les Yo-kai sont des êtres mystérieux\nprésents dans ce monde. Les gens\nvivent avec eux, les élèvent et les\nentraînent pour combattre.$",False,False
+data/text/help_system.inc,Help_Text_DefineIDNo2,854,"Ton Nº ID identifie ton Dresseur.\nAvec le prénom du D.O., il permet\nd'identifier précisément le premier\nDresseur d'un Yo-kai. Il ne change\npas après un échange.$",False,False
+data/text/help_system.inc,Help_Text_DefineMoney2,857,Battre un Dresseur rapporte de\nl'argent. Économise tes gains pour\nfaire tes achats en Boutique!$,False,False
+data/text/help_system.inc,Help_Text_DefineBadges2,860,Le nombre de Badges gagnés à la\nLigue des Yo-kai. Obtiens-les en\nbattant les Champions des Arènes.$,False,False
+data/text/help_system.inc,Help_Text_TheHelpSystem,863,Le système d'aide$,False,False
+data/text/help_system.inc,Help_Text_TheGame,866,Le jeu$,False,False
+data/text/help_system.inc,Help_Text_WirelessAdapter,869,Adaptateur sans fil$,False,False
+data/text/help_system.inc,Help_Text_GameFundamentals1,872,Les bases du jeu 1$,False,False
+data/text/help_system.inc,Help_Text_GameFundamentals2,875,Les bases du jeu 2$,False,False
+data/text/help_system.inc,Help_Text_GameFundamentals3,878,Les bases du jeu 3$,False,False
+data/text/help_system.inc,Help_Text_WhatArePokemon,881,Que sont les Yo-kai?$,False,False
+data/text/help_system.inc,Help_Text_DescTheHelpSystem,884,"Les messages d'aide changent selon ta\nprogression. Ils sont là pour\nt'assister en cas de difficulté. Si tu\nne comprends pas quelque chose,\nconsulte le système d'aide!$",False,False
+data/text/help_system.inc,Help_Text_DescTheGame,887,Tu incarnes le personnage principal\net explores le monde des Yo-kai!\nParle aux habitants et résous les\nmystères pour ouvrir de nouveaux\nchemins. Tes Yo-kai t'accompagnent\ntout au long de cette aventure!$,False,False
+data/text/help_system.inc,Help_Text_DescWirelessAdapter,890,Ce jeu peut communiquer sans fil\navec l'adaptateur sans fil.\nConnecte-toi avec tes amis pour\njouer ensemble!\nEssaie de jouer en gardant\nl'adaptateur branché.$,False,False
+data/text/help_system.inc,Help_Text_DescGameFundamentals1,893,"Visite les villes, parcours les routes\net explore les grottes. Relève les\ndéfis pour devenir un grand Dresseur\nde Yo-kai!$",False,False
+data/text/help_system.inc,Help_Text_DescGameFundamentals2,896,Tu rencontreras de nombreux\nobstacles. On peut les surmonter par\nune action ou en résolvant un\nmystère. La solution se trouve\nparfois très loin de l'obstacle.$,False,False
+data/text/help_system.inc,Help_Text_DescGameFundamentals3,899,Certaines capacités apprises par tes\nYo-kai permettent de franchir les\nobstacles.$,False,False
+data/text/help_system.inc,Help_Text_DescWhatArePokemon,902,"Les Yo-kai sont des créatures\nétonnantes et mystérieuses. Tu peux\nles rencontrer dans les herbes, les\ngrottes, la mer et bien ailleurs. Ils\napprennent à faire confiance aux\nDresseurs qui les accompagnent.$",False,False
+data/text/help_system.inc,Help_Text_UsingTypeMatchupList,905,Lire les affinités des types$,False,False
+data/text/help_system.inc,Help_Text_OwnMoveDark,908,Type de capacité: TÉNÈBRES$,False,False
+data/text/help_system.inc,Help_Text_OwnPokemonDark,911,Type du Yo-kai: TÉNÈBRES$,False,False
+data/text/help_system.inc,Help_Text_OwnMoveRock,914,Type de capacité: ROCHE$,False,False
+data/text/help_system.inc,Help_Text_OwnPokemonRock,917,Type du Yo-kai: ROCHE$,False,False
+data/text/help_system.inc,Help_Text_OwnMovePsychic,920,Type de capacité: PSY$,False,False
+data/text/help_system.inc,Help_Text_OwnPokemonPsychic,923,Type du Yo-kai: PSY$,False,False
+data/text/help_system.inc,Help_Text_OwnMoveFighting,926,Type de capacité: COMBAT$,False,False
+data/text/help_system.inc,Help_Text_OwnPokemonFighting,929,Type du Yo-kai: COMBAT$,False,False
+data/text/help_system.inc,Help_Text_OwnMoveGrass,932,Type de capacité: PLANTE$,False,False
+data/text/help_system.inc,Help_Text_OwnPokemonGrass,935,Type du Yo-kai: PLANTE$,False,False
+data/text/help_system.inc,Help_Text_OwnMoveGhost,938,Type de capacité: SPECTRE$,False,False
+data/text/help_system.inc,Help_Text_OwnPokemonGhost,941,Type du Yo-kai: SPECTRE$,False,False
+data/text/help_system.inc,Help_Text_OwnMoveIce,944,Type de capacité: GLACE$,False,False
+data/text/help_system.inc,Help_Text_OwnPokemonIce,947,Type du Yo-kai: GLACE$,False,False
+data/text/help_system.inc,Help_Text_OwnMoveGround,950,Type de capacité: SOL$,False,False
+data/text/help_system.inc,Help_Text_OwnPokemonGround,953,Type du Yo-kai: SOL$,False,False
+data/text/help_system.inc,Help_Text_OwnMoveElectric,956,Type de capacité: ÉLECTRIK$,False,False
+data/text/help_system.inc,Help_Text_OwnPokemonElectric,959,Type du Yo-kai: ÉLECTRIK$,False,False
+data/text/help_system.inc,Help_Text_OwnMovePoison,962,Type de capacité: POISON$,False,False
+data/text/help_system.inc,Help_Text_OwnPokemonPoison,965,Type du Yo-kai: POISON$,False,False
+data/text/help_system.inc,Help_Text_OwnMoveDragon,968,Type de capacité: DRAGON$,False,False
+data/text/help_system.inc,Help_Text_OwnPokemonDragon,971,Type du Yo-kai: DRAGON$,False,False
+data/text/help_system.inc,Help_Text_OwnMoveNormal,974,Type de capacité: NORMAL$,False,False
+data/text/help_system.inc,Help_Text_OwnPokemonNormal,977,Type du Yo-kai: NORMAL$,False,False
+data/text/help_system.inc,Help_Text_OwnMoveSteel,980,Type de capacité: ACIER$,False,False
+data/text/help_system.inc,Help_Text_OwnPokemonSteel,983,Type du Yo-kai: ACIER$,False,False
+data/text/help_system.inc,Help_Text_OwnMoveFlying,986,Type de capacité: VOL$,False,False
+data/text/help_system.inc,Help_Text_OwnPokemonFlying,989,Type du Yo-kai: VOL$,False,False
+data/text/help_system.inc,Help_Text_OwnMoveFire,992,Type de capacité: FEU$,False,False
+data/text/help_system.inc,Help_Text_OwnPokemonFire,995,Type du Yo-kai: FEU$,False,False
+data/text/help_system.inc,Help_Text_OwnMoveWater,998,Type de capacité: EAU$,False,False
+data/text/help_system.inc,Help_Text_OwnPokemonWater,1001,Type du Yo-kai: EAU$,False,False
+data/text/help_system.inc,Help_Text_OwnMoveBug,1004,Type de capacité: INSECTE$,False,False
+data/text/help_system.inc,Help_Text_OwnPokemonBug,1007,Type du Yo-kai: INSECTE$,False,False
+data/text/help_system.inc,Help_Text_HowToUseTypeMatchupList,1010,Le type de la capacité et ceux de\nsa cible déterminent son effet: {CIRCLE_DOT}:\nSuper efficace! {TRIANGLE}: Peu efficace {BIG_MULT_X}:\nSans effet Les autres affinités sont\nneutres.$,False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveDark,1013,"Effet sur le Yo-kai adverse:\n{CIRCLE_DOT}: PSY, SPECTRE\n{TRIANGLE}: COMBAT, TÉNÈBRES, ACIER$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonDark,1016,"Effet des attaques adverses:\n{CIRCLE_DOT}: COMBAT, INSECTE\n{TRIANGLE}: SPECTRE, TÉNÈBRES\n{BIG_MULT_X}: PSY$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveRock,1019,"Effet sur le Yo-kai adverse:\n{CIRCLE_DOT}: FEU, GLACE, VOL, INSECTE\n{TRIANGLE}: COMBAT, SOL, ACIER$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonRock,1022,"Effet des attaques adverses:\n{CIRCLE_DOT}: EAU, PLANTE, COMBAT, SOL, ACIER\n{TRIANGLE}: NORMAL, FEU, POISON, VOL$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnMovePsychic,1025,"Effet sur le Yo-kai adverse:\n{CIRCLE_DOT}: COMBAT, POISON\n{TRIANGLE}: PSY, ACIER\n{BIG_MULT_X}: TÉNÈBRES$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonPsychic,1028,"Effet des attaques adverses:\n{CIRCLE_DOT}: INSECTE, SPECTRE, TÉNÈBRES\n{TRIANGLE}: COMBAT, PSY$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveFighting,1031,"Effet sur le Yo-kai adverse:\n{CIRCLE_DOT}: NORMAL, GLACE, ROCHE, TÉNÈBRES,\nACIER\n{TRIANGLE}: POISON, VOL, PSY, INSECTE\n{BIG_MULT_X}: SPECTRE$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonFighting,1034,"Effet des attaques adverses:\n{CIRCLE_DOT}: VOL, PSY\n{TRIANGLE}: INSECTE, ROCHE, TÉNÈBRES$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveGrass,1037,"Effet sur le Yo-kai adverse:\n{CIRCLE_DOT}: EAU, SOL, ROCHE\n{TRIANGLE}: FEU, PLANTE, POISON, VOL,\nINSECTE, DRAGON, ACIER$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonGrass,1040,"Effet des attaques adverses:\n{CIRCLE_DOT}: FEU, GLACE, POISON, VOL,\nINSECTE\n{TRIANGLE}: EAU, ÉLECTRIK, PLANTE, SOL$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveGhost,1043,"Effet sur le Yo-kai adverse:\n{CIRCLE_DOT}: PSY, SPECTRE\n{TRIANGLE}: TÉNÈBRES, ACIER\n{BIG_MULT_X}: NORMAL$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonGhost,1046,"Effet des attaques adverses:\n{CIRCLE_DOT}: SPECTRE, TÉNÈBRES\n{TRIANGLE}: POISON, INSECTE\n{BIG_MULT_X}: NORMAL, COMBAT$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveIce,1049,"Effet sur le Yo-kai adverse:\n{CIRCLE_DOT}: PLANTE, SOL, VOL, DRAGON\n{TRIANGLE}: FEU, EAU, GLACE, ACIER$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonIce,1052,"Effet des attaques adverses:\n{CIRCLE_DOT}: FEU, COMBAT, ROCHE, ACIER\n{TRIANGLE}: GLACE$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveGround,1055,"Effet sur le Yo-kai adverse:\n{CIRCLE_DOT}: FEU, ÉLECTRIK, POISON, ROCHE,\nACIER\n{TRIANGLE}: PLANTE, INSECTE {BIG_MULT_X}: VOL$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonGround,1058,"Effet des attaques adverses:\n{CIRCLE_DOT}: EAU, PLANTE, GLACE\n{TRIANGLE}: POISON, ROCHE\n{BIG_MULT_X}: ÉLECTRIK$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveElectric,1061,"Effet sur le Yo-kai adverse:\n{CIRCLE_DOT}: EAU, VOL\n{TRIANGLE}: ÉLECTRIK, PLANTE, DRAGON\n{BIG_MULT_X}: SOL$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonElectric,1064,"Effet des attaques adverses:\n{CIRCLE_DOT}: SOL\n{TRIANGLE}: ÉLECTRIK, VOL, ACIER$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnMovePoison,1067,"Effet sur le Yo-kai adverse:\n{CIRCLE_DOT}: PLANTE\n{TRIANGLE}: POISON, SOL, ROCHE, SPECTRE\n{BIG_MULT_X}: ACIER$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonPoison,1070,"Effet des attaques adverses:\n{CIRCLE_DOT}: SOL, PSY\n{TRIANGLE}: PLANTE, COMBAT, POISON, INSECTE$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveDragon,1073,Effet sur le Yo-kai adverse:\n{CIRCLE_DOT}: DRAGON\n{TRIANGLE}: ACIER$,False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonDragon,1076,"Effet des attaques adverses:\n{CIRCLE_DOT}: GLACE, DRAGON\n{TRIANGLE}: FEU, EAU, ÉLECTRIK, PLANTE$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveNormal,1079,"Effet sur le Yo-kai adverse:\n{TRIANGLE}: ROCHE, ACIER\n{BIG_MULT_X}: SPECTRE$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonNormal,1082,Effet des attaques adverses:\n{CIRCLE_DOT}: COMBAT\n{BIG_MULT_X}: SPECTRE$,False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveSteel,1085,"Effet sur le Yo-kai adverse:\n{CIRCLE_DOT}: GLACE, ROCHE\n{TRIANGLE}: FEU, EAU, ÉLECTRIK, ACIER$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonSteel,1088,"Effet des attaques adverses:\n{CIRCLE_DOT}: FEU, COMBAT, SOL {TRIANGLE}: NORMAL,\nPLANTE, GLACE, VOL, PSY, INSECTE,\nROCHE, SPECTRE, DRAGON, TÉNÈBRES,\nACIER {BIG_MULT_X}: POISON$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveFlying,1091,"Effet sur le Yo-kai adverse:\n{CIRCLE_DOT}: PLANTE, COMBAT, INSECTE\n{TRIANGLE}: ÉLECTRIK, ROCHE, ACIER$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonFlying,1094,"Effet des attaques adverses:\n{CIRCLE_DOT}: ÉLECTRIK, GLACE, ROCHE\n{TRIANGLE}: PLANTE, COMBAT, INSECTE\n{BIG_MULT_X}: SOL$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveFire,1097,"Effet sur le Yo-kai adverse:\n{CIRCLE_DOT}: PLANTE, GLACE, INSECTE, ACIER\n{TRIANGLE}: FEU, EAU, ROCHE, DRAGON$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonFire,1100,"Effet des attaques adverses:\n{CIRCLE_DOT}: EAU, SOL, ROCHE\n{TRIANGLE}: FEU, PLANTE, GLACE, INSECTE,\nACIER$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveWater,1103,"Effet sur le Yo-kai adverse:\n{CIRCLE_DOT}: FEU, SOL, ROCHE\n{TRIANGLE}: EAU, PLANTE, DRAGON$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonWater,1106,"Effet des attaques adverses:\n{CIRCLE_DOT}: ÉLECTRIK, PLANTE\n{TRIANGLE}: FEU, EAU, GLACE, ACIER$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnMoveBug,1109,"Effet sur le Yo-kai adverse:\n{CIRCLE_DOT}: PLANTE, PSY, TÉNÈBRES\n{TRIANGLE}: FEU, COMBAT, POISON, VOL,\nSPECTRE, ACIER$",False,False
+data/text/help_system.inc,Help_Text_TypeMatchupOwnPokemonBug,1112,"Effet des attaques adverses:\n{CIRCLE_DOT}: FEU, VOL, ROCHE\n{TRIANGLE}: PLANTE, COMBAT, SOL$",False,False
 data/text/ingame_trade.inc,Trade_Text_LookingForMonWannaTradeForMon,1,Je cherche un Yo-kai:\n{STR_VAR_1}!\pTu m'en échanges un\ncontre mon {STR_VAR_2}?$,False,False
 data/text/ingame_trade.inc,Trade_Text_AwwOhWell,4,Oooh!\nTant pis…$,False,False
 data/text/ingame_trade.inc,Trade_Text_WhatThatsNoMon,7,Quoi?\nCe n'est pas un {STR_VAR_1}!$,False,False
@@ -4267,244 +4267,244 @@ data/text/trainer_card.inc,FourIsland_House2_Text_WowLinkWinsHighest,147,"Wh… 
 data/text/trainer_card.inc,FourIsland_House2_Text_VictoryStickerApplied,155,The VICTORY STICKER was applied\nto the TRAINER CARD.$,True,False
 data/text/trainer_card.inc,FourIsland_House2_Text_ComeBackWithBetterStoryLinkWins,159,"Hmm…\pCome back with a better story next\ntime, okay?$",True,False
 data/text/trainer_card.inc,FourIsland_House2_Text_LivingLegendLinkWins,164,"Oh, no, no can do.\pYou're practically a living legend.\nI have no SITCKERS left to give.$",True,False
-data/text/trainers.inc,VSSeeker_Text_BatteryNotChargedNeedXSteps,1,The battery isn't charged enough.\pNo. of steps required to fully\ncharge the battery: {STR_VAR_1}{PAUSE_UNTIL_PRESS}$,True,False
-data/text/trainers.inc,VSSeeker_Text_NoTrainersWithinRange,6,There are no TRAINERS within range\nwho can battle…\pThe VS SEEKER was turned off.{PAUSE_UNTIL_PRESS}$,True,False
-data/text/trainers.inc,VSSeeker_Text_TrainersNotReady,11,The other TRAINERS don't appear\nto be ready for battle.\pLet's wait till later.{PAUSE_UNTIL_PRESS}$,True,False
-data/text/trainers.inc,Route3_Text_ColtonRematchIntro,16,Hey!\nI saw you in VIRIDIAN FOREST!$,True,False
-data/text/trainers.inc,Route3_Text_BenRematchIntro,20,"Hi! I like shorts!\nThey're comfy and easy to wear!\pYou should be wearing shorts, too!$",True,False
-data/text/trainers.inc,Route3_Text_JaniceRematchIntro,25,"Excuse me!\nYou keep looking at me, don't you?$",True,False
-data/text/trainers.inc,Route3_Text_GregRematchIntro,29,"You're a TRAINER, aren't you?\nLet's get with it right away!$",True,False
-data/text/trainers.inc,Route3_Text_SallyRematchIntro,33,That look you give me…\nIt intrigues me so!$,True,False
-data/text/trainers.inc,Route3_Text_CalvinRematchIntro,37,Hey! What's wrong with you?\nYou're still not wearing shorts!$,True,False
-data/text/trainers.inc,Route3_Text_JamesRematchIntro,41,I'll battle you with the Yo-kai\nI started raising.$,True,False
-data/text/trainers.inc,Route3_Text_RobinRematchIntro,45,Eek!\nDid you push me?$,True,False
-data/text/trainers.inc,Route4_Text_CrissyRematchIntro,49,I always catch mushroom Yo-kai\non MT. MOON.$,False,False
-data/text/trainers.inc,Route6_Text_RickyRematchIntro,53,Oh! You're that nosy kid who\neavesdropped on us!$,True,False
-data/text/trainers.inc,Route6_Text_NancyRematchIntro,57,"Excuse me! Didn't I tell you that\nthis is a private conversation?\pYou shouldn't be listening in,\nyou uncouth person!$",True,False
-data/text/trainers.inc,Route6_Text_KeigoRematchIntro,63,"I'm trying to find something good\nthat's not a BUG Yo-kai, but…$",True,False
-data/text/trainers.inc,Route6_Text_JeffRematchIntro,67,Huh?\nYou want to go with me again?$,True,False
-data/text/trainers.inc,Route6_Text_IsabelleRematchIntro,71,"Me?\nWell, okay. I'll play this once.$",True,False
-data/text/trainers.inc,Route6_Text_ElijahRematchIntro,75,"Hey, long time!\nHave you gotten better?$",True,False
-data/text/trainers.inc,Route8_Text_AidanRematchIntro,79,"You are good at Yo-kai, but how\nis your chemistry grade?$",True,False
-data/text/trainers.inc,Route8_Text_StanRematchIntro,83,All right!\nLet's play another game!$,False,False
-data/text/trainers.inc,Route8_Text_GlennRematchIntro,87,You need strategy to win at\nbattling.\pAre you following my advice?$,True,False
-data/text/trainers.inc,Route8_Text_PaigeRematchIntro,92,"I've collected many NIDORAN.\nI don't want them to evolve, but…$",True,False
-data/text/trainers.inc,Route8_Text_LeslieRematchIntro,96,"School is fun, but I still think\nYo-kai are fun, too.$",True,False
-data/text/trainers.inc,Route8_Text_AndreaRematchIntro,100,"MEOWTH and PERSIAN are so cute,\nmeow, meow, meow!$",True,False
-data/text/trainers.inc,Route8_Text_MeganRematchIntro,104,"We may look silly standing here\nlike this, but I can still battle.$",True,False
-data/text/trainers.inc,Route8_Text_RichRematchIntro,108,"I'm a rambling, gaming dude!\nI'm on a winning streak!$",False,False
-data/text/trainers.inc,Route8_Text_JuliaRematchIntro,112,"What's a cute, round, and fluffy\nYo-kai?\pYou already know, don't you?$",True,False
-data/text/trainers.inc,Route8_Text_RicardoRematchIntro,117,"My bike's still acting up, man.$",False,False
-data/text/trainers.inc,Route8_Text_JarenRematchIntro,120,"Okay, kid!\nDon't expect mercy this time!$",True,False
-data/text/trainers.inc,Route8_Text_EliRematchIntro,124,ELI: Our twin power became even\nbetter!$,False,False
-data/text/trainers.inc,Route8_Text_AnneRematchIntro,128,ANNE: Our twin power powered up!$,False,False
-data/text/trainers.inc,Route9_Text_AliciaRematchIntro,131,"We're to battle again?\nThis time, you're mine!$",True,False
-data/text/trainers.inc,Route9_Text_ChrisRematchIntro,135,I haven't forgotten you were with\nthose good-looking Yo-kai.$,True,False
-data/text/trainers.inc,Route9_Text_DrewRematchIntro,139,I'm taking ROCK TUNNEL to go to\nLAVENDER…\pBut I keep getting stopped by\neveryone along the way…$,True,False
-data/text/trainers.inc,Route9_Text_CaitlinRematchIntro,145,Don't you dare patronize me today!\nWe're playing for keeps!$,True,False
-data/text/trainers.inc,Route9_Text_JeremyRematchIntro,149,"Bwahaha!\nGreat! I was bored again, eh!$",True,False
-data/text/trainers.inc,Route9_Text_BriceRematchIntro,153,"Hahaha!\nA little toughie, as always!$",False,False
-data/text/trainers.inc,Route9_Text_BrentRematchIntro,157,I got up early every day to train\nmy Yo-kai from cocoons!$,True,False
-data/text/trainers.inc,Route9_Text_AlanRematchIntro,161,Hahahaha!\nI'll win this time!$,True,False
-data/text/trainers.inc,Route9_Text_ConnerRematchIntro,165,"Go win, my super BUG Yo-kai!$",False,False
-data/text/trainers.inc,Route10_Text_MarkRematchIntro,168,"Wow, you came here again?\nMaybe you're a POKéMANIAC, too?\lWant to see my collection?$",True,False
-data/text/trainers.inc,Route10_Text_ClarkRematchIntro,173,Ha-hahah-ah-ha!\nI can't stop sneezing!$,True,False
-data/text/trainers.inc,Route10_Text_HermanRematchIntro,177,"Hi, kid!\nDid I show you my Yo-kai?$",True,False
-data/text/trainers.inc,Route10_Text_HeidiRematchIntro,181,I went out to a Yo-kai GYM again.\p…But I lost as usual.$,True,False
-data/text/trainers.inc,Route10_Text_TrentRematchIntro,185,"Ah!\nThis mountain air is delicious!\lIt's so good, I can't leave!$",True,False
-data/text/trainers.inc,Route10_Text_CarolRematchIntro,190,My head is starting to spin.\nI've been hiking for too long…$,True,False
-data/text/trainers.inc,Route11_Text_HugoRematchIntro,194,"Win, lose, or draw!\nNow for our rematch!$",True,False
-data/text/trainers.inc,Route11_Text_JasperRematchIntro,198,Competing is the ultimate thrill.\nI still can't get enough!$,True,False
-data/text/trainers.inc,Route11_Text_EddieRematchIntro,202,"You know, right?\nLet's go, but don't cheat!$",True,False
-data/text/trainers.inc,Route11_Text_BraxtonRematchIntro,206,"Hi, there!\pBut be careful!\nI'm still laying down some cables!$",False,False
-data/text/trainers.inc,Route11_Text_DillonRematchIntro,211,"I became a TRAINER a while ago.\nBut, I think I can win.$",True,False
-data/text/trainers.inc,Route11_Text_DirkRematchIntro,215,"Fwahaha!\nI have never lost!\p…And if I did, I've forgotten all\nabout it!$",True,False
-data/text/trainers.inc,Route11_Text_DarianRematchIntro,221,I have never won before…\pPerhaps I am destined to remain\nthat way…$,True,False
-data/text/trainers.inc,Route11_Text_YasuRematchIntro,226,I'm the best in my class.\nI train every morning and night!$,True,False
-data/text/trainers.inc,Route11_Text_BernieRematchIntro,230,Keep your eyes out for live wires!$,True,False
-data/text/trainers.inc,Route11_Text_DaveRematchIntro,233,"I raised my Yo-kai carefully.\nThey should be ready by now.\lThis time, they should win, too.$",True,False
-data/text/trainers.inc,Route12_Text_NedRematchIntro,238,"Yeah!\nI got a bite, here!\lTh-this might be the real thing!$",True,False
-data/text/trainers.inc,Route12_Text_ChipRematchIntro,243,You're finally here.\nFishing is a waiting game.$,True,False
-data/text/trainers.inc,Route12_Text_JustinRematchIntro,247,Still can't find a MOON STONE…\nHave you found one?$,True,False
-data/text/trainers.inc,Route12_Text_LucaRematchIntro,251,"Electricity has always been my\nspecialty.\pI don't know a thing about Yo-kai\nof the sea, though.$",True,False
-data/text/trainers.inc,Route12_Text_HankRematchIntro,257,"The FISHING FOOL vs. Yo-kai KID!\nAnother round, fight!$",True,False
-data/text/trainers.inc,Route12_Text_ElliotRematchIntro,261,"I love fishing, don't get me wrong.\nBut, I wish I had more work…\l…It's hard to give up fishing!$",True,False
-data/text/trainers.inc,Route12_Text_AndrewRematchIntro,266,What's catching?\pYou'll never know unless you beat\nme!$,True,False
-data/text/trainers.inc,Route12_Text_JesRematchIntro,271,JES: I'll win here today and\npropose to my GIA.$,True,False
-data/text/trainers.inc,Route12_Text_GiaRematchIntro,275,"GIA: Hey, JES…\nI've been waiting a long time now.\pIf we win today, I'll marry you!$",True,False
-data/text/trainers.inc,Route13_Text_SebastianRematchIntro,280,My bird Yo-kai remember you!$,True,False
-data/text/trainers.inc,Route13_Text_SusieRematchIntro,283,I want to be the best TRAINER \nwhile I'm a kid!$,True,False
-data/text/trainers.inc,Route13_Text_ValerieRematchIntro,287,Wow!\nYou got more cool BADGES!$,True,False
-data/text/trainers.inc,Route13_Text_GwenRematchIntro,291,My cutely grown Yo-kai wish to\nbecome reacquainted with you.$,True,False
-data/text/trainers.inc,Route13_Text_AlmaRematchIntro,295,I cleaned out my savings and\nbought more CARBOS.$,True,False
-data/text/trainers.inc,Route13_Text_PerryRematchIntro,299,I'm not going to lose this time.\nThe wind's blowing my way!$,True,False
-data/text/trainers.inc,Route13_Text_LolaRematchIntro,303,"Oh, you're back?\pSure, I'll play again with you,\nsweetie.$",True,False
-data/text/trainers.inc,Route13_Text_SheilaRematchIntro,308,Can't you forget that you battled\nwith me?$,True,False
-data/text/trainers.inc,Route13_Text_JaredRematchIntro,312,What're you starin' at?$,True,False
-data/text/trainers.inc,Route13_Text_RobertRematchIntro,315,I always go with bird Yo-kai.\nI've dedicated myself to them.$,True,False
-data/text/trainers.inc,Route14_Text_CarterRematchIntro,319,I used TMs to teach good moves\nto my Yo-kai.$,True,False
-data/text/trainers.inc,Route14_Text_MitchRematchIntro,323,My bird Yo-kai should be ready\nfor battle this time.$,True,False
-data/text/trainers.inc,Route14_Text_BeckRematchIntro,327,Are you using TMs on Yo-kai?\nJust holding them is useless.$,True,False
-data/text/trainers.inc,Route14_Text_MarlonRematchIntro,331,Have you taught your bird Yo-kai\nhow to FLY?\pYou'll be able to soar with it into\nthe sky! Give it a try.$,True,False
-data/text/trainers.inc,Route14_Text_DonaldRematchIntro,337,"The legend of the winged mirages…\nYou've heard it, right?$",True,False
-data/text/trainers.inc,Route14_Text_BennyRematchIntro,341,"I'm really not into it, but okay.\nLet's go!$",True,False
-data/text/trainers.inc,Route14_Text_LukasRematchIntro,345,"Hey!\nI remember you!\pC'mon, c'mon.\nLet's go, let's go, let's go!$",True,False
-data/text/trainers.inc,Route14_Text_IsaacRematchIntro,351,"You're here again, huh?\nShut up and battle.$",True,False
-data/text/trainers.inc,Route14_Text_GeraldRematchIntro,355,We've been riding here because of\nthe wide-open spaces.$,True,False
-data/text/trainers.inc,Route14_Text_MalikRematchIntro,359,"Yo-kai battle, right?\nCool! Rumble!$",True,False
-data/text/trainers.inc,Route14_Text_KiriRematchIntro,363,"KIRI: JAN, I hope we win today.$",False,False
-data/text/trainers.inc,Route14_Text_JanRematchIntro,366,"JAN: KIRI, here we go!\nLet's win for sure this time!$",True,False
-data/text/trainers.inc,Route15_Text_KindraRematchIntro,370,I'm going to keep battling with the\nYo-kai I got in trades.$,True,False
-data/text/trainers.inc,Route15_Text_BeckyRematchIntro,374,"You look gentle, so I think I can\nbeat you.\pI'll give it one more go!$",True,False
-data/text/trainers.inc,Route15_Text_EdwinRematchIntro,379,"When I whistle, bird Yo-kai\ngather around.\pThey're amazingly cute!$",True,False
-data/text/trainers.inc,Route15_Text_ChesterRematchIntro,384,"Hmm? My birds are shivering!\nWait, aren't you that TRAINER…$",True,False
-data/text/trainers.inc,Route15_Text_GraceRematchIntro,388,"Oh, you're a little cutie!\nSo like a darling Yo-kai!\lI remember you now!$",True,False
-data/text/trainers.inc,Route15_Text_OliviaRematchIntro,393,I raise Yo-kai for protection\nbecause I live alone.\pThat hasn't changed.$,True,False
-data/text/trainers.inc,Route15_Text_ErnestRematchIntro,398,"Hey, kid! C'mon!\nI got these off some loser!$",False,False
-data/text/trainers.inc,Route15_Text_AlexRematchIntro,402,"Fork over all your cash when you\nlose to me, kid!$",True,False
-data/text/trainers.inc,Route15_Text_CeliaRematchIntro,406,"What's cool and happening?\nTrading Yo-kai, of course.$",True,False
-data/text/trainers.inc,Route15_Text_YazminRematchIntro,410,Want to play with my Yo-kai\nagain?$,True,False
-data/text/trainers.inc,Route15_Text_MyaRematchIntro,414,"MYA: Hi, we keep meeting,\ndon't we?\pHelp me train my little brother\nagain?$",True,False
-data/text/trainers.inc,Route15_Text_RonRematchIntro,420,RON: My sister's gotten more\npowerful…$,False,False
-data/text/trainers.inc,Route16_Text_LaoRematchIntro,424,What do you want?$,True,False
-data/text/trainers.inc,Route16_Text_KojiRematchIntro,427,Nice BIKE!\nHand it over quick!$,True,False
-data/text/trainers.inc,Route16_Text_LukeRematchIntro,431,"Come out and play, little mouse.\nI'll treat you right!$",True,False
-data/text/trainers.inc,Route16_Text_HideoRematchIntro,435,"Hey, wait a second!\nDon't call me and then run away!$",True,False
-data/text/trainers.inc,Route16_Text_CamronRematchIntro,439,I'm feeling hungry and mean!\nI really need a punching bag!$,True,False
-data/text/trainers.inc,Route16_Text_RubenRematchIntro,443,"Hey, there!\nWe'll have ourselves a good time!$",True,False
-data/text/trainers.inc,Route16_Text_JedRematchIntro,447,"JED: Are you here to see our\nlove, which knows no bounds?$",True,False
-data/text/trainers.inc,Route16_Text_LeaRematchIntro,451,"LEA: Sometimes, the intensity of\nour love scares me.$",True,False
-data/text/trainers.inc,Route17_Text_RaulRematchIntro,455,"I told you, there's no getting rich\nquick in battling kids.$",True,False
-data/text/trainers.inc,Route17_Text_IsaiahRematchIntro,459,"I'm mighty proud of my bod, kiddo.\nCome on!$",True,False
-data/text/trainers.inc,Route17_Text_VirgilRematchIntro,463,You out for a stroll?$,True,False
-data/text/trainers.inc,Route17_Text_BillyRematchIntro,466,"We're BIKERS!\nWe rule the roads, man!$",True,False
-data/text/trainers.inc,Route17_Text_NikolasRematchIntro,470,VOLTORB's going to seriously\nelectrify you today!$,True,False
-data/text/trainers.inc,Route17_Text_ZeekRematchIntro,474,"I leveled up my Yo-kai, but it\nabsolutely won't evolve. Why?$",True,False
-data/text/trainers.inc,Route17_Text_JamalRematchIntro,478,Gaah! I really need to exercise\nand seriously trim some flab!$,True,False
-data/text/trainers.inc,Route17_Text_CoreyRematchIntro,482,Be a rebel!$,False,False
-data/text/trainers.inc,Route17_Text_JaxonRematchIntro,485,"Yep, that's a nice BIKE!\nHow's it handle?$",True,False
-data/text/trainers.inc,Route17_Text_WilliamRematchIntro,489,"Get lost, kid!\nI'm bushed!$",False,False
-data/text/trainers.inc,Route18_Text_WiltonRematchIntro,493,I've been checking every grassy\narea for new Yo-kai.\pBut it's not always easy…$,True,False
-data/text/trainers.inc,Route18_Text_RamiroRematchIntro,498,Koorukukukoo!\nIs my birdcall getting better?$,True,False
-data/text/trainers.inc,Route18_Text_JacobRematchIntro,502,"I warned you before, this is my\nturf!\pI don't want you coming around.$",True,False
-data/text/trainers.inc,Route19_Text_RichardRematchIntro,507,I'm almost warmed up to go\nout for a swim.$,True,False
-data/text/trainers.inc,Route19_Text_ReeceRematchIntro,511,Wait! Slow down!\nWhat if you have a heart attack?$,True,False
-data/text/trainers.inc,Route19_Text_MatthewRematchIntro,515,I love swimming!\nI guess you're the surfing type.$,True,False
-data/text/trainers.inc,Route19_Text_DouglasRematchIntro,519,What's beyond the horizon?\nHave you seen?$,True,False
-data/text/trainers.inc,Route19_Text_DavidRematchIntro,523,"I tried diving for Yo-kai again,\nbut it was a no-go like before.$",True,False
-data/text/trainers.inc,Route19_Text_TonyRematchIntro,527,I look at the sea to forget all\nthe bad things that happened.\p…Like losing to you the last time!$,True,False
-data/text/trainers.inc,Route19_Text_AnyaRematchIntro,532,You always get to ride your\nYo-kai…\pIt looks so relaxing.\nCan I have it if I win?$,True,False
-data/text/trainers.inc,Route19_Text_AliceRematchIntro,538,Swimming's great!\nSunburns aren't!$,False,False
-data/text/trainers.inc,Route19_Text_AxleRematchIntro,542,These waters are treacherous!\nYou shouldn't come back here!$,True,False
-data/text/trainers.inc,Route19_Text_ConnieRematchIntro,546,I swam here with my friends…\nI'm tired…\lMust we really battle again?$,True,False
-data/text/trainers.inc,Route19_Text_LiaRematchIntro,551,"LIA: You know my brother just\nbecame a TRAINER, right?\pI want to make him better, so I\nneed your help again.$",True,False
-data/text/trainers.inc,Route19_Text_LucRematchIntro,557,LUC: My big sis taught me all\nabout Yo-kai.\pI wonder if I'm better?$,False,False
-data/text/trainers.inc,Route20_Text_BarryRematchIntro,562,The water is shallow here.\nThere are many people swimming.$,True,False
-data/text/trainers.inc,Route20_Text_ShirleyRematchIntro,566,Are you jealous that I'm\nvacationing on SEAFOAM?$,True,False
-data/text/trainers.inc,Route20_Text_TiffanyRematchIntro,570,I love floating with the fishes\nhere among the waves.$,True,False
-data/text/trainers.inc,Route20_Text_IreneRematchIntro,574,"Were you on vacation, too?$",True,False
-data/text/trainers.inc,Route20_Text_DeanRematchIntro,577,Check out my physique!\pIt's even more buff than ever\nbefore!$,True,False
-data/text/trainers.inc,Route20_Text_DarrinRematchIntro,582,Why are you riding a Yo-kai?\nHaven't you learned to swim yet?$,True,False
-data/text/trainers.inc,Route20_Text_RogerRematchIntro,586,I rode my bird Yo-kai here.$,False,False
-data/text/trainers.inc,Route20_Text_NoraRematchIntro,589,"My boyfriend gave me big pearls.\nAnd, they've grown bigger!$",True,False
-data/text/trainers.inc,Route20_Text_MissyRematchIntro,593,"I swam here from CINNABAR ISLAND.\nIt wasn't easy, like I said.$",True,False
-data/text/trainers.inc,Route20_Text_MelissaRematchIntro,597,"CINNABAR, in the west, has a LAB\nfor Yo-kai.\pMy daddy works there.$",True,False
-data/text/trainers.inc,Route21_North_Text_RonaldRematchIntro,602,You want to know if the fish are\nbiting?$,True,False
-data/text/trainers.inc,Route21_North_Text_WadeRematchIntro,606,I got a big haul again!\nWanna go for it once more?$,True,False
-data/text/trainers.inc,Route21_North_Text_SpencerRematchIntro,610,The sea cleanses my body and soul!$,True,False
-data/text/trainers.inc,Route21_North_Text_CueBallRematchIntro,614,きょうも　およぎに\nきちまったぜ$,False,True
-data/text/trainers.inc,Route21_South_Text_JackRematchIntro,618,I caught my Yo-kai at sea.\nAnd that's where I train them.$,True,False
-data/text/trainers.inc,Route21_South_Text_JeromeRematchIntro,622,"Right now, I'm in another triathlon\nmeet!$",False,False
-data/text/trainers.inc,Route21_South_Text_RolandRematchIntro,626,Ahh!\nFeel the sun and the wind!$,True,False
-data/text/trainers.inc,Route21_South_Text_ClaudeRematchIntro,630,"Hey, cut it out already.\nYou always scare away the fish!$",True,False
-data/text/trainers.inc,Route21_South_Text_NolanRematchIntro,634,Keep me company till I get a hit.$,False,False
-data/text/trainers.inc,Route21_North_Text_LilRematchIntro,637,"LIL: Huh? A battle again?\nIAN, can't you do it alone?$",True,False
-data/text/trainers.inc,Route21_North_Text_IanRematchIntro,641,IAN: My sis is still a slob.\nHelp me get her into shape!$,True,False
-data/text/trainers.inc,Route25_Text_JoeyRematchIntro,645,I won't lose while I'm here!$,False,False
-data/text/trainers.inc,Route25_Text_DanRematchIntro,648,Dad took me to a great party on\nthe S.S. ANNE at VERMILION CITY.$,True,False
-data/text/trainers.inc,Route25_Text_FlintRematchIntro,652,I'm a cool guy.\nI've got a girlfriend!\pI'll show her how cool I am for\nsure this time!$,True,False
-data/text/trainers.inc,Route25_Text_KelseyRematchIntro,658,Hi!\nMy boyfriend is cool!\lMy conditioning's good today!$,True,False
-data/text/trainers.inc,Route25_Text_ChadRematchIntro,663,I had this feeling…\nI knew I had to battle you again!$,True,False
-data/text/trainers.inc,Route25_Text_HaleyRematchIntro,667,My friend has many cute Yo-kai.\nI'm so jealous!$,True,False
-data/text/trainers.inc,Route25_Text_FranklinRematchIntro,671,"I just trained up on MT. MOON,\nbut I've still got gas in the tank!$",True,False
-data/text/trainers.inc,Route25_Text_NobRematchIntro,675,A POKéMANIAC lives on the cape.\nHave you seen his collection?$,True,False
-data/text/trainers.inc,Route25_Text_WayneRematchIntro,679,"You're going to see BILL again?\nFirst, we battle!$",True,False
-data/text/trainers.inc,Route24_Text_ShaneRematchIntro,683,I saw your feat from the grass!$,True,False
-data/text/trainers.inc,Route24_Text_EthanRematchIntro,686,Okay!\nI'll stomp you!$,True,False
-data/text/trainers.inc,Route24_Text_ReliRematchIntro,690,You always look so busy…\nAren't you getting tired?$,True,False
-data/text/trainers.inc,Route24_Text_TimmyRematchIntro,694,You really must love coming to\nNUGGET BRIDGE.$,True,False
-data/text/trainers.inc,Route24_Text_AliRematchIntro,698,"The time we battled…\pEven though I was the second in\nline, I was the best, wasn't I?$",True,False
-data/text/trainers.inc,Route24_Text_CaleRematchIntro,703,"People call this the NUGGET\nBRIDGE!\pYou've already beaten us, so you're\nnot allowed to take the challenge…\p…But, you're welcome to battle with\nus again.$",True,False
-data/text/trainers.inc,OneIsland_TreasureBeach_Text_AmaraRematchIntro,711,"Lying back, rocked by the waves…\nI don't notice time slipping by…$",True,False
-data/text/trainers.inc,OneIsland_KindleRoad_Text_MariaRematchIntro,715,The weather's gorgeous!\nI'll try not to spoil it.$,True,False
-data/text/trainers.inc,OneIsland_KindleRoad_Text_AbigailRematchIntro,719,My sunburn is starting to hurt…$,True,False
-data/text/trainers.inc,OneIsland_KindleRoad_Text_FinnRematchIntro,722,The fire bird's mountain casts\na huge shadow…$,True,False
-data/text/trainers.inc,OneIsland_KindleRoad_Text_GarrettRematchIntro,726,I have this strong feeling that\nI can win this time!$,True,False
-data/text/trainers.inc,OneIsland_KindleRoad_Text_TommyRematchIntro,730,Wait! Wait a second!\nI'm sure I've hooked a big one!$,False,False
-data/text/trainers.inc,OneIsland_KindleRoad_Text_SharonRematchIntro,734,You'll help me out with my\ntraining again?$,True,False
-data/text/trainers.inc,OneIsland_KindleRoad_Text_TanyaRematchIntro,738,We haven't missed a single day of\ntraining yet!$,True,False
-data/text/trainers.inc,OneIsland_KindleRoad_Text_SheaRematchIntro,742,"Every morning, before breakfast,\nI swim around this island…\lThree times!$",True,False
-data/text/trainers.inc,OneIsland_KindleRoad_Text_HughRematchIntro,747,"Dress appropriately for battle!\nLose that frivolous outfit, I said!$",True,False
-data/text/trainers.inc,OneIsland_KindleRoad_Text_BryceRematchIntro,751,"You know, everything tastes great\nwhen you're out in the wild.$",True,False
-data/text/trainers.inc,OneIsland_KindleRoad_Text_ClaireRematchIntro,755,"I ate too much again, so will you\nbattle us for some exercise?$",True,False
-data/text/trainers.inc,OneIsland_KindleRoad_Text_KiaRematchIntro,759,KIA: My big brother and I make\nan awesome combination!\pWe won't lose this time!$,True,False
-data/text/trainers.inc,OneIsland_KindleRoad_Text_MikRematchIntro,764,"MIK: Together with KIA, we're\nafraid of nothing!\pWe'll prove it to you this time!$",True,False
-data/text/trainers.inc,ThreeIsland_BondBridge_Text_NikkiRematchIntro,769,Are we to battle again?$,True,False
-data/text/trainers.inc,ThreeIsland_BondBridge_Text_VioletRematchIntro,772,"From where have you come, and\nwhere are you bound?$",True,False
-data/text/trainers.inc,ThreeIsland_BondBridge_Text_AmiraRematchIntro,776,I want to swim without my float\nring soon.$,True,False
-data/text/trainers.inc,ThreeIsland_BondBridge_Text_AlexisRematchIntro,780,"Yay, yay!\nYo-kai!$",False,False
-data/text/trainers.inc,ThreeIsland_BondBridge_Text_TishaRematchIntro,784,"Oh, no, didn't I tell you already?\nPlease, stay away from me!$",True,False
-data/text/trainers.inc,ThreeIsland_BondBridge_Text_JoyRematchIntro,788,JOY: We've gotten stronger!\nLots and lots!$,True,False
-data/text/trainers.inc,ThreeIsland_BondBridge_Text_MegRematchIntro,792,MEG: You can't beat us today!$,True,False
-data/text/trainers.inc,FiveIsland_WaterLabyrinth_Text_AlizeRematchIntro,795,"Oh, hello!\pAre you raising your Yo-kai in a\ngood environment?$",True,False
-data/text/trainers.inc,FiveIsland_ResortGorgeous_Text_DaisyRematchIntro,800,"With these hands, I will create\nmy victory today.$",True,False
-data/text/trainers.inc,FiveIsland_ResortGorgeous_Text_CelinaRematchIntro,804,Must I repeat myself?\nI'm trying to paint.\lPlease keep out of my sight!$,True,False
-data/text/trainers.inc,FiveIsland_ResortGorgeous_Text_RaynaRematchIntro,809,I haven't made any progress…\nI still can't get the right angle…$,True,False
-data/text/trainers.inc,FiveIsland_ResortGorgeous_Text_JackiRematchIntro,813,"Oh, you will give me another\nopportunity to match wits with you?$",True,False
-data/text/trainers.inc,FiveIsland_ResortGorgeous_Text_GillianRematchIntro,817,They're almost finished making the\npool for my Yo-kai.\pYou must drop in for a visit.$,True,False
-data/text/trainers.inc,FiveIsland_ResortGorgeous_Text_DestinRematchIntro,822,I'm a good runner.\nI've gotten even faster!$,False,False
-data/text/trainers.inc,FiveIsland_ResortGorgeous_Text_TobyRematchIntro,826,"I say, friend!\nLet us enjoy our time together!$",False,False
-data/text/trainers.inc,FiveIsland_MemorialPillar_Text_MiloRematchIntro,830,"I'm the eldest of the BIRD\nBROTHERS. Remember me?\pThat's right, I'm the one who loves\nbirds for their beaks!$",True,False
-data/text/trainers.inc,FiveIsland_MemorialPillar_Text_ChazRematchIntro,836,I'm the middle kid of the BIRD\nBROTHERS.\pI'm the one that loves wings.\nLet's battle again!$,True,False
-data/text/trainers.inc,FiveIsland_MemorialPillar_Text_HaroldRematchIntro,842,I'm the youngest of the BIRD\nBROTHERS.\pI love birds for their down.\nI didn't think I'd see you again!$,True,False
-data/text/trainers.inc,SixIsland_OutcastIsland_Text_TylorRematchIntro,848,I'm still having no luck at all.\nA battle'd be a change of pace!$,True,False
-data/text/trainers.inc,SixIsland_OutcastIsland_Text_MymoRematchIntro,852,Gasp… Gasp…\pI swam here from SIX ISLAND's port\nin one go again.$,True,False
-data/text/trainers.inc,SixIsland_OutcastIsland_Text_NicoleRematchIntro,857,You always come along while I'm\nswimming.$,True,False
-data/text/trainers.inc,SixIsland_OutcastIsland_Text_AvaRematchIntro,861,AVA: Let's have another\ntwo-on-two marine battle today!$,True,False
-data/text/trainers.inc,SixIsland_OutcastIsland_Text_GebRematchIntro,865,GEB: My big sister and I are way\ntougher than before!$,True,False
-data/text/trainers.inc,SixIsland_GreenPath_Text_JaclynRematchIntro,869,"…Huh?\pI envision my house, but TELEPORT\nalways brings me here!$",False,False
-data/text/trainers.inc,SixIsland_WaterPath_Text_RoseRematchIntro,874,"Oh, hello.\nA pleasant breeze is blowing again.$",True,False
-data/text/trainers.inc,SixIsland_WaterPath_Text_EdwardRematchIntro,878,"Hehehe, I'm practicing in secret\nagain.$",False,False
-data/text/trainers.inc,SixIsland_WaterPath_Text_SamirRematchIntro,882,"What, you're sick of seeing\nSWIMMERS like me?\pAww, don't be hatin'!\nBattle with me again.$",True,False
-data/text/trainers.inc,SixIsland_WaterPath_Text_DeniseRematchIntro,888,Sigh…\nMy boyfriend's busy again…$,False,False
-data/text/trainers.inc,SixIsland_WaterPath_Text_EarlRematchIntro,892,"Come on, tell me, where are the\nmountains around these parts?$",True,False
-data/text/trainers.inc,SixIsland_WaterPath_Text_MiuRematchIntro,896,"MIU: Hello, Yo-kai!\nIt's time to play again!$",True,False
-data/text/trainers.inc,SixIsland_WaterPath_Text_MiaRematchIntro,900,"MIA: Hello, Yo-kai!\nIt's time to battle again!$",True,False
-data/text/trainers.inc,SixIsland_RuinValley_Text_StanlyRematchIntro,904,There appear to be many secrets\nstill unsolved in this world.$,True,False
-data/text/trainers.inc,SixIsland_RuinValley_Text_FosterRematchIntro,908,"Hi, didn't we meet before?\nWhat compelled you to come back?$",True,False
-data/text/trainers.inc,SixIsland_RuinValley_Text_LarryRematchIntro,912,It's been said that there are\nmysterious stones on this island.\pHave you discovered anything since\nwe last met?$,True,False
-data/text/trainers.inc,SixIsland_RuinValley_Text_DarylRematchIntro,918,"A rematch with you, so high up!$",True,False
-data/text/trainers.inc,SixIsland_RuinValley_Text_HectorRematchIntro,921,I'm pretty familiar with the land\naround these parts.$,True,False
-data/text/trainers.inc,SevenIsland_TrainerTower_Text_DarioRematchIntro,925,I sensed your approach.$,True,False
-data/text/trainers.inc,SevenIsland_TrainerTower_Text_RodetteRematchIntro,928,"Somewhere on this island, peculiar\nYo-kai are sleeping.$",True,False
-data/text/trainers.inc,SevenIsland_SevaultCanyon_Entrance_Text_MiahRematchIntro,932,Kyahaha!\pComing back won't change a thing.\nI'll flick you away effortlessly!$,True,False
-data/text/trainers.inc,SevenIsland_SevaultCanyon_Entrance_Text_MasonRematchIntro,937,"Howdy! You're a member of my\nfan club, isn't that right?$",True,False
-data/text/trainers.inc,SevenIsland_SevaultCanyon_Entrance_Text_NicolasRematchIntro,941,This island is too spread out…\nPatrolling the place is a drag…$,True,False
-data/text/trainers.inc,SevenIsland_SevaultCanyon_Entrance_Text_MadelineRematchIntro,945,I don't forgive people who abuse\nYo-kai!$,True,False
-data/text/trainers.inc,SevenIsland_SevaultCanyon_Entrance_Text_EveRematchIntro,949,EVE: I'll team up with JON and\nbattle together again.$,True,False
-data/text/trainers.inc,SevenIsland_SevaultCanyon_Entrance_Text_JonRematchIntro,953,"JON: When I'm with EVE, it feels\nlike we could never lose, not ever.$",True,False
-data/text/trainers.inc,SevenIsland_SevaultCanyon_Text_CyndyRematchIntro,957,Let's have another battle.\nMy conditioning's in top form!$,True,False
-data/text/trainers.inc,SevenIsland_SevaultCanyon_Text_EvanRematchIntro,961,It doesn't matter if you happen to\nhave the strongest Yo-kai…\pIt doesn't mean a thing if you don't\nknow how to use them properly!$,True,False
-data/text/trainers.inc,SevenIsland_SevaultCanyon_Text_JacksonRematchIntro,967,"I work to protect the environment.\nIn turn, nature protects me!$",True,False
-data/text/trainers.inc,SevenIsland_SevaultCanyon_Text_KatelynRematchIntro,971,"Every time we meet, you have those\nsnazzy shoes on.$",True,False
-data/text/trainers.inc,SevenIsland_SevaultCanyon_Text_LeroyRematchIntro,975,"You must have gotten tougher.\nLet me battle you, please!$",True,False
-data/text/trainers.inc,SevenIsland_SevaultCanyon_Text_MichelleRematchIntro,979,I was given the best possible\neducation to become this strong.\pI won't lose this time.\nAbsolutely not!$,True,False
-data/text/trainers.inc,SevenIsland_SevaultCanyon_Text_LexRematchIntro,985,"LEX: My darling NYA, together\nwe will win for certain!$",True,False
-data/text/trainers.inc,SevenIsland_SevaultCanyon_Text_NyaRematchIntro,989,NYA: I won't drag down my mentor\nLEX! We're going to win!$,True,False
-data/text/trainers.inc,SevenIsland_TanobyRuins_Text_BrandonRematchIntro,993,Have you discovered anything about\nthis stone chamber?$,True,False
-data/text/trainers.inc,SevenIsland_TanobyRuins_Text_BenjaminRematchIntro,997,A mystic Yo-kai is said to sleep\ninside here.$,True,False
-data/text/trainers.inc,SevenIsland_TanobyRuins_Text_EdnaRematchIntro,1001,My teacher is showing me how to\npaint some more.$,True,False
-data/text/trainers.inc,SevenIsland_TanobyRuins_Text_CliffordRematchIntro,1005,"Today, in addition to our lesson,\nwe came to see the chamber again.$",True,False
+data/text/trainers.inc,VSSeeker_Text_BatteryNotChargedNeedXSteps,1,La batterie n'est pas assez chargée.\pPas nécessaires pour la recharger:\n{STR_VAR_1}{PAUSE_UNTIL_PRESS}$,False,False
+data/text/trainers.inc,VSSeeker_Text_NoTrainersWithinRange,4,Aucun Dresseur à portée\nne peut combattre…\pLe Cherch'Combat s'éteint.{PAUSE_UNTIL_PRESS}$,False,False
+data/text/trainers.inc,VSSeeker_Text_TrainersNotReady,7,Les autres Dresseurs ne semblent\npas prêts à combattre.\pAttendons encore un peu.{PAUSE_UNTIL_PRESS}$,False,False
+data/text/trainers.inc,Route3_Text_ColtonRematchIntro,10,Hé!\nJe t'ai vu dans VIRIDIAN FOREST!$,False,False
+data/text/trainers.inc,Route3_Text_BenRematchIntro,13,Salut! J'adore les shorts!\nC'est confortable et pratique!\pTu devrais en porter aussi!$,False,False
+data/text/trainers.inc,Route3_Text_JaniceRematchIntro,16,Dis donc!\nTu n'arrêtes pas de me regarder!$,False,False
+data/text/trainers.inc,Route3_Text_GregRematchIntro,19,"Tu es Dresseur, pas vrai?\nAlors, commençons tout de suite!$",False,False
+data/text/trainers.inc,Route3_Text_SallyRematchIntro,22,Ce regard que tu me lances…\nComme c'est intrigant!$,False,False
+data/text/trainers.inc,Route3_Text_CalvinRematchIntro,25,Hé! Qu'est-ce qui te prend?\nToujours pas de short!$,False,False
+data/text/trainers.inc,Route3_Text_JamesRematchIntro,28,Je vais te défier avec\nles Yo-kai que j'entraîne.$,False,False
+data/text/trainers.inc,Route3_Text_RobinRematchIntro,31,Hiii!\nTu m'as poussée?$,False,False
+data/text/trainers.inc,Route4_Text_CrissyRematchIntro,34,Je cherche toujours\ndes Yo-kai rares à MT. MOON.$,False,False
+data/text/trainers.inc,Route6_Text_RickyRematchIntro,37,"Oh! C'est toi, la personne\nqui écoutait notre conversation!$",False,False
+data/text/trainers.inc,Route6_Text_NancyRematchIntro,40,"Excuse-moi! Je t'avais dit\nque cette conversation était privée!\pOn n'écoute pas\naux portes, malotru!$",False,False
+data/text/trainers.inc,Route6_Text_KeigoRematchIntro,43,Je cherche un bon Yo-kai\npour varier un peu mon équipe…$,False,False
+data/text/trainers.inc,Route6_Text_JeffRematchIntro,46,Hein?\nTu veux encore m'affronter?$,False,False
+data/text/trainers.inc,Route6_Text_IsabelleRematchIntro,49,"Moi?\nBon, d'accord. Juste cette fois.$",False,False
+data/text/trainers.inc,Route6_Text_ElijahRematchIntro,52,"Tiens, ça fait longtemps!\nTu as progressé?$",False,False
+data/text/trainers.inc,Route8_Text_AidanRematchIntro,55,"Tu connais bien les Yo-kai,\nmais quelles sont tes notes\len chimie?$",False,False
+data/text/trainers.inc,Route8_Text_StanRematchIntro,58,Très bien!\nRejouons une partie!$,False,False
+data/text/trainers.inc,Route8_Text_GlennRematchIntro,61,"Pour gagner, il faut une stratégie.\pTu suis mes conseils?$",False,False
+data/text/trainers.inc,Route8_Text_PaigeRematchIntro,64,J'ai réuni beaucoup de Yo-kai.\nJe ne veux pas les faire évoluer…$,False,False
+data/text/trainers.inc,Route8_Text_LeslieRematchIntro,67,"J'aime l'école,\nmais les Yo-kai aussi!$",False,False
+data/text/trainers.inc,Route8_Text_AndreaRematchIntro,70,"Mes Yo-kai sont si mignons!\nMiaou, miaou, miaou!$",False,False
+data/text/trainers.inc,Route8_Text_MeganRematchIntro,73,"On a peut-être l'air ridicule\nà rester plantés ici,\lmais je sais me battre!$",False,False
+data/text/trainers.inc,Route8_Text_RichRematchIntro,76,Je suis un joueur vagabond!\nEt je gagne à tous les coups!$,False,False
+data/text/trainers.inc,Route8_Text_JuliaRematchIntro,79,"Quel Yo-kai est mignon,\ntout rond et tout doux?\pTu connais déjà la réponse, non?$",False,False
+data/text/trainers.inc,Route8_Text_RicardoRematchIntro,82,Mon vélo fait encore des siennes.$,False,False
+data/text/trainers.inc,Route8_Text_JarenRematchIntro,85,Très bien!\nPas de pitié cette fois!$,False,False
+data/text/trainers.inc,Route8_Text_EliRematchIntro,88,ELI: Notre duo de jumeaux\nest encore plus fort!$,False,False
+data/text/trainers.inc,Route8_Text_AnneRematchIntro,91,ANNE: Notre duo\na gagné en puissance!$,False,False
+data/text/trainers.inc,Route9_Text_AliciaRematchIntro,94,"Encore un combat?\nCette fois, je vais te battre!$",False,False
+data/text/trainers.inc,Route9_Text_ChrisRematchIntro,97,Je me souviens de toi\net de tes beaux Yo-kai!$,False,False
+data/text/trainers.inc,Route9_Text_DrewRematchIntro,100,Je passe par ROCK TUNNEL\npour aller à LAVENDER TOWN…\pMais tout le monde m'arrête\nsur le chemin!$,False,False
+data/text/trainers.inc,Route9_Text_CaitlinRematchIntro,103,"Ne me prends pas de haut!\nCette fois, je ne plaisante pas!$",False,False
+data/text/trainers.inc,Route9_Text_JeremyRematchIntro,106,Mouahaha! Super!\nJe m'ennuyais encore!$,False,False
+data/text/trainers.inc,Route9_Text_BriceRematchIntro,109,Hahaha!\nToujours aussi coriace!$,False,False
+data/text/trainers.inc,Route9_Text_BrentRematchIntro,112,Je me lève tôt tous les jours\npour entraîner mes Yo-kai!$,False,False
+data/text/trainers.inc,Route9_Text_AlanRematchIntro,115,"Hahaha!\nCette fois, je vais gagner!$",False,False
+data/text/trainers.inc,Route9_Text_ConnerRematchIntro,118,"En avant, mes super Yo-kai!\nRemportez la victoire!$",False,False
+data/text/trainers.inc,Route10_Text_MarkRematchIntro,121,Te revoilà? Tu dois aussi\nadorer les Yo-kai!\lTu veux voir ma collection?$,False,False
+data/text/trainers.inc,Route10_Text_ClarkRematchIntro,124,Ha… Ha… Atchoum!\nJe n'arrête pas d'éternuer!$,False,False
+data/text/trainers.inc,Route10_Text_HermanRematchIntro,127,Salut!\nJe t'ai déjà montré mes Yo-kai?$,False,False
+data/text/trainers.inc,Route10_Text_HeidiRematchIntro,130,Je suis retournée\ndans une Arène…\pMais j'ai encore perdu.$,False,False
+data/text/trainers.inc,Route10_Text_TrentRematchIntro,133,Ah! Cet air de montagne!\nIl est si bon que je ne peux\lpas repartir!$,False,False
+data/text/trainers.inc,Route10_Text_CarolRematchIntro,136,La tête me tourne.\nJ'ai marché trop longtemps…$,False,False
+data/text/trainers.inc,Route11_Text_HugoRematchIntro,139,Victoire ou défaite!\nC'est l'heure de la revanche!$,False,False
+data/text/trainers.inc,Route11_Text_JasperRematchIntro,142,"La compétition, quel frisson!\nJe ne m'en lasse pas!$",False,False
+data/text/trainers.inc,Route11_Text_EddieRematchIntro,145,"Tu connais la règle?\nOn joue, mais sans tricher!$",False,False
+data/text/trainers.inc,Route11_Text_BraxtonRematchIntro,148,"Salut!\pAttention,\nje pose encore des câbles!$",False,False
+data/text/trainers.inc,Route11_Text_DillonRematchIntro,151,"Je suis Dresseur depuis peu,\nmais je crois pouvoir gagner.$",False,False
+data/text/trainers.inc,Route11_Text_DirkRematchIntro,154,"Mouahaha!\nJe n'ai jamais perdu!\pEt si ça m'est arrivé,\nje l'ai oublié!$",False,False
+data/text/trainers.inc,Route11_Text_DarianRematchIntro,157,Je n'ai encore jamais gagné…\pC'est peut-être mon destin…$,False,False
+data/text/trainers.inc,Route11_Text_YasuRematchIntro,160,Je suis le meilleur de ma classe.\nJe m'entraîne matin et soir!$,False,False
+data/text/trainers.inc,Route11_Text_BernieRematchIntro,163,Attention aux fils sous tension!$,False,False
+data/text/trainers.inc,Route11_Text_DaveRematchIntro,166,"J'ai entraîné mes Yo-kai avec soin.\nIls sont prêts, maintenant.\pCette fois, ils devraient gagner!$",False,False
+data/text/trainers.inc,Route12_Text_NedRematchIntro,169,"Oui! Ça mord!\nCette fois, c'est peut-être\lle gros lot!$",False,False
+data/text/trainers.inc,Route12_Text_ChipRematchIntro,172,"Te voilà enfin.\nLa pêche, c'est de la patience.$",False,False
+data/text/trainers.inc,Route12_Text_JustinRematchIntro,175,Toujours pas de Pierre Lune…\nTu en as trouvé une?$,False,False
+data/text/trainers.inc,Route12_Text_LucaRematchIntro,178,"L'électricité, c'est ma spécialité.\pMais les Yo-kai marins,\nje n'y connais rien.$",False,False
+data/text/trainers.inc,Route12_Text_HankRematchIntro,181,Le roi de la pêche\ncontre l'enfant aux Yo-kai!\lNouvelle manche!$,False,False
+data/text/trainers.inc,Route12_Text_ElliotRematchIntro,184,"J'adore pêcher, bien sûr.\nMais j'aimerais avoir plus de travail…\pDifficile de lâcher ma canne!$",False,False
+data/text/trainers.inc,Route12_Text_AndrewRematchIntro,187,Qu'est-ce que j'ai pêché?\pBats-moi pour le découvrir!$,False,False
+data/text/trainers.inc,Route12_Text_JesRematchIntro,190,"JES: Si je gagne aujourd'hui,\nje demande Gia en mariage.$",False,False
+data/text/trainers.inc,Route12_Text_GiaRematchIntro,193,"GIA: Jes, ça fait longtemps\nque j'attends!\pSi on gagne aujourd'hui,\nje t'épouse!$",False,False
+data/text/trainers.inc,Route13_Text_SebastianRematchIntro,196,Mes Yo-kai se souviennent de toi!$,False,False
+data/text/trainers.inc,Route13_Text_SusieRematchIntro,199,Je veux devenir la meilleure\navant même d'être adulte!$,False,False
+data/text/trainers.inc,Route13_Text_ValerieRematchIntro,202,Ouah!\nTu as encore de beaux Badges!$,False,False
+data/text/trainers.inc,Route13_Text_GwenRematchIntro,205,Mes adorables Yo-kai ont grandi\net veulent te retrouver.$,False,False
+data/text/trainers.inc,Route13_Text_AlmaRematchIntro,208,J'ai vidé mes économies\npour acheter encore du Carbone.$,False,False
+data/text/trainers.inc,Route13_Text_PerryRematchIntro,211,Je ne perdrai pas cette fois.\nLe vent a tourné en ma faveur!$,False,False
+data/text/trainers.inc,Route13_Text_LolaRematchIntro,214,"Oh, te revoilà?\pBien sûr, je veux bien\njouer encore avec toi!$",False,False
+data/text/trainers.inc,Route13_Text_SheilaRematchIntro,217,Tu ne peux pas oublier\nnotre dernier combat?$,False,False
+data/text/trainers.inc,Route13_Text_JaredRematchIntro,220,Qu'est-ce que tu regardes?$,False,False
+data/text/trainers.inc,Route13_Text_RobertRematchIntro,223,Je combats toujours\navec mes Yo-kai préférés.\pJe leur ai consacré\ntout mon entraînement.$,False,False
+data/text/trainers.inc,Route14_Text_CarterRematchIntro,226,J'ai utilisé des CT\npour apprendre de bonnes capacités\là mes Yo-kai.$,False,False
+data/text/trainers.inc,Route14_Text_MitchRematchIntro,229,Mes Yo-kai devraient\nêtre prêts pour ce combat.$,False,False
+data/text/trainers.inc,Route14_Text_BeckRematchIntro,232,Tu utilises tes CT?\nLes garder au fond du Sac\lne sert à rien!$,False,False
+data/text/trainers.inc,Route14_Text_MarlonRematchIntro,235,Un Yo-kai connaissant Vol\npeut t'emmener dans les airs!\pTu as déjà essayé?$,False,False
+data/text/trainers.inc,Route14_Text_DonaldRematchIntro,238,"La légende des apparitions ailées…\nTu la connais, n'est-ce pas?$",False,False
+data/text/trainers.inc,Route14_Text_BennyRematchIntro,241,"Je n'en ai pas très envie,\nmais d'accord. Allons-y!$",False,False
+data/text/trainers.inc,Route14_Text_LukasRematchIntro,244,Hé! Je me souviens de toi!\pAllez! Allez!\nC'est parti!$,False,False
+data/text/trainers.inc,Route14_Text_IsaacRematchIntro,247,Encore toi?\nAssez parlé. Battons-nous.$,False,False
+data/text/trainers.inc,Route14_Text_GeraldRematchIntro,250,On roule ici\nparce que les espaces sont grands.$,False,False
+data/text/trainers.inc,Route14_Text_MalikRematchIntro,253,Un combat de Yo-kai?\nSuper! C'est parti!$,False,False
+data/text/trainers.inc,Route14_Text_KiriRematchIntro,256,"KIRI: Jan, j'espère\nqu'on va gagner aujourd'hui.$",False,False
+data/text/trainers.inc,Route14_Text_JanRematchIntro,259,"JAN: Kiri, allons-y!\nCette fois, on gagne!$",False,False
+data/text/trainers.inc,Route15_Text_KindraRematchIntro,262,Je continuerai de combattre\navec mes Yo-kai échangés.$,False,False
+data/text/trainers.inc,Route15_Text_BeckyRematchIntro,265,Tu as l'air gentil.\nJe dois pouvoir te battre!\pJe tente encore ma chance!$,False,False
+data/text/trainers.inc,Route15_Text_EdwinRematchIntro,268,"Quand je siffle,\nles Yo-kai se rassemblent.\pIls sont adorables!$",False,False
+data/text/trainers.inc,Route15_Text_ChesterRematchIntro,271,"Hmm? Mes Yo-kai tremblent!\nAttends, tu ne serais pas\lce Dresseur…$",False,False
+data/text/trainers.inc,Route15_Text_GraceRematchIntro,274,"Oh, quelle petite frimousse!\nOn dirait un adorable Yo-kai!\lJe me souviens de toi!$",False,False
+data/text/trainers.inc,Route15_Text_OliviaRematchIntro,277,"Je vis seule, alors mes Yo-kai\nsont là pour me protéger.\pÇa n'a pas changé.$",False,False
+data/text/trainers.inc,Route15_Text_ErnestRematchIntro,280,Hé! Viens par ici!\nJ'ai pris ces Yo-kai à un perdant!$,False,False
+data/text/trainers.inc,Route15_Text_AlexRematchIntro,283,"Quand tu perdras,\ntu me donneras tout ton argent!$",False,False
+data/text/trainers.inc,Route15_Text_CeliaRematchIntro,286,"Qu'est-ce qui est à la mode?\nLes échanges de Yo-kai, bien sûr.$",False,False
+data/text/trainers.inc,Route15_Text_YazminRematchIntro,289,Tu veux encore jouer\navec mes Yo-kai?$,False,False
+data/text/trainers.inc,Route15_Text_MyaRematchIntro,292,MYA: Salut! On se croise souvent!\pTu veux encore m'aider\nà entraîner mon petit frère?$,False,False
+data/text/trainers.inc,Route15_Text_RonRematchIntro,295,RON: Ma sœur est devenue\nencore plus forte…$,False,False
+data/text/trainers.inc,Route16_Text_LaoRematchIntro,298,Qu'est-ce que tu veux?$,False,False
+data/text/trainers.inc,Route16_Text_KojiRematchIntro,301,"Beau vélo!\nDonne-le-moi, vite!$",False,False
+data/text/trainers.inc,Route16_Text_LukeRematchIntro,304,"Viens jouer, petite souris.\nJe vais bien m'occuper de toi!$",False,False
+data/text/trainers.inc,Route16_Text_HideoRematchIntro,307,"Hé, attends!\nTu m'appelles, puis tu t'enfuis?$",False,False
+data/text/trainers.inc,Route16_Text_CamronRematchIntro,310,J'ai faim et je suis de mauvaise\nhumeur! Il me faut un défouloir!$,False,False
+data/text/trainers.inc,Route16_Text_RubenRematchIntro,313,Salut!\nOn va bien s'amuser!$,False,False
+data/text/trainers.inc,Route16_Text_JedRematchIntro,316,JED: Tu viens admirer\nnotre amour sans limites?$,False,False
+data/text/trainers.inc,Route16_Text_LeaRematchIntro,319,"LEA: Parfois, l'intensité\nde notre amour me fait peur.$",False,False
+data/text/trainers.inc,Route17_Text_RaulRematchIntro,322,Je te l'ai dit: combattre\ndes enfants ne rend pas riche!$,False,False
+data/text/trainers.inc,Route17_Text_IsaiahRematchIntro,325,"Je suis fier de ma musculature!\nAllez, viens!$",False,False
+data/text/trainers.inc,Route17_Text_VirgilRematchIntro,328,Tu te promènes?$,False,False
+data/text/trainers.inc,Route17_Text_BillyRematchIntro,331,On est des Motards!\nLa route nous appartient!$,False,False
+data/text/trainers.inc,Route17_Text_NikolasRematchIntro,334,Mes Yo-kai vont te réserver\nun accueil électrisant!$,False,False
+data/text/trainers.inc,Route17_Text_ZeekRematchIntro,337,"Mon Yo-kai gagne des niveaux,\nmais il n'évolue jamais. Pourquoi?$",False,False
+data/text/trainers.inc,Route17_Text_JamalRematchIntro,340,Argh! Il faut que je fasse\nde l'exercice pour perdre du poids!$,False,False
+data/text/trainers.inc,Route17_Text_CoreyRematchIntro,343,Rebelle-toi!$,False,False
+data/text/trainers.inc,Route17_Text_JaxonRematchIntro,346,"Oui, c'est un beau vélo!\nIl roule bien?$",False,False
+data/text/trainers.inc,Route17_Text_WilliamRematchIntro,349,Dégage!\nJe suis épuisé!$,False,False
+data/text/trainers.inc,Route18_Text_WiltonRematchIntro,352,Je fouille toutes les hautes herbes\npour trouver de nouveaux Yo-kai.\pMais ce n'est pas toujours facile…$,False,False
+data/text/trainers.inc,Route18_Text_RamiroRematchIntro,355,Cocoricooo!\nMon cri d'oiseau s'améliore?$,False,False
+data/text/trainers.inc,Route18_Text_JacobRematchIntro,358,Je t'avais prévenu:\nc'est mon territoire!\pJe ne veux pas te voir ici.$,False,False
+data/text/trainers.inc,Route19_Text_RichardRematchIntro,361,Je suis presque prêt\npour aller nager.$,False,False
+data/text/trainers.inc,Route19_Text_ReeceRematchIntro,364,Attends! Doucement!\nTu veux avoir un malaise?$,False,False
+data/text/trainers.inc,Route19_Text_MatthewRematchIntro,367,"J'adore nager!\nToi, tu préfères surfer, non?$",False,False
+data/text/trainers.inc,Route19_Text_DouglasRematchIntro,370,Qu'y a-t-il derrière l'horizon?\nTu es allé voir?$,False,False
+data/text/trainers.inc,Route19_Text_DavidRematchIntro,373,J'ai encore essayé de plonger\npour chercher des Yo-kai.\pToujours sans succès.$,False,False
+data/text/trainers.inc,Route19_Text_TonyRematchIntro,376,Je regarde la mer\npour oublier mes soucis…\pComme ma dernière défaite\ncontre toi!$,False,False
+data/text/trainers.inc,Route19_Text_AnyaRematchIntro,379,Tu voyages toujours\nsur ton Yo-kai…\pÇa a l'air reposant!\nTu me le donnes si je gagne?$,False,False
+data/text/trainers.inc,Route19_Text_AliceRematchIntro,382,"Nager, c'est super!\nLes coups de soleil, beaucoup moins!$",False,False
+data/text/trainers.inc,Route19_Text_AxleRematchIntro,385,Ces eaux sont dangereuses!\nTu ne devrais pas revenir ici!$,False,False
+data/text/trainers.inc,Route19_Text_ConnieRematchIntro,388,J'ai nagé jusqu'ici\navec mes amis… Je suis épuisée…\pOn doit vraiment\nse battre encore?$,False,False
+data/text/trainers.inc,Route19_Text_LiaRematchIntro,391,"LIA: Mon frère vient\nde devenir Dresseur, tu sais?\pAide-moi encore\nà le faire progresser.$",False,False
+data/text/trainers.inc,Route19_Text_LucRematchIntro,394,LUC: Ma sœur m'a tout appris\nsur les Yo-kai.\pTu crois que j'ai progressé?$,False,False
+data/text/trainers.inc,Route20_Text_BarryRematchIntro,397,L'eau est peu profonde ici.\nBeaucoup de gens viennent nager.$,False,False
+data/text/trainers.inc,Route20_Text_ShirleyRematchIntro,400,Tu m'envies de passer\nmes vacances à SEAFOAM ISLANDS?$,False,False
+data/text/trainers.inc,Route20_Text_TiffanyRematchIntro,403,J'adore flotter parmi les vagues\net les poissons.$,False,False
+data/text/trainers.inc,Route20_Text_IreneRematchIntro,406,"Toi aussi, tu étais en vacances?$",False,False
+data/text/trainers.inc,Route20_Text_DeanRematchIntro,409,"Regarde ma musculature!\pEncore plus impressionnante\nqu'avant, non?$",False,False
+data/text/trainers.inc,Route20_Text_DarrinRematchIntro,412,Pourquoi monter sur un Yo-kai?\nTu n'as pas encore appris à nager?$,False,False
+data/text/trainers.inc,Route20_Text_RogerRematchIntro,415,Mon Yo-kai m'a porté jusqu'ici.$,False,False
+data/text/trainers.inc,Route20_Text_NoraRematchIntro,418,Mon amoureux m'a offert\nde grosses perles.\pElles ont encore grandi!$,False,False
+data/text/trainers.inc,Route20_Text_MissyRematchIntro,421,"J'ai nagé depuis CINNABAR ISLAND.\nComme je te l'ai dit, c'était dur!$",False,False
+data/text/trainers.inc,Route20_Text_MelissaRematchIntro,424,"À l'ouest, sur CINNABAR ISLAND,\nil y a un Laboratoire de Yo-kai.\pMon papa travaille là-bas.$",False,False
+data/text/trainers.inc,Route21_North_Text_RonaldRematchIntro,427,Tu veux savoir si ça mord?$,False,False
+data/text/trainers.inc,Route21_North_Text_WadeRematchIntro,430,J'ai encore fait une belle pêche!\nTu veux recommencer?$,False,False
+data/text/trainers.inc,Route21_North_Text_SpencerRematchIntro,433,La mer purifie\nmon corps et mon esprit!$,False,False
+data/text/trainers.inc,Route21_North_Text_CueBallRematchIntro,437,Je suis encore venu\nfaire quelques brasses.$,False,False
+data/text/trainers.inc,Route21_South_Text_JackRematchIntro,440,J'ai capturé mes Yo-kai en mer.\nEt c'est ici que je les entraîne.$,False,False
+data/text/trainers.inc,Route21_South_Text_JeromeRematchIntro,443,Je participe encore\nà un triathlon!$,False,False
+data/text/trainers.inc,Route21_South_Text_RolandRematchIntro,446,Ah!\nLe soleil et le vent!$,False,False
+data/text/trainers.inc,Route21_South_Text_ClaudeRematchIntro,449,"Hé, ça suffit!\nTu fais toujours fuir les poissons!$",False,False
+data/text/trainers.inc,Route21_South_Text_NolanRematchIntro,452,Tiens-moi compagnie\nen attendant que ça morde.$,False,False
+data/text/trainers.inc,Route21_North_Text_LilRematchIntro,455,"LIL: Hein? Encore un combat?\nIan, tu ne peux pas le faire seul?$",False,False
+data/text/trainers.inc,Route21_North_Text_IanRematchIntro,458,IAN: Ma sœur se laisse aller.\nAide-moi à la remettre en forme!$,False,False
+data/text/trainers.inc,Route25_Text_JoeyRematchIntro,461,"Tant que je suis ici,\nje ne perdrai pas!$",False,False
+data/text/trainers.inc,Route25_Text_DanRematchIntro,464,"Papa m'a emmené à une grande fête\nsur le S.S. ANNE, à VERMILION CITY.$",False,False
+data/text/trainers.inc,Route25_Text_FlintRematchIntro,467,"J'ai la classe!\nEt une petite amie!\pCette fois, je vais\nl'impressionner pour de bon!$",False,False
+data/text/trainers.inc,Route25_Text_KelseyRematchIntro,470,Salut! Mon copain est super!\nEt je suis en pleine forme!$,False,False
+data/text/trainers.inc,Route25_Text_ChadRematchIntro,473,Je le sentais…\nIl fallait que je t'affronte encore!$,False,False
+data/text/trainers.inc,Route25_Text_HaleyRematchIntro,476,Mon amie a plein de Yo-kai mignons.\nQuelle chance elle a!$,False,False
+data/text/trainers.inc,Route25_Text_FranklinRematchIntro,479,"Je viens de m'entraîner\nà MT. MOON, mais j'ai encore\lde l'énergie à revendre!$",False,False
+data/text/trainers.inc,Route25_Text_NobRematchIntro,482,Un passionné de Yo-kai\nhabite sur le cap.\pTu as vu sa collection?$,False,False
+data/text/trainers.inc,Route25_Text_WayneRematchIntro,485,"Tu retournes voir Léo?\nD'abord, on se bat!$",False,False
+data/text/trainers.inc,Route24_Text_ShaneRematchIntro,488,J'ai vu tes exploits\ndepuis les hautes herbes!$,False,False
+data/text/trainers.inc,Route24_Text_EthanRematchIntro,491,Très bien!\nJe vais te battre!$,False,False
+data/text/trainers.inc,Route24_Text_ReliRematchIntro,494,Tu as toujours l'air pressé…\nÇa ne te fatigue pas?$,False,False
+data/text/trainers.inc,Route24_Text_TimmyRematchIntro,497,Tu dois vraiment aimer\nvenir au pont!$,False,False
+data/text/trainers.inc,Route24_Text_AliRematchIntro,500,"La dernière fois,\nj'étais deuxième dans la file.\pMais j'étais le meilleur, non?$",False,False
+data/text/trainers.inc,Route24_Text_CaleRematchIntro,503,"Les gens appellent cet endroit\nle pont aux Pépites!\pTu nous as déjà battus,\ndonc pas de nouveau prix…\pMais tu peux toujours\nnous affronter à nouveau!$",False,False
+data/text/trainers.inc,OneIsland_TreasureBeach_Text_AmaraRematchIntro,506,"Allongée, bercée par les vagues…\nJe ne vois pas le temps passer…$",False,False
+data/text/trainers.inc,OneIsland_KindleRoad_Text_MariaRematchIntro,509,Il fait un temps splendide!\nJe vais tâcher de ne pas le gâcher.$,False,False
+data/text/trainers.inc,OneIsland_KindleRoad_Text_AbigailRematchIntro,512,Mon coup de soleil\ncommence à me faire mal…$,False,False
+data/text/trainers.inc,OneIsland_KindleRoad_Text_FinnRematchIntro,515,La montagne de Kyubi\nprojette une ombre immense…$,False,False
+data/text/trainers.inc,OneIsland_KindleRoad_Text_GarrettRematchIntro,518,"Je le sens:\ncette fois, je peux gagner!$",False,False
+data/text/trainers.inc,OneIsland_KindleRoad_Text_TommyRematchIntro,521,Attends! Une seconde!\nJe suis sûr d'avoir\lune grosse prise!$,False,False
+data/text/trainers.inc,OneIsland_KindleRoad_Text_SharonRematchIntro,524,Tu veux encore m'aider\nà m'entraîner?$,False,False
+data/text/trainers.inc,OneIsland_KindleRoad_Text_TanyaRematchIntro,527,On n'a pas manqué\nun seul jour d'entraînement!$,False,False
+data/text/trainers.inc,OneIsland_KindleRoad_Text_SheaRematchIntro,530,"Tous les matins avant de manger,\nje nage autour de cette île…\pTrois fois!$",False,False
+data/text/trainers.inc,OneIsland_KindleRoad_Text_HughRematchIntro,533,Habille-toi pour combattre!\nPas avec cette tenue frivole!$,False,False
+data/text/trainers.inc,OneIsland_KindleRoad_Text_BryceRematchIntro,536,"Tu sais, tout a meilleur goût\nquand on est en pleine nature.$",False,False
+data/text/trainers.inc,OneIsland_KindleRoad_Text_ClaireRematchIntro,539,J'ai encore trop mangé…\nUn combat pour faire de l'exercice?$,False,False
+data/text/trainers.inc,OneIsland_KindleRoad_Text_KiaRematchIntro,542,"KIA: Mon grand frère et moi\nformons un duo redoutable!\pCette fois, on ne perdra pas!$",False,False
+data/text/trainers.inc,OneIsland_KindleRoad_Text_MikRematchIntro,545,"MIK: Avec Kia,\nnous n'avons peur de rien!\pCette fois, on va te le prouver!$",False,False
+data/text/trainers.inc,ThreeIsland_BondBridge_Text_NikkiRematchIntro,548,On se bat encore?$,False,False
+data/text/trainers.inc,ThreeIsland_BondBridge_Text_VioletRematchIntro,551,D'où viens-tu\net où vas-tu?$,False,False
+data/text/trainers.inc,ThreeIsland_BondBridge_Text_AmiraRematchIntro,554,J'aimerais vite apprendre\nà nager sans ma bouée.$,False,False
+data/text/trainers.inc,ThreeIsland_BondBridge_Text_AlexisRematchIntro,557,"Youpi, youpi!\nDes Yo-kai!$",False,False
+data/text/trainers.inc,ThreeIsland_BondBridge_Text_TishaRematchIntro,560,Oh non! Je t'ai déjà dit\nde ne pas m'approcher!$,False,False
+data/text/trainers.inc,ThreeIsland_BondBridge_Text_JoyRematchIntro,563,JOY: On est devenues\nbeaucoup plus fortes!$,False,False
+data/text/trainers.inc,ThreeIsland_BondBridge_Text_MegRematchIntro,566,MEG: Tu ne nous battras pas\naujourd'hui!$,False,False
+data/text/trainers.inc,FiveIsland_WaterLabyrinth_Text_AlizeRematchIntro,569,"Oh, bonjour!\pTes Yo-kai grandissent-ils\ndans un bon environnement?$",False,False
+data/text/trainers.inc,FiveIsland_ResortGorgeous_Text_DaisyRematchIntro,572,"Aujourd'hui, je façonnerai\nma victoire de mes propres mains.$",False,False
+data/text/trainers.inc,FiveIsland_ResortGorgeous_Text_CelinaRematchIntro,575,Dois-je me répéter?\nJ'essaie de peindre.\lNe reste pas dans mon champ de vue!$,False,False
+data/text/trainers.inc,FiveIsland_ResortGorgeous_Text_RaynaRematchIntro,578,Je n'ai pas avancé…\nJe ne trouve toujours pas\lle bon angle…$,False,False
+data/text/trainers.inc,FiveIsland_ResortGorgeous_Text_JackiRematchIntro,581,"Oh, tu m'offres encore\nl'occasion de te défier?$",False,False
+data/text/trainers.inc,FiveIsland_ResortGorgeous_Text_GillianRematchIntro,584,La piscine de mes Yo-kai\nest presque terminée.\pTu dois venir nous voir.$,False,False
+data/text/trainers.inc,FiveIsland_ResortGorgeous_Text_DestinRematchIntro,587,Je cours bien.\nJe suis encore plus rapide!$,False,False
+data/text/trainers.inc,FiveIsland_ResortGorgeous_Text_TobyRematchIntro,590,Mon ami!\nPassons un bon moment ensemble!$,False,False
+data/text/trainers.inc,FiveIsland_MemorialPillar_Text_MiloRematchIntro,593,Tu te souviens de moi?\nL'aîné des trois frères!\pCelui qui adore\nles oiseaux pour leur bec!$,False,False
+data/text/trainers.inc,FiveIsland_MemorialPillar_Text_ChazRematchIntro,596,"Je suis le cadet\ndes trois frères.\pMoi, ce sont les ailes que j'aime.\nAffrontons-nous encore!$",False,False
+data/text/trainers.inc,FiveIsland_MemorialPillar_Text_HaroldRematchIntro,599,Je suis le plus jeune\ndes trois frères!\pJ'adore le duvet des oiseaux.\nJe ne pensais pas te revoir!$,False,False
+data/text/trainers.inc,SixIsland_OutcastIsland_Text_TylorRematchIntro,602,Toujours aucune chance…\nUn combat me changera les idées!$,False,False
+data/text/trainers.inc,SixIsland_OutcastIsland_Text_MymoRematchIntro,605,Haa… Haa…\pJ'ai encore nagé d'une traite\ndepuis le port de SIX ISLAND.$,False,False
+data/text/trainers.inc,SixIsland_OutcastIsland_Text_NicoleRematchIntro,608,Tu arrives toujours\nquand je nage.$,False,False
+data/text/trainers.inc,SixIsland_OutcastIsland_Text_AvaRematchIntro,611,AVA: Encore un Combat Duo\nsur la mer aujourd'hui!$,False,False
+data/text/trainers.inc,SixIsland_OutcastIsland_Text_GebRematchIntro,614,GEB: Ma grande sœur et moi\nsommes bien plus forts qu'avant!$,False,False
+data/text/trainers.inc,SixIsland_GreenPath_Text_JaclynRematchIntro,617,"Hein? Je pense à ma maison,\nmais Téléport me ramène\ltoujours ici!$",False,False
+data/text/trainers.inc,SixIsland_WaterPath_Text_RoseRematchIntro,620,"Oh, bonjour.\nUne agréable brise souffle encore.$",False,False
+data/text/trainers.inc,SixIsland_WaterPath_Text_EdwardRematchIntro,623,Héhéhé! Je m'entraîne encore\nen secret.$,False,False
+data/text/trainers.inc,SixIsland_WaterPath_Text_SamirRematchIntro,626,Tu en as assez de voir\ndes Nageurs comme moi?\pNe sois pas comme ça!\nAffronte-moi encore.$,False,False
+data/text/trainers.inc,SixIsland_WaterPath_Text_DeniseRematchIntro,629,Pfff…\nMon copain est encore occupé…$,False,False
+data/text/trainers.inc,SixIsland_WaterPath_Text_EarlRematchIntro,632,"Dis-moi, où sont les montagnes\ndans le coin?$",False,False
+data/text/trainers.inc,SixIsland_WaterPath_Text_MiuRematchIntro,635,"MIU: Bonjour, les Yo-kai!\nC'est encore l'heure de jouer!$",False,False
+data/text/trainers.inc,SixIsland_WaterPath_Text_MiaRematchIntro,638,"MIA: Bonjour, les Yo-kai!\nC'est encore l'heure du combat!$",False,False
+data/text/trainers.inc,SixIsland_RuinValley_Text_StanlyRematchIntro,641,Il reste tant de mystères\nà résoudre dans ce monde.$,False,False
+data/text/trainers.inc,SixIsland_RuinValley_Text_FosterRematchIntro,644,"Salut! On s'est déjà vus, non?\nQu'est-ce qui t'a fait revenir?$",False,False
+data/text/trainers.inc,SixIsland_RuinValley_Text_LarryRematchIntro,647,On parle de pierres mystérieuses\nsur cette île.\pTu as découvert quelque chose\ndepuis notre dernière rencontre?$,False,False
+data/text/trainers.inc,SixIsland_RuinValley_Text_DarylRematchIntro,650,Une revanche en altitude!$,False,False
+data/text/trainers.inc,SixIsland_RuinValley_Text_HectorRematchIntro,653,Je connais assez bien\nles environs.$,False,False
+data/text/trainers.inc,SevenIsland_TrainerTower_Text_DarioRematchIntro,656,J'ai senti ton approche.$,False,False
+data/text/trainers.inc,SevenIsland_TrainerTower_Text_RodetteRematchIntro,659,Des Yo-kai étranges dorment\nquelque part sur cette île.$,False,False
+data/text/trainers.inc,SevenIsland_SevaultCanyon_Entrance_Text_MiahRematchIntro,662,Kyahaha! Revenir ne change rien.\nJe te balaierai sans effort!$,False,False
+data/text/trainers.inc,SevenIsland_SevaultCanyon_Entrance_Text_MasonRematchIntro,665,"Salut! Tu es membre\nde mon club de fans, pas vrai?$",False,False
+data/text/trainers.inc,SevenIsland_SevaultCanyon_Entrance_Text_NicolasRematchIntro,668,Cette île est immense…\nLa patrouiller est épuisant…$,False,False
+data/text/trainers.inc,SevenIsland_SevaultCanyon_Entrance_Text_MadelineRematchIntro,671,Je ne pardonne pas\nà ceux qui maltraitent les Yo-kai!$,False,False
+data/text/trainers.inc,SevenIsland_SevaultCanyon_Entrance_Text_EveRematchIntro,674,EVE: Je vais encore faire équipe\navec Jon pour ce combat.$,False,False
+data/text/trainers.inc,SevenIsland_SevaultCanyon_Entrance_Text_JonRematchIntro,677,"JON: Avec Eve,\nj'ai l'impression d'être invincible.$",False,False
+data/text/trainers.inc,SevenIsland_SevaultCanyon_Text_CyndyRematchIntro,680,Encore un combat!\nJe suis au meilleur de ma forme!$,False,False
+data/text/trainers.inc,SevenIsland_SevaultCanyon_Text_EvanRematchIntro,683,Avoir les Yo-kai les plus forts\nne suffit pas…\pIl faut aussi savoir\nles utiliser correctement!$,False,False
+data/text/trainers.inc,SevenIsland_SevaultCanyon_Text_JacksonRematchIntro,686,"Je protège l'environnement.\nEn retour, la nature me protège!$",False,False
+data/text/trainers.inc,SevenIsland_SevaultCanyon_Text_KatelynRematchIntro,689,"Chaque fois qu'on se voit,\ntu as ces belles chaussures.$",False,False
+data/text/trainers.inc,SevenIsland_SevaultCanyon_Text_LeroyRematchIntro,692,"Tu as sûrement progressé.\nAffronte-moi, s'il te plaît!$",False,False
+data/text/trainers.inc,SevenIsland_SevaultCanyon_Text_MichelleRematchIntro,695,"J'ai reçu la meilleure formation\npour devenir aussi forte.\pCette fois, je ne perdrai pas.\nCertainement pas!$",False,False
+data/text/trainers.inc,SevenIsland_SevaultCanyon_Text_LexRematchIntro,698,"LEX: Ma chère Nya, ensemble,\nnous allons gagner!$",False,False
+data/text/trainers.inc,SevenIsland_SevaultCanyon_Text_NyaRematchIntro,701,NYA: Je ne décevrai pas\nmon mentor Lex! Nous gagnerons!$,False,False
+data/text/trainers.inc,SevenIsland_TanobyRuins_Text_BrandonRematchIntro,704,Tu as découvert quelque chose\nsur cette chambre de pierre?$,False,False
+data/text/trainers.inc,SevenIsland_TanobyRuins_Text_BenjaminRematchIntro,707,On raconte qu'un Yo-kai mystique\ndort à l'intérieur.$,False,False
+data/text/trainers.inc,SevenIsland_TanobyRuins_Text_EdnaRematchIntro,710,Mon professeur m'apprend\nencore à peindre.$,False,False
+data/text/trainers.inc,SevenIsland_TanobyRuins_Text_CliffordRematchIntro,713,Nous sommes revenus voir la chambre\npour notre leçon d'aujourd'hui.$,False,False
 data/text/white_out.inc,Text_FirstShouldRestoreMonsHealth,1,Commençons par remettre\ntes Yo-kai en pleine forme.$,False,False
 data/text/white_out.inc,Text_MonsHealedShouldBuyPotions,4,"Tes Yo-kai sont\nen parfaite santé.\pQuand leurs PV baissent,\nviens nous voir.\pAvant de partir loin, achète\ndes Potions à la Boutique Yo-kai.\pBonne chance pour la suite!$",False,False
 data/text/white_out.inc,Text_MonsHealed,7,Tes Yo-kai sont\nen parfaite santé.\pBonne chance pour la suite!$,False,False

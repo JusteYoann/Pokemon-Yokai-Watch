@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "baseline": "a08aa8e51",
+  "text_only_source_files": [
+    "data/text/help_system.inc",
+    "data/text/trainers.inc"
+  ],
+  "all_source_deltas_are_literals": true,
+  "map_scripts_and_gameplay_unchanged": true,
+  "graphics_and_audio_unchanged": true,
+  "rom_bytes": 31272243,
+  "rom_sha256": "9381ef37376b8e8aa9f3fa199d10ed523b7e947c9ba3c0adeb3755f65f24e97f",
+  "scope": "Text-only delta proof, not semantic proof of every translation or full playthrough."
+}

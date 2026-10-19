@@ -53,3 +53,13 @@ Traduction de tous les textes des neuf cartes de Pewter, des routes 1 à 4 et de
 Les 42 textes de la TV ABC et de son démonstrateur sont traduits. Les explications respectent les types réellement intégrés de Télémir, Superfouet et Saumhonni, et le Multi Exp. permanent. [13 contrôles mGBA](tv_abc/TEST_MGBA.json) : sept libellés et sélection des six émissions, avec Boîte CT accordée par la fixture pour ouvrir les deux dernières leçons. [Captures examinées](tv_abc/PLANCHE.png). Les combats pédagogiques complets ne sont pas validés ici.
 
 Compilation privée réussie avec les 26 OST : toujours **31 272 243 octets**. [Preuve des seules modifications textuelles](PRESERVATION_LOT3.json). Restent de nombreux dialogues ultérieurs, les aides, revanches, salles de connexion et certains écrans spécifiques : aucune déclaration de traduction intégrale terminée.
+
+## Lot 4 — aide intégrée et revanches
+
+238 textes du Cherch’Combat et des revanches sont traduits, sans changer les équipes ni les conditions d’activation. Les conseils et allusions aux anciennes espèces sont reformulés lorsque leur remplacement n’a plus les mêmes types ou la même apparence.
+
+Les 369 entrées de l’aide intégrée sont localisées : rubriques, questions, réponses, commandes des menus, statistiques, CT/CS et tableaux d’affinités de la génération III. L’aide explique le Multi Exp. permanent. Les contrôles numérotés et les glyphes des tableaux sont conservés. Le cadrage propre à l’aide tient compte de sa fenêtre fixe de 208 × 104 pixels, avec sept lignes au maximum ; il ne suppose pas qu’un dialogue défilant compensera un dépassement.
+
+[Contrôles de cadrage](AIDE_CADRAGE.json), [369 textes liés et largeurs vérifiés dans mGBA](aide/TEST_MGBA.json), [onze captures examinées](aide/PLANCHE.png). L’aide s’ouvre réellement avec R ; le test autorise cette interface en mémoire dans la chambre de début de partie. Dix couples question/réponse sont ensuite affichés avec le moteur natif, sans prétendre avoir parcouru tous les menus conditionnels. Les sept lignes de l’explication des statuts restent visibles.
+
+Compilation réussie avec les 26 OST, toujours sous 32 Mio. [Préservation du code et des scripts](PRESERVATION_LOT4.json). Les dialogues restants, liaisons, mots Easy Chat et inscriptions graphiques nécessitent encore du travail ; la traduction totale reste en cours.
