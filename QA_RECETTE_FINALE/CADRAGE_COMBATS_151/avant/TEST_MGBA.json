@@ -1,0 +1,3332 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "3cf3ef5d496805347c58d089b9b88eb0a7e433c0dd3b9cb9932aa863d8f58077",
+  "rom_bytes": 31272243,
+  "source_commit": "602bc12e26910ee751fac0565c9db0db05e2d6b5",
+  "scope": "151 original native scripted wild battle fixtures, same species on both sides, normal form. Actual battle action menu reached, linked artwork and palette verified for both sides. BEFORE only; no reference comparison or correction performed. Does not test all animation frames or shiny forms.",
+  "results": [
+    {
+      "number": 1,
+      "name": "Jibanyan",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/001.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          49,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "name": "Bandinyan",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/002.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          53,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "name": "Épinyan",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/003.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          51,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "name": "Shogunyan",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/004.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          52,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "name": "Komasan",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/005.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 6,
+      "name": "Komaous",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/006.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          50,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 7,
+      "name": "Komastar",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/007.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          49,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 8,
+      "name": "Whisper",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/008.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 9,
+      "name": "Cigalopin",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/009.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 10,
+      "name": "Cigallard",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/010.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          49,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "Murhaine",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/011.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 12,
+      "name": "Saumhonni",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/012.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 13,
+      "name": "Dracounet",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/013.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 14,
+      "name": "Sir Dragon",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/014.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 15,
+      "name": "Octorgone",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/015.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 16,
+      "name": "Kyubi",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/016.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          52,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 17,
+      "name": "Robonyan",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/017.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          47,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 18,
+      "name": "Robonyan F",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/018.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          49,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 19,
+      "name": "Robonyan 28",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/019.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          54,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 20,
+      "name": "Faux Kappa",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/020.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 21,
+      "name": "Tukappa",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/021.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 22,
+      "name": "Granpapéti",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/022.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 23,
+      "name": "Puissanfon",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/023.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          50,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 24,
+      "name": "Nanpart",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/024.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 25,
+      "name": "Passpa",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/025.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          49,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 26,
+      "name": "Angélik",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/026.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 27,
+      "name": "Blizzaria",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/027.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 28,
+      "name": "Feulion",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/028.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          49,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 29,
+      "name": "Padrézo",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/029.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 30,
+      "name": "Émettor",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/030.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          51,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 31,
+      "name": "Crocho",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/031.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 32,
+      "name": "Potofeu",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/032.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          49,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 33,
+      "name": "Misterre",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/033.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          52,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 34,
+      "name": "Métaureaulog",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/034.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 35,
+      "name": "Tauracle",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/035.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          49,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 36,
+      "name": "Poulpatouch",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/036.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 37,
+      "name": "Poulpater",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/037.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          49,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 38,
+      "name": "Bonneto",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/038.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 39,
+      "name": "Sabri",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/039.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 40,
+      "name": "Démophage",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/040.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          51,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 41,
+      "name": "Brumette",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/041.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 42,
+      "name": "Brumella",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/042.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 43,
+      "name": "Télémir",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/043.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          47,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 44,
+      "name": "Triptic-tac",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/044.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          51,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 45,
+      "name": "Nihilistik",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/045.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 46,
+      "name": "Émousstik",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/046.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 47,
+      "name": "Humainequin",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/047.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 48,
+      "name": "Slurpent",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/048.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          49,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 49,
+      "name": "Baku",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/049.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 50,
+      "name": "Bakuku",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/050.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          51,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 51,
+      "name": "Mognyan",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/051.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 52,
+      "name": "Bouh",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/052.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 53,
+      "name": "Lacanne",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/053.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 54,
+      "name": "Canastelle",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/054.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          49,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 55,
+      "name": "Yvantouse",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/055.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 56,
+      "name": "Ed Mémoire",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/056.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 57,
+      "name": "Couchtar",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/057.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 58,
+      "name": "Noctambill",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/058.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 59,
+      "name": "Fouétar",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/059.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          54,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 60,
+      "name": "Superfouétar",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/060.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          55,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 61,
+      "name": "Égare-dare",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/061.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 62,
+      "name": "Chauvekipeut",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/062.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 63,
+      "name": "Chihuaglagla",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/063.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 64,
+      "name": "Froahuahua",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/064.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 65,
+      "name": "Gorgouille",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/065.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          51,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 66,
+      "name": "Sirénée",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/066.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 67,
+      "name": "Sirènité",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/067.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          49,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 68,
+      "name": "Papa Ress",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/068.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 69,
+      "name": "Ralbouc",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/069.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          51,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 70,
+      "name": "Sorcophage",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/070.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          50,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 71,
+      "name": "Insomnelle",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/071.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 72,
+      "name": "Tata Aura",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/072.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 73,
+      "name": "Tontonnerre",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/073.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 74,
+      "name": "Antonnerre",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/074.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 75,
+      "name": "Parantonn",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/075.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 76,
+      "name": "Scoltine",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/076.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 77,
+      "name": "Scolérique",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/077.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 78,
+      "name": "Coléroptère",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/078.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          48,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 79,
+      "name": "Rhinolimit",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/079.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          53,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 80,
+      "name": "Scatcheur",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/080.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          48,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 81,
+      "name": "Scarmouche",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/081.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          49,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 82,
+      "name": "Noko",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/082.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 83,
+      "name": "Nénunoko",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/083.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 84,
+      "name": "Tryptik",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/084.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          49,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 85,
+      "name": "Carpitaine",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/085.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 86,
+      "name": "Turboss",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/086.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          51,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 87,
+      "name": "Kappacap",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/087.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 88,
+      "name": "Appak",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/088.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          54,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 89,
+      "name": "Camaïeul",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/089.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          47,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 90,
+      "name": "Glapie",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/090.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 91,
+      "name": "Chiperpiou",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/091.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 92,
+      "name": "Rapiaf",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/092.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          52,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 93,
+      "name": "Tête de lard",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/093.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 94,
+      "name": "Potache",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/094.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 95,
+      "name": "Dépotache",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/095.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 96,
+      "name": "Navétéran",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/096.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 97,
+      "name": "Navigarmateur",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/097.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 98,
+      "name": "Sergent Rampant",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/098.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 99,
+      "name": "Coach Antonic",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/099.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          45,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 100,
+      "name": "Usapyon",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/100.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 101,
+      "name": "Emperor",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/101.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 102,
+      "name": "Castelius III",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/102.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          48,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 103,
+      "name": "Castelius II",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/103.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          48,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 104,
+      "name": "Castelius I",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/104.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          48,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 105,
+      "name": "Castelius Max",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/105.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          49,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 106,
+      "name": "Pitou",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/106.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 107,
+      "name": "Choubidou",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/107.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          49,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 108,
+      "name": "Arbrézo",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/108.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 109,
+      "name": "Abrézo Social",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/109.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 110,
+      "name": "Espreschiot",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/110.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 111,
+      "name": "Duc Delafeuille",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/111.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 112,
+      "name": "Feuildechou",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/112.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 113,
+      "name": "Sal de bain",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/113.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 114,
+      "name": "XXL de bain",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/114.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          49,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 115,
+      "name": "Tristos",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/115.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 116,
+      "name": "Rocky Badboya",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/116.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 117,
+      "name": "Raton Glandeur",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/117.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 118,
+      "name": "Vertipiou",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/118.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 119,
+      "name": "Samoussraï",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/119.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 120,
+      "name": "Ronimpec",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/120.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          45,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 121,
+      "name": "Moufpète",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/121.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 122,
+      "name": "Gloups",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/122.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 123,
+      "name": "Chip-Chop",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/123.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 124,
+      "name": "Chaipo",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/124.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 125,
+      "name": "Mémogre",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/125.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 126,
+      "name": "Jojojoyeux",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/126.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 127,
+      "name": "Chauvkipeut",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/127.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 128,
+      "name": "Chauv'coucou",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/128.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 129,
+      "name": "Pachycoul",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/129.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 130,
+      "name": "Pachypipi",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/130.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          52,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 131,
+      "name": "Loubarbare",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/131.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 132,
+      "name": "Racaïd",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/132.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          51,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 133,
+      "name": "Terminyanator",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/133.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          47,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 134,
+      "name": "Sabruine",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/134.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 135,
+      "name": "Sabrille",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/135.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 136,
+      "name": "Fourchelangue",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/136.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 137,
+      "name": "Felipaix",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/137.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 138,
+      "name": "M. Felipaix",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/138.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 139,
+      "name": "Doyagari",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/139.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 140,
+      "name": "Doyen Doyagari",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/140.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 141,
+      "name": "Volroulo",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/141.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 142,
+      "name": "Lulugubre",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/142.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          58,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 143,
+      "name": "Toumou",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/143.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 144,
+      "name": "Lamlam'mou",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/144.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 145,
+      "name": "Savantard",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/145.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          49,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 146,
+      "name": "Loupépin",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/146.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 147,
+      "name": "Mademoaiselle",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/147.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 148,
+      "name": "Maître Nyada",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/148.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          51,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 149,
+      "name": "Hovernyan",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/149.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          47,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 150,
+      "name": "Enma",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/150.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          44,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 151,
+      "name": "Raltesse",
+      "path": "QA_RECETTE_FINALE/CADRAGE_COMBATS_151/avant/151.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          84,
+          0,
+          1
+        ],
+        "front": [
+          176,
+          46,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

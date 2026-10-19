@@ -1,0 +1,1678 @@
+{
+  "count": 151,
+  "archives": [
+    {
+      "name": "BATTLE_SPRITE1.rar",
+      "bytes": 18492141,
+      "sha256": "f883461b8513a29226d705044c9e4e68e8e3ce6a682e3d28ace62db9d4f6f115"
+    },
+    {
+      "name": "BATTLE_SPRITE2.rar",
+      "bytes": 17805977,
+      "sha256": "d8cc74a8f0ea5e3684a78442d494b7ef82c6b8fba57b7888d716d0605e67d2a6"
+    }
+  ],
+  "images": [
+    {
+      "number": 1,
+      "member": "BATTLE_SPRITE1/001_Jibanyan.png",
+      "source_sha256": "ccaa813c05a70f59139705d2e5d4d05fd309bd62a67accfed0074e4127490aae",
+      "normalized_path": "references/001.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 2,
+      "member": "BATTLE_SPRITE1/002_Bandinyan.png",
+      "source_sha256": "d8be82b60e2a82a0d0aca613ab143ef879592056f1e67eeaf5027e56fb920dee",
+      "normalized_path": "references/002.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 3,
+      "member": "BATTLE_SPRITE1/003_Epinyan.png",
+      "source_sha256": "28c4584764a10aed8c04a70c14923a204d159a464a65ce4e0879b796e3c4786d",
+      "normalized_path": "references/003.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 4,
+      "member": "BATTLE_SPRITE1/004_Shogunyan.png",
+      "source_sha256": "1ba2dd51db376a049c07b134ae6db15a0f0e09bab7ded6c94591168d198eb23c",
+      "normalized_path": "references/004.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 5,
+      "member": "BATTLE_SPRITE1/005_Komasan.png",
+      "source_sha256": "0b267abfbced3bf694baf56d8a48ead62f5bbc44885f0da8bcd2ce9e1bf63b02",
+      "normalized_path": "references/005.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 6,
+      "member": "BATTLE_SPRITE1/006_Komaous.png",
+      "source_sha256": "f4d35ecc153dc37e30e457247ea35ecf0fe50498cc28a8c46978f1e9ed7262e5",
+      "normalized_path": "references/006.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 7,
+      "member": "BATTLE_SPRITE1/007_Komastar.png",
+      "source_sha256": "189923aa4394490467ff496c4577f23b7834b43d5bdf1a0ac686dd4f3cfc9c3a",
+      "normalized_path": "references/007.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 8,
+      "member": "BATTLE_SPRITE1/008_Whisper.png",
+      "source_sha256": "d43278ae6d66a8788cdb7c7a833f70ef9a947ec9a768e774e02c39843a4abb72",
+      "normalized_path": "references/008.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 9,
+      "member": "BATTLE_SPRITE1/009_Cigalopin.png",
+      "source_sha256": "62502f9ebd8e095c2c25851a8351508b54aec2f3c278b9142ab68544a6e7b846",
+      "normalized_path": "references/009.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 10,
+      "member": "BATTLE_SPRITE1/010_Cigallard.png",
+      "source_sha256": "c17d75022390323200c6a368ddee290c45d1086593628b2fe0ecf209f675080b",
+      "normalized_path": "references/010.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 11,
+      "member": "BATTLE_SPRITE1/011_Murhaine.png",
+      "source_sha256": "1346bfee95b6101c0ffe71c948d2db31c405ed91be7fd5e213b0fc9ea2e47f32",
+      "normalized_path": "references/011.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 12,
+      "member": "BATTLE_SPRITE1/012_Saumhonni.png",
+      "source_sha256": "b88da110fb85d24406c5f77e01b353a11873252fe93225c3896eb67eeb4b7ffc",
+      "normalized_path": "references/012.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 13,
+      "member": "BATTLE_SPRITE1/013_Dracounet.png",
+      "source_sha256": "b83eb1c7d242df47900573108bcc822829afe2cdea2eba64b4ecbfc5268fbec1",
+      "normalized_path": "references/013.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 14,
+      "member": "BATTLE_SPRITE1/014_Sir_Dragon.png",
+      "source_sha256": "ac7b8859d94f32760aa20144a739a158b853780a0fffc1c97fe53276df8df850",
+      "normalized_path": "references/014.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 15,
+      "member": "BATTLE_SPRITE1/015_Octorgone.png",
+      "source_sha256": "bb7a97dee60ac41072e73f5005068506dc37da86e423e983a1d3fccf9ac9f6c7",
+      "normalized_path": "references/015.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 16,
+      "member": "BATTLE_SPRITE1/016_Kyubi.png",
+      "source_sha256": "2c341320e9aafaa4cceaeebc63812cc4c3eeed270fca8e90cd907d9f4eeadc68",
+      "normalized_path": "references/016.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 17,
+      "member": "BATTLE_SPRITE1/017_Robonyan.png",
+      "source_sha256": "4bff21fd5f1e58e2214902aad07ab818b6eb08c9ac9174ebed0e8f3d7bfd33fa",
+      "normalized_path": "references/017.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 18,
+      "member": "BATTLE_SPRITE1/018_Robonyan_F.png",
+      "source_sha256": "b7f8d45cdd0d54665bef6298377a81bbfaaff242a8fc95882ecde6f90c503494",
+      "normalized_path": "references/018.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 19,
+      "member": "BATTLE_SPRITE1/019_Robonyan_28.png",
+      "source_sha256": "ba54b5a551f2f21614fcfc0ce50c084a1da410c6cd10c34764de6f9ad2c0f361",
+      "normalized_path": "references/019.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 20,
+      "member": "BATTLE_SPRITE1/020_Faux_Kappa.png",
+      "source_sha256": "51809b4f3dce34f4c2b1b201267eea9db5718b3b0fc8a3b614042e3486ac4f50",
+      "normalized_path": "references/020.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 21,
+      "member": "BATTLE_SPRITE1/021_Tukappa.png",
+      "source_sha256": "99dfee0345a532ea7ff87f71a2038b51a83868395eb3d2b8508e3d8334a68891",
+      "normalized_path": "references/021.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 22,
+      "member": "BATTLE_SPRITE1/022_Granpapeti.png",
+      "source_sha256": "2c99c0f1af7f9d5d7b0216c33dfb16366e9dde96128de39a206a4a7f4fbb7420",
+      "normalized_path": "references/022.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 23,
+      "member": "BATTLE_SPRITE1/023_Puissanfon.png",
+      "source_sha256": "c4264ed1d5880370f9d5130fc52579d5b4d5a1078b41d705e75afb9a781c331f",
+      "normalized_path": "references/023.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 24,
+      "member": "BATTLE_SPRITE1/024_Nanpart.png",
+      "source_sha256": "882becdf09e332fa6c540c506f3915ee250985ab87c4c513981a21286ec7f09a",
+      "normalized_path": "references/024.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 25,
+      "member": "BATTLE_SPRITE1/025_Passpa.png",
+      "source_sha256": "5eb72f8bfd77e685d367d0673c365a42ea3c398d39187a8915a50a6ba7269254",
+      "normalized_path": "references/025.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 26,
+      "member": "BATTLE_SPRITE1/026_Angelik.png",
+      "source_sha256": "8bd37584451cb39394c1f818f1d39c610f87bbfca17277f86071da906412f777",
+      "normalized_path": "references/026.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 27,
+      "member": "BATTLE_SPRITE1/027_Blizzaria.png",
+      "source_sha256": "df5abbb598f7d49f144fee04e73ccf9abba2fa320b812fcd20b3beebd0932522",
+      "normalized_path": "references/027.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 28,
+      "member": "BATTLE_SPRITE1/028_Feulion.png",
+      "source_sha256": "3db915c04681ade74e4e999a8a8cf0cc91ab1af9f9138633cffc32695f301c6f",
+      "normalized_path": "references/028.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 29,
+      "member": "BATTLE_SPRITE1/029_Padrezo.png",
+      "source_sha256": "1b4697307007968e316ab6532e003d043eff98d004d2ab3f2b75d6bed50541cf",
+      "normalized_path": "references/029.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 30,
+      "member": "BATTLE_SPRITE1/030_Emettor.png",
+      "source_sha256": "47833e99d252be26e8953b8d28f183f11cb2cc4b72525190f87477de07195cae",
+      "normalized_path": "references/030.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 31,
+      "member": "BATTLE_SPRITE1/031_Crocho.png",
+      "source_sha256": "33656028579744942aec64636fae389077703e9ebd328c2a8cf5bf8867d726d6",
+      "normalized_path": "references/031.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 32,
+      "member": "BATTLE_SPRITE1/032_Potofeu.png",
+      "source_sha256": "ac2e1e84240bc2deedb9c583e13ae85995b7d3f3583e951c566416c000cf68e7",
+      "normalized_path": "references/032.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 33,
+      "member": "BATTLE_SPRITE1/033_Misterre.png",
+      "source_sha256": "60e9d1d02289c25b6b5ccfabfbe84da6dd5723e6898945913152e5ab625f260d",
+      "normalized_path": "references/033.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 34,
+      "member": "BATTLE_SPRITE1/034_Metaurolog.png",
+      "source_sha256": "6b29777d2e59b6d4f1990a0b10275446b5861ae9b545a1f640975a16b945c337",
+      "normalized_path": "references/034.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 35,
+      "member": "BATTLE_SPRITE1/035_Tauracle.png",
+      "source_sha256": "417e87a1c3b98531245fb48dc1004684ab8624ef1917331e4d89e684ed773ded",
+      "normalized_path": "references/035.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 36,
+      "member": "BATTLE_SPRITE1/036_Poulpatouch.png",
+      "source_sha256": "0615ca9499a9fc1885271cc29d6f974563569db24dadc8f370b57528e4d6d40b",
+      "normalized_path": "references/036.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 37,
+      "member": "BATTLE_SPRITE1/037_Poulpater.png",
+      "source_sha256": "b709155ca475ea3bf40abad9169e82dad26d28517528c777d75f7352dec041eb",
+      "normalized_path": "references/037.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 38,
+      "member": "BATTLE_SPRITE1/038_Bonneto.png",
+      "source_sha256": "e418b8138f708fa5f5100de49103e1cbd1e104c6f0bc77976df34a151f54db2c",
+      "normalized_path": "references/038.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 39,
+      "member": "BATTLE_SPRITE1/039_Sabri.png",
+      "source_sha256": "1a74903b85e688cf34f948f9ab86c4c2fb976201bbbb239599f16324f58d8a50",
+      "normalized_path": "references/039.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 40,
+      "member": "BATTLE_SPRITE1/040_Demophage.png",
+      "source_sha256": "2027fda379230d6249b3e929d2bc6411e28d5333091ce941d72d1c050401917b",
+      "normalized_path": "references/040.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 41,
+      "member": "BATTLE_SPRITE1/041_Brumette.png",
+      "source_sha256": "17e82523baa06009ce9428fb6575b84032c231db6d631df8cedf15d1b7616636",
+      "normalized_path": "references/041.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 42,
+      "member": "BATTLE_SPRITE1/042_Brumella.png",
+      "source_sha256": "5c1e01edceab402a5f93776dc972552c3f4f59f94fe9fd4a2c4add164d9c1436",
+      "normalized_path": "references/042.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 43,
+      "member": "BATTLE_SPRITE1/043_Telemir.png",
+      "source_sha256": "92ee5848e46c866470f79188e63e0a254d2abc853141cab3a9ba7fdf56840798",
+      "normalized_path": "references/043.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 44,
+      "member": "BATTLE_SPRITE1/044_Triptic_tac.png",
+      "source_sha256": "34ec1c21715e12e136bf18f81ce075cf216991e6ca296201ac790b1a0a4c0cc0",
+      "normalized_path": "references/044.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 45,
+      "member": "BATTLE_SPRITE1/045_Nihilistik.png",
+      "source_sha256": "9518800d50893ddeec1f238a4aafb383fad497ead4b4b3f859a0ade3de4332bc",
+      "normalized_path": "references/045.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 46,
+      "member": "BATTLE_SPRITE1/046_Emousstik.png",
+      "source_sha256": "63772517d8201ac4f6c89cd847112a97ce199379db455b103b1e2d6de11fdafb",
+      "normalized_path": "references/046.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 47,
+      "member": "BATTLE_SPRITE1/047_Humainequin.png",
+      "source_sha256": "9a9bbba4e679a14afcd6592710b90f8c7b43ff4fae3b6ed290a1c078dc49d3fe",
+      "normalized_path": "references/047.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 48,
+      "member": "BATTLE_SPRITE1/048_Slurpent.png",
+      "source_sha256": "d0306959a8b58f1720c46d51d38e4ad0ddad8ff54e8a56dcff70fa716a3b4ba6",
+      "normalized_path": "references/048.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 49,
+      "member": "BATTLE_SPRITE1/049_Baku.png",
+      "source_sha256": "a84389d43249553b9cc41e089c32a6f1efee82a462c7a9f1fa31c578a2331206",
+      "normalized_path": "references/049.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 50,
+      "member": "BATTLE_SPRITE1/050_Bakuku.png",
+      "source_sha256": "cbf08287cf126c58a1fe670f5e473d3ed750cb89d60da1a7486ca34d0b6cecf2",
+      "normalized_path": "references/050.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 51,
+      "member": "BATTLE_SPRITE1/051_Mognyan.png",
+      "source_sha256": "7cc64649d753787eef9ed5e655a0f014bcfd9e2e0746848f105a75809fe27ffd",
+      "normalized_path": "references/051.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 52,
+      "member": "BATTLE_SPRITE1/052_Bouh.png",
+      "source_sha256": "a29875cad21db8ce2a5107109a890b7451c7222d60b6f34febeb48a068d5aade",
+      "normalized_path": "references/052.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 53,
+      "member": "BATTLE_SPRITE1/053_Lacanne.png",
+      "source_sha256": "2688d06a4975c3f411dd8194e19781d94326010f4af30d0b121ff70db8a84ee2",
+      "normalized_path": "references/053.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 54,
+      "member": "BATTLE_SPRITE1/054_Canastelle.png",
+      "source_sha256": "ec1d96a0a79c4c4fa286a9938292eb1785d9ff4017569fc8151d604753e550c9",
+      "normalized_path": "references/054.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 55,
+      "member": "BATTLE_SPRITE1/055_Yvantouse.png",
+      "source_sha256": "d545af86a4e71f9ca1fa19198f7323fd264597fc36ef9993eb716b8697af41c3",
+      "normalized_path": "references/055.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 56,
+      "member": "BATTLE_SPRITE1/056_Ed_Memoire.png",
+      "source_sha256": "d3d6615a24886b075aed5cea6fcf7a6db574b47dbc08fbfc1f5d8d2262c6170c",
+      "normalized_path": "references/056.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 57,
+      "member": "BATTLE_SPRITE1/057_Couchtar.png",
+      "source_sha256": "03894d1620cf6de11fead562441270d0f6c520e4a8e25f85dd3c54c54a269621",
+      "normalized_path": "references/057.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 58,
+      "member": "BATTLE_SPRITE1/058_Noctambill.png",
+      "source_sha256": "5fae6105f7ced695a293c1f2e09a72c9b3d482f4cfc03e0302001d4250682fda",
+      "normalized_path": "references/058.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 59,
+      "member": "BATTLE_SPRITE1/059_Fouetar.png",
+      "source_sha256": "973d57518d96c6415baca1d1f29375daad925078db038e2310f1ef3ca56b44b9",
+      "normalized_path": "references/059.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 60,
+      "member": "BATTLE_SPRITE1/060_Superfouetar.png",
+      "source_sha256": "205dab4bedc44a971d755d2bc8169f4fe4b866c29597254625f66cae2c4992d1",
+      "normalized_path": "references/060.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 61,
+      "member": "BATTLE_SPRITE1/061_Egare_dare.png",
+      "source_sha256": "bbbc0a6016639d6cde61aa40012dec150367e861315f03d81b3ed2970da929f5",
+      "normalized_path": "references/061.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 62,
+      "member": "BATTLE_SPRITE1/062_Charivari.png",
+      "source_sha256": "a370d215419875aea483323aa63bff7aa5a49894b06a3301c841f0def16693d9",
+      "normalized_path": "references/062.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 63,
+      "member": "BATTLE_SPRITE1/063_Chihuaglagla.png",
+      "source_sha256": "373dca25ca2d3281c308d2b46a0f7d12ef6102c4758b32752bac563b6dcf0060",
+      "normalized_path": "references/063.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 64,
+      "member": "BATTLE_SPRITE1/064_Frohuahua.png",
+      "source_sha256": "19c04c694b1fc5e774fa667e695d2c2435bfaac671453f6033f58dc0c9a26e01",
+      "normalized_path": "references/064.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 65,
+      "member": "BATTLE_SPRITE1/065_Gorgouille.png",
+      "source_sha256": "8811162877141d70294f4aee34dcc5a00c229ac10b3ee9d979e5fe921e9a4cfb",
+      "normalized_path": "references/065.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 66,
+      "member": "BATTLE_SPRITE1/066_Sirene.png",
+      "source_sha256": "d5a7c0fffe9f63dc90563fbc8da1069ba08d83c2e69acdf8c81eb0f32c3d98bf",
+      "normalized_path": "references/066.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 67,
+      "member": "BATTLE_SPRITE1/067_Sirenite.png",
+      "source_sha256": "d6261cdaf50f91dd34443b318797d79daa7cf88b20319e6d0022d7efcf16e89c",
+      "normalized_path": "references/067.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 68,
+      "member": "BATTLE_SPRITE1/068_Papa_Ress.png",
+      "source_sha256": "52035ce6997f53f50f1b0ce44e40293157bc8c927a5b3b60737b901f9e83610d",
+      "normalized_path": "references/068.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 69,
+      "member": "BATTLE_SPRITE1/069_Ralbouc.png",
+      "source_sha256": "188e2328497e976400d7aa1ba39119fdc78075da67cc44092fedd9d421d825c5",
+      "normalized_path": "references/069.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 70,
+      "member": "BATTLE_SPRITE1/070_Sorcophage.png",
+      "source_sha256": "38a5dc1bbcd7192600cf879e95415b37fca3cdb27cbdff43467fd031a2651cdf",
+      "normalized_path": "references/070.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 71,
+      "member": "BATTLE_SPRITE1/071_Insomnel.png",
+      "source_sha256": "b6160064b55939df4a2d09e03afb8fdebc6d370d6797a3eda59647b9efa5f1ba",
+      "normalized_path": "references/071.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 72,
+      "member": "BATTLE_SPRITE1/072_Tata_Aura.png",
+      "source_sha256": "104f880ea0c1a2b3b84667f1c40ce88ad88892adc3e85a4a5361b681257af631",
+      "normalized_path": "references/072.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 73,
+      "member": "BATTLE_SPRITE1/073_Tontonnerre.png",
+      "source_sha256": "e9a1803c32f7ca5a81440e1fc17038dea40f4e6d8e42883d14d25360fbecab98",
+      "normalized_path": "references/073.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 74,
+      "member": "BATTLE_SPRITE1/074_Antonnerre.png",
+      "source_sha256": "8e40fce27ddd10118394c7a2d4187554d8d540f6592ea7b3d033b62ff8566da3",
+      "normalized_path": "references/074.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 75,
+      "member": "BATTLE_SPRITE1/075_Parantonn.png",
+      "source_sha256": "919ae6d59f84063742c1fd7222e80a0ac053e5669ea0f5110e3f252d1c34bb12",
+      "normalized_path": "references/075.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 76,
+      "member": "BATTLE_SPRITE1/076_Scoltine.png",
+      "source_sha256": "67657fad95aec4ab8eb284a096a6f0cad76d2fe5767a5cd631cd5cee7bb9d21b",
+      "normalized_path": "references/076.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 77,
+      "member": "BATTLE_SPRITE2/077_Scolerique.png",
+      "source_sha256": "8e334b72d14cb562dba3d8dd6f8ef72ba0de7d155dd4c4c981a9dccf9e51ac95",
+      "normalized_path": "references/077.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 78,
+      "member": "BATTLE_SPRITE2/078_Coleoptere.png",
+      "source_sha256": "0866f5f2a81a1a14d20dbe80b2999105caca06795d700f0d7173619a6a82eaf2",
+      "normalized_path": "references/078.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 79,
+      "member": "BATTLE_SPRITE2/079_Rhinolimit.png",
+      "source_sha256": "46d8929a90dd5537f6b7bb468c064299458ff5f2eb78300ed2b4102c2a642593",
+      "normalized_path": "references/079.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 80,
+      "member": "BATTLE_SPRITE2/080_Scatcheur.png",
+      "source_sha256": "97a492619286f1562553f1ba2e8c08f6b0b1b42fbfd32b7bf1c44363bcbdf56c",
+      "normalized_path": "references/080.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 81,
+      "member": "BATTLE_SPRITE2/081_Scarmouche.png",
+      "source_sha256": "6b2526ab94f7ba446b20b2a92eaa409909426b6e44208dec146276e938d74bbc",
+      "normalized_path": "references/081.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 82,
+      "member": "BATTLE_SPRITE2/082_Noko.png",
+      "source_sha256": "619c92846a7197db83ea20ac0ff0eb6bfda289c0dfbe9558cf28f19f670cbf98",
+      "normalized_path": "references/082.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 83,
+      "member": "BATTLE_SPRITE2/083_Nenunoko.png",
+      "source_sha256": "da108fe54a6ff12b88717ec7c49e1cd5bdbc4fdd4041b26d39ee4bd522cf05d5",
+      "normalized_path": "references/083.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 84,
+      "member": "BATTLE_SPRITE2/084_Trytik.png",
+      "source_sha256": "7957192c16980f4fe4b6f4e61eb33fa45901479933b50b2fd3ccdcfc9a94d2b8",
+      "normalized_path": "references/084.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 85,
+      "member": "BATTLE_SPRITE2/085 - Carpitaine.png",
+      "source_sha256": "7ebc86fbe2359e31240286d889cc6f29dd6b6dfb02c888b75516117f640e535e",
+      "normalized_path": "references/085.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 86,
+      "member": "BATTLE_SPRITE2/086 - Turboss.png",
+      "source_sha256": "004f18065e6f9b287f1dd18c82abaabbb727643eb15ced9430103436d8108b10",
+      "normalized_path": "references/086.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 87,
+      "member": "BATTLE_SPRITE2/087 - Kappacap.png",
+      "source_sha256": "c1b6a876d69590f9a5eb3167bdd63d76be1f3bd9ddcc1fa822343f7f8abcc89a",
+      "normalized_path": "references/087.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 88,
+      "member": "BATTLE_SPRITE2/088 - Appak.png",
+      "source_sha256": "01df4392be81ed704758c830ae2911ddc9d20b0e145a0b0d0d84a24de5d8799f",
+      "normalized_path": "references/088.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 89,
+      "member": "BATTLE_SPRITE2/089 - Camaueil.png",
+      "source_sha256": "1275852622829eadf15bc3a129096252789d0b4e5ed0e936a6ab84bb88f34ac4",
+      "normalized_path": "references/089.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 90,
+      "member": "BATTLE_SPRITE2/090 - Glapie.png",
+      "source_sha256": "6cc30843179d36b4030c3a228b34b63d4bcb811a40bc996e26186bc50b0e2b00",
+      "normalized_path": "references/090.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 91,
+      "member": "BATTLE_SPRITE2/091 - Chiperpiou.png",
+      "source_sha256": "ac33f23c1ec23cfd9880bdf16368f3edb2858c795160611ba54585149e097016",
+      "normalized_path": "references/091.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 92,
+      "member": "BATTLE_SPRITE2/092 - Rapiaf.png",
+      "source_sha256": "25f389ad7baf0d8c1d424ea320e053fb099aacd7a1c217fbc43225acd3159d15",
+      "normalized_path": "references/092.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 93,
+      "member": "BATTLE_SPRITE2/093 - Tête de lard.png",
+      "source_sha256": "b6c2b7979a826011599096326585efb34f6ee8ffd10b02959959e0add3897882",
+      "normalized_path": "references/093.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 94,
+      "member": "BATTLE_SPRITE2/094 - Potache.png",
+      "source_sha256": "d102ae5e8b43a30e0022a9249ae11eb721779b8c04669d5fd655071c45cefbcd",
+      "normalized_path": "references/094.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 95,
+      "member": "BATTLE_SPRITE2/095 - Dépotache.png",
+      "source_sha256": "46ca4d1646c7f86f4a91c07dea1396f451efcde1475242d5a28cab599687d1a3",
+      "normalized_path": "references/095.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 96,
+      "member": "BATTLE_SPRITE2/096 - Navétéran.png",
+      "source_sha256": "46cdde4880526e54fa4d2a0a0d8d5657a73887555419eb4fd8482eb7755cabc1",
+      "normalized_path": "references/096.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 97,
+      "member": "BATTLE_SPRITE2/097 - Navigarmateur.png",
+      "source_sha256": "36300e5ee3546781c7c876f00b00d8e2b1ee7f55943a2d585d1708a34921b51f",
+      "normalized_path": "references/097.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 98,
+      "member": "BATTLE_SPRITE2/098 - Sergent Rampant.png",
+      "source_sha256": "0aabbdc2fe76c0a5bd6f21549222f3f2a732d72be86eee2e5fab2eacea3bb203",
+      "normalized_path": "references/098.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 99,
+      "member": "BATTLE_SPRITE2/099 - Coach Antonic.png",
+      "source_sha256": "59b9a040ae05366b49641a244c68aad8beb674e13c13e5c1c49ea6b4e642bfb9",
+      "normalized_path": "references/099.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 100,
+      "member": "BATTLE_SPRITE2/100 - Usapion.png",
+      "source_sha256": "514a9dfa8d404a2634c2abdf017cc8674411f79ddd3f4dcc6ac99bcd1af45cb0",
+      "normalized_path": "references/100.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 101,
+      "member": "BATTLE_SPRITE2/101 - Emperor.png",
+      "source_sha256": "0d1f957091768c0657dc0c62316f172cd87c41593d94496a3ac2403562e20a2b",
+      "normalized_path": "references/101.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 102,
+      "member": "BATTLE_SPRITE2/102 - Castelius III.png",
+      "source_sha256": "508c3ce24957790e81160a2ef89f70039e3833a1a52fdf825c8ce5ee2cb665df",
+      "normalized_path": "references/102.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 103,
+      "member": "BATTLE_SPRITE2/103 - Castelius II.png",
+      "source_sha256": "42c5adde561687e4df01f00ccd34cd2edf933b44aff9e0e27d27b3f914dc394b",
+      "normalized_path": "references/103.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 104,
+      "member": "BATTLE_SPRITE2/104 - Castelius I.png",
+      "source_sha256": "ef434271e176d92611733cd265054510d6991c805cccb4a70293be807d33bc37",
+      "normalized_path": "references/104.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 105,
+      "member": "BATTLE_SPRITE2/105 - Castelius Max.png",
+      "source_sha256": "d218fc24e83a1763ffd50014b0c09332af3df931bc7a9b598bfcab99214dbac9",
+      "normalized_path": "references/105.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 106,
+      "member": "BATTLE_SPRITE2/106 - Pitou.png",
+      "source_sha256": "460a5a5a812df47e7ad297da98dec98275424f161a8fe7e271b53dca1a81788c",
+      "normalized_path": "references/106.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 107,
+      "member": "BATTLE_SPRITE2/107 - Choubidou.png",
+      "source_sha256": "b5b66c8663bee95fe1301976fa8e9d325a1d91d136670976d5939918da4a7b62",
+      "normalized_path": "references/107.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 108,
+      "member": "BATTLE_SPRITE2/108 - Arbrézo.png",
+      "source_sha256": "68bb697041cb7ae19b7fff86c2e09d27427739a527cf56ce855d642d9729376b",
+      "normalized_path": "references/108.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 109,
+      "member": "BATTLE_SPRITE2/109 - Abrézo Social.png",
+      "source_sha256": "b2494e3efc86f3b6331ee9a02ddeeb3cf2c45f31a94780b275100d345a863d33",
+      "normalized_path": "references/109.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 110,
+      "member": "BATTLE_SPRITE2/110 - Espreschiot.png",
+      "source_sha256": "eb16d185ddc9d2bee0322fac8826642e5505ab63ca9fd5963218344eb710f98f",
+      "normalized_path": "references/110.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 111,
+      "member": "BATTLE_SPRITE2/111 - Duc DeLaFeuille.png",
+      "source_sha256": "e603714aceb71841e85e306fcd55b225a984b9e77dff36dff727301d30455a40",
+      "normalized_path": "references/111.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 112,
+      "member": "BATTLE_SPRITE2/112 - FeuildeChou.png",
+      "source_sha256": "1fdd2f1b6f962e5d6949910b676c1e86fc10a18c3e3e7530e54747ab2f5a8bbe",
+      "normalized_path": "references/112.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 113,
+      "member": "BATTLE_SPRITE2/113 - Sal de bain.png",
+      "source_sha256": "31d496ea2400a20ef98b86197891d0506882602a2c74a3a4c995673340a917e6",
+      "normalized_path": "references/113.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 114,
+      "member": "BATTLE_SPRITE2/114 - XXL de bain.png",
+      "source_sha256": "15e1fbc1539a0def44149ff525f55d90ec4b7c695f8e345d6e88e336dcff5b35",
+      "normalized_path": "references/114.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 115,
+      "member": "BATTLE_SPRITE2/115 - Tristos.png",
+      "source_sha256": "99d5122e5b8f0fc02c9f1669a61e09723a90a508798681e57f123ac3b8d819da",
+      "normalized_path": "references/115.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 116,
+      "member": "BATTLE_SPRITE2/116 - Rocky Badboya.png",
+      "source_sha256": "c3bb44703cbdf068ac425a8ebf47a89cd517dfda2be7c34e42f297d9cad76df7",
+      "normalized_path": "references/116.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 117,
+      "member": "BATTLE_SPRITE2/117 - Raton Glandeur.png",
+      "source_sha256": "54c00bfa4c2df86cdee984d92a15bdbe7be75420670058266d2c52a69848020f",
+      "normalized_path": "references/117.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 118,
+      "member": "BATTLE_SPRITE2/118 - Vertipiou.png",
+      "source_sha256": "a3828d1bb4aad065c012b48f96d8e281c935ae3d0c8914faa66727eb41d3275a",
+      "normalized_path": "references/118.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 119,
+      "member": "BATTLE_SPRITE2/119 - Samoussrai.png",
+      "source_sha256": "4fc5b6f819acb145b1af65eedce83c941b7eba38682584113cd94b842f578c2c",
+      "normalized_path": "references/119.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 120,
+      "member": "BATTLE_SPRITE2/120 - Ronimpec.png",
+      "source_sha256": "b2f52ea3c3f16b70cd126f4121bbc77f6a883f4c9f4727678d4e9857671921bb",
+      "normalized_path": "references/120.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 121,
+      "member": "BATTLE_SPRITE2/121 - Moufpète.png",
+      "source_sha256": "e3434d22010b36816850015589049abcf28084bed6de0f1eaaabdc83836cf238",
+      "normalized_path": "references/121.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 122,
+      "member": "BATTLE_SPRITE2/122 - Gloups.png",
+      "source_sha256": "5c7af3da0e7ee385bdaaea09ca8535d12a46a2df0969afb47d52d8758c6c3df6",
+      "normalized_path": "references/122.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 123,
+      "member": "BATTLE_SPRITE2/123 - Chip-Chop.png",
+      "source_sha256": "9028072bcd354ba9fac04aee72ee31b3de1e341e74c4d0c70a91f1dcb9b4ed81",
+      "normalized_path": "references/123.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 124,
+      "member": "BATTLE_SPRITE2/124 - Chaipo.png",
+      "source_sha256": "0cad6c69f0ea427f866b4516e0940d3bc53ebaea629037b1e4559ccb85abb080",
+      "normalized_path": "references/124.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 125,
+      "member": "BATTLE_SPRITE2/125 - Mémogre.png",
+      "source_sha256": "12c0c630f72ba449058e36160e99df25c0cd9ffc384164ca1a026a2470ca56d7",
+      "normalized_path": "references/125.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 126,
+      "member": "BATTLE_SPRITE2/126 - Jojojoyeux.png",
+      "source_sha256": "6c0495f17e4991f62a7a4994c94c9e5a36ffcd58523332938f6dd51b78e4e97e",
+      "normalized_path": "references/126.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 127,
+      "member": "BATTLE_SPRITE2/127 - Chauvkipeut.png",
+      "source_sha256": "711103691b9ffd52afc789ed6d30212de530a956d899e9a955003e8fc507215a",
+      "normalized_path": "references/127.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 128,
+      "member": "BATTLE_SPRITE2/128 - Chauv'coucou.png",
+      "source_sha256": "da40785de99d2e60ba7829faa718f90847e5099476de4fd204d5821e47dd004b",
+      "normalized_path": "references/128.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 129,
+      "member": "BATTLE_SPRITE2/129 - Pachycool.png",
+      "source_sha256": "932f5c256cfd316b8134151034439382f401dc97c1d6b8ab8cded3d9a4d3d949",
+      "normalized_path": "references/129.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 130,
+      "member": "BATTLE_SPRITE2/130 - Pachypipi.png",
+      "source_sha256": "7739a23ebda5ffc18b430f1dca5d8ce6f00279732c9734c5146defe6d736a2b5",
+      "normalized_path": "references/130.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 131,
+      "member": "BATTLE_SPRITE2/131 - Loubarbare.png",
+      "source_sha256": "be615a158456e7aaecb79e4f9df02b1ed381b7d6cbc3b87152fe3e0098764a88",
+      "normalized_path": "references/131.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 132,
+      "member": "BATTLE_SPRITE2/132 - Racaïd.png",
+      "source_sha256": "b61ace216d3a3f9afcc867d70fdf0a5ece7a94d5f79d3d375cb0f618b88ebbd8",
+      "normalized_path": "references/132.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 133,
+      "member": "BATTLE_SPRITE2/133 - Terminyanator.png",
+      "source_sha256": "e5d4e08c50b5e74e4e01ac44a6cd654147035acaf6618568c09a6804f5cf1f21",
+      "normalized_path": "references/133.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 134,
+      "member": "BATTLE_SPRITE2/134 - Sabruine.png",
+      "source_sha256": "643e44ea40c3bb142464a9965eae13ea0243e2c71faba0311b90cf619c003360",
+      "normalized_path": "references/134.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 135,
+      "member": "BATTLE_SPRITE2/135 - Sabrille.png",
+      "source_sha256": "d8772a96c96da869be3ff245729627dcc001b13233afda0250c8d6468b3e3057",
+      "normalized_path": "references/135.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 136,
+      "member": "BATTLE_SPRITE2/136 - Fourchelang.png",
+      "source_sha256": "c1d119fe01f574e9b3dcc31eafc50afa2fda4a324875b6d13d9325bd14af5066",
+      "normalized_path": "references/136.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 137,
+      "member": "BATTLE_SPRITE2/137 - Felipaix.png",
+      "source_sha256": "badf9e86728a46d7c7a2689a6a9841caf2d6bfe899d4d5dd91f0c3d7b148c779",
+      "normalized_path": "references/137.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 138,
+      "member": "BATTLE_SPRITE2/138 - M. Felipaix.png",
+      "source_sha256": "aaca6761b3ff29b64346f691ce1588665e5f09453d9c6392404f0775f8ec0872",
+      "normalized_path": "references/138.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 139,
+      "member": "BATTLE_SPRITE2/139 - Doyaris.png",
+      "source_sha256": "c1afab416446b015f74987e61aaf95d8b716ac2746081f4b94c1e35b832b3161",
+      "normalized_path": "references/139.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 140,
+      "member": "BATTLE_SPRITE2/140 - Doyen Doyaris.png",
+      "source_sha256": "1ce4a180ca084ba432450d2016f12ca6288e6853b343a9da37b5518e2394797c",
+      "normalized_path": "references/140.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 141,
+      "member": "BATTLE_SPRITE2/141 - Volroulo.png",
+      "source_sha256": "6a993b46757bc09950d3fd16dffb95ec6ccf41cb2f913e49742f1a45761790b8",
+      "normalized_path": "references/141.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 142,
+      "member": "BATTLE_SPRITE2/142 - Lulugubre.png",
+      "source_sha256": "6aa64ba34c9b8ffc98ee2a50b3d6a8999b1d9f34492eeae9df664307a5e0911b",
+      "normalized_path": "references/142.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 143,
+      "member": "BATTLE_SPRITE2/143 - Toumou.png",
+      "source_sha256": "16933e7e9bd7106025b04448316e1b92d86339f3bbec2f2a232cb62710f3b8ae",
+      "normalized_path": "references/143.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 144,
+      "member": "BATTLE_SPRITE2/144 - Lamlam'mou.png",
+      "source_sha256": "10357078bbe0164c2c060dd0a8518d53d9f76e0b9c640f13334aa78eb8d6f506",
+      "normalized_path": "references/144.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 145,
+      "member": "BATTLE_SPRITE2/145 - Savantard.png",
+      "source_sha256": "e44eb22348d6f013f6f00d3f39c6a8c9f3f0ab8203c93e490ab7eb844735087a",
+      "normalized_path": "references/145.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 146,
+      "member": "BATTLE_SPRITE2/146 - Loupépin.png",
+      "source_sha256": "da3261a88e8db6703b216d331997e5c57347c9a5986c9de6c6e9666007562f43",
+      "normalized_path": "references/146.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 147,
+      "member": "BATTLE_SPRITE2/147 - Mademoaiselle.png",
+      "source_sha256": "bdbf2867c7e7459aa91d529e7b7ea626bd57b2709602e04557236bce25dee131",
+      "normalized_path": "references/147.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 148,
+      "member": "BATTLE_SPRITE2/148 - Maître Nyada.png",
+      "source_sha256": "bec0996de966bf4d28d7448faa5bcfa941861d315a4277f3e452b501ae5b787b",
+      "normalized_path": "references/148.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 149,
+      "member": "BATTLE_SPRITE2/149 - Hovernyan.png",
+      "source_sha256": "e8760fc9e52ad1b1187046b715538c7594813facadfc4958ff5a68de80aef6d6",
+      "normalized_path": "references/149.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 150,
+      "member": "BATTLE_SPRITE2/150 - Enma.png",
+      "source_sha256": "fff188ade653f8aa51add1ea3c8525bd5aba59ff454b0dfddb53fadcb1c7f37a",
+      "normalized_path": "references/150.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    },
+    {
+      "number": 151,
+      "member": "BATTLE_SPRITE2/151 - Raltesse.png",
+      "source_sha256": "2769ca862393f0e7dcd01aaaaf2388e9194ae439b2689f17ae3c6c4661f0f67a",
+      "normalized_path": "references/151.png",
+      "source_dimensions": [
+        679,
+        451
+      ],
+      "normalization": "Nearest to240x160 for comparisons only; never imported into ROM"
+    }
+  ]
+}
