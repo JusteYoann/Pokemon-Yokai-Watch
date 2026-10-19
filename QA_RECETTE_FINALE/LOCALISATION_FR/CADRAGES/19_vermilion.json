@@ -1,0 +1,31 @@
+{
+  "max_normal_font_pixels": 208,
+  "dynamic_names": "Player7; mon10+enemy prefix; item14; move12; ability13; generic variables14 wide W glyphs",
+  "scope": "Translated standard battle dialogue and selected ASM dialogue only; fixed menu layouts excluded",
+  "changed": [
+    {
+      "file": "data/maps/VermilionCity/text.inc",
+      "symbol": "VermilionCity_Text_CitySign",
+      "before": "VERMILION CITY\\nLe port aux couchers de soleil sublimes$",
+      "after": "VERMILION CITY\\nLe port aux couchers de soleil\\lsublimes$"
+    },
+    {
+      "file": "data/maps/VermilionCity/text.inc",
+      "symbol": "VermilionCity_Text_PokemonFanClubSign",
+      "before": "FAN CLUB DES YO-KAI\\nTous les passionnés sont les bienvenus!$",
+      "after": "FAN CLUB DES YO-KAI\\nTous les passionnés sont les\\lbienvenus!$"
+    },
+    {
+      "file": "data/maps/VermilionCity_House2/text.inc",
+      "symbol": "VermilionCity_House2_Text_HowIsMyOldMon",
+      "before": "Comment va mon ancien {STR_VAR_2}?\\pMon {STR_VAR_1} se porte très bien!$",
+      "after": "Comment va mon ancien\\n{STR_VAR_2}?\\pMon {STR_VAR_1} se porte très\\nbien!$"
+    },
+    {
+      "file": "data/maps/VermilionCity_PokemonFanClub/text.inc",
+      "symbol": "VermilionCity_PokemonFanClub_Text_ChairmansStory",
+      "before": "Parfait! Écoute bien!\\pMon Coléroptère préféré…\\pIl est… mignon… charmant… malin…\\nEt aussi… incroyable… Tu ne trouves pas?\\pOh oui… splendide…\\nAdorable… Je l'adore!\\pLe serrer… pendant qu'il dort…\\nSi doux… spectaculaire…\\lRavissant…\\pOups! Regarde l'heure!\\nJe t'ai retenu trop longtemps!\\pMerci de m'avoir écouté!\\nJe veux te donner ceci!$",
+      "after": "Parfait! Écoute bien!\\pMon Coléroptère préféré…\\pIl est… mignon… charmant… malin…\\nEt aussi… incroyable… Tu ne trouves\\lpas?\\pOh oui… splendide…\\nAdorable… Je l'adore!\\pLe serrer… pendant qu'il dort…\\nSi doux… spectaculaire…\\lRavissant…\\pOups! Regarde l'heure!\\nJe t'ai retenu trop longtemps!\\pMerci de m'avoir écouté!\\nJe veux te donner ceci!$"
+    }
+  ]
+}

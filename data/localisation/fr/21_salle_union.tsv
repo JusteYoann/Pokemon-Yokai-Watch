@@ -1,0 +1,196 @@
+src/union_room_message.c	gText_UR_PleaseStartOver	Recommence depuis le début.
+src/union_room_message.c	gText_UR_WirelessSearchCanceled	La recherche de connexion\nsans fil est annulée.
+src/union_room_message.c	sText_AwaitingCommunucation2	En attente d'un message\nde tes amis.
+src/union_room_message.c	gText_UR_AwaitingCommunication	{STR_VAR_1}!\nEn attente d'un autre joueur.
+src/union_room_message.c	gText_UR_AwaitingLinkPressStart	{STR_VAR_1}! En attente!\nSTART quand tout le monde est prêt.
+src/union_room_message.c	sText_SingleBattle	Organiser un Combat Solo
+src/union_room_message.c	sText_DoubleBattle	Organiser un Combat Duo
+src/union_room_message.c	sText_MultiBattle	Organiser un Combat Multi
+src/union_room_message.c	sText_TradePokemon	Organiser un échange de Yo-kai
+src/union_room_message.c	sText_Chat	Ouvrir une discussion
+src/union_room_message.c	sText_DistWonderCard	Partager une Carte Miracle
+src/union_room_message.c	sText_DistWonderNews	Partager une Info Miracle
+src/union_room_message.c	sText_DistMysteryEvent	Organiser un Événement Mystère
+src/union_room_message.c	sText_HoldPokemonJump	Organiser le Saut Yo-kai
+src/union_room_message.c	sText_HoldBerryCrush	Organiser le Broyeur de Baies
+src/union_room_message.c	sText_HoldBerryPicking	Organiser la Cueillette de Baies
+src/union_room_message.c	sText_HoldSpinTrade	Organiser un échange tournant
+src/union_room_message.c	sText_HoldSpinShop	Ouvrir une boutique tournante
+src/union_room_message.c	sText_1PlayerNeeded	1 joueur\nrequis.
+src/union_room_message.c	sText_2PlayersNeeded	2 joueurs\nrequis.
+src/union_room_message.c	sText_3PlayersNeeded	3 joueurs\nrequis.
+src/union_room_message.c	sText_4PlayersNeeded	4 joueurs\nrequis.
+src/union_room_message.c	sText_2PlayerMode	MODE\n2 JOUEURS
+src/union_room_message.c	sText_3PlayerMode	MODE\n3 JOUEURS
+src/union_room_message.c	sText_4PlayerMode	MODE\n4 JOUEURS
+src/union_room_message.c	sText_5PlayerMode	MODE\n5 JOUEURS
+src/union_room_message.c	gText_UR_BButtonCancel	{B_BUTTON}RETOUR
+src/union_room_message.c	sText_SearchingForParticipants	Recherche de participants!
+src/union_room_message.c	gText_UR_PlayerContactedYouForXAccept	{STR_VAR_2} propose:\n{STR_VAR_1}. Accepter?
+src/union_room_message.c	gText_UR_PlayerContactedYouShareX	{STR_VAR_2} te contacte.\nVeux-tu partager {STR_VAR_1}?
+src/union_room_message.c	gText_UR_PlayerContactedYouAddToMembers	{STR_VAR_2} te contacte.\nL'ajouter au groupe?
+src/union_room_message.c	gText_UR_AreTheseMembersOK	{STR_VAR_1}!\nCes participants te conviennent?
+src/union_room_message.c	gText_UR_CancelModeWithTheseMembers	Annuler le mode {STR_VAR_1}\navec ces participants?
+src/union_room_message.c	gText_UR_AnOKWasSentToPlayer	Une confirmation est envoyée\nà {STR_VAR_1}.
+src/union_room_message.c	sText_OtherTrainerUnavailableNow	L'autre Dresseur ne semble pas\ndisponible pour le moment…\p
+src/union_room_message.c	sText_CantTransmitTrainerTooFar	Impossible de communiquer\navec un Dresseur trop éloigné.\p
+src/union_room_message.c	sText_TrainersNotReadyYet	Les autres Dresseurs\nne sont pas encore prêts.\p
+src/union_room_message.c	gText_UR_ModeWithTheseMembersWillBeCanceled	Le mode {STR_VAR_1} avec\nces participants sera annulé.{PAUSE 90}
+src/union_room_message.c	sText_MemberNoLongerAvailable	Un participant\nn'est plus disponible.\p
+src/union_room_message.c	sText_TrainerAppearsUnavailable	L'autre Dresseur\nsemble indisponible…\p
+src/union_room_message.c	gText_UR_PlayerSentBackOK	{STR_VAR_1} a confirmé!
+src/union_room_message.c	gText_UR_PlayerOKdRegistration	{STR_VAR_1} a accepté\nton inscription au groupe.
+src/union_room_message.c	sText_PlayerRepliedNo	{STR_VAR_1} a répondu non…\p
+src/union_room_message.c	gText_UR_AwaitingOtherMembers	{STR_VAR_1}!\nEn attente des autres participants!
+src/union_room_message.c	gText_UR_QuitBeingMember	Veux-tu quitter le groupe?
+src/union_room_message.c	sText_StoppedBeingMember	Tu as quitté le groupe.\p
+src/union_room_message.c	gText_UR_WirelessLinkEstablished	La connexion sans fil\nest établie.
+src/union_room_message.c	gText_UR_WirelessLinkDropped	La connexion sans fil\na été interrompue…
+src/union_room_message.c	gText_UR_LinkWithFriendDropped	La connexion avec ton ami\na été interrompue…
+src/union_room_message.c	sText_PlayerRepliedNo2	{STR_VAR_1} a répondu non…
+src/union_room_message.c	sText_DoYouWantXMode	Veux-tu choisir\nle mode {STR_VAR_2}?
+src/union_room_message.c	sText_DoYouWantXMode2	Veux-tu choisir\nle mode {STR_VAR_2}?
+src/union_room_message.c	sText_CommunicatingPleaseWait	Communication en cours…\nPatiente un instant.
+src/union_room_message.c	gText_UR_AwaitingPlayersResponseAboutTrade	En attente de la réponse\nde {STR_VAR_1} pour l'échange…
+src/union_room_message.c	sText_HiDoSomethingMale	Salut!\nTu voudrais faire quelque chose?
+src/union_room_message.c	sText_HiDoSomethingFemale	Bonjour!\nÇa te dit de faire quelque chose?
+src/union_room_message.c	sText_HiDoSomethingAgainMale	{STR_VAR_1}: Salut! Te revoilà!\nQue veux-tu faire cette fois?
+src/union_room_message.c	sText_HiDoSomethingAgainFemale	{STR_VAR_1}: Bonjour, {PLAYER}!\nÇa te dit de faire quelque chose?
+src/union_room_message.c	sText_DoSomethingMale	On fait quelque chose?
+src/union_room_message.c	sText_DoSomethingFemale	Ça te dit de faire quelque chose?
+src/union_room_message.c	sText_DoSomethingAgainMale	{STR_VAR_1}: Que veux-tu\nfaire maintenant?
+src/union_room_message.c	sText_DoSomethingAgainFemale	{STR_VAR_1}: On fait\nautre chose?
+src/union_room_message.c	sText_SomebodyHasContactedYou	Quelqu'un te contacte.{PAUSE 60}
+src/union_room_message.c	sText_PlayerHasContactedYou	{STR_VAR_1} te contacte.{PAUSE 60}
+src/union_room_message.c	sText_AwaitingResponseFromTrainer	En attente de la réponse\nde l'autre Dresseur…
+src/union_room_message.c	sText_AwaitingResponseFromPlayer	En attente de la réponse\nde {STR_VAR_1}…
+src/union_room_message.c	sText_AwaitingResponseCancelBButton	En attente d'une proposition.\nBouton B: Annuler
+src/union_room_message.c	gText_UR_ShowTrainerCard	L'autre Dresseur t'a montré\nsa Carte Dresseur.\pVeux-tu lui montrer la tienne?
+src/union_room_message.c	gText_UR_BattleChallenge	L'autre Dresseur\nte propose un combat.\pVeux-tu relever ce défi?
+src/union_room_message.c	gText_UR_ChatInvitation	L'autre Dresseur\nt'invite à discuter.\pVeux-tu accepter l'invitation?
+src/union_room_message.c	gText_UR_OfferToTradeMon	Ton Yo-kai inscrit:\n{DYNAMIC 1}, Niv.{DYNAMIC 0},\pcontre ce Yo-kai:\n{DYNAMIC 3}, Niv.{DYNAMIC 2}.\pAcceptes-tu cette offre?
+src/union_room_message.c	gText_UR_OfferToTradeEgg	On te propose un échange\npour ton Œuf inscrit.\pAcceptes-tu cette offre?
+src/union_room_message.c	gText_UR_ChatDropped	La discussion est interrompue.\p
+src/union_room_message.c	gText_UR_OfferDeclined1	Tu as refusé l'offre.\p
+src/union_room_message.c	gText_UR_OfferDeclined2	Tu as refusé l'offre.\p
+src/union_room_message.c	gText_UR_ChatEnded	La discussion est terminée.\p
+src/union_room_message.c	sText_JoinChatMale	Salut! Nous discutons.\nTu veux nous rejoindre?
+src/union_room_message.c	sText_PlayerJoinChatMale	{STR_VAR_1}: Salut, {PLAYER}!\nNous discutons.\lTu veux nous rejoindre?
+src/union_room_message.c	sText_JoinChatFemale	Oh, bonjour! Nous discutons.\nTu voudrais nous rejoindre?
+src/union_room_message.c	sText_PlayerJoinChatFemale	{STR_VAR_1}: Bonjour, {PLAYER}!\nNous discutons.\lTu voudrais nous rejoindre?
+src/union_room_message.c	gText_UR_TrainerAppearsBusy	……\nCe Dresseur semble occupé…\p
+src/union_room_message.c	sText_WaitForBattleMale	Un combat? D'accord!\nLaisse-moi un peu de temps.
+src/union_room_message.c	sText_WaitForChatMale	Tu veux discuter?\nBien sûr, attends un instant.
+src/union_room_message.c	sText_ShowTrainerCardMale	Bien sûr! Pour me présenter,\nvoici ma Carte Dresseur.
+src/union_room_message.c	sText_WaitForBattleFemale	Un combat? Bien sûr,\nmais je dois me préparer.
+src/union_room_message.c	sText_WaitForChatFemale	Tu veux discuter?\nD'accord, patiente un instant.
+src/union_room_message.c	sText_ShowTrainerCardFemale	Pour me présenter,\nje vais te montrer ma Carte Dresseur.
+src/union_room_message.c	sText_WaitForChatMale2	Tu veux discuter?\nD'accord, attends un instant!
+src/union_room_message.c	sText_DoneWaitingBattleMale	Merci d'avoir attendu!\nQue le combat commence!{PAUSE 60}
+src/union_room_message.c	sText_DoneWaitingChatMale	Très bien!\nDiscutons!{PAUSE 60}
+src/union_room_message.c	sText_DoneWaitingBattleFemale	Merci pour ta patience!\nCommençons!{PAUSE 60}
+src/union_room_message.c	sText_DoneWaitingChatFemale	Merci pour ta patience!\nDiscutons.{PAUSE 60}
+src/union_room_message.c	sText_TradeWillBeStarted	L'échange va commencer.{PAUSE 60}
+src/union_room_message.c	sText_BattleWillBeStarted	Le combat va commencer.{PAUSE 60}
+src/union_room_message.c	sText_EnteringChat	Ouverture de la discussion…{PAUSE 60}
+src/union_room_message.c	sText_BattleDeclinedMale	Désolé! Mes Yo-kai\nne semblent pas en forme.\pAffrontons-nous une autre fois.\p
+src/union_room_message.c	sText_BattleDeclinedFemale	Désolée, mes Yo-kai\nne se sentent pas très bien…\pNous combattrons une autre fois.\p
+src/union_room_message.c	sText_ShowTrainerCardDeclinedMale	Hein? Ma Carte Dresseur…\nOù est-elle passée?\lDésolé! Je te la montrerai plus tard!\p
+src/union_room_message.c	sText_ShowTrainerCardDeclinedFemale	Oh? Où ai-je mis\nma Carte Dresseur?\lDésolée! Je te la montrerai plus tard.\p
+src/union_room_message.c	sText_IfYouWantToDoSomethingMale	Si tu veux faire quelque chose,\nviens me voir!\p
+src/union_room_message.c	sText_IfYouWantToDoSomethingFemale	Si tu veux faire quelque chose,\nn'hésite pas à venir me voir.\p
+src/union_room_message.c	gText_UR_TrainerBattleBusy	Oups! Désolé,\nje dois faire autre chose.\lUne autre fois, d'accord?\p
+src/union_room_message.c	gText_UR_NeedTwoMonsOfLevel30OrLower1	Pour combattre, il te faut\ndeux Yo-kai de niveau 30 maximum.\p
+src/union_room_message.c	gText_UR_NeedTwoMonsOfLevel30OrLower2	Pour ce combat, il faut deux Yo-kai\nde niveau 30 maximum.\p
+src/union_room_message.c	sText_DeclineChatMale	D'accord.\nReviens quand tu veux, d'accord?\p
+src/union_room_message.c	stext_DeclineChatFemale	Oh…\nReviens me voir quand tu veux.\p
+src/union_room_message.c	sText_ChatDeclinedMale	Oh, désolé!\nJe ne peux pas tout de suite.\lDiscutons une autre fois.\p
+src/union_room_message.c	sText_ChatDeclinedFemale	Oh, désolée.\nJ'ai trop à faire pour le moment.\lDiscutons une autre fois.\p
+src/union_room_message.c	sText_YoureToughMale	Ouah!\nTu as l'air vraiment fort!\p
+src/union_room_message.c	sText_UsedGoodMoveMale	Cette capacité?\nQuelle bonne stratégie!\p
+src/union_room_message.c	sText_BattleSurpriseMale	Bien joué!\nJ'en ai pris plein les yeux!\p
+src/union_room_message.c	sText_SwitchedMonsMale	Oh! Comment as-tu pu choisir\nce Yo-kai dans cette situation?\p
+src/union_room_message.c	sText_YoureToughFemale	Ce Yo-kai…\nIl est vraiment bien entraîné!\p
+src/union_room_message.c	sText_UsedGoodMoveFemale	Voilà!\nC'est la bonne capacité à utiliser!\p
+src/union_room_message.c	sText_BattleSurpriseFemale	Impressionnant!\nOn peut combattre comme ça?\p
+src/union_room_message.c	sText_SwitchedMonsFemale	Tu choisis le bon moment\npour changer de Yo-kai!\p
+src/union_room_message.c	sText_LearnedSomethingMale	Ah, je vois!\nJ'apprends des choses!\p
+src/union_room_message.c	sText_ThatsFunnyMale	Arrête de dire des choses drôles!\nJ'ai mal au ventre de rire!\p
+src/union_room_message.c	sText_RandomChatMale1	Oh?\nUne telle chose est arrivée?\p
+src/union_room_message.c	sText_RandomChatMale2	Hmm… Quoi?\nC'est donc ce que tu veux dire?\p
+src/union_room_message.c	sText_LearnedSomethingFemale	Vraiment?\nJe ne le savais pas.\p
+src/union_room_message.c	sText_ThatsFunnyFemale	Hahaha!\nDe quoi s'agit-il?\p
+src/union_room_message.c	sText_RandomChatFemale1	Oui, exactement!\nC'est ce que je voulais dire.\p
+src/union_room_message.c	sText_RandomChatFemale2	Autrement dit…\nOui! C'est ça!\p
+src/union_room_message.c	sText_ShowedTrainerCardMale1	Je montre simplement\nma Carte Dresseur pour me présenter.\p
+src/union_room_message.c	sText_ShowedTrainerCardMale2	J'espère mieux te connaître!\p
+src/union_room_message.c	sText_ShowedTrainerCardFemale1	Nous nous montrons nos Cartes\npour faire connaissance.\p
+src/union_room_message.c	sText_ShowedTrainerCardFemale2	Ravie de te rencontrer.\nReviens me voir!\p
+src/union_room_message.c	sText_MaleTraded1	Youpi!\nJe voulais vraiment ce Yo-kai!\p
+src/union_room_message.c	sText_MaleTraded2	Un échange m'a enfin donné\nle Yo-kai que j'attendais!\p
+src/union_room_message.c	sText_FemaleTraded1	Je fais un échange de Yo-kai.\p
+src/union_room_message.c	sText_FemaleTraded2	J'ai enfin obtenu le Yo-kai\nque je voulais grâce à un échange!\p
+src/union_room_message.c	gText_UR_XCheckedTradingBoard	{STR_VAR_1} consulte\nle Tableau d'Échange.\p
+src/union_room_message.c	gText_UR_RegisterMonAtTradingBoard	Bienvenue au Tableau d'Échange.\pTu peux inscrire un Yo-kai\npour le proposer à l'échange.\pVeux-tu inscrire\nun de tes Yo-kai?
+src/union_room_message.c	gText_UR_TradingBoardInfo	Ce tableau sert à proposer\ndes Yo-kai à l'échange.\pIl suffit d'inscrire un Yo-kai.\pUn autre Dresseur peut proposer\nun partenaire de son équipe\len échange du tien.\pNous espérons te voir échanger\navec de nombreux Dresseurs!\pVeux-tu inscrire un de tes Yo-kai?
+src/union_room_message.c	sText_ThankYouForRegistering	Ton inscription au Tableau\nd'Échange est terminée.\pMerci de ta visite!\p
+src/union_room_message.c	sText_NobodyHasRegistered	Personne n'a inscrit de Yo-kai\nau Tableau d'Échange.\p\n
+src/union_room_message.c	gText_UR_ChooseRequestedMonType	Choisis le type de Yo-kai\nque tu recherches pour l'échange.\n
+src/union_room_message.c	gText_UR_WhichMonWillYouOffer	Quel Yo-kai de ton équipe\nveux-tu proposer à l'échange?\p
+src/union_room_message.c	gText_UR_RegistrationCanceled	L'inscription est annulée.\p
+src/union_room_message.c	gText_UR_RegistraionCompleted	L'inscription est terminée.\p
+src/union_room_message.c	gText_UR_TradeCanceled	L'échange est annulé.\p
+src/union_room_message.c	gText_UR_CancelRegistrationOfMon	Annuler l’inscription de\n{STR_VAR_1}, Niv.{STR_VAR_2}?
+src/union_room_message.c	gText_UR_CancelRegistrationOfEgg	Annuler l'inscription\nde ton Œuf?
+src/union_room_message.c	gText_UR_RegistrationCanceled2	L'inscription est annulée.\p
+src/union_room_message.c	sText_TradeTrainersWillBeListed	Liste des Dresseurs\nsouhaitant un échange.
+src/union_room_message.c	sText_ChooseTrainerToTradeWith2	Choisis le Dresseur\navec qui échanger.
+src/union_room_message.c	gText_UR_AskTrainerToMakeTrade	Veux-tu proposer un échange\nà {STR_VAR_1}?
+src/union_room_message.c	sText_AwaitingResponseFromTrainer2	……\nEn attente de la réponse.
+src/union_room_message.c	sText_NotRegisteredAMonForTrade	Tu n'as inscrit aucun Yo-kai\npour l'échange.\p
+src/union_room_message.c	gText_UR_DontHaveTypeTrainerWants	Tu n'as pas de Yo-kai {STR_VAR_2}\nque recherche {STR_VAR_1}.\p
+src/union_room_message.c	gText_UR_DontHaveEggTrainerWants	Tu n'as pas l'Œuf\nque recherche {STR_VAR_1}.\p
+src/union_room_message.c	sText_PlayerCantTradeForYourMon	{STR_VAR_1} ne peut pas\nfaire cet échange pour le moment.\p
+src/union_room_message.c	sText_CantTradeForPartnersMon	Impossible d’échanger maintenant\nle Yo-kai de {STR_VAR_1}.\p
+src/union_room_message.c	gText_UR_TradeOfferRejected	Ton offre d'échange a été refusée.\p
+src/union_room_message.c	gText_UR_EggTrade	ÉCHANGE D'ŒUF
+src/union_room_message.c	gText_UR_ChooseJoinCancel	{DPAD_UPDOWN}CHOIX {A_BUTTON}JOINDRE {B_BUTTON}RETOUR
+src/union_room_message.c	gText_UR_ChooseTrainer	Choisis un Dresseur.
+src/union_room_message.c	sText_ChooseTrainerSingleBattle	Choisis un Dresseur\npour un Combat Solo.
+src/union_room_message.c	sText_ChooseTrainerDoubleBattle	Choisis un Dresseur\npour un Combat Duo.
+src/union_room_message.c	sText_ChooseLeaderMultiBattle	Choisis le chef du groupe\npour un Combat Multi.
+src/union_room_message.c	sText_ChooseTrainerToTradeWith	Choisis le Dresseur\navec qui échanger.
+src/union_room_message.c	sText_ChooseTrainerToShareWonderCards	Choisis le Dresseur\nqui partage des Cartes Miracle.
+src/union_room_message.c	sText_ChooseTrainerToShareWonderNews	Choisis le Dresseur\nqui partage des Infos Miracle.
+src/union_room_message.c	sText_ChooseLeaderPokemonJump	Saute avec de petits Yo-kai!\nChoisis le chef du groupe.
+src/union_room_message.c	sText_ChooseLeaderBerryCrush	Broyeur de Baies!\nChoisis le chef du groupe.
+src/union_room_message.c	sText_ChooseLeaderBerryPicking	Cueillette de Baies!\nChoisis le chef du groupe.
+src/union_room_message.c	gText_UR_SearchingForWirelessSystemWait	Recherche d'une connexion\nsans fil. Patiente…
+src/union_room_message.c	sText_MustHaveTwoMonsForDoubleBattle	Il faut au moins deux Yo-kai\npour un Combat Duo.\p
+src/union_room_message.c	gText_UR_AwaitingPlayersResponse	En attente de la réponse\nde {STR_VAR_1}…
+src/union_room_message.c	gText_UR_PlayerHasBeenAskedToRegisterYouPleaseWait	{STR_VAR_1} a reçu\nta demande d'inscription. Patiente.
+src/union_room_message.c	gText_UR_AwaitingResponseFromWirelessSystem	En attente d'une réponse\ndu système de connexion sans fil.
+src/union_room_message.c	sText_PleaseWaitForOtherTrainersToGather	Patiente jusqu'à ce que\nles autres participants soient prêts.
+src/union_room_message.c	sText_NoCardsSharedRightNow	Aucune Carte ne semble\npartagée pour le moment.
+src/union_room_message.c	sText_NoNewsSharedRightNow	Aucune Info ne semble\npartagée pour le moment.
+src/union_room_message.c	gText_UR_Chat2	DISCUSSION
+src/union_room_message.c	gText_UR_NameWantedOfferLv	NOM{CLEAR_TO 0x3C}RECH.{CLEAR_TO 0x6E}OFFRE{CLEAR_TO 0xC6}NIV.
+src/union_room_message.c	gText_UR_Chat	DISCUSSION
+src/union_room_message.c	gText_UR_Cards	CARTES
+src/union_room_message.c	gText_UR_BerryPicking	CUEILLETTE
+src/union_room_message.c	gText_UR_SpinTrade	ÉCHANGE TOURNANT
+src/union_room_message.c	gText_UR_ItemTrade	ÉCHANGE D'OBJETS
+src/union_room_message.c	sText_ItsNormalCard	C'est une Carte normale.
+src/union_room_message.c	sText_ItsBronzeCard	C'est une Carte de bronze!
+src/union_room_message.c	sText_ItsCopperCard	C'est une Carte de cuivre!
+src/union_room_message.c	sText_ItsSilverCard	C'est une Carte d'argent!
+src/union_room_message.c	sText_ItsGoldCard	C'est une Carte d'or!
+src/union_room_message.c	gText_UR_TrainerCardInfoPage1	Carte Dresseur de\n{DYNAMIC 0} {DYNAMIC 1}…\l{DYNAMIC 2}\pMédallium: {DYNAMIC 3}\nDurée: {DYNAMIC 4}:{DYNAMIC 5}\p
+src/union_room_message.c	gText_UR_TrainerCardInfoPage2	Combats: {DYNAMIC 0} gagnés, {DYNAMIC 2} perdus\nÉchanges: {DYNAMIC 3}\p{DYNAMIC 4} {DYNAMIC 5}\n{DYNAMIC 6} {DYNAMIC 7}\p
+src/union_room_message.c	sText_GladToMeetYouMale	{DYNAMIC 1}: Ravi de te voir!{PAUSE 60}
+src/union_room_message.c	sText_GladToMeetYouFemale	{DYNAMIC 1}: Ravie de te voir!{PAUSE 60}
+src/union_room_message.c	gText_UR_FinishedCheckingPlayersTrainerCard	Lecture terminée de la Carte\nde {DYNAMIC 1}.{PAUSE 60}
+src/union_room_message.c	sText_CanceledReadingCard	Lecture de la Carte annulée.
+src/union_room_message.c	sText_Communicating	Communication{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.
+src/union_room_message.c	sText_CommunicatingWithPlayer	Connexion avec {STR_VAR_1}{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.
+src/union_room_message.c	sText_PleaseWaitAWhile	Veuillez patienter{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.

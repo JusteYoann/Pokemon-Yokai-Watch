@@ -1,44 +1,17 @@
 VermilionCity_PokemonCenter_1F_Text_TrainerMonsStrongerThanWild::
-    .string "Even if they are the same level,\n"
-    .string "Yo-kai can have very different\l"
-    .string "stats and abilities.\p"
-    .string "A Yo-kai raised by a TRAINER is\n"
-    .string "stronger than one in the wild.$"
+    .string "Même au même niveau, les Yo-kai\npeuvent avoir des statistiques\let des talents très différents.\pL'entraînement d'un Dresseur\npeut vraiment les renforcer.$"
 
 VermilionCity_PokemonCenter_1F_Text_PoisonedMonFaintedWhileWalking::
-    .string "My Yo-kai was poisoned!\n"
-    .string "It fainted while we were walking!$"
+    .string "Mon Yo-kai était empoisonné!\nIl est tombé K.O. en marchant!$"
 
 VermilionCity_PokemonCenter_1F_Text_AllMonWeakToSpecificTypes::
-    .string "It is true that a higher-level\n"
-    .string "Yo-kai will be more powerful…\p"
-    .string "But, all Yo-kai will have weak\n"
-    .string "points against specific types.\p"
-    .string "So, there appears to be no\n"
-    .string "universally strong Yo-kai.$"
+    .string "Un niveau élevé renforce\nun Yo-kai, c'est vrai…\pMais les affinités de types\nrestent importantes.\pAucun Yo-kai n'est le meilleur\ndans toutes les situations.$"
 
 VermilionCity_PokemonCenter_1F_Text_UrgeToBattleSomeoneAgain::
-    .string "The urge to battle with someone\n"
-    .string "you've tangled with before…\p"
-    .string "Have you ever had that urge?\n"
-    .string "I'm sure you have.\p"
-    .string "I wanted to battle certain people\n"
-    .string "again over and over, too.\p"
-    .string "So, I've been giving these away.\n"
-    .string "Please, take one!$"
+    .string "Tu as déjà eu envie de défier\nà nouveau un ancien adversaire?\pJe suis sûre que oui!\pMoi aussi, j'aime affronter\nplusieurs fois certains Dresseurs.\pAlors, je distribue ces appareils.\nTiens, prends-en un!$"
 
 VermilionCity_PokemonCenter_1F_Text_UseDeviceForRematches::
-    .string "Use that device and you'll find\n"
-    .string "TRAINERS looking for a rematch.\p"
-    .string "You have to charge its battery to\n"
-    .string "use it, though.$"
+    .string "Cet appareil repère les Dresseurs\nqui veulent une revanche.\pIl faut recharger sa batterie\navant de l'utiliser.$"
 
 VermilionCity_PokemonCenter_1F_Text_ExplainVSSeeker::
-    .string "How do you use the VS SEEKER?\n"
-    .string "There's nothing to it.\p"
-    .string "Use it like beep-beep-beep, and\n"
-    .string "TRAINERS around you will notice.\p"
-    .string "If any TRAINER wants a rematch,\n"
-    .string "it will let you know immediately.\p"
-    .string "Charge its battery and use it\n"
-    .string "while you're on a road.$"
+    .string "Le Cherch'Combat? C'est simple!\pUtilise-le: bip, bip, bip!\nLes Dresseurs autour te remarquent.\pSi l'un d'eux veut une revanche,\nl'appareil te le signale.\pRecharge sa batterie en marchant,\npuis utilise-le sur une route.$"

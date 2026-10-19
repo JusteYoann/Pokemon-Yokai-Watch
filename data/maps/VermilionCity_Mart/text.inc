@@ -1,14 +1,6 @@
 VermilionCity_Mart_Text_TeamRocketAreWickedPeople::
-    .string "There are wicked people who will\n"
-    .string "use Yo-kai for criminal acts.\p"
-    .string "TEAM ROCKET traffics in rare\n"
-    .string "Yo-kai, for example.\p"
-    .string "They also abandon Yo-kai that\n"
-    .string "they consider unpopular or useless.\p"
-    .string "That's the sort of horrid people\n"
-    .string "they are, TEAM ROCKET.$"
+    .string "Des gens utilisent les Yo-kai\npour commettre des crimes.\pLa Team Rocket fait du trafic\nde Yo-kai rares, par exemple.\pElle abandonne ceux qu'elle juge\ninutiles ou peu populaires.\pVoilà le genre de personnes\nqui la composent!$"
 
 VermilionCity_Mart_Text_MonsGoodOrBadDependingOnTrainer::
-    .string "I think Yo-kai can be good or\n"
-    .string "bad. It depends on the TRAINER.$"
+    .string "Un Yo-kai peut bien ou mal agir.\nSon Dresseur y est pour beaucoup.$"
 

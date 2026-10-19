@@ -1,0 +1,980 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "3b269cda882b822670165f74757ff8f0350af8d4dee7e9af2850b8145091f648",
+  "scope": "Native first-page rendering of each source message on a fixed field-map fixture with explicit variables. Not full NPC traversal, all pages or event-outcome testing.",
+  "results": [
+    {
+      "symbol": "Route5_Text_UndergroundPathSign",
+      "source": "data/maps/Route5/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route5_PokemonDayCare_Text_WantMeToRaiseMon",
+      "source": "data/maps/Route5_PokemonDayCare/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route5_PokemonDayCare_Text_ComeAgain",
+      "source": "data/maps/Route5_PokemonDayCare/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route5_PokemonDayCare_Text_WhichMonShouldIRaise",
+      "source": "data/maps/Route5_PokemonDayCare/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route5_PokemonDayCare_Text_ComeAnytimeYouLike",
+      "source": "data/maps/Route5_PokemonDayCare/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route5_PokemonDayCare_Text_LookAfterMonForAWhile",
+      "source": "data/maps/Route5_PokemonDayCare/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route5_PokemonDayCare_Text_ComeSeeMeInAWhile",
+      "source": "data/maps/Route5_PokemonDayCare/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route5_PokemonDayCare_Text_MonNeedsToSpendMoreTime",
+      "source": "data/maps/Route5_PokemonDayCare/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route5_PokemonDayCare_Text_OweMeXForMonsReturn",
+      "source": "data/maps/Route5_PokemonDayCare/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route5_PokemonDayCare_Text_ThankYouHeresMon",
+      "source": "data/maps/Route5_PokemonDayCare/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route5_PokemonDayCare_Text_PlayerGotMonBack",
+      "source": "data/maps/Route5_PokemonDayCare/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route5_PokemonDayCare_Text_OnlyHaveOneMonWithYou",
+      "source": "data/maps/Route5_PokemonDayCare/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route5_PokemonDayCare_Text_WhatWillYouBattleWith",
+      "source": "data/maps/Route5_PokemonDayCare/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route5_PokemonDayCare_Text_MonHasGrownByXLevels",
+      "source": "data/maps/Route5_PokemonDayCare/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route5_PokemonDayCare_Text_YouveGotNoRoomForIt",
+      "source": "data/maps/Route5_PokemonDayCare/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route5_PokemonDayCare_Text_DontHaveEnoughMoney",
+      "source": "data/maps/Route5_PokemonDayCare/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route5_PokemonDayCare_Text_WantMeToTakeALookAtYours",
+      "source": "data/maps/Route5_PokemonDayCare/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route5_PokemonDayCare_Text_CantAcceptMonWithHM",
+      "source": "data/maps/Route5_PokemonDayCare/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route5_SouthEntrance_Text_ThirstyOnGuardDuty",
+      "source": "data/maps/Route5_SouthEntrance/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route5_SouthEntrance_Text_ThatTeaLooksTasty",
+      "source": "data/maps/Route5_SouthEntrance/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route5_SouthEntrance_Text_ThanksIllShareTeaWithGuards",
+      "source": "data/maps/Route5_SouthEntrance/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route5_SouthEntrance_Text_HiHowsItGoing",
+      "source": "data/maps/Route5_SouthEntrance/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_Text_RickyIntro",
+      "source": "data/maps/Route6/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_Text_RickyDefeat",
+      "source": "data/maps/Route6/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_Text_RickyPostBattle",
+      "source": "data/maps/Route6/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_Text_NancyIntro",
+      "source": "data/maps/Route6/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_Text_NancyDefeat",
+      "source": "data/maps/Route6/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_Text_NancyPostBattle",
+      "source": "data/maps/Route6/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_Text_KeigoIntro",
+      "source": "data/maps/Route6/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_Text_KeigoDefeat",
+      "source": "data/maps/Route6/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_Text_KeigoPostBattle",
+      "source": "data/maps/Route6/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_Text_JeffIntro",
+      "source": "data/maps/Route6/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_Text_JeffDefeat",
+      "source": "data/maps/Route6/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_Text_JeffPostBattle",
+      "source": "data/maps/Route6/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_Text_IsabelleIntro",
+      "source": "data/maps/Route6/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_Text_IsabelleDefeat",
+      "source": "data/maps/Route6/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_Text_IsabellePostBattle",
+      "source": "data/maps/Route6/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_Text_ElijahIntro",
+      "source": "data/maps/Route6/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_Text_ElijahDefeat",
+      "source": "data/maps/Route6/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_Text_ElijahPostBattle",
+      "source": "data/maps/Route6/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_Text_UndergroundPathSign",
+      "source": "data/maps/Route6/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_NorthEntrance_Text_ThirstyOnGuardDuty",
+      "source": "data/maps/Route6_NorthEntrance/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_NorthEntrance_Text_ThatTeaLooksTasty",
+      "source": "data/maps/Route6_NorthEntrance/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_NorthEntrance_Text_ThanksIllShareTeaWithGuards",
+      "source": "data/maps/Route6_NorthEntrance/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route6_NorthEntrance_Text_HiHowsItGoing",
+      "source": "data/maps/Route6_NorthEntrance/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_JustEarnedFabulousPrize",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_ReceivedNuggetFromMysteryTrainer",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_YouDontHaveAnyRoom",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_JoinTeamRocket",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_RocketDefeat",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_YoudBecomeTopRocketLeader",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_ShaneIntro",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_ShaneDefeat",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_ShanePostBattle",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_EthanIntro",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_EthanDefeat",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_EthanPostBattle",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_ReliIntro",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_ReliDefeat",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_ReliPostBattle",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_TimmyIntro",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_TimmyDefeat",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_TimmyPostBattle",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_AliIntro",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_AliDefeat",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_AliPostBattle",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_CaleIntro",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_CaleDefeat",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route24_Text_CalePostBattle",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_JoeyIntro",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_JoeyDefeat",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_JoeyPostBattle",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_DanIntro",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_DanDefeat",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_DanPostBattle",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_FlintIntro",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_FlintDefeat",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_FlintPostBattle",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_KelseyIntro",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_KelseyDefeat",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_KelseyPostBattle",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_ChadIntro",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_ChadDefeat",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_ChadPostBattle",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_HaleyIntro",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_HaleyDefeat",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_HaleyPostBattle",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_FranklinIntro",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_FranklinDefeat",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_FranklinPostBattle",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_NobIntro",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_NobDefeat",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_NobPostBattle",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_WayneIntro",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_WayneDefeat",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_WaynePostBattle",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_SeaCottageSign",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_MistyHighHopesAboutThisPlace",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "Route25_Text_AreYouHereAlone",
+      "source": "data/maps/Route25/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_GrimerMultipliesInSludge",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_DidYouSeeSSAnneInHarbor",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_SSAnneHasDepartedForYear",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_BuildingOnThisLand",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_Machop",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_MachopStompingLandFlat",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_SSAnneVisitsOnceAYear",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_CitySign",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_SnorlaxBlockingRoute12",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_PokemonFanClubSign",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_GymSign",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_VermilionHarbor",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_WelcomeToTheSSAnne",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_DoYouHaveATicket",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_FlashedSSTicket",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_DontHaveNeededSSTicket",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_TheShipSetSail",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_BoardSeagallopTriPass",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_Seagallop7Departing",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_BoardSeagallopRainbowPass",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_OhMysticTicketTakeYouToNavelRock",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_OhAuroraTicketTakeYouToBirthIsland",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_BoardSeagallopFerry",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_Seagallop10Departing",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_Seagallop12Departing",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Text_Route2AideHasPackageForYou",
+      "source": "data/maps/VermilionCity/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_LtSurgeIntro",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_LtSurgePostBattle",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_ReceivedTM34FromLtSurge",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_ExplainTM34",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_MakeRoomInYourBag",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_LtSurgeDefeat",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_TuckerIntro",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_TuckerDefeat",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_TuckerPostBattle",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_BailyIntro",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_BailyDefeat",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_BailyPostBattle",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_DwayneIntro",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_DwayneDefeat",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_DwaynePostBattle",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_GymGuyAdvice",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_GymGuyPostVictory",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_GymStatue",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_GymStatuePlayerWon",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_NopeOnlyTrashHere",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_AnotherSwitchInTrash",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_SecondLockOpened",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Gym_Text_OnlyTrashLocksWereReset",
+      "source": "data/maps/VermilionCity_Gym/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_House1_Text_ImFishingGuruDoYouLikeToFish",
+      "source": "data/maps/VermilionCity_House1/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_House1_Text_TakeThisAndFish",
+      "source": "data/maps/VermilionCity_House1/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_House1_Text_ReceivedOldRodFromFishingGuru",
+      "source": "data/maps/VermilionCity_House1/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_House1_Text_FishingIsAWayOfLife",
+      "source": "data/maps/VermilionCity_House1/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_House1_Text_OhThatsSoDisappointing",
+      "source": "data/maps/VermilionCity_House1/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_House1_Text_HowAreTheFishBiting",
+      "source": "data/maps/VermilionCity_House1/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_House1_Text_NoRoomForNiceGift",
+      "source": "data/maps/VermilionCity_House1/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_House2_Text_DoYouHaveMonWantToTradeForMyMon",
+      "source": "data/maps/VermilionCity_House2/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_House2_Text_ThatsTooBad",
+      "source": "data/maps/VermilionCity_House2/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_House2_Text_ThisIsNoMon",
+      "source": "data/maps/VermilionCity_House2/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_House2_Text_ThankYou",
+      "source": "data/maps/VermilionCity_House2/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_House2_Text_HowIsMyOldMon",
+      "source": "data/maps/VermilionCity_House2/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_House3_Text_PidgeyFlyLetterToSaffron",
+      "source": "data/maps/VermilionCity_House3/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_House3_Text_Pidgey",
+      "source": "data/maps/VermilionCity_House3/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_House3_Text_DearPippiLetter",
+      "source": "data/maps/VermilionCity_House3/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_House3_Text_SendMyPidgeyToUnionRoom",
+      "source": "data/maps/VermilionCity_House3/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Mart_Text_TeamRocketAreWickedPeople",
+      "source": "data/maps/VermilionCity_Mart/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_Mart_Text_MonsGoodOrBadDependingOnTrainer",
+      "source": "data/maps/VermilionCity_Mart/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonCenter_1F_Text_TrainerMonsStrongerThanWild",
+      "source": "data/maps/VermilionCity_PokemonCenter_1F/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonCenter_1F_Text_PoisonedMonFaintedWhileWalking",
+      "source": "data/maps/VermilionCity_PokemonCenter_1F/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonCenter_1F_Text_AllMonWeakToSpecificTypes",
+      "source": "data/maps/VermilionCity_PokemonCenter_1F/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonCenter_1F_Text_UrgeToBattleSomeoneAgain",
+      "source": "data/maps/VermilionCity_PokemonCenter_1F/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonCenter_1F_Text_UseDeviceForRematches",
+      "source": "data/maps/VermilionCity_PokemonCenter_1F/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonCenter_1F_Text_ExplainVSSeeker",
+      "source": "data/maps/VermilionCity_PokemonCenter_1F/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonFanClub_Text_AdmirePikachusTail",
+      "source": "data/maps/VermilionCity_PokemonFanClub/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute",
+      "source": "data/maps/VermilionCity_PokemonFanClub/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonFanClub_Text_AdoreMySeel",
+      "source": "data/maps/VermilionCity_PokemonFanClub/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive",
+      "source": "data/maps/VermilionCity_PokemonFanClub/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonFanClub_Text_Pikachu",
+      "source": "data/maps/VermilionCity_PokemonFanClub/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonFanClub_Text_Seel",
+      "source": "data/maps/VermilionCity_PokemonFanClub/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons",
+      "source": "data/maps/VermilionCity_PokemonFanClub/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonFanClub_Text_ChairmansStory",
+      "source": "data/maps/VermilionCity_PokemonFanClub/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonFanClub_Text_ReceivedBikeVoucherFromChairman",
+      "source": "data/maps/VermilionCity_PokemonFanClub/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher",
+      "source": "data/maps/VermilionCity_PokemonFanClub/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonFanClub_Text_ComeBackToHearStory",
+      "source": "data/maps/VermilionCity_PokemonFanClub/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonFanClub_Text_DidntComeToSeeAboutMonsAgain",
+      "source": "data/maps/VermilionCity_PokemonFanClub/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonFanClub_Text_MakeRoomForThis",
+      "source": "data/maps/VermilionCity_PokemonFanClub/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonFanClub_Text_ChairmanVeryVocalAboutPokemon",
+      "source": "data/maps/VermilionCity_PokemonFanClub/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonFanClub_Text_ListenPolitelyToOtherTrainers",
+      "source": "data/maps/VermilionCity_PokemonFanClub/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonFanClub_Text_SomeoneBragsBragBack",
+      "source": "data/maps/VermilionCity_PokemonFanClub/text.inc",
+      "native_first_page": true
+    },
+    {
+      "symbol": "VermilionCity_PokemonFanClub_Text_ChairmanReallyAdoresHisMons",
+      "source": "data/maps/VermilionCity_PokemonFanClub/text.inc",
+      "native_first_page": true
+    }
+  ],
+  "captures": [
+    "Route5_Text_UndergroundPathSign",
+    "Route5_PokemonDayCare_Text_CantAcceptMonWithHM",
+    "Route6_Text_IsabelleIntro",
+    "Route24_Text_ShaneIntro",
+    "Route24_Text_CalePostBattle",
+    "Route25_Text_HaleyDefeat",
+    "VermilionCity_Text_BuildingOnThisLand",
+    "VermilionCity_Text_OhMysticTicketTakeYouToNavelRock",
+    "VermilionCity_Gym_Text_BailyDefeat",
+    "VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened",
+    "VermilionCity_House1_Text_FishingIsAWayOfLife",
+    "VermilionCity_House2_Text_DoYouHaveMonWantToTradeForMyMon",
+    "VermilionCity_PokemonCenter_1F_Text_AllMonWeakToSpecificTypes",
+    "VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher",
+    "VermilionCity_PokemonFanClub_Text_ChairmanVeryVocalAboutPokemon"
+  ]
+}

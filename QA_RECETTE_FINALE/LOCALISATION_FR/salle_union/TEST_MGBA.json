@@ -1,0 +1,1198 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "e16ff9525146aea5a4a08cdc1ec507a00746f98eebedb10469d2c79497e05c36",
+  "scope": "Native first-page rendering of each source message on a fixed field-map fixture with explicit variables. Dynamic placeholders explicitly expanded before rendering; native200-byte trainer-card bound checked. Not full NPC traversal, all pages, multiplayer or event-outcome testing.",
+  "results": [
+    {
+      "symbol": "gText_UR_PleaseStartOver",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_WirelessSearchCanceled",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_AwaitingCommunucation2",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_AwaitingCommunication",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_AwaitingLinkPressStart",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_SingleBattle",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_DoubleBattle",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_MultiBattle",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_TradePokemon",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_Chat",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_DistWonderCard",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_DistWonderNews",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_DistMysteryEvent",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_HoldPokemonJump",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_HoldBerryCrush",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_HoldBerryPicking",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_HoldSpinTrade",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_HoldSpinShop",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_1PlayerNeeded",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_2PlayersNeeded",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_3PlayersNeeded",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_4PlayersNeeded",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_2PlayerMode",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_3PlayerMode",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_4PlayerMode",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_5PlayerMode",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_BButtonCancel",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_SearchingForParticipants",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_PlayerContactedYouForXAccept",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_PlayerContactedYouShareX",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_PlayerContactedYouAddToMembers",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_AreTheseMembersOK",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_CancelModeWithTheseMembers",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_AnOKWasSentToPlayer",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_OtherTrainerUnavailableNow",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_CantTransmitTrainerTooFar",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_TrainersNotReadyYet",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_ModeWithTheseMembersWillBeCanceled",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_MemberNoLongerAvailable",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_TrainerAppearsUnavailable",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_PlayerSentBackOK",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_PlayerOKdRegistration",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_PlayerRepliedNo",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_AwaitingOtherMembers",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_QuitBeingMember",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_StoppedBeingMember",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_WirelessLinkEstablished",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_WirelessLinkDropped",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_LinkWithFriendDropped",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_PlayerRepliedNo2",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_DoYouWantXMode",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_DoYouWantXMode2",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_CommunicatingPleaseWait",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_AwaitingPlayersResponseAboutTrade",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_HiDoSomethingMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_HiDoSomethingFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_HiDoSomethingAgainMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_HiDoSomethingAgainFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_DoSomethingMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_DoSomethingFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_DoSomethingAgainMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_DoSomethingAgainFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_SomebodyHasContactedYou",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_PlayerHasContactedYou",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_AwaitingResponseFromTrainer",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_AwaitingResponseFromPlayer",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_AwaitingResponseCancelBButton",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_ShowTrainerCard",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_BattleChallenge",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_ChatInvitation",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_OfferToTradeMon",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": true
+    },
+    {
+      "symbol": "gText_UR_OfferToTradeEgg",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_ChatDropped",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_OfferDeclined1",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_OfferDeclined2",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_ChatEnded",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_JoinChatMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_PlayerJoinChatMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_JoinChatFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_PlayerJoinChatFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_TrainerAppearsBusy",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_WaitForBattleMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_WaitForChatMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ShowTrainerCardMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_WaitForBattleFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_WaitForChatFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ShowTrainerCardFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_WaitForChatMale2",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_DoneWaitingBattleMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_DoneWaitingChatMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_DoneWaitingBattleFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_DoneWaitingChatFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_TradeWillBeStarted",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_BattleWillBeStarted",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_EnteringChat",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_BattleDeclinedMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_BattleDeclinedFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ShowTrainerCardDeclinedMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ShowTrainerCardDeclinedFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_IfYouWantToDoSomethingMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_IfYouWantToDoSomethingFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_TrainerBattleBusy",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_NeedTwoMonsOfLevel30OrLower1",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_NeedTwoMonsOfLevel30OrLower2",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_DeclineChatMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "stext_DeclineChatFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ChatDeclinedMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ChatDeclinedFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_YoureToughMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_UsedGoodMoveMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_BattleSurpriseMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_SwitchedMonsMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_YoureToughFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_UsedGoodMoveFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_BattleSurpriseFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_SwitchedMonsFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_LearnedSomethingMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ThatsFunnyMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_RandomChatMale1",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_RandomChatMale2",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_LearnedSomethingFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ThatsFunnyFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_RandomChatFemale1",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_RandomChatFemale2",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ShowedTrainerCardMale1",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ShowedTrainerCardMale2",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ShowedTrainerCardFemale1",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ShowedTrainerCardFemale2",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_MaleTraded1",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_MaleTraded2",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_FemaleTraded1",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_FemaleTraded2",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_XCheckedTradingBoard",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_RegisterMonAtTradingBoard",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_TradingBoardInfo",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ThankYouForRegistering",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_NobodyHasRegistered",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_ChooseRequestedMonType",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_WhichMonWillYouOffer",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_RegistrationCanceled",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_RegistraionCompleted",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_TradeCanceled",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_CancelRegistrationOfMon",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_CancelRegistrationOfEgg",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_RegistrationCanceled2",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_TradeTrainersWillBeListed",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ChooseTrainerToTradeWith2",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_AskTrainerToMakeTrade",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_AwaitingResponseFromTrainer2",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_NotRegisteredAMonForTrade",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_DontHaveTypeTrainerWants",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_DontHaveEggTrainerWants",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_PlayerCantTradeForYourMon",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_CantTradeForPartnersMon",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_TradeOfferRejected",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_EggTrade",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_ChooseJoinCancel",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_ChooseTrainer",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ChooseTrainerSingleBattle",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ChooseTrainerDoubleBattle",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ChooseLeaderMultiBattle",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ChooseTrainerToTradeWith",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ChooseTrainerToShareWonderCards",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ChooseTrainerToShareWonderNews",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ChooseLeaderPokemonJump",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ChooseLeaderBerryCrush",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ChooseLeaderBerryPicking",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_SearchingForWirelessSystemWait",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_MustHaveTwoMonsForDoubleBattle",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_AwaitingPlayersResponse",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_PlayerHasBeenAskedToRegisterYouPleaseWait",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_AwaitingResponseFromWirelessSystem",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_PleaseWaitForOtherTrainersToGather",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_NoCardsSharedRightNow",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_NoNewsSharedRightNow",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_Chat2",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_NameWantedOfferLv",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_Chat",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_Cards",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_BerryPicking",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_SpinTrade",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_ItemTrade",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ItsNormalCard",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ItsBronzeCard",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ItsCopperCard",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ItsSilverCard",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_ItsGoldCard",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gText_UR_TrainerCardInfoPage1",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": true
+    },
+    {
+      "symbol": "gText_UR_TrainerCardInfoPage2",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": true
+    },
+    {
+      "symbol": "sText_GladToMeetYouMale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": true
+    },
+    {
+      "symbol": "sText_GladToMeetYouFemale",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": true
+    },
+    {
+      "symbol": "gText_UR_FinishedCheckingPlayersTrainerCard",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": true
+    },
+    {
+      "symbol": "sText_CanceledReadingCard",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_Communicating",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_CommunicatingWithPlayer",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "sText_PleaseWaitAWhile",
+      "source": "src/union_room_message.c",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    }
+  ],
+  "captures": [
+    "gText_UR_PleaseStartOver",
+    "sText_HoldSpinShop",
+    "sText_OtherTrainerUnavailableNow",
+    "sText_DoYouWantXMode2",
+    "gText_UR_BattleChallenge",
+    "sText_WaitForChatFemale",
+    "gText_UR_NeedTwoMonsOfLevel30OrLower1",
+    "sText_RandomChatMale2",
+    "sText_NobodyHasRegistered",
+    "sText_CantTradeForPartnersMon",
+    "gText_UR_PlayerHasBeenAskedToRegisterYouPleaseWait",
+    "gText_UR_TrainerCardInfoPage1"
+  ]
+}

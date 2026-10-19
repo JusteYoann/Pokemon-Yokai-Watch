@@ -1,140 +1,75 @@
 VermilionCity_Gym_Text_LtSurgeIntro::
-    .string "Hey, kid! What do you think you're\n"
-    .string "doing here?\p"
-    .string "You won't live long in combat!\n"
-    .string "Not with your puny power!\p"
-    .string "I tell you, kid, electric Yo-kai\n"
-    .string "saved me during the war!\p"
-    .string "They zapped my enemies into\n"
-    .string "paralysis!\p"
-    .string "The same as I'll do to you!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "Hé! Que viens-tu faire ici?\pTu ne tiendras pas longtemps\nau combat avec si peu de puissance!\pLes Yo-kai Électrik\nm'ont sauvé pendant la guerre!\pIls paralysaient mes ennemis\nà coups de décharges!\pJe vais te réserver\nle même sort!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 VermilionCity_Gym_Text_LtSurgePostBattle::
-    .string "A little word of advice, kid!\p"
-    .string "Electricity is sure powerful!\p"
-    .string "But, it's useless against GROUND-\n"
-    .string "type Yo-kai!$"
+    .string "Un petit conseil!\pL'électricité est puissante,\nmais sans effet contre le type Sol!$"
 
 VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis::
-    .string "The THUNDERBADGE cranks up your\n"
-    .string "Yo-kai's SPEED!\p"
-    .string "It also lets your Yo-kai FLY\n"
-    .string "lightning-quick anytime, kid!\p"
-    .string "You're special, kid!\n"
-    .string "Take this!$"
+    .string "Le Badge Foudre augmente\nla Vitesse de tes Yo-kai!\pIl permet aussi d'utiliser Vol\nen dehors des combats!\pTu as du talent!\nPrends ceci!$"
 
 VermilionCity_Gym_Text_ReceivedTM34FromLtSurge::
-    .string "{PLAYER} received TM34\n"
-    .string "from LT. SURGE.$"
+    .string "Le Major Bob remet\nla CT34 à {PLAYER}.$"
 
 VermilionCity_Gym_Text_ExplainTM34::
-    .string "TM34 contains SHOCK WAVE!\p"
-    .string "Teach it to an ELECTRIC Yo-kai!$"
+    .string "La CT34 contient Onde de Choc!\pEnseigne-la à un Yo-kai compatible\nqui saura en profiter!$"
 
 VermilionCity_Gym_Text_MakeRoomInYourBag::
-    .string "Yo, kid, make room in your BAG!$"
+    .string "Hé! Fais de la place dans ton Sac!$"
 
 VermilionCity_Gym_Text_LtSurgeDefeat::
-    .string "Now that's a shocker!\p"
-    .string "You're the real deal, kid!\p"
-    .string "Fine, then, take the THUNDERBADGE!$"
+    .string "Quel choc!\pTu es vraiment à la hauteur!\pTrès bien, prends le Badge Foudre!$"
 
 VermilionCity_Gym_Text_TuckerIntro::
-    .string "When I was in the Army, LT. SURGE\n"
-    .string "was my strict CO.\p"
-    .string "He was a hard taskmaster.$"
+    .string "À l'armée, le Major Bob\nétait mon commandant.\pIl était très exigeant.$"
 
 VermilionCity_Gym_Text_TuckerDefeat::
-    .string "Stop!\n"
-    .string "You're very good!$"
+    .string "Halte!\nTu es très fort!$"
 
 VermilionCity_Gym_Text_TuckerPostBattle::
-    .string "It's not easy opening that door.\p"
-    .string "LT. SURGE was always famous for\n"
-    .string "his cautious nature in the Army.$"
+    .string "Pas facile d'ouvrir cette porte.\pÀ l'armée, le Major Bob\nétait connu pour sa prudence.$"
 
 VermilionCity_Gym_Text_BailyIntro::
-    .string "I'm a lightweight, but I'm good\n"
-    .string "with electricity!\p"
-    .string "That's why I joined this GYM.$"
+    .string "Je suis un poids plume,\nmais l'électricité, ça me connaît!\pC'est pour ça\nque j'ai rejoint cette Arène.$"
 
 VermilionCity_Gym_Text_BailyDefeat::
-    .string "Fried!$"
+    .string "Grillé!$"
 
 VermilionCity_Gym_Text_BailyPostBattle::
-    .string "Okay, I'll talk!\p"
-    .string "LT. SURGE said he hid door\n"
-    .string "switches inside something.$"
+    .string "D'accord, je parle!\pLe Major Bob a caché\nles interrupteurs dans des objets.$"
 
 VermilionCity_Gym_Text_DwayneIntro::
-    .string "This is no place for kids!\n"
-    .string "Not even if you're good!$"
+    .string "Pas de place pour les enfants ici!\nMême s'ils se débrouillent bien!$"
 
 VermilionCity_Gym_Text_DwayneDefeat::
-    .string "Wow!\n"
-    .string "Surprised me!$"
+    .string "Ouah!\nTu m'as surpris!$"
 
 VermilionCity_Gym_Text_DwaynePostBattle::
-    .string "LT. SURGE installed the traps in\n"
-    .string "the GYM himself.\p"
-    .string "He set up double locks everywhere.\n"
-    .string "Let me give you a hint.\p"
-    .string "When you open the first lock, the\n"
-    .string "second lock is right next to it.$"
+    .string "Le Major Bob a installé lui-même\nles pièges de cette Arène.\pIl a prévu un double verrou.\nVoici un indice.\pUne fois le premier ouvert,\nle second se trouve juste à côté.$"
 
 VermilionCity_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "LT. SURGE has a nickname.\p"
-    .string "People refer to him as the\n"
-    .string "Lightning American!\p"
-    .string "He's an expert on electric\n"
-    .string "Yo-kai.\p"
-    .string "BIRD/WATER-type Yo-kai match\n"
-    .string "poorly against the ELECTRIC type.\p"
-    .string "Beware of paralysis, too.\p"
-    .string "LT. SURGE is very cautious.\p"
-    .string "He's locked himself in, so it won't\n"
-    .string "be easy getting to him.$"
+    .string "Salut, futur Maître!\pOn surnomme le Major Bob\nl'Américain survolté!\pIl connaît bien l'électricité.\nMéfie-toi de la paralysie!\pLes capacités Électrik sont fortes\ncontre les types Eau et Vol.\pMais regarde bien les types réels\nde tous les Yo-kai de son équipe!\pLe Major Bob est prudent:\nil s'est enfermé derrière des pièges.\pLe rejoindre\nne sera pas facile!$"
 
 VermilionCity_Gym_Text_GymGuyPostVictory::
-    .string "Whew!\n"
-    .string "That match was electric!$"
+    .string "Ouf!\nQuel combat électrisant!$"
 
 VermilionCity_Gym_Text_GymStatue::
-    .string "VERMILION Yo-kai GYM\n"
-    .string "LEADER: LT. SURGE\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}$"
+    .string "ARÈNE DE VERMILION CITY\nCHAMPION: MAJOR BOB\pDRESSEURS VICTORIEUX:\n{RIVAL}$"
 
 VermilionCity_Gym_Text_GymStatuePlayerWon::
-    .string "VERMILION Yo-kai GYM\n"
-    .string "LEADER: LT. SURGE\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}, {PLAYER}$"
+    .string "ARÈNE DE VERMILION CITY\nCHAMPION: MAJOR BOB\pDRESSEURS VICTORIEUX:\n{RIVAL}, {PLAYER}$"
 
 VermilionCity_Gym_Text_NopeOnlyTrashHere::
-    .string "Nope!\n"
-    .string "There's only trash here.$"
+    .string "Non!\nRien que des déchets.$"
 
 VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened::
-    .string "Hey! There's a switch under the\n"
-    .string "trash! Turn it on!\p"
-    .string "The first electric lock opened!$"
+    .string "Tiens! Un interrupteur\nsous les déchets! On l'active!\pLe premier verrou\nélectrique s'ouvre!$"
 
 VermilionCity_Gym_Text_AnotherSwitchInTrash::
-    .string "ガサゴソ‥！\n"
-    .string "おっと！　ゴミばこの　そこに\l"
-    .string "また　スイッチが　あった！\l"
-    .string "おして　みよう！　‥　ポチッとな$"
+    .string "Fouille, fouille…\nEncore un interrupteur\lau fond de cette poubelle!\pAppuyons… Clic!$"
 
 VermilionCity_Gym_Text_SecondLockOpened::
-    .string "The second electric lock opened!\n"
-    .string "The motorized door opened!$"
+    .string "Le second verrou s'ouvre!\nLa porte automatique est ouverte!$"
 
 VermilionCity_Gym_Text_OnlyTrashLocksWereReset::
-    .string "Nope!\n"
-    .string "There's only trash here.\p"
-    .string "Hey!\n"
-    .string "The electric locks were reset!$"
+    .string "Non! Rien que des déchets.\pOh! Les verrous électriques\nse sont réinitialisés!$"
 

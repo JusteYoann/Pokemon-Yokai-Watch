@@ -1797,30 +1797,30 @@ data/maps/Route22/text.inc,Route22_Text_LateRivalPostBattle,20,"Me voilà prêt 
 data/maps/Route22/text.inc,Route22_Text_LateRivalVictory,24,"{RIVAL}: Hahaha, {PLAYER}!\nC'est ça, ton meilleur niveau?\pFace à mon talent,\n{PLAYER} a encore des progrès à\lfaire!\pVa donc t'entraîner!\nHahaha!$",False,False
 data/maps/Route22/text.inc,Route22_Text_LeagueGateSign,27,LIGUE DES YO-KAI\nEntrée principale$,False,False
 data/maps/Route23/text.inc,Route23_Text_VictoryRoadGateSign,1,VICTORY ROAD GATE -\nLigue Yo-kai$,False,False
-data/maps/Route24/text.inc,Route24_Text_JustEarnedFabulousPrize,1,Congratulations! You beat our\nfive contest TRAINERS!\pYou just earned a fabulous prize!$,True,False
-data/maps/Route24/text.inc,Route24_Text_ReceivedNuggetFromMysteryTrainer,6,{PLAYER} received a NUGGET\nfrom the mystery TRAINER!$,True,False
-data/maps/Route24/text.inc,Route24_Text_YouDontHaveAnyRoom,10,You don't have any room!$,True,False
-data/maps/Route24/text.inc,Route24_Text_JoinTeamRocket,13,"By the way, how would you like to\njoin TEAM ROCKET?\pWe're a group of professional\ncriminals specializing in Yo-kai!\pWant to join?\pAre you sure?\pCome on, join us!\pI'm telling you to join!\p…Okay, you need convincing!\pI'll make you an offer you can't\nrefuse!$",True,False
-data/maps/Route24/text.inc,Route24_Text_RocketDefeat,26,Arrgh!\nYou are good!$,True,False
-data/maps/Route24/text.inc,Route24_Text_YoudBecomeTopRocketLeader,30,"With your ability, you'd become\na top leader in TEAM ROCKET.\pCome on, think of the opportunity!\nDon't let this chance go to waste.$",True,False
-data/maps/Route24/text.inc,Route24_Text_ShaneIntro,36,I saw your feat from the grass!$,True,False
-data/maps/Route24/text.inc,Route24_Text_ShaneDefeat,39,I thought not!$,True,False
-data/maps/Route24/text.inc,Route24_Text_ShanePostBattle,42,I hid because the people on the\nbridge frightened me.$,True,False
-data/maps/Route24/text.inc,Route24_Text_EthanIntro,46,Okay! I'm No. 5!\nI'll stomp you!$,True,False
-data/maps/Route24/text.inc,Route24_Text_EthanDefeat,50,Whoa!\nToo much!$,False,False
-data/maps/Route24/text.inc,Route24_Text_EthanPostBattle,54,I did my best. I have no regrets!$,True,False
-data/maps/Route24/text.inc,Route24_Text_ReliIntro,57,I'm No. 4!\nGetting tired?$,False,False
-data/maps/Route24/text.inc,Route24_Text_ReliDefeat,61,"I lost, too!$",False,False
-data/maps/Route24/text.inc,Route24_Text_ReliPostBattle,64,"I did my best, so I've no regrets!$",False,False
-data/maps/Route24/text.inc,Route24_Text_TimmyIntro,67,Here's No. 3!\nI won't be easy!$,False,False
-data/maps/Route24/text.inc,Route24_Text_TimmyDefeat,71,Ow!\nStomped flat!$,False,False
-data/maps/Route24/text.inc,Route24_Text_TimmyPostBattle,75,I did my best. I have no regrets!$,True,False
-data/maps/Route24/text.inc,Route24_Text_AliIntro,78,I'm second!\nNow it's serious!$,True,False
-data/maps/Route24/text.inc,Route24_Text_AliDefeat,82,How could I lose?$,True,False
-data/maps/Route24/text.inc,Route24_Text_AliPostBattle,85,I did my best. I have no regrets!$,True,False
-data/maps/Route24/text.inc,Route24_Text_CaleIntro,88,People call this the NUGGET\nBRIDGE!\pBeat us five TRAINERS and win\na fabulous prize!\pThink you got what it takes?$,True,False
-data/maps/Route24/text.inc,Route24_Text_CaleDefeat,95,Whoo!\nGood stuff!$,False,False
-data/maps/Route24/text.inc,Route24_Text_CalePostBattle,99,I did my best. I have no regrets!$,True,False
+data/maps/Route24/text.inc,Route24_Text_JustEarnedFabulousPrize,1,Félicitations! Tu as battu\nnos cinq Dresseurs!\pTu mérites un prix fabuleux!$,False,False
+data/maps/Route24/text.inc,Route24_Text_ReceivedNuggetFromMysteryTrainer,4,Le mystérieux Dresseur\nremet une Pépite à {PLAYER}!$,False,False
+data/maps/Route24/text.inc,Route24_Text_YouDontHaveAnyRoom,7,Tu n'as plus de place!$,False,False
+data/maps/Route24/text.inc,Route24_Text_JoinTeamRocket,10,"Au fait, ça te dirait\nde rejoindre la Team Rocket?\pNous sommes des criminels\nspécialisés dans les Yo-kai!\pTu veux nous rejoindre?\pTu es sûr?\pAllez, viens avec nous!\pJe te dis de nous rejoindre!\pBon… Il faut te convaincre!\pJe vais te faire une offre\nque tu ne pourras pas refuser!$",False,False
+data/maps/Route24/text.inc,Route24_Text_RocketDefeat,13,Argh!\nTu es fort!$,False,False
+data/maps/Route24/text.inc,Route24_Text_YoudBecomeTopRocketLeader,16,"Avec ton talent, tu deviendrais\nun grand chef de la Team Rocket.\pRéfléchis! Ne laisse pas passer\nune occasion pareille.$",False,False
+data/maps/Route24/text.inc,Route24_Text_ShaneIntro,19,J'ai vu tes exploits\ndepuis les hautes herbes!$,False,False
+data/maps/Route24/text.inc,Route24_Text_ShaneDefeat,22,Je m'en doutais!$,False,False
+data/maps/Route24/text.inc,Route24_Text_ShanePostBattle,25,"Les gens du pont me faisaient peur.\nAlors, je me suis caché.$",False,False
+data/maps/Route24/text.inc,Route24_Text_EthanIntro,28,Très bien! Je suis le nº5!\nJe vais t'écraser!$,False,False
+data/maps/Route24/text.inc,Route24_Text_EthanDefeat,31,Ouah!\nC'est trop!$,False,False
+data/maps/Route24/text.inc,Route24_Text_EthanPostBattle,34,J'ai fait de mon mieux.\nAucun regret!$,False,False
+data/maps/Route24/text.inc,Route24_Text_ReliIntro,37,Je suis le nº4!\nTu commences à fatiguer?$,False,False
+data/maps/Route24/text.inc,Route24_Text_ReliDefeat,40,J'ai perdu aussi!$,False,False
+data/maps/Route24/text.inc,Route24_Text_ReliPostBattle,43,J'ai fait de mon mieux.\nAucun regret!$,False,False
+data/maps/Route24/text.inc,Route24_Text_TimmyIntro,46,Voici le nº3!\nJe ne me laisserai pas faire!$,False,False
+data/maps/Route24/text.inc,Route24_Text_TimmyDefeat,49,Aïe!\nÉcrasé!$,False,False
+data/maps/Route24/text.inc,Route24_Text_TimmyPostBattle,52,J'ai fait de mon mieux.\nAucun regret!$,False,False
+data/maps/Route24/text.inc,Route24_Text_AliIntro,55,"Je passe en deuxième!\nCette fois, c'est sérieux!$",False,False
+data/maps/Route24/text.inc,Route24_Text_AliDefeat,58,Comment ai-je pu perdre?$,False,False
+data/maps/Route24/text.inc,Route24_Text_AliPostBattle,61,J'ai fait de mon mieux.\nAucun regret!$,False,False
+data/maps/Route24/text.inc,Route24_Text_CaleIntro,64,Les gens appellent cet endroit\nle pont aux Pépites!\pBats nos cinq Dresseurs\npour gagner un prix fabuleux!\pTu penses en être capable?$,False,False
+data/maps/Route24/text.inc,Route24_Text_CaleDefeat,67,Wouh!\nBien joué!$,False,False
+data/maps/Route24/text.inc,Route24_Text_CalePostBattle,70,J'ai fait de mon mieux.\nAucun regret!$,False,False
 data/maps/Route25/scripts.inc,Route25_Text_ArianeOffer,72,"Ariane: Un nouveau mystère!\nTes Yo-kai m’intriguent.\pUsapyon et moi, on est prêts!\nTu veux faire un combat?$",False,False
 data/maps/Route25/scripts.inc,Route25_Text_ArianeStart,77,"Allons-y, Usapyon!\nOn va leur montrer!$",False,False
 data/maps/Route25/scripts.inc,Route25_Text_ArianePostStart,80,Emperor et moi avons progressé!\nÀ toi de le découvrir!$,False,False
@@ -1831,36 +1831,36 @@ data/maps/Route25/scripts.inc,Route25_Text_ArianeRevisit,96,Ariane: J’ai encor
 data/maps/Route25/scripts.inc,Route25_Text_ArianeDecline,101,Ariane: Pas de souci!\nOn reste ici encore un peu.$,False,False
 data/maps/Route25/scripts.inc,Route25_Text_ArianeBagFull,104,Ariane: Ton sac est plein.\nJe te garde la Pierre Lune!$,False,False
 data/maps/Route25/scripts.inc,Route25_Text_UsapionCameo,107,Usapyon vérifie son équipement.\nIl semble prêt pour l’aventure!$,False,False
-data/maps/Route25/text.inc,Route25_Text_JoeyIntro,1,Local TRAINERS come here to\npractice.$,True,False
-data/maps/Route25/text.inc,Route25_Text_JoeyDefeat,5,You're decent.$,True,False
-data/maps/Route25/text.inc,Route25_Text_JoeyPostBattle,8,All Yo-kai have weaknesses.\nEven the strongest ones.\pThat's why it's best to raise\nYo-kai of different types.$,True,False
-data/maps/Route25/text.inc,Route25_Text_DanIntro,14,Dad took me to a great party on\nthe S.S. ANNE at VERMILION CITY.$,True,False
-data/maps/Route25/text.inc,Route25_Text_DanDefeat,18,I'm not mad!$,True,False
-data/maps/Route25/text.inc,Route25_Text_DanPostBattle,21,"On the S.S. ANNE, I saw TRAINERS\nfrom around the world.$",True,False
-data/maps/Route25/text.inc,Route25_Text_FlintIntro,25,I'm a cool guy.\nI've got a girlfriend!$,False,False
-data/maps/Route25/text.inc,Route25_Text_FlintDefeat,29,"Aww, darn…$",False,False
-data/maps/Route25/text.inc,Route25_Text_FlintPostBattle,32,"Oh, well.\nMy girlfriend will cheer me up.$",True,False
-data/maps/Route25/text.inc,Route25_Text_KelseyIntro,36,Hi!\nMy boyfriend is cool!$,True,False
-data/maps/Route25/text.inc,Route25_Text_KelseyDefeat,40,My conditioning isn't the best…$,True,False
-data/maps/Route25/text.inc,Route25_Text_KelseyPostBattle,43,I wish my boyfriend was as good\nas you.$,True,False
-data/maps/Route25/text.inc,Route25_Text_ChadIntro,47,I had this feeling…\nI knew I had to battle you!$,True,False
-data/maps/Route25/text.inc,Route25_Text_ChadDefeat,51,"I knew I'd lose, too!$",False,False
-data/maps/Route25/text.inc,Route25_Text_ChadPostBattle,54,"If your Yo-kai gets confused,\nswitch it out.\pThat's a good tactic.$",True,False
-data/maps/Route25/text.inc,Route25_Text_HaleyIntro,59,My friend has many cute Yo-kai.\nI'm so jealous!$,True,False
-data/maps/Route25/text.inc,Route25_Text_HaleyDefeat,63,I'm not so jealous!$,True,False
-data/maps/Route25/text.inc,Route25_Text_HaleyPostBattle,66,You came from MT. MOON?\nMay I have a CLEFAIRY?$,True,False
-data/maps/Route25/text.inc,Route25_Text_FranklinIntro,70,"I just got down from MT. MOON,\nbut I've still got gas in the tank!$",True,False
-data/maps/Route25/text.inc,Route25_Text_FranklinDefeat,74,You worked hard!$,True,False
-data/maps/Route25/text.inc,Route25_Text_FranklinPostBattle,77,Drat!\nA ZUBAT bit me back in that cave.$,True,False
-data/maps/Route25/text.inc,Route25_Text_NobIntro,81,I'm off to see a POKéMANIAC's\ncollection at the cape.$,True,False
-data/maps/Route25/text.inc,Route25_Text_NobDefeat,85,"You done got me, and real good,\ntoo!$",True,False
-data/maps/Route25/text.inc,Route25_Text_NobPostBattle,89,The POKéMANIAC sure lives up to\nhis name.\pHis collection includes many rare\nspecies of Yo-kai.$,True,False
-data/maps/Route25/text.inc,Route25_Text_WayneIntro,95,"You're going to see BILL?\nFirst, we battle!$",True,False
-data/maps/Route25/text.inc,Route25_Text_WayneDefeat,99,You're something.$,True,False
-data/maps/Route25/text.inc,Route25_Text_WaynePostBattle,102,The trail below is a shortcut to\nCERULEAN CITY.$,True,False
-data/maps/Route25/text.inc,Route25_Text_SeaCottageSign,106,SEA COTTAGE\nBILL lives here!$,False,False
-data/maps/Route25/text.inc,Route25_Text_MistyHighHopesAboutThisPlace,110,"This cape is a famous date spot.\pMISTY, the GYM LEADER, has high\nhopes about this place.$",True,False
-data/maps/Route25/text.inc,Route25_Text_AreYouHereAlone,115,"Hello, are you here alone?\pIf you're out at CERULEAN's cape…\nWell, it should be as a couple.$",True,False
+data/maps/Route25/text.inc,Route25_Text_JoeyIntro,1,Les Dresseurs du coin\nviennent s'entraîner ici.$,False,False
+data/maps/Route25/text.inc,Route25_Text_JoeyDefeat,4,Tu te débrouilles bien.$,False,False
+data/maps/Route25/text.inc,Route25_Text_JoeyPostBattle,7,"Tous les Yo-kai ont des faiblesses,\nmême les plus forts.\pC'est pour ça qu'une équipe\nde types variés est utile.$",False,False
+data/maps/Route25/text.inc,Route25_Text_DanIntro,10,"Papa m'a emmené à une grande fête\nsur le S.S. ANNE, à VERMILION CITY.$",False,False
+data/maps/Route25/text.inc,Route25_Text_DanDefeat,13,Je ne suis pas fâché!$,False,False
+data/maps/Route25/text.inc,Route25_Text_DanPostBattle,16,"Sur le S.S. ANNE, j'ai vu\ndes Dresseurs du monde entier.$",False,False
+data/maps/Route25/text.inc,Route25_Text_FlintIntro,19,J'ai la classe.\nEt une petite amie!$,False,False
+data/maps/Route25/text.inc,Route25_Text_FlintDefeat,22,"Oh, zut…$",False,False
+data/maps/Route25/text.inc,Route25_Text_FlintPostBattle,25,Tant pis. Ma petite amie\nme remontera le moral.$,False,False
+data/maps/Route25/text.inc,Route25_Text_KelseyIntro,28,Salut!\nMon copain est super!$,False,False
+data/maps/Route25/text.inc,Route25_Text_KelseyDefeat,31,Je ne suis pas au meilleur\nde ma forme…$,False,False
+data/maps/Route25/text.inc,Route25_Text_KelseyPostBattle,34,Si seulement mon copain\nse battait aussi bien que toi.$,False,False
+data/maps/Route25/text.inc,Route25_Text_ChadIntro,37,Je le sentais…\nIl fallait que je t'affronte!$,False,False
+data/maps/Route25/text.inc,Route25_Text_ChadDefeat,40,Je savais aussi que j'allais perdre!$,False,False
+data/maps/Route25/text.inc,Route25_Text_ChadPostBattle,43,"Si ton Yo-kai est confus,\nremplace-le par un autre.\pC'est une bonne stratégie.$",False,False
+data/maps/Route25/text.inc,Route25_Text_HaleyIntro,46,Mon amie a plein de Yo-kai mignons.\nQuelle chance elle a!$,False,False
+data/maps/Route25/text.inc,Route25_Text_HaleyDefeat,49,"Finalement, je ne suis pas jalouse!$",False,False
+data/maps/Route25/text.inc,Route25_Text_HaleyPostBattle,52,Tu viens de MT. MOON?\nTu pourrais me donner un Bouh?$,False,False
+data/maps/Route25/text.inc,Route25_Text_FranklinIntro,55,"Je descends tout juste de MT. MOON,\nmais j'ai encore de l'énergie!$",False,False
+data/maps/Route25/text.inc,Route25_Text_FranklinDefeat,58,Tu t'es bien donné du mal!$,False,False
+data/maps/Route25/text.inc,Route25_Text_FranklinPostBattle,61,Zut! Un Yo-kai m'a mordu\ndans cette grotte.$,False,False
+data/maps/Route25/text.inc,Route25_Text_NobIntro,64,Je vais admirer la collection\nd'un passionné de Yo-kai au cap.$,False,False
+data/maps/Route25/text.inc,Route25_Text_NobDefeat,67,"Tu m'as bien eu,\net pas qu'un peu!$",False,False
+data/maps/Route25/text.inc,Route25_Text_NobPostBattle,70,Ce collectionneur porte bien\nsa réputation de passionné.\pIl possède de nombreuses\nespèces rares de Yo-kai.$,False,False
+data/maps/Route25/text.inc,Route25_Text_WayneIntro,73,"Tu vas voir Léo?\nD'abord, on se bat!$",False,False
+data/maps/Route25/text.inc,Route25_Text_WayneDefeat,76,Tu es impressionnant.$,False,False
+data/maps/Route25/text.inc,Route25_Text_WaynePostBattle,79,Le sentier en dessous est\nun raccourci vers CERULEAN CITY.$,False,False
+data/maps/Route25/text.inc,Route25_Text_SeaCottageSign,82,SEA COTTAGE\nLéo habite ici!$,False,False
+data/maps/Route25/text.inc,Route25_Text_MistyHighHopesAboutThisPlace,85,"Ce cap est réputé\npour les rendez-vous amoureux.\pOndine, la Championne,\nen attend beaucoup.$",False,False
+data/maps/Route25/text.inc,Route25_Text_AreYouHereAlone,88,"Bonjour, tu es seul?\pQuand on vient sur ce cap,\nc'est mieux à deux.$",False,False
 data/maps/Route25_SeaCottage/text.inc,Route25_SeaCottage_Text_ImBillHelpMeOutPal,1,"LÉO: Bonjour! Je suis un Yo-kai…\nEnfin, non! Je suis Léo!\pJ’ai inventé le PC et\nles Boîtes Yo-kai.\pMais une expérience m’a\ntransformé en Jibanyan!\pCe n’était vraiment pas prévu…\nTu peux m’aider?$",False,False
 data/maps/Route25_SeaCottage/text.inc,Route25_SeaCottage_Text_ImBillHelpMeOutLady,11,"LÉO: Bonjour! Je suis un Yo-kai…\nEnfin, non! Je suis Léo!\pJ’ai inventé le PC et\nles Boîtes Yo-kai.\pMais une expérience m’a\ntransformé en Jibanyan!\pCe n’était vraiment pas prévu…\nTu peux m’aider?$",False,False
 data/maps/Route25_SeaCottage/text.inc,Route25_SeaCottage_Text_RunCellSeparationOnPC,21,Attends que j’entre dans\nle téléporteur.\pPuis active le séparateur\ncellulaire sur mon PC.$,False,False
@@ -1939,51 +1939,51 @@ data/maps/Route4_PokemonCenter_1F/text.inc,Route4_PokemonCenter_1F_Text_YoullNee
 data/maps/Route4_PokemonCenter_1F/text.inc,Route4_PokemonCenter_1F_Text_IDontGiveRefunds,25,MARCHAND: Pas de remboursement!\nTu savais ce que tu achetais!$,False,False
 data/maps/Route4_PokemonCenter_1F/text.inc,Route4_PokemonCenter_1F_Text_ShouldStoreMonsUsingPC,28,"Si ton équipe est pleine,\ntu ne peux plus y ajouter de Yo-kai.\pDéposes-en quelques-uns\ndans une Boîte avec le PC.$",False,False
 data/maps/Route4_PokemonCenter_1F/text.inc,Route4_PokemonCenter_1F_Text_ItsANewspaper,31,C'est un journal.$,False,False
-data/maps/Route5/text.inc,Route5_Text_UndergroundPathSign,1,UNDERGROUND PATH\nCERULEAN CITY - VERMILION CITY$,False,False
-data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_WantMeToRaiseMon,1,I run the DAY-CARE service.\pWould you like me to raise one of\nyour Yo-kai?$,True,False
-data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_ComeAgain,6,Come again.$,False,False
-data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_WhichMonShouldIRaise,9,Which Yo-kai should I raise?$,True,False
-data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_ComeAnytimeYouLike,12,Fine.\nCome anytime you like.$,True,False
-data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_LookAfterMonForAWhile,16,"Fine, I'll look after your\n{STR_VAR_1} for a while.$",True,False
-data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_ComeSeeMeInAWhile,20,Come see me in a while.$,False,False
-data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_MonNeedsToSpendMoreTime,23,You're back already?\pYour {STR_VAR_1} needs to spend\nsome more time with me.$,True,False
-data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_OweMeXForMonsReturn,28,You owe me ¥{STR_VAR_2} for the return\nof this Yo-kai.$,True,False
-data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_ThankYouHeresMon,32,Thank you!\nHere's your Yo-kai.$,True,False
-data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_PlayerGotMonBack,36,{PLAYER} got {STR_VAR_1} back\nfrom the DAY-CARE MAN.$,True,False
-data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_OnlyHaveOneMonWithYou,40,Oh? You only have one Yo-kai\nwith you.$,True,False
-data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_WhatWillYouBattleWith,44,"If you leave me that Yo-kai,\nwhat will you battle with?$",True,False
-data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_MonHasGrownByXLevels,48,"Your {STR_VAR_1} has grown a lot.\nYes, quite a lot, I'd say.\pLet me see…\nBy level, it's grown by {STR_VAR_2}.\pAren't I great?$",True,False
-data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_YouveGotNoRoomForIt,55,You can't take this Yo-kai back\nif you've got no room for it.$,True,False
-data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_DontHaveEnoughMoney,59,You don't have enough money.$,True,False
-data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_WantMeToTakeALookAtYours,62,きみの\nみてみるかね？$,False,True
-data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_CantAcceptMonWithHM,66,わるいけど　ひでんのわざを　もった\nポケモンは　あずかれないなぁ$,False,True
-data/maps/Route5_SouthEntrance/text.inc,Route5_SouthEntrance_Text_ThirstyOnGuardDuty,1,"I'm on guard duty.\nGee, I'm thirsty, though!\pOh, wait there, the road's closed.$",True,False
-data/maps/Route5_SouthEntrance/text.inc,Route5_SouthEntrance_Text_ThatTeaLooksTasty,6,"Oh, that TEA…\nIt looks awfully tasty…$",True,False
-data/maps/Route5_SouthEntrance/text.inc,Route5_SouthEntrance_Text_ThanksIllShareTeaWithGuards,10,"Huh? I can have this drink?\nGee, thanks!\l… …\lGlug, glug…\l… …\lGulp…\lIf you want to go to SAFFRON\lCITY…\l… …\lYou can go on through.\pI'll share this TEA with the other\nguards!$",True,False
-data/maps/Route5_SouthEntrance/text.inc,Route5_SouthEntrance_Text_HiHowsItGoing,24,"Hi, how's it going?$",True,False
-data/maps/Route6/text.inc,Route6_Text_RickyIntro,1,Who's there?\nQuit listening in on us!$,False,False
-data/maps/Route6/text.inc,Route6_Text_RickyDefeat,5,I just can't win!$,True,False
-data/maps/Route6/text.inc,Route6_Text_RickyPostBattle,8,Whisper…\nWhisper…$,False,False
-data/maps/Route6/text.inc,Route6_Text_NancyIntro,12,Excuse me!\nThis is a private conversation!$,True,False
-data/maps/Route6/text.inc,Route6_Text_NancyDefeat,16,Ugh!\nI hate losing.$,False,False
-data/maps/Route6/text.inc,Route6_Text_NancyPostBattle,20,Whisper…\nWhisper…$,False,False
-data/maps/Route6/text.inc,Route6_Text_KeigoIntro,24,There aren't many bugs out here.$,False,False
-data/maps/Route6/text.inc,Route6_Text_KeigoDefeat,27,No!\nYou're kidding!$,True,False
-data/maps/Route6/text.inc,Route6_Text_KeigoPostBattle,31,"I like bugs, so I'm going back to\nVIRIDIAN FOREST.$",True,False
-data/maps/Route6/text.inc,Route6_Text_JeffIntro,35,Huh?\nYou want to talk to me?$,True,False
-data/maps/Route6/text.inc,Route6_Text_JeffDefeat,39,This stinks…\nI couldn't beat your challenge…$,True,False
-data/maps/Route6/text.inc,Route6_Text_JeffPostBattle,43,I should bring more Yo-kai with\nme. I'll feel safer that way.$,True,False
-data/maps/Route6/text.inc,Route6_Text_IsabelleIntro,47,"Me?\nWell, okay. I'll play!$",False,False
-data/maps/Route6/text.inc,Route6_Text_IsabelleDefeat,51,Things just didn't work…$,False,False
-data/maps/Route6/text.inc,Route6_Text_IsabellePostBattle,54,I want to get stronger.\nWhat's your secret?$,True,False
-data/maps/Route6/text.inc,Route6_Text_ElijahIntro,58,I've never seen you around.\nAre you good?$,True,False
-data/maps/Route6/text.inc,Route6_Text_ElijahDefeat,62,You're too good!$,True,False
-data/maps/Route6/text.inc,Route6_Text_ElijahPostBattle,65,"Are my Yo-kai weak?\nOr, am I just bad?\lWhich do you think?$",True,False
-data/maps/Route6/text.inc,Route6_Text_UndergroundPathSign,70,UNDERGROUND PATH\nCERULEAN CITY - VERMILION CITY$,False,False
-data/maps/Route6_NorthEntrance/text.inc,Route6_NorthEntrance_Text_ThirstyOnGuardDuty,1,"I'm on guard duty.\nGee, I'm thirsty, though!\pOh, wait there, the road's closed.$",True,False
-data/maps/Route6_NorthEntrance/text.inc,Route6_NorthEntrance_Text_ThatTeaLooksTasty,6,"Oh, that TEA…\nIt looks awfully tasty…$",True,False
-data/maps/Route6_NorthEntrance/text.inc,Route6_NorthEntrance_Text_ThanksIllShareTeaWithGuards,10,"Huh? I can have this drink?\nGee, thanks!\l… …\lGlug, glug…\l… …\lGulp…\lIf you want to go to SAFFRON\lCITY…\l… …\lYou can go on through.\pI'll share this TEA with the other\nguards!$",True,False
-data/maps/Route6_NorthEntrance/text.inc,Route6_NorthEntrance_Text_HiHowsItGoing,24,"Hi, how's it going?$",True,False
+data/maps/Route5/text.inc,Route5_Text_UndergroundPathSign,1,PASSAGE SOUTERRAIN\nCERULEAN CITY - VERMILION CITY$,False,False
+data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_WantMeToRaiseMon,1,Je m'occupe de cette Pension.\pVeux-tu me confier un Yo-kai\npour que je l'élève?$,False,False
+data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_ComeAgain,4,Reviens me voir.$,False,False
+data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_WhichMonShouldIRaise,7,Quel Yo-kai dois-je élever?$,False,False
+data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_ComeAnytimeYouLike,10,Très bien.\nReviens quand tu veux.$,False,False
+data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_LookAfterMonForAWhile,13,"Très bien, je vais m'occuper\nde {STR_VAR_1} quelque temps.$",False,False
+data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_ComeSeeMeInAWhile,16,Reviens me voir dans un moment.$,False,False
+data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_MonNeedsToSpendMoreTime,19,Déjà de retour?\p{STR_VAR_1} doit encore passer\nun peu de temps avec moi.$,False,False
+data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_OweMeXForMonsReturn,22,"Pour récupérer ce Yo-kai,\ntu me dois {STR_VAR_2}¥.$",False,False
+data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_ThankYouHeresMon,25,Merci!\nVoici ton Yo-kai.$,False,False
+data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_PlayerGotMonBack,28,{PLAYER} récupère {STR_VAR_1}\nauprès de l'homme de la Pension.$,False,False
+data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_OnlyHaveOneMonWithYou,31,Oh? Tu n'as qu'un Yo-kai\navec toi.$,False,False
+data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_WhatWillYouBattleWith,34,"Si tu me confies ce Yo-kai,\navec qui vas-tu combattre?$",False,False
+data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_MonHasGrownByXLevels,37,"{STR_VAR_1} a bien grandi.\nOh oui, vraiment!\pVoyons…\nIl a gagné {STR_VAR_2} niveaux.\pJe m'en suis bien occupé, non?$",False,False
+data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_YouveGotNoRoomForIt,40,Tu ne peux pas reprendre ce Yo-kai\nsi tu n'as pas de place.$,False,False
+data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_DontHaveEnoughMoney,43,Tu n'as pas assez d'argent.$,False,False
+data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_WantMeToTakeALookAtYours,46,Veux-tu que j'examine\nton Yo-kai?$,False,False
+data/maps/Route5_PokemonDayCare/text.inc,Route5_PokemonDayCare_Text_CantAcceptMonWithHM,49,"Désolé, je ne peux pas garder\nun Yo-kai connaissant\lune capacité secrète.$",False,False
+data/maps/Route5_SouthEntrance/text.inc,Route5_SouthEntrance_Text_ThirstyOnGuardDuty,1,Je suis de garde…\nEt j'ai tellement soif!\pAttends! La route est fermée.$,False,False
+data/maps/Route5_SouthEntrance/text.inc,Route5_SouthEntrance_Text_ThatTeaLooksTasty,4,"Oh, ce Thé…\nIl a l'air délicieux!$",False,False
+data/maps/Route5_SouthEntrance/text.inc,Route5_SouthEntrance_Text_ThanksIllShareTeaWithGuards,7,"Hein? Tu me l'offres?\nMerci beaucoup!\pGlou, glou…\nAhhh…\pTu veux aller à SAFFRON CITY?\nTu peux passer.\pJe partagerai ce Thé\navec les autres gardes!$",False,False
+data/maps/Route5_SouthEntrance/text.inc,Route5_SouthEntrance_Text_HiHowsItGoing,10,"Salut, comment ça va?$",False,False
+data/maps/Route6/text.inc,Route6_Text_RickyIntro,1,Qui est là?\nArrête d'écouter notre conversation!$,False,False
+data/maps/Route6/text.inc,Route6_Text_RickyDefeat,4,Je n'arrive pas à gagner!$,False,False
+data/maps/Route6/text.inc,Route6_Text_RickyPostBattle,7,Chuchote…\nChuchote…$,False,False
+data/maps/Route6/text.inc,Route6_Text_NancyIntro,10,Excuse-moi!\nCette conversation est privée!$,False,False
+data/maps/Route6/text.inc,Route6_Text_NancyDefeat,13,Grrr!\nJe déteste perdre.$,False,False
+data/maps/Route6/text.inc,Route6_Text_NancyPostBattle,16,Chuchote…\nChuchote…$,False,False
+data/maps/Route6/text.inc,Route6_Text_KeigoIntro,19,Il n'y a pas beaucoup\nd'insectes dans le coin.$,False,False
+data/maps/Route6/text.inc,Route6_Text_KeigoDefeat,22,Non!\nTu plaisantes!$,False,False
+data/maps/Route6/text.inc,Route6_Text_KeigoPostBattle,25,"J'aime les insectes, alors\nje vais retourner à VIRIDIAN FOREST.$",False,False
+data/maps/Route6/text.inc,Route6_Text_JeffIntro,28,Hein?\nTu veux me parler?$,False,False
+data/maps/Route6/text.inc,Route6_Text_JeffDefeat,31,Zut…\nJe n'ai pas réussi à te battre…$,False,False
+data/maps/Route6/text.inc,Route6_Text_JeffPostBattle,34,Je devrais prendre plus de Yo-kai\navec moi. Je serais plus tranquille.$,False,False
+data/maps/Route6/text.inc,Route6_Text_IsabelleIntro,37,"Moi?\nBon, d'accord. Jouons!$",False,False
+data/maps/Route6/text.inc,Route6_Text_IsabelleDefeat,40,Ça ne s'est pas bien passé…$,False,False
+data/maps/Route6/text.inc,Route6_Text_IsabellePostBattle,43,Je veux devenir plus forte.\nQuel est ton secret?$,False,False
+data/maps/Route6/text.inc,Route6_Text_ElijahIntro,46,Je ne t'ai jamais vu par ici.\nTu sais te battre?$,False,False
+data/maps/Route6/text.inc,Route6_Text_ElijahDefeat,49,Tu es trop fort!$,False,False
+data/maps/Route6/text.inc,Route6_Text_ElijahPostBattle,52,Mes Yo-kai sont faibles?\nOu c'est moi qui suis mauvais?\lQu'en penses-tu?$,False,False
+data/maps/Route6/text.inc,Route6_Text_UndergroundPathSign,55,PASSAGE SOUTERRAIN\nCERULEAN CITY - VERMILION CITY$,False,False
+data/maps/Route6_NorthEntrance/text.inc,Route6_NorthEntrance_Text_ThirstyOnGuardDuty,1,Je suis de garde…\nEt j'ai tellement soif!\pAttends! La route est fermée.$,False,False
+data/maps/Route6_NorthEntrance/text.inc,Route6_NorthEntrance_Text_ThatTeaLooksTasty,4,"Oh, ce Thé…\nIl a l'air délicieux!$",False,False
+data/maps/Route6_NorthEntrance/text.inc,Route6_NorthEntrance_Text_ThanksIllShareTeaWithGuards,7,"Hein? Tu me l'offres?\nMerci beaucoup!\pGlou, glou…\nAhhh…\pTu veux aller à SAFFRON CITY?\nTu peux passer.\pJe partagerai ce Thé\navec les autres gardes!$",False,False
+data/maps/Route6_NorthEntrance/text.inc,Route6_NorthEntrance_Text_HiHowsItGoing,10,"Salut, comment ça va?$",False,False
 data/maps/Route7/text.inc,Route7_Text_UndergroundPathSign,1,UNDERGROUND PATH\nCELADON CITY - LAVENDER TOWN$,False,False
 data/maps/Route7_EastEntrance/text.inc,Route7_EastEntrance_Text_ThirstyOnGuardDuty,1,"I'm on guard duty.\nGee, I'm thirsty, though!\pOh, wait there, the road's closed.$",True,False
 data/maps/Route7_EastEntrance/text.inc,Route7_EastEntrance_Text_ThatTeaLooksTasty,6,"Oh, that TEA…\nIt looks awfully tasty…$",True,False
@@ -2914,99 +2914,99 @@ data/maps/UndergroundPath_EastWestTunnel/scripts.inc,UndergroundPath_EastWestTun
 data/maps/UndergroundPath_NorthSouthTunnel/scripts.inc,UndergroundPath_NorthSouthTunnel_EventScript_Yokai093_Text,19,Un {STR_VAR_1} se cache ici.\nVeux-tu le rencontrer?$,False,False
 data/maps/UndergroundPath_SouthEntrance/text.inc,UndergroundPath_SouthEntrance_Text_PeopleLoseThingsInTheDarkness,1,People often lose things in the\ndarkness of the UNDERGROUND PATH.$,True,False
 data/maps/UndergroundPath_WestEntrance/text.inc,UndergroundPath_WestEntrance_Text_SleepyMonNearCeladon,1,"I heard a sleepy Yo-kai appeared\nout near CELADON CITY, too.$",False,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_GrimerMultipliesInSludge,1,We're careful about pollution here.\pWe've heard GRIMER multiplies in\ntoxic sludge.$,False,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_DidYouSeeSSAnneInHarbor,6,Did you see the S.S. ANNE moored\nin the harbor?$,True,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_SSAnneHasDepartedForYear,10,"So, the S.S. ANNE has departed?\pShe'll be back in VERMILION about\nthis time next year.$",True,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_BuildingOnThisLand,15,I'm putting up a building on this\nplot of land. I own it all.\pMy Yo-kai is tamping the land\nto lay the foundation.$,True,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_Machop,21,MACHOP: Guoh! Gogogoh!$,False,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_MachopStompingLandFlat,24,A MACHOP is stomping the land flat.$,True,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_SSAnneVisitsOnceAYear,27,The S.S. ANNE is a famous luxury\ncruise ship.\pIt visits VERMILION once a year.$,True,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_CitySign,32,VERMILION CITY\nThe Port of Exquisite Sunsets$,True,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_SnorlaxBlockingRoute12,36,NOTICE!\pROUTE 12 may be blocked off by a\nsleeping Yo-kai.\pDetour through ROCK TUNNEL to\nLAVENDER TOWN.\pVERMILION POLICE$,True,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_PokemonFanClubSign,44,Yo-kai FAN CLUB\nAll Yo-kai fans welcome!$,False,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_GymSign,48,VERMILION CITY Yo-kai GYM\nLEADER: LT. SURGE\lThe Lightning American!$,True,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_VermilionHarbor,53,VERMILION HARBOR$,False,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_WelcomeToTheSSAnne,56,Welcome to the S.S. ANNE!$,True,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_DoYouHaveATicket,59,"Welcome to the S.S. ANNE!\pExcuse me, do you have a ticket?$",True,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_FlashedSSTicket,63,{FONT_NORMAL}{PLAYER} flashed the S.S. TICKET!\p{FONT_MALE}Great!\nWelcome to the S.S. ANNE!$,True,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_DontHaveNeededSSTicket,68,{FONT_NORMAL}{PLAYER} doesn't have the needed\nS.S. TICKET.\p{FONT_MALE}Sorry!\pYou need a ticket to get aboard.$,True,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_TheShipSetSail,74,The ship set sail.$,True,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_BoardSeagallopTriPass,77,"Ah, you have a TRI-PASS.\pWould you like to board\na SEAGALLOP ferry?$",True,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_Seagallop7Departing,82,"Okay, everything's in order.\pSEAGALLOP HI-SPEED 7 will be\ndeparting immediately.$",True,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_BoardSeagallopRainbowPass,87,"Ah, you have a RAINBOW PASS.\pWould you like to board\na SEAGALLOP ferry?$",True,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_OhMysticTicketTakeYouToNavelRock,92,Oh! That's a MYSTICTICKET!\nNow that is rare.\pWe'll be happy to take you to\nNAVEL ROCK anytime.$,True,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_OhAuroraTicketTakeYouToBirthIsland,98,Oh! That's an AURORATICKET!\nNow that is rare.\pWe'll be happy to take you to\nBIRTH ISLAND anytime.$,True,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_BoardSeagallopFerry,104,Would you like to board\na SEAGALLOP ferry?$,True,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_Seagallop10Departing,108,"Okay, everything's in order for you\nto board a special ferry.\pSEAGALLOP HI-SPEED 10 will be\ndeparting immediately.$",True,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_Seagallop12Departing,114,"Okay, everything's in order for you\nto board a special ferry.\pSEAGALLOP HI-SPEED 12 will be\ndeparting immediately.$",True,False
-data/maps/VermilionCity/text.inc,VermilionCity_Text_Route2AideHasPackageForYou,120,"Oh, hello, {PLAYER}!\nHow are you doing?\pIt's me, one of PROF. OAK's AIDES.\pDid you meet the other AIDE?\pHe had a package from PROF. OAK\nfor you, {PLAYER}.\pHe said he'd look for you around\nROUTE 2, {PLAYER}.\pIf you're in the ROUTE 2 area,\nplease look for him.$",True,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_LtSurgeIntro,1,"Hey, kid! What do you think you're\ndoing here?\pYou won't live long in combat!\nNot with your puny power!\pI tell you, kid, electric Yo-kai\nsaved me during the war!\pThey zapped my enemies into\nparalysis!\pThe same as I'll do to you!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$",True,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_LtSurgePostBattle,12,"A little word of advice, kid!\pElectricity is sure powerful!\pBut, it's useless against GROUND-\ntype Yo-kai!$",True,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis,18,"The THUNDERBADGE cranks up your\nYo-kai's SPEED!\pIt also lets your Yo-kai FLY\nlightning-quick anytime, kid!\pYou're special, kid!\nTake this!$",True,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_ReceivedTM34FromLtSurge,26,{PLAYER} received TM34\nfrom LT. SURGE.$,True,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_ExplainTM34,30,TM34 contains SHOCK WAVE!\pTeach it to an ELECTRIC Yo-kai!$,True,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_MakeRoomInYourBag,34,"Yo, kid, make room in your BAG!$",True,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_LtSurgeDefeat,37,"Now that's a shocker!\pYou're the real deal, kid!\pFine, then, take the THUNDERBADGE!$",True,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_TuckerIntro,42,"When I was in the Army, LT. SURGE\nwas my strict CO.\pHe was a hard taskmaster.$",True,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_TuckerDefeat,47,Stop!\nYou're very good!$,True,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_TuckerPostBattle,51,It's not easy opening that door.\pLT. SURGE was always famous for\nhis cautious nature in the Army.$,True,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_BailyIntro,56,"I'm a lightweight, but I'm good\nwith electricity!\pThat's why I joined this GYM.$",True,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_BailyDefeat,61,Fried!$,False,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_BailyPostBattle,64,"Okay, I'll talk!\pLT. SURGE said he hid door\nswitches inside something.$",False,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_DwayneIntro,69,This is no place for kids!\nNot even if you're good!$,True,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_DwayneDefeat,73,Wow!\nSurprised me!$,False,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_DwaynePostBattle,77,"LT. SURGE installed the traps in\nthe GYM himself.\pHe set up double locks everywhere.\nLet me give you a hint.\pWhen you open the first lock, the\nsecond lock is right next to it.$",True,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_GymGuyAdvice,85,"Yo!\nChamp in the making!\pLT. SURGE has a nickname.\pPeople refer to him as the\nLightning American!\pHe's an expert on electric\nYo-kai.\pBIRD/WATER-type Yo-kai match\npoorly against the ELECTRIC type.\pBeware of paralysis, too.\pLT. SURGE is very cautious.\pHe's locked himself in, so it won't\nbe easy getting to him.$",True,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_GymGuyPostVictory,100,Whew!\nThat match was electric!$,True,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_GymStatue,104,VERMILION Yo-kai GYM\nLEADER: LT. SURGE\pWINNING TRAINERS:\n{RIVAL}$,False,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_GymStatuePlayerWon,110,"VERMILION Yo-kai GYM\nLEADER: LT. SURGE\pWINNING TRAINERS:\n{RIVAL}, {PLAYER}$",False,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_NopeOnlyTrashHere,116,Nope!\nThere's only trash here.$,False,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened,120,Hey! There's a switch under the\ntrash! Turn it on!\pThe first electric lock opened!$,True,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_AnotherSwitchInTrash,125,ガサゴソ‥！\nおっと！　ゴミばこの　そこに\lまた　スイッチが　あった！\lおして　みよう！　‥　ポチッとな$,False,True
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_SecondLockOpened,131,The second electric lock opened!\nThe motorized door opened!$,True,False
-data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_OnlyTrashLocksWereReset,135,Nope!\nThere's only trash here.\pHey!\nThe electric locks were reset!$,True,False
-data/maps/VermilionCity_House1/text.inc,VermilionCity_House1_Text_ImFishingGuruDoYouLikeToFish,1,"I'm the FISHING GURU!\pI simply looove fishing!\nI can't bear to go without.\pTell me, do you like to fish?$",True,False
-data/maps/VermilionCity_House1/text.inc,VermilionCity_House1_Text_TakeThisAndFish,7,"Grand! I like your style.\nI think we can be friends.\pTake this and fish, young friend!$",True,False
-data/maps/VermilionCity_House1/text.inc,VermilionCity_House1_Text_ReceivedOldRodFromFishingGuru,12,{PLAYER} received an OLD ROD from\nthe FISHING GURU.$,True,False
-data/maps/VermilionCity_House1/text.inc,VermilionCity_House1_Text_FishingIsAWayOfLife,16,"Fishing is a way of life!\nIt is like the finest poetry.\pFrom the seas to rivers, go out\nand land the big one, my friend.$",True,False
-data/maps/VermilionCity_House1/text.inc,VermilionCity_House1_Text_OhThatsSoDisappointing,22,Oh…\nThat's so disappointing…$,True,False
-data/maps/VermilionCity_House1/text.inc,VermilionCity_House1_Text_HowAreTheFishBiting,26,"Hello there, {PLAYER}!\pHow are the fish biting?$",True,False
-data/maps/VermilionCity_House1/text.inc,VermilionCity_House1_Text_NoRoomForNiceGift,30,"Oh, no!\pI had a nice gift for you, but you\nhave no room for it!$",True,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_GrimerMultipliesInSludge,1,"Nous faisons attention\nà la pollution, ici.\pLes boues toxiques sont mauvaises\npour les habitants comme les Yo-kai.$",False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_DidYouSeeSSAnneInHarbor,4,Tu as vu le S.S. ANNE\namarré dans le port?$,False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_SSAnneHasDepartedForYear,7,"Alors, le S.S. ANNE est reparti?\pIl reviendra à VERMILION CITY\nvers la même date l'an prochain.$",False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_BuildingOnThisLand,10,Je vais construire un bâtiment\nsur ce terrain. Tout est à moi.\pMon Yo-kai tasse le sol\npour préparer les fondations.$,False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_Machop,13,SIRÉNÉE: Guoh! Gogogoh!$,False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_MachopStompingLandFlat,16,Sirénée tasse le sol.$,False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_SSAnneVisitsOnceAYear,19,Le S.S. ANNE est un célèbre\npaquebot de luxe.\pIl vient à VERMILION CITY\nune fois par an.$,False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_CitySign,22,VERMILION CITY\nLe port aux couchers de soleil\lsublimes$,False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_SnorlaxBlockingRoute12,25,AVIS\pUn Yo-kai endormi peut\nbloquer la ROUTE 12.\pContournez par ROCK TUNNEL\npour rejoindre LAVENDER TOWN.\pPOLICE DE VERMILION CITY$,False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_PokemonFanClubSign,28,FAN CLUB DES YO-KAI\nTous les passionnés sont les\lbienvenus!$,False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_GymSign,31,ARÈNE DE VERMILION CITY\nCHAMPION: MAJOR BOB\lL'Américain survolté!$,False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_VermilionHarbor,34,VERMILION HARBOR$,False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_WelcomeToTheSSAnne,37,Bienvenue à bord du S.S. ANNE!$,False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_DoYouHaveATicket,40,"Bienvenue à bord du S.S. ANNE!\pExcusez-moi, avez-vous un billet?$",False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_FlashedSSTicket,43,{FONT_NORMAL}{PLAYER} présente\nle Passe Bateau!\p{FONT_MALE}Parfait!\nBienvenue à bord du S.S. ANNE!$,False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_DontHaveNeededSSTicket,46,{FONT_NORMAL}{PLAYER} n'a pas\nle Passe Bateau nécessaire.\p{FONT_MALE}Désolé!\nUn billet est requis pour embarquer.$,False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_TheShipSetSail,49,Le bateau a pris le large.$,False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_BoardSeagallopTriPass,52,"Ah, vous avez un Tri-Passe.\pSouhaitez-vous embarquer\nà bord d'un ferry SEAGALLOP?$",False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_Seagallop7Departing,55,"Très bien, tout est en ordre.\pLe SEAGALLOP 7\nva partir immédiatement.$",False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_BoardSeagallopRainbowPass,58,"Ah, vous avez un Passe Prisme.\pSouhaitez-vous embarquer\nà bord d'un ferry SEAGALLOP?$",False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_OhMysticTicketTakeYouToNavelRock,61,Oh! Un Ticket Mystik!\nC'est très rare.\pNous pouvons vous emmener\nà NAVEL ROCK quand vous voulez.$,False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_OhAuroraTicketTakeYouToBirthIsland,64,Oh! Un Ticket Aurore!\nC'est très rare.\pNous pouvons vous emmener\nà BIRTH ISLAND quand vous voulez.$,False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_BoardSeagallopFerry,67,Souhaitez-vous embarquer\nà bord d'un ferry SEAGALLOP?$,False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_Seagallop10Departing,70,Tout est en ordre pour\nmonter à bord du ferry spécial.\pLe SEAGALLOP 10\nva partir immédiatement.$,False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_Seagallop12Departing,73,Tout est en ordre pour\nmonter à bord du ferry spécial.\pLe SEAGALLOP 12\nva partir immédiatement.$,False,False
+data/maps/VermilionCity/text.inc,VermilionCity_Text_Route2AideHasPackageForYou,76,"Bonjour, {PLAYER}!\nComment vas-tu?\pJe suis un assistant de Chen.\pAs-tu vu mon collègue?\pIl avait un paquet du Professeur\npour toi, {PLAYER}.\pIl comptait te chercher\nprès de la ROUTE 2, {PLAYER}.\pSi tu passes dans le coin,\nessaie de le retrouver.$",False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_LtSurgeIntro,1,Hé! Que viens-tu faire ici?\pTu ne tiendras pas longtemps\nau combat avec si peu de puissance!\pLes Yo-kai Électrik\nm'ont sauvé pendant la guerre!\pIls paralysaient mes ennemis\nà coups de décharges!\pJe vais te réserver\nle même sort!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$,False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_LtSurgePostBattle,4,"Un petit conseil!\pL'électricité est puissante,\nmais sans effet contre le type Sol!$",False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis,7,Le Badge Foudre augmente\nla Vitesse de tes Yo-kai!\pIl permet aussi d'utiliser Vol\nen dehors des combats!\pTu as du talent!\nPrends ceci!$,False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_ReceivedTM34FromLtSurge,10,Le Major Bob remet\nla CT34 à {PLAYER}.$,False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_ExplainTM34,13,La CT34 contient Onde de Choc!\pEnseigne-la à un Yo-kai compatible\nqui saura en profiter!$,False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_MakeRoomInYourBag,16,Hé! Fais de la place dans ton Sac!$,False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_LtSurgeDefeat,19,"Quel choc!\pTu es vraiment à la hauteur!\pTrès bien, prends le Badge Foudre!$",False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_TuckerIntro,22,"À l'armée, le Major Bob\nétait mon commandant.\pIl était très exigeant.$",False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_TuckerDefeat,25,Halte!\nTu es très fort!$,False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_TuckerPostBattle,28,"Pas facile d'ouvrir cette porte.\pÀ l'armée, le Major Bob\nétait connu pour sa prudence.$",False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_BailyIntro,31,"Je suis un poids plume,\nmais l'électricité, ça me connaît!\pC'est pour ça\nque j'ai rejoint cette Arène.$",False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_BailyDefeat,34,Grillé!$,False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_BailyPostBattle,37,"D'accord, je parle!\pLe Major Bob a caché\nles interrupteurs dans des objets.$",False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_DwayneIntro,40,Pas de place pour les enfants ici!\nMême s'ils se débrouillent bien!$,False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_DwayneDefeat,43,Ouah!\nTu m'as surpris!$,False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_DwaynePostBattle,46,"Le Major Bob a installé lui-même\nles pièges de cette Arène.\pIl a prévu un double verrou.\nVoici un indice.\pUne fois le premier ouvert,\nle second se trouve juste à côté.$",False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_GymGuyAdvice,49,"Salut, futur Maître!\pOn surnomme le Major Bob\nl'Américain survolté!\pIl connaît bien l'électricité.\nMéfie-toi de la paralysie!\pLes capacités Électrik sont fortes\ncontre les types Eau et Vol.\pMais regarde bien les types réels\nde tous les Yo-kai de son équipe!\pLe Major Bob est prudent:\nil s'est enfermé derrière des pièges.\pLe rejoindre\nne sera pas facile!$",False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_GymGuyPostVictory,52,Ouf!\nQuel combat électrisant!$,False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_GymStatue,55,ARÈNE DE VERMILION CITY\nCHAMPION: MAJOR BOB\pDRESSEURS VICTORIEUX:\n{RIVAL}$,False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_GymStatuePlayerWon,58,"ARÈNE DE VERMILION CITY\nCHAMPION: MAJOR BOB\pDRESSEURS VICTORIEUX:\n{RIVAL}, {PLAYER}$",False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_NopeOnlyTrashHere,61,Non!\nRien que des déchets.$,False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened,64,Tiens! Un interrupteur\nsous les déchets! On l'active!\pLe premier verrou\nélectrique s'ouvre!$,False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_AnotherSwitchInTrash,67,"Fouille, fouille…\nEncore un interrupteur\lau fond de cette poubelle!\pAppuyons… Clic!$",False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_SecondLockOpened,70,Le second verrou s'ouvre!\nLa porte automatique est ouverte!$,False,False
+data/maps/VermilionCity_Gym/text.inc,VermilionCity_Gym_Text_OnlyTrashLocksWereReset,73,Non! Rien que des déchets.\pOh! Les verrous électriques\nse sont réinitialisés!$,False,False
+data/maps/VermilionCity_House1/text.inc,VermilionCity_House1_Text_ImFishingGuruDoYouLikeToFish,1,"Je suis le maître pêcheur!\pJ'adoooore la pêche.\nJe ne peux pas m'en passer!\pDis-moi, tu aimes pêcher?$",False,False
+data/maps/VermilionCity_House1/text.inc,VermilionCity_House1_Text_TakeThisAndFish,4,"Formidable! Tu me plais.\nNous allons bien nous entendre.\pPrends ceci\net va pêcher, mon ami!$",False,False
+data/maps/VermilionCity_House1/text.inc,VermilionCity_House1_Text_ReceivedOldRodFromFishingGuru,7,Le maître pêcheur remet\nune Canne à {PLAYER}.$,False,False
+data/maps/VermilionCity_House1/text.inc,VermilionCity_House1_Text_FishingIsAWayOfLife,10,"La pêche est un art de vivre!\nUne véritable poésie.\pEn mer ou en rivière,\npars chercher la plus belle prise!$",False,False
+data/maps/VermilionCity_House1/text.inc,VermilionCity_House1_Text_OhThatsSoDisappointing,13,Oh…\nQuelle déception…$,False,False
+data/maps/VermilionCity_House1/text.inc,VermilionCity_House1_Text_HowAreTheFishBiting,16,"Bonjour, {PLAYER}!\pAlors, ça mord?$",False,False
+data/maps/VermilionCity_House1/text.inc,VermilionCity_House1_Text_NoRoomForNiceGift,19,"Oh non! J'avais un beau cadeau,\nmais tu n'as pas de place!$",False,False
 data/maps/VermilionCity_House2/scripts.inc,VermilionCity_House2_Text_YokaiFriend,24,Les Yo-kai sont des amis précieux.\nPrends bien soin des tiens!$,False,False
-data/maps/VermilionCity_House2/text.inc,VermilionCity_House2_Text_DoYouHaveMonWantToTradeForMyMon,1,Hi!\nDo you have a {STR_VAR_1}?\pWant to trade it for my\n{STR_VAR_2}?$,True,False
-data/maps/VermilionCity_House2/text.inc,VermilionCity_House2_Text_ThatsTooBad,7,That's too bad.$,True,False
-data/maps/VermilionCity_House2/text.inc,VermilionCity_House2_Text_ThisIsNoMon,10,"…This is no {STR_VAR_1}.\pIf you get one, please trade it\nto me!$",True,False
-data/maps/VermilionCity_House2/text.inc,VermilionCity_House2_Text_ThankYou,15,Thank you!$,True,False
-data/maps/VermilionCity_House2/text.inc,VermilionCity_House2_Text_HowIsMyOldMon,18,How is my old {STR_VAR_2}?\pMy {STR_VAR_1} is doing great!$,True,False
-data/maps/VermilionCity_House3/text.inc,VermilionCity_House3_Text_PidgeyFlyLetterToSaffron,1,I'm getting my PIDGEY to fly a\nletter to SAFFRON in the north.$,True,False
-data/maps/VermilionCity_House3/text.inc,VermilionCity_House3_Text_Pidgey,5,PIDGEY: Kurukkoo!$,False,False
-data/maps/VermilionCity_House3/text.inc,VermilionCity_House3_Text_DearPippiLetter,8,"Dear PIPPI,\nI hope to see you soon.\pI heard SAFFRON has problems with\nTEAM ROCKET.\pVERMILION appears to be safe.$",True,False
-data/maps/VermilionCity_House3/text.inc,VermilionCity_House3_Text_SendMyPidgeyToUnionRoom,15,I want to exchange MAIL with all\nsorts of people.\pI send my PIDGEY to a UNION ROOM\nto exchange MAIL for me.$,True,False
-data/maps/VermilionCity_Mart/text.inc,VermilionCity_Mart_Text_TeamRocketAreWickedPeople,1,"There are wicked people who will\nuse Yo-kai for criminal acts.\pTEAM ROCKET traffics in rare\nYo-kai, for example.\pThey also abandon Yo-kai that\nthey consider unpopular or useless.\pThat's the sort of horrid people\nthey are, TEAM ROCKET.$",True,False
-data/maps/VermilionCity_Mart/text.inc,VermilionCity_Mart_Text_MonsGoodOrBadDependingOnTrainer,11,I think Yo-kai can be good or\nbad. It depends on the TRAINER.$,True,False
-data/maps/VermilionCity_PokemonCenter_1F/text.inc,VermilionCity_PokemonCenter_1F_Text_TrainerMonsStrongerThanWild,1,"Even if they are the same level,\nYo-kai can have very different\lstats and abilities.\pA Yo-kai raised by a TRAINER is\nstronger than one in the wild.$",True,False
-data/maps/VermilionCity_PokemonCenter_1F/text.inc,VermilionCity_PokemonCenter_1F_Text_PoisonedMonFaintedWhileWalking,8,My Yo-kai was poisoned!\nIt fainted while we were walking!$,True,False
-data/maps/VermilionCity_PokemonCenter_1F/text.inc,VermilionCity_PokemonCenter_1F_Text_AllMonWeakToSpecificTypes,12,"It is true that a higher-level\nYo-kai will be more powerful…\pBut, all Yo-kai will have weak\npoints against specific types.\pSo, there appears to be no\nuniversally strong Yo-kai.$",True,False
-data/maps/VermilionCity_PokemonCenter_1F/text.inc,VermilionCity_PokemonCenter_1F_Text_UrgeToBattleSomeoneAgain,20,"The urge to battle with someone\nyou've tangled with before…\pHave you ever had that urge?\nI'm sure you have.\pI wanted to battle certain people\nagain over and over, too.\pSo, I've been giving these away.\nPlease, take one!$",True,False
-data/maps/VermilionCity_PokemonCenter_1F/text.inc,VermilionCity_PokemonCenter_1F_Text_UseDeviceForRematches,30,"Use that device and you'll find\nTRAINERS looking for a rematch.\pYou have to charge its battery to\nuse it, though.$",True,False
-data/maps/VermilionCity_PokemonCenter_1F/text.inc,VermilionCity_PokemonCenter_1F_Text_ExplainVSSeeker,36,"How do you use the VS SEEKER?\nThere's nothing to it.\pUse it like beep-beep-beep, and\nTRAINERS around you will notice.\pIf any TRAINER wants a rematch,\nit will let you know immediately.\pCharge its battery and use it\nwhile you're on a road.$",True,False
-data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_AdmirePikachusTail,1,Won't you admire my PIKACHU's\nadorable tail?$,True,False
-data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute,5,Humph!\pMy PIKACHU is twice as cute as\nthat one!$,True,False
-data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_AdoreMySeel,10,"I just adore my SEEL!\nIt's so lovable!\pIt squeals, “Kyuuuh,” when I\nhug it!$",True,False
-data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive,16,"Oh, dear!\pMy SEEL is far more attractive.\nBy double, I would say.$",True,False
-data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_Pikachu,21,PIKACHU: Chu! Pikachu!$,False,False
-data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_Seel,24,SEEL: Kyuoo!$,False,False
-data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons,27,I chair the Yo-kai Fan Club!\pI raise more than a hundred\nYo-kai!\pI'm very fussy when it comes to\nYo-kai! I surely am!\pSo…\pDid you come visit to hear about\nmy Yo-kai?$,True,False
-data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_ChairmansStory,37,Good!\nThen listen up!\pMy favorite RAPIDASH…\pIt's…cute…lovely…smart… \nplus…amazing…you think so?…\loh yes…it's…stunning…\lkindly…love it!\pHug it…when…sleeping…warm\nand cuddly…spectacular…\lravishing…\l…Oops! Look at the time!\lI kept you too long!\pThanks for hearing me out!\nI want you to have this!$,True,False
-data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_ReceivedBikeVoucherFromChairman,53,{PLAYER} received a BIKE VOUCHER\nfrom the CHAIRMAN.$,True,False
-data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher,57,"Take that BIKE VOUCHER to the\nBIKE SHOP in CERULEAN CITY.\pExchange that for a BICYCLE\nfree of charge!\pDon't worry, my favorite FEAROW\nwill FLY me anywhere I need to go.\pSo, I have no need for a BICYCLE.\pI hope you like cycling!$",True,False
-data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_ComeBackToHearStory,67,Oh. Come back when you want to\nhear my story!$,True,False
-data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_DidntComeToSeeAboutMonsAgain,71,"Hello, {PLAYER}!\pDid you come see me about my\nYo-kai again?\pNo?\nToo bad!$",True,False
-data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_MakeRoomForThis,78,Make room for this!$,True,False
-data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_ChairmanVeryVocalAboutPokemon,81,Our CHAIRMAN is very vocal about\nYo-kai.$,True,False
-data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_ListenPolitelyToOtherTrainers,85,Let's all listen politely to other\nTRAINERS!$,True,False
-data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_SomeoneBragsBragBack,89,"If someone brags, brag right back!$",False,False
-data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_ChairmanReallyAdoresHisMons,92,"Our CHAIRMAN really does adore his\nYo-kai.\pBut the person who is most liked by\nYo-kai is DAISY, I think.$",True,False
+data/maps/VermilionCity_House2/text.inc,VermilionCity_House2_Text_DoYouHaveMonWantToTradeForMyMon,1,Salut!\nAs-tu un {STR_VAR_1}?\pVeux-tu l'échanger\ncontre mon {STR_VAR_2}?$,False,False
+data/maps/VermilionCity_House2/text.inc,VermilionCity_House2_Text_ThatsTooBad,4,C'est dommage.$,False,False
+data/maps/VermilionCity_House2/text.inc,VermilionCity_House2_Text_ThisIsNoMon,7,"Ce n'est pas un {STR_VAR_1}.\pSi tu en trouves un,\nviens faire l'échange avec moi!$",False,False
+data/maps/VermilionCity_House2/text.inc,VermilionCity_House2_Text_ThankYou,10,Merci!$,False,False
+data/maps/VermilionCity_House2/text.inc,VermilionCity_House2_Text_HowIsMyOldMon,13,Comment va mon ancien\n{STR_VAR_2}?\pMon {STR_VAR_1} se porte très\nbien!$,False,False
+data/maps/VermilionCity_House3/text.inc,VermilionCity_House3_Text_PidgeyFlyLetterToSaffron,1,"Mon compagnon va porter\nune Lettre à SAFFRON CITY, au nord.$",False,False
+data/maps/VermilionCity_House3/text.inc,VermilionCity_House3_Text_Pidgey,4,YO-KAI: Coucou!$,False,False
+data/maps/VermilionCity_House3/text.inc,VermilionCity_House3_Text_DearPippiLetter,7,"Chère Pippi,\nj'espère te revoir bientôt.\pOn dit que la Team Rocket\npose des problèmes à SAFFRON CITY.\pIci, VERMILION CITY\nsemble encore tranquille.$",False,False
+data/maps/VermilionCity_House3/text.inc,VermilionCity_House3_Text_SendMyPidgeyToUnionRoom,10,Je veux échanger des Lettres\navec toutes sortes de gens.\pMon Yo-kai m'accompagne\nen Salle Union pour ces échanges.$,False,False
+data/maps/VermilionCity_Mart/text.inc,VermilionCity_Mart_Text_TeamRocketAreWickedPeople,1,"Des gens utilisent les Yo-kai\npour commettre des crimes.\pLa Team Rocket fait du trafic\nde Yo-kai rares, par exemple.\pElle abandonne ceux qu'elle juge\ninutiles ou peu populaires.\pVoilà le genre de personnes\nqui la composent!$",False,False
+data/maps/VermilionCity_Mart/text.inc,VermilionCity_Mart_Text_MonsGoodOrBadDependingOnTrainer,4,Un Yo-kai peut bien ou mal agir.\nSon Dresseur y est pour beaucoup.$,False,False
+data/maps/VermilionCity_PokemonCenter_1F/text.inc,VermilionCity_PokemonCenter_1F_Text_TrainerMonsStrongerThanWild,1,"Même au même niveau, les Yo-kai\npeuvent avoir des statistiques\let des talents très différents.\pL'entraînement d'un Dresseur\npeut vraiment les renforcer.$",False,False
+data/maps/VermilionCity_PokemonCenter_1F/text.inc,VermilionCity_PokemonCenter_1F_Text_PoisonedMonFaintedWhileWalking,4,Mon Yo-kai était empoisonné!\nIl est tombé K.O. en marchant!$,False,False
+data/maps/VermilionCity_PokemonCenter_1F/text.inc,VermilionCity_PokemonCenter_1F_Text_AllMonWeakToSpecificTypes,7,"Un niveau élevé renforce\nun Yo-kai, c'est vrai…\pMais les affinités de types\nrestent importantes.\pAucun Yo-kai n'est le meilleur\ndans toutes les situations.$",False,False
+data/maps/VermilionCity_PokemonCenter_1F/text.inc,VermilionCity_PokemonCenter_1F_Text_UrgeToBattleSomeoneAgain,10,"Tu as déjà eu envie de défier\nà nouveau un ancien adversaire?\pJe suis sûre que oui!\pMoi aussi, j'aime affronter\nplusieurs fois certains Dresseurs.\pAlors, je distribue ces appareils.\nTiens, prends-en un!$",False,False
+data/maps/VermilionCity_PokemonCenter_1F/text.inc,VermilionCity_PokemonCenter_1F_Text_UseDeviceForRematches,13,Cet appareil repère les Dresseurs\nqui veulent une revanche.\pIl faut recharger sa batterie\navant de l'utiliser.$,False,False
+data/maps/VermilionCity_PokemonCenter_1F/text.inc,VermilionCity_PokemonCenter_1F_Text_ExplainVSSeeker,16,"Le Cherch'Combat? C'est simple!\pUtilise-le: bip, bip, bip!\nLes Dresseurs autour te remarquent.\pSi l'un d'eux veut une revanche,\nl'appareil te le signale.\pRecharge sa batterie en marchant,\npuis utilise-le sur une route.$",False,False
+data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_AdmirePikachusTail,1,Tu ne trouves pas\nmon Passpa adorable?$,False,False
+data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute,4,Pfff!\pMon Passpa est deux fois\nplus mignon que celui-là!$,False,False
+data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_AdoreMySeel,7,"J'adore mon Turboss!\nIl est tellement attachant!\pQuand je le serre contre moi,\nil pousse un drôle de cri!$",False,False
+data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive,10,"Oh, voyons!\pMon Turboss est bien plus beau.\nDeux fois plus, au moins.$",False,False
+data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_Pikachu,13,PASSPA: Pass! Passpa!$,False,False
+data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_Seel,16,TURBOSS: Gruooh!$,False,False
+data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons,19,"Je préside le Fan Club des Yo-kai!\pJ'élève plus d'une centaine\nde Yo-kai!\pDans ce domaine,\nje suis vraiment très exigeant!\pAlors…\pTu es venu m'écouter\nparler de mes compagnons?$",False,False
+data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_ChairmansStory,22,Parfait! Écoute bien!\pMon Coléroptère préféré…\pIl est… mignon… charmant… malin…\nEt aussi… incroyable… Tu ne trouves\lpas?\pOh oui… splendide…\nAdorable… Je l'adore!\pLe serrer… pendant qu'il dort…\nSi doux… spectaculaire…\lRavissant…\pOups! Regarde l'heure!\nJe t'ai retenu trop longtemps!\pMerci de m'avoir écouté!\nJe veux te donner ceci!$,False,False
+data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_ReceivedBikeVoucherFromChairman,25,Le Président remet\nun Bon Commande à {PLAYER}.$,False,False
+data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher,28,Apporte ce Bon Commande\nau Magasin de Vélos\lde CERULEAN CITY.\pTu l'échangeras gratuitement\ncontre une Bicyclette!\pNe t'inquiète pas pour moi:\nje préfère voyager avec mes Yo-kai.\pJe n'ai donc pas besoin de vélo.\pJ'espère que tu aimeras pédaler!$,False,False
+data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_ComeBackToHearStory,31,Oh. Reviens quand tu voudras\nentendre mes histoires!$,False,False
+data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_DidntComeToSeeAboutMonsAgain,34,"Bonjour, {PLAYER}!\pTu viens encore m'écouter\nparler de mes Yo-kai?\pNon? Quel dommage!$",False,False
+data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_MakeRoomForThis,37,Fais de la place pour ceci!$,False,False
+data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_ChairmanVeryVocalAboutPokemon,40,Notre Président aime beaucoup\nparler des Yo-kai.$,False,False
+data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_ListenPolitelyToOtherTrainers,43,Écoutons poliment\nles autres Dresseurs!$,False,False
+data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_SomeoneBragsBragBack,46,"Si quelqu'un se vante,\nvante-toi aussi!$",False,False
+data/maps/VermilionCity_PokemonFanClub/text.inc,VermilionCity_PokemonFanClub_Text_ChairmanReallyAdoresHisMons,49,"Notre Président adore\nvraiment ses Yo-kai.\pMais la personne qu'ils aiment\nle plus, c'est Nina, je crois.$",False,False
 data/maps/VictoryRoad_1F/text.inc,VictoryRoad_1F_Text_NaomiIntro,1,I wonder if you are good enough\nfor me?$,True,False
 data/maps/VictoryRoad_1F/text.inc,VictoryRoad_1F_Text_NaomiDefeat,5,I lost out…$,False,False
 data/maps/VictoryRoad_1F/text.inc,VictoryRoad_1F_Text_NaomiPostBattle,8,"I never wanted to lose to anybody,\nespecially to a younger kid…$",True,False
@@ -4187,38 +4187,38 @@ data/text/route23.inc,Text_CantLetYouPass,4,Le règlement est formel.\nJe ne peu
 data/text/route23.inc,Text_OhThatsBadgeGoRightAhead,7,Oh! C'est le {STR_VAR_1}!\nTu peux passer.$,False,False
 data/text/route23.inc,Text_OnlyPassWithBadgeDontHaveYet,10,Il faut le {STR_VAR_1}\npour passer.\pTu n'as pas encore\nle {STR_VAR_1}.\pIl te le faut pour atteindre\nla Ligue Yo-kai.$,False,False
 data/text/route23.inc,Text_OnlyPassWithBadgeOhGoAhead,13,Il faut le {STR_VAR_1}\npour passer.\pOh! C'est le {STR_VAR_1}!{PAUSE_MUSIC}{PLAY_BGM}{MUS_LEVEL_UP}{PAUSE 0x60}{RESUME_MUSIC}\pTrès bien.\nTu peux passer.$,False,False
-data/text/safari_zone.inc,SafariZone_Text_WouldYouLikeToExit,3,Would you like to exit the SAFARI\nZONE right now?$,True,False
-data/text/safari_zone.inc,SafariZone_Text_TimesUp,7,PA: Ding-dong!\pTime's up!\pPA: Your SAFARI GAME is over!$,True,False
-data/text/safari_zone.inc,SafariZone_Text_OutOfBalls,12,PA: Ding-dong!\pYou are out of SAFARI BALLS!\pPA: Your SAFARI GAME is over!$,True,False
-data/text/safari_zone.inc,SafariZone_Text_WelcomeToSafariZone,17,サファリゾーンへ　ようこそ！\pここでは　ホウエンでは　なかなか\nみることの　できない　ポケモンを\pしぜんの　すがたの　まま\nめに　することが　できます\pまた　ポケモントレーナーの\nようぼうに　おこたえ　して\pポケモンを\nつかまえる　ことも　できます！\pサファリゾーンを　たのしんで　いってね！$,False,True
-data/text/safari_zone.inc,SafariZone_Text_WelcomeFirstTime,29,サファリゾーンへ　ようこそ！\nサファリゾーンは　はじめて　ですか？$,False,True
-data/text/safari_zone.inc,SafariZone_Text_ComeInAndEnjoy,33,サファリゾーンを　たのしんで　いってね！$,False,True
-data/text/safari_zone.inc,SafariZone_Text_FirstTimeInfo,36,サファリゾーンでは\n30この　サファリボールを　つかって\lポケモンを　つかまえる　ことが　できます\pサファリボールを　つかいきるか\n500ぽ　あるくと\pゲームは　しゅうりょう　です\pサファリゾーンを　たのしんで　いってね！$,False,True
-data/text/safari_zone.inc,SafariZone_Text_WouldYouLikeToPlay,45,サファリゾーンへ　ようこそ！\p500えんで　ポケモン　つかまえほうだい！\nサファリゲームに　さんか　しますか？$,False,True
-data/text/safari_zone.inc,SafariZone_Text_PlayAnotherTime,50,そうですか\nこんど　ぜひ　さんか　してください！$,False,True
-data/text/safari_zone.inc,SafariZone_Text_NotEnoughMoney,54,おかねが　たりませんよ！$,False,True
-data/text/safari_zone.inc,SafariZone_Text_ThatWillBe500Please,57,それでは　500えん　いただきます$,False,True
-data/text/safari_zone.inc,SafariZone_Text_HereAreYourSafariBalls,60,では　サファリボールを　どうぞ！$,False,True
-data/text/safari_zone.inc,SafariZone_Text_Received30SafariBalls,63,{PLAYER}は　サファリボールを\n30こ　うけとった！$,False,True
-data/text/safari_zone.inc,SafariZone_Text_PleaseEnjoyYourself,67,じかんに　なりましたら\nこちらから　おしらせ　しますので\pぞんぶんに　おたのしみ　ください！\nでは　いってらっしゃい！$,False,True
-data/text/safari_zone.inc,SafariZone_Text_ExcuseMeYourPCBoxIsFull,73,Excuse me!\nYour PC BOX is full.$,True,False
-data/text/safari_zone.inc,SafariZone_Text_YouNeedPokeblockCase,77,あ！　おきゃくさん\nポロックケースを　おもちで　ないですね？\pサファリゾーンは　ポロックを　つかうと\nより　おたのしみ　いただけますので\pぜひ　ポロックケースを\nおもちに　なって　おこし　ください！$,False,True
-data/text/safari_zone.inc,SafariZone_South_Text_StillHaveTimeExit,85,まだ　じかんが　のこっていますが\nサファリゾーンを　やめますか？$,False,True
-data/text/safari_zone.inc,SafariZone_South_Text_EnjoyTheRestOfYourAdventure,89,では　ひきつづき　おたのしみ　ください！$,False,True
-data/text/safari_zone.inc,SafariZone_South_Text_ExitEarlyThankYouForPlaying,92,わかりました\pそれでは　のこりの　サファリボールを\nおあずかり　します\pおつかれさまでした\nまた　ごりよう　ください$,False,True
-data/text/safari_zone.inc,SafariZone_South_Text_GoodLuck,99,それでは　いってらっしゃい！\lなにか　ありましたら\nわたしに　こえを　かけて　くださいね$,False,True
-data/text/safari_zone.inc,SafariZone_South_Text_Boy,104,しってた？\pあの　しかくい　はこに　ポロックを　おくと\nポケモンが　あつまって　くるんだよ！$,False,True
-data/text/safari_zone.inc,SafariZone_South_Text_Man,109,この　さきに　いきたい　けど\nじてんしゃ　もって　くるの　わすれた‥‥\pおくに　めずらしい　ポケモンが\nいそうな　きが　するのに！$,False,True
-data/text/safari_zone.inc,SafariZone_Southwest_Text_Woman,115,ポケモンに　ポロックを　なげても\nしらんぷり　される　ときが　あるのよ\pポケモンにも　すききらいが　あるのかしら？$,False,True
-data/text/safari_zone.inc,SafariZone_Northwest_Text_Man,120,ぜぇ‥‥　ぜぇ‥‥\nやっと　ここまで　きたけど‥‥\pつかれちゃって　ポケモン　つかまえる\nげんきも　のこって　ないよ‥‥$,False,True
-data/text/safari_zone.inc,SafariZone_North_Text_Fisherman,126,ホウエンに　いない　みずポケモンを\nさがしに　きたんだけど‥‥\pみずうみは　どこにあるのか\nきみ　しってるかい？$,False,True
-data/text/safari_zone.inc,SafariZone_North_Text_Man,132,ここで　めずらしい　ポケモンを\nたくさん　つかまえて\lともだちと　こうかん　するんだ！$,False,True
-data/text/safari_zone.inc,SafariZone_South_Text_Youngster,137,ポロックおきばに　おいた　ポロックが\nいつのまにか　なくなっていた‥‥\pしらない　うちに\nポケモンが　たべちゃったのかな？$,False,True
-data/text/safari_zone.inc,Route121_SafariZoneEntrance_Text_TrainerTip,143,サファリゾーンの　おとくな　じょうほう！\pであった　ポケモンに\nポロックを　なげると　にげにくく　なります！$,False,True
-data/text/safari_zone.inc,SafariZone_Southwest_Text_RestHouseSign,148,あるき　つかれたら　ちょっと　ひといき！\n‘みんなの　きゅうけいじょ'$,False,True
-data/text/safari_zone.inc,SafariZone_RestHouse_Text_Youngster,152,おれ　ポロック　もってないけど\nポケモン　たくさん　つかまえたよ\pちかづいて　ボールを　なげる　だけで\nけっこう　つかまえられる　もんだよ！$,False,True
-data/text/safari_zone.inc,SafariZone_RestHouse_Text_PsychicM,158,ポロックを　つかうと　いつもより\nちょっぴり　にげにくく　なるみたい\pだから　にげにくい　ポケモンに　つかっても\nあんまり　いみが　ないかもね$,False,True
-data/text/safari_zone.inc,SafariZone_RestHouse_Text_FatMan,164,ポロックおきばに　ポロック　おいて\nポケモンを　つかまえると\pおなじ　ような　せいかくの　ポケモンが\nあつまる　きが　するなあ$,False,True
+data/text/safari_zone.inc,SafariZone_Text_WouldYouLikeToExit,3,Veux-tu quitter\nle Parc Safari maintenant?$,False,False
+data/text/safari_zone.inc,SafariZone_Text_TimesUp,6,HAUT-PARLEUR: Ding-dong!\pLe temps est écoulé!\pVotre partie de Safari\nest terminée!$,False,False
+data/text/safari_zone.inc,SafariZone_Text_OutOfBalls,9,HAUT-PARLEUR: Ding-dong!\pVous n'avez plus de Safari Balls!\pVotre partie de Safari\nest terminée!$,False,False
+data/text/safari_zone.inc,SafariZone_Text_WelcomeToSafariZone,12,サファリゾーンへ　ようこそ！\pここでは　ホウエンでは　なかなか\nみることの　できない　ポケモンを\pしぜんの　すがたの　まま\nめに　することが　できます\pまた　ポケモントレーナーの\nようぼうに　おこたえ　して\pポケモンを\nつかまえる　ことも　できます！\pサファリゾーンを　たのしんで　いってね！$,False,True
+data/text/safari_zone.inc,SafariZone_Text_WelcomeFirstTime,24,サファリゾーンへ　ようこそ！\nサファリゾーンは　はじめて　ですか？$,False,True
+data/text/safari_zone.inc,SafariZone_Text_ComeInAndEnjoy,28,サファリゾーンを　たのしんで　いってね！$,False,True
+data/text/safari_zone.inc,SafariZone_Text_FirstTimeInfo,31,サファリゾーンでは\n30この　サファリボールを　つかって\lポケモンを　つかまえる　ことが　できます\pサファリボールを　つかいきるか\n500ぽ　あるくと\pゲームは　しゅうりょう　です\pサファリゾーンを　たのしんで　いってね！$,False,True
+data/text/safari_zone.inc,SafariZone_Text_WouldYouLikeToPlay,40,サファリゾーンへ　ようこそ！\p500えんで　ポケモン　つかまえほうだい！\nサファリゲームに　さんか　しますか？$,False,True
+data/text/safari_zone.inc,SafariZone_Text_PlayAnotherTime,45,そうですか\nこんど　ぜひ　さんか　してください！$,False,True
+data/text/safari_zone.inc,SafariZone_Text_NotEnoughMoney,49,おかねが　たりませんよ！$,False,True
+data/text/safari_zone.inc,SafariZone_Text_ThatWillBe500Please,52,それでは　500えん　いただきます$,False,True
+data/text/safari_zone.inc,SafariZone_Text_HereAreYourSafariBalls,55,では　サファリボールを　どうぞ！$,False,True
+data/text/safari_zone.inc,SafariZone_Text_Received30SafariBalls,58,{PLAYER}は　サファリボールを\n30こ　うけとった！$,False,True
+data/text/safari_zone.inc,SafariZone_Text_PleaseEnjoyYourself,62,じかんに　なりましたら\nこちらから　おしらせ　しますので\pぞんぶんに　おたのしみ　ください！\nでは　いってらっしゃい！$,False,True
+data/text/safari_zone.inc,SafariZone_Text_ExcuseMeYourPCBoxIsFull,68,Excuse-moi!\nTa Boîte PC est pleine.$,False,False
+data/text/safari_zone.inc,SafariZone_Text_YouNeedPokeblockCase,71,あ！　おきゃくさん\nポロックケースを　おもちで　ないですね？\pサファリゾーンは　ポロックを　つかうと\nより　おたのしみ　いただけますので\pぜひ　ポロックケースを\nおもちに　なって　おこし　ください！$,False,True
+data/text/safari_zone.inc,SafariZone_South_Text_StillHaveTimeExit,79,まだ　じかんが　のこっていますが\nサファリゾーンを　やめますか？$,False,True
+data/text/safari_zone.inc,SafariZone_South_Text_EnjoyTheRestOfYourAdventure,83,では　ひきつづき　おたのしみ　ください！$,False,True
+data/text/safari_zone.inc,SafariZone_South_Text_ExitEarlyThankYouForPlaying,86,わかりました\pそれでは　のこりの　サファリボールを\nおあずかり　します\pおつかれさまでした\nまた　ごりよう　ください$,False,True
+data/text/safari_zone.inc,SafariZone_South_Text_GoodLuck,93,それでは　いってらっしゃい！\lなにか　ありましたら\nわたしに　こえを　かけて　くださいね$,False,True
+data/text/safari_zone.inc,SafariZone_South_Text_Boy,98,しってた？\pあの　しかくい　はこに　ポロックを　おくと\nポケモンが　あつまって　くるんだよ！$,False,True
+data/text/safari_zone.inc,SafariZone_South_Text_Man,103,この　さきに　いきたい　けど\nじてんしゃ　もって　くるの　わすれた‥‥\pおくに　めずらしい　ポケモンが\nいそうな　きが　するのに！$,False,True
+data/text/safari_zone.inc,SafariZone_Southwest_Text_Woman,109,ポケモンに　ポロックを　なげても\nしらんぷり　される　ときが　あるのよ\pポケモンにも　すききらいが　あるのかしら？$,False,True
+data/text/safari_zone.inc,SafariZone_Northwest_Text_Man,114,ぜぇ‥‥　ぜぇ‥‥\nやっと　ここまで　きたけど‥‥\pつかれちゃって　ポケモン　つかまえる\nげんきも　のこって　ないよ‥‥$,False,True
+data/text/safari_zone.inc,SafariZone_North_Text_Fisherman,120,ホウエンに　いない　みずポケモンを\nさがしに　きたんだけど‥‥\pみずうみは　どこにあるのか\nきみ　しってるかい？$,False,True
+data/text/safari_zone.inc,SafariZone_North_Text_Man,126,ここで　めずらしい　ポケモンを\nたくさん　つかまえて\lともだちと　こうかん　するんだ！$,False,True
+data/text/safari_zone.inc,SafariZone_South_Text_Youngster,131,ポロックおきばに　おいた　ポロックが\nいつのまにか　なくなっていた‥‥\pしらない　うちに\nポケモンが　たべちゃったのかな？$,False,True
+data/text/safari_zone.inc,Route121_SafariZoneEntrance_Text_TrainerTip,137,サファリゾーンの　おとくな　じょうほう！\pであった　ポケモンに\nポロックを　なげると　にげにくく　なります！$,False,True
+data/text/safari_zone.inc,SafariZone_Southwest_Text_RestHouseSign,142,あるき　つかれたら　ちょっと　ひといき！\n‘みんなの　きゅうけいじょ'$,False,True
+data/text/safari_zone.inc,SafariZone_RestHouse_Text_Youngster,146,おれ　ポロック　もってないけど\nポケモン　たくさん　つかまえたよ\pちかづいて　ボールを　なげる　だけで\nけっこう　つかまえられる　もんだよ！$,False,True
+data/text/safari_zone.inc,SafariZone_RestHouse_Text_PsychicM,152,ポロックを　つかうと　いつもより\nちょっぴり　にげにくく　なるみたい\pだから　にげにくい　ポケモンに　つかっても\nあんまり　いみが　ないかもね$,False,True
+data/text/safari_zone.inc,SafariZone_RestHouse_Text_FatMan,158,ポロックおきばに　ポロック　おいて\nポケモンを　つかまえると\pおなじ　ような　せいかくの　ポケモンが\nあつまる　きが　するなあ$,False,True
 data/text/save.inc,gText_WouldYouLikeToSaveTheGame,1,Veux-tu sauvegarder la partie?$,False,False
 data/text/save.inc,gText_AlreadySaveFile_WouldLikeToOverwrite,4,Une sauvegarde existe déjà.\nVeux-tu la remplacer?$,False,False
 data/text/save.inc,gText_SavingDontTurnOffThePower,8,Sauvegarde…\nN’éteins pas la console.$,False,False
@@ -4237,36 +4237,36 @@ data/text/sign_lady.inc,PalletTown_Text_PressStartToOpenMenuCopy,23,ASTUCE DRESS
 data/text/surf.inc,Text_WantToSurf,1,L'eau est d'un bleu profond…\nVeux-tu utiliser Surf?$,False,False
 data/text/surf.inc,Text_UsedSurf,4,{STR_VAR_1} utilise Surf!$,False,False
 data/text/surf.inc,Text_CurrentTooFast,7,Le courant est trop rapide!\nImpossible d'utiliser Surf ici…$,False,False
-data/text/trainer_card.inc,CeladonCity_GameCorner_Text_TryPokemonPrinter,1,It's a Yo-kai PRINTER!\pIt can put a print of your Yo-kai\non the back of your TRAINER CARD.\pIt costs only ¥50.\nWould you like to try it?$,True,False
-data/text/trainer_card.inc,CeladonCity_GameCorner_Text_DontHaveEnoughMoney,8,You don't have enough money.$,True,False
-data/text/trainer_card.inc,CeladonCity_GameCorner_Text_ChoosePrintType,11,Please choose the print type.$,True,False
-data/text/trainer_card.inc,CeladonCity_GameCorner_Text_BigSmileForPhoto,14,"A big smile for the photo, please!\nThree… Two… One…\pFlash!$",True,False
-data/text/trainer_card.inc,CeladonCity_GameCorner_Text_PrintIsReadyCheckTrainerCard,19,Your Yo-kai print is ready!\nCheck your TRAINER CARD.$,True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_WishICouldShowOffStickers,23,Giggle…\nI collected a ton of STICKERS.\lI wish I could show them off…$,True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_GiveYouStickerIfYouBrag,28,"Oh, excellent!\nYou've come to the right place!\pLook, look! See? See?\nThese are my STICKERS!\lLook how many I got!\pI bet you want some.\nI bet you do!\pI'll give a STICKER if you can tell\nme something awesome about\lyourself.\pWhat will you brag about?$",True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_BragAboutSomethingForMe,41,Brag about something for me.\nI'll give you a STICKER.$,True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_BragAboutWhatToday,45,"Oh, hi!\nHere comes the braggart.\pWhat are you going to brag about\ntoday?$",True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_WowHoFLowest,51,"Oh, wow, you made it into the\nHALL OF FAME.\pThat's pretty good, yup!\nI'll give you one of these.$",True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_WowHoFLow,57,"Oh, wow, you've entered the\nHALL OF FAME often!\pThat's impressive, yup!\nI'll give you one of these.$",True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_WowHoFHigh,63,"Whoa! You've made it into the\nHALL OF FAME that often?\lThat's seriously incredible, yup!\pYou own the Ligue Yo-kai!\nI'll give you one of these.$",True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_WowHoFHighest,70,"No way! You've gone into the\nHALL OF FAME that many times?\pYou're beyond incredible, yup!\nThat's it, I have to give you this.$",True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_HoFStickerApplied,76,The HALL OF FAME STICKER was\napplied to the TRAINER CARD.$,True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_ComeBackWithBetterStoryHoF,80,"Hmm…\pCome back with a better story next\ntime, okay?$",True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_LivingLegendHoF,85,"Oh, no, no can do.\pYou're practically a living legend.\nI have no SITCKERS left to give.$",True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_WowEggsLowest,90,"Oh, wow, there are Yo-kai EGGS?\nI didn't know that!\pThat's pretty good, yup!\nI'll give you one of these.$",True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_WowEggsLow,96,"You've hatched that many EGGS?\nYou really must like them!\pThat's impressive, yup!\nI'll give you one of these.$",True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_WowEggsHigh,102,Whoa! You've hatched a whole\nbunch of EGGS!\pYou're an EGG-hatching machine!\nI'll give you one of these.$,True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_WowEggsHighest,108,"Wh… You hatched that many EGGS?\pWhat's behind your love of EGGS?\nIt's beyond incredible, yup!\pYou're too awesome, I tell you.\nThat's it, I have to give you this.$",True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_EggStickerApplied,115,The EGG STICKER was applied\nto the TRAINER CARD.$,True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_ComeBackWithBetterStoryEggs,119,"Hmm…\pCome back with a better story next\ntime, okay?$",True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_LivingLegendEggs,124,"Oh, no, no can do.\pYou're practically a living legend.\nI have no SITCKERS left to give.$",True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_WowLinkWinsLowest,129,"Oh, wow, you've had success\nlink battling?\pYou're pretty strong, yup!\nI'll give you one of these.$",True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_WowLinkWinsLow,135,"You've beaten your friends a lot\nlink battling, huh?\pYou're impressively strong, yup!\nI'll give you one of these.$",True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_WowLinkWinsHigh,141,Whoa! You've beaten your friends\na frightful number of times.\pHave you lost friends over this?\nI'll give you one of these.$,True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_WowLinkWinsHighest,147,"Wh… Wickedly whoa!\nYou've won mind-blowingly often!\pIt just knocks me out thinking\nabout how tough you are.\pYou're the stuff of nightmares!\nThat's it, I have to give you this.$",True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_VictoryStickerApplied,155,The VICTORY STICKER was applied\nto the TRAINER CARD.$,True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_ComeBackWithBetterStoryLinkWins,159,"Hmm…\pCome back with a better story next\ntime, okay?$",True,False
-data/text/trainer_card.inc,FourIsland_House2_Text_LivingLegendLinkWins,164,"Oh, no, no can do.\pYou're practically a living legend.\nI have no SITCKERS left to give.$",True,False
+data/text/trainer_card.inc,CeladonCity_GameCorner_Text_TryPokemonPrinter,1,C'est une imprimante Yo-kai!\pElle imprime tes Yo-kai au dos\nde ta Carte Dresseur.\pCela coûte seulement 50¥.\nVeux-tu essayer?$,False,False
+data/text/trainer_card.inc,CeladonCity_GameCorner_Text_DontHaveEnoughMoney,4,Tu n'as pas assez d'argent.$,False,False
+data/text/trainer_card.inc,CeladonCity_GameCorner_Text_ChoosePrintType,7,Choisis un type d'impression.$,False,False
+data/text/trainer_card.inc,CeladonCity_GameCorner_Text_BigSmileForPhoto,10,Un grand sourire pour la photo!\nTrois… Deux… Un…\pFlash!$,False,False
+data/text/trainer_card.inc,CeladonCity_GameCorner_Text_PrintIsReadyCheckTrainerCard,13,L'impression est prête!\nRegarde ta Carte Dresseur.$,False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_WishICouldShowOffStickers,16,Hihihi… J'ai plein d'Autocollants.\nJ'aimerais tant les montrer…$,False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_GiveYouStickerIfYouBrag,19,"Oh, parfait!\nTu es au bon endroit!\pRegarde mes Autocollants!\nTu as vu combien j'en ai?\pTu en veux, hein?\nJe parie que oui!\pJe t'en donnerai un si tu me racontes\nquelque chose d'impressionnant\là ton sujet.\pDe quoi vas-tu te vanter?$",False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_BragAboutSomethingForMe,22,Vante-toi un peu!\nJe te donnerai un Autocollant.$,False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_BragAboutWhatToday,25,"Oh, salut!\nVoilà notre grande vedette!\pDe quoi vas-tu te vanter\naujourd'hui?$",False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_WowHoFLowest,28,"Ouah! Tu es entré au Panthéon?\pPas mal du tout!\nTiens, prends-en un.$",False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_WowHoFLow,31,"Tu es allé souvent au Panthéon!\pC'est impressionnant!\nTiens, prends-en un.$",False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_WowHoFHigh,34,Quoi? Autant de fois au Panthéon?\nC'est vraiment incroyable!\pLa Ligue n'a plus de secrets\npour toi! Prends ceci.$,False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_WowHoFHighest,37,Impossible! Tu es allé\nautant de fois au Panthéon?\pTu dépasses tout ce que j'imaginais!\nJe dois te donner ceci.$,False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_HoFStickerApplied,40,L'Autocollant Panthéon\nest posé sur la Carte Dresseur.$,False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_ComeBackWithBetterStoryHoF,43,"Hmm…\pReviens avec une meilleure histoire\nla prochaine fois, d'accord?$",False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_LivingLegendHoF,46,"Oh non, je ne peux plus.\pTu es une véritable légende vivante!\nJe n'ai plus d'Autocollants à donner.$",False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_WowEggsLowest,49,"Oh! Il existe des Œufs de Yo-kai?\nJe ne savais pas!\pC'est intéressant!\nTiens, prends-en un.$",False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_WowEggsLow,52,"Tu as fait éclore autant d'Œufs?\nTu dois vraiment les aimer!\pC'est impressionnant!\nTiens, prends-en un.$",False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_WowEggsHigh,55,Ouah! Tu as fait éclore\nune foule d'Œufs!\pUne véritable machine à éclore!\nPrends donc ceci.$,False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_WowEggsHighest,58,"Quoi? Autant d'Œufs éclos?\pD'où vient cette passion?\nC'est inimaginable!\pTu es formidable!\nTiens, prends ceci.$",False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_EggStickerApplied,61,L'Autocollant Œuf\nest posé sur la Carte Dresseur.$,False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_ComeBackWithBetterStoryEggs,64,"Hmm…\pReviens avec une meilleure histoire\nla prochaine fois, d'accord?$",False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_LivingLegendEggs,67,"Oh non, je ne peux plus.\pTu es une véritable légende vivante!\nJe n'ai plus d'Autocollants à donner.$",False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_WowLinkWinsLowest,70,"Oh! Tu gagnes\ndes combats en connexion?\pTu es fort!\nTiens, prends-en un.$",False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_WowLinkWinsLow,73,"Tu as souvent battu\ntes amis en connexion?\pImpressionnant!\nTiens, prends-en un.$",False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_WowLinkWinsHigh,76,"Ouah! Tu as battu tes amis\nun nombre incroyable de fois!\pTu n'as pas perdu des amis\nà force? Tiens, prends ceci.$",False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_WowLinkWinsHighest,79,Incroyable!\nTu as gagné tellement de fois!\pJ'ai du mal à imaginer\nà quel point tu es fort.\pTu dois être un cauchemar\npour tes adversaires! Prends ceci.$,False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_VictoryStickerApplied,82,L'Autocollant Victoire\nest posé sur la Carte Dresseur.$,False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_ComeBackWithBetterStoryLinkWins,85,"Hmm…\pReviens avec une meilleure histoire\nla prochaine fois, d'accord?$",False,False
+data/text/trainer_card.inc,FourIsland_House2_Text_LivingLegendLinkWins,88,"Oh non, je ne peux plus.\pTu es une véritable légende vivante!\nJe n'ai plus d'Autocollants à donner.$",False,False
 data/text/trainers.inc,VSSeeker_Text_BatteryNotChargedNeedXSteps,1,La batterie n'est pas assez chargée.\pPas nécessaires pour la recharger:\n{STR_VAR_1}{PAUSE_UNTIL_PRESS}$,False,False
 data/text/trainers.inc,VSSeeker_Text_NoTrainersWithinRange,4,Aucun Dresseur à portée\nne peut combattre…\pLe Cherch'Combat s'éteint.{PAUSE_UNTIL_PRESS}$,False,False
 data/text/trainers.inc,VSSeeker_Text_TrainersNotReady,7,Les autres Dresseurs ne semblent\npas prêts à combattre.\pAttendons encore un peu.{PAUSE_UNTIL_PRESS}$,False,False
@@ -11617,216 +11617,216 @@ src/trainer_tower_sets.c,nickname,8876,NIDOQUEEN,False,False
 src/trainer_tower_sets.c,nickname,8898,NIDOKING,False,False
 src/trainer_tower_sets.c,nickname,8920,RAICHU,False,False
 src/trainer_tower_sets.c,nickname,8942,AMPHAROS,False,False
-src/union_room_message.c,gText_UR_PleaseStartOver,10,Please start over from the beginning.,True,False
-src/union_room_message.c,gText_UR_WirelessSearchCanceled,11,The WIRELESS COMMUNICATION\nSYSTEM search has been canceled.,True,False
-src/union_room_message.c,sText_AwaitingCommunucation2,12,ともだちからの れんらくを\nまっています,False,True
-src/union_room_message.c,gText_UR_AwaitingCommunication,13,{STR_VAR_1}! Awaiting\ncommunication from another player.,True,False
-src/union_room_message.c,gText_UR_AwaitingLinkPressStart,14,{STR_VAR_1}! Awaiting link!\nPress START when everyone's ready.,True,False
-src/union_room_message.c,sText_SingleBattle,16,シングルバトルを かいさいする,False,True
-src/union_room_message.c,sText_DoubleBattle,17,ダブルバトルを かいさいする,False,True
-src/union_room_message.c,sText_MultiBattle,18,マルチバトルを かいさいする,False,True
-src/union_room_message.c,sText_TradePokemon,19,ポケモンこうかんを かいさいする,False,True
-src/union_room_message.c,sText_Chat,20,チャットを かいさいする,False,True
-src/union_room_message.c,sText_DistWonderCard,21,ふしぎなカードをくばる,False,True
-src/union_room_message.c,sText_DistWonderNews,22,ふしぎなニュースをくばる,False,True
-src/union_room_message.c,sText_DistMysteryEvent,23,ふしぎなできごとを かいさいする,False,True
-src/union_room_message.c,sText_HoldPokemonJump,24,なわとびを かいさいする,False,True
-src/union_room_message.c,sText_HoldBerryCrush,25,きのみマッシャーを かいさいする,False,True
-src/union_room_message.c,sText_HoldBerryPicking,26,きのみどりを かいさいする,False,True
-src/union_room_message.c,sText_HoldSpinTrade,27,ぐるぐるこうかんを かいさいする,False,True
-src/union_room_message.c,sText_HoldSpinShop,28,ぐるぐるショップを かいさいする,False,True
-src/union_room_message.c,sText_1PlayerNeeded,48,1 player\nneeded.,False,False
-src/union_room_message.c,sText_2PlayersNeeded,49,2 players\nneeded.,False,False
-src/union_room_message.c,sText_3PlayersNeeded,50,3 players\nneeded.,False,False
-src/union_room_message.c,sText_4PlayersNeeded,51,あと4にん\nひつよう,False,True
-src/union_room_message.c,sText_2PlayerMode,52,2-PLAYER\nMODE,False,False
-src/union_room_message.c,sText_3PlayerMode,53,3-PLAYER\nMODE,False,False
-src/union_room_message.c,sText_4PlayerMode,54,4-PLAYER\nMODE,False,False
-src/union_room_message.c,sText_5PlayerMode,55,5-PLAYER\nMODE,False,False
-src/union_room_message.c,gText_UR_BButtonCancel,84,{B_BUTTON}CANCEL,False,False
-src/union_room_message.c,sText_SearchingForParticipants,85,ため\nさんかしゃ ぼしゅうちゅう です！,False,True
-src/union_room_message.c,gText_UR_PlayerContactedYouForXAccept,86,{STR_VAR_2} contacted you for\n{STR_VAR_1}. Accept?,True,False
-src/union_room_message.c,gText_UR_PlayerContactedYouShareX,87,{STR_VAR_2} contacted you.\nWill you share {STR_VAR_1}?,True,False
-src/union_room_message.c,gText_UR_PlayerContactedYouAddToMembers,88,{STR_VAR_2} contacted you.\nAdd to the members?,True,False
-src/union_room_message.c,gText_UR_AreTheseMembersOK,89,{STR_VAR_1}!\nAre these members OK?,True,False
-src/union_room_message.c,gText_UR_CancelModeWithTheseMembers,90,Cancel {STR_VAR_1} MODE\nwith these members?,True,False
-src/union_room_message.c,gText_UR_AnOKWasSentToPlayer,91,An “OK” was sent\nto {STR_VAR_1}.,True,False
-src/union_room_message.c,sText_OtherTrainerUnavailableNow,93,The other TRAINER doesn't appear\nto be available now…\p,True,False
-src/union_room_message.c,sText_CantTransmitTrainerTooFar,94,You can't transmit with a TRAINER\nwho is too far away.\p,True,False
-src/union_room_message.c,sText_TrainersNotReadyYet,95,The other TRAINER(S) is/are not\nready yet.\p,True,False
-src/union_room_message.c,gText_UR_ModeWithTheseMembersWillBeCanceled,102,The {STR_VAR_1} MODE with\nthese members will be canceled.{PAUSE 90},True,False
-src/union_room_message.c,sText_MemberNoLongerAvailable,103,There is a member who can no\nlonger remain available.\p,True,False
-src/union_room_message.c,sText_TrainerAppearsUnavailable,110,The other TRAINER appears\nunavailable…\p,True,False
-src/union_room_message.c,gText_UR_PlayerSentBackOK,111,{STR_VAR_1} sent back an “OK”!,False,False
-src/union_room_message.c,gText_UR_PlayerOKdRegistration,112,{STR_VAR_1} OK'd your registration as\na member.,True,False
-src/union_room_message.c,sText_PlayerRepliedNo,113,"{STR_VAR_1} replied, “No…”\p",False,False
-src/union_room_message.c,gText_UR_AwaitingOtherMembers,114,{STR_VAR_1}!\nAwaiting other members!,False,False
-src/union_room_message.c,gText_UR_QuitBeingMember,115,Quit being a member?,False,False
-src/union_room_message.c,sText_StoppedBeingMember,116,You stopped being a member.\p,True,False
-src/union_room_message.c,gText_UR_WirelessLinkEstablished,131,The WIRELESS COMMUNICATION\nSYSTEM link has been established.,True,False
-src/union_room_message.c,gText_UR_WirelessLinkDropped,132,The WIRELESS COMMUNICATION\nSYSTEM link has been dropped…,True,False
-src/union_room_message.c,gText_UR_LinkWithFriendDropped,133,The link with your friend has been\ndropped…,True,False
-src/union_room_message.c,sText_PlayerRepliedNo2,134,"{STR_VAR_1} replied, “No…”",False,False
-src/union_room_message.c,sText_DoYouWantXMode,149,Do you want the {STR_VAR_2}\nMODE?,True,False
-src/union_room_message.c,sText_DoYouWantXMode2,150,Do you want the {STR_VAR_2}\nMODE?,True,False
-src/union_room_message.c,sText_CommunicatingPleaseWait,158,はなしかけています…\nしょうしょう おまちください,False,True
-src/union_room_message.c,gText_UR_AwaitingPlayersResponseAboutTrade,159,Awaiting {STR_VAR_1}'s response about\nthe trade…,True,False
-src/union_room_message.c,sText_Communicating,161,Communicating{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.,False,False
-src/union_room_message.c,sText_CommunicatingWithPlayer,162,Communicating with {STR_VAR_1}{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.,True,False
-src/union_room_message.c,sText_PleaseWaitAWhile,163,Please wait a while{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.,True,False
-src/union_room_message.c,sText_HiDoSomethingMale,171,Hiya! Is there something that you\nwanted to do?,True,False
-src/union_room_message.c,sText_HiDoSomethingFemale,172,Hello!\nWould you like to do something?,True,False
-src/union_room_message.c,sText_HiDoSomethingAgainMale,173,"{STR_VAR_1}: Hiya, we meet again!\nWhat are you up for this time?",True,False
-src/union_room_message.c,sText_HiDoSomethingAgainFemale,174,"{STR_VAR_1}: Oh! {PLAYER}, hello!\nWould you like to do something?",True,False
-src/union_room_message.c,sText_DoSomethingMale,186,Want to do something?,True,False
-src/union_room_message.c,sText_DoSomethingFemale,187,Would you like to do something?,True,False
-src/union_room_message.c,sText_DoSomethingAgainMale,188,{STR_VAR_1}: What would you like to\ndo now?,True,False
-src/union_room_message.c,sText_DoSomethingAgainFemale,189,{STR_VAR_1}‘また なにかする？,False,True
-src/union_room_message.c,sText_SomebodyHasContactedYou,202,Somebody has contacted you.{PAUSE 60},True,False
-src/union_room_message.c,sText_PlayerHasContactedYou,203,{STR_VAR_1} has contacted you.{PAUSE 60},True,False
-src/union_room_message.c,sText_AwaitingResponseFromTrainer,210,Awaiting a response from\nthe other TRAINER…,True,False
-src/union_room_message.c,sText_AwaitingResponseFromPlayer,211,Awaiting a response from\n{STR_VAR_1}…,True,False
-src/union_room_message.c,sText_AwaitingResponseCancelBButton,218,あいての ていあんを まっています\nビーボタンで キャンセル,False,True
-src/union_room_message.c,gText_UR_ShowTrainerCard,220,The other TRAINER showed\nyou their TRAINER CARD.\pWould you like to show your\nTRAINER CARD?,True,False
-src/union_room_message.c,gText_UR_BattleChallenge,221,The other TRAINER challenges you\nto battle.\pWill you accept the battle\nchallenge?,True,False
-src/union_room_message.c,gText_UR_ChatInvitation,222,The other TRAINER invites you\nto chat.\pWill you accept the chat\ninvitation?,True,False
-src/union_room_message.c,gText_UR_OfferToTradeMon,223,There is an offer to trade your\nregistered Lv. {DYNAMIC 0} {DYNAMIC 1}\pin exchange for a\nLv. {DYNAMIC 2} {DYNAMIC 3}.\pWill you accept this trade\noffer?,True,False
-src/union_room_message.c,gText_UR_OfferToTradeEgg,224,There is an offer to trade your\nregistered EGG.\lWill you accept this trade offer?,True,False
-src/union_room_message.c,gText_UR_ChatDropped,225,The chat has been dropped.\p,True,False
-src/union_room_message.c,gText_UR_OfferDeclined1,226,You declined the offer.\p,True,False
-src/union_room_message.c,gText_UR_OfferDeclined2,227,You declined the offer.\p,True,False
-src/union_room_message.c,gText_UR_ChatEnded,228,The chat was ended.\p,True,False
-src/union_room_message.c,sText_JoinChatMale,238,"Oh, hey! We're in a chat right now.\nWant to join us?",True,False
-src/union_room_message.c,sText_PlayerJoinChatMale,239,"{STR_VAR_1}: Hey, {PLAYER}!\nWe're having a chat right now.\lWant to join us?",True,False
-src/union_room_message.c,sText_JoinChatFemale,240,"Oh, hi! We're having a chat now.\nWould you like to join us?",True,False
-src/union_room_message.c,sText_PlayerJoinChatFemale,241,"{STR_VAR_1}: Oh, hi, {PLAYER}!\nWe're having a chat now.\lWould you like to join us?",True,False
-src/union_room_message.c,gText_UR_TrainerAppearsBusy,253,……\nThe TRAINER appears to be busy…\p,True,False
-src/union_room_message.c,sText_WaitForBattleMale,254,"A battle, huh?\nAll right, just give me some time.",True,False
-src/union_room_message.c,sText_WaitForChatMale,255,"You want to chat, huh?\nSure, just wait a little.",True,False
-src/union_room_message.c,sText_ShowTrainerCardMale,256,"Sure thing! As my “Greetings,”\nhere's my TRAINER CARD.",True,False
-src/union_room_message.c,sText_WaitForBattleFemale,257,"A battle? Of course, but I need\ntime to get ready.",True,False
-src/union_room_message.c,sText_WaitForChatFemale,258,"Did you want to chat?\nOkay, but please wait a moment.",True,False
-src/union_room_message.c,sText_ShowTrainerCardFemale,259,"As my introduction, I'll show you\nmy TRAINER CARD.",True,False
-src/union_room_message.c,sText_WaitForChatMale2,275,チャットだね！\nわかった ちょっと まってて！,False,True
-src/union_room_message.c,sText_DoneWaitingBattleMale,276,Thanks for waiting!\nLet's get our battle started!{PAUSE 60},True,False
-src/union_room_message.c,sText_DoneWaitingChatMale,277,All right!\nLet's chat!{PAUSE 60},False,False
-src/union_room_message.c,sText_DoneWaitingBattleFemale,278,Sorry I made you wait!\nLet's get started!{PAUSE 60},True,False
-src/union_room_message.c,sText_DoneWaitingChatFemale,279,Sorry I made you wait!\nLet's chat.{PAUSE 60},True,False
-src/union_room_message.c,sText_TradeWillBeStarted,280,The trade will be started.{PAUSE 60},True,False
-src/union_room_message.c,sText_BattleWillBeStarted,281,The battle will be started.{PAUSE 60},True,False
-src/union_room_message.c,sText_EnteringChat,282,Entering the chat…{PAUSE 60},True,False
-src/union_room_message.c,sText_BattleDeclinedMale,308,Sorry! My Yo-kai don't seem to\nbe feeling too well right now.\lLet me battle you another time.\p,True,False
-src/union_room_message.c,sText_BattleDeclinedFemale,309,"I'm terribly sorry, but my Yo-kai\naren't feeling well…\pLet's battle another time.\p",True,False
-src/union_room_message.c,sText_ShowTrainerCardDeclinedMale,316,Huh? My TRAINER CARD…\nWhere'd it go now?\lSorry! I'll show you another time!\p,True,False
-src/union_room_message.c,sText_ShowTrainerCardDeclinedFemale,317,Oh? Now where did I put my\nTRAINER CARD?…\lSorry! I'll show you later!\p,True,False
-src/union_room_message.c,sText_IfYouWantToDoSomethingMale,324,"If you want to do something with\nme, just give me a shout!\p",True,False
-src/union_room_message.c,sText_IfYouWantToDoSomethingFemale,325,"If you want to do something with\nme, don't be shy.\p",True,False
-src/union_room_message.c,gText_UR_TrainerBattleBusy,332,"Whoops! Sorry, but I have to do\nsomething else.\lAnother time, okay?\p",True,False
-src/union_room_message.c,gText_UR_NeedTwoMonsOfLevel30OrLower1,333,"If you want to battle, you need\ntwo Yo-kai that are below\lLv. 30.\p",True,False
-src/union_room_message.c,gText_UR_NeedTwoMonsOfLevel30OrLower2,334,"For a battle, you need two\nYo-kai that are below Lv. 30.\p",True,False
-src/union_room_message.c,sText_DeclineChatMale,336,"Oh, all right.\nCome see me anytime, okay?\p",False,False
-src/union_room_message.c,stext_DeclineChatFemale,337,Oh…\nPlease come by anytime.\p,True,False
-src/union_room_message.c,sText_ChatDeclinedMale,345,"Oh, sorry!\nI just can't right this instant.\lLet's chat another time.\p",True,False
-src/union_room_message.c,sText_ChatDeclinedFemale,346,"Oh, I'm sorry.\nI have too much to do right now.\lLet's chat some other time.\p",True,False
-src/union_room_message.c,sText_YoureToughMale,354,Whoa!\nI can tell you're pretty tough!\p,True,False
-src/union_room_message.c,sText_UsedGoodMoveMale,355,You used that move?\nThat's good strategy!\p,True,False
-src/union_room_message.c,sText_BattleSurpriseMale,356,Way to go!\nThat was an eye-opener!\p,True,False
-src/union_room_message.c,sText_SwitchedMonsMale,357,Oh! How could you use that\nYo-kai in that situation?\p,True,False
-src/union_room_message.c,sText_YoureToughFemale,358,That Yo-kai…\nIt's been raised really well!\p,True,False
-src/union_room_message.c,sText_UsedGoodMoveFemale,359,That's it!\nThis is the right move now!\p,True,False
-src/union_room_message.c,sText_BattleSurpriseFemale,360,That's awesome!\nYou can battle that way?\p,True,False
-src/union_room_message.c,sText_SwitchedMonsFemale,361,You have exquisite timing for\nswitching Yo-kai!\p,True,False
-src/union_room_message.c,sText_LearnedSomethingMale,377,"Oh, I see!\nThis is educational!\p",True,False
-src/union_room_message.c,sText_ThatsFunnyMale,378,Don't say anything funny anymore!\nI'm sore from laughing!\p,True,False
-src/union_room_message.c,sText_RandomChatMale1,379,Oh?\nSomething like that happened.\p,True,False
-src/union_room_message.c,sText_RandomChatMale2,380,Hmhm… What?\nSo is this what you're saying?\p,True,False
-src/union_room_message.c,sText_LearnedSomethingFemale,381,Is that right?\nI didn't know that.\p,True,False
-src/union_room_message.c,sText_ThatsFunnyFemale,382,Ahaha!\nWhat is that about?\p,True,False
-src/union_room_message.c,sText_RandomChatFemale1,383,"Yes, that's exactly it!\nThat's what I meant.\p",True,False
-src/union_room_message.c,sText_RandomChatFemale2,384,In other words…\nYes! That's right!\p,True,False
-src/union_room_message.c,sText_ShowedTrainerCardMale1,400,I'm just showing my TRAINER CARD\nas my way of greeting.\p,True,False
-src/union_room_message.c,sText_ShowedTrainerCardMale2,401,I hope I get to know you better!\p,True,False
-src/union_room_message.c,sText_ShowedTrainerCardFemale1,402,We're showing each other our\nTRAINER CARDS to get acquainted.\p,True,False
-src/union_room_message.c,sText_ShowedTrainerCardFemale2,403,Glad to meet you.\nPlease don't be a stranger!\p,True,False
-src/union_room_message.c,sText_MaleTraded1,415,Yeahah!\nI really wanted this Yo-kai!\p,True,False
-src/union_room_message.c,sText_MaleTraded2,416,"Finally, a trade got me that\nYo-kai I'd wanted a long time.\p",True,False
-src/union_room_message.c,sText_FemaleTraded1,417,I'm trading Yo-kai right now.\p,False,False
-src/union_room_message.c,sText_FemaleTraded2,418,I finally got that Yo-kai I\nwanted in a trade!\p,True,False
-src/union_room_message.c,gText_UR_XCheckedTradingBoard,430,{STR_VAR_1} checked the\nTRADING BOARD.\p,True,False
-src/union_room_message.c,gText_UR_RegisterMonAtTradingBoard,431,Welcome to the TRADING BOARD.\pYou may register your Yo-kai\nand offer it up for a trade.\pWould you like to register one of\nyour Yo-kai?,True,False
-src/union_room_message.c,gText_UR_TradingBoardInfo,432,"This TRADING BOARD is used for\noffering a POKéMON for a trade.\pAll you need to do is register a\nPOKéMON for a trade.\pAnother TRAINER may offer a party\nPOKéMON in return for the trade.\pWe hope you will register POKéMON\nand trade them with many, many\lother TRAINERS.\pWould you like to register one of\nyour POKéMON?",True,False
-src/union_room_message.c,sText_ThankYouForRegistering,443,こうかんけいじばん の とうろくが\nかんりょう しました\pごりよう ありがとう\nございました！\p,False,True
-src/union_room_message.c,sText_NobodyHasRegistered,444,けいじばんに だれも ポケモンを\nとうろく していません\p\n,False,True
-src/union_room_message.c,gText_UR_ChooseRequestedMonType,445,Please choose the type of Yo-kai\nthat you would like in the trade.\n,True,False
-src/union_room_message.c,gText_UR_WhichMonWillYouOffer,446,Which of your party Yo-kai will\nyou offer in trade?\p,True,False
-src/union_room_message.c,gText_UR_RegistrationCanceled,447,Registration has been canceled.\p,True,False
-src/union_room_message.c,gText_UR_RegistraionCompleted,448,Registration has been completed.\p,True,False
-src/union_room_message.c,gText_UR_TradeCanceled,449,The trade has been canceled.\p,True,False
-src/union_room_message.c,gText_UR_CancelRegistrationOfMon,450,Cancel the registration of your\nLv. {STR_VAR_2} {STR_VAR_1}?,True,False
-src/union_room_message.c,gText_UR_CancelRegistrationOfEgg,451,Cancel the registration of your\nEGG?,True,False
-src/union_room_message.c,gText_UR_RegistrationCanceled2,452,The registration has been canceled.\p,True,False
-src/union_room_message.c,sText_TradeTrainersWillBeListed,453,こうかんを きぼうしているひとを\nひょうじします,False,True
-src/union_room_message.c,sText_ChooseTrainerToTradeWith2,454,こうかん したい トレーナーを\nえらんで ください,False,True
-src/union_room_message.c,gText_UR_AskTrainerToMakeTrade,455,Would you like to ask {STR_VAR_1} to\nmake a trade?,True,False
-src/union_room_message.c,sText_AwaitingResponseFromTrainer2,456,……\nあいての へんじを まっています,False,True
-src/union_room_message.c,sText_NotRegisteredAMonForTrade,457,あなたが こうかんにだす\nポケモンが とうろくされていません\p,False,True
-src/union_room_message.c,gText_UR_DontHaveTypeTrainerWants,458,You don't have a {STR_VAR_2}-type\nYo-kai that {STR_VAR_1} wants.\p,True,False
-src/union_room_message.c,gText_UR_DontHaveEggTrainerWants,459,You don't have an EGG that\n{STR_VAR_1} wants.\p,True,False
-src/union_room_message.c,sText_PlayerCantTradeForYourMon,461,{STR_VAR_1} can't make a trade for\nyour Yo-kai right now.\p,True,False
-src/union_room_message.c,sText_CantTradeForPartnersMon,462,You can't make a trade for\n{STR_VAR_1}'s Yo-kai right now.\p,True,False
-src/union_room_message.c,gText_UR_TradeOfferRejected,470,Your trade offer was rejected.\p,True,False
-src/union_room_message.c,gText_UR_EggTrade,471,EGG TRADE,False,False
-src/union_room_message.c,gText_UR_ChooseJoinCancel,472,{DPAD_UPDOWN}CHOOSE  {A_BUTTON}JOIN  {B_BUTTON}CANCEL,False,False
-src/union_room_message.c,gText_UR_ChooseTrainer,473,Please choose a TRAINER.,True,False
-src/union_room_message.c,sText_ChooseTrainerSingleBattle,474,Please choose a TRAINER for\na SINGLE BATTLE.,True,False
-src/union_room_message.c,sText_ChooseTrainerDoubleBattle,475,Please choose a TRAINER for\na DOUBLE BATTLE.,True,False
-src/union_room_message.c,sText_ChooseLeaderMultiBattle,476,Please choose the LEADER\nfor a MULTI BATTLE.,True,False
-src/union_room_message.c,sText_ChooseTrainerToTradeWith,477,Please choose the TRAINER to\ntrade with.,True,False
-src/union_room_message.c,sText_ChooseTrainerToShareWonderCards,478,Please choose the TRAINER who is\nsharing WONDER CARDS.,True,False
-src/union_room_message.c,sText_ChooseTrainerToShareWonderNews,479,Please choose the TRAINER who is\nsharing WONDER NEWS.,True,False
-src/union_room_message.c,sText_ChooseLeaderPokemonJump,480,Jump with mini Yo-kai!\nPlease choose the LEADER.,True,False
-src/union_room_message.c,sText_ChooseLeaderBerryCrush,481,BERRY CRUSH!\nPlease choose the LEADER.,True,False
-src/union_room_message.c,sText_ChooseLeaderBerryPicking,482,DODRIO BERRY-PICKING!\nPlease choose the LEADER.,True,False
-src/union_room_message.c,gText_UR_SearchingForWirelessSystemWait,496,Searching for a WIRELESS\nCOMMUNICATION SYSTEM. Wait...,True,False
-src/union_room_message.c,sText_MustHaveTwoMonsForDoubleBattle,497,ダブルバトルでは 2ひき いじょうの\nポケモンが ひつようです\p,False,True
-src/union_room_message.c,gText_UR_AwaitingPlayersResponse,498,Awaiting {STR_VAR_1}'s response…,False,False
-src/union_room_message.c,gText_UR_PlayerHasBeenAskedToRegisterYouPleaseWait,499,{STR_VAR_1} has been asked to register\nyou as a member. Please wait.,True,False
-src/union_room_message.c,gText_UR_AwaitingResponseFromWirelessSystem,500,Awaiting a response from the\nWIRELESS COMMUNICATION SYSTEM.,True,False
-src/union_room_message.c,sText_PleaseWaitForOtherTrainersToGather,501,ほかの さんかしゃが そろうまで\nしょうしょう おまちください,False,True
-src/union_room_message.c,sText_NoCardsSharedRightNow,503,No CARDS appear to be shared \nright now.,True,False
-src/union_room_message.c,sText_NoNewsSharedRightNow,504,No NEWS appears to be shared\nright now.,True,False
-src/union_room_message.c,gText_UR_Battle,511,COMBAT,False,False
-src/union_room_message.c,gText_UR_Chat2,512,CHAT,False,False
-src/union_room_message.c,gText_UR_Greetings,513,SALUTATIONS,False,False
-src/union_room_message.c,gText_UR_Exit,514,QUITTER,False,False
-src/union_room_message.c,gText_UR_Exit2,516,QUITTER,False,False
-src/union_room_message.c,gText_UR_Info,517,INFO,False,False
-src/union_room_message.c,gText_UR_NameWantedOfferLv,518,NAME{CLEAR_TO 0x3C}WANTED{CLEAR_TO 0x6E}OFFER{CLEAR_TO 0xC6}LV.,False,False
-src/union_room_message.c,gText_UR_SingleBattle,520,COMBAT SOLO,False,False
-src/union_room_message.c,gText_UR_DoubleBattle,521,COMBAT DUO,False,False
-src/union_room_message.c,gText_UR_MultiBattle,522,COMBAT MULTI,False,False
-src/union_room_message.c,gText_UR_PokemonTrades,523,ÉCHANGES YO-KAI,False,False
-src/union_room_message.c,gText_UR_Chat,524,CHAT,False,False
-src/union_room_message.c,gText_UR_Cards,525,CARDS,False,False
-src/union_room_message.c,gText_UR_WonderCards,526,CARTES MIRACLE,False,False
-src/union_room_message.c,gText_UR_WonderNews,527,INFOS MIRACLE,False,False
-src/union_room_message.c,gText_UR_PokemonJump,528,SAUT YO-KAI,False,False
-src/union_room_message.c,gText_UR_BerryCrush,529,BROYEUR DE BAIES,False,False
-src/union_room_message.c,gText_UR_BerryPicking,530,BERRY-PICKING,False,False
-src/union_room_message.c,gText_UR_Search,531,RECHERCHE,False,False
-src/union_room_message.c,gText_UR_SpinTrade,532,ぐるぐるこうかん,False,True
-src/union_room_message.c,gText_UR_ItemTrade,533,アイテムトレード,False,True
-src/union_room_message.c,sText_ItsNormalCard,535,It's a NORMAL CARD.,True,False
-src/union_room_message.c,sText_ItsBronzeCard,536,It's a BRONZE CARD!,True,False
-src/union_room_message.c,sText_ItsCopperCard,537,It's a COPPER CARD!,True,False
-src/union_room_message.c,sText_ItsSilverCard,538,It's a SILVER CARD!,True,False
-src/union_room_message.c,sText_ItsGoldCard,539,It's a GOLD CARD!,True,False
-src/union_room_message.c,gText_UR_TrainerCardInfoPage1,549,This is {DYNAMIC 0} {DYNAMIC 1}'s\nTRAINER CARD…\l{DYNAMIC 2}\pMédallium: {DYNAMIC 3}\nTIME:    {DYNAMIC 4}:{DYNAMIC 5}\p,True,False
-src/union_room_message.c,gText_UR_TrainerCardInfoPage2,550,BATTLES: {DYNAMIC 0} WINS  {DYNAMIC 2} LOSSES\nTRADES:  {DYNAMIC 3} TIMES\p“{DYNAMIC 4} {DYNAMIC 5}\n{DYNAMIC 6} {DYNAMIC 7}”\p,False,False
-src/union_room_message.c,sText_GladToMeetYouMale,551,{DYNAMIC 1}: Glad to have met you!{PAUSE 60},True,False
-src/union_room_message.c,sText_GladToMeetYouFemale,552,{DYNAMIC 1}: Glad to meet you!{PAUSE 60},True,False
-src/union_room_message.c,gText_UR_FinishedCheckingPlayersTrainerCard,559,Finished checking {DYNAMIC 1}'s\nTRAINER CARD.{PAUSE 60},True,False
-src/union_room_message.c,sText_CanceledReadingCard,560,Canceled reading the Card.,True,False
+src/union_room_message.c,gText_UR_PleaseStartOver,10,Recommence depuis le début.,False,False
+src/union_room_message.c,gText_UR_WirelessSearchCanceled,11,La recherche de connexion\nsans fil est annulée.,False,False
+src/union_room_message.c,sText_AwaitingCommunucation2,12,En attente d'un message\nde tes amis.,False,False
+src/union_room_message.c,gText_UR_AwaitingCommunication,13,{STR_VAR_1}!\nEn attente d'un autre joueur.,False,False
+src/union_room_message.c,gText_UR_AwaitingLinkPressStart,14,{STR_VAR_1}! En attente!\nSTART quand tout le monde est prêt.,False,False
+src/union_room_message.c,sText_SingleBattle,16,Organiser un Combat Solo,False,False
+src/union_room_message.c,sText_DoubleBattle,17,Organiser un Combat Duo,False,False
+src/union_room_message.c,sText_MultiBattle,18,Organiser un Combat Multi,False,False
+src/union_room_message.c,sText_TradePokemon,19,Organiser un échange de Yo-kai,False,False
+src/union_room_message.c,sText_Chat,20,Ouvrir une discussion,False,False
+src/union_room_message.c,sText_DistWonderCard,21,Partager une Carte Miracle,False,False
+src/union_room_message.c,sText_DistWonderNews,22,Partager une Info Miracle,False,False
+src/union_room_message.c,sText_DistMysteryEvent,23,Organiser un Événement Mystère,False,False
+src/union_room_message.c,sText_HoldPokemonJump,24,Organiser le Saut Yo-kai,False,False
+src/union_room_message.c,sText_HoldBerryCrush,25,Organiser le Broyeur de Baies,False,False
+src/union_room_message.c,sText_HoldBerryPicking,26,Organiser la Cueillette de Baies,False,False
+src/union_room_message.c,sText_HoldSpinTrade,27,Organiser un échange tournant,False,False
+src/union_room_message.c,sText_HoldSpinShop,28,Ouvrir une boutique tournante,False,False
+src/union_room_message.c,sText_1PlayerNeeded,48,1 joueur\nrequis.,False,False
+src/union_room_message.c,sText_2PlayersNeeded,49,2 joueurs\nrequis.,False,False
+src/union_room_message.c,sText_3PlayersNeeded,50,3 joueurs\nrequis.,False,False
+src/union_room_message.c,sText_4PlayersNeeded,51,4 joueurs\nrequis.,False,False
+src/union_room_message.c,sText_2PlayerMode,52,MODE\n2 JOUEURS,False,False
+src/union_room_message.c,sText_3PlayerMode,53,MODE\n3 JOUEURS,False,False
+src/union_room_message.c,sText_4PlayerMode,54,MODE\n4 JOUEURS,False,False
+src/union_room_message.c,sText_5PlayerMode,55,MODE\n5 JOUEURS,False,False
+src/union_room_message.c,gText_UR_BButtonCancel,84,{B_BUTTON}RETOUR,False,False
+src/union_room_message.c,sText_SearchingForParticipants,85,Recherche de participants!,False,False
+src/union_room_message.c,gText_UR_PlayerContactedYouForXAccept,86,{STR_VAR_2} propose:\n{STR_VAR_1}. Accepter?,False,False
+src/union_room_message.c,gText_UR_PlayerContactedYouShareX,87,{STR_VAR_2} te contacte.\nVeux-tu partager {STR_VAR_1}?,False,False
+src/union_room_message.c,gText_UR_PlayerContactedYouAddToMembers,88,{STR_VAR_2} te contacte.\nL'ajouter au groupe?,False,False
+src/union_room_message.c,gText_UR_AreTheseMembersOK,89,{STR_VAR_1}!\nCes participants te conviennent?,False,False
+src/union_room_message.c,gText_UR_CancelModeWithTheseMembers,90,Annuler le mode {STR_VAR_1}\navec ces participants?,False,False
+src/union_room_message.c,gText_UR_AnOKWasSentToPlayer,91,Une confirmation est envoyée\nà {STR_VAR_1}.,False,False
+src/union_room_message.c,sText_OtherTrainerUnavailableNow,93,L'autre Dresseur ne semble pas\ndisponible pour le moment…\p,False,False
+src/union_room_message.c,sText_CantTransmitTrainerTooFar,94,Impossible de communiquer\navec un Dresseur trop éloigné.\p,False,False
+src/union_room_message.c,sText_TrainersNotReadyYet,95,Les autres Dresseurs\nne sont pas encore prêts.\p,False,False
+src/union_room_message.c,gText_UR_ModeWithTheseMembersWillBeCanceled,102,Le mode {STR_VAR_1} avec\nces participants sera annulé.{PAUSE 90},False,False
+src/union_room_message.c,sText_MemberNoLongerAvailable,103,Un participant\nn'est plus disponible.\p,False,False
+src/union_room_message.c,sText_TrainerAppearsUnavailable,110,L'autre Dresseur\nsemble indisponible…\p,False,False
+src/union_room_message.c,gText_UR_PlayerSentBackOK,111,{STR_VAR_1} a confirmé!,False,False
+src/union_room_message.c,gText_UR_PlayerOKdRegistration,112,{STR_VAR_1} a accepté\nton inscription au groupe.,False,False
+src/union_room_message.c,sText_PlayerRepliedNo,113,{STR_VAR_1} a répondu non…\p,False,False
+src/union_room_message.c,gText_UR_AwaitingOtherMembers,114,{STR_VAR_1}!\nEn attente des autres participants!,False,False
+src/union_room_message.c,gText_UR_QuitBeingMember,115,Veux-tu quitter le groupe?,False,False
+src/union_room_message.c,sText_StoppedBeingMember,116,Tu as quitté le groupe.\p,False,False
+src/union_room_message.c,gText_UR_WirelessLinkEstablished,131,La connexion sans fil\nest établie.,False,False
+src/union_room_message.c,gText_UR_WirelessLinkDropped,132,La connexion sans fil\na été interrompue…,False,False
+src/union_room_message.c,gText_UR_LinkWithFriendDropped,133,La connexion avec ton ami\na été interrompue…,False,False
+src/union_room_message.c,sText_PlayerRepliedNo2,134,{STR_VAR_1} a répondu non…,False,False
+src/union_room_message.c,sText_DoYouWantXMode,149,Veux-tu choisir\nle mode {STR_VAR_2}?,False,False
+src/union_room_message.c,sText_DoYouWantXMode2,150,Veux-tu choisir\nle mode {STR_VAR_2}?,False,False
+src/union_room_message.c,sText_CommunicatingPleaseWait,158,Communication en cours…\nPatiente un instant.,False,False
+src/union_room_message.c,gText_UR_AwaitingPlayersResponseAboutTrade,159,En attente de la réponse\nde {STR_VAR_1} pour l'échange…,False,False
+src/union_room_message.c,sText_Communicating,161,Communication{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.,False,False
+src/union_room_message.c,sText_CommunicatingWithPlayer,162,Connexion avec {STR_VAR_1}{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.,False,False
+src/union_room_message.c,sText_PleaseWaitAWhile,163,Veuillez patienter{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.,False,False
+src/union_room_message.c,sText_HiDoSomethingMale,171,Salut!\nTu voudrais faire quelque chose?,False,False
+src/union_room_message.c,sText_HiDoSomethingFemale,172,Bonjour!\nÇa te dit de faire quelque chose?,False,False
+src/union_room_message.c,sText_HiDoSomethingAgainMale,173,{STR_VAR_1}: Salut! Te revoilà!\nQue veux-tu faire cette fois?,False,False
+src/union_room_message.c,sText_HiDoSomethingAgainFemale,174,"{STR_VAR_1}: Bonjour, {PLAYER}!\nÇa te dit de faire quelque chose?",False,False
+src/union_room_message.c,sText_DoSomethingMale,186,On fait quelque chose?,False,False
+src/union_room_message.c,sText_DoSomethingFemale,187,Ça te dit de faire quelque chose?,False,False
+src/union_room_message.c,sText_DoSomethingAgainMale,188,{STR_VAR_1}: Que veux-tu\nfaire maintenant?,False,False
+src/union_room_message.c,sText_DoSomethingAgainFemale,189,{STR_VAR_1}: On fait\nautre chose?,False,False
+src/union_room_message.c,sText_SomebodyHasContactedYou,202,Quelqu'un te contacte.{PAUSE 60},False,False
+src/union_room_message.c,sText_PlayerHasContactedYou,203,{STR_VAR_1} te contacte.{PAUSE 60},False,False
+src/union_room_message.c,sText_AwaitingResponseFromTrainer,210,En attente de la réponse\nde l'autre Dresseur…,False,False
+src/union_room_message.c,sText_AwaitingResponseFromPlayer,211,En attente de la réponse\nde {STR_VAR_1}…,False,False
+src/union_room_message.c,sText_AwaitingResponseCancelBButton,218,En attente d'une proposition.\nBouton B: Annuler,False,False
+src/union_room_message.c,gText_UR_ShowTrainerCard,220,L'autre Dresseur t'a montré\nsa Carte Dresseur.\pVeux-tu lui montrer la tienne?,False,False
+src/union_room_message.c,gText_UR_BattleChallenge,221,L'autre Dresseur\nte propose un combat.\pVeux-tu relever ce défi?,False,False
+src/union_room_message.c,gText_UR_ChatInvitation,222,L'autre Dresseur\nt'invite à discuter.\pVeux-tu accepter l'invitation?,False,False
+src/union_room_message.c,gText_UR_OfferToTradeMon,223,"Ton Yo-kai inscrit:\n{DYNAMIC 1}, Niv.{DYNAMIC 0},\pcontre ce Yo-kai:\n{DYNAMIC 3}, Niv.{DYNAMIC 2}.\pAcceptes-tu cette offre?",False,False
+src/union_room_message.c,gText_UR_OfferToTradeEgg,224,On te propose un échange\npour ton Œuf inscrit.\pAcceptes-tu cette offre?,False,False
+src/union_room_message.c,gText_UR_ChatDropped,225,La discussion est interrompue.\p,False,False
+src/union_room_message.c,gText_UR_OfferDeclined1,226,Tu as refusé l'offre.\p,False,False
+src/union_room_message.c,gText_UR_OfferDeclined2,227,Tu as refusé l'offre.\p,False,False
+src/union_room_message.c,gText_UR_ChatEnded,228,La discussion est terminée.\p,False,False
+src/union_room_message.c,sText_JoinChatMale,238,Salut! Nous discutons.\nTu veux nous rejoindre?,False,False
+src/union_room_message.c,sText_PlayerJoinChatMale,239,"{STR_VAR_1}: Salut, {PLAYER}!\nNous discutons.\lTu veux nous rejoindre?",False,False
+src/union_room_message.c,sText_JoinChatFemale,240,"Oh, bonjour! Nous discutons.\nTu voudrais nous rejoindre?",False,False
+src/union_room_message.c,sText_PlayerJoinChatFemale,241,"{STR_VAR_1}: Bonjour, {PLAYER}!\nNous discutons.\lTu voudrais nous rejoindre?",False,False
+src/union_room_message.c,gText_UR_TrainerAppearsBusy,253,……\nCe Dresseur semble occupé…\p,False,False
+src/union_room_message.c,sText_WaitForBattleMale,254,Un combat? D'accord!\nLaisse-moi un peu de temps.,False,False
+src/union_room_message.c,sText_WaitForChatMale,255,"Tu veux discuter?\nBien sûr, attends un instant.",False,False
+src/union_room_message.c,sText_ShowTrainerCardMale,256,"Bien sûr! Pour me présenter,\nvoici ma Carte Dresseur.",False,False
+src/union_room_message.c,sText_WaitForBattleFemale,257,"Un combat? Bien sûr,\nmais je dois me préparer.",False,False
+src/union_room_message.c,sText_WaitForChatFemale,258,"Tu veux discuter?\nD'accord, patiente un instant.",False,False
+src/union_room_message.c,sText_ShowTrainerCardFemale,259,"Pour me présenter,\nje vais te montrer ma Carte Dresseur.",False,False
+src/union_room_message.c,sText_WaitForChatMale2,275,"Tu veux discuter?\nD'accord, attends un instant!",False,False
+src/union_room_message.c,sText_DoneWaitingBattleMale,276,Merci d'avoir attendu!\nQue le combat commence!{PAUSE 60},False,False
+src/union_room_message.c,sText_DoneWaitingChatMale,277,Très bien!\nDiscutons!{PAUSE 60},False,False
+src/union_room_message.c,sText_DoneWaitingBattleFemale,278,Merci pour ta patience!\nCommençons!{PAUSE 60},False,False
+src/union_room_message.c,sText_DoneWaitingChatFemale,279,Merci pour ta patience!\nDiscutons.{PAUSE 60},False,False
+src/union_room_message.c,sText_TradeWillBeStarted,280,L'échange va commencer.{PAUSE 60},False,False
+src/union_room_message.c,sText_BattleWillBeStarted,281,Le combat va commencer.{PAUSE 60},False,False
+src/union_room_message.c,sText_EnteringChat,282,Ouverture de la discussion…{PAUSE 60},False,False
+src/union_room_message.c,sText_BattleDeclinedMale,308,Désolé! Mes Yo-kai\nne semblent pas en forme.\pAffrontons-nous une autre fois.\p,False,False
+src/union_room_message.c,sText_BattleDeclinedFemale,309,"Désolée, mes Yo-kai\nne se sentent pas très bien…\pNous combattrons une autre fois.\p",False,False
+src/union_room_message.c,sText_ShowTrainerCardDeclinedMale,316,Hein? Ma Carte Dresseur…\nOù est-elle passée?\lDésolé! Je te la montrerai plus tard!\p,False,False
+src/union_room_message.c,sText_ShowTrainerCardDeclinedFemale,317,Oh? Où ai-je mis\nma Carte Dresseur?\lDésolée! Je te la montrerai plus tard.\p,False,False
+src/union_room_message.c,sText_IfYouWantToDoSomethingMale,324,"Si tu veux faire quelque chose,\nviens me voir!\p",False,False
+src/union_room_message.c,sText_IfYouWantToDoSomethingFemale,325,"Si tu veux faire quelque chose,\nn'hésite pas à venir me voir.\p",False,False
+src/union_room_message.c,gText_UR_TrainerBattleBusy,332,"Oups! Désolé,\nje dois faire autre chose.\lUne autre fois, d'accord?\p",False,False
+src/union_room_message.c,gText_UR_NeedTwoMonsOfLevel30OrLower1,333,"Pour combattre, il te faut\ndeux Yo-kai de niveau 30 maximum.\p",False,False
+src/union_room_message.c,gText_UR_NeedTwoMonsOfLevel30OrLower2,334,"Pour ce combat, il faut deux Yo-kai\nde niveau 30 maximum.\p",False,False
+src/union_room_message.c,sText_DeclineChatMale,336,"D'accord.\nReviens quand tu veux, d'accord?\p",False,False
+src/union_room_message.c,stext_DeclineChatFemale,337,Oh…\nReviens me voir quand tu veux.\p,False,False
+src/union_room_message.c,sText_ChatDeclinedMale,345,"Oh, désolé!\nJe ne peux pas tout de suite.\lDiscutons une autre fois.\p",False,False
+src/union_room_message.c,sText_ChatDeclinedFemale,346,"Oh, désolée.\nJ'ai trop à faire pour le moment.\lDiscutons une autre fois.\p",False,False
+src/union_room_message.c,sText_YoureToughMale,354,Ouah!\nTu as l'air vraiment fort!\p,False,False
+src/union_room_message.c,sText_UsedGoodMoveMale,355,Cette capacité?\nQuelle bonne stratégie!\p,False,False
+src/union_room_message.c,sText_BattleSurpriseMale,356,Bien joué!\nJ'en ai pris plein les yeux!\p,False,False
+src/union_room_message.c,sText_SwitchedMonsMale,357,Oh! Comment as-tu pu choisir\nce Yo-kai dans cette situation?\p,False,False
+src/union_room_message.c,sText_YoureToughFemale,358,Ce Yo-kai…\nIl est vraiment bien entraîné!\p,False,False
+src/union_room_message.c,sText_UsedGoodMoveFemale,359,Voilà!\nC'est la bonne capacité à utiliser!\p,False,False
+src/union_room_message.c,sText_BattleSurpriseFemale,360,Impressionnant!\nOn peut combattre comme ça?\p,False,False
+src/union_room_message.c,sText_SwitchedMonsFemale,361,Tu choisis le bon moment\npour changer de Yo-kai!\p,False,False
+src/union_room_message.c,sText_LearnedSomethingMale,377,"Ah, je vois!\nJ'apprends des choses!\p",False,False
+src/union_room_message.c,sText_ThatsFunnyMale,378,Arrête de dire des choses drôles!\nJ'ai mal au ventre de rire!\p,False,False
+src/union_room_message.c,sText_RandomChatMale1,379,Oh?\nUne telle chose est arrivée?\p,False,False
+src/union_room_message.c,sText_RandomChatMale2,380,Hmm… Quoi?\nC'est donc ce que tu veux dire?\p,False,False
+src/union_room_message.c,sText_LearnedSomethingFemale,381,Vraiment?\nJe ne le savais pas.\p,False,False
+src/union_room_message.c,sText_ThatsFunnyFemale,382,Hahaha!\nDe quoi s'agit-il?\p,False,False
+src/union_room_message.c,sText_RandomChatFemale1,383,"Oui, exactement!\nC'est ce que je voulais dire.\p",False,False
+src/union_room_message.c,sText_RandomChatFemale2,384,Autrement dit…\nOui! C'est ça!\p,False,False
+src/union_room_message.c,sText_ShowedTrainerCardMale1,400,Je montre simplement\nma Carte Dresseur pour me présenter.\p,False,False
+src/union_room_message.c,sText_ShowedTrainerCardMale2,401,J'espère mieux te connaître!\p,False,False
+src/union_room_message.c,sText_ShowedTrainerCardFemale1,402,Nous nous montrons nos Cartes\npour faire connaissance.\p,False,False
+src/union_room_message.c,sText_ShowedTrainerCardFemale2,403,Ravie de te rencontrer.\nReviens me voir!\p,False,False
+src/union_room_message.c,sText_MaleTraded1,415,Youpi!\nJe voulais vraiment ce Yo-kai!\p,False,False
+src/union_room_message.c,sText_MaleTraded2,416,Un échange m'a enfin donné\nle Yo-kai que j'attendais!\p,False,False
+src/union_room_message.c,sText_FemaleTraded1,417,Je fais un échange de Yo-kai.\p,False,False
+src/union_room_message.c,sText_FemaleTraded2,418,J'ai enfin obtenu le Yo-kai\nque je voulais grâce à un échange!\p,False,False
+src/union_room_message.c,gText_UR_XCheckedTradingBoard,430,{STR_VAR_1} consulte\nle Tableau d'Échange.\p,False,False
+src/union_room_message.c,gText_UR_RegisterMonAtTradingBoard,431,Bienvenue au Tableau d'Échange.\pTu peux inscrire un Yo-kai\npour le proposer à l'échange.\pVeux-tu inscrire\nun de tes Yo-kai?,False,False
+src/union_room_message.c,gText_UR_TradingBoardInfo,432,Ce tableau sert à proposer\ndes Yo-kai à l'échange.\pIl suffit d'inscrire un Yo-kai.\pUn autre Dresseur peut proposer\nun partenaire de son équipe\len échange du tien.\pNous espérons te voir échanger\navec de nombreux Dresseurs!\pVeux-tu inscrire un de tes Yo-kai?,False,False
+src/union_room_message.c,sText_ThankYouForRegistering,433,Ton inscription au Tableau\nd'Échange est terminée.\pMerci de ta visite!\p,False,False
+src/union_room_message.c,sText_NobodyHasRegistered,434,Personne n'a inscrit de Yo-kai\nau Tableau d'Échange.\p\n,False,False
+src/union_room_message.c,gText_UR_ChooseRequestedMonType,435,Choisis le type de Yo-kai\nque tu recherches pour l'échange.\n,False,False
+src/union_room_message.c,gText_UR_WhichMonWillYouOffer,436,Quel Yo-kai de ton équipe\nveux-tu proposer à l'échange?\p,False,False
+src/union_room_message.c,gText_UR_RegistrationCanceled,437,L'inscription est annulée.\p,False,False
+src/union_room_message.c,gText_UR_RegistraionCompleted,438,L'inscription est terminée.\p,False,False
+src/union_room_message.c,gText_UR_TradeCanceled,439,L'échange est annulé.\p,False,False
+src/union_room_message.c,gText_UR_CancelRegistrationOfMon,440,"Annuler l’inscription de\n{STR_VAR_1}, Niv.{STR_VAR_2}?",False,False
+src/union_room_message.c,gText_UR_CancelRegistrationOfEgg,441,Annuler l'inscription\nde ton Œuf?,False,False
+src/union_room_message.c,gText_UR_RegistrationCanceled2,442,L'inscription est annulée.\p,False,False
+src/union_room_message.c,sText_TradeTrainersWillBeListed,443,Liste des Dresseurs\nsouhaitant un échange.,False,False
+src/union_room_message.c,sText_ChooseTrainerToTradeWith2,444,Choisis le Dresseur\navec qui échanger.,False,False
+src/union_room_message.c,gText_UR_AskTrainerToMakeTrade,445,Veux-tu proposer un échange\nà {STR_VAR_1}?,False,False
+src/union_room_message.c,sText_AwaitingResponseFromTrainer2,446,……\nEn attente de la réponse.,False,False
+src/union_room_message.c,sText_NotRegisteredAMonForTrade,447,Tu n'as inscrit aucun Yo-kai\npour l'échange.\p,False,False
+src/union_room_message.c,gText_UR_DontHaveTypeTrainerWants,448,Tu n'as pas de Yo-kai {STR_VAR_2}\nque recherche {STR_VAR_1}.\p,False,False
+src/union_room_message.c,gText_UR_DontHaveEggTrainerWants,449,Tu n'as pas l'Œuf\nque recherche {STR_VAR_1}.\p,False,False
+src/union_room_message.c,sText_PlayerCantTradeForYourMon,451,{STR_VAR_1} ne peut pas\nfaire cet échange pour le moment.\p,False,False
+src/union_room_message.c,sText_CantTradeForPartnersMon,452,Impossible d’échanger maintenant\nle Yo-kai de {STR_VAR_1}.\p,False,False
+src/union_room_message.c,gText_UR_TradeOfferRejected,460,Ton offre d'échange a été refusée.\p,False,False
+src/union_room_message.c,gText_UR_EggTrade,461,ÉCHANGE D'ŒUF,False,False
+src/union_room_message.c,gText_UR_ChooseJoinCancel,462,{DPAD_UPDOWN}CHOIX {A_BUTTON}JOINDRE {B_BUTTON}RETOUR,False,False
+src/union_room_message.c,gText_UR_ChooseTrainer,463,Choisis un Dresseur.,False,False
+src/union_room_message.c,sText_ChooseTrainerSingleBattle,464,Choisis un Dresseur\npour un Combat Solo.,False,False
+src/union_room_message.c,sText_ChooseTrainerDoubleBattle,465,Choisis un Dresseur\npour un Combat Duo.,False,False
+src/union_room_message.c,sText_ChooseLeaderMultiBattle,466,Choisis le chef du groupe\npour un Combat Multi.,False,False
+src/union_room_message.c,sText_ChooseTrainerToTradeWith,467,Choisis le Dresseur\navec qui échanger.,False,False
+src/union_room_message.c,sText_ChooseTrainerToShareWonderCards,468,Choisis le Dresseur\nqui partage des Cartes Miracle.,False,False
+src/union_room_message.c,sText_ChooseTrainerToShareWonderNews,469,Choisis le Dresseur\nqui partage des Infos Miracle.,False,False
+src/union_room_message.c,sText_ChooseLeaderPokemonJump,470,Saute avec de petits Yo-kai!\nChoisis le chef du groupe.,False,False
+src/union_room_message.c,sText_ChooseLeaderBerryCrush,471,Broyeur de Baies!\nChoisis le chef du groupe.,False,False
+src/union_room_message.c,sText_ChooseLeaderBerryPicking,472,Cueillette de Baies!\nChoisis le chef du groupe.,False,False
+src/union_room_message.c,gText_UR_SearchingForWirelessSystemWait,486,Recherche d'une connexion\nsans fil. Patiente…,False,False
+src/union_room_message.c,sText_MustHaveTwoMonsForDoubleBattle,487,Il faut au moins deux Yo-kai\npour un Combat Duo.\p,False,False
+src/union_room_message.c,gText_UR_AwaitingPlayersResponse,488,En attente de la réponse\nde {STR_VAR_1}…,False,False
+src/union_room_message.c,gText_UR_PlayerHasBeenAskedToRegisterYouPleaseWait,489,{STR_VAR_1} a reçu\nta demande d'inscription. Patiente.,False,False
+src/union_room_message.c,gText_UR_AwaitingResponseFromWirelessSystem,490,En attente d'une réponse\ndu système de connexion sans fil.,False,False
+src/union_room_message.c,sText_PleaseWaitForOtherTrainersToGather,491,Patiente jusqu'à ce que\nles autres participants soient prêts.,False,False
+src/union_room_message.c,sText_NoCardsSharedRightNow,493,Aucune Carte ne semble\npartagée pour le moment.,False,False
+src/union_room_message.c,sText_NoNewsSharedRightNow,494,Aucune Info ne semble\npartagée pour le moment.,False,False
+src/union_room_message.c,gText_UR_Battle,501,COMBAT,False,False
+src/union_room_message.c,gText_UR_Chat2,502,DISCUSSION,False,False
+src/union_room_message.c,gText_UR_Greetings,503,SALUTATIONS,False,False
+src/union_room_message.c,gText_UR_Exit,504,QUITTER,False,False
+src/union_room_message.c,gText_UR_Exit2,506,QUITTER,False,False
+src/union_room_message.c,gText_UR_Info,507,INFO,False,False
+src/union_room_message.c,gText_UR_NameWantedOfferLv,508,NOM{CLEAR_TO 0x3C}RECH.{CLEAR_TO 0x6E}OFFRE{CLEAR_TO 0xC6}NIV.,False,False
+src/union_room_message.c,gText_UR_SingleBattle,510,COMBAT SOLO,False,False
+src/union_room_message.c,gText_UR_DoubleBattle,511,COMBAT DUO,False,False
+src/union_room_message.c,gText_UR_MultiBattle,512,COMBAT MULTI,False,False
+src/union_room_message.c,gText_UR_PokemonTrades,513,ÉCHANGES YO-KAI,False,False
+src/union_room_message.c,gText_UR_Chat,514,DISCUSSION,False,False
+src/union_room_message.c,gText_UR_Cards,515,CARTES,False,False
+src/union_room_message.c,gText_UR_WonderCards,516,CARTES MIRACLE,False,False
+src/union_room_message.c,gText_UR_WonderNews,517,INFOS MIRACLE,False,False
+src/union_room_message.c,gText_UR_PokemonJump,518,SAUT YO-KAI,False,False
+src/union_room_message.c,gText_UR_BerryCrush,519,BROYEUR DE BAIES,False,False
+src/union_room_message.c,gText_UR_BerryPicking,520,CUEILLETTE,False,False
+src/union_room_message.c,gText_UR_Search,521,RECHERCHE,False,False
+src/union_room_message.c,gText_UR_SpinTrade,522,ÉCHANGE TOURNANT,False,False
+src/union_room_message.c,gText_UR_ItemTrade,523,ÉCHANGE D'OBJETS,False,False
+src/union_room_message.c,sText_ItsNormalCard,525,C'est une Carte normale.,False,False
+src/union_room_message.c,sText_ItsBronzeCard,526,C'est une Carte de bronze!,False,False
+src/union_room_message.c,sText_ItsCopperCard,527,C'est une Carte de cuivre!,False,False
+src/union_room_message.c,sText_ItsSilverCard,528,C'est une Carte d'argent!,False,False
+src/union_room_message.c,sText_ItsGoldCard,529,C'est une Carte d'or!,False,False
+src/union_room_message.c,gText_UR_TrainerCardInfoPage1,539,Carte Dresseur de\n{DYNAMIC 0} {DYNAMIC 1}…\l{DYNAMIC 2}\pMédallium: {DYNAMIC 3}\nDurée: {DYNAMIC 4}:{DYNAMIC 5}\p,False,False
+src/union_room_message.c,gText_UR_TrainerCardInfoPage2,540,"Combats: {DYNAMIC 0} gagnés, {DYNAMIC 2} perdus\nÉchanges: {DYNAMIC 3}\p{DYNAMIC 4} {DYNAMIC 5}\n{DYNAMIC 6} {DYNAMIC 7}\p",False,False
+src/union_room_message.c,sText_GladToMeetYouMale,541,{DYNAMIC 1}: Ravi de te voir!{PAUSE 60},False,False
+src/union_room_message.c,sText_GladToMeetYouFemale,542,{DYNAMIC 1}: Ravie de te voir!{PAUSE 60},False,False
+src/union_room_message.c,gText_UR_FinishedCheckingPlayersTrainerCard,549,Lecture terminée de la Carte\nde {DYNAMIC 1}.{PAUSE 60},False,False
+src/union_room_message.c,sText_CanceledReadingCard,550,Lecture de la Carte annulée.,False,False
 src/yokai_presentation.c,sNightOne,26,La nuit tombe sur Kanto...,False,False
 src/yokai_presentation.c,sNightTwo,27,Les Yo-kai s'éveillent.,False,False
 src/yokai_presentation.c,sNightThree,28,Ouvrez les yeux sur l'invisible.,False,False

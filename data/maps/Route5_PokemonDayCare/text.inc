@@ -1,68 +1,50 @@
 Route5_PokemonDayCare_Text_WantMeToRaiseMon::
-	.string "I run the DAY-CARE service.\p"
-	.string "Would you like me to raise one of\n"
-	.string "your Yo-kai?$"
+    .string "Je m'occupe de cette Pension.\pVeux-tu me confier un Yo-kai\npour que je l'élève?$"
 
 Route5_PokemonDayCare_Text_ComeAgain::
-	.string "Come again.$"
+    .string "Reviens me voir.$"
 
 Route5_PokemonDayCare_Text_WhichMonShouldIRaise::
-	.string "Which Yo-kai should I raise?$"
+    .string "Quel Yo-kai dois-je élever?$"
 
 Route5_PokemonDayCare_Text_ComeAnytimeYouLike::
-	.string "Fine.\n"
-	.string "Come anytime you like.$"
+    .string "Très bien.\nReviens quand tu veux.$"
 
 Route5_PokemonDayCare_Text_LookAfterMonForAWhile::
-	.string "Fine, I'll look after your\n"
-	.string "{STR_VAR_1} for a while.$"
+    .string "Très bien, je vais m'occuper\nde {STR_VAR_1} quelque temps.$"
 
 Route5_PokemonDayCare_Text_ComeSeeMeInAWhile::
-	.string "Come see me in a while.$"
+    .string "Reviens me voir dans un moment.$"
 
 Route5_PokemonDayCare_Text_MonNeedsToSpendMoreTime::
-	.string "You're back already?\p"
-	.string "Your {STR_VAR_1} needs to spend\n"
-	.string "some more time with me.$"
+    .string "Déjà de retour?\p{STR_VAR_1} doit encore passer\nun peu de temps avec moi.$"
 
 Route5_PokemonDayCare_Text_OweMeXForMonsReturn::
-	.string "You owe me ¥{STR_VAR_2} for the return\n"
-	.string "of this Yo-kai.$"
+    .string "Pour récupérer ce Yo-kai,\ntu me dois {STR_VAR_2}¥.$"
 
 Route5_PokemonDayCare_Text_ThankYouHeresMon::
-	.string "Thank you!\n"
-	.string "Here's your Yo-kai.$"
+    .string "Merci!\nVoici ton Yo-kai.$"
 
 Route5_PokemonDayCare_Text_PlayerGotMonBack::
-	.string "{PLAYER} got {STR_VAR_1} back\n"
-	.string "from the DAY-CARE MAN.$"
+    .string "{PLAYER} récupère {STR_VAR_1}\nauprès de l'homme de la Pension.$"
 
 Route5_PokemonDayCare_Text_OnlyHaveOneMonWithYou::
-	.string "Oh? You only have one Yo-kai\n"
-	.string "with you.$"
+    .string "Oh? Tu n'as qu'un Yo-kai\navec toi.$"
 
 Route5_PokemonDayCare_Text_WhatWillYouBattleWith::
-	.string "If you leave me that Yo-kai,\n"
-	.string "what will you battle with?$"
+    .string "Si tu me confies ce Yo-kai,\navec qui vas-tu combattre?$"
 
 Route5_PokemonDayCare_Text_MonHasGrownByXLevels::
-	.string "Your {STR_VAR_1} has grown a lot.\n"
-	.string "Yes, quite a lot, I'd say.\p"
-	.string "Let me see…\n"
-	.string "By level, it's grown by {STR_VAR_2}.\p"
-	.string "Aren't I great?$"
+    .string "{STR_VAR_1} a bien grandi.\nOh oui, vraiment!\pVoyons…\nIl a gagné {STR_VAR_2} niveaux.\pJe m'en suis bien occupé, non?$"
 
 Route5_PokemonDayCare_Text_YouveGotNoRoomForIt::
-	.string "You can't take this Yo-kai back\n"
-	.string "if you've got no room for it.$"
+    .string "Tu ne peux pas reprendre ce Yo-kai\nsi tu n'as pas de place.$"
 
 Route5_PokemonDayCare_Text_DontHaveEnoughMoney::
-	.string "You don't have enough money.$"
+    .string "Tu n'as pas assez d'argent.$"
 
 Route5_PokemonDayCare_Text_WantMeToTakeALookAtYours::
-    .string "きみの\n"
-    .string "みてみるかね？$"
+    .string "Veux-tu que j'examine\nton Yo-kai?$"
 
 Route5_PokemonDayCare_Text_CantAcceptMonWithHM::
-    .string "わるいけど　ひでんのわざを　もった\n"
-    .string "ポケモンは　あずかれないなぁ$"
+    .string "Désolé, je ne peux pas garder\nun Yo-kai connaissant\lune capacité secrète.$"

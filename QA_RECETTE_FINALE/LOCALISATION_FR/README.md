@@ -63,3 +63,17 @@ Les 369 entrées de l’aide intégrée sont localisées : rubriques, questions,
 [Contrôles de cadrage](AIDE_CADRAGE.json), [369 textes liés et largeurs vérifiés dans mGBA](aide/TEST_MGBA.json), [onze captures examinées](aide/PLANCHE.png). L’aide s’ouvre réellement avec R ; le test autorise cette interface en mémoire dans la chambre de début de partie. Dix couples question/réponse sont ensuite affichés avec le moteur natif, sans prétendre avoir parcouru tous les menus conditionnels. Les sept lignes de l’explication des statuts restent visibles.
 
 Compilation réussie avec les 26 OST, toujours sous 32 Mio. [Préservation du code et des scripts](PRESERVATION_LOT4.json). Les dialogues restants, liaisons, mots Easy Chat et inscriptions graphiques nécessitent encore du travail ; la traduction totale reste en cours.
+
+## Lot 5 — Pension, cap, Vermilion et Salle Union
+
+191 entrées dans les tables des routes 5, 6, 24, 25 et des huit cartes de Vermilion ; les textes de la Pension, du Thé, des Pépites, de la Canne, des ferries et des verrous du Major Bob sont traduits. Les variables des échanges sont conservées, ainsi que tous les scripts de progression. Le Fan Club cite Passpa, Turboss et Coléroptère ; il ne décrit plus une queue de Pikachu ou un phoque lorsqu’il parle de leur remplaçant. Les dialogues du compagnon voyageur restent génériques, sans inventer une seconde rencontre légendaire.
+
+Les 30 messages de l’impression de Carte et des Autocollants sont traduits, ainsi que les quatre messages anglais restants du Safari partagé. Les anciens textes japonais de Safari de Hoenn, inutilisés par Rouge Feu, sont identifiés comme héritage restant : ils ne sont pas confondus avec les événements de Kanto.
+
+196 textes supplémentaires de `union_room_message.c` sont localisés, y compris les anciennes chaînes japonaises, les offres, réponses, discussions et Cartes Dresseur. Les libellés déjà français sont conservés. L’en-tête du Tableau d’Échange respecte ses trois coordonnées CLEAR_TO. Les séquences de pauses de communication restent identiques.
+
+- [191 premières pages dans le moteur de dialogue](trajet_vermilion/TEST_MGBA.json), [15 captures examinées](trajet_vermilion/PLANCHE.png).
+- [196 messages de Salle Union rendus avec des variables préparées](salle_union/TEST_MGBA.json), [12 captures examinées](salle_union/PLANCHE.png). Les emplacements DYNAMIC sont développés explicitement avant l’affichage ; les deux modèles de Carte sont vérifiés avec leurs valeurs limites dans leur tampon natif de 200 octets, ainsi que leur largeur. Ce sont des fixtures sur une carte fixe, avec noms volontairement larges, pas des connexions entre deux consoles ni une validation des fonctionnalités multijoueurs.
+- Compilation privée réussie, toujours **31 272 243 octets** et 26 OST conservées. [Préservation des sources et scripts](PRESERVATION_LOT5.json).
+
+La suite couvre notamment le S.S. ANNE et les villes ultérieures, les liaisons câblées et les mots Easy Chat. L’inventaire contient aussi des notices d’espèces hors des 151 et des modules hérités inutilisés : ses candidats anglais ne représentent pas autant de dialogues accessibles.

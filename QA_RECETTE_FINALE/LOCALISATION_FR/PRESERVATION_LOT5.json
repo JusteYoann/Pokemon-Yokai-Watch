@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "baseline": "47b77205a",
+  "text_only_source_files": [
+    "data/maps/Route24/text.inc",
+    "data/maps/Route25/text.inc",
+    "data/maps/Route5/text.inc",
+    "data/maps/Route5_PokemonDayCare/text.inc",
+    "data/maps/Route5_SouthEntrance/text.inc",
+    "data/maps/Route6/text.inc",
+    "data/maps/Route6_NorthEntrance/text.inc",
+    "data/maps/VermilionCity/text.inc",
+    "data/maps/VermilionCity_Gym/text.inc",
+    "data/maps/VermilionCity_House1/text.inc",
+    "data/maps/VermilionCity_House2/text.inc",
+    "data/maps/VermilionCity_House3/text.inc",
+    "data/maps/VermilionCity_Mart/text.inc",
+    "data/maps/VermilionCity_PokemonCenter_1F/text.inc",
+    "data/maps/VermilionCity_PokemonFanClub/text.inc",
+    "data/text/safari_zone.inc",
+    "data/text/trainer_card.inc",
+    "src/union_room_message.c"
+  ],
+  "all_source_deltas_are_literals": true,
+  "map_scripts_and_gameplay_unchanged": true,
+  "graphics_and_audio_unchanged": true,
+  "rom_bytes": 31272243,
+  "rom_sha256": "e16ff9525146aea5a4a08cdc1ec507a00746f98eebedb10469d2c79497e05c36",
+  "scope": "Text-only delta proof, not semantic proof of every translation or full playthrough."
+}

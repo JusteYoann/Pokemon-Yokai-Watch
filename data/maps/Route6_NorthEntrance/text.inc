@@ -1,26 +1,12 @@
 Route6_NorthEntrance_Text_ThirstyOnGuardDuty::
-    .string "I'm on guard duty.\n"
-    .string "Gee, I'm thirsty, though!\p"
-    .string "Oh, wait there, the road's closed.$"
+    .string "Je suis de garde…\nEt j'ai tellement soif!\pAttends! La route est fermée.$"
 
 Route6_NorthEntrance_Text_ThatTeaLooksTasty::
-    .string "Oh, that TEA…\n"
-    .string "It looks awfully tasty…$"
+    .string "Oh, ce Thé…\nIl a l'air délicieux!$"
 
 Route6_NorthEntrance_Text_ThanksIllShareTeaWithGuards::
-    .string "Huh? I can have this drink?\n"
-    .string "Gee, thanks!\l"
-    .string "… …\l"
-    .string "Glug, glug…\l"
-    .string "… …\l"
-    .string "Gulp…\l"
-    .string "If you want to go to SAFFRON\l"
-    .string "CITY…\l"
-    .string "… …\l"
-    .string "You can go on through.\p"
-    .string "I'll share this TEA with the other\n"
-    .string "guards!$"
+    .string "Hein? Tu me l'offres?\nMerci beaucoup!\pGlou, glou…\nAhhh…\pTu veux aller à SAFFRON CITY?\nTu peux passer.\pJe partagerai ce Thé\navec les autres gardes!$"
 
 Route6_NorthEntrance_Text_HiHowsItGoing::
-    .string "Hi, how's it going?$"
+    .string "Salut, comment ça va?$"
 
