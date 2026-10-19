@@ -1,0 +1,604 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "aa2a498d70036b9a86534c9aab79c472079ea5dbacb97d4d69fbf37671441bbb",
+  "scope": "Native first-page rendering of each source message on a fixed field-map fixture with explicit variables. Dynamic placeholders explicitly expanded before rendering; native200-byte trainer-card bound checked. Not full NPC traversal, all pages, multiplayer or event-outcome testing.",
+  "results": [
+    {
+      "symbol": "SSAnne_1F_Corridor_Text_LeStrongSilentType",
+      "source": "data/maps/SSAnne_1F_Corridor/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Corridor_Text_PassengersAreRestless",
+      "source": "data/maps/SSAnne_1F_Corridor/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room1_Text_ImAGlobalPoliceAgent",
+      "source": "data/maps/SSAnne_1F_Room1/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room2_Text_TylerIntro",
+      "source": "data/maps/SSAnne_1F_Room2/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room2_Text_TylerDefeat",
+      "source": "data/maps/SSAnne_1F_Room2/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room2_Text_TylerPostBattle",
+      "source": "data/maps/SSAnne_1F_Room2/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room2_Text_AnnIntro",
+      "source": "data/maps/SSAnne_1F_Room2/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room2_Text_AnnDefeat",
+      "source": "data/maps/SSAnne_1F_Room2/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room2_Text_AnnPostBattle",
+      "source": "data/maps/SSAnne_1F_Room2/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room2_Text_CruisingAroundWorld",
+      "source": "data/maps/SSAnne_1F_Room2/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room3_Text_CruiseIsElegantAndCozy",
+      "source": "data/maps/SSAnne_1F_Room3/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room3_Text_AlwaysTravelWithWigglytuff",
+      "source": "data/maps/SSAnne_1F_Room3/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room3_Text_Wigglytuff",
+      "source": "data/maps/SSAnne_1F_Room3/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room4_Text_WaiterCherryPiePlease",
+      "source": "data/maps/SSAnne_1F_Room4/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room4_Text_WaitressCherryPiePlease",
+      "source": "data/maps/SSAnne_1F_Room4/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room5_Text_ArthurIntro",
+      "source": "data/maps/SSAnne_1F_Room5/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room5_Text_ArthurDefeat",
+      "source": "data/maps/SSAnne_1F_Room5/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room5_Text_ArthurPostBattle",
+      "source": "data/maps/SSAnne_1F_Room5/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room6_Text_TakeAShortRest",
+      "source": "data/maps/SSAnne_1F_Room6/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room6_Text_GladEveryoneIsRefreshed",
+      "source": "data/maps/SSAnne_1F_Room6/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room6_Text_SorryYouLookLikeMyBrother",
+      "source": "data/maps/SSAnne_1F_Room6/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room6_Text_SorryYouLookLikeMySister",
+      "source": "data/maps/SSAnne_1F_Room6/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room7_Text_ThomasIntro",
+      "source": "data/maps/SSAnne_1F_Room7/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room7_Text_ThomasDefeat",
+      "source": "data/maps/SSAnne_1F_Room7/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room7_Text_ThomasPostBattle",
+      "source": "data/maps/SSAnne_1F_Room7/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Corridor_Text_ThisShipIsLuxuryLiner",
+      "source": "data/maps/SSAnne_2F_Corridor/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Corridor_Text_RivalIntro",
+      "source": "data/maps/SSAnne_2F_Corridor/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Corridor_Text_RivalDefeat",
+      "source": "data/maps/SSAnne_2F_Corridor/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Corridor_Text_RivalVictory",
+      "source": "data/maps/SSAnne_2F_Corridor/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Corridor_Text_RivalPostBattle",
+      "source": "data/maps/SSAnne_2F_Corridor/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Room1_Text_SleepingMonLookedLikeThis",
+      "source": "data/maps/SSAnne_2F_Room1/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Room2_Text_BrooksIntro",
+      "source": "data/maps/SSAnne_2F_Room2/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Room2_Text_BrooksDefeat",
+      "source": "data/maps/SSAnne_2F_Room2/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Room2_Text_BrooksPostBattle",
+      "source": "data/maps/SSAnne_2F_Room2/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Room2_Text_DaleIntro",
+      "source": "data/maps/SSAnne_2F_Room2/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Room2_Text_DaleDefeat",
+      "source": "data/maps/SSAnne_2F_Room2/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Room2_Text_DalePostBattle",
+      "source": "data/maps/SSAnne_2F_Room2/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Room3_Text_SeenMonsFerryPeople",
+      "source": "data/maps/SSAnne_2F_Room3/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Room3_Text_SomeTreesCanBeCutDown",
+      "source": "data/maps/SSAnne_2F_Room3/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Room4_Text_LamarIntro",
+      "source": "data/maps/SSAnne_2F_Room4/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Room4_Text_LamarDefeat",
+      "source": "data/maps/SSAnne_2F_Room4/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Room4_Text_LamarPostBattle",
+      "source": "data/maps/SSAnne_2F_Room4/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Room4_Text_DawnIntro",
+      "source": "data/maps/SSAnne_2F_Room4/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Room4_Text_DawnDefeat",
+      "source": "data/maps/SSAnne_2F_Room4/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Room4_Text_DawnPostBattle",
+      "source": "data/maps/SSAnne_2F_Room4/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Room5_Text_HaveYouGoneToSafariZone",
+      "source": "data/maps/SSAnne_2F_Room5/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Room5_Text_WeThinkSafariZoneIsAwesome",
+      "source": "data/maps/SSAnne_2F_Room5/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Room6_Text_CaptainIsAwfullySick",
+      "source": "data/maps/SSAnne_2F_Room6/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_2F_Room6_Text_ManyPeopleGetSeasick",
+      "source": "data/maps/SSAnne_2F_Room6/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_3F_Corridor_Text_CaptainTeachesCutToMons",
+      "source": "data/maps/SSAnne_3F_Corridor/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_B1F_Room1_Text_PhillipIntro",
+      "source": "data/maps/SSAnne_B1F_Room1/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_B1F_Room1_Text_PhillipDefeat",
+      "source": "data/maps/SSAnne_B1F_Room1/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_B1F_Room1_Text_PhillipPostBattle",
+      "source": "data/maps/SSAnne_B1F_Room1/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_B1F_Room1_Text_BarnyIntro",
+      "source": "data/maps/SSAnne_B1F_Room1/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_B1F_Room1_Text_BarnyDefeat",
+      "source": "data/maps/SSAnne_B1F_Room1/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_B1F_Room1_Text_BarnyPostBattle",
+      "source": "data/maps/SSAnne_B1F_Room1/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_B1F_Room2_Text_HueyIntro",
+      "source": "data/maps/SSAnne_B1F_Room2/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_B1F_Room2_Text_HueyDefeat",
+      "source": "data/maps/SSAnne_B1F_Room2/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_B1F_Room2_Text_HueyPostBattle",
+      "source": "data/maps/SSAnne_B1F_Room2/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_B1F_Room3_Text_DylanIntro",
+      "source": "data/maps/SSAnne_B1F_Room3/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_B1F_Room3_Text_DylanDefeat",
+      "source": "data/maps/SSAnne_B1F_Room3/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_B1F_Room3_Text_DylanPostBattle",
+      "source": "data/maps/SSAnne_B1F_Room3/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_B1F_Room4_Text_LeonardIntro",
+      "source": "data/maps/SSAnne_B1F_Room4/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_B1F_Room4_Text_LeonardDefeat",
+      "source": "data/maps/SSAnne_B1F_Room4/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_B1F_Room4_Text_LeonardPostBattle",
+      "source": "data/maps/SSAnne_B1F_Room4/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_B1F_Room4_Text_DuncanIntro",
+      "source": "data/maps/SSAnne_B1F_Room4/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_B1F_Room4_Text_DuncanDefeat",
+      "source": "data/maps/SSAnne_B1F_Room4/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_B1F_Room4_Text_DuncanPostBattle",
+      "source": "data/maps/SSAnne_B1F_Room4/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_B1F_Room5_Text_MachokeHasStrengthToMoveRocks",
+      "source": "data/maps/SSAnne_B1F_Room5/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_B1F_Room5_Text_Machoke",
+      "source": "data/maps/SSAnne_B1F_Room5/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_CaptainsOffice_Text_CaptainIFeelSeasick",
+      "source": "data/maps/SSAnne_CaptainsOffice/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_CaptainsOffice_Text_RubbedCaptainsBack",
+      "source": "data/maps/SSAnne_CaptainsOffice/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut",
+      "source": "data/maps/SSAnne_CaptainsOffice/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain",
+      "source": "data/maps/SSAnne_CaptainsOffice/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_CaptainsOffice_Text_ExplainCut",
+      "source": "data/maps/SSAnne_CaptainsOffice/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_CaptainsOffice_Text_SSAnneWillSetSailSoon",
+      "source": "data/maps/SSAnne_CaptainsOffice/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_CaptainsOffice_Text_YouHaveNoRoomForThis",
+      "source": "data/maps/SSAnne_CaptainsOffice/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_CaptainsOffice_Text_YuckShouldntHaveLooked",
+      "source": "data/maps/SSAnne_CaptainsOffice/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_CaptainsOffice_Text_HowToConquerSeasickness",
+      "source": "data/maps/SSAnne_CaptainsOffice/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_Deck_Text_ShipDepartingSoon",
+      "source": "data/maps/SSAnne_Deck/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_Deck_Text_ScrubbingDecksHardWork",
+      "source": "data/maps/SSAnne_Deck/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_Deck_Text_FeelSeasick",
+      "source": "data/maps/SSAnne_Deck/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_Deck_Text_EdmondIntro",
+      "source": "data/maps/SSAnne_Deck/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_Deck_Text_EdmondDefeat",
+      "source": "data/maps/SSAnne_Deck/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_Deck_Text_EdmondPostBattle",
+      "source": "data/maps/SSAnne_Deck/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_Deck_Text_TrevorIntro",
+      "source": "data/maps/SSAnne_Deck/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_Deck_Text_TrevorDefeat",
+      "source": "data/maps/SSAnne_Deck/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_Deck_Text_TrevorPostBattle",
+      "source": "data/maps/SSAnne_Deck/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_Kitchen_Text_BusyOutOfTheWay",
+      "source": "data/maps/SSAnne_Kitchen/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_Kitchen_Text_SawOddBerryInTrash",
+      "source": "data/maps/SSAnne_Kitchen/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_Kitchen_Text_SoBusyImDizzy",
+      "source": "data/maps/SSAnne_Kitchen/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_Kitchen_Text_PeelSpudsEveryDay",
+      "source": "data/maps/SSAnne_Kitchen/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_Kitchen_Text_HearAboutSnorlaxItsAGlutton",
+      "source": "data/maps/SSAnne_Kitchen/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_Kitchen_Text_OnlyGetToPeelOnions",
+      "source": "data/maps/SSAnne_Kitchen/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_Kitchen_Text_IAmLeChefMainCourseIs",
+      "source": "data/maps/SSAnne_Kitchen/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_Kitchen_Text_SalmonDuSalad",
+      "source": "data/maps/SSAnne_Kitchen/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_Kitchen_Text_EelsAuBarbecue",
+      "source": "data/maps/SSAnne_Kitchen/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_Kitchen_Text_PrimeBeefsteak",
+      "source": "data/maps/SSAnne_Kitchen/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    }
+  ],
+  "captures": [
+    "SSAnne_1F_Corridor_Text_LeStrongSilentType",
+    "SSAnne_1F_Room5_Text_ArthurPostBattle",
+    "SSAnne_2F_Room2_Text_DaleIntro",
+    "SSAnne_B1F_Room1_Text_PhillipDefeat",
+    "SSAnne_B1F_Room5_Text_MachokeHasStrengthToMoveRocks",
+    "SSAnne_Deck_Text_TrevorIntro"
+  ]
+}

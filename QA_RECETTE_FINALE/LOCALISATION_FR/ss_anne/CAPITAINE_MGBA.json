@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "aa2a498d70036b9a86534c9aab79c472079ea5dbacb97d4d69fbf37671441bbb",
+  "scope": "New-game then Captain map warp and Komasan party fixture. Actual directional/A inputs trigger original Captain event, text, fanfare and HM01 reward. Does not prove reaching ship from full story or sailing-away sequence.",
+  "results": [
+    {
+      "test": "Actual A-button interaction with Captain after warp fixture",
+      "passed": true
+    },
+    {
+      "test": "HM01 absent before interaction and present in native bag after original giveitem",
+      "passed": true
+    },
+    {
+      "test": "FLAG_GOT_HM01 set by original event",
+      "passed": true
+    },
+    {
+      "test": "Original Vermilion ship-departure scene advanced to1",
+      "passed": true
+    }
+  ]
+}

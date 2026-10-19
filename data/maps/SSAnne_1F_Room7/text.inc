@@ -1,11 +1,9 @@
 SSAnne_1F_Room7_Text_ThomasIntro::
-    .string "I am but a solitary traveler…\p"
-    .string "My sole companions and friends are\n"
-    .string "Yo-kai I caught on my journeys…$"
+    .string "Je ne suis qu'un voyageur solitaire…\pMes seuls amis sont les Yo-kai\ncapturés au cours de mes voyages…$"
 
 SSAnne_1F_Room7_Text_ThomasDefeat::
-    .string "My, my friends…$"
+    .string "Mes… mes amis…$"
 
 SSAnne_1F_Room7_Text_ThomasPostBattle::
-    .string "You should be nice to friends!$"
+    .string "Il faut être gentil avec ses amis!$"
 

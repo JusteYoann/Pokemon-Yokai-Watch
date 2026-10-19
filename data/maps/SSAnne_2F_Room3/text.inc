@@ -1,12 +1,6 @@
 SSAnne_2F_Room3_Text_SeenMonsFerryPeople::
-    .string "Ah, yes, I have seen some Yo-kai\n"
-    .string "ferry people across the water!$"
+    .string "Oui, j'ai vu des Yo-kai\ntransporter des gens sur l'eau!$"
 
 SSAnne_2F_Room3_Text_SomeTreesCanBeCutDown::
-    .string "Small trees can be chopped down\n"
-    .string "using the move CUT.\p"
-    .string "But remember this!\n"
-    .string "CUT is an HM technique.\p"
-    .string "Once learned, it is not so easily\n"
-    .string "discarded.$"
+    .string "La capacité Coupe\nabat les petits arbres.\pMais retiens bien ceci:\nelle s'apprend avec une CS.\pUne fois apprise,\nelle n'est pas facile à oublier.$"
 

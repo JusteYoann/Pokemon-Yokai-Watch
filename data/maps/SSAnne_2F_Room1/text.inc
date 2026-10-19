@@ -1,6 +1,3 @@
 SSAnne_2F_Room1_Text_SleepingMonLookedLikeThis::
-    .string "I've journeyed far and wide, but in\n"
-    .string "all my travels I've never seen\l"
-    .string "any Yo-kai sleep like this one!\p"
-    .string "It was something like this!$"
+    .string "J'ai beaucoup voyagé,\nmais jamais je n'ai vu un Yo-kai\ldormir comme celui-là!\pIl ressemblait à ceci!$"
 

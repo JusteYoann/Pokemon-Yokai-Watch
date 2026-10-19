@@ -1,37 +1,15 @@
 SSAnne_2F_Corridor_Text_ThisShipIsLuxuryLiner::
-    .string "This ship, she is a luxury liner for\n"
-    .string "TRAINERS of the world!\p"
-    .string "At every port, we hold parties with\n"
-    .string "invited TRAINERS.$"
+    .string "Ce paquebot de luxe accueille\nles Dresseurs du monde entier!\pÀ chaque escale, nous organisons\ndes fêtes avec les Dresseurs invités.$"
 
 SSAnne_2F_Corridor_Text_RivalIntro::
-    .string "{RIVAL}: Bonjour!\n"
-    .string "{PLAYER}!\p"
-    .string "Imagine seeing you here!\n"
-    .string "{PLAYER}, were you really invited?\p"
-    .string "So how's your Médallium coming?\p"
-    .string "I already caught 40 kinds, pal.\n"
-    .string "Different kinds are everywhere.\p"
-    .string "Crawl around in grassy areas, and\n"
-    .string "look hard for them.$"
+    .string "{RIVAL}: Bonjour, {PLAYER}!\pQuelle surprise de te voir ici!\nTu avais vraiment une invitation,\l{PLAYER}?\pAlors, ton Médallium avance?\pMoi, j'ai déjà capturé 40 espèces.\nIl y en a partout!\pFouille bien les hautes herbes\net ouvre les yeux!$"
 
 SSAnne_2F_Corridor_Text_RivalDefeat::
-    .string "Humph!\p"
-    .string "At least you're raising your\n"
-    .string "Yo-kai!$"
+    .string "Pfff!\pAu moins, tu entraînes tes Yo-kai!$"
 
 SSAnne_2F_Corridor_Text_RivalVictory::
-    .string "{PLAYER}‥！\n"
-    .string "ふなよい　してるのか！\p"
-    .string "もっと　からだ\n"
-    .string "きたえた　ほうが　いいぜ！$"
+    .string "{PLAYER}! Tu as le mal de mer?\pTu devrais t'endurcir un peu!$"
 
 SSAnne_2F_Corridor_Text_RivalPostBattle::
-    .string "{RIVAL}: I heard there was a CUT\n"
-    .string "master on board.\p"
-    .string "But he was just a seasick old man!\p"
-    .string "CUT itself is really useful.\n"
-    .string "Yup, it'll be handy.\p"
-    .string "You should go see him, too.\n"
-    .string "Smell ya!$"
+    .string "{RIVAL}: On m'avait parlé\nd'un expert de Coupe à bord.\pMais ce n'est qu'un vieil homme\nqui a le mal de mer!\pCoupe est quand même\nune capacité très utile.\pTu devrais aller le voir aussi.\nÀ plus!$"
 

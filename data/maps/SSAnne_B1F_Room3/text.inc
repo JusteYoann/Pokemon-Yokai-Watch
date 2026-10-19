@@ -1,11 +1,9 @@
 SSAnne_B1F_Room3_Text_DylanIntro::
-    .string "I like feisty kids like you!$"
+    .string "J'aime les enfants pleins\nde courage comme toi!$"
 
 SSAnne_B1F_Room3_Text_DylanDefeat::
-    .string "Argh!\n"
-    .string "Lost it!$"
+    .string "Argh!\nJ'ai perdu!$"
 
 SSAnne_B1F_Room3_Text_DylanPostBattle::
-    .string "Sea Yo-kai live in deep water.\n"
-    .string "You'll need a ROD to fish them up!$"
+    .string "Les Yo-kai marins vivent\ndans les eaux profondes.\pIl te faudra une Canne\npour les pêcher!$"
 

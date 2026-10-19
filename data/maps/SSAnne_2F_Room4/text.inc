@@ -1,22 +1,18 @@
 SSAnne_2F_Room4_Text_LamarIntro::
-    .string "Which do you find more worthy,\n"
-    .string "a strong or a rare Yo-kai?$"
+    .string "Que préfères-tu?\nUn Yo-kai fort ou un Yo-kai rare?$"
 
 SSAnne_2F_Room4_Text_LamarDefeat::
-    .string "I must salute you!$"
+    .string "Je dois te saluer!$"
 
 SSAnne_2F_Room4_Text_LamarPostBattle::
-    .string "Personally, I prefer strong and\n"
-    .string "rare Yo-kai.$"
+    .string "Personnellement, je préfère\nles Yo-kai forts ET rares.$"
 
 SSAnne_2F_Room4_Text_DawnIntro::
-    .string "I don't believe I saw you at the\n"
-    .string "party?$"
+    .string "Je ne crois pas t'avoir vu\nà la fête?$"
 
 SSAnne_2F_Room4_Text_DawnDefeat::
-    .string "Take it easy!$"
+    .string "Doucement!$"
 
 SSAnne_2F_Room4_Text_DawnPostBattle::
-    .string "Oh, I adore your strong Yo-kai!\n"
-    .string "Oh, how I envy you for them!$"
+    .string "Oh, tes Yo-kai sont si forts!\nComme je t'envie!$"
 

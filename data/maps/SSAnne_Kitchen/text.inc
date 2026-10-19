@@ -1,48 +1,30 @@
 SSAnne_Kitchen_Text_BusyOutOfTheWay::
-    .string "You, mon petit!\n"
-    .string "We're busy here!\l"
-    .string "Out of the way!$"
+    .string "Toi, mon petit!\nNous sommes occupés!\lHors du passage!$"
 
 SSAnne_Kitchen_Text_SawOddBerryInTrash::
-    .string "I saw an odd BERRY in the trash.\n"
-    .string "I wonder what that was?$"
+    .string "J'ai vu une drôle de Baie\ndans la poubelle. Qu'est-ce que\lc'était?$"
 
 SSAnne_Kitchen_Text_SoBusyImDizzy::
-    .string "I'm so busy I'm getting dizzy!\n"
-    .string "You have to give me room here!$"
+    .string "J'ai tant à faire\nque j'en ai le tournis!\pLaisse-moi de la place!$"
 
 SSAnne_Kitchen_Text_PeelSpudsEveryDay::
-    .string "Hum-de-hum-de-ho…\p"
-    .string "I peel spuds every day!\n"
-    .string "Hum-hum…$"
+    .string "Hum, hum, hum…\pJ'épluche des pommes de terre\ntous les jours! Hum, hum…$"
 
 SSAnne_Kitchen_Text_HearAboutSnorlaxItsAGlutton::
-    .string "Did you hear about SNORLAX?\n"
-    .string "It's a glutton.\p"
-    .string "No other Yo-kai eats and sleeps\n"
-    .string "the way SNORLAX can and does!$"
+    .string "Tu connais Misterre?\nQuel gourmand!\pAucun autre Yo-kai ne mange\net ne dort autant que lui!$"
 
 SSAnne_Kitchen_Text_OnlyGetToPeelOnions::
-    .string "Snivel… Sniff…\p"
-    .string "I only get to peel onions…\n"
-    .string "Snivel…$"
+    .string "Snif… Snif…\pJe n'épluche que des oignons…\nSnif…$"
 
 SSAnne_Kitchen_Text_IAmLeChefMainCourseIs::
-    .string "Er-hem!\n"
-    .string "Indeed I am le CHEF!\p"
-    .string "Le main course is$"
+    .string "Hem!\nC'est moi, le Chef!\pLe plat du jour est…$"
 
 SSAnne_Kitchen_Text_SalmonDuSalad::
-    .string "Salmon du Salad!\p"
-    .string "Les guests may gripe it's fish\n"
-    .string "again, however!$"
+    .string "Une salade de saumon!\pLes clients vont encore se plaindre\nde manger du poisson!$"
 
 SSAnne_Kitchen_Text_EelsAuBarbecue::
-    .string "Eels au Barbecue!\p"
-    .string "Les guests will mutiny, I fear.$"
+    .string "Des anguilles au barbecue!\pJ'ai peur d'une mutinerie\nchez les clients…$"
 
 SSAnne_Kitchen_Text_PrimeBeefsteak::
-    .string "Prime Beefsteak!\p"
-    .string "But, have I enough fillets du\n"
-    .string "beef?$"
+    .string "Un excellent bifteck!\pMais ai-je assez\nde filets de bœuf?$"
 

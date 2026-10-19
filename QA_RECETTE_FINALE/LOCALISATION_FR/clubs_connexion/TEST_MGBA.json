@@ -1,0 +1,525 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "3cf3ef5d496805347c58d089b9b88eb0a7e433c0dd3b9cb9932aa863d8f58077",
+  "scope": "Native first-page rendering of each source message on a fixed field-map fixture with explicit variables. Dynamic placeholders explicitly expanded before rendering; native200-byte trainer-card bound checked. Not full NPC traversal, all pages, multiplayer or event-outcome testing.",
+  "results": [
+    {
+      "symbol": "CableClub_Text_WelcomeWhichCableClubService",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_WhichService",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_TradeMonsUsingLinkCable",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_BattleUsingLinkCable",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_CloseThisMenu",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_NeedTwoMonsForDoubleBattle",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_NeedTwoMonsToTrade",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_CantTradeEnigmaBerry",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_PleaseWaitBCancel",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_WhenAllPlayersReadyAConfirmBCancel",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_StartLinkWithXPlayersAConfirmBCancel",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_AwaitingLinkupBCancel",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_OkayToSaveProgress",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_PleaseEnter",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_DirectYouToYourRoom",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_SomeoneIsNotReadyToLink",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_LinkErrorPleaseReset",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_PlayersMadeDifferentSelections",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_PleaseVisitAgain",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_IncorrectNumberOfParticipants",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_CantSingleBattleWithXPlayers",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_CantDoubleBattleWithXPlayers",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_NeedFourPlayers",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_PleaseConfirmNumberAndRestart",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Text_TerminateLinkIfYouLeaveRoom",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Text_TerminateLinkConfirmation",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Text_TrainerTooBusyToNotice",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Text_LookedAtPlayersTrainerCard",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Text_LookedAtPlayersTrainerCardColored",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Text_TakeSeatStartBattle",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Text_TakeSeatStartTrade",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RecordCorner_Text_ThanksForComing",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_TrainerCardDataOverwritten",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_HopeToSeeYouAgain",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_NotSetUpForFarAwayRegion",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_OtherTrainerNotReady",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_YouHaveAMonThatCantBeTaken",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_AdapterNotConnected",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_ParticipantsStepUpToCounter",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_Hello",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_PleaseWait",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_YouMayTradeHere",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_YouMayBattleHere",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_CanMakeBerryPowder",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_CanMixRecords",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_CancelSelectedItem",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_WhichBattleMode",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_ReturnsToPreviousStep",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_NeedBerryForBerryCrush",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_NeedTwoMonsForUnionRoom",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_NoEnigmaBerryInUnionRoom",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_UnionRoomAdapterNotConnected",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_OhExcuseMe",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Text_PlayerIsPlayingRightNowGoForIt",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Text_DescribeWhichGame",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Text_PokemonJumpInfo",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Text_DodrioBerryPickingInfo",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Text_TalkToManToPlay",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Text_WelcomeCanYouWait",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_ComeAgain",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Text_AdapterNotConnectedMinigame",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Text_PlayWhichGame",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Text_EnterWhichPokemon",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Text_AllGoodToGo",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Text_LeavingDoComeAgain",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "EventScript_ExplainPokemonJumpRequirements",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Text_ShortJumpingPokemonAllowed",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Text_OnlyDodrioAllowed",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Text_RetryFromStartPlease",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_WelcomeWhichDirectCornerRoom",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_TradePokemon",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_PlayWhichBattleMode",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_UseBerryCrush",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_ExplainBattleModes",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_ChooseGroupLeaderOfTwo",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_ChooseGroupLeaderOfFour",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_ChooseGroupLeader",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_WelcomeUnionRoomEnter",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_UnionRoomInfo",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_EnjoyUnionRoom",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_FirstTimeRightThisWay",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_ExplainWirelessClubFirstTime",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_AskAboutLinking",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_ExplainWirelessClub",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CableClub_Text_HopeYouEnjoyWirelessSystem",
+      "source": "data/scripts/cable_club.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    }
+  ],
+  "captures": [
+    "CableClub_Text_WelcomeWhichCableClubService",
+    "CableClub_Text_PlayersMadeDifferentSelections",
+    "CableClub_Text_NotSetUpForFarAwayRegion",
+    "CableClub_Text_UnionRoomAdapterNotConnected",
+    "Text_RetryFromStartPlease"
+  ]
+}

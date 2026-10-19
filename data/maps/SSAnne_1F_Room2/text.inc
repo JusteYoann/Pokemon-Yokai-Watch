@@ -1,31 +1,21 @@
 SSAnne_1F_Room2_Text_TylerIntro::
-    .string "I love Yo-kai!\n"
-    .string "Do you?$"
+    .string "J'adore les Yo-kai!\nEt toi?$"
 
 SSAnne_1F_Room2_Text_TylerDefeat::
-    .string "Wow! \n"
-    .string "You're great!$"
+    .string "Ouah!\nTu es formidable!$"
 
 SSAnne_1F_Room2_Text_TylerPostBattle::
-    .string "Listen, listen!\n"
-    .string "Let me be your friend, okay?\p"
-    .string "Then we can trade Yo-kai and\n"
-    .string "do stuff.$"
+    .string "Écoute! Soyons amis, d'accord?\pOn pourra échanger des Yo-kai\net faire plein de choses!$"
 
 SSAnne_1F_Room2_Text_AnnIntro::
-    .string "I collected these Yo-kai\n"
-    .string "from all around the world!$"
+    .string "J'ai réuni ces Yo-kai\naux quatre coins du monde!$"
 
 SSAnne_1F_Room2_Text_AnnDefeat::
-    .string "Oh, no!\n"
-    .string "I went around the world for these!$"
+    .string "Oh non! J'ai fait\nle tour du monde pour eux!$"
 
 SSAnne_1F_Room2_Text_AnnPostBattle::
-    .string "You hurt my poor Yo-kai!\p"
-    .string "I demand that you heal them at a\n"
-    .string "Centre Yo-kai!$"
+    .string "Mes pauvres Yo-kai sont blessés!\pJ'exige que tu les fasses soigner\ndans un Centre de soins!$"
 
 SSAnne_1F_Room2_Text_CruisingAroundWorld::
-    .string "We are cruising around the world,\n"
-    .string "my children and I.$"
+    .string "Mes enfants et moi\nfaisons le tour du monde en bateau.$"
 

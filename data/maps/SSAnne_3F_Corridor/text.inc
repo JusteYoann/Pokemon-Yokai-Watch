@@ -1,6 +1,3 @@
 SSAnne_3F_Corridor_Text_CaptainTeachesCutToMons::
-    .string "Our CAPTAIN is a sword master.\n"
-    .string "He's awesome at using CUT.\p"
-    .string "They say he even teaches CUT\n"
-    .string "to Yo-kai!$"
+    .string "Notre Capitaine est un expert\ndu sabre et de la capacité Coupe.\pOn dit qu'il l'enseigne\nmême aux Yo-kai!$"
 

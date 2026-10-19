@@ -1,23 +1,18 @@
 SSAnne_B1F_Room4_Text_LeonardIntro::
-    .string "You know what they say about\n"
-    .string "sailors and battling!$"
+    .string "Tu connais la réputation\ndes marins au combat!$"
 
 SSAnne_B1F_Room4_Text_LeonardDefeat::
-    .string "Right!\n"
-    .string "Good battle, mate!$"
+    .string "Bien!\nBeau combat, moussaillon!$"
 
 SSAnne_B1F_Room4_Text_LeonardPostBattle::
-    .string "Hahaha!\n"
-    .string "Want to be a sailor, mate?$"
+    .string "Hahaha!\nTu veux devenir marin?$"
 
 SSAnne_B1F_Room4_Text_DuncanIntro::
-    .string "Come on, then!\n"
-    .string "My sailor's pride is at stake!$"
+    .string "En garde!\nMon honneur de marin est en jeu!$"
 
 SSAnne_B1F_Room4_Text_DuncanDefeat::
-    .string "Your spirit sank me!$"
+    .string "Ton courage m'a fait chavirer!$"
 
 SSAnne_B1F_Room4_Text_DuncanPostBattle::
-    .string "Did you see the FISHING GURU in\n"
-    .string "VERMILION CITY?$"
+    .string "Tu as rencontré le maître pêcheur\nde VERMILION CITY?$"
 

@@ -77,3 +77,13 @@ Les 30 messages de l’impression de Carte et des Autocollants sont traduits, ai
 - Compilation privée réussie, toujours **31 272 243 octets** et 26 OST conservées. [Préservation des sources et scripts](PRESERVATION_LOT5.json).
 
 La suite couvre notamment le S.S. ANNE et les villes ultérieures, les liaisons câblées et les mots Easy Chat. L’inventaire contient aussi des notices d’espèces hors des 151 et des modules hérités inutilisés : ses candidats anglais ne représentent pas autant de dialogues accessibles.
+
+## Lot 6 — S.S. ANNE et Club Câble ; reprise graphique demandée
+
+98 textes sur les 24 cartes du S.S. ANNE et les 85 messages du Club Câble sont traduits. [98 rendus natifs du bateau](ss_anne/TEST_MGBA.json), [85 rendus natifs des clubs](clubs_connexion/TEST_MGBA.json) ; ces fixtures montrent la première page et ne prouvent pas les connexions multijoueurs.
+
+[Interaction réelle avec le Capitaine dans mGBA](ss_anne/CAPITAINE_MGBA.json) : après un placement de test dans son bureau, les touches directionnelles/A déclenchent son événement original. La CS01 est absente avant, présente dans le Sac après ; le drapeau d’obtention et la scène de départ du bateau sont bien activés. Les captures montrent le dialogue français puis celui disponible après obtention. Le test ne prétend pas avoir rejoint le bateau depuis le début du scénario ni regardé son départ complet.
+
+La Cueillette de Baies annonce Carpitaine, espèce réellement exigée par le code (`SPECIES_DODRIO`), sans lui inventer trois têtes ; les collecteurs du mini-jeu sont décrits comme commandes de jeu. L’aspect hérité de ce mini-jeu reste à vérifier séparément. Les critères de participation sont inchangés.
+
+Compilation privée et [préservation des seules modifications textuelles](PRESERVATION_LOT6.json). La traduction complète n’est pas terminée. À la demande suivante du joueur, priorité passe à l’harmonisation des 151 combats selon `BATTLE_SPRITE.rar`. Le prochain lot textuel reste à reprendre après cette étape : villes et routes ultérieures, Sevii, Easy Chat et interfaces spécifiques restantes. Aucun fichier de traduction terminé n’est laissé uniquement local.

@@ -1,0 +1,85 @@
+data/scripts/cable_club.inc	CableClub_Text_WelcomeWhichCableClubService	Bienvenue au Club Câble des Yo-kai.\pQuel service souhaitez-vous utiliser?$
+data/scripts/cable_club.inc	CableClub_Text_WhichService	Quel service souhaitez-vous utiliser?$
+data/scripts/cable_club.inc	CableClub_Text_TradeMonsUsingLinkCable	Échangez des Yo-kai avec un joueur\ngrâce au câble Game Link GBA.$
+data/scripts/cable_club.inc	CableClub_Text_BattleUsingLinkCable	Affrontez un autre Dresseur\ngrâce au câble Game Link GBA.$
+data/scripts/cable_club.inc	CableClub_Text_CloseThisMenu	Fermer le menu.$
+data/scripts/cable_club.inc	CableClub_Text_NeedTwoMonsForDoubleBattle	Pour un Combat Duo,\nil faut au moins deux Yo-kai.$
+data/scripts/cable_club.inc	CableClub_Text_NeedTwoMonsToTrade	Il faut au moins deux Yo-kai\ndans votre équipe pour échanger.$
+data/scripts/cable_club.inc	CableClub_Text_CantTradeEnigmaBerry	Un Yo-kai tenant une Baie\n{STR_VAR_1} ne peut pas être\léchangé.$
+data/scripts/cable_club.inc	CableClub_Text_PleaseWaitBCancel	Veuillez patienter.\nBouton B: Annuler$
+data/scripts/cable_club.inc	CableClub_Text_WhenAllPlayersReadyAConfirmBCancel	Quand tous les joueurs sont prêts…\nBouton A: Valider\lBouton B: Annuler$
+data/scripts/cable_club.inc	CableClub_Text_StartLinkWithXPlayersAConfirmBCancel	Connexion avec {STR_VAR_1}\njoueurs.\nBouton A: Valider\lBouton B: Annuler$
+data/scripts/cable_club.inc	CableClub_Text_AwaitingLinkupBCancel	Connexion en attente…\nBouton B: Annuler$
+data/scripts/cable_club.inc	CableClub_Text_OkayToSaveProgress	Avant de commencer,\nnous devons sauvegarder.\pÊtes-vous d'accord?$
+data/scripts/cable_club.inc	CableClub_Text_PleaseEnter	Vous pouvez entrer.$
+data/scripts/cable_club.inc	CableClub_Text_DirectYouToYourRoom	Je vais vous conduire\njusqu'à votre salle.$
+data/scripts/cable_club.inc	CableClub_Text_SomeoneIsNotReadyToLink	Un joueur n'est pas prêt\npour la connexion.\pRevenez quand tout le monde\naura terminé ses préparatifs.$
+data/scripts/cable_club.inc	CableClub_Text_LinkErrorPleaseReset	Désolée, une erreur de connexion…\nRedémarrez et réessayez.$
+data/scripts/cable_club.inc	CableClub_Text_PlayersMadeDifferentSelections	Les joueurs semblent avoir\nchoisi des options différentes.$
+data/scripts/cable_club.inc	CableClub_Text_PleaseVisitAgain	Revenez nous voir.$
+data/scripts/cable_club.inc	CableClub_Text_IncorrectNumberOfParticipants	Le nombre de participants\nest incorrect.$
+data/scripts/cable_club.inc	CableClub_Text_CantSingleBattleWithXPlayers	Le Combat Solo ne peut pas\nse jouer à {STR_VAR_1} joueurs.$
+data/scripts/cable_club.inc	CableClub_Text_CantDoubleBattleWithXPlayers	Le Combat Duo ne peut pas\nse jouer à {STR_VAR_1} joueurs.$
+data/scripts/cable_club.inc	CableClub_Text_NeedFourPlayers	Il faut quatre joueurs\npour ce mode de combat.$
+data/scripts/cable_club.inc	CableClub_Text_PleaseConfirmNumberAndRestart	Vérifiez le nombre de joueurs\net recommencez.$
+data/scripts/cable_club.inc	Text_TerminateLinkIfYouLeaveRoom	Quitter la salle coupe la connexion.\nÊtes-vous d'accord?$
+data/scripts/cable_club.inc	Text_TerminateLinkConfirmation	Déconnexion…\nVous allez quitter la salle.\lVeuillez patienter.$
+data/scripts/cable_club.inc	Text_TrainerTooBusyToNotice	Ce Dresseur est trop occupé\npour vous remarquer…$
+data/scripts/cable_club.inc	Text_LookedAtPlayersTrainerCard	Super! Tu as pu consulter\nla Carte Dresseur de\l{STR_VAR_1}!$
+data/scripts/cable_club.inc	Text_LookedAtPlayersTrainerCardColored	Super! Tu as pu consulter\nla Carte Dresseur de\l{STR_VAR_1}!\pC'est une Carte {STR_VAR_2}!$
+data/scripts/cable_club.inc	Text_TakeSeatStartBattle	Prenez place\npour commencer le combat.$
+data/scripts/cable_club.inc	Text_TakeSeatStartTrade	Prenez place\npour commencer l'échange.$
+data/scripts/cable_club.inc	RecordCorner_Text_ThanksForComing	Merci de votre visite.$
+data/scripts/cable_club.inc	CableClub_Text_TrainerCardDataOverwritten	Les données de la Carte Dresseur\nvont être remplacées.$
+data/scripts/cable_club.inc	CableClub_Text_HopeToSeeYouAgain	À bientôt, j'espère!$
+data/scripts/cable_club.inc	CableClub_Text_NotSetUpForFarAwayRegion	Je suis vraiment désolée.\pNous ne pouvons pas encore\norganiser d'échanges avec\lles Dresseurs de régions lointaines…$
+data/scripts/cable_club.inc	CableClub_Text_OtherTrainerNotReady	L'autre Dresseur n'est pas prêt.$
+data/scripts/cable_club.inc	CableClub_Text_YouHaveAMonThatCantBeTaken	Au moins un de vos Yo-kai\nne peut pas participer.$
+data/scripts/cable_club.inc	CableClub_Text_AdapterNotConnected	L'adaptateur sans fil\nn'est pas correctement connecté.$
+data/scripts/cable_club.inc	CableClub_Text_ParticipantsStepUpToCounter	Les participants doivent\nse présenter au comptoir.$
+data/scripts/cable_club.inc	CableClub_Text_Hello	Bonjour!$
+data/scripts/cable_club.inc	CableClub_Text_PleaseWait	Veuillez patienter.$
+data/scripts/cable_club.inc	CableClub_Text_YouMayTradeHere	Vous pouvez échanger vos Yo-kai\navec un autre Dresseur ici.$
+data/scripts/cable_club.inc	CableClub_Text_YouMayBattleHere	Vous pouvez affronter\nvos amis ici.$
+data/scripts/cable_club.inc	CableClub_Text_CanMakeBerryPowder	De deux à cinq Dresseurs peuvent\npréparer de la Poudre de Baie.$
+data/scripts/cable_club.inc	CableClub_Text_CanMixRecords	Je vais expliquer les activités\ndu Club Sans Fil.$
+data/scripts/cable_club.inc	CableClub_Text_CancelSelectedItem	Annule la commande choisie.$
+data/scripts/cable_club.inc	CableClub_Text_WhichBattleMode	Quel type de combat choisissez-vous?$
+data/scripts/cable_club.inc	CableClub_Text_ReturnsToPreviousStep	Revient à l'étape précédente.$
+data/scripts/cable_club.inc	CableClub_Text_NeedBerryForBerryCrush	Il faut au moins une Baie\npour utiliser le Broyeur de Baies.$
+data/scripts/cable_club.inc	CableClub_Text_NeedTwoMonsForUnionRoom	Il faut au moins deux Yo-kai\npour entrer en Salle Union.$
+data/scripts/cable_club.inc	CableClub_Text_NoEnigmaBerryInUnionRoom	Un Yo-kai tenant une Baie\n{STR_VAR_1} ne peut pas\lentrer en Salle Union.$
+data/scripts/cable_club.inc	CableClub_Text_UnionRoomAdapterNotConnected	Voici la Salle Union\ndu Club Sans Fil des Yo-kai.\pMalheureusement, votre adaptateur\nsans fil n'est pas bien connecté.\pRevenez nous voir.$
+data/scripts/cable_club.inc	CableClub_Text_OhExcuseMe	Oh…\nExcusez-moi!$
+data/scripts/cable_club.inc	Text_PlayerIsPlayingRightNowGoForIt	{STR_VAR_1} semble jouer\nen ce moment.\lBonne chance!$
+data/scripts/cable_club.inc	Text_DescribeWhichGame	Je peux vous expliquer\nles règles des jeux.\pLequel vous intéresse?$
+data/scripts/cable_club.inc	Text_PokemonJumpInfo	SAUT YO-KAI\pFaites sauter votre Yo-kai\npar-dessus la liane avec A.\pSeules certaines petites espèces\npeuvent participer.\pLes Yo-kai qui ne peuvent que\nnager, voler ou creuser\lne savent pas bien sauter.\pIls ne peuvent donc pas jouer.\pSautez tous en rythme\npour obtenir de bons résultats!$
+data/scripts/cable_club.inc	Text_DodrioBerryPickingInfo	CUEILLETTE DE BAIES\pDirigez les trois collecteurs\npour attraper les Baies qui tombent.\pUtilisez droite, haut et gauche\nsur la croix {PLUS}.\pPour participer, il faut avoir\nun Carpitaine dans votre équipe.$
+data/scripts/cable_club.inc	Text_TalkToManToPlay	Pour jouer, adressez-vous\nà l'homme à côté de moi.$
+data/scripts/cable_club.inc	Text_WelcomeCanYouWait	Bonjour, bienvenue!\nVous pouvez jouer grâce\là la connexion sans fil.\pPouvez-vous patienter un instant?$
+data/scripts/cable_club.inc	CableClub_Text_ComeAgain	Très bien, à bientôt!$
+data/scripts/cable_club.inc	Text_AdapterNotConnectedMinigame	L'adaptateur sans fil\nn'est pas connecté.\pRevenez quand il sera branché!$
+data/scripts/cable_club.inc	Text_PlayWhichGame	Très bien,\nà quel jeu voulez-vous jouer?$
+data/scripts/cable_club.inc	Text_EnterWhichPokemon	Avec quel Yo-kai\nvoulez-vous participer?$
+data/scripts/cable_club.inc	Text_AllGoodToGo	Très bien, tout est prêt.\nNe laissez pas les autres gagner!$
+data/scripts/cable_club.inc	Text_LeavingDoComeAgain	Vous partez déjà?\nRevenez nous voir!$
+data/scripts/cable_club.inc	EventScript_ExplainPokemonJumpRequirements	Vous ne semblez pas avoir\nde Yo-kai pouvant participer…\pVoulez-vous connaître\nles conditions de participation?$
+data/scripts/cable_club.inc	Text_ShortJumpingPokemonAllowed	Le Saut Yo-kai accueille\ncertaines petites espèces\lcapables de sauter.\pLes Yo-kai qui ne peuvent\nque nager, voler ou creuser\lne peuvent pas participer.\pVoilà l'essentiel des règles.$
+data/scripts/cable_club.inc	Text_OnlyDodrioAllowed	Pour la Cueillette de Baies,\nil faut un Carpitaine\ldans votre équipe.$
+data/scripts/cable_club.inc	Text_RetryFromStartPlease	Veuillez recommencer\ndepuis le début.$
+data/scripts/cable_club.inc	CableClub_Text_WelcomeWhichDirectCornerRoom	Bienvenue au Coin Direct\ndu Club Sans Fil des Yo-kai.\pVous pouvez y jouer\ndirectement avec vos amis.\pDans quelle salle\nsouhaitez-vous entrer?$
+data/scripts/cable_club.inc	CableClub_Text_TradePokemon	Souhaitez-vous échanger des Yo-kai?$
+data/scripts/cable_club.inc	CableClub_Text_PlayWhichBattleMode	Quel mode de combat\nsouhaitez-vous choisir?$
+data/scripts/cable_club.inc	CableClub_Text_UseBerryCrush	Souhaitez-vous utiliser\nle Broyeur de Baies?$
+data/scripts/cable_club.inc	CableClub_Text_ExplainBattleModes	Il existe trois modes de combat.\pCombat Solo: deux Dresseurs,\navec au moins un Yo-kai chacun.\pChacun envoie un seul Yo-kai\nà la fois au combat.\pCombat Duo: deux Dresseurs,\navec au moins deux Yo-kai chacun.\pChacun envoie deux Yo-kai\nà la fois au combat.\pCombat Multi: quatre Dresseurs,\navec au moins un Yo-kai chacun.\pChaque Dresseur envoie\nun seul Yo-kai à la fois.$
+data/scripts/cable_club.inc	CableClub_Text_ChooseGroupLeaderOfTwo	Choisissez lequel de vous deux\nsera le chef du groupe.\pL'autre joueur doit ensuite\nchoisir JOINDRE GROUPE.$
+data/scripts/cable_club.inc	CableClub_Text_ChooseGroupLeaderOfFour	Choisissez lequel de vous quatre\nsera le chef du groupe.\pLes autres joueurs doivent ensuite\nchoisir JOINDRE GROUPE.$
+data/scripts/cable_club.inc	CableClub_Text_ChooseGroupLeader	Choisissez lequel d'entre vous\nsera le chef du groupe.\pLes autres joueurs doivent ensuite\nchoisir JOINDRE GROUPE.$
+data/scripts/cable_club.inc	CableClub_Text_WelcomeUnionRoomEnter	Bienvenue en Salle Union\ndu Club Sans Fil des Yo-kai.\pVous pouvez y rencontrer\nd'autres Dresseurs et jouer\lavec eux, même sans les connaître.\pSouhaitez-vous entrer?$
+data/scripts/cable_club.inc	CableClub_Text_UnionRoomInfo	Les Dresseurs en Salle Union\nsont les joueurs à proximité\lqui y sont aussi entrés.\pVous pouvez faire connaissance\net profiter de plusieurs activités.\pPour combattre en Solo, prévoyez\ndeux Yo-kai de niveau 30 maximum.\pUne discussion accueille\nde deux à cinq personnes.\pVous pouvez aussi inscrire\nun Yo-kai pour l'échanger.\pSouhaitez-vous entrer?$
+data/scripts/cable_club.inc	CableClub_Text_EnjoyUnionRoom	Passez un bon moment\nen Salle Union.$
+data/scripts/cable_club.inc	CableClub_Text_FirstTimeRightThisWay	Bonjour! Je m'appelle Télia.\pC'est votre première visite\nà cet étage, n'est-ce pas?\pJe vais vous présenter\nla connexion sans fil.\pTout d'abord, regardons\nl'étage du Centre de soins.\pPar ici, s'il vous plaît.$
+data/scripts/cable_club.inc	CableClub_Text_ExplainWirelessClubFirstTime	Il y a deux salles\nà cet étage.\pÀ gauche, la Salle Union.\pVous pouvez y rejoindre\nles Dresseurs proches de vous\lqui sont aussi dans cette salle.\pDiscutez, combattez\nou échangez avec eux.\pÀ droite, le Coin Direct.\pVous pouvez y échanger vos Yo-kai\nou affronter vos amis.\pSans adaptateur sans fil,\nle câble Game Link GBA\lpermet aussi de vous connecter.\pDans ce cas,\nallez au Coin Direct.\pProfitez bien\nde ces activités en connexion!$
+data/scripts/cable_club.inc	CableClub_Text_AskAboutLinking	Bonjour, {PLAYER}!\pC'est moi, Télia,\nl'hôtesse de l'étage du Centre.\pAvez-vous une question\nsur les connexions?$
+data/scripts/cable_club.inc	CableClub_Text_ExplainWirelessClub	Voici comment fonctionne\nle Club Sans Fil des Yo-kai.\pÀ cet étage,\nil y a deux salles.\pÀ gauche, la Salle Union.\pLes Dresseurs proches de vous\nqui entrent dans cette salle\lpeuvent vous y rejoindre.\pVous pouvez discuter, combattre\net échanger avec eux.\pÀ droite, le Coin Direct\npermet de jouer avec vos amis.\pSi vous ne trouvez pas vos amis\nen Salle Union ou au Coin Direct,\lrapprochez-vous d'eux.\pSans adaptateur sans fil,\nle câble Game Link GBA\lpermet aussi de vous connecter.\pDans ce cas,\nallez au Coin Direct.\pProfitez bien\nde ces activités en connexion!$
+data/scripts/cable_club.inc	CableClub_Text_HopeYouEnjoyWirelessSystem	Amusez-vous bien\navec la connexion sans fil!$

@@ -1,10 +1,9 @@
 SSAnne_B1F_Room2_Text_HueyIntro::
-    .string "Even us sailors have Yo-kai, too!$"
+    .string "Nous aussi, les marins,\nnous avons des Yo-kai!$"
 
 SSAnne_B1F_Room2_Text_HueyDefeat::
-    .string "Okay, you're not bad.$"
+    .string "D'accord, tu te défends bien.$"
 
 SSAnne_B1F_Room2_Text_HueyPostBattle::
-    .string "We caught all our Yo-kai while\n"
-    .string "we were out at sea.$"
+    .string "Nous avons capturé nos Yo-kai\npendant nos voyages en mer.$"
 
