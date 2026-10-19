@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "rom_bytes": 31281611,
+  "rom_sha256": "a65eb4c0fb5a73762fed444a43edff16fd9b9be9e7d7c418b52c213dab2c7e75",
+  "tests": {
+    "before": {
+      "passed": true,
+      "cases": 151,
+      "report": "avant/TEST_MGBA.json",
+      "rom_sha256": "3cf3ef5d496805347c58d089b9b88eb0a7e433c0dd3b9cb9932aa863d8f58077"
+    },
+    "after": {
+      "passed": true,
+      "cases": 151,
+      "report": "apres/TEST_MGBA.json",
+      "rom_sha256": "a65eb4c0fb5a73762fed444a43edff16fd9b9be9e7d7c418b52c213dab2c7e75"
+    },
+    "shiny": {
+      "passed": true,
+      "cases": 151,
+      "report": "shiny/TEST_MGBA.json",
+      "rom_sha256": "a65eb4c0fb5a73762fed444a43edff16fd9b9be9e7d7c418b52c213dab2c7e75"
+    },
+    "interfaces": {
+      "passed": true,
+      "cases": 30,
+      "report": "interfaces-couleurs-seules/TEST_MGBA.json",
+      "rom_sha256": "a65eb4c0fb5a73762fed444a43edff16fd9b9be9e7d7c418b52c213dab2c7e75"
+    },
+    "animations": {
+      "passed": true,
+      "cases": 28,
+      "report": "animations/TEST_MGBA.json",
+      "rom_sha256": "a65eb4c0fb5a73762fed444a43edff16fd9b9be9e7d7c418b52c213dab2c7e75"
+    }
+  },
+  "master_unchanged": true,
+  "presentation_and_palette_generation_idempotent": true,
+  "dedicated_shiny_drawings_retired": true,
+  "full_adventure_tested": false,
+  "all_attack_animations_tested": false,
+  "artistic_reference_match_exact": false,
+  "front_references_exceeding_native_aspect_limits": 86
+}

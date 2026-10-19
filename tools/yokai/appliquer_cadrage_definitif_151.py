@@ -11,6 +11,7 @@ def bounds(path):
  im=Image.open(path);m=Image.new('L',im.size);m.putdata([255 if v else 0 for v in im.get_flattened_data()]);return m.getbbox()
 def main():
  baseline=json.loads((Q/'sources/ETAT_AVANT.json').read_text());measures=[]
+ policy_path=R/'data/yokai/shiny_artwork_policy.json';dedicated=not policy_path.exists() or json.loads(policy_path.read_text())['dedicated_bitmaps_enabled']
  for mon in baseline['species']:
   n=mon['number'];im=Image.open(Q/f'references/{n:03}.png').convert('RGB');row={'number':n}
   for side,roi in [('front',(118,2,240,74)),('back',(0,48,124,113))]:
@@ -21,7 +22,7 @@ def main():
      if max(c)<115 or (max(c)-min(c)>40 and min(c)<120):pts.append((x,y))
    row[side]=[min(x for x,y in pts),min(y for x,y in pts),max(x for x,y in pts)+1,max(y for x,y in pts)+1]
   measures.append(row)
- path=R/'data/yokai/sprite_presentation.json';data=json.loads(path.read_text());profiles={p['id']:p for p in data['profiles']};decisions=[];header=R/'src/data/graphics/pokemon.h';s=header.read_text()
+ path=R/'data/yokai/sprite_presentation.json';data=json.loads(path.read_text());profiles={p['id']:p for p in data['profiles'] if dedicated or '/shiny-' not in p['id']};decisions=[];header=R/'src/data/graphics/pokemon.h';s=header.read_text()
  coords={side:(R/f'src/data/pokemon_graphics/{side}_pic_coordinates.h').read_text() for side in ['front','back']}
  for mon,measure in zip(baseline['species'],measures):
   n=mon['number']
@@ -52,7 +53,7 @@ def main():
    decisions.append(dict(number=n,name=mon['name'],side=side,source_bbox=box,reference_bbox=ref,scale_q8=q,center_x=cx,top=top,y_offset=yoff,predicted_bbox=actual,limitations=limits,source_artwork_unchanged=True,axis_flip=False))
    # Independent shiny silhouettes receive equivalent placement, with their own width safety.
    shiny=profiles.get(f'{n:03}/shiny-{side}')
-   if (R/f'graphics/yokai_shiny/{n:03}/{side}.png').exists():
+   if dedicated and (R/f'graphics/yokai_shiny/{n:03}/{side}.png').exists():
     if shiny is None:
      shiny=dict(p,id=f'{n:03}/shiny-{side}',source=f'graphics/yokai_shiny/{n:03}/{side}.4bpp',target=f'graphics/yokai_shiny/{n:03}/{side}-display.4bpp');profiles[shiny['id']]=shiny
     b=bounds(R/f'graphics/yokai_shiny/{n:03}/{side}.png');w,h=b[2]-b[0],b[3]-b[1];sq=q

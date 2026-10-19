@@ -7,6 +7,11 @@ with nearest sampling; shared RGB555 palette for each front/back; zero transpare
 import hashlib,json
 from pathlib import Path
 from PIL import Image,ImageDraw
+# Retired by the user: prevent a historical conversion from restoring old art.
+_policy = Path(__file__).resolve().parents[2]/'data/yokai/shiny_artwork_policy.json'
+if _policy.exists() and not json.loads(_policy.read_text())['dedicated_bitmaps_enabled']:
+ raise SystemExit('Dedicated shiny drawings retired; use appliquer_shiny_couleurs_seules.py')
+
 R=Path(__file__).resolve().parents[2];D=R/'graphics/yokai_shiny'
 coach=[(0,0,0),(16,16,24),(48,48,56),(96,104,112),(248,248,240),(176,128,24),(232,192,40),(248,224,96),(128,56,16),(208,88,24),(248,128,32),(216,40,24),(16,128,160),(80,200,224),(88,48,160),(160,160,160)]
 usa=[(0,0,0),(16,16,24),(32,32,40),(64,80,88),(112,136,144),(160,104,24),(248,216,40),(248,240,104),(0,80,96),(0,144,160),(64,200,208),(240,32,48),(240,240,224),(88,56,112),(168,192,192),(16,48,56)]

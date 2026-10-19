@@ -352,45 +352,10 @@ void LoadSpecialPokePic_DontHandleDeoxys(const struct CompressedSpriteSheet *src
     DrawSpindaSpots(species, personality, dest, isFrontPic);
 }
 
-// Palette selection already contains the actual OT-ID/personality/eligibility
-// decision. Never infer shiny state from personality alone or mutable globals.
-// Indexed bitmaps use the same species shiny palette already selected by the
-// engine, and are uploaded through the existing native mon-picture paths.
-static const u32 sYokaiShiny019Front[] = INCBIN_U32("graphics/yokai_shiny/019/front-display.4bpp.lz");
-static const u32 sYokaiShiny019Back[] = INCBIN_U32("graphics/yokai_shiny/019/back-display.4bpp.lz");
-static const u32 sYokaiShiny099Front[] = INCBIN_U32("graphics/yokai_shiny/099/front-display.4bpp.lz");
-static const u32 sYokaiShiny099Back[] = INCBIN_U32("graphics/yokai_shiny/099/back-display.4bpp.lz");
-static const u32 sYokaiShiny100Front[] = INCBIN_U32("graphics/yokai_shiny/100/front-display.4bpp.lz");
-static const u32 sYokaiShiny100Back[] = INCBIN_U32("graphics/yokai_shiny/100/back-display.4bpp.lz");
-static const u32 sYokaiShiny101Front[] = INCBIN_U32("graphics/yokai_shiny/101/front-display.4bpp.lz");
-static const u32 sYokaiShiny101Back[] = INCBIN_U32("graphics/yokai_shiny/101/back-display.4bpp.lz");
-static const u32 sYokaiShiny126Front[] = INCBIN_U32("graphics/yokai_shiny/126/front-display.4bpp.lz");
-static const u32 sYokaiShiny126Back[] = INCBIN_U32("graphics/yokai_shiny/126/back-display.4bpp.lz");
-
-static const struct {
-    u16 species;
-    const u32 *front;
-    const u32 *back;
-} sYokaiShinyPictures[] = {
-    {SPECIES_RATTATA, sYokaiShiny019Front, sYokaiShiny019Back},
-    {SPECIES_KINGLER, sYokaiShiny099Front, sYokaiShiny099Back},
-    {SPECIES_VOLTORB, sYokaiShiny100Front, sYokaiShiny100Back},
-    {SPECIES_ELECTRODE, sYokaiShiny101Front, sYokaiShiny101Back},
-    {SPECIES_MAGMAR, sYokaiShiny126Front, sYokaiShiny126Back},
-};
-
+// Dedicated shiny drawings retired by user decision. All picture-loading paths
+// retain the normal indexed silhouette and apply the species shiny palette.
+// Keep this compatibility hook for existing callers; it never overwrites tiles.
 bool8 TryLoadYokaiShinyPicWithPalette(void *dest, u16 species, const void *palette, bool8 isFrontPic)
 {
-    u32 i;
-
-    for (i = 0; i < ARRAY_COUNT(sYokaiShinyPictures); i++)
-    {
-        if (species != sYokaiShinyPictures[i].species)
-            continue;
-        if (palette != gMonShinyPaletteTable[species].data)
-            return FALSE;
-        LZ77UnCompWram(isFrontPic ? sYokaiShinyPictures[i].front : sYokaiShinyPictures[i].back, dest);
-        return TRUE;
-    }
     return FALSE;
 }

@@ -3113,72 +3113,6 @@
       "reason": "Icône 151: gabarit petit, boîte initiale 24×29, plafond 18px, centre de masse et deux images préservés"
     },
     {
-      "id": "019/shiny-back",
-      "source": "graphics/yokai_shiny/019/back.4bpp",
-      "target": "graphics/yokai_shiny/019/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 293,
-      "top": 13,
-      "reason": "Same reference placement as normal; existing independent shiny artwork untouched; native width bounded",
-      "center_x": 32
-    },
-    {
-      "id": "099/shiny-back",
-      "source": "graphics/yokai_shiny/099/back.4bpp",
-      "target": "graphics/yokai_shiny/099/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 293,
-      "top": 10,
-      "reason": "Same reference placement as normal; existing independent shiny artwork untouched; native width bounded",
-      "center_x": 32
-    },
-    {
-      "id": "100/shiny-front",
-      "source": "graphics/yokai_shiny/100/front.4bpp",
-      "target": "graphics/yokai_shiny/100/front-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 293,
-      "reason": "Same reference placement as normal; existing independent shiny artwork untouched; native width bounded",
-      "center_x": 26,
-      "top": 0
-    },
-    {
-      "id": "100/shiny-back",
-      "source": "graphics/yokai_shiny/100/back.4bpp",
-      "target": "graphics/yokai_shiny/100/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 412,
-      "top": 7,
-      "reason": "Same reference placement as normal; existing independent shiny artwork untouched; native width bounded",
-      "center_x": 30
-    },
-    {
-      "id": "101/shiny-back",
-      "source": "graphics/yokai_shiny/101/back.4bpp",
-      "target": "graphics/yokai_shiny/101/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 296,
-      "top": 0,
-      "reason": "Same reference placement as normal; existing independent shiny artwork untouched; native width bounded",
-      "center_x": 30
-    },
-    {
-      "id": "126/shiny-front",
-      "source": "graphics/yokai_shiny/126/front.4bpp",
-      "target": "graphics/yokai_shiny/126/front-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 293,
-      "reason": "Same reference placement as normal; existing independent shiny artwork untouched; native width bounded",
-      "center_x": 32,
-      "top": 6
-    },
-    {
       "id": "001/front",
       "source": "graphics/yokai/001/front.4bpp",
       "target": "graphics/yokai/001/front-display.4bpp",
@@ -5069,50 +5003,6 @@
       "center_x": 32,
       "top": 5,
       "reason": "BATTLE_SPRITE 150: reference bounds [30, 58, 110, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
-    },
-    {
-      "id": "019/shiny-front",
-      "source": "graphics/yokai_shiny/019/front.4bpp",
-      "target": "graphics/yokai_shiny/019/front-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 293,
-      "center_x": 32,
-      "top": 17,
-      "reason": "Same reference placement as normal; existing independent shiny artwork untouched; native width bounded"
-    },
-    {
-      "id": "099/shiny-front",
-      "source": "graphics/yokai_shiny/099/front.4bpp",
-      "target": "graphics/yokai_shiny/099/front-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 270,
-      "center_x": 29,
-      "top": 2,
-      "reason": "Same reference placement as normal; existing independent shiny artwork untouched; native width bounded"
-    },
-    {
-      "id": "101/shiny-front",
-      "source": "graphics/yokai_shiny/101/front.4bpp",
-      "target": "graphics/yokai_shiny/101/front-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 293,
-      "center_x": 27,
-      "top": 0,
-      "reason": "Same reference placement as normal; existing independent shiny artwork untouched; native width bounded"
-    },
-    {
-      "id": "126/shiny-back",
-      "source": "graphics/yokai_shiny/126/back.4bpp",
-      "target": "graphics/yokai_shiny/126/back-display.4bpp",
-      "frame_width": 64,
-      "frame_height": 64,
-      "scale_q8": 293,
-      "center_x": 32,
-      "top": 12,
-      "reason": "Same reference placement as normal; existing independent shiny artwork untouched; native width bounded"
     }
   ]
 }

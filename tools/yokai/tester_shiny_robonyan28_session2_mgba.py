@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Five special shiny drawings: normal/shiny renderer regression: actual PC, summary and generic front/back.
+"""Five formerly dedicated species: normal/shiny renderer regression in PC, summary and generic front/back.
 
 Explicit party/box/UI fixtures after real new-game init; not trading gameplay.
 """
-import hashlib,json
+import hashlib,json,os
 from PIL import Image,ImageDraw
 from mgba_rpc import ROOT
 from mgba_new_game import new_game
-P=ROOT/'QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/shiny-interfaces';P.mkdir(parents=True,exist_ok=True)
+P=ROOT/os.environ.get('YOKAI_SHINY_REPORT_DIR','QA_RECETTE_FINALE/POST_B13/SESSION_2_GRAPHISMES/shiny-interfaces');P.mkdir(parents=True,exist_ok=True)
 r=new_game();base=r.snapshot();rows=[];frames=[];passed=False;error='Interrupted'
 try:
  for species,shiny in [(n,b) for n in [19,99,100,101,126] for b in [False,True]]:
@@ -27,7 +27,8 @@ try:
    sprite=r.call('CreateMonPicSprite_HandleDeoxys',species,0,pid,int(front),120,80,12,65535)
    assert sprite<64
    images=r.u32(r.symbols['gSprites']+68*sprite+12);tiles=r.u32(images)
-   directory=f'graphics/yokai_shiny/{species:03}' if shiny else f'graphics/yokai/{species:03}';stem='front' if front else 'back'
+   policy=ROOT/'data/yokai/shiny_artwork_policy.json';dedicated=not policy.exists() or json.loads(policy.read_text())['dedicated_bitmaps_enabled']
+   directory=f'graphics/yokai_shiny/{species:03}' if shiny and dedicated else f'graphics/yokai/{species:03}';stem='front' if front else 'back'
    file=ROOT/f'{directory}/{stem}-display.4bpp'
    if not file.exists():file=ROOT/f'{directory}/{stem}.4bpp'
    assert r.read(tiles,2048)==file.read_bytes(),(label,stem,'Generic native tiles differ')

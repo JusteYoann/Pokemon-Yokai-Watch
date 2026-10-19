@@ -3,6 +3,11 @@
 import hashlib,json
 from pathlib import Path
 from PIL import Image,ImageDraw
+# Retired by the user: prevent a historical conversion from restoring old art.
+_policy = Path(__file__).resolve().parents[2]/'data/yokai/shiny_artwork_policy.json'
+if _policy.exists() and not json.loads(_policy.read_text())['dedicated_bitmaps_enabled']:
+ raise SystemExit('Dedicated shiny drawings retired; use appliquer_shiny_couleurs_seules.py')
+
 R=Path(__file__).resolve().parents[2];D=R/'graphics/yokai_shiny_artwork/019';p=D/'source/generated-sheet.png';source=Image.open(p).convert('RGBA');parts=[];rects=[]
 for i in range(2):
  rect=(i*source.width//2,0,(i+1)*source.width//2,source.height);rects.append(rect);c=source.crop(rect);a=c.getchannel('A').point(lambda x:255 if x>=128 else 0);assert a.getbbox();c.putalpha(a);parts.append(c.crop(a.getbbox()))
