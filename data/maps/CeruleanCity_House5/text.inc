@@ -1,70 +1,36 @@
 CeruleanCity_House1_Text_AnyInterestInBerries::
-    .string "I concoct a variety of medicine\n"
-    .string "from BERRY POWDER.\p"
-    .string "Using good BERRY POWDER, I can\n"
-    .string "make any kind of medicine.\p"
-    .string "Now tell me, have you any interest\n"
-    .string "in BERRIES?$"
+    .string "Je prépare des remèdes\navec de la Poudre de Baie.\pUne bonne poudre permet\nde fabriquer toutes sortes de soins.\pDis-moi,\nles Baies t'intéressent-elles?$"
 
 CeruleanCity_House1_Text_HaveJustTheThing::
-    .string "Ah, good! For you, then, I have\n"
-    .string "just the thing.$"
+    .string "Ah, parfait!\nJ'ai justement ce qu'il te faut.$"
 
 CeruleanCity_House1_Text_GoCrushBerriesAtDirectCorner::
-    .string "There's something new on the second\n"
-    .string "floor of Yo-kai CENTERS, at the\l"
-    .string "DIRECT CORNER.\p"
-    .string "They installed a Wireless Adapter\n"
-    .string "machine for crushing BERRIES.\p"
-    .string "This is where you come in.\p"
-    .string "I have a favor to ask, one that\n"
-    .string "I can entrust only to you.\p"
-    .string "Could you make BERRY POWDER for\n"
-    .string "me using that machine?\p"
-    .string "Don't forget, the machine is at the\n"
-    .string "DIRECT CORNER of Yo-kai CENTERS.\p"
-    .string "I'll concoct medicine for you if\n"
-    .string "you bring me some BERRY POWDER.\p"
-    .string "Don't forget, crush BERRIES into\n"
-    .string "BERRY POWDER and bring it to me.$"
+    .string "Il y a une nouveauté\nau Coin Direct, à l'étage\ldes Centres de soins.\pUne machine permet de broyer\ndes Baies avec l'adaptateur sans fil.\pJ'ai un service à te demander.\pPourrais-tu me fabriquer\nde la Poudre de Baie?\pLa machine est au Coin Direct\ndes Centres de soins, n'oublie pas.\pApporte-moi de la poudre\net je te préparerai des remèdes.\pBroie tes Baies\net rapporte-moi la poudre!$"
 
 CeruleanCity_House1_Text_WhyMustYouLieNoBerries::
-    .string "Why must you lie to me?\p"
-    .string "How many BERRIES do you have?\n"
-    .string "Not a one!$"
+    .string "Pourquoi me mentir?\pTu n'as pas\nla moindre Baie!$"
 
 CeruleanCity_House1_Text_TakeInterestInAllSortsOfThings::
-    .string "You have no interest in BERRIES?\p"
-    .string "Young one, it's important to take an\n"
-    .string "interest in all sorts of things.$"
+    .string "Les Baies ne t'intéressent pas?\pIl faut savoir s'intéresser\nà toutes sortes de choses!$"
 
 CeruleanCity_House1_Text_HaveYouBroughtBerryPowder::
-    .string "Er-hem! Have you brought me some\n"
-    .string "BERRY POWDER?$"
+    .string "Hem! M'as-tu apporté\nde la Poudre de Baie?$"
 
 CeruleanCity_House5_Text_ExchangeWithWhat::
-    .string "With what would you like to \n"
-    .string "exchange it?$"
+    .string "Contre quoi\nveux-tu l'échanger?$"
 
 CeruleanCity_House1_Text_YoullExchangeBerryPowderForItem::
-    .string "Fine, you'll exchange your BERRY\n"
-    .string "POWDER for one {STR_VAR_1}?$"
+    .string "Tu veux échanger ta Poudre\nde Baie contre {STR_VAR_1}?$"
 
 CeruleanCity_House1_Text_DontHaveEnoughBerryPowder::
-    .string "Hm? You don't have enough\n"
-    .string "BERRY POWDER.$"
+    .string "Tu n'as pas assez\nde Poudre de Baie.$"
 
 CeruleanCity_House1_Text_TradeMoreBerryPowder::
-    .string "This is fine BERRY POWDER indeed.\n"
-    .string "It will make excellent medicine.\p"
-    .string "Would you like to trade more BERRY\n"
-    .string "POWDER for something else?$"
+    .string "Excellente Poudre de Baie!\nElle fera de très bons remèdes.\pVeux-tu en échanger encore\ncontre autre chose?$"
 
 CeruleanCity_House1_Text_HopeToSeeYouAgain::
-    .string "That's fine, then.\n"
-    .string "I'll hope to see you back again.$"
+    .string "Très bien.\nJ'espère te revoir bientôt.$"
 
 CeruleanCity_House1_Text_SeeMeIfYoudLikeToTradePowder::
-    .string "Come see me if you'd like to trade\n"
-    .string "your BERRY POWDER.$"
+    .string "Reviens si tu veux échanger\nde la Poudre de Baie.$"
 

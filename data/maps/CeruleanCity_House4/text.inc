@@ -1,62 +1,24 @@
 CeruleanCity_House4_Text_NothingEntertaining::
-    .string "Sigh…\n"
-    .string "Too much time, too little to do…\p"
-    .string "Is nothing entertaining happening\n"
-    .string "anywhere?$"
+    .string "Pfff… Beaucoup de temps,\nmais rien à faire…\pIl ne se passe donc\nrien d'intéressant?$"
 
 CeruleanCity_House4_Text_NewNewsInformativeHaveThis::
-    .string "Ah!\n"
-    .string "A new news report!\p"
-    .string "Hmm…\p"
-    .string "I see!\n"
-    .string "That was quite informative!\p"
-    .string "I applaud you for taking interest\n"
-    .string "in the news at your young age.\p"
-    .string "As my thanks for sharing the news\n"
-    .string "with me, I want you to have this.$"
+    .string "Ah! Une nouvelle information!\pHmm… Je vois!\nVoilà qui est instructif!\pBravo de t'intéresser\naux nouvelles à ton âge.\pPour te remercier\nde m'en avoir fait profiter,\lje voudrais te donner ceci.$"
 
 CeruleanCity_House4_Text_IncredibleNewsHaveBerries::
-    .string "Oh, oh!\n"
-    .string "Th-this news report!\p"
-    .string "Hmm…\p"
-    .string "Amazing!\n"
-    .string "What an incredible piece of news!\p"
-    .string "I haven't seen a news story this\n"
-    .string "incredible in too long a time!\p"
-    .string "Thanks for sharing this fantastic\n"
-    .string "news. Have a bunch of BERRIES!$"
+    .string "Oh! Cette information!\pHmm… Incroyable!\pJe n'avais pas entendu\nune nouvelle aussi étonnante\ldepuis longtemps!\pMerci de me l'avoir racontée.\nPrends donc quelques Baies!$"
 
 CeruleanCity_House4_Text_WishCouldShareNewsWithOthers::
-    .string "It seems such a shame to not share\n"
-    .string "this news with other folks…\p"
-    .string "I wish I could tell someone…\n"
-    .string "Let others know the news…$"
+    .string "Quel dommage de garder\ncette nouvelle pour moi…\pJ'aimerais que d'autres\nen profitent aussi.$"
 
 CeruleanCity_House4_Text_ThanksForSpreadingNewsTakeThis::
-    .string "Ah, you've spread the news for me?\p"
-    .string "Good news becomes worthwhile when\n"
-    .string "all sorts of people share it.\p"
-    .string "As my thanks for your spreading\n"
-    .string "the news, take this!$"
+    .string "Tu as partagé cette nouvelle?\pLes informations sont plus utiles\nquand elles circulent!\pPour te remercier,\nprends donc ceci!$"
 
 CeruleanCity_House4_Text_MagnificentNewsSpreadHaveBerries::
-    .string "You've spread the news some more?\n"
-    .string "Magnificent!\p"
-    .string "That piece of news must be\n"
-    .string "delighted to be passed around so.\p"
-    .string "Yes, indeed!\p"
-    .string "Consider this a show of\n"
-    .string "appreciation from me and the news.\p"
-    .string "I'll give you more BERRIES than\n"
-    .string "I usually do.$"
+    .string "Tu as encore partagé la nouvelle?\nMagnifique!\pElle doit être ravie\nde voyager autant!\pVoici ma marque de gratitude:\nencore plus de Baies\lque d'habitude!$"
 
 CeruleanCity_House4_Text_EnjoyingMyselfWithAllSortsOfNews::
-    .string "I'm quite enjoying myself with all\n"
-    .string "sorts of news.\p"
-    .string "Yes, I am satisfied!\n"
-    .string "I won't be bored for a while.$"
+    .string "Toutes ces informations\nme divertissent beaucoup!\pMe voilà comblé!\nJe ne vais plus m'ennuyer.$"
 
 CeruleanCity_House4_Text_YourBerryPouchIsFull::
-    .string "Hm? Your BERRY POUCH is full.\n"
-    .string "My gift remains ungiven, then.$"
+    .string "Hmm? Ton Sac à Baies est plein.\nMon cadeau devra attendre.$"
 

@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "b25797bb1cb603f9dce55bde4e3c8e097074dcb01a95d15de1ee57b312272fa0",
+  "scope": "7 linked menu widths and6 original TV menu selections/introductory rendering, with TM Case granted as a fixture to unlock all6 lessons. Does not test full scripted demo outcomes, capture or reward.",
+  "results": [
+    {
+      "test": "Native linked menu label width",
+      "symbol": "gTeachyTvString_TeachBattle",
+      "width": 120,
+      "passed": true
+    },
+    {
+      "test": "Native linked menu label width",
+      "symbol": "gTeachyTvString_StatusProblems",
+      "width": 130,
+      "passed": true
+    },
+    {
+      "test": "Native linked menu label width",
+      "symbol": "gTeachyTvString_TypeMatchups",
+      "width": 125,
+      "passed": true
+    },
+    {
+      "test": "Native linked menu label width",
+      "symbol": "gTeachyTvString_CatchPkmn",
+      "width": 107,
+      "passed": true
+    },
+    {
+      "test": "Native linked menu label width",
+      "symbol": "gTeachyTvString_AboutTMs",
+      "width": 80,
+      "passed": true
+    },
+    {
+      "test": "Native linked menu label width",
+      "symbol": "gTeachyTvString_RegisterItem",
+      "width": 110,
+      "passed": true
+    },
+    {
+      "test": "Native linked menu label width",
+      "symbol": "gTeachyTvString_Cancel",
+      "width": 36,
+      "passed": true
+    },
+    {
+      "test": "Original TV menu selects episode and displays native introductory text",
+      "episode": "combats",
+      "passed": true
+    },
+    {
+      "test": "Original TV menu selects episode and displays native introductory text",
+      "episode": "statuts",
+      "passed": true
+    },
+    {
+      "test": "Original TV menu selects episode and displays native introductory text",
+      "episode": "types",
+      "passed": true
+    },
+    {
+      "test": "Original TV menu selects episode and displays native introductory text",
+      "episode": "captures",
+      "passed": true
+    },
+    {
+      "test": "Original TV menu selects episode and displays native introductory text",
+      "episode": "ct",
+      "passed": true
+    },
+    {
+      "test": "Original TV menu selects episode and displays native introductory text",
+      "episode": "objets",
+      "passed": true
+    }
+  ]
+}

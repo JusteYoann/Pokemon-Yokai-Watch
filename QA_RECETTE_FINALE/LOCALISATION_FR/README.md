@@ -41,3 +41,15 @@ Vérifications supplémentaires :
 - Compilation privée réussie, toujours 31 272 243 octets. [Préservation des sources, effets d’objets, scripts, graphismes et audio](PRESERVATION_LOT2.json). Les rapports d’émulation portent l’empreinte du jalon précis testé ; tous n’ont pas été générés après la dernière modification textuelle.
 
 Le journal de reprise et les dialogues de Viridian restent à parcourir en situation réelle. Le chantier intégral se poursuit ; ces vérifications ciblées ne valident pas toute l’aventure.
+
+## Lot 3 — Médallium, TV ABC et trajet jusqu’à Cerulean
+
+Les 151 notices actives n’emploient plus les biographies anglaises des Pokémon remplacés. Elles donnent des faits vérifiables dans les sources validées : types, statistique de combat la plus élevée (hors PV) et premier talent. Il ne s’agit pas de biographies officielles Yo-kai Watch inventées. Les catégories deviennent « Yo-kai » ; un espace terminal conserve la compatibilité du lecteur de catégories de Rouge Feu révision 0. Le suffixe qui répétait « Yo-kai » est retiré. Les tailles, poids et échelles hérités sont conservés et ne sont pas certifiés par cette tâche textuelle.
+
+[151 notices et 15 pages rendues dans mGBA](medallium/TEST_MGBA.json), [captures vérifiées](medallium/PLANCHE.png). Les drapeaux de capture sont préparés par le test ; les pages sont redessinées par les fonctions natives. L’en-tête d’habitat reste celui de la liste ouverte par la fixture : la planche n’est pas une reclassification des habitats.
+
+Traduction de tous les textes des neuf cartes de Pewter, des routes 1 à 4 et de leurs bâtiments, de MT. MOON, des rencontres avec Matt sur la Route 22 et des dix cartes de Cerulean (310 entrées de dialogue au total dans les tables 12, 14 et 15). Les noms propres géographiques préexistants ne sont pas renommés. Les combats, gains et scripts sont inchangés. La vente de la Route 4 annonce Castelius III, l’espèce réellement donnée par le script (`SPECIES_EXEGGCUTE`), sans appliquer aveuglément la correspondance de Magicarpe.
+
+Les 42 textes de la TV ABC et de son démonstrateur sont traduits. Les explications respectent les types réellement intégrés de Télémir, Superfouet et Saumhonni, et le Multi Exp. permanent. [13 contrôles mGBA](tv_abc/TEST_MGBA.json) : sept libellés et sélection des six émissions, avec Boîte CT accordée par la fixture pour ouvrir les deux dernières leçons. [Captures examinées](tv_abc/PLANCHE.png). Les combats pédagogiques complets ne sont pas validés ici.
+
+Compilation privée réussie avec les 26 OST : toujours **31 272 243 octets**. [Preuve des seules modifications textuelles](PRESERVATION_LOT3.json). Restent de nombreux dialogues ultérieurs, les aides, revanches, salles de connexion et certains écrans spécifiques : aucune déclaration de traduction intégrale terminée.

@@ -1,72 +1,33 @@
 CeruleanCity_House1_Text_BadgesHaveAmazingSecrets::
-    .string "Only skilled TRAINERS can collect\n"
-    .string "Yo-kai BADGES.\p"
-    .string "I see you have at least one.\p"
-    .string "Those BADGES have amazing secrets,\n"
-    .string "did you know?$"
+    .string "Seuls les Dresseurs habiles\nréunissent les Badges.\pJe vois que tu en as déjà un.\pIls cachent des secrets\nétonnants, tu sais?$"
 
 CeruleanCity_House1_Text_DescribeWhichBadge::
-    .string "Now then…\p"
-    .string "Which of the eight BADGES should\n"
-    .string "I describe?$"
+    .string "Voyons…\pLequel des huit Badges\nveux-tu que je te décrive?$"
 
 CeruleanCity_House1_Text_ComeVisitAnytime::
-    .string "Come visit me anytime you wish.$"
+    .string "Reviens me voir quand tu veux.$"
 
 CeruleanCity_House1_Text_AttackStatFlash::
-    .string "The ATTACK stat of all your\n"
-    .string "Yo-kai increases a little bit.\p"
-    .string "It also lets you use the move\n"
-    .string "FLASH outside of battle.$"
+    .string "L'Attaque de tes Yo-kai\naugmente légèrement.\pTu peux aussi utiliser Flash\nen dehors des combats.$"
 
 CeruleanCity_House1_Text_ObeyLv30Cut::
-    .string "Yo-kai up to Lv. 30 will obey\n"
-    .string "you.\p"
-    .string "That includes even outsiders you\n"
-    .string "obtain in trades.\p"
-    .string "Yo-kai of higher levels will\n"
-    .string "be unruly in battle, however.\p"
-    .string "It also lets you use the move\n"
-    .string "CUT outside of battle.$"
+    .string "Les Yo-kai jusqu'au niveau 30\nt'obéissent, même ceux échangés.\pAu-delà, ils risquent\nde désobéir au combat.\pTu peux aussi utiliser Coupe\nen dehors des combats.$"
 
 CeruleanCity_House1_Text_SpeedStatFly::
-    .string "The SPEED stat of all your\n"
-    .string "Yo-kai increases a little bit.\p"
-    .string "It also lets you use the move\n"
-    .string "FLY outside of battle.$"
+    .string "La Vitesse de tes Yo-kai\naugmente légèrement.\pTu peux aussi utiliser Vol\nen dehors des combats.$"
 
 CeruleanCity_House1_Text_ObeyLv50Strength::
-    .string "Yo-kai up to Lv. 50 will obey\n"
-    .string "you.\p"
-    .string "That includes even outsiders you\n"
-    .string "obtain in trades.\p"
-    .string "Yo-kai of higher levels will\n"
-    .string "be unruly in battle, however.\p"
-    .string "It also lets you use the move\n"
-    .string "STRENGTH outside of battle.$"
+    .string "Les Yo-kai jusqu'au niveau 50\nt'obéissent, même ceux échangés.\pAu-delà, ils risquent\nde désobéir au combat.\pTu peux aussi utiliser Force\nen dehors des combats.$"
 
 CeruleanCity_House1_Text_DefenseStatSurf::
-    .string "The DEFENSE stat of all your\n"
-    .string "Yo-kai increases a little bit.\p"
-    .string "It also lets you use the move\n"
-    .string "SURF outside of battle.$"
+    .string "La Défense de tes Yo-kai\naugmente légèrement.\pTu peux aussi utiliser Surf\nen dehors des combats.$"
 
 CeruleanCity_House1_Text_ObeyLv70RockSmash::
-    .string "Yo-kai up to Lv. 70 will obey\n"
-    .string "you.\p"
-    .string "That includes even outsiders you\n"
-    .string "obtain in trades.\p"
-    .string "Yo-kai of higher levels will\n"
-    .string "be unruly in battle, however.\p"
-    .string "It also lets you use the move\n"
-    .string "ROCK SMASH outside of battle.$"
+    .string "Les Yo-kai jusqu'au niveau 70\nt'obéissent, même ceux échangés.\pAu-delà, ils risquent\nde désobéir au combat.\pTu peux aussi utiliser Éclate-Roc\nen dehors des combats.$"
 
 CeruleanCity_House1_Text_SpStatsWaterfall::
-    .string "The SP. ATK and SP. DEF stats of\n"
-    .string "all your Yo-kai rise a little bit.\p"
-    .string "It also lets you use the move\n"
-    .string "WATERFALL outside of battle.$"
+    .string "L'Attaque Spéciale et la Défense\nSpéciale augmentent légèrement.\pTu peux aussi utiliser Cascade\nen dehors des combats.$"
 
 CeruleanCity_House1_Text_AllMonsWillObeyYou::
-    .string "All Yo-kai will obey you!$"
+    .string "Tous les Yo-kai t'obéissent!$"
 

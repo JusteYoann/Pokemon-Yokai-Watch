@@ -1,20 +1,9 @@
 Route2_ViridianForest_NorthEntrance_Text_ManyMonsOnlyInForests::
-    .string "Many Yo-kai live only in forests \n"
-    .string "and caves.\p"
-    .string "You need to be persistent and look\n"
-    .string "everywhere to get different kinds.$"
+    .string "Certains Yo-kai ne vivent\nque dans les forêts ou les grottes.\pPour en trouver de toutes sortes,\nexplore les moindres recoins!$"
 
 Route2_ViridianForest_NorthEntrance_Text_CanCutSkinnyTrees::
-    .string "Have you noticed the skinny trees\n"
-    .string "on the roadside?\p"
-    .string "They can be cut down by a special\n"
-    .string "Yo-kai move, I hear.$"
+    .string "Tu as remarqué les petits arbres\nau bord du chemin?\pUne capacité de Yo-kai\npermettrait de les couper.$"
 
 Route2_ViridianForest_NorthEntrance_Text_CanCancelEvolution::
-    .string "Do you know the evolution-cancel\n"
-    .string "technique?\p"
-    .string "When a Yo-kai is evolving, you\n"
-    .string "can stop the process.\p"
-    .string "It's a technique for raising\n"
-    .string "Yo-kai the way they are.$"
+    .string "Sais-tu qu'on peut\nannuler une évolution?\pQuand un Yo-kai évolue,\ntu peux arrêter le processus.\pPratique si tu préfères\nconserver son apparence actuelle!$"
 

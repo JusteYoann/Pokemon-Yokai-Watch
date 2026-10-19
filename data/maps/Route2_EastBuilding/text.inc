@@ -1,32 +1,15 @@
 Route2_EastBuilding_Text_GiveHM05IfSeen10Mons::
-    .string "Hi! Remember me?\n"
-    .string "I'm one of PROF. OAK's AIDES.\p"
-    .string "If your Médallium has complete data\n"
-    .string "on ten species, I'm supposed to\l"
-    .string "give you a reward.\p"
-    .string "PROF. OAK entrusted me with\n"
-    .string "HM05 for you.\p"
-    .string "So, {PLAYER}, let me ask you.\p"
-    .string "Have you gathered data on at least\n"
-    .string "ten kinds of Yo-kai?$"
+    .string "Bonjour! Tu te souviens de moi?\nJe suis un assistant de Chen.\pSi ton Médallium contient\nles données complètes de dix\lespèces,\lje dois te remettre une récompense.\pChen m'a confié la CS05 pour toi.\pDis-moi, {PLAYER},\nas-tu déjà possédé au moins\ldix espèces de Yo-kai?$"
 
 Route2_EastBuilding_Text_GreatHereYouGo::
-    .string "Great! You have caught or owned\n"
-    .string "{STR_VAR_3} kinds of Yo-kai!\p"
-    .string "Congratulations!\n"
-    .string "Here you go!$"
+    .string "Bravo! Tu as déjà possédé\n{STR_VAR_3} espèces de Yo-kai!\pFélicitations!\nVoici ta récompense!$"
 
 Route2_EastBuilding_Text_ReceivedHM05FromAide::
-    .string "{PLAYER} received HM05\n"
-    .string "from the AIDE.$"
+    .string "L'assistant remet\nla CS05 à {PLAYER}.$"
 
 Route2_EastBuilding_Text_ExplainHM05::
-    .string "HM05 contains the hidden move\n"
-    .string "FLASH.\p"
-    .string "FLASH lights up even the darkest\n"
-    .string "of caves and dungeons.$"
+    .string "La CS05 contient Flash.\pCette capacité éclaire\nles grottes les plus sombres.$"
 
 Route2_EastBuilding_Text_CanGetThroughRockTunnel::
-    .string "Once a Yo-kai learns FLASH, you\n"
-    .string "can get through ROCK TUNNEL.$"
+    .string "Un Yo-kai connaissant Flash\nt'aidera à traverser ROCK TUNNEL.$"
 

@@ -16,7 +16,7 @@ def replace(path,symbol,new):
         matches=list(pattern.finditer(text));assert len(matches)==1,(path,symbol,len(matches))
         m=matches[0];old=''.join(re.findall(r'\.string "((?:\\.|[^"\\])*)"',m[2]));value=m[1]+'    .string "'+new+'"\n'
     else:
-        pattern=re.compile(r'((?:static\s+)?const\s+u8\s+'+re.escape(symbol)+r'\s*(?:\[[^\]]*\])+\s*=\s*_\()((?:"(?:\\.|[^"\\])*"\s*)+)(\))')
+        pattern=re.compile(r'((?:static\s+)?const\s+u8\s+'+re.escape(symbol)+r'\s*(?:\[[^\]]*\])+\s*=\s*_\(\s*)((?:"(?:\\.|[^"\\])*"\s*)+)(\))')
         matches=list(pattern.finditer(text));assert len(matches)==1,(path,symbol,len(matches))
         m=matches[0];old=''.join(re.findall(r'"((?:\\.|[^"\\])*)"',m[2]));value=m[1]+'"'+new+'"'+m[3]
     assert controls(old)==controls(new),(path,symbol,'placeholder mismatch',controls(old),controls(new))

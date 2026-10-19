@@ -1,6 +1,3 @@
 Route2_House_Text_FaintedMonsCanUseFieldMoves::
-    .string "A fainted Yo-kai just has no\n"
-    .string "energy left to battle.\p"
-    .string "It can still use moves like CUT\n"
-    .string "outside of battle.$"
+    .string "Un Yo-kai K.O. n'a plus\nl'énergie de combattre.\pIl peut encore utiliser Coupe\nen dehors des combats.$"
 

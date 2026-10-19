@@ -1,87 +1,55 @@
 PewterCity_Museum_1F_Text_Its50YForChildsTicket::
-    .string "Yes, yes.\n"
-    .string "It's ¥50 for a child's ticket.\p"
-    .string "Would you like to come in?$"
+    .string "Oui, oui.\nL'entrée enfant coûte 50¥.\pTu souhaites entrer?$"
 
 PewterCity_Museum_1F_Text_ComeAgain::
-    .string "Come again!$"
+    .string "À bientôt!$"
 
 PewterCity_Museum_1F_Text_Right50YThankYou::
-    .string "Right, ¥50!\n"
-    .string "Thank you!$"
+    .string "Voilà, 50¥!\nMerci!$"
 
 PewterCity_Museum_1F_Text_DontHaveEnoughMoney::
-    .string "You don't have enough money.$"
+    .string "Tu n'as pas assez d'argent.$"
 
 PewterCity_Museum_1F_Text_PleaseEnjoyYourself::
-    .string "Please enjoy yourself.$"
+    .string "Bonne visite!$"
 
 PewterCity_Museum_1F_Text_DoYouKnowWhatAmberIs::
-    .string "You can't sneak in the back way!\n"
-    .string "Nice try, kid, but no.\p"
-    .string "Oh, whatever!\n"
-    .string "Do you know what AMBER is?$"
+    .string "On n'entre pas par derrière!\nBien essayé, mais non.\pEnfin…\nTu sais ce qu'est l'ambre?$"
 
 PewterCity_Museum_1F_Text_AmberContainsGeneticMatter::
-    .string "AMBER contains the genetic matter\n"
-    .string "of ancient Yo-kai.\p"
-    .string "There's a LAB somewhere trying to\n"
-    .string "resurrect Yo-kai from AMBER.$"
+    .string "L'ambre peut conserver\nl'ADN d'anciens Yo-kai.\pUn Laboratoire tente de ramener\nces Yo-kai à la vie.$"
 
 PewterCity_Museum_1F_Text_AmberIsFossilizedSap::
-    .string "AMBER is actually sap, that gooey\n"
-    .string "stuff that oozes from trees.\p"
-    .string "The ancient sap fossilized over\n"
-    .string "time to become rock-hard AMBER.$"
+    .string "L'ambre provient de la sève,\nce liquide qui coule des arbres.\pAvec le temps, elle se fossilise\net devient dure comme la pierre.$"
 
 @ Unused
 PewterCity_Museum_1F_Text_PleaseGoAround::
-    .string "あちらへ　おまわりください$"
+    .string "Veuillez faire le tour.$"
 
 PewterCity_Museum_1F_Text_ShouldBeGratefulForLongLife::
-    .string "I should be grateful for my long\n"
-    .string "life.\p"
-    .string "Never did I think I would get to\n"
-    .string "see the bones of a dragon!$"
+    .string "Quelle chance d'avoir vécu\nassez longtemps pour voir ça!\pJamais je n'aurais cru admirer\nles os d'un Yo-kai si ancien!$"
 
 PewterCity_Museum_1F_Text_WantYouToGetAmberExamined::
-    .string "Ssh! Listen, I need to share a\n"
-    .string "secret with someone.\p"
-    .string "I think that this chunk of AMBER\n"
-    .string "contains Yo-kai DNA!\p"
-    .string "It would be a shattering scientific\n"
-    .string "breakthrough if Yo-kai could be\l"
-    .string "resurrected from it.\p"
-    .string "But, my colleagues just ignore\n"
-    .string "what I have to say.\p"
-    .string "So, I have a favor to ask!\p"
-    .string "I want you to get this examined at\n"
-    .string "a Yo-kai LAB somewhere.$"
+    .string "Chut! Je dois te confier\nun secret.\pJe crois que cet ambre\ncontient de l'ADN de Yo-kai!\pSi on pouvait le ramener à la vie,\nce serait une grande découverte!\pMais mes collègues\nne m'écoutent pas.\pAlors, rends-moi service:\nfais examiner cet échantillon\ldans un Laboratoire de Yo-kai.$"
 
 PewterCity_Museum_1F_Text_ReceivedOldAmberFromMan::
-    .string "{PLAYER} received the OLD AMBER\n"
-    .string "from the man.$"
+    .string "L'homme remet\nle Vieil Ambre à {PLAYER}.$"
 
 PewterCity_Museum_1F_Text_GetOldAmberChecked::
-    .string "Ssh!\n"
-    .string "Get the OLD AMBER checked!$"
+    .string "Chut! Fais examiner\nle Vieil Ambre!$"
 
 PewterCity_Museum_1F_Text_DontHaveSpaceForThis::
-    .string "You don't have space for this.$"
+    .string "Tu n'as pas de place pour ça.$"
 
 PewterCity_Museum_1F_Text_WeHaveTwoFossilsOnExhibit::
-    .string "We have two fossils of rare,\n"
-    .string "prehistoric Yo-kai on exhibit.$"
+    .string "Nous exposons deux fossiles\nde Yo-kai très anciens et rares.$"
 
 PewterCity_Museum_1F_Text_BeautifulPieceOfAmber::
-    .string "There is a beautiful piece of\n"
-    .string "AMBER in a clear gold color.$"
+    .string "Un bel échantillon d'ambre\nd'un doré translucide.$"
 
 PewterCity_Museum_1F_Text_AerodactylFossil::
-    .string "AERODACTYL Fossil\n"
-    .string "A primitive and rare Yo-kai.$"
+    .string "Fossile de Lulugubre\nUn Yo-kai ancien et rare.$"
 
 PewterCity_Museum_1F_Text_KabutopsFossil::
-    .string "KABUTOPS Fossil\n"
-    .string "A primitive and rare Yo-kai.$"
+    .string "Fossile de Volroulo\nUn Yo-kai ancien et rare.$"
 

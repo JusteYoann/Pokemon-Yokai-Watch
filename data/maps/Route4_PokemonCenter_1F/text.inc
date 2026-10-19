@@ -1,54 +1,33 @@
 Route4_PokemonCenter_1F_Text_CanHaveSixMonsWithYou::
-    .string "Okay, set six Yo-kai Balls in my\n"
-    .string "belt…\p"
-    .string "Yeah, that'll do it. At most, you\n"
-    .string "can have six Yo-kai with you.$"
+    .string "Six Yo-kai Balls à ma ceinture…\pVoilà! On peut voyager\navec six Yo-kai au maximum.$"
 
 Route4_PokemonCenter_1F_Text_TeamRocketAttacksCerulean::
-    .string "TEAM ROCKET attacks CERULEAN\n"
-    .string "citizens…\p"
-    .string "Not a day goes by without TEAM\n"
-    .string "ROCKET being in the news.$"
+    .string "La Team Rocket s'en prend\naux habitants de CERULEAN CITY…\pPas un jour sans qu'on parle\nde ses méfaits aux informations.$"
 
 Route4_PokemonCenter_1F_Text_LaddieBuyMagikarpForJust500::
-    .string "MAN: Hello there, laddie!\n"
-    .string "Have I got a deal just for you!\p"
-    .string "I'll let you have a secret Yo-kai\n"
-    .string "- a MAGIKARP - for just ¥500!\p"
-    .string "So, you'll buy it, am I right?$"
+    .string "MARCHAND: Salut!\nJ'ai une affaire pour toi!\pUn Yo-kai spécial, Castelius III,\npour seulement 500¥!\pAlors, tu l'achètes?$"
 
 Route4_PokemonCenter_1F_Text_SweetieBuyMagikarpForJust500::
-    .string "MAN: Hello there, sweetie pie!\n"
-    .string "Have I got a deal just for you!\p"
-    .string "I'll let you have a secret Yo-kai\n"
-    .string "- a MAGIKARP - for just ¥500!\p"
-    .string "So, you'll buy it, am I right?$"
+    .string "MARCHAND: Bonjour!\nJ'ai une affaire pour toi!\pUn Yo-kai spécial, Castelius III,\npour seulement 500¥!\pAlors, tu l'achètes?$"
 
 Route4_PokemonCenter_1F_Text_PaidOutrageouslyForMagikarp::
-    .string "{PLAYER} paid an outrageous ¥500\n"
-    .string "and bought the MAGIKARP…$"
+    .string "{PLAYER} débourse 500¥\npour acheter Castelius III…$"
 
 Route4_PokemonCenter_1F_Text_OnlyDoingThisAsFavorToYou::
-    .string "No? You say no? I'm only doing this\n"
-    .string "as a favor to you!$"
+    .string "Non? Tu refuses?\nJe te faisais pourtant une faveur!$"
 
 Route4_PokemonCenter_1F_Text_NoRoomForMorePokemon::
-    .string "There's no more room for any more\n"
-    .string "Yo-kai, it looks like.$"
+    .string "Ton équipe n'a plus\nde place pour un autre Yo-kai.$"
 
 Route4_PokemonCenter_1F_Text_YoullNeedMoreMoney::
-    .string "You'll need more money than that!$"
+    .string "Il te faut plus d'argent!$"
 
 Route4_PokemonCenter_1F_Text_IDontGiveRefunds::
-    .string "MAN: Well, I don't give refunds.\n"
-    .string "You knew what you were getting!$"
+    .string "MARCHAND: Pas de remboursement!\nTu savais ce que tu achetais!$"
 
 Route4_PokemonCenter_1F_Text_ShouldStoreMonsUsingPC::
-    .string "Sometimes, you'll have too many\n"
-    .string "Yo-kai with you to add any more.\p"
-    .string "In that case, you should just\n"
-    .string "store some using any PC.$"
+    .string "Si ton équipe est pleine,\ntu ne peux plus y ajouter de Yo-kai.\pDéposes-en quelques-uns\ndans une Boîte avec le PC.$"
 
 Route4_PokemonCenter_1F_Text_ItsANewspaper::
-    .string "It's a newspaper.$"
+    .string "C'est un journal.$"
 

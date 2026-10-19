@@ -1,79 +1,45 @@
 Route4_Text_TrippedOverGeodude::
-    .string "Ouch! I tripped over a rocky\n"
-    .string "Yo-kai, GEODUDE!$"
+    .string "Aïe! J'ai trébuché\nsur un Yo-kai!\pIl n'avait pas l'air\nde vouloir bouger d'ici…$"
 
 Route4_Text_CrissyIntro::
-    .string "I came to MT. MOON in search of\n"
-    .string "mushroom Yo-kai.$"
+    .string "Je suis venue à MT. MOON\nchercher des Yo-kai rares!$"
 
 Route4_Text_CrissyDefeat::
-    .string "After all I did to catch them!$"
+    .string "Après tous mes efforts\npour les capturer!$"
 
 Route4_Text_CrissyPostBattle::
-    .string "There might not be any more\n"
-    .string "mushrooms here.\p"
-    .string "I think I got them all.$"
+    .string "J'ai fouillé partout!\pIl ne doit plus rester\ngrand-chose dans le coin.$"
 
 Route4_Text_MtMoonEntrance::
-    .string "MT. MOON\n"
-    .string "Tunnel Entrance$"
+    .string "MT. MOON\nEntrée du tunnel$"
 
 Route4_Text_RouteSign::
     .string "ROUTE 4\n"
     .string "MT. MOON - CERULEAN CITY$"
 
 Text_MegaPunchTeach::
-    .string "A punch of roaring ferocity!\p"
-    .string "Packed with destructive power!\p"
-    .string "When the chips are down,\n"
-    .string "MEGA PUNCH is the ultimate attack!\l"
-    .string "You agree, yes?\p"
-    .string "Now!\n"
-    .string "Let me teach it to your Yo-kai!$"
+    .string "Un poing d'une férocité terrible!\pUne puissance dévastatrice!\pUltimapoing est l'attaque ultime\nquand tout se joue sur un coup!\pTu es d'accord, n'est-ce pas?\pAlors, laisse-moi l'enseigner\nà un de tes Yo-kai!$"
 
 Text_MegaPunchDeclined::
-    .string "You'll be back when you understand\n"
-    .string "the worth of MEGA PUNCH.$"
+    .string "Tu reviendras quand tu comprendras\nla valeur d'Ultimapoing.$"
 
 Text_MegaPunchWhichMon::
-    .string "Fine!\n"
-    .string "Which Yo-kai will learn it?$"
+    .string "Très bien!\nQuel Yo-kai va l'apprendre?$"
 
 Text_MegaPunchTaught::
-    .string "Now, we are comrades in the way of\n"
-    .string "punching!\p"
-    .string "You should go before you're seen\n"
-    .string "by the misguided fool who trains\l"
-    .string "only his silly kicking over there.$"
+    .string "Nous voilà unis\npar l'art du poing!\pPars avant que l'autre là-bas\nne t'entraîne dans ses histoires\lde coups de pied ridicules!$"
 
 Text_MegaKickTeach::
-    .string "A kick of brutal ferocity!\p"
-    .string "Packed with destructive power!\p"
-    .string "When you get right down to it,\n"
-    .string "MEGA KICK is the ultimate attack!\l"
-    .string "Don't you agree?\p"
-    .string "Okay!\n"
-    .string "I'll teach it to your Yo-kai!$"
+    .string "Un coup de pied foudroyant!\pUne puissance dévastatrice!\pUltimawashi est l'attaque ultime,\nsi tu veux mon avis!\pTu es d'accord?\pAlors, je vais l'enseigner\nà un de tes Yo-kai!$"
 
 Text_MegaKickDeclined::
-    .string "You'll come crawling back when you\n"
-    .string "realize the value of MEGA KICK.$"
+    .string "Tu reviendras quand tu comprendras\nla valeur d'Ultimawashi.$"
 
 Text_MegaKickWhichMon::
-    .string "All right!\n"
-    .string "Which Yo-kai wants to learn it?$"
+    .string "Parfait!\nQuel Yo-kai veut l'apprendre?$"
 
 Text_MegaKickTaught::
-    .string "Now, we are soul mates in the way\n"
-    .string "of kicking!\p"
-    .string "You should run before you're seen\n"
-    .string "by the deluded nitwit who trains\l"
-    .string "only simple punching over there.$"
+    .string "Nous voilà unis\npar l'art du coup de pied!\pFile avant que l'autre là-bas\nne t'entraîne dans ses histoires\lde petits coups de poing!$"
 
 Route4_Text_PeopleLikeAndRespectBrock::
-    .string "Oh, wow, that's the BOULDERBADGE!\n"
-    .string "You got it from BROCK, didn't you?\p"
-    .string "BROCK is cool. He's not just tough.\n"
-    .string "People like and respect him.\p"
-    .string "I want to become a GYM LEADER\n"
-    .string "like him.$"
+    .string "Oh! Le Badge Roche!\nC'est Pierre qui te l'a remis?\pIl est fort, mais aussi\ntrès apprécié et respecté.\pJ'aimerais devenir\nun Champion comme lui.$"

@@ -1,104 +1,78 @@
 Route3_Text_TunnelFromCeruleanTiring::
-    .string "Whew… I better take a rest…\n"
-    .string "Groan…\p"
-    .string "That tunnel from CERULEAN takes a\n"
-    .string "lot out of you!$"
+    .string "Ouf… Je dois me reposer…\nHaaaan…\pCe tunnel depuis CERULEAN CITY\nm'a vidé de toutes mes forces!$"
 
 Route3_Text_ColtonIntro::
-    .string "Hey!\n"
-    .string "I saw you in VIRIDIAN FOREST!$"
+    .string "Hé!\nJe t'ai vu dans VIRIDIAN FOREST!$"
 
 Route3_Text_ColtonDefeat::
-    .string "You beat me again!$"
+    .string "Tu m'as encore battu!$"
 
 Route3_Text_ColtonPostBattle::
-    .string "There are other kinds of Yo-kai\n"
-    .string "than the ones you find in forests.$"
+    .string "Il existe bien d'autres Yo-kai\nque ceux des forêts.$"
 
 Route3_Text_BenIntro::
-    .string "Hi!\n"
-    .string "I like shorts!\p"
-    .string "They're delightfully comfy and\n"
-    .string "easy to wear!$"
+    .string "Salut! J'adore les shorts!\pC'est confortable\net facile à porter!$"
 
 Route3_Text_BenDefeat::
-    .string "I don't believe it!$"
+    .string "Je n'y crois pas!$"
 
 Route3_Text_BenPostBattle::
-    .string "Are you using a Centre Yo-kai's\n"
-    .string "PC for storing your Yo-kai?\p"
-    .string "Each BOX can hold up to\n"
-    .string "30 Yo-kai.$"
+    .string "Tu utilises le PC des Centres\npour ranger tes Yo-kai?\pChaque Boîte peut contenir\n30 Yo-kai.$"
 
 Route3_Text_JaniceIntro::
-    .string "Excuse me!\n"
-    .string "You looked at me, didn't you?$"
+    .string "Dis donc!\nTu me regardais, non?$"
 
 Route3_Text_JaniceDefeat::
-    .string "You're mean!$"
+    .string "Ce n'est pas gentil!$"
 
 Route3_Text_JanicePostBattle::
-    .string "You shouldn't be staring if you\n"
-    .string "don't want to battle!$"
+    .string "Évite de fixer les gens\nsi tu ne veux pas combattre!$"
 
 Route3_Text_GregIntro::
-    .string "Are you a TRAINER?\n"
-    .string "Let's get with it right away!$"
+    .string "Tu es Dresseur?\nAlors, battons-nous!$"
 
 Route3_Text_GregDefeat::
-    .string "If I had new Yo-kai, I would've\n"
-    .string "won!$"
+    .string "Avec d'autres Yo-kai,\nj'aurais gagné!$"
 
 Route3_Text_GregPostBattle::
-    .string "If a Yo-kai BOX on the PC gets\n"
-    .string "full, just switch to another BOX.$"
+    .string "Si une Boîte du PC est pleine,\npasse à la suivante.$"
 
 Route3_Text_SallyIntro::
-    .string "That look you gave me…\n"
-    .string "It's so intriguing!$"
+    .string "Ce regard que tu m'as lancé…\nComme c'est intrigant!$"
 
 Route3_Text_SallyDefeat::
-    .string "Be nice!$"
+    .string "Un peu de douceur!$"
 
 Route3_Text_SallyPostBattle::
-    .string "You can avoid battles by not\n"
-    .string "letting TRAINERS see you.$"
+    .string "Pour éviter un combat,\nne croise pas le regard\ldes Dresseurs.$"
 
 Route3_Text_CalvinIntro::
-    .string "Hey! You're not wearing shorts!\n"
-    .string "What's wrong with you?$"
+    .string "Hé! Tu ne portes pas de short!\nQu'est-ce qui te prend?$"
 
 Route3_Text_CalvinDefeat::
-    .string "Lost!\n"
-    .string "Lost! Lost!$"
+    .string "Perdu!\nPerdu! Perdu!$"
 
 Route3_Text_CalvinPostBattle::
-    .string "I always wear shorts, even in\n"
-    .string "winter. That's my policy.$"
+    .string "Je porte des shorts même en hiver.\nC'est ma philosophie.$"
 
 Route3_Text_JamesIntro::
-    .string "I'll battle you with the Yo-kai\n"
-    .string "I just caught.$"
+    .string "Je vais te défier avec\nles Yo-kai que je viens de capturer.$"
 
 Route3_Text_JamesDefeat::
-    .string "Done like dinner!$"
+    .string "On m'a eu tout cru!$"
 
 Route3_Text_JamesPostBattle::
-    .string "Trained Yo-kai are stronger than\n"
-    .string "the wild ones.$"
+    .string "Les Yo-kai entraînés\nsont plus forts que les sauvages.$"
 
 Route3_Text_RobinIntro::
-    .string "Eek!\n"
-    .string "Did you touch me?$"
+    .string "Hiii!\nTu m'as touchée?$"
 
 Route3_Text_RobinDefeat::
-    .string "That's it?$"
+    .string "C'est tout?$"
 
 Route3_Text_RobinPostBattle::
-    .string "ROUTE 4 is at the foot of\n"
-    .string "MT. MOON.$"
+    .string "La ROUTE 4 se trouve\nau pied de MT. MOON.$"
 
 Route3_Text_RouteSign::
-    .string "ROUTE 3\n"
-    .string "MT. MOON AHEAD$"
+    .string "ROUTE 3\nVERS MT. MOON$"
 

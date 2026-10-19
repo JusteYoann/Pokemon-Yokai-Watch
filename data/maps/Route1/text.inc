@@ -1,26 +1,14 @@
 Route1_Text_WorkAtPokeMartTakeSample::
-    .string "Hi!\n"
-    .string "I work at a Yo-kai MART.\p"
-    .string "It's part of a convenient chain\n"
-    .string "selling all sorts of items.\p"
-    .string "Please, visit us in VIRIDIAN CITY.\p"
-    .string "I know, I'll give you a sample.\n"
-    .string "Here you go!$"
+    .string "Bonjour!\nJe travaille dans une Boutique.\pNous vendons toutes sortes\nd'objets pour votre voyage.\pVenez nous voir\nà VIRIDIAN CITY!\pTiens, voici un échantillon.\nC'est cadeau!$"
 
 Route1_Text_ComeSeeUsIfYouNeedPokeBalls::
-    .string "Please come see us if you need\n"
-    .string "Yo-kai Balls for catching Yo-kai.$"
+    .string "Passe nous voir si tu as besoin\nde Yo-kai Balls pour tes captures.$"
 
 Route1_Text_PutPotionAway::
-    .string "{PLAYER} put the POTION away in\n"
-    .string "the BAG's ITEMS POCKET.$"
+    .string "{PLAYER} range la Potion\ndans la poche Objets du Sac.$"
 
 Route1_Text_CanJumpFromLedges::
-    .string "See those ledges along the road?\p"
-    .string "It's a bit scary, but you can jump\n"
-    .string "from them.\p"
-    .string "You can get back to PALLET TOWN\n"
-    .string "quicker that way.$"
+    .string "Tu vois ces rebords\nau bord du chemin?\pÇa peut faire un peu peur,\nmais tu peux sauter en contrebas.\pC'est un raccourci pratique\npour retourner à PALLET TOWN.$"
 
 Route1_Text_RouteSign::
     .string "ROUTE 1\n"

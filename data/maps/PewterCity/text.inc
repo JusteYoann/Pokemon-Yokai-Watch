@@ -1,154 +1,91 @@
 Text_DreamEaterTeach::
-    .string "Yawn!\n"
-    .string "I must have dozed off in the sun.\p"
-    .string "I had this weird dream about\n"
-    .string "a DROWZEE eating my dream.\p"
-    .string "And…\n"
-    .string "I learned how to eat dreams…\p"
-    .string "Oogh, this is too spooky!\p"
-    .string "Let me teach it to a Yo-kai so\n"
-    .string "I can forget about it!$"
+    .string "Bâââille!\nJ'ai dû m'assoupir au soleil.\pJ'ai fait un drôle de rêve:\nun Navétéran dévorait mes rêves.\pEt…\nj'ai appris à les manger aussi!\pBrrr, ça me donne la chair de poule!\pLaisse-moi enseigner Dévorêve\nà un Yo-kai pour oublier tout ça!$"
 
 Text_DreamEaterDeclined::
-    .string "…Snore…$"
+    .string "…Ronfl…$"
 
 Text_DreamEaterWhichMon::
-    .string "Which Yo-kai wants to learn\n"
-    .string "DREAM EATER?$"
+    .string "Quel Yo-kai veut apprendre\nDévorêve?$"
 
 Text_DreamEaterTaught::
-    .string "…ZZZ…\n"
-    .string "I…can't eat…anymore…$"
+    .string "…ZZZ…\nJe… n'ai plus… faim…$"
 
 PewterCity_Text_ClefairyCameFromMoon::
-    .string "CLEFAIRY came from the moon.\n"
-    .string "That's what the rumor is.\p"
-    .string "They appeared after MOON STONES\n"
-    .string "fell on MT. MOON.$"
+    .string "On raconte que les Bouh\nviendraient de la lune.\pIls seraient apparus après la chute\nde Pierres Lune sur MT. MOON.$"
 
 PewterCity_Text_BrockOnlySeriousTrainerHere::
-    .string "There aren't many serious Yo-kai\n"
-    .string "TRAINERS here.\p"
-    .string "They're all like BUG CATCHERS,\n"
-    .string "you know, just hobbyists.\p"
-    .string "But PEWTER GYM's BROCK isn't like\n"
-    .string "that, not one bit.$"
+    .string "Il y a peu de Dresseurs de Yo-kai\nvraiment sérieux dans le coin.\pBeaucoup collectionnent\nles Yo-kai pour le plaisir.\pMais Pierre, le Champion\nde l'Arène, c'est autre chose!$"
 
 PewterCity_Text_DidYouCheckOutMuseum::
-    .string "Did you check out the MUSEUM?$"
+    .string "As-tu visité le Musée?$"
 
 PewterCity_Text_WerentThoseFossilsAmazing::
-    .string "Weren't those fossils from MT. MOON\n"
-    .string "amazing?$"
+    .string "Ils sont impressionnants,\nces fossiles de MT. MOON, non?$"
 
 PewterCity_Text_ReallyYouHaveToGo::
-    .string "Really?\n"
-    .string "You absolutely have to go!$"
+    .string "Vraiment?\nTu dois absolument y aller!$"
 
 PewterCity_Text_ThisIsTheMuseum::
-    .string "This is it, the MUSEUM.\p"
-    .string "You have to pay to get in, but it's\n"
-    .string "worth it. See you around!$"
+    .string "Voilà le Musée.\pL'entrée est payante,\nmais ça vaut le détour! À bientôt!$"
 
 PewterCity_Text_DoYouKnowWhatImDoing::
-    .string "Psssst!\n"
-    .string "Do you know what I'm doing?$"
+    .string "Pssst!\nTu sais ce que je fais?$"
 
 PewterCity_Text_ThatsRightItsHardWork::
-    .string "That's right!\n"
-    .string "It's hard work!$"
+    .string "Exactement!\nC'est du travail!$"
 
 PewterCity_Text_SprayingRepelToKeepWildMonsOut::
-    .string "I'm spraying REPEL to keep wild\n"
-    .string "Yo-kai out of my garden!$"
+    .string "Je vaporise du Repousse pour\néloigner les Yo-kai de mon jardin!$"
 
 PewterCity_Text_BrocksLookingForChallengersFollowMe::
-    .string "You're a TRAINER, right?\p"
-    .string "BROCK's looking for new\n"
-    .string "challengers. Follow me!$"
+    .string "Tu es Dresseur de Yo-kai?\pPierre cherche\nde nouveaux adversaires. Suis-moi!$"
 
 PewterCity_Text_GoTakeOnBrock::
-    .string "If you have the right stuff,\n"
-    .string "go take on BROCK!$"
+    .string "Si tu t'en sens capable,\nva défier Pierre!$"
 
 PewterCity_Text_TrainerTipsEarningEXP::
-    .string "TRAINER TIPS\p"
-    .string "All Yo-kai that appear in battle,\n"
-    .string "however briefly, earn EXP Points.$"
+    .string "CONSEILS AUX DRESSEURS\pLe Multi Exp. est permanent:\ntoute l'équipe reçoit de l'EXP.\pLes Yo-kai encore en état\nde combattre progressent ensemble!$"
 
 PewterCity_Text_CallPoliceIfInfoOnThieves::
-    .string "NOTICE!\p"
-    .string "Thieves have been stealing Yo-kai\n"
-    .string "fossils from MT. MOON.\p"
-    .string "Please call the PEWTER POLICE if\n"
-    .string "you have any information.$"
+    .string "AVIS À LA POPULATION\pDes voleurs dérobent des fossiles\nde Yo-kai à MT. MOON.\pPrévenez la police si vous avez\ndes informations à ce sujet.$"
 
 PewterCity_Text_MuseumOfScience::
-    .string "PEWTER MUSEUM OF SCIENCE$"
+    .string "MUSÉE DES SCIENCES\nDE PEWTER CITY$"
 
 PewterCity_Text_GymSign::
-    .string "PEWTER CITY Yo-kai GYM\n"
-    .string "LEADER: BROCK\l"
-    .string "The Rock-Solid Dresseur de Yo-kai!$"
+    .string "ARÈNE DE PEWTER CITY\nCHAMPION: PIERRE\lUn Dresseur solide comme le roc!$"
 
 PewterCity_Text_CitySign::
-    .string "PEWTER CITY\n"
-    .string "A Stone Gray City$"
+    .string "PEWTER CITY\nLa ville grise comme la pierre$"
 
 @ The below 3 JP texts are unused. Possibly a cut NPC meant to give the player the Berry Pouch
 PewterCity_Text_DefeatedBrockYouCanHaveTreasure::
-    .string "あッれー！\n"
-    .string "その　ジムバッジ‥‥\l"
-    .string "すげえな　タケシに　かったのかよ！\p"
-    .string "かんどう　したから\n"
-    .string "おれの　たからもの　やるよ！$"
+    .string "Hé! Ce Badge…\nTu as battu Pierre? Bravo!\pPour te féliciter,\nje vais te donner mon trésor!$"
 
 PewterCity_Text_BerriesInsideUseCarefully::
-    .string "なかには　きのみが　はいってるぜ\p"
-    .string "やくに　たつ　きのみも\n"
-    .string "はいって　いるから\l"
-    .string "だいじに　つかって　くれよ！$"
+    .string "Il contient des Baies.\pCertaines sont très utiles.\nUtilise-les avec soin!$"
 
 PewterCity_Text_MonsWillUseHeldBerriesOnTheirOwn::
-    .string "ポケモンに　きのみを\n"
-    .string "もたせて　おけば\l"
-    .string "たたかっている　ときに\l"
-    .string "かってに　つかって　くれるんだ\p"
-    .string "キズぐすり　とか　どくけし　より\n"
-    .string "てがるで　べんり　だろ？$"
+    .string "Si un Yo-kai tient une Baie,\nil peut l'utiliser seul en combat.\pC'est parfois plus pratique\nqu'une Potion ou un Antidote!$"
 
 PewterCity_Text_OhPlayer::
     .string "Oh, {PLAYER}{KUN}!$"
 
 PewterCity_Text_AskedToDeliverThis::
-    .string "I'm glad I caught up to you.\n"
-    .string "I'm PROF. OAK's AIDE.\p"
-    .string "I've been asked to deliver this,\n"
-    .string "so here you go.$"
+    .string "J'ai fini par te rattraper!\nJe suis l'assistant de Chen.\pOn m'a demandé\nde te remettre ceci.$"
 
 PewterCity_Text_ReceivedRunningShoesFromAide::
-    .string "{PLAYER} received the\n"
-    .string "RUNNING SHOES from the AIDE.$"
+    .string "L'assistant remet\nles Chaussures de Sport à {PLAYER}.$"
 
 PewterCity_Text_SwitchedShoesWithRunningShoes::
-    .string "{PLAYER} switched shoes with the\n"
-    .string "RUNNING SHOES.$"
+    .string "{PLAYER} enfile\nles Chaussures de Sport.$"
 
 PewterCity_Text_ExplainRunningShoes::
-    .string "Press the B Button to run.\n"
-    .string "But only where there's room to run!$"
+    .string "Maintiens le bouton B pour courir,\nmais seulement où c'est possible!$"
 
 PewterCity_Text_MustBeGoingBackToLab::
-    .string "Well, I must be going back to\n"
-    .string "the LAB.\p"
-    .string "Bye-bye!$"
+    .string "Je dois retourner au Laboratoire.\pÀ bientôt!$"
 
 PewterCity_Text_RunningShoesLetterFromMom::
-    .string "There's a letter attached…\p"
-    .string "Dear {PLAYER},\p"
-    .string "Here is a pair of RUNNING SHOES\n"
-    .string "for my beloved challenger.\p"
-    .string "Remember, I'll always cheer for\n"
-    .string "you! Don't ever give up!\p"
-    .string "From Mom$"
+    .string "Une lettre les accompagne…\pMon enfant {PLAYER},\pVoici des Chaussures de Sport\npour ton grand voyage.\pJe serai toujours là\npour t'encourager. Ne renonce pas!\pTa maman$"
 

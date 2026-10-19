@@ -1,0 +1,3207 @@
+{
+  "source": "Active species_info.h + canonical ability_names_fr.csv + noms_affiches.json. Category is generic Yo-kai; profile gives actual types, highest non-HP base stat and primary ability, not official Yo-kai Watch lore.",
+  "entries": [
+    {
+      "number": "001",
+      "name": "Jibanyan",
+      "species": "SPECIES_BULBASAUR",
+      "symbol": "gBulbasaurPokedexText",
+      "types": [
+        "Feu"
+      ],
+      "primary_ability": "Brasier",
+      "strongest_non_hp_stat": "Vitesse",
+      "description": [
+        "Type: Feu.",
+        "Atout: Vitesse.",
+        "Talent: Brasier."
+      ],
+      "width_pixels_with_spacing": [
+        68,
+        96,
+        102
+      ]
+    },
+    {
+      "number": "002",
+      "name": "Bandinyan",
+      "species": "SPECIES_IVYSAUR",
+      "symbol": "gIvysaurPokedexText",
+      "types": [
+        "Feu",
+        "Ténèbres"
+      ],
+      "primary_ability": "Cran",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Feu / Ténèbres.",
+        "Atout: Attaque.",
+        "Talent: Cran."
+      ],
+      "width_pixels_with_spacing": [
+        142,
+        99,
+        84
+      ]
+    },
+    {
+      "number": "003",
+      "name": "Épinyan",
+      "species": "SPECIES_VENUSAUR",
+      "symbol": "gVenusaurPokedexText",
+      "types": [
+        "Feu",
+        "Poison"
+      ],
+      "primary_ability": "Point Poison",
+      "strongest_non_hp_stat": "Vitesse",
+      "description": [
+        "Type: Feu / Poison.",
+        "Atout: Vitesse.",
+        "Talent: Point Poison."
+      ],
+      "width_pixels_with_spacing": [
+        127,
+        96,
+        134
+      ]
+    },
+    {
+      "number": "004",
+      "name": "Shogunyan",
+      "species": "SPECIES_CHARMANDER",
+      "symbol": "gCharmanderPokedexText",
+      "types": [
+        "Feu",
+        "Acier"
+      ],
+      "primary_ability": "Attention",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Feu / Acier.",
+        "Atout: Attaque.",
+        "Talent: Attention."
+      ],
+      "width_pixels_with_spacing": [
+        121,
+        99,
+        114
+      ]
+    },
+    {
+      "number": "005",
+      "name": "Komasan",
+      "species": "SPECIES_CHARMELEON",
+      "symbol": "gCharmeleonPokedexText",
+      "types": [
+        "Feu"
+      ],
+      "primary_ability": "Brasier",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Feu.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Brasier."
+      ],
+      "width_pixels_with_spacing": [
+        68,
+        159,
+        102
+      ]
+    },
+    {
+      "number": "006",
+      "name": "Komaous",
+      "species": "SPECIES_CHARIZARD",
+      "symbol": "gCharizardPokedexText",
+      "types": [
+        "Feu"
+      ],
+      "primary_ability": "Brasier",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Feu.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Brasier."
+      ],
+      "width_pixels_with_spacing": [
+        68,
+        159,
+        102
+      ]
+    },
+    {
+      "number": "007",
+      "name": "Komastar",
+      "species": "SPECIES_SQUIRTLE",
+      "symbol": "gSquirtlePokedexText",
+      "types": [
+        "Feu",
+        "Électrik"
+      ],
+      "primary_ability": "Torche",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Feu / Électrik.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Torche."
+      ],
+      "width_pixels_with_spacing": [
+        139,
+        159,
+        99
+      ]
+    },
+    {
+      "number": "008",
+      "name": "Whisper",
+      "species": "SPECIES_WARTORTLE",
+      "symbol": "gWartortlePokedexText",
+      "types": [
+        "Spectre"
+      ],
+      "primary_ability": "Lévitation",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Spectre.",
+        "Atout: Défense Spéciale.",
+        "Talent: Lévitation."
+      ],
+      "width_pixels_with_spacing": [
+        94,
+        158,
+        121
+      ]
+    },
+    {
+      "number": "009",
+      "name": "Cigalopin",
+      "species": "SPECIES_BLASTOISE",
+      "symbol": "gBlastoisePokedexText",
+      "types": [
+        "Insecte"
+      ],
+      "primary_ability": "Essaim",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Insecte.",
+        "Atout: Attaque.",
+        "Talent: Essaim."
+      ],
+      "width_pixels_with_spacing": [
+        93,
+        99,
+        96
+      ]
+    },
+    {
+      "number": "010",
+      "name": "Cigallard",
+      "species": "SPECIES_CATERPIE",
+      "symbol": "gCaterpiePokedexText",
+      "types": [
+        "Insecte"
+      ],
+      "primary_ability": "Essaim",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Insecte.",
+        "Atout: Attaque.",
+        "Talent: Essaim."
+      ],
+      "width_pixels_with_spacing": [
+        93,
+        99,
+        96
+      ]
+    },
+    {
+      "number": "011",
+      "name": "Murhaine",
+      "species": "SPECIES_METAPOD",
+      "symbol": "gMetapodPokedexText",
+      "types": [
+        "Eau"
+      ],
+      "primary_ability": "Absorbe-Eau",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Eau.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Absorbe-Eau."
+      ],
+      "width_pixels_with_spacing": [
+        68,
+        159,
+        133
+      ]
+    },
+    {
+      "number": "012",
+      "name": "Saumhonni",
+      "species": "SPECIES_BUTTERFREE",
+      "symbol": "gButterfreePokedexText",
+      "types": [
+        "Eau"
+      ],
+      "primary_ability": "Absorbe-Eau",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Eau.",
+        "Atout: Défense Spéciale.",
+        "Talent: Absorbe-Eau."
+      ],
+      "width_pixels_with_spacing": [
+        68,
+        158,
+        133
+      ]
+    },
+    {
+      "number": "013",
+      "name": "Dracounet",
+      "species": "SPECIES_WEEDLE",
+      "symbol": "gWeedlePokedexText",
+      "types": [
+        "Dragon"
+      ],
+      "primary_ability": "Attention",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Dragon.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Attention."
+      ],
+      "width_pixels_with_spacing": [
+        87,
+        159,
+        114
+      ]
+    },
+    {
+      "number": "014",
+      "name": "Sir Dragon",
+      "species": "SPECIES_KAKUNA",
+      "symbol": "gKakunaPokedexText",
+      "types": [
+        "Dragon",
+        "Vol"
+      ],
+      "primary_ability": "Attention",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Dragon / Vol.",
+        "Atout: Défense.",
+        "Talent: Attention."
+      ],
+      "width_pixels_with_spacing": [
+        128,
+        98,
+        114
+      ]
+    },
+    {
+      "number": "015",
+      "name": "Octorgone",
+      "species": "SPECIES_BEEDRILL",
+      "symbol": "gBeedrillPokedexText",
+      "types": [
+        "Ténèbres"
+      ],
+      "primary_ability": "Pression",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Ténèbres.",
+        "Atout: Attaque.",
+        "Talent: Pression."
+      ],
+      "width_pixels_with_spacing": [
+        100,
+        99,
+        108
+      ]
+    },
+    {
+      "number": "016",
+      "name": "Kyubi",
+      "species": "SPECIES_PIDGEY",
+      "symbol": "gPidgeyPokedexText",
+      "types": [
+        "Feu"
+      ],
+      "primary_ability": "Torche",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Feu.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Torche."
+      ],
+      "width_pixels_with_spacing": [
+        68,
+        159,
+        99
+      ]
+    },
+    {
+      "number": "017",
+      "name": "Robonyan",
+      "species": "SPECIES_PIDGEOTTO",
+      "symbol": "gPidgeottoPokedexText",
+      "types": [
+        "Acier"
+      ],
+      "primary_ability": "Armurbaston",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Acier.",
+        "Atout: Défense.",
+        "Talent: Armurbaston."
+      ],
+      "width_pixels_with_spacing": [
+        79,
+        98,
+        130
+      ]
+    },
+    {
+      "number": "018",
+      "name": "Robonyan F",
+      "species": "SPECIES_PIDGEOT",
+      "symbol": "gPidgeotPokedexText",
+      "types": [
+        "Acier"
+      ],
+      "primary_ability": "Armurbaston",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Acier.",
+        "Atout: Attaque.",
+        "Talent: Armurbaston."
+      ],
+      "width_pixels_with_spacing": [
+        79,
+        99,
+        130
+      ]
+    },
+    {
+      "number": "019",
+      "name": "Robonyan 28",
+      "species": "SPECIES_RATTATA",
+      "symbol": "gRattataPokedexText",
+      "types": [
+        "Acier"
+      ],
+      "primary_ability": "Armurbaston",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Acier.",
+        "Atout: Défense.",
+        "Talent: Armurbaston."
+      ],
+      "width_pixels_with_spacing": [
+        79,
+        98,
+        130
+      ]
+    },
+    {
+      "number": "020",
+      "name": "Faux Kappa",
+      "species": "SPECIES_RATICATE",
+      "symbol": "gRaticatePokedexText",
+      "types": [
+        "Eau"
+      ],
+      "primary_ability": "Glissade",
+      "strongest_non_hp_stat": "Vitesse",
+      "description": [
+        "Type: Eau.",
+        "Atout: Vitesse.",
+        "Talent: Glissade."
+      ],
+      "width_pixels_with_spacing": [
+        68,
+        96,
+        109
+      ]
+    },
+    {
+      "number": "021",
+      "name": "Tukappa",
+      "species": "SPECIES_SPEAROW",
+      "symbol": "gSpearowPokedexText",
+      "types": [
+        "Eau"
+      ],
+      "primary_ability": "Glissade",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Eau.",
+        "Atout: Défense.",
+        "Talent: Glissade."
+      ],
+      "width_pixels_with_spacing": [
+        68,
+        98,
+        109
+      ]
+    },
+    {
+      "number": "022",
+      "name": "Granpapéti",
+      "species": "SPECIES_FEAROW",
+      "symbol": "gFearowPokedexText",
+      "types": [
+        "Normal"
+      ],
+      "primary_ability": "Fuite",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Normal.",
+        "Atout: Défense Spéciale.",
+        "Talent: Fuite."
+      ],
+      "width_pixels_with_spacing": [
+        87,
+        158,
+        90
+      ]
+    },
+    {
+      "number": "023",
+      "name": "Puissanfon",
+      "species": "SPECIES_EKANS",
+      "symbol": "gEkansPokedexText",
+      "types": [
+        "Normal"
+      ],
+      "primary_ability": "Isograisse",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Normal.",
+        "Atout: Défense.",
+        "Talent: Isograisse."
+      ],
+      "width_pixels_with_spacing": [
+        87,
+        98,
+        122
+      ]
+    },
+    {
+      "number": "024",
+      "name": "Nanpart",
+      "species": "SPECIES_ARBOK",
+      "symbol": "gArbokPokedexText",
+      "types": [
+        "Roche"
+      ],
+      "primary_ability": "Fermeté",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Roche.",
+        "Atout: Attaque.",
+        "Talent: Fermeté."
+      ],
+      "width_pixels_with_spacing": [
+        82,
+        99,
+        105
+      ]
+    },
+    {
+      "number": "025",
+      "name": "Passpa",
+      "species": "SPECIES_PIKACHU",
+      "symbol": "gPikachuPokedexText",
+      "types": [
+        "Roche"
+      ],
+      "primary_ability": "Fermeté",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Roche.",
+        "Atout: Défense.",
+        "Talent: Fermeté."
+      ],
+      "width_pixels_with_spacing": [
+        82,
+        98,
+        105
+      ]
+    },
+    {
+      "number": "026",
+      "name": "Angélik",
+      "species": "SPECIES_RAICHU",
+      "symbol": "gRaichuPokedexText",
+      "types": [
+        "Glace"
+      ],
+      "primary_ability": "Isograisse",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Glace.",
+        "Atout: Défense Spéciale.",
+        "Talent: Isograisse."
+      ],
+      "width_pixels_with_spacing": [
+        81,
+        158,
+        122
+      ]
+    },
+    {
+      "number": "027",
+      "name": "Blizzaria",
+      "species": "SPECIES_SANDSHREW",
+      "symbol": "gSandshrewPokedexText",
+      "types": [
+        "Glace"
+      ],
+      "primary_ability": "Isograisse",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Glace.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Isograisse."
+      ],
+      "width_pixels_with_spacing": [
+        81,
+        159,
+        122
+      ]
+    },
+    {
+      "number": "028",
+      "name": "Feulion",
+      "species": "SPECIES_SANDSLASH",
+      "symbol": "gSandslashPokedexText",
+      "types": [
+        "Feu"
+      ],
+      "primary_ability": "Torche",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Feu.",
+        "Atout: Attaque.",
+        "Talent: Torche."
+      ],
+      "width_pixels_with_spacing": [
+        68,
+        99,
+        99
+      ]
+    },
+    {
+      "number": "029",
+      "name": "Padrézo",
+      "species": "SPECIES_NIDORAN_F",
+      "symbol": "gNidoranFPokedexText",
+      "types": [
+        "Électrik"
+      ],
+      "primary_ability": "Statik",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Électrik.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Statik."
+      ],
+      "width_pixels_with_spacing": [
+        97,
+        159,
+        95
+      ]
+    },
+    {
+      "number": "030",
+      "name": "Émettor",
+      "species": "SPECIES_NIDORINA",
+      "symbol": "gNidorinaPokedexText",
+      "types": [
+        "Électrik"
+      ],
+      "primary_ability": "Statik",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Électrik.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Statik."
+      ],
+      "width_pixels_with_spacing": [
+        97,
+        159,
+        95
+      ]
+    },
+    {
+      "number": "031",
+      "name": "Crocho",
+      "species": "SPECIES_NIDOQUEEN",
+      "symbol": "gNidoqueenPokedexText",
+      "types": [
+        "Normal"
+      ],
+      "primary_ability": "Cran",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Normal.",
+        "Atout: Attaque.",
+        "Talent: Cran."
+      ],
+      "width_pixels_with_spacing": [
+        87,
+        99,
+        84
+      ]
+    },
+    {
+      "number": "032",
+      "name": "Potofeu",
+      "species": "SPECIES_NIDORAN_M",
+      "symbol": "gNidoranMPokedexText",
+      "types": [
+        "Spectre"
+      ],
+      "primary_ability": "Lévitation",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Spectre.",
+        "Atout: Défense Spéciale.",
+        "Talent: Lévitation."
+      ],
+      "width_pixels_with_spacing": [
+        94,
+        158,
+        121
+      ]
+    },
+    {
+      "number": "033",
+      "name": "Misterre",
+      "species": "SPECIES_NIDORINO",
+      "symbol": "gNidorinoPokedexText",
+      "types": [
+        "Sol",
+        "Plante"
+      ],
+      "primary_ability": "Chlorophylle",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Sol / Plante.",
+        "Atout: Défense Spéciale.",
+        "Talent: Chlorophylle."
+      ],
+      "width_pixels_with_spacing": [
+        127,
+        158,
+        138
+      ]
+    },
+    {
+      "number": "034",
+      "name": "Métaureaulog",
+      "species": "SPECIES_NIDOKING",
+      "symbol": "gNidokingPokedexText",
+      "types": [
+        "Normal"
+      ],
+      "primary_ability": "Fuite",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Normal.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Fuite."
+      ],
+      "width_pixels_with_spacing": [
+        87,
+        159,
+        90
+      ]
+    },
+    {
+      "number": "035",
+      "name": "Tauracle",
+      "species": "SPECIES_CLEFAIRY",
+      "symbol": "gClefairyPokedexText",
+      "types": [
+        "Normal"
+      ],
+      "primary_ability": "Intimidation",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Normal.",
+        "Atout: Défense.",
+        "Talent: Intimidation."
+      ],
+      "width_pixels_with_spacing": [
+        87,
+        98,
+        132
+      ]
+    },
+    {
+      "number": "036",
+      "name": "Poulpatouch",
+      "species": "SPECIES_CLEFABLE",
+      "symbol": "gClefablePokedexText",
+      "types": [
+        "Normal"
+      ],
+      "primary_ability": "Fuite",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Normal.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Fuite."
+      ],
+      "width_pixels_with_spacing": [
+        87,
+        159,
+        90
+      ]
+    },
+    {
+      "number": "037",
+      "name": "Poulpater",
+      "species": "SPECIES_VULPIX",
+      "symbol": "gVulpixPokedexText",
+      "types": [
+        "Normal",
+        "Feu"
+      ],
+      "primary_ability": "Corps Ardent",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Normal / Feu.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Corps Ardent."
+      ],
+      "width_pixels_with_spacing": [
+        129,
+        159,
+        137
+      ]
+    },
+    {
+      "number": "038",
+      "name": "Bonneto",
+      "species": "SPECIES_NINETALES",
+      "symbol": "gNinetalesPokedexText",
+      "types": [
+        "Ténèbres"
+      ],
+      "primary_ability": "Intimidation",
+      "strongest_non_hp_stat": "Vitesse",
+      "description": [
+        "Type: Ténèbres.",
+        "Atout: Vitesse.",
+        "Talent: Intimidation."
+      ],
+      "width_pixels_with_spacing": [
+        100,
+        96,
+        132
+      ]
+    },
+    {
+      "number": "039",
+      "name": "Sabri",
+      "species": "SPECIES_JIGGLYPUFF",
+      "symbol": "gJigglypuffPokedexText",
+      "types": [
+        "Ténèbres",
+        "Combat"
+      ],
+      "primary_ability": "Intimidation",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Ténèbres / Combat.",
+        "Atout: Attaque.",
+        "Talent: Intimidation."
+      ],
+      "width_pixels_with_spacing": [
+        162,
+        99,
+        132
+      ]
+    },
+    {
+      "number": "040",
+      "name": "Démophage",
+      "species": "SPECIES_WIGGLYTUFF",
+      "symbol": "gWigglytuffPokedexText",
+      "types": [
+        "Combat"
+      ],
+      "primary_ability": "Cran",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Combat.",
+        "Atout: Attaque.",
+        "Talent: Cran."
+      ],
+      "width_pixels_with_spacing": [
+        88,
+        99,
+        84
+      ]
+    },
+    {
+      "number": "041",
+      "name": "Brumette",
+      "species": "SPECIES_ZUBAT",
+      "symbol": "gZubatPokedexText",
+      "types": [
+        "Spectre"
+      ],
+      "primary_ability": "Lévitation",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Spectre.",
+        "Atout: Défense Spéciale.",
+        "Talent: Lévitation."
+      ],
+      "width_pixels_with_spacing": [
+        94,
+        158,
+        121
+      ]
+    },
+    {
+      "number": "042",
+      "name": "Brumella",
+      "species": "SPECIES_GOLBAT",
+      "symbol": "gGolbatPokedexText",
+      "types": [
+        "Spectre"
+      ],
+      "primary_ability": "Lévitation",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Spectre.",
+        "Atout: Défense Spéciale.",
+        "Talent: Lévitation."
+      ],
+      "width_pixels_with_spacing": [
+        94,
+        158,
+        121
+      ]
+    },
+    {
+      "number": "043",
+      "name": "Télémir",
+      "species": "SPECIES_ODDISH",
+      "symbol": "gOddishPokedexText",
+      "types": [
+        "Spectre"
+      ],
+      "primary_ability": "Lévitation",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Spectre.",
+        "Atout: Défense Spéciale.",
+        "Talent: Lévitation."
+      ],
+      "width_pixels_with_spacing": [
+        94,
+        158,
+        121
+      ]
+    },
+    {
+      "number": "044",
+      "name": "Triptic-tac",
+      "species": "SPECIES_GLOOM",
+      "symbol": "gGloomPokedexText",
+      "types": [
+        "Spectre"
+      ],
+      "primary_ability": "Lévitation",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Spectre.",
+        "Atout: Défense Spéciale.",
+        "Talent: Lévitation."
+      ],
+      "width_pixels_with_spacing": [
+        94,
+        158,
+        121
+      ]
+    },
+    {
+      "number": "045",
+      "name": "Nihilistik",
+      "species": "SPECIES_VILEPLUME",
+      "symbol": "gVileplumePokedexText",
+      "types": [
+        "Insecte",
+        "Poison"
+      ],
+      "primary_ability": "Essaim",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Insecte / Poison.",
+        "Atout: Attaque.",
+        "Talent: Essaim."
+      ],
+      "width_pixels_with_spacing": [
+        152,
+        99,
+        96
+      ]
+    },
+    {
+      "number": "046",
+      "name": "Émousstik",
+      "species": "SPECIES_PARAS",
+      "symbol": "gParasPokedexText",
+      "types": [
+        "Insecte",
+        "Poison"
+      ],
+      "primary_ability": "Essaim",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Insecte / Poison.",
+        "Atout: Attaque.",
+        "Talent: Essaim."
+      ],
+      "width_pixels_with_spacing": [
+        152,
+        99,
+        96
+      ]
+    },
+    {
+      "number": "047",
+      "name": "Humainequin",
+      "species": "SPECIES_PARASECT",
+      "symbol": "gParasectPokedexText",
+      "types": [
+        "Normal"
+      ],
+      "primary_ability": "Calque",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Normal.",
+        "Atout: Attaque.",
+        "Talent: Calque."
+      ],
+      "width_pixels_with_spacing": [
+        87,
+        99,
+        99
+      ]
+    },
+    {
+      "number": "048",
+      "name": "Slurpent",
+      "species": "SPECIES_VENONAT",
+      "symbol": "gVenonatPokedexText",
+      "types": [
+        "Poison"
+      ],
+      "primary_ability": "Suintement",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Poison.",
+        "Atout: Défense Spéciale.",
+        "Talent: Suintement."
+      ],
+      "width_pixels_with_spacing": [
+        85,
+        158,
+        122
+      ]
+    },
+    {
+      "number": "049",
+      "name": "Baku",
+      "species": "SPECIES_VENOMOTH",
+      "symbol": "gVenomothPokedexText",
+      "types": [
+        "Psy"
+      ],
+      "primary_ability": "Synchro",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Psy.",
+        "Atout: Défense Spéciale.",
+        "Talent: Synchro."
+      ],
+      "width_pixels_with_spacing": [
+        67,
+        158,
+        105
+      ]
+    },
+    {
+      "number": "050",
+      "name": "Bakuku",
+      "species": "SPECIES_DIGLETT",
+      "symbol": "gDiglettPokedexText",
+      "types": [
+        "Psy"
+      ],
+      "primary_ability": "Synchro",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Psy.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Synchro."
+      ],
+      "width_pixels_with_spacing": [
+        67,
+        159,
+        105
+      ]
+    },
+    {
+      "number": "051",
+      "name": "Mognyan",
+      "species": "SPECIES_DUGTRIO",
+      "symbol": "gDugtrioPokedexText",
+      "types": [
+        "Psy"
+      ],
+      "primary_ability": "Synchro",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Psy.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Synchro."
+      ],
+      "width_pixels_with_spacing": [
+        67,
+        159,
+        105
+      ]
+    },
+    {
+      "number": "052",
+      "name": "Bouh",
+      "species": "SPECIES_MEOWTH",
+      "symbol": "gMeowthPokedexText",
+      "types": [
+        "Sol"
+      ],
+      "primary_ability": "Voile Sable",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Sol.",
+        "Atout: Attaque.",
+        "Talent: Voile Sable."
+      ],
+      "width_pixels_with_spacing": [
+        67,
+        99,
+        131
+      ]
+    },
+    {
+      "number": "053",
+      "name": "Lacanne",
+      "species": "SPECIES_PERSIAN",
+      "symbol": "gPersianPokedexText",
+      "types": [
+        "Plante"
+      ],
+      "primary_ability": "Chlorophylle",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Plante.",
+        "Atout: Attaque.",
+        "Talent: Chlorophylle."
+      ],
+      "width_pixels_with_spacing": [
+        86,
+        99,
+        138
+      ]
+    },
+    {
+      "number": "054",
+      "name": "Canastelle",
+      "species": "SPECIES_PSYDUCK",
+      "symbol": "gPsyduckPokedexText",
+      "types": [
+        "Plante"
+      ],
+      "primary_ability": "Chlorophylle",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Plante.",
+        "Atout: Défense.",
+        "Talent: Chlorophylle."
+      ],
+      "width_pixels_with_spacing": [
+        86,
+        98,
+        138
+      ]
+    },
+    {
+      "number": "055",
+      "name": "Yvantouse",
+      "species": "SPECIES_GOLDUCK",
+      "symbol": "gGolduckPokedexText",
+      "types": [
+        "Normal"
+      ],
+      "primary_ability": "Fuite",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Normal.",
+        "Atout: Attaque.",
+        "Talent: Fuite."
+      ],
+      "width_pixels_with_spacing": [
+        87,
+        99,
+        90
+      ]
+    },
+    {
+      "number": "056",
+      "name": "Ed Mémoire",
+      "species": "SPECIES_MANKEY",
+      "symbol": "gMankeyPokedexText",
+      "types": [
+        "Psy"
+      ],
+      "primary_ability": "Synchro",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Psy.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Synchro."
+      ],
+      "width_pixels_with_spacing": [
+        67,
+        159,
+        105
+      ]
+    },
+    {
+      "number": "057",
+      "name": "Couchtar",
+      "species": "SPECIES_PRIMEAPE",
+      "symbol": "gPrimeapePokedexText",
+      "types": [
+        "Ténèbres",
+        "Vol"
+      ],
+      "primary_ability": "Intimidation",
+      "strongest_non_hp_stat": "Vitesse",
+      "description": [
+        "Type: Ténèbres / Vol.",
+        "Atout: Vitesse.",
+        "Talent: Intimidation."
+      ],
+      "width_pixels_with_spacing": [
+        141,
+        96,
+        132
+      ]
+    },
+    {
+      "number": "058",
+      "name": "Noctambill",
+      "species": "SPECIES_GROWLITHE",
+      "symbol": "gGrowlithePokedexText",
+      "types": [
+        "Ténèbres",
+        "Vol"
+      ],
+      "primary_ability": "Intimidation",
+      "strongest_non_hp_stat": "Vitesse",
+      "description": [
+        "Type: Ténèbres / Vol.",
+        "Atout: Vitesse.",
+        "Talent: Intimidation."
+      ],
+      "width_pixels_with_spacing": [
+        141,
+        96,
+        132
+      ]
+    },
+    {
+      "number": "059",
+      "name": "Fouétar",
+      "species": "SPECIES_ARCANINE",
+      "symbol": "gArcaninePokedexText",
+      "types": [
+        "Combat",
+        "Ténèbres"
+      ],
+      "primary_ability": "Cran",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Combat / Ténèbres.",
+        "Atout: Attaque.",
+        "Talent: Cran."
+      ],
+      "width_pixels_with_spacing": [
+        162,
+        99,
+        84
+      ]
+    },
+    {
+      "number": "060",
+      "name": "Superfouétar",
+      "species": "SPECIES_POLIWAG",
+      "symbol": "gPoliwagPokedexText",
+      "types": [
+        "Combat",
+        "Ténèbres"
+      ],
+      "primary_ability": "Cran",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Combat / Ténèbres.",
+        "Atout: Attaque.",
+        "Talent: Cran."
+      ],
+      "width_pixels_with_spacing": [
+        162,
+        99,
+        84
+      ]
+    },
+    {
+      "number": "061",
+      "name": "Égare-dare",
+      "species": "SPECIES_POLIWHIRL",
+      "symbol": "gPoliwhirlPokedexText",
+      "types": [
+        "Acier"
+      ],
+      "primary_ability": "Fermeté",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Acier.",
+        "Atout: Défense.",
+        "Talent: Fermeté."
+      ],
+      "width_pixels_with_spacing": [
+        79,
+        98,
+        105
+      ]
+    },
+    {
+      "number": "062",
+      "name": "Chauvekipeut",
+      "species": "SPECIES_POLIWRATH",
+      "symbol": "gPoliwrathPokedexText",
+      "types": [
+        "Acier"
+      ],
+      "primary_ability": "Fermeté",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Acier.",
+        "Atout: Défense.",
+        "Talent: Fermeté."
+      ],
+      "width_pixels_with_spacing": [
+        79,
+        98,
+        105
+      ]
+    },
+    {
+      "number": "063",
+      "name": "Chihuaglagla",
+      "species": "SPECIES_ABRA",
+      "symbol": "gAbraPokedexText",
+      "types": [
+        "Glace"
+      ],
+      "primary_ability": "Isograisse",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Glace.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Isograisse."
+      ],
+      "width_pixels_with_spacing": [
+        81,
+        159,
+        122
+      ]
+    },
+    {
+      "number": "064",
+      "name": "Froahuahua",
+      "species": "SPECIES_KADABRA",
+      "symbol": "gKadabraPokedexText",
+      "types": [
+        "Glace"
+      ],
+      "primary_ability": "Isograisse",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Glace.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Isograisse."
+      ],
+      "width_pixels_with_spacing": [
+        81,
+        159,
+        122
+      ]
+    },
+    {
+      "number": "065",
+      "name": "Gorgouille",
+      "species": "SPECIES_ALAKAZAM",
+      "symbol": "gAlakazamPokedexText",
+      "types": [
+        "Combat"
+      ],
+      "primary_ability": "Cran",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Combat.",
+        "Atout: Attaque.",
+        "Talent: Cran."
+      ],
+      "width_pixels_with_spacing": [
+        88,
+        99,
+        84
+      ]
+    },
+    {
+      "number": "066",
+      "name": "Sirénée",
+      "species": "SPECIES_MACHOP",
+      "symbol": "gMachopPokedexText",
+      "types": [
+        "Eau"
+      ],
+      "primary_ability": "Absorbe-Eau",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Eau.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Absorbe-Eau."
+      ],
+      "width_pixels_with_spacing": [
+        68,
+        159,
+        133
+      ]
+    },
+    {
+      "number": "067",
+      "name": "Sirènité",
+      "species": "SPECIES_MACHOKE",
+      "symbol": "gMachokePokedexText",
+      "types": [
+        "Eau"
+      ],
+      "primary_ability": "Absorbe-Eau",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Eau.",
+        "Atout: Défense Spéciale.",
+        "Talent: Absorbe-Eau."
+      ],
+      "width_pixels_with_spacing": [
+        68,
+        158,
+        133
+      ]
+    },
+    {
+      "number": "068",
+      "name": "Papa Ress",
+      "species": "SPECIES_MACHAMP",
+      "symbol": "gMachampPokedexText",
+      "types": [
+        "Normal"
+      ],
+      "primary_ability": "Fuite",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Normal.",
+        "Atout: Défense Spéciale.",
+        "Talent: Fuite."
+      ],
+      "width_pixels_with_spacing": [
+        87,
+        158,
+        90
+      ]
+    },
+    {
+      "number": "069",
+      "name": "Ralbouc",
+      "species": "SPECIES_BELLSPROUT",
+      "symbol": "gBellsproutPokedexText",
+      "types": [
+        "Normal"
+      ],
+      "primary_ability": "Intimidation",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Normal.",
+        "Atout: Défense.",
+        "Talent: Intimidation."
+      ],
+      "width_pixels_with_spacing": [
+        87,
+        98,
+        132
+      ]
+    },
+    {
+      "number": "070",
+      "name": "Sorcophage",
+      "species": "SPECIES_WEEPINBELL",
+      "symbol": "gWeepinbellPokedexText",
+      "types": [
+        "Spectre"
+      ],
+      "primary_ability": "Lévitation",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Spectre.",
+        "Atout: Attaque.",
+        "Talent: Lévitation."
+      ],
+      "width_pixels_with_spacing": [
+        94,
+        99,
+        121
+      ]
+    },
+    {
+      "number": "071",
+      "name": "Insomnelle",
+      "species": "SPECIES_VICTREEBEL",
+      "symbol": "gVictreebelPokedexText",
+      "types": [
+        "Psy"
+      ],
+      "primary_ability": "Synchro",
+      "strongest_non_hp_stat": "Vitesse",
+      "description": [
+        "Type: Psy.",
+        "Atout: Vitesse.",
+        "Talent: Synchro."
+      ],
+      "width_pixels_with_spacing": [
+        67,
+        96,
+        105
+      ]
+    },
+    {
+      "number": "072",
+      "name": "Tata Aura",
+      "species": "SPECIES_TENTACOOL",
+      "symbol": "gTentacoolPokedexText",
+      "types": [
+        "Vol"
+      ],
+      "primary_ability": "Médic Nature",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Vol.",
+        "Atout: Défense Spéciale.",
+        "Talent: Médic Nature."
+      ],
+      "width_pixels_with_spacing": [
+        67,
+        158,
+        138
+      ]
+    },
+    {
+      "number": "073",
+      "name": "Tontonnerre",
+      "species": "SPECIES_TENTACRUEL",
+      "symbol": "gTentacruelPokedexText",
+      "types": [
+        "Vol"
+      ],
+      "primary_ability": "Regard Vif",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Vol.",
+        "Atout: Attaque.",
+        "Talent: Regard Vif."
+      ],
+      "width_pixels_with_spacing": [
+        67,
+        99,
+        124
+      ]
+    },
+    {
+      "number": "074",
+      "name": "Antonnerre",
+      "species": "SPECIES_GEODUDE",
+      "symbol": "gGeodudePokedexText",
+      "types": [
+        "Électrik"
+      ],
+      "primary_ability": "Statik",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Électrik.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Statik."
+      ],
+      "width_pixels_with_spacing": [
+        97,
+        159,
+        95
+      ]
+    },
+    {
+      "number": "075",
+      "name": "Parantonn",
+      "species": "SPECIES_GRAVELER",
+      "symbol": "gGravelerPokedexText",
+      "types": [
+        "Électrik",
+        "Vol"
+      ],
+      "primary_ability": "Paratonnerre",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Électrik / Vol.",
+        "Atout: Défense Spéciale.",
+        "Talent: Paratonnerre."
+      ],
+      "width_pixels_with_spacing": [
+        138,
+        158,
+        136
+      ]
+    },
+    {
+      "number": "076",
+      "name": "Scoltine",
+      "species": "SPECIES_GOLEM",
+      "symbol": "gGolemPokedexText",
+      "types": [
+        "Insecte"
+      ],
+      "primary_ability": "Essaim",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Insecte.",
+        "Atout: Attaque.",
+        "Talent: Essaim."
+      ],
+      "width_pixels_with_spacing": [
+        93,
+        99,
+        96
+      ]
+    },
+    {
+      "number": "077",
+      "name": "Scolérique",
+      "species": "SPECIES_PONYTA",
+      "symbol": "gPonytaPokedexText",
+      "types": [
+        "Insecte",
+        "Ténèbres"
+      ],
+      "primary_ability": "Cran",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Insecte / Ténèbres.",
+        "Atout: Attaque.",
+        "Talent: Cran."
+      ],
+      "width_pixels_with_spacing": [
+        167,
+        99,
+        84
+      ]
+    },
+    {
+      "number": "078",
+      "name": "Coléroptère",
+      "species": "SPECIES_RAPIDASH",
+      "symbol": "gRapidashPokedexText",
+      "types": [
+        "Insecte"
+      ],
+      "primary_ability": "Essaim",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Insecte.",
+        "Atout: Défense.",
+        "Talent: Essaim."
+      ],
+      "width_pixels_with_spacing": [
+        93,
+        98,
+        96
+      ]
+    },
+    {
+      "number": "079",
+      "name": "Rhinolimit",
+      "species": "SPECIES_SLOWPOKE",
+      "symbol": "gSlowpokePokedexText",
+      "types": [
+        "Insecte",
+        "Acier"
+      ],
+      "primary_ability": "Armurbaston",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Insecte / Acier.",
+        "Atout: Défense.",
+        "Talent: Armurbaston."
+      ],
+      "width_pixels_with_spacing": [
+        146,
+        98,
+        130
+      ]
+    },
+    {
+      "number": "080",
+      "name": "Scatcheur",
+      "species": "SPECIES_SLOWBRO",
+      "symbol": "gSlowbroPokedexText",
+      "types": [
+        "Insecte"
+      ],
+      "primary_ability": "Essaim",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Insecte.",
+        "Atout: Attaque.",
+        "Talent: Essaim."
+      ],
+      "width_pixels_with_spacing": [
+        93,
+        99,
+        96
+      ]
+    },
+    {
+      "number": "081",
+      "name": "Scarmouche",
+      "species": "SPECIES_MAGNEMITE",
+      "symbol": "gMagnemitePokedexText",
+      "types": [
+        "Insecte"
+      ],
+      "primary_ability": "Hyper Cutter",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Insecte.",
+        "Atout: Attaque.",
+        "Talent: Hyper Cutter."
+      ],
+      "width_pixels_with_spacing": [
+        93,
+        99,
+        138
+      ]
+    },
+    {
+      "number": "082",
+      "name": "Noko",
+      "species": "SPECIES_MAGNETON",
+      "symbol": "gMagnetonPokedexText",
+      "types": [
+        "Normal"
+      ],
+      "primary_ability": "Ramassage",
+      "strongest_non_hp_stat": "Vitesse",
+      "description": [
+        "Type: Normal.",
+        "Atout: Vitesse.",
+        "Talent: Ramassage."
+      ],
+      "width_pixels_with_spacing": [
+        87,
+        96,
+        119
+      ]
+    },
+    {
+      "number": "083",
+      "name": "Nénunoko",
+      "species": "SPECIES_FARFETCHD",
+      "symbol": "gFarfetchdPokedexText",
+      "types": [
+        "Normal"
+      ],
+      "primary_ability": "Sérénité",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Normal.",
+        "Atout: Défense Spéciale.",
+        "Talent: Sérénité."
+      ],
+      "width_pixels_with_spacing": [
+        87,
+        158,
+        109
+      ]
+    },
+    {
+      "number": "084",
+      "name": "Tryptik",
+      "species": "SPECIES_DODUO",
+      "symbol": "gDoduoPokedexText",
+      "types": [
+        "Feu",
+        "Sol"
+      ],
+      "primary_ability": "Intimidation",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Feu / Sol.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Intimidation."
+      ],
+      "width_pixels_with_spacing": [
+        109,
+        159,
+        132
+      ]
+    },
+    {
+      "number": "085",
+      "name": "Carpitaine",
+      "species": "SPECIES_DODRIO",
+      "symbol": "gDodrioPokedexText",
+      "types": [
+        "Eau"
+      ],
+      "primary_ability": "Absorbe-Eau",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Eau.",
+        "Atout: Défense.",
+        "Talent: Absorbe-Eau."
+      ],
+      "width_pixels_with_spacing": [
+        68,
+        98,
+        133
+      ]
+    },
+    {
+      "number": "086",
+      "name": "Turboss",
+      "species": "SPECIES_SEEL",
+      "symbol": "gSeelPokedexText",
+      "types": [
+        "Eau",
+        "Combat"
+      ],
+      "primary_ability": "Intimidation",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Eau / Combat.",
+        "Atout: Attaque.",
+        "Talent: Intimidation."
+      ],
+      "width_pixels_with_spacing": [
+        130,
+        99,
+        132
+      ]
+    },
+    {
+      "number": "087",
+      "name": "Kappacap",
+      "species": "SPECIES_DEWGONG",
+      "symbol": "gDewgongPokedexText",
+      "types": [
+        "Eau"
+      ],
+      "primary_ability": "Torrent",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Eau.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Torrent."
+      ],
+      "width_pixels_with_spacing": [
+        68,
+        159,
+        103
+      ]
+    },
+    {
+      "number": "088",
+      "name": "Appak",
+      "species": "SPECIES_GRIMER",
+      "symbol": "gGrimerPokedexText",
+      "types": [
+        "Eau"
+      ],
+      "primary_ability": "Torrent",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Eau.",
+        "Atout: Attaque.",
+        "Talent: Torrent."
+      ],
+      "width_pixels_with_spacing": [
+        68,
+        99,
+        103
+      ]
+    },
+    {
+      "number": "089",
+      "name": "Camaïeul",
+      "species": "SPECIES_MUK",
+      "symbol": "gMukPokedexText",
+      "types": [
+        "Plante"
+      ],
+      "primary_ability": "Calque",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Plante.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Calque."
+      ],
+      "width_pixels_with_spacing": [
+        86,
+        159,
+        99
+      ]
+    },
+    {
+      "number": "090",
+      "name": "Glapie",
+      "species": "SPECIES_SHELLDER",
+      "symbol": "gShellderPokedexText",
+      "types": [
+        "Vol",
+        "Spectre"
+      ],
+      "primary_ability": "Pression",
+      "strongest_non_hp_stat": "Vitesse",
+      "description": [
+        "Type: Vol / Spectre.",
+        "Atout: Vitesse.",
+        "Talent: Pression."
+      ],
+      "width_pixels_with_spacing": [
+        135,
+        96,
+        108
+      ]
+    },
+    {
+      "number": "091",
+      "name": "Chiperpiou",
+      "species": "SPECIES_CLOYSTER",
+      "symbol": "gCloysterPokedexText",
+      "types": [
+        "Normal"
+      ],
+      "primary_ability": "Fuite",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Normal.",
+        "Atout: Attaque.",
+        "Talent: Fuite."
+      ],
+      "width_pixels_with_spacing": [
+        87,
+        99,
+        90
+      ]
+    },
+    {
+      "number": "092",
+      "name": "Rapiaf",
+      "species": "SPECIES_GASTLY",
+      "symbol": "gGastlyPokedexText",
+      "types": [
+        "Normal"
+      ],
+      "primary_ability": "Regard Vif",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Normal.",
+        "Atout: Attaque.",
+        "Talent: Regard Vif."
+      ],
+      "width_pixels_with_spacing": [
+        87,
+        99,
+        124
+      ]
+    },
+    {
+      "number": "093",
+      "name": "Tête de lard",
+      "species": "SPECIES_HAUNTER",
+      "symbol": "gHaunterPokedexText",
+      "types": [
+        "Feu"
+      ],
+      "primary_ability": "Torche",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Feu.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Torche."
+      ],
+      "width_pixels_with_spacing": [
+        68,
+        159,
+        99
+      ]
+    },
+    {
+      "number": "094",
+      "name": "Potache",
+      "species": "SPECIES_GENGAR",
+      "symbol": "gGengarPokedexText",
+      "types": [
+        "Plante"
+      ],
+      "primary_ability": "Chlorophylle",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Plante.",
+        "Atout: Défense Spéciale.",
+        "Talent: Chlorophylle."
+      ],
+      "width_pixels_with_spacing": [
+        86,
+        158,
+        138
+      ]
+    },
+    {
+      "number": "095",
+      "name": "Dépotache",
+      "species": "SPECIES_ONIX",
+      "symbol": "gOnixPokedexText",
+      "types": [
+        "Plante"
+      ],
+      "primary_ability": "Chlorophylle",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Plante.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Chlorophylle."
+      ],
+      "width_pixels_with_spacing": [
+        86,
+        159,
+        138
+      ]
+    },
+    {
+      "number": "096",
+      "name": "Navétéran",
+      "species": "SPECIES_DROWZEE",
+      "symbol": "gDrowzeePokedexText",
+      "types": [
+        "Acier"
+      ],
+      "primary_ability": "Fermeté",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Acier.",
+        "Atout: Attaque.",
+        "Talent: Fermeté."
+      ],
+      "width_pixels_with_spacing": [
+        79,
+        99,
+        105
+      ]
+    },
+    {
+      "number": "097",
+      "name": "Navigarmateur",
+      "species": "SPECIES_HYPNO",
+      "symbol": "gHypnoPokedexText",
+      "types": [
+        "Acier"
+      ],
+      "primary_ability": "Fermeté",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Acier.",
+        "Atout: Attaque.",
+        "Talent: Fermeté."
+      ],
+      "width_pixels_with_spacing": [
+        79,
+        99,
+        105
+      ]
+    },
+    {
+      "number": "098",
+      "name": "Sergent Rampant",
+      "species": "SPECIES_KRABBY",
+      "symbol": "gKrabbyPokedexText",
+      "types": [
+        "Insecte"
+      ],
+      "primary_ability": "Essaim",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Insecte.",
+        "Atout: Attaque.",
+        "Talent: Essaim."
+      ],
+      "width_pixels_with_spacing": [
+        93,
+        99,
+        96
+      ]
+    },
+    {
+      "number": "099",
+      "name": "Coach Antonic",
+      "species": "SPECIES_KINGLER",
+      "symbol": "gKinglerPokedexText",
+      "types": [
+        "Combat"
+      ],
+      "primary_ability": "Cran",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Combat.",
+        "Atout: Attaque.",
+        "Talent: Cran."
+      ],
+      "width_pixels_with_spacing": [
+        88,
+        99,
+        84
+      ]
+    },
+    {
+      "number": "100",
+      "name": "Usapyon",
+      "species": "SPECIES_VOLTORB",
+      "symbol": "gVoltorbPokedexText",
+      "types": [
+        "Acier"
+      ],
+      "primary_ability": "Regard Vif",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Acier.",
+        "Atout: Attaque.",
+        "Talent: Regard Vif."
+      ],
+      "width_pixels_with_spacing": [
+        79,
+        99,
+        124
+      ]
+    },
+    {
+      "number": "101",
+      "name": "Emperor",
+      "species": "SPECIES_ELECTRODE",
+      "symbol": "gElectrodePokedexText",
+      "types": [
+        "Acier",
+        "Ténèbres"
+      ],
+      "primary_ability": "Armurbaston",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Acier / Ténèbres.",
+        "Atout: Attaque.",
+        "Talent: Armurbaston."
+      ],
+      "width_pixels_with_spacing": [
+        153,
+        99,
+        130
+      ]
+    },
+    {
+      "number": "102",
+      "name": "Castelius III",
+      "species": "SPECIES_EXEGGCUTE",
+      "symbol": "gExeggcutePokedexText",
+      "types": [
+        "Vol",
+        "Acier"
+      ],
+      "primary_ability": "Regard Vif",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Vol / Acier.",
+        "Atout: Défense.",
+        "Talent: Regard Vif."
+      ],
+      "width_pixels_with_spacing": [
+        120,
+        98,
+        124
+      ]
+    },
+    {
+      "number": "103",
+      "name": "Castelius II",
+      "species": "SPECIES_EXEGGUTOR",
+      "symbol": "gExeggutorPokedexText",
+      "types": [
+        "Vol",
+        "Acier"
+      ],
+      "primary_ability": "Regard Vif",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Vol / Acier.",
+        "Atout: Défense.",
+        "Talent: Regard Vif."
+      ],
+      "width_pixels_with_spacing": [
+        120,
+        98,
+        124
+      ]
+    },
+    {
+      "number": "104",
+      "name": "Castelius I",
+      "species": "SPECIES_CUBONE",
+      "symbol": "gCubonePokedexText",
+      "types": [
+        "Vol",
+        "Acier"
+      ],
+      "primary_ability": "Regard Vif",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Vol / Acier.",
+        "Atout: Attaque.",
+        "Talent: Regard Vif."
+      ],
+      "width_pixels_with_spacing": [
+        120,
+        99,
+        124
+      ]
+    },
+    {
+      "number": "105",
+      "name": "Castelius Max",
+      "species": "SPECIES_MAROWAK",
+      "symbol": "gMarowakPokedexText",
+      "types": [
+        "Vol",
+        "Acier"
+      ],
+      "primary_ability": "Pression",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Vol / Acier.",
+        "Atout: Défense.",
+        "Talent: Pression."
+      ],
+      "width_pixels_with_spacing": [
+        120,
+        98,
+        108
+      ]
+    },
+    {
+      "number": "106",
+      "name": "Pitou",
+      "species": "SPECIES_HITMONLEE",
+      "symbol": "gHitmonleePokedexText",
+      "types": [
+        "Normal"
+      ],
+      "primary_ability": "Fuite",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Normal.",
+        "Atout: Attaque.",
+        "Talent: Fuite."
+      ],
+      "width_pixels_with_spacing": [
+        87,
+        99,
+        90
+      ]
+    },
+    {
+      "number": "107",
+      "name": "Choubidou",
+      "species": "SPECIES_HITMONCHAN",
+      "symbol": "gHitmonchanPokedexText",
+      "types": [
+        "Normal"
+      ],
+      "primary_ability": "Intimidation",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Normal.",
+        "Atout: Attaque.",
+        "Talent: Intimidation."
+      ],
+      "width_pixels_with_spacing": [
+        87,
+        99,
+        132
+      ]
+    },
+    {
+      "number": "108",
+      "name": "Arbrézo",
+      "species": "SPECIES_LICKITUNG",
+      "symbol": "gLickitungPokedexText",
+      "types": [
+        "Plante"
+      ],
+      "primary_ability": "Chlorophylle",
+      "strongest_non_hp_stat": "Vitesse",
+      "description": [
+        "Type: Plante.",
+        "Atout: Vitesse.",
+        "Talent: Chlorophylle."
+      ],
+      "width_pixels_with_spacing": [
+        86,
+        96,
+        138
+      ]
+    },
+    {
+      "number": "109",
+      "name": "Abrézo Social",
+      "species": "SPECIES_KOFFING",
+      "symbol": "gKoffingPokedexText",
+      "types": [
+        "Plante",
+        "Psy"
+      ],
+      "primary_ability": "Chlorophylle",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Plante / Psy.",
+        "Atout: Défense.",
+        "Talent: Chlorophylle."
+      ],
+      "width_pixels_with_spacing": [
+        127,
+        98,
+        138
+      ]
+    },
+    {
+      "number": "110",
+      "name": "Espreschiot",
+      "species": "SPECIES_WEEZING",
+      "symbol": "gWeezingPokedexText",
+      "types": [
+        "Normal",
+        "Glace"
+      ],
+      "primary_ability": "Attention",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Normal / Glace.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Attention."
+      ],
+      "width_pixels_with_spacing": [
+        142,
+        159,
+        114
+      ]
+    },
+    {
+      "number": "111",
+      "name": "Duc Delafeuille",
+      "species": "SPECIES_RHYHORN",
+      "symbol": "gRhyhornPokedexText",
+      "types": [
+        "Vol"
+      ],
+      "primary_ability": "Regard Vif",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Vol.",
+        "Atout: Défense Spéciale.",
+        "Talent: Regard Vif."
+      ],
+      "width_pixels_with_spacing": [
+        67,
+        158,
+        124
+      ]
+    },
+    {
+      "number": "112",
+      "name": "Feuildechou",
+      "species": "SPECIES_RHYDON",
+      "symbol": "gRhydonPokedexText",
+      "types": [
+        "Vol"
+      ],
+      "primary_ability": "Regard Vif",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Vol.",
+        "Atout: Défense Spéciale.",
+        "Talent: Regard Vif."
+      ],
+      "width_pixels_with_spacing": [
+        67,
+        158,
+        124
+      ]
+    },
+    {
+      "number": "113",
+      "name": "Sal de bain",
+      "species": "SPECIES_CHANSEY",
+      "symbol": "gChanseyPokedexText",
+      "types": [
+        "Ténèbres"
+      ],
+      "primary_ability": "Insomnia",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Ténèbres.",
+        "Atout: Défense Spéciale.",
+        "Talent: Insomnia."
+      ],
+      "width_pixels_with_spacing": [
+        100,
+        158,
+        109
+      ]
+    },
+    {
+      "number": "114",
+      "name": "XXL de bain",
+      "species": "SPECIES_TANGELA",
+      "symbol": "gTangelaPokedexText",
+      "types": [
+        "Ténèbres"
+      ],
+      "primary_ability": "Intimidation",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Ténèbres.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Intimidation."
+      ],
+      "width_pixels_with_spacing": [
+        100,
+        159,
+        132
+      ]
+    },
+    {
+      "number": "115",
+      "name": "Tristos",
+      "species": "SPECIES_KANGASKHAN",
+      "symbol": "gKangaskhanPokedexText",
+      "types": [
+        "Spectre"
+      ],
+      "primary_ability": "Insomnia",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Spectre.",
+        "Atout: Défense Spéciale.",
+        "Talent: Insomnia."
+      ],
+      "width_pixels_with_spacing": [
+        94,
+        158,
+        109
+      ]
+    },
+    {
+      "number": "116",
+      "name": "Rocky Badboya",
+      "species": "SPECIES_HORSEA",
+      "symbol": "gHorseaPokedexText",
+      "types": [
+        "Combat"
+      ],
+      "primary_ability": "Cran",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Combat.",
+        "Atout: Attaque.",
+        "Talent: Cran."
+      ],
+      "width_pixels_with_spacing": [
+        88,
+        99,
+        84
+      ]
+    },
+    {
+      "number": "117",
+      "name": "Raton Glandeur",
+      "species": "SPECIES_SEADRA",
+      "symbol": "gSeadraPokedexText",
+      "types": [
+        "Normal",
+        "Eau"
+      ],
+      "primary_ability": "Tempo Perso",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Normal / Eau.",
+        "Atout: Défense.",
+        "Talent: Tempo Perso."
+      ],
+      "width_pixels_with_spacing": [
+        129,
+        98,
+        133
+      ]
+    },
+    {
+      "number": "118",
+      "name": "Vertipiou",
+      "species": "SPECIES_GOLDEEN",
+      "symbol": "gGoldeenPokedexText",
+      "types": [
+        "Vol"
+      ],
+      "primary_ability": "Agitation",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Vol.",
+        "Atout: Défense Spéciale.",
+        "Talent: Agitation."
+      ],
+      "width_pixels_with_spacing": [
+        67,
+        158,
+        114
+      ]
+    },
+    {
+      "number": "119",
+      "name": "Samoussraï",
+      "species": "SPECIES_SEAKING",
+      "symbol": "gSeakingPokedexText",
+      "types": [
+        "Combat"
+      ],
+      "primary_ability": "Cran",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Combat.",
+        "Atout: Défense.",
+        "Talent: Cran."
+      ],
+      "width_pixels_with_spacing": [
+        88,
+        98,
+        84
+      ]
+    },
+    {
+      "number": "120",
+      "name": "Ronimpec",
+      "species": "SPECIES_STARYU",
+      "symbol": "gStaryuPokedexText",
+      "types": [
+        "Combat"
+      ],
+      "primary_ability": "Cran",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Combat.",
+        "Atout: Attaque.",
+        "Talent: Cran."
+      ],
+      "width_pixels_with_spacing": [
+        88,
+        99,
+        84
+      ]
+    },
+    {
+      "number": "121",
+      "name": "Moufpète",
+      "species": "SPECIES_STARMIE",
+      "symbol": "gStarmiePokedexText",
+      "types": [
+        "Poison"
+      ],
+      "primary_ability": "Puanteur",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Poison.",
+        "Atout: Attaque.",
+        "Talent: Puanteur."
+      ],
+      "width_pixels_with_spacing": [
+        85,
+        99,
+        111
+      ]
+    },
+    {
+      "number": "122",
+      "name": "Gloups",
+      "species": "SPECIES_MR_MIME",
+      "symbol": "gMrmimePokedexText",
+      "types": [
+        "Ténèbres"
+      ],
+      "primary_ability": "Intimidation",
+      "strongest_non_hp_stat": "Vitesse",
+      "description": [
+        "Type: Ténèbres.",
+        "Atout: Vitesse.",
+        "Talent: Intimidation."
+      ],
+      "width_pixels_with_spacing": [
+        100,
+        96,
+        132
+      ]
+    },
+    {
+      "number": "123",
+      "name": "Chip-Chop",
+      "species": "SPECIES_SCYTHER",
+      "symbol": "gScytherPokedexText",
+      "types": [
+        "Ténèbres"
+      ],
+      "primary_ability": "Intimidation",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Ténèbres.",
+        "Atout: Défense.",
+        "Talent: Intimidation."
+      ],
+      "width_pixels_with_spacing": [
+        100,
+        98,
+        132
+      ]
+    },
+    {
+      "number": "124",
+      "name": "Chaipo",
+      "species": "SPECIES_JYNX",
+      "symbol": "gJynxPokedexText",
+      "types": [
+        "Spectre"
+      ],
+      "primary_ability": "Lévitation",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Spectre.",
+        "Atout: Défense Spéciale.",
+        "Talent: Lévitation."
+      ],
+      "width_pixels_with_spacing": [
+        94,
+        158,
+        121
+      ]
+    },
+    {
+      "number": "125",
+      "name": "Mémogre",
+      "species": "SPECIES_ELECTABUZZ",
+      "symbol": "gElectabuzzPokedexText",
+      "types": [
+        "Spectre"
+      ],
+      "primary_ability": "Pression",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Spectre.",
+        "Atout: Attaque.",
+        "Talent: Pression."
+      ],
+      "width_pixels_with_spacing": [
+        94,
+        99,
+        108
+      ]
+    },
+    {
+      "number": "126",
+      "name": "Jojojoyeux",
+      "species": "SPECIES_MAGMAR",
+      "symbol": "gMagmarPokedexText",
+      "types": [
+        "Vol"
+      ],
+      "primary_ability": "Regard Vif",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Vol.",
+        "Atout: Défense Spéciale.",
+        "Talent: Regard Vif."
+      ],
+      "width_pixels_with_spacing": [
+        67,
+        158,
+        124
+      ]
+    },
+    {
+      "number": "127",
+      "name": "Chauvkipeut",
+      "species": "SPECIES_PINSIR",
+      "symbol": "gPinsirPokedexText",
+      "types": [
+        "Vol",
+        "Ténèbres"
+      ],
+      "primary_ability": "Regard Vif",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Vol / Ténèbres.",
+        "Atout: Défense Spéciale.",
+        "Talent: Regard Vif."
+      ],
+      "width_pixels_with_spacing": [
+        141,
+        158,
+        124
+      ]
+    },
+    {
+      "number": "128",
+      "name": "Chauv'coucou",
+      "species": "SPECIES_TAUROS",
+      "symbol": "gTaurosPokedexText",
+      "types": [
+        "Vol",
+        "Ténèbres"
+      ],
+      "primary_ability": "Regard Vif",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Vol / Ténèbres.",
+        "Atout: Défense.",
+        "Talent: Regard Vif."
+      ],
+      "width_pixels_with_spacing": [
+        141,
+        98,
+        124
+      ]
+    },
+    {
+      "number": "129",
+      "name": "Pachycoul",
+      "species": "SPECIES_MAGIKARP",
+      "symbol": "gMagikarpPokedexText",
+      "types": [
+        "Sol"
+      ],
+      "primary_ability": "Voile Sable",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Sol.",
+        "Atout: Attaque.",
+        "Talent: Voile Sable."
+      ],
+      "width_pixels_with_spacing": [
+        67,
+        99,
+        131
+      ]
+    },
+    {
+      "number": "130",
+      "name": "Pachypipi",
+      "species": "SPECIES_GYARADOS",
+      "symbol": "gGyaradosPokedexText",
+      "types": [
+        "Sol"
+      ],
+      "primary_ability": "Voile Sable",
+      "strongest_non_hp_stat": "Vitesse",
+      "description": [
+        "Type: Sol.",
+        "Atout: Vitesse.",
+        "Talent: Voile Sable."
+      ],
+      "width_pixels_with_spacing": [
+        67,
+        96,
+        131
+      ]
+    },
+    {
+      "number": "131",
+      "name": "Loubarbare",
+      "species": "SPECIES_LAPRAS",
+      "symbol": "gLaprasPokedexText",
+      "types": [
+        "Ténèbres"
+      ],
+      "primary_ability": "Intimidation",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Ténèbres.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Intimidation."
+      ],
+      "width_pixels_with_spacing": [
+        100,
+        159,
+        132
+      ]
+    },
+    {
+      "number": "132",
+      "name": "Racaïd",
+      "species": "SPECIES_DITTO",
+      "symbol": "gDittoPokedexText",
+      "types": [
+        "Ténèbres"
+      ],
+      "primary_ability": "Intimidation",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Ténèbres.",
+        "Atout: Défense.",
+        "Talent: Intimidation."
+      ],
+      "width_pixels_with_spacing": [
+        100,
+        98,
+        132
+      ]
+    },
+    {
+      "number": "133",
+      "name": "Terminyanator",
+      "species": "SPECIES_EEVEE",
+      "symbol": "gEeveePokedexText",
+      "types": [
+        "Acier",
+        "Ténèbres"
+      ],
+      "primary_ability": "Armurbaston",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Acier / Ténèbres.",
+        "Atout: Défense.",
+        "Talent: Armurbaston."
+      ],
+      "width_pixels_with_spacing": [
+        153,
+        98,
+        130
+      ]
+    },
+    {
+      "number": "134",
+      "name": "Sabruine",
+      "species": "SPECIES_VAPOREON",
+      "symbol": "gVaporeonPokedexText",
+      "types": [
+        "Eau"
+      ],
+      "primary_ability": "Absorbe-Eau",
+      "strongest_non_hp_stat": "Vitesse",
+      "description": [
+        "Type: Eau.",
+        "Atout: Vitesse.",
+        "Talent: Absorbe-Eau."
+      ],
+      "width_pixels_with_spacing": [
+        68,
+        96,
+        133
+      ]
+    },
+    {
+      "number": "135",
+      "name": "Sabrille",
+      "species": "SPECIES_JOLTEON",
+      "symbol": "gJolteonPokedexText",
+      "types": [
+        "Feu"
+      ],
+      "primary_ability": "Torche",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Feu.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Torche."
+      ],
+      "width_pixels_with_spacing": [
+        68,
+        159,
+        99
+      ]
+    },
+    {
+      "number": "136",
+      "name": "Fourchelangue",
+      "species": "SPECIES_FLAREON",
+      "symbol": "gFlareonPokedexText",
+      "types": [
+        "Psy"
+      ],
+      "primary_ability": "Synchro",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Psy.",
+        "Atout: Défense.",
+        "Talent: Synchro."
+      ],
+      "width_pixels_with_spacing": [
+        67,
+        98,
+        105
+      ]
+    },
+    {
+      "number": "137",
+      "name": "Felipaix",
+      "species": "SPECIES_PORYGON",
+      "symbol": "gPorygonPokedexText",
+      "types": [
+        "Sol"
+      ],
+      "primary_ability": "Voile Sable",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Sol.",
+        "Atout: Défense Spéciale.",
+        "Talent: Voile Sable."
+      ],
+      "width_pixels_with_spacing": [
+        67,
+        158,
+        131
+      ]
+    },
+    {
+      "number": "138",
+      "name": "M. Felipaix",
+      "species": "SPECIES_OMANYTE",
+      "symbol": "gOmanytePokedexText",
+      "types": [
+        "Sol"
+      ],
+      "primary_ability": "Voile Sable",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Sol.",
+        "Atout: Attaque.",
+        "Talent: Voile Sable."
+      ],
+      "width_pixels_with_spacing": [
+        67,
+        99,
+        131
+      ]
+    },
+    {
+      "number": "139",
+      "name": "Doyagari",
+      "species": "SPECIES_OMASTAR",
+      "symbol": "gOmastarPokedexText",
+      "types": [
+        "Plante"
+      ],
+      "primary_ability": "Chlorophylle",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Plante.",
+        "Atout: Défense Spéciale.",
+        "Talent: Chlorophylle."
+      ],
+      "width_pixels_with_spacing": [
+        86,
+        158,
+        138
+      ]
+    },
+    {
+      "number": "140",
+      "name": "Doyen Doyagari",
+      "species": "SPECIES_KABUTO",
+      "symbol": "gKabutoPokedexText",
+      "types": [
+        "Plante"
+      ],
+      "primary_ability": "Chlorophylle",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Plante.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Chlorophylle."
+      ],
+      "width_pixels_with_spacing": [
+        86,
+        159,
+        138
+      ]
+    },
+    {
+      "number": "141",
+      "name": "Volroulo",
+      "species": "SPECIES_KABUTOPS",
+      "symbol": "gKabutopsPokedexText",
+      "types": [
+        "Vol"
+      ],
+      "primary_ability": "Regard Vif",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Vol.",
+        "Atout: Défense Spéciale.",
+        "Talent: Regard Vif."
+      ],
+      "width_pixels_with_spacing": [
+        67,
+        158,
+        124
+      ]
+    },
+    {
+      "number": "142",
+      "name": "Lulugubre",
+      "species": "SPECIES_AERODACTYL",
+      "symbol": "gAerodactylPokedexText",
+      "types": [
+        "Poison"
+      ],
+      "primary_ability": "Point Poison",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Poison.",
+        "Atout: Défense.",
+        "Talent: Point Poison."
+      ],
+      "width_pixels_with_spacing": [
+        85,
+        98,
+        134
+      ]
+    },
+    {
+      "number": "143",
+      "name": "Toumou",
+      "species": "SPECIES_SNORLAX",
+      "symbol": "gSnorlaxPokedexText",
+      "types": [
+        "Poison"
+      ],
+      "primary_ability": "Point Poison",
+      "strongest_non_hp_stat": "Défense Spéciale",
+      "description": [
+        "Type: Poison.",
+        "Atout: Défense Spéciale.",
+        "Talent: Point Poison."
+      ],
+      "width_pixels_with_spacing": [
+        85,
+        158,
+        134
+      ]
+    },
+    {
+      "number": "144",
+      "name": "Lamlam'mou",
+      "species": "SPECIES_ARTICUNO",
+      "symbol": "gArticunoPokedexText",
+      "types": [
+        "Normal"
+      ],
+      "primary_ability": "Vaccin",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Normal.",
+        "Atout: Attaque.",
+        "Talent: Vaccin."
+      ],
+      "width_pixels_with_spacing": [
+        87,
+        99,
+        97
+      ]
+    },
+    {
+      "number": "145",
+      "name": "Savantard",
+      "species": "SPECIES_ZAPDOS",
+      "symbol": "gZapdosPokedexText",
+      "types": [
+        "Psy"
+      ],
+      "primary_ability": "Calque",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Psy.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Calque."
+      ],
+      "width_pixels_with_spacing": [
+        67,
+        159,
+        99
+      ]
+    },
+    {
+      "number": "146",
+      "name": "Loupépin",
+      "species": "SPECIES_MOLTRES",
+      "symbol": "gMoltresPokedexText",
+      "types": [
+        "Normal"
+      ],
+      "primary_ability": "Fuite",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Normal.",
+        "Atout: Attaque.",
+        "Talent: Fuite."
+      ],
+      "width_pixels_with_spacing": [
+        87,
+        99,
+        90
+      ]
+    },
+    {
+      "number": "147",
+      "name": "Mademoaiselle",
+      "species": "SPECIES_DRATINI",
+      "symbol": "gDratiniPokedexText",
+      "types": [
+        "Roche"
+      ],
+      "primary_ability": "Corps Sain",
+      "strongest_non_hp_stat": "Défense",
+      "description": [
+        "Type: Roche.",
+        "Atout: Défense.",
+        "Talent: Corps Sain."
+      ],
+      "width_pixels_with_spacing": [
+        82,
+        98,
+        123
+      ]
+    },
+    {
+      "number": "148",
+      "name": "Maître Nyada",
+      "species": "SPECIES_DRAGONAIR",
+      "symbol": "gDragonairPokedexText",
+      "types": [
+        "Psy"
+      ],
+      "primary_ability": "Attention",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Psy.",
+        "Atout: Attaque.",
+        "Talent: Attention."
+      ],
+      "width_pixels_with_spacing": [
+        67,
+        99,
+        114
+      ]
+    },
+    {
+      "number": "149",
+      "name": "Hovernyan",
+      "species": "SPECIES_DRAGONITE",
+      "symbol": "gDragonitePokedexText",
+      "types": [
+        "Vol"
+      ],
+      "primary_ability": "Regard Vif",
+      "strongest_non_hp_stat": "Attaque",
+      "description": [
+        "Type: Vol.",
+        "Atout: Attaque.",
+        "Talent: Regard Vif."
+      ],
+      "width_pixels_with_spacing": [
+        67,
+        99,
+        124
+      ]
+    },
+    {
+      "number": "150",
+      "name": "Enma",
+      "species": "SPECIES_MEWTWO",
+      "symbol": "gMewtwoPokedexText",
+      "types": [
+        "Psy"
+      ],
+      "primary_ability": "Pression",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Psy.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Pression."
+      ],
+      "width_pixels_with_spacing": [
+        67,
+        159,
+        108
+      ]
+    },
+    {
+      "number": "151",
+      "name": "Raltesse",
+      "species": "SPECIES_MEW",
+      "symbol": "gMewPokedexText",
+      "types": [
+        "Ténèbres"
+      ],
+      "primary_ability": "Synchro",
+      "strongest_non_hp_stat": "Attaque Spéciale",
+      "description": [
+        "Type: Ténèbres.",
+        "Atout: Attaque Spéciale.",
+        "Talent: Synchro."
+      ],
+      "width_pixels_with_spacing": [
+        100,
+        159,
+        105
+      ]
+    }
+  ]
+}

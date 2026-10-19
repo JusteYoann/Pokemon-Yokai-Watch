@@ -1,130 +1,59 @@
 Pokedude_Text_SpeedierBattlerGoesFirst::
-	.string "POKé DUDE: The speedier of the\n"
-	.string "battlers gets to attack first.$"
+    .string "Le Yo-kai le plus rapide\nattaque généralement en premier.$"
 
 Pokedude_Text_MyRattataFasterThanPidgey::
-	.string "It looks like my RATTATA was\n"
-	.string "faster than the PIDGEY.$"
+    .string "La Vitesse compte, mais certaines\ncapacités ont une priorité spéciale.$"
 
 Pokedude_Text_BattlersTakeTurnsAttacking::
-	.string "The battlers take turns attacking\n"
-	.string "and reducing each other's HP.$"
+    .string "Les Yo-kai attaquent à tour de rôle\net font baisser les PV adverses.$"
 
 Pokedude_Text_MyRattataWonGetsEXP::
-	.string "My RATTATA reduced the foe's HP\n"
-	.string "to zero, so it wins!\p"
-	.string "The Yo-kai that took part in the\n"
-	.string "battle get EXP. Points.\p"
-	.string "When a Yo-kai collects enough\n"
-	.string "EXP. Points, it levels up.\p"
-	.string "Leveling up makes your Yo-kai\n"
-	.string "stronger than before.$"
+    .string "Quand les PV adverses atteignent\nzéro, le combat est gagné!\pLe Multi Exp. permanent fait gagner\nde l'expérience à toute l'équipe\lencore en état de combattre.\pAvec assez d'EXP., un Yo-kai\ngagne un niveau et devient plus fort.$"
 
 Pokedude_Text_UhOhRattataPoisoned::
-	.string "POKé DUDE: Uh-oh…\n"
-	.string "My RATTATA has been poisoned…\p"
-	.string "If a Yo-kai is poisoned, it loses\n"
-	.string "HP steadily.$"
+    .string "Attention au poison!\pUn Yo-kai empoisonné\nperd des PV progressivement.$"
 
 Pokedude_Text_HealStatusRightAway::
-	.string "If a Yo-kai develops a status\n"
-	.string "problem, heal it right away.$"
+    .string "Si un Yo-kai souffre d'un statut,\nsoignez-le sans attendre.$"
 
 Pokedude_Text_UsingItemTakesTurn::
-	.string "Using an item on a Yo-kai uses\n"
-	.string "up one turn, though.\p"
-	.string "Now, it's the opponent's turn!$"
+    .string "Utiliser un objet sur un Yo-kai\nconsomme votre tour.\pC'est maintenant\nà l'adversaire d'agir!$"
 
 Pokedude_Text_YayWeManagedToWin::
-	.string "Yay!\n"
-	.string "We managed to win!$"
+    .string "Youpi!\nNous avons gagné!$"
 
 Pokedude_Text_WaterNotVeryEffectiveAgainstGrass::
-	.string "POKé DUDE: The move BUBBLE is\n"
-	.string "a WATER-type attack.\p"
-	.string "The targeted ODDISH is a\n"
-	.string "GRASS/POISON-type Yo-kai.\p"
-	.string "The WATER-type attack is absorbed\n"
-	.string "by the GRASS-type Yo-kai…\p"
-	.string "As a result, the move becomes not\n"
-	.string "very effective, and inflicts only\l"
-	.string "half the usual damage.$"
+    .string "Écume est une capacité\nde type Eau.\pSon efficacité dépend\ndes types du Yo-kai visé.\pL'Eau est peu efficace\ncontre la Plante, par exemple.\pMais Télémir est de type Spectre:\nce n'est pas une résistance\là l'Eau par son type.$"
 
 Pokedude_Text_GrassEffectiveAgainstWater::
-	.string "Uh-oh, this is not good!\p"
-	.string "The ABSORB attack you just saw\n"
-	.string "is a GRASS-type move.\p"
-	.string "POLIWAG is a WATER-type Yo-kai.\p"
-	.string "So, ABSORB becomes super\n"
-	.string "effective, doubling the damage.$"
+    .string "Vol-Vie est une capacité Plante.\pElle est très efficace contre\nles types Eau, Sol et Roche.\pSuperfouet est Combat et Ténèbres:\nil ne faut pas le prendre\lpour un Yo-kai de type Eau!$"
 
 Pokedude_Text_LetsTryShiftingMons::
-	.string "It's not going to be easy to win\n"
-	.string "with this matchup…\p"
-	.string "Let's try shifting Yo-kai!$"
+    .string "Pour changer de stratégie,\nessayons un autre Yo-kai!$"
 
 Pokedude_Text_ShiftingUsesTurn::
-	.string "Shifting Yo-kai in and out uses\n"
-	.string "up one turn.\p"
-	.string "Now, it's the opponent's turn.$"
+    .string "Changer de Yo-kai\nconsomme votre tour.\pC'est à l'adversaire\nde jouer maintenant.$"
 
 Pokedude_Text_ButterfreeDoubleResistsGrass::
-	.string "BUTTERFREE is a BUG/FLYING-type\n"
-	.string "Yo-kai.\p"
-	.string "Against this Yo-kai, a GRASS-\n"
-	.string "type attack…\p"
-	.string "…inflicts only half the usual\n"
-	.string "damage on a BUG-type Yo-kai…\p"
-	.string "…And, it also causes only half the\n"
-	.string "damage on a FLYING-type Yo-kai.\p"
-	.string "Therefore, BUTTERFREE, being a\n"
-	.string "BUG/FLYING Yo-kai, only takes\l"
-	.string "one quarter of the usual damage.$"
+    .string "Saumhonni est de type Eau.\pUne capacité Plante\nest donc très efficace contre lui.\pUn Yo-kai peut aussi avoir\ndeux types: leurs résistances\let faiblesses se combinent.\pVérifiez toujours les types réels\nde vos compagnons!$"
 
 Pokedude_Text_ButterfreeGoodAgainstOddish::
-	.string "ODDISH is a GRASS/POISON-type\n"
-	.string "Yo-kai.\p"
-	.string "A FLYING- or PSYCHIC-type attack\n"
-	.string "is super effective against it.\p"
-	.string "One of those types of attacks will\n"
-	.string "inflict double the usual damage.\p"
-	.string "Okay, here we go!$"
+    .string "Télémir est de type Spectre.\pLes capacités Spectre et Ténèbres\nsont très efficaces contre lui.\pLes capacités Normal et Combat\nne le touchent pas en temps normal.\pÀ nous de jouer!$"
 
 Pokedude_Text_YeahWeWon::
-	.string "Yeah!\n"
-	.string "We won!$"
+    .string "Oui!\nNous avons gagné!$"
 
 Pokedude_Text_WeakenMonBeforeCatching::
-	.string "POKé DUDE: When you're trying to\n"
-	.string "catch a Yo-kai, don't throw any\l"
-	.string "Yo-kai Balls right away.\p"
-	.string "First, you need to weaken it by\n"
-	.string "reducing its HP.$"
+    .string "Pour capturer un Yo-kai,\nne lancez pas tout de suite\lune Yo-kai Ball!\pCommencez par l'affaiblir\nen réduisant ses PV.$"
 
 Pokedude_Text_BestIfTargetStatused::
-	.string "Okay, that should be good enough.\p"
-	.string "But, if it's possible, it would be\n"
-	.string "best if the target has a status\l"
-	.string "problem.\p"
-	.string "For instance, it would be easier\n"
-	.string "to catch if it were asleep or\l"
-	.string "paralyzed.$"
+    .string "Voilà, c'est déjà mieux.\pSi possible, infligez aussi\nun problème de statut à la cible.\pUn Yo-kai endormi ou paralysé\nest plus facile à capturer.$"
 
 Pokedude_Text_CantDoubleUpOnStatus::
-	.string "This will make the Yo-kai a lot\n"
-	.string "easier to catch!\p"
-	.string "Oh, yes. If you paralyze a\n"
-	.string "Yo-kai, you can't make it fall\l"
-	.string "asleep on top of paralysis.\p"
-	.string "In other words, you can't double\n"
-	.string "up status problems, okay?$"
+    .string "Ce sera plus facile de le capturer!\pAttention: un Yo-kai paralysé\nne peut pas être endormi en plus.\pOn ne peut pas cumuler\nces problèmes de statut.$"
 
 Pokedude_Text_LetMeThrowBall::
-	.string "Okay!\n"
-	.string "Let me throw my Yo-kai Ball!$"
+    .string "Très bien!\nJe lance ma Yo-kai Ball!$"
 
 Pokedude_Text_PickBestKindOfBall::
-	.string "Before you throw a Yo-kai Ball,\n"
-	.string "consider the condition and the\l"
-	.string "type of Yo-kai, and pick the kind\l"
-	.string "of BALL that would work best.$"
+    .string "Avant de lancer une Yo-kai Ball,\nobservez le type et l'état\ldu Yo-kai sauvage.\pChoisissez la Ball\nla mieux adaptée!$"

@@ -1,92 +1,68 @@
 MtMoon_1F_Text_MarcosIntro::
-    .string "WHOA!\n"
-    .string "You shocked me!\l"
-    .string "…Oh, you're just a kid!$"
+    .string "OUAH! Tu m'as fait peur!\nAh… Ce n'est qu'un enfant!$"
 
 MtMoon_1F_Text_MarcosDefeat::
-    .string "Wow!\n"
-    .string "Shocked again!$"
+    .string "Ouah!\nEncore une surprise!$"
 
 MtMoon_1F_Text_MarcosPostBattle::
-    .string "Kids like you shouldn't be\n"
-    .string "wandering around here in the dark.$"
+    .string "Les enfants ne devraient pas\ntraîner ici dans le noir.$"
 
 MtMoon_1F_Text_JoshIntro::
-    .string "Did you come to explore the cave,\n"
-    .string "too?$"
+    .string "Toi aussi, tu viens\nexplorer la grotte?$"
 
 MtMoon_1F_Text_JoshDefeat::
-    .string "Losing stinks!\n"
-    .string "It's so uncool.$"
+    .string "Perdre, c'est nul!\nVraiment pas la classe.$"
 
 MtMoon_1F_Text_JoshPostBattle::
-    .string "I came all the way down here to\n"
-    .string "show off to girls.$"
+    .string "J'ai fait tout ce chemin\npour impressionner les filles.$"
 
 MtMoon_1F_Text_MiriamIntro::
-    .string "Wow! It's way bigger in here than\n"
-    .string "I thought!$"
+    .string "Ouah! C'est bien plus grand\nque je l'imaginais!$"
 
 MtMoon_1F_Text_MiriamDefeat::
-    .string "Oh!\n"
-    .string "I lost it!$"
+    .string "Oh!\nJ'ai perdu!$"
 
 MtMoon_1F_Text_MiriamPostBattle::
-    .string "How do you get out of here?\n"
-    .string "It's so big, I may get lost.$"
+    .string "Par où est la sortie?\nC'est immense, je vais me perdre.$"
 
 MtMoon_1F_Text_JovanIntro::
-    .string "What!\n"
-    .string "Don't sneak up on me!$"
+    .string "Quoi?!\nNe me surprends pas comme ça!$"
 
 MtMoon_1F_Text_JovanDefeat::
-    .string "My Yo-kai won't do!$"
+    .string "Mes Yo-kai ne suffisent pas!$"
 
 MtMoon_1F_Text_JovanPostBattle::
-    .string "I have to find stronger Yo-kai.\n"
-    .string "Where might they be?$"
+    .string "Il me faut des Yo-kai plus forts.\nMais où en trouver?$"
 
 MtMoon_1F_Text_IrisIntro::
-    .string "What?\n"
-    .string "I'm waiting for my friends to find\l"
-    .string "me here.$"
+    .string "Quoi?\nJ'attends mes amis ici.$"
 
 MtMoon_1F_Text_IrisDefeat::
-    .string "I lost?$"
+    .string "J'ai perdu?$"
 
 MtMoon_1F_Text_IrisPostBattle::
-    .string "I came because I heard there are\n"
-    .string "some very rare fossils here.$"
+    .string "On m'a dit qu'on trouvait ici\ndes fossiles très rares.$"
 
 MtMoon_1F_Text_KentIntro::
-    .string "Suspicious men are in the cave.\n"
-    .string "What about you?$"
+    .string "Des types louches rôdent ici.\nTu es avec eux?$"
 
 MtMoon_1F_Text_KentDefeat::
-    .string "You got me!$"
+    .string "Tu m'as eu!$"
 
 MtMoon_1F_Text_KentPostBattle::
-    .string "I saw them!\n"
-    .string "I'm sure they're from TEAM ROCKET!$"
+    .string "Je les ai vus!\nIls sont de la Team Rocket!$"
 
 MtMoon_1F_Text_RobbyIntro::
-    .string "You need to go through this cave\n"
-    .string "to get to CERULEAN CITY.$"
+    .string "Il faut traverser cette grotte\npour atteindre CERULEAN CITY.$"
 
 MtMoon_1F_Text_RobbyDefeat::
-    .string "I lost.$"
+    .string "J'ai perdu.$"
 
 MtMoon_1F_Text_RobbyPostBattle::
-    .string "ZUBAT is tough!\n"
-    .string "But if you can catch one, you'll\l"
-    .string "be able to count on it.$"
+    .string "Les Yo-kai de cette grotte\npeuvent être coriaces.\pMais ils deviennent\nde précieux compagnons!$"
 
 MtMoon_1F_Text_ZubatIsABloodsucker::
-    .string "Beware!\n"
-    .string "ZUBAT is a bloodsucker!$"
+    .string "Attention aux Yo-kai sauvages!\nNe vous laissez pas surprendre!$"
 
 MtMoon_1F_Text_BrockHelpsExcavateFossils::
-    .string "Hi, I'm excavating for fossils here\n"
-    .string "under MT. MOON.\p"
-    .string "Sometimes, BROCK of PEWTER GYM\n"
-    .string "lends me a hand.$"
+    .string "Bonjour! Je cherche des fossiles\ndans les profondeurs de MT. MOON.\pPierre, le Champion de PEWTER CITY,\nvient parfois m'aider.$"

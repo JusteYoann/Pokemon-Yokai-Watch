@@ -1,14 +1,6 @@
 CeruleanCity_Mart_Text_RepelWorksOnWeakMons::
-    .string "REPEL not only keeps bugs away,\n"
-    .string "it also works on weak Yo-kai.\p"
-    .string "Put your strongest Yo-kai at the\n"
-    .string "left of the Yo-kai LIST.\p"
-    .string "If your first Yo-kai is strong,\n"
-    .string "REPEL's effect is boosted.$"
+    .string "Le Repousse éloigne\nles Yo-kai sauvages trop faibles.\pPlace un Yo-kai de haut niveau\nen tête de ton équipe\lpour en tirer le meilleur parti.$"
 
 CeruleanCity_Mart_Text_DoYouKnowAboutRareCandy::
-    .string "Do you know about RARE CANDY?\n"
-    .string "They don't sell it in shops.\p"
-    .string "I think it makes Yo-kai grow\n"
-    .string "very quickly all of a sudden.$"
+    .string "Tu connais les Super Bonbons?\nOn n'en trouve pas en Boutique.\pIls font gagner un niveau\nà un Yo-kai en un instant!$"
 
