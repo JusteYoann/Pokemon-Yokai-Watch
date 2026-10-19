@@ -1,130 +1,91 @@
 @ Same as Hoenn's day-care text, used by the Four Island Day-Care. Unused text translated in Emerald
 
 DayCare_Text_ImDaycareManSpeakToMyWife::
-	.string "I'm the DAY-CARE MAN.\p"
-	.string "I help take care of the precious\n"
-	.string "Yo-kai of TRAINERS.\p"
-	.string "If you'd like me to raise your\n"
-	.string "Yo-kai, have a word with my wife.$"
+    .string "Je m'occupe de la Pension.\pNous prenons soin des précieux\nYo-kai des Dresseurs.\pSi tu veux nous en confier un,\nva parler à ma femme.$"
 
 DayCare_Text_DoYouWantEgg::
-	.string "Ah, it's you!\p"
-	.string "We were raising your Yo-kai, and\n"
-	.string "my goodness, were we surprised!\p"
-	.string "Your Yo-kai had an EGG!\p"
-	.string "We don't know how it got there,\n"
-	.string "but your Yo-kai had it.\p"
-	.string "You do want it, yes?$"
+    .string "Ah, c'est toi!\pNous avons eu une sacrée surprise\nen prenant soin de tes Yo-kai!\pTes Yo-kai avaient un Œuf!\pNous ignorons d'où il vient,\nmais ils le gardaient avec eux.\pTu le veux, n'est-ce pas?$"
 
 DayCare_Text_YourMonIsDoingFine::
-	.string "Ah, it's you! Good to see you.\n"
-	.string "Your {STR_VAR_1}'s doing fine.$"
+    .string "Ah, te voilà!\nTon {STR_VAR_1} se porte bien.$"
 
 DayCare_Text_IllKeepIt::
-	.string "Well then, I'll keep it.\n"
-	.string "Thanks!$"
+    .string "Dans ce cas, je le garde.\nMerci!$"
 
 DayCare_Text_YouHaveNoRoomForIt::
-	.string "You have no room for it…\n"
-	.string "Come back when you've made room.$"
+    .string "Tu n'as pas de place…\nReviens quand tu en auras fait.$"
 
 DayCare_Text_ReceivedEgg::
-	.string "{PLAYER} received the EGG from\n"
-	.string "the DAY-CARE MAN.$"
+    .string "{PLAYER} reçoit un Œuf\ndu responsable de la Pension.$"
 
 DayCare_Text_TakeGoodCareOfIt::
-	.string "Take good care of it.$"
+    .string "Prends-en bien soin.$"
 
 DayCare_Text_SeeWifeIfYouWantToPickUpMon::
-	.string "ポケモンを　ひきとりたい　ときは\n"
-	.string "ばさんに　いって　おくれ$"
+    .string "Pour récupérer tes Yo-kai,\nva voir ma femme.$"
 
 DayCare_Text_YourMonsAreDoingFine::
-	.string "Ah, it's you! Your {STR_VAR_1} and\n"
-	.string "{STR_VAR_2} are doing fine.$"
+    .string "Ah, te voilà! {STR_VAR_1} et\n{STR_VAR_2} se portent bien.$"
 
 DayCare_Text_IWillKeepDoYouWantIt::
-	.string "I really will keep it.\n"
-	.string "You do want this, yes?$"
+    .string "Sinon, je vais vraiment le garder.\nTu le veux, n'est-ce pas?$"
 
 DayCare_Text_WouldYouLikeUsToRaiseMon::
-	.string "I'm the DAY-CARE LADY.\p"
-	.string "We can raise Yo-kai for you.\p"
-	.string "Would you like us to raise one?$"
+    .string "Bienvenue à la Pension.\pNous pouvons élever tes Yo-kai.\pVeux-tu nous en confier un?$"
 
 DayCare_Text_WhichMonShouldWeRaise::
-	.string "Which Yo-kai should we raise for\n"
-	.string "you?$"
+    .string "Quel Yo-kai veux-tu\nnous confier?$"
 
 DayCare_Text_WellRaiseYourMon::
-	.string "Fine, we'll raise your {STR_VAR_1}\n"
-	.string "for a while.\p"
-	.string "Come back for it later.$"
+    .string "Nous allons prendre soin\nde {STR_VAR_1}.\pReviens le chercher plus tard.$"
 
 DayCare_Text_WeCanRaiseOneMore::
-	.string "We can raise two of your Yo-kai.\p"
-	.string "Would you like us to raise one\n"
-	.string "more Yo-kai for you?$"
+    .string "Nous pouvons garder deux Yo-kai.\pVeux-tu nous en confier\nun deuxième?$"
 
 DayCare_Text_HusbandWasLookingForYou::
-	.string "My husband was looking for you.$"
+    .string "Mon mari te cherchait.$"
 
 DayCare_Text_FineThenComeAgain::
-	.string "Oh, fine, then.\n"
-	.string "Come again.$"
+    .string "Très bien.\nReviens quand tu veux.$"
 
 DayCare_Text_NotEnoughMoney::
-	.string "You don't have enough money…$"
+    .string "Tu n'as pas assez d'argent…$"
 
 DayCare_Text_TakeOtherOneBackToo::
-	.string "Will you take back the other one,\n"
-	.string "too?$"
+    .string "Veux-tu aussi récupérer\nl'autre?$"
 
 DayCare_Text_ComeAgain::
-	.string "Fine.\n"
-	.string "Come again.$"
+    .string "Très bien.\nÀ bientôt.$"
 
 DayCare_Text_GoodToSeeYou::
-	.string "Ah, it's you!\n"
-	.string "Good to see you.\p"
-	.string "Your Yo-kai can only be doing\n"
-	.string "good!$"
+    .string "Ah, c'est toi!\nQuel plaisir de te revoir.\pTes Yo-kai se portent\nà merveille!$"
 
 DayCare_Text_YourMonHasGrownXLevels::
-	.string "By level, your {STR_VAR_1} has\n"
-	.string "grown by {STR_VAR_2}.$"
+    .string "Ton {STR_VAR_1} a gagné\n{STR_VAR_2} niveaux.$"
 
 DayCare_Text_YourPartyIsFull::
-	.string "Your Yo-kai party is full.\n"
-	.string "Make room, then come see me.$"
+    .string "Ton équipe est complète.\nFais de la place, puis reviens.$"
 
 DayCare_Text_TakeBackWhichMon::
-	.string "どっちの　ポケモンを　ひきとるかい？$"
+    .string "Quel Yo-kai veux-tu récupérer?$"
 
 DayCare_Text_ItWillCostX::
-	.string "If you want your {STR_VAR_1} back,\n"
-	.string "it will cost ¥{STR_VAR_2}.$"
+    .string "Pour récupérer {STR_VAR_1},\nil faudra payer ¥{STR_VAR_2}.$"
 
 DayCare_Text_HeresYourMon::
-	.string "Perfect!\n"
-	.string "Here's your Yo-kai.$"
+    .string "Parfait!\nVoici ton Yo-kai.$"
 
 DayCare_Text_TookBackMon::
-	.string "{PLAYER} took back {STR_VAR_1} from\n"
-	.string "the DAY-CARE LADY.$"
+    .string "{PLAYER} récupère {STR_VAR_1}\nà la Pension.$"
 
 DayCare_Text_YouHaveJustOneMon::
-	.string "Oh? But you have just one\n"
-	.string "Yo-kai.\p"
-	.string "Come back another time.$"
+    .string "Mais tu n'as qu'un seul\nYo-kai.\pReviens une autre fois.$"
 
 DayCare_Text_TakeYourMonBack::
-	.string "Will you take your Yo-kai back?$"
+    .string "Veux-tu récupérer ton Yo-kai?$"
 
 DayCare_Text_WhatWillYouBattleWith::
-	.string "If you leave me that Yo-kai,\n"
-	.string "what will you battle with?\p"
-	.string "Come back another time.$"
+    .string "Si tu me confies ce Yo-kai,\navec qui vas-tu combattre?\pReviens une autre fois.$"
 
 DayCare_Text_Huh::
-	.string "Huh?$"
+    .string "Hein?$"

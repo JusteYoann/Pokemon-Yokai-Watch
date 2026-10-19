@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "952646c912a34e4b53babb01bd0a2fa0ca0fd6584cb2c07aca5b8280faf183d5",
+  "scope": "Real new-game then PalletTown warp and explicit text variables; native field-message rendering, first page only. Not actual NPC event traversal or all dialogues.",
+  "results": [
+    {
+      "symbol": "Text_MayIHelpYou",
+      "native_field_text_box": true,
+      "captured": true
+    },
+    {
+      "symbol": "Text_BootedUpPC",
+      "native_field_text_box": true,
+      "captured": true
+    },
+    {
+      "symbol": "Text_AccessedBillsPC",
+      "native_field_text_box": true,
+      "captured": true
+    },
+    {
+      "symbol": "Text_ObtainedTheX",
+      "native_field_text_box": true,
+      "captured": true
+    },
+    {
+      "symbol": "Text_PutItemAway",
+      "native_field_text_box": true,
+      "captured": true
+    },
+    {
+      "symbol": "Text_MonSentToBoxInBillsPC",
+      "native_field_text_box": true,
+      "captured": true
+    },
+    {
+      "symbol": "Trade_Text_DoYouHaveMonWantToTradeForMon",
+      "native_field_text_box": true,
+      "captured": true
+    },
+    {
+      "symbol": "DayCare_Text_YourMonsAreDoingFine",
+      "native_field_text_box": true,
+      "captured": true
+    },
+    {
+      "symbol": "PokedexRating_Text_HowIsPokedexComingAlong",
+      "native_field_text_box": true,
+      "captured": true
+    },
+    {
+      "symbol": "PokedexRating_Text_LessThan60",
+      "native_field_text_box": true,
+      "captured": true
+    },
+    {
+      "symbol": "Text_WantToSurf",
+      "native_field_text_box": true,
+      "captured": true
+    },
+    {
+      "symbol": "Text_OnlyPassWithBadgeOhGoAhead",
+      "native_field_text_box": true,
+      "captured": true
+    },
+    {
+      "symbol": "Text_MonsHealedShouldBuyPotions",
+      "native_field_text_box": true,
+      "captured": true
+    },
+    {
+      "symbol": "Text_HadQuiteAnExperienceTakeRest",
+      "native_field_text_box": true,
+      "captured": true
+    }
+  ]
+}

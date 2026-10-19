@@ -508,27 +508,27 @@ const u8 *const gTexts_UR_NoWonderShared[] = {
     sText_NoNewsSharedRightNow
 };
 
-ALIGNED(4) const u8 gText_UR_Battle[] = _("BATTLE");
+ALIGNED(4) const u8 gText_UR_Battle[] = _("COMBAT");
 ALIGNED(4) const u8 gText_UR_Chat2[] = _("CHAT");
-ALIGNED(4) const u8 gText_UR_Greetings[] = _("GREETINGS");
-ALIGNED(4) const u8 gText_UR_Exit[] = _("EXIT");
+ALIGNED(4) const u8 gText_UR_Greetings[] = _("SALUTATIONS");
+ALIGNED(4) const u8 gText_UR_Exit[] = _("QUITTER");
 
-ALIGNED(4) const u8 gText_UR_Exit2[] = _("EXIT");
+ALIGNED(4) const u8 gText_UR_Exit2[] = _("QUITTER");
 ALIGNED(4) const u8 gText_UR_Info[] = _("INFO");
 ALIGNED(4) const u8 gText_UR_NameWantedOfferLv[] = _("NAME{CLEAR_TO 0x3C}WANTED{CLEAR_TO 0x6E}OFFER{CLEAR_TO 0xC6}LV.");
 
-ALIGNED(4) const u8 gText_UR_SingleBattle[] = _("SINGLE BATTLE");
-ALIGNED(4) const u8 gText_UR_DoubleBattle[] = _("DOUBLE BATTLE");
-ALIGNED(4) const u8 gText_UR_MultiBattle[] = _("MULTI BATTLE");
-ALIGNED(4) const u8 gText_UR_PokemonTrades[] = _("Yo-kai TRADES");
+ALIGNED(4) const u8 gText_UR_SingleBattle[] = _("COMBAT SOLO");
+ALIGNED(4) const u8 gText_UR_DoubleBattle[] = _("COMBAT DUO");
+ALIGNED(4) const u8 gText_UR_MultiBattle[] = _("COMBAT MULTI");
+ALIGNED(4) const u8 gText_UR_PokemonTrades[] = _("ÉCHANGES YO-KAI");
 ALIGNED(4) const u8 gText_UR_Chat[] = _("CHAT");
 ALIGNED(4) const u8 gText_UR_Cards[] = _("CARDS");
-ALIGNED(4) const u8 gText_UR_WonderCards[] = _("WONDER CARDS");
-ALIGNED(4) const u8 gText_UR_WonderNews[] = _("WONDER NEWS");
-ALIGNED(4) const u8 gText_UR_PokemonJump[] = _("Yo-kai JUMP");
-ALIGNED(4) const u8 gText_UR_BerryCrush[] = _("BERRY CRUSH");
+ALIGNED(4) const u8 gText_UR_WonderCards[] = _("CARTES MIRACLE");
+ALIGNED(4) const u8 gText_UR_WonderNews[] = _("INFOS MIRACLE");
+ALIGNED(4) const u8 gText_UR_PokemonJump[] = _("SAUT YO-KAI");
+ALIGNED(4) const u8 gText_UR_BerryCrush[] = _("BROYEUR DE BAIES");
 ALIGNED(4) const u8 gText_UR_BerryPicking[] = _("BERRY-PICKING");
-ALIGNED(4) const u8 gText_UR_Search[] = _("SEARCH");
+ALIGNED(4) const u8 gText_UR_Search[] = _("RECHERCHE");
 ALIGNED(4) const u8 gText_UR_SpinTrade[] = _("ぐるぐるこうかん");
 ALIGNED(4) const u8 gText_UR_ItemTrade[] = _("アイテムトレード");
 

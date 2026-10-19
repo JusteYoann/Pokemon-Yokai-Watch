@@ -1,122 +1,91 @@
 @ Flavor text for interacting with various background objects
 
 Text_Bookshelf::
-	.string "It's crammed full of Yo-kai\n"
-	.string "books.$"
+    .string "Cette étagère est remplie\nde livres sur les Yo-kai.$"
 
 Text_NothingButPokemonBooks::
-	.string "ほんだなに　ならんでいるのは\n"
-	.string "ポケモンの　ほん　ばかりだ$"
+    .string "Il n'y a que des livres\nsur les Yo-kai.$"
 
 Text_ATownMap::
-	.string "A TOWN MAP.$"
+    .string "Une Carte.$"
 
 Text_PokeMartShelf::
-	.string "Wow!\n"
-	.string "Tons of Yo-kai stuff!$"
+    .string "Ouah!\nPlein d'articles pour les Yo-kai!$"
 
 Text_DishesPlatesNeatlyLinedUp::
-	.string "Dishes and plates are neatly\n"
-	.string "lined up.$"
+    .string "La vaisselle est\nsoigneusement rangée.$"
 
 Text_Kitchen::
-	.string "It smells delicious!\n"
-	.string "Somebody's been cooking here.$"
+    .string "Ça sent bon!\nQuelqu'un a cuisiné ici.$"
 
 Text_Dresser::
-	.string "It's a nicely made dresser.\n"
-	.string "It will hold a lot of stuff.$"
+    .string "Une belle commode\navec beaucoup de place.$"
 
 Text_Snacks::
-	.string "There's a pile of snacks here.$"
+    .string "Il y a plein de friandises ici.$"
 
 Text_PokemartSign::
-	.string "All your item needs fulfilled!\n"
-	.string "Yo-kai MART$"
+    .string "Tout ce qu'il vous faut!\nBOUTIQUE YO-KAI$"
 
 Text_PokecenterSign::
-	.string "Heal Your Yo-kai!\n"
-	.string "Centre Yo-kai$"
+    .string "Pour soigner vos Yo-kai!\nCENTRE YO-KAI$"
 
 Text_Indigo_UltimateGoal::
-	.string "INDIGO PLATEAU\p"
-	.string "The ultimate goal of TRAINERS!\n"
-	.string "Ligue Yo-kai HQ$"
+    .string "INDIGO PLATEAU\pLe but ultime des Dresseurs!\nSiège de la Ligue Yo-kai$"
 
 Text_Indigo_HighestAuthority::
-	.string "INDIGO PLATEAU\p"
-	.string "The highest Yo-kai authority!\n"
-	.string "Ligue Yo-kai HQ$"
+    .string "INDIGO PLATEAU\pLa plus haute autorité Yo-kai!\nSiège de la Ligue Yo-kai$"
 
 Text_Food::
-	.string "It should be packed with all kinds\n"
-	.string "of delicious things to eat.$"
+    .string "Il doit y avoir plein de\nbonnes choses à manger.$"
 
 Text_Blueprints::
-	.string "It's a blueprint of some sort.\n"
-	.string "It's filled with diagrams and text.$"
+    .string "On dirait un plan.\nIl est couvert de schémas.$"
 
 Text_Painting::
-	.string "It's a pretty picture of a Yo-kai.\n"
-	.string "It looks like it's feeling good.$"
+    .string "Une jolie peinture de Yo-kai.\nIl a l'air heureux.$"
 
 Text_PowerPlantMachine::
-	.string "What could this machine be?\n"
-	.string "Better not mess around with it!$"
+    .string "Quelle drôle de machine…\nMieux vaut ne pas y toucher!$"
 
 Text_Telephone::
-	.string "It's a telephone.\n"
-	.string "Better not use it.$"
+    .string "Un téléphone.\nMieux vaut ne pas s'en servir.$"
 
 Text_Computer::
-	.string "It's all complicated words and\n"
-	.string "numbers that make no sense…$"
+    .string "Des mots compliqués et des\nchiffres incompréhensibles…$"
 
 Text_AdvertisingPoster::
-	.string "It's an advertising poster about\n"
-	.string "all kinds of products.$"
+    .string "Une affiche publicitaire\npour toutes sortes de produits.$"
 
 Text_TastyFood::
-	.string "Oh, that smells tasty!\n"
-	.string "It might get the stomach growling!$"
+    .string "Oh, ça sent bon!\nDe quoi donner faim!$"
 
 Text_TrashBin::
-	.string "Inside this…\n"
-	.string "……\p"
-	.string "There's nothing here!$"
+    .string "Là-dedans…\n……\pIl n'y a rien!$"
 
 Text_Cup::
-	.string "It's a cup with a Yo-kai mark\n"
-	.string "on it.$"
+    .string "Une tasse décorée\nd'un motif de Yo-kai.$"
 
 Text_PolishedWindow::
-	.string "The window is very well polished.$"
+    .string "La vitre est très propre.$"
 
 Text_BeautifulSkyWindow::
-	.string "Outside the window…\p"
-	.string "The sky looks fantastically\n"
-	.string "beautiful.$"
+    .string "Par la fenêtre…\pLe ciel semble\nmagnifiquement beau.$"
 
 Text_BlinkingLights::
-	.string "Lights in different colors are\n"
-	.string "flashing on and off.$"
+    .string "Des lumières multicolores\nclignotent.$"
 
 Text_NeatlyLinedUpTools::
-	.string "All sorts of tools are lined up\n"
-	.string "neatly.$"
+    .string "Toutes sortes d'outils\nsont soigneusement rangés.$"
 
 Text_ImpressiveMachine::
-	.string "It's a machine of some sort.\n"
-	.string "It sure is impressive.$"
+    .string "Quelle drôle de machine.\nElle est impressionnante.$"
 
 Text_VideoGame::
-	.string "It's the latest video game!\n"
-	.string "It sure looks fun!$"
+    .string "Le dernier jeu vidéo!\nIl a l'air amusant!$"
 
 Text_Burglary::
-	.string "There are obvious signs of burglary\n"
-	.string "here…$"
+    .string "On voit clairement les traces\nd'un cambriolage…$"
 
 Text_PlayerFacingTVScreen::
-	.string "There's a Yo-kai on TV!\n"
-	.string "It looks like it's having fun.$"
+    .string "Un Yo-kai passe à la télé!\nIl a l'air de bien s'amuser.$"

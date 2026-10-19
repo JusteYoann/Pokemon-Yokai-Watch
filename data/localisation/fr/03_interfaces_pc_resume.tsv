@@ -1,0 +1,289 @@
+src/strings.c	gString_BattleRecords_PlayersBattleResults	RÉSULTATS DE {PLAYER}
+src/strings.c	gString_BattleRecords_TotalRecord	TOTAL V:{STR_VAR_1} D:{STR_VAR_2} N:{STR_VAR_3}
+src/strings.c	gString_BattleRecords_ColumnHeaders	GAGNÉ{CLEAR_TO 0x30}PERDU{CLEAR_TO 0x60}NUL
+src/strings.c	gFameCheckerText_FameCheckerWillBeClosed	La TV ABC va être rangée.
+src/strings.c	gText_ExitUnused	QUITTER
+src/strings.c	gText_ExitFromBox	Quitter la Boîte.
+src/strings.c	gText_WhatDoYouWantToDo	Que veux-tu faire?
+src/strings.c	gText_PleasePickATheme	Choisis un thème.
+src/strings.c	gText_PickTheWallpaper	Choisis le fond.
+src/strings.c	gText_PkmnIsSelected	{DYNAMIC 0x00} est sélectionné.
+src/strings.c	gText_JumpToWhichBox	Aller à quelle Boîte?
+src/strings.c	gText_DepositInWhichBox	Déposer dans quelle Boîte?
+src/strings.c	gText_PkmnWasDeposited	{DYNAMIC 0x00} est déposé.
+src/strings.c	gText_BoxIsFull2	La Boîte est pleine.
+src/strings.c	gText_ReleaseThisPokemon	Relâcher ce Yo-kai?
+src/strings.c	gText_PkmnWasReleased	{DYNAMIC 0x00} est relâché.
+src/strings.c	gText_ByeByePkmn	Au revoir, {DYNAMIC 0x00}!
+src/strings.c	gText_MarkYourPkmn	Marque ton Yo-kai.
+src/strings.c	gText_ThatsYourLastPkmn	C'est ton dernier Yo-kai!
+src/strings.c	gText_YourPartysFull	Ton équipe est complète!
+src/strings.c	gText_YoureHoldingAPkmn	Tu tiens déjà un Yo-kai!
+src/strings.c	gText_WhichOneWillYouTake	Lequel veux-tu prendre?
+src/strings.c	gText_YouCantReleaseAnEgg	Impossible de relâcher un Œuf.
+src/strings.c	gText_ContinueBoxOperations	Continuer dans les Boîtes?
+src/strings.c	gText_PkmnCameBack	{DYNAMIC 0x00} est revenu!
+src/strings.c	gText_WasItWorriedAboutYou	Il s'inquiétait peut-être pour toi?
+src/strings.c	gText_PleaseRemoveTheMail	Retire d'abord la Lettre.
+src/strings.c	gText_GiveToAPkmn	Donner à un Yo-kai?
+src/strings.c	gText_PlacedItemInBag	L'objet est rangé dans le Sac.
+src/strings.c	gText_BagIsFull2	Le Sac est plein.
+src/strings.c	gText_PutItemInBag	Ranger cet objet dans le Sac?
+src/strings.c	gText_ItemIsNowHeld	{DYNAMIC 0x00} est maintenant tenu.
+src/strings.c	gText_ChangedToNewItem	Remplacé par {DYNAMIC 0x00}.
+src/strings.c	gText_MailCantBeStored	Impossible de stocker une Lettre!
+src/strings.c	gText_PC_WhatWouldYouLikeToDo	Que veux-tu faire?
+src/strings.c	gText_WithdrawPokemon	RETIRER YO-KAI
+src/strings.c	gText_DepositPokemon	DÉPOSER YO-KAI
+src/strings.c	gText_MovePokemon	DÉPLACER YO-KAI
+src/strings.c	gText_MoveItems	DÉPLACER OBJETS
+src/strings.c	gText_WithdrawMonDescription	Retire un Yo-kai\nstocké dans une Boîte.
+src/strings.c	gText_DepositMonDescription	Dépose un Yo-kai de ton équipe\ndans une Boîte.
+src/strings.c	gText_MoveMonDescription	Déplace les Yo-kai\nstockés dans les Boîtes.
+src/strings.c	gText_MoveItemsDescription	Déplace les objets tenus par\nles Yo-kai des Boîtes ou de l'équipe.
+src/strings.c	gText_SeeYaDescription	À bientôt!
+src/strings.c	gText_JustOnePkmn	Garde au moins un Yo-kai!
+src/strings.c	gText_PartyFull	Ton équipe ne peut plus s'agrandir.
+src/strings.c	gText_CombineFourWordsOrPhrases	Associe quatre mots ou expressions
+src/strings.c	gText_AndMakeYourProfile	pour créer ton profil.
+src/strings.c	gText_MakeMessageSixPhrases	Crée un message de six expressions.
+src/strings.c	gText_MaxTwoTwelveLetterPhrases	Deux expressions de 12 lettres max.
+src/strings.c	gText_FindWordsThatDescribeYour	Trouve les mots qui décrivent
+src/strings.c	gText_FeelingsRightNow	ce que tu ressens maintenant.
+src/strings.c	gText_WithFourPhrases	Avec quatre expressions
+src/strings.c	gText_CombineNineWordsOrPhrases	Associe neuf mots ou expressions
+src/strings.c	gText_AndMakeAMessage	pour composer un message.
+src/strings.c	gText_ChangeJustOneWordOrPhrase	Change un seul mot ou expression
+src/strings.c	gText_AndImproveTheBardsSong	pour améliorer la chanson du Barde.
+src/strings.c	gText_AndFillOutTheQuestionnaire	pour remplir le questionnaire.
+src/strings.c	gText_YourProfile	Ton profil
+src/strings.c	gText_YourFeelingAtTheBattlesStart	Tes sentiments avant le combat
+src/strings.c	gText_WhatYouSayIfYouWin	Ta phrase après une victoire
+src/strings.c	gText_WhatYouSayIfYouLose	Ta phrase après une défaite
+src/strings.c	gText_TheAnswer	La réponse
+src/strings.c	gText_TheMailMessage	Le message de la Lettre
+src/strings.c	gText_TheMailSalutation	La salutation de la Lettre
+src/strings.c	gText_TheNewSong	La nouvelle chanson
+src/strings.c	gText_CombineTwoWordsOrPhrases	Associe deux mots ou expressions
+src/strings.c	gText_AndMakeATrendySaying	pour créer une expression à la mode.
+src/strings.c	gText_TheTrendySaying	L'expression à la mode
+src/strings.c	gText_IsAsShownOkay	est affichée ici. D'accord?
+src/strings.c	gText_CombineTwoWordsOrPhrases2	Associe deux mots ou expressions
+src/strings.c	gText_ToTeachHerAGoodSaying	pour lui enseigner une expression!
+src/strings.c	gText_AllTextBeingEditedWill	Tout le texte en cours de saisie
+src/strings.c	gText_BeDeletedThatOkay	sera effacé. D'accord?
+src/strings.c	gText_PleaseEnterPhraseOrWord	Saisis un mot ou une expression!
+src/strings.c	gText_EntireTextCantBeDeleted	Impossible de tout effacer!
+src/strings.c	gText_OnlyOnePhrase	Change une seule expression!
+src/strings.c	gText_OriginalSongWillBeUsed	La chanson originale sera rétablie!
+src/strings.c	gText_ThatsTrendyAlready	Cette expression est déjà à la mode!
+src/strings.c	gText_CombineTwoWordsOrPhrases3	Associe deux mots ou expressions!
+src/strings.c	gText_QuitEditing	Quitter la saisie?
+src/strings.c	gText_StopGivingPkmnMail	Ne plus donner de Lettre au Yo-kai?
+src/strings.c	gText_TheEditedWords	Les mots modifiés ne seront
+src/strings.c	gText_WillNotBeSaved	pas enregistrés. D'accord?
+src/strings.c	gText_AtTheBattlesStart	Au début du combat:
+src/strings.c	gText_UponWinningABattle	Après une victoire:
+src/strings.c	gText_UponLosingABattle	Après une défaite:
+src/strings.c	gText_TheBardsSong	La chanson du Barde
+src/strings.c	gText_WhatsHipAndHappening	Quoi de neuf à la mode?
+src/strings.c	gText_GoodSaying	Bonne expression
+src/strings.c	GiddyText_SoPretty	 est si joli
+src/strings.c	GiddyText_SoDarling	 est si mignon
+src/strings.c	GiddyText_SoRelaxed	 est si paisible
+src/strings.c	GiddyText_SoSunny	 est si chaleureux
+src/strings.c	GiddyText_SoDesirable	 fait tellement rêver
+src/strings.c	GiddyText_SoExciting	 est si palpitant
+src/strings.c	GiddyText_SoAmusing	 est si amusant
+src/strings.c	GiddyText_SoMagical	 est si mystérieux
+src/strings.c	GiddyText_Is	, ça
+src/strings.c	GiddyText_DontYouAgree	\nTu ne trouves pas?
+src/strings.c	GiddyText_ISoWantToGoOnAVacation	J'aimerais partir en vacances…\nTu connais un bel endroit?
+src/strings.c	GiddyText_IBoughtCrayonsWith120Colors	J'ai acheté 120 crayons de couleur!\nC'est chouette, non?
+src/strings.c	GiddyText_WouldntItBeNiceIfWeCouldFloat	Si seulement on pouvait voler\nsur une bulle de savon…
+src/strings.c	GiddyText_WhenYouWriteOnASandyBeach	C'est triste, les mots dans le sable\ns'effacent toujours si vite…
+src/strings.c	GiddyText_WhatsTheBottomOfTheSeaLike	Comment est le fond de la mer?\nJ'aimerais le voir une fois…
+src/strings.c	GiddyText_WhenYouSeeTheSettingSunDoesIt	Le soleil couchant ne te donne\npas envie de rentrer chez toi?
+src/strings.c	GiddyText_LyingBackInTheGreenGrass	C'est agréable de s'allonger\ndans l'herbe verte, non?
+src/strings.c	GiddyText_SecretBasesAreSoWonderful	Les Bases Secrètes, c'est super!\nÇa donne envie d'explorer!
+src/strings.c	gText_PokemonLeague	LIGUE YO-KAI
+src/strings.c	gText_GetsAPokeBlockQuestion	recevra un Pokébloc?
+src/strings.c	gText_Coolness	Sang-froid
+src/strings.c	gText_Beauty3	Beauté
+src/strings.c	gText_Cuteness	Grâce
+src/strings.c	gText_Smartness	Intelligence
+src/strings.c	gText_Toughness	Robustesse
+src/strings.c	gText_WasEnhanced	a progressé!
+src/strings.c	gText_NothingChanged	Rien n'a changé!
+src/strings.c	gText_WontEatAnymore	Il ne peut plus rien manger…
+src/strings.c	gText_SaveFailedCheckingBackup	Échec de la sauvegarde.\nVérification de la mémoire…\nVeuillez patienter.\nTemps nécessaire:\nenviron une minute.
+src/strings.c	gText_BackupMemoryDamaged	La mémoire est endommagée ou\nla pile du jeu est épuisée.\nTu peux jouer, mais ta progression\nne peut pas être sauvegardée.\nAppuie sur le bouton A.
+src/strings.c	gText_GamePlayCannotBeContinued	{COLOR DARK_GRAY}Impossible de poursuivre l'aventure.\nRetour à l'écran titre.
+src/strings.c	gText_CheckCompleted	Vérification terminée!\nNouvelle tentative de sauvegarde…\nVeuillez patienter.
+src/strings.c	gText_SaveCompleteGameCannotContinue	Sauvegarde terminée.\n{COLOR DARK_GRAY}Impossible de poursuivre l'aventure.\nRetour à l'écran titre.
+src/strings.c	gText_SaveCompletePressA	Sauvegarde terminée.\nAppuie sur le bouton A.
+src/strings.c	gText_Ferry	FERRY
+src/strings.c	gText_SecretBase	BASE SECRÈTE
+src/strings.c	gText_Hideout	REPAIRE
+src/strings.c	gText_YourName	TON PRÉNOM?
+src/strings.c	gText_BoxName	NOM DE LA BOÎTE?
+src/strings.c	gText_PkmnsNickname	: son surnom?
+src/strings.c	gText_RivalsName	NOM DU RIVAL?
+src/strings.c	gText_MoveOkBack	{DPAD_ANY}CHOIX {A_BUTTON}OK {B_BUTTON}RETOUR
+src/strings.c	gText_RegionMap_DPadMove	{DPAD_ANY}CHOIX
+src/strings.c	gText_RegionMap_AreaDesc_ViridianForest	Une vaste et profonde forêt\nprès de VIRIDIAN CITY.\nCe labyrinthe naturel égare\nbien des voyageurs.
+src/strings.c	gText_RegionMap_AreaDesc_MtMoon	Une montagne mystérieuse\nsouvent frappée par des météores.\nLeurs fragments sont appelés\nPierres Lune.
+src/strings.c	gText_RegionMap_AreaDesc_DiglettsCave	Un tunnel creusé par les\nYo-kai sauvages des environs.\nIl est connu pour relier\nles ROUTES 2 et 11.
+src/strings.c	gText_RegionMap_AreaDesc_VictoryRoad	Un tunnel situé sur la ROUTE 23.\nTous les Dresseurs qui visent\nle sommet de la Ligue doivent\nle traverser.
+src/strings.c	gText_RegionMap_AreaDesc_PokemonMansion	Un manoir délabré et incendié\nsur CINNABAR ISLAND.\nUn célèbre chercheur spécialiste\ndes Yo-kai y habitait jadis.
+src/strings.c	gText_RegionMap_AreaDesc_SafariZone	Un parc près de FUCHSIA CITY\noù vivent de rares Yo-kai.\nOn peut y jouer à les capturer\ndans leur milieu naturel!
+src/strings.c	gText_RegionMap_AreaDesc_RockTunnel	Un tunnel souterrain naturel.\nIl n'a jamais été aménagé\net reste plongé dans le noir.\nUne lumière est indispensable.
+src/strings.c	gText_RegionMap_AreaDesc_SeafoamIslands	Deux îles situées\nsur la ROUTE 20.\nElles ont la même forme,\ncomme si elles étaient jumelles.
+src/strings.c	gText_RegionMap_AreaDesc_PokemonTower	Une tour où reposent\nd'innombrables Yo-kai.\nDes visiteurs viennent chaque jour\nrendre hommage aux disparus.
+src/strings.c	gText_RegionMap_AreaDesc_CeruleanCave	Une grotte mystérieuse abritant\ndes Yo-kai redoutables.\nLa Ligue Yo-kai en contrôle\nl'accès pour éviter les dangers.
+src/strings.c	gText_RegionMap_AreaDesc_PowerPlant	Une centrale abandonnée\ndont certaines machines tournent\nencore. Les Yo-kai électriques\ny ont élu domicile.
+src/strings.c	gText_RegionMap_AreaDesc_MtEmber	Un volcan que l'on dit éteint.\nPourtant, des témoins affirment\nque son sommet s'embrase\nencore pendant la nuit.
+src/strings.c	gText_RegionMap_AreaDesc_BerryForest	Une forêt près de THREE ISLAND.\nLes Baies y poussent à profusion\net se renouvellent vite\naprès être tombées.
+src/strings.c	gText_RegionMap_AreaDesc_IcefallCave	Une grotte d'eau et de glace\nsur FOUR ISLAND.\nSon extrémité semble\ncommuniquer avec l'océan.
+src/strings.c	gText_RegionMap_AreaDesc_LostCave	Une grotte déroutante au large\nde RESORT GORGEOUS.\nCertains aventuriers curieux\nn'en sont jamais ressortis.
+src/strings.c	gText_RegionMap_AreaDesc_TanobyRuins	Des ruines très anciennes.\nOn dit qu'un étrange Yo-kai\ny habite, mais personne\nn'a pu le confirmer.
+src/strings.c	gText_RegionMap_AreaDesc_AlteringCave	Cet endroit porte ce nom\ndepuis des temps très anciens.\nAujourd'hui, personne ne sait\nplus d'où vient ce nom.
+src/strings.c	gText_RegionMap_AreaDesc_PatternBush	Une zone de végétation dense.\nDes motifs sans herbe y intriguent\nles chercheurs, qui pensent\nqu'un secret s'y cache.
+src/strings.c	gText_RegionMap_AreaDesc_DottedHole	Des ruines anciennes découvertes\ntrès récemment.\nLeur nom vient des six points\ngravés sur la porte.
+src/strings.c	gText_PokeSum_MetInATrade	Nature {DYNAMIC 0x00}.\nObtenu par échange.
+src/strings.c	gText_PokeSum_MetInATrade_BoldGentleGrammar	Nature {DYNAMIC 0x00}.\nObtenu par échange.
+src/strings.c	gText_PokeSum_FatefulEncounterMet	Nature {DYNAMIC 0x00}.\nRencontre exceptionnelle\nau {LV_2} {DYNAMIC 0x01}.
+src/strings.c	gText_PokeSum_FatefulEncounterMet_BoldGentleGrammar	Nature {DYNAMIC 0x00}.\nRencontre exceptionnelle\nau {LV_2} {DYNAMIC 0x01}.
+src/strings.c	gText_PokeSum_Met	Nature {DYNAMIC 0x00}.\nRencontré: {DYNAMIC 0x02}, {LV_2} {DYNAMIC 0x01}.
+src/strings.c	gText_PokeSum_Met_BoldGentleGrammar	Nature {DYNAMIC 0x00}.\nRencontré: {DYNAMIC 0x02}, {LV_2} {DYNAMIC 0x01}.
+src/strings.c	gText_PokeSum_ApparentlyMet	Nature {DYNAMIC 0x00}.\nApparemment rencontré:\n{DYNAMIC 0x02}, {LV_2} {DYNAMIC 0x01}.
+src/strings.c	gText_PokeSum_ApparentlyMet_BoldGentleGrammar	Nature {DYNAMIC 0x00}.\nApparemment rencontré:\n{DYNAMIC 0x02}, {LV_2} {DYNAMIC 0x01}.
+src/strings.c	gText_PokeSum_Hatched	Nature {DYNAMIC 0x00}.\nÉclosion: {DYNAMIC 0x02}\nau {LV_2} {DYNAMIC 0x01}.
+src/strings.c	gText_PokeSum_Hatched_BoldGentleGrammar	Nature {DYNAMIC 0x00}.\nÉclosion: {DYNAMIC 0x02}\nau {LV_2} {DYNAMIC 0x01}.
+src/strings.c	gText_PokeSum_JP_ApparentlyHatched	Nature {DYNAMIC 0x00}.\nÉclosion supposée au {LV_2} {DYNAMIC 0x01}:\n{DYNAMIC 0x02}.
+src/strings.c	gText_PokeSum_JP_ApparentlyHatched_BoldGentleGrammar	Nature {DYNAMIC 0x00}.\nÉclosion supposée au {LV_2} {DYNAMIC 0x01}:\n{DYNAMIC 0x02}.
+src/strings.c	gText_PokeSum_FatefulEncounterHatched	Nature {DYNAMIC 0x00}. Rencontre\nexceptionnelle. Éclosion:\n{DYNAMIC 0x02}, {LV_2} {DYNAMIC 0x01}.
+src/strings.c	gText_PokeSum_FatefulEncounterHatched_BoldGentleGrammar	Nature {DYNAMIC 0x00}. Rencontre\nexceptionnelle. Éclosion:\n{DYNAMIC 0x02}, {LV_2} {DYNAMIC 0x01}.
+src/strings.c	gText_PokeSum_ApparentlyFatefulEncounterHatched	Nature {DYNAMIC 0x00}. Rencontre\nexceptionnelle supposée. Éclosion:\n{DYNAMIC 0x02}, {LV_2} {DYNAMIC 0x01}.
+src/strings.c	gText_PokeSum_ApparentlyFatefulEncounterHatched_BoldGentleGrammar	Nature {DYNAMIC 0x00}. Rencontre\nexceptionnelle supposée. Éclosion:\n{DYNAMIC 0x02}, {LV_2} {DYNAMIC 0x01}.
+src/strings.c	gText_PokeSum_EggOrigin_DayCare	Un étrange Œuf de Yo-kai\ntrouvé par le couple de la Pension.
+src/strings.c	gText_PokeSum_EggOrigin_TravelingMan	Un étrange Œuf de Yo-kai\nreçu d'un voyageur.
+src/strings.c	gText_PokeSum_EggOrigin_NicePlace	Un étrange Œuf de Yo-kai\nreçu dans un bel endroit.
+src/strings.c	gText_PokeSum_EggOrigin_Spa	Un étrange Œuf de Yo-kai\nreçu d'une dame aux sources chaudes.
+src/strings.c	gText_PokeSum_EggOrigin_Trade	Un étrange Œuf de Yo-kai\nobtenu lors d'un échange.
+src/strings.c	gText_PokeSum_EggHatch_LongTime	Cet Œuf semble\nencore loin\nde l'éclosion.
+src/strings.c	gText_PokeSum_EggHatch_SomeTime	Que va-t-il éclore?\nIl reste encore\nun peu de temps.
+src/strings.c	gText_PokeSum_EggHatch_Soon	Il bouge parfois.\nIl devrait\néclore bientôt.
+src/strings.c	gText_PokeSum_EggHatch_AlmostReady	Il fait du bruit.\nIl va bientôt\néclore!
+src/strings.c	gText_PokeSum_ATrade	un échange
+src/strings.c	gText_PokeSum_Controls_PageDetail	{DPAD_LEFT}PAGE {A_BUTTON}DÉTAIL
+src/strings.c	gText_PokeSum_Controls_PickDelete	{DPAD_UPDOWN}CHOIX {A_BUTTON}EFFACER
+src/strings.c	gText_PokeSum_HmMovesCantBeForgotten	Les CS ne peuvent pas\nêtre oubliées ici.
+src/strings.c	gText_TrainerCardName	NOM: 
+src/strings.c	gText_Points	points
+src/strings.c	gText_BattlePoints	POINTS COMBAT
+src/strings.c	gText_Var1sTrainerCard	: CARTE DE DRESSEUR
+src/strings.c	gText_WinLossRatio	V:{CLEAR_TO 0x30}D:
+src/strings.c	gText_WaitingTrainerFinishReading	En attente de l'autre Dresseur.\nIl consulte ta Carte de Dresseur.
+src/strings.c	gTextJP_Type	TYPE
+src/strings.c	gText_ButtonTypeHelp	AIDE
+src/strings.c	gText_ResetRTCConfirmCancel	Réinitialiser l'horloge?\nA: Valider  B: Annuler
+src/strings.c	gText_PresentTime	Heure actuelle du jeu
+src/strings.c	gText_PreviousTime	Ancienne heure du jeu
+src/strings.c	gText_PleaseResetTime	Règle à nouveau l'heure.
+src/strings.c	gText_ClockHasBeenReset	L'heure a été réglée!\nSauvegarde en cours… Patiente.
+src/strings.c	gText_SaveCompleted	Sauvegarde terminée!
+src/strings.c	gText_SaveFailed	Échec de la sauvegarde…
+src/strings.c	gText_NoSaveFileCantSetTime	Aucune sauvegarde. Impossible\nde régler l'horloge!
+src/strings.c	gText_InGameClockUsable	Le réglage de l'horloge\nest maintenant disponible!
+src/strings.c	gText_SavingDontTurnOffThePower2	SAUVEGARDE…\nNE PAS ÉTEINDRE LA CONSOLE.
+src/strings.c	gText_WasUsedOn	 est utilisé sur\n
+src/strings.c	gText_LevelRoseTo	 monte au niveau\n
+src/strings.c	gText_LevelUp_MaxHP	{FONT_SMALL}MAX.{FONT_NORMAL} PV
+src/strings.c	gText_Counting_2And	2, et … … … 
+src/strings.c	gText_Poof	Pouf!\p
+src/strings.c	gText_MonForgotMove	{DYNAMIC 0x00} oublie\n{DYNAMIC 0x01}.\p
+src/strings.c	gText_And	Et…\p
+src/strings.c	gText_MachineSet	Machine activée!\p
+src/strings.c	gText_Huh	Hein?
+src/strings.c	gText_MonLearnedTMHM	{DYNAMIC 0x00} apprend\n{DYNAMIC 0x01}!
+src/strings.c	gText_QuitChatting	Quitter la discussion?
+src/strings.c	gText_RegisterTextWhere	Où enregistrer le texte?
+src/strings.c	gText_RegisterTextHere	Enregistrer le texte ici?
+src/strings.c	gText_InputText	Saisis ton texte.
+src/strings.c	gText_F700JoinedChat	{DYNAMIC 0x00} rejoint la discussion!
+src/strings.c	gText_F700LeftChat	{DYNAMIC 0x00} quitte la discussion.
+src/strings.c	gText_PlayersXPokemon	Yo-kai nº{DYNAMIC 0x01} de {DYNAMIC 0x00}:
+src/strings.c	gText_PlayersXPokmonDoesNotExist	{DYNAMIC 0x00} n'a pas de\nYo-kai nº{DYNAMIC 0x01}.
+src/strings.c	gText_ExitingTheChat	Fin de la discussion…
+src/strings.c	gText_LeaderHasLeftEndingChat	{DYNAMIC 0x00}, le responsable, est\nparti. La discussion est terminée.
+src/strings.c	gText_RegisteredTextChanged_OKtoSave	Le texte enregistré a changé.\nVeux-tu sauvegarder le jeu?
+src/strings.c	gText_RegisteredTextChanged_AlreadySavedFile	Une sauvegarde existe déjà.\nVeux-tu la remplacer?
+src/strings.c	gText_RegisteredTextChanged_SavingDontTurnOff	SAUVEGARDE…\nNE PAS ÉTEINDRE LA CONSOLE.
+src/strings.c	gText_RegisteredTextChanged_SavedTheGame	{DYNAMIC 0x00} a sauvegardé le jeu.
+src/strings.c	gText_IfLeaderLeavesChatWillEnd	Si le responsable part, la discussion\ns'arrête. Veux-tu continuer?
+src/strings.c	gText_YaySmileEmoji	YOUPI{EMOJI_BIGSMILE}
+src/strings.c	gText_PlayerScurriedToCenter	{PLAYER} se dépêche d'atteindre\nun Centre Yo-kai pour protéger\nses compagnons épuisés…\p
+src/strings.c	gText_PlayerScurriedBackHome	{PLAYER} rentre vite à la maison\npour mettre ses Yo-kai épuisés\nà l'abri du danger…\p
+src/strings.c	gText_Diploma_Player	JOUEUR: {DYNAMIC 0x00}
+src/strings.c	gText_Diploma_ThisDocument	Ce diplôme récompense\nton remarquable exploit:\navoir complété\nle Médallium {DYNAMIC 0x01}.
+src/strings.c	gText_ClearAllSaveData	Effacer toutes les sauvegardes?
+src/strings.c	gText_ClearingData	Effacement en cours…\nVeuillez patienter.
+src/strings.c	gText_HatchedFromEgg	{STR_VAR_1} sort de l'Œuf!
+src/strings.c	gText_NickHatchPrompt	Donner un surnom à\n{STR_VAR_1}, qui vient d'éclore?
+src/strings.c	gString_OutOfCoins	Tu n'as plus de Jetons.\nLa partie est terminée!
+src/strings.c	gString_QuitPlaying	Arrêter de jouer?
+src/strings.c	gString_SlotMachineControls	{DPAD_LEFTRIGHT}COMBOS {DPAD_DOWN}MISE {A_BUTTON}STOP {B_BUTTON}FIN
+src/strings.c	gText_TeachyTV	TV ABC
+src/strings.c	gText_End	FIN
+src/strings.c	gText_SpaceTimes3	 fois
+src/strings.c	gText_PkmnJumpRecords	RECORDS DE SAUT YO-KAI
+src/strings.c	gText_JumpsInARow	Sauts à la suite:
+src/strings.c	gText_BestScore2	Meilleur score:
+src/strings.c	gText_ExcellentsInARow	EXCELLENTS à la suite:
+src/strings.c	gText_AwesomeWonF701F700	Super score! Tu gagnes\n{DYNAMIC 01} {DYNAMIC 00}!
+src/strings.c	gText_FilledStorageSpace2	Il n'y a plus de place.
+src/strings.c	gText_CantHoldMore	Tu ne peux plus rien porter!
+src/strings.c	gText_WantToPlayAgain2	Veux-tu rejouer?
+src/strings.c	gText_SomeoneDroppedOut2	Un joueur s'est retiré.\nLa connexion sera interrompue.
+src/strings.c	gText_SavingDontTurnOffPower	SAUVEGARDE…\nNE PAS ÉTEINDRE LA CONSOLE.
+src/strings.c	gText_CommunicationStandby4	Connexion en cours…
+src/strings.c	gText_SavingDontTurnOffPower2	SAUVEGARDE…\nNE PAS ÉTEINDRE LA CONSOLE.
+src/strings.c	gText_BerryPickingRecords	RECORDS D'ATTRAPE-BAIES
+src/strings.c	gText_BerriesPicked	Baies ramassées:
+src/strings.c	gText_BestScore	Meilleur score:
+src/strings.c	gText_BerriesInRowFivePlayers	Baies ramassées à la suite\navec cinq joueurs:
+src/strings.c	gText_BerryPickingResults	Voici les résultats d'Attrape-Baies!
+src/strings.c	gText_AnnouncingRankings	Voici le classement!
+src/strings.c	gText_AnnouncingPrizes	Voici les prix!
+src/strings.c	gText_FirstPlacePrize	Le premier remporte\n{DYNAMIC 00}!
+src/strings.c	gText_CantHoldAnyMore	Tu ne peux plus rien porter…
+src/strings.c	gText_FilledStorageSpace	Tout l'espace a été rempli.
+src/strings.c	gText_WantToPlayAgain	Veux-tu rejouer?
+src/strings.c	gText_SomeoneDroppedOut	Un joueur s'est retiré.\nLa connexion sera interrompue.
+src/strings.c	gText_CommunicationStandby3	Connexion en cours…
+src/strings.c	gText_BerryCrush_AreYouReady	Prêt pour le Broyeur de Baies?\nChoisis une Baie à utiliser.\p
+src/strings.c	gText_BerryCrush_WaitForOthersToChooseBerry	Patiente pendant que chaque joueur\nchoisit une Baie.
+src/strings.c	gText_BerryCrush_GainedXUnitsOfPowder	{PAUSE_MUSIC}{PLAY_BGM MUS_LEVEL_UP}Tu obtiens {STR_VAR_1} unités\nde fine Poudre de Baie.{RESUME_MUSIC}\pTu possèdes maintenant\n{STR_VAR_2} unités de Poudre de Baie.\p
+src/strings.c	gText_BerryCrush_RecordingGameResults	Enregistrement des résultats\ndans la sauvegarde.\nVeuillez patienter.
+src/strings.c	gText_BerryCrush_WantToPlayAgain	Rejouer au Broyeur de Baies?
+src/strings.c	gText_BerryCrush_NoBerries	Tu n'as aucune Baie.\nLa partie sera annulée.
+src/strings.c	gText_BerryCrush_MemberDroppedOut	Un joueur s'est retiré.\nLa partie sera annulée.
+src/strings.c	gText_BerryCrush_TimeUp	Temps écoulé!\pLa Poudre de Baie\nn'a pas pu être préparée…\p
+src/strings.c	gText_BerryCrush_CommunicationStandby	Connexion en cours…
+src/strings.c	gText_SpaceTimes2	 fois
+src/strings.c	gText_StrVar1Berry	BAIE {STR_VAR_1}
+src/strings.c	gText_TimeColon	Temps:
+src/strings.c	gText_PressingSpeed	Vitesse d'appui:
+src/strings.c	gText_Silkiness	Finesse:
+src/strings.c	gText_TimesPerSec	Appuis/sec.
+src/strings.c	gText_PressesRankings	Nombre d'appuis
+src/strings.c	gText_CrushingResults	Résultats du broyage
+src/strings.c	gText_NeatnessRankings	Classement de finesse
+src/strings.c	gText_CooperativeRankings	Classement de coopération
+src/strings.c	gText_PressingPowerRankings	Classement de puissance
+src/strings.c	gText_PressingSpeedRankings	Classement de vitesse
+src/strings.c	gText_Var1Players	{STR_VAR_1} JOUEURS
+src/strings.c	gText_PokemonOnHook	Un Yo-kai mord à l'hameçon!{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_NotEvenANibble	Ça ne mord pas…{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_ItGotAway	Il s'est échappé…{PAUSE_UNTIL_PRESS}

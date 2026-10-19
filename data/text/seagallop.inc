@@ -1,7 +1,5 @@
 Text_WhereDoYouWantToGo::
-	.string "おつかれさん！\n"
-	.string "どこに　いきたいんだ？$"
+    .string "Bonjour!\nOù souhaites-tu aller?$"
 
 Text_AllAboardSeagallopNum::
-	.string "All right!\n"
-	.string "All aboard SEAGALLOP HI-SPEED {STR_VAR_1}!$"
+    .string "Très bien!\nÀ bord du SEAGALLOP EXPRESS\l{STR_VAR_1}!$"

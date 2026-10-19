@@ -1,0 +1,1715 @@
+{
+  "changed_literals": 342,
+  "results": [
+    {
+      "file": "src/battle_main.c",
+      "english": "GHOST",
+      "french": "SPECTRE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TIME",
+      "french": "TEMPS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "CONTROLS",
+      "french": "COMMANDES"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "NUMERICAL MODE",
+      "french": "ORDRE NUMÉRIQUE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "A TO Z MODE",
+      "french": "ORDRE A À Z"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TYPE MODE",
+      "french": "PAR TYPE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "LIGHTEST MODE",
+      "french": "PAR POIDS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SMALLEST MODE",
+      "french": "PAR TAILLE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "NUMERICAL MODE: KANTO",
+      "french": "ORDRE NUMÉRIQUE: KANTO"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "NUMERICAL MODE: NATIONAL",
+      "french": "ORDRE NUMÉRIQUE: NATIONAL"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SEARCH",
+      "french": "RECHERCHE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "HT",
+      "french": "TAILLE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "WT",
+      "french": "POIDS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "AREA",
+      "french": "ZONE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SIZE",
+      "french": "TAILLE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "AREA UNKNOWN",
+      "french": "ZONE INCONNUE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "No. ",
+      "french": "N° "
+    },
+    {
+      "file": "src/strings.c",
+      "english": "Lv. ",
+      "french": "Niv. "
+    },
+    {
+      "file": "src/strings.c",
+      "english": "NAME",
+      "french": "NOM"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "IDNo.",
+      "french": "N° ID"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "PLAYER",
+      "french": "JOUEUR"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TIME",
+      "french": "TEMPS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "USE",
+      "french": "UTILISER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TOSS",
+      "french": "JETER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "REGISTER",
+      "french": "ENREG."
+    },
+    {
+      "file": "src/strings.c",
+      "english": "GIVE",
+      "french": "DONNER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "WALK",
+      "french": "MARCHER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "EXIT",
+      "french": "QUITTER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "MAIL",
+      "french": "LETTRE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "STORE",
+      "french": "DÉPOSER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "NONE",
+      "french": "AUCUN"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "OPEN",
+      "french": "OUVRIR"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "DESELECT",
+      "french": "DÉSÉLECT."
+    },
+    {
+      "file": "src/strings.c",
+      "english": "RETIRE",
+      "french": "ABANDONNER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": " BERRY",
+      "french": " BAIE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "KEY ITEMS",
+      "french": "OBJETS RARES"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "DEPOSIT ITEM",
+      "french": "DÉPOSER OBJET"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "CLOSE BAG",
+      "french": "FERMER LE SAC"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "POWDER",
+      "french": "POUDRE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TM CASE",
+      "french": "BOÎTE CT"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "CLOSE",
+      "french": "FERMER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BERRY POUCH",
+      "french": "SAC À BAIES"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BUY",
+      "french": "ACHETER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SELL",
+      "french": "VENDRE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SEE YA!",
+      "french": "AU REVOIR!"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SEND OUT",
+      "french": "ENVOYER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "ENTER",
+      "french": "INSCRIRE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "NO ENTRY",
+      "french": "RETIRER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "READ",
+      "french": "LIRE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TRADE",
+      "french": "ÉCHANGE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "HP",
+      "french": "PV"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SP. ATK",
+      "french": "ATQ. SPÉ."
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SP. DEF",
+      "french": "DÉF. SPÉ."
+    },
+    {
+      "file": "src/strings.c",
+      "english": "ABLE",
+      "french": "APTE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "FIRST",
+      "french": "PREMIER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SECOND",
+      "french": "DEUXIÈME"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "THIRD",
+      "french": "TROISIÈME"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "ABLE",
+      "french": "APTE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "NOT ABLE",
+      "french": "INAPTE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "ABLE!",
+      "french": "APTE!"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "NOT ABLE!",
+      "french": "INAPTE!"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "LEARNED",
+      "french": "APPRIS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "ATTACK",
+      "french": "ATTAQUE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "DEFENSE",
+      "french": "DÉFENSE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SPEED",
+      "french": "VITESSE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "HP",
+      "french": "PV"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TURN OFF",
+      "french": "ÉTEINDRE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "ITEM STORAGE",
+      "french": "STOCKAGE OBJETS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "MAILBOX",
+      "french": "BOÎTE LETTRES"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "DEPOSIT ITEM",
+      "french": "DÉPOSER OBJET"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "WITHDRAW ITEM",
+      "french": "RETIRER OBJET"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "READ",
+      "french": "LIRE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "MOVE TO BAG",
+      "french": "METTRE AU SAC"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "GIVE",
+      "french": "DONNER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "WITHDRAW",
+      "french": "RETIRER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "LT. SURGE",
+      "french": "MAJOR BOB"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "EGGS",
+      "french": "ŒUFS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "HALL OF FAME",
+      "french": "PANTHÉON"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "VICTORIES",
+      "french": "VICTOIRES"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "QUIT",
+      "french": "QUITTER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SLP",
+      "french": "SOM"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BRN",
+      "french": "BRÛ"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "FRZ",
+      "french": "GEL"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TOXIC",
+      "french": "TOXIQUE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "QUIT",
+      "french": "QUITTER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SINGLE BATTLE",
+      "french": "COMBAT SOLO"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "DOUBLE BATTLE",
+      "french": "COMBAT DUO"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "MULTI BATTLE",
+      "french": "COMBAT MULTI"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "Not so bad",
+      "french": "Pas mal"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "RED SHARD",
+      "french": "TESSON ROUGE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "YELLOW SHARD",
+      "french": "TESSON JAUNE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BLUE SHARD",
+      "french": "TESSON BLEU"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "GREEN SHARD",
+      "french": "TESSON VERT"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "Right",
+      "french": "Droite"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "Left",
+      "french": "Gauche"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "1F",
+      "french": "RDC"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "2F",
+      "french": "1er"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "3F",
+      "french": "2e"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "4F",
+      "french": "3e"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "5F",
+      "french": "4e"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "COOL",
+      "french": "SANG-FROID"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BEAUTY",
+      "french": "BEAUTÉ"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "CUTE",
+      "french": "GRÂCE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SMART",
+      "french": "INTELLIGENCE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TOUGH",
+      "french": "ROBUSTESSE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BLACK",
+      "french": "NOIR"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "PINK",
+      "french": "ROSE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SEPIA",
+      "french": "SÉPIA"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "COOL",
+      "french": "SANG-FROID"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BEAUTY",
+      "french": "BEAUTÉ"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "CUTE",
+      "french": "GRÂCE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SMART",
+      "french": "INTELLIGENCE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TOUGH",
+      "french": "ROBUSTESSE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "ITEMS",
+      "french": "OBJETS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "KEY ITEMS",
+      "french": "OBJETS RARES"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TMs & HMs",
+      "french": "CT ET CS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BERRIES",
+      "french": "BAIES"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BOULDERBADGE",
+      "french": "BADGE ROCHE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "CASCADEBADGE",
+      "french": "BADGE CASCADE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "THUNDERBADGE",
+      "french": "BADGE FOUDRE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "RAINBOWBADGE",
+      "french": "BADGE PRISME"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SOULBADGE",
+      "french": "BADGE ÂME"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "MARSHBADGE",
+      "french": "BADGE MARAIS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "VOLCANOBADGE",
+      "french": "BADGE VOLCAN"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "EARTHBADGE",
+      "french": "BADGE TERRE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SOMEONE'S PC",
+      "french": "PC DE QUELQU'UN"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BILL'S PC",
+      "french": "PC DE LÉO"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "HALL OF FAME",
+      "french": "PANTHÉON"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "LOG OFF",
+      "french": "DÉCONNEXION"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "PROF. OAK's PC",
+      "french": "PC DU PROF. CHEN"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "FRESH WATER",
+      "french": "EAU FRAÎCHE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SODA POP",
+      "french": "SODA COOL"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "LEMONADE",
+      "french": "LIMONADE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "COINS",
+      "french": "JETONS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "NO THANKS",
+      "french": "NON MERCI"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "NO THANKS",
+      "french": "NON MERCI"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "HELIX FOSSIL",
+      "french": "NAUTILE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "DOME FOSSIL",
+      "french": "FOSSILE DÔME"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "OLD AMBER",
+      "french": "VIEIL AMBRE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TRADE CENTER",
+      "french": "CENTRE D'ÉCHANGE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "COLOSSEUM",
+      "french": "COLISÉE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "Game Link cable",
+      "french": "câble Game Link"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "Wireless",
+      "french": "Sans fil"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "ITEMS POCKET",
+      "french": "POCHE OBJETS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "KEY ITEMS POCKET",
+      "french": "POCHE OBJETS RARES"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "Yo-kai Balls POCKET",
+      "french": "POCHE BALLS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TM CASE",
+      "french": "BOÎTE CT"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BERRY POUCH",
+      "french": "SAC À BAIES"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "OTHER",
+      "french": "AUTRE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "COLOSSEUM",
+      "french": "COLISÉE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BERRY CRUSH",
+      "french": "BROYEUR DE BAIES"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "Yo-kai JUMP",
+      "french": "SAUT YO-KAI"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "DODRIO BERRY-PICKING",
+      "french": "ATTRAPE-BAIES"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "2 TINYMUSHROOMS",
+      "french": "2 PETITS CHAMPIS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "1 BIG MUSHROOM",
+      "french": "1 GROS CHAMPI"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BECOME LEADER",
+      "french": "CRÉER UN GROUPE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "JOIN GROUP",
+      "french": "REJOINDRE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SINGLE",
+      "french": "SOLO"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "DOUBLE",
+      "french": "DUO"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "KNOCKOUT",
+      "french": "ÉLIMINATION"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "MIXED",
+      "french": "MIXTE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "Big guy",
+      "french": "grand"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "Big girl",
+      "french": "grande"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "son",
+      "french": "fils"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "daughter",
+      "french": "fille"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BOULDERBADGE",
+      "french": "BADGE ROCHE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "CASCADEBADGE",
+      "french": "BADGE CASCADE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "THUNDERBADGE",
+      "french": "BADGE FOUDRE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "RAINBOWBADGE",
+      "french": "BADGE PRISME"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SOULBADGE",
+      "french": "BADGE ÂME"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "MARSHBADGE",
+      "french": "BADGE MARAIS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "VOLCANOBADGE",
+      "french": "BADGE VOLCAN"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "EARTHBADGE",
+      "french": "BADGE TERRE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "1F",
+      "french": "RDC"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "2F",
+      "french": "1er"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "3F",
+      "french": "2e"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "4F",
+      "french": "3e"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "5F",
+      "french": "4e"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "6F",
+      "french": "5e"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "7F",
+      "french": "6e"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "8F",
+      "french": "7e"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "9F",
+      "french": "8e"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "10F",
+      "french": "9e"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "11F",
+      "french": "10e"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "B1F",
+      "french": "SS1"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "B2F",
+      "french": "SS2"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "B3F",
+      "french": "SS3"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "B4F",
+      "french": "SS4"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "ROOFTOP",
+      "french": "TOIT"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "Now on:",
+      "french": "Étage:"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "LINKED GAME PLAY",
+      "french": "JEU EN RÉSEAU"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "DIRECT CORNER",
+      "french": "COIN DIRECT"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "UNION ROOM",
+      "french": "SALLE UNION"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "STORE",
+      "french": "DÉPOSER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "WITHDRAW",
+      "french": "RETIRER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SHIFT",
+      "french": "ÉCHANGER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "MOVE",
+      "french": "DÉPLACER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "PLACE",
+      "french": "POSER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SUMMARY",
+      "french": "RÉSUMÉ"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "RELEASE",
+      "french": "RELÂCHER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "MARK",
+      "french": "MARQUER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "NAME",
+      "french": "NOM"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "JUMP",
+      "french": "ALLER À"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "WALLPAPER",
+      "french": "FOND"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TAKE",
+      "french": "PRENDRE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "GIVE",
+      "french": "DONNER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BAG",
+      "french": "SAC"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SCENERY 1",
+      "french": "PAYSAGES 1"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SCENERY 2",
+      "french": "PAYSAGES 2"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SCENERY 3",
+      "french": "PAYSAGES 3"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "ETCETERA",
+      "french": "DIVERS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "FOREST",
+      "french": "FORÊT"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "CITY",
+      "french": "VILLE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "DESERT",
+      "french": "DÉSERT"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SAVANNA",
+      "french": "SAVANE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "CRAG",
+      "french": "ROCHER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "VOLCANO",
+      "french": "VOLCAN"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SNOW",
+      "french": "NEIGE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "CAVE",
+      "french": "GROTTE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BEACH",
+      "french": "PLAGE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SEAFLOOR",
+      "french": "FOND MARIN"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "RIVER",
+      "french": "RIVIÈRE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SKY",
+      "french": "CIEL"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "STARS",
+      "french": "ÉTOILES"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "POKéCENTER",
+      "french": "CENTRE YO-KAI"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TILES",
+      "french": "CARREAUX"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SEE YA!",
+      "french": "AU REVOIR!"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BOX",
+      "french": "BOÎTE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "PROFILE",
+      "french": "PROFIL"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "No data",
+      "french": "Aucune donnée"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "Somewhere",
+      "french": "Quelque part"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "Yo-kai INFO",
+      "french": "INFOS YO-KAI"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "Yo-kai SKILLS",
+      "french": "STATS YO-KAI"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "KNOWN MOVES",
+      "french": "CAPACITÉS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "No data",
+      "french": "Aucune donnée"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "EXP. POINTS",
+      "french": "POINTS EXP."
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SUITE LV.",
+      "french": "PROCHAIN NIV."
+    },
+    {
+      "file": "src/strings.c",
+      "english": "IDNo.",
+      "french": "N° ID"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "MONEY",
+      "french": "ARGENT"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TIME",
+      "french": "TEMPS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "HALL OF FAME DEBUT  ",
+      "french": "ENTRÉE AU PANTHÉON  "
+    },
+    {
+      "file": "src/strings.c",
+      "english": "LINK BATTLES",
+      "french": "COMBATS LINK"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "LINK CABLE BATTLES",
+      "french": "COMBATS PAR CÂBLE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "Yo-kai TRADES",
+      "french": "ÉCHANGES YO-KAI"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "UNION TRADES & BATTLES",
+      "french": "ÉCHANGES ET COMBATS UNION"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BERRY CRUSH",
+      "french": "BROYEUR DE BAIES"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "OPTION",
+      "french": "OPTIONS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TEXT SPEED",
+      "french": "VITESSE TEXTE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BATTLE SCENE",
+      "french": "ANIMATIONS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BATTLE STYLE",
+      "french": "STYLE COMBAT"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SOUND",
+      "french": "SON"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BUTTON MODE",
+      "french": "TOUCHES"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "FRAME",
+      "french": "CADRE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SLOW",
+      "french": "LENTE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "MID",
+      "french": "MOYENNE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "FAST",
+      "french": "RAPIDE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "ON",
+      "french": "OUI"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "OFF",
+      "french": "NON"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SHIFT",
+      "french": "ÉCHANGER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SET",
+      "french": "DÉFINI"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "STEREO",
+      "french": "STÉRÉO"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "HELP",
+      "french": "AIDE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "ATTACK",
+      "french": "ATTAQUE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "DEFENSE",
+      "french": "DÉFENSE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SPEED",
+      "french": "VITESSE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SP. ATK",
+      "french": "ATQ. SPÉ."
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SP. DEF",
+      "french": "DÉF. SPÉ."
+    },
+    {
+      "file": "src/strings.c",
+      "english": "UPPER",
+      "french": "MAJUSCULES"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "lower",
+      "french": "minuscules"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "OTHERS",
+      "french": "AUTRES"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SYMBOLS",
+      "french": "SYMBOLES"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "REGISTER",
+      "french": "ENREG."
+    },
+    {
+      "file": "src/strings.c",
+      "english": "EXIT",
+      "french": "QUITTER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "HELLO",
+      "french": "SALUT"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TRADE",
+      "french": "ÉCHANGE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BATTLE",
+      "french": "COMBAT"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "LET'S",
+      "french": "ALLONS-Y"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SORRY",
+      "french": "DÉSOLÉ"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "THANK YOU",
+      "french": "MERCI"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BYE-BYE!",
+      "french": "AU REVOIR!"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "PLAYER",
+      "french": "JOUEUR"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TIME",
+      "french": "TEMPS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "REGISTER",
+      "french": "ENREG."
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BILL",
+      "french": "LÉO"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SOMEONE",
+      "french": "QUELQU'UN"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "HELP",
+      "french": "AIDE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BERRY CRUSH",
+      "french": "BROYEUR DE BAIES"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "GHOST",
+      "french": "SPECTRE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "ROOFTOP",
+      "french": "TOIT"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "COPPER",
+      "french": "CUIVRE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SILVER",
+      "french": "ARGENT"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "GOLD",
+      "french": "OR"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TRAINER",
+      "french": "DRESSEUR"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "STATUS",
+      "french": "ÉTAT"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BATTLE",
+      "french": "COMBAT"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "GREETINGS",
+      "french": "SALUTATIONS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "PEOPLE",
+      "french": "PERSONNES"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "VOICES",
+      "french": "EXCLAMATIONS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SPEECH",
+      "french": "EXPRESSIONS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "ENDINGS",
+      "french": "TERMINAISONS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "FEELINGS",
+      "french": "SENTIMENTS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "CONDITIONS",
+      "french": "ÉTATS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "LIFESTYLE",
+      "french": "VIE QUOTIDIENNE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "HOBBIES",
+      "french": "LOISIRS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TIME",
+      "french": "TEMPS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "MISC.",
+      "french": "DIVERS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "ADJECTIVES",
+      "french": "ADJECTIFS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "EVENTS",
+      "french": "ÉVÉNEMENTS"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "MOVE 1",
+      "french": "CAPACITÉS 1"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "MOVE 2",
+      "french": "CAPACITÉS 2"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TRENDY SAYING",
+      "french": "EXPRESSIONS MODE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "POKéMON2",
+      "french": "YO-KAI 2"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SUMMARY",
+      "french": "RÉSUMÉ"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TRADE",
+      "french": "ÉCHANGE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SUMMARY",
+      "french": "RÉSUMÉ"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TRADE",
+      "french": "ÉCHANGE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "BILL",
+      "french": "LÉO"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "WONDER CARDS",
+      "french": "CARTES MIRACLE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "WONDER NEWS",
+      "french": "INFOS MIRACLE"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "WIRELESS COMMUNICATION",
+      "french": "COMMUNICATION SANS FIL"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "FRIEND",
+      "french": "AMI"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "EXIT",
+      "french": "QUITTER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "RECEIVE",
+      "french": "RECEVOIR"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "SEND",
+      "french": "ENVOYER"
+    },
+    {
+      "file": "src/strings.c",
+      "english": "TOSS",
+      "french": "JETER"
+    },
+    {
+      "file": "src/union_room_message.c",
+      "english": "BATTLE",
+      "french": "COMBAT"
+    },
+    {
+      "file": "src/union_room_message.c",
+      "english": "GREETINGS",
+      "french": "SALUTATIONS"
+    },
+    {
+      "file": "src/union_room_message.c",
+      "english": "EXIT",
+      "french": "QUITTER"
+    },
+    {
+      "file": "src/union_room_message.c",
+      "english": "EXIT",
+      "french": "QUITTER"
+    },
+    {
+      "file": "src/union_room_message.c",
+      "english": "SINGLE BATTLE",
+      "french": "COMBAT SOLO"
+    },
+    {
+      "file": "src/union_room_message.c",
+      "english": "DOUBLE BATTLE",
+      "french": "COMBAT DUO"
+    },
+    {
+      "file": "src/union_room_message.c",
+      "english": "MULTI BATTLE",
+      "french": "COMBAT MULTI"
+    },
+    {
+      "file": "src/union_room_message.c",
+      "english": "Yo-kai TRADES",
+      "french": "ÉCHANGES YO-KAI"
+    },
+    {
+      "file": "src/union_room_message.c",
+      "english": "WONDER CARDS",
+      "french": "CARTES MIRACLE"
+    },
+    {
+      "file": "src/union_room_message.c",
+      "english": "WONDER NEWS",
+      "french": "INFOS MIRACLE"
+    },
+    {
+      "file": "src/union_room_message.c",
+      "english": "Yo-kai JUMP",
+      "french": "SAUT YO-KAI"
+    },
+    {
+      "file": "src/union_room_message.c",
+      "english": "BERRY CRUSH",
+      "french": "BROYEUR DE BAIES"
+    },
+    {
+      "file": "src/union_room_message.c",
+      "english": "SEARCH",
+      "french": "RECHERCHE"
+    },
+    {
+      "file": "src/data/pokemon/pokedex_entries.h",
+      "english": "VOLCANO",
+      "french": "VOLCAN"
+    },
+    {
+      "file": "src/data/pokemon/pokedex_entries.h",
+      "english": "VOLCANO",
+      "french": "VOLCAN"
+    },
+    {
+      "file": "src/data/pokemon/pokedex_entries.h",
+      "english": "VOLCANO",
+      "french": "VOLCAN"
+    },
+    {
+      "file": "src/data/pokemon/pokedex_entries.h",
+      "english": "FOREST",
+      "french": "FORÊT"
+    }
+  ]
+}

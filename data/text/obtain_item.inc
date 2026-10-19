@@ -1,47 +1,38 @@
 Text_ObtainedTheX::
-	.string "Obtained the {STR_VAR_2}!$"
+    .string "Tu obtiens {STR_VAR_2}!$"
 
 Text_BagIsFull::
-	.string "The BAG is full…$"
+    .string "Le Sac est plein…$"
 
 Text_PutItemAway::
-	.string "{PLAYER} put the {STR_VAR_2}\n"
-	.string "in the {STR_VAR_3}.$"
+    .string "{PLAYER} range {STR_VAR_2}\ndans {STR_VAR_3}.$"
 
 Text_FoundOneItem::
-	.string "{PLAYER} found one {STR_VAR_2}!$"
+    .string "{PLAYER} trouve {STR_VAR_2}!$"
 
 Text_TooBadBagFull::
-	.string "Too bad!\n"
-	.string "The BAG is full…$"
+    .string "Dommage!\nLe Sac est plein…$"
 
 Text_FoundXCoins::
-	.string "{PLAYER} found\n"
-	.string "{STR_VAR_1} {STR_VAR_2}!$"
+    .string "{PLAYER} trouve\n{STR_VAR_1} {STR_VAR_2}!$"
 
 Text_PutCoinsAwayInCoinCase::
-	.string "{PLAYER} put the COINS away in\n"
-	.string "the COIN CASE.$"
+    .string "{PLAYER} range les Jetons\ndans la Boîte Jetons.$"
 
 Text_CoinCaseIsFull::
-	.string "Too bad!\n"
-	.string "The COIN CASE is full…$"
+    .string "Dommage!\nLa Boîte Jetons est pleine…$"
 
 Text_NothingToPutThemIn::
-	.string "Too bad!\n"
-	.string "There's nothing to put them in…$"
+    .string "Dommage!\nRien pour les ranger…$"
 
 Text_FoundXItems::
-	.string "{PLAYER} found\n"
-	.string "{STR_VAR_1} {STR_VAR_2}(s)!$"
+    .string "{PLAYER} trouve\n{STR_VAR_1} {STR_VAR_2}!$"
 
 Text_ObtainedTheDecor::
-	.string "Obtained the {STR_VAR_2}!$"
+    .string "Tu obtiens {STR_VAR_2}!$"
 
 Text_NoRoomForAnotherDecor::
-	.string "Too bad! There's no room left for\n"
-	.string "another {STR_VAR_2}…$"
+    .string "Dommage! Plus de place\npour {STR_VAR_2}…$"
 
 Text_DecorTransferredToPC::
-	.string "The {STR_VAR_2} was transferred\n"
-	.string "to the PC.$"
+    .string "{STR_VAR_2} est transféré\ndans le PC.$"

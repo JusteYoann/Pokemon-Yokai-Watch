@@ -1,10 +1,6 @@
 @ Unused
 Text_ItemfinderResponding::
-	.string "おッ！　ダウジングマシンが\n"
-	.string "はんのう　してるぞ！\p"
-	.string "ましたに　どうぐが　うまってる！\n"
-	.string "‥‥‥$"
+    .string "Oh! Le Cherch'Objet réagit!\pUn objet est enterré\njuste à tes pieds!\l… … …$"
 
 Text_DugUpItemFromGround::
-	.string "{PLAYER} dug up one {STR_VAR_2}\n"
-	.string "from deep in the ground.$"
+    .string "{PLAYER} déterre\n{STR_VAR_2}.$"

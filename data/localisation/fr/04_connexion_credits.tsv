@@ -1,0 +1,172 @@
+src/strings.c	gJPText_SelectConnectAndPressA	Sur le lecteur e-Reader{PLUS}, choisis\nConnexion puis appuie sur A.
+src/strings.c	gJPText_UnableConnectWithEReader	Connexion impossible\navec le lecteur e-Reader{PLUS}.
+src/strings.c	gText_CommErrorCheckConnections	Erreur de communication…\nVérifie les branchements, puis\néteins et rallume la console.
+src/strings.c	gText_CommErrorEllipsis	Erreur de communication…
+src/strings.c	gText_MoveCloserToLinkPartner	Rapproche-toi des autres joueurs.\nÉvite les obstacles entre vous.
+src/strings.c	gText_ABtnRegistrationCounter	Bouton A: Comptoir d'inscription
+src/strings.c	gText_ABtnTitleScreen	Bouton A: Écran titre
+src/strings.c	gText_NumPlayerLink	LINK {STR_VAR_1}J
+src/strings.c	gText_HelpSystemControls_PickOkEnd	{DPAD_UPDOWN}CHOIX {A_BUTTON}OK {B_BUTTON}FIN
+src/strings.c	gText_IsThisTradeOkay	Cet échange te convient?
+src/strings.c	gTradeText_PressBButtonToExit	Appuie sur B pour quitter.
+src/strings.c	gText_Trade_CommunicationStandby	{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}Connexion en cours…\nVeuillez patienter.
+src/strings.c	gText_TradeHasBeenCanceled	{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}L'échange a été annulé.
+src/strings.c	gText_Trade_OnlyPkmnForBattle	{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}C'est ton seul Yo-kai\nen état de combattre.
+src/strings.c	gText_WaitingForFriendToFinish	{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}En attente de la fin\ndu choix de ton ami…
+src/strings.c	gText_FriendWantsToTrade	Ton ami souhaite\néchanger des Yo-kai.
+src/strings.c	gText_XWillBeSentToY	{STR_VAR_2} sera\nenvoyé à {STR_VAR_1}.
+src/strings.c	gText_ByeByeVar1	Au revoir, {STR_VAR_2}!
+src/strings.c	gText_XSentOverY	{STR_VAR_1} envoie {STR_VAR_3}.
+src/strings.c	gText_TakeGoodCareOfX	Prends soin de {STR_VAR_3}!
+src/strings.c	gText_From	De 
+src/strings.c	gText_WirelessCommunicationStatus	État des connexions sans fil
+src/strings.c	gText_PeopleTrading	Joueurs en échange:
+src/strings.c	gText_PeopleBattling	Joueurs en combat:
+src/strings.c	gText_PeopleInUnionRoom	Joueurs en Salle Union:
+src/strings.c	gText_PeopleCommunicating	Joueurs connectés:
+src/strings.c	gText_Dynamic0Players	{DYNAMIC 0x00} joueurs
+src/strings.c	gText_Dynamic1Players	{DYNAMIC 0x01} joueur
+src/strings.c	gText_Dynamic2Players	{DYNAMIC 0x02} joueurs
+src/strings.c	gText_Dynamic3Players	{DYNAMIC 0x03} joueurs
+src/strings.c	gText_DPadChooseAButtonConfirm	{DPAD_ANY}CHOIX:{A_BUTTON}OK
+src/strings.c	gText_ChooseBattleLineup	{COLOR RED}{SHADOW LIGHT_RED}   ÉQUIPES DU COMBAT\n{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Choisis ta place.
+src/strings.c	gText_CommunicationStandby5	Connexion en cours…
+src/strings.c	gDaycareText_GetAlongVeryWell	Ils semblent vraiment\ntrès bien s'entendre.
+src/strings.c	gDaycareText_GetAlong	Ils semblent bien s'entendre.
+src/strings.c	gDaycareText_DontLikeOther	Ils ne semblent pas\nbeaucoup s'apprécier.
+src/strings.c	gDaycareText_PlayOther	Ils préfèrent jouer avec\nd'autres Yo-kai plutôt qu'ensemble.
+src/strings.c	gText_TeachWhichMoveToMon	Qu'enseigner à {STR_VAR_1}?
+src/strings.c	gText_TeachMoveQues	Enseigner {STR_VAR_2}?
+src/strings.c	gText_MonLearnedMove	{STR_VAR_1} apprend\n{STR_VAR_2}.
+src/strings.c	gText_MonIsTryingToLearnMove	{STR_VAR_1} veut apprendre\n{STR_VAR_2}.\pMais {STR_VAR_1} connaît\ndéjà quatre capacités.\pOublier une ancienne capacité\npour apprendre {STR_VAR_2}?
+src/strings.c	gText_StopLearningMove	Ne pas apprendre {STR_VAR_2}?
+src/strings.c	gText_1_2_and_Poof	{PAUSE 0x20}1, {PAUSE 0x0F}2, et {PAUSE 0x0F}… {PAUSE 0x0F}… {PAUSE 0x0F}… {PAUSE 0x0F}{PLAY_SE SE_BALL_BOUNCE_1}Pouf!\p
+src/strings.c	gText_MonForgotOldMoveAndMonLearnedNewMove	{STR_VAR_1} oublie {STR_VAR_3}.\pEt…\p{STR_VAR_1}\napprend {STR_VAR_2}.
+src/strings.c	gText_GiveUpTryingToTeachNewMove	Renoncer à enseigner une\ncapacité à {STR_VAR_1}?
+src/strings.c	gText_WhichMoveShouldBeForgotten	Quelle capacité oublier?\p
+src/strings.c	gText_CommStandbyAwaitingOtherPlayer	Connexion en cours…\nEn attente du choix du partenaire.
+src/strings.c	gText_BattleWasRefused	Le combat a été refusé.{PAUSE 0x3C}
+src/strings.c	gText_RefusedBattle	Tu as refusé le combat.{PAUSE 0x3C}
+src/strings.c	gFameCheckerText_MainScreenUI	{START_BUTTON}CHOIX {DPAD_UPDOWN}SÉLECT. {A_BUTTON}OK
+src/strings.c	gFameCheckerText_PickScreenUI	{START_BUTTON}CHOIX {DPAD_UPDOWN}SÉLECT. {B_BUTTON}RETOUR
+src/strings.c	gFameCheckerText_FlavorTextUI	{DPAD_ANY}CHOIX {A_BUTTON}LIRE {B_BUTTON}RETOUR
+src/strings.c	gFameCheckerOakName	CHEN
+src/strings.c	gFameCheckerDaisyName	NINA
+src/strings.c	gFameCheckerBillName	LÉO
+src/strings.c	gText_VarietyOfEventsImportedWireless	Divers événements seront reçus\npar communication sans fil.
+src/strings.c	gText_WonderCardsInPossession	Consulte les Cartes Miracle\nen ta possession.
+src/strings.c	gText_ReadNewsThatArrived	Consulte les Infos Miracle reçues.
+src/strings.c	gText_ReturnToTitle	Retour à l'écran titre.
+src/strings.c	gText_DontHaveCardNewOneInput	Aucune Carte Miracle.\nUne nouvelle Carte sera reçue.
+src/strings.c	gText_DontHaveNewsNewOneInput	Aucune Info Miracle.\nUne nouvelle Info sera reçue.
+src/strings.c	gText_WhereShouldCardBeAccessed	Comment veux-tu recevoir\nla Carte Miracle?
+src/strings.c	gText_WhereShouldNewsBeAccessed	Comment veux-tu recevoir\nles Infos Miracle?
+src/strings.c	gText_LinkStandyBButtonCancel	Connexion en cours…\n… … Bouton B: Annuler
+src/strings.c	gText_Communicating	Communication en cours…
+src/strings.c	gText_CommunicationCompleted	Communication terminée.
+src/strings.c	gText_CommunicationError	Erreur de communication.
+src/strings.c	gText_CommunicationCanceled	La communication a été annulée.
+src/strings.c	gText_ThrowAwayWonderCard	Jeter la Carte Miracle\npour en recevoir une autre?
+src/strings.c	gText_HaventReceivedCardsGift	Tu n'as pas encore reçu le cadeau.\nRecevoir une autre Carte malgré tout?
+src/strings.c	gText_WonderCardReceivedFrom	Une Carte Miracle a été reçue\nde {STR_VAR_1}.
+src/strings.c	gText_WonderNewsReceivedFrom	Des Infos Miracle ont été reçues\nde {STR_VAR_1}.
+src/strings.c	gText_WonderCardReceived	Une nouvelle Carte Miracle\na été reçue.
+src/strings.c	gText_WonderNewsReceived	De nouvelles Infos Miracle\nont été reçues.
+src/strings.c	gText_NewStampReceived	Un nouveau Timbre a été reçu.
+src/strings.c	gText_NewTrainerReceived	Un nouveau Dresseur est arrivé.
+src/strings.c	gText_AlreadyHadCard	Tu possèdes déjà\ncette Carte Miracle.
+src/strings.c	gText_AlreadyHadNews	Tu possèdes déjà\nces Infos Miracle.
+src/strings.c	gText_AlreadyHadStamp	Tu possèdes déjà\nce Timbre.
+src/strings.c	gText_NoMoreRoomForStamps	Il n'y a plus de place\npour ajouter des Timbres.
+src/strings.c	gText_RecordUploadedViaWireless	Ton record a été envoyé\npar communication sans fil.
+src/strings.c	gText_CantAcceptCardFromTrainer	Tu ne peux pas recevoir de Carte\nMiracle de ce Dresseur.
+src/strings.c	gText_CantAcceptNewsFromTrainer	Tu ne peux pas recevoir d'Infos\nMiracle de ce Dresseur.
+src/strings.c	gText_NothingSentOver	Rien n'a été envoyé…
+src/strings.c	gText_WhatToDoWithCards	Que veux-tu faire\navec les Cartes Miracle?
+src/strings.c	gText_WhatToDoWithNews	Que veux-tu faire\navec les Infos Miracle?
+src/strings.c	gText_SendingWonderCard	Envoi de ta Carte Miracle…
+src/strings.c	gText_SendingWonderNews	Envoi de tes Infos Miracle…
+src/strings.c	gText_WonderCardSentTo	Ta Carte Miracle a été envoyée\nà {STR_VAR_1}.
+src/strings.c	gText_WonderNewsSentTo	Tes Infos Miracle ont été envoyées\nà {STR_VAR_1}.
+src/strings.c	gText_StampSentTo	Un Timbre est envoyé\nà {STR_VAR_1}.
+src/strings.c	gText_GiftSentTo	Un cadeau est envoyé\nà {STR_VAR_1}.
+src/strings.c	gText_OtherTrainerHasCard	L'autre Dresseur possède\ndéjà cette Carte Miracle.
+src/strings.c	gText_OtherTrainerHasNews	L'autre Dresseur possède\ndéjà ces Infos Miracle.
+src/strings.c	gText_OtherTrainerHasStamp	L'autre Dresseur possède\ndéjà ce Timbre.
+src/strings.c	gText_OtherTrainerCanceled	L'autre Dresseur a annulé\nla communication.
+src/strings.c	gText_CantSendGiftToTrainer	Impossible d'envoyer un Cadeau\nMystère à ce Dresseur.
+src/strings.c	gText_IfThrowAwayCardEventWontHappen	Jeter la Carte annulera\nson événement. D'accord?
+src/strings.c	gText_OkayToDiscardNews	Veux-tu vraiment effacer\nces Infos Miracle?
+src/strings.c	gText_HaventReceivedGiftOkayToDiscard	Tu n'as pas reçu le cadeau.\nVeux-tu quand même effacer?
+src/strings.c	gText_DataWillBeSaved	Sauvegarde des données…\nVeuillez patienter.
+src/strings.c	gText_SaveCompletedPressA	Sauvegarde terminée.\nAppuie sur le bouton A.
+src/strings.c	gText_WonderCardThrownAway	La Carte Miracle a été jetée.
+src/strings.c	gText_WonderNewsThrownAway	Les Infos Miracle ont été effacées.
+src/strings.c	gText_PickOKCancel	{DPAD_UPDOWN}CHOIX {A_BUTTON}OK {B_BUTTON}FIN
+src/strings.c	gText_DelAllCancelOk	TOUT EFF.{CLEAR_TO 0x57}RETOUR{CLEAR_TO 0xA4}OK
+src/strings.c	gText_50Coins_1000	{FONT_SMALL} 50 JETONS{CLEAR_TO 0x45}¥1,000
+src/strings.c	gText_500Coins_10000	{FONT_SMALL}500 JETONS{CLEAR_TO 0x40}¥10,000
+src/strings.c	gText_Tm13_4000Coins	CT13{CLEAR_TO 0x48}{FONT_SMALL}4,000 JETONS
+src/strings.c	gText_Tm23_3500Coins	CT23{CLEAR_TO 0x48}{FONT_SMALL}3,500 JETONS
+src/strings.c	gText_Tm24_4000Coins	CT24{CLEAR_TO 0x48}{FONT_SMALL}4,000 JETONS
+src/strings.c	gText_Tm30_4500Coins	CT30{CLEAR_TO 0x48}{FONT_SMALL}4,500 JETONS
+src/strings.c	gText_Tm35_4000Coins	CT35{CLEAR_TO 0x48}{FONT_SMALL}4,000 JETONS
+src/strings.c	gText_Abra_180Coins	Baku{CLEAR_TO 0x55}{FONT_SMALL} 180 JETONS
+src/strings.c	gText_Clefairy_500Coins	Bouh{CLEAR_TO 0x55}{FONT_SMALL} 500 JETONS
+src/strings.c	gText_Dratini_2800Coins	Arbrézo{CLEAR_TO 0x4B}{FONT_SMALL} 2,800 JETONS
+src/strings.c	gText_Scyther_5500Coins	Jojojoyeux{CLEAR_TO 0x4B}{FONT_SMALL} 5,500 JETONS
+src/strings.c	gText_Porygon_9999Coins	Cast. Max{CLEAR_TO 0x4B}{FONT_SMALL} 9,999 JETONS
+src/strings.c	gText_Abra_120Coins	Baku{CLEAR_TO 0x55}{FONT_SMALL} 120 JETONS
+src/strings.c	gText_Clefairy_750Coins	Bouh{CLEAR_TO 0x55}{FONT_SMALL} 750 JETONS
+src/strings.c	gText_Pinsir_2500Coins	Pitou{CLEAR_TO 0x4B}{FONT_SMALL} 2,500 JETONS
+src/strings.c	gText_Dratini_4600Coins	Arbrézo{CLEAR_TO 0x4B}{FONT_SMALL} 4,600 JETONS
+src/strings.c	gText_Porygon_6500Coins	Cast. Max{CLEAR_TO 0x4B}{FONT_SMALL} 6,500 JETONS
+src/strings.c	gText_MiracleSeed_1000Coins	GRAINE MIRACL.{CLEAR_TO 0x50}{FONT_SMALL}1,000 JETONS
+src/strings.c	gText_Charcoal_1000Coins	CHARBON{CLEAR_TO 0x50}{FONT_SMALL}1,000 JETONS
+src/strings.c	gText_MysticWater_1000Coins	EAU MYSTIQUE{CLEAR_TO 0x50}{FONT_SMALL}1,000 JETONS
+src/strings.c	gText_YellowFlute_1600Coins	FLÛTE JAUNE{CLEAR_TO 0x50}{FONT_SMALL}1,600 JETONS
+src/strings.c	gText_SmokeBall_800Coins	BOULE FUMÉE{CLEAR_TO 0x5A}{FONT_SMALL}800 JETONS
+src/strings.c	gCreditsString_Director	\n\nRéalisation\n\n\n\n
+src/strings.c	gCreditsString_Art_Director_Battle_Director	\nDirection artistique\n\nDirection des combats\n\n\n
+src/strings.c	gCreditsString_Program_Leader_Planning_Leader_Graphic_Design_Leader	Direction technique\n\nPlanification\n\nDirection graphique\n\n
+src/strings.c	gCreditsString_Programmers	Programmation\n\n\n\n\n
+src/strings.c	gCreditsString_System_Programmers	Programmation système\n\n\n\n\n\n
+src/strings.c	gCreditsString_Graphic_Designers	Graphismes\n\n\n\n\n\n
+src/strings.c	gCreditsString_Graphic_Designers_2	\nGraphismes\n\n\n\n\n
+src/strings.c	gCreditsString_Music_Composition	\nComposition musicale\n\n\n\n\n
+src/strings.c	gCreditsString_Sound_Effects	\n\nEffets sonores\n\n\n\n
+src/strings.c	gCreditsString_Game_Designers	\nConception du jeu\n\n\n\n\n
+src/strings.c	gCreditsString_Game_Designers_2	\nConception du jeu\n\n\n\n\n
+src/strings.c	gCreditsString_Game_Scenario	\nScénario\n\n\n\n\n
+src/strings.c	gCreditsString_Script_Designer_Map_Designer	\nScripts\n\nCartes\n\n\n
+src/strings.c	gCreditsString_Parametric_Designers	\nParamètres du jeu\n\n\n\n\n
+src/strings.c	gCreditsString_POKeDEX_Text	\n\nTextes du Médallium\n\n\n\n
+src/strings.c	gCreditsString_POKeMON_Designers	Créatures originales\n\n\n\n\n\n
+src/strings.c	gCreditsString_POKeMON_Designers_2	Créatures originales\n\n\n\n\n\n
+src/strings.c	gCreditsString_POKeMON_Designers_3	Créatures originales\n\n\n\n\n\n
+src/strings.c	gCreditsString_Supporting_Programmers	Programmation annexe\n\n\n\n
+src/strings.c	gCreditsString_NCL_Product_Testing	\n\nTests qualité NCL\n\n\n\n
+src/strings.c	gCreditsString_Special_Thanks	Remerciements\n\n\n\n\n\n
+src/strings.c	gCreditsString_Special_Thanks_2	Remerciements\n\n\n\n\n\n
+src/strings.c	gCreditsString_Special_Thanks_3	Remerciements\n\n\n\n\n\n
+src/strings.c	gCreditsString_Braille_Code_Check	\n\nVérification du braille\n\n\n\n
+src/strings.c	gCreditsString_Information_Supervisors	Supervision\n\n\n\n\n\n
+src/strings.c	gCreditsString_Coordinators	Coordination\n\n\n\n\n\n
+src/strings.c	gCreditsString_Task_Managers	\nGestion des tâches\n\n\n\n\n
+src/strings.c	gCreditsString_Producers	\nProduction\n\n\n\n\n
+src/strings.c	gCreditsString_Executive_Director	\n\nDirection générale\n\n\n\n
+src/strings.c	gCreditsString_Executive_Producer	\n\nProduction exécutive\n\n\n\n
+src/strings.c	gCreditsString_Executive_Producer_2	\n\nProduction exécutive\n\n\n\n
+src/strings.c	gCreditsString_English_Version_Coordinators	\nCoordination version anglaise\n\n\n\n\n
+src/strings.c	gCreditsString_Translator_Text_Editor	\nTraduction\n\nRévision des textes\n\n\n
+src/strings.c	gCreditsString_Programmers_2	Programmation\n\n\n\n\n\n
+src/strings.c	gCreditsString_Environment_Tool_Programmers	\nProgrammation des outils\n\n\n\n\n
+src/strings.c	gCreditsString_NOA_Product_Testing	Tests qualité NOA\n\n\n\n\n\n
+src/strings.c	gCreditsString_Braille_Code_Check_2	Vérification du braille\n\n\n\n\n\n
+src/strings.c	gCreditsString_Braille_Code_Check_3	\nVérification du braille\n\n\n\n\n
+src/strings.c	gCreditsString_Special_Thanks_4	Remerciements\n\n\n\n\n\n
+src/strings.c	gCreditsString_Special_Thanks_5	Remerciements\n\n\n\n\n\n
+src/strings.c	gCreditsString_Braille_Code_Check_4	\nVérification du braille\n\n\n\n\n
+src/strings.c	gCreditsString_Graphic_Designer	\n\nGraphismes\n\n\n\n
+src/strings.c	gString_PokemonFireRed_Staff	Pokémon × Yo-kai Watch\nÉquipe de développement
+src/strings.c	gString_PokemonLeafGreen_Staff	Pokémon × Yo-kai Watch\nÉquipe de développement

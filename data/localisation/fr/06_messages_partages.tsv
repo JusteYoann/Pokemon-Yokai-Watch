@@ -1,0 +1,161 @@
+data/text/aide.inc	Aide_Text_HaventCaughtEnoughMonsForItem	Voyons…\nOh! Tu n'as capturé que\l{STR_VAR_3} espèces de Yo-kai!\pIl en faut {STR_VAR_1} pour\nrecevoir {STR_VAR_2}.$
+data/text/aide.inc	Aide_Text_GetEnoughMonsComeBackForItem	…Je vois.\pReviens quand tu auras capturé\n{STR_VAR_1} espèces de Yo-kai\lpour recevoir {STR_VAR_2}.$
+data/text/aide.inc	Aide_Text_DontHaveAnyRoomForItem	Oh! Tu n'as pas de place\npour {STR_VAR_2}.$
+data/text/day_care.inc	DayCare_Text_ImDaycareManSpeakToMyWife	Je m'occupe de la Pension.\pNous prenons soin des précieux\nYo-kai des Dresseurs.\pSi tu veux nous en confier un,\nva parler à ma femme.$
+data/text/day_care.inc	DayCare_Text_DoYouWantEgg	Ah, c'est toi!\pNous avons eu une sacrée surprise\nen prenant soin de tes Yo-kai!\pTes Yo-kai avaient un Œuf!\pNous ignorons d'où il vient,\nmais ils le gardaient avec eux.\pTu le veux, n'est-ce pas?$
+data/text/day_care.inc	DayCare_Text_YourMonIsDoingFine	Ah, te voilà!\nTon {STR_VAR_1} se porte bien.$
+data/text/day_care.inc	DayCare_Text_IllKeepIt	Dans ce cas, je le garde.\nMerci!$
+data/text/day_care.inc	DayCare_Text_YouHaveNoRoomForIt	Tu n'as pas de place…\nReviens quand tu en auras fait.$
+data/text/day_care.inc	DayCare_Text_ReceivedEgg	{PLAYER} reçoit un Œuf\ndu responsable de la Pension.$
+data/text/day_care.inc	DayCare_Text_TakeGoodCareOfIt	Prends-en bien soin.$
+data/text/day_care.inc	DayCare_Text_SeeWifeIfYouWantToPickUpMon	Pour récupérer tes Yo-kai,\nva voir ma femme.$
+data/text/day_care.inc	DayCare_Text_YourMonsAreDoingFine	Ah, te voilà! {STR_VAR_1} et\n{STR_VAR_2} se portent bien.$
+data/text/day_care.inc	DayCare_Text_IWillKeepDoYouWantIt	Sinon, je vais vraiment le garder.\nTu le veux, n'est-ce pas?$
+data/text/day_care.inc	DayCare_Text_WouldYouLikeUsToRaiseMon	Bienvenue à la Pension.\pNous pouvons élever tes Yo-kai.\pVeux-tu nous en confier un?$
+data/text/day_care.inc	DayCare_Text_WhichMonShouldWeRaise	Quel Yo-kai veux-tu\nnous confier?$
+data/text/day_care.inc	DayCare_Text_WellRaiseYourMon	Nous allons prendre soin\nde {STR_VAR_1}.\pReviens le chercher plus tard.$
+data/text/day_care.inc	DayCare_Text_WeCanRaiseOneMore	Nous pouvons garder deux Yo-kai.\pVeux-tu nous en confier\nun deuxième?$
+data/text/day_care.inc	DayCare_Text_HusbandWasLookingForYou	Mon mari te cherchait.$
+data/text/day_care.inc	DayCare_Text_FineThenComeAgain	Très bien.\nReviens quand tu veux.$
+data/text/day_care.inc	DayCare_Text_NotEnoughMoney	Tu n'as pas assez d'argent…$
+data/text/day_care.inc	DayCare_Text_TakeOtherOneBackToo	Veux-tu aussi récupérer\nl'autre?$
+data/text/day_care.inc	DayCare_Text_ComeAgain	Très bien.\nÀ bientôt.$
+data/text/day_care.inc	DayCare_Text_GoodToSeeYou	Ah, c'est toi!\nQuel plaisir de te revoir.\pTes Yo-kai se portent\nà merveille!$
+data/text/day_care.inc	DayCare_Text_YourMonHasGrownXLevels	Ton {STR_VAR_1} a gagné\n{STR_VAR_2} niveaux.$
+data/text/day_care.inc	DayCare_Text_YourPartyIsFull	Ton équipe est complète.\nFais de la place, puis reviens.$
+data/text/day_care.inc	DayCare_Text_TakeBackWhichMon	Quel Yo-kai veux-tu récupérer?$
+data/text/day_care.inc	DayCare_Text_ItWillCostX	Pour récupérer {STR_VAR_1},\nil faudra payer ¥{STR_VAR_2}.$
+data/text/day_care.inc	DayCare_Text_HeresYourMon	Parfait!\nVoici ton Yo-kai.$
+data/text/day_care.inc	DayCare_Text_TookBackMon	{PLAYER} récupère {STR_VAR_1}\nà la Pension.$
+data/text/day_care.inc	DayCare_Text_YouHaveJustOneMon	Mais tu n'as qu'un seul\nYo-kai.\pReviens une autre fois.$
+data/text/day_care.inc	DayCare_Text_TakeYourMonBack	Veux-tu récupérer ton Yo-kai?$
+data/text/day_care.inc	DayCare_Text_WhatWillYouBattleWith	Si tu me confies ce Yo-kai,\navec qui vas-tu combattre?\pReviens une autre fois.$
+data/text/day_care.inc	DayCare_Text_Huh	Hein?$
+data/text/flavor_text.inc	Text_Bookshelf	Cette étagère est remplie\nde livres sur les Yo-kai.$
+data/text/flavor_text.inc	Text_NothingButPokemonBooks	Il n'y a que des livres\nsur les Yo-kai.$
+data/text/flavor_text.inc	Text_ATownMap	Une Carte.$
+data/text/flavor_text.inc	Text_PokeMartShelf	Ouah!\nPlein d'articles pour les Yo-kai!$
+data/text/flavor_text.inc	Text_DishesPlatesNeatlyLinedUp	La vaisselle est\nsoigneusement rangée.$
+data/text/flavor_text.inc	Text_Kitchen	Ça sent bon!\nQuelqu'un a cuisiné ici.$
+data/text/flavor_text.inc	Text_Dresser	Une belle commode\navec beaucoup de place.$
+data/text/flavor_text.inc	Text_Snacks	Il y a plein de friandises ici.$
+data/text/flavor_text.inc	Text_PokemartSign	Tout ce qu'il vous faut!\nBOUTIQUE YO-KAI$
+data/text/flavor_text.inc	Text_PokecenterSign	Pour soigner vos Yo-kai!\nCENTRE YO-KAI$
+data/text/flavor_text.inc	Text_Indigo_UltimateGoal	INDIGO PLATEAU\pLe but ultime des Dresseurs!\nSiège de la Ligue Yo-kai$
+data/text/flavor_text.inc	Text_Indigo_HighestAuthority	INDIGO PLATEAU\pLa plus haute autorité Yo-kai!\nSiège de la Ligue Yo-kai$
+data/text/flavor_text.inc	Text_Food	Il doit y avoir plein de\nbonnes choses à manger.$
+data/text/flavor_text.inc	Text_Blueprints	On dirait un plan.\nIl est couvert de schémas.$
+data/text/flavor_text.inc	Text_Painting	Une jolie peinture de Yo-kai.\nIl a l'air heureux.$
+data/text/flavor_text.inc	Text_PowerPlantMachine	Quelle drôle de machine…\nMieux vaut ne pas y toucher!$
+data/text/flavor_text.inc	Text_Telephone	Un téléphone.\nMieux vaut ne pas s'en servir.$
+data/text/flavor_text.inc	Text_Computer	Des mots compliqués et des\nchiffres incompréhensibles…$
+data/text/flavor_text.inc	Text_AdvertisingPoster	Une affiche publicitaire\npour toutes sortes de produits.$
+data/text/flavor_text.inc	Text_TastyFood	Oh, ça sent bon!\nDe quoi donner faim!$
+data/text/flavor_text.inc	Text_TrashBin	Là-dedans…\n……\pIl n'y a rien!$
+data/text/flavor_text.inc	Text_Cup	Une tasse décorée\nd'un motif de Yo-kai.$
+data/text/flavor_text.inc	Text_PolishedWindow	La vitre est très propre.$
+data/text/flavor_text.inc	Text_BeautifulSkyWindow	Par la fenêtre…\pLe ciel semble\nmagnifiquement beau.$
+data/text/flavor_text.inc	Text_BlinkingLights	Des lumières multicolores\nclignotent.$
+data/text/flavor_text.inc	Text_NeatlyLinedUpTools	Toutes sortes d'outils\nsont soigneusement rangés.$
+data/text/flavor_text.inc	Text_ImpressiveMachine	Quelle drôle de machine.\nElle est impressionnante.$
+data/text/flavor_text.inc	Text_VideoGame	Le dernier jeu vidéo!\nIl a l'air amusant!$
+data/text/flavor_text.inc	Text_Burglary	On voit clairement les traces\nd'un cambriolage…$
+data/text/flavor_text.inc	Text_PlayerFacingTVScreen	Un Yo-kai passe à la télé!\nIl a l'air de bien s'amuser.$
+data/text/ingame_trade.inc	Trade_Text_LookingForMonWannaTradeForMon	Je cherche un Yo-kai:\n{STR_VAR_1}!\pTu m'en échanges un\ncontre mon {STR_VAR_2}?$
+data/text/ingame_trade.inc	Trade_Text_AwwOhWell	Oooh!\nTant pis…$
+data/text/ingame_trade.inc	Trade_Text_WhatThatsNoMon	Quoi?\nCe n'est pas un {STR_VAR_1}!$
+data/text/ingame_trade.inc	Trade_Text_HeyThanks	Hé, merci!$
+data/text/ingame_trade.inc	Trade_Text_IsntMyOldMonGreat	Mon ancien {STR_VAR_2} est super,\nnon?$
+data/text/ingame_trade.inc	Trade_Text_DoYouHaveMonWouldYouTradeForMon	Bonjour! Tu n'aurais pas\nun {STR_VAR_1}?\pTu accepterais de l'échanger\ncontre mon {STR_VAR_2}?$
+data/text/ingame_trade.inc	Trade_Text_WellIfYouDontWantTo	Bon, si tu ne veux pas…$
+data/text/ingame_trade.inc	Trade_Text_ThisIsntMon	Hmm?\nCe n'est pas un {STR_VAR_1}.\pPense à moi si tu en trouves un.$
+data/text/ingame_trade.inc	Trade_Text_Thanks	Merci!$
+data/text/ingame_trade.inc	Trade_Text_HasTradedMonGrownStronger	Le {STR_VAR_2} que je t'ai donné\nest-il devenu plus fort?$
+data/text/ingame_trade.inc	Trade_Text_DoYouHaveMonWantToTradeForMon	Salut!\nTu as un {STR_VAR_1}?\pTu me l'échanges\ncontre mon {STR_VAR_2}?$
+data/text/ingame_trade.inc	Trade_Text_ThatsTooBad	C'est dommage.$
+data/text/ingame_trade.inc	Trade_Text_ThisIsNoMon	Ce n'est pas un {STR_VAR_1}.\pSi tu en trouves un, viens\nl'échanger avec moi.$
+data/text/ingame_trade.inc	Trade_Text_ThanksYoureAPal	Merci, tu es vraiment sympa!$
+data/text/ingame_trade.inc	Trade_Text_HowIsMyOldMon	Comment va mon ancien\n{STR_VAR_2}?\nMon {STR_VAR_1} est en pleine\lforme!$
+data/text/itemfinder.inc	Text_ItemfinderResponding	Oh! Le Cherch'Objet réagit!\pUn objet est enterré\njuste à tes pieds!\l… … …$
+data/text/itemfinder.inc	Text_DugUpItemFromGround	{PLAYER} déterre\n{STR_VAR_2}.$
+data/text/obtain_item.inc	Text_ObtainedTheX	Tu obtiens {STR_VAR_2}!$
+data/text/obtain_item.inc	Text_BagIsFull	Le Sac est plein…$
+data/text/obtain_item.inc	Text_PutItemAway	{PLAYER} range {STR_VAR_2}\ndans {STR_VAR_3}.$
+data/text/obtain_item.inc	Text_FoundOneItem	{PLAYER} trouve {STR_VAR_2}!$
+data/text/obtain_item.inc	Text_TooBadBagFull	Dommage!\nLe Sac est plein…$
+data/text/obtain_item.inc	Text_FoundXCoins	{PLAYER} trouve\n{STR_VAR_1} {STR_VAR_2}!$
+data/text/obtain_item.inc	Text_PutCoinsAwayInCoinCase	{PLAYER} range les Jetons\ndans la Boîte Jetons.$
+data/text/obtain_item.inc	Text_CoinCaseIsFull	Dommage!\nLa Boîte Jetons est pleine…$
+data/text/obtain_item.inc	Text_NothingToPutThemIn	Dommage!\nRien pour les ranger…$
+data/text/obtain_item.inc	Text_FoundXItems	{PLAYER} trouve\n{STR_VAR_1} {STR_VAR_2}!$
+data/text/obtain_item.inc	Text_ObtainedTheDecor	Tu obtiens {STR_VAR_2}!$
+data/text/obtain_item.inc	Text_NoRoomForAnotherDecor	Dommage! Plus de place\npour {STR_VAR_2}…$
+data/text/obtain_item.inc	Text_DecorTransferredToPC	{STR_VAR_2} est transféré\ndans le PC.$
+data/text/pc.inc	Text_BootedUpPC	{PLAYER} allume le PC.$
+data/text/pc.inc	Text_AccessWhichPC	À quel PC accéder?$
+data/text/pc.inc	Text_AccessedSomeonesPC	Connexion au PC de quelqu'un.$
+data/text/pc.inc	Text_OpenedPkmnStorage	Ouverture du stockage Yo-kai.$
+data/text/pc.inc	Text_AccessedPlayersPC	Connexion au PC de {PLAYER}.$
+data/text/pc.inc	Text_AccessedBillsPC	Connexion au PC de Léo.$
+data/text/pc_transfer.inc	Text_MonSentToBoxInSomeonesPC	{STR_VAR_2} est transféré\nau PC de quelqu'un.\pIl est placé dans\nla Boîte “{STR_VAR_1}”.$
+data/text/pc_transfer.inc	Text_MonSentToBoxInBillsPC	{STR_VAR_2} est transféré\nau PC de Léo.\pIl est placé dans\nla Boîte “{STR_VAR_1}”.$
+data/text/pc_transfer.inc	Text_MonSentToBoxSomeonesBoxFull	La Boîte “{STR_VAR_3}” du\nPC de quelqu'un est pleine.\p{STR_VAR_2} est transféré\ndans la Boîte “{STR_VAR_1}”.$
+data/text/pc_transfer.inc	Text_MonSentToBoxBillsBoxFull	La Boîte “{STR_VAR_3}” du\nPC de Léo est pleine.\p{STR_VAR_2} est transféré\ndans la Boîte “{STR_VAR_1}”.$
+data/text/pc_transfer.inc	Text_PlayerObtainedTheMon	{PLAYER} obtient\n{STR_VAR_1}!$
+data/text/pc_transfer.inc	Text_MonSentToBoxInPC	L'équipe étant complète,\n{STR_VAR_2} est transféré\ldans la Boîte “{STR_VAR_1}” du\lPC!$
+data/text/pc_transfer.inc	Text_NoMoreRoomForPokemon	Plus de place pour les Yo-kai!\pToutes les Boîtes sont pleines\net ne peuvent plus en accueillir!$
+data/text/poke_mart.inc	Text_MayIHelpYou	Bonjour!\nQue puis-je pour toi?$
+data/text/poke_mart.inc	Text_FillOutQuestionnaire	Voici un questionnaire.\nVeux-tu le remplir?$
+data/text/poke_mart.inc	Text_QuestionnaireThankYou	Merci d'avoir pris le temps\nde remplir notre questionnaire.\pTes réponses nous aideront\nà améliorer nos services.$
+data/text/poke_mart.inc	Text_YouKnowThoseWords	Oh, bonjour!\nTu connais ces mots?\pTu dois donc connaître\nle Cadeau Mystère.\pTu pourras désormais\nrecevoir des Cadeaux Mystère!$
+data/text/poke_mart.inc	Text_YouCanAccessMysteryGift	Après avoir sauvegardé,\ntu pourras accéder au Cadeau\lMystère.$
+data/text/poke_mart.inc	Text_ThankYouForAccessingMysteryGift	Merci d'utiliser\nle service Cadeau Mystère.$
+data/text/pokedex_rating.inc	PokedexRating_Text_HowIsPokedexComingAlong	CHEN: Ravi de te voir!\nComment avance ton Médallium?\pLaisse-moi regarder.$
+data/text/pokedex_rating.inc	PokedexRating_Text_SeenXOwnedY	Voici ta progression\ndans le Médallium:\p{STR_VAR_1} Yo-kai vus et\n{STR_VAR_2} Yo-kai capturés.\p{FONT_NORMAL}Évaluation du Professeur Chen:$
+data/text/pokedex_rating.inc	PokedexRating_Text_LessThan10	Tu as encore beaucoup à faire.\pExplore toutes les hautes herbes\npour découvrir des Yo-kai!$
+data/text/pokedex_rating.inc	PokedexRating_Text_LessThan20	Tu es sur la bonne voie!\pUn de mes assistants possède\nla CS Flash. Va la chercher!$
+data/text/pokedex_rating.inc	PokedexRating_Text_LessThan30	Ton Médallium mérite encore\nquelques pages de plus!\pEssaie de capturer\nd'autres espèces de Yo-kai!$
+data/text/pokedex_rating.inc	PokedexRating_Text_LessThan40	Bien! Tes efforts se voient!\pUn de mes assistants garde\nun Cherch'Objet pour toi.\lVa le chercher!$
+data/text/pokedex_rating.inc	PokedexRating_Text_LessThan50	Ton Médallium progresse bien!\pUn de mes assistants garde\nune Pièce Rune pour toi.\lN'oublie pas de la récupérer!$
+data/text/pokedex_rating.inc	PokedexRating_Text_LessThan60	Tu as dépassé les 50 espèces!\pUn assistant garde un Multi Exp.\npour toi. Le partage d'expérience\lreste déjà actif pour toute l'équipe.$
+data/text/pokedex_rating.inc	PokedexRating_Text_LessThan70	Hoho! Ton Médallium\ncommence à être impressionnant!$
+data/text/pokedex_rating.inc	PokedexRating_Text_LessThan80	Très bien!\pLa pêche devrait te permettre\nde trouver encore d'autres Yo-kai!$
+data/text/pokedex_rating.inc	PokedexRating_Text_LessThan90	Merveilleux! Je parie que\ntu adores les collections, non?$
+data/text/pokedex_rating.inc	PokedexRating_Text_LessThan100	Je suis impressionné!\nÇa n'a pas dû être facile!$
+data/text/pokedex_rating.inc	PokedexRating_Text_LessThan110	Enfin 100 espèces!\nTu as un talent incroyable!$
+data/text/pokedex_rating.inc	PokedexRating_Text_LessThan120	Tu possèdes même\nles formes évoluées! Bravo!$
+data/text/pokedex_rating.inc	PokedexRating_Text_LessThan130	Excellent! Continue d'explorer\npour découvrir d'autres Yo-kai!$
+data/text/pokedex_rating.inc	PokedexRating_Text_LessThan140	Formidable!\nTu es devenu un véritable expert!$
+data/text/pokedex_rating.inc	PokedexRating_Text_LessThan150	Je n'ai plus rien à t'apprendre!\nTu es un vrai professeur Yo-kai!$
+data/text/pokedex_rating.inc	PokedexRating_Text_Complete	Ton Médallium est complet!\nToutes mes félicitations!$
+data/text/pokedex_rating.inc	PokedexRating_Text_NationalDexSeenXOwnedY	Et dans le Médallium National:\p{STR_VAR_1} Yo-kai vus et\n{STR_VAR_2} Yo-kai capturés.$
+data/text/pokedex_rating.inc	PokedexRating_Text_LookForwardToFilledNationalDex	J'ai hâte de voir ton\nMédallium National complet!$
+data/text/pokedex_rating.inc	PokedexRating_Text_YouveCompletedDex	Enfin…\pTu as finalement complété\nle Médallium!\pC'est magnifique!\nQuel exploit extraordinaire!$
+data/text/pokedex_rating.inc	PokedexRating_Text_Wroooaaarrr	Ouaaaaaaaah!$
+data/text/pokedex_rating.inc	PokedexRating_Text_HaHa	Ha… Ha…$
+data/text/pokedex_rating.inc	PokedexRating_Text_ThankYouMadeDreamReality	Merci, {PLAYER}!\nMerci du fond du cœur!\lTu as réalisé mon rêve!$
+data/text/pokedex_rating.inc	PokedexRating_Text_LoveSeeingYourPokedex	CHEN: Ah, bienvenue!\pDis-moi, comment avance\nton Médallium?\pHahaha!\pJe le sais déjà, mais j'adore\nquand même le consulter!\pVoyons voir…$
+data/text/route23.inc	Text_OnlySkilledTrainersAllowedThrough	Seuls les Dresseurs\nexpérimentés peuvent passer.\pTu n'as pas encore\nle {STR_VAR_1}!$
+data/text/route23.inc	Text_CantLetYouPass	Le règlement est formel.\nJe ne peux pas te laisser passer.$
+data/text/route23.inc	Text_OhThatsBadgeGoRightAhead	Oh! C'est le {STR_VAR_1}!\nTu peux passer.$
+data/text/route23.inc	Text_OnlyPassWithBadgeDontHaveYet	Il faut le {STR_VAR_1}\npour passer.\pTu n'as pas encore\nle {STR_VAR_1}.\pIl te le faut pour atteindre\nla Ligue Yo-kai.$
+data/text/route23.inc	Text_OnlyPassWithBadgeOhGoAhead	Il faut le {STR_VAR_1}\npour passer.\pOh! C'est le {STR_VAR_1}!{PAUSE_MUSIC}{PLAY_BGM}{MUS_LEVEL_UP}{PAUSE 0x60}{RESUME_MUSIC}\pTrès bien.\nTu peux passer.$
+data/text/seagallop.inc	Text_WhereDoYouWantToGo	Bonjour!\nOù souhaites-tu aller?$
+data/text/seagallop.inc	Text_AllAboardSeagallopNum	Très bien!\nÀ bord du SEAGALLOP EXPRESS\l{STR_VAR_1}!$
+data/text/sign_lady.inc	PalletTown_Text_HmmIsThatRight	Hmm…\nC'est bien ça…$
+data/text/sign_lady.inc	PalletTown_Text_OhLookLook	Oh!\nRegarde, regarde!$
+data/text/sign_lady.inc	PalletTown_Text_ReadItReadIt	Lis ça, lis ça!$
+data/text/sign_lady.inc	PalletTown_Text_PressStartToOpenMenu	ASTUCE DRESSEUR\pAppuie sur START pour ouvrir le\nmenu!$
+data/text/sign_lady.inc	PalletTown_Text_SignsAreUsefulArentThey	Pratiques, ces panneaux, non?$
+data/text/sign_lady.inc	PalletTown_Text_LookCopiedTrainerTipsSign	Regarde un peu!\pJ'ai recopié une astuce\npour les Dresseurs!$
+data/text/sign_lady.inc	PalletTown_Text_PressStartToOpenMenuCopy	ASTUCE DRESSEUR!\pAppuie sur START pour ouvrir le\nmenu!$
+data/text/surf.inc	Text_WantToSurf	L'eau est d'un bleu profond…\nVeux-tu utiliser Surf?$
+data/text/surf.inc	Text_UsedSurf	{STR_VAR_1} utilise Surf!$
+data/text/surf.inc	Text_CurrentTooFast	Le courant est trop rapide!\nImpossible d'utiliser Surf ici…$
+data/text/white_out.inc	Text_FirstShouldRestoreMonsHealth	Commençons par remettre\ntes Yo-kai en pleine forme.$
+data/text/white_out.inc	Text_MonsHealedShouldBuyPotions	Tes Yo-kai sont\nen parfaite santé.\pQuand leurs PV baissent,\nviens nous voir.\pAvant de partir loin, achète\ndes Potions à la Boutique Yo-kai.\pBonne chance pour la suite!$
+data/text/white_out.inc	Text_MonsHealed	Tes Yo-kai sont\nen parfaite santé.\pBonne chance pour la suite!$
+data/text/white_out.inc	Text_HadQuiteAnExperienceTakeRest	MAMAN: {PLAYER}!\nBienvenue à la maison.\pTu as vécu une sacrée aventure,\non dirait.\pTu devrais te reposer\nun petit moment.$
+data/text/white_out.inc	Text_MomExplainHPGetPotions	MAMAN: Ah, tant mieux!\nVous avez bien meilleure mine.\pLe Professeur Chen vient\nde m'expliquer quelque chose.\pL'énergie des Yo-kai\nse mesure en PV.\pS'ils perdent leurs PV, fais-les\nsoigner dans un Centre Yo-kai.\pSi tu pars loin, pense à acheter\ndes Potions à la Boutique Yo-kai.\pRends-moi fière de toi!\pPrends soin de toi!$
+data/text/white_out.inc	Text_WhitedOutLostMoney	{PLAYER} n'a plus de Yo-kai\nen état de combattre!\p{PLAYER} panique et perd\n¥{STR_VAR_1}…\p… … … …\p{PLAYER} est hors jeu!$
+data/text/white_out.inc	Text_WhitedOut	{PLAYER} n'a plus de Yo-kai\nen état de combattre!\p{PLAYER} est hors jeu!$

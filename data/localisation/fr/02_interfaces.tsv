@@ -1,0 +1,219 @@
+src/strings.c	gTextJP_Options	OPTIONS
+src/strings.c	gText_MysteryGiftCantUse	Le Cadeau Mystère est indisponible\navec l'adaptateur sans fil.
+src/strings.c	gText_UpdatingSaveExternalData	Mise à jour de la sauvegarde…\nVeuillez patienter.
+src/strings.c	gText_SaveFileUpdated	La sauvegarde a été mise à jour!
+src/strings.c	gText_SaveFileUpdatedSwapBackup	Sauvegarde mise à jour!\pLa mémoire est pleine.\nRemplacez la mémoire de secours.\pPour plus d'informations,\ncontactez le service Nintendo.
+src/strings.c	gText_FailedUpdateSwapBackup	Échec de la mise à jour!\pRemplacez la mémoire de secours.\pPour plus d'informations,\ncontactez le service Nintendo.
+src/strings.c	gText_1MSubCircuitBoardNotInstalled	La mémoire de sauvegarde\nde 1 Mbit n'est pas installée.
+src/strings.c	gTextJP_InternalBatteryHasRunDry	La pile est épuisée.\nL'horloge ne fonctionne plus.\pLe jeu reste jouable, mais les\névénements horaires sont suspendus.
+src/strings.c	gText_PlayerUnused	JOUEUR
+src/strings.c	gText_PokedexUnused	MÉDALLIUM
+src/strings.c	gText_BadgesUnused	BADGES
+src/strings.c	gText_AButton	Bouton A
+src/strings.c	gText_BButton	Bouton B
+src/strings.c	gText_RButton	Bouton R
+src/strings.c	gText_LButton	Bouton L
+src/strings.c	gText_Start	Bouton START
+src/strings.c	gText_Select	Bouton SELECT
+src/strings.c	gText_ControlPad	Croix directionnelle
+src/strings.c	gText_LButtonRButton	Boutons L et R
+src/strings.c	gText_PickOk	{DPAD_UPDOWN}CHOIX {A_BUTTON}OK
+src/strings.c	gText_ABUTTONExit	{A_BUTTON}QUITTER
+src/strings.c	gText_Seen	Vus:
+src/strings.c	gText_Owned	Pris:
+src/strings.c	gText_Search	{COLOR DYNAMIC_COLOR6}{SHADOW DYNAMIC_COLOR5}RECHERCHE
+src/strings.c	gText_PokedexOther	{COLOR DYNAMIC_COLOR6}{SHADOW DYNAMIC_COLOR5}AUTRE
+src/strings.c	gTextJP_HowToUsePokedex	AIDE DU MÉDALLIUM
+src/strings.c	gTextJP_PokemonData	DONNÉES YO-KAI
+src/strings.c	gText_Cry	{START_BUTTON}CRI
+src/strings.c	gText_WelcomeToHOF	Bienvenue au Panthéon!
+src/strings.c	gText_HOFDexRating	Yo-kai vus: {STR_VAR_1}!\nYo-kai capturés: {STR_VAR_2}!\pVoici l'évaluation du\nProfesseur Chen!\pCHEN: Voyons voir…\p
+src/strings.c	gText_HOFDexSaving	Sauvegarde en cours…\nNe pas éteindre la console.
+src/strings.c	gText_HOFCorrupted	Les données du Panthéon\nsont endommagées.
+src/strings.c	gText_HOFNumber	PANTHÉON Nº {STR_VAR_1}
+src/strings.c	gText_LeagueChamp	CHAMPION DE LA LIGUE!\nFÉLICITATIONS!
+src/strings.c	gText_BirchInTrouble	{HIGHLIGHT DYNAMIC_COLOR6}{COLOR WHITE}Le professeur est en danger!\nEnvoie un Yo-kai pour l'aider!
+src/strings.c	gText_ConfirmStarterChoice	{HIGHLIGHT DYNAMIC_COLOR6}{COLOR WHITE}Choisir ce Yo-kai?
+src/strings.c	gText_Pokemon4	Yo-kai
+src/strings.c	gText_SaveError_PleaseExchangeBackupMemory	Erreur de sauvegarde.\pVeuillez remplacer\nla mémoire de secours.
+src/strings.c	gText_FlyToWhere	Vers quelle destination voler?
+src/strings.c	gMenuText_Confirm	VALIDER
+src/strings.c	gText_Cancel7	RETOUR
+src/strings.c	gText_GoBackToThePreviousMenu	Retour au\nmenu précédent.
+src/strings.c	gText_WhatWouldYouLikeToDo	Que veux-tu faire?
+src/strings.c	gText_MenuPokenav	NAVIGATEUR
+src/strings.c	gText_Coins	{STR_VAR_1} JETONS
+src/strings.c	gText_Var1IsSelected	{STR_VAR_1}\nest sélectionné.
+src/strings.c	gText_CantWriteMailHere	Impossible d'écrire\nune Lettre ici.
+src/strings.c	gOtherText_WhereShouldTheStrVar1BePlaced	Où faut-il ranger\n{STR_VAR_1}?
+src/strings.c	gText_ItemCantBeHeld	{STR_VAR_1} ne peut être tenu.
+src/strings.c	gText_TheStrVar1CantBeHeldHere	{STR_VAR_1} ne peut être tenu\nici.
+src/strings.c	gText_DepositHowManyStrVars1	Combien de\n{STR_VAR_1} déposer?
+src/strings.c	gText_DepositedStrVar2StrVar1s	Dépôt de {STR_VAR_2}\n{STR_VAR_1}.
+src/strings.c	gText_NoRoomToStoreItems	Plus de place pour\nstocker des objets.
+src/strings.c	gText_TossOutHowManyStrVar1s	Combien de\n{STR_VAR_1} jeter?
+src/strings.c	gText_ThrewAwayStrVar2StrVar1s	{STR_VAR_2}\n{STR_VAR_1} jeté(s).
+src/strings.c	gText_ThrowAwayStrVar2OfThisItemQM	Jeter {STR_VAR_2} exemplaires\nde cet objet?
+src/strings.c	gText_OakForbidsUseOfItemHere	CHEN: {PLAYER}!\nCe n'est pas le moment!{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_CantDismountBike	Impossible de descendre du Vélo ici.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_ItemfinderResponding	Hein?\nLe Cherch'Objet réagit!\pUn objet est enterré tout près!{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_ItemfinderShakingWildly	Oh!\nLe Cherch'Objet s'agite!\pUn objet est enterré à tes pieds!\p… … … … … …{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_NopeTheresNoResponse	… … … … Non!\nAucune réaction.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_CoinCase	Tes Jetons:\n{STR_VAR_1}{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_BootedUpTM	La CT est activée!
+src/strings.c	gText_BootedUpHM	La CS est activée!
+src/strings.c	gText_TMHMContainedVar1	Elle contient\n{STR_VAR_1}!\pApprendre {STR_VAR_1}\nà un Yo-kai?
+src/strings.c	gText_PlayerUsedVar2	{PLAYER} utilise\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_RepelEffectsLingered	Mais un Repousse\nfait encore effet.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_UsedVar2WildLured	{PLAYER} utilise\n{STR_VAR_2}.\pLes Yo-kai sauvages seront attirés.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_UsedVar2WildRepelled	{PLAYER} utilise\n{STR_VAR_2}.\pLes Yo-kai sauvages seront repoussés.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_BoxFull	La Boîte est pleine.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PowderQty	POUDRE: {STR_VAR_1}{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PlayedPokeFluteCatchy	Tu joues de la Poké Flûte.\pQuel air entraînant!{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PlayedPokeFlute	Tu joues de la Poké Flûte.
+src/strings.c	gText_PokeFluteAwakenedMon	La Poké Flûte réveille\nles Yo-kai endormis.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_TMCaseWillBePutAway	La Boîte CT\nva être rangée.
+src/strings.c	gText_TheBerryPouchWillBePutAway	Le Sac à Baies\nva être rangé.
+src/strings.c	gText_InBagVar1	DANS LE SAC:{FONT_SMALL} {STR_VAR_1}
+src/strings.c	gText_QuitShopping	Terminer les achats.
+src/strings.c	gText_Var1CertainlyHowMany	{STR_VAR_1}? Bien sûr.\nCombien en veux-tu?
+src/strings.c	gText_Var1AndYouWantedVar2	{STR_VAR_2} × {STR_VAR_1}.\nCela fera ¥{STR_VAR_3}. D’accord?
+src/strings.c	gText_Var1IsItThatllBeVar2	{STR_VAR_1}?\nCela fera ¥{STR_VAR_2}. D'accord?
+src/strings.c	gText_YouWantedVar1ThatllBeVar2	{STR_VAR_1}?\nCela fera ¥{STR_VAR_2}. D'accord?
+src/strings.c	gText_HereYouGoThankYou	Et voilà!\nMerci!
+src/strings.c	gText_ThankYouIllSendItHome	Merci beaucoup!\nJe l'envoie au PC de ta maison!
+src/strings.c	gText_ThanksIllSendItHome	Merci!\nJe l'envoie au PC de ta maison!
+src/strings.c	gText_YouDontHaveMoney	Tu n'as pas assez d'argent.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_NoMoreRoomForThis	Tu n'as plus de place\npour cet objet.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_SpaceForVar1Full	Plus de place\npour {STR_VAR_1}.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_AnythingElseICanHelp	Autre chose?
+src/strings.c	gText_CanIHelpWithAnythingElse	Puis-je encore\nt'aider?
+src/strings.c	gText_ThrowInPremierBall	Une Honor Ball offerte\nen supplément!{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_OhNoICantBuyThat	{STR_VAR_1}? Désolé.\nJe ne peux pas acheter ça.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_HowManyWouldYouLikeToSell	{STR_VAR_1}?\nCombien veux-tu en vendre?
+src/strings.c	gText_ICanPayThisMuch_WouldThatBeOkay	Je peux offrir ¥{STR_VAR_3}.\nCela te convient?
+src/strings.c	gText_TurnedOverItemsWorthYen	Vente de {STR_VAR_1}\npour ¥{STR_VAR_3}.
+src/strings.c	gText_Moves	CAPACITÉS
+src/strings.c	gText_WontHaveEffect	Cela n'aura aucun effet.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_CantBeUsedOnPkmn	Impossible à utiliser\nsur ce Yo-kai.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PkmnCantSwitchOut	{STR_VAR_1}\nne peut être remplacé!{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PkmnAlreadyInBattle	{STR_VAR_1}\nest déjà au combat!{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PkmnAlreadySelected	{STR_VAR_1}\nest déjà sélectionné.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PkmnHasNoEnergy	{STR_VAR_1} est trop épuisé\npour combattre!{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_CantSwitchWithAlly	Impossible d'échanger un Yo-kai\nde {STR_VAR_1} avec le tien!{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_EggCantBattle	Un Œuf ne peut pas combattre!{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_CantUseUntilNewBadge	Il faut un nouveau Badge\npour utiliser cela.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_NoMoreThanThreeMayEnter	Trois Yo-kai au maximum\npeuvent participer.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_NoMoreThanTwoMayEnter	Deux Yo-kai au maximum\npeuvent participer.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_SendMailToPC	Envoyer la Lettre retirée\nà ton PC?
+src/strings.c	gText_MailSentToPC	La Lettre est envoyée au PC.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PCMailboxFull	La Boîte Lettres du PC est pleine.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_MailMessageWillBeLost	Retirer la Lettre effacera\nson message. D'accord?
+src/strings.c	gText_RemoveMailBeforeItem	Retire la Lettre avant\nde donner un objet.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PkmnWasGivenItem	{STR_VAR_1} reçoit\n{STR_VAR_2} à tenir.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PkmnAlreadyHoldingItemSwitch	{STR_VAR_1} tient déjà\n{STR_VAR_2}.\pVeux-tu échanger\nles deux objets?
+src/strings.c	gText_PkmnNotHolding	{STR_VAR_1}\nne tient rien.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_ReceivedItemFromPkmn	Tu récupères {STR_VAR_2}\nde {STR_VAR_1}.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_MailTakenFromPkmn	La Lettre du Yo-kai\na été retirée.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_SwitchedPkmnItem	{STR_VAR_2} est remplacé\npar {STR_VAR_1}.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PkmnHoldingItemCantHoldMail	Ce Yo-kai tient un objet.\nIl ne peut tenir de Lettre.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_MailTransferredFromMailbox	La Lettre est retirée\nde la Boîte Lettres.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_BagFullCouldNotRemoveItem	{STR_VAR_1} est plein. Impossible\nde retirer l'objet du Yo-kai.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PkmnLearnedMove3	{STR_VAR_1} apprend\n{STR_VAR_2}!
+src/strings.c	gText_PkmnCantLearnMove	{STR_VAR_1} et {STR_VAR_2}\nne sont pas compatibles.\p{STR_VAR_2} ne peut pas\nêtre appris.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PkmnNeedsToReplaceMove	{STR_VAR_1} veut apprendre\n{STR_VAR_2}.\pMais {STR_VAR_1} connaît\ndéjà quatre capacités.\pOublier une capacité\npour apprendre {STR_VAR_2}?
+src/strings.c	gText_StopLearningMove2	Ne pas apprendre\n{STR_VAR_2}?
+src/strings.c	gText_MoveNotLearned	{STR_VAR_1} n'apprend pas\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_WhichMoveToForget	Quelle capacité oublier?{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_12PoofForgotMove	1, {PAUSE 0x0F}2, et{PAUSE 0x0F}… {PAUSE 0x0F}… {PAUSE 0x0F}… {PAUSE 0x0F}{PLAY_SE SE_BALL_BOUNCE_1}Pouf!\p{STR_VAR_1} oublie\n{STR_VAR_2}.\pEt…{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PkmnAlreadyKnows	{STR_VAR_1} connaît déjà\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PkmnHPRestoredByVar2	{STR_VAR_1} récupère\n{STR_VAR_2} PV.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PkmnCuredOfPoison	{STR_VAR_1}\nn'est plus empoisonné.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PkmnCuredOfParalysis	{STR_VAR_1}\nn'est plus paralysé.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PkmnWokeUp2	{STR_VAR_1} se réveille.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PkmnBurnHealed	{STR_VAR_1} n'est plus brûlé.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PkmnThawedOut	{STR_VAR_1} est dégelé.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PPWasRestored	Les PP sont restaurés.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PkmnRegainhedHealth	{STR_VAR_1}\nretrouve la santé!{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PkmnBecameHealthy	{STR_VAR_1} retrouve la santé.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_MovesPPIncreased	Les PP de {STR_VAR_1} augmentent.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PkmnElevatedToLvVar2	{STR_VAR_1} monte\nau niveau {STR_VAR_2}.
+src/strings.c	gText_PkmnBaseVar2StatIncreased	{STR_VAR_2} de base de\n{STR_VAR_1} augmente.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PkmnSnappedOutOfConfusion	{STR_VAR_1}\nn'est plus confus.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_PkmnGotOverInfatuation	{STR_VAR_1}\nn'est plus amoureux.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_OnlyPkmnForBattle	C'est ton seul Yo-kai\nen état de combattre.
+src/strings.c	gText_PkmnCantBeTradedNow	Ce Yo-kai ne peut pas\nêtre échangé maintenant.
+src/strings.c	gText_EggCantBeTradedNow	Cet Œuf ne peut être échangé.
+src/strings.c	gText_OtherTrainersPkmnCantBeTraded	Le Yo-kai de l'autre Dresseur\nne peut pas être échangé.
+src/strings.c	gText_OtherTrainerCantAcceptPkmn	L'autre Dresseur ne peut pas\nrecevoir ce Yo-kai maintenant.
+src/strings.c	gText_CantTradeWithTrainer	Impossible d'échanger avec\nce Dresseur pour le moment.
+src/strings.c	gText_NotPkmnOtherTrainerWants	Ce n'est pas le Yo-kai\nque veut l'autre Dresseur.
+src/strings.c	gText_ThatIsntAnEgg	Ce n'est pas un Œuf.
+src/strings.c	gText_MoveToWhere	Déplacer où?
+src/strings.c	gText_TeachWhichPokemon	Enseigner à quel Yo-kai?
+src/strings.c	gText_DoWhatWithPokemon	Que faire de ce {PKMN}?
+src/strings.c	gText_NothingToCut	Rien à couper ici.
+src/strings.c	gText_CantSurfHere	Impossible de surfer ici!
+src/strings.c	gText_AlreadySurfing	Tu es déjà en train de surfer.
+src/strings.c	gText_CantUseHere	Impossible à utiliser ici.
+src/strings.c	gText_RestoreWhichMove	Quelle capacité restaurer?
+src/strings.c	gText_BoostPp	Quels PP augmenter?
+src/strings.c	gText_DoWhatWithItem	Que faire de cet objet?
+src/strings.c	gText_NoPokemonForBattle	Impossible de combattre ainsi!
+src/strings.c	gText_NotEnoughHp	Pas assez de PV…
+src/strings.c	gText_ThreePkmnAreNeeded	Il faut trois {PKMN}.
+src/strings.c	gText_PokemonCantBeSame	Les {PKMN} doivent être différents.
+src/strings.c	gText_NoIdenticalHoldItems	Pas d'objets tenus identiques!
+src/strings.c	gText_CurrentIsTooFast	Le courant est trop rapide!
+src/strings.c	gText_DoWhatWithMail	Que faire de la Lettre?
+src/strings.c	gText_TwoPokemonAreNeeded	Il faut deux Yo-kai.
+src/strings.c	gText_EnjoyCycling	Bonne balade à Vélo!
+src/strings.c	gText_InUseAlready_PM	Déjà en cours d'utilisation.
+src/strings.c	gText_NoUse	Inutile.
+src/strings.c	gText_OakImportantToGetToKnowPokemonThroughly	CHEN: Il faut bien connaître\nles Yo-kai de ton équipe.\p
+src/strings.c	gText_OakThisIsListOfPokemon	Voici la liste de tes Yo-kai,\n{PLAYER}.\pTu peux consulter leurs stats\net leurs capacités ici.\pC'est aussi ici que tu choisis\nle Yo-kai qui recevra un objet.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_CutATreeOrGrass	Coupe un arbuste ou de l'herbe.
+src/strings.c	gText_FlyToAKnownTown	Vole vers une ville connue.
+src/strings.c	gText_TravelOnWater	Permet de traverser l'eau.
+src/strings.c	gText_MoveHeavyBoulders	Déplace de lourds rochers.
+src/strings.c	gText_LightUpDarkness	Éclaire les endroits sombres.
+src/strings.c	gText_ShatterACrackedRock	Brise un rocher fissuré.
+src/strings.c	gText_ClimbAWaterfall	Permet de remonter une cascade.
+src/strings.c	gText_DiveUnderwater	Permet de plonger sous l'eau.
+src/strings.c	gText_EscapeFromHere	Permet de sortir d'ici.
+src/strings.c	gText_LureWildPokemon	Attire les Yo-kai sauvages.
+src/strings.c	gText_ShareHp	Partage des PV.
+src/strings.c	gText_ReturnToAHealingSpot	Retour au dernier lieu de soins.
+src/strings.c	gText_EscapeFromHereAndReturnTo	Sortir d'ici pour retourner\nà {STR_VAR_1}?
+src/strings.c	gText_ReturnToHealingSpot	Retour au dernier lieu de soins\nà {STR_VAR_1}?
+src/strings.c	gText_ItemEffect_SpAtk_Unused	ATQ. SPÉ.
+src/strings.c	gText_ItemEffect_SpDef_Unused	DÉF. SPÉ.
+src/strings.c	gText_PkmnCantParticipate	Ce Yo-kai ne peut pas participer.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_Decoration	DÉCORATION
+src/strings.c	gText_TossItem	JETER OBJET
+src/strings.c	gText_StoreItemsInThePC	Dépose des objets dans le PC.
+src/strings.c	gText_TakeOutItemsFromThePC	Retire des objets du PC.
+src/strings.c	gText_ThrowAwayItemsInPC	Jette les objets\nstockés dans le PC.
+src/strings.c	gText_ThereAreNoItems	Il n'y a aucun objet.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_NoMoreRoomInBag	Il n'y a plus de\nplace dans le Sac.
+src/strings.c	gText_WithdrawHowMany	Combien de\n{STR_VAR_1} retirer?
+src/strings.c	gText_WithdrewQuantItem	Retrait de {STR_VAR_2}\n{STR_VAR_1}.
+src/strings.c	gText_TheresNoMailHere	Il n'y a pas de Lettre.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_WhatWouldYouLikeToDoWithPlayersMail	Que faire de la Lettre\nde {STR_VAR_1}?
+src/strings.c	gText_MessageWillBeLost	Le message sera effacé.\nD'accord?
+src/strings.c	gText_BagIsFull	Le Sac est plein.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_MailReturnedToBagMessageErased	La Lettre est rangée dans le Sac.\nSon message a été effacé.{PAUSE_UNTIL_PRESS}
+src/strings.c	gText_WithdrawItem	RETIRER\nOBJET
+src/strings.c	gText_ReturnToPC	Retour au PC.
+src/strings.c	gText_Participate	PARTICIPER
+src/strings.c	gText_SawIt	Déjà vu
+src/strings.c	gText_NotYet	Pas encore
+src/strings.c	gText_Info4	INFOS
+src/strings.c	gText_MakeAChallenge	Lancer un défi.
+src/strings.c	gText_BattleTower	TOUR DE COMBAT
+src/strings.c	gText_QuitLooking	Arrêter de regarder.
+src/strings.c	gText_ListenToExplanation	Écouter les explications.
+src/strings.c	gText_99TimesPlus	99 fois ou plus
+src/strings.c	gText_1MinutePlus	1 min ou plus
+src/strings.c	gText_SpaceSeconds	 secondes
+src/strings.c	gText_SpaceTimes	 fois

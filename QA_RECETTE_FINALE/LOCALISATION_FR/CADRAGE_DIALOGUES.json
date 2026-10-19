@@ -1,0 +1,181 @@
+{
+  "max_normal_font_pixels": 208,
+  "dynamic_names": "Player7; mon10+enemy prefix; item14; move12; ability13; generic variables14 wide W glyphs",
+  "scope": "Translated standard battle dialogue and selected ASM dialogue only; fixed menu layouts excluded",
+  "changed": [
+    {
+      "file": "src/battle_message.c",
+      "symbol": "sText_PlayerPanicked",
+      "before": "{B_PLAYER_NAME} panique et perd ¥{B_BUFF1}…\\p… … … …\\p{B_PLAYER_NAME} est hors jeu!{PAUSE_UNTIL_PRESS}",
+      "after": "{B_PLAYER_NAME} panique et perd\\n¥{B_BUFF1}…\\p… … … …\\p{B_PLAYER_NAME} est hors jeu!{PAUSE_UNTIL_PRESS}"
+    },
+    {
+      "file": "src/battle_message.c",
+      "symbol": "sText_PkmnReducedPP",
+      "before": "{B_DEF_NAME_WITH_PREFIX} perd {B_BUFF2} PP\\npour {B_BUFF1}!",
+      "after": "{B_DEF_NAME_WITH_PREFIX} perd\\n{B_BUFF2} PP\\npour {B_BUFF1}!"
+    },
+    {
+      "file": "src/battle_message.c",
+      "symbol": "sText_PkmnStoleItem",
+      "before": "{B_ATK_NAME_WITH_PREFIX} vole\\n{B_LAST_ITEM} de {B_DEF_NAME_WITH_PREFIX}!",
+      "after": "{B_ATK_NAME_WITH_PREFIX} vole\\n{B_LAST_ITEM} de\\l{B_DEF_NAME_WITH_PREFIX}!"
+    },
+    {
+      "file": "src/battle_message.c",
+      "symbol": "sText_PkmnPerishCountFell",
+      "before": "Le compte à rebours de\\n{B_ATK_NAME_WITH_PREFIX} passe à {B_BUFF1}!",
+      "after": "Le compte à rebours de\\n{B_ATK_NAME_WITH_PREFIX} passe à\\l{B_BUFF1}!"
+    },
+    {
+      "file": "src/battle_message.c",
+      "symbol": "sText_PkmnGotFree",
+      "before": "{B_ATK_NAME_WITH_PREFIX} se libère de\\n{B_BUFF1} de {B_DEF_NAME_WITH_PREFIX}!",
+      "after": "{B_ATK_NAME_WITH_PREFIX} se libère de\\n{B_BUFF1} de\\l{B_DEF_NAME_WITH_PREFIX}!"
+    },
+    {
+      "file": "src/battle_message.c",
+      "symbol": "sText_PkmnKnockedOff",
+      "before": "{B_ATK_NAME_WITH_PREFIX} fait tomber\\n{B_LAST_ITEM} de {B_DEF_NAME_WITH_PREFIX}!",
+      "after": "{B_ATK_NAME_WITH_PREFIX} fait tomber\\n{B_LAST_ITEM} de\\l{B_DEF_NAME_WITH_PREFIX}!"
+    },
+    {
+      "file": "src/battle_message.c",
+      "symbol": "sText_PkmnRaisedSpeed",
+      "before": "{B_SCR_ACTIVE_ABILITY} de\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} augmente sa Vitesse!",
+      "after": "{B_SCR_ACTIVE_ABILITY} de\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} augmente sa\\lVitesse!"
+    },
+    {
+      "file": "src/battle_message.c",
+      "symbol": "sText_PkmnPreventsParalysisWith",
+      "before": "{B_DEF_ABILITY} de\\n{B_EFF_NAME_WITH_PREFIX} empêche la paralysie!",
+      "after": "{B_DEF_ABILITY} de\\n{B_EFF_NAME_WITH_PREFIX} empêche la\\lparalysie!"
+    },
+    {
+      "file": "src/battle_message.c",
+      "symbol": "sText_PkmnPreventsConfusionWith",
+      "before": "{B_DEF_ABILITY} de\\n{B_DEF_NAME_WITH_PREFIX} empêche la confusion!",
+      "after": "{B_DEF_ABILITY} de\\n{B_DEF_NAME_WITH_PREFIX} empêche la\\lconfusion!"
+    },
+    {
+      "file": "src/battle_message.c",
+      "symbol": "sText_PkmnCutsAttackWith",
+      "before": "{B_SCR_ACTIVE_ABILITY} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\\nbaisse l'Attaque de {B_DEF_NAME_WITH_PREFIX}!",
+      "after": "{B_SCR_ACTIVE_ABILITY} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\\nbaisse l'Attaque de\\l{B_DEF_NAME_WITH_PREFIX}!"
+    },
+    {
+      "file": "src/battle_message.c",
+      "symbol": "sText_PkmnsXPreventsBurns",
+      "before": "{B_EFF_ABILITY} de\\n{B_EFF_NAME_WITH_PREFIX} empêche les brûlures!",
+      "after": "{B_EFF_ABILITY} de\\n{B_EFF_NAME_WITH_PREFIX} empêche les\\lbrûlures!"
+    },
+    {
+      "file": "src/battle_message.c",
+      "symbol": "sText_PkmnsXBlocksY",
+      "before": "{B_DEF_ABILITY} de\\n{B_DEF_NAME_WITH_PREFIX} bloque {B_CURRENT_MOVE}!",
+      "after": "{B_DEF_ABILITY} de\\n{B_DEF_NAME_WITH_PREFIX} bloque\\l{B_CURRENT_MOVE}!"
+    },
+    {
+      "file": "src/battle_message.c",
+      "symbol": "sText_PkmnsXBlocksY2",
+      "before": "{B_SCR_ACTIVE_ABILITY} de\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} bloque {B_CURRENT_MOVE}!",
+      "after": "{B_SCR_ACTIVE_ABILITY} de\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} bloque\\l{B_CURRENT_MOVE}!"
+    },
+    {
+      "file": "src/battle_message.c",
+      "symbol": "sText_PkmnsXRestoredHPALittle2",
+      "before": "{B_ATK_ABILITY} de\\n{B_ATK_NAME_WITH_PREFIX} lui rend quelques PV!",
+      "after": "{B_ATK_ABILITY} de\\n{B_ATK_NAME_WITH_PREFIX} lui rend quelques\\lPV!"
+    },
+    {
+      "file": "src/battle_message.c",
+      "symbol": "sText_PkmnsXPreventsYLoss",
+      "before": "{B_SCR_ACTIVE_ABILITY} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\\nempêche la baisse de {B_BUFF1}!",
+      "after": "{B_SCR_ACTIVE_ABILITY} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\\nempêche la baisse de\\l{B_BUFF1}!"
+    },
+    {
+      "file": "src/battle_message.c",
+      "symbol": "sText_PkmnsXCuredYProblem",
+      "before": "{B_SCR_ACTIVE_ABILITY} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\\nsoigne son problème de {B_BUFF1}!",
+      "after": "{B_SCR_ACTIVE_ABILITY} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\\nsoigne son problème de\\l{B_BUFF1}!"
+    },
+    {
+      "file": "src/battle_message.c",
+      "symbol": "sText_PkmnsXCuredItsYProblem",
+      "before": "{B_SCR_ACTIVE_ABILITY} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\\nsoigne son problème de {B_BUFF1}!",
+      "after": "{B_SCR_ACTIVE_ABILITY} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\\nsoigne son problème de\\l{B_BUFF1}!"
+    },
+    {
+      "file": "src/battle_message.c",
+      "symbol": "sText_UsingItemTheStatOfPkmnRose",
+      "before": "Avec {B_LAST_ITEM}, {B_BUFF1}\\nde {B_SCR_ACTIVE_NAME_WITH_PREFIX} {B_BUFF2}",
+      "after": "Avec {B_LAST_ITEM},\\n{B_BUFF1}\\nde {B_SCR_ACTIVE_NAME_WITH_PREFIX} {B_BUFF2}"
+    },
+    {
+      "file": "src/battle_message.c",
+      "symbol": "sText_PkmnsItemCuredParalysis",
+      "before": "{B_LAST_ITEM} de\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} soigne sa paralysie!",
+      "after": "{B_LAST_ITEM} de\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} soigne sa\\lparalysie!"
+    },
+    {
+      "file": "src/battle_message.c",
+      "symbol": "sText_PkmnsItemSnappedOut",
+      "before": "{B_LAST_ITEM} de\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} dissipe sa confusion!",
+      "after": "{B_LAST_ITEM} de\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} dissipe sa\\lconfusion!"
+    },
+    {
+      "file": "src/battle_message.c",
+      "symbol": "sText_PkmnsItemCuredProblem",
+      "before": "{B_LAST_ITEM} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\\nsoigne son problème de {B_BUFF1}!",
+      "after": "{B_LAST_ITEM} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\\nsoigne son problème de\\l{B_BUFF1}!"
+    },
+    {
+      "file": "data/text/ingame_trade.inc",
+      "symbol": "Trade_Text_IsntMyOldMonGreat",
+      "before": "Mon ancien {STR_VAR_2} est super, non?$",
+      "after": "Mon ancien {STR_VAR_2} est super,\\nnon?$"
+    },
+    {
+      "file": "data/text/ingame_trade.inc",
+      "symbol": "Trade_Text_HowIsMyOldMon",
+      "before": "Comment va mon ancien {STR_VAR_2}?\\nMon {STR_VAR_1} est en pleine forme!$",
+      "after": "Comment va mon ancien\\n{STR_VAR_2}?\\nMon {STR_VAR_1} est en pleine\\lforme!$"
+    },
+    {
+      "file": "data/text/pc_transfer.inc",
+      "symbol": "Text_MonSentToBoxInPC",
+      "before": "L'équipe étant complète,\\n{STR_VAR_2} est transféré\\ldans la Boîte “{STR_VAR_1}” du PC!$",
+      "after": "L'équipe étant complète,\\n{STR_VAR_2} est transféré\\ldans la Boîte “{STR_VAR_1}” du\\lPC!$"
+    },
+    {
+      "file": "data/text/poke_mart.inc",
+      "symbol": "Text_YouCanAccessMysteryGift",
+      "before": "Après avoir sauvegardé,\\ntu pourras accéder au Cadeau Mystère.$",
+      "after": "Après avoir sauvegardé,\\ntu pourras accéder au Cadeau\\lMystère.$"
+    },
+    {
+      "file": "data/text/seagallop.inc",
+      "symbol": "Text_AllAboardSeagallopNum",
+      "before": "Très bien!\\nÀ bord du SEAGALLOP EXPRESS {STR_VAR_1}!$",
+      "after": "Très bien!\\nÀ bord du SEAGALLOP EXPRESS\\l{STR_VAR_1}!$"
+    },
+    {
+      "file": "data/text/sign_lady.inc",
+      "symbol": "PalletTown_Text_PressStartToOpenMenu",
+      "before": "ASTUCE DRESSEUR\\pAppuie sur START pour ouvrir le menu!$",
+      "after": "ASTUCE DRESSEUR\\pAppuie sur START pour ouvrir le\\nmenu!$"
+    },
+    {
+      "file": "data/text/sign_lady.inc",
+      "symbol": "PalletTown_Text_PressStartToOpenMenuCopy",
+      "before": "ASTUCE DRESSEUR!\\pAppuie sur START pour ouvrir le menu!$",
+      "after": "ASTUCE DRESSEUR!\\pAppuie sur START pour ouvrir le\\nmenu!$"
+    },
+    {
+      "file": "data/text/white_out.inc",
+      "symbol": "Text_WhitedOutLostMoney",
+      "before": "{PLAYER} n'a plus de Yo-kai\\nen état de combattre!\\p{PLAYER} panique et perd ¥{STR_VAR_1}…\\p… … … …\\p{PLAYER} est hors jeu!$",
+      "after": "{PLAYER} n'a plus de Yo-kai\\nen état de combattre!\\p{PLAYER} panique et perd\\n¥{STR_VAR_1}…\\p… … … …\\p{PLAYER} est hors jeu!$"
+    }
+  ]
+}

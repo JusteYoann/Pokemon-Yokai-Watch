@@ -1,53 +1,20 @@
 Text_FirstShouldRestoreMonsHealth::
-	.string "First, you should restore your\n"
-	.string "Yo-kai to full health.$"
+    .string "Commençons par remettre\ntes Yo-kai en pleine forme.$"
 
 Text_MonsHealedShouldBuyPotions::
-	.string "Your Yo-kai have been healed\n"
-	.string "to perfect health.\p"
-	.string "If your Yo-kai's energy, HP,\n"
-	.string "is down, please come see us.\p"
-	.string "If you're planning to go far in the\n"
-	.string "field, you should buy some POTIONS\l"
-	.string "at the Yo-kai MART.\p"
-	.string "We hope you excel!$"
+    .string "Tes Yo-kai sont\nen parfaite santé.\pQuand leurs PV baissent,\nviens nous voir.\pAvant de partir loin, achète\ndes Potions à la Boutique Yo-kai.\pBonne chance pour la suite!$"
 
 Text_MonsHealed::
-	.string "Your Yo-kai have been healed\n"
-	.string "to perfect health.\p"
-	.string "We hope you excel!$"
+    .string "Tes Yo-kai sont\nen parfaite santé.\pBonne chance pour la suite!$"
 
 Text_HadQuiteAnExperienceTakeRest::
-	.string "MOM: {PLAYER}!\n"
-	.string "Welcome home.\p"
-	.string "It sounds like you had quite\n"
-	.string "an experience.\p"
-	.string "Maybe you should take a quick\n"
-	.string "rest.$"
+    .string "MAMAN: {PLAYER}!\nBienvenue à la maison.\pTu as vécu une sacrée aventure,\non dirait.\pTu devrais te reposer\nun petit moment.$"
 
 Text_MomExplainHPGetPotions::
-	.string "MOM: Oh, good! You and your\n"
-	.string "Yo-kai are looking great.\p"
-	.string "I just heard from PROF. OAK.\p"
-	.string "He said that Yo-kai's energy is\n"
-	.string "measured in HP.\p"
-	.string "If your Yo-kai lose their HP,\n"
-	.string "you can restore them at any\l"
-	.string "Centre Yo-kai.\p"
-	.string "If you're going to travel far away,\n"
-	.string "the smart TRAINER stocks up on\l"
-	.string "POTIONS at the Yo-kai MART.\p"
-	.string "Make me proud, honey!\p"
-	.string "Take care!$"
+    .string "MAMAN: Ah, tant mieux!\nVous avez bien meilleure mine.\pLe Professeur Chen vient\nde m'expliquer quelque chose.\pL'énergie des Yo-kai\nse mesure en PV.\pS'ils perdent leurs PV, fais-les\nsoigner dans un Centre Yo-kai.\pSi tu pars loin, pense à acheter\ndes Potions à la Boutique Yo-kai.\pRends-moi fière de toi!\pPrends soin de toi!$"
 
 Text_WhitedOutLostMoney::
-	.string "{PLAYER} is out of usable\n"
-	.string "Yo-kai!\p"
-	.string "{PLAYER} panicked and lost ¥{STR_VAR_1}…\p"
-	.string "… … … …\p"
-	.string "{PLAYER} whited out!$"
+    .string "{PLAYER} n'a plus de Yo-kai\nen état de combattre!\p{PLAYER} panique et perd\n¥{STR_VAR_1}…\p… … … …\p{PLAYER} est hors jeu!$"
 
 Text_WhitedOut::
-	.string "{PLAYER} is out of usable\n"
-	.string "Yo-kai!\p"
-	.string "{PLAYER} whited out!$"
+    .string "{PLAYER} n'a plus de Yo-kai\nen état de combattre!\p{PLAYER} est hors jeu!$"

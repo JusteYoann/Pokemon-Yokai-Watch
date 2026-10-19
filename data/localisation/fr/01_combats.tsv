@@ -1,0 +1,465 @@
+src/battle_message.c	sText_Trainer1RecallPkmn1	{B_TRAINER1_NAME}: {B_OPPONENT_MON1_NAME}, reviens!
+src/battle_message.c	sText_Trainer1RecallPkmn2	{B_TRAINER1_NAME}: {B_OPPONENT_MON2_NAME}, reviens!
+src/battle_message.c	sText_Trainer1RecallBoth	{B_TRAINER1_NAME}: {B_OPPONENT_MON1_NAME} et\n{B_OPPONENT_MON2_NAME}, revenez!
+src/battle_message.c	sText_AvoidedDamage	{B_DEF_NAME_WITH_PREFIX} évite les dégâts\ngrâce à {B_DEF_ABILITY}!
+src/battle_message.c	sText_PkmnMakesGroundMiss	{B_DEF_NAME_WITH_PREFIX} évite le Sol\ngrâce à {B_DEF_ABILITY}!
+src/battle_message.c	sText_PkmnAvoidedAttack	{B_DEF_NAME_WITH_PREFIX}\névite l'attaque!
+src/battle_message.c	sText_PlayerPanicked	{B_PLAYER_NAME} panique et perd\n¥{B_BUFF1}…\p… … … …\p{B_PLAYER_NAME} est hors jeu!{PAUSE_UNTIL_PRESS}
+src/battle_message.c	sText_PlayerWhiteoutAgainstTrainer	{B_PLAYER_NAME} n'a plus de\nYo-kai en état de combattre!\pDéfaite face à\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!{PAUSE_UNTIL_PRESS}
+src/battle_message.c	sText_PlayerPaidAsPrizeMoney	{B_PLAYER_NAME} verse ¥{B_BUFF1}\nà son adversaire…\p… … … …\p{B_PLAYER_NAME} est hors jeu!{PAUSE_UNTIL_PRESS}
+src/battle_message.c	sText_PlayerWhiteout2	{B_PLAYER_NAME} est hors jeu!{PAUSE_UNTIL_PRESS}
+src/battle_message.c	sText_PreventsEscape	{B_SCR_ACTIVE_NAME_WITH_PREFIX} empêche la fuite\navec {B_SCR_ACTIVE_ABILITY}!\p
+src/battle_message.c	sText_CantEscape2	Fuite impossible!\p
+src/battle_message.c	sText_AttackerCantEscape	{B_ATK_NAME_WITH_PREFIX}\nne peut pas fuir!
+src/battle_message.c	sText_HitXTimes	Touché {B_BUFF1} fois!
+src/battle_message.c	sText_PkmnFellAsleep	{B_EFF_NAME_WITH_PREFIX}\ns'endort!
+src/battle_message.c	sText_PkmnMadeSleep	{B_SCR_ACTIVE_ABILITY} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nendort {B_EFF_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_PkmnAlreadyAsleep	{B_DEF_NAME_WITH_PREFIX}\ndort déjà!
+src/battle_message.c	sText_PkmnAlreadyAsleep2	{B_ATK_NAME_WITH_PREFIX}\ndort déjà!
+src/battle_message.c	sText_PkmnWasntAffected	{B_DEF_NAME_WITH_PREFIX}\nn'est pas affecté!
+src/battle_message.c	sText_PkmnWasPoisoned	{B_EFF_NAME_WITH_PREFIX}\nest empoisonné!
+src/battle_message.c	sText_PkmnPoisonedBy	{B_SCR_ACTIVE_ABILITY} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nempoisonne {B_EFF_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_PkmnHurtByPoison	{B_ATK_NAME_WITH_PREFIX}\nsouffre du poison!
+src/battle_message.c	sText_PkmnAlreadyPoisoned	{B_DEF_NAME_WITH_PREFIX}\nest déjà empoisonné.
+src/battle_message.c	sText_PkmnBadlyPoisoned	{B_EFF_NAME_WITH_PREFIX}\nest gravement empoisonné!
+src/battle_message.c	sText_PkmnEnergyDrained	L'énergie de\n{B_DEF_NAME_WITH_PREFIX} est drainée!
+src/battle_message.c	sText_PkmnWasBurned	{B_EFF_NAME_WITH_PREFIX}\nest brûlé!
+src/battle_message.c	sText_PkmnBurnedBy	{B_SCR_ACTIVE_ABILITY} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nbrûle {B_EFF_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_PkmnHurtByBurn	{B_ATK_NAME_WITH_PREFIX}\nsouffre de sa brûlure!
+src/battle_message.c	sText_PkmnAlreadyHasBurn	{B_DEF_NAME_WITH_PREFIX}\nest déjà brûlé.
+src/battle_message.c	sText_PkmnWasFrozen	{B_EFF_NAME_WITH_PREFIX}\nest gelé!
+src/battle_message.c	sText_PkmnFrozenBy	{B_SCR_ACTIVE_ABILITY} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\ngèle {B_EFF_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_PkmnIsFrozen	{B_ATK_NAME_WITH_PREFIX}\nest gelé!
+src/battle_message.c	sText_PkmnWasDefrosted	{B_DEF_NAME_WITH_PREFIX}\nest dégelé!
+src/battle_message.c	sText_PkmnWasDefrosted2	{B_ATK_NAME_WITH_PREFIX}\nest dégelé!
+src/battle_message.c	sText_PkmnWasDefrostedBy	{B_ATK_NAME_WITH_PREFIX} dégèle\ngrâce à {B_CURRENT_MOVE}!
+src/battle_message.c	sText_PkmnWasParalyzed	{B_EFF_NAME_WITH_PREFIX} est paralysé!\nIl risque de ne pas attaquer!
+src/battle_message.c	sText_PkmnWasParalyzedBy	{B_SCR_ACTIVE_ABILITY} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nparalyse {B_EFF_NAME_WITH_PREFIX}!\lIl risque de ne pas attaquer!
+src/battle_message.c	sText_PkmnIsParalyzed	{B_ATK_NAME_WITH_PREFIX} est paralysé!\nIl ne peut pas attaquer!
+src/battle_message.c	sText_PkmnIsAlreadyParalyzed	{B_DEF_NAME_WITH_PREFIX}\nest déjà paralysé!
+src/battle_message.c	sText_PkmnHealedParalysis	{B_DEF_NAME_WITH_PREFIX}\nn'est plus paralysé!
+src/battle_message.c	sText_PkmnDreamEaten	Le rêve de\n{B_DEF_NAME_WITH_PREFIX} est dévoré!
+src/battle_message.c	sText_StatsWontIncrease	{B_BUFF1} de {B_ATK_NAME_WITH_PREFIX}\nne peut plus augmenter!
+src/battle_message.c	sText_StatsWontDecrease	{B_BUFF1} de {B_DEF_NAME_WITH_PREFIX}\nne peut plus baisser!
+src/battle_message.c	sText_TeamStoppedWorking	L'effet de {B_BUFF1}\ncesse dans ton équipe!
+src/battle_message.c	sText_FoeStoppedWorking	L'effet de {B_BUFF1}\ncesse chez l'adversaire!
+src/battle_message.c	sText_PkmnIsConfused	{B_ATK_NAME_WITH_PREFIX}\nest confus!
+src/battle_message.c	sText_PkmnHealedConfusion	{B_ATK_NAME_WITH_PREFIX}\nn'est plus confus!
+src/battle_message.c	sText_PkmnWasConfused	{B_EFF_NAME_WITH_PREFIX}\ndevient confus!
+src/battle_message.c	sText_PkmnAlreadyConfused	{B_DEF_NAME_WITH_PREFIX}\nest déjà confus!
+src/battle_message.c	sText_PkmnFellInLove	{B_DEF_NAME_WITH_PREFIX}\ntombe amoureux!
+src/battle_message.c	sText_PkmnInLove	{B_ATK_NAME_WITH_PREFIX} est amoureux\nde {B_SCR_ACTIVE_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_PkmnImmobilizedByLove	{B_ATK_NAME_WITH_PREFIX}\nest paralysé par l'amour!
+src/battle_message.c	sText_PkmnBlownAway	{B_DEF_NAME_WITH_PREFIX}\nest emporté!
+src/battle_message.c	sText_PkmnChangedType	{B_ATK_NAME_WITH_PREFIX}\nprend le type {B_BUFF1}!
+src/battle_message.c	sText_PkmnFlinched	{B_ATK_NAME_WITH_PREFIX}\na peur et ne peut pas attaquer!
+src/battle_message.c	sText_PkmnRegainedHealth	{B_DEF_NAME_WITH_PREFIX}\nrécupère des PV!
+src/battle_message.c	sText_PkmnHPFull	Les PV de\n{B_DEF_NAME_WITH_PREFIX} sont au maximum!
+src/battle_message.c	sText_PkmnRaisedSpDef	{B_CURRENT_MOVE} de {B_ATK_PREFIX2}\naugmente la Défense Spéciale!
+src/battle_message.c	sText_PkmnRaisedSpDefALittle	{B_CURRENT_MOVE} de {B_ATK_PREFIX2}\naugmente un peu la Déf. Spé.!
+src/battle_message.c	sText_PkmnRaisedDef	{B_CURRENT_MOVE} de {B_ATK_PREFIX2}\naugmente la Défense!
+src/battle_message.c	sText_PkmnRaisedDefALittle	{B_CURRENT_MOVE} de {B_ATK_PREFIX2}\naugmente un peu la Défense!
+src/battle_message.c	sText_PkmnCoveredByVeil	Un voile protège\nl'équipe de {B_ATK_PREFIX2}!
+src/battle_message.c	sText_PkmnUsedSafeguard	Rune Protect protège\nl'équipe de {B_DEF_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_PkmnSafeguardExpired	Rune Protect ne protège plus\nl'équipe de {B_ATK_PREFIX3}!
+src/battle_message.c	sText_PkmnWentToSleep	{B_ATK_NAME_WITH_PREFIX}\ns'endort!
+src/battle_message.c	sText_PkmnSleptHealthy	{B_ATK_NAME_WITH_PREFIX}\nretrouve la santé en dormant!
+src/battle_message.c	sText_PkmnWhippedWhirlwind	{B_ATK_NAME_WITH_PREFIX}\nsoulève un tourbillon!
+src/battle_message.c	sText_PkmnTookSunlight	{B_ATK_NAME_WITH_PREFIX}\nabsorbe la lumière!
+src/battle_message.c	sText_PkmnLoweredHead	{B_ATK_NAME_WITH_PREFIX}\nbaisse la tête!
+src/battle_message.c	sText_PkmnIsGlowing	{B_ATK_NAME_WITH_PREFIX} rayonne!
+src/battle_message.c	sText_PkmnFlewHigh	{B_ATK_NAME_WITH_PREFIX}\ns'envole!
+src/battle_message.c	sText_PkmnDugHole	{B_ATK_NAME_WITH_PREFIX} creuse un trou!
+src/battle_message.c	sText_PkmnHidUnderwater	{B_ATK_NAME_WITH_PREFIX}\nplonge sous l'eau!
+src/battle_message.c	sText_PkmnSprangUp	{B_ATK_NAME_WITH_PREFIX} bondit!
+src/battle_message.c	sText_PkmnSqueezedByBind	{B_DEF_NAME_WITH_PREFIX} subit\nl'Étreinte de {B_ATK_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_PkmnTrappedInVortex	{B_DEF_NAME_WITH_PREFIX}\nest pris dans le tourbillon!
+src/battle_message.c	sText_PkmnTrappedBySandTomb	{B_DEF_NAME_WITH_PREFIX}\nest pris dans Tourbi-Sable!
+src/battle_message.c	sText_PkmnWrappedBy	{B_DEF_NAME_WITH_PREFIX} subit\nle Ligotage de {B_ATK_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_PkmnClamped	{B_ATK_NAME_WITH_PREFIX} piège\n{B_DEF_NAME_WITH_PREFIX} avec Claquoir!
+src/battle_message.c	sText_PkmnHurtBy	{B_ATK_NAME_WITH_PREFIX}\nsubit {B_BUFF1}!
+src/battle_message.c	sText_PkmnFreedFrom	{B_ATK_NAME_WITH_PREFIX}\nse libère de {B_BUFF1}!
+src/battle_message.c	sText_PkmnCrashed	{B_ATK_NAME_WITH_PREFIX}\ns'écrase au sol!
+src/battle_message.c	gBattleText_MistShroud	{B_ATK_PREFIX2}\ns'entoure de Brume!
+src/battle_message.c	sText_PkmnProtectedByMist	Brume protège\n{B_SCR_ACTIVE_NAME_WITH_PREFIX}!
+src/battle_message.c	gBattleText_GetPumped	{B_ATK_NAME_WITH_PREFIX}\nse concentre!
+src/battle_message.c	sText_PkmnHitWithRecoil	{B_ATK_NAME_WITH_PREFIX}\nsubit le contrecoup!
+src/battle_message.c	sText_PkmnProtectedItself2	{B_ATK_NAME_WITH_PREFIX}\nse protège!
+src/battle_message.c	sText_PkmnBuffetedBySandstorm	{B_ATK_NAME_WITH_PREFIX}\nsubit la tempête de sable!
+src/battle_message.c	sText_PkmnPeltedByHail	{B_ATK_NAME_WITH_PREFIX}\nsubit la grêle!
+src/battle_message.c	sText_PkmnsXWoreOff	L'effet de {B_BUFF1}\ncesse pour {B_ATK_PREFIX1}!
+src/battle_message.c	sText_PkmnSeeded	{B_DEF_NAME_WITH_PREFIX}\nest infecté par Vampigraine!
+src/battle_message.c	sText_PkmnEvadedAttack	{B_DEF_NAME_WITH_PREFIX}\névite l'attaque!
+src/battle_message.c	sText_PkmnSappedByLeechSeed	Vampigraine draine\nles PV de {B_ATK_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_PkmnFastAsleep	{B_ATK_NAME_WITH_PREFIX}\ndort profondément.
+src/battle_message.c	sText_PkmnWokeUp	{B_ATK_NAME_WITH_PREFIX} se réveille!
+src/battle_message.c	sText_PkmnUproarKeptAwake	Le Brouhaha de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nl'empêche de dormir!
+src/battle_message.c	sText_PkmnWokeUpInUproar	{B_ATK_NAME_WITH_PREFIX}\nse réveille dans le Brouhaha!
+src/battle_message.c	sText_PkmnCausedUproar	{B_ATK_NAME_WITH_PREFIX}\nprovoque un Brouhaha!
+src/battle_message.c	sText_PkmnMakingUproar	{B_ATK_NAME_WITH_PREFIX}\nfait un Brouhaha!
+src/battle_message.c	sText_PkmnCalmedDown	{B_ATK_NAME_WITH_PREFIX} se calme.
+src/battle_message.c	sText_PkmnCantSleepInUproar	{B_DEF_NAME_WITH_PREFIX}\nne peut dormir dans ce Brouhaha!
+src/battle_message.c	sText_PkmnStockpiled	{B_ATK_NAME_WITH_PREFIX}\nstocke {B_BUFF1} fois!
+src/battle_message.c	sText_PkmnCantStockpile	{B_ATK_NAME_WITH_PREFIX}\nne peut plus stocker!
+src/battle_message.c	sText_PkmnCantSleepInUproar2	{B_DEF_NAME_WITH_PREFIX}\nne peut dormir dans ce Brouhaha!
+src/battle_message.c	sText_UproarKeptPkmnAwake	Le Brouhaha empêche\n{B_DEF_NAME_WITH_PREFIX} de dormir!
+src/battle_message.c	sText_PkmnStayedAwakeUsing	{B_DEF_NAME_WITH_PREFIX} reste éveillé\ngrâce à {B_DEF_ABILITY}!
+src/battle_message.c	sText_PkmnStoringEnergy	{B_ATK_NAME_WITH_PREFIX}\naccumule de l'énergie!
+src/battle_message.c	sText_PkmnUnleashedEnergy	{B_ATK_NAME_WITH_PREFIX}\nlibère son énergie!
+src/battle_message.c	sText_PkmnFatigueConfusion	{B_ATK_NAME_WITH_PREFIX}\nest confus de fatigue!
+src/battle_message.c	sText_PkmnPickedUpItem	{B_PLAYER_NAME} ramasse\n¥{B_BUFF1}!\p
+src/battle_message.c	sText_PkmnUnaffected	{B_DEF_NAME_WITH_PREFIX}\nn'est pas affecté!
+src/battle_message.c	sText_PkmnTransformedInto	{B_ATK_NAME_WITH_PREFIX}\nse transforme en {B_BUFF1}!
+src/battle_message.c	sText_PkmnMadeSubstitute	{B_ATK_NAME_WITH_PREFIX}\ncrée un clone!
+src/battle_message.c	sText_PkmnHasSubstitute	{B_ATK_NAME_WITH_PREFIX}\na déjà un clone!
+src/battle_message.c	sText_SubstituteDamaged	Le clone subit les dégâts\nà la place de {B_DEF_NAME_WITH_PREFIX}!\p
+src/battle_message.c	sText_PkmnSubstituteFaded	Le clone de\n{B_DEF_NAME_WITH_PREFIX} disparaît!\p
+src/battle_message.c	sText_PkmnMustRecharge	{B_ATK_NAME_WITH_PREFIX}\ndoit se reposer!
+src/battle_message.c	sText_PkmnRageBuilding	La Frénésie de\n{B_DEF_NAME_WITH_PREFIX} augmente!
+src/battle_message.c	sText_PkmnMoveWasDisabled	{B_BUFF1} de\n{B_DEF_NAME_WITH_PREFIX} est entravé!
+src/battle_message.c	sText_PkmnMoveDisabledNoMore	{B_ATK_NAME_WITH_PREFIX}\nn'est plus entravé!
+src/battle_message.c	sText_PkmnGotEncore	{B_DEF_NAME_WITH_PREFIX}\nsubit Encore!
+src/battle_message.c	sText_PkmnEncoreEnded	L'effet d'Encore cesse\npour {B_ATK_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_PkmnTookAim	{B_ATK_NAME_WITH_PREFIX}\nvise {B_DEF_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_PkmnSketchedMove	{B_ATK_NAME_WITH_PREFIX}\ngribouille {B_BUFF1}!
+src/battle_message.c	sText_PkmnTryingToTakeFoe	{B_ATK_NAME_WITH_PREFIX} veut entraîner\nson adversaire dans sa chute!
+src/battle_message.c	sText_PkmnTookFoe	{B_DEF_NAME_WITH_PREFIX} entraîne\n{B_ATK_NAME_WITH_PREFIX} dans sa chute!
+src/battle_message.c	sText_PkmnReducedPP	{B_DEF_NAME_WITH_PREFIX} perd\n{B_BUFF2} PP\npour {B_BUFF1}!
+src/battle_message.c	sText_PkmnStoleItem	{B_ATK_NAME_WITH_PREFIX} vole\n{B_LAST_ITEM} de\l{B_DEF_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_TargetCantEscapeNow	{B_DEF_NAME_WITH_PREFIX}\nne peut plus fuir!
+src/battle_message.c	sText_PkmnFellIntoNightmare	{B_DEF_NAME_WITH_PREFIX}\nsubit un Cauchemar!
+src/battle_message.c	sText_PkmnLockedInNightmare	{B_ATK_NAME_WITH_PREFIX}\nest prisonnier du Cauchemar!
+src/battle_message.c	sText_PkmnLaidCurse	{B_ATK_NAME_WITH_PREFIX} sacrifie des PV\net maudit {B_DEF_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_PkmnAfflictedByCurse	{B_ATK_NAME_WITH_PREFIX}\nsubit la Malédiction!
+src/battle_message.c	sText_SpikesScattered	Des Picots sont éparpillés\ndans le camp adverse!
+src/battle_message.c	sText_PkmnHurtBySpikes	{B_SCR_ACTIVE_NAME_WITH_PREFIX}\nsubit les Picots!
+src/battle_message.c	sText_PkmnIdentified	{B_ATK_NAME_WITH_PREFIX}\nidentifie {B_DEF_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_PkmnPerishCountFell	Le compte à rebours de\n{B_ATK_NAME_WITH_PREFIX} passe à\l{B_BUFF1}!
+src/battle_message.c	sText_PkmnBracedItself	{B_ATK_NAME_WITH_PREFIX}\nse prépare à tenir bon!
+src/battle_message.c	sText_PkmnEnduredHit	{B_DEF_NAME_WITH_PREFIX}\nendure l'attaque!
+src/battle_message.c	sText_MagnitudeStrength	Ampleur {B_BUFF1}!
+src/battle_message.c	sText_PkmnCutHPMaxedAttack	{B_ATK_NAME_WITH_PREFIX} sacrifie des PV\net maximise son Attaque!
+src/battle_message.c	sText_PkmnCopiedStatChanges	{B_ATK_NAME_WITH_PREFIX} copie les\nchangements de {B_DEF_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_PkmnGotFree	{B_ATK_NAME_WITH_PREFIX} se libère de\n{B_BUFF1} de\l{B_DEF_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_PkmnShedLeechSeed	{B_ATK_NAME_WITH_PREFIX}\nélimine Vampigraine!
+src/battle_message.c	sText_PkmnBlewAwaySpikes	{B_ATK_NAME_WITH_PREFIX}\nbalaie les Picots!
+src/battle_message.c	sText_PkmnFledFromBattle	{B_ATK_NAME_WITH_PREFIX}\nfuit le combat!
+src/battle_message.c	sText_PkmnForesawAttack	{B_ATK_NAME_WITH_PREFIX}\nprévoit une attaque!
+src/battle_message.c	sText_PkmnTookAttack	{B_DEF_NAME_WITH_PREFIX}\nsubit {B_BUFF1}!
+src/battle_message.c	sText_PkmnChoseXAsDestiny	{B_ATK_NAME_WITH_PREFIX}\nchoisit {B_CURRENT_MOVE} comme destin!
+src/battle_message.c	sText_PkmnAttack	Attaque de {B_BUFF1}!
+src/battle_message.c	sText_PkmnCenterAttention	{B_ATK_NAME_WITH_PREFIX}\nattire l'attention!
+src/battle_message.c	sText_PkmnChargingPower	{B_ATK_NAME_WITH_PREFIX}\nse charge d'énergie!
+src/battle_message.c	sText_NaturePowerTurnedInto	Force Nature devient\n{B_CURRENT_MOVE}!
+src/battle_message.c	sText_PkmnStatusNormal	L'état de\n{B_ATK_NAME_WITH_PREFIX} redevient normal!
+src/battle_message.c	sText_PkmnSubjectedToTorment	{B_DEF_NAME_WITH_PREFIX}\nsubit Tourmente!
+src/battle_message.c	sText_PkmnTighteningFocus	{B_ATK_NAME_WITH_PREFIX}\nse concentre!
+src/battle_message.c	sText_PkmnFellForTaunt	{B_DEF_NAME_WITH_PREFIX}\nsubit la Provoc!
+src/battle_message.c	sText_PkmnReadyToHelp	{B_ATK_NAME_WITH_PREFIX} est prêt\nà aider {B_DEF_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_PkmnSwitchedItems	{B_ATK_NAME_WITH_PREFIX} échange\nson objet avec l'adversaire!
+src/battle_message.c	sText_PkmnObtainedX	{B_ATK_NAME_WITH_PREFIX} obtient\n{B_BUFF1}.
+src/battle_message.c	sText_PkmnObtainedX2	{B_DEF_NAME_WITH_PREFIX} obtient\n{B_BUFF2}.
+src/battle_message.c	sText_PkmnObtainedXYObtainedZ	{B_ATK_NAME_WITH_PREFIX} obtient\n{B_BUFF1}.\p{B_DEF_NAME_WITH_PREFIX} obtient\n{B_BUFF2}.
+src/battle_message.c	sText_PkmnCopiedFoe	{B_ATK_NAME_WITH_PREFIX} copie\n{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_PkmnMadeWish	{B_ATK_NAME_WITH_PREFIX}\nfait un Vœu!
+src/battle_message.c	sText_PkmnWishCameTrue	Le Vœu de\n{B_BUFF1} se réalise!
+src/battle_message.c	sText_PkmnPlantedRoots	{B_ATK_NAME_WITH_PREFIX}\nplante ses racines!
+src/battle_message.c	sText_PkmnAbsorbedNutrients	{B_ATK_NAME_WITH_PREFIX}\nabsorbe des nutriments!
+src/battle_message.c	sText_PkmnAnchoredItself	{B_DEF_NAME_WITH_PREFIX}\ns'ancre avec ses racines!
+src/battle_message.c	sText_PkmnWasMadeDrowsy	{B_ATK_NAME_WITH_PREFIX}\nfait somnoler {B_DEF_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_PkmnKnockedOff	{B_ATK_NAME_WITH_PREFIX} fait tomber\n{B_LAST_ITEM} de\l{B_DEF_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_PkmnSwappedAbilities	{B_ATK_NAME_WITH_PREFIX} échange\nson talent avec l'adversaire!
+src/battle_message.c	sText_PkmnSealedOpponentMove	{B_ATK_NAME_WITH_PREFIX} scelle\nles capacités adverses!
+src/battle_message.c	sText_PkmnWantsGrudge	{B_ATK_NAME_WITH_PREFIX} veut que\nl'adversaire subisse sa Rancune!
+src/battle_message.c	sText_PkmnLostPPGrudge	{B_BUFF1} de {B_ATK_NAME_WITH_PREFIX}\nperd tous ses PP par Rancune!
+src/battle_message.c	sText_PkmnShroudedItself	{B_ATK_NAME_WITH_PREFIX}\ns'entoure de {B_CURRENT_MOVE}!
+src/battle_message.c	sText_PkmnMoveBounced	{B_CURRENT_MOVE} de {B_ATK_NAME_WITH_PREFIX}\nest renvoyé par Reflet Magik!
+src/battle_message.c	sText_PkmnWaitsForTarget	{B_ATK_NAME_WITH_PREFIX} attend\nque l'adversaire agisse!
+src/battle_message.c	sText_PkmnSnatchedMove	{B_DEF_NAME_WITH_PREFIX} saisit\nla capacité de {B_SCR_ACTIVE_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_ElectricityWeakened	La puissance électrique\ns'affaiblit!
+src/battle_message.c	sText_FireWeakened	La puissance du Feu\ns'affaiblit!
+src/battle_message.c	sText_XFoundOneY	{B_ATK_NAME_WITH_PREFIX} trouve\n{B_LAST_ITEM}!
+src/battle_message.c	sText_SoothingAroma	Un doux parfum se répand\nsur le terrain!
+src/battle_message.c	sText_ItemsCantBeUsedNow	Objets inutilisables ici.{PAUSE 64}
+src/battle_message.c	sText_ForXCommaYZ	Pour {B_SCR_ACTIVE_NAME_WITH_PREFIX},\n{B_LAST_ITEM} {B_BUFF1}
+src/battle_message.c	sText_PkmnUsedXToGetPumped	{B_SCR_ACTIVE_NAME_WITH_PREFIX}\nse motive avec {B_LAST_ITEM}!
+src/battle_message.c	sText_PkmnLostFocus	{B_ATK_NAME_WITH_PREFIX} perd sa\nconcentration et n'attaque pas!
+src/battle_message.c	sText_PkmnWasDraggedOut	{B_DEF_NAME_WITH_PREFIX}\nest traîné au combat!\p
+src/battle_message.c	sText_TheWallShattered	Le mur vole en éclats!
+src/battle_message.c	sText_ButNoEffect	Mais cela n'a aucun effet!
+src/battle_message.c	sText_PkmnHasNoMovesLeft	{B_ACTIVE_NAME_WITH_PREFIX}\nn'a plus de capacités!\p
+src/battle_message.c	sText_PkmnMoveIsDisabled	{B_CURRENT_MOVE} de\n{B_ACTIVE_NAME_WITH_PREFIX} est entravé!\p
+src/battle_message.c	sText_PkmnCantUseMoveTorment	{B_ACTIVE_NAME_WITH_PREFIX} ne peut répéter\nsa capacité à cause de Tourmente!\p
+src/battle_message.c	sText_PkmnCantUseMoveTaunt	{B_ACTIVE_NAME_WITH_PREFIX} ne peut lancer\n{B_CURRENT_MOVE} après Provoc!\p
+src/battle_message.c	sText_PkmnCantUseMoveSealed	{B_ACTIVE_NAME_WITH_PREFIX} ne peut lancer\n{B_CURRENT_MOVE}, qui est scellé!\p
+src/battle_message.c	sText_PkmnMadeItRain	{B_SCR_ACTIVE_ABILITY} de\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} fait pleuvoir!
+src/battle_message.c	sText_PkmnRaisedSpeed	{B_SCR_ACTIVE_ABILITY} de\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} augmente sa\lVitesse!
+src/battle_message.c	sText_PkmnProtectedBy	{B_DEF_NAME_WITH_PREFIX} est protégé\npar {B_DEF_ABILITY}!
+src/battle_message.c	sText_PkmnPreventsUsage	{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX}\nempêche {B_ATK_NAME_WITH_PREFIX}\lde lancer {B_CURRENT_MOVE}!
+src/battle_message.c	sText_PkmnRestoredHPUsing	{B_DEF_NAME_WITH_PREFIX} regagne des PV\navec {B_DEF_ABILITY}!
+src/battle_message.c	sText_PkmnsXMadeYUseless	{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX}\nrend {B_CURRENT_MOVE} inutile!
+src/battle_message.c	sText_PkmnChangedTypeWith	{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX}\nlui donne le type {B_BUFF1}!
+src/battle_message.c	sText_PkmnPreventsParalysisWith	{B_DEF_ABILITY} de\n{B_EFF_NAME_WITH_PREFIX} empêche la\lparalysie!
+src/battle_message.c	sText_PkmnPreventsRomanceWith	{B_DEF_ABILITY} de\n{B_DEF_NAME_WITH_PREFIX} empêche l'amour!
+src/battle_message.c	sText_PkmnPreventsPoisoningWith	{B_DEF_ABILITY} de\n{B_EFF_NAME_WITH_PREFIX} empêche le poison!
+src/battle_message.c	sText_PkmnPreventsConfusionWith	{B_DEF_ABILITY} de\n{B_DEF_NAME_WITH_PREFIX} empêche la\lconfusion!
+src/battle_message.c	sText_PkmnRaisedFirePowerWith	{B_DEF_ABILITY} de\n{B_DEF_NAME_WITH_PREFIX} renforce son Feu!
+src/battle_message.c	sText_PkmnAnchorsItselfWith	{B_DEF_NAME_WITH_PREFIX} s'ancre\navec {B_DEF_ABILITY}!
+src/battle_message.c	sText_PkmnCutsAttackWith	{B_SCR_ACTIVE_ABILITY} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nbaisse l'Attaque de\l{B_DEF_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_PkmnPreventsStatLossWith	{B_SCR_ACTIVE_ABILITY} de\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} protège ses stats!
+src/battle_message.c	sText_PkmnHurtsWith	{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX}\nblesse {B_ATK_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_PkmnTraced	{B_SCR_ACTIVE_NAME_WITH_PREFIX} calque\n{B_BUFF2} de {B_BUFF1}!
+src/battle_message.c	sText_PkmnsXPreventsBurns	{B_EFF_ABILITY} de\n{B_EFF_NAME_WITH_PREFIX} empêche les\lbrûlures!
+src/battle_message.c	sText_PkmnsXBlocksY	{B_DEF_ABILITY} de\n{B_DEF_NAME_WITH_PREFIX} bloque\l{B_CURRENT_MOVE}!
+src/battle_message.c	sText_PkmnsXBlocksY2	{B_SCR_ACTIVE_ABILITY} de\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} bloque\l{B_CURRENT_MOVE}!
+src/battle_message.c	sText_PkmnsXRestoredHPALittle2	{B_ATK_ABILITY} de\n{B_ATK_NAME_WITH_PREFIX} lui rend quelques\lPV!
+src/battle_message.c	sText_PkmnsXWhippedUpSandstorm	{B_SCR_ACTIVE_ABILITY} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nlève une tempête de sable!
+src/battle_message.c	sText_PkmnsXIntensifiedSun	{B_SCR_ACTIVE_ABILITY} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nrenforce les rayons du soleil!
+src/battle_message.c	sText_PkmnsXPreventsYLoss	{B_SCR_ACTIVE_ABILITY} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nempêche la baisse de\l{B_BUFF1}!
+src/battle_message.c	sText_PkmnsXInfatuatedY	{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX}\nrend {B_ATK_NAME_WITH_PREFIX} amoureux!
+src/battle_message.c	sText_PkmnsXMadeYIneffective	{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX}\nrend {B_CURRENT_MOVE} inefficace!
+src/battle_message.c	sText_PkmnsXCuredYProblem	{B_SCR_ACTIVE_ABILITY} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nsoigne son problème de\l{B_BUFF1}!
+src/battle_message.c	sText_ItSuckedLiquidOoze	Il absorbe du\nSuintement!
+src/battle_message.c	sText_PkmnTransformed	{B_SCR_ACTIVE_NAME_WITH_PREFIX} se transforme!
+src/battle_message.c	sText_PkmnsXTookAttack	{B_DEF_ABILITY} de\n{B_DEF_NAME_WITH_PREFIX} absorbe l'attaque!
+src/battle_message.c	gText_PkmnsXPreventsSwitching	{B_LAST_ABILITY} de\n{B_BUFF1} empêche de changer!\p
+src/battle_message.c	sText_PreventedFromWorking	{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX}\nempêche {B_BUFF1} de\l{B_SCR_ACTIVE_NAME_WITH_PREFIX} d'agir!
+src/battle_message.c	sText_PkmnsXMadeItIneffective	{B_SCR_ACTIVE_ABILITY} de\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} annule l'effet!
+src/battle_message.c	sText_PkmnsXPreventsFlinching	{B_EFF_ABILITY} de\n{B_EFF_NAME_WITH_PREFIX} empêche la peur!
+src/battle_message.c	sText_PkmnsXPreventsYsZ	{B_ATK_ABILITY} de {B_ATK_NAME_WITH_PREFIX}\nempêche {B_DEF_ABILITY} de\l{B_DEF_NAME_WITH_PREFIX} d'agir!
+src/battle_message.c	sText_PkmnsXCuredItsYProblem	{B_SCR_ACTIVE_ABILITY} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nsoigne son problème de\l{B_BUFF1}!
+src/battle_message.c	sText_PkmnsXHadNoEffectOnY	{B_SCR_ACTIVE_ABILITY} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nn'affecte pas {B_EFF_NAME_WITH_PREFIX}!
+src/battle_message.c	sText_TooScaredToMove	{B_ATK_NAME_WITH_PREFIX}\nest trop effrayé pour agir!
+src/battle_message.c	sText_GetOutGetOut	SPECTRE: Dehors…… Dehors……
+src/battle_message.c	sText_StatSharply	fortement 
+src/battle_message.c	gBattleText_Rose	augmente!
+src/battle_message.c	sText_StatHarshly	fortement 
+src/battle_message.c	sText_StatFell	baisse!
+src/battle_message.c	sText_AttackersStatRose	{B_BUFF1} de {B_ATK_NAME_WITH_PREFIX}\n{B_BUFF2}
+src/battle_message.c	gText_DefendersStatRose	{B_BUFF1} de {B_DEF_NAME_WITH_PREFIX}\n{B_BUFF2}
+src/battle_message.c	sText_UsingItemTheStatOfPkmnRose	Avec {B_LAST_ITEM},\n{B_BUFF1}\nde {B_SCR_ACTIVE_NAME_WITH_PREFIX} {B_BUFF2}
+src/battle_message.c	sText_AttackersStatFell	{B_BUFF1} de {B_ATK_NAME_WITH_PREFIX}\n{B_BUFF2}
+src/battle_message.c	sText_DefendersStatFell	{B_BUFF1} de {B_DEF_NAME_WITH_PREFIX}\n{B_BUFF2}
+src/battle_message.c	sText_StatsWontIncrease2	Les stats de {B_ATK_NAME_WITH_PREFIX}\nne peuvent plus augmenter!
+src/battle_message.c	sText_StatsWontDecrease2	Les stats de {B_DEF_NAME_WITH_PREFIX}\nne peuvent plus baisser!
+src/battle_message.c	sText_CriticalHit	Coup critique!
+src/battle_message.c	sText_OneHitKO	K.O. en un coup!
+src/battle_message.c	sText_123Poof	{PAUSE 32}1, {PAUSE 15}2, et{PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}Pouf!\p
+src/battle_message.c	sText_AndEllipsis	Et…\p
+src/battle_message.c	sText_HMMovesCantBeForgotten	Les CS ne peuvent pas\nêtre oubliées ici.\p
+src/battle_message.c	sText_NotVeryEffective	Ce n'est pas très efficace…
+src/battle_message.c	sText_SuperEffective	C'est super efficace!
+src/battle_message.c	sText_PkmnFledUsingIts	{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX} fuit\ngrâce à {B_LAST_ITEM}!\p
+src/battle_message.c	sText_PkmnFledUsing	{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX} fuit\ngrâce à {B_ATK_ABILITY}!\p
+src/battle_message.c	sText_PlayerDefeatedLinkTrainer	Victoire contre\n{B_LINK_OPPONENT1_NAME}!
+src/battle_message.c	sText_TwoLinkTrainersDefeated	Victoire contre {B_LINK_OPPONENT1_NAME}\net {B_LINK_OPPONENT2_NAME}!
+src/battle_message.c	sText_PlayerLostAgainstLinkTrainer	Défaite contre\n{B_LINK_OPPONENT1_NAME}!
+src/battle_message.c	sText_PlayerLostToTwo	Défaite contre {B_LINK_OPPONENT1_NAME}\net {B_LINK_OPPONENT2_NAME}!
+src/battle_message.c	sText_PlayerBattledToDrawLinkTrainer	Match nul contre\n{B_LINK_OPPONENT1_NAME}!
+src/battle_message.c	sText_PlayerBattledToDrawVsTwo	Match nul contre\n{B_LINK_OPPONENT1_NAME} et {B_LINK_OPPONENT2_NAME}!
+src/battle_message.c	sText_WildFled	{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME} s'enfuit!
+src/battle_message.c	sText_TwoWildFled	{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME} et\n{B_LINK_OPPONENT2_NAME} s'enfuient!
+src/battle_message.c	sText_NoRunningFromTrainers	Impossible de fuir\nun combat de Dresseurs!\p
+src/battle_message.c	sText_CantEscape	Fuite impossible!\p
+src/battle_message.c	sText_ButNothingHappened	Mais rien ne se passe!
+src/battle_message.c	sText_ButItFailed	Mais cela échoue!
+src/battle_message.c	sText_ItHurtConfusion	Il se blesse\ndans sa confusion!
+src/battle_message.c	sText_MirrorMoveFailed	Mimique échoue!
+src/battle_message.c	sText_StartedToRain	La pluie commence à tomber!
+src/battle_message.c	sText_DownpourStarted	Une averse commence!
+src/battle_message.c	sText_RainContinues	La pluie continue de tomber.
+src/battle_message.c	sText_DownpourContinues	L'averse continue.
+src/battle_message.c	sText_RainStopped	La pluie s'arrête.
+src/battle_message.c	sText_SandstormBrewed	Une tempête de sable se lève!
+src/battle_message.c	sText_SandstormRages	La tempête de sable fait rage.
+src/battle_message.c	sText_SandstormSubsided	La tempête de sable se calme.
+src/battle_message.c	sText_SunlightGotBright	Le soleil brille!
+src/battle_message.c	sText_SunlightStrong	Le soleil brille fort.
+src/battle_message.c	sText_SunlightFaded	Le soleil faiblit.
+src/battle_message.c	sText_StartedHail	La grêle commence à tomber!
+src/battle_message.c	sText_HailContinues	La grêle continue de tomber.
+src/battle_message.c	sText_HailStopped	La grêle s'arrête.
+src/battle_message.c	sText_FailedToSpitUp	Mais rien ne peut\nêtre Relâché!
+src/battle_message.c	sText_FailedToSwallow	Mais rien ne peut\nêtre Avalé!
+src/battle_message.c	sText_WindBecameHeatWave	Le vent devient\nune Canicule!
+src/battle_message.c	sText_StatChangesGone	Tous les changements\nde stats sont annulés!
+src/battle_message.c	sText_CoinsScattered	Des pièces tombent partout!
+src/battle_message.c	sText_TooWeakForSubstitute	Pas assez de PV\npour créer un clone!
+src/battle_message.c	sText_SharedPain	Les combattants\npartagent leur douleur!
+src/battle_message.c	sText_BellChimed	Une cloche sonne!
+src/battle_message.c	sText_FaintInThree	Tous les Yo-kai touchés seront\nK.O. dans trois tours!
+src/battle_message.c	sText_NoPPLeft	Cette capacité\nn'a plus de PP!\p
+src/battle_message.c	sText_ButNoPPLeft	Mais la capacité\nn'a plus de PP!
+src/battle_message.c	sText_PkmnIgnoresAsleep	{B_ATK_NAME_WITH_PREFIX} dort\net ignore les ordres!
+src/battle_message.c	sText_PkmnIgnoredOrders	{B_ATK_NAME_WITH_PREFIX}\nignore les ordres!
+src/battle_message.c	sText_PkmnBeganToNap	{B_ATK_NAME_WITH_PREFIX} fait la sieste!
+src/battle_message.c	sText_PkmnLoafing	{B_ATK_NAME_WITH_PREFIX}\nparesse!
+src/battle_message.c	sText_PkmnWontObey	{B_ATK_NAME_WITH_PREFIX}\nrefuse d'obéir!
+src/battle_message.c	sText_PkmnTurnedAway	{B_ATK_NAME_WITH_PREFIX} se détourne!
+src/battle_message.c	sText_PkmnPretendNotNotice	{B_ATK_NAME_WITH_PREFIX}\nfait semblant de ne rien voir!
+src/battle_message.c	sText_EnemyAboutToSwitchPkmn	{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nva envoyer {B_BUFF2}.\p{B_PLAYER_NAME} veut-il changer\nde Yo-kai?
+src/battle_message.c	sText_PkmnLearnedMove2	{B_ATK_NAME_WITH_PREFIX} apprend\n{B_BUFF1}!
+src/battle_message.c	sText_PlayerDefeatedLinkTrainerTrainer1	Victoire contre\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!\p
+src/battle_message.c	sText_ThrewARock	{B_PLAYER_NAME} lance une pierre\nsur {B_OPPONENT_MON1_NAME}!
+src/battle_message.c	sText_ThrewSomeBait	{B_PLAYER_NAME} lance un appât\nà {B_OPPONENT_MON1_NAME}!
+src/battle_message.c	sText_PkmnWatchingCarefully	{B_OPPONENT_MON1_NAME}\nobserve attentivement!
+src/battle_message.c	sText_PkmnIsAngry	{B_OPPONENT_MON1_NAME} est en colère!
+src/battle_message.c	sText_PkmnIsEating	{B_OPPONENT_MON1_NAME} mange!
+src/battle_message.c	sText_OutOfSafariBalls	{PLAY_SE SE_DING_DONG}ANNONCE: Plus de Safari Balls!\nLa partie est terminée!\p
+src/battle_message.c	sText_TwoWildPkmnAppeared	{B_OPPONENT_MON1_NAME} et\n{B_OPPONENT_MON2_NAME} sauvages apparaissent!\p
+src/battle_message.c	sText_GhostAppearedCantId	Un spectre apparaît!\pZut! Impossible\nde l'identifier!\p
+src/battle_message.c	sText_TheGhostAppeared	Le spectre apparaît!\p
+src/battle_message.c	sText_SilphScopeUnveil	Le Scope Sylphe révèle\nl'identité du spectre!
+src/battle_message.c	sText_TheGhostWas	Le spectre est Castelius Max!\p\n
+src/battle_message.c	sText_LinkTrainerWantsToBattle	{B_LINK_OPPONENT1_NAME}\nveut se battre!
+src/battle_message.c	sText_TwoLinkTrainersWantToBattle	{B_LINK_OPPONENT1_NAME} et {B_LINK_OPPONENT2_NAME}\nveulent se battre!
+src/battle_message.c	sText_Trainer1SentOutTwoPkmn	{B_TRAINER1_CLASS} {B_TRAINER1_NAME} envoie\n{B_OPPONENT_MON1_NAME} et {B_OPPONENT_MON2_NAME}!{PAUSE 60}
+src/battle_message.c	sText_LinkTrainerSentOutPkmn	{B_LINK_OPPONENT1_NAME} envoie\n{B_OPPONENT_MON1_NAME}!
+src/battle_message.c	sText_LinkTrainerSentOutTwoPkmn	{B_LINK_OPPONENT1_NAME} envoie\n{B_OPPONENT_MON1_NAME} et {B_OPPONENT_MON2_NAME}!
+src/battle_message.c	sText_TwoLinkTrainersSentOutPkmn	{B_LINK_OPPONENT1_NAME} envoie {B_LINK_OPPONENT_MON1_NAME}!\n{B_LINK_OPPONENT2_NAME} envoie {B_LINK_OPPONENT_MON2_NAME}!
+src/battle_message.c	sText_LinkTrainerSentOutPkmn2	{B_LINK_OPPONENT1_NAME} envoie\n{B_BUFF1}!
+src/battle_message.c	sText_LinkTrainerMultiSentOutPkmn	{B_LINK_SCR_TRAINER_NAME} envoie\n{B_BUFF1}!
+src/battle_message.c	sText_GoTwoPkmn	À vous, {B_PLAYER_MON1_NAME}\net {B_PLAYER_MON2_NAME}!
+src/battle_message.c	sText_DoItPkmn	Vas-y, {B_BUFF1}!
+src/battle_message.c	sText_YourFoesWeakGetEmPkmn	L'adversaire faiblit!\nÀ toi, {B_BUFF1}!
+src/battle_message.c	sText_LinkPartnerSentOutPkmnGoPkmn	{B_LINK_PARTNER_NAME} envoie {B_LINK_PLAYER_MON2_NAME}!\nÀ toi, {B_LINK_PLAYER_MON1_NAME}!
+src/battle_message.c	sText_PkmnThatsEnough	{B_BUFF1}, ça suffit!\nReviens!
+src/battle_message.c	sText_PkmnComeBack	{B_BUFF1}, reviens!
+src/battle_message.c	sText_PkmnOkComeBack	{B_BUFF1}, c'est bon!\nReviens!
+src/battle_message.c	sText_PkmnGoodComeBack	{B_BUFF1}, bravo!\nReviens!
+src/battle_message.c	sText_LinkTrainer1WithdrewPkmn	{B_LINK_OPPONENT1_NAME} rappelle\n{B_BUFF1}!
+src/battle_message.c	sText_LinkTrainer2WithdrewPkmn	{B_LINK_SCR_TRAINER_NAME} rappelle\n{B_BUFF1}!
+src/battle_message.c	sText_WildPkmnPrefix	Sauvage 
+src/battle_message.c	sText_FoePkmnPrefix	Ennemi 
+src/battle_message.c	sText_FoePkmnPrefix2	Ennemi
+src/battle_message.c	sText_AllyPkmnPrefix	Allié
+src/battle_message.c	sText_FoePkmnPrefix3	Ennemi
+src/battle_message.c	sText_AllyPkmnPrefix2	Allié
+src/battle_message.c	sText_FoePkmnPrefix4	Ennemi
+src/battle_message.c	sText_AllyPkmnPrefix3	Allié
+src/battle_message.c	sText_AttackerUsedX	{B_ATK_NAME_WITH_PREFIX} utilise\n{B_BUFF2}
+src/battle_message.c	sText_HP2	PV
+src/battle_message.c	sText_Attack2	ATTAQUE
+src/battle_message.c	sText_Defense2	DÉFENSE
+src/battle_message.c	sText_Speed	VITESSE
+src/battle_message.c	sText_SpAtk2	ATQ. SPÉ.
+src/battle_message.c	sText_SpDef2	DÉF. SPÉ.
+src/battle_message.c	sText_Accuracy	précision
+src/battle_message.c	sText_Evasiveness	esquive
+src/battle_message.c	sText_PokeblockWasTooSpicy	est trop épicé!
+src/battle_message.c	sText_PokeblockWasTooDry	est trop sec!
+src/battle_message.c	sText_PokeblockWasTooSweet	est trop sucré!
+src/battle_message.c	sText_PokeblockWasTooBitter	est trop amer!
+src/battle_message.c	sText_PokeblockWasTooSour	est trop acide!
+src/battle_message.c	sText_OldManUsedItem	Le vieil homme utilise\n{B_LAST_ITEM}!
+src/battle_message.c	sText_PokedudeUsedItem	Le Guide utilise\n{B_LAST_ITEM}!
+src/battle_message.c	sText_TrainerBlockedBall	Le Dresseur bloque la Ball!
+src/battle_message.c	sText_DontBeAThief	Ne vole pas les Yo-kai des autres!
+src/battle_message.c	sText_ItDodgedBall	Il évite la Ball!\nCe Yo-kai ne peut être capturé!
+src/battle_message.c	sText_YouMissedPkmn	Tu as raté le Yo-kai!
+src/battle_message.c	sText_PkmnBrokeFree	Oh non!\nLe Yo-kai s'est libéré!
+src/battle_message.c	sText_ItAppearedCaught	Oh!\nIl semblait pourtant capturé!
+src/battle_message.c	sText_AarghAlmostHadIt	Aaah!\nÇa y était presque!
+src/battle_message.c	sText_ShootSoClose	Zut!\nC'était si près!
+src/battle_message.c	sText_ItDodgedBall2	Il évite la Ball!\nIl ne semble pas capturable!
+src/battle_message.c	sText_GiveNicknameCaptured	Donner un surnom\nà {B_OPPONENT_MON1_NAME}?
+src/battle_message.c	sText_PkmnSentToPC	{B_OPPONENT_MON1_NAME} est envoyé\nau PC de {B_PC_CREATOR_NAME}.
+src/battle_message.c	sText_Someones	quelqu'un
+src/battle_message.c	sText_Bills	Léo
+src/battle_message.c	sText_PkmnDataAddedToDex	Les données de {B_OPPONENT_MON1_NAME}\nsont ajoutées au Médallium.\p
+src/battle_message.c	sText_ItIsRaining	Il pleut.
+src/battle_message.c	sText_SandstormIsRaging	Une tempête de sable fait rage.
+src/battle_message.c	sText_BoxIsFull	La Boîte est pleine!\nImpossible de capturer davantage!\p
+src/battle_message.c	sText_EnigmaBerry	Baie Enigma
+src/battle_message.c	sText_BerrySuffix	 Baie
+src/battle_message.c	sText_Enigma	Enigma
+src/battle_message.c	sText_PkmnsItemCuredParalysis	{B_LAST_ITEM} de\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} soigne sa\lparalysie!
+src/battle_message.c	sText_PkmnsItemCuredPoison	{B_LAST_ITEM} de\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} soigne son poison!
+src/battle_message.c	sText_PkmnsItemHealedBurn	{B_LAST_ITEM} de\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} soigne sa brûlure!
+src/battle_message.c	sText_PkmnsItemDefrostedIt	{B_LAST_ITEM} de\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} le dégèle!
+src/battle_message.c	sText_PkmnsItemWokeIt	{B_LAST_ITEM} de\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} le réveille!
+src/battle_message.c	sText_PkmnsItemSnappedOut	{B_LAST_ITEM} de\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} dissipe sa\lconfusion!
+src/battle_message.c	sText_PkmnsItemCuredProblem	{B_LAST_ITEM} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nsoigne son problème de\l{B_BUFF1}!
+src/battle_message.c	sText_PkmnsItemNormalizedStatus	{B_LAST_ITEM} de\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} soigne son statut!
+src/battle_message.c	sText_PkmnsItemRestoredHealth	{B_LAST_ITEM} de\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} restaure sa santé!
+src/battle_message.c	sText_PkmnsItemRestoredPP	{B_LAST_ITEM} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nrend des PP à {B_BUFF1}!
+src/battle_message.c	sText_PkmnsItemRestoredStatus	{B_LAST_ITEM} de\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} soigne son statut!
+src/battle_message.c	sText_PkmnsItemRestoredHPALittle	{B_LAST_ITEM} de\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} rend quelques PV!
+src/battle_message.c	sText_ItemAllowsOnlyYMove	{B_LAST_ITEM} ne permet\nque {B_CURRENT_MOVE}!\p
+src/battle_message.c	sText_PkmnHungOnWithX	{B_DEF_NAME_WITH_PREFIX} tient bon\ngrâce à {B_LAST_ITEM}!
+src/battle_message.c	sText_PlayedFluteCatchyTune	{B_PLAYER_NAME} joue de {B_LAST_ITEM}.\pQuel air entraînant!
+src/battle_message.c	sText_PlayedThe	{B_PLAYER_NAME} joue de\n{B_LAST_ITEM}.
+src/battle_message.c	sText_PkmnHearingFluteAwoke	Les Yo-kai qui entendent\nla flûte se réveillent!
+src/battle_message.c	sText_YouThrowABallNowRight	Il faut lancer une Ball, non?\nJe… Je vais faire de mon mieux!
+src/battle_message.c	gText_ForPetesSake	CHEN: Oh, quelle impatience…\nToujours aussi pressé!\p{B_PLAYER_NAME}.\pTu n'as jamais fait de combat\nde Yo-kai, n'est-ce pas?\pDeux Dresseurs s'affrontent\nen faisant combattre\lleurs Yo-kai.\p
+src/battle_message.c	gText_TheTrainerThat	Le premier qui réduit les PV\ndes Yo-kai adverses à zéro\lremporte le combat.\p
+src/battle_message.c	gText_TryBattling	Mais tu apprendras mieux\nen essayant par toi-même.\pAlors, lance-toi dans le combat!\p
+src/battle_message.c	gText_InflictingDamageIsKey	CHEN: Infliger des dégâts\nest la clé de tout combat.\p
+src/battle_message.c	gText_LoweringStats	CHEN: Baisser les stats adverses\nte donnera l'avantage.\p
+src/battle_message.c	gText_KeepAnEyeOnHP	CHEN: Surveille bien les PV\nde ton Yo-kai.\pS'ils tombent à zéro,\nil sera K.O.!\p
+src/battle_message.c	gText_OakNoRunningFromATrainer	CHEN: Impossible de fuir\nun combat de Dresseurs!\p
+src/battle_message.c	gText_WinEarnsPrizeMoney	CHEN: Excellent!\pUne victoire te rapporte de\nl'argent et renforce tes Yo-kai!\pAffronte d'autres Dresseurs\npour faire progresser ton équipe!\p
+src/battle_message.c	gText_HowDissapointing	CHEN: Hum…\nQuel dommage…\pUne victoire rapporte de l'argent\net fait progresser tes Yo-kai.\pMais en cas de défaite,\n{B_PLAYER_NAME}, c'est toi qui paies…\pPour cette fois, je vais\nrégler la note à ta place.\pMais dehors, il faudra\nte débrouiller par toi-même.\pEntraîne donc tes Yo-kai\ncontre des Yo-kai sauvages!\p
+src/battle_message.c	gText_PkmnIsEvolving	Quoi?\n{STR_VAR_1} évolue!
+src/battle_message.c	gText_CongratsPkmnEvolved	Félicitations! {STR_VAR_1}\névolue en {STR_VAR_2}!{WAIT_SE}\p
+src/battle_message.c	gText_PkmnStoppedEvolving	Hein? {STR_VAR_1}\ncesse d'évoluer!\p
+src/battle_message.c	gText_LinkStandby	{PAUSE 16}Connexion en cours…
+src/battle_message.c	gText_SafariZoneMenu	{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW 13 14 15}BALL{CLEAR_TO 56}APPÂT\nPIERRE{CLEAR_TO 56}FUIR
+src/battle_message.c	gText_WhichMoveToForget_Unused	{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW 13 14 15}Quelle capacité\noublier?
+src/battle_message.c	gText_BattleYesNoChoice	{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW 13 14 15}Oui\nNon
+src/battle_message.c	gText_BattleSwitchWhich	{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW 13 14 15}Quel\nYo-kai?
+src/battle_message.c	sText_MaxHP	{FONT_SMALL}Max{FONT_NORMAL} PV
+src/battle_message.c	sText_Attack	ATTAQUE 
+src/battle_message.c	sText_Defense	DÉFENSE
+src/battle_message.c	sText_SpAtk	ATQ. SPÉ.
+src/battle_message.c	sText_SpDef	DÉF. SPÉ.
+src/battle_message.c	gText_SafariBalls	{HIGHLIGHT 2}SAFARI BALLS
+src/battle_message.c	gText_HighlightRed_Left	{HIGHLIGHT 2}Reste: 
+src/battle_message.c	gText_Sleep	sommeil
+src/battle_message.c	gText_Poison	poison
+src/battle_message.c	gText_Burn	brûlure
+src/battle_message.c	gText_Paralysis	paralysie
+src/battle_message.c	gText_Ice	gel
+src/battle_message.c	gText_Confusion	confusion
+src/battle_message.c	gText_Love	amour
+src/battle_message.c	gText_BattleTowerBan_Is1	 est
+src/battle_message.c	gText_BattleTowerBan_Is2	 est
+src/battle_message.c	gText_BadEgg	ŒUF corrompu
+src/battle_message.c	gText_BattleWallyName	Timmy
+src/battle_message.c	gText_Win	{HIGHLIGHT 0}Victoire
+src/battle_message.c	gText_Loss	{HIGHLIGHT 0}Défaite
+src/battle_message.c	gText_Draw	{HIGHLIGHT 0}Nul
+src/battle_message.c	sText_SpaceIs	 est
+src/battle_message.c	sText_ApostropheS	 de
+src/battle_message.c	gText_ANormalMove	une capacité Normal
+src/battle_message.c	gText_AFightingMove	une capacité Combat
+src/battle_message.c	gText_AFlyingMove	une capacité Vol
+src/battle_message.c	gText_APoisonMove	une capacité Poison
+src/battle_message.c	gText_AGroundMove	une capacité Sol
+src/battle_message.c	gText_ARockMove	une capacité Roche
+src/battle_message.c	gText_ABugMove	une capacité Insecte
+src/battle_message.c	gText_AGhostMove	une capacité Spectre
+src/battle_message.c	gText_ASteelMove	une capacité Acier
+src/battle_message.c	gText_AMysteryMove	une capacité ???
+src/battle_message.c	gText_AFireMove	une capacité Feu
+src/battle_message.c	gText_AWaterMove	une capacité Eau
+src/battle_message.c	gText_AGrassMove	une capacité Plante
+src/battle_message.c	gText_AnElectricMove	une capacité Électrik
+src/battle_message.c	gText_APsychicMove	une capacité Psy
+src/battle_message.c	gText_AnIceMove	une capacité Glace
+src/battle_message.c	gText_ADragonMove	une capacité Dragon
+src/battle_message.c	gText_ADarkMove	une capacité Ténèbres
+src/battle_message.c	gText_TimeBoard	TABLEAU DES TEMPS
+src/battle_message.c	gText_ClearTime	TEMPS RÉALISÉ
+src/battle_message.c	gText_XMinYZSec	{STR_VAR_1}MIN. {STR_VAR_2}.{STR_VAR_3}SEC.
+src/battle_message.c	gText_Unused_1F	1er
+src/battle_message.c	gText_Unused_2F	2e
+src/battle_message.c	gText_Unused_3F	3e
+src/battle_message.c	gText_Unused_4F	4e
+src/battle_message.c	gText_Unused_5F	5e
+src/battle_message.c	gText_Unused_6F	6e
+src/battle_message.c	gText_Unused_7F	7e
+src/battle_message.c	gText_Unused_8F	8e
+src/battle_message.c	sText_Trainer1Fled	{PLAY_SE SE_FLEE}{B_TRAINER1_CLASS} {B_TRAINER1_NAME} s'enfuit!
+src/battle_message.c	sText_PlayerLostAgainstTrainer1	Défaite contre\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!
+src/battle_message.c	sText_PlayerBattledToDrawTrainer1	Match nul contre\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!

@@ -1,123 +1,74 @@
 PokedexRating_Text_HowIsPokedexComingAlong::
-	.string "OAK: Good to see you!\n"
-	.string "How is your Médallium coming along?\p"
-	.string "Here, let me take a look.$"
+    .string "CHEN: Ravi de te voir!\nComment avance ton Médallium?\pLaisse-moi regarder.$"
 
 PokedexRating_Text_SeenXOwnedY::
-	.string "The amount of progress you've made\n"
-	.string "on your Médallium is:\p"
-	.string "{STR_VAR_1} Yo-kai seen and\n"
-	.string "{STR_VAR_2} Yo-kai owned.\p"
-	.string "{FONT_NORMAL}PROF. OAK's rating:$"
+    .string "Voici ta progression\ndans le Médallium:\p{STR_VAR_1} Yo-kai vus et\n{STR_VAR_2} Yo-kai capturés.\p{FONT_NORMAL}Évaluation du Professeur Chen:$"
 
 PokedexRating_Text_LessThan10::
-	.string "You still have lots to do.\p"
-	.string "Go into every patch of grass you\n"
-	.string "see and look for Yo-kai!$"
+    .string "Tu as encore beaucoup à faire.\pExplore toutes les hautes herbes\npour découvrir des Yo-kai!$"
 
 PokedexRating_Text_LessThan20::
-	.string "It looks as if you're getting on\n"
-	.string "the right track!\p"
-	.string "I've given one of my AIDES a FLASH\n"
-	.string "HM. Make sure you go get it!$"
+    .string "Tu es sur la bonne voie!\pUn de mes assistants possède\nla CS Flash. Va la chercher!$"
 
 PokedexRating_Text_LessThan30::
-	.string "Your Médallium could use a bit more\n"
-	.string "volume still!\p"
-	.string "Try to catch other species of\n"
-	.string "Yo-kai!$"
+    .string "Ton Médallium mérite encore\nquelques pages de plus!\pEssaie de capturer\nd'autres espèces de Yo-kai!$"
 
 PokedexRating_Text_LessThan40::
-	.string "Good, it's apparent that you're\n"
-	.string "trying hard!\p"
-	.string "I've given one of my AIDES an\n"
-	.string "ITEMFINDER. Be sure to collect it!$"
+    .string "Bien! Tes efforts se voient!\pUn de mes assistants garde\nun Cherch'Objet pour toi.\lVa le chercher!$"
 
 PokedexRating_Text_LessThan50::
-	.string "Your Médallium is coming along quite\n"
-	.string "well!\p"
-	.string "I've given one of my AIDES an\n"
-	.string "AMULET COIN. Be sure to get it!$"
+    .string "Ton Médallium progresse bien!\pUn de mes assistants garde\nune Pièce Rune pour toi.\lN'oublie pas de la récupérer!$"
 
 PokedexRating_Text_LessThan60::
-	.string "Ah, you've finally topped 50\n"
-	.string "species!\p"
-	.string "I've given one of my AIDES an EXP.\n"
-	.string "SHARE. Be sure to go get it!$"
+    .string "Tu as dépassé les 50 espèces!\pUn assistant garde un Multi Exp.\npour toi. Le partage d'expérience\lreste déjà actif pour toute l'équipe.$"
 
 PokedexRating_Text_LessThan70::
-	.string "Hoho! This is turning into quite the\n"
-	.string "respectable Médallium!$"
+    .string "Hoho! Ton Médallium\ncommence à être impressionnant!$"
 
 PokedexRating_Text_LessThan80::
-	.string "Very good!\p"
-	.string "I think you'll collect even more\n"
-	.string "Yo-kai by going fishing!$"
+    .string "Très bien!\pLa pêche devrait te permettre\nde trouver encore d'autres Yo-kai!$"
 
 PokedexRating_Text_LessThan90::
-	.string "Wonderful! Let me guess… You\n"
-	.string "like to collect things, don't you?$"
+    .string "Merveilleux! Je parie que\ntu adores les collections, non?$"
 
 PokedexRating_Text_LessThan100::
-	.string "I'm impressed!\n"
-	.string "It must have been difficult to do!$"
+    .string "Je suis impressionné!\nÇa n'a pas dû être facile!$"
 
 PokedexRating_Text_LessThan110::
-	.string "You've finally hit 100 species!\n"
-	.string "I can't believe how good you are!$"
+    .string "Enfin 100 espèces!\nTu as un talent incroyable!$"
 
 PokedexRating_Text_LessThan120::
-	.string "You even have the evolved forms\n"
-	.string "of Yo-kai! Super!$"
+    .string "Tu possèdes même\nles formes évoluées! Bravo!$"
 
 PokedexRating_Text_LessThan130::
-	.string "Excellent! Trade with friends to\n"
-	.string "get some more!$"
+    .string "Excellent! Continue d'explorer\npour découvrir d'autres Yo-kai!$"
 
 PokedexRating_Text_LessThan140::
-	.string "Outstanding!\n"
-	.string "You've become a real pro at this!$"
+    .string "Formidable!\nTu es devenu un véritable expert!$"
 
 PokedexRating_Text_LessThan150::
-	.string "I have nothing left to say!\n"
-	.string "You're the Yo-kai PROFESSOR now!$"
+    .string "Je n'ai plus rien à t'apprendre!\nTu es un vrai professeur Yo-kai!$"
 
 PokedexRating_Text_Complete::
-	.string "Your Médallium is entirely complete!\n"
-	.string "Congratulations!!$"
+    .string "Ton Médallium est complet!\nToutes mes félicitations!$"
 
 PokedexRating_Text_NationalDexSeenXOwnedY::
-	.string "And your NATIONAL Médallium is:\p"
-	.string "{STR_VAR_1} Yo-kai seen and\n"
-	.string "{STR_VAR_2} Yo-kai owned.$"
+    .string "Et dans le Médallium National:\p{STR_VAR_1} Yo-kai vus et\n{STR_VAR_2} Yo-kai capturés.$"
 
 PokedexRating_Text_LookForwardToFilledNationalDex::
-	.string "I'll be looking forward to seeing\n"
-	.string "you fill the NATIONAL Médallium!$"
+    .string "J'ai hâte de voir ton\nMédallium National complet!$"
 
 PokedexRating_Text_YouveCompletedDex::
-	.string "Finally…\p"
-	.string "You've finally completed the\n"
-	.string "Médallium!\p"
-	.string "It's magnificent!\n"
-	.string "Truly, this is a fantastic feat!$"
+    .string "Enfin…\pTu as finalement complété\nle Médallium!\pC'est magnifique!\nQuel exploit extraordinaire!$"
 
 PokedexRating_Text_Wroooaaarrr::
-	.string "Wroooooooaaaaaarrrr!$"
+    .string "Ouaaaaaaaah!$"
 
 PokedexRating_Text_HaHa::
-	.string "はあ はあ‥$"
+    .string "Ha… Ha…$"
 
 PokedexRating_Text_ThankYouMadeDreamReality::
-	.string "Thank you, {PLAYER}!\n"
-	.string "Sincerely, thank you!\l"
-	.string "You've made my dream a reality!$"
+    .string "Merci, {PLAYER}!\nMerci du fond du cœur!\lTu as réalisé mon rêve!$"
 
 PokedexRating_Text_LoveSeeingYourPokedex::
-	.string "OAK: Ah, welcome!\p"
-	.string "Tell me, how is your Médallium\n"
-	.string "coming along?\p"
-	.string "Wahaha!\p"
-	.string "Actually, I know how it is, but I\n"
-	.string "love seeing it anyway!\p"
-	.string "Let's see…$"
+    .string "CHEN: Ah, bienvenue!\pDis-moi, comment avance\nton Médallium?\pHahaha!\pJe le sais déjà, mais j'adore\nquand même le consulter!\pVoyons voir…$"

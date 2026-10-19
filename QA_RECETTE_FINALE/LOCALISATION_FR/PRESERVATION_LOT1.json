@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "baseline_commit": "4672b88e19d02acbb068cc3106d24fb2521c9542",
+  "source_changes_are_text_only": true,
+  "files": [
+    "data/text/aide.inc",
+    "data/text/day_care.inc",
+    "data/text/flavor_text.inc",
+    "data/text/ingame_trade.inc",
+    "data/text/itemfinder.inc",
+    "data/text/obtain_item.inc",
+    "data/text/pc.inc",
+    "data/text/pc_transfer.inc",
+    "data/text/poke_mart.inc",
+    "data/text/pokedex_rating.inc",
+    "data/text/route23.inc",
+    "data/text/seagallop.inc",
+    "data/text/sign_lady.inc",
+    "data/text/surf.inc",
+    "data/text/white_out.inc",
+    "src/battle_main.c",
+    "src/battle_message.c",
+    "src/data/pokemon/pokedex_entries.h",
+    "src/strings.c",
+    "src/union_room_message.c"
+  ],
+  "audio_OST_count": 26,
+  "rom_bytes": 31272243,
+  "rom_sha256": "952646c912a34e4b53babb01bd0a2fa0ca0fd6584cb2c07aca5b8280faf183d5"
+}
