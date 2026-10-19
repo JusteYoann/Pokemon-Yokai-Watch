@@ -72,6 +72,9 @@ def run(moves):
        for f in range(2400):
         if not r.read(r.symbols['gAnimScriptActive'],1)[0]:break
         seen=True;r.call(r.u32(r.symbols['gAnimScriptCallback']));r.run()
+        if os.environ.get('YOKAI_REQUIRE_EXTENDED_OAM') and move!=164:
+         import verifier_oam_etendu
+         verifier_oam_etendu.inspect(r)
         if move in SPECIAL and f%8==0:frames.append(r.frame.copy())
        else:
         errors.append(dict(move=move,side=side,turn=turn,shiny_requested=shiny,reason='Native animation exceeded2400 callback/render steps'));r.frame.save(P/'preuves'/f'erreur-{move}-{side}-{int(shiny)}.png');continue

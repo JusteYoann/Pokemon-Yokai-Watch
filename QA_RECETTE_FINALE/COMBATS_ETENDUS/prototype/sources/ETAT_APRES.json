@@ -1,0 +1,321 @@
+{
+  "reference_commit": "af64e40325dd61a2e3612fb36421f1ffcc57b3e3",
+  "reference_archives": [
+    "BATTLE_SPRITE1.rar",
+    "BATTLE_SPRITE2.rar"
+  ],
+  "reference_available": true,
+  "presentation_profiles_sha256": "6a999e4bcce6d3c3b5aae18c14a93b79f5b4fb0f14bb4d865e044307aaf33577",
+  "species": [
+    {
+      "number": 19,
+      "name": "Robonyan 28",
+      "species": "SPECIES_RATTATA",
+      "reference_status": "reference recovered and numbered",
+      "artwork_revision": "af64e40325dd61a2e3612fb36421f1ffcc57b3e3",
+      "front": {
+        "original_png": "graphics/yokai/019/front.png",
+        "source_sha256": "127ee5046e316c1f564c66ab98195950a3007c9d9be64c8685762e9e81103443",
+        "active_4bpp": "graphics/yokai/019/front-display.4bpp",
+        "active_sha256": "0d0775dad2fc1f0f78b5b815c13af61bf40d4707e268b609497b365b4458a1a9",
+        "source_visible_bbox": [
+          4,
+          13,
+          60,
+          50
+        ],
+        "source_visible_size": [
+          56,
+          37
+        ],
+        "source_opaque_pixels": 1208,
+        "used_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "png_index_depth": 4,
+        "transparent_index": 0,
+        "coords": {
+          "size": [
+            64,
+            64
+          ],
+          "y_offset": 0
+        }
+      },
+      "back": {
+        "original_png": "graphics/yokai/019/back.png",
+        "source_sha256": "4c05d6224c239e24bbfccdb665fde1eed8d42695c6452bca95cd1ee45a548bc1",
+        "active_4bpp": "graphics/yokai/019/back-display.4bpp",
+        "active_sha256": "db2d551e74710db2862491419844b56dd9c6acd186e49877287a7b20bfc85ec9",
+        "source_visible_bbox": [
+          4,
+          10,
+          60,
+          54
+        ],
+        "source_visible_size": [
+          56,
+          44
+        ],
+        "source_opaque_pixels": 1455,
+        "used_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "png_index_depth": 4,
+        "transparent_index": 0,
+        "coords": {
+          "size": [
+            64,
+            64
+          ],
+          "y_offset": 0
+        }
+      },
+      "normal_palette": {
+        "source": "graphics/yokai/019/normal.pal",
+        "sha256": "33877788b6cbc9107048834cbdde6b0aef29d82fa8614d53967ee9c0726d8086",
+        "active": "graphics/yokai/019/normal.gbapal",
+        "active_sha256": "e352e59c1bde6950d53ac3f75d07b52b9318f82b3a618046ba0aaacc5a6a75ce"
+      },
+      "shiny_palette": {
+        "source": "graphics/yokai/019/shiny.pal",
+        "sha256": "790d8e0c785673092baf77d7e58ebbe7591439762b43bf6df904ea4c16edf643",
+        "active": "graphics/yokai/019/shiny.gbapal",
+        "active_sha256": "f92dbb9539a9d34eb6cae4545a637809a4c98137cb071180d9a6e88ba46f767b"
+      }
+    },
+    {
+      "number": 29,
+      "name": "Padrézo",
+      "species": "SPECIES_NIDORAN_F",
+      "reference_status": "reference recovered and numbered",
+      "artwork_revision": "af64e40325dd61a2e3612fb36421f1ffcc57b3e3",
+      "front": {
+        "original_png": "graphics/yokai/029/front.png",
+        "source_sha256": "36f2fa1d2ede81067af12db55177425940b80596accc6f924e260cd8dcbd48d9",
+        "active_4bpp": "graphics/yokai/029/front-display.4bpp",
+        "active_sha256": "1a26c681c414823507d7d5399ecdbf4c312be0d4ed38defa32b6922aa0f6d289",
+        "source_visible_bbox": [
+          4,
+          10,
+          60,
+          54
+        ],
+        "source_visible_size": [
+          56,
+          44
+        ],
+        "source_opaque_pixels": 1101,
+        "used_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "png_index_depth": 4,
+        "transparent_index": 0,
+        "coords": {
+          "size": [
+            64,
+            64
+          ],
+          "y_offset": 0
+        }
+      },
+      "back": {
+        "original_png": "graphics/yokai/029/back.png",
+        "source_sha256": "4305118a244809bc2042db8095ff38815b007d424b4f461a65010688cbe07dad",
+        "active_4bpp": "graphics/yokai/029/back-display.4bpp",
+        "active_sha256": "7ba33f2d24b5c6d4136911479930be4b8255ded520947b23ea44909cbb2503c2",
+        "source_visible_bbox": [
+          4,
+          9,
+          60,
+          55
+        ],
+        "source_visible_size": [
+          56,
+          46
+        ],
+        "source_opaque_pixels": 1137,
+        "used_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "png_index_depth": 4,
+        "transparent_index": 0,
+        "coords": {
+          "size": [
+            64,
+            64
+          ],
+          "y_offset": 0
+        }
+      },
+      "normal_palette": {
+        "source": "graphics/yokai/029/normal.pal",
+        "sha256": "48fd368b055854a1675d4be4fcd217d3ae89557306972df0752b4f581c5515a6",
+        "active": "graphics/yokai/029/normal.gbapal",
+        "active_sha256": "cca608b7ccd8d6b78bca3fbe8f0163d71c58da35a9996446f1a2f278c346ff0f"
+      },
+      "shiny_palette": {
+        "source": "graphics/yokai/029/shiny.pal",
+        "sha256": "01e489ad121bdfcc165c777a565a74be69e2dbf233e1a17de7a217b7a100cff2",
+        "active": "graphics/yokai/029/shiny.gbapal",
+        "active_sha256": "8e6b63e24ac6db995c71615ebf87c34a6cd7af82df489d95cf0462c3cf237e5e"
+      }
+    },
+    {
+      "number": 30,
+      "name": "Émettor",
+      "species": "SPECIES_NIDORINA",
+      "reference_status": "reference recovered and numbered",
+      "artwork_revision": "af64e40325dd61a2e3612fb36421f1ffcc57b3e3",
+      "front": {
+        "original_png": "graphics/yokai/030/front.png",
+        "source_sha256": "352fac9febaea54a9ce122ebafa48fc70b2c1db16fc739b575dd6119a139d740",
+        "active_4bpp": "graphics/yokai/030/front-display.4bpp",
+        "active_sha256": "55fc5c59e3636bb88645dfa467396545d8dbc07e4f14264f6332d70ca5d8d7c9",
+        "source_visible_bbox": [
+          4,
+          10,
+          60,
+          53
+        ],
+        "source_visible_size": [
+          56,
+          43
+        ],
+        "source_opaque_pixels": 1201,
+        "used_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "png_index_depth": 4,
+        "transparent_index": 0,
+        "coords": {
+          "size": [
+            64,
+            64
+          ],
+          "y_offset": 0
+        }
+      },
+      "back": {
+        "original_png": "graphics/yokai/030/back.png",
+        "source_sha256": "61a3e3b7caa622765c309694017125086b937fc01e48225fe7725694bc5de984",
+        "active_4bpp": "graphics/yokai/030/back-display.4bpp",
+        "active_sha256": "c7bf6c32553dc4153f88b7eda6e4f01bc397203eb980d1a789e6a49836b44136",
+        "source_visible_bbox": [
+          4,
+          10,
+          60,
+          54
+        ],
+        "source_visible_size": [
+          56,
+          44
+        ],
+        "source_opaque_pixels": 1252,
+        "used_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "png_index_depth": 4,
+        "transparent_index": 0,
+        "coords": {
+          "size": [
+            64,
+            64
+          ],
+          "y_offset": 0
+        }
+      },
+      "normal_palette": {
+        "source": "graphics/yokai/030/normal.pal",
+        "sha256": "df466a44fcb1afba03403caf0a5d06de65f15a960632606ff67fe42b9936b001",
+        "active": "graphics/yokai/030/normal.gbapal",
+        "active_sha256": "ebc0a64a146bd4f642b5082b44757bdc3a0497759c8023eb55d72d38509d34b0"
+      },
+      "shiny_palette": {
+        "source": "graphics/yokai/030/shiny.pal",
+        "sha256": "4da0d3385cc7e18c69ada0e392b4c1a6ec45764c102650a6c3102d398ead803f",
+        "active": "graphics/yokai/030/shiny.gbapal",
+        "active_sha256": "67406054a6d45c7cad816213ea221c8fcd28649ecdd55b1efba6fb713461967e"
+      }
+    }
+  ],
+  "scope": "Current committed latest artwork, not the older drawings appearing in mockups. No correction or approval inferred without inspecting those mockups."
+}

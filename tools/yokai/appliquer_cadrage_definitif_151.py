@@ -10,6 +10,10 @@ R=Path(__file__).resolve().parents[2];Q=R/'QA_RECETTE_FINALE/CADRAGE_COMBATS_151
 def bounds(path):
  im=Image.open(path);m=Image.new('L',im.size);m.putdata([255 if v else 0 for v in im.get_flattened_data()]);return m.getbbox()
 def main():
+ if (R/'src/data/yokai_battle_geometry.h').exists():
+  import runpy
+  runpy.run_path(str(R/'tools/yokai/generer_geometrie_combat_etendue.py'),run_name='__main__')
+  return
  baseline=json.loads((Q/'sources/ETAT_AVANT.json').read_text());measures=[]
  policy_path=R/'data/yokai/shiny_artwork_policy.json';dedicated=not policy_path.exists() or json.loads(policy_path.read_text())['dedicated_bitmaps_enabled']
  for mon in baseline['species']:

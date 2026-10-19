@@ -1,0 +1,8156 @@
+[
+  {
+    "number": 1,
+    "name": "Jibanyan",
+    "side": "front",
+    "reference_bbox": [
+      143,
+      14,
+      206,
+      70
+    ],
+    "source_size": [
+      56,
+      46
+    ],
+    "inverse_x_q8": 228,
+    "inverse_y_q8": 211,
+    "offset_x": -2,
+    "offset_y": 1,
+    "left": -31,
+    "top": -27,
+    "width": 63,
+    "height": 55,
+    "desired_width": 63,
+    "desired_full_height": 56,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 1,
+    "name": "Jibanyan",
+    "side": "back",
+    "reference_bbox": [
+      37,
+      66,
+      105,
+      113
+    ],
+    "source_size": [
+      56,
+      48
+    ],
+    "inverse_x_q8": 211,
+    "inverse_y_q8": 212,
+    "offset_x": -2,
+    "offset_y": 13,
+    "left": -33,
+    "top": -28,
+    "width": 67,
+    "height": 57,
+    "desired_width": 68,
+    "desired_full_height": 58,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 2,
+    "name": "Bandinyan",
+    "side": "front",
+    "reference_bbox": [
+      137,
+      16,
+      207,
+      68
+    ],
+    "source_size": [
+      56,
+      38
+    ],
+    "inverse_x_q8": 205,
+    "inverse_y_q8": 188,
+    "offset_x": -5,
+    "offset_y": 1,
+    "left": -34,
+    "top": -25,
+    "width": 69,
+    "height": 51,
+    "desired_width": 70,
+    "desired_full_height": 52,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 2,
+    "name": "Bandinyan",
+    "side": "back",
+    "reference_bbox": [
+      29,
+      70,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      45
+    ],
+    "inverse_x_q8": 205,
+    "inverse_y_q8": 206,
+    "offset_x": -9,
+    "offset_y": 16,
+    "left": -34,
+    "top": -27,
+    "width": 69,
+    "height": 56,
+    "desired_width": 70,
+    "desired_full_height": 56,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 3,
+    "name": "Épinyan",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      12,
+      216,
+      68
+    ],
+    "source_size": [
+      56,
+      42
+    ],
+    "inverse_x_q8": 200,
+    "inverse_y_q8": 192,
+    "offset_x": 3,
+    "offset_y": 0,
+    "left": -35,
+    "top": -28,
+    "width": 71,
+    "height": 56,
+    "desired_width": 72,
+    "desired_full_height": 56,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 3,
+    "name": "Épinyan",
+    "side": "back",
+    "reference_bbox": [
+      27,
+      67,
+      112,
+      113
+    ],
+    "source_size": [
+      56,
+      40
+    ],
+    "inverse_x_q8": 169,
+    "inverse_y_q8": 168,
+    "offset_x": -3,
+    "offset_y": 16,
+    "left": -42,
+    "top": -30,
+    "width": 85,
+    "height": 61,
+    "desired_width": 85,
+    "desired_full_height": 61,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 4,
+    "name": "Shogunyan",
+    "side": "front",
+    "reference_bbox": [
+      142,
+      18,
+      210,
+      69
+    ],
+    "source_size": [
+      56,
+      41
+    ],
+    "inverse_x_q8": 211,
+    "inverse_y_q8": 206,
+    "offset_x": -1,
+    "offset_y": 2,
+    "left": -33,
+    "top": -24,
+    "width": 67,
+    "height": 51,
+    "desired_width": 68,
+    "desired_full_height": 51,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 4,
+    "name": "Shogunyan",
+    "side": "back",
+    "reference_bbox": [
+      30,
+      66,
+      110,
+      113
+    ],
+    "source_size": [
+      56,
+      41
+    ],
+    "inverse_x_q8": 180,
+    "inverse_y_q8": 178,
+    "offset_x": -3,
+    "offset_y": 13,
+    "left": -39,
+    "top": -28,
+    "width": 79,
+    "height": 59,
+    "desired_width": 80,
+    "desired_full_height": 59,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 5,
+    "name": "Komasan",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      11,
+      203,
+      71
+    ],
+    "source_size": [
+      53,
+      56
+    ],
+    "inverse_x_q8": 230,
+    "inverse_y_q8": 239,
+    "offset_x": -4,
+    "offset_y": 0,
+    "left": -28,
+    "top": -29,
+    "width": 59,
+    "height": 59,
+    "desired_width": 59,
+    "desired_full_height": 60,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 5,
+    "name": "Komasan",
+    "side": "back",
+    "reference_bbox": [
+      36,
+      56,
+      99,
+      113
+    ],
+    "source_size": [
+      49,
+      56
+    ],
+    "inverse_x_q8": 199,
+    "inverse_y_q8": 200,
+    "offset_x": -6,
+    "offset_y": 10,
+    "left": -30,
+    "top": -35,
+    "width": 63,
+    "height": 71,
+    "desired_width": 63,
+    "desired_full_height": 72,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 6,
+    "name": "Komaous",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      9,
+      218,
+      71
+    ],
+    "source_size": [
+      56,
+      45
+    ],
+    "inverse_x_q8": 194,
+    "inverse_y_q8": 186,
+    "offset_x": 4,
+    "offset_y": -1,
+    "left": -36,
+    "top": -30,
+    "width": 73,
+    "height": 62,
+    "desired_width": 74,
+    "desired_full_height": 62,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 6,
+    "name": "Komaous",
+    "side": "back",
+    "reference_bbox": [
+      29,
+      65,
+      103,
+      113
+    ],
+    "source_size": [
+      56,
+      48
+    ],
+    "inverse_x_q8": 194,
+    "inverse_y_q8": 195,
+    "offset_x": -7,
+    "offset_y": 15,
+    "left": -36,
+    "top": -31,
+    "width": 73,
+    "height": 63,
+    "desired_width": 74,
+    "desired_full_height": 63,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 7,
+    "name": "Komastar",
+    "side": "front",
+    "reference_bbox": [
+      142,
+      16,
+      211,
+      72
+    ],
+    "source_size": [
+      56,
+      46
+    ],
+    "inverse_x_q8": 208,
+    "inverse_y_q8": 211,
+    "offset_x": 0,
+    "offset_y": 3,
+    "left": -34,
+    "top": -27,
+    "width": 69,
+    "height": 55,
+    "desired_width": 69,
+    "desired_full_height": 56,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 7,
+    "name": "Komastar",
+    "side": "back",
+    "reference_bbox": [
+      24,
+      64,
+      103,
+      113
+    ],
+    "source_size": [
+      56,
+      42
+    ],
+    "inverse_x_q8": 181,
+    "inverse_y_q8": 182,
+    "offset_x": -9,
+    "offset_y": 12,
+    "left": -39,
+    "top": -29,
+    "width": 79,
+    "height": 59,
+    "desired_width": 79,
+    "desired_full_height": 59,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 8,
+    "name": "Whisper",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      10,
+      207,
+      71
+    ],
+    "source_size": [
+      56,
+      54
+    ],
+    "inverse_x_q8": 228,
+    "inverse_y_q8": 227,
+    "offset_x": -1,
+    "offset_y": 0,
+    "left": -31,
+    "top": -30,
+    "width": 63,
+    "height": 61,
+    "desired_width": 63,
+    "desired_full_height": 61,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 8,
+    "name": "Whisper",
+    "side": "back",
+    "reference_bbox": [
+      33,
+      60,
+      101,
+      113
+    ],
+    "source_size": [
+      56,
+      55
+    ],
+    "inverse_x_q8": 211,
+    "inverse_y_q8": 210,
+    "offset_x": -6,
+    "offset_y": 11,
+    "left": -33,
+    "top": -32,
+    "width": 67,
+    "height": 67,
+    "desired_width": 68,
+    "desired_full_height": 67,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 9,
+    "name": "Cigalopin",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      22,
+      202,
+      69
+    ],
+    "source_size": [
+      56,
+      50
+    ],
+    "inverse_x_q8": 248,
+    "inverse_y_q8": 272,
+    "offset_x": -4,
+    "offset_y": 5,
+    "left": -28,
+    "top": -23,
+    "width": 57,
+    "height": 47,
+    "desired_width": 58,
+    "desired_full_height": 47,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 9,
+    "name": "Cigalopin",
+    "side": "back",
+    "reference_bbox": [
+      39,
+      76,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      47
+    ],
+    "inverse_x_q8": 239,
+    "inverse_y_q8": 241,
+    "offset_x": -4,
+    "offset_y": 19,
+    "left": -29,
+    "top": -24,
+    "width": 59,
+    "height": 50,
+    "desired_width": 60,
+    "desired_full_height": 50,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 10,
+    "name": "Cigallard",
+    "side": "front",
+    "reference_bbox": [
+      141,
+      12,
+      203,
+      69
+    ],
+    "source_size": [
+      56,
+      46
+    ],
+    "inverse_x_q8": 232,
+    "inverse_y_q8": 207,
+    "offset_x": -5,
+    "offset_y": 0,
+    "left": -30,
+    "top": -28,
+    "width": 61,
+    "height": 57,
+    "desired_width": 62,
+    "desired_full_height": 57,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 10,
+    "name": "Cigallard",
+    "side": "back",
+    "reference_bbox": [
+      37,
+      65,
+      105,
+      113
+    ],
+    "source_size": [
+      56,
+      50
+    ],
+    "inverse_x_q8": 211,
+    "inverse_y_q8": 210,
+    "offset_x": -2,
+    "offset_y": 14,
+    "left": -33,
+    "top": -30,
+    "width": 67,
+    "height": 61,
+    "desired_width": 68,
+    "desired_full_height": 61,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 11,
+    "name": "Murhaine",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      20,
+      207,
+      65
+    ],
+    "source_size": [
+      56,
+      41
+    ],
+    "inverse_x_q8": 228,
+    "inverse_y_q8": 233,
+    "offset_x": -1,
+    "offset_y": 1,
+    "left": -31,
+    "top": -21,
+    "width": 63,
+    "height": 45,
+    "desired_width": 63,
+    "desired_full_height": 45,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 11,
+    "name": "Murhaine",
+    "side": "back",
+    "reference_bbox": [
+      24,
+      75,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      44
+    ],
+    "inverse_x_q8": 191,
+    "inverse_y_q8": 191,
+    "offset_x": -11,
+    "offset_y": 23,
+    "left": -37,
+    "top": -29,
+    "width": 75,
+    "height": 59,
+    "desired_width": 75,
+    "desired_full_height": 59,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 12,
+    "name": "Saumhonni",
+    "side": "front",
+    "reference_bbox": [
+      139,
+      13,
+      207,
+      66
+    ],
+    "source_size": [
+      56,
+      41
+    ],
+    "inverse_x_q8": 211,
+    "inverse_y_q8": 198,
+    "offset_x": -4,
+    "offset_y": -2,
+    "left": -33,
+    "top": -25,
+    "width": 67,
+    "height": 53,
+    "desired_width": 68,
+    "desired_full_height": 53,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 12,
+    "name": "Saumhonni",
+    "side": "back",
+    "reference_bbox": [
+      27,
+      69,
+      105,
+      113
+    ],
+    "source_size": [
+      56,
+      42
+    ],
+    "inverse_x_q8": 184,
+    "inverse_y_q8": 186,
+    "offset_x": -7,
+    "offset_y": 16,
+    "left": -38,
+    "top": -28,
+    "width": 77,
+    "height": 57,
+    "desired_width": 78,
+    "desired_full_height": 58,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 13,
+    "name": "Dracounet",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      8,
+      192,
+      67
+    ],
+    "source_size": [
+      38,
+      56
+    ],
+    "inverse_x_q8": 203,
+    "inverse_y_q8": 243,
+    "offset_x": -9,
+    "offset_y": -3,
+    "left": -23,
+    "top": -29,
+    "width": 47,
+    "height": 59,
+    "desired_width": 48,
+    "desired_full_height": 59,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 13,
+    "name": "Dracounet",
+    "side": "back",
+    "reference_bbox": [
+      40,
+      63,
+      99,
+      113
+    ],
+    "source_size": [
+      41,
+      56
+    ],
+    "inverse_x_q8": 178,
+    "inverse_y_q8": 177,
+    "offset_x": -4,
+    "offset_y": 22,
+    "left": -28,
+    "top": -40,
+    "width": 59,
+    "height": 81,
+    "desired_width": 59,
+    "desired_full_height": 81,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 14,
+    "name": "Sir Dragon",
+    "side": "front",
+    "reference_bbox": [
+      135,
+      8,
+      216,
+      70
+    ],
+    "source_size": [
+      56,
+      41
+    ],
+    "inverse_x_q8": 177,
+    "inverse_y_q8": 169,
+    "offset_x": -1,
+    "offset_y": -2,
+    "left": -40,
+    "top": -30,
+    "width": 81,
+    "height": 62,
+    "desired_width": 81,
+    "desired_full_height": 62,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 14,
+    "name": "Sir Dragon",
+    "side": "back",
+    "reference_bbox": [
+      26,
+      63,
+      102,
+      113
+    ],
+    "source_size": [
+      56,
+      47
+    ],
+    "inverse_x_q8": 189,
+    "inverse_y_q8": 188,
+    "offset_x": -9,
+    "offset_y": 13,
+    "left": -37,
+    "top": -31,
+    "width": 75,
+    "height": 64,
+    "desired_width": 76,
+    "desired_full_height": 64,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 15,
+    "name": "Octorgone",
+    "side": "front",
+    "reference_bbox": [
+      141,
+      12,
+      212,
+      70
+    ],
+    "source_size": [
+      56,
+      43
+    ],
+    "inverse_x_q8": 202,
+    "inverse_y_q8": 190,
+    "offset_x": 0,
+    "offset_y": 0,
+    "left": -35,
+    "top": -28,
+    "width": 71,
+    "height": 58,
+    "desired_width": 71,
+    "desired_full_height": 58,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 15,
+    "name": "Octorgone",
+    "side": "back",
+    "reference_bbox": [
+      24,
+      69,
+      106,
+      113
+    ],
+    "source_size": [
+      56,
+      41
+    ],
+    "inverse_x_q8": 175,
+    "inverse_y_q8": 175,
+    "offset_x": -8,
+    "offset_y": 17,
+    "left": -40,
+    "top": -29,
+    "width": 81,
+    "height": 60,
+    "desired_width": 82,
+    "desired_full_height": 60,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 16,
+    "name": "Kyubi",
+    "side": "front",
+    "reference_bbox": [
+      139,
+      11,
+      215,
+      70
+    ],
+    "source_size": [
+      56,
+      41
+    ],
+    "inverse_x_q8": 189,
+    "inverse_y_q8": 178,
+    "offset_x": 0,
+    "offset_y": -1,
+    "left": -37,
+    "top": -28,
+    "width": 75,
+    "height": 59,
+    "desired_width": 76,
+    "desired_full_height": 59,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 16,
+    "name": "Kyubi",
+    "side": "back",
+    "reference_bbox": [
+      20,
+      66,
+      107,
+      113
+    ],
+    "source_size": [
+      56,
+      41
+    ],
+    "inverse_x_q8": 165,
+    "inverse_y_q8": 164,
+    "offset_x": -9,
+    "offset_y": 16,
+    "left": -43,
+    "top": -31,
+    "width": 87,
+    "height": 64,
+    "desired_width": 87,
+    "desired_full_height": 64,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 17,
+    "name": "Robonyan",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      18,
+      202,
+      70
+    ],
+    "source_size": [
+      56,
+      51
+    ],
+    "inverse_x_q8": 248,
+    "inverse_y_q8": 251,
+    "offset_x": -4,
+    "offset_y": 3,
+    "left": -28,
+    "top": -25,
+    "width": 57,
+    "height": 52,
+    "desired_width": 58,
+    "desired_full_height": 52,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 17,
+    "name": "Robonyan",
+    "side": "back",
+    "reference_bbox": [
+      37,
+      69,
+      105,
+      113
+    ],
+    "source_size": [
+      54,
+      47
+    ],
+    "inverse_x_q8": 204,
+    "inverse_y_q8": 204,
+    "offset_x": -2,
+    "offset_y": 16,
+    "left": -33,
+    "top": -28,
+    "width": 67,
+    "height": 59,
+    "desired_width": 68,
+    "desired_full_height": 59,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 18,
+    "name": "Robonyan F",
+    "side": "front",
+    "reference_bbox": [
+      143,
+      16,
+      206,
+      71
+    ],
+    "source_size": [
+      56,
+      47
+    ],
+    "inverse_x_q8": 228,
+    "inverse_y_q8": 219,
+    "offset_x": -2,
+    "offset_y": 2,
+    "left": -31,
+    "top": -26,
+    "width": 63,
+    "height": 55,
+    "desired_width": 63,
+    "desired_full_height": 55,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 18,
+    "name": "Robonyan F",
+    "side": "back",
+    "reference_bbox": [
+      31,
+      65,
+      101,
+      113
+    ],
+    "source_size": [
+      56,
+      46
+    ],
+    "inverse_x_q8": 205,
+    "inverse_y_q8": 204,
+    "offset_x": -7,
+    "offset_y": 12,
+    "left": -34,
+    "top": -28,
+    "width": 69,
+    "height": 57,
+    "desired_width": 70,
+    "desired_full_height": 58,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 19,
+    "name": "Robonyan 28",
+    "side": "front",
+    "reference_bbox": [
+      130,
+      9,
+      221,
+      71
+    ],
+    "source_size": [
+      56,
+      37
+    ],
+    "inverse_x_q8": 158,
+    "inverse_y_q8": 153,
+    "offset_x": -1,
+    "offset_y": -1,
+    "left": -45,
+    "top": -30,
+    "width": 91,
+    "height": 62,
+    "desired_width": 91,
+    "desired_full_height": 62,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 19,
+    "name": "Robonyan 28",
+    "side": "back",
+    "reference_bbox": [
+      25,
+      66,
+      121,
+      113
+    ],
+    "source_size": [
+      56,
+      44
+    ],
+    "inverse_x_q8": 150,
+    "inverse_y_q8": 150,
+    "offset_x": 0,
+    "offset_y": 22,
+    "left": -47,
+    "top": -37,
+    "width": 95,
+    "height": 75,
+    "desired_width": 96,
+    "desired_full_height": 75,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 20,
+    "name": "Faux Kappa",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      15,
+      201,
+      72
+    ],
+    "source_size": [
+      54,
+      56
+    ],
+    "inverse_x_q8": 243,
+    "inverse_y_q8": 252,
+    "offset_x": -4,
+    "offset_y": 3,
+    "left": -28,
+    "top": -28,
+    "width": 57,
+    "height": 57,
+    "desired_width": 57,
+    "desired_full_height": 57,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 20,
+    "name": "Faux Kappa",
+    "side": "back",
+    "reference_bbox": [
+      36,
+      66,
+      99,
+      113
+    ],
+    "source_size": [
+      55,
+      56
+    ],
+    "inverse_x_q8": 223,
+    "inverse_y_q8": 224,
+    "offset_x": -6,
+    "offset_y": 17,
+    "left": -30,
+    "top": -32,
+    "width": 63,
+    "height": 64,
+    "desired_width": 63,
+    "desired_full_height": 64,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 21,
+    "name": "Tukappa",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      8,
+      201,
+      71
+    ],
+    "source_size": [
+      49,
+      56
+    ],
+    "inverse_x_q8": 220,
+    "inverse_y_q8": 228,
+    "offset_x": -5,
+    "offset_y": -1,
+    "left": -27,
+    "top": -31,
+    "width": 57,
+    "height": 63,
+    "desired_width": 57,
+    "desired_full_height": 63,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 21,
+    "name": "Tukappa",
+    "side": "back",
+    "reference_bbox": [
+      31,
+      65,
+      99,
+      113
+    ],
+    "source_size": [
+      54,
+      56
+    ],
+    "inverse_x_q8": 204,
+    "inverse_y_q8": 202,
+    "offset_x": -8,
+    "offset_y": 19,
+    "left": -33,
+    "top": -35,
+    "width": 67,
+    "height": 71,
+    "desired_width": 68,
+    "desired_full_height": 71,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 22,
+    "name": "Granpapéti",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      10,
+      200,
+      70
+    ],
+    "source_size": [
+      44,
+      56
+    ],
+    "inverse_x_q8": 202,
+    "inverse_y_q8": 239,
+    "offset_x": -5,
+    "offset_y": -1,
+    "left": -27,
+    "top": -29,
+    "width": 55,
+    "height": 59,
+    "desired_width": 56,
+    "desired_full_height": 60,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 22,
+    "name": "Granpapéti",
+    "side": "back",
+    "reference_bbox": [
+      37,
+      68,
+      99,
+      113
+    ],
+    "source_size": [
+      46,
+      53
+    ],
+    "inverse_x_q8": 190,
+    "inverse_y_q8": 191,
+    "offset_x": -5,
+    "offset_y": 21,
+    "left": -30,
+    "top": -34,
+    "width": 61,
+    "height": 71,
+    "desired_width": 62,
+    "desired_full_height": 71,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 23,
+    "name": "Puissanfon",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      17,
+      207,
+      68
+    ],
+    "source_size": [
+      56,
+      45
+    ],
+    "inverse_x_q8": 228,
+    "inverse_y_q8": 226,
+    "offset_x": -1,
+    "offset_y": 1,
+    "left": -31,
+    "top": -24,
+    "width": 63,
+    "height": 51,
+    "desired_width": 63,
+    "desired_full_height": 51,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 23,
+    "name": "Puissanfon",
+    "side": "back",
+    "reference_bbox": [
+      36,
+      68,
+      100,
+      113
+    ],
+    "source_size": [
+      56,
+      45
+    ],
+    "inverse_x_q8": 224,
+    "inverse_y_q8": 226,
+    "offset_x": -4,
+    "offset_y": 11,
+    "left": -32,
+    "top": -24,
+    "width": 64,
+    "height": 51,
+    "desired_width": 64,
+    "desired_full_height": 51,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 24,
+    "name": "Nanpart",
+    "side": "front",
+    "reference_bbox": [
+      142,
+      20,
+      208,
+      67
+    ],
+    "source_size": [
+      56,
+      39
+    ],
+    "inverse_x_q8": 218,
+    "inverse_y_q8": 212,
+    "offset_x": -2,
+    "offset_y": 2,
+    "left": -32,
+    "top": -22,
+    "width": 65,
+    "height": 47,
+    "desired_width": 66,
+    "desired_full_height": 47,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 24,
+    "name": "Nanpart",
+    "side": "back",
+    "reference_bbox": [
+      30,
+      77,
+      104,
+      113
+    ],
+    "source_size": [
+      56,
+      38
+    ],
+    "inverse_x_q8": 194,
+    "inverse_y_q8": 195,
+    "offset_x": -6,
+    "offset_y": 20,
+    "left": -36,
+    "top": -24,
+    "width": 73,
+    "height": 49,
+    "desired_width": 74,
+    "desired_full_height": 50,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 25,
+    "name": "Passpa",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      12,
+      211,
+      68
+    ],
+    "source_size": [
+      56,
+      47
+    ],
+    "inverse_x_q8": 214,
+    "inverse_y_q8": 215,
+    "offset_x": 1,
+    "offset_y": -1,
+    "left": -33,
+    "top": -27,
+    "width": 67,
+    "height": 56,
+    "desired_width": 67,
+    "desired_full_height": 56,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 25,
+    "name": "Passpa",
+    "side": "back",
+    "reference_bbox": [
+      33,
+      67,
+      104,
+      113
+    ],
+    "source_size": [
+      56,
+      52
+    ],
+    "inverse_x_q8": 202,
+    "inverse_y_q8": 202,
+    "offset_x": -4,
+    "offset_y": 18,
+    "left": -35,
+    "top": -32,
+    "width": 71,
+    "height": 65,
+    "desired_width": 71,
+    "desired_full_height": 66,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 26,
+    "name": "Angélik",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      12,
+      204,
+      67
+    ],
+    "source_size": [
+      56,
+      53
+    ],
+    "inverse_x_q8": 239,
+    "inverse_y_q8": 247,
+    "offset_x": -3,
+    "offset_y": -2,
+    "left": -29,
+    "top": -26,
+    "width": 59,
+    "height": 54,
+    "desired_width": 60,
+    "desired_full_height": 55,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 26,
+    "name": "Angélik",
+    "side": "back",
+    "reference_bbox": [
+      33,
+      64,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      55
+    ],
+    "inverse_x_q8": 218,
+    "inverse_y_q8": 217,
+    "offset_x": -7,
+    "offset_y": 14,
+    "left": -32,
+    "top": -31,
+    "width": 65,
+    "height": 65,
+    "desired_width": 66,
+    "desired_full_height": 65,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 27,
+    "name": "Blizzaria",
+    "side": "front",
+    "reference_bbox": [
+      145,
+      7,
+      209,
+      69
+    ],
+    "source_size": [
+      56,
+      55
+    ],
+    "inverse_x_q8": 224,
+    "inverse_y_q8": 227,
+    "offset_x": 1,
+    "offset_y": -3,
+    "left": -32,
+    "top": -30,
+    "width": 64,
+    "height": 62,
+    "desired_width": 64,
+    "desired_full_height": 62,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 27,
+    "name": "Blizzaria",
+    "side": "back",
+    "reference_bbox": [
+      29,
+      64,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      56
+    ],
+    "inverse_x_q8": 205,
+    "inverse_y_q8": 205,
+    "offset_x": -9,
+    "offset_y": 17,
+    "left": -34,
+    "top": -34,
+    "width": 69,
+    "height": 69,
+    "desired_width": 70,
+    "desired_full_height": 70,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 28,
+    "name": "Feulion",
+    "side": "front",
+    "reference_bbox": [
+      138,
+      11,
+      205,
+      68
+    ],
+    "source_size": [
+      56,
+      47
+    ],
+    "inverse_x_q8": 214,
+    "inverse_y_q8": 211,
+    "offset_x": -5,
+    "offset_y": -2,
+    "left": -33,
+    "top": -27,
+    "width": 67,
+    "height": 57,
+    "desired_width": 67,
+    "desired_full_height": 57,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 28,
+    "name": "Feulion",
+    "side": "back",
+    "reference_bbox": [
+      36,
+      59,
+      110,
+      113
+    ],
+    "source_size": [
+      56,
+      50
+    ],
+    "inverse_x_q8": 194,
+    "inverse_y_q8": 194,
+    "offset_x": 0,
+    "offset_y": 10,
+    "left": -36,
+    "top": -32,
+    "width": 73,
+    "height": 65,
+    "desired_width": 74,
+    "desired_full_height": 66,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 29,
+    "name": "Padrézo",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      10,
+      213,
+      64
+    ],
+    "source_size": [
+      56,
+      44
+    ],
+    "inverse_x_q8": 208,
+    "inverse_y_q8": 209,
+    "offset_x": 2,
+    "offset_y": -4,
+    "left": -34,
+    "top": -26,
+    "width": 69,
+    "height": 53,
+    "desired_width": 69,
+    "desired_full_height": 54,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 29,
+    "name": "Padrézo",
+    "side": "back",
+    "reference_bbox": [
+      28,
+      62,
+      106,
+      113
+    ],
+    "source_size": [
+      56,
+      46
+    ],
+    "inverse_x_q8": 184,
+    "inverse_y_q8": 184,
+    "offset_x": -6,
+    "offset_y": 13,
+    "left": -38,
+    "top": -32,
+    "width": 77,
+    "height": 64,
+    "desired_width": 78,
+    "desired_full_height": 64,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 30,
+    "name": "Émettor",
+    "side": "front",
+    "reference_bbox": [
+      139,
+      7,
+      217,
+      68
+    ],
+    "source_size": [
+      56,
+      43
+    ],
+    "inverse_x_q8": 184,
+    "inverse_y_q8": 180,
+    "offset_x": 1,
+    "offset_y": -4,
+    "left": -38,
+    "top": -29,
+    "width": 77,
+    "height": 61,
+    "desired_width": 78,
+    "desired_full_height": 61,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 30,
+    "name": "Émettor",
+    "side": "back",
+    "reference_bbox": [
+      24,
+      59,
+      115,
+      113
+    ],
+    "source_size": [
+      56,
+      44
+    ],
+    "inverse_x_q8": 158,
+    "inverse_y_q8": 157,
+    "offset_x": -3,
+    "offset_y": 13,
+    "left": -45,
+    "top": -35,
+    "width": 91,
+    "height": 71,
+    "desired_width": 91,
+    "desired_full_height": 72,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 31,
+    "name": "Crocho",
+    "side": "front",
+    "reference_bbox": [
+      138,
+      15,
+      207,
+      69
+    ],
+    "source_size": [
+      56,
+      44
+    ],
+    "inverse_x_q8": 208,
+    "inverse_y_q8": 209,
+    "offset_x": -4,
+    "offset_y": 1,
+    "left": -34,
+    "top": -26,
+    "width": 69,
+    "height": 53,
+    "desired_width": 69,
+    "desired_full_height": 54,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 31,
+    "name": "Crocho",
+    "side": "back",
+    "reference_bbox": [
+      30,
+      66,
+      107,
+      113
+    ],
+    "source_size": [
+      56,
+      44
+    ],
+    "inverse_x_q8": 186,
+    "inverse_y_q8": 188,
+    "offset_x": -4,
+    "offset_y": 14,
+    "left": -38,
+    "top": -29,
+    "width": 77,
+    "height": 59,
+    "desired_width": 77,
+    "desired_full_height": 60,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 32,
+    "name": "Potofeu",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      13,
+      209,
+      67
+    ],
+    "source_size": [
+      56,
+      46
+    ],
+    "inverse_x_q8": 221,
+    "inverse_y_q8": 219,
+    "offset_x": 0,
+    "offset_y": -1,
+    "left": -32,
+    "top": -26,
+    "width": 65,
+    "height": 53,
+    "desired_width": 65,
+    "desired_full_height": 54,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 32,
+    "name": "Potofeu",
+    "side": "back",
+    "reference_bbox": [
+      31,
+      68,
+      109,
+      113
+    ],
+    "source_size": [
+      56,
+      47
+    ],
+    "inverse_x_q8": 184,
+    "inverse_y_q8": 185,
+    "offset_x": -3,
+    "offset_y": 18,
+    "left": -38,
+    "top": -31,
+    "width": 77,
+    "height": 65,
+    "desired_width": 78,
+    "desired_full_height": 65,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 33,
+    "name": "Misterre",
+    "side": "front",
+    "reference_bbox": [
+      133,
+      10,
+      212,
+      68
+    ],
+    "source_size": [
+      56,
+      40
+    ],
+    "inverse_x_q8": 181,
+    "inverse_y_q8": 177,
+    "offset_x": -4,
+    "offset_y": -2,
+    "left": -39,
+    "top": -28,
+    "width": 79,
+    "height": 57,
+    "desired_width": 79,
+    "desired_full_height": 58,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 33,
+    "name": "Misterre",
+    "side": "back",
+    "reference_bbox": [
+      27,
+      62,
+      113,
+      113
+    ],
+    "source_size": [
+      56,
+      41
+    ],
+    "inverse_x_q8": 167,
+    "inverse_y_q8": 167,
+    "offset_x": -3,
+    "offset_y": 11,
+    "left": -42,
+    "top": -30,
+    "width": 85,
+    "height": 63,
+    "desired_width": 86,
+    "desired_full_height": 63,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 34,
+    "name": "Métaureaulog",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      10,
+      202,
+      68
+    ],
+    "source_size": [
+      51,
+      56
+    ],
+    "inverse_x_q8": 225,
+    "inverse_y_q8": 248,
+    "offset_x": -4,
+    "offset_y": -2,
+    "left": -28,
+    "top": -28,
+    "width": 58,
+    "height": 57,
+    "desired_width": 58,
+    "desired_full_height": 58,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 34,
+    "name": "Métaureaulog",
+    "side": "back",
+    "reference_bbox": [
+      41,
+      63,
+      104,
+      113
+    ],
+    "source_size": [
+      52,
+      56
+    ],
+    "inverse_x_q8": 211,
+    "inverse_y_q8": 211,
+    "offset_x": 0,
+    "offset_y": 15,
+    "left": -31,
+    "top": -33,
+    "width": 63,
+    "height": 67,
+    "desired_width": 63,
+    "desired_full_height": 68,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 35,
+    "name": "Tauracle",
+    "side": "front",
+    "reference_bbox": [
+      142,
+      9,
+      211,
+      68
+    ],
+    "source_size": [
+      56,
+      47
+    ],
+    "inverse_x_q8": 208,
+    "inverse_y_q8": 204,
+    "offset_x": 0,
+    "offset_y": -3,
+    "left": -34,
+    "top": -28,
+    "width": 69,
+    "height": 59,
+    "desired_width": 69,
+    "desired_full_height": 59,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 35,
+    "name": "Tauracle",
+    "side": "back",
+    "reference_bbox": [
+      31,
+      66,
+      107,
+      113
+    ],
+    "source_size": [
+      56,
+      46
+    ],
+    "inverse_x_q8": 189,
+    "inverse_y_q8": 190,
+    "offset_x": -4,
+    "offset_y": 15,
+    "left": -37,
+    "top": -30,
+    "width": 75,
+    "height": 61,
+    "desired_width": 76,
+    "desired_full_height": 62,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 36,
+    "name": "Poulpatouch",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      19,
+      204,
+      68
+    ],
+    "source_size": [
+      56,
+      45
+    ],
+    "inverse_x_q8": 239,
+    "inverse_y_q8": 235,
+    "offset_x": -3,
+    "offset_y": 2,
+    "left": -29,
+    "top": -23,
+    "width": 59,
+    "height": 49,
+    "desired_width": 60,
+    "desired_full_height": 49,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 36,
+    "name": "Poulpatouch",
+    "side": "back",
+    "reference_bbox": [
+      33,
+      71,
+      100,
+      113
+    ],
+    "source_size": [
+      56,
+      46
+    ],
+    "inverse_x_q8": 214,
+    "inverse_y_q8": 214,
+    "offset_x": -6,
+    "offset_y": 17,
+    "left": -33,
+    "top": -27,
+    "width": 67,
+    "height": 55,
+    "desired_width": 67,
+    "desired_full_height": 55,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 37,
+    "name": "Poulpater",
+    "side": "front",
+    "reference_bbox": [
+      137,
+      6,
+      215,
+      70
+    ],
+    "source_size": [
+      56,
+      46
+    ],
+    "inverse_x_q8": 184,
+    "inverse_y_q8": 184,
+    "offset_x": -1,
+    "offset_y": -2,
+    "left": -38,
+    "top": -32,
+    "width": 77,
+    "height": 64,
+    "desired_width": 78,
+    "desired_full_height": 64,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 37,
+    "name": "Poulpater",
+    "side": "back",
+    "reference_bbox": [
+      27,
+      57,
+      109,
+      113
+    ],
+    "source_size": [
+      56,
+      47
+    ],
+    "inverse_x_q8": 175,
+    "inverse_y_q8": 174,
+    "offset_x": -5,
+    "offset_y": 9,
+    "left": -40,
+    "top": -33,
+    "width": 81,
+    "height": 69,
+    "desired_width": 82,
+    "desired_full_height": 69,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 38,
+    "name": "Bonneto",
+    "side": "front",
+    "reference_bbox": [
+      136,
+      3,
+      202,
+      70
+    ],
+    "source_size": [
+      55,
+      56
+    ],
+    "inverse_x_q8": 213,
+    "inverse_y_q8": 214,
+    "offset_x": -8,
+    "offset_y": -4,
+    "left": -32,
+    "top": -33,
+    "width": 66,
+    "height": 67,
+    "desired_width": 66,
+    "desired_full_height": 67,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 38,
+    "name": "Bonneto",
+    "side": "back",
+    "reference_bbox": [
+      37,
+      55,
+      107,
+      113
+    ],
+    "source_size": [
+      53,
+      56
+    ],
+    "inverse_x_q8": 194,
+    "inverse_y_q8": 194,
+    "offset_x": -1,
+    "offset_y": 10,
+    "left": -34,
+    "top": -36,
+    "width": 70,
+    "height": 73,
+    "desired_width": 70,
+    "desired_full_height": 74,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 39,
+    "name": "Sabri",
+    "side": "front",
+    "reference_bbox": [
+      140,
+      3,
+      210,
+      69
+    ],
+    "source_size": [
+      56,
+      53
+    ],
+    "inverse_x_q8": 205,
+    "inverse_y_q8": 206,
+    "offset_x": -2,
+    "offset_y": -5,
+    "left": -34,
+    "top": -32,
+    "width": 69,
+    "height": 66,
+    "desired_width": 70,
+    "desired_full_height": 66,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 39,
+    "name": "Sabri",
+    "side": "back",
+    "reference_bbox": [
+      29,
+      55,
+      111,
+      113
+    ],
+    "source_size": [
+      56,
+      51
+    ],
+    "inverse_x_q8": 175,
+    "inverse_y_q8": 174,
+    "offset_x": -3,
+    "offset_y": 10,
+    "left": -40,
+    "top": -36,
+    "width": 81,
+    "height": 75,
+    "desired_width": 82,
+    "desired_full_height": 75,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 40,
+    "name": "Démophage",
+    "side": "front",
+    "reference_bbox": [
+      138,
+      12,
+      209,
+      68
+    ],
+    "source_size": [
+      56,
+      43
+    ],
+    "inverse_x_q8": 202,
+    "inverse_y_q8": 197,
+    "offset_x": -3,
+    "offset_y": -1,
+    "left": -35,
+    "top": -27,
+    "width": 71,
+    "height": 56,
+    "desired_width": 71,
+    "desired_full_height": 56,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 40,
+    "name": "Démophage",
+    "side": "back",
+    "reference_bbox": [
+      31,
+      66,
+      109,
+      113
+    ],
+    "source_size": [
+      56,
+      43
+    ],
+    "inverse_x_q8": 184,
+    "inverse_y_q8": 183,
+    "offset_x": -3,
+    "offset_y": 14,
+    "left": -38,
+    "top": -29,
+    "width": 77,
+    "height": 60,
+    "desired_width": 78,
+    "desired_full_height": 60,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 41,
+    "name": "Brumette",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      18,
+      200,
+      68
+    ],
+    "source_size": [
+      56,
+      52
+    ],
+    "inverse_x_q8": 256,
+    "inverse_y_q8": 267,
+    "offset_x": -4,
+    "offset_y": 2,
+    "left": -28,
+    "top": -24,
+    "width": 56,
+    "height": 49,
+    "desired_width": 56,
+    "desired_full_height": 50,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 41,
+    "name": "Brumette",
+    "side": "back",
+    "reference_bbox": [
+      37,
+      67,
+      99,
+      113
+    ],
+    "source_size": [
+      55,
+      52
+    ],
+    "inverse_x_q8": 227,
+    "inverse_y_q8": 226,
+    "offset_x": -5,
+    "offset_y": 15,
+    "left": -30,
+    "top": -29,
+    "width": 62,
+    "height": 59,
+    "desired_width": 62,
+    "desired_full_height": 59,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 42,
+    "name": "Brumella",
+    "side": "front",
+    "reference_bbox": [
+      140,
+      11,
+      206,
+      67
+    ],
+    "source_size": [
+      56,
+      47
+    ],
+    "inverse_x_q8": 218,
+    "inverse_y_q8": 215,
+    "offset_x": -4,
+    "offset_y": -2,
+    "left": -32,
+    "top": -27,
+    "width": 65,
+    "height": 56,
+    "desired_width": 66,
+    "desired_full_height": 56,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 42,
+    "name": "Brumella",
+    "side": "back",
+    "reference_bbox": [
+      40,
+      64,
+      102,
+      113
+    ],
+    "source_size": [
+      56,
+      51
+    ],
+    "inverse_x_q8": 232,
+    "inverse_y_q8": 233,
+    "offset_x": -2,
+    "offset_y": 10,
+    "left": -30,
+    "top": -27,
+    "width": 61,
+    "height": 56,
+    "desired_width": 62,
+    "desired_full_height": 56,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 43,
+    "name": "Télémir",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      14,
+      205,
+      67
+    ],
+    "source_size": [
+      56,
+      50
+    ],
+    "inverse_x_q8": 235,
+    "inverse_y_q8": 242,
+    "offset_x": -2,
+    "offset_y": 0,
+    "left": -30,
+    "top": -26,
+    "width": 61,
+    "height": 53,
+    "desired_width": 61,
+    "desired_full_height": 53,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 43,
+    "name": "Télémir",
+    "side": "back",
+    "reference_bbox": [
+      35,
+      64,
+      101,
+      113
+    ],
+    "source_size": [
+      56,
+      50
+    ],
+    "inverse_x_q8": 218,
+    "inverse_y_q8": 217,
+    "offset_x": -5,
+    "offset_y": 12,
+    "left": -32,
+    "top": -29,
+    "width": 65,
+    "height": 59,
+    "desired_width": 66,
+    "desired_full_height": 59,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 44,
+    "name": "Triptic-tac",
+    "side": "front",
+    "reference_bbox": [
+      141,
+      8,
+      215,
+      65
+    ],
+    "source_size": [
+      56,
+      43
+    ],
+    "inverse_x_q8": 194,
+    "inverse_y_q8": 193,
+    "offset_x": 1,
+    "offset_y": -5,
+    "left": -36,
+    "top": -27,
+    "width": 73,
+    "height": 57,
+    "desired_width": 74,
+    "desired_full_height": 57,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 44,
+    "name": "Triptic-tac",
+    "side": "back",
+    "reference_bbox": [
+      28,
+      68,
+      109,
+      113
+    ],
+    "source_size": [
+      56,
+      43
+    ],
+    "inverse_x_q8": 177,
+    "inverse_y_q8": 178,
+    "offset_x": -4,
+    "offset_y": 17,
+    "left": -40,
+    "top": -30,
+    "width": 81,
+    "height": 62,
+    "desired_width": 81,
+    "desired_full_height": 62,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 45,
+    "name": "Nihilistik",
+    "side": "front",
+    "reference_bbox": [
+      141,
+      13,
+      207,
+      66
+    ],
+    "source_size": [
+      56,
+      44
+    ],
+    "inverse_x_q8": 218,
+    "inverse_y_q8": 213,
+    "offset_x": -3,
+    "offset_y": -1,
+    "left": -32,
+    "top": -26,
+    "width": 65,
+    "height": 53,
+    "desired_width": 66,
+    "desired_full_height": 53,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 45,
+    "name": "Nihilistik",
+    "side": "back",
+    "reference_bbox": [
+      37,
+      66,
+      110,
+      113
+    ],
+    "source_size": [
+      56,
+      42
+    ],
+    "inverse_x_q8": 196,
+    "inverse_y_q8": 195,
+    "offset_x": 1,
+    "offset_y": 12,
+    "left": -36,
+    "top": -27,
+    "width": 73,
+    "height": 55,
+    "desired_width": 73,
+    "desired_full_height": 55,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 46,
+    "name": "Émousstik",
+    "side": "front",
+    "reference_bbox": [
+      137,
+      12,
+      208,
+      67
+    ],
+    "source_size": [
+      56,
+      43
+    ],
+    "inverse_x_q8": 202,
+    "inverse_y_q8": 200,
+    "offset_x": -4,
+    "offset_y": -2,
+    "left": -35,
+    "top": -26,
+    "width": 71,
+    "height": 55,
+    "desired_width": 71,
+    "desired_full_height": 55,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 46,
+    "name": "Émousstik",
+    "side": "back",
+    "reference_bbox": [
+      31,
+      62,
+      108,
+      113
+    ],
+    "source_size": [
+      56,
+      43
+    ],
+    "inverse_x_q8": 186,
+    "inverse_y_q8": 187,
+    "offset_x": -3,
+    "offset_y": 9,
+    "left": -38,
+    "top": -28,
+    "width": 77,
+    "height": 59,
+    "desired_width": 77,
+    "desired_full_height": 59,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 47,
+    "name": "Humainequin",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      5,
+      201,
+      66
+    ],
+    "source_size": [
+      43,
+      56
+    ],
+    "inverse_x_q8": 193,
+    "inverse_y_q8": 235,
+    "offset_x": -5,
+    "offset_y": -5,
+    "left": -27,
+    "top": -30,
+    "width": 57,
+    "height": 61,
+    "desired_width": 57,
+    "desired_full_height": 61,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 47,
+    "name": "Humainequin",
+    "side": "back",
+    "reference_bbox": [
+      38,
+      64,
+      99,
+      113
+    ],
+    "source_size": [
+      47,
+      56
+    ],
+    "inverse_x_q8": 197,
+    "inverse_y_q8": 196,
+    "offset_x": -5,
+    "offset_y": 19,
+    "left": -29,
+    "top": -36,
+    "width": 61,
+    "height": 73,
+    "desired_width": 61,
+    "desired_full_height": 73,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 48,
+    "name": "Slurpent",
+    "side": "front",
+    "reference_bbox": [
+      142,
+      13,
+      206,
+      68
+    ],
+    "source_size": [
+      56,
+      47
+    ],
+    "inverse_x_q8": 224,
+    "inverse_y_q8": 219,
+    "offset_x": -2,
+    "offset_y": -1,
+    "left": -32,
+    "top": -26,
+    "width": 64,
+    "height": 55,
+    "desired_width": 64,
+    "desired_full_height": 55,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 48,
+    "name": "Slurpent",
+    "side": "back",
+    "reference_bbox": [
+      30,
+      66,
+      107,
+      113
+    ],
+    "source_size": [
+      56,
+      47
+    ],
+    "inverse_x_q8": 186,
+    "inverse_y_q8": 185,
+    "offset_x": -4,
+    "offset_y": 16,
+    "left": -38,
+    "top": -31,
+    "width": 77,
+    "height": 65,
+    "desired_width": 77,
+    "desired_full_height": 65,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 49,
+    "name": "Baku",
+    "side": "front",
+    "reference_bbox": [
+      135,
+      22,
+      210,
+      65
+    ],
+    "source_size": [
+      56,
+      27
+    ],
+    "inverse_x_q8": 191,
+    "inverse_y_q8": 161,
+    "offset_x": -4,
+    "offset_y": 2,
+    "left": -37,
+    "top": -20,
+    "width": 75,
+    "height": 43,
+    "desired_width": 75,
+    "desired_full_height": 43,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 49,
+    "name": "Baku",
+    "side": "back",
+    "reference_bbox": [
+      28,
+      81,
+      106,
+      113
+    ],
+    "source_size": [
+      56,
+      34
+    ],
+    "inverse_x_q8": 184,
+    "inverse_y_q8": 185,
+    "offset_x": -6,
+    "offset_y": 23,
+    "left": -38,
+    "top": -23,
+    "width": 77,
+    "height": 47,
+    "desired_width": 78,
+    "desired_full_height": 47,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 50,
+    "name": "Bakuku",
+    "side": "front",
+    "reference_bbox": [
+      135,
+      11,
+      211,
+      70
+    ],
+    "source_size": [
+      56,
+      42
+    ],
+    "inverse_x_q8": 189,
+    "inverse_y_q8": 182,
+    "offset_x": -4,
+    "offset_y": 0,
+    "left": -37,
+    "top": -29,
+    "width": 75,
+    "height": 59,
+    "desired_width": 76,
+    "desired_full_height": 59,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 50,
+    "name": "Bakuku",
+    "side": "back",
+    "reference_bbox": [
+      32,
+      63,
+      102,
+      113
+    ],
+    "source_size": [
+      56,
+      49
+    ],
+    "inverse_x_q8": 205,
+    "inverse_y_q8": 206,
+    "offset_x": -6,
+    "offset_y": 11,
+    "left": -34,
+    "top": -29,
+    "width": 69,
+    "height": 61,
+    "desired_width": 70,
+    "desired_full_height": 61,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 51,
+    "name": "Mognyan",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      5,
+      198,
+      65
+    ],
+    "source_size": [
+      47,
+      56
+    ],
+    "inverse_x_q8": 223,
+    "inverse_y_q8": 239,
+    "offset_x": -6,
+    "offset_y": -6,
+    "left": -26,
+    "top": -29,
+    "width": 54,
+    "height": 59,
+    "desired_width": 54,
+    "desired_full_height": 60,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 51,
+    "name": "Mognyan",
+    "side": "back",
+    "reference_bbox": [
+      37,
+      51,
+      99,
+      113
+    ],
+    "source_size": [
+      48,
+      56
+    ],
+    "inverse_x_q8": 199,
+    "inverse_y_q8": 200,
+    "offset_x": -5,
+    "offset_y": 5,
+    "left": -30,
+    "top": -35,
+    "width": 61,
+    "height": 71,
+    "desired_width": 62,
+    "desired_full_height": 72,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 52,
+    "name": "Bouh",
+    "side": "front",
+    "reference_bbox": [
+      137,
+      20,
+      214,
+      66
+    ],
+    "source_size": [
+      56,
+      33
+    ],
+    "inverse_x_q8": 186,
+    "inverse_y_q8": 184,
+    "offset_x": -1,
+    "offset_y": 2,
+    "left": -38,
+    "top": -22,
+    "width": 77,
+    "height": 46,
+    "desired_width": 77,
+    "desired_full_height": 46,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 52,
+    "name": "Bouh",
+    "side": "back",
+    "reference_bbox": [
+      31,
+      70,
+      110,
+      113
+    ],
+    "source_size": [
+      56,
+      33
+    ],
+    "inverse_x_q8": 181,
+    "inverse_y_q8": 180,
+    "offset_x": -2,
+    "offset_y": 11,
+    "left": -39,
+    "top": -22,
+    "width": 79,
+    "height": 47,
+    "desired_width": 79,
+    "desired_full_height": 47,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 53,
+    "name": "Lacanne",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      11,
+      217,
+      67
+    ],
+    "source_size": [
+      56,
+      52
+    ],
+    "inverse_x_q8": 196,
+    "inverse_y_q8": 238,
+    "offset_x": 4,
+    "offset_y": -2,
+    "left": -36,
+    "top": -27,
+    "width": 73,
+    "height": 55,
+    "desired_width": 73,
+    "desired_full_height": 56,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 53,
+    "name": "Lacanne",
+    "side": "back",
+    "reference_bbox": [
+      24,
+      66,
+      99,
+      113
+    ],
+    "source_size": [
+      52,
+      56
+    ],
+    "inverse_x_q8": 177,
+    "inverse_y_q8": 177,
+    "offset_x": -11,
+    "offset_y": 25,
+    "left": -37,
+    "top": -40,
+    "width": 75,
+    "height": 81,
+    "desired_width": 75,
+    "desired_full_height": 81,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 54,
+    "name": "Canastelle",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      16,
+      208,
+      68
+    ],
+    "source_size": [
+      56,
+      47
+    ],
+    "inverse_x_q8": 224,
+    "inverse_y_q8": 231,
+    "offset_x": 0,
+    "offset_y": 1,
+    "left": -32,
+    "top": -25,
+    "width": 64,
+    "height": 52,
+    "desired_width": 64,
+    "desired_full_height": 52,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 54,
+    "name": "Canastelle",
+    "side": "back",
+    "reference_bbox": [
+      28,
+      67,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      49
+    ],
+    "inverse_x_q8": 202,
+    "inverse_y_q8": 202,
+    "offset_x": -9,
+    "offset_y": 16,
+    "left": -35,
+    "top": -30,
+    "width": 71,
+    "height": 62,
+    "desired_width": 71,
+    "desired_full_height": 62,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 55,
+    "name": "Yvantouse",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      20,
+      214,
+      68
+    ],
+    "source_size": [
+      56,
+      40
+    ],
+    "inverse_x_q8": 205,
+    "inverse_y_q8": 214,
+    "offset_x": 2,
+    "offset_y": 3,
+    "left": -34,
+    "top": -23,
+    "width": 69,
+    "height": 47,
+    "desired_width": 70,
+    "desired_full_height": 48,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 55,
+    "name": "Yvantouse",
+    "side": "back",
+    "reference_bbox": [
+      24,
+      70,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      45
+    ],
+    "inverse_x_q8": 191,
+    "inverse_y_q8": 192,
+    "offset_x": -11,
+    "offset_y": 18,
+    "left": -37,
+    "top": -29,
+    "width": 75,
+    "height": 60,
+    "desired_width": 75,
+    "desired_full_height": 60,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 56,
+    "name": "Ed Mémoire",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      6,
+      216,
+      68
+    ],
+    "source_size": [
+      56,
+      45
+    ],
+    "inverse_x_q8": 200,
+    "inverse_y_q8": 186,
+    "offset_x": 3,
+    "offset_y": -4,
+    "left": -35,
+    "top": -30,
+    "width": 71,
+    "height": 62,
+    "desired_width": 72,
+    "desired_full_height": 62,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 56,
+    "name": "Ed Mémoire",
+    "side": "back",
+    "reference_bbox": [
+      31,
+      55,
+      110,
+      113
+    ],
+    "source_size": [
+      56,
+      46
+    ],
+    "inverse_x_q8": 181,
+    "inverse_y_q8": 181,
+    "offset_x": -2,
+    "offset_y": 6,
+    "left": -39,
+    "top": -32,
+    "width": 79,
+    "height": 65,
+    "desired_width": 79,
+    "desired_full_height": 65,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 57,
+    "name": "Couchtar",
+    "side": "front",
+    "reference_bbox": [
+      143,
+      12,
+      209,
+      67
+    ],
+    "source_size": [
+      56,
+      46
+    ],
+    "inverse_x_q8": 218,
+    "inverse_y_q8": 214,
+    "offset_x": -1,
+    "offset_y": -1,
+    "left": -32,
+    "top": -27,
+    "width": 65,
+    "height": 55,
+    "desired_width": 66,
+    "desired_full_height": 55,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 57,
+    "name": "Couchtar",
+    "side": "back",
+    "reference_bbox": [
+      32,
+      61,
+      104,
+      113
+    ],
+    "source_size": [
+      56,
+      48
+    ],
+    "inverse_x_q8": 200,
+    "inverse_y_q8": 199,
+    "offset_x": -5,
+    "offset_y": 10,
+    "left": -35,
+    "top": -30,
+    "width": 71,
+    "height": 61,
+    "desired_width": 72,
+    "desired_full_height": 62,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 58,
+    "name": "Noctambill",
+    "side": "front",
+    "reference_bbox": [
+      141,
+      12,
+      221,
+      68
+    ],
+    "source_size": [
+      56,
+      38
+    ],
+    "inverse_x_q8": 180,
+    "inverse_y_q8": 174,
+    "offset_x": 4,
+    "offset_y": -1,
+    "left": -39,
+    "top": -27,
+    "width": 79,
+    "height": 55,
+    "desired_width": 80,
+    "desired_full_height": 56,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 58,
+    "name": "Noctambill",
+    "side": "back",
+    "reference_bbox": [
+      26,
+      72,
+      106,
+      113
+    ],
+    "source_size": [
+      56,
+      40
+    ],
+    "inverse_x_q8": 180,
+    "inverse_y_q8": 180,
+    "offset_x": -7,
+    "offset_y": 19,
+    "left": -39,
+    "top": -28,
+    "width": 79,
+    "height": 57,
+    "desired_width": 80,
+    "desired_full_height": 57,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 59,
+    "name": "Fouétar",
+    "side": "front",
+    "reference_bbox": [
+      138,
+      16,
+      217,
+      68
+    ],
+    "source_size": [
+      56,
+      37
+    ],
+    "inverse_x_q8": 181,
+    "inverse_y_q8": 182,
+    "offset_x": 1,
+    "offset_y": 1,
+    "left": -39,
+    "top": -25,
+    "width": 79,
+    "height": 52,
+    "desired_width": 79,
+    "desired_full_height": 52,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 59,
+    "name": "Fouétar",
+    "side": "back",
+    "reference_bbox": [
+      24,
+      72,
+      108,
+      113
+    ],
+    "source_size": [
+      56,
+      39
+    ],
+    "inverse_x_q8": 171,
+    "inverse_y_q8": 172,
+    "offset_x": -7,
+    "offset_y": 19,
+    "left": -41,
+    "top": -28,
+    "width": 83,
+    "height": 58,
+    "desired_width": 84,
+    "desired_full_height": 58,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 60,
+    "name": "Superfouétar",
+    "side": "front",
+    "reference_bbox": [
+      135,
+      19,
+      212,
+      67
+    ],
+    "source_size": [
+      56,
+      35
+    ],
+    "inverse_x_q8": 186,
+    "inverse_y_q8": 187,
+    "offset_x": -3,
+    "offset_y": 2,
+    "left": -38,
+    "top": -23,
+    "width": 77,
+    "height": 48,
+    "desired_width": 77,
+    "desired_full_height": 48,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 60,
+    "name": "Superfouétar",
+    "side": "back",
+    "reference_bbox": [
+      30,
+      75,
+      109,
+      113
+    ],
+    "source_size": [
+      56,
+      37
+    ],
+    "inverse_x_q8": 181,
+    "inverse_y_q8": 182,
+    "offset_x": -3,
+    "offset_y": 19,
+    "left": -39,
+    "top": -25,
+    "width": 79,
+    "height": 52,
+    "desired_width": 79,
+    "desired_full_height": 52,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 61,
+    "name": "Égare-dare",
+    "side": "front",
+    "reference_bbox": [
+      137,
+      9,
+      211,
+      70
+    ],
+    "source_size": [
+      56,
+      46
+    ],
+    "inverse_x_q8": 194,
+    "inverse_y_q8": 193,
+    "offset_x": -3,
+    "offset_y": -1,
+    "left": -36,
+    "top": -30,
+    "width": 73,
+    "height": 61,
+    "desired_width": 74,
+    "desired_full_height": 61,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 61,
+    "name": "Égare-dare",
+    "side": "back",
+    "reference_bbox": [
+      14,
+      59,
+      100,
+      113
+    ],
+    "source_size": [
+      56,
+      47
+    ],
+    "inverse_x_q8": 167,
+    "inverse_y_q8": 167,
+    "offset_x": -16,
+    "offset_y": 13,
+    "left": -42,
+    "top": -35,
+    "width": 85,
+    "height": 72,
+    "desired_width": 86,
+    "desired_full_height": 72,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 62,
+    "name": "Chauvekipeut",
+    "side": "front",
+    "reference_bbox": [
+      140,
+      7,
+      214,
+      70
+    ],
+    "source_size": [
+      56,
+      47
+    ],
+    "inverse_x_q8": 194,
+    "inverse_y_q8": 191,
+    "offset_x": 0,
+    "offset_y": -3,
+    "left": -36,
+    "top": -30,
+    "width": 73,
+    "height": 63,
+    "desired_width": 74,
+    "desired_full_height": 63,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 62,
+    "name": "Chauvekipeut",
+    "side": "back",
+    "reference_bbox": [
+      25,
+      55,
+      117,
+      113
+    ],
+    "source_size": [
+      56,
+      48
+    ],
+    "inverse_x_q8": 156,
+    "inverse_y_q8": 156,
+    "offset_x": -2,
+    "offset_y": 13,
+    "left": -45,
+    "top": -39,
+    "width": 91,
+    "height": 79,
+    "desired_width": 92,
+    "desired_full_height": 79,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 63,
+    "name": "Chihuaglagla",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      8,
+      200,
+      69
+    ],
+    "source_size": [
+      52,
+      56
+    ],
+    "inverse_x_q8": 238,
+    "inverse_y_q8": 235,
+    "offset_x": -5,
+    "offset_y": -2,
+    "left": -27,
+    "top": -30,
+    "width": 55,
+    "height": 61,
+    "desired_width": 56,
+    "desired_full_height": 61,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 63,
+    "name": "Chihuaglagla",
+    "side": "back",
+    "reference_bbox": [
+      31,
+      65,
+      101,
+      113
+    ],
+    "source_size": [
+      56,
+      52
+    ],
+    "inverse_x_q8": 205,
+    "inverse_y_q8": 205,
+    "offset_x": -7,
+    "offset_y": 16,
+    "left": -34,
+    "top": -32,
+    "width": 69,
+    "height": 65,
+    "desired_width": 70,
+    "desired_full_height": 65,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 64,
+    "name": "Froahuahua",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      13,
+      206,
+      70
+    ],
+    "source_size": [
+      56,
+      52
+    ],
+    "inverse_x_q8": 232,
+    "inverse_y_q8": 234,
+    "offset_x": -2,
+    "offset_y": 1,
+    "left": -30,
+    "top": -28,
+    "width": 61,
+    "height": 57,
+    "desired_width": 62,
+    "desired_full_height": 57,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 64,
+    "name": "Froahuahua",
+    "side": "back",
+    "reference_bbox": [
+      36,
+      61,
+      105,
+      113
+    ],
+    "source_size": [
+      56,
+      52
+    ],
+    "inverse_x_q8": 208,
+    "inverse_y_q8": 208,
+    "offset_x": -2,
+    "offset_y": 12,
+    "left": -34,
+    "top": -32,
+    "width": 69,
+    "height": 64,
+    "desired_width": 69,
+    "desired_full_height": 64,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 65,
+    "name": "Gorgouille",
+    "side": "front",
+    "reference_bbox": [
+      136,
+      7,
+      215,
+      67
+    ],
+    "source_size": [
+      56,
+      43
+    ],
+    "inverse_x_q8": 181,
+    "inverse_y_q8": 183,
+    "offset_x": -1,
+    "offset_y": -4,
+    "left": -39,
+    "top": -29,
+    "width": 79,
+    "height": 60,
+    "desired_width": 79,
+    "desired_full_height": 60,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 65,
+    "name": "Gorgouille",
+    "side": "back",
+    "reference_bbox": [
+      23,
+      56,
+      109,
+      113
+    ],
+    "source_size": [
+      56,
+      48
+    ],
+    "inverse_x_q8": 167,
+    "inverse_y_q8": 167,
+    "offset_x": -7,
+    "offset_y": 11,
+    "left": -42,
+    "top": -36,
+    "width": 85,
+    "height": 73,
+    "desired_width": 86,
+    "desired_full_height": 74,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 66,
+    "name": "Sirénée",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      11,
+      213,
+      68
+    ],
+    "source_size": [
+      56,
+      44
+    ],
+    "inverse_x_q8": 208,
+    "inverse_y_q8": 198,
+    "offset_x": 2,
+    "offset_y": -1,
+    "left": -34,
+    "top": -28,
+    "width": 69,
+    "height": 57,
+    "desired_width": 69,
+    "desired_full_height": 57,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 66,
+    "name": "Sirénée",
+    "side": "back",
+    "reference_bbox": [
+      29,
+      66,
+      103,
+      113
+    ],
+    "source_size": [
+      56,
+      45
+    ],
+    "inverse_x_q8": 194,
+    "inverse_y_q8": 195,
+    "offset_x": -7,
+    "offset_y": 13,
+    "left": -36,
+    "top": -28,
+    "width": 73,
+    "height": 59,
+    "desired_width": 74,
+    "desired_full_height": 59,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 67,
+    "name": "Sirènité",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      10,
+      210,
+      67
+    ],
+    "source_size": [
+      56,
+      46
+    ],
+    "inverse_x_q8": 218,
+    "inverse_y_q8": 207,
+    "offset_x": 0,
+    "offset_y": -2,
+    "left": -32,
+    "top": -28,
+    "width": 65,
+    "height": 57,
+    "desired_width": 66,
+    "desired_full_height": 57,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 67,
+    "name": "Sirènité",
+    "side": "back",
+    "reference_bbox": [
+      32,
+      65,
+      104,
+      113
+    ],
+    "source_size": [
+      56,
+      47
+    ],
+    "inverse_x_q8": 200,
+    "inverse_y_q8": 201,
+    "offset_x": -5,
+    "offset_y": 13,
+    "left": -35,
+    "top": -29,
+    "width": 71,
+    "height": 60,
+    "desired_width": 72,
+    "desired_full_height": 60,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 68,
+    "name": "Papa Ress",
+    "side": "front",
+    "reference_bbox": [
+      141,
+      17,
+      201,
+      67
+    ],
+    "source_size": [
+      56,
+      46
+    ],
+    "inverse_x_q8": 239,
+    "inverse_y_q8": 236,
+    "offset_x": -6,
+    "offset_y": 1,
+    "left": -29,
+    "top": -24,
+    "width": 59,
+    "height": 49,
+    "desired_width": 60,
+    "desired_full_height": 50,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 68,
+    "name": "Papa Ress",
+    "side": "back",
+    "reference_bbox": [
+      40,
+      65,
+      105,
+      113
+    ],
+    "source_size": [
+      56,
+      48
+    ],
+    "inverse_x_q8": 221,
+    "inverse_y_q8": 220,
+    "offset_x": 0,
+    "offset_y": 11,
+    "left": -32,
+    "top": -27,
+    "width": 65,
+    "height": 55,
+    "desired_width": 65,
+    "desired_full_height": 56,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 69,
+    "name": "Ralbouc",
+    "side": "front",
+    "reference_bbox": [
+      139,
+      15,
+      210,
+      69
+    ],
+    "source_size": [
+      56,
+      42
+    ],
+    "inverse_x_q8": 202,
+    "inverse_y_q8": 200,
+    "offset_x": -2,
+    "offset_y": 1,
+    "left": -35,
+    "top": -26,
+    "width": 71,
+    "height": 53,
+    "desired_width": 71,
+    "desired_full_height": 54,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 69,
+    "name": "Ralbouc",
+    "side": "back",
+    "reference_bbox": [
+      38,
+      66,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      44
+    ],
+    "inverse_x_q8": 235,
+    "inverse_y_q8": 235,
+    "offset_x": -4,
+    "offset_y": 8,
+    "left": -30,
+    "top": -23,
+    "width": 61,
+    "height": 47,
+    "desired_width": 61,
+    "desired_full_height": 48,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 70,
+    "name": "Sorcophage",
+    "side": "front",
+    "reference_bbox": [
+      139,
+      12,
+      207,
+      68
+    ],
+    "source_size": [
+      56,
+      45
+    ],
+    "inverse_x_q8": 211,
+    "inverse_y_q8": 206,
+    "offset_x": -4,
+    "offset_y": -1,
+    "left": -33,
+    "top": -27,
+    "width": 67,
+    "height": 56,
+    "desired_width": 68,
+    "desired_full_height": 56,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 70,
+    "name": "Sorcophage",
+    "side": "back",
+    "reference_bbox": [
+      29,
+      64,
+      100,
+      113
+    ],
+    "source_size": [
+      56,
+      52
+    ],
+    "inverse_x_q8": 202,
+    "inverse_y_q8": 202,
+    "offset_x": -8,
+    "offset_y": 15,
+    "left": -35,
+    "top": -32,
+    "width": 71,
+    "height": 65,
+    "desired_width": 71,
+    "desired_full_height": 66,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 71,
+    "name": "Insomnelle",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      9,
+      199,
+      68
+    ],
+    "source_size": [
+      52,
+      55
+    ],
+    "inverse_x_q8": 242,
+    "inverse_y_q8": 239,
+    "offset_x": -5,
+    "offset_y": -3,
+    "left": -27,
+    "top": -28,
+    "width": 55,
+    "height": 58,
+    "desired_width": 55,
+    "desired_full_height": 59,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 71,
+    "name": "Insomnelle",
+    "side": "back",
+    "reference_bbox": [
+      29,
+      63,
+      99,
+      113
+    ],
+    "source_size": [
+      51,
+      54
+    ],
+    "inverse_x_q8": 187,
+    "inverse_y_q8": 187,
+    "offset_x": -9,
+    "offset_y": 18,
+    "left": -34,
+    "top": -36,
+    "width": 70,
+    "height": 73,
+    "desired_width": 70,
+    "desired_full_height": 74,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 72,
+    "name": "Tata Aura",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      8,
+      209,
+      69
+    ],
+    "source_size": [
+      56,
+      52
+    ],
+    "inverse_x_q8": 221,
+    "inverse_y_q8": 218,
+    "offset_x": 0,
+    "offset_y": -2,
+    "left": -32,
+    "top": -30,
+    "width": 65,
+    "height": 61,
+    "desired_width": 65,
+    "desired_full_height": 61,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 72,
+    "name": "Tata Aura",
+    "side": "back",
+    "reference_bbox": [
+      28,
+      59,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      56
+    ],
+    "inverse_x_q8": 202,
+    "inverse_y_q8": 202,
+    "offset_x": -9,
+    "offset_y": 13,
+    "left": -35,
+    "top": -35,
+    "width": 71,
+    "height": 71,
+    "desired_width": 71,
+    "desired_full_height": 71,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 73,
+    "name": "Tontonnerre",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      5,
+      205,
+      68
+    ],
+    "source_size": [
+      54,
+      56
+    ],
+    "inverse_x_q8": 227,
+    "inverse_y_q8": 228,
+    "offset_x": -2,
+    "offset_y": -4,
+    "left": -30,
+    "top": -31,
+    "width": 61,
+    "height": 63,
+    "desired_width": 61,
+    "desired_full_height": 63,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 73,
+    "name": "Tontonnerre",
+    "side": "back",
+    "reference_bbox": [
+      34,
+      59,
+      101,
+      113
+    ],
+    "source_size": [
+      53,
+      56
+    ],
+    "inverse_x_q8": 203,
+    "inverse_y_q8": 202,
+    "offset_x": -6,
+    "offset_y": 13,
+    "left": -32,
+    "top": -35,
+    "width": 67,
+    "height": 71,
+    "desired_width": 67,
+    "desired_full_height": 71,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 74,
+    "name": "Antonnerre",
+    "side": "front",
+    "reference_bbox": [
+      140,
+      11,
+      197,
+      73
+    ],
+    "source_size": [
+      56,
+      56
+    ],
+    "inverse_x_q8": 252,
+    "inverse_y_q8": 232,
+    "offset_x": -8,
+    "offset_y": 1,
+    "left": -28,
+    "top": -30,
+    "width": 57,
+    "height": 61,
+    "desired_width": 57,
+    "desired_full_height": 62,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 74,
+    "name": "Antonnerre",
+    "side": "back",
+    "reference_bbox": [
+      31,
+      71,
+      102,
+      113
+    ],
+    "source_size": [
+      56,
+      49
+    ],
+    "inverse_x_q8": 202,
+    "inverse_y_q8": 202,
+    "offset_x": -6,
+    "offset_y": 20,
+    "left": -35,
+    "top": -30,
+    "width": 71,
+    "height": 62,
+    "desired_width": 71,
+    "desired_full_height": 62,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 75,
+    "name": "Parantonn",
+    "side": "front",
+    "reference_bbox": [
+      141,
+      16,
+      206,
+      67
+    ],
+    "source_size": [
+      56,
+      42
+    ],
+    "inverse_x_q8": 221,
+    "inverse_y_q8": 211,
+    "offset_x": -3,
+    "offset_y": 1,
+    "left": -32,
+    "top": -25,
+    "width": 65,
+    "height": 51,
+    "desired_width": 65,
+    "desired_full_height": 51,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 75,
+    "name": "Parantonn",
+    "side": "back",
+    "reference_bbox": [
+      32,
+      66,
+      100,
+      113
+    ],
+    "source_size": [
+      56,
+      45
+    ],
+    "inverse_x_q8": 211,
+    "inverse_y_q8": 209,
+    "offset_x": -7,
+    "offset_y": 11,
+    "left": -33,
+    "top": -26,
+    "width": 67,
+    "height": 55,
+    "desired_width": 68,
+    "desired_full_height": 55,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 76,
+    "name": "Scoltine",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      18,
+      203,
+      67
+    ],
+    "source_size": [
+      56,
+      53
+    ],
+    "inverse_x_q8": 243,
+    "inverse_y_q8": 277,
+    "offset_x": -3,
+    "offset_y": 2,
+    "left": -29,
+    "top": -24,
+    "width": 59,
+    "height": 49,
+    "desired_width": 59,
+    "desired_full_height": 49,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 76,
+    "name": "Scoltine",
+    "side": "back",
+    "reference_bbox": [
+      34,
+      68,
+      99,
+      113
+    ],
+    "source_size": [
+      51,
+      56
+    ],
+    "inverse_x_q8": 201,
+    "inverse_y_q8": 202,
+    "offset_x": -7,
+    "offset_y": 22,
+    "left": -31,
+    "top": -35,
+    "width": 65,
+    "height": 71,
+    "desired_width": 65,
+    "desired_full_height": 71,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 77,
+    "name": "Scolérique",
+    "side": "front",
+    "reference_bbox": [
+      142,
+      9,
+      205,
+      68
+    ],
+    "source_size": [
+      56,
+      52
+    ],
+    "inverse_x_q8": 228,
+    "inverse_y_q8": 226,
+    "offset_x": -3,
+    "offset_y": -2,
+    "left": -31,
+    "top": -29,
+    "width": 63,
+    "height": 59,
+    "desired_width": 63,
+    "desired_full_height": 59,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 77,
+    "name": "Scolérique",
+    "side": "back",
+    "reference_bbox": [
+      32,
+      62,
+      100,
+      113
+    ],
+    "source_size": [
+      56,
+      53
+    ],
+    "inverse_x_q8": 211,
+    "inverse_y_q8": 212,
+    "offset_x": -7,
+    "offset_y": 12,
+    "left": -33,
+    "top": -31,
+    "width": 67,
+    "height": 64,
+    "desired_width": 68,
+    "desired_full_height": 64,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 78,
+    "name": "Coléroptère",
+    "side": "front",
+    "reference_bbox": [
+      142,
+      13,
+      205,
+      68
+    ],
+    "source_size": [
+      56,
+      49
+    ],
+    "inverse_x_q8": 228,
+    "inverse_y_q8": 228,
+    "offset_x": -3,
+    "offset_y": -1,
+    "left": -31,
+    "top": -26,
+    "width": 63,
+    "height": 55,
+    "desired_width": 63,
+    "desired_full_height": 55,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 78,
+    "name": "Coléroptère",
+    "side": "back",
+    "reference_bbox": [
+      37,
+      65,
+      106,
+      113
+    ],
+    "source_size": [
+      56,
+      50
+    ],
+    "inverse_x_q8": 208,
+    "inverse_y_q8": 207,
+    "offset_x": -1,
+    "offset_y": 14,
+    "left": -34,
+    "top": -30,
+    "width": 69,
+    "height": 61,
+    "desired_width": 69,
+    "desired_full_height": 62,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 79,
+    "name": "Rhinolimit",
+    "side": "front",
+    "reference_bbox": [
+      137,
+      13,
+      215,
+      67
+    ],
+    "source_size": [
+      56,
+      39
+    ],
+    "inverse_x_q8": 184,
+    "inverse_y_q8": 185,
+    "offset_x": -1,
+    "offset_y": -1,
+    "left": -38,
+    "top": -26,
+    "width": 77,
+    "height": 54,
+    "desired_width": 78,
+    "desired_full_height": 54,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 79,
+    "name": "Rhinolimit",
+    "side": "back",
+    "reference_bbox": [
+      22,
+      65,
+      109,
+      113
+    ],
+    "source_size": [
+      56,
+      41
+    ],
+    "inverse_x_q8": 165,
+    "inverse_y_q8": 164,
+    "offset_x": -7,
+    "offset_y": 15,
+    "left": -43,
+    "top": -31,
+    "width": 87,
+    "height": 64,
+    "desired_width": 87,
+    "desired_full_height": 64,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 80,
+    "name": "Scatcheur",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      12,
+      213,
+      67
+    ],
+    "source_size": [
+      56,
+      48
+    ],
+    "inverse_x_q8": 208,
+    "inverse_y_q8": 223,
+    "offset_x": 2,
+    "offset_y": -1,
+    "left": -34,
+    "top": -27,
+    "width": 69,
+    "height": 55,
+    "desired_width": 69,
+    "desired_full_height": 55,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 80,
+    "name": "Scatcheur",
+    "side": "back",
+    "reference_bbox": [
+      22,
+      65,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      48
+    ],
+    "inverse_x_q8": 186,
+    "inverse_y_q8": 187,
+    "offset_x": -12,
+    "offset_y": 16,
+    "left": -38,
+    "top": -32,
+    "width": 77,
+    "height": 65,
+    "desired_width": 77,
+    "desired_full_height": 66,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 81,
+    "name": "Scarmouche",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      12,
+      215,
+      68
+    ],
+    "source_size": [
+      56,
+      47
+    ],
+    "inverse_x_q8": 202,
+    "inverse_y_q8": 215,
+    "offset_x": 3,
+    "offset_y": -1,
+    "left": -35,
+    "top": -27,
+    "width": 71,
+    "height": 56,
+    "desired_width": 71,
+    "desired_full_height": 56,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 81,
+    "name": "Scarmouche",
+    "side": "back",
+    "reference_bbox": [
+      28,
+      62,
+      106,
+      113
+    ],
+    "source_size": [
+      56,
+      50
+    ],
+    "inverse_x_q8": 184,
+    "inverse_y_q8": 183,
+    "offset_x": -6,
+    "offset_y": 15,
+    "left": -38,
+    "top": -34,
+    "width": 77,
+    "height": 69,
+    "desired_width": 78,
+    "desired_full_height": 70,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 82,
+    "name": "Noko",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      19,
+      204,
+      68
+    ],
+    "source_size": [
+      56,
+      51
+    ],
+    "inverse_x_q8": 239,
+    "inverse_y_q8": 267,
+    "offset_x": -3,
+    "offset_y": 2,
+    "left": -29,
+    "top": -23,
+    "width": 59,
+    "height": 48,
+    "desired_width": 60,
+    "desired_full_height": 49,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 82,
+    "name": "Noko",
+    "side": "back",
+    "reference_bbox": [
+      36,
+      66,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      56
+    ],
+    "inverse_x_q8": 228,
+    "inverse_y_q8": 228,
+    "offset_x": -5,
+    "offset_y": 16,
+    "left": -31,
+    "top": -31,
+    "width": 63,
+    "height": 63,
+    "desired_width": 63,
+    "desired_full_height": 63,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 83,
+    "name": "Nénunoko",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      13,
+      199,
+      69
+    ],
+    "source_size": [
+      51,
+      56
+    ],
+    "inverse_x_q8": 238,
+    "inverse_y_q8": 256,
+    "offset_x": -6,
+    "offset_y": 1,
+    "left": -26,
+    "top": -28,
+    "width": 54,
+    "height": 56,
+    "desired_width": 55,
+    "desired_full_height": 56,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 83,
+    "name": "Nénunoko",
+    "side": "back",
+    "reference_bbox": [
+      37,
+      61,
+      99,
+      113
+    ],
+    "source_size": [
+      47,
+      56
+    ],
+    "inverse_x_q8": 194,
+    "inverse_y_q8": 194,
+    "offset_x": -5,
+    "offset_y": 16,
+    "left": -30,
+    "top": -36,
+    "width": 62,
+    "height": 73,
+    "desired_width": 62,
+    "desired_full_height": 74,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 84,
+    "name": "Tryptik",
+    "side": "front",
+    "reference_bbox": [
+      141,
+      11,
+      217,
+      70
+    ],
+    "source_size": [
+      54,
+      46
+    ],
+    "inverse_x_q8": 182,
+    "inverse_y_q8": 200,
+    "offset_x": 2,
+    "offset_y": 0,
+    "left": -37,
+    "top": -29,
+    "width": 75,
+    "height": 59,
+    "desired_width": 76,
+    "desired_full_height": 59,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 84,
+    "name": "Tryptik",
+    "side": "back",
+    "reference_bbox": [
+      28,
+      66,
+      106,
+      113
+    ],
+    "source_size": [
+      53,
+      48
+    ],
+    "inverse_x_q8": 174,
+    "inverse_y_q8": 173,
+    "offset_x": -6,
+    "offset_y": 20,
+    "left": -38,
+    "top": -35,
+    "width": 78,
+    "height": 71,
+    "desired_width": 78,
+    "desired_full_height": 71,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 85,
+    "name": "Carpitaine",
+    "side": "front",
+    "reference_bbox": [
+      142,
+      12,
+      214,
+      67
+    ],
+    "source_size": [
+      56,
+      43
+    ],
+    "inverse_x_q8": 200,
+    "inverse_y_q8": 200,
+    "offset_x": 1,
+    "offset_y": -2,
+    "left": -35,
+    "top": -26,
+    "width": 71,
+    "height": 55,
+    "desired_width": 72,
+    "desired_full_height": 55,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 85,
+    "name": "Carpitaine",
+    "side": "back",
+    "reference_bbox": [
+      22,
+      60,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      48
+    ],
+    "inverse_x_q8": 186,
+    "inverse_y_q8": 187,
+    "offset_x": -12,
+    "offset_y": 11,
+    "left": -38,
+    "top": -32,
+    "width": 77,
+    "height": 65,
+    "desired_width": 77,
+    "desired_full_height": 66,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 86,
+    "name": "Turboss",
+    "side": "front",
+    "reference_bbox": [
+      139,
+      15,
+      219,
+      68
+    ],
+    "source_size": [
+      56,
+      42
+    ],
+    "inverse_x_q8": 180,
+    "inverse_y_q8": 203,
+    "offset_x": 2,
+    "offset_y": 1,
+    "left": -39,
+    "top": -26,
+    "width": 79,
+    "height": 53,
+    "desired_width": 80,
+    "desired_full_height": 53,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 86,
+    "name": "Turboss",
+    "side": "back",
+    "reference_bbox": [
+      18,
+      68,
+      107,
+      113
+    ],
+    "source_size": [
+      54,
+      42
+    ],
+    "inverse_x_q8": 155,
+    "inverse_y_q8": 156,
+    "offset_x": -10,
+    "offset_y": 21,
+    "left": -44,
+    "top": -34,
+    "width": 89,
+    "height": 69,
+    "desired_width": 89,
+    "desired_full_height": 69,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 87,
+    "name": "Kappacap",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      22,
+      210,
+      67
+    ],
+    "source_size": [
+      56,
+      41
+    ],
+    "inverse_x_q8": 218,
+    "inverse_y_q8": 233,
+    "offset_x": 0,
+    "offset_y": 3,
+    "left": -32,
+    "top": -21,
+    "width": 65,
+    "height": 45,
+    "desired_width": 66,
+    "desired_full_height": 45,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 87,
+    "name": "Kappacap",
+    "side": "back",
+    "reference_bbox": [
+      22,
+      75,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      40
+    ],
+    "inverse_x_q8": 186,
+    "inverse_y_q8": 186,
+    "offset_x": -12,
+    "offset_y": 21,
+    "left": -38,
+    "top": -27,
+    "width": 77,
+    "height": 55,
+    "desired_width": 77,
+    "desired_full_height": 55,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 88,
+    "name": "Appak",
+    "side": "front",
+    "reference_bbox": [
+      133,
+      14,
+      211,
+      67
+    ],
+    "source_size": [
+      56,
+      37
+    ],
+    "inverse_x_q8": 184,
+    "inverse_y_q8": 179,
+    "offset_x": -5,
+    "offset_y": -1,
+    "left": -38,
+    "top": -25,
+    "width": 77,
+    "height": 53,
+    "desired_width": 78,
+    "desired_full_height": 53,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 88,
+    "name": "Appak",
+    "side": "back",
+    "reference_bbox": [
+      25,
+      72,
+      106,
+      113
+    ],
+    "source_size": [
+      56,
+      36
+    ],
+    "inverse_x_q8": 177,
+    "inverse_y_q8": 178,
+    "offset_x": -7,
+    "offset_y": 16,
+    "left": -40,
+    "top": -25,
+    "width": 81,
+    "height": 51,
+    "desired_width": 81,
+    "desired_full_height": 52,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 89,
+    "name": "Camaïeul",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      11,
+      202,
+      68
+    ],
+    "source_size": [
+      56,
+      51
+    ],
+    "inverse_x_q8": 248,
+    "inverse_y_q8": 229,
+    "offset_x": -4,
+    "offset_y": -2,
+    "left": -28,
+    "top": -27,
+    "width": 57,
+    "height": 57,
+    "desired_width": 58,
+    "desired_full_height": 57,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 89,
+    "name": "Camaïeul",
+    "side": "back",
+    "reference_bbox": [
+      35,
+      64,
+      99,
+      113
+    ],
+    "source_size": [
+      52,
+      56
+    ],
+    "inverse_x_q8": 208,
+    "inverse_y_q8": 208,
+    "offset_x": -5,
+    "offset_y": 17,
+    "left": -32,
+    "top": -34,
+    "width": 64,
+    "height": 69,
+    "desired_width": 64,
+    "desired_full_height": 69,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 90,
+    "name": "Glapie",
+    "side": "front",
+    "reference_bbox": [
+      141,
+      12,
+      206,
+      67
+    ],
+    "source_size": [
+      56,
+      47
+    ],
+    "inverse_x_q8": 221,
+    "inverse_y_q8": 219,
+    "offset_x": -3,
+    "offset_y": -2,
+    "left": -32,
+    "top": -26,
+    "width": 65,
+    "height": 55,
+    "desired_width": 65,
+    "desired_full_height": 55,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 90,
+    "name": "Glapie",
+    "side": "back",
+    "reference_bbox": [
+      37,
+      68,
+      108,
+      113
+    ],
+    "source_size": [
+      56,
+      48
+    ],
+    "inverse_x_q8": 202,
+    "inverse_y_q8": 201,
+    "offset_x": 0,
+    "offset_y": 17,
+    "left": -35,
+    "top": -30,
+    "width": 71,
+    "height": 61,
+    "desired_width": 71,
+    "desired_full_height": 61,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 91,
+    "name": "Chiperpiou",
+    "side": "front",
+    "reference_bbox": [
+      142,
+      16,
+      209,
+      67
+    ],
+    "source_size": [
+      56,
+      43
+    ],
+    "inverse_x_q8": 214,
+    "inverse_y_q8": 216,
+    "offset_x": -1,
+    "offset_y": 0,
+    "left": -33,
+    "top": -24,
+    "width": 67,
+    "height": 51,
+    "desired_width": 67,
+    "desired_full_height": 51,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 91,
+    "name": "Chiperpiou",
+    "side": "back",
+    "reference_bbox": [
+      29,
+      72,
+      107,
+      113
+    ],
+    "source_size": [
+      56,
+      39
+    ],
+    "inverse_x_q8": 184,
+    "inverse_y_q8": 185,
+    "offset_x": -5,
+    "offset_y": 17,
+    "left": -38,
+    "top": -26,
+    "width": 77,
+    "height": 54,
+    "desired_width": 78,
+    "desired_full_height": 54,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 92,
+    "name": "Rapiaf",
+    "side": "front",
+    "reference_bbox": [
+      131,
+      13,
+      209,
+      68
+    ],
+    "source_size": [
+      56,
+      40
+    ],
+    "inverse_x_q8": 184,
+    "inverse_y_q8": 186,
+    "offset_x": -7,
+    "offset_y": 0,
+    "left": -38,
+    "top": -27,
+    "width": 77,
+    "height": 55,
+    "desired_width": 78,
+    "desired_full_height": 55,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 92,
+    "name": "Rapiaf",
+    "side": "back",
+    "reference_bbox": [
+      23,
+      66,
+      110,
+      113
+    ],
+    "source_size": [
+      56,
+      41
+    ],
+    "inverse_x_q8": 165,
+    "inverse_y_q8": 164,
+    "offset_x": -6,
+    "offset_y": 16,
+    "left": -43,
+    "top": -31,
+    "width": 87,
+    "height": 64,
+    "desired_width": 87,
+    "desired_full_height": 64,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 93,
+    "name": "Tête de lard",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      13,
+      197,
+      66
+    ],
+    "source_size": [
+      46,
+      56
+    ],
+    "inverse_x_q8": 222,
+    "inverse_y_q8": 270,
+    "offset_x": -6,
+    "offset_y": -1,
+    "left": -26,
+    "top": -26,
+    "width": 53,
+    "height": 53,
+    "desired_width": 53,
+    "desired_full_height": 53,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 93,
+    "name": "Tête de lard",
+    "side": "back",
+    "reference_bbox": [
+      36,
+      69,
+      99,
+      113
+    ],
+    "source_size": [
+      43,
+      56
+    ],
+    "inverse_x_q8": 175,
+    "inverse_y_q8": 175,
+    "offset_x": -6,
+    "offset_y": 28,
+    "left": -30,
+    "top": -40,
+    "width": 63,
+    "height": 81,
+    "desired_width": 63,
+    "desired_full_height": 82,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 94,
+    "name": "Potache",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      20,
+      193,
+      68
+    ],
+    "source_size": [
+      54,
+      56
+    ],
+    "inverse_x_q8": 282,
+    "inverse_y_q8": 299,
+    "offset_x": -8,
+    "offset_y": 3,
+    "left": -24,
+    "top": -23,
+    "width": 49,
+    "height": 47,
+    "desired_width": 49,
+    "desired_full_height": 48,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 94,
+    "name": "Potache",
+    "side": "back",
+    "reference_bbox": [
+      42,
+      69,
+      99,
+      113
+    ],
+    "source_size": [
+      54,
+      56
+    ],
+    "inverse_x_q8": 243,
+    "inverse_y_q8": 243,
+    "offset_x": -2,
+    "offset_y": 17,
+    "left": -28,
+    "top": -29,
+    "width": 57,
+    "height": 59,
+    "desired_width": 57,
+    "desired_full_height": 59,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 95,
+    "name": "Dépotache",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      8,
+      198,
+      67
+    ],
+    "source_size": [
+      48,
+      56
+    ],
+    "inverse_x_q8": 228,
+    "inverse_y_q8": 243,
+    "offset_x": -6,
+    "offset_y": -3,
+    "left": -26,
+    "top": -29,
+    "width": 53,
+    "height": 59,
+    "desired_width": 54,
+    "desired_full_height": 59,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 95,
+    "name": "Dépotache",
+    "side": "back",
+    "reference_bbox": [
+      35,
+      60,
+      99,
+      113
+    ],
+    "source_size": [
+      47,
+      56
+    ],
+    "inverse_x_q8": 188,
+    "inverse_y_q8": 189,
+    "offset_x": -6,
+    "offset_y": 16,
+    "left": -31,
+    "top": -37,
+    "width": 64,
+    "height": 75,
+    "desired_width": 64,
+    "desired_full_height": 76,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 96,
+    "name": "Navétéran",
+    "side": "front",
+    "reference_bbox": [
+      138,
+      16,
+      193,
+      67
+    ],
+    "source_size": [
+      56,
+      52
+    ],
+    "inverse_x_q8": 261,
+    "inverse_y_q8": 261,
+    "offset_x": -11,
+    "offset_y": 1,
+    "left": -27,
+    "top": -25,
+    "width": 55,
+    "height": 51,
+    "desired_width": 55,
+    "desired_full_height": 51,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 96,
+    "name": "Navétéran",
+    "side": "back",
+    "reference_bbox": [
+      37,
+      71,
+      99,
+      113
+    ],
+    "source_size": [
+      55,
+      56
+    ],
+    "inverse_x_q8": 227,
+    "inverse_y_q8": 228,
+    "offset_x": -5,
+    "offset_y": 21,
+    "left": -30,
+    "top": -31,
+    "width": 62,
+    "height": 63,
+    "desired_width": 62,
+    "desired_full_height": 63,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 97,
+    "name": "Navigarmateur",
+    "side": "front",
+    "reference_bbox": [
+      143,
+      11,
+      195,
+      69
+    ],
+    "source_size": [
+      52,
+      56
+    ],
+    "inverse_x_q8": 256,
+    "inverse_y_q8": 248,
+    "offset_x": -7,
+    "offset_y": -1,
+    "left": -26,
+    "top": -28,
+    "width": 52,
+    "height": 57,
+    "desired_width": 52,
+    "desired_full_height": 58,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 97,
+    "name": "Navigarmateur",
+    "side": "back",
+    "reference_bbox": [
+      41,
+      60,
+      99,
+      113
+    ],
+    "source_size": [
+      47,
+      56
+    ],
+    "inverse_x_q8": 207,
+    "inverse_y_q8": 208,
+    "offset_x": -3,
+    "offset_y": 13,
+    "left": -28,
+    "top": -34,
+    "width": 58,
+    "height": 69,
+    "desired_width": 58,
+    "desired_full_height": 69,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 98,
+    "name": "Sergent Rampant",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      20,
+      201,
+      68
+    ],
+    "source_size": [
+      56,
+      55
+    ],
+    "inverse_x_q8": 252,
+    "inverse_y_q8": 293,
+    "offset_x": -4,
+    "offset_y": 3,
+    "left": -28,
+    "top": -23,
+    "width": 57,
+    "height": 48,
+    "desired_width": 57,
+    "desired_full_height": 48,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 98,
+    "name": "Sergent Rampant",
+    "side": "back",
+    "reference_bbox": [
+      41,
+      73,
+      99,
+      113
+    ],
+    "source_size": [
+      53,
+      56
+    ],
+    "inverse_x_q8": 234,
+    "inverse_y_q8": 235,
+    "offset_x": -3,
+    "offset_y": 22,
+    "left": -28,
+    "top": -30,
+    "width": 58,
+    "height": 61,
+    "desired_width": 58,
+    "desired_full_height": 61,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 99,
+    "name": "Coach Antonic",
+    "side": "front",
+    "reference_bbox": [
+      142,
+      10,
+      201,
+      67
+    ],
+    "source_size": [
+      56,
+      54
+    ],
+    "inverse_x_q8": 243,
+    "inverse_y_q8": 243,
+    "offset_x": -5,
+    "offset_y": -2,
+    "left": -29,
+    "top": -28,
+    "width": 59,
+    "height": 57,
+    "desired_width": 59,
+    "desired_full_height": 57,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 99,
+    "name": "Coach Antonic",
+    "side": "back",
+    "reference_bbox": [
+      28,
+      63,
+      102,
+      113
+    ],
+    "source_size": [
+      56,
+      50
+    ],
+    "inverse_x_q8": 194,
+    "inverse_y_q8": 194,
+    "offset_x": -8,
+    "offset_y": 14,
+    "left": -36,
+    "top": -32,
+    "width": 73,
+    "height": 65,
+    "desired_width": 74,
+    "desired_full_height": 66,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 100,
+    "name": "Usapyon",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      10,
+      195,
+      68
+    ],
+    "source_size": [
+      40,
+      56
+    ],
+    "inverse_x_q8": 201,
+    "inverse_y_q8": 248,
+    "offset_x": -7,
+    "offset_y": -2,
+    "left": -25,
+    "top": -28,
+    "width": 51,
+    "height": 57,
+    "desired_width": 51,
+    "desired_full_height": 58,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 100,
+    "name": "Usapyon",
+    "side": "back",
+    "reference_bbox": [
+      41,
+      60,
+      99,
+      113
+    ],
+    "source_size": [
+      36,
+      55
+    ],
+    "inverse_x_q8": 159,
+    "inverse_y_q8": 158,
+    "offset_x": -3,
+    "offset_y": 22,
+    "left": -28,
+    "top": -43,
+    "width": 57,
+    "height": 89,
+    "desired_width": 58,
+    "desired_full_height": 89,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 101,
+    "name": "Emperor",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      6,
+      196,
+      68
+    ],
+    "source_size": [
+      38,
+      56
+    ],
+    "inverse_x_q8": 188,
+    "inverse_y_q8": 232,
+    "offset_x": -7,
+    "offset_y": -4,
+    "left": -25,
+    "top": -30,
+    "width": 51,
+    "height": 61,
+    "desired_width": 52,
+    "desired_full_height": 62,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 101,
+    "name": "Emperor",
+    "side": "back",
+    "reference_bbox": [
+      40,
+      53,
+      99,
+      113
+    ],
+    "source_size": [
+      51,
+      56
+    ],
+    "inverse_x_q8": 221,
+    "inverse_y_q8": 221,
+    "offset_x": -4,
+    "offset_y": 4,
+    "left": -28,
+    "top": -32,
+    "width": 59,
+    "height": 65,
+    "desired_width": 59,
+    "desired_full_height": 65,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 102,
+    "name": "Castelius III",
+    "side": "front",
+    "reference_bbox": [
+      132,
+      5,
+      208,
+      71
+    ],
+    "source_size": [
+      56,
+      48
+    ],
+    "inverse_x_q8": 189,
+    "inverse_y_q8": 187,
+    "offset_x": -7,
+    "offset_y": -3,
+    "left": -37,
+    "top": -32,
+    "width": 75,
+    "height": 65,
+    "desired_width": 76,
+    "desired_full_height": 66,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 102,
+    "name": "Castelius III",
+    "side": "back",
+    "reference_bbox": [
+      26,
+      55,
+      112,
+      113
+    ],
+    "source_size": [
+      56,
+      51
+    ],
+    "inverse_x_q8": 167,
+    "inverse_y_q8": 167,
+    "offset_x": -4,
+    "offset_y": 12,
+    "left": -42,
+    "top": -38,
+    "width": 85,
+    "height": 78,
+    "desired_width": 86,
+    "desired_full_height": 78,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 103,
+    "name": "Castelius II",
+    "side": "front",
+    "reference_bbox": [
+      133,
+      5,
+      207,
+      70
+    ],
+    "source_size": [
+      56,
+      49
+    ],
+    "inverse_x_q8": 194,
+    "inverse_y_q8": 193,
+    "offset_x": -7,
+    "offset_y": -4,
+    "left": -36,
+    "top": -31,
+    "width": 73,
+    "height": 65,
+    "desired_width": 74,
+    "desired_full_height": 65,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 103,
+    "name": "Castelius II",
+    "side": "back",
+    "reference_bbox": [
+      27,
+      55,
+      111,
+      113
+    ],
+    "source_size": [
+      56,
+      51
+    ],
+    "inverse_x_q8": 171,
+    "inverse_y_q8": 172,
+    "offset_x": -4,
+    "offset_y": 11,
+    "left": -41,
+    "top": -37,
+    "width": 83,
+    "height": 76,
+    "desired_width": 84,
+    "desired_full_height": 76,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 104,
+    "name": "Castelius I",
+    "side": "front",
+    "reference_bbox": [
+      133,
+      4,
+      207,
+      70
+    ],
+    "source_size": [
+      56,
+      49
+    ],
+    "inverse_x_q8": 194,
+    "inverse_y_q8": 190,
+    "offset_x": -7,
+    "offset_y": -4,
+    "left": -36,
+    "top": -32,
+    "width": 73,
+    "height": 66,
+    "desired_width": 74,
+    "desired_full_height": 66,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 104,
+    "name": "Castelius I",
+    "side": "back",
+    "reference_bbox": [
+      28,
+      57,
+      109,
+      113
+    ],
+    "source_size": [
+      56,
+      49
+    ],
+    "inverse_x_q8": 177,
+    "inverse_y_q8": 177,
+    "offset_x": -4,
+    "offset_y": 10,
+    "left": -40,
+    "top": -34,
+    "width": 81,
+    "height": 71,
+    "desired_width": 81,
+    "desired_full_height": 71,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 105,
+    "name": "Castelius Max",
+    "side": "front",
+    "reference_bbox": [
+      134,
+      7,
+      206,
+      68
+    ],
+    "source_size": [
+      56,
+      47
+    ],
+    "inverse_x_q8": 200,
+    "inverse_y_q8": 197,
+    "offset_x": -7,
+    "offset_y": -4,
+    "left": -35,
+    "top": -29,
+    "width": 71,
+    "height": 61,
+    "desired_width": 72,
+    "desired_full_height": 61,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 105,
+    "name": "Castelius Max",
+    "side": "back",
+    "reference_bbox": [
+      30,
+      59,
+      109,
+      113
+    ],
+    "source_size": [
+      56,
+      49
+    ],
+    "inverse_x_q8": 181,
+    "inverse_y_q8": 182,
+    "offset_x": -3,
+    "offset_y": 11,
+    "left": -39,
+    "top": -33,
+    "width": 79,
+    "height": 69,
+    "desired_width": 79,
+    "desired_full_height": 69,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 106,
+    "name": "Pitou",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      15,
+      195,
+      64
+    ],
+    "source_size": [
+      50,
+      56
+    ],
+    "inverse_x_q8": 251,
+    "inverse_y_q8": 293,
+    "offset_x": -7,
+    "offset_y": -1,
+    "left": -25,
+    "top": -24,
+    "width": 51,
+    "height": 49,
+    "desired_width": 51,
+    "desired_full_height": 49,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 106,
+    "name": "Pitou",
+    "side": "back",
+    "reference_bbox": [
+      40,
+      65,
+      99,
+      113
+    ],
+    "source_size": [
+      52,
+      56
+    ],
+    "inverse_x_q8": 226,
+    "inverse_y_q8": 224,
+    "offset_x": -3,
+    "offset_y": 16,
+    "left": -29,
+    "top": -32,
+    "width": 59,
+    "height": 64,
+    "desired_width": 59,
+    "desired_full_height": 64,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 107,
+    "name": "Choubidou",
+    "side": "front",
+    "reference_bbox": [
+      140,
+      14,
+      205,
+      68
+    ],
+    "source_size": [
+      56,
+      47
+    ],
+    "inverse_x_q8": 221,
+    "inverse_y_q8": 223,
+    "offset_x": -4,
+    "offset_y": 0,
+    "left": -32,
+    "top": -26,
+    "width": 65,
+    "height": 54,
+    "desired_width": 65,
+    "desired_full_height": 54,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 107,
+    "name": "Choubidou",
+    "side": "back",
+    "reference_bbox": [
+      30,
+      62,
+      104,
+      113
+    ],
+    "source_size": [
+      56,
+      46
+    ],
+    "inverse_x_q8": 194,
+    "inverse_y_q8": 193,
+    "offset_x": -6,
+    "offset_y": 11,
+    "left": -36,
+    "top": -30,
+    "width": 73,
+    "height": 61,
+    "desired_width": 74,
+    "desired_full_height": 61,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 108,
+    "name": "Arbrézo",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      13,
+      206,
+      67
+    ],
+    "source_size": [
+      56,
+      54
+    ],
+    "inverse_x_q8": 232,
+    "inverse_y_q8": 256,
+    "offset_x": -2,
+    "offset_y": 0,
+    "left": -30,
+    "top": -27,
+    "width": 61,
+    "height": 54,
+    "desired_width": 62,
+    "desired_full_height": 54,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 108,
+    "name": "Arbrézo",
+    "side": "back",
+    "reference_bbox": [
+      34,
+      63,
+      103,
+      113
+    ],
+    "source_size": [
+      56,
+      52
+    ],
+    "inverse_x_q8": 208,
+    "inverse_y_q8": 208,
+    "offset_x": -4,
+    "offset_y": 14,
+    "left": -34,
+    "top": -32,
+    "width": 69,
+    "height": 64,
+    "desired_width": 69,
+    "desired_full_height": 64,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 109,
+    "name": "Abrézo Social",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      8,
+      203,
+      68
+    ],
+    "source_size": [
+      54,
+      56
+    ],
+    "inverse_x_q8": 234,
+    "inverse_y_q8": 239,
+    "offset_x": -3,
+    "offset_y": -3,
+    "left": -29,
+    "top": -29,
+    "width": 59,
+    "height": 59,
+    "desired_width": 59,
+    "desired_full_height": 60,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 109,
+    "name": "Abrézo Social",
+    "side": "back",
+    "reference_bbox": [
+      33,
+      57,
+      100,
+      113
+    ],
+    "source_size": [
+      56,
+      56
+    ],
+    "inverse_x_q8": 214,
+    "inverse_y_q8": 214,
+    "offset_x": -6,
+    "offset_y": 9,
+    "left": -33,
+    "top": -33,
+    "width": 67,
+    "height": 67,
+    "desired_width": 67,
+    "desired_full_height": 67,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 110,
+    "name": "Espreschiot",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      9,
+      199,
+      68
+    ],
+    "source_size": [
+      49,
+      56
+    ],
+    "inverse_x_q8": 228,
+    "inverse_y_q8": 243,
+    "offset_x": -6,
+    "offset_y": -2,
+    "left": -26,
+    "top": -29,
+    "width": 55,
+    "height": 59,
+    "desired_width": 55,
+    "desired_full_height": 59,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 110,
+    "name": "Espreschiot",
+    "side": "back",
+    "reference_bbox": [
+      35,
+      62,
+      99,
+      113
+    ],
+    "source_size": [
+      52,
+      56
+    ],
+    "inverse_x_q8": 208,
+    "inverse_y_q8": 208,
+    "offset_x": -5,
+    "offset_y": 15,
+    "left": -32,
+    "top": -34,
+    "width": 64,
+    "height": 69,
+    "desired_width": 64,
+    "desired_full_height": 69,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 111,
+    "name": "Duc Delafeuille",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      16,
+      203,
+      67
+    ],
+    "source_size": [
+      56,
+      53
+    ],
+    "inverse_x_q8": 243,
+    "inverse_y_q8": 266,
+    "offset_x": -3,
+    "offset_y": 1,
+    "left": -29,
+    "top": -25,
+    "width": 59,
+    "height": 51,
+    "desired_width": 59,
+    "desired_full_height": 51,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 111,
+    "name": "Duc Delafeuille",
+    "side": "back",
+    "reference_bbox": [
+      36,
+      73,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      56
+    ],
+    "inverse_x_q8": 228,
+    "inverse_y_q8": 228,
+    "offset_x": -5,
+    "offset_y": 23,
+    "left": -31,
+    "top": -31,
+    "width": 63,
+    "height": 63,
+    "desired_width": 63,
+    "desired_full_height": 63,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 112,
+    "name": "Feuildechou",
+    "side": "front",
+    "reference_bbox": [
+      138,
+      14,
+      214,
+      64
+    ],
+    "source_size": [
+      53,
+      37
+    ],
+    "inverse_x_q8": 179,
+    "inverse_y_q8": 189,
+    "offset_x": -1,
+    "offset_y": -2,
+    "left": -37,
+    "top": -24,
+    "width": 76,
+    "height": 50,
+    "desired_width": 76,
+    "desired_full_height": 50,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 112,
+    "name": "Feuildechou",
+    "side": "back",
+    "reference_bbox": [
+      25,
+      72,
+      109,
+      113
+    ],
+    "source_size": [
+      46,
+      37
+    ],
+    "inverse_x_q8": 141,
+    "inverse_y_q8": 139,
+    "offset_x": -6,
+    "offset_y": 24,
+    "left": -41,
+    "top": -33,
+    "width": 83,
+    "height": 68,
+    "desired_width": 84,
+    "desired_full_height": 68,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 113,
+    "name": "Sal de bain",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      10,
+      207,
+      67
+    ],
+    "source_size": [
+      56,
+      52
+    ],
+    "inverse_x_q8": 228,
+    "inverse_y_q8": 234,
+    "offset_x": -1,
+    "offset_y": -2,
+    "left": -31,
+    "top": -28,
+    "width": 63,
+    "height": 57,
+    "desired_width": 63,
+    "desired_full_height": 57,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 113,
+    "name": "Sal de bain",
+    "side": "back",
+    "reference_bbox": [
+      32,
+      61,
+      100,
+      113
+    ],
+    "source_size": [
+      56,
+      53
+    ],
+    "inverse_x_q8": 211,
+    "inverse_y_q8": 212,
+    "offset_x": -7,
+    "offset_y": 11,
+    "left": -33,
+    "top": -31,
+    "width": 67,
+    "height": 64,
+    "desired_width": 68,
+    "desired_full_height": 64,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 114,
+    "name": "XXL de bain",
+    "side": "front",
+    "reference_bbox": [
+      142,
+      16,
+      218,
+      67
+    ],
+    "source_size": [
+      51,
+      46
+    ],
+    "inverse_x_q8": 172,
+    "inverse_y_q8": 231,
+    "offset_x": 3,
+    "offset_y": 1,
+    "left": -37,
+    "top": -25,
+    "width": 76,
+    "height": 51,
+    "desired_width": 76,
+    "desired_full_height": 51,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 114,
+    "name": "XXL de bain",
+    "side": "back",
+    "reference_bbox": [
+      23,
+      67,
+      110,
+      113
+    ],
+    "source_size": [
+      49,
+      45
+    ],
+    "inverse_x_q8": 144,
+    "inverse_y_q8": 144,
+    "offset_x": -7,
+    "offset_y": 25,
+    "left": -42,
+    "top": -39,
+    "width": 87,
+    "height": 80,
+    "desired_width": 87,
+    "desired_full_height": 80,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 115,
+    "name": "Tristos",
+    "side": "front",
+    "reference_bbox": [
+      141,
+      8,
+      205,
+      64
+    ],
+    "source_size": [
+      56,
+      49
+    ],
+    "inverse_x_q8": 224,
+    "inverse_y_q8": 224,
+    "offset_x": -3,
+    "offset_y": -5,
+    "left": -32,
+    "top": -27,
+    "width": 64,
+    "height": 56,
+    "desired_width": 64,
+    "desired_full_height": 56,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 115,
+    "name": "Tristos",
+    "side": "back",
+    "reference_bbox": [
+      35,
+      60,
+      100,
+      113
+    ],
+    "source_size": [
+      56,
+      53
+    ],
+    "inverse_x_q8": 221,
+    "inverse_y_q8": 219,
+    "offset_x": -5,
+    "offset_y": 9,
+    "left": -32,
+    "top": -30,
+    "width": 65,
+    "height": 62,
+    "desired_width": 65,
+    "desired_full_height": 62,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 116,
+    "name": "Rocky Badboya",
+    "side": "front",
+    "reference_bbox": [
+      141,
+      14,
+      211,
+      69
+    ],
+    "source_size": [
+      56,
+      44
+    ],
+    "inverse_x_q8": 205,
+    "inverse_y_q8": 205,
+    "offset_x": -1,
+    "offset_y": 1,
+    "left": -34,
+    "top": -27,
+    "width": 69,
+    "height": 55,
+    "desired_width": 70,
+    "desired_full_height": 55,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 116,
+    "name": "Rocky Badboya",
+    "side": "back",
+    "reference_bbox": [
+      27,
+      62,
+      112,
+      113
+    ],
+    "source_size": [
+      56,
+      33
+    ],
+    "inverse_x_q8": 169,
+    "inverse_y_q8": 166,
+    "offset_x": -3,
+    "offset_y": 5,
+    "left": -42,
+    "top": -24,
+    "width": 85,
+    "height": 51,
+    "desired_width": 85,
+    "desired_full_height": 51,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 117,
+    "name": "Raton Glandeur",
+    "side": "front",
+    "reference_bbox": [
+      138,
+      22,
+      215,
+      68
+    ],
+    "source_size": [
+      55,
+      37
+    ],
+    "inverse_x_q8": 183,
+    "inverse_y_q8": 206,
+    "offset_x": -1,
+    "offset_y": 4,
+    "left": -37,
+    "top": -22,
+    "width": 77,
+    "height": 46,
+    "desired_width": 77,
+    "desired_full_height": 46,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 117,
+    "name": "Raton Glandeur",
+    "side": "back",
+    "reference_bbox": [
+      25,
+      79,
+      108,
+      113
+    ],
+    "source_size": [
+      48,
+      33
+    ],
+    "inverse_x_q8": 148,
+    "inverse_y_q8": 148,
+    "offset_x": -6,
+    "offset_y": 25,
+    "left": -41,
+    "top": -27,
+    "width": 83,
+    "height": 57,
+    "desired_width": 83,
+    "desired_full_height": 57,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 118,
+    "name": "Vertipiou",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      20,
+      203,
+      68
+    ],
+    "source_size": [
+      56,
+      44
+    ],
+    "inverse_x_q8": 243,
+    "inverse_y_q8": 235,
+    "offset_x": -3,
+    "offset_y": 3,
+    "left": -29,
+    "top": -23,
+    "width": 59,
+    "height": 47,
+    "desired_width": 59,
+    "desired_full_height": 48,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 118,
+    "name": "Vertipiou",
+    "side": "back",
+    "reference_bbox": [
+      35,
+      68,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      56
+    ],
+    "inverse_x_q8": 224,
+    "inverse_y_q8": 224,
+    "offset_x": -5,
+    "offset_y": 19,
+    "left": -32,
+    "top": -32,
+    "width": 64,
+    "height": 64,
+    "desired_width": 64,
+    "desired_full_height": 64,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 119,
+    "name": "Samoussraï",
+    "side": "front",
+    "reference_bbox": [
+      141,
+      18,
+      206,
+      67
+    ],
+    "source_size": [
+      56,
+      41
+    ],
+    "inverse_x_q8": 221,
+    "inverse_y_q8": 214,
+    "offset_x": -3,
+    "offset_y": 1,
+    "left": -32,
+    "top": -23,
+    "width": 65,
+    "height": 49,
+    "desired_width": 65,
+    "desired_full_height": 49,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 119,
+    "name": "Samoussraï",
+    "side": "back",
+    "reference_bbox": [
+      32,
+      76,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      44
+    ],
+    "inverse_x_q8": 214,
+    "inverse_y_q8": 213,
+    "offset_x": -7,
+    "offset_y": 21,
+    "left": -33,
+    "top": -26,
+    "width": 67,
+    "height": 53,
+    "desired_width": 67,
+    "desired_full_height": 53,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 120,
+    "name": "Ronimpec",
+    "side": "front",
+    "reference_bbox": [
+      141,
+      8,
+      203,
+      68
+    ],
+    "source_size": [
+      56,
+      54
+    ],
+    "inverse_x_q8": 232,
+    "inverse_y_q8": 231,
+    "offset_x": -5,
+    "offset_y": -3,
+    "left": -30,
+    "top": -29,
+    "width": 61,
+    "height": 59,
+    "desired_width": 62,
+    "desired_full_height": 60,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 120,
+    "name": "Ronimpec",
+    "side": "back",
+    "reference_bbox": [
+      34,
+      67,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      53
+    ],
+    "inverse_x_q8": 221,
+    "inverse_y_q8": 219,
+    "offset_x": -6,
+    "offset_y": 16,
+    "left": -32,
+    "top": -30,
+    "width": 65,
+    "height": 62,
+    "desired_width": 65,
+    "desired_full_height": 62,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 121,
+    "name": "Moufpète",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      10,
+      207,
+      68
+    ],
+    "source_size": [
+      56,
+      56
+    ],
+    "inverse_x_q8": 228,
+    "inverse_y_q8": 248,
+    "offset_x": -1,
+    "offset_y": -2,
+    "left": -31,
+    "top": -28,
+    "width": 63,
+    "height": 57,
+    "desired_width": 63,
+    "desired_full_height": 58,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 121,
+    "name": "Moufpète",
+    "side": "back",
+    "reference_bbox": [
+      33,
+      61,
+      99,
+      113
+    ],
+    "source_size": [
+      52,
+      56
+    ],
+    "inverse_x_q8": 202,
+    "inverse_y_q8": 202,
+    "offset_x": -7,
+    "offset_y": 15,
+    "left": -32,
+    "top": -35,
+    "width": 65,
+    "height": 71,
+    "desired_width": 66,
+    "desired_full_height": 71,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 122,
+    "name": "Gloups",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      17,
+      204,
+      68
+    ],
+    "source_size": [
+      56,
+      46
+    ],
+    "inverse_x_q8": 239,
+    "inverse_y_q8": 231,
+    "offset_x": -3,
+    "offset_y": 2,
+    "left": -29,
+    "top": -25,
+    "width": 59,
+    "height": 51,
+    "desired_width": 60,
+    "desired_full_height": 51,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 122,
+    "name": "Gloups",
+    "side": "back",
+    "reference_bbox": [
+      40,
+      66,
+      101,
+      113
+    ],
+    "source_size": [
+      56,
+      41
+    ],
+    "inverse_x_q8": 235,
+    "inverse_y_q8": 223,
+    "offset_x": -2,
+    "offset_y": 7,
+    "left": -30,
+    "top": -22,
+    "width": 61,
+    "height": 47,
+    "desired_width": 61,
+    "desired_full_height": 47,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 123,
+    "name": "Chip-Chop",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      11,
+      201,
+      69
+    ],
+    "source_size": [
+      54,
+      56
+    ],
+    "inverse_x_q8": 243,
+    "inverse_y_q8": 248,
+    "offset_x": -4,
+    "offset_y": -1,
+    "left": -28,
+    "top": -28,
+    "width": 57,
+    "height": 57,
+    "desired_width": 57,
+    "desired_full_height": 58,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 123,
+    "name": "Chip-Chop",
+    "side": "back",
+    "reference_bbox": [
+      41,
+      61,
+      99,
+      113
+    ],
+    "source_size": [
+      49,
+      56
+    ],
+    "inverse_x_q8": 216,
+    "inverse_y_q8": 218,
+    "offset_x": -3,
+    "offset_y": 12,
+    "left": -28,
+    "top": -32,
+    "width": 58,
+    "height": 65,
+    "desired_width": 58,
+    "desired_full_height": 66,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 124,
+    "name": "Chaipo",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      22,
+      203,
+      62
+    ],
+    "source_size": [
+      56,
+      36
+    ],
+    "inverse_x_q8": 243,
+    "inverse_y_q8": 231,
+    "offset_x": -3,
+    "offset_y": 1,
+    "left": -29,
+    "top": -19,
+    "width": 59,
+    "height": 39,
+    "desired_width": 59,
+    "desired_full_height": 40,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 124,
+    "name": "Chaipo",
+    "side": "back",
+    "reference_bbox": [
+      36,
+      81,
+      99,
+      113
+    ],
+    "source_size": [
+      54,
+      38
+    ],
+    "inverse_x_q8": 219,
+    "inverse_y_q8": 222,
+    "offset_x": -5,
+    "offset_y": 21,
+    "left": -31,
+    "top": -21,
+    "width": 63,
+    "height": 43,
+    "desired_width": 63,
+    "desired_full_height": 44,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 125,
+    "name": "Mémogre",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      15,
+      200,
+      70
+    ],
+    "source_size": [
+      56,
+      56
+    ],
+    "inverse_x_q8": 256,
+    "inverse_y_q8": 261,
+    "offset_x": -4,
+    "offset_y": 2,
+    "left": -28,
+    "top": -27,
+    "width": 56,
+    "height": 55,
+    "desired_width": 56,
+    "desired_full_height": 55,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 125,
+    "name": "Mémogre",
+    "side": "back",
+    "reference_bbox": [
+      34,
+      72,
+      99,
+      113
+    ],
+    "source_size": [
+      55,
+      56
+    ],
+    "inverse_x_q8": 217,
+    "inverse_y_q8": 218,
+    "offset_x": -7,
+    "offset_y": 23,
+    "left": -31,
+    "top": -32,
+    "width": 65,
+    "height": 65,
+    "desired_width": 65,
+    "desired_full_height": 66,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 126,
+    "name": "Jojojoyeux",
+    "side": "front",
+    "reference_bbox": [
+      133,
+      7,
+      219,
+      66
+    ],
+    "source_size": [
+      56,
+      39
+    ],
+    "inverse_x_q8": 167,
+    "inverse_y_q8": 169,
+    "offset_x": -1,
+    "offset_y": -5,
+    "left": -42,
+    "top": -28,
+    "width": 85,
+    "height": 59,
+    "desired_width": 86,
+    "desired_full_height": 59,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 126,
+    "name": "Jojojoyeux",
+    "side": "back",
+    "reference_bbox": [
+      19,
+      65,
+      107,
+      113
+    ],
+    "source_size": [
+      56,
+      42
+    ],
+    "inverse_x_q8": 163,
+    "inverse_y_q8": 163,
+    "offset_x": -10,
+    "offset_y": 16,
+    "left": -43,
+    "top": -32,
+    "width": 87,
+    "height": 65,
+    "desired_width": 88,
+    "desired_full_height": 66,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 127,
+    "name": "Chauvkipeut",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      16,
+      195,
+      63
+    ],
+    "source_size": [
+      50,
+      56
+    ],
+    "inverse_x_q8": 251,
+    "inverse_y_q8": 305,
+    "offset_x": -7,
+    "offset_y": -1,
+    "left": -25,
+    "top": -23,
+    "width": 51,
+    "height": 47,
+    "desired_width": 51,
+    "desired_full_height": 47,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 127,
+    "name": "Chauvkipeut",
+    "side": "back",
+    "reference_bbox": [
+      39,
+      74,
+      99,
+      113
+    ],
+    "source_size": [
+      47,
+      56
+    ],
+    "inverse_x_q8": 201,
+    "inverse_y_q8": 202,
+    "offset_x": -4,
+    "offset_y": 28,
+    "left": -29,
+    "top": -35,
+    "width": 60,
+    "height": 71,
+    "desired_width": 60,
+    "desired_full_height": 71,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 128,
+    "name": "Chauv'coucou",
+    "side": "front",
+    "reference_bbox": [
+      135,
+      13,
+      218,
+      65
+    ],
+    "source_size": [
+      52,
+      41
+    ],
+    "inverse_x_q8": 160,
+    "inverse_y_q8": 202,
+    "offset_x": 0,
+    "offset_y": -2,
+    "left": -41,
+    "top": -25,
+    "width": 83,
+    "height": 52,
+    "desired_width": 83,
+    "desired_full_height": 52,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 128,
+    "name": "Chauv'coucou",
+    "side": "back",
+    "reference_bbox": [
+      24,
+      76,
+      111,
+      113
+    ],
+    "source_size": [
+      47,
+      42
+    ],
+    "inverse_x_q8": 138,
+    "inverse_y_q8": 138,
+    "offset_x": -6,
+    "offset_y": 33,
+    "left": -42,
+    "top": -38,
+    "width": 87,
+    "height": 77,
+    "desired_width": 87,
+    "desired_full_height": 78,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 129,
+    "name": "Pachycoul",
+    "side": "front",
+    "reference_bbox": [
+      139,
+      22,
+      211,
+      66
+    ],
+    "source_size": [
+      56,
+      32
+    ],
+    "inverse_x_q8": 200,
+    "inverse_y_q8": 187,
+    "offset_x": -2,
+    "offset_y": 3,
+    "left": -35,
+    "top": -21,
+    "width": 71,
+    "height": 43,
+    "desired_width": 72,
+    "desired_full_height": 44,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 129,
+    "name": "Pachycoul",
+    "side": "back",
+    "reference_bbox": [
+      23,
+      82,
+      105,
+      113
+    ],
+    "source_size": [
+      56,
+      32
+    ],
+    "inverse_x_q8": 175,
+    "inverse_y_q8": 174,
+    "offset_x": -9,
+    "offset_y": 24,
+    "left": -40,
+    "top": -23,
+    "width": 81,
+    "height": 47,
+    "desired_width": 82,
+    "desired_full_height": 47,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 130,
+    "name": "Pachypipi",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      12,
+      222,
+      68
+    ],
+    "source_size": [
+      56,
+      41
+    ],
+    "inverse_x_q8": 184,
+    "inverse_y_q8": 187,
+    "offset_x": 6,
+    "offset_y": -1,
+    "left": -38,
+    "top": -27,
+    "width": 77,
+    "height": 56,
+    "desired_width": 78,
+    "desired_full_height": 56,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 130,
+    "name": "Pachypipi",
+    "side": "back",
+    "reference_bbox": [
+      28,
+      70,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      45
+    ],
+    "inverse_x_q8": 202,
+    "inverse_y_q8": 202,
+    "offset_x": -9,
+    "offset_y": 16,
+    "left": -35,
+    "top": -27,
+    "width": 71,
+    "height": 57,
+    "desired_width": 71,
+    "desired_full_height": 57,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 131,
+    "name": "Loubarbare",
+    "side": "front",
+    "reference_bbox": [
+      126,
+      18,
+      201,
+      67
+    ],
+    "source_size": [
+      56,
+      36
+    ],
+    "inverse_x_q8": 191,
+    "inverse_y_q8": 188,
+    "offset_x": -13,
+    "offset_y": 2,
+    "left": -37,
+    "top": -24,
+    "width": 75,
+    "height": 49,
+    "desired_width": 75,
+    "desired_full_height": 49,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 131,
+    "name": "Loubarbare",
+    "side": "back",
+    "reference_bbox": [
+      29,
+      71,
+      103,
+      113
+    ],
+    "source_size": [
+      56,
+      40
+    ],
+    "inverse_x_q8": 194,
+    "inverse_y_q8": 193,
+    "offset_x": -7,
+    "offset_y": 16,
+    "left": -36,
+    "top": -26,
+    "width": 73,
+    "height": 53,
+    "desired_width": 74,
+    "desired_full_height": 53,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 132,
+    "name": "Racaïd",
+    "side": "front",
+    "reference_bbox": [
+      136,
+      6,
+      214,
+      68
+    ],
+    "source_size": [
+      56,
+      43
+    ],
+    "inverse_x_q8": 184,
+    "inverse_y_q8": 178,
+    "offset_x": -2,
+    "offset_y": -4,
+    "left": -38,
+    "top": -30,
+    "width": 77,
+    "height": 62,
+    "desired_width": 78,
+    "desired_full_height": 62,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 132,
+    "name": "Racaïd",
+    "side": "back",
+    "reference_bbox": [
+      26,
+      64,
+      107,
+      113
+    ],
+    "source_size": [
+      56,
+      45
+    ],
+    "inverse_x_q8": 177,
+    "inverse_y_q8": 177,
+    "offset_x": -6,
+    "offset_y": 14,
+    "left": -40,
+    "top": -31,
+    "width": 81,
+    "height": 65,
+    "desired_width": 81,
+    "desired_full_height": 65,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 133,
+    "name": "Terminyanator",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      11,
+      212,
+      67
+    ],
+    "source_size": [
+      55,
+      51
+    ],
+    "inverse_x_q8": 207,
+    "inverse_y_q8": 233,
+    "offset_x": 1,
+    "offset_y": -2,
+    "left": -33,
+    "top": -27,
+    "width": 68,
+    "height": 56,
+    "desired_width": 68,
+    "desired_full_height": 56,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 133,
+    "name": "Terminyanator",
+    "side": "back",
+    "reference_bbox": [
+      25,
+      64,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      56
+    ],
+    "inverse_x_q8": 194,
+    "inverse_y_q8": 194,
+    "offset_x": -11,
+    "offset_y": 19,
+    "left": -36,
+    "top": -36,
+    "width": 73,
+    "height": 73,
+    "desired_width": 74,
+    "desired_full_height": 74,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 134,
+    "name": "Sabruine",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      5,
+      203,
+      68
+    ],
+    "source_size": [
+      52,
+      56
+    ],
+    "inverse_x_q8": 226,
+    "inverse_y_q8": 228,
+    "offset_x": -3,
+    "offset_y": -4,
+    "left": -29,
+    "top": -31,
+    "width": 59,
+    "height": 63,
+    "desired_width": 59,
+    "desired_full_height": 63,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 134,
+    "name": "Sabruine",
+    "side": "back",
+    "reference_bbox": [
+      28,
+      66,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      54
+    ],
+    "inverse_x_q8": 202,
+    "inverse_y_q8": 204,
+    "offset_x": -9,
+    "offset_y": 18,
+    "left": -35,
+    "top": -33,
+    "width": 71,
+    "height": 67,
+    "desired_width": 71,
+    "desired_full_height": 68,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 135,
+    "name": "Sabrille",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      4,
+      210,
+      68
+    ],
+    "source_size": [
+      56,
+      52
+    ],
+    "inverse_x_q8": 218,
+    "inverse_y_q8": 208,
+    "offset_x": 0,
+    "offset_y": -4,
+    "left": -32,
+    "top": -32,
+    "width": 65,
+    "height": 64,
+    "desired_width": 66,
+    "desired_full_height": 64,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 135,
+    "name": "Sabrille",
+    "side": "back",
+    "reference_bbox": [
+      30,
+      59,
+      100,
+      113
+    ],
+    "source_size": [
+      55,
+      56
+    ],
+    "inverse_x_q8": 201,
+    "inverse_y_q8": 202,
+    "offset_x": -8,
+    "offset_y": 13,
+    "left": -34,
+    "top": -35,
+    "width": 70,
+    "height": 71,
+    "desired_width": 70,
+    "desired_full_height": 71,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 136,
+    "name": "Fourchelangue",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      13,
+      205,
+      67
+    ],
+    "source_size": [
+      56,
+      49
+    ],
+    "inverse_x_q8": 235,
+    "inverse_y_q8": 232,
+    "offset_x": -2,
+    "offset_y": -1,
+    "left": -30,
+    "top": -26,
+    "width": 61,
+    "height": 54,
+    "desired_width": 61,
+    "desired_full_height": 54,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 136,
+    "name": "Fourchelangue",
+    "side": "back",
+    "reference_bbox": [
+      33,
+      64,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      53
+    ],
+    "inverse_x_q8": 218,
+    "inverse_y_q8": 219,
+    "offset_x": -7,
+    "offset_y": 13,
+    "left": -32,
+    "top": -30,
+    "width": 65,
+    "height": 62,
+    "desired_width": 66,
+    "desired_full_height": 62,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 137,
+    "name": "Felipaix",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      13,
+      192,
+      67
+    ],
+    "source_size": [
+      44,
+      56
+    ],
+    "inverse_x_q8": 235,
+    "inverse_y_q8": 266,
+    "offset_x": -9,
+    "offset_y": -1,
+    "left": -23,
+    "top": -26,
+    "width": 47,
+    "height": 53,
+    "desired_width": 48,
+    "desired_full_height": 54,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 137,
+    "name": "Felipaix",
+    "side": "back",
+    "reference_bbox": [
+      40,
+      72,
+      99,
+      113
+    ],
+    "source_size": [
+      43,
+      56
+    ],
+    "inverse_x_q8": 187,
+    "inverse_y_q8": 186,
+    "offset_x": -4,
+    "offset_y": 29,
+    "left": -28,
+    "top": -38,
+    "width": 59,
+    "height": 77,
+    "desired_width": 59,
+    "desired_full_height": 77,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 138,
+    "name": "M. Felipaix",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      9,
+      191,
+      67
+    ],
+    "source_size": [
+      35,
+      56
+    ],
+    "inverse_x_q8": 191,
+    "inverse_y_q8": 248,
+    "offset_x": -10,
+    "offset_y": -3,
+    "left": -22,
+    "top": -28,
+    "width": 47,
+    "height": 57,
+    "desired_width": 47,
+    "desired_full_height": 58,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 138,
+    "name": "M. Felipaix",
+    "side": "back",
+    "reference_bbox": [
+      40,
+      70,
+      99,
+      113
+    ],
+    "source_size": [
+      35,
+      56
+    ],
+    "inverse_x_q8": 152,
+    "inverse_y_q8": 153,
+    "offset_x": -4,
+    "offset_y": 35,
+    "left": -28,
+    "top": -46,
+    "width": 59,
+    "height": 93,
+    "desired_width": 59,
+    "desired_full_height": 94,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 139,
+    "name": "Doyagari",
+    "side": "front",
+    "reference_bbox": [
+      142,
+      16,
+      201,
+      68
+    ],
+    "source_size": [
+      56,
+      48
+    ],
+    "inverse_x_q8": 243,
+    "inverse_y_q8": 237,
+    "offset_x": -5,
+    "offset_y": 1,
+    "left": -29,
+    "top": -25,
+    "width": 59,
+    "height": 51,
+    "desired_width": 59,
+    "desired_full_height": 52,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 139,
+    "name": "Doyagari",
+    "side": "back",
+    "reference_bbox": [
+      33,
+      66,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      53
+    ],
+    "inverse_x_q8": 218,
+    "inverse_y_q8": 219,
+    "offset_x": -7,
+    "offset_y": 15,
+    "left": -32,
+    "top": -30,
+    "width": 65,
+    "height": 62,
+    "desired_width": 66,
+    "desired_full_height": 62,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 140,
+    "name": "Doyen Doyagari",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      13,
+      200,
+      66
+    ],
+    "source_size": [
+      56,
+      52
+    ],
+    "inverse_x_q8": 256,
+    "inverse_y_q8": 251,
+    "offset_x": -4,
+    "offset_y": -1,
+    "left": -28,
+    "top": -26,
+    "width": 56,
+    "height": 53,
+    "desired_width": 56,
+    "desired_full_height": 53,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 140,
+    "name": "Doyen Doyagari",
+    "side": "back",
+    "reference_bbox": [
+      33,
+      65,
+      100,
+      113
+    ],
+    "source_size": [
+      56,
+      53
+    ],
+    "inverse_x_q8": 214,
+    "inverse_y_q8": 215,
+    "offset_x": -6,
+    "offset_y": 14,
+    "left": -33,
+    "top": -30,
+    "width": 67,
+    "height": 63,
+    "desired_width": 67,
+    "desired_full_height": 63,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 141,
+    "name": "Volroulo",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      9,
+      207,
+      66
+    ],
+    "source_size": [
+      56,
+      52
+    ],
+    "inverse_x_q8": 228,
+    "inverse_y_q8": 234,
+    "offset_x": -1,
+    "offset_y": -3,
+    "left": -31,
+    "top": -28,
+    "width": 63,
+    "height": 57,
+    "desired_width": 63,
+    "desired_full_height": 57,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 141,
+    "name": "Volroulo",
+    "side": "back",
+    "reference_bbox": [
+      35,
+      65,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      52
+    ],
+    "inverse_x_q8": 224,
+    "inverse_y_q8": 226,
+    "offset_x": -5,
+    "offset_y": 13,
+    "left": -32,
+    "top": -29,
+    "width": 64,
+    "height": 59,
+    "desired_width": 64,
+    "desired_full_height": 59,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 142,
+    "name": "Lulugubre",
+    "side": "front",
+    "reference_bbox": [
+      139,
+      22,
+      211,
+      67
+    ],
+    "source_size": [
+      56,
+      28
+    ],
+    "inverse_x_q8": 200,
+    "inverse_y_q8": 159,
+    "offset_x": -2,
+    "offset_y": 4,
+    "left": -35,
+    "top": -22,
+    "width": 71,
+    "height": 45,
+    "desired_width": 72,
+    "desired_full_height": 45,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 142,
+    "name": "Lulugubre",
+    "side": "back",
+    "reference_bbox": [
+      26,
+      82,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      30
+    ],
+    "inverse_x_q8": 196,
+    "inverse_y_q8": 197,
+    "offset_x": -10,
+    "offset_y": 20,
+    "left": -36,
+    "top": -19,
+    "width": 73,
+    "height": 39,
+    "desired_width": 73,
+    "desired_full_height": 39,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 143,
+    "name": "Toumou",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      22,
+      209,
+      67
+    ],
+    "source_size": [
+      56,
+      39
+    ],
+    "inverse_x_q8": 221,
+    "inverse_y_q8": 222,
+    "offset_x": 0,
+    "offset_y": 3,
+    "left": -32,
+    "top": -21,
+    "width": 65,
+    "height": 45,
+    "desired_width": 65,
+    "desired_full_height": 45,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 143,
+    "name": "Toumou",
+    "side": "back",
+    "reference_bbox": [
+      30,
+      77,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      41
+    ],
+    "inverse_x_q8": 208,
+    "inverse_y_q8": 206,
+    "offset_x": -8,
+    "offset_y": 20,
+    "left": -34,
+    "top": -24,
+    "width": 69,
+    "height": 51,
+    "desired_width": 69,
+    "desired_full_height": 51,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 144,
+    "name": "Lamlam'mou",
+    "side": "front",
+    "reference_bbox": [
+      139,
+      19,
+      210,
+      64
+    ],
+    "source_size": [
+      56,
+      36
+    ],
+    "inverse_x_q8": 202,
+    "inverse_y_q8": 205,
+    "offset_x": -2,
+    "offset_y": 1,
+    "left": -35,
+    "top": -22,
+    "width": 71,
+    "height": 45,
+    "desired_width": 71,
+    "desired_full_height": 45,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 144,
+    "name": "Lamlam'mou",
+    "side": "back",
+    "reference_bbox": [
+      23,
+      72,
+      104,
+      113
+    ],
+    "source_size": [
+      56,
+      37
+    ],
+    "inverse_x_q8": 177,
+    "inverse_y_q8": 175,
+    "offset_x": -9,
+    "offset_y": 17,
+    "left": -40,
+    "top": -26,
+    "width": 81,
+    "height": 54,
+    "desired_width": 81,
+    "desired_full_height": 54,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 145,
+    "name": "Savantard",
+    "side": "front",
+    "reference_bbox": [
+      140,
+      11,
+      210,
+      68
+    ],
+    "source_size": [
+      56,
+      46
+    ],
+    "inverse_x_q8": 205,
+    "inverse_y_q8": 207,
+    "offset_x": -2,
+    "offset_y": -1,
+    "left": -34,
+    "top": -28,
+    "width": 69,
+    "height": 57,
+    "desired_width": 70,
+    "desired_full_height": 57,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 145,
+    "name": "Savantard",
+    "side": "back",
+    "reference_bbox": [
+      31,
+      67,
+      107,
+      113
+    ],
+    "source_size": [
+      56,
+      47
+    ],
+    "inverse_x_q8": 189,
+    "inverse_y_q8": 188,
+    "offset_x": -4,
+    "offset_y": 17,
+    "left": -37,
+    "top": -31,
+    "width": 75,
+    "height": 64,
+    "desired_width": 76,
+    "desired_full_height": 64,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 146,
+    "name": "Loupépin",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      6,
+      212,
+      66
+    ],
+    "source_size": [
+      55,
+      56
+    ],
+    "inverse_x_q8": 207,
+    "inverse_y_q8": 239,
+    "offset_x": 1,
+    "offset_y": -5,
+    "left": -33,
+    "top": -29,
+    "width": 68,
+    "height": 59,
+    "desired_width": 68,
+    "desired_full_height": 60,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 146,
+    "name": "Loupépin",
+    "side": "back",
+    "reference_bbox": [
+      23,
+      60,
+      99,
+      113
+    ],
+    "source_size": [
+      52,
+      56
+    ],
+    "inverse_x_q8": 176,
+    "inverse_y_q8": 175,
+    "offset_x": -12,
+    "offset_y": 19,
+    "left": -37,
+    "top": -40,
+    "width": 75,
+    "height": 81,
+    "desired_width": 76,
+    "desired_full_height": 82,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 147,
+    "name": "Mademoaiselle",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      10,
+      203,
+      70
+    ],
+    "source_size": [
+      49,
+      56
+    ],
+    "inverse_x_q8": 213,
+    "inverse_y_q8": 239,
+    "offset_x": -4,
+    "offset_y": -1,
+    "left": -28,
+    "top": -29,
+    "width": 59,
+    "height": 59,
+    "desired_width": 59,
+    "desired_full_height": 60,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 147,
+    "name": "Mademoaiselle",
+    "side": "back",
+    "reference_bbox": [
+      30,
+      68,
+      99,
+      113
+    ],
+    "source_size": [
+      49,
+      56
+    ],
+    "inverse_x_q8": 182,
+    "inverse_y_q8": 181,
+    "offset_x": -9,
+    "offset_y": 26,
+    "left": -33,
+    "top": -39,
+    "width": 69,
+    "height": 79,
+    "desired_width": 69,
+    "desired_full_height": 79,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 148,
+    "name": "Maître Nyada",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      22,
+      208,
+      68
+    ],
+    "source_size": [
+      56,
+      42
+    ],
+    "inverse_x_q8": 224,
+    "inverse_y_q8": 234,
+    "offset_x": 0,
+    "offset_y": 4,
+    "left": -32,
+    "top": -22,
+    "width": 64,
+    "height": 45,
+    "desired_width": 64,
+    "desired_full_height": 46,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 148,
+    "name": "Maître Nyada",
+    "side": "back",
+    "reference_bbox": [
+      32,
+      73,
+      99,
+      113
+    ],
+    "source_size": [
+      56,
+      46
+    ],
+    "inverse_x_q8": 214,
+    "inverse_y_q8": 214,
+    "offset_x": -7,
+    "offset_y": 19,
+    "left": -33,
+    "top": -27,
+    "width": 67,
+    "height": 55,
+    "desired_width": 67,
+    "desired_full_height": 55,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 149,
+    "name": "Hovernyan",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      13,
+      215,
+      65
+    ],
+    "source_size": [
+      48,
+      50
+    ],
+    "inverse_x_q8": 173,
+    "inverse_y_q8": 247,
+    "offset_x": 3,
+    "offset_y": -2,
+    "left": -35,
+    "top": -25,
+    "width": 71,
+    "height": 51,
+    "desired_width": 71,
+    "desired_full_height": 52,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 149,
+    "name": "Hovernyan",
+    "side": "back",
+    "reference_bbox": [
+      22,
+      66,
+      99,
+      113
+    ],
+    "source_size": [
+      46,
+      51
+    ],
+    "inverse_x_q8": 153,
+    "inverse_y_q8": 154,
+    "offset_x": -12,
+    "offset_y": 26,
+    "left": -38,
+    "top": -41,
+    "width": 77,
+    "height": 85,
+    "desired_width": 77,
+    "desired_full_height": 85,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 150,
+    "name": "Enma",
+    "side": "front",
+    "reference_bbox": [
+      141,
+      12,
+      210,
+      67
+    ],
+    "source_size": [
+      56,
+      44
+    ],
+    "inverse_x_q8": 208,
+    "inverse_y_q8": 205,
+    "offset_x": -1,
+    "offset_y": -1,
+    "left": -34,
+    "top": -27,
+    "width": 69,
+    "height": 55,
+    "desired_width": 69,
+    "desired_full_height": 55,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 150,
+    "name": "Enma",
+    "side": "back",
+    "reference_bbox": [
+      30,
+      58,
+      110,
+      113
+    ],
+    "source_size": [
+      56,
+      47
+    ],
+    "inverse_x_q8": 180,
+    "inverse_y_q8": 180,
+    "offset_x": -3,
+    "offset_y": 9,
+    "left": -39,
+    "top": -32,
+    "width": 79,
+    "height": 67,
+    "desired_width": 80,
+    "desired_full_height": 67,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 151,
+    "name": "Raltesse",
+    "side": "front",
+    "reference_bbox": [
+      144,
+      10,
+      204,
+      70
+    ],
+    "source_size": [
+      52,
+      56
+    ],
+    "inverse_x_q8": 222,
+    "inverse_y_q8": 239,
+    "offset_x": -3,
+    "offset_y": -1,
+    "left": -29,
+    "top": -29,
+    "width": 59,
+    "height": 59,
+    "desired_width": 60,
+    "desired_full_height": 60,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  },
+  {
+    "number": 151,
+    "name": "Raltesse",
+    "side": "back",
+    "reference_bbox": [
+      30,
+      71,
+      99,
+      113
+    ],
+    "source_size": [
+      53,
+      56
+    ],
+    "inverse_x_q8": 197,
+    "inverse_y_q8": 196,
+    "offset_x": -9,
+    "offset_y": 26,
+    "left": -33,
+    "top": -36,
+    "width": 69,
+    "height": 73,
+    "desired_width": 69,
+    "desired_full_height": 73,
+    "source_unchanged": true,
+    "nearest_hardware_sampling": true
+  }
+]

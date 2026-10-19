@@ -7,6 +7,7 @@
 #include "task.h"
 #include "trig.h"
 #include "util.h"
+#include "yokai_battle_geometry.h"
 #include "constants/battle_anim.h"
 
 #define IS_DOUBLE_BATTLE() (gBattleTypeFlags & BATTLE_TYPE_DOUBLE)
@@ -105,6 +106,7 @@ static const struct SpriteSheet sSpriteSheets_MoveEffectMons[] =
 u8 GetBattlerSpriteCoord(u8 battlerId, u8 coordType)
 {
     u8 retVal;
+    const struct YokaiBattleGeometry *presentation = GetYokaiBattleGeometry(battlerId);
     u16 species;
     struct BattleSpriteInfo *spriteInfo;
 
@@ -113,6 +115,7 @@ u8 GetBattlerSpriteCoord(u8 battlerId, u8 coordType)
     case BATTLER_COORD_X:
     case BATTLER_COORD_X_2:
         retVal = sBattlerCoords[IS_DOUBLE_BATTLE()][GetBattlerPosition(battlerId)].x;
+        if (presentation != NULL) retVal += presentation->offsetX;
         break;
     case BATTLER_COORD_Y:
         retVal = sBattlerCoords[IS_DOUBLE_BATTLE()][GetBattlerPosition(battlerId)].y;
@@ -120,6 +123,8 @@ u8 GetBattlerSpriteCoord(u8 battlerId, u8 coordType)
     case BATTLER_COORD_Y_PIC_OFFSET:
     case BATTLER_COORD_Y_PIC_OFFSET_DEFAULT:
     default:
+        if (presentation != NULL)
+            return sBattlerCoords[IS_DOUBLE_BATTLE()][GetBattlerPosition(battlerId)].y + presentation->offsetY;
         if (GetBattlerSide(battlerId) != B_SIDE_PLAYER)
         {
             spriteInfo = gBattleSpritesDataPtr->battlerData;
@@ -259,6 +264,9 @@ u8 GetBattlerSpriteCoord2(u8 battlerId, u8 coordType)
 {
     u16 species;
     struct BattleSpriteInfo *spriteInfo;
+
+    if (GetYokaiBattleGeometry(battlerId) != NULL)
+        return GetBattlerSpriteCoord(battlerId, coordType);
 
     if (coordType == BATTLER_COORD_Y_PIC_OFFSET || coordType == BATTLER_COORD_Y_PIC_OFFSET_DEFAULT)
     {
@@ -2006,6 +2014,20 @@ s16 GetBattlerSpriteCoordAttr(u8 battlerId, u8 attr)
     s32 ret;
     const struct MonCoords *coords;
     struct BattleSpriteInfo *spriteInfo;
+    const struct YokaiBattleGeometry *p = GetYokaiBattleGeometry(battlerId);
+    if (p != NULL)
+    {
+        switch (attr)
+        {
+        case BATTLER_COORD_ATTR_WIDTH: return p->width;
+        case BATTLER_COORD_ATTR_HEIGHT: return p->height;
+        case BATTLER_COORD_ATTR_LEFT: return GetBattlerSpriteCoord(battlerId, BATTLER_COORD_X_2) + p->left;
+        case BATTLER_COORD_ATTR_RIGHT: return GetBattlerSpriteCoord(battlerId, BATTLER_COORD_X_2) + p->left + p->width;
+        case BATTLER_COORD_ATTR_TOP: return GetBattlerSpriteCoord(battlerId, BATTLER_COORD_Y_PIC_OFFSET) + p->top;
+        case BATTLER_COORD_ATTR_BOTTOM:
+        case BATTLER_COORD_ATTR_RAW_BOTTOM: return GetBattlerSpriteCoord(battlerId, BATTLER_COORD_Y_PIC_OFFSET) + p->top + p->height;
+        }
+    }
 
     if (GetBattlerSide(battlerId) == B_SIDE_PLAYER)
     {

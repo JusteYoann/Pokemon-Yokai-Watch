@@ -6,6 +6,7 @@
 #include "scanline_effect.h"
 #include "task.h"
 #include "trig.h"
+#include "yokai_battle_geometry.h"
 
 static EWRAM_DATA u16 sBgCnt = 0;
 
@@ -470,6 +471,9 @@ void CopyBattlerSpriteToBg(s32 bgId, u8 x, u8 y, u8 battlerPosition, u8 palno, u
     s32 i, j;
     u8 battler = GetBattlerAtPosition(battlerPosition);
     s32 offset = tilesOffset;
+
+    if (CopyYokaiBattlerToBg(bgId, battler, palno, tilesDest, tilemapDest, tilesOffset))
+        return;
 
     CpuCopy16(gMonSpritesGfxPtr->sprites[battlerPosition] + BG_SCREEN_SIZE * gBattleMonForms[battler], tilesDest, BG_SCREEN_SIZE);
     LoadBgTiles(bgId, tilesDest, 0x1000, tilesOffset);

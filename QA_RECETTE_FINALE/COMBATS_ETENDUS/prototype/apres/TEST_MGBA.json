@@ -1,0 +1,77 @@
+{
+  "stage": "apres",
+  "passed": true,
+  "error": null,
+  "rom_sha256": "9e6b94ac26975f8b36c9a4e0c5ebf1ac35ae48fda860764af1f68d3c0a99f478",
+  "rom_bytes": 31271139,
+  "source_commit": "af64e40325dd61a2e3612fb36421f1ffcc57b3e3",
+  "scope": "151 original native scripted wild battle fixtures, same species on both sides, normal form. Actual battle action menu reached, linked artwork and palette verified for both sides. See stage field; these are actual engine captures, not mockups. Does not test all animation frames or shiny forms.",
+  "results": [
+    {
+      "number": 19,
+      "name": "Robonyan 28",
+      "path": "QA_RECETTE_FINALE/COMBATS_ETENDUS/prototype/apres/019.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          72,
+          102,
+          0,
+          1
+        ],
+        "front": [
+          175,
+          39,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 29,
+      "name": "Padrézo",
+      "path": "QA_RECETTE_FINALE/COMBATS_ETENDUS/prototype/apres/029.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          66,
+          93,
+          0,
+          1
+        ],
+        "front": [
+          178,
+          36,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "number": 30,
+      "name": "Émettor",
+      "path": "QA_RECETTE_FINALE/COMBATS_ETENDUS/prototype/apres/030.png",
+      "native_battle_capture": true,
+      "front_and_back_native_art_verified": true,
+      "normal_palettes_verified": true,
+      "positions_x_y_x2_y2": {
+        "back": [
+          69,
+          93,
+          0,
+          1
+        ],
+        "front": [
+          177,
+          36,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

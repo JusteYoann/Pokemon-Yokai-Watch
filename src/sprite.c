@@ -1,5 +1,6 @@
 #include "global.h"
 #include "gflib.h"
+#include "yokai_battle_geometry.h"
 
 #define MAX_SPRITE_COPY_REQUESTS 64
 
@@ -328,6 +329,7 @@ void BuildOamBuffer(void)
     gMain.oamLoadDisabled = TRUE;
     AddSpritesToOamBuffer();
     CopyMatricesToOamBuffer();
+    ApplyYokaiBattleOam();
     gMain.oamLoadDisabled = temp;
     gShouldProcessSpriteCopyRequests = TRUE;
 }

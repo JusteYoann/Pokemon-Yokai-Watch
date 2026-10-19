@@ -1,4 +1,5 @@
 #include "global.h"
+#include "yokai_battle_geometry.h"
 #include "gflib.h"
 #include "decompress.h"
 #include "pokemon.h"
@@ -104,6 +105,7 @@ void LoadSpecialPokePic(const struct CompressedSpriteSheet *src, void *dest, s32
 
     DuplicateDeoxysTiles(dest, species);
     DrawSpindaSpots(species, personality, dest, isFrontPic);
+    TryLoadYokaiBattlePic(dest, species, isFrontPic);
 }
 
 static void DuplicateDeoxysTiles(void *pointer, s32 species)
@@ -350,6 +352,7 @@ void LoadSpecialPokePic_DontHandleDeoxys(const struct CompressedSpriteSheet *src
         LZ77UnCompWram(src->data, dest);
     }
     DrawSpindaSpots(species, personality, dest, isFrontPic);
+    TryLoadYokaiBattlePic(dest, species, isFrontPic);
 }
 
 // Dedicated shiny drawings retired by user decision. All picture-loading paths
