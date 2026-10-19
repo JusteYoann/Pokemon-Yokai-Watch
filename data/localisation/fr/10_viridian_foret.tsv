@@ -1,0 +1,107 @@
+data/maps/ViridianCity/text.inc	ViridianCity_Text_CanCarryMonsAnywhere	Ces Yo-kai Balls à ta ceinture!\nTu as des Yo-kai, n'est-ce pas?\pC'est génial de pouvoir\nles emmener partout avec soi.$
+data/maps/ViridianCity/text.inc	ViridianCity_Text_GymClosedWonderWhoLeaderIs	Cette Arène Yo-kai\nest toujours fermée.\pJe me demande\nqui en est le Champion.$
+data/maps/ViridianCity/text.inc	ViridianCity_Text_ViridiansGymLeaderReturned	Le Champion de l'Arène\nde VIRIDIAN est revenu!$
+data/maps/ViridianCity/text.inc	ViridianCity_Text_WantToKnowAboutCaterpillarMons	Tu veux un conseil pour protéger\ntes Yo-kai contre le poison?$
+data/maps/ViridianCity/text.inc	ViridianCity_Text_OhOkayThen	Oh, d'accord!$
+data/maps/ViridianCity/text.inc	ViridianCity_Text_ExplainCaterpieWeedle	Une capacité comme Dard-Venin\npeut empoisonner tes Yo-kai.\pSurveille leur état et garde\nun Antidote dans ton Sac!$
+data/maps/ViridianCity/text.inc	ViridianCity_Text_GrandpaHasntHadCoffeeYet	Oh, Papi!\nNe sois pas si méchant!\pJe suis désolée.\nIl n'a pas encore bu son café.$
+data/maps/ViridianCity/text.inc	ViridianCity_Text_GoShoppingInPewterOccasionally	Je vais parfois faire\ndes achats à PEWTER CITY.\pPour y aller, je traverse\nles sentiers de VIRIDIAN FOREST.$
+data/maps/ViridianCity/text.inc	ViridianCity_Text_ThisIsPrivateProperty	Je t'interdis de passer ici!\pC'est une propriété privée!$
+data/maps/ViridianCity/text.inc	ViridianCity_Text_ShowYouHowToCatchMons	Ah, mon café!\nRien de tel pour bien démarrer!\pHmm?\nQuelle est cette boîte rouge?\pAh, tu complètes\nton Médallium!\pLaisse-moi te donner\nun petit conseil.\pQuand tu captures un Yo-kai,\nle Médallium met automatiquement\lses données à jour.\p…Tu ne sais pas comment\ncapturer un Yo-kai?\pJe ferais mieux\nde te montrer!$
+data/maps/ViridianCity/text.inc	ViridianCity_Text_ThatWasEducationalTakeThis	Voilà! C'était instructif,\nn'est-ce pas?\pTiens, prends aussi ceci.$
+data/maps/ViridianCity/text.inc	ViridianCity_Text_WatchThatToLearnBasics	Si tu ne comprends\npas quelque chose, regarde ça.\pTu y apprendras les bases\ndu métier de Dresseur de Yo-kai.$
+data/maps/ViridianCity/text.inc	ViridianCity_Text_WeakenMonsFirstToCatch	Ah, mon café!\nRien de tel pour bien démarrer!\pMais je l'ai fait trop fort.\nÇa me donne mal à la tête…\pAu fait, tu complètes\nton Médallium?\pPense à affaiblir un Yo-kai\navant d'essayer de le capturer.$
+data/maps/ViridianCity/text.inc	ViridianCity_Text_HowsTeachyTVHelping	Ah, mon café!\nRien de tel pour bien démarrer!\pMais je l'ai fait trop fort.\nÇa me donne mal à la tête…\pAu fait, ma vieille TV ABC\nte rend service?$
+data/maps/ViridianCity/text.inc	ViridianCity_Text_MyGrandsonOnTheShow	Hahaha!\nC'est mon petit-fils à l'écran!\pAvec ses conseils,\ntu vas forcément apprendre.$
+data/maps/ViridianCity/text.inc	ViridianCity_Text_TooBusyForTeachyTV	Hmm… Tu n'as même pas\nle temps de regarder la TV ABC…\pLe temps, c'est de l'argent.\nMieux vaut ne gaspiller ni l'un ni\ll'autre.$
+data/maps/ViridianCity/text.inc	ViridianCity_Text_CatchMonsForEasierBattles	ASTUCE DRESSEUR\pCapture des Yo-kai\npour agrandir ta collection.\pPlus ton équipe est variée,\nplus tu peux t'adapter au combat.$
+data/maps/ViridianCity/text.inc	ViridianCity_Text_MovesLimitedByPP	ASTUCE DRESSEUR\pLes capacités des Yo-kai\nconsomment des Points de Pouvoir,\lappelés PP.\pPour récupérer leurs PP,\nfais soigner tes Yo-kai\lau Centre Yo-kai.$
+data/maps/ViridianCity/text.inc	ViridianCity_Text_CitySign	VIRIDIAN CITY\nLe paradis toujours vert$
+data/maps/ViridianCity/text.inc	ViridianCity_Text_GymSign	ARÈNE YO-KAI DE VIRIDIAN CITY$
+data/maps/ViridianCity/text.inc	ViridianCity_Text_GymDoorsAreLocked	Les portes de l'Arène\nde VIRIDIAN sont verrouillées…$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GiovanniIntro	Mouahahaha!\nBienvenue dans mon repaire!\pIl le restera jusqu'à ce que\nla Team Rocket retrouve sa gloire.\pMais tu m'as encore retrouvé.\nTrès bien.\lCette fois, je ne retiendrai rien!\pAffronte une fois encore\nGiovanni, le plus grand Dresseur!{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GiovanniDefeat	Ha!\nQuel combat intense.\lTu as gagné!\pVoici le Badge Terre,\npreuve de ta victoire!\n{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GiovanniPostBattle	Après une telle défaite,\nje ne peux plus regarder\lmes hommes en face.\pJ'ai trahi leur confiance.\nLa Team Rocket est dissoute!\pQuant à moi, je vais\nreprendre l'entraînement.\pPeut-être nous reverrons-nous.\nAdieu!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis	Le Badge Terre te fait obéir\ndes Yo-kai de tous les niveaux.\pIl prouve ta maîtrise\ndu dressage des Yo-kai.\pTu peux maintenant\ndéfier la Ligue Yo-kai.\pPrends aussi cette CT.\pUn cadeau pour\nton défi de la Ligue.$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_ReceivedTM26FromGiovanni	{PLAYER} reçoit la CT26\nde Giovanni.$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_ExplainTM26	La CT26 contient Séisme.\pCette attaque puissante\nprovoque une terrible secousse.\pJe l'ai créée quand je dirigeais\ncette Arène, il y a bien longtemps…$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_YouDoNotHaveSpace	Tu n'as pas de place pour ça!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_YujiIntro	Héhé!\nTu dois commencer\là manquer de souffle!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_YujiDefeat	Je suis à bout!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_YujiPostBattle	Il te faudra de la puissance\npour tenir tête à notre Champion.$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_AtsushiIntro	Grrr!\nJe fais monter ma rage!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_AtsushiDefeat	Aaaargh!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_AtsushiPostBattle	Je ne suis pas encore à la hauteur!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_JasonIntro	Mes Yo-kai et moi,\nnous jouons en parfaite harmonie!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_JasonDefeat	Tu es dans le bon tempo!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_JasonPostBattle	Tu connais l'identité\nde notre Champion?$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_KiyoIntro	Le karaté est la forme\nsuprême des arts martiaux!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_KiyoDefeat	Aïe!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_KiyoPostBattle	Si mes Yo-kai pratiquaient\nle karaté aussi bien que moi…$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_WarrenIntro	Les vrais talents\ngagnent avec style.$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_WarrenDefeat	J'ai perdu le contrôle!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_WarrenPostBattle	Le Champion va me gronder\npour cette défaite…$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_TakashiIntro	Je suis le roi du karaté!\nTon sort est entre mes mains!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_TakashiDefeat	Aïe!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_TakashiPostBattle	La Ligue Yo-kai?\nToi? Ne t'emballe pas!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_ColeIntro	Tes Yo-kai trembleront\nau claquement de mon fouet!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_ColeDefeat	Aïe!\nQuel retour de fouet!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_ColePostBattle	Attends!\nJ'ai juste été imprudent!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_SamuelIntro	L'Arène de VIRIDIAN\nest restée fermée longtemps.\pMais notre Champion\nest enfin de retour!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_SamuelDefeat	J'ai été battu?$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_SamuelPostBattle	Il faut vaincre notre Champion\npour atteindre la Ligue Yo-kai!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GymGuyAdvice	Salut!\nFutur Maître!\pMême moi, j'ignore l'identité\ndu Champion de VIRIDIAN.\pMais une chose est sûre:\nc'est le plus redoutable\lde tous les Champions.\pLes Dresseurs de cette Arène\nont des Yo-kai coriaces.\lPrépare une équipe variée!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GymGuyPostVictory	Incroyable! Giovanni était\nle Champion de VIRIDIAN?$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GymStatue	ARÈNE YO-KAI DE VIRIDIAN\nCHAMPION: ?\pDRESSEURS VICTORIEUX:\n{RIVAL}$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GymStatuePlayerWon	ARÈNE YO-KAI DE VIRIDIAN\nCHAMPION: GIOVANNI\pDRESSEURS VICTORIEUX:\n{RIVAL}, {PLAYER}$
+data/maps/ViridianCity_House/text.inc	ViridianCity_House_Text_MyDaddyLovesMonsToo	Mon papa aussi adore les Yo-kai.$
+data/maps/ViridianCity_House/text.inc	ViridianCity_House_Text_NicknamingIsFun	Trouver des surnoms est amusant,\nmais ce n'est pas toujours facile.\pLes noms originaux sont sympas,\nmais les plus simples restent en tête.$
+data/maps/ViridianCity_House/text.inc	ViridianCity_House_Text_Speary	TUKKI: Kappa!$
+data/maps/ViridianCity_House/text.inc	ViridianCity_House_Text_SpearowNameSpeary	TUKAPPA\nSurnom: TUKKI$
+data/maps/ViridianCity_Mart/text.inc	ViridianCity_Mart_Text_YouCameFromPallet	Hé!\nTu viens de PALLET TOWN?$
+data/maps/ViridianCity_Mart/text.inc	ViridianCity_Mart_Text_TakeThisToProfOak	Tu connais le Professeur Chen?\pSa commande est arrivée.\nTu pourrais la lui apporter?$
+data/maps/ViridianCity_Mart/text.inc	ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk	{PLAYER} reçoit le Colis Chen\ndu vendeur de la Boutique Yo-kai.$
+data/maps/ViridianCity_Mart/text.inc	ViridianCity_Mart_Text_SayHiToOakForMe	Merci! Passe aussi le bonjour\nau Professeur Chen de ma part.$
+data/maps/ViridianCity_Mart/text.inc	ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes	Il paraît que cette boutique\nvend beaucoup d'Antidotes.$
+data/maps/ViridianCity_Mart/text.inc	ViridianCity_Mart_Text_GotToBuySomePotions	Je dois acheter des Potions.\pOn ne sait jamais quand\nses Yo-kai auront besoin de soins.$
+data/maps/ViridianCity_PokemonCenter_1F/text.inc	ViridianCity_PokemonCenter_1F_Text_FeelFreeToUsePC	Tu peux utiliser\nle PC dans le coin.\pC'est la réceptionniste\nqui me l'a dit. Quelle gentillesse!$
+data/maps/ViridianCity_PokemonCenter_1F/text.inc	ViridianCity_PokemonCenter_1F_Text_PokeCenterInEveryTown	Il y a un Centre Yo-kai\ndans toutes les villes suivantes.\pLes soins sont gratuits,\nalors profites-en!$
+data/maps/ViridianCity_PokemonCenter_1F/text.inc	ViridianCity_PokemonCenter_1F_Text_PokeCentersHealMons	Les Centres Yo-kai soignent\nles Yo-kai fatigués, blessés ou K.O.\pIls les remettent tous\nen parfaite santé.$
+data/maps/ViridianCity_School/text.inc	ViridianCity_School_Text_TryingToMemorizeNotes	Ouf! J'essaie d'apprendre\ntoutes mes notes par cœur.$
+data/maps/ViridianCity_School/text.inc	ViridianCity_School_Text_HeyDontLookAtMyNotes	Hé!\nNe regarde pas mes notes!$
+data/maps/ViridianCity_School/text.inc	ViridianCity_School_Text_ReadBlackboardCarefully	D'accord!\pLis bien ce qui est écrit\nsur le tableau!$
+data/maps/ViridianCity_School/text.inc	ViridianCity_School_Text_NotebookFirstPage	Regardons le cahier.\pPremière page…\pLes Yo-kai Balls servent\nà capturer les Yo-kai.\pUne équipe peut compter\njusqu'à six Yo-kai.\pCeux qui élèvent les Yo-kai\net combattent avec eux sont\lappelés Dresseurs.$
+data/maps/ViridianCity_School/text.inc	ViridianCity_School_Text_NotebookSecondPage	Deuxième page…\pUn Yo-kai en pleine forme\nest difficile à capturer.\pAffaiblis-le d'abord\nou inflige-lui un problème de statut.$
+data/maps/ViridianCity_School/text.inc	ViridianCity_School_Text_NotebookThirdPage	Troisième page…\pLes Dresseurs cherchent\nd'autres Dresseurs à affronter.\pPour eux, rien n'égale\nle plaisir de la victoire.\pDes combats ont lieu\ndans toutes les Arènes Yo-kai.$
+data/maps/ViridianCity_School/text.inc	ViridianCity_School_Text_NotebookFourthPage	Quatrième page…\pLe but ultime de tout\nDresseur de Yo-kai est simple.\pVaincre les huit\nChampions d'Arène.\pCela lui ouvre les portes\ndu défi suivant…\pLe Conseil 4\nde la Ligue Yo-kai!$
+data/maps/ViridianCity_School/text.inc	ViridianCity_School_Text_TurnThePage	Tourner la page?$
+data/maps/ViridianCity_School/text.inc	ViridianCity_School_Text_BlackboardListsStatusProblems	Le tableau présente les problèmes\nde statut des Yo-kai en combat.$
+data/maps/ViridianCity_School/text.inc	ViridianCity_School_Text_ReadWhichTopic	Quel sujet veux-tu lire?$
+data/maps/ViridianCity_School/text.inc	ViridianCity_School_Text_ExplainSleep	Un Yo-kai endormi\nne peut plus attaquer.\pLe sommeil persiste\naprès le combat.\pUtilise un Réveil\npour le réveiller.$
+data/maps/ViridianCity_School/text.inc	ViridianCity_School_Text_ExplainBurn	La brûlure réduit l'Attaque\net fait perdre des PV.\pElle persiste après le combat.\nUtilise un Anti-Brûle pour la soigner.$
+data/maps/ViridianCity_School/text.inc	ViridianCity_School_Text_ExplainPoison	Le poison fait progressivement\nperdre des PV à un Yo-kai.\pIl persiste après le combat.\nUtilise un Antidote pour le soigner!$
+data/maps/ViridianCity_School/text.inc	ViridianCity_School_Text_ExplainFreeze	Un Yo-kai gelé\nne peut plus bouger.\pIl reste gelé\nmême après le combat.\pUtilise un Antigel\npour le dégeler.$
+data/maps/ViridianCity_School/text.inc	ViridianCity_School_Text_ExplainParalysis	La paralysie réduit la Vitesse\net peut empêcher d'attaquer.\pElle persiste après le combat.\nUtilise un Anti-Para pour la soigner.$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_FriendsItchingToBattle	Je suis venu avec des amis\npour capturer des Yo-kai de la\lforêt!\pIls ont tous hâte\nde se lancer dans des combats!$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_RickIntro	Hé! Tu as des Yo-kai!\nAllez!\lAffrontons-nous!$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_RickDefeat	Non!\nMon Cigalopin n'a pas fait le poids!$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_RickPostBattle	Chut! Tu vas faire fuir les insectes.\nUne autre fois, d'accord?$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_DougIntro	Hé!\nUn Dresseur de Yo-kai\lne se défile pas!$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_DougDefeat	Hein?\nJe n'ai plus de Yo-kai!$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_DougPostBattle	Quelle poisse! Je vais\nen capturer de plus forts!$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_SammyIntro	Hé, attends!\nPourquoi cette précipitation?$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_SammyDefeat	J'abandonne!\nTu te débrouilles bien!$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_SammyPostBattle	On trouve parfois\ndes objets au sol.\pJe cherche ce que j'ai perdu.\nTu peux m'aider?$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_AnthonyIntro	Je suis peut-être petit,\nmais ne me fais pas de cadeau!$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_AnthonyDefeat	Oh non…\nRien n'a marché.$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_AnthonyPostBattle	J'ai perdu un peu\nde mon argent de poche…$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_CharlieIntro	Tu savais que les Yo-kai évoluent?$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_CharlieDefeat	Oh!\nJ'ai perdu!$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_CharliePostBattle	J'adore voir mes Yo-kai\névoluer et devenir plus forts!$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_RanOutOfPokeBalls	J'ai lancé toutes mes Yo-kai Balls\npour capturer des Yo-kai.\pIl vaut mieux toujours\nen avoir un bon stock!$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_AvoidGrassyAreasWhenWeak	ASTUCE DRESSEUR\pSi tes Yo-kai sont affaiblis,\névite les hautes herbes\lpour ne pas combattre!$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_UseAntidoteForPoison	Contre le poison, un Antidote!\nEn vente à la Boutique Yo-kai!$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_ContactOakViaPCToRatePokedex	ASTUCE DRESSEUR\pContacte le Professeur Chen\ndepuis un PC pour faire\lévaluer ton Médallium!$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_CantCatchOwnedMons	ASTUCE DRESSEUR\pTu ne peux pas capturer\nle Yo-kai de quelqu'un d'autre.\pRéserve tes Yo-kai Balls\naux Yo-kai sauvages!$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_WeakenMonsBeforeCapture	ASTUCE DRESSEUR\pAffaiblis les Yo-kai\navant de tenter une capture!\pEn pleine forme,\nils peuvent s'échapper!$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_LeavingViridianForest	SORTIE DE VIRIDIAN FOREST\nDIRECTION PEWTER CITY$

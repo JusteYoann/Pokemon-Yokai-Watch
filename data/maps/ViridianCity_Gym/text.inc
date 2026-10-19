@@ -1,171 +1,105 @@
 ViridianCity_Gym_Text_GiovanniIntro::
-    .string "Fwahahaha!\n"
-    .string "Welcome to my hideout!\p"
-    .string "It shall be so until I can restore\n"
-    .string "TEAM ROCKET to its former glory.\p"
-    .string "But, you have found me again.\n"
-    .string "So be it.\l"
-    .string "This time, I'm not holding back!\p"
-    .string "Once more, you shall face\n"
-    .string "GIOVANNI, the greatest TRAINER!{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$"
+    .string "Mouahahaha!\nBienvenue dans mon repaire!\pIl le restera jusqu'à ce que\nla Team Rocket retrouve sa gloire.\pMais tu m'as encore retrouvé.\nTrès bien.\lCette fois, je ne retiendrai rien!\pAffronte une fois encore\nGiovanni, le plus grand Dresseur!{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$"
 
 ViridianCity_Gym_Text_GiovanniDefeat::
-    .string "Ha!\n"
-    .string "That was a truly intense fight.\l"
-    .string "You have won!\p"
-    .string "As proof, here is the EARTHBADGE!\n"
-    .string "{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}$"
+    .string "Ha!\nQuel combat intense.\lTu as gagné!\pVoici le Badge Terre,\npreuve de ta victoire!\n{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}$"
 
 ViridianCity_Gym_Text_GiovanniPostBattle::
-    .string "Having lost in this fashion, \n"
-    .string "I can't face my followers.\l"
-    .string "I have betrayed their trust.\p"
-    .string "As of today, TEAM ROCKET is\n"
-    .string "finished forever!\p"
-    .string "As for myself, I shall dedicate\n"
-    .string "my life to training again.\p"
-    .string "Let us meet again someday!\n"
-    .string "Farewell!$"
+    .string "Après une telle défaite,\nje ne peux plus regarder\lmes hommes en face.\pJ'ai trahi leur confiance.\nLa Team Rocket est dissoute!\pQuant à moi, je vais\nreprendre l'entraînement.\pPeut-être nous reverrons-nous.\nAdieu!$"
 
 ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis::
-    .string "The EARTHBADGE makes Yo-kai of\n"
-    .string "any level obey without question.\p"
-    .string "It is evidence of your mastery as\n"
-    .string "a Dresseur de Yo-kai.\p"
-    .string "With it, you can challenge the\n"
-    .string "Ligue Yo-kai.\p"
-    .string "Also, take this TM.\p"
-    .string "Consider it a gift for your Yo-kai\n"
-    .string "LEAGUE challenge.$"
+    .string "Le Badge Terre te fait obéir\ndes Yo-kai de tous les niveaux.\pIl prouve ta maîtrise\ndu dressage des Yo-kai.\pTu peux maintenant\ndéfier la Ligue Yo-kai.\pPrends aussi cette CT.\pUn cadeau pour\nton défi de la Ligue.$"
 
 ViridianCity_Gym_Text_ReceivedTM26FromGiovanni::
-    .string "{PLAYER} received TM26\n"
-    .string "from GIOVANNI.$"
+    .string "{PLAYER} reçoit la CT26\nde Giovanni.$"
 
 ViridianCity_Gym_Text_ExplainTM26::
-    .string "TM26 contains EARTHQUAKE.\p"
-    .string "It is a powerful attack that causes\n"
-    .string "a massive tremor.\p"
-    .string "I made it when I ran the GYM here,\n"
-    .string "far too long ago… $"
+    .string "La CT26 contient Séisme.\pCette attaque puissante\nprovoque une terrible secousse.\pJe l'ai créée quand je dirigeais\ncette Arène, il y a bien longtemps…$"
 
 ViridianCity_Gym_Text_YouDoNotHaveSpace::
-    .string "You do not have space for this!$"
+    .string "Tu n'as pas de place pour ça!$"
 
 ViridianCity_Gym_Text_YujiIntro::
-    .string "Heh!\n"
-    .string "You must be running out of steam\l"
-    .string "by now!$"
+    .string "Héhé!\nTu dois commencer\là manquer de souffle!$"
 
 ViridianCity_Gym_Text_YujiDefeat::
-    .string "I ran out of gas!$"
+    .string "Je suis à bout!$"
 
 ViridianCity_Gym_Text_YujiPostBattle::
-    .string "You'll need power to keep up with\n"
-    .string "our GYM LEADER.$"
+    .string "Il te faudra de la puissance\npour tenir tête à notre Champion.$"
 
 ViridianCity_Gym_Text_AtsushiIntro::
-    .string "Rrrroar!\n"
-    .string "I'm working myself into a rage!$"
+    .string "Grrr!\nJe fais monter ma rage!$"
 
 ViridianCity_Gym_Text_AtsushiDefeat::
-    .string "Wargh!$"
+    .string "Aaaargh!$"
 
 ViridianCity_Gym_Text_AtsushiPostBattle::
-    .string "I'm still not worthy!$"
+    .string "Je ne suis pas encore à la hauteur!$"
 
 ViridianCity_Gym_Text_JasonIntro::
-    .string "Yo-kai and I, we make wonderful\n"
-    .string "music together!$"
+    .string "Mes Yo-kai et moi,\nnous jouons en parfaite harmonie!$"
 
 ViridianCity_Gym_Text_JasonDefeat::
-    .string "You are in perfect harmony!$"
+    .string "Tu es dans le bon tempo!$"
 
 ViridianCity_Gym_Text_JasonPostBattle::
-    .string "Do you know the identity of our\n"
-    .string "GYM LEADER?$"
+    .string "Tu connais l'identité\nde notre Champion?$"
 
 ViridianCity_Gym_Text_KiyoIntro::
-    .string "Karate is the ultimate form of\n"
-    .string "martial arts!$"
+    .string "Le karaté est la forme\nsuprême des arts martiaux!$"
 
 ViridianCity_Gym_Text_KiyoDefeat::
-    .string "Aiyah!$"
+    .string "Aïe!$"
 
 ViridianCity_Gym_Text_KiyoPostBattle::
-    .string "If my Yo-kai were as good at\n"
-    .string "karate as I…$"
+    .string "Si mes Yo-kai pratiquaient\nle karaté aussi bien que moi…$"
 
 ViridianCity_Gym_Text_WarrenIntro::
-    .string "The truly talented win with style.$"
+    .string "Les vrais talents\ngagnent avec style.$"
 
 ViridianCity_Gym_Text_WarrenDefeat::
-    .string "I lost my grip!$"
+    .string "J'ai perdu le contrôle!$"
 
 ViridianCity_Gym_Text_WarrenPostBattle::
-    .string "The LEADER will scold me for\n"
-    .string "losing this way…$"
+    .string "Le Champion va me gronder\npour cette défaite…$"
 
 ViridianCity_Gym_Text_TakashiIntro::
-    .string "I'm the KARATE KING!\n"
-    .string "Your fate rests with me!$"
+    .string "Je suis le roi du karaté!\nTon sort est entre mes mains!$"
 
 ViridianCity_Gym_Text_TakashiDefeat::
-    .string "Ayah!$"
+    .string "Aïe!$"
 
 ViridianCity_Gym_Text_TakashiPostBattle::
-    .string "The Ligue Yo-kai?\n"
-    .string "You? Don't get cocky!$"
+    .string "La Ligue Yo-kai?\nToi? Ne t'emballe pas!$"
 
 ViridianCity_Gym_Text_ColeIntro::
-    .string "Your Yo-kai will cower at the\n"
-    .string "crack of my whip!$"
+    .string "Tes Yo-kai trembleront\nau claquement de mon fouet!$"
 
 ViridianCity_Gym_Text_ColeDefeat::
-    .string "Yowch!\n"
-    .string "Whiplash!$"
+    .string "Aïe!\nQuel retour de fouet!$"
 
 ViridianCity_Gym_Text_ColePostBattle::
-    .string "Wait!\n"
-    .string "I was just careless!$"
+    .string "Attends!\nJ'ai juste été imprudent!$"
 
 ViridianCity_Gym_Text_SamuelIntro::
-    .string "VIRIDIAN GYM was closed for a\n"
-    .string "long time.\p"
-    .string "But now, our LEADER is back!$"
+    .string "L'Arène de VIRIDIAN\nest restée fermée longtemps.\pMais notre Champion\nest enfin de retour!$"
 
 ViridianCity_Gym_Text_SamuelDefeat::
-    .string "I was beaten?$"
+    .string "J'ai été battu?$"
 
 ViridianCity_Gym_Text_SamuelPostBattle::
-    .string "You can go on to the Yo-kai\n"
-    .string "LEAGUE only by defeating our GYM\l"
-    .string "LEADER!$"
+    .string "Il faut vaincre notre Champion\npour atteindre la Ligue Yo-kai!$"
 
 ViridianCity_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "Even I don't know the VIRIDIAN\n"
-    .string "LEADER's identity.\p"
-    .string "But one thing's certain.\n"
-    .string "This will be the toughest of all\l"
-    .string "the GYM LEADERS.\p"
-    .string "Also, I heard that the TRAINERS\n"
-    .string "here like GROUND-type Yo-kai.$"
+    .string "Salut!\nFutur Maître!\pMême moi, j'ignore l'identité\ndu Champion de VIRIDIAN.\pMais une chose est sûre:\nc'est le plus redoutable\lde tous les Champions.\pLes Dresseurs de cette Arène\nont des Yo-kai coriaces.\lPrépare une équipe variée!$"
 
 ViridianCity_Gym_Text_GymGuyPostVictory::
-    .string "Blow me away! GIOVANNI was the\n"
-    .string "GYM LEADER of VIRIDIAN?$"
+    .string "Incroyable! Giovanni était\nle Champion de VIRIDIAN?$"
 
 ViridianCity_Gym_Text_GymStatue::
-    .string "VIRIDIAN Yo-kai GYM\n"
-    .string "LEADER: ?\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}$"
+    .string "ARÈNE YO-KAI DE VIRIDIAN\nCHAMPION: ?\pDRESSEURS VICTORIEUX:\n{RIVAL}$"
 
 ViridianCity_Gym_Text_GymStatuePlayerWon::
-    .string "VIRIDIAN Yo-kai GYM\n"
-    .string "LEADER: GIOVANNI\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}, {PLAYER}$"
+    .string "ARÈNE YO-KAI DE VIRIDIAN\nCHAMPION: GIOVANNI\pDRESSEURS VICTORIEUX:\n{RIVAL}, {PLAYER}$"
 

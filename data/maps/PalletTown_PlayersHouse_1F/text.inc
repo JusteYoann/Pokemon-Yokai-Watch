@@ -1,37 +1,21 @@
 PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou::
-    .string "MOM: …Right.\n"
-    .string "All boys leave home someday.\l"
-    .string "It said so on TV.\p"
-    .string "Oh, yes. PROF. OAK, next door, was\n"
-    .string "looking for you.$"
+    .string "MAMAN: …C'est vrai.\nTous les garçons quittent\lun jour la maison. Vu à la télé!\pAu fait, le Professeur Chen\nte cherchait. Il est à côté.$"
 
 PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou::
-    .string "MOM: …Right.\n"
-    .string "All girls dream of traveling.\l"
-    .string "It said so on TV.\p"
-    .string "Oh, yes. PROF. OAK, next door, was\n"
-    .string "looking for you.$"
+    .string "MAMAN: …C'est vrai.\nToutes les filles rêvent\lde voyager. Vu à la télé!\pAu fait, le Professeur Chen\nte cherchait. Il est à côté.$"
 
 PalletTown_PlayersHouse_1F_Text_YouShouldTakeQuickRest::
     .string "MOM: {PLAYER}!\n"
     .string "You should take a quick rest.$"
 
 PalletTown_PlayersHouse_1F_Text_LookingGreatTakeCare::
-    .string "MOM: Oh, good! You and your\n"
-    .string "Yo-kai are looking great.\l"
-    .string "Take care now!$"
+    .string "MAMAN: Ah, tant mieux!\nToi et tes Yo-kai avez bonne mine.\lPrenez soin de vous!$"
 
 PalletTown_PlayersHouse_1F_Text_MovieOnTVFourBoysOnRailroad::
-    .string "There's a movie on TV.\n"
-    .string "Four boys are walking on railroad\l"
-    .string "tracks.\p"
-    .string "…I better go, too.$"
+    .string "Il y a un film à la télé.\nQuatre garçons marchent\lle long d'une voie ferrée.\p…Je devrais y aller, moi aussi.$"
 
 PalletTown_PlayersHouse_1F_Text_MovieOnTVGirlOnBrickRoad::
-    .string "There's a movie on TV.\n"
-    .string "A girl with her hair in pigtails is\l"
-    .string "walking up a brick road.\p"
-    .string "…I better go, too.$"
+    .string "Il y a un film à la télé.\nUne fille avec des couettes marche\lsur une route de briques.\p…Je devrais y aller, moi aussi.$"
 
 PalletTown_PlayersHouse_1F_Text_OopsWrongSide::
     .string "Oops, wrong side…$"

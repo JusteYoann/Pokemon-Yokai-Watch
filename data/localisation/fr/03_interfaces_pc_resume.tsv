@@ -179,7 +179,7 @@ src/strings.c	gText_PokeSum_ATrade	un échange
 src/strings.c	gText_PokeSum_Controls_PageDetail	{DPAD_LEFT}PAGE {A_BUTTON}DÉTAIL
 src/strings.c	gText_PokeSum_Controls_PickDelete	{DPAD_UPDOWN}CHOIX {A_BUTTON}EFFACER
 src/strings.c	gText_PokeSum_HmMovesCantBeForgotten	Les CS ne peuvent pas\nêtre oubliées ici.
-src/strings.c	gText_TrainerCardName	NOM: 
+src/strings.c	gText_TrainerCardName	NOM:\s
 src/strings.c	gText_Points	points
 src/strings.c	gText_BattlePoints	POINTS COMBAT
 src/strings.c	gText_Var1sTrainerCard	: CARTE DE DRESSEUR
@@ -200,7 +200,7 @@ src/strings.c	gText_SavingDontTurnOffThePower2	SAUVEGARDE…\nNE PAS ÉTEINDRE L
 src/strings.c	gText_WasUsedOn	 est utilisé sur\n
 src/strings.c	gText_LevelRoseTo	 monte au niveau\n
 src/strings.c	gText_LevelUp_MaxHP	{FONT_SMALL}MAX.{FONT_NORMAL} PV
-src/strings.c	gText_Counting_2And	2, et … … … 
+src/strings.c	gText_Counting_2And	2, et … … …\s
 src/strings.c	gText_Poof	Pouf!\p
 src/strings.c	gText_MonForgotMove	{DYNAMIC 0x00} oublie\n{DYNAMIC 0x01}.\p
 src/strings.c	gText_And	Et…\p

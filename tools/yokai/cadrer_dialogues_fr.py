@@ -10,6 +10,7 @@ widths=list(map(int,re.findall(r'\d+',re.search(r'sFontNormalLatinGlyphWidths\[\
 glyph={m[1]:int(m[2],16) for m in re.finditer(r"^'(.*?)'\s*= ([0-9A-F]{2})$",(ROOT/'charmap.txt').read_text(),re.M)};glyph["'"]=glyph['’']
 def sample(token):
     name=token[1:-1]
+    if name=='POKEBLOCK':return 'W'*5
     if name in ['PLAYER','B_PLAYER_NAME']:return 'W'*7
     if name=='RIVAL':return 'Matt'
     if name.startswith('B_'):
@@ -45,13 +46,15 @@ def main():
         path=Path(name);lines=[]
         for row in path.read_text().splitlines():
             if not row or row.startswith('#'):lines.append(row);continue
-            source,symbol,text=row.split('\t',2)
+            source,symbol,text=row.split('\t',2);text=text.replace(r'\s',' ')
             eligible=source.endswith('.inc') or (source=='src/battle_message.c' and ('\\n' in text or ('{B_' in text and not symbol.startswith('gText_'))))
             if eligible and not any(x in text for x in ['{CLEAR','{COLOR','{PALETTE']):
                 new=wrap(text)
                 if new!=text:
                     replace(ROOT/source,symbol,new);changed.append({'file':source,'symbol':symbol,'before':text,'after':new});text=new
+            text=text.rstrip(' ')+r'\s'*(len(text)-len(text.rstrip(' ')))
             lines.append(source+'\t'+symbol+'\t'+text)
         path.write_text('\n'.join(lines)+'\n')
-    (ROOT/'QA_RECETTE_FINALE/LOCALISATION_FR/CADRAGE_DIALOGUES.json').write_text(json.dumps({'max_normal_font_pixels':208,'dynamic_names':'Player7; mon10+enemy prefix; item14; move12; ability13; generic variables14 wide W glyphs','scope':'Translated standard battle dialogue and selected ASM dialogue only; fixed menu layouts excluded','changed':changed},ensure_ascii=False,indent=2)+'\n');print('Wrapped',len(changed),'dialogues')
+    out=ROOT/'QA_RECETTE_FINALE/LOCALISATION_FR/CADRAGES';out.mkdir(exist_ok=True)
+    (out/('-'.join(Path(x).stem for x in sys.argv[1:])+'.json')).write_text(json.dumps({'max_normal_font_pixels':208,'dynamic_names':'Player7; mon10+enemy prefix; item14; move12; ability13; generic variables14 wide W glyphs','scope':'Translated standard battle dialogue and selected ASM dialogue only; fixed menu layouts excluded','changed':changed},ensure_ascii=False,indent=2)+'\n');print('Wrapped',len(changed),'dialogues')
 if __name__=='__main__':main()

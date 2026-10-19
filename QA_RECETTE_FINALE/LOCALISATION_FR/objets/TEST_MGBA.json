@@ -1,0 +1,1813 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "55f6f9fe49218c2ec482403beb10c0e951c7f71fa000e119fd85b18d346f9443",
+  "scope": "All298 translated native item names and description widths;15 native bag-panel description fixtures. Not full gameplay testing of item effects or key-item pocket movement.",
+  "results": [
+    {
+      "item": "ITEM_MASTER_BALL",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_ULTRA_BALL",
+      "linked_name_exact": true,
+      "native_description_pixels": 181,
+      "passed": true
+    },
+    {
+      "item": "ITEM_GREAT_BALL",
+      "linked_name_exact": true,
+      "native_description_pixels": 181,
+      "passed": true
+    },
+    {
+      "item": "ITEM_POKE_BALL",
+      "linked_name_exact": true,
+      "native_description_pixels": 194,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SAFARI_BALL",
+      "linked_name_exact": true,
+      "native_description_pixels": 178,
+      "passed": true
+    },
+    {
+      "item": "ITEM_NET_BALL",
+      "linked_name_exact": true,
+      "native_description_pixels": 196,
+      "passed": true
+    },
+    {
+      "item": "ITEM_DIVE_BALL",
+      "linked_name_exact": true,
+      "native_description_pixels": 178,
+      "passed": true
+    },
+    {
+      "item": "ITEM_NEST_BALL",
+      "linked_name_exact": true,
+      "native_description_pixels": 196,
+      "passed": true
+    },
+    {
+      "item": "ITEM_REPEAT_BALL",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TIMER_BALL",
+      "linked_name_exact": true,
+      "native_description_pixels": 175,
+      "passed": true
+    },
+    {
+      "item": "ITEM_LUXURY_BALL",
+      "linked_name_exact": true,
+      "native_description_pixels": 183,
+      "passed": true
+    },
+    {
+      "item": "ITEM_PREMIER_BALL",
+      "linked_name_exact": true,
+      "native_description_pixels": 137,
+      "passed": true
+    },
+    {
+      "item": "ITEM_POTION",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_ANTIDOTE",
+      "linked_name_exact": true,
+      "native_description_pixels": 161,
+      "passed": true
+    },
+    {
+      "item": "ITEM_BURN_HEAL",
+      "linked_name_exact": true,
+      "native_description_pixels": 193,
+      "passed": true
+    },
+    {
+      "item": "ITEM_ICE_HEAL",
+      "linked_name_exact": true,
+      "native_description_pixels": 169,
+      "passed": true
+    },
+    {
+      "item": "ITEM_AWAKENING",
+      "linked_name_exact": true,
+      "native_description_pixels": 172,
+      "passed": true
+    },
+    {
+      "item": "ITEM_PARALYZE_HEAL",
+      "linked_name_exact": true,
+      "native_description_pixels": 177,
+      "passed": true
+    },
+    {
+      "item": "ITEM_FULL_RESTORE",
+      "linked_name_exact": true,
+      "native_description_pixels": 190,
+      "passed": true
+    },
+    {
+      "item": "ITEM_MAX_POTION",
+      "linked_name_exact": true,
+      "native_description_pixels": 177,
+      "passed": true
+    },
+    {
+      "item": "ITEM_HYPER_POTION",
+      "linked_name_exact": true,
+      "native_description_pixels": 191,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SUPER_POTION",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_FULL_HEAL",
+      "linked_name_exact": true,
+      "native_description_pixels": 177,
+      "passed": true
+    },
+    {
+      "item": "ITEM_REVIVE",
+      "linked_name_exact": true,
+      "native_description_pixels": 183,
+      "passed": true
+    },
+    {
+      "item": "ITEM_MAX_REVIVE",
+      "linked_name_exact": true,
+      "native_description_pixels": 183,
+      "passed": true
+    },
+    {
+      "item": "ITEM_FRESH_WATER",
+      "linked_name_exact": true,
+      "native_description_pixels": 193,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SODA_POP",
+      "linked_name_exact": true,
+      "native_description_pixels": 189,
+      "passed": true
+    },
+    {
+      "item": "ITEM_LEMONADE",
+      "linked_name_exact": true,
+      "native_description_pixels": 179,
+      "passed": true
+    },
+    {
+      "item": "ITEM_MOOMOO_MILK",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_ENERGY_POWDER",
+      "linked_name_exact": true,
+      "native_description_pixels": 190,
+      "passed": true
+    },
+    {
+      "item": "ITEM_ENERGY_ROOT",
+      "linked_name_exact": true,
+      "native_description_pixels": 193,
+      "passed": true
+    },
+    {
+      "item": "ITEM_HEAL_POWDER",
+      "linked_name_exact": true,
+      "native_description_pixels": 180,
+      "passed": true
+    },
+    {
+      "item": "ITEM_REVIVAL_HERB",
+      "linked_name_exact": true,
+      "native_description_pixels": 175,
+      "passed": true
+    },
+    {
+      "item": "ITEM_ETHER",
+      "linked_name_exact": true,
+      "native_description_pixels": 164,
+      "passed": true
+    },
+    {
+      "item": "ITEM_MAX_ETHER",
+      "linked_name_exact": true,
+      "native_description_pixels": 196,
+      "passed": true
+    },
+    {
+      "item": "ITEM_ELIXIR",
+      "linked_name_exact": true,
+      "native_description_pixels": 192,
+      "passed": true
+    },
+    {
+      "item": "ITEM_MAX_ELIXIR",
+      "linked_name_exact": true,
+      "native_description_pixels": 173,
+      "passed": true
+    },
+    {
+      "item": "ITEM_LAVA_COOKIE",
+      "linked_name_exact": true,
+      "native_description_pixels": 194,
+      "passed": true
+    },
+    {
+      "item": "ITEM_BLUE_FLUTE",
+      "linked_name_exact": true,
+      "native_description_pixels": 152,
+      "passed": true
+    },
+    {
+      "item": "ITEM_YELLOW_FLUTE",
+      "linked_name_exact": true,
+      "native_description_pixels": 196,
+      "passed": true
+    },
+    {
+      "item": "ITEM_RED_FLUTE",
+      "linked_name_exact": true,
+      "native_description_pixels": 168,
+      "passed": true
+    },
+    {
+      "item": "ITEM_BLACK_FLUTE",
+      "linked_name_exact": true,
+      "native_description_pixels": 163,
+      "passed": true
+    },
+    {
+      "item": "ITEM_WHITE_FLUTE",
+      "linked_name_exact": true,
+      "native_description_pixels": 194,
+      "passed": true
+    },
+    {
+      "item": "ITEM_BERRY_JUICE",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SACRED_ASH",
+      "linked_name_exact": true,
+      "native_description_pixels": 195,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SHOAL_SALT",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SHOAL_SHELL",
+      "linked_name_exact": true,
+      "native_description_pixels": 193,
+      "passed": true
+    },
+    {
+      "item": "ITEM_RED_SHARD",
+      "linked_name_exact": true,
+      "native_description_pixels": 172,
+      "passed": true
+    },
+    {
+      "item": "ITEM_BLUE_SHARD",
+      "linked_name_exact": true,
+      "native_description_pixels": 166,
+      "passed": true
+    },
+    {
+      "item": "ITEM_YELLOW_SHARD",
+      "linked_name_exact": true,
+      "native_description_pixels": 172,
+      "passed": true
+    },
+    {
+      "item": "ITEM_GREEN_SHARD",
+      "linked_name_exact": true,
+      "native_description_pixels": 165,
+      "passed": true
+    },
+    {
+      "item": "ITEM_HP_UP",
+      "linked_name_exact": true,
+      "native_description_pixels": 186,
+      "passed": true
+    },
+    {
+      "item": "ITEM_PROTEIN",
+      "linked_name_exact": true,
+      "native_description_pixels": 186,
+      "passed": true
+    },
+    {
+      "item": "ITEM_IRON",
+      "linked_name_exact": true,
+      "native_description_pixels": 186,
+      "passed": true
+    },
+    {
+      "item": "ITEM_CARBOS",
+      "linked_name_exact": true,
+      "native_description_pixels": 186,
+      "passed": true
+    },
+    {
+      "item": "ITEM_CALCIUM",
+      "linked_name_exact": true,
+      "native_description_pixels": 186,
+      "passed": true
+    },
+    {
+      "item": "ITEM_RARE_CANDY",
+      "linked_name_exact": true,
+      "native_description_pixels": 166,
+      "passed": true
+    },
+    {
+      "item": "ITEM_PP_UP",
+      "linked_name_exact": true,
+      "native_description_pixels": 183,
+      "passed": true
+    },
+    {
+      "item": "ITEM_ZINC",
+      "linked_name_exact": true,
+      "native_description_pixels": 186,
+      "passed": true
+    },
+    {
+      "item": "ITEM_PP_MAX",
+      "linked_name_exact": true,
+      "native_description_pixels": 174,
+      "passed": true
+    },
+    {
+      "item": "ITEM_GUARD_SPEC",
+      "linked_name_exact": true,
+      "native_description_pixels": 172,
+      "passed": true
+    },
+    {
+      "item": "ITEM_DIRE_HIT",
+      "linked_name_exact": true,
+      "native_description_pixels": 193,
+      "passed": true
+    },
+    {
+      "item": "ITEM_X_ATTACK",
+      "linked_name_exact": true,
+      "native_description_pixels": 163,
+      "passed": true
+    },
+    {
+      "item": "ITEM_X_DEFEND",
+      "linked_name_exact": true,
+      "native_description_pixels": 171,
+      "passed": true
+    },
+    {
+      "item": "ITEM_X_SPEED",
+      "linked_name_exact": true,
+      "native_description_pixels": 169,
+      "passed": true
+    },
+    {
+      "item": "ITEM_X_ACCURACY",
+      "linked_name_exact": true,
+      "native_description_pixels": 179,
+      "passed": true
+    },
+    {
+      "item": "ITEM_X_SPECIAL",
+      "linked_name_exact": true,
+      "native_description_pixels": 174,
+      "passed": true
+    },
+    {
+      "item": "ITEM_POKE_DOLL",
+      "linked_name_exact": true,
+      "native_description_pixels": 192,
+      "passed": true
+    },
+    {
+      "item": "ITEM_FLUFFY_TAIL",
+      "linked_name_exact": true,
+      "native_description_pixels": 173,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SUPER_REPEL",
+      "linked_name_exact": true,
+      "native_description_pixels": 177,
+      "passed": true
+    },
+    {
+      "item": "ITEM_MAX_REPEL",
+      "linked_name_exact": true,
+      "native_description_pixels": 177,
+      "passed": true
+    },
+    {
+      "item": "ITEM_ESCAPE_ROPE",
+      "linked_name_exact": true,
+      "native_description_pixels": 195,
+      "passed": true
+    },
+    {
+      "item": "ITEM_REPEL",
+      "linked_name_exact": true,
+      "native_description_pixels": 177,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SUN_STONE",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TINY_MUSHROOM",
+      "linked_name_exact": true,
+      "native_description_pixels": 189,
+      "passed": true
+    },
+    {
+      "item": "ITEM_BIG_MUSHROOM",
+      "linked_name_exact": true,
+      "native_description_pixels": 167,
+      "passed": true
+    },
+    {
+      "item": "ITEM_PEARL",
+      "linked_name_exact": true,
+      "native_description_pixels": 191,
+      "passed": true
+    },
+    {
+      "item": "ITEM_BIG_PEARL",
+      "linked_name_exact": true,
+      "native_description_pixels": 193,
+      "passed": true
+    },
+    {
+      "item": "ITEM_STARDUST",
+      "linked_name_exact": true,
+      "native_description_pixels": 187,
+      "passed": true
+    },
+    {
+      "item": "ITEM_STAR_PIECE",
+      "linked_name_exact": true,
+      "native_description_pixels": 172,
+      "passed": true
+    },
+    {
+      "item": "ITEM_NUGGET",
+      "linked_name_exact": true,
+      "native_description_pixels": 184,
+      "passed": true
+    },
+    {
+      "item": "ITEM_HEART_SCALE",
+      "linked_name_exact": true,
+      "native_description_pixels": 194,
+      "passed": true
+    },
+    {
+      "item": "ITEM_ORANGE_MAIL",
+      "linked_name_exact": true,
+      "native_description_pixels": 195,
+      "passed": true
+    },
+    {
+      "item": "ITEM_HARBOR_MAIL",
+      "linked_name_exact": true,
+      "native_description_pixels": 195,
+      "passed": true
+    },
+    {
+      "item": "ITEM_GLITTER_MAIL",
+      "linked_name_exact": true,
+      "native_description_pixels": 195,
+      "passed": true
+    },
+    {
+      "item": "ITEM_MECH_MAIL",
+      "linked_name_exact": true,
+      "native_description_pixels": 195,
+      "passed": true
+    },
+    {
+      "item": "ITEM_WOOD_MAIL",
+      "linked_name_exact": true,
+      "native_description_pixels": 195,
+      "passed": true
+    },
+    {
+      "item": "ITEM_WAVE_MAIL",
+      "linked_name_exact": true,
+      "native_description_pixels": 195,
+      "passed": true
+    },
+    {
+      "item": "ITEM_BEAD_MAIL",
+      "linked_name_exact": true,
+      "native_description_pixels": 195,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SHADOW_MAIL",
+      "linked_name_exact": true,
+      "native_description_pixels": 195,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TROPIC_MAIL",
+      "linked_name_exact": true,
+      "native_description_pixels": 195,
+      "passed": true
+    },
+    {
+      "item": "ITEM_DREAM_MAIL",
+      "linked_name_exact": true,
+      "native_description_pixels": 195,
+      "passed": true
+    },
+    {
+      "item": "ITEM_FAB_MAIL",
+      "linked_name_exact": true,
+      "native_description_pixels": 195,
+      "passed": true
+    },
+    {
+      "item": "ITEM_RETRO_MAIL",
+      "linked_name_exact": true,
+      "native_description_pixels": 195,
+      "passed": true
+    },
+    {
+      "item": "ITEM_CHERI_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 193,
+      "passed": true
+    },
+    {
+      "item": "ITEM_CHESTO_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 194,
+      "passed": true
+    },
+    {
+      "item": "ITEM_PECHA_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 176,
+      "passed": true
+    },
+    {
+      "item": "ITEM_RAWST_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 183,
+      "passed": true
+    },
+    {
+      "item": "ITEM_ASPEAR_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 186,
+      "passed": true
+    },
+    {
+      "item": "ITEM_LEPPA_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 169,
+      "passed": true
+    },
+    {
+      "item": "ITEM_ORAN_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 147,
+      "passed": true
+    },
+    {
+      "item": "ITEM_PERSIM_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 192,
+      "passed": true
+    },
+    {
+      "item": "ITEM_LUM_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 195,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SITRUS_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 147,
+      "passed": true
+    },
+    {
+      "item": "ITEM_FIGY_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_WIKI_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_MAGO_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_AGUAV_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_IAPAPA_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_RAZZ_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_BLUK_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_NANAB_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_WEPEAR_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_PINAP_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_POMEG_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_KELPSY_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_QUALOT_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_HONDEW_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_GREPA_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TAMATO_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_CORNN_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_MAGOST_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_RABUTA_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_NOMEL_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SPELON_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_PAMTRE_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_WATMEL_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_DURIN_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_BELUE_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_LIECHI_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 184,
+      "passed": true
+    },
+    {
+      "item": "ITEM_GANLON_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 192,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SALAC_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 190,
+      "passed": true
+    },
+    {
+      "item": "ITEM_PETAYA_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 195,
+      "passed": true
+    },
+    {
+      "item": "ITEM_APICOT_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 175,
+      "passed": true
+    },
+    {
+      "item": "ITEM_LANSAT_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 187,
+      "passed": true
+    },
+    {
+      "item": "ITEM_STARF_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_ENIGMA_BERRY",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_BRIGHT_POWDER",
+      "linked_name_exact": true,
+      "native_description_pixels": 195,
+      "passed": true
+    },
+    {
+      "item": "ITEM_WHITE_HERB",
+      "linked_name_exact": true,
+      "native_description_pixels": 184,
+      "passed": true
+    },
+    {
+      "item": "ITEM_MACHO_BRACE",
+      "linked_name_exact": true,
+      "native_description_pixels": 194,
+      "passed": true
+    },
+    {
+      "item": "ITEM_EXP_SHARE",
+      "linked_name_exact": true,
+      "native_description_pixels": 190,
+      "passed": true
+    },
+    {
+      "item": "ITEM_QUICK_CLAW",
+      "linked_name_exact": true,
+      "native_description_pixels": 184,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SOOTHE_BELL",
+      "linked_name_exact": true,
+      "native_description_pixels": 164,
+      "passed": true
+    },
+    {
+      "item": "ITEM_MENTAL_HERB",
+      "linked_name_exact": true,
+      "native_description_pixels": 189,
+      "passed": true
+    },
+    {
+      "item": "ITEM_CHOICE_BAND",
+      "linked_name_exact": true,
+      "native_description_pixels": 194,
+      "passed": true
+    },
+    {
+      "item": "ITEM_KINGS_ROCK",
+      "linked_name_exact": true,
+      "native_description_pixels": 168,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SILVER_POWDER",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_AMULET_COIN",
+      "linked_name_exact": true,
+      "native_description_pixels": 189,
+      "passed": true
+    },
+    {
+      "item": "ITEM_CLEANSE_TAG",
+      "linked_name_exact": true,
+      "native_description_pixels": 175,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SOUL_DEW",
+      "linked_name_exact": true,
+      "native_description_pixels": 180,
+      "passed": true
+    },
+    {
+      "item": "ITEM_DEEP_SEA_TOOTH",
+      "linked_name_exact": true,
+      "native_description_pixels": 182,
+      "passed": true
+    },
+    {
+      "item": "ITEM_DEEP_SEA_SCALE",
+      "linked_name_exact": true,
+      "native_description_pixels": 180,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SMOKE_BALL",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_EVERSTONE",
+      "linked_name_exact": true,
+      "native_description_pixels": 189,
+      "passed": true
+    },
+    {
+      "item": "ITEM_FOCUS_BAND",
+      "linked_name_exact": true,
+      "native_description_pixels": 187,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SCOPE_LENS",
+      "linked_name_exact": true,
+      "native_description_pixels": 154,
+      "passed": true
+    },
+    {
+      "item": "ITEM_METAL_COAT",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_LEFTOVERS",
+      "linked_name_exact": true,
+      "native_description_pixels": 179,
+      "passed": true
+    },
+    {
+      "item": "ITEM_DRAGON_SCALE",
+      "linked_name_exact": true,
+      "native_description_pixels": 156,
+      "passed": true
+    },
+    {
+      "item": "ITEM_LIGHT_BALL",
+      "linked_name_exact": true,
+      "native_description_pixels": 177,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SOFT_SAND",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_HARD_STONE",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_MIRACLE_SEED",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_BLACK_GLASSES",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_BLACK_BELT",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_MAGNET",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_MYSTIC_WATER",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SHARP_BEAK",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_POISON_BARB",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_NEVER_MELT_ICE",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SPELL_TAG",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TWISTED_SPOON",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_CHARCOAL",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_DRAGON_FANG",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SILK_SCARF",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_UP_GRADE",
+      "linked_name_exact": true,
+      "native_description_pixels": 182,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SHELL_BELL",
+      "linked_name_exact": true,
+      "native_description_pixels": 195,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SEA_INCENSE",
+      "linked_name_exact": true,
+      "native_description_pixels": 176,
+      "passed": true
+    },
+    {
+      "item": "ITEM_LAX_INCENSE",
+      "linked_name_exact": true,
+      "native_description_pixels": 177,
+      "passed": true
+    },
+    {
+      "item": "ITEM_LUCKY_PUNCH",
+      "linked_name_exact": true,
+      "native_description_pixels": 153,
+      "passed": true
+    },
+    {
+      "item": "ITEM_METAL_POWDER",
+      "linked_name_exact": true,
+      "native_description_pixels": 196,
+      "passed": true
+    },
+    {
+      "item": "ITEM_THICK_CLUB",
+      "linked_name_exact": true,
+      "native_description_pixels": 193,
+      "passed": true
+    },
+    {
+      "item": "ITEM_STICK",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_RED_SCARF",
+      "linked_name_exact": true,
+      "native_description_pixels": 192,
+      "passed": true
+    },
+    {
+      "item": "ITEM_BLUE_SCARF",
+      "linked_name_exact": true,
+      "native_description_pixels": 172,
+      "passed": true
+    },
+    {
+      "item": "ITEM_PINK_SCARF",
+      "linked_name_exact": true,
+      "native_description_pixels": 194,
+      "passed": true
+    },
+    {
+      "item": "ITEM_GREEN_SCARF",
+      "linked_name_exact": true,
+      "native_description_pixels": 193,
+      "passed": true
+    },
+    {
+      "item": "ITEM_YELLOW_SCARF",
+      "linked_name_exact": true,
+      "native_description_pixels": 193,
+      "passed": true
+    },
+    {
+      "item": "ITEM_MACH_BIKE",
+      "linked_name_exact": true,
+      "native_description_pixels": 192,
+      "passed": true
+    },
+    {
+      "item": "ITEM_COIN_CASE",
+      "linked_name_exact": true,
+      "native_description_pixels": 191,
+      "passed": true
+    },
+    {
+      "item": "ITEM_ITEMFINDER",
+      "linked_name_exact": true,
+      "native_description_pixels": 166,
+      "passed": true
+    },
+    {
+      "item": "ITEM_OLD_ROD",
+      "linked_name_exact": true,
+      "native_description_pixels": 187,
+      "passed": true
+    },
+    {
+      "item": "ITEM_GOOD_ROD",
+      "linked_name_exact": true,
+      "native_description_pixels": 183,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SUPER_ROD",
+      "linked_name_exact": true,
+      "native_description_pixels": 194,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SS_TICKET",
+      "linked_name_exact": true,
+      "native_description_pixels": 196,
+      "passed": true
+    },
+    {
+      "item": "ITEM_CONTEST_PASS",
+      "linked_name_exact": true,
+      "native_description_pixels": 196,
+      "passed": true
+    },
+    {
+      "item": "ITEM_WAILMER_PAIL",
+      "linked_name_exact": true,
+      "native_description_pixels": 170,
+      "passed": true
+    },
+    {
+      "item": "ITEM_DEVON_GOODS",
+      "linked_name_exact": true,
+      "native_description_pixels": 179,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SOOT_SACK",
+      "linked_name_exact": true,
+      "native_description_pixels": 168,
+      "passed": true
+    },
+    {
+      "item": "ITEM_BASEMENT_KEY",
+      "linked_name_exact": true,
+      "native_description_pixels": 189,
+      "passed": true
+    },
+    {
+      "item": "ITEM_ACRO_BIKE",
+      "linked_name_exact": true,
+      "native_description_pixels": 184,
+      "passed": true
+    },
+    {
+      "item": "ITEM_POKEBLOCK_CASE",
+      "linked_name_exact": true,
+      "native_description_pixels": 196,
+      "passed": true
+    },
+    {
+      "item": "ITEM_LETTER",
+      "linked_name_exact": true,
+      "native_description_pixels": 187,
+      "passed": true
+    },
+    {
+      "item": "ITEM_EON_TICKET",
+      "linked_name_exact": true,
+      "native_description_pixels": 190,
+      "passed": true
+    },
+    {
+      "item": "ITEM_RED_ORB",
+      "linked_name_exact": true,
+      "native_description_pixels": 184,
+      "passed": true
+    },
+    {
+      "item": "ITEM_BLUE_ORB",
+      "linked_name_exact": true,
+      "native_description_pixels": 178,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SCANNER",
+      "linked_name_exact": true,
+      "native_description_pixels": 187,
+      "passed": true
+    },
+    {
+      "item": "ITEM_GO_GOGGLES",
+      "linked_name_exact": true,
+      "native_description_pixels": 196,
+      "passed": true
+    },
+    {
+      "item": "ITEM_METEORITE",
+      "linked_name_exact": true,
+      "native_description_pixels": 174,
+      "passed": true
+    },
+    {
+      "item": "ITEM_ROOM_1_KEY",
+      "linked_name_exact": true,
+      "native_description_pixels": 187,
+      "passed": true
+    },
+    {
+      "item": "ITEM_ROOM_2_KEY",
+      "linked_name_exact": true,
+      "native_description_pixels": 187,
+      "passed": true
+    },
+    {
+      "item": "ITEM_ROOM_4_KEY",
+      "linked_name_exact": true,
+      "native_description_pixels": 187,
+      "passed": true
+    },
+    {
+      "item": "ITEM_ROOM_6_KEY",
+      "linked_name_exact": true,
+      "native_description_pixels": 187,
+      "passed": true
+    },
+    {
+      "item": "ITEM_STORAGE_KEY",
+      "linked_name_exact": true,
+      "native_description_pixels": 187,
+      "passed": true
+    },
+    {
+      "item": "ITEM_ROOT_FOSSIL",
+      "linked_name_exact": true,
+      "native_description_pixels": 194,
+      "passed": true
+    },
+    {
+      "item": "ITEM_CLAW_FOSSIL",
+      "linked_name_exact": true,
+      "native_description_pixels": 194,
+      "passed": true
+    },
+    {
+      "item": "ITEM_DEVON_SCOPE",
+      "linked_name_exact": true,
+      "native_description_pixels": 176,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM01",
+      "linked_name_exact": true,
+      "native_description_pixels": 110,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM02",
+      "linked_name_exact": true,
+      "native_description_pixels": 89,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM03",
+      "linked_name_exact": true,
+      "native_description_pixels": 112,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM04",
+      "linked_name_exact": true,
+      "native_description_pixels": 100,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM05",
+      "linked_name_exact": true,
+      "native_description_pixels": 97,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM06",
+      "linked_name_exact": true,
+      "native_description_pixels": 108,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM07",
+      "linked_name_exact": true,
+      "native_description_pixels": 112,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM08",
+      "linked_name_exact": true,
+      "native_description_pixels": 100,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM09",
+      "linked_name_exact": true,
+      "native_description_pixels": 107,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM10",
+      "linked_name_exact": true,
+      "native_description_pixels": 96,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM11",
+      "linked_name_exact": true,
+      "native_description_pixels": 105,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM12",
+      "linked_name_exact": true,
+      "native_description_pixels": 96,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM13",
+      "linked_name_exact": true,
+      "native_description_pixels": 98,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM14",
+      "linked_name_exact": true,
+      "native_description_pixels": 112,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM15",
+      "linked_name_exact": true,
+      "native_description_pixels": 98,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM16",
+      "linked_name_exact": true,
+      "native_description_pixels": 98,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM17",
+      "linked_name_exact": true,
+      "native_description_pixels": 108,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM18",
+      "linked_name_exact": true,
+      "native_description_pixels": 111,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM19",
+      "linked_name_exact": true,
+      "native_description_pixels": 111,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM20",
+      "linked_name_exact": true,
+      "native_description_pixels": 111,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM21",
+      "linked_name_exact": true,
+      "native_description_pixels": 108,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM22",
+      "linked_name_exact": true,
+      "native_description_pixels": 105,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM23",
+      "linked_name_exact": true,
+      "native_description_pixels": 106,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM24",
+      "linked_name_exact": true,
+      "native_description_pixels": 106,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM25",
+      "linked_name_exact": true,
+      "native_description_pixels": 106,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM26",
+      "linked_name_exact": true,
+      "native_description_pixels": 102,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM27",
+      "linked_name_exact": true,
+      "native_description_pixels": 106,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM28",
+      "linked_name_exact": true,
+      "native_description_pixels": 99,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM29",
+      "linked_name_exact": true,
+      "native_description_pixels": 108,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM30",
+      "linked_name_exact": true,
+      "native_description_pixels": 112,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM31",
+      "linked_name_exact": true,
+      "native_description_pixels": 106,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM32",
+      "linked_name_exact": true,
+      "native_description_pixels": 106,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM33",
+      "linked_name_exact": true,
+      "native_description_pixels": 98,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM34",
+      "linked_name_exact": true,
+      "native_description_pixels": 88,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM35",
+      "linked_name_exact": true,
+      "native_description_pixels": 101,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM36",
+      "linked_name_exact": true,
+      "native_description_pixels": 112,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM37",
+      "linked_name_exact": true,
+      "native_description_pixels": 103,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM38",
+      "linked_name_exact": true,
+      "native_description_pixels": 101,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM39",
+      "linked_name_exact": true,
+      "native_description_pixels": 112,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM40",
+      "linked_name_exact": true,
+      "native_description_pixels": 107,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM41",
+      "linked_name_exact": true,
+      "native_description_pixels": 105,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM42",
+      "linked_name_exact": true,
+      "native_description_pixels": 112,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM43",
+      "linked_name_exact": true,
+      "native_description_pixels": 96,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM44",
+      "linked_name_exact": true,
+      "native_description_pixels": 102,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM45",
+      "linked_name_exact": true,
+      "native_description_pixels": 109,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM46",
+      "linked_name_exact": true,
+      "native_description_pixels": 102,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM47",
+      "linked_name_exact": true,
+      "native_description_pixels": 101,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM48",
+      "linked_name_exact": true,
+      "native_description_pixels": 109,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM49",
+      "linked_name_exact": true,
+      "native_description_pixels": 104,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM50",
+      "linked_name_exact": true,
+      "native_description_pixels": 94,
+      "passed": true
+    },
+    {
+      "item": "ITEM_HM01",
+      "linked_name_exact": true,
+      "native_description_pixels": 107,
+      "passed": true
+    },
+    {
+      "item": "ITEM_HM02",
+      "linked_name_exact": true,
+      "native_description_pixels": 97,
+      "passed": true
+    },
+    {
+      "item": "ITEM_HM03",
+      "linked_name_exact": true,
+      "native_description_pixels": 107,
+      "passed": true
+    },
+    {
+      "item": "ITEM_HM04",
+      "linked_name_exact": true,
+      "native_description_pixels": 107,
+      "passed": true
+    },
+    {
+      "item": "ITEM_HM05",
+      "linked_name_exact": true,
+      "native_description_pixels": 99,
+      "passed": true
+    },
+    {
+      "item": "ITEM_HM06",
+      "linked_name_exact": true,
+      "native_description_pixels": 105,
+      "passed": true
+    },
+    {
+      "item": "ITEM_HM07",
+      "linked_name_exact": true,
+      "native_description_pixels": 90,
+      "passed": true
+    },
+    {
+      "item": "ITEM_HM08",
+      "linked_name_exact": true,
+      "native_description_pixels": 108,
+      "passed": true
+    },
+    {
+      "item": "ITEM_OAKS_PARCEL",
+      "linked_name_exact": true,
+      "native_description_pixels": 186,
+      "passed": true
+    },
+    {
+      "item": "ITEM_POKE_FLUTE",
+      "linked_name_exact": true,
+      "native_description_pixels": 188,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SECRET_KEY",
+      "linked_name_exact": true,
+      "native_description_pixels": 179,
+      "passed": true
+    },
+    {
+      "item": "ITEM_BIKE_VOUCHER",
+      "linked_name_exact": true,
+      "native_description_pixels": 181,
+      "passed": true
+    },
+    {
+      "item": "ITEM_GOLD_TEETH",
+      "linked_name_exact": true,
+      "native_description_pixels": 192,
+      "passed": true
+    },
+    {
+      "item": "ITEM_CARD_KEY",
+      "linked_name_exact": true,
+      "native_description_pixels": 195,
+      "passed": true
+    },
+    {
+      "item": "ITEM_LIFT_KEY",
+      "linked_name_exact": true,
+      "native_description_pixels": 183,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SILPH_SCOPE",
+      "linked_name_exact": true,
+      "native_description_pixels": 189,
+      "passed": true
+    },
+    {
+      "item": "ITEM_BICYCLE",
+      "linked_name_exact": true,
+      "native_description_pixels": 175,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TOWN_MAP",
+      "linked_name_exact": true,
+      "native_description_pixels": 168,
+      "passed": true
+    },
+    {
+      "item": "ITEM_VS_SEEKER",
+      "linked_name_exact": true,
+      "native_description_pixels": 157,
+      "passed": true
+    },
+    {
+      "item": "ITEM_FAME_CHECKER",
+      "linked_name_exact": true,
+      "native_description_pixels": 161,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TM_CASE",
+      "linked_name_exact": true,
+      "native_description_pixels": 183,
+      "passed": true
+    },
+    {
+      "item": "ITEM_BERRY_POUCH",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TEACHY_TV",
+      "linked_name_exact": true,
+      "native_description_pixels": 151,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TRI_PASS",
+      "linked_name_exact": true,
+      "native_description_pixels": 186,
+      "passed": true
+    },
+    {
+      "item": "ITEM_RAINBOW_PASS",
+      "linked_name_exact": true,
+      "native_description_pixels": 182,
+      "passed": true
+    },
+    {
+      "item": "ITEM_TEA",
+      "linked_name_exact": true,
+      "native_description_pixels": 178,
+      "passed": true
+    },
+    {
+      "item": "ITEM_MYSTIC_TICKET",
+      "linked_name_exact": true,
+      "native_description_pixels": 164,
+      "passed": true
+    },
+    {
+      "item": "ITEM_AURORA_TICKET",
+      "linked_name_exact": true,
+      "native_description_pixels": 185,
+      "passed": true
+    },
+    {
+      "item": "ITEM_POWDER_JAR",
+      "linked_name_exact": true,
+      "native_description_pixels": 195,
+      "passed": true
+    },
+    {
+      "item": "ITEM_RUBY",
+      "linked_name_exact": true,
+      "native_description_pixels": 156,
+      "passed": true
+    },
+    {
+      "item": "ITEM_SAPPHIRE",
+      "linked_name_exact": true,
+      "native_description_pixels": 156,
+      "passed": true
+    }
+  ],
+  "captures": [
+    "ITEM_POTION",
+    "ITEM_HYPER_POTION",
+    "ITEM_LIGHT_BALL",
+    "ITEM_LUCKY_PUNCH",
+    "ITEM_THICK_CLUB",
+    "ITEM_ITEMFINDER",
+    "ITEM_FAME_CHECKER",
+    "ITEM_TM_CASE",
+    "ITEM_COIN_CASE",
+    "ITEM_SUPER_REPEL",
+    "ITEM_LUCKY_EGG",
+    "ITEM_HELIX_FOSSIL",
+    "ITEM_SITRUS_BERRY",
+    "ITEM_BLUE_FLUTE",
+    "ITEM_SILPH_SCOPE"
+  ]
+}

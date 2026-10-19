@@ -1,0 +1,4507 @@
+{
+  "passed": true,
+  "preserved_custom_items": [
+    "ITEM_MOON_STONE",
+    "ITEM_FIRE_STONE",
+    "ITEM_WATER_STONE",
+    "ITEM_THUNDER_STONE",
+    "ITEM_LEAF_STONE",
+    "ITEM_LUCKY_EGG",
+    "ITEM_HELIX_FOSSIL",
+    "ITEM_DOME_FOSSIL",
+    "ITEM_OLD_AMBER"
+  ],
+  "max_name_characters": 13,
+  "max_description_pixels": 196,
+  "max_description_lines": 3,
+  "entries": [
+    {
+      "item": "ITEM_MASTER_BALL",
+      "display": "Master Ball",
+      "full_name": "Master Ball",
+      "description": "La meilleure Ball. Capture à coup sûr un Yo-kai sauvage.",
+      "lines": [
+        "La meilleure Ball. Capture à coup",
+        "sûr un Yo-kai sauvage."
+      ],
+      "widths": [
+        188,
+        124
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_ULTRA_BALL",
+      "display": "Hyper Ball",
+      "full_name": "Hyper Ball",
+      "description": "Une Ball plus performante que la Super Ball.",
+      "lines": [
+        "Une Ball plus performante que la",
+        "Super Ball."
+      ],
+      "widths": [
+        181,
+        62
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_GREAT_BALL",
+      "display": "Super Ball",
+      "full_name": "Super Ball",
+      "description": "Une Ball plus performante que la Yo-kai Ball.",
+      "lines": [
+        "Une Ball plus performante que la",
+        "Yo-kai Ball."
+      ],
+      "widths": [
+        181,
+        66
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_POKE_BALL",
+      "display": "Yo-kai Ball",
+      "full_name": "Yo-kai Ball",
+      "description": "Une capsule à lancer pour capturer un Yo-kai sauvage.",
+      "lines": [
+        "Une capsule à lancer pour capturer",
+        "un Yo-kai sauvage."
+      ],
+      "widths": [
+        194,
+        102
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SAFARI_BALL",
+      "display": "Safari Ball",
+      "full_name": "Safari Ball",
+      "description": "Une Ball camouflée réservée aux captures du Parc Safari.",
+      "lines": [
+        "Une Ball camouflée réservée aux",
+        "captures du Parc Safari."
+      ],
+      "widths": [
+        178,
+        135
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_NET_BALL",
+      "display": "Filet Ball",
+      "full_name": "Filet Ball",
+      "description": "Une Ball efficace sur les Yo-kai de type Eau ou Insecte.",
+      "lines": [
+        "Une Ball efficace sur les Yo-kai de",
+        "type Eau ou Insecte."
+      ],
+      "widths": [
+        196,
+        115
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_DIVE_BALL",
+      "display": "Scuba Ball",
+      "full_name": "Scuba Ball",
+      "description": "Une Ball efficace sur les Yo-kai rencontrés sous l'eau.",
+      "lines": [
+        "Une Ball efficace sur les Yo-kai",
+        "rencontrés sous l'eau."
+      ],
+      "widths": [
+        178,
+        119
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_NEST_BALL",
+      "display": "Faiblo Ball",
+      "full_name": "Faiblo Ball",
+      "description": "Une Ball efficace sur les Yo-kai de faible niveau.",
+      "lines": [
+        "Une Ball efficace sur les Yo-kai de",
+        "faible niveau."
+      ],
+      "widths": [
+        196,
+        76
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_REPEAT_BALL",
+      "display": "Bis Ball",
+      "full_name": "Bis Ball",
+      "description": "Une Ball efficace sur les espèces de Yo-kai déjà capturées.",
+      "lines": [
+        "Une Ball efficace sur les espèces",
+        "de Yo-kai déjà capturées."
+      ],
+      "widths": [
+        185,
+        143
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TIMER_BALL",
+      "display": "Chrono Ball",
+      "full_name": "Chrono Ball",
+      "description": "Une Ball plus efficace à mesure que le combat dure.",
+      "lines": [
+        "Une Ball plus efficace à mesure",
+        "que le combat dure."
+      ],
+      "widths": [
+        175,
+        110
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_LUXURY_BALL",
+      "display": "Luxe Ball",
+      "full_name": "Luxe Ball",
+      "description": "Une Ball confortable qui favorise l'amitié du Yo-kai capturé.",
+      "lines": [
+        "Une Ball confortable qui favorise",
+        "l'amitié du Yo-kai capturé."
+      ],
+      "widths": [
+        183,
+        147
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_PREMIER_BALL",
+      "display": "Honor Ball",
+      "full_name": "Honor Ball",
+      "description": "Une Ball rare créée pour commémorer un événement.",
+      "lines": [
+        "Une Ball rare créée pour",
+        "commémorer un événement."
+      ],
+      "widths": [
+        137,
+        137
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_POTION",
+      "display": "Potion",
+      "full_name": "Potion",
+      "description": "Un spray médicinal qui rend 20 PV à un Yo-kai.",
+      "lines": [
+        "Un spray médicinal qui rend 20 PV",
+        "à un Yo-kai."
+      ],
+      "widths": [
+        185,
+        67
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_ANTIDOTE",
+      "display": "Antidote",
+      "full_name": "Antidote",
+      "description": "Un spray qui soigne un Yo-kai empoisonné.",
+      "lines": [
+        "Un spray qui soigne un Yo-kai",
+        "empoisonné."
+      ],
+      "widths": [
+        161,
+        60
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_BURN_HEAL",
+      "display": "Anti-Brûle",
+      "full_name": "Anti-Brûle",
+      "description": "Un spray qui soigne la brûlure d'un Yo-kai.",
+      "lines": [
+        "Un spray qui soigne la brûlure d'un",
+        "Yo-kai."
+      ],
+      "widths": [
+        193,
+        38
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_ICE_HEAL",
+      "display": "Antigel",
+      "full_name": "Antigel",
+      "description": "Un spray qui dégèle un Yo-kai.",
+      "lines": [
+        "Un spray qui dégèle un Yo-kai."
+      ],
+      "widths": [
+        169
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_AWAKENING",
+      "display": "Réveil",
+      "full_name": "Réveil",
+      "description": "Un spray qui réveille un Yo-kai endormi.",
+      "lines": [
+        "Un spray qui réveille un Yo-kai",
+        "endormi."
+      ],
+      "widths": [
+        172,
+        43
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_PARALYZE_HEAL",
+      "display": "Anti-Para",
+      "full_name": "Anti-Para",
+      "description": "Un spray qui soigne la paralysie d'un Yo-kai.",
+      "lines": [
+        "Un spray qui soigne la paralysie",
+        "d'un Yo-kai."
+      ],
+      "widths": [
+        177,
+        64
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_FULL_RESTORE",
+      "display": "Guérison",
+      "full_name": "Guérison",
+      "description": "Restaure tous les PV et soigne les problèmes de statut d'un Yo-kai.",
+      "lines": [
+        "Restaure tous les PV et soigne les",
+        "problèmes de statut d'un Yo-kai."
+      ],
+      "widths": [
+        190,
+        177
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_MAX_POTION",
+      "display": "Potion Max",
+      "full_name": "Potion Max",
+      "description": "Un spray médicinal qui rend tous ses PV à un Yo-kai.",
+      "lines": [
+        "Un spray médicinal qui rend tous",
+        "ses PV à un Yo-kai."
+      ],
+      "widths": [
+        177,
+        107
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_HYPER_POTION",
+      "display": "Hyper Potion",
+      "full_name": "Hyper Potion",
+      "description": "Un spray médicinal qui rend 200 PV à un Yo-kai.",
+      "lines": [
+        "Un spray médicinal qui rend 200 PV",
+        "à un Yo-kai."
+      ],
+      "widths": [
+        191,
+        67
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SUPER_POTION",
+      "display": "Super Potion",
+      "full_name": "Super Potion",
+      "description": "Un spray médicinal qui rend 50 PV à un Yo-kai.",
+      "lines": [
+        "Un spray médicinal qui rend 50 PV",
+        "à un Yo-kai."
+      ],
+      "widths": [
+        185,
+        67
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_FULL_HEAL",
+      "display": "Total Soin",
+      "full_name": "Total Soin",
+      "description": "Un spray qui soigne tous les problèmes de statut d'un Yo-kai.",
+      "lines": [
+        "Un spray qui soigne tous les",
+        "problèmes de statut d'un Yo-kai."
+      ],
+      "widths": [
+        155,
+        177
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_REVIVE",
+      "display": "Rappel",
+      "full_name": "Rappel",
+      "description": "Ranime un Yo-kai K.O. et lui rend la moitié de ses PV max.",
+      "lines": [
+        "Ranime un Yo-kai K.O. et lui rend",
+        "la moitié de ses PV max."
+      ],
+      "widths": [
+        183,
+        135
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_MAX_REVIVE",
+      "display": "Rappel Max",
+      "full_name": "Rappel Max",
+      "description": "Ranime un Yo-kai K.O. et lui rend tous ses PV.",
+      "lines": [
+        "Ranime un Yo-kai K.O. et lui rend",
+        "tous ses PV."
+      ],
+      "widths": [
+        183,
+        67
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_FRESH_WATER",
+      "display": "Eau Fraîche",
+      "full_name": "Eau Fraîche",
+      "description": "Une eau riche en minéraux. Rend 50 PV à un Yo-kai.",
+      "lines": [
+        "Une eau riche en minéraux. Rend 50",
+        "PV à un Yo-kai."
+      ],
+      "widths": [
+        193,
+        85
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SODA_POP",
+      "display": "Soda Cool",
+      "full_name": "Soda Cool",
+      "description": "Une boisson pétillante. Rend 60 PV à un Yo-kai.",
+      "lines": [
+        "Une boisson pétillante. Rend 60 PV",
+        "à un Yo-kai."
+      ],
+      "widths": [
+        189,
+        67
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_LEMONADE",
+      "display": "Limonade",
+      "full_name": "Limonade",
+      "description": "Une boisson très sucrée. Rend 80 PV à un Yo-kai.",
+      "lines": [
+        "Une boisson très sucrée. Rend 80",
+        "PV à un Yo-kai."
+      ],
+      "widths": [
+        179,
+        85
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_MOOMOO_MILK",
+      "display": "Lait Meumeu",
+      "full_name": "Lait Meumeu",
+      "description": "Un lait très nourrissant. Rend 100 PV à un Yo-kai.",
+      "lines": [
+        "Un lait très nourrissant. Rend 100",
+        "PV à un Yo-kai."
+      ],
+      "widths": [
+        185,
+        85
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_ENERGY_POWDER",
+      "display": "Poudrénergie",
+      "full_name": "Poudrénergie",
+      "description": "Une poudre très amère. Rend 50 PV à un Yo-kai.",
+      "lines": [
+        "Une poudre très amère. Rend 50 PV",
+        "à un Yo-kai."
+      ],
+      "widths": [
+        190,
+        67
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_ENERGY_ROOT",
+      "display": "Racinénergie",
+      "full_name": "Racinénergie",
+      "description": "Une racine très amère. Rend 200 PV à un Yo-kai.",
+      "lines": [
+        "Une racine très amère. Rend 200 PV",
+        "à un Yo-kai."
+      ],
+      "widths": [
+        193,
+        67
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_HEAL_POWDER",
+      "display": "Poudre Soin",
+      "full_name": "Poudre Soin",
+      "description": "Une poudre très amère qui soigne tous les problèmes de statut.",
+      "lines": [
+        "Une poudre très amère qui soigne",
+        "tous les problèmes de statut."
+      ],
+      "widths": [
+        180,
+        162
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_REVIVAL_HERB",
+      "display": "Herbe Rappel",
+      "full_name": "Herbe Rappel",
+      "description": "Une herbe très amère. Ranime un Yo-kai K.O. avec tous ses PV.",
+      "lines": [
+        "Une herbe très amère. Ranime un",
+        "Yo-kai K.O. avec tous ses PV."
+      ],
+      "widths": [
+        175,
+        164
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_ETHER",
+      "display": "Huile",
+      "full_name": "Huile",
+      "description": "Restaure 10 PP d'une capacité choisie.",
+      "lines": [
+        "Restaure 10 PP d'une capacité",
+        "choisie."
+      ],
+      "widths": [
+        164,
+        42
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_MAX_ETHER",
+      "display": "Huile Max",
+      "full_name": "Huile Max",
+      "description": "Restaure tous les PP d'une capacité choisie.",
+      "lines": [
+        "Restaure tous les PP d'une capacité",
+        "choisie."
+      ],
+      "widths": [
+        196,
+        42
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_ELIXIR",
+      "display": "Élixir",
+      "full_name": "Élixir",
+      "description": "Restaure 10 PP de chaque capacité d'un Yo-kai.",
+      "lines": [
+        "Restaure 10 PP de chaque capacité",
+        "d'un Yo-kai."
+      ],
+      "widths": [
+        192,
+        64
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_MAX_ELIXIR",
+      "display": "Élixir Max",
+      "full_name": "Élixir Max",
+      "description": "Restaure tous les PP de chaque capacité d'un Yo-kai.",
+      "lines": [
+        "Restaure tous les PP de chaque",
+        "capacité d'un Yo-kai."
+      ],
+      "widths": [
+        173,
+        115
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_LAVA_COOKIE",
+      "display": "Lava Cookie",
+      "full_name": "Lava Cookie",
+      "description": "Une spécialité de Vermilava. Soigne tous les problèmes de statut.",
+      "lines": [
+        "Une spécialité de Vermilava. Soigne",
+        "tous les problèmes de statut."
+      ],
+      "widths": [
+        194,
+        162
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_BLUE_FLUTE",
+      "display": "Flûte Bleue",
+      "full_name": "Flûte Bleue",
+      "description": "Une flûte en verre bleu qui réveille un Yo-kai endormi.",
+      "lines": [
+        "Une flûte en verre bleu qui",
+        "réveille un Yo-kai endormi."
+      ],
+      "widths": [
+        152,
+        148
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_YELLOW_FLUTE",
+      "display": "Flûte Jaune",
+      "full_name": "Flûte Jaune",
+      "description": "Une flûte en verre jaune qui soigne la confusion d'un Yo-kai.",
+      "lines": [
+        "Une flûte en verre jaune qui soigne",
+        "la confusion d'un Yo-kai."
+      ],
+      "widths": [
+        196,
+        135
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_RED_FLUTE",
+      "display": "Flûte Rouge",
+      "full_name": "Flûte Rouge",
+      "description": "Une flûte en verre rouge qui dissipe l'attirance d'un Yo-kai.",
+      "lines": [
+        "Une flûte en verre rouge qui",
+        "dissipe l'attirance d'un Yo-kai."
+      ],
+      "widths": [
+        158,
+        168
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_BLACK_FLUTE",
+      "display": "Flûte Noire",
+      "full_name": "Flûte Noire",
+      "description": "Une flûte en verre noir qui repousse les Yo-kai sauvages.",
+      "lines": [
+        "Une flûte en verre noir qui",
+        "repousse les Yo-kai sauvages."
+      ],
+      "widths": [
+        149,
+        163
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_WHITE_FLUTE",
+      "display": "Flûte Blanche",
+      "full_name": "Flûte Blanche",
+      "description": "Une flûte en verre blanc qui attire les Yo-kai sauvages.",
+      "lines": [
+        "Une flûte en verre blanc qui attire",
+        "les Yo-kai sauvages."
+      ],
+      "widths": [
+        194,
+        112
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_BERRY_JUICE",
+      "display": "Jus de Baie",
+      "full_name": "Jus de Baie",
+      "description": "Un pur jus de Baie. Rend 20 PV à un Yo-kai.",
+      "lines": [
+        "Un pur jus de Baie. Rend 20 PV à",
+        "un Yo-kai."
+      ],
+      "widths": [
+        185,
+        55
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SACRED_ASH",
+      "display": "Cendre Sacrée",
+      "full_name": "Cendre Sacrée",
+      "description": "Ranime tous les Yo-kai K.O. et leur rend tous leurs PV.",
+      "lines": [
+        "Ranime tous les Yo-kai K.O. et leur",
+        "rend tous leurs PV."
+      ],
+      "widths": [
+        195,
+        106
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SHOAL_SALT",
+      "display": "Sel Tréfonds",
+      "full_name": "Sel Tréfonds",
+      "description": "Du sel pur et très salé provenant de la Grotte Tréfonds.",
+      "lines": [
+        "Du sel pur et très salé provenant",
+        "de la Grotte Tréfonds."
+      ],
+      "widths": [
+        185,
+        123
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SHOAL_SHELL",
+      "display": "Coq. Tréf.",
+      "full_name": "CoquilleTréfonds",
+      "description": "Un joli coquillage rayé de bleu et de blanc, trouvé en profondeur.",
+      "lines": [
+        "Un joli coquillage rayé de bleu et",
+        "de blanc, trouvé en profondeur."
+      ],
+      "widths": [
+        193,
+        175
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_RED_SHARD",
+      "display": "Tesson Rouge",
+      "full_name": "Tesson Rouge",
+      "description": "Un petit tesson rouge provenant apparemment d'un outil ancien.",
+      "lines": [
+        "Un petit tesson rouge provenant",
+        "apparemment d'un outil ancien."
+      ],
+      "widths": [
+        172,
+        164
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_BLUE_SHARD",
+      "display": "Tesson Bleu",
+      "full_name": "Tesson Bleu",
+      "description": "Un petit tesson bleu provenant apparemment d'un outil ancien.",
+      "lines": [
+        "Un petit tesson bleu provenant",
+        "apparemment d'un outil ancien."
+      ],
+      "widths": [
+        166,
+        164
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_YELLOW_SHARD",
+      "display": "Tesson Jaune",
+      "full_name": "Tesson Jaune",
+      "description": "Un petit tesson jaune provenant apparemment d'un outil ancien.",
+      "lines": [
+        "Un petit tesson jaune provenant",
+        "apparemment d'un outil ancien."
+      ],
+      "widths": [
+        172,
+        164
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_GREEN_SHARD",
+      "display": "Tesson Vert",
+      "full_name": "Tesson Vert",
+      "description": "Un petit tesson vert provenant apparemment d'un outil ancien.",
+      "lines": [
+        "Un petit tesson vert provenant",
+        "apparemment d'un outil ancien."
+      ],
+      "widths": [
+        165,
+        164
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_HP_UP",
+      "display": "PV Plus",
+      "full_name": "PV Plus",
+      "description": "Une boisson nutritive qui augmente les PV de base d'un Yo-kai.",
+      "lines": [
+        "Une boisson nutritive qui augmente",
+        "les PV de base d'un Yo-kai."
+      ],
+      "widths": [
+        186,
+        151
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_PROTEIN",
+      "display": "Protéine",
+      "full_name": "Protéine",
+      "description": "Une boisson nutritive qui augmente l'Attaque de base d'un Yo-kai.",
+      "lines": [
+        "Une boisson nutritive qui augmente",
+        "l'Attaque de base d'un Yo-kai."
+      ],
+      "widths": [
+        186,
+        165
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_IRON",
+      "display": "Fer",
+      "full_name": "Fer",
+      "description": "Une boisson nutritive qui augmente la Défense de base d'un Yo-kai.",
+      "lines": [
+        "Une boisson nutritive qui augmente",
+        "la Défense de base d'un Yo-kai."
+      ],
+      "widths": [
+        186,
+        173
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_CARBOS",
+      "display": "Carbone",
+      "full_name": "Carbone",
+      "description": "Une boisson nutritive qui augmente la Vitesse de base d'un Yo-kai.",
+      "lines": [
+        "Une boisson nutritive qui augmente",
+        "la Vitesse de base d'un Yo-kai."
+      ],
+      "widths": [
+        186,
+        171
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_CALCIUM",
+      "display": "Calcium",
+      "full_name": "Calcium",
+      "description": "Une boisson nutritive qui augmente l'Atq. Spé. de base d'un Yo-kai.",
+      "lines": [
+        "Une boisson nutritive qui augmente",
+        "l'Atq. Spé. de base d'un Yo-kai."
+      ],
+      "widths": [
+        186,
+        176
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_RARE_CANDY",
+      "display": "Super Bonbon",
+      "full_name": "Super Bonbon",
+      "description": "Un bonbon énergétique qui fait gagner un niveau à un Yo-kai.",
+      "lines": [
+        "Un bonbon énergétique qui fait",
+        "gagner un niveau à un Yo-kai."
+      ],
+      "widths": [
+        166,
+        163
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_PP_UP",
+      "display": "PP Plus",
+      "full_name": "PP Plus",
+      "description": "Augmente un peu les PP max d'une capacité choisie.",
+      "lines": [
+        "Augmente un peu les PP max d'une",
+        "capacité choisie."
+      ],
+      "widths": [
+        183,
+        93
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_ZINC",
+      "display": "Zinc",
+      "full_name": "Zinc",
+      "description": "Une boisson nutritive qui augmente la Déf. Spé. de base d'un Yo-kai.",
+      "lines": [
+        "Une boisson nutritive qui augmente",
+        "la Déf. Spé. de base d'un Yo-kai."
+      ],
+      "widths": [
+        186,
+        185
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_PP_MAX",
+      "display": "PP Max",
+      "full_name": "PP Max",
+      "description": "Augmente au maximum les PP max d'une capacité choisie.",
+      "lines": [
+        "Augmente au maximum les PP max",
+        "d'une capacité choisie."
+      ],
+      "widths": [
+        174,
+        125
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_GUARD_SPEC",
+      "display": "Déf. Spéc.",
+      "full_name": "Déf. Spéc.",
+      "description": "Protège l'équipe des baisses de stats pendant cinq tours.",
+      "lines": [
+        "Protège l'équipe des baisses de",
+        "stats pendant cinq tours."
+      ],
+      "widths": [
+        172,
+        136
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_DIRE_HIT",
+      "display": "Muscle +",
+      "full_name": "Muscle +",
+      "description": "Augmente le taux de coups critiques. L'effet cesse au retrait.",
+      "lines": [
+        "Augmente le taux de coups",
+        "critiques. L'effet cesse au retrait."
+      ],
+      "widths": [
+        145,
+        193
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_X_ATTACK",
+      "display": "Attaque +",
+      "full_name": "Attaque +",
+      "description": "Augmente l'Attaque en combat. L'effet cesse au retrait.",
+      "lines": [
+        "Augmente l'Attaque en combat.",
+        "L'effet cesse au retrait."
+      ],
+      "widths": [
+        163,
+        135
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_X_DEFEND",
+      "display": "Défense +",
+      "full_name": "Défense +",
+      "description": "Augmente la Défense en combat. L'effet cesse au retrait.",
+      "lines": [
+        "Augmente la Défense en combat.",
+        "L'effet cesse au retrait."
+      ],
+      "widths": [
+        171,
+        135
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_X_SPEED",
+      "display": "Vitesse +",
+      "full_name": "Vitesse +",
+      "description": "Augmente la Vitesse en combat. L'effet cesse au retrait.",
+      "lines": [
+        "Augmente la Vitesse en combat.",
+        "L'effet cesse au retrait."
+      ],
+      "widths": [
+        169,
+        135
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_X_ACCURACY",
+      "display": "Précision +",
+      "full_name": "Précision +",
+      "description": "Augmente la Précision en combat. L'effet cesse au retrait.",
+      "lines": [
+        "Augmente la Précision en combat.",
+        "L'effet cesse au retrait."
+      ],
+      "widths": [
+        179,
+        135
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_X_SPECIAL",
+      "display": "Atq. Spé. +",
+      "full_name": "Atq. Spé. +",
+      "description": "Augmente l'Atq. Spé. en combat. L'effet cesse au retrait.",
+      "lines": [
+        "Augmente l'Atq. Spé. en combat.",
+        "L'effet cesse au retrait."
+      ],
+      "widths": [
+        174,
+        135
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_POKE_DOLL",
+      "display": "Poké Poupée",
+      "full_name": "Poké Poupée",
+      "description": "Une poupée attirante qui permet de fuir un Yo-kai sauvage.",
+      "lines": [
+        "Une poupée attirante qui permet de",
+        "fuir un Yo-kai sauvage."
+      ],
+      "widths": [
+        192,
+        128
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_FLUFFY_TAIL",
+      "display": "Queue Skitty",
+      "full_name": "Queue Skitty",
+      "description": "Un objet attirant qui permet de fuir un Yo-kai sauvage.",
+      "lines": [
+        "Un objet attirant qui permet de",
+        "fuir un Yo-kai sauvage."
+      ],
+      "widths": [
+        173,
+        128
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SUPER_REPEL",
+      "display": "Super Repous.",
+      "full_name": "Super Repousse",
+      "description": "Repousse les Yo-kai sauvages de faible niveau pendant 200 pas.",
+      "lines": [
+        "Repousse les Yo-kai sauvages de",
+        "faible niveau pendant 200 pas."
+      ],
+      "widths": [
+        177,
+        168
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_MAX_REPEL",
+      "display": "Repousse Max",
+      "full_name": "Repousse Max",
+      "description": "Repousse les Yo-kai sauvages de faible niveau pendant 250 pas.",
+      "lines": [
+        "Repousse les Yo-kai sauvages de",
+        "faible niveau pendant 250 pas."
+      ],
+      "widths": [
+        177,
+        168
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_ESCAPE_ROPE",
+      "display": "Corde Sortie",
+      "full_name": "Corde Sortie",
+      "description": "Une longue corde solide pour sortir d'une grotte ou d'un donjon.",
+      "lines": [
+        "Une longue corde solide pour sortir",
+        "d'une grotte ou d'un donjon."
+      ],
+      "widths": [
+        195,
+        154
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_REPEL",
+      "display": "Repousse",
+      "full_name": "Repousse",
+      "description": "Repousse les Yo-kai sauvages de faible niveau pendant 100 pas.",
+      "lines": [
+        "Repousse les Yo-kai sauvages de",
+        "faible niveau pendant 100 pas."
+      ],
+      "widths": [
+        177,
+        168
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SUN_STONE",
+      "display": "Pierre Soleil",
+      "full_name": "Pierre Soleil",
+      "description": "Une pierre rouge comme le soleil. Fait évoluer certains Yo-kai.",
+      "lines": [
+        "Une pierre rouge comme le soleil.",
+        "Fait évoluer certains Yo-kai."
+      ],
+      "widths": [
+        185,
+        159
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TINY_MUSHROOM",
+      "display": "Petit Champi",
+      "full_name": "Petit Champi",
+      "description": "Un petit champignon rare, apprécié de certains amateurs.",
+      "lines": [
+        "Un petit champignon rare, apprécié",
+        "de certains amateurs."
+      ],
+      "widths": [
+        189,
+        116
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_BIG_MUSHROOM",
+      "display": "Gros Champi",
+      "full_name": "Gros Champi",
+      "description": "Un grand champignon rare, très apprécié de certains amateurs.",
+      "lines": [
+        "Un grand champignon rare, très",
+        "apprécié de certains amateurs."
+      ],
+      "widths": [
+        167,
+        167
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_PEARL",
+      "display": "Perle",
+      "full_name": "Perle",
+      "description": "Une petite perle argentée qui peut être vendue à bas prix.",
+      "lines": [
+        "Une petite perle argentée qui peut",
+        "être vendue à bas prix."
+      ],
+      "widths": [
+        191,
+        130
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_BIG_PEARL",
+      "display": "Grande Perle",
+      "full_name": "Grande Perle",
+      "description": "Une grande perle argentée qui peut être vendue à bon prix.",
+      "lines": [
+        "Une grande perle argentée qui peut",
+        "être vendue à bon prix."
+      ],
+      "widths": [
+        193,
+        130
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_STARDUST",
+      "display": "Pouss. Étoile",
+      "full_name": "Poussière Étoile",
+      "description": "Un joli sable rouge et soyeux qui peut être vendu à bon prix.",
+      "lines": [
+        "Un joli sable rouge et soyeux qui",
+        "peut être vendu à bon prix."
+      ],
+      "widths": [
+        187,
+        153
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_STAR_PIECE",
+      "display": "Morc. Étoile",
+      "full_name": "Morceau d’Étoile",
+      "description": "Un fragment de gemme rouge qui peut être vendu à bon prix.",
+      "lines": [
+        "Un fragment de gemme rouge qui",
+        "peut être vendu à bon prix."
+      ],
+      "widths": [
+        172,
+        153
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_NUGGET",
+      "display": "Pépite",
+      "full_name": "Pépite",
+      "description": "Une pépite d'or pur qui peut être vendue à bon prix.",
+      "lines": [
+        "Une pépite d'or pur qui peut être",
+        "vendue à bon prix."
+      ],
+      "widths": [
+        184,
+        102
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_HEART_SCALE",
+      "display": "Écaille Cœur",
+      "full_name": "Écaille Cœur",
+      "description": "Une rare écaille en forme de cœur, aux reflets arc-en-ciel.",
+      "lines": [
+        "Une rare écaille en forme de cœur,",
+        "aux reflets arc-en-ciel."
+      ],
+      "widths": [
+        194,
+        133
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_ORANGE_MAIL",
+      "display": "Lettre Oranj",
+      "full_name": "Lettre Oranj",
+      "description": "Une Lettre illustrée à confier à un Yo-kai pour transmettre un message.",
+      "lines": [
+        "Une Lettre illustrée à confier à un",
+        "Yo-kai pour transmettre un message."
+      ],
+      "widths": [
+        193,
+        195
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_HARBOR_MAIL",
+      "display": "Lettre Port",
+      "full_name": "Lettre Port",
+      "description": "Une Lettre illustrée à confier à un Yo-kai pour transmettre un message.",
+      "lines": [
+        "Une Lettre illustrée à confier à un",
+        "Yo-kai pour transmettre un message."
+      ],
+      "widths": [
+        193,
+        195
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_GLITTER_MAIL",
+      "display": "Lettre Brill",
+      "full_name": "Lettre Brill",
+      "description": "Une Lettre illustrée à confier à un Yo-kai pour transmettre un message.",
+      "lines": [
+        "Une Lettre illustrée à confier à un",
+        "Yo-kai pour transmettre un message."
+      ],
+      "widths": [
+        193,
+        195
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_MECH_MAIL",
+      "display": "Lettre Méca",
+      "full_name": "Lettre Méca",
+      "description": "Une Lettre illustrée à confier à un Yo-kai pour transmettre un message.",
+      "lines": [
+        "Une Lettre illustrée à confier à un",
+        "Yo-kai pour transmettre un message."
+      ],
+      "widths": [
+        193,
+        195
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_WOOD_MAIL",
+      "display": "Lettre Bois",
+      "full_name": "Lettre Bois",
+      "description": "Une Lettre illustrée à confier à un Yo-kai pour transmettre un message.",
+      "lines": [
+        "Une Lettre illustrée à confier à un",
+        "Yo-kai pour transmettre un message."
+      ],
+      "widths": [
+        193,
+        195
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_WAVE_MAIL",
+      "display": "Lettre Vague",
+      "full_name": "Lettre Vague",
+      "description": "Une Lettre illustrée à confier à un Yo-kai pour transmettre un message.",
+      "lines": [
+        "Une Lettre illustrée à confier à un",
+        "Yo-kai pour transmettre un message."
+      ],
+      "widths": [
+        193,
+        195
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_BEAD_MAIL",
+      "display": "Lettre Bulle",
+      "full_name": "Lettre Bulle",
+      "description": "Une Lettre illustrée à confier à un Yo-kai pour transmettre un message.",
+      "lines": [
+        "Une Lettre illustrée à confier à un",
+        "Yo-kai pour transmettre un message."
+      ],
+      "widths": [
+        193,
+        195
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SHADOW_MAIL",
+      "display": "Lettre Ombre",
+      "full_name": "Lettre Ombre",
+      "description": "Une Lettre illustrée à confier à un Yo-kai pour transmettre un message.",
+      "lines": [
+        "Une Lettre illustrée à confier à un",
+        "Yo-kai pour transmettre un message."
+      ],
+      "widths": [
+        193,
+        195
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TROPIC_MAIL",
+      "display": "Lettre Tropi",
+      "full_name": "Lettre Tropi",
+      "description": "Une Lettre illustrée à confier à un Yo-kai pour transmettre un message.",
+      "lines": [
+        "Une Lettre illustrée à confier à un",
+        "Yo-kai pour transmettre un message."
+      ],
+      "widths": [
+        193,
+        195
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_DREAM_MAIL",
+      "display": "Lettre Songe",
+      "full_name": "Lettre Songe",
+      "description": "Une Lettre illustrée à confier à un Yo-kai pour transmettre un message.",
+      "lines": [
+        "Une Lettre illustrée à confier à un",
+        "Yo-kai pour transmettre un message."
+      ],
+      "widths": [
+        193,
+        195
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_FAB_MAIL",
+      "display": "Lettre Cool",
+      "full_name": "Lettre Cool",
+      "description": "Une Lettre illustrée à confier à un Yo-kai pour transmettre un message.",
+      "lines": [
+        "Une Lettre illustrée à confier à un",
+        "Yo-kai pour transmettre un message."
+      ],
+      "widths": [
+        193,
+        195
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_RETRO_MAIL",
+      "display": "Lettre Retro",
+      "full_name": "Lettre Retro",
+      "description": "Une Lettre illustrée à confier à un Yo-kai pour transmettre un message.",
+      "lines": [
+        "Une Lettre illustrée à confier à un",
+        "Yo-kai pour transmettre un message."
+      ],
+      "widths": [
+        193,
+        195
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_CHERI_BERRY",
+      "display": "Baie Ceriz",
+      "full_name": "Baie Ceriz",
+      "description": "Baie tenue qui soigne la paralysie.",
+      "lines": [
+        "Baie tenue qui soigne la paralysie."
+      ],
+      "widths": [
+        193
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_CHESTO_BERRY",
+      "display": "Baie Maron",
+      "full_name": "Baie Maron",
+      "description": "Baie tenue qui réveille le porteur.",
+      "lines": [
+        "Baie tenue qui réveille le porteur."
+      ],
+      "widths": [
+        194
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_PECHA_BERRY",
+      "display": "Baie Pêcha",
+      "full_name": "Baie Pêcha",
+      "description": "Baie tenue qui soigne le poison.",
+      "lines": [
+        "Baie tenue qui soigne le poison."
+      ],
+      "widths": [
+        176
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_RAWST_BERRY",
+      "display": "Baie Fraive",
+      "full_name": "Baie Fraive",
+      "description": "Baie tenue qui soigne la brûlure.",
+      "lines": [
+        "Baie tenue qui soigne la brûlure."
+      ],
+      "widths": [
+        183
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_ASPEAR_BERRY",
+      "display": "Baie Willia",
+      "full_name": "Baie Willia",
+      "description": "Baie tenue qui dégèle le porteur.",
+      "lines": [
+        "Baie tenue qui dégèle le porteur."
+      ],
+      "widths": [
+        186
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_LEPPA_BERRY",
+      "display": "Baie Mepo",
+      "full_name": "Baie Mepo",
+      "description": "Baie tenue qui restaure 10 PP.",
+      "lines": [
+        "Baie tenue qui restaure 10 PP."
+      ],
+      "widths": [
+        169
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_ORAN_BERRY",
+      "display": "Baie Oran",
+      "full_name": "Baie Oran",
+      "description": "Baie tenue qui rend 10 PV.",
+      "lines": [
+        "Baie tenue qui rend 10 PV."
+      ],
+      "widths": [
+        147
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_PERSIM_BERRY",
+      "display": "Baie Kika",
+      "full_name": "Baie Kika",
+      "description": "Baie tenue qui soigne la confusion.",
+      "lines": [
+        "Baie tenue qui soigne la confusion."
+      ],
+      "widths": [
+        192
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_LUM_BERRY",
+      "display": "Baie Prine",
+      "full_name": "Baie Prine",
+      "description": "Baie tenue qui soigne les problèmes de statut.",
+      "lines": [
+        "Baie tenue qui soigne les problèmes",
+        "de statut."
+      ],
+      "widths": [
+        195,
+        55
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SITRUS_BERRY",
+      "display": "Baie Sitrus",
+      "full_name": "Baie Sitrus",
+      "description": "Baie tenue qui rend 30 PV.",
+      "lines": [
+        "Baie tenue qui rend 30 PV."
+      ],
+      "widths": [
+        147
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_FIGY_BERRY",
+      "display": "Baie Figuy",
+      "full_name": "Baie Figuy",
+      "description": "Baie tenue qui rend des PV mais peut rendre confus selon le goût.",
+      "lines": [
+        "Baie tenue qui rend des PV mais",
+        "peut rendre confus selon le goût."
+      ],
+      "widths": [
+        174,
+        185
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_WIKI_BERRY",
+      "display": "Baie Wiki",
+      "full_name": "Baie Wiki",
+      "description": "Baie tenue qui rend des PV mais peut rendre confus selon le goût.",
+      "lines": [
+        "Baie tenue qui rend des PV mais",
+        "peut rendre confus selon le goût."
+      ],
+      "widths": [
+        174,
+        185
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_MAGO_BERRY",
+      "display": "Baie Mago",
+      "full_name": "Baie Mago",
+      "description": "Baie tenue qui rend des PV mais peut rendre confus selon le goût.",
+      "lines": [
+        "Baie tenue qui rend des PV mais",
+        "peut rendre confus selon le goût."
+      ],
+      "widths": [
+        174,
+        185
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_AGUAV_BERRY",
+      "display": "Baie Gowav",
+      "full_name": "Baie Gowav",
+      "description": "Baie tenue qui rend des PV mais peut rendre confus selon le goût.",
+      "lines": [
+        "Baie tenue qui rend des PV mais",
+        "peut rendre confus selon le goût."
+      ],
+      "widths": [
+        174,
+        185
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_IAPAPA_BERRY",
+      "display": "Baie Papaya",
+      "full_name": "Baie Papaya",
+      "description": "Baie tenue qui rend des PV mais peut rendre confus selon le goût.",
+      "lines": [
+        "Baie tenue qui rend des PV mais",
+        "peut rendre confus selon le goût."
+      ],
+      "widths": [
+        174,
+        185
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_RAZZ_BERRY",
+      "display": "Baie Framby",
+      "full_name": "Baie Framby",
+      "description": "Une Baie à réduire en poudre pour préparer des remèdes.",
+      "lines": [
+        "Une Baie à réduire en poudre pour",
+        "préparer des remèdes."
+      ],
+      "widths": [
+        188,
+        119
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_BLUK_BERRY",
+      "display": "Baie Remu",
+      "full_name": "Baie Remu",
+      "description": "Une Baie à réduire en poudre pour préparer des remèdes.",
+      "lines": [
+        "Une Baie à réduire en poudre pour",
+        "préparer des remèdes."
+      ],
+      "widths": [
+        188,
+        119
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_NANAB_BERRY",
+      "display": "Baie Nanab",
+      "full_name": "Baie Nanab",
+      "description": "Une Baie à réduire en poudre pour préparer des remèdes.",
+      "lines": [
+        "Une Baie à réduire en poudre pour",
+        "préparer des remèdes."
+      ],
+      "widths": [
+        188,
+        119
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_WEPEAR_BERRY",
+      "display": "Baie Repoi",
+      "full_name": "Baie Repoi",
+      "description": "Une Baie à réduire en poudre pour préparer des remèdes.",
+      "lines": [
+        "Une Baie à réduire en poudre pour",
+        "préparer des remèdes."
+      ],
+      "widths": [
+        188,
+        119
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_PINAP_BERRY",
+      "display": "Baie Nanana",
+      "full_name": "Baie Nanana",
+      "description": "Une Baie à réduire en poudre pour préparer des remèdes.",
+      "lines": [
+        "Une Baie à réduire en poudre pour",
+        "préparer des remèdes."
+      ],
+      "widths": [
+        188,
+        119
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_POMEG_BERRY",
+      "display": "Baie Grena",
+      "full_name": "Baie Grena",
+      "description": "Une Baie à réduire en poudre pour préparer des remèdes.",
+      "lines": [
+        "Une Baie à réduire en poudre pour",
+        "préparer des remèdes."
+      ],
+      "widths": [
+        188,
+        119
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_KELPSY_BERRY",
+      "display": "Baie Alga",
+      "full_name": "Baie Alga",
+      "description": "Une Baie à réduire en poudre pour préparer des remèdes.",
+      "lines": [
+        "Une Baie à réduire en poudre pour",
+        "préparer des remèdes."
+      ],
+      "widths": [
+        188,
+        119
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_QUALOT_BERRY",
+      "display": "Baie Qualot",
+      "full_name": "Baie Qualot",
+      "description": "Une Baie à réduire en poudre pour préparer des remèdes.",
+      "lines": [
+        "Une Baie à réduire en poudre pour",
+        "préparer des remèdes."
+      ],
+      "widths": [
+        188,
+        119
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_HONDEW_BERRY",
+      "display": "Baie Lonme",
+      "full_name": "Baie Lonme",
+      "description": "Une Baie à réduire en poudre pour préparer des remèdes.",
+      "lines": [
+        "Une Baie à réduire en poudre pour",
+        "préparer des remèdes."
+      ],
+      "widths": [
+        188,
+        119
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_GREPA_BERRY",
+      "display": "Baie Résin",
+      "full_name": "Baie Résin",
+      "description": "Une Baie à réduire en poudre pour préparer des remèdes.",
+      "lines": [
+        "Une Baie à réduire en poudre pour",
+        "préparer des remèdes."
+      ],
+      "widths": [
+        188,
+        119
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TAMATO_BERRY",
+      "display": "Baie Tamato",
+      "full_name": "Baie Tamato",
+      "description": "Une Baie à réduire en poudre pour préparer des remèdes.",
+      "lines": [
+        "Une Baie à réduire en poudre pour",
+        "préparer des remèdes."
+      ],
+      "widths": [
+        188,
+        119
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_CORNN_BERRY",
+      "display": "Baie Siam",
+      "full_name": "Baie Siam",
+      "description": "Une Baie à réduire en poudre pour préparer des remèdes.",
+      "lines": [
+        "Une Baie à réduire en poudre pour",
+        "préparer des remèdes."
+      ],
+      "widths": [
+        188,
+        119
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_MAGOST_BERRY",
+      "display": "Baie Mangou",
+      "full_name": "Baie Mangou",
+      "description": "Une Baie à réduire en poudre pour préparer des remèdes.",
+      "lines": [
+        "Une Baie à réduire en poudre pour",
+        "préparer des remèdes."
+      ],
+      "widths": [
+        188,
+        119
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_RABUTA_BERRY",
+      "display": "Baie Rabuta",
+      "full_name": "Baie Rabuta",
+      "description": "Une Baie à réduire en poudre pour préparer des remèdes.",
+      "lines": [
+        "Une Baie à réduire en poudre pour",
+        "préparer des remèdes."
+      ],
+      "widths": [
+        188,
+        119
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_NOMEL_BERRY",
+      "display": "Baie Tronci",
+      "full_name": "Baie Tronci",
+      "description": "Une Baie à réduire en poudre pour préparer des remèdes.",
+      "lines": [
+        "Une Baie à réduire en poudre pour",
+        "préparer des remèdes."
+      ],
+      "widths": [
+        188,
+        119
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SPELON_BERRY",
+      "display": "Baie Kiwan",
+      "full_name": "Baie Kiwan",
+      "description": "Une Baie à réduire en poudre pour préparer des remèdes.",
+      "lines": [
+        "Une Baie à réduire en poudre pour",
+        "préparer des remèdes."
+      ],
+      "widths": [
+        188,
+        119
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_PAMTRE_BERRY",
+      "display": "Baie Palma",
+      "full_name": "Baie Palma",
+      "description": "Une Baie à réduire en poudre pour préparer des remèdes.",
+      "lines": [
+        "Une Baie à réduire en poudre pour",
+        "préparer des remèdes."
+      ],
+      "widths": [
+        188,
+        119
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_WATMEL_BERRY",
+      "display": "Baie Stekpa",
+      "full_name": "Baie Stekpa",
+      "description": "Une Baie à réduire en poudre pour préparer des remèdes.",
+      "lines": [
+        "Une Baie à réduire en poudre pour",
+        "préparer des remèdes."
+      ],
+      "widths": [
+        188,
+        119
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_DURIN_BERRY",
+      "display": "Baie Durin",
+      "full_name": "Baie Durin",
+      "description": "Une Baie à réduire en poudre pour préparer des remèdes.",
+      "lines": [
+        "Une Baie à réduire en poudre pour",
+        "préparer des remèdes."
+      ],
+      "widths": [
+        188,
+        119
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_BELUE_BERRY",
+      "display": "Baie Myrte",
+      "full_name": "Baie Myrte",
+      "description": "Une Baie à réduire en poudre pour préparer des remèdes.",
+      "lines": [
+        "Une Baie à réduire en poudre pour",
+        "préparer des remèdes."
+      ],
+      "widths": [
+        188,
+        119
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_LIECHI_BERRY",
+      "display": "Baie Lichii",
+      "full_name": "Baie Lichii",
+      "description": "Baie tenue qui augmente l’Attaque en cas de besoin.",
+      "lines": [
+        "Baie tenue qui augmente l’Attaque",
+        "en cas de besoin."
+      ],
+      "widths": [
+        184,
+        95
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_GANLON_BERRY",
+      "display": "Baie Lingan",
+      "full_name": "Baie Lingan",
+      "description": "Baie tenue qui augmente la Défense en cas de besoin.",
+      "lines": [
+        "Baie tenue qui augmente la Défense",
+        "en cas de besoin."
+      ],
+      "widths": [
+        192,
+        95
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SALAC_BERRY",
+      "display": "Baie Sailak",
+      "full_name": "Baie Sailak",
+      "description": "Baie tenue qui augmente la Vitesse en cas de besoin.",
+      "lines": [
+        "Baie tenue qui augmente la Vitesse",
+        "en cas de besoin."
+      ],
+      "widths": [
+        190,
+        95
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_PETAYA_BERRY",
+      "display": "Baie Pitaye",
+      "full_name": "Baie Pitaye",
+      "description": "Baie tenue qui augmente l’Atq. Spé. en cas de besoin.",
+      "lines": [
+        "Baie tenue qui augmente l’Atq. Spé.",
+        "en cas de besoin."
+      ],
+      "widths": [
+        195,
+        95
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_APICOT_BERRY",
+      "display": "Baie Abriko",
+      "full_name": "Baie Abriko",
+      "description": "Baie tenue qui augmente la Déf. Spé. en cas de besoin.",
+      "lines": [
+        "Baie tenue qui augmente la Déf.",
+        "Spé. en cas de besoin."
+      ],
+      "widths": [
+        175,
+        124
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_LANSAT_BERRY",
+      "display": "Baie Lansat",
+      "full_name": "Baie Lansat",
+      "description": "Baie tenue qui augmente les coups critiques en cas de besoin.",
+      "lines": [
+        "Baie tenue qui augmente les coups",
+        "critiques en cas de besoin."
+      ],
+      "widths": [
+        187,
+        148
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_STARF_BERRY",
+      "display": "Baie Frista",
+      "full_name": "Baie Frista",
+      "description": "Baie tenue qui augmente fortement une stat en cas de besoin.",
+      "lines": [
+        "Baie tenue qui augmente fortement",
+        "une stat en cas de besoin."
+      ],
+      "widths": [
+        185,
+        145
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_ENIGMA_BERRY",
+      "display": "Baie Enigma",
+      "full_name": "Baie Enigma",
+      "description": "Une Baie à réduire en poudre pour préparer des remèdes.",
+      "lines": [
+        "Une Baie à réduire en poudre pour",
+        "préparer des remèdes."
+      ],
+      "widths": [
+        188,
+        119
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_BRIGHT_POWDER",
+      "display": "Poudre Claire",
+      "full_name": "Poudre Claire",
+      "description": "Objet tenu. Une poudre éblouissante qui baisse la Précision adverse.",
+      "lines": [
+        "Objet tenu. Une poudre",
+        "éblouissante qui baisse la Précision",
+        "adverse."
+      ],
+      "widths": [
+        126,
+        195,
+        45
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_WHITE_HERB",
+      "display": "Herbe Blanche",
+      "full_name": "Herbe Blanche",
+      "description": "Objet tenu. Annule les baisses de stats. Ne sert qu'une fois.",
+      "lines": [
+        "Objet tenu. Annule les baisses de",
+        "stats. Ne sert qu'une fois."
+      ],
+      "widths": [
+        184,
+        145
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_MACHO_BRACE",
+      "display": "Brac. Macho.",
+      "full_name": "Bracelet Macho",
+      "description": "Objet tenu. Favorise la progression mais réduit la Vitesse.",
+      "lines": [
+        "Objet tenu. Favorise la progression",
+        "mais réduit la Vitesse."
+      ],
+      "widths": [
+        194,
+        124
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_EXP_SHARE",
+      "display": "Multi Exp",
+      "full_name": "Multi Exp",
+      "description": "Le partage d'Exp. est permanent pour toute l'équipe, même sans cet objet.",
+      "lines": [
+        "Le partage d'Exp. est permanent",
+        "pour toute l'équipe, même sans cet",
+        "objet."
+      ],
+      "widths": [
+        174,
+        190,
+        34
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_QUICK_CLAW",
+      "display": "Vive Griffe",
+      "full_name": "Vive Griffe",
+      "description": "Objet tenu. Une griffe légère qui permet parfois de frapper en premier.",
+      "lines": [
+        "Objet tenu. Une griffe légère qui",
+        "permet parfois de frapper en",
+        "premier."
+      ],
+      "widths": [
+        184,
+        157,
+        43
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SOOTHE_BELL",
+      "display": "Grelot Zen",
+      "full_name": "Grelot Zen",
+      "description": "Objet tenu. Un grelot au son apaisant qui favorise l'amitié.",
+      "lines": [
+        "Objet tenu. Un grelot au son",
+        "apaisant qui favorise l'amitié."
+      ],
+      "widths": [
+        158,
+        164
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_MENTAL_HERB",
+      "display": "Herbe Mental",
+      "full_name": "Herbe Mental",
+      "description": "Objet tenu. Dissipe l'attirance. Ne peut servir qu'une fois.",
+      "lines": [
+        "Objet tenu. Dissipe l'attirance. Ne",
+        "peut servir qu'une fois."
+      ],
+      "widths": [
+        189,
+        129
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_CHOICE_BAND",
+      "display": "Bandeau Choix",
+      "full_name": "Bandeau Choix",
+      "description": "Objet tenu. Renforce l'Attaque mais bloque le choix sur une capacité.",
+      "lines": [
+        "Objet tenu. Renforce l'Attaque mais",
+        "bloque le choix sur une capacité."
+      ],
+      "widths": [
+        194,
+        187
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_KINGS_ROCK",
+      "display": "Roche Royale",
+      "full_name": "Roche Royale",
+      "description": "Objet tenu. Peut effrayer l'adversaire quand il subit une attaque.",
+      "lines": [
+        "Objet tenu. Peut effrayer",
+        "l'adversaire quand il subit une",
+        "attaque."
+      ],
+      "widths": [
+        141,
+        168,
+        45
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SILVER_POWDER",
+      "display": "Pdr. Argentée",
+      "full_name": "Poudre Argentée",
+      "description": "Objet tenu. Renforce la puissance des capacités de type Insecte.",
+      "lines": [
+        "Objet tenu. Renforce la puissance",
+        "des capacités de type Insecte."
+      ],
+      "widths": [
+        185,
+        170
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_AMULET_COIN",
+      "display": "Pièce Rune",
+      "full_name": "Pièce Rune",
+      "description": "Objet tenu. Double les gains si le porteur participe au combat.",
+      "lines": [
+        "Objet tenu. Double les gains si le",
+        "porteur participe au combat."
+      ],
+      "widths": [
+        189,
+        157
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_CLEANSE_TAG",
+      "display": "Rune Purif.",
+      "full_name": "Rune Purifiante",
+      "description": "Objet tenu. Repousse les Yo-kai sauvages si le porteur mène l'équipe.",
+      "lines": [
+        "Objet tenu. Repousse les Yo-kai",
+        "sauvages si le porteur mène",
+        "l'équipe."
+      ],
+      "widths": [
+        175,
+        152,
+        47
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SOUL_DEW",
+      "display": "Rosée Âme",
+      "full_name": "Rosée Âme",
+      "description": "Orbe réservé à Latios et Latias. Renforce leurs Atq. Spé. et Déf. Spé.",
+      "lines": [
+        "Orbe réservé à Latios et Latias.",
+        "Renforce leurs Atq. Spé. et Déf.",
+        "Spé."
+      ],
+      "widths": [
+        178,
+        180,
+        23
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_DEEP_SEA_TOOTH",
+      "display": "Dent Océan",
+      "full_name": "Dent Océan",
+      "description": "Une dent argentée qui augmente l'Atq. Spé. de certaines espèces.",
+      "lines": [
+        "Une dent argentée qui augmente",
+        "l'Atq. Spé. de certaines espèces."
+      ],
+      "widths": [
+        170,
+        182
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_DEEP_SEA_SCALE",
+      "display": "Écaille Océan",
+      "full_name": "Écaille Océan",
+      "description": "Une écaille rose qui augmente la Déf. Spé. de certaines espèces.",
+      "lines": [
+        "Une écaille rose qui augmente la",
+        "Déf. Spé. de certaines espèces."
+      ],
+      "widths": [
+        180,
+        174
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SMOKE_BALL",
+      "display": "Boule Fumée",
+      "full_name": "Boule Fumée",
+      "description": "Objet tenu. Permet de fuir à coup sûr les Yo-kai sauvages.",
+      "lines": [
+        "Objet tenu. Permet de fuir à coup",
+        "sûr les Yo-kai sauvages."
+      ],
+      "widths": [
+        188,
+        134
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_EVERSTONE",
+      "display": "Pierre Stase",
+      "full_name": "Pierre Stase",
+      "description": "Objet tenu. Une pierre mystérieuse qui empêche l'évolution.",
+      "lines": [
+        "Objet tenu. Une pierre mystérieuse",
+        "qui empêche l'évolution."
+      ],
+      "widths": [
+        189,
+        132
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_FOCUS_BAND",
+      "display": "Bandeau",
+      "full_name": "Bandeau",
+      "description": "Objet tenu. Peut permettre de résister à une attaque avec 1 PV.",
+      "lines": [
+        "Objet tenu. Peut permettre de",
+        "résister à une attaque avec 1 PV."
+      ],
+      "widths": [
+        165,
+        187
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SCOPE_LENS",
+      "display": "Lentilscope",
+      "full_name": "Lentilscope",
+      "description": "Objet tenu. Une lentille qui augmente le taux de coups critiques.",
+      "lines": [
+        "Objet tenu. Une lentille qui",
+        "augmente le taux de coups",
+        "critiques."
+      ],
+      "widths": [
+        154,
+        145,
+        52
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_METAL_COAT",
+      "display": "Peau Métal",
+      "full_name": "Peau Métal",
+      "description": "Objet tenu. Renforce la puissance des capacités de type Acier.",
+      "lines": [
+        "Objet tenu. Renforce la puissance",
+        "des capacités de type Acier."
+      ],
+      "widths": [
+        185,
+        158
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_LEFTOVERS",
+      "display": "Restes",
+      "full_name": "Restes",
+      "description": "Objet tenu. Rend progressivement des PV au porteur en combat.",
+      "lines": [
+        "Objet tenu. Rend progressivement",
+        "des PV au porteur en combat."
+      ],
+      "widths": [
+        179,
+        161
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_DRAGON_SCALE",
+      "display": "Écaille Draco",
+      "full_name": "Écaille Draco",
+      "description": "Une écaille dure et épaisse, parfois tenue par les Yo-kai Dragon.",
+      "lines": [
+        "Une écaille dure et épaisse,",
+        "parfois tenue par les Yo-kai",
+        "Dragon."
+      ],
+      "widths": [
+        156,
+        155,
+        39
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_LIGHT_BALL",
+      "display": "Balle Lumière",
+      "full_name": "Balle Lumière",
+      "description": "Objet tenu par Passpa. Augmente son Atq. Spé. Peut donner une décharge.",
+      "lines": [
+        "Objet tenu par Passpa. Augmente",
+        "son Atq. Spé. Peut donner une",
+        "décharge."
+      ],
+      "widths": [
+        177,
+        164,
+        52
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SOFT_SAND",
+      "display": "Sable Doux",
+      "full_name": "Sable Doux",
+      "description": "Objet tenu. Renforce la puissance des capacités de type Sol.",
+      "lines": [
+        "Objet tenu. Renforce la puissance",
+        "des capacités de type Sol."
+      ],
+      "widths": [
+        185,
+        148
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_HARD_STONE",
+      "display": "Pierre Dure",
+      "full_name": "Pierre Dure",
+      "description": "Objet tenu. Renforce la puissance des capacités de type Roche.",
+      "lines": [
+        "Objet tenu. Renforce la puissance",
+        "des capacités de type Roche."
+      ],
+      "widths": [
+        185,
+        161
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_MIRACLE_SEED",
+      "display": "Gr. Miracle.",
+      "full_name": "Graine Miracle",
+      "description": "Objet tenu. Renforce la puissance des capacités de type Plante.",
+      "lines": [
+        "Objet tenu. Renforce la puissance",
+        "des capacités de type Plante."
+      ],
+      "widths": [
+        185,
+        164
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_BLACK_GLASSES",
+      "display": "Lunet. Noir.",
+      "full_name": "Lunettes Noires",
+      "description": "Objet tenu. Renforce la puissance des capacités de type Ténèbres.",
+      "lines": [
+        "Objet tenu. Renforce la puissance",
+        "des capacités de type Ténèbres."
+      ],
+      "widths": [
+        185,
+        176
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_BLACK_BELT",
+      "display": "Ceint. Noire.",
+      "full_name": "Ceinture Noire",
+      "description": "Objet tenu. Renforce la puissance des capacités de type Combat.",
+      "lines": [
+        "Objet tenu. Renforce la puissance",
+        "des capacités de type Combat."
+      ],
+      "widths": [
+        185,
+        166
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_MAGNET",
+      "display": "Aimant",
+      "full_name": "Aimant",
+      "description": "Objet tenu. Renforce la puissance des capacités de type Électrik.",
+      "lines": [
+        "Objet tenu. Renforce la puissance",
+        "des capacités de type Électrik."
+      ],
+      "widths": [
+        185,
+        173
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_MYSTIC_WATER",
+      "display": "Eau Mystique",
+      "full_name": "Eau Mystique",
+      "description": "Objet tenu. Renforce la puissance des capacités de type Eau.",
+      "lines": [
+        "Objet tenu. Renforce la puissance",
+        "des capacités de type Eau."
+      ],
+      "widths": [
+        185,
+        149
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SHARP_BEAK",
+      "display": "Bec Pointu",
+      "full_name": "Bec Pointu",
+      "description": "Objet tenu. Renforce la puissance des capacités de type Vol.",
+      "lines": [
+        "Objet tenu. Renforce la puissance",
+        "des capacités de type Vol."
+      ],
+      "widths": [
+        185,
+        148
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_POISON_BARB",
+      "display": "Pic Venin",
+      "full_name": "Pic Venin",
+      "description": "Objet tenu. Renforce la puissance des capacités de type Poison.",
+      "lines": [
+        "Objet tenu. Renforce la puissance",
+        "des capacités de type Poison."
+      ],
+      "widths": [
+        185,
+        163
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_NEVER_MELT_ICE",
+      "display": "Glace Étern.",
+      "full_name": "Glace Éternelle",
+      "description": "Objet tenu. Renforce la puissance des capacités de type Glace.",
+      "lines": [
+        "Objet tenu. Renforce la puissance",
+        "des capacités de type Glace."
+      ],
+      "widths": [
+        185,
+        160
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SPELL_TAG",
+      "display": "Rune Sort",
+      "full_name": "Rune Sort",
+      "description": "Objet tenu. Renforce la puissance des capacités de type Spectre.",
+      "lines": [
+        "Objet tenu. Renforce la puissance",
+        "des capacités de type Spectre."
+      ],
+      "widths": [
+        185,
+        171
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TWISTED_SPOON",
+      "display": "Cuill. Tordu.",
+      "full_name": "Cuillère Tordue",
+      "description": "Objet tenu. Renforce la puissance des capacités de type Psy.",
+      "lines": [
+        "Objet tenu. Renforce la puissance",
+        "des capacités de type Psy."
+      ],
+      "widths": [
+        185,
+        148
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_CHARCOAL",
+      "display": "Charbon",
+      "full_name": "Charbon",
+      "description": "Objet tenu. Renforce la puissance des capacités de type Feu.",
+      "lines": [
+        "Objet tenu. Renforce la puissance",
+        "des capacités de type Feu."
+      ],
+      "widths": [
+        185,
+        149
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_DRAGON_FANG",
+      "display": "Croc Dragon",
+      "full_name": "Croc Dragon",
+      "description": "Objet tenu. Renforce la puissance des capacités de type Dragon.",
+      "lines": [
+        "Objet tenu. Renforce la puissance",
+        "des capacités de type Dragon."
+      ],
+      "widths": [
+        185,
+        165
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SILK_SCARF",
+      "display": "Mouchoir Soie",
+      "full_name": "Mouchoir Soie",
+      "description": "Objet tenu. Renforce la puissance des capacités de type Normal.",
+      "lines": [
+        "Objet tenu. Renforce la puissance",
+        "des capacités de type Normal."
+      ],
+      "widths": [
+        185,
+        165
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_UP_GRADE",
+      "display": "Améliorator",
+      "full_name": "Améliorator",
+      "description": "Un appareil transparent rempli de données, fabriqué par la Sylphe SARL.",
+      "lines": [
+        "Un appareil transparent rempli de",
+        "données, fabriqué par la Sylphe",
+        "SARL."
+      ],
+      "widths": [
+        182,
+        175,
+        29
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SHELL_BELL",
+      "display": "Grelot Coque",
+      "full_name": "Grelot Coque",
+      "description": "Objet tenu. Rend des PV au porteur quand il inflige des dégâts.",
+      "lines": [
+        "Objet tenu. Rend des PV au porteur",
+        "quand il inflige des dégâts."
+      ],
+      "widths": [
+        195,
+        153
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SEA_INCENSE",
+      "display": "Encens Mer",
+      "full_name": "Encens Mer",
+      "description": "Objet tenu. Renforce un peu les capacités de type Eau.",
+      "lines": [
+        "Objet tenu. Renforce un peu les",
+        "capacités de type Eau."
+      ],
+      "widths": [
+        176,
+        126
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_LAX_INCENSE",
+      "display": "Encens Doux",
+      "full_name": "Encens Doux",
+      "description": "Objet tenu. Son parfum réduit légèrement la Précision adverse.",
+      "lines": [
+        "Objet tenu. Son parfum réduit",
+        "légèrement la Précision adverse."
+      ],
+      "widths": [
+        163,
+        177
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_LUCKY_PUNCH",
+      "display": "Poing Chance",
+      "full_name": "Poing Chance",
+      "description": "Objet tenu par Sal de bain. Augmente son taux de coups critiques.",
+      "lines": [
+        "Objet tenu par Sal de bain.",
+        "Augmente son taux de coups",
+        "critiques."
+      ],
+      "widths": [
+        153,
+        150,
+        52
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_METAL_POWDER",
+      "display": "Poudre Métal",
+      "full_name": "Poudre Métal",
+      "description": "Objet tenu par Racaïd. Augmente sa Défense.",
+      "lines": [
+        "Objet tenu par Racaïd. Augmente sa",
+        "Défense."
+      ],
+      "widths": [
+        196,
+        44
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_THICK_CLUB",
+      "display": "Masse Os",
+      "full_name": "Masse Os",
+      "description": "Objet tenu par Castelius I ou Max. Augmente leur Attaque.",
+      "lines": [
+        "Objet tenu par Castelius I ou Max.",
+        "Augmente leur Attaque."
+      ],
+      "widths": [
+        193,
+        125
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_STICK",
+      "display": "Bâton",
+      "full_name": "Bâton",
+      "description": "Objet tenu par Nénunoko. Augmente son taux de coups critiques.",
+      "lines": [
+        "Objet tenu par Nénunoko. Augmente",
+        "son taux de coups critiques."
+      ],
+      "widths": [
+        188,
+        156
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_RED_SCARF",
+      "display": "Foulard Rouge",
+      "full_name": "Foulard Rouge",
+      "description": "Objet tenu. Augmente le Sang-froid dans les Concours.",
+      "lines": [
+        "Objet tenu. Augmente le Sang-froid",
+        "dans les Concours."
+      ],
+      "widths": [
+        192,
+        100
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_BLUE_SCARF",
+      "display": "Foulard Bleu",
+      "full_name": "Foulard Bleu",
+      "description": "Objet tenu. Augmente la Beauté dans les Concours.",
+      "lines": [
+        "Objet tenu. Augmente la Beauté",
+        "dans les Concours."
+      ],
+      "widths": [
+        172,
+        100
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_PINK_SCARF",
+      "display": "Foulard Rose",
+      "full_name": "Foulard Rose",
+      "description": "Objet tenu. Augmente la Grâce dans les Concours.",
+      "lines": [
+        "Objet tenu. Augmente la Grâce dans",
+        "les Concours."
+      ],
+      "widths": [
+        194,
+        72
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_GREEN_SCARF",
+      "display": "Foulard Vert",
+      "full_name": "Foulard Vert",
+      "description": "Objet tenu. Augmente l'Intelligence dans les Concours.",
+      "lines": [
+        "Objet tenu. Augmente l'Intelligence",
+        "dans les Concours."
+      ],
+      "widths": [
+        193,
+        100
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_YELLOW_SCARF",
+      "display": "Foulard Jaune",
+      "full_name": "Foulard Jaune",
+      "description": "Objet tenu. Augmente la Robustesse dans les Concours.",
+      "lines": [
+        "Objet tenu. Augmente la Robustesse",
+        "dans les Concours."
+      ],
+      "widths": [
+        193,
+        100
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_MACH_BIKE",
+      "display": "Vélo Course.",
+      "full_name": "Vélo de Course",
+      "description": "Un vélo pliable qui va au moins deux fois plus vite que la marche.",
+      "lines": [
+        "Un vélo pliable qui va au moins",
+        "deux fois plus vite que la marche."
+      ],
+      "widths": [
+        174,
+        192
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_COIN_CASE",
+      "display": "Boîte Jetons",
+      "full_name": "Boîte Jetons",
+      "description": "Une boîte pour ranger les Jetons du Casino. Capacité: 9 999 Jetons.",
+      "lines": [
+        "Une boîte pour ranger les Jetons",
+        "du Casino. Capacité: 9 999 Jetons."
+      ],
+      "widths": [
+        181,
+        191
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_ITEMFINDER",
+      "display": "Cherch’Objet",
+      "full_name": "Cherch’Objet",
+      "description": "Un appareil qui émet un signal quand un objet est caché à proximité.",
+      "lines": [
+        "Un appareil qui émet un signal",
+        "quand un objet est caché à",
+        "proximité."
+      ],
+      "widths": [
+        166,
+        151,
+        53
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_OLD_ROD",
+      "display": "Canne",
+      "full_name": "Canne",
+      "description": "Une vieille canne pour pêcher des Yo-kai sauvages au bord de l'eau.",
+      "lines": [
+        "Une vieille canne pour pêcher des",
+        "Yo-kai sauvages au bord de l'eau."
+      ],
+      "widths": [
+        186,
+        187
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_GOOD_ROD",
+      "display": "Super Canne",
+      "full_name": "Super Canne",
+      "description": "Une bonne canne toute neuve pour pêcher des Yo-kai sauvages.",
+      "lines": [
+        "Une bonne canne toute neuve pour",
+        "pêcher des Yo-kai sauvages."
+      ],
+      "widths": [
+        183,
+        154
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SUPER_ROD",
+      "display": "Méga Canne",
+      "full_name": "Méga Canne",
+      "description": "Une canne ultramoderne pour pêcher des Yo-kai sauvages.",
+      "lines": [
+        "Une canne ultramoderne pour pêcher",
+        "des Yo-kai sauvages."
+      ],
+      "widths": [
+        194,
+        113
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SS_TICKET",
+      "display": "Passe Bateau",
+      "full_name": "Passe Bateau",
+      "description": "Le ticket nécessaire pour embarquer à bord du S.S. ANNE.",
+      "lines": [
+        "Le ticket nécessaire pour embarquer",
+        "à bord du S.S. ANNE."
+      ],
+      "widths": [
+        196,
+        116
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_CONTEST_PASS",
+      "display": "Passe Conc.",
+      "full_name": "Passe Concours",
+      "description": "Le passe requis pour participer aux Concours de Yo-kai.",
+      "lines": [
+        "Le passe requis pour participer aux",
+        "Concours de Yo-kai."
+      ],
+      "widths": [
+        196,
+        107
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_WAILMER_PAIL",
+      "display": "Wailmerrosoir",
+      "full_name": "Wailmerrosoir",
+      "description": "Un arrosoir pratique pour faire pousser les Baies plantées.",
+      "lines": [
+        "Un arrosoir pratique pour faire",
+        "pousser les Baies plantées."
+      ],
+      "widths": [
+        170,
+        149
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_DEVON_GOODS",
+      "display": "Pack Devon",
+      "full_name": "Pack Devon",
+      "description": "Un colis de pièces mécaniques fabriquées par la société Devon.",
+      "lines": [
+        "Un colis de pièces mécaniques",
+        "fabriquées par la société Devon."
+      ],
+      "widths": [
+        162,
+        179
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SOOT_SACK",
+      "display": "Sac à Suie",
+      "full_name": "Sac à Suie",
+      "description": "Un sac qui recueille la cendre volcanique pendant la marche.",
+      "lines": [
+        "Un sac qui recueille la cendre",
+        "volcanique pendant la marche."
+      ],
+      "widths": [
+        168,
+        164
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_BASEMENT_KEY",
+      "display": "Clé Sous-Sol",
+      "full_name": "Clé Sous-Sol",
+      "description": "La clé de NEW MAUVILLE, construit sous MAUVILLE CITY.",
+      "lines": [
+        "La clé de NEW MAUVILLE, construit",
+        "sous MAUVILLE CITY."
+      ],
+      "widths": [
+        189,
+        111
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_ACRO_BIKE",
+      "display": "Vélo Cross",
+      "full_name": "Vélo Cross",
+      "description": "Un vélo pliable pour réaliser des sauts et des roues arrière.",
+      "lines": [
+        "Un vélo pliable pour réaliser des",
+        "sauts et des roues arrière."
+      ],
+      "widths": [
+        184,
+        149
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_POKEBLOCK_CASE",
+      "display": "Boîte Pokéb.",
+      "full_name": "Boîte Pokébloc",
+      "description": "Boîte à {POKEBLOCK}S. La secouer libère un {POKEBLOCK}.",
+      "lines": [
+        "Boîte à {POKEBLOCK}S. La secouer libère",
+        "un {POKEBLOCK}."
+      ],
+      "widths": [
+        190,
+        52
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_LETTER",
+      "display": "Lettre Pierr.",
+      "full_name": "Lettre à Pierre",
+      "description": "Une lettre importante du président de Devon, destinée à Pierre.",
+      "lines": [
+        "Une lettre importante du président",
+        "de Devon, destinée à Pierre."
+      ],
+      "widths": [
+        187,
+        156
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_EON_TICKET",
+      "display": "Passe Éon",
+      "full_name": "Passe Éon",
+      "description": "Un ticket pour rejoindre en bateau une île lointaine au sud.",
+      "lines": [
+        "Un ticket pour rejoindre en bateau",
+        "une île lointaine au sud."
+      ],
+      "widths": [
+        190,
+        138
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_RED_ORB",
+      "display": "Gemme Rouge",
+      "full_name": "Gemme Rouge",
+      "description": "Un orbe rouge qui renfermerait un pouvoir venu des temps anciens.",
+      "lines": [
+        "Un orbe rouge qui renfermerait un",
+        "pouvoir venu des temps anciens."
+      ],
+      "widths": [
+        184,
+        173
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_BLUE_ORB",
+      "display": "Gemme Bleue",
+      "full_name": "Gemme Bleue",
+      "description": "Un orbe bleu qui renfermerait un pouvoir venu des temps anciens.",
+      "lines": [
+        "Un orbe bleu qui renfermerait un",
+        "pouvoir venu des temps anciens."
+      ],
+      "widths": [
+        178,
+        173
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SCANNER",
+      "display": "Scanner",
+      "full_name": "Scanner",
+      "description": "Un appareil complexe pour rechercher des formes de vie dans l'eau.",
+      "lines": [
+        "Un appareil complexe pour",
+        "rechercher des formes de vie dans",
+        "l'eau."
+      ],
+      "widths": [
+        143,
+        187,
+        31
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_GO_GOGGLES",
+      "display": "Lunet. Sable.",
+      "full_name": "Lunettes Sable",
+      "description": "Des lunettes qui protègent les yeux des tempêtes de sable du désert.",
+      "lines": [
+        "Des lunettes qui protègent les yeux",
+        "des tempêtes de sable du désert."
+      ],
+      "widths": [
+        196,
+        182
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_METEORITE",
+      "display": "Météorite",
+      "full_name": "Météorite",
+      "description": "Une météorite dure et bosselée, tombée jadis sur MT. MOON.",
+      "lines": [
+        "Une météorite dure et bosselée,",
+        "tombée jadis sur MT. MOON."
+      ],
+      "widths": [
+        174,
+        148
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_ROOM_1_KEY",
+      "display": "Clé Salle 1",
+      "full_name": "Clé Salle 1",
+      "description": "Une vieille clé fragile ouvrant la cabine 1 de l'épave.",
+      "lines": [
+        "Une vieille clé fragile ouvrant la",
+        "cabine 1 de l'épave."
+      ],
+      "widths": [
+        187,
+        112
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_ROOM_2_KEY",
+      "display": "Clé Salle 2",
+      "full_name": "Clé Salle 2",
+      "description": "Une vieille clé fragile ouvrant la cabine 2 de l'épave.",
+      "lines": [
+        "Une vieille clé fragile ouvrant la",
+        "cabine 2 de l'épave."
+      ],
+      "widths": [
+        187,
+        112
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_ROOM_4_KEY",
+      "display": "Clé Salle 4",
+      "full_name": "Clé Salle 4",
+      "description": "Une vieille clé fragile ouvrant la cabine 4 de l'épave.",
+      "lines": [
+        "Une vieille clé fragile ouvrant la",
+        "cabine 4 de l'épave."
+      ],
+      "widths": [
+        187,
+        112
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_ROOM_6_KEY",
+      "display": "Clé Salle 6",
+      "full_name": "Clé Salle 6",
+      "description": "Une vieille clé fragile ouvrant la cabine 6 de l'épave.",
+      "lines": [
+        "Une vieille clé fragile ouvrant la",
+        "cabine 6 de l'épave."
+      ],
+      "widths": [
+        187,
+        112
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_STORAGE_KEY",
+      "display": "Clé Stockage",
+      "full_name": "Clé Stockage",
+      "description": "Une vieille clé fragile ouvrant la réserve de l'épave.",
+      "lines": [
+        "Une vieille clé fragile ouvrant la",
+        "réserve de l'épave."
+      ],
+      "widths": [
+        187,
+        106
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_ROOT_FOSSIL",
+      "display": "Foss. Racine.",
+      "full_name": "Fossile Racine",
+      "description": "Le fossile d'un ancien Yo-kai marin. Il ressemble à une racine.",
+      "lines": [
+        "Le fossile d'un ancien Yo-kai marin.",
+        "Il ressemble à une racine."
+      ],
+      "widths": [
+        194,
+        145
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_CLAW_FOSSIL",
+      "display": "Foss. Griffe.",
+      "full_name": "Fossile Griffe",
+      "description": "Le fossile d'un ancien Yo-kai marin. Il ressemble à une griffe.",
+      "lines": [
+        "Le fossile d'un ancien Yo-kai marin.",
+        "Il ressemble à une griffe."
+      ],
+      "widths": [
+        194,
+        144
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_DEVON_SCOPE",
+      "display": "Devon Scope",
+      "full_name": "Devon Scope",
+      "description": "Un appareil de Devon qui révèle les Yo-kai invisibles.",
+      "lines": [
+        "Un appareil de Devon qui révèle",
+        "les Yo-kai invisibles."
+      ],
+      "widths": [
+        176,
+        116
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM01",
+      "display": "CT01",
+      "full_name": "CT01",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM02",
+      "display": "CT02",
+      "full_name": "CT02",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM03",
+      "display": "CT03",
+      "full_name": "CT03",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM04",
+      "display": "CT04",
+      "full_name": "CT04",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM05",
+      "display": "CT05",
+      "full_name": "CT05",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM06",
+      "display": "CT06",
+      "full_name": "CT06",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM07",
+      "display": "CT07",
+      "full_name": "CT07",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM08",
+      "display": "CT08",
+      "full_name": "CT08",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM09",
+      "display": "CT09",
+      "full_name": "CT09",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM10",
+      "display": "CT10",
+      "full_name": "CT10",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM11",
+      "display": "CT11",
+      "full_name": "CT11",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM12",
+      "display": "CT12",
+      "full_name": "CT12",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM13",
+      "display": "CT13",
+      "full_name": "CT13",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM14",
+      "display": "CT14",
+      "full_name": "CT14",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM15",
+      "display": "CT15",
+      "full_name": "CT15",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM16",
+      "display": "CT16",
+      "full_name": "CT16",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM17",
+      "display": "CT17",
+      "full_name": "CT17",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM18",
+      "display": "CT18",
+      "full_name": "CT18",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM19",
+      "display": "CT19",
+      "full_name": "CT19",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM20",
+      "display": "CT20",
+      "full_name": "CT20",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM21",
+      "display": "CT21",
+      "full_name": "CT21",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM22",
+      "display": "CT22",
+      "full_name": "CT22",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM23",
+      "display": "CT23",
+      "full_name": "CT23",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM24",
+      "display": "CT24",
+      "full_name": "CT24",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM25",
+      "display": "CT25",
+      "full_name": "CT25",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM26",
+      "display": "CT26",
+      "full_name": "CT26",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM27",
+      "display": "CT27",
+      "full_name": "CT27",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM28",
+      "display": "CT28",
+      "full_name": "CT28",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM29",
+      "display": "CT29",
+      "full_name": "CT29",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM30",
+      "display": "CT30",
+      "full_name": "CT30",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM31",
+      "display": "CT31",
+      "full_name": "CT31",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM32",
+      "display": "CT32",
+      "full_name": "CT32",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM33",
+      "display": "CT33",
+      "full_name": "CT33",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM34",
+      "display": "CT34",
+      "full_name": "CT34",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM35",
+      "display": "CT35",
+      "full_name": "CT35",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM36",
+      "display": "CT36",
+      "full_name": "CT36",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM37",
+      "display": "CT37",
+      "full_name": "CT37",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM38",
+      "display": "CT38",
+      "full_name": "CT38",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM39",
+      "display": "CT39",
+      "full_name": "CT39",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM40",
+      "display": "CT40",
+      "full_name": "CT40",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM41",
+      "display": "CT41",
+      "full_name": "CT41",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM42",
+      "display": "CT42",
+      "full_name": "CT42",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM43",
+      "display": "CT43",
+      "full_name": "CT43",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM44",
+      "display": "CT44",
+      "full_name": "CT44",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM45",
+      "display": "CT45",
+      "full_name": "CT45",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM46",
+      "display": "CT46",
+      "full_name": "CT46",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM47",
+      "display": "CT47",
+      "full_name": "CT47",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM48",
+      "display": "CT48",
+      "full_name": "CT48",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM49",
+      "display": "CT49",
+      "full_name": "CT49",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM50",
+      "display": "CT50",
+      "full_name": "CT50",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_HM01",
+      "display": "CS01",
+      "full_name": "CS01",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_HM02",
+      "display": "CS02",
+      "full_name": "CS02",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_HM03",
+      "display": "CS03",
+      "full_name": "CS03",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_HM04",
+      "display": "CS04",
+      "full_name": "CS04",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_HM05",
+      "display": "CS05",
+      "full_name": "CS05",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_HM06",
+      "display": "CS06",
+      "full_name": "CS06",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_HM07",
+      "display": "CS07",
+      "full_name": "CS07",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_HM08",
+      "display": "CS08",
+      "full_name": "CS08",
+      "description": "Permet d’apprendre une capacité à un Yo-kai compatible.",
+      "lines": [
+        "Permet d’apprendre une capacité à",
+        "un Yo-kai compatible."
+      ],
+      "widths": [
+        186,
+        117
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_OAKS_PARCEL",
+      "display": "Colis Chen",
+      "full_name": "Colis Chen",
+      "description": "Un colis de la Boutique Yo-kai de VIRIDIAN CITY pour le Professeur Chen.",
+      "lines": [
+        "Un colis de la Boutique Yo-kai de",
+        "VIRIDIAN CITY pour le Professeur",
+        "Chen."
+      ],
+      "widths": [
+        186,
+        185,
+        28
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_POKE_FLUTE",
+      "display": "Poké Flûte",
+      "full_name": "Poké Flûte",
+      "description": "Une flûte au joli son qui réveille les Yo-kai endormis.",
+      "lines": [
+        "Une flûte au joli son qui réveille",
+        "les Yo-kai endormis."
+      ],
+      "widths": [
+        188,
+        109
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SECRET_KEY",
+      "display": "Clé Secrète",
+      "full_name": "Clé Secrète",
+      "description": "La clé rouge et décorée ouvrant l'Arène de CINNABAR ISLAND.",
+      "lines": [
+        "La clé rouge et décorée ouvrant",
+        "l'Arène de CINNABAR ISLAND."
+      ],
+      "widths": [
+        179,
+        155
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_BIKE_VOUCHER",
+      "display": "Bon Commande",
+      "full_name": "Bon Commande",
+      "description": "À échanger contre une Bicyclette au magasin de CERULEAN CITY.",
+      "lines": [
+        "À échanger contre une Bicyclette",
+        "au magasin de CERULEAN CITY."
+      ],
+      "widths": [
+        181,
+        163
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_GOLD_TEETH",
+      "display": "Dentier en Or",
+      "full_name": "Dentier en Or",
+      "description": "Le dentier perdu par le Gardien du Parc Safari. Il brille joliment.",
+      "lines": [
+        "Le dentier perdu par le Gardien du",
+        "Parc Safari. Il brille joliment."
+      ],
+      "widths": [
+        192,
+        174
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_CARD_KEY",
+      "display": "Carte Magnét.",
+      "full_name": "Carte Magnétique",
+      "description": "Une carte permettant d'ouvrir les portes du siège de la Sylphe SARL.",
+      "lines": [
+        "Une carte permettant d'ouvrir les",
+        "portes du siège de la Sylphe SARL."
+      ],
+      "widths": [
+        181,
+        195
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_LIFT_KEY",
+      "display": "Clé Ascenseur",
+      "full_name": "Clé Ascenseur",
+      "description": "Une clé qui active l'ascenseur du repaire de la Team Rocket.",
+      "lines": [
+        "Une clé qui active l'ascenseur du",
+        "repaire de la Team Rocket."
+      ],
+      "widths": [
+        183,
+        148
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SILPH_SCOPE",
+      "display": "Scope Sylphe",
+      "full_name": "Scope Sylphe",
+      "description": "Un appareil de la Sylphe SARL qui révèle les Yo-kai invisibles.",
+      "lines": [
+        "Un appareil de la Sylphe SARL qui",
+        "révèle les Yo-kai invisibles."
+      ],
+      "widths": [
+        189,
+        156
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_BICYCLE",
+      "display": "Bicyclette",
+      "full_name": "Bicyclette",
+      "description": "Un vélo pliable plus rapide que les Chaussures de Sport.",
+      "lines": [
+        "Un vélo pliable plus rapide que",
+        "les Chaussures de Sport."
+      ],
+      "widths": [
+        175,
+        135
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TOWN_MAP",
+      "display": "Carte",
+      "full_name": "Carte",
+      "description": "Une carte consultable à tout moment qui indique ta position.",
+      "lines": [
+        "Une carte consultable à tout",
+        "moment qui indique ta position."
+      ],
+      "widths": [
+        158,
+        168
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_VS_SEEKER",
+      "display": "Cherch’Combat",
+      "full_name": "Cherch’Combat",
+      "description": "Repère les Dresseurs prêts à combattre. Se recharge en marchant.",
+      "lines": [
+        "Repère les Dresseurs prêts à",
+        "combattre. Se recharge en",
+        "marchant."
+      ],
+      "widths": [
+        157,
+        143,
+        50
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_FAME_CHECKER",
+      "display": "Memorydex",
+      "full_name": "Memorydex",
+      "description": "Un appareil pour revoir les informations sur les personnes célèbres.",
+      "lines": [
+        "Un appareil pour revoir les",
+        "informations sur les personnes",
+        "célèbres."
+      ],
+      "widths": [
+        150,
+        161,
+        50
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TM_CASE",
+      "display": "Boîte CT",
+      "full_name": "Boîte CT",
+      "description": "Une boîte pour ranger les CT et les CS, dans la poche des objets rares.",
+      "lines": [
+        "Une boîte pour ranger les CT et",
+        "les CS, dans la poche des objets",
+        "rares."
+      ],
+      "widths": [
+        177,
+        183,
+        32
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_BERRY_POUCH",
+      "display": "Sac à Baies",
+      "full_name": "Sac à Baies",
+      "description": "Un sac pour les Baies, rangé dans la poche des objets rares.",
+      "lines": [
+        "Un sac pour les Baies, rangé dans",
+        "la poche des objets rares."
+      ],
+      "widths": [
+        185,
+        148
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TEACHY_TV",
+      "display": "TV ABC",
+      "full_name": "TV ABC",
+      "description": "Une télévision diffusant des conseils pour les Dresseurs débutants.",
+      "lines": [
+        "Une télévision diffusant des",
+        "conseils pour les Dresseurs",
+        "débutants."
+      ],
+      "widths": [
+        151,
+        148,
+        55
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TRI_PASS",
+      "display": "Tri-Passe",
+      "full_name": "Tri-Passe",
+      "description": "Un passe pour naviguer entre ONE, TWO et THREE ISLAND.",
+      "lines": [
+        "Un passe pour naviguer entre ONE,",
+        "TWO et THREE ISLAND."
+      ],
+      "widths": [
+        186,
+        118
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_RAINBOW_PASS",
+      "display": "Passe Prisme",
+      "full_name": "Passe Prisme",
+      "description": "Un passe pour naviguer entre VERMILION et les SEVII ISLANDS.",
+      "lines": [
+        "Un passe pour naviguer entre",
+        "VERMILION et les SEVII ISLANDS."
+      ],
+      "widths": [
+        157,
+        182
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_TEA",
+      "display": "Thé",
+      "full_name": "Thé",
+      "description": "Un thé parfumé préparé par une dame. Étanche les grandes soifs.",
+      "lines": [
+        "Un thé parfumé préparé par une",
+        "dame. Étanche les grandes soifs."
+      ],
+      "widths": [
+        172,
+        178
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_MYSTIC_TICKET",
+      "display": "Ticketmystik",
+      "full_name": "Ticketmystik",
+      "description": "Le ticket pour embarquer vers NAVEL ROCK. Il luit mystérieusement.",
+      "lines": [
+        "Le ticket pour embarquer vers",
+        "NAVEL ROCK. Il luit",
+        "mystérieusement."
+      ],
+      "widths": [
+        164,
+        108,
+        87
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_AURORA_TICKET",
+      "display": "Ticketaurora",
+      "full_name": "Ticketaurora",
+      "description": "Le ticket pour embarquer vers BIRTH ISLAND. Il brille joliment.",
+      "lines": [
+        "Le ticket pour embarquer vers",
+        "BIRTH ISLAND. Il brille joliment."
+      ],
+      "widths": [
+        164,
+        185
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_POWDER_JAR",
+      "display": "Pot Poudre",
+      "full_name": "Pot Poudre",
+      "description": "Un pot pour conserver la Poudre de Baie obtenue au Broyeur de Baies.",
+      "lines": [
+        "Un pot pour conserver la Poudre de",
+        "Baie obtenue au Broyeur de Baies."
+      ],
+      "widths": [
+        195,
+        188
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_RUBY",
+      "display": "Rubis",
+      "full_name": "Rubis",
+      "description": "Une superbe gemme rouge qui symbolise la passion.",
+      "lines": [
+        "Une superbe gemme rouge qui",
+        "symbolise la passion."
+      ],
+      "widths": [
+        156,
+        114
+      ],
+      "gameplay_unchanged": true
+    },
+    {
+      "item": "ITEM_SAPPHIRE",
+      "display": "Saphir",
+      "full_name": "Saphir",
+      "description": "Une superbe gemme bleue qui symbolise la sincérité.",
+      "lines": [
+        "Une superbe gemme bleue qui",
+        "symbolise la sincérité."
+      ],
+      "widths": [
+        156,
+        123
+      ],
+      "gameplay_unchanged": true
+    }
+  ]
+}

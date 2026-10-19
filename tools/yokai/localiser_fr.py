@@ -28,7 +28,7 @@ def main():
     for table in a.tables:
         for line in table.read_text().splitlines():
             if not line or line.startswith('#'):continue
-            source,symbol,translation=line.split('\t',2);path=ROOT/source
+            source,symbol,translation=line.split('\t',2);translation=translation.replace(r'\s',' ');path=ROOT/source
             if replace(path,symbol,translation):count+=1;files.add(source)
     print(json.dumps({'changed_texts':count,'files':len(files)}))
 if __name__=='__main__':main()

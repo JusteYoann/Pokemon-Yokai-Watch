@@ -1,67 +1,36 @@
 PalletTown_Text_OakDontGoOut::
-    .string "OAK: Hey! Wait!\n"
-    .string "Don't go out!$"
+    .string "CHEN: Hé! Attends!\nNe pars pas!$"
 
 PalletTown_Text_OakGrassUnsafeNeedMon::
-    .string "OAK: It's unsafe!\n"
-    .string "Wild Yo-kai live in tall grass!\p"
-    .string "You need your own Yo-kai for\n"
-    .string "your protection.\p"
-    .string "I know!\n"
-    .string "Here, come with me!$"
+    .string "CHEN: C'est dangereux!\nLes hautes herbes abritent des\lYo-kai!\pIl te faut ton propre Yo-kai\npour te protéger.\pJ'ai une idée!\nViens avec moi!$"
 
 PalletTown_Text_RaisingMonsToo::
-    .string "I'm raising Yo-kai, too.\p"
-    .string "When they get strong, they can\n"
-    .string "protect me.$"
+    .string "Moi aussi, j'élève des Yo-kai.\pQuand ils seront forts,\nils pourront me protéger.$"
 
 PalletTown_Text_CanStoreItemsAndMonsInPC::
-    .string "Technology is incredible!\p"
-    .string "You can now store and recall items\n"
-    .string "and Yo-kai as data via PC.$"
+    .string "La technologie, c'est formidable!\pOn peut maintenant stocker\ndes objets et des Yo-kai dans un PC.$"
 
 PalletTown_Text_OakPokemonResearchLab::
-    .string "OAK Yo-kai RESEARCH LAB$"
+    .string "LABORATOIRE YO-KAI DU PROF. CHEN$"
 
 PalletTown_Text_PlayersHouse::
-    .string "{PLAYER}'s house$"
+    .string "Maison de {PLAYER}$"
 
 PalletTown_Text_RivalsHouse::
-    .string "{RIVAL}'s house$"
+    .string "Maison de {RIVAL}$"
 
 PalletTown_Text_TownSign::
-    .string "PALLET TOWN\n"
-    .string "Shades of your journey await!$"
+    .string "PALLET TOWN\nLes couleurs de ton voyage\lt'attendent!$"
 
 PalletTown_Text_OakLetMeSeePokedex::
-    .string "OAK: Ah, {PLAYER}!\n"
-    .string "You're back, are you?\p"
-    .string "How much have you filled in your\n"
-    .string "Médallium?\p"
-    .string "May I see it?\p"
-    .string "Let's see…$"
+    .string "CHEN: Ah, {PLAYER}!\nTe voilà de retour!\pComment avance\nton Médallium?\pPuis-je le voir?\pVoyons…$"
 
 PalletTown_Text_CaughtXPuttingInHonestEffort::
-    .string "You've caught {STR_VAR_2}…\p"
-    .string "Hm, it looks as if you're putting\n"
-    .string "in an honest effort.\p"
-    .string "When you manage to fill it some\n"
-    .string "more, come show me, please.$"
+    .string "Tu en as capturé {STR_VAR_2}…\pHmm, tu fais vraiment\nde beaux efforts.\pQuand tu l'auras encore enrichi,\nreviens me le montrer.$"
 
 PalletTown_Text_CaughtXImpressiveFollowMe::
-    .string "You've caught… {STR_VAR_2}!?\n"
-    .string "Now, this is impressive!\p"
-    .string "There's something I wanted to ask\n"
-    .string "of you, {PLAYER}.\p"
-    .string "Come.\n"
-    .string "Follow me.$"
+    .string "Tu en as capturé… {STR_VAR_2}!?\nC'est impressionnant!\pJe voulais justement\nte demander quelque chose, {PLAYER}.\pViens.\nSuis-moi.$"
 
 PalletTown_Text_OakYouEnjoyingTraveling::
-    .string "OAK: Ah, {PLAYER}!\n"
-    .string "You seem to be enjoying traveling.\p"
-    .string "Knowing you, {PLAYER}, I can easily\n"
-    .string "imagine you going out to even more\l"
-    .string "exotic locales.\p"
-    .string "Good for you, good for you.\n"
-    .string "Hohoho.$"
+    .string "CHEN: Ah, {PLAYER}!\nTu as l'air d'aimer les voyages.\pTe connaissant, {PLAYER},\nje t'imagine déjà explorer\ldes contrées encore plus lointaines.\pC'est bien, c'est très bien.\nHohoho!$"
 

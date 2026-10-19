@@ -1,0 +1,19 @@
+{
+  "max_normal_font_pixels": 208,
+  "dynamic_names": "Player7; mon10+enemy prefix; item14; move12; ability13; generic variables14 wide W glyphs",
+  "scope": "Translated standard battle dialogue and selected ASM dialogue only; fixed menu layouts excluded",
+  "changed": [
+    {
+      "file": "data/maps/ViridianCity/text.inc",
+      "symbol": "ViridianCity_Text_TooBusyForTeachyTV",
+      "before": "Hmm… Tu n'as même pas\\nle temps de regarder la TV ABC…\\pLe temps, c'est de l'argent.\\nMieux vaut ne gaspiller ni l'un ni l'autre.$",
+      "after": "Hmm… Tu n'as même pas\\nle temps de regarder la TV ABC…\\pLe temps, c'est de l'argent.\\nMieux vaut ne gaspiller ni l'un ni\\ll'autre.$"
+    },
+    {
+      "file": "data/maps/ViridianForest/text.inc",
+      "symbol": "ViridianForest_Text_FriendsItchingToBattle",
+      "before": "Je suis venu avec des amis\\npour capturer des Yo-kai de la forêt!\\pIls ont tous hâte\\nde se lancer dans des combats!$",
+      "after": "Je suis venu avec des amis\\npour capturer des Yo-kai de la\\lforêt!\\pIls ont tous hâte\\nde se lancer dans des combats!$"
+    }
+  ]
+}

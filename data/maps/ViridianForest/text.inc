@@ -1,105 +1,69 @@
 ViridianForest_Text_FriendsItchingToBattle::
-    .string "I came here with some friends to\n"
-    .string "catch us some BUG Yo-kai!\p"
-    .string "They're all itching to get into\n"
-    .string "some Yo-kai battles!$"
+    .string "Je suis venu avec des amis\npour capturer des Yo-kai de la\lforêt!\pIls ont tous hâte\nde se lancer dans des combats!$"
 
 ViridianForest_Text_RickIntro::
-    .string "Hey! You have Yo-kai!\n"
-    .string "Come on!\l"
-    .string "Let's battle 'em!$"
+    .string "Hé! Tu as des Yo-kai!\nAllez!\lAffrontons-nous!$"
 
 ViridianForest_Text_RickDefeat::
-    .string "No!\nCATERPIE can't hack it!$"
+    .string "Non!\nMon Cigalopin n'a pas fait le poids!$"
 
 ViridianForest_Text_RickPostBattle::
-    .string "Ssh! You'll scare the bugs away.\n"
-    .string "Another time, okay?$"
+    .string "Chut! Tu vas faire fuir les insectes.\nUne autre fois, d'accord?$"
 
 ViridianForest_Text_DougIntro::
-    .string "Yo!\n"
-    .string "You can't jam out if you're a\l"
-    .string "Dresseur de Yo-kai!$"
+    .string "Hé!\nUn Dresseur de Yo-kai\lne se défile pas!$"
 
 ViridianForest_Text_DougDefeat::
-    .string "Huh?\n"
-    .string "I ran out of Yo-kai!$"
+    .string "Hein?\nJe n'ai plus de Yo-kai!$"
 
 ViridianForest_Text_DougPostBattle::
-    .string "That totally stinks! I'm going to\n"
-    .string "catch some stronger ones!$"
+    .string "Quelle poisse! Je vais\nen capturer de plus forts!$"
 
 ViridianForest_Text_SammyIntro::
-    .string "Hey, wait up!\n"
-    .string "What's the hurry? Why the rush?$"
+    .string "Hé, attends!\nPourquoi cette précipitation?$"
 
 ViridianForest_Text_SammyDefeat::
-    .string "I give!\n"
-    .string "You're good at this!$"
+    .string "J'abandonne!\nTu te débrouilles bien!$"
 
 ViridianForest_Text_SammyPostBattle::
-    .string "Sometimes, you can find stuff on\n"
-    .string "the ground.\p"
-    .string "I'm looking for the stuff I\n"
-    .string "dropped. Can you help me?$"
+    .string "On trouve parfois\ndes objets au sol.\pJe cherche ce que j'ai perdu.\nTu peux m'aider?$"
 
 ViridianForest_Text_AnthonyIntro::
-    .string "I might be little, but I won't like\n"
-    .string "it if you go easy on me!$"
+    .string "Je suis peut-être petit,\nmais ne me fais pas de cadeau!$"
 
 ViridianForest_Text_AnthonyDefeat::
-    .string "Oh, boo.\n"
-    .string "Nothing went right.$"
+    .string "Oh non…\nRien n'a marché.$"
 
 ViridianForest_Text_AnthonyPostBattle::
-    .string "I lost some of my allowance…$"
+    .string "J'ai perdu un peu\nde mon argent de poche…$"
 
 ViridianForest_Text_CharlieIntro::
-    .string "Did you know that Yo-kai evolve?$"
+    .string "Tu savais que les Yo-kai évoluent?$"
 
 ViridianForest_Text_CharlieDefeat::
-    .string "Oh!\n"
-    .string "I lost!$"
+    .string "Oh!\nJ'ai perdu!$"
 
 ViridianForest_Text_CharliePostBattle::
-    .string "BUG Yo-kai evolve quickly.\n"
-    .string "They're a lot of fun!$"
+    .string "J'adore voir mes Yo-kai\névoluer et devenir plus forts!$"
 
 ViridianForest_Text_RanOutOfPokeBalls::
-    .string "I was throwing Yo-kai Balls to\n"
-    .string "catch Yo-kai, and I ran out.\p"
-    .string "That's why you can never have too\n"
-    .string "many Yo-kai Balls.$"
+    .string "J'ai lancé toutes mes Yo-kai Balls\npour capturer des Yo-kai.\pIl vaut mieux toujours\nen avoir un bon stock!$"
 
 ViridianForest_Text_AvoidGrassyAreasWhenWeak::
-    .string "TRAINER TIPS\p"
-    .string "If your Yo-kai are weak and you\n"
-    .string "want to avoid battles, stay away\l"
-    .string "from grassy areas!$"
+    .string "ASTUCE DRESSEUR\pSi tes Yo-kai sont affaiblis,\névite les hautes herbes\lpour ne pas combattre!$"
 
 ViridianForest_Text_UseAntidoteForPoison::
-    .string "For poison, use ANTIDOTE!\n"
-    .string "Get it at Yo-kai MARTS!$"
+    .string "Contre le poison, un Antidote!\nEn vente à la Boutique Yo-kai!$"
 
 ViridianForest_Text_ContactOakViaPCToRatePokedex::
-    .string "TRAINER TIPS\p"
-    .string "Contact PROF. OAK via a PC to\n"
-    .string "get your Médallium evaluated!$"
+    .string "ASTUCE DRESSEUR\pContacte le Professeur Chen\ndepuis un PC pour faire\lévaluer ton Médallium!$"
 
 ViridianForest_Text_CantCatchOwnedMons::
-    .string "TRAINER TIPS\p"
-    .string "You can't catch a Yo-kai that\n"
-    .string "belongs to someone else.\p"
-    .string "Throw Yo-kai Balls only at wild\n"
-    .string "Yo-kai to catch them!$"
+    .string "ASTUCE DRESSEUR\pTu ne peux pas capturer\nle Yo-kai de quelqu'un d'autre.\pRéserve tes Yo-kai Balls\naux Yo-kai sauvages!$"
 
 ViridianForest_Text_WeakenMonsBeforeCapture::
-    .string "TRAINER TIPS\p"
-    .string "Weaken Yo-kai before attempting\n"
-    .string "capture!\p"
-    .string "When healthy, they may escape!$"
+    .string "ASTUCE DRESSEUR\pAffaiblis les Yo-kai\navant de tenter une capture!\pEn pleine forme,\nils peuvent s'échapper!$"
 
 ViridianForest_Text_LeavingViridianForest::
-    .string "LEAVING VIRIDIAN FOREST\n"
-    .string "PEWTER CITY AHEAD$"
+    .string "SORTIE DE VIRIDIAN FOREST\nDIRECTION PEWTER CITY$"
 

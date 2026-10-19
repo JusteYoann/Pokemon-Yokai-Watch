@@ -1,0 +1,190 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "516376f4d9cd2b5711e6e97df47ab8865f030c2a451e25e0e11f00410cff3808",
+  "scope": "Real new-game, party/enemy fixtures and native wild battle;26 linked French strings expanded and rendered with actual battle state plus declared text buffers. Not26 triggered combat outcomes or all moves/items.",
+  "results": [
+    {
+      "symbol": "sText_AttackerUsedX",
+      "expanded_bytes": 24,
+      "native_max_line_pixels": 85,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_AttackMissed",
+      "expanded_bytes": 30,
+      "native_max_line_pixels": 92,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_AvoidedDamage",
+      "expanded_bytes": 43,
+      "native_max_line_pixels": 139,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_PkmnProtectedItself",
+      "expanded_bytes": 21,
+      "native_max_line_pixels": 63,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_PkmnWasPoisoned",
+      "expanded_bytes": 25,
+      "native_max_line_pixels": 83,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_PkmnHurtByPoison",
+      "expanded_bytes": 28,
+      "native_max_line_pixels": 100,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_PkmnWasParalyzed",
+      "expanded_bytes": 53,
+      "native_max_line_pixels": 164,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_PkmnIsParalyzed",
+      "expanded_bytes": 48,
+      "native_max_line_pixels": 137,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_PkmnIsConfused",
+      "expanded_bytes": 21,
+      "native_max_line_pixels": 61,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_PkmnHealedConfusion",
+      "expanded_bytes": 28,
+      "native_max_line_pixels": 97,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_PkmnRegainedHealth",
+      "expanded_bytes": 26,
+      "native_max_line_pixels": 93,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_PkmnHPFull",
+      "expanded_bytes": 36,
+      "native_max_line_pixels": 141,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_CriticalHit",
+      "expanded_bytes": 15,
+      "native_max_line_pixels": 78,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_SuperEffective",
+      "expanded_bytes": 22,
+      "native_max_line_pixels": 115,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_NotVeryEffective",
+      "expanded_bytes": 28,
+      "native_max_line_pixels": 148,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_TrainerBlockedBall",
+      "expanded_bytes": 28,
+      "native_max_line_pixels": 154,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_PkmnBrokeFree",
+      "expanded_bytes": 32,
+      "native_max_line_pixels": 125,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_GiveNicknameCaptured",
+      "expanded_bytes": 26,
+      "native_max_line_pixels": 89,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_PkmnPreventsUsage",
+      "expanded_bytes": 55,
+      "native_max_line_pixels": 105,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_PkmnsXPreventsFlinching",
+      "expanded_bytes": 37,
+      "native_max_line_pixels": 144,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_NoPPLeft",
+      "expanded_bytes": 32,
+      "native_max_line_pixels": 84,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_PkmnFellAsleep",
+      "expanded_bytes": 19,
+      "native_max_line_pixels": 47,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_PkmnWokeUp",
+      "expanded_bytes": 22,
+      "native_max_line_pixels": 116,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "sText_ItDoesntAffect",
+      "expanded_bytes": 29,
+      "native_max_line_pixels": 99,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "gText_ForPetesSake",
+      "expanded_bytes": 175,
+      "native_max_line_pixels": 161,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    },
+    {
+      "symbol": "gText_HowDissapointing",
+      "expanded_bytes": 225,
+      "native_max_line_pixels": 160,
+      "rendered_in_native_battle_window": true,
+      "buffer_limit_passed": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "a01a0f2e3c82e953aab8ea763ce8aa53ba36d494d1aebe377b30afd81abfddb7",
+  "scope": "New-game then laboratory/scene fixtures; original three ball scripts to preview and confirmation text; no party acceptance or rival battle claimed.",
+  "results": [
+    {
+      "name": "Komasan",
+      "species_id": 5,
+      "original_ball_event": true,
+      "choice_confirmed": false,
+      "captured": true
+    },
+    {
+      "name": "Padrezo",
+      "species_id": 29,
+      "original_ball_event": true,
+      "choice_confirmed": false,
+      "captured": true
+    },
+    {
+      "name": "Kappacap",
+      "species_id": 87,
+      "original_ball_event": true,
+      "choice_confirmed": false,
+      "captured": true
+    }
+  ]
+}

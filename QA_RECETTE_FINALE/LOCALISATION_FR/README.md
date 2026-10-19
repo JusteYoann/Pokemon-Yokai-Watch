@@ -25,4 +25,19 @@ Les captures ont été ouvertes et examinées. Une compilation et ces contrôles
 
 [État courant](COUVERTURE.json) et [inventaire des chaînes](INVENTAIRE.csv) servent au suivi. La détection de langue est une heuristique : une chaîne non signalée n'est pas automatiquement française. Les objets générés depuis JSON et les textes inscrits dans des graphismes nécessitent une vérification distincte.
 
-**La traduction complète n'est pas encore terminée.** Restent notamment les dialogues de cartes, les aides et tutoriels, les messages de la Salle Union, le journal de reprise, les descriptions/noms d'objets encore anglais et les mots Easy Chat accessibles. Les textes Yo-kai déjà en français doivent rester cohérents avec les scènes programmées. Les tests de parcours et le contrôle des fenêtres étroites se poursuivent avec les lots suivants.
+**La traduction complète n'est pas encore terminée.** Restent notamment la majorité des dialogues de cartes, les aides et tutoriels, les messages de la Salle Union, les notices du Médallium et les mots Easy Chat accessibles. Les textes Yo-kai déjà en français doivent rester cohérents avec les scènes programmées. Les tests de parcours et le contrôle des fenêtres étroites se poursuivent avec les lots suivants.
+
+## Lot 2 — objets et début de l’aventure
+
+298 fiches d’objets traduites (noms et descriptions), neuf fiches personnalisées préservées exactement. Les descriptions respectent les effets de la génération III, notamment Baie Sitrus (30 PV) et Balle Lumière (Attaque Spéciale de Passpa). Les noms occupent au maximum 13 caractères plus la terminaison dans le champ natif de 14 octets ; les abréviations sont explicites et terminées par un point. Les noms complets restent dans les données de localisation. Les noms canoniques sont issus de la liste publique PokéAPI, relus pour Rouge Feu ; les descriptions sont rédigées pour ce moteur, sans importer les effets de générations plus récentes. [Licence](../../../data/localisation/fr/POKEAPI_LICENSE.md).
+
+Les 25 natures, 86 lignes de descriptions de Baies héritées et les modèles du journal de reprise sont traduits. Les paramètres des Baies et le fonctionnement du journal sont inchangés. Les dialogues des cinq cartes de Pallet Town et des sept cartes de Viridian City/Forest sont traduits. Les textes de Chen proposent bien Komasan (Feu), Padrezo (Électrik) et Kappacap (Eau), conformément aux trois scripts existants. Le discours sur le Médallium reste limité à 151 espèces. Les conseils sur les types ne décrivent plus les anciens Pokémon lorsque leurs remplaçants ont un autre type.
+
+Vérifications supplémentaires :
+
+- [298 noms et descriptions d’objets liés, 15 panneaux natifs du Sac dans mGBA](objets/TEST_MGBA.json), [captures](objets/PLANCHE.png). Les panneaux sont des fixtures de rendu : ils ne déplacent pas réellement des objets clés dans la mauvaise poche.
+- [Les trois scripts de proposition des starters](starters/TEST_MGBA.json), leurs espèces réellement préparées et leurs textes de choix dans mGBA ; [captures](starters/PLANCHE.png). Le test ne prétend pas avoir terminé les trois combats du rival.
+- [26 messages de combat](combats/TEST_MGBA.json) développés avec leurs variables, contrôlés dans le tampon natif de 300 octets et rendus par la fenêtre de combat ; [captures](combats/PLANCHE.png). Il s’agit de fixtures de messages, pas de 26 effets de combat déclenchés. Un long message pédagogique français a été raccourci pour rester dans ce tampon.
+- Compilation privée réussie, toujours 31 272 243 octets. [Préservation des sources, effets d’objets, scripts, graphismes et audio](PRESERVATION_LOT2.json). Les rapports d’émulation portent l’empreinte du jalon précis testé ; tous n’ont pas été générés après la dernière modification textuelle.
+
+Le journal de reprise et les dialogues de Viridian restent à parcourir en situation réelle. Le chantier intégral se poursuit ; ces vérifications ciblées ne valident pas toute l’aventure.

@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "baseline_commit": "3eebe0014",
+  "only_textual_source_changes": true,
+  "custom_item_entries_preserved": [
+    "ITEM_MOON_STONE",
+    "ITEM_FIRE_STONE",
+    "ITEM_WATER_STONE",
+    "ITEM_THUNDER_STONE",
+    "ITEM_LEAF_STONE",
+    "ITEM_LUCKY_EGG",
+    "ITEM_HELIX_FOSSIL",
+    "ITEM_DOME_FOSSIL",
+    "ITEM_OLD_AMBER"
+  ],
+  "all_numeric_item_effect_and_script_fields_identical": true,
+  "gameplay_and_audio_unchanged": true,
+  "files": [
+    "data/maps/PalletTown/text.inc",
+    "data/maps/PalletTown_PlayersHouse_1F/text.inc",
+    "data/maps/PalletTown_PlayersHouse_2F/text.inc",
+    "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+    "data/maps/PalletTown_RivalsHouse/text.inc",
+    "data/maps/ViridianCity/text.inc",
+    "data/maps/ViridianCity_Gym/text.inc",
+    "data/maps/ViridianCity_House/text.inc",
+    "data/maps/ViridianCity_Mart/text.inc",
+    "data/maps/ViridianCity_PokemonCenter_1F/text.inc",
+    "data/maps/ViridianCity_School/text.inc",
+    "data/maps/ViridianForest/text.inc",
+    "src/battle_message.c",
+    "src/berry.c",
+    "src/data/items.json",
+    "src/data/text/nature_names.h",
+    "src/data/text/quest_log.h",
+    "src/strings.c"
+  ],
+  "rom_bytes": 31272243,
+  "rom_sha256": "516376f4d9cd2b5711e6e97df47ab8865f030c2a451e25e0e11f00410cff3808"
+}

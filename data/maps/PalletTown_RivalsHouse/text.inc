@@ -1,65 +1,42 @@
 PalletTown_RivalsHouse_Text_HiBrothersAtLab::
-    .string "DAISY: Hi, {PLAYER}!\p"
-    .string "My brother, {RIVAL}, is out at\n"
-    .string "Grandpa's LAB.$"
+    .string "NINA: Salut, {PLAYER}!\pMon frère, {RIVAL},\nest au laboratoire de Papi.$"
 
 PalletTown_RivalsHouse_Text_HeardYouBattledRival::
-    .string "DAISY: {PLAYER}, I heard you had\n"
-    .string "a battle against {RIVAL}.\p"
-    .string "I wish I'd seen that!$"
+    .string "NINA: {PLAYER}, on m'a dit que\ntu avais affronté {RIVAL}.\pJ'aurais aimé voir ça!$"
 
 PalletTown_RivalsHouse_Text_ErrandForGrandpaThisWillHelp::
-    .string "Grandpa asked you to run an\n"
-    .string "errand?\p"
-    .string "Gee, that's lazy of him.\n"
-    .string "Here, this will help you.$"
+    .string "Papi t'a demandé\nde faire une course?\pIl exagère un peu!\nTiens, ceci t'aidera.$"
 
 PalletTown_RivalsHouse_Text_ReceivedTownMapFromDaisy::
     .string "{PLAYER} received a TOWN MAP\n"
     .string "from DAISY.$"
 
 PalletTown_RivalsHouse_Text_DontHaveSpaceForThis::
-    .string "You don't have space for this in\n"
-    .string "your BAG.$"
+    .string "Tu n'as pas assez\nde place dans ton Sac.$"
 
 PalletTown_RivalsHouse_Text_ExplainTownMap::
-    .string "You can use the TOWN MAP to find\n"
-    .string "out where you are, or check the\l"
-    .string "names of places.$"
+    .string "La Carte indique ta position\net te permet de consulter\lle nom des différents lieux.$"
 
 PalletTown_RivalsHouse_Text_PleaseGiveMonsRest::
-    .string "DAISY: Just like people, Yo-kai\n"
-    .string "are living things.\p"
-    .string "When they get tired, please give\n"
-    .string "them a rest.$"
+    .string "NINA: Les Yo-kai sont vivants,\ntout comme nous.\pQuand ils sont fatigués,\nlaisse-les se reposer.$"
 
 PalletTown_RivalsHouse_Text_ItsBigMapOfKanto::
-    .string "It's a big map of the KANTO region.\n"
-    .string "Now this would be useful!$"
+    .string "Une grande carte de Kanto.\nVoilà qui serait bien pratique!$"
 
 PalletTown_RivalsHouse_Text_ShelvesCrammedFullOfBooks::
-    .string "The shelves are crammed full of\n"
-    .string "books on Yo-kai.$"
+    .string "Les étagères débordent\nde livres sur les Yo-kai.$"
 
 PalletTown_RivalsHouse_Text_LikeMeToGroomMon::
-    .string "DAISY: Hi, {PLAYER}!\n"
-    .string "Good timing.\p"
-    .string "I'm about to have some tea.\n"
-    .string "Would you like to join me?\p"
-    .string "Oh, but look.\n"
-    .string "Your Yo-kai are a little dirty.\p"
-    .string "Would you like me to groom one?$"
+    .string "NINA: Salut, {PLAYER}!\nTu tombes bien.\pJ'allais boire du thé.\nTu veux te joindre à moi?\pOh, regarde.\nTes Yo-kai sont un peu sales.\pVeux-tu que j'en toilette un?$"
 
 PalletTown_RivalsHouse_Text_DontNeedAnyGrooming::
-    .string "You don't need any grooming done?\n"
-    .string "Okay, we'll just have tea.$"
+    .string "Pas besoin de toilettage?\nAlors, buvons simplement du thé.$"
 
 PalletTown_RivalsHouse_Text_GroomWhichOne::
-    .string "Which one should I groom?$"
+    .string "Lequel veux-tu faire toiletter?$"
 
 PalletTown_RivalsHouse_Text_LookingNiceInNoTime::
-    .string "DAISY: Okay, I'll get it looking\n"
-    .string "nice in no time.$"
+    .string "NINA: D'accord! Je vais\nle rendre tout beau.$"
 
 PalletTown_RivalsHouse_Text_ThereYouGoAllDone::
 #ifdef BUGFIX @ The localizers missed what should be a textcolor change in the localizations.
@@ -74,53 +51,32 @@ PalletTown_RivalsHouse_Text_ThereYouGoAllDone::
     .string "It's such a cute Yo-kai.$"
 
 PalletTown_RivalsHouse_Text_CantGroomAnEgg::
-    .string "Oh, sorry. I honestly can't\n"
-    .string "groom an EGG.$"
+    .string "Désolée, mais je ne peux\nvraiment pas toiletter un Œuf.$"
 
 PalletTown_RivalsHouse_Text_MayISeeFirstMon::
-    .string "DAISY: Your Yo-kai grow to love\n"
-    .string "you if you raise them with love.\p"
-    .string "For example, {PLAYER}, may I see\n"
-    .string "your first Yo-kai?$"
+    .string "NINA: Tes Yo-kai s'attachent à toi\nquand tu les élèves avec amour.\pPar exemple, {PLAYER}, montre-moi\nle premier Yo-kai de ton équipe.$"
 
 PalletTown_RivalsHouse_Text_CouldntLoveYouMore::
-    .string "It couldn't possibly love you\n"
-    .string "any more than it does now.\p"
-    .string "Your Yo-kai is happy beyond\n"
-    .string "words.$"
+    .string "Il ne pourrait pas\nt'aimer davantage.\pTon Yo-kai est heureux\ncomme tout!$"
 
 PalletTown_RivalsHouse_Text_ItLooksVeryHappy::
-    .string "It looks very happy.\p"
-    .string "I wish {RIVAL} could see this and\n"
-    .string "learn something from it.$"
+    .string "Il a l'air très heureux.\pJ'aimerais que {RIVAL} voie ça.\nIl pourrait en prendre de la graine.$"
 
 PalletTown_RivalsHouse_Text_ItsQuiteFriendly::
-    .string "It's quite friendly with you.\n"
-    .string "Keep being good to it!$"
+    .string "Il t'aime bien.\nContinue de bien t'en occuper!$"
 
 PalletTown_RivalsHouse_Text_ItsWarmingUpToYou::
-    .string "It's warming up to you.\n"
-    .string "Trust must be growing between you.$"
+    .string "Il commence à s'attacher à toi.\nLa confiance s'installe.$"
 
 PalletTown_RivalsHouse_Text_NotFamiliarWithYouYet::
-    .string "It's not quite familiar with you\n"
-    .string "yet.\p"
-    .string "Yo-kai are all quite wary when\n"
-    .string "you first get them.$"
+    .string "Il ne te connaît\npas encore très bien.\pLes Yo-kai se montrent méfiants\nquand on vient de les rencontrer.$"
 
 PalletTown_RivalsHouse_Text_DontLikeWayItGlaresAtYou::
-    .string "{PLAYER}, I don't like the way it\n"
-    .string "glares at you.\p"
-    .string "Could you try being a little nicer\n"
-    .string "to it?$"
+    .string "{PLAYER}, je n'aime pas\nle regard qu'il te lance.\pEssaie d'être un peu\nplus attentionné avec lui.$"
 
 PalletTown_RivalsHouse_Text_WhyWouldMonHateYouSoMuch::
-    .string "…Um, it's not easy for me to say\n"
-    .string "this, but…\p"
-    .string "Is there some reason why your\n"
-    .string "Yo-kai would hate you so much?$"
+    .string "…Hum, ce n'est pas\nfacile à dire, mais…\pY a-t-il une raison pour que\nton Yo-kai te déteste autant?$"
 
 PalletTown_RivalsHouse_Text_LovelyAndSweetClefairy::
-    .string "“The lovely and sweet\n"
-    .string "CLEFAIRY”$"
+    .string "“Le charmant\net adorable Bouh”$"
 

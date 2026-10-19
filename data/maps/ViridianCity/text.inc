@@ -1,125 +1,63 @@
 ViridianCity_Text_CanCarryMonsAnywhere::
-    .string "Those Yo-kai Balls at your waist!\n"
-    .string "You have Yo-kai, don't you?\p"
-    .string "It's great that you can carry and\n"
-    .string "use Yo-kai anytime, anywhere.$"
+    .string "Ces Yo-kai Balls à ta ceinture!\nTu as des Yo-kai, n'est-ce pas?\pC'est génial de pouvoir\nles emmener partout avec soi.$"
 
 ViridianCity_Text_GymClosedWonderWhoLeaderIs::
-    .string "This Yo-kai GYM is always closed.\p"
-    .string "I wonder who the LEADER is?$"
+    .string "Cette Arène Yo-kai\nest toujours fermée.\pJe me demande\nqui en est le Champion.$"
 
 ViridianCity_Text_ViridiansGymLeaderReturned::
-    .string "VIRIDIAN GYM's LEADER returned!$"
+    .string "Le Champion de l'Arène\nde VIRIDIAN est revenu!$"
 
 ViridianCity_Text_WantToKnowAboutCaterpillarMons::
-    .string "You want to know about the two\n"
-    .string "kinds of caterpillar Yo-kai?$"
+    .string "Tu veux un conseil pour protéger\ntes Yo-kai contre le poison?$"
 
 ViridianCity_Text_OhOkayThen::
-    .string "Oh, okay then!$"
+    .string "Oh, d'accord!$"
 
 ViridianCity_Text_ExplainCaterpieWeedle::
-    .string "CATERPIE has no poison,\n"
-    .string "but WEEDLE does.\p"
-    .string "Watch that your Yo-kai aren't\n"
-    .string "stabbed by WEEDLE's POISON STING.$"
+    .string "Une capacité comme Dard-Venin\npeut empoisonner tes Yo-kai.\pSurveille leur état et garde\nun Antidote dans ton Sac!$"
 
 ViridianCity_Text_GrandpaHasntHadCoffeeYet::
-    .string "Oh, Grandpa!\n"
-    .string "Don't be so mean!\p"
-    .string "I'm so sorry.\n"
-    .string "He hasn't had his coffee yet.$"
+    .string "Oh, Papi!\nNe sois pas si méchant!\pJe suis désolée.\nIl n'a pas encore bu son café.$"
 
 ViridianCity_Text_GoShoppingInPewterOccasionally::
-    .string "I go shopping in PEWTER CITY\n"
-    .string "occasionally.\p"
-    .string "I have to take the winding trail in\n"
-    .string "VIRIDIAN FOREST when I go.$"
+    .string "Je vais parfois faire\ndes achats à PEWTER CITY.\pPour y aller, je traverse\nles sentiers de VIRIDIAN FOREST.$"
 
 ViridianCity_Text_ThisIsPrivateProperty::
-    .string "I absolutely forbid you from\n"
-    .string "going through here!\p"
-    .string "This is private property!$"
+    .string "Je t'interdis de passer ici!\pC'est une propriété privée!$"
 
 ViridianCity_Text_ShowYouHowToCatchMons::
-    .string "Well, now, I've had my coffee, and\n"
-    .string "that's what I need to get going!\p"
-    .string "Hm?\n"
-    .string "What is that red box you have?\p"
-    .string "Ah, so you're working on your\n"
-    .string "Médallium.\p"
-    .string "Then let me give you a word of\n"
-    .string "advice.\p"
-    .string "Whenever you catch a Yo-kai,\n"
-    .string "the Médallium automatically updates\l"
-    .string "its data.\p"
-    .string "…You don't know how to catch\n"
-    .string "a Yo-kai?\p"
-    .string "I suppose I had better show you\n"
-    .string "then!$"
+    .string "Ah, mon café!\nRien de tel pour bien démarrer!\pHmm?\nQuelle est cette boîte rouge?\pAh, tu complètes\nton Médallium!\pLaisse-moi te donner\nun petit conseil.\pQuand tu captures un Yo-kai,\nle Médallium met automatiquement\lses données à jour.\p…Tu ne sais pas comment\ncapturer un Yo-kai?\pJe ferais mieux\nde te montrer!$"
 
 ViridianCity_Text_ThatWasEducationalTakeThis::
-    .string "There! Now tell me, that was\n"
-    .string "educational, was it not?\p"
-    .string "And here, take this, too.$"
+    .string "Voilà! C'était instructif,\nn'est-ce pas?\pTiens, prends aussi ceci.$"
 
 ViridianCity_Text_WatchThatToLearnBasics::
-    .string "If there's something you don't\n"
-    .string "understand, watch that.\p"
-    .string "It will teach you about the basics\n"
-    .string "of being a Dresseur de Yo-kai.$"
+    .string "Si tu ne comprends\npas quelque chose, regarde ça.\pTu y apprendras les bases\ndu métier de Dresseur de Yo-kai.$"
 
 ViridianCity_Text_WeakenMonsFirstToCatch::
-    .string "Well, now, I've had my coffee, and\n"
-    .string "that's what I need to get going!\p"
-    .string "But I made it too strong.\n"
-    .string "It gave me a headache…\p"
-    .string "Incidentally, are you filling your\n"
-    .string "Médallium?\p"
-    .string "At first, focus on weakening the\n"
-    .string "Yo-kai before trying to catch it.$"
+    .string "Ah, mon café!\nRien de tel pour bien démarrer!\pMais je l'ai fait trop fort.\nÇa me donne mal à la tête…\pAu fait, tu complètes\nton Médallium?\pPense à affaiblir un Yo-kai\navant d'essayer de le capturer.$"
 
 ViridianCity_Text_HowsTeachyTVHelping::
-    .string "Well, now, I've had my coffee, and\n"
-    .string "that's what I need to get going!\p"
-    .string "But I made it too strong.\n"
-    .string "It gave me a headache…\p"
-    .string "Incidentally, is my old TEACHY TV\n"
-    .string "helping you?$"
+    .string "Ah, mon café!\nRien de tel pour bien démarrer!\pMais je l'ai fait trop fort.\nÇa me donne mal à la tête…\pAu fait, ma vieille TV ABC\nte rend service?$"
 
 ViridianCity_Text_MyGrandsonOnTheShow::
-    .string "Wahaha!\n"
-    .string "It's my grandson on the show!\p"
-    .string "Since he's the one doing the\n"
-    .string "teaching, you're bound to learn.$"
+    .string "Hahaha!\nC'est mon petit-fils à l'écran!\pAvec ses conseils,\ntu vas forcément apprendre.$"
 
 ViridianCity_Text_TooBusyForTeachyTV::
-    .string "Hm… You're too busy to not even\n"
-    .string "have the time for TEACHY TV…\p"
-    .string "Time is money, and neither should\n"
-    .string "be ill spent…$"
+    .string "Hmm… Tu n'as même pas\nle temps de regarder la TV ABC…\pLe temps, c'est de l'argent.\nMieux vaut ne gaspiller ni l'un ni\ll'autre.$"
 
 ViridianCity_Text_CitySign::
-    .string "VIRIDIAN CITY \n"
-    .string "The Eternally Green Paradise$"
+    .string "VIRIDIAN CITY\nLe paradis toujours vert$"
 
 ViridianCity_Text_CatchMonsForEasierBattles::
-    .string "TRAINER TIPS\p"
-    .string "Catch Yo-kai and expand your\n"
-    .string "collection.\p"
-    .string "The more you have, the easier it\n"
-    .string "is to battle.$"
+    .string "ASTUCE DRESSEUR\pCapture des Yo-kai\npour agrandir ta collection.\pPlus ton équipe est variée,\nplus tu peux t'adapter au combat.$"
 
 ViridianCity_Text_MovesLimitedByPP::
-    .string "TRAINER TIPS\p"
-    .string "The battle moves of Yo-kai are\n"
-    .string "limited by their POWER POINTS, PP.\p"
-    .string "To replenish PP, rest your tired\n"
-    .string "Yo-kai at a Centre Yo-kai.$"
+    .string "ASTUCE DRESSEUR\pLes capacités des Yo-kai\nconsomment des Points de Pouvoir,\lappelés PP.\pPour récupérer leurs PP,\nfais soigner tes Yo-kai\lau Centre Yo-kai.$"
 
 ViridianCity_Text_GymSign::
-    .string "VIRIDIAN CITY Yo-kai GYM$"
+    .string "ARÈNE YO-KAI DE VIRIDIAN CITY$"
 
 ViridianCity_Text_GymDoorsAreLocked::
-    .string "VIRIDIAN GYM's doors are locked…$"
+    .string "Les portes de l'Arène\nde VIRIDIAN sont verrouillées…$"
 

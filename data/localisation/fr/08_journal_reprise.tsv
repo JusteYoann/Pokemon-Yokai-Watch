@@ -1,0 +1,114 @@
+src/data/text/quest_log.h	gText_QuestLog_PreviouslyOnYourQuest	Lors de ta dernière aventure…
+src/data/text/quest_log.h	gText_QuestLog_SwitchMon1WithMon2	{PLAYER} a échangé les places\nde {STR_VAR_1} et {STR_VAR_2}.
+src/data/text/quest_log.h	gText_QuestLog_SwappedHeldItemsOnMon	{STR_VAR_1} a reçu\n{STR_VAR_3} à tenir\nà la place de {STR_VAR_2}.
+src/data/text/quest_log.h	gText_QuestLog_TookHeldItemFromMon	{STR_VAR_2} a été retiré\nà {STR_VAR_1}.
+src/data/text/quest_log.h	gText_QuestLog_UsedItemOnMonAtThisLocation	{STR_VAR_1} a été utilisé\nsur {STR_VAR_2} à cet endroit.
+src/data/text/quest_log.h	gText_QuestLog_UsedTheItem	{PLAYER} a utilisé\n{STR_VAR_1}.
+src/data/text/quest_log.h	gText_QuestLog_UsedTheKeyItem	Utilisation de {STR_VAR_1},\nrangé dans la poche\ndes objets rares.
+src/data/text/quest_log.h	gText_QuestLog_MonLearnedMoveFromTM	{STR_VAR_1} a appris\n{STR_VAR_2} grâce à une CT.
+src/data/text/quest_log.h	gText_QuestLog_MonReplacedMoveWithTM	{STR_VAR_1} a appris\n{STR_VAR_2} grâce à une CT\net oublié {STR_VAR_3}.
+src/data/text/quest_log.h	gText_QuestLog_MonsWereFullyRestoredAtCenter	Les Yo-kai ont été soignés\ndans un Centre Yo-kai.
+src/data/text/quest_log.h	gText_QuestLog_PlayerBattledChampionRival	{DYNAMIC 0x00} a livré un beau combat\ncontre {DYNAMIC 0x01}, le Maître.
+src/data/text/quest_log.h	gText_QuestLog_PlayerSentOutMon1RivalSentOutMon2	À la fin, {DYNAMIC 0x00} a envoyé\n{DYNAMIC 0x01} face au\n{DYNAMIC 0x03} de {DYNAMIC 0x02}.
+src/data/text/quest_log.h	gText_QuestLog_WonTheMatchAsAResult	Après avoir combattu de toutes\nses forces, {DYNAMIC 0x00} a remporté\nla victoire.
+src/data/text/quest_log.h	gText_QuestLog_StoredItemInPC	{STR_VAR_1} a quitté\nla poche Objets du Sac\npour être stocké dans le PC.
+src/data/text/quest_log.h	gText_QuestLog_WithdrewItemFromPC	{PLAYER} a retiré\n{STR_VAR_1} du PC.
+src/data/text/quest_log.h	gText_QuestLog_SwitchedMonsBetweenBoxes	Échange de {DYNAMIC 0x01},\ndans {DYNAMIC 0x00}, avec\n{DYNAMIC 0x03}, dans {DYNAMIC 0x02}.
+src/data/text/quest_log.h	gText_QuestLog_MovedMonToNewBox	{DYNAMIC 0x01} a quitté la Boîte\n“{DYNAMIC 0x00}” pour la Boîte\n“{DYNAMIC 0x02}”.
+src/data/text/quest_log.h	gText_QuestLog_SwitchedMonsWithinBox	Échange de {DYNAMIC 0x01} et\n{DYNAMIC 0x02} dans {DYNAMIC 0x00}.
+src/data/text/quest_log.h	gText_QuestLog_MovedMonWithinBox	Déplacement de {DYNAMIC 0x01}\ndans {DYNAMIC 0x00}.
+src/data/text/quest_log.h	gText_QuestLog_SwitchedPartyMonForPCMon	Échange de {DYNAMIC 0x01},\ndans {DYNAMIC 0x00}, avec\n{DYNAMIC 0x02}, dans l'équipe.
+src/data/text/quest_log.h	gText_QuestLog_WithdrewMonFromPC	{DYNAMIC 0x01}, dans {DYNAMIC 0x00},\na rejoint l'équipe.
+src/data/text/quest_log.h	gText_QuestLog_DepositedMonInPC	{DYNAMIC 0x00} a quitté l'équipe\npour rejoindre {DYNAMIC 0x01}.
+src/data/text/quest_log.h	gText_QuestLog_SwitchedMultipleMons	Déplacement d'un groupe de Yo-kai\nde {DYNAMIC 0x00} à {DYNAMIC 0x01}.
+src/data/text/quest_log.h	gText_QuestLog_ADifferentSpot	un autre endroit
+src/data/text/quest_log.h	gText_QuestLog_GaveMonHeldItemFromPC	{STR_VAR_1} a été retiré du PC\nde {PLAYER} et confié\nà {STR_VAR_2}.
+src/data/text/quest_log.h	gText_QuestLog_SwappedHeldItemFromPC	{STR_VAR_1} a été retiré du PC\net confié à {STR_VAR_2}.\n{STR_VAR_3} a rejoint le Sac.
+src/data/text/quest_log.h	gText_QuestLog_ChattedWithManyTrainers	Discussion avec de nombreux Dresseurs.
+src/data/text/quest_log.h	gText_QuestLog_Handily	facilement
+src/data/text/quest_log.h	gText_QuestLog_Tenaciously	avec ténacité
+src/data/text/quest_log.h	gText_QuestLog_Somehow	tant bien que mal
+src/data/text/quest_log.h	gText_QuestLog_TradedMon1ForTrainersMon2	Rencontre et échange avec\n{STR_VAR_1}: {STR_VAR_3}\ncontre {STR_VAR_2}.
+src/data/text/quest_log.h	gText_QuestLog_BattledTrainerEndedInOutcome	Combat contre {STR_VAR_1}.\nRésultat: {STR_VAR_2}.
+src/data/text/quest_log.h	gText_QuestLog_BoughtItem	À la Boutique Yo-kai de\n{DYNAMIC 0x00}, achat de\n{DYNAMIC 0x01}.
+src/data/text/quest_log.h	gText_QuestLog_BoughtItemsIncludingItem	À la Boutique Yo-kai de\n{DYNAMIC 0x00}, dépense de ¥{DYNAMIC 0x02},\nnotamment pour {DYNAMIC 0x01}.
+src/data/text/quest_log.h	gText_QuestLog_SoldNumOfItem	{DYNAMIC 0x00} a vendu\n{DYNAMIC 0x03} {DYNAMIC 0x02}\nà la boutique de {DYNAMIC 0x01}.
+src/data/text/quest_log.h	gText_QuestLog_SoldItemsIncludingItem	Vente de {DYNAMIC 0x01}\net d'autres objets à {DYNAMIC 0x00}\npour ¥{DYNAMIC 0x02}.
+src/data/text/quest_log.h	gText_QuestLog_JustOne	un seul
+src/data/text/quest_log.h	gText_QuestLog_UsedSoftboiled	{STR_VAR_1} a partagé ses PV\ngrâce à E-Coque.
+src/data/text/quest_log.h	gText_QuestLog_UsedMilkDrink	{STR_VAR_1} a partagé ses PV\ngrâce à Lait à Boire.
+src/data/text/quest_log.h	gText_QuestLog_MonLearnedMoveFromHM	{STR_VAR_1} a appris\n{STR_VAR_2} grâce à une CS.
+src/data/text/quest_log.h	gText_QuestLog_MonReplacedMoveWithHM	{STR_VAR_1} a appris\n{STR_VAR_2} grâce à une CS\net oublié {STR_VAR_3}.
+src/data/text/quest_log.h	gText_QuestLog_DefeatedWildMon	{DYNAMIC 0x05} a vaincu\n{DYNAMIC 0x01}, un Yo-kai sauvage,\nà {DYNAMIC 0x00}.
+src/data/text/quest_log.h	gText_QuestLog_DefeatedWildMons	{DYNAMIC 0x02} Yo-kai sauvages vaincus,\ndont {DYNAMIC 0x01},\nà {DYNAMIC 0x00}.
+src/data/text/quest_log.h	gText_QuestLog_CaughtWildMon	{DYNAMIC 0x05} a capturé\n{DYNAMIC 0x03}, un Yo-kai sauvage,\nà {DYNAMIC 0x00}.
+src/data/text/quest_log.h	gText_QuestLog_CaughtWildMons	À {DYNAMIC 0x00}, des Yo-kai Balls\nont capturé {DYNAMIC 0x04} Yo-kai,\ndont {DYNAMIC 0x03}.
+src/data/text/quest_log.h	gText_QuestLog_DefeatedWildMonAndCaughtWildMon	À {DYNAMIC 0x00}, {DYNAMIC 0x05}\na vaincu {DYNAMIC 0x01} et\ncapturé {DYNAMIC 0x03}.
+src/data/text/quest_log.h	gText_QuestLog_DefeatedWildMonAndCaughtWildMons	À {DYNAMIC 0x00}, {DYNAMIC 0x01} vaincu\net {DYNAMIC 0x04} Yo-kai capturés,\ndont {DYNAMIC 0x03}.
+src/data/text/quest_log.h	gText_QuestLog_DefeatedWildMonsAndCaughtWildMon	À {DYNAMIC 0x00}, {DYNAMIC 0x05} a vaincu\n{DYNAMIC 0x02} Yo-kai, dont {DYNAMIC 0x01},\net capturé {DYNAMIC 0x03}.
+src/data/text/quest_log.h	gText_QuestLog_DefeatedWildMonsAndCaughtWildMons	À {DYNAMIC 0x00}, {DYNAMIC 0x02} Yo-kai\nvaincus, dont {DYNAMIC 0x01}.\n{DYNAMIC 0x04} capturés, dont {DYNAMIC 0x03}.
+src/data/text/quest_log.h	gText_QuestLog_GaveMonHeldItem	{STR_VAR_1} a reçu\n{STR_VAR_2} à tenir.
+src/data/text/quest_log.h	gText_QuestLog_GaveMonHeldItem2	{PLAYER} a confié\n{STR_VAR_2} à tenir\nà {STR_VAR_1}.
+src/data/text/quest_log.h	gText_QuestLog_UsedCut	{STR_VAR_1} a utilisé\nla CS Coupe ici.
+src/data/text/quest_log.h	gText_QuestLog_UsedFly	{STR_VAR_1} a utilisé Vol\npour rejoindre {STR_VAR_2}.
+src/data/text/quest_log.h	gText_QuestLog_UsedSurf	{STR_VAR_1} a utilisé Surf\npour traverser les flots.
+src/data/text/quest_log.h	gText_QuestLog_UsedStrength	{STR_VAR_1} a utilisé\nla CS Force ici.
+src/data/text/quest_log.h	gText_QuestLog_UsedFlash	{STR_VAR_1} a utilisé Flash\npour éclairer une grotte\nplongée dans le noir.
+src/data/text/quest_log.h	gText_QuestLog_UsedRockSmash	{STR_VAR_1} a utilisé\nla CS Éclate-Roc ici.
+src/data/text/quest_log.h	gText_QuestLog_UsedWaterfall	{STR_VAR_1} a utilisé Cascade\npour remonter le courant.
+src/data/text/quest_log.h	gText_QuestLog_UsedDive	{STR_VAR_1} a utilisé\nla CS Plongée pour explorer\nles profondeurs.
+src/data/text/quest_log.h	gText_QuestLog_UsedDigInLocation	{STR_VAR_1} a utilisé Tunnel\npour sortir de {STR_VAR_2}.
+src/data/text/quest_log.h	gText_QuestLog_UsedSweetScent	{STR_VAR_1} a utilisé Doux Parfum\npour attirer les Yo-kai sauvages.
+src/data/text/quest_log.h	gText_QuestLog_UsedTeleportToLocation	{STR_VAR_1} a utilisé Téléport\npour ramener l'équipe\nà {STR_VAR_3} de {STR_VAR_2}.
+src/data/text/quest_log.h	gText_QuestLog_LeftTownsLocationForNextDestination	{PLAYER} a quitté\n{STR_VAR_2} de {STR_VAR_1}\npour sa prochaine destination.
+src/data/text/quest_log.h	gText_QuestLog_PlayedGamesAtGameCorner	De nombreuses parties au Casino\nRocket de {STR_VAR_1}.
+src/data/text/quest_log.h	gText_QuestLog_RestedAtHome	{PLAYER} s'est bien reposé\nà la maison.
+src/data/text/quest_log.h	gText_QuestLog_LeftOaksLab	{PLAYER} a quitté le laboratoire\ndu Professeur Chen.
+src/data/text/quest_log.h	gText_QuestLog_GymWasFullOfToughTrainers	L'Arène de {STR_VAR_1} abritait\ndes Dresseurs redoutables…\nIl fallait bien se préparer.
+src/data/text/quest_log.h	gText_QuestLog_DepartedGym	Départ de l'Arène\nde {STR_VAR_1}.
+src/data/text/quest_log.h	gText_QuestLog_HadGreatTimeInSafariZone	{PLAYER} a passé un bon moment\navec les Yo-kai au Parc Safari.
+src/data/text/quest_log.h	gText_QuestLog_ManagedToGetOutOfLocation	Après avoir longtemps erré,\nla sortie de {STR_VAR_2}\na enfin été trouvée.
+src/data/text/quest_log.h	gText_QuestLog_TookOnGymLeadersMonWithMonAndWon	Face au {DYNAMIC 0x02} de {DYNAMIC 0x01},\nChampion à {DYNAMIC 0x00}, {DYNAMIC 0x03}\na remporté la victoire {DYNAMIC 0x04}!
+src/data/text/quest_log.h	gText_QuestLog_TookOnEliteFoursMonWithMonAndWon	Face au {DYNAMIC 0x01} de {DYNAMIC 0x00},\nmembre du Conseil 4, {DYNAMIC 0x02}\na remporté la victoire {DYNAMIC 0x03}!
+src/data/text/quest_log.h	gText_QuestLog_TookOnTrainersMonWithMonAndWon	À {DYNAMIC 0x00}, face au {DYNAMIC 0x02}\nde {DYNAMIC 0x01}, {DYNAMIC 0x03}\na remporté la victoire {DYNAMIC 0x04}!
+src/data/text/quest_log.h	gText_QuestLog_Coolly	avec calme
+src/data/text/quest_log.h	gText_QuestLog_Barely	de justesse
+src/data/text/quest_log.h	gText_QuestLog_UsedEscapeRope	{PLAYER} a utilisé une Corde Sortie\npour sortir de {STR_VAR_2}.
+src/data/text/quest_log.h	gText_QuestLog_Draw	match nul
+src/data/text/quest_log.h	gText_QuestLog_DepartedTheLocationForNextDestination	Départ de {STR_VAR_2}\npour la prochaine destination.
+src/data/text/quest_log.h	gText_QuestLog_DepartedFromLocationToNextDestination	{PLAYER} a quitté\n{STR_VAR_2} pour poursuivre\nson voyage.
+src/data/text/quest_log.h	gText_QuestLog_ObtainedItemInLocation	À {STR_VAR_1}, {PLAYER}\na obtenu {STR_VAR_2}.
+src/data/text/quest_log.h	gText_QuestLog_ArrivedInLocation	Arrivée à {STR_VAR_1}.
+src/data/text/quest_log.h	gText_QuestLog_SavedGameAtLocation	Et {PLAYER} a sauvegardé\nsa partie à {STR_VAR_1}.
+src/data/text/quest_log.h	gText_QuestLog_Home	MAISON
+src/data/text/quest_log.h	gText_QuestLog_OakResearchLab	LABORATOIRE DU PROF. CHEN
+src/data/text/quest_log.h	gText_QuestLog_Gym	ARÈNE
+src/data/text/quest_log.h	gText_QuestLog_PokemonLeagueGate	ACCÈS À LA LIGUE YO-KAI
+src/data/text/quest_log.h	gText_QuestLog_PewterMuseumOfScience	MUSÉE DES SCIENCES
+src/data/text/quest_log.h	gText_QuestLog_BikeShop	MAGASIN DE VÉLOS
+src/data/text/quest_log.h	gText_QuestLog_BillsHouse	MAISON DE LÉO
+src/data/text/quest_log.h	gText_QuestLog_DayCare	PENSION
+src/data/text/quest_log.h	gText_QuestLog_UndergroundPath	SOUTERRAIN
+src/data/text/quest_log.h	gText_QuestLog_PokemonFanClub	FAN CLUB YO-KAI
+src/data/text/quest_log.h	gText_QuestLog_PowerPlant	CENTRALE
+src/data/text/quest_log.h	gText_QuestLog_PokemonTower	TOUR YO-KAI
+src/data/text/quest_log.h	gText_QuestLog_VolunteerHouse	MAISON DE M. FUJI
+src/data/text/quest_log.h	gText_QuestLog_NameRatersHouse	MAISON DU SPÉCIALISTE DES NOMS
+src/data/text/quest_log.h	gText_QuestLog_CeladonDeptStore	CENTRE COMMERCIAL
+src/data/text/quest_log.h	gText_QuestLog_CeladonMansion	MANOIR
+src/data/text/quest_log.h	gText_QuestLog_RocketGameCorner	CASINO ROCKET
+src/data/text/quest_log.h	gText_QuestLog_RocketHideout	REPAIRE ROCKET
+src/data/text/quest_log.h	gText_QuestLog_SafariZone	PARC SAFARI
+src/data/text/quest_log.h	gText_QuestLog_WardensHome	MAISON DU GARDIEN
+src/data/text/quest_log.h	gText_QuestLog_FightingDojo	DOJO
+src/data/text/quest_log.h	gText_QuestLog_SilphCo	SYLPHE SARL
+src/data/text/quest_log.h	gText_QuestLog_PokemonMansion	MANOIR YO-KAI
+src/data/text/quest_log.h	gText_QuestLog_PokemonResearchLab	LABORATOIRE YO-KAI
+src/data/text/quest_log.h	gText_QuestLog_TradedMon1ForPersonsMon2	Échange de {STR_VAR_3} contre\n{STR_VAR_2}, le Yo-kai\nde {STR_VAR_1}.
+src/data/text/quest_log.h	gText_QuestLog_SingleBattleWithPersonResultedInOutcome	Combat Solo animé\ncontre {DYNAMIC 0x00}.\nRésultat: {DYNAMIC 0x01}.
+src/data/text/quest_log.h	gText_QuestLog_DoubleBattleWithPersonResultedInOutcome	Combat Duo prolongé\ncontre {DYNAMIC 0x00}.\nRésultat: {DYNAMIC 0x01}.
+src/data/text/quest_log.h	gText_QuestLog_MultiBattleWithPeopleResultedInOutcome	{DYNAMIC 0x00} et {DYNAMIC 0x01} ont affronté\n{DYNAMIC 0x02} et {DYNAMIC 0x03}.\nRésultat du combat: {DYNAMIC 0x04}.
+src/data/text/quest_log.h	gText_QuestLog_Win	victoire
+src/data/text/quest_log.h	gText_QuestLog_Loss	défaite
+src/data/text/quest_log.h	gText_QuestLog_MingledInUnionRoom	Rencontres avec d'autres Dresseurs\ndans la Salle Union.
+src/data/text/quest_log.h	gText_QuestLog_DepartedPlaceInTownForNextDestination	Départ de {STR_VAR_2}\nà {STR_VAR_1} pour\nla prochaine destination.

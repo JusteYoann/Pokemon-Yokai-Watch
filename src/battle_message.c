@@ -512,7 +512,7 @@ const u8 gText_LoweringStats[] = _("CHEN: Baisser les stats adverses\nte donnera
 const u8 gText_KeepAnEyeOnHP[] = _("CHEN: Surveille bien les PV\nde ton Yo-kai.\pS'ils tombent à zéro,\nil sera K.O.!\p");
 const u8 gText_OakNoRunningFromATrainer[] = _("CHEN: Impossible de fuir\nun combat de Dresseurs!\p");
 const u8 gText_WinEarnsPrizeMoney[] = _("CHEN: Excellent!\pUne victoire te rapporte de\nl'argent et renforce tes Yo-kai!\pAffronte d'autres Dresseurs\npour faire progresser ton équipe!\p");
-const u8 gText_HowDissapointing[] = _("CHEN: Hum…\nQuel dommage…\pUne victoire rapporte de l'argent\net fait progresser tes Yo-kai.\pMais en cas de défaite,\n{B_PLAYER_NAME}, c'est toi qui paies…\pPour cette fois, je vais\nrégler la note à ta place.\pMais dehors, il faudra\nte débrouiller par toi-même.\pEntraîne donc tes Yo-kai\ncontre des Yo-kai sauvages!\p");
+const u8 gText_HowDissapointing[] = _("CHEN: Hum…\nDommage…\pGagner rapporte de l'argent\net entraîne tes Yo-kai.\pPerdre coûte de l'argent,\n{B_PLAYER_NAME}…\pCette fois, je paie pour toi.\pMais dehors, tu devras\nte débrouiller seul.\pEntraîne tes Yo-kai\ncontre des Yo-kai sauvages!\p");
 
 const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT - BATTLESTRINGS_TABLE_START] = {
     [STRINGID_TRAINER1LOSETEXT - BATTLESTRINGS_TABLE_START]              = sText_Trainer1LoseText,

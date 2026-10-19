@@ -3,7 +3,7 @@
 import re,json
 from pathlib import Path
 R=Path(__file__).resolve().parents[2];table=R/'data/localisation/fr/libelles_communs.tsv'
-pairs=dict(line.split('\t',1) for line in table.read_text().splitlines() if line and not line.startswith('#'));rows=[]
+pairs=dict(tuple(cell.replace(r'\s',' ') for cell in line.split('\t',1)) for line in table.read_text().splitlines() if line and not line.startswith('#'));rows=[]
 # No JSON, generated items.h, identifiers, technical strings or generic C literals.
 for path in list((R/'src').rglob('*.c'))+list((R/'src').rglob('*.h'))+list((R/'data').rglob('*.inc')):
  if path.name in ['items.h','trainers.h','species_names.h'] or 'easy_chat' in path.parts:continue

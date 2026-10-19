@@ -1,26 +1,18 @@
 ViridianCity_Mart_Text_YouCameFromPallet::
-    .string "Hey!\n"
-    .string "You came from PALLET TOWN?$"
+    .string "Hé!\nTu viens de PALLET TOWN?$"
 
 ViridianCity_Mart_Text_TakeThisToProfOak::
-    .string "You know PROF. OAK, right?\p"
-    .string "His order came in.\n"
-    .string "Can I get you to take it to him?$"
+    .string "Tu connais le Professeur Chen?\pSa commande est arrivée.\nTu pourrais la lui apporter?$"
 
 ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk::
-    .string "{PLAYER} received OAK'S PARCEL\n"
-    .string "from the Yo-kai MART clerk.$"
+    .string "{PLAYER} reçoit le Colis Chen\ndu vendeur de la Boutique Yo-kai.$"
 
 ViridianCity_Mart_Text_SayHiToOakForMe::
-    .string "Okay, thanks! Please say hi to\n"
-    .string "PROF. OAK for me, too.$"
+    .string "Merci! Passe aussi le bonjour\nau Professeur Chen de ma part.$"
 
 ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes::
-    .string "This shop does good business in\n"
-    .string "ANTIDOTES, I've heard.$"
+    .string "Il paraît que cette boutique\nvend beaucoup d'Antidotes.$"
 
 ViridianCity_Mart_Text_GotToBuySomePotions::
-    .string "I've got to buy some POTIONS.\p"
-    .string "You never know when your Yo-kai\n"
-    .string "will need quick healing.$"
+    .string "Je dois acheter des Potions.\pOn ne sait jamais quand\nses Yo-kai auront besoin de soins.$"
 

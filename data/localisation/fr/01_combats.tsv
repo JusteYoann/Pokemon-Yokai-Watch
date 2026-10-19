@@ -231,9 +231,9 @@ src/battle_message.c	sText_PkmnsXCuredItsYProblem	{B_SCR_ACTIVE_ABILITY} de {B_S
 src/battle_message.c	sText_PkmnsXHadNoEffectOnY	{B_SCR_ACTIVE_ABILITY} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nn'affecte pas {B_EFF_NAME_WITH_PREFIX}!
 src/battle_message.c	sText_TooScaredToMove	{B_ATK_NAME_WITH_PREFIX}\nest trop effrayé pour agir!
 src/battle_message.c	sText_GetOutGetOut	SPECTRE: Dehors…… Dehors……
-src/battle_message.c	sText_StatSharply	fortement 
+src/battle_message.c	sText_StatSharply	fortement\s
 src/battle_message.c	gBattleText_Rose	augmente!
-src/battle_message.c	sText_StatHarshly	fortement 
+src/battle_message.c	sText_StatHarshly	fortement\s
 src/battle_message.c	sText_StatFell	baisse!
 src/battle_message.c	sText_AttackersStatRose	{B_BUFF1} de {B_ATK_NAME_WITH_PREFIX}\n{B_BUFF2}
 src/battle_message.c	gText_DefendersStatRose	{B_BUFF1} de {B_DEF_NAME_WITH_PREFIX}\n{B_BUFF2}
@@ -329,8 +329,8 @@ src/battle_message.c	sText_PkmnOkComeBack	{B_BUFF1}, c'est bon!\nReviens!
 src/battle_message.c	sText_PkmnGoodComeBack	{B_BUFF1}, bravo!\nReviens!
 src/battle_message.c	sText_LinkTrainer1WithdrewPkmn	{B_LINK_OPPONENT1_NAME} rappelle\n{B_BUFF1}!
 src/battle_message.c	sText_LinkTrainer2WithdrewPkmn	{B_LINK_SCR_TRAINER_NAME} rappelle\n{B_BUFF1}!
-src/battle_message.c	sText_WildPkmnPrefix	Sauvage 
-src/battle_message.c	sText_FoePkmnPrefix	Ennemi 
+src/battle_message.c	sText_WildPkmnPrefix	Sauvage\s
+src/battle_message.c	sText_FoePkmnPrefix	Ennemi\s
 src/battle_message.c	sText_FoePkmnPrefix2	Ennemi
 src/battle_message.c	sText_AllyPkmnPrefix	Allié
 src/battle_message.c	sText_FoePkmnPrefix3	Ennemi
@@ -399,7 +399,7 @@ src/battle_message.c	gText_LoweringStats	CHEN: Baisser les stats adverses\nte do
 src/battle_message.c	gText_KeepAnEyeOnHP	CHEN: Surveille bien les PV\nde ton Yo-kai.\pS'ils tombent à zéro,\nil sera K.O.!\p
 src/battle_message.c	gText_OakNoRunningFromATrainer	CHEN: Impossible de fuir\nun combat de Dresseurs!\p
 src/battle_message.c	gText_WinEarnsPrizeMoney	CHEN: Excellent!\pUne victoire te rapporte de\nl'argent et renforce tes Yo-kai!\pAffronte d'autres Dresseurs\npour faire progresser ton équipe!\p
-src/battle_message.c	gText_HowDissapointing	CHEN: Hum…\nQuel dommage…\pUne victoire rapporte de l'argent\net fait progresser tes Yo-kai.\pMais en cas de défaite,\n{B_PLAYER_NAME}, c'est toi qui paies…\pPour cette fois, je vais\nrégler la note à ta place.\pMais dehors, il faudra\nte débrouiller par toi-même.\pEntraîne donc tes Yo-kai\ncontre des Yo-kai sauvages!\p
+src/battle_message.c	gText_HowDissapointing	CHEN: Hum…\nDommage…\pGagner rapporte de l'argent\net entraîne tes Yo-kai.\pPerdre coûte de l'argent,\n{B_PLAYER_NAME}…\pCette fois, je paie pour toi.\pMais dehors, tu devras\nte débrouiller seul.\pEntraîne tes Yo-kai\ncontre des Yo-kai sauvages!\p
 src/battle_message.c	gText_PkmnIsEvolving	Quoi?\n{STR_VAR_1} évolue!
 src/battle_message.c	gText_CongratsPkmnEvolved	Félicitations! {STR_VAR_1}\névolue en {STR_VAR_2}!{WAIT_SE}\p
 src/battle_message.c	gText_PkmnStoppedEvolving	Hein? {STR_VAR_1}\ncesse d'évoluer!\p
@@ -409,12 +409,12 @@ src/battle_message.c	gText_WhichMoveToForget_Unused	{PALETTE 5}{COLOR_HIGHLIGHT_
 src/battle_message.c	gText_BattleYesNoChoice	{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW 13 14 15}Oui\nNon
 src/battle_message.c	gText_BattleSwitchWhich	{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW 13 14 15}Quel\nYo-kai?
 src/battle_message.c	sText_MaxHP	{FONT_SMALL}Max{FONT_NORMAL} PV
-src/battle_message.c	sText_Attack	ATTAQUE 
+src/battle_message.c	sText_Attack	ATTAQUE\s
 src/battle_message.c	sText_Defense	DÉFENSE
 src/battle_message.c	sText_SpAtk	ATQ. SPÉ.
 src/battle_message.c	sText_SpDef	DÉF. SPÉ.
 src/battle_message.c	gText_SafariBalls	{HIGHLIGHT 2}SAFARI BALLS
-src/battle_message.c	gText_HighlightRed_Left	{HIGHLIGHT 2}Reste: 
+src/battle_message.c	gText_HighlightRed_Left	{HIGHLIGHT 2}Reste:\s
 src/battle_message.c	gText_Sleep	sommeil
 src/battle_message.c	gText_Poison	poison
 src/battle_message.c	gText_Burn	brûlure
