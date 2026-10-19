@@ -356,16 +356,16 @@ void LoadSpecialPokePic_DontHandleDeoxys(const struct CompressedSpriteSheet *src
 // decision. Never infer shiny state from personality alone or mutable globals.
 // Indexed bitmaps use the same species shiny palette already selected by the
 // engine, and are uploaded through the existing native mon-picture paths.
-static const u32 sYokaiShiny019Front[] = INCBIN_U32("graphics/yokai_shiny/019/front.4bpp.lz");
+static const u32 sYokaiShiny019Front[] = INCBIN_U32("graphics/yokai_shiny/019/front-display.4bpp.lz");
 static const u32 sYokaiShiny019Back[] = INCBIN_U32("graphics/yokai_shiny/019/back-display.4bpp.lz");
-static const u32 sYokaiShiny099Front[] = INCBIN_U32("graphics/yokai_shiny/099/front.4bpp.lz");
+static const u32 sYokaiShiny099Front[] = INCBIN_U32("graphics/yokai_shiny/099/front-display.4bpp.lz");
 static const u32 sYokaiShiny099Back[] = INCBIN_U32("graphics/yokai_shiny/099/back-display.4bpp.lz");
 static const u32 sYokaiShiny100Front[] = INCBIN_U32("graphics/yokai_shiny/100/front-display.4bpp.lz");
 static const u32 sYokaiShiny100Back[] = INCBIN_U32("graphics/yokai_shiny/100/back-display.4bpp.lz");
-static const u32 sYokaiShiny101Front[] = INCBIN_U32("graphics/yokai_shiny/101/front.4bpp.lz");
+static const u32 sYokaiShiny101Front[] = INCBIN_U32("graphics/yokai_shiny/101/front-display.4bpp.lz");
 static const u32 sYokaiShiny101Back[] = INCBIN_U32("graphics/yokai_shiny/101/back-display.4bpp.lz");
 static const u32 sYokaiShiny126Front[] = INCBIN_U32("graphics/yokai_shiny/126/front-display.4bpp.lz");
-static const u32 sYokaiShiny126Back[] = INCBIN_U32("graphics/yokai_shiny/126/back.4bpp.lz");
+static const u32 sYokaiShiny126Back[] = INCBIN_U32("graphics/yokai_shiny/126/back-display.4bpp.lz");
 
 static const struct {
     u16 species;

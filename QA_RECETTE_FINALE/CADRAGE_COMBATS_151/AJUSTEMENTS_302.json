@@ -1,0 +1,9605 @@
+[
+  {
+    "number": 1,
+    "name": "Jibanyan",
+    "side": "front",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      143,
+      14,
+      206,
+      70
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 9,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      17,
+      208,
+      70
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 1,
+    "name": "Jibanyan",
+    "side": "back",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      56
+    ],
+    "reference_bbox": [
+      37,
+      66,
+      105,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 13,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      66,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 2,
+    "name": "Bandinyan",
+    "side": "front",
+    "source_bbox": [
+      4,
+      13,
+      60,
+      51
+    ],
+    "reference_bbox": [
+      137,
+      16,
+      207,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 17,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      25,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 2,
+    "name": "Bandinyan",
+    "side": "back",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      29,
+      70,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 17,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      70,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 3,
+    "name": "Épinyan",
+    "side": "front",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      53
+    ],
+    "reference_bbox": [
+      144,
+      12,
+      216,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 12,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      20,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 3,
+    "name": "Épinyan",
+    "side": "back",
+    "source_bbox": [
+      4,
+      12,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      27,
+      67,
+      112,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 14,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      67,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 4,
+    "name": "Shogunyan",
+    "side": "front",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      142,
+      18,
+      210,
+      69
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 14,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      22,
+      208,
+      69
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 4,
+    "name": "Shogunyan",
+    "side": "back",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      30,
+      66,
+      110,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 13,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      66,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 5,
+    "name": "Komasan",
+    "side": "front",
+    "source_bbox": [
+      5,
+      4,
+      58,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      11,
+      203,
+      71
+    ],
+    "scale_q8": 280,
+    "center_x": 30,
+    "top": 2,
+    "y_offset": 0,
+    "predicted_bbox": [
+      145,
+      10,
+      203,
+      71
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 5,
+    "name": "Komasan",
+    "side": "back",
+    "source_bbox": [
+      7,
+      4,
+      56,
+      60
+    ],
+    "reference_bbox": [
+      36,
+      56,
+      99,
+      113
+    ],
+    "scale_q8": 329,
+    "center_x": 31,
+    "top": 3,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      56,
+      103,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 6,
+    "name": "Komaous",
+    "side": "front",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      144,
+      9,
+      218,
+      71
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 11,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      19,
+      208,
+      71
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 6,
+    "name": "Komaous",
+    "side": "back",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      56
+    ],
+    "reference_bbox": [
+      29,
+      65,
+      103,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 12,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      65,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 7,
+    "name": "Komastar",
+    "side": "front",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      142,
+      16,
+      211,
+      72
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 11,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      19,
+      208,
+      72
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 7,
+    "name": "Komastar",
+    "side": "back",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      53
+    ],
+    "reference_bbox": [
+      24,
+      64,
+      103,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 11,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      64,
+      104,
+      112
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 8,
+    "name": "Whisper",
+    "side": "front",
+    "source_bbox": [
+      4,
+      5,
+      60,
+      59
+    ],
+    "reference_bbox": [
+      144,
+      10,
+      207,
+      71
+    ],
+    "scale_q8": 289,
+    "center_x": 32,
+    "top": 2,
+    "y_offset": 0,
+    "predicted_bbox": [
+      145,
+      10,
+      208,
+      71
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 8,
+    "name": "Whisper",
+    "side": "back",
+    "source_bbox": [
+      4,
+      4,
+      60,
+      59
+    ],
+    "reference_bbox": [
+      33,
+      60,
+      101,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 7,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      60,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 9,
+    "name": "Cigalopin",
+    "side": "front",
+    "source_bbox": [
+      4,
+      7,
+      60,
+      57
+    ],
+    "reference_bbox": [
+      144,
+      22,
+      202,
+      69
+    ],
+    "scale_q8": 253,
+    "center_x": 29,
+    "top": 12,
+    "y_offset": 0,
+    "predicted_bbox": [
+      146,
+      20,
+      201,
+      69
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 9,
+    "name": "Cigalopin",
+    "side": "back",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      39,
+      76,
+      99,
+      113
+    ],
+    "scale_q8": 274,
+    "center_x": 30,
+    "top": 23,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      76,
+      100,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 10,
+    "name": "Cigallard",
+    "side": "front",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      141,
+      12,
+      203,
+      69
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 8,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      16,
+      208,
+      69
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 10,
+    "name": "Cigallard",
+    "side": "back",
+    "source_bbox": [
+      4,
+      7,
+      60,
+      57
+    ],
+    "reference_bbox": [
+      37,
+      65,
+      105,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 12,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      65,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 11,
+    "name": "Murhaine",
+    "side": "front",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      144,
+      20,
+      207,
+      65
+    ],
+    "scale_q8": 284,
+    "center_x": 32,
+    "top": 12,
+    "y_offset": 0,
+    "predicted_bbox": [
+      145,
+      20,
+      207,
+      65
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 11,
+    "name": "Murhaine",
+    "side": "back",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      24,
+      75,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 22,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      75,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 12,
+    "name": "Saumhonni",
+    "side": "front",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      139,
+      13,
+      207,
+      66
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 11,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      19,
+      208,
+      66
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 12,
+    "name": "Saumhonni",
+    "side": "back",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      53
+    ],
+    "reference_bbox": [
+      27,
+      69,
+      105,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 16,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      69,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 13,
+    "name": "Dracounet",
+    "side": "front",
+    "source_bbox": [
+      13,
+      4,
+      51,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      8,
+      192,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 24,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      147,
+      8,
+      190,
+      72
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 13,
+    "name": "Dracounet",
+    "side": "back",
+    "source_bbox": [
+      11,
+      4,
+      52,
+      60
+    ],
+    "reference_bbox": [
+      40,
+      63,
+      99,
+      113
+    ],
+    "scale_q8": 368,
+    "center_x": 30,
+    "top": 10,
+    "y_offset": 4,
+    "predicted_bbox": [
+      41,
+      63,
+      100,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 14,
+    "name": "Sir Dragon",
+    "side": "front",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      135,
+      8,
+      216,
+      70
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 15,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      23,
+      208,
+      70
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 14,
+    "name": "Sir Dragon",
+    "side": "back",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      26,
+      63,
+      102,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 10,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      63,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 15,
+    "name": "Octorgone",
+    "side": "front",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      53
+    ],
+    "reference_bbox": [
+      141,
+      12,
+      212,
+      70
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 13,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      21,
+      208,
+      70
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 15,
+    "name": "Octorgone",
+    "side": "back",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      24,
+      69,
+      106,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 16,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      69,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 16,
+    "name": "Kyubi",
+    "side": "front",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      139,
+      11,
+      215,
+      70
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 15,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      23,
+      208,
+      70
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 16,
+    "name": "Kyubi",
+    "side": "back",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      20,
+      66,
+      107,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 13,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      66,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 17,
+    "name": "Robonyan",
+    "side": "front",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      57
+    ],
+    "reference_bbox": [
+      144,
+      18,
+      202,
+      70
+    ],
+    "scale_q8": 263,
+    "center_x": 29,
+    "top": 10,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      18,
+      202,
+      70
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 17,
+    "name": "Robonyan",
+    "side": "back",
+    "source_bbox": [
+      5,
+      8,
+      59,
+      55
+    ],
+    "reference_bbox": [
+      37,
+      69,
+      105,
+      113
+    ],
+    "scale_q8": 303,
+    "center_x": 32,
+    "top": 16,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      69,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 18,
+    "name": "Robonyan F",
+    "side": "front",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      143,
+      16,
+      206,
+      71
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 9,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      17,
+      208,
+      71
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 18,
+    "name": "Robonyan F",
+    "side": "back",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      31,
+      65,
+      101,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 12,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      65,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 19,
+    "name": "Robonyan 28",
+    "side": "front",
+    "source_bbox": [
+      4,
+      13,
+      60,
+      50
+    ],
+    "reference_bbox": [
+      130,
+      9,
+      221,
+      71
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 21,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      29,
+      208,
+      71
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 19,
+    "name": "Robonyan 28",
+    "side": "back",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      25,
+      66,
+      121,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 13,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      66,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 20,
+    "name": "Faux Kappa",
+    "side": "front",
+    "source_bbox": [
+      5,
+      4,
+      59,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      15,
+      201,
+      72
+    ],
+    "scale_q8": 265,
+    "center_x": 28,
+    "top": 6,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      14,
+      200,
+      72
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 20,
+    "name": "Faux Kappa",
+    "side": "back",
+    "source_bbox": [
+      4,
+      4,
+      59,
+      60
+    ],
+    "reference_bbox": [
+      36,
+      66,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 31,
+    "top": 13,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      66,
+      103,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 21,
+    "name": "Tukappa",
+    "side": "front",
+    "source_bbox": [
+      7,
+      4,
+      56,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      8,
+      201,
+      71
+    ],
+    "scale_q8": 293,
+    "center_x": 28,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      8,
+      200,
+      72
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 21,
+    "name": "Tukappa",
+    "side": "back",
+    "source_bbox": [
+      5,
+      4,
+      59,
+      60
+    ],
+    "reference_bbox": [
+      31,
+      65,
+      99,
+      113
+    ],
+    "scale_q8": 303,
+    "center_x": 32,
+    "top": 12,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      65,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 22,
+    "name": "Granpapéti",
+    "side": "front",
+    "source_bbox": [
+      10,
+      4,
+      54,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      10,
+      200,
+      70
+    ],
+    "scale_q8": 293,
+    "center_x": 28,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      147,
+      8,
+      197,
+      72
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 22,
+    "name": "Granpapéti",
+    "side": "back",
+    "source_bbox": [
+      9,
+      5,
+      55,
+      58
+    ],
+    "reference_bbox": [
+      37,
+      68,
+      99,
+      113
+    ],
+    "scale_q8": 345,
+    "center_x": 31,
+    "top": 15,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      68,
+      102,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 23,
+    "name": "Puissanfon",
+    "side": "front",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      144,
+      17,
+      207,
+      68
+    ],
+    "scale_q8": 289,
+    "center_x": 32,
+    "top": 9,
+    "y_offset": 0,
+    "predicted_bbox": [
+      145,
+      17,
+      208,
+      68
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 23,
+    "name": "Puissanfon",
+    "side": "back",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      36,
+      68,
+      100,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 15,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      68,
+      104,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 24,
+    "name": "Nanpart",
+    "side": "front",
+    "source_bbox": [
+      4,
+      12,
+      60,
+      51
+    ],
+    "reference_bbox": [
+      142,
+      20,
+      208,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 14,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      22,
+      208,
+      67
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 24,
+    "name": "Nanpart",
+    "side": "back",
+    "source_bbox": [
+      4,
+      13,
+      60,
+      51
+    ],
+    "reference_bbox": [
+      30,
+      77,
+      104,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 24,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      77,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 25,
+    "name": "Passpa",
+    "side": "front",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      144,
+      12,
+      211,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 6,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      14,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 25,
+    "name": "Passpa",
+    "side": "back",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      33,
+      67,
+      104,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 14,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      67,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 26,
+    "name": "Angélik",
+    "side": "front",
+    "source_bbox": [
+      4,
+      5,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      144,
+      12,
+      204,
+      67
+    ],
+    "scale_q8": 270,
+    "center_x": 30,
+    "top": 3,
+    "y_offset": 0,
+    "predicted_bbox": [
+      145,
+      11,
+      204,
+      67
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 26,
+    "name": "Angélik",
+    "side": "back",
+    "source_bbox": [
+      4,
+      4,
+      60,
+      59
+    ],
+    "reference_bbox": [
+      33,
+      64,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 11,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      64,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 27,
+    "name": "Blizzaria",
+    "side": "front",
+    "source_bbox": [
+      4,
+      4,
+      60,
+      59
+    ],
+    "reference_bbox": [
+      145,
+      7,
+      209,
+      69
+    ],
+    "scale_q8": 291,
+    "center_x": 32,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      8,
+      208,
+      71
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 27,
+    "name": "Blizzaria",
+    "side": "back",
+    "source_bbox": [
+      4,
+      4,
+      60,
+      60
+    ],
+    "reference_bbox": [
+      29,
+      64,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 11,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      64,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 28,
+    "name": "Feulion",
+    "side": "front",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      138,
+      11,
+      205,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 6,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      14,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 28,
+    "name": "Feulion",
+    "side": "back",
+    "source_bbox": [
+      4,
+      7,
+      60,
+      57
+    ],
+    "reference_bbox": [
+      36,
+      59,
+      110,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 6,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      59,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 29,
+    "name": "Padrézo",
+    "side": "front",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      144,
+      10,
+      213,
+      64
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 6,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      14,
+      208,
+      64
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 29,
+    "name": "Padrézo",
+    "side": "back",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      28,
+      62,
+      106,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 9,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      62,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 30,
+    "name": "Émettor",
+    "side": "front",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      53
+    ],
+    "reference_bbox": [
+      139,
+      7,
+      217,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 11,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      19,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 30,
+    "name": "Émettor",
+    "side": "back",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      24,
+      59,
+      115,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 6,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      59,
+      104,
+      109
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 31,
+    "name": "Crocho",
+    "side": "front",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      138,
+      15,
+      207,
+      69
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 11,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      19,
+      208,
+      69
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 31,
+    "name": "Crocho",
+    "side": "back",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      30,
+      66,
+      107,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 13,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      66,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 32,
+    "name": "Potofeu",
+    "side": "front",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      144,
+      13,
+      209,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 6,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      14,
+      208,
+      67
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 32,
+    "name": "Potofeu",
+    "side": "back",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      31,
+      68,
+      109,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 15,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      68,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 33,
+    "name": "Misterre",
+    "side": "front",
+    "source_bbox": [
+      4,
+      12,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      133,
+      10,
+      212,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 14,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      22,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 33,
+    "name": "Misterre",
+    "side": "back",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      27,
+      62,
+      113,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 9,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      62,
+      104,
+      109
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 34,
+    "name": "Métaureaulog",
+    "side": "front",
+    "source_bbox": [
+      6,
+      4,
+      57,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      10,
+      202,
+      68
+    ],
+    "scale_q8": 278,
+    "center_x": 29,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      146,
+      8,
+      201,
+      69
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 34,
+    "name": "Métaureaulog",
+    "side": "back",
+    "source_bbox": [
+      6,
+      4,
+      58,
+      60
+    ],
+    "reference_bbox": [
+      41,
+      63,
+      104,
+      113
+    ],
+    "scale_q8": 310,
+    "center_x": 32,
+    "top": 10,
+    "y_offset": 4,
+    "predicted_bbox": [
+      41,
+      63,
+      104,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 35,
+    "name": "Tauracle",
+    "side": "front",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      142,
+      9,
+      211,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 6,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      14,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 35,
+    "name": "Tauracle",
+    "side": "back",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      31,
+      66,
+      107,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 13,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      66,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 36,
+    "name": "Poulpatouch",
+    "side": "front",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      144,
+      19,
+      204,
+      68
+    ],
+    "scale_q8": 277,
+    "center_x": 30,
+    "top": 11,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      19,
+      205,
+      68
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 36,
+    "name": "Poulpatouch",
+    "side": "back",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      33,
+      71,
+      100,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 18,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      71,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 37,
+    "name": "Poulpater",
+    "side": "front",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      137,
+      6,
+      215,
+      70
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 9,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      17,
+      208,
+      70
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 37,
+    "name": "Poulpater",
+    "side": "back",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      27,
+      57,
+      109,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 4,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      57,
+      104,
+      111
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 38,
+    "name": "Bonneto",
+    "side": "front",
+    "source_bbox": [
+      4,
+      4,
+      59,
+      60
+    ],
+    "reference_bbox": [
+      136,
+      3,
+      202,
+      70
+    ],
+    "scale_q8": 293,
+    "center_x": 31,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      8,
+      207,
+      72
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 38,
+    "name": "Bonneto",
+    "side": "back",
+    "source_bbox": [
+      5,
+      4,
+      58,
+      60
+    ],
+    "reference_bbox": [
+      37,
+      55,
+      107,
+      113
+    ],
+    "scale_q8": 309,
+    "center_x": 32,
+    "top": 2,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      55,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 39,
+    "name": "Sabri",
+    "side": "front",
+    "source_bbox": [
+      4,
+      5,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      140,
+      3,
+      210,
+      69
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      8,
+      208,
+      69
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 39,
+    "name": "Sabri",
+    "side": "back",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      57
+    ],
+    "reference_bbox": [
+      29,
+      55,
+      111,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 2,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      55,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 40,
+    "name": "Démophage",
+    "side": "front",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      53
+    ],
+    "reference_bbox": [
+      138,
+      12,
+      209,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 11,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      19,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 40,
+    "name": "Démophage",
+    "side": "back",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      53
+    ],
+    "reference_bbox": [
+      31,
+      66,
+      109,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 13,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      66,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 41,
+    "name": "Brumette",
+    "side": "front",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      144,
+      18,
+      200,
+      68
+    ],
+    "scale_q8": 251,
+    "center_x": 28,
+    "top": 9,
+    "y_offset": 0,
+    "predicted_bbox": [
+      145,
+      17,
+      200,
+      68
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 41,
+    "name": "Brumette",
+    "side": "back",
+    "source_bbox": [
+      4,
+      6,
+      59,
+      58
+    ],
+    "reference_bbox": [
+      37,
+      67,
+      99,
+      113
+    ],
+    "scale_q8": 289,
+    "center_x": 31,
+    "top": 14,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      67,
+      102,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 42,
+    "name": "Brumella",
+    "side": "front",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      140,
+      11,
+      206,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 5,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      13,
+      208,
+      67
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 42,
+    "name": "Brumella",
+    "side": "back",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      57
+    ],
+    "reference_bbox": [
+      40,
+      64,
+      102,
+      113
+    ],
+    "scale_q8": 283,
+    "center_x": 31,
+    "top": 11,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      64,
+      102,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 43,
+    "name": "Télémir",
+    "side": "front",
+    "source_bbox": [
+      4,
+      7,
+      60,
+      57
+    ],
+    "reference_bbox": [
+      144,
+      14,
+      205,
+      67
+    ],
+    "scale_q8": 275,
+    "center_x": 30,
+    "top": 5,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      13,
+      204,
+      67
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 43,
+    "name": "Télémir",
+    "side": "back",
+    "source_bbox": [
+      4,
+      7,
+      60,
+      57
+    ],
+    "reference_bbox": [
+      35,
+      64,
+      101,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 11,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      64,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 44,
+    "name": "Triptic-tac",
+    "side": "front",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      53
+    ],
+    "reference_bbox": [
+      141,
+      8,
+      215,
+      65
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 8,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      16,
+      208,
+      65
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 44,
+    "name": "Triptic-tac",
+    "side": "back",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      53
+    ],
+    "reference_bbox": [
+      28,
+      68,
+      109,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 15,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      68,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 45,
+    "name": "Nihilistik",
+    "side": "front",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      141,
+      13,
+      207,
+      66
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 8,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      16,
+      208,
+      66
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 45,
+    "name": "Nihilistik",
+    "side": "back",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      53
+    ],
+    "reference_bbox": [
+      37,
+      66,
+      110,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 13,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      66,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 46,
+    "name": "Émousstik",
+    "side": "front",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      53
+    ],
+    "reference_bbox": [
+      137,
+      12,
+      208,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 10,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      18,
+      208,
+      67
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 46,
+    "name": "Émousstik",
+    "side": "back",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      53
+    ],
+    "reference_bbox": [
+      31,
+      62,
+      108,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 9,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      62,
+      104,
+      111
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 47,
+    "name": "Humainequin",
+    "side": "front",
+    "source_bbox": [
+      10,
+      4,
+      53,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      5,
+      201,
+      66
+    ],
+    "scale_q8": 293,
+    "center_x": 28,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      148,
+      8,
+      197,
+      72
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 47,
+    "name": "Humainequin",
+    "side": "back",
+    "source_bbox": [
+      8,
+      4,
+      55,
+      60
+    ],
+    "reference_bbox": [
+      38,
+      64,
+      99,
+      113
+    ],
+    "scale_q8": 332,
+    "center_x": 30,
+    "top": 11,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      64,
+      101,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 48,
+    "name": "Slurpent",
+    "side": "front",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      142,
+      13,
+      206,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 6,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      14,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 48,
+    "name": "Slurpent",
+    "side": "back",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      30,
+      66,
+      107,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 13,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      66,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 49,
+    "name": "Baku",
+    "side": "front",
+    "source_bbox": [
+      4,
+      18,
+      60,
+      45
+    ],
+    "reference_bbox": [
+      135,
+      22,
+      210,
+      65
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 26,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      34,
+      208,
+      65
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 49,
+    "name": "Baku",
+    "side": "back",
+    "source_bbox": [
+      4,
+      15,
+      60,
+      49
+    ],
+    "reference_bbox": [
+      28,
+      81,
+      106,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 28,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      81,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 50,
+    "name": "Bakuku",
+    "side": "front",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      53
+    ],
+    "reference_bbox": [
+      135,
+      11,
+      211,
+      70
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 14,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      22,
+      208,
+      70
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 50,
+    "name": "Bakuku",
+    "side": "back",
+    "source_bbox": [
+      4,
+      7,
+      60,
+      56
+    ],
+    "reference_bbox": [
+      32,
+      63,
+      102,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 10,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      63,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 51,
+    "name": "Mognyan",
+    "side": "front",
+    "source_bbox": [
+      8,
+      4,
+      55,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      5,
+      198,
+      65
+    ],
+    "scale_q8": 284,
+    "center_x": 27,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      145,
+      8,
+      197,
+      70
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 51,
+    "name": "Mognyan",
+    "side": "back",
+    "source_bbox": [
+      8,
+      4,
+      56,
+      60
+    ],
+    "reference_bbox": [
+      37,
+      51,
+      99,
+      113
+    ],
+    "scale_q8": 331,
+    "center_x": 31,
+    "top": 0,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      53,
+      102,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 52,
+    "name": "Bouh",
+    "side": "front",
+    "source_bbox": [
+      4,
+      15,
+      60,
+      48
+    ],
+    "reference_bbox": [
+      137,
+      20,
+      214,
+      66
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 20,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      28,
+      208,
+      66
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 52,
+    "name": "Bouh",
+    "side": "back",
+    "source_bbox": [
+      4,
+      15,
+      60,
+      48
+    ],
+    "reference_bbox": [
+      31,
+      70,
+      110,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 17,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      70,
+      104,
+      108
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 53,
+    "name": "Lacanne",
+    "side": "front",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      144,
+      11,
+      217,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      8,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 53,
+    "name": "Lacanne",
+    "side": "back",
+    "source_bbox": [
+      6,
+      4,
+      58,
+      60
+    ],
+    "reference_bbox": [
+      24,
+      66,
+      99,
+      113
+    ],
+    "scale_q8": 315,
+    "center_x": 32,
+    "top": 13,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      66,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 54,
+    "name": "Canastelle",
+    "side": "front",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      144,
+      16,
+      208,
+      68
+    ],
+    "scale_q8": 288,
+    "center_x": 32,
+    "top": 7,
+    "y_offset": 0,
+    "predicted_bbox": [
+      145,
+      15,
+      208,
+      68
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 54,
+    "name": "Canastelle",
+    "side": "back",
+    "source_bbox": [
+      4,
+      7,
+      60,
+      56
+    ],
+    "reference_bbox": [
+      28,
+      67,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 14,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      67,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 55,
+    "name": "Yvantouse",
+    "side": "front",
+    "source_bbox": [
+      4,
+      12,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      144,
+      20,
+      214,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 14,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      22,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 55,
+    "name": "Yvantouse",
+    "side": "back",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      24,
+      70,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 17,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      70,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 56,
+    "name": "Ed Mémoire",
+    "side": "front",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      144,
+      6,
+      216,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 8,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      16,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 56,
+    "name": "Ed Mémoire",
+    "side": "back",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      31,
+      55,
+      110,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 2,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      55,
+      104,
+      108
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 57,
+    "name": "Couchtar",
+    "side": "front",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      143,
+      12,
+      209,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 6,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      14,
+      208,
+      67
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 57,
+    "name": "Couchtar",
+    "side": "back",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      56
+    ],
+    "reference_bbox": [
+      32,
+      61,
+      104,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 8,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      61,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 58,
+    "name": "Noctambill",
+    "side": "front",
+    "source_bbox": [
+      4,
+      13,
+      60,
+      51
+    ],
+    "reference_bbox": [
+      141,
+      12,
+      221,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 17,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      25,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 58,
+    "name": "Noctambill",
+    "side": "back",
+    "source_bbox": [
+      4,
+      12,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      26,
+      72,
+      106,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 19,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      72,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 59,
+    "name": "Fouétar",
+    "side": "front",
+    "source_bbox": [
+      4,
+      13,
+      60,
+      50
+    ],
+    "reference_bbox": [
+      138,
+      16,
+      217,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 18,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      26,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 59,
+    "name": "Fouétar",
+    "side": "back",
+    "source_bbox": [
+      4,
+      12,
+      60,
+      51
+    ],
+    "reference_bbox": [
+      24,
+      72,
+      108,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 19,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      72,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 60,
+    "name": "Superfouétar",
+    "side": "front",
+    "source_bbox": [
+      4,
+      14,
+      60,
+      49
+    ],
+    "reference_bbox": [
+      135,
+      19,
+      212,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 19,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      27,
+      208,
+      67
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 60,
+    "name": "Superfouétar",
+    "side": "back",
+    "source_bbox": [
+      4,
+      13,
+      60,
+      50
+    ],
+    "reference_bbox": [
+      30,
+      75,
+      109,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 22,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      75,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 61,
+    "name": "Égare-dare",
+    "side": "front",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      137,
+      9,
+      211,
+      70
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 9,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      17,
+      208,
+      70
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 61,
+    "name": "Égare-dare",
+    "side": "back",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      14,
+      59,
+      100,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 6,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      59,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 62,
+    "name": "Chauvekipeut",
+    "side": "front",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      140,
+      7,
+      214,
+      70
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 8,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      16,
+      208,
+      70
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 62,
+    "name": "Chauvekipeut",
+    "side": "back",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      56
+    ],
+    "reference_bbox": [
+      25,
+      55,
+      117,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 2,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      55,
+      104,
+      110
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 63,
+    "name": "Chihuaglagla",
+    "side": "front",
+    "source_bbox": [
+      6,
+      4,
+      58,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      8,
+      200,
+      69
+    ],
+    "scale_q8": 277,
+    "center_x": 28,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      8,
+      200,
+      69
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 63,
+    "name": "Chihuaglagla",
+    "side": "back",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      31,
+      65,
+      101,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 12,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      65,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 64,
+    "name": "Froahuahua",
+    "side": "front",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      144,
+      13,
+      206,
+      70
+    ],
+    "scale_q8": 282,
+    "center_x": 31,
+    "top": 5,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      13,
+      206,
+      70
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 64,
+    "name": "Froahuahua",
+    "side": "back",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      36,
+      61,
+      105,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 8,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      61,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 65,
+    "name": "Gorgouille",
+    "side": "front",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      53
+    ],
+    "reference_bbox": [
+      136,
+      7,
+      215,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 10,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      18,
+      208,
+      67
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 65,
+    "name": "Gorgouille",
+    "side": "back",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      56
+    ],
+    "reference_bbox": [
+      23,
+      56,
+      109,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 3,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      56,
+      104,
+      111
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 66,
+    "name": "Sirénée",
+    "side": "front",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      144,
+      11,
+      213,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 10,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      18,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 66,
+    "name": "Sirénée",
+    "side": "back",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      29,
+      66,
+      103,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 13,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      66,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 67,
+    "name": "Sirènité",
+    "side": "front",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      144,
+      10,
+      210,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 6,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      14,
+      208,
+      67
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 67,
+    "name": "Sirènité",
+    "side": "back",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      32,
+      65,
+      104,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 12,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      65,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 68,
+    "name": "Papa Ress",
+    "side": "front",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      141,
+      17,
+      201,
+      67
+    ],
+    "scale_q8": 276,
+    "center_x": 30,
+    "top": 9,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      17,
+      204,
+      67
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 68,
+    "name": "Papa Ress",
+    "side": "back",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      56
+    ],
+    "reference_bbox": [
+      40,
+      65,
+      105,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 12,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      65,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 69,
+    "name": "Ralbouc",
+    "side": "front",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      53
+    ],
+    "reference_bbox": [
+      139,
+      15,
+      210,
+      69
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 13,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      21,
+      208,
+      69
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 69,
+    "name": "Ralbouc",
+    "side": "back",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      38,
+      66,
+      99,
+      113
+    ],
+    "scale_q8": 279,
+    "center_x": 30,
+    "top": 13,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      66,
+      101,
+      113
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 70,
+    "name": "Sorcophage",
+    "side": "front",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      139,
+      12,
+      207,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 8,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      16,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 70,
+    "name": "Sorcophage",
+    "side": "back",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      29,
+      64,
+      100,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 11,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      64,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 71,
+    "name": "Insomnelle",
+    "side": "front",
+    "source_bbox": [
+      6,
+      4,
+      58,
+      59
+    ],
+    "reference_bbox": [
+      144,
+      9,
+      199,
+      68
+    ],
+    "scale_q8": 273,
+    "center_x": 28,
+    "top": 1,
+    "y_offset": 0,
+    "predicted_bbox": [
+      145,
+      9,
+      200,
+      68
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 71,
+    "name": "Insomnelle",
+    "side": "back",
+    "source_bbox": [
+      6,
+      5,
+      57,
+      59
+    ],
+    "reference_bbox": [
+      29,
+      63,
+      99,
+      113
+    ],
+    "scale_q8": 321,
+    "center_x": 32,
+    "top": 10,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      63,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 72,
+    "name": "Tata Aura",
+    "side": "front",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      144,
+      8,
+      209,
+      69
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 1,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      9,
+      208,
+      69
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 72,
+    "name": "Tata Aura",
+    "side": "back",
+    "source_bbox": [
+      4,
+      4,
+      60,
+      60
+    ],
+    "reference_bbox": [
+      28,
+      59,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 6,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      59,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 73,
+    "name": "Tontonnerre",
+    "side": "front",
+    "source_bbox": [
+      5,
+      4,
+      59,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      5,
+      205,
+      68
+    ],
+    "scale_q8": 289,
+    "center_x": 30,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      8,
+      205,
+      71
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 73,
+    "name": "Tontonnerre",
+    "side": "back",
+    "source_bbox": [
+      5,
+      4,
+      58,
+      60
+    ],
+    "reference_bbox": [
+      34,
+      59,
+      101,
+      113
+    ],
+    "scale_q8": 309,
+    "center_x": 32,
+    "top": 6,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      59,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 74,
+    "name": "Antonnerre",
+    "side": "front",
+    "source_bbox": [
+      4,
+      4,
+      60,
+      60
+    ],
+    "reference_bbox": [
+      140,
+      11,
+      197,
+      73
+    ],
+    "scale_q8": 272,
+    "center_x": 30,
+    "top": 4,
+    "y_offset": 1,
+    "predicted_bbox": [
+      144,
+      13,
+      204,
+      73
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 74,
+    "name": "Antonnerre",
+    "side": "back",
+    "source_bbox": [
+      4,
+      7,
+      60,
+      56
+    ],
+    "reference_bbox": [
+      31,
+      71,
+      102,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 18,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      71,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 75,
+    "name": "Parantonn",
+    "side": "front",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      53
+    ],
+    "reference_bbox": [
+      141,
+      16,
+      206,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 11,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      19,
+      208,
+      67
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 75,
+    "name": "Parantonn",
+    "side": "back",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      32,
+      66,
+      100,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 13,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      66,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 76,
+    "name": "Scoltine",
+    "side": "front",
+    "source_bbox": [
+      4,
+      5,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      144,
+      18,
+      203,
+      67
+    ],
+    "scale_q8": 253,
+    "center_x": 30,
+    "top": 7,
+    "y_offset": 0,
+    "predicted_bbox": [
+      147,
+      15,
+      202,
+      67
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 76,
+    "name": "Scoltine",
+    "side": "back",
+    "source_bbox": [
+      6,
+      4,
+      57,
+      60
+    ],
+    "reference_bbox": [
+      34,
+      68,
+      99,
+      113
+    ],
+    "scale_q8": 321,
+    "center_x": 32,
+    "top": 15,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      68,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 77,
+    "name": "Scolérique",
+    "side": "front",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      142,
+      9,
+      205,
+      68
+    ],
+    "scale_q8": 289,
+    "center_x": 31,
+    "top": 1,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      9,
+      207,
+      68
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 77,
+    "name": "Scolérique",
+    "side": "back",
+    "source_bbox": [
+      4,
+      5,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      32,
+      62,
+      100,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 9,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      62,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 78,
+    "name": "Coléroptère",
+    "side": "front",
+    "source_bbox": [
+      4,
+      7,
+      60,
+      56
+    ],
+    "reference_bbox": [
+      142,
+      13,
+      205,
+      68
+    ],
+    "scale_q8": 288,
+    "center_x": 31,
+    "top": 5,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      13,
+      207,
+      68
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 78,
+    "name": "Coléroptère",
+    "side": "back",
+    "source_bbox": [
+      4,
+      7,
+      60,
+      57
+    ],
+    "reference_bbox": [
+      37,
+      65,
+      106,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 12,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      65,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 79,
+    "name": "Rhinolimit",
+    "side": "front",
+    "source_bbox": [
+      4,
+      12,
+      60,
+      51
+    ],
+    "reference_bbox": [
+      137,
+      13,
+      215,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 14,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      22,
+      208,
+      67
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 79,
+    "name": "Rhinolimit",
+    "side": "back",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      22,
+      65,
+      109,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 12,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      65,
+      104,
+      112
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 80,
+    "name": "Scatcheur",
+    "side": "front",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      56
+    ],
+    "reference_bbox": [
+      144,
+      12,
+      213,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 4,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      12,
+      208,
+      67
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 80,
+    "name": "Scatcheur",
+    "side": "back",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      56
+    ],
+    "reference_bbox": [
+      22,
+      65,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 12,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      65,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 81,
+    "name": "Scarmouche",
+    "side": "front",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      144,
+      12,
+      215,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 6,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      14,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 81,
+    "name": "Scarmouche",
+    "side": "back",
+    "source_bbox": [
+      4,
+      7,
+      60,
+      57
+    ],
+    "reference_bbox": [
+      28,
+      62,
+      106,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 9,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      62,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 82,
+    "name": "Noko",
+    "side": "front",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      57
+    ],
+    "reference_bbox": [
+      144,
+      19,
+      204,
+      68
+    ],
+    "scale_q8": 260,
+    "center_x": 30,
+    "top": 8,
+    "y_offset": 0,
+    "predicted_bbox": [
+      146,
+      16,
+      203,
+      68
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 82,
+    "name": "Noko",
+    "side": "back",
+    "source_bbox": [
+      4,
+      4,
+      60,
+      60
+    ],
+    "reference_bbox": [
+      36,
+      66,
+      99,
+      113
+    ],
+    "scale_q8": 288,
+    "center_x": 31,
+    "top": 13,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      66,
+      103,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 83,
+    "name": "Nénunoko",
+    "side": "front",
+    "source_bbox": [
+      6,
+      4,
+      57,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      13,
+      199,
+      69
+    ],
+    "scale_q8": 266,
+    "center_x": 28,
+    "top": 3,
+    "y_offset": 0,
+    "predicted_bbox": [
+      146,
+      11,
+      199,
+      69
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 83,
+    "name": "Nénunoko",
+    "side": "back",
+    "source_bbox": [
+      8,
+      4,
+      55,
+      60
+    ],
+    "reference_bbox": [
+      37,
+      61,
+      99,
+      113
+    ],
+    "scale_q8": 338,
+    "center_x": 31,
+    "top": 8,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      61,
+      102,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 84,
+    "name": "Tryptik",
+    "side": "front",
+    "source_bbox": [
+      5,
+      9,
+      59,
+      55
+    ],
+    "reference_bbox": [
+      141,
+      11,
+      217,
+      70
+    ],
+    "scale_q8": 303,
+    "center_x": 32,
+    "top": 8,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      16,
+      208,
+      70
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 84,
+    "name": "Tryptik",
+    "side": "back",
+    "source_bbox": [
+      5,
+      8,
+      58,
+      56
+    ],
+    "reference_bbox": [
+      28,
+      66,
+      106,
+      113
+    ],
+    "scale_q8": 309,
+    "center_x": 32,
+    "top": 13,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      66,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 85,
+    "name": "Carpitaine",
+    "side": "front",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      53
+    ],
+    "reference_bbox": [
+      142,
+      12,
+      214,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 10,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      18,
+      208,
+      67
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 85,
+    "name": "Carpitaine",
+    "side": "back",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      56
+    ],
+    "reference_bbox": [
+      22,
+      60,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 7,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      60,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 86,
+    "name": "Turboss",
+    "side": "front",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      53
+    ],
+    "reference_bbox": [
+      139,
+      15,
+      219,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 12,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      20,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 86,
+    "name": "Turboss",
+    "side": "back",
+    "source_bbox": [
+      5,
+      11,
+      59,
+      53
+    ],
+    "reference_bbox": [
+      18,
+      68,
+      107,
+      113
+    ],
+    "scale_q8": 303,
+    "center_x": 32,
+    "top": 15,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      68,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 87,
+    "name": "Kappacap",
+    "side": "front",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      144,
+      22,
+      210,
+      67
+    ],
+    "scale_q8": 291,
+    "center_x": 32,
+    "top": 12,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      20,
+      208,
+      67
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 87,
+    "name": "Kappacap",
+    "side": "back",
+    "source_bbox": [
+      4,
+      12,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      22,
+      75,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 22,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      75,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 88,
+    "name": "Appak",
+    "side": "front",
+    "source_bbox": [
+      4,
+      13,
+      60,
+      50
+    ],
+    "reference_bbox": [
+      133,
+      14,
+      211,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 17,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      25,
+      208,
+      67
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 88,
+    "name": "Appak",
+    "side": "back",
+    "source_bbox": [
+      4,
+      14,
+      60,
+      50
+    ],
+    "reference_bbox": [
+      25,
+      72,
+      106,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 19,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      72,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 89,
+    "name": "Camaïeul",
+    "side": "front",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      57
+    ],
+    "reference_bbox": [
+      144,
+      11,
+      202,
+      68
+    ],
+    "scale_q8": 275,
+    "center_x": 30,
+    "top": 5,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      13,
+      204,
+      68
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 89,
+    "name": "Camaïeul",
+    "side": "back",
+    "source_bbox": [
+      6,
+      4,
+      58,
+      60
+    ],
+    "reference_bbox": [
+      35,
+      64,
+      99,
+      113
+    ],
+    "scale_q8": 315,
+    "center_x": 32,
+    "top": 11,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      64,
+      104,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 90,
+    "name": "Glapie",
+    "side": "front",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      141,
+      12,
+      206,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 5,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      13,
+      208,
+      67
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 90,
+    "name": "Glapie",
+    "side": "back",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      56
+    ],
+    "reference_bbox": [
+      37,
+      68,
+      108,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 15,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      68,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 91,
+    "name": "Chiperpiou",
+    "side": "front",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      53
+    ],
+    "reference_bbox": [
+      142,
+      16,
+      209,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 10,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      18,
+      208,
+      67
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 91,
+    "name": "Chiperpiou",
+    "side": "back",
+    "source_bbox": [
+      4,
+      12,
+      60,
+      51
+    ],
+    "reference_bbox": [
+      29,
+      72,
+      107,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 19,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      72,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 92,
+    "name": "Rapiaf",
+    "side": "front",
+    "source_bbox": [
+      4,
+      12,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      131,
+      13,
+      209,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 14,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      22,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 92,
+    "name": "Rapiaf",
+    "side": "back",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      23,
+      66,
+      110,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 13,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      66,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 93,
+    "name": "Tête de lard",
+    "side": "front",
+    "source_bbox": [
+      9,
+      4,
+      55,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      13,
+      197,
+      66
+    ],
+    "scale_q8": 267,
+    "center_x": 26,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      146,
+      8,
+      194,
+      66
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 93,
+    "name": "Tête de lard",
+    "side": "back",
+    "source_bbox": [
+      10,
+      4,
+      53,
+      60
+    ],
+    "reference_bbox": [
+      36,
+      69,
+      99,
+      113
+    ],
+    "scale_q8": 375,
+    "center_x": 31,
+    "top": 16,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      69,
+      103,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 94,
+    "name": "Potache",
+    "side": "front",
+    "source_bbox": [
+      5,
+      4,
+      59,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      20,
+      193,
+      68
+    ],
+    "scale_q8": 226,
+    "center_x": 24,
+    "top": 11,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      19,
+      192,
+      68
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 94,
+    "name": "Potache",
+    "side": "back",
+    "source_bbox": [
+      5,
+      4,
+      59,
+      60
+    ],
+    "reference_bbox": [
+      42,
+      69,
+      99,
+      113
+    ],
+    "scale_q8": 270,
+    "center_x": 30,
+    "top": 16,
+    "y_offset": 4,
+    "predicted_bbox": [
+      42,
+      69,
+      99,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 95,
+    "name": "Dépotache",
+    "side": "front",
+    "source_bbox": [
+      8,
+      4,
+      56,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      8,
+      198,
+      67
+    ],
+    "scale_q8": 279,
+    "center_x": 27,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      145,
+      8,
+      197,
+      69
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 95,
+    "name": "Dépotache",
+    "side": "back",
+    "source_bbox": [
+      8,
+      4,
+      55,
+      60
+    ],
+    "reference_bbox": [
+      35,
+      60,
+      99,
+      113
+    ],
+    "scale_q8": 349,
+    "center_x": 32,
+    "top": 7,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      60,
+      104,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 96,
+    "name": "Navétéran",
+    "side": "front",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      138,
+      16,
+      193,
+      67
+    ],
+    "scale_q8": 251,
+    "center_x": 27,
+    "top": 8,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      16,
+      199,
+      67
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 96,
+    "name": "Navétéran",
+    "side": "back",
+    "source_bbox": [
+      4,
+      4,
+      59,
+      60
+    ],
+    "reference_bbox": [
+      37,
+      71,
+      99,
+      113
+    ],
+    "scale_q8": 289,
+    "center_x": 31,
+    "top": 18,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      71,
+      102,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 97,
+    "name": "Navigarmateur",
+    "side": "front",
+    "source_bbox": [
+      6,
+      4,
+      58,
+      60
+    ],
+    "reference_bbox": [
+      143,
+      11,
+      195,
+      69
+    ],
+    "scale_q8": 261,
+    "center_x": 26,
+    "top": 4,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      12,
+      197,
+      69
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 97,
+    "name": "Navigarmateur",
+    "side": "back",
+    "source_bbox": [
+      8,
+      4,
+      55,
+      60
+    ],
+    "reference_bbox": [
+      41,
+      60,
+      99,
+      113
+    ],
+    "scale_q8": 316,
+    "center_x": 30,
+    "top": 7,
+    "y_offset": 4,
+    "predicted_bbox": [
+      41,
+      60,
+      99,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 98,
+    "name": "Sergent Rampant",
+    "side": "front",
+    "source_bbox": [
+      4,
+      4,
+      60,
+      59
+    ],
+    "reference_bbox": [
+      144,
+      20,
+      201,
+      68
+    ],
+    "scale_q8": 241,
+    "center_x": 28,
+    "top": 8,
+    "y_offset": 0,
+    "predicted_bbox": [
+      146,
+      16,
+      199,
+      68
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 98,
+    "name": "Sergent Rampant",
+    "side": "back",
+    "source_bbox": [
+      5,
+      4,
+      58,
+      60
+    ],
+    "reference_bbox": [
+      41,
+      73,
+      99,
+      113
+    ],
+    "scale_q8": 280,
+    "center_x": 30,
+    "top": 20,
+    "y_offset": 4,
+    "predicted_bbox": [
+      41,
+      73,
+      99,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 99,
+    "name": "Coach Antonic",
+    "side": "front",
+    "source_bbox": [
+      4,
+      5,
+      60,
+      59
+    ],
+    "reference_bbox": [
+      142,
+      10,
+      201,
+      67
+    ],
+    "scale_q8": 270,
+    "center_x": 29,
+    "top": 2,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      10,
+      203,
+      67
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 99,
+    "name": "Coach Antonic",
+    "side": "back",
+    "source_bbox": [
+      4,
+      7,
+      60,
+      57
+    ],
+    "reference_bbox": [
+      28,
+      63,
+      102,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 10,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      63,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 100,
+    "name": "Usapyon",
+    "side": "front",
+    "source_bbox": [
+      12,
+      4,
+      52,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      10,
+      195,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 26,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      147,
+      8,
+      193,
+      72
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 100,
+    "name": "Usapyon",
+    "side": "back",
+    "source_bbox": [
+      14,
+      4,
+      50,
+      59
+    ],
+    "reference_bbox": [
+      41,
+      60,
+      99,
+      113
+    ],
+    "scale_q8": 412,
+    "center_x": 30,
+    "top": 7,
+    "y_offset": 4,
+    "predicted_bbox": [
+      41,
+      60,
+      99,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 101,
+    "name": "Emperor",
+    "side": "front",
+    "source_bbox": [
+      13,
+      4,
+      51,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      6,
+      196,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 26,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      149,
+      8,
+      192,
+      72
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 101,
+    "name": "Emperor",
+    "side": "back",
+    "source_bbox": [
+      6,
+      4,
+      57,
+      60
+    ],
+    "reference_bbox": [
+      40,
+      53,
+      99,
+      113
+    ],
+    "scale_q8": 296,
+    "center_x": 30,
+    "top": 0,
+    "y_offset": 4,
+    "predicted_bbox": [
+      41,
+      53,
+      100,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 102,
+    "name": "Castelius III",
+    "side": "front",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      56
+    ],
+    "reference_bbox": [
+      132,
+      5,
+      208,
+      71
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 8,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      16,
+      208,
+      71
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 102,
+    "name": "Castelius III",
+    "side": "back",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      57
+    ],
+    "reference_bbox": [
+      26,
+      55,
+      112,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 2,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      55,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 103,
+    "name": "Castelius II",
+    "side": "front",
+    "source_bbox": [
+      4,
+      7,
+      60,
+      56
+    ],
+    "reference_bbox": [
+      133,
+      5,
+      207,
+      70
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 6,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      14,
+      208,
+      70
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 103,
+    "name": "Castelius II",
+    "side": "back",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      57
+    ],
+    "reference_bbox": [
+      27,
+      55,
+      111,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 2,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      55,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 104,
+    "name": "Castelius I",
+    "side": "front",
+    "source_bbox": [
+      4,
+      7,
+      60,
+      56
+    ],
+    "reference_bbox": [
+      133,
+      4,
+      207,
+      70
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 6,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      14,
+      208,
+      70
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 104,
+    "name": "Castelius I",
+    "side": "back",
+    "source_bbox": [
+      4,
+      7,
+      60,
+      56
+    ],
+    "reference_bbox": [
+      28,
+      57,
+      109,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 4,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      57,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 105,
+    "name": "Castelius Max",
+    "side": "front",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      134,
+      7,
+      206,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 6,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      14,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 105,
+    "name": "Castelius Max",
+    "side": "back",
+    "source_bbox": [
+      4,
+      7,
+      60,
+      56
+    ],
+    "reference_bbox": [
+      30,
+      59,
+      109,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 6,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      59,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 106,
+    "name": "Pitou",
+    "side": "front",
+    "source_bbox": [
+      7,
+      4,
+      57,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      15,
+      195,
+      64
+    ],
+    "scale_q8": 242,
+    "center_x": 26,
+    "top": 3,
+    "y_offset": 0,
+    "predicted_bbox": [
+      147,
+      11,
+      194,
+      64
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 106,
+    "name": "Pitou",
+    "side": "back",
+    "source_bbox": [
+      6,
+      4,
+      58,
+      60
+    ],
+    "reference_bbox": [
+      40,
+      65,
+      99,
+      113
+    ],
+    "scale_q8": 290,
+    "center_x": 30,
+    "top": 12,
+    "y_offset": 4,
+    "predicted_bbox": [
+      41,
+      65,
+      100,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 107,
+    "name": "Choubidou",
+    "side": "front",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      140,
+      14,
+      205,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 6,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      14,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 107,
+    "name": "Choubidou",
+    "side": "back",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      30,
+      62,
+      104,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 9,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      62,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 108,
+    "name": "Arbrézo",
+    "side": "front",
+    "source_bbox": [
+      4,
+      5,
+      60,
+      59
+    ],
+    "reference_bbox": [
+      144,
+      13,
+      206,
+      67
+    ],
+    "scale_q8": 269,
+    "center_x": 31,
+    "top": 2,
+    "y_offset": 0,
+    "predicted_bbox": [
+      146,
+      10,
+      205,
+      67
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 108,
+    "name": "Arbrézo",
+    "side": "back",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      34,
+      63,
+      103,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 10,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      63,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 109,
+    "name": "Abrézo Social",
+    "side": "front",
+    "source_bbox": [
+      5,
+      4,
+      59,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      8,
+      203,
+      68
+    ],
+    "scale_q8": 277,
+    "center_x": 30,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      145,
+      8,
+      203,
+      69
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 109,
+    "name": "Abrézo Social",
+    "side": "back",
+    "source_bbox": [
+      4,
+      4,
+      60,
+      60
+    ],
+    "reference_bbox": [
+      33,
+      57,
+      100,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 4,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      57,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 110,
+    "name": "Espreschiot",
+    "side": "front",
+    "source_bbox": [
+      7,
+      4,
+      56,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      9,
+      199,
+      68
+    ],
+    "scale_q8": 278,
+    "center_x": 28,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      146,
+      8,
+      199,
+      69
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 110,
+    "name": "Espreschiot",
+    "side": "back",
+    "source_bbox": [
+      6,
+      4,
+      58,
+      60
+    ],
+    "reference_bbox": [
+      35,
+      62,
+      99,
+      113
+    ],
+    "scale_q8": 315,
+    "center_x": 32,
+    "top": 9,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      62,
+      104,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 111,
+    "name": "Duc Delafeuille",
+    "side": "front",
+    "source_bbox": [
+      4,
+      5,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      144,
+      16,
+      203,
+      67
+    ],
+    "scale_q8": 258,
+    "center_x": 30,
+    "top": 6,
+    "y_offset": 0,
+    "predicted_bbox": [
+      146,
+      14,
+      202,
+      67
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 111,
+    "name": "Duc Delafeuille",
+    "side": "back",
+    "source_bbox": [
+      4,
+      4,
+      60,
+      60
+    ],
+    "reference_bbox": [
+      36,
+      73,
+      99,
+      113
+    ],
+    "scale_q8": 288,
+    "center_x": 31,
+    "top": 20,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      73,
+      103,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 112,
+    "name": "Feuildechou",
+    "side": "front",
+    "source_bbox": [
+      5,
+      13,
+      58,
+      50
+    ],
+    "reference_bbox": [
+      138,
+      14,
+      214,
+      64
+    ],
+    "scale_q8": 309,
+    "center_x": 32,
+    "top": 11,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      19,
+      208,
+      64
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 112,
+    "name": "Feuildechou",
+    "side": "back",
+    "source_bbox": [
+      9,
+      13,
+      55,
+      50
+    ],
+    "reference_bbox": [
+      25,
+      72,
+      109,
+      113
+    ],
+    "scale_q8": 356,
+    "center_x": 32,
+    "top": 19,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      72,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 113,
+    "name": "Sal de bain",
+    "side": "front",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      144,
+      10,
+      207,
+      67
+    ],
+    "scale_q8": 284,
+    "center_x": 32,
+    "top": 1,
+    "y_offset": 0,
+    "predicted_bbox": [
+      145,
+      9,
+      207,
+      67
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 113,
+    "name": "Sal de bain",
+    "side": "back",
+    "source_bbox": [
+      4,
+      5,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      32,
+      61,
+      100,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 8,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      61,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 114,
+    "name": "XXL de bain",
+    "side": "front",
+    "source_bbox": [
+      6,
+      9,
+      57,
+      55
+    ],
+    "reference_bbox": [
+      142,
+      16,
+      218,
+      67
+    ],
+    "scale_q8": 321,
+    "center_x": 32,
+    "top": 1,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      9,
+      208,
+      67
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 114,
+    "name": "XXL de bain",
+    "side": "back",
+    "source_bbox": [
+      7,
+      9,
+      56,
+      54
+    ],
+    "reference_bbox": [
+      23,
+      67,
+      110,
+      113
+    ],
+    "scale_q8": 334,
+    "center_x": 32,
+    "top": 14,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      67,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 115,
+    "name": "Tristos",
+    "side": "front",
+    "source_bbox": [
+      4,
+      7,
+      60,
+      56
+    ],
+    "reference_bbox": [
+      141,
+      8,
+      205,
+      64
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      8,
+      208,
+      64
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 115,
+    "name": "Tristos",
+    "side": "back",
+    "source_bbox": [
+      4,
+      5,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      35,
+      60,
+      100,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 7,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      60,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 116,
+    "name": "Rocky Badboya",
+    "side": "front",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      141,
+      14,
+      211,
+      69
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 11,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      19,
+      208,
+      69
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 116,
+    "name": "Rocky Badboya",
+    "side": "back",
+    "source_bbox": [
+      4,
+      15,
+      60,
+      48
+    ],
+    "reference_bbox": [
+      27,
+      62,
+      112,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 9,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      62,
+      104,
+      100
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 117,
+    "name": "Raton Glandeur",
+    "side": "front",
+    "source_bbox": [
+      4,
+      13,
+      59,
+      50
+    ],
+    "reference_bbox": [
+      138,
+      22,
+      215,
+      68
+    ],
+    "scale_q8": 298,
+    "center_x": 32,
+    "top": 17,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      25,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 117,
+    "name": "Raton Glandeur",
+    "side": "back",
+    "source_bbox": [
+      8,
+      15,
+      56,
+      48
+    ],
+    "reference_bbox": [
+      25,
+      79,
+      108,
+      113
+    ],
+    "scale_q8": 341,
+    "center_x": 32,
+    "top": 26,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      79,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 118,
+    "name": "Vertipiou",
+    "side": "front",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      144,
+      20,
+      203,
+      68
+    ],
+    "scale_q8": 274,
+    "center_x": 30,
+    "top": 13,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      21,
+      204,
+      68
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 118,
+    "name": "Vertipiou",
+    "side": "back",
+    "source_bbox": [
+      4,
+      4,
+      60,
+      60
+    ],
+    "reference_bbox": [
+      35,
+      68,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 15,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      68,
+      104,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 119,
+    "name": "Samoussraï",
+    "side": "front",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      141,
+      18,
+      206,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 12,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      20,
+      208,
+      67
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 119,
+    "name": "Samoussraï",
+    "side": "back",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      32,
+      76,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 23,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      76,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 120,
+    "name": "Ronimpec",
+    "side": "front",
+    "source_bbox": [
+      4,
+      5,
+      60,
+      59
+    ],
+    "reference_bbox": [
+      141,
+      8,
+      203,
+      68
+    ],
+    "scale_q8": 284,
+    "center_x": 31,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      8,
+      206,
+      68
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 120,
+    "name": "Ronimpec",
+    "side": "back",
+    "source_bbox": [
+      4,
+      5,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      34,
+      67,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 14,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      67,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 121,
+    "name": "Moufpète",
+    "side": "front",
+    "source_bbox": [
+      4,
+      4,
+      60,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      10,
+      207,
+      68
+    ],
+    "scale_q8": 276,
+    "center_x": 32,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      146,
+      8,
+      206,
+      68
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 121,
+    "name": "Moufpète",
+    "side": "back",
+    "source_bbox": [
+      6,
+      4,
+      58,
+      60
+    ],
+    "reference_bbox": [
+      33,
+      61,
+      99,
+      113
+    ],
+    "scale_q8": 315,
+    "center_x": 32,
+    "top": 8,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      61,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 122,
+    "name": "Gloups",
+    "side": "front",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      144,
+      17,
+      204,
+      68
+    ],
+    "scale_q8": 279,
+    "center_x": 30,
+    "top": 10,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      18,
+      205,
+      68
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 122,
+    "name": "Gloups",
+    "side": "back",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      40,
+      66,
+      101,
+      113
+    ],
+    "scale_q8": 279,
+    "center_x": 30,
+    "top": 13,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      66,
+      101,
+      111
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 123,
+    "name": "Chip-Chop",
+    "side": "front",
+    "source_bbox": [
+      5,
+      4,
+      59,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      11,
+      201,
+      69
+    ],
+    "scale_q8": 268,
+    "center_x": 28,
+    "top": 2,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      10,
+      201,
+      69
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 123,
+    "name": "Chip-Chop",
+    "side": "back",
+    "source_bbox": [
+      7,
+      4,
+      56,
+      60
+    ],
+    "reference_bbox": [
+      41,
+      61,
+      99,
+      113
+    ],
+    "scale_q8": 303,
+    "center_x": 30,
+    "top": 8,
+    "y_offset": 4,
+    "predicted_bbox": [
+      41,
+      61,
+      99,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 124,
+    "name": "Chaipo",
+    "side": "front",
+    "source_bbox": [
+      4,
+      14,
+      60,
+      50
+    ],
+    "reference_bbox": [
+      144,
+      22,
+      203,
+      62
+    ],
+    "scale_q8": 277,
+    "center_x": 30,
+    "top": 15,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      23,
+      205,
+      62
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 124,
+    "name": "Chaipo",
+    "side": "back",
+    "source_bbox": [
+      5,
+      13,
+      59,
+      51
+    ],
+    "reference_bbox": [
+      36,
+      81,
+      99,
+      113
+    ],
+    "scale_q8": 299,
+    "center_x": 31,
+    "top": 28,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      81,
+      103,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 125,
+    "name": "Mémogre",
+    "side": "front",
+    "source_bbox": [
+      4,
+      4,
+      60,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      15,
+      200,
+      70
+    ],
+    "scale_q8": 254,
+    "center_x": 28,
+    "top": 6,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      14,
+      200,
+      70
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 125,
+    "name": "Mémogre",
+    "side": "back",
+    "source_bbox": [
+      4,
+      4,
+      59,
+      60
+    ],
+    "reference_bbox": [
+      34,
+      72,
+      99,
+      113
+    ],
+    "scale_q8": 298,
+    "center_x": 32,
+    "top": 19,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      72,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 126,
+    "name": "Jojojoyeux",
+    "side": "front",
+    "source_bbox": [
+      4,
+      12,
+      60,
+      51
+    ],
+    "reference_bbox": [
+      133,
+      7,
+      219,
+      66
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 13,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      21,
+      208,
+      66
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 126,
+    "name": "Jojojoyeux",
+    "side": "back",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      53
+    ],
+    "reference_bbox": [
+      19,
+      65,
+      107,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 12,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      65,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 127,
+    "name": "Chauvkipeut",
+    "side": "front",
+    "source_bbox": [
+      7,
+      4,
+      57,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      16,
+      195,
+      63
+    ],
+    "scale_q8": 237,
+    "center_x": 26,
+    "top": 3,
+    "y_offset": 0,
+    "predicted_bbox": [
+      147,
+      11,
+      193,
+      63
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 127,
+    "name": "Chauvkipeut",
+    "side": "back",
+    "source_bbox": [
+      8,
+      4,
+      55,
+      60
+    ],
+    "reference_bbox": [
+      39,
+      74,
+      99,
+      113
+    ],
+    "scale_q8": 327,
+    "center_x": 30,
+    "top": 21,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      74,
+      100,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 128,
+    "name": "Chauv'coucou",
+    "side": "front",
+    "source_bbox": [
+      6,
+      11,
+      58,
+      52
+    ],
+    "reference_bbox": [
+      135,
+      13,
+      218,
+      65
+    ],
+    "scale_q8": 315,
+    "center_x": 32,
+    "top": 7,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      15,
+      208,
+      65
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 128,
+    "name": "Chauv'coucou",
+    "side": "back",
+    "source_bbox": [
+      8,
+      11,
+      55,
+      53
+    ],
+    "reference_bbox": [
+      24,
+      76,
+      111,
+      113
+    ],
+    "scale_q8": 349,
+    "center_x": 32,
+    "top": 23,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      76,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 129,
+    "name": "Pachycoul",
+    "side": "front",
+    "source_bbox": [
+      4,
+      16,
+      60,
+      48
+    ],
+    "reference_bbox": [
+      139,
+      22,
+      211,
+      66
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 21,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      29,
+      208,
+      66
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 129,
+    "name": "Pachycoul",
+    "side": "back",
+    "source_bbox": [
+      4,
+      16,
+      60,
+      48
+    ],
+    "reference_bbox": [
+      23,
+      82,
+      105,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 29,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      82,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 130,
+    "name": "Pachypipi",
+    "side": "front",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      144,
+      12,
+      222,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 13,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      21,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 130,
+    "name": "Pachypipi",
+    "side": "back",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      28,
+      70,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 17,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      70,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 131,
+    "name": "Loubarbare",
+    "side": "front",
+    "source_bbox": [
+      4,
+      14,
+      60,
+      50
+    ],
+    "reference_bbox": [
+      126,
+      18,
+      201,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 18,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      26,
+      208,
+      67
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 131,
+    "name": "Loubarbare",
+    "side": "back",
+    "source_bbox": [
+      4,
+      12,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      29,
+      71,
+      103,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 18,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      71,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 132,
+    "name": "Racaïd",
+    "side": "front",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      53
+    ],
+    "reference_bbox": [
+      136,
+      6,
+      214,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 11,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      19,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 132,
+    "name": "Racaïd",
+    "side": "back",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      26,
+      64,
+      107,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 11,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      64,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 133,
+    "name": "Terminyanator",
+    "side": "front",
+    "source_bbox": [
+      4,
+      6,
+      59,
+      57
+    ],
+    "reference_bbox": [
+      144,
+      11,
+      212,
+      67
+    ],
+    "scale_q8": 298,
+    "center_x": 32,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      8,
+      208,
+      67
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 133,
+    "name": "Terminyanator",
+    "side": "back",
+    "source_bbox": [
+      4,
+      4,
+      60,
+      60
+    ],
+    "reference_bbox": [
+      25,
+      64,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 11,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      64,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 134,
+    "name": "Sabruine",
+    "side": "front",
+    "source_bbox": [
+      6,
+      4,
+      58,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      5,
+      203,
+      68
+    ],
+    "scale_q8": 289,
+    "center_x": 30,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      145,
+      8,
+      204,
+      71
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 134,
+    "name": "Sabruine",
+    "side": "back",
+    "source_bbox": [
+      4,
+      5,
+      60,
+      59
+    ],
+    "reference_bbox": [
+      28,
+      66,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 13,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      66,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 135,
+    "name": "Sabrille",
+    "side": "front",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      144,
+      4,
+      210,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      8,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 135,
+    "name": "Sabrille",
+    "side": "back",
+    "source_bbox": [
+      4,
+      4,
+      59,
+      60
+    ],
+    "reference_bbox": [
+      30,
+      59,
+      100,
+      113
+    ],
+    "scale_q8": 298,
+    "center_x": 32,
+    "top": 6,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      59,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 136,
+    "name": "Fourchelangue",
+    "side": "front",
+    "source_bbox": [
+      4,
+      7,
+      60,
+      56
+    ],
+    "reference_bbox": [
+      144,
+      13,
+      205,
+      67
+    ],
+    "scale_q8": 280,
+    "center_x": 30,
+    "top": 5,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      13,
+      205,
+      67
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 136,
+    "name": "Fourchelangue",
+    "side": "back",
+    "source_bbox": [
+      4,
+      5,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      33,
+      64,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 11,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      64,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 137,
+    "name": "Felipaix",
+    "side": "front",
+    "source_bbox": [
+      10,
+      4,
+      54,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      13,
+      192,
+      67
+    ],
+    "scale_q8": 263,
+    "center_x": 24,
+    "top": 1,
+    "y_offset": 0,
+    "predicted_bbox": [
+      146,
+      9,
+      191,
+      67
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 137,
+    "name": "Felipaix",
+    "side": "back",
+    "source_bbox": [
+      10,
+      4,
+      53,
+      60
+    ],
+    "reference_bbox": [
+      40,
+      72,
+      99,
+      113
+    ],
+    "scale_q8": 351,
+    "center_x": 30,
+    "top": 19,
+    "y_offset": 4,
+    "predicted_bbox": [
+      41,
+      72,
+      100,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 138,
+    "name": "M. Felipaix",
+    "side": "front",
+    "source_bbox": [
+      14,
+      4,
+      49,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      9,
+      191,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 24,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      148,
+      8,
+      188,
+      72
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 138,
+    "name": "M. Felipaix",
+    "side": "back",
+    "source_bbox": [
+      14,
+      4,
+      49,
+      60
+    ],
+    "reference_bbox": [
+      40,
+      70,
+      99,
+      113
+    ],
+    "scale_q8": 432,
+    "center_x": 30,
+    "top": 17,
+    "y_offset": 4,
+    "predicted_bbox": [
+      41,
+      70,
+      100,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 139,
+    "name": "Doyagari",
+    "side": "front",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      56
+    ],
+    "reference_bbox": [
+      142,
+      16,
+      201,
+      68
+    ],
+    "scale_q8": 273,
+    "center_x": 30,
+    "top": 9,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      17,
+      204,
+      68
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 139,
+    "name": "Doyagari",
+    "side": "back",
+    "source_bbox": [
+      4,
+      5,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      33,
+      66,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 13,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      66,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 140,
+    "name": "Doyen Doyagari",
+    "side": "front",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      144,
+      13,
+      200,
+      66
+    ],
+    "scale_q8": 258,
+    "center_x": 28,
+    "top": 6,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      14,
+      200,
+      66
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 140,
+    "name": "Doyen Doyagari",
+    "side": "back",
+    "source_bbox": [
+      4,
+      5,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      33,
+      65,
+      100,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 12,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      65,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 141,
+    "name": "Volroulo",
+    "side": "front",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      144,
+      9,
+      207,
+      66
+    ],
+    "scale_q8": 284,
+    "center_x": 32,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      145,
+      8,
+      207,
+      66
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 141,
+    "name": "Volroulo",
+    "side": "back",
+    "source_bbox": [
+      4,
+      6,
+      60,
+      58
+    ],
+    "reference_bbox": [
+      35,
+      65,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 12,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      65,
+      104,
+      113
+    ],
+    "limitations": [
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 142,
+    "name": "Lulugubre",
+    "side": "front",
+    "source_bbox": [
+      4,
+      18,
+      60,
+      46
+    ],
+    "reference_bbox": [
+      139,
+      22,
+      211,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 27,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      35,
+      208,
+      67
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 142,
+    "name": "Lulugubre",
+    "side": "back",
+    "source_bbox": [
+      4,
+      17,
+      60,
+      47
+    ],
+    "reference_bbox": [
+      26,
+      82,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 29,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      82,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 143,
+    "name": "Toumou",
+    "side": "front",
+    "source_bbox": [
+      4,
+      12,
+      60,
+      51
+    ],
+    "reference_bbox": [
+      144,
+      22,
+      209,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 14,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      22,
+      208,
+      67
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 143,
+    "name": "Toumou",
+    "side": "back",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      52
+    ],
+    "reference_bbox": [
+      30,
+      77,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 24,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      77,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 144,
+    "name": "Lamlam'mou",
+    "side": "front",
+    "source_bbox": [
+      4,
+      14,
+      60,
+      50
+    ],
+    "reference_bbox": [
+      139,
+      19,
+      210,
+      64
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 15,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      23,
+      208,
+      64
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 144,
+    "name": "Lamlam'mou",
+    "side": "back",
+    "source_bbox": [
+      4,
+      13,
+      60,
+      50
+    ],
+    "reference_bbox": [
+      23,
+      72,
+      104,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 19,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      72,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 145,
+    "name": "Savantard",
+    "side": "front",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      140,
+      11,
+      210,
+      68
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 7,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      15,
+      208,
+      68
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 145,
+    "name": "Savantard",
+    "side": "back",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      31,
+      67,
+      107,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 14,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      67,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 146,
+    "name": "Loupépin",
+    "side": "front",
+    "source_bbox": [
+      4,
+      4,
+      59,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      6,
+      212,
+      66
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      145,
+      8,
+      208,
+      72
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 146,
+    "name": "Loupépin",
+    "side": "back",
+    "source_bbox": [
+      6,
+      4,
+      58,
+      60
+    ],
+    "reference_bbox": [
+      23,
+      60,
+      99,
+      113
+    ],
+    "scale_q8": 315,
+    "center_x": 32,
+    "top": 7,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      60,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 147,
+    "name": "Mademoaiselle",
+    "side": "front",
+    "source_bbox": [
+      7,
+      4,
+      56,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      10,
+      203,
+      70
+    ],
+    "scale_q8": 291,
+    "center_x": 30,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      146,
+      8,
+      202,
+      72
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 147,
+    "name": "Mademoaiselle",
+    "side": "back",
+    "source_bbox": [
+      7,
+      4,
+      56,
+      60
+    ],
+    "reference_bbox": [
+      30,
+      68,
+      99,
+      113
+    ],
+    "scale_q8": 334,
+    "center_x": 32,
+    "top": 15,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      68,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 148,
+    "name": "Maître Nyada",
+    "side": "front",
+    "source_bbox": [
+      4,
+      11,
+      60,
+      53
+    ],
+    "reference_bbox": [
+      144,
+      22,
+      208,
+      68
+    ],
+    "scale_q8": 286,
+    "center_x": 32,
+    "top": 13,
+    "y_offset": 0,
+    "predicted_bbox": [
+      145,
+      21,
+      208,
+      68
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 148,
+    "name": "Maître Nyada",
+    "side": "back",
+    "source_bbox": [
+      4,
+      9,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      32,
+      73,
+      99,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 20,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      73,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 149,
+    "name": "Hovernyan",
+    "side": "front",
+    "source_bbox": [
+      8,
+      7,
+      56,
+      57
+    ],
+    "reference_bbox": [
+      144,
+      13,
+      215,
+      65
+    ],
+    "scale_q8": 318,
+    "center_x": 34,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      148,
+      8,
+      208,
+      70
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 149,
+    "name": "Hovernyan",
+    "side": "back",
+    "source_bbox": [
+      9,
+      6,
+      55,
+      57
+    ],
+    "reference_bbox": [
+      22,
+      66,
+      99,
+      113
+    ],
+    "scale_q8": 356,
+    "center_x": 32,
+    "top": 13,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      66,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 150,
+    "name": "Enma",
+    "side": "front",
+    "source_bbox": [
+      4,
+      10,
+      60,
+      54
+    ],
+    "reference_bbox": [
+      141,
+      12,
+      210,
+      67
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 9,
+    "y_offset": 0,
+    "predicted_bbox": [
+      144,
+      17,
+      208,
+      67
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 150,
+    "name": "Enma",
+    "side": "back",
+    "source_bbox": [
+      4,
+      8,
+      60,
+      55
+    ],
+    "reference_bbox": [
+      30,
+      58,
+      110,
+      113
+    ],
+    "scale_q8": 293,
+    "center_x": 32,
+    "top": 5,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      58,
+      104,
+      112
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 151,
+    "name": "Raltesse",
+    "side": "front",
+    "source_bbox": [
+      6,
+      4,
+      58,
+      60
+    ],
+    "reference_bbox": [
+      144,
+      10,
+      204,
+      70
+    ],
+    "scale_q8": 285,
+    "center_x": 30,
+    "top": 0,
+    "y_offset": 0,
+    "predicted_bbox": [
+      145,
+      8,
+      203,
+      70
+    ],
+    "limitations": [],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  },
+  {
+    "number": 151,
+    "name": "Raltesse",
+    "side": "back",
+    "source_bbox": [
+      5,
+      4,
+      58,
+      60
+    ],
+    "reference_bbox": [
+      30,
+      71,
+      99,
+      113
+    ],
+    "scale_q8": 309,
+    "center_x": 32,
+    "top": 18,
+    "y_offset": 4,
+    "predicted_bbox": [
+      40,
+      71,
+      104,
+      113
+    ],
+    "limitations": [
+      "reference exceeds native64px/aspect constraint",
+      "intentional lower body canvas crop"
+    ],
+    "source_artwork_unchanged": true,
+    "axis_flip": false
+  }
+]

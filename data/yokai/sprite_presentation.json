@@ -27,9 +27,10 @@
       "target": "graphics/yokai/009/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 192,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 253,
+      "center_x": 29,
+      "top": 12,
+      "reason": "BATTLE_SPRITE 009: reference bounds [144, 22, 202, 69]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "049/front",
@@ -37,10 +38,10 @@
       "target": "graphics/yokai/049/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 276,
-      "bottom": 58,
-      "reason": "Session2 : Baku garde le léger agrandissement déjà validé ; centre du corps déplacé de2px sans couper la trompe, largeur60px limite64. Anatomie quadrupède horizontale préservée.",
-      "center_x": 30
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 26,
+      "reason": "BATTLE_SPRITE 049: reference bounds [135, 22, 210, 65]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "106/front",
@@ -48,9 +49,10 @@
       "target": "graphics/yokai/106/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 183,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 40px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 242,
+      "center_x": 26,
+      "top": 3,
+      "reason": "BATTLE_SPRITE 106: reference bounds [144, 15, 195, 64]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "005/back",
@@ -58,9 +60,10 @@
       "target": "graphics/yokai/005/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 307,
-      "top": 14,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 329,
+      "center_x": 31,
+      "top": 3,
+      "reason": "BATTLE_SPRITE 005: reference bounds [36, 56, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "006/back",
@@ -68,9 +71,10 @@
       "target": "graphics/yokai/006/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 282,
-      "top": 20,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 12,
+      "reason": "BATTLE_SPRITE 006: reference bounds [29, 65, 103, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "007/back",
@@ -78,9 +82,10 @@
       "target": "graphics/yokai/007/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 282,
-      "top": 19,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 007: reference bounds [24, 64, 103, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "009/back",
@@ -88,9 +93,10 @@
       "target": "graphics/yokai/009/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 20,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 274,
+      "center_x": 30,
+      "top": 23,
+      "reason": "BATTLE_SPRITE 009: reference bounds [39, 76, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "017/back",
@@ -98,9 +104,10 @@
       "target": "graphics/yokai/017/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 282,
-      "top": 19,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 303,
+      "center_x": 32,
+      "top": 16,
+      "reason": "BATTLE_SPRITE 017: reference bounds [37, 69, 105, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "045/back",
@@ -108,9 +115,10 @@
       "target": "graphics/yokai/045/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 17,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 045: reference bounds [37, 66, 110, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "047/back",
@@ -118,9 +126,10 @@
       "target": "graphics/yokai/047/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 333,
-      "top": 16,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 332,
+      "center_x": 30,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 047: reference bounds [38, 64, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "070/back",
@@ -128,9 +137,10 @@
       "target": "graphics/yokai/070/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 282,
-      "top": 17,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 070: reference bounds [29, 64, 100, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "087/back",
@@ -138,9 +148,10 @@
       "target": "graphics/yokai/087/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 282,
-      "top": 23,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 22,
+      "reason": "BATTLE_SPRITE 087: reference bounds [22, 75, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "097/back",
@@ -148,9 +159,10 @@
       "target": "graphics/yokai/097/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 333,
-      "top": 15,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 316,
+      "center_x": 30,
+      "top": 7,
+      "reason": "BATTLE_SPRITE 097: reference bounds [41, 60, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "099/back",
@@ -158,9 +170,10 @@
       "target": "graphics/yokai/099/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 282,
-      "top": 20,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 10,
+      "reason": "BATTLE_SPRITE 099: reference bounds [28, 63, 102, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "100/back",
@@ -168,9 +181,10 @@
       "target": "graphics/yokai/100/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 384,
-      "top": 13,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 412,
+      "center_x": 30,
+      "top": 7,
+      "reason": "BATTLE_SPRITE 100: reference bounds [41, 60, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "101/back",
@@ -178,9 +192,10 @@
       "target": "graphics/yokai/101/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 307,
-      "top": 13,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 296,
+      "center_x": 30,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 101: reference bounds [40, 53, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "110/back",
@@ -188,9 +203,10 @@
       "target": "graphics/yokai/110/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 294,
-      "top": 15,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 315,
+      "center_x": 32,
+      "top": 9,
+      "reason": "BATTLE_SPRITE 110: reference bounds [35, 62, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "119/back",
@@ -198,9 +214,10 @@
       "target": "graphics/yokai/119/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 282,
-      "top": 20,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 23,
+      "reason": "BATTLE_SPRITE 119: reference bounds [32, 76, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "120/back",
@@ -208,9 +225,10 @@
       "target": "graphics/yokai/120/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 282,
-      "top": 17,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 14,
+      "reason": "BATTLE_SPRITE 120: reference bounds [34, 67, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "137/back",
@@ -218,9 +236,10 @@
       "target": "graphics/yokai/137/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 358,
-      "top": 13,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 351,
+      "center_x": 30,
+      "top": 19,
+      "reason": "BATTLE_SPRITE 137: reference bounds [40, 72, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "138/back",
@@ -228,9 +247,10 @@
       "target": "graphics/yokai/138/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 410,
-      "top": 12,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 432,
+      "center_x": 30,
+      "top": 17,
+      "reason": "BATTLE_SPRITE 138: reference bounds [40, 70, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "145/back",
@@ -238,9 +258,10 @@
       "target": "graphics/yokai/145/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 282,
-      "top": 8,
-      "reason": "Cadrage de dos individualisé après comparaison native; pas de redessin, couleurs inchangées"
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 14,
+      "reason": "BATTLE_SPRITE 145: reference bounds [31, 67, 107, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "146/back",
@@ -248,9 +269,10 @@
       "target": "graphics/yokai/146/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 294,
-      "top": 15,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 315,
+      "center_x": 32,
+      "top": 7,
+      "reason": "BATTLE_SPRITE 146: reference bounds [23, 60, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "148/back",
@@ -258,9 +280,10 @@
       "target": "graphics/yokai/148/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 282,
-      "top": 19,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 20,
+      "reason": "BATTLE_SPRITE 148: reference bounds [32, 73, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "001/back",
@@ -268,9 +291,10 @@
       "target": "graphics/yokai/001/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 20,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 001: reference bounds [37, 66, 105, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "002/back",
@@ -278,9 +302,10 @@
       "target": "graphics/yokai/002/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 19,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 17,
+      "reason": "BATTLE_SPRITE 002: reference bounds [29, 70, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "003/back",
@@ -288,9 +313,10 @@
       "target": "graphics/yokai/003/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 21,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 14,
+      "reason": "BATTLE_SPRITE 003: reference bounds [27, 67, 112, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "004/back",
@@ -298,9 +324,10 @@
       "target": "graphics/yokai/004/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 19,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 004: reference bounds [30, 66, 110, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "005/front",
@@ -308,9 +335,10 @@
       "target": "graphics/yokai/005/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 210,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 46px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 280,
+      "center_x": 30,
+      "top": 2,
+      "reason": "BATTLE_SPRITE 005: reference bounds [144, 11, 203, 71]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "010/back",
@@ -318,9 +346,10 @@
       "target": "graphics/yokai/010/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 18,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 12,
+      "reason": "BATTLE_SPRITE 010: reference bounds [37, 65, 105, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "011/front",
@@ -328,9 +357,10 @@
       "target": "graphics/yokai/011/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 192,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 284,
+      "center_x": 32,
+      "top": 12,
+      "reason": "BATTLE_SPRITE 011: reference bounds [144, 20, 207, 65]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "013/front",
@@ -338,9 +368,10 @@
       "target": "graphics/yokai/013/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 210,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 46px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 24,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 013: reference bounds [144, 8, 192, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "018/back",
@@ -348,9 +379,10 @@
       "target": "graphics/yokai/018/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 20,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 12,
+      "reason": "BATTLE_SPRITE 018: reference bounds [31, 65, 101, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "019/back",
@@ -358,9 +390,10 @@
       "target": "graphics/yokai/019/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 21,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 019: reference bounds [25, 66, 121, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "020/back",
@@ -368,9 +401,10 @@
       "target": "graphics/yokai/020/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 18,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 31,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 020: reference bounds [36, 66, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "021/back",
@@ -378,9 +412,10 @@
       "target": "graphics/yokai/021/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 19,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 303,
+      "center_x": 32,
+      "top": 12,
+      "reason": "BATTLE_SPRITE 021: reference bounds [31, 65, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "022/front",
@@ -388,9 +423,10 @@
       "target": "graphics/yokai/022/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 192,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 28,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 022: reference bounds [144, 10, 200, 70]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "024/front",
@@ -398,9 +434,10 @@
       "target": "graphics/yokai/024/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 192,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 14,
+      "reason": "BATTLE_SPRITE 024: reference bounds [142, 20, 208, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "026/front",
@@ -408,9 +445,10 @@
       "target": "graphics/yokai/026/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 210,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 46px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 270,
+      "center_x": 30,
+      "top": 3,
+      "reason": "BATTLE_SPRITE 026: reference bounds [144, 12, 204, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "026/back",
@@ -418,9 +456,10 @@
       "target": "graphics/yokai/026/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 20,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 026: reference bounds [33, 64, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "027/back",
@@ -428,9 +467,10 @@
       "target": "graphics/yokai/027/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 18,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 027: reference bounds [29, 64, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "029/front",
@@ -438,9 +478,10 @@
       "target": "graphics/yokai/029/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 192,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 029: reference bounds [144, 10, 213, 64]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "029/back",
@@ -448,9 +489,10 @@
       "target": "graphics/yokai/029/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 22,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 9,
+      "reason": "BATTLE_SPRITE 029: reference bounds [28, 62, 106, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "030/back",
@@ -458,9 +500,10 @@
       "target": "graphics/yokai/030/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 18,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 030: reference bounds [24, 59, 115, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "031/front",
@@ -468,9 +511,10 @@
       "target": "graphics/yokai/031/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 192,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 031: reference bounds [138, 15, 207, 69]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "036/front",
@@ -478,9 +522,10 @@
       "target": "graphics/yokai/036/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 192,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 277,
+      "center_x": 30,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 036: reference bounds [144, 19, 204, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "038/back",
@@ -488,9 +533,10 @@
       "target": "graphics/yokai/038/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 20,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 309,
+      "center_x": 32,
+      "top": 2,
+      "reason": "BATTLE_SPRITE 038: reference bounds [37, 55, 107, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "039/back",
@@ -498,9 +544,10 @@
       "target": "graphics/yokai/039/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 18,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 2,
+      "reason": "BATTLE_SPRITE 039: reference bounds [29, 55, 111, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "040/back",
@@ -508,9 +555,10 @@
       "target": "graphics/yokai/040/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 20,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 040: reference bounds [31, 66, 109, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "041/front",
@@ -518,9 +566,10 @@
       "target": "graphics/yokai/041/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 192,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 251,
+      "center_x": 28,
+      "top": 9,
+      "reason": "BATTLE_SPRITE 041: reference bounds [144, 18, 200, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "045/front",
@@ -528,9 +577,10 @@
       "target": "graphics/yokai/045/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 192,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 8,
+      "reason": "BATTLE_SPRITE 045: reference bounds [141, 13, 207, 66]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "046/front",
@@ -538,9 +588,10 @@
       "target": "graphics/yokai/046/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 192,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 10,
+      "reason": "BATTLE_SPRITE 046: reference bounds [137, 12, 208, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "048/back",
@@ -548,9 +599,10 @@
       "target": "graphics/yokai/048/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 19,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 048: reference bounds [30, 66, 107, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "051/front",
@@ -558,9 +610,10 @@
       "target": "graphics/yokai/051/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 284,
+      "center_x": 27,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 051: reference bounds [144, 5, 198, 65]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "051/back",
@@ -568,9 +621,10 @@
       "target": "graphics/yokai/051/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 21,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 331,
+      "center_x": 31,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 051: reference bounds [37, 51, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "052/front",
@@ -578,9 +632,10 @@
       "target": "graphics/yokai/052/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 192,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 20,
+      "reason": "BATTLE_SPRITE 052: reference bounds [137, 20, 214, 66]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "053/front",
@@ -588,9 +643,10 @@
       "target": "graphics/yokai/053/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 192,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 053: reference bounds [144, 11, 217, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "055/front",
@@ -598,9 +654,10 @@
       "target": "graphics/yokai/055/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 14,
+      "reason": "BATTLE_SPRITE 055: reference bounds [144, 20, 214, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "061/front",
@@ -608,9 +665,10 @@
       "target": "graphics/yokai/061/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 9,
+      "reason": "BATTLE_SPRITE 061: reference bounds [137, 9, 211, 70]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "061/back",
@@ -618,9 +676,10 @@
       "target": "graphics/yokai/061/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 20,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 061: reference bounds [14, 59, 100, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "062/front",
@@ -628,9 +687,10 @@
       "target": "graphics/yokai/062/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 192,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 8,
+      "reason": "BATTLE_SPRITE 062: reference bounds [140, 7, 214, 70]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "062/back",
@@ -638,9 +698,10 @@
       "target": "graphics/yokai/062/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 19,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 2,
+      "reason": "BATTLE_SPRITE 062: reference bounds [25, 55, 117, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "063/front",
@@ -648,9 +709,10 @@
       "target": "graphics/yokai/063/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 192,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 277,
+      "center_x": 28,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 063: reference bounds [144, 8, 200, 69]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "063/back",
@@ -658,9 +720,10 @@
       "target": "graphics/yokai/063/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 22,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 12,
+      "reason": "BATTLE_SPRITE 063: reference bounds [31, 65, 101, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "064/back",
@@ -668,9 +731,10 @@
       "target": "graphics/yokai/064/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 19,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 8,
+      "reason": "BATTLE_SPRITE 064: reference bounds [36, 61, 105, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "065/back",
@@ -678,9 +742,10 @@
       "target": "graphics/yokai/065/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 18,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 3,
+      "reason": "BATTLE_SPRITE 065: reference bounds [23, 56, 109, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "066/front",
@@ -688,9 +753,10 @@
       "target": "graphics/yokai/066/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 10,
+      "reason": "BATTLE_SPRITE 066: reference bounds [144, 11, 213, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "068/front",
@@ -698,9 +764,10 @@
       "target": "graphics/yokai/068/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 210,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 46px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 276,
+      "center_x": 30,
+      "top": 9,
+      "reason": "BATTLE_SPRITE 068: reference bounds [141, 17, 201, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "068/back",
@@ -708,9 +775,10 @@
       "target": "graphics/yokai/068/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 21,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 12,
+      "reason": "BATTLE_SPRITE 068: reference bounds [40, 65, 105, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "069/back",
@@ -718,9 +786,10 @@
       "target": "graphics/yokai/069/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 19,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 279,
+      "center_x": 30,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 069: reference bounds [38, 66, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "074/back",
@@ -728,9 +797,10 @@
       "target": "graphics/yokai/074/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 22,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 18,
+      "reason": "BATTLE_SPRITE 074: reference bounds [31, 71, 102, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "075/back",
@@ -738,9 +808,10 @@
       "target": "graphics/yokai/075/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 22,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 075: reference bounds [32, 66, 100, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "076/front",
@@ -748,9 +819,10 @@
       "target": "graphics/yokai/076/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 253,
+      "center_x": 30,
+      "top": 7,
+      "reason": "BATTLE_SPRITE 076: reference bounds [144, 18, 203, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "078/back",
@@ -758,9 +830,10 @@
       "target": "graphics/yokai/078/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 19,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 12,
+      "reason": "BATTLE_SPRITE 078: reference bounds [37, 65, 106, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "079/back",
@@ -768,9 +841,10 @@
       "target": "graphics/yokai/079/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 19,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 12,
+      "reason": "BATTLE_SPRITE 079: reference bounds [22, 65, 109, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "080/back",
@@ -778,9 +852,10 @@
       "target": "graphics/yokai/080/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 19,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 12,
+      "reason": "BATTLE_SPRITE 080: reference bounds [22, 65, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "081/back",
@@ -788,9 +863,10 @@
       "target": "graphics/yokai/081/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 19,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 9,
+      "reason": "BATTLE_SPRITE 081: reference bounds [28, 62, 106, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "082/front",
@@ -798,9 +874,10 @@
       "target": "graphics/yokai/082/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 183,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 40px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 260,
+      "center_x": 30,
+      "top": 8,
+      "reason": "BATTLE_SPRITE 082: reference bounds [144, 19, 204, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "085/front",
@@ -808,9 +885,10 @@
       "target": "graphics/yokai/085/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 10,
+      "reason": "BATTLE_SPRITE 085: reference bounds [142, 12, 214, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "087/front",
@@ -818,9 +896,10 @@
       "target": "graphics/yokai/087/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 291,
+      "center_x": 32,
+      "top": 12,
+      "reason": "BATTLE_SPRITE 087: reference bounds [144, 22, 210, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "088/back",
@@ -828,9 +907,10 @@
       "target": "graphics/yokai/088/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 21,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 19,
+      "reason": "BATTLE_SPRITE 088: reference bounds [25, 72, 106, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "089/back",
@@ -838,9 +918,10 @@
       "target": "graphics/yokai/089/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 18,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 315,
+      "center_x": 32,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 089: reference bounds [35, 64, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "090/front",
@@ -848,9 +929,10 @@
       "target": "graphics/yokai/090/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 192,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 5,
+      "reason": "BATTLE_SPRITE 090: reference bounds [141, 12, 206, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "090/back",
@@ -858,9 +940,10 @@
       "target": "graphics/yokai/090/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 22,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 15,
+      "reason": "BATTLE_SPRITE 090: reference bounds [37, 68, 108, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "091/front",
@@ -868,9 +951,10 @@
       "target": "graphics/yokai/091/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 183,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 40px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 10,
+      "reason": "BATTLE_SPRITE 091: reference bounds [142, 16, 209, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "093/front",
@@ -878,9 +962,10 @@
       "target": "graphics/yokai/093/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 192,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 267,
+      "center_x": 26,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 093: reference bounds [144, 13, 197, 66]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "094/front",
@@ -888,9 +973,10 @@
       "target": "graphics/yokai/094/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 226,
+      "center_x": 24,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 094: reference bounds [144, 20, 193, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "096/back",
@@ -898,9 +984,10 @@
       "target": "graphics/yokai/096/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 20,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 289,
+      "center_x": 31,
+      "top": 18,
+      "reason": "BATTLE_SPRITE 096: reference bounds [37, 71, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "098/front",
@@ -908,9 +995,10 @@
       "target": "graphics/yokai/098/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 192,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 241,
+      "center_x": 28,
+      "top": 8,
+      "reason": "BATTLE_SPRITE 098: reference bounds [144, 20, 201, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "100/front",
@@ -918,9 +1006,10 @@
       "target": "graphics/yokai/100/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 210,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 46px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 26,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 100: reference bounds [144, 10, 195, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "106/back",
@@ -928,9 +1017,10 @@
       "target": "graphics/yokai/106/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 21,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 290,
+      "center_x": 30,
+      "top": 12,
+      "reason": "BATTLE_SPRITE 106: reference bounds [40, 65, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "107/back",
@@ -938,9 +1028,10 @@
       "target": "graphics/yokai/107/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 18,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 9,
+      "reason": "BATTLE_SPRITE 107: reference bounds [30, 62, 104, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "108/front",
@@ -948,9 +1039,10 @@
       "target": "graphics/yokai/108/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 269,
+      "center_x": 31,
+      "top": 2,
+      "reason": "BATTLE_SPRITE 108: reference bounds [144, 13, 206, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "110/front",
@@ -958,9 +1050,10 @@
       "target": "graphics/yokai/110/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 210,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 46px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 278,
+      "center_x": 28,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 110: reference bounds [144, 9, 199, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "111/back",
@@ -968,9 +1061,10 @@
       "target": "graphics/yokai/111/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 19,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 288,
+      "center_x": 31,
+      "top": 20,
+      "reason": "BATTLE_SPRITE 111: reference bounds [36, 73, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "112/front",
@@ -978,9 +1072,10 @@
       "target": "graphics/yokai/112/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 213,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 309,
+      "center_x": 32,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 112: reference bounds [138, 14, 214, 64]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "113/front",
@@ -988,9 +1083,10 @@
       "target": "graphics/yokai/113/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 210,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 46px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 284,
+      "center_x": 32,
+      "top": 1,
+      "reason": "BATTLE_SPRITE 113: reference bounds [144, 10, 207, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "113/back",
@@ -998,9 +1094,10 @@
       "target": "graphics/yokai/113/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 19,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 8,
+      "reason": "BATTLE_SPRITE 113: reference bounds [32, 61, 100, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "114/back",
@@ -1008,9 +1105,10 @@
       "target": "graphics/yokai/114/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 20,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 334,
+      "center_x": 32,
+      "top": 14,
+      "reason": "BATTLE_SPRITE 114: reference bounds [23, 67, 110, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "115/front",
@@ -1018,9 +1116,10 @@
       "target": "graphics/yokai/115/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 115: reference bounds [141, 8, 205, 64]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "117/front",
@@ -1028,9 +1127,10 @@
       "target": "graphics/yokai/117/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 195,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 298,
+      "center_x": 32,
+      "top": 17,
+      "reason": "BATTLE_SPRITE 117: reference bounds [138, 22, 215, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "118/front",
@@ -1038,9 +1138,10 @@
       "target": "graphics/yokai/118/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 183,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 40px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 274,
+      "center_x": 30,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 118: reference bounds [144, 20, 203, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "119/front",
@@ -1048,9 +1149,10 @@
       "target": "graphics/yokai/119/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 12,
+      "reason": "BATTLE_SPRITE 119: reference bounds [141, 18, 206, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "121/front",
@@ -1058,9 +1160,10 @@
       "target": "graphics/yokai/121/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 276,
+      "center_x": 32,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 121: reference bounds [144, 10, 207, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "121/back",
@@ -1068,9 +1171,10 @@
       "target": "graphics/yokai/121/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 18,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 315,
+      "center_x": 32,
+      "top": 8,
+      "reason": "BATTLE_SPRITE 121: reference bounds [33, 61, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "122/front",
@@ -1078,9 +1182,10 @@
       "target": "graphics/yokai/122/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 192,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 279,
+      "center_x": 30,
+      "top": 10,
+      "reason": "BATTLE_SPRITE 122: reference bounds [144, 17, 204, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "123/front",
@@ -1088,9 +1193,10 @@
       "target": "graphics/yokai/123/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 268,
+      "center_x": 28,
+      "top": 2,
+      "reason": "BATTLE_SPRITE 123: reference bounds [144, 11, 201, 69]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "124/front",
@@ -1098,9 +1204,10 @@
       "target": "graphics/yokai/124/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 192,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 277,
+      "center_x": 30,
+      "top": 15,
+      "reason": "BATTLE_SPRITE 124: reference bounds [144, 22, 203, 62]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "125/front",
@@ -1108,9 +1215,10 @@
       "target": "graphics/yokai/125/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 254,
+      "center_x": 28,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 125: reference bounds [144, 15, 200, 70]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "126/front",
@@ -1118,9 +1226,10 @@
       "target": "graphics/yokai/126/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 126: reference bounds [133, 7, 219, 66]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "127/front",
@@ -1128,9 +1237,10 @@
       "target": "graphics/yokai/127/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 192,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 42px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 237,
+      "center_x": 26,
+      "top": 3,
+      "reason": "BATTLE_SPRITE 127: reference bounds [144, 16, 195, 63]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "127/back",
@@ -1138,9 +1248,10 @@
       "target": "graphics/yokai/127/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
+      "scale_q8": 327,
+      "center_x": 30,
       "top": 21,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "reason": "BATTLE_SPRITE 127: reference bounds [39, 74, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "128/front",
@@ -1148,9 +1259,10 @@
       "target": "graphics/yokai/128/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 236,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 48px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 315,
+      "center_x": 32,
+      "top": 7,
+      "reason": "BATTLE_SPRITE 128: reference bounds [135, 13, 218, 65]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "128/back",
@@ -1158,9 +1270,10 @@
       "target": "graphics/yokai/128/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 20,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 349,
+      "center_x": 32,
+      "top": 23,
+      "reason": "BATTLE_SPRITE 128: reference bounds [24, 76, 111, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "129/front",
@@ -1168,9 +1281,10 @@
       "target": "graphics/yokai/129/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 183,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 40px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 21,
+      "reason": "BATTLE_SPRITE 129: reference bounds [139, 22, 211, 66]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "131/front",
@@ -1178,9 +1292,10 @@
       "target": "graphics/yokai/131/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 18,
+      "reason": "BATTLE_SPRITE 131: reference bounds [126, 18, 201, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "131/back",
@@ -1188,9 +1303,10 @@
       "target": "graphics/yokai/131/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 22,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 18,
+      "reason": "BATTLE_SPRITE 131: reference bounds [29, 71, 103, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "132/back",
@@ -1198,9 +1314,10 @@
       "target": "graphics/yokai/132/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 19,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 132: reference bounds [26, 64, 107, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "133/back",
@@ -1208,9 +1325,10 @@
       "target": "graphics/yokai/133/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 18,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 133: reference bounds [25, 64, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "134/front",
@@ -1218,9 +1336,10 @@
       "target": "graphics/yokai/134/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 289,
+      "center_x": 30,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 134: reference bounds [144, 5, 203, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "136/front",
@@ -1228,9 +1347,10 @@
       "target": "graphics/yokai/136/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 280,
+      "center_x": 30,
+      "top": 5,
+      "reason": "BATTLE_SPRITE 136: reference bounds [144, 13, 205, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "136/back",
@@ -1238,9 +1358,10 @@
       "target": "graphics/yokai/136/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 21,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 136: reference bounds [33, 64, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "137/front",
@@ -1248,9 +1369,10 @@
       "target": "graphics/yokai/137/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 263,
+      "center_x": 24,
+      "top": 1,
+      "reason": "BATTLE_SPRITE 137: reference bounds [144, 13, 192, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "139/front",
@@ -1258,9 +1380,10 @@
       "target": "graphics/yokai/139/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 273,
+      "center_x": 30,
+      "top": 9,
+      "reason": "BATTLE_SPRITE 139: reference bounds [142, 16, 201, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "140/back",
@@ -1268,9 +1391,10 @@
       "target": "graphics/yokai/140/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 18,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 12,
+      "reason": "BATTLE_SPRITE 140: reference bounds [33, 65, 100, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "143/front",
@@ -1278,9 +1402,10 @@
       "target": "graphics/yokai/143/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 14,
+      "reason": "BATTLE_SPRITE 143: reference bounds [144, 22, 209, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "146/front",
@@ -1288,9 +1413,10 @@
       "target": "graphics/yokai/146/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 210,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 46px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 146: reference bounds [144, 6, 212, 66]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "149/back",
@@ -1298,9 +1424,10 @@
       "target": "graphics/yokai/149/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 20,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 356,
+      "center_x": 32,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 149: reference bounds [22, 66, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "151/front",
@@ -1308,9 +1435,10 @@
       "target": "graphics/yokai/151/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Session2 : gabarit apparent individualisé 44px maximum ; petit sujet/pré-évolution, proportions et indices de couleur conservés."
+      "scale_q8": 285,
+      "center_x": 30,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 151: reference bounds [144, 10, 204, 70]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
     },
     {
       "id": "151/back",
@@ -1318,9 +1446,10 @@
       "target": "graphics/yokai/151/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 20,
-      "reason": "Session2 : cadrage haut du corps/ceinture adapté à la silhouette ; source intacte, bas masqué au premier plan comme les références Rouge Feu. Contrôle natif avant/après."
+      "scale_q8": 309,
+      "center_x": 32,
+      "top": 18,
+      "reason": "BATTLE_SPRITE 151: reference bounds [30, 71, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
     },
     {
       "id": "001/icon",
@@ -2989,9 +3118,10 @@
       "target": "graphics/yokai_shiny/019/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 256,
-      "top": 17,
-      "reason": "Shiny-only horns remain above head; normal robot back and normal palette unchanged. Native battle check required."
+      "scale_q8": 293,
+      "top": 13,
+      "reason": "Same reference placement as normal; existing independent shiny artwork untouched; native width bounded",
+      "center_x": 32
     },
     {
       "id": "099/shiny-back",
@@ -2999,9 +3129,10 @@
       "target": "graphics/yokai_shiny/099/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 282,
-      "top": 20,
-      "reason": "Shiny-only derived presentation, same uniform nearest scale and anchor as normal; native verification required."
+      "scale_q8": 293,
+      "top": 10,
+      "reason": "Same reference placement as normal; existing independent shiny artwork untouched; native width bounded",
+      "center_x": 32
     },
     {
       "id": "100/shiny-front",
@@ -3009,9 +3140,10 @@
       "target": "graphics/yokai_shiny/100/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 210,
-      "bottom": 58,
-      "reason": "Shiny-only derived presentation, same uniform nearest scale and anchor as normal; native verification required."
+      "scale_q8": 293,
+      "reason": "Same reference placement as normal; existing independent shiny artwork untouched; native width bounded",
+      "center_x": 26,
+      "top": 0
     },
     {
       "id": "100/shiny-back",
@@ -3019,9 +3151,10 @@
       "target": "graphics/yokai_shiny/100/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 384,
-      "top": 13,
-      "reason": "Shiny-only derived presentation, same uniform nearest scale and anchor as normal; native verification required."
+      "scale_q8": 412,
+      "top": 7,
+      "reason": "Same reference placement as normal; existing independent shiny artwork untouched; native width bounded",
+      "center_x": 30
     },
     {
       "id": "101/shiny-back",
@@ -3029,9 +3162,10 @@
       "target": "graphics/yokai_shiny/101/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 307,
-      "top": 13,
-      "reason": "Shiny-only derived presentation, same uniform nearest scale and anchor as normal; native verification required."
+      "scale_q8": 296,
+      "top": 0,
+      "reason": "Same reference placement as normal; existing independent shiny artwork untouched; native width bounded",
+      "center_x": 30
     },
     {
       "id": "126/shiny-front",
@@ -3039,9 +3173,1946 @@
       "target": "graphics/yokai_shiny/126/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 201,
-      "bottom": 58,
-      "reason": "Shiny-only derived presentation, same uniform nearest scale and anchor as normal; native verification required."
+      "scale_q8": 293,
+      "reason": "Same reference placement as normal; existing independent shiny artwork untouched; native width bounded",
+      "center_x": 32,
+      "top": 6
+    },
+    {
+      "id": "001/front",
+      "source": "graphics/yokai/001/front.4bpp",
+      "target": "graphics/yokai/001/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 9,
+      "reason": "BATTLE_SPRITE 001: reference bounds [143, 14, 206, 70]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "002/front",
+      "source": "graphics/yokai/002/front.4bpp",
+      "target": "graphics/yokai/002/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 17,
+      "reason": "BATTLE_SPRITE 002: reference bounds [137, 16, 207, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "003/front",
+      "source": "graphics/yokai/003/front.4bpp",
+      "target": "graphics/yokai/003/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 12,
+      "reason": "BATTLE_SPRITE 003: reference bounds [144, 12, 216, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "004/front",
+      "source": "graphics/yokai/004/front.4bpp",
+      "target": "graphics/yokai/004/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 14,
+      "reason": "BATTLE_SPRITE 004: reference bounds [142, 18, 210, 69]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "006/front",
+      "source": "graphics/yokai/006/front.4bpp",
+      "target": "graphics/yokai/006/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 006: reference bounds [144, 9, 218, 71]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "007/front",
+      "source": "graphics/yokai/007/front.4bpp",
+      "target": "graphics/yokai/007/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 007: reference bounds [142, 16, 211, 72]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "008/front",
+      "source": "graphics/yokai/008/front.4bpp",
+      "target": "graphics/yokai/008/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 289,
+      "center_x": 32,
+      "top": 2,
+      "reason": "BATTLE_SPRITE 008: reference bounds [144, 10, 207, 71]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "008/back",
+      "source": "graphics/yokai/008/back.4bpp",
+      "target": "graphics/yokai/008/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 7,
+      "reason": "BATTLE_SPRITE 008: reference bounds [33, 60, 101, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "010/front",
+      "source": "graphics/yokai/010/front.4bpp",
+      "target": "graphics/yokai/010/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 8,
+      "reason": "BATTLE_SPRITE 010: reference bounds [141, 12, 203, 69]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "011/back",
+      "source": "graphics/yokai/011/back.4bpp",
+      "target": "graphics/yokai/011/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 22,
+      "reason": "BATTLE_SPRITE 011: reference bounds [24, 75, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "012/front",
+      "source": "graphics/yokai/012/front.4bpp",
+      "target": "graphics/yokai/012/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 012: reference bounds [139, 13, 207, 66]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "012/back",
+      "source": "graphics/yokai/012/back.4bpp",
+      "target": "graphics/yokai/012/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 16,
+      "reason": "BATTLE_SPRITE 012: reference bounds [27, 69, 105, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "013/back",
+      "source": "graphics/yokai/013/back.4bpp",
+      "target": "graphics/yokai/013/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 368,
+      "center_x": 30,
+      "top": 10,
+      "reason": "BATTLE_SPRITE 013: reference bounds [40, 63, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "014/front",
+      "source": "graphics/yokai/014/front.4bpp",
+      "target": "graphics/yokai/014/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 15,
+      "reason": "BATTLE_SPRITE 014: reference bounds [135, 8, 216, 70]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "014/back",
+      "source": "graphics/yokai/014/back.4bpp",
+      "target": "graphics/yokai/014/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 10,
+      "reason": "BATTLE_SPRITE 014: reference bounds [26, 63, 102, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "015/front",
+      "source": "graphics/yokai/015/front.4bpp",
+      "target": "graphics/yokai/015/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 015: reference bounds [141, 12, 212, 70]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "015/back",
+      "source": "graphics/yokai/015/back.4bpp",
+      "target": "graphics/yokai/015/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 16,
+      "reason": "BATTLE_SPRITE 015: reference bounds [24, 69, 106, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "016/front",
+      "source": "graphics/yokai/016/front.4bpp",
+      "target": "graphics/yokai/016/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 15,
+      "reason": "BATTLE_SPRITE 016: reference bounds [139, 11, 215, 70]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "016/back",
+      "source": "graphics/yokai/016/back.4bpp",
+      "target": "graphics/yokai/016/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 016: reference bounds [20, 66, 107, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "017/front",
+      "source": "graphics/yokai/017/front.4bpp",
+      "target": "graphics/yokai/017/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 263,
+      "center_x": 29,
+      "top": 10,
+      "reason": "BATTLE_SPRITE 017: reference bounds [144, 18, 202, 70]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "018/front",
+      "source": "graphics/yokai/018/front.4bpp",
+      "target": "graphics/yokai/018/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 9,
+      "reason": "BATTLE_SPRITE 018: reference bounds [143, 16, 206, 71]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "019/front",
+      "source": "graphics/yokai/019/front.4bpp",
+      "target": "graphics/yokai/019/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 21,
+      "reason": "BATTLE_SPRITE 019: reference bounds [130, 9, 221, 71]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "020/front",
+      "source": "graphics/yokai/020/front.4bpp",
+      "target": "graphics/yokai/020/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 265,
+      "center_x": 28,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 020: reference bounds [144, 15, 201, 72]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "021/front",
+      "source": "graphics/yokai/021/front.4bpp",
+      "target": "graphics/yokai/021/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 28,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 021: reference bounds [144, 8, 201, 71]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "022/back",
+      "source": "graphics/yokai/022/back.4bpp",
+      "target": "graphics/yokai/022/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 345,
+      "center_x": 31,
+      "top": 15,
+      "reason": "BATTLE_SPRITE 022: reference bounds [37, 68, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "023/front",
+      "source": "graphics/yokai/023/front.4bpp",
+      "target": "graphics/yokai/023/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 289,
+      "center_x": 32,
+      "top": 9,
+      "reason": "BATTLE_SPRITE 023: reference bounds [144, 17, 207, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "023/back",
+      "source": "graphics/yokai/023/back.4bpp",
+      "target": "graphics/yokai/023/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 15,
+      "reason": "BATTLE_SPRITE 023: reference bounds [36, 68, 100, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "024/back",
+      "source": "graphics/yokai/024/back.4bpp",
+      "target": "graphics/yokai/024/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 24,
+      "reason": "BATTLE_SPRITE 024: reference bounds [30, 77, 104, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "025/front",
+      "source": "graphics/yokai/025/front.4bpp",
+      "target": "graphics/yokai/025/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 025: reference bounds [144, 12, 211, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "025/back",
+      "source": "graphics/yokai/025/back.4bpp",
+      "target": "graphics/yokai/025/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 14,
+      "reason": "BATTLE_SPRITE 025: reference bounds [33, 67, 104, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "027/front",
+      "source": "graphics/yokai/027/front.4bpp",
+      "target": "graphics/yokai/027/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 291,
+      "center_x": 32,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 027: reference bounds [145, 7, 209, 69]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "028/front",
+      "source": "graphics/yokai/028/front.4bpp",
+      "target": "graphics/yokai/028/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 028: reference bounds [138, 11, 205, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "028/back",
+      "source": "graphics/yokai/028/back.4bpp",
+      "target": "graphics/yokai/028/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 028: reference bounds [36, 59, 110, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "030/front",
+      "source": "graphics/yokai/030/front.4bpp",
+      "target": "graphics/yokai/030/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 030: reference bounds [139, 7, 217, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "031/back",
+      "source": "graphics/yokai/031/back.4bpp",
+      "target": "graphics/yokai/031/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 031: reference bounds [30, 66, 107, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "032/front",
+      "source": "graphics/yokai/032/front.4bpp",
+      "target": "graphics/yokai/032/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 032: reference bounds [144, 13, 209, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "032/back",
+      "source": "graphics/yokai/032/back.4bpp",
+      "target": "graphics/yokai/032/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 15,
+      "reason": "BATTLE_SPRITE 032: reference bounds [31, 68, 109, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "033/front",
+      "source": "graphics/yokai/033/front.4bpp",
+      "target": "graphics/yokai/033/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 14,
+      "reason": "BATTLE_SPRITE 033: reference bounds [133, 10, 212, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "033/back",
+      "source": "graphics/yokai/033/back.4bpp",
+      "target": "graphics/yokai/033/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 9,
+      "reason": "BATTLE_SPRITE 033: reference bounds [27, 62, 113, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "034/front",
+      "source": "graphics/yokai/034/front.4bpp",
+      "target": "graphics/yokai/034/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 278,
+      "center_x": 29,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 034: reference bounds [144, 10, 202, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "034/back",
+      "source": "graphics/yokai/034/back.4bpp",
+      "target": "graphics/yokai/034/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 310,
+      "center_x": 32,
+      "top": 10,
+      "reason": "BATTLE_SPRITE 034: reference bounds [41, 63, 104, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "035/front",
+      "source": "graphics/yokai/035/front.4bpp",
+      "target": "graphics/yokai/035/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 035: reference bounds [142, 9, 211, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "035/back",
+      "source": "graphics/yokai/035/back.4bpp",
+      "target": "graphics/yokai/035/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 035: reference bounds [31, 66, 107, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "036/back",
+      "source": "graphics/yokai/036/back.4bpp",
+      "target": "graphics/yokai/036/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 18,
+      "reason": "BATTLE_SPRITE 036: reference bounds [33, 71, 100, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "037/front",
+      "source": "graphics/yokai/037/front.4bpp",
+      "target": "graphics/yokai/037/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 9,
+      "reason": "BATTLE_SPRITE 037: reference bounds [137, 6, 215, 70]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "037/back",
+      "source": "graphics/yokai/037/back.4bpp",
+      "target": "graphics/yokai/037/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 4,
+      "reason": "BATTLE_SPRITE 037: reference bounds [27, 57, 109, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "038/front",
+      "source": "graphics/yokai/038/front.4bpp",
+      "target": "graphics/yokai/038/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 31,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 038: reference bounds [136, 3, 202, 70]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "039/front",
+      "source": "graphics/yokai/039/front.4bpp",
+      "target": "graphics/yokai/039/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 039: reference bounds [140, 3, 210, 69]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "040/front",
+      "source": "graphics/yokai/040/front.4bpp",
+      "target": "graphics/yokai/040/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 040: reference bounds [138, 12, 209, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "041/back",
+      "source": "graphics/yokai/041/back.4bpp",
+      "target": "graphics/yokai/041/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 289,
+      "center_x": 31,
+      "top": 14,
+      "reason": "BATTLE_SPRITE 041: reference bounds [37, 67, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "042/front",
+      "source": "graphics/yokai/042/front.4bpp",
+      "target": "graphics/yokai/042/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 5,
+      "reason": "BATTLE_SPRITE 042: reference bounds [140, 11, 206, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "042/back",
+      "source": "graphics/yokai/042/back.4bpp",
+      "target": "graphics/yokai/042/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 283,
+      "center_x": 31,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 042: reference bounds [40, 64, 102, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "043/front",
+      "source": "graphics/yokai/043/front.4bpp",
+      "target": "graphics/yokai/043/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 275,
+      "center_x": 30,
+      "top": 5,
+      "reason": "BATTLE_SPRITE 043: reference bounds [144, 14, 205, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "043/back",
+      "source": "graphics/yokai/043/back.4bpp",
+      "target": "graphics/yokai/043/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 043: reference bounds [35, 64, 101, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "044/front",
+      "source": "graphics/yokai/044/front.4bpp",
+      "target": "graphics/yokai/044/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 8,
+      "reason": "BATTLE_SPRITE 044: reference bounds [141, 8, 215, 65]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "044/back",
+      "source": "graphics/yokai/044/back.4bpp",
+      "target": "graphics/yokai/044/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 15,
+      "reason": "BATTLE_SPRITE 044: reference bounds [28, 68, 109, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "046/back",
+      "source": "graphics/yokai/046/back.4bpp",
+      "target": "graphics/yokai/046/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 9,
+      "reason": "BATTLE_SPRITE 046: reference bounds [31, 62, 108, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "047/front",
+      "source": "graphics/yokai/047/front.4bpp",
+      "target": "graphics/yokai/047/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 28,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 047: reference bounds [144, 5, 201, 66]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "048/front",
+      "source": "graphics/yokai/048/front.4bpp",
+      "target": "graphics/yokai/048/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 048: reference bounds [142, 13, 206, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "049/back",
+      "source": "graphics/yokai/049/back.4bpp",
+      "target": "graphics/yokai/049/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 28,
+      "reason": "BATTLE_SPRITE 049: reference bounds [28, 81, 106, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "050/front",
+      "source": "graphics/yokai/050/front.4bpp",
+      "target": "graphics/yokai/050/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 14,
+      "reason": "BATTLE_SPRITE 050: reference bounds [135, 11, 211, 70]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "050/back",
+      "source": "graphics/yokai/050/back.4bpp",
+      "target": "graphics/yokai/050/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 10,
+      "reason": "BATTLE_SPRITE 050: reference bounds [32, 63, 102, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "052/back",
+      "source": "graphics/yokai/052/back.4bpp",
+      "target": "graphics/yokai/052/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 17,
+      "reason": "BATTLE_SPRITE 052: reference bounds [31, 70, 110, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "053/back",
+      "source": "graphics/yokai/053/back.4bpp",
+      "target": "graphics/yokai/053/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 315,
+      "center_x": 32,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 053: reference bounds [24, 66, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "054/front",
+      "source": "graphics/yokai/054/front.4bpp",
+      "target": "graphics/yokai/054/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 288,
+      "center_x": 32,
+      "top": 7,
+      "reason": "BATTLE_SPRITE 054: reference bounds [144, 16, 208, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "054/back",
+      "source": "graphics/yokai/054/back.4bpp",
+      "target": "graphics/yokai/054/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 14,
+      "reason": "BATTLE_SPRITE 054: reference bounds [28, 67, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "055/back",
+      "source": "graphics/yokai/055/back.4bpp",
+      "target": "graphics/yokai/055/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 17,
+      "reason": "BATTLE_SPRITE 055: reference bounds [24, 70, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "056/front",
+      "source": "graphics/yokai/056/front.4bpp",
+      "target": "graphics/yokai/056/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 8,
+      "reason": "BATTLE_SPRITE 056: reference bounds [144, 6, 216, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "056/back",
+      "source": "graphics/yokai/056/back.4bpp",
+      "target": "graphics/yokai/056/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 2,
+      "reason": "BATTLE_SPRITE 056: reference bounds [31, 55, 110, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "057/front",
+      "source": "graphics/yokai/057/front.4bpp",
+      "target": "graphics/yokai/057/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 057: reference bounds [143, 12, 209, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "057/back",
+      "source": "graphics/yokai/057/back.4bpp",
+      "target": "graphics/yokai/057/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 8,
+      "reason": "BATTLE_SPRITE 057: reference bounds [32, 61, 104, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "058/front",
+      "source": "graphics/yokai/058/front.4bpp",
+      "target": "graphics/yokai/058/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 17,
+      "reason": "BATTLE_SPRITE 058: reference bounds [141, 12, 221, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "058/back",
+      "source": "graphics/yokai/058/back.4bpp",
+      "target": "graphics/yokai/058/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 19,
+      "reason": "BATTLE_SPRITE 058: reference bounds [26, 72, 106, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "059/front",
+      "source": "graphics/yokai/059/front.4bpp",
+      "target": "graphics/yokai/059/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 18,
+      "reason": "BATTLE_SPRITE 059: reference bounds [138, 16, 217, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "059/back",
+      "source": "graphics/yokai/059/back.4bpp",
+      "target": "graphics/yokai/059/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 19,
+      "reason": "BATTLE_SPRITE 059: reference bounds [24, 72, 108, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "060/front",
+      "source": "graphics/yokai/060/front.4bpp",
+      "target": "graphics/yokai/060/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 19,
+      "reason": "BATTLE_SPRITE 060: reference bounds [135, 19, 212, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "060/back",
+      "source": "graphics/yokai/060/back.4bpp",
+      "target": "graphics/yokai/060/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 22,
+      "reason": "BATTLE_SPRITE 060: reference bounds [30, 75, 109, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "064/front",
+      "source": "graphics/yokai/064/front.4bpp",
+      "target": "graphics/yokai/064/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 282,
+      "center_x": 31,
+      "top": 5,
+      "reason": "BATTLE_SPRITE 064: reference bounds [144, 13, 206, 70]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "065/front",
+      "source": "graphics/yokai/065/front.4bpp",
+      "target": "graphics/yokai/065/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 10,
+      "reason": "BATTLE_SPRITE 065: reference bounds [136, 7, 215, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "066/back",
+      "source": "graphics/yokai/066/back.4bpp",
+      "target": "graphics/yokai/066/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 066: reference bounds [29, 66, 103, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "067/front",
+      "source": "graphics/yokai/067/front.4bpp",
+      "target": "graphics/yokai/067/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 067: reference bounds [144, 10, 210, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "067/back",
+      "source": "graphics/yokai/067/back.4bpp",
+      "target": "graphics/yokai/067/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 12,
+      "reason": "BATTLE_SPRITE 067: reference bounds [32, 65, 104, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "069/front",
+      "source": "graphics/yokai/069/front.4bpp",
+      "target": "graphics/yokai/069/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 069: reference bounds [139, 15, 210, 69]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "070/front",
+      "source": "graphics/yokai/070/front.4bpp",
+      "target": "graphics/yokai/070/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 8,
+      "reason": "BATTLE_SPRITE 070: reference bounds [139, 12, 207, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "071/front",
+      "source": "graphics/yokai/071/front.4bpp",
+      "target": "graphics/yokai/071/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 273,
+      "center_x": 28,
+      "top": 1,
+      "reason": "BATTLE_SPRITE 071: reference bounds [144, 9, 199, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "071/back",
+      "source": "graphics/yokai/071/back.4bpp",
+      "target": "graphics/yokai/071/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 321,
+      "center_x": 32,
+      "top": 10,
+      "reason": "BATTLE_SPRITE 071: reference bounds [29, 63, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "072/front",
+      "source": "graphics/yokai/072/front.4bpp",
+      "target": "graphics/yokai/072/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 1,
+      "reason": "BATTLE_SPRITE 072: reference bounds [144, 8, 209, 69]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "072/back",
+      "source": "graphics/yokai/072/back.4bpp",
+      "target": "graphics/yokai/072/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 072: reference bounds [28, 59, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "073/front",
+      "source": "graphics/yokai/073/front.4bpp",
+      "target": "graphics/yokai/073/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 289,
+      "center_x": 30,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 073: reference bounds [144, 5, 205, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "073/back",
+      "source": "graphics/yokai/073/back.4bpp",
+      "target": "graphics/yokai/073/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 309,
+      "center_x": 32,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 073: reference bounds [34, 59, 101, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "074/front",
+      "source": "graphics/yokai/074/front.4bpp",
+      "target": "graphics/yokai/074/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 272,
+      "center_x": 30,
+      "top": 4,
+      "reason": "BATTLE_SPRITE 074: reference bounds [140, 11, 197, 73]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "075/front",
+      "source": "graphics/yokai/075/front.4bpp",
+      "target": "graphics/yokai/075/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 075: reference bounds [141, 16, 206, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "076/back",
+      "source": "graphics/yokai/076/back.4bpp",
+      "target": "graphics/yokai/076/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 321,
+      "center_x": 32,
+      "top": 15,
+      "reason": "BATTLE_SPRITE 076: reference bounds [34, 68, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "077/front",
+      "source": "graphics/yokai/077/front.4bpp",
+      "target": "graphics/yokai/077/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 289,
+      "center_x": 31,
+      "top": 1,
+      "reason": "BATTLE_SPRITE 077: reference bounds [142, 9, 205, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "077/back",
+      "source": "graphics/yokai/077/back.4bpp",
+      "target": "graphics/yokai/077/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 9,
+      "reason": "BATTLE_SPRITE 077: reference bounds [32, 62, 100, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "078/front",
+      "source": "graphics/yokai/078/front.4bpp",
+      "target": "graphics/yokai/078/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 288,
+      "center_x": 31,
+      "top": 5,
+      "reason": "BATTLE_SPRITE 078: reference bounds [142, 13, 205, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "079/front",
+      "source": "graphics/yokai/079/front.4bpp",
+      "target": "graphics/yokai/079/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 14,
+      "reason": "BATTLE_SPRITE 079: reference bounds [137, 13, 215, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "080/front",
+      "source": "graphics/yokai/080/front.4bpp",
+      "target": "graphics/yokai/080/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 4,
+      "reason": "BATTLE_SPRITE 080: reference bounds [144, 12, 213, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "081/front",
+      "source": "graphics/yokai/081/front.4bpp",
+      "target": "graphics/yokai/081/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 081: reference bounds [144, 12, 215, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "082/back",
+      "source": "graphics/yokai/082/back.4bpp",
+      "target": "graphics/yokai/082/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 288,
+      "center_x": 31,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 082: reference bounds [36, 66, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "083/front",
+      "source": "graphics/yokai/083/front.4bpp",
+      "target": "graphics/yokai/083/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 266,
+      "center_x": 28,
+      "top": 3,
+      "reason": "BATTLE_SPRITE 083: reference bounds [144, 13, 199, 69]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "083/back",
+      "source": "graphics/yokai/083/back.4bpp",
+      "target": "graphics/yokai/083/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 338,
+      "center_x": 31,
+      "top": 8,
+      "reason": "BATTLE_SPRITE 083: reference bounds [37, 61, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "084/front",
+      "source": "graphics/yokai/084/front.4bpp",
+      "target": "graphics/yokai/084/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 303,
+      "center_x": 32,
+      "top": 8,
+      "reason": "BATTLE_SPRITE 084: reference bounds [141, 11, 217, 70]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "084/back",
+      "source": "graphics/yokai/084/back.4bpp",
+      "target": "graphics/yokai/084/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 309,
+      "center_x": 32,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 084: reference bounds [28, 66, 106, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "085/back",
+      "source": "graphics/yokai/085/back.4bpp",
+      "target": "graphics/yokai/085/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 7,
+      "reason": "BATTLE_SPRITE 085: reference bounds [22, 60, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "086/front",
+      "source": "graphics/yokai/086/front.4bpp",
+      "target": "graphics/yokai/086/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 12,
+      "reason": "BATTLE_SPRITE 086: reference bounds [139, 15, 219, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "086/back",
+      "source": "graphics/yokai/086/back.4bpp",
+      "target": "graphics/yokai/086/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 303,
+      "center_x": 32,
+      "top": 15,
+      "reason": "BATTLE_SPRITE 086: reference bounds [18, 68, 107, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "088/front",
+      "source": "graphics/yokai/088/front.4bpp",
+      "target": "graphics/yokai/088/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 17,
+      "reason": "BATTLE_SPRITE 088: reference bounds [133, 14, 211, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "089/front",
+      "source": "graphics/yokai/089/front.4bpp",
+      "target": "graphics/yokai/089/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 275,
+      "center_x": 30,
+      "top": 5,
+      "reason": "BATTLE_SPRITE 089: reference bounds [144, 11, 202, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "091/back",
+      "source": "graphics/yokai/091/back.4bpp",
+      "target": "graphics/yokai/091/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 19,
+      "reason": "BATTLE_SPRITE 091: reference bounds [29, 72, 107, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "092/front",
+      "source": "graphics/yokai/092/front.4bpp",
+      "target": "graphics/yokai/092/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 14,
+      "reason": "BATTLE_SPRITE 092: reference bounds [131, 13, 209, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "092/back",
+      "source": "graphics/yokai/092/back.4bpp",
+      "target": "graphics/yokai/092/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 092: reference bounds [23, 66, 110, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "093/back",
+      "source": "graphics/yokai/093/back.4bpp",
+      "target": "graphics/yokai/093/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 375,
+      "center_x": 31,
+      "top": 16,
+      "reason": "BATTLE_SPRITE 093: reference bounds [36, 69, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "094/back",
+      "source": "graphics/yokai/094/back.4bpp",
+      "target": "graphics/yokai/094/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 270,
+      "center_x": 30,
+      "top": 16,
+      "reason": "BATTLE_SPRITE 094: reference bounds [42, 69, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "095/front",
+      "source": "graphics/yokai/095/front.4bpp",
+      "target": "graphics/yokai/095/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 279,
+      "center_x": 27,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 095: reference bounds [144, 8, 198, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "095/back",
+      "source": "graphics/yokai/095/back.4bpp",
+      "target": "graphics/yokai/095/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 349,
+      "center_x": 32,
+      "top": 7,
+      "reason": "BATTLE_SPRITE 095: reference bounds [35, 60, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "096/front",
+      "source": "graphics/yokai/096/front.4bpp",
+      "target": "graphics/yokai/096/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 251,
+      "center_x": 27,
+      "top": 8,
+      "reason": "BATTLE_SPRITE 096: reference bounds [138, 16, 193, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "097/front",
+      "source": "graphics/yokai/097/front.4bpp",
+      "target": "graphics/yokai/097/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 261,
+      "center_x": 26,
+      "top": 4,
+      "reason": "BATTLE_SPRITE 097: reference bounds [143, 11, 195, 69]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "098/back",
+      "source": "graphics/yokai/098/back.4bpp",
+      "target": "graphics/yokai/098/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 280,
+      "center_x": 30,
+      "top": 20,
+      "reason": "BATTLE_SPRITE 098: reference bounds [41, 73, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "099/front",
+      "source": "graphics/yokai/099/front.4bpp",
+      "target": "graphics/yokai/099/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 270,
+      "center_x": 29,
+      "top": 2,
+      "reason": "BATTLE_SPRITE 099: reference bounds [142, 10, 201, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "101/front",
+      "source": "graphics/yokai/101/front.4bpp",
+      "target": "graphics/yokai/101/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 26,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 101: reference bounds [144, 6, 196, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "102/front",
+      "source": "graphics/yokai/102/front.4bpp",
+      "target": "graphics/yokai/102/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 8,
+      "reason": "BATTLE_SPRITE 102: reference bounds [132, 5, 208, 71]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "102/back",
+      "source": "graphics/yokai/102/back.4bpp",
+      "target": "graphics/yokai/102/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 2,
+      "reason": "BATTLE_SPRITE 102: reference bounds [26, 55, 112, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "103/front",
+      "source": "graphics/yokai/103/front.4bpp",
+      "target": "graphics/yokai/103/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 103: reference bounds [133, 5, 207, 70]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "103/back",
+      "source": "graphics/yokai/103/back.4bpp",
+      "target": "graphics/yokai/103/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 2,
+      "reason": "BATTLE_SPRITE 103: reference bounds [27, 55, 111, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "104/front",
+      "source": "graphics/yokai/104/front.4bpp",
+      "target": "graphics/yokai/104/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 104: reference bounds [133, 4, 207, 70]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "104/back",
+      "source": "graphics/yokai/104/back.4bpp",
+      "target": "graphics/yokai/104/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 4,
+      "reason": "BATTLE_SPRITE 104: reference bounds [28, 57, 109, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "105/front",
+      "source": "graphics/yokai/105/front.4bpp",
+      "target": "graphics/yokai/105/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 105: reference bounds [134, 7, 206, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "105/back",
+      "source": "graphics/yokai/105/back.4bpp",
+      "target": "graphics/yokai/105/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 105: reference bounds [30, 59, 109, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "107/front",
+      "source": "graphics/yokai/107/front.4bpp",
+      "target": "graphics/yokai/107/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 107: reference bounds [140, 14, 205, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "108/back",
+      "source": "graphics/yokai/108/back.4bpp",
+      "target": "graphics/yokai/108/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 10,
+      "reason": "BATTLE_SPRITE 108: reference bounds [34, 63, 103, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "109/front",
+      "source": "graphics/yokai/109/front.4bpp",
+      "target": "graphics/yokai/109/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 277,
+      "center_x": 30,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 109: reference bounds [144, 8, 203, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "109/back",
+      "source": "graphics/yokai/109/back.4bpp",
+      "target": "graphics/yokai/109/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 4,
+      "reason": "BATTLE_SPRITE 109: reference bounds [33, 57, 100, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "111/front",
+      "source": "graphics/yokai/111/front.4bpp",
+      "target": "graphics/yokai/111/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 258,
+      "center_x": 30,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 111: reference bounds [144, 16, 203, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "112/back",
+      "source": "graphics/yokai/112/back.4bpp",
+      "target": "graphics/yokai/112/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 356,
+      "center_x": 32,
+      "top": 19,
+      "reason": "BATTLE_SPRITE 112: reference bounds [25, 72, 109, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "114/front",
+      "source": "graphics/yokai/114/front.4bpp",
+      "target": "graphics/yokai/114/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 321,
+      "center_x": 32,
+      "top": 1,
+      "reason": "BATTLE_SPRITE 114: reference bounds [142, 16, 218, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "115/back",
+      "source": "graphics/yokai/115/back.4bpp",
+      "target": "graphics/yokai/115/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 7,
+      "reason": "BATTLE_SPRITE 115: reference bounds [35, 60, 100, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "116/front",
+      "source": "graphics/yokai/116/front.4bpp",
+      "target": "graphics/yokai/116/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 116: reference bounds [141, 14, 211, 69]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "116/back",
+      "source": "graphics/yokai/116/back.4bpp",
+      "target": "graphics/yokai/116/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 9,
+      "reason": "BATTLE_SPRITE 116: reference bounds [27, 62, 112, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "117/back",
+      "source": "graphics/yokai/117/back.4bpp",
+      "target": "graphics/yokai/117/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 341,
+      "center_x": 32,
+      "top": 26,
+      "reason": "BATTLE_SPRITE 117: reference bounds [25, 79, 108, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "118/back",
+      "source": "graphics/yokai/118/back.4bpp",
+      "target": "graphics/yokai/118/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 15,
+      "reason": "BATTLE_SPRITE 118: reference bounds [35, 68, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "120/front",
+      "source": "graphics/yokai/120/front.4bpp",
+      "target": "graphics/yokai/120/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 284,
+      "center_x": 31,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 120: reference bounds [141, 8, 203, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "122/back",
+      "source": "graphics/yokai/122/back.4bpp",
+      "target": "graphics/yokai/122/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 279,
+      "center_x": 30,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 122: reference bounds [40, 66, 101, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "123/back",
+      "source": "graphics/yokai/123/back.4bpp",
+      "target": "graphics/yokai/123/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 303,
+      "center_x": 30,
+      "top": 8,
+      "reason": "BATTLE_SPRITE 123: reference bounds [41, 61, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "124/back",
+      "source": "graphics/yokai/124/back.4bpp",
+      "target": "graphics/yokai/124/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 299,
+      "center_x": 31,
+      "top": 28,
+      "reason": "BATTLE_SPRITE 124: reference bounds [36, 81, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "125/back",
+      "source": "graphics/yokai/125/back.4bpp",
+      "target": "graphics/yokai/125/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 298,
+      "center_x": 32,
+      "top": 19,
+      "reason": "BATTLE_SPRITE 125: reference bounds [34, 72, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "126/back",
+      "source": "graphics/yokai/126/back.4bpp",
+      "target": "graphics/yokai/126/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 12,
+      "reason": "BATTLE_SPRITE 126: reference bounds [19, 65, 107, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "129/back",
+      "source": "graphics/yokai/129/back.4bpp",
+      "target": "graphics/yokai/129/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 29,
+      "reason": "BATTLE_SPRITE 129: reference bounds [23, 82, 105, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "130/front",
+      "source": "graphics/yokai/130/front.4bpp",
+      "target": "graphics/yokai/130/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 130: reference bounds [144, 12, 222, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "130/back",
+      "source": "graphics/yokai/130/back.4bpp",
+      "target": "graphics/yokai/130/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 17,
+      "reason": "BATTLE_SPRITE 130: reference bounds [28, 70, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "132/front",
+      "source": "graphics/yokai/132/front.4bpp",
+      "target": "graphics/yokai/132/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 11,
+      "reason": "BATTLE_SPRITE 132: reference bounds [136, 6, 214, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "133/front",
+      "source": "graphics/yokai/133/front.4bpp",
+      "target": "graphics/yokai/133/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 298,
+      "center_x": 32,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 133: reference bounds [144, 11, 212, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "134/back",
+      "source": "graphics/yokai/134/back.4bpp",
+      "target": "graphics/yokai/134/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 134: reference bounds [28, 66, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "135/front",
+      "source": "graphics/yokai/135/front.4bpp",
+      "target": "graphics/yokai/135/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 135: reference bounds [144, 4, 210, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "135/back",
+      "source": "graphics/yokai/135/back.4bpp",
+      "target": "graphics/yokai/135/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 298,
+      "center_x": 32,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 135: reference bounds [30, 59, 100, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "138/front",
+      "source": "graphics/yokai/138/front.4bpp",
+      "target": "graphics/yokai/138/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 24,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 138: reference bounds [144, 9, 191, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "139/back",
+      "source": "graphics/yokai/139/back.4bpp",
+      "target": "graphics/yokai/139/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 139: reference bounds [33, 66, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "140/front",
+      "source": "graphics/yokai/140/front.4bpp",
+      "target": "graphics/yokai/140/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 258,
+      "center_x": 28,
+      "top": 6,
+      "reason": "BATTLE_SPRITE 140: reference bounds [144, 13, 200, 66]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "141/front",
+      "source": "graphics/yokai/141/front.4bpp",
+      "target": "graphics/yokai/141/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 284,
+      "center_x": 32,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 141: reference bounds [144, 9, 207, 66]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "141/back",
+      "source": "graphics/yokai/141/back.4bpp",
+      "target": "graphics/yokai/141/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 12,
+      "reason": "BATTLE_SPRITE 141: reference bounds [35, 65, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "142/front",
+      "source": "graphics/yokai/142/front.4bpp",
+      "target": "graphics/yokai/142/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 27,
+      "reason": "BATTLE_SPRITE 142: reference bounds [139, 22, 211, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "142/back",
+      "source": "graphics/yokai/142/back.4bpp",
+      "target": "graphics/yokai/142/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 29,
+      "reason": "BATTLE_SPRITE 142: reference bounds [26, 82, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "143/back",
+      "source": "graphics/yokai/143/back.4bpp",
+      "target": "graphics/yokai/143/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 24,
+      "reason": "BATTLE_SPRITE 143: reference bounds [30, 77, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "144/front",
+      "source": "graphics/yokai/144/front.4bpp",
+      "target": "graphics/yokai/144/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 15,
+      "reason": "BATTLE_SPRITE 144: reference bounds [139, 19, 210, 64]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "144/back",
+      "source": "graphics/yokai/144/back.4bpp",
+      "target": "graphics/yokai/144/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 19,
+      "reason": "BATTLE_SPRITE 144: reference bounds [23, 72, 104, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "145/front",
+      "source": "graphics/yokai/145/front.4bpp",
+      "target": "graphics/yokai/145/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 7,
+      "reason": "BATTLE_SPRITE 145: reference bounds [140, 11, 210, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "147/front",
+      "source": "graphics/yokai/147/front.4bpp",
+      "target": "graphics/yokai/147/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 291,
+      "center_x": 30,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 147: reference bounds [144, 10, 203, 70]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "147/back",
+      "source": "graphics/yokai/147/back.4bpp",
+      "target": "graphics/yokai/147/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 334,
+      "center_x": 32,
+      "top": 15,
+      "reason": "BATTLE_SPRITE 147: reference bounds [30, 68, 99, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "148/front",
+      "source": "graphics/yokai/148/front.4bpp",
+      "target": "graphics/yokai/148/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 286,
+      "center_x": 32,
+      "top": 13,
+      "reason": "BATTLE_SPRITE 148: reference bounds [144, 22, 208, 68]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "149/front",
+      "source": "graphics/yokai/149/front.4bpp",
+      "target": "graphics/yokai/149/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 318,
+      "center_x": 34,
+      "top": 0,
+      "reason": "BATTLE_SPRITE 149: reference bounds [144, 13, 215, 65]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "150/front",
+      "source": "graphics/yokai/150/front.4bpp",
+      "target": "graphics/yokai/150/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 9,
+      "reason": "BATTLE_SPRITE 150: reference bounds [141, 12, 210, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+    },
+    {
+      "id": "150/back",
+      "source": "graphics/yokai/150/back.4bpp",
+      "target": "graphics/yokai/150/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 5,
+      "reason": "BATTLE_SPRITE 150: reference bounds [30, 58, 110, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+    },
+    {
+      "id": "019/shiny-front",
+      "source": "graphics/yokai_shiny/019/front.4bpp",
+      "target": "graphics/yokai_shiny/019/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 17,
+      "reason": "Same reference placement as normal; existing independent shiny artwork untouched; native width bounded"
+    },
+    {
+      "id": "099/shiny-front",
+      "source": "graphics/yokai_shiny/099/front.4bpp",
+      "target": "graphics/yokai_shiny/099/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 270,
+      "center_x": 29,
+      "top": 2,
+      "reason": "Same reference placement as normal; existing independent shiny artwork untouched; native width bounded"
+    },
+    {
+      "id": "101/shiny-front",
+      "source": "graphics/yokai_shiny/101/front.4bpp",
+      "target": "graphics/yokai_shiny/101/front-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 27,
+      "top": 0,
+      "reason": "Same reference placement as normal; existing independent shiny artwork untouched; native width bounded"
+    },
+    {
+      "id": "126/shiny-back",
+      "source": "graphics/yokai_shiny/126/back.4bpp",
+      "target": "graphics/yokai_shiny/126/back-display.4bpp",
+      "frame_width": 64,
+      "frame_height": 64,
+      "scale_q8": 293,
+      "center_x": 32,
+      "top": 12,
+      "reason": "Same reference placement as normal; existing independent shiny artwork untouched; native width bounded"
     }
   ]
 }

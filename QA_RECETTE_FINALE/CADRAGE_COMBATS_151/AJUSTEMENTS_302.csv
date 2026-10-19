@@ -1,0 +1,303 @@
+numero,nom,cote,reference_xyxy,source_xyxy,scale_q8,centre_x,haut,decalage_y,bbox_cible_realisable,limites
+1,Jibanyan,front,"[143, 14, 206, 70]","[4, 9, 60, 55]",293,32,9,0,"[144, 17, 208, 70]",['reference exceeds native64px/aspect constraint']
+1,Jibanyan,back,"[37, 66, 105, 113]","[4, 8, 60, 56]",293,32,13,4,"[40, 66, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+2,Bandinyan,front,"[137, 16, 207, 68]","[4, 13, 60, 51]",293,32,17,0,"[144, 25, 208, 68]",['reference exceeds native64px/aspect constraint']
+2,Bandinyan,back,"[29, 70, 99, 113]","[4, 9, 60, 54]",293,32,17,4,"[40, 70, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+3,Épinyan,front,"[144, 12, 216, 68]","[4, 11, 60, 53]",293,32,12,0,"[144, 20, 208, 68]",['reference exceeds native64px/aspect constraint']
+3,Épinyan,back,"[27, 67, 112, 113]","[4, 12, 60, 52]",293,32,14,4,"[40, 67, 104, 113]",['reference exceeds native64px/aspect constraint']
+4,Shogunyan,front,"[142, 18, 210, 69]","[4, 11, 60, 52]",293,32,14,0,"[144, 22, 208, 69]",['reference exceeds native64px/aspect constraint']
+4,Shogunyan,back,"[30, 66, 110, 113]","[4, 11, 60, 52]",293,32,13,4,"[40, 66, 104, 113]",['reference exceeds native64px/aspect constraint']
+5,Komasan,front,"[144, 11, 203, 71]","[5, 4, 58, 60]",280,30,2,0,"[145, 10, 203, 71]",[]
+5,Komasan,back,"[36, 56, 99, 113]","[7, 4, 56, 60]",329,31,3,4,"[40, 56, 103, 113]",['intentional lower body canvas crop']
+6,Komaous,front,"[144, 9, 218, 71]","[4, 9, 60, 54]",293,32,11,0,"[144, 19, 208, 71]",['reference exceeds native64px/aspect constraint']
+6,Komaous,back,"[29, 65, 103, 113]","[4, 8, 60, 56]",293,32,12,4,"[40, 65, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+7,Komastar,front,"[142, 16, 211, 72]","[4, 9, 60, 55]",293,32,11,0,"[144, 19, 208, 72]",['reference exceeds native64px/aspect constraint']
+7,Komastar,back,"[24, 64, 103, 113]","[4, 11, 60, 53]",293,32,11,4,"[40, 64, 104, 112]",['reference exceeds native64px/aspect constraint']
+8,Whisper,front,"[144, 10, 207, 71]","[4, 5, 60, 59]",289,32,2,0,"[145, 10, 208, 71]",[]
+8,Whisper,back,"[33, 60, 101, 113]","[4, 4, 60, 59]",293,32,7,4,"[40, 60, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+9,Cigalopin,front,"[144, 22, 202, 69]","[4, 7, 60, 57]",253,29,12,0,"[146, 20, 201, 69]",[]
+9,Cigalopin,back,"[39, 76, 99, 113]","[4, 8, 60, 55]",274,30,23,4,"[40, 76, 100, 113]",['intentional lower body canvas crop']
+10,Cigallard,front,"[141, 12, 203, 69]","[4, 9, 60, 55]",293,32,8,0,"[144, 16, 208, 69]",['reference exceeds native64px/aspect constraint']
+10,Cigallard,back,"[37, 65, 105, 113]","[4, 7, 60, 57]",293,32,12,4,"[40, 65, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+11,Murhaine,front,"[144, 20, 207, 65]","[4, 11, 60, 52]",284,32,12,0,"[145, 20, 207, 65]",[]
+11,Murhaine,back,"[24, 75, 99, 113]","[4, 10, 60, 54]",293,32,22,4,"[40, 75, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+12,Saumhonni,front,"[139, 13, 207, 66]","[4, 11, 60, 52]",293,32,11,0,"[144, 19, 208, 66]",['reference exceeds native64px/aspect constraint']
+12,Saumhonni,back,"[27, 69, 105, 113]","[4, 11, 60, 53]",293,32,16,4,"[40, 69, 104, 113]",['reference exceeds native64px/aspect constraint']
+13,Dracounet,front,"[144, 8, 192, 67]","[13, 4, 51, 60]",293,24,0,0,"[147, 8, 190, 72]",['reference exceeds native64px/aspect constraint']
+13,Dracounet,back,"[40, 63, 99, 113]","[11, 4, 52, 60]",368,30,10,4,"[41, 63, 100, 113]",['intentional lower body canvas crop']
+14,Sir Dragon,front,"[135, 8, 216, 70]","[4, 11, 60, 52]",293,32,15,0,"[144, 23, 208, 70]",['reference exceeds native64px/aspect constraint']
+14,Sir Dragon,back,"[26, 63, 102, 113]","[4, 8, 60, 55]",293,32,10,4,"[40, 63, 104, 113]",['reference exceeds native64px/aspect constraint']
+15,Octorgone,front,"[141, 12, 212, 70]","[4, 10, 60, 53]",293,32,13,0,"[144, 21, 208, 70]",['reference exceeds native64px/aspect constraint']
+15,Octorgone,back,"[24, 69, 106, 113]","[4, 11, 60, 52]",293,32,16,4,"[40, 69, 104, 113]",['reference exceeds native64px/aspect constraint']
+16,Kyubi,front,"[139, 11, 215, 70]","[4, 11, 60, 52]",293,32,15,0,"[144, 23, 208, 70]",['reference exceeds native64px/aspect constraint']
+16,Kyubi,back,"[20, 66, 107, 113]","[4, 11, 60, 52]",293,32,13,4,"[40, 66, 104, 113]",['reference exceeds native64px/aspect constraint']
+17,Robonyan,front,"[144, 18, 202, 70]","[4, 6, 60, 57]",263,29,10,0,"[144, 18, 202, 70]",[]
+17,Robonyan,back,"[37, 69, 105, 113]","[5, 8, 59, 55]",303,32,16,4,"[40, 69, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+18,Robonyan F,front,"[143, 16, 206, 71]","[4, 8, 60, 55]",293,32,9,0,"[144, 17, 208, 71]",[]
+18,Robonyan F,back,"[31, 65, 101, 113]","[4, 9, 60, 55]",293,32,12,4,"[40, 65, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+19,Robonyan 28,front,"[130, 9, 221, 71]","[4, 13, 60, 50]",293,32,21,0,"[144, 29, 208, 71]",['reference exceeds native64px/aspect constraint']
+19,Robonyan 28,back,"[25, 66, 121, 113]","[4, 10, 60, 54]",293,32,13,4,"[40, 66, 104, 113]",['reference exceeds native64px/aspect constraint']
+20,Faux Kappa,front,"[144, 15, 201, 72]","[5, 4, 59, 60]",265,28,6,0,"[144, 14, 200, 72]",[]
+20,Faux Kappa,back,"[36, 66, 99, 113]","[4, 4, 59, 60]",293,31,13,4,"[40, 66, 103, 113]",['intentional lower body canvas crop']
+21,Tukappa,front,"[144, 8, 201, 71]","[7, 4, 56, 60]",293,28,0,0,"[144, 8, 200, 72]",[]
+21,Tukappa,back,"[31, 65, 99, 113]","[5, 4, 59, 60]",303,32,12,4,"[40, 65, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+22,Granpapéti,front,"[144, 10, 200, 70]","[10, 4, 54, 60]",293,28,0,0,"[147, 8, 197, 72]",['reference exceeds native64px/aspect constraint']
+22,Granpapéti,back,"[37, 68, 99, 113]","[9, 5, 55, 58]",345,31,15,4,"[40, 68, 102, 113]",['intentional lower body canvas crop']
+23,Puissanfon,front,"[144, 17, 207, 68]","[4, 9, 60, 54]",289,32,9,0,"[145, 17, 208, 68]",[]
+23,Puissanfon,back,"[36, 68, 100, 113]","[4, 9, 60, 54]",293,32,15,4,"[40, 68, 104, 113]",['intentional lower body canvas crop']
+24,Nanpart,front,"[142, 20, 208, 67]","[4, 12, 60, 51]",293,32,14,0,"[144, 22, 208, 67]",['reference exceeds native64px/aspect constraint']
+24,Nanpart,back,"[30, 77, 104, 113]","[4, 13, 60, 51]",293,32,24,4,"[40, 77, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+25,Passpa,front,"[144, 12, 211, 68]","[4, 8, 60, 55]",293,32,6,0,"[144, 14, 208, 68]",['reference exceeds native64px/aspect constraint']
+25,Passpa,back,"[33, 67, 104, 113]","[4, 6, 60, 58]",293,32,14,4,"[40, 67, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+26,Angélik,front,"[144, 12, 204, 67]","[4, 5, 60, 58]",270,30,3,0,"[145, 11, 204, 67]",[]
+26,Angélik,back,"[33, 64, 99, 113]","[4, 4, 60, 59]",293,32,11,4,"[40, 64, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+27,Blizzaria,front,"[145, 7, 209, 69]","[4, 4, 60, 59]",291,32,0,0,"[144, 8, 208, 71]",[]
+27,Blizzaria,back,"[29, 64, 99, 113]","[4, 4, 60, 60]",293,32,11,4,"[40, 64, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+28,Feulion,front,"[138, 11, 205, 68]","[4, 8, 60, 55]",293,32,6,0,"[144, 14, 208, 68]",['reference exceeds native64px/aspect constraint']
+28,Feulion,back,"[36, 59, 110, 113]","[4, 7, 60, 57]",293,32,6,4,"[40, 59, 104, 113]",['reference exceeds native64px/aspect constraint']
+29,Padrézo,front,"[144, 10, 213, 64]","[4, 10, 60, 54]",293,32,6,0,"[144, 14, 208, 64]",['reference exceeds native64px/aspect constraint']
+29,Padrézo,back,"[28, 62, 106, 113]","[4, 9, 60, 55]",293,32,9,4,"[40, 62, 104, 113]",['reference exceeds native64px/aspect constraint']
+30,Émettor,front,"[139, 7, 217, 68]","[4, 10, 60, 53]",293,32,11,0,"[144, 19, 208, 68]",['reference exceeds native64px/aspect constraint']
+30,Émettor,back,"[24, 59, 115, 113]","[4, 10, 60, 54]",293,32,6,4,"[40, 59, 104, 109]",['reference exceeds native64px/aspect constraint']
+31,Crocho,front,"[138, 15, 207, 69]","[4, 10, 60, 54]",293,32,11,0,"[144, 19, 208, 69]",['reference exceeds native64px/aspect constraint']
+31,Crocho,back,"[30, 66, 107, 113]","[4, 10, 60, 54]",293,32,13,4,"[40, 66, 104, 113]",['reference exceeds native64px/aspect constraint']
+32,Potofeu,front,"[144, 13, 209, 67]","[4, 9, 60, 55]",293,32,6,0,"[144, 14, 208, 67]",['reference exceeds native64px/aspect constraint']
+32,Potofeu,back,"[31, 68, 109, 113]","[4, 8, 60, 55]",293,32,15,4,"[40, 68, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+33,Misterre,front,"[133, 10, 212, 68]","[4, 12, 60, 52]",293,32,14,0,"[144, 22, 208, 68]",['reference exceeds native64px/aspect constraint']
+33,Misterre,back,"[27, 62, 113, 113]","[4, 11, 60, 52]",293,32,9,4,"[40, 62, 104, 109]",['reference exceeds native64px/aspect constraint']
+34,Métaureaulog,front,"[144, 10, 202, 68]","[6, 4, 57, 60]",278,29,0,0,"[146, 8, 201, 69]",[]
+34,Métaureaulog,back,"[41, 63, 104, 113]","[6, 4, 58, 60]",310,32,10,4,"[41, 63, 104, 113]",['intentional lower body canvas crop']
+35,Tauracle,front,"[142, 9, 211, 68]","[4, 8, 60, 55]",293,32,6,0,"[144, 14, 208, 68]",['reference exceeds native64px/aspect constraint']
+35,Tauracle,back,"[31, 66, 107, 113]","[4, 9, 60, 55]",293,32,13,4,"[40, 66, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+36,Poulpatouch,front,"[144, 19, 204, 68]","[4, 9, 60, 54]",277,30,11,0,"[144, 19, 205, 68]",[]
+36,Poulpatouch,back,"[33, 71, 100, 113]","[4, 9, 60, 55]",293,32,18,4,"[40, 71, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+37,Poulpater,front,"[137, 6, 215, 70]","[4, 9, 60, 55]",293,32,9,0,"[144, 17, 208, 70]",['reference exceeds native64px/aspect constraint']
+37,Poulpater,back,"[27, 57, 109, 113]","[4, 8, 60, 55]",293,32,4,4,"[40, 57, 104, 111]",['reference exceeds native64px/aspect constraint']
+38,Bonneto,front,"[136, 3, 202, 70]","[4, 4, 59, 60]",293,31,0,0,"[144, 8, 207, 72]",['reference exceeds native64px/aspect constraint']
+38,Bonneto,back,"[37, 55, 107, 113]","[5, 4, 58, 60]",309,32,2,4,"[40, 55, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+39,Sabri,front,"[140, 3, 210, 69]","[4, 5, 60, 58]",293,32,0,0,"[144, 8, 208, 69]",['reference exceeds native64px/aspect constraint']
+39,Sabri,back,"[29, 55, 111, 113]","[4, 6, 60, 57]",293,32,2,4,"[40, 55, 104, 113]",['reference exceeds native64px/aspect constraint']
+40,Démophage,front,"[138, 12, 209, 68]","[4, 10, 60, 53]",293,32,11,0,"[144, 19, 208, 68]",['reference exceeds native64px/aspect constraint']
+40,Démophage,back,"[31, 66, 109, 113]","[4, 10, 60, 53]",293,32,13,4,"[40, 66, 104, 113]",['reference exceeds native64px/aspect constraint']
+41,Brumette,front,"[144, 18, 200, 68]","[4, 6, 60, 58]",251,28,9,0,"[145, 17, 200, 68]",[]
+41,Brumette,back,"[37, 67, 99, 113]","[4, 6, 59, 58]",289,31,14,4,"[40, 67, 102, 113]",['intentional lower body canvas crop']
+42,Brumella,front,"[140, 11, 206, 67]","[4, 8, 60, 55]",293,32,5,0,"[144, 13, 208, 67]",['reference exceeds native64px/aspect constraint']
+42,Brumella,back,"[40, 64, 102, 113]","[4, 6, 60, 57]",283,31,11,4,"[40, 64, 102, 113]",['intentional lower body canvas crop']
+43,Télémir,front,"[144, 14, 205, 67]","[4, 7, 60, 57]",275,30,5,0,"[144, 13, 204, 67]",[]
+43,Télémir,back,"[35, 64, 101, 113]","[4, 7, 60, 57]",293,32,11,4,"[40, 64, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+44,Triptic-tac,front,"[141, 8, 215, 65]","[4, 10, 60, 53]",293,32,8,0,"[144, 16, 208, 65]",['reference exceeds native64px/aspect constraint']
+44,Triptic-tac,back,"[28, 68, 109, 113]","[4, 10, 60, 53]",293,32,15,4,"[40, 68, 104, 113]",['reference exceeds native64px/aspect constraint']
+45,Nihilistik,front,"[141, 13, 207, 66]","[4, 10, 60, 54]",293,32,8,0,"[144, 16, 208, 66]",['reference exceeds native64px/aspect constraint']
+45,Nihilistik,back,"[37, 66, 110, 113]","[4, 11, 60, 53]",293,32,13,4,"[40, 66, 104, 113]",['reference exceeds native64px/aspect constraint']
+46,Émousstik,front,"[137, 12, 208, 67]","[4, 10, 60, 53]",293,32,10,0,"[144, 18, 208, 67]",['reference exceeds native64px/aspect constraint']
+46,Émousstik,back,"[31, 62, 108, 113]","[4, 10, 60, 53]",293,32,9,4,"[40, 62, 104, 111]",['reference exceeds native64px/aspect constraint']
+47,Humainequin,front,"[144, 5, 201, 66]","[10, 4, 53, 60]",293,28,0,0,"[148, 8, 197, 72]",['reference exceeds native64px/aspect constraint']
+47,Humainequin,back,"[38, 64, 99, 113]","[8, 4, 55, 60]",332,30,11,4,"[40, 64, 101, 113]",['intentional lower body canvas crop']
+48,Slurpent,front,"[142, 13, 206, 68]","[4, 8, 60, 55]",293,32,6,0,"[144, 14, 208, 68]",['reference exceeds native64px/aspect constraint']
+48,Slurpent,back,"[30, 66, 107, 113]","[4, 8, 60, 55]",293,32,13,4,"[40, 66, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+49,Baku,front,"[135, 22, 210, 65]","[4, 18, 60, 45]",293,32,26,0,"[144, 34, 208, 65]",['reference exceeds native64px/aspect constraint']
+49,Baku,back,"[28, 81, 106, 113]","[4, 15, 60, 49]",293,32,28,4,"[40, 81, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+50,Bakuku,front,"[135, 11, 211, 70]","[4, 11, 60, 53]",293,32,14,0,"[144, 22, 208, 70]",['reference exceeds native64px/aspect constraint']
+50,Bakuku,back,"[32, 63, 102, 113]","[4, 7, 60, 56]",293,32,10,4,"[40, 63, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+51,Mognyan,front,"[144, 5, 198, 65]","[8, 4, 55, 60]",284,27,0,0,"[145, 8, 197, 70]",[]
+51,Mognyan,back,"[37, 51, 99, 113]","[8, 4, 56, 60]",331,31,0,4,"[40, 53, 102, 113]",['intentional lower body canvas crop']
+52,Bouh,front,"[137, 20, 214, 66]","[4, 15, 60, 48]",293,32,20,0,"[144, 28, 208, 66]",['reference exceeds native64px/aspect constraint']
+52,Bouh,back,"[31, 70, 110, 113]","[4, 15, 60, 48]",293,32,17,4,"[40, 70, 104, 108]",['reference exceeds native64px/aspect constraint']
+53,Lacanne,front,"[144, 11, 217, 67]","[4, 6, 60, 58]",293,32,0,0,"[144, 8, 208, 68]",['reference exceeds native64px/aspect constraint']
+53,Lacanne,back,"[24, 66, 99, 113]","[6, 4, 58, 60]",315,32,13,4,"[40, 66, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+54,Canastelle,front,"[144, 16, 208, 68]","[4, 8, 60, 55]",288,32,7,0,"[145, 15, 208, 68]",[]
+54,Canastelle,back,"[28, 67, 99, 113]","[4, 7, 60, 56]",293,32,14,4,"[40, 67, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+55,Yvantouse,front,"[144, 20, 214, 68]","[4, 12, 60, 52]",293,32,14,0,"[144, 22, 208, 68]",['reference exceeds native64px/aspect constraint']
+55,Yvantouse,back,"[24, 70, 99, 113]","[4, 9, 60, 54]",293,32,17,4,"[40, 70, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+56,Ed Mémoire,front,"[144, 6, 216, 68]","[4, 9, 60, 54]",293,32,8,0,"[144, 16, 208, 68]",['reference exceeds native64px/aspect constraint']
+56,Ed Mémoire,back,"[31, 55, 110, 113]","[4, 9, 60, 55]",293,32,2,4,"[40, 55, 104, 108]",['reference exceeds native64px/aspect constraint']
+57,Couchtar,front,"[143, 12, 209, 67]","[4, 9, 60, 55]",293,32,6,0,"[144, 14, 208, 67]",['reference exceeds native64px/aspect constraint']
+57,Couchtar,back,"[32, 61, 104, 113]","[4, 8, 60, 56]",293,32,8,4,"[40, 61, 104, 113]",['reference exceeds native64px/aspect constraint']
+58,Noctambill,front,"[141, 12, 221, 68]","[4, 13, 60, 51]",293,32,17,0,"[144, 25, 208, 68]",['reference exceeds native64px/aspect constraint']
+58,Noctambill,back,"[26, 72, 106, 113]","[4, 12, 60, 52]",293,32,19,4,"[40, 72, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+59,Fouétar,front,"[138, 16, 217, 68]","[4, 13, 60, 50]",293,32,18,0,"[144, 26, 208, 68]",['reference exceeds native64px/aspect constraint']
+59,Fouétar,back,"[24, 72, 108, 113]","[4, 12, 60, 51]",293,32,19,4,"[40, 72, 104, 113]",['reference exceeds native64px/aspect constraint']
+60,Superfouétar,front,"[135, 19, 212, 67]","[4, 14, 60, 49]",293,32,19,0,"[144, 27, 208, 67]",['reference exceeds native64px/aspect constraint']
+60,Superfouétar,back,"[30, 75, 109, 113]","[4, 13, 60, 50]",293,32,22,4,"[40, 75, 104, 113]",['reference exceeds native64px/aspect constraint']
+61,Égare-dare,front,"[137, 9, 211, 70]","[4, 9, 60, 55]",293,32,9,0,"[144, 17, 208, 70]",['reference exceeds native64px/aspect constraint']
+61,Égare-dare,back,"[14, 59, 100, 113]","[4, 8, 60, 55]",293,32,6,4,"[40, 59, 104, 113]",['reference exceeds native64px/aspect constraint']
+62,Chauvekipeut,front,"[140, 7, 214, 70]","[4, 8, 60, 55]",293,32,8,0,"[144, 16, 208, 70]",['reference exceeds native64px/aspect constraint']
+62,Chauvekipeut,back,"[25, 55, 117, 113]","[4, 8, 60, 56]",293,32,2,4,"[40, 55, 104, 110]",['reference exceeds native64px/aspect constraint']
+63,Chihuaglagla,front,"[144, 8, 200, 69]","[6, 4, 58, 60]",277,28,0,0,"[144, 8, 200, 69]",[]
+63,Chihuaglagla,back,"[31, 65, 101, 113]","[4, 6, 60, 58]",293,32,12,4,"[40, 65, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+64,Froahuahua,front,"[144, 13, 206, 70]","[4, 6, 60, 58]",282,31,5,0,"[144, 13, 206, 70]",[]
+64,Froahuahua,back,"[36, 61, 105, 113]","[4, 6, 60, 58]",293,32,8,4,"[40, 61, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+65,Gorgouille,front,"[136, 7, 215, 67]","[4, 10, 60, 53]",293,32,10,0,"[144, 18, 208, 67]",['reference exceeds native64px/aspect constraint']
+65,Gorgouille,back,"[23, 56, 109, 113]","[4, 8, 60, 56]",293,32,3,4,"[40, 56, 104, 111]",['reference exceeds native64px/aspect constraint']
+66,Sirénée,front,"[144, 11, 213, 68]","[4, 10, 60, 54]",293,32,10,0,"[144, 18, 208, 68]",['reference exceeds native64px/aspect constraint']
+66,Sirénée,back,"[29, 66, 103, 113]","[4, 9, 60, 54]",293,32,13,4,"[40, 66, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+67,Sirènité,front,"[144, 10, 210, 67]","[4, 9, 60, 55]",293,32,6,0,"[144, 14, 208, 67]",['reference exceeds native64px/aspect constraint']
+67,Sirènité,back,"[32, 65, 104, 113]","[4, 8, 60, 55]",293,32,12,4,"[40, 65, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+68,Papa Ress,front,"[141, 17, 201, 67]","[4, 9, 60, 55]",276,30,9,0,"[144, 17, 204, 67]",[]
+68,Papa Ress,back,"[40, 65, 105, 113]","[4, 8, 60, 56]",293,32,12,4,"[40, 65, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+69,Ralbouc,front,"[139, 15, 210, 69]","[4, 11, 60, 53]",293,32,13,0,"[144, 21, 208, 69]",['reference exceeds native64px/aspect constraint']
+69,Ralbouc,back,"[38, 66, 99, 113]","[4, 10, 60, 54]",279,30,13,4,"[40, 66, 101, 113]",[]
+70,Sorcophage,front,"[139, 12, 207, 68]","[4, 9, 60, 54]",293,32,8,0,"[144, 16, 208, 68]",['reference exceeds native64px/aspect constraint']
+70,Sorcophage,back,"[29, 64, 100, 113]","[4, 6, 60, 58]",293,32,11,4,"[40, 64, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+71,Insomnelle,front,"[144, 9, 199, 68]","[6, 4, 58, 59]",273,28,1,0,"[145, 9, 200, 68]",[]
+71,Insomnelle,back,"[29, 63, 99, 113]","[6, 5, 57, 59]",321,32,10,4,"[40, 63, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+72,Tata Aura,front,"[144, 8, 209, 69]","[4, 6, 60, 58]",293,32,1,0,"[144, 9, 208, 69]",['reference exceeds native64px/aspect constraint']
+72,Tata Aura,back,"[28, 59, 99, 113]","[4, 4, 60, 60]",293,32,6,4,"[40, 59, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+73,Tontonnerre,front,"[144, 5, 205, 68]","[5, 4, 59, 60]",289,30,0,0,"[144, 8, 205, 71]",[]
+73,Tontonnerre,back,"[34, 59, 101, 113]","[5, 4, 58, 60]",309,32,6,4,"[40, 59, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+74,Antonnerre,front,"[140, 11, 197, 73]","[4, 4, 60, 60]",272,30,4,1,"[144, 13, 204, 73]",[]
+74,Antonnerre,back,"[31, 71, 102, 113]","[4, 7, 60, 56]",293,32,18,4,"[40, 71, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+75,Parantonn,front,"[141, 16, 206, 67]","[4, 11, 60, 53]",293,32,11,0,"[144, 19, 208, 67]",['reference exceeds native64px/aspect constraint']
+75,Parantonn,back,"[32, 66, 100, 113]","[4, 9, 60, 54]",293,32,13,4,"[40, 66, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+76,Scoltine,front,"[144, 18, 203, 67]","[4, 5, 60, 58]",253,30,7,0,"[147, 15, 202, 67]",[]
+76,Scoltine,back,"[34, 68, 99, 113]","[6, 4, 57, 60]",321,32,15,4,"[40, 68, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+77,Scolérique,front,"[142, 9, 205, 68]","[4, 6, 60, 58]",289,31,1,0,"[144, 9, 207, 68]",[]
+77,Scolérique,back,"[32, 62, 100, 113]","[4, 5, 60, 58]",293,32,9,4,"[40, 62, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+78,Coléroptère,front,"[142, 13, 205, 68]","[4, 7, 60, 56]",288,31,5,0,"[144, 13, 207, 68]",[]
+78,Coléroptère,back,"[37, 65, 106, 113]","[4, 7, 60, 57]",293,32,12,4,"[40, 65, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+79,Rhinolimit,front,"[137, 13, 215, 67]","[4, 12, 60, 51]",293,32,14,0,"[144, 22, 208, 67]",['reference exceeds native64px/aspect constraint']
+79,Rhinolimit,back,"[22, 65, 109, 113]","[4, 11, 60, 52]",293,32,12,4,"[40, 65, 104, 112]",['reference exceeds native64px/aspect constraint']
+80,Scatcheur,front,"[144, 12, 213, 67]","[4, 8, 60, 56]",293,32,4,0,"[144, 12, 208, 67]",['reference exceeds native64px/aspect constraint']
+80,Scatcheur,back,"[22, 65, 99, 113]","[4, 8, 60, 56]",293,32,12,4,"[40, 65, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+81,Scarmouche,front,"[144, 12, 215, 68]","[4, 8, 60, 55]",293,32,6,0,"[144, 14, 208, 68]",['reference exceeds native64px/aspect constraint']
+81,Scarmouche,back,"[28, 62, 106, 113]","[4, 7, 60, 57]",293,32,9,4,"[40, 62, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+82,Noko,front,"[144, 19, 204, 68]","[4, 6, 60, 57]",260,30,8,0,"[146, 16, 203, 68]",[]
+82,Noko,back,"[36, 66, 99, 113]","[4, 4, 60, 60]",288,31,13,4,"[40, 66, 103, 113]",['intentional lower body canvas crop']
+83,Nénunoko,front,"[144, 13, 199, 69]","[6, 4, 57, 60]",266,28,3,0,"[146, 11, 199, 69]",[]
+83,Nénunoko,back,"[37, 61, 99, 113]","[8, 4, 55, 60]",338,31,8,4,"[40, 61, 102, 113]",['intentional lower body canvas crop']
+84,Tryptik,front,"[141, 11, 217, 70]","[5, 9, 59, 55]",303,32,8,0,"[144, 16, 208, 70]",['reference exceeds native64px/aspect constraint']
+84,Tryptik,back,"[28, 66, 106, 113]","[5, 8, 58, 56]",309,32,13,4,"[40, 66, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+85,Carpitaine,front,"[142, 12, 214, 67]","[4, 10, 60, 53]",293,32,10,0,"[144, 18, 208, 67]",['reference exceeds native64px/aspect constraint']
+85,Carpitaine,back,"[22, 60, 99, 113]","[4, 8, 60, 56]",293,32,7,4,"[40, 60, 104, 113]",['reference exceeds native64px/aspect constraint']
+86,Turboss,front,"[139, 15, 219, 68]","[4, 11, 60, 53]",293,32,12,0,"[144, 20, 208, 68]",['reference exceeds native64px/aspect constraint']
+86,Turboss,back,"[18, 68, 107, 113]","[5, 11, 59, 53]",303,32,15,4,"[40, 68, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+87,Kappacap,front,"[144, 22, 210, 67]","[4, 11, 60, 52]",291,32,12,0,"[144, 20, 208, 67]",[]
+87,Kappacap,back,"[22, 75, 99, 113]","[4, 12, 60, 52]",293,32,22,4,"[40, 75, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+88,Appak,front,"[133, 14, 211, 67]","[4, 13, 60, 50]",293,32,17,0,"[144, 25, 208, 67]",['reference exceeds native64px/aspect constraint']
+88,Appak,back,"[25, 72, 106, 113]","[4, 14, 60, 50]",293,32,19,4,"[40, 72, 104, 113]",['reference exceeds native64px/aspect constraint']
+89,Camaïeul,front,"[144, 11, 202, 68]","[4, 6, 60, 57]",275,30,5,0,"[144, 13, 204, 68]",[]
+89,Camaïeul,back,"[35, 64, 99, 113]","[6, 4, 58, 60]",315,32,11,4,"[40, 64, 104, 113]",['intentional lower body canvas crop']
+90,Glapie,front,"[141, 12, 206, 67]","[4, 8, 60, 55]",293,32,5,0,"[144, 13, 208, 67]",['reference exceeds native64px/aspect constraint']
+90,Glapie,back,"[37, 68, 108, 113]","[4, 8, 60, 56]",293,32,15,4,"[40, 68, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+91,Chiperpiou,front,"[142, 16, 209, 67]","[4, 10, 60, 53]",293,32,10,0,"[144, 18, 208, 67]",['reference exceeds native64px/aspect constraint']
+91,Chiperpiou,back,"[29, 72, 107, 113]","[4, 12, 60, 51]",293,32,19,4,"[40, 72, 104, 113]",['reference exceeds native64px/aspect constraint']
+92,Rapiaf,front,"[131, 13, 209, 68]","[4, 12, 60, 52]",293,32,14,0,"[144, 22, 208, 68]",['reference exceeds native64px/aspect constraint']
+92,Rapiaf,back,"[23, 66, 110, 113]","[4, 11, 60, 52]",293,32,13,4,"[40, 66, 104, 113]",['reference exceeds native64px/aspect constraint']
+93,Tête de lard,front,"[144, 13, 197, 66]","[9, 4, 55, 60]",267,26,0,0,"[146, 8, 194, 66]",[]
+93,Tête de lard,back,"[36, 69, 99, 113]","[10, 4, 53, 60]",375,31,16,4,"[40, 69, 103, 113]",['intentional lower body canvas crop']
+94,Potache,front,"[144, 20, 193, 68]","[5, 4, 59, 60]",226,24,11,0,"[144, 19, 192, 68]",[]
+94,Potache,back,"[42, 69, 99, 113]","[5, 4, 59, 60]",270,30,16,4,"[42, 69, 99, 113]",['intentional lower body canvas crop']
+95,Dépotache,front,"[144, 8, 198, 67]","[8, 4, 56, 60]",279,27,0,0,"[145, 8, 197, 69]",[]
+95,Dépotache,back,"[35, 60, 99, 113]","[8, 4, 55, 60]",349,32,7,4,"[40, 60, 104, 113]",['intentional lower body canvas crop']
+96,Navétéran,front,"[138, 16, 193, 67]","[4, 6, 60, 58]",251,27,8,0,"[144, 16, 199, 67]",[]
+96,Navétéran,back,"[37, 71, 99, 113]","[4, 4, 59, 60]",289,31,18,4,"[40, 71, 102, 113]",['intentional lower body canvas crop']
+97,Navigarmateur,front,"[143, 11, 195, 69]","[6, 4, 58, 60]",261,26,4,0,"[144, 12, 197, 69]",[]
+97,Navigarmateur,back,"[41, 60, 99, 113]","[8, 4, 55, 60]",316,30,7,4,"[41, 60, 99, 113]",['intentional lower body canvas crop']
+98,Sergent Rampant,front,"[144, 20, 201, 68]","[4, 4, 60, 59]",241,28,8,0,"[146, 16, 199, 68]",[]
+98,Sergent Rampant,back,"[41, 73, 99, 113]","[5, 4, 58, 60]",280,30,20,4,"[41, 73, 99, 113]",['intentional lower body canvas crop']
+99,Coach Antonic,front,"[142, 10, 201, 67]","[4, 5, 60, 59]",270,29,2,0,"[144, 10, 203, 67]",[]
+99,Coach Antonic,back,"[28, 63, 102, 113]","[4, 7, 60, 57]",293,32,10,4,"[40, 63, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+100,Usapyon,front,"[144, 10, 195, 68]","[12, 4, 52, 60]",293,26,0,0,"[147, 8, 193, 72]",[]
+100,Usapyon,back,"[41, 60, 99, 113]","[14, 4, 50, 59]",412,30,7,4,"[41, 60, 99, 113]",['intentional lower body canvas crop']
+101,Emperor,front,"[144, 6, 196, 68]","[13, 4, 51, 60]",293,26,0,0,"[149, 8, 192, 72]",['reference exceeds native64px/aspect constraint']
+101,Emperor,back,"[40, 53, 99, 113]","[6, 4, 57, 60]",296,30,0,4,"[41, 53, 100, 113]",['intentional lower body canvas crop']
+102,Castelius III,front,"[132, 5, 208, 71]","[4, 8, 60, 56]",293,32,8,0,"[144, 16, 208, 71]",['reference exceeds native64px/aspect constraint']
+102,Castelius III,back,"[26, 55, 112, 113]","[4, 6, 60, 57]",293,32,2,4,"[40, 55, 104, 113]",['reference exceeds native64px/aspect constraint']
+103,Castelius II,front,"[133, 5, 207, 70]","[4, 7, 60, 56]",293,32,6,0,"[144, 14, 208, 70]",['reference exceeds native64px/aspect constraint']
+103,Castelius II,back,"[27, 55, 111, 113]","[4, 6, 60, 57]",293,32,2,4,"[40, 55, 104, 113]",['reference exceeds native64px/aspect constraint']
+104,Castelius I,front,"[133, 4, 207, 70]","[4, 7, 60, 56]",293,32,6,0,"[144, 14, 208, 70]",['reference exceeds native64px/aspect constraint']
+104,Castelius I,back,"[28, 57, 109, 113]","[4, 7, 60, 56]",293,32,4,4,"[40, 57, 104, 113]",['reference exceeds native64px/aspect constraint']
+105,Castelius Max,front,"[134, 7, 206, 68]","[4, 8, 60, 55]",293,32,6,0,"[144, 14, 208, 68]",['reference exceeds native64px/aspect constraint']
+105,Castelius Max,back,"[30, 59, 109, 113]","[4, 7, 60, 56]",293,32,6,4,"[40, 59, 104, 113]",['reference exceeds native64px/aspect constraint']
+106,Pitou,front,"[144, 15, 195, 64]","[7, 4, 57, 60]",242,26,3,0,"[147, 11, 194, 64]",[]
+106,Pitou,back,"[40, 65, 99, 113]","[6, 4, 58, 60]",290,30,12,4,"[41, 65, 100, 113]",['intentional lower body canvas crop']
+107,Choubidou,front,"[140, 14, 205, 68]","[4, 8, 60, 55]",293,32,6,0,"[144, 14, 208, 68]",['reference exceeds native64px/aspect constraint']
+107,Choubidou,back,"[30, 62, 104, 113]","[4, 9, 60, 55]",293,32,9,4,"[40, 62, 104, 113]",['reference exceeds native64px/aspect constraint']
+108,Arbrézo,front,"[144, 13, 206, 67]","[4, 5, 60, 59]",269,31,2,0,"[146, 10, 205, 67]",[]
+108,Arbrézo,back,"[34, 63, 103, 113]","[4, 6, 60, 58]",293,32,10,4,"[40, 63, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+109,Abrézo Social,front,"[144, 8, 203, 68]","[5, 4, 59, 60]",277,30,0,0,"[145, 8, 203, 69]",[]
+109,Abrézo Social,back,"[33, 57, 100, 113]","[4, 4, 60, 60]",293,32,4,4,"[40, 57, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+110,Espreschiot,front,"[144, 9, 199, 68]","[7, 4, 56, 60]",278,28,0,0,"[146, 8, 199, 69]",[]
+110,Espreschiot,back,"[35, 62, 99, 113]","[6, 4, 58, 60]",315,32,9,4,"[40, 62, 104, 113]",['intentional lower body canvas crop']
+111,Duc Delafeuille,front,"[144, 16, 203, 67]","[4, 5, 60, 58]",258,30,6,0,"[146, 14, 202, 67]",[]
+111,Duc Delafeuille,back,"[36, 73, 99, 113]","[4, 4, 60, 60]",288,31,20,4,"[40, 73, 103, 113]",['intentional lower body canvas crop']
+112,Feuildechou,front,"[138, 14, 214, 64]","[5, 13, 58, 50]",309,32,11,0,"[144, 19, 208, 64]",['reference exceeds native64px/aspect constraint']
+112,Feuildechou,back,"[25, 72, 109, 113]","[9, 13, 55, 50]",356,32,19,4,"[40, 72, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+113,Sal de bain,front,"[144, 10, 207, 67]","[4, 6, 60, 58]",284,32,1,0,"[145, 9, 207, 67]",[]
+113,Sal de bain,back,"[32, 61, 100, 113]","[4, 5, 60, 58]",293,32,8,4,"[40, 61, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+114,XXL de bain,front,"[142, 16, 218, 67]","[6, 9, 57, 55]",321,32,1,0,"[144, 9, 208, 67]",['reference exceeds native64px/aspect constraint']
+114,XXL de bain,back,"[23, 67, 110, 113]","[7, 9, 56, 54]",334,32,14,4,"[40, 67, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+115,Tristos,front,"[141, 8, 205, 64]","[4, 7, 60, 56]",293,32,0,0,"[144, 8, 208, 64]",[]
+115,Tristos,back,"[35, 60, 100, 113]","[4, 5, 60, 58]",293,32,7,4,"[40, 60, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+116,Rocky Badboya,front,"[141, 14, 211, 69]","[4, 10, 60, 54]",293,32,11,0,"[144, 19, 208, 69]",['reference exceeds native64px/aspect constraint']
+116,Rocky Badboya,back,"[27, 62, 112, 113]","[4, 15, 60, 48]",293,32,9,4,"[40, 62, 104, 100]",['reference exceeds native64px/aspect constraint']
+117,Raton Glandeur,front,"[138, 22, 215, 68]","[4, 13, 59, 50]",298,32,17,0,"[144, 25, 208, 68]",['reference exceeds native64px/aspect constraint']
+117,Raton Glandeur,back,"[25, 79, 108, 113]","[8, 15, 56, 48]",341,32,26,4,"[40, 79, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+118,Vertipiou,front,"[144, 20, 203, 68]","[4, 10, 60, 54]",274,30,13,0,"[144, 21, 204, 68]",[]
+118,Vertipiou,back,"[35, 68, 99, 113]","[4, 4, 60, 60]",293,32,15,4,"[40, 68, 104, 113]",['intentional lower body canvas crop']
+119,Samoussraï,front,"[141, 18, 206, 67]","[4, 11, 60, 52]",293,32,12,0,"[144, 20, 208, 67]",['reference exceeds native64px/aspect constraint']
+119,Samoussraï,back,"[32, 76, 99, 113]","[4, 10, 60, 54]",293,32,23,4,"[40, 76, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+120,Ronimpec,front,"[141, 8, 203, 68]","[4, 5, 60, 59]",284,31,0,0,"[144, 8, 206, 68]",[]
+120,Ronimpec,back,"[34, 67, 99, 113]","[4, 5, 60, 58]",293,32,14,4,"[40, 67, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+121,Moufpète,front,"[144, 10, 207, 68]","[4, 4, 60, 60]",276,32,0,0,"[146, 8, 206, 68]",[]
+121,Moufpète,back,"[33, 61, 99, 113]","[6, 4, 58, 60]",315,32,8,4,"[40, 61, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+122,Gloups,front,"[144, 17, 204, 68]","[4, 9, 60, 55]",279,30,10,0,"[144, 18, 205, 68]",[]
+122,Gloups,back,"[40, 66, 101, 113]","[4, 11, 60, 52]",279,30,13,4,"[40, 66, 101, 111]",[]
+123,Chip-Chop,front,"[144, 11, 201, 69]","[5, 4, 59, 60]",268,28,2,0,"[144, 10, 201, 69]",[]
+123,Chip-Chop,back,"[41, 61, 99, 113]","[7, 4, 56, 60]",303,30,8,4,"[41, 61, 99, 113]",['intentional lower body canvas crop']
+124,Chaipo,front,"[144, 22, 203, 62]","[4, 14, 60, 50]",277,30,15,0,"[144, 23, 205, 62]",[]
+124,Chaipo,back,"[36, 81, 99, 113]","[5, 13, 59, 51]",299,31,28,4,"[40, 81, 103, 113]",['intentional lower body canvas crop']
+125,Mémogre,front,"[144, 15, 200, 70]","[4, 4, 60, 60]",254,28,6,0,"[144, 14, 200, 70]",[]
+125,Mémogre,back,"[34, 72, 99, 113]","[4, 4, 59, 60]",298,32,19,4,"[40, 72, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+126,Jojojoyeux,front,"[133, 7, 219, 66]","[4, 12, 60, 51]",293,32,13,0,"[144, 21, 208, 66]",['reference exceeds native64px/aspect constraint']
+126,Jojojoyeux,back,"[19, 65, 107, 113]","[4, 11, 60, 53]",293,32,12,4,"[40, 65, 104, 113]",['reference exceeds native64px/aspect constraint']
+127,Chauvkipeut,front,"[144, 16, 195, 63]","[7, 4, 57, 60]",237,26,3,0,"[147, 11, 193, 63]",[]
+127,Chauvkipeut,back,"[39, 74, 99, 113]","[8, 4, 55, 60]",327,30,21,4,"[40, 74, 100, 113]",['intentional lower body canvas crop']
+128,Chauv'coucou,front,"[135, 13, 218, 65]","[6, 11, 58, 52]",315,32,7,0,"[144, 15, 208, 65]",['reference exceeds native64px/aspect constraint']
+128,Chauv'coucou,back,"[24, 76, 111, 113]","[8, 11, 55, 53]",349,32,23,4,"[40, 76, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+129,Pachycoul,front,"[139, 22, 211, 66]","[4, 16, 60, 48]",293,32,21,0,"[144, 29, 208, 66]",['reference exceeds native64px/aspect constraint']
+129,Pachycoul,back,"[23, 82, 105, 113]","[4, 16, 60, 48]",293,32,29,4,"[40, 82, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+130,Pachypipi,front,"[144, 12, 222, 68]","[4, 11, 60, 52]",293,32,13,0,"[144, 21, 208, 68]",['reference exceeds native64px/aspect constraint']
+130,Pachypipi,back,"[28, 70, 99, 113]","[4, 9, 60, 54]",293,32,17,4,"[40, 70, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+131,Loubarbare,front,"[126, 18, 201, 67]","[4, 14, 60, 50]",293,32,18,0,"[144, 26, 208, 67]",['reference exceeds native64px/aspect constraint']
+131,Loubarbare,back,"[29, 71, 103, 113]","[4, 12, 60, 52]",293,32,18,4,"[40, 71, 104, 113]",['reference exceeds native64px/aspect constraint']
+132,Racaïd,front,"[136, 6, 214, 68]","[4, 10, 60, 53]",293,32,11,0,"[144, 19, 208, 68]",['reference exceeds native64px/aspect constraint']
+132,Racaïd,back,"[26, 64, 107, 113]","[4, 9, 60, 54]",293,32,11,4,"[40, 64, 104, 113]",['reference exceeds native64px/aspect constraint']
+133,Terminyanator,front,"[144, 11, 212, 67]","[4, 6, 59, 57]",298,32,0,0,"[144, 8, 208, 67]",[]
+133,Terminyanator,back,"[25, 64, 99, 113]","[4, 4, 60, 60]",293,32,11,4,"[40, 64, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+134,Sabruine,front,"[144, 5, 203, 68]","[6, 4, 58, 60]",289,30,0,0,"[145, 8, 204, 71]",[]
+134,Sabruine,back,"[28, 66, 99, 113]","[4, 5, 60, 59]",293,32,13,4,"[40, 66, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+135,Sabrille,front,"[144, 4, 210, 68]","[4, 6, 60, 58]",293,32,0,0,"[144, 8, 208, 68]",['reference exceeds native64px/aspect constraint']
+135,Sabrille,back,"[30, 59, 100, 113]","[4, 4, 59, 60]",298,32,6,4,"[40, 59, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+136,Fourchelangue,front,"[144, 13, 205, 67]","[4, 7, 60, 56]",280,30,5,0,"[144, 13, 205, 67]",[]
+136,Fourchelangue,back,"[33, 64, 99, 113]","[4, 5, 60, 58]",293,32,11,4,"[40, 64, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+137,Felipaix,front,"[144, 13, 192, 67]","[10, 4, 54, 60]",263,24,1,0,"[146, 9, 191, 67]",[]
+137,Felipaix,back,"[40, 72, 99, 113]","[10, 4, 53, 60]",351,30,19,4,"[41, 72, 100, 113]",['intentional lower body canvas crop']
+138,M. Felipaix,front,"[144, 9, 191, 67]","[14, 4, 49, 60]",293,24,0,0,"[148, 8, 188, 72]",['reference exceeds native64px/aspect constraint']
+138,M. Felipaix,back,"[40, 70, 99, 113]","[14, 4, 49, 60]",432,30,17,4,"[41, 70, 100, 113]",['intentional lower body canvas crop']
+139,Doyagari,front,"[142, 16, 201, 68]","[4, 8, 60, 56]",273,30,9,0,"[144, 17, 204, 68]",[]
+139,Doyagari,back,"[33, 66, 99, 113]","[4, 5, 60, 58]",293,32,13,4,"[40, 66, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+140,Doyen Doyagari,front,"[144, 13, 200, 66]","[4, 6, 60, 58]",258,28,6,0,"[144, 14, 200, 66]",[]
+140,Doyen Doyagari,back,"[33, 65, 100, 113]","[4, 5, 60, 58]",293,32,12,4,"[40, 65, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+141,Volroulo,front,"[144, 9, 207, 66]","[4, 6, 60, 58]",284,32,0,0,"[145, 8, 207, 66]",[]
+141,Volroulo,back,"[35, 65, 99, 113]","[4, 6, 60, 58]",293,32,12,4,"[40, 65, 104, 113]",['intentional lower body canvas crop']
+142,Lulugubre,front,"[139, 22, 211, 67]","[4, 18, 60, 46]",293,32,27,0,"[144, 35, 208, 67]",['reference exceeds native64px/aspect constraint']
+142,Lulugubre,back,"[26, 82, 99, 113]","[4, 17, 60, 47]",293,32,29,4,"[40, 82, 104, 113]",['reference exceeds native64px/aspect constraint']
+143,Toumou,front,"[144, 22, 209, 67]","[4, 12, 60, 51]",293,32,14,0,"[144, 22, 208, 67]",['reference exceeds native64px/aspect constraint']
+143,Toumou,back,"[30, 77, 99, 113]","[4, 11, 60, 52]",293,32,24,4,"[40, 77, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+144,Lamlam'mou,front,"[139, 19, 210, 64]","[4, 14, 60, 50]",293,32,15,0,"[144, 23, 208, 64]",['reference exceeds native64px/aspect constraint']
+144,Lamlam'mou,back,"[23, 72, 104, 113]","[4, 13, 60, 50]",293,32,19,4,"[40, 72, 104, 113]",['reference exceeds native64px/aspect constraint']
+145,Savantard,front,"[140, 11, 210, 68]","[4, 9, 60, 55]",293,32,7,0,"[144, 15, 208, 68]",['reference exceeds native64px/aspect constraint']
+145,Savantard,back,"[31, 67, 107, 113]","[4, 8, 60, 55]",293,32,14,4,"[40, 67, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+146,Loupépin,front,"[144, 6, 212, 66]","[4, 4, 59, 60]",293,32,0,0,"[145, 8, 208, 72]",[]
+146,Loupépin,back,"[23, 60, 99, 113]","[6, 4, 58, 60]",315,32,7,4,"[40, 60, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+147,Mademoaiselle,front,"[144, 10, 203, 70]","[7, 4, 56, 60]",291,30,0,0,"[146, 8, 202, 72]",[]
+147,Mademoaiselle,back,"[30, 68, 99, 113]","[7, 4, 56, 60]",334,32,15,4,"[40, 68, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+148,Maître Nyada,front,"[144, 22, 208, 68]","[4, 11, 60, 53]",286,32,13,0,"[145, 21, 208, 68]",[]
+148,Maître Nyada,back,"[32, 73, 99, 113]","[4, 9, 60, 55]",293,32,20,4,"[40, 73, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+149,Hovernyan,front,"[144, 13, 215, 65]","[8, 7, 56, 57]",318,34,0,0,"[148, 8, 208, 70]",[]
+149,Hovernyan,back,"[22, 66, 99, 113]","[9, 6, 55, 57]",356,32,13,4,"[40, 66, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"
+150,Enma,front,"[141, 12, 210, 67]","[4, 10, 60, 54]",293,32,9,0,"[144, 17, 208, 67]",['reference exceeds native64px/aspect constraint']
+150,Enma,back,"[30, 58, 110, 113]","[4, 8, 60, 55]",293,32,5,4,"[40, 58, 104, 112]",['reference exceeds native64px/aspect constraint']
+151,Raltesse,front,"[144, 10, 204, 70]","[6, 4, 58, 60]",285,30,0,0,"[145, 8, 203, 70]",[]
+151,Raltesse,back,"[30, 71, 99, 113]","[5, 4, 58, 60]",309,32,18,4,"[40, 71, 104, 113]","['reference exceeds native64px/aspect constraint', 'intentional lower body canvas crop']"

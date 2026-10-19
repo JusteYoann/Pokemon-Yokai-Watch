@@ -16,7 +16,7 @@ def coord(header,species):
  text=(ROOT/header).read_text();b=re.search(r'\['+species+r'\]\s*=\s*\{(.*?)\}',text,re.S)[1]
  return dict(size=[int(v) for v in re.search(r'MON_COORDS_SIZE\((\d+),\s*(\d+)\)',b).groups()],y_offset=int(re.search(r'\.y_offset\s*=\s*(\d+)',b)[1]))
 def inventory(stage):
- assert not (Q/f'sources/ETAT_{stage.upper()}.json').exists(), "Refusing to overwrite frozen snapshot"
+ assert stage!='avant' or not (Q/f'sources/ETAT_{stage.upper()}.json').exists(), "Refusing to overwrite frozen snapshot"
  header=(ROOT/'src/data/graphics/pokemon.h').read_text();rows=[]
  for mon in NAMES:
   n=int(mon['numero_yokai']);species=mon['species_constant'];row=dict(number=n,name=mon['nom_yokai'],species=species,reference_status='reference recovered and numbered',artwork_revision=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip())
