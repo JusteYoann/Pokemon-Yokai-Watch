@@ -1,0 +1,144 @@
+{
+  "TRAINER_SCENARIO_ALYZON": {
+    "mode": "scenario_lavanville",
+    "name": "Alyzon",
+    "portrait": "TRAINER_PIC_SCENARIO_ALYZON",
+    "trainer_class": "TRAINER_CLASS_LEADER",
+    "gender_music": "TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE",
+    "source_party": "sScenarioParty_Alyzon",
+    "items": [],
+    "party": [
+      {
+        "species": "SPECIES_GOLBAT",
+        "level": 39,
+        "iv": 0,
+        "moves": [
+          "MOVE_SHADOW_BALL",
+          "MOVE_CONFUSE_RAY",
+          "MOVE_ASTONISH",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_LEVITATE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_STARMIE",
+        "level": 39,
+        "iv": 0,
+        "moves": [
+          "MOVE_SLUDGE",
+          "MOVE_TACKLE",
+          "MOVE_SMOG",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_STENCH",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_WEEPINBELL",
+        "level": 40,
+        "iv": 0,
+        "moves": [
+          "MOVE_SHADOW_PUNCH",
+          "MOVE_NIGHT_SHADE",
+          "MOVE_HARDEN",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_LEVITATE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_KANGASKHAN",
+        "level": 41,
+        "iv": 0,
+        "moves": [
+          "MOVE_SHADOW_BALL",
+          "MOVE_NIGHT_SHADE",
+          "MOVE_SCARY_FACE",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_INSOMNIA",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  },
+  "TRAINER_SCENARIO_ZOMBIE1": {
+    "mode": "scenario_lavanville",
+    "name": "Zombie",
+    "portrait": "TRAINER_PIC_SCENARIO_ZOMBIE",
+    "trainer_class": "TRAINER_CLASS_CHANNELER",
+    "gender_music": "TRAINER_ENCOUNTER_MUSIC_MALE",
+    "source_party": "sScenarioParty_Zombie1",
+    "items": [],
+    "party": [
+      {
+        "species": "SPECIES_GOLBAT",
+        "level": 34,
+        "iv": 0,
+        "moves": [
+          "MOVE_ASTONISH",
+          "MOVE_LICK",
+          "MOVE_GROWL",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_LEVITATE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  },
+  "TRAINER_SCENARIO_ZOMBIE2": {
+    "mode": "scenario_lavanville",
+    "name": "Zombie",
+    "portrait": "TRAINER_PIC_SCENARIO_ZOMBIE",
+    "trainer_class": "TRAINER_CLASS_CHANNELER",
+    "gender_music": "TRAINER_ENCOUNTER_MUSIC_MALE",
+    "source_party": "sScenarioParty_Zombie2",
+    "items": [],
+    "party": [
+      {
+        "species": "SPECIES_WEEPINBELL",
+        "level": 35,
+        "iv": 0,
+        "moves": [
+          "MOVE_NIGHT_SHADE",
+          "MOVE_ASTONISH",
+          "MOVE_HARDEN",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_LEVITATE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  },
+  "TRAINER_SCENARIO_ZOMBIE3": {
+    "mode": "scenario_lavanville",
+    "name": "Zombie",
+    "portrait": "TRAINER_PIC_SCENARIO_ZOMBIE",
+    "trainer_class": "TRAINER_CLASS_CHANNELER",
+    "gender_music": "TRAINER_ENCOUNTER_MUSIC_MALE",
+    "source_party": "sScenarioParty_Zombie3",
+    "items": [],
+    "party": [
+      {
+        "species": "SPECIES_STARMIE",
+        "level": 35,
+        "iv": 0,
+        "moves": [
+          "MOVE_SLUDGE",
+          "MOVE_SMOG",
+          "MOVE_TACKLE",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_STENCH",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  }
+}

@@ -25,6 +25,7 @@ def warp(r, x=4, y=3):
 def trophies(r, mask):
     # Provenance of the fourth scenario trophy, independent of old Erika badge04.
     r.call('FlagSet' if mask & (1 << 3) else 'FlagClear', 0x32F)
+    r.call('FlagSet' if mask & (1 << 5) else 'FlagClear', 0x345)
     for i in range(8):
         r.call('FlagSet' if mask & (1 << i) else 'FlagClear', 0x820 + i)
 
@@ -56,6 +57,10 @@ try:
     assert r.call('VarGet',0x800D)==1 and r.call('FlagGet',0x32F)
     r.call('FlagClear',0x4B5)
     results.append({'test':'Native badge04 from Erika alone cannot supply fourth scenario trophy; historic Sabrina defeat plus badge06 is recognized', 'passed':True})
+    trophies(r,255);r.call('FlagClear',0x345)
+    r.call('ScriptContext_SetupScript',r.symbols['IndigoPlateau_EventScript_CheckEightTrophies']);r.run(8)
+    assert r.call('VarGet',0x800D)==0
+    results.append({'test':'Old native Sabrina sixth badge cannot replace the canonical sixth trophy awarded by Alyzon','passed':True})
     # Every missing single trophy must block actual northward movement.
     for missing in range(8):
         trophies(r, 255 ^ (1 << missing))

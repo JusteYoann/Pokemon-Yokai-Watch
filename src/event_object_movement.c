@@ -1683,6 +1683,15 @@ static u8 TrySpawnObjectEventTemplate(const struct ObjectEventTemplate *objectEv
     const struct ObjectEventGraphicsInfo *graphicsInfo;
     const struct SubspriteTable *subspriteTables = NULL;
 
+    if (IsScenarioZombieNight() && objectEventTemplate->localId != LOCALID_PLAYER)
+    {
+        u8 gfx = objectEventTemplate->graphicsId;
+        if (gfx != OBJ_EVENT_GFX_SCENARIO_ALYZON && gfx != OBJ_EVENT_GFX_SCENARIO_ZOMBIE
+         && gfx != OBJ_EVENT_GFX_ITEM_BALL && gfx != OBJ_EVENT_GFX_CUBONE
+         && gfx != OBJ_EVENT_GFX_NIDORINO && gfx != OBJ_EVENT_GFX_PSYDUCK)
+            return OBJECT_EVENTS_COUNT;
+    }
+
     graphicsInfo = GetObjectEventGraphicsInfo(objectEventTemplate->graphicsId);
     MakeObjectTemplateFromObjectEventTemplate(objectEventTemplate, &spriteTemplate, &subspriteTables);
     spriteFrameImage.size = graphicsInfo->size;

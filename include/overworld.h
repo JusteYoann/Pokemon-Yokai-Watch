@@ -182,11 +182,17 @@ bool8 SetDiveWarpDive(u16 x, u16 y);
 
 #if REVISION >= 0xA
 void ClearFieldCallback(void);
+bool8 IsScenarioZombieNight(void);
+void UpdateScenarioZombieNight(void);
+
 #endif
 
 extern u16 *gBGTilemapBuffers1;
 extern u16 *gBGTilemapBuffers2;
 extern u16 *gBGTilemapBuffers3;
 extern u16 gHeldKeyCodeToSend;
+
+bool8 IsScenarioZombieNight(void);
+void UpdateScenarioZombieNight(void);
 
 #endif //GUARD_OVERWORLD_H

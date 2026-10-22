@@ -25,3 +25,15 @@ LavenderTown_PokemonCenter_1F_EventScript_Lass::
 LavenderTown_PokemonCenter_1F_EventScript_Youngster::
 	msgbox LavenderTown_PokemonCenter_1F_Text_PeoplePayForCuboneSkulls, MSGBOX_NPC
 	end
+
+LavenderTown_NightCare::
+	lockall
+	goto_if_unset FLAG_SCENARIO_ZOMBIE_NIGHT_ACTIVE, EventScript_ReleaseEnd
+	msgbox LavenderTown_NightText_CareOffer, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventScript_ReleaseEnd
+	special HealPlayerParty
+	playfanfare MUS_HEAL
+	waitfanfare
+	msgbox LavenderTown_NightText_CareDone
+	releaseall
+	end

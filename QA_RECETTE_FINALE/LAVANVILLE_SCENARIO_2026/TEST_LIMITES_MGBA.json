@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "rom_sha256": "208043f6baf29a3945594a0344dae6a92706c291ef1bf39e589e88e946fff720",
+  "scope": "Explicit legacy/progression/party fixtures and native engine callbacks, not archived player saves",
+  "results": [
+    {
+      "test": "Historic native sixth badge without fifth/chapter victory cannot bypass Alyzon or ring bell",
+      "passed": true
+    },
+    {
+      "test": "Actual defeat: prior fifth trophy/night retained, no sixth trophy, healed respawn",
+      "passed": true,
+      "battle_frames": 2440
+    },
+    {
+      "test": "Engineered old interior Flash/Continue: player retained, humans hidden, exact position; actual counter interaction restores HP without nurse; persistence",
+      "passed": true
+    },
+    {
+      "test": "Lavender and all seven Tower floors: geographic block data, connections and warp destinations byte/data-identical to previous chapter",
+      "passed": true
+    }
+  ]
+}

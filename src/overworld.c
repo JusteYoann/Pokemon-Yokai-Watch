@@ -991,7 +991,11 @@ void Overworld_SetWarpDestinationFromWarp(struct WarpData * warp)
 
 static u16 GetLocationMusic(struct WarpData * warp)
 {
-    u16 music = Overworld_GetMapHeaderByGroupAndId(warp->mapGroup, warp->mapNum)->music;
+    const struct MapHeader *header = Overworld_GetMapHeaderByGroupAndId(warp->mapGroup, warp->mapNum);
+    u16 music = header->music;
+    if (header->regionMapSectionId == MAPSEC_LAVENDER_TOWN
+     && FlagGet(FLAG_BADGE05_GET) && !FlagGet(FLAG_SCENARIO_ZOMBIE_NIGHT_DONE))
+        return MUS_YOKAI_DODGY;
     if (music == MUS_YOKAI_BADA_BING && FlagGet(FLAG_HIDE_SILPH_ROCKETS))
         return MUS_SILPH;
     return music;
@@ -1699,6 +1703,27 @@ static void FieldCB_ShowMapNameOnContinue(void)
     FieldCB_WarpExitFadeFromBlack();
 }
 
+bool8 IsScenarioZombieNight(void)
+{
+    return FlagGet(FLAG_SCENARIO_ZOMBIE_NIGHT_ACTIVE)
+        && (gMapHeader.regionMapSectionId == MAPSEC_LAVENDER_TOWN
+         || gMapHeader.regionMapSectionId == MAPSEC_POKEMON_TOWER);
+}
+
+void UpdateScenarioZombieNight(void)
+{
+    if ((gMapHeader.regionMapSectionId == MAPSEC_LAVENDER_TOWN
+      || gMapHeader.regionMapSectionId == MAPSEC_POKEMON_TOWER)
+     && FlagGet(FLAG_BADGE05_GET) && !FlagGet(FLAG_SCENARIO_ZOMBIE_NIGHT_DONE))
+        FlagSet(FLAG_SCENARIO_ZOMBIE_NIGHT_ACTIVE);
+    if (FlagGet(FLAG_SCENARIO_ZOMBIE_NIGHT_DONE))
+        FlagClear(FLAG_SCENARIO_ZOMBIE_NIGHT_ACTIVE);
+    if (FlagGet(FLAG_SCENARIO_ZOMBIE_NIGHT_ACTIVE))
+        FlagClear(FLAG_SCENARIO_HIDE_ZOMBIES);
+    else
+        FlagSet(FLAG_SCENARIO_HIDE_ZOMBIES);
+}
+
 void RecognizeLegacySaffronTrophy(void)
 {
     // The historic Erika badge alone is not a fourth scenario trophy.
@@ -1717,6 +1742,7 @@ void CB2_ContinueSavedGame(void)
     ResetSafariZoneFlag_();
     LoadSaveblockMapHeader();
     RecognizeLegacySaffronTrophy();
+    UpdateScenarioZombieNight();
     LoadSaveblockObjEventScripts();
     UnfreezeObjectEvents();
     Overworld_ResetStateOnContinue();
@@ -1754,6 +1780,13 @@ void CB2_ContinueSavedGame(void)
           || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROUTE25)
            && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE25)
            && !FlagGet(FLAG_SCENARIO_ROUTE25_CURRENT))
+          || (IsScenarioZombieNight() && !FlagGet(FLAG_SCENARIO_LAVENDER_CURRENT))
+          || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_LAVENDER_TOWN)
+           && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_LAVENDER_TOWN)
+           && !FlagGet(FLAG_SCENARIO_LAVENDER_CURRENT))
+          || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_POKEMON_TOWER_7F)
+           && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_POKEMON_TOWER_7F)
+           && !FlagGet(FLAG_SCENARIO_TOWER_CURRENT))
           || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_FUCHSIA_CITY_GYM)
            && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_FUCHSIA_CITY_GYM)
            && !FlagGet(FLAG_SCENARIO_FUCHSIA_GYM_CURRENT))
@@ -1772,6 +1805,17 @@ void CB2_ContinueSavedGame(void)
             SetWarpDestination(MAP_GROUP(MAP_CERULEAN_CITY_GYM), MAP_NUM(MAP_CERULEAN_CITY_GYM), WARP_ID_NONE, 8, 17);
         else if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_VERMILION_CITY_GYM))
             SetWarpDestination(MAP_GROUP(MAP_VERMILION_CITY_GYM), MAP_NUM(MAP_VERMILION_CITY_GYM), WARP_ID_NONE, 5, 18);
+        else if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_POKEMON_TOWER_7F)
+              && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_POKEMON_TOWER_7F))
+            SetWarpDestination(MAP_GROUP(MAP_POKEMON_TOWER_7F), MAP_NUM(MAP_POKEMON_TOWER_7F), WARP_ID_NONE, 11, 15);
+        else if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_LAVENDER_TOWN)
+              && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_LAVENDER_TOWN))
+            SetWarpDestination(MAP_GROUP(MAP_LAVENDER_TOWN), MAP_NUM(MAP_LAVENDER_TOWN), WARP_ID_NONE, gSaveBlock1Ptr->pos.x, gSaveBlock1Ptr->pos.y);
+        else if (IsScenarioZombieNight())
+        {
+            FlagSet(FLAG_SCENARIO_LAVENDER_CURRENT);
+            SetWarpDestination(gSaveBlock1Ptr->location.mapGroup, gSaveBlock1Ptr->location.mapNum, WARP_ID_NONE, gSaveBlock1Ptr->pos.x, gSaveBlock1Ptr->pos.y);
+        }
         else if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_FUCHSIA_CITY_GYM))
             SetWarpDestination(MAP_GROUP(MAP_FUCHSIA_CITY_GYM), MAP_NUM(MAP_FUCHSIA_CITY_GYM), WARP_ID_NONE, 7, 20);
         else if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_FUCHSIA_CITY))

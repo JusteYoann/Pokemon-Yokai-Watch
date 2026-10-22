@@ -5,6 +5,7 @@
 #include "field_player_avatar.h"
 #include "quest_log.h"
 #include "script.h"
+#include "overworld.h"
 #include "task.h"
 #include "util.h"
 #include "constants/battle_setup.h"
@@ -127,6 +128,18 @@ static u8 GetTrainerApproachDistance(struct ObjectEvent *trainerObj)
     u8 approachDistance;
 
     PlayerGetDestCoords(&x, &y);
+    if (IsScenarioZombieNight() && trainerObj->graphicsId == OBJ_EVENT_GFX_SCENARIO_ZOMBIE)
+    {
+        s16 dx = x - trainerObj->currentCoords.x;
+        s16 dy = y - trainerObj->currentCoords.y;
+        if ((dx == 0 && (dy == 1 || dy == -1)) || (dy == 0 && (dx == 1 || dx == -1)))
+        {
+            ObjectEventTurn(trainerObj, dy == 1 ? DIR_SOUTH : dy == -1 ? DIR_NORTH : dx == 1 ? DIR_EAST : DIR_WEST);
+            return 1;
+        }
+        return 0;
+    }
+
     if (trainerObj->trainerType == TRAINER_TYPE_NORMAL)  // can only see in one direction
     {
         approachDistance = sDirectionalApproachDistanceFuncs[trainerObj->facingDirection - 1](trainerObj, trainerObj->trainerRange_berryTreeId, x, y);

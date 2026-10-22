@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "rom_sha256": "208043f6baf29a3945594a0344dae6a92706c291ef1bf39e589e88e946fff720",
+  "scope": "Explicit fifth-trophy and ordinary Komaous44/Whisper43/Cigallard43 fixtures, IV15; native battles/controls/Flash, not a continuous adventure or exhaustive balance",
+  "results": [
+    {
+      "test": "Before fifth: ordinary humans/no zombies; after fifth: night and contact trainer without A, native battle and persisted calm state",
+      "passed": true,
+      "battle_frames": 3080
+    },
+    {
+      "test": "nathan actual entrance and all six Tower stair transitions, native four-partner Alyzon battle and sixth trophy, no automatic night ending; bell No then Yes, return of humans, persistent completed night",
+      "passed": true,
+      "battle_frames": 9720
+    },
+    {
+      "test": "katie actual entrance and all six Tower stair transitions, native four-partner Alyzon battle and sixth trophy, no automatic night ending; bell No then Yes, return of humans, persistent completed night",
+      "passed": true,
+      "battle_frames": 10440
+    }
+  ]
+}

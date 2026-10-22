@@ -453,4 +453,5 @@ gSpecials::
 	def_special LoopWingFlapSound
 	def_special CreateEnemyEventMon
 	def_special RecognizeLegacySaffronTrophy
+	def_special UpdateScenarioZombieNight
 gSpecialsEnd::

@@ -2,6 +2,7 @@
 #include "field_weather.h"
 #include "overworld.h"
 #include "constants/weather.h"
+#include "constants/map_types.h"
 
 static u8 TranslateWeatherNum(u8 weather);
 static void UpdateRainCounter(u8 newWeather, u8 oldWeather);
@@ -21,7 +22,10 @@ u8 GetSav1Weather(void)
 void SetSavedWeatherFromCurrMapHeader(void)
 {
     u8 oldWeather = gSaveBlock1Ptr->weather;
+    UpdateScenarioZombieNight();
     gSaveBlock1Ptr->weather = TranslateWeatherNum(gMapHeader.weather);
+    if (IsScenarioZombieNight() && gMapHeader.mapType == MAP_TYPE_TOWN)
+        gSaveBlock1Ptr->weather = WEATHER_SHADE;
     UpdateRainCounter(gSaveBlock1Ptr->weather, oldWeather);
 }
 

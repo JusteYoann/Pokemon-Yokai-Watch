@@ -13973,3 +13973,22 @@ static const struct TrainerMonItemCustomMoves sScenarioParty_GiraudFifthTrophy[]
     {.iv = 0, .lvl = 35, .species = SPECIES_SEAKING, .heldItem = ITEM_NONE, .moves = {MOVE_BRICK_BREAK, MOVE_SLASH, MOVE_FOCUS_ENERGY, MOVE_NONE}},
     {.iv = 0, .lvl = 36, .species = SPECIES_KINGLER, .heldItem = ITEM_NONE, .moves = {MOVE_KARATE_CHOP, MOVE_ROCK_TOMB, MOVE_HARDEN, MOVE_NONE}},
 };
+
+static const struct TrainerMonItemCustomMoves sScenarioParty_Alyzon[] = {
+    {.iv = 0, .lvl = 39, .species = SPECIES_GOLBAT, .heldItem = ITEM_NONE, .moves = {MOVE_SHADOW_BALL, MOVE_CONFUSE_RAY, MOVE_ASTONISH, MOVE_NONE}},
+    {.iv = 0, .lvl = 39, .species = SPECIES_STARMIE, .heldItem = ITEM_NONE, .moves = {MOVE_SLUDGE, MOVE_TACKLE, MOVE_SMOG, MOVE_NONE}},
+    {.iv = 0, .lvl = 40, .species = SPECIES_WEEPINBELL, .heldItem = ITEM_NONE, .moves = {MOVE_SHADOW_PUNCH, MOVE_NIGHT_SHADE, MOVE_HARDEN, MOVE_NONE}},
+    {.iv = 0, .lvl = 41, .species = SPECIES_KANGASKHAN, .heldItem = ITEM_NONE, .moves = {MOVE_SHADOW_BALL, MOVE_NIGHT_SHADE, MOVE_SCARY_FACE, MOVE_NONE}},
+};
+
+static const struct TrainerMonItemCustomMoves sScenarioParty_Zombie1[] = {
+    {.iv = 0, .lvl = 34, .species = SPECIES_GOLBAT, .heldItem = ITEM_NONE, .moves = {MOVE_ASTONISH, MOVE_LICK, MOVE_GROWL, MOVE_NONE}},
+};
+
+static const struct TrainerMonItemCustomMoves sScenarioParty_Zombie2[] = {
+    {.iv = 0, .lvl = 35, .species = SPECIES_WEEPINBELL, .heldItem = ITEM_NONE, .moves = {MOVE_NIGHT_SHADE, MOVE_ASTONISH, MOVE_HARDEN, MOVE_NONE}},
+};
+
+static const struct TrainerMonItemCustomMoves sScenarioParty_Zombie3[] = {
+    {.iv = 0, .lvl = 35, .species = SPECIES_STARMIE, .heldItem = ITEM_NONE, .moves = {MOVE_SLUDGE, MOVE_SMOG, MOVE_TACKLE, MOVE_NONE}},
+};

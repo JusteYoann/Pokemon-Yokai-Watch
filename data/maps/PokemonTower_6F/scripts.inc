@@ -2,6 +2,7 @@ PokemonTower_6F_MapScripts::
 	.byte 0
 
 PokemonTower_6F_EventScript_MarowakGhost::
+	goto_if_set FLAG_SCENARIO_ZOMBIE_NIGHT_ACTIVE, PokemonTower_6F_NightPass
 	lockall
 	textcolor NPC_TEXT_COLOR_MON
 	msgbox PokemonTower_6F_Text_BeGoneIntruders
@@ -45,4 +46,8 @@ PokemonTower_6F_EventScript_Emilia::
 PokemonTower_6F_EventScript_Jennifer::
 	trainerbattle_single TRAINER_CHANNELER_JENNIFER, PokemonTower_6F_Text_JenniferIntro, PokemonTower_6F_Text_JenniferDefeat
 	msgbox PokemonTower_6F_Text_JenniferPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PokemonTower_6F_NightPass::
+	setvar VAR_MAP_SCENE_POKEMON_TOWER_6F, 1
 	end
