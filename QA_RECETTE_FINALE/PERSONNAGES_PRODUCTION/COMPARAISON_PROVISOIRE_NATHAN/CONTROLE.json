@@ -1,0 +1,35 @@
+{
+  "kind": "REAL_MGBA_SCREENSHOT_WITH_TEST_ONLY_RAM_INJECTION",
+  "scope": "Static front-facing comparison only; provisional technical reduction to 12x19 within 16x32, not approved production assets. No walking or story integration.",
+  "engine": "mGBA libretro",
+  "source": "docs/atelier-personnages/propositions/laure-marge-agent-x/faces-tetes-abaissees.png",
+  "source_sha256": "2767826a220b084c08f5c61929f800df35276f7cb93ee5f34a7aba85e7c60240",
+  "rom_sha256": "7aa3a7e6097062fcc5092515de0211f353804c8b3c721ea56ea368e2f454c235",
+  "rom_modified": false,
+  "gameplay_sources_modified": false,
+  "nathan": "Unmodified actual male player sprite",
+  "others": "Temporary VRAM and palette replacements of three spawned NPCs; no persistent events",
+  "checks": [
+    {
+      "character": "soeur-doree",
+      "rendered_frame_bytes": 256,
+      "palette_bank": 12,
+      "vram_verified": true,
+      "palette_verified": true
+    },
+    {
+      "character": "soeur-argentee",
+      "rendered_frame_bytes": 256,
+      "palette_bank": 13,
+      "vram_verified": true,
+      "palette_verified": true
+    },
+    {
+      "character": "agent-x",
+      "rendered_frame_bytes": 256,
+      "palette_bank": 14,
+      "vram_verified": true,
+      "palette_verified": true
+    }
+  ]
+}
