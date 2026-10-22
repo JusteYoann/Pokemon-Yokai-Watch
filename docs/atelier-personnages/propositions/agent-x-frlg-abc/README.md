@@ -44,3 +44,9 @@ CONTROLE.json vérifie dimensions, alpha binaire, indices de palette, correspond
 Ce sont trois propositions statiques pour choix artistique : **aucune animation créée, aucune intégration, aucun remplacement du sprite actif**. Elles ne sont pas présentées comme des captures mGBA et aucune nouvelle compilation n’est revendiquée pour ce lot hors moteur. Les autres directions et animations ne seront pas déduites automatiquement de cette planche ; elles attendent le choix du créateur. Les dimensions exactes et les contrôles ne constituent pas une approbation artistique.
 
 Reproduction : `python3 tools/yokai/exporter_agent_x_frlg_abc.py`, avec Pillow, depuis le dépôt. Les PNG sont indexés 4bpp avec transparence, compatibles avec une future conversion graphique GBA ; aucune ressource privée n’est nécessaire pour reproduire les propositions.
+
+## Retouches de l’œil de A
+
+Deux propositions conservent tous les pixels de A sauf un ou deux pixels mauves remplacés par du jaune : A+1 en (5,21), A+2 en (5,21) et (6,20), coordonnées depuis zéro. L’œil reste unique. Palette, transparence et silhouette de 14 × 19 sont inchangées.
+
+[Comparaison native](comparaison-yeux-native.png) et [agrandissement ×12](comparaison-yeux-x12.png) : Red, A original, A+1, A+2. Aucun remplacement dans le jeu. Sources complètes dans les JSON correspondants ; contrôle dans CONTROLE_YEUX.json. Reproduction : `python3 tools/yokai/retoucher_yeux_agent_x_a.py`.
