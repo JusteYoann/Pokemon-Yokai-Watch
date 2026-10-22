@@ -1,0 +1,41 @@
+{
+  "reference": "Deux images fournies directement dans la conversation par le createur : Perpetua puis McKraken.",
+  "status": "PROPOSITIONS_NON_INTEGREES",
+  "attempts": [
+    {
+      "file": "essai-marche.png",
+      "sha256": "84ea7c1d6ae823a95f9bb8b731b5743686705f1de867d62c9e56cb4a1e6e7d1a",
+      "size": [
+        1254,
+        1254
+      ],
+      "expected_size": [
+        1536,
+        1536
+      ],
+      "mode": "RGB",
+      "colors": 234818,
+      "native_grid_valid": false,
+      "integrated": false
+    },
+    {
+      "file": "essai-poses-fixes.png",
+      "sha256": "91f5078bb1d289055ab624e169654db9922faac9f87ab8728a633dfe7177ffa4",
+      "size": [
+        1254,
+        1254
+      ],
+      "expected_size": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "colors": 131198,
+      "native_grid_valid": false,
+      "integrated": false
+    }
+  ],
+  "reason": "Dimensions et grille de pixels non conformes. Ne pas reduire ces illustrations automatiquement pour en faire des sprites natifs.",
+  "engine_resources_changed": false,
+  "mgba_tested": false
+}

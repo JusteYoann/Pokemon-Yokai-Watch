@@ -94,6 +94,10 @@ def main():
             if actor == 'domniscian':
                 remaining = 'Ancien design fixe a son appareil conserve ; ne pas inventer des pieds pour ce dessin'
             reference = 'Protagoniste.rar (fourni par createur)' if actor in ('nathan', 'katie', 'matt') else 'Reference_CAMEOS_YOKAI_WATCH.rar (fourni par createur)' if actor in classic else 'Images de conversation du createur' if actor == 'dr_jobard' else 'Reference dediee a retrouver ou ressource existante a confirmer'
+            if actor in ('lady_perpetua', 'mckraken'):
+                reference = 'Reference en pied fournie par le createur dans la conversation'
+                state = 'PROPOSITIONS_NON_INTEGREES_GRILLE_NON_CONFORME'
+                remaining = 'Deux essais archives sous propositions/perpetua-mckraken ; dessin natif et portraits a produire, integration et tests non effectues'
             progress.append(dict(personnage=row['nom'], id=actor, ressources_necessaires=row['ressources_attendues'],
                                  ressources_existantes=row['fichiers_presents'], ressources_manquantes=row['fichiers_a_retrouver_ou_creer'],
                                  reference_visuelle=reference, etat=state, nouvelles_images_de_pas=6 if produced.exists() else 0,
