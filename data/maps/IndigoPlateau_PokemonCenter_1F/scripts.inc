@@ -17,6 +17,8 @@ IndigoPlateau_PokemonCenter_1F_EventScript_CheckBlockDoor::
 IndigoPlateau_PokemonCenter_1F_EventScript_DoorGuard::
 	lock
 	faceplayer
+	call IndigoPlateau_EventScript_CheckEightTrophies
+	goto_if_eq VAR_RESULT, FALSE, IndigoPlateau_EventScript_MissingTrophies
 	specialvar VAR_RESULT, IsNationalPokedexEnabled
 	goto_if_eq VAR_RESULT, TRUE, IndigoPlateau_PokemonCenter_1F_EventScript_CheckSeviiIslandComplete
 	msgbox IndigoPlateau_PokemonCenter_1F_Text_FaceEliteFourGoodLuck
@@ -68,3 +70,45 @@ IndigoPlateau_PokemonCenter_1F_EventScript_Nurse::
 	call EventScript_PkmnCenterNurse
 	release
 	end
+
+@ Save-compatible: the eight trophy slots reuse the eight native badge flags.
+@ Check every slot, rather than a count or the last trophy alone.
+IndigoPlateau_EventScript_CheckEightTrophies::
+	setvar VAR_RESULT, FALSE
+	goto_if_unset FLAG_BADGE01_GET, EventScript_Return
+	goto_if_unset FLAG_BADGE02_GET, EventScript_Return
+	goto_if_unset FLAG_BADGE03_GET, EventScript_Return
+	goto_if_unset FLAG_BADGE04_GET, EventScript_Return
+	goto_if_unset FLAG_BADGE05_GET, EventScript_Return
+	goto_if_unset FLAG_BADGE06_GET, EventScript_Return
+	goto_if_unset FLAG_BADGE07_GET, EventScript_Return
+	goto_if_unset FLAG_BADGE08_GET, EventScript_Return
+	setvar VAR_RESULT, TRUE
+	return
+
+@ This tile is on the only normal approach to the first room warp.
+@ No permanent scene flag: the condition is evaluated on every crossing.
+IndigoPlateau_EventScript_TempleEntrance::
+	lockall
+	call IndigoPlateau_EventScript_CheckEightTrophies
+	goto_if_eq VAR_RESULT, TRUE, IndigoPlateau_EventScript_EntranceEnd
+	lockall
+	msgbox IndigoPlateau_Text_EightTrophiesRequired
+	applymovement LOCALID_PLAYER, IndigoPlateau_Movement_StepBack
+	waitmovement 0
+	releaseall
+	end
+
+IndigoPlateau_EventScript_EntranceEnd::
+	setvar VAR_TEMP_2, 1
+	releaseall
+	end
+
+IndigoPlateau_EventScript_MissingTrophies::
+	msgbox IndigoPlateau_Text_EightTrophiesRequired
+	release
+	end
+
+IndigoPlateau_Movement_StepBack::
+	walk_down
+	step_end

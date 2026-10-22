@@ -41,3 +41,9 @@ IndigoPlateau_PokemonCenter_1F_Text_LancesCousinGymLeaderFarAway::
     .string "a cousin who's a GYM LEADER\l"
     .string "somewhere far away.$"
 
+
+IndigoPlateau_Text_EightTrophiesRequired::
+    .string "L'accès au Temple Céleste exige\n"
+    .string "les huit trophées.\p"
+    .string "Reviens lorsque tu les auras\n"
+    .string "tous obtenus.$"
