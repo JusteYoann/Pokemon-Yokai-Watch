@@ -27,3 +27,7 @@
 - Le générateur historique Red réapplique désormais les sources de marche présentes en dernier. Sa régénération complète des autres personnages n’a pas été exécutée dans cette mission.
 
 Ne publier aucune ROM ni ressource audio protégée. La branche dev et master n’ont pas été modifiées par cette mission.
+
+## Nouveau jalon : décalques Nathan
+
+Laure, Marge et Agent X disposent de PNG natifs neuf poses, déclarations moteur et tests mGBA des deux profils sous DECALQUES_NATHAN et DECALQUES_NATHAN_AUDIO. Corps/mains/pieds copiés des masques de Nathan ; coiffures propres. Source imagegen commune sous graphics/yokai_characters/nathan_trace/source, conversion reproductible avec tools/yokai/decalquer_personnages_nathan.py. Leur palette de groupe est volontairement partagée pour affichage simultané. Scène de comparaison temporaire Route 1 : aucun placement narratif ajouté. Portraits, événements du Temple et approbation artistique restent à faire. Ne pas utiliser les anciens aperçus par injection RAM comme preuve de ces nouveaux fichiers ; le nouveau test utilise leurs ressources réellement compilées. Perpétua/McKraken restent des propositions non intégrées.

@@ -1,0 +1,155 @@
+{
+  "passed": true,
+  "engine": "mGBA libretro",
+  "scope": "Native compiled NPC graphics in a test-only Route 1 lineup; not story integration.",
+  "rom_sha256": "f7a51564cb3fb3880413c5318ef931df6a0484c18ee08c110bdd55bd9f728eb3",
+  "rom_bytes": 16777216,
+  "rom_not_runtime_patched": true,
+  "actors": [
+    {
+      "actor": "laure",
+      "native_frame_size": [
+        16,
+        32
+      ],
+      "frames": 9,
+      "body_hands_feet_masks_match_nathan": true,
+      "rom_graphics_verified": true
+    },
+    {
+      "actor": "marge",
+      "native_frame_size": [
+        16,
+        32
+      ],
+      "frames": 9,
+      "body_hands_feet_masks_match_nathan": true,
+      "rom_graphics_verified": true
+    },
+    {
+      "actor": "agent_x",
+      "native_frame_size": [
+        16,
+        32
+      ],
+      "frames": 9,
+      "body_hands_feet_masks_match_nathan": true,
+      "rom_graphics_verified": true
+    }
+  ],
+  "directions": [
+    {
+      "direction": "face",
+      "expected": [
+        0,
+        3,
+        4
+      ],
+      "observed": {
+        "laure": [
+          0,
+          3,
+          4
+        ],
+        "marge": [
+          0,
+          3,
+          4
+        ],
+        "agent_x": [
+          0,
+          3,
+          4
+        ]
+      },
+      "palette_verified_for_all": true,
+      "east_flip_verified": true
+    },
+    {
+      "direction": "dos",
+      "expected": [
+        1,
+        5,
+        6
+      ],
+      "observed": {
+        "laure": [
+          1,
+          5,
+          6
+        ],
+        "marge": [
+          1,
+          5,
+          6
+        ],
+        "agent_x": [
+          1,
+          5,
+          6
+        ]
+      },
+      "palette_verified_for_all": true,
+      "east_flip_verified": true
+    },
+    {
+      "direction": "gauche",
+      "expected": [
+        2,
+        7,
+        8
+      ],
+      "observed": {
+        "laure": [
+          2,
+          7,
+          8
+        ],
+        "marge": [
+          2,
+          7,
+          8
+        ],
+        "agent_x": [
+          2,
+          7,
+          8
+        ]
+      },
+      "palette_verified_for_all": true,
+      "east_flip_verified": true
+    },
+    {
+      "direction": "droite",
+      "expected": [
+        2,
+        7,
+        8
+      ],
+      "observed": {
+        "laure": [
+          2,
+          7,
+          8
+        ],
+        "marge": [
+          2,
+          7,
+          8
+        ],
+        "agent_x": [
+          2,
+          7,
+          8
+        ]
+      },
+      "palette_verified_for_all": true,
+      "east_flip_verified": true
+    }
+  ],
+  "limitations": [
+    "Temporary spawned test actors, no new story placement",
+    "Artistic likeness is not approved by technical tests",
+    "No trainer portraits or battles created in this lot"
+  ]
+}

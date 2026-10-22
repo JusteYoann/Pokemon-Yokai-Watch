@@ -3281,3 +3281,36 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DrJobard = {
     .images = sPicTable_DrJobard,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiLaure = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_YOKAI_TEMPLE_GROUP,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256, .width = 16, .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32, .subspriteTables = gObjectEventSpriteOamTables_16x32,
+    .anims = sAnimTable_Standard, .images = sPicTable_YokaiLaure,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiMarge = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_YOKAI_TEMPLE_GROUP,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256, .width = 16, .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32, .subspriteTables = gObjectEventSpriteOamTables_16x32,
+    .anims = sAnimTable_Standard, .images = sPicTable_YokaiMarge,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiAgentX = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_YOKAI_TEMPLE_GROUP,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256, .width = 16, .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32, .subspriteTables = gObjectEventSpriteOamTables_16x32,
+    .anims = sAnimTable_Standard, .images = sPicTable_YokaiAgentX,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};

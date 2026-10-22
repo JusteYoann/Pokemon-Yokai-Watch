@@ -1,0 +1,16 @@
+{
+  "builds": [
+    {
+      "file": "pokefirered.gba",
+      "size": 16777216,
+      "sha256": "f7a51564cb3fb3880413c5318ef931df6a0484c18ee08c110bdd55bd9f728eb3"
+    },
+    {
+      "file": "pokefirered_audio.gba",
+      "size": 31589579,
+      "sha256": "4262fba8b2ea8d7bc7c6e6c7ef5dc1292f0172893a624365dd9a71be7b6dfb97"
+    }
+  ],
+  "nathan_original_bytes_unchanged": true,
+  "no_gameplay_or_map_files_changed": true
+}

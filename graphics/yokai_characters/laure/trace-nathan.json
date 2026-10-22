@@ -1,0 +1,101 @@
+{
+  "method": "Imagegen design color layer projected onto the native Nathan masks; no gameplay modification.",
+  "donor": "graphics/yokai_characters/nathan/normal.png",
+  "donor_sha256": "1211b569114175a4ca2efb67b3a1822717449ba56e334654a6a2baab6e5572fd",
+  "source": "graphics/yokai_characters/nathan_trace/source/couleurs-imagegen.png",
+  "frame_count": 9,
+  "head": "Same native head envelope, individual hair/hat contour; body, hands and feet use exact Nathan masks",
+  "frames": [
+    {
+      "frame": 0,
+      "nathan_body_mask_identical": true,
+      "bounds": [
+        2,
+        12,
+        14,
+        31
+      ]
+    },
+    {
+      "frame": 1,
+      "nathan_body_mask_identical": true,
+      "bounds": [
+        2,
+        12,
+        14,
+        31
+      ]
+    },
+    {
+      "frame": 2,
+      "nathan_body_mask_identical": true,
+      "bounds": [
+        1,
+        12,
+        13,
+        31
+      ]
+    },
+    {
+      "frame": 3,
+      "nathan_body_mask_identical": true,
+      "bounds": [
+        2,
+        12,
+        14,
+        32
+      ]
+    },
+    {
+      "frame": 4,
+      "nathan_body_mask_identical": true,
+      "bounds": [
+        2,
+        12,
+        15,
+        32
+      ]
+    },
+    {
+      "frame": 5,
+      "nathan_body_mask_identical": true,
+      "bounds": [
+        2,
+        12,
+        14,
+        32
+      ]
+    },
+    {
+      "frame": 6,
+      "nathan_body_mask_identical": true,
+      "bounds": [
+        2,
+        12,
+        14,
+        32
+      ]
+    },
+    {
+      "frame": 7,
+      "nathan_body_mask_identical": true,
+      "bounds": [
+        1,
+        12,
+        13,
+        31
+      ]
+    },
+    {
+      "frame": 8,
+      "nathan_body_mask_identical": true,
+      "bounds": [
+        1,
+        12,
+        13,
+        31
+      ]
+    }
+  ],
+  "production_status": "Native tracing draft, art fidelity to review in engine; not yet story-bound"
+}

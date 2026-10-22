@@ -285,3 +285,8 @@ const u16 gObjectEventPic_YokaiLeoJibanyan[] = INCBIN_U16("graphics/yokai_charac
 
 const u16 gObjectEventPal_DrJobard[] = INCBIN_U16("graphics/yokai_characters/dr_jobard/overworld.gbapal");
 const u16 gObjectEventPic_DrJobard[] = INCBIN_U16("graphics/yokai_characters/dr_jobard/overworld.4bpp");
+
+const u16 gObjectEventPal_YokaiTempleGroup[] = INCBIN_U16("graphics/yokai_characters/nathan_trace/overworld.gbapal");
+const u16 gObjectEventPic_YokaiLaure[] = INCBIN_U16("graphics/yokai_characters/laure/overworld.4bpp");
+const u16 gObjectEventPic_YokaiMarge[] = INCBIN_U16("graphics/yokai_characters/marge/overworld.4bpp");
+const u16 gObjectEventPic_YokaiAgentX[] = INCBIN_U16("graphics/yokai_characters/agent_x/overworld.4bpp");

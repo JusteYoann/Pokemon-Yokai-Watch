@@ -491,3 +491,12 @@ graphics/yokai_characters/mafiamille_3/overworld.4bpp: graphics/yokai_characters
 
 graphics/yokai_characters/dr_jobard/overworld.4bpp: graphics/yokai_characters/dr_jobard/overworld.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/laure/overworld.4bpp: graphics/yokai_characters/laure/overworld.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/marge/overworld.4bpp: graphics/yokai_characters/marge/overworld.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/agent_x/overworld.4bpp: graphics/yokai_characters/agent_x/overworld.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4

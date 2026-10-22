@@ -1917,3 +1917,39 @@ static const struct SpriteFrameImage sPicTable_DrJobard[] = {
     overworld_frame(gObjectEventPic_DrJobard, 2, 4, 2),
     overworld_frame(gObjectEventPic_DrJobard, 2, 4, 3),
 };
+
+static const struct SpriteFrameImage sPicTable_YokaiLaure[] = {
+    overworld_frame(gObjectEventPic_YokaiLaure, 2, 4, 0),
+    overworld_frame(gObjectEventPic_YokaiLaure, 2, 4, 1),
+    overworld_frame(gObjectEventPic_YokaiLaure, 2, 4, 2),
+    overworld_frame(gObjectEventPic_YokaiLaure, 2, 4, 3),
+    overworld_frame(gObjectEventPic_YokaiLaure, 2, 4, 4),
+    overworld_frame(gObjectEventPic_YokaiLaure, 2, 4, 5),
+    overworld_frame(gObjectEventPic_YokaiLaure, 2, 4, 6),
+    overworld_frame(gObjectEventPic_YokaiLaure, 2, 4, 7),
+    overworld_frame(gObjectEventPic_YokaiLaure, 2, 4, 8),
+};
+
+static const struct SpriteFrameImage sPicTable_YokaiMarge[] = {
+    overworld_frame(gObjectEventPic_YokaiMarge, 2, 4, 0),
+    overworld_frame(gObjectEventPic_YokaiMarge, 2, 4, 1),
+    overworld_frame(gObjectEventPic_YokaiMarge, 2, 4, 2),
+    overworld_frame(gObjectEventPic_YokaiMarge, 2, 4, 3),
+    overworld_frame(gObjectEventPic_YokaiMarge, 2, 4, 4),
+    overworld_frame(gObjectEventPic_YokaiMarge, 2, 4, 5),
+    overworld_frame(gObjectEventPic_YokaiMarge, 2, 4, 6),
+    overworld_frame(gObjectEventPic_YokaiMarge, 2, 4, 7),
+    overworld_frame(gObjectEventPic_YokaiMarge, 2, 4, 8),
+};
+
+static const struct SpriteFrameImage sPicTable_YokaiAgentX[] = {
+    overworld_frame(gObjectEventPic_YokaiAgentX, 2, 4, 0),
+    overworld_frame(gObjectEventPic_YokaiAgentX, 2, 4, 1),
+    overworld_frame(gObjectEventPic_YokaiAgentX, 2, 4, 2),
+    overworld_frame(gObjectEventPic_YokaiAgentX, 2, 4, 3),
+    overworld_frame(gObjectEventPic_YokaiAgentX, 2, 4, 4),
+    overworld_frame(gObjectEventPic_YokaiAgentX, 2, 4, 5),
+    overworld_frame(gObjectEventPic_YokaiAgentX, 2, 4, 6),
+    overworld_frame(gObjectEventPic_YokaiAgentX, 2, 4, 7),
+    overworld_frame(gObjectEventPic_YokaiAgentX, 2, 4, 8),
+};

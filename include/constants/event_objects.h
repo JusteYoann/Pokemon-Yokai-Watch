@@ -178,7 +178,10 @@
 #define OBJ_EVENT_GFX_YOKAI_MADEMOAISELLE 171
 #define OBJ_EVENT_GFX_YOKAI_LEO_JIBANYAN 172
 #define OBJ_EVENT_GFX_DR_JOBARD 173
-#define NUM_OBJ_EVENT_GFX     174
+#define OBJ_EVENT_GFX_YOKAI_LAURE 174
+#define OBJ_EVENT_GFX_YOKAI_MARGE 175
+#define OBJ_EVENT_GFX_YOKAI_AGENT_X 176
+#define NUM_OBJ_EVENT_GFX     177
 
 // These are dynamic object gfx ids.
 // They correspond with the values of the VAR_OBJ_GFX_ID_X vars.

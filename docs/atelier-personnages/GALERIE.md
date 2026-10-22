@@ -148,15 +148,15 @@ Pas de dossier graphique dédié retrouvé sous cet identifiant. Vérifier les a
 
 ## Laure
 
-Temple ; composition du combat duo à préciser dans les sources. État : `a_preparer_ou_reutiliser`.
+Temple ; composition du combat duo à préciser dans les sources. État : `existant_a_revoir`.
 
-Pas de dossier graphique dédié retrouvé sous cet identifiant. Vérifier les alias, références et possibilités de réutilisation avant de conclure à une ressource manquante.
+![Laure](planches/laure.png)
 
 ## Marge
 
-Temple ; composition du combat duo à préciser dans les sources. État : `a_preparer_ou_reutiliser`.
+Temple ; composition du combat duo à préciser dans les sources. État : `existant_a_revoir`.
 
-Pas de dossier graphique dédié retrouvé sous cet identifiant. Vérifier les alias, références et possibilités de réutilisation avant de conclure à une ressource manquante.
+![Marge](planches/marge.png)
 
 ## Lady Perpetua
 
@@ -172,9 +172,9 @@ Pas de dossier graphique dédié retrouvé sous cet identifiant. Vérifier les a
 
 ## Agent X
 
-Dernier adversaire du Temple. État : `a_preparer_ou_reutiliser`.
+Dernier adversaire du Temple. État : `existant_a_revoir`.
 
-Pas de dossier graphique dédié retrouvé sous cet identifiant. Vérifier les alias, références et possibilités de réutilisation avant de conclure à une ressource manquante.
+![Agent X](planches/agent_x.png)
 
 ## Soranaki
 
