@@ -1,0 +1,49 @@
+id,nom,role,profil,etat,ressources_attendues,fichiers_a_retrouver_ou_creer,fichiers_presents
+nathan,Nathan,Protagoniste et champion alternatif,joueur,existant_a_revoir,normal.png;surf_run.png;bike.png;vs_seeker_bike.png;fish.png;item.png;front.png;back.png;intro.png;credits.png;region_icon.png,,graphics/yokai_characters/nathan/back.png;graphics/yokai_characters/nathan/bike.png;graphics/yokai_characters/nathan/credits.png;graphics/yokai_characters/nathan/fish.png;graphics/yokai_characters/nathan/front.png;graphics/yokai_characters/nathan/intro.png;graphics/yokai_characters/nathan/item.png;graphics/yokai_characters/nathan/normal.png;graphics/yokai_characters/nathan/region_icon.png;graphics/yokai_characters/nathan/surf_run.png;graphics/yokai_characters/nathan/vs_seeker_bike.png
+katie,Katie,Protagoniste et championne alternative,joueur,existant_a_revoir,normal.png;surf_run.png;bike.png;vs_seeker_bike.png;fish.png;item.png;front.png;back.png;intro.png;credits.png;region_icon.png,,graphics/yokai_characters/katie/back.png;graphics/yokai_characters/katie/bike.png;graphics/yokai_characters/katie/credits.png;graphics/yokai_characters/katie/fish.png;graphics/yokai_characters/katie/front.png;graphics/yokai_characters/katie/intro.png;graphics/yokai_characters/katie/item.png;graphics/yokai_characters/katie/normal.png;graphics/yokai_characters/katie/region_icon.png;graphics/yokai_characters/katie/surf_run.png;graphics/yokai_characters/katie/vs_seeker_bike.png
+matt,Matt,"Rival, trois apparitions de combat",rival,existant_a_revoir,overworld.png;battle_early.png;battle_late.png;battle_champion.png;intro.png;credits.png,,graphics/yokai_characters/matt/battle_champion.png;graphics/yokai_characters/matt/battle_early.png;graphics/yokai_characters/matt/battle_late.png;graphics/yokai_characters/matt/credits.png;graphics/yokai_characters/matt/intro.png;graphics/yokai_characters/matt/overworld.png
+ariane,Ariane,Championne,pnj,existant_a_revoir,overworld.png;battle.png,,graphics/yokai_characters/ariane/battle.png;graphics/yokai_characters/ariane/overworld.png;graphics/yokai_characters/ariane/usapion_overworld.png
+wyatt,Wyatt,Champion,pnj,existant_a_revoir,overworld.png;battle.png,,graphics/yokai_characters/wyatt/battle.png;graphics/yokai_characters/wyatt/overworld.png
+nathaniel,Nathaniel,"Ancêtre, version jeune du chapitre du passé",pnj,existant_a_revoir,overworld.png;battle.png,,graphics/yokai_characters/nathaniel/battle.png;graphics/yokai_characters/nathaniel/overworld.png
+michael,Michael,"Ancêtre, version jeune du chapitre du passé",pnj,existant_a_revoir,overworld.png;battle.png,,graphics/yokai_characters/michael/battle.png;graphics/yokai_characters/michael/overworld.png
+enma,Seigneur Enma,"Personnage narratif, distinct de la créature capturable",pnj,existant_a_revoir,overworld.png;battle.png,,graphics/yokai_characters/enma/battle.png;graphics/yokai_characters/enma/kyubi_overworld.png;graphics/yokai_characters/enma/overworld.png
+enma_civil,Enma — tenue civile,Apparition déguisée à Argenta,carte,a_preparer_ou_reutiliser,overworld.png,overworld.png,
+domniscian,Domniscian,Boss et caméo existant,pnj,existant_a_revoir,overworld.png;battle.png,,graphics/yokai_characters/domniscian/battle.png;graphics/yokai_characters/domniscian/overworld.png
+don_morleone,Don Morleone,Antagoniste et champion,pnj,existant_a_revoir,overworld.png;battle.png,,graphics/yokai_characters/don_morleone/battle.png;graphics/yokai_characters/don_morleone/overworld.png
+mafiamille_1,Mafiamille 1,"Carte commune, combat distinct",pnj,existant_a_revoir,overworld.png;battle.png,,graphics/yokai_characters/mafiamille_1/battle.png;graphics/yokai_characters/mafiamille_1/overworld.png
+mafiamille_2,Mafiamille 2,"Carte commune, combat distinct",pnj,existant_a_revoir,overworld.png;battle.png,,graphics/yokai_characters/mafiamille_2/battle.png;graphics/yokai_characters/mafiamille_2/overworld.png
+mafiamille_3,Mafiamille 3,"Carte commune, combat distinct",pnj,existant_a_revoir,overworld.png;battle.png,,graphics/yokai_characters/mafiamille_3/battle.png;graphics/yokai_characters/mafiamille_3/overworld.png
+employe_rouge,Employé rouge,"Même silhouette de carte que le bleu, palette distincte",pnj,existant_a_revoir,overworld.png;battle.png,,graphics/yokai_characters/employe_rouge/battle.png;graphics/yokai_characters/employe_rouge/overworld.png
+employe_bleu,Employé bleu,"Même silhouette de carte que le rouge, palette distincte",pnj,existant_a_revoir,overworld.png;battle.png,,graphics/yokai_characters/employe_bleu/battle.png;graphics/yokai_characters/employe_bleu/overworld.png
+dr_jobard,Dr Jobard,En pause : ne pas poursuivre son redesign maintenant,pause,en_pause,overworld.png,,graphics/yokai_characters/dr_jobard/overworld.png
+berenice,Bérénice,"Scientifique, Bourg Palette et Portes Mystères",carte,a_preparer_ou_reutiliser,overworld.png,overworld.png,
+steve_jaws,Steve Jaws,"Introduction, champion et Yopple",pnj,a_preparer_ou_reutiliser,overworld.png;battle.png,overworld.png;battle.png,
+mark_orckerberg,Mark Orckerberg,Allié de Yopple,carte,a_preparer_ou_reutiliser,overworld.png,overworld.png,
+whisper_majordome,Whisper — majordome,Champion de Parmanie,pnj,a_preparer_ou_reutiliser,overworld.png;battle.png,overworld.png;battle.png,
+alyzon,Alyzon,"Championne, Zombie Night",pnj,a_preparer_ou_reutiliser,overworld.png;battle.png,overworld.png;battle.png,
+zazel,Zazel,Gardien du Temple ; combat supplémentaire non présumé,carte,a_preparer_ou_reutiliser,overworld.png,overworld.png,
+laure,Laure,Temple ; composition du combat duo à préciser dans les sources,pnj,a_preparer_ou_reutiliser,overworld.png;battle.png,overworld.png;battle.png,
+marge,Marge,Temple ; composition du combat duo à préciser dans les sources,pnj,a_preparer_ou_reutiliser,overworld.png;battle.png,overworld.png;battle.png,
+lady_perpetua,Lady Perpetua,Adversaire du Temple,pnj,a_preparer_ou_reutiliser,overworld.png;battle.png,overworld.png;battle.png,
+mckraken,McKraken,"Adversaire du Temple, morphologie particulière",pnj,a_preparer_ou_reutiliser,overworld.png;battle.png,overworld.png;battle.png,
+agent_x,Agent X,Dernier adversaire du Temple,pnj,a_preparer_ou_reutiliser,overworld.png;battle.png,overworld.png;battle.png,
+soranaki,Soranaki,Climax ; formes et boss spécial à définir sans inventer,special,a_preparer_ou_reutiliser,overworld.png,overworld.png,
+yopple_bot,Yopple Bot,Mini-boss ; format de combat à confirmer,special,a_preparer_ou_reutiliser,overworld.png,overworld.png,
+juste_yoann,Juste Yoann,Quête créateur ; retrouver la référence déjà envoyée avant dessin,pnj,a_preparer_ou_reutiliser,overworld.png;battle.png,overworld.png;battle.png,
+coach_antonic,Coach Antonic,Quête entraînement et trois accompagnateurs,pnj,a_preparer_ou_reutiliser,overworld.png;battle.png,overworld.png;battle.png,
+scientifique_quete,Scientifique récurrent,Même identité aux quatre apparitions ; ne pas confondre avec Jobard,pnj,a_preparer_ou_reutiliser,overworld.png;battle.png,overworld.png;battle.png,
+fan_jibanyan,Fan de Jibanyan,PNJ de quête ; ressource générique possible,carte,a_preparer_ou_reutiliser,overworld.png,overworld.png,
+grand_pere_quete,Grand-père disparu,PNJ de quête ; ressource générique possible,carte,a_preparer_ou_reutiliser,overworld.png,overworld.png,
+specialiste_shiny,Spécialiste des chromatiques,PNJ de quête ; ressource générique possible,carte,a_preparer_ou_reutiliser,overworld.png,overworld.png,
+red,Red,Personnage distinct de Nathan ; conserver ressources originales,original,original_a_preserver,overworld.png,,graphics/object_events/pics/people/red_normal.png;graphics/trainers/back_pics/red_back_pic.png
+jibanyan_scene,Jibanyan — acteur de scène,Accompagnateur du Coach ; réutilisation possible du Jibanyan de Léo,creature,existant_a_revoir,overworld.png,,graphics/yokai_characters/leo_jibanyan/overworld.png
+komasan_scene,Komasan — acteur de scène,Accompagnateur du Coach,creature,a_preparer_ou_reutiliser,overworld.png,overworld.png,
+whisper_scene,Whisper — acteur de scène,"Accompagnateur du Coach, distinct de la tenue majordome",creature,a_preparer_ou_reutiliser,overworld.png,overworld.png,
+triptic_tac_scene,Triptic-tac — acteur de scène,Voyage dans le passé,creature,a_preparer_ou_reutiliser,overworld.png,overworld.png,
+oni_scene,Oni — acteurs de Terr’heure,"Espèces, variantes et animations de poursuite à relever avant production",creature,a_preparer_ou_reutiliser,overworld.png,overworld.png,
+misterre_scene,Misterre — rencontre statique,"Morphologie de créature, hors gabarit humain",creature,existant_a_revoir,overworld.png,,graphics/yokai_characters/static_yokai/misterre/overworld.png
+mademoaiselle_scene,Mademoaiselle — rencontre statique,Îles Écume ; morphologie de créature,creature,existant_a_revoir,overworld.png,,graphics/yokai_characters/static_yokai/mademoaiselle/overworld.png
+octorgone_scene,Octorgone — rencontre statique,Centrale ; morphologie de créature,creature,existant_a_revoir,overworld.png,,graphics/yokai_characters/static_yokai/octorgone/overworld.png
+kyubi_scene,Kyubi — rencontre statique,Mont Braise ; morphologie de créature,creature,existant_a_revoir,overworld.png,overworld.png,graphics/yokai_characters/enma/kyubi_overworld.png
+enma_creature,Enma — créature capturable,Distinct du Seigneur Enma narratif,creature,existant_a_revoir,overworld.png,,graphics/yokai_characters/enma_creature/overworld.png
+enma_ancien,Enma l’Ancien,Sanctuaire Divin ; ne pas inventer une forme non spécifiée,special,a_preparer_ou_reutiliser,overworld.png,overworld.png,

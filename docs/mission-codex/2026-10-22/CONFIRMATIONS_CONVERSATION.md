@@ -17,3 +17,9 @@ Le pack est un cahier des charges, pas une preuve que le nouveau scénario est d
 - Tous les nouveaux sprites de personnages sur la carte doivent reprendre la taille et les proportions tête/corps de Nathan. Référence technique actuelle : case16×32, limites visibles12×19 sur les poses fixes, pieds à y30.
 - Pour le Dr Jobard, utiliser l’artwork fourni ensuite dans la conversation : conserver surtout l’œil unique, le visage bicolore, la blouse et le cœur sur le torse. Supprimer le dispositif extérieur derrière lui, les tuyaux reliés au cœur, les griffes et les accessoires superflus. La première proposition de scientifique humain sans référence est écartée.
 - Le premier prototype applique ces consignes et dispose de quatre orientations distinctes, avec profils asymétriques pour les couleurs de peau. Cela n’implique pas que le siège de Yopple ou la trahison soient déjà intégrés.
+
+## Priorité suivante : ressources des personnages avant la suite du jeu
+
+- Après la dernière révision de Jobard, le créateur demande de revenir sur lui plus tard : son redesign est en pause, sans suppression des fichiers existants.
+- Préparer l’ensemble des ressources graphiques nécessaires, en commençant par tous les sprites des personnages, avant de poursuivre le codage du jeu.
+- L’atelier `docs/atelier-personnages/` recense les ressources et besoins de production. Il ne constitue pas une validation des dessins recensés et ne modifie pas les ressources actives.
