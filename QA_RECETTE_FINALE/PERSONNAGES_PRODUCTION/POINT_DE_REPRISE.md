@@ -39,3 +39,7 @@ Les versions par conversion imagegen de Laure/Marge/Agent X sont remplacées par
 ## Correction : essai natif refusé
 
 Le créateur juge les derniers dessins natifs moins réussis. PNG, palettes et métadonnées actifs de Laure/Marge/Agent X restaurés depuis 78b1ccea4. Les matrices restent archivées avec status REJECTED_BY_CREATOR_NOT_ACTIVE ; l’exporteur bloque leur réactivation. Ne pas présenter ces dessins ni leurs tests comme une approbation artistique. L’ancien dessin rétabli est issu de conversion, pas d’une création native manuelle.
+
+## Dernier jalon : retouches légères, technique libre
+
+Le créateur autorise désormais toute technique si le rendu est bon. Base 78b1ccea4 conservée ; retouches ponctuelles de pixels, pas la version native refusée. Sources actuelles : source/overworld-grille.json ; grilles rejetées archivées dans grille-refusee-v1.json. Contrôles et captures des deux profils sous RETOUCHES_LEGERES et RETOUCHES_LEGERES_AUDIO. Les silhouettes des 27 poses sont identiques à la base préférée ; avis artistique du créateur encore nécessaire.

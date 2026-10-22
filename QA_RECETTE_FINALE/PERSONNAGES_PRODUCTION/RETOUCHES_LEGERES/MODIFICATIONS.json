@@ -1,0 +1,28 @@
+{
+  "basis": "78b1ccea4",
+  "method": "Small explicit native pixel edits of the preferred earlier assets; original silhouettes and palette preserved; no imagegen art reconversion.",
+  "actors": [
+    {
+      "actor": "laure",
+      "changed_pixel_indices": 58,
+      "original_geometry_preserved": true,
+      "source": "graphics/yokai_characters/laure/source/overworld-grille.json",
+      "status": "Artistic proposal, not creator-approved"
+    },
+    {
+      "actor": "marge",
+      "changed_pixel_indices": 457,
+      "original_geometry_preserved": true,
+      "source": "graphics/yokai_characters/marge/source/overworld-grille.json",
+      "status": "Artistic proposal, not creator-approved"
+    },
+    {
+      "actor": "agent_x",
+      "changed_pixel_indices": 33,
+      "original_geometry_preserved": true,
+      "source": "graphics/yokai_characters/agent_x/source/overworld-grille.json",
+      "status": "Artistic proposal, not creator-approved"
+    }
+  ],
+  "existing_nathan_katie_ariane_unchanged": true
+}

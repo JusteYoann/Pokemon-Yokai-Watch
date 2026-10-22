@@ -1,0 +1,15 @@
+{
+  "builds": [
+    {
+      "file": "pokefirered.gba",
+      "bytes": 16777216,
+      "sha256": "fda6b7d1035dced27dc6d073362542301a2882e6aed30fa4454759d7816fba1f"
+    },
+    {
+      "file": "pokefirered_audio.gba",
+      "bytes": 31589579,
+      "sha256": "a91f8cee957d6629a3d73cb18f533b5339cd20db3a8beda44fac984765f999a3"
+    }
+  ],
+  "export_identical_when_repeated": true
+}
