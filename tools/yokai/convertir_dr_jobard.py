@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Technical crop/nearest-neighbour scaling and shared GBA palette conversion.
+"""Technical crop, area resampling preserving source ink coverage, and shared GBA palette conversion.
 
 The drawing is generated separately; this converter does not invent artwork.
 """
@@ -22,7 +22,28 @@ for i in range(4):
     if i==3:reference=reference.transpose(Image.Transpose.FLIP_LEFT_RIGHT)
     reference_mask=Image.new('L',reference.size);reference_mask.putdata([255 if k else 0 for k in reference.getdata()])
     target=reference_mask.getbbox();assert target
-    frame=frame.resize((target[2]-target[0],target[3]-target[1]),Image.Resampling.NEAREST)
+    size=(target[2]-target[0],target[3]-target[1])
+    # Point sampling dropped source contours thinner than one destination pixel.
+    # Preserve their measured coverage instead of inventing an outline afterward.
+    ink=Image.new('L',frame.size)
+    ink.putdata([255 if a and max(r,g,b)<70 else 0 for r,g,b,a in frame.getdata()])
+    ink=ink.resize(size,Image.Resampling.BOX)
+    point=frame.resize(size,Image.Resampling.NEAREST)
+    area=frame.resize(size,Image.Resampling.BOX)
+    # Keep the original point-sampled interior (eye, iris, heart). Only source
+    # ink on the silhouette boundary receives conservative coverage sampling.
+    pixels=[]
+    for yy in range(size[1]):
+        for xx in range(size[0]):
+            r,g,b,a=area.getpixel((xx,yy))
+            border=any(nx<0 or ny<0 or nx>=size[0] or ny>=size[1]
+                       or area.getpixel((nx,ny))[3]<1
+                       for nx,ny in [(xx-1,yy),(xx+1,yy),(xx,yy-1),(xx,yy+1)])
+            pr,pg,pb,pa=point.getpixel((xx,yy))
+            if a<1:pixels.append((0,0,0,0))
+            elif border and ink.getpixel((xx,yy))>=64:pixels.append((0,0,0,255))
+            else:pixels.append((pr,pg,pb,255) if pa else (r,g,b,255))
+    frame=Image.new('RGBA',size);frame.putdata(pixels)
     x=i*16+target[0];y=target[1]
     sheet.paste(frame,(x,y),frame);boxes.append([x-i*16,y,x-i*16+frame.width,y+frame.height])
 q=sheet.quantize(colors=16,method=Image.Quantize.MAXCOVERAGE,dither=Image.Dither.NONE)

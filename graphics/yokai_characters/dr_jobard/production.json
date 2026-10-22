@@ -2,7 +2,7 @@
   "status": "Simplified adaptation of the creator-provided Dr Jobard artwork; cables, apparatus and claws removed; exact Nathan visible dimensions",
   "reference": "Dr Jobard artwork supplied in conversation on 2026-10-22",
   "size_reference": "graphics/yokai_characters/nathan/normal.png",
-  "source_sha256": "e5f46c536e4f71b57cfced7e8d886eb88e01c1c4a03b9d8b7ab6b671fd0cf9de",
+  "source_sha256": "db637ffb0448ea83cf1c51edc460a9879436f3b16468cd4696f5d10213be4c09",
   "logical_frame": [
     16,
     32
@@ -41,5 +41,5 @@
   ],
   "palette_colors": 16,
   "transparent_index": 0,
-  "method": "Technical crop/nearest-neighbour scaling and shared GBA palette conversion.\n\nThe drawing is generated separately; this converter does not invent artwork.\n"
+  "method": "Technical crop, area resampling preserving source ink coverage, and shared GBA palette conversion.\n\nThe drawing is generated separately; this converter does not invent artwork.\n"
 }

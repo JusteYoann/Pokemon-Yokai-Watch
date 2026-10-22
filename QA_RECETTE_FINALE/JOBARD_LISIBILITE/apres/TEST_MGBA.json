@@ -1,0 +1,135 @@
+{
+  "passed": true,
+  "scope": "Native reversible Mystery Doors prototype: new-game then explicit progression/map fixtures.\n\nNo complete campaign, combat, Yopple siege or betrayal is claimed by this test.\n",
+  "rom_sha256": "cfec18ed0cbb7dd3ffbe078f713cd1aac43e3026e12407e0a246f380fdf677f8",
+  "rom_size": 31589579,
+  "native_text_lines": 38,
+  "proportions": [
+    {
+      "orientation": "front",
+      "nathan_bounds": [
+        2,
+        12,
+        14,
+        31
+      ],
+      "jobard_bounds": [
+        2,
+        12,
+        14,
+        31
+      ],
+      "visible_width": 12,
+      "visible_height": 19
+    },
+    {
+      "orientation": "back",
+      "nathan_bounds": [
+        2,
+        12,
+        14,
+        31
+      ],
+      "jobard_bounds": [
+        2,
+        12,
+        14,
+        31
+      ],
+      "visible_width": 12,
+      "visible_height": 19
+    },
+    {
+      "orientation": "left",
+      "nathan_bounds": [
+        1,
+        12,
+        13,
+        31
+      ],
+      "jobard_bounds": [
+        1,
+        12,
+        13,
+        31
+      ],
+      "visible_width": 12,
+      "visible_height": 19
+    },
+    {
+      "orientation": "right",
+      "nathan_bounds": [
+        3,
+        12,
+        15,
+        31
+      ],
+      "jobard_bounds": [
+        3,
+        12,
+        15,
+        31
+      ],
+      "visible_width": 12,
+      "visible_height": 19
+    }
+  ],
+  "maps": {
+    "YokaiMystery_Lab": [
+      43,
+      0
+    ],
+    "YokaiMystery_Stability": [
+      43,
+      1
+    ],
+    "YokaiMystery_Orientation": [
+      43,
+      2
+    ],
+    "YokaiMystery_Return": [
+      43,
+      3
+    ]
+  },
+  "tests": [
+    {
+      "gender": "nathan",
+      "passed": true,
+      "city_guard": true,
+      "invitation_decline": true,
+      "menu_cancel": true,
+      "observation_order": [
+        3,
+        1,
+        2
+      ],
+      "save_continue_in_each_room": true,
+      "all_three_return_lanes": true,
+      "all_three_lab_exit_lanes": true,
+      "repeat_no_item_badge_or_exp_reward": true,
+      "native_escape_rope_dig_teleport_fly_guards": true
+    },
+    {
+      "gender": "katie",
+      "passed": true,
+      "city_guard": true,
+      "invitation_decline": true,
+      "menu_cancel": true,
+      "observation_order": [
+        3,
+        1,
+        2
+      ],
+      "save_continue_in_each_room": true,
+      "all_three_return_lanes": true,
+      "all_three_lab_exit_lanes": true,
+      "repeat_no_item_badge_or_exp_reward": true,
+      "native_escape_rope_dig_teleport_fly_guards": true
+    },
+    {
+      "test": "Legacy Carmin cached actor refresh, safe return, trophy preserved and second Continue stable",
+      "passed": true
+    }
+  ]
+}
