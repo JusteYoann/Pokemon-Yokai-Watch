@@ -29,3 +29,18 @@ YOKAI_QA_ROM=$PWD/pokefirered_audio.gba YOKAI_QA_ELF=$PWD/pokefirered_audio.elf 
 ## Portes Mystères : décision en attente
 
 Le chapitre n’est pas ajouté par ce correctif. Le pack décrit l’alliance puis la trahison du Dr Jobard à Carmin/Yopple et le rôle de Bérénice, mais ne fournit pas de déroulé précis des épreuves ni de sprite identifié du Dr Jobard. Le dépôt contient le scientifique générique de Rouge Feu, pas un dessin approuvé du personnage. Une question a été soumise au créateur : autoriser un premier prototype explicitement provisoire avec ce scientifique et de petites salles réversibles, ou attendre le déroulé/design. Aucun remplacement artistique ni chapitre improvisé n’est activé avant cette réponse.
+
+## Reproductibilité GitHub
+
+Le clone indépendant utilisé pour les précédentes compilations propres a été avancé depuis GitHub jusqu’à `a50fd9fb3`, puis recompilé avec ses propres objets. Les ROM publique et privée sont identiques octet par octet à celles testées. Aucune source ou objet local du dépôt de développement n’a été copié; la version privée utilise les mêmes ressources audio externes. Résultats dans `REPRODUCTIBILITE.json`.
+
+Pour rejouer les six contrôles de remise normale sans écraser le rapport historique, avec les variables ROM/ELF ci-dessus définies :
+
+```sh
+PYTHONPATH=tools/yokai python3 - <<'PYTEST'
+import tester_oceane_progression_mgba as q
+q.OUT = q.ROOT / 'QA_RECETTE_FINALE/OCEANE_RECUPERATION_CS01/obtention-normale'
+q.OUT.mkdir(exist_ok=True)
+assert len(q.captain_cases()) == 6
+PYTEST
+```
