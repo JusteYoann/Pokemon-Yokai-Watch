@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "scope": "Real map actors, native VRAM animation cycles and unchanged trainer intros.\n\nWalking is driven in place by the engine for reproducible rendering; this does\nnot claim new story movement scenes or a complete campaign playthrough.\n",
+  "rom_sha256": "7aa3a7e6097062fcc5092515de0211f353804c8b3c721ea56ea368e2f454c235",
+  "rom_bytes": 16777216,
+  "tests": [
+    {
+      "actor": "ariane",
+      "gender": 0,
+      "actual_map": "VermilionCity_Gym",
+      "linked_frames": 9,
+      "directions": [
+        {
+          "direction": "sud",
+          "native_vram_frames": [
+            0,
+            3,
+            4
+          ],
+          "expected_frames": [
+            0,
+            3,
+            4
+          ],
+          "passed": true
+        },
+        {
+          "direction": "nord",
+          "native_vram_frames": [
+            1,
+            5,
+            6
+          ],
+          "expected_frames": [
+            1,
+            5,
+            6
+          ],
+          "passed": true
+        },
+        {
+          "direction": "ouest",
+          "native_vram_frames": [
+            2,
+            7,
+            8
+          ],
+          "expected_frames": [
+            2,
+            7,
+            8
+          ],
+          "passed": true
+        },
+        {
+          "direction": "est",
+          "native_vram_frames": [
+            2,
+            7,
+            8
+          ],
+          "expected_frames": [
+            2,
+            7,
+            8
+          ],
+          "passed": true
+        }
+      ],
+      "native_trainer_intro": true,
+      "trainer_id": 416,
+      "used_palette_indices_verified": true,
+      "transparent_index": 0,
+      "complete_battle": false,
+      "passed": true
+    }
+  ]
+}

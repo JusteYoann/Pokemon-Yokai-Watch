@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "github_source_commit": "170ad1076736bc9a0899254948372cd8f557986f",
+  "branch": "art/personnages-production",
+  "checkout": "Existing independent clean GitHub clone, fetched branch, detached at source commit",
+  "cleanup": [
+    "make tidy",
+    "make clean-assets",
+    "make clean-generated"
+  ],
+  "game_objects_and_generated_graphics_rebuilt": true,
+  "reference_environment": "Existing installed pinned toolchain; not a fresh OS installation",
+  "public_build_requires_private_audio": false,
+  "private_build_uses_same_declared_external_audio_bundle": true,
+  "source_worktree_clean_after_build": true,
+  "results": {
+    "pokefirered.gba": {
+      "reference": {
+        "bytes": 16777216,
+        "sha256": "7aa3a7e6097062fcc5092515de0211f353804c8b3c721ea56ea368e2f454c235"
+      },
+      "github_rebuild": {
+        "bytes": 16777216,
+        "sha256": "7aa3a7e6097062fcc5092515de0211f353804c8b3c721ea56ea368e2f454c235"
+      },
+      "identical": true
+    },
+    "pokefirered_audio.gba": {
+      "reference": {
+        "bytes": 31589579,
+        "sha256": "ec78d59fd67601aad9245e3cefcfa2bc22de34bb919fca167da7c29b7848ba75"
+      },
+      "github_rebuild": {
+        "bytes": 31589579,
+        "sha256": "ec78d59fd67601aad9245e3cefcfa2bc22de34bb919fca167da7c29b7848ba75"
+      },
+      "identical": true
+    }
+  },
+  "emulator_evidence": "MARCHE and MARCHE_PUBLIC test these identical binaries; CLONE_GITHUB_MGBA additionally exercises Ariane from the GitHub-built public ROM",
+  "github_rebuilt_public_rom_native_ariane_test_passed": true
+}

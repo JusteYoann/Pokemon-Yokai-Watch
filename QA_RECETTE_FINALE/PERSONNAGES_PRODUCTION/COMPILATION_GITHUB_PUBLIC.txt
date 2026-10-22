@@ -1,0 +1,10 @@
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=0 -I sound -o build/firered/sound/songs/midi/se_warp_out.o sound/songs/midi/se_warp_out.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=0 -I sound -o build/firered/sound/songs/midi/se_win_open.o sound/songs/midi/se_win_open.s
+tools/ramscrgen/ramscrgen COMMON sym_common.txt ENGLISH -c build/firered/src,common_syms > build/firered/sym_common.ld
+Memory region         Used Size  Region Size  %age Used
+           EWRAM:      261052 B       256 KB     99.58%
+           IWRAM:       29824 B        32 KB     91.02%
+             ROM:    15828216 B        32 MB     47.17%
+cd build/firered && arm-none-eabi-ld -Map ../../pokefirered.map -T ../../ld_script.ld --print-memory-usage -o ../../pokefirered.elf <objs> <libs> | cat
+tools/gbafix/gbafix pokefirered.elf -t"POKEMON FIRE" -cBPRE -m01 -r0 --silent
+arm-none-eabi-objcopy -O binary --gap-fill 0xFF --pad-to 0x9000000 pokefirered.elf pokefirered.gba

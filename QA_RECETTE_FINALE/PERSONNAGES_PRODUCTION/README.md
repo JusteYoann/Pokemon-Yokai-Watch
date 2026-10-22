@@ -56,3 +56,18 @@ Le script de conversion native a été relancé : PNG et métadonnées identique
 [Suivi par personnage](../../docs/atelier-personnages/production/ETAT_PAR_PERSONNAGE.csv) : états, ressources présentes/manquantes et références. Le recensement mécanique couvre1 678objets de cartes et743entrées de dresseurs ; il inclut des objets et des figurants génériques, pas1 678identités nouvelles à dessiner.
 
 Les anciens designs d’Enma et Domniscian restent intégralement inchangés dans le jeu. La tentative complémentaire pour Enma a été écartée. Pour Domniscian, le dessin choisi montre son appareil à la base de la silhouette : il n’a pas été transformé en jambes pour fabriquer une animation. Ces ressources fixes restent disponibles pour leurs scènes actuelles.
+
+## Reconstruction indépendante depuis GitHub
+
+La branche publiée a été récupérée dans un clone indépendant propre, au commit170ad1076. Les objets, cartes et ressources graphiques générées ont été supprimés avec `make tidy clean-assets clean-generated`. Les deux profils ont ensuite été reconstruits depuis les fichiers GitHub, avec l’outillage déjà installé. Il ne s’agit pas d’une nouvelle installation du système d’exploitation.
+
+Les SHA-256 sont identiques aux versions testées :
+
+| Profil | Octets | SHA-256 |
+| --- | ---: | --- |
+| Public | 16 777 216 | `7aa3a7e6097062fcc5092515de0211f353804c8b3c721ea56ea368e2f454c235` |
+| Privé | 31 589 579 | `ec78d59fd67601aad9245e3cefcfa2bc22de34bb919fca167da7c29b7848ba75` |
+
+Le profil public ne nécessite aucune ressource audio privée. Le profil privé utilise le même dossier audio externe déclaré ; aucun enregistrement protégé n’a été publié. [Résultats de reproductibilité](REPRODUCTIBILITE_GITHUB.json), journaux COMPILATION_GITHUB_*.txt et [contrôle mGBA d’Ariane depuis le clone](CLONE_GITHUB_MGBA/TEST_MGBA.json). Les neuf personnages ont été testés sur chacun des deux profils ; le contrôle supplémentaire depuis le clone porte sur Ariane uniquement. Les empreintes prouvent que les autres tests concernaient les mêmes binaires.
+
+La mission de tous les personnages reste **en cours**. Ce lot ne crée pas les nouveaux portraits et événements des personnages encore sans référence retrouvée. La question sur leur archive a été posée pendant la production. Aucun choix de ville ou de Champion n’a été déduit automatiquement des anciens documents contradictoires.
