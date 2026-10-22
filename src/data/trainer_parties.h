@@ -13947,3 +13947,9 @@ static const struct TrainerMonItemCustomMoves sScenarioParty_WyattFirstTrophy[] 
     {.iv = 0, .lvl = 9, .species = SPECIES_ARBOK, .heldItem = ITEM_NONE, .moves = {MOVE_TACKLE, MOVE_ROCK_THROW, MOVE_GROWL, MOVE_NONE}},
     {.iv = 0, .lvl = 11, .species = SPECIES_PIKACHU, .heldItem = ITEM_NONE, .moves = {MOVE_TACKLE, MOVE_ROCK_THROW, MOVE_NONE, MOVE_NONE}},
 };
+
+static const struct TrainerMonItemCustomMoves sScenarioParty_AzuriaSecondTrophy[] = {
+    {.iv = 0, .lvl = 16, .species = SPECIES_SANDSLASH, .heldItem = ITEM_NONE, .moves = {MOVE_EMBER, MOVE_SCRATCH, MOVE_LEER, MOVE_NONE}},
+    {.iv = 0, .lvl = 16, .species = SPECIES_WARTORTLE, .heldItem = ITEM_NONE, .moves = {MOVE_LICK, MOVE_ASTONISH, MOVE_GROWL, MOVE_NONE}},
+    {.iv = 0, .lvl = 18, .species = SPECIES_BULBASAUR, .heldItem = ITEM_NONE, .moves = {MOVE_EMBER, MOVE_SCRATCH, MOVE_GROWL, MOVE_NONE}},
+};

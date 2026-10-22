@@ -1,5 +1,6 @@
 // Ability slot selections for approved trainer sets, no save-layout change.
 static const u8 sYokaiTrainerAbilitySlots[NUM_TRAINERS][PARTY_SIZE] = {
+    [TRAINER_BUG_MANIAC] = {0, 0, 0},
     [TRAINER_YOUNGSTER_BEN] = {0, 0},
     [TRAINER_YOUNGSTER_CALVIN] = {0},
     [TRAINER_YOUNGSTER_JOSH] = {0, 0, 0},
@@ -323,7 +324,7 @@ static const u8 sYokaiTrainerAbilitySlots[NUM_TRAINERS][PARTY_SIZE] = {
     [TRAINER_ELITE_FOUR_AGATHA] = {0, 1, 1, 0, 0},
     [TRAINER_ELITE_FOUR_LANCE] = {0, 0, 0, 0, 0},
     [TRAINER_LEADER_BROCK] = {0, 0},
-    [TRAINER_LEADER_MISTY] = {1, 0, 1},
+    [TRAINER_LEADER_MISTY] = {0, 0, 0},
     [TRAINER_LEADER_LT_SURGE] = {0, 0, 1, 0},
     [TRAINER_LEADER_ERIKA] = {0, 0, 1, 0},
     [TRAINER_LEADER_KOGA] = {0, 0, 0, 0, 0},

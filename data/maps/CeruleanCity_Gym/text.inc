@@ -1,48 +1,51 @@
-CeruleanCity_Gym_Text_MistyIntro::
-    .string "Salut! Une nouvelle tête!\pPour devenir un grand Dresseur,\nil faut une vraie stratégie.\pComment choisis-tu\net entraînes-tu tes Yo-kai?\pMoi, je mise sur l'offensive\net sur mes partenaires\lqui ne craignent pas de se mouiller!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
-
+@ Original French dialogue based on the scenario intentions; wording provisional.
+CeruleanCity_Gym_Text_NameKatie::
+	.string "Katie$"
+CeruleanCity_Gym_Text_NameNathan::
+	.string "Nathan$"
+CeruleanCity_Gym_Text_KatieIntro::
+	.string "KATIE: Hé, {PLAYER}!\nTu as déjà ton premier trophée!\pIci, le feu de nos Yo-kai\nréchauffe toute l'Arène.\pMême Whisper nous accompagne.\nIl fait... le surveillant du feu!\pTu connais tes partenaires?\nAlors, montre-moi votre entente!\pJibanyan, à nous de jouer!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+CeruleanCity_Gym_Text_NathanIntro::
+	.string "NATHAN: {PLAYER}! Regarde!\nC'est moi le Champion ici!\pBon, j'avoue: sans mes Yo-kai,\nje ferais moins le malin.\pFeulion, Whisper et Jibanyan\nsont prêts pour ton équipe!\pOn reste amis, mais je vais\nme donner à fond! C'est parti!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+CeruleanCity_Gym_Text_Defeat::
+	.string "Quelle équipe!\nVous avez assuré!$"
+CeruleanCity_Gym_Text_SecondTrophy::
+	.string "{PLAYER} reçoit\nle deuxième trophée!\pTes liens avec tes Yo-kai\nvous ont menés à la victoire.$"
+CeruleanCity_Gym_Text_ReceivedTM03::
+	.string "{PLAYER} reçoit\nla CT03!$"
 CeruleanCity_Gym_Text_ExplainTM03::
-    .string "La CT03 enseigne Vibraqua.\pChoisis un Yo-kai compatible\nqui en fera bon usage!$"
-
-CeruleanCity_Gym_Text_ExplainCascadeBadge::
-    .string "Avec le Badge Cascade,\nles Yo-kai jusqu'au niveau 30\lt'obéiront, même ceux échangés.\pTu peux aussi utiliser Coupe\nen dehors des combats.\pCela permet de couper\nles petits arbres gênants.\pPrends aussi ma CT préférée!$"
-
-CeruleanCity_Gym_Text_ReceivedTM03FromMisty::
-    .string "Ondine remet\nla CT03 à {PLAYER}.$"
-
-CeruleanCity_Gym_Text_BetterMakeRoomForThis::
-    .string "Il faut faire de la place!$"
-
-CeruleanCity_Gym_Text_MistyDefeat::
-    .string "Ouah! Tu es très fort!\pTrès bien!\pLe Badge Cascade est à toi.\nIl prouve ta victoire!$"
-
-CeruleanCity_Gym_Text_DianaIntro::
-    .string "Quoi? Toi?\nJe suis largement à ta hauteur!\pInutile de déranger Ondine.$"
-
-CeruleanCity_Gym_Text_DianaDefeat::
-    .string "Tu m'as submergée!$"
-
-CeruleanCity_Gym_Text_DianaPostBattle::
-    .string "Il faut affronter d'autres Dresseurs\npour connaître son vrai niveau.$"
-
-CeruleanCity_Gym_Text_LuisIntro::
-    .string "Plouf!\pJe passe en premier!\nC'est parti!$"
-
-CeruleanCity_Gym_Text_LuisDefeat::
-    .string "Ce n'est pas possible!$"
-
-CeruleanCity_Gym_Text_LuisPostBattle::
-    .string "Ondine ne cesse de progresser.\pElle ne se laissera pas\nbattre si facilement!$"
-
-CeruleanCity_Gym_Text_GymGuyAdvice::
-    .string "Salut, futur Maître!\pUn petit conseil?\pOndine aime les attaques Eau,\nmais ne juge pas toute son équipe\là l'apparence de cette Arène.\pRegarde les types réels\nde ses Yo-kai et varie tes attaques!$"
-
-CeruleanCity_Gym_Text_WeMakePrettyGoodTeam::
-    .string "Tu as battu Ondine!\nJe te l'avais bien dit!\pToi et moi,\non fait une sacrée équipe!$"
-
-CeruleanCity_Gym_Text_GymStatue::
-    .string "ARÈNE DE CERULEAN CITY\nCHAMPIONNE: ONDINE\pDRESSEURS VICTORIEUX:\n{RIVAL}$"
-
-CeruleanCity_Gym_Text_GymStatuePlayerWon::
-    .string "ARÈNE DE CERULEAN CITY\nCHAMPIONNE: ONDINE\pDRESSEURS VICTORIEUX:\n{RIVAL}, {PLAYER}$"
-
+	.string "La CT03 enseigne Vibraqua.\nMême une équipe de Feu doit\lsavoir varier ses attaques!\pCe trophée permet aussi\nd'utiliser Coupe sur les arbres,\lsi un de tes Yo-kai l'a apprise.$"
+CeruleanCity_Gym_Text_AfterVictory::
+	.string "Continue ta course aux trophées!\nJibanyan et moi, on s'entraîne.\pAprès le Temple Céleste,\non pourra faire une revanche!$"
+CeruleanCity_Gym_Text_NeedsFirst::
+	.string "Commence par l'épreuve de Wyatt\nà Argenta et son premier trophée.\pReviens ensuite!\nOn t'attendra avec nos Yo-kai.$"
+CeruleanCity_Gym_Text_NeedsHearths::
+	.string "Les trois foyers symboliques\ndoivent briller avant le combat.\pLe guide connaît leur ordre.\nTu peux recommencer sans risque.$"
+CeruleanCity_Gym_Text_Feulion::
+	.string "Le foyer de Feulion s'allume.\nSa chaleur lance l'épreuve!$"
+CeruleanCity_Gym_Text_Whisper::
+	.string "Le foyer de Whisper s'allume.\nUn ami veille sur la flamme.$"
+CeruleanCity_Gym_Text_Jibanyan::
+	.string "Le foyer de Jibanyan s'allume!\nLa chaleur se partage enfin.\pLes trois foyers brillent.\nTu peux rejoindre le Champion!$"
+CeruleanCity_Gym_Text_WrongOrder::
+	.string "Les foyers s'éteignent.\nCe n'était pas le bon ordre.\pD'abord Feulion, puis Whisper,\net Jibanyan pour finir!$"
+CeruleanCity_Gym_Text_AlreadyLit::
+	.string "Ce foyer brille déjà.\nLa flamme attend la suite!$"
+CeruleanCity_Gym_Text_NoRoom::
+	.string "Ton Sac est plein.\nFais de la place, puis reviens.\pTon cadeau t'attendra ici!$"
+CeruleanCity_Gym_Text_Luis::
+	.string "Le foyer de Feulion est à gauche.\nC'est lui qui ouvre la marche!$"
+CeruleanCity_Gym_Text_Diana::
+	.string "À droite, Whisper veille.\nAu centre, Jibanyan conclut!\pSi tu te trompes, les foyers\ns'éteignent. Tu peux réessayer.$"
+CeruleanCity_Gym_Text_GymGuy::
+	.string "Bienvenue dans l'Arène d'Azuria!\nIci, on entretient le feu des amis.\pAllume les pupitres dans l'ordre:\nFeulion à gauche, Whisper à droite,\lpuis Jibanyan au centre.\pWhisper est de type Spectre.\nLe Feu n'est pas leur seul atout!$"
+CeruleanCity_Gym_Text_Statue::
+	.string "ARÈNE D'AZURIA\nÉpreuve du deuxième trophée\pTrois foyers, trois partenaires,\net l'amitié pour les réunir.$"
+CeruleanCity_Gym_Text_RematchOffer::
+	.string "Tu as franchi le Temple Céleste!\nNos Yo-kai ont bien grandi aussi.\pUne revanche amicale\navec notre équipe complète?$"
+CeruleanCity_Gym_Text_RematchDecline::
+	.string "Pas de souci!\nRepasse quand tu veux.$"
+CeruleanCity_Gym_Text_RematchAfter::
+	.string "Merci pour cette revanche!\nOn continuera à progresser.$"
+CeruleanCity_Gym_Text_LeafStone::
+	.string "Prends cette Pierre Plante.\nJibanyan peut évoluer avec elle!$"

@@ -345,4 +345,7 @@
 #define NPC_TEXT_COLOR_NEUTRAL   3 // Black, for inanimate objects and messages from the game
 #define NPC_TEXT_COLOR_DEFAULT 255 // If an NPC is selected, use the color specified by GetColorFromTextColorTable, otherwise use Neutral.
 
+// Persistent symbolic-hearth sequence: 0 -> Feulion -> Whisper -> Jibanyan.
+#define VAR_SCENARIO_AZURIA_HEARTHS VAR_0x40F4
+
 #endif // GUARD_CONSTANTS_VARS_H
