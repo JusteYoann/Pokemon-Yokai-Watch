@@ -1,0 +1,71 @@
+{
+  "status": "gym_native_tests_passed_team_profile_provisional",
+  "source": "Current pack: Ariane third Steel trophy; four-species proposal from historical 04_CHAMPIONS_ET_EQUIPES.csv, relocated from superseded fourth-trophy slot.",
+  "team_status": "Provisional implementation: species proposal; levels18/19/21/23, IV0, no items, validated learned moves. Not definitive creative approval or all-starter balance.",
+  "active_trainer": {
+    "mode": "scenario_carmin",
+    "source_party": "sScenarioParty_CarminThirdTrophy",
+    "items": [],
+    "party": [
+      {
+        "species": "SPECIES_DROWZEE",
+        "level": 18,
+        "iv": 0,
+        "moves": [
+          "MOVE_METAL_CLAW",
+          "MOVE_TAKE_DOWN",
+          "MOVE_HARDEN",
+          "MOVE_FOCUS_ENERGY"
+        ],
+        "ability": "ABILITY_STURDY",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_PIDGEOTTO",
+        "level": 19,
+        "iv": 0,
+        "moves": [
+          "MOVE_METAL_CLAW",
+          "MOVE_SWIFT",
+          "MOVE_HARDEN",
+          "MOVE_FOCUS_ENERGY"
+        ],
+        "ability": "ABILITY_BATTLE_ARMOR",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_DUGTRIO",
+        "level": 21,
+        "iv": 0,
+        "moves": [
+          "MOVE_PSYBEAM",
+          "MOVE_CONFUSION",
+          "MOVE_DISABLE",
+          "MOVE_POUND"
+        ],
+        "ability": "ABILITY_SYNCHRONIZE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_VOLTORB",
+        "level": 23,
+        "iv": 0,
+        "moves": [
+          "MOVE_METAL_CLAW",
+          "MOVE_SHOCK_WAVE",
+          "MOVE_SWIFT",
+          "MOVE_QUICK_ATTACK"
+        ],
+        "ability": "ABILITY_KEEN_EYE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  },
+  "trainer": "TRAINER_LEADER_LT_SURGE",
+  "retained": "Original locked boss specification/arrays and both Ariane cameo arrays. Native switches, trophy/CT34, old Moon Stone and postgame team.",
+  "companion": "Usapyon100 visible; existing graphics retained"
+}

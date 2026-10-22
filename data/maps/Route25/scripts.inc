@@ -1,5 +1,11 @@
 Route25_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Route25_OnTransitionAriane
 	.byte 0
+
+Route25_OnTransitionAriane::
+	setflag FLAG_SCENARIO_HIDE_ROUTE25_ARIANE
+	setflag FLAG_SCENARIO_ROUTE25_ARIANE_CURRENT
+	end
 
 Route25_EventScript_SeaCottageSign::
 	msgbox Route25_Text_SeaCottageSign, MSGBOX_SIGN

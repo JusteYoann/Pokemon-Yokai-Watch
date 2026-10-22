@@ -7,10 +7,7 @@ CeladonCity_Condominiums_3F_Text_ImTheGraphicArtist::
     .string "I drew you!$"
 
 CeladonCity_Condominiums_3F_Text_IWroteTheStory::
-    .string "I wrote the story!\n"
-    .string "Isn't ERIKA cute?\p"
-    .string "I like MISTY a lot, too!\n"
-    .string "Oh, and SABRINA, I like her!$"
+    .string "J'écris l'histoire!\pJ'aime les combats amicaux\nde l'Arène d'Azuria.\pJibanyan et Whisper\nforment une sacrée équipe!$"
 
 CeladonCity_Condominiums_3F_Text_ImGameDesignerShowMeFinishedPokedex::
     .string "Is that right?\p"

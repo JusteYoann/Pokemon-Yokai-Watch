@@ -114,7 +114,4 @@ Route20_Text_SeafoamIslands::
     .string "SEAFOAM ISLANDS$"
 
 Route20_Text_MistyTrainsHere::
-    .string "Strong TRAINERS and WATER Yo-kai\n"
-    .string "are common sights in these parts.\p"
-    .string "They say that MISTY of the\n"
-    .string "CERULEAN GYM trains here.$"
+    .string "On croise de bons Dresseurs\net des Yo-kai Eau dans le coin.\pMais l'épreuve d'Azuria\nse déroule autour de trois foyers!$"

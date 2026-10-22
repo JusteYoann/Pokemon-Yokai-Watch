@@ -13379,66 +13379,67 @@
     ]
   },
   "TRAINER_LEADER_LT_SURGE": {
-    "mode": "locked_boss",
+    "mode": "scenario_carmin",
+    "source_party": "sScenarioParty_CarminThirdTrophy",
+    "items": [],
     "party": [
       {
-        "species": "SPECIES_GEODUDE",
+        "species": "SPECIES_DROWZEE",
         "level": 18,
+        "iv": 0,
         "moves": [
-          "MOVE_THUNDER_SHOCK",
-          "MOVE_TACKLE",
-          "MOVE_THUNDER_WAVE",
-          "MOVE_GROWL"
+          "MOVE_METAL_CLAW",
+          "MOVE_TAKE_DOWN",
+          "MOVE_HARDEN",
+          "MOVE_FOCUS_ENERGY"
         ],
-        "ability": "ABILITY_STATIC",
+        "ability": "ABILITY_STURDY",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_PIDGEOTTO",
+        "level": 19,
+        "iv": 0,
+        "moves": [
+          "MOVE_METAL_CLAW",
+          "MOVE_SWIFT",
+          "MOVE_HARDEN",
+          "MOVE_FOCUS_ENERGY"
+        ],
+        "ability": "ABILITY_BATTLE_ARMOR",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_DUGTRIO",
+        "level": 21,
+        "iv": 0,
+        "moves": [
+          "MOVE_PSYBEAM",
+          "MOVE_CONFUSION",
+          "MOVE_DISABLE",
+          "MOVE_POUND"
+        ],
+        "ability": "ABILITY_SYNCHRONIZE",
         "ability_num": 0,
         "held_item": "ITEM_NONE"
       },
       {
         "species": "SPECIES_VOLTORB",
-        "level": 19,
+        "level": 23,
+        "iv": 0,
         "moves": [
           "MOVE_METAL_CLAW",
-          "MOVE_TACKLE",
-          "MOVE_HARDEN",
-          "MOVE_LEER"
+          "MOVE_SHOCK_WAVE",
+          "MOVE_SWIFT",
+          "MOVE_QUICK_ATTACK"
         ],
         "ability": "ABILITY_KEEN_EYE",
         "ability_num": 0,
         "held_item": "ITEM_NONE"
-      },
-      {
-        "species": "SPECIES_TENTACRUEL",
-        "level": 21,
-        "moves": [
-          "MOVE_PECK",
-          "MOVE_QUICK_ATTACK",
-          "MOVE_LEER",
-          "MOVE_TACKLE"
-        ],
-        "ability": "ABILITY_EARLY_BIRD",
-        "ability_num": 1,
-        "held_item": "ITEM_NONE"
-      },
-      {
-        "species": "SPECIES_GRAVELER",
-        "level": 23,
-        "moves": [
-          "MOVE_SHOCK_WAVE",
-          "MOVE_PECK",
-          "MOVE_TACKLE",
-          "MOVE_LEER"
-        ],
-        "ability": "ABILITY_LIGHTNING_ROD",
-        "ability_num": 0,
-        "held_item": "ITEM_NONE"
       }
-    ],
-    "items": [
-      "ITEM_SUPER_POTION",
-      "ITEM_FULL_HEAL"
-    ],
-    "source_party": "sParty_LeaderLtSurge"
+    ]
   },
   "TRAINER_LEADER_ERIKA": {
     "mode": "locked_boss",

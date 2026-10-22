@@ -1737,6 +1737,20 @@ void CB2_ContinueSavedGame(void)
         WarpIntoMap();
         SetMainCallback2(CB2_LoadMap);
     }
+    else if ((gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_VERMILION_CITY_GYM)
+           && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_VERMILION_CITY_GYM)
+           && !FlagGet(FLAG_SCENARIO_CARMIN_GYM_CURRENT))
+          || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROUTE25)
+           && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE25)
+           && !FlagGet(FLAG_SCENARIO_ROUTE25_ARIANE_CURRENT)))
+    {
+        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_VERMILION_CITY_GYM))
+            SetWarpDestination(MAP_GROUP(MAP_VERMILION_CITY_GYM), MAP_NUM(MAP_VERMILION_CITY_GYM), WARP_ID_NONE, 5, 17);
+        else
+            SetWarpDestination(MAP_GROUP(MAP_ROUTE25), MAP_NUM(MAP_ROUTE25), WARP_ID_NONE, gSaveBlock1Ptr->pos.x, gSaveBlock1Ptr->pos.y);
+        WarpIntoMap();
+        SetMainCallback2(CB2_LoadMap);
+    }
     else
     {
         gFieldCallback = FieldCB_ShowMapNameOnContinue;

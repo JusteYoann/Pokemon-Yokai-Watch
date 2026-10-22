@@ -125,3 +125,7 @@ print(len(allteams),'active trainer parties reconstructed, including 17 locked b
 if (D/'scenario_azuria.json').exists():
  from appliquer_equipe_azuria import apply_profile
  apply_profile()
+
+if (D/'scenario_carmin.json').exists():
+ from appliquer_equipe_carmin import apply_profile as apply_carmin
+ apply_carmin()

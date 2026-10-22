@@ -13947,3 +13947,10 @@ static const struct TrainerMonItemCustomMoves sScenarioParty_AzuriaSecondTrophy[
     {.iv = 0, .lvl = 16, .species = SPECIES_WARTORTLE, .heldItem = ITEM_NONE, .moves = {MOVE_LICK, MOVE_ASTONISH, MOVE_GROWL, MOVE_NONE}},
     {.iv = 0, .lvl = 18, .species = SPECIES_BULBASAUR, .heldItem = ITEM_NONE, .moves = {MOVE_EMBER, MOVE_SCRATCH, MOVE_GROWL, MOVE_NONE}},
 };
+
+static const struct TrainerMonItemCustomMoves sScenarioParty_CarminThirdTrophy[] = {
+    {.iv = 0, .lvl = 18, .species = SPECIES_DROWZEE, .heldItem = ITEM_NONE, .moves = {MOVE_METAL_CLAW, MOVE_TAKE_DOWN, MOVE_HARDEN, MOVE_FOCUS_ENERGY}},
+    {.iv = 0, .lvl = 19, .species = SPECIES_PIDGEOTTO, .heldItem = ITEM_NONE, .moves = {MOVE_METAL_CLAW, MOVE_SWIFT, MOVE_HARDEN, MOVE_FOCUS_ENERGY}},
+    {.iv = 0, .lvl = 21, .species = SPECIES_DUGTRIO, .heldItem = ITEM_NONE, .moves = {MOVE_PSYBEAM, MOVE_CONFUSION, MOVE_DISABLE, MOVE_POUND}},
+    {.iv = 0, .lvl = 23, .species = SPECIES_VOLTORB, .heldItem = ITEM_NONE, .moves = {MOVE_METAL_CLAW, MOVE_SHOCK_WAVE, MOVE_SWIFT, MOVE_QUICK_ATTACK}},
+};

@@ -9,6 +9,7 @@ VermilionCity_Gym_MapScripts::
 	.byte 0
 
 VermilionCity_Gym_OnLoad::
+	call_if_set FLAG_BADGE03_GET, VermilionCity_Gym_EventScript_SetBeamsOff
 	call_if_set FOUND_FIRST_SWITCH, VermilionCity_Gym_EventScript_SetOneBeamOff
 	call_if_set FLAG_FOUND_BOTH_VERMILION_GYM_SWITCHES, VermilionCity_Gym_EventScript_SetBeamsOff
 	end
@@ -40,6 +41,7 @@ VermilionCity_Gym_EventScript_SetBeamsOff::
 	return
 
 VermilionCity_Gym_OnTransition::
+	setflag FLAG_SCENARIO_CARMIN_GYM_CURRENT
 	call VermilionCity_Gym_EventScript_InitTrashCans
 	end
 
@@ -204,10 +206,53 @@ VermilionCity_Gym_EventScript_SetBeamsOn::
 	return
 
 VermilionCity_Gym_EventScript_LtSurge::
+	lock
+	faceplayer
 	famechecker FAMECHECKER_LTSURGE, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
+	goto_if_set FLAG_BADGE03_GET, VermilionCity_Gym_ArianeAfterVictory
+	goto_if_unset FLAG_BADGE02_GET, VermilionCity_Gym_ArianeNeedsSecond
+	playbgm MUS_YOKAI_ARIANE, 0
 	trainerbattle_single TRAINER_LEADER_LT_SURGE, VermilionCity_Gym_Text_LtSurgeIntro, VermilionCity_Gym_Text_LtSurgeDefeat, VermilionCity_Gym_EventScript_DefeatedLtSurge, NO_MUSIC
+	goto VermilionCity_Gym_ArianeAfterVictory
+	end
+VermilionCity_Gym_ArianeNeedsSecond::
+	msgbox VermilionCity_Gym_Text_NeedsSecond
+	release
+	end
+VermilionCity_Gym_ArianeAfterVictory::
 	goto_if_unset FLAG_GOT_TM34_FROM_SURGE, VermilionCity_Gym_EventScript_GiveTM34
+	goto_if_unset FLAG_YOKAI_ARIANE_REWARD, VermilionCity_Gym_ArianeReward
+	goto_if_set FLAG_SYS_GAME_CLEAR, VermilionCity_Gym_ArianeRematch
 	msgbox VermilionCity_Gym_Text_LtSurgePostBattle
+	fadedefaultbgm
+	release
+	end
+VermilionCity_Gym_ArianeRematch::
+	msgbox VermilionCity_Gym_Text_Rematch, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, VermilionCity_Gym_ArianeDecline
+	closemessage
+	cleartrainerflag TRAINER_YOKAI_ARIANE_POST
+	trainerbattle_no_intro TRAINER_YOKAI_ARIANE_POST, Route25_Text_ArianeDefeat
+	setflag FLAG_YOKAI_ARIANE_POST_WON
+	setflag FLAG_YOKAI_ARIANE_WON
+	goto_if_unset FLAG_YOKAI_ARIANE_REWARD, VermilionCity_Gym_ArianeReward
+	msgbox VermilionCity_Gym_Text_RematchAfter
+	fadedefaultbgm
+	release
+	end
+VermilionCity_Gym_ArianeDecline::
+	msgbox Route25_Text_ArianeDecline
+	fadedefaultbgm
+	release
+	end
+VermilionCity_Gym_ArianeReward::
+	checkitemspace ITEM_MOON_STONE
+	goto_if_eq VAR_RESULT, FALSE, VermilionCity_Gym_EventScript_NoRoomForTM34
+	giveitem ITEM_MOON_STONE
+	goto_if_eq VAR_0x8007, FALSE, VermilionCity_Gym_EventScript_NoRoomForTM34
+	setflag FLAG_YOKAI_ARIANE_REWARD
+	msgbox Route25_Text_ArianeReward
+	fadedefaultbgm
 	release
 	end
 
@@ -217,6 +262,7 @@ VermilionCity_Gym_EventScript_DefeatedLtSurge::
 	clearflag FLAG_HIDE_FAME_CHECKER_LT_SURGE_JOURNAL
 	setflag FLAG_DEFEATED_LT_SURGE
 	setflag FLAG_BADGE03_GET
+	setflag FLAG_YOKAI_ARIANE_WON
 	set_gym_trainers 3
 	goto VermilionCity_Gym_EventScript_GiveTM34
 	end
@@ -232,7 +278,7 @@ VermilionCity_Gym_EventScript_GiveTM34::
 	giveitem_msg VermilionCity_Gym_Text_ReceivedTM34FromLtSurge, ITEM_TM34
 	setflag FLAG_GOT_TM34_FROM_SURGE
 	msgbox VermilionCity_Gym_Text_ExplainTM34
-	release
+	goto VermilionCity_Gym_ArianeAfterVictory
 	end
 
 VermilionCity_Gym_EventScript_NoRoomForTM34::

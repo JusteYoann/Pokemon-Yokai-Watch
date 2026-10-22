@@ -25,6 +25,9 @@ try:
         if trainer=='TRAINER_LEADER_MISTY' and (ROOT/'data/yokai/scenario_azuria.json').exists():
             profile=json.loads((ROOT/'data/yokai/scenario_azuria.json').read_text())['active_trainer']
             assert teams[trainer]==profile and teams['TRAINER_BUG_MANIAC']==profile
+        elif trainer=='TRAINER_LEADER_LT_SURGE' and (ROOT/'data/yokai/scenario_carmin.json').exists():
+            profile=json.loads((ROOT/'data/yokai/scenario_carmin.json').read_text())['active_trainer']
+            assert teams[trainer]==profile
         else:
             actual=teams[trainer]
             assert actual['items']==old['items'],trainer

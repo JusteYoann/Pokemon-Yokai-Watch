@@ -109,40 +109,23 @@ gFameCheckerFlavorText_Misty4::
 gFameCheckerFlavorText_Misty5::
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur?\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Après le Temple Céleste,\nune revanche amicale t'attend.$"
 
-gFameCheckerFlavorText_LtSurge0:: @ 0x81ADD3C
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}VERMILION CITY Yo-kai GYM\n"
-	.string "LEADER: LT. SURGE\l"
-	.string "The Lightning American!$"
+gFameCheckerFlavorText_LtSurge0::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Son rôle?\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ariane dirige l'Arène\nde Carmin-sur-Mer.\pElle remet le troisième trophée.$"
 
-gFameCheckerFlavorText_LtSurge1:: @ 0x81ADDA7
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of Yo-kai?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I tell you, kid, electric Yo-kai\n"
-	.string "saved me during the war!$"
+gFameCheckerFlavorText_LtSurge1::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Son partenaire?\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Usapyon l'accompagne\ndans ses recherches et ses combats.$"
 
-gFameCheckerFlavorText_LtSurge2:: @ 0x81ADE0B
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}When I was in the Army, LT. SURGE\n"
-	.string "was my strict CO.\p"
-	.string "He was a hard taskmaster.$"
+gFameCheckerFlavorText_LtSurge2::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Son caractère?\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ariane aime les recherches.\nElle prépare ses expériences.$"
 
-gFameCheckerFlavorText_LtSurge3:: @ 0x81ADE82
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}LT. SURGE was always famous for\n"
-	.string "his cautious nature in the Army.$"
+gFameCheckerFlavorText_LtSurge3::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Son épreuve?\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Elle utilise deux verrous\npour protéger l'accès à son équipe.$"
 
-gFameCheckerFlavorText_LtSurge4:: @ 0x81ADEEC
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}LT. SURGE installed the traps in\n"
-	.string "the GYM himself.\p"
-	.string "He set up double locks everywhere.$"
+gFameCheckerFlavorText_LtSurge4::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Un conseil?\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Après le premier interrupteur,\nle second se trouve juste à côté.$"
 
-gFameCheckerFlavorText_LtSurge5:: @ 0x81ADF6A
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}LT. SURGE is rumored to have been\n"
-	.string "a pilot while home in America.\p"
-	.string "He used the electricity generated\n"
-	.string "by Yo-kai to power his plane.$"
+gFameCheckerFlavorText_LtSurge5::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur?\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ariane et Usapyon continuent\nleurs recherches après les combats.$"
 
 gFameCheckerFlavorText_Erika0:: @ 0x81AE009
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
@@ -606,18 +589,11 @@ gFameCheckerPersonName_Misty::
 gFameCheckerPersonQuote_Misty::
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: l'Arène d'Azuria\nPour: {PLAYER}\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Continuons à nous entraîner!\nNos Yo-kai ont encore à apprendre.$"
 
-gFameCheckerPersonName_LtSurge:: @ 0x81B0446
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}LT. SURGE$"
+gFameCheckerPersonName_LtSurge::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Ariane$"
 
-gFameCheckerPersonQuote_LtSurge:: @ 0x81B0456
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: LT. SURGE\n"
-	.string "To: {PLAYER}\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Hey, kid!\n"
-	.string "You electrified me in our battle!\p"
-	.string "I didn't know that there were\n"
-	.string "gutsy TRAINERS like you.\p"
-	.string "It made me change my mind about\n"
-	.string "you!$"
+gFameCheckerPersonQuote_LtSurge::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Ariane\nPour: {PLAYER}\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Les Yo-kai nous réservent encore\nbien des découvertes!$"
 
 gFameCheckerPersonName_Erika:: @ 0x81B0504
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}ERIKA$"
@@ -1109,7 +1085,7 @@ gFameCheckerFlavorTextOriginObjectName_LtSurge0::
 	.string "SIGN$"
 
 gFameCheckerFlavorTextOriginObjectName_LtSurge1::
-	.string "LT. SURGE$"
+	.string "Ariane$"
 
 gFameCheckerFlavorTextOriginObjectName_LtSurge2::
 	.string "TUCKER$"
@@ -1328,13 +1304,7 @@ PokemonJournal_Text_SpecialFeatureMisty::
 	.string "JOURNAL DES YO-KAI\pÀ la une: l'Arène d'Azuria!\pFeulion, Whisper et Jibanyan\nfont équipe pour le deuxième\ltrophée. Un combat amical\lvous y attend!$"
 
 PokemonJournal_Text_SpecialFeatureLtSurge::
-	.string "Yo-kai JOURNAL\p"
-	.string "Special Feature: VERMILION GYM\n"
-	.string "LEADER LT. SURGE!\p"
-	.string "LT. SURGE is rumored to have been\n"
-	.string "a pilot while home in America.\p"
-	.string "He used the electricity generated\n"
-	.string "by Yo-kai to power his plane.$"
+	.string "JOURNAL DES YO-KAI\pÀ la une: Ariane,\nChampionne de Carmin-sur-Mer!\pSon partenaire Usapyon\nl'accompagne dans ses recherches.$"
 
 PokemonJournal_Text_SpecialFeatureErika::
 	.string "Yo-kai JOURNAL\p"

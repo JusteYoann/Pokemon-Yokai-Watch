@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "scope": "Carmin/Ariane native chapter, switches, gifts, rematch and engineered legacy saves.\n\nNew games plus explicit warps, badge/trainer flags and parties. Chapter victories\nuse ordinary generated stats/learned moves; the postgame fixture is boosted.\nNot a continuous adventure or global balance test.\n",
+  "rom_sha256": "ca833b1baa0de151421cc6129105db17d42eccfd3fa0f56cbad5683b95dc410b",
+  "results": [
+    {
+      "test": "nathan door, second-trophy guard, actual wrong/correct native switches, ordinary-party victory, third trophy, unique CT34/Moon Stone with saturated-stack retry, Continue, exit and exploration BGM return",
+      "passed": true,
+      "battle_frames": 12952,
+      "dedicated_battle_theme": true
+    },
+    {
+      "test": "katie door, second-trophy guard, actual wrong/correct native switches, ordinary-party victory, third trophy, unique CT34/Moon Stone with saturated-stack retry, Continue, exit and exploration BGM return",
+      "passed": true,
+      "battle_frames": 13800,
+      "dedicated_battle_theme": true
+    },
+    {
+      "test": "Actual defeat awards no trophy/TM/gift; retry available",
+      "passed": true,
+      "battle_frames": 2712
+    },
+    {
+      "test": "Engineered legacy Surge/Route25 saves: first Continue refreshes safe gym entry/hidden relocated actors, preserves badge and pending gifts; later Continue preserves position",
+      "passed": true
+    },
+    {
+      "test": "Optional postgame rematch: No declines; original five-member team, dedicated theme, no duplicate earned Moon Stone and Flash persistence",
+      "passed": true,
+      "battle_frames": 12408,
+      "fixture": "Hovernyan100 with stats999: event flow only"
+    }
+  ]
+}

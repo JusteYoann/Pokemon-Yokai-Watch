@@ -216,7 +216,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route25_EventScript_Ariane",
-      "flag": "0"
+      "flag": "FLAG_SCENARIO_HIDE_ROUTE25_ARIANE"
     },
     {
       "local_id": "LOCALID_USAPION_CAMEO",
@@ -231,7 +231,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route25_EventScript_UsapionCameo",
-      "flag": "0"
+      "flag": "FLAG_SCENARIO_HIDE_ROUTE25_ARIANE"
     }
   ],
   "warp_events": [
