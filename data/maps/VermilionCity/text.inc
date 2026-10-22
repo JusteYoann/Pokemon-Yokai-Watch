@@ -29,7 +29,7 @@ VermilionCity_Text_PokemonFanClubSign::
     .string "FAN CLUB DES YO-KAI\nTous les passionnés sont les\lbienvenus!$"
 
 VermilionCity_Text_GymSign::
-    .string "ARÈNE DE VERMILION CITY\nCHAMPION: MAJOR BOB\lL'Américain survolté!$"
+    .string "ARÈNE DE CARMIN-SUR-MER\nCHAMPIONNE: BÉRÉNICE\lLaboratoire des Portes Mystères!$"
 
 VermilionCity_Text_VermilionHarbor::
     .string "VERMILION HARBOR$"

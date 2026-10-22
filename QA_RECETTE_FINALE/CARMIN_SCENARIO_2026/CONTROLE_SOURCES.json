@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "scope": "Independent collision graph and source contracts; not a substitute for native runtime checks",
+  "checks": [
+    "Hub doors and exit reachable before gate, boss only afterwards and return route exists",
+    "All three distinct dimension objectives and return terminals reachable",
+    "Vigil objective requires actual pad pair between disconnected chambers",
+    "No escape/cycling or exterior map types in dimensions",
+    "Every previous map/layout ID retained; new IDs appended",
+    "Historical Surge boss party source retained"
+  ],
+  "legacy_reference": "65b62bd88"
+}

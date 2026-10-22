@@ -1732,7 +1732,10 @@ void CB2_ContinueSavedGame(void)
            && !FlagGet(FLAG_SCENARIO_AZURIA_GYM_CURRENT))
           || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_CELADON_CITY)
            && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_CELADON_CITY)
-           && !FlagGet(FLAG_SCENARIO_CELADON_FRIEND_CURRENT)))
+           && !FlagGet(FLAG_SCENARIO_CELADON_FRIEND_CURRENT))
+          || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_VERMILION_CITY_GYM)
+           && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_VERMILION_CITY_GYM)
+           && !FlagGet(FLAG_SCENARIO_CARMIN_GYM_CURRENT)))
     {
         // Pre-chapter saves retain old tiles and object templates. Re-enter once
         // through the normal loader, at a safe position, to rebuild both.
@@ -1740,6 +1743,8 @@ void CB2_ContinueSavedGame(void)
             SetWarpDestination(MAP_GROUP(MAP_PEWTER_CITY_GYM), MAP_NUM(MAP_PEWTER_CITY_GYM), WARP_ID_NONE, 6, 13);
         else if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_CERULEAN_CITY_GYM))
             SetWarpDestination(MAP_GROUP(MAP_CERULEAN_CITY_GYM), MAP_NUM(MAP_CERULEAN_CITY_GYM), WARP_ID_NONE, 8, 17);
+        else if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_VERMILION_CITY_GYM))
+            SetWarpDestination(MAP_GROUP(MAP_VERMILION_CITY_GYM), MAP_NUM(MAP_VERMILION_CITY_GYM), WARP_ID_NONE, 5, 18);
         else if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_CELADON_CITY))
             SetWarpDestination(MAP_GROUP(MAP_CELADON_CITY), MAP_NUM(MAP_CELADON_CITY), WARP_ID_NONE, gSaveBlock1Ptr->pos.x, gSaveBlock1Ptr->pos.y);
         else

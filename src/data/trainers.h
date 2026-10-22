@@ -4132,13 +4132,12 @@ const struct Trainer gTrainers[] = {
     },
     [TRAINER_LEADER_LT_SURGE] = {
         .trainerClass = TRAINER_CLASS_LEADER,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_LT_SURGE,
-        .trainerName = _("MAJOR BOB"),
-        .items = {ITEM_SUPER_POTION, ITEM_FULL_HEAL},
-        .doubleBattle = FALSE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
+        .trainerPic = TRAINER_PIC_SCENARIO_BERENICE,
+        .trainerName = _("Bérénice"),
+        .items = {}, .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sYokaiParty_LEADER_LT_SURGE),
+        .party = ITEM_CUSTOM_MOVES(sScenarioParty_BereniceThirdTrophy),
     },
     [TRAINER_LEADER_ERIKA] = {
         .trainerClass = TRAINER_CLASS_LEADER,

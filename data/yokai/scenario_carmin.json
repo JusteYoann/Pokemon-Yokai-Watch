@@ -1,0 +1,97 @@
+{
+  "status": "implemented_native_tests_pending",
+  "calibration_flags": [
+    "FLAG_SCENARIO_DOOR_DREAM_DONE",
+    "FLAG_SCENARIO_DOOR_MEMORY_DONE",
+    "FLAG_SCENARIO_DOOR_VIGIL_DONE"
+  ],
+  "trainer_slot": 416,
+  "old_party_preserved": "sYokaiParty_LEADER_LT_SURGE",
+  "active_trainer": {
+    "mode": "scenario_carmin",
+    "source_party": "sScenarioParty_BereniceThirdTrophy",
+    "items": [],
+    "party": [
+      {
+        "species": "SPECIES_VENOMOTH",
+        "level": 22,
+        "iv": 0,
+        "moves": [
+          "MOVE_CONFUSION",
+          "MOVE_DISABLE",
+          "MOVE_TACKLE",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_SYNCHRONIZE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_MANKEY",
+        "level": 22,
+        "iv": 0,
+        "moves": [
+          "MOVE_CONFUSION",
+          "MOVE_LEER",
+          "MOVE_SCRATCH",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_SYNCHRONIZE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_VICTREEBEL",
+        "level": 24,
+        "iv": 0,
+        "moves": [
+          "MOVE_PSYBEAM",
+          "MOVE_GROWL",
+          "MOVE_TACKLE",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_SYNCHRONIZE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  },
+  "balance_status": "Levels22/22/24, IV0 and moves are provisional; species follow scenario proposal",
+  "species_name_note": "Insomnel in scenario is SPECIES_VICTREEBEL, actively displayed Insomnelle; no ID or global rename",
+  "art_status": "Berenice existing sprites reused. Mystery Door terminals use native Saffron motifs provisionally; exact eye/keyhole door art still required",
+  "dimensions": [
+    {
+      "name": "VermilionCity_MysteryDream",
+      "return_hub": [
+        2,
+        12
+      ],
+      "entry": [
+        7,
+        12
+      ]
+    },
+    {
+      "name": "VermilionCity_MysteryMemory",
+      "return_hub": [
+        5,
+        12
+      ],
+      "entry": [
+        7,
+        12
+      ]
+    },
+    {
+      "name": "VermilionCity_MysteryVigil",
+      "return_hub": [
+        8,
+        12
+      ],
+      "entry": [
+        3,
+        12
+      ]
+    }
+  ]
+}

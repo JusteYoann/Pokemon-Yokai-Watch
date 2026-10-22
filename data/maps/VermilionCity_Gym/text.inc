@@ -1,75 +1,33 @@
-VermilionCity_Gym_Text_LtSurgeIntro::
-    .string "Hé! Que viens-tu faire ici?\pTu ne tiendras pas longtemps\nau combat avec si peu de puissance!\pLes Yo-kai Électrik\nm'ont sauvé pendant la guerre!\pIls paralysaient mes ennemis\nà coups de décharges!\pJe vais te réserver\nle même sort!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
-
-VermilionCity_Gym_Text_LtSurgePostBattle::
-    .string "Un petit conseil!\pL'électricité est puissante,\nmais sans effet contre le type Sol!$"
-
-VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis::
-    .string "Le Badge Foudre augmente\nla Vitesse de tes Yo-kai!\pIl permet aussi d'utiliser Vol\nen dehors des combats!\pTu as du talent!\nPrends ceci!$"
-
-VermilionCity_Gym_Text_ReceivedTM34FromLtSurge::
-    .string "Le Major Bob remet\nla CT34 à {PLAYER}.$"
-
-VermilionCity_Gym_Text_ExplainTM34::
-    .string "La CT34 contient Onde de Choc!\pEnseigne-la à un Yo-kai compatible\nqui saura en profiter!$"
-
-VermilionCity_Gym_Text_MakeRoomInYourBag::
-    .string "Hé! Fais de la place dans ton Sac!$"
-
-VermilionCity_Gym_Text_LtSurgeDefeat::
-    .string "Quel choc!\pTu es vraiment à la hauteur!\pTrès bien, prends le Badge Foudre!$"
-
-VermilionCity_Gym_Text_TuckerIntro::
-    .string "À l'armée, le Major Bob\nétait mon commandant.\pIl était très exigeant.$"
-
-VermilionCity_Gym_Text_TuckerDefeat::
-    .string "Halte!\nTu es très fort!$"
-
-VermilionCity_Gym_Text_TuckerPostBattle::
-    .string "Pas facile d'ouvrir cette porte.\pÀ l'armée, le Major Bob\nétait connu pour sa prudence.$"
-
-VermilionCity_Gym_Text_BailyIntro::
-    .string "Je suis un poids plume,\nmais l'électricité, ça me connaît!\pC'est pour ça\nque j'ai rejoint cette Arène.$"
-
-VermilionCity_Gym_Text_BailyDefeat::
-    .string "Grillé!$"
-
-VermilionCity_Gym_Text_BailyPostBattle::
-    .string "D'accord, je parle!\pLe Major Bob a caché\nles interrupteurs dans des objets.$"
-
-VermilionCity_Gym_Text_DwayneIntro::
-    .string "Pas de place pour les enfants ici!\nMême s'ils se débrouillent bien!$"
-
-VermilionCity_Gym_Text_DwayneDefeat::
-    .string "Ouah!\nTu m'as surpris!$"
-
-VermilionCity_Gym_Text_DwaynePostBattle::
-    .string "Le Major Bob a installé lui-même\nles pièges de cette Arène.\pIl a prévu un double verrou.\nVoici un indice.\pUne fois le premier ouvert,\nle second se trouve juste à côté.$"
-
-VermilionCity_Gym_Text_GymGuyAdvice::
-    .string "Salut, futur Maître!\pOn surnomme le Major Bob\nl'Américain survolté!\pIl connaît bien l'électricité.\nMéfie-toi de la paralysie!\pLes capacités Électrik sont fortes\ncontre les types Eau et Vol.\pMais regarde bien les types réels\nde tous les Yo-kai de son équipe!\pLe Major Bob est prudent:\nil s'est enfermé derrière des pièges.\pLe rejoindre\nne sera pas facile!$"
-
-VermilionCity_Gym_Text_GymGuyPostVictory::
-    .string "Ouf!\nQuel combat électrisant!$"
-
-VermilionCity_Gym_Text_GymStatue::
-    .string "ARÈNE DE VERMILION CITY\nCHAMPION: MAJOR BOB\pDRESSEURS VICTORIEUX:\n{RIVAL}$"
-
-VermilionCity_Gym_Text_GymStatuePlayerWon::
-    .string "ARÈNE DE VERMILION CITY\nCHAMPION: MAJOR BOB\pDRESSEURS VICTORIEUX:\n{RIVAL}, {PLAYER}$"
-
-VermilionCity_Gym_Text_NopeOnlyTrashHere::
-    .string "Non!\nRien que des déchets.$"
-
-VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened::
-    .string "Tiens! Un interrupteur\nsous les déchets! On l'active!\pLe premier verrou\nélectrique s'ouvre!$"
-
-VermilionCity_Gym_Text_AnotherSwitchInTrash::
-    .string "Fouille, fouille…\nEncore un interrupteur\lau fond de cette poubelle!\pAppuyons… Clic!$"
-
-VermilionCity_Gym_Text_SecondLockOpened::
-    .string "Le second verrou s'ouvre!\nLa porte automatique est ouverte!$"
-
-VermilionCity_Gym_Text_OnlyTrashLocksWereReset::
-    .string "Non! Rien que des déchets.\pOh! Les verrous électriques\nse sont réinitialisés!$"
-
+@ Original wording based on the approved character intentions; open to review.
+VermilionCity_Gym_Text_Intro::
+	.string "BÉRÉNICE: Trois dimensions\ncalibrées! Excellent travail!\pLes Portes Mystères cachent\nbien plus que de simples salles.\pJe pourrais t'en parler\npendant des heures...\pMais tu es là pour un trophée!\nPassons aux expériences pratiques!\pBaku, Ed Mémoire, Insomnelle!\nObservons cette équipe de près!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+VermilionCity_Gym_Text_Defeat::
+	.string "Résultat passionnant!\nTu as gagné!$"
+VermilionCity_Gym_Text_ThirdTrophy::
+	.string "{PLAYER} reçoit\nle troisième trophée!\pBÉRÉNICE: Tu sais observer,\nexplorer et guider tes Yo-kai.\pCes qualités te mèneront loin!$"
+VermilionCity_Gym_Text_ReceivedTM::
+	.string "Bérénice remet\nla CT34 à {PLAYER}!$"
+VermilionCity_Gym_Text_ExplainTM::
+	.string "La CT34 enseigne Onde de Choc.\nUne attaque utile pour varier\lles méthodes d'une équipe!\pTon troisième trophée permet\naussi d'utiliser Vol, une fois\lqu'un Yo-kai aura appris la CS.$"
+VermilionCity_Gym_Text_AfterVictory::
+	.string "Les Portes Mystères sont stables.\nTu peux les explorer à nouveau.\pMoi, je vais analyser nos données!\nIl reste tant à découvrir!$"
+VermilionCity_Gym_Text_NeedsSecond::
+	.string "BÉRÉNICE: Avant mes expériences,\nobtiens le deuxième trophée\là l'Arène d'Azuria.\pNos Portes Mystères\nt'attendront ici!$"
+VermilionCity_Gym_Text_NeedsDoors::
+	.string "BÉRÉNICE: Explore les trois portes\net calibre chaque dimension.\pSonges, mémoire et veille:\ntrois expériences indépendantes!\pLes socles de retour restent\nutilisables à tout moment.$"
+VermilionCity_Gym_Text_DoorDream::
+	.string "PORTE DES SONGES\nUn sentier végétal sans horizon.\pTrouve le signal au bout\ndu chemin pour le calibrer.\pLe socle derrière ton arrivée\nte ramène au laboratoire.$"
+VermilionCity_Gym_Text_DoorMemory::
+	.string "PORTE DE LA MÉMOIRE\nTrois souvenirs, un seul est juste.\pLis l'indice gravé dans la grotte\net choisis la bonne stèle.\pLe socle de retour est au sud.$"
+VermilionCity_Gym_Text_DoorVigil::
+	.string "PORTE DE LA VEILLE\nDeux espaces qui se font face...\pLe sol ne les relie pas.\nObserve les dalles de transfert!\pUn socle de retour reste\naccessible de chaque côté.$"
+VermilionCity_Gym_Text_Guide::
+	.string "Bienvenue chez Bérénice!\nSa spécialité, c'est le type Psy.\pExamine les trois portails\nà gauche, au centre et à droite.\pTu peux choisir leur ordre,\nrevenir ou sauvegarder sur place.\pQuand les trois dimensions\nsont calibrées, va la défier!$"
+VermilionCity_Gym_Text_Assistant::
+	.string "Les expériences fatiguent!\nVeux-tu soigner tes Yo-kai\lavant de poursuivre?$"
+VermilionCity_Gym_Text_Healed::
+	.string "Tes Yo-kai sont en pleine forme.\nBonne exploration!$"
+VermilionCity_Gym_Text_NoRoom::
+	.string "Ton Sac est plein.\nFais de la place puis reviens.\pTa CT restera ici,\nsans recommencer le combat.$"
+VermilionCity_Gym_Text_Statue::
+	.string "ARÈNE DE CARMIN-SUR-MER\nBÉRÉNICE BÉLIER\pLes Portes Mystères\net le troisième trophée.$"

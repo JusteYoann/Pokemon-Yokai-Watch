@@ -275,7 +275,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_VermilionGym",
+      "secondary_tileset": "gTileset_SaffronGym",
       "border_filepath": "data/layouts/VermilionCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/VermilionCity_Gym/map.bin"
     },
@@ -4398,6 +4398,42 @@
       "secondary_tileset": "gTileset_MtEmber",
       "border_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa/border.bin",
       "blockdata_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERMILION_MYSTERY_SONGES",
+      "name": "VermilionCity_MysteryDream_Layout",
+      "width": 15,
+      "height": 15,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_ViridianForest",
+      "border_filepath": "data/layouts/VermilionCity_MysteryDream/border.bin",
+      "blockdata_filepath": "data/layouts/VermilionCity_MysteryDream/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERMILION_MYSTERY_MEMOIRE",
+      "name": "VermilionCity_MysteryMemory_Layout",
+      "width": 15,
+      "height": 15,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/VermilionCity_MysteryMemory/border.bin",
+      "blockdata_filepath": "data/layouts/VermilionCity_MysteryMemory/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERMILION_MYSTERY_VEILLE",
+      "name": "VermilionCity_MysteryVigil_Layout",
+      "width": 15,
+      "height": 15,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_SaffronGym",
+      "border_filepath": "data/layouts/VermilionCity_MysteryVigil/border.bin",
+      "blockdata_filepath": "data/layouts/VermilionCity_MysteryVigil/map.bin"
     }
   ]
 }

@@ -13953,3 +13953,9 @@ static const struct TrainerMonItemCustomMoves sScenarioParty_AzuriaSecondTrophy[
     {.iv = 0, .lvl = 16, .species = SPECIES_WARTORTLE, .heldItem = ITEM_NONE, .moves = {MOVE_LICK, MOVE_ASTONISH, MOVE_GROWL, MOVE_NONE}},
     {.iv = 0, .lvl = 18, .species = SPECIES_BULBASAUR, .heldItem = ITEM_NONE, .moves = {MOVE_EMBER, MOVE_SCRATCH, MOVE_GROWL, MOVE_NONE}},
 };
+
+static const struct TrainerMonItemCustomMoves sScenarioParty_BereniceThirdTrophy[] = {
+    {.iv = 0, .lvl = 22, .species = SPECIES_VENOMOTH, .heldItem = ITEM_NONE, .moves = {MOVE_CONFUSION, MOVE_DISABLE, MOVE_TACKLE, MOVE_NONE}},
+    {.iv = 0, .lvl = 22, .species = SPECIES_MANKEY, .heldItem = ITEM_NONE, .moves = {MOVE_CONFUSION, MOVE_LEER, MOVE_SCRATCH, MOVE_NONE}},
+    {.iv = 0, .lvl = 24, .species = SPECIES_VICTREEBEL, .heldItem = ITEM_NONE, .moves = {MOVE_PSYBEAM, MOVE_GROWL, MOVE_TACKLE, MOVE_NONE}},
+};

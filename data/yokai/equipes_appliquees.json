@@ -13368,66 +13368,53 @@
     ]
   },
   "TRAINER_LEADER_LT_SURGE": {
-    "mode": "locked_boss",
+    "mode": "scenario_carmin",
+    "source_party": "sScenarioParty_BereniceThirdTrophy",
+    "items": [],
     "party": [
       {
-        "species": "SPECIES_GEODUDE",
-        "level": 18,
+        "species": "SPECIES_VENOMOTH",
+        "level": 22,
+        "iv": 0,
         "moves": [
-          "MOVE_THUNDER_SHOCK",
+          "MOVE_CONFUSION",
+          "MOVE_DISABLE",
           "MOVE_TACKLE",
-          "MOVE_THUNDER_WAVE",
-          "MOVE_GROWL"
+          "MOVE_NONE"
         ],
-        "ability": "ABILITY_STATIC",
+        "ability": "ABILITY_SYNCHRONIZE",
         "ability_num": 0,
         "held_item": "ITEM_NONE"
       },
       {
-        "species": "SPECIES_VOLTORB",
-        "level": 19,
+        "species": "SPECIES_MANKEY",
+        "level": 22,
+        "iv": 0,
         "moves": [
-          "MOVE_METAL_CLAW",
-          "MOVE_TACKLE",
-          "MOVE_HARDEN",
-          "MOVE_LEER"
-        ],
-        "ability": "ABILITY_KEEN_EYE",
-        "ability_num": 0,
-        "held_item": "ITEM_NONE"
-      },
-      {
-        "species": "SPECIES_TENTACRUEL",
-        "level": 21,
-        "moves": [
-          "MOVE_PECK",
-          "MOVE_QUICK_ATTACK",
+          "MOVE_CONFUSION",
           "MOVE_LEER",
-          "MOVE_TACKLE"
+          "MOVE_SCRATCH",
+          "MOVE_NONE"
         ],
-        "ability": "ABILITY_EARLY_BIRD",
-        "ability_num": 1,
+        "ability": "ABILITY_SYNCHRONIZE",
+        "ability_num": 0,
         "held_item": "ITEM_NONE"
       },
       {
-        "species": "SPECIES_GRAVELER",
-        "level": 23,
+        "species": "SPECIES_VICTREEBEL",
+        "level": 24,
+        "iv": 0,
         "moves": [
-          "MOVE_SHOCK_WAVE",
-          "MOVE_PECK",
+          "MOVE_PSYBEAM",
+          "MOVE_GROWL",
           "MOVE_TACKLE",
-          "MOVE_LEER"
+          "MOVE_NONE"
         ],
-        "ability": "ABILITY_LIGHTNING_ROD",
+        "ability": "ABILITY_SYNCHRONIZE",
         "ability_num": 0,
         "held_item": "ITEM_NONE"
       }
-    ],
-    "items": [
-      "ITEM_SUPER_POTION",
-      "ITEM_FULL_HEAL"
-    ],
-    "source_party": "sParty_LeaderLtSurge"
+    ]
   },
   "TRAINER_LEADER_ERIKA": {
     "mode": "locked_boss",

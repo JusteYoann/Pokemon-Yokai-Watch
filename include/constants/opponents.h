@@ -24,6 +24,7 @@
 #define TRAINER_YOKAI_MAFIAMILLE3 TRAINER_RS_CAMPER
 // Scenario reuses the first trophy trainer slot, preserving saved wins.
 #define TRAINER_SCENARIO_WYATT TRAINER_LEADER_BROCK
+#define TRAINER_SCENARIO_BERENICE TRAINER_LEADER_LT_SURGE
 #define TRAINER_SCENARIO_KATIE TRAINER_LEADER_MISTY
 // Unused RS dummy slot; historical Nathan/Katie cameo teams stay intact.
 #define TRAINER_SCENARIO_NATHAN TRAINER_BUG_MANIAC
