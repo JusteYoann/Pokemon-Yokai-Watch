@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "engine": "mGBA libretro",
+  "rom_sha256": "fda6b7d1035dced27dc6d073362542301a2882e6aed30fa4454759d7816fba1f",
+  "rom_modified": false,
+  "agent_x_preview_injected_in_vram": true,
+  "palette_verified": true,
+  "tiles_verified": true,
+  "other_actors_from_rom": true,
+  "actors": [
+    {
+      "name": "Don Morleone",
+      "gfx": 164,
+      "x": 8,
+      "y": 12
+    },
+    {
+      "name": "Agent X",
+      "gfx": 176,
+      "x": 10,
+      "y": 12
+    },
+    {
+      "name": "Mafiamille 1",
+      "gfx": 165,
+      "x": 3,
+      "y": 11
+    },
+    {
+      "name": "Mafiamille 2",
+      "gfx": 166,
+      "x": 5,
+      "y": 11
+    },
+    {
+      "name": "Mafiamille 3",
+      "gfx": 167,
+      "x": 7,
+      "y": 11
+    },
+    {
+      "name": "Mafiamille 1",
+      "gfx": 165,
+      "x": 9,
+      "y": 11
+    },
+    {
+      "name": "Mafiamille 2",
+      "gfx": 166,
+      "x": 4,
+      "y": 12
+    },
+    {
+      "name": "Mafiamille 3",
+      "gfx": 167,
+      "x": 12,
+      "y": 12
+    }
+  ],
+  "limitations": [
+    "Test-only group portrait, not a story event",
+    "Approved front only; other directions and walking are pending",
+    "Not evidence of compiled integration of the new Agent X"
+  ]
+}
