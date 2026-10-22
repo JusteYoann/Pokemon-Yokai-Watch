@@ -1,0 +1,175 @@
+{
+  "passed": true,
+  "engine": "mGBA native GetStringWidth FONT_NORMAL",
+  "rom_sha256": "f25898068a4884d0c1c4fc948562c9cf1beaaac9e0c6f7a83cc46f95080001a0",
+  "max_pixels": 208,
+  "dynamic_name_case": "seven wide W characters; Matt fixed",
+  "scope": "Chen introductory speech, not full-game translation or cinematic",
+  "lines": [
+    {
+      "label": "gOakSpeech_Text_AskPlayerGender",
+      "expanded_line": "Es-tu un garçon",
+      "pixels": 85
+    },
+    {
+      "label": "gOakSpeech_Text_AskPlayerGender",
+      "expanded_line": "ou une fille?",
+      "pixels": 72
+    },
+    {
+      "label": "gOakSpeech_Text_WelcomeToTheWorld",
+      "expanded_line": "Bonjour! Bienvenue à Kanto!",
+      "pixels": 154
+    },
+    {
+      "label": "gOakSpeech_Text_WelcomeToTheWorld",
+      "expanded_line": "Je suis le Professeur Chen.",
+      "pixels": 150
+    },
+    {
+      "label": "gOakSpeech_Text_WelcomeToTheWorld",
+      "expanded_line": "Humains et Yo-kai vivent",
+      "pixels": 132
+    },
+    {
+      "label": "gOakSpeech_Text_WelcomeToTheWorld",
+      "expanded_line": "ensemble, au grand jour.",
+      "pixels": 136
+    },
+    {
+      "label": "gOakSpeech_Text_ThisWorld",
+      "expanded_line": "Dans notre monde…",
+      "pixels": 96
+    },
+    {
+      "label": "gOakSpeech_Text_IsInhabitedFarAndWide",
+      "expanded_line": "…les Yo-kai sont partout,",
+      "pixels": 138
+    },
+    {
+      "label": "gOakSpeech_Text_IsInhabitedFarAndWide",
+      "expanded_line": "même tout près de nous!",
+      "pixels": 132
+    },
+    {
+      "label": "gOakSpeech_Text_IStudyPokemon",
+      "expanded_line": "J’étudie les liens entre",
+      "pixels": 128
+    },
+    {
+      "label": "gOakSpeech_Text_IStudyPokemon",
+      "expanded_line": "les humains et les Yo-kai.",
+      "pixels": 143
+    },
+    {
+      "label": "gOakSpeech_Text_IStudyPokemon",
+      "expanded_line": "Au laboratoire, je te confierai",
+      "pixels": 171
+    },
+    {
+      "label": "gOakSpeech_Text_IStudyPokemon",
+      "expanded_line": "une Yo-kai Watch toute récente",
+      "pixels": 170
+    },
+    {
+      "label": "gOakSpeech_Text_IStudyPokemon",
+      "expanded_line": "et un Médallium ancien.",
+      "pixels": 127
+    },
+    {
+      "label": "gOakSpeech_Text_IStudyPokemon",
+      "expanded_line": "Pars rencontrer les 151 Yo-kai",
+      "pixels": 167
+    },
+    {
+      "label": "gOakSpeech_Text_IStudyPokemon",
+      "expanded_line": "de Kanto avec ton équipe!",
+      "pixels": 144
+    },
+    {
+      "label": "gOakSpeech_Text_IStudyPokemon",
+      "expanded_line": "Huit trophées t’attendent,",
+      "pixels": 140
+    },
+    {
+      "label": "gOakSpeech_Text_IStudyPokemon",
+      "expanded_line": "puis le Temple Céleste!",
+      "pixels": 130
+    },
+    {
+      "label": "gOakSpeech_Text_TellMeALittleAboutYourself",
+      "expanded_line": "Parle-moi un peu de toi.",
+      "pixels": 135
+    },
+    {
+      "label": "gOakSpeech_Text_YourNameWhatIsIt",
+      "expanded_line": "Comment t’appelles-tu?",
+      "pixels": 122
+    },
+    {
+      "label": "gOakSpeech_Text_SoYourNameIsPlayer",
+      "expanded_line": "Tu t’appelles WWWWWWW.",
+      "pixels": 124
+    },
+    {
+      "label": "gOakSpeech_Text_SoYourNameIsPlayer",
+      "expanded_line": "C’est bien cela?",
+      "pixels": 87
+    },
+    {
+      "label": "gOakSpeech_Text_WhatWasHisName",
+      "expanded_line": "Voici Matt, ton ami.",
+      "pixels": 108
+    },
+    {
+      "label": "gOakSpeech_Text_WhatWasHisName",
+      "expanded_line": "Vous êtes rivaux depuis toujours!",
+      "pixels": 186
+    },
+    {
+      "label": "gOakSpeech_Text_YourRivalsNameWhatWasIt",
+      "expanded_line": "Ton rival s’appelle Matt.",
+      "pixels": 136
+    },
+    {
+      "label": "gOakSpeech_Text_ConfirmRivalName",
+      "expanded_line": "Voici Matt!",
+      "pixels": 60
+    },
+    {
+      "label": "gOakSpeech_Text_RememberRivalsName",
+      "expanded_line": "Voici Matt, ton ami!",
+      "pixels": 109
+    },
+    {
+      "label": "gOakSpeech_Text_RememberRivalsName",
+      "expanded_line": "Ce sera ton rival!",
+      "pixels": 100
+    },
+    {
+      "label": "gOakSpeech_Text_LetsGo",
+      "expanded_line": "WWWWWWW!",
+      "pixels": 48
+    },
+    {
+      "label": "gOakSpeech_Text_LetsGo",
+      "expanded_line": "Les huit trophées et le",
+      "pixels": 129
+    },
+    {
+      "label": "gOakSpeech_Text_LetsGo",
+      "expanded_line": "Médallium t’attendent!",
+      "pixels": 119
+    },
+    {
+      "label": "gOakSpeech_Text_LetsGo",
+      "expanded_line": "Pars à la rencontre des Yo-kai",
+      "pixels": 168
+    },
+    {
+      "label": "gOakSpeech_Text_LetsGo",
+      "expanded_line": "et fais-toi de nouveaux amis!",
+      "pixels": 162
+    }
+  ]
+}

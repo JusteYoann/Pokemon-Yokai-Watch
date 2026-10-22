@@ -1,12 +1,11 @@
 PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround::
-    .string "{RIVAL}: Ah, ce n'est que toi, {PLAYER}?\nPapi n'est pas là.$"
+    .string "{RIVAL}: Salut, {PLAYER}!\nLe Professeur n’est pas là.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting::
-    .string "{RIVAL}: Papi!\nJ'en ai assez d'attendre!$"
+    .string "{RIVAL}: Professeur!\nOn peut choisir nos partenaires?$"
 
 PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe::
-    .string "{RIVAL}: Hey! Gramps! No fair!\n"
-    .string "What about me?$"
+    .string "{RIVAL}: Et mon partenaire,\nProfesseur?$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer::
     .string "{RIVAL}: Je ne suis pas aussi\nimpatient que toi, moi!\pVas-y, choisis, {PLAYER}!$"
@@ -18,14 +17,13 @@ PalletTown_ProfessorOaksLab_Text_RivalReceivedMonFromOak::
     .string "{RIVAL} reçoit {STR_VAR_1}\ndu Professeur Chen!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalMyMonLooksTougher::
-    .string "{RIVAL}: My Yo-kai looks a lot\n"
-    .string "tougher than yours.$"
+    .string "{RIVAL}: Mon Yo-kai est prêt!\nOn va bien s’entendre.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons::
     .string "{RIVAL}: Attends, {PLAYER}!\nComparons nos Yo-kai!\pAllez, je te défie!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalDefeat::
-    .string "QUOI?\nIncroyable!\lJ'ai choisi le mauvais Yo-kai!$"
+    .string "{RIVAL}: Bien joué!\nTu as trouvé un bon partenaire!$"
 
 @ Also used for early Route 22 battle
 Text_RivalVictory::
@@ -35,16 +33,16 @@ PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon::
     .string "{RIVAL}: Bon! Je vais entraîner\nmon Yo-kai au combat!\p{PLAYER}! Papi!\nÀ plus!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGramps::
-    .string "{RIVAL}: Gramps!$"
+    .string "{RIVAL}: Professeur Chen!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor::
     .string "{RIVAL}: J'allais oublier!\nPourquoi tu m'as fait venir?$"
 
 PalletTown_ProfessorOaksLab_Text_RivalLeaveItToMeGramps::
-    .string "{RIVAL}: D'accord, Papi!\nTu peux compter sur moi!$"
+    .string "{RIVAL}: Comptez sur nous,\nProfesseur!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap::
-    .string "{PLAYER}, désolé, mais\nje n'aurai pas besoin de toi.\pJe sais! Je vais emprunter\nune Carte à ma sœur!\pJe lui dirai de ne pas t'en prêter,\n{PLAYER}! Hahaha!\pInutile de passer\nà la maison après ça!$"
+    .string "{RIVAL}: Alors, {PLAYER},\nqui réunira les huit trophées\len premier?\pJe vais préparer ma route.\nPasse prendre une Carte\lchez moi avant de partir!\pÀ bientôt sur les routes!$"
 
 PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne::
     .string "CHEN: {RIVAL}?\nVoyons…\pAh oui! Je t'avais dit\nde venir! Patiente un peu!\pTiens, {PLAYER}.\pVoici trois Yo-kai.\pHaha!\pIls sont à l'intérieur\nde ces Yo-kai Balls.\pQuand j'étais jeune,\nj'étais un Dresseur passionné.\pMais avec l'âge,\nje n'ai gardé que ces trois-là.\pTu peux en prendre un.\nAllez, choisis!$"
@@ -93,13 +91,13 @@ PalletTown_ProfessorOaksLab_Text_OakHaveRequestForYouTwo::
     .string "CHEN: Au fait!\nJ'ai une demande à vous faire.$"
 
 PalletTown_ProfessorOaksLab_Text_OakPokedexOnDesk::
-    .string "Sur le bureau se trouve\nle Médallium.\pIl répertorie les Yo-kai\nque tu as vus ou capturés.\pUne véritable encyclopédie!$"
+    .string "CHEN: Voici un Médallium ancien.\pIl répertorie les Yo-kai\nque tu as vus ou capturés.\pAvec ta montre récente,\ntu pourras le compléter.$"
 
 PalletTown_ProfessorOaksLab_Text_OakTakeTheseWithYou::
     .string "CHEN: {PLAYER} et {RIVAL}.\nEmportez-les avec vous.$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedPokedexFromOak::
-    .string "{PLAYER} reçoit le Médallium\ndu Professeur Chen.$"
+    .string "{PLAYER} reçoit le Médallium\nancien du Professeur Chen!$"
 
 PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese::
     .string "CHEN: Voir un Yo-kai ne suffit\npas à tout apprendre sur lui.\pIl faut le capturer\npour compléter ses données.\pVoici donc de quoi\ncapturer des Yo-kai sauvages.$"
@@ -184,3 +182,17 @@ PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex::
 PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex::
     .string "{RIVAL}: Papi, du calme.\nNe t'emballe pas autant.\pJe vais compléter le Médallium,\nne t'inquiète pas.\pJe vais d'abord explorer\nONE ISLAND…\pBon, je file!$"
 
+
+PalletTown_ProfessorOaksLab_Text_ReceiveWatch::
+    .string "CHEN: Voici une Yo-kai Watch\n"
+    .string "de dernière génération.\p"
+    .string "{PLAYER} met la montre\n"
+    .string "à son poignet!$"
+
+PalletTown_ProfessorOaksLab_Text_WatchTutorial::
+    .string "CHEN: Les Yo-kai vivent déjà\n"
+    .string "au grand jour parmi nous.\p"
+    .string "Cette montre t'accompagnera\n"
+    .string "dans tes rencontres.\p"
+    .string "Prends soin de ton partenaire.\n"
+    .string "Vous progresserez ensemble!$"

@@ -185,10 +185,7 @@ gPikachuIntro_Text_Page3::
     .string "Appuyez sur A pour commencer!$"
 
 gOakSpeech_Text_WelcomeToTheWorld::
-    .string "Bonjour! Bienvenue à Kanto!\p"
-    .string "Je suis le Professeur Chen.\p"
-    .string "Les Yo-kai vivent parmi nous,\n"
-    .string "mais nos yeux ne les voient pas.\p$"
+    .string "Bonjour! Bienvenue à Kanto!\pJe suis le Professeur Chen.\pHumains et Yo-kai vivent\nensemble, au grand jour.\p$"
 
 gOakSpeech_Text_ThisWorld::
     .string "Dans notre monde…$"
@@ -198,15 +195,7 @@ gOakSpeech_Text_IsInhabitedFarAndWide::
     .string "même tout près de nous!\p$"
 
 gOakSpeech_Text_IStudyPokemon::
-    .string "J’ai inventé la Yo-kai Watch\n"
-    .string "pour les voir. Je t’en confie une!\p"
-    .string "Elle fonctionne toute seule.\p"
-    .string "J’ai aussi découvert une relique:\n"
-    .string "le Médallium des Yo-kai.\p"
-    .string "Aide-moi à y répertorier\n"
-    .string "les 151 espèces de Kanto!\p"
-    .string "Et tente la Ligue Yo-kai\n"
-    .string "pour en devenir le Champion!\p$"
+    .string "J’étudie les liens entre\nles humains et les Yo-kai.\pAu laboratoire, je te confierai\nune Yo-kai Watch toute récente\let un Médallium ancien.\pPars rencontrer les 151 Yo-kai\nde Kanto avec ton équipe!\pHuit trophées t’attendent,\npuis le Temple Céleste!\p$"
 
 gOakSpeech_Text_TellMeALittleAboutYourself::
     .string "Parle-moi un peu de toi.\p$"
@@ -219,7 +208,7 @@ gOakSpeech_Text_SoYourNameIsPlayer::
     .string "C’est bien cela?$"
 
 gOakSpeech_Text_WhatWasHisName::
-    .string "Voici Matt, mon petit-fils.\p"
+    .string "Voici Matt, ton ami.\p"
     .string "Vous êtes rivaux depuis toujours!$"
 
 gOakSpeech_Text_YourRivalsNameWhatWasIt::
@@ -229,12 +218,8 @@ gOakSpeech_Text_ConfirmRivalName::
     .string "Voici Matt!$"
 
 gOakSpeech_Text_RememberRivalsName::
-    .string "Voici Matt, mon petit-fils!\n"
+    .string "Voici Matt, ton ami!\n"
     .string "Ce sera ton rival!\p$"
 
 gOakSpeech_Text_LetsGo::
-    .string "{PLAYER}!\p"
-    .string "La Ligue et le Médallium\n"
-    .string "t’attendent!\p"
-    .string "Pars à la rencontre des Yo-kai\n"
-    .string "et fais-toi de nouveaux amis!$"
+    .string "{PLAYER}!\pLes huit trophées et le\nMédallium t’attendent!\pPars à la rencontre des Yo-kai\net fais-toi de nouveaux amis!$"

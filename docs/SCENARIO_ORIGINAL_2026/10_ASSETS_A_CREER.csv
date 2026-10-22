@@ -1,0 +1,28 @@
+﻿id;besoin;livrable;etat_de_reference;dossier_github_reutilisable;image_de_reference;contrainte;priorite
+AS-001;Enma humain Argenta;Personnage overworld + portrait;Référence présente;graphics/yokai_characters/enma/;ref_enma_seigneur_forme_humaine.webp;"Comparer aux sprites enma présents ; ne pas redessiner arbitrairement";Important
+AS-002;Inspecteur Giraud;Portrait + overworld;Artwork présent;graphics/yokai_characters/;ref_inspecteur_giraud_artwork_yw1.webp;Vérifier dossier existant avant création;Prioritaire
+AS-003;Alyzon Bie;Portrait + overworld;Artwork présent;graphics/yokai_characters/;ref_alyzon_bie_artwork.webp;Adapter sans inventer de nouvelle identité;Prioritaire
+AS-004;Bérénice Bélier;Portrait + overworld;Artwork présent;graphics/yokai_characters/;ref_berenice_belier_artwork.webp;Vérifier les caméos historiques;Prioritaire
+AS-005;Laure et Marge;Deux portraits + overworld;Artworks présents;graphics/yokai_characters/;ref_laure_aurea_artwork.webp + ref_marge_argenta_artwork.webp;Combat duo possible, non figé;Prioritaire
+AS-006;Lady Perpetua;Portrait + overworld;Artwork présent;graphics/yokai_characters/;ref_lady_perpetua_artwork.webp;Pas de phase de transformation;Prioritaire
+AS-007;McKraken;Portrait + overworld;Artwork présent;graphics/yokai_characters/;ref_mc_kraken_artwork.webp;Boss de Ligue = dresseur simple;Prioritaire
+AS-008;Agent X;Portrait + overworld;Artwork présent;graphics/yokai_characters/;ref_agent_x_artwork.webp;Réutiliser pour ses apparitions répétées;Prioritaire
+AS-009;Don Morleone;Portait/overworld et scène discours;Déjà graphismes perso;graphics/yokai_characters/don_morleone/;ref_don_morleone_artwork.webp;"Adapter rôle Champion et intrus; conserver anciens assets";Prioritaire
+AS-010;Zazel;Overworld Temple, portrait éventuel;Artwork présent;graphics/yokai_characters/;ref_zazel_artwork.webp;Pas traître par défaut;Important
+AS-011;Soranaki phase 1;Sprite combat, palette, anim + UI PV;Illustration seulement;graphics/ / src/;ref_soranaki_premiere_forme.webp;"Boss unique non capturable; prototype moteur";Critique
+AS-012;Soranaki phase 2;Sprite combat + transition;Illustration seulement;graphics/ / src/;ref_soranaki_forme_maten.webp;Conserver état d’équipe sans soin;Critique
+AS-013;Prophétie Soranaki;Fresque adaptée GBA;Image référence présente;graphics/;ref_soranaki_fresque_prophetie.webp;Lieu d’insertion à définir;Important
+AS-014;Bingo-kai final;Sprite de machine et scène;Image référence présente;graphics/;ref_bingo_kai_machine_souhaits.webp;Machine exauce réellement souhaits, mais non utilisée;Critique
+AS-015;Lavanville Zombie Night;Palette ambiance + PNJ zombies;Carte Rouge Feu présente;data/maps/LavenderTown/;ref_zombie_modele.webp;Géographie strictement inchangée;Critique
+AS-016;Cramois-Île passé;Variante historique mêmes coordonnées;Carte Rouge Feu présente;data/maps/CinnabarIsland/;ref_springdale_ancienne_capture_carte_01.jpg;Même géographie, PNJ et ambiance changés;Critique
+AS-017;Triptic-tac;Overworld/animation flash + script;Espèce du roster existante;graphics/yokai/044/;Voir numéro espèce actif;Vérifier graphismes de carte;Critique
+AS-018;Huit arènes;Tilesets/map/puzzles Codex;Cartes natives présentes;data/maps/*_Gym/;Images optionnelles;Carte blanche Codex sous thèmes et huit trophées;Critique
+AS-019;Temple Céleste;Nouvelles salles et transitions;Salles Ligue natives présentes;data/maps/PokemonLeague_*/;Références personnages;"Carte blanche Codex ; 4 dresseurs sans phase 2";Critique
+AS-020;Limbes Éternelles;Maps et palettes postgame;Références de donjon présentes;data/maps/ (à ajouter);ref_limbes_plan_complet.webp;"Soranaki rematch au fond ; 2-3 exclusifs";Important
+AS-021;Paradis Divin;Maps et palettes postgame;Références de donjon présentes;data/maps/ (à ajouter);ref_paradis_divin_plan_etages.webp;Enma l’Ancien au sommet;Important
+AS-022;Enma l’Ancien;Portrait et combat facultatif;Illustration seulement;graphics/yokai_characters/ (à vérifier);ref_enma_ancien_artwork.webp;Présence non résurrection arbitraire;Important
+AS-023;Enma dresseur Île 7;Carte et interaction postgame;Personnage existe au Mont Braise;data/maps/SevenIsland/;ref_enma_seigneur_forme_royale.webp;Migrer ancien PNJ sans supprimer capture nº150;Important
+AS-024;Nathaniel âgé;Pose dresseur/rematch;Références et jeune graphique existants;graphics/yokai_characters/nathaniel/;ref_nathaniel_age_portrait.webp;"Rematch présent ; Michael âgé à confirmer";Important
+AS-025;Domniscian;Caméo anecdotique;Existe en postgame du dépôt;graphics/yokai_characters/domniscian/;ref_domniscian_artwork.webp;Ne pas le rendre central;Conserver
+AS-026;Séquences animées et UI Panthéon;Transition et Hall of Fame;Hall of Fame natif;data/maps/PokemonLeague_HallOfFame/;ref_bingo_kai_machine_souhaits.webp;Garder enregistrement groupe et générique;Critique
+AS-027;Kyubi, Mademoaiselle, Octorgone;Maps de rencontre fixe;Overworld existe pour certains;data/maps/{SeafoamIslands,MtEmber,PowerPlant}/;Sprites historiques sur GitHub;Arbitrer Kyubi/Mademoaiselle lieux;Bloquant
