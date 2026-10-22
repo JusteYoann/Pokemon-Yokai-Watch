@@ -91,40 +91,23 @@ gFameCheckerFlavorText_Brock4::
 gFameCheckerFlavorText_Brock5::
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel est son caractère?\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Wyatt aime relever les défis.\pFace à lui, mieux vaut\npréparer son équipe!$"
 
-gFameCheckerFlavorText_Misty0:: @ 0x81ADA91
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}CERULEAN CITY Yo-kai GYM\n"
-	.string "LEADER: MISTY\l"
-	.string "The Tomboyish Mermaid!$"
+gFameCheckerFlavorText_Misty0::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Son rôle?\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}L'Arène d'Azuria remet\nle deuxième trophée.\pLe Feu et l'amitié y règnent!$"
 
-gFameCheckerFlavorText_Misty1:: @ 0x81ADAF6
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of Yo-kai?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}My policy is an all-out offensive\n"
-	.string "with WATER-type Yo-kai!$"
+gFameCheckerFlavorText_Misty1::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Ses partenaires?\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Feulion, Whisper et Jibanyan\ncombattent ensemble.$"
 
-gFameCheckerFlavorText_Misty2:: @ 0x81ADB5A
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}MISTY is a TRAINER who's going to\n"
-	.string "keep improving.\p"
-	.string "She won't lose to someone like you!$"
+gFameCheckerFlavorText_Misty2::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Son caractère?\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Une rivalité amicale encourage\nchaque équipe à progresser.$"
 
-gFameCheckerFlavorText_Misty3:: @ 0x81ADBD9
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Strong TRAINERS and WATER Yo-kai\n"
-	.string "are common sights in these parts.\p"
-	.string "They say that MISTY of the\n"
-	.string "CERULEAN GYM trains here.$"
+gFameCheckerFlavorText_Misty3::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Son épreuve?\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Trois foyers brillent\ndans l'Arène d'Azuria.\pLe guide explique leur ordre.$"
 
-gFameCheckerFlavorText_Misty4:: @ 0x81ADC72
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}This cape is a famous date spot.\p"
-	.string "MISTY, the GYM LEADER, has high\n"
-	.string "hopes about this place.$"
+gFameCheckerFlavorText_Misty4::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Un conseil?\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Whisper est de type Spectre.\nLe Feu n'est pas leur seul atout!$"
 
-gFameCheckerFlavorText_Misty5:: @ 0x81ADCEB
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}MISTY is said to worship LORELEI\n"
-	.string "of the ELITE FOUR.$"
+gFameCheckerFlavorText_Misty5::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Une rumeur?\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Après le Temple Céleste,\nune revanche amicale t'attend.$"
 
 gFameCheckerFlavorText_LtSurge0:: @ 0x81ADD3C
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
@@ -617,16 +600,11 @@ gFameCheckerPersonName_Brock::
 gFameCheckerPersonQuote_Brock::
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Wyatt\nPour: {PLAYER}\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Le monde compte beaucoup\nde Dresseurs redoutables.\pContinuons à nous entraîner\navec nos Yo-kai!$"
 
-gFameCheckerPersonName_Misty:: @ 0x81B03B3
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}MISTY$"
+gFameCheckerPersonName_Misty::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Arène d'Azuria$"
 
-gFameCheckerPersonQuote_Misty:: @ 0x81B03BF
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: MISTY\n"
-	.string "To: {PLAYER}\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I'm going to keep training here at\n"
-	.string "this GYM.\p"
-	.string "When I get better, I'd love to hit\n"
-	.string "the road and travel.$"
+gFameCheckerPersonQuote_Misty::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: l'Arène d'Azuria\nPour: {PLAYER}\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Continuons à nous entraîner!\nNos Yo-kai ont encore à apprendre.$"
 
 gFameCheckerPersonName_LtSurge:: @ 0x81B0446
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}LT. SURGE$"
@@ -1113,7 +1091,7 @@ gFameCheckerFlavorTextOriginObjectName_Misty0::
 	.string "SIGN$"
 
 gFameCheckerFlavorTextOriginObjectName_Misty1::
-	.string "MISTY$"
+	.string "Arène d'Azuria$"
 
 gFameCheckerFlavorTextOriginObjectName_Misty2::
 	.string "LUIS$"
@@ -1347,11 +1325,7 @@ PokemonJournal_Text_SpecialFeatureBrock::
 	.string "JOURNAL DES YO-KAI\pÀ la une: Wyatt,\nle Champion d'Argenta!\pWyatt aime relever les défis.\nPréparez bien votre équipe!$"
 
 PokemonJournal_Text_SpecialFeatureMisty::
-	.string "Yo-kai JOURNAL\p"
-	.string "Special Feature: CERULEAN GYM\n"
-	.string "LEADER MISTY!\p"
-	.string "MISTY is said to worship LORELEI\n"
-	.string "of the ELITE FOUR.$"
+	.string "JOURNAL DES YO-KAI\pÀ la une: l'Arène d'Azuria!\pFeulion, Whisper et Jibanyan\nfont équipe pour le deuxième\ltrophée. Un combat amical\lvous y attend!$"
 
 PokemonJournal_Text_SpecialFeatureLtSurge::
 	.string "Yo-kai JOURNAL\p"

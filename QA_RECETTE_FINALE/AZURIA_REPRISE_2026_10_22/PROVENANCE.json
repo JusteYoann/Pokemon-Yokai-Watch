@@ -1,0 +1,20 @@
+{
+  "reference_commit": "dd46996fc13cb8dfdaa8ef3f7737e74625d7a9a4",
+  "imported_from": "codex/reprise-scenario-2026-10-22",
+  "source_commit": "65b62bd88",
+  "patch_paths": [
+    "data/layouts/CeruleanCity_Gym/map.bin",
+    "data/layouts/layouts.json",
+    "data/maps/CeladonCity/scripts.inc",
+    "data/maps/CeruleanCity/scripts.inc",
+    "data/maps/CeruleanCity/text.inc",
+    "data/maps/CeruleanCity_Gym/map.json",
+    "data/maps/CeruleanCity_Gym/scripts.inc",
+    "data/maps/CeruleanCity_Gym/text.inc",
+    "data/tilesets/secondary/azuria_hearths/metatile_attributes.bin",
+    "data/tilesets/secondary/azuria_hearths/metatiles.bin",
+    "src/data/tilesets/headers.h",
+    "src/data/tilesets/metatiles.h"
+  ],
+  "policy": "No new character sprites, no foreign Argenta chapter, no cast changes outside Azuria; locked historical team files retained."
+}

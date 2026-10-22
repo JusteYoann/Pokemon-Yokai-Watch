@@ -607,6 +607,21 @@ static const struct SpriteTemplate sBillSpriteTemplate = {
     SPRITETAG_BILL, 0xffff, &sDaisyFujiOakBillOamData, sDaisyFujiOakBillAnims, NULL, gDummySpriteAffineAnimTable, SpriteCallbackDummy
 };
 
+// The second trophy belongs to the opposite protagonist, including old profiles.
+static u16 GetFameCheckerTrainerId(u8 person)
+{
+    if (person == FAMECHECKER_MISTY)
+        return gSaveBlock2Ptr->playerGender == FEMALE ? TRAINER_SCENARIO_NATHAN : TRAINER_SCENARIO_KATIE;
+    return sTrainerIdxs[person];
+}
+
+static u8 GetFameCheckerTrainerPic(u8 person)
+{
+    if (person == FAMECHECKER_MISTY)
+        return gTrainers[GetFameCheckerTrainerId(person)].trainerPic;
+    return sFameCheckerTrainerPicIdxs[person];
+}
+
 static void FC_VBlankCallback(void)
 {
     LoadOam();
@@ -1368,7 +1383,7 @@ static u8 CreatePersonPicSprite(u8 fcPersonIdx)
     }
     else
     {
-        spriteId = CreateTrainerPicSprite(sFameCheckerTrainerPicIdxs[fcPersonIdx], TRUE, PERSON_X, PERSON_Y, PERSON_PAL_NUM, TAG_NONE);
+        spriteId = CreateTrainerPicSprite(GetFameCheckerTrainerPic(fcPersonIdx), TRUE, PERSON_X, PERSON_Y, PERSON_PAL_NUM, TAG_NONE);
     }
     gSprites[spriteId].callback = SpriteCB_FCSpinningPokeball;
     if (gSaveBlock1Ptr->fameChecker[fcPersonIdx].pickState == FCPICKSTATE_SILHOUETTE)
@@ -1551,16 +1566,17 @@ static u8 FC_PopulateListMenu(void)
     for (i = 0; i < NUM_FAMECHECKER_PERSONS; i++)
     {
         u8 fameCheckerIdx = AdjustGiovanniIndexIfBeatenInGym(i);
+        u16 trainerId = GetFameCheckerTrainerId(fameCheckerIdx);
         if (gSaveBlock1Ptr->fameChecker[fameCheckerIdx].pickState != FCPICKSTATE_NO_DRAW)
         {
-            if (sTrainerIdxs[fameCheckerIdx] < FC_NONTRAINER_START)
+            if (trainerId < FC_NONTRAINER_START)
             {
-                sListMenuItems[nitems].label = gTrainers[sTrainerIdxs[fameCheckerIdx]].trainerName;
+                sListMenuItems[nitems].label = gTrainers[trainerId].trainerName;
                 sListMenuItems[nitems].index = nitems;
             }
             else
             {
-                sListMenuItems[nitems].label = sNonTrainerNamePointers[sTrainerIdxs[fameCheckerIdx] - FC_NONTRAINER_START];
+                sListMenuItems[nitems].label = sNonTrainerNamePointers[trainerId - FC_NONTRAINER_START];
                 sListMenuItems[nitems].index = nitems;
             }
             sFameCheckerData->unlockedPersons[nitems] = fameCheckerIdx;

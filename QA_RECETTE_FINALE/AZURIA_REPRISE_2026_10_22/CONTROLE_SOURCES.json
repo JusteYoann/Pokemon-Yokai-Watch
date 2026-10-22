@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "scope": "Source graph only, complements runtime walks",
+  "checks": [
+    "All three hearths and original exits reachable before gate",
+    "Champion unreachable before gate and reachable afterwards",
+    "Champion has a path back to exits",
+    "All three door metatiles retain native south-arrow warp behavior",
+    "Mutually exclusive leaders share one location within object capacity",
+    "Historical locked and cameo party source arrays retained"
+  ]
+}

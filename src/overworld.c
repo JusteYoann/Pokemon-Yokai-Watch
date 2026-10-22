@@ -1721,6 +1721,22 @@ void CB2_ContinueSavedGame(void)
         WarpIntoMap();
         SetMainCallback2(CB2_LoadMap);
     }
+    else if ((gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_CERULEAN_CITY_GYM)
+           && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_CERULEAN_CITY_GYM)
+           && !FlagGet(FLAG_SCENARIO_AZURIA_GYM_CURRENT))
+          || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_CELADON_CITY)
+           && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_CELADON_CITY)
+           && !FlagGet(FLAG_SCENARIO_CELADON_FRIEND_CURRENT)))
+    {
+        // Legacy saves retain the old tiles/actor templates. Refresh once without
+        // changing save layout; preserve Celadon's position, use a safe gym entry.
+        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_CERULEAN_CITY_GYM))
+            SetWarpDestination(MAP_GROUP(MAP_CERULEAN_CITY_GYM), MAP_NUM(MAP_CERULEAN_CITY_GYM), WARP_ID_NONE, 8, 17);
+        else
+            SetWarpDestination(MAP_GROUP(MAP_CELADON_CITY), MAP_NUM(MAP_CELADON_CITY), WARP_ID_NONE, gSaveBlock1Ptr->pos.x, gSaveBlock1Ptr->pos.y);
+        WarpIntoMap();
+        SetMainCallback2(CB2_LoadMap);
+    }
     else
     {
         gFieldCallback = FieldCB_ShowMapNameOnContinue;

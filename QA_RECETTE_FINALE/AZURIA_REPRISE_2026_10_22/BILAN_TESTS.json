@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "full_adventure_played": false,
+  "balance_validated": false,
+  "source_graph_report": "CONTROLE_SOURCES.json",
+  "results": [
+    {
+      "report": "TEST_CHAPITRE_MGBA.json",
+      "rom_sha256": "fb88f2a913a7fd0888a289ab2f638523f21b0a599309e569446d7c4acc3195c8",
+      "passed": true
+    },
+    {
+      "report": "TEST_MIGRATION_MGBA.json",
+      "rom_sha256": "fb88f2a913a7fd0888a289ab2f638523f21b0a599309e569446d7c4acc3195c8",
+      "passed": true
+    },
+    {
+      "report": "TEST_PROFIL_MGBA.json",
+      "rom_sha256": "fb88f2a913a7fd0888a289ab2f638523f21b0a599309e569446d7c4acc3195c8",
+      "passed": true
+    },
+    {
+      "report": "LARGEURS_DIALOGUES.json",
+      "rom_sha256": "fb88f2a913a7fd0888a289ab2f638523f21b0a599309e569446d7c4acc3195c8",
+      "passed": true
+    },
+    {
+      "report": "TEST_EQUIPES_ACTIVES_MGBA.json",
+      "rom_sha256": "fb88f2a913a7fd0888a289ab2f638523f21b0a599309e569446d7c4acc3195c8",
+      "passed": true
+    }
+  ]
+}

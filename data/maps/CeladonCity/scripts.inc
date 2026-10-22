@@ -104,14 +104,9 @@ CeladonCity_EventScript_GameCornerSign::
 	end
 
 CeladonCity_OnTransitionYokaiFriend::
+	setflag FLAG_SCENARIO_CELADON_FRIEND_CURRENT
 	setflag FLAG_HIDE_YOKAI_NATHAN
 	setflag FLAG_HIDE_YOKAI_KATIE
-	checkplayergender
-	goto_if_eq VAR_RESULT, FEMALE, CeladonCity_ShowNathan
-	clearflag FLAG_HIDE_YOKAI_KATIE
-	return
-CeladonCity_ShowNathan::
-	clearflag FLAG_HIDE_YOKAI_NATHAN
 	return
 
 CeladonCity_EventScript_YokaiFriend::

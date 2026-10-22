@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "rom_sha256": "fb88f2a913a7fd0888a289ab2f638523f21b0a599309e569446d7c4acc3195c8",
+  "scope": "Actual controls inside chapter. Explicit first-trophy and ordinary party fixtures (Kappacap20, Whisper18, Nihilistik18; IV15; learned moves reordered). Not a continuous whole adventure or all-starter balancing.",
+  "results": [
+    {
+      "test": "nathan actual door/exit, opposite protagonist exclusively visible, first-trophy and hearth guards, wrong order, native Flash/Continue and re-entry persistence, actual battle/trophy/TM with full-bag retry and no duplication",
+      "passed": true,
+      "battle_frames": 9880
+    },
+    {
+      "test": "katie actual door/exit, opposite protagonist exclusively visible, first-trophy and hearth guards, wrong order, native Flash/Continue and re-entry persistence, actual battle/trophy/TM with full-bag retry and no duplication",
+      "passed": true,
+      "battle_frames": 10232
+    }
+  ]
+}

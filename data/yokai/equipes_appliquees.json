@@ -13330,50 +13330,53 @@
     "source_party": "sParty_LeaderBrock"
   },
   "TRAINER_LEADER_MISTY": {
-    "mode": "locked_boss",
+    "mode": "scenario_azuria",
+    "source_party": "sScenarioParty_AzuriaSecondTrophy",
+    "items": [],
     "party": [
       {
-        "species": "SPECIES_METAPOD",
-        "level": 14,
+        "species": "SPECIES_SANDSLASH",
+        "level": 16,
+        "iv": 0,
         "moves": [
-          "MOVE_TACKLE",
-          "MOVE_BUBBLE",
+          "MOVE_EMBER",
+          "MOVE_SCRATCH",
           "MOVE_LEER",
           "MOVE_NONE"
         ],
-        "ability": "ABILITY_SWIFT_SWIM",
-        "ability_num": 1,
-        "held_item": "ITEM_NONE"
+        "ability_num": 0,
+        "held_item": "ITEM_NONE",
+        "ability": "ABILITY_FLASH_FIRE"
       },
       {
-        "species": "SPECIES_RATICATE",
+        "species": "SPECIES_WARTORTLE",
         "level": 16,
+        "iv": 0,
         "moves": [
-          "MOVE_SCRATCH",
-          "MOVE_WATER_GUN",
-          "MOVE_TAIL_WHIP",
+          "MOVE_LICK",
+          "MOVE_ASTONISH",
+          "MOVE_GROWL",
           "MOVE_NONE"
         ],
-        "ability": "ABILITY_SWIFT_SWIM",
         "ability_num": 0,
-        "held_item": "ITEM_NONE"
+        "held_item": "ITEM_NONE",
+        "ability": "ABILITY_LEVITATE"
       },
       {
-        "species": "SPECIES_MACHOKE",
-        "level": 19,
+        "species": "SPECIES_BULBASAUR",
+        "level": 18,
+        "iv": 0,
         "moves": [
-          "MOVE_WATER_PULSE",
-          "MOVE_TACKLE",
+          "MOVE_EMBER",
+          "MOVE_SCRATCH",
           "MOVE_GROWL",
-          "MOVE_WATER_GUN"
+          "MOVE_NONE"
         ],
-        "ability": "ABILITY_RAIN_DISH",
-        "ability_num": 1,
-        "held_item": "ITEM_NONE"
+        "ability_num": 0,
+        "held_item": "ITEM_NONE",
+        "ability": "ABILITY_BLAZE"
       }
-    ],
-    "items": [],
-    "source_party": "sParty_LeaderMisty"
+    ]
   },
   "TRAINER_LEADER_LT_SURGE": {
     "mode": "locked_boss",
@@ -25846,5 +25849,54 @@
     ],
     "items": null,
     "source_party": "sParty_CueBallPaxton"
+  },
+  "TRAINER_BUG_MANIAC": {
+    "mode": "scenario_azuria",
+    "source_party": "sScenarioParty_AzuriaSecondTrophy",
+    "items": [],
+    "party": [
+      {
+        "species": "SPECIES_SANDSLASH",
+        "level": 16,
+        "iv": 0,
+        "moves": [
+          "MOVE_EMBER",
+          "MOVE_SCRATCH",
+          "MOVE_LEER",
+          "MOVE_NONE"
+        ],
+        "ability_num": 0,
+        "held_item": "ITEM_NONE",
+        "ability": "ABILITY_FLASH_FIRE"
+      },
+      {
+        "species": "SPECIES_WARTORTLE",
+        "level": 16,
+        "iv": 0,
+        "moves": [
+          "MOVE_LICK",
+          "MOVE_ASTONISH",
+          "MOVE_GROWL",
+          "MOVE_NONE"
+        ],
+        "ability_num": 0,
+        "held_item": "ITEM_NONE",
+        "ability": "ABILITY_LEVITATE"
+      },
+      {
+        "species": "SPECIES_BULBASAUR",
+        "level": 18,
+        "iv": 0,
+        "moves": [
+          "MOVE_EMBER",
+          "MOVE_SCRATCH",
+          "MOVE_GROWL",
+          "MOVE_NONE"
+        ],
+        "ability_num": 0,
+        "held_item": "ITEM_NONE",
+        "ability": "ABILITY_BLAZE"
+      }
+    ]
   }
 }

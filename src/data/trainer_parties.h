@@ -13941,3 +13941,9 @@ static const struct TrainerMonItemCustomMoves sParty_YokaiMafiamille3[] = {
     {.iv = 255, .lvl = 64, .species = SPECIES_KABUTOPS, .heldItem = ITEM_NONE, .moves = {MOVE_DRILL_PECK, MOVE_HEAL_BELL, MOVE_MORNING_SUN, MOVE_SKY_ATTACK}},
     {.iv = 255, .lvl = 65, .species = SPECIES_PARAS, .heldItem = ITEM_NONE, .moves = {MOVE_SLUDGE_BOMB, MOVE_AGILITY, MOVE_SWORDS_DANCE, MOVE_MEGAHORN}},
 };
+
+static const struct TrainerMonItemCustomMoves sScenarioParty_AzuriaSecondTrophy[] = {
+    {.iv = 0, .lvl = 16, .species = SPECIES_SANDSLASH, .heldItem = ITEM_NONE, .moves = {MOVE_EMBER, MOVE_SCRATCH, MOVE_LEER, MOVE_NONE}},
+    {.iv = 0, .lvl = 16, .species = SPECIES_WARTORTLE, .heldItem = ITEM_NONE, .moves = {MOVE_LICK, MOVE_ASTONISH, MOVE_GROWL, MOVE_NONE}},
+    {.iv = 0, .lvl = 18, .species = SPECIES_BULBASAUR, .heldItem = ITEM_NONE, .moves = {MOVE_EMBER, MOVE_SCRATCH, MOVE_GROWL, MOVE_NONE}},
+};

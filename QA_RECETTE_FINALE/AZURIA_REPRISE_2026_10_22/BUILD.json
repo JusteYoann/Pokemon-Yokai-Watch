@@ -1,0 +1,20 @@
+{
+  "roms": [
+    {
+      "file": "pokefirered.gba",
+      "bytes": 16777216,
+      "sha256": "c989d13e1c24b657d6749c1ee019e672dc45ab222818397c630ece5c344fe9d2"
+    },
+    {
+      "file": "pokefirered_audio.gba",
+      "bytes": 31589579,
+      "sha256": "fb88f2a913a7fd0888a289ab2f638523f21b0a599309e569446d7c4acc3195c8"
+    }
+  ],
+  "rom_limit": 33554432,
+  "external_private_audio_unchanged": true,
+  "save_layout_changed": false,
+  "character_sprites_changed": false,
+  "battle_sprites_changed": false,
+  "native_tileset_reused": "CinnabarGym, with separate native metatile/warp attributes"
+}

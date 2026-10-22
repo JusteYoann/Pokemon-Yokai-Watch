@@ -120,3 +120,8 @@ trainers = apply_to_trainers(trainers)
 (R/'src/data/yokai_trainer_abilities.h').write_text('\n'.join(abilities+['};\n']))
 (D/'equipes_appliquees.json').write_text(json.dumps(allteams,ensure_ascii=False,indent=2)+'\n')
 print(len(allteams),'active trainer parties reconstructed, including 17 locked bosses and 27 rival variants')
+
+# Reapply tested story overrides after rebuilding historical team tables.
+if (D/'scenario_azuria.json').exists():
+ from appliquer_equipe_azuria import apply_profile
+ apply_profile()

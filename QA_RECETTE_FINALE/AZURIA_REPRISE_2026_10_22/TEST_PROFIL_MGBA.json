@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "scope": "Native Fame Checker identity/portrait for both protagonist choices.\n\nBook entries are unlocked explicitly for this interface fixture; not obtained\nthrough the adventure. All old profiles retain the opposite hero's identity.\n",
+  "rom_sha256": "fb88f2a913a7fd0888a289ab2f638523f21b0a599309e569446d7c4acc3195c8",
+  "results": [
+    {
+      "player": "nathan",
+      "opposite_hero": "Katie",
+      "native_trainer_id": 415,
+      "native_portrait_id": 136,
+      "native_list_label_correct": true,
+      "wyatt_profile_unchanged": true,
+      "passed": true
+    },
+    {
+      "player": "katie",
+      "opposite_hero": "Nathan",
+      "native_trainer_id": 21,
+      "native_portrait_id": 135,
+      "native_list_label_correct": true,
+      "wyatt_profile_unchanged": true,
+      "passed": true
+    }
+  ]
+}

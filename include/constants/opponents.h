@@ -22,6 +22,10 @@
 #define TRAINER_YOKAI_MAFIAMILLE1 TRAINER_GUITARIST
 #define TRAINER_YOKAI_MAFIAMILLE2 TRAINER_KINDLER
 #define TRAINER_YOKAI_MAFIAMILLE3 TRAINER_RS_CAMPER
+// Active Fire trophy leaders; historical trainer IDs and cameo parties retained.
+#define TRAINER_SCENARIO_KATIE TRAINER_LEADER_MISTY
+#define TRAINER_SCENARIO_NATHAN TRAINER_BUG_MANIAC
+
 // Dummy trainers for all the RS trainer classes
 #define TRAINER_AQUA_LEADER                        1
 #define TRAINER_AQUA_GRUNT_M                       2

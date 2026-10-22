@@ -746,3 +746,14 @@ const struct Tileset gTileset_HallOfFame =
     .callback = NULL,
 };
 
+
+const struct Tileset gTileset_AzuriaHearths =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_CinnabarGym,
+    .palettes = gTilesetPalettes_CinnabarGym,
+    .metatiles = gMetatiles_AzuriaHearths,
+    .metatileAttributes = gMetatileAttributes_AzuriaHearths,
+    .callback = NULL,
+};
