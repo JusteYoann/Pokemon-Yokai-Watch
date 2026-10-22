@@ -12,3 +12,10 @@ Chaque lot : reproduction -> source -> compilation publique/privée -> mGBA cibl
 8. **D/E — Recette et livraison** : traversées Nathan/Katie, checkpoints rechargeables, français, transitions musicales, animations, courbe XP et taille. Rebuild depuis GitHub, manifeste SHA et limites honnêtes. V1 non prête tant que P0/P1 subsistent.
 
 Aucune durée calendaire fiable n'est annoncée avant résolution du scénario et des nombreuses ressources absentes. La date publique visée n'est pas un critère de validation technique.
+
+## Point de reprise après Carmin / Océane
+
+- Wyatt, fondation du prologue et contrôle des huit trophées, Azuria, puis Carmin/Ariane ont chacun un jalon publié avec tests ciblés (voir les dossiers dédiés). Leurs nouvelles équipes provisoires ne sont pas une validation globale de l’équilibrage.
+- Usapyon décoratif a été retiré de Carmin à la demande du créateur (`292bd4fb0`), sans toucher à sa place dans l’équipe.
+- La liaison native de l’Océane est maintenant testée : trois branches de Matt avec Nathan/Katie, CS01 réellement remise avant d’autoriser le départ, reprise après refus du sac, vraie cinématique et accès à l’arène par Coupe. Voir [rapport Océane](../OCEANE_2026_10_22/README.md).
+- Prochain lot scénaristique : Portes Mystères / Dr Jobard, puis Yopple / Safrania. Bérénice comme donneuse de Coupe n’est pas encore intégrée; le capitaine actuel reste provisoire. Ne pas réintroduire les anciens castings Bérénice/Giraud Champions, ni annoncer le chapitre complet sur la seule base de ces correctifs de progression.

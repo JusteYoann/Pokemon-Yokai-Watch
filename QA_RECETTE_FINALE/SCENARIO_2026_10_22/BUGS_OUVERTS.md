@@ -1,6 +1,6 @@
 # Anomalies et décisions ouvertes
 
-- **P0-TEXTE-01** : défaite Argenta dépassant le tampon combat de300octets. Reproduction native jointe; correction prévue au premier lot Wyatt.
+- **P0-TEXTE-01 — RÉSOLU au jalon Wyatt** : texte de défaite raccourci, explications déplacées sur le terrain; vérifications natives du tampon et des combats dans `wyatt/`.
 - **P0-SCENARIO-01** : la version jouable ne contient pas le nouveau parcours complet ni le Temple/Soranaki. Ne pas la présenter comme conforme au nouveau pack.
 - **P0-PROGRESSION-01** : nouveau plan de huit trophées incompatible avec quatrième arène Céladopole/sixième Safrania actuelles. Définir migration et conditions avant réaffectation.
 - **P1-ROLES-01** : Steve Jaws introduction et Bérénice scientifique : répartition exacte, ressources visuelles nouvelles absentes. Pas de substitution arbitraire de portrait.

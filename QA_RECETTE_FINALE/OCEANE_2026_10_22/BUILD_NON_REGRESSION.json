@@ -1,0 +1,20 @@
+{
+  "baseline_commit": "292bd4fb0dd971570ff42f6fbc54e1ac16d2b910",
+  "changed_game_sources": [
+    "data/maps/SSAnne_2F_Corridor/text.inc",
+    "data/maps/SSAnne_CaptainsOffice/scripts.inc",
+    "data/maps/SSAnne_CaptainsOffice/text.inc",
+    "data/scripts/field_moves.inc"
+  ],
+  "unchanged_gameplay_data_graphics_and_audio": true,
+  "builds": {
+    "pokefirered.gba": {
+      "size_bytes": 16777216,
+      "sha256": "76045ac6931c3431d994243bf7e02260ec921e4ea97250ccf5222b11df71c897"
+    },
+    "pokefirered_audio.gba": {
+      "size_bytes": 31589579,
+      "sha256": "7a690e9b19643d18eb1ffb1b749134a2200a6aff46f9a289a13d30a86bad9b43"
+    }
+  }
+}

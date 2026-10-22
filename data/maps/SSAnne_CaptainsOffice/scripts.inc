@@ -15,14 +15,16 @@ SSAnne_CaptainsOffice_EventScript_Captain::
 	applymovement LOCALID_SS_ANNE_CAPTAIN, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut
-	giveitem_msg SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain, ITEM_HM01, 1, MUS_OBTAIN_KEY_ITEM
+	additem ITEM_HM01, 1
+	goto_if_eq VAR_RESULT, FALSE, SSAnne_CaptainsOffice_EventScript_NoRoomForCut
+	msgreceiveditem SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain, ITEM_HM01, 1, MUS_OBTAIN_KEY_ITEM
 	msgbox SSAnne_CaptainsOffice_Text_ExplainCut
 	setflag FLAG_GOT_HM01
 	setvar VAR_MAP_SCENE_VERMILION_CITY, 1
 	release
 	end
 
-@ Unused
+@ Leave the reward and departure pending if the item or TM Case cannot fit.
 SSAnne_CaptainsOffice_EventScript_NoRoomForCut::
 	msgbox SSAnne_CaptainsOffice_Text_YouHaveNoRoomForThis
 	closemessage

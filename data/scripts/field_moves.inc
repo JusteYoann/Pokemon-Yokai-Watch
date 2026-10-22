@@ -45,16 +45,17 @@ EventScript_DontCutTree::
 	end
 
 Text_CutTreeDown::
-	.string "This tree looks like it can be CUT\n"
-	.string "down!\p"
-	.string "Would you like to CUT it?$"
+	.string "Cet arbre peut être coupé.\n"
+	.string "Veux-tu utiliser Coupe?$"
 
 Text_MonUsedMove::
-	.string "{STR_VAR_1} used {STR_VAR_2}!$"
+	.string "{STR_VAR_1}\n"
+	.string "utilise {STR_VAR_2}!$"
 
 Text_TreeCanBeCutDown::
-	.string "This tree looks like it can be CUT\n"
-	.string "down!$"
+	.string "Cet arbre peut être coupé.\n"
+	.string "Il faut Coupe et le trophée\l"
+	.string "d'Azuria pour passer.$"
 
 EventScript_RockSmash::
 	goto_if_questlog EventScript_ReleaseEnd

@@ -2,14 +2,13 @@ SSAnne_2F_Corridor_Text_ThisShipIsLuxuryLiner::
     .string "Ce paquebot de luxe accueille\nles Dresseurs du monde entier!\pÀ chaque escale, nous organisons\ndes fêtes avec les Dresseurs invités.$"
 
 SSAnne_2F_Corridor_Text_RivalIntro::
-    .string "{RIVAL}: Bonjour, {PLAYER}!\pQuelle surprise de te voir ici!\nTu avais vraiment une invitation,\l{PLAYER}?\pAlors, ton Médallium avance?\pMoi, j'ai déjà capturé 40 espèces.\nIl y en a partout!\pFouille bien les hautes herbes\net ouvre les yeux!$"
+    .string "{RIVAL}: Salut, {PLAYER}!\pToi aussi, tu explores le bateau?\nIl y a des Yo-kai de tout Kanto!\pJ'ai noté mes observations\ndans mon Médallium.\pEt si on comparait nos équipes?\nUn combat nous fera progresser!$"
 
 SSAnne_2F_Corridor_Text_RivalDefeat::
-    .string "Pfff!\pAu moins, tu entraînes tes Yo-kai!$"
+    .string "Bien joué!\nTon équipe et toi faites la paire!$"
 
 SSAnne_2F_Corridor_Text_RivalVictory::
-    .string "{PLAYER}! Tu as le mal de mer?\pTu devrais t'endurcir un peu!$"
+    .string "Ton équipe a besoin de repos.\nOn réessaiera une autre fois!$"
 
 SSAnne_2F_Corridor_Text_RivalPostBattle::
-    .string "{RIVAL}: On m'avait parlé\nd'un expert de Coupe à bord.\pMais ce n'est qu'un vieil homme\nqui a le mal de mer!\pCoupe est quand même\nune capacité très utile.\pTu devrais aller le voir aussi.\nÀ plus!$"
-
+    .string "{RIVAL}: Tu cherches Coupe?\nLe capitaine connaît la technique.\pIl est dans sa cabine,\nau bout de cet escalier.\pIl a le mal de mer.\nIl aurait peut-être besoin d'aide.\pAvec le trophée d'Azuria,\nCoupe s'utilise hors combat.\pElle te permettra de rejoindre\nl'arène d'Ariane. À bientôt!$"
