@@ -14,5 +14,15 @@
     "identity_reference": "graphics/yokai/099/front.png, ressource du projet conservee",
     "engine_integration": false
   },
-  "manual_method": "Ouvrir un document indexe natif 16x32 par pose dans Aseprite/LibreSprite. Dessiner directement les pixels, palette GBA16 couleurs et index0 transparent. Reutiliser les GIF natifs des personnages valides comme exemples de taille et mouvement. Exporter le PNG natif ; le projet peut le convertir directement en4bpp. Les images de proposition sont des references de travail, jamais des substituts a une retouche pixel par pixel."
+  "manual_method": "Ouvrir un document indexe natif 16x32 par pose dans Aseprite/LibreSprite. Dessiner directement les pixels, palette GBA16 couleurs et index0 transparent. Reutiliser les GIF natifs des personnages valides comme exemples de taille et mouvement. Exporter le PNG natif ; le projet peut le convertir directement en4bpp. Les images de proposition sont des references de travail, jamais des substituts a une retouche pixel par pixel.",
+  "enma": {
+    "file": "enma-grille-refusee.png",
+    "reason": "La proposition de pas ne satisfait pas le controle de grille ; dessins fixes choisis conserves",
+    "engine_integration": false
+  },
+  "domniscian": {
+    "reason": "Le dessin choisi inclut son appareil dans la base de la silhouette ; pas de variante de marche fabriquee en le transformant en pieds",
+    "new_art_created": false,
+    "existing_art_preserved": true
+  }
 }

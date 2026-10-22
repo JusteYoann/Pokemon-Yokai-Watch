@@ -6,3 +6,6 @@ Ces dessins ne passent pas la validation de la grille et ne sont pas utilisés p
 - Coach Antonic : l’identité est basée sur le sprite de combat déjà présent, mais les détails et la grille restent trop irréguliers. Aucun nouvel événement ou identifiant moteur n’a été ajouté pour ce dessin.
 
 Voir ETAT.json pour les mesures et la méthode de reprise. Les GIF de travail placés dans source/ des personnages validés s’ouvrent dans Aseprite à leur vraie résolution 16 × 32. Ils ne sont pas des captures mGBA. Le jeu utilise les PNG indexés, pas ces GIF. Pour une retouche manuelle définitive, exporter et conserver le PNG natif, puis archiver le fichier de travail de l’éditeur ; ne pas réexécuter un ancien générateur d’illustrations sur cette retouche.
+
+- Seigneur Enma : essai de pas non conforme à la grille, non intégré. Les dessins fixes choisis sont conservés.
+- Domniscian : son ancien dessin comprend un appareil à la base de la silhouette ; ne pas inventer des pieds en modifiant cet accessoire. Pas de nouvelle ressource ni de changement de son dessin actif.

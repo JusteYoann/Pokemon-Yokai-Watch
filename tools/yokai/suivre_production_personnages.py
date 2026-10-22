@@ -12,7 +12,7 @@ OUT = ROOT/'docs/atelier-personnages/production'
 
 def csv_file(path, rows):
     with path.open('w', encoding='utf-8', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0]))
+        writer = csv.DictWriter(f, fieldnames=list(rows[0]), lineterminator='\n')
         writer.writeheader()
         writer.writerows(rows)
 
@@ -89,6 +89,10 @@ def main():
                 remaining = 'Marche supplementaire refusee par controle de grille ; dessin actif et portrait conserves'
             if actor == 'coach_antonic':
                 remaining = 'Proposition refusee, non integree ; retouche native necessaire, pas de nouvel evenement'
+            if actor == 'enma':
+                remaining = 'Ancien design conserve ; proposition de pas non conforme, non integree'
+            if actor == 'domniscian':
+                remaining = 'Ancien design fixe a son appareil conserve ; ne pas inventer des pieds pour ce dessin'
             reference = 'Protagoniste.rar (fourni par createur)' if actor in ('nathan', 'katie', 'matt') else 'Reference_CAMEOS_YOKAI_WATCH.rar (fourni par createur)' if actor in classic else 'Images de conversation du createur' if actor == 'dr_jobard' else 'Reference dediee a retrouver ou ressource existante a confirmer'
             progress.append(dict(personnage=row['nom'], id=actor, ressources_necessaires=row['ressources_attendues'],
                                  ressources_existantes=row['fichiers_presents'], ressources_manquantes=row['fichiers_a_retrouver_ou_creer'],
