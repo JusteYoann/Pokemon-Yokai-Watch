@@ -71,13 +71,15 @@ IndigoPlateau_PokemonCenter_1F_EventScript_Nurse::
 	release
 	end
 
-@ Save-compatible: the eight trophy slots reuse the eight native badge flags.
+@ Keep native badge slots plus the fourth-trophy provenance after the Celadon migration.
 @ Check every slot, rather than a count or the last trophy alone.
 IndigoPlateau_EventScript_CheckEightTrophies::
+	special RecognizeLegacySaffronTrophy
 	setvar VAR_RESULT, FALSE
 	goto_if_unset FLAG_BADGE01_GET, EventScript_Return
 	goto_if_unset FLAG_BADGE02_GET, EventScript_Return
 	goto_if_unset FLAG_BADGE03_GET, EventScript_Return
+	goto_if_unset FLAG_SCENARIO_ARIANE_TROPHY, EventScript_Return
 	goto_if_unset FLAG_BADGE04_GET, EventScript_Return
 	goto_if_unset FLAG_BADGE05_GET, EventScript_Return
 	goto_if_unset FLAG_BADGE06_GET, EventScript_Return

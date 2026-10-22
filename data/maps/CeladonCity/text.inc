@@ -48,9 +48,7 @@ CeladonCity_Text_CitySign::
     .string "The City of Rainbow Dreams$"
 
 CeladonCity_Text_GymSign::
-    .string "CELADON CITY Yo-kai GYM\n"
-    .string "LEADER: ERIKA\l"
-    .string "The Nature-Loving Princess!$"
+    .string "SERRE DE CÉLADOPOLE\nDéfi facultatif auprès d'Erika.\lAucun trophée n'est remis ici.$"
 
 CeladonCity_Text_MansionSign::
     .string "CELADON MANSION$"

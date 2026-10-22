@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "scope": "Independent map/warp graph and source contracts, complements runtime playtests",
+  "checks": [
+    "All systems reachable before gate; boss reachable only with gate open",
+    "Teleports required to reach side modules; all three pairs reciprocal and native pad behavior retained",
+    "All modules and boss have a path back to real city exits",
+    "All three native exit behaviors retained",
+    "Old Route25 actors hidden, no object capacity overflow",
+    "Celadon awards no badge; new Ariane awards fourth and never sixth",
+    "Historic teams and every map/layout ID retained"
+  ]
+}

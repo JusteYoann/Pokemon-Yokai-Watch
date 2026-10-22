@@ -3,6 +3,9 @@ SaffronCity_MapScripts::
 	.byte 0
 
 SaffronCity_OnTransition::
+	setflag FLAG_SCENARIO_SAFFRON_CITY_CURRENT
+	call_if_set FLAG_BADGE03_GET, SaffronCity_OpenScenarioGym
+	call_if_set FLAG_HIDE_SAFFRON_ROCKETS, SaffronCity_OpenScenarioGym
 	setworldmapflag FLAG_WORLD_MAP_SAFFRON_CITY
 	call_if_unset FLAG_RESCUED_MR_FUJI, SaffronCity_EventScript_MoveDoorGuardGrunt
 	end
@@ -94,7 +97,6 @@ SaffronCity_EventScript_DojoSign::
 
 SaffronCity_EventScript_GymSign::
 	lockall
-	famechecker FAMECHECKER_SABRINA, 0
 	msgbox SaffronCity_Text_GymSign
 	releaseall
 	end
@@ -122,3 +124,7 @@ SaffronCity_EventScript_SilphProductSign::
 SaffronCity_EventScript_TrainerFanClubSign::
 	msgbox SaffronCity_Text_TrainerFanClubSign, MSGBOX_SIGN
 	end
+
+SaffronCity_OpenScenarioGym::
+	setflag FLAG_SCENARIO_HIDE_SAFFRON_GYM_ROCKET
+	return

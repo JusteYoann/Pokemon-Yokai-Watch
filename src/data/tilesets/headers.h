@@ -757,3 +757,14 @@ const struct Tileset gTileset_AzuriaHearths =
     .metatileAttributes = gMetatileAttributes_AzuriaHearths,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_SaffronOrbit =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Museum,
+    .palettes = gTilesetPalettes_Museum,
+    .metatiles = gMetatiles_SaffronOrbit,
+    .metatileAttributes = gMetatileAttributes_SaffronOrbit,
+    .callback = NULL,
+};

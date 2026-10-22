@@ -1699,12 +1699,24 @@ static void FieldCB_ShowMapNameOnContinue(void)
     FieldCB_WarpExitFadeFromBlack();
 }
 
+void RecognizeLegacySaffronTrophy(void)
+{
+    // The historic Erika badge alone is not a fourth scenario trophy.
+    // Recognize a completed old Sabrina challenge; retain all historic badges.
+    if (FlagGet(FLAG_DEFEATED_SABRINA) && FlagGet(FLAG_BADGE06_GET))
+    {
+        FlagSet(FLAG_SCENARIO_ARIANE_TROPHY);
+        FlagSet(FLAG_BADGE04_GET);
+    }
+}
+
 void CB2_ContinueSavedGame(void)
 {
     FieldClearVBlankHBlankCallbacks();
     StopMapMusic();
     ResetSafariZoneFlag_();
     LoadSaveblockMapHeader();
+    RecognizeLegacySaffronTrophy();
     LoadSaveblockObjEventScripts();
     UnfreezeObjectEvents();
     Overworld_ResetStateOnContinue();
@@ -1735,7 +1747,16 @@ void CB2_ContinueSavedGame(void)
            && !FlagGet(FLAG_SCENARIO_CELADON_FRIEND_CURRENT))
           || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_VERMILION_CITY_GYM)
            && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_VERMILION_CITY_GYM)
-           && !FlagGet(FLAG_SCENARIO_CARMIN_GYM_CURRENT)))
+           && !FlagGet(FLAG_SCENARIO_CARMIN_GYM_CURRENT))
+          || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_SAFFRON_CITY_GYM)
+           && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_SAFFRON_CITY_GYM)
+           && !FlagGet(FLAG_SCENARIO_SAFFRON_GYM_CURRENT))
+          || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROUTE25)
+           && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE25)
+           && !FlagGet(FLAG_SCENARIO_ROUTE25_CURRENT))
+          || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_SAFFRON_CITY)
+           && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_SAFFRON_CITY)
+           && !FlagGet(FLAG_SCENARIO_SAFFRON_CITY_CURRENT)))
     {
         // Pre-chapter saves retain old tiles and object templates. Re-enter once
         // through the normal loader, at a safe position, to rebuild both.
@@ -1745,6 +1766,11 @@ void CB2_ContinueSavedGame(void)
             SetWarpDestination(MAP_GROUP(MAP_CERULEAN_CITY_GYM), MAP_NUM(MAP_CERULEAN_CITY_GYM), WARP_ID_NONE, 8, 17);
         else if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_VERMILION_CITY_GYM))
             SetWarpDestination(MAP_GROUP(MAP_VERMILION_CITY_GYM), MAP_NUM(MAP_VERMILION_CITY_GYM), WARP_ID_NONE, 5, 18);
+        else if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_SAFFRON_CITY_GYM))
+            SetWarpDestination(MAP_GROUP(MAP_SAFFRON_CITY_GYM), MAP_NUM(MAP_SAFFRON_CITY_GYM), WARP_ID_NONE, 14, 22);
+        else if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE25)
+              || gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_SAFFRON_CITY))
+            SetWarpDestination(gSaveBlock1Ptr->location.mapGroup, gSaveBlock1Ptr->location.mapNum, WARP_ID_NONE, gSaveBlock1Ptr->pos.x, gSaveBlock1Ptr->pos.y);
         else if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_CELADON_CITY))
             SetWarpDestination(MAP_GROUP(MAP_CELADON_CITY), MAP_NUM(MAP_CELADON_CITY), WARP_ID_NONE, gSaveBlock1Ptr->pos.x, gSaveBlock1Ptr->pos.y);
         else

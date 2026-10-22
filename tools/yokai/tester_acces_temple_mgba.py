@@ -23,6 +23,8 @@ def warp(r, x=4, y=3):
     r.run(500)
 
 def trophies(r, mask):
+    # Provenance of the fourth scenario trophy, independent of old Erika badge04.
+    r.call('FlagSet' if mask & (1 << 3) else 'FlagClear', 0x32F)
     for i in range(8):
         r.call('FlagSet' if mask & (1 << i) else 'FlagClear', 0x820 + i)
 
@@ -43,6 +45,17 @@ try:
         r.run(6)
         assert r.call('VarGet', 0x800D) == (mask == 255), mask
     results.append({'test': 'All 256 trophy combinations, native script result', 'passed': True})
+    # All native badges, including old Erika's badge04, do not replace Ariane.
+    trophies(r,255)
+    r.call('FlagClear',0x32F)
+    r.call('ScriptContext_SetupScript',r.symbols['IndigoPlateau_EventScript_CheckEightTrophies']);r.run(6)
+    assert r.call('VarGet',0x800D)==0
+    # Actual historic Sabrina defeat with native badge06 is recognized idempotently.
+    r.call('FlagSet',0x4B5)
+    r.call('ScriptContext_SetupScript',r.symbols['IndigoPlateau_EventScript_CheckEightTrophies']);r.run(8)
+    assert r.call('VarGet',0x800D)==1 and r.call('FlagGet',0x32F)
+    r.call('FlagClear',0x4B5)
+    results.append({'test':'Native badge04 from Erika alone cannot supply fourth scenario trophy; historic Sabrina defeat plus badge06 is recognized', 'passed':True})
     # Every missing single trophy must block actual northward movement.
     for missing in range(8):
         trophies(r, 255 ^ (1 << missing))
@@ -62,7 +75,7 @@ try:
     assert r.call('TrySavingData', 0, max_frames=1200) == 1
     trophies(r, 0)
     assert r.call('LoadGameSave', 0, max_frames=1200) == 1
-    assert all(r.call('FlagGet', 0x820 + i) for i in range(8))
+    assert all(r.call('FlagGet', 0x820 + i) for i in range(8)) and r.call('FlagGet',0x32F)
     results.append({'test': 'Eight trophy flags retained by native Flash save/load', 'passed': True})
     warp(r)
     r.keys = {4}

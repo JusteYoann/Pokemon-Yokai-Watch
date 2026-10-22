@@ -1,160 +1,49 @@
-SaffronCity_Gym_Text_SabrinaIntro::
-    .string "I had a vision of your arrival.\p"
-    .string "I have had psychic powers since\n"
-    .string "I was a child.\p"
-    .string "It started when a spoon I\n"
-    .string "carelessly tossed, bent.\p"
-    .string "I dislike battling, but if you wish,\n"
-    .string "I will show you my powers!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
-
-SaffronCity_Gym_Text_SabrinaDefeat::
-    .string "This loss shocks me!\n"
-    .string "But, a loss is a loss.\p"
-    .string "I admit, I didn't work hard enough\n"
-    .string "to win.\p"
-    .string "Your victory has earned you the\n"
-    .string "MARSHBADGE.$"
-
-SaffronCity_Gym_Text_SabrinaPostBattle::
-    .string "Psychic power isn't something that\n"
-    .string "only a few people have.\p"
-    .string "Everyone has psychic power.\n"
-    .string "People just don't realize it.$"
-
-SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis::
-    .string "The MARSHBADGE makes Yo-kai up\n"
-    .string "to Lv. 70 obey you.\p"
-    .string "Stronger Yo-kai will become wild,\n"
-    .string "ignoring your orders in battle.\p"
-    .string "Just don't raise your Yo-kai too\n"
-    .string "much to avoid that problem.\p"
-    .string "Wait, please take this TM with you.$"
-
-SaffronCity_Gym_Text_ReceivedTM04FromSabrina::
-    .string "{PLAYER} received TM04 from\n"
-    .string "SABRINA.$"
-
-SaffronCity_Gym_Text_ExplainTM04::
-    .string "TM04 is CALM MIND.\p"
-    .string "It makes the Yo-kai concentrate\n"
-    .string "to raise both SP. ATK and SP. DEF.$"
-
-SaffronCity_Gym_Text_BagFullOfOtherItems::
-    .string "Your BAG is full of other items.$"
-
-SaffronCity_Gym_Text_AmandaIntro::
-    .string "SABRINA is far younger than I,\n"
-    .string "but she has earned my respect.$"
-
-SaffronCity_Gym_Text_AmandaDefeat::
-    .string "Not good enough!$"
-
-SaffronCity_Gym_Text_AmandaPostBattle::
-    .string "In a battle of equals, the one\n"
-    .string "with the stronger will wins.\p"
-    .string "If you wish to beat SABRINA, focus\n"
-    .string "and will yourself to victory.$"
-
-SaffronCity_Gym_Text_JohanIntro::
-    .string "Does our unseen power scare you?$"
-
-SaffronCity_Gym_Text_JohanDefeat::
-    .string "I never foresaw this!$"
-
-SaffronCity_Gym_Text_JohanPostBattle::
-    .string "PSYCHIC Yo-kai fear only ghosts\n"
-    .string "and bugs!$"
-
-SaffronCity_Gym_Text_StacyIntro::
-    .string "Yo-kai take on the appearance of\n"
-    .string "their TRAINERS.\p"
-    .string "Your Yo-kai must be tough, then!$"
-
-SaffronCity_Gym_Text_StacyDefeat::
-    .string "I knew it!$"
-
-SaffronCity_Gym_Text_StacyPostBattle::
-    .string "I have much to learn still…\p"
-    .string "I must master PSYCHIC and teach it\n"
-    .string "to my Yo-kai…$"
-
-SaffronCity_Gym_Text_TyronIntro::
-    .string "You understand, don't you?\p"
-    .string "That power alone isn't enough to\n"
-    .string "win in the world of Yo-kai?$"
-
-SaffronCity_Gym_Text_TyronDefeat::
-    .string "I don't believe this!$"
-
-SaffronCity_Gym_Text_TyronPostBattle::
-    .string "SABRINA just wiped out the KARATE\n"
-    .string "MASTER next door.$"
-
-SaffronCity_Gym_Text_TashaIntro::
-    .string "You and I, our Yo-kai shall\n"
-    .string "battle!$"
-
-SaffronCity_Gym_Text_TashaDefeat::
-    .string "I lost after all!$"
-
-SaffronCity_Gym_Text_TashaPostBattle::
-    .string "I knew that this was going to take\n"
-    .string "place.$"
-
-SaffronCity_Gym_Text_CameronIntro::
-    .string "SABRINA is young, but she's also\n"
-    .string "our highly skilled LEADER.\p"
-    .string "You won't reach her easily!$"
-
-SaffronCity_Gym_Text_CameronDefeat::
-    .string "Ow!\n"
-    .string "Down and out!$"
-
-SaffronCity_Gym_Text_CameronPostBattle::
-    .string "There used to be two Yo-kai GYMS\n"
-    .string "in SAFFRON.\p"
-    .string "The FIGHTING DOJO next door lost\n"
-    .string "its GYM status, though.\p"
-    .string "We simply creamed them when we\n"
-    .string "decided to have just one GYM.$"
-
-SaffronCity_Gym_Text_PrestonIntro::
-    .string "SAFFRON Yo-kai GYM is famous for\n"
-    .string "training psychics.\p"
-    .string "You want to see SABRINA, don't\n"
-    .string "you? I can tell!$"
-
-SaffronCity_Gym_Text_PrestonDefeat::
-    .string "Arrrgh!$"
-
-SaffronCity_Gym_Text_PrestonPostBattle::
-    .string "That's right! I used telepathy to\n"
-    .string "read your mind!$"
-
-SaffronCity_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "SABRINA's Yo-kai use psychic\n"
-    .string "power instead of force.\p"
-    .string "FIGHTING Yo-kai are especially\n"
-    .string "weak against PSYCHIC Yo-kai.\p"
-    .string "They'll get destroyed before they\n"
-    .string "can even aim a punch!$"
-
-SaffronCity_Gym_Text_GymGuyPostVictory::
-    .string "Psychic power, huh?\p"
-    .string "If I had that, I'd make a bundle\n"
-    .string "at the slots!$"
-
-SaffronCity_Gym_Text_GymStatue::
-    .string "SAFFRON Yo-kai GYM\n"
-    .string "LEADER: SABRINA\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}$"
-
-SaffronCity_Gym_Text_GymStatuePlayerWon::
-    .string "SAFFRON Yo-kai GYM\n"
-    .string "LEADER: SABRINA\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}, {PLAYER}$"
-
+@ French dialogue based on scenario intentions, available for creative review.
+SaffronCity_Gym_Text_Intro::
+	.string "ARIANE: Tous les systèmes\nsont prêts! Beau travail!\pOn se croirait dans le final\nd'une série de héros de l'espace!\pUsapion, tu entends?\nC'est à nous d'entrer en scène!\pNotre équipe ne vise pas\nla Lune aujourd'hui...\pElle vise une belle victoire!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+SaffronCity_Gym_Text_Defeat::
+	.string "Quelle aventure!\nTu as remporté ce combat!$"
+SaffronCity_Gym_Text_FourthTrophy::
+	.string "{PLAYER} reçoit\nle quatrième trophée!\pARIANE: Votre équipe a assuré.\nMême Usapion est impressionné!$"
+SaffronCity_Gym_Text_ReceivedTM::
+	.string "Ariane remet\nla CT04 à {PLAYER}!$"
+SaffronCity_Gym_Text_ExplainTM::
+	.string "La CT04 enseigne Plénitude.\nElle augmente l'Attaque Spéciale\let la Défense Spéciale.\pCe trophée permet aussi Force,\nune fois la CS apprise\lpar un de tes Yo-kai.$"
+SaffronCity_Gym_Text_AfterVictory::
+	.string "Quatre trophées! Tu avances bien.\nLa suite promet des aventures!\pReviens après le Temple Céleste\npour une revanche avec Usapion.$"
+SaffronCity_Gym_Text_NeedsThird::
+	.string "ARIANE: Avant cette mission,\nobtiens le troisième trophée\lauprès de Bérénice à Carmin.\pUsapion et moi, on t'attendra!$"
+SaffronCity_Gym_Text_NeedsSystems::
+	.string "Il manque des systèmes actifs!\nÉnergie, navigation, puis radio.\pLes téléporteurs ramènent\ntoujours au hall d'accueil.$"
+SaffronCity_Gym_Text_PowerOn::
+	.string "Les réacteurs sont alimentés!\nLe terminal d'énergie s'allume.\pLe module de navigation\npeut maintenant démarrer.$"
+SaffronCity_Gym_Text_NeedsPower::
+	.string "La navigation manque d'énergie.\nActive d'abord le terminal\ldans le module de gauche.$"
+SaffronCity_Gym_Text_NavOn::
+	.string "Les coordonnées sont réglées!\nLa navigation est opérationnelle.\pLe terminal radio du hall\npeut joindre la passerelle.$"
+SaffronCity_Gym_Text_NeedsNav::
+	.string "Le signal n'a pas de destination.\nRègle d'abord la navigation\ldans le module de droite.$"
+SaffronCity_Gym_Text_CommsOffer::
+	.string "Usapion reçoit notre signal!\nAppeler la passerelle?$"
+SaffronCity_Gym_Text_CommsOn::
+	.string "ARIANE: Message reçu!\nRejoins-nous sur la passerelle!\pLe téléporteur central\nte mènera jusqu'à nous.$"
+SaffronCity_Gym_Text_CommsDecline::
+	.string "Le terminal reste disponible.\nTu pourras appeler plus tard.$"
+SaffronCity_Gym_Text_SystemAlreadyOn::
+	.string "Ce système est opérationnel.\nLa station garde ses réglages.$"
+SaffronCity_Gym_Text_Guide::
+	.string "Bienvenue dans la station!\nAriane aime l'espace et ses héros.\pLe cercle gauche mène à l'énergie,\nle droit à la navigation.\pActive-les dans cet ordre,\npuis appelle la passerelle\lau terminal radio du hall.\pLe cercle central mène à Ariane.\nLes trois trajets sont réversibles!\pSon équipe est surtout de type\nAcier. Mognyan est de type Psy.$"
+SaffronCity_Gym_Text_Usapion::
+	.string "Usapion vérifie son équipement.\nSon casque brille sous les lampes.\pIl semble prêt pour le combat!$"
+SaffronCity_Gym_Text_Statue::
+	.string "STATION DE SAFRANIA\nARIANE CÉLESTIN\pÉpreuve du quatrième trophée\nSpécialité: Acier$"
+SaffronCity_Gym_Text_NoRoom::
+	.string "Ton Sac est plein.\nFais de la place puis reviens.\pTon cadeau t'attendra ici!$"
+SaffronCity_Gym_Text_RematchOffer::
+	.string "Tu as franchi le Temple Céleste!\nNotre équipe a progressé aussi.\pPrêt pour une revanche\navec notre équipe complète?$"
+SaffronCity_Gym_Text_RematchDecline::
+	.string "Pas de souci!\nLa passerelle reste ouverte.$"
+SaffronCity_Gym_Text_RematchAfter::
+	.string "Merci pour cette revanche!\nIl faut que je note tout ça!$"
+SaffronCity_Gym_Text_MoonStone::
+	.string "Prends cette Pierre Lune.\nUsapion peut évoluer grâce à elle!$"

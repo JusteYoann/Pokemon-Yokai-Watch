@@ -13959,3 +13959,10 @@ static const struct TrainerMonItemCustomMoves sScenarioParty_BereniceThirdTrophy
     {.iv = 0, .lvl = 22, .species = SPECIES_MANKEY, .heldItem = ITEM_NONE, .moves = {MOVE_CONFUSION, MOVE_LEER, MOVE_SCRATCH, MOVE_NONE}},
     {.iv = 0, .lvl = 24, .species = SPECIES_VICTREEBEL, .heldItem = ITEM_NONE, .moves = {MOVE_PSYBEAM, MOVE_GROWL, MOVE_TACKLE, MOVE_NONE}},
 };
+
+static const struct TrainerMonItemCustomMoves sScenarioParty_ArianeFourthTrophy[] = {
+    {.iv = 0, .lvl = 28, .species = SPECIES_DROWZEE, .heldItem = ITEM_NONE, .moves = {MOVE_METAL_CLAW, MOVE_TACKLE, MOVE_DEFENSE_CURL, MOVE_NONE}},
+    {.iv = 0, .lvl = 28, .species = SPECIES_PIDGEOTTO, .heldItem = ITEM_NONE, .moves = {MOVE_METAL_CLAW, MOVE_QUICK_ATTACK, MOVE_HARDEN, MOVE_NONE}},
+    {.iv = 0, .lvl = 29, .species = SPECIES_DUGTRIO, .heldItem = ITEM_NONE, .moves = {MOVE_CONFUSION, MOVE_SWIFT, MOVE_GROWL, MOVE_NONE}},
+    {.iv = 0, .lvl = 30, .species = SPECIES_VOLTORB, .heldItem = ITEM_NONE, .moves = {MOVE_METAL_CLAW, MOVE_SHOCK_WAVE, MOVE_QUICK_ATTACK, MOVE_NONE}},
+};

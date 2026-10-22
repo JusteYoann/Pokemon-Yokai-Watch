@@ -13629,79 +13629,67 @@
     "source_party": "sParty_LeaderBlaine"
   },
   "TRAINER_LEADER_SABRINA": {
-    "mode": "locked_boss",
+    "mode": "scenario_safrania",
+    "source_party": "sScenarioParty_ArianeFourthTrophy",
+    "items": [],
     "party": [
       {
-        "species": "SPECIES_VENOMOTH",
-        "level": 36,
+        "species": "SPECIES_DROWZEE",
+        "level": 28,
+        "iv": 0,
         "moves": [
-          "MOVE_CONFUSION",
-          "MOVE_POUND",
-          "MOVE_DISABLE",
-          "MOVE_LEER"
+          "MOVE_METAL_CLAW",
+          "MOVE_TACKLE",
+          "MOVE_DEFENSE_CURL",
+          "MOVE_NONE"
         ],
-        "ability": "ABILITY_INNER_FOCUS",
-        "ability_num": 1,
-        "held_item": "ITEM_NONE"
-      },
-      {
-        "species": "SPECIES_MANKEY",
-        "level": 37,
-        "moves": [
-          "MOVE_PSYBEAM",
-          "MOVE_CONFUSION",
-          "MOVE_DISABLE",
-          "MOVE_HEADBUTT"
-        ],
-        "ability": "ABILITY_SYNCHRONIZE",
+        "ability": "ABILITY_STURDY",
         "ability_num": 0,
         "held_item": "ITEM_NONE"
       },
       {
-        "species": "SPECIES_FLAREON",
-        "level": 38,
+        "species": "SPECIES_PIDGEOTTO",
+        "level": 28,
+        "iv": 0,
         "moves": [
-          "MOVE_PSYBEAM",
-          "MOVE_REFLECT",
-          "MOVE_HEADBUTT",
-          "MOVE_MEDITATE"
+          "MOVE_METAL_CLAW",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_HARDEN",
+          "MOVE_NONE"
         ],
-        "ability": "ABILITY_INNER_FOCUS",
-        "ability_num": 1,
+        "ability": "ABILITY_BATTLE_ARMOR",
+        "ability_num": 0,
         "held_item": "ITEM_NONE"
       },
       {
         "species": "SPECIES_DUGTRIO",
-        "level": 39,
+        "level": 29,
+        "iv": 0,
         "moves": [
-          "MOVE_PSYBEAM",
           "MOVE_CONFUSION",
-          "MOVE_DISABLE",
-          "MOVE_HEADBUTT"
+          "MOVE_SWIFT",
+          "MOVE_GROWL",
+          "MOVE_NONE"
         ],
         "ability": "ABILITY_SYNCHRONIZE",
         "ability_num": 0,
         "held_item": "ITEM_NONE"
       },
       {
-        "species": "SPECIES_ZAPDOS",
-        "level": 42,
+        "species": "SPECIES_VOLTORB",
+        "level": 30,
+        "iv": 0,
         "moves": [
-          "MOVE_EXTRASENSORY",
-          "MOVE_FUTURE_SIGHT",
-          "MOVE_DISABLE",
-          "MOVE_CONFUSION"
+          "MOVE_METAL_CLAW",
+          "MOVE_SHOCK_WAVE",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_NONE"
         ],
-        "ability": "ABILITY_TRACE",
+        "ability": "ABILITY_KEEN_EYE",
         "ability_num": 0,
         "held_item": "ITEM_NONE"
       }
-    ],
-    "items": [
-      "ITEM_HYPER_POTION",
-      "ITEM_FULL_HEAL"
-    ],
-    "source_party": "sParty_LeaderSabrina"
+    ]
   },
   "TRAINER_GENTLEMAN_THOMAS": {
     "mode": "ordinary",

@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "rom_sha256": "bc2d8878c4d13da8eb4f135579d70beeba6e064ccd364bd3bda4ebb49054fac5",
+  "scope": "Independent explicit progression/party/legacy-state fixtures. Native controls, Flash/Continue prepared with SaveMapView; no archived player save.",
+  "results": [
+    {
+      "test": "Actual level1 whiteout: prior trophies and systems retained, healed player, no fourth/sixth trophy, TM or boss win",
+      "passed": true,
+      "battle_frames": 3240
+    },
+    {
+      "test": "Energy requires third trophy; all seven incomplete-system combinations reject physical gate/direct boss even with historical Erika badge04; complete systems without third trophy still rejected",
+      "passed": true
+    },
+    {
+      "test": "Engineered prior-Sabrina Flash/Continue save: safe entry/new actor templates, historic victory recognized as fourth, native sixth retained, no new system replay, pending TM and old Moon Stone full-stack retries without battle, subsequent exact position and persistent rewards",
+      "passed": true
+    },
+    {
+      "test": "Native Continue of engineered old Route25 state with both actors actually spawned: relocation hides Ariane/Usapion, retains position and rebuilds templates",
+      "passed": true
+    },
+    {
+      "test": "Actual optional Erika four-member battle with ordinary fixture team; unique pending TM19/full-stack retry and persistence; neither native fourth badge nor Ariane trophy awarded",
+      "passed": true,
+      "battle_frames": 9687
+    },
+    {
+      "test": "Relocated optional postgame rematch, No accepted, original five-member party, unique Moon Stone full-stack pending/retry without another battle and persisted reward; no sixth badge",
+      "passed": true,
+      "battle_frames": 6279,
+      "fixture": "Hovernyan100, Aerial Ace, explicitly boosted HP/stats999: postgame event-flow check only, not balance"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "rom_sha256": "bc2d8878c4d13da8eb4f135579d70beeba6e064ccd364bd3bda4ebb49054fac5",
+  "scope": "Native scripts and button movement at the entrance, fixture warp; existing first room still contains old League content. Not a full adventure or new Temple validation.",
+  "results": [
+    {
+      "test": "All 256 trophy combinations, native script result",
+      "passed": true
+    },
+    {
+      "test": "Native badge04 from Erika alone cannot supply fourth scenario trophy; historic Sabrina defeat plus badge06 is recognized",
+      "passed": true
+    },
+    {
+      "test": "Eight actual entrance crossings refused, one distinct missing trophy each; safe step back",
+      "passed": true
+    },
+    {
+      "test": "Eight trophy flags retained by native Flash save/load",
+      "passed": true
+    },
+    {
+      "test": "All eight trophies permit actual warp into first room",
+      "passed": true
+    }
+  ]
+}

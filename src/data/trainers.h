@@ -4172,12 +4172,11 @@ const struct Trainer gTrainers[] = {
     [TRAINER_LEADER_SABRINA] = {
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
-        .trainerPic = TRAINER_PIC_LEADER_SABRINA,
-        .trainerName = _("MORGANE"),
-        .items = {ITEM_HYPER_POTION, ITEM_FULL_HEAL},
-        .doubleBattle = FALSE,
+        .trainerPic = TRAINER_PIC_ARIANE,
+        .trainerName = _("Ariane"),
+        .items = {}, .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sYokaiParty_LEADER_SABRINA),
+        .party = ITEM_CUSTOM_MOVES(sScenarioParty_ArianeFourthTrophy),
     },
     [TRAINER_GENTLEMAN_THOMAS] = {
         .trainerClass = TRAINER_CLASS_GENTLEMAN,

@@ -70,9 +70,7 @@ SaffronCity_Text_FightingDojo::
     .string "FIGHTING DOJO$"
 
 SaffronCity_Text_GymSign::
-    .string "SAFFRON CITY Yo-kai GYM\n"
-    .string "LEADER: SABRINA\l"
-    .string "The Master of PSYCHIC Yo-kai!$"
+    .string "STATION DE SAFRANIA\nARIANE CÉLESTIN\lÉpreuve du quatrième trophée!$"
 
 SaffronCity_Text_FullHealCuresStatus::
     .string "TRAINER TIPS\p"

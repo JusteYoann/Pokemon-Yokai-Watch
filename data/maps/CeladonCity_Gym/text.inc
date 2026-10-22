@@ -1,52 +1,23 @@
 CeladonCity_Gym_Text_ErikaIntro::
-    .string "Hello…\n"
-    .string "Lovely weather, isn't it?\l"
-    .string "It's so pleasant…\p"
-    .string "…Oh, dear…\n"
-    .string "I must have dozed off. Welcome.\p"
-    .string "My name is ERIKA.\n"
-    .string "I am the LEADER of CELADON GYM.\p"
-    .string "I am a student of the art of\n"
-    .string "flower arranging.\p"
-    .string "My Yo-kai are solely of the\n"
-    .string "GRASS type.\p"
-    .string "…Oh, I'm sorry, I had no idea that\n"
-    .string "you wished to challenge me.\p"
-    .string "Very well, but I shall not lose.{PLAY_BGM MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "ERIKA: Bienvenue dans la serre.\nMes Yo-kai aiment ce calme.\pJe propose un défi facultatif,\nsans trophée. Un combat te tente?{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 CeladonCity_Gym_Text_ErikaDefeat::
-    .string "Oh!\n"
-    .string "I concede defeat.\l"
-    .string "You are remarkably strong.\p"
-    .string "I must confer on you the\n"
-    .string "RAINBOWBADGE.$"
+    .string "Quel beau combat!\nTu as gagné!$"
 
 CeladonCity_Gym_Text_ErikaPostBattle::
-    .string "You are cataloging Yo-kai?\n"
-    .string "I must say I'm impressed.\p"
-    .string "I would never collect Yo-kai if\n"
-    .string "they were unattractive.$"
+    .string "Observer les Yo-kai m'apprend\nbeaucoup sur cette serre.\pReviens te promener\nquand tu voudras!$"
 
 CeladonCity_Gym_Text_ExplainRainbowBadgeTakeThis::
-    .string "The RAINBOWBADGE will make\n"
-    .string "Yo-kai up to Lv. 50 obey.\p"
-    .string "It also allows Yo-kai to use\n"
-    .string "STRENGTH in and out of battle.\p"
-    .string "Please also take this with you.$"
+    .string "Merci pour ce combat.\nPrends cette CT en souvenir!\pLes trophées sont remis\npar les huit Champions.\pLe quatrième t'attend auprès\nd'Ariane, à Safrania.$"
 
 CeladonCity_Gym_Text_ReceivedTM19FromErika::
-    .string "{PLAYER} received TM19\n"
-    .string "from ERIKA.$"
+    .string "Erika remet\nla CT19 à {PLAYER}.$"
 
 CeladonCity_Gym_Text_ExplainTM19::
-    .string "TM19 contains GIGA DRAIN.\p"
-    .string "Half the damage it inflicts is\n"
-    .string "drained to heal your Yo-kai.\p"
-    .string "Wouldn't you agree that it's a\n"
-    .string "wonderful move?$"
+    .string "La CT19 enseigne Giga-Sangsue.\nCette attaque rend des PV\len infligeant des dégâts.$"
 
 CeladonCity_Gym_Text_ShouldMakeRoomForThis::
-    .string "You should make room for this.$"
+    .string "Ton Sac est plein.\nTa CT t'attendra ici.$"
 
 CeladonCity_Gym_Text_KayIntro::
     .string "I should tell you about this GYM.\p"
@@ -139,14 +110,8 @@ CeladonCity_Gym_Text_MaryPostBattle::
     .string "Wait until next time!$"
 
 CeladonCity_Gym_Text_GymStatue::
-    .string "CELADON Yo-kai GYM\n"
-    .string "LEADER: ERIKA\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}$"
+    .string "SERRE DE CÉLADOPOLE\nDéfi facultatif d'Erika\pAucun trophée n'est remis ici.$"
 
 CeladonCity_Gym_Text_GymStatuePlayerWon::
-    .string "CELADON Yo-kai GYM\n"
-    .string "LEADER: ERIKA\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}, {PLAYER}$"
+    .string "SERRE DE CÉLADOPOLE\nDéfi d'Erika réussi!\pMerci de votre visite.$"
 

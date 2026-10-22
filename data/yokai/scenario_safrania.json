@@ -1,0 +1,78 @@
+{
+  "status": "native_chapter_flow_passed_legacy_and_optional_checks_pending",
+  "canonical_trophy_flag": "FLAG_SCENARIO_ARIANE_TROPHY",
+  "native_badge_flag": "FLAG_BADGE04_GET",
+  "systems": [
+    "FLAG_SCENARIO_ORBIT_POWER",
+    "FLAG_SCENARIO_ORBIT_NAV",
+    "FLAG_SCENARIO_ORBIT_COMMS"
+  ],
+  "old_party_preserved": "sYokaiParty_LEADER_SABRINA",
+  "active_trainer": {
+    "mode": "scenario_safrania",
+    "source_party": "sScenarioParty_ArianeFourthTrophy",
+    "items": [],
+    "party": [
+      {
+        "species": "SPECIES_DROWZEE",
+        "level": 28,
+        "iv": 0,
+        "moves": [
+          "MOVE_METAL_CLAW",
+          "MOVE_TACKLE",
+          "MOVE_DEFENSE_CURL",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_STURDY",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_PIDGEOTTO",
+        "level": 28,
+        "iv": 0,
+        "moves": [
+          "MOVE_METAL_CLAW",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_HARDEN",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_BATTLE_ARMOR",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_DUGTRIO",
+        "level": 29,
+        "iv": 0,
+        "moves": [
+          "MOVE_CONFUSION",
+          "MOVE_SWIFT",
+          "MOVE_GROWL",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_SYNCHRONIZE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_VOLTORB",
+        "level": 30,
+        "iv": 0,
+        "moves": [
+          "MOVE_METAL_CLAW",
+          "MOVE_SHOCK_WAVE",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_KEEN_EYE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  },
+  "balance_status": "Proposed species; levels28/28/29/30, IV0 and moves provisional",
+  "legacy_policy": "Recognize old Sabrina defeat plus native badge06 as fourth trophy. Retain historical native badges. Old Erika badge04 alone never satisfies the canonical fourth trophy; Celadon no longer grants any badge.",
+  "cameo_migration": "Route25 Ariane/Usapion hidden; original five-member postgame team and unique Moon Stone reward relocated into station",
+  "species_name_note": "Usapion from scenario uses SPECIES_VOLTORB, displayed Usapyon in active Pokedex; IDs/names unchanged"
+}
