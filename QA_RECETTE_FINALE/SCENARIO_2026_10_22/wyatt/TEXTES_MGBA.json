@@ -1,0 +1,946 @@
+{
+  "passed": true,
+  "rom_sha256": "4f5616eea6116cba1892658bbc996a17045ca3e1bd570e2428527a604a4a5f93",
+  "scope": "Native normal-font width checks for the Wyatt lot; conservative seven-W player name.",
+  "max_pixels": 208,
+  "results": [
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_BrockIntro",
+      "text": "Salut! Je suis Wyatt,",
+      "pixels": 117,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_BrockIntro",
+      "text": "le Champion de cette Arène.",
+      "pixels": 153,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_BrockIntro",
+      "text": "Mes Yo-kai sont aussi tenaces",
+      "pixels": 160,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_BrockIntro",
+      "text": "que la roche!",
+      "pixels": 76,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_BrockIntro",
+      "text": "Tu veux remporter mon trophée?",
+      "pixels": 173,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_BrockIntro",
+      "text": "Alors, montre-moi ton courage!",
+      "pixels": 168,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_BrockDefeat",
+      "text": "Bien joué!",
+      "pixels": 57,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_BrockDefeat",
+      "text": "Tu as gagné mon trophée!",
+      "pixels": 139,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_BrockDefeat",
+      "text": "Wyatt remet",
+      "pixels": 62,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_BrockDefeat",
+      "text": "le Trophée Roche à WWWWWWW!",
+      "pixels": 160,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_TakeThisWithYou",
+      "text": "Le Trophée Roche renforce",
+      "pixels": 145,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_TakeThisWithYou",
+      "text": "la puissance de tes Yo-kai.",
+      "pixels": 150,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_TakeThisWithYou",
+      "text": "Il permet aussi d'utiliser Flash",
+      "pixels": 172,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_TakeThisWithYou",
+      "text": "en dehors des combats.",
+      "pixels": 125,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_TakeThisWithYou",
+      "text": "Un Yo-kai doit connaître",
+      "pixels": 133,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_TakeThisWithYou",
+      "text": "la capacité pour l'utiliser.",
+      "pixels": 150,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_TakeThisWithYou",
+      "text": "Prends aussi cette CT!",
+      "pixels": 123,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_ReceivedTM39FromBrock",
+      "text": "Wyatt remet",
+      "pixels": 62,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_ReceivedTM39FromBrock",
+      "text": "la CT39 à WWWWWWW.",
+      "pixels": 106,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_ExplainTM39",
+      "text": "Une CT, ou Capsule Technique,",
+      "pixels": 166,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_ExplainTM39",
+      "text": "enseigne une capacité à un Yo-kai.",
+      "pixels": 190,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_ExplainTM39",
+      "text": "Chaque CT ne sert qu'une fois:",
+      "pixels": 167,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_ExplainTM39",
+      "text": "choisis bien son destinataire.",
+      "pixels": 159,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_ExplainTM39",
+      "text": "La CT39 contient Tomberoche.",
+      "pixels": 160,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_ExplainTM39",
+      "text": "Des rochers s'abattent sur la cible",
+      "pixels": 192,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_ExplainTM39",
+      "text": "et réduisent sa Vitesse.",
+      "pixels": 130,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_BrockPostBattle",
+      "text": "Notre monde compte",
+      "pixels": 104,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_BrockPostBattle",
+      "text": "toutes sortes de Dresseurs.",
+      "pixels": 149,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_BrockPostBattle",
+      "text": "Tu sembles avoir un vrai talent",
+      "pixels": 172,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_BrockPostBattle",
+      "text": "pour combattre avec les Yo-kai.",
+      "pixels": 176,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_BrockPostBattle",
+      "text": "Un conseil:",
+      "pixels": 59,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_BrockPostBattle",
+      "text": "va tester tes capacités",
+      "pixels": 128,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_BrockPostBattle",
+      "text": "à l'Arène de CERULEAN CITY.",
+      "pixels": 155,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_DontHaveRoomForThis",
+      "text": "Tu n'as pas de place pour ça.",
+      "pixels": 165,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_LiamIntro",
+      "text": "Halte-là!",
+      "pixels": 51,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_LiamIntro",
+      "text": "Tu es à dix mille années-lumière",
+      "pixels": 178,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_LiamIntro",
+      "text": "de pouvoir affronter Wyatt!",
+      "pixels": 151,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_LiamDefeat",
+      "text": "Zut! Les années-lumière",
+      "pixels": 129,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_LiamDefeat",
+      "text": "mesurent une distance…",
+      "pixels": 122,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_LiamDefeat",
+      "text": "Pas une durée!",
+      "pixels": 81,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_LiamPostBattle",
+      "text": "Tu es fort…",
+      "pixels": 62,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_LiamPostBattle",
+      "text": "Mais moins que Wyatt!",
+      "pixels": 117,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_LetMeTakeYouToTheTop",
+      "text": "Salut! Tu as de grands rêves?",
+      "pixels": 166,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_LetMeTakeYouToTheTop",
+      "text": "Devenir Maître des Yo-kai,",
+      "pixels": 145,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_LetMeTakeYouToTheTop",
+      "text": "ça te dirait?",
+      "pixels": 71,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_LetMeTakeYouToTheTop",
+      "text": "Je ne suis pas Dresseur,",
+      "pixels": 133,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_LetMeTakeYouToTheTop",
+      "text": "mais je peux te conseiller.",
+      "pixels": 150,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_LetMeTakeYouToTheTop",
+      "text": "En route vers les sommets!",
+      "pixels": 146,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_LetsGetHappening",
+      "text": "Parfait!",
+      "pixels": 43,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_LetsGetHappening",
+      "text": "C'est parti!",
+      "pixels": 63,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_TryDifferentPartyOrders",
+      "text": "Le premier Yo-kai de ta liste",
+      "pixels": 161,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_TryDifferentPartyOrders",
+      "text": "entre au combat en premier.",
+      "pixels": 152,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_TryDifferentPartyOrders",
+      "text": "Tu peux gagner un avantage",
+      "pixels": 151,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_TryDifferentPartyOrders",
+      "text": "en modifiant l'ordre de l'équipe.",
+      "pixels": 177,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_TryDifferentPartyOrders",
+      "text": "Adapte-le aux Yo-kai",
+      "pixels": 115,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_TryDifferentPartyOrders",
+      "text": "de ton adversaire.",
+      "pixels": 100,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_ItsFreeLetsGetHappening",
+      "text": "Mes conseils sont gratuits!",
+      "pixels": 146,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_ItsFreeLetsGetHappening",
+      "text": "C'est parti!",
+      "pixels": 63,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_YoureChampMaterial",
+      "text": "Je le savais!",
+      "pixels": 73,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_YoureChampMaterial",
+      "text": "Tu as l'étoffe d'un Maître Yo-kai!",
+      "pixels": 187,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_GymStatue",
+      "text": "ARÈNE DE PEWTER CITY",
+      "pixels": 120,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_GymStatue",
+      "text": "CHAMPION: WYATT",
+      "pixels": 89,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_GymStatue",
+      "text": "DRESSEURS VICTORIEUX:",
+      "pixels": 125,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_GymStatue",
+      "text": "Matt",
+      "pixels": 22,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_GymStatuePlayerWon",
+      "text": "ARÈNE DE PEWTER CITY",
+      "pixels": 120,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_GymStatuePlayerWon",
+      "text": "CHAMPION: WYATT",
+      "pixels": 89,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_GymStatuePlayerWon",
+      "text": "DRESSEURS VICTORIEUX:",
+      "pixels": 125,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "symbol": "PewterCity_Gym_Text_GymStatuePlayerWon",
+      "text": "Matt, WWWWWWW",
+      "pixels": 75,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "symbol": "PewterCity_Text_BrockOnlySeriousTrainerHere",
+      "text": "Il y a peu de Dresseurs de Yo-kai",
+      "pixels": 189,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "symbol": "PewterCity_Text_BrockOnlySeriousTrainerHere",
+      "text": "vraiment sérieux dans le coin.",
+      "pixels": 164,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "symbol": "PewterCity_Text_BrockOnlySeriousTrainerHere",
+      "text": "Beaucoup collectionnent",
+      "pixels": 129,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "symbol": "PewterCity_Text_BrockOnlySeriousTrainerHere",
+      "text": "les Yo-kai pour le plaisir.",
+      "pixels": 147,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "symbol": "PewterCity_Text_BrockOnlySeriousTrainerHere",
+      "text": "Mais Wyatt, le Champion",
+      "pixels": 128,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "symbol": "PewterCity_Text_BrockOnlySeriousTrainerHere",
+      "text": "de l'Arène, c'est autre chose!",
+      "pixels": 165,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "symbol": "PewterCity_Text_BrocksLookingForChallengersFollowMe",
+      "text": "Tu es Dresseur de Yo-kai?",
+      "pixels": 142,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "symbol": "PewterCity_Text_BrocksLookingForChallengersFollowMe",
+      "text": "Wyatt cherche",
+      "pixels": 75,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "symbol": "PewterCity_Text_BrocksLookingForChallengersFollowMe",
+      "text": "de nouveaux adversaires. Suis-moi!",
+      "pixels": 191,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "symbol": "PewterCity_Text_GoTakeOnBrock",
+      "text": "Si tu t'en sens capable,",
+      "pixels": 131,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "symbol": "PewterCity_Text_GoTakeOnBrock",
+      "text": "va défier Wyatt!",
+      "pixels": 90,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "symbol": "PewterCity_Text_DefeatedBrockYouCanHaveTreasure",
+      "text": "Hé! Ce Badge…",
+      "pixels": 78,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "symbol": "PewterCity_Text_DefeatedBrockYouCanHaveTreasure",
+      "text": "Tu as battu Wyatt? Bravo!",
+      "pixels": 144,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "symbol": "PewterCity_Text_DefeatedBrockYouCanHaveTreasure",
+      "text": "Pour te féliciter,",
+      "pixels": 97,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "symbol": "PewterCity_Text_DefeatedBrockYouCanHaveTreasure",
+      "text": "je vais te donner mon trésor!",
+      "pixels": 162,
+      "passed": true
+    },
+    {
+      "file": "data/maps/MtMoon_1F/text.inc",
+      "symbol": "MtMoon_1F_Text_BrockHelpsExcavateFossils",
+      "text": "Bonjour! Je cherche des fossiles",
+      "pixels": 181,
+      "passed": true
+    },
+    {
+      "file": "data/maps/MtMoon_1F/text.inc",
+      "symbol": "MtMoon_1F_Text_BrockHelpsExcavateFossils",
+      "text": "dans les profondeurs de MT. MOON.",
+      "pixels": 187,
+      "passed": true
+    },
+    {
+      "file": "data/maps/MtMoon_1F/text.inc",
+      "symbol": "MtMoon_1F_Text_BrockHelpsExcavateFossils",
+      "text": "Wyatt, le Champion de PEWTER CITY,",
+      "pixels": 196,
+      "passed": true
+    },
+    {
+      "file": "data/maps/MtMoon_1F/text.inc",
+      "symbol": "MtMoon_1F_Text_BrockHelpsExcavateFossils",
+      "text": "vient parfois m'aider.",
+      "pixels": 116,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock0",
+      "text": "Que fait cette personne?",
+      "pixels": 134,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock0",
+      "text": "Champion de l'Arène",
+      "pixels": 105,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock0",
+      "text": "d'Argenta: Wyatt.",
+      "pixels": 92,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock0",
+      "text": "Un Dresseur solide comme le roc!",
+      "pixels": 181,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock1",
+      "text": "Ses Yo-kai préférés?",
+      "pixels": 112,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock1",
+      "text": "Mes Yo-kai sont aussi tenaces",
+      "pixels": 160,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock1",
+      "text": "que la roche!",
+      "pixels": 76,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock2",
+      "text": "Quel est son caractère?",
+      "pixels": 130,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock2",
+      "text": "Wyatt prend les combats au sérieux.",
+      "pixels": 197,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock2",
+      "text": "Il encourage ceux qui osent",
+      "pixels": 154,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock2",
+      "text": "le défier.",
+      "pixels": 54,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock3",
+      "text": "Quel est son caractère?",
+      "pixels": 130,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock3",
+      "text": "Wyatt est fort et courageux.",
+      "pixels": 158,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock3",
+      "text": "Moi aussi, j'aimerais devenir",
+      "pixels": 154,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock3",
+      "text": "Champion un jour!",
+      "pixels": 97,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock4",
+      "text": "Que fait cette personne?",
+      "pixels": 134,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock4",
+      "text": "Je cherche des fossiles",
+      "pixels": 129,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock4",
+      "text": "dans le Mont Sélénite.",
+      "pixels": 121,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock4",
+      "text": "Wyatt vient parfois m'aider.",
+      "pixels": 150,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock5",
+      "text": "Quel est son caractère?",
+      "pixels": 130,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock5",
+      "text": "Wyatt aime relever les défis.",
+      "pixels": 160,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock5",
+      "text": "Face à lui, mieux vaut",
+      "pixels": 125,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorText_Brock5",
+      "text": "préparer son équipe!",
+      "pixels": 113,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerPersonName_Brock",
+      "text": "Wyatt",
+      "pixels": 28,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerPersonQuote_Brock",
+      "text": "De: Wyatt",
+      "pixels": 51,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerPersonQuote_Brock",
+      "text": "Pour: WWWWWWW",
+      "pixels": 76,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerPersonQuote_Brock",
+      "text": "Le monde compte beaucoup",
+      "pixels": 142,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerPersonQuote_Brock",
+      "text": "de Dresseurs redoutables.",
+      "pixels": 140,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerPersonQuote_Brock",
+      "text": "Continuons à nous entraîner",
+      "pixels": 148,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerPersonQuote_Brock",
+      "text": "avec nos Yo-kai!",
+      "pixels": 91,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorTextOriginLocation_Brock0",
+      "text": "PEWTER CITY",
+      "pixels": 66,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorTextOriginLocation_Brock1",
+      "text": "PEWTER GYM",
+      "pixels": 60,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorTextOriginLocation_Brock2",
+      "text": "PEWTER CITY",
+      "pixels": 66,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorTextOriginLocation_Brock3",
+      "text": "ROUTE 4",
+      "pixels": 42,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorTextOriginLocation_Brock4",
+      "text": "MT. MOON",
+      "pixels": 47,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorTextOriginLocation_Brock5",
+      "text": "PEWTER MUSEUM",
+      "pixels": 78,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorTextOriginObjectName_Brock0",
+      "text": "SIGN",
+      "pixels": 24,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorTextOriginObjectName_Brock1",
+      "text": "Wyatt",
+      "pixels": 28,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorTextOriginObjectName_Brock2",
+      "text": "YOUNG MAN",
+      "pixels": 54,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorTextOriginObjectName_Brock3",
+      "text": "BOY",
+      "pixels": 18,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorTextOriginObjectName_Brock4",
+      "text": "MAN",
+      "pixels": 18,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "gFameCheckerFlavorTextOriginObjectName_Brock5",
+      "text": "Yo-kai JOURNAL",
+      "pixels": 81,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "PokemonJournal_Text_SpecialFeatureBrock",
+      "text": "JOURNAL DES YO-KAI",
+      "pixels": 108,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "PokemonJournal_Text_SpecialFeatureBrock",
+      "text": "À la une: Wyatt,",
+      "pixels": 90,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "PokemonJournal_Text_SpecialFeatureBrock",
+      "text": "le Champion d'Argenta!",
+      "pixels": 122,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "PokemonJournal_Text_SpecialFeatureBrock",
+      "text": "Wyatt aime relever les défis.",
+      "pixels": 160,
+      "passed": true
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "symbol": "PokemonJournal_Text_SpecialFeatureBrock",
+      "text": "Préparez bien votre équipe!",
+      "pixels": 153,
+      "passed": true
+    }
+  ]
+}

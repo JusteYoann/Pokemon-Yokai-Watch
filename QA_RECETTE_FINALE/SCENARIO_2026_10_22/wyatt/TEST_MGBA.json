@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "rom_sha256": "4f5616eea6116cba1892658bbc996a17045ca3e1bd570e2428527a604a4a5f93",
+  "scope": "Argenta/Wyatt: real controller battles on a warp fixture, not a full adventure.",
+  "fixtures": "Fresh real new-game for each gender, warp to Gym, level100/999stats party for victory or level1/1HP for defeat; not a balance or access-through-story test.",
+  "results": [
+    {
+      "test": "nathan",
+      "passed": true,
+      "frames": 4224,
+      "correct_overworld": true,
+      "correct_trainer_identity": true,
+      "real_controller_victory": true,
+      "trophy_and_tm39": true,
+      "tm39_unique": true,
+      "full_tm_stack_retry": true,
+      "native_flash_reload": true
+    },
+    {
+      "test": "katie",
+      "passed": true,
+      "frames": 4224,
+      "correct_overworld": true,
+      "correct_trainer_identity": true,
+      "real_controller_victory": true,
+      "trophy_and_tm39": true,
+      "tm39_unique": true,
+      "full_tm_stack_retry": false,
+      "native_flash_reload": true
+    },
+    {
+      "test": "Defeat/whiteout grants no trophy or reward",
+      "passed": true,
+      "frames": 2304
+    },
+    {
+      "test": "Native party matches locked species, levels, moves, abilities and items",
+      "passed": true,
+      "members": 3
+    }
+  ]
+}

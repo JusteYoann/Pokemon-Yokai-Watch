@@ -1,0 +1,18 @@
+{
+  "source_parent": "dd01d8e07",
+  "roms": [
+    {
+      "file": "pokefirered.gba",
+      "bytes": 16777216,
+      "sha256": "24c332f775e73cb20459821d4e0e90801fddc40de4145f43dd01002faf736978"
+    },
+    {
+      "file": "pokefirered_audio.gba",
+      "bytes": 31589579,
+      "sha256": "4f5616eea6116cba1892658bbc996a17045ca3e1bd570e2428527a604a4a5f93"
+    }
+  ],
+  "rom_limit": 33554432,
+  "protected_audio_published": false,
+  "gameplay_changed": false
+}

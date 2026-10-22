@@ -112,6 +112,9 @@ def replace(m):
 trainers=re.sub(pattern,replace,trainers,flags=re.S)
 assert sum(x['mode']=='locked_boss' for x in allteams.values())==17
 assert sum(x['mode']=='rival_continuity' for x in allteams.values())==21
+# Canonical story identities are independent of the validated team generator.
+from appliquer_roles_champions import apply_to_trainers
+trainers = apply_to_trainers(trainers)
 (R/'src/data/trainers.h').write_text(trainers)
 (R/'src/data/trainer_parties.h').write_text(output)
 (R/'src/data/yokai_trainer_abilities.h').write_text('\n'.join(abilities+['};\n']))

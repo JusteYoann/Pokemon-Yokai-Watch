@@ -73,48 +73,23 @@ gFameCheckerFlavorText_Daisy5:: @ 0x81AD69F
 	.string "Grand Champion is DAISY OAK of\l"
 	.string "PALLET TOWN!$"
 
-gFameCheckerFlavorText_Brock0:: @ 0x81AD705
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}PEWTER CITY Yo-kai GYM\n"
-	.string "LEADER: BROCK\l"
-	.string "The Rock-Solid Dresseur de Yo-kai!$"
+gFameCheckerFlavorText_Brock0::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Champion de l'Arène\nd'Argenta: Wyatt.\pUn Dresseur solide comme le roc!$"
 
-gFameCheckerFlavorText_Brock1:: @ 0x81AD771
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of Yo-kai?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}My rock-hard willpower is evident\n"
-	.string "in even my Yo-kai.\p"
-	.string "My Yo-kai are all rock hard and\n"
-	.string "have true-grit determination.\p"
-	.string "That's right - my Yo-kai are all\n"
-	.string "the ROCK type!$"
+gFameCheckerFlavorText_Brock1::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Ses Yo-kai préférés?\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Mes Yo-kai sont aussi tenaces\nque la roche!$"
 
-gFameCheckerFlavorText_Brock2:: @ 0x81AD840
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}There aren't many serious Yo-kai\n"
-	.string "TRAINERS here.\p"
-	.string "They're all like BUG CATCHERS,\n"
-	.string "you know, just hobbyists.\p"
-	.string "But PEWTER GYM's BROCK isn't like\n"
-	.string "that, not one bit.$"
+gFameCheckerFlavorText_Brock2::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel est son caractère?\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Wyatt prend les combats au sérieux.\pIl encourage ceux qui osent\nle défier.$"
 
-gFameCheckerFlavorText_Brock3:: @ 0x81AD908
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BROCK is cool. He's not just tough.\n"
-	.string "People like and respect him.\p"
-	.string "I want to become a GYM LEADER\n"
-	.string "like him.$"
+gFameCheckerFlavorText_Brock3::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel est son caractère?\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Wyatt est fort et courageux.\pMoi aussi, j'aimerais devenir\nChampion un jour!$"
 
-gFameCheckerFlavorText_Brock4:: @ 0x81AD99A
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Hi, I'm excavating for fossils here\n"
-	.string "under MT. MOON.\p"
-	.string "Sometimes, BROCK of PEWTER GYM\n"
-	.string "lends me a hand.$"
+gFameCheckerFlavorText_Brock4::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Que fait cette personne?\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Je cherche des fossiles\ndans le Mont Sélénite.\pWyatt vient parfois m'aider.$"
 
-gFameCheckerFlavorText_Brock5:: @ 0x81ADA27
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BROCK rarely laughs, but is said to\n"
-	.string "be unable to stop if he starts.$"
+gFameCheckerFlavorText_Brock5::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Quel est son caractère?\p{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Wyatt aime relever les défis.\pFace à lui, mieux vaut\npréparer son équipe!$"
 
 gFameCheckerFlavorText_Misty0:: @ 0x81ADA91
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
@@ -636,16 +611,11 @@ gFameCheckerPersonQuote_Daisy:: @ 0x81B025D
 	.string "I hope you'll remain a good rival\n"
 	.string "to my little brother.$"
 
-gFameCheckerPersonName_Brock:: @ 0x81B030F
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}BROCK$"
+gFameCheckerPersonName_Brock::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Wyatt$"
 
-gFameCheckerPersonQuote_Brock:: @ 0x81B031B
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: BROCK\n"
-	.string "To: {PLAYER}\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}In this big world of ours, there\n"
-	.string "must be many tough TRAINERS.\p"
-	.string "Let's both keep training and\n"
-	.string "making ourselves stronger!$"
+gFameCheckerPersonQuote_Brock::
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Wyatt\nPour: {PLAYER}\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Le monde compte beaucoup\nde Dresseurs redoutables.\pContinuons à nous entraîner\navec nos Yo-kai!$"
 
 gFameCheckerPersonName_Misty:: @ 0x81B03B3
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}MISTY$"
@@ -1125,7 +1095,7 @@ gFameCheckerFlavorTextOriginObjectName_Brock0::
 	.string "SIGN$"
 
 gFameCheckerFlavorTextOriginObjectName_Brock1::
-	.string "BROCK$"
+	.string "Wyatt$"
 
 gFameCheckerFlavorTextOriginObjectName_Brock2::
 	.string "YOUNG MAN$"
@@ -1374,11 +1344,7 @@ gFameCheckerFlavorTextOriginObjectName_Giovanni5::
 	.string "GIDEON$"
 
 PokemonJournal_Text_SpecialFeatureBrock::
-	.string "Yo-kai JOURNAL\p"
-	.string "Special Feature: PEWTER GYM\n"
-	.string "LEADER BROCK!\p"
-	.string "BROCK rarely laughs, but is said to\n"
-	.string "be unable to stop if he starts.$"
+	.string "JOURNAL DES YO-KAI\pÀ la une: Wyatt,\nle Champion d'Argenta!\pWyatt aime relever les défis.\nPréparez bien votre équipe!$"
 
 PokemonJournal_Text_SpecialFeatureMisty::
 	.string "Yo-kai JOURNAL\p"

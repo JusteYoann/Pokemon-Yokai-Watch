@@ -1,0 +1,25 @@
+{
+  "commit": "6f143452a026a41c08f1db38f9809959809a31b6",
+  "method": "Fresh GitHub clone; no game build objects copied; existing pinned external agbcc installed with install.sh; private build uses same external audio directory.",
+  "external_audio": "Same private audio30-integration directory (not published)",
+  "agbcc_commit": "da598c1d918402c42c0c0d7128ba14567f3175e9",
+  "assembler": "GNU assembler (2.44-3+23+b1) 2.44",
+  "results": [
+    {
+      "file": "pokefirered.gba",
+      "reference_bytes": 16777216,
+      "clone_bytes": 16777216,
+      "reference_sha256": "a00527774542439e1ab0976a45421911c8b067d8bd11730de183c453581b3b3c",
+      "clone_sha256": "a00527774542439e1ab0976a45421911c8b067d8bd11730de183c453581b3b3c",
+      "identical": true
+    },
+    {
+      "file": "pokefirered_audio.gba",
+      "reference_bytes": 31589579,
+      "clone_bytes": 31589579,
+      "reference_sha256": "6368e2c28cae2eeddf1d6439fcd279693fc67b8270d3f1b1bc5d75e3dd71c65c",
+      "clone_sha256": "6368e2c28cae2eeddf1d6439fcd279693fc67b8270d3f1b1bc5d75e3dd71c65c",
+      "identical": true
+    }
+  ]
+}

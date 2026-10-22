@@ -1,0 +1,9 @@
+{
+  "rom_sha256": "4f5616eea6116cba1892658bbc996a17045ca3e1bd570e2428527a604a4a5f93",
+  "scope": "Native trainer-defeat expansion via GetTrainerALoseText; no battle traversal.",
+  "pipeline": "B_TRAINER1_LOSE_TEXT -> GetTrainerALoseText/StringExpandPlaceholders -> gDisplayedStringBattle",
+  "battle_buffer_capacity": 300,
+  "expanded_bytes_including_eos": 90,
+  "adjacent_buffer_changed": false,
+  "bug_reproduced": false
+}

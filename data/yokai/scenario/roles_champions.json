@@ -1,0 +1,15 @@
+{
+  "scope": "Only canonical identities; validated party and native trainer IDs preserved. Add other Champions only with their own tested integration.",
+  "roles": [
+    {
+      "trainer": "TRAINER_LEADER_BROCK",
+      "trainer_name": "Wyatt",
+      "trainer_pic": "TRAINER_PIC_YOKAI_WYATT",
+      "map": "PewterCity_Gym",
+      "object_id": 1,
+      "object_graphics": "OBJ_EVENT_GFX_YOKAI_WYATT",
+      "trophy_native_flag": "FLAG_BADGE01_GET",
+      "party_policy": "unchanged"
+    }
+  ]
+}
