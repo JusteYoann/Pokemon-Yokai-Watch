@@ -80,3 +80,9 @@ Réponse du créateur : « Valider ces trois choix » à la question groupée :
 - Q17 : la cloche de la Tour termine la Nuit des Zombies.
 
 Ces décisions remplacent le statut ouvert de ces trois points. Les autres ambiguïtés du registre restent ouvertes.
+
+## I. Arbitrages explicites — poursuite des chapitres
+
+- Réponse du créateur : « Zazel est obliger de les laisser entrer c’est la règle ils ont les 8 trophées ». Zazel applique la règle des huit trophées également aux antagonistes ; aucune complicité ni entrée clandestine à inventer. Cette décision remplace les hypothèses d'infiltration après Morleone.
+- Réponse du créateur : « Conserver ces obtentions ». Kyubi reste au Mont Braise, Mademoaiselle aux Îles Écume, Enma nº150 à la Caverne Azurée ; le combat contre le Seigneur Enma à l'Île 7 reprend le déblocage de la capture nº150.
+- La réponse sur Zazel ne tranche pas la nature des apparitions postgame de Soranaki et d'Enma l'Ancien. Ces deux questions restent ouvertes.

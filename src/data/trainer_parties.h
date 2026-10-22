@@ -13966,3 +13966,10 @@ static const struct TrainerMonItemCustomMoves sScenarioParty_ArianeFourthTrophy[
     {.iv = 0, .lvl = 29, .species = SPECIES_DUGTRIO, .heldItem = ITEM_NONE, .moves = {MOVE_CONFUSION, MOVE_SWIFT, MOVE_GROWL, MOVE_NONE}},
     {.iv = 0, .lvl = 30, .species = SPECIES_VOLTORB, .heldItem = ITEM_NONE, .moves = {MOVE_METAL_CLAW, MOVE_SHOCK_WAVE, MOVE_QUICK_ATTACK, MOVE_NONE}},
 };
+
+static const struct TrainerMonItemCustomMoves sScenarioParty_GiraudFifthTrophy[] = {
+    {.iv = 0, .lvl = 34, .species = SPECIES_HORSEA, .heldItem = ITEM_NONE, .moves = {MOVE_KARATE_CHOP, MOVE_TACKLE, MOVE_FOCUS_ENERGY, MOVE_NONE}},
+    {.iv = 0, .lvl = 34, .species = SPECIES_HITMONLEE, .heldItem = ITEM_NONE, .moves = {MOVE_QUICK_ATTACK, MOVE_BITE, MOVE_GROWL, MOVE_NONE}},
+    {.iv = 0, .lvl = 35, .species = SPECIES_SEAKING, .heldItem = ITEM_NONE, .moves = {MOVE_BRICK_BREAK, MOVE_SLASH, MOVE_FOCUS_ENERGY, MOVE_NONE}},
+    {.iv = 0, .lvl = 36, .species = SPECIES_KINGLER, .heldItem = ITEM_NONE, .moves = {MOVE_KARATE_CHOP, MOVE_ROCK_TOMB, MOVE_HARDEN, MOVE_NONE}},
+};

@@ -1,0 +1,69 @@
+{
+  "status": "native_two_protagonists_and_legacy_continue_passed",
+  "active_trainer": {
+    "mode": "scenario_parmanie",
+    "source_party": "sScenarioParty_GiraudFifthTrophy",
+    "items": [],
+    "party": [
+      {
+        "species": "SPECIES_HORSEA",
+        "level": 34,
+        "iv": 0,
+        "moves": [
+          "MOVE_KARATE_CHOP",
+          "MOVE_TACKLE",
+          "MOVE_FOCUS_ENERGY",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_GUTS",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_HITMONLEE",
+        "level": 34,
+        "iv": 0,
+        "moves": [
+          "MOVE_QUICK_ATTACK",
+          "MOVE_BITE",
+          "MOVE_GROWL",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_RUN_AWAY",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_SEAKING",
+        "level": 35,
+        "iv": 0,
+        "moves": [
+          "MOVE_BRICK_BREAK",
+          "MOVE_SLASH",
+          "MOVE_FOCUS_ENERGY",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_GUTS",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_KINGLER",
+        "level": 36,
+        "iv": 0,
+        "moves": [
+          "MOVE_KARATE_CHOP",
+          "MOVE_ROCK_TOMB",
+          "MOVE_HARDEN",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_GUTS",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  },
+  "old_party_preserved": "sYokaiParty_LEADER_KOGA",
+  "balance_status": "Proposed species; levels/moves provisional",
+  "legacy_cameos": "Fuchsia ancestors hidden; original teams/reward flags retained for temporal chapter migration"
+}

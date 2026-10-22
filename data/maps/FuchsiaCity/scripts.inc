@@ -36,7 +36,6 @@ FuchsiaCity_EventScript_Youngster::
 FuchsiaCity_EventScript_Lass::
 	lock
 	faceplayer
-	famechecker FAMECHECKER_KOGA, 3
 	msgbox FuchsiaCity_Text_MyFatherIsGymLeader
 	release
 	end
@@ -64,7 +63,6 @@ FuchsiaCity_EventScript_SafariZoneOfficeSign::
 
 FuchsiaCity_EventScript_GymSign::
 	lockall
-	famechecker FAMECHECKER_KOGA, 0
 	msgbox FuchsiaCity_Text_GymSign
 	releaseall
 	end
@@ -142,12 +140,7 @@ FuchsiaCity_EventScript_OmanyteSign::
 FuchsiaCity_OnTransitionYokaiAncestor::
 	setflag FLAG_HIDE_YOKAI_NATHANIEL
 	setflag FLAG_HIDE_YOKAI_MICHAEL
-	checkplayergender
-	goto_if_eq VAR_RESULT, FEMALE, FuchsiaCity_ShowMichael
-	clearflag FLAG_HIDE_YOKAI_NATHANIEL
-	return
-FuchsiaCity_ShowMichael::
-	clearflag FLAG_HIDE_YOKAI_MICHAEL
+	setflag FLAG_SCENARIO_FUCHSIA_CITY_CURRENT
 	return
 FuchsiaCity_EventScript_YokaiAncestor::
 	lock

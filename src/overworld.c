@@ -1754,6 +1754,12 @@ void CB2_ContinueSavedGame(void)
           || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROUTE25)
            && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE25)
            && !FlagGet(FLAG_SCENARIO_ROUTE25_CURRENT))
+          || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_FUCHSIA_CITY_GYM)
+           && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_FUCHSIA_CITY_GYM)
+           && !FlagGet(FLAG_SCENARIO_FUCHSIA_GYM_CURRENT))
+          || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_FUCHSIA_CITY)
+           && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_FUCHSIA_CITY)
+           && !FlagGet(FLAG_SCENARIO_FUCHSIA_CITY_CURRENT))
           || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_SAFFRON_CITY)
            && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_SAFFRON_CITY)
            && !FlagGet(FLAG_SCENARIO_SAFFRON_CITY_CURRENT)))
@@ -1766,6 +1772,10 @@ void CB2_ContinueSavedGame(void)
             SetWarpDestination(MAP_GROUP(MAP_CERULEAN_CITY_GYM), MAP_NUM(MAP_CERULEAN_CITY_GYM), WARP_ID_NONE, 8, 17);
         else if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_VERMILION_CITY_GYM))
             SetWarpDestination(MAP_GROUP(MAP_VERMILION_CITY_GYM), MAP_NUM(MAP_VERMILION_CITY_GYM), WARP_ID_NONE, 5, 18);
+        else if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_FUCHSIA_CITY_GYM))
+            SetWarpDestination(MAP_GROUP(MAP_FUCHSIA_CITY_GYM), MAP_NUM(MAP_FUCHSIA_CITY_GYM), WARP_ID_NONE, 7, 20);
+        else if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_FUCHSIA_CITY))
+            SetWarpDestination(gSaveBlock1Ptr->location.mapGroup, gSaveBlock1Ptr->location.mapNum, WARP_ID_NONE, gSaveBlock1Ptr->pos.x, gSaveBlock1Ptr->pos.y);
         else if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_SAFFRON_CITY_GYM))
             SetWarpDestination(MAP_GROUP(MAP_SAFFRON_CITY_GYM), MAP_NUM(MAP_SAFFRON_CITY_GYM), WARP_ID_NONE, 14, 22);
         else if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE25)

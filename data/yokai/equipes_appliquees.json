@@ -13479,79 +13479,67 @@
     "source_party": "sParty_LeaderErika"
   },
   "TRAINER_LEADER_KOGA": {
-    "mode": "locked_boss",
+    "mode": "scenario_parmanie",
+    "source_party": "sScenarioParty_GiraudFifthTrophy",
+    "items": [],
     "party": [
       {
-        "species": "SPECIES_SNORLAX",
+        "species": "SPECIES_HORSEA",
         "level": 34,
+        "iv": 0,
         "moves": [
-          "MOVE_POISON_STING",
-          "MOVE_SMOG",
-          "MOVE_HARDEN",
-          "MOVE_SLUDGE"
+          "MOVE_KARATE_CHOP",
+          "MOVE_TACKLE",
+          "MOVE_FOCUS_ENERGY",
+          "MOVE_NONE"
         ],
-        "ability": "ABILITY_POISON_POINT",
+        "ability": "ABILITY_GUTS",
         "ability_num": 0,
         "held_item": "ITEM_NONE"
       },
       {
-        "species": "SPECIES_AERODACTYL",
+        "species": "SPECIES_HITMONLEE",
+        "level": 34,
+        "iv": 0,
+        "moves": [
+          "MOVE_QUICK_ATTACK",
+          "MOVE_BITE",
+          "MOVE_GROWL",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_RUN_AWAY",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_SEAKING",
         "level": 35,
+        "iv": 0,
         "moves": [
-          "MOVE_SLUDGE",
-          "MOVE_POISON_FANG",
-          "MOVE_LEER",
-          "MOVE_SMOG"
+          "MOVE_BRICK_BREAK",
+          "MOVE_SLASH",
+          "MOVE_FOCUS_ENERGY",
+          "MOVE_NONE"
         ],
-        "ability": "ABILITY_POISON_POINT",
+        "ability": "ABILITY_GUTS",
         "ability_num": 0,
         "held_item": "ITEM_NONE"
       },
       {
-        "species": "SPECIES_PARAS",
+        "species": "SPECIES_KINGLER",
         "level": 36,
+        "iv": 0,
         "moves": [
-          "MOVE_POISON_FANG",
-          "MOVE_LEECH_LIFE",
-          "MOVE_QUICK_ATTACK",
-          "MOVE_SCREECH"
+          "MOVE_KARATE_CHOP",
+          "MOVE_ROCK_TOMB",
+          "MOVE_HARDEN",
+          "MOVE_NONE"
         ],
-        "ability": "ABILITY_SWARM",
-        "ability_num": 0,
-        "held_item": "ITEM_NONE"
-      },
-      {
-        "species": "SPECIES_VENUSAUR",
-        "level": 38,
-        "moves": [
-          "MOVE_EMBER",
-          "MOVE_POISON_STING",
-          "MOVE_QUICK_ATTACK",
-          "MOVE_BITE"
-        ],
-        "ability": "ABILITY_POISON_POINT",
-        "ability_num": 0,
-        "held_item": "ITEM_NONE"
-      },
-      {
-        "species": "SPECIES_VENONAT",
-        "level": 40,
-        "moves": [
-          "MOVE_TOXIC",
-          "MOVE_SLUDGE",
-          "MOVE_BODY_SLAM",
-          "MOVE_LEER"
-        ],
-        "ability": "ABILITY_LIQUID_OOZE",
+        "ability": "ABILITY_GUTS",
         "ability_num": 0,
         "held_item": "ITEM_NONE"
       }
-    ],
-    "items": [
-      "ITEM_HYPER_POTION",
-      "ITEM_FULL_HEAL"
-    ],
-    "source_party": "sParty_LeaderKoga"
+    ]
   },
   "TRAINER_LEADER_BLAINE": {
     "mode": "locked_boss",

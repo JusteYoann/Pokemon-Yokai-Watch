@@ -4152,12 +4152,12 @@ const struct Trainer gTrainers[] = {
     [TRAINER_LEADER_KOGA] = {
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_KOGA,
-        .trainerName = _("KOGA"),
-        .items = {ITEM_HYPER_POTION, ITEM_FULL_HEAL},
+        .trainerPic = TRAINER_PIC_SCENARIO_GIRAUD,
+        .trainerName = _("Giraud"),
+        .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = ITEM_CUSTOM_MOVES(sYokaiParty_LEADER_KOGA),
+        .party = ITEM_CUSTOM_MOVES(sScenarioParty_GiraudFifthTrophy),
     },
     [TRAINER_LEADER_BLAINE] = {
         .trainerClass = TRAINER_CLASS_LEADER,

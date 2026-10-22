@@ -41,9 +41,7 @@ FuchsiaCity_Text_SafariZoneOfficeSign::
     .string "SAFARI ZONE OFFICE$"
 
 FuchsiaCity_Text_GymSign::
-    .string "FUCHSIA CITY Yo-kai GYM\n"
-    .string "LEADER: KOGA\l"
-    .string "The Poisonous Ninja Master$"
+	.string "Commissariat de Parmanie\nInspecteur Giraud - trophée 5$"
 
 FuchsiaCity_Text_ChanseySign::
     .string "Name: CHANSEY\n"
