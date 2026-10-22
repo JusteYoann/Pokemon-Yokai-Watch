@@ -14,3 +14,7 @@ L’outil de génération ne maintient pas fidèlement les cellules du gabarit f
 Il faut conserver les coiffures, bijoux et vêtements distinctifs des sœurs et le chapeau, les cheveux verts, le visage mauve et la cravate d’Agent X, en simplifiant les détails qui ne tiennent pas à cette taille.
 
 Aucune palette active, donnée de gameplay, carte, animation ou musique n’a changé. Aucune nouvelle compilation ni validation mGBA ne s’impose pour ces seules propositions hors moteur ; aucun test en jeu n’est revendiqué.
+
+## Correction de proportions demandée par le créateur
+
+[Proposition avec têtes abaissées](faces-tetes-abaissees.png) : la retouche fournie dans la conversation devient le guide des proportions pour les prochains overworlds. Têtes beaucoup plus basses sur les épaules, cou presque invisible, torse raccourci ; conserver les caractéristiques de chaque personnage. Cette nouvelle proposition reste hors moteur et ne remplace pas un sprite natif validé.
