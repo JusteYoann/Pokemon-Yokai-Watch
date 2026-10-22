@@ -3416,3 +3416,37 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioSoranakiPh
 };
 
 // END SCENARIO INFO
+
+// BEGIN SCENARIO OBJECT_INFO
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioBingoKai = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_SCENARIO,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE, .size = 512,
+    .width = 32, .height = 32, .paletteSlot = PALSLOT_NPC_SPECIAL,
+    .shadowSize = SHADOW_SIZE_M, .inanimate = TRUE, .disableReflectionPaletteLoad = FALSE,
+    .tracks = TRACKS_NONE, .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = gObjectEventSpriteOamTables_32x32,
+    .anims = sAnimTable_ScenarioBingoKai, .images = sPicTable_ScenarioBingoKai,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioCapsuleSouhait = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_SCENARIO,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE, .size = 128,
+    .width = 16, .height = 16, .paletteSlot = PALSLOT_NPC_SPECIAL,
+    .shadowSize = SHADOW_SIZE_M, .inanimate = TRUE, .disableReflectionPaletteLoad = FALSE,
+    .tracks = TRACKS_NONE, .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = gObjectEventSpriteOamTables_16x16,
+    .anims = sAnimTable_ScenarioCapsuleSouhait, .images = sPicTable_ScenarioCapsuleSouhait,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioTripticTac = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_SCENARIO,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE, .size = 512,
+    .width = 32, .height = 32, .paletteSlot = PALSLOT_NPC_SPECIAL,
+    .shadowSize = SHADOW_SIZE_M, .inanimate = TRUE, .disableReflectionPaletteLoad = FALSE,
+    .tracks = TRACKS_NONE, .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = gObjectEventSpriteOamTables_32x32,
+    .anims = sAnimTable_ScenarioTripticTac, .images = sPicTable_ScenarioTripticTac,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+// END SCENARIO OBJECT_INFO

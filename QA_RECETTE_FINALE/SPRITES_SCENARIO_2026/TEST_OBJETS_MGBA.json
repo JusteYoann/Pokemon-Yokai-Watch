@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "rom_sha256": "c6b4962c3d10baaaa9509fcdff9806bc0bcfb41833c1b5e04529d038f221983e",
+  "scope": "Temporary object spawning and native animation playback; not story events or Soranaki gameplay.",
+  "results": [
+    {
+      "object": "bingo_kai",
+      "native_render": true,
+      "native_action_animation": true,
+      "passed": true
+    },
+    {
+      "object": "capsule_souhait",
+      "native_render": true,
+      "native_action_animation": true,
+      "passed": true
+    },
+    {
+      "object": "triptic_tac",
+      "native_render": true,
+      "native_action_animation": true,
+      "passed": true
+    },
+    {
+      "boss": "soranaki_phase1",
+      "master_size": [
+        128,
+        128
+      ],
+      "compressed_rom_bytes_match_native_resource": true,
+      "passed": true,
+      "scope": "Resource linked and decompression verified; exceptional boss battle renderer/gameplay not implemented here"
+    },
+    {
+      "boss": "soranaki_phase2",
+      "master_size": [
+        128,
+        128
+      ],
+      "compressed_rom_bytes_match_native_resource": true,
+      "passed": true,
+      "scope": "Resource linked and decompression verified; exceptional boss battle renderer/gameplay not implemented here"
+    }
+  ]
+}

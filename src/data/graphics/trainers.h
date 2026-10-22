@@ -524,3 +524,8 @@ const u32 gTrainerFrontPic_ScenarioSoranakiPhase2[] = INCBIN_U32("graphics/yokai
 const u32 gTrainerPalette_ScenarioSoranakiPhase2[] = INCBIN_U32("graphics/yokai_characters/soranaki_phase2/normal.gbapal.lz");
 
 // END SCENARIO TRAINERS
+
+// BEGIN SCENARIO LARGE_BOSSES
+const u32 gScenarioBossPicSoranakiPhase1[] = INCBIN_U32("graphics/yokai_characters/soranaki_phase1/battle_large.4bpp.lz");
+const u32 gScenarioBossPicSoranakiPhase2[] = INCBIN_U32("graphics/yokai_characters/soranaki_phase2/battle_large.4bpp.lz");
+// END SCENARIO LARGE_BOSSES

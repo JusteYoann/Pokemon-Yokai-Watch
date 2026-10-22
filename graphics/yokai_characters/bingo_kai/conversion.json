@@ -1,0 +1,38 @@
+{
+  "actor": "bingo_kai",
+  "source": "graphics/yokai_characters/scenario_2026/source/bosses-objets.png",
+  "source_sha256": "f44fa674c41a74594b20120f225a9b4eb1c7e2beae140c3b2605d2b665e2c9d8",
+  "frame_size": [
+    32,
+    32
+  ],
+  "frames": 4,
+  "rectangles": [
+    [
+      15,
+      845,
+      124,
+      1024
+    ],
+    [
+      148,
+      845,
+      257,
+      1024
+    ],
+    [
+      273,
+      845,
+      383,
+      1024
+    ],
+    [
+      406,
+      845,
+      514,
+      1024
+    ]
+  ],
+  "status": "converted_not_yet_engine_tested",
+  "note": "Objects and nonhuman clock creature retain reference silhouettes; they are not stretched into human heads/bodies."
+}

@@ -302,3 +302,9 @@ const u16 gObjectEventPic_ScenarioSoranakiPhase1[] = INCBIN_U16("graphics/yokai_
 const u16 gObjectEventPic_ScenarioSoranakiPhase2[] = INCBIN_U16("graphics/yokai_characters/soranaki_phase2/overworld.4bpp");
 
 // END SCENARIO GRAPHICS
+
+// BEGIN SCENARIO OBJECT_GRAPHICS
+const u16 gObjectEventPic_ScenarioBingoKai[] = INCBIN_U16("graphics/yokai_characters/bingo_kai/overworld.4bpp");
+const u16 gObjectEventPic_ScenarioCapsuleSouhait[] = INCBIN_U16("graphics/yokai_characters/capsule_souhait/overworld.4bpp");
+const u16 gObjectEventPic_ScenarioTripticTac[] = INCBIN_U16("graphics/yokai_characters/triptic_tac/overworld.4bpp");
+// END SCENARIO OBJECT_GRAPHICS

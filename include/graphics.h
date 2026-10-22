@@ -4608,3 +4608,8 @@ extern const u32 gTrainerPalette_ScenarioSoranakiPhase1[];
 extern const u32 gTrainerFrontPic_ScenarioSoranakiPhase2[];
 extern const u32 gTrainerPalette_ScenarioSoranakiPhase2[];
 // END SCENARIO TRAINER_EXTERNS
+
+// BEGIN SCENARIO LARGE_BOSS_EXTERNS
+extern const u32 gScenarioBossPicSoranakiPhase1[];
+extern const u32 gScenarioBossPicSoranakiPhase2[];
+// END SCENARIO LARGE_BOSS_EXTERNS

@@ -219,19 +219,26 @@
   "objects_and_bosses": [
     {
       "id": "soranaki_phase1",
-      "status": "pending"
+      "status": "64px_viewer_tested_and_128px_master_link_verified_boss_gameplay_pending"
     },
     {
       "id": "soranaki_phase2",
-      "status": "pending"
+      "status": "64px_viewer_tested_and_128px_master_link_verified_boss_gameplay_pending"
     },
     {
       "id": "bingo_kai",
-      "status": "pending"
+      "status": "native_object_animation_tested",
+      "graphics_id": 188
     },
     {
       "id": "triptic_tac",
-      "status": "pending"
+      "status": "native_object_animation_tested",
+      "graphics_id": 190
+    },
+    {
+      "id": "capsule_souhait",
+      "graphics_id": 189,
+      "status": "native_object_animation_tested"
     }
   ],
   "reused": [

@@ -19,11 +19,11 @@ try:
  base=r.snapshot()
  for actor in actors:
   name=actor['id'];r.restore(base)
-  oid=r.call('SpawnSpecialObjectEventParameterized',actor['graphics_id'],C['MOVEMENT_TYPE_FACE_DOWN'],200,17,23,3);assert oid<16,(name,oid)
+  oid=r.call('SpawnSpecialObjectEventParameterized',actor['graphics_id'],C['MOVEMENT_TYPE_FACE_DOWN'],200,16,23,3);assert oid<16,(name,oid)
   obj=r.symbols['gObjectEvents']+36*oid;sprite=r.symbols['gSprites']+68*r.read(obj+4,1)[0]
   assert r.read(obj+5,1)[0]==actor['graphics_id']
   assert r.read(r.symbols['gPlttBufferUnfaded']+512+10*32,32)==r.read(r.symbols['gObjectEventPal_Scenario'],32)
-  trainer=r.call('CreateTrainerPicSprite',actor['trainer_pic_id'],1,184,68,6,0xffff);assert trainer<64,(name,trainer)
+  trainer=r.call('CreateTrainerPicSprite',actor['trainer_pic_id'],1,206,60,6,0xffff);assert trainer<64,(name,trainer)
   r.run(30);frames=[]
   for direction,label in [(1,'SOUTH'),(2,'NORTH'),(3,'WEST'),(4,'EAST')]:
    r.call('ObjectEventTurn',obj,direction);r.run(30)

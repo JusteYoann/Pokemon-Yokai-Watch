@@ -1618,3 +1618,24 @@ static const union AnimCmd *const sAnimTable_KatieFish[] = {
     [ANIM_HOOKED_POKEMON_WEST] = sAnim_HookedPokemonWest_KatieFish,
     [ANIM_HOOKED_POKEMON_EAST] = sAnim_HookedPokemonEast_KatieFish,
 };
+
+// BEGIN SCENARIO OBJECT_ANIMS
+static const union AnimCmd sAnimScenarioBingoKai0[] = {ANIMCMD_FRAME(0, 8), ANIMCMD_END};
+static const union AnimCmd sAnimScenarioBingoKai1[] = {ANIMCMD_FRAME(1, 8), ANIMCMD_END};
+static const union AnimCmd sAnimScenarioBingoKai2[] = {ANIMCMD_FRAME(2, 8), ANIMCMD_END};
+static const union AnimCmd sAnimScenarioBingoKai3[] = {ANIMCMD_FRAME(3, 8), ANIMCMD_END};
+static const union AnimCmd sAnimScenarioBingoKaiAction[] = {ANIMCMD_FRAME(0, 8), ANIMCMD_FRAME(1, 8), ANIMCMD_FRAME(2, 8), ANIMCMD_FRAME(3, 8), ANIMCMD_FRAME(0, 8), ANIMCMD_END};
+static const union AnimCmd *const sAnimTable_ScenarioBingoKai[] = {sAnimScenarioBingoKai0, sAnimScenarioBingoKai0, sAnimScenarioBingoKai0, sAnimScenarioBingoKai0, sAnimScenarioBingoKaiAction};
+static const union AnimCmd sAnimScenarioCapsuleSouhait0[] = {ANIMCMD_FRAME(0, 8), ANIMCMD_END};
+static const union AnimCmd sAnimScenarioCapsuleSouhait1[] = {ANIMCMD_FRAME(1, 8), ANIMCMD_END};
+static const union AnimCmd sAnimScenarioCapsuleSouhaitAction[] = {ANIMCMD_FRAME(1, 8), ANIMCMD_END};
+static const union AnimCmd *const sAnimTable_ScenarioCapsuleSouhait[] = {sAnimScenarioCapsuleSouhait0, sAnimScenarioCapsuleSouhait0, sAnimScenarioCapsuleSouhait0, sAnimScenarioCapsuleSouhait0, sAnimScenarioCapsuleSouhaitAction};
+static const union AnimCmd sAnimScenarioTripticTac0[] = {ANIMCMD_FRAME(0, 8), ANIMCMD_END};
+static const union AnimCmd sAnimScenarioTripticTac1[] = {ANIMCMD_FRAME(1, 8), ANIMCMD_END};
+static const union AnimCmd sAnimScenarioTripticTac2[] = {ANIMCMD_FRAME(2, 8), ANIMCMD_END};
+static const union AnimCmd sAnimScenarioTripticTac3[] = {ANIMCMD_FRAME(3, 8), ANIMCMD_END};
+static const union AnimCmd sAnimScenarioTripticTacAction[] = {ANIMCMD_FRAME(0, 8), ANIMCMD_FRAME(3, 8), ANIMCMD_FRAME(0, 8), ANIMCMD_FRAME(3, 8), ANIMCMD_FRAME(0, 8), ANIMCMD_END};
+static const union AnimCmd sAnimScenarioTripticTacEast[] = {ANIMCMD_FRAME(2, 8, .hFlip = TRUE), ANIMCMD_END};
+static const union AnimCmd *const sAnimTable_ScenarioTripticTac[] = {sAnimScenarioTripticTac0, sAnimScenarioTripticTac1, sAnimScenarioTripticTac2, sAnimScenarioTripticTacEast, sAnimScenarioTripticTacAction};
+
+// END SCENARIO OBJECT_ANIMS

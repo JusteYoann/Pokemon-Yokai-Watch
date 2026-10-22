@@ -2025,3 +2025,23 @@ static const struct SpriteFrameImage sPicTable_ScenarioSoranakiPhase2[] = {
 };
 
 // END SCENARIO FRAMES
+
+// BEGIN SCENARIO OBJECT_FRAMES
+static const struct SpriteFrameImage sPicTable_ScenarioBingoKai[] = {
+    overworld_frame(gObjectEventPic_ScenarioBingoKai, 4, 4, 0),
+    overworld_frame(gObjectEventPic_ScenarioBingoKai, 4, 4, 1),
+    overworld_frame(gObjectEventPic_ScenarioBingoKai, 4, 4, 2),
+    overworld_frame(gObjectEventPic_ScenarioBingoKai, 4, 4, 3),
+};
+static const struct SpriteFrameImage sPicTable_ScenarioCapsuleSouhait[] = {
+    overworld_frame(gObjectEventPic_ScenarioCapsuleSouhait, 2, 2, 0),
+    overworld_frame(gObjectEventPic_ScenarioCapsuleSouhait, 2, 2, 1),
+};
+static const struct SpriteFrameImage sPicTable_ScenarioTripticTac[] = {
+    overworld_frame(gObjectEventPic_ScenarioTripticTac, 4, 4, 0),
+    overworld_frame(gObjectEventPic_ScenarioTripticTac, 4, 4, 1),
+    overworld_frame(gObjectEventPic_ScenarioTripticTac, 4, 4, 2),
+    overworld_frame(gObjectEventPic_ScenarioTripticTac, 4, 4, 3),
+};
+
+// END SCENARIO OBJECT_FRAMES

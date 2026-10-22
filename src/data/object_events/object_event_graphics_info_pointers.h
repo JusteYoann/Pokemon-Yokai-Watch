@@ -15,6 +15,11 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioZombie;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioSoranakiPhase1;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioSoranakiPhase2;
 // END SCENARIO DECLARATIONS
+// BEGIN SCENARIO OBJECT_DECLARATIONS
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioBingoKai;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioCapsuleSouhait;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioTripticTac;
+// END SCENARIO OBJECT_DECLARATIONS
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiLeoJibanyan;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiMisterre;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiOctorgone;
@@ -380,5 +385,10 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_SCENARIO_SORANAKI_PHASE1] = &gObjectEventGraphicsInfo_ScenarioSoranakiPhase1,
     [OBJ_EVENT_GFX_SCENARIO_SORANAKI_PHASE2] = &gObjectEventGraphicsInfo_ScenarioSoranakiPhase2,
 // END SCENARIO POINTERS
+// BEGIN SCENARIO OBJECT_POINTERS
+    [OBJ_EVENT_GFX_SCENARIO_BINGO_KAI] = &gObjectEventGraphicsInfo_ScenarioBingoKai,
+    [OBJ_EVENT_GFX_SCENARIO_CAPSULE_SOUHAIT] = &gObjectEventGraphicsInfo_ScenarioCapsuleSouhait,
+    [OBJ_EVENT_GFX_SCENARIO_TRIPTIC_TAC] = &gObjectEventGraphicsInfo_ScenarioTripticTac,
+// END SCENARIO OBJECT_POINTERS
     [OBJ_EVENT_GFX_YOKAI_MAFIAMILLE3] = &gObjectEventGraphicsInfo_YokaiMafiamille3,
 };

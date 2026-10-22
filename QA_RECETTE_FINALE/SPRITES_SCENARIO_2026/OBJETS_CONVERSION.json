@@ -1,0 +1,122 @@
+[
+  {
+    "actor": "bingo_kai",
+    "source": "graphics/yokai_characters/scenario_2026/source/bosses-objets.png",
+    "source_sha256": "f44fa674c41a74594b20120f225a9b4eb1c7e2beae140c3b2605d2b665e2c9d8",
+    "frame_size": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "rectangles": [
+      [
+        15,
+        845,
+        124,
+        1024
+      ],
+      [
+        148,
+        845,
+        257,
+        1024
+      ],
+      [
+        273,
+        845,
+        383,
+        1024
+      ],
+      [
+        406,
+        845,
+        514,
+        1024
+      ]
+    ],
+    "status": "converted_not_yet_engine_tested",
+    "note": "Objects and nonhuman clock creature retain reference silhouettes; they are not stretched into human heads/bodies."
+  },
+  {
+    "actor": "capsule_souhait",
+    "source": "graphics/yokai_characters/scenario_2026/source/bosses-objets.png",
+    "source_sha256": "f44fa674c41a74594b20120f225a9b4eb1c7e2beae140c3b2605d2b665e2c9d8",
+    "frame_size": [
+      16,
+      16
+    ],
+    "frames": 2,
+    "rectangles": [
+      [
+        550,
+        900,
+        642,
+        1024
+      ],
+      [
+        680,
+        900,
+        802,
+        1024
+      ]
+    ],
+    "status": "converted_not_yet_engine_tested",
+    "note": "Objects and nonhuman clock creature retain reference silhouettes; they are not stretched into human heads/bodies."
+  },
+  {
+    "actor": "triptic_tac",
+    "source": "graphics/yokai_characters/scenario_2026/source/bosses-objets.png",
+    "source_sha256": "f44fa674c41a74594b20120f225a9b4eb1c7e2beae140c3b2605d2b665e2c9d8",
+    "frame_size": [
+      32,
+      32
+    ],
+    "frames": 4,
+    "rectangles": [
+      [
+        840,
+        880,
+        1008,
+        1024
+      ],
+      [
+        1025,
+        880,
+        1191,
+        1024
+      ],
+      [
+        1207,
+        902,
+        1285,
+        1024
+      ],
+      [
+        1300,
+        898,
+        1480,
+        1024
+      ]
+    ],
+    "status": "converted_not_yet_engine_tested",
+    "note": "Objects and nonhuman clock creature retain reference silhouettes; they are not stretched into human heads/bodies."
+  },
+  {
+    "actor": "soranaki_phase1",
+    "large_master": [
+      128,
+      128
+    ],
+    "status": "pixel_master_not_boss_gameplay",
+    "palette": "normal.pal"
+  },
+  {
+    "actor": "soranaki_phase2",
+    "large_master": [
+      128,
+      128
+    ],
+    "status": "pixel_master_not_boss_gameplay",
+    "palette": "normal.pal"
+  }
+]
