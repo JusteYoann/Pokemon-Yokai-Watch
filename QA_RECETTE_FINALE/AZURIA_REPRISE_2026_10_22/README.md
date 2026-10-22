@@ -20,6 +20,7 @@ Les tableaux historiques d'Ondine et des caméos restent inchangés dans les sou
 
 ## Vérifications réellement exécutées
 
+- Reconstructions du clone GitHub indépendant strictement identiques dans les deux profils: `REPRODUCTIBILITE.json`.
 - Compilations publique et privée réussies. `BUILD.json` donne tailles et SHA: privé31589579octets, soit30,13Mio; limite32Mio respectée,26OST conservées. Aucune ROM ni ressource audio privée publiée.
 - `CONTROLE_SOURCES.json`: accès aux trois pupitres et aux trois sorties, blocage central, retour possible, capacité d'objets et conservation des tableaux historiques.
 - `TEST_CHAPITRE_MGBA.json`: véritables déplacements depuis la porte de la ville, énigme, essais de refus, état visuel après Flash/Continuer et sortie/rentrée, combat gagné, trophée, CT et profil persistant, pour les deux personnages.
@@ -52,3 +53,7 @@ YOKAI_TEAMS_QA_REPORT="$PWD/QA_RECETTE_FINALE/AZURIA_REPRISE_2026_10_22/TEST_EQU
 ```
 
 Suite: Carmin/Ariane et les autres chapitres; le nouveau scénario complet et sa recette finale restent à terminer. `master` n'est pas modifié.
+
+## Textes voisins restant à traiter
+
+L'audit global repère encore deux mentions de MISTY hors du chapitre: `data/maps/CeladonCity_Condominiums_3F/text.inc` et `data/maps/Route20/text.inc`. Elles restent à adapter pendant la prochaine passe de cohérence française. La correction du présent lot porte sur l'arène, son panneau, sa fiche et le journal; elle n'est pas présentée comme une traduction complète du monde.

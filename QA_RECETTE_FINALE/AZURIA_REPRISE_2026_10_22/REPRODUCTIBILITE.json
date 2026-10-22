@@ -1,0 +1,20 @@
+{
+  "commit": "f5c0575e731496607292f407a0d1149054616294",
+  "method": "Independent GitHub clone fast-forwarded to the published Azuria milestone; pinned agbcc and same external private audio; no reference build objects copied.",
+  "results": [
+    {
+      "file": "pokefirered.gba",
+      "bytes": 16777216,
+      "reference_sha256": "c989d13e1c24b657d6749c1ee019e672dc45ab222818397c630ece5c344fe9d2",
+      "github_clone_sha256": "c989d13e1c24b657d6749c1ee019e672dc45ab222818397c630ece5c344fe9d2",
+      "identical": true
+    },
+    {
+      "file": "pokefirered_audio.gba",
+      "bytes": 31589579,
+      "reference_sha256": "fb88f2a913a7fd0888a289ab2f638523f21b0a599309e569446d7c4acc3195c8",
+      "github_clone_sha256": "fb88f2a913a7fd0888a289ab2f638523f21b0a599309e569446d7c4acc3195c8",
+      "identical": true
+    }
+  ]
+}
