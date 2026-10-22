@@ -1745,7 +1745,12 @@ void CB2_ContinueSavedGame(void)
            && !FlagGet(FLAG_SCENARIO_ROUTE25_ARIANE_CURRENT)))
     {
         if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_VERMILION_CITY_GYM))
+        {
+            // Loading fewer actors does not clear unused cached templates.
+            // Discard the removed sixth actor before rebuilding this map.
+            memset(gSaveBlock1Ptr->objectEventTemplates, 0, sizeof(gSaveBlock1Ptr->objectEventTemplates));
             SetWarpDestination(MAP_GROUP(MAP_VERMILION_CITY_GYM), MAP_NUM(MAP_VERMILION_CITY_GYM), WARP_ID_NONE, 5, 17);
+        }
         else
             SetWarpDestination(MAP_GROUP(MAP_ROUTE25), MAP_NUM(MAP_ROUTE25), WARP_ID_NONE, gSaveBlock1Ptr->pos.x, gSaveBlock1Ptr->pos.y);
         WarpIntoMap();

@@ -55,3 +55,7 @@ python3 tools/yokai/tester_profil_carmin_mgba.py
 python3 tools/yokai/capturer_carmin_menu_mgba.py
 YOKAI_TEAMS_QA_REPORT="$PWD/QA_RECETTE_FINALE/CARMIN_2026_10_22/TEST_EQUIPES_MGBA.json" python3 tools/yokai/tester_equipes_mgba.py
 ```
+
+## Mise à jour ultérieure
+
+Le compagnon décoratif Usapyon a ensuite été retiré sur demande du créateur. Voir [le rapport du retrait](../CARMIN_RETRAIT_USAPYON/README.md). Les captures de ce dossier restent les preuves historiques du jalon initial.

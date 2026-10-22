@@ -122,7 +122,7 @@ for gender,name in [(0,'nathan'),(1,'katie')]:
   r.call('FlagSet',0x820);r.call('FlagSet',B2)
   warp(r,3,5,14,26);walk(r,'U');r.run(600);assert location(r)==(9,6)
   r.frame.save(OUT/(name+'-entree.png'));field_music=r.u32(r.symbols['gMPlayInfo_BGM'])
-  solve(r);navigate(r,(5,3));r.frame.save(OUT/(name+'-ariane-usapyon.png'))
+  solve(r);navigate(r,(5,3));r.frame.save(OUT/(name+'-ariane.png'))
   if gender==0:assert r.call('AddBagItem',C['ITEM_TM34'],999)
   else:assert r.call('AddBagItem',C['ITEM_MOON_STONE'],999)
   frames=victory(r,name,[(96,18),(17,19),(51,21),(100,23)])
@@ -154,8 +154,8 @@ finally:r.close()
 r=new_game()
 try:
  prepare(r);r.call('FlagSet',B2);r.call('FlagSet',B3);r.call('SetTrainerFlag',416)
- warp(r,9,6,5,3);r.call('FlagClear',0x32C);save_continue(r)
- assert pos(r)==(5,17) and flag(r,0x32C) and flag(r,B3)
+ warp(r,9,6,5,3);r.call('FlagClear',0x32D);save_continue(r)
+ assert pos(r)==(5,17) and flag(r,0x32D) and flag(r,B3)
  assert r.call('MapGridGetCollisionAt',12,13)==0
  navigate(r,(5,3));before=r.call('GetGameStat',9);face_a(r,'U');finish(r)
  assert flag(r,TM) and flag(r,GIFT) and r.call('GetGameStat',9)==before

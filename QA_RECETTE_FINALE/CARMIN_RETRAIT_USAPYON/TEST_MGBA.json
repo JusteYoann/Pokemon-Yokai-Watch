@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "scope": "Native map removal and engineered legacy-save migration, not a full playthrough.",
+  "rom_size": 31589579,
+  "rom_sha256": "39e0765873f50f9a4825c64db2aa512db90df2fcfb6a8f1457ec9f22b2da37f2",
+  "cases": [
+    {
+      "gender": "nathan",
+      "passed": true,
+      "map_ariane_count": 1,
+      "usapyon_map_absent": true,
+      "flash_save_continue_migration": true,
+      "subsequent_continue_preserves_position": true,
+      "native_ariane_party": [
+        96,
+        17,
+        51,
+        100
+      ],
+      "battle_music": 377
+    },
+    {
+      "gender": "katie",
+      "passed": true,
+      "map_ariane_count": 1,
+      "usapyon_map_absent": true,
+      "flash_save_continue_migration": true,
+      "subsequent_continue_preserves_position": true,
+      "native_ariane_party": [
+        96,
+        17,
+        51,
+        100
+      ],
+      "battle_music": 377
+    }
+  ]
+}

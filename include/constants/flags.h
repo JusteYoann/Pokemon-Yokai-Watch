@@ -1574,6 +1574,8 @@
 // Ariane relocation; unused native flags, no save format change.
 #define FLAG_SCENARIO_HIDE_ROUTE25_ARIANE FLAG_0x32A
 #define FLAG_SCENARIO_ROUTE25_ARIANE_CURRENT FLAG_0x32B
-#define FLAG_SCENARIO_CARMIN_GYM_CURRENT FLAG_0x32C
+// 0x32C belonged to the revision with the decorative Usapyon actor.
+// Refresh cached map templates once when continuing those saves.
+#define FLAG_SCENARIO_CARMIN_GYM_CURRENT FLAG_0x32D
 
 #endif // GUARD_CONSTANTS_FLAGS_H

@@ -1,0 +1,17 @@
+{
+  "pokefirered.gba": {
+    "bytes": 16777216,
+    "sha256": "2c3ac39162e174ead1c2f23f75b49b6cd0ce5f0d3e854f607f8e771ea01451cb"
+  },
+  "pokefirered_audio.gba": {
+    "bytes": 31589579,
+    "sha256": "39e0765873f50f9a4825c64db2aa512db90df2fcfb6a8f1457ec9f22b2da37f2"
+  },
+  "tracked_source_changes": [
+    "data/maps/VermilionCity_Gym/map.json",
+    "include/constants/flags.h",
+    "src/overworld.c",
+    "tools/yokai/tester_carmin_mgba.py"
+  ],
+  "gameplay_and_graphic_asset_files_unchanged": true
+}
