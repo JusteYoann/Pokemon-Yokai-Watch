@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "source_commit": "51d520b987de993cb506574700dcec99798436e2",
+  "method": "Independent GitHub clone fast-forwarded from GitHub, all old build objects and ROMs removed using make tidy, public and private rebuilt; pre-existing generated graphics came only from unchanged published sources. No source or build object copied from development checkout.",
+  "private_audio_external": true,
+  "builds": [
+    {
+      "file": "pokefirered.gba",
+      "size_bytes": 16777216,
+      "sha256": "0159b78a3947044de24c741b5e94c0fd72a17ca41a0399297a1eee115e961ca1",
+      "reference_sha256": "0159b78a3947044de24c741b5e94c0fd72a17ca41a0399297a1eee115e961ca1",
+      "byte_identical": true
+    },
+    {
+      "file": "pokefirered_audio.gba",
+      "size_bytes": 31589579,
+      "sha256": "fbca055fe3beac95dd28fd516eeef3491bbcce0d4248d59bafe0af6421b521b4",
+      "reference_sha256": "fbca055fe3beac95dd28fd516eeef3491bbcce0d4248d59bafe0af6421b521b4",
+      "byte_identical": true
+    }
+  ]
+}

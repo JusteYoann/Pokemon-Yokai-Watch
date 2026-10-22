@@ -60,3 +60,7 @@ YOKAI_QA_ROM=$PWD/pokefirered_audio.gba YOKAI_QA_ELF=$PWD/pokefirered_audio.elf 
 ```
 
 Pour le profil public, compiler avec `make -j4`, sélectionner `pokefirered.gba` et son ELF, et définir `YOKAI_MYSTERY_QA_DIR` vers le sous-dossier `public` pour isoler les preuves.
+
+## Reproductibilité depuis GitHub
+
+Le clone indépendant a récupéré le commit `51d520b98` directement depuis GitHub. Tous ses anciens objets de compilation et ROM ont été supprimés avec `make tidy`, puis les profils public et privé ont été reconstruits. Les ressources graphiques générées conservées provenaient uniquement de sources publiées inchangées; le nouveau sprite a été compilé depuis ses PNG/PAL publiés. Aucun objet ou source local de développement n’a été copié. Les deux ROM sont **identiques octet par octet** aux versions testées; le profil privé utilise les mêmes ressources audio externes. Détails dans `REPRODUCTIBILITE.json`.
