@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "rom_sha256": "8e606c8027bcfc754c3ae964d10f136dc4ea379067ea3ce5c34b319ca38ac611",
+  "scope": "Explicit legacy-state fixtures; actual native Flash and Continue callbacks, not an archived player save",
+  "results": [
+    {
+      "test": "Native Continue of engineered old gym save on newly blocked tile with old champion template: rebuilt layout/objects, safe entrance; subsequent Continue retains exact position",
+      "passed": true
+    },
+    {
+      "test": "Native Continue of engineered old city save: first trophy retained, intro skipped, templates rebuilt; subsequent Continue retains exact position",
+      "passed": true
+    }
+  ]
+}

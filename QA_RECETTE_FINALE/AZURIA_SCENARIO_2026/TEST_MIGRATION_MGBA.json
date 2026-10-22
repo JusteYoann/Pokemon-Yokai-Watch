@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "rom_sha256": "8e606c8027bcfc754c3ae964d10f136dc4ea379067ea3ce5c34b319ca38ac611",
+  "scope": "Independent explicit party/progression/legacy-state fixtures; native battles and Flash/Continue. No archived player save supplied.",
+  "results": [
+    {
+      "test": "Actual whiteout with level1 starter: healed, first trophy and hearths retained, no second trophy/TM/trainer win; retry remains available",
+      "passed": true,
+      "battle_frames": 2504
+    },
+    {
+      "test": "Gate rejects one/two lit hearths and missing first trophy even with all three; center out of order resets persistent and rendered state",
+      "passed": true
+    },
+    {
+      "test": "Native Flash/Continue engineered prior-Misty save: safe entrance/new leader template, old trophy skips new puzzle, pending TM and historical Leaf Stone delivered uniquely without a new fight; future Continue retains exact position",
+      "passed": true
+    },
+    {
+      "test": "Native Continue of engineered old Celadon save rebuilds templates with both relocated actors hidden and retains position",
+      "passed": true
+    },
+    {
+      "test": "nathan optional rematch uses original six-member postgame team, No accepted, full Leaf Stone stack leaves reward pending, retry without a fight and unique persisted gift",
+      "passed": true,
+      "battle_frames": 6710,
+      "fixture": "Hovernyan100, Aerial Ace, HP and battle stats explicitly boosted to999: event flow only, not postgame balance"
+    },
+    {
+      "test": "katie optional rematch uses original six-member postgame team, No accepted, full Leaf Stone stack leaves reward pending, retry without a fight and unique persisted gift",
+      "passed": true,
+      "battle_frames": 6806,
+      "fixture": "Hovernyan100, Aerial Ace, HP and battle stats explicitly boosted to999: event flow only, not postgame balance"
+    }
+  ]
+}

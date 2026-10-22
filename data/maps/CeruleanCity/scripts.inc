@@ -352,7 +352,6 @@ CeruleanCity_EventScript_BikeShopSign::
 
 CeruleanCity_EventScript_GymSign::
 	lockall
-	famechecker FAMECHECKER_MISTY, 0
 	msgbox CeruleanCity_Text_GymSign
 	releaseall
 	end

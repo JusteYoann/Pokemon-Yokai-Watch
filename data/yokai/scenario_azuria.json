@@ -1,5 +1,5 @@
 {
-  "status": "chapter_native_flow_passed_additional_legacy_and_postgame_checks_pending",
+  "status": "chapter_implemented_native_tests_passed",
   "progress_var": "VAR_SCENARIO_AZURIA_HEARTHS",
   "order": [
     "Feulion (left)",
@@ -67,5 +67,6 @@
     "sParty_YokaiNathanPost",
     "sParty_YokaiKatiePost"
   ],
-  "cameo_migration": "Celadon actors hidden; original postgame friend teams and unique Leaf Stone reward moved to gym; historical won/reward flags retained"
+  "cameo_migration": "Celadon actors hidden; original postgame friend teams and unique Leaf Stone reward moved to gym; historical won/reward flags retained",
+  "remaining_validation": "All-starter balance, continuous full-adventure playthrough and archived player saves remain unverified"
 }

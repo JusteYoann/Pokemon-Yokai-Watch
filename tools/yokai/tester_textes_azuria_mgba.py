@@ -6,8 +6,10 @@ out=ROOT/'QA_RECETTE_FINALE/AZURIA_SCENARIO_2026';out.mkdir(exist_ok=True)
 glyphs={m[1]:int(m[2],16) for m in re.finditer(r"^'(.*?)'\s*= ([0-9A-F]{2})$",(ROOT/'charmap.txt').read_text(),re.M)};glyphs["'"]=glyphs['’']
 r=Emulator();rows=[]
 try:
- for path in ['data/maps/CeruleanCity_Gym/text.inc']:
-  for piece in re.findall(r'\.string "(.*)"',(ROOT/path).read_text()):
+ for path in ['data/maps/CeruleanCity_Gym/text.inc','data/maps/CeruleanCity/text.inc']:
+  text=(ROOT/path).read_text()
+  if path.endswith('CeruleanCity/text.inc'):text=text[text.index('CeruleanCity_Text_GymSign::'):].split('\n\n',1)[0]
+  for piece in re.findall(r'\.string "(.*)"',text):
    piece=piece.replace('{PLAYER}','WWWWWWW').replace('{RIVAL}','Matt').replace('{STR_VAR_1}','Nathan')
    piece=re.sub(r'\{[^}]+\}','',piece)
    for line in re.split(r'\\[nlp]',piece):
