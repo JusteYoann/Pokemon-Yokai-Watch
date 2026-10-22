@@ -1,0 +1,96 @@
+{
+  "method": "Three standalone native front proposals; never writes integrated game art.",
+  "proposals": [
+    {
+      "version": "A",
+      "frame": [
+        16,
+        32
+      ],
+      "visible_bounds": [
+        1,
+        12,
+        15,
+        31
+      ],
+      "visible_size": [
+        14,
+        19
+      ],
+      "foot_row": 30,
+      "foot_bottom_x": [
+        4,
+        5,
+        10,
+        11
+      ],
+      "visible_colors": 12,
+      "source_cells_match_png": true,
+      "sha256": "83c90715728f81b4ffc79c1a4b449b570ec8c8767e22f421079f39d33995a66b"
+    },
+    {
+      "version": "B",
+      "frame": [
+        16,
+        32
+      ],
+      "visible_bounds": [
+        0,
+        12,
+        16,
+        31
+      ],
+      "visible_size": [
+        16,
+        19
+      ],
+      "foot_row": 30,
+      "foot_bottom_x": [
+        4,
+        5,
+        10,
+        11
+      ],
+      "visible_colors": 12,
+      "source_cells_match_png": true,
+      "sha256": "2481a983ecb6f769ecbdfe743f682fef72998d3cb707d1aeb61601dbdbbfa56f"
+    },
+    {
+      "version": "C",
+      "frame": [
+        16,
+        32
+      ],
+      "visible_bounds": [
+        1,
+        12,
+        16,
+        31
+      ],
+      "visible_size": [
+        15,
+        19
+      ],
+      "foot_row": 30,
+      "foot_bottom_x": [
+        4,
+        5,
+        10,
+        11
+      ],
+      "visible_colors": 12,
+      "source_cells_match_png": true,
+      "sha256": "a97659c948c3ade84a21f30975c178c486d6e81f2b4a8352fbf63aa70c4be003"
+    }
+  ],
+  "foot_alignment": "All last opaque pixels on native y30; gray baseline on y31",
+  "resampling_of_sprite_art": false,
+  "preview_only_enlarged_by": 12,
+  "integrated": false,
+  "animations_created": false,
+  "emulator_tested": false,
+  "export_repeat_identical": true,
+  "alpha_binary": true,
+  "foreground_components_per_proposal": 1,
+  "original_red_frame_indices_preserved": true
+}

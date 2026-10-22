@@ -1,0 +1,206 @@
+{
+  "source": "graphics/object_events/pics/people/red_normal.png",
+  "frame": 0,
+  "frame_size": [
+    16,
+    32
+  ],
+  "source_reference": "Original repository Red front sprite, matching supplied zoomed reference; measurements are on original native pixels, not on scaled chat preview.",
+  "bounds_convention": "x0,y0,x1,y1 exclusive",
+  "regions": {
+    "silhouette": {
+      "bounds": [
+        1,
+        12,
+        15,
+        31
+      ],
+      "size": [
+        14,
+        19
+      ]
+    },
+    "head_including_cap": {
+      "bounds": [
+        1,
+        12,
+        15,
+        24
+      ],
+      "size": [
+        14,
+        12
+      ]
+    },
+    "cap_crown": {
+      "bounds": [
+        2,
+        12,
+        14,
+        18
+      ],
+      "size": [
+        12,
+        6
+      ]
+    },
+    "cap_visor_band_region": {
+      "bounds": [
+        3,
+        18,
+        13,
+        20
+      ],
+      "size": [
+        10,
+        2
+      ]
+    },
+    "torso_core": {
+      "bounds": [
+        5,
+        23,
+        11,
+        28
+      ],
+      "size": [
+        6,
+        5
+      ]
+    },
+    "left_shoulder_arm_hand": {
+      "bounds": [
+        1,
+        23,
+        5,
+        27
+      ],
+      "size": [
+        4,
+        4
+      ]
+    },
+    "right_shoulder_arm_hand": {
+      "bounds": [
+        11,
+        23,
+        15,
+        27
+      ],
+      "size": [
+        4,
+        4
+      ]
+    },
+    "legs_and_shoes": {
+      "bounds": [
+        3,
+        28,
+        13,
+        31
+      ],
+      "size": [
+        10,
+        3
+      ]
+    },
+    "left_shoe": {
+      "bounds": [
+        3,
+        29,
+        7,
+        31
+      ],
+      "size": [
+        4,
+        2
+      ]
+    },
+    "right_shoe": {
+      "bounds": [
+        9,
+        29,
+        13,
+        31
+      ],
+      "size": [
+        4,
+        2
+      ]
+    }
+  },
+  "outline": "One native pixel; cap uses dark red edges, other outlines include pure black. No uniform 2px outline.",
+  "visible_colors": 12,
+  "used_palette": {
+    "1": [
+      172,
+      123,
+      65
+    ],
+    "2": [
+      255,
+      197,
+      148
+    ],
+    "3": [
+      222,
+      148,
+      115
+    ],
+    "4": [
+      123,
+      65,
+      65
+    ],
+    "6": [
+      57,
+      57,
+      123
+    ],
+    "7": [
+      115,
+      164,
+      197
+    ],
+    "8": [
+      106,
+      41,
+      41
+    ],
+    "9": [
+      238,
+      238,
+      255
+    ],
+    "10": [
+      180,
+      180,
+      213
+    ],
+    "11": [
+      255,
+      106,
+      74
+    ],
+    "12": [
+      197,
+      57,
+      57
+    ],
+    "15": [
+      0,
+      0,
+      0
+    ]
+  },
+  "foot_bottom_row": 30,
+  "foot_bottom_pixels": [
+    4,
+    5,
+    10,
+    11
+  ],
+  "semantic_annotation": "Head and cap separated by native row/color regions; torso core is an explicitly annotated 6x5 rectangle, not the combined torso-plus-arms width. Arm boxes include shoulders and hands. Measures of nontransparent regions are exact; anatomical annotations are manual.",
+  "shading": "Flat clusters: three red cap values and dark border; two principal skin shades plus dark edges; small blue clothing/shoe clusters. No smooth gradients.",
+  "source_sha256": "94eb37499a8bd663f47a0767c34b93569cf0c222a9906852943016e3a771054d"
+}
