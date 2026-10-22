@@ -200,6 +200,11 @@ ifneq ($(strip $(YOKAI_AUDIO_DIR)),)
   DATA_ASM_OBJS += $(DATA_ASM_BUILDDIR)/yokai_private_audio.o
   $(DATA_ASM_BUILDDIR)/yokai_private_audio.o: $(YOKAI_AUDIO_DIR)/yokai_music.s $(wildcard $(YOKAI_AUDIO_DIR)/*.dpcm)
 	$(AS) $(ASFLAGS) -o $@ $<
+  ifneq ($(wildcard $(YOKAI_AUDIO_DIR)/yokai_music_gap.s),)
+    DATA_ASM_OBJS += $(DATA_ASM_BUILDDIR)/yokai_private_audio_gap.o
+    $(DATA_ASM_BUILDDIR)/yokai_private_audio_gap.o: $(YOKAI_AUDIO_DIR)/yokai_music_gap.s $(wildcard $(YOKAI_AUDIO_DIR)/*.dpcm)
+	$(AS) $(ASFLAGS) -o $@ $<
+  endif
 endif
 
 OBJS     := $(C_OBJS) $(C_ASM_OBJS) $(ASM_OBJS) $(DATA_ASM_OBJS) $(SONG_OBJS) $(MID_OBJS)

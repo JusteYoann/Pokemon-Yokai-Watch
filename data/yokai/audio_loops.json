@@ -5,12 +5,16 @@
     2,
     3,
     4,
+    5,
     6,
     7,
+    8,
     9,
     10,
     11,
     12,
+    13,
+    14,
     15,
     16,
     17,
@@ -21,6 +25,7 @@
     22,
     23,
     24,
+    25,
     26,
     27,
     28,
@@ -28,7 +33,7 @@
     30,
     31
   ],
-  "status": "User authorizes extra Yo-kai OST within ~30MiB: 26 active, six recurrent-source additions; Enma5/Final25 still explicitly substituted and Blossom12 phrase assembly still awaiting listening.",
+  "status": "Experimental 31-slot integration in pre-graphics padding. Original 26 unchanged. New 13/14 have recurrence-derived loops; 5/8/25 remain full one-shot tracks pending musical loop validation. Not release-ready.",
   "tracks": [
     {
       "number": 1,
@@ -463,10 +468,13 @@
     5,
     6,
     7,
+    8,
     9,
     10,
     11,
     12,
+    13,
+    14,
     15,
     16,
     17,
@@ -485,10 +493,90 @@
     30,
     31
   ],
-  "pending_tracks": [
-    5,
-    25
+  "pending_tracks": [],
+  "budget_rom_bytes": 33554432,
+  "max_active_tracks": 31,
+  "gap_tracks": [
+    {
+      "number": 5,
+      "title": "Enma Track",
+      "input_bytes": 821056,
+      "input_sha256": "24e2ba44add8b59e3a9c08f46222d0e7dc815eaf8dee79267f3152710b4ea43e",
+      "input_samples": 1592287,
+      "rate": 13379,
+      "loop_start_samples": null,
+      "loop_end_samples": 1592287,
+      "perceptual_listening_validated": false,
+      "derivation": "Complete existing DPCM retained byte-identically; no loop forced because source recurrence research is inconclusive. One-shot experimental playback; natural ending then silence until next music request."
+    },
+    {
+      "number": 8,
+      "title": "Katies House",
+      "input_bytes": 978565,
+      "input_sha256": "4b593bf219d701132d65b3a23d226a6eac10517f5cd8208194ea10f2e5306726",
+      "input_samples": 1897743,
+      "rate": 13379,
+      "loop_start_samples": null,
+      "loop_end_samples": 1897743,
+      "perceptual_listening_validated": false,
+      "derivation": "Complete existing DPCM retained byte-identically; no loop forced because source recurrence research is inconclusive. One-shot experimental playback; natural ending then silence until next music request."
+    },
+    {
+      "number": 13,
+      "title": "Enma Villa",
+      "input_bytes": 1455382,
+      "input_sha256": "4fa9cf85882c6571d309827b98c72ee24805cb6532cb721b295386e3a9b65ae0",
+      "input_samples": 2822500,
+      "rate": 13379,
+      "loop_start_samples": 13389,
+      "loop_end_samples": 1332961,
+      "perceptual_listening_validated": false,
+      "period_samples": 1319572,
+      "loop_boundary_step_pcm8": 0,
+      "recurrence_correlations": [
+        0.9901768741184173,
+        0.9950067051161207,
+        0.9969946201294054,
+        0.9956254939276254
+      ],
+      "derivation": "Full-cycle source recurrence; seam aligned within 50 ms of stable intro endpoint. No crossfade or sample re-encoding. Human listening pending."
+    },
+    {
+      "number": 14,
+      "title": "Mount Wildwood in the Past",
+      "input_bytes": 946126,
+      "input_sha256": "a33f1683af3f39b921283bbd96dea5230f2da948219b126e500ce3fe97d6dde5",
+      "input_samples": 1834834,
+      "rate": 13379,
+      "loop_start_samples": 53515,
+      "loop_end_samples": 879198,
+      "perceptual_listening_validated": false,
+      "period_samples": 825683,
+      "loop_boundary_step_pcm8": 0,
+      "recurrence_correlations": [
+        0.9974162167424633,
+        0.9991873929247077,
+        0.9871126792320316,
+        0.9927079959205973
+      ],
+      "derivation": "Full-cycle source recurrence; seam aligned within 50 ms of stable intro endpoint. No crossfade or sample re-encoding. Human listening pending."
+    },
+    {
+      "number": 25,
+      "title": "Final Battle – Are You Ready?",
+      "input_bytes": 1393936,
+      "input_sha256": "d648b8289d43a212e44840959c5196e483666595840d3e63a492d6ebe2d0a8ae",
+      "input_samples": 2703323,
+      "rate": 13379,
+      "loop_start_samples": null,
+      "loop_end_samples": 2703323,
+      "perceptual_listening_validated": false,
+      "derivation": "Complete existing DPCM retained byte-identically; no loop forced because source recurrence research is inconclusive. One-shot experimental playback; natural ending then silence until next music request."
+    }
   ],
-  "budget_rom_bytes": 31457280,
-  "max_active_tracks": 31
+  "pending_loop_tracks": [
+    5,
+    8,
+    25
+  ]
 }

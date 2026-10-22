@@ -16,6 +16,8 @@ from dpcm_m4a import decode
 P=ROOT/'QA_RECETTE_FINALE/INTEGRATION_MUSIQUES';P.mkdir(parents=True,exist_ok=True);(P/'preuves').mkdir(exist_ok=True)
 G=json.loads((ROOT/'data/maps/map_groups.json').read_text());MAPS={name:(i,j) for i,key in enumerate(G['group_order']) for j,name in enumerate(G[key])}
 CONFIG=json.loads((ROOT/'data/yokai/audio_loops.json').read_text());LOOPS={r['number']:r for r in CONFIG['tracks']}
+for row in CONFIG.get('gap_tracks',[]):
+ if row['loop_start_samples'] is not None:LOOPS[row['number']]=dict(source_start_samples=0,source_loop_start_samples=row['loop_start_samples'],source_end_samples=row['loop_end_samples'])
 private=Path(os.environ['YOKAI_AUDIO_DIR']);rom=Path(os.environ['YOKAI_QA_ROM']);manifest=json.loads((private/'manifest.json').read_text());results=[]
 def channel(r,n):
  waveptr=r.symbols[f'yokai_wave_{n:02d}']
