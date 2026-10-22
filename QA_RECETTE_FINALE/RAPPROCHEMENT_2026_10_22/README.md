@@ -13,6 +13,7 @@ Ces sources proviennent de deux commits de l'autre branche, avec adaptations loc
 
 ## Tests
 
+- Reconstructions depuis le clone GitHub indépendant strictement identiques, dans les deux profils: `REPRODUCTIBILITE.json`. Les ressources audio privées restent externes au dépôt.
 - Compilations publique et privée réussies; tailles/SHA dans `BUILD.json`. Privé31589579octets, sous32Mio,26OST conservées.
 - `introduction/TEST_INTRODUCTION_MGBA.json`: introduction native par manette, choix Nathan/Katie, saisie réelle du prénom AA, aucune saisie du prénom rival, Matt fixe et arrivée dans la chambre.
 - `prologue/TEST_PROLOGUE_MGBA.json`: six contrôles réussis sur les deux variantes, scènes natives montre/Médallium, retrait du colis, cinq Balls, menu et persistance Flash. Téléportations et variables de progression explicitement préparées; parcours et premier combat exclus de ce banc.

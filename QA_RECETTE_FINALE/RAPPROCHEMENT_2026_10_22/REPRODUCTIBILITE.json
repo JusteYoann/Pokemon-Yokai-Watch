@@ -1,0 +1,20 @@
+{
+  "commit": "db01c3282947c7a76536c22c6d9825db1a84ba1d",
+  "method": "Independent GitHub clone, fast-forward from prior published Wyatt milestone; make public/private with pinned agbcc and same external private audio. No build objects copied from reference workspace.",
+  "results": [
+    {
+      "file": "pokefirered.gba",
+      "bytes": 16777216,
+      "reference_sha256": "031d36f755b24bb2d8a5517ee89fa8db8d2a57762c14a4540ef036c9e057c8af",
+      "clone_sha256": "031d36f755b24bb2d8a5517ee89fa8db8d2a57762c14a4540ef036c9e057c8af",
+      "identical": true
+    },
+    {
+      "file": "pokefirered_audio.gba",
+      "bytes": 31589579,
+      "reference_sha256": "14cbb01b212fc33dde3f9f049cd390e9a1b5c36dd8f38de3c819a310e525a075",
+      "clone_sha256": "14cbb01b212fc33dde3f9f049cd390e9a1b5c36dd8f38de3c819a310e525a075",
+      "identical": true
+    }
+  ]
+}
