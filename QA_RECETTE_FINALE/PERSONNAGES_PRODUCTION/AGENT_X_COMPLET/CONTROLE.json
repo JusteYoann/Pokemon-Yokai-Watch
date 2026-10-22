@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "scope": "Compiled Agent X graphics: four facings, gait, displacement and native trainer loader.\nNo runtime graphics injection. Temporary field actors and battle-portrait fixture only.\n",
+  "runtime_graphics_injection": false,
+  "rom_sha256": "90038d21b95d42f9e177e446f11e4941671edb8b3762c80354f2be5040a31a21",
+  "rom_bytes": 16777216,
+  "field_facings": [
+    {
+      "direction": "face",
+      "frames_seen": [
+        0,
+        3,
+        4
+      ],
+      "palette_verified": true,
+      "flip_correct": true
+    },
+    {
+      "direction": "dos",
+      "frames_seen": [
+        1,
+        5,
+        6
+      ],
+      "palette_verified": true,
+      "flip_correct": true
+    },
+    {
+      "direction": "gauche",
+      "frames_seen": [
+        2,
+        7,
+        8
+      ],
+      "palette_verified": true,
+      "flip_correct": true
+    },
+    {
+      "direction": "droite",
+      "frames_seen": [
+        2,
+        7,
+        8
+      ],
+      "palette_verified": true,
+      "flip_correct": true
+    }
+  ],
+  "simultaneous_morleone_palette_verified": true,
+  "agent_palette_bank": 13,
+  "displacements": [
+    {
+      "action": 18,
+      "before": "11001300",
+      "after": "10001300"
+    },
+    {
+      "action": 19,
+      "before": "10001300",
+      "after": "11001300"
+    }
+  ],
+  "field_compiled_tiles_verified": true,
+  "battle_portrait_registered_id": 160,
+  "battle_tiles_and_palette_verified": true,
+  "limitations": [
+    "Temporary spawned actors; no new story placement",
+    "Trainer portrait loaded natively on a battle fixture, not an Agent X scripted encounter or team",
+    "New poses and portrait await creator artistic review",
+    "No claim of complete adventure or all field-effect/reflection combinations tested"
+  ]
+}

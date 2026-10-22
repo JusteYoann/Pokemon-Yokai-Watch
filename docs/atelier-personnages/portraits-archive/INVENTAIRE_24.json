@@ -1,0 +1,482 @@
+[
+  {
+    "personnage": "Agent X",
+    "actor": "agent_x",
+    "etat": "nouveau",
+    "fichier": "graphics/yokai_characters/agent_x/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 14,
+    "silhouette": [
+      9,
+      1,
+      51,
+      64
+    ],
+    "sha256": "199724e1ef7c54a764f7a62e8a678ef407a31770e2ccd94b3bab23b222239a30",
+    "validation_artistique": "à valider",
+    "affectation_scenario": "inchangée ; ressource enregistrée sans ajouter de combat"
+  },
+  {
+    "personnage": "Alyzon Bie",
+    "actor": "alyzon_bie",
+    "etat": "nouveau",
+    "fichier": "graphics/yokai_characters/alyzon_bie/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 13,
+    "silhouette": [
+      18,
+      1,
+      44,
+      64
+    ],
+    "sha256": "a601b836af374f2ec33b1ef1f3255357790f857305fac1317fb1e5ce7a183643",
+    "validation_artistique": "à valider",
+    "affectation_scenario": "inchangée ; ressource enregistrée sans ajouter de combat"
+  },
+  {
+    "personnage": "Bérénice Bélier",
+    "actor": "berenice_belier",
+    "etat": "nouveau",
+    "fichier": "graphics/yokai_characters/berenice_belier/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 13,
+    "silhouette": [
+      16,
+      2,
+      49,
+      64
+    ],
+    "sha256": "efd56df1e9424c9977e45f7a21e648e0e4d1e9a389779f52975aac003796291e",
+    "validation_artistique": "à valider",
+    "affectation_scenario": "inchangée ; ressource enregistrée sans ajouter de combat"
+  },
+  {
+    "personnage": "Inspecteur Giraud",
+    "actor": "inspecteur_giraud",
+    "etat": "nouveau",
+    "fichier": "graphics/yokai_characters/inspecteur_giraud/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 12,
+    "silhouette": [
+      16,
+      1,
+      46,
+      64
+    ],
+    "sha256": "2db000a3b715e658f047f7127fc7be9b25b1fb23d3f8acb893132fe83b4fcf42",
+    "validation_artistique": "à valider",
+    "affectation_scenario": "inchangée ; ressource enregistrée sans ajouter de combat"
+  },
+  {
+    "personnage": "Lady Perpétua",
+    "actor": "lady_perpetua",
+    "etat": "nouveau",
+    "fichier": "graphics/yokai_characters/lady_perpetua/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 10,
+    "silhouette": [
+      3,
+      0,
+      64,
+      63
+    ],
+    "sha256": "ad3c64177383f26ed81e7aac40b590eb15033dbdc5999718caf95b552decbc27",
+    "validation_artistique": "à valider",
+    "affectation_scenario": "inchangée ; ressource enregistrée sans ajouter de combat"
+  },
+  {
+    "personnage": "Laure",
+    "actor": "laure",
+    "etat": "nouveau",
+    "fichier": "graphics/yokai_characters/laure/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 14,
+    "silhouette": [
+      8,
+      1,
+      54,
+      64
+    ],
+    "sha256": "4bf505b8080e2e49b8e2414c0119f446f1cdcb62718fb52d942c1e21510bf005",
+    "validation_artistique": "à valider",
+    "affectation_scenario": "inchangée ; ressource enregistrée sans ajouter de combat"
+  },
+  {
+    "personnage": "Marge",
+    "actor": "marge",
+    "etat": "nouveau",
+    "fichier": "graphics/yokai_characters/marge/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 14,
+    "silhouette": [
+      8,
+      1,
+      54,
+      64
+    ],
+    "sha256": "e8f8f07e6fac450eeaf44a7b2cc3b6e5f96065fcbe3c4d4d59fa8a3f2b29769c",
+    "validation_artistique": "à valider",
+    "affectation_scenario": "inchangée ; ressource enregistrée sans ajouter de combat"
+  },
+  {
+    "personnage": "McKraken",
+    "actor": "mc_kraken",
+    "etat": "nouveau",
+    "fichier": "graphics/yokai_characters/mc_kraken/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 11,
+    "silhouette": [
+      0,
+      1,
+      64,
+      63
+    ],
+    "sha256": "c5db778d611a5e56d8fc8fa4aab2e05c47b061cc91eab35665d609b56938c383",
+    "validation_artistique": "à valider",
+    "affectation_scenario": "inchangée ; ressource enregistrée sans ajouter de combat"
+  },
+  {
+    "personnage": "Steve Jaws",
+    "actor": "steve_jaws",
+    "etat": "nouveau",
+    "fichier": "graphics/yokai_characters/steve_jaws/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 9,
+    "silhouette": [
+      11,
+      5,
+      49,
+      64
+    ],
+    "sha256": "96caaaae15f1ba0dd36ca06a29401adf14f23e1782a0d8b513a7592917de4022",
+    "validation_artistique": "à valider",
+    "affectation_scenario": "inchangée ; ressource enregistrée sans ajouter de combat"
+  },
+  {
+    "personnage": "Whisper en costume",
+    "actor": "whisper_humain",
+    "etat": "nouveau",
+    "fichier": "graphics/yokai_characters/whisper_humain/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 12,
+    "silhouette": [
+      17,
+      1,
+      46,
+      64
+    ],
+    "sha256": "296086bab2a5f5cd5f5a6dcd3285567eec15c36b4ec4a1a131641910936e9812",
+    "validation_artistique": "à valider",
+    "affectation_scenario": "inchangée ; ressource enregistrée sans ajouter de combat"
+  },
+  {
+    "personnage": "Nathaniel âgé",
+    "actor": "nathaniel_age",
+    "etat": "nouveau",
+    "fichier": "graphics/yokai_characters/nathaniel_age/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 11,
+    "silhouette": [
+      18,
+      3,
+      45,
+      64
+    ],
+    "sha256": "58b4cff1df43e142ff88c75104dc57686faf57f40f5d796be6bd48ca334c49c2",
+    "validation_artistique": "à valider",
+    "affectation_scenario": "inchangée ; ressource enregistrée sans ajouter de combat"
+  },
+  {
+    "personnage": "Enma humain",
+    "actor": "enma_humain",
+    "etat": "nouveau",
+    "fichier": "graphics/yokai_characters/enma_humain/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 14,
+    "silhouette": [
+      17,
+      0,
+      46,
+      64
+    ],
+    "sha256": "c2db9df8a18abb93458f95939ae7ca2fb4270b365b4e6f3dae412caf3d84aa09",
+    "validation_artistique": "à valider",
+    "affectation_scenario": "inchangée ; ressource enregistrée sans ajouter de combat"
+  },
+  {
+    "personnage": "Zazel",
+    "actor": "zazel",
+    "etat": "nouveau",
+    "fichier": "graphics/yokai_characters/zazel/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 14,
+    "silhouette": [
+      6,
+      2,
+      59,
+      64
+    ],
+    "sha256": "0439cf6aaff4b09e7d4cdae47ffae4bd52fe954877d2ae1ef1c5317a20d3bf3b",
+    "validation_artistique": "à valider",
+    "affectation_scenario": "inchangée ; ressource enregistrée sans ajouter de combat"
+  },
+  {
+    "personnage": "Yopple-bot",
+    "actor": "yopple_bot",
+    "etat": "nouveau",
+    "fichier": "graphics/yokai_characters/yopple_bot/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 10,
+    "silhouette": [
+      5,
+      1,
+      63,
+      63
+    ],
+    "sha256": "6e3e1c904796b965e4855a825b75c53c399363b394d83e423a4f9648d193e398",
+    "validation_artistique": "à valider",
+    "affectation_scenario": "inchangée ; ressource enregistrée sans ajouter de combat"
+  },
+  {
+    "personnage": "Enma ancien",
+    "actor": "enma_ancien",
+    "etat": "nouveau",
+    "fichier": "graphics/yokai_characters/enma_ancien/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 11,
+    "silhouette": [
+      1,
+      1,
+      63,
+      62
+    ],
+    "sha256": "fdaf53d7abe4da32ea90406301f064ed8771de91d91b6d1d29a02031f78a8d58",
+    "validation_artistique": "à valider",
+    "affectation_scenario": "inchangée ; ressource enregistrée sans ajouter de combat"
+  },
+  {
+    "personnage": "Ariane",
+    "actor": "ariane",
+    "etat": "existant conservé",
+    "fichier": "graphics/yokai_characters/ariane/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 14,
+    "silhouette": [
+      15,
+      3,
+      49,
+      63
+    ],
+    "sha256": "9842b9400ea20ced49f2e44600acf85875cd8c7f99de0870b915e9f208b40fd1",
+    "validation_artistique": "non redessiné",
+    "affectation_scenario": "inchangée"
+  },
+  {
+    "personnage": "Wyatt",
+    "actor": "wyatt",
+    "etat": "existant conservé",
+    "fichier": "graphics/yokai_characters/wyatt/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 14,
+    "silhouette": [
+      13,
+      3,
+      51,
+      63
+    ],
+    "sha256": "8ea9bd610a0004b9714a8b9a7028fe38fedbb28abc213d38a295aabf9cec515e",
+    "validation_artistique": "non redessiné",
+    "affectation_scenario": "inchangée"
+  },
+  {
+    "personnage": "Don Morleone",
+    "actor": "don_morleone",
+    "etat": "existant conservé",
+    "fichier": "graphics/yokai_characters/don_morleone/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 13,
+    "silhouette": [
+      8,
+      3,
+      55,
+      63
+    ],
+    "sha256": "6bf783e70a97cfc051e6405594f736184eaed969747752f16555f15c2103d981",
+    "validation_artistique": "non redessiné",
+    "affectation_scenario": "inchangée"
+  },
+  {
+    "personnage": "Michael",
+    "actor": "michael",
+    "etat": "existant conservé",
+    "fichier": "graphics/yokai_characters/michael/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 15,
+    "silhouette": [
+      15,
+      3,
+      49,
+      63
+    ],
+    "sha256": "893242ddf531c4d597151b352aa43701b8445c492178e52cb42544e3bb3c8144",
+    "validation_artistique": "non redessiné",
+    "affectation_scenario": "inchangée"
+  },
+  {
+    "personnage": "Nathaniel jeune",
+    "actor": "nathaniel",
+    "etat": "existant conservé",
+    "fichier": "graphics/yokai_characters/nathaniel/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 15,
+    "silhouette": [
+      7,
+      3,
+      57,
+      63
+    ],
+    "sha256": "022c531329e767a616f116761640e477585145f8e47c26d05bac9eb8080b93a4",
+    "validation_artistique": "non redessiné",
+    "affectation_scenario": "inchangée"
+  },
+  {
+    "personnage": "Enma royal",
+    "actor": "enma",
+    "etat": "existant conservé",
+    "fichier": "graphics/yokai_characters/enma/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 12,
+    "silhouette": [
+      10,
+      3,
+      53,
+      63
+    ],
+    "sha256": "8c5ca827177fd0981f8ee33f382b6309ceb690cb026f409362b9ede735c764b5",
+    "validation_artistique": "non redessiné",
+    "affectation_scenario": "inchangée"
+  },
+  {
+    "personnage": "Mafiamille 1",
+    "actor": "mafiamille_1",
+    "etat": "existant conservé",
+    "fichier": "graphics/yokai_characters/mafiamille_1/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 10,
+    "silhouette": [
+      4,
+      3,
+      60,
+      63
+    ],
+    "sha256": "41a54ed1eed0b7f8c7902dbcc423fc97855212ef187c08a2455c86c060649689",
+    "validation_artistique": "non redessiné",
+    "affectation_scenario": "inchangée"
+  },
+  {
+    "personnage": "Mafiamille 2",
+    "actor": "mafiamille_2",
+    "etat": "existant conservé",
+    "fichier": "graphics/yokai_characters/mafiamille_2/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 10,
+    "silhouette": [
+      7,
+      3,
+      57,
+      63
+    ],
+    "sha256": "b0d456fdf23bbdc0c35c19439e494c7f7650214231abf82e9596109adae2cfa6",
+    "validation_artistique": "non redessiné",
+    "affectation_scenario": "inchangée"
+  },
+  {
+    "personnage": "Mafiamille 3",
+    "actor": "mafiamille_3",
+    "etat": "existant conservé",
+    "fichier": "graphics/yokai_characters/mafiamille_3/battle.png",
+    "dimensions": [
+      64,
+      64
+    ],
+    "couleurs_visibles": 10,
+    "silhouette": [
+      8,
+      3,
+      55,
+      63
+    ],
+    "sha256": "dbce2c71f846285d555873ef3d68c882fee49e04891b9b61109d7e01e9cd3522",
+    "validation_artistique": "non redessiné",
+    "affectation_scenario": "inchangée"
+  }
+]

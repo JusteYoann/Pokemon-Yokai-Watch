@@ -1,8 +1,8 @@
 {
   "method": "Export explicitly authored native grid cells. No source illustration is read.\n\nA source row contains exactly16 symbols: '.' is transparent;1..f are color\nindices. The PNG is written at native resolution, with no sampling or resizing.\nOnly the optional comparison preview is enlarged after export.\n",
   "source": "graphics/yokai_characters/agent_x/source/overworld-grille.json",
-  "source_sha256": "35dd1609b484e5de01dca3078db2f3833c39f6a2ff206cde0c43ed2f334fb90f",
-  "palette": "graphics/yokai_characters/nathan_trace/palette-native.json",
+  "source_sha256": "2ab7885a24b23ac454a834ab0f1f3201591a6eacd0872be3f87cd495bb78160f",
+  "palette": "graphics/yokai_characters/agent_x/source/palette-native.json",
   "frames": 9,
   "frame_size": [
     16,

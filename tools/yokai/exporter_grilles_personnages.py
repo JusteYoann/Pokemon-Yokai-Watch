@@ -29,7 +29,8 @@ def export(actor):
  im.save(folder/'overworld.png',bits=4,transparency=0)
  text='JASC-PAL\n0100\n16\n'+'\n'.join(' '.join(map(str,c)) for c in colors)+'\n'
  (folder/'overworld.pal').write_text(text)
- (ROOT/'graphics/yokai_characters/nathan_trace/overworld.pal').write_text(text)
+ if actor != 'agent_x':
+  (ROOT/'graphics/yokai_characters/nathan_trace/overworld.pal').write_text(text)
  report=dict(method=__doc__,source=str(path.relative_to(ROOT)),source_sha256=hashlib.sha256(path.read_bytes()).hexdigest(),palette=str(palette_path.relative_to(ROOT)),frames=9,frame_size=[16,32],transparent_index=0,illustrations_read=0,export_resizing=False)
  (folder/'trace-nathan.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
  return im

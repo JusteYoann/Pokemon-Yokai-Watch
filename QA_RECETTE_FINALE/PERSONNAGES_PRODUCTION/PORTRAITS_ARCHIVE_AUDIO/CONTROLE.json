@@ -1,0 +1,352 @@
+{
+  "passed": true,
+  "rom_sha256": "949a9fc25e6e24f418d80935cc357e96a38774b06ac9ae2cfa36ab0d6c119ec9",
+  "rom_bytes": 31602147,
+  "engine": "mGBA libretro",
+  "scope": "Native registered trainer portraits on a battle fixture; no graphics injection.\nThis proves graphics loading and display, not scripted Agent X/new-character battles.\n",
+  "graphics_injected": false,
+  "results": [
+    {
+      "actor": "agent_x",
+      "trainer_pic": 160,
+      "created_this_lot": true,
+      "source": "graphics/yokai_characters/agent_x/battle.png",
+      "png_sha256": "199724e1ef7c54a764f7a62e8a678ef407a31770e2ccd94b3bab23b222239a30",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "agent_x-combat-mgba.png"
+    },
+    {
+      "actor": "alyzon_bie",
+      "trainer_pic": 161,
+      "created_this_lot": true,
+      "source": "graphics/yokai_characters/alyzon_bie/battle.png",
+      "png_sha256": "a601b836af374f2ec33b1ef1f3255357790f857305fac1317fb1e5ce7a183643",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "alyzon_bie-combat-mgba.png"
+    },
+    {
+      "actor": "berenice_belier",
+      "trainer_pic": 162,
+      "created_this_lot": true,
+      "source": "graphics/yokai_characters/berenice_belier/battle.png",
+      "png_sha256": "efd56df1e9424c9977e45f7a21e648e0e4d1e9a389779f52975aac003796291e",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "berenice_belier-combat-mgba.png"
+    },
+    {
+      "actor": "inspecteur_giraud",
+      "trainer_pic": 163,
+      "created_this_lot": true,
+      "source": "graphics/yokai_characters/inspecteur_giraud/battle.png",
+      "png_sha256": "2db000a3b715e658f047f7127fc7be9b25b1fb23d3f8acb893132fe83b4fcf42",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "inspecteur_giraud-combat-mgba.png"
+    },
+    {
+      "actor": "lady_perpetua",
+      "trainer_pic": 164,
+      "created_this_lot": true,
+      "source": "graphics/yokai_characters/lady_perpetua/battle.png",
+      "png_sha256": "ad3c64177383f26ed81e7aac40b590eb15033dbdc5999718caf95b552decbc27",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "lady_perpetua-combat-mgba.png"
+    },
+    {
+      "actor": "laure",
+      "trainer_pic": 165,
+      "created_this_lot": true,
+      "source": "graphics/yokai_characters/laure/battle.png",
+      "png_sha256": "4bf505b8080e2e49b8e2414c0119f446f1cdcb62718fb52d942c1e21510bf005",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "laure-combat-mgba.png"
+    },
+    {
+      "actor": "marge",
+      "trainer_pic": 166,
+      "created_this_lot": true,
+      "source": "graphics/yokai_characters/marge/battle.png",
+      "png_sha256": "e8f8f07e6fac450eeaf44a7b2cc3b6e5f96065fcbe3c4d4d59fa8a3f2b29769c",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "marge-combat-mgba.png"
+    },
+    {
+      "actor": "mc_kraken",
+      "trainer_pic": 167,
+      "created_this_lot": true,
+      "source": "graphics/yokai_characters/mc_kraken/battle.png",
+      "png_sha256": "c5db778d611a5e56d8fc8fa4aab2e05c47b061cc91eab35665d609b56938c383",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "mc_kraken-combat-mgba.png"
+    },
+    {
+      "actor": "steve_jaws",
+      "trainer_pic": 168,
+      "created_this_lot": true,
+      "source": "graphics/yokai_characters/steve_jaws/battle.png",
+      "png_sha256": "96caaaae15f1ba0dd36ca06a29401adf14f23e1782a0d8b513a7592917de4022",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "steve_jaws-combat-mgba.png"
+    },
+    {
+      "actor": "whisper_humain",
+      "trainer_pic": 169,
+      "created_this_lot": true,
+      "source": "graphics/yokai_characters/whisper_humain/battle.png",
+      "png_sha256": "296086bab2a5f5cd5f5a6dcd3285567eec15c36b4ec4a1a131641910936e9812",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "whisper_humain-combat-mgba.png"
+    },
+    {
+      "actor": "nathaniel_age",
+      "trainer_pic": 170,
+      "created_this_lot": true,
+      "source": "graphics/yokai_characters/nathaniel_age/battle.png",
+      "png_sha256": "58b4cff1df43e142ff88c75104dc57686faf57f40f5d796be6bd48ca334c49c2",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "nathaniel_age-combat-mgba.png"
+    },
+    {
+      "actor": "enma_humain",
+      "trainer_pic": 171,
+      "created_this_lot": true,
+      "source": "graphics/yokai_characters/enma_humain/battle.png",
+      "png_sha256": "c2db9df8a18abb93458f95939ae7ca2fb4270b365b4e6f3dae412caf3d84aa09",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "enma_humain-combat-mgba.png"
+    },
+    {
+      "actor": "zazel",
+      "trainer_pic": 172,
+      "created_this_lot": true,
+      "source": "graphics/yokai_characters/zazel/battle.png",
+      "png_sha256": "0439cf6aaff4b09e7d4cdae47ffae4bd52fe954877d2ae1ef1c5317a20d3bf3b",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "zazel-combat-mgba.png"
+    },
+    {
+      "actor": "yopple_bot",
+      "trainer_pic": 173,
+      "created_this_lot": true,
+      "source": "graphics/yokai_characters/yopple_bot/battle.png",
+      "png_sha256": "6e3e1c904796b965e4855a825b75c53c399363b394d83e423a4f9648d193e398",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "yopple_bot-combat-mgba.png"
+    },
+    {
+      "actor": "enma_ancien",
+      "trainer_pic": 174,
+      "created_this_lot": true,
+      "source": "graphics/yokai_characters/enma_ancien/battle.png",
+      "png_sha256": "fdaf53d7abe4da32ea90406301f064ed8771de91d91b6d1d29a02031f78a8d58",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "enma_ancien-combat-mgba.png"
+    },
+    {
+      "actor": "ariane",
+      "trainer_pic": 148,
+      "created_this_lot": false,
+      "source": "graphics/yokai_characters/ariane/battle.png",
+      "png_sha256": "9842b9400ea20ced49f2e44600acf85875cd8c7f99de0870b915e9f208b40fd1",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "ariane-combat-mgba.png"
+    },
+    {
+      "actor": "wyatt",
+      "trainer_pic": 152,
+      "created_this_lot": false,
+      "source": "graphics/yokai_characters/wyatt/battle.png",
+      "png_sha256": "8ea9bd610a0004b9714a8b9a7028fe38fedbb28abc213d38a295aabf9cec515e",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "wyatt-combat-mgba.png"
+    },
+    {
+      "actor": "don_morleone",
+      "trainer_pic": 156,
+      "created_this_lot": false,
+      "source": "graphics/yokai_characters/don_morleone/battle.png",
+      "png_sha256": "6bf783e70a97cfc051e6405594f736184eaed969747752f16555f15c2103d981",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "don_morleone-combat-mgba.png"
+    },
+    {
+      "actor": "michael",
+      "trainer_pic": 151,
+      "created_this_lot": false,
+      "source": "graphics/yokai_characters/michael/battle.png",
+      "png_sha256": "893242ddf531c4d597151b352aa43701b8445c492178e52cb42544e3bb3c8144",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "michael-combat-mgba.png"
+    },
+    {
+      "actor": "nathaniel",
+      "trainer_pic": 150,
+      "created_this_lot": false,
+      "source": "graphics/yokai_characters/nathaniel/battle.png",
+      "png_sha256": "022c531329e767a616f116761640e477585145f8e47c26d05bac9eb8080b93a4",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "nathaniel-combat-mgba.png"
+    },
+    {
+      "actor": "enma",
+      "trainer_pic": 149,
+      "created_this_lot": false,
+      "source": "graphics/yokai_characters/enma/battle.png",
+      "png_sha256": "8c5ca827177fd0981f8ee33f382b6309ceb690cb026f409362b9ede735c764b5",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "enma-combat-mgba.png"
+    },
+    {
+      "actor": "mafiamille_1",
+      "trainer_pic": 157,
+      "created_this_lot": false,
+      "source": "graphics/yokai_characters/mafiamille_1/battle.png",
+      "png_sha256": "41a54ed1eed0b7f8c7902dbcc423fc97855212ef187c08a2455c86c060649689",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "mafiamille_1-combat-mgba.png"
+    },
+    {
+      "actor": "mafiamille_2",
+      "trainer_pic": 158,
+      "created_this_lot": false,
+      "source": "graphics/yokai_characters/mafiamille_2/battle.png",
+      "png_sha256": "b0d456fdf23bbdc0c35c19439e494c7f7650214231abf82e9596109adae2cfa6",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "mafiamille_2-combat-mgba.png"
+    },
+    {
+      "actor": "mafiamille_3",
+      "trainer_pic": 159,
+      "created_this_lot": false,
+      "source": "graphics/yokai_characters/mafiamille_3/battle.png",
+      "png_sha256": "dbce2c71f846285d555873ef3d68c882fee49e04891b9b61109d7e01e9cd3522",
+      "tiles_verified": true,
+      "palette_verified": true,
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "screenshot": "mafiamille_3-combat-mgba.png"
+    }
+  ],
+  "limitations": [
+    "Native graphics calls on a battle fixture, not 24 scripted encounters or teams",
+    "New portraits await artistic approval",
+    "Existing accepted battle PNGs unchanged",
+    "No original reference artworks published"
+  ]
+}

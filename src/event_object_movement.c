@@ -206,7 +206,8 @@ const u8 gReflectionEffectPaletteMap[16] = {
     [PALSLOT_NPC_3_REFLECTION]       = PALSLOT_NPC_3_REFLECTION,
     [PALSLOT_NPC_4_REFLECTION]       = PALSLOT_NPC_4_REFLECTION,
     [PALSLOT_NPC_SPECIAL]            = PALSLOT_NPC_SPECIAL_REFLECTION,
-    [PALSLOT_NPC_SPECIAL_REFLECTION] = PALSLOT_NPC_SPECIAL_REFLECTION
+    [PALSLOT_NPC_SPECIAL_REFLECTION] = PALSLOT_NPC_SPECIAL_REFLECTION,
+    [12] = 12, [13] = 13, [14] = 14, [15] = 15
 };
 
 static const struct SpriteTemplate gCameraSpriteTemplate = {
@@ -485,6 +486,7 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 #define OBJ_EVENT_PAL_TAG_MATT                        0x111C
 #define OBJ_EVENT_PAL_TAG_DR_JOBARD 0x112B
 #define OBJ_EVENT_PAL_TAG_YOKAI_TEMPLE_GROUP 0x112C
+#define OBJ_EVENT_PAL_TAG_YOKAI_AGENT_X 0x112D
 #define OBJ_EVENT_PAL_TAG_NONE                        0x11FF
 
 #include "data/object_events/object_event_graphics_info_pointers.h"
@@ -496,6 +498,7 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 #include "data/object_events/object_event_graphics_info.h"
 
 static const struct SpritePalette sObjectEventSpritePalettes[] = {
+    {gObjectEventPal_YokaiAgentX, OBJ_EVENT_PAL_TAG_YOKAI_AGENT_X},
     {gObjectEventPal_YokaiTempleGroup, OBJ_EVENT_PAL_TAG_YOKAI_TEMPLE_GROUP},
     {gObjectEventPal_DrJobard, OBJ_EVENT_PAL_TAG_DR_JOBARD},
     {gObjectEventPal_Player, OBJ_EVENT_PAL_TAG_YOKAI_FRIEND},
@@ -1617,6 +1620,21 @@ void Unref_RemoveAllObjectEventsExceptPlayer(void)
     }
 }
 
+// Agent X has a separate palette from other special NPC groups. Allocate it
+// through the normal sprite allocator (slots 12-15), never a hard-coded bank.
+static u8 GetObjectEventActorPaletteSlot(const struct ObjectEventGraphicsInfo *info)
+{
+    if (info->paletteTag == OBJ_EVENT_PAL_TAG_YOKAI_AGENT_X)
+    {
+        struct SpritePalette palette = {gObjectEventPal_YokaiAgentX, OBJ_EVENT_PAL_TAG_YOKAI_AGENT_X};
+        u8 slot = LoadSpritePalette(&palette);
+        // Palette exhaustion must not read outside OBJ palette memory.
+        if (slot != 0xFF)
+            return slot;
+    }
+    return info->paletteSlot;
+}
+
 static u8 TrySetupObjectEventSprite(const struct ObjectEventTemplate *objectEventTemplate, struct SpriteTemplate *spriteTemplate, u8 mapNum, u8 mapGroup, s16 cameraX, s16 cameraY)
 {
     u8 spriteId;
@@ -1654,7 +1672,7 @@ static u8 TrySetupObjectEventSprite(const struct ObjectEventTemplate *objectEven
     sprite->centerToCornerVecY = -(graphicsInfo->height >> 1);
     sprite->x += 8;
     sprite->y += 16 + sprite->centerToCornerVecY;
-    sprite->oam.paletteNum = graphicsInfo->paletteSlot;
+    sprite->oam.paletteNum = GetObjectEventActorPaletteSlot(graphicsInfo);
     sprite->coordOffsetEnabled = TRUE;
     sprite->data[0] = objectEventId;
     objectEvent->spriteId = spriteId;
@@ -1808,7 +1826,7 @@ u8 CreateVirtualObject(u8 graphicsId, u8 virtualObjId, s16 x, s16 y, u8 elevatio
         sprite->centerToCornerVecX = -(graphicsInfo->width >> 1);
         sprite->centerToCornerVecY = -(graphicsInfo->height >> 1);
         sprite->y += sprite->centerToCornerVecY;
-        sprite->oam.paletteNum = graphicsInfo->paletteSlot;
+        sprite->oam.paletteNum = GetObjectEventActorPaletteSlot(graphicsInfo);
         sprite->coordOffsetEnabled = TRUE;
         sprite->sVirtualObjId = virtualObjId;
         sprite->sVirtualObjElev = elevation;
@@ -1845,7 +1863,7 @@ u8 CreateFameCheckerObject(u8 graphicsId, u8 localId, s16 x, s16 y)
         sprite = &gSprites[spriteId];
         sprite->centerToCornerVecY = -(graphicsInfo->height >> 1);
         sprite->y += sprite->centerToCornerVecY;
-        sprite->oam.paletteNum = graphicsInfo->paletteSlot;
+        sprite->oam.paletteNum = GetObjectEventActorPaletteSlot(graphicsInfo);
         sprite->data[0] = localId;
         if (graphicsInfo->paletteSlot == PALSLOT_NPC_SPECIAL)
             LoadSpecialObjectReflectionPalette(graphicsInfo->paletteTag, graphicsInfo->paletteSlot);
@@ -1990,7 +2008,7 @@ static void SpawnObjectEventOnReturnToField(u8 objectEventId, s16 x, s16 y)
         if (subspriteTables != NULL)
             SetSubspriteTables(sprite, subspriteTables);
 
-        sprite->oam.paletteNum = graphicsInfo->paletteSlot;
+        sprite->oam.paletteNum = GetObjectEventActorPaletteSlot(graphicsInfo);
         sprite->coordOffsetEnabled = TRUE;
         sprite->data[0] = objectEventId;
         objectEvent->spriteId = spriteId;
@@ -2048,7 +2066,7 @@ void ObjectEventSetGraphicsId(struct ObjectEvent *objectEvent, u8 graphicsId)
     sprite->images = graphicsInfo->images;
     sprite->anims = graphicsInfo->anims;
     sprite->subspriteTables = graphicsInfo->subspriteTables;
-    sprite->oam.paletteNum = graphicsInfo->paletteSlot;
+    sprite->oam.paletteNum = GetObjectEventActorPaletteSlot(graphicsInfo);
     if (!sprite->usingSheet)
     {
         s32 var2;
@@ -2289,6 +2307,11 @@ void LoadPlayerObjectReflectionPalette(u16 tag, u8 slot)
 void LoadSpecialObjectReflectionPalette(u16 tag, u8 slot)
 {
     u8 i;
+
+    // This actor uses the dynamic palette allocator; preserve the shared
+    // special-group bank and its reflection state (e.g. Don Morleone).
+    if (tag == OBJ_EVENT_PAL_TAG_YOKAI_AGENT_X)
+        return;
 
     sCurrentSpecialObjectPaletteTag = tag;
     PatchObjectPalette(tag, slot);
@@ -9337,7 +9360,7 @@ void SetVirtualObjectGraphics(u8 virtualObjId, u8 direction)
         u16 baseBlock = sprite->oam.tileNum;
         sprite->oam = *info->oam;
         sprite->oam.tileNum = baseBlock;
-        sprite->oam.paletteNum = info->paletteSlot;
+        sprite->oam.paletteNum = GetObjectEventActorPaletteSlot(info);
         sprite->images = info->images;
         if (info->subspriteTables == NULL)
         {

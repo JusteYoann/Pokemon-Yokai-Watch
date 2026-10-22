@@ -3305,7 +3305,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiMarge = {
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiAgentX = {
-    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_YOKAI_TEMPLE_GROUP,
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_YOKAI_AGENT_X,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 256, .width = 16, .height = 32,
     .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
