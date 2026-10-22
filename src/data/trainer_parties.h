@@ -13941,3 +13941,9 @@ static const struct TrainerMonItemCustomMoves sParty_YokaiMafiamille3[] = {
     {.iv = 255, .lvl = 64, .species = SPECIES_KABUTOPS, .heldItem = ITEM_NONE, .moves = {MOVE_DRILL_PECK, MOVE_HEAL_BELL, MOVE_MORNING_SUN, MOVE_SKY_ATTACK}},
     {.iv = 255, .lvl = 65, .species = SPECIES_PARAS, .heldItem = ITEM_NONE, .moves = {MOVE_SLUDGE_BOMB, MOVE_AGILITY, MOVE_SWORDS_DANCE, MOVE_MEGAHORN}},
 };
+
+// Scenario 2026: deliberately separate from archived first-gym party above.
+static const struct TrainerMonItemCustomMoves sScenarioParty_WyattFirstTrophy[] = {
+    {.iv = 0, .lvl = 9, .species = SPECIES_ARBOK, .heldItem = ITEM_NONE, .moves = {MOVE_TACKLE, MOVE_ROCK_THROW, MOVE_GROWL, MOVE_NONE}},
+    {.iv = 0, .lvl = 11, .species = SPECIES_PIKACHU, .heldItem = ITEM_NONE, .moves = {MOVE_TACKLE, MOVE_ROCK_THROW, MOVE_NONE, MOVE_NONE}},
+};

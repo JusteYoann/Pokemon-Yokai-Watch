@@ -1,0 +1,26 @@
+{
+  "status": "chapter_implemented_native_tests_passed_additional_migration_checks_in_progress",
+  "progress_var": "VAR_SCENARIO_ARGENTA_STAGE",
+  "stages": {
+    "0": "Morleone speech pending",
+    "1": "incognito conversation pending",
+    "2": "ready for Wyatt"
+  },
+  "trainer_slot": 414,
+  "old_party_preserved": "sYokaiParty_LEADER_BROCK",
+  "active_party": [
+    {
+      "species": "SPECIES_ARBOK",
+      "name": "Nanpart",
+      "level": 9
+    },
+    {
+      "species": "SPECIES_PIKACHU",
+      "name": "Passpa",
+      "level": 11
+    }
+  ],
+  "secondary_balance_choices": "IV0; no held items or trainer healing; levels provisional until ordinary-team tests",
+  "postgame_wyatt": "Original high-level cameo team retained, location now gym; original Water Stone reward flag preserved",
+  "old_save_migration": "Existing first trophy bypasses new intro and relic gate; no trophy reset"
+}

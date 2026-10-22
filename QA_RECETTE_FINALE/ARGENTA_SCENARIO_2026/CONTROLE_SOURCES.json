@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "Both relics and all three exits accessible before gate opens",
+    "Champion reachable only after central gate",
+    "Return to exit remains possible",
+    "All four Route2 entrance columns trigger speech",
+    "At most16objects including player",
+    "Original team source retained"
+  ],
+  "scope": "Static source graph, complements real native walks; not a replacement for runtime tests"
+}

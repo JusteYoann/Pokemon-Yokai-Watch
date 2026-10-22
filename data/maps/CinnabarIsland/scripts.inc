@@ -4,6 +4,7 @@ CinnabarIsland_MapScripts::
 	.byte 0
 
 CinnabarIsland_OnTransition::
+	setflag FLAG_SCENARIO_HIDE_OLD_WYATT
 	setworldmapflag FLAG_WORLD_MAP_CINNABAR_ISLAND
 	call CinnabarIsland_EventScript_CheckUnlockGym
 	call_if_eq VAR_MAP_SCENE_CINNABAR_ISLAND, 1, CinnabarIsland_EventScript_ReadyObjectsSailToOneIsland

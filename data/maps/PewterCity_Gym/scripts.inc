@@ -2,9 +2,19 @@ PewterCity_Gym_MapScripts::
 	.byte 0
 
 PewterCity_Gym_EventScript_Brock::
-	famechecker FAMECHECKER_BROCK, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	trainerbattle_single TRAINER_LEADER_BROCK, PewterCity_Gym_Text_BrockIntro, PewterCity_Gym_Text_BrockDefeat, PewterCity_Gym_EventScript_DefeatedBrock, NO_MUSIC
+	lock
+	faceplayer
+	goto_if_set FLAG_BADGE01_GET, PewterCity_Gym_EventScript_ChampionAfterVictory
+	goto_if_ne VAR_SCENARIO_ARGENTA_STAGE, 2, PewterCity_Gym_EventScript_HearSpeechFirst
+	goto_if_unset FLAG_SCENARIO_WYATT_RELIC_1, PewterCity_Gym_EventScript_ReadRelicsFirst
+	goto_if_unset FLAG_SCENARIO_WYATT_RELIC_2, PewterCity_Gym_EventScript_ReadRelicsFirst
+	trainerbattle_single TRAINER_SCENARIO_WYATT, PewterCity_Gym_Text_BrockIntro, PewterCity_Gym_Text_BrockDefeat, PewterCity_Gym_EventScript_DefeatedBrock, NO_MUSIC
+	goto PewterCity_Gym_EventScript_ChampionAfterVictory
+	end
+
+PewterCity_Gym_EventScript_ChampionAfterVictory::
 	goto_if_unset FLAG_GOT_TM39_FROM_BROCK, PewterCity_Gym_EventScript_GiveTM39
+	goto_if_set FLAG_SYS_GAME_CLEAR, PewterCity_Gym_EventScript_WyattRematch
 	msgbox PewterCity_Gym_Text_BrockPostBattle
 	release
 	end
@@ -17,6 +27,9 @@ PewterCity_Gym_EventScript_DefeatedBrock::
 	setflag FLAG_HIDE_PEWTER_CITY_GYM_GUIDE
 	clearflag FLAG_HIDE_PEWTER_CITY_RUNNING_SHOES_GUY
 	set_gym_trainers 1
+	playfanfare MUS_OBTAIN_BADGE
+	msgbox PewterCity_Gym_Text_FirstTrophy
+	waitfanfare
 	goto PewterCity_Gym_EventScript_GiveTM39
 	end
 
@@ -79,4 +92,70 @@ PewterCity_Gym_EventScript_GymStatue::
 PewterCity_Gym_EventScript_GymStatuePostVictory::
 	msgbox PewterCity_Gym_Text_GymStatuePlayerWon
 	releaseall
+	end
+
+PewterCity_Gym_EventScript_HearSpeechFirst::
+	msgbox PewterCity_Gym_Text_HearSpeechFirst
+	release
+	end
+
+PewterCity_Gym_EventScript_ReadRelicsFirst::
+	msgbox PewterCity_Gym_Text_ReadRelicsFirst
+	release
+	end
+
+PewterCity_Gym_EventScript_Relic1::
+	lockall
+	msgbox PewterCity_Gym_Text_Relic1
+	setflag FLAG_SCENARIO_WYATT_RELIC_1
+	releaseall
+	end
+
+PewterCity_Gym_EventScript_Relic2::
+	lockall
+	msgbox PewterCity_Gym_Text_Relic2
+	setflag FLAG_SCENARIO_WYATT_RELIC_2
+	releaseall
+	end
+
+PewterCity_Gym_EventScript_RelicGate::
+	lockall
+	goto_if_set FLAG_BADGE01_GET, PewterCity_Gym_EventScript_RelicGateOpen
+	goto_if_ne VAR_SCENARIO_ARGENTA_STAGE, 2, PewterCity_Gym_EventScript_RelicGateClosed
+	goto_if_unset FLAG_SCENARIO_WYATT_RELIC_1, PewterCity_Gym_EventScript_RelicGateClosed
+	goto_if_unset FLAG_SCENARIO_WYATT_RELIC_2, PewterCity_Gym_EventScript_RelicGateClosed
+PewterCity_Gym_EventScript_RelicGateOpen::
+	setvar VAR_TEMP_2, 1
+	releaseall
+	end
+
+PewterCity_Gym_EventScript_RelicGateClosed::
+	msgbox PewterCity_Gym_Text_ReadRelicsFirst
+	applymovement LOCALID_PLAYER, IndigoPlateau_Movement_StepBack
+	waitmovement 0
+	releaseall
+	end
+
+@ Historical optional Water Stone/repeated high-level team moved to Wyatt's
+@ single current location. Existing reward flags prevent duplication on old saves.
+PewterCity_Gym_EventScript_WyattRematch::
+	goto_if_unset FLAG_YOKAI_WYATT_POST_WON, PewterCity_Gym_EventScript_WyattRematchOffer
+	goto_if_unset FLAG_YOKAI_WYATT_REWARD, PewterCity_Gym_EventScript_WyattGiveStone
+PewterCity_Gym_EventScript_WyattRematchOffer::
+	msgbox PewterCity_Gym_Text_RematchOffer, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventScript_ReleaseEnd
+	trainerbattle_no_intro TRAINER_YOKAI_WYATT_POST, PewterCity_Gym_Text_BrockDefeat
+	setflag FLAG_YOKAI_WYATT_POST_WON
+PewterCity_Gym_EventScript_WyattGiveStone::
+	goto_if_set FLAG_YOKAI_WYATT_REWARD, EventScript_ReleaseEnd
+	checkitemspace ITEM_WATER_STONE, 1
+	goto_if_eq VAR_RESULT, FALSE, PewterCity_Gym_EventScript_StoneBagFull
+	giveitem ITEM_WATER_STONE, 1
+	setflag FLAG_YOKAI_WYATT_REWARD
+	release
+	end
+
+PewterCity_Gym_EventScript_StoneBagFull::
+	msgbox PewterCity_Gym_Text_StoneBagFull
+	release
 	end

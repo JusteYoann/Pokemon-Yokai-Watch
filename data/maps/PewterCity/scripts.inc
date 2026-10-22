@@ -1,8 +1,10 @@
 PewterCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, PewterCity_OnTransition
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, PewterCity_ScenarioOnFrame
 	.byte 0
 
 PewterCity_OnTransition::
+	call PewterCity_EventScript_SetScenarioActors
 	setworldmapflag FLAG_WORLD_MAP_PEWTER_CITY
 	setvar VAR_MAP_SCENE_PEWTER_CITY_MUSEUM_1F, 0
 	end
@@ -840,4 +842,80 @@ PewterCity_Movement_AideExit3::
 @ Unused
 PewterCity_Movement_WalkInPlaceLeft::
 	walk_in_place_left
+	step_end
+
+@ 0 = speech pending, 1 = incognito conversation pending, 2 = chapter intro done.
+PewterCity_EventScript_SetScenarioActors::
+	call_if_set FLAG_BADGE01_GET, PewterCity_EventScript_MigrateExistingTrophy
+	setflag FLAG_SCENARIO_HIDE_ARGENTA_MAFIA
+	setflag FLAG_SCENARIO_HIDE_ARGENTA_ENMA
+	setflag FLAG_SCENARIO_HIDE_ARGENTA_CROWD
+	call_if_eq VAR_SCENARIO_ARGENTA_STAGE, 0, PewterCity_EventScript_ShowSpeechActors
+	return
+
+PewterCity_EventScript_MigrateExistingTrophy::
+	setvar VAR_SCENARIO_ARGENTA_STAGE, 2
+	return
+
+PewterCity_EventScript_ShowSpeechActors::
+	clearflag FLAG_SCENARIO_HIDE_ARGENTA_MAFIA
+	clearflag FLAG_SCENARIO_HIDE_ARGENTA_CROWD
+	return
+
+PewterCity_ScenarioOnFrame::
+	map_script_2 VAR_SCENARIO_ARGENTA_STAGE, 1, PewterCity_EventScript_EnmaIncognito
+	.2byte 0
+
+PewterCity_EventScript_SpeechWitness::
+	msgbox PewterCity_Text_SpeechWitness, MSGBOX_NPC
+	end
+
+PewterCity_EventScript_MorleoneSpeech::
+	lockall
+	turnobject LOCALID_PLAYER, DIR_NORTH
+	msgbox PewterCity_Text_MorleoneSpeech
+	msgbox PewterCity_Text_FrightenedWitness
+	msgbox PewterCity_Text_MorleoneDeparture
+	closemessage
+	fadescreen FADE_TO_BLACK
+	setflag FLAG_SCENARIO_HIDE_ARGENTA_MAFIA
+	setflag FLAG_SCENARIO_HIDE_ARGENTA_CROWD
+	removeobject LOCALID_ARGENTA_MORLEONE
+	removeobject LOCALID_ARGENTA_MAFIA1
+	removeobject LOCALID_ARGENTA_MAFIA2
+	removeobject LOCALID_ARGENTA_MAFIA3
+	removeobject LOCALID_ARGENTA_WITNESS1
+	removeobject LOCALID_ARGENTA_WITNESS2
+	removeobject LOCALID_ARGENTA_WITNESS3
+	setvar VAR_SCENARIO_ARGENTA_STAGE, 1
+	goto PewterCity_EventScript_EnmaIncognito
+	end
+
+PewterCity_EventScript_EnmaIncognito::
+	lockall
+	clearflag FLAG_SCENARIO_HIDE_ARGENTA_ENMA
+	addobject LOCALID_ARGENTA_ENMA
+	fadescreen FADE_FROM_BLACK
+	applymovement LOCALID_ARGENTA_ENMA, PewterCity_Movement_EnmaApproach
+	waitmovement 0
+	msgbox PewterCity_Text_EnmaIncognito
+	closemessage
+	applymovement LOCALID_ARGENTA_ENMA, PewterCity_Movement_EnmaLeave
+	waitmovement 0
+	fadescreen FADE_TO_BLACK
+	removeobject LOCALID_ARGENTA_ENMA
+	setflag FLAG_SCENARIO_HIDE_ARGENTA_ENMA
+	setvar VAR_SCENARIO_ARGENTA_STAGE, 2
+	fadescreen FADE_FROM_BLACK
+	releaseall
+	end
+
+PewterCity_Movement_EnmaApproach::
+	walk_down
+	walk_down
+	step_end
+
+PewterCity_Movement_EnmaLeave::
+	walk_up
+	walk_up
 	step_end

@@ -22,6 +22,9 @@
 #define TRAINER_YOKAI_MAFIAMILLE1 TRAINER_GUITARIST
 #define TRAINER_YOKAI_MAFIAMILLE2 TRAINER_KINDLER
 #define TRAINER_YOKAI_MAFIAMILLE3 TRAINER_RS_CAMPER
+// Scenario reuses the first trophy trainer slot, preserving saved wins.
+#define TRAINER_SCENARIO_WYATT TRAINER_LEADER_BROCK
+
 // Dummy trainers for all the RS trainer classes
 #define TRAINER_AQUA_LEADER                        1
 #define TRAINER_AQUA_GRUNT_M                       2
