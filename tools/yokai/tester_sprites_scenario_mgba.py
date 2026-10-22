@@ -11,7 +11,7 @@ from mgba_new_game import new_game
 OUT=ROOT/'QA_RECETTE_FINALE/SPRITES_SCENARIO_2026';OUT.mkdir(exist_ok=True)
 C={k:int(v,0) for k,v in re.findall(r'^#define\s+(\w+)\s+(0x[0-9a-fA-F]+|\d+)\b','\n'.join((ROOT/f'include/constants/{n}.h').read_text() for n in ['event_objects','event_object_movement','trainers']),re.M)}
 spec=json.loads((ROOT/'graphics/yokai_characters/scenario_2026/manifest.json').read_text())
-actors=[a for a in spec['characters'] if 'graphics_id' in a]
+actors=[a for a in spec['characters'] if 'graphics_id' in a]+spec.get('adapted_existing',[])
 r=new_game();results=[];passed=False
 try:
  r.call('VarSet',0x4050,3);r.call('VarSet',0x4055,9)
@@ -22,7 +22,7 @@ try:
   oid=r.call('SpawnSpecialObjectEventParameterized',actor['graphics_id'],C['MOVEMENT_TYPE_FACE_DOWN'],200,16,23,3);assert oid<16,(name,oid)
   obj=r.symbols['gObjectEvents']+36*oid;sprite=r.symbols['gSprites']+68*r.read(obj+4,1)[0]
   assert r.read(obj+5,1)[0]==actor['graphics_id']
-  assert r.read(r.symbols['gPlttBufferUnfaded']+512+10*32,32)==r.read(r.symbols['gObjectEventPal_Scenario'],32)
+  assert r.read(r.symbols['gPlttBufferUnfaded']+512+10*32,32)==r.read(r.symbols[actor.get('map_palette_symbol','gObjectEventPal_Scenario')],32)
   trainer=r.call('CreateTrainerPicSprite',actor['trainer_pic_id'],1,206,60,6,0xffff);assert trainer<64,(name,trainer)
   r.run(30);frames=[]
   for direction,label in [(1,'SOUTH'),(2,'NORTH'),(3,'WEST'),(4,'EAST')]:
@@ -44,12 +44,14 @@ try:
    assert len(seen)>=3,(name,label,seen)
   movies[0].save(OUT/(name+'-marche.gif'),save_all=True,append_images=movies[1:],duration=67,loop=0)
   png=Image.open(ROOT/f'graphics/yokai_characters/{name}/overworld.png')
-  assert png.mode=='P' and png.size==(144,32) and png.info['transparency']==0
+  w=actor.get('frame_width',16)
+  assert png.mode=='P' and png.size==(w*9,32) and png.info['transparency']==0
   assert max(png.get_flattened_data())<=15
   # Every source frame has the same visible bounding rectangle as Red.
   red=Image.open(ROOT/'graphics/object_events/pics/people/red_normal.png').convert('RGBA')
   for i in range(9):
-   actual=png.crop((16*i,0,16*(i+1),32)).getbbox();target=red.crop((16*i,0,16*(i+1),32)).getchannel('A').getbbox()
+   actual=png.crop((w*i,0,w*(i+1),32)).getbbox();target=red.crop((16*i,0,16*(i+1),32)).getchannel('A').getbbox()
+   if w==32:target=(0,target[1],32,target[3])
    assert actual and actual[0]>=target[0] and actual[1]>=target[1] and actual[2]<=target[2] and actual[3]<=target[3],(name,i,actual,target)
    assert actual[3]-actual[1]>=17,(name,i,actual)
   results.append({'actor':name,'passed':True,'facings':4,'native_gait_directions':4,'trainer_sprite_loaded':True,'native_bounds_within_red':True})

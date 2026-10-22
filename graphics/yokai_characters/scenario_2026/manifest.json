@@ -190,7 +190,7 @@
     {
       "id": "soranaki_phase1",
       "name": "soranaki_phase1",
-      "reference": "ref_soranaki_phase1",
+      "reference": "ref_soranaki_premiere_forme.webp",
       "overworld_frames": 9,
       "battle_size": [
         64,
@@ -204,7 +204,7 @@
     {
       "id": "soranaki_phase2",
       "name": "soranaki_phase2",
-      "reference": "ref_soranaki_phase2",
+      "reference": "ref_soranaki_forme_maten.webp",
       "overworld_frames": 9,
       "battle_size": [
         64,
@@ -259,5 +259,21 @@
     "employe_bleu",
     "static_yokai",
     "enma_creature"
+  ],
+  "adapted_existing": [
+    {
+      "id": "enma",
+      "graphics_id": 154,
+      "trainer_pic_id": 149,
+      "map_palette_symbol": "gObjectEventPal_YokaiEnma",
+      "frame_width": 16
+    },
+    {
+      "id": "domniscian",
+      "graphics_id": 161,
+      "trainer_pic_id": 153,
+      "map_palette_symbol": "gObjectEventPal_YokaiDomniscianGroup",
+      "frame_width": 32
+    }
   ]
 }

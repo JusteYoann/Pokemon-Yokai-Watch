@@ -1,0 +1,36 @@
+[
+  {
+    "actor": "enma",
+    "source": "graphics/yokai_characters/scenario_2026/source/royal-desk-red.png",
+    "source_sha256": "67f89a0d9c56dbc221f6dabaa2e4ff8ebc833dd4e2a2cf78e5d7e75c259969cc",
+    "head_landmark_fraction": 0.63,
+    "target_head_height": {
+      "idle_and_vertical_gait": 10,
+      "horizontal_gait": 9
+    },
+    "target_body_height": 9,
+    "visible_height_target": 19,
+    "native_frame_width": 16,
+    "frames": 9,
+    "palette_unchanged": true,
+    "battle_unchanged": true,
+    "old_resource_retained": "graphics/yokai_characters/scenario_2026/legacy/enma-overworld.png"
+  },
+  {
+    "actor": "domniscian",
+    "source": "graphics/yokai_characters/scenario_2026/source/royal-desk-red.png",
+    "source_sha256": "67f89a0d9c56dbc221f6dabaa2e4ff8ebc833dd4e2a2cf78e5d7e75c259969cc",
+    "head_landmark_fraction": 0.55,
+    "target_head_height": {
+      "idle_and_vertical_gait": 10,
+      "horizontal_gait": 9
+    },
+    "target_body_height": 9,
+    "visible_height_target": 19,
+    "native_frame_width": 32,
+    "frames": 9,
+    "palette_unchanged": true,
+    "battle_unchanged": true,
+    "old_resource_retained": "graphics/yokai_characters/scenario_2026/legacy/domniscian-overworld.png"
+  }
+]

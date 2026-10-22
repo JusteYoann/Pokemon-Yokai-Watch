@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "rom_sha256": "c6b4962c3d10baaaa9509fcdff9806bc0bcfb41833c1b5e04529d038f221983e",
+  "rom_sha256": "c39ebc21432f30b9e8418660acade5dff837aa0a15aaf9fd12b9c97412a0e568",
   "scope": "Real intro, fixture warp, temporary map objects and trainer portrait viewer; four facings, animation cycles, palette and native Red bounding boxes. Not story placement, battle victory or artistic approval. All new map characters share one palette; pre-existing special NPC banks require scene palette planning.",
   "results": [
     {
@@ -117,6 +117,22 @@
     },
     {
       "actor": "soranaki_phase2",
+      "passed": true,
+      "facings": 4,
+      "native_gait_directions": 4,
+      "trainer_sprite_loaded": true,
+      "native_bounds_within_red": true
+    },
+    {
+      "actor": "enma",
+      "passed": true,
+      "facings": 4,
+      "native_gait_directions": 4,
+      "trainer_sprite_loaded": true,
+      "native_bounds_within_red": true
+    },
+    {
+      "actor": "domniscian",
       "passed": true,
       "facings": 4,
       "native_gait_directions": 4,

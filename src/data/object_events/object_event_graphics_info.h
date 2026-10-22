@@ -2967,7 +2967,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiEnma = {
     .tracks = TRACKS_FOOT,
     .oam = &gObjectEventBaseOam_16x32,
     .subspriteTables = gObjectEventSpriteOamTables_16x32,
-    .anims = sAnimTable_Ariane,
+    .anims = sAnimTable_Standard,
     .images = sPicTable_YokaiEnma,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
@@ -3091,7 +3091,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiDomniscian = 
     .tracks = TRACKS_FOOT,
     .oam = &gObjectEventBaseOam_32x32,
     .subspriteTables = gObjectEventSpriteOamTables_32x32,
-    .anims = sAnimTable_Ariane,
+    .anims = sAnimTable_Standard,
     .images = sPicTable_YokaiDomniscian,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
