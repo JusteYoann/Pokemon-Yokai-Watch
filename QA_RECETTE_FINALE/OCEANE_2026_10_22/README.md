@@ -42,3 +42,7 @@ YOKAI_QA_ROM=$PWD/pokefirered_audio.gba YOKAI_QA_ELF=$PWD/pokefirered_audio.elf 
 ```
 
 Pour reproduire le défaut historique, utiliser **la ROM et l’ELF de 292bd4fb0** avec `--reproduce-before`. Le mode attend volontairement l’ancien échec; il ne doit pas passer sur la version corrigée.
+
+## Reproduction depuis GitHub
+
+Le clone indépendant `/tmp/yokai-scenario-audit-clean-20261022`, déjà utilisé pour une compilation propre précédente, a été avancé depuis GitHub jusqu’au commit `8935f26b3`, puis recompilé avec ses propres objets. Les ROM publique et privée sont identiques octet par octet à celles de ce jalon. Aucune source ni aucun objet de compilation n’a été copié du dépôt de développement; le profil privé utilise les mêmes ressources audio externes. Détails dans `REPRODUCTIBILITE.json`.
