@@ -1,0 +1,34 @@
+{
+  "status": "BROUILLONS_NON_INTEGRES",
+  "references": "Images de Laure et Marge et Agent X fournies par le createur dans la conversation.",
+  "attempts": [
+    {
+      "file": "faces-proposition.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "bd24acf13a644ac3a2383e957f9a1413bb6148a53da499e3fa89af2b0a335d80",
+      "native_sprite": false,
+      "integrated": false
+    },
+    {
+      "file": "agent-x-essai-simplifie.png",
+      "size": [
+        887,
+        1774
+      ],
+      "sha256": "1fa80276c885ddece9b1b3ee172c1034680e789a57ae3299e924644b7005212f",
+      "native_sprite": false,
+      "integrated": false
+    }
+  ],
+  "engine_changed": false,
+  "mgba_tested": false,
+  "limitations": [
+    "Face seulement : ni dos, ni profil, ni marche, ni portrait de combat produits pour ce lot.",
+    "La grille et les aplats ne sont pas assez reguliers pour une extraction native fiable.",
+    "Les propositions ne sont pas des captures moteur.",
+    "Ne pas attribuer automatiquement les deux noms a gauche/droite sans confirmation documentaire."
+  ]
+}
