@@ -45,7 +45,7 @@ Le scénario complet n'est pas intégré. La première salle accessible reste ce
 
 Ensembles suivants :
 1. Argenta intégré : discours de Morleone, Mafiamille, Enma humain incognito, fouilles et premier trophée de Wyatt. Recette et limites : `../ARGENTA_SCENARIO_2026/README.md`. Équilibrage de tous les starters et parcours intégral encore à valider.
-2. Azuria intégré : Nathan/Katie Champion opposé, foyers symboliques, deuxième trophée et migration du caméo de Céladopole. Recette et limites : `../AZURIA_SCENARIO_2026/README.md`. Suite : Champions3 à5 et leurs véritables épreuves ; migration des autres caméos ; Agent X récurrent.
+2. Azuria intégré : Nathan/Katie Champion opposé, foyers symboliques, deuxième trophée et migration du caméo de Céladopole. Recette et limites : `../AZURIA_SCENARIO_2026/README.md`. Carmin intégré : Bérénice, trois dimensions par les Portes Mystères et troisième trophée ; habillage des portes encore provisoire. Recette : `../CARMIN_SCENARIO_2026/README.md`. Suite : Champions4 et5 ; migration des autres caméos ; Agent X récurrent.
 3. Lavanville : habitants temporairement absents, zombies au contact, ambiance, cloche et Alyzon ; aucune explication inventée reliant le phénomène aux antagonistes.
 4. Cramois'Île passée : géographie conservée, variantes Nathaniel/Michael, restrictions de toutes les sorties, trophée 7 et retours sans softlock.
 5. Morleone Champion 8 ; Temple explorable original et quatre adversaires prescrits ; Soranaki à deux phases sans soin intermédiaire, soin préalable de Matt, révélation Enma, Bingo-kai sans souhait consommé et Panthéon.

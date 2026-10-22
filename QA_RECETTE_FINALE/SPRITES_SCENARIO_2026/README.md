@@ -50,3 +50,7 @@ python3 tools/yokai/galerie_sprites_scenario.py
 ```
 
 Les scripts de conversion ne régénèrent pas les dessins : ils réemploient les PNG source suivis et enregistrent les découpes. Les identifiants historiques sont préservés ; les nouveaux identifiants `OBJ_EVENT_GFX_SCENARIO_*` et `TRAINER_PIC_SCENARIO_*` sont déclarés dans les constantes du moteur. Aucun dresseur ou combat n'est ajouté implicitement par la déclaration d'un portrait.
+
+## Correction de liaison lors du chapitre de Carmin
+
+Les exports GBA des 18 nouveaux objets et les entrées d’animation des 15 portraits ont été corrigés. Les anciennes vérifications de présence de symboles et de palette ne suffisaient pas à garantir leur rendu. Voir `../CARMIN_SCENARIO_2026/TEST_SPRITES_LIES_MGBA.json` : frames PNG comparées aux données liées et à la VRAM native, avec captures dans `SPRITES_SCENARIO_NATIFS.png`. Bérénice est également testée en combat réel ; Enma humain est revérifié dans Argenta.

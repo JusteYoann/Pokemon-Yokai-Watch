@@ -1,0 +1,41 @@
+{
+  "callback2": "0x8056a89",
+  "battle_controller": "0x802e3d9",
+  "outcome": 2,
+  "move_cursor": 0,
+  "battle_mons": [
+    {
+      "species": 45,
+      "hp": 0,
+      "pp": [
+        20,
+        35,
+        15,
+        40
+      ],
+      "moves": [
+        210,
+        40,
+        141,
+        103
+      ]
+    },
+    {
+      "species": 71,
+      "hp": 39,
+      "pp": [
+        17,
+        40,
+        35,
+        0
+      ],
+      "moves": [
+        60,
+        45,
+        33,
+        0
+      ]
+    }
+  ],
+  "fallbacks": []
+}

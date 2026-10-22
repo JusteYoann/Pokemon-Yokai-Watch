@@ -468,7 +468,7 @@ graphics/yokai_characters/michael/overworld.4bpp: graphics/yokai_characters/mich
 graphics/yokai_characters/wyatt/overworld.4bpp: graphics/yokai_characters/wyatt/overworld.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
-graphics/yokai_characters/domniscian/overworld.4bpp: graphics/yokai_characters/domniscian/overworld.png
+graphics/yokai_characters/domniscian/overworld.4bpp: graphics/yokai_characters/domniscian/overworld.png spritesheet_rules.mk
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 graphics/yokai_characters/employe_rouge/overworld.4bpp: graphics/yokai_characters/employe_rouge/overworld.png
@@ -488,3 +488,59 @@ graphics/yokai_characters/mafiamille_2/overworld.4bpp: graphics/yokai_characters
 
 graphics/yokai_characters/mafiamille_3/overworld.4bpp: graphics/yokai_characters/mafiamille_3/overworld.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+# Scenario actors: export complete16x32 frames rather than rows across the sheet.
+graphics/yokai_characters/berenice/overworld.4bpp: graphics/yokai_characters/berenice/overworld.png spritesheet_rules.mk
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/giraud/overworld.4bpp: graphics/yokai_characters/giraud/overworld.png spritesheet_rules.mk
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/alyzon/overworld.4bpp: graphics/yokai_characters/alyzon/overworld.png spritesheet_rules.mk
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/enma_humain/overworld.4bpp: graphics/yokai_characters/enma_humain/overworld.png spritesheet_rules.mk
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/laure/overworld.4bpp: graphics/yokai_characters/laure/overworld.png spritesheet_rules.mk
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/marge/overworld.4bpp: graphics/yokai_characters/marge/overworld.png spritesheet_rules.mk
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/lady_perpetua/overworld.4bpp: graphics/yokai_characters/lady_perpetua/overworld.png spritesheet_rules.mk
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/mckraken/overworld.4bpp: graphics/yokai_characters/mckraken/overworld.png spritesheet_rules.mk
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/agent_x/overworld.4bpp: graphics/yokai_characters/agent_x/overworld.png spritesheet_rules.mk
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/zazel/overworld.4bpp: graphics/yokai_characters/zazel/overworld.png spritesheet_rules.mk
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/enma_ancien/overworld.4bpp: graphics/yokai_characters/enma_ancien/overworld.png spritesheet_rules.mk
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/nathaniel_age/overworld.4bpp: graphics/yokai_characters/nathaniel_age/overworld.png spritesheet_rules.mk
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/zombie/overworld.4bpp: graphics/yokai_characters/zombie/overworld.png spritesheet_rules.mk
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/soranaki_phase1/overworld.4bpp: graphics/yokai_characters/soranaki_phase1/overworld.png spritesheet_rules.mk
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/soranaki_phase2/overworld.4bpp: graphics/yokai_characters/soranaki_phase2/overworld.png spritesheet_rules.mk
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+# Animated scenario props use their own frame dimensions.
+graphics/yokai_characters/bingo_kai/overworld.4bpp: graphics/yokai_characters/bingo_kai/overworld.png spritesheet_rules.mk
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+graphics/yokai_characters/capsule_souhait/overworld.4bpp: graphics/yokai_characters/capsule_souhait/overworld.png spritesheet_rules.mk
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+
+graphics/yokai_characters/triptic_tac/overworld.4bpp: graphics/yokai_characters/triptic_tac/overworld.png spritesheet_rules.mk
+	$(GFX) $< $@ -mwidth 4 -mheight 4

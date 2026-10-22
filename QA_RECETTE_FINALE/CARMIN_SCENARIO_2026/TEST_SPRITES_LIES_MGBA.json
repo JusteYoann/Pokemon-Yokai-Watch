@@ -1,0 +1,206 @@
+{
+  "passed": true,
+  "rom_sha256": "6da8ae7adb6523f2644b33f25c0a2ac1aff78c60f7ca37f4ff4d890db5dfac75",
+  "scope": "18 native spawned object graphics checked against independent source PNG encoding and actual VRAM;15 front portrait animation registry contracts. Actual Berenice intro/battle covered separately; does not play every future boss battle.",
+  "results": [
+    {
+      "actor": "berenice",
+      "frames": 9,
+      "frame_size": [
+        16,
+        32
+      ],
+      "linked_source_bytes_match": true,
+      "native_vram_frame_matches": true,
+      "palette_matches": true
+    },
+    {
+      "actor": "giraud",
+      "frames": 9,
+      "frame_size": [
+        16,
+        32
+      ],
+      "linked_source_bytes_match": true,
+      "native_vram_frame_matches": true,
+      "palette_matches": true
+    },
+    {
+      "actor": "alyzon",
+      "frames": 9,
+      "frame_size": [
+        16,
+        32
+      ],
+      "linked_source_bytes_match": true,
+      "native_vram_frame_matches": true,
+      "palette_matches": true
+    },
+    {
+      "actor": "enma_humain",
+      "frames": 9,
+      "frame_size": [
+        16,
+        32
+      ],
+      "linked_source_bytes_match": true,
+      "native_vram_frame_matches": true,
+      "palette_matches": true
+    },
+    {
+      "actor": "laure",
+      "frames": 9,
+      "frame_size": [
+        16,
+        32
+      ],
+      "linked_source_bytes_match": true,
+      "native_vram_frame_matches": true,
+      "palette_matches": true
+    },
+    {
+      "actor": "marge",
+      "frames": 9,
+      "frame_size": [
+        16,
+        32
+      ],
+      "linked_source_bytes_match": true,
+      "native_vram_frame_matches": true,
+      "palette_matches": true
+    },
+    {
+      "actor": "lady_perpetua",
+      "frames": 9,
+      "frame_size": [
+        16,
+        32
+      ],
+      "linked_source_bytes_match": true,
+      "native_vram_frame_matches": true,
+      "palette_matches": true
+    },
+    {
+      "actor": "mckraken",
+      "frames": 9,
+      "frame_size": [
+        16,
+        32
+      ],
+      "linked_source_bytes_match": true,
+      "native_vram_frame_matches": true,
+      "palette_matches": true
+    },
+    {
+      "actor": "agent_x",
+      "frames": 9,
+      "frame_size": [
+        16,
+        32
+      ],
+      "linked_source_bytes_match": true,
+      "native_vram_frame_matches": true,
+      "palette_matches": true
+    },
+    {
+      "actor": "zazel",
+      "frames": 9,
+      "frame_size": [
+        16,
+        32
+      ],
+      "linked_source_bytes_match": true,
+      "native_vram_frame_matches": true,
+      "palette_matches": true
+    },
+    {
+      "actor": "enma_ancien",
+      "frames": 9,
+      "frame_size": [
+        16,
+        32
+      ],
+      "linked_source_bytes_match": true,
+      "native_vram_frame_matches": true,
+      "palette_matches": true
+    },
+    {
+      "actor": "nathaniel_age",
+      "frames": 9,
+      "frame_size": [
+        16,
+        32
+      ],
+      "linked_source_bytes_match": true,
+      "native_vram_frame_matches": true,
+      "palette_matches": true
+    },
+    {
+      "actor": "zombie",
+      "frames": 9,
+      "frame_size": [
+        16,
+        32
+      ],
+      "linked_source_bytes_match": true,
+      "native_vram_frame_matches": true,
+      "palette_matches": true
+    },
+    {
+      "actor": "soranaki_phase1",
+      "frames": 9,
+      "frame_size": [
+        16,
+        32
+      ],
+      "linked_source_bytes_match": true,
+      "native_vram_frame_matches": true,
+      "palette_matches": true
+    },
+    {
+      "actor": "soranaki_phase2",
+      "frames": 9,
+      "frame_size": [
+        16,
+        32
+      ],
+      "linked_source_bytes_match": true,
+      "native_vram_frame_matches": true,
+      "palette_matches": true
+    },
+    {
+      "actor": "bingo_kai",
+      "frames": 4,
+      "frame_size": [
+        32,
+        32
+      ],
+      "linked_source_bytes_match": true,
+      "native_vram_frame_matches": true,
+      "palette_matches": true
+    },
+    {
+      "actor": "capsule_souhait",
+      "frames": 2,
+      "frame_size": [
+        16,
+        16
+      ],
+      "linked_source_bytes_match": true,
+      "native_vram_frame_matches": true,
+      "palette_matches": true
+    },
+    {
+      "actor": "triptic_tac",
+      "frames": 4,
+      "frame_size": [
+        32,
+        32
+      ],
+      "linked_source_bytes_match": true,
+      "native_vram_frame_matches": true,
+      "palette_matches": true
+    }
+  ],
+  "portrait_animation_entries_checked": 15
+}

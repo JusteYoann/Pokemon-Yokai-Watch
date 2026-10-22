@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "rom_sha256": "6da8ae7adb6523f2644b33f25c0a2ac1aff78c60f7ca37f4ff4d890db5dfac75",
+  "scope": "Independent explicit damage/progression/legacy-state fixtures, native controls and Flash/Continue with SaveMapView as in native save menu; not an archived player save.",
+  "results": [
+    {
+      "test": "Actual level1 whiteout: healed player, prior trophies/calibrations retained, no third trophy/TM/trainer victory; retry possible",
+      "passed": true,
+      "battle_frames": 2744
+    },
+    {
+      "test": "All doors require second trophy; gate/direct boss reject partial calibrations; unfinished Memory/Vigil and far pad chamber have actual safe returns; optional native healing accepts No and restores HP on Yes",
+      "passed": true
+    },
+    {
+      "test": "Engineered prior-Surge Flash/Continue save: safe entrance/current templates, old third trophy bypasses new calibrations, full-stack pending TM delivered without another battle, subsequent Continue retains position and unique reward",
+      "passed": true
+    }
+  ]
+}

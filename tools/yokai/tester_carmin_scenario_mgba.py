@@ -16,11 +16,11 @@ def finish(r,*args,**kwargs):
  return result
 def flag(r,n):return bool(r.call('FlagGet',n))
 def party(r,weak=False):
- members=[(87,1)] if weak else [(87,26),(8,25),(45,24)]
+ members=[(87,1)] if weak else [(87,26),(8,25),(10,25)]
  for i,(s,l) in enumerate(members):
   mon=r.symbols['gPlayerParty']+100*i;r.call('CreateMon',mon,s,l,15,1,100+i,0,0)
   existing=[r.call('GetMonData',mon,13+j,0) for j in range(4)]
-  preferred=['MOVE_WATER_PULSE','MOVE_WATER_GUN','MOVE_SHADOW_BALL','MOVE_LICK','MOVE_SLUDGE','MOVE_SCRATCH','MOVE_TACKLE','MOVE_ASTONISH']
+  preferred=['MOVE_SIGNAL_BEAM','MOVE_WATER_PULSE','MOVE_NIGHT_SHADE','MOVE_FURY_CUTTER','MOVE_BUBBLE','MOVE_WATER_GUN','MOVE_SHADOW_BALL','MOVE_LICK','MOVE_SLUDGE','MOVE_SCRATCH','MOVE_TACKLE','MOVE_ASTONISH']
   moves=sorted(existing,key=lambda m:next((j for j,n in enumerate(preferred) if C[n]==m),100 if m else 101))
   for j,m in enumerate(moves):r.call('SetMonMoveSlot',mon,m,j)
  r.write(r.symbols['gPlayerPartyCount'],bytes([len(members)]));r.call('SetLastHealLocationWarp',6)
@@ -81,6 +81,9 @@ def main():
    # Actual route around the center console to Berenice.
    walk(r,'L',2);walk(r,'U',4);walk(r,'L');walk(r,'U',4);assert pos(r)==(5,4)
    r.frame.save(OUT/(name+'-berenice.png'))
+   actor=next(r.symbols['gObjectEvents']+36*i for i in range(16) if r.read(r.symbols['gObjectEvents']+36*i,1)[0]&1 and r.read(r.symbols['gObjectEvents']+36*i+5,1)[0]==173)
+   sprite=r.symbols['gSprites']+68*r.read(actor+4,1)[0];tile=int.from_bytes(r.read(sprite+4,2),'little')&1023
+   assert any(r.read(0x06010000+tile*32,256)), 'Berenice map frame must be visible'
    if not gender:assert r.call('AddBagItem',C['ITEM_TM34'],999)
    face_a(r,'U');frames=az.a.fight(r,name,expected=[(49,22),(56,22),(71,24)])
    assert flag(r,B3) and flag(r,0x4B2) and r.call('HasTrainerBeenFought',416)
@@ -96,5 +99,5 @@ def main():
    assert location(r)==(3,5),location(r)
    rows.append({'test':name+' actual city door; missing second-trophy guards; three distinct dimensions reached via map interactions; wrong memory choice; fixed unfinished return; Flash/Continue inside every dimension and hub; native pad pair both directions; real ordinary-party boss victory, third trophy, unique TM/full-bag retry and exit','passed':True,'battle_frames':frames})
   finally:r.close()
- (OUT/'TEST_CHAPITRE_MGBA.json').write_text(json.dumps({'passed':True,'rom_sha256':hashlib.sha256((ROOT/'pokefirered.gba').read_bytes()).hexdigest(),'scope':'Real chapter inputs with explicit first-two-trophy and ordinary party fixtures. Kappacap26, Whisper25, Nihilistik24; IV15, learned moves reordered. Not a continuous adventure or all-starter balance test.','results':rows},ensure_ascii=False,indent=2)+'\n');print(json.dumps(rows,ensure_ascii=False,indent=2))
+ (OUT/'TEST_CHAPITRE_MGBA.json').write_text(json.dumps({'passed':True,'rom_sha256':hashlib.sha256((ROOT/'pokefirered.gba').read_bytes()).hexdigest(),'scope':'Real chapter inputs with explicit first-two-trophy and ordinary party fixtures. Kappacap26, Whisper25, Cigallard25; IV15, learned moves reordered. Not a continuous adventure or all-starter balance test.','results':rows},ensure_ascii=False,indent=2)+'\n');print(json.dumps(rows,ensure_ascii=False,indent=2))
 if __name__=='__main__':main()

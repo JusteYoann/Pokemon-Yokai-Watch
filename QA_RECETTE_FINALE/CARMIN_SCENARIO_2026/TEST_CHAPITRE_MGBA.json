@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "rom_sha256": "6da8ae7adb6523f2644b33f25c0a2ac1aff78c60f7ca37f4ff4d890db5dfac75",
+  "scope": "Real chapter inputs with explicit first-two-trophy and ordinary party fixtures. Kappacap26, Whisper25, Cigallard25; IV15, learned moves reordered. Not a continuous adventure or all-starter balance test.",
+  "results": [
+    {
+      "test": "nathan actual city door; missing second-trophy guards; three distinct dimensions reached via map interactions; wrong memory choice; fixed unfinished return; Flash/Continue inside every dimension and hub; native pad pair both directions; real ordinary-party boss victory, third trophy, unique TM/full-bag retry and exit",
+      "passed": true,
+      "battle_frames": 13223
+    },
+    {
+      "test": "katie actual city door; missing second-trophy guards; three distinct dimensions reached via map interactions; wrong memory choice; fixed unfinished return; Flash/Continue inside every dimension and hub; native pad pair both directions; real ordinary-party boss victory, third trophy, unique TM/full-bag retry and exit",
+      "passed": true,
+      "battle_frames": 13879
+    }
+  ]
+}
