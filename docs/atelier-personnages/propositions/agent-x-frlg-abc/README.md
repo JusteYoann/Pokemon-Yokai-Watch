@@ -50,3 +50,7 @@ Reproduction : `python3 tools/yokai/exporter_agent_x_frlg_abc.py`, avec Pillow, 
 Deux propositions conservent tous les pixels de A sauf un ou deux pixels mauves remplacés par du jaune : A+1 en (5,21), A+2 en (5,21) et (6,20), coordonnées depuis zéro. L’œil reste unique. Palette, transparence et silhouette de 14 × 19 sont inchangées.
 
 [Comparaison native](comparaison-yeux-native.png) et [agrandissement ×12](comparaison-yeux-x12.png) : Red, A original, A+1, A+2. Aucun remplacement dans le jeu. Sources complètes dans les JSON correspondants ; contrôle dans CONTROLE_YEUX.json. Reproduction : `python3 tools/yokai/retoucher_yeux_agent_x_a.py`.
+
+## Regard sous le chapeau
+
+Nouvel essai A-regard : cinq cellules modifiées depuis A+1 pour une petite iris jaune en L, une pupille sombre et une ombre asymétrique du bord du chapeau. Même silhouette 14 × 19 et palette. Comparaison Red / A+1 avant / nouveau regard dans `comparaison-regard-native.png` et `comparaison-regard-x12.png`. Proposition non intégrée, sans animations. Reproduction : `python3 tools/yokai/retoucher_regard_agent_x.py`.
