@@ -66,3 +66,7 @@ YOKAI_QA_ROM=$PWD/pokefirered_audio.gba YOKAI_QA_ELF=$PWD/pokefirered_audio.elf 
 ```
 
 La sauvegarde `ETAT_AVANT.json` est protégée contre une réécriture accidentelle. Les sorties après peuvent être actualisées explicitement. Aucun fichier ROM ou audio n'est publié.
+
+## Mise à jour moteur
+
+Le plafonnement64×64 et les86 réserves ci-dessus décrivent le jalon historique. Le moteur étendu et ses nouvelles captures sont dans [`../COMBATS_ETENDUS/`](../COMBATS_ETENDUS/README.md). Utiliser désormais `generer_geometrie_combat_etendue.py` ; l’ancien applicateur redirige vers ce générateur pour éviter une régression.

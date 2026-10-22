@@ -1,5 +1,5 @@
 {
-  "scope": "Build-time nearest-neighbor presentation from unchanged 4bpp indexed originals; per-asset choices, no global zoom, no palette change, no runtime RAM or CPU cost",
+  "scope": "Original indexed artwork; generic displays unchanged. Separate centered/cropped battle textures use per-species GBA affine OAM presentation and matching animation background transforms.",
   "profiles": [
     {
       "id": "overworld/leo",
@@ -5199,8 +5199,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 9,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 15,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 43
     },
     {
       "id": "010/battle-front",
@@ -5243,8 +5244,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 10,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 18,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 39
     },
     {
       "id": "012/battle-front",
@@ -5287,8 +5289,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 4,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 15,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 39
     },
     {
       "id": "014/battle-front",
@@ -5485,8 +5488,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 6,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 15,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 39
     },
     {
       "id": "023/battle-front",
@@ -5551,8 +5555,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 6,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 14,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 43
     },
     {
       "id": "026/battle-front",
@@ -5573,8 +5578,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 5,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 11,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 46
     },
     {
       "id": "027/battle-front",
@@ -5881,8 +5887,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 11,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 15,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 44
     },
     {
       "id": "041/battle-front",
@@ -5991,8 +5998,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 11,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 14,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 47
     },
     {
       "id": "046/battle-front",
@@ -6497,8 +6505,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 8,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 11,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 50
     },
     {
       "id": "069/battle-front",
@@ -6761,8 +6770,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 8,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 14,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 44
     },
     {
       "id": "081/battle-front",
@@ -6981,8 +6991,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 8,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 14,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 44
     },
     {
       "id": "091/battle-front",
@@ -7091,8 +7102,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 4,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 12,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 44
     },
     {
       "id": "096/battle-front",
@@ -7135,8 +7147,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 4,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 10,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 48
     },
     {
       "id": "098/battle-front",
@@ -7157,8 +7170,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 4,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 14,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 41
     },
     {
       "id": "099/battle-front",
@@ -7201,8 +7215,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 5,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 16,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 37
     },
     {
       "id": "101/battle-front",
@@ -7399,8 +7414,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 4,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 9,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 51
     },
     {
       "id": "110/battle-front",
@@ -7509,8 +7525,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 10,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 19,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 35
     },
     {
       "id": "115/battle-front",
@@ -7575,8 +7592,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 16,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 22,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 35
     },
     {
       "id": "118/battle-front",
@@ -7619,8 +7637,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 10,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 17,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 41
     },
     {
       "id": "120/battle-front",
@@ -7795,8 +7814,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 4,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 17,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 35
     },
     {
       "id": "128/battle-front",
@@ -7817,8 +7837,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 11,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 22,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 31
     },
     {
       "id": "129/battle-front",
@@ -7949,8 +7970,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 5,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 13,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 43
     },
     {
       "id": "135/battle-front",
@@ -7993,8 +8015,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 6,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 11,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 47
     },
     {
       "id": "137/battle-front",
@@ -8103,8 +8126,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 6,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 11,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 49
     },
     {
       "id": "142/battle-front",
@@ -8125,8 +8149,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 17,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 20,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 41
     },
     {
       "id": "143/battle-front",
@@ -8279,8 +8304,9 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 7,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 18,
+      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.",
+      "crop_source_bottom": 35
     },
     {
       "id": "150/battle-front",

@@ -21,7 +21,11 @@ def encode(pixels,w,h):
 def transform(data,p):
  w,h=p['frame_width'],p['frame_height'];height=len(data)*2//w
  pixels=decode(data,w,height);assert height%h==0
- frames=height//h;points=[(x,y%h) for y in range(height) for x in range(w) if pixels[y][x]]
+ frames=height//h
+ if 'crop_source_bottom' in p:
+  for y in range(height):
+   if y%h>=p['crop_source_bottom']:pixels[y]=[0]*w
+ points=[(x,y%h) for y in range(height) for x in range(w) if pixels[y][x]]
  left=min(x for x,y in points);right=max(x for x,y in points)+1;top=min(y for x,y in points);bottom=max(y for x,y in points)+1
  sw,sh=right-left,bottom-top;dw=max(1,(sw*p['scale_q8']+128)//256);dh=max(1,(sh*p['scale_q8']+128)//256)
  assert dw<=w,(p['id'],'horizontal clipping not permitted',dw)

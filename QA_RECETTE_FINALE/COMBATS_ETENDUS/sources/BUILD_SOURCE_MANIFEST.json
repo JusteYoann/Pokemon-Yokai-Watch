@@ -1,0 +1,13 @@
+{
+  "parent_commit": "ef68432c2",
+  "description": "Source files changed after first engine milestone; final commit contains these exact files. Capture source_commit records its parent because captures preceded commit.",
+  "sha256": {
+    "data/yokai/battle_geometry_overrides.json": "5ab4d718a44357491517929094cb5189263672eede7f61e776d811aae67107b3",
+    "data/yokai/sprite_presentation.json": "c92044b662020b28d90819a91727efb39038bcc3796ab85dc81c2d013270d745",
+    "src/battle_anim_mons.c": "cceef6072b6ca874f52d4683119ee48ccedea1fbd1328b2ddf6076e0faa7fac7",
+    "src/data/yokai_battle_geometry.h": "eeef0fc03376735ab125e4b4e0d9b796a647d4e71e79159ddbd2c0d1f2e28b10",
+    "tools/yokai/generer_geometrie_combat_etendue.py": "4ad526f0da7687acfc73ca0aafbbb3483a3c14ecf0f870e8a37e4a4fd1b14178",
+    "tools/yokai/presentation_4bpp.py": "8dd75c5ff492b96d6e73caa2af79770d223875f7353956758e51944cff642c30",
+    "tools/yokai/tester_geometrie_bg_mgba.py": "02087641d861d2ac104566af9ecd21d3d5186d80adb90b48e62d2729c52f0e0e"
+  }
+}

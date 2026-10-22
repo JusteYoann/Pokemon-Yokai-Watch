@@ -115,7 +115,17 @@ u8 GetBattlerSpriteCoord(u8 battlerId, u8 coordType)
     case BATTLER_COORD_X:
     case BATTLER_COORD_X_2:
         retVal = sBattlerCoords[IS_DOUBLE_BATTLE()][GetBattlerPosition(battlerId)].x;
-        if (presentation != NULL) retVal += presentation->offsetX;
+        if (presentation != NULL)
+        {
+            s16 x = retVal + presentation->offsetX;
+            if (IS_DOUBLE_BATTLE())
+            {
+                if (x + presentation->left < 0) x = -presentation->left;
+                if (x + presentation->left + presentation->width > DISPLAY_WIDTH)
+                    x = DISPLAY_WIDTH - presentation->left - presentation->width;
+            }
+            retVal = x;
+        }
         break;
     case BATTLER_COORD_Y:
         retVal = sBattlerCoords[IS_DOUBLE_BATTLE()][GetBattlerPosition(battlerId)].y;

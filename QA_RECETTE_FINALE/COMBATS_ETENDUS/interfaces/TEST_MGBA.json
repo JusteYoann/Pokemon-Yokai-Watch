@@ -1,0 +1,208 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "6368e2c28cae2eeddf1d6439fcd279693fc67b8270d3f1b1bc5d75e3dd71c65c",
+  "scope": "Five formerly dedicated species: normal/shiny renderer regression in PC, summary and generic front/back.\n\nExplicit party/box/UI fixtures after real new-game init; not trading gameplay.\n",
+  "results": [
+    {
+      "test": "Generic mon picture exact indexed native tiles",
+      "species": 19,
+      "shiny": false,
+      "front": true,
+      "passed": true
+    },
+    {
+      "test": "Generic mon picture exact indexed native tiles",
+      "species": 19,
+      "shiny": false,
+      "front": false,
+      "passed": true
+    },
+    {
+      "test": "Actual PC and summary screens rendered; visual comparison screenshots",
+      "species": 19,
+      "shiny": false,
+      "passed": true
+    },
+    {
+      "test": "Generic mon picture exact indexed native tiles",
+      "species": 19,
+      "shiny": true,
+      "front": true,
+      "passed": true
+    },
+    {
+      "test": "Generic mon picture exact indexed native tiles",
+      "species": 19,
+      "shiny": true,
+      "front": false,
+      "passed": true
+    },
+    {
+      "test": "Actual PC and summary screens rendered; visual comparison screenshots",
+      "species": 19,
+      "shiny": true,
+      "passed": true
+    },
+    {
+      "test": "Generic mon picture exact indexed native tiles",
+      "species": 99,
+      "shiny": false,
+      "front": true,
+      "passed": true
+    },
+    {
+      "test": "Generic mon picture exact indexed native tiles",
+      "species": 99,
+      "shiny": false,
+      "front": false,
+      "passed": true
+    },
+    {
+      "test": "Actual PC and summary screens rendered; visual comparison screenshots",
+      "species": 99,
+      "shiny": false,
+      "passed": true
+    },
+    {
+      "test": "Generic mon picture exact indexed native tiles",
+      "species": 99,
+      "shiny": true,
+      "front": true,
+      "passed": true
+    },
+    {
+      "test": "Generic mon picture exact indexed native tiles",
+      "species": 99,
+      "shiny": true,
+      "front": false,
+      "passed": true
+    },
+    {
+      "test": "Actual PC and summary screens rendered; visual comparison screenshots",
+      "species": 99,
+      "shiny": true,
+      "passed": true
+    },
+    {
+      "test": "Generic mon picture exact indexed native tiles",
+      "species": 100,
+      "shiny": false,
+      "front": true,
+      "passed": true
+    },
+    {
+      "test": "Generic mon picture exact indexed native tiles",
+      "species": 100,
+      "shiny": false,
+      "front": false,
+      "passed": true
+    },
+    {
+      "test": "Actual PC and summary screens rendered; visual comparison screenshots",
+      "species": 100,
+      "shiny": false,
+      "passed": true
+    },
+    {
+      "test": "Generic mon picture exact indexed native tiles",
+      "species": 100,
+      "shiny": true,
+      "front": true,
+      "passed": true
+    },
+    {
+      "test": "Generic mon picture exact indexed native tiles",
+      "species": 100,
+      "shiny": true,
+      "front": false,
+      "passed": true
+    },
+    {
+      "test": "Actual PC and summary screens rendered; visual comparison screenshots",
+      "species": 100,
+      "shiny": true,
+      "passed": true
+    },
+    {
+      "test": "Generic mon picture exact indexed native tiles",
+      "species": 101,
+      "shiny": false,
+      "front": true,
+      "passed": true
+    },
+    {
+      "test": "Generic mon picture exact indexed native tiles",
+      "species": 101,
+      "shiny": false,
+      "front": false,
+      "passed": true
+    },
+    {
+      "test": "Actual PC and summary screens rendered; visual comparison screenshots",
+      "species": 101,
+      "shiny": false,
+      "passed": true
+    },
+    {
+      "test": "Generic mon picture exact indexed native tiles",
+      "species": 101,
+      "shiny": true,
+      "front": true,
+      "passed": true
+    },
+    {
+      "test": "Generic mon picture exact indexed native tiles",
+      "species": 101,
+      "shiny": true,
+      "front": false,
+      "passed": true
+    },
+    {
+      "test": "Actual PC and summary screens rendered; visual comparison screenshots",
+      "species": 101,
+      "shiny": true,
+      "passed": true
+    },
+    {
+      "test": "Generic mon picture exact indexed native tiles",
+      "species": 126,
+      "shiny": false,
+      "front": true,
+      "passed": true
+    },
+    {
+      "test": "Generic mon picture exact indexed native tiles",
+      "species": 126,
+      "shiny": false,
+      "front": false,
+      "passed": true
+    },
+    {
+      "test": "Actual PC and summary screens rendered; visual comparison screenshots",
+      "species": 126,
+      "shiny": false,
+      "passed": true
+    },
+    {
+      "test": "Generic mon picture exact indexed native tiles",
+      "species": 126,
+      "shiny": true,
+      "front": true,
+      "passed": true
+    },
+    {
+      "test": "Generic mon picture exact indexed native tiles",
+      "species": 126,
+      "shiny": true,
+      "front": false,
+      "passed": true
+    },
+    {
+      "test": "Actual PC and summary screens rendered; visual comparison screenshots",
+      "species": 126,
+      "shiny": true,
+      "passed": true
+    }
+  ]
+}
