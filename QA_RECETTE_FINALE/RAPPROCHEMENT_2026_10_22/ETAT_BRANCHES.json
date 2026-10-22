@@ -1,0 +1,13 @@
+{
+  "reference_before": "85501878063ae09309887d5daab197c85bd7bfc3",
+  "other_branch": "codex/reprise-scenario-2026-10-22",
+  "other_head_observed": "65b62bd883c8b7288ff2de7733783c4302644b77",
+  "common_base": "ef68432c21a5f7b7e67ff0e21e4bdcb5019ee7e6",
+  "strategy": "Selective source import with immutable provenance; no merge, branch deletion, force push or master modification.",
+  "overlap_before": [
+    "data/maps/PewterCity/text.inc",
+    "data/maps/PewterCity_Gym/map.json",
+    "data/maps/PewterCity_Gym/text.inc",
+    "src/data/trainers.h"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "rom_sha256": "14cbb01b212fc33dde3f9f049cd390e9a1b5c36dd8f38de3c819a310e525a075",
+  "scope": "Real intro then fixture warps and lab story variables; watch scene, parcel scene via A interaction, Flash save/load. Not full journey, starter fight or complete campaign.",
+  "results": [
+    {
+      "test": "nathan: rewritten lab dialogue fits native font with widest player name",
+      "lines": 37,
+      "passed": true
+    },
+    {
+      "test": "nathan: automatic lab scene displays latest Watch, tutorial, then enables starter choice",
+      "passed": true
+    },
+    {
+      "test": "nathan: actual A interaction with Chen, old Medallium text, menu unlock, parcel consumed, five balls; scene and unlock persist in Flash",
+      "passed": true
+    },
+    {
+      "test": "katie: rewritten lab dialogue fits native font with widest player name",
+      "lines": 37,
+      "passed": true
+    },
+    {
+      "test": "katie: automatic lab scene displays latest Watch, tutorial, then enables starter choice",
+      "passed": true
+    },
+    {
+      "test": "katie: actual A interaction with Chen, old Medallium text, menu unlock, parcel consumed, five balls; scene and unlock persist in Flash",
+      "passed": true
+    }
+  ]
+}

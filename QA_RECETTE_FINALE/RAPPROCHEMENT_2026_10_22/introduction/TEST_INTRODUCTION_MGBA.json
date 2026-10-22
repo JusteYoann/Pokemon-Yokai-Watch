@@ -1,0 +1,29 @@
+{
+  "engine": "mGBA libretro",
+  "rom_sha256": "14cbb01b212fc33dde3f9f049cd390e9a1b5c36dd8f38de3c819a310e525a075",
+  "scope": "Native StartNewGameScene then only controller input for introduction and player naming, both genders; no gameplay progression beyond the initial room",
+  "results": [
+    {
+      "person": "nathan",
+      "passed": true,
+      "gender_selected_via_buttons": 0,
+      "custom_player_name_typed": "AA",
+      "naming_templates": [
+        0
+      ],
+      "rival_renaming_not_shown": true,
+      "actual_overworld_reached": true
+    },
+    {
+      "person": "katie",
+      "passed": true,
+      "gender_selected_via_buttons": 1,
+      "custom_player_name_typed": "AA",
+      "naming_templates": [
+        0
+      ],
+      "rival_renaming_not_shown": true,
+      "actual_overworld_reached": true
+    }
+  ]
+}

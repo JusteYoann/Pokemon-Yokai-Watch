@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "rom_sha256": "14cbb01b212fc33dde3f9f049cd390e9a1b5c36dd8f38de3c819a310e525a075",
+  "scope": "Choose each real starter and finish Matt's first battle via controller input.\n\nTwo new games (Nathan/Katie), fixture warp to the lab reception, then three\nindependent savestate branches per gender. No injected Pokemon, stats or moves.\nThe route from bedroom to the lab and the parcel journey are not played here.\n",
+  "results": [
+    {
+      "person": "nathan",
+      "starter": 5,
+      "rival_starter": 87,
+      "rival_trainer": 328,
+      "initial_level": 5,
+      "outcome": 2,
+      "healed_after_battle": true,
+      "native_flash_reload": true,
+      "passed": true
+    },
+    {
+      "person": "nathan",
+      "starter": 29,
+      "rival_starter": 5,
+      "rival_trainer": 327,
+      "initial_level": 5,
+      "outcome": 2,
+      "healed_after_battle": true,
+      "native_flash_reload": true,
+      "passed": true
+    },
+    {
+      "person": "nathan",
+      "starter": 87,
+      "rival_starter": 29,
+      "rival_trainer": 326,
+      "initial_level": 5,
+      "outcome": 2,
+      "healed_after_battle": true,
+      "native_flash_reload": true,
+      "passed": true
+    },
+    {
+      "person": "katie",
+      "starter": 5,
+      "rival_starter": 87,
+      "rival_trainer": 328,
+      "initial_level": 5,
+      "outcome": 2,
+      "healed_after_battle": true,
+      "native_flash_reload": true,
+      "passed": true
+    },
+    {
+      "person": "katie",
+      "starter": 29,
+      "rival_starter": 5,
+      "rival_trainer": 327,
+      "initial_level": 5,
+      "outcome": 2,
+      "healed_after_battle": true,
+      "native_flash_reload": true,
+      "passed": true
+    },
+    {
+      "person": "katie",
+      "starter": 87,
+      "rival_starter": 29,
+      "rival_trainer": 326,
+      "initial_level": 5,
+      "outcome": 2,
+      "healed_after_battle": true,
+      "native_flash_reload": true,
+      "passed": true
+    }
+  ]
+}

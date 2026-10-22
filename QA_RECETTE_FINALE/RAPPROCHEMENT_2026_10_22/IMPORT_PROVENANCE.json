@@ -1,0 +1,58 @@
+{
+  "reference_branch": "dev/reconstruction-finalisation",
+  "reference_commit": "85501878063ae09309887d5daab197c85bd7bfc3",
+  "other_branch": "origin/codex/reprise-scenario-2026-10-22",
+  "other_head": "bed91b6a79e79267f5c55e1f00ce84a2db23c426",
+  "common_base": "ef68432c21a5f7b7e67ff0e21e4bdcb5019ee7e6",
+  "source_files": [
+    {
+      "file": "data/text/new_game_intro.inc",
+      "before_sha256": "cd94660fa6c4d7915075df30a09bf13bc2928333c1f9b5128e80b8e94d44a68f",
+      "copied_from": "68e748cd6",
+      "imported_sha256": "49f92ecd9959d8eaab9ca90f33a13a3d589585333cd1d95db58389d96db7eb01"
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/scripts.inc",
+      "before_sha256": "0d28a533cbaef2b5f26c81e4be6e2f50d50c834717c91d34dfdf850e9dba43e1",
+      "copied_from": "68e748cd6",
+      "imported_sha256": "7a69f15c1c08328d719d97bf5f3d2c178e662069f81fe0648e39ff7a9f4aa652"
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "before_sha256": "bc45399371a50f161c10a0710736e2a51d7c1946ec5f0a5570c678bb57c8e2d7",
+      "copied_from": "68e748cd6",
+      "imported_sha256": "fe7dae669e549f3a0351f27a212abbe7e9a47bb3ab5709ca128cdce4a0d9e322"
+    },
+    {
+      "file": "data/maps/IndigoPlateau_PokemonCenter_1F/map.json",
+      "before_sha256": "5f6b6b5aa9d18fa9a9700c21600bfbd032d3fdf6e25a9c047d5509a05838013f",
+      "copied_from": "ad699866c",
+      "imported_sha256": "e3163ad4907796f659915db390695fc4ec026b9852527f7baffdec69a5c79d6f"
+    },
+    {
+      "file": "data/maps/IndigoPlateau_PokemonCenter_1F/scripts.inc",
+      "before_sha256": "4f83364d4a0b4dfeefc93d993f83ed4bab769ccc3e939df06e331bc9ffbc9f81",
+      "copied_from": "ad699866c",
+      "imported_sha256": "76e7737786baa6dba69186e3bd5aa0086c54e264282a66535e3932f1a25b35bb"
+    },
+    {
+      "file": "data/maps/IndigoPlateau_PokemonCenter_1F/text.inc",
+      "before_sha256": "f380740be4d08af98c816908cc0ba6c5b550239df55cc8f3b9deba7b1bd640fa",
+      "copied_from": "ad699866c",
+      "imported_sha256": "7c60b4dfd690281d6af0c3b63cb1c4874cb84ec164da1bc726f1725b2c991ccc"
+    }
+  ],
+  "additional_lab_labels": [
+    "PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon",
+    "PalletTown_ProfessorOaksLab_Text_OakHeyDontGoAwayYet",
+    "PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel",
+    "PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls",
+    "PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide",
+    "PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything",
+    "PalletTown_ProfessorOaksLab_Text_OakTookBothPokedexUnits",
+    "PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex",
+    "Text_RivalVictory"
+  ],
+  "reflowed_lab_labels": [],
+  "excluded": "No new sprites, changed Champion teams, city/gym maps, casting documents, future-story mechanics or existing QA overwritten."
+}

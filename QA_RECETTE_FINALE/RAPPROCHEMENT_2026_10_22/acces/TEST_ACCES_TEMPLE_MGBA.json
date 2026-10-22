@@ -1,0 +1,22 @@
+{
+  "rom_sha256": "14cbb01b212fc33dde3f9f049cd390e9a1b5c36dd8f38de3c819a310e525a075",
+  "scope": "Native scripts and button movement at the entrance, fixture warp; existing first room still contains old League content. Not a full adventure or new Temple validation.",
+  "results": [
+    {
+      "test": "All 256 trophy combinations, native script result",
+      "passed": true
+    },
+    {
+      "test": "Eight actual entrance crossings refused, one distinct missing trophy each; safe step back",
+      "passed": true
+    },
+    {
+      "test": "Eight trophy flags retained by native Flash save/load",
+      "passed": true
+    },
+    {
+      "test": "All eight trophies permit actual warp into first room",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "public_build": "make -j4",
+  "private_build": "make -j4 YOKAI_AUDIO_DIR=<external-private-audio30-integration>",
+  "rom_limit": 33554432,
+  "roms": [
+    {
+      "file": "pokefirered.gba",
+      "bytes": 16777216,
+      "sha256": "031d36f755b24bb2d8a5517ee89fa8db8d2a57762c14a4540ef036c9e057c8af"
+    },
+    {
+      "file": "pokefirered_audio.gba",
+      "bytes": 31589579,
+      "sha256": "14cbb01b212fc33dde3f9f049cd390e9a1b5c36dd8f38de3c819a310e525a075"
+    }
+  ],
+  "graphics_imported": false,
+  "team_changes": false,
+  "save_format_changed": false
+}

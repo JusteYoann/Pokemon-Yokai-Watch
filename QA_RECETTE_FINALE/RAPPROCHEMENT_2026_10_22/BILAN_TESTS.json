@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "full_adventure_tested": false,
+  "balance_validated": false,
+  "graphics_approved_or_imported": false,
+  "results": [
+    {
+      "file": "introduction/TEST_INTRODUCTION_MGBA.json",
+      "passed": true,
+      "rom_sha256": "14cbb01b212fc33dde3f9f049cd390e9a1b5c36dd8f38de3c819a310e525a075"
+    },
+    {
+      "file": "prologue/TEST_PROLOGUE_MGBA.json",
+      "passed": true,
+      "rom_sha256": "14cbb01b212fc33dde3f9f049cd390e9a1b5c36dd8f38de3c819a310e525a075"
+    },
+    {
+      "file": "acces/TEST_ACCES_TEMPLE_MGBA.json",
+      "passed": true,
+      "rom_sha256": "14cbb01b212fc33dde3f9f049cd390e9a1b5c36dd8f38de3c819a310e525a075"
+    },
+    {
+      "file": "prologue/LARGEURS_LABO_INTRO_ACCES.json",
+      "passed": true,
+      "rom_sha256": "14cbb01b212fc33dde3f9f049cd390e9a1b5c36dd8f38de3c819a310e525a075"
+    },
+    {
+      "file": "starters/TEST_TROIS_STARTERS_MGBA.json",
+      "passed": true,
+      "rom_sha256": "14cbb01b212fc33dde3f9f049cd390e9a1b5c36dd8f38de3c819a310e525a075"
+    }
+  ]
+}

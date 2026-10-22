@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Actual intro UI for both genders: custom player naming and mandatory Matt."""
-import hashlib,json,re
+import hashlib,json,re,os
+from pathlib import Path
 from mgba_rpc import Emulator,ROOT
-P=ROOT/'QA_RECETTE_FINALE/RECONSTRUCTION/preuves'
+OUT=Path(os.environ.get('YOKAI_INTRO_QA_DIR',ROOT/'QA_RECETTE_FINALE/RECONSTRUCTION'))
+P=OUT/'preuves';P.mkdir(parents=True,exist_ok=True)
 glyphs={m[1]:int(m[2],16) for m in re.finditer(r"^'(.*?)'\s*= ([0-9A-F]{2})$",(ROOT/'charmap.txt').read_text(),re.M)}
 results=[]
 for gender,person in [(0,'nathan'),(1,'katie')]:
@@ -53,5 +55,5 @@ for gender,person in [(0,'nathan'),(1,'katie')]:
   assert r.read(r.u32(r.symbols['gSaveBlock1Ptr'])+0x3A4C,5)==bytes(glyphs[c] for c in 'Matt')+b'\xff'
   results.append({'person':person,'passed':True,'gender_selected_via_buttons':gender,'custom_player_name_typed':'AA','naming_templates':sorted(naming_templates),'rival_renaming_not_shown':True,'actual_overworld_reached':True})
  finally:r.close()
-report={'engine':'mGBA libretro','rom_sha256':hashlib.sha256((ROOT/'pokefirered.gba').read_bytes()).hexdigest(),'scope':'Native StartNewGameScene then only controller input for introduction and player naming, both genders; no gameplay progression beyond the initial room','results':results}
-(ROOT/'QA_RECETTE_FINALE/RECONSTRUCTION/TEST_INTRODUCTION_MGBA.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report,ensure_ascii=False,indent=2))
+report={'engine':'mGBA libretro','rom_sha256':hashlib.sha256(Path(os.environ.get('YOKAI_QA_ROM',ROOT/'pokefirered.gba')).read_bytes()).hexdigest(),'scope':'Native StartNewGameScene then only controller input for introduction and player naming, both genders; no gameplay progression beyond the initial room','results':results}
+(OUT/'TEST_INTRODUCTION_MGBA.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report,ensure_ascii=False,indent=2))

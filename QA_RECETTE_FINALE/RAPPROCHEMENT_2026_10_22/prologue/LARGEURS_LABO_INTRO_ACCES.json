@@ -1,0 +1,1983 @@
+{
+  "passed": true,
+  "rom_sha256": "14cbb01b212fc33dde3f9f049cd390e9a1b5c36dd8f38de3c819a310e525a075",
+  "scope": "Native normal-font widths for all lab messages, intro speech and eight-trophy warning.\n\nConservative dynamic placeholders: seven W player name, Matt, fourteen W string vars.\nNo claim of visual review of every page or full-game French coverage.\n",
+  "lines": 282,
+  "max_pixels": 208,
+  "results": [
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_AskPlayerGender",
+      "text": "Es-tu un garçon",
+      "pixels": 85,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_AskPlayerGender",
+      "text": "ou une fille?",
+      "pixels": 72,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_WelcomeToTheWorld",
+      "text": "Bonjour! Bienvenue à Kanto!",
+      "pixels": 154,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_WelcomeToTheWorld",
+      "text": "Je suis le Professeur Chen.",
+      "pixels": 150,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_WelcomeToTheWorld",
+      "text": "Humains et Yo-kai vivent",
+      "pixels": 132,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_WelcomeToTheWorld",
+      "text": "ensemble, au grand jour.",
+      "pixels": 136,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_ThisWorld",
+      "text": "Dans notre monde…",
+      "pixels": 96,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_IsInhabitedFarAndWide",
+      "text": "…les Yo-kai sont partout,",
+      "pixels": 138,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_IsInhabitedFarAndWide",
+      "text": "même tout près de nous!",
+      "pixels": 132,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_IStudyPokemon",
+      "text": "J’étudie les liens entre",
+      "pixels": 128,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_IStudyPokemon",
+      "text": "les humains et les Yo-kai.",
+      "pixels": 143,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_IStudyPokemon",
+      "text": "Au laboratoire, je te confierai",
+      "pixels": 171,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_IStudyPokemon",
+      "text": "une Yo-kai Watch toute récente",
+      "pixels": 170,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_IStudyPokemon",
+      "text": "et un Médallium ancien.",
+      "pixels": 127,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_IStudyPokemon",
+      "text": "Pars rencontrer les 151 Yo-kai",
+      "pixels": 167,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_IStudyPokemon",
+      "text": "de Kanto avec ton équipe!",
+      "pixels": 144,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_IStudyPokemon",
+      "text": "Huit trophées t’attendent,",
+      "pixels": 140,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_IStudyPokemon",
+      "text": "puis le Temple Céleste!",
+      "pixels": 130,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_TellMeALittleAboutYourself",
+      "text": "Parle-moi un peu de toi.",
+      "pixels": 135,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_YourNameWhatIsIt",
+      "text": "Comment t’appelles-tu?",
+      "pixels": 122,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_SoYourNameIsPlayer",
+      "text": "Tu t’appelles WWWWWWW.",
+      "pixels": 124,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_SoYourNameIsPlayer",
+      "text": "C’est bien cela?",
+      "pixels": 87,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_WhatWasHisName",
+      "text": "Voici Matt, ton ami.",
+      "pixels": 108,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_WhatWasHisName",
+      "text": "Vous êtes rivaux depuis toujours!",
+      "pixels": 186,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_YourRivalsNameWhatWasIt",
+      "text": "Ton rival s’appelle Matt.",
+      "pixels": 136,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_ConfirmRivalName",
+      "text": "Voici Matt!",
+      "pixels": 60,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_RememberRivalsName",
+      "text": "Voici Matt, ton ami!",
+      "pixels": 109,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_RememberRivalsName",
+      "text": "Ce sera ton rival!",
+      "pixels": 100,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_LetsGo",
+      "text": "WWWWWWW!",
+      "pixels": 48,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_LetsGo",
+      "text": "Les huit trophées et le",
+      "pixels": 129,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_LetsGo",
+      "text": "Médallium t’attendent!",
+      "pixels": 119,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_LetsGo",
+      "text": "Pars à la rencontre des Yo-kai",
+      "pixels": 168,
+      "passed": true
+    },
+    {
+      "file": "data/text/new_game_intro.inc",
+      "label": "gOakSpeech_Text_LetsGo",
+      "text": "et fais-toi de nouveaux amis!",
+      "pixels": 162,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround",
+      "text": "Matt: Salut, WWWWWWW!",
+      "pixels": 120,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround",
+      "text": "Le Professeur n’est pas là.",
+      "pixels": 148,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting",
+      "text": "Matt: Professeur!",
+      "pixels": 94,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting",
+      "text": "On peut choisir nos partenaires?",
+      "pixels": 175,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe",
+      "text": "Matt: Et mon partenaire,",
+      "pixels": 132,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe",
+      "text": "Professeur?",
+      "pixels": 61,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer",
+      "text": "Matt: Je ne suis pas aussi",
+      "pixels": 143,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer",
+      "text": "impatient que toi, moi!",
+      "pixels": 125,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer",
+      "text": "Vas-y, choisis, WWWWWWW!",
+      "pixels": 135,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalIllTakeThisOneThen",
+      "text": "Matt: Alors, je prends celui-ci!",
+      "pixels": 177,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalReceivedMonFromOak",
+      "text": "Matt reçoit WWWWWWWWWWWWWW",
+      "pixels": 150,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalReceivedMonFromOak",
+      "text": "du Professeur Chen!",
+      "pixels": 108,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalMyMonLooksTougher",
+      "text": "Matt: Mon Yo-kai est prêt!",
+      "pixels": 145,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalMyMonLooksTougher",
+      "text": "On va bien s’entendre.",
+      "pixels": 119,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons",
+      "text": "Matt: Attends, WWWWWWW!",
+      "pixels": 130,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons",
+      "text": "Comparons nos Yo-kai!",
+      "pixels": 118,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons",
+      "text": "Allez, je te défie!",
+      "pixels": 107,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalDefeat",
+      "text": "Matt: Bien joué!",
+      "pixels": 90,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalDefeat",
+      "text": "Tu as trouvé un bon partenaire!",
+      "pixels": 175,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "Text_RivalVictory",
+      "text": "Matt: Cette fois, j'ai gagné!",
+      "pixels": 158,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "Text_RivalVictory",
+      "text": "Continuons à nous entraîner!",
+      "pixels": 154,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon",
+      "text": "Matt: Je vais entraîner",
+      "pixels": 127,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon",
+      "text": "mon partenaire!",
+      "pixels": 83,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon",
+      "text": "À bientôt, WWWWWWW!",
+      "pixels": 108,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon",
+      "text": "Au revoir, Professeur!",
+      "pixels": 122,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalGramps",
+      "text": "Matt: Professeur Chen!",
+      "pixels": 123,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor",
+      "text": "Matt: J'allais oublier!",
+      "pixels": 123,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor",
+      "text": "Pourquoi tu m'as fait venir?",
+      "pixels": 152,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalLeaveItToMeGramps",
+      "text": "Matt: Comptez sur nous,",
+      "pixels": 129,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalLeaveItToMeGramps",
+      "text": "Professeur!",
+      "pixels": 61,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap",
+      "text": "Matt: Alors, WWWWWWW,",
+      "pixels": 118,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap",
+      "text": "qui réunira les huit trophées",
+      "pixels": 159,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap",
+      "text": "en premier?",
+      "pixels": 61,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap",
+      "text": "Je vais préparer ma route.",
+      "pixels": 147,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap",
+      "text": "Passe prendre une Carte",
+      "pixels": 130,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap",
+      "text": "chez moi avant de partir!",
+      "pixels": 141,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap",
+      "text": "À bientôt sur les routes!",
+      "pixels": 138,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne",
+      "text": "CHEN: Matt?",
+      "pixels": 63,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne",
+      "text": "Voyons…",
+      "pixels": 40,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne",
+      "text": "Ah oui! Je t'avais dit",
+      "pixels": 120,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne",
+      "text": "de venir! Patiente un peu!",
+      "pixels": 146,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne",
+      "text": "Tiens, WWWWWWW.",
+      "pixels": 84,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne",
+      "text": "Voici trois Yo-kai.",
+      "pixels": 101,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne",
+      "text": "Haha!",
+      "pixels": 30,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne",
+      "text": "Ils sont à l'intérieur",
+      "pixels": 115,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne",
+      "text": "de ces Yo-kai Balls.",
+      "pixels": 112,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne",
+      "text": "Quand j'étais jeune,",
+      "pixels": 110,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne",
+      "text": "j'étais un Dresseur passionné.",
+      "pixels": 161,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne",
+      "text": "Mais avec l'âge,",
+      "pixels": 88,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne",
+      "text": "je n'ai gardé que ces trois-là.",
+      "pixels": 171,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne",
+      "text": "Tu peux en prendre un.",
+      "pixels": 126,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne",
+      "text": "Allez, choisis!",
+      "pixels": 81,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakBePatientRival",
+      "text": "CHEN: Patience, Matt.",
+      "pixels": 117,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakBePatientRival",
+      "text": "Tu en auras un aussi!",
+      "pixels": 118,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose",
+      "text": "CHEN: Alors, WWWWWWW.",
+      "pixels": 120,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose",
+      "text": "Ces trois Yo-kai Balls",
+      "pixels": 120,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose",
+      "text": "contiennent chacune un Yo-kai.",
+      "pixels": 166,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose",
+      "text": "Lequel souhaites-tu",
+      "pixels": 107,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose",
+      "text": "prendre avec toi?",
+      "pixels": 96,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakHeyDontGoAwayYet",
+      "text": "CHEN: Attends!",
+      "pixels": 79,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakHeyDontGoAwayYet",
+      "text": "Ne pars pas encore!",
+      "pixels": 109,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakChoosingCharmander",
+      "text": "Ah, tu choisis Kappacap!",
+      "pixels": 136,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakChoosingCharmander",
+      "text": "Élève-le avec patience.",
+      "pixels": 131,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakChoosingCharmander",
+      "text": "Alors, WWWWWWW, tu prends",
+      "pixels": 141,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakChoosingCharmander",
+      "text": "Kappacap, le Yo-kai Eau?",
+      "pixels": 139,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakChoosingSquirtle",
+      "text": "Hmm, tu choisis Padrezo!",
+      "pixels": 135,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakChoosingSquirtle",
+      "text": "Il mérite toute ton attention.",
+      "pixels": 163,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakChoosingSquirtle",
+      "text": "Alors, WWWWWWW, tu prends",
+      "pixels": 141,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakChoosingSquirtle",
+      "text": "Padrezo, le Yo-kai Électrik?",
+      "pixels": 156,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakChoosingBulbasaur",
+      "text": "Ah, tu choisis Komasan!",
+      "pixels": 128,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakChoosingBulbasaur",
+      "text": "Prends bien soin de lui.",
+      "pixels": 130,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakChoosingBulbasaur",
+      "text": "Alors, WWWWWWW, veux-tu partir",
+      "pixels": 169,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakChoosingBulbasaur",
+      "text": "avec Komasan, le Yo-kai Feu?",
+      "pixels": 161,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakThisMonIsEnergetic",
+      "text": "Ce Yo-kai déborde",
+      "pixels": 98,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakThisMonIsEnergetic",
+      "text": "vraiment d'énergie!",
+      "pixels": 102,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak",
+      "text": "WWWWWWW reçoit WWWWWWWWWWWWWW",
+      "pixels": 170,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak",
+      "text": "du Professeur Chen!",
+      "pixels": 108,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCanReachNextTownWithMon",
+      "text": "CHEN: Si un Yo-kai sauvage",
+      "pixels": 148,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCanReachNextTownWithMon",
+      "text": "apparaît, le tien pourra l'affronter.",
+      "pixels": 201,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCanReachNextTownWithMon",
+      "text": "Avec lui à tes côtés,",
+      "pixels": 118,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCanReachNextTownWithMon",
+      "text": "tu atteindras la prochaine ville.",
+      "pixels": 180,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakBattleMonForItToGrow",
+      "text": "CHEN: WWWWWWW, fais combattre",
+      "pixels": 165,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakBattleMonForItToGrow",
+      "text": "ton jeune Yo-kai.",
+      "pixels": 95,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakBattleMonForItToGrow",
+      "text": "C'est ainsi",
+      "pixels": 55,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakBattleMonForItToGrow",
+      "text": "qu'il deviendra plus fort.",
+      "pixels": 140,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe",
+      "text": "CHEN: Oh, WWWWWWW!",
+      "pixels": 106,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe",
+      "text": "Comment va mon ancien Yo-kai?",
+      "pixels": 164,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe",
+      "text": "Il semble déjà",
+      "pixels": 81,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe",
+      "text": "s'être attaché à toi.",
+      "pixels": 114,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe",
+      "text": "Tu as du talent",
+      "pixels": 85,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe",
+      "text": "pour élever les Yo-kai.",
+      "pixels": 129,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe",
+      "text": "Qu'est-ce que c'est?",
+      "pixels": 110,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe",
+      "text": "Tu as quelque chose pour moi?",
+      "pixels": 168,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel",
+      "text": "WWWWWWW remet le colis",
+      "pixels": 125,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel",
+      "text": "au Professeur Chen.",
+      "pixels": 107,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered",
+      "text": "Ah!",
+      "pixels": 18,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered",
+      "text": "La Yo-kai Ball spéciale!",
+      "pixels": 135,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered",
+      "text": "Je l'avais commandée.",
+      "pixels": 117,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered",
+      "text": "Merci!",
+      "pixels": 33,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakHaveRequestForYouTwo",
+      "text": "CHEN: Au fait!",
+      "pixels": 79,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakHaveRequestForYouTwo",
+      "text": "J'ai une demande à vous faire.",
+      "pixels": 167,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakPokedexOnDesk",
+      "text": "CHEN: Voici un Médallium ancien.",
+      "pixels": 177,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakPokedexOnDesk",
+      "text": "Il répertorie les Yo-kai",
+      "pixels": 132,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakPokedexOnDesk",
+      "text": "que tu as vus ou capturés.",
+      "pixels": 149,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakPokedexOnDesk",
+      "text": "Avec ta montre récente,",
+      "pixels": 130,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakPokedexOnDesk",
+      "text": "tu pourras le compléter.",
+      "pixels": 135,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakTakeTheseWithYou",
+      "text": "CHEN: WWWWWWW et Matt.",
+      "pixels": 127,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakTakeTheseWithYou",
+      "text": "Emportez-les avec vous.",
+      "pixels": 132,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_ReceivedPokedexFromOak",
+      "text": "WWWWWWW reçoit le Médallium",
+      "pixels": 153,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_ReceivedPokedexFromOak",
+      "text": "ancien du Professeur Chen!",
+      "pixels": 146,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese",
+      "text": "CHEN: Voir un Yo-kai ne suffit",
+      "pixels": 165,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese",
+      "text": "pas à tout apprendre sur lui.",
+      "pixels": 162,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese",
+      "text": "Il faut le capturer",
+      "pixels": 107,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese",
+      "text": "pour compléter ses données.",
+      "pixels": 152,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese",
+      "text": "Voici donc de quoi",
+      "pixels": 101,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese",
+      "text": "capturer des Yo-kai sauvages.",
+      "pixels": 164,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls",
+      "text": "WWWWWWW reçoit",
+      "pixels": 80,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls",
+      "text": "cinq Yo-kai Balls!",
+      "pixels": 99,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakExplainCatching",
+      "text": "Quand un Yo-kai sauvage",
+      "pixels": 132,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakExplainCatching",
+      "text": "apparaît, tu peux le capturer.",
+      "pixels": 171,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakExplainCatching",
+      "text": "Lance-lui une Yo-kai Ball",
+      "pixels": 140,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakExplainCatching",
+      "text": "pour tenter ta chance!",
+      "pixels": 125,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakExplainCatching",
+      "text": "Mais cela ne marche pas toujours.",
+      "pixels": 187,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakExplainCatching",
+      "text": "Un Yo-kai en pleine forme",
+      "pixels": 139,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakExplainCatching",
+      "text": "peut facilement s'échapper!",
+      "pixels": 150,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream",
+      "text": "Créer un guide complet",
+      "pixels": 125,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream",
+      "text": "de tous les Yo-kai du monde…",
+      "pixels": 160,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream",
+      "text": "C'était mon rêve!",
+      "pixels": 93,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream",
+      "text": "Mais je suis trop vieux",
+      "pixels": 127,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream",
+      "text": "pour y parvenir seul.",
+      "pixels": 117,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream",
+      "text": "Je compte donc sur vous deux",
+      "pixels": 163,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream",
+      "text": "pour réaliser ce rêve à ma place.",
+      "pixels": 188,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream",
+      "text": "En route, tous les deux!",
+      "pixels": 136,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream",
+      "text": "C'est une grande aventure",
+      "pixels": 139,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream",
+      "text": "pour la connaissance des Yo-kai!",
+      "pixels": 179,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakMonsAroundWorldWait",
+      "text": "Les Yo-kai du monde entier",
+      "pixels": 146,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakMonsAroundWorldWait",
+      "text": "t'attendent, WWWWWWW!",
+      "pixels": 116,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex",
+      "text": "Ah, WWWWWWW!",
+      "pixels": 71,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex",
+      "text": "Comment avance ton Médallium?",
+      "pixels": 165,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex",
+      "text": "Matt a déjà capturé",
+      "pixels": 110,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex",
+      "text": "quelques Yo-kai pour l'enrichir.",
+      "pixels": 174,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex",
+      "text": "Alors, WWWWWWW,",
+      "pixels": 85,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex",
+      "text": "regardons le tien.",
+      "pixels": 98,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex",
+      "text": "…Que se passe-t-il?",
+      "pixels": 107,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex",
+      "text": "Aucune nouvelle donnée?",
+      "pixels": 132,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex",
+      "text": "Prends ceci",
+      "pixels": 61,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex",
+      "text": "et poursuis tes recherches.",
+      "pixels": 150,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakComeSeeMeSometime",
+      "text": "CHEN: Reviens me voir.",
+      "pixels": 123,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakComeSeeMeSometime",
+      "text": "J'aimerais savoir",
+      "pixels": 89,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakComeSeeMeSometime",
+      "text": "comment avance ton Médallium.",
+      "pixels": 164,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_BlankEncyclopedia",
+      "text": "On dirait une encyclopédie,",
+      "pixels": 149,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_BlankEncyclopedia",
+      "text": "mais ses pages sont vierges.",
+      "pixels": 154,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_ThoseArePokeBalls",
+      "text": "Ce sont des Yo-kai Balls.",
+      "pixels": 139,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_ThoseArePokeBalls",
+      "text": "Elles contiennent des Yo-kai!",
+      "pixels": 159,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OaksLastMon",
+      "text": "C'est le dernier Yo-kai",
+      "pixels": 124,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OaksLastMon",
+      "text": "du Professeur Chen.",
+      "pixels": 107,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_PressStartToOpenMenu",
+      "text": "Appuie sur START",
+      "pixels": 92,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_PressStartToOpenMenu",
+      "text": "pour ouvrir le menu!",
+      "pixels": 113,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_SaveOptionInMenu",
+      "text": "L'option SAUVER est dans le menu.",
+      "pixels": 184,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_SaveOptionInMenu",
+      "text": "Utilise-la régulièrement.",
+      "pixels": 134,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_AllMonTypesHaveStrongAndWeakPoints",
+      "text": "Chaque type de Yo-kai possède",
+      "pixels": 168,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_AllMonTypesHaveStrongAndWeakPoints",
+      "text": "des forces et des faiblesses.",
+      "pixels": 160,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_EmailMessage",
+      "text": "Il y a un message électronique.",
+      "pixels": 175,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_EmailMessage",
+      "text": "…",
+      "pixels": 6,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_EmailMessage",
+      "text": "Enfin! Les meilleurs Dresseurs",
+      "pixels": 163,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_EmailMessage",
+      "text": "de la Ligue Yo-kai sont prêts",
+      "pixels": 162,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_EmailMessage",
+      "text": "à relever tous les défis!",
+      "pixels": 139,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_EmailMessage",
+      "text": "Venez avec vos meilleurs Yo-kai",
+      "pixels": 175,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_EmailMessage",
+      "text": "pour mesurer votre talent!",
+      "pixels": 146,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_EmailMessage",
+      "text": "Siège de la Ligue Yo-kai",
+      "pixels": 136,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_EmailMessage",
+      "text": "INDIGO PLATEAU",
+      "pixels": 84,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_EmailMessage",
+      "text": "Professeur Chen, rendez-nous visite!",
+      "pixels": 199,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_EmailMessage",
+      "text": "…",
+      "pixels": 6,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide",
+      "text": "J'étudie les Yo-kai",
+      "pixels": 103,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide",
+      "text": "avec le Professeur Chen.",
+      "pixels": 136,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons",
+      "text": "Salut, WWWWWWW. Tu dois être",
+      "pixels": 159,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons",
+      "text": "proche de tes Yo-kai maintenant.",
+      "pixels": 178,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons",
+      "text": "Au fait, tu connais Nina?",
+      "pixels": 136,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons",
+      "text": "Montre-lui tes Yo-kai: elle peut",
+      "pixels": 177,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons",
+      "text": "te dire à quel point ils t'aiment.",
+      "pixels": 182,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons",
+      "text": "Parfois, elle prend même",
+      "pixels": 134,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons",
+      "text": "le temps de les toiletter.",
+      "pixels": 143,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons",
+      "text": "Mais c'est un secret,",
+      "pixels": 113,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons",
+      "text": "alors ne le répète pas.",
+      "pixels": 129,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakIsGoingToHaveRadioShow",
+      "text": "Le Professeur Chen va bientôt",
+      "pixels": 163,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakIsGoingToHaveRadioShow",
+      "text": "animer une émission de radio.",
+      "pixels": 158,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakIsGoingToHaveRadioShow",
+      "text": "Elle s'appellera",
+      "pixels": 87,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakIsGoingToHaveRadioShow",
+      "text": "Les leçons Yo-kai du Prof. Chen.",
+      "pixels": 180,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakIsAuthorityOnMons",
+      "text": "Le Professeur Chen n'en a",
+      "pixels": 139,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakIsAuthorityOnMons",
+      "text": "peut-être pas l'air, mais c'est",
+      "pixels": 166,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakIsAuthorityOnMons",
+      "text": "un grand spécialiste des Yo-kai.",
+      "pixels": 176,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakIsAuthorityOnMons",
+      "text": "De nombreux Dresseurs",
+      "pixels": 119,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakIsAuthorityOnMons",
+      "text": "le respectent énormément.",
+      "pixels": 139,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakFavorToAskYouPlayer",
+      "text": "Ah, c'est excellent!",
+      "pixels": 110,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakFavorToAskYouPlayer",
+      "text": "WWWWWWW, j'ai une autre",
+      "pixels": 129,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakFavorToAskYouPlayer",
+      "text": "demande importante à te faire.",
+      "pixels": 167,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakFavorToAskYouPlayer",
+      "text": "Écoute-moi attentivement.",
+      "pixels": 138,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons",
+      "text": "On a récemment signalé",
+      "pixels": 123,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons",
+      "text": "des Yo-kai rares au loin.",
+      "pixels": 138,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons",
+      "text": "Certains n'ont encore",
+      "pixels": 112,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons",
+      "text": "jamais été observés à Kanto.",
+      "pixels": 158,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons",
+      "text": "J'aimerais aller voir moi-même,",
+      "pixels": 168,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons",
+      "text": "mais je suis trop vieux.",
+      "pixels": 132,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons",
+      "text": "WWWWWWW, pourrais-tu",
+      "pixels": 113,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons",
+      "text": "y aller à ma place?",
+      "pixels": 110,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything",
+      "text": "Matt: J'ai tout entendu!",
+      "pixels": 131,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything",
+      "text": "Je peux vous aider aussi,",
+      "pixels": 141,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything",
+      "text": "Professeur!",
+      "pixels": 61,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything",
+      "text": "J'ai déjà trouvé plusieurs Yo-kai.",
+      "pixels": 187,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything",
+      "text": "Comparons nos découvertes!",
+      "pixels": 148,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakNeedYourHelpTooNeedToSeePokedexes",
+      "text": "CHEN: Je sais, je sais.",
+      "pixels": 127,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakNeedYourHelpTooNeedToSeePokedexes",
+      "text": "J'ai aussi besoin de ton aide.",
+      "pixels": 162,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakNeedYourHelpTooNeedToSeePokedexes",
+      "text": "Montrez-moi maintenant",
+      "pixels": 120,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakNeedYourHelpTooNeedToSeePokedexes",
+      "text": "vos deux Médalliums.",
+      "pixels": 113,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakTookBothPokedexUnits",
+      "text": "Le Professeur Chen prend",
+      "pixels": 136,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakTookBothPokedexUnits",
+      "text": "les deux Médalliums.",
+      "pixels": 112,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakNowTheseUnitsCanRecordMoreData",
+      "text": "… … … … … …",
+      "pixels": 66,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakNowTheseUnitsCanRecordMoreData",
+      "text": "… … … … … …",
+      "pixels": 66,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakNowTheseUnitsCanRecordMoreData",
+      "text": "…Voilà qui est fait!",
+      "pixels": 109,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakNowTheseUnitsCanRecordMoreData",
+      "text": "Cette mise à jour facilite",
+      "pixels": 143,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakNowTheseUnitsCanRecordMoreData",
+      "text": "le suivi des données, toujours",
+      "pixels": 166,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakNowTheseUnitsCanRecordMoreData",
+      "text": "consacrées aux 151 Yo-kai.",
+      "pixels": 148,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_PlayersPokedexWasUpgraded",
+      "text": "Le Médallium de WWWWWWW",
+      "pixels": 134,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_PlayersPokedexWasUpgraded",
+      "text": "a été mis à jour!",
+      "pixels": 97,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex",
+      "text": "À vous de jouer, WWWWWWW et Matt!",
+      "pixels": 192,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex",
+      "text": "Poursuivez vos efforts",
+      "pixels": 122,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex",
+      "text": "pour compléter vos Médalliums.",
+      "pixels": 169,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex",
+      "text": "J'espère qu'ils deviendront",
+      "pixels": 144,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex",
+      "text": "les meilleurs guides jamais créés!",
+      "pixels": 188,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex",
+      "text": "C'est un projet immense",
+      "pixels": 126,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex",
+      "text": "pour la connaissance des Yo-kai!",
+      "pixels": 179,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex",
+      "text": "Matt: Comptez sur moi,",
+      "pixels": 123,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex",
+      "text": "Professeur!",
+      "pixels": 61,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex",
+      "text": "Je vais compléter le Médallium.",
+      "pixels": 174,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex",
+      "text": "À bientôt, WWWWWWW!",
+      "pixels": 108,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_ReceiveWatch",
+      "text": "CHEN: Voici une Yo-kai Watch",
+      "pixels": 158,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_ReceiveWatch",
+      "text": "de dernière génération.",
+      "pixels": 126,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_ReceiveWatch",
+      "text": "WWWWWWW met la montre",
+      "pixels": 121,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_ReceiveWatch",
+      "text": "à son poignet!",
+      "pixels": 78,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_WatchTutorial",
+      "text": "CHEN: Les Yo-kai vivent déjà",
+      "pixels": 159,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_WatchTutorial",
+      "text": "au grand jour parmi nous.",
+      "pixels": 141,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_WatchTutorial",
+      "text": "Cette montre t'accompagnera",
+      "pixels": 151,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_WatchTutorial",
+      "text": "dans tes rencontres.",
+      "pixels": 109,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_WatchTutorial",
+      "text": "Prends soin de ton partenaire.",
+      "pixels": 164,
+      "passed": true
+    },
+    {
+      "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+      "label": "PalletTown_ProfessorOaksLab_Text_WatchTutorial",
+      "text": "Vous progresserez ensemble!",
+      "pixels": 153,
+      "passed": true
+    },
+    {
+      "file": "data/maps/IndigoPlateau_PokemonCenter_1F/text.inc",
+      "label": "IndigoPlateau_Text_EightTrophiesRequired",
+      "text": "L'accès au Temple Céleste exige",
+      "pixels": 176,
+      "passed": true
+    },
+    {
+      "file": "data/maps/IndigoPlateau_PokemonCenter_1F/text.inc",
+      "label": "IndigoPlateau_Text_EightTrophiesRequired",
+      "text": "les huit trophées.",
+      "pixels": 99,
+      "passed": true
+    },
+    {
+      "file": "data/maps/IndigoPlateau_PokemonCenter_1F/text.inc",
+      "label": "IndigoPlateau_Text_EightTrophiesRequired",
+      "text": "Reviens lorsque tu les auras",
+      "pixels": 156,
+      "passed": true
+    },
+    {
+      "file": "data/maps/IndigoPlateau_PokemonCenter_1F/text.inc",
+      "label": "IndigoPlateau_Text_EightTrophiesRequired",
+      "text": "tous obtenus.",
+      "pixels": 72,
+      "passed": true
+    }
+  ]
+}
