@@ -1,0 +1,164 @@
+{
+  "TRAINER_SCENARIO_NATHANIEL_YOUNG": {
+    "mode": "scenario_cramois",
+    "name": "Nathaniel",
+    "portrait": "TRAINER_PIC_YOKAI_NATHANIEL",
+    "trainer_class": "TRAINER_CLASS_LEADER",
+    "gender_music": "TRAINER_ENCOUNTER_MUSIC_MALE",
+    "source_party": "sScenarioParty_NathanielSeventh",
+    "items": [],
+    "party": [
+      {
+        "species": "SPECIES_SPEAROW",
+        "level": 44,
+        "iv": 0,
+        "moves": [
+          "MOVE_WATER_PULSE",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_WATER_GUN",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_SWIFT_SWIM",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_MACHOKE",
+        "level": 44,
+        "iv": 0,
+        "moves": [
+          "MOVE_WATER_PULSE",
+          "MOVE_ICY_WIND",
+          "MOVE_GROWL",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_WATER_ABSORB",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_DODRIO",
+        "level": 45,
+        "iv": 0,
+        "moves": [
+          "MOVE_SURF",
+          "MOVE_BITE",
+          "MOVE_HARDEN",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_WATER_ABSORB",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_NIDORAN_M",
+        "level": 45,
+        "iv": 0,
+        "moves": [
+          "MOVE_SHADOW_PUNCH",
+          "MOVE_NIGHT_SHADE",
+          "MOVE_WILL_O_WISP",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_LEVITATE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_DRAGONITE",
+        "level": 46,
+        "iv": 0,
+        "moves": [
+          "MOVE_AERIAL_ACE",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_FOCUS_ENERGY",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_KEEN_EYE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  },
+  "TRAINER_SCENARIO_MICHAEL_YOUNG": {
+    "mode": "scenario_cramois",
+    "name": "Michael",
+    "portrait": "TRAINER_PIC_YOKAI_MICHAEL",
+    "trainer_class": "TRAINER_CLASS_LEADER",
+    "gender_music": "TRAINER_ENCOUNTER_MUSIC_MALE",
+    "source_party": "sScenarioParty_MichaelSeventh",
+    "items": [],
+    "party": [
+      {
+        "species": "SPECIES_SPEAROW",
+        "level": 44,
+        "iv": 0,
+        "moves": [
+          "MOVE_WATER_PULSE",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_WATER_GUN",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_SWIFT_SWIM",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_MACHOKE",
+        "level": 44,
+        "iv": 0,
+        "moves": [
+          "MOVE_WATER_PULSE",
+          "MOVE_ICY_WIND",
+          "MOVE_GROWL",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_WATER_ABSORB",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_DODRIO",
+        "level": 45,
+        "iv": 0,
+        "moves": [
+          "MOVE_SURF",
+          "MOVE_BITE",
+          "MOVE_HARDEN",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_WATER_ABSORB",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_NIDORAN_M",
+        "level": 45,
+        "iv": 0,
+        "moves": [
+          "MOVE_SHADOW_PUNCH",
+          "MOVE_NIGHT_SHADE",
+          "MOVE_WILL_O_WISP",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_LEVITATE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_DRAGONITE",
+        "level": 46,
+        "iv": 0,
+        "moves": [
+          "MOVE_AERIAL_ACE",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_FOCUS_ENERGY",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_KEEN_EYE",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  }
+}

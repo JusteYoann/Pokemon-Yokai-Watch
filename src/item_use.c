@@ -613,6 +613,8 @@ static void Task_UsedBlackWhiteFlute(u8 taskId)
 
 bool8 CanUseEscapeRopeOnCurrMap(void)
 {
+    if (IsScenarioPastCinnabar())
+        return FALSE;
     if (gMapHeader.allowEscaping)
         return TRUE;
     else

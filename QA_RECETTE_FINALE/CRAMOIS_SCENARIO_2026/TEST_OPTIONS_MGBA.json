@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "rom_sha256": "90899b6cd917536614610e469ccba19e3976b37bf6ae057d3482457544126d7e",
+  "scope": "Explicit old reward/postgame/boosted rematch fixtures, real menus and native battle; not balance or full adventure",
+  "results": [
+    {
+      "test": "Actual past shop counter and native purchase menus: Potion purchased by controller A, B exits to field",
+      "passed": true
+    },
+    {
+      "test": "Historic earned Leaf Stone before postgame: full-stack refusal, retry without fight, no duplicate and Flash persistence",
+      "passed": true
+    },
+    {
+      "test": "Actual optional elderly Nathaniel postgame six-member rematch, No/Yes, original unique reward, no temporal trophy or native seventh, Flash persistence",
+      "passed": true,
+      "battle_frames": 8087,
+      "fixture": "Hovernyan100 and HP/stats999: explicit event-flow check, not balance"
+    }
+  ]
+}

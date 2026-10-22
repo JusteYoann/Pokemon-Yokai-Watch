@@ -4434,6 +4434,42 @@
       "secondary_tileset": "gTileset_SaffronGym",
       "border_filepath": "data/layouts/VermilionCity_MysteryVigil/border.bin",
       "blockdata_filepath": "data/layouts/VermilionCity_MysteryVigil/map.bin"
+    },
+    {
+      "id": "LAYOUT_CINNABAR_PAST_MANSION",
+      "name": "CinnabarPast_Mansion_Layout",
+      "width": 15,
+      "height": 15,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_SaffronOrbit",
+      "border_filepath": "data/layouts/CinnabarPast_Mansion/border.bin",
+      "blockdata_filepath": "data/layouts/CinnabarPast_Mansion/map.bin"
+    },
+    {
+      "id": "LAYOUT_CINNABAR_PAST_GYM",
+      "name": "CinnabarPast_Gym_Layout",
+      "width": 15,
+      "height": 19,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_CeruleanGym",
+      "border_filepath": "data/layouts/CinnabarPast_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/CinnabarPast_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_CINNABAR_PAST_LAB",
+      "name": "CinnabarPast_Lab_Layout",
+      "width": 17,
+      "height": 13,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_SaffronOrbit",
+      "border_filepath": "data/layouts/CinnabarPast_Lab/border.bin",
+      "blockdata_filepath": "data/layouts/CinnabarPast_Lab/map.bin"
     }
   ]
 }

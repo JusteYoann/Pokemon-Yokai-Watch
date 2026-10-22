@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "rom_sha256": "90899b6cd917536614610e469ccba19e3976b37bf6ae057d3482457544126d7e",
+  "scope": "Explicit field-move/party/progression/legacy fixtures; native APIs, actual doors/coast/defeat/Flash; not full adventure or archived player save",
+  "results": [
+    {
+      "test": "CinnabarPast: Surf-equipped party and native Surf/Fly/Teleport/Dig/Rope setup refused; Flash/Continue retains epoch and exact position",
+      "passed": true
+    },
+    {
+      "test": "CinnabarPast_Mansion: Surf-equipped party and native Surf/Fly/Teleport/Dig/Rope setup refused; Flash/Continue retains epoch and exact position",
+      "passed": true
+    },
+    {
+      "test": "CinnabarPast_Gym: Surf-equipped party and native Surf/Fly/Teleport/Dig/Rope setup refused; Flash/Continue retains epoch and exact position",
+      "passed": true
+    },
+    {
+      "test": "CinnabarPast_Lab: Surf-equipped party and native Surf/Fly/Teleport/Dig/Rope setup refused; Flash/Continue retains epoch and exact position",
+      "passed": true
+    },
+    {
+      "test": "CinnabarPast_Center: Surf-equipped party and native Surf/Fly/Teleport/Dig/Rope setup refused; Flash/Continue retains epoch and exact position",
+      "passed": true
+    },
+    {
+      "test": "CinnabarPast_Mart: Surf-equipped party and native Surf/Fly/Teleport/Dig/Rope setup refused; Flash/Continue retains epoch and exact position",
+      "passed": true
+    },
+    {
+      "test": "Positive travel controls in present; actual past coast A interaction cannot launch Surf or leave island",
+      "passed": true
+    },
+    {
+      "test": "CinnabarPast_Mansion: genuine past island door and genuine return exit, no present-world destination",
+      "passed": true
+    },
+    {
+      "test": "CinnabarPast_Gym: genuine past island door and genuine return exit, no present-world destination",
+      "passed": true
+    },
+    {
+      "test": "CinnabarPast_Lab: genuine past island door and genuine return exit, no present-world destination",
+      "passed": true
+    },
+    {
+      "test": "CinnabarPast_Center: genuine past island door and genuine return exit, no present-world destination",
+      "passed": true
+    },
+    {
+      "test": "CinnabarPast_Mart: genuine past island door and genuine return exit, no present-world destination",
+      "passed": true
+    },
+    {
+      "test": "Actual past champion defeat: no seventh trophy; healed native whiteout and subsequent Continue remain at past Center",
+      "passed": true,
+      "battle_frames": 2072
+    },
+    {
+      "test": "Historic Blaine native seventh badge cannot replace temporal chapter or skip zero/one-valve conditions; old present gym Flash/Continue rebuilds at safe entrance retaining badge",
+      "passed": true
+    },
+    {
+      "test": "All old map/layout IDs retained; exact same island layout; entire six-map past warp graph closed within era, no outside connection/escape flag",
+      "passed": true
+    }
+  ]
+}

@@ -13992,3 +13992,19 @@ static const struct TrainerMonItemCustomMoves sScenarioParty_Zombie2[] = {
 static const struct TrainerMonItemCustomMoves sScenarioParty_Zombie3[] = {
     {.iv = 0, .lvl = 35, .species = SPECIES_STARMIE, .heldItem = ITEM_NONE, .moves = {MOVE_SLUDGE, MOVE_SMOG, MOVE_TACKLE, MOVE_NONE}},
 };
+
+static const struct TrainerMonItemCustomMoves sScenarioParty_NathanielSeventh[] = {
+    {.iv = 0, .lvl = 44, .species = SPECIES_SPEAROW, .heldItem = ITEM_NONE, .moves = {MOVE_WATER_PULSE, MOVE_QUICK_ATTACK, MOVE_WATER_GUN, MOVE_NONE}},
+    {.iv = 0, .lvl = 44, .species = SPECIES_MACHOKE, .heldItem = ITEM_NONE, .moves = {MOVE_WATER_PULSE, MOVE_ICY_WIND, MOVE_GROWL, MOVE_NONE}},
+    {.iv = 0, .lvl = 45, .species = SPECIES_DODRIO, .heldItem = ITEM_NONE, .moves = {MOVE_SURF, MOVE_BITE, MOVE_HARDEN, MOVE_NONE}},
+    {.iv = 0, .lvl = 45, .species = SPECIES_NIDORAN_M, .heldItem = ITEM_NONE, .moves = {MOVE_SHADOW_PUNCH, MOVE_NIGHT_SHADE, MOVE_WILL_O_WISP, MOVE_NONE}},
+    {.iv = 0, .lvl = 46, .species = SPECIES_DRAGONITE, .heldItem = ITEM_NONE, .moves = {MOVE_AERIAL_ACE, MOVE_QUICK_ATTACK, MOVE_FOCUS_ENERGY, MOVE_NONE}},
+};
+
+static const struct TrainerMonItemCustomMoves sScenarioParty_MichaelSeventh[] = {
+    {.iv = 0, .lvl = 44, .species = SPECIES_SPEAROW, .heldItem = ITEM_NONE, .moves = {MOVE_WATER_PULSE, MOVE_QUICK_ATTACK, MOVE_WATER_GUN, MOVE_NONE}},
+    {.iv = 0, .lvl = 44, .species = SPECIES_MACHOKE, .heldItem = ITEM_NONE, .moves = {MOVE_WATER_PULSE, MOVE_ICY_WIND, MOVE_GROWL, MOVE_NONE}},
+    {.iv = 0, .lvl = 45, .species = SPECIES_DODRIO, .heldItem = ITEM_NONE, .moves = {MOVE_SURF, MOVE_BITE, MOVE_HARDEN, MOVE_NONE}},
+    {.iv = 0, .lvl = 45, .species = SPECIES_NIDORAN_M, .heldItem = ITEM_NONE, .moves = {MOVE_SHADOW_PUNCH, MOVE_NIGHT_SHADE, MOVE_WILL_O_WISP, MOVE_NONE}},
+    {.iv = 0, .lvl = 46, .species = SPECIES_DRAGONITE, .heldItem = ITEM_NONE, .moves = {MOVE_AERIAL_ACE, MOVE_QUICK_ATTACK, MOVE_FOCUS_ENERGY, MOVE_NONE}},
+};

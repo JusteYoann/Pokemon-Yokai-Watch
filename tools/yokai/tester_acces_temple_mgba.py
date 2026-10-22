@@ -26,6 +26,7 @@ def trophies(r, mask):
     # Provenance of the fourth scenario trophy, independent of old Erika badge04.
     r.call('FlagSet' if mask & (1 << 3) else 'FlagClear', 0x32F)
     r.call('FlagSet' if mask & (1 << 5) else 'FlagClear', 0x345)
+    r.call('FlagSet' if mask & (1 << 6) else 'FlagClear', 0x346)
     for i in range(8):
         r.call('FlagSet' if mask & (1 << i) else 'FlagClear', 0x820 + i)
 

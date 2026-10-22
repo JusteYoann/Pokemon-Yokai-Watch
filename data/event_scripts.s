@@ -1368,3 +1368,10 @@ Text_TestMsg::
 	.include "data/text/pokedude.inc"
 
 	.include "data/scripts/yokai_cameos_boss.inc"
+
+	.include "data/maps/CinnabarPast/scripts.inc"
+	.include "data/maps/CinnabarPast_Mansion/scripts.inc"
+	.include "data/maps/CinnabarPast_Gym/scripts.inc"
+	.include "data/maps/CinnabarPast_Lab/scripts.inc"
+	.include "data/maps/CinnabarPast_Center/scripts.inc"
+	.include "data/maps/CinnabarPast_Mart/scripts.inc"

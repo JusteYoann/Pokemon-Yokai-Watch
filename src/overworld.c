@@ -627,7 +627,13 @@ void SetWarpDestinationToLastHealLocation(void)
 
 static void Overworld_SetWhiteoutRespawnPoint(void)
 {
-    SetWhiteoutRespawnWarpAndHealerNpc(&sWarpDestination);
+    if (IsScenarioPastCinnabar())
+    {
+        SetWarpData(&sWarpDestination, MAP_GROUP(MAP_CINNABAR_PAST_CENTER), MAP_NUM(MAP_CINNABAR_PAST_CENTER), WARP_ID_NONE, 7, 4);
+        gSpecialVar_LastTalked = 1;
+    }
+    else
+        SetWhiteoutRespawnWarpAndHealerNpc(&sWarpDestination);
 }
 
 void SetLastHealLocationWarp(u8 healLocationId)
@@ -1254,6 +1260,8 @@ bool8 IsMapTypeOutdoors(u8 mapType)
 
 bool8 Overworld_MapTypeAllowsTeleportAndFly(u8 mapType)
 {
+    if (IsScenarioPastCinnabar())
+        return FALSE;
     if (mapType == MAP_TYPE_ROUTE
         || mapType == MAP_TYPE_TOWN
         || mapType == MAP_TYPE_OCEAN_ROUTE
@@ -1703,6 +1711,13 @@ static void FieldCB_ShowMapNameOnContinue(void)
     FieldCB_WarpExitFadeFromBlack();
 }
 
+bool8 IsScenarioPastCinnabar(void)
+{
+    return gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_CINNABAR_PAST)
+        && gSaveBlock1Ptr->location.mapNum >= MAP_NUM(MAP_CINNABAR_PAST)
+        && gSaveBlock1Ptr->location.mapNum <= MAP_NUM(MAP_CINNABAR_PAST_MART);
+}
+
 bool8 IsScenarioZombieNight(void)
 {
     return FlagGet(FLAG_SCENARIO_ZOMBIE_NIGHT_ACTIVE)
@@ -1780,6 +1795,12 @@ void CB2_ContinueSavedGame(void)
           || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROUTE25)
            && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE25)
            && !FlagGet(FLAG_SCENARIO_ROUTE25_CURRENT))
+          || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_CINNABAR_ISLAND_GYM)
+           && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_CINNABAR_ISLAND_GYM)
+           && !FlagGet(FLAG_SCENARIO_CINNABAR_GYM_CURRENT))
+          || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_POKEMON_MANSION_1F)
+           && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_POKEMON_MANSION_1F)
+           && !FlagGet(FLAG_SCENARIO_MANSION_CURRENT))
           || (IsScenarioZombieNight() && !FlagGet(FLAG_SCENARIO_LAVENDER_CURRENT))
           || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_LAVENDER_TOWN)
            && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_LAVENDER_TOWN)
@@ -1805,6 +1826,11 @@ void CB2_ContinueSavedGame(void)
             SetWarpDestination(MAP_GROUP(MAP_CERULEAN_CITY_GYM), MAP_NUM(MAP_CERULEAN_CITY_GYM), WARP_ID_NONE, 8, 17);
         else if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_VERMILION_CITY_GYM))
             SetWarpDestination(MAP_GROUP(MAP_VERMILION_CITY_GYM), MAP_NUM(MAP_VERMILION_CITY_GYM), WARP_ID_NONE, 5, 18);
+        else if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_CINNABAR_ISLAND_GYM))
+            SetWarpDestination(MAP_GROUP(MAP_CINNABAR_ISLAND_GYM), MAP_NUM(MAP_CINNABAR_ISLAND_GYM), WARP_ID_NONE, 7, 12);
+        else if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_POKEMON_MANSION_1F)
+              && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_POKEMON_MANSION_1F))
+            SetWarpDestination(MAP_GROUP(MAP_POKEMON_MANSION_1F), MAP_NUM(MAP_POKEMON_MANSION_1F), WARP_ID_NONE, 8, 32);
         else if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_POKEMON_TOWER_7F)
               && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_POKEMON_TOWER_7F))
             SetWarpDestination(MAP_GROUP(MAP_POKEMON_TOWER_7F), MAP_NUM(MAP_POKEMON_TOWER_7F), WARP_ID_NONE, 11, 15);

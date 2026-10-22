@@ -182,6 +182,7 @@ bool8 SetDiveWarpDive(u16 x, u16 y);
 
 #if REVISION >= 0xA
 void ClearFieldCallback(void);
+bool8 IsScenarioPastCinnabar(void);
 bool8 IsScenarioZombieNight(void);
 void UpdateScenarioZombieNight(void);
 
@@ -192,6 +193,7 @@ extern u16 *gBGTilemapBuffers2;
 extern u16 *gBGTilemapBuffers3;
 extern u16 gHeldKeyCodeToSend;
 
+bool8 IsScenarioPastCinnabar(void);
 bool8 IsScenarioZombieNight(void);
 void UpdateScenarioZombieNight(void);
 

@@ -81,6 +81,7 @@ IndigoPlateau_EventScript_CheckEightTrophies::
 	goto_if_unset FLAG_BADGE03_GET, EventScript_Return
 	goto_if_unset FLAG_SCENARIO_ARIANE_TROPHY, EventScript_Return
 	goto_if_unset FLAG_SCENARIO_ALYZON_TROPHY, EventScript_Return
+	goto_if_unset FLAG_SCENARIO_TIME_TROPHY, EventScript_Return
 	goto_if_unset FLAG_BADGE04_GET, EventScript_Return
 	goto_if_unset FLAG_BADGE05_GET, EventScript_Return
 	goto_if_unset FLAG_BADGE06_GET, EventScript_Return
