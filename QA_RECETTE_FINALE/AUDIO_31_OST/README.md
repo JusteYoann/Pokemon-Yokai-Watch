@@ -94,7 +94,7 @@ pas que les quêtes futures de Coach Antonic ou du scientifique sont terminées.
 | 9 | Blasters Hideout | Dojo de Safrania |
 | 10 | Yo-kai Watch Blasters! Theme | Maître Koichi du Dojo |
 | 11 | Bada-Bing Tower | Sylphe occupée |
-| 12 | Blossom Heights | Appels dédiés et usages conservés selon relevé |
+| 12 | Blossom Heights | Jadielle, Argenta et Souterrains |
 | 13 | Enma Villa | Réservé |
 | 14 | Mount Wildwood in the Past | Réservé |
 | 15 | Decisive Battle | Conseil 4 |

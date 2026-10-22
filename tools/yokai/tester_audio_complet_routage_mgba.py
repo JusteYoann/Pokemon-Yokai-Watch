@@ -57,6 +57,6 @@ finally:
  r.close()
  for name,data in [('AFFECTATIONS_BGM_EFFECTIVES.csv',rows),('AFFECTATIONS_CARTES_EFFECTIVES.csv',maps)]:
   if data:
-   with (P/name).open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=list(data[0]));w.writeheader();w.writerows(data)
+   with (P/name).open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=list(data[0]),lineterminator='\n');w.writeheader();w.writerows(data)
  (P/'ROUTAGE_MGBA.json').write_text(json.dumps(dict(passed=passed,error=error,rom_sha256=hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),active_tracks=sorted(active),bgm_checked=rows,compiled_maps=maps,native_unchanged_sfx_and_functional_jingles=unchanged,champion_post_victory_branch_checked=passed,battle_theme_selection=battle_themes,scope='104 native BGM playback calls, all 425 compiled map headers, all 273 SFX/fanfare header resolutions; fixtures after real new-game. This is not traversal of all maps or listening to each whole track.'),ensure_ascii=False,indent=2)+'\n')
 print('PASS all 104 BGM IDs, all 425 compiled map headers, 273 untouched effects/jingles and champion victory continuity')
