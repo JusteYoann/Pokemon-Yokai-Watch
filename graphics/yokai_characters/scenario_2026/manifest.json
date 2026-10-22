@@ -1,0 +1,202 @@
+{
+  "scope": "Sprites requis par le scénario fourni ; aucune nouvelle espèce ni logo. Les anciennes ressources approuvées sont réutilisées.",
+  "overworld_template": "graphics/object_events/pics/people/red_normal.png",
+  "native_frame": [
+    16,
+    32
+  ],
+  "visible_height_target": 19,
+  "order": [
+    "south_idle",
+    "north_idle",
+    "west_idle",
+    "south_step_left",
+    "south_step_right",
+    "north_step_left",
+    "north_step_right",
+    "west_step_left",
+    "west_step_right"
+  ],
+  "characters": [
+    {
+      "id": "berenice",
+      "name": "Bérénice Bélier",
+      "reference": "ref_berenice_belier_artwork.webp",
+      "overworld_frames": 9,
+      "battle_size": [
+        64,
+        64
+      ],
+      "status": "artwork_pending"
+    },
+    {
+      "id": "giraud",
+      "name": "Inspecteur Giraud",
+      "reference": "ref_inspecteur_giraud_artwork_yw1.webp",
+      "overworld_frames": 9,
+      "battle_size": [
+        64,
+        64
+      ],
+      "status": "artwork_pending"
+    },
+    {
+      "id": "alyzon",
+      "name": "Alyzon Bie",
+      "reference": "ref_alyzon_bie_artwork.webp",
+      "overworld_frames": 9,
+      "battle_size": [
+        64,
+        64
+      ],
+      "status": "artwork_pending"
+    },
+    {
+      "id": "enma_humain",
+      "name": "Enma humain",
+      "reference": "ref_enma_seigneur_forme_humaine.webp",
+      "overworld_frames": 9,
+      "battle_size": [
+        64,
+        64
+      ],
+      "status": "artwork_pending"
+    },
+    {
+      "id": "laure",
+      "name": "Laure",
+      "reference": "ref_laure_aurea_artwork.webp",
+      "overworld_frames": 9,
+      "battle_size": [
+        64,
+        64
+      ],
+      "status": "artwork_pending"
+    },
+    {
+      "id": "marge",
+      "name": "Marge",
+      "reference": "ref_marge_argenta_artwork.webp",
+      "overworld_frames": 9,
+      "battle_size": [
+        64,
+        64
+      ],
+      "status": "artwork_pending"
+    },
+    {
+      "id": "lady_perpetua",
+      "name": "Lady Perpetua",
+      "reference": "ref_lady_perpetua_artwork.webp",
+      "overworld_frames": 9,
+      "battle_size": [
+        64,
+        64
+      ],
+      "status": "artwork_pending"
+    },
+    {
+      "id": "mckraken",
+      "name": "McKraken",
+      "reference": "ref_mc_kraken_artwork.webp",
+      "overworld_frames": 9,
+      "battle_size": [
+        64,
+        64
+      ],
+      "status": "artwork_pending"
+    },
+    {
+      "id": "agent_x",
+      "name": "Agent X",
+      "reference": "ref_agent_x_artwork.webp",
+      "overworld_frames": 9,
+      "battle_size": [
+        64,
+        64
+      ],
+      "status": "artwork_pending"
+    },
+    {
+      "id": "zazel",
+      "name": "Zazel",
+      "reference": "ref_zazel_artwork.webp",
+      "overworld_frames": 9,
+      "battle_size": [
+        64,
+        64
+      ],
+      "status": "artwork_pending"
+    },
+    {
+      "id": "enma_ancien",
+      "name": "Enma l’Ancien",
+      "reference": "ref_enma_ancien_artwork.webp",
+      "overworld_frames": 9,
+      "battle_size": [
+        64,
+        64
+      ],
+      "status": "artwork_pending"
+    },
+    {
+      "id": "nathaniel_age",
+      "name": "Nathaniel âgé",
+      "reference": "ref_nathaniel_age_portrait.webp",
+      "overworld_frames": 9,
+      "battle_size": [
+        64,
+        64
+      ],
+      "status": "artwork_pending"
+    },
+    {
+      "id": "zombie",
+      "name": "Zombie",
+      "reference": "ref_zombie_modele.webp",
+      "overworld_frames": 9,
+      "battle_size": [
+        64,
+        64
+      ],
+      "status": "artwork_pending"
+    }
+  ],
+  "objects_and_bosses": [
+    {
+      "id": "soranaki_phase1",
+      "status": "pending"
+    },
+    {
+      "id": "soranaki_phase2",
+      "status": "pending"
+    },
+    {
+      "id": "bingo_kai",
+      "status": "pending"
+    },
+    {
+      "id": "triptic_tac",
+      "status": "pending"
+    }
+  ],
+  "reused": [
+    "nathan",
+    "katie",
+    "matt",
+    "wyatt",
+    "ariane",
+    "nathaniel",
+    "michael",
+    "don_morleone",
+    "mafiamille_1",
+    "mafiamille_2",
+    "mafiamille_3",
+    "enma",
+    "domniscian",
+    "employe_rouge",
+    "employe_bleu",
+    "static_yokai",
+    "enma_creature"
+  ]
+}
