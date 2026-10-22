@@ -100,8 +100,8 @@ def main():
                 remaining = 'Deux essais archives sous propositions/perpetua-mckraken ; dessin natif et portraits a produire, integration et tests non effectues'
             if actor in ('laure', 'marge', 'agent_x'):
                 reference = 'Reference fournie par le createur dans la conversation'
-                state = 'GRILLE_NATIVE_DIRECTE_DECLAREE_ET_TESTEE_MGBA'
-                remaining = 'Neuf matrices de 16x32 cases, sans conversion de dessin ; validation artistique a faire, portraits et placement scenaristique restent a produire'
+                state = 'VERSION_PRECEDENTE_RESTAUREE_ESSAI_GRILLE_REFUSE'
+                remaining = 'Essai natif refuse par le createur ; anciens PNG et palettes restaures, ne pas reexporter les grilles refusees ; portraits et evenements restent a produire'
             progress.append(dict(personnage=row['nom'], id=actor, ressources_necessaires=row['ressources_attendues'],
                                  ressources_existantes=row['fichiers_presents'], ressources_manquantes=row['fichiers_a_retrouver_ou_creer'],
                                  reference_visuelle=reference, etat=state, nouvelles_images_de_pas=6 if produced.exists() else 0,

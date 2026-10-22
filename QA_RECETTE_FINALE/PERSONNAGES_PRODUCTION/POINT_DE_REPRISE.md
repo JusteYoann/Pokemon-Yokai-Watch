@@ -35,3 +35,7 @@ Laure, Marge et Agent X disposent de PNG natifs neuf poses, déclarations moteur
 ## Changement demandé : dessin natif direct
 
 Les versions par conversion imagegen de Laure/Marge/Agent X sont remplacées par des matrices explicitement dessinées de 16x32 cases : chaque acteur possède source/overworld-grille.json. Export direct via exporter_grilles_personnages.py ; ancien convertisseur transformé en point d’entrée de compatibilité, sans lecture d’illustration. Tests des deux profils sous GRILLES_NATIVES_DIRECTES et GRILLES_NATIVES_DIRECTES_AUDIO. Aucun changement de Nathan/Katie/Ariane ni du gameplay. Ne plus reprendre les images générées pour recréer ces trois PNG : éditer leurs cases natives.
+
+## Correction : essai natif refusé
+
+Le créateur juge les derniers dessins natifs moins réussis. PNG, palettes et métadonnées actifs de Laure/Marge/Agent X restaurés depuis 78b1ccea4. Les matrices restent archivées avec status REJECTED_BY_CREATOR_NOT_ACTIVE ; l’exporteur bloque leur réactivation. Ne pas présenter ces dessins ni leurs tests comme une approbation artistique. L’ancien dessin rétabli est issu de conversion, pas d’une création native manuelle.

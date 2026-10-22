@@ -14,6 +14,8 @@ ACTORS=('laure','marge','agent_x')
 def export(actor):
  folder=ROOT/'graphics/yokai_characters'/actor
  path=folder/'source/overworld-grille.json';spec=json.loads(path.read_text())
+ if spec.get('status')=='REJECTED_BY_CREATOR_NOT_ACTIVE':
+  raise RuntimeError('Grille refusee par le createur : brouillon conserve, ne pas ecraser les sprites actifs.')
  palette_path=ROOT/spec['palette'];colors=json.loads(palette_path.read_text())['colors']
  assert len(colors)==16 and all(len(c)==3 and all(0<=v<=255 for v in c) for c in colors)
  assert (spec['frame_width'],spec['frame_height'])==(16,32) and len(spec['frames'])==9

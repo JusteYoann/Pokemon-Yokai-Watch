@@ -1,3 +1,5 @@
+> **ESSAI REFUSÉ PAR LE CRÉATEUR — HORS DES RESSOURCES ACTIVES.** Les PNG et palettes de 78b1ccea4 sont rétablis. Les tests ci-dessous décrivent uniquement cet essai historique, dont le rendu artistique a été refusé. L’exporteur bloque la réactivation de ces grilles. La version rétablie provenait de la méthode antérieure de conversion ; elle ne doit pas être présentée comme un dessin natif manuel.
+
 # Dessin direct dans une grille native
 
 ![Capture réelle mGBA](comparaison-annotee-x4.png)
