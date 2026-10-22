@@ -32,6 +32,12 @@ Champion. État : `existant_a_revoir`.
 
 ![Wyatt](planches/wyatt.png)
 
+## Inspecteur Giraud
+
+Demandé dans la mission de production ; affectation de Champion à clarifier sans changer les arènes. État : `a_preparer_ou_reutiliser`.
+
+Pas de dossier graphique dédié retrouvé sous cet identifiant. Vérifier les alias, références et possibilités de réutilisation avant de conclure à une ressource manquante.
+
 ## Nathaniel
 
 Ancêtre, version jeune du chapitre du passé. État : `existant_a_revoir`.
@@ -106,7 +112,7 @@ En pause : ne pas poursuivre son redesign maintenant. État : `en_pause`.
 
 ## Bérénice
 
-Scientifique, Bourg Palette et Portes Mystères. État : `a_preparer_ou_reutiliser`.
+Scientifique et casting demandé dans la nouvelle mission ; affectation d’arène à clarifier sans modifier le scénario. État : `a_preparer_ou_reutiliser`.
 
 Pas de dossier graphique dédié retrouvé sous cet identifiant. Vérifier les alias, références et possibilités de réutilisation avant de conclure à une ressource manquante.
 
@@ -245,6 +251,18 @@ Pas de dossier graphique dédié retrouvé sous cet identifiant. Vérifier les a
 ## Triptic-tac — acteur de scène
 
 Voyage dans le passé. État : `a_preparer_ou_reutiliser`.
+
+Pas de dossier graphique dédié retrouvé sous cet identifiant. Vérifier les alias, références et possibilités de réutilisation avant de conclure à une ressource manquante.
+
+## Hovernyan — acteur de scène
+
+Demandé dans la mission de production ; apparition à relever dans les scripts. État : `a_preparer_ou_reutiliser`.
+
+Pas de dossier graphique dédié retrouvé sous cet identifiant. Vérifier les alias, références et possibilités de réutilisation avant de conclure à une ressource manquante.
+
+## Usapyon — ressource de personnage
+
+Demandé dans la mission ; ne pas réintroduire automatiquement le décor retiré. État : `a_preparer_ou_reutiliser`.
 
 Pas de dossier graphique dédié retrouvé sous cet identifiant. Vérifier les alias, références et possibilités de réutilisation avant de conclure à une ressource manquante.
 

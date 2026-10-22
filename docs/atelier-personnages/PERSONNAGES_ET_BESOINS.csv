@@ -4,6 +4,7 @@ katie,Katie,Protagoniste et championne alternative,joueur,existant_a_revoir,norm
 matt,Matt,"Rival, trois apparitions de combat",rival,existant_a_revoir,overworld.png;battle_early.png;battle_late.png;battle_champion.png;intro.png;credits.png,,graphics/yokai_characters/matt/battle_champion.png;graphics/yokai_characters/matt/battle_early.png;graphics/yokai_characters/matt/battle_late.png;graphics/yokai_characters/matt/credits.png;graphics/yokai_characters/matt/intro.png;graphics/yokai_characters/matt/overworld.png
 ariane,Ariane,Championne,pnj,existant_a_revoir,overworld.png;battle.png,,graphics/yokai_characters/ariane/battle.png;graphics/yokai_characters/ariane/overworld.png;graphics/yokai_characters/ariane/usapion_overworld.png
 wyatt,Wyatt,Champion,pnj,existant_a_revoir,overworld.png;battle.png,,graphics/yokai_characters/wyatt/battle.png;graphics/yokai_characters/wyatt/overworld.png
+inspecteur_giraud,Inspecteur Giraud,Demandé dans la mission de production ; affectation de Champion à clarifier sans changer les arènes,pnj,a_preparer_ou_reutiliser,overworld.png;battle.png,overworld.png;battle.png,
 nathaniel,Nathaniel,"Ancêtre, version jeune du chapitre du passé",pnj,existant_a_revoir,overworld.png;battle.png,,graphics/yokai_characters/nathaniel/battle.png;graphics/yokai_characters/nathaniel/overworld.png
 michael,Michael,"Ancêtre, version jeune du chapitre du passé",pnj,existant_a_revoir,overworld.png;battle.png,,graphics/yokai_characters/michael/battle.png;graphics/yokai_characters/michael/overworld.png
 enma,Seigneur Enma,"Personnage narratif, distinct de la créature capturable",pnj,existant_a_revoir,overworld.png;battle.png,,graphics/yokai_characters/enma/battle.png;graphics/yokai_characters/enma/kyubi_overworld.png;graphics/yokai_characters/enma/overworld.png
@@ -16,7 +17,7 @@ mafiamille_3,Mafiamille 3,"Carte commune, combat distinct",pnj,existant_a_revoir
 employe_rouge,Employé rouge,"Même silhouette de carte que le bleu, palette distincte",pnj,existant_a_revoir,overworld.png;battle.png,,graphics/yokai_characters/employe_rouge/battle.png;graphics/yokai_characters/employe_rouge/overworld.png
 employe_bleu,Employé bleu,"Même silhouette de carte que le rouge, palette distincte",pnj,existant_a_revoir,overworld.png;battle.png,,graphics/yokai_characters/employe_bleu/battle.png;graphics/yokai_characters/employe_bleu/overworld.png
 dr_jobard,Dr Jobard,En pause : ne pas poursuivre son redesign maintenant,pause,en_pause,overworld.png,,graphics/yokai_characters/dr_jobard/overworld.png
-berenice,Bérénice,"Scientifique, Bourg Palette et Portes Mystères",carte,a_preparer_ou_reutiliser,overworld.png,overworld.png,
+berenice,Bérénice,Scientifique et casting demandé dans la nouvelle mission ; affectation d’arène à clarifier sans modifier le scénario,pnj,a_preparer_ou_reutiliser,overworld.png;battle.png,overworld.png;battle.png,
 steve_jaws,Steve Jaws,"Introduction, champion et Yopple",pnj,a_preparer_ou_reutiliser,overworld.png;battle.png,overworld.png;battle.png,
 mark_orckerberg,Mark Orckerberg,Allié de Yopple,carte,a_preparer_ou_reutiliser,overworld.png,overworld.png,
 whisper_majordome,Whisper — majordome,Champion de Parmanie,pnj,a_preparer_ou_reutiliser,overworld.png;battle.png,overworld.png;battle.png,
@@ -40,6 +41,8 @@ jibanyan_scene,Jibanyan — acteur de scène,Accompagnateur du Coach ; réutilis
 komasan_scene,Komasan — acteur de scène,Accompagnateur du Coach,creature,a_preparer_ou_reutiliser,overworld.png,overworld.png,
 whisper_scene,Whisper — acteur de scène,"Accompagnateur du Coach, distinct de la tenue majordome",creature,a_preparer_ou_reutiliser,overworld.png,overworld.png,
 triptic_tac_scene,Triptic-tac — acteur de scène,Voyage dans le passé,creature,a_preparer_ou_reutiliser,overworld.png,overworld.png,
+hovernyan_scene,Hovernyan — acteur de scène,Demandé dans la mission de production ; apparition à relever dans les scripts,creature,a_preparer_ou_reutiliser,overworld.png,overworld.png,
+usapyon_scene,Usapyon — ressource de personnage,Demandé dans la mission ; ne pas réintroduire automatiquement le décor retiré,creature,a_preparer_ou_reutiliser,overworld.png,overworld.png,
 oni_scene,Oni — acteurs de Terr’heure,"Espèces, variantes et animations de poursuite à relever avant production",creature,a_preparer_ou_reutiliser,overworld.png,overworld.png,
 misterre_scene,Misterre — rencontre statique,"Morphologie de créature, hors gabarit humain",creature,existant_a_revoir,overworld.png,,graphics/yokai_characters/static_yokai/misterre/overworld.png
 mademoaiselle_scene,Mademoaiselle — rencontre statique,Îles Écume ; morphologie de créature,creature,existant_a_revoir,overworld.png,,graphics/yokai_characters/static_yokai/mademoaiselle/overworld.png

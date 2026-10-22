@@ -1,0 +1,41 @@
+{
+  "actor": "don_morleone",
+  "source_sha256": "d9941961686a32e233ce1e3b9b5b611155ff063786178e611acfdbbccd81e106",
+  "idle_sha256": "e23b9995189c0757254eaf95bd9f4bf3a6364174aaed81376151221f1ebc8093",
+  "source_logical_grid": [
+    96,
+    64
+  ],
+  "zoom": 16,
+  "frame": [
+    16,
+    32
+  ],
+  "frames": 9,
+  "order": [
+    "idle south",
+    "idle north",
+    "idle west",
+    "south A",
+    "south B",
+    "north A",
+    "north B",
+    "west A",
+    "west B"
+  ],
+  "east": "Native horizontal flip, as in previous fixed sprite",
+  "original_idle_indices_preserved": true,
+  "original_head_and_torso_indices_preserved": true,
+  "original_palette_preserved": true,
+  "transparent_index": 0,
+  "exported_png_palette_matches_active_bank": "graphics/yokai_characters/don_morleone/overworld.pal",
+  "active_palette_sha256": "9b03c48fbea1511e0a4db2ee254cc6b7c16dc87429a6805a5e0e3ab3ec9c38c2",
+  "changed_step_pixels_by_pair": [
+    21,
+    24,
+    10
+  ],
+  "mean_source_cell_palette_purity": 0.9754163953993056,
+  "method": "Extract native cells from a zoom16 pixel-art sheet; preserve existing artwork.\n\nNo illustration resizing, painted pixels or generated faces: only native leg\ncells in rows26..31 are taken from the separately drawn walking source.\n",
+  "status": "Produced; emulator integration results recorded separately"
+}

@@ -1,0 +1,35 @@
+{
+  "reference_commit": "c182067ed",
+  "created_step_frames_by_actor": {
+    "ariane": 6,
+    "nathaniel": 6,
+    "michael": 6,
+    "don_morleone": 6,
+    "mafiamille_1": 6,
+    "mafiamille_2": 6,
+    "mafiamille_3": 6,
+    "employe_rouge": 6,
+    "employe_bleu": 6
+  },
+  "created_step_frames_total": 54,
+  "unique_drawing_sources": 6,
+  "unchanged_active_palettes": true,
+  "unchanged_combat_portraits": true,
+  "unchanged_map_and_story_scripts": true,
+  "unchanged_species_and_audio": true,
+  "mafiamille_map_art_identical": true,
+  "mafiamille_combat_art_distinct": true,
+  "builds": {
+    "pokefirered.gba": {
+      "bytes": 16777216,
+      "sha256": "7aa3a7e6097062fcc5092515de0211f353804c8b3c721ea56ea368e2f454c235"
+    },
+    "pokefirered_audio.gba": {
+      "bytes": 31589579,
+      "sha256": "ec78d59fd67601aad9245e3cefcfa2bc22de34bb919fca167da7c29b7848ba75"
+    }
+  },
+  "compiled_original_fixed_pose_bytes_preserved": true,
+  "additional_uncompressed_gba_graphics_bytes": 13824,
+  "public_mgba_tests": "MARCHE_PUBLIC/TEST_MGBA.json"
+}

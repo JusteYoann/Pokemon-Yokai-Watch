@@ -1,6 +1,6 @@
 # Atelier graphique — tous les personnages avant la suite du scénario
 
-La décision du créateur du 22 octobre 2026 donne maintenant la priorité à la préparation de toutes les ressources graphiques des personnages. Le Dr Jobard reste en pause. Le développement déjà présent est conservé ; aucune réécriture des événements, aucun remplacement automatique des sprites actifs dans cette étape.
+La décision du créateur du 22 octobre 2026 donne maintenant la priorité à la préparation de toutes les ressources graphiques des personnages. Le Dr Jobard reste en pause. L’inventaire initial est maintenant suivi d’une mission de production ET d’intégration sur art/personnages-production. Les ressources terminées sont intégrées et testées sans réécrire le scénario ; le développement déjà présent est conservé.
 
 ## Consulter les ressources
 
@@ -41,7 +41,7 @@ La première lecture de la planche avait sous-estimé les équipements de Nathan
 
 La référence de Juste Yoann a déjà été envoyée dans la conversation : il faut la retrouver dans les pièces disponibles avant de dessiner, sans lui inventer une apparence. Les formes spéciales de Soranaki, les variantes d’Oni et la composition visuelle du duo Laure/Marge demandent également une vérification de leurs références et besoins exacts avant dessin.
 
-## Vérification de ce premier lot
+## Vérification de l’inventaire initial
 
 Le script `tools/yokai/preparer_atelier_personnages.py` lit les PNG et produit cet inventaire ainsi que les planches. Résultats chiffrés dans [INVENTAIRE.json](INVENTAIRE.json). Il ne dessine pas de nouveaux personnages et ne modifie ni le moteur ni les ressources actives.
 
@@ -52,3 +52,7 @@ Reproduire les documents depuis la racine du dépôt :
 ```sh
 python3 tools/yokai/preparer_atelier_personnages.py
 ```
+
+## Production et intégration en cours
+
+Voir [le suivi de production](production/ETAT_PAR_PERSONNAGE.csv) et [les résultats avec captures mGBA](../../QA_RECETTE_FINALE/PERSONNAGES_PRODUCTION/README.md). Les phrases relatives à l’absence de modification des ressources actives décrivent uniquement le premier lot d’inventaire, pas la production suivante.

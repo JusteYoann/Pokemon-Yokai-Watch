@@ -1,0 +1,41 @@
+{
+  "actor": "mafiamille_1",
+  "source_sha256": "41f877f6586411e424eea81d3b091c05697a49701f6fa9d625c18670ab0e0d0d",
+  "idle_sha256": "f60f25c72311a5bd86f06d188b1a523819e0c2a3d0134e72e91ca3f93147ebd6",
+  "source_logical_grid": [
+    96,
+    64
+  ],
+  "zoom": 16,
+  "frame": [
+    16,
+    32
+  ],
+  "frames": 9,
+  "order": [
+    "idle south",
+    "idle north",
+    "idle west",
+    "south A",
+    "south B",
+    "north A",
+    "north B",
+    "west A",
+    "west B"
+  ],
+  "east": "Native horizontal flip, as in previous fixed sprite",
+  "original_idle_indices_preserved": true,
+  "original_head_and_torso_indices_preserved": true,
+  "original_palette_preserved": true,
+  "transparent_index": 0,
+  "exported_png_palette_matches_active_bank": "graphics/yokai_characters/don_morleone/overworld.pal",
+  "active_palette_sha256": "9b03c48fbea1511e0a4db2ee254cc6b7c16dc87429a6805a5e0e3ab3ec9c38c2",
+  "changed_step_pixels_by_pair": [
+    10,
+    1,
+    12
+  ],
+  "mean_source_cell_palette_purity": 0.9905192057291666,
+  "method": "Extract native cells from a zoom16 pixel-art sheet; preserve existing artwork.\n\nNo illustration resizing, painted pixels or generated faces: only native leg\ncells in rows26..31 are taken from the separately drawn walking source.\n",
+  "status": "Produced; emulator integration results recorded separately"
+}

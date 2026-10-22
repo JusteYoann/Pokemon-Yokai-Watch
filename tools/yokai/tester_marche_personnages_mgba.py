@@ -16,7 +16,7 @@ from mgba_new_game import new_game
 from mgba_rpc import ROOT
 from scenario_qa_helpers import warp
 
-OUT = ROOT/'QA_RECETTE_FINALE/PERSONNAGES_PRODUCTION/MARCHE'
+OUT = ROOT/os.environ.get('YOKAI_WALK_REPORT_DIR', 'QA_RECETTE_FINALE/PERSONNAGES_PRODUCTION/MARCHE')
 OUT.mkdir(parents=True, exist_ok=True)
 GROUPS = json.loads((ROOT/'data/maps/map_groups.json').read_text())
 MAPS = {name: (i, j) for i, group in enumerate(GROUPS['group_order']) for j, name in enumerate(GROUPS[group])}
@@ -27,6 +27,12 @@ ACTORS = [
     ('wyatt', 0, 'PewterCity_Gym', (4, 7), 'OBJ_EVENT_GFX_YOKAI_WYATT', 'YokaiWyatt', 'YokaiWyatt', 'TRAINER_LEADER_BROCK'),
     ('nathaniel', 0, 'FuchsiaCity', (25, 10), 'OBJ_EVENT_GFX_YOKAI_NATHANIEL', 'YokaiNathaniel', 'YokaiNathaniel', 'TRAINER_YOKAI_NATHANIEL'),
     ('michael', 1, 'FuchsiaCity', (25, 10), 'OBJ_EVENT_GFX_YOKAI_MICHAEL', 'YokaiMichael', 'YokaiMichael', 'TRAINER_YOKAI_MICHAEL'),
+    ('don_morleone', 0, 'FiveIsland_RocketWarehouse', (22, 24), 'OBJ_EVENT_GFX_YOKAI_DONMORLEONE', 'YokaiDonMorleone', 'YokaiDonMorleone', 'TRAINER_YOKAI_DONMORLEONE'),
+    ('mafiamille_1', 0, 'FiveIsland_RocketWarehouse', (22, 24), 'OBJ_EVENT_GFX_YOKAI_MAFIAMILLE1', 'YokaiMafiamille1', 'YokaiMafiamille1', 'TRAINER_YOKAI_MAFIAMILLE1'),
+    ('mafiamille_2', 0, 'FiveIsland_RocketWarehouse', (22, 24), 'OBJ_EVENT_GFX_YOKAI_MAFIAMILLE2', 'YokaiMafiamille2', 'YokaiMafiamille2', 'TRAINER_YOKAI_MAFIAMILLE2'),
+    ('mafiamille_3', 0, 'FiveIsland_RocketWarehouse', (22, 24), 'OBJ_EVENT_GFX_YOKAI_MAFIAMILLE3', 'YokaiMafiamille3', 'YokaiMafiamille3', 'TRAINER_YOKAI_MAFIAMILLE3'),
+    ('employe_rouge', 0, 'SilphCo_11F', (9, 17), 'OBJ_EVENT_GFX_YOKAI_EMPLOYEROUGE', 'YokaiEmployeRouge', 'YokaiEmployeRouge', 'TRAINER_YOKAI_EMPLOYEROUGE'),
+    ('employe_bleu', 0, 'SilphCo_11F', (9, 17), 'OBJ_EVENT_GFX_YOKAI_EMPLOYEBLEU', 'YokaiEmployeBleu', 'YokaiEmployeBleu', 'TRAINER_YOKAI_EMPLOYEBLEU'),
 ]
 
 
@@ -38,7 +44,7 @@ def number(name):
 
 def main():
     reports = []
-    selected = os.environ.get('YOKAI_WALK_ACTORS', 'ariane,wyatt,nathaniel,michael').split(',')
+    selected = os.environ.get('YOKAI_WALK_ACTORS', 'ariane,nathaniel,michael,don_morleone,mafiamille_1,mafiamille_2,mafiamille_3,employe_rouge,employe_bleu').split(',')
     for actor, gender, map_name, position, gfx, picture, table, trainer in ACTORS:
         if actor not in selected:
             continue
@@ -46,6 +52,8 @@ def main():
         try:
             r.call('CreateMon', r.symbols['gPlayerParty'], 1, 50, 31, 1, 100, 0, 0)
             r.write(r.symbols['gPlayerPartyCount'], b'\x01')
+            if map_name in ('FiveIsland_RocketWarehouse', 'SilphCo_11F'):
+                r.call('FlagSet', 0x82C)  # Actual existing postgame visibility condition.
             warp(r, *MAPS[map_name], *position)
             r.call('LockPlayerFieldControls')
             objects = [r.symbols['gObjectEvents']+36*i for i in range(16)]
@@ -56,6 +64,16 @@ def main():
             data = (ROOT/f'graphics/yokai_characters/{actor}/overworld.4bpp').read_bytes()
             assert len(data) == 2304
             assert r.read(r.symbols['gObjectEventPic_'+picture], len(data)) == data
+            png = Image.open(ROOT/f'graphics/yokai_characters/{actor}/overworld.png')
+            assert png.mode == 'P' and png.info.get('transparency') == 0
+            assert max(png.tobytes()) < 16
+            bank = int.from_bytes(r.read(sprite+4, 2), 'little')>>12
+            loaded_palette = r.read(r.symbols['gPlttBufferUnfaded']+512+32*bank, 32)
+            palette = png.getpalette()
+            for index in set(png.tobytes())-{0}:
+                red, green, blue = palette[3*index:3*index+3]
+                expected_color = (red>>3) | ((green>>3)<<5) | ((blue>>3)<<10)
+                assert int.from_bytes(loaded_palette[2*index:2*index+2], 'little') == expected_color, (actor, 'palette', index)
             frames = [data[i*256:(i+1)*256] for i in range(9)]
             image_table = r.symbols['sPicTable_'+table]
             assert r.u32(sprite+12) == image_table
@@ -111,6 +129,7 @@ def main():
             contact.save(OUT/f'{actor}-entree-combat.png')
             reports.append(dict(actor=actor, gender=gender, actual_map=map_name, linked_frames=9,
                                 directions=directions, native_trainer_intro=True, trainer_id=trainer_id,
+                                used_palette_indices_verified=True, transparent_index=0,
                                 complete_battle=False, passed=True))
             print('PASS', actor, flush=True)
         except BaseException:

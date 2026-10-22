@@ -61,6 +61,41 @@ def main():
                                 'One generic graphic can represent many named NPCs',
                                 'No identity or new gym assignment inferred automatically'])
     (OUT/'COUVERTURE.json').write_text(json.dumps(summary, ensure_ascii=False, indent=2)+'\n')
+    catalog = OUT.parent/'PERSONNAGES_ET_BESOINS.csv'
+    if catalog.exists():
+        tested_path = ROOT/'QA_RECETTE_FINALE/PERSONNAGES_PRODUCTION/MARCHE/TEST_MGBA.json'
+        tested = {t['actor'] for t in json.loads(tested_path.read_text()).get('tests', []) if t.get('passed')} if tested_path.exists() else set()
+        classic = {'ariane', 'wyatt', 'nathaniel', 'michael', 'enma', 'domniscian', 'don_morleone', 'mafiamille_1', 'mafiamille_2', 'mafiamille_3', 'employe_rouge', 'employe_bleu'}
+        progress = []
+        for row in csv.DictReader(catalog.open(encoding='utf-8')):
+            actor = row['id']
+            produced = ROOT/f'graphics/yokai_characters/{actor}/walk-production.json'
+            if actor in tested:
+                state = 'LOT_MARCHE_INTEGRE_ET_TESTE_MGBA'
+                remaining = 'Autres variantes/actions seulement si necessaires ; validation artistique globale non deduite des tests'
+            elif actor in ('nathan', 'katie'):
+                state = 'RESSOURCES_EXISTANTES_PRESERVEES_ET_ANIMATIONS_TESTEES_AVANT_LOT'
+                remaining = 'Relire les autres representations ; ne pas remplacer les series valides'
+            elif actor == 'dr_jobard':
+                state = 'EN_PAUSE_DECISION_CREATEUR'
+                remaining = 'Revenir sur la ressemblance plus tard'
+            elif row['fichiers_presents']:
+                state = 'FICHIERS_PRESENTS_A_VERIFIER_SELON_USAGE'
+                remaining = 'Verifier les ressources et leur activation ; ne pas deduire termine de leur presence'
+            else:
+                state = 'RESSOURCES_DEDIEES_A_PRODUIRE_OU_REUTILISATION_A_IDENTIFIER'
+                remaining = 'Retrouver reference et usage ; ne pas inventer une identite'
+            if actor == 'wyatt':
+                remaining = 'Marche supplementaire refusee par controle de grille ; dessin actif et portrait conserves'
+            if actor == 'coach_antonic':
+                remaining = 'Proposition refusee, non integree ; retouche native necessaire, pas de nouvel evenement'
+            reference = 'Protagoniste.rar (fourni par createur)' if actor in ('nathan', 'katie', 'matt') else 'Reference_CAMEOS_YOKAI_WATCH.rar (fourni par createur)' if actor in classic else 'Images de conversation du createur' if actor == 'dr_jobard' else 'Reference dediee a retrouver ou ressource existante a confirmer'
+            progress.append(dict(personnage=row['nom'], id=actor, ressources_necessaires=row['ressources_attendues'],
+                                 ressources_existantes=row['fichiers_presents'], ressources_manquantes=row['fichiers_a_retrouver_ou_creer'],
+                                 reference_visuelle=reference, etat=state, nouvelles_images_de_pas=6 if produced.exists() else 0,
+                                 portrait_personnel='Existant et entree en combat testee' if actor in tested else 'A verifier selon role',
+                                 reste=remaining))
+        csv_file(OUT/'ETAT_PAR_PERSONNAGE.csv', progress)
     print(json.dumps(summary, ensure_ascii=False))
 
 

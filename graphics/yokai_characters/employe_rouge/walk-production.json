@@ -1,0 +1,41 @@
+{
+  "actor": "employe_rouge",
+  "source_sha256": "482e332540f0f3894a5219cf4c2e7d588126739161f94a978264d354b10e16f4",
+  "idle_sha256": "a67a783b7cfcf47b9a0cb42dc8faedd199c38793a58104677a46846d381be0ec",
+  "source_logical_grid": [
+    96,
+    64
+  ],
+  "zoom": 16,
+  "frame": [
+    16,
+    32
+  ],
+  "frames": 9,
+  "order": [
+    "idle south",
+    "idle north",
+    "idle west",
+    "south A",
+    "south B",
+    "north A",
+    "north B",
+    "west A",
+    "west B"
+  ],
+  "east": "Native horizontal flip, as in previous fixed sprite",
+  "original_idle_indices_preserved": true,
+  "original_head_and_torso_indices_preserved": true,
+  "original_palette_preserved": true,
+  "transparent_index": 0,
+  "exported_png_palette_matches_active_bank": "graphics/yokai_characters/domniscian/overworld.pal",
+  "active_palette_sha256": "84ef9888b85cc7e76ab4b2e9e48456f0aec7420e3f72d78d36e328f6653a08dc",
+  "changed_step_pixels_by_pair": [
+    16,
+    19,
+    5
+  ],
+  "mean_source_cell_palette_purity": 0.9857855902777778,
+  "method": "Extract native cells from a zoom16 pixel-art sheet; preserve existing artwork.\n\nNo illustration resizing, painted pixels or generated faces: only native leg\ncells in rows26..31 are taken from the separately drawn walking source.\n",
+  "status": "Produced; emulator integration results recorded separately"
+}

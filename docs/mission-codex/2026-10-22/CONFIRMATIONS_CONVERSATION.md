@@ -23,3 +23,7 @@ Le pack est un cahier des charges, pas une preuve que le nouveau scénario est d
 - Après la dernière révision de Jobard, le créateur demande de revenir sur lui plus tard : son redesign est en pause, sans suppression des fichiers existants.
 - Préparer l’ensemble des ressources graphiques nécessaires, en commençant par tous les sprites des personnages, avant de poursuivre le codage du jeu.
 - L’atelier `docs/atelier-personnages/` recense les ressources et besoins de production. Il ne constitue pas une validation des dessins recensés et ne modifie pas les ressources actives.
+
+## Mission suivante : production et intégration de tous les personnages
+
+Le créateur précise que l’inventaire est un outil de suivi : produire réellement les ressources manquantes et intégrer celles dont l’usage est défini. Travailler sur une branche dédiée depuis la dernière branche de développement, sans modifier le scénario pour simplifier le dessin ni remplacer des sprites déjà valides. Aucun logo. Conserver Ariane à Carmin, ne pas la remplacer par Jobard. Bérénice, Inspecteur Giraud et Hovernyan sont explicitement inclus ; réconcilier les anciennes affectations des Champions avant toute modification d’arène. Ne pas présenter une proposition approximative ou une ressource non testée comme définitive.

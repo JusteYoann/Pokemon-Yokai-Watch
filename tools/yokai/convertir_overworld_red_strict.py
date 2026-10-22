@@ -90,6 +90,20 @@ for actor,relative in manifest.get('approved_overrides',{}).items():
  views=[v for v in views if v[0]!=actor];im=Image.open(target);width=32 if actor=='domniscian' else 16
  for i in range(3):views.append((actor,i,im.crop((i*width,0,(i+1)*width,32))))
  report.append(dict(actor=actor,final_approved_override=str(source.relative_to(R)),source_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),restored_byte_for_byte=True,source_commit=manifest['override_source_commit']))
+# Published native walking sources supersede the historical three-pose sheets.
+# Reapply them last, so this legacy generator cannot silently erase new gaits.
+from convertir_marche_personnages import convert as convert_walk, shared_variant
+walk_actors=[p.parent.name for p in sorted(D.glob('*/walk-production.json')) if (p.parent/'source/walk-native-grid.png').exists()]
+for actor in walk_actors:convert_walk(actor)
+variants=[]
+if 'mafiamille_1' in walk_actors:
+ for actor in ['mafiamille_2','mafiamille_3']:shared_variant(actor,'mafiamille_1');variants.append(actor)
+if 'employe_rouge' in walk_actors:
+ shared_variant('employe_bleu','employe_rouge',{4:10,5:10,6:2});variants.append('employe_bleu')
+for actor in walk_actors+variants:
+ views=[v for v in views if v[0]!=actor];im=Image.open(D/actor/'overworld.png')
+ for i in range(3):views.append((actor,i,im.crop((i*16,0,(i+1)*16,32))))
+if walk_actors:report.append(dict(final_native_walk_overlay=walk_actors+variants,frames_per_actor=9,source='source/walk-native-grid.png and archived native idle snapshots'))
 sheet=Image.new('RGB',(768,((len(views)+7)//8)*148),(224,224,224));draw=ImageDraw.Draw(sheet)
 for k,(actor,i,im) in enumerate(views):
  x=k%8*96;y=k//8*148;draw.text((x+2,y+2),actor[:14],fill='black');draw.text((x+2,y+14),str(i),fill='black');p=im.convert('RGBA').resize((im.width*3,96),Image.Resampling.NEAREST);sheet.paste(p,(x+(96-p.width)//2,y+36),p)

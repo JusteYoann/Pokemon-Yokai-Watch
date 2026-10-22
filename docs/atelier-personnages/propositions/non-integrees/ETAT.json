@@ -1,0 +1,18 @@
+{
+  "status": "PROPOSITIONS NON INTEGREES, pas des sprites termines",
+  "wyatt": {
+    "file": "wyatt-grille-refusee.png",
+    "mean_palette_cell_purity": 0.9261745876736112,
+    "acceptance_threshold": 0.95,
+    "reason": "Bords et couleurs pas assez constants sur la grille logique ; dernier essai de generation refuse par outil (HTTP400, output moderation), sans modification du sprite actif",
+    "native_overworld_unchanged": true
+  },
+  "coach_antonic": {
+    "file": "coach-antonic-grille-refusee.png",
+    "mean_palette_cell_purity": 0.8871883816189237,
+    "reason": "Grille et simplification natives insuffisamment fiables ; ne pas integrer comme dessin definitif",
+    "identity_reference": "graphics/yokai/099/front.png, ressource du projet conservee",
+    "engine_integration": false
+  },
+  "manual_method": "Ouvrir un document indexe natif 16x32 par pose dans Aseprite/LibreSprite. Dessiner directement les pixels, palette GBA16 couleurs et index0 transparent. Reutiliser les GIF natifs des personnages valides comme exemples de taille et mouvement. Exporter le PNG natif ; le projet peut le convertir directement en4bpp. Les images de proposition sont des references de travail, jamais des substituts a une retouche pixel par pixel."
+}
