@@ -1,0 +1,31 @@
+{
+  "native_png": "agent-x-64.png",
+  "dimensions": [
+    64,
+    64
+  ],
+  "mode": "P",
+  "png_bit_depth": 4,
+  "visible_colors": 12,
+  "palette_colors_used": 13,
+  "transparent_pixels": 2514,
+  "opaque_pixels": 1582,
+  "visible_bounds": [
+    7,
+    9,
+    57,
+    60
+  ],
+  "occupied_size": [
+    50,
+    51
+  ],
+  "all_source_cells_verified": true,
+  "commands_replayed_identically": true,
+  "illustration_resizing": false,
+  "sha256": "98c4c2cec88f6a5e61b586c8c25bef33ef554af5edc24d9ae8cbbfbffe8d2475",
+  "native_gba_4bpp_size": 2048,
+  "emulator_tested": false,
+  "integrated_in_game": false,
+  "source_workflow": "ModRetro Chromatic pixel-art skill: native cell authoring fallback after grid-generation tool error"
+}
