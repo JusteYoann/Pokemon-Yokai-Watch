@@ -1,0 +1,39 @@
+{
+  "actor": "michael",
+  "source_sha256": "a2601608ed7f8eaadc2174a975b85adf42e0c9e38473c978f2de212bd646e16d",
+  "idle_sha256": "a90a084f486cfe5b260b8e8a65d7fcdf9af00cdea1b0e284e8855ed89f74ab48",
+  "source_logical_grid": [
+    96,
+    64
+  ],
+  "zoom": 16,
+  "frame": [
+    16,
+    32
+  ],
+  "frames": 9,
+  "order": [
+    "idle south",
+    "idle north",
+    "idle west",
+    "south A",
+    "south B",
+    "north A",
+    "north B",
+    "west A",
+    "west B"
+  ],
+  "east": "Native horizontal flip, as in previous fixed sprite",
+  "original_idle_indices_preserved": true,
+  "original_head_and_torso_indices_preserved": true,
+  "original_palette_preserved": true,
+  "transparent_index": 0,
+  "changed_step_pixels_by_pair": [
+    20,
+    19,
+    15
+  ],
+  "mean_source_cell_palette_purity": 0.9913126627604166,
+  "method": "Extract native cells from a zoom16 pixel-art sheet; preserve existing artwork.\n\nNo illustration resizing, painted pixels or generated faces: only native leg\ncells in rows26..31 are taken from the separately drawn walking source.\n",
+  "status": "Produced; emulator integration results recorded separately"
+}

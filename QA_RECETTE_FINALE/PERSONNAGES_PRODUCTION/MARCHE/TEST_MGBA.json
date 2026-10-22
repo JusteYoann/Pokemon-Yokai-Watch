@@ -1,0 +1,212 @@
+{
+  "passed": true,
+  "scope": "Real map actors, native VRAM animation cycles and unchanged trainer intros.\n\nWalking is driven in place by the engine for reproducible rendering; this does\nnot claim new story movement scenes or a complete campaign playthrough.\n",
+  "rom_sha256": "b71fe03549e7c3c03cc905bf8fd515d801b05c6102d05a7b0a7f758a71fd6a78",
+  "rom_bytes": 31589579,
+  "tests": [
+    {
+      "actor": "ariane",
+      "gender": 0,
+      "actual_map": "VermilionCity_Gym",
+      "linked_frames": 9,
+      "directions": [
+        {
+          "direction": "sud",
+          "native_vram_frames": [
+            0,
+            3,
+            4
+          ],
+          "expected_frames": [
+            0,
+            3,
+            4
+          ],
+          "passed": true
+        },
+        {
+          "direction": "nord",
+          "native_vram_frames": [
+            1,
+            5,
+            6
+          ],
+          "expected_frames": [
+            1,
+            5,
+            6
+          ],
+          "passed": true
+        },
+        {
+          "direction": "ouest",
+          "native_vram_frames": [
+            2,
+            7,
+            8
+          ],
+          "expected_frames": [
+            2,
+            7,
+            8
+          ],
+          "passed": true
+        },
+        {
+          "direction": "est",
+          "native_vram_frames": [
+            2,
+            7,
+            8
+          ],
+          "expected_frames": [
+            2,
+            7,
+            8
+          ],
+          "passed": true
+        }
+      ],
+      "native_trainer_intro": true,
+      "trainer_id": 416,
+      "complete_battle": false,
+      "passed": true
+    },
+    {
+      "actor": "nathaniel",
+      "gender": 0,
+      "actual_map": "FuchsiaCity",
+      "linked_frames": 9,
+      "directions": [
+        {
+          "direction": "sud",
+          "native_vram_frames": [
+            0,
+            3,
+            4
+          ],
+          "expected_frames": [
+            0,
+            3,
+            4
+          ],
+          "passed": true
+        },
+        {
+          "direction": "nord",
+          "native_vram_frames": [
+            1,
+            5,
+            6
+          ],
+          "expected_frames": [
+            1,
+            5,
+            6
+          ],
+          "passed": true
+        },
+        {
+          "direction": "ouest",
+          "native_vram_frames": [
+            2,
+            7,
+            8
+          ],
+          "expected_frames": [
+            2,
+            7,
+            8
+          ],
+          "passed": true
+        },
+        {
+          "direction": "est",
+          "native_vram_frames": [
+            2,
+            7,
+            8
+          ],
+          "expected_frames": [
+            2,
+            7,
+            8
+          ],
+          "passed": true
+        }
+      ],
+      "native_trainer_intro": true,
+      "trainer_id": 8,
+      "complete_battle": false,
+      "passed": true
+    },
+    {
+      "actor": "michael",
+      "gender": 1,
+      "actual_map": "FuchsiaCity",
+      "linked_frames": 9,
+      "directions": [
+        {
+          "direction": "sud",
+          "native_vram_frames": [
+            0,
+            3,
+            4
+          ],
+          "expected_frames": [
+            0,
+            3,
+            4
+          ],
+          "passed": true
+        },
+        {
+          "direction": "nord",
+          "native_vram_frames": [
+            1,
+            5,
+            6
+          ],
+          "expected_frames": [
+            1,
+            5,
+            6
+          ],
+          "passed": true
+        },
+        {
+          "direction": "ouest",
+          "native_vram_frames": [
+            2,
+            7,
+            8
+          ],
+          "expected_frames": [
+            2,
+            7,
+            8
+          ],
+          "passed": true
+        },
+        {
+          "direction": "est",
+          "native_vram_frames": [
+            2,
+            7,
+            8
+          ],
+          "expected_frames": [
+            2,
+            7,
+            8
+          ],
+          "passed": true
+        }
+      ],
+      "native_trainer_intro": true,
+      "trainer_id": 10,
+      "complete_battle": false,
+      "passed": true
+    }
+  ]
+}

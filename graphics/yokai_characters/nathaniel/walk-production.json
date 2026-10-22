@@ -1,0 +1,39 @@
+{
+  "actor": "nathaniel",
+  "source_sha256": "6152bfd91c749baa11e5c10e4f0e07dd64a302d55aa15526a54af79960240956",
+  "idle_sha256": "5143fab408086985c831437e8e0bec454e2fb2ca395d44b515419feb26abe5a0",
+  "source_logical_grid": [
+    96,
+    64
+  ],
+  "zoom": 16,
+  "frame": [
+    16,
+    32
+  ],
+  "frames": 9,
+  "order": [
+    "idle south",
+    "idle north",
+    "idle west",
+    "south A",
+    "south B",
+    "north A",
+    "north B",
+    "west A",
+    "west B"
+  ],
+  "east": "Native horizontal flip, as in previous fixed sprite",
+  "original_idle_indices_preserved": true,
+  "original_head_and_torso_indices_preserved": true,
+  "original_palette_preserved": true,
+  "transparent_index": 0,
+  "changed_step_pixels_by_pair": [
+    30,
+    29,
+    27
+  ],
+  "mean_source_cell_palette_purity": 0.9794514973958334,
+  "method": "Extract native cells from a zoom16 pixel-art sheet; preserve existing artwork.\n\nNo illustration resizing, painted pixels or generated faces: only native leg\ncells in rows26..31 are taken from the separately drawn walking source.\n",
+  "status": "Produced; emulator integration results recorded separately"
+}

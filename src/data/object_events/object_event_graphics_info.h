@@ -2938,7 +2938,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ariane = {
     .tracks = TRACKS_FOOT,
     .oam = &gObjectEventBaseOam_16x32,
     .subspriteTables = gObjectEventSpriteOamTables_16x32,
-    .anims = sAnimTable_Ariane,
+    .anims = sAnimTable_Standard,
     .images = sPicTable_Ariane,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
@@ -3034,7 +3034,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiNathaniel = {
     .tracks = TRACKS_FOOT,
     .oam = &gObjectEventBaseOam_16x32,
     .subspriteTables = gObjectEventSpriteOamTables_16x32,
-    .anims = sAnimTable_Ariane,
+    .anims = sAnimTable_Standard,
     .images = sPicTable_YokaiNathaniel,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
@@ -3053,7 +3053,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiMichael = {
     .tracks = TRACKS_FOOT,
     .oam = &gObjectEventBaseOam_16x32,
     .subspriteTables = gObjectEventSpriteOamTables_16x32,
-    .anims = sAnimTable_Ariane,
+    .anims = sAnimTable_Standard,
     .images = sPicTable_YokaiMichael,
     .affineAnims = gDummySpriteAffineAnimTable,
 };

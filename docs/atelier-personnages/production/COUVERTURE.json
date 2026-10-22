@@ -1,0 +1,12 @@
+{
+  "map_actor_templates": 1678,
+  "graphics_ids_in_maps": 141,
+  "trainer_entries": 743,
+  "scripted_actor_references": 36,
+  "method": "All data/maps/*/map.json object_events; all trainer entries; scripted spawn/graphics references",
+  "limitations": [
+    "Map templates include creatures and objects, not only people",
+    "One generic graphic can represent many named NPCs",
+    "No identity or new gym assignment inferred automatically"
+  ]
+}

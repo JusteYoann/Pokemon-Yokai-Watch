@@ -37,7 +37,7 @@ Les sprites supplémentaires seront préparés comme propositions hors des chemi
 
 ## Premier constat visuel
 
-La planche de Nathan révèle pourquoi compter les fichiers ne suffit pas : les séries nommées vélo et pêche ne rendent pas clairement leurs accessoires dans leurs images actuelles. Leur contenu doit être revu, même si les fichiers existent et sont référencés. Les silhouettes de dos et les personnages de carte n’obéissent pas non plus aux mêmes proportions d’affichage. Cet atelier n’annonce donc pas que les sprites sont tous terminés ou conformes.
+La première lecture de la planche avait sous-estimé les équipements de Nathan. L’examen des fichiers agrandis confirme que les roues et les cannes existent bien chez Nathan et Katie : leur finesse ne justifie pas un remplacement systématique. Les essais mGBA de production contrôlent réellement marche, course, vélo, pêche dans quatre directions, actions et entrée en combat. Voir `QA_RECETTE_FINALE/PERSONNAGES_PRODUCTION/PROTAGONISTES_AVANT`.
 
 La référence de Juste Yoann a déjà été envoyée dans la conversation : il faut la retrouver dans les pièces disponibles avant de dessiner, sans lui inventer une apparence. Les formes spéciales de Soranaki, les variantes d’Oni et la composition visuelle du duo Laure/Marge demandent également une vérification de leurs références et besoins exacts avant dessin.
 
