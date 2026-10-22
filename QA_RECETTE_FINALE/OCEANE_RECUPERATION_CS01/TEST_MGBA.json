@@ -1,0 +1,132 @@
+{
+  "passed": true,
+  "scope": "Recover a missing legacy HM01 through native harbour interactions.\n\nEngineered legacy flags/inventory, not a supplied player save or full adventure.\nNo new HM before the captain's existing receipt flag; no new progression flags.\n",
+  "rom_sha256": "cc43fdc734a56ed99c82339b88da8588d74df03ff1b77cac64b50fe47db83b33",
+  "rom_size": 31589579,
+  "tests": [
+    {
+      "gender": 0,
+      "sevii": 0,
+      "test": "Legacy missing HM, actual sailor interaction, receipt and Flash reload",
+      "passed": true
+    },
+    {
+      "gender": 0,
+      "sevii": 1,
+      "test": "Legacy missing HM, actual sailor interaction, receipt and Flash reload",
+      "passed": true
+    },
+    {
+      "gender": 0,
+      "sevii": 5,
+      "test": "Legacy missing HM, actual sailor interaction, receipt and Flash reload",
+      "passed": true
+    },
+    {
+      "gender": 0,
+      "test": "Full key pocket rejection, free slot retry, repeated interaction and Flash Continue",
+      "passed": true
+    },
+    {
+      "gender": 0,
+      "test": "No reward when original captain receipt flag is absent",
+      "passed": true
+    },
+    {
+      "gender": 0,
+      "gate_x": 22,
+      "test": "Both boarding triggers repair old reward, native return up pier and no duplicate on repeat",
+      "passed": true
+    },
+    {
+      "gender": 0,
+      "gate_x": 23,
+      "test": "Both boarding triggers repair old reward, native return up pier and no duplicate on repeat",
+      "passed": true
+    },
+    {
+      "gender": 1,
+      "sevii": 0,
+      "test": "Legacy missing HM, actual sailor interaction, receipt and Flash reload",
+      "passed": true
+    },
+    {
+      "gender": 1,
+      "sevii": 1,
+      "test": "Legacy missing HM, actual sailor interaction, receipt and Flash reload",
+      "passed": true
+    },
+    {
+      "gender": 1,
+      "sevii": 5,
+      "test": "Legacy missing HM, actual sailor interaction, receipt and Flash reload",
+      "passed": true
+    },
+    {
+      "gender": 1,
+      "test": "Full key pocket rejection, free slot retry, repeated interaction and Flash Continue",
+      "passed": true
+    },
+    {
+      "gender": 1,
+      "test": "No reward when original captain receipt flag is absent",
+      "passed": true
+    },
+    {
+      "gender": 1,
+      "gate_x": 22,
+      "test": "Both boarding triggers repair old reward, native return up pier and no duplicate on repeat",
+      "passed": true
+    },
+    {
+      "gender": 1,
+      "gate_x": 23,
+      "test": "Both boarding triggers repair old reward, native return up pier and no duplicate on repeat",
+      "passed": true
+    }
+  ],
+  "text_widths": [
+    {
+      "label": "VermilionCity_Text_RecoveredCut",
+      "text": "Le marin remet à WWWWWWW",
+      "width": 138,
+      "passed": true
+    },
+    {
+      "label": "VermilionCity_Text_RecoveredCut",
+      "text": "la CS01 promise par le capitaine!",
+      "width": 185,
+      "passed": true
+    },
+    {
+      "label": "VermilionCity_Text_CutRecoveryNoRoom",
+      "text": "Le capitaine t'avait promis",
+      "width": 145,
+      "passed": true
+    },
+    {
+      "label": "VermilionCity_Text_CutRecoveryNoRoom",
+      "text": "la CS01, mais tu ne l'as pas reçue.",
+      "width": 195,
+      "passed": true
+    },
+    {
+      "label": "VermilionCity_Text_CutRecoveryNoRoom",
+      "text": "Ton sac ne peut pas la recevoir.",
+      "width": 181,
+      "passed": true
+    },
+    {
+      "label": "VermilionCity_Text_CutRecoveryNoRoom",
+      "text": "Fais de la place pour la Boîte CT,",
+      "width": 195,
+      "passed": true
+    },
+    {
+      "label": "VermilionCity_Text_CutRecoveryNoRoom",
+      "text": "puis reviens me parler.",
+      "width": 126,
+      "passed": true
+    }
+  ]
+}

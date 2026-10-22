@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "rom_sha256": "cc43fdc734a56ed99c82339b88da8588d74df03ff1b77cac64b50fe47db83b33",
+  "scope": "Repeat the six native captain reward/departure tests after the harbour recovery change; shared prior tester, output isolated from historical reports.",
+  "tests": [
+    {
+      "gender": "nathan",
+      "fixture": "normal",
+      "passed": true,
+      "actual_departure_cutscene": true,
+      "unique_reward": true,
+      "flash_continue": true
+    },
+    {
+      "gender": "nathan",
+      "fixture": "objets-rares-pleins",
+      "passed": true,
+      "actual_departure_cutscene": true,
+      "unique_reward": true,
+      "flash_continue": true
+    },
+    {
+      "gender": "nathan",
+      "fixture": "pile-cs-pleine",
+      "passed": true,
+      "actual_departure_cutscene": true,
+      "unique_reward": true,
+      "flash_continue": true
+    },
+    {
+      "gender": "katie",
+      "fixture": "normal",
+      "passed": true,
+      "actual_departure_cutscene": true,
+      "unique_reward": true,
+      "flash_continue": true
+    },
+    {
+      "gender": "katie",
+      "fixture": "objets-rares-pleins",
+      "passed": true,
+      "actual_departure_cutscene": true,
+      "unique_reward": true,
+      "flash_continue": true
+    },
+    {
+      "gender": "katie",
+      "fixture": "pile-cs-pleine",
+      "passed": true,
+      "actual_departure_cutscene": true,
+      "unique_reward": true,
+      "flash_continue": true
+    }
+  ]
+}

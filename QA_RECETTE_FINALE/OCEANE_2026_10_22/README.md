@@ -46,3 +46,7 @@ Pour reproduire le défaut historique, utiliser **la ROM et l’ELF de 292bd4fb0
 ## Reproduction depuis GitHub
 
 Le clone indépendant `/tmp/yokai-scenario-audit-clean-20261022`, déjà utilisé pour une compilation propre précédente, a été avancé depuis GitHub jusqu’au commit `8935f26b3`, puis recompilé avec ses propres objets. Les ROM publique et privée sont identiques octet par octet à celles de ce jalon. Aucune source ni aucun objet de compilation n’a été copié du dépôt de développement; le profil privé utilise les mêmes ressources audio externes. Détails dans `REPRODUCTIBILITE.json`.
+
+## Mise à jour : anciennes sauvegardes
+
+La limite de récupération rétroactive indiquée ci-dessus est traitée par le lot suivant : [récupération de la CS01 au port](../OCEANE_RECUPERATION_CS01/README.md). Le marin et les deux contrôles du quai restituent la récompense manquante aux sauvegardes dont le drapeau historique était déjà défini.

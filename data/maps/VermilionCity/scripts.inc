@@ -49,9 +49,41 @@ VermilionCity_EventScript_OldMan1SSAnneLeft::
 VermilionCity_EventScript_FerrySailor::
 	lock
 	faceplayer
+	call VermilionCity_EventScript_TryRecoverMissingCut
+	goto_if_eq VAR_RESULT, TRUE, VermilionCity_EventScript_CutRecoveryDone
 	goto_if_eq VAR_MAP_SCENE_VERMILION_CITY, 3, VermilionCity_EventScript_CheckSeagallopPresent
 	msgbox VermilionCity_Text_WelcomeToTheSSAnne
 	release
+	end
+
+@ Legacy saves could mark HM01 received even when additem failed.
+@ Restore only that missing existing reward; do not alter ferry/story flags.
+VermilionCity_EventScript_TryRecoverMissingCut::
+	goto_if_unset FLAG_GOT_HM01, VermilionCity_EventScript_NoCutRecovery
+	checkitem ITEM_HM01, 1
+	goto_if_eq VAR_RESULT, TRUE, VermilionCity_EventScript_NoCutRecovery
+	additem ITEM_HM01, 1
+	goto_if_eq VAR_RESULT, FALSE, VermilionCity_EventScript_CutRecoveryNoRoom
+	msgreceiveditem VermilionCity_Text_RecoveredCut, ITEM_HM01, 1, MUS_OBTAIN_KEY_ITEM
+	setvar VAR_RESULT, TRUE
+	return
+
+VermilionCity_EventScript_NoCutRecovery::
+	setvar VAR_RESULT, FALSE
+	return
+
+VermilionCity_EventScript_CutRecoveryNoRoom::
+	msgbox VermilionCity_Text_CutRecoveryNoRoom
+	setvar VAR_RESULT, TRUE
+	return
+
+VermilionCity_EventScript_CutRecoveryDone::
+	release
+	end
+
+VermilionCity_EventScript_CutRecoveryFromGate::
+	closemessage
+	goto VermilionCity_EventScript_WalkUpPier
 	end
 
 VermilionCity_EventScript_CheckHasMysticTicket::
@@ -192,6 +224,8 @@ VermilionCity_EventScript_CheckTicket::
 	applymovement LOCALID_VERMILION_FERRY_SAILOR, Common_Movement_WalkInPlaceFasterLeft
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
+	call VermilionCity_EventScript_TryRecoverMissingCut
+	goto_if_eq VAR_RESULT, TRUE, VermilionCity_EventScript_CutRecoveryFromGate
 	goto_if_eq VAR_MAP_SCENE_VERMILION_CITY, 3, VermilionCity_EventScript_CheckSeagallopPresentTrigger
 	msgbox VermilionCity_Text_DoYouHaveATicket
 	goto_if_unset FLAG_GOT_SS_TICKET, VermilionCity_EventScript_DontHaveSSTicket

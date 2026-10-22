@@ -76,3 +76,9 @@ VermilionCity_Text_Seagallop12Departing::
 VermilionCity_Text_Route2AideHasPackageForYou::
     .string "Bonjour, {PLAYER}!\nComment vas-tu?\pJe suis un assistant de Chen.\pAs-tu vu mon collègue?\pIl avait un paquet du Professeur\npour toi, {PLAYER}.\pIl comptait te chercher\nprès de la ROUTE 2, {PLAYER}.\pSi tu passes dans le coin,\nessaie de le retrouver.$"
 
+
+VermilionCity_Text_RecoveredCut::
+    .string "Le marin remet à {PLAYER}\nla CS01 promise par le capitaine!$"
+
+VermilionCity_Text_CutRecoveryNoRoom::
+    .string "Le capitaine t'avait promis\nla CS01, mais tu ne l'as pas reçue.\pTon sac ne peut pas la recevoir.\nFais de la place pour la Boîte CT,\lpuis reviens me parler.$"
