@@ -1,0 +1,89 @@
+{
+  "engine": "mGBA libretro",
+  "scope": "native-function fixtures with RAM trampoline; no full story/battle UI playthrough",
+  "rom_sha256": "a00527774542439e1ab0976a45421911c8b067d8bd11730de183c453581b3b3c",
+  "results": [
+    {
+      "test": "Noko evolution",
+      "friendship": 219,
+      "held_item": 197,
+      "result": 0,
+      "passed": true
+    },
+    {
+      "test": "Noko evolution",
+      "friendship": 220,
+      "held_item": 0,
+      "result": 0,
+      "passed": true
+    },
+    {
+      "test": "Noko evolution",
+      "friendship": 220,
+      "held_item": 197,
+      "result": 83,
+      "passed": true
+    },
+    {
+      "test": "Noko evolution",
+      "friendship": 255,
+      "held_item": 197,
+      "result": 83,
+      "passed": true
+    },
+    {
+      "test": "151 species shiny eligibility / 67 PID exclusions",
+      "eligible": 84,
+      "excluded": 67,
+      "forced_pids_tested": 152,
+      "nature_gender_preserved": true,
+      "passed": true
+    },
+    {
+      "test": "151 native initial movesets vs curated attack tables",
+      "species": 151,
+      "passed": true
+    },
+    {
+      "test": "Evolution move and exactly +2 levels, including delayed evolution",
+      "species": 4,
+      "evolution_level": 36,
+      "passed": true
+    },
+    {
+      "test": "Evolution move and exactly +2 levels, including delayed evolution",
+      "species": 14,
+      "evolution_level": 50,
+      "passed": true
+    },
+    {
+      "test": "Evolution move and exactly +2 levels, including delayed evolution",
+      "species": 19,
+      "evolution_level": 60,
+      "passed": true
+    },
+    {
+      "test": "Evolution move and exactly +2 levels, including delayed evolution",
+      "species": 44,
+      "evolution_level": 50,
+      "passed": true
+    },
+    {
+      "test": "Very late Shogunyan: immediate Slash and recoverable Meteor Mash",
+      "passed": true
+    },
+    {
+      "test": "Native Flash save/load restores party and Noko evolution requirements",
+      "save_status": 1,
+      "load_status": 1,
+      "passed": true
+    },
+    {
+      "test": "Native Flash persistence of evolution +2 marker and subsequent Zap Cannon",
+      "passed": true
+    }
+  ],
+  "full_adventure_tested": false,
+  "all_attack_animations_tested": false,
+  "exp_share_in_real_battle_tested": false
+}

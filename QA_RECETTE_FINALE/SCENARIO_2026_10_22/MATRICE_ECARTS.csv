@@ -1,0 +1,30 @@
+exigence,implementation_constatee,preuve_source,lacune_ou_action,priorite
+151 Yo-kai et tables validées,présent,src/data/pokemon/; data/yokai/; TEST_MOTEUR_PUBLIC.json,Obtention complète non parcourue,P1
+Trio Komasan/Padrézo/Kappacap,présent,data/maps/PalletTown_ProfessorOaksLab/scripts.inc,Test de progression complète restant,P1
+Évolutions Pierre Foudre / Pierre Eau,présent,src/data/pokemon/evolution.h,Ne pas modifier les tables conformes,P2
+Kyubi Mont Braise / Mademoaiselle Îles Écume,présent,data/maps/MtEmber_Summit/scripts.inc; data/maps/SeafoamIslands_B4F/scripts.inc,Confirmation prime sur pack inversé,P1
+Multi Exp. permanent,présent,src/battle_script_commands.c,Courbe 60–70 non mesurée sur partie complète,P1
+302 cadrages de combat,testé par fixtures,QA_RECETTE_FINALE/COMBATS_ETENDUS/,"Tests visuels ciblés, pas toutes situations de partie",P2
+84 shiny / 67 statuts exclus,testé par fixtures,TEST_MOTEUR_PUBLIC.json; data/yokai/shiny_artwork_policy.json,Conserver retrait des cinq dessins,P1
+26 OST existantes / ROM <=32Mio,présent et compilé,ETAT_INITIAL.json,Prévoir marge scénario et reproductibilité privée,P0
+"Matt fixe, joueur personnalisable",présent,src/new_game.c; src/oak_speech.c,Dialogues petit-fils à réécrire dans rôle validé,P1
+Intro Steve Jaws / monde visible,absent,data/text/new_game_intro.inc,Portrait Steve et répartition Bérénice/Steve à préciser,P1
+Argenta Wyatt Roche,absent comme Champion,data/maps/PewterCity_Gym/; src/data/trainers.h,Sprite Wyatt existant réutilisable; équipe actuelle conservée,P1
+Défaite Argenta sans débordement,défaut reproduit,DEFAITE_ARGENTA_AVANT.json,Texte trop long pour tampon 300 octets,P0
+Azuria héros opposé Feu,caméo seulement,data/yokai/cameo_protagonistes.json,Arène actuelle Ondine; branche et équipe à intégrer,P1
+Carmin Ariane Acier,caméo seulement,data/yokai/cameo_ariane.json,Arène actuelle Major Bob; équipe de Champion non validée,P1
+Safrania Steve / Yopple HQ,absent,data/maps/SaffronCity_Gym/; data/maps/SilphCo_*,Nouvelles ressources et séquence siège,P1
+Parmanie Whisper majordome Blasters,absent comme Champion,data/maps/FuchsiaCity_Gym/,Sprite de rôle et équipe requis,P1
+Lavanville Alyzon / Zombie Night,absent,data/maps/LavenderTown/,"Carte arène, contact, sortie/défaite et références à définir",P1
+Cramois passé Nathaniel/Michael,caméos seulement,data/yokai/cameos_aventure.json,Branche jeune/vieux; verrou Surf/Vol/Téléport/Fuite à coder,P1
+Jadielle Morleone,caméo postgame seulement,data/yokai/cameos_boss.json,"Nouveau rôle arène, préserver événement non concerné",P1
+Huit trophées sans neuvième arène,non intégré,include/constants/flags.h; scripts des huit arènes,Céladopole remplacée par Lavanville; ordre/flags à planifier,P0
+Enma civil Argenta / révélation,absent,data/yokai/cameo_enma.json,Actuel Seigneur Enma royal seulement; référence civile manquante,P1
+Zazel et Temple Céleste,absent,data/maps/PokemonLeague_*/,"Garde huit trophées, cartes et personnages requis",P0
+"Quatre adversaires Temple, Agent X unique",absent,data/maps/PokemonLeague_*/,Équipes/portraits non présents; ne pas dupliquer Agent X,P1
+Matt soin puis Morleone six / Soranaki,absent,data/maps/PokemonLeague_ChampionsRoom/scripts.inc,Définir mécaniques des six formes sans soin entre phases,P0
+Limbes / Sanctuaire / grand-père Enma,absent,data/maps/; data/yokai/,"Cartes, états et ressources nécessaires",P1
+Français complet et textes cohérents,partiel,data/text/new_game_intro.inc; data/text/fame_checker.inc,Anglais et ancien casting persistent,P1
+Sauvegardes compatibles,tests moteur ciblés,TEST_MOTEUR_PUBLIC.json,Migration/états des anciens badges à tester avant réaffectation,P0
+151 obtenables sur UNE sauvegarde,"couverture statique, non prouvé en partie",tools/yokai/verifier_obtentions.py,Traversée de chaque condition et blocage restant,P1
+Aucun logo / dix anciennes quêtes reportées,contrainte maintenue,docs/mission-codex/2026-10-22/00_DEMARRAGE/,Ne pas réintroduire contenus reportés,P2

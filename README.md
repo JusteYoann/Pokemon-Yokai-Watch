@@ -1,4 +1,4 @@
-> **État Pokémon × Yo-kai Watch — branche `dev/reconstruction-finalisation` : version de développement, pas v1.0 finale.** Treize OST sur quinze actives ; nouvelles rencontres statiques et Léo intégrés ;354animations exécutées dans1448cas mGBA. Les critères restants et la reconstruction publique/privée sont documentés dans [le rapport de finalisation](QA_RECETTE_FINALE/VERSION_1_DEVELOPPEMENT/README.md). Aucun fichier ROM ou audio privé n’est publié ici.
+> **État Pokémon × Yo-kai Watch — branche `dev/reconstruction-finalisation` : version de développement, pas v1.0 finale.** 26 OST configurées dans le profil privé ; cadrages de combat étendus pour les151Yo-kai et354scripts d’animations exécutés dans1448cas mGBA ([preuves](QA_RECETTE_FINALE/COMBATS_ETENDUS/README.md)). Le [nouveau scénario](QA_RECETTE_FINALE/SCENARIO_2026_10_22/ETAT_INITIAL.md) est audité et reste à intégrer par jalons. Le [rapport13/15OST](QA_RECETTE_FINALE/VERSION_1_DEVELOPPEMENT/README.md) décrit un ancien état. Aucune ROM ni ressource audio privée n’est publiée ici.
 
 # Pokémon FireRed and LeafGreen
 

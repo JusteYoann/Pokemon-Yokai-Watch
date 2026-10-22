@@ -1,0 +1,20 @@
+{
+  "branch": "dev/reconstruction-finalisation",
+  "commit": "6f143452a026a41c08f1db38f9809959809a31b6",
+  "working_changes": [
+    "?? QA_RECETTE_FINALE/SCENARIO_2026_10_22/",
+    "?? docs/mission-codex/"
+  ],
+  "species": 151,
+  "audio_configured_tracks": 26,
+  "roms": {
+    "pokefirered.gba": {
+      "bytes": 16777216,
+      "sha256": "a00527774542439e1ab0976a45421911c8b067d8bd11730de183c453581b3b3c"
+    },
+    "pokefirered_audio.gba": {
+      "bytes": 31589579,
+      "sha256": "6368e2c28cae2eeddf1d6439fcd279693fc67b8270d3f1b1bc5d75e3dd71c65c"
+    }
+  }
+}
