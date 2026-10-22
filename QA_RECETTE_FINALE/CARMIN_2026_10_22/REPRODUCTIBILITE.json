@@ -1,0 +1,20 @@
+{
+  "commit": "bda3177149d2700e4e3a0d03c923110b1ccdb4c9",
+  "method": "Independent GitHub clone fast-forwarded to published Carmin milestone; pinned compiler and same external private audio. No reference build objects copied.",
+  "results": [
+    {
+      "file": "pokefirered.gba",
+      "bytes": 16777216,
+      "reference_sha256": "6d7014601e853d7bf88426de9a6cda6d8c32185e1e3b1a9c6984513a592a4bd0",
+      "clone_sha256": "6d7014601e853d7bf88426de9a6cda6d8c32185e1e3b1a9c6984513a592a4bd0",
+      "identical": true
+    },
+    {
+      "file": "pokefirered_audio.gba",
+      "bytes": 31589579,
+      "reference_sha256": "ca833b1baa0de151421cc6129105db17d42eccfd3fa0f56cbad5683b95dc410b",
+      "clone_sha256": "ca833b1baa0de151421cc6129105db17d42eccfd3fa0f56cbad5683b95dc410b",
+      "identical": true
+    }
+  ]
+}

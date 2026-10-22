@@ -21,6 +21,7 @@ Les anciens tableaux Major Bob et Ariane/caméos restent verbatim dans les sourc
 
 ## Tests réellement effectués
 
+- Reconstructions depuis le clone GitHub indépendant strictement identiques dans les deux profils: `REPRODUCTIBILITE.json`.
 - Compilations publique et privée réussies. `BUILD.json`: privé31589579octets, environ30,13Mio, limite32Mio respectée. ROM et enregistrements privés non publiés.
 - `TEST_CHAPITRE_MGBA.json`: cinq contrôles natifs complets. Pour Nathan et Katie: entrée réelle par la porte de Carmin après téléportation de fixture, refus sans deuxième trophée, vraie erreur d'interrupteur puis résolution, passage, combat gagné avec statistiques ordinaires, troisième trophée, CT34/Pierre Lune différées selon la pile saturée, absence de doublon, Flash/Continuer, sortie et retour à la musique de la carte.
 - Défaite réelle avec un partenaire niveau1: aucun trophée, CT ou cadeau accordé. La nouvelle tentative reste possible.
