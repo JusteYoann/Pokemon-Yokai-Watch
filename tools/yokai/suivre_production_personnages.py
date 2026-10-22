@@ -100,8 +100,8 @@ def main():
                 remaining = 'Deux essais archives sous propositions/perpetua-mckraken ; dessin natif et portraits a produire, integration et tests non effectues'
             if actor in ('laure', 'marge', 'agent_x'):
                 reference = 'Reference fournie par le createur dans la conversation'
-                state = 'DECALQUE_NATIF_DECLARE_ET_TESTE_MGBA_SCENE_DE_TEST'
-                remaining = 'Neuf poses, corps/mains/pieds de Nathan ; contours de coiffure propres ; validation artistique a faire, portraits et placement scenaristique restent a produire'
+                state = 'GRILLE_NATIVE_DIRECTE_DECLAREE_ET_TESTEE_MGBA'
+                remaining = 'Neuf matrices de 16x32 cases, sans conversion de dessin ; validation artistique a faire, portraits et placement scenaristique restent a produire'
             progress.append(dict(personnage=row['nom'], id=actor, ressources_necessaires=row['ressources_attendues'],
                                  ressources_existantes=row['fichiers_presents'], ressources_manquantes=row['fichiers_a_retrouver_ou_creer'],
                                  reference_visuelle=reference, etat=state, nouvelles_images_de_pas=6 if produced.exists() else 0,

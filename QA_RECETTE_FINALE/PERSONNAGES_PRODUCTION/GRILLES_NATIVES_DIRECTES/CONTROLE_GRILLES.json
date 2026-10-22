@@ -1,0 +1,24 @@
+{
+  "method": "Each native pixel index copied from explicitly authored text rows; no imagegen drawing or illustration is input to the exporter.",
+  "checks": [
+    {
+      "actor": "laure",
+      "frames": 9,
+      "source_cells": 4608,
+      "all_png_indices_equal_authored_grid": true
+    },
+    {
+      "actor": "marge",
+      "frames": 9,
+      "source_cells": 4608,
+      "all_png_indices_equal_authored_grid": true
+    },
+    {
+      "actor": "agent_x",
+      "frames": 9,
+      "source_cells": 4608,
+      "all_png_indices_equal_authored_grid": true
+    }
+  ],
+  "existing_nathan_katie_ariane_unchanged": true
+}

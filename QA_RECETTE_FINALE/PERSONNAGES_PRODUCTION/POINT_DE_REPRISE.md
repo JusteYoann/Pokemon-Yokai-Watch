@@ -31,3 +31,7 @@ Ne publier aucune ROM ni ressource audio protégée. La branche dev et master n�
 ## Nouveau jalon : décalques Nathan
 
 Laure, Marge et Agent X disposent de PNG natifs neuf poses, déclarations moteur et tests mGBA des deux profils sous DECALQUES_NATHAN et DECALQUES_NATHAN_AUDIO. Corps/mains/pieds copiés des masques de Nathan ; coiffures propres. Source imagegen commune sous graphics/yokai_characters/nathan_trace/source, conversion reproductible avec tools/yokai/decalquer_personnages_nathan.py. Leur palette de groupe est volontairement partagée pour affichage simultané. Scène de comparaison temporaire Route 1 : aucun placement narratif ajouté. Portraits, événements du Temple et approbation artistique restent à faire. Ne pas utiliser les anciens aperçus par injection RAM comme preuve de ces nouveaux fichiers ; le nouveau test utilise leurs ressources réellement compilées. Perpétua/McKraken restent des propositions non intégrées.
+
+## Changement demandé : dessin natif direct
+
+Les versions par conversion imagegen de Laure/Marge/Agent X sont remplacées par des matrices explicitement dessinées de 16x32 cases : chaque acteur possède source/overworld-grille.json. Export direct via exporter_grilles_personnages.py ; ancien convertisseur transformé en point d’entrée de compatibilité, sans lecture d’illustration. Tests des deux profils sous GRILLES_NATIVES_DIRECTES et GRILLES_NATIVES_DIRECTES_AUDIO. Aucun changement de Nathan/Katie/Ariane ni du gameplay. Ne plus reprendre les images générées pour recréer ces trois PNG : éditer leurs cases natives.

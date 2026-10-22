@@ -1,0 +1,23 @@
+{
+  "builds": [
+    {
+      "file": "pokefirered.gba",
+      "bytes": 16777216,
+      "sha256": "6e66a85a570a362d7d106dfcb4d432b4a0693b6f9a09b4a8484d66f2d60e37e5"
+    },
+    {
+      "file": "pokefirered_audio.gba",
+      "bytes": 31589579,
+      "sha256": "79cd765dad557fe211372866be231fe469285b43bd14b30cbbf3570845669e62"
+    }
+  ],
+  "native_export_repeated_identically": true,
+  "outputs": {
+    "graphics/yokai_characters/laure/overworld.png": "280b37f71c881be67f660f6d2c4415801b725fb0a8360a8456442fa98b44662a",
+    "graphics/yokai_characters/laure/overworld.pal": "53a772583b512997cf7305be4737681c9b10272b80305c3ec3f5a4e4a891cdce",
+    "graphics/yokai_characters/marge/overworld.png": "0f77907a4fb3f1b9423d704569ac765447cc009c1a05f4dd7dd7c6ef33bcecc1",
+    "graphics/yokai_characters/marge/overworld.pal": "53a772583b512997cf7305be4737681c9b10272b80305c3ec3f5a4e4a891cdce",
+    "graphics/yokai_characters/agent_x/overworld.png": "8e7f7cd55a4199bf9193cde0e6484755070e32f807720afd986ad9ba78232b3f",
+    "graphics/yokai_characters/agent_x/overworld.pal": "53a772583b512997cf7305be4737681c9b10272b80305c3ec3f5a4e4a891cdce"
+  }
+}
