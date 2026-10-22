@@ -1,3 +1,20 @@
+// BEGIN SCENARIO DECLARATIONS
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioBerenice;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioGiraud;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioAlyzon;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioEnmaHumain;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioLaure;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioMarge;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioLadyPerpetua;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioMckraken;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioAgentX;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioZazel;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioEnmaAncien;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioNathanielAge;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioZombie;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioSoranakiPhase1;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioSoranakiPhase2;
+// END SCENARIO DECLARATIONS
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiLeoJibanyan;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiMisterre;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiOctorgone;
@@ -346,5 +363,22 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_YOKAI_DONMORLEONE] = &gObjectEventGraphicsInfo_YokaiDonMorleone,
     [OBJ_EVENT_GFX_YOKAI_MAFIAMILLE1] = &gObjectEventGraphicsInfo_YokaiMafiamille1,
     [OBJ_EVENT_GFX_YOKAI_MAFIAMILLE2] = &gObjectEventGraphicsInfo_YokaiMafiamille2,
+// BEGIN SCENARIO POINTERS
+    [OBJ_EVENT_GFX_SCENARIO_BERENICE] = &gObjectEventGraphicsInfo_ScenarioBerenice,
+    [OBJ_EVENT_GFX_SCENARIO_GIRAUD] = &gObjectEventGraphicsInfo_ScenarioGiraud,
+    [OBJ_EVENT_GFX_SCENARIO_ALYZON] = &gObjectEventGraphicsInfo_ScenarioAlyzon,
+    [OBJ_EVENT_GFX_SCENARIO_ENMA_HUMAIN] = &gObjectEventGraphicsInfo_ScenarioEnmaHumain,
+    [OBJ_EVENT_GFX_SCENARIO_LAURE] = &gObjectEventGraphicsInfo_ScenarioLaure,
+    [OBJ_EVENT_GFX_SCENARIO_MARGE] = &gObjectEventGraphicsInfo_ScenarioMarge,
+    [OBJ_EVENT_GFX_SCENARIO_LADY_PERPETUA] = &gObjectEventGraphicsInfo_ScenarioLadyPerpetua,
+    [OBJ_EVENT_GFX_SCENARIO_MCKRAKEN] = &gObjectEventGraphicsInfo_ScenarioMckraken,
+    [OBJ_EVENT_GFX_SCENARIO_AGENT_X] = &gObjectEventGraphicsInfo_ScenarioAgentX,
+    [OBJ_EVENT_GFX_SCENARIO_ZAZEL] = &gObjectEventGraphicsInfo_ScenarioZazel,
+    [OBJ_EVENT_GFX_SCENARIO_ENMA_ANCIEN] = &gObjectEventGraphicsInfo_ScenarioEnmaAncien,
+    [OBJ_EVENT_GFX_SCENARIO_NATHANIEL_AGE] = &gObjectEventGraphicsInfo_ScenarioNathanielAge,
+    [OBJ_EVENT_GFX_SCENARIO_ZOMBIE] = &gObjectEventGraphicsInfo_ScenarioZombie,
+    [OBJ_EVENT_GFX_SCENARIO_SORANAKI_PHASE1] = &gObjectEventGraphicsInfo_ScenarioSoranakiPhase1,
+    [OBJ_EVENT_GFX_SCENARIO_SORANAKI_PHASE2] = &gObjectEventGraphicsInfo_ScenarioSoranakiPhase2,
+// END SCENARIO POINTERS
     [OBJ_EVENT_GFX_YOKAI_MAFIAMILLE3] = &gObjectEventGraphicsInfo_YokaiMafiamille3,
 };

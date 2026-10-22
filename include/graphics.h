@@ -4575,3 +4575,36 @@ extern const u32 gDexScreen_TopMenuIconTiles_AtoZ[];
 
 extern const u32 gTrainerFrontPic_YokaiEnma[];
 extern const u32 gTrainerPalette_YokaiEnma[];
+
+// BEGIN SCENARIO TRAINER_EXTERNS
+extern const u32 gTrainerFrontPic_ScenarioBerenice[];
+extern const u32 gTrainerPalette_ScenarioBerenice[];
+extern const u32 gTrainerFrontPic_ScenarioGiraud[];
+extern const u32 gTrainerPalette_ScenarioGiraud[];
+extern const u32 gTrainerFrontPic_ScenarioAlyzon[];
+extern const u32 gTrainerPalette_ScenarioAlyzon[];
+extern const u32 gTrainerFrontPic_ScenarioEnmaHumain[];
+extern const u32 gTrainerPalette_ScenarioEnmaHumain[];
+extern const u32 gTrainerFrontPic_ScenarioLaure[];
+extern const u32 gTrainerPalette_ScenarioLaure[];
+extern const u32 gTrainerFrontPic_ScenarioMarge[];
+extern const u32 gTrainerPalette_ScenarioMarge[];
+extern const u32 gTrainerFrontPic_ScenarioLadyPerpetua[];
+extern const u32 gTrainerPalette_ScenarioLadyPerpetua[];
+extern const u32 gTrainerFrontPic_ScenarioMckraken[];
+extern const u32 gTrainerPalette_ScenarioMckraken[];
+extern const u32 gTrainerFrontPic_ScenarioAgentX[];
+extern const u32 gTrainerPalette_ScenarioAgentX[];
+extern const u32 gTrainerFrontPic_ScenarioZazel[];
+extern const u32 gTrainerPalette_ScenarioZazel[];
+extern const u32 gTrainerFrontPic_ScenarioEnmaAncien[];
+extern const u32 gTrainerPalette_ScenarioEnmaAncien[];
+extern const u32 gTrainerFrontPic_ScenarioNathanielAge[];
+extern const u32 gTrainerPalette_ScenarioNathanielAge[];
+extern const u32 gTrainerFrontPic_ScenarioZombie[];
+extern const u32 gTrainerPalette_ScenarioZombie[];
+extern const u32 gTrainerFrontPic_ScenarioSoranakiPhase1[];
+extern const u32 gTrainerPalette_ScenarioSoranakiPhase1[];
+extern const u32 gTrainerFrontPic_ScenarioSoranakiPhase2[];
+extern const u32 gTrainerPalette_ScenarioSoranakiPhase2[];
+// END SCENARIO TRAINER_EXTERNS

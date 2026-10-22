@@ -282,3 +282,23 @@ const u16 gObjectEventPic_YokaiMademoaiselle[] = INCBIN_U16("graphics/yokai_char
 
 const u16 gObjectEventPal_YokaiLeoJibanyan[] = INCBIN_U16("graphics/yokai_characters/leo_jibanyan/normal.gbapal");
 const u16 gObjectEventPic_YokaiLeoJibanyan[] = INCBIN_U16("graphics/yokai_characters/leo_jibanyan/overworld-display.4bpp");
+
+// BEGIN SCENARIO GRAPHICS
+const u16 gObjectEventPal_Scenario[] = INCBIN_U16("graphics/yokai_characters/berenice/overworld.gbapal");
+const u16 gObjectEventPic_ScenarioBerenice[] = INCBIN_U16("graphics/yokai_characters/berenice/overworld.4bpp");
+const u16 gObjectEventPic_ScenarioGiraud[] = INCBIN_U16("graphics/yokai_characters/giraud/overworld.4bpp");
+const u16 gObjectEventPic_ScenarioAlyzon[] = INCBIN_U16("graphics/yokai_characters/alyzon/overworld.4bpp");
+const u16 gObjectEventPic_ScenarioEnmaHumain[] = INCBIN_U16("graphics/yokai_characters/enma_humain/overworld.4bpp");
+const u16 gObjectEventPic_ScenarioLaure[] = INCBIN_U16("graphics/yokai_characters/laure/overworld.4bpp");
+const u16 gObjectEventPic_ScenarioMarge[] = INCBIN_U16("graphics/yokai_characters/marge/overworld.4bpp");
+const u16 gObjectEventPic_ScenarioLadyPerpetua[] = INCBIN_U16("graphics/yokai_characters/lady_perpetua/overworld.4bpp");
+const u16 gObjectEventPic_ScenarioMckraken[] = INCBIN_U16("graphics/yokai_characters/mckraken/overworld.4bpp");
+const u16 gObjectEventPic_ScenarioAgentX[] = INCBIN_U16("graphics/yokai_characters/agent_x/overworld.4bpp");
+const u16 gObjectEventPic_ScenarioZazel[] = INCBIN_U16("graphics/yokai_characters/zazel/overworld.4bpp");
+const u16 gObjectEventPic_ScenarioEnmaAncien[] = INCBIN_U16("graphics/yokai_characters/enma_ancien/overworld.4bpp");
+const u16 gObjectEventPic_ScenarioNathanielAge[] = INCBIN_U16("graphics/yokai_characters/nathaniel_age/overworld.4bpp");
+const u16 gObjectEventPic_ScenarioZombie[] = INCBIN_U16("graphics/yokai_characters/zombie/overworld.4bpp");
+const u16 gObjectEventPic_ScenarioSoranakiPhase1[] = INCBIN_U16("graphics/yokai_characters/soranaki_phase1/overworld.4bpp");
+const u16 gObjectEventPic_ScenarioSoranakiPhase2[] = INCBIN_U16("graphics/yokai_characters/soranaki_phase2/overworld.4bpp");
+
+// END SCENARIO GRAPHICS

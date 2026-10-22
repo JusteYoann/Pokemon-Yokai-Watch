@@ -490,3 +490,37 @@ const u32 gTrainerPalette_YokaiMafiamille2[] = INCBIN_U32("graphics/yokai_charac
 
 const u32 gTrainerFrontPic_YokaiMafiamille3[] = INCBIN_U32("graphics/yokai_characters/mafiamille_3/battle.4bpp.lz");
 const u32 gTrainerPalette_YokaiMafiamille3[] = INCBIN_U32("graphics/yokai_characters/mafiamille_3/normal.gbapal.lz");
+
+// BEGIN SCENARIO TRAINERS
+const u32 gTrainerFrontPic_ScenarioBerenice[] = INCBIN_U32("graphics/yokai_characters/berenice/battle.4bpp.lz");
+const u32 gTrainerPalette_ScenarioBerenice[] = INCBIN_U32("graphics/yokai_characters/berenice/normal.gbapal.lz");
+const u32 gTrainerFrontPic_ScenarioGiraud[] = INCBIN_U32("graphics/yokai_characters/giraud/battle.4bpp.lz");
+const u32 gTrainerPalette_ScenarioGiraud[] = INCBIN_U32("graphics/yokai_characters/giraud/normal.gbapal.lz");
+const u32 gTrainerFrontPic_ScenarioAlyzon[] = INCBIN_U32("graphics/yokai_characters/alyzon/battle.4bpp.lz");
+const u32 gTrainerPalette_ScenarioAlyzon[] = INCBIN_U32("graphics/yokai_characters/alyzon/normal.gbapal.lz");
+const u32 gTrainerFrontPic_ScenarioEnmaHumain[] = INCBIN_U32("graphics/yokai_characters/enma_humain/battle.4bpp.lz");
+const u32 gTrainerPalette_ScenarioEnmaHumain[] = INCBIN_U32("graphics/yokai_characters/enma_humain/normal.gbapal.lz");
+const u32 gTrainerFrontPic_ScenarioLaure[] = INCBIN_U32("graphics/yokai_characters/laure/battle.4bpp.lz");
+const u32 gTrainerPalette_ScenarioLaure[] = INCBIN_U32("graphics/yokai_characters/laure/normal.gbapal.lz");
+const u32 gTrainerFrontPic_ScenarioMarge[] = INCBIN_U32("graphics/yokai_characters/marge/battle.4bpp.lz");
+const u32 gTrainerPalette_ScenarioMarge[] = INCBIN_U32("graphics/yokai_characters/marge/normal.gbapal.lz");
+const u32 gTrainerFrontPic_ScenarioLadyPerpetua[] = INCBIN_U32("graphics/yokai_characters/lady_perpetua/battle.4bpp.lz");
+const u32 gTrainerPalette_ScenarioLadyPerpetua[] = INCBIN_U32("graphics/yokai_characters/lady_perpetua/normal.gbapal.lz");
+const u32 gTrainerFrontPic_ScenarioMckraken[] = INCBIN_U32("graphics/yokai_characters/mckraken/battle.4bpp.lz");
+const u32 gTrainerPalette_ScenarioMckraken[] = INCBIN_U32("graphics/yokai_characters/mckraken/normal.gbapal.lz");
+const u32 gTrainerFrontPic_ScenarioAgentX[] = INCBIN_U32("graphics/yokai_characters/agent_x/battle.4bpp.lz");
+const u32 gTrainerPalette_ScenarioAgentX[] = INCBIN_U32("graphics/yokai_characters/agent_x/normal.gbapal.lz");
+const u32 gTrainerFrontPic_ScenarioZazel[] = INCBIN_U32("graphics/yokai_characters/zazel/battle.4bpp.lz");
+const u32 gTrainerPalette_ScenarioZazel[] = INCBIN_U32("graphics/yokai_characters/zazel/normal.gbapal.lz");
+const u32 gTrainerFrontPic_ScenarioEnmaAncien[] = INCBIN_U32("graphics/yokai_characters/enma_ancien/battle.4bpp.lz");
+const u32 gTrainerPalette_ScenarioEnmaAncien[] = INCBIN_U32("graphics/yokai_characters/enma_ancien/normal.gbapal.lz");
+const u32 gTrainerFrontPic_ScenarioNathanielAge[] = INCBIN_U32("graphics/yokai_characters/nathaniel_age/battle.4bpp.lz");
+const u32 gTrainerPalette_ScenarioNathanielAge[] = INCBIN_U32("graphics/yokai_characters/nathaniel_age/normal.gbapal.lz");
+const u32 gTrainerFrontPic_ScenarioZombie[] = INCBIN_U32("graphics/yokai_characters/zombie/battle.4bpp.lz");
+const u32 gTrainerPalette_ScenarioZombie[] = INCBIN_U32("graphics/yokai_characters/zombie/normal.gbapal.lz");
+const u32 gTrainerFrontPic_ScenarioSoranakiPhase1[] = INCBIN_U32("graphics/yokai_characters/soranaki_phase1/battle.4bpp.lz");
+const u32 gTrainerPalette_ScenarioSoranakiPhase1[] = INCBIN_U32("graphics/yokai_characters/soranaki_phase1/normal.gbapal.lz");
+const u32 gTrainerFrontPic_ScenarioSoranakiPhase2[] = INCBIN_U32("graphics/yokai_characters/soranaki_phase2/battle.4bpp.lz");
+const u32 gTrainerPalette_ScenarioSoranakiPhase2[] = INCBIN_U32("graphics/yokai_characters/soranaki_phase2/normal.gbapal.lz");
+
+// END SCENARIO TRAINERS

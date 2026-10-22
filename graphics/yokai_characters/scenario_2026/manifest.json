@@ -27,7 +27,9 @@
         64,
         64
       ],
-      "status": "artwork_pending"
+      "status": "native_render_and_gait_tested_artistic_review_pending",
+      "graphics_id": 173,
+      "trainer_pic_id": 160
     },
     {
       "id": "giraud",
@@ -38,7 +40,9 @@
         64,
         64
       ],
-      "status": "artwork_pending"
+      "status": "native_render_and_gait_tested_artistic_review_pending",
+      "graphics_id": 174,
+      "trainer_pic_id": 161
     },
     {
       "id": "alyzon",
@@ -49,7 +53,9 @@
         64,
         64
       ],
-      "status": "artwork_pending"
+      "status": "native_render_and_gait_tested_artistic_review_pending",
+      "graphics_id": 175,
+      "trainer_pic_id": 162
     },
     {
       "id": "enma_humain",
@@ -60,7 +66,9 @@
         64,
         64
       ],
-      "status": "artwork_pending"
+      "status": "native_render_and_gait_tested_artistic_review_pending",
+      "graphics_id": 176,
+      "trainer_pic_id": 163
     },
     {
       "id": "laure",
@@ -71,7 +79,9 @@
         64,
         64
       ],
-      "status": "artwork_pending"
+      "status": "native_render_and_gait_tested_artistic_review_pending",
+      "graphics_id": 177,
+      "trainer_pic_id": 164
     },
     {
       "id": "marge",
@@ -82,7 +92,9 @@
         64,
         64
       ],
-      "status": "artwork_pending"
+      "status": "native_render_and_gait_tested_artistic_review_pending",
+      "graphics_id": 178,
+      "trainer_pic_id": 165
     },
     {
       "id": "lady_perpetua",
@@ -93,7 +105,9 @@
         64,
         64
       ],
-      "status": "artwork_pending"
+      "status": "native_render_and_gait_tested_artistic_review_pending",
+      "graphics_id": 179,
+      "trainer_pic_id": 166
     },
     {
       "id": "mckraken",
@@ -104,7 +118,9 @@
         64,
         64
       ],
-      "status": "artwork_pending"
+      "status": "native_render_and_gait_tested_artistic_review_pending",
+      "graphics_id": 180,
+      "trainer_pic_id": 167
     },
     {
       "id": "agent_x",
@@ -115,7 +131,9 @@
         64,
         64
       ],
-      "status": "artwork_pending"
+      "status": "native_render_and_gait_tested_artistic_review_pending",
+      "graphics_id": 181,
+      "trainer_pic_id": 168
     },
     {
       "id": "zazel",
@@ -126,7 +144,9 @@
         64,
         64
       ],
-      "status": "artwork_pending"
+      "status": "native_render_and_gait_tested_artistic_review_pending",
+      "graphics_id": 182,
+      "trainer_pic_id": 169
     },
     {
       "id": "enma_ancien",
@@ -137,7 +157,9 @@
         64,
         64
       ],
-      "status": "artwork_pending"
+      "status": "native_render_and_gait_tested_artistic_review_pending",
+      "graphics_id": 183,
+      "trainer_pic_id": 170
     },
     {
       "id": "nathaniel_age",
@@ -148,7 +170,9 @@
         64,
         64
       ],
-      "status": "artwork_pending"
+      "status": "native_render_and_gait_tested_artistic_review_pending",
+      "graphics_id": 184,
+      "trainer_pic_id": 171
     },
     {
       "id": "zombie",
@@ -159,7 +183,37 @@
         64,
         64
       ],
-      "status": "artwork_pending"
+      "status": "native_render_and_gait_tested_artistic_review_pending",
+      "graphics_id": 185,
+      "trainer_pic_id": 172
+    },
+    {
+      "id": "soranaki_phase1",
+      "name": "soranaki_phase1",
+      "reference": "ref_soranaki_phase1",
+      "overworld_frames": 9,
+      "battle_size": [
+        64,
+        64
+      ],
+      "role": "Boss graphic resource only, no species or trainer party added",
+      "status": "native_render_and_gait_tested_artistic_review_pending",
+      "graphics_id": 186,
+      "trainer_pic_id": 173
+    },
+    {
+      "id": "soranaki_phase2",
+      "name": "soranaki_phase2",
+      "reference": "ref_soranaki_phase2",
+      "overworld_frames": 9,
+      "battle_size": [
+        64,
+        64
+      ],
+      "role": "Boss graphic resource only, no species or trainer party added",
+      "status": "native_render_and_gait_tested_artistic_review_pending",
+      "graphics_id": 187,
+      "trainer_pic_id": 174
     }
   ],
   "objects_and_bosses": [

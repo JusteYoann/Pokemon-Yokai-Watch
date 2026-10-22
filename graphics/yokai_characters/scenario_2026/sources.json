@@ -1,0 +1,277 @@
+[
+  {
+    "source": "graphics/yokai_characters/scenario_2026/source/champions-enma.png",
+    "actors": [
+      "berenice",
+      "giraud",
+      "alyzon",
+      "enma_humain"
+    ],
+    "portrait_boxes": [
+      [
+        1280,
+        0,
+        1536,
+        249
+      ],
+      [
+        1280,
+        249,
+        1536,
+        495
+      ],
+      [
+        1280,
+        495,
+        1536,
+        768
+      ],
+      [
+        1280,
+        768,
+        1536,
+        1024
+      ]
+    ],
+    "map_limit": 1280
+  },
+  {
+    "source": "graphics/yokai_characters/scenario_2026/source/temple-antagonistes.png",
+    "actors": [
+      "laure",
+      "marge",
+      "lady_perpetua",
+      "mckraken"
+    ],
+    "portrait_boxes": [
+      [
+        1200,
+        0,
+        1536,
+        276
+      ],
+      [
+        1200,
+        276,
+        1536,
+        529
+      ],
+      [
+        1200,
+        529,
+        1536,
+        800
+      ],
+      [
+        1200,
+        800,
+        1536,
+        1024
+      ]
+    ],
+    "alternates": {
+      "laure": {
+        "source": "graphics/yokai_characters/scenario_2026/source/temple-antagonistes-corrige.png",
+        "frames": {
+          "5": 6,
+          "6": 7,
+          "8": 8
+        }
+      },
+      "marge": {
+        "source": "graphics/yokai_characters/scenario_2026/source/temple-antagonistes-corrige.png",
+        "frames": {
+          "5": 6,
+          "6": 7,
+          "8": 8
+        }
+      },
+      "lady_perpetua": {
+        "source": "graphics/yokai_characters/scenario_2026/source/temple-antagonistes-corrige.png",
+        "frames": {
+          "5": 6,
+          "6": 7,
+          "8": 8
+        }
+      },
+      "mckraken": {
+        "source": "graphics/yokai_characters/scenario_2026/source/temple-antagonistes-corrige.png",
+        "frames": {
+          "5": 6,
+          "6": 7,
+          "8": 8
+        }
+      }
+    },
+    "selections": {
+      "laure": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        8
+      ],
+      "marge": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        8
+      ],
+      "lady_perpetua": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        8
+      ],
+      "mckraken": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        8
+      ]
+    }
+  },
+  {
+    "source": "graphics/yokai_characters/scenario_2026/source/temple-divinites.png",
+    "actors": [
+      "agent_x",
+      "zazel",
+      "enma_ancien",
+      "nathaniel_age"
+    ],
+    "portrait_boxes": [
+      [
+        1200,
+        0,
+        1536,
+        254
+      ],
+      [
+        1200,
+        254,
+        1536,
+        539
+      ],
+      [
+        1200,
+        539,
+        1536,
+        813
+      ],
+      [
+        1200,
+        813,
+        1536,
+        1024
+      ]
+    ]
+  },
+  {
+    "source": "graphics/yokai_characters/scenario_2026/source/bosses-objets.png",
+    "actors": [
+      "zombie",
+      "soranaki_phase1",
+      "soranaki_phase2"
+    ],
+    "row_spans": [
+      [
+        0,
+        310
+      ],
+      [
+        310,
+        600
+      ],
+      [
+        600,
+        820
+      ]
+    ],
+    "portrait_boxes": [
+      [
+        1200,
+        0,
+        1536,
+        307
+      ],
+      [
+        1200,
+        307,
+        1536,
+        601
+      ],
+      [
+        1200,
+        601,
+        1536,
+        901
+      ]
+    ],
+    "selections": {
+      "zombie": [
+        0,
+        1,
+        2,
+        3,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "soranaki_phase1": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        1,
+        7,
+        8
+      ],
+      "soranaki_phase2": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        2,
+        8
+      ]
+    },
+    "flips": {
+      "zombie": [
+        4,
+        8
+      ],
+      "soranaki_phase1": [
+        8
+      ],
+      "soranaki_phase2": [
+        8
+      ]
+    }
+  }
+]

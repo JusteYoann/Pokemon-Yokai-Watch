@@ -1,0 +1,127 @@
+{
+  "passed": true,
+  "rom_sha256": "e02472f283f0f9ea0384a163bc4df85578f6a1d9ccfecc9907a35e848515ee72",
+  "scope": "Real intro, fixture warp, temporary map objects and trainer portrait viewer; four facings, animation cycles, palette and native Red bounding boxes. Not story placement, battle victory or artistic approval. All new map characters share one palette; pre-existing special NPC banks require scene palette planning.",
+  "results": [
+    {
+      "actor": "berenice",
+      "passed": true,
+      "facings": 4,
+      "native_gait_directions": 4,
+      "trainer_sprite_loaded": true,
+      "native_bounds_within_red": true
+    },
+    {
+      "actor": "giraud",
+      "passed": true,
+      "facings": 4,
+      "native_gait_directions": 4,
+      "trainer_sprite_loaded": true,
+      "native_bounds_within_red": true
+    },
+    {
+      "actor": "alyzon",
+      "passed": true,
+      "facings": 4,
+      "native_gait_directions": 4,
+      "trainer_sprite_loaded": true,
+      "native_bounds_within_red": true
+    },
+    {
+      "actor": "enma_humain",
+      "passed": true,
+      "facings": 4,
+      "native_gait_directions": 4,
+      "trainer_sprite_loaded": true,
+      "native_bounds_within_red": true
+    },
+    {
+      "actor": "laure",
+      "passed": true,
+      "facings": 4,
+      "native_gait_directions": 4,
+      "trainer_sprite_loaded": true,
+      "native_bounds_within_red": true
+    },
+    {
+      "actor": "marge",
+      "passed": true,
+      "facings": 4,
+      "native_gait_directions": 4,
+      "trainer_sprite_loaded": true,
+      "native_bounds_within_red": true
+    },
+    {
+      "actor": "lady_perpetua",
+      "passed": true,
+      "facings": 4,
+      "native_gait_directions": 4,
+      "trainer_sprite_loaded": true,
+      "native_bounds_within_red": true
+    },
+    {
+      "actor": "mckraken",
+      "passed": true,
+      "facings": 4,
+      "native_gait_directions": 4,
+      "trainer_sprite_loaded": true,
+      "native_bounds_within_red": true
+    },
+    {
+      "actor": "agent_x",
+      "passed": true,
+      "facings": 4,
+      "native_gait_directions": 4,
+      "trainer_sprite_loaded": true,
+      "native_bounds_within_red": true
+    },
+    {
+      "actor": "zazel",
+      "passed": true,
+      "facings": 4,
+      "native_gait_directions": 4,
+      "trainer_sprite_loaded": true,
+      "native_bounds_within_red": true
+    },
+    {
+      "actor": "enma_ancien",
+      "passed": true,
+      "facings": 4,
+      "native_gait_directions": 4,
+      "trainer_sprite_loaded": true,
+      "native_bounds_within_red": true
+    },
+    {
+      "actor": "nathaniel_age",
+      "passed": true,
+      "facings": 4,
+      "native_gait_directions": 4,
+      "trainer_sprite_loaded": true,
+      "native_bounds_within_red": true
+    },
+    {
+      "actor": "zombie",
+      "passed": true,
+      "facings": 4,
+      "native_gait_directions": 4,
+      "trainer_sprite_loaded": true,
+      "native_bounds_within_red": true
+    },
+    {
+      "actor": "soranaki_phase1",
+      "passed": true,
+      "facings": 4,
+      "native_gait_directions": 4,
+      "trainer_sprite_loaded": true,
+      "native_bounds_within_red": true
+    },
+    {
+      "actor": "soranaki_phase2",
+      "passed": true,
+      "facings": 4,
+      "native_gait_directions": 4,
+      "trainer_sprite_loaded": true,
+      "native_bounds_within_red": true
+    }
+  ]
+}

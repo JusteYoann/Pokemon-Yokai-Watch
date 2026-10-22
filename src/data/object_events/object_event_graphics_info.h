@@ -3262,3 +3262,157 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiLeoJibanyan =
     .anims = sAnimTable_Standard, .images = sPicTable_YokaiLeoJibanyan,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
+
+// BEGIN SCENARIO INFO
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioBerenice = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_SCENARIO,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256, .width = 16, .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32, .subspriteTables = gObjectEventSpriteOamTables_16x32,
+    .anims = sAnimTable_Standard, .images = sPicTable_ScenarioBerenice,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioGiraud = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_SCENARIO,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256, .width = 16, .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32, .subspriteTables = gObjectEventSpriteOamTables_16x32,
+    .anims = sAnimTable_Standard, .images = sPicTable_ScenarioGiraud,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioAlyzon = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_SCENARIO,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256, .width = 16, .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32, .subspriteTables = gObjectEventSpriteOamTables_16x32,
+    .anims = sAnimTable_Standard, .images = sPicTable_ScenarioAlyzon,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioEnmaHumain = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_SCENARIO,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256, .width = 16, .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32, .subspriteTables = gObjectEventSpriteOamTables_16x32,
+    .anims = sAnimTable_Standard, .images = sPicTable_ScenarioEnmaHumain,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioLaure = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_SCENARIO,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256, .width = 16, .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32, .subspriteTables = gObjectEventSpriteOamTables_16x32,
+    .anims = sAnimTable_Standard, .images = sPicTable_ScenarioLaure,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioMarge = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_SCENARIO,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256, .width = 16, .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32, .subspriteTables = gObjectEventSpriteOamTables_16x32,
+    .anims = sAnimTable_Standard, .images = sPicTable_ScenarioMarge,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioLadyPerpetua = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_SCENARIO,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256, .width = 16, .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32, .subspriteTables = gObjectEventSpriteOamTables_16x32,
+    .anims = sAnimTable_Standard, .images = sPicTable_ScenarioLadyPerpetua,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioMckraken = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_SCENARIO,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256, .width = 16, .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32, .subspriteTables = gObjectEventSpriteOamTables_16x32,
+    .anims = sAnimTable_Standard, .images = sPicTable_ScenarioMckraken,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioAgentX = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_SCENARIO,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256, .width = 16, .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32, .subspriteTables = gObjectEventSpriteOamTables_16x32,
+    .anims = sAnimTable_Standard, .images = sPicTable_ScenarioAgentX,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioZazel = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_SCENARIO,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256, .width = 16, .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32, .subspriteTables = gObjectEventSpriteOamTables_16x32,
+    .anims = sAnimTable_Standard, .images = sPicTable_ScenarioZazel,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioEnmaAncien = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_SCENARIO,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256, .width = 16, .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32, .subspriteTables = gObjectEventSpriteOamTables_16x32,
+    .anims = sAnimTable_Standard, .images = sPicTable_ScenarioEnmaAncien,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioNathanielAge = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_SCENARIO,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256, .width = 16, .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32, .subspriteTables = gObjectEventSpriteOamTables_16x32,
+    .anims = sAnimTable_Standard, .images = sPicTable_ScenarioNathanielAge,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioZombie = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_SCENARIO,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256, .width = 16, .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32, .subspriteTables = gObjectEventSpriteOamTables_16x32,
+    .anims = sAnimTable_Standard, .images = sPicTable_ScenarioZombie,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioSoranakiPhase1 = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_SCENARIO,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256, .width = 16, .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32, .subspriteTables = gObjectEventSpriteOamTables_16x32,
+    .anims = sAnimTable_Standard, .images = sPicTable_ScenarioSoranakiPhase1,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScenarioSoranakiPhase2 = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_SCENARIO,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256, .width = 16, .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32, .subspriteTables = gObjectEventSpriteOamTables_16x32,
+    .anims = sAnimTable_Standard, .images = sPicTable_ScenarioSoranakiPhase2,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+// END SCENARIO INFO

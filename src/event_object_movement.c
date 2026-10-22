@@ -470,6 +470,9 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 #define OBJ_EVENT_PAL_TAG_RS_SUBMARINE_SHADOW         0x111B
 #define OBJ_EVENT_PAL_TAG_YOKAI_NATHANIEL 0x1121
 #define OBJ_EVENT_PAL_TAG_YOKAI_MICHAEL 0x1122
+// BEGIN SCENARIO PALETTE_TAG
+#define OBJ_EVENT_PAL_TAG_SCENARIO 0x1140
+// END SCENARIO PALETTE_TAG
 #define OBJ_EVENT_PAL_TAG_YOKAI_WYATT 0x1123
 #define OBJ_EVENT_PAL_TAG_YOKAI_DOMNISCIAN_GROUP 0x1124
 #define OBJ_EVENT_PAL_TAG_YOKAI_MORLEONE_GROUP 0x1125
@@ -497,6 +500,9 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_Player, OBJ_EVENT_PAL_TAG_YOKAI_FRIEND},
     {gObjectEventPal_YokaiNathaniel, OBJ_EVENT_PAL_TAG_YOKAI_NATHANIEL},
     {gObjectEventPal_YokaiMichael, OBJ_EVENT_PAL_TAG_YOKAI_MICHAEL},
+// BEGIN SCENARIO PALETTE_ENTRY
+    {gObjectEventPal_Scenario, OBJ_EVENT_PAL_TAG_SCENARIO},
+// END SCENARIO PALETTE_ENTRY
     {gObjectEventPal_YokaiWyatt, OBJ_EVENT_PAL_TAG_YOKAI_WYATT},
     {gObjectEventPal_YokaiDomniscianGroup, OBJ_EVENT_PAL_TAG_YOKAI_DOMNISCIAN_GROUP},
     {gObjectEventPal_YokaiDonMorleoneGroup, OBJ_EVENT_PAL_TAG_YOKAI_MORLEONE_GROUP},
@@ -536,6 +542,9 @@ static const u16 sYokaiNathanielReflectionPaletteTags[] = {OBJ_EVENT_PAL_TAG_YOK
 
 static const u16 sYokaiMichaelReflectionPaletteTags[] = {OBJ_EVENT_PAL_TAG_YOKAI_MICHAEL, OBJ_EVENT_PAL_TAG_YOKAI_MICHAEL, OBJ_EVENT_PAL_TAG_YOKAI_MICHAEL, OBJ_EVENT_PAL_TAG_YOKAI_MICHAEL};
 
+// BEGIN SCENARIO REFLECTION_TAGS
+static const u16 sScenarioReflectionPaletteTags[] = {OBJ_EVENT_PAL_TAG_SCENARIO, OBJ_EVENT_PAL_TAG_SCENARIO, OBJ_EVENT_PAL_TAG_SCENARIO, OBJ_EVENT_PAL_TAG_SCENARIO};
+// END SCENARIO REFLECTION_TAGS
 static const u16 sYokaiWyattReflectionPaletteTags[] = {OBJ_EVENT_PAL_TAG_YOKAI_WYATT, OBJ_EVENT_PAL_TAG_YOKAI_WYATT, OBJ_EVENT_PAL_TAG_YOKAI_WYATT, OBJ_EVENT_PAL_TAG_YOKAI_WYATT};
 
 static const u16 sYokaiDomniscianGroupReflectionPaletteTags[] = {OBJ_EVENT_PAL_TAG_YOKAI_DOMNISCIAN_GROUP, OBJ_EVENT_PAL_TAG_YOKAI_DOMNISCIAN_GROUP, OBJ_EVENT_PAL_TAG_YOKAI_DOMNISCIAN_GROUP, OBJ_EVENT_PAL_TAG_YOKAI_DOMNISCIAN_GROUP};
@@ -667,6 +676,9 @@ static const struct PairedPalettes gSpecialObjectReflectionPaletteSets[] = {
     {OBJ_EVENT_PAL_TAG_ARIANE,              sArianeReflectionPaletteTags},
     {OBJ_EVENT_PAL_TAG_YOKAI_NATHANIEL, sYokaiNathanielReflectionPaletteTags},
     {OBJ_EVENT_PAL_TAG_YOKAI_MICHAEL, sYokaiMichaelReflectionPaletteTags},
+// BEGIN SCENARIO REFLECTION_ENTRY
+    {OBJ_EVENT_PAL_TAG_SCENARIO, sScenarioReflectionPaletteTags},
+// END SCENARIO REFLECTION_ENTRY
     {OBJ_EVENT_PAL_TAG_YOKAI_WYATT, sYokaiWyattReflectionPaletteTags},
     {OBJ_EVENT_PAL_TAG_YOKAI_DOMNISCIAN_GROUP, sYokaiDomniscianGroupReflectionPaletteTags},
     {OBJ_EVENT_PAL_TAG_YOKAI_MORLEONE_GROUP, sYokaiDonMorleoneGroupReflectionPaletteTags},
