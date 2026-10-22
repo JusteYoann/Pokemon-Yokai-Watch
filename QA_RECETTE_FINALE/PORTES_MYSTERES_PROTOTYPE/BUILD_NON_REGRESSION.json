@@ -1,0 +1,36 @@
+{
+  "baseline_commit": "465c512bd7b52011aca24c6357d9a5cabdc0601d",
+  "changed_existing_sources": [
+    "QA_RECETTE_FINALE/OCEANE_RECUPERATION_CS01/README.md",
+    "QA_RECETTE_FINALE/SCENARIO_2026_10_22/PLAN_JALONS.md",
+    "data/event_scripts.s",
+    "data/maps/VermilionCity/map.json",
+    "data/maps/VermilionCity/scripts.inc",
+    "data/maps/map_groups.json",
+    "include/constants/event_objects.h",
+    "include/constants/flags.h",
+    "include/constants/menu.h",
+    "spritesheet_rules.mk",
+    "src/data/object_events/object_event_anims.h",
+    "src/data/object_events/object_event_graphics.h",
+    "src/data/object_events/object_event_graphics_info.h",
+    "src/data/object_events/object_event_graphics_info_pointers.h",
+    "src/data/object_events/object_event_pic_tables.h",
+    "src/event_object_movement.c",
+    "src/overworld.c",
+    "src/script_menu.c"
+  ],
+  "existing_species_trainers_battle_graphics_and_audio_sources_unchanged": true,
+  "new_sprite_4bpp_bytes": 1024,
+  "new_palette_bytes": 32,
+  "builds": {
+    "pokefirered.gba": {
+      "size_bytes": 16777216,
+      "sha256": "0159b78a3947044de24c741b5e94c0fd72a17ca41a0399297a1eee115e961ca1"
+    },
+    "pokefirered_audio.gba": {
+      "size_bytes": 31589579,
+      "sha256": "fbca055fe3beac95dd28fd516eeef3491bbcce0d4248d59bafe0af6421b521b4"
+    }
+  }
+}

@@ -21,6 +21,7 @@ VermilionCity_Movement_ExitSSAnne::
 	step_end
 
 VermilionCity_OnTransition::
+	setflag FLAG_SCENARIO_CARMIN_CITY_CURRENT
 	setworldmapflag FLAG_WORLD_MAP_VERMILION_CITY
 	call_if_set FLAG_TALKED_TO_OAKS_AIDE_IN_VERMILION, VermilionCity_EventScript_HideOaksAide
 	end

@@ -1,0 +1,1 @@
+Le premier pilote relançait A après une annulation Oui/Non déjà terminée, réouvrait la conversation et acceptait involontairement la visite. Le pilote actuel vérifie d’abord que le script est encore actif. Cette image est un diagnostic du pilote, pas un défaut de refus Oui/Non dans le jeu.

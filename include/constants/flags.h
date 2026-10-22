@@ -1578,4 +1578,12 @@
 // Refresh cached map templates once when continuing those saves.
 #define FLAG_SCENARIO_CARMIN_GYM_CURRENT FLAG_0x32D
 
+// Mystery Doors: additive flags; no existing trophy or reward reassigned.
+#define FLAG_SCENARIO_CARMIN_CITY_CURRENT FLAG_0x32E
+#define FLAG_MYSTERY_STABILITY_OBSERVED FLAG_0x32F
+#define FLAG_MYSTERY_ORIENTATION_OBSERVED FLAG_0x330
+#define FLAG_MYSTERY_RETURN_OBSERVED FLAG_0x331
+#define FLAG_MYSTERY_JOBARD_MET FLAG_0x332
+#define FLAG_MYSTERY_CALIBRATED FLAG_0x333
+
 #endif // GUARD_CONSTANTS_FLAGS_H

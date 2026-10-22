@@ -44,3 +44,7 @@ q.OUT.mkdir(exist_ok=True)
 assert len(q.captain_cases()) == 6
 PYTEST
 ```
+
+## Mise à jour ultérieure — autorisation artistique
+
+Le créateur a ensuite autorisé la création des sprites et ressources nécessaires. La question de prototype ci-dessus est débloquée : voir le [premier chapitre jouable des Portes Mystères](../PORTES_MYSTERES_PROTOTYPE/README.md). Les limites historiques de ce rapport restent celles du jalon de récupération de la CS01.

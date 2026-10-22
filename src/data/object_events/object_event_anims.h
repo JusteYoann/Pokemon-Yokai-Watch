@@ -1618,3 +1618,32 @@ static const union AnimCmd *const sAnimTable_KatieFish[] = {
     [ANIM_HOOKED_POKEMON_WEST] = sAnim_HookedPokemonWest_KatieFish,
     [ANIM_HOOKED_POKEMON_EAST] = sAnim_HookedPokemonEast_KatieFish,
 };
+
+static const union AnimCmd sAnim_DrJobardFaceEast[] = {
+    ANIMCMD_FRAME(3, 16),
+    ANIMCMD_JUMP(0),
+};
+
+static const union AnimCmd *const sAnimTable_DrJobard[] = {
+    [ANIM_STD_FACE_SOUTH] = sAnim_FaceSouth,
+    [ANIM_STD_FACE_NORTH] = sAnim_FaceNorth,
+    [ANIM_STD_FACE_WEST] = sAnim_FaceWest,
+    [ANIM_STD_FACE_EAST] = sAnim_DrJobardFaceEast,
+    [ANIM_STD_GO_SOUTH] = sAnim_FaceSouth,
+    [ANIM_STD_GO_NORTH] = sAnim_FaceNorth,
+    [ANIM_STD_GO_WEST] = sAnim_FaceWest,
+    [ANIM_STD_GO_EAST] = sAnim_DrJobardFaceEast,
+    [ANIM_STD_GO_FAST_SOUTH] = sAnim_FaceSouth,
+    [ANIM_STD_GO_FAST_NORTH] = sAnim_FaceNorth,
+    [ANIM_STD_GO_FAST_WEST] = sAnim_FaceWest,
+    [ANIM_STD_GO_FAST_EAST] = sAnim_DrJobardFaceEast,
+    [ANIM_STD_GO_FASTER_SOUTH] = sAnim_FaceSouth,
+    [ANIM_STD_GO_FASTER_NORTH] = sAnim_FaceNorth,
+    [ANIM_STD_GO_FASTER_WEST] = sAnim_FaceWest,
+    [ANIM_STD_GO_FASTER_EAST] = sAnim_DrJobardFaceEast,
+    [ANIM_STD_GO_FASTEST_SOUTH] = sAnim_FaceSouth,
+    [ANIM_STD_GO_FASTEST_NORTH] = sAnim_FaceNorth,
+    [ANIM_STD_GO_FASTEST_WEST] = sAnim_FaceWest,
+    [ANIM_STD_GO_FASTEST_EAST] = sAnim_DrJobardFaceEast,
+    [ANIM_RAISE_HAND] = sAnim_FaceSouth,
+};

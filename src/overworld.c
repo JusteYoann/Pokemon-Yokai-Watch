@@ -1737,6 +1737,16 @@ void CB2_ContinueSavedGame(void)
         WarpIntoMap();
         SetMainCallback2(CB2_LoadMap);
     }
+    else if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_VERMILION_CITY)
+          && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_VERMILION_CITY)
+          && !FlagGet(FLAG_SCENARIO_CARMIN_CITY_CURRENT))
+    {
+        // Refresh the new scientist template in saves already inside Carmin.
+        memset(gSaveBlock1Ptr->objectEventTemplates, 0, sizeof(gSaveBlock1Ptr->objectEventTemplates));
+        SetWarpDestination(MAP_GROUP(MAP_VERMILION_CITY), MAP_NUM(MAP_VERMILION_CITY), WARP_ID_NONE, 28, 10);
+        WarpIntoMap();
+        SetMainCallback2(CB2_LoadMap);
+    }
     else if ((gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_VERMILION_CITY_GYM)
            && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_VERMILION_CITY_GYM)
            && !FlagGet(FLAG_SCENARIO_CARMIN_GYM_CURRENT))

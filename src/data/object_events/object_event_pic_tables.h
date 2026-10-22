@@ -1856,3 +1856,10 @@ static const struct SpriteFrameImage sPicTable_YokaiLeoJibanyan[] = {
     overworld_frame(gObjectEventPic_YokaiLeoJibanyan, 4, 4, 7),
     overworld_frame(gObjectEventPic_YokaiLeoJibanyan, 4, 4, 8),
 };
+
+static const struct SpriteFrameImage sPicTable_DrJobard[] = {
+    overworld_frame(gObjectEventPic_DrJobard, 2, 4, 0),
+    overworld_frame(gObjectEventPic_DrJobard, 2, 4, 1),
+    overworld_frame(gObjectEventPic_DrJobard, 2, 4, 2),
+    overworld_frame(gObjectEventPic_DrJobard, 2, 4, 3),
+};

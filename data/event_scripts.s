@@ -1362,3 +1362,13 @@ Text_TestMsg::
 	.include "data/text/pokedude.inc"
 
 	.include "data/scripts/yokai_cameos_boss.inc"
+
+	.include "data/maps/YokaiMystery_Lab/scripts.inc"
+
+	.include "data/maps/YokaiMystery_Stability/scripts.inc"
+
+	.include "data/maps/YokaiMystery_Orientation/scripts.inc"
+
+	.include "data/maps/YokaiMystery_Return/scripts.inc"
+
+	.include "data/scripts/yokai_mystery.inc"

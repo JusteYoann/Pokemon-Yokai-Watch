@@ -502,6 +502,15 @@ static const struct MenuAction sMultichoiceList_Exit[] = {
     { gOtherText_Exit }
 };
 
+static const u8 sText_MysteryStability[] = _("Stabilité");
+static const u8 sText_MysteryOrientation[] = _("Orientation");
+static const u8 sText_MysteryReturn[] = _("Retour");
+static const u8 sText_MysteryCancel[] = _("Annuler");
+static const struct MenuAction sMultichoiceList_YokaiMystery[] = {
+    {sText_MysteryStability}, {sText_MysteryOrientation},
+    {sText_MysteryReturn}, {sText_MysteryCancel},
+};
+
 static const struct MultichoiceListStruct sMultichoiceLists[] = {
     [MULTICHOICE_YES_NO]                                     = MULTICHOICE(sMultichoiceList_YesNo),
     [MULTICHOICE_EEVEELUTIONS]                               = MULTICHOICE(sMultichoiceList_Eeveelutions),
@@ -568,6 +577,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] = {
     [MULTICHOICE_62]                                         = MULTICHOICE(sMultichoiceList_62),
     [MULTICHOICE_JOIN_OR_LEAD]                               = MULTICHOICE(sMultichoiceList_JoinOrLead),
     [MULTICHOICE_TRAINER_TOWER_MODE]                         = MULTICHOICE(sMultichoiceList_TrainerTowerMode),
+    [MULTICHOICE_YOKAI_MYSTERY] = MULTICHOICE(sMultichoiceList_YokaiMystery),
 };
 
 // From Cool to Berries goes unused

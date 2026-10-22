@@ -1,0 +1,73 @@
+{
+  "id": "MAP_YOKAIMYSTERY_LAB",
+  "name": "YokaiMystery_Lab",
+  "layout": "LAYOUT_ROUTE25_SEA_COTTAGE",
+  "music": "MUS_YOKAI_SAN_FANTASTICO",
+  "region_map_section": "MAPSEC_VERMILION_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_DR_JOBARD",
+      "x": 7,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "YokaiMystery_EventScript_JobardLab",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 8,
+      "elevation": 3,
+      "var": "VAR_TEMP_5",
+      "var_value": "0",
+      "script": "YokaiMystery_EventScript_LeaveLab"
+    },
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 8,
+      "elevation": 3,
+      "var": "VAR_TEMP_5",
+      "var_value": "0",
+      "script": "YokaiMystery_EventScript_LeaveLab"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 8,
+      "elevation": 3,
+      "var": "VAR_TEMP_5",
+      "var_value": "0",
+      "script": "YokaiMystery_EventScript_LeaveLab"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 5,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "YokaiMystery_EventScript_SelectDoor"
+    }
+  ]
+}

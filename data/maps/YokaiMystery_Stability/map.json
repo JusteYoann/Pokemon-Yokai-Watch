@@ -1,0 +1,58 @@
+{
+  "id": "MAP_YOKAIMYSTERY_STABILITY",
+  "name": "YokaiMystery_Stability",
+  "layout": "LAYOUT_ROUTE25_SEA_COTTAGE",
+  "music": "MUS_YOKAI_SAN_FANTASTICO",
+  "region_map_section": "MAPSEC_VERMILION_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 8,
+      "elevation": 3,
+      "var": "VAR_TEMP_5",
+      "var_value": "0",
+      "script": "YokaiMystery_EventScript_ReturnLab"
+    },
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 8,
+      "elevation": 3,
+      "var": "VAR_TEMP_5",
+      "var_value": "0",
+      "script": "YokaiMystery_EventScript_ReturnLab"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 8,
+      "elevation": 3,
+      "var": "VAR_TEMP_5",
+      "var_value": "0",
+      "script": "YokaiMystery_EventScript_ReturnLab"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 5,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "YokaiMystery_EventScript_Observe1"
+    }
+  ]
+}

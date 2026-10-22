@@ -282,3 +282,6 @@ const u16 gObjectEventPic_YokaiMademoaiselle[] = INCBIN_U16("graphics/yokai_char
 
 const u16 gObjectEventPal_YokaiLeoJibanyan[] = INCBIN_U16("graphics/yokai_characters/leo_jibanyan/normal.gbapal");
 const u16 gObjectEventPic_YokaiLeoJibanyan[] = INCBIN_U16("graphics/yokai_characters/leo_jibanyan/overworld-display.4bpp");
+
+const u16 gObjectEventPal_DrJobard[] = INCBIN_U16("graphics/yokai_characters/dr_jobard/overworld.gbapal");
+const u16 gObjectEventPic_DrJobard[] = INCBIN_U16("graphics/yokai_characters/dr_jobard/overworld.4bpp");

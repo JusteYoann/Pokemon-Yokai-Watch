@@ -1,0 +1,50 @@
+{
+  "status": "Playable optional prototype; not the full canonical Carmin/Yopple chapter",
+  "authorization": "Creator: Créer des sprites ou autres si besoin",
+  "entry": {
+    "map": "VermilionCity",
+    "npc": [
+      28,
+      9
+    ],
+    "arrival_and_exit": [
+      28,
+      10
+    ],
+    "required_flag": "FLAG_BADGE03_GET"
+  },
+  "maps": [
+    "YokaiMystery_Lab",
+    "YokaiMystery_Stability",
+    "YokaiMystery_Orientation",
+    "YokaiMystery_Return"
+  ],
+  "existing_layout_reused": "LAYOUT_ROUTE25_SEA_COTTAGE",
+  "music_reused": "MUS_YOKAI_SAN_FANTASTICO",
+  "sprite": {
+    "gfx_id": 173,
+    "palette_tag": "0x112B",
+    "directory": "graphics/yokai_characters/dr_jobard",
+    "status": "Simplified from creator reference; apparatus/tubes/claws removed; exact Nathan visible bounds",
+    "animation": "Four distinct stationary poses, including separate right profile to preserve split skin colors",
+    "visible_dimensions": [
+      12,
+      19
+    ]
+  },
+  "save_flags": {
+    "city_revision": "0x32E",
+    "stability": "0x32F",
+    "orientation": "0x330",
+    "return_observed": "0x331",
+    "doctor_met": "0x332",
+    "calibrated": "0x333"
+  },
+  "rewards": [],
+  "boss_party": null,
+  "missing_canonical_parts": [
+    "Bérénice as Cut giver",
+    "Link to Yopple siege and betrayal",
+    "Final dedicated room art and remaining story design"
+  ]
+}
