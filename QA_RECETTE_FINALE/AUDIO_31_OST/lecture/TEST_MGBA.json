@@ -1,0 +1,331 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "b3000abdffdcfd707cc461165fd1e275f8e0cbc95498fc4d9234a88db3696a09",
+  "results": [
+    {
+      "number": 1,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9759232103643688,
+        0.9726636072219412
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 2,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9765594127121188,
+        0.9775985618481946
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 3,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9683659627062458,
+        0.9641555607610391
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 4,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9831736830740461,
+        0.9755364401949853
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 5,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9749374477954776,
+        0.926675634485011
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false,
+      "full_one_shot_end_observed": true,
+      "ending_frames_after_excerpt": 6596,
+      "known_limitation": "Silence after natural ending until another BGM request; loop not validated"
+    },
+    {
+      "number": 6,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9832863103874961,
+        0.9820266788833354
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 7,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9792846111687151,
+        0.9656648118611353
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 8,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9659048473672078,
+        0.9693405529844106
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false,
+      "full_one_shot_end_observed": true,
+      "ending_frames_after_excerpt": 7960,
+      "known_limitation": "Silence after natural ending until another BGM request; loop not validated"
+    },
+    {
+      "number": 9,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9699599379585037,
+        0.9693278437827904
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 10,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.959183686634502,
+        0.9741294949185317
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 11,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9878785030548477,
+        0.987838884650317
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 12,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9860765967804321,
+        0.9769387258918462
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 13,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9855187249368149,
+        0.9930382499536919
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 14,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9794920219590704,
+        0.9646566791012844
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 15,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9899334589640942,
+        0.9680019035904266
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 16,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9677165506859233,
+        0.9742410735278011
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 17,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.957333776785474,
+        0.9325559023182152
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 18,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9830228411760256,
+        0.9782315834057577
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 19,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9844979428970014,
+        0.9818903955839435
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 20,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9837055101113759,
+        0.9777960457583781
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 21,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9865224824399063,
+        0.9720512546088766
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 22,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9802917301228331,
+        0.9798607154978591
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 23,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9691269931715659,
+        0.9702172182903994
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 24,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9597007841958924,
+        0.9841057105001191
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 25,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.967966412198872,
+        0.8688000821977393
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false,
+      "full_one_shot_end_observed": true,
+      "ending_frames_after_excerpt": 11556,
+      "known_limitation": "Silence after natural ending until another BGM request; loop not validated"
+    },
+    {
+      "number": 26,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9740332419091778,
+        0.9694534968988122
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 27,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9818627900904825,
+        0.9728616674558564
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 28,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9817349784499275,
+        0.9790554411351509
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 29,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9785083054732148,
+        0.9584768681838179
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 30,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9885364124799826,
+        0.9595055380868825
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 31,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9712945247376343,
+        0.9769305260371558
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "native_item_fanfare_completed": true,
+      "compressed_music_resumed_without_restart": true
+    }
+  ],
+  "scope": "Real mGBA audio callback/source correlation, SFX and cry calls, complete one-shot endings and item fanfare. Isolated starts after real new game. Not subjective listening."
+}

@@ -24,6 +24,8 @@ def encode_track(job):
 def main():
  p=argparse.ArgumentParser(description=__doc__);p.add_argument('--full-source-dir',type=Path);p.add_argument('--reuse-26-dir',type=Path,help='Reuse only byte-pinned original 26 DPCM files');p.add_argument('--gap-source-dir',type=Path,help='Private original full 05/08/13/14/25.dpcm');p.add_argument('--output',type=Path,required=True);p.add_argument('--jobs',type=int,default=2);a=p.parse_args();output=a.output.resolve();assert not output.is_relative_to(ROOT);output.mkdir(parents=True,exist_ok=True)
  config=json.loads((ROOT/'data/yokai/audio_loops.json').read_text());rows=config['tracks']
+ assert {r['number'] for r in rows}.isdisjoint({r['number'] for r in config.get('gap_tracks',[])})
+ assert all(path is None or output!=path.resolve() for path in (a.reuse_26_dir,a.gap_source_dir)),'Keep private output separate from inputs'
  if config.get('gap_tracks') and not a.gap_source_dir:p.error('31 OST require --gap-source-dir; protected full DPCM files are external')
  if a.reuse_26_dir:
   results=json.loads((ROOT/'QA_RECETTE_FINALE/AUDIO_30MIO/PROVENANCE_26_OST.json').read_text())['prepared_tracks']

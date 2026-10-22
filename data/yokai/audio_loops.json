@@ -507,7 +507,9 @@
       "loop_start_samples": null,
       "loop_end_samples": 1592287,
       "perceptual_listening_validated": false,
-      "derivation": "Complete existing DPCM retained byte-identically; no loop forced because source recurrence research is inconclusive. One-shot experimental playback; natural ending then silence until next music request."
+      "derivation": "Complete existing DPCM retained byte-identically; no loop forced because source recurrence research is inconclusive. One-shot experimental playback; natural ending then silence until next music request.",
+      "mp3_sha256": "6c603e218debc62776090308171d7bf9c1651b1109e83023e31465777d2b8e81",
+      "pcm_wav_sha256": "760b7758a84838d478b9e2147262719df4dd39b92be1c4dbc2d59f2881a23647"
     },
     {
       "number": 8,
@@ -519,7 +521,9 @@
       "loop_start_samples": null,
       "loop_end_samples": 1897743,
       "perceptual_listening_validated": false,
-      "derivation": "Complete existing DPCM retained byte-identically; no loop forced because source recurrence research is inconclusive. One-shot experimental playback; natural ending then silence until next music request."
+      "derivation": "Complete existing DPCM retained byte-identically; no loop forced because source recurrence research is inconclusive. One-shot experimental playback; natural ending then silence until next music request.",
+      "mp3_sha256": "e91a28646d663b50307f0f89334f790a5ff45cac1b6fd83e4e3df19d75a053bd",
+      "pcm_wav_sha256": "df388e4d6816f73abeb3d625ea9731f7c1c99dd589b91b48e0b2f87ce1a96935"
     },
     {
       "number": 13,
@@ -539,7 +543,9 @@
         0.9969946201294054,
         0.9956254939276254
       ],
-      "derivation": "Full-cycle source recurrence; seam aligned within 50 ms of stable intro endpoint. No crossfade or sample re-encoding. Human listening pending."
+      "derivation": "Full-cycle source recurrence; seam aligned within 50 ms of stable intro endpoint. No crossfade or sample re-encoding. Human listening pending.",
+      "mp3_sha256": "f4f42d66b9a8d331fa1f5506ba558fdbd49ba4e3b4156fbd3a3f3358ee33a9e0",
+      "pcm_wav_sha256": "fef3e853eacac76972196bb42e9afd274950987a3e0b342e8feb1e5a74c0e5a3"
     },
     {
       "number": 14,
@@ -559,7 +565,9 @@
         0.9871126792320316,
         0.9927079959205973
       ],
-      "derivation": "Full-cycle source recurrence; seam aligned within 50 ms of stable intro endpoint. No crossfade or sample re-encoding. Human listening pending."
+      "derivation": "Full-cycle source recurrence; seam aligned within 50 ms of stable intro endpoint. No crossfade or sample re-encoding. Human listening pending.",
+      "mp3_sha256": "1bf47311695277a1153cb57f20e67e3e6a05021f0eb3e87de9d4dd93023ea844",
+      "pcm_wav_sha256": "286cc321f4b3e63254b77a14c4d00747665208db1faebc022fdcf86ffc03d698"
     },
     {
       "number": 25,
@@ -571,7 +579,9 @@
       "loop_start_samples": null,
       "loop_end_samples": 2703323,
       "perceptual_listening_validated": false,
-      "derivation": "Complete existing DPCM retained byte-identically; no loop forced because source recurrence research is inconclusive. One-shot experimental playback; natural ending then silence until next music request."
+      "derivation": "Complete existing DPCM retained byte-identically; no loop forced because source recurrence research is inconclusive. One-shot experimental playback; natural ending then silence until next music request.",
+      "mp3_sha256": "449ba293b02001be30decbcfce85d48d63c9ea92534e05f073dcbe865c769470",
+      "pcm_wav_sha256": "9dff4f30a556f5aa0be05216448ded8422823aab5b657a7856bf4df857fdb644"
     }
   ],
   "pending_loop_tracks": [

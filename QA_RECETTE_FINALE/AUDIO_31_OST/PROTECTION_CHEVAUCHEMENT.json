@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "test": "Actual full private ELF link with a temporary additional .yokai_audio_gap object containing 6064420 bytes",
+  "expected_link_failure": true,
+  "diagnostic": "Private audio overlaps graphics at 0x08D00000",
+  "existing_rom_preserved": true
+}

@@ -1,0 +1,4391 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "b3000abdffdcfd707cc461165fd1e275f8e0cbc95498fc4d9234a88db3696a09",
+  "active_tracks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "bgm_checked": [
+    {
+      "id": 264,
+      "requested": "MUS_EVOLUTION",
+      "effective": "MUS_YOKAI_CURIOUS",
+      "slot": 30,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 265,
+      "requested": "MUS_RS_VS_GYM_LEADER",
+      "effective": "MUS_YOKAI_BOSS_YOKAI",
+      "slot": 29,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 266,
+      "requested": "MUS_RS_VS_TRAINER",
+      "effective": "MUS_YOKAI_VS_YOKAI",
+      "slot": 28,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 267,
+      "requested": "MUS_SCHOOL",
+      "effective": "MUS_YOKAI_CURIOUS",
+      "slot": 30,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 272,
+      "requested": "MUS_FOLLOW_ME",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 273,
+      "requested": "MUS_GAME_CORNER",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 274,
+      "requested": "MUS_ROCKET_HIDEOUT",
+      "effective": "MUS_YOKAI_DODGY",
+      "slot": 17,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 275,
+      "requested": "MUS_GYM",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 277,
+      "requested": "MUS_INTRO_FIGHT",
+      "effective": "MUS_YOKAI_VS_YOKAI",
+      "slot": 28,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 278,
+      "requested": "MUS_TITLE",
+      "effective": "MUS_YOKAI_CURIOUS",
+      "slot": 30,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 279,
+      "requested": "MUS_CINNABAR",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 280,
+      "requested": "MUS_LAVENDER",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 281,
+      "requested": "MUS_HEAL_UNUSED",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 282,
+      "requested": "MUS_CYCLING",
+      "effective": "MUS_YOKAI_BICYCLE",
+      "slot": 1,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 283,
+      "requested": "MUS_ENCOUNTER_ROCKET",
+      "effective": "MUS_YOKAI_DODGY",
+      "slot": 17,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 284,
+      "requested": "MUS_ENCOUNTER_GIRL",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 285,
+      "requested": "MUS_ENCOUNTER_BOY",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 286,
+      "requested": "MUS_HALL_OF_FAME",
+      "effective": "MUS_YOKAI_TAKE_CARE",
+      "slot": 26,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 287,
+      "requested": "MUS_VIRIDIAN_FOREST",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 288,
+      "requested": "MUS_MT_MOON",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 289,
+      "requested": "MUS_POKE_MANSION",
+      "effective": "MUS_YOKAI_DODGY",
+      "slot": 17,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 290,
+      "requested": "MUS_CREDITS",
+      "effective": "MUS_YOKAI_TAKE_CARE",
+      "slot": 26,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 291,
+      "requested": "MUS_ROUTE1",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 292,
+      "requested": "MUS_ROUTE24",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 293,
+      "requested": "MUS_ROUTE3",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 294,
+      "requested": "MUS_ROUTE11",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 295,
+      "requested": "MUS_VICTORY_ROAD",
+      "effective": "MUS_YOKAI_DECISIVE_BATTLE",
+      "slot": 15,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 296,
+      "requested": "MUS_VS_GYM_LEADER",
+      "effective": "MUS_YOKAI_BOSS_YOKAI",
+      "slot": 29,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 297,
+      "requested": "MUS_VS_TRAINER",
+      "effective": "MUS_YOKAI_VS_YOKAI",
+      "slot": 28,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 298,
+      "requested": "MUS_VS_WILD",
+      "effective": "MUS_YOKAI_VS_YOKAI",
+      "slot": 28,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 299,
+      "requested": "MUS_VS_CHAMPION",
+      "effective": "MUS_YOKAI_FINAL_BATTLE",
+      "slot": 25,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 300,
+      "requested": "MUS_PALLET",
+      "effective": "MUS_YOKAI_NATHAN_HOUSE",
+      "slot": 7,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 301,
+      "requested": "MUS_OAK_LAB",
+      "effective": "MUS_YOKAI_NATHAN_HOUSE",
+      "slot": 7,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 302,
+      "requested": "MUS_OAK",
+      "effective": "MUS_YOKAI_CURIOUS",
+      "slot": 30,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 303,
+      "requested": "MUS_POKE_CENTER",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 304,
+      "requested": "MUS_SS_ANNE",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 305,
+      "requested": "MUS_SURF",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 306,
+      "requested": "MUS_POKE_TOWER",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 307,
+      "requested": "MUS_SILPH",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 308,
+      "requested": "MUS_FUCHSIA",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 309,
+      "requested": "MUS_CELADON",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 310,
+      "requested": "MUS_VICTORY_TRAINER",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 311,
+      "requested": "MUS_VICTORY_WILD",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 312,
+      "requested": "MUS_VICTORY_GYM_LEADER",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 313,
+      "requested": "MUS_VERMILLION",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 314,
+      "requested": "MUS_PEWTER",
+      "effective": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "slot": 12,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 315,
+      "requested": "MUS_ENCOUNTER_RIVAL",
+      "effective": "MUS_YOKAI_VS_YOKAI",
+      "slot": 28,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 316,
+      "requested": "MUS_RIVAL_EXIT",
+      "effective": "MUS_YOKAI_VS_YOKAI",
+      "slot": 28,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 321,
+      "requested": "MUS_GAME_FREAK",
+      "effective": "MUS_YOKAI_CURIOUS",
+      "slot": 30,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 322,
+      "requested": "MUS_CAUGHT",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 323,
+      "requested": "MUS_NEW_GAME_INSTRUCT",
+      "effective": "MUS_YOKAI_CURIOUS",
+      "slot": 30,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 324,
+      "requested": "MUS_NEW_GAME_INTRO",
+      "effective": "MUS_YOKAI_CURIOUS",
+      "slot": 30,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 325,
+      "requested": "MUS_NEW_GAME_EXIT",
+      "effective": "MUS_YOKAI_CURIOUS",
+      "slot": 30,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 326,
+      "requested": "MUS_POKE_JUMP",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 327,
+      "requested": "MUS_UNION_ROOM",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 328,
+      "requested": "MUS_NET_CENTER",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 329,
+      "requested": "MUS_MYSTERY_GIFT",
+      "effective": "MUS_YOKAI_CURIOUS",
+      "slot": 30,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 330,
+      "requested": "MUS_BERRY_PICK",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 331,
+      "requested": "MUS_SEVII_CAVE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 332,
+      "requested": "MUS_TEACHY_TV_SHOW",
+      "effective": "MUS_YOKAI_CURIOUS",
+      "slot": 30,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 333,
+      "requested": "MUS_SEVII_ROUTE",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 334,
+      "requested": "MUS_SEVII_DUNGEON",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 335,
+      "requested": "MUS_SEVII_123",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 336,
+      "requested": "MUS_SEVII_45",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 337,
+      "requested": "MUS_SEVII_67",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 339,
+      "requested": "MUS_VS_DEOXYS",
+      "effective": "MUS_YOKAI_VS_YOKAI",
+      "slot": 28,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 340,
+      "requested": "MUS_VS_MEWTWO",
+      "effective": "MUS_YOKAI_VS_YOKAI",
+      "slot": 28,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 341,
+      "requested": "MUS_VS_LEGEND",
+      "effective": "MUS_YOKAI_VS_YOKAI",
+      "slot": 28,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 342,
+      "requested": "MUS_ENCOUNTER_GYM_LEADER",
+      "effective": "MUS_YOKAI_BOSS_YOKAI",
+      "slot": 29,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 343,
+      "requested": "MUS_ENCOUNTER_DEOXYS",
+      "effective": "MUS_YOKAI_VS_YOKAI",
+      "slot": 28,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 344,
+      "requested": "MUS_TRAINER_TOWER",
+      "effective": "MUS_YOKAI_BOSS_YOKAI",
+      "slot": 29,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 345,
+      "requested": "MUS_SLOW_PALLET",
+      "effective": "MUS_YOKAI_TAKE_CARE",
+      "slot": 26,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 346,
+      "requested": "MUS_TEACHY_TV_MENU",
+      "effective": "MUS_YOKAI_CURIOUS",
+      "slot": 30,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 347,
+      "requested": "MUS_YOKAI_BICYCLE",
+      "effective": "MUS_YOKAI_BICYCLE",
+      "slot": 1,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 348,
+      "requested": "MUS_YOKAI_HINOZALL",
+      "effective": "MUS_YOKAI_HINOZALL",
+      "slot": 2,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 349,
+      "requested": "MUS_YOKAI_GHOULFATHER",
+      "effective": "MUS_YOKAI_GHOULFATHER",
+      "slot": 3,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 350,
+      "requested": "MUS_YOKAI_INFINITE_TUNNEL",
+      "effective": "MUS_YOKAI_INFINITE_TUNNEL",
+      "slot": 4,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 351,
+      "requested": "MUS_YOKAI_ENMA_DIALOGUE",
+      "effective": "MUS_YOKAI_ENMA_DIALOGUE",
+      "slot": 5,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 352,
+      "requested": "MUS_YOKAI_ZAZELMARE",
+      "effective": "MUS_YOKAI_ZAZELMARE",
+      "slot": 6,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 353,
+      "requested": "MUS_YOKAI_NATHAN_HOUSE",
+      "effective": "MUS_YOKAI_NATHAN_HOUSE",
+      "slot": 7,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 354,
+      "requested": "MUS_YOKAI_KATIE_HOUSE",
+      "effective": "MUS_YOKAI_KATIE_HOUSE",
+      "slot": 8,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 355,
+      "requested": "MUS_YOKAI_BLASTERS_HIDEOUT",
+      "effective": "MUS_YOKAI_BLASTERS_HIDEOUT",
+      "slot": 9,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 356,
+      "requested": "MUS_YOKAI_BLASTERS_THEME",
+      "effective": "MUS_YOKAI_BLASTERS_THEME",
+      "slot": 10,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 357,
+      "requested": "MUS_YOKAI_BADA_BING",
+      "effective": "MUS_YOKAI_BADA_BING",
+      "slot": 11,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 358,
+      "requested": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "effective": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "slot": 12,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 359,
+      "requested": "MUS_YOKAI_ENMA_VILLA",
+      "effective": "MUS_YOKAI_ENMA_VILLA",
+      "slot": 13,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 360,
+      "requested": "MUS_YOKAI_WILDWOOD",
+      "effective": "MUS_YOKAI_WILDWOOD",
+      "slot": 14,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 361,
+      "requested": "MUS_YOKAI_DECISIVE_BATTLE",
+      "effective": "MUS_YOKAI_DECISIVE_BATTLE",
+      "slot": 15,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 362,
+      "requested": "MUS_YOKAI_HARRISVILLE",
+      "effective": "MUS_YOKAI_HARRISVILLE",
+      "slot": 16,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 363,
+      "requested": "MUS_YOKAI_DODGY",
+      "effective": "MUS_YOKAI_DODGY",
+      "slot": 17,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 364,
+      "requested": "MUS_YOKAI_ROBON_ARRIVES",
+      "effective": "MUS_YOKAI_ROBON_ARRIVES",
+      "slot": 18,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 365,
+      "requested": "MUS_YOKAI_ROBON_3000",
+      "effective": "MUS_YOKAI_ROBON_3000",
+      "slot": 19,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 366,
+      "requested": "MUS_YOKAI_MINI_BOSS",
+      "effective": "MUS_YOKAI_MINI_BOSS",
+      "slot": 20,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 367,
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 368,
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 369,
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 370,
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 371,
+      "requested": "MUS_YOKAI_FINAL_BATTLE",
+      "effective": "MUS_YOKAI_FINAL_BATTLE",
+      "slot": 25,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 372,
+      "requested": "MUS_YOKAI_TAKE_CARE",
+      "effective": "MUS_YOKAI_TAKE_CARE",
+      "slot": 26,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 373,
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 374,
+      "requested": "MUS_YOKAI_VS_YOKAI",
+      "effective": "MUS_YOKAI_VS_YOKAI",
+      "slot": 28,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 375,
+      "requested": "MUS_YOKAI_BOSS_YOKAI",
+      "effective": "MUS_YOKAI_BOSS_YOKAI",
+      "slot": 29,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 376,
+      "requested": "MUS_YOKAI_CURIOUS",
+      "effective": "MUS_YOKAI_CURIOUS",
+      "slot": 30,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    },
+    {
+      "id": 377,
+      "requested": "MUS_YOKAI_ARIANE",
+      "effective": "MUS_YOKAI_ARIANE",
+      "slot": 31,
+      "private_sample": true,
+      "temporary_substitute": false,
+      "native_start_checked": true,
+      "no_restart_to_effective_theme": true
+    }
+  ],
+  "compiled_maps": [
+    {
+      "map": "BattleColosseum_2P",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "TradeCenter",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "RecordCorner",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "BattleColosseum_4P",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "UnionRoom",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "ViridianForest",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "MtMoon_1F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "MtMoon_B1F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "MtMoon_B2F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_Exterior",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_1F_Corridor",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_2F_Corridor",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_3F_Corridor",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_B1F_Corridor",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_Deck",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_Kitchen",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_CaptainsOffice",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_1F_Room1",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_1F_Room2",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_1F_Room3",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_1F_Room4",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_1F_Room5",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_1F_Room7",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_2F_Room1",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_2F_Room2",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_2F_Room3",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_2F_Room4",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_2F_Room5",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_2F_Room6",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_B1F_Room1",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_B1F_Room2",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_B1F_Room3",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_B1F_Room4",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_B1F_Room5",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SSAnne_1F_Room6",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "UndergroundPath_NorthEntrance",
+      "requested": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "effective": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "slot": 12,
+      "private_sample": true
+    },
+    {
+      "map": "UndergroundPath_NorthSouthTunnel",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "UndergroundPath_SouthEntrance",
+      "requested": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "effective": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "slot": 12,
+      "private_sample": true
+    },
+    {
+      "map": "UndergroundPath_WestEntrance",
+      "requested": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "effective": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "slot": 12,
+      "private_sample": true
+    },
+    {
+      "map": "UndergroundPath_EastWestTunnel",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "UndergroundPath_EastEntrance",
+      "requested": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "effective": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "slot": 12,
+      "private_sample": true
+    },
+    {
+      "map": "DiglettsCave_NorthEntrance",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "DiglettsCave_B1F",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "DiglettsCave_SouthEntrance",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "VictoryRoad_1F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "VictoryRoad_2F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "VictoryRoad_3F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "RocketHideout_B1F",
+      "requested": "MUS_YOKAI_DODGY",
+      "effective": "MUS_YOKAI_DODGY",
+      "slot": 17,
+      "private_sample": true
+    },
+    {
+      "map": "RocketHideout_B2F",
+      "requested": "MUS_YOKAI_DODGY",
+      "effective": "MUS_YOKAI_DODGY",
+      "slot": 17,
+      "private_sample": true
+    },
+    {
+      "map": "RocketHideout_B3F",
+      "requested": "MUS_YOKAI_DODGY",
+      "effective": "MUS_YOKAI_DODGY",
+      "slot": 17,
+      "private_sample": true
+    },
+    {
+      "map": "RocketHideout_B4F",
+      "requested": "MUS_YOKAI_DODGY",
+      "effective": "MUS_YOKAI_DODGY",
+      "slot": 17,
+      "private_sample": true
+    },
+    {
+      "map": "RocketHideout_Elevator",
+      "requested": "MUS_YOKAI_DODGY",
+      "effective": "MUS_YOKAI_DODGY",
+      "slot": 17,
+      "private_sample": true
+    },
+    {
+      "map": "SilphCo_1F",
+      "requested": "MUS_YOKAI_BADA_BING",
+      "effective": "MUS_YOKAI_BADA_BING",
+      "slot": 11,
+      "private_sample": true
+    },
+    {
+      "map": "SilphCo_2F",
+      "requested": "MUS_YOKAI_BADA_BING",
+      "effective": "MUS_YOKAI_BADA_BING",
+      "slot": 11,
+      "private_sample": true
+    },
+    {
+      "map": "SilphCo_3F",
+      "requested": "MUS_YOKAI_BADA_BING",
+      "effective": "MUS_YOKAI_BADA_BING",
+      "slot": 11,
+      "private_sample": true
+    },
+    {
+      "map": "SilphCo_4F",
+      "requested": "MUS_YOKAI_BADA_BING",
+      "effective": "MUS_YOKAI_BADA_BING",
+      "slot": 11,
+      "private_sample": true
+    },
+    {
+      "map": "SilphCo_5F",
+      "requested": "MUS_YOKAI_BADA_BING",
+      "effective": "MUS_YOKAI_BADA_BING",
+      "slot": 11,
+      "private_sample": true
+    },
+    {
+      "map": "SilphCo_6F",
+      "requested": "MUS_YOKAI_BADA_BING",
+      "effective": "MUS_YOKAI_BADA_BING",
+      "slot": 11,
+      "private_sample": true
+    },
+    {
+      "map": "SilphCo_7F",
+      "requested": "MUS_YOKAI_BADA_BING",
+      "effective": "MUS_YOKAI_BADA_BING",
+      "slot": 11,
+      "private_sample": true
+    },
+    {
+      "map": "SilphCo_8F",
+      "requested": "MUS_YOKAI_BADA_BING",
+      "effective": "MUS_YOKAI_BADA_BING",
+      "slot": 11,
+      "private_sample": true
+    },
+    {
+      "map": "SilphCo_9F",
+      "requested": "MUS_YOKAI_BADA_BING",
+      "effective": "MUS_YOKAI_BADA_BING",
+      "slot": 11,
+      "private_sample": true
+    },
+    {
+      "map": "SilphCo_10F",
+      "requested": "MUS_YOKAI_BADA_BING",
+      "effective": "MUS_YOKAI_BADA_BING",
+      "slot": 11,
+      "private_sample": true
+    },
+    {
+      "map": "SilphCo_11F",
+      "requested": "MUS_YOKAI_BADA_BING",
+      "effective": "MUS_YOKAI_BADA_BING",
+      "slot": 11,
+      "private_sample": true
+    },
+    {
+      "map": "SilphCo_Elevator",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "PokemonMansion_1F",
+      "requested": "MUS_YOKAI_DODGY",
+      "effective": "MUS_YOKAI_DODGY",
+      "slot": 17,
+      "private_sample": true
+    },
+    {
+      "map": "PokemonMansion_2F",
+      "requested": "MUS_YOKAI_DODGY",
+      "effective": "MUS_YOKAI_DODGY",
+      "slot": 17,
+      "private_sample": true
+    },
+    {
+      "map": "PokemonMansion_3F",
+      "requested": "MUS_YOKAI_DODGY",
+      "effective": "MUS_YOKAI_DODGY",
+      "slot": 17,
+      "private_sample": true
+    },
+    {
+      "map": "PokemonMansion_B1F",
+      "requested": "MUS_YOKAI_DODGY",
+      "effective": "MUS_YOKAI_DODGY",
+      "slot": 17,
+      "private_sample": true
+    },
+    {
+      "map": "SafariZone_Center",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "SafariZone_East",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "SafariZone_North",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "SafariZone_West",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "SafariZone_Center_RestHouse",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "SafariZone_East_RestHouse",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "SafariZone_North_RestHouse",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "SafariZone_West_RestHouse",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "SafariZone_SecretHouse",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "CeruleanCave_1F",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "CeruleanCave_2F",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "CeruleanCave_B1F",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "PokemonLeague_LoreleisRoom",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "PokemonLeague_BrunosRoom",
+      "requested": "MUS_YOKAI_DODGY",
+      "effective": "MUS_YOKAI_DODGY",
+      "slot": 17,
+      "private_sample": true
+    },
+    {
+      "map": "PokemonLeague_AgathasRoom",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "PokemonLeague_LancesRoom",
+      "requested": "MUS_YOKAI_DECISIVE_BATTLE",
+      "effective": "MUS_YOKAI_DECISIVE_BATTLE",
+      "slot": 15,
+      "private_sample": true
+    },
+    {
+      "map": "PokemonLeague_ChampionsRoom",
+      "requested": "MUS_YOKAI_DECISIVE_BATTLE",
+      "effective": "MUS_YOKAI_DECISIVE_BATTLE",
+      "slot": 15,
+      "private_sample": true
+    },
+    {
+      "map": "PokemonLeague_HallOfFame",
+      "requested": "MUS_YOKAI_TAKE_CARE",
+      "effective": "MUS_YOKAI_TAKE_CARE",
+      "slot": 26,
+      "private_sample": true
+    },
+    {
+      "map": "RockTunnel_1F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "RockTunnel_B1F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "SeafoamIslands_1F",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "SeafoamIslands_B1F",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "SeafoamIslands_B2F",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "SeafoamIslands_B3F",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "SeafoamIslands_B4F",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "PokemonTower_1F",
+      "requested": "MUS_YOKAI_INFINITE_TUNNEL",
+      "effective": "MUS_YOKAI_INFINITE_TUNNEL",
+      "slot": 4,
+      "private_sample": true
+    },
+    {
+      "map": "PokemonTower_2F",
+      "requested": "MUS_YOKAI_INFINITE_TUNNEL",
+      "effective": "MUS_YOKAI_INFINITE_TUNNEL",
+      "slot": 4,
+      "private_sample": true
+    },
+    {
+      "map": "PokemonTower_3F",
+      "requested": "MUS_YOKAI_INFINITE_TUNNEL",
+      "effective": "MUS_YOKAI_INFINITE_TUNNEL",
+      "slot": 4,
+      "private_sample": true
+    },
+    {
+      "map": "PokemonTower_4F",
+      "requested": "MUS_YOKAI_INFINITE_TUNNEL",
+      "effective": "MUS_YOKAI_INFINITE_TUNNEL",
+      "slot": 4,
+      "private_sample": true
+    },
+    {
+      "map": "PokemonTower_5F",
+      "requested": "MUS_YOKAI_INFINITE_TUNNEL",
+      "effective": "MUS_YOKAI_INFINITE_TUNNEL",
+      "slot": 4,
+      "private_sample": true
+    },
+    {
+      "map": "PokemonTower_6F",
+      "requested": "MUS_YOKAI_INFINITE_TUNNEL",
+      "effective": "MUS_YOKAI_INFINITE_TUNNEL",
+      "slot": 4,
+      "private_sample": true
+    },
+    {
+      "map": "PokemonTower_7F",
+      "requested": "MUS_YOKAI_INFINITE_TUNNEL",
+      "effective": "MUS_YOKAI_INFINITE_TUNNEL",
+      "slot": 4,
+      "private_sample": true
+    },
+    {
+      "map": "PowerPlant",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "MtEmber_RubyPath_B4F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "MtEmber_Exterior",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "MtEmber_SummitPath_1F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "MtEmber_SummitPath_2F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "MtEmber_SummitPath_3F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "MtEmber_Summit",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "MtEmber_RubyPath_B5F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "MtEmber_RubyPath_1F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "MtEmber_RubyPath_B1F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "MtEmber_RubyPath_B2F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "MtEmber_RubyPath_B3F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "MtEmber_RubyPath_B1F_Stairs",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "MtEmber_RubyPath_B2F_Stairs",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "ThreeIsland_BerryForest",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "FourIsland_IcefallCave_Entrance",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "FourIsland_IcefallCave_1F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "FourIsland_IcefallCave_B1F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "FourIsland_IcefallCave_Back",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_RocketWarehouse",
+      "requested": "MUS_YOKAI_DODGY",
+      "effective": "MUS_YOKAI_DODGY",
+      "slot": 17,
+      "private_sample": true
+    },
+    {
+      "map": "SixIsland_DottedHole_1F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SixIsland_DottedHole_B1F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SixIsland_DottedHole_B2F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SixIsland_DottedHole_B3F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SixIsland_DottedHole_B4F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SixIsland_DottedHole_SapphireRoom",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SixIsland_PatternBush",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SixIsland_AlteringCave",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "NavelRock_Exterior",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "TrainerTower_1F",
+      "requested": "MUS_YOKAI_BOSS_YOKAI",
+      "effective": "MUS_YOKAI_BOSS_YOKAI",
+      "slot": 29,
+      "private_sample": true
+    },
+    {
+      "map": "TrainerTower_2F",
+      "requested": "MUS_YOKAI_BOSS_YOKAI",
+      "effective": "MUS_YOKAI_BOSS_YOKAI",
+      "slot": 29,
+      "private_sample": true
+    },
+    {
+      "map": "TrainerTower_3F",
+      "requested": "MUS_YOKAI_BOSS_YOKAI",
+      "effective": "MUS_YOKAI_BOSS_YOKAI",
+      "slot": 29,
+      "private_sample": true
+    },
+    {
+      "map": "TrainerTower_4F",
+      "requested": "MUS_YOKAI_BOSS_YOKAI",
+      "effective": "MUS_YOKAI_BOSS_YOKAI",
+      "slot": 29,
+      "private_sample": true
+    },
+    {
+      "map": "TrainerTower_5F",
+      "requested": "MUS_YOKAI_BOSS_YOKAI",
+      "effective": "MUS_YOKAI_BOSS_YOKAI",
+      "slot": 29,
+      "private_sample": true
+    },
+    {
+      "map": "TrainerTower_6F",
+      "requested": "MUS_YOKAI_BOSS_YOKAI",
+      "effective": "MUS_YOKAI_BOSS_YOKAI",
+      "slot": 29,
+      "private_sample": true
+    },
+    {
+      "map": "TrainerTower_7F",
+      "requested": "MUS_YOKAI_BOSS_YOKAI",
+      "effective": "MUS_YOKAI_BOSS_YOKAI",
+      "slot": 29,
+      "private_sample": true
+    },
+    {
+      "map": "TrainerTower_8F",
+      "requested": "MUS_YOKAI_BOSS_YOKAI",
+      "effective": "MUS_YOKAI_BOSS_YOKAI",
+      "slot": 29,
+      "private_sample": true
+    },
+    {
+      "map": "TrainerTower_Roof",
+      "requested": "MUS_YOKAI_BOSS_YOKAI",
+      "effective": "MUS_YOKAI_BOSS_YOKAI",
+      "slot": 29,
+      "private_sample": true
+    },
+    {
+      "map": "TrainerTower_Lobby",
+      "requested": "MUS_YOKAI_BOSS_YOKAI",
+      "effective": "MUS_YOKAI_BOSS_YOKAI",
+      "slot": 29,
+      "private_sample": true
+    },
+    {
+      "map": "TrainerTower_Elevator",
+      "requested": "MUS_YOKAI_BOSS_YOKAI",
+      "effective": "MUS_YOKAI_BOSS_YOKAI",
+      "slot": 29,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Entrance",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room1",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room2",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room3",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room4",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room5",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room6",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room7",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room8",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room9",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room10",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room11",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room12",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room13",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_LostCave_Room14",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "SevenIsland_TanobyRuins_MoneanChamber",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "SevenIsland_TanobyRuins_LiptooChamber",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "SevenIsland_TanobyRuins_WeepthChamber",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "SevenIsland_TanobyRuins_DilfordChamber",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "SevenIsland_TanobyRuins_ScufibChamber",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "SevenIsland_TanobyRuins_RixyChamber",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "SevenIsland_TanobyRuins_ViapoisChamber",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "ThreeIsland_DunsparceTunnel",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "SevenIsland_SevaultCanyon_TanobyKey",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "NavelRock_1F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "NavelRock_Summit",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "NavelRock_Base",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "NavelRock_SummitPath_2F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "NavelRock_SummitPath_3F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "NavelRock_SummitPath_4F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "NavelRock_SummitPath_5F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "NavelRock_BasePath_B1F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "NavelRock_BasePath_B2F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "NavelRock_BasePath_B3F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "NavelRock_BasePath_B4F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "NavelRock_BasePath_B5F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "NavelRock_BasePath_B6F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "NavelRock_BasePath_B7F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "NavelRock_BasePath_B8F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "NavelRock_BasePath_B9F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "NavelRock_BasePath_B10F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "NavelRock_BasePath_B11F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "NavelRock_B1F",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "NavelRock_Fork",
+      "requested": "MUS_YOKAI_HOPPERS_GORGE",
+      "effective": "MUS_YOKAI_HOPPERS_GORGE",
+      "slot": 24,
+      "private_sample": true
+    },
+    {
+      "map": "BirthIsland_Exterior",
+      "requested": "MUS_NONE",
+      "effective": "SILENCE",
+      "slot": "",
+      "private_sample": false
+    },
+    {
+      "map": "OneIsland_KindleRoad_EmberSpa",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "BirthIsland_Harbor",
+      "requested": "MUS_NONE",
+      "effective": "SILENCE",
+      "slot": "",
+      "private_sample": false
+    },
+    {
+      "map": "NavelRock_Harbor",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "PalletTown",
+      "requested": "MUS_YOKAI_NATHAN_HOUSE",
+      "effective": "MUS_YOKAI_NATHAN_HOUSE",
+      "slot": 7,
+      "private_sample": true
+    },
+    {
+      "map": "ViridianCity",
+      "requested": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "effective": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "slot": 12,
+      "private_sample": true
+    },
+    {
+      "map": "PewterCity",
+      "requested": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "effective": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "slot": 12,
+      "private_sample": true
+    },
+    {
+      "map": "CeruleanCity",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "LavenderTown",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "VermilionCity",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "CeladonCity",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "FuchsiaCity",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "CinnabarIsland",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "IndigoPlateau_Exterior",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "SaffronCity",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "SaffronCity_Connection",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "OneIsland",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "TwoIsland",
+      "requested": "MUS_YOKAI_HARRISVILLE",
+      "effective": "MUS_YOKAI_HARRISVILLE",
+      "slot": 16,
+      "private_sample": true
+    },
+    {
+      "map": "ThreeIsland",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FourIsland",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SevenIsland",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SixIsland",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "Route1",
+      "requested": "MUS_YOKAI_NATHAN_HOUSE",
+      "effective": "MUS_YOKAI_NATHAN_HOUSE",
+      "slot": 7,
+      "private_sample": true
+    },
+    {
+      "map": "Route2",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route3",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route4",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route5",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route6",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route7",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route8",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route9",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route10",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route11",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "Route12",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route13",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route14",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route15",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route16",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route17",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route18",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route19",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route20",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route21_North",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route21_South",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route22",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route23",
+      "requested": "MUS_YOKAI_DECISIVE_BATTLE",
+      "effective": "MUS_YOKAI_DECISIVE_BATTLE",
+      "slot": 15,
+      "private_sample": true
+    },
+    {
+      "map": "Route24",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route25",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "OneIsland_KindleRoad",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "OneIsland_TreasureBeach",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "TwoIsland_CapeBrink",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "ThreeIsland_BondBridge",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "ThreeIsland_Port",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "Prototype_SeviiIsle_6",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Prototype_SeviiIsle_7",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Prototype_SeviiIsle_8",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Prototype_SeviiIsle_9",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_ResortGorgeous",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_WaterLabyrinth",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_Meadow",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_MemorialPillar",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "SixIsland_OutcastIsland",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "SixIsland_GreenPath",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "SixIsland_WaterPath",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "SixIsland_RuinValley",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "SevenIsland_TrainerTower",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "SevenIsland_SevaultCanyon_Entrance",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "SevenIsland_SevaultCanyon",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "SevenIsland_TanobyRuins",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "PalletTown_PlayersHouse_1F",
+      "requested": "MUS_YOKAI_NATHAN_HOUSE",
+      "effective": "MUS_YOKAI_NATHAN_HOUSE",
+      "slot": 7,
+      "private_sample": true
+    },
+    {
+      "map": "PalletTown_PlayersHouse_2F",
+      "requested": "MUS_YOKAI_NATHAN_HOUSE",
+      "effective": "MUS_YOKAI_NATHAN_HOUSE",
+      "slot": 7,
+      "private_sample": true
+    },
+    {
+      "map": "PalletTown_RivalsHouse",
+      "requested": "MUS_YOKAI_NATHAN_HOUSE",
+      "effective": "MUS_YOKAI_NATHAN_HOUSE",
+      "slot": 7,
+      "private_sample": true
+    },
+    {
+      "map": "PalletTown_ProfessorOaksLab",
+      "requested": "MUS_YOKAI_NATHAN_HOUSE",
+      "effective": "MUS_YOKAI_NATHAN_HOUSE",
+      "slot": 7,
+      "private_sample": true
+    },
+    {
+      "map": "ViridianCity_House",
+      "requested": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "effective": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "slot": 12,
+      "private_sample": true
+    },
+    {
+      "map": "ViridianCity_Gym",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "ViridianCity_School",
+      "requested": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "effective": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "slot": 12,
+      "private_sample": true
+    },
+    {
+      "map": "ViridianCity_Mart",
+      "requested": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "effective": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "slot": 12,
+      "private_sample": true
+    },
+    {
+      "map": "ViridianCity_PokemonCenter_1F",
+      "requested": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "effective": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "slot": 12,
+      "private_sample": true
+    },
+    {
+      "map": "ViridianCity_PokemonCenter_2F",
+      "requested": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "effective": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "slot": 12,
+      "private_sample": true
+    },
+    {
+      "map": "PewterCity_Museum_1F",
+      "requested": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "effective": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "slot": 12,
+      "private_sample": true
+    },
+    {
+      "map": "PewterCity_Museum_2F",
+      "requested": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "effective": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "slot": 12,
+      "private_sample": true
+    },
+    {
+      "map": "PewterCity_Gym",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "PewterCity_Mart",
+      "requested": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "effective": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "slot": 12,
+      "private_sample": true
+    },
+    {
+      "map": "PewterCity_House1",
+      "requested": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "effective": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "slot": 12,
+      "private_sample": true
+    },
+    {
+      "map": "PewterCity_PokemonCenter_1F",
+      "requested": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "effective": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "slot": 12,
+      "private_sample": true
+    },
+    {
+      "map": "PewterCity_PokemonCenter_2F",
+      "requested": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "effective": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "slot": 12,
+      "private_sample": true
+    },
+    {
+      "map": "PewterCity_House2",
+      "requested": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "effective": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "slot": 12,
+      "private_sample": true
+    },
+    {
+      "map": "CeruleanCity_House1",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "CeruleanCity_House2",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "CeruleanCity_House3",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "CeruleanCity_PokemonCenter_1F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "CeruleanCity_PokemonCenter_2F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "CeruleanCity_Gym",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "CeruleanCity_BikeShop",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "CeruleanCity_Mart",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "CeruleanCity_House4",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "CeruleanCity_House5",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "LavenderTown_PokemonCenter_1F",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "LavenderTown_PokemonCenter_2F",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "LavenderTown_VolunteerPokemonHouse",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "LavenderTown_House1",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "LavenderTown_House2",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "LavenderTown_Mart",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "VermilionCity_House1",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "VermilionCity_PokemonCenter_1F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "VermilionCity_PokemonCenter_2F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "VermilionCity_PokemonFanClub",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "VermilionCity_House2",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "VermilionCity_Mart",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "VermilionCity_Gym",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "VermilionCity_House3",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "CeladonCity_DepartmentStore_1F",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "CeladonCity_DepartmentStore_2F",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "CeladonCity_DepartmentStore_3F",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "CeladonCity_DepartmentStore_4F",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "CeladonCity_DepartmentStore_5F",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "CeladonCity_DepartmentStore_Roof",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "CeladonCity_DepartmentStore_Elevator",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "CeladonCity_Condominiums_1F",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "CeladonCity_Condominiums_2F",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "CeladonCity_Condominiums_3F",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "CeladonCity_Condominiums_Roof",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "CeladonCity_Condominiums_RoofRoom",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "CeladonCity_PokemonCenter_1F",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "CeladonCity_PokemonCenter_2F",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "CeladonCity_GameCorner",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "CeladonCity_GameCorner_PrizeRoom",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "CeladonCity_Gym",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "CeladonCity_Restaurant",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "CeladonCity_House1",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "CeladonCity_Hotel",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "FuchsiaCity_SafariZone_Entrance",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FuchsiaCity_Mart",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FuchsiaCity_SafariZone_Office",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FuchsiaCity_Gym",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "FuchsiaCity_House1",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FuchsiaCity_PokemonCenter_1F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FuchsiaCity_PokemonCenter_2F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FuchsiaCity_WardensHouse",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FuchsiaCity_House2",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FuchsiaCity_House3",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "CinnabarIsland_Gym",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "CinnabarIsland_PokemonLab_Entrance",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "CinnabarIsland_PokemonLab_Lounge",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "CinnabarIsland_PokemonLab_ResearchRoom",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "CinnabarIsland_PokemonLab_ExperimentRoom",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "CinnabarIsland_PokemonCenter_1F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "CinnabarIsland_PokemonCenter_2F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "CinnabarIsland_Mart",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "IndigoPlateau_PokemonCenter_1F",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "IndigoPlateau_PokemonCenter_2F",
+      "requested": "MUS_YOKAI_MYSTIC_GROVE",
+      "effective": "MUS_YOKAI_MYSTIC_GROVE",
+      "slot": 23,
+      "private_sample": true
+    },
+    {
+      "map": "SaffronCity_CopycatsHouse_1F",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "SaffronCity_CopycatsHouse_2F",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "SaffronCity_Dojo",
+      "requested": "MUS_YOKAI_BLASTERS_HIDEOUT",
+      "effective": "MUS_YOKAI_BLASTERS_HIDEOUT",
+      "slot": 9,
+      "private_sample": true
+    },
+    {
+      "map": "SaffronCity_Gym",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "SaffronCity_House",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "SaffronCity_Mart",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "SaffronCity_PokemonCenter_1F",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "SaffronCity_PokemonCenter_2F",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "SaffronCity_MrPsychicsHouse",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "SaffronCity_PokemonTrainerFanClub",
+      "requested": "MUS_YOKAI_UPTOWN",
+      "effective": "MUS_YOKAI_UPTOWN",
+      "slot": 22,
+      "private_sample": true
+    },
+    {
+      "map": "Route2_ViridianForest_SouthEntrance",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route2_House",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route2_EastBuilding",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route2_ViridianForest_NorthEntrance",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route4_PokemonCenter_1F",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route4_PokemonCenter_2F",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route5_PokemonDayCare",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route5_SouthEntrance",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route6_NorthEntrance",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route6_UnusedHouse",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route7_EastEntrance",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route8_WestEntrance",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route10_PokemonCenter_1F",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route10_PokemonCenter_2F",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route11_EastEntrance_1F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "Route11_EastEntrance_2F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "Route12_NorthEntrance_1F",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route12_NorthEntrance_2F",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route12_FishingHouse",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route15_WestEntrance_1F",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route15_WestEntrance_2F",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route16_House",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route16_NorthEntrance_1F",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route16_NorthEntrance_2F",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route18_EastEntrance_1F",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route18_EastEntrance_2F",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route19_UnusedHouse",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route22_NorthEntrance",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "Route23_UnusedHouse",
+      "requested": "MUS_YOKAI_DECISIVE_BATTLE",
+      "effective": "MUS_YOKAI_DECISIVE_BATTLE",
+      "slot": 15,
+      "private_sample": true
+    },
+    {
+      "map": "Route25_SeaCottage",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "SevenIsland_House_Room1",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SevenIsland_House_Room2",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SevenIsland_Mart",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SevenIsland_PokemonCenter_1F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SevenIsland_PokemonCenter_2F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SevenIsland_UnusedHouse",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SevenIsland_Harbor",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "OneIsland_PokemonCenter_1F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "OneIsland_PokemonCenter_2F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "OneIsland_House1",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "OneIsland_House2",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "OneIsland_Harbor",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "TwoIsland_JoyfulGameCorner",
+      "requested": "MUS_YOKAI_HARRISVILLE",
+      "effective": "MUS_YOKAI_HARRISVILLE",
+      "slot": 16,
+      "private_sample": true
+    },
+    {
+      "map": "TwoIsland_House",
+      "requested": "MUS_YOKAI_HARRISVILLE",
+      "effective": "MUS_YOKAI_HARRISVILLE",
+      "slot": 16,
+      "private_sample": true
+    },
+    {
+      "map": "TwoIsland_PokemonCenter_1F",
+      "requested": "MUS_YOKAI_HARRISVILLE",
+      "effective": "MUS_YOKAI_HARRISVILLE",
+      "slot": 16,
+      "private_sample": true
+    },
+    {
+      "map": "TwoIsland_PokemonCenter_2F",
+      "requested": "MUS_YOKAI_HARRISVILLE",
+      "effective": "MUS_YOKAI_HARRISVILLE",
+      "slot": 16,
+      "private_sample": true
+    },
+    {
+      "map": "TwoIsland_Harbor",
+      "requested": "MUS_YOKAI_HARRISVILLE",
+      "effective": "MUS_YOKAI_HARRISVILLE",
+      "slot": 16,
+      "private_sample": true
+    },
+    {
+      "map": "ThreeIsland_House1",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "ThreeIsland_PokemonCenter_1F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "ThreeIsland_PokemonCenter_2F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "ThreeIsland_Mart",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "ThreeIsland_House2",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "ThreeIsland_House3",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "ThreeIsland_House4",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "ThreeIsland_House5",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FourIsland_PokemonDayCare",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FourIsland_PokemonCenter_1F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FourIsland_PokemonCenter_2F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FourIsland_House1",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FourIsland_LoreleisHouse",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FourIsland_Harbor",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FourIsland_House2",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FourIsland_Mart",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_PokemonCenter_1F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_PokemonCenter_2F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_Harbor",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_House1",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_House2",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SixIsland_PokemonCenter_1F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SixIsland_PokemonCenter_2F",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SixIsland_Harbor",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SixIsland_House",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SixIsland_Mart",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "ThreeIsland_Harbor",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "FiveIsland_ResortGorgeous_House",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    },
+    {
+      "map": "TwoIsland_CapeBrink_House",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SixIsland_WaterPath_House1",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SixIsland_WaterPath_House2",
+      "requested": "MUS_YOKAI_SAN_FANTASTICO",
+      "effective": "MUS_YOKAI_SAN_FANTASTICO",
+      "slot": 21,
+      "private_sample": true
+    },
+    {
+      "map": "SevenIsland_SevaultCanyon_House",
+      "requested": "MUS_YOKAI_PATROL_MISSION",
+      "effective": "MUS_YOKAI_PATROL_MISSION",
+      "slot": 27,
+      "private_sample": true
+    }
+  ],
+  "native_unchanged_sfx_and_functional_jingles": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    268,
+    269,
+    270,
+    271,
+    276,
+    317,
+    318,
+    319,
+    320,
+    338
+  ],
+  "champion_post_victory_branch_checked": true,
+  "battle_theme_selection": [
+    {
+      "trainer": "TRAINER_YOKAI_DOMNISCIAN",
+      "music": "MUS_YOKAI_HINOZALL",
+      "native_selection_verified": true
+    },
+    {
+      "trainer": "TRAINER_YOKAI_DONMORLEONE",
+      "music": "MUS_YOKAI_GHOULFATHER",
+      "native_selection_verified": true
+    },
+    {
+      "trainer": "TRAINER_YOKAI_ENMA",
+      "music": "MUS_YOKAI_ZAZELMARE",
+      "native_selection_verified": true
+    },
+    {
+      "trainer": "TRAINER_ELITE_FOUR_LORELEI",
+      "music": "MUS_YOKAI_DECISIVE_BATTLE",
+      "native_selection_verified": true
+    },
+    {
+      "trainer": "TRAINER_BLACK_BELT_KOICHI",
+      "music": "MUS_YOKAI_BLASTERS_THEME",
+      "native_selection_verified": true
+    },
+    {
+      "trainer": "TRAINER_SCIENTIST_TED",
+      "music": "MUS_YOKAI_ROBON_3000",
+      "native_selection_verified": true
+    },
+    {
+      "trainer": "TRAINER_YOKAI_EMPLOYEROUGE",
+      "music": "MUS_YOKAI_MINI_BOSS",
+      "native_selection_verified": true
+    },
+    {
+      "trainer": "TRAINER_YOKAI_EMPLOYEBLEU",
+      "music": "MUS_YOKAI_MINI_BOSS",
+      "native_selection_verified": true
+    },
+    {
+      "trainer": "TRAINER_YOKAI_MAFIAMILLE1",
+      "music": "MUS_YOKAI_MINI_BOSS",
+      "native_selection_verified": true
+    },
+    {
+      "trainer": "TRAINER_YOKAI_MAFIAMILLE2",
+      "music": "MUS_YOKAI_MINI_BOSS",
+      "native_selection_verified": true
+    },
+    {
+      "trainer": "TRAINER_YOKAI_MAFIAMILLE3",
+      "music": "MUS_YOKAI_MINI_BOSS",
+      "native_selection_verified": true
+    }
+  ],
+  "scope": "104 native BGM playback calls, all 425 compiled map headers, all 273 SFX/fanfare header resolutions; fixtures after real new-game. This is not traversal of all maps or listening to each whole track."
+}

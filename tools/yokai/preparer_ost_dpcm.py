@@ -11,6 +11,7 @@ ROOT=Path(__file__).resolve().parents[2]
 def prepare(job):
  track,reference,output,rate=job;stem=output/f'{track["number"]:02d}';wav=stem.with_suffix('.wav');target=stem.with_suffix('.dpcm')
  subprocess.run(['ffmpeg','-v','error','-nostdin','-y','-i',reference['private_path'],'-ac','1','-ar',str(rate),'-c:a','pcm_s16le',str(wav)],check=True)
+ if track.get('pcm_wav_sha256'):assert hashlib.sha256(wav.read_bytes()).hexdigest()==track['pcm_wav_sha256'],(track['number'],'Decoder/source mismatch; do not change expected hash')
  with wave.open(str(wav),'rb') as stream:
   assert stream.getnchannels()==1 and stream.getsampwidth()==2 and stream.getframerate()==rate
   raw=stream.readframes(stream.getnframes())
@@ -18,14 +19,22 @@ def prepare(job):
  data=wave_data(samples,rate,None);target.write_bytes(data)
  return {**track,'source_sha256':reference['sha256'],'sample_rate_hz':rate,'samples':len(samples),'duration_seconds':len(samples)/rate,'wave_data_bytes':len(data),'encoded_sha256':hashlib.sha256(data).hexdigest(),'loop_start':None,'status':'FULL SOURCE ENCODED PRIVATELY FOR SIZE ONLY; natural loop and playback not validated; not active in game'}
 def main():
- parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--extracted-manifest',type=Path,required=True);parser.add_argument('--private-output',type=Path,required=True);parser.add_argument('--jobs',type=int,default=2);args=parser.parse_args()
+ parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--extracted-manifest',type=Path,required=True);parser.add_argument('--private-output',type=Path,required=True);parser.add_argument('--jobs',type=int,default=2);parser.add_argument('--numbers',help='Explicit slots, including reserved candidates, e.g. 5,8,13,14,25');args=parser.parse_args()
+ requested=set(map(int,args.numbers.split(','))) if args.numbers else None
  config=json.loads((ROOT/'data/yokai/audio_candidates.json').read_text());references=json.loads(args.extracted_manifest.read_text());jobs=[]
+ gap={r['number']:r for r in json.loads((ROOT/'data/yokai/audio_loops.json').read_text()).get('gap_tracks',[])}
  output=args.private_output.resolve();assert not output.is_relative_to(ROOT),'Private audio must stay outside checkout';output.mkdir(parents=True,exist_ok=True)
  for track in config['tracks']:
-  if not track.get('selected_v1',True):continue
+  if requested is not None:
+   if track['number'] not in requested:continue
+  elif not track.get('selected_v1',True):continue
   matches=[r for r in references if Path(r['member']).stem==track['source_stem']];assert len(matches)==1,(track['title'],len(matches))
   reference=matches[0];assert hashlib.sha256(Path(reference['private_path']).read_bytes()).hexdigest()==reference['sha256']
+  if track['number'] in gap:
+   pinned=gap[track['number']];assert reference['sha256']==pinned['mp3_sha256'],(track['number'],'Wrong MP3 source')
+   track={**track,'pcm_wav_sha256':pinned['pcm_wav_sha256']}
   jobs.append((track,reference,output,config['sample_rate_hz']))
+ if requested is not None:assert {job[0]['number'] for job in jobs}==requested,'Unknown requested slot'
  with concurrent.futures.ProcessPoolExecutor(max_workers=args.jobs) as pool:
   rows=[]
   for row in pool.map(prepare,jobs):rows.append(row);print(f"Encoded {row['number']:02d}: {row['wave_data_bytes']} bytes",flush=True)
