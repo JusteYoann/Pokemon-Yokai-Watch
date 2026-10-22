@@ -60,7 +60,8 @@ def party(r,starter=87,weak=False):
   for j,m in enumerate(moves):r.call('SetMonMoveSlot',mon,m,j)
  r.write(r.symbols['gPlayerPartyCount'],bytes([len(members)]));r.call('SetLastHealLocationWarp',3)
 
-def fight(r,stem,loss=False,limit=24000):
+def fight(r,stem,loss=False,limit=24000,expected=None):
+ if expected is None:expected=[(24,9),(25,11)]
  started=False;first_enemy=[]
  for f in range(limit):
   # Decline the real SHIFT replacement menu; the active Yo-kai is alive.
@@ -71,8 +72,8 @@ def fight(r,stem,loss=False,limit=24000):
   cb=r.u32(r.symbols['gMain']+4)
   if cb==r.symbols['BattleMainCB2']|1:
    if not started:
-    first_enemy=[(r.call('GetMonData',r.symbols['gEnemyParty']+100*i,11,0),r.call('GetMonData',r.symbols['gEnemyParty']+100*i,56,0)) for i in range(2)]
-    assert first_enemy==[(24,9),(25,11)],first_enemy
+    first_enemy=[(r.call('GetMonData',r.symbols['gEnemyParty']+100*i,11,0),r.call('GetMonData',r.symbols['gEnemyParty']+100*i,56,0)) for i in range(len(expected))]
+    assert first_enemy==expected,first_enemy
    started=True
    if f==1024:r.frame.save(OUT/(stem+'-combat.png'))
   if started and cb==r.symbols['CB2_Overworld']|1 and r.read(r.symbols['gBattleOutcome'],1)==bytes([2 if loss else 1]):
@@ -99,38 +100,41 @@ def puzzle(r,stem):
  r.frame.save(OUT/(stem+'-wyatt.png'))
  results.append({'test':stem+' gym door warp, real walks to both relics, zero/one-relic refusals, persistent relic flags and final approach','passed':True})
 
-for gender,name in [(0,'nathan'),(1,'katie')]:
- r=new_game(gender)
- try:
-  party(r)
-  warp(r,3,20,8,2) # Route2 northern exit, before the actual map connection.
-  r.keys={4};r.run(220);r.keys=set()
-  seen=finish(r,watch=True,stem=name)
-  assert seen==['morleone','enma'],seen
-  assert r.call('VarGet',STAGE)==2 and location(r)==(3,2),(location(r),r.call('VarGet',STAGE))
-  r.frame.save(OUT/(name+'-argenta-apres.png'))
-  assert r.call('TrySavingData',0,max_frames=1200)==1
-  r.call('VarSet',STAGE,0);assert r.call('LoadGameSave',0,max_frames=1200)==1 and r.call('VarGet',STAGE)==2
-  warp(r,3,2,22,36);walk(r,'U');assert idle(r),'Speech repeats after native Flash reload'
-  results.append({'test':name+' actual Route2/city connection and coordinate-triggered speech; sequential correct palettes; incognito dialogue; Flash persistence/no replay','passed':True})
-  puzzle(r,name)
-  if gender==0:
-   assert r.call('AddBagItem',327,999) and not r.call('CheckBagHasSpace',327,1)
-  face_a(r,'U');frames=fight(r,name)
-  assert r.call('FlagGet',BADGE)
-  if gender==0:
-   assert not r.call('FlagGet',TM_FLAG);r.call('RemoveBagItem',327,1);before=r.call('GetGameStat',9);face_a(r,'U');finish(r)
-   assert r.call('GetGameStat',9)==before and r.call('CheckBagHasItem',327,999)
-  else:assert r.call('CheckBagHasItem',327,1) and not r.call('CheckBagHasItem',327,2)
-  assert r.call('FlagGet',TM_FLAG)
-  before=r.call('GetGameStat',9);face_a(r,'U');finish(r);assert r.call('GetGameStat',9)==before
-  assert r.call('TrySavingData',0,max_frames=1200)==1
-  r.call('FlagClear',BADGE);r.call('FlagClear',TM_FLAG)
-  assert r.call('LoadGameSave',0,max_frames=1200)==1 and r.call('FlagGet',BADGE) and r.call('FlagGet',TM_FLAG)
-  # Exit with the trophy, then cross the real Route3 running-shoes trigger.
-  warp(r,6,2,6,13);r.keys={5};r.run(80);r.keys=set();r.run(600);assert location(r)==(3,2),location(r)
-  warp(r,3,2,45,22);walk(r,'R');finish(r);assert r.call('FlagGet',0x82F),'Running shoes not awarded'
-  results.append({'test':name+' actual Wyatt victory with normal-stat fixture party; first trophy, unique TM/full-stack retry, no repeat battle, Flash save/load, gym exit and running-shoes event','battle_frames':frames,'passed':True})
- finally:r.close()
-report={'rom_sha256':hashlib.sha256((ROOT/'pokefirered.gba').read_bytes()).hexdigest(),'scope':'Real intro, fixture party/progression and warps to Route2 and gym entrance; chapter interactions and battles via buttons, no forced victory/stat boosts. Not a continuous Pallet-to-Pewter playthrough or exhaustive balancing.','results':results}
-(OUT/'TEST_CHAPITRE_MGBA.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report,ensure_ascii=False,indent=2))
+def main():
+ for gender,name in [(0,'nathan'),(1,'katie')]:
+  r=new_game(gender)
+  try:
+   party(r)
+   warp(r,3,20,8,2) # Route2 northern exit, before the actual map connection.
+   r.keys={4};r.run(220);r.keys=set()
+   seen=finish(r,watch=True,stem=name)
+   assert seen==['morleone','enma'],seen
+   assert r.call('VarGet',STAGE)==2 and location(r)==(3,2),(location(r),r.call('VarGet',STAGE))
+   r.frame.save(OUT/(name+'-argenta-apres.png'))
+   assert r.call('TrySavingData',0,max_frames=1200)==1
+   r.call('VarSet',STAGE,0);assert r.call('LoadGameSave',0,max_frames=1200)==1 and r.call('VarGet',STAGE)==2
+   warp(r,3,2,22,36);walk(r,'U');assert idle(r),'Speech repeats after native Flash reload'
+   results.append({'test':name+' actual Route2/city connection and coordinate-triggered speech; sequential correct palettes; incognito dialogue; Flash persistence/no replay','passed':True})
+   puzzle(r,name)
+   if gender==0:
+    assert r.call('AddBagItem',327,999) and not r.call('CheckBagHasSpace',327,1)
+   face_a(r,'U');frames=fight(r,name)
+   assert r.call('FlagGet',BADGE)
+   if gender==0:
+    assert not r.call('FlagGet',TM_FLAG);r.call('RemoveBagItem',327,1);before=r.call('GetGameStat',9);face_a(r,'U');finish(r)
+    assert r.call('GetGameStat',9)==before and r.call('CheckBagHasItem',327,999)
+   else:assert r.call('CheckBagHasItem',327,1) and not r.call('CheckBagHasItem',327,2)
+   assert r.call('FlagGet',TM_FLAG)
+   before=r.call('GetGameStat',9);face_a(r,'U');finish(r);assert r.call('GetGameStat',9)==before
+   assert r.call('TrySavingData',0,max_frames=1200)==1
+   r.call('FlagClear',BADGE);r.call('FlagClear',TM_FLAG)
+   assert r.call('LoadGameSave',0,max_frames=1200)==1 and r.call('FlagGet',BADGE) and r.call('FlagGet',TM_FLAG)
+   # Exit with the trophy, then cross the real Route3 running-shoes trigger.
+   warp(r,6,2,6,13);r.keys={5};r.run(80);r.keys=set();r.run(600);assert location(r)==(3,2),location(r)
+   warp(r,3,2,45,22);walk(r,'R');finish(r);assert r.call('FlagGet',0x82F),'Running shoes not awarded'
+   results.append({'test':name+' actual Wyatt victory with normal-stat fixture party; first trophy, unique TM/full-stack retry, no repeat battle, Flash save/load, gym exit and running-shoes event','battle_frames':frames,'passed':True})
+  finally:r.close()
+ report={'rom_sha256':hashlib.sha256((ROOT/'pokefirered.gba').read_bytes()).hexdigest(),'scope':'Real intro, fixture party/progression and warps to Route2 and gym entrance; chapter interactions and battles via buttons, no forced victory/stat boosts. Not a continuous Pallet-to-Pewter playthrough or exhaustive balancing.','results':results}
+ (OUT/'TEST_CHAPITRE_MGBA.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report,ensure_ascii=False,indent=2))
+
+if __name__=='__main__':main()

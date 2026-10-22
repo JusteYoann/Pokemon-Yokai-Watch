@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "rom_sha256": "2837cb03b9b02499ad5b7f7c05b97b76fc54a2d4036d3106efeea3c81e0f1057",
+  "scope": "Independent emulator instances with explicit progression and party fixtures; native defeat, save/load, dialogue and postgame battle; not a whole adventure",
+  "results": [
+    {
+      "test": "Actual first-champion defeat/whiteout, no trophy/TM/victory flag, relics retained, healed player can retry",
+      "frames": 2472,
+      "passed": true
+    },
+    {
+      "test": "Native Flash reload of prior first-trophy save: intro skipped, trophy retained and gate does not require newly added relic flags",
+      "passed": true
+    },
+    {
+      "test": "Engineered intermediate story state survives Flash and resumes only incognito conversation, without replaying Morleone",
+      "passed": true
+    },
+    {
+      "test": "Actual optional high-level rematch relocated to gym; No accepted; original six-member team; full-stack Stone pending then delivered without another fight; unique persisted reward; old Cinnabar double absent",
+      "frames": 8472,
+      "passed": true,
+      "fixture": "Level100 Hovernyan with Aerial Ace and explicitly boosted HP/stats999; validates event transitions, not postgame balance"
+    }
+  ]
+}

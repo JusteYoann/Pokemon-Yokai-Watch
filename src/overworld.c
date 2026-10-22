@@ -1721,6 +1721,22 @@ void CB2_ContinueSavedGame(void)
         WarpIntoMap();
         SetMainCallback2(CB2_LoadMap);
     }
+    else if ((gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_PEWTER_CITY)
+           && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_PEWTER_CITY)
+           && !FlagGet(FLAG_SCENARIO_ARGENTA_CITY_CURRENT))
+          || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_PEWTER_CITY_GYM)
+           && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_PEWTER_CITY_GYM)
+           && !FlagGet(FLAG_SCENARIO_ARGENTA_GYM_CURRENT)))
+    {
+        // Pre-chapter saves retain old tiles and object templates. Re-enter once
+        // through the normal loader, at a safe position, to rebuild both.
+        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_PEWTER_CITY_GYM))
+            SetWarpDestination(MAP_GROUP(MAP_PEWTER_CITY_GYM), MAP_NUM(MAP_PEWTER_CITY_GYM), WARP_ID_NONE, 6, 13);
+        else
+            SetWarpDestination(MAP_GROUP(MAP_PEWTER_CITY), MAP_NUM(MAP_PEWTER_CITY), WARP_ID_NONE, 22, 36);
+        WarpIntoMap();
+        SetMainCallback2(CB2_LoadMap);
+    }
     else
     {
         gFieldCallback = FieldCB_ShowMapNameOnContinue;

@@ -44,7 +44,7 @@ Le créateur a explicitement validé pendant cette reprise : Céladopole sans tr
 Le scénario complet n'est pas intégré. La première salle accessible reste celle d'Olga ; le contrôle d'entrée ne constitue pas le nouveau Temple. Les anciennes arènes donnent encore leurs badges historiques, y compris Céladopole : migrer sa récompense avec celle d'Alyzon, sans supprimer l'unique source d'un trophée avant son remplacement.
 
 Ensembles suivants :
-1. Argenta : discours de Morleone, Mafiamille, Enma incognito ; premier Champion Wyatt et épreuve. Sprite humain d'Enma à produire selon la référence exacte, sans substituer sa forme royale.
+1. Argenta intégré : discours de Morleone, Mafiamille, Enma humain incognito, fouilles et premier trophée de Wyatt. Recette et limites : `../ARGENTA_SCENARIO_2026/README.md`. Équilibrage de tous les starters et parcours intégral encore à valider.
 2. Champions 2 à 5 et leurs véritables épreuves, variantes de protagoniste ; migration des caméos en évitant les doublons ; Agent X récurrent.
 3. Lavanville : habitants temporairement absents, zombies au contact, ambiance, cloche et Alyzon ; aucune explication inventée reliant le phénomène aux antagonistes.
 4. Cramois'Île passée : géographie conservée, variantes Nathaniel/Michael, restrictions de toutes les sorties, trophée 7 et retours sans softlock.

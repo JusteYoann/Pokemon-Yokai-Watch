@@ -13284,37 +13284,14 @@
     "source_party": "sParty_EliteFourLance"
   },
   "TRAINER_LEADER_BROCK": {
-    "mode": "locked_boss",
+    "mode": "scenario_wyatt",
+    "source_party": "sScenarioParty_WyattFirstTrophy",
+    "items": [],
     "party": [
       {
-        "species": "SPECIES_PORYGON",
-        "level": 8,
-        "moves": [
-          "MOVE_TACKLE",
-          "MOVE_SAND_ATTACK",
-          "MOVE_MUD_SLAP",
-          "MOVE_NONE"
-        ],
-        "ability": "ABILITY_SAND_VEIL",
-        "ability_num": 0,
-        "held_item": "ITEM_NONE"
-      },
-      {
-        "species": "SPECIES_MEOWTH",
-        "level": 10,
-        "moves": [
-          "MOVE_SCRATCH",
-          "MOVE_SAND_ATTACK",
-          "MOVE_MUD_SLAP",
-          "MOVE_NONE"
-        ],
-        "ability": "ABILITY_ROCK_HEAD",
-        "ability_num": 1,
-        "held_item": "ITEM_NONE"
-      },
-      {
-        "species": "SPECIES_PIKACHU",
-        "level": 12,
+        "species": "SPECIES_ARBOK",
+        "level": 9,
+        "iv": 0,
         "moves": [
           "MOVE_TACKLE",
           "MOVE_ROCK_THROW",
@@ -13324,10 +13301,22 @@
         "ability": "ABILITY_STURDY",
         "ability_num": 0,
         "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_PIKACHU",
+        "level": 11,
+        "iv": 0,
+        "moves": [
+          "MOVE_TACKLE",
+          "MOVE_ROCK_THROW",
+          "MOVE_NONE",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_STURDY",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
       }
-    ],
-    "items": [],
-    "source_party": "sParty_LeaderBrock"
+    ]
   },
   "TRAINER_LEADER_MISTY": {
     "mode": "locked_boss",

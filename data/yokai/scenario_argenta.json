@@ -1,5 +1,5 @@
 {
-  "status": "chapter_implemented_native_tests_passed_additional_migration_checks_in_progress",
+  "status": "chapter_implemented_native_tests_passed",
   "progress_var": "VAR_SCENARIO_ARGENTA_STAGE",
   "stages": {
     "0": "Morleone speech pending",
@@ -20,7 +20,42 @@
       "level": 11
     }
   ],
-  "secondary_balance_choices": "IV0; no held items or trainer healing; levels provisional until ordinary-team tests",
+  "secondary_balance_choices": "IV0; no held items or trainer healing; levels9/11 provisional, normal Water-starter fixture passes; all-starter balance pending",
   "postgame_wyatt": "Original high-level cameo team retained, location now gym; original Water Stone reward flag preserved",
-  "old_save_migration": "Existing first trophy bypasses new intro and relic gate; no trophy reset"
+  "old_save_migration": "Existing first trophy bypasses intro and relic gate. On first native Continue in city/gym, reload current map/object templates at safe entrance; subsequent Continue retains exact position. Explicit legacy-state fixtures tested, no archived player save.",
+  "active_trainer": {
+    "mode": "scenario_wyatt",
+    "source_party": "sScenarioParty_WyattFirstTrophy",
+    "items": [],
+    "party": [
+      {
+        "species": "SPECIES_ARBOK",
+        "level": 9,
+        "iv": 0,
+        "moves": [
+          "MOVE_TACKLE",
+          "MOVE_ROCK_THROW",
+          "MOVE_GROWL",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_STURDY",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      },
+      {
+        "species": "SPECIES_PIKACHU",
+        "level": 11,
+        "iv": 0,
+        "moves": [
+          "MOVE_TACKLE",
+          "MOVE_ROCK_THROW",
+          "MOVE_NONE",
+          "MOVE_NONE"
+        ],
+        "ability": "ABILITY_STURDY",
+        "ability_num": 0,
+        "held_item": "ITEM_NONE"
+      }
+    ]
+  }
 }

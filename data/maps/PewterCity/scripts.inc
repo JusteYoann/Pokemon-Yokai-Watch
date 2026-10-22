@@ -4,6 +4,7 @@ PewterCity_MapScripts::
 	.byte 0
 
 PewterCity_OnTransition::
+	setflag FLAG_SCENARIO_ARGENTA_CITY_CURRENT
 	call PewterCity_EventScript_SetScenarioActors
 	setworldmapflag FLAG_WORLD_MAP_PEWTER_CITY
 	setvar VAR_MAP_SCENE_PEWTER_CITY_MUSEUM_1F, 0

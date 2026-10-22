@@ -1,5 +1,10 @@
 PewterCity_Gym_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, PewterCity_Gym_OnTransition
 	.byte 0
+
+PewterCity_Gym_OnTransition::
+	setflag FLAG_SCENARIO_ARGENTA_GYM_CURRENT
+	end
 
 PewterCity_Gym_EventScript_Brock::
 	lock
