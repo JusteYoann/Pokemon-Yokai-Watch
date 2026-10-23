@@ -1,0 +1,237 @@
+{
+  "palette": {
+    ".": [
+      0,
+      0,
+      0
+    ],
+    "K": [
+      8,
+      8,
+      8
+    ],
+    "o": [
+      168,
+      120,
+      24
+    ],
+    "h": [
+      208,
+      160,
+      40
+    ],
+    "Y": [
+      248,
+      216,
+      80
+    ],
+    "L": [
+      248,
+      232,
+      120
+    ],
+    "s": [
+      192,
+      136,
+      88
+    ],
+    "S": [
+      232,
+      176,
+      128
+    ],
+    "E": [
+      0,
+      144,
+      184
+    ],
+    "W": [
+      248,
+      248,
+      248
+    ],
+    "w": [
+      208,
+      216,
+      224
+    ],
+    "P": [
+      128,
+      48,
+      152
+    ],
+    "p": [
+      96,
+      32,
+      120
+    ],
+    "B": [
+      32,
+      56,
+      96
+    ],
+    "b": [
+      24,
+      40,
+      72
+    ],
+    "d": [
+      144,
+      96,
+      56
+    ]
+  },
+  "rows": {
+    "gauche": [
+      ".....oooo.....",
+      "....hLLLLh....",
+      "...hhYYYYYh...",
+      ".hhhLLYYYYYh..",
+      ".hLLhLYYYYYYh.",
+      ".hLLYhYYYYYYh.",
+      "..hLYShYYYYYh.",
+      "..hLSKhYYYYYh.",
+      ".KSSSEhYYYYYh.",
+      "..KSSShYYhYLYh",
+      "...KSSKYYhLLYh",
+      "...KWPWKhKLYYh",
+      "...KWSSWWKKYh.",
+      "...KwSsWWwK...",
+      "...KWBKWWWK...",
+      "...KWBKKWWK...",
+      "...WKK.KKWW..."
+    ],
+    "dos": [
+      ".....oooo.....",
+      "....hLLLLh....",
+      "...hhYYYYYh...",
+      "..hLLYYYYYYh..",
+      ".hLLhLYYYYYYh.",
+      ".hLLYhYYYYYYh.",
+      "..hLYYYYYYLYh.",
+      "..hLYYhYYYLYh.",
+      "..hLYYhYYhLYh.",
+      ".hLLYhhYYhLLYh",
+      ".hLYYhhYYhLYYh",
+      "hLYKWhWYhWWKYh",
+      "..KSSWWWWSSK..",
+      "..KsWWwwWWsK..",
+      "..KKWWwwWWKK..",
+      "..KWWWKKWWWK..",
+      "..WWKK..KKWW.."
+    ],
+    "droite": [
+      ".....oooo.....",
+      "....hLLLLh....",
+      "...hYYYYYhh...",
+      "..hYYYYYLLhhh.",
+      ".hYYYYYYLhLLh.",
+      ".hYYYYYYhYLLh.",
+      ".hYYYYYYhSYLh.",
+      ".hYYYYYYhKSLh.",
+      ".hYYYYYYhESSSK",
+      "hYLYhYYhSSSK..",
+      "hYLLhYYKSSK...",
+      "hYYLKhKWPWK...",
+      ".hYKKWWSSWK...",
+      "...KwWWsSwK...",
+      "...KWWWKBWK...",
+      "...KWWKKBWK...",
+      "...WWKK.KKW..."
+    ]
+  },
+  "records": [
+    {
+      "direction": "gauche",
+      "pose": "repos",
+      "bbox": [
+        10,
+        14,
+        23,
+        31
+      ]
+    },
+    {
+      "direction": "gauche",
+      "pose": "pas-1",
+      "bbox": [
+        10,
+        14,
+        23,
+        31
+      ]
+    },
+    {
+      "direction": "gauche",
+      "pose": "pas-2",
+      "bbox": [
+        10,
+        14,
+        23,
+        31
+      ]
+    },
+    {
+      "direction": "dos",
+      "pose": "repos",
+      "bbox": [
+        9,
+        14,
+        23,
+        31
+      ]
+    },
+    {
+      "direction": "dos",
+      "pose": "pas-1",
+      "bbox": [
+        9,
+        14,
+        23,
+        31
+      ]
+    },
+    {
+      "direction": "dos",
+      "pose": "pas-2",
+      "bbox": [
+        9,
+        14,
+        23,
+        31
+      ]
+    },
+    {
+      "direction": "droite",
+      "pose": "repos",
+      "bbox": [
+        9,
+        14,
+        23,
+        31
+      ]
+    },
+    {
+      "direction": "droite",
+      "pose": "pas-1",
+      "bbox": [
+        9,
+        14,
+        23,
+        31
+      ]
+    },
+    {
+      "direction": "droite",
+      "pose": "pas-2",
+      "bbox": [
+        9,
+        14,
+        23,
+        31
+      ]
+    }
+  ],
+  "old_front_untouched": true,
+  "source": "Déclinaisons adaptées visuellement à la capture choisie ; face non incluse dans cette nouvelle planche."
+}
