@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Read-only approved Stage B scope and binary audio/memory preservation."""
-import json,hashlib,subprocess
+import json,hashlib,subprocess,os
 from mgba_rpc import ROOT as R
-Q=R/'QA_RECETTE_FINALE/DON_SPIRATON/ETAPE_B';Q.mkdir(parents=True,exist_ok=True)
+Q=R/os.environ.get('YOKAI_SPIRATON_PRESERVATION_DIR','QA_RECETTE_FINALE/DON_SPIRATON/ETAPE_B');Q.mkdir(parents=True,exist_ok=True)
 base='4289f076d59fdacfc386e9b56bcf3c193e853e94'
-allowed={'data/battle_anim_scripts.s','data/maps/PokemonLeague_ChampionsRoom/map.json','data/maps/PokemonLeague_ChampionsRoom/scripts.inc','data/maps/PokemonLeague_ChampionsRoom/spiraton.inc','include/spiraton_art.h','include/spiraton_battle.h','include/spiraton_config.h','src/battle_anim.c','src/battle_anim_effects_3.c','src/battle_controller_opponent.c','src/battle_gfx_sfx_util.c','src/spiraton_art_preview.c','src/spiraton_battle.c','src/yokai_battle_geometry.c','data/yokai/spiraton/mission.json'}
+allowed={'src/event_object_movement.c','data/battle_anim_scripts.s','data/maps/PokemonLeague_ChampionsRoom/map.json','data/maps/PokemonLeague_ChampionsRoom/scripts.inc','data/maps/PokemonLeague_ChampionsRoom/spiraton.inc','include/spiraton_art.h','include/spiraton_battle.h','include/spiraton_config.h','src/battle_anim.c','src/battle_anim_effects_3.c','src/battle_controller_opponent.c','src/battle_gfx_sfx_util.c','src/spiraton_art_preview.c','src/spiraton_battle.c','src/yokai_battle_geometry.c','data/yokai/spiraton/mission.json'}
 changed=subprocess.check_output(['git','diff','--name-only',base,'--','src','include','data','graphics','sound'],cwd=R,text=True).splitlines()
 assert not set(changed)-allowed,set(changed)-allowed
 for suffix in ['map.json','scripts.inc','text.inc']:

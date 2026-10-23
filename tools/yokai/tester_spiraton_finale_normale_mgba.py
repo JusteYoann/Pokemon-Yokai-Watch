@@ -10,7 +10,7 @@ from mgba_new_game import new_game
 from mafiamille_qa import C,MAPS,warp,strong_party
 from pilote_combat_mgba import battle_keys
 Q=ROOT/os.environ.get('YOKAI_FINALE_REPORT_DIR','QA_RECETTE_FINALE/DON_SPIRATON/ETAPE_B/jalon3/public');Q.mkdir(parents=True,exist_ok=True)
-r=new_game();passed=False;events=[];battles=[];phases=[];credits=set();hof=False;heal=False;white=False;first=False;conclusion=False;chen=False;departed=False
+r=new_game();passed=False;events=[];battles=[];phases=[];credits=set();hof=False;heal=False;white=False;first=False;conclusion=False;chen=False;departed=False;matt_checks=[]
 
 def pos():
  for i in range(16):
@@ -37,6 +37,26 @@ def mapname():
 
 def actors():
  return [b[8] for i in range(16) if (b:=r.read(r.symbols['gObjectEvents']+36*i,36))[0]&1]
+def check_matt_companion(stage):
+ objects={}
+ for i in range(16):
+  raw=r.read(r.symbols['gObjectEvents']+36*i,36)
+  if raw[0]&1 and raw[9:11]==bytes([MAPS['PokemonLeague_ChampionsRoom'][1],MAPS['PokemonLeague_ChampionsRoom'][0]]):objects[raw[8]]=raw
+ player,matt,don=objects[255],objects[1],objects[3]
+ xy=lambda b:tuple(v-7 for v in struct.unpack_from('<hh',b,16))
+ px,py=xy(player);mx,my=xy(matt)
+ assert (mx,my)==(px-1,py),('Matt must be immediately left, same row',stage,xy(player),xy(matt))
+ assert matt[24]&15==2 and player[24]&15==2,('Matt/player must face enemy',stage,matt[24]&15,player[24]&15)
+ banks=[]
+ for label,obj,bank,symbol in [('Matt',matt,6,'gObjectEventPal_Matt'),('Don',don,10,'gObjectEventPal_YokaiDonMorleoneGroup')]:
+  actual=int.from_bytes(r.read(r.symbols['gSprites']+68*obj[4]+4,2),'little')>>12
+  assert actual==bank,(stage,label,actual,bank)
+  assert r.read(r.symbols['gPlttBufferUnfaded']+512+32*bank,32)==r.read(r.symbols[symbol],32),(stage,label,'Wrong palette after battle return')
+  banks.append(actual)
+ assert len({xy(b) for b in objects.values()})==len(objects),'Actors overlap'
+ matt_checks.append(dict(stage=stage,player=xy(player),matt=xy(matt),both_face_north=True,matt_bank=banks[0],don_bank=banks[1],normal_palettes=True))
+ r.frame.save(Q/f'matt-couleurs-position-etape-{stage}.png')
+
 try:
  strong_party(r)
  # Native Set battle-style option avoids optional shift prompts in this pilot.
@@ -85,6 +105,7 @@ try:
     events.append(dict(event='scene_stage',stage=stage,frame=f,actors=actors(),player=pos()))
     if stage in [6,7,8]:r.keys=set();r.run(120)
     r.frame.save(Q/f'etape-{stage}.png');laststage=stage
+    if stage in [3,6]:check_matt_companion(stage)
    if stage==3 and not heal:
     for i in range(6):
      mon=r.symbols['gPlayerParty']+100*i;get=lambda k:r.call('GetMonData',mon,C[k],0)
@@ -137,5 +158,5 @@ try:
  passed=True
 finally:
  if not passed:r.frame.save(Q/'diagnostic.png')
- (Q/'FINALE_NORMALE_MGBA.json').write_text(json.dumps(dict(passed=passed,scope=__doc__,rom_sha256=hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),events=events,battles=battles,levels=phases,whole_six_party_heal=heal,white=white,first_choice_wait=first,conclusion=conclusion,mafia_departed=departed,chen_present=chen,hall_of_fame=hof,credits=sorted(credits),postgame_continue=passed,story_victory_flags_injected=False,qa_initial_party=True),indent=2)+'\n');r.close()
+ (Q/'FINALE_NORMALE_MGBA.json').write_text(json.dumps(dict(passed=passed,scope=__doc__,rom_sha256=hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),events=events,battles=battles,levels=phases,whole_six_party_heal=heal,white=white,first_choice_wait=first,conclusion=conclusion,mafia_departed=departed,chen_present=chen,hall_of_fame=hof,credits=sorted(credits),postgame_continue=passed,story_victory_flags_injected=False,qa_initial_party=True,matt_companion_palette_position_checks=matt_checks),indent=2)+'\n');r.close()
 print('PASS: Lance, normal final-room entry, both battles, conclusion, native HOF/credits/save/Continue')

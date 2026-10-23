@@ -95,6 +95,7 @@ PokemonLeague_Spiraton_DevelopmentWon::
 	waitmovement 0
 	removeobject LOCALID_SPIRATON_GUARD_BACK
 	setvar VAR_TEMP_2, 7
+	applymovement LOCALID_CHAMPIONS_ROOM_RIVAL, Common_Movement_WalkInPlaceFasterRight
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	msgbox Spiraton_Text_MattCongratulations
@@ -125,8 +126,7 @@ Spiraton_MattEnter::
 	walk_fast_up
 	walk_fast_left
 	walk_fast_up
-	walk_fast_up
-	walk_in_place_faster_right
+	walk_in_place_faster_up
 	step_end
 
 Spiraton_GuardLeft::
@@ -257,9 +257,9 @@ Spiraton_OakEnter::
 	walk_up
 	walk_up
 	walk_up
+	walk_left
+	walk_left
 	walk_up
-	walk_left
-	walk_left
 	walk_up
 	walk_up
 	walk_right

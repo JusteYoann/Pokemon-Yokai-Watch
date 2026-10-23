@@ -1613,11 +1613,20 @@ void Unref_RemoveAllObjectEventsExceptPlayer(void)
     }
 }
 
+// These scenes show Matt and Don together. Keep the same separate palette
+// both at initial spawn and when the overworld sprites are rebuilt after battle.
+static bool8 ObjectUsesMattScenePalette(const struct ObjectEvent *objectEvent, u16 graphicsId)
+{
+    return graphicsId == OBJ_EVENT_GFX_BLUE
+        && ((objectEvent->mapNum == MAP_NUM(MAP_PEWTER_CITY) && objectEvent->mapGroup == MAP_GROUP(MAP_PEWTER_CITY))
+         || (objectEvent->mapNum == MAP_NUM(MAP_POKEMON_LEAGUE_CHAMPIONS_ROOM) && objectEvent->mapGroup == MAP_GROUP(MAP_POKEMON_LEAGUE_CHAMPIONS_ROOM)));
+}
+
 static u8 TrySetupObjectEventSprite(const struct ObjectEventTemplate *objectEventTemplate, struct SpriteTemplate *spriteTemplate, u8 mapNum, u8 mapGroup, s16 cameraX, s16 cameraY)
 {
     u8 spriteId;
     u8 paletteSlot;
-    bool8 argentaMatt;
+    bool8 separateMattPalette;
     u8 objectEventId;
     struct Sprite *sprite;
     struct ObjectEvent *objectEvent;
@@ -1629,17 +1638,13 @@ static u8 TrySetupObjectEventSprite(const struct ObjectEventTemplate *objectEven
 
     objectEvent = &gObjectEvents[objectEventId];
     graphicsInfo = GetObjectEventGraphicsInfo(objectEvent->graphicsId);
-    // Argenta and the dry Champion room: bank6 is an unused reflection bank.
-    // Keep original pixels/palettes/animations; never overwrite Don's bank10.
-    argentaMatt = ((mapNum == MAP_NUM(MAP_PEWTER_CITY) && mapGroup == MAP_GROUP(MAP_PEWTER_CITY))
-                || (mapNum == MAP_NUM(MAP_POKEMON_LEAGUE_CHAMPIONS_ROOM) && mapGroup == MAP_GROUP(MAP_POKEMON_LEAGUE_CHAMPIONS_ROOM)))
-               && objectEvent->graphicsId == OBJ_EVENT_GFX_BLUE;
-    paletteSlot = argentaMatt ? PALSLOT_NPC_1_REFLECTION : graphicsInfo->paletteSlot;
-    if (argentaMatt)
+    separateMattPalette = ObjectUsesMattScenePalette(objectEvent, objectEvent->graphicsId);
+    paletteSlot = separateMattPalette ? PALSLOT_NPC_1_REFLECTION : graphicsInfo->paletteSlot;
+    if (separateMattPalette)
         PatchObjectPalette(graphicsInfo->paletteTag, paletteSlot);
     if (graphicsInfo->paletteSlot == PALSLOT_PLAYER)
         LoadPlayerObjectReflectionPalette(graphicsInfo->paletteTag, graphicsInfo->paletteSlot);
-    else if (!argentaMatt && graphicsInfo->paletteSlot == PALSLOT_NPC_SPECIAL)
+    else if (!separateMattPalette && graphicsInfo->paletteSlot == PALSLOT_NPC_SPECIAL)
         LoadSpecialObjectReflectionPalette(graphicsInfo->paletteTag, graphicsInfo->paletteSlot);
 
 
@@ -1947,6 +1952,8 @@ void SpawnObjectEventsOnReturnToField(s16 x, s16 y)
 static void SpawnObjectEventOnReturnToField(u8 objectEventId, s16 x, s16 y)
 {
     u8 spriteId;
+    u8 paletteSlot;
+    bool8 separateMattPalette;
     struct Sprite *sprite;
     struct ObjectEvent *objectEvent;
     struct SpriteTemplate spriteTemplate;
@@ -1966,15 +1973,19 @@ static void SpawnObjectEventOnReturnToField(u8 objectEventId, s16 x, s16 y)
     objectEvent++;objectEvent--; // fakematch
     subspriteTables = NULL;
     graphicsInfo = GetObjectEventGraphicsInfo(objectEvent->graphicsId);
+    separateMattPalette = ObjectUsesMattScenePalette(objectEvent, objectEvent->graphicsId);
+    paletteSlot = separateMattPalette ? PALSLOT_NPC_1_REFLECTION : graphicsInfo->paletteSlot;
     spriteFrameImage.size = graphicsInfo->size;
     CopyObjectGraphicsInfoToSpriteTemplate_WithMovementType(objectEvent->graphicsId, objectEvent->movementType, &spriteTemplate, &subspriteTables);
     spriteTemplate.images = &spriteFrameImage;
 
     *(u16 *)&spriteTemplate.paletteTag = TAG_NONE;
-    if (graphicsInfo->paletteSlot == PALSLOT_PLAYER)
+    if (separateMattPalette)
+        PatchObjectPalette(graphicsInfo->paletteTag, paletteSlot);
+    else if (graphicsInfo->paletteSlot == PALSLOT_PLAYER)
         LoadPlayerObjectReflectionPalette(graphicsInfo->paletteTag, graphicsInfo->paletteSlot);
 
-    if (graphicsInfo->paletteSlot >= PALSLOT_NPC_SPECIAL)
+    if (!separateMattPalette && graphicsInfo->paletteSlot >= PALSLOT_NPC_SPECIAL)
         LoadSpecialObjectReflectionPalette(graphicsInfo->paletteTag, graphicsInfo->paletteSlot);
 
     *(u16 *)&spriteTemplate.paletteTag = TAG_NONE;
@@ -1996,7 +2007,7 @@ static void SpawnObjectEventOnReturnToField(u8 objectEventId, s16 x, s16 y)
         if (subspriteTables != NULL)
             SetSubspriteTables(sprite, subspriteTables);
 
-        sprite->oam.paletteNum = graphicsInfo->paletteSlot;
+        sprite->oam.paletteNum = paletteSlot;
         sprite->coordOffsetEnabled = TRUE;
         sprite->data[0] = objectEventId;
         objectEvent->spriteId = spriteId;
@@ -2035,13 +2046,17 @@ void ObjectEventSetGraphicsId(struct ObjectEvent *objectEvent, u8 graphicsId)
     struct Sprite *sprite;
     u8 var;
     u8 var3;
+    u8 paletteSlot;
+    bool8 separateMattPalette;
 
     graphicsInfo = GetObjectEventGraphicsInfo(graphicsId);
+    separateMattPalette = ObjectUsesMattScenePalette(objectEvent, graphicsId);
+    paletteSlot = separateMattPalette ? PALSLOT_NPC_1_REFLECTION : graphicsInfo->paletteSlot;
     sprite = &gSprites[objectEvent->spriteId];
-    if (graphicsInfo->paletteSlot == PALSLOT_PLAYER)
-        PatchObjectPalette(graphicsInfo->paletteTag, graphicsInfo->paletteSlot);
+    if (separateMattPalette || graphicsInfo->paletteSlot == PALSLOT_PLAYER)
+        PatchObjectPalette(graphicsInfo->paletteTag, paletteSlot);
 
-    if (graphicsInfo->paletteSlot == PALSLOT_NPC_SPECIAL)
+    if (!separateMattPalette && graphicsInfo->paletteSlot == PALSLOT_NPC_SPECIAL)
         LoadSpecialObjectReflectionPalette(graphicsInfo->paletteTag, graphicsInfo->paletteSlot);
     
     var = sprite->images->size / TILE_SIZE_4BPP;
@@ -2054,7 +2069,7 @@ void ObjectEventSetGraphicsId(struct ObjectEvent *objectEvent, u8 graphicsId)
     sprite->images = graphicsInfo->images;
     sprite->anims = graphicsInfo->anims;
     sprite->subspriteTables = graphicsInfo->subspriteTables;
-    sprite->oam.paletteNum = graphicsInfo->paletteSlot;
+    sprite->oam.paletteNum = paletteSlot;
     if (!sprite->usingSheet)
     {
         s32 var2;

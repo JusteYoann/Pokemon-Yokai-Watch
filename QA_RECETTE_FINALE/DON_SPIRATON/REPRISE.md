@@ -1,3 +1,5 @@
+> Correction suivante : palette de Matt au retour de combat et position à gauche, vérifiées dans [CORRECTION_MATT/RAPPORT.md](CORRECTION_MATT/RAPPORT.md).
+
 > État actuel : étape B terminée techniquement. Voir [RAPPORT_FINAL_ETAPE_B](ETAPE_B/RAPPORT_FINAL.md). Le contenu ci-dessous décrit le prototype historique.
 
 # Don Spiraton — état technique et reprise

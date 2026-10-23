@@ -13,3 +13,9 @@ Captures réelles mGBA, équipe QA renforcée, dialogues confirmés plus lenteme
 pour rester lisibles. Aucun changement au jeu. Cette édition est **sans audio**
 pour préserver la consigne de ne pas publier les OST privées sur GitHub.
 L’archive avec le mixage original est conservée localement.
+
+## Correction de Matt
+
+[Voir le clip corrigé après le combat](matt-corrige-apres-combat.mp4?raw=true).
+Matt conserve sa palette normale, se place immédiatement à gauche du joueur et
+regarde Don avec lui. L’archive ci-dessus est recapturée avec cette correction.
