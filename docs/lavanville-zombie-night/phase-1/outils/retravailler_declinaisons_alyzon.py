@@ -14,10 +14,10 @@ left=[
 '.hhhLLYYYYYh..',
 '.hLLhLYYYYYYh.',
 '.hLLYhYYYYYYh.',
-'..hLYShYYYYYh.',
-'..hLSKhYYYYYh.',
-'....SEhYYYYYh.',
-'....SShYYhYLYh',
+'..hLYLhYYYYYh.',
+'..hLLYhYYYYYh.',
+'....LYhYYYYYh.',
+'....hShYYhYLYh',
 '...KSSKYYhLLYh',
 '...KWPWKhKLYYh',
 '...KWSSWWKKYh.',
@@ -48,6 +48,7 @@ right=[r[::-1] for r in left]
 right[6]='.hYYYYYYhSYLh.'
 right[7]='.hYYYYYYhKSLh.'
 right[8]='.hYYYYYYhES...'
+right[9]='....SShYYhYLYh'[::-1]
 rows_by={'gauche':left,'dos':back,'droite':right};frames={};records=[]
 for name,rows in rows_by.items():
  assert all(len(r)==14 for r in rows),(name,[(i,len(r)) for i,r in enumerate(rows)])
