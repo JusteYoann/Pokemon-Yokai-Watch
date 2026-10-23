@@ -4,7 +4,7 @@
 Explicit map/flags/strong-party fixtures, no changes to opposing teams or ROM.
 Not a full adventure playthrough or subjective listening.
 """
-import hashlib, json, os, ctypes
+import hashlib, json, os, ctypes, subprocess
 from collections import deque
 import numpy as np
 from mgba_new_game import new_game
@@ -54,6 +54,11 @@ try:
     boss.warp(r, {'map': MAPS['PokemonLeague_ChampionsRoom'][1]}, {'x': 6, 'y': 17})
     started = False
     seen = False
+    hold_frames = int(os.environ.get('YOKAI_AUDIO31_MATT_HOLD_FRAMES','0'))
+    held = False
+    action_handlers = {int(v[0],16)|1 for line in subprocess.check_output(
+        ['arm-none-eabi-nm','--defined-only',str(r.elf_path)],text=True).splitlines()
+        if len(v:=line.split())==3 and v[2]=='HandleInputChooseAction'}
     for f in range(65000):
         r.keys = battle_keys(r, f); r.run()
         if r.u32(r.symbols['gMain']+4) == r.symbols['BattleMainCB2'] | 1:
@@ -62,25 +67,27 @@ try:
                 seen = True; music_frame = f
             if seen and f == music_frame + 180:
                 r.frame.save(P/'matt-combat.png')
-                hold_frames = int(os.environ.get('YOKAI_AUDIO31_MATT_HOLD_FRAMES','0'))
-                if hold_frames:
-                    ring = deque(maxlen=200)
-                    def capture(data, frames):
-                        ring.append(ctypes.string_at(data, frames*4)); return frames
-                    callback = BATCH(capture); r.lib.retro_set_audio_sample_batch(callback)
-                    r.keys = set(); r.run(hold_frames)
-                    r.lib.retro_set_audio_sample_batch(r.callbacks[3])
-                    signal = np.frombuffer(b''.join(ring),'<i2').astype(float)
-                    active = channel(r,25) is not None
-                    rows.append(dict(event='Prolonged actual Matt battle, no controller action',
-                        held_frames=hold_frames, held_seconds_approx=hold_frames/59.7275,
-                        native_sample_still_active=active, final_audio_AC_RMS_pcm16=float(signal.std()),
-                        requested_continuous_music_goal_met=active,
-                        known_limitation=None if active else 'Unresolved Final Battle loop; original one-shot ends and falls silent'))
-                    r.frame.save(P/'matt-combat-prolonge.png')
+            if hold_frames and not held and r.u32(r.symbols['gBattlerControllerFuncs']) in action_handlers:
+                held = True
+                ring = deque(maxlen=200)
+                def capture(data, frames):
+                    ring.append(ctypes.string_at(data, frames*4)); return frames
+                callback = BATCH(capture); r.lib.retro_set_audio_sample_batch(callback)
+                r.keys = set(); r.run(hold_frames)
+                r.lib.retro_set_audio_sample_batch(r.callbacks[3])
+                signal = np.frombuffer(b''.join(ring),'<i2').astype(float)
+                active = channel(r,25) is not None
+                rows.append(dict(event='Prolonged actual Matt battle, no controller action',
+                    held_at_native_action_menu=True,
+                    held_frames=hold_frames, held_seconds_approx=hold_frames/59.7275,
+                    native_sample_still_active=active, final_audio_AC_RMS_pcm16=float(signal.std()),
+                    requested_continuous_music_goal_met=active,
+                    known_limitation=None if active else 'Unresolved Final Battle loop; original one-shot ends and falls silent'))
+                r.frame.save(P/'matt-combat-prolonge.png')
         if started and r.u32(r.symbols['gMPlayInfo_BGM']) == r.symbols['mus_yokai_26'] and channel(r, 26): break
     else: raise AssertionError(('Champion did not reach victory music', started, seen))
     assert seen and r.read(r.symbols['gBattleOutcome'], 1) == b'\x01'
+    if hold_frames: assert held, 'Prolonged native action-menu test was not reached'
     assert r.call('FlagGet', boss.C['FLAG_DEFEATED_CHAMP'])
     r.keys = set(); r.run(120); r.frame.save(P/'matt-conclusion.png')
     rows.append(dict(event='Original Champion scene and battle', battle_slot=25,

@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "0d8234bbd5893ef63cfb8caa1d6aa83c34b537e151b0449e848a900ffd86961b",
+  "results": [
+    {
+      "number": 5,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9749374477954776,
+        0.926675634485011
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false,
+      "full_one_shot_end_observed": true,
+      "ending_frames_after_excerpt": 6596,
+      "known_limitation": "Silence after natural ending until another BGM request; loop not validated"
+    },
+    {
+      "number": 8,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.9659004128607533,
+        0.9693226495249483
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false
+    },
+    {
+      "number": 25,
+      "passed": true,
+      "mixer_source_correlations": [
+        0.967966412198872,
+        0.8688000821977393
+      ],
+      "native_SFX_and_cry_calls": true,
+      "perceptual_listening_validated": false,
+      "full_one_shot_end_observed": true,
+      "ending_frames_after_excerpt": 11556,
+      "known_limitation": "Silence after natural ending until another BGM request; loop not validated"
+    },
+    {
+      "native_item_fanfare_completed": true,
+      "compressed_music_resumed_without_restart": true
+    }
+  ],
+  "scope": "Real mGBA audio callback/source correlation, SFX and cry calls, complete one-shot endings and item fanfare. Isolated starts after real new game. Not subjective listening."
+}
