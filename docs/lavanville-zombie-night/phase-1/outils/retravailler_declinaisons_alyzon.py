@@ -16,7 +16,7 @@ left=[
 '.hLLYhYYYYYYh.',
 '..hLYShYYYYYh.',
 '..hLSKhYYYYYh.',
-'.KSSSEhYYYYYh.',
+'..SSSEhYYYYYh.',
 '..KSSShYYhYLYh',
 '...KSSKYYhLLYh',
 '...KWPWKhKLYYh',
@@ -47,7 +47,7 @@ right=[r[::-1] for r in left]
 # The asymmetric fringe is longer toward the opposite profile.
 right[6]='.hYYYYYYhSYLh.'
 right[7]='.hYYYYYYhKSLh.'
-right[8]='.hYYYYYYhESSSK'
+right[8]='.hYYYYYYhESSS.'
 rows_by={'gauche':left,'dos':back,'droite':right};frames={};records=[]
 for name,rows in rows_by.items():
  assert all(len(r)==14 for r in rows),(name,[(i,len(r)) for i,r in enumerate(rows)])
