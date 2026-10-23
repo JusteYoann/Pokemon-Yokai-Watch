@@ -1,4 +1,5 @@
 #include "global.h"
+#include "spiraton_battle.h"
 #include "gflib.h"
 #include "battle_anim.h"
 #include "battle_interface.h"
@@ -698,6 +699,8 @@ static void UpdateSpritePos(u8 spriteId, s16 x, s16 y)
 
 void DestoryHealthboxSprite(u8 healthboxSpriteId)
 {
+    if (gSprites[healthboxSpriteId].sBattlerId == 1)
+        FreeSpritePaletteByTag(0x7D53);
     DestroySprite(&gSprites[gSprites[healthboxSpriteId].sHealthboxOtherSpriteId]);
     DestroySprite(&gSprites[gSprites[healthboxSpriteId].sHealthBarSpriteId]);
     DestroySprite(&gSprites[healthboxSpriteId]);
@@ -1493,7 +1496,7 @@ void UpdateNickInHealthbox(u8 healthboxSpriteId, struct Pokemon *mon)
     ptr = StringCopy(gDisplayedStringBattle, sText_HealthboxNickname);
     GetMonData(mon, MON_DATA_NICKNAME, nickname);
     StringGet_Nickname(nickname);
-    ptr = StringCopy(ptr, nickname);
+    ptr = StringCopy(ptr, SpiratonBattleIsBoss(gSprites[healthboxSpriteId].sBattlerId) ? gSpiratonBattleName : nickname);
     *ptr++ = EXT_CTRL_CODE_BEGIN;
     *ptr++ = EXT_CTRL_CODE_COLOR;
 
@@ -1887,6 +1890,60 @@ s32 MoveBattleBar(u8 battlerId, u8 healthboxSpriteId, u8 whichBar, u8 unused)
     return currentBarValue;
 }
 
+/* Private palette for the boss HP sprite, never the shared player HUD palette.
+ * Every layer is full behind the active one: damage reveals the next color. */
+#define TAG_SPIRATON_HEALTHBAR_PAL 0x7D53
+static const u16 sSpiratonLayerColors[8] = {
+    RGB(10,25,6), RGB(31,17,2), RGB(3,26,28), RGB(5,12,31),
+    RGB(18,8,29), RGB(29,6,22), RGB(31,7,7), RGB(31,30,23)
+};
+
+static u16 SpiratonShade(u16 color)
+{
+    return RGB((color & 31) * 3 / 4, ((color >> 5) & 31) * 3 / 4,
+               ((color >> 10) & 31) * 3 / 4);
+}
+
+static void DrawSpiratonLayers(u8 healthbarSpriteId, const u8 *filledPixels)
+{
+    struct SpritePalette palette;
+    u16 colors[16];
+    u32 tile[8];
+    u8 bank, phase, i, x, y;
+    u8 *bytes = (u8 *)tile;
+    phase = SpiratonBattleInspect(2);
+    bank = IndexOfSpritePaletteTag(TAG_SPIRATON_HEALTHBAR_PAL);
+    CpuCopy32(gBattleInterface_Healthbar_Pal, colors, 32);
+    colors[10] = sSpiratonLayerColors[phase];
+    colors[11] = phase < 7 ? sSpiratonLayerColors[phase + 1] : colors[5];
+    colors[12] = SpiratonShade(colors[10]);
+    colors[13] = SpiratonShade(colors[11]);
+    if (bank == 0xFF)
+    {
+        palette.data = colors;
+        palette.tag = TAG_SPIRATON_HEALTHBAR_PAL;
+        bank = LoadSpritePalette(&palette);
+    }
+    if (bank == 0xFF)
+        return; /* Diagnostic tests assert palette allocation succeeds. */
+    LoadPalette(colors, OBJ_PLTT_ID(bank), 32);
+    gSprites[healthbarSpriteId].oam.paletteNum = bank;
+    for (i = 0; i < 6; i++)
+    {
+        CpuCopy32(GetBattleInterfaceGfxPtr(B_INTERFACE_GFX_HP_BAR_GREEN), tile, 32);
+        for (y = 3; y <= 5; y++)
+            for (x = 0; x < 8; x++)
+            {
+                u8 color = x < filledPixels[i] ? 10 : 11;
+                u8 index = y * 4 + x / 2;
+                if (y == 3) color += 2;
+                if (x & 1) bytes[index] = (bytes[index] & 15) | (color << 4);
+                else bytes[index] = (bytes[index] & 0xF0) | color;
+            }
+        CpuCopy32(tile, (void *)(OBJ_VRAM0 + (gSprites[healthbarSpriteId].oam.tileNum + 2 + i) * 32), 32);
+    }
+}
+
 static void MoveBattleBarGraphically(u8 battlerId, u8 whichBar)
 {
     u8 filledPixels[B_HEALTHBAR_NUM_TILES > B_EXPBAR_NUM_TILES ? B_HEALTHBAR_NUM_TILES : B_EXPBAR_NUM_TILES];
@@ -1923,6 +1980,8 @@ static void MoveBattleBarGraphically(u8 battlerId, u8 whichBar)
                           (void *)(OBJ_VRAM0 + 64 + (i + gSprites[healthbarSpriteId].oam.tileNum) * TILE_SIZE_4BPP),
                           1 * TILE_SIZE_4BPP);
         }
+        if (SpiratonBattleIsBoss(battlerId))
+            DrawSpiratonLayers(gSprites[gBattleSpritesDataPtr->battleBars[battlerId].healthboxSpriteId].sHealthBarSpriteId, filledPixels);
         break;
     case EXP_BAR:
         CalcBarFilledPixels(gBattleSpritesDataPtr->battleBars[battlerId].maxValue,

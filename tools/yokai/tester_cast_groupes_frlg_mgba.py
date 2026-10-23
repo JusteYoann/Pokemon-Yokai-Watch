@@ -18,6 +18,7 @@ try:
  r.call('CreateMon',r.symbols['gPlayerParty'],1,30,31,1,100,1,0);r.write(r.symbols['gPlayerPartyCount'],b'\x01')
  clean=r.snapshot()
  for family,name,pal in [('DOMNISCIAN','Domniscian','domniscian'),('MORLEONE','DonMorleone','don_morleone')]:
+  if not any(a['name']==name for a in spec['actors']):continue # Explicitly retired Sevii cameo
   boss=next(a for a in spec['actors'] if a['name']==name);expected={a['object_gfx'] for a in spec['graphics'] if a['palette_group']==family}
   for post in [False,True]:
    r.restore(clean)

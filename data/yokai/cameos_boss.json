@@ -354,23 +354,6 @@
       "won": "FLAG_YOKAI_EMPLOYEE_BLUE_WON"
     },
     {
-      "name": "DonMorleone",
-      "map": "FiveIsland_RocketWarehouse",
-      "x": 26,
-      "y": 23,
-      "won": "FLAG_YOKAI_MORLEONE_WON",
-      "need": [
-        "FLAG_YOKAI_MAFIA1_WON",
-        "FLAG_YOKAI_MAFIA2_WON",
-        "FLAG_YOKAI_MAFIA3_WON"
-      ],
-      "reward": [
-        "ITEM_NUGGET",
-        3,
-        "FLAG_YOKAI_MORLEONE_REWARD"
-      ]
-    },
-    {
       "name": "Mafiamille1",
       "map": "FiveIsland_RocketWarehouse",
       "x": 22,
@@ -475,5 +458,12 @@
   "rematches": "All optional encounters repeatable; prerequisite wins persist, boss rewards unique and full-bag safe",
   "name_constraint": "Trainer name array12 bytes including EOS; Don Morleone displayed Don Morleo. in battle, full name in dialogue",
   "placement_constraint": "Warehouse group on southeast entry-room floor, outside arrow tiles and exit, to preserve Rocket maze and Gideon; no new map or original event replacement",
-  "music_status": "Original engine placeholder; personal Hinozall/Ghoulfather DPCM themes still pending, no generic Sangokushi substitution"
+  "music_status": "Original engine placeholder; personal Hinozall/Ghoulfather DPCM themes still pending, no generic Sangokushi substitution",
+  "retired_events": [
+    {
+      "name": "DonMorleone",
+      "map": "FiveIsland_RocketWarehouse",
+      "reason": "Replaced by the approved League finale; trainer data and shared graphics retained; reward flags reserved for save compatibility."
+    }
+  ]
 }

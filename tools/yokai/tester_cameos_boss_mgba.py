@@ -61,7 +61,8 @@ def fight(r,flag,stem,loss=False):
  raise AssertionError(('Battle not completed',stem,started,state))
 def main():
  spec=json.loads((ROOT/'data/yokai/cameos_boss.json').read_text());actors={a['name']:a for a in spec['actors']};gfx={a['person']:a['object_gfx'] for a in spec['graphics']}
- groups=[{'name':'domniscian','map':57,'boss':actors['Domniscian'],'staff':[actors['EmployeRouge'],actors['EmployeBleu']]}, {'name':'morleone','map':114,'boss':actors['DonMorleone'],'staff':[actors['Mafiamille1'],actors['Mafiamille2'],actors['Mafiamille3']]}]
+ groups=[{'name':'domniscian','map':57,'boss':actors['Domniscian'],'staff':[actors['EmployeRouge'],actors['EmployeBleu']]}]
+ if 'DonMorleone' in actors:groups.append({'name':'morleone','map':114,'boss':actors['DonMorleone'],'staff':[actors['Mafiamille1'],actors['Mafiamille2'],actors['Mafiamille3']]})
  for group in groups:
   print('START',group['name'],flush=True);allactors=[group['boss']]+group['staff'];allgfx={gfx[a['name']] for a in allactors};r=fixture(group,False)
   try:

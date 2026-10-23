@@ -1,4 +1,5 @@
 #include "global.h"
+#include "spiraton_battle.h"
 #include "item.h"
 #include "text.h"
 #include "util.h"
@@ -749,8 +750,9 @@ u8 DoBattlerEndTurnEffects(void)
     while (gBattleStruct->turnEffectsBattlerId < gBattlersCount && gBattleStruct->turnEffectsTracker <= ENDTURN_BATTLER_COUNT)
     {
         gActiveBattler = gBattlerAttacker = gBattlerByTurnOrder[gBattleStruct->turnEffectsBattlerId];
-        if (gAbsentBattlerFlags & gBitTable[gActiveBattler])
+        if ((gAbsentBattlerFlags & gBitTable[gActiveBattler]) || SpiratonBattleIgnoreFaint(gActiveBattler))
         {
+            gBattleStruct->turnEffectsTracker = 0;
             gBattleStruct->turnEffectsBattlerId++;
         }
         else
@@ -1163,7 +1165,8 @@ bool8 HandleFaintedMonActions(void)
             do
             {
                 gBattlerFainted = gBattlerTarget = gBattleStruct->faintedActionsBattlerId;
-                if (gBattleMons[gBattleStruct->faintedActionsBattlerId].hp == 0
+                if (!SpiratonBattleIgnoreFaint(gBattleStruct->faintedActionsBattlerId)
+                 && gBattleMons[gBattleStruct->faintedActionsBattlerId].hp == 0
                  && !(gBattleStruct->givenExpMons & gBitTable[gBattlerPartyIndexes[gBattleStruct->faintedActionsBattlerId]])
                  && !(gAbsentBattlerFlags & gBitTable[gBattleStruct->faintedActionsBattlerId]))
                 {
@@ -1189,7 +1192,8 @@ bool8 HandleFaintedMonActions(void)
             do
             {
                 gBattlerFainted = gBattlerTarget = gBattleStruct->faintedActionsBattlerId;
-                if (gBattleMons[gBattleStruct->faintedActionsBattlerId].hp == 0
+                if (!SpiratonBattleIgnoreFaint(gBattleStruct->faintedActionsBattlerId)
+                 && gBattleMons[gBattleStruct->faintedActionsBattlerId].hp == 0
                  && !(gAbsentBattlerFlags & gBitTable[gBattleStruct->faintedActionsBattlerId]))
                 {
                     BattleScriptExecute(BattleScript_HandleFaintedMon);

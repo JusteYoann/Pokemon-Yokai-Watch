@@ -12,12 +12,12 @@ PokemonLeague_ChampionsRoom_Text_Intro::
     .string "Yo-kai peuvent nous dépasser!$"
 
 PokemonLeague_ChampionsRoom_Text_RematchIntro::
-    .string "{RIVAL}: Te revoilà, {PLAYER}!\p"
-    .string "Tu crois pouvoir me battre\n"
-    .string "une nouvelle fois?\p"
-    .string "Mes Yo-kai et moi, nous avons\n"
-    .string "encore progressé!\p"
-    .string "Allez, que le meilleur gagne!$"
+    .string "Alors, surpris de me retrouver ici ?\p"
+    .string "Pendant que tu te reposais sur tes\n"
+    .string "lauriers, j'ai conquis la Ligue !\p"
+    .string "Cette fois, c'est moi le Maître !\p"
+    .string "Allez, montre-moi si tu mérites\n"
+    .string "encore ton titre !$"
 
 PokemonLeague_ChampionsRoom_Text_Defeat::
     .string "Non! C’est impossible!\p"

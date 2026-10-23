@@ -13941,3 +13941,18 @@ static const struct TrainerMonItemCustomMoves sParty_YokaiMafiamille3[] = {
     {.iv = 255, .lvl = 64, .species = SPECIES_GROWLITHE, .heldItem = ITEM_NONE, .moves = {MOVE_AERIAL_ACE, MOVE_FEATHER_DANCE, MOVE_SHADOW_BALL, MOVE_SKY_ATTACK}},
     {.iv = 255, .lvl = 65, .species = SPECIES_PARAS, .heldItem = ITEM_NONE, .moves = {MOVE_SLUDGE_BOMB, MOVE_AGILITY, MOVE_SWORDS_DANCE, MOVE_MEGAHORN}},
 };
+
+// Separate finale roster: existing Giovanni and Sevii records remain intact.
+static const struct TrainerMonItemCustomMoves sParty_DonMorleoneLeague[] = {
+    {.iv = 200, .lvl = 56, .species = SPECIES_DRATINI, .heldItem = ITEM_NONE, .moves = {MOVE_ROCK_SLIDE, MOVE_IRON_DEFENSE, MOVE_REST, MOVE_EARTHQUAKE}},
+    {.iv = 200, .lvl = 57, .species = SPECIES_WEEPINBELL, .heldItem = ITEM_NONE, .moves = {MOVE_SHADOW_BALL, MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_THUNDER_WAVE}},
+    {.iv = 200, .lvl = 56, .species = SPECIES_KABUTO, .heldItem = ITEM_NONE, .moves = {MOVE_GIGA_DRAIN, MOVE_CALM_MIND, MOVE_HEAL_BELL, MOVE_LIGHT_SCREEN}},
+    {.iv = 200, .lvl = 58, .species = SPECIES_FLAREON, .heldItem = ITEM_NONE, .moves = {MOVE_PSYCHIC, MOVE_BODY_SLAM, MOVE_FUTURE_SIGHT, MOVE_RECOVER}},
+    {.iv = 200, .lvl = 57, .species = SPECIES_KANGASKHAN, .heldItem = ITEM_NONE, .moves = {MOVE_NIGHT_SHADE, MOVE_CONFUSE_RAY, MOVE_WILL_O_WISP, MOVE_PAIN_SPLIT}},
+    {.iv = 200, .lvl = 60, .species = SPECIES_SEEL, .heldItem = ITEM_NONE, .moves = {MOVE_BRICK_BREAK, MOVE_SURF, MOVE_CROSS_CHOP, MOVE_BODY_SLAM}},
+};
+
+// Diagnostic fixture; no approved true-form artwork is substituted in production.
+static const struct TrainerMonItemCustomMoves sParty_DonSpiratonPrototype[] = {
+    {.iv = 200, .lvl = 56, .species = SPECIES_MEOWTH, .heldItem = ITEM_NONE, .moves = {MOVE_DIG, MOVE_SANDSTORM, MOVE_EARTHQUAKE, MOVE_ROCK_TOMB}},
+};

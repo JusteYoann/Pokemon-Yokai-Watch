@@ -1,4 +1,5 @@
 #include "global.h"
+#include "spiraton_battle.h"
 #include "gflib.h"
 #include "battle.h"
 #include "battle_anim.h"
@@ -2269,6 +2270,7 @@ static void BattleStartClearSetData(void)
     gBattleScripting.battleStyle = gSaveBlock2Ptr->optionsBattleStyle;
 
     gMultiHitCounter = 0;
+    SpiratonBattleReset();
     gBattleOutcome = 0;
     gBattleControllerExecFlags = 0;
     gPaydayMoney = 0;
@@ -2600,7 +2602,7 @@ static void BattleIntroDrawTrainersOrMonsSprites(void)
             MarkBattlerForControllerExec(gActiveBattler);
         }
 
-        if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
+        if ((gBattleTypeFlags & BATTLE_TYPE_TRAINER) && !SpiratonBattleIsBoss(1))
         {
             if (GetBattlerPosition(gActiveBattler) == B_POSITION_OPPONENT_LEFT)
             {
@@ -2658,7 +2660,7 @@ static void BattleIntroDrawPartySummaryScreens(void)
     if (gBattleControllerExecFlags)
         return;
 
-    if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
+    if ((gBattleTypeFlags & BATTLE_TYPE_TRAINER) && !SpiratonBattleIsBoss(1))
     {
         for (i = 0; i < PARTY_SIZE; i++)
         {
@@ -2738,7 +2740,7 @@ static void BattleIntroPrintWildMonAttacked(void)
     if (gBattleControllerExecFlags == 0)
     {
         gBattleMainFunc = BattleIntroPrintPlayerSendsOut;
-        PrepareStringBattle(STRINGID_INTROMSG, 0);
+        PrepareStringBattle(SpiratonBattleIsBoss(1) ? STRINGID_SPIRATON_APPEARS : STRINGID_INTROMSG, 0);
         if (IS_BATTLE_TYPE_GHOST_WITH_SCOPE(gBattleTypeFlags))
         {
             gBattleScripting.battler = GetBattlerAtPosition(B_POSITION_OPPONENT_LEFT);
@@ -2918,6 +2920,7 @@ static void TryDoEventsBeforeFirstTurn(void)
     *(&gBattleStruct->absentBattlerFlags) = gAbsentBattlerFlags;
     gBattleMainFunc = HandleTurnActionSelectionState;
     ResetSentPokesToOpponentValue();
+    SpiratonBattleBegin();
     for (i = 0; i < BATTLE_COMMUNICATION_ENTRIES_COUNT; i++)
         gBattleCommunication[i] = 0;
     for (i = 0; i < gBattlersCount; i++)
@@ -2973,6 +2976,8 @@ void BattleTurnPassed(void)
         return;
     gBattleStruct->faintedActionsState = 0;
     if (HandleWishPerishSongOnTurnEnd())
+        return;
+    if (SpiratonBattleEndTurn())
         return;
     TurnValuesCleanUp(FALSE);
     gHitMarker &= ~(HITMARKER_NO_ATTACKSTRING);
@@ -3710,6 +3715,8 @@ static void CheckFocusPunch_ClearVarsBeforeTurnStarts(void)
 
 static void RunTurnActionsFunctions(void)
 {
+    if (SpiratonBattleFirstTurn())
+        return;
     if (gBattleOutcome != 0)
         gCurrentActionFuncId = B_ACTION_FINISHED;
     *(&gBattleStruct->savedTurnActionNumber) = gCurrentTurnActionNumber;
@@ -3973,6 +3980,11 @@ static void HandleAction_UseMove(void)
     u8 var = 4;
 
     gBattlerAttacker = gBattlerByTurnOrder[gCurrentTurnActionNumber];
+    if (SpiratonBattlePending(gBattlerAttacker))
+    {
+        HandleAction_NothingIsFainted();
+        return;
+    }
     if (*(&gBattleStruct->absentBattlerFlags) & gBitTable[gBattlerAttacker])
     {
         gCurrentActionFuncId = B_ACTION_FINISHED;

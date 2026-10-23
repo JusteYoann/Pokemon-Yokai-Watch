@@ -1,4 +1,5 @@
 #include "global.h"
+#include "spiraton_battle.h"
 #include "gflib.h"
 #include "item.h"
 #include "util.h"
@@ -2864,6 +2865,11 @@ static void Cmd_tryfaintmon(void)
             battlerId = gBattlerAttacker;
             BS_ptr = BattleScript_FaintTarget;
         }
+        if (SpiratonBattleIgnoreFaint(gActiveBattler))
+        {
+            gBattlescriptCurrInstr += 7;
+            return;
+        }
         if (!(gAbsentBattlerFlags & gBitTable[gActiveBattler])
          && gBattleMons[gActiveBattler].hp == 0)
         {
@@ -3119,6 +3125,11 @@ static void Cmd_getexp(void)
     u16 *exp = &gBattleStruct->expValue;
 
     gBattlerFainted = GetBattlerForBattleScript(gBattlescriptCurrInstr[1]);
+    if (SpiratonBattlePending(gBattlerFainted))
+    {
+        gBattlescriptCurrInstr += 2;
+        return;
+    }
     sentIn = gSentPokesToOpponent[(gBattlerFainted & 2) >> 1];
 
     switch (gBattleScripting.getexpState)
@@ -3398,7 +3409,7 @@ static void Cmd_checkteamslost(void)
             HP_count += GetMonData(&gEnemyParty[i], MON_DATA_HP);
         }
     }
-    if (HP_count == 0)
+    if (HP_count == 0 && !SpiratonBattlePending(1))
         gBattleOutcome |= B_OUTCOME_WON;
 
     // For link battles that haven't ended, count number of empty battler spots
@@ -3480,6 +3491,8 @@ static void Cmd_setmultihit(void)
 
 static void Cmd_decrementmultihit(void)
 {
+    if (SpiratonBattlePending(gBattlerTarget))
+        gMultiHitCounter = 1;
     if (--gMultiHitCounter == 0)
         gBattlescriptCurrInstr += 5;
     else

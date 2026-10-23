@@ -225,3 +225,16 @@ u32 SpiratonCoreInspect(const struct SpiratonState *state, u8 field)
     default: return sizeof(*state);
     }
 }
+
+/* Public diagnostic of the default type chart, including Ghost immunities
+ * following the native Foresight sentinel. Foresight itself is a future public
+ * field-effect input, not an excuse to omit those baseline immunities. */
+u32 SpiratonCoreTypeMultiplier(u8 attackingType, u8 type1, u8 type2)
+{
+    u8 types[2];
+    if (attackingType >= 18 || type1 >= 18 || type2 >= 18)
+        return 0;
+    types[0] = type1;
+    types[1] = type2;
+    return Effectiveness(attackingType, types);
+}

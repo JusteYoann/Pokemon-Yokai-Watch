@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "scope": "Isolated eight-form battle prototype. Initial true-form artwork/UI not approved.\n\nStarts diagnostic trainer 744 explicitly, with a boosted QA player. No production\nmap arms this encounter. Controller selects moves; no enemy HP/PP writes.\n",
+  "rom_sha256": "edfe708baacda47ad2aaa7f9998f51e72290983d544a6b7ecf622d5206191eb6",
+  "forms": [
+    {
+      "phase": 1,
+      "species": 52,
+      "level": 56,
+      "first_frame": 128
+    },
+    {
+      "phase": 2,
+      "species": 12,
+      "level": 57,
+      "first_frame": 1328
+    },
+    {
+      "phase": 3,
+      "species": 67,
+      "level": 58,
+      "first_frame": 2200
+    },
+    {
+      "phase": 4,
+      "species": 130,
+      "level": 59,
+      "first_frame": 2968
+    },
+    {
+      "phase": 5,
+      "species": 88,
+      "level": 60,
+      "first_frame": 3704
+    },
+    {
+      "phase": 6,
+      "species": 149,
+      "level": 61,
+      "first_frame": 4480
+    },
+    {
+      "phase": 7,
+      "species": 84,
+      "level": 62,
+      "first_frame": 5208
+    },
+    {
+      "phase": 8,
+      "species": 66,
+      "level": 63,
+      "first_frame": 5976
+    }
+  ],
+  "production_scene": false,
+  "approved_true_form_artwork": false,
+  "approved_hp_colors": true,
+  "layer_palette_checks": {
+    "0": 6,
+    "1": 6,
+    "2": 6,
+    "3": 6,
+    "4": 6,
+    "5": 6,
+    "6": 6,
+    "7": 6
+  },
+  "appearance_message_seen": true,
+  "first_transform_waits_for_player_choice": true,
+  "trainer_capture_run_protection_retained": true,
+  "status_fixture": "burn",
+  "status_removal_message_seen": true
+}

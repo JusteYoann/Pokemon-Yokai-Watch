@@ -4,13 +4,41 @@
   "first_species_id": 52,
   "first_name": "Bouh",
   "first_species_approved": true,
-  "phase_levels": [56,57,58,59,60,61,62,63],
+  "phase_levels": [
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+  ],
   "transition_boundary": "end_of_turn",
   "first_transition": "after_first_action_selection_before_any_action",
   "music_don": "MUS_YOKAI_GHOULFATHER",
   "music_spiraton": "MUS_YOKAI_ZAZELMARE",
   "music_matt_rematch": "MUS_YOKAI_DECISIVE_BATTLE",
   "production_entry_enabled": false,
-  "pending_approval": ["true_form_sprite", "fusion_animation", "conclusion_dialogue", "last_six_hp_colors"],
-  "hp_colors_proposed_not_approved": ["green", "orange", "cyan", "blue", "violet", "magenta", "red", "ivory"]
+  "pending_approval": [
+    "true_form_sprite",
+    "conclusion_dialogue"
+  ],
+  "art_direction_v2_approved": true,
+  "battle_composition_reference": "User mockup supplied after v2 approval: wide opponent over platform, face/hands/base visible, upper tendrils near top edge. Layout target only, not a captured engine result.",
+  "hp_colors_approved": [
+    "green",
+    "orange",
+    "cyan",
+    "blue",
+    "violet",
+    "magenta",
+    "red",
+    "ivory"
+  ],
+  "conclusion_direction": "Professor arrives only after final victory, tried to arrive quickly, congratulates player and Matt for his support. Matt openly celebrates/congratulates player and grants time to enjoy title before promising to take it back. Exact revised text pending separate approval.",
+  "no_spiraton_overworld_sprite": true,
+  "fusion": "Validated: existing Mafia rush Don, fullscreen white flash hides removal, direct wild-inspired battle intro, no additional fusion art.",
+  "entry_message": "Don Spiraton appara\u00eet !",
+  "entry_battle_rules": "Keep trainer battle rules for capture/run prohibition, but no opposing trainer portrait or ball sendout; no first transform until action choice."
 }

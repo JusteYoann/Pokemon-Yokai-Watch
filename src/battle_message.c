@@ -1,4 +1,5 @@
 #include "global.h"
+#include "spiraton_battle.h"
 #include "constants/opponents.h"
 #include "gflib.h"
 #include "battle.h"
@@ -515,7 +516,13 @@ const u8 gText_OakNoRunningFromATrainer[] = _("CHEN: Impossible de fuir\nun comb
 const u8 gText_WinEarnsPrizeMoney[] = _("CHEN: Excellent!\pUne victoire te rapporte de\nl'argent et renforce tes Yo-kai!\pAffronte d'autres Dresseurs\npour faire progresser ton équipe!\p");
 const u8 gText_HowDissapointing[] = _("CHEN: Hum…\nDommage…\pGagner rapporte de l'argent\net entraîne tes Yo-kai.\pPerdre coûte de l'argent,\n{B_PLAYER_NAME}…\pCette fois, je paie pour toi.\pMais dehors, tu devras\nte débrouiller seul.\pEntraîne tes Yo-kai\ncontre des Yo-kai sauvages!\p");
 
+static const u8 sText_SpiratonTransform[] = _("DON SPIRATON se transforme\nen {B_BUFF1} !");
+static const u8 sText_SpiratonAppears[] = _("Don Spiraton apparaît !");
+static const u8 sText_SpiratonCure[] = _("{B_BUFF1}");
 const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT - BATTLESTRINGS_TABLE_START] = {
+    [STRINGID_SPIRATON_TRANSFORM - BATTLESTRINGS_TABLE_START] = sText_SpiratonTransform,
+    [STRINGID_SPIRATON_CURE - BATTLESTRINGS_TABLE_START] = sText_SpiratonCure,
+    [STRINGID_SPIRATON_APPEARS - BATTLESTRINGS_TABLE_START] = sText_SpiratonAppears,
     [STRINGID_TRAINER1LOSETEXT - BATTLESTRINGS_TABLE_START]              = sText_Trainer1LoseText,
     [STRINGID_PKMNGAINEDEXP - BATTLESTRINGS_TABLE_START]                 = sText_PkmnGainedEXP,
     [STRINGID_PKMNGREWTOLV - BATTLESTRINGS_TABLE_START]                  = sText_PkmnGrewToLv,
@@ -1812,7 +1819,7 @@ static const u8 *TryGetStatusString(u8 *src)
             toCpy = sText_FoePkmnPrefix;                                \
         else                                                            \
             toCpy = sText_WildPkmnPrefix;                               \
-        while (*toCpy != EOS)                                           \
+        while (*toCpy != EOS && !SpiratonBattleIsBoss(battlerId))                                           \
         {                                                               \
             dst[dstId] = *toCpy;                                        \
             dstId++;                                                    \
@@ -1825,7 +1832,9 @@ static const u8 *TryGetStatusString(u8 *src)
         GetMonData(&gPlayerParty[monIndex], MON_DATA_NICKNAME, text);   \
     }                                                                   \
     StringGet_Nickname(text);                                           \
-    toCpy = text;
+    toCpy = text;                                                       \
+    if (SpiratonBattleIsBoss(battlerId))                                 \
+        toCpy = gSpiratonBattleName;
 
 u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
 {

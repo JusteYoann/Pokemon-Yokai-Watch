@@ -47,8 +47,8 @@ for name,body in re.findall(r'\[(MOVE_\w+)\]\s*=\s*\{(.*?)\n    \}',sources[inpu
 out+=['};','static const u8 sSpiratonTypeChart[18][18] = {']
 chart=[[10]*18 for _ in range(18)]
 typebody=re.search(r'gTypeEffectiveness\[336\]\s*=\s*\{(.*?)\};',sources[inputs[10]],re.S)[1]
-typebody=typebody.split('TYPE_FORESIGHT')[0]
-for atk,defn,mul in re.findall(r'(TYPE_\w+),\s*(TYPE_\w+),\s*(TYPE_MUL_\w+)',typebody):chart[constants[atk]][constants[defn]]=constants[mul]
+for atk,defn,mul in re.findall(r'(TYPE_\w+),\s*(TYPE_\w+),\s*(TYPE_MUL_\w+)',typebody):
+ if constants[atk]<18 and constants[defn]<18:chart[constants[atk]][constants[defn]]=constants[mul]
 out+=['    {'+', '.join(map(str,r))+'},' for r in chart]+['};','']
 artifacts={'src/data/spiraton_catalogue.h':'\n'.join(out),'data/yokai/spiraton/catalogue_provenance.json':json.dumps({'source_sha256':{p:hashlib.sha256(sources[p].encode()).hexdigest() for p in inputs},'species':151,'legal_move_entries':len(legal),'hm_and_tutor_moves_added':False,'pool_counts':counts},indent=2)+'\n'}
 a=argparse.ArgumentParser();a.add_argument('--check',action='store_true');args=a.parse_args()

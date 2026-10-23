@@ -44,5 +44,6 @@ u16 SpiratonCoreSelect(const struct SpiratonState *state,
                       const struct SpiratonVisibleOpponent *opponent);
 void SpiratonCoreBuildForm(struct SpiratonForm *form, u16 species, u8 level,
                           const struct SpiratonVisibleOpponent *opponent);
+u32 SpiratonCoreTypeMultiplier(u8 attackingType, u8 type1, u8 type2);
 u32 SpiratonCoreInspect(const struct SpiratonState *state, u8 field);
 #endif

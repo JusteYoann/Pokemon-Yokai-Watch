@@ -10,6 +10,11 @@ int main(void)
     struct SpiratonVisibleOpponent opponent = {1, 60, {10, 10}, {0}};
     u16 target, species[8];
     unsigned cases = 0;
+    assert(SpiratonCoreTypeMultiplier(0, 7, 7) == 0); /* Normal/Ghost */
+    assert(SpiratonCoreTypeMultiplier(1, 7, 7) == 0); /* Fighting/Ghost */
+    assert(SpiratonCoreTypeMultiplier(13, 4, 4) == 0); /* Electric/Ground */
+    assert(SpiratonCoreTypeMultiplier(4, 2, 2) == 0); /* Ground/Flying */
+    assert(SpiratonCoreTypeMultiplier(10, 12, 6) == 40); /* Fire/Grass+Bug */
     assert(!SpiratonCoreStart(&state, 0, &opponent));
     opponent.species = 152;
     assert(!SpiratonCoreStart(&state, 52, &opponent));

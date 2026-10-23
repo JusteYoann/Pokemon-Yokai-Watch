@@ -771,7 +771,11 @@
 //       only space for 25 additional trainers before trainer flag space overflows.
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define NUM_TRAINERS                             743
+#define TRAINER_DON_MORLEONE_LEAGUE               743
+
+#define TRAINER_DON_SPIRATON_PROTOTYPE            744
+
+#define NUM_TRAINERS                             745
 #define MAX_TRAINERS_COUNT                       768
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H
