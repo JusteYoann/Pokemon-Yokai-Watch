@@ -1,3 +1,4 @@
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JusteYoann;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DossierNyada;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DossierOrqanos;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DossierEnmaAncien;
@@ -346,6 +347,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_YOKAI_ZAZEL] = &gObjectEventGraphicsInfo_DossierZazel,
     [OBJ_EVENT_GFX_YOKAI_ENMA_ANCIEN] = &gObjectEventGraphicsInfo_DossierEnmaAncien,
     [OBJ_EVENT_GFX_YOKAI_ORQANOS] = &gObjectEventGraphicsInfo_DossierOrqanos,
+    [OBJ_EVENT_GFX_JUSTE_YOANN] = &gObjectEventGraphicsInfo_JusteYoann,
     [OBJ_EVENT_GFX_YOKAI_NYADA] = &gObjectEventGraphicsInfo_DossierNyada,
     [OBJ_EVENT_GFX_YOKAI_BERENICE] = &gObjectEventGraphicsInfo_YokaiBerenice,
     [OBJ_EVENT_GFX_YOKAI_ENMA_CREATURE] = &gObjectEventGraphicsInfo_YokaiEnmaCreature,

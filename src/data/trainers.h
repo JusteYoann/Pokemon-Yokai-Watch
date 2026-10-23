@@ -7426,4 +7426,13 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
         .party = ITEM_CUSTOM_MOVES(sParty_PhilosovniDuo),
     },
+    [TRAINER_JUSTE_YOANN] = {
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_JUSTE_YOANN,
+        .trainerName = _("JUSTE YOANN"),
+        .items = {}, .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
+        .party = NO_ITEM_DEFAULT_MOVES(sParty_JusteYoann),
+    },
 };

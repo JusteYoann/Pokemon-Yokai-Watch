@@ -100,7 +100,8 @@ u8 YokaiChampionOrderedPartySize(void)
     case TRAINER_ELITE_FOUR_AGATHA:
     case TRAINER_ELITE_FOUR_AGATHA_2:
     case TRAINER_ELITE_FOUR_LANCE:
-    case TRAINER_ELITE_FOUR_LANCE_2: return 6;
+    case TRAINER_ELITE_FOUR_LANCE_2:
+    case TRAINER_JUSTE_YOANN: return 6;
     }
     return 0;
 }

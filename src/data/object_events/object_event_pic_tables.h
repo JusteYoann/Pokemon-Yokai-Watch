@@ -1917,3 +1917,5 @@ static const struct SpriteFrameImage sPicTable_DossierEnmaAncien[] = {overworld_
 static const struct SpriteFrameImage sPicTable_DossierOrqanos[] = {overworld_frame(gObjectEventPic_DossierOrqanos, 4, 4, 0)};
 
 static const struct SpriteFrameImage sPicTable_DossierNyada[] = {overworld_frame(gObjectEventPic_DossierNyada, 4, 4, 0)};
+
+static const struct SpriteFrameImage sPicTable_JusteYoann[] = {overworld_frame(gObjectEventPic_JusteYoann, 4, 4, 0)};

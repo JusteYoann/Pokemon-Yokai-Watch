@@ -567,6 +567,8 @@ PalletTown_ProfessorOaksLab_EventScript_RivalChoseStarter::
 PalletTown_ProfessorOaksLab_EventScript_ProfOak::
 	lock
 	faceplayer
+	special YoannCheckCompletion
+	goto_if_eq VAR_RESULT, TRUE, PalletTown_ProfessorOaksLab_EventScript_YoannInvitation
 	goto_if_set SHOWED_OAK_COMPLETE_DEX, PalletTown_ProfessorOaksLab_EventScript_OakJustShownCompleteDex
 	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 9, PalletTown_ProfessorOaksLab_EventScript_RatePokedex
 	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 8, PalletTown_ProfessorOaksLab_EventScript_MonsAroundWorldWait
@@ -1298,4 +1300,9 @@ PalletTown_ProfessorOaksLab_EventScript_RightSign::
 PalletTown_ProfessorOaksLab_EventScript_RightSignAlt::
 	msgbox PalletTown_ProfessorOaksLab_Text_AllMonTypesHaveStrongAndWeakPoints
 	releaseall
+	end
+
+PalletTown_ProfessorOaksLab_EventScript_YoannInvitation::
+	call Yoann_EventScript_ChenInvitation
+	release
 	end

@@ -776,7 +776,8 @@
 #define TRAINER_DON_SPIRATON_PROTOTYPE            744
 
 #define TRAINER_PHILOSOVNI_DUO                  745
-#define NUM_TRAINERS                             746
+#define TRAINER_JUSTE_YOANN                     746
+#define NUM_TRAINERS                             747
 #define MAX_TRAINERS_COUNT                       768
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H

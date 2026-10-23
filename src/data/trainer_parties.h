@@ -13961,3 +13961,12 @@ static const struct TrainerMonItemCustomMoves sParty_PhilosovniDuo[] = {
     { .iv = 100, .lvl = 19, .species = SPECIES_NIDORAN_M, .heldItem = ITEM_NONE,
       .moves = {MOVE_EMBER, MOVE_SMOG, MOVE_LEER, MOVE_NONE} },
 };
+
+static const struct TrainerMonNoItemDefaultMoves sParty_JusteYoann[] = {
+    {.iv = 100, .lvl = 70, .species = SPECIES_WIGGLYTUFF},
+    {.iv = 100, .lvl = 70, .species = SPECIES_ARCANINE},
+    {.iv = 100, .lvl = 70, .species = SPECIES_MUK},
+    {.iv = 100, .lvl = 70, .species = SPECIES_EEVEE},
+    {.iv = 100, .lvl = 70, .species = SPECIES_WIGGLYTUFF},
+    {.iv = 100, .lvl = 70, .species = SPECIES_MEWTWO},
+};

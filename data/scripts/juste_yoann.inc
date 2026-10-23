@@ -1,4 +1,25 @@
-@ Quest dialogue/scenes. Map/trainer art integration awaits the original approved PNG.
+@ Stationary, front-facing creator encounter. Reproduction authorized by the user.
+Yoann_EventScript_NPC::
+	lockall
+	goto_if_unset FLAG_YOANN_INVITED, Yoann_EventScript_Release
+	goto_if_set FLAG_YOANN_CHARM_GIVEN, Yoann_EventScript_Again
+	goto_if_set FLAG_YOANN_WON, Yoann_EventScript_Reward
+	msgbox Yoann_Text_Intro, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Yoann_EventScript_Decline
+	trainerbattle_single TRAINER_JUSTE_YOANN, Yoann_Text_BattleStart, Yoann_Text_Defeat, Yoann_EventScript_FirstVictory
+	releaseall
+	end
+
+Yoann_EventScript_Decline::
+	msgbox Yoann_Text_Decline
+	goto Yoann_EventScript_Release
+
+Yoann_EventScript_Again::
+	msgbox Yoann_Text_Again
+Yoann_EventScript_Release::
+	releaseall
+	end
+
 Yoann_EventScript_ChenInvitation::
 	msgbox Yoann_Text_Chen
 	setflag FLAG_YOANN_INVITED
@@ -204,4 +225,7 @@ Yoann_Text_Decline::
 
 Yoann_Text_Defeat::
 	.string "Bien joué ! Tu m'as eu !$"
+
+Yoann_Text_BattleStart::
+	.string "C'est parti !$"
 

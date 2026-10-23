@@ -14,8 +14,8 @@
   "moves": "Native last four legal level-up moves",
   "ai": "AI_SCRIPT_CHECK_BAD_MOVE",
   "static_front_only": true,
-  "art_source_required": "weqrt19_53_30.png",
-  "art_status": "Original download not accessible; no substitute graphic integrated.",
+  "art_source_required": "graphics/juste_yoann/source/reproduction-peau-claire.png",
+  "art_status": "Integrated from user-authorized reproduction with requested near-white skin",
   "placement": {
     "map": "PalletTown_PlayersHouse_2F",
     "x": 6,
@@ -24,6 +24,6 @@
     "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
     "walk_animation": false,
     "user_request": "Against the top wall, front-facing",
-    "validation": "Map collision data: (6,2) and approach tile (6,3) are walkable. PC (1,1) and stairs (10,2) unaffected. Final rendered placement awaits original NPC PNG."
+    "validation": "Native mGBA: position (6,2), south-facing, stationary, actual interaction from (6,3); PC and staircase remain clear."
   }
 }

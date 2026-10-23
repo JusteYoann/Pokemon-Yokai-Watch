@@ -4592,5 +4592,7 @@ extern const u32 gTrainerFrontPic_DossierEnmaAncien[];
 extern const u32 gTrainerPalette_DossierEnmaAncien[];
 extern const u32 gTrainerFrontPic_DossierOrqanos[];
 extern const u32 gTrainerPalette_DossierOrqanos[];
+extern const u32 gTrainerFrontPic_JusteYoann[];
+extern const u32 gTrainerPalette_JusteYoann[];
 extern const u32 gTrainerFrontPic_DossierNyada[];
 extern const u32 gTrainerPalette_DossierNyada[];

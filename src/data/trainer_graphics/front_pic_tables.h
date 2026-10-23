@@ -165,6 +165,7 @@ const struct MonCoords gTrainerFrontPicCoords[] =
     [TRAINER_PIC_DOSSIER_ENMA_ANCIEN] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_DOSSIER_ORQANOS] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_DOSSIER_NYADA] = {.size = 8, .y_offset = 1},
+    [TRAINER_PIC_JUSTE_YOANN] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_YOKAI_BERENICE] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_LAVENDER_ZOMBIE] = {.size = 8, .y_offset = 1},
 };
@@ -337,6 +338,7 @@ const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
     TRAINER_SPRITE(DOSSIER_ENMA_ANCIEN, gTrainerFrontPic_DossierEnmaAncien, 0x800),
     TRAINER_SPRITE(DOSSIER_ORQANOS, gTrainerFrontPic_DossierOrqanos, 0x800),
     TRAINER_SPRITE(DOSSIER_NYADA, gTrainerFrontPic_DossierNyada, 0x800),
+    TRAINER_SPRITE(JUSTE_YOANN, gTrainerFrontPic_JusteYoann, 0x800),
     TRAINER_SPRITE(YOKAI_BERENICE, gTrainerFrontPic_YokaiBerenice, 0x800),
 };
 
@@ -508,5 +510,6 @@ const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
     TRAINER_PAL(DOSSIER_ENMA_ANCIEN, gTrainerPalette_DossierEnmaAncien),
     TRAINER_PAL(DOSSIER_ORQANOS, gTrainerPalette_DossierOrqanos),
     TRAINER_PAL(DOSSIER_NYADA, gTrainerPalette_DossierNyada),
+    TRAINER_PAL(JUSTE_YOANN, gTrainerPalette_JusteYoann),
     TRAINER_PAL(YOKAI_BERENICE, gTrainerPalette_YokaiBerenice),
 };
