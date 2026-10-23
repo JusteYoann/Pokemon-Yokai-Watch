@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "6854d73f666d540d4327afa9ed7896c0909004df1f342707361d316176b11ced",
+  "results": [
+    {
+      "event": "Original Enma dialogue held open",
+      "held_frames": 9000,
+      "held_seconds_approx": 150.68435812649116,
+      "native_sample_still_active": false,
+      "final_audio_AC_RMS_pcm16": 0.0,
+      "requested_continuous_music_goal_met": false,
+      "known_limitation": "Original Enma Track ends; fallback/loop still needs approval"
+    },
+    {
+      "event": "Original Enma dialogue at Mont Braise",
+      "slot": 5,
+      "actual_NPC_interaction": true,
+      "decline_restores_field_music": true
+    },
+    {
+      "event": "Prolonged actual Matt battle with variant C",
+      "held_at_native_action_menu": true,
+      "held_seconds_approx": 770.6500355782513,
+      "requested_continuous_music_goal_met": true,
+      "number": 25,
+      "passed": true,
+      "trigger": "Actual Matt Champion battle at native action menu; five complete native loop returns, not direct music start",
+      "native_loop_wraps": [
+        {
+          "frame": 10057,
+          "sample_after_wrap": 462550,
+          "native_cry_active": false
+        },
+        {
+          "frame": 19040,
+          "sample_after_wrap": 462540,
+          "native_cry_active": false
+        },
+        {
+          "frame": 28023,
+          "sample_after_wrap": 462530,
+          "native_cry_active": false
+        },
+        {
+          "frame": 37006,
+          "sample_after_wrap": 462520,
+          "native_cry_active": false
+        },
+        {
+          "frame": 45989,
+          "sample_after_wrap": 462510,
+          "native_cry_active": false
+        }
+      ],
+      "clean_audio_seams_required": 5,
+      "actual_audio_seam_checks": [
+        {
+          "loop": 1,
+          "correlation": 0.9646899463087826,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 2,
+          "correlation": 0.9650113201302171,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 3,
+          "correlation": 0.9650462576503355,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 4,
+          "correlation": 0.964791007762964,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 5,
+          "correlation": 0.9640788438045426,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        }
+      ],
+      "native_samples_per_frame": 224,
+      "expected_frames_per_cycle": 8983.044642857143,
+      "intro_not_repeated": true,
+      "audio_reference_pearson_correlation": 0.9813348019824801,
+      "after_SFX_and_cry_correlation": 0.984406983352431,
+      "analysis_sample_rate_hz": 4000,
+      "alignment_grid_hz": 16000,
+      "initial_native_sample_position": 221536,
+      "select_SFX_and_cry_native_calls": true,
+      "cry_completed": true,
+      "native_Flash_save_with_music": false,
+      "continuous_channel_and_header_checked_every_frame": true,
+      "native_frames": 46029,
+      "source_sample_period": 2012202,
+      "perceptual_listening_validated": false,
+      "audio_demo": "Private output/previews only, not public GitHub"
+    },
+    {
+      "event": "Original Champion scene and battle",
+      "battle_slot": 25,
+      "victory_slot": 26,
+      "native_battle_victory_slot": 22,
+      "controller_victory": true,
+      "opponent_team_unchanged": true
+    }
+  ],
+  "scope": "Controller-started new game, explicit progression/warp/strong-party fixtures. Original Enma interaction and actual Matt battle won via controller. Not full adventure or listening."
+}

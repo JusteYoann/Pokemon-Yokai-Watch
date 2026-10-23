@@ -1,9 +1,10 @@
 # Intégration expérimentale de 31 OST
 
-**Dernière vérification :** [bilan de clôture des contrôles](CLOTURE_31_OST/README.md),
-avec mesures complètes des 31 niveaux, quatre nouvelles boucles revérifiées,
-réserve sur Enma Track et propositions de gains non appliquées. La ROM reste
-identique au jalon Final Battle C ; la clôture sans réserve attend le choix Enma.
+**Dernière vérification :** [validation des cinq gains privés](VALIDATION_GAINS_5/README.md).
+Cinq corrections approuvées et remesurées dans mGBA, compilation publique
+strictement inchangée. Enma reste en lecture unique par décision explicite.
+Chantier audio arrêté jusqu'à nouvel ordre ; aucune fusion.
+Les bilans suivants sont historiques.
 
 **État actuel :** la [variante C de Final Battle](FINAL_BATTLE_C/README.md) est
 activée expérimentalement et testée dans le combat prolongé de Matt, après

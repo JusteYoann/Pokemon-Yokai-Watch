@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "baseline_sha256": "0e7ff7f6096e5b52932e1e1cf090eaee3c53ee7ebe182ebbd5302feee2a2bfce",
+  "private_sha256": "6854d73f666d540d4327afa9ed7896c0909004df1f342707361d316176b11ced",
+  "public_sha256": "a00527774542439e1ab0976a45421911c8b067d8bd11730de183c453581b3b3c",
+  "public_byte_identical": true,
+  "rom_bytes": 31589579,
+  "remaining_to_32MiB": 1964853,
+  "changed_bytes": 10,
+  "changed_offsets": [
+    "0xf0fa22",
+    "0xf0fa23",
+    "0xf0fa28",
+    "0xf0fa29",
+    "0xf0fa32",
+    "0xf0fa33",
+    "0xf0fa34",
+    "0xf0fa35",
+    "0xf0fa4a",
+    "0xf0fa4b"
+  ],
+  "approved_gain_words": {
+    "351": [
+      77,
+      423
+    ],
+    "354": [
+      109,
+      333
+    ],
+    "359": [
+      108,
+      315
+    ],
+    "360": [
+      101,
+      302
+    ],
+    "371": [
+      64,
+      279
+    ]
+  },
+  "all_symbols_unchanged": true,
+  "all_audio_samples_loop_headers_code_graphics_gameplay_and_other_26_gains_byte_identical": true
+}

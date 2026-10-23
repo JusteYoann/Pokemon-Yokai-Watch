@@ -7,6 +7,18 @@ config=json.loads((ROOT/'data/yokai/mixer_calibration.json').read_text())
 rows=sorted(config['tracks'],key=lambda r:r['song_id'])
 assert len({r['song_id'] for r in rows})==len(rows)
 assert all(64<=r['gain_q8']<=768 for r in rows)
+overrides=config.get('private_gain_overrides',[])
+assert len({r['song_id'] for r in overrides})==len(overrides)
+private={r['song_id']:r for r in overrides}
+assert set(private)<=set(r['song_id'] for r in rows)
+assert all(64<=r['gain_q8']<=768 for r in overrides)
 text='/* Measured post-B13 mix calibration. Source: data/yokai/mixer_calibration.json. */\nstatic const u16 sYokaiSongGain[MUS_YOKAI_LAST + 1] = {\n    [0] = 256,\n'
-text+=''.join(f"    [{r['constant']}] = {r['gain_q8']},\n" for r in rows)
+for r in rows:
+    original=f"    [{r['constant']}] = {r['gain_q8']},\n"
+    if r['song_id'] in private:
+        override=private[r['song_id']]
+        assert override['constant']==r['constant']
+        text+=f"#ifdef YOKAI_PRIVATE_AUDIO\n    [{r['constant']}] = {override['gain_q8']},\n#else\n"+original+'#endif\n'
+    else:
+        text+=original
 text+='};\n';(ROOT/'src/data/yokai_mixer_gains.h').write_text(text)

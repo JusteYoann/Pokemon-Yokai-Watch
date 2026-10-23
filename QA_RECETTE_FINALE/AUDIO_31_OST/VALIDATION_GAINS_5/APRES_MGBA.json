@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "6854d73f666d540d4327afa9ed7896c0909004df1f342707361d316176b11ced",
+  "results": [
+    {
+      "number": 5,
+      "frames": 7139,
+      "duration_seconds": 119.54290771484375,
+      "integrated_lufs": -28.8,
+      "lra_lu": 10.1,
+      "true_peak_dbfs": -13.7,
+      "raw_clipped_samples": 0,
+      "samples": 15668728,
+      "raw_peak_pcm16": 6624,
+      "maximum_momentary_lufs": -23.7,
+      "maximum_short_term_lufs": -25.1,
+      "clipping_detected": false
+    },
+    {
+      "number": 8,
+      "frames": 6668,
+      "duration_seconds": 111.6571044921875,
+      "integrated_lufs": -28.7,
+      "lra_lu": 7.2,
+      "true_peak_dbfs": -15.4,
+      "raw_clipped_samples": 0,
+      "samples": 14635120,
+      "raw_peak_pcm16": 5472,
+      "maximum_momentary_lufs": -23.2,
+      "maximum_short_term_lufs": -25.5,
+      "clipping_detected": false
+    },
+    {
+      "number": 13,
+      "frames": 5981,
+      "duration_seconds": 100.15484619140625,
+      "integrated_lufs": -28.9,
+      "lra_lu": 5.0,
+      "true_peak_dbfs": -15.6,
+      "raw_clipped_samples": 0,
+      "samples": 13127496,
+      "raw_peak_pcm16": 5184,
+      "maximum_momentary_lufs": -23.3,
+      "maximum_short_term_lufs": -24.6,
+      "clipping_detected": false
+    },
+    {
+      "number": 14,
+      "frames": 3955,
+      "duration_seconds": 66.234130859375,
+      "integrated_lufs": -28.8,
+      "lra_lu": 2.9,
+      "true_peak_dbfs": -14.7,
+      "raw_clipped_samples": 0,
+      "samples": 8681440,
+      "raw_peak_pcm16": 5952,
+      "maximum_momentary_lufs": -22.1,
+      "maximum_short_term_lufs": -26.7,
+      "clipping_detected": false
+    },
+    {
+      "number": 25,
+      "frames": 11078,
+      "duration_seconds": 185.492431640625,
+      "integrated_lufs": -28.7,
+      "lra_lu": 6.5,
+      "true_peak_dbfs": -14.9,
+      "raw_clipped_samples": 0,
+      "samples": 24312864,
+      "raw_peak_pcm16": 5280,
+      "maximum_momentary_lufs": -23.7,
+      "maximum_short_term_lufs": -24.6,
+      "clipping_detected": false
+    }
+  ],
+  "scope": "Actual native mixer, full intro+one cycle or complete one-shot, plus30-frame startup/end margin; EBU R128 after20Hz DC rejection; no listening, no simultaneous effects, no gain changes. passed means collection completed, not approval of mix."
+}

@@ -1,0 +1,343 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "6854d73f666d540d4327afa9ed7896c0909004df1f342707361d316176b11ced",
+  "results": [
+    {
+      "number": 8,
+      "passed": true,
+      "trigger": "Isolated native playback after real controller new-game; five loops with SFX, cry and Flash save; event routes tested separately",
+      "native_loop_wraps": [
+        {
+          "frame": 6605,
+          "sample_after_wrap": 298857,
+          "native_cry_active": false
+        },
+        {
+          "frame": 11909,
+          "sample_after_wrap": 298898,
+          "native_cry_active": false
+        },
+        {
+          "frame": 17213,
+          "sample_after_wrap": 298939,
+          "native_cry_active": false
+        },
+        {
+          "frame": 22516,
+          "sample_after_wrap": 298756,
+          "native_cry_active": false
+        },
+        {
+          "frame": 27820,
+          "sample_after_wrap": 298797,
+          "native_cry_active": false
+        }
+      ],
+      "clean_audio_seams_required": 5,
+      "actual_audio_seam_checks": [
+        {
+          "loop": 1,
+          "correlation": 0.9817596262661824,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 2,
+          "correlation": 0.9844240648615885,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 3,
+          "correlation": 0.982745142838375,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 4,
+          "correlation": 0.9820510981359781,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 5,
+          "correlation": 0.984085997731129,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        }
+      ],
+      "native_samples_per_frame": 224,
+      "expected_frames_per_cycle": 5303.816964285715,
+      "intro_not_repeated": true,
+      "audio_reference_pearson_correlation": 0.9814553431075806,
+      "after_SFX_and_cry_correlation": 0.9849425151279729,
+      "analysis_sample_rate_hz": 4000,
+      "alignment_grid_hz": 16000,
+      "initial_native_sample_position": 6944,
+      "select_SFX_and_cry_native_calls": true,
+      "cry_completed": true,
+      "native_Flash_save_with_music": true,
+      "continuous_channel_and_header_checked_every_frame": false,
+      "native_frames": 27860,
+      "source_sample_period": 1188055,
+      "perceptual_listening_validated": false,
+      "audio_demo": "Private output/previews only, not public GitHub"
+    },
+    {
+      "number": 13,
+      "passed": true,
+      "trigger": "Isolated native playback after real controller new-game; five loops with SFX, cry and Flash save; event routes tested separately",
+      "native_loop_wraps": [
+        {
+          "frame": 5918,
+          "sample_after_wrap": 13452,
+          "native_cry_active": false
+        },
+        {
+          "frame": 11809,
+          "sample_after_wrap": 13464,
+          "native_cry_active": false
+        },
+        {
+          "frame": 17700,
+          "sample_after_wrap": 13476,
+          "native_cry_active": false
+        },
+        {
+          "frame": 23591,
+          "sample_after_wrap": 13488,
+          "native_cry_active": false
+        },
+        {
+          "frame": 29482,
+          "sample_after_wrap": 13500,
+          "native_cry_active": false
+        }
+      ],
+      "clean_audio_seams_required": 5,
+      "actual_audio_seam_checks": [
+        {
+          "loop": 1,
+          "correlation": 0.9739824228586231,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 2,
+          "correlation": 0.9745839645008652,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 3,
+          "correlation": 0.9748932572657221,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 4,
+          "correlation": 0.9733216617772187,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 5,
+          "correlation": 0.9751701542421682,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        }
+      ],
+      "native_samples_per_frame": 224,
+      "expected_frames_per_cycle": 5890.946428571428,
+      "intro_not_repeated": true,
+      "audio_reference_pearson_correlation": 0.9682991762220591,
+      "after_SFX_and_cry_correlation": 0.9909083596293458,
+      "analysis_sample_rate_hz": 4000,
+      "alignment_grid_hz": 16000,
+      "initial_native_sample_position": 6944,
+      "select_SFX_and_cry_native_calls": true,
+      "cry_completed": true,
+      "native_Flash_save_with_music": true,
+      "continuous_channel_and_header_checked_every_frame": false,
+      "native_frames": 29522,
+      "source_sample_period": 1319572,
+      "perceptual_listening_validated": false,
+      "audio_demo": "Private output/previews only, not public GitHub"
+    },
+    {
+      "number": 14,
+      "passed": true,
+      "trigger": "Isolated native playback after real controller new-game; five loops with SFX, cry and Flash save; event routes tested separately",
+      "native_loop_wraps": [
+        {
+          "frame": 3892,
+          "sample_after_wrap": 53517,
+          "native_cry_active": false
+        },
+        {
+          "frame": 7579,
+          "sample_after_wrap": 53722,
+          "native_cry_active": false
+        },
+        {
+          "frame": 11265,
+          "sample_after_wrap": 53703,
+          "native_cry_active": false
+        },
+        {
+          "frame": 14951,
+          "sample_after_wrap": 53684,
+          "native_cry_active": false
+        },
+        {
+          "frame": 18637,
+          "sample_after_wrap": 53665,
+          "native_cry_active": false
+        },
+        {
+          "frame": 22323,
+          "sample_after_wrap": 53646,
+          "native_cry_active": false
+        }
+      ],
+      "clean_audio_seams_required": 5,
+      "actual_audio_seam_checks": [
+        {
+          "loop": 1,
+          "correlation": 0.9734109718443027,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 2,
+          "correlation": 0.9734805648669177,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 3,
+          "correlation": 0.973507845671856,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 4,
+          "correlation": 0.9736869966212998,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 5,
+          "correlation": 0.9732334475640783,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 6,
+          "correlation": 0.9736701383061744,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        }
+      ],
+      "native_samples_per_frame": 224,
+      "expected_frames_per_cycle": 3686.0848214285716,
+      "intro_not_repeated": true,
+      "audio_reference_pearson_correlation": 0.9926361157895243,
+      "after_SFX_and_cry_correlation": 0.9651474291663061,
+      "analysis_sample_rate_hz": 4000,
+      "alignment_grid_hz": 16000,
+      "initial_native_sample_position": 6944,
+      "select_SFX_and_cry_native_calls": true,
+      "cry_completed": true,
+      "native_Flash_save_with_music": true,
+      "continuous_channel_and_header_checked_every_frame": false,
+      "native_frames": 22363,
+      "source_sample_period": 825683,
+      "perceptual_listening_validated": false,
+      "audio_demo": "Private output/previews only, not public GitHub"
+    },
+    {
+      "number": 25,
+      "passed": true,
+      "trigger": "Isolated native playback after real controller new-game; five loops with SFX, cry and Flash save; event routes tested separately",
+      "native_loop_wraps": [
+        {
+          "frame": 11015,
+          "sample_after_wrap": 462550,
+          "native_cry_active": false
+        },
+        {
+          "frame": 19998,
+          "sample_after_wrap": 462540,
+          "native_cry_active": false
+        },
+        {
+          "frame": 28981,
+          "sample_after_wrap": 462530,
+          "native_cry_active": false
+        },
+        {
+          "frame": 37964,
+          "sample_after_wrap": 462520,
+          "native_cry_active": false
+        },
+        {
+          "frame": 46947,
+          "sample_after_wrap": 462510,
+          "native_cry_active": false
+        }
+      ],
+      "clean_audio_seams_required": 5,
+      "actual_audio_seam_checks": [
+        {
+          "loop": 1,
+          "correlation": 0.9638959365692014,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 2,
+          "correlation": 0.9645246934543549,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 3,
+          "correlation": 0.9649745308741472,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 4,
+          "correlation": 0.9650870672857159,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        },
+        {
+          "loop": 5,
+          "correlation": 0.9649061413342247,
+          "cry_at_capture": false,
+          "cry_at_wrap": false
+        }
+      ],
+      "native_samples_per_frame": 224,
+      "expected_frames_per_cycle": 8983.044642857143,
+      "intro_not_repeated": true,
+      "audio_reference_pearson_correlation": 0.982509457658502,
+      "after_SFX_and_cry_correlation": 0.9865610151564497,
+      "analysis_sample_rate_hz": 4000,
+      "alignment_grid_hz": 16000,
+      "initial_native_sample_position": 6944,
+      "select_SFX_and_cry_native_calls": true,
+      "cry_completed": true,
+      "native_Flash_save_with_music": true,
+      "continuous_channel_and_header_checked_every_frame": false,
+      "native_frames": 46987,
+      "source_sample_period": 2012202,
+      "perceptual_listening_validated": false,
+      "audio_demo": "Private output/previews only, not public GitHub"
+    }
+  ],
+  "scope": "Native mixer and waveform-reference checks; not subjective listening, hardware or full-adventure playthrough."
+}

@@ -1,0 +1,458 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "6854d73f666d540d4327afa9ed7896c0909004df1f342707361d316176b11ced",
+  "results": [
+    {
+      "number": 27,
+      "fanfare": "MUS_LEVEL_UP",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 27,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 27,
+      "fanfare": "MUS_EVOLVED",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 169344,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 27,
+      "fanfare": "MUS_OBTAIN_TMHM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 169344,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 27,
+      "fanfare": "MUS_HEAL",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 27,
+      "fanfare": "MUS_OBTAIN_BADGE",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 169344,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 27,
+      "fanfare": "MUS_MOVE_DELETED",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 169344,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 27,
+      "fanfare": "MUS_OBTAIN_BERRY",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 27,
+      "fanfare": "MUS_SLOTS_JACKPOT",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 169792,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 27,
+      "fanfare": "MUS_SLOTS_WIN",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168896,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 27,
+      "fanfare": "MUS_TOO_BAD",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 27,
+      "fanfare": "MUS_POKE_FLUTE",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 169792,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 27,
+      "fanfare": "MUS_OBTAIN_KEY_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 169792,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 27,
+      "fanfare": "MUS_DEX_RATING",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 169344,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 1,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 2,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 3,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 4,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 5,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 6,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 7,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 8,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 9,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 10,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 11,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 12,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 13,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 14,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 15,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 16,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 17,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 18,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 19,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 20,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 21,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 22,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 23,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 24,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 25,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 26,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 27,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 28,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 29,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 30,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    },
+    {
+      "number": 31,
+      "fanfare": "MUS_OBTAIN_ITEM",
+      "native_pause": true,
+      "native_resume": true,
+      "sample_before": 168000,
+      "sample_after": 168448,
+      "no_reset": true,
+      "passed": true
+    }
+  ],
+  "scope": "45 isolated native fanfare calls after real new-game init; actual sequencer pause, sampled-channel restoration and advancing cursor. Not every in-world item/evolution event."
+}
