@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "rom_sha256": "a8211bafc29ab8e750c412dc921b5989b8e443548095b9b66f179c78efdf18bb",
+  "scope": "Private native map routing, Katie loops/fanfare and unassigned Zombie one-shot.",
+  "results": [
+    {
+      "test": "Real Matt house door, Katie three native wraps without restart",
+      "wrap_frames": [
+        6120,
+        11424,
+        16728
+      ],
+      "passed": true
+    },
+    {
+      "test": "Katie resumes after native item fanfare; SE and cry retain BGM",
+      "passed": true
+    },
+    {
+      "map": "PalletTown_PlayersHouse_1F",
+      "slot": 7,
+      "passed": true
+    },
+    {
+      "map": "LavenderTown",
+      "slot": 23,
+      "passed": true
+    },
+    {
+      "map": "PokemonTower_1F",
+      "slot": 4,
+      "passed": true
+    },
+    {
+      "map": "IndigoPlateau_PokemonCenter_1F",
+      "slot": 23,
+      "passed": true
+    },
+    {
+      "test": "Silph Bada-Bing occupied; Uptown after liberation unchanged",
+      "passed": true
+    },
+    {
+      "test": "Zombie standalone source-only playback, native end and no forced restart; not mapped anywhere",
+      "ending_frames": 5858,
+      "passed": true
+    }
+  ]
+}

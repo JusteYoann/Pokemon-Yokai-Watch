@@ -1,13 +1,7 @@
-# Argenta — jalon fonctionnel intermédiaire
+# Point de reprise — mission Argenta vérifiée
 
-Base graphique : 1bf5774d8 ; récupération audio sélective : 837bd1757, aucune fusion.
-Cinématique compilée et parcourue depuis les quatre arrivées dans les deux profils.
-Palettes locales Matt6 / Don10, graphismes et animations inchangés.
-Katie House dans la maison de Matt. Enma Villa réservée. Dernière décision du créateur :
-Mystic Grove reste à Lavanville ; Zombie Night remplace Wildwood au slot360,
-reste non affectée et conserve la lecture originale sans boucle artificielle.
-Gain privé Zombie seul : 256 ->370, mesure mGBA -32 ->-28,9 LUFS, pic -13,6 dBTP, aucun écrêtage.
+Branche `feature/argenta-morleone-musique`, base `1bf5774d8`, premier commit `b75d2f42a`.
 
-Reste avant clôture : régénérer les captures avec des boîtes entièrement affichées,
-terminer et publier les preuves de sauvegarde/rejeu, transitions et préservation binaire.
-Les ROM et tous les enregistrements audio restent privés.
+Les captures lisibles, tests des 16 arrivées, sauvegardes/rechargements, rejeu de développement et contrôles audio sont terminés. Lire [le rapport final](README.md) et `VALIDATION_FINALE.json` pour les preuves, empreintes et limites.
+
+Dernière décision du créateur appliquée : conserver Mystic Grove à Lavanville ; Zombie Night reste disponible sans affectation ni boucle artificielle. Enma Villa reste également en réserve. Aucune fusion réalisée. Ne pas relancer de développement audio ou de scénario sans nouvelle instruction.

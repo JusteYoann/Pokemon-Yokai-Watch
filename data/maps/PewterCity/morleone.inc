@@ -178,7 +178,7 @@ Argenta_MattLead::
 	walk_up
 	walk_up
 	walk_right
-	face_down
+	face_up
 	step_end
 Argenta_PlayerFollow::
 	walk_right

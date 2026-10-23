@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "scope": "Development-only isolated replay, optionally from a COPY of a user's .sav.\n\nNever writes the supplied save. No debug menu or progression bypass in release\nROM. Replay flags/warp live only in a temporary emulator, then are rolled back.\n",
+  "rom_sha256": "1f2f5daa51b0f46b5e68ccd2eeff431b4d98d76adf790aa3af0fc2b22353b439",
+  "input_save_sha256": "c636cd89789b1ebaa3507546cf55529feaf7c7e86377783e3a2c18f310db151c",
+  "input_save_never_written": true,
+  "all_save_blocks_restored": true
+}

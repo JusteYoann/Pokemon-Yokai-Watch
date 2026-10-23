@@ -5,7 +5,9 @@
   "bytes": 680146,
   "duration_seconds": 98.58614246206741,
   "assignment": null,
-  "playback": "one-shot source, no synthetic loop",
+  "playback": "Original full source, one-shot; unassigned by user decision",
   "user_decision": "Keep Mystic Grove in Lavender; Zombie Night unassigned for now",
-  "native_tested": false
+  "native_tested": true,
+  "reproducible_source_conversion": true,
+  "ffmpeg": "7.1.5-0+deb13u1"
 }

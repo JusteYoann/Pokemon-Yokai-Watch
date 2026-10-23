@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "scene_cases": 16,
+  "native_reports": {
+    "katie-prive": {
+      "passed": true,
+      "rom_sha256": "a8211bafc29ab8e750c412dc921b5989b8e443548095b9b66f179c78efdf18bb"
+    },
+    "katie-public": {
+      "passed": true,
+      "rom_sha256": "1f2f5daa51b0f46b5e68ccd2eeff431b4d98d76adf790aa3af0fc2b22353b439"
+    },
+    "musiques": {
+      "passed": true,
+      "rom_sha256": "a8211bafc29ab8e750c412dc921b5989b8e443548095b9b66f179c78efdf18bb"
+    },
+    "prive": {
+      "passed": true,
+      "rom_sha256": "a8211bafc29ab8e750c412dc921b5989b8e443548095b9b66f179c78efdf18bb"
+    },
+    "public": {
+      "passed": true,
+      "rom_sha256": "1f2f5daa51b0f46b5e68ccd2eeff431b4d98d76adf790aa3af0fc2b22353b439"
+    },
+    "rejeu-developpement": {
+      "passed": true,
+      "rom_sha256": "1f2f5daa51b0f46b5e68ccd2eeff431b4d98d76adf790aa3af0fc2b22353b439"
+    },
+    "rejeu-fichier-sav": {
+      "passed": true,
+      "rom_sha256": "1f2f5daa51b0f46b5e68ccd2eeff431b4d98d76adf790aa3af0fc2b22353b439"
+    },
+    "sauvegarde-prive": {
+      "passed": true,
+      "rom_sha256": "a8211bafc29ab8e750c412dc921b5989b8e443548095b9b66f179c78efdf18bb"
+    },
+    "sauvegarde-public": {
+      "passed": true,
+      "rom_sha256": "1f2f5daa51b0f46b5e68ccd2eeff431b4d98d76adf790aa3af0fc2b22353b439"
+    }
+  },
+  "private_bytes": 31589579,
+  "private_sha256": "a8211bafc29ab8e750c412dc921b5989b8e443548095b9b66f179c78efdf18bb",
+  "public_bytes": 16777216,
+  "public_sha256": "1f2f5daa51b0f46b5e68ccd2eeff431b4d98d76adf790aa3af0fc2b22353b439",
+  "zombie_reconversion_identical": true,
+  "human_listening": false,
+  "full_campaign_tested": false
+}

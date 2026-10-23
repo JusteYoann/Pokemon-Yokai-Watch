@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "scope": "Independent native Flash fixtures: pre-scene save, post-scene save, revisit and legacy migration.",
+  "rom_sha256": "1f2f5daa51b0f46b5e68ccd2eeff431b4d98d76adf790aa3af0fc2b22353b439",
+  "results": [
+    {
+      "test": "Native Flash before scene -> reload -> complete -> save -> reload -> south revisit without repeat",
+      "passed": true
+    },
+    {
+      "test": "Legacy visited-town fixture skips new intro; gym/running-shoes var remains2",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "passed": true,
+  "rom_sha256": "a8211bafc29ab8e750c412dc921b5989b8e443548095b9b66f179c78efdf18bb",
+  "scope": "Actual first-arrival scene via Route2, four entrances; controller dialogue, no ROM patches.",
+  "player_gender": 1,
+  "results": [
+    {
+      "entry": 20,
+      "completed_frames": 3971,
+      "simultaneous_palette_banks": [
+        [
+          6,
+          10
+        ]
+      ],
+      "music_headers": [
+        "0x9b9671c",
+        "0x955ca9c",
+        "0x94b7224",
+        "0x955ca9c"
+      ],
+      "captured": [
+        "dispersion",
+        "discours",
+        "rassemblement"
+      ],
+      "peak_active_objects": 12,
+      "passed": true
+    },
+    {
+      "entry": 21,
+      "completed_frames": 4131,
+      "simultaneous_palette_banks": [
+        [
+          6,
+          10
+        ]
+      ],
+      "music_headers": [
+        "0x9b9671c",
+        "0x955ca9c",
+        "0x94b7224",
+        "0x955ca9c"
+      ],
+      "captured": [
+        "dispersion",
+        "discours",
+        "rassemblement"
+      ],
+      "peak_active_objects": 12,
+      "passed": true
+    },
+    {
+      "entry": 22,
+      "completed_frames": 3939,
+      "simultaneous_palette_banks": [
+        [
+          6,
+          10
+        ]
+      ],
+      "music_headers": [
+        "0x9b9671c",
+        "0x955ca9c",
+        "0x94b7224",
+        "0x955ca9c"
+      ],
+      "captured": [
+        "dispersion",
+        "discours",
+        "rassemblement"
+      ],
+      "peak_active_objects": 12,
+      "passed": true
+    },
+    {
+      "entry": 23,
+      "completed_frames": 4099,
+      "simultaneous_palette_banks": [
+        [
+          6,
+          10
+        ]
+      ],
+      "music_headers": [
+        "0x9b9671c",
+        "0x955ca9c",
+        "0x94b7224",
+        "0x955ca9c"
+      ],
+      "captured": [
+        "dispersion",
+        "discours",
+        "rassemblement"
+      ],
+      "peak_active_objects": 12,
+      "passed": true
+    }
+  ]
+}

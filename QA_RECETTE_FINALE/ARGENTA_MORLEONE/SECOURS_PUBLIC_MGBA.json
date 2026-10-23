@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "rom_sha256": "1f2f5daa51b0f46b5e68ccd2eeff431b4d98d76adf790aa3af0fc2b22353b439",
+  "results": [
+    {
+      "map": "PalletTown_RivalsHouse",
+      "native_fallback": "mus_pallet",
+      "passed": true
+    },
+    {
+      "map": "LavenderTown",
+      "native_fallback": "mus_mt_moon",
+      "passed": true
+    },
+    {
+      "song_id": 360,
+      "native_fallback": "mus_lavender",
+      "passed": true
+    },
+    {
+      "song_id": 359,
+      "native_fallback": "mus_pallet",
+      "passed": true
+    }
+  ]
+}
