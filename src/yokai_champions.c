@@ -71,6 +71,14 @@ u8 YokaiChampionObjectGfx(u8 graphicsId)
         return OBJ_EVENT_GFX_YOKAI_DOMNISCIAN;
     if (map == MAP_FUCHSIA_CITY_GYM && graphicsId == OBJ_EVENT_GFX_KOGA)
         return OBJ_EVENT_GFX_YOKAI_BERENICE;
+    if (map == MAP_POKEMON_LEAGUE_LORELEIS_ROOM && graphicsId == OBJ_EVENT_GFX_LORELEI)
+        return OBJ_EVENT_GFX_YOKAI_ZAZEL;
+    if (map == MAP_POKEMON_LEAGUE_BRUNOS_ROOM && graphicsId == OBJ_EVENT_GFX_BRUNO)
+        return OBJ_EVENT_GFX_YOKAI_ENMA_ANCIEN;
+    if (map == MAP_POKEMON_LEAGUE_AGATHAS_ROOM && graphicsId == OBJ_EVENT_GFX_AGATHA)
+        return OBJ_EVENT_GFX_YOKAI_ORQANOS;
+    if (map == MAP_POKEMON_LEAGUE_LANCES_ROOM && graphicsId == OBJ_EVENT_GFX_LANCE)
+        return OBJ_EVENT_GFX_YOKAI_NYADA;
     if (map == MAP_CINNABAR_ISLAND_GYM && graphicsId == OBJ_EVENT_GFX_BLAINE)
         return gSaveBlock2Ptr->playerGender == FEMALE ? OBJ_EVENT_GFX_YOKAI_MICHAEL : OBJ_EVENT_GFX_YOKAI_NATHANIEL;
     return graphicsId;
@@ -141,6 +149,10 @@ u8 YokaiChampionFameObjectGfx(u8 graphicsId)
     case OBJ_EVENT_GFX_LT_SURGE: return OBJ_EVENT_GFX_ARIANE;
     case OBJ_EVENT_GFX_SABRINA: return OBJ_EVENT_GFX_YOKAI_DOMNISCIAN;
     case OBJ_EVENT_GFX_KOGA: return OBJ_EVENT_GFX_YOKAI_BERENICE;
+    case OBJ_EVENT_GFX_LORELEI: return OBJ_EVENT_GFX_YOKAI_ZAZEL;
+    case OBJ_EVENT_GFX_BRUNO: return OBJ_EVENT_GFX_YOKAI_ENMA_ANCIEN;
+    case OBJ_EVENT_GFX_AGATHA: return OBJ_EVENT_GFX_YOKAI_ORQANOS;
+    case OBJ_EVENT_GFX_LANCE: return OBJ_EVENT_GFX_YOKAI_NYADA;
     case OBJ_EVENT_GFX_BLAINE: return gSaveBlock2Ptr->playerGender == FEMALE ? OBJ_EVENT_GFX_YOKAI_MICHAEL : OBJ_EVENT_GFX_YOKAI_NATHANIEL;
     }
     return graphicsId;

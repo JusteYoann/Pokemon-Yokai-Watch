@@ -164,68 +164,40 @@ gFameCheckerFlavorText_Erika5::
 	.string "Elle plaisante souvent, mais son\ntalent de Championne est redoutable.$"
 
 gFameCheckerFlavorText_Koga0:: @ 0x81AE2B6
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}FUCHSIA CITY Yo-kai GYM\n"
-	.string "LEADER: KOGA\l"
-	.string "The Poisonous Ninja Master$"
+    .string "Bérénice dirige l’Arène\nde Parmanie.$"
 
 gFameCheckerFlavorText_Koga1:: @ 0x81AE31D
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of Yo-kai?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Despair to the creeping horror of\n"
-	.string "POISON-type Yo-kai!$"
+    .string "Elle utilise des Yo-kai\nde type Psy.$"
 
 gFameCheckerFlavorText_Koga2:: @ 0x81AE37D
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Even though I've lost, I will keep\n"
-	.string "training according to the teachings\l"
-	.string "of KOGA, my ninja master.$"
+    .string "Son Arène comporte\ndes murs invisibles.$"
 
 gFameCheckerFlavorText_Koga3:: @ 0x81AE407
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}My father is the GYM LEADER of\n"
-	.string "this town.\p"
-	.string "I'm training to use POISON Yo-kai\n"
-	.string "as well as my father.$"
+    .string "Elle remet le Badge Âme\naux Dresseurs victorieux.$"
 
 gFameCheckerFlavorText_Koga4:: @ 0x81AE48D
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}KOGA is said to have a thorough\n"
-	.string "knowledge of medicine.\p"
-	.string "He even concocts medicine to nurse\n"
-	.string "his Yo-kai to health.$"
+    .string "Son Badge permet d’utiliser\nSurf hors des combats.$"
 
 gFameCheckerFlavorText_Koga5:: @ 0x81AE51B
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}The SAFARI ZONE's huge, wouldn't\n"
-	.string "you say?\p"
-	.string "FUCHSIA's GYM LEADER, KOGA, \n"
-	.string "patrols the grounds every so often.\p"
-	.string "Thanks to him, we can play here\n"
-	.string "knowing that we're safe.$"
+    .string "Elle offre la CT Psyko\naprès son défi.$"
 
 gFameCheckerFlavorText_Sabrina0:: @ 0x81AE5E8
-    .string "Bérénice Bélier dirige\nl’Arène de Safrania.$"
-
+    .string "Domniscian est le Champion Acier\nde Safrania.$"
 
 gFameCheckerFlavorText_Sabrina1:: @ 0x81AE656
-    .string "Ses partenaires sont\ndes Yo-kai de type Psy.$"
-
+    .string "Il est le PDG actuel\nde Yopple.$"
 
 gFameCheckerFlavorText_Sabrina2:: @ 0x81AE6D7
-    .string "Elle entraîne sa concentration\navec ses Yo-kai.$"
-
+    .string "Il a racheté Yopple,\nfondée par Steve Jaws.$"
 
 gFameCheckerFlavorText_Sabrina3:: @ 0x81AE762
-    .string "Son Arène possède\nun réseau de téléporteurs.$"
-
+    .string "Steve Jaws est à l’origine\ndes inventions de Yopple.$"
 
 gFameCheckerFlavorText_Sabrina4:: @ 0x81AE7CB
-    .string "Elle respecte les liens\nentre un Dresseur et ses amis.$"
-
+    .string "Après son sauvetage, il offre\nune Master Ball.$"
 
 gFameCheckerFlavorText_Sabrina5:: @ 0x81AE841
-    .string "Savantard est le dernier\nYo-kai de son équipe.$"
-
+    .string "Après la Ligue, il accepte\nles revanches dans son Arène.$"
 
 gFameCheckerFlavorText_Blaine0:: @ 0x81AE89E
     .string "{CHAMPION_CRAMOIS} dirige\nl’Arène de Cramois’Île.$"
@@ -252,156 +224,76 @@ gFameCheckerFlavorText_Blaine5:: @ 0x81AEB69
 
 
 gFameCheckerFlavorText_Lorelei0:: @ 0x81AEBDF
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I am LORELEI of the ELITE FOUR.$"
+    .string "Zazel est le premier adversaire\nde la Ligue.$"
 
 gFameCheckerFlavorText_Lorelei1:: @ 0x81AEC28
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of Yo-kai?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}No one can best me when it comes\n"
-	.string "to icy Yo-kai.$"
+    .string "Il utilise des stratégies\nPsy et Ténèbres.$"
 
 gFameCheckerFlavorText_Lorelei2:: @ 0x81AEC82
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Where was this person born?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}We've had a great and powerful\n"
-	.string "TRAINER grow up on this island.\p"
-	.string "I bet even you'd know her.\n"
-	.string "It's LORELEI of the ELITE FOUR!$"
+    .string "Son équipe comporte\nsix Yo-kai.$"
 
 gFameCheckerFlavorText_Lorelei3:: @ 0x81AED27
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Known for her logical, calculated,\n"
-	.string "and cool battling style, LORELEI\l"
-	.string "has a surprising secret!$"
+    .string "Il joue sur le sommeil\net la confusion.$"
 
 gFameCheckerFlavorText_Lorelei4:: @ 0x81AEDAA
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Did you know that LORELEI has lots\n"
-	.string "and lots of stuffed dolls?\p"
-	.string "Every time she comes back to\n"
-	.string "FOUR ISLAND, her collection grows!$"
+    .string "Octorgone est son dernier\nYo-kai, au niveau 58.$"
 
 gFameCheckerFlavorText_Lorelei5:: @ 0x81AEE51
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of Yo-kai?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}The LAPRAS she has, I imagine it\n"
-	.string "to be the one she met as a child.\p"
-	.string "I believe it was in ICEFALL CAVE\n"
-	.string "that she caught it.\p"
-	.string "Perhaps that Yo-kai has been with\n"
-	.string "her ever since.$"
+    .string "Son équipe va\ndu niveau 52 au niveau 58.$"
 
 gFameCheckerFlavorText_Bruno0:: @ 0x81AEF25
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I am BRUNO of the ELITE FOUR!$"
+    .string "Enma l’Ancien est le deuxième\nadversaire de la Ligue.$"
 
 gFameCheckerFlavorText_Bruno1:: @ 0x81AEF6C
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of Yo-kai?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I've lived and trained with my\n"
-	.string "fighting Yo-kai!$"
+    .string "Son équipe réunit des figures\nanciennes et prestigieuses.$"
 
 gFameCheckerFlavorText_Bruno2:: @ 0x81AEFC6
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BRUNO apparently joined the ELITE\n"
-	.string "FOUR out of his burning ambition to\l"
-	.string "battle the best TRAINERS.$"
+    .string "Il est distinct du Seigneur Enma\nrencontré dans la Grotte Azurée.$"
 
 gFameCheckerFlavorText_Bruno3:: @ 0x81AF04C
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BRUNO, who's a senior ahead of me,\n"
-	.string "visits the SPA on occasion.\p"
-	.string "He comes to rehab injuries, both\n"
-	.string "his own and his Yo-kai's.$"
+    .string "Il compte Hovernyan\nparmi ses six Yo-kai.$"
 
 gFameCheckerFlavorText_Bruno4:: @ 0x81AF0F0
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}He's one of the ELITE FOUR.\n"
-	.string "His name is BRUNO.\p"
-	.string "He went away disappointed when he\n"
-	.string "found out that they were all sold\l"
-	.string "out of Rage Candybars.$"
+    .string "Shogunyan combat\nau niveau 58.$"
 
 gFameCheckerFlavorText_Bruno5:: @ 0x81AF19A
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Even BRUNO…\n"
-	.string "He trained with a fellow by the\l"
-	.string "name of BRAWLY before.$"
+    .string "Son dernier Yo-kai est Kyubi\nau niveau 60.$"
 
 gFameCheckerFlavorText_Agatha0:: @ 0x81AF200
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I am AGATHA of the ELITE FOUR.$"
+    .string "Orqanos est le troisième\nadversaire de la Ligue.$"
 
 gFameCheckerFlavorText_Agatha1:: @ 0x81AF248
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of Yo-kai?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}AGATHA's GHOST-type Yo-kai are\n"
-	.string "horrifically terrifying in toughness.$"
+    .string "Il privilégie la force brute\net les attaques physiques.$"
 
 gFameCheckerFlavorText_Agatha2:: @ 0x81AF2B7
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}That old lady's also got a really\n"
-	.string "short fuse, too.\p"
-	.string "It doesn't take anything to get\n"
-	.string "that scary lady hollering.$"
+    .string "Il utilise des Yo-kai\nCombat et Roche.$"
 
 gFameCheckerFlavorText_Agatha3:: @ 0x81AF34E
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}In her youth, AGATHA and PROF.\n"
-	.string "OAK were rivals who vied for\l"
-	.string "supremacy as TRAINERS.$"
+    .string "Son équipe compte\nsix Yo-kai.$"
 
 gFameCheckerFlavorText_Agatha4:: @ 0x81AF3BE
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I hear OAK's taken a lot of\n"
-	.string "interest in you, child.\p"
-	.string "That old duff was once tough and\n"
-	.string "handsome.\p"
-	.string "But that was decades ago.\n"
-	.string "He's a shadow of his former self.$"
+    .string "Mademoaiselle est son dernier\nYo-kai, au niveau 62.$"
 
 gFameCheckerFlavorText_Agatha5:: @ 0x81AF47C
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Take AGATHA, for example.\p"
-	.string "She set a record for being the\n"
-	.string "oldest-ever ELITE FOUR member.$"
+    .string "Coach Antonic combat\ndans son équipe au niveau 57.$"
 
 gFameCheckerFlavorText_Lance0:: @ 0x81AF4FD
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I lead the ELITE FOUR.\p"
-	.string "You can call me LANCE the dragon\n"
-	.string "TRAINER.$"
+    .string "Maître Nyada est le quatrième\nadversaire de la Ligue.$"
 
 gFameCheckerFlavorText_Lance1:: @ 0x81AF567
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of Yo-kai?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}You know that dragons are\n"
-	.string "mythical Yo-kai.\p"
-	.string "They're hard to catch and raise,\n"
-	.string "but their powers are superior.\p"
-	.string "They're virtually indestructible.\n"
-	.string "There's no being clever with them.$"
+    .string "Son équipe est multitype\net comporte six Yo-kai.$"
 
 gFameCheckerFlavorText_Lance2:: @ 0x81AF641
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}He stands for justice!\n"
-	.string "He's cool, and yet passionate!\l"
-	.string "He's the greatest, LANCE!$"
+    .string "Il envoie Robonyan F\nen quatrième position.$"
 
 gFameCheckerFlavorText_Lance3:: @ 0x81AF6BA
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}We have a customer, LANCE, who\n"
-	.string "occasionally comes.\p"
-	.string "He always buys capes.\p"
-	.string "I wonder… Does he have many\n"
-	.string "identical capes at home?$"
+    .string "Démophage est l’avant-dernier\nYo-kai, au niveau 63.$"
 
 gFameCheckerFlavorText_Lance4:: @ 0x81AF758
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}LANCE's grandfather is thought to\n"
-	.string "be the elder of a famous clan of\l"
-	.string "dragon masters.$"
+    .string "Son ultime combattant est\nle Yo-kai Maître Nyada.$"
 
 gFameCheckerFlavorText_Lance5:: @ 0x81AF7CB
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}From what I've heard, LANCE has\n"
-	.string "a cousin who's a GYM LEADER\l"
-	.string "somewhere far away.$"
+    .string "Ce dernier Yo-kai\ncombat au niveau 65.$"
 
 gFameCheckerFlavorText_Bill0:: @ 0x81AF83E
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
@@ -551,23 +443,16 @@ gFameCheckerPersonQuote_Erika::
 	.string "Mes petits zombies sont adorables!\nReviens jouer avec nous!$"
 
 gFameCheckerPersonName_Koga:: @ 0x81B05C2
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}KOGA$"
-
-gFameCheckerPersonQuote_Koga:: @ 0x81B05CD
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: KOGA\n"
-	.string "To: {PLAYER}\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}You and I, we must both set our\n"
-	.string "sights higher and work towards\l"
-	.string "meeting our challenges.\p"
-	.string "Now, I must go train my daughter.$"
-
-gFameCheckerPersonName_Sabrina:: @ 0x81B0667
     .string "BÉRÉNICE BÉLIER$"
 
-
-gFameCheckerPersonQuote_Sabrina:: @ 0x81B0675
+gFameCheckerPersonQuote_Koga:: @ 0x81B05CD
     .string "Tes liens avec tes Yo-kai\nont fait la différence.\pGarde cette confiance en eux.$"
 
+gFameCheckerPersonName_Sabrina:: @ 0x81B0667
+    .string "DOMNISCIAN$"
+
+gFameCheckerPersonQuote_Sabrina:: @ 0x81B0675
+    .string "Mon Arène de Safrania\nt’est toujours ouverte!$"
 
 gFameCheckerPersonName_Blaine:: @ 0x81B06FB
     .string "{CHAMPION_CRAMOIS}$"
@@ -578,50 +463,28 @@ gFameCheckerPersonQuote_Blaine:: @ 0x81B0708
 
 
 gFameCheckerPersonName_Lorelei:: @ 0x81B079F
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}LORELEI$"
+    .string "ZAZEL$"
 
 gFameCheckerPersonQuote_Lorelei:: @ 0x81B07AD
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: LORELEI\n"
-	.string "To: {PLAYER}\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I needed to thank you for your\n"
-	.string "help.\p"
-	.string "But that has nothing to do with our\n"
-	.string "battles.\p"
-	.string "You'd better watch out next time!$"
+    .string "Garde l’esprit clair\njusqu’au prochain combat.$"
 
 gFameCheckerPersonName_Bruno:: @ 0x81B0845
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}BRUNO$"
+    .string "ENMA L’ANCIEN$"
 
 gFameCheckerPersonQuote_Bruno:: @ 0x81B0851
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: BRUNO\n"
-	.string "To: {PLAYER}\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}The super power of your Yo-kai\n"
-	.string "and you I've experienced myself.\p"
-	.string "Next time, maybe I should show you\n"
-	.string "how to train yourself.$"
+    .string "Ces liens sont dignes\nde respect.$"
 
 gFameCheckerPersonName_Agatha:: @ 0x81B08EE
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}AGATHA$"
+    .string "ORQANOS$"
 
 gFameCheckerPersonQuote_Agatha:: @ 0x81B08FB
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: AGATHA\n"
-	.string "To: {PLAYER}\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}When you grow older, don't you\n"
-	.string "dare go soft like that coot OAK!\p"
-	.string "Be like me and keep battling on!$"
+    .string "La force se travaille\nsans relâche!$"
 
 gFameCheckerPersonName_Lance:: @ 0x81B097F
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}LANCE$"
+    .string "MAÎTRE NYADA$"
 
 gFameCheckerPersonQuote_Lance:: @ 0x81B098B
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: LANCE\n"
-	.string "To: {PLAYER}\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I'm considering going back to my\n"
-	.string "hometown.\p"
-	.string "I want to retrain my DRAGON-type\n"
-	.string "Yo-kai and strengthen them.\p"
-	.string "I'd like to invite you to my\n"
-	.string "hometown one day.$"
+    .string "Reste attentif\njusqu’au dernier combattant!$"
 
 gFameCheckerPersonName_Bill:: @ 0x81B0A45
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}BILL$"
@@ -926,10 +789,10 @@ gFameCheckerFlavorTextOriginLocation_Giovanni0::
 	.string "REPAIRE$"
 
 gFameCheckerFlavorTextOriginLocation_Giovanni1::
-	.string "SYLPHE SARL$"
+	.string "Yopple$"
 
 gFameCheckerFlavorTextOriginLocation_Giovanni2::
-	.string "SYLPHE SARL$"
+	.string "Yopple$"
 
 gFameCheckerFlavorTextOriginLocation_Giovanni3::
 	.string "JADIELLE$"
