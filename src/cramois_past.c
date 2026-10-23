@@ -12,6 +12,12 @@
 // ROM only: no permanent EWRAM, no rewritten source palette, no cumulative tint.
 static const u16 sSepiaRgb555[] = INCBIN_U16("data/yokai/cramois-sepia-rgb555.bin");
 
+// Shared only by the maritime transition; existing island transfer is unchanged.
+u16 CramoisSepiaColor(u16 color)
+{
+    return sSepiaRgb555[color & 0x7FFF];
+}
+
 bool8 CramoisIsPastMap(void)
 {
     u16 map;

@@ -1,6 +1,7 @@
 #include "philosovni.h"
 #include "global.h"
 #include "cramois_past.h"
+#include "cramois_fog.h"
 #include "lavanville.h"
 #include "gflib.h"
 #include "bg_regs.h"
@@ -1491,6 +1492,7 @@ static void OverworldBasic(void)
     RunTasks();
     AnimateSprites();
     CameraUpdate();
+    CramoisFogUpdate();
     if (gMain.callback2 == CB2_Overworld) PhilosovniFollowerUpdate();
     SetQuestLogEvent_Arrived();
     UpdateCameraPanning();
@@ -1785,6 +1787,7 @@ static void VBlankCB_Field(void)
     FieldUpdateBgTilemapScroll();
     TransferPlttBuffer();
     LavanvilleNightPalette();
+    CramoisFogPalette();
     TransferTilesetAnimsBuffer();
 }
 
