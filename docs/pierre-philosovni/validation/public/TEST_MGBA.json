@@ -1,0 +1,124 @@
+{
+  "passed": true,
+  "rom_sha256": "86dcd5a790cb9e50a8358a4d001143c78a4c714f61f9a2561059942c1eb8fe6e",
+  "fixtures": "Native new game; initial map/party fixtures and explicit edge-case snapshots. No enemy HP or outcome edited.",
+  "checks": [
+    {
+      "test": "Wyatt concern after speech and unchanged real victory rewards; badge Roche, TM39",
+      "passed": true
+    },
+    {
+      "test": "Wyatt revisit returns without replay or new battle",
+      "passed": true
+    },
+    {
+      "test": "Save/Continue after Wyatt",
+      "passed": true,
+      "state": 0,
+      "map": "PewterCity_Gym"
+    },
+    {
+      "test": "Native walk from city north entrance to Ariane without Cut",
+      "passed": true,
+      "position": [
+        33,
+        30
+      ]
+    },
+    {
+      "test": "Invitation declined without quest advancement",
+      "passed": true
+    },
+    {
+      "test": "Accepted investigation and save/Continue on quay",
+      "passed": true,
+      "state": 1,
+      "map": "VermilionCity"
+    },
+    {
+      "test": "Warehouse entrance reached by native door without Cut",
+      "passed": true,
+      "position": [
+        6,
+        10
+      ]
+    },
+    {
+      "test": "Save/Continue before overhearing",
+      "passed": true,
+      "state": 1,
+      "map": "VermilionCity_PhilosovniWarehouse"
+    },
+    {
+      "test": "Four native battlers: player plus AI Usapion versus one Yo-kai per grunt",
+      "passed": true,
+      "party_indexes": [
+        0,
+        0,
+        6,
+        1
+      ]
+    },
+    {
+      "test": "Actual double victory, grunt escape, one HM and temporary partner cleared",
+      "passed": true
+    },
+    {
+      "test": "Save/Continue after Cut reward",
+      "passed": true,
+      "state": 3,
+      "map": "VermilionCity_PhilosovniWarehouse"
+    },
+    {
+      "test": "Native warehouse exit returns to quay",
+      "passed": true,
+      "position": [
+        29,
+        29
+      ]
+    },
+    {
+      "test": "Reward re-entry never duplicates HM01",
+      "passed": true
+    },
+    {
+      "test": "Genuine loss: no victory/reward flag, healed player, restartable investigation",
+      "passed": true,
+      "state": 1,
+      "map": "VermilionCity_PhilosovniWarehouse"
+    },
+    {
+      "test": "Actual retry after defeat wins and grants Cut",
+      "passed": true
+    },
+    {
+      "test": "All six player members and original personalities preserved through duo",
+      "passed": true,
+      "state": 3,
+      "map": "VermilionCity_PhilosovniWarehouse"
+    },
+    {
+      "test": "Captain heals normally and enables departure, never gives duplicate Cut",
+      "passed": true
+    },
+    {
+      "test": "Oceane remains boardable after quest reward; departure not armed by HM",
+      "passed": true
+    },
+    {
+      "test": "Completed city hides Ariane/Usapion across save/reload",
+      "passed": true,
+      "state": 3,
+      "map": "VermilionCity"
+    },
+    {
+      "test": "Ariane returns to native Gym; puzzle and trainers remain",
+      "passed": true
+    },
+    {
+      "test": "Gym visibility respects quest chronology and old completed-badge saves",
+      "passed": true
+    }
+  ],
+  "failure": null
+}

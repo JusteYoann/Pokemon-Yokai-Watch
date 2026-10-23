@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "rom_sha256": "4e10c85206972dbcc71128559ac4b498f816e03a677d402f3e41d8ac98ffc7ba",
+  "checks": [
+    {
+      "test": "Legacy Flash saved map-view restores new warehouse door and open quay passage",
+      "passed": true
+    },
+    {
+      "test": "Native flee and Master Ball attempts refused in duo; native blocked-ball consumption preserved",
+      "passed": true
+    },
+    {
+      "test": "Sixth member selected by native menu and switched beside AI Usapion",
+      "passed": true,
+      "controller_path": [
+        4,
+        4
+      ]
+    },
+    {
+      "test": "Native switch preserves all six original player members; partner never enters roster",
+      "passed": true
+    },
+    {
+      "test": "Native forced replacement after player faint preserves partner ownership",
+      "passed": true
+    },
+    {
+      "test": "Usapion attacks autonomously, spends PP and can faint without taking a player reserve",
+      "passed": true
+    },
+    {
+      "test": "Player completes duo after ally faint",
+      "passed": true
+    },
+    {
+      "test": "Full-pocket fault fixture preserves pending reward across Flash Continue; retry grants exactly one Cut",
+      "passed": true,
+      "capacity": 58
+    },
+    {
+      "test": "Cut remains blocked without native badge2 even with HM and learned move",
+      "passed": true
+    },
+    {
+      "test": "Actual native Cut animation removes tree and permits walking into Gym with badge2",
+      "passed": true
+    },
+    {
+      "test": "Ordinary double keeps both player-controlled battlers and native party indexes",
+      "passed": true
+    }
+  ],
+  "failure": null
+}

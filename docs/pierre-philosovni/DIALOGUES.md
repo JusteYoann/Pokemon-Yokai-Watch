@@ -157,7 +157,7 @@ ARIANE : Repli ! J'ai soigné
 tes Yo-kai. On peut réessayer.
 
 Ils gardent encore l'entrepôt...
-Préparons-nous mieux ! 
+Préparons-nous mieux !
 
 ## StoneGone
 

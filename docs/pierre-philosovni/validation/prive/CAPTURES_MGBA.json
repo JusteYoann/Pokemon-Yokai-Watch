@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "rom_sha256": "4e10c85206972dbcc71128559ac4b498f816e03a677d402f3e41d8ac98ffc7ba",
+  "checks": [
+    {
+      "test": "Native pending-reward replay gives exactly one HM01 and shows obtained message",
+      "passed": true,
+      "fixture_state": 2
+    },
+    {
+      "test": "Two-grunt native trainer introduction photographed",
+      "passed": true
+    }
+  ]
+}

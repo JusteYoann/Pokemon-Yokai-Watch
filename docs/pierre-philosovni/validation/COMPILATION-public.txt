@@ -1,0 +1,28 @@
+tools/scaninc/scaninc -M build/firered/src/battle_controller_player.d -I include -I tools/agbcc/include src/battle_controller_player.c
+tools/scaninc/scaninc -M build/firered/src/battle_controllers.d -I include -I tools/agbcc/include src/battle_controllers.c
+tools/scaninc/scaninc -M build/firered/src/battle_main.d -I include -I tools/agbcc/include src/battle_main.c
+tools/scaninc/scaninc -M build/firered/src/battle_message.d -I include -I tools/agbcc/include src/battle_message.c
+tools/scaninc/scaninc -M build/firered/src/battle_script_commands.d -I include -I tools/agbcc/include src/battle_script_commands.c
+tools/scaninc/scaninc -M build/firered/src/battle_util.d -I include -I tools/agbcc/include src/battle_util.c
+tools/scaninc/scaninc -M build/firered/src/overworld.d -I include -I tools/agbcc/include src/overworld.c
+tools/scaninc/scaninc -M build/firered/src/party_menu.d -I include -I tools/agbcc/include src/party_menu.c
+tools/scaninc/scaninc -M build/firered/src/philosovni.d -I include -I tools/agbcc/include src/philosovni.c
+tools/scaninc/scaninc -M build/firered/data/event_scripts.d -I include -I "" data/event_scripts.s
+tools/agbcc/bin/agbcc <flags> -o build/firered/src/battle_controller_player.o src/battle_controller_player.c
+tools/agbcc/bin/agbcc <flags> -o build/firered/src/battle_controllers.o src/battle_controllers.c
+tools/agbcc/bin/agbcc <flags> -o build/firered/src/battle_main.o src/battle_main.c
+tools/agbcc/bin/agbcc <flags> -o build/firered/src/battle_message.o src/battle_message.c
+tools/agbcc/bin/agbcc <flags> -o build/firered/src/battle_script_commands.o src/battle_script_commands.c
+tools/agbcc/bin/agbcc <flags> -o build/firered/src/battle_util.o src/battle_util.c
+tools/agbcc/bin/agbcc <flags> -o build/firered/src/overworld.o src/overworld.c
+tools/agbcc/bin/agbcc <flags> -o build/firered/src/party_menu.o src/party_menu.c
+tools/agbcc/bin/agbcc <flags> -o build/firered/src/philosovni.o src/philosovni.c
+tools/preproc/preproc data/event_scripts.s charmap.txt | cc -E -I include - | tools/preproc/preproc -ie data/event_scripts.s charmap.txt | arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=0 -o build/firered/data/event_scripts.o
+tools/ramscrgen/ramscrgen COMMON sym_common.txt ENGLISH -c build/firered/src,common_syms > build/firered/sym_common.ld
+Memory region         Used Size  Region Size  %age Used
+           EWRAM:      261232 B       256 KB     99.65%
+           IWRAM:       29824 B        32 KB     91.02%
+             ROM:    15913800 B        32 MB     47.43%
+cd build/firered && arm-none-eabi-ld -Map ../../pokefirered.map -T ../../ld_script.ld --print-memory-usage -o ../../pokefirered.elf <objs> <libs> | cat
+tools/gbafix/gbafix pokefirered.elf -t"POKEMON FIRE" -cBPRE -m01 -r0 --silent
+arm-none-eabi-objcopy -O binary --gap-fill 0xFF --pad-to 0x9000000 pokefirered.elf pokefirered.gba
