@@ -1,0 +1,11 @@
+{
+  "reference": "User-provided turquoise star charm with blue cord",
+  "gba_asset_url": "https://raw.githubusercontent.com/rh-hideout/pokeemerald-expansion/master/graphics/items/icons/shiny_charm.png",
+  "upstream_sha256": "5ac6600b75f15779b185f6949ac9d07af16cae5f78525b66087eafb7b4e70190",
+  "native_dimensions": [
+    24,
+    24
+  ],
+  "adaptation": "Existing GBA rendition of the same charm design, not a pixel-exact extraction of the inline higher-resolution reference. Palette index0 made transparent; opaque pixels and their colors retained.",
+  "remaining_quest_art": "Original Juste Yoann PNG still needed; item icon is independent."
+}

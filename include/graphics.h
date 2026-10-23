@@ -3096,6 +3096,8 @@ extern const u32 gItemIconPalette_ExpShare[];
 extern const u32 gItemIcon_QuickClaw[];
 extern const u32 gItemIconPalette_QuickClaw[];
 extern const u32 gItemIcon_SootheBell[];
+extern const u32 gItemIcon_ShinyCharm[];
+extern const u32 gItemIconPalette_ShinyCharm[];
 extern const u32 gItemIconPalette_SootheBell[];
 extern const u32 gItemIcon_InBattleHerb[];
 extern const u32 gItemIconPalette_MentalHerb[];

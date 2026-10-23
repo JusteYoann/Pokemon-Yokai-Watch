@@ -407,6 +407,8 @@ const u32 gItemIcon_QuickClaw[] = INCBIN_U32("graphics/items/icons/quick_claw.4b
 const u32 gItemIconPalette_QuickClaw[] = INCBIN_U32("graphics/items/icon_palettes/quick_claw.gbapal.lz");
 
 const u32 gItemIcon_SootheBell[] = INCBIN_U32("graphics/items/icons/soothe_bell.4bpp.lz");
+const u32 gItemIcon_ShinyCharm[] = INCBIN_U32("graphics/items/icons/shiny_charm.4bpp.lz");
+const u32 gItemIconPalette_ShinyCharm[] = INCBIN_U32("graphics/items/icon_palettes/shiny_charm.gbapal.lz");
 const u32 gItemIconPalette_SootheBell[] = INCBIN_U32("graphics/items/icon_palettes/soothe_bell.gbapal.lz");
 
 const u32 gItemIconPalette_MentalHerb[] = INCBIN_U32("graphics/items/icon_palettes/mental_herb.gbapal.lz");

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "scope": "Native bag, actual key-item pocket and selected charm; no substituted UI graphics.",
+  "rom_sha256": "0e8cbc3d8f521fa87cf34e91ca6dd103ab4886de3238fda262a4f503a49f88e7",
+  "results": [
+    {
+      "test": "Native charm graphic and palette pointers; actual key pocket; OBJ VRAM equals native padded icon; context menu opened",
+      "passed": true
+    }
+  ]
+}

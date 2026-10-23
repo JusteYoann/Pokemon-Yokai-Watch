@@ -7,7 +7,7 @@
 ## Développé et vérifié
 
 - Vérification des 151 bits natifs « obtenu », indépendante du compteur du diplôme et des bits « aperçu » ; invitation à usage unique et visibilité avec des drapeaux persistants dédiés.
-- Objet important Charme Chroma sur l’emplacement réservé nº52, sans modifier les autres identifiants, la taille des poches ni le format de sauvegarde. Description fournie, icône native Grelot Zen réutilisée ; pas de vente, jet ou consommation via les menus natifs.
+- Objet important Charme Chroma sur l’emplacement réservé nº52, sans modifier les autres identifiants, la taille des poches ni le format de sauvegarde. Description fournie ; pas de vente, jet ou consommation via les menus natifs. L’icône provisoire Grelot Zen a depuis été remplacée par une [icône dédiée, étoile turquoise et cordon bleu, avec captures et tests des deux versions](icone-charme/README.md).
 - Remise protégée par un drapeau, refus propre si la poche est pleine, puis récupération possible une fois libérée. Sauvegarde Flash et véritable Continuer testés.
 - Trois tirages de PID pour les espèces shiny autorisées. Chaque tirage bénéficie du multiplicateur Safari. Arrêt au premier succès, OT conservé, création du Yo-kai une seule fois. Sans charme hors Safari, l’ancien chemin de génération reste identique. Les rencontres statiques, cadeaux et Dresseurs ne sont pas reliés à ce calcul.
 - Discours, fondu progressif qui épargne les palettes de texte, écran exact THANK FOR PLAY pendant trois secondes avec courte pause musicale, retour des couleurs, remise du cadeau. Une tâche temporaire et une fenêtre de 2688 octets, sans nouvelle variable EWRAM permanente.

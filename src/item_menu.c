@@ -748,12 +748,23 @@ static void PrintBagPocketName(void)
 static void PrintItemDescriptionOnMessageWindow(s32 itemIndex)
 {
     const u8 *description;
+    u8 letterSpacing = 2;
+    u8 fontId = FONT_NORMAL;
     if (itemIndex != sBagMenuDisplay->nItems[gBagMenuState.pocket])
-        description = ItemId_GetDescription(BagGetItemIdByPocketPosition(gBagMenuState.pocket + 1, itemIndex));
+    {
+        u16 itemId = BagGetItemIdByPocketPosition(gBagMenuState.pocket + 1, itemIndex);
+        description = ItemId_GetDescription(itemId);
+        // Keep the complete charm description inside the native three-line panel.
+        if (itemId == ITEM_SHINY_CHARM)
+        {
+            letterSpacing = 0;
+            fontId = FONT_SMALL;
+        }
+    }
     else
         description = gText_CloseBag;
     FillWindowPixelBuffer(1, PIXEL_FILL(0));
-    BagPrintTextOnWindow(1, FONT_NORMAL, description, 0, 3, 2, 0, 0, 0);
+    BagPrintTextOnWindow(1, fontId, description, 0, 3, letterSpacing, 0, 0, 0);
 }
 
 static void CreatePocketScrollArrowPair(void)
