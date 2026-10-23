@@ -45,6 +45,7 @@ PokemonLeague_ChampionsRoom_OnFrame::
 	.2byte 0
 
 PokemonLeague_ChampionsRoom_EventScript_EnterRoom::
+	goto_if_unset FLAG_SYS_GAME_CLEAR, PokemonLeague_Spiraton_FirstConquest
 	lockall
 	textcolor NPC_TEXT_COLOR_MALE
 	setflag FLAG_TEMP_2

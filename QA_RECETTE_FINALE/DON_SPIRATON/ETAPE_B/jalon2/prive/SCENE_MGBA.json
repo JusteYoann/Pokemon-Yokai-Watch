@@ -1,0 +1,187 @@
+{
+  "passed": true,
+  "scope": "Native map-triggered Don -> Matt/heal -> white fusion -> eight-form boss.\n\nFresh fixture, controller drives both battles. Player boosted to level100/999\nstats; no enemy HP/PP, outcome or script stage writes. Not a normal difficulty\nplaythrough. Starts at the normal Champion-room entrance with a QA party. Conclusion/Hall of Fame not yet tested.\n",
+  "rom_sha256": "8c43951fc9bc82f4ca8bfd06269caf6fdf10e809e9162475cc272d2959d837de",
+  "stages": [
+    {
+      "stage": 1,
+      "frame": 0,
+      "actors": {
+        "255": [
+          6,
+          10
+        ],
+        "3": [
+          6,
+          8
+        ],
+        "4": [
+          3,
+          7
+        ],
+        "5": [
+          9,
+          7
+        ],
+        "6": [
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "stage": 2,
+      "frame": 9089,
+      "actors": {
+        "255": [
+          6,
+          10
+        ],
+        "3": [
+          6,
+          8
+        ],
+        "4": [
+          3,
+          7
+        ],
+        "5": [
+          9,
+          7
+        ],
+        "6": [
+          6,
+          5
+        ],
+        "1": [
+          6,
+          15
+        ]
+      }
+    },
+    {
+      "stage": 3,
+      "frame": 9617,
+      "actors": {
+        "255": [
+          6,
+          10
+        ],
+        "3": [
+          6,
+          8
+        ],
+        "4": [
+          3,
+          7
+        ],
+        "5": [
+          9,
+          7
+        ],
+        "6": [
+          6,
+          5
+        ],
+        "1": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "stage": 4,
+      "frame": 9873,
+      "actors": {
+        "255": [
+          6,
+          10
+        ],
+        "3": [
+          6,
+          8
+        ],
+        "4": [
+          4,
+          7
+        ],
+        "5": [
+          8,
+          7
+        ],
+        "6": [
+          6,
+          6
+        ],
+        "1": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "stage": 5,
+      "frame": 9914,
+      "actors": {
+        "255": [
+          6,
+          10
+        ],
+        "1": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "stage": 6,
+      "frame": 16552,
+      "actors": {
+        "255": [
+          6,
+          10
+        ],
+        "1": [
+          6,
+          8
+        ]
+      }
+    }
+  ],
+  "battles": [
+    {
+      "trainer": 743,
+      "bgm": 349,
+      "frame": 1151
+    },
+    {
+      "trainer": 744,
+      "bgm": 352,
+      "frame": 10048
+    }
+  ],
+  "whole_party_heal": true,
+  "fullscreen_white_masks_removal": true,
+  "guards_reached_positions": true,
+  "matt_don_palettes_independent": true,
+  "levels": [
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+  ],
+  "production_entry_enabled": true,
+  "first_transform_waits_for_player_choice": true,
+  "approved_true_form_artwork": true,
+  "hall_of_fame_from_new_finale_tested": false,
+  "results": [
+    {
+      "test": "Native Matt heal restores HP, PP and status of all members including fainted backup",
+      "passed": true
+    }
+  ]
+}

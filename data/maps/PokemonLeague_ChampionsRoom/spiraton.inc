@@ -1,8 +1,33 @@
-@ Isolated development sequence. No map trigger calls DevelopmentEntry.
-@ True-form artwork and conclusion remain pending; do not activate in production.
+@ One shared sequence for the normal first conquest and explicit QA entry.
 PokemonLeague_Spiraton_HideDiagnosticActors::
 	setflag FLAG_TEMP_6
+	setflag FLAG_TEMP_7
+	goto_if_set FLAG_SYS_GAME_CLEAR, PokemonLeague_Spiraton_ShowMattChampion
+	clearflag FLAG_TEMP_6
 	end
+
+PokemonLeague_Spiraton_ShowMattChampion::
+	clearflag FLAG_TEMP_7
+	end
+
+PokemonLeague_Spiraton_FirstConquest::
+	lockall
+	setvar VAR_TEMP_1, 1
+	applymovement LOCALID_PLAYER, Spiraton_PlayerEnter
+	waitmovement 0
+	delay 20
+	goto PokemonLeague_Spiraton_DevelopmentEntry
+
+Spiraton_PlayerEnter::
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	step_end
 
 PokemonLeague_Spiraton_DevelopmentEntry::
 	lockall
