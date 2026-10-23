@@ -443,13 +443,13 @@ gFameCheckerPersonQuote_Erika::
 	.string "Mes petits zombies sont adorables!\nReviens jouer avec nous!$"
 
 gFameCheckerPersonName_Koga:: @ 0x81B05C2
-    .string "BÉRÉNICE BÉLIER$"
+    .string "BÉRÉNICE$"
 
 gFameCheckerPersonQuote_Koga:: @ 0x81B05CD
     .string "Tes liens avec tes Yo-kai\nont fait la différence.\pGarde cette confiance en eux.$"
 
 gFameCheckerPersonName_Sabrina:: @ 0x81B0667
-    .string "DOMNISCIAN$"
+    .string "Domniscian$"
 
 gFameCheckerPersonQuote_Sabrina:: @ 0x81B0675
     .string "Mon Arène de Safrania\nt’est toujours ouverte!$"
@@ -469,7 +469,7 @@ gFameCheckerPersonQuote_Lorelei:: @ 0x81B07AD
     .string "Garde l’esprit clair\njusqu’au prochain combat.$"
 
 gFameCheckerPersonName_Bruno:: @ 0x81B0845
-    .string "ENMA L’ANCIEN$"
+    .string "Enma anc.$"
 
 gFameCheckerPersonQuote_Bruno:: @ 0x81B0851
     .string "Ces liens sont dignes\nde respect.$"
@@ -481,7 +481,7 @@ gFameCheckerPersonQuote_Agatha:: @ 0x81B08FB
     .string "La force se travaille\nsans relâche!$"
 
 gFameCheckerPersonName_Lance:: @ 0x81B097F
-    .string "MAÎTRE NYADA$"
+    .string "M. Nyada$"
 
 gFameCheckerPersonQuote_Lance:: @ 0x81B098B
     .string "Reste attentif\njusqu’au dernier combattant!$"
