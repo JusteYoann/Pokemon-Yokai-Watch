@@ -1,0 +1,231 @@
+{
+  "passed": true,
+  "reference_commit": "100c22e9f6c46831820c3140f0138589f9df0b11",
+  "reference_rom_sha256": "0d8234bbd5893ef63cfb8caa1d6aa83c34b537e151b0449e848a900ffd86961b",
+  "new_rom_sha256": "0e7ff7f6096e5b52932e1e1cf090eaee3c53ee7ebe182ebbd5302feee2a2bfce",
+  "only_changed_wave": 25,
+  "other30_samples_byte_identical": true,
+  "all_ROM_bytes_outside_original_wave25_identical": true,
+  "private_ROM_bytes": 31589579,
+  "public_rom_sha256": "a00527774542439e1ab0976a45421911c8b067d8bd11730de183c453581b3b3c",
+  "public_build_verified_identical": true,
+  "results": [
+    {
+      "number": 1,
+      "byte_identical": true,
+      "old_bytes": 518314,
+      "new_bytes": 518314,
+      "new_sha256": "d9137d1787ecd0c9530fa682236397d619726e10f51391c0c8ffcbe068567be6"
+    },
+    {
+      "number": 2,
+      "byte_identical": true,
+      "old_bytes": 397303,
+      "new_bytes": 397303,
+      "new_sha256": "8b8dc5cad8af26a0ac1d626ba835ac7ba2b11d41cff475ef89405704b7e8c676"
+    },
+    {
+      "number": 3,
+      "byte_identical": true,
+      "old_bytes": 1612858,
+      "new_bytes": 1612858,
+      "new_sha256": "db8e9088c6ee21c9a53e2bb3855a2850700ae86f2183e863bfbca4cd73ddb0e7"
+    },
+    {
+      "number": 4,
+      "byte_identical": true,
+      "old_bytes": 784624,
+      "new_bytes": 784624,
+      "new_sha256": "e8fb8423c496843ce78d9e51758f1da1a7d2e62ec1abec7a07b625faeec0ab22"
+    },
+    {
+      "number": 5,
+      "byte_identical": true,
+      "old_bytes": 821056,
+      "new_bytes": 821056,
+      "new_sha256": "24e2ba44add8b59e3a9c08f46222d0e7dc815eaf8dee79267f3152710b4ea43e"
+    },
+    {
+      "number": 6,
+      "byte_identical": true,
+      "old_bytes": 794623,
+      "new_bytes": 794623,
+      "new_sha256": "7d1d540fa90025655c177ee0ccd5628e78c76a61693b9082637826304ef4600d"
+    },
+    {
+      "number": 7,
+      "byte_identical": true,
+      "old_bytes": 609856,
+      "new_bytes": 609856,
+      "new_sha256": "f8570e4302c38457a6f026db830727cd7065ac084aaedeb4c7269dcf3d353d34"
+    },
+    {
+      "number": 8,
+      "byte_identical": true,
+      "old_bytes": 766639,
+      "new_bytes": 766639,
+      "new_sha256": "acffa32719d50ce8cc795c09e909e7a4d253f2dc142564be426d852f71893cbf"
+    },
+    {
+      "number": 9,
+      "byte_identical": true,
+      "old_bytes": 589792,
+      "new_bytes": 589792,
+      "new_sha256": "c5cebc1605c521517c572449c8bade073ac962c05002fce2672568f8a064e1e7"
+    },
+    {
+      "number": 10,
+      "byte_identical": true,
+      "old_bytes": 584941,
+      "new_bytes": 584941,
+      "new_sha256": "d1e843d07a3dda6d46f82cef012e7324cb28ea1ffa537af450a993015a9ba540"
+    },
+    {
+      "number": 11,
+      "byte_identical": true,
+      "old_bytes": 677968,
+      "new_bytes": 677968,
+      "new_sha256": "3c021c35af0eccd1bd1f123b2dd5a9041cd24e78b70eb0a0c7b6d3410983aabb"
+    },
+    {
+      "number": 12,
+      "byte_identical": true,
+      "old_bytes": 331237,
+      "new_bytes": 331237,
+      "new_sha256": "5ca70b039cb420d7bb5c0460082992b621968a6d87bf05f7d8c7af59bd0e939c"
+    },
+    {
+      "number": 13,
+      "byte_identical": true,
+      "old_bytes": 687340,
+      "new_bytes": 687340,
+      "new_sha256": "19761fc19a0bb7018a533949836e0f0781c9b3a70e84232b09dd0c2a3e72e575"
+    },
+    {
+      "number": 14,
+      "byte_identical": true,
+      "old_bytes": 453370,
+      "new_bytes": 453370,
+      "new_sha256": "7b64877886ddfda665e2d45294409e3466209e580b008e8ac4b23a56a9fc1011"
+    },
+    {
+      "number": 15,
+      "byte_identical": true,
+      "old_bytes": 458485,
+      "new_bytes": 458485,
+      "new_sha256": "cb76bb90d2b56119dde42e5ff4c01eeeb5674389cb47eb436ab1e0e0bdc8552b"
+    },
+    {
+      "number": 16,
+      "byte_identical": true,
+      "old_bytes": 620845,
+      "new_bytes": 620845,
+      "new_sha256": "ab824dab707092bae8f27e0ab363bc611071d2c764e0c2944bfc058cca3f92de"
+    },
+    {
+      "number": 17,
+      "byte_identical": true,
+      "old_bytes": 767530,
+      "new_bytes": 767530,
+      "new_sha256": "82eb00003562a24556a5272705e3d95e31cc0baf6e6565212b6595741b489b29"
+    },
+    {
+      "number": 18,
+      "byte_identical": true,
+      "old_bytes": 408688,
+      "new_bytes": 408688,
+      "new_sha256": "5f977872cfb4f2b060e882b4475ba31c3bb18e6511133e2322fc863311870867"
+    },
+    {
+      "number": 19,
+      "byte_identical": true,
+      "old_bytes": 283717,
+      "new_bytes": 283717,
+      "new_sha256": "afee7dfb091e4adb31cc14bae8cee77e3e7cd52332e53b1d846179bd5402d54a"
+    },
+    {
+      "number": 20,
+      "byte_identical": true,
+      "old_bytes": 734332,
+      "new_bytes": 734332,
+      "new_sha256": "18a20034f083f5b8dc9cfe8facb5b588a1868ded16c376f86a8fadef53f158c3"
+    },
+    {
+      "number": 21,
+      "byte_identical": true,
+      "old_bytes": 644506,
+      "new_bytes": 644506,
+      "new_sha256": "41ccc3ab941232f673876fd67d62c5610f9493d64c0e2f74ae4a5e97f3faab82"
+    },
+    {
+      "number": 22,
+      "byte_identical": true,
+      "old_bytes": 724069,
+      "new_bytes": 724069,
+      "new_sha256": "a74f8195f34e18ca56c855e92b9132f804b7d054dff9146e4648f4312295a5b8"
+    },
+    {
+      "number": 23,
+      "byte_identical": true,
+      "old_bytes": 503431,
+      "new_bytes": 503431,
+      "new_sha256": "7cf26826e832eeeb5a7cdb617ab5e6a0dc5b0b12531935e8afa29ad0991b4cf4"
+    },
+    {
+      "number": 24,
+      "byte_identical": true,
+      "old_bytes": 554053,
+      "new_bytes": 554053,
+      "new_sha256": "69f7bbb8f7ebdb4b9774d13c5f78ef7c5a63752698b84aa399c2321ee06a8a3c"
+    },
+    {
+      "number": 25,
+      "byte_identical": false,
+      "old_bytes": 1393936,
+      "new_bytes": 1276027,
+      "new_sha256": "1c151690a805cd751e6d6d0ac0fcd27928b2960b00a75d0977d86e2384581772"
+    },
+    {
+      "number": 26,
+      "byte_identical": true,
+      "old_bytes": 496732,
+      "new_bytes": 496732,
+      "new_sha256": "099852aa4aa302cfd83576fe104ff9a40aede6831541ac446ff7405945bfdd6c"
+    },
+    {
+      "number": 27,
+      "byte_identical": true,
+      "old_bytes": 544681,
+      "new_bytes": 544681,
+      "new_sha256": "d0ef03dcd4e321a526339d02000d17e90cb73c2885ab85b85f9393f716b9a6ad"
+    },
+    {
+      "number": 28,
+      "byte_identical": true,
+      "old_bytes": 569761,
+      "new_bytes": 569761,
+      "new_sha256": "fb3d278f2ed7886574c0af48291ad0b04f28d0bac421f74fcfb2957a28a1a729"
+    },
+    {
+      "number": 29,
+      "byte_identical": true,
+      "old_bytes": 692554,
+      "new_bytes": 692554,
+      "new_sha256": "c931a795ab1ea6582d038e3ee9ec964bf114a7aea4d5f1ff94ddaaab6fafdcab"
+    },
+    {
+      "number": 30,
+      "byte_identical": true,
+      "old_bytes": 401593,
+      "new_bytes": 401593,
+      "new_sha256": "421951e8babfd2f2a38cd643e83a3a54993267cf7be626b91df8ca35ff48ccd1"
+    },
+    {
+      "number": 31,
+      "byte_identical": true,
+      "old_bytes": 453007,
+      "new_bytes": 453007,
+      "new_sha256": "1ede60c0b2a22fdf9fb7285dbec607f2a00f2bb8421e00f6e9b4dee739ede05a"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "rom_before_bytes": 31589579,
+  "rom_after_bytes": 31589579,
+  "rom_after_sha256": "0e7ff7f6096e5b52932e1e1cf090eaee3c53ee7ebe182ebbd5302feee2a2bfce",
+  "public_bytes": 16777216,
+  "public_sha256": "a00527774542439e1ab0976a45421911c8b067d8bd11730de183c453581b3b3c",
+  "public_byte_identical_to_reference": true,
+  "gap_start": "0x87376dc",
+  "gap_used_end": "0x8b091f7",
+  "gap_used_bytes": 4004635,
+  "gap_remaining_bytes": 2059785,
+  "remaining_to_32MiB": 1964853,
+  "differences_outside_gap_bytes": 56,
+  "permitted_changes": "Five header pointers, mask, same-destination linker veneers and BL relocations only",
+  "relocated_original_veneers": [
+    "__YokaiCalibrateSong_veneer",
+    "__YokaiRetryPausedSample_veneer",
+    "__YokaiScaleTrackVolume_veneer",
+    "__YokaiResumePausedSample_veneer",
+    "__YokaiDiscardPausedSample_veneer",
+    "__YokaiRememberPausedSample_veneer",
+    "__YokaiGetSongHeader_veneer"
+  ],
+  "verified_same_destination_BL_calls": 17,
+  "original_26_samples_and_all_other_resources_preserved": true
+}

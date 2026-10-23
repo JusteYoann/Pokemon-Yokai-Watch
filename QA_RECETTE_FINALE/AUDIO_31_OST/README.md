@@ -1,9 +1,10 @@
 # Intégration expérimentale de 31 OST
 
-**Mise à jour :** ce bilan décrit le premier jalon à 31 OST. La
-[correction des boucles](CORRECTION_BOUCLES/README.md) ajoute depuis une boucle
-à Katies House et fournit les empreintes et tests actuels. Enma Track et Final
-Battle restent en attente de validation musicale. Le catalogue CSV est à jour.
+**État actuel :** la [variante C de Final Battle](FINAL_BATTLE_C/README.md) est
+activée expérimentalement et testée dans le combat prolongé de Matt, après
+validation explicite du raccord. La [correction précédente](CORRECTION_BOUCLES/README.md)
+a ajouté la boucle de Katies House. Enma Track reste en lecture unique.
+Le catalogue CSV est à jour ; le bilan ci-dessous décrit le premier jalon historique.
 
 Branche **`audio/integration-31-ost`**, créée exactement depuis
 `6f143452a026a41c08f1db38f9809959809a31b6`. Premier commit d'intégration :

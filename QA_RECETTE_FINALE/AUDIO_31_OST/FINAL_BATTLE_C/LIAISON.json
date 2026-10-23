@@ -1,0 +1,404 @@
+{
+  "passed": true,
+  "public_rom_sha256": "a00527774542439e1ab0976a45421911c8b067d8bd11730de183c453581b3b3c",
+  "private_rom_sha256": "0e7ff7f6096e5b52932e1e1cf090eaee3c53ee7ebe182ebbd5302feee2a2bfce",
+  "private_rom_bytes": 31589579,
+  "private_audio_mask": 2147483647,
+  "active_tracks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "remaining_bytes_to32MiB": 1964853,
+  "results": [
+    {
+      "test": "Exact public native fallback",
+      "number": 1,
+      "symbol": "mus_cycling",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 2,
+      "symbol": "mus_vs_trainer",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 4,
+      "symbol": "mus_poke_tower",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 6,
+      "symbol": "mus_vs_trainer",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 7,
+      "symbol": "mus_pallet",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 8,
+      "symbol": "mus_pallet",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 11,
+      "symbol": "mus_silph",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 12,
+      "symbol": "mus_celadon",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 14,
+      "symbol": "mus_viridian_forest",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 15,
+      "symbol": "mus_vs_gym_leader",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 16,
+      "symbol": "mus_sevii_123",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 17,
+      "symbol": "mus_rocket_hideout",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 20,
+      "symbol": "mus_vs_trainer",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 21,
+      "symbol": "mus_vermillion",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 22,
+      "symbol": "mus_celadon",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 23,
+      "symbol": "mus_mt_moon",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 24,
+      "symbol": "mus_mt_moon",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 25,
+      "symbol": "mus_vs_champion",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 26,
+      "symbol": "mus_slow_pallet",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 27,
+      "symbol": "mus_route1",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 28,
+      "symbol": "mus_vs_trainer",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 29,
+      "symbol": "mus_vs_gym_leader",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 30,
+      "symbol": "mus_title",
+      "passed": true
+    },
+    {
+      "test": "Exact public native fallback",
+      "number": 31,
+      "symbol": "mus_route24",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 1,
+      "bytes": 518314,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 2,
+      "bytes": 397303,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 3,
+      "bytes": 1612858,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 4,
+      "bytes": 784624,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 5,
+      "bytes": 821056,
+      "playback": "one-shot",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 6,
+      "bytes": 794623,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 7,
+      "bytes": 609856,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 8,
+      "bytes": 766639,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 9,
+      "bytes": 589792,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 10,
+      "bytes": 584941,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 11,
+      "bytes": 677968,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 12,
+      "bytes": 331237,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 13,
+      "bytes": 687340,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 14,
+      "bytes": 453370,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 15,
+      "bytes": 458485,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 16,
+      "bytes": 620845,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 17,
+      "bytes": 767530,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 18,
+      "bytes": 408688,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 19,
+      "bytes": 283717,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 20,
+      "bytes": 734332,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 21,
+      "bytes": 644506,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 22,
+      "bytes": 724069,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 23,
+      "bytes": 503431,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 24,
+      "bytes": 554053,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 25,
+      "bytes": 1276027,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 26,
+      "bytes": 496732,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 27,
+      "bytes": 544681,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 28,
+      "bytes": 569761,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 29,
+      "bytes": 692554,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 30,
+      "bytes": 401593,
+      "playback": "loop",
+      "passed": true
+    },
+    {
+      "test": "Private sample byte-identical, explicit loop/one-shot policy and correct native compression bit",
+      "number": 31,
+      "bytes": 453007,
+      "playback": "loop",
+      "passed": true
+    }
+  ]
+}

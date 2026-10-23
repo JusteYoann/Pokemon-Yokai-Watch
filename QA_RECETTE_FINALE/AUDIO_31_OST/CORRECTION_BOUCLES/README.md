@@ -1,5 +1,10 @@
 # Correction des boucles — résultat partiel explicite
 
+**Mise à jour ultérieure :** après choix explicite de l'utilisateur, la
+[variante C de Final Battle](../FINAL_BATTLE_C/README.md) est désormais activée
+expérimentalement et testée. Ce document conserve les résultats historiques de
+recherche et le défaut constaté avant cette activation.
+
 Branche `audio/integration-31-ost`, reprise depuis
 `23f611809e842d282ced7d4b50886d54906a2da2`. Commit d'implémentation :
 `bb9799a16`. Aucune fusion. **Katies House possède maintenant une boucle mesurée
