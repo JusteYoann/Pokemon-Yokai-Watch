@@ -1,0 +1,9 @@
+# Alyzon Bie — taille de Nathan, face choisie par le créateur
+
+Nathan est mesuré directement dans `graphics/yokai_characters/nathan/normal.png`, première cellule 16 × 32 : silhouette x2..13, y12..30, soit 12 × 19 pixels. Les trois poses au repos d'Alyzon sont ramenées à **19 pixels de haut**, pieds à y30 dans une cellule 32 × 32. La coiffure reste plus large que Nathan : profils 16 pixels, dos 14. La mise à l'échelle conserve le rapport largeur/hauteur avec arrondi au pixel, en nearest-neighbor sans anticrénelage. Les neuf poses sont dans `graphics/alyzon_bie/taille-nathan/`. Le même recadrage et la même transformation sont utilisés pour les trois étapes d'une orientation ; certains pas peuvent être hauts de 18 pixels lorsque le pied est levé.
+
+`comparaison-nathan-x8.png` est une comparaison statique des fichiers natifs avec les pieds alignés, pas une capture mGBA. `marche-reelle-mgba.gif` est l'aperçu réel de neuf pas dans mGBA à cette nouvelle taille. Les limites du montage de test restent explicites dans `TEST_MGBA_MARCHE.json` : graphismes en RAM, profil asymétrique sélectionné séparément avant chaque clip, aucune modification de ROM ou de sauvegarde.
+
+## Face choisie — en attente de sa source PNG exploitable
+
+La capture utilisateur `Screenshot 2026-10-23 120009.png` désigne officiellement la face souhaitée. Elle est visible dans la conversation mais son fichier binaire n'est pas présent dans l'environnement. Afin de respecter l'interdiction de redessiner sa face, aucune nouvelle transcription n'est créée et aucune ancienne face refusée n'est substituée. La face reste à extraire du PNG fourni comme fichier accessible, puis à calibrer à 19 pixels avec les autres orientations. Cette livraison traite donc la taille des profils et du dos ; elle ne prétend pas intégrer la face choisie.

@@ -1,0 +1,415 @@
+{
+  "source": "graphics/alyzon_bie/sources/trois-poses-choisies.png",
+  "source_sha256": "50196d5a1bd307e74fec35fdc37bfde0b29ed46038f04e0eb2ae16b3354092cf",
+  "logical_grid_edges": {
+    "gauche": [
+      [
+        54,
+        81,
+        110,
+        137,
+        164,
+        193,
+        221,
+        247,
+        272,
+        298,
+        325,
+        350,
+        375,
+        405,
+        433,
+        463,
+        492,
+        522,
+        549,
+        585
+      ],
+      [
+        142,
+        170,
+        197,
+        224,
+        252,
+        280,
+        309,
+        333,
+        362,
+        388,
+        415,
+        444,
+        470,
+        496,
+        522,
+        545,
+        570,
+        595,
+        631,
+        655,
+        681,
+        709,
+        734,
+        760
+      ]
+    ],
+    "dos": [
+      [
+        668,
+        696,
+        724,
+        752,
+        779,
+        806,
+        836,
+        863,
+        891,
+        919,
+        950,
+        978,
+        1007,
+        1035,
+        1063,
+        1095,
+        1127,
+        1156
+      ],
+      [
+        140,
+        167,
+        198,
+        226,
+        252,
+        281,
+        306,
+        336,
+        362,
+        389,
+        415,
+        440,
+        467,
+        495,
+        521,
+        547,
+        571,
+        595,
+        622,
+        650,
+        678,
+        702,
+        725,
+        752
+      ]
+    ],
+    "droite": [
+      [
+        1236,
+        1273,
+        1303,
+        1331,
+        1361,
+        1389,
+        1417,
+        1447,
+        1472,
+        1498,
+        1525,
+        1551,
+        1576,
+        1603,
+        1632,
+        1659,
+        1686,
+        1713,
+        1741,
+        1768
+      ],
+      [
+        142,
+        169,
+        197,
+        224,
+        252,
+        281,
+        309,
+        336,
+        361,
+        388,
+        415,
+        443,
+        467,
+        496,
+        522,
+        545,
+        570,
+        595,
+        631,
+        655,
+        681,
+        709,
+        734,
+        760
+      ]
+    ]
+  },
+  "native_canvas": [
+    32,
+    32
+  ],
+  "native_grid_height": 23,
+  "palette_rgb555": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      8,
+      8,
+      8
+    ],
+    [
+      168,
+      120,
+      24
+    ],
+    [
+      208,
+      160,
+      40
+    ],
+    [
+      248,
+      216,
+      80
+    ],
+    [
+      248,
+      232,
+      120
+    ],
+    [
+      232,
+      176,
+      128
+    ],
+    [
+      192,
+      136,
+      88
+    ],
+    [
+      0,
+      144,
+      184
+    ],
+    [
+      248,
+      248,
+      248
+    ],
+    [
+      208,
+      216,
+      224
+    ],
+    [
+      128,
+      48,
+      152
+    ],
+    [
+      32,
+      56,
+      96
+    ],
+    [
+      224,
+      184,
+      56
+    ],
+    [
+      248,
+      224,
+      104
+    ],
+    [
+      128,
+      88,
+      32
+    ]
+  ],
+  "pixel_identity_to_high_resolution_source": false,
+  "method": "Explicit logical cell-center sampling, shared RGB555 palette; no replacement drawing of idle poses",
+  "records": [
+    {
+      "direction": "gauche",
+      "pose": "repos",
+      "source_bbox": [
+        6,
+        8,
+        25,
+        31
+      ],
+      "bbox": [
+        8,
+        12,
+        24,
+        31
+      ],
+      "height": 19,
+      "sha256": "4c2a307544161408af75c0f5d96c223265ae3e117725a2460abd892d35266b85"
+    },
+    {
+      "direction": "gauche",
+      "pose": "pas-1",
+      "source_bbox": [
+        6,
+        8,
+        25,
+        31
+      ],
+      "bbox": [
+        8,
+        12,
+        24,
+        31
+      ],
+      "height": 19,
+      "sha256": "20fe4805ba04c52bb6f26d221a55ebd4395ed8d260d87b5769d950603729e0e3"
+    },
+    {
+      "direction": "gauche",
+      "pose": "pas-2",
+      "source_bbox": [
+        6,
+        8,
+        25,
+        31
+      ],
+      "bbox": [
+        8,
+        12,
+        24,
+        30
+      ],
+      "height": 18,
+      "sha256": "f50145e10adf96921dec88b63cf7755e02311524778d4be4e3674993e57a5552"
+    },
+    {
+      "direction": "dos",
+      "pose": "repos",
+      "source_bbox": [
+        7,
+        8,
+        24,
+        31
+      ],
+      "bbox": [
+        9,
+        12,
+        23,
+        31
+      ],
+      "height": 19,
+      "sha256": "a2f8fec95b8818775d046b0797b40ec839ce01e5f2fb2e6255e40650fce8647d"
+    },
+    {
+      "direction": "dos",
+      "pose": "pas-1",
+      "source_bbox": [
+        7,
+        8,
+        24,
+        31
+      ],
+      "bbox": [
+        9,
+        12,
+        23,
+        31
+      ],
+      "height": 19,
+      "sha256": "7821442d2e8c3e8bfcd60d1c83f3441a52da0d55cf66ca22f5cef44b2474c6f3"
+    },
+    {
+      "direction": "dos",
+      "pose": "pas-2",
+      "source_bbox": [
+        7,
+        8,
+        24,
+        31
+      ],
+      "bbox": [
+        9,
+        12,
+        23,
+        31
+      ],
+      "height": 19,
+      "sha256": "b4f0fae1c2bae721db4709a9b53dc663882e77ec51e09497af4c0b4a673630b2"
+    },
+    {
+      "direction": "droite",
+      "pose": "repos",
+      "source_bbox": [
+        6,
+        8,
+        25,
+        31
+      ],
+      "bbox": [
+        8,
+        12,
+        24,
+        31
+      ],
+      "height": 19,
+      "sha256": "0aa739c7a6993bbf62ecd082169e68c75fc3392d81ff666ed452aa0b02ea11cc"
+    },
+    {
+      "direction": "droite",
+      "pose": "pas-1",
+      "source_bbox": [
+        6,
+        8,
+        25,
+        31
+      ],
+      "bbox": [
+        8,
+        12,
+        24,
+        30
+      ],
+      "height": 18,
+      "sha256": "a9a362e021d36d0d3c2aa54edaad72ec10a2832f44c6184a22a19649a9ca4d04"
+    },
+    {
+      "direction": "droite",
+      "pose": "pas-2",
+      "source_bbox": [
+        6,
+        8,
+        25,
+        31
+      ],
+      "bbox": [
+        8,
+        12,
+        24,
+        31
+      ],
+      "height": 19,
+      "sha256": "1182342ea19badff8df1b71163857127bb5bfaaef3c02426ed05c6229364f4f1"
+    }
+  ],
+  "target_height": 19,
+  "nathan_bbox": [
+    2,
+    12,
+    14,
+    31
+  ],
+  "front_status": "Creator screenshot 120009 selected; native source PNG required to preserve its exact pixels; no front redrawn"
+}
