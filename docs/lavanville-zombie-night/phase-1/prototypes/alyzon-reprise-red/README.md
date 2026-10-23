@@ -26,3 +26,7 @@ Quatre orientations × trois poses : repos et deux pas. La tête conserve exacte
 Le test mGBA utilise les PNG natifs 16 × 32 centrés dans une cellule de test 32 × 32, sans mise à l'échelle. Les douze coordonnées d'arrivée et les phases d'animation passent les contrôles ; la palette reste stable. SHA-256 de la ROM inchangée : `af807f4b8e2b6f7367208c1b25355a93b90b9937241295dd23e34b382df906cf`.
 
 Il s'agit d'un essai en RAM : pas d'inscription graphique permanente, de changement de carte, de scénario ou de sauvegarde. Les profils asymétriques sont sélectionnés avant les clips indépendants ; une future intégration devra conserver cette distinction. Les anciennes propositions restent archivées sans modification. La qualité artistique de cette nouvelle série reste à valider par le créateur.
+
+## Correction des bandes noires sur les profils
+
+Les longs contours verticaux de la blouse ont été interrompus sur les six poses de profil : sept ou huit pixels noirs par pose sont remplacés par le blanc et le gris déjà présents dans la palette. Les silhouettes, cheveux, visages, pieds, face et dos restent pixel à pixel inchangés. Les contours sombres ponctuels et les chaussures sont conservés. L'aperçu mGBA a été refait et les douze déplacements natifs passent à nouveau les contrôles.

@@ -56,11 +56,11 @@ left=[
 '...OHSHYYHYO..',
 '..OKSSKOYHYHO.',
 '...KwPWWKYYHO.',
-'...KWSSWWKO...',
-'...KwSsWWK....',
-'...KwBBWWK....',
-'...KwBBWWK....',
-'...KWWKWWK....',
+'...wWSSWWwO...',
+'...WwSsWWw....',
+'...wwBBWWW....',
+'...KwBBWWw....',
+'...wWWKWWK....',
 '...KK...KK....',
 '...KK...KK....']
 right=[list(r[::-1]) for r in left]
