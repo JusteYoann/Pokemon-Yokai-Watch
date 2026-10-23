@@ -12,6 +12,7 @@ from mgba_rpc import ROOT, BATCH
 from pilote_combat_mgba import battle_keys
 import tester_cameos_boss_mgba as boss
 from tester_musiques_integrees_mgba import MAPS, channel
+import tester_musiques_integrees_mgba as audio
 
 P = ROOT/os.environ.get('YOKAI_AUDIO31_EVENTS_DIR','QA_RECETTE_FINALE/AUDIO_31_OST/evenements')
 P.mkdir(parents=True, exist_ok=True)
@@ -54,44 +55,59 @@ try:
     boss.warp(r, {'map': MAPS['PokemonLeague_ChampionsRoom'][1]}, {'x': 6, 'y': 17})
     started = False
     seen = False
+    victory_seen = False
     hold_frames = int(os.environ.get('YOKAI_AUDIO31_MATT_HOLD_FRAMES','0'))
+    verify_loops = os.environ.get('YOKAI_AUDIO31_MATT_VERIFY_LOOPS','0') == '1'
     held = False
     action_handlers = {int(v[0],16)|1 for line in subprocess.check_output(
         ['arm-none-eabi-nm','--defined-only',str(r.elf_path)],text=True).splitlines()
         if len(v:=line.split())==3 and v[2]=='HandleInputChooseAction'}
     for f in range(65000):
         r.keys = battle_keys(r, f); r.run()
+        if started and r.u32(r.symbols['gMPlayInfo_BGM']) == r.symbols['mus_yokai_22']:
+            if not victory_seen:r.frame.save(P/'matt-victoire.png')
+            victory_seen = True
         if r.u32(r.symbols['gMain']+4) == r.symbols['BattleMainCB2'] | 1:
             started = True
             if channel(r, 25) and not seen:
                 seen = True; music_frame = f
             if seen and f == music_frame + 180:
                 r.frame.save(P/'matt-combat.png')
-            if hold_frames and not held and r.u32(r.symbols['gBattlerControllerFuncs']) in action_handlers:
+            if (hold_frames or verify_loops) and not held and r.u32(r.symbols['gBattlerControllerFuncs']) in action_handlers:
                 held = True
-                ring = deque(maxlen=200)
-                def capture(data, frames):
-                    ring.append(ctypes.string_at(data, frames*4)); return frames
-                callback = BATCH(capture); r.lib.retro_set_audio_sample_batch(callback)
-                r.keys = set(); r.run(hold_frames)
-                r.lib.retro_set_audio_sample_batch(r.callbacks[3])
-                signal = np.frombuffer(b''.join(ring),'<i2').astype(float)
-                active = channel(r,25) is not None
-                rows.append(dict(event='Prolonged actual Matt battle, no controller action',
-                    held_at_native_action_menu=True,
-                    held_frames=hold_frames, held_seconds_approx=hold_frames/59.7275,
-                    native_sample_still_active=active, final_audio_AC_RMS_pcm16=float(signal.std()),
-                    requested_continuous_music_goal_met=active,
-                    known_limitation=None if active else 'Unresolved Final Battle loop; original one-shot ends and falls silent'))
+                if verify_loops:
+                    audio.P=P; (P/'preuves').mkdir(exist_ok=True)
+                    audio.run_song(r,25,'Actual Matt Champion battle at native action menu; five complete native loop returns, not direct music start',save_check=False,verify_continuous=True)
+                    result=audio.results[-1]
+                    assert len(result['native_loop_wraps'])>=3 and result['native_frames']/59.7275>=600
+                    rows.append(dict(event='Prolonged actual Matt battle with variant C',
+                        held_at_native_action_menu=True,held_seconds_approx=result['native_frames']/59.7275,
+                        requested_continuous_music_goal_met=True,**result))
+                else:
+                    ring = deque(maxlen=200)
+                    def capture(data, frames):
+                        ring.append(ctypes.string_at(data, frames*4)); return frames
+                    callback = BATCH(capture); r.lib.retro_set_audio_sample_batch(callback)
+                    r.keys = set(); r.run(hold_frames)
+                    r.lib.retro_set_audio_sample_batch(r.callbacks[3])
+                    signal = np.frombuffer(b''.join(ring),'<i2').astype(float)
+                    active = channel(r,25) is not None
+                    rows.append(dict(event='Prolonged actual Matt battle, no controller action',
+                        held_at_native_action_menu=True,
+                        held_frames=hold_frames, held_seconds_approx=hold_frames/59.7275,
+                        native_sample_still_active=active, final_audio_AC_RMS_pcm16=float(signal.std()),
+                        requested_continuous_music_goal_met=active,
+                        known_limitation=None if active else 'Unresolved Final Battle loop; original one-shot ends and falls silent'))
                 r.frame.save(P/'matt-combat-prolonge.png')
         if started and r.u32(r.symbols['gMPlayInfo_BGM']) == r.symbols['mus_yokai_26'] and channel(r, 26): break
     else: raise AssertionError(('Champion did not reach victory music', started, seen))
-    assert seen and r.read(r.symbols['gBattleOutcome'], 1) == b'\x01'
-    if hold_frames: assert held, 'Prolonged native action-menu test was not reached'
+    assert seen and victory_seen and r.read(r.symbols['gBattleOutcome'], 1) == b'\x01'
+    if hold_frames or verify_loops: assert held, 'Prolonged native action-menu test was not reached'
     assert r.call('FlagGet', boss.C['FLAG_DEFEATED_CHAMP'])
     r.keys = set(); r.run(120); r.frame.save(P/'matt-conclusion.png')
     rows.append(dict(event='Original Champion scene and battle', battle_slot=25,
-                     victory_slot=26, controller_victory=True, opponent_team_unchanged=True))
+                     victory_slot=26, native_battle_victory_slot=22,
+                     controller_victory=True, opponent_team_unchanged=True))
     print('EVENT PASS Matt Champion/victory', flush=True)
     passed = True
     error = None

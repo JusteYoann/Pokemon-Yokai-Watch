@@ -52,7 +52,7 @@ def cry_active(r):
  voice=r.u32(track+32)
  return bool(voice and r.u32(voice+44)==track and r.read(voice,1)[0]&0x83)
 
-def run_song(r,n,trigger):
+def run_song(r,n,trigger,save_check=True,verify_continuous=False):
  wait_header(r,n);r.keys=set();r.run(30);ptr=channel(r,n);assert ptr
  chunks=[];ring=deque(maxlen=200);sum_frames=[0];seam_audio=[];pending=[]
  def audio_callback(data,frames):
@@ -67,6 +67,9 @@ def run_song(r,n,trigger):
   if f==120:r.call('PlaySE',boss.C.get('SE_SELECT',5))
   if f==240:r.call('PlayCry_Normal',1,0)
   r.run();frames+=1;pos=r.u32(ptr+40)
+  if verify_continuous:
+   assert channel(r,n)==ptr and r.u32(r.symbols['gMPlayInfo_BGM'])==r.symbols[f'mus_yokai_{n:02d}'],(n,'BGM interrupted',frames)
+   assert 0<=pos<row['source_end_samples']-row['source_start_samples'],(n,'Sample cursor out of range',pos)
   if pos+100<prev:
    assert loop_start<=pos<=loop_start+900,(n,'Intro returned or invalid loop',pos,loop_start)
    wraps.append({'frame':frames,'sample_after_wrap':pos,'native_cry_active':cry_active(r)})
@@ -114,9 +117,9 @@ def run_song(r,n,trigger):
  demo=private/'previews';demo.mkdir(exist_ok=True)
  with wave.open(str(demo/f'{n:02d}-mgba-8s.wav'),'wb') as w:w.setnchannels(2);w.setsampwidth(2);w.setframerate(65536);w.writeframes(b''.join(chunks))
  r.frame.save(P/'preuves'/f'ost-{n:02d}-en-jeu.png');r.lib.retro_set_audio_sample_batch(r.callbacks[3])
- assert r.call('TrySavingData',0,max_frames=1200)==1
+ if save_check:assert r.call('TrySavingData',0,max_frames=1200)==1
  assert r.u32(r.symbols['gMPlayInfo_BGM'])==r.symbols[f'mus_yokai_{n:02d}']
- results.append({'number':n,'passed':True,'trigger':trigger,'native_loop_wraps':wraps,'clean_audio_seams_required':5,'actual_audio_seam_checks':seam_scores,'native_samples_per_frame':224,'expected_frames_per_cycle':period/224,'intro_not_repeated':True,'audio_reference_pearson_correlation':identity,'after_SFX_and_cry_correlation':after_cry_identity,'analysis_sample_rate_hz':4000,'alignment_grid_hz':16000,'initial_native_sample_position':first,'select_SFX_and_cry_native_calls':True,'cry_completed':True,'native_Flash_save_with_music':True,'native_frames':frames,'source_sample_period':period,'perceptual_listening_validated':False,'audio_demo':'Private output/previews only, not public GitHub'})
+ results.append({'number':n,'passed':True,'trigger':trigger,'native_loop_wraps':wraps,'clean_audio_seams_required':5,'actual_audio_seam_checks':seam_scores,'native_samples_per_frame':224,'expected_frames_per_cycle':period/224,'intro_not_repeated':True,'audio_reference_pearson_correlation':identity,'after_SFX_and_cry_correlation':after_cry_identity,'analysis_sample_rate_hz':4000,'alignment_grid_hz':16000,'initial_native_sample_position':first,'select_SFX_and_cry_native_calls':True,'cry_completed':True,'native_Flash_save_with_music':save_check,'continuous_channel_and_header_checked_every_frame':verify_continuous,'native_frames':frames,'source_sample_period':period,'perceptual_listening_validated':False,'audio_demo':'Private output/previews only, not public GitHub'})
 
 def main(numbers):
  for n in numbers:

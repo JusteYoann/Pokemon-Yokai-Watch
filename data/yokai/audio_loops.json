@@ -33,7 +33,7 @@
     30,
     31
   ],
-  "status": "Experimental31: original26 and loops13/14 unchanged; Katie8 now uses measured full-cycle reprise. Enma5/Final25 remain complete one-shot pending listening validation; not release-ready.",
+  "status": "Experimental31: Final Battle25 uses user-selected C loop, Katie8 and all other30 encodings preserved. Enma5 remains one-shot. Definitive musical listening approval pending; no merge.",
   "tracks": [
     {
       "number": 1,
@@ -579,16 +579,18 @@
       "input_sha256": "d648b8289d43a212e44840959c5196e483666595840d3e63a492d6ebe2d0a8ae",
       "input_samples": 2703323,
       "rate": 13379,
-      "loop_start_samples": null,
-      "loop_end_samples": 2703323,
+      "loop_start_samples": 462424,
+      "loop_end_samples": 2474626,
       "perceptual_listening_validated": false,
-      "derivation": "Complete existing DPCM retained byte-identically; no loop forced because source recurrence research is inconclusive. One-shot experimental playback; natural ending then silence until next music request.",
+      "derivation": "User-selected experimental variant C: original intro retained once, then exact462424..2474626 native samples. Context-first comparison near34.8/185.2s followed by<=5ms phase refinement. No re-encoding, crossfade or time stretch. Definitive musical listening approval pending.",
       "mp3_sha256": "449ba293b02001be30decbcfce85d48d63c9ea92534e05f073dcbe865c769470",
-      "pcm_wav_sha256": "9dff4f30a556f5aa0be05216448ded8422823aab5b657a7856bf4df857fdb644"
+      "pcm_wav_sha256": "9dff4f30a556f5aa0be05216448ded8422823aab5b657a7856bf4df857fdb644",
+      "period_samples": 2012202,
+      "loop_boundary_step_pcm8": 0,
+      "approval_scope": "User explicitly selected variant C for experimental integration, not final musical quality."
     }
   ],
   "pending_loop_tracks": [
-    5,
-    25
+    5
   ]
 }
