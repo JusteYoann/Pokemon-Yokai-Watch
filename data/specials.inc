@@ -465,4 +465,9 @@ gSpecials::
 	def_special PhilosovniRefreshQuay
 	def_special PhilosovniEndFollowing
 	def_special PhilosovniFollowerDestination
+	def_special YoannCheckCompletion
+	def_special YoannSyncVisibility
+	def_special YoannFadeWhite
+	def_special YoannThankForPlay
+	def_special YoannGiveCharm
 gSpecialsEnd::

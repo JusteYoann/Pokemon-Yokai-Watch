@@ -1,4 +1,5 @@
 #include "global.h"
+#include "item.h"
 #include "random.h"
 #include "wild_encounter.h"
 #include "event_data.h"
@@ -243,6 +244,23 @@ u32 SafariWildPersonality(u32 personality, u32 otId)
     return personality;
 }
 
+// Each charm attempt receives the same Safari bonus. Stop on the first shiny
+// PID; never alter OT, regenerate a mon, or apply this to gifts/static trainers.
+u32 CharmedWildPersonality(u32 personality, u32 otId, bool8 safari, bool8 charm)
+{
+    u8 attempt;
+    for (attempt = 0; ; attempt++)
+    {
+        u16 value;
+        if (safari)
+            personality = SafariWildPersonality(personality, otId);
+        value = (otId >> 16) ^ otId ^ (personality >> 16) ^ personality;
+        if (value < SHINY_ODDS || !charm || attempt == 2)
+            return personality;
+        personality = Random32();
+    }
+}
+
 static void GenerateWildMon(u16 species, u8 level, u8 slot)
 {
     u32 personality;
@@ -257,13 +275,15 @@ static void GenerateWildMon(u16 species, u8 level, u8 slot)
     ZeroEnemyPartyMons();
     if (species != SPECIES_UNOWN)
     {
-        if (IsSafariWildMap())
+        bool8 safari = IsSafariWildMap();
+        bool8 charm = IsYokaiShinyAllowed(species) && CheckBagHasItem(ITEM_SHINY_CHARM, 1);
+        if (safari || charm)
         {
             u32 otId = gSaveBlock2Ptr->playerTrainerId[0]
                 | (gSaveBlock2Ptr->playerTrainerId[1] << 8)
                 | (gSaveBlock2Ptr->playerTrainerId[2] << 16)
                 | (gSaveBlock2Ptr->playerTrainerId[3] << 24);
-            personality = SafariWildPersonality(Random32(), otId);
+            personality = CharmedWildPersonality(Random32(), otId, safari, charm);
             CreateMon(&gEnemyParty[0], species, level, USE_RANDOM_IVS, TRUE, personality, OT_ID_PLAYER_ID, 0);
         }
         else

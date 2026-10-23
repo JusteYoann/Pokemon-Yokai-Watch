@@ -3,6 +3,8 @@
 
 #include "global.h"
 
+u32 CharmedWildPersonality(u32 personality, u32 otId, bool8 safari, bool8 charm);
+
 #define LAND_WILD_COUNT     12
 #define WATER_WILD_COUNT    5
 #define ROCK_WILD_COUNT     5

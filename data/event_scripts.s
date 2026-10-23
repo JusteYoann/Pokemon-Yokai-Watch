@@ -1364,4 +1364,5 @@ Text_TestMsg::
 	.include "data/scripts/yokai_cameos_boss.inc"
 
 	.include "data/scripts/philosovni.inc"
+	.include "data/scripts/juste_yoann.inc"
 	.include "data/maps/VermilionCity_PhilosovniWarehouse/scripts.inc"

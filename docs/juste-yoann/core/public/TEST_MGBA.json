@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "scope": "Native fixtures for quest core only; original Yoann artwork is still required.\nNo claim of NPC appearance, battle integration, or a full quest playthrough.\n",
+  "rom_sha256": "9d33cab71513208437f28695c114c3cd0d92135faa04a53efa396e140a72c252",
+  "checks": [
+    {
+      "test": "Full key-item pocket defers reward safely; freeing a slot allows one successful retry",
+      "passed": true
+    },
+    {
+      "test": "151 seen does not satisfy completion",
+      "passed": true
+    },
+    {
+      "test": "150 owned does not satisfy completion, including missing151",
+      "passed": true
+    },
+    {
+      "test": "151 owned accepted; invitation state and visibility flag are persistent and independent",
+      "passed": true
+    },
+    {
+      "test": "Charm is a key item, importance2, given exactly once",
+      "passed": true
+    },
+    {
+      "test": "Native Flash save and Continue preserve charm and given flag",
+      "passed": true
+    },
+    {
+      "test": "All compiled dialogue and item-description lines measured with native font",
+      "passed": true,
+      "lines": 82
+    },
+    {
+      "test": "Full dialogue/white-scene core, exact THANK FOR PLAY, reward and palette restoration",
+      "passed": true,
+      "npc_art_integrated": false
+    }
+  ]
+}

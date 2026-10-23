@@ -1596,3 +1596,9 @@
 
 
 #define FLAG_HIDE_YOPPLE_STORY_CEO FLAG_0x330
+
+// Juste Yoann: existing unused persistent bits, no save layout change.
+#define FLAG_YOANN_INVITED FLAG_0x331
+#define FLAG_YOANN_WON FLAG_0x332
+#define FLAG_YOANN_CHARM_GIVEN FLAG_0x333
+#define FLAG_HIDE_JUSTE_YOANN FLAG_0x334
