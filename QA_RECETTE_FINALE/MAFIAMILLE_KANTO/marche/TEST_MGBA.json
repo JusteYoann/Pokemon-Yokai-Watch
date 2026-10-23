@@ -1,0 +1,148 @@
+{
+  "passed": true,
+  "scope": "Real map actors, native VRAM animation cycles and unchanged trainer intros.\n\nWalking is driven in place by the engine for reproducible rendering; this does\nnot claim new story movement scenes or a complete campaign playthrough.\n",
+  "rom_sha256": "d35d11abad89d8867bde1084ac3a7b859a132905dd65bf0ef269b53a8b1e2a4d",
+  "rom_bytes": 16777216,
+  "tests": [
+    {
+      "actor": "don_morleone",
+      "gender": 0,
+      "actual_map": "FiveIsland_RocketWarehouse",
+      "linked_frames": 9,
+      "directions": [
+        {
+          "direction": "sud",
+          "native_vram_frames": [
+            0,
+            3,
+            4
+          ],
+          "expected_frames": [
+            0,
+            3,
+            4
+          ],
+          "passed": true
+        },
+        {
+          "direction": "nord",
+          "native_vram_frames": [
+            1,
+            5,
+            6
+          ],
+          "expected_frames": [
+            1,
+            5,
+            6
+          ],
+          "passed": true
+        },
+        {
+          "direction": "ouest",
+          "native_vram_frames": [
+            2,
+            7,
+            8
+          ],
+          "expected_frames": [
+            2,
+            7,
+            8
+          ],
+          "passed": true
+        },
+        {
+          "direction": "est",
+          "native_vram_frames": [
+            2,
+            7,
+            8
+          ],
+          "expected_frames": [
+            2,
+            7,
+            8
+          ],
+          "passed": true
+        }
+      ],
+      "native_trainer_intro": true,
+      "trainer_id": 17,
+      "used_palette_indices_verified": true,
+      "transparent_index": 0,
+      "complete_battle": false,
+      "passed": true
+    },
+    {
+      "actor": "mafiamille_1",
+      "gender": 0,
+      "actual_map": "FiveIsland_RocketWarehouse",
+      "linked_frames": 9,
+      "directions": [
+        {
+          "direction": "sud",
+          "native_vram_frames": [
+            0,
+            3,
+            4
+          ],
+          "expected_frames": [
+            0,
+            3,
+            4
+          ],
+          "passed": true
+        },
+        {
+          "direction": "nord",
+          "native_vram_frames": [
+            1,
+            5,
+            6
+          ],
+          "expected_frames": [
+            1,
+            5,
+            6
+          ],
+          "passed": true
+        },
+        {
+          "direction": "ouest",
+          "native_vram_frames": [
+            2,
+            7,
+            8
+          ],
+          "expected_frames": [
+            2,
+            7,
+            8
+          ],
+          "passed": true
+        },
+        {
+          "direction": "est",
+          "native_vram_frames": [
+            2,
+            7,
+            8
+          ],
+          "expected_frames": [
+            2,
+            7,
+            8
+          ],
+          "passed": true
+        }
+      ],
+      "native_trainer_intro": true,
+      "trainer_id": 18,
+      "used_palette_indices_verified": true,
+      "transparent_index": 0,
+      "complete_battle": false,
+      "passed": true
+    }
+  ]
+}

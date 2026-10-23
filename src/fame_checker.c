@@ -57,6 +57,9 @@ static EWRAM_DATA struct FameCheckerData * sFameCheckerData = NULL;
 static EWRAM_DATA struct ListMenuItem * sListMenuItems = NULL;
 static EWRAM_DATA s32 sLastMenuIdx = 0;
 
+// The narrow64px list has56px after its cursor; full name remains in notices.
+static const u8 sMafiamilleFameListName[] = _("Morléone");
+
 COMMON_DATA struct ListMenuTemplate gFameChecker_ListMenuTemplate = {0};
 COMMON_DATA u8 gIconDescriptionBoxIsOpen = 0;
 
@@ -1555,7 +1558,9 @@ static u8 FC_PopulateListMenu(void)
         {
             if (sTrainerIdxs[fameCheckerIdx] < FC_NONTRAINER_START)
             {
-                sListMenuItems[nitems].label = gTrainers[sTrainerIdxs[fameCheckerIdx]].trainerName;
+                sListMenuItems[nitems].label = fameCheckerIdx == FAMECHECKER_GIOVANNI
+                    ? sMafiamilleFameListName
+                    : gTrainers[sTrainerIdxs[fameCheckerIdx]].trainerName;
                 sListMenuItems[nitems].index = nitems;
             }
             else

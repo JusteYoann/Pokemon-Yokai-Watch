@@ -1,0 +1,1683 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "d35d11abad89d8867bde1084ac3a7b859a132905dd65bf0ef269b53a8b1e2a4d",
+  "scope": "Native first-page rendering of each source message on a fixed field-map fixture with explicit variables. Dynamic placeholders explicitly expanded before rendering; native200-byte trainer-card bound checked. Not full NPC traversal, all pages, multiplayer or event-outcome testing.",
+  "results": [
+    {
+      "symbol": "MtMoon_B2F_Text_Grunt1Intro",
+      "source": "data/maps/MtMoon_B2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtMoon_B2F_Text_Grunt1Defeat",
+      "source": "data/maps/MtMoon_B2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtMoon_B2F_Text_Grunt1PostBattle",
+      "source": "data/maps/MtMoon_B2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtMoon_B2F_Text_Grunt2Intro",
+      "source": "data/maps/MtMoon_B2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtMoon_B2F_Text_Grunt2Defeat",
+      "source": "data/maps/MtMoon_B2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtMoon_B2F_Text_Grunt2PostBattle",
+      "source": "data/maps/MtMoon_B2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtMoon_B2F_Text_Grunt3Intro",
+      "source": "data/maps/MtMoon_B2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtMoon_B2F_Text_Grunt3Defeat",
+      "source": "data/maps/MtMoon_B2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtMoon_B2F_Text_Grunt3PostBattle",
+      "source": "data/maps/MtMoon_B2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtMoon_B2F_Text_Grunt4Intro",
+      "source": "data/maps/MtMoon_B2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtMoon_B2F_Text_Grunt4Defeat",
+      "source": "data/maps/MtMoon_B2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtMoon_B2F_Text_Grunt4PostBattle",
+      "source": "data/maps/MtMoon_B2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CeruleanCity_Text_GruntIntro",
+      "source": "data/maps/CeruleanCity/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CeruleanCity_Text_GruntDefeat",
+      "source": "data/maps/CeruleanCity/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CeruleanCity_Text_RecoveredTM28FromGrunt",
+      "source": "data/maps/CeruleanCity/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CeruleanCity_Text_PeopleHereWereRobbed",
+      "source": "data/maps/CeruleanCity/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Route24_Text_JustEarnedFabulousPrize",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Route24_Text_ReceivedNuggetFromMysteryTrainer",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Route24_Text_JoinTeamRocket",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Route24_Text_RocketDefeat",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Route24_Text_YoudBecomeTopRocketLeader",
+      "source": "data/maps/Route24/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CeladonCity_Text_KeepOutOfTeamRocketsWay",
+      "source": "data/maps/CeladonCity/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CeladonCity_Text_GameCornerSign",
+      "source": "data/maps/CeladonCity/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CeladonCity_House1_Text_SlotsReelInTheDough",
+      "source": "data/maps/CeladonCity_House1/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CeladonCity_House1_Text_ShippedMonsAsSlotPrizes",
+      "source": "data/maps/CeladonCity_House1/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CeladonCity_House1_Text_DontTouchGameCornerPoster",
+      "source": "data/maps/CeladonCity_House1/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CeladonCity_GameCorner_Text_WelcomeBuySomeCoins",
+      "source": "data/maps/CeladonCity_GameCorner/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CeladonCity_GameCorner_Text_RumoredTeamRocketRunsThisPlace",
+      "source": "data/maps/CeladonCity_GameCorner/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CeladonCity_GameCorner_Text_GruntIntro",
+      "source": "data/maps/CeladonCity_GameCorner/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CeladonCity_GameCorner_Text_GruntDefeat",
+      "source": "data/maps/CeladonCity_GameCorner/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CeladonCity_GameCorner_Text_GruntPostBattle",
+      "source": "data/maps/CeladonCity_GameCorner/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CeladonCity_GameCorner_Text_SwitchBehindPosterPushIt",
+      "source": "data/maps/CeladonCity_GameCorner/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B1F_Text_Grunt1Intro",
+      "source": "data/maps/RocketHideout_B1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B1F_Text_Grunt1Defeat",
+      "source": "data/maps/RocketHideout_B1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B1F_Text_Grunt1PostBattle",
+      "source": "data/maps/RocketHideout_B1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B1F_Text_Grunt2Intro",
+      "source": "data/maps/RocketHideout_B1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B1F_Text_Grunt2Defeat",
+      "source": "data/maps/RocketHideout_B1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B1F_Text_Grunt2PostBattle",
+      "source": "data/maps/RocketHideout_B1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B1F_Text_Grunt3Intro",
+      "source": "data/maps/RocketHideout_B1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B1F_Text_Grunt3Defeat",
+      "source": "data/maps/RocketHideout_B1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B1F_Text_Grunt3PostBattle",
+      "source": "data/maps/RocketHideout_B1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B1F_Text_Grunt4Intro",
+      "source": "data/maps/RocketHideout_B1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B1F_Text_Grunt4Defeat",
+      "source": "data/maps/RocketHideout_B1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B1F_Text_Grunt4PostBattle",
+      "source": "data/maps/RocketHideout_B1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B1F_Text_Grunt5Intro",
+      "source": "data/maps/RocketHideout_B1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B1F_Text_Grunt5Defeat",
+      "source": "data/maps/RocketHideout_B1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B1F_Text_Grunt5PostBattle",
+      "source": "data/maps/RocketHideout_B1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B2F_Text_GruntIntro",
+      "source": "data/maps/RocketHideout_B2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B2F_Text_GruntDefeat",
+      "source": "data/maps/RocketHideout_B2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B2F_Text_GruntPostBattle",
+      "source": "data/maps/RocketHideout_B2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B3F_Text_Grunt1Intro",
+      "source": "data/maps/RocketHideout_B3F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B3F_Text_Grunt1Defeat",
+      "source": "data/maps/RocketHideout_B3F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B3F_Text_Grunt1PostBattle",
+      "source": "data/maps/RocketHideout_B3F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B3F_Text_Grunt2Intro",
+      "source": "data/maps/RocketHideout_B3F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B3F_Text_Grunt2Defeat",
+      "source": "data/maps/RocketHideout_B3F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B3F_Text_Grunt2PostBattle",
+      "source": "data/maps/RocketHideout_B3F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B4F_Text_Grunt1Intro",
+      "source": "data/maps/RocketHideout_B4F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B4F_Text_Grunt1Defeat",
+      "source": "data/maps/RocketHideout_B4F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B4F_Text_Grunt1PostBattle",
+      "source": "data/maps/RocketHideout_B4F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B4F_Text_Grunt2Intro",
+      "source": "data/maps/RocketHideout_B4F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B4F_Text_Grunt2Defeat",
+      "source": "data/maps/RocketHideout_B4F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B4F_Text_Grunt2PostBattle",
+      "source": "data/maps/RocketHideout_B4F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B4F_Text_Grunt3Intro",
+      "source": "data/maps/RocketHideout_B4F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B4F_Text_Grunt3Defeat",
+      "source": "data/maps/RocketHideout_B4F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B4F_Text_Grunt3PostBattle",
+      "source": "data/maps/RocketHideout_B4F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B4F_Text_GiovanniIntro",
+      "source": "data/maps/RocketHideout_B4F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B4F_Text_GiovanniDefeat",
+      "source": "data/maps/RocketHideout_B4F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "RocketHideout_B4F_Text_GiovanniPostBattle",
+      "source": "data/maps/RocketHideout_B4F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "PokemonTower_7F_Text_Grunt1Intro",
+      "source": "data/maps/PokemonTower_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "PokemonTower_7F_Text_Grunt1Defeat",
+      "source": "data/maps/PokemonTower_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "PokemonTower_7F_Text_Grunt1PostBattle",
+      "source": "data/maps/PokemonTower_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "PokemonTower_7F_Text_Grunt2Intro",
+      "source": "data/maps/PokemonTower_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "PokemonTower_7F_Text_Grunt2Defeat",
+      "source": "data/maps/PokemonTower_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "PokemonTower_7F_Text_Grunt2PostBattle",
+      "source": "data/maps/PokemonTower_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "PokemonTower_7F_Text_Grunt3Intro",
+      "source": "data/maps/PokemonTower_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "PokemonTower_7F_Text_Grunt3Defeat",
+      "source": "data/maps/PokemonTower_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "PokemonTower_7F_Text_Grunt3PostBattle",
+      "source": "data/maps/PokemonTower_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "PokemonTower_7F_Text_MrFujiThankYouFollowMe",
+      "source": "data/maps/PokemonTower_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SaffronCity_Text_BossTakeTownForTeamRocket",
+      "source": "data/maps/SaffronCity/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SaffronCity_Text_SaffronBelongsToTeamRocket",
+      "source": "data/maps/SaffronCity/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SaffronCity_Text_YouBeatTeamRocket",
+      "source": "data/maps/SaffronCity/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SaffronCity_Text_SafeToGoOutAgain",
+      "source": "data/maps/SaffronCity/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SaffronCity_Text_PeopleComingBackToSaffron",
+      "source": "data/maps/SaffronCity/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SaffronCity_Text_SawRocketBossEscaping",
+      "source": "data/maps/SaffronCity/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "ViridianCity_Gym_Text_GiovanniIntro",
+      "source": "data/maps/ViridianCity_Gym/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "ViridianCity_Gym_Text_GiovanniPostBattle",
+      "source": "data/maps/ViridianCity_Gym/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "ViridianCity_Gym_Text_ReceivedTM26FromGiovanni",
+      "source": "data/maps/ViridianCity_Gym/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "ViridianCity_Gym_Text_GymGuyPostVictory",
+      "source": "data/maps/ViridianCity_Gym/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "ViridianCity_Gym_Text_GymStatuePlayerWon",
+      "source": "data/maps/ViridianCity_Gym/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtEmber_Exterior_Text_Grunt1Intro",
+      "source": "data/maps/MtEmber_Exterior/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtEmber_Exterior_Text_Grunt1Defeat",
+      "source": "data/maps/MtEmber_Exterior/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtEmber_Exterior_Text_Grunt1PostBattle",
+      "source": "data/maps/MtEmber_Exterior/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtEmber_Exterior_Text_Grunt2Intro",
+      "source": "data/maps/MtEmber_Exterior/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtEmber_Exterior_Text_Grunt2Defeat",
+      "source": "data/maps/MtEmber_Exterior/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtEmber_Exterior_Text_Grunt2PostBattle",
+      "source": "data/maps/MtEmber_Exterior/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtEmber_Exterior_Text_WellTryDiggingHere",
+      "source": "data/maps/MtEmber_Exterior/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtEmber_Exterior_Text_YoureInTheWayGetLost",
+      "source": "data/maps/MtEmber_Exterior/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtEmber_Exterior_Text_PunchedThroughAtLast",
+      "source": "data/maps/MtEmber_Exterior/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtEmber_Exterior_Text_WhatsPasswordAgain",
+      "source": "data/maps/MtEmber_Exterior/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtEmber_Exterior_Text_FirstPasswordGoldeen",
+      "source": "data/maps/MtEmber_Exterior/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtEmber_Exterior_Text_SnoopsBeenListeningIn",
+      "source": "data/maps/MtEmber_Exterior/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtEmber_Exterior_Text_WellRegroupDontStepInsideThere",
+      "source": "data/maps/MtEmber_Exterior/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FourIsland_IcefallCave_Back_Text_LoreleiKeepHandsOffMons",
+      "source": "data/maps/FourIsland_IcefallCave_Back/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FourIsland_IcefallCave_Back_Text_ShutItLadyLeaveUsBe",
+      "source": "data/maps/FourIsland_IcefallCave_Back/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FourIsland_IcefallCave_Back_Text_LoreleiPlayerHelpMeKickPoachersOut",
+      "source": "data/maps/FourIsland_IcefallCave_Back/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FourIsland_IcefallCave_Back_Text_GruntIntro",
+      "source": "data/maps/FourIsland_IcefallCave_Back/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FourIsland_IcefallCave_Back_Text_GruntDefeat",
+      "source": "data/maps/FourIsland_IcefallCave_Back/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FourIsland_IcefallCave_Back_Text_LoreleiWhereHaveYouTakenMons",
+      "source": "data/maps/FourIsland_IcefallCave_Back/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FourIsland_IcefallCave_Back_Text_NotTellingYouThat",
+      "source": "data/maps/FourIsland_IcefallCave_Back/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FourIsland_IcefallCave_Back_Text_LoreleiWellDeepFreezeYou",
+      "source": "data/maps/FourIsland_IcefallCave_Back/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FourIsland_IcefallCave_Back_Text_OkayRocketWareHouseFiveIsland",
+      "source": "data/maps/FourIsland_IcefallCave_Back/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FourIsland_IcefallCave_Back_Text_ThankYouThisIsAwful",
+      "source": "data/maps/FourIsland_IcefallCave_Back/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_Meadow_Text_Rocket1Intro",
+      "source": "data/maps/FiveIsland_Meadow/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_Meadow_Text_Rocket1Defeat",
+      "source": "data/maps/FiveIsland_Meadow/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_Meadow_Text_Rocket1PostBattle",
+      "source": "data/maps/FiveIsland_Meadow/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_Meadow_Text_Rocket2Intro",
+      "source": "data/maps/FiveIsland_Meadow/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_Meadow_Text_Rocket2Defeat",
+      "source": "data/maps/FiveIsland_Meadow/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_Meadow_Text_Rocket2PostBattle",
+      "source": "data/maps/FiveIsland_Meadow/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_Meadow_Text_Rocket3Intro",
+      "source": "data/maps/FiveIsland_Meadow/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_Meadow_Text_Rocket3Defeat",
+      "source": "data/maps/FiveIsland_Meadow/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_Meadow_Text_Rocket3PostBattle",
+      "source": "data/maps/FiveIsland_Meadow/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_Meadow_Text_DoorNeedsTwoPasswords",
+      "source": "data/maps/FiveIsland_Meadow/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_Meadow_Text_EnteredPasswordAnotherNeeded",
+      "source": "data/maps/FiveIsland_Meadow/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_Meadow_Text_EnteredPasswordDoorOpened",
+      "source": "data/maps/FiveIsland_Meadow/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_Meadow_Text_WarehouseDoorAlreadyOpen",
+      "source": "data/maps/FiveIsland_Meadow/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SixIsland_OutcastIsland_Text_RocketIntro",
+      "source": "data/maps/SixIsland_OutcastIsland/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SixIsland_OutcastIsland_Text_RocketDefeat",
+      "source": "data/maps/SixIsland_OutcastIsland/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SixIsland_OutcastIsland_Text_RocketPostBattle",
+      "source": "data/maps/SixIsland_OutcastIsland/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_Grunt1Intro",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_Grunt1Defeat",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_Grunt1PostBattle",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_Grunt2Intro",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_Grunt2Defeat",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_Grunt2PostBattle",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_Grunt3Intro",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_Grunt3Defeat",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_Grunt3PostBattle",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_Admin1Intro",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_Admin1Defeat",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_Admin1PostBattle",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_Admin2Intro",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_Admin2Defeat",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_Admin2PostBattle",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_GideonIntro",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_GideonDefeat",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_GideonPostBattle",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_ManyMonsLockedInPen",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_PenUnlockedMonsFled",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_MadeItSoYouCanComeBackThrough",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_ReportWithGraphsAndText",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_GetLostLeaveMeBe",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "FiveIsland_RocketWarehouse_Text_GiovannisKidHasRedHair",
+      "source": "data/maps/FiveIsland_RocketWarehouse/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_2F_Text_Grunt1Intro",
+      "source": "data/maps/SilphCo_2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_2F_Text_Grunt1Defeat",
+      "source": "data/maps/SilphCo_2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_2F_Text_Grunt1PostBattle",
+      "source": "data/maps/SilphCo_2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_2F_Text_Grunt2Intro",
+      "source": "data/maps/SilphCo_2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_2F_Text_Grunt2Defeat",
+      "source": "data/maps/SilphCo_2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_2F_Text_Grunt2PostBattle",
+      "source": "data/maps/SilphCo_2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_3F_Text_GruntIntro",
+      "source": "data/maps/SilphCo_3F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_3F_Text_GruntDefeat",
+      "source": "data/maps/SilphCo_3F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_3F_Text_GruntPostBattle",
+      "source": "data/maps/SilphCo_3F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_4F_Text_Grunt1Intro",
+      "source": "data/maps/SilphCo_4F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_4F_Text_Grunt1Defeat",
+      "source": "data/maps/SilphCo_4F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_4F_Text_Grunt1PostBattle",
+      "source": "data/maps/SilphCo_4F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_4F_Text_Grunt2Intro",
+      "source": "data/maps/SilphCo_4F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_4F_Text_Grunt2Defeat",
+      "source": "data/maps/SilphCo_4F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_4F_Text_Grunt2PostBattle",
+      "source": "data/maps/SilphCo_4F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_5F_Text_Grunt1Intro",
+      "source": "data/maps/SilphCo_5F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_5F_Text_Grunt1Defeat",
+      "source": "data/maps/SilphCo_5F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_5F_Text_Grunt1PostBattle",
+      "source": "data/maps/SilphCo_5F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_5F_Text_Grunt2Intro",
+      "source": "data/maps/SilphCo_5F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_5F_Text_Grunt2Defeat",
+      "source": "data/maps/SilphCo_5F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_5F_Text_Grunt2PostBattle",
+      "source": "data/maps/SilphCo_5F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_6F_Text_Grunt1Intro",
+      "source": "data/maps/SilphCo_6F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_6F_Text_Grunt1Defeat",
+      "source": "data/maps/SilphCo_6F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_6F_Text_Grunt1PostBattle",
+      "source": "data/maps/SilphCo_6F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_6F_Text_Grunt2Intro",
+      "source": "data/maps/SilphCo_6F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_6F_Text_Grunt2Defeat",
+      "source": "data/maps/SilphCo_6F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_6F_Text_Grunt2PostBattle",
+      "source": "data/maps/SilphCo_6F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_7F_Text_Grunt1Intro",
+      "source": "data/maps/SilphCo_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_7F_Text_Grunt1Defeat",
+      "source": "data/maps/SilphCo_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_7F_Text_Grunt1PostBattle",
+      "source": "data/maps/SilphCo_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_7F_Text_Grunt2Intro",
+      "source": "data/maps/SilphCo_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_7F_Text_Grunt2Defeat",
+      "source": "data/maps/SilphCo_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_7F_Text_Grunt2PostBattle",
+      "source": "data/maps/SilphCo_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_7F_Text_Grunt3Intro",
+      "source": "data/maps/SilphCo_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_7F_Text_Grunt3Defeat",
+      "source": "data/maps/SilphCo_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_7F_Text_Grunt3PostBattle",
+      "source": "data/maps/SilphCo_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_8F_Text_Grunt1Intro",
+      "source": "data/maps/SilphCo_8F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_8F_Text_Grunt1Defeat",
+      "source": "data/maps/SilphCo_8F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_8F_Text_Grunt1PostBattle",
+      "source": "data/maps/SilphCo_8F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_8F_Text_Grunt2Intro",
+      "source": "data/maps/SilphCo_8F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_8F_Text_Grunt2Defeat",
+      "source": "data/maps/SilphCo_8F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_8F_Text_Grunt2PostBattle",
+      "source": "data/maps/SilphCo_8F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_9F_Text_Grunt1Intro",
+      "source": "data/maps/SilphCo_9F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_9F_Text_Grunt1Defeat",
+      "source": "data/maps/SilphCo_9F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_9F_Text_Grunt1PostBattle",
+      "source": "data/maps/SilphCo_9F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_9F_Text_Grunt2Intro",
+      "source": "data/maps/SilphCo_9F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_9F_Text_Grunt2Defeat",
+      "source": "data/maps/SilphCo_9F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_9F_Text_Grunt2PostBattle",
+      "source": "data/maps/SilphCo_9F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_10F_Text_GruntIntro",
+      "source": "data/maps/SilphCo_10F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_10F_Text_GruntDefeat",
+      "source": "data/maps/SilphCo_10F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_10F_Text_GruntPostBattle",
+      "source": "data/maps/SilphCo_10F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_11F_Text_Grunt1Intro",
+      "source": "data/maps/SilphCo_11F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_11F_Text_Grunt1Defeat",
+      "source": "data/maps/SilphCo_11F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_11F_Text_Grunt1PostBattle",
+      "source": "data/maps/SilphCo_11F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_11F_Text_Grunt2Intro",
+      "source": "data/maps/SilphCo_11F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_11F_Text_Grunt2Defeat",
+      "source": "data/maps/SilphCo_11F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_11F_Text_Grunt2PostBattle",
+      "source": "data/maps/SilphCo_11F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_11F_Text_GiovanniIntro",
+      "source": "data/maps/SilphCo_11F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_11F_Text_GiovanniDefeat",
+      "source": "data/maps/SilphCo_11F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_11F_Text_GiovanniPostBattle",
+      "source": "data/maps/SilphCo_11F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_2F_Text_ConnorDefeat",
+      "source": "data/maps/SilphCo_2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_2F_Text_ConnorPostBattle",
+      "source": "data/maps/SilphCo_2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Text_ThunderWaveTeach",
+      "source": "data/maps/SilphCo_2F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_3F_Text_JoseIntro",
+      "source": "data/maps/SilphCo_3F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_3F_Text_JosePostBattle",
+      "source": "data/maps/SilphCo_3F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_4F_Text_TeamRocketIsGone",
+      "source": "data/maps/SilphCo_4F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_5F_Text_RocketsInUproarAboutIntruder",
+      "source": "data/maps/SilphCo_5F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_5F_Text_YoureOurHeroThankYou",
+      "source": "data/maps/SilphCo_5F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_5F_Text_RocketBossLookingForStrongMons",
+      "source": "data/maps/SilphCo_5F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_6F_Text_RocketsTookOverBuilding",
+      "source": "data/maps/SilphCo_6F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_6F_Text_RocketsTryingToConquerWorld",
+      "source": "data/maps/SilphCo_6F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_6F_Text_RocketsRanAwayBecauseOfYou",
+      "source": "data/maps/SilphCo_6F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_6F_Text_TargetedSilphForOurMonProducts",
+      "source": "data/maps/SilphCo_6F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_6F_Text_TaylorIntro",
+      "source": "data/maps/SilphCo_6F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_7F_Text_HaveMonForSavingUs",
+      "source": "data/maps/SilphCo_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_7F_Text_RocketBossWentToBoardroom",
+      "source": "data/maps/SilphCo_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_7F_Text_RocketsAfterMasterBall",
+      "source": "data/maps/SilphCo_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_7F_Text_CanceledMasterBallProject",
+      "source": "data/maps/SilphCo_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_7F_Text_BadIfTeamRocketTookOver",
+      "source": "data/maps/SilphCo_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_7F_Text_WowYouChasedOffTeamRocket",
+      "source": "data/maps/SilphCo_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_7F_Text_RivalIntro",
+      "source": "data/maps/SilphCo_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_7F_Text_RivalDefeat",
+      "source": "data/maps/SilphCo_7F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SilphCo_8F_Text_ToRocketBossMonsAreTools",
+      "source": "data/maps/SilphCo_8F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CeruleanCity_House2_Text_RocketsStoleTMForDig",
+      "source": "data/maps/CeruleanCity_House2/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CeruleanCity_House2_Text_TeamRocketTryingToDigIntoNoGood",
+      "source": "data/maps/CeruleanCity_House2/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "CeruleanCity_House2_Text_TeamRocketLeftWayOut",
+      "source": "data/maps/CeruleanCity_House2/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone",
+      "source": "data/maps/PewterCity_PokemonCenter_1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Route4_PokemonCenter_1F_Text_TeamRocketAttacksCerulean",
+      "source": "data/maps/Route4_PokemonCenter_1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "MtMoon_1F_Text_KentPostBattle",
+      "source": "data/maps/MtMoon_1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "LavenderTown_Text_GhostsAppearedInTower",
+      "source": "data/maps/LavenderTown/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SSAnne_1F_Room1_Text_ImAGlobalPoliceAgent",
+      "source": "data/maps/SSAnne_1F_Room1/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "Route15_Text_ErnestPostBattle",
+      "source": "data/maps/Route15/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "VictoryRoad_3F_Text_GeorgePostBattle",
+      "source": "data/maps/VictoryRoad_3F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "LavenderTown_House1_Text_RocketsKilledCubonesMother",
+      "source": "data/maps/LavenderTown_House1/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "LavenderTown_PokemonCenter_1F_Text_RocketsDoAnythingForMoney",
+      "source": "data/maps/LavenderTown_PokemonCenter_1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "LavenderTown_PokemonCenter_1F_Text_CubonesMotherKilledByRockets",
+      "source": "data/maps/LavenderTown_PokemonCenter_1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame",
+      "source": "data/maps/SaffronCity_PokemonCenter_1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SaffronCity_PokemonCenter_1F_Text_GreatIfEliteFourCameBeatRockets",
+      "source": "data/maps/SaffronCity_PokemonCenter_1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SaffronCity_PokemonCenter_1F_Text_TeamRocketTookOff",
+      "source": "data/maps/SaffronCity_PokemonCenter_1F/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "VermilionCity_House3_Text_DearPippiLetter",
+      "source": "data/maps/VermilionCity_House3/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "VermilionCity_Mart_Text_TeamRocketAreWickedPeople",
+      "source": "data/maps/VermilionCity_Mart/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "SixIsland_DottedHole_SapphireRoom_Text_SellToTeamRocketTellPassword",
+      "source": "data/maps/SixIsland_DottedHole_SapphireRoom/text.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gFameCheckerFlavorText_MrFuji1",
+      "source": "data/text/fame_checker.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gFameCheckerFlavorText_Giovanni0",
+      "source": "data/text/fame_checker.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gFameCheckerFlavorText_Giovanni1",
+      "source": "data/text/fame_checker.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gFameCheckerFlavorText_Giovanni2",
+      "source": "data/text/fame_checker.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gFameCheckerFlavorText_Giovanni3",
+      "source": "data/text/fame_checker.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gFameCheckerFlavorText_Giovanni4",
+      "source": "data/text/fame_checker.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gFameCheckerFlavorText_Giovanni5",
+      "source": "data/text/fame_checker.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gFameCheckerPersonName_Giovanni",
+      "source": "data/text/fame_checker.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gFameCheckerPersonQuote_Giovanni",
+      "source": "data/text/fame_checker.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gFameCheckerFlavorTextOriginLocation_Giovanni0",
+      "source": "data/text/fame_checker.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gFameCheckerFlavorTextOriginObjectName_Giovanni0",
+      "source": "data/text/fame_checker.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gFameCheckerFlavorTextOriginLocation_Giovanni1",
+      "source": "data/text/fame_checker.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gFameCheckerFlavorTextOriginObjectName_Giovanni1",
+      "source": "data/text/fame_checker.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gFameCheckerFlavorTextOriginLocation_Giovanni2",
+      "source": "data/text/fame_checker.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gFameCheckerFlavorTextOriginObjectName_Giovanni2",
+      "source": "data/text/fame_checker.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gFameCheckerFlavorTextOriginLocation_Giovanni3",
+      "source": "data/text/fame_checker.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gFameCheckerFlavorTextOriginObjectName_Giovanni3",
+      "source": "data/text/fame_checker.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gFameCheckerFlavorTextOriginLocation_Giovanni4",
+      "source": "data/text/fame_checker.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gFameCheckerFlavorTextOriginObjectName_Giovanni4",
+      "source": "data/text/fame_checker.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gFameCheckerFlavorTextOriginLocation_Giovanni5",
+      "source": "data/text/fame_checker.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gFameCheckerFlavorTextOriginObjectName_Giovanni5",
+      "source": "data/text/fame_checker.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    },
+    {
+      "symbol": "gFameCheckerFlavorTextOriginObjectName_MrFuji1",
+      "source": "data/text/fame_checker.inc",
+      "native_first_page": true,
+      "dynamic_fixture": false
+    }
+  ],
+  "captures": [
+    "MtMoon_B2F_Text_Grunt1Intro",
+    "Route24_Text_ReceivedNuggetFromMysteryTrainer",
+    "RocketHideout_B1F_Text_Grunt1PostBattle",
+    "RocketHideout_B3F_Text_Grunt1Defeat",
+    "PokemonTower_7F_Text_Grunt1Intro",
+    "ViridianCity_Gym_Text_GiovanniPostBattle",
+    "FourIsland_IcefallCave_Back_Text_LoreleiKeepHandsOffMons",
+    "FiveIsland_Meadow_Text_Rocket3Defeat",
+    "FiveIsland_RocketWarehouse_Text_Grunt3PostBattle",
+    "SilphCo_2F_Text_Grunt1Defeat",
+    "SilphCo_5F_Text_Grunt2Intro",
+    "SilphCo_7F_Text_Grunt3PostBattle",
+    "SilphCo_11F_Text_Grunt1Defeat",
+    "SilphCo_6F_Text_RocketsTookOverBuilding",
+    "PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone",
+    "gFameCheckerFlavorText_Giovanni0",
+    "gFameCheckerFlavorTextOriginObjectName_Giovanni4"
+  ]
+}
