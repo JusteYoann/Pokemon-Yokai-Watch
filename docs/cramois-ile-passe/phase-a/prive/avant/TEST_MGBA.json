@@ -1,0 +1,315 @@
+{
+  "passed": true,
+  "baseline": true,
+  "rom_sha256": "4c3cc08b0662963f418fa3eda9b293d112c4e52b4a72e466b9ec7fb8ad1ec9f8",
+  "checks": [
+    {
+      "test": "Native new game and baseline identity",
+      "passed": true,
+      "baseline": true,
+      "rom_sha256": "4c3cc08b0662963f418fa3eda9b293d112c4e52b4a72e466b9ec7fb8ad1ec9f8"
+    },
+    {
+      "test": "exterieur field palette",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "centre field palette",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "centre-etage field palette",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "boutique field palette",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "laboratoire-entree field palette",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "laboratoire-salon field palette",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "laboratoire-recherche field palette",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "laboratoire-fossiles field palette",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "manoir-rdc field palette",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "manoir-etage-1 field palette",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "manoir-etage-2 field palette",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "manoir-sous-sol field palette",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "arene field palette",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "Start menu original interface banks",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "Fullscreen bag keeps original colors",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "Bag exit restores tinted field",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "Dialogue original interface banks",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "Native Save/Continue on island",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "Native Pokemon Center exit preserves sepia",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "sauvage battlefield, Yo-kai and healthbox palette",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "sauvage native battle entry",
+      "passed": true,
+      "trainer": false
+    },
+    {
+      "test": "Wild victory returns to tinted mansion",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "nathaniel portrait and UI palette",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "nathaniel battlefield, Yo-kai and healthbox palette",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "nathaniel native battle entry",
+      "passed": true,
+      "trainer": true
+    },
+    {
+      "test": "Native Nathaniel victory and Volcano Badge",
+      "passed": true,
+      "levels": [
+        40,
+        41,
+        41,
+        42,
+        43,
+        45
+      ]
+    },
+    {
+      "test": "Champion victory returns to tinted Gym",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "Postgame-flag fixture keeps island palette",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "PalletTown no residual sepia",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "VermilionCity no residual sepia",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "LavenderTown no residual sepia",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 187,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": true
+    },
+    {
+      "test": "sauvage-hors-ile battlefield, Yo-kai and healthbox palette",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "sauvage-hors-ile native battle entry",
+      "passed": true,
+      "trainer": false
+    },
+    {
+      "test": "Outside-island wild victory leaves native colors",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "Michael overworld variant",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "michael portrait and UI palette",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "michael battlefield, Yo-kai and healthbox palette",
+      "passed": true,
+      "mask": "0x0",
+      "hardware_colors_changed": 0,
+      "ui_banks_match_native_buffers": true,
+      "original_lavender_night": false
+    },
+    {
+      "test": "michael native battle entry",
+      "passed": true,
+      "trainer": true
+    },
+    {
+      "test": "Female player Michael portrait observed; full female victory deferred to Phase D",
+      "passed": true
+    }
+  ],
+  "failure": null,
+  "scope": "Phase A visual fixtures. Native ROM, controller battles, explicit map/party setup.\nRun --baseline with the archived pre-change ROM. Never edits enemy HP or outcome.\n"
+}

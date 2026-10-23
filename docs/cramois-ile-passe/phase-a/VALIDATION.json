@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "phase": "A visual prototype awaiting user approval",
+  "base_commit": "2e81a799f2cfcb328cdf4f92b17b9131db6e0f1d",
+  "code_commit": "3e5fded7cf79436f0329a6f131190c35035bcc85",
+  "branch": "feature/cramois-ile-passe",
+  "master_merged": false,
+  "versions": [
+    {
+      "version": "public",
+      "rom_sha256": "e6c433649ca737ae6400521e79c879184ae8a223960b39fc17cd6aa7d9db1ef6",
+      "rom_bytes": 16777216,
+      "baseline_rom_sha256": "5ed1b9de0ba4d01dbb99c71e256b6833cd16e06169b7e3eaedcded05dce3e68a",
+      "native_visual_checks": 40,
+      "baseline_checks": 40,
+      "ariane_regressions": 14,
+      "all_passed": true
+    },
+    {
+      "version": "prive",
+      "rom_sha256": "fa4cafd82c666b9ee01644239dea038bea46898dbd38cdcdd94889c023f6ec2b",
+      "rom_bytes": 31742955,
+      "baseline_rom_sha256": "4c3cc08b0662963f418fa3eda9b293d112c4e52b4a72e466b9ec7fb8ad1ec9f8",
+      "native_visual_checks": 40,
+      "baseline_checks": 40,
+      "ariane_regressions": 14,
+      "all_passed": true
+    }
+  ],
+  "memory": {
+    "public": {
+      "ewram_before": 261348,
+      "ewram_after": 261348,
+      "ewram_added": 0,
+      "ewram_free": 796,
+      "iwram_after": 29824
+    },
+    "prive": {
+      "ewram_before": 261348,
+      "ewram_after": 261348,
+      "ewram_added": 0,
+      "ewram_free": 796,
+      "iwram_after": 29888
+    }
+  },
+  "lut_rom_bytes": 65536,
+  "limitations": [
+    "Maritime mist not implemented (Phase B).",
+    "New grandfather story and six replacement quiz questions not implemented (Phase C).",
+    "No full mansion/key/fossil/quiz progression, female full victory or actual League replay in this phase.",
+    "Link rooms, Fly/Teleport/Dig/Escape Rope, all attack-effect palettes and real GBA hardware still require Phase D validation."
+  ]
+}
