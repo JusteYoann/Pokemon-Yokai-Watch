@@ -9,7 +9,7 @@ from mgba_rpc import ROOT
 from mgba_new_game import new_game
 from mafiamille_qa import C
 from pilote_combat_mgba import battle_keys
-Q=ROOT/os.environ.get('YOKAI_SPIRATON_REPORT_DIR','QA_RECETTE_FINALE/DON_SPIRATON');Q.mkdir(parents=True,exist_ok=True);r=new_game();passed=False;rows=[];captures=[];palette_checks={};appearance_seen=False;first_menu_checked=False
+Q=ROOT/os.environ.get('YOKAI_SPIRATON_REPORT_DIR','QA_RECETTE_FINALE/DON_SPIRATON');Q.mkdir(parents=True,exist_ok=True);r=new_game();passed=False;rows=[];captures=[];palette_checks={};normal_palette_checks={};white_effect_seen=set();source_palettes={};appearance_seen=False;first_menu_checked=False
 try:
  # Level65 makes the intermediate-EXP assertion meaningful (level100 cannot gain).
  r.call('CreateMon',r.symbols['gPlayerParty'],1,65,31,1,100,0,0)
@@ -43,6 +43,20 @@ try:
    mon=r.read(r.symbols['gBattleMons']+88,88);species=int.from_bytes(mon[:2],'little');hp=int.from_bytes(mon[40:42],'little');level=mon[42]
    if f%8==0 and species and 56<=level<=63:
     phase=level-56
+    # Compare both hardware palette buffers with the real decompressed species palette.
+    if species not in source_palettes:
+     pointer=r.call('GetMonSpritePalFromSpeciesAndPersonality',species,0x1234,0)
+     r.call('LZDecompressWram',pointer,r.PARAMS+128)
+     source_palettes[species]=r.read(r.PARAMS+128,32)
+    source=source_palettes[species]
+    faded=r.read(r.symbols['gPlttBufferFaded']+544,32)
+    unfaded=r.read(r.symbols['gPlttBufferUnfaded']+544,32)
+    white=struct.pack('<16H',*[(lambda c: sum((((c>>shift)&31)+((31-((c>>shift)&31))*6>>4))<<shift for shift in (0,5,10)))(c) for c in struct.unpack('<16H',source)])
+    if r.u32(r.symbols['gBattleMainFunc'])==(r.symbols['TransformStep']|1) and faded==white:
+     white_effect_seen.add(phase)
+    if r.u32(r.symbols['gBattleMainFunc'])==(r.symbols['TransformStep']|1) and r.read(r.symbols['sStep'],1)==b'\3':
+     assert faded==source and unfaded==source,('Normal species palette not restored',phase,species)
+     normal_palette_checks[phase]=True
     if phase not in palette_checks and hp>0 and r.u32(r.symbols['gBattleMainFunc']) != (r.symbols['TransformStep']|1):
      tags=struct.unpack('<16H',r.read(r.symbols['sSpritePaletteTags'],32))
      if 0x7D53 in tags:
@@ -76,8 +90,10 @@ try:
  assert appearance_seen,'Custom appearance message never rendered'
  assert first_menu_checked,'Initial choice never observed'
  assert len(palette_checks)==8,dict(missing_phase_colors=palette_checks)
+ assert len(normal_palette_checks)==8,dict(missing_normal_palettes=normal_palette_checks)
+ assert len(white_effect_seen)==8,dict(missing_native_white_effect=sorted(white_effect_seen))
  if status_name:assert injected and cure_seen,'Expected native status-removal message'
  if captures:captures[0].save(Q/'PROTOTYPE_COMBAT.gif',save_all=True,append_images=captures[1:],duration=533,loop=0)
 finally:
- r.close();(Q/'COMBAT_PROTOTYPE_MGBA.json').write_text(json.dumps(dict(passed=passed,scope=__doc__,rom_sha256=hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),forms=rows,production_scene=False,approved_true_form_artwork=False,qa_player_initial_level=65,intermediate_exp_checked_below_level_cap=True,approved_hp_colors=True,layer_palette_checks=palette_checks,appearance_message_seen=appearance_seen,first_transform_waits_for_player_choice=first_menu_checked,trainer_capture_run_protection_retained=True,status_fixture=status_name,status_removal_message_seen=cure_seen if status_name else None),indent=2)+'\n')
+ r.close();(Q/'COMBAT_PROTOTYPE_MGBA.json').write_text(json.dumps(dict(passed=passed,scope=__doc__,rom_sha256=hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),forms=rows,production_scene=False,approved_true_form_artwork=False,qa_player_initial_level=65,intermediate_exp_checked_below_level_cap=True,approved_hp_colors=True,layer_palette_checks=palette_checks,normal_species_palette_restored_checks=normal_palette_checks,native_white_transition_seen_phases=sorted(white_effect_seen),appearance_message_seen=appearance_seen,first_transform_waits_for_player_choice=first_menu_checked,trainer_capture_run_protection_retained=True,status_fixture=status_name,status_removal_message_seen=cure_seen if status_name else None),indent=2)+'\n')
 print('PASS isolated native eight-form battle; production/artistic validation remains pending')

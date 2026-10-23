@@ -9,6 +9,7 @@
 #include "battle_interface.h"
 #include "battle_anim.h"
 #include "pokemon.h"
+#include "decompress.h"
 #include "string_util.h"
 #include "spiraton_core.h"
 #include "spiraton_config.h"
@@ -177,6 +178,9 @@ static void TransformStep(void)
     }
     if (sStep == 2)
     {
+        // Morphing keeps a white-tinted palette; restore only this boss once its animation ends.
+        LoadCompressedPalette(GetMonSpritePalFromSpeciesAndPersonality(sBoss.form.species,
+            gBattleMons[1].otId, gBattleMons[1].personality), OBJ_PLTT_ID(1), PLTT_SIZE_4BPP);
         UpdateHealthboxAttribute(gHealthboxSpriteIds[1], &gEnemyParty[gBattlerPartyIndexes[1]], HEALTHBOX_ALL);
         PREPARE_SPECIES_BUFFER(gBattleTextBuff1, sBoss.form.species);
         PrepareStringBattle(STRINGID_SPIRATON_TRANSFORM, 1);

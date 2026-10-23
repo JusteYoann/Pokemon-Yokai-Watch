@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "base": "b3396ac9f",
+  "protected_paths": [
+    "graphics",
+    "src/data/pokemon",
+    "data/maps",
+    "data/scripts",
+    "src/battle_main.c",
+    "src/spiraton_core.c",
+    "src/data/trainers.h",
+    "src/data/trainer_parties.h",
+    "src/pokemon.c",
+    "src/data/yokai_mixer_gains.h",
+    "data/yokai/audio_loops.json"
+  ],
+  "maps_sprites_gameplay_existing_audio_unchanged": true,
+  "all31_waveforms_and_gains_identical": true,
+  "source_v2_byte_identical": true,
+  "public_bytes": 16777216,
+  "private_bytes": 31658511,
+  "private_headroom": 1895921,
+  "public_sha256": "006acc4c1fa5a15dbc1917f0dbb36d4157e06d28f1977056904f11852e9552b3",
+  "private_sha256": "66ed242a952bbef4c1191ad2b94e65674d91e76e753b550c2d4197a2a068d68e",
+  "ewram_static_bytes": 261124,
+  "iwram_bytes": 29888
+}

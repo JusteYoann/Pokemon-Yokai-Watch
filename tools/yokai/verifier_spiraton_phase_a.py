@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Read-only preservation audit for the isolated stage-A art preview."""
 from pathlib import Path
-import hashlib,json,subprocess
+import hashlib,json,subprocess,os
 from mgba_rpc import ROOT as R
-Q=R/'QA_RECETTE_FINALE/DON_SPIRATON/PHASE_A';base='b3396ac9f'
+Q=R/os.environ.get('YOKAI_SPIRATON_PRESERVATION_DIR','QA_RECETTE_FINALE/DON_SPIRATON/PHASE_A');Q.mkdir(parents=True,exist_ok=True);base='b3396ac9f'
 protected=['graphics','src/data/pokemon','data/maps','data/scripts','src/battle_main.c','src/spiraton_core.c','src/data/trainers.h','src/data/trainer_parties.h','src/pokemon.c','src/data/yokai_mixer_gains.h','data/yokai/audio_loops.json']
 subprocess.run(['git','diff','--exit-code',base,'--',*protected],cwd=R,check=True,stdout=subprocess.DEVNULL)
-# User-approved compact HUD label; permit only these exact display changes.
+# User-approved HUD label and post-Morphing palette restore; permit only these exact changes.
 for path in ['src/battle_interface.c','src/spiraton_battle.c']:
  previous=subprocess.check_output(['git','show','9bfc27089:'+path],cwd=R,text=True)
  current=(R/path).read_text()
@@ -14,6 +14,8 @@ for path in ['src/battle_interface.c','src/spiraton_battle.c']:
   current=current.replace('? gSpiratonHealthboxName : nickname','? gSpiratonBattleName : nickname')
  else:
   current=current.replace('const u8 gSpiratonHealthboxName[] = _("D. SPIRATION");\n','')
+  current=current.replace('#include "decompress.h"\n','')
+  current=current.replace('        // Morphing keeps a white-tinted palette; restore only this boss once its animation ends.\n        LoadCompressedPalette(GetMonSpritePalFromSpeciesAndPersonality(sBoss.form.species,\n            gBattleMons[1].otId, gBattleMons[1].personality), OBJ_PLTT_ID(1), PLTT_SIZE_4BPP);\n','')
  assert current==previous,path
 old=R.parent/'Pokemon-Yokai-Watch-argenta'
 def sym(root):
