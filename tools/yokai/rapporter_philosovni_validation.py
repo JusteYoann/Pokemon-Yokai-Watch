@@ -28,13 +28,13 @@ La conversation des sbires révèle seulement le nom de la Pierre, sa récupéra
 
 ## Combat et progression
 
-Le duo utilise quatre vrais combattants : le joueur et Usapion21 contrôlé par Ariane, contre Ralbouc18 et Potofeu19, un par sbire. Les six membres du joueur sont disponibles, y compris le sixième en remplacement volontaire. Une adaptation isolée du double local ajoute100 octets RAM pour le partenaire temporaire ; elle ne transforme pas le multi en liaison en système IA. Les deux sbires utilisent un enregistrement de paire dédié, sans réserves. Les doubles ordinaires gardent leurs deux commandes humaines.
+Le duo utilise quatre vrais combattants : le joueur et Usapion 21 contrôlé par Ariane, contre Ralbouc 18 et Potofeu 19, un par sbire. Les six membres du joueur sont disponibles, y compris le sixième en remplacement volontaire. Une adaptation isolée du double local ajoute 100 octets RAM pour le partenaire temporaire ; elle ne transforme pas le multi en liaison en système IA. Les deux sbires utilisent un enregistrement de paire dédié, sans réserves. Les doubles ordinaires gardent leurs deux commandes humaines.
 
 La fuite et la capture sont refusées par les règles Dresseur natives. Usapion choisit une attaque valide, vise les adversaires, consomme ses PP et peut tomber K.O. sans emprunter un membre du joueur. Il n'est jamais sauvegardé dans l'équipe. Une défaite soigne le joueur et permet de recommencer, sans victoire enregistrée.
 
 Après victoire, les sbires fuient ; la Pierre a déjà quitté Carmin. Ariane remet Coupe, une seule fois, puis retrouve son Arène. Un sac plein laisse la récompense en attente, y compris après Save/Continue. Une ancienne sauvegarde possédant déjà la CS n'en reçoit pas une seconde. Si Usapion gagne alors que toute l'équipe du joueur est K.O., celle-ci est soignée avant le retour sur carte.
 
-Le capitaine soigne toujours son mal de mer et conserve la logique de départ de l'Océane, mais ne remet plus Coupe. La récompense d'Ariane ne déclenche pas le départ du navire. Navétéran reste un Yo-kai sauvage20 rencontrable et capturable dans le couloir du navire. Coupe reste soumise au **Badge Cascade**, règle native conservée. L'énigme des interrupteurs, les Dresseurs, le Badge Foudre, la CT et l'équipe validée d'Ariane restent intacts.
+Le capitaine soigne toujours son mal de mer et conserve la logique de départ de l'Océane, mais ne remet plus Coupe. La récompense d'Ariane ne déclenche pas le départ du navire. Navétéran reste un Yo-kai sauvage 20 rencontrable et capturable dans le couloir du navire. Coupe reste soumise au **Badge Cascade**, règle native conservée. L'énigme des interrupteurs, les Dresseurs, le Badge Foudre, la CT et l'équipe validée d'Ariane restent intacts.
 
 ## Captures mGBA
 
@@ -42,7 +42,7 @@ Le capitaine soigne toujours son mal de mer et conserve la logique de départ de
 
 [GIF de la rencontre](validation/public/ariane-rencontre.gif) · [Conversation de l'entrepôt](validation/public/entrepot-revelation.gif) · [Combat et victoire](validation/public/combat-duo-victoire.gif) · [Défaite réelle](validation/public/combat-duo-defaite.gif).
 
-Les PNG natifs mesurent240×160 ; les agrandissements et GIF utilisent le plus proche voisin. La capture rapprochée de la CS rejoue la récompense en attente (état2 fourni comme fixture) ; le test complet obtient auparavant la victoire réelle.
+Les PNG natifs mesurent 240 × 160 ; les agrandissements et GIF utilisent le plus proche voisin. La capture rapprochée de la CS rejoue la récompense en attente (état 2 fourni comme fixture) ; le test complet obtient auparavant la victoire réelle.
 
 ## Validation des deux versions finales
 
@@ -51,25 +51,25 @@ Les PNG natifs mesurent240×160 ; les agrandissements et GIF utilisent le plus p
 | Chapitre, marche native, dialogue, victoire/défaite/reprise, sauvegardes, Océane, retour à l'Arène |21 contrôles |21 contrôles |
 | Ancien map-view Flash, refus fuite/capture, sixième membre, K.O., sac plein, Coupe et double ordinaire |11 contrôles |11 contrôles |
 | Mesure des textes par la police GBA |192 lignes, aucun dépassement |192 lignes, aucun dépassement |
-| Navétéran20 : rencontre, capture Master Ball réelle et retour sur carte |Réussi |Réussi |
+| Navétéran 20 : rencontre, capture Master Ball réelle et retour sur carte |Réussi |Réussi |
 | Champions : dix victoires natives, huit badges et variantes garçon/fille |Réussi |Réussi |
 | Lavanville et progression Mafiamille associée |28 scénarios |28 scénarios |
-| Discours d'Argenta depuis l'entrée nord20 |Réussi |Réussi |
+| Discours d'Argenta depuis l'entrée nord 20 |Réussi |Réussi |
 | Lance, finale normale Morléone/Spiraton, huit formes, Panthéon, crédits, Save/Continue |Réussi |Réussi |
 
 [Rapport et empreintes des ROM](validation/VALIDATION.json) · [Préservation binaire](validation/PRESERVATION.json) · [Compilation publique](validation/COMPILATION-public.txt) · [Compilation privée](validation/COMPILATION-prive.txt).
 
-Les rapports détaillés restent dans [public](validation/public) et [prive](validation/prive), avec l'empreinte de leur ROM. Les fixtures placent le joueur sur les cartes, configurent son équipe de test ou les cas limites explicités. Les ennemis, leurs PV et les issues des combats ne sont pas modifiés pour obtenir une réussite. Le cas sac plein remplit artificiellement les58 emplacements CT/CS, situation de robustesse distincte d'un inventaire normal.
+Les rapports détaillés restent dans [public](validation/public) et [prive](validation/prive), avec l'empreinte de leur ROM. Les fixtures placent le joueur sur les cartes, configurent son équipe de test ou les cas limites explicités. Les ennemis, leurs PV et les issues des combats ne sont pas modifiés pour obtenir une réussite. Le cas sac plein remplit artificiellement les 58 emplacements CT/CS, situation de robustesse distincte d'un inventaire normal.
 
 ## Ressources et contraintes techniques
 
-Les5821 PNG/palettes préexistants sont conservés (comparaison des fins de ligne normalisées pour les palettes). Les151 fiches, évolutions, types et statistiques, tous les anciens enregistrements Dresseur et les31 flux audio privés restent identiques. La finale et les événements protégés de Lavanville, Koga, Mafiamille et des apparitions secondaires sont conservés. Aucune musique protégée ni ROM n'est publiée ici.
+Les 5821 PNG/palettes préexistants sont conservés (comparaison des fins de ligne normalisées pour les palettes). Les 151 fiches, évolutions, types et statistiques, tous les anciens enregistrements Dresseur et les 31 flux audio privés restent identiques. La finale et les événements protégés de Lavanville, Koga, Mafiamille et des apparitions secondaires sont conservés. Aucune musique protégée ni ROM n'est publiée ici.
 
-Le nouveau décor assemble des tuiles existantes : cabane sur le quai, passage de trois tuiles dans la clôture et intérieur14×12 avec éléments du tileset SilphCo. Le chargement réapplique uniquement les19 nouvelles tuiles du quai après restauration du map-view d'une ancienne sauvegarde ; les identifiants des cartes/layouts historiques restent inchangés.
+Le nouveau décor assemble des tuiles existantes : cabane sur le quai, passage de trois tuiles dans la clôture et intérieur 14 × 12 avec éléments du tileset SilphCo. Le chargement réapplique uniquement les 19 nouvelles tuiles du quai après restauration du map-view d'une ancienne sauvegarde ; les identifiants des cartes/layouts historiques restent inchangés.
 
 Ariane et Usapion réutilisent leurs poses validées. Les rendez-vous et changements de carte remplacent un suivi animé continu ; aucun cycle de marche nouveau n'est inventé. Aucun portrait de dos d'Ariane n'étant validé, l'introduction montre le dos du joueur, les deux sbires puis les quatre Yo-kai, avec attribution explicite d'Usapion à Ariane. Le combat ne comprend pas de réserve pour Ariane ni pour les sbires. L'IA du partenaire privilégie la puissance des capacités valides ; elle n'est pas une IA de stratégie avancée.
 
-ROM publique :16 777 216 octets. ROM privée :31 675 163 octets, sous32 Mio. EWRAM :261 232 octets, **912 octets libres**. IWRAM :29 824 publique /29 888 privée. Les contrôles fonctionnels utilisent notamment une équipe QA renforcée ; ils ne constituent pas une traversée complète de Kanto avec une équipe normale ni une validation exhaustive de l'équilibrage. Les31 OST sont vérifiées par leurs données binaires, sans nouvelle certification d'écoute ou de boucle audio.
+ROM publique : 16 777 216 octets. ROM privée : 31 675 163 octets, sous 32 Mio. EWRAM : 261 232 octets, **912 octets libres**. IWRAM : 29 824 publique / 29 888 privée. Les contrôles fonctionnels utilisent notamment une équipe QA renforcée ; ils ne constituent pas une traversée complète de Kanto avec une équipe normale ni une validation exhaustive de l'équilibrage. Les 31 OST sont vérifiées par leurs données binaires, sans nouvelle certification d'écoute ou de boucle audio.
 
 [Audit et solution retenue](AUDIT.md) · [Dialogues définitifs](DIALOGUES.md) · [Équipes](EQUIPES.md) · [Fichiers modifiés](FICHIERS_MODIFIES.txt).
 ''')
