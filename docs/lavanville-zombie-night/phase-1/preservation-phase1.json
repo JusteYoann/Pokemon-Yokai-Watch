@@ -1,0 +1,8 @@
+{
+  "base": "49535014b9c5fd6add06464fb32f9ea85ca69078",
+  "branch": "feature/lavanville-zombie-night",
+  "source_tree_sha256": "29997f54957968814e2b28b9292ed5513886ef600a6d3ef6eb2faf77a1a9b9dd",
+  "method": "git ls-tree -r HEAD src include data graphics sound asm; verify no diff under these paths",
+  "modified_game_files": [],
+  "no_new_rom_built": true
+}

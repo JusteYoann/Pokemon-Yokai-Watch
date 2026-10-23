@@ -1,0 +1,19 @@
+{
+  "engine": "mGBA libretro",
+  "rom_sha256": "af807f4b8e2b6f7367208c1b25355a93b90b9937241295dd23e34b382df906cf",
+  "rom_bytes": 31658395,
+  "fog_sprites": 20,
+  "fog_obj_tiles_bytes": 2048,
+  "weather_palette_bank": 12,
+  "animated_fog": true,
+  "route8_pixel_identical_to_control": false,
+  "route8_bg_palette_identical_to_control": true,
+  "weather_after_exit": 2,
+  "scope": "Native weather and palette RAM fixture, no installed chapter, no audio modification, no saved progression. Battle screenshot is unchanged ordinary battle context only.",
+  "limitations": [
+    "No first-entry script or patrol implemented",
+    "No public/private chapter build tested",
+    "Manual RAM palette tint does not prove production fade/menu/reload hooks",
+    "Route8 comparison includes possible NPC animation differences"
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "Zombigo T": [
+    {
+      "species_id": 41,
+      "species": "SPECIES_ZUBAT",
+      "name": "Brumette",
+      "level": 22,
+      "types": [
+        "GHOST",
+        "GHOST"
+      ],
+      "moves": [
+        "MOVE_DISABLE",
+        "MOVE_NIGHT_SHADE",
+        "MOVE_SPITE",
+        "MOVE_CONFUSE_RAY"
+      ],
+      "move_labels": [
+        "Entrave",
+        "Ombre Nocturne",
+        "Dépit",
+        "Onde Folie"
+      ],
+      "source_learnset": "sYokai041LevelUpLearnset"
+    },
+    {
+      "species_id": 57,
+      "species": "SPECIES_PRIMEAPE",
+      "name": "Couchtar",
+      "level": 23,
+      "types": [
+        "DARK",
+        "FLYING"
+      ],
+      "moves": [
+        "MOVE_SAND_ATTACK",
+        "MOVE_PURSUIT",
+        "MOVE_BITE",
+        "MOVE_WING_ATTACK"
+      ],
+      "move_labels": [
+        "Jet de Sable",
+        "Poursuite",
+        "Morsure",
+        "Cru-Aile"
+      ],
+      "source_learnset": "sYokai057LevelUpLearnset"
+    }
+  ],
+  "Clochemar": [
+    {
+      "species_id": 39,
+      "species": "SPECIES_JIGGLYPUFF",
+      "name": "Sabri",
+      "level": 24,
+      "types": [
+        "DARK",
+        "FIGHTING"
+      ],
+      "moves": [
+        "MOVE_PURSUIT",
+        "MOVE_FAINT_ATTACK",
+        "MOVE_BITE",
+        "MOVE_TAUNT"
+      ],
+      "move_labels": [
+        "Poursuite",
+        "Feinte",
+        "Morsure",
+        "Provoc"
+      ],
+      "source_learnset": "sYokai039LevelUpLearnset"
+    },
+    {
+      "species_id": 99,
+      "species": "SPECIES_KINGLER",
+      "name": "Coach Antonic",
+      "level": 25,
+      "types": [
+        "FIGHTING",
+        "FIGHTING"
+      ],
+      "moves": [
+        "MOVE_FOCUS_ENERGY",
+        "MOVE_KARATE_CHOP",
+        "MOVE_LOW_KICK",
+        "MOVE_MACH_PUNCH"
+      ],
+      "move_labels": [
+        "Puissance",
+        "Poing-Karaté",
+        "Balayage",
+        "Mach Punch"
+      ],
+      "source_learnset": "sYokai099LevelUpLearnset"
+    }
+  ],
+  "Supermanager": [
+    {
+      "species_id": 49,
+      "species": "SPECIES_VENOMOTH",
+      "name": "Baku",
+      "level": 24,
+      "types": [
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "moves": [
+        "MOVE_CONFUSION",
+        "MOVE_YAWN",
+        "MOVE_PSYBEAM",
+        "MOVE_DISABLE"
+      ],
+      "move_labels": [
+        "Choc Mental",
+        "Baillement",
+        "Rafale Psy",
+        "Entrave"
+      ],
+      "source_learnset": "sYokai049LevelUpLearnset"
+    },
+    {
+      "species_id": 121,
+      "species": "SPECIES_STARMIE",
+      "name": "Moufpète",
+      "level": 25,
+      "types": [
+        "POISON",
+        "POISON"
+      ],
+      "moves": [
+        "MOVE_POISON_GAS",
+        "MOVE_SMOG",
+        "MOVE_ACID",
+        "MOVE_SCREECH"
+      ],
+      "move_labels": [
+        "Gaz Toxik",
+        "Purédpois",
+        "Acide",
+        "Grincement"
+      ],
+      "source_learnset": "sYokai121LevelUpLearnset"
+    },
+    {
+      "species_id": 32,
+      "species": "SPECIES_NIDORAN_M",
+      "name": "Potofeu",
+      "level": 25,
+      "types": [
+        "GHOST",
+        "GHOST"
+      ],
+      "moves": [
+        "MOVE_CONFUSE_RAY",
+        "MOVE_DISABLE",
+        "MOVE_NIGHT_SHADE",
+        "MOVE_SPITE"
+      ],
+      "move_labels": [
+        "Onde Folie",
+        "Entrave",
+        "Ombre Nocturne",
+        "Dépit"
+      ],
+      "source_learnset": "sYokai032LevelUpLearnset"
+    }
+  ],
+  "Zomgralos": [
+    {
+      "species_id": 40,
+      "species": "SPECIES_WIGGLYTUFF",
+      "name": "Démophage",
+      "level": 26,
+      "types": [
+        "FIGHTING",
+        "FIGHTING"
+      ],
+      "moves": [
+        "MOVE_FOCUS_ENERGY",
+        "MOVE_KARATE_CHOP",
+        "MOVE_MACH_PUNCH",
+        "MOVE_BULK_UP"
+      ],
+      "move_labels": [
+        "Puissance",
+        "Poing-Karaté",
+        "Mach Punch",
+        "Gonflette"
+      ],
+      "source_learnset": "sYokai040LevelUpLearnset"
+    },
+    {
+      "species_id": 59,
+      "species": "SPECIES_ARCANINE",
+      "name": "Fouétar",
+      "level": 27,
+      "types": [
+        "FIGHTING",
+        "DARK"
+      ],
+      "moves": [
+        "MOVE_REVENGE",
+        "MOVE_BITE",
+        "MOVE_MACH_PUNCH",
+        "MOVE_BRICK_BREAK"
+      ],
+      "move_labels": [
+        "Vengeance",
+        "Morsure",
+        "Mach Punch",
+        "Casse-Brique"
+      ],
+      "source_learnset": "sYokai059LevelUpLearnset"
+    }
+  ],
+  "King Deadward": [
+    {
+      "species_id": 70,
+      "species": "SPECIES_WEEPINBELL",
+      "name": "Sorcophage",
+      "level": 27,
+      "types": [
+        "GHOST",
+        "GHOST"
+      ],
+      "moves": [
+        "MOVE_LICK",
+        "MOVE_MEAN_LOOK",
+        "MOVE_ROCK_TOMB",
+        "MOVE_CURSE"
+      ],
+      "move_labels": [
+        "Léchouille",
+        "Regard Noir",
+        "Tomberoche",
+        "Malédiction"
+      ],
+      "source_learnset": "sYokai070LevelUpLearnset"
+    },
+    {
+      "species_id": 115,
+      "species": "SPECIES_KANGASKHAN",
+      "name": "Tristos",
+      "level": 28,
+      "types": [
+        "GHOST",
+        "GHOST"
+      ],
+      "moves": [
+        "MOVE_FAKE_TEARS",
+        "MOVE_CONFUSE_RAY",
+        "MOVE_NIGHT_SHADE",
+        "MOVE_SPITE"
+      ],
+      "move_labels": [
+        "Croco Larme",
+        "Onde Folie",
+        "Ombre Nocturne",
+        "Dépit"
+      ],
+      "source_learnset": "sYokai115LevelUpLearnset"
+    },
+    {
+      "species_id": 43,
+      "species": "SPECIES_ODDISH",
+      "name": "Télémir",
+      "level": 28,
+      "types": [
+        "GHOST",
+        "GHOST"
+      ],
+      "moves": [
+        "MOVE_LICK",
+        "MOVE_HYPNOSIS",
+        "MOVE_SPITE",
+        "MOVE_NIGHT_SHADE"
+      ],
+      "move_labels": [
+        "Léchouille",
+        "Hypnose",
+        "Dépit",
+        "Ombre Nocturne"
+      ],
+      "source_learnset": "sYokai043LevelUpLearnset"
+    }
+  ],
+  "Encore Dead": [
+    {
+      "species_id": 32,
+      "species": "SPECIES_NIDORAN_M",
+      "name": "Potofeu",
+      "level": 28,
+      "types": [
+        "GHOST",
+        "GHOST"
+      ],
+      "moves": [
+        "MOVE_DISABLE",
+        "MOVE_NIGHT_SHADE",
+        "MOVE_SPITE",
+        "MOVE_CURSE"
+      ],
+      "move_labels": [
+        "Entrave",
+        "Ombre Nocturne",
+        "Dépit",
+        "Malédiction"
+      ],
+      "source_learnset": "sYokai032LevelUpLearnset"
+    },
+    {
+      "species_id": 41,
+      "species": "SPECIES_ZUBAT",
+      "name": "Brumette",
+      "level": 28,
+      "types": [
+        "GHOST",
+        "GHOST"
+      ],
+      "moves": [
+        "MOVE_NIGHT_SHADE",
+        "MOVE_SPITE",
+        "MOVE_CONFUSE_RAY",
+        "MOVE_WILL_O_WISP"
+      ],
+      "move_labels": [
+        "Ombre Nocturne",
+        "Dépit",
+        "Onde Folie",
+        "Feu Follet"
+      ],
+      "source_learnset": "sYokai041LevelUpLearnset"
+    },
+    {
+      "species_id": 124,
+      "species": "SPECIES_JYNX",
+      "name": "Chaipo",
+      "level": 29,
+      "types": [
+        "GHOST",
+        "GHOST"
+      ],
+      "moves": [
+        "MOVE_SPITE",
+        "MOVE_CONFUSE_RAY",
+        "MOVE_NIGHT_SHADE",
+        "MOVE_CURSE"
+      ],
+      "move_labels": [
+        "Dépit",
+        "Onde Folie",
+        "Ombre Nocturne",
+        "Malédiction"
+      ],
+      "source_learnset": "sYokai124LevelUpLearnset"
+    }
+  ],
+  "Alyzon A — spectres accessibles": [
+    {
+      "species_id": 41,
+      "species": "SPECIES_ZUBAT",
+      "name": "Brumette",
+      "level": 25,
+      "types": [
+        "GHOST",
+        "GHOST"
+      ],
+      "moves": [
+        "MOVE_DISABLE",
+        "MOVE_NIGHT_SHADE",
+        "MOVE_SPITE",
+        "MOVE_CONFUSE_RAY"
+      ],
+      "move_labels": [
+        "Entrave",
+        "Ombre Nocturne",
+        "Dépit",
+        "Onde Folie"
+      ],
+      "source_learnset": "sYokai041LevelUpLearnset"
+    },
+    {
+      "species_id": 32,
+      "species": "SPECIES_NIDORAN_M",
+      "name": "Potofeu",
+      "level": 26,
+      "types": [
+        "GHOST",
+        "GHOST"
+      ],
+      "moves": [
+        "MOVE_CONFUSE_RAY",
+        "MOVE_DISABLE",
+        "MOVE_NIGHT_SHADE",
+        "MOVE_SPITE"
+      ],
+      "move_labels": [
+        "Onde Folie",
+        "Entrave",
+        "Ombre Nocturne",
+        "Dépit"
+      ],
+      "source_learnset": "sYokai032LevelUpLearnset"
+    },
+    {
+      "species_id": 49,
+      "species": "SPECIES_VENOMOTH",
+      "name": "Baku",
+      "level": 27,
+      "types": [
+        "PSYCHIC",
+        "PSYCHIC"
+      ],
+      "moves": [
+        "MOVE_CONFUSION",
+        "MOVE_YAWN",
+        "MOVE_PSYBEAM",
+        "MOVE_DISABLE"
+      ],
+      "move_labels": [
+        "Choc Mental",
+        "Baillement",
+        "Rafale Psy",
+        "Entrave"
+      ],
+      "source_learnset": "sYokai049LevelUpLearnset"
+    },
+    {
+      "species_id": 115,
+      "species": "SPECIES_KANGASKHAN",
+      "name": "Tristos",
+      "level": 28,
+      "types": [
+        "GHOST",
+        "GHOST"
+      ],
+      "moves": [
+        "MOVE_FAKE_TEARS",
+        "MOVE_CONFUSE_RAY",
+        "MOVE_NIGHT_SHADE",
+        "MOVE_SPITE"
+      ],
+      "move_labels": [
+        "Croco Larme",
+        "Onde Folie",
+        "Ombre Nocturne",
+        "Dépit"
+      ],
+      "source_learnset": "sYokai115LevelUpLearnset"
+    }
+  ],
+  "Alyzon B — variété de la nuit": [
+    {
+      "species_id": 43,
+      "species": "SPECIES_ODDISH",
+      "name": "Télémir",
+      "level": 25,
+      "types": [
+        "GHOST",
+        "GHOST"
+      ],
+      "moves": [
+        "MOVE_CONFUSE_RAY",
+        "MOVE_LICK",
+        "MOVE_HYPNOSIS",
+        "MOVE_SPITE"
+      ],
+      "move_labels": [
+        "Onde Folie",
+        "Léchouille",
+        "Hypnose",
+        "Dépit"
+      ],
+      "source_learnset": "sYokai043LevelUpLearnset"
+    },
+    {
+      "species_id": 45,
+      "species": "SPECIES_VILEPLUME",
+      "name": "Nihilistik",
+      "level": 26,
+      "types": [
+        "BUG",
+        "POISON"
+      ],
+      "moves": [
+        "MOVE_LEECH_LIFE",
+        "MOVE_FURY_CUTTER",
+        "MOVE_SCREECH",
+        "MOVE_PIN_MISSILE"
+      ],
+      "move_labels": [
+        "Vampirisme",
+        "Taillade",
+        "Grincement",
+        "Dard-Nuée"
+      ],
+      "source_learnset": "sYokai045LevelUpLearnset"
+    },
+    {
+      "species_id": 57,
+      "species": "SPECIES_PRIMEAPE",
+      "name": "Couchtar",
+      "level": 27,
+      "types": [
+        "DARK",
+        "FLYING"
+      ],
+      "moves": [
+        "MOVE_PURSUIT",
+        "MOVE_BITE",
+        "MOVE_WING_ATTACK",
+        "MOVE_CONFUSE_RAY"
+      ],
+      "move_labels": [
+        "Poursuite",
+        "Morsure",
+        "Cru-Aile",
+        "Onde Folie"
+      ],
+      "source_learnset": "sYokai057LevelUpLearnset"
+    },
+    {
+      "species_id": 124,
+      "species": "SPECIES_JYNX",
+      "name": "Chaipo",
+      "level": 28,
+      "types": [
+        "GHOST",
+        "GHOST"
+      ],
+      "moves": [
+        "MOVE_SPITE",
+        "MOVE_CONFUSE_RAY",
+        "MOVE_NIGHT_SHADE",
+        "MOVE_CURSE"
+      ],
+      "move_labels": [
+        "Dépit",
+        "Onde Folie",
+        "Ombre Nocturne",
+        "Malédiction"
+      ],
+      "source_learnset": "sYokai124LevelUpLearnset"
+    }
+  ]
+}
