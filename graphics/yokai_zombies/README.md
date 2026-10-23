@@ -1,24 +1,21 @@
-# Zombies errants — ressources graphiques
+# Zombies — ressources validées et intégrées
 
-## Overworld validé comme direction
+Le chapitre actif est documenté dans [la finalisation de Lavanville](../../docs/lavanville-zombie-night/finalisation/README.md). Les anciens prototypes restent archivés dans `docs/lavanville-zombie-night/phase-1/`.
 
-`errant/front-grid.json` et `errant/front.png` : transcription de la grille du créateur, silhouette 14 × 20 dans une cellule 32 × 32. Ces fichiers n'ont pas été modifiés lors de la création des sprites de combat. Les orientations/marches restent à produire ; aucune variante overworld supplémentaire n'est implicitement validée par les images de combat.
+## Carte
 
-## Quatre fronts de combat créés
+`errant/overworld.png` est la planche de marche existante validée : neuf cellules 32 × 32, silhouette de 14 × 20 pixels, contours noirs conservés. Les trois poses droites sont produites par le miroir natif des trois poses gauches. La face, le dos et leurs deux pas sont présents.
 
-Chaque dossier `errant`, `sprinteur`, `colosse`, `spectral` contient :
+Aucun PNG n'est redessiné, redimensionné ou recolorié pendant l'intégration. `overworld.pal` transcrit seulement les seize entrées de la palette existante. Identifiant `OBJ_EVENT_GFX_LAVENDER_ZOMBIE` = **174**, palette **0x112C**, banque OBJ **8** (ancienne banque de reflet du troisième PNJ). Alyzon reste en banque 7 ; Nathan0, Matt6 et Don10 ne sont pas modifiés. Les scènes du chapitre réservent ces banques de reflet ; une future scène avec des reflets d'eau concurrents devra prévoir sa propre répartition.
 
-- `battle-front.png` : PNG indexé transparent, 64 × 64, au plus 15 couleurs opaques compatibles RGB555.
-- `battle-front.4bpp` : tuiles GBA, 2 048 octets.
-- `battle-front.gbapal` : palette GBA, 32 octets, index 0 transparent.
-- `battle-front-x6.png` : agrandissement nearest-neighbor pour examiner les détails.
+Tous les zombies de la Tour utilisent exactement cette même planche, sans nouvelle variante graphique de carte. Les membres calmes des services utilisent aussi ce graphisme, en conservant leurs fonctions de soin, boutique et changement de surnom.
 
-Direction : mêmes critères d'échelle, contour, ombrage et palette que les sprites de combat des 151 Yo-kai. Références stylistiques examinées : Jibanyan, Brumette, Slurpent, Tristos, Toumou, Sorcophage. Identité zombie issue du sprite overworld approuvé et de l'artwork Zombifdge fourni par le créateur : peau verte tachetée, orbites sombres, yeux rouges et flamme rose. Les quatre poses distinguent lenteur, course, puissance et flottement.
+## Combat
 
-Les concepts ont été générés puis préparés en sprites indexés à résolution GBA. Extraction des quatre silhouettes par composantes alpha, sans contamination entre colonnes ; échantillonnage nearest-neighbor, palette limitée sans dithering, source conservée dans `sources/quatre-zombies-combat-source.png`. Ce procédé n'est pas présenté comme un dessin manuel initial sur grille 64 × 64. La validation artistique définitive du créateur reste à obtenir.
+Les quatre `battle-front.png` existants sont conservés octet par octet : errant, sprinteur, colosse et spectral. Ils sont indexés, transparents et de 64 × 64 pixels. Leur présentation reprend les centres et échelles de `battle-presentation.json` à travers les transformations matérielles déjà utilisées pour les Yo-kai ; les images sources ne sont pas rééchantillonnées.
 
-## Vérification réelle mGBA
+Les errants sont des adversaires directs, sans Dresseur ni équipe : un seul combattant est créé par rencontre. Le moteur utilise un gabarit interne existant, avec nom, statistiques et capacités propres à l'instance, et remplace uniquement son apparence pendant ce combat. Aucun des 151 Yo-kai ne change de données, de graphisme ou de table de rencontre. Le gabarit n'est pas enregistré au Médallium par ces combats ; la capture et toutes les sorties de combat prévues par fuite, capacité d'évasion ou objet d'évasion sont interdites.
 
-Captures dans `docs/lavanville-zombie-night/phase-1/prototypes/zombies-combat/`. Les quatre ressources ont été chargées via les fonctions natives de tuiles/palette/OBJ pendant des combats de test. Aucun montage dans ces captures. L'adversaire emploie explicitement une espèce existante comme gabarit temporaire en RAM : aucun des 151 n'est modifié et aucun ID de zombie de production n'est attribué. Noms et niveau 25 sont des éléments de test visuel, pas des données de combat validées. Fuite/capture/AI/EXP/rencontres restent hors du périmètre de ce test.
+Les zombies Dresseurs de la Tour gardent le système de Dresseurs et de flags de victoire natif. Leur portrait réutilise l'image de combat de l'errant (identifiant **161**) ; leurs équipes contiennent des Yo-kai ordinaires capturables ailleurs.
 
-Aucune ROM modifiée ou recompilée, aucune fusion de branche, aucun changement des équipes, statistiques, cartes ou OST.
+Les sources artistiques antérieures restent dans `sources/`. L'historique initial de préparation des images est conservé dans Git ; les vérifications actuelles et les empreintes d'intégrité sont dans `finalisation/AUDIT_STATIQUE.json`.

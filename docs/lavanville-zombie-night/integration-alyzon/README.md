@@ -1,5 +1,7 @@
 # Intégration graphique d'Alyzon Bie
 
+> Étape historique d’enregistrement des graphismes. Le chapitre, les équipes et les cinématiques sont désormais décrits dans [la finalisation](../finalisation/README.md). Les empreintes de ROM ci-dessous restent celles de cet ancien audit.
+
 La planche overworld et le portrait de combat retrouvés sur `codex/reprise-scenario-2026-10-22` sont désormais enregistrés dans le moteur de la branche `feature/lavanville-zombie-night`. Les ressources proviennent du commit source `2647bc1627050f193cc9606f8c0f5f1151986047`. Une correction est appliquée à la seule pose latérale n° 7 : son orientation était opposée à celles des poses 2 et 8, ce qui faisait se retourner Alyzon pendant un pas. Cette pose est retournée horizontalement dans sa boîte occupée, sans déplacer son emplacement, changer sa palette ou redessiner ses pixels. Les huit autres poses et le portrait restent inchangés. Les animations standard du jeu restent intactes.
 
 ## Ressources actives et identifiants

@@ -1,0 +1,46 @@
+{
+  "branch": "feature/lavanville-zombie-night",
+  "base": "7110ce41b",
+  "implementation_commit": "b8e00985ee9bf0a282d918a64f26ee123dad8eec",
+  "roms": {
+    "public": {
+      "bytes": 16777216,
+      "sha256": "8484e38451aa88540cd623f3c19a59164a179aaf08bcf0326076fd35a69cdee3",
+      "remaining_rom_bytes": 16777216,
+      "ewram": 261128,
+      "iwram": 29824,
+      "chapter_checks": 28
+    },
+    "prive": {
+      "bytes": 31671895,
+      "sha256": "b5a6d6769d4d3fe6739ef828cb1c9d1177b8b7c997548af9d4a740564dd72068",
+      "remaining_rom_bytes": 1882537,
+      "ewram": 261128,
+      "iwram": 29888,
+      "chapter_checks": 28
+    }
+  },
+  "static_audit_passed": true,
+  "native_font_lines": {
+    "public": 119,
+    "prive": 119
+  },
+  "protected_branches": {
+    "audio/integration-31-ost": "837bd1757a7c2cdc2d476c3a5eacfd6296177c6a",
+    "feature/mafiamille-kanto": "1bf5774d8e5c0c832e1a377a85afb5ad93b7fc55",
+    "feature/boss-final-don-spiraton": "49535014b9c5fd6add06464fb32f9ea85ca69078"
+  },
+  "all_original_151_data_and_encounters_preserved": true,
+  "all_selected_sprite_pngs_identical": true,
+  "unchanged_audio_streams": 30,
+  "changed_audio_track": 14,
+  "native_patrol_replays_pass": true,
+  "native_finale_eight_forms_hof_continue_pass": true,
+  "limitations": [
+    "Whole-track Zombie Night repetition retains the source fade-out and silence; seamless musical loop and human listening are not validated",
+    "Functional battle scenarios use a boosted QA party; no full normal-difficulty adventure or human balance playtest is claimed",
+    "Map/script entry fixtures are identified in each test; native route replays use controller input without position patches",
+    "Future rematch is condition-only: no rematch team is invented",
+    "No general all-city, all-move or all-menu exhaustive regression is claimed"
+  ]
+}

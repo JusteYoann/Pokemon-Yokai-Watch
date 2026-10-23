@@ -1,0 +1,604 @@
+{
+  "passed": true,
+  "rom_sha256": "b5a6d6769d4d3fe6739ef828cb1c9d1177b8b7c997548af9d4a740564dd72068",
+  "native_font": 2,
+  "limit_pixels": 208,
+  "lines_checked": 119,
+  "lines": [
+    {
+      "file": "data/maps/CeladonCity/text.inc",
+      "label": "CeladonCity_Text_GymSign",
+      "width": 176
+    },
+    {
+      "file": "data/maps/CeladonCity/text.inc",
+      "label": "CeladonCity_Text_GymSign",
+      "width": 156
+    },
+    {
+      "file": "data/maps/CeladonCity/text.inc",
+      "label": "CeladonCity_Text_SomeoneStoleSilphScope",
+      "width": 196
+    },
+    {
+      "file": "data/maps/CeladonCity/text.inc",
+      "label": "CeladonCity_Text_SomeoneStoleSilphScope",
+      "width": 176
+    },
+    {
+      "file": "data/maps/CeladonCity/text.inc",
+      "label": "CeladonCity_Text_SomeoneStoleSilphScope",
+      "width": 171
+    },
+    {
+      "file": "data/maps/CeladonCity/text.inc",
+      "label": "CeladonCity_Text_SomeoneStoleSilphScope",
+      "width": 98
+    },
+    {
+      "file": "data/maps/CeladonCity_Condominiums_3F/text.inc",
+      "label": "CeladonCity_Condominiums_3F_Text_IWroteTheStory",
+      "width": 102
+    },
+    {
+      "file": "data/maps/CeladonCity_Condominiums_3F/text.inc",
+      "label": "CeladonCity_Condominiums_3F_Text_IWroteTheStory",
+      "width": 101
+    },
+    {
+      "file": "data/maps/CeladonCity_Condominiums_3F/text.inc",
+      "label": "CeladonCity_Condominiums_3F_Text_IWroteTheStory",
+      "width": 136
+    },
+    {
+      "file": "data/maps/CeladonCity_Condominiums_3F/text.inc",
+      "label": "CeladonCity_Condominiums_3F_Text_IWroteTheStory",
+      "width": 160
+    },
+    {
+      "file": "data/maps/CeladonCity_GameCorner/scripts.inc",
+      "label": "LavenderHideout_Text_Locked",
+      "width": 170
+    },
+    {
+      "file": "data/maps/CeladonCity_GameCorner/scripts.inc",
+      "label": "LavenderHideout_Text_Locked",
+      "width": 170
+    },
+    {
+      "file": "data/maps/CeladonCity_GameCorner/text.inc",
+      "label": "CeladonCity_GameCorner_Text_GymGuyAdvice",
+      "width": 187
+    },
+    {
+      "file": "data/maps/CeladonCity_GameCorner/text.inc",
+      "label": "CeladonCity_GameCorner_Text_GymGuyAdvice",
+      "width": 205
+    },
+    {
+      "file": "data/maps/CeladonCity_GameCorner/text.inc",
+      "label": "CeladonCity_GameCorner_Text_GymGuyAdvice",
+      "width": 181
+    },
+    {
+      "file": "data/maps/CeladonCity_GameCorner/text.inc",
+      "label": "CeladonCity_GameCorner_Text_GymGuyAdvice",
+      "width": 151
+    },
+    {
+      "file": "data/maps/CeladonCity_Gym/scripts.inc",
+      "label": "LavenderResidence_Text_Matt",
+      "width": 139
+    },
+    {
+      "file": "data/maps/CeladonCity_Gym/scripts.inc",
+      "label": "LavenderResidence_Text_Matt",
+      "width": 168
+    },
+    {
+      "file": "data/maps/CeladonCity_Gym/scripts.inc",
+      "label": "LavenderResidence_Text_Matt",
+      "width": 178
+    },
+    {
+      "file": "data/maps/CeladonCity_Gym/scripts.inc",
+      "label": "LavenderResidence_Text_Matt",
+      "width": 149
+    },
+    {
+      "file": "data/maps/CeladonCity_Gym/scripts.inc",
+      "label": "LavenderResidence_Text_Home",
+      "width": 155
+    },
+    {
+      "file": "data/maps/CeladonCity_Gym/scripts.inc",
+      "label": "LavenderResidence_Text_Home",
+      "width": 132
+    },
+    {
+      "file": "data/maps/CeladonCity_Gym/scripts.inc",
+      "label": "LavenderResidence_Text_Home",
+      "width": 147
+    },
+    {
+      "file": "data/maps/CeladonCity_Gym/scripts.inc",
+      "label": "LavenderResidence_Text_Home",
+      "width": 149
+    },
+    {
+      "file": "data/maps/CeladonCity_Gym/scripts.inc",
+      "label": "LavenderResidence_Text_Later",
+      "width": 151
+    },
+    {
+      "file": "data/maps/CeladonCity_Gym/scripts.inc",
+      "label": "LavenderResidence_Text_Later",
+      "width": 170
+    },
+    {
+      "file": "data/maps/CeladonCity_Gym/scripts.inc",
+      "label": "LavenderResidence_Text_Later",
+      "width": 173
+    },
+    {
+      "file": "data/maps/CeladonCity_Gym/scripts.inc",
+      "label": "LavenderResidence_Text_Later",
+      "width": 162
+    },
+    {
+      "file": "data/maps/CinnabarIsland_PokemonLab_Entrance/text.inc",
+      "label": "CinnabarIsland_Gym_Text_PhotoOfBlaineAndFuji",
+      "width": 183
+    },
+    {
+      "file": "data/maps/CinnabarIsland_PokemonLab_Entrance/text.inc",
+      "label": "CinnabarIsland_Gym_Text_PhotoOfBlaineAndFuji",
+      "width": 139
+    },
+    {
+      "file": "data/maps/CinnabarIsland_PokemonLab_Entrance/text.inc",
+      "label": "CinnabarIsland_PokemonLab_Entrance_Text_PhotoOfLabFounderDrFuji",
+      "width": 193
+    },
+    {
+      "file": "data/maps/CinnabarIsland_PokemonLab_Entrance/text.inc",
+      "label": "CinnabarIsland_PokemonLab_Entrance_Text_PhotoOfLabFounderDrFuji",
+      "width": 207
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderZombie_Text_Home",
+      "width": 107
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderZombie_Text_Home",
+      "width": 127
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderTown_Text_NewSign",
+      "width": 60
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderTown_Text_NewSign",
+      "width": 128
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderTown_Text_NewTower",
+      "width": 120
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderTown_Text_NewTower",
+      "width": 127
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderTown_Text_NewHouse",
+      "width": 115
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderTown_Text_NewHouse",
+      "width": 91
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderIntro_Text_Stop",
+      "width": 171
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderIntro_Text_Stop",
+      "width": 175
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderIntro_Text_Explain",
+      "width": 189
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderIntro_Text_Explain",
+      "width": 154
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderIntro_Text_Explain",
+      "width": 161
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderIntro_Text_Explain",
+      "width": 128
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderIntro_Text_Explain",
+      "width": 144
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderIntro_Text_Explain",
+      "width": 153
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderIntro_Text_Badge",
+      "width": 109
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderIntro_Text_Badge",
+      "width": 163
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderIntro_Text_Badge",
+      "width": 152
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderIntro_Text_Badge",
+      "width": 88
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderIntro_Text_Badge",
+      "width": 163
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderIntro_Text_Badge",
+      "width": 173
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderIntro_Text_Visitor",
+      "width": 174
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderIntro_Text_Visitor",
+      "width": 166
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderIntro_Text_Visitor",
+      "width": 143
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderIntro_Text_Visitor",
+      "width": 193
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderIntro_Text_Visitor",
+      "width": 160
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderIntro_Text_Visitor",
+      "width": 177
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderIntro_Text_GoodLuck",
+      "width": 192
+    },
+    {
+      "file": "data/maps/LavenderTown/scripts.inc",
+      "label": "LavenderIntro_Text_GoodLuck",
+      "width": 151
+    },
+    {
+      "file": "data/maps/PokemonTower_2F/scripts.inc",
+      "label": "LavenderTower_Text_Encounters",
+      "width": 187
+    },
+    {
+      "file": "data/maps/PokemonTower_2F/scripts.inc",
+      "label": "LavenderTower_Text_Encounters",
+      "width": 164
+    },
+    {
+      "file": "data/maps/PokemonTower_2F/scripts.inc",
+      "label": "LavenderTower_Text_Encounters",
+      "width": 155
+    },
+    {
+      "file": "data/maps/PokemonTower_2F/scripts.inc",
+      "label": "LavenderTower_Text_Encounters",
+      "width": 146
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderAlyzon_Text_Intro",
+      "width": 166
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderAlyzon_Text_Intro",
+      "width": 126
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderAlyzon_Text_Intro",
+      "width": 174
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderAlyzon_Text_Intro",
+      "width": 180
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderAlyzon_Text_Intro",
+      "width": 161
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderAlyzon_Text_Intro",
+      "width": 189
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderAlyzon_Text_Defeat",
+      "width": 175
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderAlyzon_Text_Defeat",
+      "width": 163
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderAlyzon_Text_Badge",
+      "width": 155
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderAlyzon_Text_Badge",
+      "width": 158
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderAlyzon_Text_Badge",
+      "width": 152
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderAlyzon_Text_Badge",
+      "width": 132
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderAlyzon_Text_Badge",
+      "width": 173
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderAlyzon_Text_Badge",
+      "width": 171
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderAlyzon_Text_TM",
+      "width": 168
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderAlyzon_Text_TM",
+      "width": 149
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderAlyzon_Text_After",
+      "width": 178
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderAlyzon_Text_After",
+      "width": 177
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderAlyzon_Text_After",
+      "width": 162
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderAlyzon_Text_After",
+      "width": 161
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderAlyzon_Text_NoRoom",
+      "width": 162
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderAlyzon_Text_NoRoom",
+      "width": 171
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderZombie_Text_Challenge",
+      "width": 130
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderZombie_Text_Challenge",
+      "width": 80
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderZombie_Text_Defeat",
+      "width": 103
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderZombie_Text_Calm",
+      "width": 112
+    },
+    {
+      "file": "data/maps/PokemonTower_7F/scripts.inc",
+      "label": "LavenderZombie_Text_Calm",
+      "width": 96
+    },
+    {
+      "file": "data/maps/Route12/text.inc",
+      "label": "Route12_Text_MonSprawledOutInSlumber",
+      "width": 171
+    },
+    {
+      "file": "data/maps/Route12/text.inc",
+      "label": "Route12_Text_MonSprawledOutInSlumber",
+      "width": 148
+    },
+    {
+      "file": "data/maps/Route12/text.inc",
+      "label": "Text_SnorlaxWokeUp",
+      "width": 120
+    },
+    {
+      "file": "data/maps/Route12/text.inc",
+      "label": "Text_SnorlaxWokeUp",
+      "width": 180
+    },
+    {
+      "file": "data/maps/Route12/text.inc",
+      "label": "Text_SnorlaxReturnedToMountains",
+      "width": 105
+    },
+    {
+      "file": "data/maps/Route12/text.inc",
+      "label": "Text_SnorlaxReturnedToMountains",
+      "width": 138
+    },
+    {
+      "file": "data/maps/Route12/text.inc",
+      "label": "Text_WantToUsePokeFlute",
+      "width": 148
+    },
+    {
+      "file": "data/maps/Route12/text.inc",
+      "label": "Text_PlayedPokeFlute",
+      "width": 77
+    },
+    {
+      "file": "data/maps/Route12/text.inc",
+      "label": "Text_PlayedPokeFlute",
+      "width": 77
+    },
+    {
+      "file": "data/maps/Route16/text.inc",
+      "label": "Route16_Text_MonSprawledOutInSlumber",
+      "width": 171
+    },
+    {
+      "file": "data/maps/Route16/text.inc",
+      "label": "Route16_Text_MonSprawledOutInSlumber",
+      "width": 148
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Erika0",
+      "width": 145
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Erika0",
+      "width": 172
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Erika1",
+      "width": 180
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Erika1",
+      "width": 158
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Erika2",
+      "width": 150
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Erika2",
+      "width": 112
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Erika3",
+      "width": 177
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Erika3",
+      "width": 129
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Erika4",
+      "width": 169
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Erika4",
+      "width": 115
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Erika5",
+      "width": 175
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Erika5",
+      "width": 202
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_Erika",
+      "width": 60
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Erika",
+      "width": 189
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Erika",
+      "width": 137
+    }
+  ]
+}

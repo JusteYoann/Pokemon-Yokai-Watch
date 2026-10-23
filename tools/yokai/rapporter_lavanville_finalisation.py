@@ -6,15 +6,17 @@ R=Path(__file__).resolve().parents[2];D=R/'docs/lavanville-zombie-night/finalisa
 def get(file):return json.loads((D/file).read_text())
 audit=get('AUDIT_STATIQUE.json');public=get('public/TEST_MGBA.json');private=get('prive/TEST_MGBA.json');audio=get('prive/AUDIO_MGBA.json');finale=get('regressions/prive/FINALE_NORMALE_MGBA.json');patrols={m:get(m+'/PATROUILLES_MGBA.json') for m in ['public','prive']}
 assert all(x['passed'] for x in [audit,public,private,audio,finale,*patrols.values()])
+fonts={m:get(m+'/DIALOGUES_MGBA.json') for m in ['public','prive']}
 roms={}
 for mode,file in [('public','pokefirered.gba'),('prive','pokefirered_audio.gba')]:
  data=(R/file).read_bytes();sha=hashlib.sha256(data).hexdigest();report=public if mode=='public' else private;assert sha==report['rom_sha256']==patrols[mode]['rom_sha256']
+ assert fonts[mode]['passed'] and sha==fonts[mode]['rom_sha256']
  if mode=='prive':assert sha==audio['rom_sha256']==finale['rom_sha256']
  text=(R/Path(file).with_suffix('.map')).read_text();ew=int(re.search(r'^ewram\s+0x\w+\s+(0x\w+)',text,re.M)[1],16);iw=int(re.search(r'^iwram\s+0x\w+\s+(0x\w+)',text,re.M)[1],16)
  assert len(data)<=33554432 and ew<=262144 and iw<=32768
  roms[mode]=dict(bytes=len(data),sha256=sha,remaining_rom_bytes=33554432-len(data),ewram=ew,iwram=iw,chapter_checks=len(report['results']))
 code_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=R,text=True).strip()
-metadata=dict(branch='feature/lavanville-zombie-night',base='7110ce41b',implementation_commit=code_commit,roms=roms,static_audit_passed=True,protected_branches=audit['protected_branches'],all_original_151_data_and_encounters_preserved=True,all_selected_sprite_pngs_identical=True,unchanged_audio_streams=30,changed_audio_track=14,native_patrol_replays_pass=True,native_finale_eight_forms_hof_continue_pass=True,limitations=['Whole-track Zombie Night repetition retains the source fade-out and silence; seamless musical loop and human listening are not validated','Functional battle scenarios use a boosted QA party; no full normal-difficulty adventure or human balance playtest is claimed','Map/script entry fixtures are identified in each test; native route replays use controller input without position patches','Future rematch is condition-only: no rematch team is invented','No general all-city, all-move or all-menu exhaustive regression is claimed'])
+metadata=dict(branch='feature/lavanville-zombie-night',base='7110ce41b',implementation_commit=code_commit,roms=roms,static_audit_passed=True,native_font_lines={m:fonts[m]['lines_checked'] for m in fonts},protected_branches=audit['protected_branches'],all_original_151_data_and_encounters_preserved=True,all_selected_sprite_pngs_identical=True,unchanged_audio_streams=30,changed_audio_track=14,native_patrol_replays_pass=True,native_finale_eight_forms_hof_continue_pass=True,limitations=['Whole-track Zombie Night repetition retains the source fade-out and silence; seamless musical loop and human listening are not validated','Functional battle scenarios use a boosted QA party; no full normal-difficulty adventure or human balance playtest is claimed','Map/script entry fixtures are identified in each test; native route replays use controller input without position patches','Future rematch is condition-only: no rematch team is invented','No general all-city, all-move or all-menu exhaustive regression is claimed'])
 (D/'VALIDATION.json').write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+'\n')
 def team_line(t):return ' / '.join(f"{m['name']} {m['level']}" for m in t)
 team_rows='\n'.join('| '+k.replace('sYokaiParty_CHANNELER_','').replace('sLavenderSummit','Sommet ')+ ' | '+team_line(t)+' |' for k,t in audit['tower_teams'].items())
@@ -87,7 +89,7 @@ Cette répartition distingue vitesse, résistance et attaque spéciale, sans tou
 
 ## Dialogues définitifs
 
-[Transcription](DIALOGUES.md). Les nouveaux dialogues sont en français, avec pages de deux lignes. Chaque ligne est mesurée par la vraie police GBA : contrôle de208 pixels maximum. Les textes des services et du rival qui ne changent pas de rôle restent ceux du projet.
+[Transcription](DIALOGUES.md). Les nouveaux dialogues sont en français, avec pages de deux lignes. Chaque ligne est mesurée par la vraie police GBA : contrôle de208 pixels maximum. Les119 lignes littérales modifiées sont aussi vérifiées séparément : [publique](public/DIALOGUES_MGBA.json), [privée](prive/DIALOGUES_MGBA.json). Les textes des services et du rival qui ne changent pas de rôle restent ceux du projet.
 
 ## Compilation et mémoire
 
@@ -97,7 +99,7 @@ Cette répartition distingue vitesse, résistance et attaque spéciale, sans tou
 
 Limites : ROM33554432 octets, EWRAM262144, IWRAM32768. Les valeurs EWRAM/IWRAM restent celles de la base. La brume utilise20 sprites météo natifs et2048 octets de tuiles partagées ; les tuiles des quatre combattants sont vérifiées en VRAM. Aucun buffer plein écran supplémentaire. Le petit état d'immunité n'est pas sauvegardé ; le chemin d'introduction libère ses allocations temporaires après usage.
 
-La version privée active bien Zombie Night (Town), identifiant360, emplacement14. Ses blocs audio originaux sont conservés, et les trente autres flux sont identiques. La piste complète se répète désormais au lieu de s'arrêter après environ99 secondes. **Son fondu final et son silence initial restent présents : ce n'est pas une boucle musicale annoncée sans raccord audible, et aucune écoute humaine n'est revendiquée.** La version publique utilise le repli musical libre prévu dans le moteur, sans redistribution des OST.
+La version privée active bien Zombie Night (Town), identifiant360, emplacement14. Ses blocs audio originaux sont conservés, et les trente autres flux sont identiques. La piste complète se répète désormais au lieu de s'arrêter après environ99 secondes. **Son fondu final et son silence initial restent présents : ce n'est pas une boucle musicale annoncée sans raccord audible, et aucune écoute humaine n'est revendiquée.** La version publique utilise le repli musical natif prévu dans le moteur, sans redistribution des OST.
 
 ## Tests réellement exécutés
 
@@ -131,6 +133,8 @@ make -j6
 python tools/yokai/preparer_audio_lavanville.py --source-dir /workspace/private-audio/argenta-integration --output /workspace/private-audio/lavanville-integration
 make -j6 YOKAI_AUDIO_DIR=/workspace/private-audio/lavanville-integration
 python tools/yokai/auditer_lavanville_finalisation.py
+python tools/yokai/verifier_dialogues_lavanville_mgba.py
+YOKAI_QA_ROM=$PWD/pokefirered_audio.gba python tools/yokai/verifier_dialogues_lavanville_mgba.py
 python tools/yokai/tester_lavanville_chapitre_mgba.py
 YOKAI_QA_ROM=$PWD/pokefirered_audio.gba python tools/yokai/tester_lavanville_chapitre_mgba.py
 python tools/yokai/tester_lavanville_patrouilles_mgba.py

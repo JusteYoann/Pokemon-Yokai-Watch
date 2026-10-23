@@ -1,0 +1,141 @@
+{
+  "passed": true,
+  "rom_sha256": "8484e38451aa88540cd623f3c19a59164a179aaf08bcf0326076fd35a69cdee3",
+  "observed_positions": {
+    "1": [
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "2": [
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        16,
+        12
+      ]
+    ],
+    "3": [
+      [
+        17,
+        8
+      ]
+    ],
+    "4": [
+      [
+        12,
+        18
+      ],
+      [
+        13,
+        16
+      ],
+      [
+        13,
+        17
+      ],
+      [
+        13,
+        18
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        16,
+        17
+      ],
+      [
+        16,
+        18
+      ]
+    ]
+  },
+  "ordinary_green_npc_palette_preserved": true,
+  "zombie_palette_bank": 8,
+  "routes": [
+    {
+      "goal": [
+        18,
+        7
+      ],
+      "search_seed_offset_frames": 48,
+      "search_failed_attempts": 3,
+      "uninterrupted_replay_frames": 523,
+      "battle_triggered": false,
+      "controls_only": true
+    },
+    {
+      "goal": [
+        11,
+        19
+      ],
+      "search_seed_offset_frames": 0,
+      "search_failed_attempts": 0,
+      "uninterrupted_replay_frames": 468,
+      "battle_triggered": false,
+      "controls_only": true
+    }
+  ],
+  "scope": "Observe native patrols, then find and replay controller-only avoidance routes.\nSearch may restore temporary emulator states after failed attempts. Each accepted\nroute is subsequently replayed uninterrupted from its starting state, without RAM\nposition/graphics/sight patches. Static reachability is reported separately.\n"
+}

@@ -1,0 +1,1259 @@
+{
+  "passed": true,
+  "base": "7110ce41b",
+  "protected_branches": {
+    "audio/integration-31-ost": "837bd1757a7c2cdc2d476c3a5eacfd6296177c6a",
+    "feature/mafiamille-kanto": "1bf5774d8e5c0c832e1a377a85afb5ad93b7fc55",
+    "feature/boss-final-don-spiraton": "49535014b9c5fd6add06464fb32f9ea85ca69078"
+  },
+  "preserved_sources": {
+    "src/data/pokemon/species_info.h": "e0d046b9286ddf3710664a06335301bd8319af14de89373add5e3d25581b11de",
+    "src/data/pokemon/level_up_learnsets.h": "1dc4233e6145a40ebe18e564d1c6e00cb230acd5a3af3bc3d3b44fa590bd8e4c",
+    "src/data/pokemon/level_up_learnset_pointers.h": "9880cd3e90267eb0c94fefd4e432c6bbcc4ab229df6f00a7f51671460e957b97",
+    "src/data/pokemon/evolution.h": "e37a0c61146ff91135419c55976381a471e5f5be8484a65490718fed91adb700",
+    "src/data/text/species_names.h": "f7aa0228754992f1222f42b91ff9db3244d36003d1d04465e90885950b0a01c8",
+    "src/data/wild_encounters.json": "903c9003815b4674bf006bf4ba0fb164c97ccd088ebfcf9fc7e2aa34fe4310dd",
+    "sound/song_table.inc": "825327a2392a7af68efa6e3babc06d6a99aad6ad85347bf95fdf9822e159ae02"
+  },
+  "artwork_byte_identical": [
+    {
+      "file": "graphics/yokai_zombies/colosse/battle-front.png",
+      "sha256": "6d0fc001a32fa7b02551736e3a98eb7ed521b1bcf2517cefd83d32aaab11ed80"
+    },
+    {
+      "file": "graphics/yokai_zombies/colosse/battle-front-x6.png",
+      "sha256": "77f7d23dfcbc6d5553c54b83c4f09c6d5bfbd0298b9162eef841170aece5a662"
+    },
+    {
+      "file": "graphics/yokai_zombies/sources/quatre-zombies-combat-source.png",
+      "sha256": "48a7f35012ab7bab6dd0bf5383d48fd4ca4dd2dc485461ed3b3ef7f75be7f4d0"
+    },
+    {
+      "file": "graphics/yokai_zombies/errant/battle-front.png",
+      "sha256": "d639e32a4c53429d185f5b05a2e8e5a1cad67085010cbd9ed71a3c3fe886a145"
+    },
+    {
+      "file": "graphics/yokai_zombies/errant/front-x8.png",
+      "sha256": "e762df521eda83ad41b7f1aa2ad9dfe5215fbfc5199a8b578c3dbad1567c0401"
+    },
+    {
+      "file": "graphics/yokai_zombies/errant/front.png",
+      "sha256": "4804d849af7ef6d9f8bb660cd9981f75e6f25c0e35e67d15e916b5315fd12bad"
+    },
+    {
+      "file": "graphics/yokai_zombies/errant/overworld.png",
+      "sha256": "a6208605aa17be3c79b0bd711be89b95e7b5cb7d85390708e331c26ed82bc547"
+    },
+    {
+      "file": "graphics/yokai_zombies/errant/front-native.png",
+      "sha256": "8c420a984c7ac32b883a3893e4d6e029b641e38cb36b71960c9463fb77ab700f"
+    },
+    {
+      "file": "graphics/yokai_zombies/errant/battle-front-x6.png",
+      "sha256": "a3ffdfb018c3919dffd4e1f8e6b2df41f430da19ffcb791f61a498a80dc0ee16"
+    },
+    {
+      "file": "graphics/yokai_zombies/sprinteur/battle-front.png",
+      "sha256": "bf1afde397068d7cc8e9f2560398c884b8d5157153b85a58b298155e6cdc5432"
+    },
+    {
+      "file": "graphics/yokai_zombies/sprinteur/battle-front-x6.png",
+      "sha256": "64463e4b6d0f708a859c96f79471e0c7addf63308fcaac42f1b0a6a14d5fafc9"
+    },
+    {
+      "file": "graphics/yokai_zombies/spectral/battle-front.png",
+      "sha256": "4f61ceec939d7372d26a5749538d57b998f041dbaaad816a0f951bff26c32262"
+    },
+    {
+      "file": "graphics/yokai_zombies/spectral/battle-front-x6.png",
+      "sha256": "b69c94b59fe481983fce9cf21fda7631462fd0aea807a2178c13656afc012a88"
+    },
+    {
+      "file": "graphics/yokai_zombies/errant/mouvement/dos-pas-2.png",
+      "sha256": "e470e3d92744eaf5f1308ec2b7d729592fa777769883f03ac712003e28dc2038"
+    },
+    {
+      "file": "graphics/yokai_zombies/errant/mouvement/dos-pas-1.png",
+      "sha256": "fe0966d87586462903de57dde48070d20fc7125b61c3ca28d192c4b0fa886c55"
+    },
+    {
+      "file": "graphics/yokai_zombies/errant/mouvement/droite-repos.png",
+      "sha256": "1c38186da22b144c6edc6a20d50a694cbe9ed63b7da5b50d0dba64666abebbcd"
+    },
+    {
+      "file": "graphics/yokai_zombies/errant/mouvement/gauche-pas-2.png",
+      "sha256": "99000c3d456717959f982de23c45483f7f151e1c250be4ae22c2ae0a2cc1a2d4"
+    },
+    {
+      "file": "graphics/yokai_zombies/errant/mouvement/gauche-pas-1.png",
+      "sha256": "849720597039d82af401cc9dc37af3a8ae547d1930edb9110053f654608315cc"
+    },
+    {
+      "file": "graphics/yokai_zombies/errant/mouvement/droite-pas-2.png",
+      "sha256": "51ae64ef25c85d5ea8ceb97343d80af92c38094ecf32858f7d7e2db7cdd0b332"
+    },
+    {
+      "file": "graphics/yokai_zombies/errant/mouvement/face-pas-2.png",
+      "sha256": "bf74f620a61c9faef549b7e4a454477c00eae8c06cf10114670078e7dc9bc24d"
+    },
+    {
+      "file": "graphics/yokai_zombies/errant/mouvement/face-repos.png",
+      "sha256": "4804d849af7ef6d9f8bb660cd9981f75e6f25c0e35e67d15e916b5315fd12bad"
+    },
+    {
+      "file": "graphics/yokai_zombies/errant/mouvement/droite-pas-1.png",
+      "sha256": "9a9791da77e9b4d4e8b5590c949b1ebb79a64619b3d097bf3de4c711291fac95"
+    },
+    {
+      "file": "graphics/yokai_zombies/errant/mouvement/dos-repos.png",
+      "sha256": "8bff6f7b81996c49d64fd6e5876e18de1cd2edc3486040c15b3750b1155ee2ae"
+    },
+    {
+      "file": "graphics/yokai_zombies/errant/mouvement/face-pas-1.png",
+      "sha256": "e462b4cebc95e2180333809346b42c2c6a31e8512367331139bfc36054c0fae2"
+    },
+    {
+      "file": "graphics/yokai_zombies/errant/mouvement/gauche-repos.png",
+      "sha256": "3ade1e3b9e859411d150d588fd186557cf80197ff85c68b7dddb47007ff16395"
+    },
+    {
+      "file": "graphics/yokai_characters/alyzon/overworld.png",
+      "sha256": "acea38bdac0ca0ebc380a3e686464ab54f78b820eaa8c0afa7be57540e4e28e2"
+    },
+    {
+      "file": "graphics/yokai_characters/alyzon/preview.png",
+      "sha256": "c8658dce1a3329f94872530cecb3df2cf76ebf70075285aa8eb1fa199f404eea"
+    },
+    {
+      "file": "graphics/yokai_characters/alyzon/battle.png",
+      "sha256": "a90febaaee32cec5a91abe80d8a96921a0335e13e2f8982c18cc25a1de6bbbbe"
+    }
+  ],
+  "unchanged_existing_tower_teams": 13,
+  "tower_teams": {
+    "sYokaiParty_CHANNELER_PATRICIA": [
+      {
+        "name": "Brumette",
+        "species": 41,
+        "constant": "SPECIES_ZUBAT",
+        "level": 22,
+        "types": [
+          "TYPE_GHOST",
+          "TYPE_GHOST"
+        ],
+        "base_stats": {
+          "baseHP": 53,
+          "baseAttack": 48,
+          "baseDefense": 46,
+          "baseSpeed": 43,
+          "baseSpAttack": 25,
+          "baseSpDefense": 65
+        },
+        "moves": [
+          {
+            "constant": "MOVE_DISABLE",
+            "name": "Entrave"
+          },
+          {
+            "constant": "MOVE_NIGHT_SHADE",
+            "name": "Ombre Noctu."
+          },
+          {
+            "constant": "MOVE_SPITE",
+            "name": "Dépit"
+          },
+          {
+            "constant": "MOVE_CONFUSE_RAY",
+            "name": "Onde Folie"
+          }
+        ]
+      }
+    ],
+    "sYokaiParty_CHANNELER_CARLY": [
+      {
+        "name": "Brumette",
+        "species": 41,
+        "constant": "SPECIES_ZUBAT",
+        "level": 24,
+        "types": [
+          "TYPE_GHOST",
+          "TYPE_GHOST"
+        ],
+        "base_stats": {
+          "baseHP": 53,
+          "baseAttack": 48,
+          "baseDefense": 46,
+          "baseSpeed": 43,
+          "baseSpAttack": 25,
+          "baseSpDefense": 65
+        },
+        "moves": [
+          {
+            "constant": "MOVE_DISABLE",
+            "name": "Entrave"
+          },
+          {
+            "constant": "MOVE_NIGHT_SHADE",
+            "name": "Ombre Noctu."
+          },
+          {
+            "constant": "MOVE_SPITE",
+            "name": "Dépit"
+          },
+          {
+            "constant": "MOVE_CONFUSE_RAY",
+            "name": "Onde Folie"
+          }
+        ]
+      }
+    ],
+    "sYokaiParty_CHANNELER_HOPE": [
+      {
+        "name": "Télémir",
+        "species": 43,
+        "constant": "SPECIES_ODDISH",
+        "level": 23,
+        "types": [
+          "TYPE_GHOST",
+          "TYPE_GHOST"
+        ],
+        "base_stats": {
+          "baseHP": 68,
+          "baseAttack": 55,
+          "baseDefense": 54,
+          "baseSpeed": 51,
+          "baseSpAttack": 32,
+          "baseSpDefense": 80
+        },
+        "moves": [
+          {
+            "constant": "MOVE_CONFUSE_RAY",
+            "name": "Onde Folie"
+          },
+          {
+            "constant": "MOVE_LICK",
+            "name": "Léchouille"
+          },
+          {
+            "constant": "MOVE_HYPNOSIS",
+            "name": "Hypnose"
+          },
+          {
+            "constant": "MOVE_SPITE",
+            "name": "Dépit"
+          }
+        ]
+      }
+    ],
+    "sYokaiParty_CHANNELER_PAULA": [
+      {
+        "name": "Télémir",
+        "species": 43,
+        "constant": "SPECIES_ODDISH",
+        "level": 24,
+        "types": [
+          "TYPE_GHOST",
+          "TYPE_GHOST"
+        ],
+        "base_stats": {
+          "baseHP": 68,
+          "baseAttack": 55,
+          "baseDefense": 54,
+          "baseSpeed": 51,
+          "baseSpAttack": 32,
+          "baseSpDefense": 80
+        },
+        "moves": [
+          {
+            "constant": "MOVE_CONFUSE_RAY",
+            "name": "Onde Folie"
+          },
+          {
+            "constant": "MOVE_LICK",
+            "name": "Léchouille"
+          },
+          {
+            "constant": "MOVE_HYPNOSIS",
+            "name": "Hypnose"
+          },
+          {
+            "constant": "MOVE_SPITE",
+            "name": "Dépit"
+          }
+        ]
+      }
+    ],
+    "sYokaiParty_CHANNELER_LAUREL": [
+      {
+        "name": "Sorcophage",
+        "species": 70,
+        "constant": "SPECIES_WEEPINBELL",
+        "level": 23,
+        "types": [
+          "TYPE_GHOST",
+          "TYPE_GHOST"
+        ],
+        "base_stats": {
+          "baseHP": 117,
+          "baseAttack": 140,
+          "baseDefense": 137,
+          "baseSpeed": 28,
+          "baseSpAttack": 39,
+          "baseSpDefense": 89
+        },
+        "moves": [
+          {
+            "constant": "MOVE_HARDEN",
+            "name": "Armure"
+          },
+          {
+            "constant": "MOVE_LICK",
+            "name": "Léchouille"
+          },
+          {
+            "constant": "MOVE_MEAN_LOOK",
+            "name": "Regard Noir"
+          },
+          {
+            "constant": "MOVE_ROCK_TOMB",
+            "name": "Tomberoche"
+          }
+        ]
+      },
+      {
+        "name": "Toumou",
+        "species": 143,
+        "constant": "SPECIES_SNORLAX",
+        "level": 23,
+        "types": [
+          "TYPE_POISON",
+          "TYPE_POISON"
+        ],
+        "base_stats": {
+          "baseHP": 57,
+          "baseAttack": 44,
+          "baseDefense": 47,
+          "baseSpeed": 20,
+          "baseSpAttack": 47,
+          "baseSpDefense": 65
+        },
+        "moves": [
+          {
+            "constant": "MOVE_POISON_GAS",
+            "name": "Gaz Toxik"
+          },
+          {
+            "constant": "MOVE_SMOG",
+            "name": "Purédpois"
+          },
+          {
+            "constant": "MOVE_HARDEN",
+            "name": "Armure"
+          },
+          {
+            "constant": "MOVE_SLUDGE",
+            "name": "Détritus"
+          }
+        ]
+      }
+    ],
+    "sYokaiParty_CHANNELER_JODY": [
+      {
+        "name": "Chaipo",
+        "species": 124,
+        "constant": "SPECIES_JYNX",
+        "level": 22,
+        "types": [
+          "TYPE_GHOST",
+          "TYPE_GHOST"
+        ],
+        "base_stats": {
+          "baseHP": 56,
+          "baseAttack": 48,
+          "baseDefense": 44,
+          "baseSpeed": 21,
+          "baseSpAttack": 40,
+          "baseSpDefense": 71
+        },
+        "moves": [
+          {
+            "constant": "MOVE_DISABLE",
+            "name": "Entrave"
+          },
+          {
+            "constant": "MOVE_SPITE",
+            "name": "Dépit"
+          },
+          {
+            "constant": "MOVE_CONFUSE_RAY",
+            "name": "Onde Folie"
+          },
+          {
+            "constant": "MOVE_NIGHT_SHADE",
+            "name": "Ombre Noctu."
+          }
+        ]
+      }
+    ],
+    "sYokaiParty_CHANNELER_TAMMY": [
+      {
+        "name": "Chaipo",
+        "species": 124,
+        "constant": "SPECIES_JYNX",
+        "level": 23,
+        "types": [
+          "TYPE_GHOST",
+          "TYPE_GHOST"
+        ],
+        "base_stats": {
+          "baseHP": 56,
+          "baseAttack": 48,
+          "baseDefense": 44,
+          "baseSpeed": 21,
+          "baseSpAttack": 40,
+          "baseSpDefense": 71
+        },
+        "moves": [
+          {
+            "constant": "MOVE_DISABLE",
+            "name": "Entrave"
+          },
+          {
+            "constant": "MOVE_SPITE",
+            "name": "Dépit"
+          },
+          {
+            "constant": "MOVE_CONFUSE_RAY",
+            "name": "Onde Folie"
+          },
+          {
+            "constant": "MOVE_NIGHT_SHADE",
+            "name": "Ombre Noctu."
+          }
+        ]
+      }
+    ],
+    "sYokaiParty_CHANNELER_RUTH": [
+      {
+        "name": "Toumou",
+        "species": 143,
+        "constant": "SPECIES_SNORLAX",
+        "level": 22,
+        "types": [
+          "TYPE_POISON",
+          "TYPE_POISON"
+        ],
+        "base_stats": {
+          "baseHP": 57,
+          "baseAttack": 44,
+          "baseDefense": 47,
+          "baseSpeed": 20,
+          "baseSpAttack": 47,
+          "baseSpDefense": 65
+        },
+        "moves": [
+          {
+            "constant": "MOVE_POISON_GAS",
+            "name": "Gaz Toxik"
+          },
+          {
+            "constant": "MOVE_SMOG",
+            "name": "Purédpois"
+          },
+          {
+            "constant": "MOVE_HARDEN",
+            "name": "Armure"
+          },
+          {
+            "constant": "MOVE_SLUDGE",
+            "name": "Détritus"
+          }
+        ]
+      }
+    ],
+    "sYokaiParty_CHANNELER_KARINA": [
+      {
+        "name": "Toumou",
+        "species": 143,
+        "constant": "SPECIES_SNORLAX",
+        "level": 24,
+        "types": [
+          "TYPE_POISON",
+          "TYPE_POISON"
+        ],
+        "base_stats": {
+          "baseHP": 57,
+          "baseAttack": 44,
+          "baseDefense": 47,
+          "baseSpeed": 20,
+          "baseSpAttack": 47,
+          "baseSpDefense": 65
+        },
+        "moves": [
+          {
+            "constant": "MOVE_POISON_GAS",
+            "name": "Gaz Toxik"
+          },
+          {
+            "constant": "MOVE_SMOG",
+            "name": "Purédpois"
+          },
+          {
+            "constant": "MOVE_HARDEN",
+            "name": "Armure"
+          },
+          {
+            "constant": "MOVE_SLUDGE",
+            "name": "Détritus"
+          }
+        ]
+      }
+    ],
+    "sYokaiParty_CHANNELER_JANAE": [
+      {
+        "name": "Brumette",
+        "species": 41,
+        "constant": "SPECIES_ZUBAT",
+        "level": 22,
+        "types": [
+          "TYPE_GHOST",
+          "TYPE_GHOST"
+        ],
+        "base_stats": {
+          "baseHP": 53,
+          "baseAttack": 48,
+          "baseDefense": 46,
+          "baseSpeed": 43,
+          "baseSpAttack": 25,
+          "baseSpDefense": 65
+        },
+        "moves": [
+          {
+            "constant": "MOVE_DISABLE",
+            "name": "Entrave"
+          },
+          {
+            "constant": "MOVE_NIGHT_SHADE",
+            "name": "Ombre Noctu."
+          },
+          {
+            "constant": "MOVE_SPITE",
+            "name": "Dépit"
+          },
+          {
+            "constant": "MOVE_CONFUSE_RAY",
+            "name": "Onde Folie"
+          }
+        ]
+      }
+    ],
+    "sYokaiParty_CHANNELER_ANGELICA": [
+      {
+        "name": "Brumette",
+        "species": 41,
+        "constant": "SPECIES_ZUBAT",
+        "level": 22,
+        "types": [
+          "TYPE_GHOST",
+          "TYPE_GHOST"
+        ],
+        "base_stats": {
+          "baseHP": 53,
+          "baseAttack": 48,
+          "baseDefense": 46,
+          "baseSpeed": 43,
+          "baseSpAttack": 25,
+          "baseSpDefense": 65
+        },
+        "moves": [
+          {
+            "constant": "MOVE_DISABLE",
+            "name": "Entrave"
+          },
+          {
+            "constant": "MOVE_NIGHT_SHADE",
+            "name": "Ombre Noctu."
+          },
+          {
+            "constant": "MOVE_SPITE",
+            "name": "Dépit"
+          },
+          {
+            "constant": "MOVE_CONFUSE_RAY",
+            "name": "Onde Folie"
+          }
+        ]
+      },
+      {
+        "name": "Sorcophage",
+        "species": 70,
+        "constant": "SPECIES_WEEPINBELL",
+        "level": 22,
+        "types": [
+          "TYPE_GHOST",
+          "TYPE_GHOST"
+        ],
+        "base_stats": {
+          "baseHP": 117,
+          "baseAttack": 140,
+          "baseDefense": 137,
+          "baseSpeed": 28,
+          "baseSpAttack": 39,
+          "baseSpDefense": 89
+        },
+        "moves": [
+          {
+            "constant": "MOVE_HARDEN",
+            "name": "Armure"
+          },
+          {
+            "constant": "MOVE_LICK",
+            "name": "Léchouille"
+          },
+          {
+            "constant": "MOVE_MEAN_LOOK",
+            "name": "Regard Noir"
+          },
+          {
+            "constant": "MOVE_ROCK_TOMB",
+            "name": "Tomberoche"
+          }
+        ]
+      },
+      {
+        "name": "Toumou",
+        "species": 143,
+        "constant": "SPECIES_SNORLAX",
+        "level": 22,
+        "types": [
+          "TYPE_POISON",
+          "TYPE_POISON"
+        ],
+        "base_stats": {
+          "baseHP": 57,
+          "baseAttack": 44,
+          "baseDefense": 47,
+          "baseSpeed": 20,
+          "baseSpAttack": 47,
+          "baseSpDefense": 65
+        },
+        "moves": [
+          {
+            "constant": "MOVE_POISON_GAS",
+            "name": "Gaz Toxik"
+          },
+          {
+            "constant": "MOVE_SMOG",
+            "name": "Purédpois"
+          },
+          {
+            "constant": "MOVE_HARDEN",
+            "name": "Armure"
+          },
+          {
+            "constant": "MOVE_SLUDGE",
+            "name": "Détritus"
+          }
+        ]
+      }
+    ],
+    "sYokaiParty_CHANNELER_EMILIA": [
+      {
+        "name": "Télémir",
+        "species": 43,
+        "constant": "SPECIES_ODDISH",
+        "level": 24,
+        "types": [
+          "TYPE_GHOST",
+          "TYPE_GHOST"
+        ],
+        "base_stats": {
+          "baseHP": 68,
+          "baseAttack": 55,
+          "baseDefense": 54,
+          "baseSpeed": 51,
+          "baseSpAttack": 32,
+          "baseSpDefense": 80
+        },
+        "moves": [
+          {
+            "constant": "MOVE_CONFUSE_RAY",
+            "name": "Onde Folie"
+          },
+          {
+            "constant": "MOVE_LICK",
+            "name": "Léchouille"
+          },
+          {
+            "constant": "MOVE_HYPNOSIS",
+            "name": "Hypnose"
+          },
+          {
+            "constant": "MOVE_SPITE",
+            "name": "Dépit"
+          }
+        ]
+      }
+    ],
+    "sYokaiParty_CHANNELER_JENNIFER": [
+      {
+        "name": "Télémir",
+        "species": 43,
+        "constant": "SPECIES_ODDISH",
+        "level": 24,
+        "types": [
+          "TYPE_GHOST",
+          "TYPE_GHOST"
+        ],
+        "base_stats": {
+          "baseHP": 68,
+          "baseAttack": 55,
+          "baseDefense": 54,
+          "baseSpeed": 51,
+          "baseSpAttack": 32,
+          "baseSpDefense": 80
+        },
+        "moves": [
+          {
+            "constant": "MOVE_CONFUSE_RAY",
+            "name": "Onde Folie"
+          },
+          {
+            "constant": "MOVE_LICK",
+            "name": "Léchouille"
+          },
+          {
+            "constant": "MOVE_HYPNOSIS",
+            "name": "Hypnose"
+          },
+          {
+            "constant": "MOVE_SPITE",
+            "name": "Dépit"
+          }
+        ]
+      }
+    ],
+    "sLavenderSummit1": [
+      {
+        "name": "Sorcophage",
+        "species": 70,
+        "constant": "SPECIES_WEEPINBELL",
+        "level": 26,
+        "types": [
+          "TYPE_GHOST",
+          "TYPE_GHOST"
+        ],
+        "base_stats": {
+          "baseHP": 117,
+          "baseAttack": 140,
+          "baseDefense": 137,
+          "baseSpeed": 28,
+          "baseSpAttack": 39,
+          "baseSpDefense": 89
+        },
+        "moves": [
+          {
+            "constant": "MOVE_HARDEN",
+            "name": "Armure"
+          },
+          {
+            "constant": "MOVE_LICK",
+            "name": "Léchouille"
+          },
+          {
+            "constant": "MOVE_MEAN_LOOK",
+            "name": "Regard Noir"
+          },
+          {
+            "constant": "MOVE_ROCK_TOMB",
+            "name": "Tomberoche"
+          }
+        ]
+      },
+      {
+        "name": "Triptic-t.",
+        "species": 44,
+        "constant": "SPECIES_GLOOM",
+        "level": 27,
+        "types": [
+          "TYPE_GHOST",
+          "TYPE_GHOST"
+        ],
+        "base_stats": {
+          "baseHP": 91,
+          "baseAttack": 79,
+          "baseDefense": 79,
+          "baseSpeed": 28,
+          "baseSpAttack": 90,
+          "baseSpDefense": 103
+        },
+        "moves": [
+          {
+            "constant": "MOVE_CONFUSE_RAY",
+            "name": "Onde Folie"
+          },
+          {
+            "constant": "MOVE_HYPNOSIS",
+            "name": "Hypnose"
+          },
+          {
+            "constant": "MOVE_NIGHT_SHADE",
+            "name": "Ombre Noctu."
+          },
+          {
+            "constant": "MOVE_SPITE",
+            "name": "Dépit"
+          }
+        ]
+      }
+    ],
+    "sLavenderSummit2": [
+      {
+        "name": "Brumette",
+        "species": 41,
+        "constant": "SPECIES_ZUBAT",
+        "level": 27,
+        "types": [
+          "TYPE_GHOST",
+          "TYPE_GHOST"
+        ],
+        "base_stats": {
+          "baseHP": 53,
+          "baseAttack": 48,
+          "baseDefense": 46,
+          "baseSpeed": 43,
+          "baseSpAttack": 25,
+          "baseSpDefense": 65
+        },
+        "moves": [
+          {
+            "constant": "MOVE_NIGHT_SHADE",
+            "name": "Ombre Noctu."
+          },
+          {
+            "constant": "MOVE_SPITE",
+            "name": "Dépit"
+          },
+          {
+            "constant": "MOVE_CONFUSE_RAY",
+            "name": "Onde Folie"
+          },
+          {
+            "constant": "MOVE_WILL_O_WISP",
+            "name": "Feu Follet"
+          }
+        ]
+      },
+      {
+        "name": "Chaipo",
+        "species": 124,
+        "constant": "SPECIES_JYNX",
+        "level": 28,
+        "types": [
+          "TYPE_GHOST",
+          "TYPE_GHOST"
+        ],
+        "base_stats": {
+          "baseHP": 56,
+          "baseAttack": 48,
+          "baseDefense": 44,
+          "baseSpeed": 21,
+          "baseSpAttack": 40,
+          "baseSpDefense": 71
+        },
+        "moves": [
+          {
+            "constant": "MOVE_SPITE",
+            "name": "Dépit"
+          },
+          {
+            "constant": "MOVE_CONFUSE_RAY",
+            "name": "Onde Folie"
+          },
+          {
+            "constant": "MOVE_NIGHT_SHADE",
+            "name": "Ombre Noctu."
+          },
+          {
+            "constant": "MOVE_CURSE",
+            "name": "Malédiction"
+          }
+        ]
+      }
+    ],
+    "sLavenderSummit3": [
+      {
+        "name": "Whisper",
+        "species": 8,
+        "constant": "SPECIES_WARTORTLE",
+        "level": 27,
+        "types": [
+          "TYPE_GHOST",
+          "TYPE_GHOST"
+        ],
+        "base_stats": {
+          "baseHP": 85,
+          "baseAttack": 32,
+          "baseDefense": 68,
+          "baseSpeed": 54,
+          "baseSpAttack": 70,
+          "baseSpDefense": 101
+        },
+        "moves": [
+          {
+            "constant": "MOVE_CONFUSE_RAY",
+            "name": "Onde Folie"
+          },
+          {
+            "constant": "MOVE_DISABLE",
+            "name": "Entrave"
+          },
+          {
+            "constant": "MOVE_NIGHT_SHADE",
+            "name": "Ombre Noctu."
+          },
+          {
+            "constant": "MOVE_SPITE",
+            "name": "Dépit"
+          }
+        ]
+      },
+      {
+        "name": "Tristos",
+        "species": 115,
+        "constant": "SPECIES_KANGASKHAN",
+        "level": 28,
+        "types": [
+          "TYPE_GHOST",
+          "TYPE_GHOST"
+        ],
+        "base_stats": {
+          "baseHP": 96,
+          "baseAttack": 35,
+          "baseDefense": 77,
+          "baseSpeed": 68,
+          "baseSpAttack": 79,
+          "baseSpDefense": 115
+        },
+        "moves": [
+          {
+            "constant": "MOVE_FAKE_TEARS",
+            "name": "Croco Larme"
+          },
+          {
+            "constant": "MOVE_CONFUSE_RAY",
+            "name": "Onde Folie"
+          },
+          {
+            "constant": "MOVE_NIGHT_SHADE",
+            "name": "Ombre Noctu."
+          },
+          {
+            "constant": "MOVE_SPITE",
+            "name": "Dépit"
+          }
+        ]
+      },
+      {
+        "name": "Potofeu",
+        "species": 32,
+        "constant": "SPECIES_NIDORAN_M",
+        "level": 28,
+        "types": [
+          "TYPE_GHOST",
+          "TYPE_GHOST"
+        ],
+        "base_stats": {
+          "baseHP": 108,
+          "baseAttack": 92,
+          "baseDefense": 86,
+          "baseSpeed": 34,
+          "baseSpAttack": 78,
+          "baseSpDefense": 132
+        },
+        "moves": [
+          {
+            "constant": "MOVE_DISABLE",
+            "name": "Entrave"
+          },
+          {
+            "constant": "MOVE_NIGHT_SHADE",
+            "name": "Ombre Noctu."
+          },
+          {
+            "constant": "MOVE_SPITE",
+            "name": "Dépit"
+          },
+          {
+            "constant": "MOVE_CURSE",
+            "name": "Malédiction"
+          }
+        ]
+      }
+    ]
+  },
+  "alyzon": [
+    {
+      "name": "Potofeu",
+      "species": 32,
+      "constant": "SPECIES_NIDORAN_M",
+      "level": 27,
+      "types": [
+        "TYPE_GHOST",
+        "TYPE_GHOST"
+      ],
+      "base_stats": {
+        "baseHP": 108,
+        "baseAttack": 92,
+        "baseDefense": 86,
+        "baseSpeed": 34,
+        "baseSpAttack": 78,
+        "baseSpDefense": 132
+      },
+      "moves": [
+        {
+          "constant": "MOVE_LICK",
+          "name": "Léchouille"
+        },
+        {
+          "constant": "MOVE_NIGHT_SHADE",
+          "name": "Ombre Noctu."
+        },
+        {
+          "constant": "MOVE_CONFUSE_RAY",
+          "name": "Onde Folie"
+        },
+        {
+          "constant": "MOVE_DISABLE",
+          "name": "Entrave"
+        }
+      ]
+    },
+    {
+      "name": "Whisper",
+      "species": 8,
+      "constant": "SPECIES_WARTORTLE",
+      "level": 28,
+      "types": [
+        "TYPE_GHOST",
+        "TYPE_GHOST"
+      ],
+      "base_stats": {
+        "baseHP": 85,
+        "baseAttack": 32,
+        "baseDefense": 68,
+        "baseSpeed": 54,
+        "baseSpAttack": 70,
+        "baseSpDefense": 101
+      },
+      "moves": [
+        {
+          "constant": "MOVE_NIGHT_SHADE",
+          "name": "Ombre Noctu."
+        },
+        {
+          "constant": "MOVE_SPITE",
+          "name": "Dépit"
+        },
+        {
+          "constant": "MOVE_CONFUSE_RAY",
+          "name": "Onde Folie"
+        },
+        {
+          "constant": "MOVE_DISABLE",
+          "name": "Entrave"
+        }
+      ]
+    },
+    {
+      "name": "Triptic-t.",
+      "species": 44,
+      "constant": "SPECIES_GLOOM",
+      "level": 29,
+      "types": [
+        "TYPE_GHOST",
+        "TYPE_GHOST"
+      ],
+      "base_stats": {
+        "baseHP": 91,
+        "baseAttack": 79,
+        "baseDefense": 79,
+        "baseSpeed": 28,
+        "baseSpAttack": 90,
+        "baseSpDefense": 103
+      },
+      "moves": [
+        {
+          "constant": "MOVE_NIGHT_SHADE",
+          "name": "Ombre Noctu."
+        },
+        {
+          "constant": "MOVE_SPITE",
+          "name": "Dépit"
+        },
+        {
+          "constant": "MOVE_HYPNOSIS",
+          "name": "Hypnose"
+        },
+        {
+          "constant": "MOVE_CONFUSE_RAY",
+          "name": "Onde Folie"
+        }
+      ]
+    },
+    {
+      "name": "Mémogre",
+      "species": 125,
+      "constant": "SPECIES_ELECTABUZZ",
+      "level": 31,
+      "types": [
+        "TYPE_GHOST",
+        "TYPE_GHOST"
+      ],
+      "base_stats": {
+        "baseHP": 58,
+        "baseAttack": 125,
+        "baseDefense": 59,
+        "baseSpeed": 123,
+        "baseSpAttack": 40,
+        "baseSpDefense": 65
+      },
+      "moves": [
+        {
+          "constant": "MOVE_ASTONISH",
+          "name": "Étonnement"
+        },
+        {
+          "constant": "MOVE_NIGHT_SHADE",
+          "name": "Ombre Noctu."
+        },
+        {
+          "constant": "MOVE_CONFUSE_RAY",
+          "name": "Onde Folie"
+        },
+        {
+          "constant": "MOVE_DISABLE",
+          "name": "Entrave"
+        }
+      ]
+    }
+  ],
+  "patrol_paths": [
+    [
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        5,
+        8
+      ]
+    ],
+    [
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        16,
+        12
+      ]
+    ],
+    [
+      [
+        17,
+        8
+      ]
+    ],
+    [
+      [
+        12,
+        17
+      ],
+      [
+        12,
+        18
+      ],
+      [
+        13,
+        16
+      ],
+      [
+        13,
+        17
+      ],
+      [
+        13,
+        18
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        16,
+        17
+      ],
+      [
+        16,
+        18
+      ]
+    ]
+  ],
+  "patrol_occupied_tile_combinations": 420,
+  "doors_never_occupied": true,
+  "all_entry_and_exit_tiles_connected": true,
+  "scope": "Static preservation, actual parties and exhaustive occupied-tile accessibility.\nThis does not replace native encounter, movement, battle or save tests.\n"
+}
