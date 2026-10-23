@@ -23,3 +23,7 @@ Suivi et preuves : `QA_RECETTE_FINALE/MAFIAMILLE_KANTO/`.
 - Les anciens identifiants de portraits Rocket/Giovanni renvoient aussi aux
   nouvelles images et palettes, pour les chemins de compatibilité et de
   classes de la Tour des Dresseurs. Aucun combat ou adversaire n’est ajouté.
+
+## Livraison
+
+[Bilan complet, captures et validations restantes](../../QA_RECETTE_FINALE/MAFIAMILLE_KANTO/BILAN.md).

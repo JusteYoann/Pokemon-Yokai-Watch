@@ -1,7 +1,7 @@
 {
   "passed": true,
   "engine": "mGBA libretro",
-  "rom_sha256": "4b4e9a7a30a3a28811376816111d98d69b65f475d8e8ff59eee5b6f38d31e5cb",
+  "rom_sha256": "7a2ca7164665eee90992ae4f06d1ed00330a67695d7c6c8349fce8b0a7742ba7",
   "scope": "Actual NPC interaction, prerequisite staff battles, boss battles, No choices, full bags and native Flash reload; fixture warps and post-story flags, overpower party with four attacking moves for wins, native legal-move controller for PP/Grudge, weak party for defeats, independent instances/no savestates. Not whole story or balance proof.",
   "balance_validated": false,
   "results": [
@@ -62,14 +62,14 @@
     {
       "test": "morleone actual boss victory; full-bag reward retained, later exact quantity without another battle",
       "quantity": 3,
-      "frames": 10816,
+      "frames": 11136,
       "passed": true
     },
     {
-      "test": "cameo-morleone-revanche-0 controller changed move after native limitations/PP exhaustion",
+      "test": "cameo-morleone-revanche-1 controller changed move after native limitations/PP exhaustion",
       "fallbacks": [
         {
-          "loop_iteration": 19168,
+          "loop_iteration": 20144,
           "from_slot": 0,
           "to_slot": 1,
           "unusable_mask": 1,

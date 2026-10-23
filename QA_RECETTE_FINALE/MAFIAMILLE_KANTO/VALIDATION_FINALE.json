@@ -1,0 +1,77 @@
+{
+  "code_commit": "1fa39994b",
+  "public_sha256": "7a2ca7164665eee90992ae4f06d1ed00330a67695d7c6c8349fce8b0a7742ba7",
+  "private_sha256": "b10e5957a662599f325ae4a59487bc04b5c2c61f9b642fc5e5f96a6ac18869ba",
+  "tests": [
+    {
+      "report": "evenements/TEST_MGBA.json",
+      "passed": true,
+      "rom_sha256": "7a2ca7164665eee90992ae4f06d1ed00330a67695d7c6c8349fce8b0a7742ba7"
+    },
+    {
+      "report": "recompenses/TEST_MGBA.json",
+      "passed": true,
+      "rom_sha256": "7a2ca7164665eee90992ae4f06d1ed00330a67695d7c6c8349fce8b0a7742ba7"
+    },
+    {
+      "report": "acteurs/TEST_MGBA.json",
+      "passed": true,
+      "rom_sha256": "7a2ca7164665eee90992ae4f06d1ed00330a67695d7c6c8349fce8b0a7742ba7"
+    },
+    {
+      "report": "acteurs-prive/TEST_MGBA.json",
+      "passed": true,
+      "rom_sha256": "b10e5957a662599f325ae4a59487bc04b5c2c61f9b642fc5e5f96a6ac18869ba"
+    },
+    {
+      "report": "marche/TEST_MGBA.json",
+      "passed": true,
+      "rom_sha256": "7a2ca7164665eee90992ae4f06d1ed00330a67695d7c6c8349fce8b0a7742ba7"
+    },
+    {
+      "report": "POSTGAME_MGBA.json",
+      "passed": true,
+      "rom_sha256": "7a2ca7164665eee90992ae4f06d1ed00330a67695d7c6c8349fce8b0a7742ba7"
+    },
+    {
+      "report": "dialogues/TEST_MGBA.json",
+      "passed": true,
+      "rom_sha256": "7a2ca7164665eee90992ae4f06d1ed00330a67695d7c6c8349fce8b0a7742ba7"
+    },
+    {
+      "report": "memorydex/TEST_MGBA.json",
+      "passed": true,
+      "rom_sha256": "7a2ca7164665eee90992ae4f06d1ed00330a67695d7c6c8349fce8b0a7742ba7"
+    },
+    {
+      "report": "EQUIPES_MGBA.json",
+      "passed": true,
+      "rom_sha256": "7a2ca7164665eee90992ae4f06d1ed00330a67695d7c6c8349fce8b0a7742ba7"
+    },
+    {
+      "report": "entrees/TEST_MGBA.json",
+      "passed": true,
+      "rom_sha256": "7a2ca7164665eee90992ae4f06d1ed00330a67695d7c6c8349fce8b0a7742ba7"
+    },
+    {
+      "report": "NOMS_MGBA.json",
+      "passed": true,
+      "rom_sha256": "7a2ca7164665eee90992ae4f06d1ed00330a67695d7c6c8349fce8b0a7742ba7"
+    },
+    {
+      "report": "COMPAT_MGBA.json",
+      "passed": true,
+      "rom_sha256": "7a2ca7164665eee90992ae4f06d1ed00330a67695d7c6c8349fce8b0a7742ba7"
+    }
+  ],
+  "source_preservation": true,
+  "rom_under32MiB": true,
+  "artistically_final": false,
+  "pending": [
+    "Approval of two walking models in four directions",
+    "Casino symbol choice and native asset preparation",
+    "Replacement of R in two slot resources and two entrance illustrations"
+  ],
+  "whole_adventure_played": false,
+  "normal_party_balance_validated": false
+}
