@@ -3,7 +3,7 @@
   "mode": "prive",
   "engine": "mGBA libretro",
   "rom": "pokefirered_audio.gba",
-  "rom_sha256": "e946fe6eee249b3e5a00087cb8b85bae5e1423effc44628951d7f028b41844ff",
+  "rom_sha256": "840408d401db979bbc7f06b41fbda8724f1e91ba2686c2bda6c78c613fc06f40",
   "rom_size": 31659467,
   "resources_from_rom": true,
   "no_graphics_or_palette_ram_override": true,
@@ -27,6 +27,7 @@
         0,
         3
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {
@@ -41,6 +42,7 @@
         0,
         4
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {
@@ -55,6 +57,7 @@
         0,
         3
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {
@@ -69,6 +72,7 @@
         1,
         5
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {
@@ -83,6 +87,7 @@
         1,
         6
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {
@@ -97,6 +102,7 @@
         1,
         5
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {
@@ -111,6 +117,7 @@
         2,
         7
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {
@@ -125,6 +132,7 @@
         2,
         8
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {
@@ -139,6 +147,7 @@
         2,
         7
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {
@@ -153,6 +162,7 @@
         2,
         7
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {
@@ -167,6 +177,7 @@
         2,
         8
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {
@@ -181,6 +192,7 @@
         2,
         7
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {

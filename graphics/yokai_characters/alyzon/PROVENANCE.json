@@ -39,5 +39,19 @@
       "bytes": 7196
     }
   ],
-  "scope": "Graphics only; no old scenario, flags, teams or maps imported"
+  "scope": "Graphics only; no old scenario, flags, teams or maps imported",
+  "source_files_note": "The files list records original source hashes; overworld.png has the single orientation correction recorded below. preview.png remains the historical source preview.",
+  "runtime_correction": {
+    "file": "graphics/yokai_characters/alyzon/overworld.png",
+    "frame_index": 7,
+    "operation": "Horizontal mirror inside original opaque bounding box, preserving placement, palette and all eight other frames",
+    "bounding_box": [
+      0,
+      13,
+      14,
+      31
+    ],
+    "sha256": "acea38bdac0ca0ebc380a3e686464ab54f78b820eaa8c0afa7be57540e4e28e2",
+    "bytes": 1026
+  }
 }

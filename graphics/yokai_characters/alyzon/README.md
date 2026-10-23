@@ -1,6 +1,6 @@
 # Alyzon Bie — ressources retenues et enregistrées
 
-Source : branche `codex/reprise-scenario-2026-10-22`, commit `2647bc1627050f193cc9606f8c0f5f1151986047`. Les deux PNG, les deux palettes, `preview.png` et le fichier historique `conversion.json` sont copiés sans modification ; leurs empreintes sont dans `PROVENANCE.json`.
+Source : branche `codex/reprise-scenario-2026-10-22`, commit `2647bc1627050f193cc9606f8c0f5f1151986047`. Les ressources proviennent de cette version ; leurs empreintes originales sont dans `PROVENANCE.json`. Seule la pose latérale de pas n° 7 est corrigée par miroir horizontal dans sa boîte occupée : elle regardait du côté opposé aux poses 2 et 8. Les huit autres images, les palettes et le portrait restent inchangés. `preview.png` reste l’aperçu historique de la source.
 
 - `overworld.png` : neuf cases natives 16 × 32, face/dos/profil et deux pas par orientation. Le moteur produit le profil droit par miroir, comme dans la version retrouvée. Aucun redessin ou rééchantillonnage.
 - `overworld.pal` : palette dédiée, indépendante de celle du joueur et du groupe Don Morléone.

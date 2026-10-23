@@ -57,11 +57,12 @@ try:
    r.call('ObjectEventSetHeldMovement',obj,C[action]);seen=set()
    for f in range(36):
     r.run();tile=vram(sp);match=[n for n in allowed if tile==raw[256*n:256*(n+1)]];assert match,(label,f)
+    flip=bool(struct.unpack('<H',r.read(sp+2,2))[0]&0x1000);assert flip==(label=='droite'),(label,f,match,'wrong horizontal flip')
     seen.update(match)
     if f%2==0:clip.append(r.frame.copy())
    r.call('ObjectEventClearHeldMovementIfFinished',obj);xy=struct.unpack('<hh',r.read(obj+16,4));actual=(xy[0]-7,xy[1]-7);expect=(13+(step+1)*delta[0],8+(step+1)*delta[1]);assert actual==expect,(label,actual,expect)
    assertpal(sp);assert r.u32(sp+12)==r.symbols['sPicTable_YokaiAlyzon']
-   rows.append(dict(test='Native held walk with registered ROM images',direction=label,step=step+1,arrived=actual,source_frames_seen=sorted(seen),passed=True))
+   rows.append(dict(test='Native held walk with registered ROM images',direction=label,step=step+1,arrived=actual,source_frames_seen=sorted(seen),horizontal_flip_checked_every_frame=True,passed=True))
   movie.extend(clip+[r.frame.copy() for _ in range(8)])
  movie[0].resize((720,480),Image.Resampling.NEAREST).save(Q/'marche-enregistree-mgba.gif',save_all=True,append_images=[im.resize((720,480),Image.Resampling.NEAREST) for im in movie[1:]],duration=34,loop=0)
  # Native graphics-ID changes must also restore the dedicated palette.

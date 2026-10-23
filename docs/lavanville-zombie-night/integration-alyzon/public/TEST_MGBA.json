@@ -3,7 +3,7 @@
   "mode": "public",
   "engine": "mGBA libretro",
   "rom": "pokefirered.gba",
-  "rom_sha256": "22c31fc10a42c61ca3541899555d23e02e857aaa62efd377e723092611adb97e",
+  "rom_sha256": "5957c9178727e33d24849dc517a17f5e86d15c66d373f102ab85ff008b826807",
   "rom_size": 16777216,
   "resources_from_rom": true,
   "no_graphics_or_palette_ram_override": true,
@@ -27,6 +27,7 @@
         0,
         3
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {
@@ -41,6 +42,7 @@
         0,
         4
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {
@@ -55,6 +57,7 @@
         0,
         3
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {
@@ -69,6 +72,7 @@
         1,
         5
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {
@@ -83,6 +87,7 @@
         1,
         6
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {
@@ -97,6 +102,7 @@
         1,
         5
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {
@@ -111,6 +117,7 @@
         2,
         7
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {
@@ -125,6 +132,7 @@
         2,
         8
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {
@@ -139,6 +147,7 @@
         2,
         7
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {
@@ -153,6 +162,7 @@
         2,
         7
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {
@@ -167,6 +177,7 @@
         2,
         8
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {
@@ -181,6 +192,7 @@
         2,
         7
       ],
+      "horizontal_flip_checked_every_frame": true,
       "passed": true
     },
     {

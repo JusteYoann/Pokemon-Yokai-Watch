@@ -14,15 +14,21 @@
   "roms": {
     "public": {
       "bytes": 16777216,
-      "sha256": "22c31fc10a42c61ca3541899555d23e02e857aaa62efd377e723092611adb97e",
+      "sha256": "5957c9178727e33d24849dc517a17f5e86d15c66d373f102ab85ff008b826807",
       "checks": 18,
       "passed": true
     },
     "prive": {
       "bytes": 31659467,
-      "sha256": "e946fe6eee249b3e5a00087cb8b85bae5e1423effc44628951d7f028b41844ff",
+      "sha256": "840408d401db979bbc7f06b41fbda8724f1e91ba2686c2bda6c78c613fc06f40",
       "checks": 18,
       "passed": true
     }
+  },
+  "lateral_walk_correction": {
+    "source_frame": 7,
+    "other_frames_unchanged": true,
+    "palette_unchanged": true,
+    "native_horizontal_flip_checked_every_frame": true
   }
 }

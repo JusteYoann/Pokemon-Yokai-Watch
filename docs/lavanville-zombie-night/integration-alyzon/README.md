@@ -1,6 +1,6 @@
 # Intégration graphique d'Alyzon Bie
 
-La planche overworld et le portrait de combat retrouvés sur `codex/reprise-scenario-2026-10-22` sont désormais enregistrés dans le moteur de la branche `feature/lavanville-zombie-night`. Tous les PNG et palettes importés sont identiques octet par octet à ceux du commit source `2647bc1627050f193cc9606f8c0f5f1151986047` ; aucun redessin, redimensionnement ou recoloriage n'est appliqué.
+La planche overworld et le portrait de combat retrouvés sur `codex/reprise-scenario-2026-10-22` sont désormais enregistrés dans le moteur de la branche `feature/lavanville-zombie-night`. Les ressources proviennent du commit source `2647bc1627050f193cc9606f8c0f5f1151986047`. Une correction est appliquée à la seule pose latérale n° 7 : son orientation était opposée à celles des poses 2 et 8, ce qui faisait se retourner Alyzon pendant un pas. Cette pose est retournée horizontalement dans sa boîte occupée, sans déplacer son emplacement, changer sa palette ou redessiner ses pixels. Les huit autres poses et le portrait restent inchangés. Les animations standard du jeu restent intactes.
 
 ## Ressources actives et identifiants
 
@@ -19,15 +19,15 @@ La palette carte est chargée à l'apparition, au changement d'identifiant graph
 
 | Version | Taille de la ROM | SHA-256 |
 |---|---:|---|
-| Publique | 16 777 216 octets | `22c31fc10a42c61ca3541899555d23e02e857aaa62efd377e723092611adb97e` |
-| Privée, ressources audio existantes | 31 659 467 octets | `e946fe6eee249b3e5a00087cb8b85bae5e1423effc44628951d7f028b41844ff` |
+| Publique | 16 777 216 octets | `5957c9178727e33d24849dc517a17f5e86d15c66d373f102ab85ff008b826807` |
+| Privée, ressources audio existantes | 31 659 467 octets | `840408d401db979bbc7f06b41fbda8724f1e91ba2686c2bda6c78c613fc06f40` |
 
 Limite : 33 554 432 octets. Marge privée : **1 894 965 octets**. EWRAM : **261 128 octets**, identique au socle. IWRAM publique/privée : **29 824 / 29 888 octets**, identique au socle. Les sources musicales ne sont pas modifiées.
 
 Dans chaque version, 18 vérifications natives mGBA passent :
 
-- Présence des données originales dans la ROM et cohérence des références d'identifiants, données graphiques et palette.
-- Douze déplacements natifs, trois par direction : coordonnées d'arrivée, neuf frames observées en VRAM, miroir droit et stabilité de la palette.
+- Présence des données retenues et corrigées dans la ROM et cohérence des références d'identifiants, données graphiques et palette.
+- Douze déplacements natifs, trois par direction : coordonnées d'arrivée, neuf frames observées en VRAM, contrôle du miroir à chaque frame (gauche sans miroir, droite avec miroir) et stabilité de la palette.
 - Changement d'identifiant graphique vers un autre PNJ puis retour à Alyzon.
 - Retour au terrain par `CB2_ReturnToField`, avec reconstruction native des sprites et de la palette.
 - Création d'un objet virtuel à partir de l'identifiant enregistré.
