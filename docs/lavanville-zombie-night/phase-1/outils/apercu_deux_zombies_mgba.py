@@ -55,11 +55,18 @@ try:
   for name in ['gPlttBufferUnfaded','gPlttBufferFaded']:r.write(r.symbols[name],payload)
   r.run()
   if f%6==0:frames.append(r.frame.copy())
+  if f==0:first_night_state=r.snapshot()
  frames[0].save(D/'mgba-nuit-natif.png');frames[0].resize((960,640),Image.Resampling.NEAREST).save(D/'mgba-nuit-x4.png')
  frames[0].resize((720,480),Image.Resampling.NEAREST).save(D/'mgba-nuit.gif',save_all=True,append_images=[f.resize((720,480),Image.Resampling.NEAREST) for f in frames[1:]],duration=100,loop=0)
  for row in records:
   sp=r.symbols['gSprites']+68*row['sprite_id'];assert not r.read(sp+62,1)[0]&4
   assert r.read(sp+5,1)[0]>>4==row['palette_bank'];assert r.read(r.symbols['gPlttBufferUnfaded']+512+row['palette_bank']*32,32)==payload[512+row['palette_bank']*32:544+row['palette_bank']*32]
- result=dict(engine='mGBA libretro',rom_sha256=hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),rom_bytes=len(r.rom_buffer.raw)-1,scope='Real emulator frame capture after native LoadSpriteSheet/LoadSpritePalette/CreateSprite RAM fixtures. Not a montage. Static poses only, no NPC events, patrols, collisions or progression integration.',rom_unchanged=True,sprites=records,night_weather_palette=weatherbank,animated_fog=True)
+ # Real clean plate: restore the same scene and hide just the two temporary OBJ.
+ r.restore(first_night_state)
+ for row in records:
+  flag=r.symbols['gSprites']+68*row['sprite_id']+62;r.write(flag,bytes([r.read(flag,1)[0]|4]))
+ r.run(2);r.frame.save(D/'mgba-nuit-sans-zombies-natif.png');r.frame.resize((960,640),Image.Resampling.NEAREST).save(D/'mgba-nuit-sans-zombies-x4.png')
+ assert all(r.read(r.symbols['gSprites']+68*row['sprite_id']+62,1)[0]&4 for row in records)
+ result=dict(clean_plate_two_zombie_sprites_hidden=True,engine='mGBA libretro',rom_sha256=hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),rom_bytes=len(r.rom_buffer.raw)-1,scope='Real emulator frame capture after native LoadSpriteSheet/LoadSpritePalette/CreateSprite RAM fixtures. Not a montage. Static poses only, no NPC events, patrols, collisions or progression integration.',rom_unchanged=True,sprites=records,night_weather_palette=weatherbank,animated_fog=True)
 finally:r.close()
 (D/'TEST_MGBA.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');print(json.dumps(result))

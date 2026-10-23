@@ -12,3 +12,9 @@ Le dernier visuel fourni (yeux rouges, bouche ivoire, front vert clair) a servi 
 **Portée : essai visuel temporaire en RAM/VRAM, positions statiques.** Aucun événement de PNJ, patrouille, collision zombie ou progression n’est ajouté. La nuit et la brume sont également des réglages RAM de test. Aucune ROM n’est modifiée/recompilée, aucune sauvegarde persistante n’est écrite. Les habitants humains restants sont ceux de la carte de base, le chapitre Zombie Night n’est pas encore installé. Le GIF anime la brume, pas une marche zombie.
 
 ROM privée de référence : 31 658 395 octets ; SHA-256 dans [TEST_MGBA.json](TEST_MGBA.json). Scripts de reproduction dans `../../outils/preparer_deux_zombies.py` et `../../outils/apercu_deux_zombies_mgba.py`. Ils utilisent les outils mGBA existants, et requièrent la ROM/ELF de référence ainsi que l’environnement installé.
+
+## Exports séparés demandés
+
+[Capture nuit sans les deux zombies](mgba-nuit-sans-zombies-x4.png), [taille native](mgba-nuit-sans-zombies-natif.png). Captures mGBA après masquage des deux seuls OBJ temporaires, aucun effacement graphique par montage.
+
+[Zombie 1 PNG GBA transparent](zombie-1.png) : cellule 32 × 32, silhouette 16 × 24, 11 couleurs opaques RGB555, index 0 transparent. Exactement le fichier chargé dans le dernier aperçu ; aucun nouveau dessin.
