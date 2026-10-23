@@ -18,6 +18,7 @@ def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--reference-rom', type=Path, required=True)
     p.add_argument('--reference-elf', type=Path, required=True)
+    p.add_argument('--report', type=Path, default=ROOT/'QA_RECETTE_FINALE/AUDIO_31_OST/MESURES.json')
     a = p.parse_args()
     old = a.reference_rom.read_bytes()
     new = (ROOT/'pokefirered_audio.gba').read_bytes()
@@ -70,7 +71,8 @@ def main():
         permitted_changes='Five header pointers, mask, same-destination linker veneers and BL relocations only',
         relocated_original_veneers=moved, verified_same_destination_BL_calls=len(calls),
         original_26_samples_and_all_other_resources_preserved=True)
-    (ROOT/'QA_RECETTE_FINALE/AUDIO_31_OST/MESURES.json').write_text(json.dumps(report, indent=2)+'\n')
+    a.report.parent.mkdir(parents=True, exist_ok=True)
+    a.report.write_text(json.dumps(report, indent=2)+'\n')
     print(json.dumps(report, indent=2))
 
 if __name__ == '__main__': main()

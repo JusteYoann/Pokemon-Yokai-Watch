@@ -14,7 +14,7 @@ from mgba_new_game import new_game
 from mgba_rpc import BATCH, ROOT
 from tester_musiques_integrees_mgba import channel
 
-P = ROOT / 'QA_RECETTE_FINALE/AUDIO_31_OST/lecture'
+P = ROOT / os.environ.get('YOKAI_AUDIO31_REPORT_DIR', 'QA_RECETTE_FINALE/AUDIO_31_OST/lecture')
 P.mkdir(parents=True, exist_ok=True)
 private = Path(os.environ['YOKAI_AUDIO_DIR'])
 r = new_game()
@@ -23,7 +23,8 @@ results = []
 passed = False
 error = 'Interrupted'
 try:
-    for n in range(1, 32):
+    for n in map(int, os.environ.get('YOKAI_AUDIO31_TEST_NUMBERS', ','.join(map(str, range(1,32)))).split(',')):
+        assert 1 <= n <= 31
         r.restore(base)
         r.call('m4aMPlayAllStop')
         r.call('m4aSongNumStart', 346 + n)

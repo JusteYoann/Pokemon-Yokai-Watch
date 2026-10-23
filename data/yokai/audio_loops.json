@@ -33,7 +33,7 @@
     30,
     31
   ],
-  "status": "Experimental 31-slot integration in pre-graphics padding. Original 26 unchanged. New 13/14 have recurrence-derived loops; 5/8/25 remain full one-shot tracks pending musical loop validation. Not release-ready.",
+  "status": "Experimental31: original26 and loops13/14 unchanged; Katie8 now uses measured full-cycle reprise. Enma5/Final25 remain complete one-shot pending listening validation; not release-ready.",
   "tracks": [
     {
       "number": 1,
@@ -518,12 +518,15 @@
       "input_sha256": "4b593bf219d701132d65b3a23d226a6eac10517f5cd8208194ea10f2e5306726",
       "input_samples": 1897743,
       "rate": 13379,
-      "loop_start_samples": null,
-      "loop_end_samples": 1897743,
+      "loop_start_samples": 298726,
+      "loop_end_samples": 1486781,
       "perceptual_listening_validated": false,
-      "derivation": "Complete existing DPCM retained byte-identically; no loop forced because source recurrence research is inconclusive. One-shot experimental playback; natural ending then silence until next music request.",
+      "derivation": "88.799985s native-sample lag verified across extended repeated passage (not a short percussion motif). Opening retained; seam aligned within 50ms of 22.3s stable passage. DPCM blocks retained without re-encoding or crossfade. Human listening pending.",
       "mp3_sha256": "e91a28646d663b50307f0f89334f790a5ff45cac1b6fd83e4e3df19d75a053bd",
-      "pcm_wav_sha256": "df388e4d6816f73abeb3d625ea9731f7c1c99dd589b91b48e0b2f87ce1a96935"
+      "pcm_wav_sha256": "df388e4d6816f73abeb3d625ea9731f7c1c99dd589b91b48e0b2f87ce1a96935",
+      "period_samples": 1188055,
+      "loop_boundary_step_pcm8": 0,
+      "recurrence_validation": "Full-window waveform, aligned spectral and relative-level research in AUDIO_31_OST/CORRECTION_BOUCLES. Lower waveform similarity than13/14; not a claim of exact duplicate audio."
     },
     {
       "number": 13,
@@ -586,7 +589,6 @@
   ],
   "pending_loop_tracks": [
     5,
-    8,
     25
   ]
 }

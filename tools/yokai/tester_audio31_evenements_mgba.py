@@ -4,14 +4,16 @@
 Explicit map/flags/strong-party fixtures, no changes to opposing teams or ROM.
 Not a full adventure playthrough or subjective listening.
 """
-import hashlib, json
+import hashlib, json, os, ctypes
+from collections import deque
+import numpy as np
 from mgba_new_game import new_game
-from mgba_rpc import ROOT
+from mgba_rpc import ROOT, BATCH
 from pilote_combat_mgba import battle_keys
 import tester_cameos_boss_mgba as boss
 from tester_musiques_integrees_mgba import MAPS, channel
 
-P = ROOT/'QA_RECETTE_FINALE/AUDIO_31_OST/evenements'
+P = ROOT/os.environ.get('YOKAI_AUDIO31_EVENTS_DIR','QA_RECETTE_FINALE/AUDIO_31_OST/evenements')
 P.mkdir(parents=True, exist_ok=True)
 r = new_game()
 base = r.snapshot()
@@ -58,7 +60,24 @@ try:
             started = True
             if channel(r, 25) and not seen:
                 seen = True; music_frame = f
-            if seen and f == music_frame + 180: r.frame.save(P/'matt-combat.png')
+            if seen and f == music_frame + 180:
+                r.frame.save(P/'matt-combat.png')
+                hold_frames = int(os.environ.get('YOKAI_AUDIO31_MATT_HOLD_FRAMES','0'))
+                if hold_frames:
+                    ring = deque(maxlen=200)
+                    def capture(data, frames):
+                        ring.append(ctypes.string_at(data, frames*4)); return frames
+                    callback = BATCH(capture); r.lib.retro_set_audio_sample_batch(callback)
+                    r.keys = set(); r.run(hold_frames)
+                    r.lib.retro_set_audio_sample_batch(r.callbacks[3])
+                    signal = np.frombuffer(b''.join(ring),'<i2').astype(float)
+                    active = channel(r,25) is not None
+                    rows.append(dict(event='Prolonged actual Matt battle, no controller action',
+                        held_frames=hold_frames, held_seconds_approx=hold_frames/59.7275,
+                        native_sample_still_active=active, final_audio_AC_RMS_pcm16=float(signal.std()),
+                        requested_continuous_music_goal_met=active,
+                        known_limitation=None if active else 'Unresolved Final Battle loop; original one-shot ends and falls silent'))
+                    r.frame.save(P/'matt-combat-prolonge.png')
         if started and r.u32(r.symbols['gMPlayInfo_BGM']) == r.symbols['mus_yokai_26'] and channel(r, 26): break
     else: raise AssertionError(('Champion did not reach victory music', started, seen))
     assert seen and r.read(r.symbols['gBattleOutcome'], 1) == b'\x01'
