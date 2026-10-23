@@ -8415,6 +8415,14 @@ SwallowBest:
 	call SwallowEffect
 	goto SwallowContinue
 
+@ Same native sounds/timing and transform task; large first image uses OBJ mosaic.
+SpiratonFirstMorph::
+	playsewithpan SE_M_TELEPORT, SOUND_PAN_ATTACKER
+	waitplaysewithpan SE_M_MINIMIZE, SOUND_PAN_ATTACKER, 48
+	createvisualtask AnimTask_SpiratonFirstMorph, 2, 0
+	waitforvisualfinish
+	end
+
 Move_TRANSFORM:
 	monbg ANIM_ATTACKER
 	playsewithpan SE_M_TELEPORT, SOUND_PAN_ATTACKER

@@ -2220,6 +2220,14 @@ void AnimTask_SwallowDeformMon(u8 taskId)
     }
 }
 
+void AnimTask_TransformMon(u8 taskId);
+
+void AnimTask_SpiratonFirstMorph(u8 taskId)
+{
+    gTasks[taskId].data[11] = TRUE;
+    AnimTask_TransformMon(taskId);
+}
+
 void AnimTask_TransformMon(u8 taskId)
 {
     int i, j;
@@ -2234,7 +2242,9 @@ void AnimTask_TransformMon(u8 taskId)
     {
     case 0:
         SetGpuReg(REG_OFFSET_MOSAIC, 0);
-        if (GetBattlerSpriteBGPriorityRank(gBattleAnimAttacker) == 1)
+        if (gTasks[taskId].data[11])
+            gSprites[gBattlerSpriteIds[gBattleAnimAttacker]].oam.mosaic = TRUE;
+        else if (GetBattlerSpriteBGPriorityRank(gBattleAnimAttacker) == 1)
             SetAnimBgAttribute(1, BG_ANIM_MOSAIC, 1);
         else
             SetAnimBgAttribute(2, BG_ANIM_MOSAIC, 1);
@@ -2248,13 +2258,19 @@ void AnimTask_TransformMon(u8 taskId)
             gTasks[taskId].data[2] = 0;
             gTasks[taskId].data[1]++;
             stretch = gTasks[taskId].data[1];
-            SetGpuReg(REG_OFFSET_MOSAIC, (stretch << 4) | stretch);
+            SetGpuReg(REG_OFFSET_MOSAIC, gTasks[taskId].data[11] ? ((stretch << 12) | (stretch << 8)) : ((stretch << 4) | stretch));
             if (stretch == 15)
                 gTasks[taskId].data[0]++;
         }
         break;
     case 2:
         HandleSpeciesGfxDataChange(gBattleAnimAttacker, gBattleAnimTarget, gTasks[taskId].data[10]);
+        if (gTasks[taskId].data[11])
+        {
+            gSprites[gBattlerSpriteIds[gBattleAnimAttacker]].oam.mosaic = TRUE;
+            gTasks[taskId].data[0]++;
+            break;
+        }
         GetBattleAnimBgDataByPriorityRank(&animBg, gBattleAnimAttacker);
         if (IsContest())
             position = 0;
@@ -2273,7 +2289,7 @@ void AnimTask_TransformMon(u8 taskId)
             gTasks[taskId].data[2] = 0;
             gTasks[taskId].data[1]--;
             stretch = gTasks[taskId].data[1];
-            SetGpuReg(REG_OFFSET_MOSAIC, (stretch << 4) | stretch);
+            SetGpuReg(REG_OFFSET_MOSAIC, gTasks[taskId].data[11] ? ((stretch << 12) | (stretch << 8)) : ((stretch << 4) | stretch));
 
             if (stretch == 0)
                 gTasks[taskId].data[0]++;
@@ -2281,7 +2297,9 @@ void AnimTask_TransformMon(u8 taskId)
         break;
     case 4:
         SetGpuReg(REG_OFFSET_MOSAIC, 0);
-        if (GetBattlerSpriteBGPriorityRank(gBattleAnimAttacker) == 1)
+        if (gTasks[taskId].data[11])
+            gSprites[gBattlerSpriteIds[gBattleAnimAttacker]].oam.mosaic = FALSE;
+        else if (GetBattlerSpriteBGPriorityRank(gBattleAnimAttacker) == 1)
             SetAnimBgAttribute(1, BG_ANIM_MOSAIC, 0);
         else
             SetAnimBgAttribute(2, BG_ANIM_MOSAIC, 0);

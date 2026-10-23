@@ -19,8 +19,7 @@
 #include "constants/moves.h"
 #include "constants/battle_string_ids.h"
 
-/* A development-only battle fixture. Production has no caller of ArmPrototype.
- * Its temporary initial image is Bouh, NOT the unapproved true-form artwork. */
+/* Eight-life adapter; true-form graphics are owned by the opponent battler. */
 static EWRAM_DATA struct SpiratonState sBoss = {0};
 static EWRAM_DATA bool8 sArmed = FALSE;
 static EWRAM_DATA bool8 sRunning = FALSE;

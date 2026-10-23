@@ -1,4 +1,7 @@
 #include "global.h"
+#include "spiraton_art.h"
+#include "constants/moves.h"
+extern const u8 SpiratonFirstMorph[];
 #include "gflib.h"
 #include "battle.h"
 #include "battle_anim.h"
@@ -222,6 +225,8 @@ void LaunchBattleAnimation(const u8 *const animsTable[], u16 tableId, bool8 isMo
     sMonAnimTaskIdArray[0] = TASK_NONE;
     sMonAnimTaskIdArray[1] = TASK_NONE;
     sBattleAnimScriptPtr = animsTable[tableId];
+    if (isMoveAnim && tableId == MOVE_TRANSFORM && gBattleAnimAttacker == 1 && SpiratonArtIsActive())
+        sBattleAnimScriptPtr = SpiratonFirstMorph;
     gAnimScriptActive = TRUE;
     sAnimFramesToWait = 0;
     gAnimScriptCallback = RunAnimScriptCommand;

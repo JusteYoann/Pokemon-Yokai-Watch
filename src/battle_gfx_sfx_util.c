@@ -1,4 +1,5 @@
 #include "global.h"
+#include "spiraton_art.h"
 #include "spiraton_battle.h"
 #include "gflib.h"
 #include "m4a.h"
@@ -119,6 +120,7 @@ void AllocateBattleSpritesData(void)
 
 void FreeBattleSpritesData(void)
 {
+    SpiratonArtRelease();
     if (gBattleSpritesDataPtr)
     {
         FREE_AND_SET_NULL(gBattleSpritesDataPtr->battleBars);
@@ -715,7 +717,10 @@ void HandleSpeciesGfxDataChange(u8 battlerAtk, u8 battlerDef, u8 transformType)
         else
             targetSpecies = GetMonData(&gPlayerParty[gBattlerPartyIndexes[battlerDef]], MON_DATA_SPECIES);
         if (SpiratonBattleTransformSpecies(battlerAtk) != 0)
+        {
+            SpiratonArtRelease();
             targetSpecies = SpiratonBattleTransformSpecies(battlerAtk);
+        }
         if (GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
         {
             personalityValue = GetMonData(&gPlayerParty[gBattlerPartyIndexes[battlerAtk]], MON_DATA_PERSONALITY);

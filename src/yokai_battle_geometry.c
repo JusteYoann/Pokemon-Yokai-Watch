@@ -1,4 +1,5 @@
 #include "global.h"
+#include "spiraton_art.h"
 #include "gflib.h"
 #include "battle.h"
 #include "data.h"
@@ -13,6 +14,8 @@ extern u8 gOamLimit;
 const struct YokaiBattleGeometry *GetYokaiBattleGeometry(u8 battler)
 {
     u16 species;
+    if (battler == 1 && SpiratonArtIsActive())
+        return NULL;
     if (!gMain.inBattle || battler >= gBattlersCount || gBattleSpritesDataPtr == NULL
         || gMonSpritesGfxPtr == NULL || gBattleSpritesDataPtr->battlerData[battler].behindSubstitute)
         return NULL;

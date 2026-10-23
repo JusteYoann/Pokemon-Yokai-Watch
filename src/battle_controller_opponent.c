@@ -1,4 +1,5 @@
 #include "global.h"
+#include "spiraton_art.h"
 #include "gflib.h"
 #include "data.h"
 #include "m4a.h"
@@ -1046,6 +1047,7 @@ static void OpponentHandleLoadMonSprite(void)
     StartSpriteAnim(&gSprites[gBattlerSpriteIds[gActiveBattler]], gBattleMonForms[gActiveBattler]);
     if (!(gBattleTypeFlags & BATTLE_TYPE_GHOST))
         SetBattlerShadowSpriteCallback(gActiveBattler, GetMonData(&gEnemyParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_SPECIES));
+    SpiratonArtLoad(gActiveBattler);
     gBattlerControllerFuncs[gActiveBattler] = TryShinyAnimAfterMonAnim;
 }
 
