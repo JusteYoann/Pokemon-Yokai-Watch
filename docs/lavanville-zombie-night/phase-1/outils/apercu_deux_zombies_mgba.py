@@ -8,7 +8,8 @@ from PIL import Image
 R=Path(__file__).resolve().parents[4];sys.path.insert(0,str(R/'tools/yokai'))
 from mgba_new_game import new_game
 from mafiamille_qa import MAPS,warp
-D=Path(__file__).resolve().parents[1]/'prototypes/apercu-deux-zombies-mgba';D.mkdir(exist_ok=True)
+D=Path(os.environ.get('YOKAI_ZOMBIE_PREVIEW_DIR',str(Path(__file__).resolve().parents[1]/'prototypes/apercu-deux-zombies-mgba')));D.mkdir(parents=True,exist_ok=True)
+A=Path(os.environ.get('YOKAI_ZOMBIE_ASSET_DIR',str(D)));names=os.environ.get('YOKAI_ZOMBIE_PREVIEW_NAMES','zombie-1,zombie-2').split(',')
 def tiles(im):
  data=list(im.getdata());b=bytearray()
  for ty in range(4):
@@ -23,8 +24,8 @@ try:
  # Upload through native sheet/palette allocators, not post-render compositing.
  sid=r.read(r.symbols['gPlayerAvatar']+4,1)[0];a=r.symbols['gSprites']+68*sid
  px,py=struct.unpack('<hh',r.read(a+32,4));priority=struct.unpack('<H',r.read(a+4,2))[0]&0xC00
- for i,name in enumerate(['zombie-1','zombie-2']):
-  im=Image.open(D/(name+'.png'));assert im.mode=='P' and im.size==(32,32)
+ for i,name in enumerate(names):
+  im=Image.open(A/(name+'.png'));assert im.mode=='P' and im.size==(32,32)
   opaque={c for c in im.getdata() if c};assert len(opaque)<=15
   pal=im.getpalette();gba=struct.pack('<16H',*[((pal[j*3]>>3)|((pal[j*3+1]>>3)<<5)|((pal[j*3+2]>>3)<<10)) for j in range(16)])
   mem=r.call('AllocZeroed',1024);assert mem
@@ -34,7 +35,7 @@ try:
   r.write(mem+560,struct.pack('<IHH',mem+512,tag,0));bank=r.call('LoadSpritePalette',mem+560);assert bank<16
   r.write(mem+568,struct.pack('<4H',0,0x8000,priority,0))
   r.write(mem+576,struct.pack('<HHIIIII',tag,tag,mem+568,r.symbols['gDummySpriteAnimTable'],0,r.symbols['gDummySpriteAffineAnimTable'],r.symbols['SpriteCallbackDummy']|1))
-  obj=r.call('CreateSprite',mem+576,px+(-32 if i==0 else 32),py,0x70);assert obj<64
+  obj=r.call('CreateSprite',mem+576,px+(-16 if len(names)==1 else (-32 if i==0 else 32)),py,0x70);assert obj<64
   sp=r.symbols['gSprites']+68*obj+62;r.write(sp,bytes([r.read(sp,1)[0]|2]));r.run(3)
   records.append(dict(name=name,sprite_id=obj,palette_bank=bank,tile_start=tile,canvas=[32,32],silhouette=list(im.convert('RGBA').getbbox())))
  r.run(30);r.frame.save(D/'mgba-jour-natif.png');r.frame.resize((960,640),Image.Resampling.NEAREST).save(D/'mgba-jour-x4.png')
@@ -67,6 +68,6 @@ try:
   flag=r.symbols['gSprites']+68*row['sprite_id']+62;r.write(flag,bytes([r.read(flag,1)[0]|4]))
  r.run(2);r.frame.save(D/'mgba-nuit-sans-zombies-natif.png');r.frame.resize((960,640),Image.Resampling.NEAREST).save(D/'mgba-nuit-sans-zombies-x4.png')
  assert all(r.read(r.symbols['gSprites']+68*row['sprite_id']+62,1)[0]&4 for row in records)
- result=dict(clean_plate_two_zombie_sprites_hidden=True,engine='mGBA libretro',rom_sha256=hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),rom_bytes=len(r.rom_buffer.raw)-1,scope='Real emulator frame capture after native LoadSpriteSheet/LoadSpritePalette/CreateSprite RAM fixtures. Not a montage. Static poses only, no NPC events, patrols, collisions or progression integration.',rom_unchanged=True,sprites=records,night_weather_palette=weatherbank,animated_fog=True)
+ result=dict(clean_plate_all_test_sprites_hidden=True,test_sprite_count=len(records),engine='mGBA libretro',rom_sha256=hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),rom_bytes=len(r.rom_buffer.raw)-1,scope='Real emulator frame capture after native LoadSpriteSheet/LoadSpritePalette/CreateSprite RAM fixtures; sprite count recorded separately. Not a montage. Static poses only, no NPC events, patrols, collisions or progression integration.',rom_unchanged=True,sprites=records,night_weather_palette=weatherbank,animated_fog=True)
 finally:r.close()
 (D/'TEST_MGBA.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');print(json.dumps(result))

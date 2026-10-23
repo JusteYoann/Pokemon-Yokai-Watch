@@ -1,0 +1,29 @@
+{
+  "clean_plate_all_test_sprites_hidden": true,
+  "test_sprite_count": 1,
+  "engine": "mGBA libretro",
+  "rom_sha256": "af807f4b8e2b6f7367208c1b25355a93b90b9937241295dd23e34b382df906cf",
+  "rom_bytes": 31658395,
+  "scope": "Real emulator frame capture after native LoadSpriteSheet/LoadSpritePalette/CreateSprite RAM fixtures; sprite count recorded separately. Not a montage. Static poses only, no NPC events, patrols, collisions or progression integration.",
+  "rom_unchanged": true,
+  "sprites": [
+    {
+      "name": "front",
+      "sprite_id": 5,
+      "palette_bank": 13,
+      "tile_start": 40,
+      "canvas": [
+        32,
+        32
+      ],
+      "silhouette": [
+        9,
+        11,
+        23,
+        31
+      ]
+    }
+  ],
+  "night_weather_palette": 12,
+  "animated_fog": true
+}

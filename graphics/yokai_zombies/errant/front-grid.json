@@ -1,0 +1,96 @@
+{
+  "status": "User-approved visual design; manually transcribed source grid awaiting pixel/color comparison against downloadable original",
+  "reference": "User grid image displayed in conversation, logical cells ~24x24 screen pixels; original binary unavailable",
+  "width": 14,
+  "height": 20,
+  "frame_width": 32,
+  "frame_height": 32,
+  "frame_x": 9,
+  "frame_y": 11,
+  "foot_y": 30,
+  "palette_rgb555": {
+    ".": [
+      0,
+      0,
+      0
+    ],
+    "K": [
+      0,
+      0,
+      0
+    ],
+    "F": [
+      112,
+      24,
+      48
+    ],
+    "P": [
+      200,
+      56,
+      80
+    ],
+    "L": [
+      240,
+      104,
+      128
+    ],
+    "H": [
+      160,
+      184,
+      56
+    ],
+    "G": [
+      104,
+      152,
+      56
+    ],
+    "S": [
+      72,
+      96,
+      40
+    ],
+    "T": [
+      48,
+      104,
+      80
+    ],
+    "R": [
+      248,
+      0,
+      0
+    ],
+    "I": [
+      240,
+      232,
+      184
+    ],
+    "B": [
+      88,
+      120,
+      48
+    ]
+  },
+  "rows": [
+    "......FFF.....",
+    "........FF....",
+    "......FFPF....",
+    "......FPPF....",
+    ".....FLPF.....",
+    "....KKFFFKK...",
+    "...KKSHHHHK...",
+    "..KSSGTGGGGK..",
+    "..KGGGGGGGGK..",
+    "..KSSSGGGGGK..",
+    "..KKKKGGKKKK..",
+    "..KKRKGGKRKK..",
+    "..KGGGKKGGGK..",
+    "...KSSIISSK...",
+    ".KKSSSSSSSSKK.",
+    ".KGSGGTGGGSSK.",
+    "KSSKGGGTGGKSGK",
+    ".KKKGBTTBGKKK.",
+    "...KGBKKBGK...",
+    "....KK..KK...."
+  ],
+  "scope": "Front only. No back/side/walk frames invented."
+}
