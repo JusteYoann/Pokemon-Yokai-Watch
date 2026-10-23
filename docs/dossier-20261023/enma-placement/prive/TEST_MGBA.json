@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "rom_sha256": "a6cad6bda634616203ae0f8eba40364db0be43363c5e754ed3fff132723d45e2",
+  "checks": [
+    {
+      "test": "front uniform native hardware matrix and original indexed pixels",
+      "passed": true,
+      "inverse_scale": 225,
+      "center": [
+        170,
+        36
+      ],
+      "geometry": [
+        225,
+        225,
+        -6,
+        -4,
+        -34,
+        -32,
+        70,
+        65
+      ],
+      "hardware_matrix_diagonal": [
+        225,
+        225
+      ]
+    },
+    {
+      "test": "back uniform native hardware matrix and original indexed pixels",
+      "passed": true,
+      "inverse_scale": 170,
+      "center": [
+        78,
+        97
+      ],
+      "geometry": [
+        170,
+        170,
+        6,
+        17,
+        -40,
+        -43,
+        83,
+        87
+      ],
+      "hardware_matrix_diagonal": [
+        170,
+        170
+      ]
+    },
+    {
+      "test": "front native animation background matches uniform silhouette",
+      "passed": true,
+      "width": 70,
+      "height": 65,
+      "tile_bytes": 2592
+    },
+    {
+      "test": "back native animation background matches uniform silhouette",
+      "passed": true,
+      "width": 83,
+      "height": 87,
+      "tile_bytes": 3872
+    },
+    {
+      "test": "Real damaging move completed through controller; uniform layout retained on return to action menu",
+      "passed": true,
+      "enemy_hp_before": 241,
+      "enemy_hp_after": 195
+    }
+  ],
+  "failure": null,
+  "scope": "Native mGBA Enma approved front/back layout, original textures and animation background checks. Map and parties are explicit fixtures; no sprite OAM or enemy outcome patches."
+}
