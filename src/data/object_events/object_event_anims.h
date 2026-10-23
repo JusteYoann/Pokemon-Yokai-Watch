@@ -1619,10 +1619,27 @@ static const union AnimCmd *const sAnimTable_KatieFish[] = {
     [ANIM_HOOKED_POKEMON_EAST] = sAnim_HookedPokemonEast_KatieFish,
 };
 
-// Static companion: only the two supplied views, no invented walking cycle.
+// Static companion: two supplied views; native action indices alias these poses.
 static const union AnimCmd *const sAnimTable_CramoisHovernyan[] = {
-    [ANIM_STD_FACE_SOUTH] = sAnim_QuintyPlumpFaceSouth,
-    [ANIM_STD_FACE_NORTH] = sAnim_QuintyPlumpFaceNorth,
-    [ANIM_STD_FACE_WEST] = sAnim_QuintyPlumpFaceSouth,
-    [ANIM_STD_FACE_EAST] = sAnim_QuintyPlumpFaceSouth,
+    [0] = sAnim_QuintyPlumpFaceSouth,
+    [1] = sAnim_QuintyPlumpFaceNorth,
+    [2] = sAnim_QuintyPlumpFaceSouth,
+    [3] = sAnim_QuintyPlumpFaceSouth,
+    [4] = sAnim_QuintyPlumpFaceSouth,
+    [5] = sAnim_QuintyPlumpFaceNorth,
+    [6] = sAnim_QuintyPlumpFaceSouth,
+    [7] = sAnim_QuintyPlumpFaceSouth,
+    [8] = sAnim_QuintyPlumpFaceSouth,
+    [9] = sAnim_QuintyPlumpFaceNorth,
+    [10] = sAnim_QuintyPlumpFaceSouth,
+    [11] = sAnim_QuintyPlumpFaceSouth,
+    [12] = sAnim_QuintyPlumpFaceSouth,
+    [13] = sAnim_QuintyPlumpFaceNorth,
+    [14] = sAnim_QuintyPlumpFaceSouth,
+    [15] = sAnim_QuintyPlumpFaceSouth,
+    [16] = sAnim_QuintyPlumpFaceSouth,
+    [17] = sAnim_QuintyPlumpFaceNorth,
+    [18] = sAnim_QuintyPlumpFaceSouth,
+    [19] = sAnim_QuintyPlumpFaceSouth,
+    [20] = sAnim_QuintyPlumpFaceSouth,
 };

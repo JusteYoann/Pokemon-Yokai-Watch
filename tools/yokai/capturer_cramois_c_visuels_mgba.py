@@ -22,9 +22,9 @@ def playerpos():
  o=r.read(r.symbols['gObjectEvents']+36*r.read(r.symbols['gPlayerAvatar']+5,1)[0],36);return struct.unpack_from('<hh',o,16)
 try:
  strong_party(r);r.call('VarSet',0x40f4,3);warp(r,*MAPS['CinnabarIsland_Gym'],5,5);shot('compagnon-face')
- ptr,o=actor(10);r.call('ObjectEventForceSetHeldMovement',ptr,1);run(30);shot('compagnon-dos-cape');r.call('ObjectEventClearHeldMovementIfFinished',ptr)
+ ptr,o=actor(10);r.call('ObjectEventForceSetHeldMovement',ptr,5);run(30);shot('compagnon-dos-cape');r.call('ObjectEventClearHeldMovementIfFinished',ptr)
  sprite=r.symbols['gSprites']+68*o[4];assert r.read(sprite+42,1)[0]==1;report('Native back-facing companion uses supplied cape-covered frame')
- r.call('ObjectEventForceSetHeldMovement',ptr,0);run(30);r.call('ObjectEventClearHeldMovementIfFinished',ptr)
+ r.call('ObjectEventForceSetHeldMovement',ptr,4);run(30);r.call('ObjectEventClearHeldMovementIfFinished',ptr)
  warp(r,*MAPS['CinnabarIsland_Gym'],6,5);p=playerpos();run(40,4);assert playerpos()==p;report('Companion occupies its tile and blocks overlap normally')
  run(1,8);run(240);shot('interaction-hovernyan')
  for f in range(1200):
@@ -34,6 +34,7 @@ try:
  assert not r.call('FlagGet',0x32e) and not r.call('FlagGet',0x32d);report('Companion native A interaction returns control and grants no gift')
  # Rebuild through a full screen menu, then verify the own OBJ bank again.
  r.call('CB2_BagMenuFromStartMenu');run(180);run(1,0);run(180)
+ if not free():run(1,0);run(90)
  assert free();_,o=actor(10);assert r.read(r.symbols['gPlttBufferUnfaded']+768,32)==r.read(r.symbols['gObjectEventPal_CramoisHovernyan'],32);report('Fullscreen Bag exit restores companion tile and palette')
  # Native sign prompts photographed before choosing any response.
  gym=json.loads((ROOT/'data/maps/CinnabarIsland_Gym/map.json').read_text())

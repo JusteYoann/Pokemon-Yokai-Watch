@@ -126,11 +126,11 @@ try:
  for i in range(6):r.call('CreateMon',r.symbols['gPlayerParty']+100*i,1,50,31,1,100,0,0)
  r.write(r.symbols['gPlayerPartyCount'],b'\6');storage=r.u32(r.symbols['gPokemonStoragePtr']);r.write(storage+4,r.read(r.symbols['gPlayerParty'],80)*420);r.call('FlagClear',GIFT)
  select(8);start('CinnabarIsland_Gym_EventScript_Blaine');assert not finish() and flag(WIN) and not flag(GIFT);shot('boites-pleines');save_continue();assert flag(WIN) and not flag(GIFT);report('Full party + 420 full boxes keeps pending reward across Save/Continue')
- r.write(storage+4,b'\0'*80);select(8);start('CinnabarIsland_Gym_EventScript_Blaine');assert not finish() and flag(GIFT) and r.call('GetBoxMonDataAt',0,0,C['MON_DATA_SPECIES'])==149;shot('hovernyan-envoye-pc');report('Retry after one freed PC slot transfers Hovernyan without another battle')
+ storage=r.u32(r.symbols['gPokemonStoragePtr']);r.write(storage+4,b'\0'*80);select(8);start('CinnabarIsland_Gym_EventScript_Blaine');assert not finish() and flag(GIFT) and r.call('GetBoxMonDataAt',0,0,C['MON_DATA_SPECIES'])==149;shot('hovernyan-envoye-pc');report('Retry after one freed PC slot transfers Hovernyan without another battle')
  save_continue();select(8);start('CinnabarIsland_Gym_EventScript_Blaine');assert not finish() and flag(GIFT) and r.call('GetBoxMonDataAt',0,1,C['MON_DATA_SPECIES'])!=149;report('PC reward cannot duplicate after Save/Continue')
  # Female variant: full native first victory and postgame victory with PC transfer.
- r.close();r=new_game(1);strong_party(r);r.call('VarSet',0x40f4,3);stage();companion('Michael and Hovernyan initial spawn');shot('michael-hovernyan')
- run(1,4);run(18);run(1,8);movie=[];assert finish(movie=movie) and flag(MEET) and flag(0x826);movies['rencontre-michael-et-defi']=movie;report('Michael actual first victory preserves Badge/CT route')
+ r.close();r=new_game(1);strong_party(r);r.call('VarSet',0x40f4,3);r.call('FlagSet',0x82c);stage();companion('Michael and Hovernyan initial spawn');shot('michael-hovernyan')
+ run(1,4);run(18);run(1,8);movie=[];assert finish(movie=movie) and flag(MEET) and flag(0x826) and not flag(GIFT) and not flag(WIN);movies['rencontre-michael-et-defi']=movie;report('Michael actual first victory preserves Badge/CT and cannot gift even with League flag already set')
  r.call('FlagSet',0x82c);select(8);start('CinnabarIsland_Gym_EventScript_Blaine');answer(True);assert finish() and flag(GIFT) and flag(WIN);report('Michael actual postgame victory awards Hovernyan')
  save_continue();companion('Michael companion remains after postgame gift and Save/Continue')
  passed=True
