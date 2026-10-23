@@ -29,11 +29,6 @@ static EWRAM_DATA u8 sOldAttacker = 0, sOldTarget = 0;
 static EWRAM_DATA u16 sOldMove = 0;
 static EWRAM_DATA void (*sResume)(void) = NULL;
 const u8 gSpiratonBattleName[] = _("DON SPIRATON");
-static const u8 sCureBurn[] = _("DON SPIRATON n'est plus brûlé !");
-static const u8 sCurePoison[] = _("DON SPIRATON n'est plus\nempoisonné !");
-static const u8 sCureParalysis[] = _("DON SPIRATON n'est plus\nparalysé !");
-static const u8 sCureSleep[] = _("DON SPIRATON s'est réveillé !");
-static const u8 sCureFreeze[] = _("DON SPIRATON n'est plus gelé !");
 
 void SpiratonBattleArmPrototype(void) { sArmed = TRUE; }
 bool8 SpiratonBattlePrototypeArmed(void) { return sArmed; }
@@ -146,18 +141,17 @@ static void TransformStep(void)
     gBattlerTarget = 0;
     if (sStep == 0)
     {
-        const u8 *cure = NULL;
+        u16 cure = 0;
         u32 status = gBattleMons[1].status1;
-        if (status & STATUS1_BURN) cure = sCureBurn;
-        else if (status & (STATUS1_POISON | STATUS1_TOXIC_POISON)) cure = sCurePoison;
-        else if (status & STATUS1_PARALYSIS) cure = sCureParalysis;
-        else if (status & STATUS1_SLEEP) cure = sCureSleep;
-        else if (status & STATUS1_FREEZE) cure = sCureFreeze;
+        if (status & STATUS1_BURN) cure = STRINGID_SPIRATON_CURE_BURN;
+        else if (status & (STATUS1_POISON | STATUS1_TOXIC_POISON)) cure = STRINGID_SPIRATON_CURE_POISON;
+        else if (status & STATUS1_PARALYSIS) cure = STRINGID_SPIRATON_CURE_PARALYSIS;
+        else if (status & STATUS1_SLEEP) cure = STRINGID_SPIRATON_CURE_SLEEP;
+        else if (status & STATUS1_FREEZE) cure = STRINGID_SPIRATON_CURE_FREEZE;
         ++sStep;
-        if (cure != NULL)
+        if (cure != 0)
         {
-            StringCopy(gBattleTextBuff1, cure);
-            PrepareStringBattle(STRINGID_SPIRATON_CURE, 1);
+            PrepareStringBattle(cure, 1);
             sWait = 90;
             return;
         }

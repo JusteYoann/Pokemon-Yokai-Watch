@@ -60,7 +60,7 @@ try:
     if hp==0 and phase<7:pending_saw=True
    if status_name and injected and not cure_seen:
     value,label=statuses[status_name];expected=r.read(r.symbols[label],90).split(b'\xff')[0]
-    if r.read(r.symbols['gBattleTextBuff1'],len(expected))==expected:
+    if r.read(r.symbols['gDisplayedStringBattle'],len(expected))==expected:
      cure_seen=True;r.keys=set();r.run(100);r.frame.save(Q/'statut-retire.png')
    if f%32==0:captures.append(r.frame.copy())
    if f%256==0:

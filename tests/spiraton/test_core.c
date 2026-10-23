@@ -10,6 +10,7 @@ int main(void)
     struct SpiratonVisibleOpponent opponent = {1, 60, {10, 10}, {0}};
     u16 target, species[8];
     unsigned cases = 0;
+    uint32_t checksum = 2166136261U;
     assert(SpiratonCoreTypeMultiplier(0, 7, 7) == 0); /* Normal/Ghost */
     assert(SpiratonCoreTypeMultiplier(1, 7, 7) == 0); /* Fighting/Ghost */
     assert(SpiratonCoreTypeMultiplier(13, 4, 4) == 0); /* Electric/Ground */
@@ -32,6 +33,7 @@ int main(void)
         for (phase = 0; phase < 8; phase++)
         {
             species[phase] = state.form.species;
+            checksum = (checksum ^ species[phase]) * 16777619U;
             assert(state.form.level == 56 + phase);
             assert(state.hp == state.form.hp && state.hp > 0);
             for (i = 0; i < phase; i++) assert(species[i] != species[phase]);
@@ -70,5 +72,6 @@ int main(void)
     species[1] = SpiratonCoreSelect(&state, &opponent);
     assert(species[0] != species[1]);
     printf("PASS: %u phase cases; 151 targets; legal distinct moves; no repeated forms; deterministic adaptive selection; state=%zu bytes\n", cases, sizeof(state));
+    printf("selection checksum %08x\n", checksum);
     return 0;
 }

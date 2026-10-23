@@ -47,65 +47,121 @@ static u32 Effectiveness(u8 type, const u8 *types)
 {
     u32 mult = sSpiratonTypeChart[type][types[0]];
     if (types[0] != types[1])
-        mult = mult * sSpiratonTypeChart[type][types[1]] / 10;
+        mult = (mult * sSpiratonTypeChart[type][types[1]] * 205U) >> 11;
     return mult;
 }
 
-/* An explicit threat model, not an omniscient damage calculator. It does not
- * inspect the target's IVs, nature, EVs, held item, ability or hidden moves.
- * Power-one special formulas and variable-type attacks are excluded from the
- * offensive score rather than pretending their nominal power is real damage. */
-static u32 MoveScore(u16 move, u16 species, u8 level,
-                     const struct SpiratonVisibleOpponent *opponent)
+/* Cache target estimates once, rather than divide for every candidate move.
+ * Candidate phase stats are read-only ROM values derived from the original data.
+ * The Q16 damage model is deterministic and bounded below 32-bit overflow for
+ * levels1..100 and this catalogue; it remains an explicit heuristic, not a
+ * claim to reproduce every damage effect, nature, item or hidden ability. */
+struct SpiratonEvaluation
+{
+    u16 defense, spDefense, speed;
+    u32 inverseDefense, inverseSpDefense;
+    u8 effectiveness[18];
+};
+
+static void EvaluateTarget(struct SpiratonEvaluation *result,
+                           const struct SpiratonVisibleOpponent *opponent)
+{
+    const struct SpiratonSpecies *target = &sSpiratonSpecies[opponent->species];
+    u8 i;
+    result->defense = Stat(target->stats[2], opponent->level);
+    result->spDefense = Stat(target->stats[5], opponent->level);
+    result->speed = Stat(target->stats[3], opponent->level);
+    result->inverseDefense = 65536U / result->defense;
+    result->inverseSpDefense = 65536U / result->spDefense;
+    for (i = 0; i < 18; i++)
+        result->effectiveness[i] = Effectiveness(i, opponent->types);
+}
+
+static u32 RankedMoveScore(u16 move, const struct SpiratonForm *form,
+                           const struct SpiratonEvaluation *target, const u32 *factors)
 {
     const struct SpiratonMove *m = &sSpiratonMoves[move];
-    const struct SpiratonSpecies *own = &sSpiratonSpecies[species];
-    const struct SpiratonSpecies *target = &sSpiratonSpecies[opponent->species];
-    u32 damage, mult;
-    u16 attack, defense;
+    u32 damage;
     if (m->power <= 1)
         return 0;
-    mult = Effectiveness(m->type, opponent->types);
-    attack = Stat(own->stats[m->type < 9 ? 1 : 4], level);
-    defense = Stat(target->stats[m->type < 9 ? 2 : 5], opponent->level);
-    damage = (((2 * level / 5 + 2) * m->power * attack / defense) / 50 + 2) * mult;
-    if (m->type == own->types[0] || m->type == own->types[1])
+    damage = (((m->power * factors[m->type < 9 ? 0 : 1]) >> 16) + 2)
+           * target->effectiveness[m->type];
+    if (m->type == form->types[0] || m->type == form->types[1])
         damage = damage * 3 / 2;
-    damage = damage * (m->accuracy == 0 ? 100 : m->accuracy) / 100;
+    /* Accuracy is pre-scaled with a bounded reciprocal: no software division
+     * in the hot move loop. Rounding differences belong to the scoring model. */
+    if (m->accuracy != 0 && m->accuracy != 100)
+        damage = (damage * ((m->accuracy * 656U) >> 8)) >> 8;
     if (m->priority > 0)
-        damage = damage * 11 / 10;
+        damage = (damage * 282U) >> 8;
     return damage;
 }
 
-void SpiratonCoreBuildForm(struct SpiratonForm *form, u16 species, u8 level,
-                          const struct SpiratonVisibleOpponent *opponent)
+static void BuildRankedForm(struct SpiratonForm *form, u16 species, u8 level,
+                            const struct SpiratonEvaluation *target, u32 *bestMoveScore, bool8 selectionOnly)
 {
-    const struct SpiratonSpecies *entry;
+    const struct SpiratonSpecies *entry = &sSpiratonSpecies[species];
     u32 scores[4] = {0};
+    u32 factors[2];
+    u16 stats[6];
     u16 i;
     u8 j, k;
     *form = (struct SpiratonForm){0};
-    if (species == 0 || species > 151 || level < 1 || level > 100 || !ValidOpponent(opponent))
-        return;
-    entry = &sSpiratonSpecies[species];
     form->species = species;
     form->level = level;
-    form->hp = Stat(entry->stats[0], level) + level + 5;
-    form->attack = Stat(entry->stats[1], level);
-    form->defense = Stat(entry->stats[2], level);
-    form->speed = Stat(entry->stats[3], level);
-    form->spAttack = Stat(entry->stats[4], level);
-    form->spDefense = Stat(entry->stats[5], level);
+    if (level >= 56 && level <= 63)
+    {
+        for (j = 0; j < 6; j++)
+            stats[j] = sSpiratonPhaseStats[level - 56][species][j];
+    }
+    else
+    {
+        for (j = 0; j < 6; j++)
+            stats[j] = Stat(entry->stats[j], level);
+        stats[0] += level + 5;
+    }
+    form->hp = stats[0];
+    form->attack = stats[1];
+    form->defense = stats[2];
+    form->speed = stats[3];
+    form->spAttack = stats[4];
+    form->spDefense = stats[5];
     form->types[0] = entry->types[0];
     form->types[1] = entry->types[1];
     form->ability = entry->ability;
+    if (level >= 56 && level <= 63)
+    {
+        factors[0] = (sSpiratonPhaseStats[level - 56][species][6] * target->inverseDefense) >> 8;
+        factors[1] = (sSpiratonPhaseStats[level - 56][species][7] * target->inverseSpDefense) >> 8;
+    }
+    else
+    {
+        factors[0] = ((2 * level / 5 + 2) * form->attack * 65536U) / (target->defense * 50);
+        factors[1] = ((2 * level / 5 + 2) * form->spAttack * 65536U) / (target->spDefense * 50);
+    }
+#ifndef SPIRATON_BRUTE_SELECTION
+    if (selectionOnly && level >= 56 && level <= 63)
+    {
+        const struct SpiratonThreatRange *range = &sSpiratonThreatRanges[level - 56][species];
+        *bestMoveScore = 0;
+        for (i = 0; i < range->count; i++)
+        {
+            u32 score = RankedMoveScore(sSpiratonThreatMoves[range->start + i], form, target, factors);
+            if (score > *bestMoveScore)
+                *bestMoveScore = score;
+        }
+        return;
+    }
+#else
+    (void)selectionOnly;
+#endif
     for (i = 0; i < entry->count; i++)
     {
         const struct SpiratonLegalMove *m = &sSpiratonLegalMoves[entry->start + i];
         u32 score;
         if (m->level > level)
             continue;
-        score = MoveScore(m->move, species, level, opponent);
+        score = RankedMoveScore(m->move, form, target, factors);
         for (j = 0; j < 4; j++)
         {
             if (form->moves[j] == 0 || score > scores[j]
@@ -122,6 +178,19 @@ void SpiratonCoreBuildForm(struct SpiratonForm *form, u16 species, u8 level,
             }
         }
     }
+    *bestMoveScore = scores[0];
+}
+
+void SpiratonCoreBuildForm(struct SpiratonForm *form, u16 species, u8 level,
+                          const struct SpiratonVisibleOpponent *opponent)
+{
+    struct SpiratonEvaluation target;
+    u32 bestMoveScore;
+    *form = (struct SpiratonForm){0};
+    if (species == 0 || species > 151 || level < 1 || level > 100 || !ValidOpponent(opponent))
+        return;
+    EvaluateTarget(&target, opponent);
+    BuildRankedForm(form, species, level, &target, &bestMoveScore, FALSE);
 }
 
 u16 SpiratonCoreSelect(const struct SpiratonState *state,
@@ -129,20 +198,18 @@ u16 SpiratonCoreSelect(const struct SpiratonState *state,
 {
     u16 species, best = 0;
     u32 bestScore = 0;
+    struct SpiratonEvaluation target;
     if (!state->active || !state->pending || state->phase >= 7 || !ValidOpponent(opponent))
         return 0;
+    EvaluateTarget(&target, opponent);
     for (species = 1; species <= 151; species++)
     {
         struct SpiratonForm form;
-        const struct SpiratonSpecies *target = &sSpiratonSpecies[opponent->species];
-        u32 threat, pressure = 0, bulk, score;
+        u32 threat, pressure, bulk, score;
         u8 i;
         if (Used(state, species))
             continue;
-        SpiratonCoreBuildForm(&form, species, 57 + state->phase, opponent);
-        threat = MoveScore(form.moves[0], species, form.level, opponent);
-        /* Resistances to the active species' public types; revealed offensive
-         * move types add pressure. No inferred access to its full moveset. */
+        BuildRankedForm(&form, species, 57 + state->phase, &target, &threat, TRUE);
         pressure = Effectiveness(opponent->types[0], form.types)
                  + Effectiveness(opponent->types[1], form.types);
         for (i = 0; i < 4; i++)
@@ -151,9 +218,9 @@ u16 SpiratonCoreSelect(const struct SpiratonState *state,
             if (move < ARRAY_COUNT(sSpiratonMoves) && sSpiratonMoves[move].power > 1)
                 pressure += Effectiveness(sSpiratonMoves[move].type, form.types);
         }
-        bulk = form.hp * (form.defense + form.spDefense) / (20 + pressure);
+        bulk = (form.hp * (form.defense + form.spDefense) * sSpiratonBulkRecip[pressure]) >> 16;
         score = threat * 16 + bulk;
-        if (form.speed > Stat(target->stats[3], opponent->level))
+        if (form.speed > target.speed)
             score += threat * 4;
         if (best == 0 || score > bestScore)
         {

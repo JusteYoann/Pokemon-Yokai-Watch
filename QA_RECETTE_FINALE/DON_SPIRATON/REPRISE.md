@@ -72,3 +72,11 @@ Ressources audio : mêmes fichiers privés que le jalon Argenta. Aucune nouvelle
 3. Monter la scène de Ligue avec les graphismes Don/Matt/gardes existants, soin natif complet, flash blanc et retrait hors champ, puis appel du vrai boss. Réutiliser la correction de palettes locale pour Matt/Don.
 4. Proposer les répliques finales selon la nouvelle direction ; relier ensuite Panthéon/flags/postgame sans relancer Matt en première conquête.
 5. Recette de sauvegardes et de l'ensemble des deux combats, avec captures natives et conditions normales.
+
+## Récupération du 23 octobre 2026
+
+Le commit `1a3ea491f2d253140033c3dacfca14d0ba5fdef6` a été retrouvé localement et confirmé par `git ls-remote` sur la branche distante. Les modifications locales récupérées ont été sauvegardées hors dépôt dans `/workspace/spiraton-recovery-20261023.patch`.
+
+Corrections récupérées : sélection accélérée par statistiques précalculées et élimination des attaques dominées (même type/priorité), vérifiée contre le calcul exhaustif : 1 208 cas, checksum `495816fb` identique. Trois séquences ARM mesurent deux images par sélection dans mGBA. Les longs messages de guérison utilisent maintenant des identifiants de chaînes dédiés : aucun texte long n'est copié dans le tampon de 16 octets. Une nouvelle exécution du combat natif avec brûlure confirme son retrait et son message après cette correction. ROM publique et privée recompilées.
+
+Le nouveau document de reprise remet la première espèce et les six couleurs supplémentaires en attente : les anciens choix deviennent provisoires de diagnostic. Ne pas les présenter comme validés définitivement. Le véritable sprite initial manque toujours ; Bouh demeure une image de diagnostic uniquement.

@@ -1,7 +1,7 @@
 {
   "passed": true,
   "scope": "Isolated eight-form battle prototype. Initial true-form artwork/UI not approved.\n\nStarts diagnostic trainer 744 explicitly, with a boosted QA player. No production\nmap arms this encounter. Controller selects moves; no enemy HP/PP writes.\n",
-  "rom_sha256": "edfe708baacda47ad2aaa7f9998f51e72290983d544a6b7ecf622d5206191eb6",
+  "rom_sha256": "2ca7e9fd2ebd6798986a4b7e8eae70f6f5209eaaf38dd69899cbe521f45c0a61",
   "forms": [
     {
       "phase": 1,
@@ -11,49 +11,51 @@
     },
     {
       "phase": 2,
-      "species": 12,
+      "species": 130,
       "level": 57,
       "first_frame": 1536
     },
     {
       "phase": 3,
-      "species": 67,
+      "species": 12,
       "level": 58,
-      "first_frame": 2920
+      "first_frame": 3328
     },
     {
       "phase": 4,
-      "species": 130,
+      "species": 138,
       "level": 59,
-      "first_frame": 4184
+      "first_frame": 5600
     },
     {
       "phase": 5,
-      "species": 88,
+      "species": 51,
       "level": 60,
-      "first_frame": 5232
+      "first_frame": 6808
     },
     {
       "phase": 6,
-      "species": 149,
+      "species": 67,
       "level": 61,
-      "first_frame": 6592
+      "first_frame": 9464
     },
     {
       "phase": 7,
-      "species": 84,
+      "species": 149,
       "level": 62,
-      "first_frame": 9080
+      "first_frame": 10968
     },
     {
       "phase": 8,
-      "species": 66,
+      "species": 39,
       "level": 63,
-      "first_frame": 10480
+      "first_frame": 14000
     }
   ],
   "production_scene": false,
   "approved_true_form_artwork": false,
+  "qa_player_initial_level": 65,
+  "intermediate_exp_checked_below_level_cap": true,
   "approved_hp_colors": true,
   "layer_palette_checks": {
     "0": 6,
