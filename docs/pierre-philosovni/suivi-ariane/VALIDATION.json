@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "code_commit": "a1f84a20d16b29de02c5fd7eb441d4b8c74288df",
+  "branch": "feature/pierre-philosovni-carmin",
+  "master_merged": false,
+  "versions": [
+    {
+      "version": "public",
+      "rom_sha256": "5ed1b9de0ba4d01dbb99c71e256b6833cd16e06169b7e3eaedcded05dce3e68a",
+      "rom_bytes": 16777216,
+      "native_checks": 14,
+      "font_lines": 201,
+      "passed": true
+    },
+    {
+      "version": "prive",
+      "rom_sha256": "4c3cc08b0662963f418fa3eda9b293d112c4e52b4a72e466b9ec7fb8ad1ec9f8",
+      "rom_bytes": 31677019,
+      "native_checks": 14,
+      "font_lines": 201,
+      "passed": true
+    }
+  ],
+  "ewram_used": 261348,
+  "ewram_free": 796,
+  "iwram_public": 29824,
+  "iwram_private": 29888
+}

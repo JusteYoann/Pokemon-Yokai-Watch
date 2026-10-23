@@ -1,6 +1,8 @@
 # Le mystère de la Pierre Philosovni
 
-**Ajustement visuel ultérieur : [Usapion plus petit sur la carte](usapion-plus-petit/README.md).**
+**Version actuelle : [Ariane suit le joueur, rappel après cinq secondes et retrait d’Usapion des cartes](suivi-ariane/README.md).**
+
+La description et les rapports ci-dessous documentent l’intégration initiale. Le suivi continu remplace désormais les rendez-vous décrits plus bas. Le précédent [essai de réduction d’Usapion](usapion-plus-petit/README.md) est conservé comme historique ; son acteur sur les cartes a ensuite été supprimé.
 
 Chapitre intégré sur **feature/pierre-philosovni-carmin**, depuis la version validée des Champions, Lavanville et Don Morléone. Aucun merge sur master.
 
