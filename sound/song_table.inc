@@ -263,89 +263,89 @@ gSongTable::
 	song mus_obtain_tmhm, 2, 2
 	song mus_obtain_berry, 2, 2
 	song mus_evolution_intro, 2, 2
-	song mus_evolution, 0, 0
-	song mus_rs_vs_gym_leader, 0, 0
-	song mus_rs_vs_trainer, 0, 0
-	song mus_school, 0, 0
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_evolution
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_rs_vs_gym_leader
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_rs_vs_trainer
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_school
 	song mus_slots_jackpot, 2, 2
 	song mus_slots_win, 2, 2
 	song mus_move_deleted, 2, 2
 	song mus_too_bad, 2, 2
-	song mus_follow_me, 0, 0
-	song mus_game_corner, 0, 0
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_follow_me
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_game_corner
 	song mus_rocket_hideout, 0, 0
-	song mus_gym, 0, 0
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_gym
 	song mus_jigglypuff, 2, 2
-	song mus_intro_fight, 0, 0
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_intro_fight
 	song mus_title, 0, 0
-	song mus_cinnabar, 0, 0
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_cinnabar
 	song mus_lavender, 0, 0
-	song mus_heal_unused, 0, 0
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_heal_unused
 	song mus_cycling, 0, 0
-	song mus_encounter_rocket, 0, 0
-	song mus_encounter_girl, 0, 0
-	song mus_encounter_boy, 0, 0
-	song mus_hall_of_fame, 0, 0
-	song mus_viridian_forest, 0, 0
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_encounter_rocket
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_encounter_girl
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_encounter_boy
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_hall_of_fame
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_viridian_forest
 	song mus_mt_moon, 0, 0
-	song mus_poke_mansion, 0, 0
-	song mus_credits, 0, 0
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_poke_mansion
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_credits
 	song mus_route1, 0, 0
 	song mus_route24, 0, 0
-	song mus_route3, 0, 0
-	song mus_route11, 0, 0
-	song mus_victory_road, 0, 0
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_route3
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_route11
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_victory_road
 	song mus_vs_gym_leader, 0, 0
 	song mus_vs_trainer, 0, 0
-	song mus_vs_wild, 0, 0
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_vs_wild
 	song mus_vs_champion, 0, 0
 	song mus_pallet, 0, 0
-	song mus_oak_lab, 0, 0
-	song mus_oak, 0, 0
-	song mus_poke_center, 0, 0
-	song mus_ss_anne, 0, 0
-	song mus_surf, 0, 0
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_oak_lab
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_oak
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_poke_center
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_ss_anne
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_surf
 	song mus_poke_tower, 0, 0
 	song mus_silph, 0, 0
-	song mus_fuchsia, 0, 0
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_fuchsia
 	song mus_celadon, 0, 0
-	song mus_victory_trainer, 0, 0
-	song mus_victory_wild, 0, 0
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_victory_trainer
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_victory_wild
 	song mus_victory_gym_leader, 0, 0
 	song mus_vermillion, 0, 0
-	song mus_pewter, 0, 0
-	song mus_encounter_rival, 0, 0
-	song mus_rival_exit, 0, 0
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_pewter
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_encounter_rival
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_rival_exit
 	song mus_dex_rating, 2, 2
 	song mus_obtain_key_item, 2, 2
 	song mus_caught_intro, 2, 2
 	song mus_photo, 2, 2
-	song mus_game_freak, 0, 0
-	song mus_caught, 0, 0
-	song mus_new_game_instruct, 0, 0
-	song mus_new_game_intro, 0, 0
-	song mus_new_game_exit, 0, 0
-	song mus_poke_jump, 0, 0
-	song mus_union_room, 0, 0
-	song mus_net_center, 0, 0
-	song mus_mystery_gift, 0, 0
-	song mus_berry_pick, 0, 0
-	song mus_sevii_cave, 0, 0
-	song mus_teachy_tv_show, 0, 0
-	song mus_sevii_route, 0, 0
-	song mus_sevii_dungeon, 0, 0
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_game_freak
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_caught
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_new_game_instruct
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_new_game_intro
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_new_game_exit
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_poke_jump
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_union_room
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_net_center
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_mystery_gift
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_berry_pick
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_sevii_cave
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_teachy_tv_show
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_sevii_route
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_sevii_dungeon
 	song mus_sevii_123, 0, 0
-	song mus_sevii_45, 0, 0
-	song mus_sevii_67, 0, 0
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_sevii_45
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_sevii_67
 	song mus_poke_flute, 2, 2
-	song mus_vs_deoxys, 0, 0
-	song mus_vs_mewtwo, 0, 0
-	song mus_vs_legend, 0, 0
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_vs_deoxys
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_vs_mewtwo
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_vs_legend
 	song mus_encounter_gym_leader, 0, 0
-	song mus_encounter_deoxys, 0, 0
-	song mus_trainer_tower, 0, 0
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_encounter_deoxys
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_trainer_tower
 	song mus_slow_pallet, 0, 0
-	song mus_teachy_tv_menu, 0, 0
+	song dummy_song_header, 0, 0 @ retired unreachable sequence: mus_teachy_tv_menu
 
 @ Dedicated IDs retain explicit native fallback in the public build.
 	song mus_cycling, 0, 0 @ MUS_YOKAI_BICYCLE

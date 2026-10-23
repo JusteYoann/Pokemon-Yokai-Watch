@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Every compiled BGM ID/map header resolves to an active sample; SFX stay native."""
+"""Every compiled BGM ID/map header resolves to its public fallback or private sample; SFX stay native."""
 import csv,hashlib,json,re,struct,os
 from mgba_rpc import ROOT
 from mgba_new_game import new_game
@@ -7,9 +7,11 @@ P=ROOT/os.environ.get('YOKAI_AUDIO_ROUTING_REPORT_DIR','QA_RECETTE_FINALE/AUDIO_
 config=json.loads((ROOT/'data/yokai/audio_session1_aliases.json').read_text());aliases={a['source']:a['target'] for a in config['aliases']};substitutes={a['source']:a['target'] for a in config['private_unavailable_fallbacks']};active=set(json.loads((ROOT/'data/yokai/audio_loops.json').read_text())['active_tracks'])
 C={k:int(v,0) for k,v in re.findall(r'^#define\s+((?:MUS|SE)_\w+)\s+(0x[0-9A-Fa-f]+|\d+)\b',(ROOT/'include/constants/songs.h').read_text(),re.M)};names={v:k for k,v in C.items()};entries=re.findall(r'^\s*song\s+(\w+),\s*(\d+),\s*(\d+)',(ROOT/'sound/song_table.inc').read_text(),re.M)
 r=new_game();rows=[];maps=[];unchanged=[];battle_themes=[];passed=False;error='Interrupted'
+private='gYokaiPrivateHeaders' in r.symbols
 def raw(n):return r.u32(r.symbols['gSongTable']+8*n)
 def resolve(name):
  theme=aliases.get(name,name);n=C[theme]-346
+ if not private:return theme,n,raw(C[theme])
  if n not in active:theme=substitutes[theme];n=C[theme]-346
  assert n in active,(name,theme,n);return theme,n,r.symbols[f'mus_yokai_{n:02d}']
 try:
@@ -24,7 +26,7 @@ try:
   r.call('m4aSongNumStart',n);r.run(8);assert r.u32(r.symbols['gMPlayInfo_BGM'])==expected,(name,'BGM not started')
   before=r.u32(r.symbols['gMPlayInfo_BGM']+12);r.call('m4aSongNumStartOrChange',C[theme]);r.run(8)
   assert r.u32(r.symbols['gMPlayInfo_BGM']+12)>before,(name,'Alias to explicit restarted')
-  rows.append(dict(id=n,requested=name,effective=theme,slot=slot,private_sample=True,temporary_substitute=aliases.get(name,name) in substitutes and C[aliases.get(name,name)]-346 not in active,native_start_checked=True,no_restart_to_effective_theme=True))
+  rows.append(dict(id=n,requested=name,effective=theme,slot=slot,private_sample=private,temporary_substitute=aliases.get(name,name) in substitutes and C[aliases.get(name,name)]-346 not in active,native_start_checked=True,no_restart_to_effective_theme=True))
  g=json.loads((ROOT/'data/maps/map_groups.json').read_text())
  for group,key in enumerate(g['group_order']):
   table=r.u32(r.symbols['gMapGroups']+4*group)
@@ -32,8 +34,8 @@ try:
    source=json.loads((ROOT/f'data/maps/{name}/map.json').read_text());header=r.u32(table+4*number);music=int.from_bytes(r.read(header+16,2),'little');assert music==C[source['music']],(name,music,source['music'])
    if source['music']=='MUS_NONE':maps.append(dict(map=name,requested='MUS_NONE',effective='SILENCE',slot='',private_sample=False));continue
    theme,slot,expected=resolve(source['music']);assert r.call('YokaiGetSongHeader',music,raw(music))==expected,name
-   maps.append(dict(map=name,requested=source['music'],effective=theme,slot=slot,private_sample=True))
- assert len(rows)==104 and len(unchanged)==273 and len(maps)==425
+   maps.append(dict(map=name,requested=source['music'],effective=theme,slot=slot,private_sample=private))
+ assert len(rows)==104 and len(unchanged)==273 and len(maps)==sum(len(g[key]) for key in g['group_order'])
  # Champion's post-victory branch compared a raw native symbol before this
  # change. Exercise it on the actual map with the new resolved victory cue.
  group,num=next((i,j) for i,key in enumerate(g['group_order']) for j,n in enumerate(g[key]) if n=='PokemonLeague_ChampionsRoom')
@@ -58,5 +60,5 @@ finally:
  for name,data in [('AFFECTATIONS_BGM_EFFECTIVES.csv',rows),('AFFECTATIONS_CARTES_EFFECTIVES.csv',maps)]:
   if data:
    with (P/name).open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=list(data[0]));w.writeheader();w.writerows(data)
- (P/'ROUTAGE_MGBA.json').write_text(json.dumps(dict(passed=passed,error=error,rom_sha256=hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),active_tracks=sorted(active),bgm_checked=rows,compiled_maps=maps,native_unchanged_sfx_and_functional_jingles=unchanged,champion_post_victory_branch_checked=passed,battle_theme_selection=battle_themes,scope='104 native BGM playback calls, all 425 compiled map headers, all 273 SFX/fanfare header resolutions; fixtures after real new-game. This is not traversal of all maps or listening to each whole track.'),ensure_ascii=False,indent=2)+'\n')
-print('PASS all 104 BGM IDs, all 425 compiled map headers, 273 untouched effects/jingles and champion victory continuity')
+ (P/'ROUTAGE_MGBA.json').write_text(json.dumps(dict(passed=passed,error=error,rom_sha256=hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),active_tracks=sorted(active) if private else [],bgm_checked=rows,compiled_maps=maps,native_unchanged_sfx_and_functional_jingles=unchanged,champion_post_victory_branch_checked=passed,battle_theme_selection=battle_themes,scope=f'104 native BGM playback calls, all {len(maps)} compiled map headers, all 273 SFX/fanfare header resolutions; fixtures after real new-game. This is not traversal of all maps or listening to each whole track.'),ensure_ascii=False,indent=2)+'\n')
+print('PASS all 104 BGM IDs, all',len(maps),'compiled map headers, 273 untouched effects/jingles and champion victory continuity')

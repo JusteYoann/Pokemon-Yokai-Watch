@@ -1,0 +1,527 @@
+{
+  "retained_direct_references": [
+    {
+      "id": 312,
+      "constant": "MUS_VICTORY_GYM_LEADER",
+      "symbol": "mus_victory_gym_leader",
+      "resolved_constant": "MUS_YOKAI_UPTOWN",
+      "actual_header": "mus_celadon",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": [
+        "src/overworld.c",
+        "include/m4a.h"
+      ]
+    }
+  ],
+  "policy": "Retain all private DPCM, all shared voicegroups and samples, all sound effects, all fanfares, all dedicated public fallbacks, all unaliased/reserved music. Exclude only provably bypassed native sequence objects; keep source files and all numeric IDs. Zero-track sentinel headers retain safe pointers in bypassed table slots.",
+  "sequences": [
+    {
+      "id": 267,
+      "constant": "MUS_SCHOOL",
+      "symbol": "mus_school",
+      "resolved_constant": "MUS_YOKAI_CURIOUS",
+      "actual_header": "mus_title",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 323,
+      "constant": "MUS_NEW_GAME_INSTRUCT",
+      "symbol": "mus_new_game_instruct",
+      "resolved_constant": "MUS_YOKAI_CURIOUS",
+      "actual_header": "mus_title",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 324,
+      "constant": "MUS_NEW_GAME_INTRO",
+      "symbol": "mus_new_game_intro",
+      "resolved_constant": "MUS_YOKAI_CURIOUS",
+      "actual_header": "mus_title",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 325,
+      "constant": "MUS_NEW_GAME_EXIT",
+      "symbol": "mus_new_game_exit",
+      "resolved_constant": "MUS_YOKAI_CURIOUS",
+      "actual_header": "mus_title",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 302,
+      "constant": "MUS_OAK",
+      "symbol": "mus_oak",
+      "resolved_constant": "MUS_YOKAI_CURIOUS",
+      "actual_header": "mus_title",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 329,
+      "constant": "MUS_MYSTERY_GIFT",
+      "symbol": "mus_mystery_gift",
+      "resolved_constant": "MUS_YOKAI_CURIOUS",
+      "actual_header": "mus_title",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 321,
+      "constant": "MUS_GAME_FREAK",
+      "symbol": "mus_game_freak",
+      "resolved_constant": "MUS_YOKAI_CURIOUS",
+      "actual_header": "mus_title",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 272,
+      "constant": "MUS_FOLLOW_ME",
+      "symbol": "mus_follow_me",
+      "resolved_constant": "MUS_YOKAI_UPTOWN",
+      "actual_header": "mus_celadon",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 273,
+      "constant": "MUS_GAME_CORNER",
+      "symbol": "mus_game_corner",
+      "resolved_constant": "MUS_YOKAI_UPTOWN",
+      "actual_header": "mus_celadon",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 275,
+      "constant": "MUS_GYM",
+      "symbol": "mus_gym",
+      "resolved_constant": "MUS_YOKAI_UPTOWN",
+      "actual_header": "mus_celadon",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 303,
+      "constant": "MUS_POKE_CENTER",
+      "symbol": "mus_poke_center",
+      "resolved_constant": "MUS_YOKAI_UPTOWN",
+      "actual_header": "mus_celadon",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 327,
+      "constant": "MUS_UNION_ROOM",
+      "symbol": "mus_union_room",
+      "resolved_constant": "MUS_YOKAI_UPTOWN",
+      "actual_header": "mus_celadon",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 328,
+      "constant": "MUS_NET_CENTER",
+      "symbol": "mus_net_center",
+      "resolved_constant": "MUS_YOKAI_UPTOWN",
+      "actual_header": "mus_celadon",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 326,
+      "constant": "MUS_POKE_JUMP",
+      "symbol": "mus_poke_jump",
+      "resolved_constant": "MUS_YOKAI_UPTOWN",
+      "actual_header": "mus_celadon",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 330,
+      "constant": "MUS_BERRY_PICK",
+      "symbol": "mus_berry_pick",
+      "resolved_constant": "MUS_YOKAI_UPTOWN",
+      "actual_header": "mus_celadon",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 289,
+      "constant": "MUS_POKE_MANSION",
+      "symbol": "mus_poke_mansion",
+      "resolved_constant": "MUS_YOKAI_DODGY",
+      "actual_header": "mus_rocket_hideout",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 283,
+      "constant": "MUS_ENCOUNTER_ROCKET",
+      "symbol": "mus_encounter_rocket",
+      "resolved_constant": "MUS_YOKAI_DODGY",
+      "actual_header": "mus_rocket_hideout",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 279,
+      "constant": "MUS_CINNABAR",
+      "symbol": "mus_cinnabar",
+      "resolved_constant": "MUS_YOKAI_SAN_FANTASTICO",
+      "actual_header": "mus_vermillion",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 308,
+      "constant": "MUS_FUCHSIA",
+      "symbol": "mus_fuchsia",
+      "resolved_constant": "MUS_YOKAI_SAN_FANTASTICO",
+      "actual_header": "mus_vermillion",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 304,
+      "constant": "MUS_SS_ANNE",
+      "symbol": "mus_ss_anne",
+      "resolved_constant": "MUS_YOKAI_SAN_FANTASTICO",
+      "actual_header": "mus_vermillion",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 305,
+      "constant": "MUS_SURF",
+      "symbol": "mus_surf",
+      "resolved_constant": "MUS_YOKAI_SAN_FANTASTICO",
+      "actual_header": "mus_vermillion",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 336,
+      "constant": "MUS_SEVII_45",
+      "symbol": "mus_sevii_45",
+      "resolved_constant": "MUS_YOKAI_SAN_FANTASTICO",
+      "actual_header": "mus_vermillion",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 337,
+      "constant": "MUS_SEVII_67",
+      "symbol": "mus_sevii_67",
+      "resolved_constant": "MUS_YOKAI_SAN_FANTASTICO",
+      "actual_header": "mus_vermillion",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 334,
+      "constant": "MUS_SEVII_DUNGEON",
+      "symbol": "mus_sevii_dungeon",
+      "resolved_constant": "MUS_YOKAI_MYSTIC_GROVE",
+      "actual_header": "mus_mt_moon",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 287,
+      "constant": "MUS_VIRIDIAN_FOREST",
+      "symbol": "mus_viridian_forest",
+      "resolved_constant": "MUS_YOKAI_MYSTIC_GROVE",
+      "actual_header": "mus_mt_moon",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 331,
+      "constant": "MUS_SEVII_CAVE",
+      "symbol": "mus_sevii_cave",
+      "resolved_constant": "MUS_YOKAI_HOPPERS_GORGE",
+      "actual_header": "mus_mt_moon",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 293,
+      "constant": "MUS_ROUTE3",
+      "symbol": "mus_route3",
+      "resolved_constant": "MUS_YOKAI_PATROL_MISSION",
+      "actual_header": "mus_route1",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 294,
+      "constant": "MUS_ROUTE11",
+      "symbol": "mus_route11",
+      "resolved_constant": "MUS_YOKAI_PATROL_MISSION",
+      "actual_header": "mus_route1",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 333,
+      "constant": "MUS_SEVII_ROUTE",
+      "symbol": "mus_sevii_route",
+      "resolved_constant": "MUS_YOKAI_PATROL_MISSION",
+      "actual_header": "mus_route1",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 284,
+      "constant": "MUS_ENCOUNTER_GIRL",
+      "symbol": "mus_encounter_girl",
+      "resolved_constant": "MUS_YOKAI_PATROL_MISSION",
+      "actual_header": "mus_route1",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 285,
+      "constant": "MUS_ENCOUNTER_BOY",
+      "symbol": "mus_encounter_boy",
+      "resolved_constant": "MUS_YOKAI_PATROL_MISSION",
+      "actual_header": "mus_route1",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 298,
+      "constant": "MUS_VS_WILD",
+      "symbol": "mus_vs_wild",
+      "resolved_constant": "MUS_YOKAI_VS_YOKAI",
+      "actual_header": "mus_vs_trainer",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 266,
+      "constant": "MUS_RS_VS_TRAINER",
+      "symbol": "mus_rs_vs_trainer",
+      "resolved_constant": "MUS_YOKAI_VS_YOKAI",
+      "actual_header": "mus_vs_trainer",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 339,
+      "constant": "MUS_VS_DEOXYS",
+      "symbol": "mus_vs_deoxys",
+      "resolved_constant": "MUS_YOKAI_VS_YOKAI",
+      "actual_header": "mus_vs_trainer",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 340,
+      "constant": "MUS_VS_MEWTWO",
+      "symbol": "mus_vs_mewtwo",
+      "resolved_constant": "MUS_YOKAI_VS_YOKAI",
+      "actual_header": "mus_vs_trainer",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 341,
+      "constant": "MUS_VS_LEGEND",
+      "symbol": "mus_vs_legend",
+      "resolved_constant": "MUS_YOKAI_VS_YOKAI",
+      "actual_header": "mus_vs_trainer",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 315,
+      "constant": "MUS_ENCOUNTER_RIVAL",
+      "symbol": "mus_encounter_rival",
+      "resolved_constant": "MUS_YOKAI_VS_YOKAI",
+      "actual_header": "mus_vs_trainer",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 316,
+      "constant": "MUS_RIVAL_EXIT",
+      "symbol": "mus_rival_exit",
+      "resolved_constant": "MUS_YOKAI_VS_YOKAI",
+      "actual_header": "mus_vs_trainer",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 343,
+      "constant": "MUS_ENCOUNTER_DEOXYS",
+      "symbol": "mus_encounter_deoxys",
+      "resolved_constant": "MUS_YOKAI_VS_YOKAI",
+      "actual_header": "mus_vs_trainer",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 265,
+      "constant": "MUS_RS_VS_GYM_LEADER",
+      "symbol": "mus_rs_vs_gym_leader",
+      "resolved_constant": "MUS_YOKAI_BOSS_YOKAI",
+      "actual_header": "mus_vs_gym_leader",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 344,
+      "constant": "MUS_TRAINER_TOWER",
+      "symbol": "mus_trainer_tower",
+      "resolved_constant": "MUS_YOKAI_BOSS_YOKAI",
+      "actual_header": "mus_vs_gym_leader",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 295,
+      "constant": "MUS_VICTORY_ROAD",
+      "symbol": "mus_victory_road",
+      "resolved_constant": "MUS_YOKAI_DECISIVE_BATTLE",
+      "actual_header": "mus_vs_gym_leader",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 290,
+      "constant": "MUS_CREDITS",
+      "symbol": "mus_credits",
+      "resolved_constant": "MUS_YOKAI_TAKE_CARE",
+      "actual_header": "mus_slow_pallet",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 301,
+      "constant": "MUS_OAK_LAB",
+      "symbol": "mus_oak_lab",
+      "resolved_constant": "MUS_YOKAI_NATHAN_HOUSE",
+      "actual_header": "mus_pallet",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 314,
+      "constant": "MUS_PEWTER",
+      "symbol": "mus_pewter",
+      "resolved_constant": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "actual_header": "mus_celadon",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 264,
+      "constant": "MUS_EVOLUTION",
+      "symbol": "mus_evolution",
+      "resolved_constant": "MUS_YOKAI_CURIOUS",
+      "actual_header": "mus_title",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 277,
+      "constant": "MUS_INTRO_FIGHT",
+      "symbol": "mus_intro_fight",
+      "resolved_constant": "MUS_YOKAI_VS_YOKAI",
+      "actual_header": "mus_vs_trainer",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 281,
+      "constant": "MUS_HEAL_UNUSED",
+      "symbol": "mus_heal_unused",
+      "resolved_constant": "MUS_YOKAI_UPTOWN",
+      "actual_header": "mus_celadon",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 286,
+      "constant": "MUS_HALL_OF_FAME",
+      "symbol": "mus_hall_of_fame",
+      "resolved_constant": "MUS_YOKAI_TAKE_CARE",
+      "actual_header": "mus_slow_pallet",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 310,
+      "constant": "MUS_VICTORY_TRAINER",
+      "symbol": "mus_victory_trainer",
+      "resolved_constant": "MUS_YOKAI_UPTOWN",
+      "actual_header": "mus_celadon",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 311,
+      "constant": "MUS_VICTORY_WILD",
+      "symbol": "mus_victory_wild",
+      "resolved_constant": "MUS_YOKAI_PATROL_MISSION",
+      "actual_header": "mus_route1",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 322,
+      "constant": "MUS_CAUGHT",
+      "symbol": "mus_caught",
+      "resolved_constant": "MUS_YOKAI_UPTOWN",
+      "actual_header": "mus_celadon",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 332,
+      "constant": "MUS_TEACHY_TV_SHOW",
+      "symbol": "mus_teachy_tv_show",
+      "resolved_constant": "MUS_YOKAI_CURIOUS",
+      "actual_header": "mus_title",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    },
+    {
+      "id": 346,
+      "constant": "MUS_TEACHY_TV_MENU",
+      "symbol": "mus_teachy_tv_menu",
+      "resolved_constant": "MUS_YOKAI_CURIOUS",
+      "actual_header": "mus_title",
+      "proof": "All table entries for this sequence are unconditionally redirected by YokaiGetSongHeader; no dedicated public fallback refers to it.",
+      "direct_symbol_references": []
+    }
+  ],
+  "retained_public_fallbacks": [
+    "mus_celadon",
+    "mus_cycling",
+    "mus_encounter_gym_leader",
+    "mus_lavender",
+    "mus_mt_moon",
+    "mus_pallet",
+    "mus_poke_tower",
+    "mus_rocket_hideout",
+    "mus_route1",
+    "mus_route24",
+    "mus_sevii_123",
+    "mus_silph",
+    "mus_slow_pallet",
+    "mus_title",
+    "mus_vermillion",
+    "mus_vs_champion",
+    "mus_vs_gym_leader",
+    "mus_vs_trainer"
+  ],
+  "private_sample_deletions": [],
+  "sample_bank_deletions": []
+}

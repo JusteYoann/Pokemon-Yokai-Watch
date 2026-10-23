@@ -193,7 +193,8 @@ DATA_ASM_OBJS := $(patsubst $(DATA_ASM_SUBDIR)/%.s,$(DATA_ASM_BUILDDIR)/%.o,$(DA
 SONG_SRCS := $(wildcard $(SONG_SUBDIR)/*.s)
 SONG_OBJS := $(patsubst $(SONG_SUBDIR)/%.s,$(SONG_BUILDDIR)/%.o,$(SONG_SRCS))
 
-MID_SRCS := $(wildcard $(MID_SUBDIR)/*.mid)
+include sound/retired_sequences.mk
+MID_SRCS := $(filter-out $(addprefix $(MID_SUBDIR)/,$(addsuffix .mid,$(YOKAI_RETIRED_SEQUENCES))),$(wildcard $(MID_SUBDIR)/*.mid))
 MID_OBJS := $(patsubst $(MID_SUBDIR)/%.mid,$(MID_BUILDDIR)/%.o,$(MID_SRCS))
 
 ifneq ($(strip $(YOKAI_AUDIO_DIR)),)
