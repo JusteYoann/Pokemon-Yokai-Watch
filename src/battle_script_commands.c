@@ -1,4 +1,5 @@
 #include "global.h"
+#include "lavanville.h"
 #include "spiraton_battle.h"
 #include "gflib.h"
 #include "item.h"
@@ -4524,7 +4525,7 @@ static void Cmd_switchinanim(void)
                                  | BATTLE_TYPE_OLD_MAN_TUTORIAL
                                  | BATTLE_TYPE_POKEDUDE
                                  | BATTLE_TYPE_EREADER_TRAINER
-                                 | BATTLE_TYPE_GHOST)))
+                                 | BATTLE_TYPE_GHOST | BATTLE_TYPE_LAVENDER_ZOMBIE)))
         HandleSetPokedexFlag(SpeciesToNationalPokedexNum(gBattleMons[gActiveBattler].species), FLAG_SET_SEEN, gBattleMons[gActiveBattler].personality);
 
     gAbsentBattlerFlags &= ~(gBitTable[gActiveBattler]);
@@ -6883,6 +6884,11 @@ static void Cmd_initmultihitstring(void)
 
 static bool8 TryDoForceSwitchOut(void)
 {
+    if (gBattleTypeFlags & BATTLE_TYPE_LAVENDER_ZOMBIE)
+    {
+        gBattlescriptCurrInstr = T1_READ_PTR(gBattlescriptCurrInstr + 1);
+        return FALSE;
+    }
     if (gBattleMons[gBattlerAttacker].level >= gBattleMons[gBattlerTarget].level)
     {
         *(gBattleStruct->battlerPartyIndexes + gBattlerTarget) = gBattlerPartyIndexes[gBattlerTarget];
@@ -6987,6 +6993,11 @@ static void Cmd_forcerandomswitch(void)
                     while (i == gBattlerPartyIndexes[gBattlerTarget]
                         || !MON_CAN_BATTLE(&party[i]));
                 }
+            }
+            if (gTrainerBattleOpponent_A == TRAINER_LEADER_ERIKA && GetBattlerSide(gBattlerTarget) == B_SIDE_OPPONENT)
+            {
+                for (i = 0; i < 4; i++)
+                    if (i != gBattlerPartyIndexes[gBattlerTarget] && MON_CAN_BATTLE(&party[i])) break;
             }
             *(gBattleStruct->monToSwitchIntoId + gBattlerTarget) = i;
             if (!IsMultiBattle())
@@ -9472,7 +9483,7 @@ static void Cmd_handleballthrow(void)
     gActiveBattler = gBattlerAttacker;
     gBattlerTarget = gBattlerAttacker ^ BIT_SIDE;
 
-    if (gBattleTypeFlags & BATTLE_TYPE_GHOST)
+    if (gBattleTypeFlags & (BATTLE_TYPE_GHOST | BATTLE_TYPE_LAVENDER_ZOMBIE))
     {
         BtlController_EmitBallThrowAnim(BUFFER_A, BALL_GHOST_DODGE);
         MarkBattlerForControllerExec(gActiveBattler);

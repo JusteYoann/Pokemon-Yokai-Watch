@@ -161,6 +161,7 @@ const struct MonCoords gTrainerFrontPicCoords[] =
     [TRAINER_PIC_YOKAI_MAFIAMILLE2] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_YOKAI_MAFIAMILLE3] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_YOKAI_ALYZON] = {.size = 8, .y_offset = 1},
+    [TRAINER_PIC_LAVENDER_ZOMBIE] = {.size = 8, .y_offset = 1},
 };
 
 const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
@@ -325,6 +326,7 @@ const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
     TRAINER_SPRITE(YOKAI_MAFIAMILLE1, gTrainerFrontPic_YokaiMafiamille1, 0x800),
     TRAINER_SPRITE(YOKAI_MAFIAMILLE2, gTrainerFrontPic_YokaiMafiamille2, 0x800),
     TRAINER_SPRITE(YOKAI_MAFIAMILLE3, gTrainerFrontPic_YokaiMafiamille3, 0x800),
+    TRAINER_SPRITE(LAVENDER_ZOMBIE, gTrainerFrontPic_LavenderZombie, 0x800),
     TRAINER_SPRITE(YOKAI_ALYZON, gTrainerFrontPic_YokaiAlyzon, 0x800),
 };
 
@@ -490,5 +492,6 @@ const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
     TRAINER_PAL(YOKAI_MAFIAMILLE1, gTrainerPalette_YokaiMafiamille1),
     TRAINER_PAL(YOKAI_MAFIAMILLE2, gTrainerPalette_YokaiMafiamille2),
     TRAINER_PAL(YOKAI_MAFIAMILLE3, gTrainerPalette_YokaiMafiamille3),
+    TRAINER_PAL(LAVENDER_ZOMBIE, gTrainerPalette_LavenderZombie),
     TRAINER_PAL(YOKAI_ALYZON, gTrainerPalette_YokaiAlyzon),
 };

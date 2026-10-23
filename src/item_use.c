@@ -820,7 +820,7 @@ void BattleUseFunc_Ether(u8 taskId)
 
 void BattleUseFunc_PokeDoll(u8 taskId)
 {
-    if (!(gBattleTypeFlags & BATTLE_TYPE_TRAINER))
+    if (!(gBattleTypeFlags & (BATTLE_TYPE_TRAINER | BATTLE_TYPE_LAVENDER_ZOMBIE)))
     {
         RemoveUsedItem();
         ItemUse_SetQuestLogEvent(QL_EVENT_USED_ITEM, 0, gSpecialVar_ItemId, 0xFFFF);

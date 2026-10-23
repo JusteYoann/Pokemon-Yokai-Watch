@@ -186,41 +186,23 @@ gFameCheckerFlavorText_LtSurge5:: @ 0x81ADF6A
 	.string "He used the electricity generated\n"
 	.string "by Yo-kai to power his plane.$"
 
-gFameCheckerFlavorText_Erika0:: @ 0x81AE009
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}CELADON CITY Yo-kai GYM\n"
-	.string "LEADER: ERIKA\l"
-	.string "The Nature-Loving Princess!$"
+gFameCheckerFlavorText_Erika0::
+	.string "Championne de LAVANVILLE.\nSpécialiste des Yo-kai Spectre.$"
 
-gFameCheckerFlavorText_Erika1:: @ 0x81AE072
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of Yo-kai?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I am a student of the art of\n"
-	.string "flower arranging.\p"
-	.string "My Yo-kai are solely of the\n"
-	.string "GRASS type.$"
+gFameCheckerFlavorText_Erika1::
+	.string "Elle vit volontairement au milieu\ndes zombies. Elle les adore!$"
 
-gFameCheckerFlavorText_Erika2:: @ 0x81AE0F3
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Our LEADER ERIKA might be quiet,\n"
-	.string "but she's famous around here.$"
+gFameCheckerFlavorText_Erika2::
+	.string "Son Arène occupe le sommet\nde la TOUR POKÉMON.$"
 
-gFameCheckerFlavorText_Erika3:: @ 0x81AE15B
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}We only use GRASS-type Yo-kai at\n"
-	.string "our GYM.\p"
-	.string "Why? We also use them for making\n"
-	.string "flower arrangements!$"
+gFameCheckerFlavorText_Erika3::
+	.string "Elle trouve les zombies mignons,\nmême les plus coriaces.$"
 
-gFameCheckerFlavorText_Erika4:: @ 0x81AE1E5
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of Yo-kai?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I would never collect Yo-kai if\n"
-	.string "they were unattractive.$"
+gFameCheckerFlavorText_Erika4::
+	.string "Elle possède aussi une seconde\nmaison à CÉLADOPOLE.$"
 
-gFameCheckerFlavorText_Erika5:: @ 0x81AE247
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Rumor has it that if you peek into\n"
-	.string "CELADON GYM, you can often\l"
-	.string "see ERIKA snoozing.$"
+gFameCheckerFlavorText_Erika5::
+	.string "Elle plaisante souvent, mais son\ntalent de Championne est redoutable.$"
 
 gFameCheckerFlavorText_Koga0:: @ 0x81AE2B6
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
@@ -643,18 +625,11 @@ gFameCheckerPersonQuote_LtSurge:: @ 0x81B0456
 	.string "It made me change my mind about\n"
 	.string "you!$"
 
-gFameCheckerPersonName_Erika:: @ 0x81B0504
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}ERIKA$"
+gFameCheckerPersonName_Erika::
+	.string "ALYZON BIE$"
 
-gFameCheckerPersonQuote_Erika:: @ 0x81B0510
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: ERIKA\n"
-	.string "To: {PLAYER}\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I am so glad that there are strong\n"
-	.string "TRAINERS like you.\p"
-	.string "That awareness alone inspires and\n"
-	.string "motivates me to try harder.\p"
-	.string "Please visit me again.\n"
-	.string "Zzz…$"
+gFameCheckerPersonQuote_Erika::
+	.string "Mes petits zombies sont adorables!\nReviens jouer avec nous!$"
 
 gFameCheckerPersonName_Koga:: @ 0x81B05C2
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}KOGA$"

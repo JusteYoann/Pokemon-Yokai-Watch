@@ -23,6 +23,8 @@
 #include "constants/trainers.h"
 #include "constants/weather.h"
 
+static const u8 sAlyzonChampionneClass[] = _("CHAMPIONNE");
+
 struct BattleWindowText
 {
     u8 fillValue;
@@ -2062,6 +2064,8 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                     toCpy = gTrainerClassNames[GetTrainerTowerOpponentClass()];
                 else if (gBattleTypeFlags & BATTLE_TYPE_EREADER_TRAINER)
                     toCpy = gTrainerClassNames[GetEreaderTrainerClassId()];
+                else if (gTrainerBattleOpponent_A == TRAINER_LEADER_ERIKA)
+                    toCpy = sAlyzonChampionneClass;
                 // Keep postgame economics/AI classes while presenting all Mafia as sbires.
                 else if (gTrainerBattleOpponent_A == TRAINER_YOKAI_MAFIAMILLE1
                       || gTrainerBattleOpponent_A == TRAINER_YOKAI_MAFIAMILLE2

@@ -3,6 +3,9 @@ CeladonCity_GameCorner_MapScripts::
 	.byte 0
 
 CeladonCity_GameCorner_OnLoad::
+	setvar VAR_TEMP_0, 0
+	call_if_set FLAG_BADGE04_GET, LavenderHideout_DisableGuard
+	call_if_unset FLAG_BADGE04_GET, CeladonCity_GameCorner_EventScript_HideRocketHideout
 	call_if_unset FLAG_OPENED_ROCKET_HIDEOUT, CeladonCity_GameCorner_EventScript_HideRocketHideout
 	end
 
@@ -393,6 +396,7 @@ CeladonCity_GameCorner_EventScript_SlotMachineNoCoinCase::
 
 CeladonCity_GameCorner_EventScript_Poster::
 	lockall
+	goto_if_unset FLAG_BADGE04_GET, LavenderHideout_Locked
 	msgbox CeladonCity_GameCorner_Text_SwitchBehindPosterPushIt
 	call_if_unset FLAG_OPENED_ROCKET_HIDEOUT, CeladonCity_GameCorner_EventScript_OpenRocketHideout
 	releaseall
@@ -464,3 +468,32 @@ CeladonCity_GameCorner_EventScript_UnusableSlotMachine2::
 CeladonCity_GameCorner_EventScript_UnusableSlotMachine3::
 	msgbox CeladonCity_GameCorner_Text_SomeonesKeys, MSGBOX_SIGN
 	end
+
+LavenderHideout_Locked::
+	msgbox LavenderHideout_Text_Locked
+	releaseall
+	end
+LavenderHideout_Text_Locked::
+	.string "Une serrure bloque le passage.\nIl te faut le quatrième badge.$"
+
+
+LavenderHideout_CheckEntry::
+	goto_if_set FLAG_BADGE04_GET, LavenderHideout_CheckEnd
+	lockall
+	msgbox LavenderHideout_Text_Locked
+	applymovement LOCALID_PLAYER, LavenderHideout_Back
+	waitmovement 0
+	releaseall
+	end
+LavenderHideout_Back::
+	walk_left
+	step_end
+
+LavenderHideout_CheckEnd::
+	setvar VAR_TEMP_0, 1
+	releaseall
+	end
+
+LavenderHideout_DisableGuard::
+	setvar VAR_TEMP_0, 1
+	return

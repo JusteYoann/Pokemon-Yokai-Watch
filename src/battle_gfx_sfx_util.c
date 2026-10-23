@@ -1,4 +1,5 @@
 #include "global.h"
+#include "lavanville.h"
 #include "spiraton_art.h"
 #include "spiraton_battle.h"
 #include "gflib.h"
@@ -327,6 +328,8 @@ void BattleLoadOpponentMonSpriteGfx(struct Pokemon *mon, u8 battlerId)
     u16 paletteOffset;
     const void *lzPaletteData;
     void *buffer;
+
+    if (LavanvilleLoadZombieGfx(battlerId)) return;
 
     monsPersonality = GetMonData(mon, MON_DATA_PERSONALITY);
     if (gBattleSpritesDataPtr->battlerData[battlerId].transformSpecies == SPECIES_NONE)

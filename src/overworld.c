@@ -1,4 +1,5 @@
 #include "global.h"
+#include "lavanville.h"
 #include "gflib.h"
 #include "bg_regs.h"
 #include "cable_club.h"
@@ -439,6 +440,18 @@ static void LoadSaveblockObjEventScripts(void)
     int i;
     const struct ObjectEventTemplate * src = gMapHeader.events->objectEvents;
     struct ObjectEventTemplate * savObjTemplates = gSaveBlock1Ptr->objectEventTemplates;
+
+    if (LavanvilleNeedsTemplateRefresh())
+    {
+        CpuFill16(0, savObjTemplates, sizeof(gSaveBlock1Ptr->objectEventTemplates));
+        LoadObjEventTemplatesFromHeader();
+        // Flash saves also serialize the live actors. Retire the old NPCs;
+        // their new templates are spawned after the saved player is rebuilt.
+        for (i = 0; i < OBJECT_EVENTS_COUNT; i++)
+            if (gObjectEvents[i].active && gObjectEvents[i].localId != LOCALID_PLAYER)
+                gObjectEvents[i].active = FALSE;
+        return;
+    }
 
     for (i = 0; i < OBJECT_EVENT_TEMPLATES_COUNT; i++)
     {
@@ -1761,6 +1774,7 @@ static void VBlankCB_Field(void)
     ScanlineEffect_InitHBlankDmaTransfer();
     FieldUpdateBgTilemapScroll();
     TransferPlttBuffer();
+    LavanvilleNightPalette();
     TransferTilesetAnimsBuffer();
 }
 
@@ -2162,6 +2176,10 @@ static void InitObjectEventsLocal(void)
 static void ReloadObjectsAndRunReturnToFieldMapScript(void)
 {
     SpawnObjectEventsOnReturnToField(0, 0);
+    if (LavanvilleNeedsTemplateRefresh()
+     || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROCKET_HIDEOUT_B4F)
+      && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROCKET_HIDEOUT_B4F)))
+        TrySpawnObjectEvents(0, 0);
     RunOnReturnToFieldMapScript();
 }
 

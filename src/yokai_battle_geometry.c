@@ -1,4 +1,5 @@
 #include "global.h"
+#include "lavanville.h"
 #include "spiraton_art.h"
 #include "gflib.h"
 #include "battle.h"
@@ -11,9 +12,18 @@
 extern u32 gOamMatrixAllocBitmap;
 extern u8 gOamLimit;
 
+static const struct YokaiBattleGeometry sLavenderZombieGeometry[] = {
+    {186,186,-6,-9,-31,-36,62,75},
+    {178,178,-3,-10,-38,-32,74,73},
+    {186,186,-2,-11,-40,-36,80,75},
+    {178,178,-7,-11,-29,-41,57,82},
+};
+
 const struct YokaiBattleGeometry *GetYokaiBattleGeometry(u8 battler)
 {
     u16 species;
+    if (gMain.inBattle && battler < gBattlersCount && GetBattlerSide(battler) == B_SIDE_OPPONENT && (gBattleTypeFlags & BATTLE_TYPE_LAVENDER_ZOMBIE))
+        return &sLavenderZombieGeometry[(gBattleTypeFlags >> 21) & 3];
     if (battler == 1 && SpiratonArtIsActive())
         return NULL;
     if (!gMain.inBattle || battler >= gBattlersCount || gBattleSpritesDataPtr == NULL

@@ -1,21 +1,17 @@
 Route12_Text_MonSprawledOutInSlumber::
-    .string "A Yo-kai is sprawled out in\n"
-    .string "a deep and comfortable slumber.$"
+    .string "Un MISTERRE dort profondément.\nIl bloque tout le passage.$"
 
 Text_SnorlaxWokeUp::
-    .string "SNORLAX woke up!\p"
-    .string "It attacked in a grumpy rage!$"
+    .string "MISTERRE se réveille!\pIl attaque, encore mal réveillé!$"
 
 Text_SnorlaxReturnedToMountains::
-    .string "SNORLAX calmed down.\n"
-    .string "It gave a huge yawn…\l"
-    .string "And returned to the mountains.$"
+    .string "MISTERRE se calme.\nIl bâille, puis s'éloigne.$"
 
 Text_WantToUsePokeFlute::
-    .string "Want to use the POKé FLUTE?$"
+    .string "Jouer de la FLÛTE YO-KAI?$"
 
 Text_PlayedPokeFlute::
-    .string "{PLAYER} played the POKé FLUTE.$"
+    .string "{PLAYER} joue de la\nFLÛTE YO-KAI.$"
 
 Route12_Text_NedIntro::
     .string "Yeah!\n"

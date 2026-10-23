@@ -480,6 +480,7 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 #define OBJ_EVENT_PAL_TAG_YOKAI_MADEMOAISELLE 0x1129
 #define OBJ_EVENT_PAL_TAG_YOKAI_LEO_JIBANYAN 0x112A
 #define OBJ_EVENT_PAL_TAG_YOKAI_ALYZON 0x112B
+#define OBJ_EVENT_PAL_TAG_LAVENDER_ZOMBIE 0x112C
 #define OBJ_EVENT_PAL_TAG_YOKAI_ENMA_CREATURE 0x1126
 #define OBJ_EVENT_PAL_TAG_YOKAI_ENMA                  0x111E
 #define OBJ_EVENT_PAL_TAG_ARIANE                      0x111D
@@ -496,6 +497,7 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 
 static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_YokaiAlyzon, OBJ_EVENT_PAL_TAG_YOKAI_ALYZON},
+    {gObjectEventPal_LavenderZombie, OBJ_EVENT_PAL_TAG_LAVENDER_ZOMBIE},
     {gObjectEventPal_Player, OBJ_EVENT_PAL_TAG_YOKAI_FRIEND},
     {gObjectEventPal_YokaiNathaniel, OBJ_EVENT_PAL_TAG_YOKAI_NATHANIEL},
     {gObjectEventPal_YokaiMichael, OBJ_EVENT_PAL_TAG_YOKAI_MICHAEL},
@@ -1617,9 +1619,10 @@ void Unref_RemoveAllObjectEventsExceptPlayer(void)
 
 static void LoadAlyzonObjectPalette(const struct ObjectEventGraphicsInfo *graphicsInfo)
 {
-    // Keep her palette separate from Nathan (0), Matt's scene palette (6),
-    // and special NPCs such as Don (10). No extra persistent state is needed.
-    if (graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_YOKAI_ALYZON)
+    // Alyzon uses reflection bank7, zombies bank8. Keep ordinary green NPCs
+    // in body bank4, Nathan0, Matt6 and Don10 unchanged. No saved palette state.
+    if (graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_YOKAI_ALYZON
+        || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_LAVENDER_ZOMBIE)
         PatchObjectPalette(graphicsInfo->paletteTag, graphicsInfo->paletteSlot);
 }
 
@@ -2781,6 +2784,11 @@ void InitObjectEventPalettes(u8 palSlot)
 u16 GetObjectPaletteTag(u8 palSlot)
 {
     u8 i;
+
+    if (palSlot == PALSLOT_NPC_3_REFLECTION)
+        for (i = 0; i < OBJECT_EVENTS_COUNT; i++)
+            if (gObjectEvents[i].active && gObjectEvents[i].graphicsId == OBJ_EVENT_GFX_LAVENDER_ZOMBIE)
+                return OBJ_EVENT_PAL_TAG_LAVENDER_ZOMBIE;
 
     if (palSlot == PALSLOT_NPC_2_REFLECTION)
     {
@@ -3996,6 +4004,11 @@ static bool8 MovementType_WalkBackAndForth_Step2(struct ObjectEvent *objectEvent
         collision = GetCollisionInDirection(objectEvent, objectEvent->movementDirection);
     }
 
+    if (!collision && objectEvent->graphicsId == OBJ_EVENT_GFX_LAVENDER_ZOMBIE
+        && objectEvent->mapGroup == MAP_GROUP(MAP_LAVENDER_TOWN) && objectEvent->mapNum == MAP_NUM(MAP_LAVENDER_TOWN)
+        && objectEvent->localId == 2)
+        movementActionId = GetWalkFastMovementAction(objectEvent->movementDirection);
+
     if (collision)
         movementActionId = GetWalkInPlaceNormalMovementAction(objectEvent->facingDirection);
 
@@ -4026,6 +4039,32 @@ bool8 MoveNextDirectionInSequence(struct ObjectEvent *objectEvent, struct Sprite
 {
     u8 collision;
     u8 movementActionId;
+
+    // The first town patrol follows the six approved tiles. Native rectangle
+    // ranges would also reach the Pokemon Center's exit, which must stay clear.
+    if (objectEvent->graphicsId == OBJ_EVENT_GFX_LAVENDER_ZOMBIE
+        && objectEvent->mapGroup == MAP_GROUP(MAP_LAVENDER_TOWN) && objectEvent->mapNum == MAP_NUM(MAP_LAVENDER_TOWN)
+        && objectEvent->localId == 1)
+    {
+        static const s8 path[6][2] = {{0,0},{1,0},{2,0},{2,1},{1,1},{0,1}};
+        u8 i, next, direction = DIR_SOUTH;
+        s16 x = objectEvent->currentCoords.x - objectEvent->initialCoords.x;
+        s16 y = objectEvent->currentCoords.y - objectEvent->initialCoords.y;
+        for (i = 0; i < 6; i++)
+            if (x == path[i][0] && y == path[i][1])
+            {
+                next = (i + 1) % 6;
+                direction = path[next][0] > x ? DIR_EAST : path[next][0] < x ? DIR_WEST : path[next][1] > y ? DIR_SOUTH : DIR_NORTH;
+                break;
+            }
+        SetObjectEventDirection(objectEvent, direction);
+        movementActionId = GetCollisionInDirection(objectEvent, direction)
+            ? GetWalkInPlaceNormalMovementAction(direction) : GetWalkSlowMovementAction(direction);
+        ObjectEventSetSingleMovement(objectEvent, sprite, movementActionId);
+        objectEvent->singleMovementActive = TRUE;
+        sprite->data[1] = 2;
+        return TRUE;
+    }
 
     if (objectEvent->directionSequenceIndex == 3 && objectEvent->initialCoords.x == objectEvent->currentCoords.x && objectEvent->initialCoords.y == objectEvent->currentCoords.y)
         objectEvent->directionSequenceIndex = 0;

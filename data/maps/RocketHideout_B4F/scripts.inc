@@ -1,10 +1,12 @@
 .equ NUM_DOOR_GRUNTS_DEFEATED, VAR_TEMP_1
 
 RocketHideout_B4F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, LavenderFlute_OnTransition
 	map_script MAP_SCRIPT_ON_LOAD, RocketHideout_B4F_OnLoad
 	.byte 0
 
 RocketHideout_B4F_OnLoad::
+	call_if_defeated TRAINER_BOSS_GIOVANNI, LavenderFlute_Restore
 	setvar NUM_DOOR_GRUNTS_DEFEATED, 0
 	call_if_defeated TRAINER_TEAM_ROCKET_GRUNT_16, RocketHideout_B4F_EventScript_CountGruntDefeated
 	call_if_defeated TRAINER_TEAM_ROCKET_GRUNT_17, RocketHideout_B4F_EventScript_CountGruntDefeated
@@ -39,11 +41,24 @@ RocketHideout_B4F_EventScript_Giovanni::
 RocketHideout_B4F_EventScript_SilphScope::
 	lock
 	faceplayer
-	removeobject LOCALID_SILPH_SCOPE
-	giveitem ITEM_SILPH_SCOPE
+	checkitemspace ITEM_POKE_FLUTE
 	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
+	giveitem ITEM_POKE_FLUTE
+	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
+	setflag FLAG_GOT_POKE_FLUTE
+	setflag FLAG_HIDE_SILPH_SCOPE
+	removeobject LOCALID_SILPH_SCOPE
 	release
 	end
+LavenderFlute_Restore::
+	checkitem ITEM_POKE_FLUTE
+	goto_if_eq VAR_RESULT, TRUE, LavenderFlute_Migrate
+	clearflag FLAG_HIDE_SILPH_SCOPE
+	return
+LavenderFlute_Migrate::
+	setflag FLAG_GOT_POKE_FLUTE
+	setflag FLAG_HIDE_SILPH_SCOPE
+	return
 
 RocketHideout_B4F_EventScript_Grunt1::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_18, RocketHideout_B4F_Text_Grunt1Intro, RocketHideout_B4F_Text_Grunt1Defeat, RocketHideout_B4F_EventScript_DefeatedGrunt1
@@ -133,3 +148,7 @@ RocketHideout_B4F_EventScript_Yokai142::
 RocketHideout_B4F_EventScript_Yokai142_Text::
 	.string "Un {STR_VAR_1} se cache ici.\n"
 	.string "Veux-tu le rencontrer?$"
+
+LavenderFlute_OnTransition::
+	call_if_defeated TRAINER_BOSS_GIOVANNI, LavenderFlute_Restore
+	end

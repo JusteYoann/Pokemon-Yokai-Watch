@@ -358,3 +358,6 @@
 #define HP_EMPTY_SLOT 0xFFFF
 
 #endif // GUARD_CONSTANTS_BATTLE_H
+
+// Four errant variants occupy otherwise-unused upper flag bits (21..22).
+#define BATTLE_TYPE_LAVENDER_ZOMBIE (1 << 20)

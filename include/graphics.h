@@ -4577,3 +4577,6 @@ extern const u32 gDexScreen_TopMenuIconTiles_AtoZ[];
 
 extern const u32 gTrainerFrontPic_YokaiEnma[];
 extern const u32 gTrainerPalette_YokaiEnma[];
+
+extern const u32 gTrainerFrontPic_LavenderZombie[];
+extern const u32 gTrainerPalette_LavenderZombie[];

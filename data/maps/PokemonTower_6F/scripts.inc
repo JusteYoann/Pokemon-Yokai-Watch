@@ -1,4 +1,6 @@
 PokemonTower_6F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, LavenderTower_Gate6Load
+	map_script MAP_SCRIPT_ON_RESUME, LavenderTower_Gate6Load
 	.byte 0
 
 PokemonTower_6F_EventScript_MarowakGhost::
@@ -33,16 +35,34 @@ PokemonTower_6F_Movement_ForcePlayerUp::
 	step_end
 
 PokemonTower_6F_EventScript_Angelica::
-	trainerbattle_single TRAINER_CHANNELER_ANGELICA, PokemonTower_6F_Text_AngelicaIntro, PokemonTower_6F_Text_AngelicaDefeat
-	msgbox PokemonTower_6F_Text_AngelicaPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CHANNELER_ANGELICA, LavenderZombie_Text_Challenge, LavenderZombie_Text_Defeat
+	msgbox LavenderZombie_Text_Calm, MSGBOX_AUTOCLOSE
 	end
 
 PokemonTower_6F_EventScript_Emilia::
-	trainerbattle_single TRAINER_CHANNELER_EMILIA, PokemonTower_6F_Text_EmiliaIntro, PokemonTower_6F_Text_EmiliaDefeat
-	msgbox PokemonTower_6F_Text_EmiliaPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CHANNELER_EMILIA, LavenderZombie_Text_Challenge, LavenderZombie_Text_Defeat
+	msgbox LavenderZombie_Text_Calm, MSGBOX_AUTOCLOSE
 	end
 
 PokemonTower_6F_EventScript_Jennifer::
-	trainerbattle_single TRAINER_CHANNELER_JENNIFER, PokemonTower_6F_Text_JenniferIntro, PokemonTower_6F_Text_JenniferDefeat
-	msgbox PokemonTower_6F_Text_JenniferPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CHANNELER_JENNIFER, LavenderZombie_Text_Challenge, LavenderZombie_Text_Defeat
+	msgbox LavenderZombie_Text_Calm, MSGBOX_AUTOCLOSE
 	end
+
+LavenderTower_Gate6::
+	goto_if_defeated TRAINER_CHANNELER_ANGELICA, LavenderTower_Gate6End
+	lockall
+	trainerbattle_single TRAINER_CHANNELER_ANGELICA, LavenderZombie_Text_Challenge, LavenderZombie_Text_Defeat
+	releaseall
+LavenderTower_Gate6End::
+	setvar VAR_TEMP_0, 1
+	releaseall
+	end
+
+LavenderTower_Gate6Load::
+	setvar VAR_TEMP_0, 0
+	call_if_defeated TRAINER_CHANNELER_ANGELICA, LavenderTower_Gate6Disable
+	end
+LavenderTower_Gate6Disable::
+	setvar VAR_TEMP_0, 1
+	return

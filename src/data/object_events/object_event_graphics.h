@@ -285,3 +285,6 @@ const u16 gObjectEventPic_YokaiLeoJibanyan[] = INCBIN_U16("graphics/yokai_charac
 
 const u16 gObjectEventPal_YokaiAlyzon[] = INCBIN_U16("graphics/yokai_characters/alyzon/overworld.gbapal");
 const u16 gObjectEventPic_YokaiAlyzon[] = INCBIN_U16("graphics/yokai_characters/alyzon/overworld.4bpp");
+
+const u16 gObjectEventPic_LavenderZombie[] = INCBIN_U16("graphics/yokai_zombies/errant/overworld.4bpp");
+const u16 gObjectEventPal_LavenderZombie[] = INCBIN_U16("graphics/yokai_zombies/errant/overworld.gbapal");

@@ -1,4 +1,5 @@
 #include "global.h"
+#include "lavanville.h"
 #include "spiraton_battle.h"
 #include "gflib.h"
 #include "battle.h"
@@ -2615,7 +2616,7 @@ static void BattleIntroDrawTrainersOrMonsSprites(void)
                                     | BATTLE_TYPE_LINK
                                     | BATTLE_TYPE_GHOST
                                     | BATTLE_TYPE_OLD_MAN_TUTORIAL
-                                    | BATTLE_TYPE_LEGENDARY)))
+                                    | BATTLE_TYPE_LEGENDARY | BATTLE_TYPE_LAVENDER_ZOMBIE)))
             {
                 HandleSetPokedexFlag(SpeciesToNationalPokedexNum(gBattleMons[gActiveBattler].species), FLAG_SET_SEEN, gBattleMons[gActiveBattler].personality);
             }
@@ -2634,7 +2635,7 @@ static void BattleIntroDrawTrainersOrMonsSprites(void)
                                             | BATTLE_TYPE_LINK
                                             | BATTLE_TYPE_GHOST
                                             | BATTLE_TYPE_OLD_MAN_TUTORIAL
-                                            | BATTLE_TYPE_LEGENDARY)))
+                                            | BATTLE_TYPE_LEGENDARY | BATTLE_TYPE_LAVENDER_ZOMBIE)))
                 {
                     HandleSetPokedexFlag(SpeciesToNationalPokedexNum(gBattleMons[gActiveBattler].species), FLAG_SET_SEEN, gBattleMons[gActiveBattler].personality);
                 }
@@ -2790,7 +2791,7 @@ static void BattleIntroRecordMonsToDex(void)
                                    | BATTLE_TYPE_LINK
                                    | BATTLE_TYPE_GHOST
                                    | BATTLE_TYPE_OLD_MAN_TUTORIAL
-                                   | BATTLE_TYPE_LEGENDARY)))
+                                   | BATTLE_TYPE_LEGENDARY | BATTLE_TYPE_LAVENDER_ZOMBIE)))
                 HandleSetPokedexFlag(SpeciesToNationalPokedexNum(gBattleMons[gActiveBattler].species), FLAG_SET_SEEN, gBattleMons[gActiveBattler].personality);
         gBattleMainFunc = BattleIntroPrintPlayerSendsOut;
     }
@@ -3016,6 +3017,9 @@ u8 IsRunningFromBattleImpossible(void)
     u8 holdEffect;
     u8 side;
     s32 i;
+
+    if (gBattleTypeFlags & BATTLE_TYPE_LAVENDER_ZOMBIE)
+        return BATTLE_RUN_FORBIDDEN;
 
     if (gBattleMons[gActiveBattler].item == ITEM_ENIGMA_BERRY)
         holdEffect = gEnigmaBerries[gActiveBattler].holdEffect;
@@ -4259,6 +4263,8 @@ bool8 TryRunFromBattle(u8 battler)
     u8 holdEffect;
     u8 speedVar;
 
+    if (gBattleTypeFlags & BATTLE_TYPE_LAVENDER_ZOMBIE)
+        return FALSE;
     if (gBattleMons[battler].item == ITEM_ENIGMA_BERRY)
         holdEffect = gEnigmaBerries[battler].holdEffect;
     else

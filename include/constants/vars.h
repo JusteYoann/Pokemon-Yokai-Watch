@@ -345,3 +345,5 @@
 #define NPC_TEXT_COLOR_DEFAULT 255 // If an NPC is selected, use the color specified by GetColorFromTextColorTable, otherwise use Neutral.
 
 #endif // GUARD_CONSTANTS_VARS_H
+
+#define VAR_LAVENDER_INTRO VAR_0x40F3

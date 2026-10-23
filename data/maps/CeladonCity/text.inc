@@ -48,9 +48,8 @@ CeladonCity_Text_CitySign::
     .string "The City of Rainbow Dreams$"
 
 CeladonCity_Text_GymSign::
-    .string "CELADON CITY Yo-kai GYM\n"
-    .string "LEADER: ERIKA\l"
-    .string "The Nature-Loving Princess!$"
+	.string "Seconde résidence d'ALYZON BIE.\nSon Arène est à LAVANVILLE.$"
+
 
 CeladonCity_Text_MansionSign::
     .string "CELADON MANSION$"
@@ -104,10 +103,7 @@ Text_SoftboiledTaught::
     .string "I wish you the best of luck!$"
 
 CeladonCity_Text_SomeoneStoleSilphScope::
-    .string "Oh, what am I to do…\p"
-    .string "Someone stole our SILPH SCOPE.\p"
-    .string "The thief came running this way,\n"
-    .string "I'm sure of it.\p"
-    .string "But I lost sight of him!\n"
-    .string "Where'd he go?$"
-
+    .string "La MAFIAMILLE cache quelque chose\n"
+    .string "dans son repaire sous le casino.\p"
+    .string "ALYZON BIE saura si tu es prêt\n"
+    .string "à leur tenir tête.$"

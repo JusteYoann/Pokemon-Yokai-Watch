@@ -33,7 +33,7 @@
     30,
     31
   ],
-  "status": "31 slots: original30 preserved. Zombie Night slot14 replaces Wildwood, available but UNASSIGNED per user; original one-shot, no artificial loop.",
+  "status": "31 slots: original30 preserved. Zombie Night slot14 assigned to Lavender Town; complete source repeated, original fade-out retained; musical seam not perceptually approved.",
   "tracks": [
     {
       "number": 1,
@@ -574,10 +574,10 @@
       "input_sha256": "9af2bf4f61dbce7b3807ee5f86d112d7ed423dc286abd7eac8e146ec0f7426be",
       "input_samples": 1318984,
       "rate": 13379,
-      "loop_start_samples": null,
-      "loop_end_samples": null,
+      "loop_start_samples": 0,
+      "loop_end_samples": 1318984,
       "perceptual_listening_validated": false,
-      "derivation": "Original full source, no looping/crossfade. User requested unassigned library entry while Lavender retains Mystic Grove.",
+      "derivation": "Lavanville chapter: repeat the complete original Zombie Night (Town) recording, preserving every encoded source block and its original fade-out/leading silence. This is whole-track repetition, not a claimed seamless musical loop; no crossfade/re-encoding and no substitution with Mount Wildwood. Human listening is not validated.",
       "mp3_sha256": "a48e984cc7257b9c42d0ff705b21170d83d663b5ad71a65a5909d2d8ac80a7a6",
       "pcm_wav_sha256": "7bce06e92800c935802eb87b5d5651a60760aa9f8fc7aa6e121715470c327b7b"
     }
@@ -586,7 +586,6 @@
     14
   ],
   "one_shot_tracks": [
-    5,
-    14
+    5
   ]
 }

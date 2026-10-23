@@ -51,16 +51,10 @@ CeladonCity_GameCorner_Text_WinOrLoseItsOnlyLuck::
     .string "Win or lose, it's only by luck.$"
 
 CeladonCity_GameCorner_Text_GymGuyAdvice::
-    .string "Hey!\p"
-    .string "You have better things to do,\n"
-    .string "champ in the making!\p"
-    .string "CELADON GYM's LEADER is ERIKA.\p"
-    .string "She is a user of GRASS-type\n"
-    .string "Yo-kai, and at one with nature.\p"
-    .string "She might appear docile because of\n"
-    .string "her flower arranging…\p"
-    .string "But she's not one to be taken\n"
-    .string "lightly!$"
+    .string "La Championne ALYZON BIE t'attend\n"
+    .string "au sommet de la Tour de LAVANVILLE.\p"
+    .string "Ses Yo-kai sont de type Spectre.\n"
+    .string "Attention à leurs immunités!$"
 
 CeladonCity_GameCorner_Text_RareMonsForCoins::
     .string "They offer rare Yo-kai that can\n"
@@ -136,4 +130,3 @@ CeladonCity_GameCorner_Text_OutToLunch::
 CeladonCity_GameCorner_Text_SomeonesKeys::
     .string "Someone's keys!\n"
     .string "They'll be back.$"
-

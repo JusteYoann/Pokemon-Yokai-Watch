@@ -177,7 +177,7 @@ static const u8 sFameCheckerTrainerPicIdxs[] = {
     [FAMECHECKER_BROCK]    = TRAINER_PIC_LEADER_BROCK,
     [FAMECHECKER_MISTY]    = TRAINER_PIC_LEADER_MISTY,
     [FAMECHECKER_LTSURGE]  = TRAINER_PIC_LEADER_LT_SURGE,
-    [FAMECHECKER_ERIKA]    = TRAINER_PIC_LEADER_ERIKA,
+    [FAMECHECKER_ERIKA]    = TRAINER_PIC_YOKAI_ALYZON,
     [FAMECHECKER_KOGA]     = TRAINER_PIC_LEADER_KOGA,
     [FAMECHECKER_SABRINA]  = TRAINER_PIC_LEADER_SABRINA,
     [FAMECHECKER_BLAINE]   = TRAINER_PIC_LEADER_BLAINE,
@@ -303,10 +303,10 @@ static const u8 sFameCheckerArrayNpcGraphicsIds[] = {
     OBJ_EVENT_GFX_CLIPBOARD,
     // ERIKA
     OBJ_EVENT_GFX_GYM_SIGN,
-    OBJ_EVENT_GFX_ERIKA,
+    OBJ_EVENT_GFX_YOKAI_ALYZON,
     OBJ_EVENT_GFX_LASS,
     OBJ_EVENT_GFX_BEAUTY,
-    OBJ_EVENT_GFX_ERIKA,
+    OBJ_EVENT_GFX_YOKAI_ALYZON,
     OBJ_EVENT_GFX_CLIPBOARD,
     // KOGA
     OBJ_EVENT_GFX_GYM_SIGN,
@@ -1554,7 +1554,9 @@ static u8 FC_PopulateListMenu(void)
     for (i = 0; i < NUM_FAMECHECKER_PERSONS; i++)
     {
         u8 fameCheckerIdx = AdjustGiovanniIndexIfBeatenInGym(i);
-        if (gSaveBlock1Ptr->fameChecker[fameCheckerIdx].pickState != FCPICKSTATE_NO_DRAW)
+        // Retain the legacy save slot, but Fuji is absent from this story.
+        if (fameCheckerIdx != FAMECHECKER_MRFUJI
+         && gSaveBlock1Ptr->fameChecker[fameCheckerIdx].pickState != FCPICKSTATE_NO_DRAW)
         {
             if (sTrainerIdxs[fameCheckerIdx] < FC_NONTRAINER_START)
             {

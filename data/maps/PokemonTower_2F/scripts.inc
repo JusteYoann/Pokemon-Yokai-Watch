@@ -2,7 +2,7 @@ PokemonTower_2F_MapScripts::
 	.byte 0
 
 PokemonTower_2F_EventScript_Channeler::
-	msgbox PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts, MSGBOX_NPC
+	msgbox LavenderTower_Text_Encounters, MSGBOX_NPC
 	end
 
 PokemonTower_2F_EventScript_RivalTriggerRight::
@@ -99,3 +99,6 @@ PokemonTower_2F_Movement_RivalExitDown::
 	walk_down
 	walk_in_place_faster_right
 	step_end
+LavenderTower_Text_Encounters::
+	.string "Les Yo-kai sauvages sont visibles.\nTu peux les capturer ou fuir.\p"
+	.string "Nous, les zombies Dresseurs,\navons nos propres équipes!$"

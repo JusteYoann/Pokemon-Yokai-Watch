@@ -1,4 +1,5 @@
 #include "global.h"
+#include "lavanville.h"
 #include "gflib.h"
 #include "blend_palette.h"
 #include "field_effect.h"
@@ -625,9 +626,9 @@ static void ApplyFogBlend(u8 blendCoeff, u16 blendColor)
                 u8 g = color.g;
                 u8 b = color.b;
 
-                r += ((28 - r) * 3) >> 2;
-                g += ((31 - g) * 3) >> 2;
-                b += ((28 - b) * 3) >> 2;
+                if (!IsLavanvilleNight()) r += ((28 - r) * 3) >> 2;
+                if (!IsLavanvilleNight()) g += ((31 - g) * 3) >> 2;
+                if (!IsLavanvilleNight()) b += ((28 - b) * 3) >> 2;
 
                 r += ((rBlend - r) * blendCoeff) >> 4;
                 g += ((gBlend - g) * blendCoeff) >> 4;
@@ -862,7 +863,7 @@ void UpdateSpritePaletteWithWeather(u8 spritePaletteIndex)
         else
         {
             paletteIndex = PLTT_ID(paletteIndex);
-            BlendPalette(paletteIndex, 16, 12, RGB(28, 31, 28));
+            BlendPalette(paletteIndex, 16, IsLavanvilleNight() ? 0 : 12, RGB(28, 31, 28));
         }
         break;
     }

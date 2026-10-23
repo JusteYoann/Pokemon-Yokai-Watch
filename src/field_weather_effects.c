@@ -1,4 +1,5 @@
 #include "global.h"
+#include "lavanville.h"
 #include "gflib.h"
 #include "battle_anim.h"
 #include "event_object_movement.h"
@@ -1330,7 +1331,7 @@ void FogHorizontal_InitAll(void)
 void FogHorizontal_Main(void)
 {
     gWeatherPtr->fogHScrollPosX = (gSpriteCoordOffsetX - gWeatherPtr->fogHScrollOffset) & 0xFF;
-    if (++gWeatherPtr->fogHScrollCounter > 3)
+    if (++gWeatherPtr->fogHScrollCounter > (IsLavanvilleNight() ? 7 : 3))
     {
         gWeatherPtr->fogHScrollCounter = 0;
         gWeatherPtr->fogHScrollOffset++;
@@ -1339,8 +1340,13 @@ void FogHorizontal_Main(void)
     {
     case 0:
         CreateFogHorizontalSprites();
+        if (IsLavanvilleNight())
+        {
+            static const u16 green[16] = {RGB(8,20,10),RGB(8,20,10),RGB(8,20,10),RGB(8,20,10),RGB(8,20,10),RGB(8,20,10),RGB(8,20,10),RGB(8,20,10),RGB(8,20,10),RGB(8,20,10),RGB(8,20,10),RGB(8,20,10),RGB(8,20,10),RGB(8,20,10),RGB(8,20,10),RGB(8,20,10)};
+            LoadCustomWeatherSpritePalette(green);
+        }
         if (gWeatherPtr->currWeather == WEATHER_FOG_HORIZONTAL)
-            Weather_SetTargetBlendCoeffs(12, 8, 3);
+            Weather_SetTargetBlendCoeffs(IsLavanvilleNight() ? 3 : 12, IsLavanvilleNight() ? 16 : 8, 3);
         else
             Weather_SetTargetBlendCoeffs(4, 16, 0);
         gWeatherPtr->initStep++;
@@ -1358,7 +1364,7 @@ void FogHorizontal_Main(void)
 bool8 FogHorizontal_Finish(void)
 {
     gWeatherPtr->fogHScrollPosX = (gSpriteCoordOffsetX - gWeatherPtr->fogHScrollOffset) & 0xFF;
-    if (++gWeatherPtr->fogHScrollCounter > 3)
+    if (++gWeatherPtr->fogHScrollCounter > (IsLavanvilleNight() ? 7 : 3))
     {
         gWeatherPtr->fogHScrollCounter = 0;
         gWeatherPtr->fogHScrollOffset++;

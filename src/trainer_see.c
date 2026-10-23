@@ -1,4 +1,5 @@
 #include "global.h"
+#include "lavanville.h"
 #include "battle_setup.h"
 #include "event_object_movement.h"
 #include "field_effect.h"
@@ -90,6 +91,8 @@ bool8 CheckForTrainersWantingBattle(void)
     u8 i;
     if (QL_IsTrainerSightDisabled() == TRUE)
         return FALSE;
+    if (LavanvilleTryZombieSight())
+        return TRUE;
 
     for (i = 0; i < OBJECT_EVENTS_COUNT; i++)
     {

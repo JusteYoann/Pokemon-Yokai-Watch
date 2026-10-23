@@ -453,4 +453,10 @@ gSpecials::
 	def_special LoopWingFlapSound
 	def_special CreateEnemyEventMon
 	def_special SpiratonBattleArmPrototype
+	def_special LavanvilleStartZombieBattle
+	def_special LavanvilleZombieImmunity
+	def_special LavanvilleCheckZombieImmunity
+	def_special LavanvillePrepareIntro
+	def_special LavanvilleIntroDepart
+	def_special LavanvilleRematchReady
 gSpecialsEnd::

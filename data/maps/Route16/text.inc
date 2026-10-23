@@ -67,8 +67,7 @@ Route16_Text_RubenPostBattle::
     .string "And, they bite, too.$"
 
 Route16_Text_MonSprawledOutInSlumber::
-    .string "A Yo-kai is sprawled out in\n"
-    .string "a deep and comfortable slumber.$"
+    .string "Un MISTERRE dort profondément.\nIl bloque tout le passage.$"
 
 Route16_Text_CyclingRoadSign::
     .string "Enjoy the slope!\n"

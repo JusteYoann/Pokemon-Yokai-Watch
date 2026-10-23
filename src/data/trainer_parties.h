@@ -12372,10 +12372,10 @@ static const struct TrainerMonItemCustomMoves sYokaiParty_LEADER_LT_SURGE[] = {
     {.iv = 200, .lvl = 23, .species = SPECIES_GRAVELER, .heldItem = ITEM_NONE, .moves = {MOVE_SHOCK_WAVE, MOVE_PECK, MOVE_TACKLE, MOVE_LEER}},
 };
 static const struct TrainerMonItemCustomMoves sYokaiParty_LEADER_ERIKA[] = {
-    {.iv = 200, .lvl = 23, .species = SPECIES_PERSIAN, .heldItem = ITEM_NONE, .moves = {MOVE_VINE_WHIP, MOVE_ABSORB, MOVE_TACKLE, MOVE_GROWTH}},
-    {.iv = 200, .lvl = 24, .species = SPECIES_GENGAR, .heldItem = ITEM_NONE, .moves = {MOVE_RAZOR_LEAF, MOVE_TACKLE, MOVE_GROWL, MOVE_ABSORB}},
-    {.iv = 200, .lvl = 26, .species = SPECIES_PSYDUCK, .heldItem = ITEM_NONE, .moves = {MOVE_RAZOR_LEAF, MOVE_STUN_SPORE, MOVE_ABSORB, MOVE_GROWTH}},
-    {.iv = 200, .lvl = 28, .species = SPECIES_NIDORINO, .heldItem = ITEM_NONE, .moves = {MOVE_RAZOR_LEAF, MOVE_MUD_SHOT, MOVE_GROWTH, MOVE_TACKLE}},
+    {.iv = 128, .lvl = 27, .species = SPECIES_NIDORAN_M, .heldItem = ITEM_NONE, .moves = {MOVE_LICK, MOVE_NIGHT_SHADE, MOVE_CONFUSE_RAY, MOVE_DISABLE}},
+    {.iv = 128, .lvl = 28, .species = SPECIES_WARTORTLE, .heldItem = ITEM_NONE, .moves = {MOVE_NIGHT_SHADE, MOVE_SPITE, MOVE_CONFUSE_RAY, MOVE_DISABLE}},
+    {.iv = 128, .lvl = 29, .species = SPECIES_GLOOM, .heldItem = ITEM_NONE, .moves = {MOVE_NIGHT_SHADE, MOVE_SPITE, MOVE_HYPNOSIS, MOVE_CONFUSE_RAY}},
+    {.iv = 128, .lvl = 31, .species = SPECIES_ELECTABUZZ, .heldItem = ITEM_NONE, .moves = {MOVE_ASTONISH, MOVE_NIGHT_SHADE, MOVE_CONFUSE_RAY, MOVE_DISABLE}},
 };
 static const struct TrainerMonItemCustomMoves sYokaiParty_LEADER_KOGA[] = {
     {.iv = 200, .lvl = 34, .species = SPECIES_SNORLAX, .heldItem = ITEM_NONE, .moves = {MOVE_POISON_STING, MOVE_SMOG, MOVE_HARDEN, MOVE_SLUDGE}},
@@ -13955,4 +13955,20 @@ static const struct TrainerMonItemCustomMoves sParty_DonMorleoneLeague[] = {
 // Diagnostic fixture; no approved true-form artwork is substituted in production.
 static const struct TrainerMonItemCustomMoves sParty_DonSpiratonPrototype[] = {
     {.iv = 200, .lvl = 56, .species = SPECIES_MEOWTH, .heldItem = ITEM_NONE, .moves = {MOVE_DIG, MOVE_SANDSTORM, MOVE_EARTHQUAKE, MOVE_ROCK_TOMB}},
+};
+
+static const struct TrainerMonItemCustomMoves sLavenderSummit1[] = {
+    {.iv = 80, .lvl = 26, .species = SPECIES_WEEPINBELL, .heldItem = ITEM_NONE, .moves = {MOVE_HARDEN, MOVE_LICK, MOVE_MEAN_LOOK, MOVE_ROCK_TOMB}},
+    {.iv = 80, .lvl = 27, .species = SPECIES_GLOOM, .heldItem = ITEM_NONE, .moves = {MOVE_CONFUSE_RAY, MOVE_HYPNOSIS, MOVE_NIGHT_SHADE, MOVE_SPITE}},
+};
+
+static const struct TrainerMonItemCustomMoves sLavenderSummit2[] = {
+    {.iv = 80, .lvl = 27, .species = SPECIES_ZUBAT, .heldItem = ITEM_NONE, .moves = {MOVE_NIGHT_SHADE, MOVE_SPITE, MOVE_CONFUSE_RAY, MOVE_WILL_O_WISP}},
+    {.iv = 80, .lvl = 28, .species = SPECIES_JYNX, .heldItem = ITEM_NONE, .moves = {MOVE_SPITE, MOVE_CONFUSE_RAY, MOVE_NIGHT_SHADE, MOVE_CURSE}},
+};
+
+static const struct TrainerMonItemCustomMoves sLavenderSummit3[] = {
+    {.iv = 80, .lvl = 27, .species = SPECIES_WARTORTLE, .heldItem = ITEM_NONE, .moves = {MOVE_CONFUSE_RAY, MOVE_DISABLE, MOVE_NIGHT_SHADE, MOVE_SPITE}},
+    {.iv = 80, .lvl = 28, .species = SPECIES_KANGASKHAN, .heldItem = ITEM_NONE, .moves = {MOVE_FAKE_TEARS, MOVE_CONFUSE_RAY, MOVE_NIGHT_SHADE, MOVE_SPITE}},
+    {.iv = 80, .lvl = 28, .species = SPECIES_NIDORAN_M, .heldItem = ITEM_NONE, .moves = {MOVE_DISABLE, MOVE_NIGHT_SHADE, MOVE_SPITE, MOVE_CURSE}},
 };

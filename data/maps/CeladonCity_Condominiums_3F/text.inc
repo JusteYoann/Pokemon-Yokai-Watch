@@ -8,7 +8,7 @@ CeladonCity_Condominiums_3F_Text_ImTheGraphicArtist::
 
 CeladonCity_Condominiums_3F_Text_IWroteTheStory::
     .string "I wrote the story!\n"
-    .string "Isn't ERIKA cute?\p"
+    .string "Isn't ALYZON cute?\p"
     .string "I like MISTY a lot, too!\n"
     .string "Oh, and SABRINA, I like her!$"
 
@@ -39,4 +39,3 @@ CeladonCity_Condominiums_3F_Text_ItsScriptBetterNotLookAtEnding::
 
 CeladonCity_Condominiums_3F_Text_GameFreakDevelopmentRoom::
     .string "GAME FREAK Development Room$"
-

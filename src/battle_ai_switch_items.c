@@ -305,6 +305,8 @@ static bool8 ShouldSwitch(void)
     s32 i;
     s32 availableToSwitch;
 
+    if (gTrainerBattleOpponent_A == TRAINER_LEADER_ERIKA)
+        return FALSE;
     if ((gBattleMons[gActiveBattler].status2 & (STATUS2_WRAPPED | STATUS2_ESCAPE_PREVENTION))
      || (gStatuses3[gActiveBattler] & STATUS3_ROOTED)
      || AbilityBattleEffects(ABILITYEFFECT_CHECK_OTHER_SIDE, gActiveBattler, ABILITY_SHADOW_TAG, 0, 0)
@@ -435,6 +437,12 @@ u8 GetMostSuitableMonToSwitchInto(void)
     u8 invalidMons;
     u16 move;
 
+    if ((gBattleTypeFlags & BATTLE_TYPE_TRAINER) && gTrainerBattleOpponent_A == TRAINER_LEADER_ERIKA)
+    {
+        for (i = 0; i < 4; i++)
+            if (i != gBattlerPartyIndexes[gActiveBattler] && GetMonData(&gEnemyParty[i], MON_DATA_HP) != 0)
+                return i;
+    }
     if (*(gBattleStruct->monToSwitchIntoId + gActiveBattler) != PARTY_SIZE)
         return *(gBattleStruct->monToSwitchIntoId + gActiveBattler);
     if (gBattleTypeFlags & BATTLE_TYPE_DOUBLE)
