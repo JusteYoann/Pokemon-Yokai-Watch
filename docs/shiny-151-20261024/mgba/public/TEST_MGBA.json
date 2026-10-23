@@ -1,0 +1,1216 @@
+{
+  "passed": true,
+  "scope": "151 native battles with front/back tiles and compiled palette-bank checks.\nPID0 requests shiny naturally (84 allowed/67 blocked). For blocked species only,\nLoadCompressedPalette is explicitly invoked as a rendering fixture. No ROM,\nPID rules, encounter probabilities or eligibility tables are modified.\nThis is not a full adventure or an all-attacks test.\n",
+  "rom_sha256": "209fc2795e7d0f57d3b1222c01c9231be9ae0dcf11cac1af6815cd78bd5b6baf",
+  "error": null,
+  "results": [
+    {
+      "number": 1,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 2,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 3,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 4,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 5,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 6,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 7,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 8,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 9,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 10,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 11,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 12,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 13,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 14,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 15,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 16,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 17,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 18,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 19,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 20,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 21,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 22,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 23,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 24,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 25,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 26,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 27,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 28,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 29,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 30,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 31,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 32,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 33,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 34,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 35,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 36,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 37,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 38,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 39,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 40,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 41,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 42,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 43,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 44,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 45,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 46,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 47,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 48,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 49,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 50,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 51,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 52,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 53,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 54,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 55,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 56,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 57,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 58,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 59,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 60,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 61,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 62,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 63,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 64,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 65,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 66,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 67,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 68,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 69,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 70,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 71,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 72,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 73,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 74,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 75,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 76,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 77,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 78,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 79,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 80,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 81,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 82,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 83,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 84,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 85,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 86,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 87,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 88,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 89,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 90,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 91,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 92,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 93,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 94,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 95,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 96,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 97,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 98,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 99,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 100,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 101,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 102,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 103,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 104,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 105,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 106,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 107,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 108,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 109,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 110,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 111,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 112,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 113,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 114,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 115,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 116,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 117,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 118,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 119,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 120,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 121,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 122,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 123,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 124,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 125,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 126,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 127,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 128,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 129,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 130,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 131,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 132,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 133,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 134,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 135,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 136,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 137,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 138,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 139,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 140,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 141,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 142,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 143,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 144,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 145,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 146,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 147,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 148,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 149,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 150,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 151,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    }
+  ]
+}

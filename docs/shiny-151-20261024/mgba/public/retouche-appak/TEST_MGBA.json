@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "scope": "151 native battles with front/back tiles and compiled palette-bank checks.\nPID0 requests shiny naturally (84 allowed/67 blocked). For blocked species only,\nLoadCompressedPalette is explicitly invoked as a rendering fixture. No ROM,\nPID rules, encounter probabilities or eligibility tables are modified.\nThis is not a full adventure or an all-attacks test.\n",
+  "rom_sha256": "8cba7d8ea95312c24eaeeffe49dc6ced058a0fe29069260472424a6818f14860",
+  "error": null,
+  "all_302_current_ROM_palette_pointers_verified": true,
+  "results": [
+    {
+      "number": 88,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    }
+  ]
+}

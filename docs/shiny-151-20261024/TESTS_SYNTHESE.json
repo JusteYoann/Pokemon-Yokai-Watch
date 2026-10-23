@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "versions": [
+    {
+      "mode": "public",
+      "phase": "151 espèces",
+      "battles": 151,
+      "sha": "209fc2795e7d0f57d3b1222c01c9231be9ae0dcf11cac1af6815cd78bd5b6baf",
+      "path": "mgba/public/TEST_MGBA.json"
+    },
+    {
+      "mode": "public",
+      "phase": "retouche Appak + 302 pointeurs de palettes",
+      "battles": 1,
+      "sha": "8cba7d8ea95312c24eaeeffe49dc6ced058a0fe29069260472424a6818f14860",
+      "path": "mgba/public/retouche-appak/TEST_MGBA.json"
+    },
+    {
+      "mode": "prive",
+      "phase": "151 espèces",
+      "battles": 151,
+      "sha": "916fe57916987086db2486d12038bc69ddeb241cadae82da91b8a54eaffea2d2",
+      "path": "mgba/prive/TEST_MGBA.json"
+    },
+    {
+      "mode": "prive",
+      "phase": "retouche Appak + 302 pointeurs de palettes",
+      "battles": 1,
+      "sha": "7154e4e1e18401b87aa925c5ac5738e09393e0e6e71ab5f289fb160998321732",
+      "path": "mgba/prive/retouche-appak/TEST_MGBA.json"
+    }
+  ],
+  "final_scope": "Full151 both versions before isolated Appak edit; Appak and every compiled palette pointer checked on final ROMs. Encounter eligibility unchanged."
+}
