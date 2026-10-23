@@ -1,36 +1,26 @@
 SilphCo_11F_Text_ThanksForSavingMeDearBoy::
-    .string "PRESIDENT: Oh, dear boy!\n"
-    .string "Thank you for saving SILPH.\p"
-    .string "I will never forget you saved us in\n"
-    .string "our moment of peril.\p"
-    .string "I have to thank you in some way.\p"
-    .string "Because I am rich, I can give you\n"
-    .string "anything.\p"
-    .string "Here, maybe this will do.$"
+    .string "DOMNISCIAN: Tu as sauvé Yopple!\p"
+    .string "Et son irremplaçable PDG: moi!\n"
+    .string "Cela mérite bien une récompense.$"
 
 SilphCo_11F_Text_ThanksForSavingMeDearGirl::
-    .string "PRESIDENT: Oh, dear girl!\n"
-    .string "Thank you for saving SILPH.\p"
-    .string "I will never forget you saved us in\n"
-    .string "our moment of peril.\p"
-    .string "I have to thank you in some way.\p"
-    .string "Because I am rich, I can give you\n"
-    .string "anything.\p"
-    .string "Here, maybe this will do.$"
+    .string "DOMNISCIAN: Tu as sauvé Yopple!\p"
+    .string "Et son irremplaçable PDG: moi!\n"
+    .string "Cela mérite bien une récompense.$"
 
 SilphCo_11F_Text_ObtainedMasterBallFromPresident::
-    .string "{PLAYER} obtained a MASTER BALL\n"
-    .string "from the PRESIDENT!$"
+    .string "{PLAYER} reçoit une Master Ball\n"
+    .string "de Domniscian!$"
 
 SilphCo_11F_Text_ThatsOurSecretPrototype::
-    .string "PRESIDENT: You can't buy that\n"
-    .string "anywhere.\p"
-    .string "It's our secret prototype MASTER\n"
-    .string "BALL.\p"
-    .string "It will catch any Yo-kai without\n"
-    .string "fail!\p"
-    .string "You should be quiet about using it,\n"
-    .string "though.$"
+    .string "Cette Master Ball attrape\n"
+    .string "n’importe quel Yo-kai sans échec!\p"
+    .string "Steve Jaws a fondé Yopple\n"
+    .string "et lancé ses inventions.\p"
+    .string "Mais depuis mon rachat,\n"
+    .string "je dirige cette merveille!\p"
+    .string "Retrouve-moi à l’Arène de Safrania.\n"
+    .string "Mes Yo-kai Acier t’y attendent!$"
 
 SilphCo_11F_Text_YouHaveNoRoomForThis::
     .string "You have no room for this.$"
@@ -48,7 +38,7 @@ SilphCo_11F_Text_GiovanniDefeat::
     .string "Encore une affaire qui tourne mal!$"
 
 SilphCo_11F_Text_GiovanniPostBattle::
-    .string "Tu nous coûtes la Sylphe. Je\nn'oublierai pas ce nom: {PLAYER}.\pMais un revers ne suffit pas à faire\ntomber la famille.\pNous nous reverrons.$"
+    .string "Tu nous coûtes la Yopple. Je\nn'oublierai pas ce nom: {PLAYER}.\pMais un revers ne suffit pas à faire\ntomber la famille.\pNous nous reverrons.$"
 
 SilphCo_11F_Text_Grunt2Intro::
     .string "Pas un pas de plus! Tu approches du\nbureau du Don!$"
@@ -72,6 +62,6 @@ SilphCo_11F_Text_MonitorHasMonsOnIt::
     .string "The monitor has Yo-kai on it!$"
 
 SilphCo_11F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
+    .string "Yopple HEAD OFFICE\n"
     .string "11F$"
 

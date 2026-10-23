@@ -1844,7 +1844,7 @@ static const struct SpriteFrameImage sPicTable_YokaiMafiamille3[] = {
 };
 
 static const struct SpriteFrameImage sPicTable_YokaiEnmaCreature[] = {
-    overworld_frame(gObjectEventPic_YokaiEnmaCreature, 4, 4, 0),
+    overworld_frame(gObjectEventPic_YokaiEnma, 2, 4, 0),
 };
 
 static const struct SpriteFrameImage sPicTable_YokaiMisterre[] = {
@@ -1909,3 +1909,11 @@ static const struct SpriteFrameImage sPicTable_CramoisHovernyan[] = {
     overworld_frame(gObjectEventPic_CramoisHovernyan, 4, 4, 0),
     overworld_frame(gObjectEventPic_CramoisHovernyan, 4, 4, 1),
 };
+
+static const struct SpriteFrameImage sPicTable_DossierZazel[] = {overworld_frame(gObjectEventPic_DossierZazel, 4, 4, 0)};
+
+static const struct SpriteFrameImage sPicTable_DossierEnmaAncien[] = {overworld_frame(gObjectEventPic_DossierEnmaAncien, 4, 4, 0)};
+
+static const struct SpriteFrameImage sPicTable_DossierOrqanos[] = {overworld_frame(gObjectEventPic_DossierOrqanos, 4, 4, 0)};
+
+static const struct SpriteFrameImage sPicTable_DossierNyada[] = {overworld_frame(gObjectEventPic_DossierNyada, 4, 4, 0)};

@@ -2,6 +2,13 @@ SaffronCity_Gym_MapScripts::
 	.byte 0
 
 SaffronCity_Gym_EventScript_Sabrina::
+	lock
+	faceplayer
+	goto_if_unset FLAG_HIDE_SAFFRON_ROCKETS, SaffronCity_Gym_EventScript_YoppleBusy
+	goto_if_unset FLAG_DEFEATED_SABRINA, SaffronCity_Gym_EventScript_FirstChallenge
+	goto_if_unset FLAG_GOT_TM04_FROM_SABRINA, SaffronCity_Gym_EventScript_GiveTM04
+	goto_if_set FLAG_SYS_GAME_CLEAR, SaffronCity_Gym_EventScript_DomniscianRematch
+SaffronCity_Gym_EventScript_FirstChallenge::
 	famechecker FAMECHECKER_SABRINA, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
 	trainerbattle_single TRAINER_LEADER_SABRINA, SaffronCity_Gym_Text_SabrinaIntro, SaffronCity_Gym_Text_SabrinaDefeat, SaffronCity_Gym_EventScript_DefeatedSabrina, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM04_FROM_SABRINA, SaffronCity_Gym_EventScript_GiveTM04
@@ -21,9 +28,9 @@ SaffronCity_Gym_EventScript_DefeatedSabrina::
 
 SaffronCity_Gym_EventScript_GiveTM04::
 	msgbox SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis
-	checkitemspace ITEM_TM04
+	checkitemspace ITEM_TM23
 	goto_if_eq VAR_RESULT, FALSE, SaffronCity_Gym_EventScript_NoRoomForTM04
-	giveitem_msg SaffronCity_Gym_Text_ReceivedTM04FromSabrina, ITEM_TM04
+	giveitem_msg SaffronCity_Gym_Text_ReceivedTM04FromSabrina, ITEM_TM23
 	setflag FLAG_GOT_TM04_FROM_SABRINA
 	msgbox SaffronCity_Gym_Text_SabrinaPostBattle
 	release
@@ -94,3 +101,33 @@ SaffronCity_Gym_EventScript_GymStatuePostVictory::
 	msgbox SaffronCity_Gym_Text_GymStatuePlayerWon
 	releaseall
 	end
+
+SaffronCity_Gym_EventScript_YoppleBusy::
+	msgbox SaffronCity_Gym_Text_YoppleBusy
+	release
+	end
+SaffronCity_Gym_Text_YoppleBusy::
+	.string "La Mafiamille occupe Yopple!\p"
+	.string "Impossible de commencer le défi\n"
+	.string "tant que l’entreprise est en danger.$"
+
+SaffronCity_Gym_EventScript_DomniscianRematch::
+	msgbox SaffronCity_Gym_Text_RematchOffer, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventScript_ReleaseEnd
+	closemessage
+	cleartrainerflag TRAINER_LEADER_SABRINA
+	trainerbattle_single TRAINER_LEADER_SABRINA, SaffronCity_Gym_Text_RematchStart, SaffronCity_Gym_Text_SabrinaDefeat, SaffronCity_Gym_EventScript_RematchWon, NO_MUSIC
+	goto EventScript_ReleaseEnd
+SaffronCity_Gym_EventScript_RematchWon::
+	msgbox SaffronCity_Gym_Text_RematchAfter
+	goto EventScript_ReleaseEnd
+SaffronCity_Gym_Text_RematchOffer::
+	.string "DOMNISCIAN: Te revoilà!\p"
+	.string "Prêt pour une revanche contre\n"
+	.string "le Champion Acier de Safrania?$"
+SaffronCity_Gym_Text_RematchStart::
+	.string "Cette fois, mes Yo-kai Acier\n"
+	.string "vont briller de tout leur éclat!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+SaffronCity_Gym_Text_RematchAfter::
+	.string "La prochaine fois, je l’emporterai!\p"
+	.string "Mon Arène t’est toujours ouverte.$"

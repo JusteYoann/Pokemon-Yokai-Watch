@@ -3,7 +3,7 @@ SilphCo_7F_Text_HaveMonForSavingUs::
 
 SilphCo_7F_Text_ObtainedLaprasFromEmployee::
     .string "{PLAYER} obtained a LAPRAS from\n"
-    .string "the SILPH employee!$"
+    .string "the Yopple employee!$"
 
 SilphCo_7F_Text_ExplainLapras::
     .string "It's a LAPRAS.\n"
@@ -56,7 +56,7 @@ SilphCo_7F_Text_Grunt3PostBattle::
 
 SilphCo_7F_Text_JoshuaIntro::
     .string "Heheh!\p"
-    .string "You mistook me for a SILPH worker?$"
+    .string "You mistook me for a Yopple worker?$"
 
 SilphCo_7F_Text_JoshuaDefeat::
     .string "I'm done!$"
@@ -114,6 +114,6 @@ SilphCo_7F_Text_RivalPostBattle::
     .string "Smell ya!$"
 
 SilphCo_7F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
+    .string "Yopple HEAD OFFICE\n"
     .string "7F$"
 

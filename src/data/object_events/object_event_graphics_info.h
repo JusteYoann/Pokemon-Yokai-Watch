@@ -2972,11 +2972,11 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiEnma = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiKyubi = {
-    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_YOKAI_ENMA,
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_DOSSIER_KYUBI,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 512, .width = 32, .height = 32,
-    .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
-    .inanimate = TRUE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_NONE,
+    .paletteSlot = PALSLOT_NPC_2_REFLECTION, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = TRUE, .disableReflectionPaletteLoad = TRUE, .tracks = TRACKS_NONE,
     .oam = &gObjectEventBaseOam_32x32, .subspriteTables = gObjectEventSpriteOamTables_32x32,
     .anims = sAnimTable_Inanimate, .images = sPicTable_YokaiKyubi,
     .affineAnims = gDummySpriteAffineAnimTable,
@@ -3211,12 +3211,12 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiMafiamille3 =
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiEnmaCreature = {
-    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_YOKAI_ENMA_CREATURE,
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_YOKAI_ENMA,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
-    .size = 512, .width = 32, .height = 32,
+    .size = 256, .width = 16, .height = 32,
     .paletteSlot = PALSLOT_NPC_SPECIAL, .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE, .disableReflectionPaletteLoad = FALSE, .tracks = TRACKS_NONE,
-    .oam = &gObjectEventBaseOam_32x32, .subspriteTables = gObjectEventSpriteOamTables_32x32,
+    .oam = &gObjectEventBaseOam_16x32, .subspriteTables = gObjectEventSpriteOamTables_16x32,
     .anims = sAnimTable_Inanimate, .images = sPicTable_YokaiEnmaCreature,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
@@ -3334,5 +3334,49 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CramoisHovernyan =
     .inanimate = FALSE, .disableReflectionPaletteLoad = TRUE, .tracks = TRACKS_NONE,
     .oam = &gObjectEventBaseOam_32x32, .subspriteTables = gObjectEventSpriteOamTables_32x32,
     .anims = sAnimTable_CramoisHovernyan, .images = sPicTable_CramoisHovernyan,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DossierZazel = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_DOSSIER_ZAZEL,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32,
+    .paletteSlot = PALSLOT_NPC_2_REFLECTION, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = TRUE, .disableReflectionPaletteLoad = TRUE, .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_32x32, .subspriteTables = gObjectEventSpriteOamTables_32x32,
+    .anims = sAnimTable_Inanimate, .images = sPicTable_DossierZazel,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DossierEnmaAncien = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_DOSSIER_ENMA_ANCIEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32,
+    .paletteSlot = PALSLOT_NPC_2_REFLECTION, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = TRUE, .disableReflectionPaletteLoad = TRUE, .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_32x32, .subspriteTables = gObjectEventSpriteOamTables_32x32,
+    .anims = sAnimTable_Inanimate, .images = sPicTable_DossierEnmaAncien,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DossierOrqanos = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_DOSSIER_ORQANOS,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32,
+    .paletteSlot = PALSLOT_NPC_2_REFLECTION, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = TRUE, .disableReflectionPaletteLoad = TRUE, .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_32x32, .subspriteTables = gObjectEventSpriteOamTables_32x32,
+    .anims = sAnimTable_Inanimate, .images = sPicTable_DossierOrqanos,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DossierNyada = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_DOSSIER_NYADA,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32,
+    .paletteSlot = PALSLOT_NPC_2_REFLECTION, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = TRUE, .disableReflectionPaletteLoad = TRUE, .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_32x32, .subspriteTables = gObjectEventSpriteOamTables_32x32,
+    .anims = sAnimTable_Inanimate, .images = sPicTable_DossierNyada,
     .affineAnims = gDummySpriteAffineAnimTable,
 };

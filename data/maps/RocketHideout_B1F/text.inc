@@ -23,7 +23,7 @@ RocketHideout_B1F_Text_Grunt3Defeat::
     .string "Relève... demandée!$"
 
 RocketHideout_B1F_Text_Grunt3PostBattle::
-    .string "Le Scope Sylphe? Je ne sais pas où\nle patron l'a rangé.$"
+    .string "Le Scope Yopple? Je ne sais pas où\nle patron l'a rangé.$"
 
 RocketHideout_B1F_Text_Grunt4Intro::
     .string "Une visite guidée? Tu t'es trompé\nd'endroit.$"

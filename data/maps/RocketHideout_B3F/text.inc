@@ -5,7 +5,7 @@ RocketHideout_B3F_Text_Grunt1Defeat::
     .string "Mon service est terminé...$"
 
 RocketHideout_B3F_Text_Grunt1PostBattle::
-    .string "Le Scope Sylphe? L'appareil dérobé\npar le patron? Il est quelque part\lici.$"
+    .string "Le Scope Yopple? L'appareil dérobé\npar le patron? Il est quelque part\lici.$"
 
 RocketHideout_B3F_Text_Grunt2Intro::
     .string "On nous a prévenus de ton arrivée.\nCette fois, on t'arrête!$"

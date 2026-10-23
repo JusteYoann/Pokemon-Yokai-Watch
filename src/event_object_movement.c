@@ -489,6 +489,11 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 #define OBJ_EVENT_PAL_TAG_ARIANE                      0x111D
 #define OBJ_EVENT_PAL_TAG_MATT                        0x111C
 #define OBJ_EVENT_PAL_TAG_CRAMOIS_HOVERNYAN 0x112E
+#define OBJ_EVENT_PAL_TAG_DOSSIER_ZAZEL 0x112F
+#define OBJ_EVENT_PAL_TAG_DOSSIER_ENMA_ANCIEN 0x1130
+#define OBJ_EVENT_PAL_TAG_DOSSIER_ORQANOS 0x1131
+#define OBJ_EVENT_PAL_TAG_DOSSIER_NYADA 0x1132
+#define OBJ_EVENT_PAL_TAG_DOSSIER_KYUBI 0x1133
 #define OBJ_EVENT_PAL_TAG_NONE                        0x11FF
 
 #include "data/object_events/object_event_graphics_info_pointers.h"
@@ -500,6 +505,12 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 #include "data/object_events/object_event_graphics_info.h"
 
 static const struct SpritePalette sObjectEventSpritePalettes[] = {
+    {gObjectEventPal_DossierZazel, OBJ_EVENT_PAL_TAG_DOSSIER_ZAZEL},
+    {gObjectEventPal_DossierEnmaAncien, OBJ_EVENT_PAL_TAG_DOSSIER_ENMA_ANCIEN},
+    {gObjectEventPal_DossierOrqanos, OBJ_EVENT_PAL_TAG_DOSSIER_ORQANOS},
+    {gObjectEventPal_DossierNyada, OBJ_EVENT_PAL_TAG_DOSSIER_NYADA},
+    {gObjectEventPal_DossierKyubi, OBJ_EVENT_PAL_TAG_DOSSIER_KYUBI},
+
     {gObjectEventPal_CramoisHovernyan, OBJ_EVENT_PAL_TAG_CRAMOIS_HOVERNYAN},
     {gObjectEventPal_YokaiAlyzon, OBJ_EVENT_PAL_TAG_YOKAI_ALYZON},
     {gObjectEventPal_YokaiBerenice, OBJ_EVENT_PAL_TAG_YOKAI_BERENICE},
@@ -1627,7 +1638,8 @@ static void LoadAlyzonObjectPalette(const struct ObjectEventGraphicsInfo *graphi
 {
     // Alyzon uses reflection bank7, zombies bank8. Keep ordinary green NPCs
     // in body bank4, Nathan0, Matt6 and Don10 unchanged. No saved palette state.
-    if (graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_YOKAI_ALYZON
+    if ((graphicsInfo->paletteTag >= OBJ_EVENT_PAL_TAG_DOSSIER_ZAZEL && graphicsInfo->paletteTag <= OBJ_EVENT_PAL_TAG_DOSSIER_KYUBI)
+        || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_YOKAI_ALYZON
         || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_CRAMOIS_HOVERNYAN
         || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_LAVENDER_ZOMBIE
         || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_YOKAI_BERENICE

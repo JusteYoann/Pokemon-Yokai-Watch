@@ -1,5 +1,5 @@
 SilphCo_8F_Text_WonderIfSilphIsFinished::
-    .string "I wonder if SILPH is finished…$"
+    .string "I wonder if Yopple is finished…$"
 
 SilphCo_8F_Text_ThanksForSavingUs::
     .string "Thanks for saving us!$"
@@ -21,7 +21,7 @@ SilphCo_8F_Text_ParkerDefeat::
     .string "I lost?$"
 
 SilphCo_8F_Text_ParkerPostBattle::
-    .string "So, what do you think of SILPH\n"
+    .string "So, what do you think of Yopple\n"
     .string "BUILDING's maze?$"
 
 SilphCo_8F_Text_Grunt2Intro::
@@ -34,7 +34,7 @@ SilphCo_8F_Text_Grunt2PostBattle::
     .string "Je laisse la suite à mon dernier\nfrère.$"
 
 SilphCo_8F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
+    .string "Yopple HEAD OFFICE\n"
     .string "8F$"
 
 SilphCo_8F_Text_ToRocketBossMonsAreTools::

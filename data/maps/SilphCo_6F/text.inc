@@ -30,7 +30,7 @@ SilphCo_6F_Text_TargetedSilphForOurMonProducts::
     .string "Nos produits pour Yo-kai ont dû\nattirer la convoitise du Don.$"
 
 SilphCo_6F_Text_ComeWorkForSilphWhenYoureOlder::
-    .string "Come work for SILPH when you\n"
+    .string "Come work for Yopple when you\n"
     .string "get older.$"
 
 SilphCo_6F_Text_Grunt1Intro::
@@ -62,6 +62,6 @@ SilphCo_6F_Text_Grunt2PostBattle::
     .string "Les défenseurs de la justice\ncompliquent toujours nos affaires.$"
 
 SilphCo_6F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
+    .string "Yopple HEAD OFFICE\n"
     .string "6F$"
 

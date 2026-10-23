@@ -4583,3 +4583,12 @@ extern const u32 gTrainerPalette_LavenderZombie[];
 
 extern const u32 gTrainerFrontPic_YokaiBerenice[];
 extern const u32 gTrainerPalette_YokaiBerenice[];
+
+extern const u32 gTrainerFrontPic_DossierZazel[];
+extern const u32 gTrainerPalette_DossierZazel[];
+extern const u32 gTrainerFrontPic_DossierEnmaAncien[];
+extern const u32 gTrainerPalette_DossierEnmaAncien[];
+extern const u32 gTrainerFrontPic_DossierOrqanos[];
+extern const u32 gTrainerPalette_DossierOrqanos[];
+extern const u32 gTrainerFrontPic_DossierNyada[];
+extern const u32 gTrainerPalette_DossierNyada[];

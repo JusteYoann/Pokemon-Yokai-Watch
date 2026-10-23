@@ -31,9 +31,12 @@ for mon,ref in zip(baseline,refs):
    ix=iy;left,right=extent(sw,ix);w=right-left
   assert -64<=left and left+w<=64 and -64<=top and top+h<=64,(n,side,'outside double-size OAM')
   assert math.ceil(w/8)*math.ceil(h/8)*32<=4096,(n,side,'animation background capacity')
+  if str(n) in config.get('explicit_geometry',{}):
+   ix,iy,dx,dy,left,top,w,h=config['explicit_geometry'][str(n)][side=='back']
   fields.append('{ %d, %d, %d, %d, %d, %d, %d, %d }'%(ix,iy,dx,dy,left,top,w,h))
   profile=dict(profiles[f'{n:03}/{side}']);profile['id']=f'{n:03}/battle-{side}';profile['target']=f'graphics/yokai/{n:03}/{side}-battle.4bpp';profiles[profile['id']]=profile;profile.update(scale_q8=256,center_x=32,top=32-sh//2,reason='Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels.')
   profile.pop('bottom',None)
+  if n == 150:profile.update(scale_q8=256,center_x=32,top=3,reason='New sword-design Enma; preserve native uniform framing.')
   if crop_bottom is not None:profile['crop_source_bottom']=crop_bottom
   pictures.append(f'const u32 gYokaiBattle{n:03}{side}[] = INCBIN_U32("graphics/yokai/{n:03}/{side}-battle.4bpp.lz");')
   report.append(dict(number=n,name=mon['name'],side=side,reference_bbox=b,source_size=[sw,sh],inverse_x_q8=ix,inverse_y_q8=iy,offset_x=dx,offset_y=dy,left=left,top=top,width=w,height=h,desired_width=tw,desired_full_height=targeth,source_unchanged=True,crop_source_bottom=crop_bottom,nearest_hardware_sampling=True))

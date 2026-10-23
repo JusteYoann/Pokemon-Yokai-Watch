@@ -156,9 +156,9 @@ SeafoamIslands_B4F_EventScript_Articuno::
 	special QuestLog_CutRecording
 	lock
 	faceplayer
-	setwildbattle SPECIES_DRATINI, 50
+	setwildbattle SPECIES_PIDGEY, 50
 	waitse
-	playmoncry SPECIES_DRATINI, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_PIDGEY, CRY_MODE_ENCOUNTER
 	message Text_Gyaoo
 	waitmessage
 	waitmoncry
@@ -183,7 +183,7 @@ SeafoamIslands_B4F_EventScript_DefeatedArticuno::
 	end
 
 SeafoamIslands_B4F_EventScript_RanFromArticuno::
-	setvar VAR_0x8004, SPECIES_DRATINI
+	setvar VAR_0x8004, SPECIES_PIDGEY
 	goto EventScript_MonFlewAway
 	end
 

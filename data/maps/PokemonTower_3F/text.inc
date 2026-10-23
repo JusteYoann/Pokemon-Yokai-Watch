@@ -8,7 +8,7 @@ PokemonTower_3F_Text_HopeDefeat::
 
 PokemonTower_3F_Text_HopePostBattle::
     .string "The ghosts can be identified by\n"
-    .string "the SILPH SCOPE.$"
+    .string "the Yopple SCOPE.$"
 
 PokemonTower_3F_Text_CarlyIntro::
     .string "Kekeke…\n"

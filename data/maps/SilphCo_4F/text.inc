@@ -6,7 +6,7 @@ SilphCo_4F_Text_TeamRocketIsGone::
     .string "La Mafiamille est partie? Je peux\nenfin sortir de ma cachette!$"
 
 SilphCo_4F_Text_Grunt1Intro::
-    .string "La Mafiamille contrôle la Sylphe. Les\nréclamations attendront!$"
+    .string "La Mafiamille contrôle la Yopple. Les\nréclamations attendront!$"
 
 SilphCo_4F_Text_Grunt1Defeat::
     .string "Réclamation acceptée...$"
@@ -37,6 +37,6 @@ SilphCo_4F_Text_Grunt2PostBattle::
     .string "Je dois prévenir le Don au dernier\nétage!$"
 
 SilphCo_4F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
+    .string "Yopple HEAD OFFICE\n"
     .string "4F$"
 

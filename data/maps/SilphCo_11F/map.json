@@ -17,7 +17,7 @@
   "object_events": [
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_OLD_MAN_2",
+      "graphics_id": "OBJ_EVENT_GFX_YOKAI_DOMNISCIAN",
       "x": 9,
       "y": 9,
       "elevation": 3,
@@ -27,7 +27,8 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SilphCo_11F_EventScript_President",
-      "flag": "0"
+      "flag": "FLAG_HIDE_YOPPLE_STORY_CEO",
+      "local_id": "LOCALID_YOPPLE_PRESIDENT"
     },
     {
       "type": "object",
@@ -130,7 +131,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "YokaiCameo_EmployeRouge",
-      "flag": "FLAG_HIDE_YOKAI_DOMNISCIAN_GROUP"
+      "flag": "0"
     },
     {
       "type": "object",
@@ -145,7 +146,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "YokaiCameo_EmployeBleu",
-      "flag": "FLAG_HIDE_YOKAI_DOMNISCIAN_GROUP"
+      "flag": "0"
     }
   ],
   "warp_events": [

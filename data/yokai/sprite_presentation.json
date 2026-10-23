@@ -3096,10 +3096,10 @@
       "target": "graphics/yokai/150/icon-display.4bpp",
       "frame_width": 32,
       "frame_height": 32,
-      "scale_q8": 201,
-      "top": 6,
-      "center_x": 16,
-      "reason": "Icône 150: gabarit grand, boîte initiale 28×26, plafond 22px, centre de masse et deux images préservés"
+      "scale_q8": 256,
+      "top": 3,
+      "center_x": 32,
+      "reason": "Seigneur Enma sword-design artwork; uniform native scale, supersedes violet feline framing."
     },
     {
       "id": "151/icon",
@@ -4988,10 +4988,10 @@
       "target": "graphics/yokai/150/front-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 293,
+      "scale_q8": 256,
       "center_x": 32,
-      "top": 9,
-      "reason": "BATTLE_SPRITE 150: reference bounds [141, 12, 210, 67]; latest artwork aspect retained, nearest indexed sampling, no axis flip; complete front silhouette"
+      "top": 3,
+      "reason": "Seigneur Enma sword-design artwork; uniform native scale, supersedes violet feline framing."
     },
     {
       "id": "150/back",
@@ -4999,10 +4999,10 @@
       "target": "graphics/yokai/150/back-display.4bpp",
       "frame_width": 64,
       "frame_height": 64,
-      "scale_q8": 293,
+      "scale_q8": 256,
       "center_x": 32,
-      "top": 5,
-      "reason": "BATTLE_SPRITE 150: reference bounds [30, 58, 110, 113]; latest artwork aspect retained, nearest indexed sampling, no axis flip; reference head height, lower body may be cropped"
+      "top": 3,
+      "reason": "Seigneur Enma sword-design artwork; uniform native scale, supersedes violet feline framing."
     },
     {
       "id": "001/battle-front",
@@ -8316,8 +8316,8 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 10,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 3,
+      "reason": "Seigneur Enma sword-design artwork; uniform native scale, supersedes violet feline framing."
     },
     {
       "id": "150/battle-back",
@@ -8327,8 +8327,8 @@
       "frame_height": 64,
       "scale_q8": 256,
       "center_x": 32,
-      "top": 9,
-      "reason": "Original indexed art centered without resizing. Battle-only hardware affine geometry in yokai_battle_geometry.h; normal and color-only shiny share pixels."
+      "top": 3,
+      "reason": "Seigneur Enma sword-design artwork; uniform native scale, supersedes violet feline framing."
     },
     {
       "id": "151/battle-front",

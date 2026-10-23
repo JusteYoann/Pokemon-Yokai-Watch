@@ -24,9 +24,9 @@ LavenderTown_Text_TownSign::
     .string "The Noble Purple Town$"
 
 LavenderTown_Text_SilphScopeNotice::
-    .string "New SILPH SCOPE!\n"
+    .string "New Yopple SCOPE!\n"
     .string "Make the Invisible Plain to See!\p"
-    .string "SILPH CO.$"
+    .string "Yopple$"
 
 LavenderTown_Text_VolunteerPokemonHouse::
     .string "LAVENDER VOLUNTEER\n"

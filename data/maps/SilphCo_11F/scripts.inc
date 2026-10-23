@@ -10,6 +10,7 @@ SilphCo_11F_OnLoad::
 SilphCo_11F_EventScript_President::
 	lock
 	faceplayer
+	goto_if_unset FLAG_HIDE_SAFFRON_ROCKETS, SilphCo_11F_EventScript_StillOccupied
 	goto_if_set FLAG_GOT_MASTER_BALL_FROM_SILPH, SilphCo_11F_EventScript_AlreadyGotMasterBall
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, SilphCo_11F_EventScript_PresidentThanksMale
@@ -19,6 +20,10 @@ SilphCo_11F_EventScript_President::
 	giveitem_msg SilphCo_11F_Text_ObtainedMasterBallFromPresident, ITEM_MASTER_BALL, 1, MUS_OBTAIN_KEY_ITEM
 	msgbox SilphCo_11F_Text_ThatsOurSecretPrototype
 	setflag FLAG_GOT_MASTER_BALL_FROM_SILPH
+	setflag FLAG_HIDE_YOPPLE_STORY_CEO
+	fadescreen FADE_TO_BLACK
+	removeobject LOCALID_YOPPLE_PRESIDENT
+	fadescreen FADE_FROM_BLACK
 	release
 	end
 
@@ -136,7 +141,16 @@ SilphCo_11F_EventScript_Grunt2::
 
 SilphCo_11F_OnTransitionYokaiBosses::
 	setflag FLAG_HIDE_YOKAI_DOMNISCIAN_GROUP
-	goto_if_unset FLAG_SYS_GAME_CLEAR, SilphCo_11F_OnTransitionYokaiBossesReturn
-	clearflag FLAG_HIDE_YOKAI_DOMNISCIAN_GROUP
+	setflag FLAG_HIDE_YOPPLE_STORY_CEO
+	goto_if_set FLAG_GOT_MASTER_BALL_FROM_SILPH, SilphCo_11F_OnTransitionYokaiBossesReturn
+	clearflag FLAG_HIDE_YOPPLE_STORY_CEO
 SilphCo_11F_OnTransitionYokaiBossesReturn::
 	end
+
+SilphCo_11F_EventScript_StillOccupied::
+	msgbox SilphCo_11F_Text_StillOccupied
+	release
+	end
+SilphCo_11F_Text_StillOccupied::
+	.string "Domniscian: La Mafiamille\n"
+	.string "menace mon entreprise! Au secours!$"

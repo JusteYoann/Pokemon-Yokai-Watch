@@ -1,139 +1,144 @@
 SaffronCity_Gym_Text_SabrinaIntro::
-    .string "Bienvenue. Je suis\nBérénice Bélier.\pLes pensées laissent des traces.\nMes Yo-kai savent les percevoir.\pMais rien n’est écrit d’avance.\nProuve-le dans ce combat !{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
-
+    .string "DOMNISCIAN: Bienvenue dans\n"
+    .string "mon Arène! Quel honneur pour toi!\p"
+    .string "J’ai racheté Yopple. Son avenir\n"
+    .string "ne peut être que brillant avec moi!\p"
+    .string "Tout comme mes Yo-kai Acier!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 SaffronCity_Gym_Text_SabrinaDefeat::
-    .string "Tu as déjoué mes prévisions.\pTa détermination mérite\nle Badge Marais.$"
-
+    .string "Mon équipe... battue?!\p"
+    .string "Tu mérites donc le Badge Marais.$"
 
 SaffronCity_Gym_Text_SabrinaPostBattle::
-    .string "Le pouvoir de l’esprit\nse nourrit de confiance.\pPrends soin de tes Yo-kai.\nIls croient en toi.$"
-
+    .string "Cette CT contient Queue de Fer.\p"
+    .string "Une attaque qui peut réduire\n"
+    .string "la Défense de l’adversaire.$"
 
 SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis::
-    .string "Le Badge Marais fait obéir\nles Yo-kai jusqu’au niveau 70.\pPrends aussi cette CT.\nElle entraîne la concentration.$"
-
+    .string "Le Badge Marais est à toi.\p"
+    .string "Prends également cette CT,\n"
+    .string "un présent à la hauteur de mon rang!$"
 
 SaffronCity_Gym_Text_ReceivedTM04FromSabrina::
-    .string "Bérénice remet\nla CT04 à {PLAYER}.$"
-
+    .string "{PLAYER} reçoit la CT23\n"
+    .string "de Domniscian.$"
 
 SaffronCity_Gym_Text_ExplainTM04::
-    .string "La CT04 enseigne Plénitude.\pElle augmente l’Attaque Spéciale\net la Défense Spéciale.$"
-
+    .string "L’Acier sait aussi plier\n"
+    .string "pour mieux résister.$"
 
 SaffronCity_Gym_Text_BagFullOfOtherItems::
     .string "Ton sac est plein.\nReviens avec un peu de place.$"
 
 
 SaffronCity_Gym_Text_AmandaIntro::
-    .string "BÉRÉNICE is far younger than I,\n"
-    .string "but she has earned my respect.$"
+    .string "Les inventions de Yopple\n"
+    .string "ont changé notre quotidien.\p"
+    .string "Mais ici, rien ne remplace\n"
+    .string "un bon entraînement!$"
 
 SaffronCity_Gym_Text_AmandaDefeat::
     .string "Not good enough!$"
 
 SaffronCity_Gym_Text_AmandaPostBattle::
-    .string "In a battle of equals, the one\n"
-    .string "with the stronger will wins.\p"
-    .string "If you wish to beat BÉRÉNICE, focus\n"
-    .string "and will yourself to victory.$"
+    .string "Les téléporteurs réservent\n"
+    .string "encore bien des surprises.$"
 
 SaffronCity_Gym_Text_JohanIntro::
-    .string "Does our unseen power scare you?$"
+    .string "Les inventions de Yopple\n"
+    .string "ont changé notre quotidien.\p"
+    .string "Mais ici, rien ne remplace\n"
+    .string "un bon entraînement!$"
 
 SaffronCity_Gym_Text_JohanDefeat::
     .string "I never foresaw this!$"
 
 SaffronCity_Gym_Text_JohanPostBattle::
-    .string "PSYCHIC Yo-kai fear only ghosts\n"
-    .string "and bugs!$"
+    .string "Les téléporteurs réservent\n"
+    .string "encore bien des surprises.$"
 
 SaffronCity_Gym_Text_StacyIntro::
-    .string "Yo-kai take on the appearance of\n"
-    .string "their TRAINERS.\p"
-    .string "Your Yo-kai must be tough, then!$"
+    .string "Les inventions de Yopple\n"
+    .string "ont changé notre quotidien.\p"
+    .string "Mais ici, rien ne remplace\n"
+    .string "un bon entraînement!$"
 
 SaffronCity_Gym_Text_StacyDefeat::
     .string "I knew it!$"
 
 SaffronCity_Gym_Text_StacyPostBattle::
-    .string "I have much to learn still…\p"
-    .string "I must master PSYCHIC and teach it\n"
-    .string "to my Yo-kai…$"
+    .string "Les téléporteurs réservent\n"
+    .string "encore bien des surprises.$"
 
 SaffronCity_Gym_Text_TyronIntro::
-    .string "You understand, don't you?\p"
-    .string "That power alone isn't enough to\n"
-    .string "win in the world of Yo-kai?$"
+    .string "Les inventions de Yopple\n"
+    .string "ont changé notre quotidien.\p"
+    .string "Mais ici, rien ne remplace\n"
+    .string "un bon entraînement!$"
 
 SaffronCity_Gym_Text_TyronDefeat::
     .string "I don't believe this!$"
 
 SaffronCity_Gym_Text_TyronPostBattle::
-    .string "BÉRÉNICE just wiped out the KARATE\n"
-    .string "MASTER next door.$"
+    .string "Les téléporteurs réservent\n"
+    .string "encore bien des surprises.$"
 
 SaffronCity_Gym_Text_TashaIntro::
-    .string "You and I, our Yo-kai shall\n"
-    .string "battle!$"
+    .string "Les inventions de Yopple\n"
+    .string "ont changé notre quotidien.\p"
+    .string "Mais ici, rien ne remplace\n"
+    .string "un bon entraînement!$"
 
 SaffronCity_Gym_Text_TashaDefeat::
     .string "I lost after all!$"
 
 SaffronCity_Gym_Text_TashaPostBattle::
-    .string "I knew that this was going to take\n"
-    .string "place.$"
+    .string "Les téléporteurs réservent\n"
+    .string "encore bien des surprises.$"
 
 SaffronCity_Gym_Text_CameronIntro::
-    .string "BÉRÉNICE is young, but she's also\n"
-    .string "our highly skilled LEADER.\p"
-    .string "You won't reach her easily!$"
+    .string "Les inventions de Yopple\n"
+    .string "ont changé notre quotidien.\p"
+    .string "Mais ici, rien ne remplace\n"
+    .string "un bon entraînement!$"
 
 SaffronCity_Gym_Text_CameronDefeat::
     .string "Ow!\n"
     .string "Down and out!$"
 
 SaffronCity_Gym_Text_CameronPostBattle::
-    .string "There used to be two Yo-kai GYMS\n"
-    .string "in SAFFRON.\p"
-    .string "The FIGHTING DOJO next door lost\n"
-    .string "its GYM status, though.\p"
-    .string "We simply creamed them when we\n"
-    .string "decided to have just one GYM.$"
+    .string "Les téléporteurs réservent\n"
+    .string "encore bien des surprises.$"
 
 SaffronCity_Gym_Text_PrestonIntro::
-    .string "SAFFRON Yo-kai GYM is famous for\n"
-    .string "training psychics.\p"
-    .string "You want to see BÉRÉNICE, don't\n"
-    .string "you? I can tell!$"
+    .string "Les inventions de Yopple\n"
+    .string "ont changé notre quotidien.\p"
+    .string "Mais ici, rien ne remplace\n"
+    .string "un bon entraînement!$"
 
 SaffronCity_Gym_Text_PrestonDefeat::
     .string "Arrrgh!$"
 
 SaffronCity_Gym_Text_PrestonPostBattle::
-    .string "That's right! I used telepathy to\n"
-    .string "read your mind!$"
+    .string "Les téléporteurs réservent\n"
+    .string "encore bien des surprises.$"
 
 SaffronCity_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "BÉRÉNICE's Yo-kai use psychic\n"
-    .string "power instead of force.\p"
-    .string "FIGHTING Yo-kai are especially\n"
-    .string "weak against PSYCHIC Yo-kai.\p"
-    .string "They'll get destroyed before they\n"
-    .string "can even aim a punch!$"
+    .string "Les téléporteurs mènent\n"
+    .string "à Domniscian, Champion Acier.\p"
+    .string "Le Feu et le Combat peuvent\n"
+    .string "mettre son équipe en difficulté.$"
 
 SaffronCity_Gym_Text_GymGuyPostVictory::
-    .string "Psychic power, huh?\p"
-    .string "If I had that, I'd make a bundle\n"
-    .string "at the slots!$"
+    .string "Tu as fait plier l’Acier\n"
+    .string "du Champion de Safrania!$"
 
 SaffronCity_Gym_Text_GymStatue::
-    .string "ARÈNE DE SAFRANIA\nCHAMPIONNE : BÉRÉNICE\pDRESSEURS VICTORIEUX :\n{RIVAL}$"
-
+    .string "ARÈNE DE SAFRANIA\n"
+    .string "CHAMPION: DOMNISCIAN\p"
+    .string "VAINQUEURS: {RIVAL}$"
 
 SaffronCity_Gym_Text_GymStatuePlayerWon::
-    .string "ARÈNE DE SAFRANIA\nCHAMPIONNE : BÉRÉNICE\pDRESSEURS VICTORIEUX :\n{RIVAL}, {PLAYER}$"
-
+    .string "ARÈNE DE SAFRANIA\n"
+    .string "CHAMPION: DOMNISCIAN\p"
+    .string "VAINQUEURS: {RIVAL}, {PLAYER}$"

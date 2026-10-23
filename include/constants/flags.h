@@ -1590,3 +1590,9 @@
 #define FLAG_CRAMOIS_MEETING_DONE FLAG_0x32C
 #define FLAG_CRAMOIS_REMATCH_WON FLAG_0x32D
 #define FLAG_CRAMOIS_HOVERNYAN_GIFT FLAG_0x32E
+
+// Reserved for the future dedicated postgame Nyada quest. Never set by the current story.
+#define FLAG_NYADA_QUEST_UNLOCKED FLAG_0x32F
+
+
+#define FLAG_HIDE_YOPPLE_STORY_CEO FLAG_0x330

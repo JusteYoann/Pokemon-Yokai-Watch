@@ -499,3 +499,15 @@ const u32 gTrainerPalette_LavenderZombie[] = INCBIN_U32("graphics/yokai_zombies/
 
 const u32 gTrainerFrontPic_YokaiBerenice[] = INCBIN_U32("graphics/yokai_characters/berenice/battle.4bpp.lz");
 const u32 gTrainerPalette_YokaiBerenice[] = INCBIN_U32("graphics/yokai_characters/berenice/normal.gbapal.lz");
+
+const u32 gTrainerFrontPic_DossierZazel[] = INCBIN_U32("graphics/dossier-20261023/zazel/battle.4bpp.lz");
+const u32 gTrainerPalette_DossierZazel[] = INCBIN_U32("graphics/dossier-20261023/zazel/normal.gbapal.lz");
+
+const u32 gTrainerFrontPic_DossierEnmaAncien[] = INCBIN_U32("graphics/dossier-20261023/enma_ancien/battle.4bpp.lz");
+const u32 gTrainerPalette_DossierEnmaAncien[] = INCBIN_U32("graphics/dossier-20261023/enma_ancien/normal.gbapal.lz");
+
+const u32 gTrainerFrontPic_DossierOrqanos[] = INCBIN_U32("graphics/dossier-20261023/orqanos/battle.4bpp.lz");
+const u32 gTrainerPalette_DossierOrqanos[] = INCBIN_U32("graphics/dossier-20261023/orqanos/normal.gbapal.lz");
+
+const u32 gTrainerFrontPic_DossierNyada[] = INCBIN_U32("graphics/dossier-20261023/nyada/battle.4bpp.lz");
+const u32 gTrainerPalette_DossierNyada[] = INCBIN_U32("graphics/dossier-20261023/nyada/normal.gbapal.lz");

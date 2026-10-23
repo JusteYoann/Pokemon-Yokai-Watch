@@ -1,46 +1,31 @@
 FuchsiaCity_Gym_Text_KogaIntro::
-    .string "KOGA: Fwahahaha!\p"
-    .string "A mere child like you dares to\n"
-    .string "challenge me?\p"
-    .string "The very idea makes me shiver\n"
-    .string "with mirth!\p"
-    .string "Very well, I shall show you true\n"
-    .string "terror as a ninja master.\p"
-    .string "Poison brings steady doom.\n"
-    .string "Sleep renders foes helpless.\p"
-    .string "Despair to the creeping horror of\n"
-    .string "POISON-type Yo-kai!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "BÉRÉNICE: Tu as trouvé ton chemin.\p"
+    .string "Les murs cachent les passages,\n"
+    .string "mais l’esprit perçoit davantage.\p"
+    .string "Mes Yo-kai Psy sont prêts.\n"
+    .string "À toi de lire dans leur jeu!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 FuchsiaCity_Gym_Text_KogaDefeat::
-    .string "Humph!\n"
-    .string "You have proven your worth!\p"
-    .string "Here!\n"
-    .string "Take the SOULBADGE!$"
+    .string "Tu as su garder l’esprit clair.\p"
+    .string "Le Badge Âme est à toi!$"
 
 FuchsiaCity_Gym_Text_KogaPostBattle::
-    .string "When afflicted by TOXIC, a Yo-kai\n"
-    .string "suffers more and more.\p"
-    .string "It suffers worsening damage as the\n"
-    .string "battle wears on!\p"
-    .string "It will surely terrorize foes!$"
+    .string "La force de l’esprit grandit\n"
+    .string "avec la confiance entre amis.$"
 
 FuchsiaCity_Gym_Text_KogaExplainSoulBadge::
-    .string "Now that you have the SOULBADGE,\n"
-    .string "the DEFENSE of your Yo-kai rises.\p"
-    .string "It also lets you SURF outside of\n"
-    .string "battle.\p"
-    .string "Ah!\n"
-    .string "Take this, too!$"
+    .string "Le Badge Âme renforce la Défense.\p"
+    .string "Il permet aussi d’utiliser Surf\n"
+    .string "en dehors des combats.\p"
+    .string "Prends aussi cette CT.$"
 
 FuchsiaCity_Gym_Text_ReceivedTM06FromKoga::
-    .string "{PLAYER} received TM06\n"
-    .string "from KOGA.$"
+    .string "{PLAYER} reçoit la CT29\n"
+    .string "de Bérénice.$"
 
 FuchsiaCity_Gym_Text_KogaExplainTM06::
-    .string "Sealed within that TM06 lies\n"
-    .string "TOXIC!\p"
-    .string "It is a secret technique dating\n"
-    .string "back some four hundred years.$"
+    .string "Cette CT contient Psyko.\n"
+    .string "Une puissante attaque de type Psy.$"
 
 FuchsiaCity_Gym_Text_MakeSpaceForThis::
     .string "Make space for this, child!$"
@@ -63,17 +48,15 @@ FuchsiaCity_Gym_Text_KaydenPostBattle::
     .string "TRAINER.$"
 
 FuchsiaCity_Gym_Text_KirkIntro::
-    .string "I was a magician once upon a time.\p"
-    .string "But I dreamt of becoming a ninja,\n"
-    .string "so I joined this GYM.$"
+    .string "Les murs cachent le chemin.\n"
+    .string "L’esprit trouve une ouverture!$"
 
 FuchsiaCity_Gym_Text_KirkDefeat::
     .string "I'm done for!$"
 
 FuchsiaCity_Gym_Text_KirkPostBattle::
-    .string "Even though I've lost, I will keep\n"
-    .string "training according to the teachings\l"
-    .string "of KOGA, my ninja master.$"
+    .string "Je continue à m’entraîner\n"
+    .string "avec Bérénice.$"
 
 FuchsiaCity_Gym_Text_NateIntro::
     .string "Let's see you beat my special\n"
@@ -102,10 +85,8 @@ FuchsiaCity_Gym_Text_PhilPostBattle::
     .string "invisible walls!$"
 
 FuchsiaCity_Gym_Text_EdgarIntro::
-    .string "I also study the way of the ninja\n"
-    .string "with Master KOGA!\p"
-    .string "Ninja have a long history of using\n"
-    .string "animals!$"
+    .string "Les murs cachent le chemin.\n"
+    .string "L’esprit trouve une ouverture!$"
 
 FuchsiaCity_Gym_Text_EdgarDefeat::
     .string "Awoo!$"
@@ -114,9 +95,8 @@ FuchsiaCity_Gym_Text_EdgarPostBattle::
     .string "I still have much to learn.$"
 
 FuchsiaCity_Gym_Text_ShawnIntro::
-    .string "Master KOGA comes from a long line\n"
-    .string "of ninjas.\p"
-    .string "What did you descend from?$"
+    .string "Les murs cachent le chemin.\n"
+    .string "L’esprit trouve une ouverture!$"
 
 FuchsiaCity_Gym_Text_ShawnDefeat::
     .string "You're more skilled than I'd\n"
@@ -129,28 +109,20 @@ FuchsiaCity_Gym_Text_ShawnPostBattle::
     .string "Which do you choose?$"
 
 FuchsiaCity_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "FUCHSIA GYM is a tricked-up place.\n"
-    .string "It's riddled with invisible walls!\p"
-    .string "KOGA might appear close, but he's\n"
-    .string "blocked off.\p"
-    .string "You have to find gaps in the walls\n"
-    .string "to reach him.$"
+    .string "Les murs sont invisibles ici.\p"
+    .string "Trouve les passages pour rejoindre\n"
+    .string "Bérénice, spécialiste des Yo-kai Psy.$"
 
 FuchsiaCity_Gym_Text_GymGuyPostVictory::
-    .string "It's amazing how ninja can terrify,\n"
-    .string "even now!$"
+    .string "Tu as déjoué les plans\n"
+    .string "des Yo-kai de Bérénice!$"
 
 FuchsiaCity_Gym_Text_GymStatue::
-    .string "FUCHSIA Yo-kai GYM\n"
-    .string "LEADER: KOGA\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}$"
+    .string "ARÈNE DE PARMANIE\n"
+    .string "CHAMPIONNE: BÉRÉNICE\p"
+    .string "VAINQUEURS: {RIVAL}$"
 
 FuchsiaCity_Gym_Text_GymStatuePlayerWon::
-    .string "FUCHSIA Yo-kai GYM\n"
-    .string "LEADER: KOGA\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}, {PLAYER}$"
-
+    .string "ARÈNE DE PARMANIE\n"
+    .string "CHAMPIONNE: BÉRÉNICE\p"
+    .string "VAINQUEURS: {RIVAL}, {PLAYER}$"

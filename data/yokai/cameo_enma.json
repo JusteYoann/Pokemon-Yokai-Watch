@@ -99,8 +99,8 @@
   "requires": "FLAG_SYS_GAME_CLEAR",
   "victory_flag": "FLAG_YOKAI_ENMA_WON",
   "capture_flag": "FLAG_YOKAI_ENMA_CAUGHT",
-  "reward": "Unlock unique Enma encounter in CeruleanCave_B1F; no additional item",
+  "reward": "Optional trainer trial only; no prerequisite or unlock for the Seigneur Enma encounter in CeruleanCave_B1F.",
   "secondary_choices": "Levels 70..75 in approved range; 255 IV parameter, primary abilities, no held or bag items; four latest learned moves. These choices do not alter locked story boss parties.",
   "music": "Native soundtrack retained until private DPCM pipeline is rebuilt",
-  "quest8_status": "Script and encounter unlock implemented here; DPCM required for complete quest8"
+  "quest8_status": "Legacy trial preserved as optional rematch; cave capture gate removed by consolidated dossier20261023."
 }

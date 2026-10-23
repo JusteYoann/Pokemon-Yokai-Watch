@@ -22,17 +22,22 @@ MtEmber_Summit_EventScript_CheckKyubi::
 	end
 
 MtEmber_Summit_EventScript_ShowMoltres::
+	setflag FLAG_HIDE_MOLTRES
+	goto_if_unset FLAG_SYS_GAME_CLEAR, EventScript_Return
+	goto_if_unset FLAG_NYADA_QUEST_UNLOCKED, EventScript_Return
 	clearflag FLAG_HIDE_MOLTRES
 	return
 
 MtEmber_Summit_EventScript_Moltres::
+	goto_if_unset FLAG_SYS_GAME_CLEAR, EventScript_ReleaseEnd
+	goto_if_unset FLAG_NYADA_QUEST_UNLOCKED, EventScript_ReleaseEnd
 	goto_if_questlog EventScript_ReleaseEnd
 	special QuestLog_CutRecording
 	lock
 	faceplayer
-	setwildbattle SPECIES_PIDGEY, 50
+	setwildbattle SPECIES_DRAGONAIR, 50
 	waitse
-	playmoncry SPECIES_PIDGEY, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_DRAGONAIR, CRY_MODE_ENCOUNTER
 	message Text_Gyaoo
 	waitmessage
 	waitmoncry
@@ -57,7 +62,7 @@ MtEmber_Summit_EventScript_DefeatedMoltres::
 	end
 
 MtEmber_Summit_EventScript_RanFromMoltres::
-	setvar VAR_0x8004, SPECIES_PIDGEY
+	setvar VAR_0x8004, SPECIES_DRAGONAIR
 	goto EventScript_MonFlewAway
 	end
 
@@ -103,18 +108,9 @@ MtEmber_Summit_EventScript_EnmaDecline::
 	end
 MtEmber_Summit_Text_EnmaOffer::
 	.string "Enma: Bravo pour la Ligue!\p"
-	.string "Je suis le Seigneur Enma.\n"
-	.string "J’ai un drôle de protégé…\p"
-	.string "Des savants ont tenté de copier\n"
-	.string "ma puissance à partir d’un Jibanyan.\p"
-	.string "Ils ont créé un Yo-kai céleste\n"
-	.string "artificiel, nommé Enma.\p"
-	.string "Ce n’est pas moi! Lui et moi,\n"
-	.string "nous sommes bien deux êtres.\p"
-	.string "Il s’est enfui du laboratoire.\n"
-	.string "Je l’ai accueilli et protégé.\p"
-	.string "Il combat parfois dans mon équipe!\n"
-	.string "Prêt à nous affronter?$"
+	.string "Tu veux mesurer la force des liens\n"
+	.string "qui unissent tes Yo-kai?\p"
+	.string "Alors, prêt à nous affronter?$"
 MtEmber_Summit_Text_EnmaRematchOffer::
 	.string "Enma: Te revoilà! Depuis notre\n"
 	.string "combat, j’attendais ta visite.\p"
@@ -129,15 +125,8 @@ MtEmber_Summit_Text_EnmaDefeat::
 MtEmber_Summit_Text_EnmaUnlocked::
 	.string "Enma: Je suis fier de vous!\n"
 	.string "Vos liens font votre force.\p"
-	.string "L’équilibre entre les humains\n"
-	.string "et les Yo-kai reste fragile.\p"
-	.string "Je compte beaucoup sur toi\n"
-	.string "pour nous aider à le préserver.\p"
-	.string "Mon protégé, le Yo-kai Enma,\n"
-	.string "est dans la Caverne Azurée.\p"
-	.string "Va le rencontrer au plus profond.\n"
-	.string "À toi de gagner sa confiance!\p"
-	.string "Moi, je reste ici pour la revanche.$"
+	.string "Reviens quand tu veux\n"
+	.string "pour un autre combat!$"
 MtEmber_Summit_Text_EnmaRematchVictory::
 	.string "Enma: Excellent! Impossible de\n"
 	.string "s’ennuyer contre vous!\p"

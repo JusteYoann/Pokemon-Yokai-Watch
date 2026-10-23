@@ -161,6 +161,10 @@ const struct MonCoords gTrainerFrontPicCoords[] =
     [TRAINER_PIC_YOKAI_MAFIAMILLE2] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_YOKAI_MAFIAMILLE3] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_YOKAI_ALYZON] = {.size = 8, .y_offset = 1},
+    [TRAINER_PIC_DOSSIER_ZAZEL] = {.size = 8, .y_offset = 1},
+    [TRAINER_PIC_DOSSIER_ENMA_ANCIEN] = {.size = 8, .y_offset = 1},
+    [TRAINER_PIC_DOSSIER_ORQANOS] = {.size = 8, .y_offset = 1},
+    [TRAINER_PIC_DOSSIER_NYADA] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_YOKAI_BERENICE] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_LAVENDER_ZOMBIE] = {.size = 8, .y_offset = 1},
 };
@@ -329,6 +333,10 @@ const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
     TRAINER_SPRITE(YOKAI_MAFIAMILLE3, gTrainerFrontPic_YokaiMafiamille3, 0x800),
     TRAINER_SPRITE(LAVENDER_ZOMBIE, gTrainerFrontPic_LavenderZombie, 0x800),
     TRAINER_SPRITE(YOKAI_ALYZON, gTrainerFrontPic_YokaiAlyzon, 0x800),
+    TRAINER_SPRITE(DOSSIER_ZAZEL, gTrainerFrontPic_DossierZazel, 0x800),
+    TRAINER_SPRITE(DOSSIER_ENMA_ANCIEN, gTrainerFrontPic_DossierEnmaAncien, 0x800),
+    TRAINER_SPRITE(DOSSIER_ORQANOS, gTrainerFrontPic_DossierOrqanos, 0x800),
+    TRAINER_SPRITE(DOSSIER_NYADA, gTrainerFrontPic_DossierNyada, 0x800),
     TRAINER_SPRITE(YOKAI_BERENICE, gTrainerFrontPic_YokaiBerenice, 0x800),
 };
 
@@ -496,5 +504,9 @@ const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
     TRAINER_PAL(YOKAI_MAFIAMILLE3, gTrainerPalette_YokaiMafiamille3),
     TRAINER_PAL(LAVENDER_ZOMBIE, gTrainerPalette_LavenderZombie),
     TRAINER_PAL(YOKAI_ALYZON, gTrainerPalette_YokaiAlyzon),
+    TRAINER_PAL(DOSSIER_ZAZEL, gTrainerPalette_DossierZazel),
+    TRAINER_PAL(DOSSIER_ENMA_ANCIEN, gTrainerPalette_DossierEnmaAncien),
+    TRAINER_PAL(DOSSIER_ORQANOS, gTrainerPalette_DossierOrqanos),
+    TRAINER_PAL(DOSSIER_NYADA, gTrainerPalette_DossierNyada),
     TRAINER_PAL(YOKAI_BERENICE, gTrainerPalette_YokaiBerenice),
 };

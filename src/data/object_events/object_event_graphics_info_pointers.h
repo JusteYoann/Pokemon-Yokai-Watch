@@ -1,3 +1,7 @@
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DossierNyada;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DossierOrqanos;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DossierEnmaAncien;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DossierZazel;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CramoisHovernyan;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiLeoJibanyan;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiAlyzon;
@@ -339,6 +343,10 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_YOKAI_LEO_JIBANYAN] = &gObjectEventGraphicsInfo_YokaiLeoJibanyan,
     [OBJ_EVENT_GFX_LAVENDER_ZOMBIE] = &gObjectEventGraphicsInfo_LavenderZombie,
     [OBJ_EVENT_GFX_YOKAI_ALYZON] = &gObjectEventGraphicsInfo_YokaiAlyzon,
+    [OBJ_EVENT_GFX_YOKAI_ZAZEL] = &gObjectEventGraphicsInfo_DossierZazel,
+    [OBJ_EVENT_GFX_YOKAI_ENMA_ANCIEN] = &gObjectEventGraphicsInfo_DossierEnmaAncien,
+    [OBJ_EVENT_GFX_YOKAI_ORQANOS] = &gObjectEventGraphicsInfo_DossierOrqanos,
+    [OBJ_EVENT_GFX_YOKAI_NYADA] = &gObjectEventGraphicsInfo_DossierNyada,
     [OBJ_EVENT_GFX_YOKAI_BERENICE] = &gObjectEventGraphicsInfo_YokaiBerenice,
     [OBJ_EVENT_GFX_YOKAI_ENMA_CREATURE] = &gObjectEventGraphicsInfo_YokaiEnmaCreature,
     [OBJ_EVENT_GFX_YOKAI_ENMA] = &gObjectEventGraphicsInfo_YokaiEnma,

@@ -239,7 +239,7 @@ const u16 gObjectEventPic_UsapionCameo[] = INCBIN_U16("graphics/yokai_characters
 
 const u16 gObjectEventPal_YokaiEnma[] = INCBIN_U16("graphics/yokai_characters/enma/overworld.gbapal");
 const u16 gObjectEventPic_YokaiEnma[] = INCBIN_U16("graphics/yokai_characters/enma/overworld.4bpp");
-const u16 gObjectEventPic_YokaiKyubi[] = INCBIN_U16("graphics/yokai_characters/enma/kyubi_overworld.4bpp");
+const u16 gObjectEventPic_YokaiKyubi[] = INCBIN_U16("graphics/dossier-20261023/kyubi/overworld.4bpp");
 
 const u16 gObjectEventPal_YokaiPlayerBridge[] = INCBIN_U16("graphics/yokai_characters/nathan/bridge_reflection.gbapal");
 
@@ -275,8 +275,8 @@ const u16 gObjectEventPic_YokaiEnmaCreature[] = INCBIN_U16("graphics/yokai_chara
 
 const u16 gObjectEventPal_YokaiMisterre[] = INCBIN_U16("graphics/yokai_characters/static_yokai/misterre/normal.gbapal");
 const u16 gObjectEventPic_YokaiMisterre[] = INCBIN_U16("graphics/yokai_characters/static_yokai/misterre/overworld.4bpp");
-const u16 gObjectEventPal_YokaiOctorgone[] = INCBIN_U16("graphics/yokai_characters/static_yokai/octorgone/normal.gbapal");
-const u16 gObjectEventPic_YokaiOctorgone[] = INCBIN_U16("graphics/yokai_characters/static_yokai/octorgone/overworld.4bpp");
+const u16 gObjectEventPal_YokaiOctorgone[] = INCBIN_U16("graphics/dossier-20261023/octorgone/overworld.gbapal");
+const u16 gObjectEventPic_YokaiOctorgone[] = INCBIN_U16("graphics/dossier-20261023/octorgone/overworld.4bpp");
 const u16 gObjectEventPal_YokaiMademoaiselle[] = INCBIN_U16("graphics/yokai_characters/static_yokai/mademoaiselle/normal.gbapal");
 const u16 gObjectEventPic_YokaiMademoaiselle[] = INCBIN_U16("graphics/yokai_characters/static_yokai/mademoaiselle/overworld.4bpp");
 
@@ -294,3 +294,17 @@ const u16 gObjectEventPic_YokaiBerenice[] = INCBIN_U16("graphics/yokai_character
 
 const u16 gObjectEventPal_CramoisHovernyan[] = INCBIN_U16("graphics/yokai_characters/hovernyan/overworld.gbapal");
 const u16 gObjectEventPic_CramoisHovernyan[] = INCBIN_U16("graphics/yokai_characters/hovernyan/overworld.4bpp");
+
+const u16 gObjectEventPal_DossierZazel[] = INCBIN_U16("graphics/dossier-20261023/zazel/overworld.gbapal");
+const u16 gObjectEventPic_DossierZazel[] = INCBIN_U16("graphics/dossier-20261023/zazel/overworld.4bpp");
+
+const u16 gObjectEventPal_DossierEnmaAncien[] = INCBIN_U16("graphics/dossier-20261023/enma_ancien/overworld.gbapal");
+const u16 gObjectEventPic_DossierEnmaAncien[] = INCBIN_U16("graphics/dossier-20261023/enma_ancien/overworld.4bpp");
+
+const u16 gObjectEventPal_DossierOrqanos[] = INCBIN_U16("graphics/dossier-20261023/orqanos/overworld.gbapal");
+const u16 gObjectEventPic_DossierOrqanos[] = INCBIN_U16("graphics/dossier-20261023/orqanos/overworld.4bpp");
+
+const u16 gObjectEventPal_DossierNyada[] = INCBIN_U16("graphics/dossier-20261023/nyada/overworld.gbapal");
+const u16 gObjectEventPic_DossierNyada[] = INCBIN_U16("graphics/dossier-20261023/nyada/overworld.4bpp");
+
+const u16 gObjectEventPal_DossierKyubi[] = INCBIN_U16("graphics/dossier-20261023/kyubi/overworld.gbapal");

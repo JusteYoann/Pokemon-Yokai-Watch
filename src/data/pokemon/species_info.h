@@ -4358,12 +4358,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
     [SPECIES_MEWTWO] =
     {
-        .baseHP = 115,
-        .baseAttack = 110,
-        .baseDefense = 110,
-        .baseSpeed = 110,
-        .baseSpAttack = 125,
-        .baseSpDefense = 110,
+        .baseHP = 100,
+        .baseAttack = 130,
+        .baseDefense = 90,
+        .baseSpeed = 120,
+        .baseSpAttack = 150,
+        .baseSpDefense = 90,
         .types = {TYPE_PSYCHIC, TYPE_PSYCHIC},
         .catchRate = 3,
         .expYield = 220,
@@ -4382,7 +4382,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggGroups = {EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED},
         .abilities = {ABILITY_PRESSURE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
-        .bodyColor = BODY_COLOR_PURPLE,
+        .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
     },
     [SPECIES_MEW] =

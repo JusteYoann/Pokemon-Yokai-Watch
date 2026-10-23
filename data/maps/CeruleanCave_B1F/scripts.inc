@@ -18,7 +18,6 @@ CeruleanCave_B1F_EventScript_TryRemoveMewtwo::
 
 CeruleanCave_B1F_OnTransition::
 	goto_if_unset FLAG_SYS_GAME_CLEAR, CeruleanCave_B1F_EventScript_HideLockedEnma
-	goto_if_unset FLAG_YOKAI_ENMA_WON, CeruleanCave_B1F_EventScript_HideLockedEnma
 	goto_if_set FLAG_YOKAI_ENMA_CAUGHT, CeruleanCave_B1F_EventScript_HideLockedEnma
 	call_if_unset FLAG_FOUGHT_MEWTWO, CeruleanCave_B1F_EventScript_ShowMewtwo
 	end
@@ -33,7 +32,6 @@ CeruleanCave_B1F_EventScript_ShowMewtwo::
 
 CeruleanCave_B1F_EventScript_Mewtwo::
 	goto_if_unset FLAG_SYS_GAME_CLEAR, EventScript_ReleaseEnd
-	goto_if_unset FLAG_YOKAI_ENMA_WON, EventScript_ReleaseEnd
 	goto_if_set FLAG_YOKAI_ENMA_CAUGHT, EventScript_ReleaseEnd
 	goto_if_questlog EventScript_ReleaseEnd
 	special QuestLog_CutRecording
@@ -71,4 +69,4 @@ CeruleanCave_B1F_EventScript_RanFromMewtwo::
 	end
 
 CeruleanCave_B1F_Text_YokaiEnma::
-	.string "Enma te lance un regard déterminé!$"
+	.string "Seigneur Enma te défie du regard!$"

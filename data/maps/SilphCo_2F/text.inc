@@ -1,12 +1,12 @@
 SilphCo_2F_Text_ConnorIntro::
     .string "Help!\n"
-    .string "I'm a SILPH employee.$"
+    .string "I'm a Yopple employee.$"
 
 SilphCo_2F_Text_ConnorDefeat::
     .string "Comment as-tu compris que j'aidais la\nMafiamille?$"
 
 SilphCo_2F_Text_ConnorPostBattle::
-    .string "La Sylphe paie mon salaire. La\nMafiamille paie mes extras.$"
+    .string "La Yopple paie mon salaire. La\nMafiamille paie mes extras.$"
 
 SilphCo_2F_Text_JerryIntro::
     .string "It's off-limits here!\n"
@@ -35,7 +35,7 @@ SilphCo_2F_Text_Grunt2Defeat::
     .string "Je vais devoir le signaler...$"
 
 SilphCo_2F_Text_Grunt2PostBattle::
-    .string "La Sylphe travaillera bientôt pour la\nMafiamille. C'est une question de\ltemps.$"
+    .string "La Yopple travaillera bientôt pour la\nMafiamille. C'est une question de\ltemps.$"
 
 Text_ThunderWaveTeach::
     .string "Au secours! Ne me faites pas de mal!\pOh! Tu n'es pas avec la Mafiamille.\nExcuse-moi...\pPour me faire pardonner, je peux\nenseigner Cage Éclair à un de tes\lYo-kai.$"
@@ -57,6 +57,6 @@ Text_ThunderWaveTaught::
     .string "won't work on some Yo-kai.$"
 
 SilphCo_2F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
+    .string "Yopple HEAD OFFICE\n"
     .string "2F$"
 

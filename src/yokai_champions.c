@@ -25,7 +25,7 @@ static const u8 sMorganeSeed[] = _("MORGANE");
 const u8 *YokaiChampionPartySeedName(u16 trainer)
 {
     if (trainer == TRAINER_LEADER_BROCK) return sPierreSeed;
-    if (trainer == TRAINER_LEADER_SABRINA) return sMorganeSeed;
+    if (trainer == TRAINER_LEADER_KOGA) return sMorganeSeed;
     return gTrainers[trainer].trainerName;
 }
 
@@ -68,6 +68,8 @@ u8 YokaiChampionObjectGfx(u8 graphicsId)
     if (map == MAP_VERMILION_CITY_GYM && graphicsId == OBJ_EVENT_GFX_LT_SURGE)
         return OBJ_EVENT_GFX_ARIANE;
     if (map == MAP_SAFFRON_CITY_GYM && graphicsId == OBJ_EVENT_GFX_SABRINA)
+        return OBJ_EVENT_GFX_YOKAI_DOMNISCIAN;
+    if (map == MAP_FUCHSIA_CITY_GYM && graphicsId == OBJ_EVENT_GFX_KOGA)
         return OBJ_EVENT_GFX_YOKAI_BERENICE;
     if (map == MAP_CINNABAR_ISLAND_GYM && graphicsId == OBJ_EVENT_GFX_BLAINE)
         return gSaveBlock2Ptr->playerGender == FEMALE ? OBJ_EVENT_GFX_YOKAI_MICHAEL : OBJ_EVENT_GFX_YOKAI_NATHANIEL;
@@ -82,7 +84,15 @@ u8 YokaiChampionOrderedPartySize(void)
     case TRAINER_LEADER_MISTY: return 3;
     case TRAINER_LEADER_LT_SURGE:
     case TRAINER_LEADER_ERIKA: return 4;
-    case TRAINER_LEADER_BLAINE: return 6;
+    case TRAINER_LEADER_BLAINE:
+    case TRAINER_ELITE_FOUR_LORELEI:
+    case TRAINER_ELITE_FOUR_LORELEI_2:
+    case TRAINER_ELITE_FOUR_BRUNO:
+    case TRAINER_ELITE_FOUR_BRUNO_2:
+    case TRAINER_ELITE_FOUR_AGATHA:
+    case TRAINER_ELITE_FOUR_AGATHA_2:
+    case TRAINER_ELITE_FOUR_LANCE:
+    case TRAINER_ELITE_FOUR_LANCE_2: return 6;
     }
     return 0;
 }
@@ -129,7 +139,8 @@ u8 YokaiChampionFameObjectGfx(u8 graphicsId)
     case OBJ_EVENT_GFX_BROCK: return OBJ_EVENT_GFX_YOKAI_WYATT;
     case OBJ_EVENT_GFX_MISTY: return gSaveBlock2Ptr->playerGender == FEMALE ? OBJ_EVENT_GFX_YOKAI_NATHAN : OBJ_EVENT_GFX_YOKAI_KATIE;
     case OBJ_EVENT_GFX_LT_SURGE: return OBJ_EVENT_GFX_ARIANE;
-    case OBJ_EVENT_GFX_SABRINA: return OBJ_EVENT_GFX_YOKAI_BERENICE;
+    case OBJ_EVENT_GFX_SABRINA: return OBJ_EVENT_GFX_YOKAI_DOMNISCIAN;
+    case OBJ_EVENT_GFX_KOGA: return OBJ_EVENT_GFX_YOKAI_BERENICE;
     case OBJ_EVENT_GFX_BLAINE: return gSaveBlock2Ptr->playerGender == FEMALE ? OBJ_EVENT_GFX_YOKAI_MICHAEL : OBJ_EVENT_GFX_YOKAI_NATHANIEL;
     }
     return graphicsId;

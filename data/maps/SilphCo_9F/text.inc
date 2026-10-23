@@ -38,6 +38,6 @@ SilphCo_9F_Text_Grunt2PostBattle::
     .string "On devrait peut-être s'entraîner\nensemble avant de recommencer.$"
 
 SilphCo_9F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
+    .string "Yopple HEAD OFFICE\n"
     .string "9F$"
 

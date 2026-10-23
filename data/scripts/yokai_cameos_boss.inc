@@ -1,75 +1,14 @@
 @ Optional postgame cameos; original story scripts remain in their maps.
 
+@ The optional postgame CEO cameo is retired. Keep its local event ID hidden
+@ for old saves; Domniscian now appears through the rescue story and Gym.
 YokaiCameo_Domniscian::
-	lock
-	faceplayer
-	goto_if_unset FLAG_SYS_GAME_CLEAR, YokaiCameo_DomniscianBlocked
-	goto_if_unset FLAG_YOKAI_EMPLOYEE_RED_WON, YokaiCameo_DomniscianNeed
-	goto_if_unset FLAG_YOKAI_EMPLOYEE_BLUE_WON, YokaiCameo_DomniscianNeed
-	goto_if_unset FLAG_YOKAI_DOMNISCIAN_WON, YokaiCameo_DomniscianOffer
-	goto_if_unset FLAG_YOKAI_DOMNISCIAN_REWARD, YokaiCameo_DomniscianReward
-YokaiCameo_DomniscianOffer::
-	msgbox YokaiCameo_DomniscianTextOffer, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, YokaiCameo_DomniscianDecline
-	closemessage
-	cleartrainerflag TRAINER_YOKAI_DOMNISCIAN
-	trainerbattle_single TRAINER_YOKAI_DOMNISCIAN, YokaiCameo_DomniscianTextStart, YokaiCameo_DomniscianTextDefeat, YokaiCameo_DomniscianVictory
-	goto EventScript_ReleaseEnd
-YokaiCameo_DomniscianVictory::
-	closemessage
-	setflag FLAG_YOKAI_DOMNISCIAN_WON
-	msgbox YokaiCameo_DomniscianTextAfter
-	goto_if_set FLAG_YOKAI_DOMNISCIAN_REWARD, EventScript_ReleaseEnd
-YokaiCameo_DomniscianReward::
-	checkitemspace ITEM_THUNDER_STONE, 1
-	goto_if_eq VAR_RESULT, FALSE, YokaiCameo_DomniscianBagFull
-	msgbox YokaiCameo_DomniscianTextReward
-	giveitem ITEM_THUNDER_STONE, 1
-	goto_if_eq VAR_0x8007, FALSE, YokaiCameo_DomniscianBagFull
-	setflag FLAG_YOKAI_DOMNISCIAN_REWARD
-	goto EventScript_ReleaseEnd
-YokaiCameo_DomniscianDecline::
-	msgbox YokaiCameo_DomniscianTextDecline
-	goto EventScript_ReleaseEnd
-YokaiCameo_DomniscianBlocked::
-	msgbox YokaiCameo_DomniscianTextBlocked
-	goto EventScript_ReleaseEnd
-YokaiCameo_DomniscianNeed::
-	msgbox YokaiCameo_DomniscianTextNeed
-	goto EventScript_ReleaseEnd
-YokaiCameo_DomniscianBagFull::
-	msgbox YokaiCameo_DomniscianTextBagFull
-	goto EventScript_ReleaseEnd
-YokaiCameo_DomniscianTextOffer::
-	.string "Domniscian: Voici mon grand projet!\n"
-	.string "Un combat digne de mon génie?$"
-YokaiCameo_DomniscianTextStart::
-	.string "Mes meilleurs collaborateurs!\n"
-	.string "Même les petits ont du talent!$"
-YokaiCameo_DomniscianTextDefeat::
-	.string "Impossible! Mon idée était parfaite!$"
-YokaiCameo_DomniscianTextAfter::
-	.string "D’accord, ton équipe mérite\n"
-	.string "une place au générique!$"
-YokaiCameo_DomniscianTextNeed::
-	.string "Mes employés veulent te rencontrer.\n"
-	.string "Bats-les avant de me défier!$"
-YokaiCameo_DomniscianTextReward::
-	.string "Cette Pierre Foudre fait évoluer\n"
-	.string "Komaous en Komastar.$"
-YokaiCameo_DomniscianTextDecline::
-	.string "Pas de souci. Une autre fois.$"
-YokaiCameo_DomniscianTextBlocked::
-	.string "Reviens après ta victoire\n"
-	.string "à la Ligue de Kanto.$"
-YokaiCameo_DomniscianTextBagFull::
-	.string "Ton sac est plein.\n"
-	.string "Je garde ta récompense pour toi.$"
+	end
 
 YokaiCameo_EmployeRouge::
 	lock
 	faceplayer
-	goto_if_unset FLAG_SYS_GAME_CLEAR, YokaiCameo_EmployeRougeBlocked
+	goto_if_unset FLAG_SYS_GAME_CLEAR, YokaiCameo_EmployeRougeAdventure
 YokaiCameo_EmployeRougeOffer::
 	msgbox YokaiCameo_EmployeRougeTextOffer, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, YokaiCameo_EmployeRougeDecline
@@ -92,7 +31,7 @@ YokaiCameo_EmployeRougeTextOffer::
 	.string "Je garde les projets du patron.\n"
 	.string "Tu veux faire un combat?$"
 YokaiCameo_EmployeRougeTextStart::
-	.string "Jibanyan, Feulion! Au travail!$"
+	.string "Robonyan, Emperor! Au travail!$"
 YokaiCameo_EmployeRougeTextDefeat::
 	.string "Pause bien méritée pour mon équipe!$"
 YokaiCameo_EmployeRougeTextAfter::
@@ -107,7 +46,7 @@ YokaiCameo_EmployeRougeTextBlocked::
 YokaiCameo_EmployeBleu::
 	lock
 	faceplayer
-	goto_if_unset FLAG_SYS_GAME_CLEAR, YokaiCameo_EmployeBleuBlocked
+	goto_if_unset FLAG_SYS_GAME_CLEAR, YokaiCameo_EmployeBleuAdventure
 YokaiCameo_EmployeBleuOffer::
 	msgbox YokaiCameo_EmployeBleuTextOffer, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, YokaiCameo_EmployeBleuDecline
@@ -130,12 +69,12 @@ YokaiCameo_EmployeBleuTextOffer::
 	.string "Mon équipe vérifie ton niveau.\n"
 	.string "Tu acceptes le combat?$"
 YokaiCameo_EmployeBleuTextStart::
-	.string "Komasan, Robonyan! À vous!$"
+	.string "Usapyon, Robonyan F! À vous!$"
 YokaiCameo_EmployeBleuTextDefeat::
 	.string "Notre rapport est clair: tu gagnes!$"
 YokaiCameo_EmployeBleuTextAfter::
 	.string "Ton équipe est prête.\n"
-	.string "Garde cette énergie pour le patron!$"
+	.string "Reviens nous défier quand tu veux!$"
 YokaiCameo_EmployeBleuTextDecline::
 	.string "Pas de souci. Une autre fois.$"
 YokaiCameo_EmployeBleuTextBlocked::
@@ -255,3 +194,20 @@ YokaiCameo_Mafiamille3TextDecline::
 YokaiCameo_Mafiamille3TextBlocked::
 	.string "Reviens après ta victoire\n"
 	.string "à la Ligue de Kanto.$"
+
+YokaiCameo_EmployeRougeAdventure::
+	msgbox YokaiCameo_EmployeRougeTextAdventure
+	goto EventScript_ReleaseEnd
+YokaiCameo_EmployeRougeTextAdventure::
+	.string "Steve Jaws a fondé Yopple.\p"
+	.string "La Yo-kai Watch et les Yo-kai Balls\n"
+	.string "font partie de son héritage.$"
+
+YokaiCameo_EmployeBleuAdventure::
+	msgbox YokaiCameo_EmployeBleuTextAdventure
+	goto EventScript_ReleaseEnd
+YokaiCameo_EmployeBleuTextAdventure::
+	.string "Le Yo-kai Pad et l’aspirateur\n"
+	.string "à Yo-kai sont conçus chez Yopple.\p"
+	.string "Domniscian a racheté l’entreprise.\n"
+	.string "Il adore nous le rappeler!$"

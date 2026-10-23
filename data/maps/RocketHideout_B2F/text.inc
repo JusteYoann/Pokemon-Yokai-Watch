@@ -1,5 +1,5 @@
 RocketHideout_B2F_Text_GruntIntro::
-    .string "Avec le Scope Sylphe, on peut voir\nles fantômes. Une affaire pleine\ld'avenir!$"
+    .string "Avec le Scope Yopple, on peut voir\nles fantômes. Une affaire pleine\ld'avenir!$"
 
 RocketHideout_B2F_Text_GruntDefeat::
     .string "Je préfère rester vivant!$"
