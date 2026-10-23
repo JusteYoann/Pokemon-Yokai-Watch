@@ -1,0 +1,237 @@
+{
+  "palette": {
+    ".": [
+      0,
+      0,
+      0
+    ],
+    "K": [
+      8,
+      8,
+      8
+    ],
+    "o": [
+      168,
+      120,
+      24
+    ],
+    "h": [
+      208,
+      160,
+      40
+    ],
+    "Y": [
+      248,
+      216,
+      80
+    ],
+    "L": [
+      248,
+      232,
+      120
+    ],
+    "s": [
+      192,
+      136,
+      88
+    ],
+    "S": [
+      232,
+      176,
+      128
+    ],
+    "E": [
+      0,
+      144,
+      184
+    ],
+    "W": [
+      248,
+      248,
+      248
+    ],
+    "w": [
+      208,
+      216,
+      224
+    ],
+    "P": [
+      128,
+      48,
+      152
+    ],
+    "p": [
+      96,
+      32,
+      120
+    ],
+    "B": [
+      32,
+      56,
+      96
+    ],
+    "b": [
+      24,
+      40,
+      72
+    ],
+    "d": [
+      144,
+      96,
+      56
+    ]
+  },
+  "rows": {
+    "gauche": [
+      ".....oooo.....",
+      "....hYYYYh....",
+      "...hYLLYYYh...",
+      "..hYLLYYYYYh..",
+      ".hYLLhYYYYYYh.",
+      ".hLYYhYYYYYYh.",
+      "..hLYLYhYYYYh.",
+      "..hLYYLhYYYYh.",
+      "....hYLhYYYh..",
+      "....ShShYYLYh.",
+      "...KSSKhYLLYh.",
+      "...KWPWWKhLYYh",
+      "...KWSSWWKKYh.",
+      "...KwSSWWwK...",
+      "...KWBKWWWK...",
+      "...KWBKKWWK...",
+      "...WKK.KKWW..."
+    ],
+    "dos": [
+      ".....oooo.....",
+      "....hYYYYh....",
+      "...hYYYLLYh...",
+      "..hYYYYYLLYh..",
+      ".hYYYYYYhLLYh.",
+      ".hYYYYYYhYYLh.",
+      ".hYLYYYYYYLh..",
+      ".hYLYYYhYYLh..",
+      ".hYLhYYhYYLh..",
+      "hYLLhYYhhYLLh.",
+      "hYYLhYYhhYYLLh",
+      "hYKWWhYWhWKKYh",
+      "..KSSWWWWSSK..",
+      "..KsWWwwWWsK..",
+      "..KKWWwwWWKK..",
+      "..KWWWKKWWWK..",
+      "..WWKK..KKWW.."
+    ],
+    "droite": [
+      ".....oooo.....",
+      "....hYYYYh....",
+      "...hYYYLLYh...",
+      "..hYYYYYLLYh..",
+      ".hYYYYYYhLLYh.",
+      ".hYYYYYYhYYLh.",
+      ".hYYYYhSSYLh..",
+      ".hYYYYhSKYLh..",
+      "..hYYYhSES....",
+      ".hYLYYhSSS....",
+      ".hYLLYhKSSK...",
+      "hYYLhKWWPWK...",
+      ".hYKKWWSSWK...",
+      "...KwWWSSwK...",
+      "...KWWWKBWK...",
+      "...KWWKKBWK...",
+      "...WWKK.KKW..."
+    ]
+  },
+  "records": [
+    {
+      "direction": "gauche",
+      "pose": "repos",
+      "bbox": [
+        10,
+        14,
+        23,
+        31
+      ]
+    },
+    {
+      "direction": "gauche",
+      "pose": "pas-1",
+      "bbox": [
+        10,
+        14,
+        23,
+        31
+      ]
+    },
+    {
+      "direction": "gauche",
+      "pose": "pas-2",
+      "bbox": [
+        10,
+        14,
+        23,
+        31
+      ]
+    },
+    {
+      "direction": "dos",
+      "pose": "repos",
+      "bbox": [
+        9,
+        14,
+        23,
+        31
+      ]
+    },
+    {
+      "direction": "dos",
+      "pose": "pas-1",
+      "bbox": [
+        9,
+        14,
+        23,
+        31
+      ]
+    },
+    {
+      "direction": "dos",
+      "pose": "pas-2",
+      "bbox": [
+        9,
+        14,
+        23,
+        31
+      ]
+    },
+    {
+      "direction": "droite",
+      "pose": "repos",
+      "bbox": [
+        9,
+        14,
+        22,
+        31
+      ]
+    },
+    {
+      "direction": "droite",
+      "pose": "pas-1",
+      "bbox": [
+        9,
+        14,
+        22,
+        31
+      ]
+    },
+    {
+      "direction": "droite",
+      "pose": "pas-2",
+      "bbox": [
+        9,
+        14,
+        22,
+        31
+      ]
+    }
+  ],
+  "old_front_untouched": true,
+  "source": "Reprise sur la capture 114647 : œil visible côté droit de l’image de face, autre œil couvert. Face originale non redessinée."
+}
