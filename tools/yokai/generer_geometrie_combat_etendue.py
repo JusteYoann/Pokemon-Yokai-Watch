@@ -12,7 +12,7 @@ def fit(size,target):
  ideal=256*size/target
  inv=min(range(16,2049),key=lambda v:(abs(extent(size,v)[1]-extent(size,v)[0]-target),extent(size,v)[1]-extent(size,v)[0]>target,abs(v-ideal)))
  l,r=extent(size,inv);return inv,l,r-l
-overrides=json.loads((R/'data/yokai/battle_geometry_overrides.json').read_text())['back_crops']
+config=json.loads((R/'data/yokai/battle_geometry_overrides.json').read_text());overrides=config['back_crops'];uniform_scale_species=set(config.get('uniform_scale_species',[]))
 baseline=json.loads((Q/'sources/ETAT_AVANT.json').read_text())['species'];refs=json.loads((Q/'sources/MESURES_REFERENCES_BRUTES.json').read_text())['results']
 p=R/'data/yokai/sprite_presentation.json';data=json.loads(p.read_text());preserved=json.loads((Q/'sources/apres-sprite_presentation.json').read_text());profiles={v['id']:v for v in preserved['profiles']};pictures=[];pointers=[];table=['// Generated from latest indexed artwork and user mockup geometry.','static const struct YokaiBattleGeometry sYokaiBattleGeometry[152][2] = {'];report=[]
 for mon,ref in zip(baseline,refs):
@@ -26,6 +26,9 @@ for mon,ref in zip(baseline,refs):
   targeth=(max(1,th-1) if crop_bottom is not None else th) if side=='front' or crop_bottom is not None else max(th,round(sh*tw/sw))
   ix,left,w=fit(sw,tw);iy,top,h=fit(sh,targeth);cx=b[0]-left;cy=b[1]-top-(1 if side=='back' else 0)
   dx=cx-(176 if side=='front' else 72);dy=cy-(40 if side=='front' else 80)
+  if n in uniform_scale_species:
+   # Preserve vertical size and anchor; remove horizontal stretching only.
+   ix=iy;left,right=extent(sw,ix);w=right-left
   assert -64<=left and left+w<=64 and -64<=top and top+h<=64,(n,side,'outside double-size OAM')
   assert math.ceil(w/8)*math.ceil(h/8)*32<=4096,(n,side,'animation background capacity')
   fields.append('{ %d, %d, %d, %d, %d, %d, %d, %d }'%(ix,iy,dx,dy,left,top,w,h))

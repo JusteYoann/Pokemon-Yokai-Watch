@@ -1,3 +1,5 @@
+> **Correction de combat plus récente : [proportions naturelles d’Hovernyan, capture et GIF](hovernyan-proportions/README.md).**
+
 > **Correction de taille plus récente : [Hovernyan mesure maintenant 19 pixels, comme Nathaniel — nouvelles captures et GIF](taille-hovernyan/README.md).** Les GIF et empreintes ci-dessous documentent le prototype précédent.
 
 # Phase C — Nathaniel/Michael et Arène de Cramois

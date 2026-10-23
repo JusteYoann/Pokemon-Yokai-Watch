@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "rom_sha256": "18bf590d1feefaef6b399b52a0afbc0a898c5f0e1e0995a770429dbbecd33271",
+  "checks": [
+    {
+      "test": "front uniform native hardware matrix and original indexed pixels",
+      "passed": true,
+      "inverse_scale": 247,
+      "geometry": [
+        247,
+        247,
+        3,
+        -2,
+        -24,
+        -25,
+        49,
+        51
+      ],
+      "hardware_matrix_diagonal": [
+        247,
+        247
+      ]
+    },
+    {
+      "test": "back uniform native hardware matrix and original indexed pixels",
+      "passed": true,
+      "inverse_scale": 161,
+      "geometry": [
+        161,
+        161,
+        -12,
+        7,
+        -28,
+        -22,
+        57,
+        46
+      ],
+      "hardware_matrix_diagonal": [
+        161,
+        161
+      ]
+    },
+    {
+      "test": "front native animation background matches uniform silhouette",
+      "passed": true,
+      "width": 49,
+      "height": 51,
+      "tile_bytes": 1568
+    },
+    {
+      "test": "back native animation background matches uniform silhouette",
+      "passed": true,
+      "width": 57,
+      "height": 46,
+      "tile_bytes": 1536
+    },
+    {
+      "test": "Real battle action executed through controller; native animation frames captured",
+      "passed": true
+    }
+  ],
+  "failure": null,
+  "scope": "Native mGBA Hovernyan front/back proportions, original textures and animation background checks. Map and parties are explicit fixtures."
+}

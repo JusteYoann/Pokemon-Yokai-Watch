@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "base": "f584896d4",
+  "scope": "Uniform battle scales for Hovernyan only; no artwork change",
+  "versions": {
+    "public": {
+      "rom_sha256": "18bf590d1feefaef6b399b52a0afbc0a898c5f0e1e0995a770429dbbecd33271",
+      "checks_passed": 5,
+      "ewram_bytes": 261368,
+      "ewram_added": 0,
+      "ewram_free": 776
+    },
+    "prive": {
+      "rom_sha256": "4f5797474d2e3c1f3ebad069716f3698350c4c9f2b15526075db6d68e98408d8",
+      "checks_passed": 5,
+      "ewram_bytes": 261368,
+      "ewram_added": 0,
+      "ewram_free": 776
+    }
+  },
+  "generator_reproduces_geometry_in_temporary_workspace": true,
+  "other_300_geometry_entries_unchanged": true,
+  "all_graphic_assets_unchanged": true
+}
