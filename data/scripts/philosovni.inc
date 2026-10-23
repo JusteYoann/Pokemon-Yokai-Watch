@@ -14,7 +14,6 @@ Philosovni_CityAriane::
 	faceplayer
 	goto_if_ge VAR_PHILOSOVNI_STATE, 1, Philosovni_CityDirections
 	msgbox Philosovni_Text_Meet
-	msgbox Philosovni_Text_UsapionHello
 	msgbox Philosovni_Text_Offer, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, Philosovni_Decline
 	setvar VAR_PHILOSOVNI_STATE, 1
@@ -59,8 +58,8 @@ Philosovni_Overhear::
 	msgbox Philosovni_Text_UsapionOops
 	msgbox Philosovni_Text_Shush
 	closemessage
+	applymovement 2, Common_Movement_FaceDown
 	applymovement 3, Common_Movement_FaceDown
-	applymovement 4, Common_Movement_FaceDown
 	waitmovement 0
 	msgbox Philosovni_Text_Discovered
 	msgbox Philosovni_Text_DuoReady
@@ -75,12 +74,12 @@ Philosovni_Overhear::
 Philosovni_Win::
 	msgbox Philosovni_Text_StoneGone
 	closemessage
+	applymovement 2, Philosovni_RunAway
 	applymovement 3, Philosovni_RunAway
-	applymovement 4, Philosovni_RunAway
 	waitmovement 0
 	fadescreen FADE_TO_BLACK
+	removeobject 2
 	removeobject 3
-	removeobject 4
 	setflag FLAG_PHILOSOVNI_HIDE_GRUNTS
 	fadescreen FADE_FROM_BLACK
 	msgbox Philosovni_Text_Conclusion
@@ -102,8 +101,7 @@ Philosovni_Finish::
 	msgbox Philosovni_Text_GymInvitation
 	closemessage
 	fadescreen FADE_TO_BLACK
-	removeobject 1
-	removeobject 2
+	special PhilosovniEndFollowing
 	fadescreen FADE_FROM_BLACK
 	releaseall
 	end
@@ -122,13 +120,13 @@ Philosovni_Text_WyattConcern::
 Philosovni_Text_WyattAfter::
 	.string "Pas mal du tout !\pAvec tes Yo-kai, tu pourrais\ndonner du fil à retordre\pà cette Mafiamille !$"
 Philosovni_Text_Meet::
-	.string "ARIANE : Hé ! Toi, là !\pT'as entendu parler de l'OVNI\nqui s'est écrasé ici ?!\pMoi, c'est Ariane Célestin !\nEt lui, c'est Usapion !$"
+	.string "ARIANE : Hé ! Toi, là !\pT'as entendu parler de l'OVNI\nqui s'est écrasé ici ?!\pMoi, c'est Ariane Célestin !\nUsapion est mon partenaire !$"
 Philosovni_Text_UsapionHello::
 	.string "USAPION : Salut, dany !$"
 Philosovni_Text_Offer::
 	.string "ARIANE : On enquête sur ce crash\ndepuis plusieurs jours !\pOn a suivi des traces de caisses\njusqu'à une cabane sur le quai.\pUne piste incroyable !\nTu veux nous accompagner ?$"
 Philosovni_Text_Directions::
-	.string "ARIANE : La petite cabane,\nà gauche sur ce quai !\pOn te rejoint à l'intérieur.\nRestons discrets !$"
+	.string "ARIANE : La petite cabane,\nà gauche sur ce quai !\pJe te suis !\nRestons discrets !$"
 Philosovni_Text_Decline::
 	.string "ARIANE : Pas de souci !\nOn reste ici si tu changes d'avis.$"
 Philosovni_Text_UsapionHint::
@@ -175,3 +173,40 @@ Philosovni_Text_BagFull::
 	.string "ARIANE : Ton sac est plein !\nFais de la place et reviens.\pJe garde la CS pour toi.$"
 Philosovni_Text_CaptainThanks::
 	.string "Merci ! Je me sens bien mieux !\pLa Championne Ariane enquête\nprès du port, avec Usapion.\pElle pourra sûrement t'aider\npour la suite de ton voyage.\pProfite encore de l'Océane\navant notre départ !$"
+
+Philosovni_FollowerTalk::
+	lockall
+	faceplayer
+	goto_if_eq VAR_PHILOSOVNI_STATE, 2, Philosovni_Reward
+	call Philosovni_ReminderDestination
+	releaseall
+	end
+
+Philosovni_IdleReminder::
+	lockall
+	call Philosovni_ReminderDestination
+	releaseall
+	end
+
+Philosovni_ReminderDestination::
+	goto_if_eq VAR_PHILOSOVNI_STATE, 2, Philosovni_ReminderReward
+	specialvar VAR_RESULT, PhilosovniFollowerDestination
+	goto_if_eq VAR_RESULT, 1, Philosovni_ReminderInside
+	goto_if_eq VAR_RESULT, 2, Philosovni_ReminderCity
+	msgbox Philosovni_Text_ReminderTravel
+	return
+Philosovni_ReminderInside::
+	msgbox Philosovni_Text_Quiet
+	return
+Philosovni_ReminderCity::
+	msgbox Philosovni_Text_ReminderCity
+	return
+Philosovni_ReminderReward::
+	msgbox Philosovni_Text_ReminderReward
+	return
+Philosovni_Text_ReminderCity::
+	.string "ARIANE : Allons à la cabane\nsur le quai, au sud-est !\pC'est là que mène notre piste !$"
+Philosovni_Text_ReminderTravel::
+	.string "ARIANE : Direction Carmin !\pNotre piste mène à la cabane\nsur le quai, au sud-est.$"
+Philosovni_Text_ReminderReward::
+	.string "ARIANE : Fais de la place\ndans ton sac et parle-moi.\pJe garde la CS Coupe pour toi !$"

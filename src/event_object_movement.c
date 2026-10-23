@@ -1,3 +1,4 @@
+#include "philosovni.h"
 #include "yokai_champions.h"
 #include "global.h"
 #include "gflib.h"
@@ -1627,7 +1628,7 @@ static void LoadAlyzonObjectPalette(const struct ObjectEventGraphicsInfo *graphi
     if (graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_YOKAI_ALYZON
         || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_LAVENDER_ZOMBIE
         || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_YOKAI_BERENICE
-        || (graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_ARIANE && graphicsInfo->paletteSlot == PALSLOT_NPC_2_REFLECTION))
+        || (graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_ARIANE && (graphicsInfo->paletteSlot == PALSLOT_NPC_2_REFLECTION || PhilosovniFollowing())))
         PatchObjectPalette(graphicsInfo->paletteTag, graphicsInfo->paletteSlot);
 }
 
@@ -1705,6 +1706,9 @@ static u8 TrySpawnObjectEventTemplate(const struct ObjectEventTemplate *objectEv
     const struct ObjectEventGraphicsInfo *graphicsInfo;
     const struct SubspriteTable *subspriteTables = NULL;
 
+    if (PhilosovniFollowing() && objectEventTemplate->graphicsId == OBJ_EVENT_GFX_ARIANE
+        && objectEventTemplate->localId != 202)
+        return OBJECT_EVENTS_COUNT;
     graphicsInfo = GetObjectEventGraphicsInfo(objectEventTemplate->graphicsId);
     MakeObjectTemplateFromObjectEventTemplate(objectEventTemplate, &spriteTemplate, &subspriteTables);
     spriteFrameImage.size = graphicsInfo->size;
@@ -2160,8 +2164,15 @@ const struct ObjectEventGraphicsInfo *GetObjectEventGraphicsInfo(u8 graphicsId)
     if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_VERMILION_CITY_PHILOSOVNI_WAREHOUSE)
      && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_VERMILION_CITY_PHILOSOVNI_WAREHOUSE))
     {
-        if (graphicsId == OBJ_EVENT_GFX_ARIANE) return &gObjectEventGraphicsInfo_PhilosovniAriane;
+        if (graphicsId == OBJ_EVENT_GFX_ARIANE && !PhilosovniFollowing()) return &gObjectEventGraphicsInfo_PhilosovniAriane;
         if (graphicsId == OBJ_EVENT_GFX_USAPION_CAMEO) return &gObjectEventGraphicsInfo_PhilosovniUsapion;
+    }
+    if (graphicsId == OBJ_EVENT_GFX_ARIANE && PhilosovniFollowing())
+    {
+        static EWRAM_DATA struct ObjectEventGraphicsInfo info = {0};
+        info = gObjectEventGraphicsInfo_PhilosovniAriane;
+        info.paletteSlot = PhilosovniFollowerPalette();
+        return &info;
     }
     graphicsId = YokaiChampionObjectGfx(graphicsId);
     if (graphicsId >= NUM_OBJ_EVENT_GFX)
@@ -2635,6 +2646,8 @@ static const u8 *GetObjectEventScriptPointerByLocalIdAndMap(u8 localId, u8 mapNu
 
 const u8 *GetObjectEventScriptPointerByObjectEventId(u8 objectEventId)
 {
+    extern const u8 Philosovni_FollowerTalk[];
+    if (PhilosovniIsFollower(&gObjectEvents[objectEventId])) return Philosovni_FollowerTalk;
     return GetObjectEventScriptPointerByLocalIdAndMap(gObjectEvents[objectEventId].localId, gObjectEvents[objectEventId].mapNum, gObjectEvents[objectEventId].mapGroup);
 }
 
@@ -2646,6 +2659,7 @@ static u16 GetObjectEventFlagIdByLocalIdAndMap(u8 localId, u8 mapNum, u8 mapGrou
     if (obj == NULL)
         return 0;
 #endif // UBFIX
+    if (localId == 202 && obj == NULL) return 0;
     return obj->flagId;
 }
 
@@ -5071,7 +5085,7 @@ static bool8 DoesObjectCollideWithObjectAt(struct ObjectEvent *objectEvent, s16 
     for (i = 0; i < OBJECT_EVENTS_COUNT; i++)
     {
         curObject = &gObjectEvents[i];
-        if (curObject->active && curObject != objectEvent)
+        if (curObject->active && curObject != objectEvent && !PhilosovniFollowerCollision(objectEvent, curObject))
         {
             if ((curObject->currentCoords.x == x && curObject->currentCoords.y == y) || (curObject->previousCoords.x == x && curObject->previousCoords.y == y))
             {

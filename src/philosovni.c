@@ -113,7 +113,8 @@ bool8 PhilosovniNeedsTemplateRefresh(void)
 {
     s16 group = gSaveBlock1Ptr->location.mapGroup;
     s16 num = gSaveBlock1Ptr->location.mapNum;
-    return (group == MAP_GROUP(MAP_VERMILION_CITY) && num == MAP_NUM(MAP_VERMILION_CITY))
+    return (group == MAP_GROUP(MAP_ROUTE25) && num == MAP_NUM(MAP_ROUTE25))
+        || (group == MAP_GROUP(MAP_VERMILION_CITY) && num == MAP_NUM(MAP_VERMILION_CITY))
         || (group == MAP_GROUP(MAP_VERMILION_CITY_GYM) && num == MAP_NUM(MAP_VERMILION_CITY_GYM))
         || (group == MAP_GROUP(MAP_VERMILION_CITY_PHILOSOVNI_WAREHOUSE) && num == MAP_NUM(MAP_VERMILION_CITY_PHILOSOVNI_WAREHOUSE));
 }

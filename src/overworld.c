@@ -1490,6 +1490,7 @@ static void OverworldBasic(void)
     RunTasks();
     AnimateSprites();
     CameraUpdate();
+    if (gMain.callback2 == CB2_Overworld) PhilosovniFollowerUpdate();
     SetQuestLogEvent_Arrived();
     UpdateCameraPanning();
     BuildOamBuffer();

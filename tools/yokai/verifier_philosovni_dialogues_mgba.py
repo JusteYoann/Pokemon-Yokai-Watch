@@ -3,7 +3,7 @@
 import json,re,os,hashlib
 from mgba_new_game import new_game
 from mgba_rpc import ROOT
-mode='prive' if '_audio' in os.environ.get('YOKAI_QA_ROM','') else 'public';P=ROOT/'docs/pierre-philosovni/validation'/mode;P.mkdir(parents=True,exist_ok=True)
+mode='prive' if '_audio' in os.environ.get('YOKAI_QA_ROM','') else 'public';P=ROOT/os.environ.get('YOKAI_PHILOSOVNI_REPORT_DIR','docs/pierre-philosovni/validation')/mode;P.mkdir(parents=True,exist_ok=True)
 r=new_game();rows=[];over=[]
 try:
  for filename in ['data/scripts/philosovni.inc','data/maps/VermilionCity/text.inc']:

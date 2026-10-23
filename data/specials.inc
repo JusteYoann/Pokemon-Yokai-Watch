@@ -463,4 +463,6 @@ gSpecials::
 	def_special PhilosovniSyncActors
 	def_special PhilosovniRefreshHM
 	def_special PhilosovniRefreshQuay
+	def_special PhilosovniEndFollowing
+	def_special PhilosovniFollowerDestination
 gSpecialsEnd::

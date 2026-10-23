@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Byte preservation against approved Champions base, plus private ROM audio streams."""
-import json,re,subprocess,hashlib,tarfile,io
+import json,re,subprocess,hashlib,tarfile,io,os
 from pathlib import Path
 from mgba_rpc import ROOT
-BASE='e1dcd9132aa8666fb1798c90a731859f1632313e';P=ROOT/'docs/pierre-philosovni/validation';P.mkdir(parents=True,exist_ok=True)
+BASE='e1dcd9132aa8666fb1798c90a731859f1632313e';P=ROOT/os.environ.get('YOKAI_PHILOSOVNI_REPORT_DIR','docs/pierre-philosovni/validation');P.mkdir(parents=True,exist_ok=True)
 def original(p):return subprocess.check_output(['git','show',BASE+':'+p],cwd=ROOT)
 def sha(b):return hashlib.sha256(b).hexdigest()
 files=['src/data/pokemon/species_info.h','src/data/pokemon/level_up_learnsets.h','src/data/pokemon/level_up_learnset_pointers.h','src/data/pokemon/evolution.h','src/data/text/species_names.h','src/data/wild_encounters.json','sound/song_table.inc','data/yokai/audio_loops.json','include/global.h','src/yokai_champions.c','src/lavanville.c','src/spiraton_battle.c','src/spiraton_core.c','src/spiraton_art_preview.c','src/fldeff_cut.c','data/scripts/field_moves.inc']
@@ -31,6 +31,10 @@ with tarfile.open(fileobj=io.BytesIO(archive)) as tf:
    now=(ROOT/name).read_bytes()
    if name.endswith('.pal'):old=old.replace(b'\r\n',b'\n');now=now.replace(b'\r\n',b'\n')
    assert now==old,name;art+=1
+  elif name == 'data/maps/Route25/map.json':
+   before=json.loads(old);after=json.loads((ROOT/name).read_text())
+   before['object_events']=[o for o in before['object_events'] if o['graphics_id']!='OBJ_EVENT_GFX_USAPION_CAMEO']
+   assert before==after,name
   elif name.startswith('data/maps/') and len(name.split('/'))>3 and name.split('/')[2] not in allowed:
    assert (ROOT/name).read_bytes()==old,name;maps+=1;protected.append(name)
   elif name.startswith('data/layouts/') and name.endswith('.bin') and name.split('/')[2]!='VermilionCity':assert (ROOT/name).read_bytes()==old,name
