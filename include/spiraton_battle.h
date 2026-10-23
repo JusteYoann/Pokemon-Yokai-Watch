@@ -1,6 +1,6 @@
 #ifndef GUARD_SPIRATON_BATTLE_H
 #define GUARD_SPIRATON_BATTLE_H
-/* Isolated diagnostic entry only. No production trigger arms this prototype. */
+/* Shared scripted encounter arm; historical Prototype name retained for QA. */
 void SpiratonBattleArmPrototype(void);
 bool8 SpiratonBattlePrototypeArmed(void);
 void SpiratonBattleReset(void);

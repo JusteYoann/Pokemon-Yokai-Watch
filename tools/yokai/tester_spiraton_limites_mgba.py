@@ -3,12 +3,12 @@
 Run is attempted through controller input. Capture checks the native ball command
 with a Master Ball fixture directly; this is not a complete bag UI interaction.
 """
-import hashlib,json,struct,subprocess
+import hashlib,json,struct,subprocess,os
 from mgba_rpc import ROOT
 from mgba_new_game import new_game
 from mafiamille_qa import C,strong_party
 from pilote_combat_mgba import battle_keys
-Q=ROOT/'QA_RECETTE_FINALE/DON_SPIRATON/limites';Q.mkdir(parents=True,exist_ok=True)
+Q=ROOT/os.environ.get('YOKAI_SPIRATON_LIMITS_REPORT_DIR','QA_RECETTE_FINALE/DON_SPIRATON/limites');Q.mkdir(parents=True,exist_ok=True)
 r=new_game();passed=False;rows=[]
 def pulse(key,after=8):
  r.keys=set();r.run(4);r.keys={key};r.run();r.keys=set();r.run(after)

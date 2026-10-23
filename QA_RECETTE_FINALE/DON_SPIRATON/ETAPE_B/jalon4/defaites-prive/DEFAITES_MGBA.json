@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "scope": "Native production-room loss/retry fixtures. Only player's strength and initial\nposition/respawn are prepared; no enemy HP, outcome or victory-flag injection.\n",
+  "rom_sha256": "853f5d1fbf88dfbc7b6dee53ddfb348f54ad81db91ce75682553b040d9635408",
+  "results": [
+    {
+      "test": "Native whiteout then normal room retry starts Don743",
+      "lost_to": 743,
+      "passed": true,
+      "spiraton_flag": false,
+      "game_clear": false,
+      "first_don_flag": false
+    },
+    {
+      "test": "Native whiteout then normal room retry starts Don743",
+      "lost_to": 744,
+      "passed": true,
+      "spiraton_flag": false,
+      "game_clear": false,
+      "first_don_flag": true
+    }
+  ]
+}

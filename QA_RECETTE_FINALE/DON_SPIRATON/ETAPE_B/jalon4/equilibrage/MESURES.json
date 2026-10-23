@@ -1,0 +1,526 @@
+{
+  "complete": true,
+  "scope": "Exploratory native fights, normal level/stat creation and legal natural/TM moves.\nA simple power/type pilot uses no items or voluntary switches. These trials are\nnot a human balance approval. Opponents, HP and outcomes are never edited.\n",
+  "rom_sha256": "46da34d577e12daa094732e89088d3b07f605d568fbe71c91867ba1c5f43a12f",
+  "trials": [
+    {
+      "level": 56,
+      "trainer": 743,
+      "result": "defeat",
+      "emulated_frames": 17299,
+      "emulated_seconds": 289.6,
+      "phases": [],
+      "surviving_party": 0,
+      "roster": [
+        {
+          "species": 1,
+          "level": 56,
+          "hp": 124,
+          "moves": [
+            315,
+            76,
+            280,
+            163
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 7,
+          "level": 56,
+          "hp": 180,
+          "moves": [
+            63,
+            315,
+            76,
+            85
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 25,
+          "level": 56,
+          "hp": 192,
+          "moves": [
+            89,
+            263,
+            157,
+            290
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 44,
+          "level": 56,
+          "hp": 181,
+          "moves": [
+            138,
+            247,
+            263,
+            168
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 74,
+          "level": 56,
+          "hp": 129,
+          "moves": [
+            85,
+            263,
+            87,
+            290
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 100,
+          "level": 56,
+          "hp": 129,
+          "moves": [
+            85,
+            231,
+            280,
+            163
+          ],
+          "stats_unmodified": true
+        }
+      ],
+      "policy": "best simple visible damage score; legal natural/TM, no items, no voluntary switches"
+    },
+    {
+      "level": 56,
+      "trainer": 744,
+      "result": "defeat",
+      "emulated_frames": 16498,
+      "emulated_seconds": 276.2,
+      "phases": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "surviving_party": 0,
+      "roster": [
+        {
+          "species": 1,
+          "level": 56,
+          "hp": 124,
+          "moves": [
+            315,
+            76,
+            280,
+            163
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 7,
+          "level": 56,
+          "hp": 180,
+          "moves": [
+            63,
+            315,
+            76,
+            85
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 25,
+          "level": 56,
+          "hp": 192,
+          "moves": [
+            89,
+            263,
+            157,
+            290
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 44,
+          "level": 56,
+          "hp": 181,
+          "moves": [
+            138,
+            247,
+            263,
+            168
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 74,
+          "level": 56,
+          "hp": 129,
+          "moves": [
+            85,
+            263,
+            87,
+            290
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 100,
+          "level": 56,
+          "hp": 129,
+          "moves": [
+            85,
+            231,
+            280,
+            163
+          ],
+          "stats_unmodified": true
+        }
+      ],
+      "policy": "best simple visible damage score; legal natural/TM, no items, no voluntary switches"
+    },
+    {
+      "level": 60,
+      "trainer": 743,
+      "result": "defeat",
+      "emulated_frames": 22530,
+      "emulated_seconds": 377.2,
+      "phases": [],
+      "surviving_party": 0,
+      "roster": [
+        {
+          "species": 1,
+          "level": 60,
+          "hp": 132,
+          "moves": [
+            315,
+            76,
+            280,
+            163
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 7,
+          "level": 60,
+          "hp": 192,
+          "moves": [
+            63,
+            315,
+            76,
+            85
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 25,
+          "level": 60,
+          "hp": 205,
+          "moves": [
+            38,
+            89,
+            157,
+            263
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 44,
+          "level": 60,
+          "hp": 193,
+          "moves": [
+            138,
+            247,
+            263,
+            168
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 74,
+          "level": 60,
+          "hp": 138,
+          "moves": [
+            85,
+            263,
+            87,
+            290
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 100,
+          "level": 60,
+          "hp": 138,
+          "moves": [
+            85,
+            309,
+            280,
+            163
+          ],
+          "stats_unmodified": true
+        }
+      ],
+      "policy": "best simple visible damage score; legal natural/TM, no items, no voluntary switches"
+    },
+    {
+      "level": 60,
+      "trainer": 744,
+      "result": "defeat",
+      "emulated_frames": 15042,
+      "emulated_seconds": 251.8,
+      "phases": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "surviving_party": 0,
+      "roster": [
+        {
+          "species": 1,
+          "level": 60,
+          "hp": 132,
+          "moves": [
+            315,
+            76,
+            280,
+            163
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 7,
+          "level": 60,
+          "hp": 192,
+          "moves": [
+            63,
+            315,
+            76,
+            85
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 25,
+          "level": 60,
+          "hp": 205,
+          "moves": [
+            38,
+            89,
+            157,
+            263
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 44,
+          "level": 60,
+          "hp": 193,
+          "moves": [
+            138,
+            247,
+            263,
+            168
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 74,
+          "level": 60,
+          "hp": 138,
+          "moves": [
+            85,
+            263,
+            87,
+            290
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 100,
+          "level": 60,
+          "hp": 138,
+          "moves": [
+            85,
+            309,
+            280,
+            163
+          ],
+          "stats_unmodified": true
+        }
+      ],
+      "policy": "best simple visible damage score; legal natural/TM, no items, no voluntary switches"
+    },
+    {
+      "level": 63,
+      "trainer": 743,
+      "result": "defeat",
+      "emulated_frames": 24530,
+      "emulated_seconds": 410.7,
+      "phases": [],
+      "surviving_party": 0,
+      "roster": [
+        {
+          "species": 1,
+          "level": 63,
+          "hp": 138,
+          "moves": [
+            315,
+            76,
+            280,
+            163
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 7,
+          "level": 63,
+          "hp": 201,
+          "moves": [
+            63,
+            315,
+            76,
+            85
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 25,
+          "level": 63,
+          "hp": 215,
+          "moves": [
+            38,
+            89,
+            157,
+            263
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 44,
+          "level": 63,
+          "hp": 202,
+          "moves": [
+            138,
+            247,
+            263,
+            168
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 74,
+          "level": 63,
+          "hp": 144,
+          "moves": [
+            85,
+            263,
+            87,
+            290
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 100,
+          "level": 63,
+          "hp": 144,
+          "moves": [
+            85,
+            309,
+            280,
+            163
+          ],
+          "stats_unmodified": true
+        }
+      ],
+      "policy": "best simple visible damage score; legal natural/TM, no items, no voluntary switches"
+    },
+    {
+      "level": 63,
+      "trainer": 744,
+      "result": "defeat",
+      "emulated_frames": 14242,
+      "emulated_seconds": 238.4,
+      "phases": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "surviving_party": 0,
+      "roster": [
+        {
+          "species": 1,
+          "level": 63,
+          "hp": 138,
+          "moves": [
+            315,
+            76,
+            280,
+            163
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 7,
+          "level": 63,
+          "hp": 201,
+          "moves": [
+            63,
+            315,
+            76,
+            85
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 25,
+          "level": 63,
+          "hp": 215,
+          "moves": [
+            38,
+            89,
+            157,
+            263
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 44,
+          "level": 63,
+          "hp": 202,
+          "moves": [
+            138,
+            247,
+            263,
+            168
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 74,
+          "level": 63,
+          "hp": 144,
+          "moves": [
+            85,
+            263,
+            87,
+            290
+          ],
+          "stats_unmodified": true
+        },
+        {
+          "species": 100,
+          "level": 63,
+          "hp": 144,
+          "moves": [
+            85,
+            309,
+            280,
+            163
+          ],
+          "stats_unmodified": true
+        }
+      ],
+      "policy": "best simple visible damage score; legal natural/TM, no items, no voluntary switches"
+    }
+  ]
+}

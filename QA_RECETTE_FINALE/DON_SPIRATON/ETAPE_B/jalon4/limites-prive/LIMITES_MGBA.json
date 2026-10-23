@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "scope": "Native diagnostic guards and simultaneous self-KO. Fresh QA party/entry.\nRun is attempted through controller input. Capture checks the native ball command\nwith a Master Ball fixture directly; this is not a complete bag UI interaction.\n",
+  "rom_sha256": "853f5d1fbf88dfbc7b6dee53ddfb348f54ad81db91ce75682553b040d9635408",
+  "results": [
+    {
+      "test": "Controller Run rejected before first transform",
+      "passed": true
+    },
+    {
+      "test": "Native Master Ball handler chooses trainer block, no capture calculation; injected command fixture, not bag UI",
+      "passed": true
+    },
+    {
+      "test": "Real Explosion defeats player and exhausts layer one; loss, no false victory or new phase",
+      "passed": true
+    },
+    {
+      "test": "Player Explosion with healthy backup: controller replacement enters before end-turn selection; next form matches active replacement snapshot",
+      "passed": true,
+      "active_species": 7,
+      "expected_counter": 130
+    }
+  ]
+}

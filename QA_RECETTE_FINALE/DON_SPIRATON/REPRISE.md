@@ -1,3 +1,5 @@
+> État actuel : étape B terminée techniquement. Voir [RAPPORT_FINAL_ETAPE_B](ETAPE_B/RAPPORT_FINAL.md). Le contenu ci-dessous décrit le prototype historique.
+
 # Don Spiraton — état technique et reprise
 
 Branche : `feature/boss-final-don-spiraton`, base `d2f590d8b`. Premier jalon : `86e28fd1d` (noyau). Aucune fusion. Lire les décisions actualisées dans `docs/don-spiraton/DECISIONS_VALIDEES.md` avant toute reprise.

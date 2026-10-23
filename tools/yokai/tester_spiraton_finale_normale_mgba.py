@@ -132,7 +132,7 @@ try:
  assert flags(C['FLAG_SYS_GAME_CLEAR']) and flags(0x500+743) and flags(0x500+744)
  assert not r.call('SpiratonArtIsActive') and r.call('GetSpriteTileStartByTag',0x7D54)==65535
  r.keys=set();r.run(180);r.frame.save(Q/'postgame-apres-continue.png')
- artifact=ROOT/'artifacts'/'etape-b';artifact.mkdir(parents=True,exist_ok=True)
+ artifact=ROOT.parent/'artifacts'/'spiraton-etape-b';artifact.mkdir(parents=True,exist_ok=True)
  (artifact/('postgame-prive.state.gz' if 'audio' in r.elf_path.name else 'postgame-public.state.gz')).write_bytes(gzip.compress(r.snapshot()))
  passed=True
 finally:

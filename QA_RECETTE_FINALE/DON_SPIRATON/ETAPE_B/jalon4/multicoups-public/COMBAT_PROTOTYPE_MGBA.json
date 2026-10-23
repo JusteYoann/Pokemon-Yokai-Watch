@@ -1,0 +1,194 @@
+{
+  "passed": true,
+  "scope": "Isolated eight-form battle prototype. Approved true-form artwork and native first Morphing.\n\nStarts diagnostic trainer 744 explicitly, with a boosted QA player. No production\nmap arms this encounter. Controller selects moves; no enemy HP/PP writes.\n",
+  "rom_sha256": "46da34d577e12daa094732e89088d3b07f605d568fbe71c91867ba1c5f43a12f",
+  "forms": [
+    {
+      "phase": 1,
+      "species": 52,
+      "level": 56,
+      "first_frame": 128
+    },
+    {
+      "phase": 2,
+      "species": 130,
+      "level": 57,
+      "first_frame": 1704
+    },
+    {
+      "phase": 3,
+      "species": 12,
+      "level": 58,
+      "first_frame": 3440
+    },
+    {
+      "phase": 4,
+      "species": 138,
+      "level": 59,
+      "first_frame": 5640
+    },
+    {
+      "phase": 5,
+      "species": 51,
+      "level": 60,
+      "first_frame": 6808
+    },
+    {
+      "phase": 6,
+      "species": 67,
+      "level": 61,
+      "first_frame": 9776
+    },
+    {
+      "phase": 7,
+      "species": 149,
+      "level": 62,
+      "first_frame": 12312
+    },
+    {
+      "phase": 8,
+      "species": 39,
+      "level": 63,
+      "first_frame": 15304
+    }
+  ],
+  "production_scene": false,
+  "approved_true_form_artwork": true,
+  "native_transform_sound_events": [
+    {
+      "frame": 575,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_teleport",
+      "clock": 1
+    },
+    {
+      "frame": 623,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_minimize",
+      "clock": 1
+    },
+    {
+      "frame": 1705,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_teleport",
+      "clock": 1
+    },
+    {
+      "frame": 1755,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_minimize",
+      "clock": 1
+    },
+    {
+      "frame": 3441,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_teleport",
+      "clock": 2
+    },
+    {
+      "frame": 3491,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_minimize",
+      "clock": 1
+    },
+    {
+      "frame": 5641,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_teleport",
+      "clock": 1
+    },
+    {
+      "frame": 5691,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_minimize",
+      "clock": 1
+    },
+    {
+      "frame": 6809,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_teleport",
+      "clock": 2
+    },
+    {
+      "frame": 6858,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_minimize",
+      "clock": 1
+    },
+    {
+      "frame": 9777,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_teleport",
+      "clock": 1
+    },
+    {
+      "frame": 9827,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_minimize",
+      "clock": 1
+    },
+    {
+      "frame": 12313,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_teleport",
+      "clock": 4
+    },
+    {
+      "frame": 12362,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_minimize",
+      "clock": 1
+    },
+    {
+      "frame": 15305,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_teleport",
+      "clock": 2
+    },
+    {
+      "frame": 15355,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_minimize",
+      "clock": 1
+    }
+  ],
+  "human_listening_performed": false,
+  "qa_player_initial_level": 65,
+  "intermediate_exp_checked_below_level_cap": true,
+  "approved_hp_colors": true,
+  "layer_palette_checks": {
+    "0": 6,
+    "1": 6,
+    "2": 6,
+    "3": 6,
+    "4": 6,
+    "5": 6,
+    "6": 6,
+    "7": 6
+  },
+  "normal_species_palette_restored_checks": {
+    "0": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true
+  },
+  "native_white_transition_seen_phases": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "appearance_message_seen": true,
+  "first_transform_waits_for_player_choice": true,
+  "trainer_capture_run_protection_retained": true,
+  "status_fixture": "",
+  "status_removal_message_seen": null
+}

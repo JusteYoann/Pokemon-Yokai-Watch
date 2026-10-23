@@ -1,0 +1,210 @@
+{
+  "passed": true,
+  "scope": "Isolated eight-form battle prototype. Approved true-form artwork and native first Morphing.\n\nStarts diagnostic trainer 744 explicitly, with a boosted QA player. No production\nmap arms this encounter. Controller selects moves; no enemy HP/PP writes.\n",
+  "rom_sha256": "853f5d1fbf88dfbc7b6dee53ddfb348f54ad81db91ce75682553b040d9635408",
+  "forms": [
+    {
+      "phase": 1,
+      "species": 52,
+      "level": 56,
+      "first_frame": 120
+    },
+    {
+      "phase": 2,
+      "species": 130,
+      "level": 57,
+      "first_frame": 1344
+    },
+    {
+      "phase": 3,
+      "species": 12,
+      "level": 58,
+      "first_frame": 2536
+    },
+    {
+      "phase": 4,
+      "species": 138,
+      "level": 59,
+      "first_frame": 3232
+    },
+    {
+      "phase": 5,
+      "species": 51,
+      "level": 60,
+      "first_frame": 3896
+    },
+    {
+      "phase": 6,
+      "species": 67,
+      "level": 61,
+      "first_frame": 5440
+    },
+    {
+      "phase": 7,
+      "species": 149,
+      "level": 62,
+      "first_frame": 6280
+    },
+    {
+      "phase": 8,
+      "species": 39,
+      "level": 63,
+      "first_frame": 7248
+    }
+  ],
+  "production_scene": false,
+  "approved_true_form_artwork": true,
+  "native_transform_sound_events": [
+    {
+      "frame": 662,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_teleport",
+      "clock": 1
+    },
+    {
+      "frame": 710,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_minimize",
+      "clock": 1
+    },
+    {
+      "frame": 1344,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_teleport",
+      "clock": 1
+    },
+    {
+      "frame": 1393,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_minimize",
+      "clock": 1
+    },
+    {
+      "frame": 2537,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_teleport",
+      "clock": 3
+    },
+    {
+      "frame": 2587,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_minimize",
+      "clock": 1
+    },
+    {
+      "frame": 3233,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_teleport",
+      "clock": 2
+    },
+    {
+      "frame": 3283,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_minimize",
+      "clock": 1
+    },
+    {
+      "frame": 3896,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_teleport",
+      "clock": 1
+    },
+    {
+      "frame": 3945,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_minimize",
+      "clock": 1
+    },
+    {
+      "frame": 5441,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_teleport",
+      "clock": 3
+    },
+    {
+      "frame": 5491,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_minimize",
+      "clock": 1
+    },
+    {
+      "frame": 6281,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_teleport",
+      "clock": 4
+    },
+    {
+      "frame": 6330,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_minimize",
+      "clock": 1
+    },
+    {
+      "frame": 7249,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_teleport",
+      "clock": 3
+    },
+    {
+      "frame": 7299,
+      "player": "gMPlayInfo_SE1",
+      "sound": "se_m_minimize",
+      "clock": 1
+    }
+  ],
+  "bgm_events": [
+    {
+      "frame": 110,
+      "header": 153428804,
+      "names": [
+        "mus_yokai_06"
+      ]
+    },
+    {
+      "event": "after_victory",
+      "header": 154223468,
+      "names": [
+        "mus_yokai_07"
+      ]
+    }
+  ],
+  "human_listening_performed": false,
+  "qa_player_initial_level": 65,
+  "intermediate_exp_checked_below_level_cap": true,
+  "approved_hp_colors": true,
+  "layer_palette_checks": {
+    "0": 6,
+    "1": 6,
+    "2": 6,
+    "3": 6,
+    "4": 6,
+    "5": 6,
+    "6": 6,
+    "7": 6
+  },
+  "normal_species_palette_restored_checks": {
+    "0": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true
+  },
+  "native_white_transition_seen_phases": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "appearance_message_seen": true,
+  "first_transform_waits_for_player_choice": true,
+  "trainer_capture_run_protection_retained": true,
+  "status_fixture": "sleep",
+  "status_removal_message_seen": true
+}

@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "scope": "Actual private mixer routing for the three approved battle roles.",
+  "rom_sha256": "853f5d1fbf88dfbc7b6dee53ddfb348f54ad81db91ce75682553b040d9635408",
+  "results": [
+    {
+      "trainer": 743,
+      "private_slot": 3,
+      "native_active_channels": [
+        0
+      ],
+      "passed": true
+    },
+    {
+      "trainer": 744,
+      "private_slot": 6,
+      "native_active_channels": [
+        0
+      ],
+      "passed": true
+    },
+    {
+      "trainer": 739,
+      "private_slot": 15,
+      "native_active_channels": [
+        0
+      ],
+      "passed": true
+    }
+  ]
+}

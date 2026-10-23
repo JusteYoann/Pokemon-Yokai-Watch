@@ -9,7 +9,7 @@ from mgba_rpc import ROOT
 from mgba_new_game import new_game
 from mafiamille_qa import C
 from pilote_combat_mgba import battle_keys
-Q=ROOT/os.environ.get('YOKAI_SPIRATON_REPORT_DIR','QA_RECETTE_FINALE/DON_SPIRATON');Q.mkdir(parents=True,exist_ok=True);r=new_game();passed=False;rows=[];captures=[];palette_checks={};normal_palette_checks={};white_effect_seen=set();source_palettes={};appearance_seen=False;first_menu_checked=False;first_morph_frames=[];sound_events=[];previous_se={}
+Q=ROOT/os.environ.get('YOKAI_SPIRATON_REPORT_DIR','QA_RECETTE_FINALE/DON_SPIRATON');Q.mkdir(parents=True,exist_ok=True);r=new_game();passed=False;rows=[];captures=[];palette_checks={};normal_palette_checks={};white_effect_seen=set();source_palettes={};appearance_seen=False;first_menu_checked=False;first_morph_frames=[];sound_events=[];previous_se={};bgm_events=[]
 try:
  # Level65 makes the intermediate-EXP assertion meaningful (level100 cannot gain).
  r.call('CreateMon',r.symbols['gPlayerParty'],1,65,31,1,100,0,0)
@@ -35,11 +35,13 @@ try:
    old=previous_se.get(player,(0,0,0))
    if status&65535 and (header!=old[0] or not old[1]&65535 or clock<old[2]):
     for name in ['se_m_teleport','se_m_minimize']:
-     if header==r.symbols[name]:sound_events.append(dict(frame=f,player=player,sound=name,clock=clock))
+     if header==r.symbols[name] and r.u32(r.symbols['gBattleMainFunc'])==(r.symbols['TransformStep']|1):sound_events.append(dict(frame=f,player=player,sound=name,clock=clock))
    previous_se[player]=(header,status,clock)
   if first_menu_checked and len(first_morph_frames)<330 and r.read(r.symbols['sFirst'],1)==b'\0':first_morph_frames.append(r.frame.copy())
   if cb==r.symbols['BattleMainCB2']|1:
    started=True
+   header=r.u32(r.symbols['gMPlayInfo_BGM'])
+   if not bgm_events or bgm_events[-1]['header']!=header:bgm_events.append(dict(frame=f,header=header,names=[k for k,v in r.symbols.items() if v==header and k.startswith('mus_')]))
    assert r.u32(r.symbols['gBattleTypeFlags'])&8,'Boss must retain capture/run prohibition'
    if not first_menu_checked and r.u32(r.symbols['gBattlerControllerFuncs']) in action_callbacks:
     assert r.read(r.symbols['sFirst'],1)==b'\x01','First transform happened during entry'
@@ -49,6 +51,7 @@ try:
     sid=r.read(r.symbols['gBattlerSpriteIds']+1,1)[0]
     assert (int.from_bytes(r.read(r.symbols['gSprites']+68*sid+4,2),'little')&1023)==r.call('GetSpriteTileStartByTag',0x7D54), 'Battler no longer uses true-form tiles'
     assert r.read(r.symbols['gPlttBufferUnfaded']+544,32)==r.read(r.symbols['sSpiratonPreviewPalette'],32), 'True-form palette overwritten'
+    if 'mus_yokai_06' in r.symbols:assert r.u32(r.symbols['gMPlayInfo_BGM'])==r.symbols['mus_yokai_06']
     first_menu_checked=True;r.frame.save(Q/'premier-choix-avant-morphing.png')
    if r.read(r.symbols['gDisplayedStringBattle'],len(appearance))==appearance:appearance_seen=True
    # Native struct BattlePokemon has a documented 88-byte ABI.
@@ -111,7 +114,9 @@ try:
  assert sum(x['sound']=='se_m_teleport' for x in sound_events)==8
  assert sum(x['sound']=='se_m_minimize' for x in sound_events)==8
  if first_morph_frames:first_morph_frames[0].save(Q/'PREMIER_MORPHING.gif',save_all=True,append_images=first_morph_frames[1:],duration=34,loop=0)
+ r.keys=set();r.run(180)
+ header=r.u32(r.symbols['gMPlayInfo_BGM']);bgm_events.append(dict(event='after_victory',header=header,names=[k for k,v in r.symbols.items() if v==header and k.startswith('mus_')]))
  if captures:captures[0].save(Q/'PROTOTYPE_COMBAT.gif',save_all=True,append_images=captures[1:],duration=533,loop=0)
 finally:
- r.close();(Q/'COMBAT_PROTOTYPE_MGBA.json').write_text(json.dumps(dict(passed=passed,scope=__doc__,rom_sha256=hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),forms=rows,production_scene=False,approved_true_form_artwork=True,native_transform_sound_events=sound_events,human_listening_performed=False,qa_player_initial_level=65,intermediate_exp_checked_below_level_cap=True,approved_hp_colors=True,layer_palette_checks=palette_checks,normal_species_palette_restored_checks=normal_palette_checks,native_white_transition_seen_phases=sorted(white_effect_seen),appearance_message_seen=appearance_seen,first_transform_waits_for_player_choice=first_menu_checked,trainer_capture_run_protection_retained=True,status_fixture=status_name,status_removal_message_seen=cure_seen if status_name else None),indent=2)+'\n')
-print('PASS isolated native eight-form battle; production/artistic validation remains pending')
+ r.close();(Q/'COMBAT_PROTOTYPE_MGBA.json').write_text(json.dumps(dict(passed=passed,scope=__doc__,rom_sha256=hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),forms=rows,production_scene=False,approved_true_form_artwork=True,native_transform_sound_events=sound_events,bgm_events=bgm_events,human_listening_performed=False,qa_player_initial_level=65,intermediate_exp_checked_below_level_cap=True,approved_hp_colors=True,layer_palette_checks=palette_checks,normal_species_palette_restored_checks=normal_palette_checks,native_white_transition_seen_phases=sorted(white_effect_seen),appearance_message_seen=appearance_seen,first_transform_waits_for_player_choice=first_menu_checked,trainer_capture_run_protection_retained=True,status_fixture=status_name,status_removal_message_seen=cure_seen if status_name else None),indent=2)+'\n')
+print('PASS native eight-form combat, approved true-form art, Morphing/palettes/sounds; isolated QA party')

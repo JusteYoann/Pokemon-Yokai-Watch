@@ -19,11 +19,8 @@
   "music_don": "MUS_YOKAI_GHOULFATHER",
   "music_spiraton": "MUS_YOKAI_ZAZELMARE",
   "music_matt_rematch": "MUS_YOKAI_DECISIVE_BATTLE",
-  "production_entry_enabled": false,
-  "pending_approval": [
-    "true_form_sprite",
-    "conclusion_dialogue"
-  ],
+  "production_entry_enabled": true,
+  "pending_approval": [],
   "art_direction_v2_approved": true,
   "battle_composition_reference": "User mockup supplied after v2 approval: wide opponent over platform, face/hands/base visible, upper tendrils near top edge. Layout target only, not a captured engine result.",
   "hp_colors_approved": [
@@ -36,11 +33,12 @@
     "red",
     "ivory"
   ],
-  "conclusion_direction": "Professor arrives only after final victory, tried to arrive quickly, congratulates player and Matt for his support. Matt openly celebrates/congratulates player and grants time to enjoy title before promising to take it back. Exact revised text pending separate approval.",
+  "conclusion_direction": "Stage B approved exact Don/Matt/Chen dialogue integrated; native Hall of Fame and credits, no rival reprimand.",
   "no_spiraton_overworld_sprite": true,
   "fusion": "Validated: existing Mafia rush Don, fullscreen white flash hides removal, direct wild-inspired battle intro, no additional fusion art.",
   "entry_message": "Don Spiraton apparaît !",
   "entry_battle_rules": "Keep trainer battle rules for capture/run prohibition, but no opposing trainer portrait or ball sendout; no first transform until action choice.",
   "first_species_status": "Bouh reconfirmed by user during reprise 2026-10-23",
-  "development_scene": "PokemonLeague_Spiraton_DevelopmentEntry; explicit QA only, no map trigger"
+  "development_scene": "One shared sequence for normal first-conquest entrance and historical DevelopmentEntry QA alias.",
+  "native_art_approved": "Stage B: existing phase-A 128x96, 112x76 silhouette, 15 opaque colours; original battler owns four OBJ, centre176,38."
 }

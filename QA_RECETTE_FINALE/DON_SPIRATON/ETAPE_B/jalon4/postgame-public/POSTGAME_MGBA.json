@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "scope": "Exile after the actual native finale/Flash Continue state, no progression flags injected.\nTravel to Sevii is a QA position fixture; house door, dialogue and battles are native.\nHelpers retain the prior exile test's exact house/roster/mixer checks.\n",
+  "rom_sha256": "46da34d577e12daa094732e89088d3b07f605d568fbe71c91867ba1c5f43a12f",
+  "source_state": "/workspace/artifacts/spiraton-etape-b/postgame-public.state.gz",
+  "progression_flags_injected": false,
+  "results": [
+    {
+      "test": "No choice after naturally unlocked exile",
+      "passed": true
+    },
+    {
+      "test": "revanche-1",
+      "passed": true,
+      "outcome": 1,
+      "roster": [
+        [
+          147,
+          56
+        ],
+        [
+          70,
+          57
+        ],
+        [
+          140,
+          56
+        ],
+        [
+          136,
+          58
+        ],
+        [
+          115,
+          57
+        ],
+        [
+          86,
+          60
+        ]
+      ],
+      "ghoulfather_identifier": 349,
+      "private_mixer_checked": false,
+      "private_channel_observed": null,
+      "frames": 17089
+    },
+    {
+      "test": "revanche-2",
+      "passed": true,
+      "outcome": 1,
+      "roster": [
+        [
+          147,
+          56
+        ],
+        [
+          70,
+          57
+        ],
+        [
+          140,
+          56
+        ],
+        [
+          136,
+          58
+        ],
+        [
+          115,
+          57
+        ],
+        [
+          86,
+          60
+        ]
+      ],
+      "ghoulfather_identifier": 349,
+      "private_mixer_checked": false,
+      "private_channel_observed": null,
+      "frames": 12489
+    },
+    {
+      "test": "Native Flash save/load, no flag mutation, normal house door retains Don",
+      "passed": true
+    },
+    {
+      "test": "Ordinary Turboss wild battle wins after final boss; no composite residue",
+      "passed": true
+    }
+  ]
+}

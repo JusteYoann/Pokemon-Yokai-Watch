@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "scope": "Native Toxic residual exhausts a full boss layer; no enemy HP/outcome writes.\nBoosted QA player with Toxic/Splash. Status is applied by the actual move.\n",
+  "rom_sha256": "46da34d577e12daa094732e89088d3b07f605d568fbe71c91867ba1c5f43a12f",
+  "toxic_applied_by_native_move": true,
+  "zero_hp_pending_seen": true,
+  "hp_observed": [
+    141,
+    133,
+    117,
+    93,
+    61,
+    21,
+    0
+  ]
+}

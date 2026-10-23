@@ -21,3 +21,7 @@ Le nouveau document de reprise avait remis en attente la première espèce et le
 ## Maison d'exil validée
 
 Le créateur valide `SixIsland_WaterPath_House2` au Chemin d'O (Île6). Don remplace le résident, sans cohabitation, après victoire complète contre Don Spiraton et validation du Panthéon. Avant cela, le résident et son dialogue restent inchangés. Don occupe(7,4), utilise son sprite existant et propose des revanches répétables reprenant exactement le Dresseur743, Ghoulfather. Les dialogues fournis dans `exil/MISSION_AUTORISEE.md` sont autorisés avec adaptation des coupures. Aucun changement de carte, mobilier, collisions, porte, navigation ou accès anticipé. Cette validation ne vaut pas achèvement de la finale complète.
+
+## Étape B — 23 octobre 2026
+
+Sprite harmonisé de phase A approuvé et intégré sur le battler natif, centre(176,38) sans réduction. Première finale activée normalement, mêmes huit phases, sons Morphing natifs, conclusion Don/Matt/Chen du document autorisé, Panthéon/crédits/Flash natifs, Matt postgame et maison d'exil conservés. Voir `QA_RECETTE_FINALE/DON_SPIRATON/ETAPE_B/RAPPORT_FINAL.md`. Aucun ajustement d'équilibrage appliqué ; essais normaux et écoute humaine restent distincts de la validation technique.

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Actual private mixer routing for the three approved battle roles."""
-import hashlib,json,struct
+import hashlib,json,struct,os
 from mgba_rpc import ROOT
 from mgba_new_game import new_game
 from mafiamille_qa import strong_party
-Q=ROOT/'QA_RECETTE_FINALE/DON_SPIRATON';rows=[];passed=False;live=False
+Q=ROOT/os.environ.get('YOKAI_SPIRATON_MUSIC_REPORT_DIR','QA_RECETTE_FINALE/DON_SPIRATON');Q.mkdir(parents=True,exist_ok=True);rows=[];passed=False;live=False
 try:
  for trainer,slot in [(743,3),(744,6),(739,15)]:
   r=new_game();live=True;strong_party(r)
