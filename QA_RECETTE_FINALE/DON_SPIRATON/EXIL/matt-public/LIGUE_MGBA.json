@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "scope": "Native Don roster battle and actual postgame Champion triggers; not the final boss.",
+  "rom_sha256": "3ff8f0184fd515c652fcc5fc27c619a1918576005cdba792764ea0802942cafc",
+  "results": [
+    {
+      "test": "Native independent Don League roster and Ghoulfather selection",
+      "passed": true
+    },
+    {
+      "test": "Real postgame Champion trigger, no RS-link flag",
+      "starter": 0,
+      "trainer": 741,
+      "roster": [
+        [
+          19,
+          68
+        ],
+        [
+          90,
+          69
+        ],
+        [
+          4,
+          70
+        ],
+        [
+          89,
+          70
+        ],
+        [
+          97,
+          71
+        ],
+        [
+          88,
+          73
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "test": "Real postgame Champion trigger, no RS-link flag",
+      "starter": 1,
+      "trainer": 740,
+      "roster": [
+        [
+          19,
+          68
+        ],
+        [
+          90,
+          69
+        ],
+        [
+          4,
+          70
+        ],
+        [
+          89,
+          70
+        ],
+        [
+          97,
+          71
+        ],
+        [
+          7,
+          73
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "test": "Real postgame Champion trigger, no RS-link flag",
+      "starter": 2,
+      "trainer": 739,
+      "roster": [
+        [
+          19,
+          68
+        ],
+        [
+          90,
+          69
+        ],
+        [
+          4,
+          70
+        ],
+        [
+          89,
+          70
+        ],
+        [
+          97,
+          71
+        ],
+        [
+          30,
+          73
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "test": "Warehouse loads, Don retired, three Mafia cameos retained",
+      "passed": true
+    }
+  ]
+}

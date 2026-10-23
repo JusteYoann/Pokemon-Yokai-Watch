@@ -1,0 +1,172 @@
+{
+  "passed": true,
+  "scope": "Existing house/door, conditional resident, actual Yes/No, two real rematches,\nFlash reload and normal defeat in mGBA. Progression flags are explicit fixtures:\nthis does NOT claim the unfinished first League finale has been played.\nWinning party is level100/999 stats; losing party level1/1 stats. No enemy edits.\n",
+  "rom_sha256": "13a2f20688d745a3d756a522bfd2ab0192e8458b44ee32d481c8c1f403a0ec30",
+  "house": "SixIsland_WaterPath_House2",
+  "progression_gate": "GAME_CLEAR and native defeated-trainer744 flag; no new permanent flag",
+  "native_first_league_playthrough_tested": false,
+  "results": [
+    {
+      "test": "Conditional occupant plus real door entry",
+      "scenario": "avant-ligue",
+      "fixture_game_clear": false,
+      "fixture_first_don": false,
+      "fixture_spiraton": false,
+      "visible_npc": 1,
+      "passed": true
+    },
+    {
+      "test": "Conditional occupant plus real door entry",
+      "scenario": "premier-don-seulement",
+      "fixture_game_clear": false,
+      "fixture_first_don": true,
+      "fixture_spiraton": false,
+      "visible_npc": 1,
+      "passed": true
+    },
+    {
+      "test": "Conditional occupant plus real door entry",
+      "scenario": "ancienne-ligue-sans-boss",
+      "fixture_game_clear": true,
+      "fixture_first_don": true,
+      "fixture_spiraton": false,
+      "visible_npc": 1,
+      "passed": true
+    },
+    {
+      "test": "Conditional occupant plus real door entry",
+      "scenario": "boss-sans-pantheon",
+      "fixture_game_clear": false,
+      "fixture_first_don": true,
+      "fixture_spiraton": true,
+      "visible_npc": 1,
+      "passed": true
+    },
+    {
+      "test": "Conditional occupant plus real door entry",
+      "scenario": "apres-victoire-finale",
+      "fixture_game_clear": true,
+      "fixture_first_don": true,
+      "fixture_spiraton": true,
+      "visible_npc": 2,
+      "passed": true
+    },
+    {
+      "test": "Controller No choice, original progression preserved, no battle",
+      "passed": true
+    },
+    {
+      "test": "revanche-1",
+      "passed": true,
+      "outcome": 1,
+      "roster": [
+        [
+          147,
+          56
+        ],
+        [
+          70,
+          57
+        ],
+        [
+          140,
+          56
+        ],
+        [
+          136,
+          58
+        ],
+        [
+          115,
+          57
+        ],
+        [
+          86,
+          60
+        ]
+      ],
+      "ghoulfather_identifier": 349,
+      "private_mixer_checked": true,
+      "private_channel_observed": true,
+      "frames": 8264
+    },
+    {
+      "test": "revanche-2",
+      "passed": true,
+      "outcome": 1,
+      "roster": [
+        [
+          147,
+          56
+        ],
+        [
+          70,
+          57
+        ],
+        [
+          140,
+          56
+        ],
+        [
+          136,
+          58
+        ],
+        [
+          115,
+          57
+        ],
+        [
+          86,
+          60
+        ]
+      ],
+      "ghoulfather_identifier": 349,
+      "private_mixer_checked": true,
+      "private_channel_observed": true,
+      "frames": 7528
+    },
+    {
+      "test": "Native Flash save/reload and normal door re-entry retain exiled Don",
+      "passed": true
+    },
+    {
+      "test": "defaite",
+      "passed": true,
+      "outcome": 2,
+      "roster": [
+        [
+          147,
+          56
+        ],
+        [
+          70,
+          57
+        ],
+        [
+          140,
+          56
+        ],
+        [
+          136,
+          58
+        ],
+        [
+          115,
+          57
+        ],
+        [
+          86,
+          60
+        ]
+      ],
+      "ghoulfather_identifier": 349,
+      "private_mixer_checked": true,
+      "private_channel_observed": true,
+      "frames": 2520
+    },
+    {
+      "test": "Normal loss/whiteout preserves unlock and Don remains on next visit",
+      "passed": true
+    }
+  ]
+}

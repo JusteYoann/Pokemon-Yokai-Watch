@@ -17,3 +17,7 @@ Les PNG de `propositions/` sont des documents de travail. Aucun n'est déclaré 
 ## Reprise : confirmation explicite du 23 octobre 2026
 
 Le nouveau document de reprise avait remis en attente la première espèce et les six dernières couleurs. Interrogé sur cette contradiction, le créateur a répondu « Conserver les choix précédents ». Bouh et l'ordre vert, orange, cyan, bleu, violet, magenta, rouge, ivoire sont donc reconfirmés. Le fichier `include/spiraton_config.h` centralise l'espèce de départ. Les graphismes initiaux et les dialogues exacts de conclusion restent en attente ; aucun déclenchement de production n'est activé.
+
+## Maison d'exil validée
+
+Le créateur valide `SixIsland_WaterPath_House2` au Chemin d'O (Île6). Don remplace le résident, sans cohabitation, après victoire complète contre Don Spiraton et validation du Panthéon. Avant cela, le résident et son dialogue restent inchangés. Don occupe(7,4), utilise son sprite existant et propose des revanches répétables reprenant exactement le Dresseur743, Ghoulfather. Les dialogues fournis dans `exil/MISSION_AUTORISEE.md` sont autorisés avec adaptation des coupures. Aucun changement de carte, mobilier, collisions, porte, navigation ou accès anticipé. Cette validation ne vaut pas achèvement de la finale complète.

@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Native Don roster battle and actual postgame Champion triggers; not the final boss."""
-import hashlib,json,struct
+import hashlib,json,struct,os
 from mgba_rpc import ROOT
 from mgba_new_game import new_game
 from mafiamille_qa import MAPS,C,warp,strong_party
 from pilote_combat_mgba import battle_keys
 C['FLAG_SYS_CAN_LINK_WITH_RS']=0x844
-Q=ROOT/'QA_RECETTE_FINALE/DON_SPIRATON';rows=[]
+Q=ROOT/os.environ.get('YOKAI_SPIRATON_LEAGUE_REPORT_DIR','QA_RECETTE_FINALE/DON_SPIRATON');Q.mkdir(parents=True,exist_ok=True);rows=[]
 # MON_DATA_LEVEL is loaded from constants, not assumed offsets into Pokemon.
 def roster(r):
  return [(r.call('GetMonData',r.symbols['gEnemyParty']+100*i,C['MON_DATA_SPECIES'],0),r.call('GetMonData',r.symbols['gEnemyParty']+100*i,C['MON_DATA_LEVEL'],0)) for i in range(6)]
