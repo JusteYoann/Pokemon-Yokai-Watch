@@ -75,11 +75,46 @@ PokemonLeague_Spiraton_WhiteRemoval::
 	trainerbattle_no_intro TRAINER_DON_SPIRATON_PROTOTYPE, Spiraton_Text_NoDefeatDialogue
 PokemonLeague_Spiraton_DevelopmentWon::
 	setvar VAR_TEMP_2, 6
-	@ Deliberately no invented conclusion or GAME_CLEAR flag here.
-	@ This diagnostic endpoint leaves Hall of Fame progression untouched.
-	removeobject LOCALID_CHAMPIONS_ROOM_RIVAL
-	setobjectxyperm LOCALID_CHAMPIONS_ROOM_RIVAL, 6, 8
-	addobject LOCALID_CHAMPIONS_ROOM_RIVAL
+	setflag FLAG_DEFEATED_CHAMP
+	addobject LOCALID_SPIRATON_DON
+	addobject LOCALID_SPIRATON_GUARD_LEFT
+	addobject LOCALID_SPIRATON_GUARD_RIGHT
+	addobject LOCALID_SPIRATON_GUARD_BACK
+	msgbox Spiraton_Text_DonDefeated
+	closemessage
+	applymovement LOCALID_SPIRATON_DON, Spiraton_DonExit
+	waitmovement 0
+	removeobject LOCALID_SPIRATON_DON
+	applymovement LOCALID_SPIRATON_GUARD_LEFT, Spiraton_LeftExit
+	waitmovement 0
+	removeobject LOCALID_SPIRATON_GUARD_LEFT
+	applymovement LOCALID_SPIRATON_GUARD_RIGHT, Spiraton_RightExit
+	waitmovement 0
+	removeobject LOCALID_SPIRATON_GUARD_RIGHT
+	applymovement LOCALID_SPIRATON_GUARD_BACK, Spiraton_BackExit
+	waitmovement 0
+	removeobject LOCALID_SPIRATON_GUARD_BACK
+	setvar VAR_TEMP_2, 7
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	msgbox Spiraton_Text_MattCongratulations
+	closemessage
+	playbgm MUS_YOKAI_TAKE_CARE, 0
+	addobject LOCALID_CHAMPIONS_ROOM_PROF_OAK
+	applymovement LOCALID_CHAMPIONS_ROOM_PROF_OAK, Spiraton_OakEnter
+	waitmovement 0
+	setvar VAR_TEMP_2, 8
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_CHAMPIONS_ROOM_RIVAL, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	msgbox Spiraton_Text_OakCongratulations
+	closemessage
+	applymovement LOCALID_CHAMPIONS_ROOM_PROF_OAK, Spiraton_OakExit
+	applymovement LOCALID_PLAYER, Spiraton_PlayerExit
+	waitmovement 0
+	setvar VAR_TEMP_2, 9
+	warp MAP_POKEMON_LEAGUE_HALL_OF_FAME, 5, 12
+	waitstate
 	releaseall
 	end
 
@@ -146,3 +181,145 @@ Spiraton_Text_DonFusion::
 	.string "Tu ne me laisses donc\n"
 	.string "plus le choix.\p"
 	.string "MAFIAMILLE ! À MOI !$"
+
+Spiraton_DonExit::
+	walk_right
+	walk_right
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_left
+	walk_left
+	step_end
+
+Spiraton_LeftExit::
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_right
+	walk_right
+	walk_right
+	walk_down
+	walk_down
+	step_end
+
+Spiraton_RightExit::
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_left
+	walk_left
+	walk_left
+	walk_down
+	walk_down
+	step_end
+
+Spiraton_BackExit::
+	walk_right
+	walk_right
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_left
+	walk_left
+	step_end
+
+Spiraton_OakEnter::
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_left
+	walk_left
+	walk_up
+	walk_up
+	walk_right
+	walk_right
+	walk_in_place_faster_down
+	step_end
+
+Spiraton_OakExit::
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	set_invisible
+	step_end
+
+Spiraton_PlayerExit::
+	delay_16
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	set_invisible
+	step_end
+
+Spiraton_Text_DonDefeated::
+	.string "Alors... même ce pouvoir\n"
+	.string "n'aura pas suffi...\p"
+	.string "Je pensais pouvoir soumettre\n"
+	.string "toute cette région.\p"
+	.string "Mais tu as réussi à me vaincre...\n"
+	.string "deux fois.\p"
+	.string "Je dois reconnaître ma défaite.\p"
+	.string "La Ligue est à toi.\p"
+	.string "Quant à moi... il est temps\n"
+	.string "de quitter Kanto.\p"
+	.string "Nous nous reverrons\n"
+	.string "peut-être un jour...$"
+
+Spiraton_Text_MattCongratulations::
+	.string "Tss... Tu l'as vraiment fait.\p"
+	.string "Tu as battu Don Morléone...\n"
+	.string "et ce monstre !\p"
+	.string "Mais ne prends pas trop\n"
+	.string "la grosse tête !\p"
+	.string "La prochaine fois, c'est moi\n"
+	.string "qui serai le Maître !$"
+
+Spiraton_Text_OakCongratulations::
+	.string "Incroyable...\p"
+	.string "Tu as non seulement\n"
+	.string "remporté la Ligue...\p"
+	.string "Mais tu as aussi mis fin\n"
+	.string "aux ambitions de Don Morléone !\p"
+	.string "Tu as prouvé que tu méritais\n"
+	.string "ta place parmi les plus\l"
+	.string "grands Dresseurs.\p"
+	.string "Viens avec moi.\p"
+	.string "Il est temps d'inscrire\n"
+	.string "tes Yo-kai au Panthéon !$"

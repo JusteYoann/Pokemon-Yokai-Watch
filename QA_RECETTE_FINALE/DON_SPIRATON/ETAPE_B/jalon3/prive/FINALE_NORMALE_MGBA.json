@@ -1,0 +1,193 @@
+{
+  "passed": true,
+  "scope": "Lance fixture -> real victory/door -> normal finale -> native HOF/credits/Continue.\nInitial position and boosted QA party are fixtures. No story flags, enemy HP,\nbattle outcomes, script pointers or intermediate warps are injected thereafter.\nThis is the last League segment, not a start-to-finish adventure or balance test.\n",
+  "rom_sha256": "853f5d1fbf88dfbc7b6dee53ddfb348f54ad81db91ce75682553b040d9635408",
+  "events": [
+    {
+      "event": "Actual fourth Elite Four victory",
+      "frame": 12401
+    },
+    {
+      "event": "scene_stage",
+      "stage": 1,
+      "frame": 0,
+      "actors": [
+        255,
+        3,
+        4,
+        5,
+        6
+      ],
+      "player": [
+        6,
+        11
+      ]
+    },
+    {
+      "event": "scene_stage",
+      "stage": 2,
+      "frame": 11825,
+      "actors": [
+        255,
+        3,
+        4,
+        5,
+        6,
+        1
+      ],
+      "player": [
+        6,
+        11
+      ]
+    },
+    {
+      "event": "scene_stage",
+      "stage": 3,
+      "frame": 12354,
+      "actors": [
+        255,
+        3,
+        4,
+        5,
+        6,
+        1
+      ],
+      "player": [
+        6,
+        11
+      ]
+    },
+    {
+      "event": "scene_stage",
+      "stage": 4,
+      "frame": 12609,
+      "actors": [
+        255,
+        3,
+        4,
+        5,
+        6,
+        1
+      ],
+      "player": [
+        6,
+        11
+      ]
+    },
+    {
+      "event": "scene_stage",
+      "stage": 5,
+      "frame": 12650,
+      "actors": [
+        255,
+        1
+      ],
+      "player": [
+        6,
+        11
+      ]
+    },
+    {
+      "event": "scene_stage",
+      "stage": 6,
+      "frame": 19856,
+      "actors": [
+        255,
+        3,
+        4,
+        5,
+        6,
+        1
+      ],
+      "player": [
+        6,
+        11
+      ]
+    },
+    {
+      "event": "scene_stage",
+      "stage": 7,
+      "frame": 21433,
+      "actors": [
+        255,
+        1
+      ],
+      "player": [
+        6,
+        11
+      ]
+    },
+    {
+      "event": "scene_stage",
+      "stage": 8,
+      "frame": 21991,
+      "actors": [
+        255,
+        2,
+        1
+      ],
+      "player": [
+        6,
+        11
+      ]
+    },
+    {
+      "event": "scene_stage",
+      "stage": 9,
+      "frame": 22772,
+      "actors": [
+        255,
+        2,
+        1
+      ],
+      "player": [
+        6,
+        5
+      ]
+    }
+  ],
+  "battles": [
+    743,
+    744
+  ],
+  "levels": [
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+  ],
+  "whole_six_party_heal": true,
+  "white": true,
+  "first_choice_wait": true,
+  "conclusion": true,
+  "mafia_departed": true,
+  "chen_present": true,
+  "hall_of_fame": true,
+  "credits": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "postgame_continue": true,
+  "story_victory_flags_injected": false,
+  "qa_initial_party": true
+}
