@@ -15,12 +15,14 @@ Neuf images 16 × 32, 256 octets chacune : face au repos (0), dos (1), profil (2
 
 La palette carte est chargée à l'apparition, au changement d'identifiant graphique, à la création d'un objet virtuel et lors du retour au terrain. Elle occupe une banque distincte de Nathan (0), Matt dans les scènes existantes d'Argenta/Ligue (6) et Don (10). La banque 7 est réservée à Alyzon dans les scènes qui l'utilisent ; c'est normalement la banque de reflet du deuxième PNJ. Une future scène avec des reflets d'eau concurrents devra tenir compte de cette réservation. La restauration de palette utilise le tag d'Alyzon tant que son objet est actif. Aucun état persistant ni espace EWRAM supplémentaire n'est ajouté.
 
+Le dos de Nathan (`graphics/yokai_characters/nathan/back.png`) est abaissé d’un pixel natif sur ses cinq poses de combat pour toucher le bord supérieur de la barre d’action. La dernière ligne était transparente : aucun pixel visible n’est supprimé, et la palette reste identique.
+
 ## Compilation et contrôles
 
 | Version | Taille de la ROM | SHA-256 |
 |---|---:|---|
-| Publique | 16 777 216 octets | `5957c9178727e33d24849dc517a17f5e86d15c66d373f102ab85ff008b826807` |
-| Privée, ressources audio existantes | 31 659 467 octets | `840408d401db979bbc7f06b41fbda8724f1e91ba2686c2bda6c78c613fc06f40` |
+| Publique | 16 777 216 octets | `e616d1096aba17e76562c67a101f18021a4164361eef9f4b6b10082ac60924b6` |
+| Privée, ressources audio existantes | 31 659 467 octets | `f9ac87a0c3fc5bcdff038e916f1c0fd413ddbe3e0e665ee41e0da4cce13b67b3` |
 
 Limite : 33 554 432 octets. Marge privée : **1 894 965 octets**. EWRAM : **261 128 octets**, identique au socle. IWRAM publique/privée : **29 824 / 29 888 octets**, identique au socle. Les sources musicales ne sont pas modifiées.
 
