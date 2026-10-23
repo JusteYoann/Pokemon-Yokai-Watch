@@ -1,0 +1,37 @@
+{
+  "method": "Crop two transparent assets, NEAREST native-size candidate 24px high proportionally inside32x32, <=15 opaque RGB555 colors. Not a pixel-identity certification.",
+  "sprites": [
+    {
+      "index": 1,
+      "canvas": [
+        32,
+        32
+      ],
+      "bbox": [
+        8,
+        7,
+        24,
+        31
+      ],
+      "opaque_colors": 11,
+      "alpha_binary": true,
+      "foot_y": 30
+    },
+    {
+      "index": 2,
+      "canvas": [
+        32,
+        32
+      ],
+      "bbox": [
+        7,
+        7,
+        25,
+        31
+      ],
+      "opaque_colors": 11,
+      "alpha_binary": true,
+      "foot_y": 30
+    }
+  ]
+}

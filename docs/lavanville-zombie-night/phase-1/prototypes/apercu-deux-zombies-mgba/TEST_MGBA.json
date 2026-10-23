@@ -1,0 +1,43 @@
+{
+  "engine": "mGBA libretro",
+  "rom_sha256": "af807f4b8e2b6f7367208c1b25355a93b90b9937241295dd23e34b382df906cf",
+  "rom_bytes": 31658395,
+  "scope": "Real emulator frame capture after native LoadSpriteSheet/LoadSpritePalette/CreateSprite RAM fixtures. Not a montage. Static poses only, no NPC events, patrols, collisions or progression integration.",
+  "rom_unchanged": true,
+  "sprites": [
+    {
+      "name": "zombie-1",
+      "sprite_id": 5,
+      "palette_bank": 13,
+      "tile_start": 40,
+      "canvas": [
+        32,
+        32
+      ],
+      "silhouette": [
+        8,
+        7,
+        24,
+        31
+      ]
+    },
+    {
+      "name": "zombie-2",
+      "sprite_id": 6,
+      "palette_bank": 14,
+      "tile_start": 56,
+      "canvas": [
+        32,
+        32
+      ],
+      "silhouette": [
+        7,
+        7,
+        25,
+        31
+      ]
+    }
+  ],
+  "night_weather_palette": 12,
+  "animated_fog": true
+}
