@@ -1,3 +1,4 @@
+#include "philosovni.h"
 #include "global.h"
 #include "battle.h"
 #include "battle_ai_script_commands.h"
@@ -73,6 +74,8 @@ void InitBattleControllers(void)
         InitSinglePlayerBtlControllers();
 
     SetBattlePartyIds();
+    if (gBattleTypeFlags & BATTLE_TYPE_SCRIPTED_PARTNER)
+        gBattlerPartyIndexes[2] = PARTY_SIZE;
 
     if (!(gBattleTypeFlags & BATTLE_TYPE_MULTI))
     {

@@ -1,3 +1,4 @@
+#include "philosovni.h"
 #include "yokai_champions.h"
 #include "global.h"
 #include "lavanville.h"
@@ -710,6 +711,7 @@ static void CB2_InitBattleInternal(void)
     if (!(gBattleTypeFlags & BATTLE_TYPE_LINK))
     {
         CreateNPCTrainerParty(&gEnemyParty[0], gTrainerBattleOpponent_A);
+        if (gBattleTypeFlags & BATTLE_TYPE_SCRIPTED_PARTNER) PhilosovniPreparePartner();
         SetWildMonHeldItem();
     }
 

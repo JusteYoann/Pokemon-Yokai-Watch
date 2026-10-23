@@ -138,6 +138,34 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VermilionCity_EventScript_OaksAide",
       "flag": "FLAG_HIDE_VERMILION_CITY_OAKS_AIDE"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_ARIANE",
+      "x": 33,
+      "y": 29,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Philosovni_CityAriane",
+      "flag": "FLAG_PHILOSOVNI_HIDE_CITY"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_USAPION_CAMEO",
+      "x": 34,
+      "y": 29,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Philosovni_Usapion",
+      "flag": "FLAG_PHILOSOVNI_HIDE_CITY"
     }
   ],
   "warp_events": [
@@ -210,6 +238,13 @@
       "elevation": 0,
       "dest_map": "MAP_VERMILION_CITY_GYM",
       "dest_warp_id": "1"
+    },
+    {
+      "x": 29,
+      "y": 28,
+      "elevation": 0,
+      "dest_map": "MAP_VERMILION_CITY_PHILOSOVNI_WAREHOUSE",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

@@ -1,4 +1,5 @@
 VermilionCity_MapScripts::
+	map_script MAP_SCRIPT_ON_LOAD, Philosovni_QuayOnLoad
 	map_script MAP_SCRIPT_ON_TRANSITION, VermilionCity_OnTransition
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, VermilionCity_OnFrame
 	.byte 0
@@ -21,6 +22,7 @@ VermilionCity_Movement_ExitSSAnne::
 	step_end
 
 VermilionCity_OnTransition::
+	special PhilosovniSyncActors
 	setworldmapflag FLAG_WORLD_MAP_VERMILION_CITY
 	call_if_set FLAG_TALKED_TO_OAKS_AIDE_IN_VERMILION, VermilionCity_EventScript_HideOaksAide
 	end
@@ -263,4 +265,8 @@ VermilionCity_EventScript_GymSign::
 
 VermilionCity_EventScript_HarborSign::
 	msgbox VermilionCity_Text_VermilionHarbor, MSGBOX_SIGN
+	end
+
+Philosovni_QuayOnLoad::
+	special PhilosovniRefreshQuay
 	end

@@ -1,3 +1,4 @@
+#include "philosovni.h"
 #include "global.h"
 #include "lavanville.h"
 #include "gflib.h"
@@ -441,7 +442,9 @@ static void LoadSaveblockObjEventScripts(void)
     const struct ObjectEventTemplate * src = gMapHeader.events->objectEvents;
     struct ObjectEventTemplate * savObjTemplates = gSaveBlock1Ptr->objectEventTemplates;
 
-    if (LavanvilleNeedsTemplateRefresh())
+    if (PhilosovniNeedsTemplateRefresh()) PhilosovniSyncActors();
+
+    if (LavanvilleNeedsTemplateRefresh() || PhilosovniNeedsTemplateRefresh())
     {
         CpuFill16(0, savObjTemplates, sizeof(gSaveBlock1Ptr->objectEventTemplates));
         LoadObjEventTemplatesFromHeader();
@@ -2176,7 +2179,7 @@ static void InitObjectEventsLocal(void)
 static void ReloadObjectsAndRunReturnToFieldMapScript(void)
 {
     SpawnObjectEventsOnReturnToField(0, 0);
-    if (LavanvilleNeedsTemplateRefresh()
+    if (LavanvilleNeedsTemplateRefresh() || PhilosovniNeedsTemplateRefresh()
      || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROCKET_HIDEOUT_B4F)
       && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROCKET_HIDEOUT_B4F)))
         TrySpawnObjectEvents(0, 0);

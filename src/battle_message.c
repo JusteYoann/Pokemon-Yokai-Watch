@@ -1,3 +1,4 @@
+#include "philosovni.h"
 #include "yokai_champions.h"
 #include "global.h"
 #include "spiraton_battle.h"
@@ -1542,6 +1543,9 @@ static const u16 sGrammarMoveUsedTable[] =
     MOVE_NONE
 };
 
+static const u8 sPhilosovniIntro[] = _("Les deux sbires Mafiamille\nvous défient !");
+static const u8 sPhilosovniSend[] = _("Ariane envoie USAPYON !\nÀ toi, {B_PLAYER_MON1_NAME} !");
+
 void BufferStringBattle(u16 stringId)
 {
     s32 i;
@@ -1567,6 +1571,18 @@ void BufferStringBattle(u16 stringId)
         gBattleTextBuff3[i] = sBattleMsgDataPtr->textBuffs[2][i];
     }
 
+    if (gBattleTypeFlags & BATTLE_TYPE_SCRIPTED_PARTNER)
+    {
+        if (stringId == STRINGID_INTROMSG)
+            stringPtr = sPhilosovniIntro;
+        else if (stringId == STRINGID_INTROSENDOUT && GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER)
+            stringPtr = sPhilosovniSend;
+        if (stringPtr != NULL)
+        {
+            BattleStringExpandPlaceholdersToDisplayedString(stringPtr);
+            return;
+        }
+    }
     switch (stringId)
     {
     case STRINGID_INTROMSG: // first battle msg

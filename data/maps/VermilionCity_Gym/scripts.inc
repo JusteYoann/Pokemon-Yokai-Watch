@@ -40,6 +40,7 @@ VermilionCity_Gym_EventScript_SetBeamsOff::
 	return
 
 VermilionCity_Gym_OnTransition::
+	special PhilosovniSyncActors
 	call VermilionCity_Gym_EventScript_InitTrashCans
 	end
 

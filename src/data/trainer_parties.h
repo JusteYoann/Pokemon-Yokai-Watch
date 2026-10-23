@@ -13973,3 +13973,11 @@ static const struct TrainerMonItemCustomMoves sLavenderSummit3[] = {
     {.iv = 80, .lvl = 28, .species = SPECIES_KANGASKHAN, .heldItem = ITEM_NONE, .moves = {MOVE_FAKE_TEARS, MOVE_CONFUSE_RAY, MOVE_NIGHT_SHADE, MOVE_SPITE}},
     {.iv = 80, .lvl = 28, .species = SPECIES_NIDORAN_M, .heldItem = ITEM_NONE, .moves = {MOVE_DISABLE, MOVE_NIGHT_SHADE, MOVE_SPITE, MOVE_CURSE}},
 };
+
+// One independently active Yo-kai per warehouse grunt.
+static const struct TrainerMonItemCustomMoves sParty_PhilosovniDuo[] = {
+    { .iv = 100, .lvl = 18, .species = SPECIES_BELLSPROUT, .heldItem = ITEM_NONE,
+      .moves = {MOVE_BITE, MOVE_SCRATCH, MOVE_LEER, MOVE_NONE} },
+    { .iv = 100, .lvl = 19, .species = SPECIES_NIDORAN_M, .heldItem = ITEM_NONE,
+      .moves = {MOVE_EMBER, MOVE_SMOG, MOVE_LEER, MOVE_NONE} },
+};

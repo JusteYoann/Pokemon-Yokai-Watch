@@ -4398,6 +4398,18 @@
       "secondary_tileset": "gTileset_MtEmber",
       "border_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa/border.bin",
       "blockdata_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERMILION_CITY_PHILOSOVNI_WAREHOUSE",
+      "name": "VermilionCity_PhilosovniWarehouse_Layout",
+      "width": 14,
+      "height": 12,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_SilphCo",
+      "border_filepath": "data/layouts/VermilionCity_PhilosovniWarehouse/border.bin",
+      "blockdata_filepath": "data/layouts/VermilionCity_PhilosovniWarehouse/map.bin"
     }
   ]
 }

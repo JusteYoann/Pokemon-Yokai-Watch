@@ -2,6 +2,11 @@ PewterCity_Gym_MapScripts::
 	.byte 0
 
 PewterCity_Gym_EventScript_Brock::
+	lock
+	faceplayer
+	goto_if_set FLAG_BADGE01_GET, Philosovni_Wyatt_Normal
+	call_if_set FLAG_ARGENTA_MORLEONE_DONE, Philosovni_Wyatt_Concern
+Philosovni_Wyatt_Normal::
 	famechecker FAMECHECKER_BROCK, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
 	trainerbattle_single TRAINER_LEADER_BROCK, PewterCity_Gym_Text_BrockIntro, PewterCity_Gym_Text_BrockDefeat, PewterCity_Gym_EventScript_DefeatedBrock, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM39_FROM_BROCK, PewterCity_Gym_EventScript_GiveTM39
@@ -10,6 +15,7 @@ PewterCity_Gym_EventScript_Brock::
 	end
 
 PewterCity_Gym_EventScript_DefeatedBrock::
+	call_if_set FLAG_PHILOSOVNI_WYATT_DONE, Philosovni_Wyatt_After
 	famechecker FAMECHECKER_BROCK, 1
 	setflag FLAG_DEFEATED_BROCK
 	setflag FLAG_BADGE01_GET

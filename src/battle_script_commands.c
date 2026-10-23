@@ -1,3 +1,4 @@
+#include "philosovni.h"
 #include "yokai_champions.h"
 #include "global.h"
 #include "lavanville.h"
@@ -3399,6 +3400,8 @@ static void Cmd_checkteamslost(void)
             HP_count += GetMonData(&gPlayerParty[i], MON_DATA_HP);
         }
     }
+    if (gBattleTypeFlags & BATTLE_TYPE_SCRIPTED_PARTNER)
+        HP_count += GetMonData(&gPlayerParty[PARTY_SIZE], MON_DATA_HP);
     if (HP_count == 0)
         gBattleOutcome |= B_OUTCOME_LOST;
     HP_count = 0;
@@ -4547,6 +4550,10 @@ static void Cmd_jumpifcantswitch(void)
     if (!(gBattlescriptCurrInstr[1] & SWITCH_IGNORE_ESCAPE_PREVENTION)
         && ((gBattleMons[gActiveBattler].status2 & (STATUS2_WRAPPED | STATUS2_ESCAPE_PREVENTION))
             || (gStatuses3[gActiveBattler] & STATUS3_ROOTED)))
+    {
+        gBattlescriptCurrInstr = T1_READ_PTR(gBattlescriptCurrInstr + 2);
+    }
+    else if (PhilosovniIsPartner(gActiveBattler))
     {
         gBattlescriptCurrInstr = T1_READ_PTR(gBattlescriptCurrInstr + 2);
     }
@@ -6928,6 +6935,11 @@ static void Cmd_forcerandomswitch(void)
         u8 valid;
         u8 val;
 
+        if (PhilosovniIsPartner(gBattlerTarget))
+        {
+            gBattlescriptCurrInstr = T1_READ_PTR(gBattlescriptCurrInstr + 1);
+            return;
+        }
         if (GetBattlerSide(gBattlerTarget) == B_SIDE_PLAYER)
             party = gPlayerParty;
         else

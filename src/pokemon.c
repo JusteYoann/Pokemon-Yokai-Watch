@@ -60,7 +60,7 @@ static EWRAM_DATA u8 sYokaiLearningPhase = 0;
 EWRAM_DATA u8 gPlayerPartyCount = 0;
 EWRAM_DATA u8 gEnemyPartyCount = 0;
 EWRAM_DATA struct Pokemon gEnemyParty[PARTY_SIZE] = {};
-EWRAM_DATA struct Pokemon gPlayerParty[PARTY_SIZE] = {};
+EWRAM_DATA struct Pokemon gPlayerParty[PARTY_SIZE + 1] = {};
 EWRAM_DATA struct SpriteTemplate gMultiuseSpriteTemplate = {0};
 static EWRAM_DATA struct MonSpritesGfxManager *sMonSpritesGfxManager = NULL;
 

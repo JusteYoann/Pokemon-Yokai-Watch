@@ -1,3 +1,4 @@
+#include "philosovni.h"
 #include "global.h"
 #include "gflib.h"
 #include "battle.h"
@@ -6001,7 +6002,7 @@ static void BufferBattlePartyOrder(u8 *partyBattleOrder, u8 flankId)
         }
         return;
     }
-    else if (IsDoubleBattle() == FALSE)
+    else if (IsDoubleBattle() == FALSE || (gBattleTypeFlags & BATTLE_TYPE_SCRIPTED_PARTNER))
     {
         j = 1;
         partyIds[0] = gBattlerPartyIndexes[GetBattlerAtPosition(B_POSITION_PLAYER_LEFT)];
@@ -6071,7 +6072,7 @@ static void BufferBattlePartyOrderBySide(u8 *partyBattleOrder, u8 flankId, u8 ba
         }
         return;
     }
-    else if (IsDoubleBattle() == FALSE)
+    else if (IsDoubleBattle() == FALSE || ((gBattleTypeFlags & BATTLE_TYPE_SCRIPTED_PARTNER) && GetBattlerSide(battlerId) == B_SIDE_PLAYER))
     {
         j = 1;
         partyIndexes[0] = gBattlerPartyIndexes[leftBattler];
@@ -6193,10 +6194,10 @@ u8 GetPartyIdFromBattlePartyId(u8 battlePartyId)
 
 static void UpdatePartyToBattleOrder(void)
 {
-    struct Pokemon *partyBuffer = Alloc(sizeof(gPlayerParty));
+    struct Pokemon *partyBuffer = Alloc((PARTY_SIZE * sizeof(struct Pokemon)));
     u8 i;
 
-    memcpy(partyBuffer, gPlayerParty, sizeof(gPlayerParty));
+    memcpy(partyBuffer, gPlayerParty, (PARTY_SIZE * sizeof(struct Pokemon)));
     for (i = 0; i < PARTY_SIZE; ++i)
         memcpy(&gPlayerParty[GetPartyIdFromBattlePartyId(i)], &partyBuffer[i], sizeof(struct Pokemon));
     Free(partyBuffer);
@@ -6204,10 +6205,10 @@ static void UpdatePartyToBattleOrder(void)
 
 static void UpdatePartyToFieldOrder(void)
 {
-    struct Pokemon *partyBuffer = Alloc(sizeof(gPlayerParty));
+    struct Pokemon *partyBuffer = Alloc((PARTY_SIZE * sizeof(struct Pokemon)));
     u8 i;
 
-    memcpy(partyBuffer, gPlayerParty, sizeof(gPlayerParty));
+    memcpy(partyBuffer, gPlayerParty, (PARTY_SIZE * sizeof(struct Pokemon)));
     for (i = 0; i < PARTY_SIZE; ++i)
         memcpy(&gPlayerParty[GetPartyIdFromBattleSlot(i)], &partyBuffer[i], sizeof(struct Pokemon));
     Free(partyBuffer);

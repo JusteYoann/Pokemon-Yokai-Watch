@@ -1,0 +1,141 @@
+{
+  "id": "MAP_VERMILION_CITY_PHILOSOVNI_WAREHOUSE",
+  "name": "VermilionCity_PhilosovniWarehouse",
+  "layout": "LAYOUT_VERMILION_CITY_PHILOSOVNI_WAREHOUSE",
+  "music": "MUS_YOKAI_DODGY",
+  "region_map_section": "MAPSEC_VERMILION_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_INDOOR_2",
+  "connections": null,
+  "object_events": [
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_ARIANE",
+      "x": 4,
+      "y": 7,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Philosovni_WarehouseAriane",
+      "flag": "FLAG_PHILOSOVNI_HIDE_COMPANIONS"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_USAPION_CAMEO",
+      "x": 3,
+      "y": 7,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Philosovni_Usapion",
+      "flag": "FLAG_PHILOSOVNI_HIDE_COMPANIONS"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_YOKAI_MAFIAMILLE1",
+      "x": 6,
+      "y": 3,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Philosovni_Grunt",
+      "flag": "FLAG_PHILOSOVNI_HIDE_GRUNTS"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_YOKAI_MAFIAMILLE2",
+      "x": 8,
+      "y": 3,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Philosovni_Grunt",
+      "flag": "FLAG_PHILOSOVNI_HIDE_GRUNTS"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 6,
+      "y": 10,
+      "elevation": 3,
+      "dest_map": "MAP_VERMILION_CITY",
+      "dest_warp_id": "10"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_PHILOSOVNI_STATE",
+      "var_value": "1",
+      "script": "Philosovni_Overhear"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_PHILOSOVNI_STATE",
+      "var_value": "1",
+      "script": "Philosovni_Overhear"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_PHILOSOVNI_STATE",
+      "var_value": "1",
+      "script": "Philosovni_Overhear"
+    },
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_PHILOSOVNI_STATE",
+      "var_value": "1",
+      "script": "Philosovni_Overhear"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_PHILOSOVNI_STATE",
+      "var_value": "1",
+      "script": "Philosovni_Overhear"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_PHILOSOVNI_STATE",
+      "var_value": "1",
+      "script": "Philosovni_Overhear"
+    }
+  ],
+  "bg_events": []
+}

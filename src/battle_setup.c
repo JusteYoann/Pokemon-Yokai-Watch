@@ -895,6 +895,16 @@ void StartTrainerBattle(void)
     ScriptContext_Stop();
 }
 
+void BattleSetup_StartPartnerBattle(void)
+{
+    // Do not inherit a previous rival/tutorial encounter configuration.
+    sTrainerBattleMode = TRAINER_BATTLE_SINGLE;
+    sTrainerAIntroSpeech = NULL;
+    sTrainerADefeatSpeech = NULL;
+    sTrainerVictorySpeech = NULL;
+    DoTrainerBattle();
+}
+
 static void CB2_EndTrainerBattle(void)
 {
     if (sTrainerBattleMode == TRAINER_BATTLE_EARLY_RIVAL)
@@ -1047,9 +1057,11 @@ static const u8 *GetIntroSpeechOfApproachingTrainer(void)
     return ReturnEmptyStringIfNull(sTrainerAIntroSpeech);
 }
 
+static const u8 sPhilosovniDefeat[] = _("On décampe !");
+
 const u8 *GetTrainerALoseText(void)
 {
-    const u8 *string = sTrainerADefeatSpeech;
+    const u8 *string = (gBattleTypeFlags & BATTLE_TYPE_SCRIPTED_PARTNER) ? sPhilosovniDefeat : sTrainerADefeatSpeech;
 
     StringExpandPlaceholders(gStringVar4, ReturnEmptyStringIfNull(string));
     return gStringVar4;

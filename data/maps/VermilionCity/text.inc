@@ -1,8 +1,8 @@
 VermilionCity_Text_GrimerMultipliesInSludge::
-    .string "Nous faisons attention\nà la pollution, ici.\pLes boues toxiques sont mauvaises\npour les habitants comme les Yo-kai.$"
+    .string "Un OVNI à Carmin-sur-Mer ?\nQuelle histoire !\pMoi, je penche plutôt pour\nune météorite.$"
 
 VermilionCity_Text_DidYouSeeSSAnneInHarbor::
-    .string "Tu as vu le S.S. ANNE\namarré dans le port?$"
+    .string "Une lumière est tombée du ciel,\nil y a quelques jours !\pUn vaisseau ? Un caillou ?\nPersonne n'est d'accord.$"
 
 VermilionCity_Text_SSAnneHasDepartedForYear::
     .string "Alors, le S.S. ANNE est reparti?\pIl reviendra à VERMILION CITY\nvers la même date l'an prochain.$"
@@ -17,7 +17,7 @@ VermilionCity_Text_MachopStompingLandFlat::
     .string "Sirénée tasse le sol.$"
 
 VermilionCity_Text_SSAnneVisitsOnceAYear::
-    .string "Le S.S. ANNE est un célèbre\npaquebot de luxe.\pIl vient à VERMILION CITY\nune fois par an.$"
+    .string "J'te jure, j'ai vu une lumière\ntomber du ciel, près du port !\pDepuis cet accident, il s'y\npasse de drôles de choses...$"
 
 VermilionCity_Text_CitySign::
     .string "VERMILION CITY\nLe port aux couchers de soleil\lsublimes$"

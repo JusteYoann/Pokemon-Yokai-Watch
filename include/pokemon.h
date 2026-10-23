@@ -283,7 +283,7 @@ struct Evolution
 
 extern const struct BattleMove gBattleMoves[];
 extern u8 gPlayerPartyCount;
-extern struct Pokemon gPlayerParty[PARTY_SIZE];
+extern struct Pokemon gPlayerParty[PARTY_SIZE + 1];
 extern u8 gEnemyPartyCount;
 extern struct Pokemon gEnemyParty[PARTY_SIZE];
 extern const struct SpeciesInfo gSpeciesInfo[];

@@ -1,3 +1,4 @@
+#include "philosovni.h"
 #include "global.h"
 #include "spiraton_battle.h"
 #include "item.h"
@@ -1548,6 +1549,8 @@ bool8 HasNoMonsToSwitch(u8 battler, u8 partyIdBattlerOn1, u8 partyIdBattlerOn2)
     u8 playerId, flankId;
     struct Pokemon *party;
     s32 i;
+
+    if (PhilosovniIsPartner(battler)) return TRUE;
 
     if (!(gBattleTypeFlags & BATTLE_TYPE_DOUBLE))
         return FALSE;

@@ -1,3 +1,4 @@
+#include "philosovni.h"
 #include "global.h"
 #include "gflib.h"
 #include "data.h"
@@ -2412,6 +2413,12 @@ static void HandleChooseActionAfterDma3(void)
 static void PlayerHandleChooseAction(void)
 {
     s32 i;
+    if (PhilosovniIsPartner(gActiveBattler))
+    {
+        BtlController_EmitTwoReturnValues(BUFFER_B, B_ACTION_USE_MOVE, 0);
+        PlayerBufferExecCompleted();
+        return;
+    }
 
     gBattlerControllerFuncs[gActiveBattler] = HandleChooseActionAfterDma3;
     BattlePutTextOnWindow(gText_EmptyString3, B_WIN_MSG);
@@ -2439,6 +2446,12 @@ static void HandleChooseMoveAfterDma3(void)
 
 static void PlayerHandleChooseMove(void)
 {
+    if (PhilosovniIsPartner(gActiveBattler))
+    {
+        BtlController_EmitTwoReturnValues(BUFFER_B, 10, PhilosovniPartnerMove() | (PhilosovniPartnerTarget() << 8));
+        PlayerBufferExecCompleted();
+        return;
+    }
     InitMoveSelectionsVarsAndStrings();
     gBattlerControllerFuncs[gActiveBattler] = HandleChooseMoveAfterDma3;
 }

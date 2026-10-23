@@ -30,6 +30,7 @@ static void OpponentHandleSetRawMonData(void);
 static void OpponentHandleLoadMonSprite(void);
 static void OpponentHandleSwitchInAnim(void);
 static void OpponentHandleReturnMonToBall(void);
+static EWRAM_DATA u8 sPhilosovniSecondGrunt = 0;
 static void OpponentHandleDrawTrainerPic(void);
 static void OpponentHandleTrainerSlide(void);
 static void OpponentHandleTrainerSlideBack(void);
@@ -1148,6 +1149,20 @@ static void OpponentHandleDrawTrainerPic(void)
     gSprites[gBattlerSpriteIds[gActiveBattler]].oam.tileNum = GetSpriteTileStartByTag(gTrainerFrontPicTable[trainerPicId].tag);
     gSprites[gBattlerSpriteIds[gActiveBattler]].oam.affineParam = trainerPicId;
     gSprites[gBattlerSpriteIds[gActiveBattler]].callback = SpriteCB_TrainerSlideIn;
+    if (gBattleTypeFlags & BATTLE_TYPE_SCRIPTED_PARTNER)
+    {
+        u8 original = gBattlerSpriteIds[gActiveBattler];
+        u8 clone = CreateSprite(&gMultiuseSpriteTemplate, 144, 40, GetBattlerSpriteSubpriority(gActiveBattler));
+        sPhilosovniSecondGrunt = clone;
+        gSprites[original].x = 200;
+        if (clone != MAX_SPRITES)
+        {
+            gSprites[clone].oam = gSprites[original].oam;
+            gSprites[clone].x2 = -DISPLAY_WIDTH;
+            gSprites[clone].data[0] = 2;
+            gSprites[clone].callback = SpriteCB_TrainerSlideIn;
+        }
+    }
     gBattlerControllerFuncs[gActiveBattler] = CompleteOnBattlerSpriteCallbackDummy;
 }
 
@@ -1630,6 +1645,11 @@ static void OpponentHandleIntroTrainerBallThrow(void)
 {
     u8 paletteNum;
     u8 taskId;
+    if ((gBattleTypeFlags & BATTLE_TYPE_SCRIPTED_PARTNER) && sPhilosovniSecondGrunt != MAX_SPRITES)
+    {
+        DestroySprite(&gSprites[sPhilosovniSecondGrunt]);
+        sPhilosovniSecondGrunt = MAX_SPRITES;
+    }
 
     SetSpritePrimaryCoordsFromSecondaryCoords(&gSprites[gBattlerSpriteIds[gActiveBattler]]);
     gSprites[gBattlerSpriteIds[gActiveBattler]].data[0] = 35;

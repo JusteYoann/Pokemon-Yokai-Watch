@@ -1626,7 +1626,8 @@ static void LoadAlyzonObjectPalette(const struct ObjectEventGraphicsInfo *graphi
     // in body bank4, Nathan0, Matt6 and Don10 unchanged. No saved palette state.
     if (graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_YOKAI_ALYZON
         || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_LAVENDER_ZOMBIE
-        || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_YOKAI_BERENICE)
+        || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_YOKAI_BERENICE
+        || (graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_ARIANE && graphicsInfo->paletteSlot == PALSLOT_NPC_2_REFLECTION))
         PatchObjectPalette(graphicsInfo->paletteTag, graphicsInfo->paletteSlot);
 }
 
@@ -2156,6 +2157,12 @@ const struct ObjectEventGraphicsInfo *GetObjectEventGraphicsInfo(u8 graphicsId)
     if (graphicsId >= OBJ_EVENT_GFX_VARS)
         graphicsId = VarGetObjectEventGraphicsId(graphicsId - OBJ_EVENT_GFX_VARS);
     
+    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_VERMILION_CITY_PHILOSOVNI_WAREHOUSE)
+     && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_VERMILION_CITY_PHILOSOVNI_WAREHOUSE))
+    {
+        if (graphicsId == OBJ_EVENT_GFX_ARIANE) return &gObjectEventGraphicsInfo_PhilosovniAriane;
+        if (graphicsId == OBJ_EVENT_GFX_USAPION_CAMEO) return &gObjectEventGraphicsInfo_PhilosovniUsapion;
+    }
     graphicsId = YokaiChampionObjectGfx(graphicsId);
     if (graphicsId >= NUM_OBJ_EVENT_GFX)
         graphicsId = OBJ_EVENT_GFX_LITTLE_BOY;

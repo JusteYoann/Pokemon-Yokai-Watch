@@ -361,3 +361,6 @@
 
 // Four errant variants occupy otherwise-unused upper flag bits (21..22).
 #define BATTLE_TYPE_LAVENDER_ZOMBIE (1 << 20)
+
+// Isolated local AI partner; not a link battle, not a Lavender zombie.
+#define BATTLE_TYPE_SCRIPTED_PARTNER (1 << 23)

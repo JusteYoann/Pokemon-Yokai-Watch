@@ -204,7 +204,7 @@ void ReducePlayerPartyToThree(void)
         if (gSelectedOrderFromParty[i]) // as long as the order keeps going (did the player select 1 mon? 2? 3?), do not stop
             party[i] = gPlayerParty[gSelectedOrderFromParty[i] - 1]; // index is 0 based, not literal
 
-    CpuFill32(0, gPlayerParty, sizeof gPlayerParty);
+    CpuFill32(0, gPlayerParty, (PARTY_SIZE * sizeof(struct Pokemon)));
 
     // overwrite the first 3 with the order copied to.
     for (i = 0; i < 3; i++)

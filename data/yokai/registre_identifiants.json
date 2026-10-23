@@ -1,6 +1,7 @@
 {
   "vars": {
-    "VAR_YOKAI_JIBANYAN_GIFTS": "0x40F2"
+    "VAR_YOKAI_JIBANYAN_GIFTS": "0x40F2",
+    "VAR_PHILOSOVNI_STATE": "0x40F4"
   },
   "flags": {
     "FLAG_YOKAI_ARIANE_WON": "0x300",
@@ -32,7 +33,13 @@
     "FLAG_YOKAI_MAFIA2_WON": "0x31a",
     "FLAG_YOKAI_MAFIA3_WON": "0x31b",
     "FLAG_YOKAI_MORLEONE_WON": "0x31c",
-    "FLAG_YOKAI_MORLEONE_REWARD": "0x31d"
+    "FLAG_YOKAI_MORLEONE_REWARD": "0x31d",
+    "FLAG_PHILOSOVNI_WYATT_DONE": "0x326",
+    "FLAG_PHILOSOVNI_HIDE_CITY": "0x327",
+    "FLAG_PHILOSOVNI_HIDE_GYM": "0x328",
+    "FLAG_PHILOSOVNI_HIDE_GRUNTS": "0x329",
+    "FLAG_PHILOSOVNI_HIDE_COMPANIONS": "0x32a",
+    "FLAG_PHILOSOVNI_CAPTAIN_HELPED": "0x32b"
   },
   "trainer_slots": {
     "TRAINER_YOKAI_ARIANE": 1,
@@ -56,7 +63,8 @@
     "TRAINER_YOKAI_MAFIAMILLE2": 19,
     "TRAINER_YOKAI_MAFIAMILLE3": 20,
     "TRAINER_DON_MORLEONE_LEAGUE": 743,
-    "TRAINER_DON_SPIRATON_PROTOTYPE": 744
+    "TRAINER_DON_SPIRATON_PROTOTYPE": 744,
+    "TRAINER_PHILOSOVNI_DUO": 745
   },
   "trainer_slot_policy": "Unused Ruby/Sapphire placeholders, no previous map reference, no save-layout expansion",
   "graphics": {
@@ -113,5 +121,13 @@
   "field_placeholders": {
     "CHAMPION_AZURIA": "0x0E",
     "CHAMPION_CRAMOIS": "0x0F"
+  },
+  "scripted_partner_battle": {
+    "flag": "0x00800000",
+    "player_party_size": 6,
+    "temporary_usapion_slot": 6,
+    "saved_party_size": 6,
+    "warehouse_ariane_palette_bank": 7,
+    "new_map_appended_to": "gMapGroup_IndoorVermilion"
   }
 }

@@ -3295,3 +3295,33 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiBerenice = {
     .anims = sAnimTable_Standard, .images = sPicTable_YokaiBerenice,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
+
+// Warehouse-only palette allocation; validated pixels/palettes are reused verbatim.
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PhilosovniAriane = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_ARIANE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_2_REFLECTION,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .disableReflectionPaletteLoad = TRUE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = gObjectEventSpriteOamTables_16x32,
+    .anims = sAnimTable_Ariane,
+    .images = sPicTable_Ariane,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PhilosovniUsapion = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_ARIANE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32,
+    .paletteSlot = PALSLOT_NPC_2_REFLECTION, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = TRUE, .disableReflectionPaletteLoad = TRUE, .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_32x32, .subspriteTables = gObjectEventSpriteOamTables_32x32,
+    .anims = sAnimTable_Inanimate, .images = sPicTable_UsapionCameo,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};

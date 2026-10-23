@@ -459,4 +459,8 @@ gSpecials::
 	def_special LavanvillePrepareIntro
 	def_special LavanvilleIntroDepart
 	def_special LavanvilleRematchReady
+	def_special PhilosovniStartDuo
+	def_special PhilosovniSyncActors
+	def_special PhilosovniRefreshHM
+	def_special PhilosovniRefreshQuay
 gSpecialsEnd::
