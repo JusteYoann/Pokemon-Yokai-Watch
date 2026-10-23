@@ -177,6 +177,7 @@
 #define TRAINER_PIC_YOKAI_MAFIAMILLE1 157
 #define TRAINER_PIC_YOKAI_MAFIAMILLE2 158
 #define TRAINER_PIC_YOKAI_MAFIAMILLE3 159
+#define TRAINER_PIC_YOKAI_ALYZON 160
 #define TRAINER_PIC_YOKAI_ENMA            149
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)

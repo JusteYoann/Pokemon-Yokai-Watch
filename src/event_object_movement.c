@@ -479,6 +479,7 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 #define OBJ_EVENT_PAL_TAG_YOKAI_OCTORGONE 0x1128
 #define OBJ_EVENT_PAL_TAG_YOKAI_MADEMOAISELLE 0x1129
 #define OBJ_EVENT_PAL_TAG_YOKAI_LEO_JIBANYAN 0x112A
+#define OBJ_EVENT_PAL_TAG_YOKAI_ALYZON 0x112B
 #define OBJ_EVENT_PAL_TAG_YOKAI_ENMA_CREATURE 0x1126
 #define OBJ_EVENT_PAL_TAG_YOKAI_ENMA                  0x111E
 #define OBJ_EVENT_PAL_TAG_ARIANE                      0x111D
@@ -494,6 +495,7 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 #include "data/object_events/object_event_graphics_info.h"
 
 static const struct SpritePalette sObjectEventSpritePalettes[] = {
+    {gObjectEventPal_YokaiAlyzon, OBJ_EVENT_PAL_TAG_YOKAI_ALYZON},
     {gObjectEventPal_Player, OBJ_EVENT_PAL_TAG_YOKAI_FRIEND},
     {gObjectEventPal_YokaiNathaniel, OBJ_EVENT_PAL_TAG_YOKAI_NATHANIEL},
     {gObjectEventPal_YokaiMichael, OBJ_EVENT_PAL_TAG_YOKAI_MICHAEL},
@@ -1613,6 +1615,14 @@ void Unref_RemoveAllObjectEventsExceptPlayer(void)
     }
 }
 
+static void LoadAlyzonObjectPalette(const struct ObjectEventGraphicsInfo *graphicsInfo)
+{
+    // Keep her palette separate from Nathan (0), Matt's scene palette (6),
+    // and special NPCs such as Don (10). No extra persistent state is needed.
+    if (graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_YOKAI_ALYZON)
+        PatchObjectPalette(graphicsInfo->paletteTag, graphicsInfo->paletteSlot);
+}
+
 // These scenes show Matt and Don together. Keep the same separate palette
 // both at initial spawn and when the overworld sprites are rebuilt after battle.
 static bool8 ObjectUsesMattScenePalette(const struct ObjectEvent *objectEvent, u16 graphicsId)
@@ -1638,6 +1648,7 @@ static u8 TrySetupObjectEventSprite(const struct ObjectEventTemplate *objectEven
 
     objectEvent = &gObjectEvents[objectEventId];
     graphicsInfo = GetObjectEventGraphicsInfo(objectEvent->graphicsId);
+    LoadAlyzonObjectPalette(graphicsInfo);
     separateMattPalette = ObjectUsesMattScenePalette(objectEvent, objectEvent->graphicsId);
     paletteSlot = separateMattPalette ? PALSLOT_NPC_1_REFLECTION : graphicsInfo->paletteSlot;
     if (separateMattPalette)
@@ -1807,6 +1818,7 @@ u8 CreateVirtualObject(u8 graphicsId, u8 virtualObjId, s16 x, s16 y, u8 elevatio
     const struct ObjectEventGraphicsInfo *graphicsInfo;
 
     graphicsInfo = GetObjectEventGraphicsInfo(graphicsId);
+    LoadAlyzonObjectPalette(graphicsInfo);
     CopyObjectGraphicsInfoToSpriteTemplate(graphicsId, SpriteCB_VirtualObject, &spriteTemplate, &subspriteTables);
     *(u16 *)&spriteTemplate.paletteTag = TAG_NONE;
     x += MAP_OFFSET;
@@ -1847,6 +1859,7 @@ u8 CreateFameCheckerObject(u8 graphicsId, u8 localId, s16 x, s16 y)
     const struct ObjectEventGraphicsInfo *graphicsInfo;
 
     graphicsInfo = GetObjectEventGraphicsInfo(graphicsId);
+    LoadAlyzonObjectPalette(graphicsInfo);
     CopyObjectGraphicsInfoToSpriteTemplate(graphicsId, SpriteCallbackDummy, &spriteTemplate, &subspriteTables);
     *(u16 *)&spriteTemplate.paletteTag = TAG_NONE;
 
@@ -1973,6 +1986,7 @@ static void SpawnObjectEventOnReturnToField(u8 objectEventId, s16 x, s16 y)
     objectEvent++;objectEvent--; // fakematch
     subspriteTables = NULL;
     graphicsInfo = GetObjectEventGraphicsInfo(objectEvent->graphicsId);
+    LoadAlyzonObjectPalette(graphicsInfo);
     separateMattPalette = ObjectUsesMattScenePalette(objectEvent, objectEvent->graphicsId);
     paletteSlot = separateMattPalette ? PALSLOT_NPC_1_REFLECTION : graphicsInfo->paletteSlot;
     spriteFrameImage.size = graphicsInfo->size;
@@ -2050,6 +2064,7 @@ void ObjectEventSetGraphicsId(struct ObjectEvent *objectEvent, u8 graphicsId)
     bool8 separateMattPalette;
 
     graphicsInfo = GetObjectEventGraphicsInfo(graphicsId);
+    LoadAlyzonObjectPalette(graphicsInfo);
     separateMattPalette = ObjectUsesMattScenePalette(objectEvent, graphicsId);
     paletteSlot = separateMattPalette ? PALSLOT_NPC_1_REFLECTION : graphicsInfo->paletteSlot;
     sprite = &gSprites[objectEvent->spriteId];
@@ -2766,6 +2781,15 @@ void InitObjectEventPalettes(u8 palSlot)
 u16 GetObjectPaletteTag(u8 palSlot)
 {
     u8 i;
+
+    if (palSlot == PALSLOT_NPC_2_REFLECTION)
+    {
+        for (i = 0; i < OBJECT_EVENTS_COUNT; i++)
+        {
+            if (gObjectEvents[i].active && gObjectEvents[i].graphicsId == OBJ_EVENT_GFX_YOKAI_ALYZON)
+                return OBJ_EVENT_PAL_TAG_YOKAI_ALYZON;
+        }
+    }
 
     if (palSlot < 10)
     {

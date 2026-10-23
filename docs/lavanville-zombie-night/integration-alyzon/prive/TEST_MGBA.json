@@ -1,0 +1,219 @@
+{
+  "passed": true,
+  "mode": "prive",
+  "engine": "mGBA libretro",
+  "rom": "pokefirered_audio.gba",
+  "rom_sha256": "e946fe6eee249b3e5a00087cb8b85bae5e1423effc44628951d7f028b41844ff",
+  "rom_size": 31659467,
+  "resources_from_rom": true,
+  "no_graphics_or_palette_ram_override": true,
+  "tests": [
+    {
+      "test": "Compiled registered assets",
+      "passed": true,
+      "ow_bytes": 2304,
+      "ow_id": 173,
+      "portrait_id": 160
+    },
+    {
+      "test": "Native held walk with registered ROM images",
+      "direction": "face",
+      "step": 1,
+      "arrived": [
+        13,
+        9
+      ],
+      "source_frames_seen": [
+        0,
+        3
+      ],
+      "passed": true
+    },
+    {
+      "test": "Native held walk with registered ROM images",
+      "direction": "face",
+      "step": 2,
+      "arrived": [
+        13,
+        10
+      ],
+      "source_frames_seen": [
+        0,
+        4
+      ],
+      "passed": true
+    },
+    {
+      "test": "Native held walk with registered ROM images",
+      "direction": "face",
+      "step": 3,
+      "arrived": [
+        13,
+        11
+      ],
+      "source_frames_seen": [
+        0,
+        3
+      ],
+      "passed": true
+    },
+    {
+      "test": "Native held walk with registered ROM images",
+      "direction": "dos",
+      "step": 1,
+      "arrived": [
+        13,
+        7
+      ],
+      "source_frames_seen": [
+        1,
+        5
+      ],
+      "passed": true
+    },
+    {
+      "test": "Native held walk with registered ROM images",
+      "direction": "dos",
+      "step": 2,
+      "arrived": [
+        13,
+        6
+      ],
+      "source_frames_seen": [
+        1,
+        6
+      ],
+      "passed": true
+    },
+    {
+      "test": "Native held walk with registered ROM images",
+      "direction": "dos",
+      "step": 3,
+      "arrived": [
+        13,
+        5
+      ],
+      "source_frames_seen": [
+        1,
+        5
+      ],
+      "passed": true
+    },
+    {
+      "test": "Native held walk with registered ROM images",
+      "direction": "gauche",
+      "step": 1,
+      "arrived": [
+        12,
+        8
+      ],
+      "source_frames_seen": [
+        2,
+        7
+      ],
+      "passed": true
+    },
+    {
+      "test": "Native held walk with registered ROM images",
+      "direction": "gauche",
+      "step": 2,
+      "arrived": [
+        11,
+        8
+      ],
+      "source_frames_seen": [
+        2,
+        8
+      ],
+      "passed": true
+    },
+    {
+      "test": "Native held walk with registered ROM images",
+      "direction": "gauche",
+      "step": 3,
+      "arrived": [
+        10,
+        8
+      ],
+      "source_frames_seen": [
+        2,
+        7
+      ],
+      "passed": true
+    },
+    {
+      "test": "Native held walk with registered ROM images",
+      "direction": "droite",
+      "step": 1,
+      "arrived": [
+        14,
+        8
+      ],
+      "source_frames_seen": [
+        2,
+        7
+      ],
+      "passed": true
+    },
+    {
+      "test": "Native held walk with registered ROM images",
+      "direction": "droite",
+      "step": 2,
+      "arrived": [
+        15,
+        8
+      ],
+      "source_frames_seen": [
+        2,
+        8
+      ],
+      "passed": true
+    },
+    {
+      "test": "Native held walk with registered ROM images",
+      "direction": "droite",
+      "step": 3,
+      "arrived": [
+        16,
+        8
+      ],
+      "source_frames_seen": [
+        2,
+        7
+      ],
+      "passed": true
+    },
+    {
+      "test": "Native graphics ID change back to Alyzon",
+      "passed": true
+    },
+    {
+      "test": "Native return-to-field sprite rebuild",
+      "passed": true
+    },
+    {
+      "test": "Native virtual object factory and palette",
+      "passed": true
+    },
+    {
+      "test": "Alyzon/Matt/Don palettes and Alyzon reload preserve all three actors",
+      "passed": true,
+      "palette_banks": [
+        7,
+        6,
+        10
+      ]
+    },
+    {
+      "test": "Native battle portrait loader, sprite factory and palette",
+      "passed": true,
+      "portrait_id": 160,
+      "scope": "Existing battle backdrop fixture; no permanent trainer/team replacement"
+    }
+  ],
+  "limitations": [
+    "Map positions and battle backdrop are temporary RAM fixtures",
+    "No cinematic, team, badge or permanent map placement created",
+    "The portrait test loads ID160 in an existing battle backdrop, not a newly scripted Alyzon battle"
+  ]
+}

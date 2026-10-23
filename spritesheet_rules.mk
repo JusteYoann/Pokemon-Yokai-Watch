@@ -488,3 +488,6 @@ graphics/yokai_characters/mafiamille_2/overworld.4bpp: graphics/yokai_characters
 
 graphics/yokai_characters/mafiamille_3/overworld.4bpp: graphics/yokai_characters/mafiamille_3/overworld.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+graphics/yokai_characters/alyzon/overworld.4bpp: graphics/yokai_characters/alyzon/overworld.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4

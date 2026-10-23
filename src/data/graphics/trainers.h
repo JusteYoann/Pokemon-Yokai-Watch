@@ -490,3 +490,6 @@ const u32 gTrainerPalette_YokaiMafiamille2[] = INCBIN_U32("graphics/yokai_charac
 
 const u32 gTrainerFrontPic_YokaiMafiamille3[] = INCBIN_U32("graphics/yokai_characters/mafiamille_3/battle.4bpp.lz");
 const u32 gTrainerPalette_YokaiMafiamille3[] = INCBIN_U32("graphics/yokai_characters/mafiamille_3/normal.gbapal.lz");
+
+const u32 gTrainerFrontPic_YokaiAlyzon[] = INCBIN_U32("graphics/yokai_characters/alyzon/battle.4bpp.lz");
+const u32 gTrainerPalette_YokaiAlyzon[] = INCBIN_U32("graphics/yokai_characters/alyzon/normal.gbapal.lz");

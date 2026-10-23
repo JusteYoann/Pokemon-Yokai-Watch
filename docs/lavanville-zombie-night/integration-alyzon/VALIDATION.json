@@ -1,0 +1,28 @@
+{
+  "branch": "feature/lavanville-zombie-night",
+  "source_commit": "2647bc1627050f193cc9606f8c0f5f1151986047",
+  "protected_branches_unchanged": {
+    "audio/integration-31-ost": "837bd1757a7c2cdc2d476c3a5eacfd6296177c6a",
+    "feature/mafiamille-kanto": "1bf5774d8e5c0c832e1a377a85afb5ad93b7fc55",
+    "feature/boss-final-don-spiraton": "49535014b9c5fd6add06464fb32f9ea85ca69078"
+  },
+  "object_id": 173,
+  "trainer_picture_id": 160,
+  "cinematic_created": false,
+  "new_trainer_team_created": false,
+  "permanent_map_placement_created": false,
+  "roms": {
+    "public": {
+      "bytes": 16777216,
+      "sha256": "22c31fc10a42c61ca3541899555d23e02e857aaa62efd377e723092611adb97e",
+      "checks": 18,
+      "passed": true
+    },
+    "prive": {
+      "bytes": 31659467,
+      "sha256": "e946fe6eee249b3e5a00087cb8b85bae5e1423effc44628951d7f028b41844ff",
+      "checks": 18,
+      "passed": true
+    }
+  }
+}

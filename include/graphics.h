@@ -2571,6 +2571,8 @@ extern const u32 gTrainerFrontPic_YokaiMafiamille2[];
 extern const u32 gTrainerPalette_YokaiMafiamille2[];
 extern const u32 gTrainerFrontPic_YokaiMafiamille3[];
 extern const u32 gTrainerPalette_YokaiMafiamille3[];
+extern const u32 gTrainerFrontPic_YokaiAlyzon[];
+extern const u32 gTrainerPalette_YokaiAlyzon[];
 extern const u32 gTrainerFrontPic_RivalEarly[];
 extern const u32 gTrainerFrontPic_Scientist[];
 extern const u32 gTrainerFrontPic_LeaderGiovanni[];

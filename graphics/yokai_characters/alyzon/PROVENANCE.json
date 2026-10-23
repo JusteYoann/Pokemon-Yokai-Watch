@@ -1,0 +1,43 @@
+{
+  "source_branch": "codex/reprise-scenario-2026-10-22",
+  "source_commit": "2647bc1627050f193cc9606f8c0f5f1151986047",
+  "files": [
+    {
+      "file": "graphics/yokai_characters/alyzon/overworld.png",
+      "source_commit": "2647bc1627050f193cc9606f8c0f5f1151986047",
+      "sha256": "ab2bb8fdc6103d2e85753cadc43e2c01b7b12955c01986dbbc331da9d0d88694",
+      "bytes": 1024
+    },
+    {
+      "file": "graphics/yokai_characters/alyzon/overworld.pal",
+      "source_commit": "2647bc1627050f193cc9606f8c0f5f1151986047",
+      "sha256": "ba55d7fbd1874f689669d7e904e29f4bb23165fff6670dc749e605de4115a44b",
+      "bytes": 184
+    },
+    {
+      "file": "graphics/yokai_characters/alyzon/battle.png",
+      "source_commit": "2647bc1627050f193cc9606f8c0f5f1151986047",
+      "sha256": "a90febaaee32cec5a91abe80d8a96921a0335e13e2f8982c18cc25a1de6bbbbe",
+      "bytes": 967
+    },
+    {
+      "file": "graphics/yokai_characters/alyzon/normal.pal",
+      "source_commit": "2647bc1627050f193cc9606f8c0f5f1151986047",
+      "sha256": "5a0c284e5af44d207f9c2f3e9a791773c43a76ce59a97bd7fc9a511dc5dd268f",
+      "bytes": 185
+    },
+    {
+      "file": "graphics/yokai_characters/alyzon/conversion.json",
+      "source_commit": "2647bc1627050f193cc9606f8c0f5f1151986047",
+      "sha256": "09caaff33adebb4ba49055eb11bea9f379665f58beebf5c21d8a41de9d4ed1a5",
+      "bytes": 1479
+    },
+    {
+      "file": "graphics/yokai_characters/alyzon/preview.png",
+      "source_commit": "2647bc1627050f193cc9606f8c0f5f1151986047",
+      "sha256": "c8658dce1a3329f94872530cecb3df2cf76ebf70075285aa8eb1fa199f404eea",
+      "bytes": 7196
+    }
+  ],
+  "scope": "Graphics only; no old scenario, flags, teams or maps imported"
+}
