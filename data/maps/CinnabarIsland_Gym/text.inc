@@ -125,35 +125,25 @@ CinnabarIsland_Gym_Text_GymStatuePlayerWon::
 
 
 CinnabarIsland_Gym_Text_PokemonQuizRules::
-    .string "Yo-kai Quiz!\p"
-    .string "Get it right, and the door opens to\n"
-    .string "the next room.\p"
-    .string "Get it wrong, and face a TRAINER!\p"
-    .string "If you want to conserve your\n"
-    .string "Yo-kai for the GYM LEADER…\p"
-    .string "Then get it right!\n"
-    .string "Here we go!$"
+    .string "Quiz Yo-kai !\pUne bonne réponse ouvre\nle passage suivant.\pUne erreur ? Tu devras\naffronter un Dresseur !\pTu peux aussi le défier\ndirectement.$"
 
 CinnabarIsland_Gym_Text_QuizQuestion1::
-    .string "CATERPIE evolves into METAPOD?$"
+    .string "Jibanyan possède-t-il\nseulement deux fusions\ldifférentes ?$"
 
 CinnabarIsland_Gym_Text_QuizQuestion2::
-    .string "There are nine certified Yo-kai\n"
-    .string "LEAGUE BADGES?$"
+    .string "Whisper est-il resté enfermé\npendant plus de 200 ans ?$"
 
 CinnabarIsland_Gym_Text_QuizQuestion3::
-    .string "POLIWAG evolves three times?$"
+    .string "Steve Jaws est-il le créateur\nde la Yo-kai Watch moderne ?$"
 
 CinnabarIsland_Gym_Text_QuizQuestion4::
-    .string "Are electric moves effective\n"
-    .string "against GROUND-type Yo-kai?$"
+    .string "Le Bingo-kai est-il indispensable\npour compléter le Médallium ?$"
 
 CinnabarIsland_Gym_Text_QuizQuestion5::
-    .string "Yo-kai of the same kind and level\n"
-    .string "are not identical?$"
+    .string "Hovernyan s'est-il déjà fait\nappeler Méga-nyan ?$"
 
 CinnabarIsland_Gym_Text_QuizQuestion6::
-    .string "TM28 contains TOMBSTONY?$"
+    .string "L'équipe des Blasters de Coach\nAntonic apparaît-elle dans plus\lde trois jeux différents ?$"
 
 CinnabarIsland_Gym_Text_CorrectGoOnThrough::
     .string "You're absolutely correct!\p"
@@ -166,3 +156,24 @@ CinnabarIsland_Gym_Text_SorryBadCall::
 
 CinnabarIsland_Gym_Text_MichaelIntro::
     .string "Moi, c’est Michael !\pMes compagnons et moi,\non a traversé bien des aventures.\pLes Yo-kai du passé\nn’ont pas dit leur dernier mot !\pHovernyan attend son tour.\nAlors, prêt pour le défi ?{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+
+CinnabarIsland_Gym_Text_ShockedPlayer::
+    .string "{PLAYER} :\n...Grand-père ?!$"
+CinnabarIsland_Gym_Text_Meeting::
+    .string "Grand-père ? Moi ? Ha ha !\pTu me confonds avec quelqu'un !\nMoi, c'est {CHAMPION_CRAMOIS}.\pEt voici mon ami Hovernyan.\nOn dirait que tu as vu un spectre !\pReprends ton souffle.\nOn pourra se défier ensuite !$"
+CinnabarIsland_Gym_Text_RematchOffer::
+    .string "Te voilà Champion de la Ligue !\pUn nouveau combat,\navec Hovernyan et moi ?$"
+CinnabarIsland_Gym_Text_RematchStart::
+    .string "Hovernyan, montrons-lui\nce que vaut notre équipe !$"
+CinnabarIsland_Gym_Text_RematchDefeat::
+    .string "Bravo ! Tes liens avec\ntes Yo-kai sont remarquables !$"
+CinnabarIsland_Gym_Text_HovernyanOffer::
+    .string "Hovernyan veut t'accompagner.\pJe te le confie !\nPrends bien soin de lui.$"
+CinnabarIsland_Gym_Text_HovernyanReceived::
+    .string "Hovernyan rejoint\nl'équipe de {PLAYER} !$"
+CinnabarIsland_Gym_Text_HovernyanPC::
+    .string "Ton équipe est complète.\pHovernyan a été envoyé au PC.\nIl t'y attend !$"
+CinnabarIsland_Gym_Text_HovernyanNoRoom::
+    .string "Ton équipe et tes boîtes\nsont pleines.\pFais une place, puis reviens.\nHovernyan t'attendra ici !$"
+CinnabarIsland_Gym_Text_HovernyanCompanion::
+    .string "Hovernyan veille aux côtés\nde {CHAMPION_CRAMOIS}.$"

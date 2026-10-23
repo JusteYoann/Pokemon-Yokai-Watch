@@ -488,6 +488,7 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 #define OBJ_EVENT_PAL_TAG_YOKAI_ENMA                  0x111E
 #define OBJ_EVENT_PAL_TAG_ARIANE                      0x111D
 #define OBJ_EVENT_PAL_TAG_MATT                        0x111C
+#define OBJ_EVENT_PAL_TAG_CRAMOIS_HOVERNYAN 0x112E
 #define OBJ_EVENT_PAL_TAG_NONE                        0x11FF
 
 #include "data/object_events/object_event_graphics_info_pointers.h"
@@ -499,6 +500,7 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 #include "data/object_events/object_event_graphics_info.h"
 
 static const struct SpritePalette sObjectEventSpritePalettes[] = {
+    {gObjectEventPal_CramoisHovernyan, OBJ_EVENT_PAL_TAG_CRAMOIS_HOVERNYAN},
     {gObjectEventPal_YokaiAlyzon, OBJ_EVENT_PAL_TAG_YOKAI_ALYZON},
     {gObjectEventPal_YokaiBerenice, OBJ_EVENT_PAL_TAG_YOKAI_BERENICE},
     {gObjectEventPal_LavenderZombie, OBJ_EVENT_PAL_TAG_LAVENDER_ZOMBIE},
@@ -1626,6 +1628,7 @@ static void LoadAlyzonObjectPalette(const struct ObjectEventGraphicsInfo *graphi
     // Alyzon uses reflection bank7, zombies bank8. Keep ordinary green NPCs
     // in body bank4, Nathan0, Matt6 and Don10 unchanged. No saved palette state.
     if (graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_YOKAI_ALYZON
+        || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_CRAMOIS_HOVERNYAN
         || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_LAVENDER_ZOMBIE
         || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_YOKAI_BERENICE
         || (graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_ARIANE && (graphicsInfo->paletteSlot == PALSLOT_NPC_2_REFLECTION || PhilosovniFollowing())))
@@ -2812,9 +2815,15 @@ u16 GetObjectPaletteTag(u8 palSlot)
     u8 i;
 
     if (palSlot == PALSLOT_NPC_3_REFLECTION)
+    {
         for (i = 0; i < OBJECT_EVENTS_COUNT; i++)
+        {
             if (gObjectEvents[i].active && gObjectEvents[i].graphicsId == OBJ_EVENT_GFX_LAVENDER_ZOMBIE)
                 return OBJ_EVENT_PAL_TAG_LAVENDER_ZOMBIE;
+            else if (gObjectEvents[i].active && gObjectEvents[i].graphicsId == OBJ_EVENT_GFX_CRAMOIS_HOVERNYAN)
+                return OBJ_EVENT_PAL_TAG_CRAMOIS_HOVERNYAN;
+        }
+    }
 
     if (palSlot == PALSLOT_NPC_2_REFLECTION)
     {

@@ -1,0 +1,1 @@
+Adaptation de la référence Hovernyan face/dos fournie dans le chat. Vue de dos corrigée à la demande : cape rouge retombant sur tout le dos. Dessin adapté avec imagegen, puis conversion matérielle 24×26 pixels utiles dans des cellules 32×32, quinze couleurs RGB555 + transparence. Deux vues statiques uniquement ; aucun sprite de combat modifié.

@@ -3325,3 +3325,14 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PhilosovniUsapion 
     .anims = sAnimTable_Inanimate, .images = sPicTable_UsapionCameo,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CramoisHovernyan = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_CRAMOIS_HOVERNYAN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32,
+    .paletteSlot = PALSLOT_NPC_3_REFLECTION, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = TRUE, .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_32x32, .subspriteTables = gObjectEventSpriteOamTables_32x32,
+    .anims = sAnimTable_CramoisHovernyan, .images = sPicTable_CramoisHovernyan,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};

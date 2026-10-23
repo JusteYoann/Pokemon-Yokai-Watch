@@ -1,3 +1,4 @@
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CramoisHovernyan;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiLeoJibanyan;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiAlyzon;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiBerenice;
@@ -329,6 +330,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_DEOXYS_A]                 = &gObjectEventGraphicsInfo_DeoxysA,
     [OBJ_EVENT_GFX_DEOXYS_N]                 = &gObjectEventGraphicsInfo_DeoxysN,
     [OBJ_EVENT_GFX_SS_ANNE]                  = &gObjectEventGraphicsInfo_SSAnne,
+    [OBJ_EVENT_GFX_CRAMOIS_HOVERNYAN] = &gObjectEventGraphicsInfo_CramoisHovernyan,
     [OBJ_EVENT_GFX_ARIANE] = &gObjectEventGraphicsInfo_Ariane,
     [OBJ_EVENT_GFX_USAPION_CAMEO] = &gObjectEventGraphicsInfo_UsapionCameo,
     [OBJ_EVENT_GFX_YOKAI_MISTERRE] = &gObjectEventGraphicsInfo_YokaiMisterre,

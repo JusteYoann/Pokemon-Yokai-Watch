@@ -1618,3 +1618,11 @@ static const union AnimCmd *const sAnimTable_KatieFish[] = {
     [ANIM_HOOKED_POKEMON_WEST] = sAnim_HookedPokemonWest_KatieFish,
     [ANIM_HOOKED_POKEMON_EAST] = sAnim_HookedPokemonEast_KatieFish,
 };
+
+// Static companion: only the two supplied views, no invented walking cycle.
+static const union AnimCmd *const sAnimTable_CramoisHovernyan[] = {
+    [ANIM_STD_FACE_SOUTH] = sAnim_QuintyPlumpFaceSouth,
+    [ANIM_STD_FACE_NORTH] = sAnim_QuintyPlumpFaceNorth,
+    [ANIM_STD_FACE_WEST] = sAnim_QuintyPlumpFaceSouth,
+    [ANIM_STD_FACE_EAST] = sAnim_QuintyPlumpFaceSouth,
+};

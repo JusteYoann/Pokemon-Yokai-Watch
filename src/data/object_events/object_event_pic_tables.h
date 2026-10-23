@@ -1904,3 +1904,8 @@ static const struct SpriteFrameImage sPicTable_YokaiBerenice[] = {
     overworld_frame(gObjectEventPic_YokaiBerenice, 2, 4, 7),
     overworld_frame(gObjectEventPic_YokaiBerenice, 2, 4, 8),
 };
+
+static const struct SpriteFrameImage sPicTable_CramoisHovernyan[] = {
+    overworld_frame(gObjectEventPic_CramoisHovernyan, 4, 4, 0),
+    overworld_frame(gObjectEventPic_CramoisHovernyan, 4, 4, 1),
+};

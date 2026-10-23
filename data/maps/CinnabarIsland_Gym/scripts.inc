@@ -46,6 +46,52 @@ CinnabarIsland_Gym_OnLoadOpenDoor6::
 	return
 
 CinnabarIsland_Gym_EventScript_Blaine::
+	lock
+	faceplayer
+	call_if_unset FLAG_CRAMOIS_MEETING_DONE, CinnabarIsland_Gym_FirstMeeting
+	goto_if_unset FLAG_DEFEATED_BLAINE, CinnabarIsland_Gym_FirstChallenge
+	goto_if_unset FLAG_GOT_TM38_FROM_BLAINE, CinnabarIsland_Gym_EventScript_GiveTM38
+	goto_if_set FLAG_CRAMOIS_HOVERNYAN_GIFT, CinnabarIsland_Gym_ChampionAfter
+	goto_if_unset FLAG_SYS_GAME_CLEAR, CinnabarIsland_Gym_ChampionAfter
+	goto_if_set FLAG_CRAMOIS_REMATCH_WON, CinnabarIsland_Gym_GiveHovernyan
+	msgbox CinnabarIsland_Gym_Text_RematchOffer, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventScript_ReleaseEnd
+	closemessage
+	cleartrainerflag TRAINER_LEADER_BLAINE
+	trainerbattle_single TRAINER_LEADER_BLAINE, CinnabarIsland_Gym_Text_RematchStart, CinnabarIsland_Gym_Text_RematchDefeat, CinnabarIsland_Gym_RematchVictory, NO_MUSIC
+	goto EventScript_ReleaseEnd
+
+CinnabarIsland_Gym_FirstMeeting::
+	applymovement LOCALID_PLAYER, Common_Movement_ExclamationMark
+	waitmovement 0
+	msgbox CinnabarIsland_Gym_Text_ShockedPlayer
+	msgbox CinnabarIsland_Gym_Text_Meeting
+	setflag FLAG_CRAMOIS_MEETING_DONE
+	return
+
+CinnabarIsland_Gym_RematchVictory::
+	setflag FLAG_CRAMOIS_REMATCH_WON
+CinnabarIsland_Gym_GiveHovernyan::
+	msgbox CinnabarIsland_Gym_Text_HovernyanOffer
+	givemon SPECIES_DRAGONITE, 45
+	goto_if_eq VAR_RESULT, MON_CANT_GIVE, CinnabarIsland_Gym_NoRoomForHovernyan
+	setflag FLAG_CRAMOIS_HOVERNYAN_GIFT
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, CinnabarIsland_Gym_HovernyanSentToPC
+	msgbox CinnabarIsland_Gym_Text_HovernyanReceived
+	goto EventScript_ReleaseEnd
+CinnabarIsland_Gym_HovernyanSentToPC::
+	msgbox CinnabarIsland_Gym_Text_HovernyanPC
+	goto EventScript_ReleaseEnd
+CinnabarIsland_Gym_NoRoomForHovernyan::
+	msgbox CinnabarIsland_Gym_Text_HovernyanNoRoom
+	goto EventScript_ReleaseEnd
+
+CinnabarIsland_Gym_EventScript_Hovernyan::
+	lock
+	msgbox CinnabarIsland_Gym_Text_HovernyanCompanion
+	goto EventScript_ReleaseEnd
+
+CinnabarIsland_Gym_FirstChallenge::
 	famechecker FAMECHECKER_BLAINE, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
 	checkplayergender
 	goto_if_eq VAR_RESULT, FEMALE, CinnabarIsland_Gym_ChampionMichael
@@ -215,8 +261,8 @@ CinnabarIsland_Gym_EventScript_Quiz1Right::
 CinnabarIsland_Gym_EventScript_Quiz1::
 	msgbox CinnabarIsland_Gym_Text_PokemonQuizRules
 	msgbox CinnabarIsland_Gym_Text_QuizQuestion1, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, CinnabarIsland_Gym_EventScript_Quiz1Correct
-	goto_if_eq VAR_RESULT, NO, CinnabarIsland_Gym_EventScript_Quiz1Incorrect
+	goto_if_eq VAR_RESULT, NO, CinnabarIsland_Gym_EventScript_Quiz1Correct
+	goto CinnabarIsland_Gym_EventScript_Quiz1Incorrect
 	end
 
 CinnabarIsland_Gym_EventScript_CorrectAnswer::
@@ -305,8 +351,8 @@ CinnabarIsland_Gym_EventScript_Quiz2Right::
 CinnabarIsland_Gym_EventScript_Quiz2::
 	msgbox CinnabarIsland_Gym_Text_PokemonQuizRules
 	msgbox CinnabarIsland_Gym_Text_QuizQuestion2, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, CinnabarIsland_Gym_EventScript_Quiz2Incorrect
-	goto_if_eq VAR_RESULT, NO, CinnabarIsland_Gym_EventScript_Quiz2Correct
+	goto_if_eq VAR_RESULT, YES, CinnabarIsland_Gym_EventScript_Quiz2Correct
+	goto CinnabarIsland_Gym_EventScript_Quiz2Incorrect
 	end
 
 CinnabarIsland_Gym_EventScript_Quiz2Correct::
@@ -386,8 +432,8 @@ CinnabarIsland_Gym_EventScript_Quiz3Right::
 CinnabarIsland_Gym_EventScript_Quiz3::
 	msgbox CinnabarIsland_Gym_Text_PokemonQuizRules
 	msgbox CinnabarIsland_Gym_Text_QuizQuestion3, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, CinnabarIsland_Gym_EventScript_Quiz3Incorrect
-	goto_if_eq VAR_RESULT, NO, CinnabarIsland_Gym_EventScript_Quiz3Correct
+	goto_if_eq VAR_RESULT, YES, CinnabarIsland_Gym_EventScript_Quiz3Correct
+	goto CinnabarIsland_Gym_EventScript_Quiz3Incorrect
 	end
 
 CinnabarIsland_Gym_EventScript_Quiz3Correct::
@@ -458,8 +504,8 @@ CinnabarIsland_Gym_EventScript_Quiz4Right::
 CinnabarIsland_Gym_EventScript_Quiz4::
 	msgbox CinnabarIsland_Gym_Text_PokemonQuizRules
 	msgbox CinnabarIsland_Gym_Text_QuizQuestion4, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, CinnabarIsland_Gym_EventScript_Quiz4Incorrect
-	goto_if_eq VAR_RESULT, NO, CinnabarIsland_Gym_EventScript_Quiz4Correct
+	goto_if_eq VAR_RESULT, YES, CinnabarIsland_Gym_EventScript_Quiz4Correct
+	goto CinnabarIsland_Gym_EventScript_Quiz4Incorrect
 	end
 
 CinnabarIsland_Gym_EventScript_Quiz4Correct::
@@ -531,7 +577,7 @@ CinnabarIsland_Gym_EventScript_Quiz5::
 	msgbox CinnabarIsland_Gym_Text_PokemonQuizRules
 	msgbox CinnabarIsland_Gym_Text_QuizQuestion5, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, CinnabarIsland_Gym_EventScript_Quiz5Correct
-	goto_if_eq VAR_RESULT, NO, CinnabarIsland_Gym_EventScript_Quiz5Incorrect
+	goto CinnabarIsland_Gym_EventScript_Quiz5Incorrect
 	end
 
 CinnabarIsland_Gym_EventScript_Quiz5Correct::
@@ -602,8 +648,8 @@ CinnabarIsland_Gym_EventScript_Quiz6Right::
 CinnabarIsland_Gym_EventScript_Quiz6::
 	msgbox CinnabarIsland_Gym_Text_PokemonQuizRules
 	msgbox CinnabarIsland_Gym_Text_QuizQuestion6, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, CinnabarIsland_Gym_EventScript_Quiz6Incorrect
-	goto_if_eq VAR_RESULT, NO, CinnabarIsland_Gym_EventScript_Quiz6Correct
+	goto_if_eq VAR_RESULT, YES, CinnabarIsland_Gym_EventScript_Quiz6Correct
+	goto CinnabarIsland_Gym_EventScript_Quiz6Incorrect
 	end
 
 CinnabarIsland_Gym_EventScript_Quiz6Correct::
