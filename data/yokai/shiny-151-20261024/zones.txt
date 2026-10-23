@@ -2,8 +2,8 @@
 2|fourrure:4,6,8,11,12=a4c54a
 3|fourrure:4,6,7,8,9,11=a452a4
 4|armure:8,10,11,12,13=b62a32;casque:1,6=292a35;ornements:3,5,7=e8c44a
-5|pelage:7,8,9,10=cda849;flammes:4,5,6=8f5b2e;habit:11,12=399eac
-6|pelage:6,8,10=e8c666;flammes:3,4,9=c3772e;armure:7,11,12=398f9b;details:5,13=af5d27
+5|pelage:7,8,9,10,11=cda849;flammes:4,5,6=8f5b2e;habit:12,13=399eac
+6|pelage:8,10,11=e8c666;flammes:3,4,6,7,9=c3772e;armure:5,12,13=398f9b
 7|pelage:4,6,7,8=e8c666;flammes:3=c3772e;habit:9,12,13=398f9b
 8|peau:3,6,9,10=f6e8bb;bouche:4,11=3e76b7;ombres:7,8,12,13=ceae69
 9|peau:4,8,9,10,11=b08539;armure:3,5,6=706449;habit:1,7=ad4b2f
@@ -19,8 +19,8 @@
 19|carrosserie:2,4,5,8,10,11,12=d8ae32;coeur:6,7=c64639
 20|peau:4,5,8,9,10=66aaa6;habit:6,7,11,12=98c8c9;cheveux:3=343943
 21|peau:7,8,9,10,11=66aaa6;habit:4,5,6=98c8c9;cheveux:12=343943
-22|peau:4,5,6,7=e8dfbb;habit:3,8,9=d5bb70
-23|peau:2,4,5,6=e8dfbb;habit:7,8,9=d5bb70
+22|peau:4,5,6,7=e8dfbb;habit:3,8,9=8c784e
+23|peau:2,4,5,6=e8dfbb;habit:7,8,9=8c784e
 24|peau:8,9,10,11=e9dbc0;toiture:5,6,7=6d5b3b;habit:2,3,4=638481
 25|peau:3,4,7,8=e9dbc0;toiture:2,5,6=6d5b3b;habit:9,10,11,12=638481
 26|cheveux:3,4,5,6,7=c6484c;habit:8,13=d22e35
@@ -33,8 +33,8 @@
 33|terre:4,5,6,8,9,10,11,12=426982;herbe:7,13=95c7d1
 34|peau:4,6,7,8,9=7e8f9e;cornes:10=e0b64e;details:1,13=8f323d
 35|peau:1,6,10,11,12,13=60616d;cornes:7,8,9=ddba57;ornements:3,4=8c57ab
-36|peau:5,6,8,10,11,12=fa9c91;tentacules:3,9,13=984ea4
-37|peau:2,3,4,7,11,12=fa9c91;tentacules:1,5,6,8,9,10=984ea4
+36|peau:4,5,6,10=fa9c91;tentacules:1,3,8,9,11,12,13=984ea4
+37|peau:2,3,4,10,12,13=fa9c91;tentacules:1,5,8,9,11=984ea4;ornements:7=e5bf56
 38|chapeau:11,12,13=d1c69c;corps:6=3f969b;costume:4,5,9,10=2b3036
 39|chapeau:7,8,9=e6b948;cape:10,11,12,13=bd352d;costume:4,6=dca534
 40|peau:2,3,5,7,8,9,10,12=c6b3de;habit:4,6=493259;perles:13=be315c
@@ -131,7 +131,7 @@
 131|corps:2,9,10,11=59607c;chapeau:4,5,6,7,8=d9c15c;details:3,12,13=d75a5f
 132|corps:4,8,9,10,11,12=8b7052;chapeau:5,6,7,13=d3b45f;habit:2,3=6b9996
 133|peau:3,6,7,9=b35b6b
-134|cheveux:1,6,9,12=4aa7a8;habit:5,7,8,13=dac55a;parapluie:2,3,4,11=c64b50
+134|cheveux:1,2,3,8,10=4aa7a8;habit:4,6,11,12,13=f1d98b;parapluie:7,9=c64b50
 135|peau:2,4,5,6,7,8,9=e4c2b1;habit:3,10,11,12,13=a7cdbf
 136|corps:2,4,5,7,8,9,10,11,12=3f2e52;langue:3,6=d72e3f;yeux:13=f4dc46
 137|oeil:14=f49a29

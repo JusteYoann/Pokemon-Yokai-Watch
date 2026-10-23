@@ -4,9 +4,13 @@
 #include "decompress.h"
 #include "pokemon.h"
 #include "data.h"
+#include "battle.h"
+#include "main.h"
 
 extern const struct CompressedSpriteSheet gMonFrontPicTable[];
 extern const struct CompressedSpriteSheet gMonBackPicTable[];
+
+#include "data/yokai_shiny_revised.h"
 
 static void DuplicateDeoxysTiles(void *pointer, s32 species);
 
@@ -355,10 +359,26 @@ void LoadSpecialPokePic_DontHandleDeoxys(const struct CompressedSpriteSheet *src
     TryLoadYokaiBattlePic(dest, species, isFrontPic);
 }
 
-// Dedicated shiny drawings retired by user decision. All picture-loading paths
-// retain the normal indexed silhouette and apply the species shiny palette.
-// Keep this compatibility hook for existing callers; it never overwrites tiles.
+// Color-only masks isolate materials which share an index in the normal art.
+// Their transparent silhouettes and presentation profiles match the normal art.
+// Palette identity selects these textures; encounter/PID rules are unchanged.
 bool8 TryLoadYokaiShinyPicWithPalette(void *dest, u16 species, const void *palette, bool8 isFrontPic)
 {
-    return FALSE;
+    u32 i;
+    bool8 battleTexture = FALSE;
+
+    if (species == 0 || species > 151
+     || palette != gMonShinyPaletteTable[species].data
+     || sShinyRevisedPictures[species][0][0] == NULL)
+        return FALSE;
+    if (gMain.inBattle && gMonSpritesGfxPtr != NULL)
+    {
+        for (i = 0; i < MAX_BATTLERS_COUNT; ++i)
+            if (dest == gMonSpritesGfxPtr->sprites[i])
+                battleTexture = TRUE;
+        if (dest == gMonSpritesGfxPtr->multiUseBuffer)
+            battleTexture = TRUE;
+    }
+    LZ77UnCompWram(sShinyRevisedPictures[species][battleTexture][!isFrontPic], dest);
+    return TRUE;
 }
