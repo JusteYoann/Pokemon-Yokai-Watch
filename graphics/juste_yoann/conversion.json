@@ -1,6 +1,5 @@
 {
-  "source_sha256": "3f8564f7fd1380d8aeaefcca6bd264201c9fd4c69dc535fb65eb77f1e55b6942",
-  "source": "User-authorized generated reproduction; near-white skin requested afterwards. Not a pixel-exact copy of the inline original.",
+  "source": "User-corrected native PNGs from Nouveau dossier (3).rar; supersede approved reproduction.",
   "frames": [
     {
       "name": "battle",
@@ -8,10 +7,17 @@
         64,
         64
       ],
-      "opaque": [
-        48,
-        60
-      ]
+      "opaque_bbox": [
+        8,
+        3,
+        56,
+        63
+      ],
+      "source": "graphics/juste_yoann/source/corrections-utilisateur-20261024/battle.png",
+      "source_sha256": "f645267a44ed400def4f8f75e0392fc990ec640b1bb25c51a20557621d1e360b",
+      "opaque_pixels_exact": true,
+      "alpha_exact": true,
+      "resampled": false
     },
     {
       "name": "overworld",
@@ -19,12 +25,21 @@
         32,
         32
       ],
-      "opaque": [
-        18,
-        19
-      ]
+      "opaque_bbox": [
+        8,
+        12,
+        24,
+        31
+      ],
+      "source": "graphics/juste_yoann/source/corrections-utilisateur-20261024/overworld.png",
+      "source_sha256": "55fa7fb027d4e796190d5e9e11b62ac29586aa6fa9ae9fd1e0a9d26146ba4e85",
+      "opaque_pixels_exact": true,
+      "alpha_exact": true,
+      "resampled": false
     }
   ],
-  "palette_colors": 16,
-  "transparent_index": 0
+  "opaque_colors": 12,
+  "palette_entries": 16,
+  "transparent_index": 0,
+  "conversion": "Lossless PNG indexing. Only the native RGB555 hardware palette representation limits RGB precision."
 }

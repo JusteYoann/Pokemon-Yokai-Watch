@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "scope": "Corrected user PNGs: real field and trainer renderer, native tiles/palette checks.\nInvitation, map and player team are fixtures; A triggers the actual NPC event.\nThis is a graphics check, not a repeat of the full quest or balancing tests.\n",
+  "rom_sha256": "34c611af5075973ad8b762a619d995aab34cb42c67fc050822f3b6151c75a708",
+  "results": [
+    {
+      "sprite": "overworld",
+      "native_tiles_equal": true,
+      "native_palette_equal": true,
+      "bytes": 512
+    },
+    {
+      "sprite": "battle",
+      "native_tiles_equal": true,
+      "native_palette_equal": true,
+      "bytes": 2048
+    }
+  ]
+}

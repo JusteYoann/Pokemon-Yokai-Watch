@@ -14,8 +14,7 @@
   "moves": "Native last four legal level-up moves",
   "ai": "AI_SCRIPT_CHECK_BAD_MOVE",
   "static_front_only": true,
-  "art_source_required": "graphics/juste_yoann/source/reproduction-peau-claire.png",
-  "art_status": "Integrated from user-authorized reproduction with requested near-white skin",
+  "art_status": "User-corrected original native PNGs integrated with lossless indexing; no resizing or redraw.",
   "placement": {
     "map": "PalletTown_PlayersHouse_2F",
     "x": 6,
@@ -25,5 +24,9 @@
     "walk_animation": false,
     "user_request": "Against the top wall, front-facing",
     "validation": "Native mGBA: position (6,2), south-facing, stationary, actual interaction from (6,3); PC and staircase remain clear."
+  },
+  "art_sources": {
+    "battle": "graphics/juste_yoann/source/corrections-utilisateur-20261024/battle.png",
+    "overworld": "graphics/juste_yoann/source/corrections-utilisateur-20261024/overworld.png"
   }
 }

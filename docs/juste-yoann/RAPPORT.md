@@ -4,13 +4,15 @@
 
 [Demande intégrale](demande/CAHIER_DES_CHARGES.md) · [Audit](AUDIT.md) · [Fichiers modifiés](FICHIERS_MODIFIES.txt).
 
+**Dernière mise à jour graphique :** les [deux PNG corrigés fournis par l’utilisateur ont remplacé les sprites précédents, sans redimensionnement ni redessin](corrections-sprites-20261024/README.md). Ce complément contient les captures les plus récentes et les vérifications natives des deux versions. Les GIF du parcours de quête dans `integration/` documentent la validation précédente de la logique, avant cette seule correction graphique.
+
 ## Personnage et déblocage
 
 Juste Yoann est immobile et toujours de face en `(6,2)`, contre le mur du haut de la chambre. Le PC et l’escalier restent accessibles. Son apparition requiert les **151 espèces obtenues**, puis la nouvelle conversation avec Chen au laboratoire. Les bits « aperçu » et le compteur du diplôme ne sont pas utilisés à la place de cette condition. L’invitation ne se répète pas ; les autres événements de Chen restent en place.
 
-Les deux graphismes proviennent de la **reproduction autorisée puis approuvée dans le chat**, avec la peau du visage et des mains presque blanche. Ce ne sont pas des copies pixel pour pixel du premier aperçu. La source approuvée est conservée dans `graphics/juste_yoann/source/reproduction-peau-claire.png`. La conversion technique utilise le voisin le plus proche et une palette RGB555 commune : PNJ de 19 pixels de haut dans une frame 32×32, portrait de 60 pixels de haut dans une frame 64×64. Une seule image de face est utilisée ; aucune marche n’est créée.
+Les deux graphismes définitifs sont les **PNG corrigés par l’utilisateur dans `Nouveau dossier (3).rar`**. Ils sont archivés dans `graphics/juste_yoann/source/corrections-utilisateur-20261024/`. La conversion indexe exactement leurs 12 couleurs communes et leur transparence, sans rééchantillonnage : PNJ de 19 pixels de haut dans une frame 32×32, portrait de 60 pixels de haut dans une frame 64×64. Une seule image de face est utilisée ; aucune marche n’est créée. La reproduction antérieure reste archivée à titre de source historique.
 
-[Capture du PNJ dans la chambre](integration/public/juste-yoann-chambre-x3.png) · [Variante fille](integration/public/juste-yoann-variante-fille-x3.png) · [Portrait en combat](integration/public/victoire-joueur-portrait-x3.png) · [Introduction animée](integration/public/victoire-joueur-introduction.gif).
+[Capture du PNJ dans la chambre](corrections-sprites-20261024/public/chambre-corrigee-x3.png) · [Portrait en combat](corrections-sprites-20261024/public/portrait-corrige-x3.png) · [Introduction animée](corrections-sprites-20261024/public/introduction-corrigee.gif).
 
 ## Combat et conclusion
 

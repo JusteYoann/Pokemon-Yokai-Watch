@@ -6,6 +6,7 @@ data/scripts/juste_yoann.inc
 data/specials.inc
 data/yokai/juste_yoann.json
 docs/juste-yoann/AUDIT.md
+docs/juste-yoann/COMMITS.txt
 docs/juste-yoann/FICHIERS_MODIFIES.txt
 docs/juste-yoann/RAPPORT.md
 docs/juste-yoann/core/MEMOIRE.json
@@ -19,6 +20,19 @@ docs/juste-yoann/core/public/TEST_MGBA.json
 docs/juste-yoann/core/public/chambre-apres-scene.png
 docs/juste-yoann/core/public/scene-core-sans-pnj.gif
 docs/juste-yoann/core/public/thank-for-play.png
+docs/juste-yoann/corrections-sprites-20261024/README.md
+docs/juste-yoann/corrections-sprites-20261024/prive/TEST_MGBA.json
+docs/juste-yoann/corrections-sprites-20261024/prive/chambre-corrigee-x3.png
+docs/juste-yoann/corrections-sprites-20261024/prive/chambre-corrigee.png
+docs/juste-yoann/corrections-sprites-20261024/prive/introduction-corrigee.gif
+docs/juste-yoann/corrections-sprites-20261024/prive/portrait-corrige-x3.png
+docs/juste-yoann/corrections-sprites-20261024/prive/portrait-corrige.png
+docs/juste-yoann/corrections-sprites-20261024/public/TEST_MGBA.json
+docs/juste-yoann/corrections-sprites-20261024/public/chambre-corrigee-x3.png
+docs/juste-yoann/corrections-sprites-20261024/public/chambre-corrigee.png
+docs/juste-yoann/corrections-sprites-20261024/public/introduction-corrigee.gif
+docs/juste-yoann/corrections-sprites-20261024/public/portrait-corrige-x3.png
+docs/juste-yoann/corrections-sprites-20261024/public/portrait-corrige.png
 docs/juste-yoann/demande/CAHIER_DES_CHARGES.md
 docs/juste-yoann/icone-charme/README.md
 docs/juste-yoann/icone-charme/SOURCE.json
@@ -151,6 +165,8 @@ graphics/juste_yoann/battle.png
 graphics/juste_yoann/conversion.json
 graphics/juste_yoann/normal.pal
 graphics/juste_yoann/overworld.png
+graphics/juste_yoann/source/corrections-utilisateur-20261024/battle.png
+graphics/juste_yoann/source/corrections-utilisateur-20261024/overworld.png
 graphics/juste_yoann/source/reproduction-peau-claire.png
 include/constants/event_objects.h
 include/constants/flags.h
@@ -183,3 +199,4 @@ tools/yokai/tester_dossier_complements_mgba.py
 tools/yokai/tester_yoann_core_mgba.py
 tools/yokai/tester_yoann_quete_mgba.py
 tools/yokai/tester_yoann_shiny_mgba.py
+tools/yokai/tester_yoann_sprites_corriges_mgba.py
