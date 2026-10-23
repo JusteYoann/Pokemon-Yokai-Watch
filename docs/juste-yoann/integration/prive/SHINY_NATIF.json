@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "scope": "Native PID lottery statistics, not natural captures: all four Safari/charm cases.\nCalls the production RNG and CharmedWildPersonality through a temporary RAM harness.\n",
+  "rom_sha256": "034e007303c0457227970c1ca6283166a02ef7897e760a04e681f58ea9d02463",
+  "samples": [
+    {
+      "safari": false,
+      "charm": false,
+      "seed": 20261023,
+      "ot": "0x12345678",
+      "draws": 2000000,
+      "shiny": 252,
+      "expected": 244.140625,
+      "theoretical_probability": 0.0001220703125
+    },
+    {
+      "safari": false,
+      "charm": false,
+      "seed": 746128,
+      "ot": "0xdeadbeef",
+      "draws": 2000000,
+      "shiny": 254,
+      "expected": 244.140625,
+      "theoretical_probability": 0.0001220703125
+    },
+    {
+      "safari": true,
+      "charm": false,
+      "seed": 20261023,
+      "ot": "0x12345678",
+      "draws": 2000000,
+      "shiny": 745,
+      "expected": 732.421875,
+      "theoretical_probability": 0.0003662109375
+    },
+    {
+      "safari": true,
+      "charm": false,
+      "seed": 746128,
+      "ot": "0xdeadbeef",
+      "draws": 2000000,
+      "shiny": 752,
+      "expected": 732.421875,
+      "theoretical_probability": 0.0003662109375
+    },
+    {
+      "safari": false,
+      "charm": true,
+      "seed": 20261023,
+      "ot": "0x12345678",
+      "draws": 2000000,
+      "shiny": 749,
+      "expected": 732.3324716708157,
+      "theoretical_probability": 0.00036616623583540786
+    },
+    {
+      "safari": false,
+      "charm": true,
+      "seed": 746128,
+      "ot": "0xdeadbeef",
+      "draws": 2000000,
+      "shiny": 706,
+      "expected": 732.3324716708157,
+      "theoretical_probability": 0.00036616623583540786
+    },
+    {
+      "safari": true,
+      "charm": true,
+      "seed": 20261023,
+      "ot": "0x12345678",
+      "draws": 2000000,
+      "shiny": 2175,
+      "expected": 2196.46106052096,
+      "theoretical_probability": 0.00109823053026048
+    },
+    {
+      "safari": true,
+      "charm": true,
+      "seed": 746128,
+      "ot": "0xdeadbeef",
+      "draws": 2000000,
+      "shiny": 2118,
+      "expected": 2196.46106052096,
+      "theoretical_probability": 0.00109823053026048
+    }
+  ]
+}

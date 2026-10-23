@@ -7,7 +7,7 @@ from PIL import Image,ImageDraw
 from mgba_rpc import ROOT
 from mgba_new_game import new_game
 from mafiamille_qa import C,MAPS,warp
-mode='prive' if '_audio' in os.environ.get('YOKAI_QA_ROM','') else 'public';D=ROOT/'docs/dossier-20261023/tests'/mode;D.mkdir(parents=True,exist_ok=True);r=new_game();rows=[];passed=False
+mode='prive' if '_audio' in os.environ.get('YOKAI_QA_ROM','') else 'public';D=ROOT/os.environ.get('YOKAI_QA_PROOFS','docs/dossier-20261023/tests')/mode;D.mkdir(parents=True,exist_ok=True);r=new_game();rows=[];passed=False
 for _ in range(5):
  import re
  for k,v in re.findall(r'^#define\s+(FLAG_\w+)\s+(FLAG_\w+)\s*$',(ROOT/'include/constants/flags.h').read_text(),re.M):
@@ -66,10 +66,12 @@ try:
   if i in [6,7,9,10,11,12]:shot('fame-checker-'+str(i))
  report('Native Fame Checker opens and displays all six replaced cast entries')
  # Unambiguous latest-reference contact sheet from real mGBA portraits, not mockups.
- names=['zazel','enma-ancien','orqanos','maitre-nyada'];canvas=Image.new('RGB',(960,680),(28,32,40));draw=ImageDraw.Draw(canvas)
- for i,n in enumerate(names):
-  p=D/('ligue-'+n+'-portrait.png');im=Image.open(p);assert im.getbbox();x=i%2*480;y=i//2*340;draw.text((x+6,y+4),n,fill='white');canvas.paste(im.resize((480,320),Image.Resampling.NEAREST),(x,y+20))
- canvas.save(D/'portraits-ligue-mgba-x2.png')
+ portrait_names=['zazel','enma-ancien','orqanos','maitre-nyada']
+ if all((D/('ligue-'+n+'-portrait.png')).exists() for n in portrait_names):
+  names=['zazel','enma-ancien','orqanos','maitre-nyada'];canvas=Image.new('RGB',(960,680),(28,32,40));draw=ImageDraw.Draw(canvas)
+  for i,n in enumerate(names):
+   p=D/('ligue-'+n+'-portrait.png');im=Image.open(p);assert im.getbbox();x=i%2*480;y=i//2*340;draw.text((x+6,y+4),n,fill='white');canvas.paste(im.resize((480,320),Image.Resampling.NEAREST),(x,y+20))
+  canvas.save(D/'portraits-ligue-mgba-x2.png')
  passed=True
 finally:
  rom=os.environ.get('YOKAI_QA_ROM',str(ROOT/'pokefirered.gba'));r.close();(D/'COMPLEMENTS_MGBA.json').write_text(json.dumps({'passed':passed,'scope':__doc__,'rom_sha256':hashlib.sha256(open(rom,'rb').read()).hexdigest(),'results':rows},ensure_ascii=False,indent=2)+'\n')

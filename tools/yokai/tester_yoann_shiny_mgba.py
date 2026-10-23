@@ -6,7 +6,7 @@ import os,json,hashlib,subprocess,tempfile,math
 from pathlib import Path
 from mgba_new_game import new_game
 from mgba_rpc import ROOT
-r=new_game();mode='prive' if '_audio' in os.environ.get('YOKAI_QA_ROM','') else 'public';D=ROOT/'docs/juste-yoann/core'/mode;D.mkdir(parents=True,exist_ok=True)
+r=new_game();mode='prive' if '_audio' in os.environ.get('YOKAI_QA_ROM','') else 'public';D=ROOT/os.environ.get('YOKAI_QA_PROOFS','docs/juste-yoann/core')/mode;D.mkdir(parents=True,exist_ok=True)
 rows=[];passed=False;draws=2_000_000
 try:
  for safari,charm in [(0,0),(1,0),(0,1),(1,1)]:

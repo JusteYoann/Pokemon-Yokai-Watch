@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "scope": "Native format/visibility, reward retries, Flash save/Continue and portrait evidence.\nControlled map/flag/collection fixtures; no enemy outcomes patched.\n",
+  "rom_sha256": "034e007303c0457227970c1ca6283166a02ef7897e760a04e681f58ea9d02463",
+  "results": [
+    {
+      "test": "Native overworld zazel",
+      "passed": true,
+      "height": 19,
+      "tiles_and_palette_match": true,
+      "palette_bank": 7
+    },
+    {
+      "test": "Native overworld enma_ancien",
+      "passed": true,
+      "height": 22,
+      "tiles_and_palette_match": true,
+      "palette_bank": 7
+    },
+    {
+      "test": "Native overworld orqanos",
+      "passed": true,
+      "height": 22,
+      "tiles_and_palette_match": true,
+      "palette_bank": 7
+    },
+    {
+      "test": "Native overworld nyada",
+      "passed": true,
+      "height": 19,
+      "tiles_and_palette_match": true,
+      "palette_bank": 7
+    },
+    {
+      "test": "Native overworld kyubi",
+      "passed": true,
+      "height": 19,
+      "tiles_and_palette_match": true,
+      "palette_bank": 7
+    },
+    {
+      "test": "Native overworld octorgone",
+      "passed": true,
+      "height": 19,
+      "tiles_and_palette_match": true,
+      "palette_bank": 10
+    },
+    {
+      "test": "Original50-caught assistant gift preserved; unique held Exp Share",
+      "passed": true
+    },
+    {
+      "test": "Master Ball full-stack retry succeeds before Gym; CEO leaves only on successful gift",
+      "passed": true
+    },
+    {
+      "test": "Native Flash save/Continue preserves gifts and hides departed CEO",
+      "passed": true
+    },
+    {
+      "test": "Native Fame Checker opens and displays all six replaced cast entries",
+      "passed": true
+    }
+  ]
+}

@@ -1,63 +1,74 @@
-# Juste Yoann — cœur préparé, quête non activée
+# Quête secrète Juste Yoann et Charme Chroma
 
-**État : EN COURS. La quête complète n’est pas livrée ni validée.** Branche dédiée `feature/juste-yoann-charme-chroma`, issue de `67b227302`. Aucun merge sur master.
+**Intégrée et vérifiée par des tests ciblés mGBA sur les versions publique et privée.** Branche `feature/juste-yoann-charme-chroma`, sans merge sur master.
 
-**Les captures actuelles ne montrent pas Juste Yoann : elles testent seulement la scène et le cadeau. Son sprite n’est pas intégré.** Placement demandé ensuite par l’utilisateur : contre le mur du haut, de face. La case retenue est `(6,2)`, immédiatement sous le mur ; `(6,3)` permet de lui parler. Ces deux cases sont libres selon les collisions de la carte, sans empiéter sur le PC `(1,1)` ou l’escalier `(10,2)`. Le rendu définitif reste à vérifier avec le PNG original du PNJ.
+[Demande intégrale](demande/CAHIER_DES_CHARGES.md) · [Audit](AUDIT.md) · [Fichiers modifiés](FICHIERS_MODIFIES.txt).
 
-[Demande intégrale](demande/CAHIER_DES_CHARGES.md) · [Audit](AUDIT.md).
+## Personnage et déblocage
 
-## Développé et vérifié
+Juste Yoann est immobile et toujours de face en `(6,2)`, contre le mur du haut de la chambre. Le PC et l’escalier restent accessibles. Son apparition requiert les **151 espèces obtenues**, puis la nouvelle conversation avec Chen au laboratoire. Les bits « aperçu » et le compteur du diplôme ne sont pas utilisés à la place de cette condition. L’invitation ne se répète pas ; les autres événements de Chen restent en place.
 
-- Vérification des 151 bits natifs « obtenu », indépendante du compteur du diplôme et des bits « aperçu » ; invitation à usage unique et visibilité avec des drapeaux persistants dédiés.
-- Objet important Charme Chroma sur l’emplacement réservé nº52, sans modifier les autres identifiants, la taille des poches ni le format de sauvegarde. Description fournie ; pas de vente, jet ou consommation via les menus natifs. L’icône provisoire Grelot Zen a depuis été remplacée par une [icône dédiée, étoile turquoise et cordon bleu, avec captures et tests des deux versions](icone-charme/README.md).
-- Remise protégée par un drapeau, refus propre si la poche est pleine, puis récupération possible une fois libérée. Sauvegarde Flash et véritable Continuer testés.
-- Trois tirages de PID pour les espèces shiny autorisées. Chaque tirage bénéficie du multiplicateur Safari. Arrêt au premier succès, OT conservé, création du Yo-kai une seule fois. Sans charme hors Safari, l’ancien chemin de génération reste identique. Les rencontres statiques, cadeaux et Dresseurs ne sont pas reliés à ce calcul.
-- Discours, fondu progressif qui épargne les palettes de texte, écran exact THANK FOR PLAY pendant trois secondes avec courte pause musicale, retour des couleurs, remise du cadeau. Une tâche temporaire et une fenêtre de 2688 octets, sans nouvelle variable EWRAM permanente.
-- Textes préparés pour Chen, présentation, discours, refus, cadeau et dialogue ultérieur. Équipe exacte décrite avec les identifiants existants dans `data/yokai/juste_yoann.json` ; elle n’est pas encore un Dresseur actif.
+Les deux graphismes proviennent de la **reproduction autorisée puis approuvée dans le chat**, avec la peau du visage et des mains presque blanche. Ce ne sont pas des copies pixel pour pixel du premier aperçu. La source approuvée est conservée dans `graphics/juste_yoann/source/reproduction-peau-claire.png`. La conversion technique utilise le voisin le plus proche et une palette RGB555 commune : PNJ de 19 pixels de haut dans une frame 32×32, portrait de 60 pixels de haut dans une frame 64×64. Une seule image de face est utilisée ; aucune marche n’est créée.
 
-## Tests mGBA ciblés
+[Capture du PNJ dans la chambre](integration/public/juste-yoann-chambre-x3.png) · [Variante fille](integration/public/juste-yoann-variante-fille-x3.png) · [Portrait en combat](integration/public/victoire-joueur-portrait-x3.png) · [Introduction animée](integration/public/victoire-joueur-introduction.gif).
 
-[Public : cœur](core/public/TEST_MGBA.json) · [Privé : cœur](core/prive/TEST_MGBA.json) · [Public : probabilités](core/public/SHINY_NATIF.json) · [Privé : probabilités](core/prive/SHINY_NATIF.json).
+## Combat et conclusion
 
-Par version, huit contrôles du cœur passent : sac plein/récupération, 151 aperçus insuffisants, 150 obtenus insuffisants, 151 obtenus et invitation, remise unique, sauvegarde/Continuer, 82 lignes mesurées avec la police native, scène complète et restauration des palettes. Les fonctions sont appelées par des fixtures : aucune apparition du nouveau PNJ ni aucun combat contre lui n’est présenté comme testé.
+Équipe exacte, dans l’ordre : **Démophage 70, Fouétar 70, Camaïeul 70, Terminyanator 70, Démophage 70, Seigneur Enma nº150 70**. IA classique (`CHECK_BAD_MOVE`), aucun objet tenu ou de soin, attaques natives de montée en niveau, paramètre IV 100. Les statistiques de base restent inchangées.
 
-Pour chaque version, quatre situations × deux graines × deux millions de tirages natifs vérifient les taux théoriques à six écarts-types : `1/8192`, `3/8192`, `1-(1-1/8192)^3`, `1-(1-3/8192)^3`. Ce sont des tests du RNG et du calcul de personnalité, pas des millions de captures naturelles.
+Le refus permet de revenir ; une défaite entraîne le comportement natif de retour après K.O. et conserve la possibilité de retenter le duel. Après la première victoire, le discours et le fondu progressent avec les textes. Les palettes de texte restent lisibles. **THANK FOR PLAY** apparaît sur fond blanc pendant trois secondes avec un court silence, puis la chambre retrouve ses couleurs. Juste Yoann remet le Charme Chroma et reste présent. Les conversations suivantes ne proposent ni revanche ni nouveau discours ni second cadeau.
 
-[Capture THANK FOR PLAY](core/public/thank-for-play.png) · [GIF de la scène seule, chambre sans le nouveau PNJ](core/public/scene-core-sans-pnj.gif) · [Chambre après restauration](core/public/chambre-apres-scene.png).
+[GIF du discours, du fondu et de THANK FOR PLAY](integration/public/discours-fondu-cadeau.gif) · [GIF de l’obtention du charme](integration/public/obtention-charme.gif) · [Chambre après la scène](integration/public/chambre-apres-victoire-x3.png) · [Sac après la scène](integration/public/sac-apres-scene-x3.png).
+
+## Charme Chroma et sauvegarde
+
+L’objet important nº52 remplace un emplacement réservé inutilisé. Il ne peut pas être vendu, jeté ou consommé via les menus natifs. [Icône dédiée et vérifications du sac](icone-charme/README.md). Le cadeau est protégé par un drapeau ; si la poche est pleine, il reste disponible en reparlant au PNJ sans rejouer le discours. L’invitation, la victoire, le cadeau et l’objet sont conservés après sauvegarde Flash et Continuer. Aucun SaveBlock n’est agrandi ; les bits persistants `0x331` à `0x334` sont utilisés.
+
+Le charme applique jusqu’à trois tirages de personnalité, en conservant le premier succès. Chaque tentative bénéficie du bonus Safari dans les quatre cartes du Parc. L’OT et le fonctionnement shiny de troisième génération sont conservés. Les cadeaux, rencontres statiques et Dresseurs restent hors de ce chemin. La politique existante des 84 espèces shiny autorisées ainsi que toutes les palettes et images shiny sont préservées.
+
+| Situation | Probabilité |
+|---|---:|
+| Sans bonus | 1/8192 |
+| Safari seul | 3/8192, environ 1/2731 |
+| Charme seul | `1-(1-1/8192)^3`, environ 1/2731 |
+| Safari et charme | `1-(1-3/8192)^3`, environ 1/911 |
+
+## Vérification mGBA et préservation
+
+[Quête publique](integration/public/TEST_MGBA.json) · [Quête privée](integration/prive/TEST_MGBA.json) · [Tirages publics](integration/public/SHINY_NATIF.json) · [Tirages privés](integration/prive/SHINY_NATIF.json) · [Régressions publiques](integration/regressions/public/COMPLEMENTS_MGBA.json) · [Régressions privées](integration/regressions/prive/COMPLEMENTS_MGBA.json).
+
+Par version, les treize contrôles de quête passent : absence avant complétion, absence avec 151 aperçus, absence avant validation de Chen malgré 151 obtenus, interaction réelle avec Chen, position/face immobile, persistance de l’invitation, refus, défaite réelle, victoire réelle sur les six adversaires et scène complète, persistance de la victoire et du charme, absence de répétition, sac utilisable après le blanc, variante fille. Les adversaires, leurs PV et le résultat ne sont pas modifiés par les tests. Une équipe joueur faible sert à tester la défaite et une équipe forte à raccourcir le test de victoire ; ce n’est pas une validation d’équilibrage en partie normale.
+
+Les calculs shiny sont testés sur les ROM finales : quatre situations × deux graines × deux millions de tirages par version, dans une tolérance de six écarts-types. Il s’agit d’appels au RNG natif et au calcul de PID, pas de millions de captures naturelles.
+
+Dix contrôles de régression natifs passent par version, notamment les sprites/palettes de Zazel, Enma l’Ancien, Orqanos, Maître Nyada et Kyubi, le Multi Exp conservé, Yopple, la sauvegarde et les fiches personnages. Les 49 contrôles de préservation du dossier précédent passent également : identifiants et données des 151, Cramois/Hovernyan, scripts protégés, Champions et équipes de Don préservés. La numérotation des graphismes et Dresseurs existants est conservée ; les nouveaux sont ajoutés en fin de tables.
+
+Ces fixtures ne remplacent pas la recette globale du jeu, l’obtention naturelle des 151 espèces ou l’équilibrage. La future quête de Maître Nyada et les signalements graphiques précédents hors de ce lot restent distincts.
 
 ## Mémoire et compilation
 
-Les deux versions compilent. [Mesures exactes et SHA256](core/MEMOIRE.json).
+Les versions publique et privée compilent. [Mesures exactes et SHA256 des ROM finales](integration/MEMOIRE.json).
 
 | Mesure | Public | Privé |
 |---|---:|---:|
-| ROM fichier | 16777216 | 31750063 |
-| Sections ROM occupées | 9781924 | 29774698 |
+| Fichier ROM | 16777216 | 31751591 |
+| Sections ROM occupées | 9784328 | 29777102 |
 | EWRAM utilisée / libre | 261368 / 776 | 261368 / 776 |
 | IWRAM utilisée / libre | 29824 / 2944 | 29888 / 2880 |
 
-La RAM statique conserve les valeurs de la livraison précédente. Les buffers temporaires utilisent le tas existant. Les graphismes et palettes shiny, les 151 identifiants, les équipes et scripts de Ligue, Yopple, Cramois et la finale ne sont pas modifiés par ce lot.
+La RAM statique reste inchangée. La scène utilise une tâche temporaire et une petite fenêtre de 2688 octets, retirées à son terme. Les musiques existantes ne sont pas remplacées : pause et reprise natives pendant l’écran blanc.
 
-## Reste à terminer dès réception du PNG original
-
-Le chemin `C:/Users/estab/Downloads/weqrt19_53_30.png` désigne le PC de l’utilisateur. L’aperçu du chat est visible, mais aucun fichier téléchargeable correspondant n’est accessible dans l’environnement. Il faut le PNG joint comme fichier ou un lien direct pour respecter l’interdiction de redessiner.
-
-1. Extraire les deux sprites sans modification artistique, adapter palette et dimensions GBA, créer leurs tables complètes de portrait et d’objet de face immobile.
-2. Ajouter le Dresseur avec ses six Yo-kai exacts, ses attaques natives légales, IA classique et paramètres modérés. Valider l’ordre et les deux Démophage en combat.
-3. Raccorder l’invitation à Chen en préservant ses autres événements et faire apparaître Juste Yoann en `(6,2)`, face vers le bas, contre le mur du haut. Vérifier son rendu et l’interaction depuis `(6,3)`. Ces hooks restent volontairement absents : aucun graphisme de substitution n’est intégré.
-4. Tester refus, défaite du joueur, retour et nouvelle tentative, victoire réelle, discours unique, cadeau et dialogue final sans revanche ; vérifier les deux variantes du joueur et la sauvegarde de l’événement.
-5. Fournir les captures du PNJ, de son introduction en combat et les GIF définitifs. Les preuves actuelles de scène seule ne les remplacent pas.
-
-La liste des treize tests demandés n’est donc pas intégralement validée. Aucune approbation finale de la quête n’est sollicitée à ce stade.
-
-## Reproduction des contrôles déjà disponibles
+## Reproduction
 
 ```bash
 source /workspace/.setup/env.sh
 make -j6
 make -j6 YOKAI_AUDIO_DIR=/workspace/private-audio/lavanville-integration
-python3 tools/yokai/tester_yoann_core_mgba.py
-python3 tools/yokai/tester_yoann_shiny_mgba.py
-YOKAI_QA_ROM="$PWD/pokefirered_audio.gba" python3 tools/yokai/tester_yoann_core_mgba.py
-YOKAI_QA_ROM="$PWD/pokefirered_audio.gba" python3 tools/yokai/tester_yoann_shiny_mgba.py
+python3 tools/yokai/tester_yoann_quete_mgba.py
+YOKAI_QA_ROM="$PWD/pokefirered_audio.gba" python3 tools/yokai/tester_yoann_quete_mgba.py
+YOKAI_QA_PROOFS=docs/juste-yoann/integration python3 tools/yokai/tester_yoann_shiny_mgba.py
+YOKAI_QA_PROOFS=docs/juste-yoann/integration YOKAI_QA_ROM="$PWD/pokefirered_audio.gba" python3 tools/yokai/tester_yoann_shiny_mgba.py
+python3 tools/yokai/verifier_dossier_preservation.py
 ```
+
+Les anciens dossiers `core/` et `icone-charme/` conservent les preuves des étapes précédentes avec leurs propres SHA256 ; `integration/` contient celles de la quête intégrée.

@@ -10,7 +10,7 @@ L’icône et sa palette propres sont reliées à `ITEM_SHINY_CHARM` uniquement.
 
 Compilations publique et privée réussies. Les [tests publics](public/TEST_MGBA.json) et [privés](prive/TEST_MGBA.json) vérifient les pointeurs d’icône et palette, la largeur du texte, la présence dans la vraie poche des objets importants, le contenu chargé en VRAM et l’ouverture du menu de l’objet. Le cadeau dans l’inventaire et la sélection de poche sont des fixtures ; les graphismes de l’interface ne sont pas remplacés par le test.
 
-Ce complément termine l’icône du charme. L’intégration du PNJ Juste Yoann et de son portrait requiert toujours le fichier original de leur référence, comme indiqué dans le rapport de quête.
+Ce complément termine l’icône du charme. Le PNJ Juste Yoann et son portrait ont depuis été intégrés à partir de la reproduction autorisée et approuvée, comme indiqué dans le rapport de quête.
 
 ```bash
 source /workspace/.setup/env.sh

@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "scope": "Native mGBA quest fixtures: real A interaction, refusal, loss, six-mon win,\nwhite scene, unique charm, Flash save/Continue and gender variant. Map, flags,\nMedallium ownership and player parties are fixtures, not an adventure playthrough.\nEnemy HP, trainer party, outcome, NPC graphics and OAM are never patched.\n",
+  "rom_sha256": "034e007303c0457227970c1ca6283166a02ef7897e760a04e681f58ea9d02463",
+  "results": [
+    {
+      "test": "Incomplete Medallium: NPC absent",
+      "passed": true
+    },
+    {
+      "test": "151 seen but not owned: NPC absent",
+      "passed": true
+    },
+    {
+      "test": "151 owned without Chen validation: NPC absent",
+      "passed": true
+    },
+    {
+      "test": "Real Chen interaction sets the permanent invitation",
+      "passed": true
+    },
+    {
+      "test": "NPC appears at top wall (6,2), remains stationary and faces south",
+      "passed": true
+    },
+    {
+      "test": "Invitation and NPC appearance survive native Flash save/Continue",
+      "passed": true
+    },
+    {
+      "test": "Refusing battle returns control and leaves NPC present",
+      "passed": true
+    },
+    {
+      "test": "defaite-joueur",
+      "passed": true,
+      "party_verified": true,
+      "enemy_order": [
+        0
+      ],
+      "actual_controller_result": "loss",
+      "white_scene": false,
+      "reward": false
+    },
+    {
+      "test": "victoire-joueur",
+      "passed": true,
+      "party_verified": true,
+      "enemy_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "actual_controller_result": "victory",
+      "white_scene": true,
+      "reward": true
+    },
+    {
+      "test": "First victory and unique charm survive Flash save/Continue",
+      "passed": true
+    },
+    {
+      "test": "Later dialogue does not replay emotional scene, rematch or duplicate gift",
+      "passed": true
+    },
+    {
+      "test": "Native key-item bag remains usable after white scene, with charm icon; room control restored",
+      "passed": true
+    },
+    {
+      "test": "Female player variant retains stationary NPC and refusal flow",
+      "passed": true
+    }
+  ],
+  "failure": null
+}
