@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "rom_sha256": "7a2ca7164665eee90992ae4f06d1ed00330a67695d7c6c8349fce8b0a7742ba7",
+  "scope": "Native decompression of legacy portrait IDs still used by facility lookup tables.",
+  "results": [
+    {
+      "legacy_picture_id": 108,
+      "replacement_id": 156,
+      "actor": "don_morleone",
+      "native_pixels_and_palette_match": true
+    },
+    {
+      "legacy_picture_id": 109,
+      "replacement_id": 157,
+      "actor": "mafiamille_1",
+      "native_pixels_and_palette_match": true
+    },
+    {
+      "legacy_picture_id": 137,
+      "replacement_id": 158,
+      "actor": "mafiamille_2",
+      "native_pixels_and_palette_match": true
+    }
+  ]
+}

@@ -9,7 +9,7 @@ def entries(t):return {m[1]:m[2] for m in re.finditer(r'^    \[(TRAINER_\w+)\] =
 base=json.loads((Q/'BASE_PROTEGEE.json').read_text());assert all(hashlib.sha256((R/k).read_bytes()).hexdigest()==v for k,v in base['files'].items())
 a=entries(old('src/data/trainers.h').decode());b=entries((R/'src/data/trainers.h').read_text());rockets=[k for k,v in a.items() if 'TRAINER_CLASS_TEAM_ROCKET' in v];don=['TRAINER_BOSS_GIOVANNI','TRAINER_BOSS_GIOVANNI_2','TRAINER_LEADER_GIOVANNI'];assert len(rockets)==53
 for k in a:
- if k not in rockets+don+['TRAINER_RS_BLACK_BELT']:assert a[k]==b[k],k
+ if k not in rockets+don+['TRAINER_RS_BLACK_BELT','TRAINER_GUITARIST','TRAINER_KINDLER','TRAINER_RS_CAMPER']:assert a[k]==b[k],k
  else:
   strip=lambda t:re.sub(r'\.(?:trainerName|trainerPic) = [^\n]*','',t)
   assert strip(a[k])==strip(b[k]),(k,'behavior changed')

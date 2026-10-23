@@ -16,3 +16,18 @@ modifier le 7 ou les autres symboles qui partagent sa banque.
 
 **Aucun aperçu n’est lié à la ROM. Le R d’origine reste actif jusqu’au choix.**
 Le code des probabilités et des gains est intact.
+
+## Deux autres R repérés
+
+Le décodage des tilemaps a identifié un R dans chacune des illustrations
+d’entrée : `graphics/map_preview/rocket_hideout/tiles.png` et
+`graphics/map_preview/rocket_warehouse/tiles.png`. Ces deux dessins sont
+conservés en attente de validation, comme les rouleaux et le tableau des gains.
+Leur remplacement doit reprendre le symbole choisi, avec un aperçu de mise
+en situation avant intégration. Il reste donc quatre ressources graphiques
+contenant un R, pas seulement les deux ressources des machines à sous.
+
+La porte `graphics/door_anims/rocket_warehouse.png`, examinée visuellement,
+ne présente pas de R. Les décors visibles dans les captures de cartes sont
+conservés ; cette vérification ne certifie pas chaque pixel de tous les
+tilesets partagés du jeu.

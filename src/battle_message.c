@@ -1,4 +1,5 @@
 #include "global.h"
+#include "constants/opponents.h"
 #include "gflib.h"
 #include "battle.h"
 #include "battle_anim.h"
@@ -2044,6 +2045,11 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                     toCpy = gTrainerClassNames[GetTrainerTowerOpponentClass()];
                 else if (gBattleTypeFlags & BATTLE_TYPE_EREADER_TRAINER)
                     toCpy = gTrainerClassNames[GetEreaderTrainerClassId()];
+                // Keep postgame economics/AI classes while presenting all Mafia as sbires.
+                else if (gTrainerBattleOpponent_A == TRAINER_YOKAI_MAFIAMILLE1
+                      || gTrainerBattleOpponent_A == TRAINER_YOKAI_MAFIAMILLE2
+                      || gTrainerBattleOpponent_A == TRAINER_YOKAI_MAFIAMILLE3)
+                    toCpy = gTrainerClassNames[TRAINER_CLASS_TEAM_ROCKET];
                 else
                     toCpy = gTrainerClassNames[gTrainers[gTrainerBattleOpponent_A].trainerClass];
                 break;

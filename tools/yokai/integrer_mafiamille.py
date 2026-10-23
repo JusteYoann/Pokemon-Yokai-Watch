@@ -54,6 +54,7 @@ def identity(m):
  elif key in ['TRAINER_BOSS_GIOVANNI','TRAINER_BOSS_GIOVANNI_2','TRAINER_LEADER_GIOVANNI']:
   body=body.replace('TRAINER_PIC_LEADER_GIOVANNI','TRAINER_PIC_YOKAI_DONMORLEONE').replace('_("GIOVANNI")','_("D. Morléone")')
  elif key=='TRAINER_RS_BLACK_BELT':body=body.replace('Don Morleo.','D. Morléone')
+ elif key in ['TRAINER_GUITARIST','TRAINER_KINDLER','TRAINER_RS_CAMPER']:body=body.replace('_("Mafiamille")','_("MAFIAMILLE")')
  return '    ['+key+'] = {'+body+'    },'
 trainers=re.sub(r'^    \[(TRAINER_\w+)\] = \{(.*?)^    \},',identity,trainers,flags=re.M|re.S)
 for path,value in [('src/data/trainers.h',trainers),('src/data/trainer_parties.h',parties),('src/data/yokai_trainer_abilities.h',ability)]: (ROOT/path).write_text(value)
@@ -77,5 +78,9 @@ for name in ['don_morleone','mafiamille_1']:
  edit('src/data/object_events/object_event_graphics_info.h',info)
 # Three shared classic actor IDs must use the same complete animation.
 edit('src/data/object_events/object_event_graphics_info_pointers.h',lambda t:t.replace('= &gObjectEventGraphicsInfo_YokaiMafiamille2,','= &gObjectEventGraphicsInfo_YokaiMafiamille1,').replace('= &gObjectEventGraphicsInfo_YokaiMafiamille3,','= &gObjectEventGraphicsInfo_YokaiMafiamille1,'))
+# Legacy picture IDs are also used by facility-class and compatibility lookups.
+# Alias their pixels/palettes without changing those classes or their teams.
+for old_name,new_name in [('LeaderGiovanni','YokaiDonMorleone'),('RocketGruntM','YokaiMafiamille1'),('RocketGruntF','YokaiMafiamille2')]:
+ edit('src/data/trainer_graphics/front_pic_tables.h',lambda t,o=old_name,n=new_name:t.replace('gTrainerFrontPic_'+o+',','gTrainerFrontPic_'+n+',').replace('gTrainerPalette_'+o+')','gTrainerPalette_'+n+')'))
 p=ROOT/'QA_RECETTE_FINALE/MAFIAMILLE_KANTO/EQUIPES_APPROUVEES.json';p.write_text(json.dumps(dict(base=BASE,changed_teams=proof,preserved_three_main_Don_teams=True,preserved_postgame_Don_team=True),ensure_ascii=False,indent=2)+'\n')
 print('Applied',len(proof),'approved parties and shared walking identities')

@@ -12,3 +12,14 @@ Le symbole R du Casino reste actif tant qu'un aperçu de remplacement n'est
 pas choisi. Ni les probabilités ni les gains ne doivent changer.
 
 Suivi et preuves : `QA_RECETTE_FINALE/MAFIAMILLE_KANTO/`.
+
+## Corrections de cadrage constatées en mGBA
+
+- La liste de sélection du Memorydex ne laisse que56pixels après le curseur.
+  Elle affiche « Morléone » ; les notices compatibles gardent « Don Morléone ».
+- Les deux nouveaux noms de lieux dépassaient le bandeau d’entrée de104pixels
+  en police normale. Seuls ces deux bandeaux utilisent la petite police native,
+  avec le nom complet. Les autres lieux gardent leur police et leur présentation.
+- Les anciens identifiants de portraits Rocket/Giovanni renvoient aussi aux
+  nouvelles images et palettes, pour les chemins de compatibilité et de
+  classes de la Tour des Dresseurs. Aucun combat ou adversaire n’est ajouté.

@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "engine": "mGBA libretro",
+  "rom_sha256": "4b4e9a7a30a3a28811376816111d98d69b65f475d8e8ff59eee5b6f38d31e5cb",
+  "scope": "Actual NPC interaction, prerequisite staff battles, boss battles, No choices, full bags and native Flash reload; fixture warps and post-story flags, overpower party with four attacking moves for wins, native legal-move controller for PP/Grudge, weak party for defeats, independent instances/no savestates. Not whole story or balance proof.",
+  "balance_validated": false,
+  "results": [
+    {
+      "test": "domniscian entire group hidden before League",
+      "passed": true
+    },
+    {
+      "test": "domniscian boss refuses before staff victories",
+      "passed": true
+    },
+    {
+      "test": "EmployeRouge actual optional No then victory, correct prerequisite flag",
+      "passed": true
+    },
+    {
+      "test": "EmployeBleu actual optional No then victory, correct prerequisite flag",
+      "passed": true
+    },
+    {
+      "test": "domniscian actual boss victory; full-bag reward retained, later exact quantity without another battle",
+      "quantity": 1,
+      "frames": 7808,
+      "passed": true
+    },
+    {
+      "test": "domniscian two real boss rematches without duplicate rewards or prerequisite reset; flags persist in native Flash",
+      "passed": true
+    },
+    {
+      "test": "EmployeRouge actual defeat/whiteout records no false victory or reward",
+      "passed": true
+    },
+    {
+      "test": "Domniscian actual defeat/whiteout records no false victory or reward",
+      "passed": true
+    },
+    {
+      "test": "morleone entire group hidden before League",
+      "passed": true
+    },
+    {
+      "test": "morleone boss refuses before staff victories",
+      "passed": true
+    },
+    {
+      "test": "Mafiamille1 actual optional No then victory, correct prerequisite flag",
+      "passed": true
+    },
+    {
+      "test": "Mafiamille2 actual optional No then victory, correct prerequisite flag",
+      "passed": true
+    },
+    {
+      "test": "Mafiamille3 actual optional No then victory, correct prerequisite flag",
+      "passed": true
+    },
+    {
+      "test": "morleone actual boss victory; full-bag reward retained, later exact quantity without another battle",
+      "quantity": 3,
+      "frames": 10816,
+      "passed": true
+    },
+    {
+      "test": "cameo-morleone-revanche-0 controller changed move after native limitations/PP exhaustion",
+      "fallbacks": [
+        {
+          "loop_iteration": 19168,
+          "from_slot": 0,
+          "to_slot": 1,
+          "unusable_mask": 1,
+          "pp": [
+            0,
+            20,
+            20,
+            20
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "test": "morleone two real boss rematches without duplicate rewards or prerequisite reset; flags persist in native Flash",
+      "passed": true
+    },
+    {
+      "test": "Mafiamille1 actual defeat/whiteout records no false victory or reward",
+      "passed": true
+    },
+    {
+      "test": "DonMorleone actual defeat/whiteout records no false victory or reward",
+      "passed": true
+    },
+    {
+      "test": "Seven native trainer parties /22 members match approved species, order, levels, moves and abilities; trainer names have EOS within12bytes",
+      "passed": true
+    }
+  ],
+  "remaining": [
+    "Normal access through Silph/Rocket maze during a full adventure",
+    "Difficulty with ordinary party",
+    "Audio mixing/listening is outside this public-ROM test"
+  ]
+}

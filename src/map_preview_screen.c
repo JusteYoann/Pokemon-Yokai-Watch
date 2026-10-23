@@ -457,8 +457,18 @@ u16 MapPreview_CreateMapNameWindow(u8 mapsec)
     color[1] = TEXT_COLOR_RED; // Access violation
     color[2] = TEXT_COLOR_LIGHT_GRAY; // Access violation
     GetMapName(gStringVar4, mapsec, 0);
-    xctr = 104 - GetStringWidth(FONT_NORMAL, gStringVar4, 0);
-    AddTextPrinterParameterized4(windowId, FONT_NORMAL, xctr / 2, 2, 0, 0, color/* Access violation */, -1, gStringVar4);
+    // The French Mafia names exceed the original104px caption in normal font.
+    // Keep full names using the existing small font, only for these two places.
+    if (mapsec == MAPSEC_ROCKET_HIDEOUT || mapsec == MAPSEC_ROCKET_WAREHOUSE)
+    {
+        xctr = 104 - GetStringWidth(FONT_SMALL, gStringVar4, 0);
+        AddTextPrinterParameterized4(windowId, FONT_SMALL, xctr / 2, 2, 0, 0, color, -1, gStringVar4);
+    }
+    else
+    {
+        xctr = 104 - GetStringWidth(FONT_NORMAL, gStringVar4, 0);
+        AddTextPrinterParameterized4(windowId, FONT_NORMAL, xctr / 2, 2, 0, 0, color, -1, gStringVar4);
+    }
     return windowId;
 }
 
