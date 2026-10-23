@@ -1,0 +1,10 @@
+{
+  "pokefirered": {
+    "file_bytes": 16777216,
+    "sections": "/workspace/Pokemon-Yokai-Watch-philosovni/pokefirered.elf  :\nsection              size        addr\newram              261368    33554432\niwram               29824    50331648\n.text             1446336   134217728\nscript_data        516816   135664064\nlib_text            58144   136180880\n.rodata           5088544   136239024\nsong_data          288868   141327568\nlib_rodata           1640   141616436\nmultiboot_data     193364   141618076\ngfx_data          1852212   147849216\nextra              499732   149701432\nTotal            10236848\n\n\n"
+  },
+  "pokefirered_audio": {
+    "file_bytes": 31744799,
+    "sections": "/workspace/Pokemon-Yokai-Watch-philosovni/pokefirered_audio.elf  :\nsection               size        addr\newram               261368    33554432\niwram                29888    50331648\n.text              1446336   134217728\nscript_data         516816   135664064\nlib_text             58144   136180880\n.rodata            5088544   136239024\nsong_data           288868   141327568\nlib_rodata            1640   141616436\nmultiboot_data      193364   141618076\nyokai_audio_gap    4231411   141811440\ngfx_data           1852212   147849216\nextra             16261095   149701432\nTotal             30229686\n\n\n"
+  }
+}
