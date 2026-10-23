@@ -9,11 +9,11 @@ Base : branche validée `feature/pierre-philosovni-carmin`, commit `2e81a799f`. 
 - Exclusion des palettes des interfaces ; menus plein écran dans leurs couleurs natives.
 - Captures natives avant/après et démonstrations de combats, dans les deux versions.
 - Mesure de mémoire et contrôle des ressources préservées ; réexécution du suivi d'Ariane et du duo.
-- **Validation visuelle du joueur encore attendue.** Le prototype n'est pas une direction artistique définitivement approuvée.
+- **Phase A validée dans la demande de phase B.** Le sépia de l’île reste conservé.
 
-## Phase B — Frontière maritime, après revue du prototype
+## Phase B — Frontière maritime réalisée, approbation visuelle attendue
 
-Brume blanche/grise progressive sur les accès Route 21 Sud et Route 20, dans les deux sens, avec restauration des palettes. Aucun brouillard sur l'île ou ses intérieurs ; aucune réutilisation de la brume verte de Lavanville. Surf, collisions, retours après sauvegarde et déplacements spéciaux doivent rester fonctionnels. Les GIF de cette frontière ne seront produits qu'une fois son implémentation réelle réalisée.
+Brume blanche/grise progressive sur les accès Route 21 Sud et Route 20, dans les deux sens, avec restauration des palettes. Aucun brouillard sur l'île ou ses intérieurs ; aucune réutilisation de la brume verte de Lavanville. Surf, collisions, retours après sauvegarde et déplacements spéciaux doivent rester fonctionnels. Les GIF natifs et la validation technique sont fournis dans [phase-b/README.md](phase-b/README.md). Arrêt avant la phase C, conformément à la demande.
 
 ## Phase C — Scénario et Arène
 

@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "base": "1f335d268",
+  "code_commit": "fb28a6add5432d27096053eead285ba23b41d5f2",
+  "branch": "feature/cramois-ile-passe",
+  "merged_to_master": false,
+  "phase_c_started": false,
+  "versions": {
+    "public": {
+      "rom_sha256": "455eaac2b9e226572466d6e66f2e3853dc8cc78fc1a9ca3f9d91c5b112dcb92f",
+      "rom_bytes": 16777216,
+      "tests": {
+        "phase_b": {
+          "passed": true,
+          "checks": 35,
+          "report": "public/TEST_MGBA.json"
+        },
+        "phase_a": {
+          "passed": true,
+          "checks": 40,
+          "report": "regressions/phase-a/public/apres/TEST_MGBA.json"
+        },
+        "ariane": {
+          "passed": true,
+          "checks": 14,
+          "report": "regressions/ariane/public/TEST_MGBA.json"
+        }
+      }
+    },
+    "prive": {
+      "rom_sha256": "d0a6a788067ceff8b398461a691b3c0e05812dbc6206c93654685fccc7ef0342",
+      "rom_bytes": 31744663,
+      "tests": {
+        "phase_b": {
+          "passed": true,
+          "checks": 35,
+          "report": "prive/TEST_MGBA.json"
+        },
+        "phase_a": {
+          "passed": true,
+          "checks": 40,
+          "report": "regressions/phase-a/prive/apres/TEST_MGBA.json"
+        },
+        "ariane": {
+          "passed": true,
+          "checks": 14,
+          "report": "regressions/ariane/prive/TEST_MGBA.json"
+        }
+      }
+    }
+  },
+  "memory": {
+    "public": {
+      "ewram_before": 261348,
+      "ewram_after": 261368,
+      "ewram_added": 20,
+      "ewram_free": 776,
+      "iwram_before": 29824,
+      "iwram_after": 29824
+    },
+    "prive": {
+      "ewram_before": 261348,
+      "ewram_after": 261368,
+      "ewram_added": 20,
+      "ewram_free": 776,
+      "iwram_before": 29888,
+      "iwram_after": 29888
+    }
+  },
+  "temporary_resources": {
+    "sprite_slots": 15,
+    "vram_tile_bytes": 2048,
+    "obj_palette_banks": 1,
+    "allocated_only_in_local_maritime_zone": true
+  },
+  "limitations": [
+    "Native mGBA tests; no physical GBA validation.",
+    "Special moves use native effects with prepared destinations; CS acquisition, all menu eligibility paths and Escape Rope item consumption are not certified.",
+    "Postgame flag fixture; League not replayed.",
+    "Full Mansion key puzzle and fossil resurrection not replayed; original sources preserved.",
+    "Resource saturation not injected; coverage is not exhaustive.",
+    "Private audio byte streams verified; no new listening certification."
+  ]
+}

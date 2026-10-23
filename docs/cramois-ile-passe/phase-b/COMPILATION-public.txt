@@ -1,0 +1,10 @@
+tools/scaninc/scaninc -M build/firered/src/cramois_fog.d -I include -I tools/agbcc/include src/cramois_fog.c
+tools/agbcc/bin/agbcc <flags> -o build/firered/src/cramois_fog.o src/cramois_fog.c
+tools/ramscrgen/ramscrgen COMMON sym_common.txt ENGLISH -c build/firered/src,common_syms > build/firered/sym_common.ld
+Memory region         Used Size  Region Size  %age Used
+           EWRAM:      261368 B       256 KB     99.70%
+           IWRAM:       29824 B        32 KB     91.02%
+             ROM:    15983300 B        32 MB     47.63%
+cd build/firered && arm-none-eabi-ld -Map ../../pokefirered.map -T ../../ld_script.ld --print-memory-usage -o ../../pokefirered.elf <objs> <libs> | cat
+tools/gbafix/gbafix pokefirered.elf -t"POKEMON FIRE" -cBPRE -m01 -r0 --silent
+arm-none-eabi-objcopy -O binary --gap-fill 0xFF --pad-to 0x9000000 pokefirered.elf pokefirered.gba

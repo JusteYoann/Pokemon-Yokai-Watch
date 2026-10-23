@@ -1,6 +1,8 @@
 # Cramois'Île — soixante ans dans le passé
 
-**Phase A réalisée : prototype visuel à valider. Les phases B, C et D restent à réaliser.**
+**Phase A validée. [Phase B implémentée : brume maritime et transitions, à approuver visuellement](phase-b/README.md). Phase C non commencée.**
+
+Les captures, chiffres et descriptions ci-dessous documentent la phase A au commit `1f335d268`. Les résultats et mesures actuels figurent dans le rapport de phase B.
 
 Branche : `feature/cramois-ile-passe`. Base validée : `2e81a799f`. Audit préalable : `0c79002b9`. Implémentation : `3e5fded7c`. Aucun merge sur master.
 
