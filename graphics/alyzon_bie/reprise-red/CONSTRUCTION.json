@@ -1,0 +1,477 @@
+{
+  "restart_from_scratch": true,
+  "native_canvas": [
+    16,
+    32
+  ],
+  "palette_rgb555": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      32,
+      24,
+      32
+    ],
+    [
+      112,
+      88,
+      40
+    ],
+    [
+      184,
+      144,
+      48
+    ],
+    [
+      224,
+      192,
+      80
+    ],
+    [
+      248,
+      224,
+      128
+    ],
+    [
+      240,
+      192,
+      152
+    ],
+    [
+      192,
+      136,
+      104
+    ],
+    [
+      32,
+      152,
+      168
+    ],
+    [
+      248,
+      248,
+      232
+    ],
+    [
+      184,
+      184,
+      192
+    ],
+    [
+      120,
+      64,
+      144
+    ],
+    [
+      80,
+      32,
+      96
+    ],
+    [
+      40,
+      64,
+      88
+    ],
+    [
+      24,
+      40,
+      56
+    ],
+    [
+      128,
+      144,
+      152
+    ]
+  ],
+  "logical_rows": {
+    "face": [
+      "....OOOOOO....",
+      "...OHLLLLHO...",
+      "..OHLLLLYYHO..",
+      ".OHLLHLYYYYHO.",
+      ".OLLLLLHYYYHO.",
+      "OHLHLLLLHYYYHO",
+      "OHLLLLHHLYYYHO",
+      ".OHLLHHSHYYHO.",
+      ".OHLLHSSKHYHO.",
+      ".OHYHSSSEHYHO.",
+      "OHYOKSSSSKOYHO",
+      "OYKwWPPWwWKYO.",
+      ".KSWwPPwWSsK..",
+      ".KSwWBBWWsSK..",
+      "..KwWMMWWwK...",
+      "..KwWBBWWwK...",
+      "..KWWKKWWWK...",
+      "...KK....KK...",
+      "...KK....KK..."
+    ],
+    "dos": [
+      "....OOOOOO....",
+      "...OHLLLLHO...",
+      "..OHLLLLYYHO..",
+      ".OHLLLLYYYYHO.",
+      ".OLLLHLYYYYHO.",
+      "OHLHLLLLHYYYHO",
+      "OHLLHLLYHYYYHO",
+      ".OHLYHLYHYYHO.",
+      ".OHLYHYYHYYHO.",
+      ".OHYHHYYHHYHO.",
+      "OHYOHHYYHHOYHO",
+      "OYKwWWWWwWKYO.",
+      ".KSWwWWwWSsK..",
+      ".KSwWWWWWsSK..",
+      "..KwWWwWWwK...",
+      "..KwWWwWWwK...",
+      "..KWWKKWWWK...",
+      "...KK....KK...",
+      "...KK....KK..."
+    ],
+    "gauche": [
+      "....OOOOO.....",
+      "...OHLLLHO....",
+      "..OHLLLLYHO...",
+      ".OHLLLLYYHO...",
+      ".OHLLHLYYYHO..",
+      ".OHLLHLYYYHO..",
+      "..OHLLHYYYHO..",
+      "...OHLHYYYHO..",
+      "...OHHHYYYHO..",
+      "...OHSHYYHYO..",
+      "..OKSSKOYHYHO.",
+      "...KwPWWKYYHO.",
+      "...KWSSWWKO...",
+      "...KwSsWWK....",
+      "...KwBBWWK....",
+      "...KwBBWWK....",
+      "...KWWKWWK....",
+      "...KK...KK....",
+      "...KK...KK...."
+    ],
+    "droite": [
+      ".....OOOOO....",
+      "....OHLLLHO...",
+      "...OHYLLLLHO..",
+      "...OHYYLLLLHO.",
+      "..OHYYYLHLLHO.",
+      "..OHYYYLHLLHO.",
+      "..OHYYYHLLHO..",
+      "..OHYYYHSKS...",
+      "..OHYYYHSES...",
+      "..OYHYYHSSS...",
+      ".OHYHYOKSSKO..",
+      ".OHYYKWWPwK...",
+      "...OKWWSSWK...",
+      "....KWWsSwK...",
+      "....KWWBBwK...",
+      "....KWWBBwK...",
+      "....KWWKWWK...",
+      "....KK...KK...",
+      "....KK...KK..."
+    ]
+  },
+  "red_source": "graphics/object_events/pics/people/red_normal.png",
+  "red_frames": [
+    {
+      "frame": 0,
+      "bbox": [
+        1,
+        12,
+        15,
+        31
+      ],
+      "width": 14,
+      "height": 19
+    },
+    {
+      "frame": 1,
+      "bbox": [
+        1,
+        12,
+        15,
+        31
+      ],
+      "width": 14,
+      "height": 19
+    },
+    {
+      "frame": 2,
+      "bbox": [
+        0,
+        12,
+        14,
+        31
+      ],
+      "width": 14,
+      "height": 19
+    },
+    {
+      "frame": 3,
+      "bbox": [
+        0,
+        13,
+        15,
+        32
+      ],
+      "width": 15,
+      "height": 19
+    },
+    {
+      "frame": 4,
+      "bbox": [
+        1,
+        13,
+        16,
+        32
+      ],
+      "width": 15,
+      "height": 19
+    },
+    {
+      "frame": 5,
+      "bbox": [
+        1,
+        13,
+        15,
+        32
+      ],
+      "width": 14,
+      "height": 19
+    },
+    {
+      "frame": 6,
+      "bbox": [
+        1,
+        13,
+        15,
+        32
+      ],
+      "width": 14,
+      "height": 19
+    },
+    {
+      "frame": 7,
+      "bbox": [
+        0,
+        13,
+        14,
+        31
+      ],
+      "width": 14,
+      "height": 18
+    },
+    {
+      "frame": 8,
+      "bbox": [
+        0,
+        13,
+        14,
+        31
+      ],
+      "width": 14,
+      "height": 18
+    }
+  ],
+  "records": [
+    {
+      "direction": "face",
+      "pose": "repos",
+      "bbox": [
+        1,
+        12,
+        15,
+        31
+      ],
+      "height": 19,
+      "width": 14,
+      "origin_y": 12
+    },
+    {
+      "direction": "face",
+      "pose": "pas-1",
+      "bbox": [
+        1,
+        13,
+        15,
+        32
+      ],
+      "height": 19,
+      "width": 14,
+      "origin_y": 13
+    },
+    {
+      "direction": "face",
+      "pose": "pas-2",
+      "bbox": [
+        1,
+        13,
+        15,
+        32
+      ],
+      "height": 19,
+      "width": 14,
+      "origin_y": 13
+    },
+    {
+      "direction": "dos",
+      "pose": "repos",
+      "bbox": [
+        1,
+        12,
+        15,
+        31
+      ],
+      "height": 19,
+      "width": 14,
+      "origin_y": 12
+    },
+    {
+      "direction": "dos",
+      "pose": "pas-1",
+      "bbox": [
+        1,
+        13,
+        15,
+        32
+      ],
+      "height": 19,
+      "width": 14,
+      "origin_y": 13
+    },
+    {
+      "direction": "dos",
+      "pose": "pas-2",
+      "bbox": [
+        1,
+        13,
+        15,
+        32
+      ],
+      "height": 19,
+      "width": 14,
+      "origin_y": 13
+    },
+    {
+      "direction": "gauche",
+      "pose": "repos",
+      "bbox": [
+        2,
+        12,
+        14,
+        31
+      ],
+      "height": 19,
+      "width": 12,
+      "origin_y": 12
+    },
+    {
+      "direction": "gauche",
+      "pose": "pas-1",
+      "bbox": [
+        2,
+        13,
+        14,
+        32
+      ],
+      "height": 19,
+      "width": 12,
+      "origin_y": 13
+    },
+    {
+      "direction": "gauche",
+      "pose": "pas-2",
+      "bbox": [
+        2,
+        13,
+        14,
+        32
+      ],
+      "height": 19,
+      "width": 12,
+      "origin_y": 13
+    },
+    {
+      "direction": "droite",
+      "pose": "repos",
+      "bbox": [
+        2,
+        12,
+        14,
+        31
+      ],
+      "height": 19,
+      "width": 12,
+      "origin_y": 12
+    },
+    {
+      "direction": "droite",
+      "pose": "pas-1",
+      "bbox": [
+        2,
+        13,
+        14,
+        32
+      ],
+      "height": 19,
+      "width": 12,
+      "origin_y": 13
+    },
+    {
+      "direction": "droite",
+      "pose": "pas-2",
+      "bbox": [
+        2,
+        13,
+        14,
+        32
+      ],
+      "height": 19,
+      "width": 12,
+      "origin_y": 13
+    }
+  ],
+  "front_cyan_eye_viewer_right": true,
+  "left_eye_covered": true,
+  "right_eye_visible": true,
+  "engine_frame_order": [
+    [
+      "face",
+      0
+    ],
+    [
+      "dos",
+      0
+    ],
+    [
+      "gauche",
+      0
+    ],
+    [
+      "face",
+      1
+    ],
+    [
+      "face",
+      2
+    ],
+    [
+      "dos",
+      1
+    ],
+    [
+      "dos",
+      2
+    ],
+    [
+      "gauche",
+      1
+    ],
+    [
+      "gauche",
+      2
+    ]
+  ],
+  "bytes_4bpp": 2304
+}
