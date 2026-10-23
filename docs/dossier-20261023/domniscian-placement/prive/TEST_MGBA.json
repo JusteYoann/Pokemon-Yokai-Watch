@@ -1,0 +1,101 @@
+{
+  "passed": true,
+  "scope": "Targeted native mGBA fixtures: approved portrait layout, send-out and victory.\n\nMap, flags and player party are fixtures. Battles run with controller input;\nenemy HP, battle outcome and portrait OAM are never patched by this test.\n",
+  "rom_sha256": "051a1320e500a1e77d764eb8e3d7f84449ee5e10cfb47793177f7d1c6892741f",
+  "checks": [
+    {
+      "case": "champion",
+      "passed": true,
+      "portraits": [
+        {
+          "file": "champion-portrait.png",
+          "center": [
+            180,
+            28
+          ],
+          "matrix": [
+            192,
+            0,
+            0,
+            192
+          ],
+          "after_sendout": false
+        },
+        {
+          "file": "champion-retour-portrait.png",
+          "center": [
+            180,
+            28
+          ],
+          "matrix": [
+            192,
+            0,
+            0,
+            192
+          ],
+          "after_sendout": true
+        }
+      ],
+      "sendout_cleared_portrait": true,
+      "controller_victory": true
+    },
+    {
+      "case": "revanche",
+      "passed": true,
+      "portraits": [
+        {
+          "file": "revanche-portrait.png",
+          "center": [
+            180,
+            28
+          ],
+          "matrix": [
+            192,
+            0,
+            0,
+            192
+          ],
+          "after_sendout": false
+        },
+        {
+          "file": "revanche-retour-portrait.png",
+          "center": [
+            180,
+            28
+          ],
+          "matrix": [
+            192,
+            0,
+            0,
+            192
+          ],
+          "after_sendout": true
+        }
+      ],
+      "sendout_cleared_portrait": true,
+      "controller_victory": true
+    },
+    {
+      "case": "berenice-regression",
+      "passed": true,
+      "portraits": [
+        {
+          "file": "berenice-regression-portrait.png",
+          "center": [
+            176,
+            40
+          ],
+          "matrix": [
+            256,
+            0,
+            0,
+            256
+          ],
+          "after_sendout": false
+        }
+      ],
+      "sendout_cleared_portrait": true,
+      "controller_victory": false
+    }
+  ]
+}

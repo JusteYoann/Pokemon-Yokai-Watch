@@ -22,6 +22,33 @@
 #include "constants/moves.h"
 #include "constants/songs.h"
 #include "constants/sound.h"
+#include "constants/trainers.h"
+
+// Match the approved Domniscian mock-up without resampling his 64x64 artwork.
+// GBA affine scaling keeps the original palette and scales both axes equally.
+static const union AffineAnimCmd sDomniscianPortraitAffineAnim[] =
+{
+    AFFINEANIMCMD_FRAME(0x155, 0x155, 0, 0),
+    AFFINEANIMCMD_END,
+};
+
+static const union AffineAnimCmd *const sDomniscianPortraitAffineAnims[] =
+{
+    sDomniscianPortraitAffineAnim,
+};
+
+static void SetOpponentTrainerPortraitLayout(u16 trainerPicId, struct Sprite *sprite)
+{
+    if (trainerPicId == TRAINER_PIC_YOKAI_DOMNISCIAN)
+    {
+        sprite->x = 180;
+        sprite->y = 28;
+        sprite->oam.affineMode = ST_OAM_AFFINE_DOUBLE;
+        CalcCenterToCornerVec(sprite, sprite->oam.shape, sprite->oam.size, sprite->oam.affineMode);
+        sprite->affineAnims = sDomniscianPortraitAffineAnims;
+        StartSpriteAffineAnim(sprite, 0);
+    }
+}
 
 static void OpponentHandleGetMonData(void);
 static void OpponentHandleGetRawMonData(void);
@@ -1149,6 +1176,7 @@ static void OpponentHandleDrawTrainerPic(void)
     gSprites[gBattlerSpriteIds[gActiveBattler]].oam.tileNum = GetSpriteTileStartByTag(gTrainerFrontPicTable[trainerPicId].tag);
     gSprites[gBattlerSpriteIds[gActiveBattler]].oam.affineParam = trainerPicId;
     gSprites[gBattlerSpriteIds[gActiveBattler]].callback = SpriteCB_TrainerSlideIn;
+    SetOpponentTrainerPortraitLayout(trainerPicId, &gSprites[gBattlerSpriteIds[gActiveBattler]]);
     if (gBattleTypeFlags & BATTLE_TYPE_SCRIPTED_PARTNER)
     {
         u8 original = gBattlerSpriteIds[gActiveBattler];
@@ -1194,6 +1222,7 @@ static void OpponentHandleTrainerSlide(void)
     gSprites[gBattlerSpriteIds[gActiveBattler]].oam.tileNum = GetSpriteTileStartByTag(gTrainerFrontPicTable[trainerPicId].tag);
     gSprites[gBattlerSpriteIds[gActiveBattler]].oam.affineParam = trainerPicId;
     gSprites[gBattlerSpriteIds[gActiveBattler]].callback = SpriteCB_TrainerSlideIn;
+    SetOpponentTrainerPortraitLayout(trainerPicId, &gSprites[gBattlerSpriteIds[gActiveBattler]]);
     gBattlerControllerFuncs[gActiveBattler] = CompleteOnBattlerSpriteCallbackDummy2;
 }
 

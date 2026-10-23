@@ -107,6 +107,15 @@ Résultats : [public](tests/public/TEST_MGBA.json), [privé](tests/prive/TEST_MG
 
 ## Fichiers et reproduction
 
+### Recette graphique finale demandée après livraison
+
+Le portrait de Domniscian a ensuite été agrandi et déplacé selon le montage validé : [modification et tests mGBA ciblés sur les deux versions](domniscian-placement/README.md). Les anciens résultats ci-dessus décrivent la livraison initiale ; les nouveaux SHA256 et captures figurent dans ce complément.
+
+- Contrôler les sprites overworld et portraits en jeu, dans toutes leurs directions et frames de marche, sur les versions publique et privée ; vérifier aussi palettes, chargements après transition et variantes garçon/fille.
+- Reproduire et identifier les deux apparences suspectes signalées par capture (personnage rouge/blanc/bleu et personnage au chapeau sombre). Leur identité et la cause du rendu restent à établir ; les captures seules ne prouvent pas une corruption de palette ou de sprite.
+- Corriger les défauts confirmés et joindre les captures mGBA avant/après. Ne pas déclarer la recette graphique globale terminée tant que ces signalements restent ouverts.
+
+
 | Sujet | Principaux chemins |
 |---|---|
 | EXP et Safari | `src/battle_script_commands.c`, `src/wild_encounter.c`, `include/wild_encounter.h`, textes d’aide et tutoriels |
