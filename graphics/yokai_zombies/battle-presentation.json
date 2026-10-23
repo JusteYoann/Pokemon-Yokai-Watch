@@ -1,0 +1,36 @@
+{
+  "status": "User montage placement reference; coordinates transcribed visually and tested in a temporary mGBA scene, pending visual comparison approval",
+  "coordinate_system": "GBA screen240x160; center of the64x64 source canvas before scaling",
+  "source": "Four battle placement mockups supplied by creator in conversation; original image binaries unavailable locally",
+  "artwork_policy": "Keep all existing64x64 sprite PNGs and palettes byte-identical; use hardware affine scaling only",
+  "profiles": {
+    "errant": {
+      "center_x": 170,
+      "center_y": 31,
+      "scale_q8": 352
+    },
+    "sprinteur": {
+      "center_x": 173,
+      "center_y": 30,
+      "scale_q8": 368
+    },
+    "spectral": {
+      "center_x": 169,
+      "center_y": 29,
+      "scale_q8": 368
+    },
+    "colosse": {
+      "center_x": 174,
+      "center_y": 29,
+      "scale_q8": 352
+    }
+  },
+  "top_edge": "The reference crops the pink flame at screen top; preserve the complete asset and report viewport clipping rather than editing pixels",
+  "runtime_integration": "Not assigned to any species or encounter; visual QA only",
+  "source_files": [
+    "rthdfjfffvvygn.png",
+    "rthjfffvvygn.png",
+    "rtygtggffhfffvvygn.png",
+    "rtygtgffhfffvvygn.png"
+  ]
+}

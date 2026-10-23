@@ -1,0 +1,133 @@
+{
+  "engine": "mGBA libretro",
+  "rom_sha256": "af807f4b8e2b6f7367208c1b25355a93b90b9937241295dd23e34b382df906cf",
+  "rom_unchanged": true,
+  "presentation_profile": "/workspace/Pokemon-Yokai-Watch-lavanville/graphics/yokai_zombies/battle-presentation.json",
+  "scope": "Real mGBA visual-only battle fixture; artwork uploads, no ROM edits.\nUses an existing species as an explicit RAM opponent template, not a new zombie species.\nCapture/run/stats/AI/entry mechanics are NOT implemented or tested here.\n",
+  "results": [
+    {
+      "visible_bbox": [
+        140,
+        0,
+        201,
+        70
+      ],
+      "source_projected_bbox": [
+        139.72043010752688,
+        -4.784946236559136,
+        200.27956989247312,
+        69.53763440860214
+      ],
+      "flame_clipped_at_top": true,
+      "affine_matrix": 0,
+      "inverse_scale_q8": 186,
+      "actual_display_scale": 1.3763440860215055,
+      "variant": "errant",
+      "native_sheet_uploaded": true,
+      "sprite_id": 3,
+      "palette_bank": 1,
+      "tile_start": 277,
+      "visible": true,
+      "position": [
+        170,
+        31
+      ],
+      "template_species": 9,
+      "level": 25,
+      "visual_only": true
+    },
+    {
+      "visible_bbox": [
+        136,
+        0,
+        209,
+        71
+      ],
+      "source_projected_bbox": [
+        135.6067415730337,
+        -1.6404494382022463,
+        208.95505617977528,
+        70.26966292134831
+      ],
+      "flame_clipped_at_top": true,
+      "affine_matrix": 0,
+      "inverse_scale_q8": 178,
+      "actual_display_scale": 1.4382022471910112,
+      "variant": "sprinteur",
+      "native_sheet_uploaded": true,
+      "sprite_id": 3,
+      "palette_bank": 1,
+      "tile_start": 277,
+      "visible": true,
+      "position": [
+        173,
+        30
+      ],
+      "template_species": 9,
+      "level": 25,
+      "visual_only": true
+    },
+    {
+      "visible_bbox": [
+        135,
+        0,
+        214,
+        68
+      ],
+      "source_projected_bbox": [
+        134.08602150537635,
+        -6.784946236559136,
+        213.91397849462365,
+        67.53763440860214
+      ],
+      "flame_clipped_at_top": true,
+      "affine_matrix": 0,
+      "inverse_scale_q8": 186,
+      "actual_display_scale": 1.3763440860215055,
+      "variant": "colosse",
+      "native_sheet_uploaded": true,
+      "sprite_id": 3,
+      "palette_bank": 1,
+      "tile_start": 277,
+      "visible": true,
+      "position": [
+        174,
+        29
+      ],
+      "template_species": 9,
+      "level": 25,
+      "visual_only": true
+    },
+    {
+      "visible_bbox": [
+        141,
+        0,
+        197,
+        70
+      ],
+      "source_projected_bbox": [
+        140.23595505617976,
+        -11.269662921348313,
+        196.32584269662922,
+        69.26966292134831
+      ],
+      "flame_clipped_at_top": true,
+      "affine_matrix": 0,
+      "inverse_scale_q8": 178,
+      "actual_display_scale": 1.4382022471910112,
+      "variant": "spectral",
+      "native_sheet_uploaded": true,
+      "sprite_id": 3,
+      "palette_bank": 1,
+      "tile_start": 277,
+      "visible": true,
+      "position": [
+        169,
+        29
+      ],
+      "template_species": 9,
+      "level": 25,
+      "visual_only": true
+    }
+  ]
+}
