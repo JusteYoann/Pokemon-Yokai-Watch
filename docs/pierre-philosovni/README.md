@@ -1,5 +1,7 @@
 # Le mystère de la Pierre Philosovni
 
+**Ajustement visuel ultérieur : [Usapion plus petit sur la carte](usapion-plus-petit/README.md).**
+
 Chapitre intégré sur **feature/pierre-philosovni-carmin**, depuis la version validée des Champions, Lavanville et Don Morléone. Aucun merge sur master.
 
 Code : `2b35f215ab1f41d771b888bbba9208fcc9f151a8`. Base : `e1dcd9132aa8666fb1798c90a731859f1632313e`.

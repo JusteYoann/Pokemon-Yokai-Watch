@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "rom_sha256": "b98b543e6a7296cf339dd508c1d56ad57a06303e38717de7671a93f687af0da8",
+  "actors": [
+    {
+      "actor": "Ariane",
+      "visible_height": 19,
+      "bottom": 31,
+      "bank": 10,
+      "position": [
+        39,
+        37
+      ],
+      "vram_sha256": "980cfb94e802c0fb3453ae2f368b002c230fd1926ed44b544a5a250952dbf12c"
+    },
+    {
+      "actor": "Nathan",
+      "visible_height": 19,
+      "bottom": 31,
+      "bank": 0,
+      "position": [
+        40,
+        37
+      ],
+      "vram_sha256": "e9596cac403c124addd5443b6471cac81c87885fcfb7b17385ab933f9d572469"
+    },
+    {
+      "actor": "Usapion",
+      "visible_height": 17,
+      "bottom": 31,
+      "bank": 10,
+      "position": [
+        41,
+        37
+      ],
+      "vram_sha256": "b9235f081f83d98c14a0836212fff1a2426a9d40b9f44c4327dcd9940983d73b"
+    }
+  ],
+  "comparison_staging_only": true
+}
