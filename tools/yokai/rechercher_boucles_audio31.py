@@ -10,6 +10,7 @@ from pathlib import Path
 import numpy as np
 from scipy.fft import rfft, irfft, next_fast_len
 from scipy.signal import resample_poly, find_peaks, fftconvolve, stft
+from scipy.ndimage import uniform_filter1d
 
 ROOT=Path(__file__).resolve().parents[2]
 def study(row, path):
@@ -50,20 +51,44 @@ def study(row, path):
         cosine=np.sum(U*V,axis=0)/np.maximum(1e-8,np.linalg.norm(U,axis=0)*np.linalg.norm(V,axis=0))
         windows.append(dict(at_seconds=second,waveform_correlation=float(np.corrcoef(u,v)[0,1]),
             spectral_cosine=float(np.mean(cosine)),rms_ratio=float(np.linalg.norm(v)/max(1,np.linalg.norm(u)))))
+    long_windows=[]
+    if row['number']==5:
+        f,t,U=stft(x,13379,nperseg=2048,noverlap=1792)
+        midi=np.rint(69+12*np.log2(np.maximum(f,1)/440)).astype(int)
+        power=abs(U)**2
+        bands=np.array([power[midi==pitch].sum(axis=0) for pitch in range(30,102)])
+        features=np.sqrt(np.maximum(0,uniform_filter1d(bands,size=5,axis=1)[:,::5]))
+        features/=np.maximum(1,np.linalg.norm(features,axis=0));hop=1280/13379
+        similarity=features.T@features
+        for seconds in (8,16):
+            width=round(seconds/hop);ranked=[]
+            for lag in range(round(16/hop),similarity.shape[0]-width):
+                diagonal=np.diagonal(similarity,offset=lag)
+                if len(diagonal)<width:continue
+                score=np.convolve(diagonal,np.ones(width)/width,mode='valid');i=int(score.argmax())
+                ranked.append(dict(start_seconds=i*hop,repeat_seconds=(i+lag)*hop,
+                    period_seconds=lag*hop,pitch_distribution_cosine=float(score[i])))
+            ranked.sort(key=lambda r:r['pitch_distribution_cosine'],reverse=True)
+            chosen=[]
+            for candidate in ranked:
+                if not any(abs(candidate['period_seconds']-v['period_seconds'])<2 for v in chosen):chosen.append(candidate)
+                if len(chosen)==5:break
+            long_windows.append(dict(window_seconds=seconds,candidates=chosen))
     return dict(number=row['number'],title=row['title'],wav_sha256=row['pcm_wav_sha256'],
         duration_seconds=len(x)/13379,search_window_seconds=6,search_anchor_step_seconds=2,
         best_waveform_candidates=candidates[:12],examined_lag_samples=lag,
         examined_period_seconds=lag/13379,aligned_two_second_windows=windows,
-        perceptual_listening_validated=False)
+        long_window_pitch_research=long_windows,perceptual_listening_validated=False)
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--private-sources',type=Path,required=True)
     p.add_argument('--report',type=Path,required=True)
+    p.add_argument('--numbers',default='5,8,25')
     a=p.parse_args();config=json.loads((ROOT/'data/yokai/audio_loops.json').read_text())
     rows=[]
     for row in config['gap_tracks']:
-        if row['number'] not in (5,8,25):continue
+        if row['number'] not in set(map(int,a.numbers.split(','))):continue
         result=study(row,a.private_sources/f"{row['number']:02d}.wav")
         rows.append(result);print('STUDIED',row['number'],result['examined_period_seconds'],flush=True)
     a.report.parent.mkdir(parents=True,exist_ok=True)

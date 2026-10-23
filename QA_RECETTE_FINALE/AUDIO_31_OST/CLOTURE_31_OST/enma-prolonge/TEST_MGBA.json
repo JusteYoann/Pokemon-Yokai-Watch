@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "0e7ff7f6096e5b52932e1e1cf090eaee3c53ee7ebe182ebbd5302feee2a2bfce",
+  "results": [
+    {
+      "event": "Original Enma dialogue held open",
+      "held_frames": 9000,
+      "held_seconds_approx": 150.68435812649116,
+      "native_sample_still_active": false,
+      "final_audio_AC_RMS_pcm16": 0.0,
+      "requested_continuous_music_goal_met": false,
+      "known_limitation": "Original Enma Track ends; fallback/loop still needs approval"
+    },
+    {
+      "event": "Original Enma dialogue at Mont Braise",
+      "slot": 5,
+      "actual_NPC_interaction": true,
+      "decline_restores_field_music": true
+    },
+    {
+      "event": "Original Champion scene and battle",
+      "battle_slot": 25,
+      "victory_slot": 26,
+      "native_battle_victory_slot": 22,
+      "controller_victory": true,
+      "opponent_team_unchanged": true
+    }
+  ],
+  "scope": "Controller-started new game, explicit progression/warp/strong-party fixtures. Original Enma interaction and actual Matt battle won via controller. Not full adventure or listening."
+}

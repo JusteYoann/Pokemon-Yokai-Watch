@@ -32,6 +32,19 @@ try:
     else: raise AssertionError('Existing Enma dialogue did not play slot 5')
     assert r.u32(r.symbols['gMPlayInfo_BGM']) == r.symbols['mus_yokai_05']
     r.run(120); r.frame.save(P/'enma-dialogue.png')
+    enma_hold=int(os.environ.get('YOKAI_AUDIO31_ENMA_HOLD_FRAMES','0'))
+    if enma_hold:
+        ring=deque(maxlen=200)
+        def capture_enma(data,frames):
+            ring.append(ctypes.string_at(data,frames*4));return frames
+        callback=BATCH(capture_enma);r.lib.retro_set_audio_sample_batch(callback)
+        r.keys=set();r.run(enma_hold);r.lib.retro_set_audio_sample_batch(r.callbacks[3])
+        active=channel(r,5) is not None;signal=np.frombuffer(b''.join(ring),'<i2').astype(float)
+        rows.append(dict(event='Original Enma dialogue held open',held_frames=enma_hold,
+            held_seconds_approx=enma_hold/59.7275,native_sample_still_active=active,
+            final_audio_AC_RMS_pcm16=float(signal.std()),requested_continuous_music_goal_met=active,
+            known_limitation=None if active else 'Original Enma Track ends; fallback/loop still needs approval'))
+        r.frame.save(P/'enma-dialogue-prolonge.png')
     # B advances dialogue and declines the original yes/no offer.
     for f in range(10000):
         r.keys = {0} if f % 16 < 2 else set(); r.run()

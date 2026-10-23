@@ -1,0 +1,704 @@
+{
+  "scope": "Reproducible recurrence study on hash-pinned private WAV sources.\n\nExhaustive six-second waveform anchors, then native-rate phase and spectral\ncomparisons for the observed long-cycle hints. Scores are evidence for audition,\nnot a general threshold that approves musical loops. No ROM or audio is written.\n",
+  "results": [
+    {
+      "number": 5,
+      "title": "Enma Track",
+      "wav_sha256": "760b7758a84838d478b9e2147262719df4dd39b92be1c4dbc2d59f2881a23647",
+      "duration_seconds": 119.01390238433366,
+      "search_window_seconds": 6,
+      "search_anchor_step_seconds": 2,
+      "best_waveform_candidates": [
+        {
+          "start_seconds": 84,
+          "repeat_seconds": 110.668,
+          "period_seconds": 26.668000000000006,
+          "waveform_correlation": 0.5656949696688764
+        },
+        {
+          "start_seconds": 0,
+          "repeat_seconds": 20.0,
+          "period_seconds": 20.0,
+          "waveform_correlation": 0.47299719998868617
+        },
+        {
+          "start_seconds": 2,
+          "repeat_seconds": 22.034,
+          "period_seconds": 20.034,
+          "waveform_correlation": 0.426218092906616
+        },
+        {
+          "start_seconds": 0,
+          "repeat_seconds": 26.6665,
+          "period_seconds": 26.6665,
+          "waveform_correlation": 0.40695554359425173
+        },
+        {
+          "start_seconds": 84,
+          "repeat_seconds": 100.6675,
+          "period_seconds": 16.667500000000004,
+          "waveform_correlation": 0.346509499343953
+        },
+        {
+          "start_seconds": 54,
+          "repeat_seconds": 100.667,
+          "period_seconds": 46.667,
+          "waveform_correlation": 0.3286585462137681
+        },
+        {
+          "start_seconds": 54,
+          "repeat_seconds": 87.333,
+          "period_seconds": 33.333,
+          "waveform_correlation": 0.3224632201386812
+        },
+        {
+          "start_seconds": 2,
+          "repeat_seconds": 75.222,
+          "period_seconds": 73.222,
+          "waveform_correlation": 0.31072295374216413
+        },
+        {
+          "start_seconds": 50,
+          "repeat_seconds": 96.71,
+          "period_seconds": 46.709999999999994,
+          "waveform_correlation": 0.306844624733219
+        },
+        {
+          "start_seconds": 82,
+          "repeat_seconds": 108.668,
+          "period_seconds": 26.668000000000006,
+          "waveform_correlation": 0.29612225324575603
+        },
+        {
+          "start_seconds": 86,
+          "repeat_seconds": 109.3345,
+          "period_seconds": 23.334500000000006,
+          "waveform_correlation": 0.29348764706820885
+        },
+        {
+          "start_seconds": 6,
+          "repeat_seconds": 72.613,
+          "period_seconds": 66.613,
+          "waveform_correlation": 0.2919932098017455
+        }
+      ],
+      "examined_lag_samples": 1077,
+      "examined_period_seconds": 0.08049928993198296,
+      "aligned_two_second_windows": [
+        {
+          "at_seconds": 0,
+          "waveform_correlation": 0.3542898544779721,
+          "spectral_cosine": 0.6644531333006292,
+          "rms_ratio": 0.6900647129352657
+        },
+        {
+          "at_seconds": 1,
+          "waveform_correlation": 0.23252427994210587,
+          "spectral_cosine": 0.6328416441765952,
+          "rms_ratio": 0.4443539241554966
+        },
+        {
+          "at_seconds": 2,
+          "waveform_correlation": 0.2748769485710732,
+          "spectral_cosine": 0.6261237928697407,
+          "rms_ratio": 0.41760836703799853
+        },
+        {
+          "at_seconds": 3,
+          "waveform_correlation": 0.22758973148971975,
+          "spectral_cosine": 0.6147708153500098,
+          "rms_ratio": 0.4595785629743954
+        },
+        {
+          "at_seconds": 4,
+          "waveform_correlation": 0.3119915581905282,
+          "spectral_cosine": 0.6992968705780741,
+          "rms_ratio": 0.42229457567035583
+        },
+        {
+          "at_seconds": 5,
+          "waveform_correlation": 0.2956152926784942,
+          "spectral_cosine": 0.7047081372719605,
+          "rms_ratio": 0.5869517440450115
+        },
+        {
+          "at_seconds": 6,
+          "waveform_correlation": 0.11843670317377546,
+          "spectral_cosine": 0.5760646322691502,
+          "rms_ratio": 0.45859035323439007
+        },
+        {
+          "at_seconds": 7,
+          "waveform_correlation": 0.05308857463840525,
+          "spectral_cosine": 0.5608706698828796,
+          "rms_ratio": 0.2899326965867805
+        },
+        {
+          "at_seconds": 8,
+          "waveform_correlation": -0.06937087297316137,
+          "spectral_cosine": 0.6133566933471614,
+          "rms_ratio": 0.2541968518963497
+        },
+        {
+          "at_seconds": 9,
+          "waveform_correlation": -0.10704741651316269,
+          "spectral_cosine": 0.5851108698563091,
+          "rms_ratio": 0.23284105105243152
+        },
+        {
+          "at_seconds": 10,
+          "waveform_correlation": -0.10064373453854163,
+          "spectral_cosine": 0.54124035092701,
+          "rms_ratio": 0.31838591713021464
+        },
+        {
+          "at_seconds": 11,
+          "waveform_correlation": -0.08194351709750508,
+          "spectral_cosine": 0.49986886608958075,
+          "rms_ratio": 0.5432730662956975
+        },
+        {
+          "at_seconds": 12,
+          "waveform_correlation": -0.015500131461675977,
+          "spectral_cosine": 0.42824076786390913,
+          "rms_ratio": 0.47621216588722637
+        },
+        {
+          "at_seconds": 13,
+          "waveform_correlation": -0.024351284535213468,
+          "spectral_cosine": 0.48269079879004134,
+          "rms_ratio": 0.3832491469512627
+        },
+        {
+          "at_seconds": 14,
+          "waveform_correlation": -0.02129757654555875,
+          "spectral_cosine": 0.5262442292058589,
+          "rms_ratio": 0.3560519069571674
+        },
+        {
+          "at_seconds": 15,
+          "waveform_correlation": -0.011725051229447898,
+          "spectral_cosine": 0.4910407006562188,
+          "rms_ratio": 0.3186567165213454
+        },
+        {
+          "at_seconds": 16,
+          "waveform_correlation": 0.00380778482264659,
+          "spectral_cosine": 0.5317265100302451,
+          "rms_ratio": 0.2759500800275815
+        },
+        {
+          "at_seconds": 17,
+          "waveform_correlation": 0.03652852119002643,
+          "spectral_cosine": 0.5214033631034285,
+          "rms_ratio": 0.35905537734742166
+        },
+        {
+          "at_seconds": 18,
+          "waveform_correlation": 0.05252729483967443,
+          "spectral_cosine": 0.4623358969452997,
+          "rms_ratio": 0.7511267897986841
+        },
+        {
+          "at_seconds": 19,
+          "waveform_correlation": 0.0634488314448905,
+          "spectral_cosine": 0.4590534918871134,
+          "rms_ratio": 1.0494155346208747
+        },
+        {
+          "at_seconds": 20,
+          "waveform_correlation": 0.023828458591993285,
+          "spectral_cosine": 0.4310013279773357,
+          "rms_ratio": 0.8875266247697357
+        },
+        {
+          "at_seconds": 21,
+          "waveform_correlation": -0.03543250261973748,
+          "spectral_cosine": 0.39563316582984015,
+          "rms_ratio": 0.5838540098930245
+        },
+        {
+          "at_seconds": 22,
+          "waveform_correlation": 0.04912010451774977,
+          "spectral_cosine": 0.4222053772660626,
+          "rms_ratio": 0.5634754493727319
+        },
+        {
+          "at_seconds": 23,
+          "waveform_correlation": 0.09644358940106433,
+          "spectral_cosine": 0.379056670853267,
+          "rms_ratio": 0.6513129495354668
+        },
+        {
+          "at_seconds": 24,
+          "waveform_correlation": 0.06353978122903502,
+          "spectral_cosine": 0.45996671499854075,
+          "rms_ratio": 0.8401884299060244
+        },
+        {
+          "at_seconds": 25,
+          "waveform_correlation": 0.07736983716078175,
+          "spectral_cosine": 0.5163555411904911,
+          "rms_ratio": 1.3342536489561623
+        },
+        {
+          "at_seconds": 26,
+          "waveform_correlation": -0.003566166264183748,
+          "spectral_cosine": 0.425213878550517,
+          "rms_ratio": 1.1984261530716007
+        },
+        {
+          "at_seconds": 27,
+          "waveform_correlation": -0.01778816327876743,
+          "spectral_cosine": 0.4068086893645286,
+          "rms_ratio": 1.5640185744446706
+        },
+        {
+          "at_seconds": 28,
+          "waveform_correlation": 0.007855643799143422,
+          "spectral_cosine": 0.39993700798580917,
+          "rms_ratio": 2.2132155993710807
+        },
+        {
+          "at_seconds": 29,
+          "waveform_correlation": 0.012920615824297915,
+          "spectral_cosine": 0.3832256887097762,
+          "rms_ratio": 2.3401135062457588
+        },
+        {
+          "at_seconds": 30,
+          "waveform_correlation": 0.00762366613772477,
+          "spectral_cosine": 0.3302974713250414,
+          "rms_ratio": 2.577062509719992
+        },
+        {
+          "at_seconds": 31,
+          "waveform_correlation": 0.0026471444922120508,
+          "spectral_cosine": 0.24552212120684022,
+          "rms_ratio": 2.248063479216159
+        },
+        {
+          "at_seconds": 32,
+          "waveform_correlation": 0.07274357543612203,
+          "spectral_cosine": 0.40655368787029517,
+          "rms_ratio": 2.2511045222212047
+        },
+        {
+          "at_seconds": 33,
+          "waveform_correlation": 0.07791448719571042,
+          "spectral_cosine": 0.6010337350990365,
+          "rms_ratio": 2.522362267032724
+        },
+        {
+          "at_seconds": 34,
+          "waveform_correlation": 0.03253114380096107,
+          "spectral_cosine": 0.6914533443413552,
+          "rms_ratio": 3.004620201238405
+        },
+        {
+          "at_seconds": 35,
+          "waveform_correlation": -0.015573999233649138,
+          "spectral_cosine": 0.7199050614167779,
+          "rms_ratio": 2.9757533945594608
+        },
+        {
+          "at_seconds": 36,
+          "waveform_correlation": -0.03831022694474166,
+          "spectral_cosine": 0.49945448736862347,
+          "rms_ratio": 2.5885464647048133
+        },
+        {
+          "at_seconds": 37,
+          "waveform_correlation": 0.018899347664210246,
+          "spectral_cosine": 0.41202337692137475,
+          "rms_ratio": 1.8063462553934693
+        },
+        {
+          "at_seconds": 38,
+          "waveform_correlation": 0.043887698530907945,
+          "spectral_cosine": 0.4056498153619823,
+          "rms_ratio": 1.4368612882956746
+        },
+        {
+          "at_seconds": 39,
+          "waveform_correlation": -0.003460639242202288,
+          "spectral_cosine": 0.4139413840753121,
+          "rms_ratio": 1.3881881201827793
+        },
+        {
+          "at_seconds": 40,
+          "waveform_correlation": -0.006862080266828224,
+          "spectral_cosine": 0.5170612037827944,
+          "rms_ratio": 1.303851225474944
+        },
+        {
+          "at_seconds": 41,
+          "waveform_correlation": -0.006728826854096571,
+          "spectral_cosine": 0.5189919447358471,
+          "rms_ratio": 1.475112211481183
+        },
+        {
+          "at_seconds": 42,
+          "waveform_correlation": 0.00519859702677922,
+          "spectral_cosine": 0.46073116466892994,
+          "rms_ratio": 1.8358963020919687
+        },
+        {
+          "at_seconds": 43,
+          "waveform_correlation": -0.02083637771555885,
+          "spectral_cosine": 0.37372302697121956,
+          "rms_ratio": 1.9777599092399414
+        },
+        {
+          "at_seconds": 44,
+          "waveform_correlation": -0.021330735884051866,
+          "spectral_cosine": 0.30400668463923153,
+          "rms_ratio": 1.4117320560956332
+        },
+        {
+          "at_seconds": 45,
+          "waveform_correlation": -0.035486476376954394,
+          "spectral_cosine": 0.3256987995033271,
+          "rms_ratio": 0.7942896907637448
+        },
+        {
+          "at_seconds": 46,
+          "waveform_correlation": -0.03441573537333125,
+          "spectral_cosine": 0.3285372210987852,
+          "rms_ratio": 0.5238805584825806
+        },
+        {
+          "at_seconds": 47,
+          "waveform_correlation": 0.0024490361990124583,
+          "spectral_cosine": 0.37425084302057554,
+          "rms_ratio": 0.536343293279347
+        },
+        {
+          "at_seconds": 48,
+          "waveform_correlation": 0.0018427917581886884,
+          "spectral_cosine": 0.4476240541898015,
+          "rms_ratio": 0.7651589787184541
+        },
+        {
+          "at_seconds": 49,
+          "waveform_correlation": 0.08331566163028711,
+          "spectral_cosine": 0.540240034343376,
+          "rms_ratio": 0.7150263523242605
+        },
+        {
+          "at_seconds": 50,
+          "waveform_correlation": 0.17159052839288813,
+          "spectral_cosine": 0.6168076827700147,
+          "rms_ratio": 0.6839997799901306
+        },
+        {
+          "at_seconds": 51,
+          "waveform_correlation": 0.1406721480089593,
+          "spectral_cosine": 0.6426866122265757,
+          "rms_ratio": 0.6348902741157406
+        },
+        {
+          "at_seconds": 52,
+          "waveform_correlation": 0.03607960365186564,
+          "spectral_cosine": 0.5351844087222276,
+          "rms_ratio": 0.5193985905600982
+        },
+        {
+          "at_seconds": 53,
+          "waveform_correlation": -0.02321044495167634,
+          "spectral_cosine": 0.389829835110556,
+          "rms_ratio": 0.5746235987617847
+        },
+        {
+          "at_seconds": 54,
+          "waveform_correlation": -0.0460330359724856,
+          "spectral_cosine": 0.3106542701809152,
+          "rms_ratio": 0.4438892689052776
+        },
+        {
+          "at_seconds": 55,
+          "waveform_correlation": -0.03447460122212635,
+          "spectral_cosine": 0.2885275867257431,
+          "rms_ratio": 0.42193566554783785
+        },
+        {
+          "at_seconds": 56,
+          "waveform_correlation": 0.02877740937058539,
+          "spectral_cosine": 0.3616293578985207,
+          "rms_ratio": 0.5338978561395678
+        },
+        {
+          "at_seconds": 57,
+          "waveform_correlation": 0.055910746523650835,
+          "spectral_cosine": 0.37143634193618347,
+          "rms_ratio": 0.7530240938303645
+        },
+        {
+          "at_seconds": 58,
+          "waveform_correlation": 0.028406628842457007,
+          "spectral_cosine": 0.39943370871414946,
+          "rms_ratio": 1.3273024412213035
+        },
+        {
+          "at_seconds": 59,
+          "waveform_correlation": -0.024733698157049542,
+          "spectral_cosine": 0.5047458754137573,
+          "rms_ratio": 1.4189865110979536
+        },
+        {
+          "at_seconds": 60,
+          "waveform_correlation": -0.06655927931897422,
+          "spectral_cosine": 0.5154297690044645,
+          "rms_ratio": 1.3814686171407418
+        },
+        {
+          "at_seconds": 61,
+          "waveform_correlation": -0.03599674420401758,
+          "spectral_cosine": 0.45801805200658496,
+          "rms_ratio": 1.3882432825307403
+        },
+        {
+          "at_seconds": 62,
+          "waveform_correlation": 0.046044744506824095,
+          "spectral_cosine": 0.4438458027260137,
+          "rms_ratio": 1.3759538603780945
+        },
+        {
+          "at_seconds": 63,
+          "waveform_correlation": 0.07751537736564534,
+          "spectral_cosine": 0.45884209994490227,
+          "rms_ratio": 1.5721551939633243
+        },
+        {
+          "at_seconds": 64,
+          "waveform_correlation": 0.06322239705335655,
+          "spectral_cosine": 0.42132962256764706,
+          "rms_ratio": 1.84375513479139
+        },
+        {
+          "at_seconds": 65,
+          "waveform_correlation": 0.07546189162964619,
+          "spectral_cosine": 0.47779595883530745,
+          "rms_ratio": 2.030086202808292
+        },
+        {
+          "at_seconds": 66,
+          "waveform_correlation": 0.06360696833613957,
+          "spectral_cosine": 0.6275524884329635,
+          "rms_ratio": 2.20154689771768
+        },
+        {
+          "at_seconds": 67,
+          "waveform_correlation": 0.017889375852706075,
+          "spectral_cosine": 0.7038710298375326,
+          "rms_ratio": 2.2369332400717874
+        },
+        {
+          "at_seconds": 68,
+          "waveform_correlation": 0.06516167229071072,
+          "spectral_cosine": 0.7560942222650732,
+          "rms_ratio": 1.9814843785839058
+        },
+        {
+          "at_seconds": 69,
+          "waveform_correlation": 0.02275782331387084,
+          "spectral_cosine": 0.7236260657320805,
+          "rms_ratio": 1.917244421097772
+        },
+        {
+          "at_seconds": 70,
+          "waveform_correlation": -0.043439015686328186,
+          "spectral_cosine": 0.5645564059505288,
+          "rms_ratio": 2.1493028340753533
+        },
+        {
+          "at_seconds": 71,
+          "waveform_correlation": -0.009134591283240333,
+          "spectral_cosine": 0.47365862842960954,
+          "rms_ratio": 2.273240986546729
+        },
+        {
+          "at_seconds": 72,
+          "waveform_correlation": -0.017784913686847356,
+          "spectral_cosine": 0.5545305869336686,
+          "rms_ratio": 2.468113337012639
+        },
+        {
+          "at_seconds": 73,
+          "waveform_correlation": 0.05031673596562025,
+          "spectral_cosine": 0.5863430559891181,
+          "rms_ratio": 2.569889691821991
+        },
+        {
+          "at_seconds": 74,
+          "waveform_correlation": 0.08567169404907883,
+          "spectral_cosine": 0.572554806864389,
+          "rms_ratio": 2.5297697347400816
+        },
+        {
+          "at_seconds": 75,
+          "waveform_correlation": 0.09404427499148234,
+          "spectral_cosine": 0.60009170978106,
+          "rms_ratio": 2.1161355672328543
+        },
+        {
+          "at_seconds": 76,
+          "waveform_correlation": 0.08465083900270647,
+          "spectral_cosine": 0.625149259475176,
+          "rms_ratio": 1.983225765814086
+        },
+        {
+          "at_seconds": 77,
+          "waveform_correlation": 0.019507391902509805,
+          "spectral_cosine": 0.5259777913627917,
+          "rms_ratio": 2.0994572147828303
+        },
+        {
+          "at_seconds": 78,
+          "waveform_correlation": 0.12731446009121783,
+          "spectral_cosine": 0.52204614310832,
+          "rms_ratio": 1.9445660350625438
+        },
+        {
+          "at_seconds": 79,
+          "waveform_correlation": 0.15186530311985688,
+          "spectral_cosine": 0.6091377134526998,
+          "rms_ratio": 2.235100772584536
+        },
+        {
+          "at_seconds": 80,
+          "waveform_correlation": 0.11859215712529704,
+          "spectral_cosine": 0.5336631468785998,
+          "rms_ratio": 2.880218181905805
+        },
+        {
+          "at_seconds": 81,
+          "waveform_correlation": 0.08656157333162066,
+          "spectral_cosine": 0.4535473150528022,
+          "rms_ratio": 2.98970325510644
+        },
+        {
+          "at_seconds": 82,
+          "waveform_correlation": 0.07126643527598397,
+          "spectral_cosine": 0.5061798962454209,
+          "rms_ratio": 2.5171830928902326
+        },
+        {
+          "at_seconds": 83,
+          "waveform_correlation": 0.04229097366207168,
+          "spectral_cosine": 0.5822773531608394,
+          "rms_ratio": 2.2471204494410624
+        },
+        {
+          "at_seconds": 84,
+          "waveform_correlation": -0.042658865630370434,
+          "spectral_cosine": 0.4800581874770308,
+          "rms_ratio": 1.8327741921809078
+        },
+        {
+          "at_seconds": 85,
+          "waveform_correlation": 0.23387915304238804,
+          "spectral_cosine": 0.535597104027948,
+          "rms_ratio": 1.1616595156697507
+        },
+        {
+          "at_seconds": 86,
+          "waveform_correlation": 0.6770593778945009,
+          "spectral_cosine": 0.8408119571378476,
+          "rms_ratio": 0.9732436087988913
+        },
+        {
+          "at_seconds": 87,
+          "waveform_correlation": 0.9866827297924415,
+          "spectral_cosine": 0.9978177435878918,
+          "rms_ratio": 0.8341845342481624
+        },
+        {
+          "at_seconds": 88,
+          "waveform_correlation": 0.9844777260148755,
+          "spectral_cosine": 0.9984741509716938,
+          "rms_ratio": 0.6992984839003951
+        },
+        {
+          "at_seconds": 89,
+          "waveform_correlation": 0.9661516381973352,
+          "spectral_cosine": 0.9980596143432249,
+          "rms_ratio": 0.4447088685542012
+        }
+      ],
+      "long_window_pitch_research": [
+        {
+          "window_seconds": 8,
+          "candidates": [
+            {
+              "start_seconds": 88.59257044622169,
+              "repeat_seconds": 108.58808580611405,
+              "period_seconds": 19.99551535989237,
+              "pitch_distribution_cosine": 0.8817754449764327
+            },
+            {
+              "start_seconds": 84.19164362059945,
+              "repeat_seconds": 110.88422154122131,
+              "period_seconds": 26.69257792062187,
+              "pitch_distribution_cosine": 0.854071162412224
+            },
+            {
+              "start_seconds": 93.47185888332461,
+              "repeat_seconds": 110.11884296285223,
+              "period_seconds": 16.646984079527616,
+              "pitch_distribution_cosine": 0.7691643005378245
+            },
+            {
+              "start_seconds": 86.58345167800283,
+              "repeat_seconds": 109.92749831825995,
+              "period_seconds": 23.34404664025712,
+              "pitch_distribution_cosine": 0.7418229587571348
+            },
+            {
+              "start_seconds": 69.74512295388294,
+              "repeat_seconds": 106.38762239330293,
+              "period_seconds": 36.642499439419986,
+              "pitch_distribution_cosine": 0.7056497149258808
+            }
+          ]
+        },
+        {
+          "window_seconds": 16,
+          "candidates": [
+            {
+              "start_seconds": 82.75655878615741,
+              "repeat_seconds": 102.75207414604978,
+              "period_seconds": 19.99551535989237,
+              "pitch_distribution_cosine": 0.8285050527064637
+            },
+            {
+              "start_seconds": 76.34651319231631,
+              "repeat_seconds": 103.03909111293818,
+              "period_seconds": 26.69257792062187,
+              "pitch_distribution_cosine": 0.7350006524225585
+            },
+            {
+              "start_seconds": 86.00941774422603,
+              "repeat_seconds": 102.65640182375364,
+              "period_seconds": 16.646984079527616,
+              "pitch_distribution_cosine": 0.73396702748101
+            },
+            {
+              "start_seconds": 79.31235518349652,
+              "repeat_seconds": 102.65640182375364,
+              "period_seconds": 23.34404664025712,
+              "pitch_distribution_cosine": 0.6912884466199077
+            },
+            {
+              "start_seconds": 65.72688541744525,
+              "repeat_seconds": 99.02085357650049,
+              "period_seconds": 33.29396815905523,
+              "pitch_distribution_cosine": 0.6557566344192228
+            }
+          ]
+        }
+      ],
+      "perceptual_listening_validated": false
+    }
+  ]
+}
