@@ -42,10 +42,12 @@ bool8 CramoisTransferPalette(const u16 *source)
     u16 i, bank, pic;
     u8 battler, spriteId;
     vu16 *dest = (vu16 *)PLTT;
-    if (gMain.inBattle && gMain.callback2 == BattleMainCB2)
+    // Follow the displayed battle screen, including temporary main callbacks.
+    if (gMain.inBattle && gMain.vblankCallback == VBlankCB_Battle)
     {
-        // BG2-4 are terrain; OBJ0-3 are battler slots. UI stays native.
-        mask = 0x000F001C;
+        // BG2-4 are terrain; BG8/9 hold Yo-kai during monbg attacks.
+        // Tint both presentations identically; UI banks remain native.
+        mask = 0x000F031C;
         // Front trainers allocate a tagged palette outside the reserved battler
         // banks. Recognize their actual animation table, never a recycled UI sprite.
         for (battler = 0; battler < gBattlersCount && battler < MAX_BATTLERS_COUNT; battler++)
@@ -66,5 +68,19 @@ bool8 CramoisTransferPalette(const u16 *source)
     for (bank = 0; bank < 32; bank++, mask >>= 1)
         for (i = 0; i < 16; i++, source++, dest++)
             *dest = (mask & 1) ? sSepiaRgb555[*source & 0x7FFF] : *source;
+    return TRUE;
+}
+
+// monbg can write a palette straight to hardware after the VBlank transfer.
+// Match the battle tint immediately without modifying either source buffer.
+bool8 CramoisTransferBattleAnimPalette(u8 bank)
+{
+    u16 i, offset;
+    vu16 *dest = (vu16 *)PLTT;
+    if (!gMain.inBattle || !CramoisIsPastMap() || (bank != 8 && bank != 9))
+        return FALSE;
+    offset = bank * 16;
+    for (i = 0; i < 16; i++)
+        dest[offset + i] = sSepiaRgb555[gPlttBufferFaded[offset + i] & 0x7FFF];
     return TRUE;
 }

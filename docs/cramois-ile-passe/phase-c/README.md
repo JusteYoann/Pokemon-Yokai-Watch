@@ -1,3 +1,5 @@
+> **Dernière correction : [sépia constant pendant les combats, y compris les attaques — nouveaux GIF et tests](sepia-combat-constant/README.md).**
+
 > **Correction de combat plus récente : [proportions naturelles d’Hovernyan, capture et GIF](hovernyan-proportions/README.md).**
 
 > **Correction de taille plus récente : [Hovernyan mesure maintenant 19 pixels, comme Nathaniel — nouvelles captures et GIF](taille-hovernyan/README.md).** Les GIF et empreintes ci-dessous documentent le prototype précédent.

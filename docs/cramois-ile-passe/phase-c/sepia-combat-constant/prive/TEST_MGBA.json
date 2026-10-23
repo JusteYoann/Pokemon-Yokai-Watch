@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "rom_sha256": "43977b9c4a201dd544204e986703ca7bc8a442d135883a425bb412136cd21296",
+  "checks": [
+    {
+      "test": "Island overworld sepia unchanged",
+      "passed": true,
+      "palette_mask": "0xfff1fff",
+      "untinted_colors_match_native": true
+    },
+    {
+      "test": "Native Nathaniel introduction retains trainer sepia",
+      "passed": true,
+      "palette_mask": "0x4f031c",
+      "untinted_colors_match_native": true
+    },
+    {
+      "test": "Wild battle: terrain and both Yo-kai remain sepia",
+      "passed": true,
+      "palette_mask": "0xf031c",
+      "untinted_colors_match_native": true
+    },
+    {
+      "test": "Battle Bag keeps original fullscreen interface colors",
+      "passed": true,
+      "palette_mask": "0x0",
+      "untinted_colors_match_native": true
+    },
+    {
+      "test": "Battle Bag cancellation restores constant battle sepia",
+      "passed": true,
+      "palette_mask": "0xf031c",
+      "untinted_colors_match_native": true
+    },
+    {
+      "test": "Native BG1 copy retains identical Yo-kai sepia",
+      "passed": true,
+      "palette_mask": "0xf031c",
+      "untinted_colors_match_native": true
+    },
+    {
+      "test": "Native BG2 copy retains identical Yo-kai sepia",
+      "passed": true,
+      "palette_mask": "0xf031c",
+      "untinted_colors_match_native": true
+    },
+    {
+      "test": "MOVE_TACKLE victory returns to unchanged island sepia",
+      "passed": true,
+      "palette_mask": "0xfff1fff",
+      "untinted_colors_match_native": true
+    },
+    {
+      "test": "MOVE_TACKLE native attack keeps Yo-kai sepia through animation and return",
+      "passed": true,
+      "checked_battle_frames": 1964,
+      "hidden_sprite_samples": 219
+    },
+    {
+      "test": "MOVE_AERIAL_ACE victory returns to unchanged island sepia",
+      "passed": true,
+      "palette_mask": "0xfff1fff",
+      "untinted_colors_match_native": true
+    },
+    {
+      "test": "MOVE_AERIAL_ACE native attack keeps Yo-kai sepia through animation and return",
+      "passed": true,
+      "checked_battle_frames": 1133,
+      "hidden_sprite_samples": 106
+    },
+    {
+      "test": "MOVE_SHADOW_BALL victory returns to unchanged island sepia",
+      "passed": true,
+      "palette_mask": "0xfff1fff",
+      "untinted_colors_match_native": true
+    },
+    {
+      "test": "MOVE_SHADOW_BALL native attack keeps Yo-kai sepia through animation and return",
+      "passed": true,
+      "checked_battle_frames": 733,
+      "hidden_sprite_samples": 16
+    },
+    {
+      "test": "Outside island: terrain and Yo-kai remain native",
+      "passed": true,
+      "palette_mask": "0x0",
+      "untinted_colors_match_native": true
+    }
+  ],
+  "failure": null,
+  "scope": "Native mGBA: Cinnabar terrain/trainers/Yo-kai remain sepia in both OBJ and animation BG; UI remains native. Explicit new-game/map/party/move fixtures; no enemy HP/outcome changes."
+}

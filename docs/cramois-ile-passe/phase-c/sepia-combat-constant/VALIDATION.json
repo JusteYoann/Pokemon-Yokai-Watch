@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "base": "61ef33372",
+  "decision": "Keep constant sepia throughout Cinnabar battles, including monbg attacks and immediate fade uploads",
+  "versions": {
+    "public": {
+      "rom_sha256": "4ac0927109cadf13c017709241a85750a7cbb37c0e5b3c4cd0fb3eb13eca5305",
+      "tests": {
+        "targeted": {
+          "checks": 14,
+          "passed": true,
+          "report": "public/TEST_MGBA.json"
+        },
+        "phase_a_regression": {
+          "checks": 40,
+          "passed": true,
+          "report": "regressions/phase-a/public/apres/TEST_MGBA.json"
+        }
+      },
+      "checks_passed": 54,
+      "ewram_before": 261368,
+      "ewram_after": 261368,
+      "ewram_free": 776,
+      "iwram_bytes": 29824
+    },
+    "prive": {
+      "rom_sha256": "43977b9c4a201dd544204e986703ca7bc8a442d135883a425bb412136cd21296",
+      "tests": {
+        "targeted": {
+          "checks": 14,
+          "passed": true,
+          "report": "prive/TEST_MGBA.json"
+        },
+        "phase_a_regression": {
+          "checks": 40,
+          "passed": true,
+          "report": "regressions/phase-a/prive/apres/TEST_MGBA.json"
+        }
+      },
+      "checks_passed": 54,
+      "ewram_before": 261368,
+      "ewram_after": 261368,
+      "ewram_free": 776,
+      "iwram_bytes": 29888
+    }
+  },
+  "graphics_teams_species_maps_scripts_and_audio_sources_unchanged": true,
+  "coverage_limits": [
+    "Three native attack scripts plus explicit BG1/BG2 copy probes; not all battle animations.",
+    "New-game, map, parties and moves are declared fixtures; no enemy HP or outcomes forced.",
+    "No physical GBA validation."
+  ]
+}
