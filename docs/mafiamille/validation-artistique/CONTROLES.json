@@ -1,0 +1,167 @@
+{
+  "base": "ddcb53b10e8cca51283b291078a1d91d20e3643c",
+  "scope": "previews_only_no_ROM_integration",
+  "active_tracked_files_identical_to_base": 16956,
+  "native_masks": {
+    "rouleaux": [
+      "........OOOOOOOOOO.........",
+      "......OOLLLLLLLLLLOO.......",
+      ".....OLLLLLLLLLLLLLSO......",
+      ".....OLLLLLLLLLLLLLSO......",
+      ".....OLLLLLLLLLLLLLSO......",
+      ".....OLLLLLLLLLLLLSSO......",
+      ".....OLLLLLLLLLLLLSSO......",
+      ".....OLLLLLLLLLLLSSSO......",
+      ".....OBBBBBBBBBBBBBBO......",
+      ".....OBBBBBBBBBBBBBBO......",
+      "...OOSSSSSSSSSSSSSSSSOO....",
+      ".OOLLLLLLLLLLLLLLLLLLLLSOO.",
+      "OLLLLLLLLLLLLLLLLLLLLLLSSO.",
+      "OOSSSSSSSSSSSSSSSSSSSSSSOO.",
+      "..OOOOOOOOOOOOOOOOOOOOOO..."
+    ],
+    "gains": [
+      "....OOOOOO....",
+      "...OLLLLLSO...",
+      "...OLLLLLSO...",
+      "...OLLLLSSO...",
+      "...OBBBBBBO...",
+      "..OSSSSSSSSO..",
+      "OOLLLLLLLLLSOO",
+      "OSSSSSSSSSSSSO",
+      ".OOOOOOOOOOOO."
+    ],
+    "repaire": [
+      "...OOOOOO...",
+      "..OLLLLSSO..",
+      "..OLLLLSSO..",
+      "..OLLLSSSO..",
+      "..OBBBBBBO..",
+      ".OSSSSSSSSO.",
+      "OLLLLLLLLLSO",
+      "OSSSSSSSSSSO",
+      ".OOOOOOOOOO."
+    ],
+    "entrepot": [
+      ".....OOOOOO.....",
+      "....OLLLLLSO....",
+      "...OLLLLLLLSO...",
+      "...OLLLLLLLSO...",
+      "...OLLLLLLSSO...",
+      "...OBBBBBBBBO...",
+      "..OSSSSSSSSSSO..",
+      ".OLLLLLLLLLLLSO.",
+      "OLLLLLLLLLLLLSSO",
+      "OSSSSSSSSSSSSSSO",
+      ".OOOOOOOOOOOOOO."
+    ]
+  },
+  "checks": [
+    {
+      "resource": "reel_icons.png",
+      "size": [
+        32,
+        224
+      ],
+      "edit_box": [
+        0,
+        32,
+        32,
+        64
+      ],
+      "palette_unchanged": true,
+      "other_six_icons_identical": true,
+      "mask_size": [
+        27,
+        15
+      ]
+    },
+    {
+      "resource": "combos_window.png",
+      "size": [
+        112,
+        40
+      ],
+      "edit_box": [
+        48,
+        0,
+        64,
+        16
+      ],
+      "palette_unchanged": true,
+      "other_pixels_identical": true,
+      "mask_size": [
+        14,
+        9
+      ],
+      "rendered_three_times_by_unchanged_tilemap": true
+    },
+    {
+      "resource": "graphics/map_preview/rocket_hideout/tiles.png",
+      "size": [
+        120,
+        104
+      ],
+      "render_size": [
+        256,
+        160
+      ],
+      "mask_size": [
+        12,
+        9
+      ],
+      "changed_pixels": 108,
+      "preview_tilemap_repacked": true,
+      "palette_unchanged": true,
+      "shared_tile_no_collateral_changes": true,
+      "used_tiles": 193,
+      "available_tiles": 195,
+      "erase_box": [
+        3,
+        66,
+        14,
+        83
+      ],
+      "erase_background_index": 10,
+      "mask_position": [
+        2,
+        69
+      ]
+    },
+    {
+      "resource": "graphics/map_preview/rocket_warehouse/tiles.png",
+      "size": [
+        120,
+        128
+      ],
+      "render_size": [
+        256,
+        160
+      ],
+      "mask_size": [
+        16,
+        11
+      ],
+      "changed_pixels": 255,
+      "preview_tilemap_repacked": true,
+      "palette_unchanged": true,
+      "shared_tile_no_collateral_changes": true,
+      "used_tiles": 234,
+      "available_tiles": 240,
+      "erase_box": [
+        20,
+        61,
+        36,
+        82
+      ],
+      "erase_background_index": 10,
+      "mask_position": [
+        20,
+        65
+      ]
+    }
+  ],
+  "walking_gifs_byte_identical": true,
+  "emblem_author": "Native pixel masks drawn specifically for this project from existing Don artwork; no external artwork imported.",
+  "emulator_tests_rerun": false
+}
