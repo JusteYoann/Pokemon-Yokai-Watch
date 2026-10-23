@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "rom_sha256": "095e4d7657bdeb8baa126728eb84bd44828cd0ab04d2948b9f7d5688fca54005",
+  "checks": [
+    {
+      "test": "Native back-facing companion uses supplied cape-covered frame",
+      "passed": true
+    },
+    {
+      "test": "Companion occupies its tile and blocks overlap normally",
+      "passed": true
+    },
+    {
+      "test": "Companion native A interaction returns control and grants no gift",
+      "passed": true
+    },
+    {
+      "test": "Fullscreen Bag exit restores companion tile and palette",
+      "passed": true
+    },
+    {
+      "test": "Native approved question 1 displayed with Yes/No menu",
+      "passed": true
+    },
+    {
+      "test": "Native approved question 2 displayed with Yes/No menu",
+      "passed": true
+    },
+    {
+      "test": "Native approved question 3 displayed with Yes/No menu",
+      "passed": true
+    },
+    {
+      "test": "Native approved question 4 displayed with Yes/No menu",
+      "passed": true
+    },
+    {
+      "test": "Native approved question 5 displayed with Yes/No menu",
+      "passed": true
+    },
+    {
+      "test": "Native approved question 6 displayed with Yes/No menu",
+      "passed": true
+    }
+  ],
+  "failure": null,
+  "fixtures": "Additional native phase C captures: both companion orientations, collision, interaction, quiz prompts. Explicit map/orientation fixtures, no graphic simulation."
+}

@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "base": "b3861163a",
+  "change": "Hovernyan visible height 26 to19; nearest-neighbor, unchanged palette and feet aligned",
+  "versions": {
+    "public": {
+      "rom_sha256": "4f5fd71ba3cc39570ffe139bd8868cd7eac9c27828491c08072ec7dfb14e035b",
+      "native_visual_checks_passed": 10,
+      "height_and_baseline_passed": true,
+      "ewram_bytes": 261368,
+      "ewram_free": 776,
+      "ewram_added": 0
+    },
+    "prive": {
+      "rom_sha256": "095e4d7657bdeb8baa126728eb84bd44828cd0ab04d2948b9f7d5688fca54005",
+      "native_visual_checks_passed": 10,
+      "height_and_baseline_passed": true,
+      "ewram_bytes": 261368,
+      "ewram_free": 776,
+      "ewram_added": 0
+    }
+  }
+}

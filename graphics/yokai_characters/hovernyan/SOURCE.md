@@ -1,1 +1,3 @@
 Adaptation de la référence Hovernyan face/dos fournie dans le chat. Vue de dos corrigée à la demande : cape rouge retombant sur tout le dos. Dessin adapté avec imagegen, puis conversion matérielle 24×26 pixels utiles dans des cellules 32×32, quinze couleurs RGB555 + transparence. Deux vues statiques uniquement ; aucun sprite de combat modifié.
+
+Correction de taille demandée : réduction mécanique au plus proche voisin de la planche précédente conservée dans `overworld-reference.png`. Chaque vue mesure désormais 18×19 pixels utiles, comme les 19 pixels de hauteur de Nathaniel, avec les pieds alignés. Aucune couleur de palette, pose ou cape n'est redessinée. Reproduction : `python3 tools/yokai/redimensionner_hovernyan.py`.

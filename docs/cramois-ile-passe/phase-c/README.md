@@ -1,3 +1,5 @@
+> **Correction de taille plus récente : [Hovernyan mesure maintenant 19 pixels, comme Nathaniel — nouvelles captures et GIF](taille-hovernyan/README.md).** Les GIF et empreintes ci-dessous documentent le prototype précédent.
+
 # Phase C — Nathaniel/Michael et Arène de Cramois
 
 Phase B approuvée visuellement. Phase C intégrée sur `feature/cramois-ile-passe`, proposée pour revue visuelle et scénaristique. Aucun merge sur master. La phase D exhaustive n'est pas commencée.

@@ -1,3 +1,5 @@
+> Dernier ajustement : [taille d’Hovernyan alignée sur Nathaniel](phase-c/taille-hovernyan/README.md).
+
 > **Phase C intégrée, en attente de revue visuelle et scénaristique : [rapport, GIF et tests](phase-c/README.md).** La phase B est validée. Aucun merge sur master.
 
 # Cramois'Île — soixante ans dans le passé
