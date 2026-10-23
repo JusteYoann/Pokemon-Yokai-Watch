@@ -50,4 +50,7 @@ void SeedWildEncounterRng(u16 randVal);
 void ResetEncounterRateModifiers(void);
 bool8 TryStandardWildEncounter(u32 currMetatileAttrs);
 
+bool8 IsSafariWildMap(void);
+u32 SafariWildPersonality(u32 personality, u32 otId);
+
 #endif // GUARD_WILD_ENCOUNTER_H

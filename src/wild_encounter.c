@@ -224,6 +224,25 @@ static bool8 UnlockedTanobyOrAreNotInTanoby(void)
     return FALSE;
 }
 
+// Map-based scope: cannot affect gifts, eggs, statics, or a stale Safari flag.
+bool8 IsSafariWildMap(void)
+{
+    u16 map = (gSaveBlock1Ptr->location.mapGroup << 8) | gSaveBlock1Ptr->location.mapNum;
+    return map == MAP_SAFARI_ZONE_CENTER || map == MAP_SAFARI_ZONE_EAST
+        || map == MAP_SAFARI_ZONE_NORTH || map == MAP_SAFARI_ZONE_WEST;
+}
+
+// Exactly 24 of 65536 XOR outcomes (3/8192), without regeneration.
+// Set the PID BEFORE CreateMon encrypts the data; nature/ability/gender are
+// derived normally from this final PID and the player's OT remains unchanged.
+u32 SafariWildPersonality(u32 personality, u32 otId)
+{
+    u16 value = (otId >> 16) ^ otId ^ (personality >> 16) ^ personality;
+    if (value < 3 * SHINY_ODDS)
+        personality ^= (u32)(value & ~(SHINY_ODDS - 1)) << 16;
+    return personality;
+}
+
 static void GenerateWildMon(u16 species, u8 level, u8 slot)
 {
     u32 personality;
@@ -238,7 +257,17 @@ static void GenerateWildMon(u16 species, u8 level, u8 slot)
     ZeroEnemyPartyMons();
     if (species != SPECIES_UNOWN)
     {
-        CreateMonWithNature(&gEnemyParty[0], species, level, USE_RANDOM_IVS, Random() % NUM_NATURES);
+        if (IsSafariWildMap())
+        {
+            u32 otId = gSaveBlock2Ptr->playerTrainerId[0]
+                | (gSaveBlock2Ptr->playerTrainerId[1] << 8)
+                | (gSaveBlock2Ptr->playerTrainerId[2] << 16)
+                | (gSaveBlock2Ptr->playerTrainerId[3] << 24);
+            personality = SafariWildPersonality(Random32(), otId);
+            CreateMon(&gEnemyParty[0], species, level, USE_RANDOM_IVS, TRUE, personality, OT_ID_PLAYER_ID, 0);
+        }
+        else
+            CreateMonWithNature(&gEnemyParty[0], species, level, USE_RANDOM_IVS, Random() % NUM_NATURES);
     }
     else
     {
