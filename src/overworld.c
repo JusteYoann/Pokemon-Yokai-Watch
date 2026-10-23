@@ -1,5 +1,6 @@
 #include "philosovni.h"
 #include "global.h"
+#include "cramois_past.h"
 #include "lavanville.h"
 #include "gflib.h"
 #include "bg_regs.h"
@@ -1503,6 +1504,11 @@ static void OverworldBasic(void)
 void CB2_OverworldBasic(void)
 {
     OverworldBasic();
+}
+
+bool8 CramoisIsOverworldView(void)
+{
+    return gMain.callback2 == CB2_Overworld || gMain.callback2 == CB2_OverworldBasic;
 }
 
 static void CB2_Overworld(void)

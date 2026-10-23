@@ -1,4 +1,5 @@
 #include "global.h"
+#include "cramois_past.h"
 #include "gflib.h"
 #include "util.h"
 #include "decompress.h"
@@ -103,7 +104,8 @@ void TransferPlttBuffer(void)
     {
         void *src = gPlttBufferFaded;
         void *dest = (void *)PLTT;
-        DmaCopy16(3, src, dest, PLTT_SIZE);
+        if (!CramoisTransferPalette(src))
+            DmaCopy16(3, src, dest, PLTT_SIZE);
         sPlttBufferTransferPending = FALSE;
         if (gPaletteFade.mode == HARDWARE_FADE && gPaletteFade.active)
             UpdateBlendRegisters();

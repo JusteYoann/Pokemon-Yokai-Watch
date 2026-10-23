@@ -8,7 +8,7 @@ Les treize cartes concernées sont l'extérieur, les quatre étages du Manoir et
 
 Le moteur possède déjà un sépia, mais cette routine modifie la palette fournie et n'isole pas les interfaces. La piste retenue est une conversion RGB555 lors du transfert vers la palette matérielle, uniquement pour les banques du décor et des acteurs. Les deux buffers originaux sont conservés : le sépia ne se cumule pas, suit les fondus et animations, et disparaît automatiquement hors des contextes autorisés.
 
-Audit des banques : décor de combat BG 2, 3, 4 ; interface de combat BG 0, 1, 5 et 7 ; combattants et portraits OBJ 0 à 3 ; barres de PV et statuts dans des banques OBJ distinctes. Sur la carte, les tuiles du décor utilisent BG 0 à 12 ; les fenêtres standard/dialogues utilisent leurs banques réservées. Ces limites doivent être vérifiées dans mGBA, avec menus et jauges.
+Audit des banques : décor de combat BG 2, 3, 4 ; interface de combat BG 0, 1, 5 et 7 ; combattants OBJ 0 à 3 ; portraits de face dans une banque attribuée par tag, à sélectionner dynamiquement ; barres de PV et statuts dans des banques OBJ distinctes. Sur la carte, les tuiles du décor utilisent BG 0 à 12 ; les fenêtres standard/dialogues utilisent leurs banques réservées. Ces limites doivent être vérifiées dans mGBA, avec menus et jauges.
 
 Une table de conversion RGB555 de 64 Kio en ROM évitera une allocation permanente et les calculs par couleur pendant VBlank. La version privée dispose encore de plus de 1 Mio ROM libre. Aucun dessin ni PNG/palette approuvé n'est remplacé.
 
