@@ -5,8 +5,36 @@ R=Path(__file__).resolve().parents[4];D=R/'graphics/alyzon_bie/calque-pnj';Q=R/'
 source=R/'graphics/object_events/pics/people/beauty.png';src=Image.open(source)
 # Native Beauty palette roles retained, recolored locally for Alyzon.
 # Index9 is unused in the source and becomes the cyan iris.
-pal=[(0,0,0),(248,208,176),(240,184,144),(216,144,112),(120,64,64),(248,216,72),(208,168,32),(128,96,0),(128,64,152),(24,152,168),(40,64,88),(248,248,240),(184,184,192),(48,40,48),(248,248,240),(8,8,8)]
+pal=[(0,0,0),(248,208,176),(240,184,144),(216,144,112),(120,64,64),(248,224,104),(216,184,64),(144,112,40),(128,64,152),(24,152,168),(40,64,88),(248,248,240),(184,184,192),(48,40,48),(248,248,240),(8,8,8)]
 flat=sum((list(c) for c in pal),[])+[0]*(768-48)
+def retouches_alyzon(f,direction,phase,off,base):
+ # Small native recolorings: hair flows diagonally instead of the base's crown curl.
+ patterns={
+  'face':{12:{6:5,7:5,8:6},13:{6:5,7:5,8:5,10:6},14:{4:5,5:5,6:5,9:6,10:6},15:{4:5,5:5,6:5,9:6},16:{7:5,8:6,9:7},17:{8:7,9:6},21:{2:5,13:5}},
+  'dos':{17:{6:5,7:6},18:{6:5,7:6},19:{6:5,7:6},20:{5:5,6:5},21:{2:5,6:6,7:7,13:5},22:{3:5,6:7,7:7,12:5}},
+  'gauche':{14:{8:5,9:5,10:6},15:{7:5,8:5,10:6},17:{8:5,9:5,10:6},21:{13:5},22:{12:5}}
+ }
+ for yy,changes in patterns[direction].items():
+  y=yy+off
+  for x,c in changes.items():
+   if y<32 and f.getpixel((x,y)) in [5,6,7]:f.putpixel((x,y),c)
+ # Coat sleeves follow the exact existing arm shapes, with hands kept visible.
+ if direction=='face':
+  y=24+off
+  for x,c in [(3,12),(4,11),(11,11),(12,12)]:
+   if y<32 and base.getpixel((x,y)) in [1,2,3,4]:f.putpixel((x,y),c)
+  # Purple neckline extends by a single row; small gray buckle at the waist.
+  y=24+off
+  for x in [7,8]:
+   if y<32 and base.getpixel((x,y)) in [1,2,3,8,10,11,12,14]:f.putpixel((x,y),8)
+  y=27+off
+  if y<32 and base.getpixel((7,y)) in [8,10,11,12,14]:f.putpixel((7,y),12)
+ elif direction=='gauche':
+  for yy in [24,25]:
+   y=yy+off
+   for x,c in [(7,11),(8,12)]:
+    if y<32 and base.getpixel((x,y)) in [1,2,3,4]:f.putpixel((x,y),c)
+ return f
 frames={};records=[];order={'face':[0,3,4],'dos':[1,5,6],'gauche':[2,7,8]}
 for direction,indices in order.items():
  frames[direction]=[]
@@ -46,6 +74,7 @@ for direction,indices in order.items():
    for yy in [18,19,20]:paint(2,yy+off,0)
    for y in [24+off,25+off]:
     if y<32 and base.getpixel((4,y)):paint(4,y,8)
+  f=retouches_alyzon(f,direction,phase,off,base)
   # Native source silhouettes below the crown remain pixel-for-pixel identical.
   for y in range(23+off,32):
    for x in range(16):assert bool(f.getpixel((x,y)))==bool(base.getpixel((x,y)))
@@ -63,6 +92,7 @@ for phase,idx in enumerate(order['gauche']):
  for yy in [18,19,20]:f.putpixel((2,yy+off),0)
  for y in [24+off,25+off]:
   if y<32 and base.getpixel((4,y)):f.putpixel((4,y),8)
+ f=retouches_alyzon(f,'gauche',phase,off,base)
  f=ImageOps.mirror(f);frames['droite'].append(f);pose=['repos','pas-1','pas-2'][phase];f.save(D/f'droite-{pose}.png',transparency=0)
  records.append(dict(direction='droite',pose=pose,source_frame=idx,source_bbox=b,bbox=f.convert('RGBA').getbbox(),body_alpha_unchanged=True,source_feet_unchanged=True,mirrored_source=True))
 # Reusable native exports.

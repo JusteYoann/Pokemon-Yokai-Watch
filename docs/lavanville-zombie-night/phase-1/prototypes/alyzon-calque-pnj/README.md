@@ -22,3 +22,9 @@ La première rangée de la pointe de cheveux est retirée seulement lorsque le P
 Les douze déplacements, coordonnées, phases d'animation et palettes passent les contrôles mGBA. Les images 16 × 32 sont centrées dans une cellule de test 32 × 32 sans mise à l'échelle. Les profils sont sélectionnés séparément dans les clips pour respecter l'asymétrie des cheveux.
 
 Il s'agit de graphismes temporaires en RAM, sans intégration permanente. ROM et sauvegardes inchangées, aucun scénario, carte ou élément de gameplay modifié. Les précédentes propositions restent archivées séparément. Le décalque reste une proposition artistique à valider.
+
+## Retouches légères pour rapprocher l'apparence de l'artwork
+
+La base et ses silhouettes restent celles de la version décalquée. Le blond est éclairci et légèrement désaturé ; quelques groupes de pixels forment une mèche diagonale plus lisible et des reflets sur les pointes. Les manches sont repeintes en blanc/gris sur les pixels de bras existants, en conservant les mains. L'encolure violette gagne une rangée et une boucle grise apparaît à la taille. Aucun déplacement de pixels de contour ou changement de proportions n'est ajouté.
+
+`RETOUCHES.json` compare les douze images au commit du premier décalque : transparences/silhouettes, position des iris et rangées des pieds restent identiques. Les changements d'indices sont localisés ; la palette des cheveux est commune à toutes les poses. Le nouvel aperçu mGBA passe à nouveau douze déplacements natifs.
