@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "rom_sha256": "72d5eeeae79b6ca42393d06f31b28b5be7e6cac1972465462bd8949df8918d8d",
+  "checks": [
+    {
+      "test": "First accepted dialogue automatically activates Ariane; no overworld Usapion",
+      "passed": true
+    },
+    {
+      "test": "Controller walking, corners and immediate reversal keep one adjacent Ariane",
+      "passed": true,
+      "player": [
+        35,
+        30
+      ],
+      "ariane": [
+        34,
+        30
+      ]
+    },
+    {
+      "test": "Automatic reminder after approximately five seconds without movement",
+      "passed": true,
+      "remaining_frames_after_settle": 250
+    },
+    {
+      "test": "One reminder per stop, no repeated dialogue after 10 more seconds",
+      "passed": true
+    },
+    {
+      "test": "Menu pauses reminder timing",
+      "passed": true
+    },
+    {
+      "test": "Native Save/Continue restores the active companion without duplicates",
+      "passed": true
+    },
+    {
+      "test": "Native door transition respawns one companion in the warehouse",
+      "passed": true
+    },
+    {
+      "test": "Continue inside warehouse keeps companion and new grunt IDs",
+      "passed": true
+    },
+    {
+      "test": "Warehouse reminder gives the interior objective",
+      "passed": true
+    },
+    {
+      "test": "Talking to the dynamic follower returns safely to field",
+      "passed": true
+    },
+    {
+      "test": "Real duo keeps AI Usapion in battle; both grunts escape, Cut received, following ends",
+      "passed": true
+    },
+    {
+      "test": "No reminder after investigation completion",
+      "passed": true
+    },
+    {
+      "test": "Route25 secondary Ariane preserved and overworld Usapion removed",
+      "passed": true
+    },
+    {
+      "test": "Pending reward can finish after travel/Continue without removing unrelated NPCs",
+      "passed": true
+    }
+  ],
+  "failure": null,
+  "fixtures": "Native new game, strong party, initial map positions; real controller movement, quest acceptance, reminder, doors and battle."
+}

@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "base": "a8c97b3ca",
+  "branch": "feature/cramois-ile-passe",
+  "code_commit": "f2bcea8cc",
+  "merged_to_master": false,
+  "phase_d_started": false,
+  "versions": {
+    "public": {
+      "rom_sha256": "5f0c13221e974be605887cdf277509a0822c75759ff88f0f25acbb983c145411",
+      "rom_bytes": 16777216,
+      "tests": {
+        "phase_c": {
+          "passed": true,
+          "checks": 37,
+          "report": "public/TEST_MGBA.json"
+        },
+        "visuals": {
+          "passed": true,
+          "checks": 10,
+          "report": "public/VISUELS_MGBA.json"
+        },
+        "phase_a": {
+          "passed": true,
+          "checks": 40,
+          "report": "regressions/phase-a/public/apres/TEST_MGBA.json"
+        },
+        "phase_b": {
+          "passed": true,
+          "checks": 35,
+          "report": "regressions/phase-b/public/TEST_MGBA.json"
+        },
+        "ariane": {
+          "passed": true,
+          "checks": 14,
+          "report": "regressions/ariane/public/TEST_MGBA.json"
+        }
+      },
+      "total_checks": 136
+    },
+    "prive": {
+      "rom_sha256": "72d5eeeae79b6ca42393d06f31b28b5be7e6cac1972465462bd8949df8918d8d",
+      "rom_bytes": 31744663,
+      "tests": {
+        "phase_c": {
+          "passed": true,
+          "checks": 37,
+          "report": "prive/TEST_MGBA.json"
+        },
+        "visuals": {
+          "passed": true,
+          "checks": 10,
+          "report": "prive/VISUELS_MGBA.json"
+        },
+        "phase_a": {
+          "passed": true,
+          "checks": 40,
+          "report": "regressions/phase-a/prive/apres/TEST_MGBA.json"
+        },
+        "phase_b": {
+          "passed": true,
+          "checks": 35,
+          "report": "regressions/phase-b/prive/TEST_MGBA.json"
+        },
+        "ariane": {
+          "passed": true,
+          "checks": 14,
+          "report": "regressions/ariane/prive/TEST_MGBA.json"
+        }
+      },
+      "total_checks": 136
+    }
+  },
+  "memory": {
+    "public": {
+      "ewram_before": 261368,
+      "ewram_after": 261368,
+      "ewram_added": 0,
+      "ewram_free": 776,
+      "iwram_before": 29824,
+      "iwram_after": 29824
+    },
+    "prive": {
+      "ewram_before": 261368,
+      "ewram_after": 261368,
+      "ewram_added": 0,
+      "ewram_free": 776,
+      "iwram_before": 29888,
+      "iwram_after": 29888
+    }
+  },
+  "companion_resources": {
+    "static_ewram_bytes": 0,
+    "obj_sprite_slots": 1,
+    "obj_vram_tile_bytes": 512,
+    "existing_reserved_palette_bank": 8,
+    "source_frames": 2
+  },
+  "limitations": [
+    "Native mGBA only; no physical GBA validation.",
+    "Postgame eligibility uses the League flag fixture; League not replayed.",
+    "Mansion key puzzle and fossil resurrection not replayed; original sources preserved.",
+    "Some trainer events are launched via native script context with selected actor; no claim of a complete walking playthrough.",
+    "Two static companion orientations only; scenes are stationary.",
+    "Special-move and broader limits of prior A/B suites remain applicable.",
+    "Private audio verified byte for byte; no additional listening certification."
+  ]
+}

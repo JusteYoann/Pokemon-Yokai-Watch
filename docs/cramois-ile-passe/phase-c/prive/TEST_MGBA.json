@@ -1,0 +1,185 @@
+{
+  "passed": true,
+  "rom_sha256": "72d5eeeae79b6ca42393d06f31b28b5be7e6cac1972465462bd8949df8918d8d",
+  "checks": [
+    {
+      "test": "Nathaniel and Hovernyan initial spawn",
+      "passed": true,
+      "local_id": 10,
+      "palette_bank": 8,
+      "adjacent": true
+    },
+    {
+      "test": "All Gym dialogue lines fit native font",
+      "passed": true,
+      "lines": 286,
+      "max_pixels": 197,
+      "limit": 208
+    },
+    {
+      "test": "Companion preserved after first native victory",
+      "passed": true,
+      "local_id": 10,
+      "palette_bank": 8,
+      "adjacent": true
+    },
+    {
+      "test": "Actual first Champion victory gives Badge and CT, no postgame gift",
+      "passed": true,
+      "levels": [
+        40,
+        41,
+        41,
+        42,
+        43,
+        45
+      ]
+    },
+    {
+      "test": "Companion and meeting state survive native Save/Continue",
+      "passed": true,
+      "local_id": 10,
+      "palette_bank": 8,
+      "adjacent": true
+    },
+    {
+      "test": "Pre-League revisit cannot rematch or obtain Hovernyan",
+      "passed": true
+    },
+    {
+      "test": "Quiz 1 correct/left-side opens without battle",
+      "passed": true
+    },
+    {
+      "test": "Quiz 2 correct/left-side opens without battle",
+      "passed": true
+    },
+    {
+      "test": "Quiz 3 correct/left-side opens without battle",
+      "passed": true
+    },
+    {
+      "test": "Quiz 4 correct/left-side opens without battle",
+      "passed": true
+    },
+    {
+      "test": "Quiz 5 correct/left-side opens without battle",
+      "passed": true
+    },
+    {
+      "test": "Quiz 6 correct/left-side opens without battle",
+      "passed": true
+    },
+    {
+      "test": "Six opened quiz doors survive native Save/Continue",
+      "passed": true
+    },
+    {
+      "test": "Quiz 1 wrong/right-side native battle opens door",
+      "passed": true
+    },
+    {
+      "test": "Quiz 2 wrong/right-side native battle opens door",
+      "passed": true
+    },
+    {
+      "test": "Quiz 3 wrong/right-side native battle opens door",
+      "passed": true
+    },
+    {
+      "test": "Quiz 4 wrong/right-side native battle opens door",
+      "passed": true
+    },
+    {
+      "test": "Quiz 5 wrong/right-side native battle opens door",
+      "passed": true
+    },
+    {
+      "test": "Quiz 6 wrong/right-side native battle opens door",
+      "passed": true
+    },
+    {
+      "test": "Direct native trainer challenge 1 opens its door",
+      "passed": true
+    },
+    {
+      "test": "Direct native trainer challenge 2 opens its door",
+      "passed": true
+    },
+    {
+      "test": "Direct native trainer challenge 3 opens its door",
+      "passed": true
+    },
+    {
+      "test": "Direct native trainer challenge 4 opens its door",
+      "passed": true
+    },
+    {
+      "test": "Direct native trainer challenge 5 opens its door",
+      "passed": true
+    },
+    {
+      "test": "Direct native trainer challenge 6 opens its door",
+      "passed": true
+    },
+    {
+      "test": "Postgame rematch refusal gives nothing",
+      "passed": true
+    },
+    {
+      "test": "Actual lost rematch cannot unlock gift",
+      "passed": true
+    },
+    {
+      "test": "Actual post-League second victory awards Hovernyan level45 once",
+      "passed": true
+    },
+    {
+      "test": "Past companion remains after gift Save/Continue",
+      "passed": true,
+      "local_id": 10,
+      "palette_bank": 8,
+      "adjacent": true
+    },
+    {
+      "test": "Gift flag durable, repeated talk gives no duplicate",
+      "passed": true
+    },
+    {
+      "test": "Full party + 420 full boxes keeps pending reward across Save/Continue",
+      "passed": true
+    },
+    {
+      "test": "Retry after one freed PC slot transfers Hovernyan without another battle",
+      "passed": true
+    },
+    {
+      "test": "PC reward cannot duplicate after Save/Continue",
+      "passed": true
+    },
+    {
+      "test": "Michael and Hovernyan initial spawn",
+      "passed": true,
+      "local_id": 10,
+      "palette_bank": 8,
+      "adjacent": true
+    },
+    {
+      "test": "Michael actual first victory preserves Badge/CT and cannot gift even with League flag already set",
+      "passed": true
+    },
+    {
+      "test": "Michael actual postgame victory awards Hovernyan",
+      "passed": true
+    },
+    {
+      "test": "Michael companion remains after postgame gift and Save/Continue",
+      "passed": true,
+      "local_id": 10,
+      "palette_bank": 8,
+      "adjacent": true
+    }
+  ],
+  "failure": null,
+  "fixtures": "Phase C native scripts/controller tests. Warps/strong party/progression and PC fixtures stated explicitly; no opponent HP or outcome edits."
+}

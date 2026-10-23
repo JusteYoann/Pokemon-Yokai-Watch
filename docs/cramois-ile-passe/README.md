@@ -1,8 +1,10 @@
+> **Phase C intégrée, en attente de revue visuelle et scénaristique : [rapport, GIF et tests](phase-c/README.md).** La phase B est validée. Aucun merge sur master.
+
 # Cramois'Île — soixante ans dans le passé
 
-**Phase A validée. [Phase B implémentée : brume maritime et transitions, à approuver visuellement](phase-b/README.md). Phase C non commencée.**
+**Phases A et B validées. [Phase C intégrée : rencontre, quiz et Hovernyan, en attente de revue](phase-c/README.md).**
 
-Les captures, chiffres et descriptions ci-dessous documentent la phase A au commit `1f335d268`. Les résultats et mesures actuels figurent dans le rapport de phase B.
+Les captures, chiffres et descriptions ci-dessous documentent la phase A au commit `1f335d268`. Les résultats et mesures actuels figurent dans le rapport de phase C.
 
 Branche : `feature/cramois-ile-passe`. Base validée : `2e81a799f`. Audit préalable : `0c79002b9`. Implémentation : `3e5fded7c`. Aucun merge sur master.
 

@@ -11,13 +11,13 @@ Base : branche validée `feature/pierre-philosovni-carmin`, commit `2e81a799f`. 
 - Mesure de mémoire et contrôle des ressources préservées ; réexécution du suivi d'Ariane et du duo.
 - **Phase A validée dans la demande de phase B.** Le sépia de l’île reste conservé.
 
-## Phase B — Frontière maritime réalisée, approbation visuelle attendue
+## Phase B — Frontière maritime validée
 
-Brume blanche/grise progressive sur les accès Route 21 Sud et Route 20, dans les deux sens, avec restauration des palettes. Aucun brouillard sur l'île ou ses intérieurs ; aucune réutilisation de la brume verte de Lavanville. Surf, collisions, retours après sauvegarde et déplacements spéciaux doivent rester fonctionnels. Les GIF natifs et la validation technique sont fournis dans [phase-b/README.md](phase-b/README.md). Arrêt avant la phase C, conformément à la demande.
+Brume blanche/grise progressive sur les accès Route 21 Sud et Route 20, dans les deux sens, avec restauration des palettes. Aucun brouillard sur l'île ou ses intérieurs ; aucune réutilisation de la brume verte de Lavanville. Surf, collisions, retours après sauvegarde et déplacements spéciaux doivent rester fonctionnels. Les GIF natifs et la validation technique sont fournis dans [phase-b/README.md](phase-b/README.md). Phase B approuvée visuellement dans la demande de phase C.
 
-## Phase C — Scénario et Arène
+## Phase C — Intégration réalisée, revue visuelle et scénaristique attendue
 
-Rencontre humoristique avec Nathaniel pour le garçon et Michael pour la fille, sans que le grand-père croie jamais au voyage temporel. L'année évoquée devra s'appuyer sur la chronologie du jeu, pas sur l'horloge de l'ordinateur. Aucun lien causal confirmé avec la Pierre Philosovni, l'OVNI ou la Mafiamille.
+[Rapport de phase C](phase-c/README.md). Correction explicite du créateur : aucune date ni mention de voyage temporel. Le joueur est sous le choc et ne conclut rien ; le grand-père pense à une confusion. Hovernyan reste adjacent, avec la cape couvrant son dos. Revanche et don unique postgame avec gestion de l'équipe et du PC complets.
 
 Conserver exactement Métaurolog 40, Sirénité 41, Sal de bain 41, Brumella 42, Faux Kappa 43 et Hovernyan 45, les récompenses et la Clé Secrète. Réutiliser le quiz et les portes existantes. Questions, dans l'ordre et avec les réponses fixées :
 
@@ -28,7 +28,7 @@ Conserver exactement Métaurolog 40, Sirénité 41, Sal de bain 41, Brumella 42,
 5. « Hovernyan s'est-il déjà fait appeler Méga-nyan ? » — OUI.
 6. « L'équipe des Blasters de Coach Antonic apparaît-elle dans plus de trois jeux différents ? » — OUI.
 
-Bonne réponse : porte ouverte sans combat ; mauvaise réponse : combat du Dresseur ; combat direct toujours possible. Mesurer tous les textes avec la police GBA. Conserver la réplique après victoire : « Et si tu croises mon moi du futur, dis-lui qu'il a intérêt à être devenu un sacré Champion ! ».
+Bonne réponse : porte ouverte sans combat ; mauvaise réponse : combat du Dresseur ; combat direct toujours possible. Mesurer tous les textes avec la police GBA. La réplique sur le moi du futur est écartée selon la correction scénaristique plus récente.
 
 ## Phase D — Validation complète
 

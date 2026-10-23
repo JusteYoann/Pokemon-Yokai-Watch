@@ -1,0 +1,161 @@
+{
+  "passed": true,
+  "rom_sha256": "72d5eeeae79b6ca42393d06f31b28b5be7e6cac1972465462bd8949df8918d8d",
+  "checks": [
+    {
+      "test": "Actual Melissa victory before filming; no NPC removed or trainer flag forced",
+      "passed": true
+    },
+    {
+      "test": "Route20 open sea has no fog",
+      "passed": true
+    },
+    {
+      "test": "Route20 native Surf and gradual fog onset",
+      "passed": true,
+      "levels": [
+        0,
+        4,
+        32,
+        68,
+        100,
+        128,
+        156,
+        184,
+        192
+      ],
+      "fog_sprites": 15
+    },
+    {
+      "test": "Route20 arrival: zero fog on island",
+      "passed": true
+    },
+    {
+      "test": "Route20 departure: restored normal Kanto",
+      "passed": true
+    },
+    {
+      "test": "Route21 north arrival: zero fog on island",
+      "passed": true
+    },
+    {
+      "test": "Route21 departure: restored normal sea",
+      "passed": true
+    },
+    {
+      "test": "Route20 U-turn/repeated pass 1",
+      "passed": true
+    },
+    {
+      "test": "Route20 U-turn/repeated pass 2",
+      "passed": true
+    },
+    {
+      "test": "Route20 U-turn/repeated pass 3",
+      "passed": true
+    },
+    {
+      "test": "Three U-turns preserve sprites and fully release temporary fog",
+      "passed": true
+    },
+    {
+      "test": "Native Save/Continue in dense maritime fog restores local effect",
+      "passed": true
+    },
+    {
+      "test": "Wild battle inside fog is clear; field return reconstructs dense fog",
+      "passed": true
+    },
+    {
+      "test": "Bag clears fog sprites, field return reconstructs them without duplication",
+      "passed": true
+    },
+    {
+      "test": "Native Save/Continue on Cinnabar remains clear and sepia",
+      "passed": true
+    },
+    {
+      "test": "No fog on CinnabarIsland",
+      "passed": true
+    },
+    {
+      "test": "No fog on CinnabarIsland_Gym",
+      "passed": true
+    },
+    {
+      "test": "No fog on CinnabarIsland_Mart",
+      "passed": true
+    },
+    {
+      "test": "No fog on CinnabarIsland_PokemonCenter_1F",
+      "passed": true
+    },
+    {
+      "test": "No fog on CinnabarIsland_PokemonCenter_2F",
+      "passed": true
+    },
+    {
+      "test": "No fog on CinnabarIsland_PokemonLab_Entrance",
+      "passed": true
+    },
+    {
+      "test": "No fog on CinnabarIsland_PokemonLab_Lounge",
+      "passed": true
+    },
+    {
+      "test": "No fog on CinnabarIsland_PokemonLab_ResearchRoom",
+      "passed": true
+    },
+    {
+      "test": "No fog on CinnabarIsland_PokemonLab_ExperimentRoom",
+      "passed": true
+    },
+    {
+      "test": "No fog on PokemonMansion_1F",
+      "passed": true
+    },
+    {
+      "test": "No fog on PokemonMansion_2F",
+      "passed": true
+    },
+    {
+      "test": "No fog on PokemonMansion_3F",
+      "passed": true
+    },
+    {
+      "test": "No fog on PokemonMansion_B1F",
+      "passed": true
+    },
+    {
+      "test": "Native Pokemon Center door exit stays clear",
+      "passed": true
+    },
+    {
+      "test": "Native Fly lands directly on past island without maritime fog",
+      "passed": true
+    },
+    {
+      "test": "FldEff_UseTeleport arrives without fog",
+      "passed": true
+    },
+    {
+      "test": "StartEscapeRopeFieldEffect arrives without fog",
+      "passed": true
+    },
+    {
+      "test": "FldEff_UseDig arrives without fog",
+      "passed": true
+    },
+    {
+      "test": "Postgame-flag fixture: native sea crossing still enters clear sepia island",
+      "passed": true
+    },
+    {
+      "test": "Maritime fixtures do not alter dialogues, quiz, parties, geometry or save format",
+      "passed": true
+    }
+  ],
+  "failure": null,
+  "scope": "Native mGBA maritime traversals. Only initial map/party/repel are fixtures.\nController movement crosses real connections; screenshots/GIFs are emulator frames.\n",
+  "fixtures": "Native new game, strong party, starting coordinates and 250-step Repel; no changed collisions, NPCs, enemy HP or battle outcomes. Special move destinations staged explicitly."
+}
