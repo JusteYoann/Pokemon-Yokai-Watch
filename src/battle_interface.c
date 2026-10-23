@@ -1496,7 +1496,7 @@ void UpdateNickInHealthbox(u8 healthboxSpriteId, struct Pokemon *mon)
     ptr = StringCopy(gDisplayedStringBattle, sText_HealthboxNickname);
     GetMonData(mon, MON_DATA_NICKNAME, nickname);
     StringGet_Nickname(nickname);
-    ptr = StringCopy(ptr, SpiratonBattlePresentationIsBoss(gSprites[healthboxSpriteId].sBattlerId) ? gSpiratonBattleName : nickname);
+    ptr = StringCopy(ptr, SpiratonBattlePresentationIsBoss(gSprites[healthboxSpriteId].sBattlerId) ? gSpiratonHealthboxName : nickname);
     *ptr++ = EXT_CTRL_CODE_BEGIN;
     *ptr++ = EXT_CTRL_CODE_COLOR;
 

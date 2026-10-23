@@ -82,7 +82,7 @@ Après validation de la maison : réutiliser l'équipe743 avec ses paramètres a
 
 - [Rapport mGBA public](../../../QA_RECETTE_FINALE/DON_SPIRATON/PHASE_A/TEST_MGBA.json) et [privé](../../../QA_RECETTE_FINALE/DON_SPIRATON/PHASE_A/prive/TEST_MGBA.json) : aperçu réel, premier tour toujours en attente, zones HUD/menus identiques à l'image avant aperçu, palette RGB555 chargée, libération/restauration, rendu de Turboss existant, deux sorties de maisons.
 - [Préservation](../../../QA_RECETTE_FINALE/DON_SPIRATON/PHASE_A/PRESERVATION.json) : graphismes,151 espèces, cartes, scripts, équipes et code du boss précédent inchangés ; les31 flux audio et378 gains privés restent identiques à Argenta.
-- Publique :16 777 216 octets ; privée :31 658 435 octets ; marge32 Mio :1 895 997 octets.
+- Publique :16 777 216 octets ; privée :31 658 447 octets ; marge32 Mio :1 895 985 octets.
 - EWRAM :261124/262144 ; IWRAM privée :29888/32768. Aucun global de scène ajouté.
 - Aucun test de première conquête normale revendiqué : l'étape B attend la validation graphique.
 - Aucun test d'une revanche dans une maison revendiqué : l'étape C attend l'emplacement et le dialogue.
@@ -94,3 +94,7 @@ Après validation de la maison : réutiliser l'équipe743 avec ses paramètres a
 2. Choisir la maison, avant tout ajout de PNJ ou changement d'événement pour l'étape C.
 
 Aucune finale complète n'est annoncée comme terminée à cette étape.
+
+## Nom court demandé par le créateur
+
+Le HUD affiche désormais « D. SPIRATION », selon la dernière instruction. Ce libellé spécifique est séparé du nom complet utilisé dans les messages. L'aperçu et les compilations publique/privée ont été revérifiés dans mGBA. Cette décision ne vaut pas validation de l'ensemble de la candidate graphique ni choix de la maison.

@@ -30,6 +30,7 @@ static EWRAM_DATA u8 sOldAttacker = 0, sOldTarget = 0;
 static EWRAM_DATA u16 sOldMove = 0;
 static EWRAM_DATA void (*sResume)(void) = NULL;
 const u8 gSpiratonBattleName[] = _("DON SPIRATON");
+const u8 gSpiratonHealthboxName[] = _("D. SPIRATION");
 
 void SpiratonBattleArmPrototype(void) { sArmed = TRUE; }
 bool8 SpiratonBattlePrototypeArmed(void) { return sArmed; }

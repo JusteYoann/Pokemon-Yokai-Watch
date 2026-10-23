@@ -14,4 +14,5 @@ bool8 SpiratonBattleEndTurn(void);
 u16 SpiratonBattleTransformSpecies(u8 battler);
 u32 SpiratonBattleInspect(u8 field);
 extern const u8 gSpiratonBattleName[];
+extern const u8 gSpiratonHealthboxName[];
 #endif

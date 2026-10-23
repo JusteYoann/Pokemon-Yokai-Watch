@@ -4,8 +4,17 @@ from pathlib import Path
 import hashlib,json,subprocess
 from mgba_rpc import ROOT as R
 Q=R/'QA_RECETTE_FINALE/DON_SPIRATON/PHASE_A';base='b3396ac9f'
-protected=['graphics','src/data/pokemon','data/maps','data/scripts','src/battle_main.c','src/battle_interface.c','src/spiraton_core.c','src/spiraton_battle.c','src/data/trainers.h','src/data/trainer_parties.h','src/pokemon.c','src/data/yokai_mixer_gains.h','data/yokai/audio_loops.json']
+protected=['graphics','src/data/pokemon','data/maps','data/scripts','src/battle_main.c','src/spiraton_core.c','src/data/trainers.h','src/data/trainer_parties.h','src/pokemon.c','src/data/yokai_mixer_gains.h','data/yokai/audio_loops.json']
 subprocess.run(['git','diff','--exit-code',base,'--',*protected],cwd=R,check=True,stdout=subprocess.DEVNULL)
+# User-approved compact HUD label; permit only these exact display changes.
+for path in ['src/battle_interface.c','src/spiraton_battle.c']:
+ previous=subprocess.check_output(['git','show','9bfc27089:'+path],cwd=R,text=True)
+ current=(R/path).read_text()
+ if path.endswith('battle_interface.c'):
+  current=current.replace('? gSpiratonHealthboxName : nickname','? gSpiratonBattleName : nickname')
+ else:
+  current=current.replace('const u8 gSpiratonHealthboxName[] = _("D. SPIRATION");\n','')
+ assert current==previous,path
 old=R.parent/'Pokemon-Yokai-Watch-argenta'
 def sym(root):
  return {v[2]:int(v[0],16)-0x8000000 for line in subprocess.check_output(['arm-none-eabi-nm','--defined-only',str(root/'pokefirered_audio.elf')],text=True).splitlines() if len(v:=line.split())==3}
