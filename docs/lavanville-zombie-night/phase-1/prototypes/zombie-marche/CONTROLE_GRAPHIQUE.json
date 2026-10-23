@@ -1,0 +1,236 @@
+{
+  "black_outline_index": 1,
+  "transparent_index": 0,
+  "black_rgb": [
+    0,
+    0,
+    0
+  ],
+  "black_is_opaque": true,
+  "approved_front_sha256": "4804d849af7ef6d9f8bb660cd9981f75e6f25c0e35e67d15e916b5315fd12bad",
+  "approved_front_pixel_identical": true,
+  "front_head_unchanged_during_walk": true,
+  "frame_size": [
+    32,
+    32
+  ],
+  "silhouette_height": 20,
+  "shared_palette": true,
+  "engine_frame_count": 9,
+  "explicit_direction_pose_exports": 12,
+  "right_is_native_hflip": true,
+  "cycle": [
+    1,
+    0,
+    2,
+    0
+  ],
+  "duration_frames": 8,
+  "bytes_4bpp": 4608,
+  "records": [
+    {
+      "opaque_black_pixels": 57,
+      "file": "graphics/yokai_zombies/errant/mouvement/face-repos.png",
+      "direction": "face",
+      "pose": "repos",
+      "bbox": [
+        9,
+        11,
+        23,
+        31
+      ],
+      "silhouette": [
+        14,
+        20
+      ],
+      "foot_y": 30
+    },
+    {
+      "opaque_black_pixels": 57,
+      "file": "graphics/yokai_zombies/errant/mouvement/face-pas-1.png",
+      "direction": "face",
+      "pose": "pas-1",
+      "bbox": [
+        10,
+        11,
+        23,
+        31
+      ],
+      "silhouette": [
+        13,
+        20
+      ],
+      "foot_y": 30
+    },
+    {
+      "opaque_black_pixels": 56,
+      "file": "graphics/yokai_zombies/errant/mouvement/face-pas-2.png",
+      "direction": "face",
+      "pose": "pas-2",
+      "bbox": [
+        9,
+        11,
+        22,
+        31
+      ],
+      "silhouette": [
+        13,
+        20
+      ],
+      "foot_y": 30
+    },
+    {
+      "opaque_black_pixels": 45,
+      "file": "graphics/yokai_zombies/errant/mouvement/dos-repos.png",
+      "direction": "dos",
+      "pose": "repos",
+      "bbox": [
+        9,
+        11,
+        23,
+        31
+      ],
+      "silhouette": [
+        14,
+        20
+      ],
+      "foot_y": 30
+    },
+    {
+      "opaque_black_pixels": 45,
+      "file": "graphics/yokai_zombies/errant/mouvement/dos-pas-1.png",
+      "direction": "dos",
+      "pose": "pas-1",
+      "bbox": [
+        10,
+        11,
+        23,
+        31
+      ],
+      "silhouette": [
+        13,
+        20
+      ],
+      "foot_y": 30
+    },
+    {
+      "opaque_black_pixels": 44,
+      "file": "graphics/yokai_zombies/errant/mouvement/dos-pas-2.png",
+      "direction": "dos",
+      "pose": "pas-2",
+      "bbox": [
+        9,
+        11,
+        22,
+        31
+      ],
+      "silhouette": [
+        13,
+        20
+      ],
+      "foot_y": 30
+    },
+    {
+      "opaque_black_pixels": 46,
+      "file": "graphics/yokai_zombies/errant/mouvement/gauche-repos.png",
+      "direction": "gauche",
+      "pose": "repos",
+      "bbox": [
+        10,
+        11,
+        21,
+        31
+      ],
+      "silhouette": [
+        11,
+        20
+      ],
+      "foot_y": 30
+    },
+    {
+      "opaque_black_pixels": 48,
+      "file": "graphics/yokai_zombies/errant/mouvement/gauche-pas-1.png",
+      "direction": "gauche",
+      "pose": "pas-1",
+      "bbox": [
+        10,
+        11,
+        21,
+        31
+      ],
+      "silhouette": [
+        11,
+        20
+      ],
+      "foot_y": 30
+    },
+    {
+      "opaque_black_pixels": 46,
+      "file": "graphics/yokai_zombies/errant/mouvement/gauche-pas-2.png",
+      "direction": "gauche",
+      "pose": "pas-2",
+      "bbox": [
+        10,
+        11,
+        22,
+        31
+      ],
+      "silhouette": [
+        12,
+        20
+      ],
+      "foot_y": 30
+    },
+    {
+      "opaque_black_pixels": 46,
+      "file": "graphics/yokai_zombies/errant/mouvement/droite-repos.png",
+      "direction": "droite",
+      "pose": "repos",
+      "bbox": [
+        11,
+        11,
+        22,
+        31
+      ],
+      "silhouette": [
+        11,
+        20
+      ],
+      "foot_y": 30
+    },
+    {
+      "opaque_black_pixels": 48,
+      "file": "graphics/yokai_zombies/errant/mouvement/droite-pas-1.png",
+      "direction": "droite",
+      "pose": "pas-1",
+      "bbox": [
+        11,
+        11,
+        22,
+        31
+      ],
+      "silhouette": [
+        11,
+        20
+      ],
+      "foot_y": 30
+    },
+    {
+      "opaque_black_pixels": 46,
+      "file": "graphics/yokai_zombies/errant/mouvement/droite-pas-2.png",
+      "direction": "droite",
+      "pose": "pas-2",
+      "bbox": [
+        10,
+        11,
+        22,
+        31
+      ],
+      "silhouette": [
+        12,
+        20
+      ],
+      "foot_y": 30
+    }
+  ]
+}

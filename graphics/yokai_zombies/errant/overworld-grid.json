@@ -1,0 +1,302 @@
+{
+  "creation": "Native pixel matrices derived from the approved front, with generated orientation study used as a guide only. Approved front unchanged; no downsampling of the guide.",
+  "width": 14,
+  "height": 20,
+  "frame_width": 32,
+  "frame_height": 32,
+  "frame_x": 9,
+  "frame_y": 11,
+  "foot_y": 30,
+  "palette_rgb555": {
+    ".": [
+      0,
+      0,
+      0
+    ],
+    "K": [
+      0,
+      0,
+      0
+    ],
+    "F": [
+      112,
+      24,
+      48
+    ],
+    "P": [
+      200,
+      56,
+      80
+    ],
+    "L": [
+      240,
+      104,
+      128
+    ],
+    "H": [
+      160,
+      184,
+      56
+    ],
+    "G": [
+      104,
+      152,
+      56
+    ],
+    "S": [
+      72,
+      96,
+      40
+    ],
+    "T": [
+      48,
+      104,
+      80
+    ],
+    "R": [
+      248,
+      0,
+      0
+    ],
+    "I": [
+      240,
+      232,
+      184
+    ],
+    "B": [
+      88,
+      120,
+      48
+    ]
+  },
+  "poses": [
+    "repos",
+    "pas-1",
+    "pas-2"
+  ],
+  "frames": {
+    "face": [
+      [
+        "......FFF.....",
+        "........FF....",
+        "......FFPF....",
+        "......FPPF....",
+        ".....FLPF.....",
+        "....KKFFFKK...",
+        "...KKSHHHHK...",
+        "..KSSGTGGGGK..",
+        "..KGGGGGGGGK..",
+        "..KSSSGGGGGK..",
+        "..KKKKGGKKKK..",
+        "..KKRKGGKRKK..",
+        "..KGGGKKGGGK..",
+        "...KSSIISSK...",
+        ".KKSSSSSSSSKK.",
+        ".KGSGGTGGGSSK.",
+        "KSSKGGGTGGKSGK",
+        ".KKKGBTTBGKKK.",
+        "...KGBKKBGK...",
+        "....KK..KK...."
+      ],
+      [
+        "......FFF.....",
+        "........FF....",
+        "......FFPF....",
+        "......FPPF....",
+        ".....FLPF.....",
+        "....KKFFFKK...",
+        "...KKSHHHHK...",
+        "..KSSGTGGGGK..",
+        "..KGGGGGGGGK..",
+        "..KSSSGGGGGK..",
+        "..KKKKGGKKKK..",
+        "..KKRKGGKRKK..",
+        "..KGGGKKGGGK..",
+        "...KSSIISSK...",
+        ".KKSSSSSSSSKK.",
+        ".KGSGGTGGGSSK.",
+        ".KSKGGGTGGKSGK",
+        ".KKKGBTTBGKSK.",
+        "..KGBGKKBGKK..",
+        "...KK...KK...."
+      ],
+      [
+        "......FFF.....",
+        "........FF....",
+        "......FFPF....",
+        "......FPPF....",
+        ".....FLPF.....",
+        "....KKFFFKK...",
+        "...KKSHHHHK...",
+        "..KSSGTGGGGK..",
+        "..KGGGGGGGGK..",
+        "..KSSSGGGGGK..",
+        "..KKKKGGKKKK..",
+        "..KKRKGGKRKK..",
+        "..KGGGKKGGGK..",
+        "...KSSIISSK...",
+        ".KKSSSSSSSSKK.",
+        ".KGSGGTGGGSSK.",
+        "KSGKGGGTGGKSK.",
+        ".KSKGBTTBGKKK.",
+        "...KGBKKGBGK..",
+        "....KK...KK..."
+      ]
+    ],
+    "dos": [
+      [
+        "......FFF.....",
+        "........FF....",
+        "......FFPF....",
+        "......FPPF....",
+        ".....FLPF.....",
+        "....KKFFFKK...",
+        "...KKSHHHHK...",
+        "..KSSGTGGGGK..",
+        "..KGGTTGGGGK..",
+        "..KSGGTGGGGK..",
+        "..KSGGGGTGGK..",
+        "..KSSGGTTGSK..",
+        "..KSSGGGGSSK..",
+        "...KSSSSSSK...",
+        ".KKSSSSSSSSKK.",
+        ".KGSGTGGTGSSK.",
+        "KSSKGGSTGGKSGK",
+        ".KKKGBSTBGKKK.",
+        "...KGBKKBGK...",
+        "....KK..KK...."
+      ],
+      [
+        "......FFF.....",
+        "........FF....",
+        "......FFPF....",
+        "......FPPF....",
+        ".....FLPF.....",
+        "....KKFFFKK...",
+        "...KKSHHHHK...",
+        "..KSSGTGGGGK..",
+        "..KGGTTGGGGK..",
+        "..KSGGTGGGGK..",
+        "..KSGGGGTGGK..",
+        "..KSSGGTTGSK..",
+        "..KSSGGGGSSK..",
+        "...KSSSSSSK...",
+        ".KKSSSSSSSSKK.",
+        ".KGSGTGGTGSSK.",
+        ".KSKGGGTGGKSGK",
+        ".KKKGBSTBGKSK.",
+        "..KGBGKKBGKK..",
+        "...KK...KK...."
+      ],
+      [
+        "......FFF.....",
+        "........FF....",
+        "......FFPF....",
+        "......FPPF....",
+        ".....FLPF.....",
+        "....KKFFFKK...",
+        "...KKSHHHHK...",
+        "..KSSGTGGGGK..",
+        "..KGGTTGGGGK..",
+        "..KSGGTGGGGK..",
+        "..KSGGGGTGGK..",
+        "..KSSGGTTGSK..",
+        "..KSSGGGGSSK..",
+        "...KSSSSSSK...",
+        ".KKSSSSSSSSKK.",
+        ".KGSGTGGTGSSK.",
+        "KSGKGGGTGGKSK.",
+        ".KSKGBSTBGKKK.",
+        "...KGBKKGBGK..",
+        "....KK...KK..."
+      ]
+    ],
+    "gauche": [
+      [
+        "......FFF.....",
+        "........FF....",
+        "......FFPF....",
+        "......FPPF....",
+        ".....FLPF.....",
+        "....KKFFFKK...",
+        "....KSHHHHK...",
+        "...KSGTGGGGK..",
+        "...KGGGGGGGK..",
+        "..KSGGGGGGGK..",
+        "..KKKKGGGSSK..",
+        "..KRKKGGGSSK..",
+        ".KGGKKGGGSK...",
+        "..KIIGGGSK....",
+        "...KSSSSSKK...",
+        "..KSGGTGSSGK..",
+        "..KSGGTSKSGK..",
+        "...KGBTSKKK...",
+        "...KGBKBGK....",
+        "....KK.KK....."
+      ],
+      [
+        "......FFF.....",
+        "........FF....",
+        "......FFPF....",
+        "......FPPF....",
+        ".....FLPF.....",
+        "....KKFFFKK...",
+        "....KSHHHHK...",
+        "...KSGTGGGGK..",
+        "...KGGGGGGGK..",
+        "..KSGGGGGGGK..",
+        "..KKKKGGGSSK..",
+        "..KRKKGGGSSK..",
+        ".KGGKKGGGSK...",
+        "..KIIGGGSK....",
+        "...KSSSSSKK...",
+        "..KSGGTGSSK...",
+        ".KSGGGTSKSGK..",
+        ".KKKGBTSKSGK..",
+        "..KGBGKBGKK...",
+        "...KK...KK...."
+      ],
+      [
+        "......FFF.....",
+        "........FF....",
+        "......FFPF....",
+        "......FPPF....",
+        ".....FLPF.....",
+        "....KKFFFKK...",
+        "....KSHHHHK...",
+        "...KSGTGGGGK..",
+        "...KGGGGGGGK..",
+        "..KSGGGGGGGK..",
+        "..KKKKGGGSSK..",
+        "..KRKKGGGSSK..",
+        ".KGGKKGGGSK...",
+        "..KIIGGGSK....",
+        "...KSSSSSKK...",
+        "...KSGTGSSGK..",
+        "...KGGTSGKSGK.",
+        "...KGBTSKKKK..",
+        "....KBGGBGK...",
+        ".....KKKK....."
+      ]
+    ]
+  },
+  "right_direction": "horizontal mirror of left, matching native FRLG animation flags",
+  "engine_frame_order": [
+    "face/repos",
+    "dos/repos",
+    "gauche/repos",
+    "face/pas-1",
+    "face/pas-2",
+    "dos/pas-1",
+    "dos/pas-2",
+    "gauche/pas-1",
+    "gauche/pas-2"
+  ],
+  "cycle": [
+    1,
+    0,
+    2,
+    0
+  ],
+  "frame_duration": 8
+}

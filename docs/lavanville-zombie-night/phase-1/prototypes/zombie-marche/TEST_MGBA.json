@@ -1,0 +1,272 @@
+{
+  "passed": true,
+  "engine": "mGBA libretro",
+  "rom_sha256": "af807f4b8e2b6f7367208c1b25355a93b90b9937241295dd23e34b382df906cf",
+  "rom_unchanged": true,
+  "object_template_id": 172,
+  "custom_images_bytes": 4608,
+  "palette_bank": 10,
+  "native_held_walk_steps": 12,
+  "orientations": [
+    {
+      "direction": "face",
+      "anim_id": 0,
+      "right_hflip": false,
+      "image_table_in_ram": true
+    },
+    {
+      "direction": "dos",
+      "anim_id": 1,
+      "right_hflip": false,
+      "image_table_in_ram": true
+    },
+    {
+      "direction": "gauche",
+      "anim_id": 2,
+      "right_hflip": false,
+      "image_table_in_ram": true
+    },
+    {
+      "direction": "droite",
+      "anim_id": 3,
+      "right_hflip": true,
+      "image_table_in_ram": true
+    }
+  ],
+  "steps": [
+    {
+      "cycle": 0,
+      "action": "MOVEMENT_ACTION_WALK_NORMAL_RIGHT",
+      "arrived": [
+        14,
+        8
+      ],
+      "anim_commands": [
+        [
+          7,
+          0
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "cycle": 0,
+      "action": "MOVEMENT_ACTION_WALK_NORMAL_DOWN",
+      "arrived": [
+        14,
+        9
+      ],
+      "anim_commands": [
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "cycle": 0,
+      "action": "MOVEMENT_ACTION_WALK_NORMAL_LEFT",
+      "arrived": [
+        13,
+        9
+      ],
+      "anim_commands": [
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "cycle": 0,
+      "action": "MOVEMENT_ACTION_WALK_NORMAL_UP",
+      "arrived": [
+        13,
+        8
+      ],
+      "anim_commands": [
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "cycle": 1,
+      "action": "MOVEMENT_ACTION_WALK_NORMAL_RIGHT",
+      "arrived": [
+        14,
+        8
+      ],
+      "anim_commands": [
+        [
+          7,
+          0
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "cycle": 1,
+      "action": "MOVEMENT_ACTION_WALK_NORMAL_DOWN",
+      "arrived": [
+        14,
+        9
+      ],
+      "anim_commands": [
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "cycle": 1,
+      "action": "MOVEMENT_ACTION_WALK_NORMAL_LEFT",
+      "arrived": [
+        13,
+        9
+      ],
+      "anim_commands": [
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "cycle": 1,
+      "action": "MOVEMENT_ACTION_WALK_NORMAL_UP",
+      "arrived": [
+        13,
+        8
+      ],
+      "anim_commands": [
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "cycle": 2,
+      "action": "MOVEMENT_ACTION_WALK_NORMAL_RIGHT",
+      "arrived": [
+        14,
+        8
+      ],
+      "anim_commands": [
+        [
+          7,
+          0
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "cycle": 2,
+      "action": "MOVEMENT_ACTION_WALK_NORMAL_DOWN",
+      "arrived": [
+        14,
+        9
+      ],
+      "anim_commands": [
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "cycle": 2,
+      "action": "MOVEMENT_ACTION_WALK_NORMAL_LEFT",
+      "arrived": [
+        13,
+        9
+      ],
+      "anim_commands": [
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "cycle": 2,
+      "action": "MOVEMENT_ACTION_WALK_NORMAL_UP",
+      "arrived": [
+        13,
+        8
+      ],
+      "anim_commands": [
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "passed": true
+    }
+  ],
+  "scope": "Native ObjectEvent + FRLG anim/movement RAM fixture; no production ROM or map edits.\nUses existing32x32 nine-frame object template172 only as a test shell; replaces instance images/palette in RAM.\n",
+  "limits": [
+    "Temporary object images in RAM, no permanent gfxID registration",
+    "No patrol/detection/collision policy or repeated zombie battles integrated",
+    "Movement test uses existing native object engine and visible source-art candidates"
+  ]
+}
