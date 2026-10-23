@@ -1,0 +1,16 @@
+{
+  "base_commit": "d2f590d8b95a204a0e3ba01aa00ae97a244fe28f",
+  "first_species": "SPECIES_MEOWTH",
+  "first_species_id": 52,
+  "first_name": "Bouh",
+  "first_species_approved": true,
+  "phase_levels": [56,57,58,59,60,61,62,63],
+  "transition_boundary": "end_of_turn",
+  "first_transition": "after_first_action_selection_before_any_action",
+  "music_don": "MUS_YOKAI_GHOULFATHER",
+  "music_spiraton": "MUS_YOKAI_ZAZELMARE",
+  "music_matt_rematch": "MUS_YOKAI_DECISIVE_BATTLE",
+  "production_entry_enabled": false,
+  "pending_approval": ["true_form_sprite", "fusion_animation", "conclusion_dialogue", "last_six_hp_colors"],
+  "hp_colors_proposed_not_approved": ["green", "orange", "cyan", "blue", "violet", "magenta", "red", "ivory"]
+}
