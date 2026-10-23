@@ -20,7 +20,7 @@ PokedexRating_Text_LessThan50::
     .string "Ton Médallium progresse bien!\pUn de mes assistants garde\nune Pièce Rune pour toi.\lN'oublie pas de la récupérer!$"
 
 PokedexRating_Text_LessThan60::
-    .string "Tu as dépassé les 50 espèces!\pUn assistant garde un Multi Exp.\npour toi. Le partage d'expérience\lreste déjà actif pour toute l'équipe.$"
+    .string "Tu as dépassé les 50 espèces!\pUn assistant garde un Multi Exp.\npour toi. Un Yo-kai qui le tient\lreçoit aussi de l’expérience.$"
 
 PokedexRating_Text_LessThan70::
     .string "Hoho! Ton Médallium\ncommence à être impressionnant!$"

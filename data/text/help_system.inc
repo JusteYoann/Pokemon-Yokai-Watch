@@ -266,7 +266,7 @@ Help_Text_AnswerWantToAddMoreMoves::
     .string "Un Yo-kai connaît au plus quatre\ncapacités. Il en apprend en montant\nde niveau, avec une CT ou une CS,\nou auprès de certains personnages.$"
 
 Help_Text_AnswerWantToMakeMonStronger::
-    .string "Gagne des combats pour obtenir de\nl'expérience. Le Multi Exp. permanent\nfait progresser toute l'équipe encore\nen état de combattre. Varie les\nadversaires et garde une équipe\nprête à se battre.$"
+    .string "Remporte des combats pour gagner\nde l’expérience. Les participants\nprogressent. Un Yo-kai qui tient\nle Multi Exp. reçoit aussi de\nl’expérience, même en réserve.\nIl doit être en état de combattre.$"
 
 Help_Text_AnswerFoeMonsTooStrong::
     .string "Renforce ton équipe avant de revenir.\nAffronte des Yo-kai sauvages ou des\nDresseurs encore jamais battus.\nEssaie aussi d'autres capacités et\nexploite les faiblesses de type.$"
@@ -735,7 +735,7 @@ Help_Text_DefineHP::
     .string "Les PV mesurent la vitalité d'un\nYo-kai. À zéro PV, il tombe K.O. et\nne peut plus combattre. Pour gagner,\nréduis les PV adverses à zéro. Les\nCentres de soins et les remèdes\nrestaurent les PV.$"
 
 Help_Text_DefineEXP::
-    .string "Les points d'expérience se gagnent en\nremportant des combats. Le Multi Exp.\npermanent profite à toute l'équipe\napte à combattre. À un certain seuil,\nun Yo-kai gagne un niveau et sa\nbarre d'EXP. repart vers le niveau\nsuivant.$"
+    .string "Les participants gagnent de l’EXP.\nen remportant des combats.\nLe Multi Exp. tenu partage l’EXP.\navec son porteur en réserve.\nAvec assez d’EXP., un Yo-kai\ngagne un niveau et devient plus fort.$"
 
 Help_Text_DefineMoves::
     .string "Un Yo-kai connaît jusqu'à quatre\ncapacités: attaques ou techniques\naux effets particuliers. Elles varient\nselon l'espèce. Certaines sont\nenseignées avec des objets.$"

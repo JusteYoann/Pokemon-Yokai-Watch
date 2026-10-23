@@ -8,7 +8,7 @@ Pokedude_Text_BattlersTakeTurnsAttacking::
     .string "Les Yo-kai attaquent à tour de rôle\net font baisser les PV adverses.$"
 
 Pokedude_Text_MyRattataWonGetsEXP::
-    .string "Quand les PV adverses atteignent\nzéro, le combat est gagné!\pLe Multi Exp. permanent fait gagner\nde l'expérience à toute l'équipe\lencore en état de combattre.\pAvec assez d'EXP., un Yo-kai\ngagne un niveau et devient plus fort.$"
+    .string "Quand les PV adverses atteignent\nzéro, le combat est gagné!\pLes Yo-kai ayant combattu\ngagnent de l’expérience.\pUn Yo-kai qui tient le Multi Exp.\npeut aussi en recevoir en réserve.\pAvec assez d’EXP., un Yo-kai\ngagne un niveau et devient plus fort.$"
 
 Pokedude_Text_UhOhRattataPoisoned::
     .string "Attention au poison!\pUn Yo-kai empoisonné\nperd des PV progressivement.$"

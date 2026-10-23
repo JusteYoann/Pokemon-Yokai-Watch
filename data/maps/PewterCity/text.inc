@@ -44,7 +44,7 @@ PewterCity_Text_GoTakeOnBrock::
     .string "Si tu t'en sens capable,\nva défier Wyatt!$"
 
 PewterCity_Text_TrainerTipsEarningEXP::
-    .string "CONSEILS AUX DRESSEURS\pLe Multi Exp. est permanent:\ntoute l'équipe reçoit de l'EXP.\pLes Yo-kai encore en état\nde combattre progressent ensemble!$"
+    .string "CONSEILS AUX DRESSEURS\pLes Yo-kai ayant combattu\ngagnent de l’EXP.\pUn Yo-kai qui tient le Multi Exp.\npeut aussi en recevoir!$"
 
 PewterCity_Text_CallPoliceIfInfoOnThieves::
     .string "AVIS À LA POPULATION\pDes voleurs dérobent des fossiles\nde Yo-kai à MT. MOON.\pPrévenez la police si vous avez\ndes informations à ce sujet.$"
