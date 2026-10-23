@@ -1,0 +1,231 @@
+{
+  "passed": true,
+  "engine": "mGBA libretro",
+  "rom_sha256": "af807f4b8e2b6f7367208c1b25355a93b90b9937241295dd23e34b382df906cf",
+  "rom_unchanged": true,
+  "steps_total": 12,
+  "reports": [
+    {
+      "direction": "face",
+      "steps": [
+        {
+          "arrived": [
+            13,
+            9
+          ],
+          "anim_commands": [
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ]
+        },
+        {
+          "arrived": [
+            13,
+            10
+          ],
+          "anim_commands": [
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        },
+        {
+          "arrived": [
+            13,
+            11
+          ],
+          "anim_commands": [
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ]
+        }
+      ],
+      "asymmetric_side_switched_in_ram": true
+    },
+    {
+      "direction": "gauche",
+      "steps": [
+        {
+          "arrived": [
+            12,
+            8
+          ],
+          "anim_commands": [
+            [
+              6,
+              2
+            ],
+            [
+              6,
+              3
+            ]
+          ]
+        },
+        {
+          "arrived": [
+            11,
+            8
+          ],
+          "anim_commands": [
+            [
+              6,
+              0
+            ],
+            [
+              6,
+              1
+            ]
+          ]
+        },
+        {
+          "arrived": [
+            10,
+            8
+          ],
+          "anim_commands": [
+            [
+              6,
+              2
+            ],
+            [
+              6,
+              3
+            ]
+          ]
+        }
+      ],
+      "asymmetric_side_switched_in_ram": true
+    },
+    {
+      "direction": "dos",
+      "steps": [
+        {
+          "arrived": [
+            13,
+            7
+          ],
+          "anim_commands": [
+            [
+              5,
+              2
+            ],
+            [
+              5,
+              3
+            ]
+          ]
+        },
+        {
+          "arrived": [
+            13,
+            6
+          ],
+          "anim_commands": [
+            [
+              5,
+              0
+            ],
+            [
+              5,
+              1
+            ]
+          ]
+        },
+        {
+          "arrived": [
+            13,
+            5
+          ],
+          "anim_commands": [
+            [
+              5,
+              2
+            ],
+            [
+              5,
+              3
+            ]
+          ]
+        }
+      ],
+      "asymmetric_side_switched_in_ram": true
+    },
+    {
+      "direction": "droite",
+      "steps": [
+        {
+          "arrived": [
+            14,
+            8
+          ],
+          "anim_commands": [
+            [
+              7,
+              2
+            ],
+            [
+              7,
+              3
+            ]
+          ]
+        },
+        {
+          "arrived": [
+            15,
+            8
+          ],
+          "anim_commands": [
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              1
+            ]
+          ]
+        },
+        {
+          "arrived": [
+            16,
+            8
+          ],
+          "anim_commands": [
+            [
+              7,
+              2
+            ],
+            [
+              7,
+              3
+            ]
+          ]
+        }
+      ],
+      "asymmetric_side_switched_in_ram": true
+    }
+  ],
+  "limits": [
+    "RAM fixture only, not production registration",
+    "Asymmetric left/right image tables swapped in RAM before independent clips; native right hFlip retained",
+    "Direct paintover of original FRLG Beauty frames; unchanged source body silhouettes and feet; 32x32 padding only for test template",
+    "No NPC patrol, persistent progression or gameplay integration"
+  ]
+}
