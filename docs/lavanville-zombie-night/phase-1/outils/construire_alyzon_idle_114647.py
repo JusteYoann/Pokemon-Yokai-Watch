@@ -53,6 +53,9 @@ right=[''.join(r) for r in right]
 # Reverse the hairstyle's lateral arrangement to follow this new reference.
 left,right=[r[::-1] for r in right],[r[::-1] for r in left]
 back=[r[::-1] for r in back]
+# Creator correction: the three skin pixels immediately right of the eye
+# use the same ochre as the hair contour.
+right=[r[:9]+'h'+r[10:] if y in (8,9,10) else r for y,r in enumerate(right)]
 rows_by={'gauche':left,'dos':back,'droite':right};frames={};records=[]
 for name,rows in rows_by.items():
  assert all(len(r)==14 for r in rows),(name,[(i,len(r)) for i,r in enumerate(rows)])
