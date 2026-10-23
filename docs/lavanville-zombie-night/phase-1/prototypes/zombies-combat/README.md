@@ -7,7 +7,7 @@
 | Errant | [PNG](../../../../../graphics/yokai_zombies/errant/battle-front.png) | 44 × 54 | 13 |
 | Sprinteur | [PNG](../../../../../graphics/yokai_zombies/sprinteur/battle-front.png) | 51 × 50 | 13 |
 | Colosse | [PNG](../../../../../graphics/yokai_zombies/colosse/battle-front.png) | 58 × 54 | 14 |
-| Spectral | [PNG](../../../../../graphics/yokai_zombies/spectral/battle-front.png) | 42 × 56 | 14 |
+| Spectral | [PNG](../../../../../graphics/yokai_zombies/spectral/battle-front.png) | 39 × 56 | 13 |
 
 Les mesures effectives sont dans [RESSOURCES.json](RESSOURCES.json). Les colonnes reposent sur les silhouettes complètes ; les fragments d'une variante voisine ne sont pas conservés.
 
