@@ -1,4 +1,5 @@
 PokemonLeague_ChampionsRoom_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, PokemonLeague_Spiraton_HideDiagnosticActors
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PokemonLeague_ChampionsRoom_OnWarp
 	map_script MAP_SCRIPT_ON_RESUME, PokemonLeague_ChampionsRoom_OnResume
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, PokemonLeague_ChampionsRoom_OnFrame
@@ -224,3 +225,5 @@ PokemonLeague_ChampionsRoom_Movement_RivalWatchOakEnter::
 	delay_16
 	walk_in_place_faster_left
 	step_end
+
+	.include "data/maps/PokemonLeague_ChampionsRoom/spiraton.inc"

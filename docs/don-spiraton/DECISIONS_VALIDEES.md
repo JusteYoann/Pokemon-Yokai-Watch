@@ -13,3 +13,7 @@ Branche `feature/boss-final-don-spiraton`, base Argenta `d2f590d8b`. Ne fusionne
 - Musiques : Conseil 4 et Matt postgame = Decisive Battle ; Don = Ghoulfather ; Spiraton = Zazelmare. Conserver Final Battle dans la bibliothèque. Toutes les données audio restent privées et identiques à Argenta.
 
 Les PNG de `propositions/` sont des documents de travail. Aucun n'est déclaré comme ressource graphique dans le moteur.
+
+## Reprise : confirmation explicite du 23 octobre 2026
+
+Le nouveau document de reprise avait remis en attente la première espèce et les six dernières couleurs. Interrogé sur cette contradiction, le créateur a répondu « Conserver les choix précédents ». Bouh et l'ordre vert, orange, cyan, bleu, violet, magenta, rouge, ivoire sont donc reconfirmés. Le fichier `include/spiraton_config.h` centralise l'espèce de départ. Les graphismes initiaux et les dialogues exacts de conclusion restent en attente ; aucun déclenchement de production n'est activé.

@@ -1,11 +1,12 @@
 #ifndef GUARD_SPIRATON_BATTLE_H
 #define GUARD_SPIRATON_BATTLE_H
-/* Isolated diagnostic entry only. No field script arms this prototype. */
+/* Isolated diagnostic entry only. No production trigger arms this prototype. */
 void SpiratonBattleArmPrototype(void);
 bool8 SpiratonBattlePrototypeArmed(void);
 void SpiratonBattleReset(void);
 void SpiratonBattleBegin(void);
 bool8 SpiratonBattleIsBoss(u8 battler);
+bool8 SpiratonBattlePresentationIsBoss(u8 battler);
 bool8 SpiratonBattlePending(u8 battler);
 bool8 SpiratonBattleIgnoreFaint(u8 battler);
 bool8 SpiratonBattleFirstTurn(void);

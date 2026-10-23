@@ -1,0 +1,213 @@
+{
+  "passed": true,
+  "scope": "Native development-only Don -> Matt/heal -> white fusion -> eight-form boss.\n\nFresh fixture, controller drives both battles. Player boosted to level100/999\nstats; no enemy HP/PP, outcome or script stage writes. Not a normal difficulty\nplaythrough. Does not approve true-form art or conclusion/Hall of Fame.\n",
+  "rom_sha256": "a282492e81fc96c5685839c327189dd91334eeca183c673579055a041719cc04",
+  "stages": [
+    {
+      "stage": 1,
+      "frame": 2,
+      "actors": {
+        "255": [
+          6,
+          10
+        ],
+        "3": [
+          6,
+          8
+        ],
+        "4": [
+          3,
+          7
+        ],
+        "5": [
+          9,
+          7
+        ],
+        "6": [
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "stage": 2,
+      "frame": 8993,
+      "actors": {
+        "255": [
+          6,
+          10
+        ],
+        "3": [
+          6,
+          8
+        ],
+        "4": [
+          3,
+          7
+        ],
+        "5": [
+          9,
+          7
+        ],
+        "6": [
+          6,
+          5
+        ],
+        "1": [
+          6,
+          15
+        ]
+      }
+    },
+    {
+      "stage": 3,
+      "frame": 9521,
+      "actors": {
+        "255": [
+          6,
+          10
+        ],
+        "3": [
+          6,
+          8
+        ],
+        "4": [
+          3,
+          7
+        ],
+        "5": [
+          9,
+          7
+        ],
+        "6": [
+          6,
+          5
+        ],
+        "1": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "stage": 4,
+      "frame": 9777,
+      "actors": {
+        "255": [
+          6,
+          10
+        ],
+        "3": [
+          6,
+          8
+        ],
+        "4": [
+          4,
+          7
+        ],
+        "5": [
+          8,
+          7
+        ],
+        "6": [
+          6,
+          6
+        ],
+        "1": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "stage": 5,
+      "frame": 9818,
+      "actors": {
+        "255": [
+          6,
+          10
+        ],
+        "1": [
+          5,
+          10
+        ]
+      }
+    },
+    {
+      "stage": 6,
+      "frame": 16520,
+      "actors": {
+        "255": [
+          6,
+          10
+        ],
+        "1": [
+          6,
+          8
+        ]
+      }
+    }
+  ],
+  "battles": [
+    {
+      "trainer": 743,
+      "bgm": 349,
+      "frame": 1231
+    },
+    {
+      "trainer": 744,
+      "bgm": 352,
+      "frame": 9952
+    }
+  ],
+  "whole_party_heal": true,
+  "fullscreen_white_masks_removal": true,
+  "guards_reached_positions": true,
+  "matt_don_palettes_independent": true,
+  "levels": [
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+  ],
+  "production_entry_enabled": false,
+  "first_transform_waits_for_player_choice": true,
+  "approved_true_form_artwork": false,
+  "hall_of_fame_from_new_finale_tested": false,
+  "results": [
+    {
+      "test": "Native Matt heal restores HP, PP and status of all members including fainted backup",
+      "passed": true
+    },
+    {
+      "test": "QA warp after diagnostic boss victory, native Hall of Fame/credits 17/18, Flash save and real Continue to postgame",
+      "passed": true,
+      "credits_states": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "production_conclusion_tested": false
+    }
+  ]
+}

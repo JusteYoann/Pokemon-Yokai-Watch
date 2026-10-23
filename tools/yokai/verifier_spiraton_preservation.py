@@ -15,7 +15,14 @@ a=original('src/data/trainers.h').decode();b=(ROOT/'src/data/trainers.h').read_t
 # Retire only Don's warehouse actor. Staff and all original warehouse events survive.
 p='data/maps/FiveIsland_RocketWarehouse/map.json';a=json.loads(original(p));b=json.loads((ROOT/p).read_text());a['object_events']=[x for x in a['object_events'] if x.get('local_id')!='LOCALID_YOKAI_DONMORLEONE'];assert a==b
 for p in (ROOT/'data/maps').glob('*/map.json'):
- if p.parent.name!='FiveIsland_RocketWarehouse':assert p.read_bytes()==original(str(p.relative_to(ROOT))),p
+ if p.parent.name=='PokemonLeague_ChampionsRoom':
+  before=json.loads(original(str(p.relative_to(ROOT))));after=json.loads(p.read_text())
+  # Only four dormant diagnostic actor templates are added; original map intact.
+  assert after['object_events'][:2]==before['object_events']
+  extra=after['object_events'][2:];assert len(extra)==4
+  assert all(x['flag']=='FLAG_TEMP_6' for x in extra)
+  after['object_events']=after['object_events'][:2];assert before==after
+ elif p.parent.name!='FiveIsland_RocketWarehouse':assert p.read_bytes()==original(str(p.relative_to(ROOT))),p
 assert 'YokaiCameo_DonMorleone' not in (ROOT/'data/scripts/yokai_cameos_boss.inc').read_text()
 oldroot=Path('/workspace/Pokemon-Yokai-Watch-argenta')
 def symbols(root):return {v[2]:int(v[0],16) for l in subprocess.check_output(['arm-none-eabi-nm','--defined-only',str(root/'pokefirered_audio.elf')],text=True).splitlines() if len(v:=l.split())==3}

@@ -1,7 +1,7 @@
 {
   "passed": true,
   "scope": "ARM-native phase rules in mGBA, NOT a rendered eight-phase battle test.",
-  "rom_sha256": "4188799e477f75379fa3b929d9fbea0ed29c3a517c8e289023f40bb1beb7c8d1",
+  "rom_sha256": "0fc1184760ccb0af5793912153f6b2010f1776bf714a27fb9f506b5cb587803f",
   "results": [
     {
       "active_species": 1,
@@ -15,7 +15,7 @@
         67,
         149
       ],
-      "max_rpc_wall_seconds": 0.0017047530272975564,
+      "max_rpc_wall_seconds": 0.0016733870143070817,
       "native_frames_per_end_turn_call": [
         2,
         2,
@@ -40,7 +40,7 @@
         16,
         109
       ],
-      "max_rpc_wall_seconds": 0.0015831299824640155,
+      "max_rpc_wall_seconds": 0.0015192249557003379,
       "native_frames_per_end_turn_call": [
         2,
         2,
@@ -65,7 +65,7 @@
         77,
         90
       ],
-      "max_rpc_wall_seconds": 0.0014264649944379926,
+      "max_rpc_wall_seconds": 0.0019019910250790417,
       "native_frames_per_end_turn_call": [
         2,
         2,

@@ -11,6 +11,7 @@
 #include "pokemon.h"
 #include "string_util.h"
 #include "spiraton_core.h"
+#include "spiraton_config.h"
 #include "spiraton_battle.h"
 #include "constants/opponents.h"
 #include "constants/pokemon.h"
@@ -41,6 +42,12 @@ void SpiratonBattleReset(void)
     sBoss = (struct SpiratonState){0};
     sFirst = sRunning;
     sStep = 0;
+}
+bool8 SpiratonBattlePresentationIsBoss(u8 battler)
+{
+    /* Initial HUD tiles can be drawn before BattleInit consumes the arm flag. */
+    return battler == 1 && gTrainerBattleOpponent_A == TRAINER_DON_SPIRATON_PROTOTYPE
+        && (sArmed || sRunning);
 }
 bool8 SpiratonBattleIsBoss(u8 battler)
 {
@@ -111,12 +118,13 @@ void SpiratonBattleBegin(void)
     if (!sRunning)
         return;
     VisibleOpponent(&target);
-    if (!SpiratonCoreStart(&sBoss, 52, &target))
+    if (!SpiratonCoreStart(&sBoss, SPIRATON_FIRST_SPECIES, &target))
     {
         sRunning = FALSE;
         return;
     }
     ApplyForm();
+    UpdateHealthboxAttribute(gHealthboxSpriteIds[1], &gEnemyParty[gBattlerPartyIndexes[1]], HEALTHBOX_ALL);
 }
 
 bool8 SpiratonBattleIgnoreFaint(u8 battler)

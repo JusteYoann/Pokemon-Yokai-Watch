@@ -1629,9 +1629,10 @@ static u8 TrySetupObjectEventSprite(const struct ObjectEventTemplate *objectEven
 
     objectEvent = &gObjectEvents[objectEventId];
     graphicsInfo = GetObjectEventGraphicsInfo(objectEvent->graphicsId);
-    // Argenta only: bank6 is an unused reflection bank on this dry, locked scene.
+    // Argenta and the dry Champion room: bank6 is an unused reflection bank.
     // Keep original pixels/palettes/animations; never overwrite Don's bank10.
-    argentaMatt = mapNum == MAP_NUM(MAP_PEWTER_CITY) && mapGroup == MAP_GROUP(MAP_PEWTER_CITY)
+    argentaMatt = ((mapNum == MAP_NUM(MAP_PEWTER_CITY) && mapGroup == MAP_GROUP(MAP_PEWTER_CITY))
+                || (mapNum == MAP_NUM(MAP_POKEMON_LEAGUE_CHAMPIONS_ROOM) && mapGroup == MAP_GROUP(MAP_POKEMON_LEAGUE_CHAMPIONS_ROOM)))
                && objectEvent->graphicsId == OBJ_EVENT_GFX_BLUE;
     paletteSlot = argentaMatt ? PALSLOT_NPC_1_REFLECTION : graphicsInfo->paletteSlot;
     if (argentaMatt)

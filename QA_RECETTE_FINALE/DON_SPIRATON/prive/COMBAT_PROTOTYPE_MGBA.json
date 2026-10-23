@@ -1,7 +1,7 @@
 {
   "passed": true,
   "scope": "Isolated eight-form battle prototype. Initial true-form artwork/UI not approved.\n\nStarts diagnostic trainer 744 explicitly, with a boosted QA player. No production\nmap arms this encounter. Controller selects moves; no enemy HP/PP writes.\n",
-  "rom_sha256": "6bb2135d5989dfcb619f511b53488494c253098fdb35c7dbe476eb1c48f4c833",
+  "rom_sha256": "a282492e81fc96c5685839c327189dd91334eeca183c673579055a041719cc04",
   "forms": [
     {
       "phase": 1,
@@ -13,43 +13,43 @@
       "phase": 2,
       "species": 130,
       "level": 57,
-      "first_frame": 1248
+      "first_frame": 1216
     },
     {
       "phase": 3,
       "species": 12,
       "level": 58,
-      "first_frame": 2488
+      "first_frame": 2472
     },
     {
       "phase": 4,
       "species": 138,
       "level": 59,
-      "first_frame": 3248
+      "first_frame": 3200
     },
     {
       "phase": 5,
       "species": 51,
       "level": 60,
-      "first_frame": 3976
+      "first_frame": 3880
     },
     {
       "phase": 6,
       "species": 67,
       "level": 61,
-      "first_frame": 5712
+      "first_frame": 4904
     },
     {
       "phase": 7,
       "species": 149,
       "level": 62,
-      "first_frame": 6480
+      "first_frame": 5648
     },
     {
       "phase": 8,
       "species": 39,
       "level": 63,
-      "first_frame": 7456
+      "first_frame": 6640
     }
   ],
   "production_scene": false,

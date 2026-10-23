@@ -3753,6 +3753,14 @@ static void HandleEndTurn_BattleWon(void)
         PlayBGM(MUS_VICTORY_TRAINER);
         gBattlescriptCurrInstr = BattleScript_BattleTowerTrainerBattleWon;
     }
+    else if (SpiratonBattleIsBoss(1))
+    {
+        /* Keep trainer capture/run rules, without resurrecting a trainer
+         * portrait or printing a fictitious trainer defeat after the boss. */
+        BattleStopLowHpSound();
+        PlayBGM(MUS_VICTORY_TRAINER);
+        gBattlescriptCurrInstr = BattleScript_PayDayMoneyAndPickUpItems;
+    }
     else if (gBattleTypeFlags & BATTLE_TYPE_TRAINER && !(gBattleTypeFlags & BATTLE_TYPE_LINK))
     {
         BattleStopLowHpSound();
