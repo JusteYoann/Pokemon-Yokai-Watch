@@ -1,0 +1,84 @@
+{
+  "kind": "Four front battle sprite candidates",
+  "creation": "Generated concepts guided by six existing151fronts, approved OW identity and user-provided Zombifdge artwork; binary-alpha NEAREST64x64 preparation and RGB555 palette reduction. Sources retained. Not described as hand-authored native artwork.",
+  "source_sha256": "48a7f35012ab7bab6dd0bf5383d48fd4ca4dd2dc485461ed3b3ef7f75be7f4d0",
+  "overworld_approved_asset_unchanged": true,
+  "records": [
+    {
+      "variant": "errant",
+      "file": "graphics/yokai_zombies/errant/battle-front.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "bbox": [
+        10,
+        6,
+        54,
+        60
+      ],
+      "opaque_colors": 13,
+      "tile_bytes": 2048,
+      "palette_bytes": 32,
+      "sha256": "d639e32a4c53429d185f5b05a2e8e5a1cad67085010cbd9ed71a3c3fe886a145",
+      "status": "Created native-format artwork candidate; no species/team/stat/patrol assignment"
+    },
+    {
+      "variant": "sprinteur",
+      "file": "graphics/yokai_zombies/sprinteur/battle-front.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "bbox": [
+        6,
+        10,
+        57,
+        60
+      ],
+      "opaque_colors": 13,
+      "tile_bytes": 2048,
+      "palette_bytes": 32,
+      "sha256": "bf1afde397068d7cc8e9f2560398c884b8d5157153b85a58b298155e6cdc5432",
+      "status": "Created native-format artwork candidate; no species/team/stat/patrol assignment"
+    },
+    {
+      "variant": "colosse",
+      "file": "graphics/yokai_zombies/colosse/battle-front.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "bbox": [
+        3,
+        6,
+        61,
+        60
+      ],
+      "opaque_colors": 14,
+      "tile_bytes": 2048,
+      "palette_bytes": 32,
+      "sha256": "6d0fc001a32fa7b02551736e3a98eb7ed521b1bcf2517cefd83d32aaab11ed80",
+      "status": "Created native-format artwork candidate; no species/team/stat/patrol assignment"
+    },
+    {
+      "variant": "spectral",
+      "file": "graphics/yokai_zombies/spectral/battle-front.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "bbox": [
+        12,
+        4,
+        51,
+        60
+      ],
+      "opaque_colors": 13,
+      "tile_bytes": 2048,
+      "palette_bytes": 32,
+      "sha256": "4f61ceec939d7372d26a5749538d57b998f041dbaaad816a0f951bff26c32262",
+      "status": "Created native-format artwork candidate; no species/team/stat/patrol assignment"
+    }
+  ]
+}

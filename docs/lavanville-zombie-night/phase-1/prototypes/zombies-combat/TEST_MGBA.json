@@ -1,0 +1,68 @@
+{
+  "engine": "mGBA libretro",
+  "rom_sha256": "af807f4b8e2b6f7367208c1b25355a93b90b9937241295dd23e34b382df906cf",
+  "rom_unchanged": true,
+  "scope": "Real mGBA visual-only battle fixture; artwork uploads, no ROM edits.\nUses an existing species as an explicit RAM opponent template, not a new zombie species.\nCapture/run/stats/AI/entry mechanics are NOT implemented or tested here.\n",
+  "results": [
+    {
+      "variant": "errant",
+      "native_sheet_uploaded": true,
+      "sprite_id": 3,
+      "palette_bank": 1,
+      "tile_start": 277,
+      "visible": true,
+      "position": [
+        172,
+        45
+      ],
+      "template_species": 9,
+      "level": 25,
+      "visual_only": true
+    },
+    {
+      "variant": "sprinteur",
+      "native_sheet_uploaded": true,
+      "sprite_id": 3,
+      "palette_bank": 1,
+      "tile_start": 277,
+      "visible": true,
+      "position": [
+        172,
+        45
+      ],
+      "template_species": 9,
+      "level": 25,
+      "visual_only": true
+    },
+    {
+      "variant": "colosse",
+      "native_sheet_uploaded": true,
+      "sprite_id": 3,
+      "palette_bank": 1,
+      "tile_start": 277,
+      "visible": true,
+      "position": [
+        172,
+        45
+      ],
+      "template_species": 9,
+      "level": 25,
+      "visual_only": true
+    },
+    {
+      "variant": "spectral",
+      "native_sheet_uploaded": true,
+      "sprite_id": 3,
+      "palette_bank": 1,
+      "tile_start": 277,
+      "visible": true,
+      "position": [
+        172,
+        45
+      ],
+      "template_species": 9,
+      "level": 25,
+      "visual_only": true
+    }
+  ]
+}
