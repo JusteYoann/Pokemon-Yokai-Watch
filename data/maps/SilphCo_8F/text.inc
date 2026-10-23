@@ -5,14 +5,13 @@ SilphCo_8F_Text_ThanksForSavingUs::
     .string "Thanks for saving us!$"
 
 SilphCo_8F_Text_Grunt1Intro::
-    .string "That's as far as you'll go!$"
+    .string "Ton ascension s'arrête ici. Le Don ne\nreçoit personne!$"
 
 SilphCo_8F_Text_Grunt1Defeat::
-    .string "Not enough grit!$"
+    .string "Mauvais étage pour moi...$"
 
 SilphCo_8F_Text_Grunt1PostBattle::
-    .string "If you don't turn back…\n"
-    .string "I'll call for backup!$"
+    .string "Fais demi-tour, ou j'appelle du\nrenfort!$"
 
 SilphCo_8F_Text_ParkerIntro::
     .string "You're causing us problems!$"
@@ -26,24 +25,17 @@ SilphCo_8F_Text_ParkerPostBattle::
     .string "BUILDING's maze?$"
 
 SilphCo_8F_Text_Grunt2Intro::
-    .string "I am one of the four ROCKET\n"
-    .string "BROTHERS!$"
+    .string "Troisième frère de la Mafiamille! Tu\nne nous arrêteras pas tous!$"
 
 SilphCo_8F_Text_Grunt2Defeat::
-    .string "Whoo!\n"
-    .string "Oh, Brothers!$"
+    .string "Mes frères... au secours!$"
 
 SilphCo_8F_Text_Grunt2PostBattle::
-    .string "I'll leave you up to my brothers.$"
+    .string "Je laisse la suite à mon dernier\nfrère.$"
 
 SilphCo_8F_Text_FloorSign::
     .string "SILPH CO. HEAD OFFICE\n"
     .string "8F$"
 
 SilphCo_8F_Text_ToRocketBossMonsAreTools::
-    .string "TEAM ROCKET's BOSS is terribly\n"
-    .string "cruel!\p"
-    .string "To him, Yo-kai are just tools to\n"
-    .string "be used.\p"
-    .string "What will happen if that tyrant\n"
-    .string "takes over our company…$"
+    .string "Don Morléone fait peur aux employés.\pPour lui, les Yo-kai sont des outils\nau service de ses affaires.\pIl ne doit pas prendre notre\nentreprise!$"

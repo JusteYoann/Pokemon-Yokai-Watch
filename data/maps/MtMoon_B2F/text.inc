@@ -14,40 +14,40 @@ MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils::
     .string "Sur CINNABAR ISLAND,\nun Laboratoire étudie les Yo-kai.\pIls travaillent notamment\nsur la régénération des fossiles.$"
 
 MtMoon_B2F_Text_Grunt1Intro::
-    .string "Nous, la Team Rocket,\nallons trouver ces fossiles!\pLes Yo-kai qu'ils contiennent\nvont nous rapporter gros!$"
+    .string "Ces fossiles sont réservés à la\nMafiamille. Le Don sait reconnaître\lun bon placement!$"
 
 MtMoon_B2F_Text_Grunt1Defeat::
-    .string "Grrr!\nTu m'énerves!$"
+    .string "Tu as fait échouer l'affaire!$"
 
 MtMoon_B2F_Text_Grunt1PostBattle::
-    .string "Tu m'as mis en colère!\nLa Team Rocket ne l'oubliera pas!$"
+    .string "Un fossile ne rapporte rien si tu le\ngardes pour toi. Réfléchis un peu!$"
 
 MtMoon_B2F_Text_Grunt2Intro::
-    .string "Nous sommes les bandits\nde la Team Rocket!\pAvec nos Yo-kai,\nnous faisons régner la peur!$"
+    .string "La Mafiamille mène les fouilles. Tu\npeux repartir... ou tenter de passer.$"
 
 MtMoon_B2F_Text_Grunt2Defeat::
-    .string "J'ai tout raté!$"
+    .string "Je n'avais pas prévu ça!$"
 
 MtMoon_B2F_Text_Grunt2PostBattle::
-    .string "Zut alors!\nMes collègues ne laisseront pas\lpasser ça!$"
+    .string "Mes collègues ne seront pas aussi\nconciliants. Enfin, j'espère.$"
 
 MtMoon_B2F_Text_Grunt3Intro::
-    .string "Une grosse affaire se prépare!\nDégage de là!$"
+    .string "Une grosse affaire se prépare ici.\nLes curieux restent dehors!$"
 
 MtMoon_B2F_Text_Grunt3Defeat::
-    .string "Tu te débrouilles bien…$"
+    .string "Tu sais te défendre...$"
 
 MtMoon_B2F_Text_Grunt3PostBattle::
-    .string "Si tu trouves un fossile,\ndonne-le-moi et file!$"
+    .string "Un fossile dans ton sac? On pourrait\ns'arranger. Non? Tant pis.$"
 
 MtMoon_B2F_Text_Grunt4Intro::
-    .string "Les enfants ne devraient pas\nse mêler des affaires des grands!\pÇa pourrait mal tourner!$"
+    .string "Les affaires de la famille ne\nregardent pas les enfants!$"
 
 MtMoon_B2F_Text_Grunt4Defeat::
-    .string "Je suis furieux!$"
+    .string "Ça va mal finir... pour moi.$"
 
 MtMoon_B2F_Text_Grunt4PostBattle::
-    .string "Les Yo-kai vivaient ici\nbien avant l'arrivée des humains.$"
+    .string "Les Yo-kai vivaient ici bien avant\nnous. Le Don s'intéresse à leurs\lsecrets.$"
 
 MtMoon_B2F_Text_YouWantDomeFossil::
     .string "Veux-tu le Fossile Dôme?$"

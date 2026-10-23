@@ -28,8 +28,7 @@ VictoryRoad_3F_Text_GeorgeDefeat::
     .string "The rumors were true!$"
 
 VictoryRoad_3F_Text_GeorgePostBattle::
-    .string "So, it was you who beat GIOVANNI\n"
-    .string "of TEAM ROCKET?$"
+    .string "C'est donc toi qui as battu Don\nMorléone, le chef de la Mafiamille?$"
 
 VictoryRoad_3F_Text_AlexaIntro::
     .string "TRAINERS live to seek stronger\n"

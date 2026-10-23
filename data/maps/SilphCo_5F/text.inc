@@ -1,22 +1,17 @@
 SilphCo_5F_Text_RocketsInUproarAboutIntruder::
-    .string "TEAM ROCKET is in an uproar over\n"
-    .string "some intruder.\p"
-    .string "That's you, right?$"
+    .string "La Mafiamille s'agite à cause d'un\nintrus. C'est toi, n'est-ce pas?$"
 
 SilphCo_5F_Text_YoureOurHeroThankYou::
-    .string "TEAM ROCKET took off!\n"
-    .string "You're our hero! Thank you!$"
+    .string "Les sbires sont partis! Tu nous as\nsauvés, merci!$"
 
 SilphCo_5F_Text_Grunt1Intro::
-    .string "I heard a kid was wandering\n"
-    .string "around.$"
+    .string "On parle d'un enfant dans les\ncouloirs. Tu viens te rendre?$"
 
 SilphCo_5F_Text_Grunt1Defeat::
-    .string "Boom!$"
+    .string "Pas du tout, apparemment.$"
 
 SilphCo_5F_Text_Grunt1PostBattle::
-    .string "It's not smart to pick a fight with\n"
-    .string "TEAM ROCKET!$"
+    .string "Provoquer la Mafiamille, ce n'est pas\nune bonne stratégie de carrière.$"
 
 SilphCo_5F_Text_BeauIntro::
     .string "We study Yo-kai Ball technology on\n"
@@ -43,15 +38,13 @@ SilphCo_5F_Text_DaltonPostBattle::
     .string "It's a long way to my BOSS!$"
 
 SilphCo_5F_Text_Grunt2Intro::
-    .string "Show TEAM ROCKET a little respect!$"
+    .string "Un peu de respect! Tu parles à un\nmembre de la famille.$"
 
 SilphCo_5F_Text_Grunt2Defeat::
-    .string "Cough…\n"
-    .string "Cough…$"
+    .string "Je manque d'arguments...$"
 
 SilphCo_5F_Text_Grunt2PostBattle::
-    .string "Which reminds me.\p"
-    .string "KOFFING evolves into WEEZING!$"
+    .string "Les Yo-kai grandissent, les affaires\naussi. Moi, je devrais surtout\lm'entraîner.$"
 
 SilphCo_5F_Text_PorygonFirstVRMon::
     .string "It's a Yo-kai REPORT!\p"
@@ -73,9 +66,4 @@ SilphCo_5F_Text_FloorSign::
     .string "5F$"
 
 SilphCo_5F_Text_RocketBossLookingForStrongMons::
-    .string "Those thugs that took over our\n"
-    .string "building…\p"
-    .string "Their BOSS said he was looking for\n"
-    .string "strong Yo-kai.\p"
-    .string "I hope our PRESIDENT managed to\n"
-    .string "avoid trouble…$"
+    .string "Le chef des occupants cherchait des\nYo-kai puissants.\pJ'espère que notre président ne lui a\nrien cédé...$"

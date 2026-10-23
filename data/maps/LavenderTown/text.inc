@@ -17,9 +17,7 @@ LavenderTown_Text_TownKnownAsMonGraveSite::
     .string "Yo-kai TOWER.$"
 
 LavenderTown_Text_GhostsAppearedInTower::
-    .string "Ghosts appeared in Yo-kai TOWER.\p"
-    .string "I think they're the spirits of\n"
-    .string "Yo-kai that the ROCKETS killed.$"
+    .string "Des fantômes hantent la tour. On dit\nque les captures de la Mafiamille y\lont troublé les esprits.$"
 
 LavenderTown_Text_TownSign::
     .string "LAVENDER TOWN\n"

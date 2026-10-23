@@ -3,12 +3,10 @@ SilphCo_2F_Text_ConnorIntro::
     .string "I'm a SILPH employee.$"
 
 SilphCo_2F_Text_ConnorDefeat::
-    .string "How did you know\n"
-    .string "I was a ROCKET?$"
+    .string "Comment as-tu compris que j'aidais la\nMafiamille?$"
 
 SilphCo_2F_Text_ConnorPostBattle::
-    .string "I work for both SILPH and TEAM\n"
-    .string "ROCKET.$"
+    .string "La Sylphe paie mon salaire. La\nMafiamille paie mes extras.$"
 
 SilphCo_2F_Text_JerryIntro::
     .string "It's off-limits here!\n"
@@ -22,35 +20,25 @@ SilphCo_2F_Text_JerryPostBattle::
     .string "It's not easy, I tell you!$"
 
 SilphCo_2F_Text_Grunt1Intro::
-    .string "No kids are allowed in here!$"
+    .string "Les visites scolaires sont annulées.\nOrdre de la famille!$"
 
 SilphCo_2F_Text_Grunt1Defeat::
-    .string "Tough!$"
+    .string "Tu apprends vite!$"
 
 SilphCo_2F_Text_Grunt1PostBattle::
-    .string "Diamond-shaped tiles are teleport\n"
-    .string "blocks.\p"
-    .string "They're transporters for this\n"
-    .string "high-tech building.$"
+    .string "Les dalles en losange sont des\ntéléporteurs. Voilà ton cours de\ltechnologie.$"
 
 SilphCo_2F_Text_Grunt2Intro::
-    .string "Hey, kid!\n"
-    .string "What are you wandering here for?$"
+    .string "Hé! Qui t'a autorisé à parcourir nos\nnouveaux bureaux?$"
 
 SilphCo_2F_Text_Grunt2Defeat::
-    .string "I goofed!$"
+    .string "Je vais devoir le signaler...$"
 
 SilphCo_2F_Text_Grunt2PostBattle::
-    .string "SILPH CO. will be associated with\n"
-    .string "TEAM ROCKET!$"
+    .string "La Sylphe travaillera bientôt pour la\nMafiamille. C'est une question de\ltemps.$"
 
 Text_ThunderWaveTeach::
-    .string "Eeek!\n"
-    .string "No! Stop! Help!\p"
-    .string "Oh, you're not with TEAM ROCKET.\n"
-    .string "I'm sorry, I thought…\p"
-    .string "Will you forgive me if I teach\n"
-    .string "you the THUNDER WAVE technique?$"
+    .string "Au secours! Ne me faites pas de mal!\pOh! Tu n'es pas avec la Mafiamille.\nExcuse-moi...\pPour me faire pardonner, je peux\nenseigner Cage Éclair à un de tes\lYo-kai.$"
 
 Text_ThunderWaveDeclined::
     .string "Oh…\n"

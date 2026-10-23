@@ -1,12 +1,12 @@
 CeruleanCity_House2_Text_RocketsStoleTMForDig::
-    .string "Ces misérables Rockets!\pRegarde ce qu'ils ont fait\nà ma maison!\pIls m'ont volé la CT Tunnel.\pJe voulais l'utiliser\nsur un de mes Yo-kai…\pElle m'avait coûté une fortune!$"
+    .string "Ces voleurs de la Mafiamille ont\nsaccagé ma maison!\pIls ont pris ma CT Tunnel. Je l'avais\nachetée pour mon Yo-kai!$"
 
 CeruleanCity_House2_Text_TeachDiglettDigWithoutTM::
     .string "Ce qui est perdu est perdu.\pJe vais entraîner mes Yo-kai\nsans cette CT.$"
 
 CeruleanCity_House2_Text_TeamRocketTryingToDigIntoNoGood::
-    .string "La Team Rocket doit encore\npréparer un mauvais coup!$"
+    .string "La Mafiamille prépare encore un\nmauvais coup, c'est certain.$"
 
 CeruleanCity_House2_Text_TeamRocketLeftWayOut::
-    .string "La Team Rocket a laissé\nun passage vers l'extérieur!$"
+    .string "Les cambrioleurs ont laissé un\npassage vers l'extérieur!$"
 

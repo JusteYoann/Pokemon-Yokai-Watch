@@ -1,0 +1,1591 @@
+{
+  "passed": true,
+  "base": "6f143452a026a41c08f1db38f9809959809a31b6",
+  "protected_files_byte_identical": 1776,
+  "unchanged_map_programs": 425,
+  "actors": [
+    {
+      "map": "SilphCo_6F",
+      "index": 1,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SilphCo_6F_EventScript_Grunt1",
+      "x": 21,
+      "y": 5
+    },
+    {
+      "map": "SilphCo_6F",
+      "index": 10,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SilphCo_6F_EventScript_Grunt2",
+      "x": 18,
+      "y": 17
+    },
+    {
+      "map": "SilphCo_10F",
+      "index": 3,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SilphCo_10F_EventScript_Grunt",
+      "x": 0,
+      "y": 13
+    },
+    {
+      "map": "MtEmber_Exterior",
+      "index": 2,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "MtEmber_Exterior_EventScript_Grunt1",
+      "x": 41,
+      "y": 40
+    },
+    {
+      "map": "MtEmber_Exterior",
+      "index": 3,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "MtEmber_Exterior_EventScript_Grunt2",
+      "x": 42,
+      "y": 40
+    },
+    {
+      "map": "FiveIsland_RocketWarehouse",
+      "index": 1,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Grunt2",
+      "x": 15,
+      "y": 11
+    },
+    {
+      "map": "FiveIsland_RocketWarehouse",
+      "index": 2,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Grunt3",
+      "x": 17,
+      "y": 15
+    },
+    {
+      "map": "FiveIsland_RocketWarehouse",
+      "index": 3,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_F",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Admin1",
+      "x": 27,
+      "y": 16
+    },
+    {
+      "map": "FiveIsland_RocketWarehouse",
+      "index": 4,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Admin2",
+      "x": 25,
+      "y": 11
+    },
+    {
+      "map": "FiveIsland_RocketWarehouse",
+      "index": 5,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_F",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Grunt1",
+      "x": 6,
+      "y": 6
+    },
+    {
+      "map": "RocketHideout_B4F",
+      "index": 1,
+      "graphics": "OBJ_EVENT_GFX_GIOVANNI",
+      "script": "RocketHideout_B4F_EventScript_Giovanni",
+      "x": 19,
+      "y": 4
+    },
+    {
+      "map": "RocketHideout_B4F",
+      "index": 3,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "RocketHideout_B4F_EventScript_Grunt1",
+      "x": 4,
+      "y": 2
+    },
+    {
+      "map": "RocketHideout_B4F",
+      "index": 5,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "RocketHideout_B4F_EventScript_Grunt3",
+      "x": 19,
+      "y": 14
+    },
+    {
+      "map": "RocketHideout_B4F",
+      "index": 6,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "RocketHideout_B4F_EventScript_Grunt2",
+      "x": 16,
+      "y": 14
+    },
+    {
+      "map": "SilphCo_5F",
+      "index": 1,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SilphCo_5F_EventScript_Grunt2",
+      "x": 35,
+      "y": 7
+    },
+    {
+      "map": "SilphCo_5F",
+      "index": 5,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SilphCo_5F_EventScript_Grunt1",
+      "x": 9,
+      "y": 21
+    },
+    {
+      "map": "SilphCo_3F",
+      "index": 1,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SilphCo_3F_EventScript_Grunt",
+      "x": 25,
+      "y": 9
+    },
+    {
+      "map": "ViridianCity_Gym",
+      "index": 8,
+      "graphics": "OBJ_EVENT_GFX_GIOVANNI",
+      "script": "ViridianCity_Gym_EventScript_Giovanni",
+      "x": 2,
+      "y": 2
+    },
+    {
+      "map": "SilphCo_4F",
+      "index": 1,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SilphCo_4F_EventScript_Grunt2",
+      "x": 33,
+      "y": 16
+    },
+    {
+      "map": "SilphCo_4F",
+      "index": 2,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SilphCo_4F_EventScript_Grunt1",
+      "x": 10,
+      "y": 19
+    },
+    {
+      "map": "CeladonCity_GameCorner",
+      "index": 11,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "CeladonCity_GameCorner_EventScript_RocketGrunt",
+      "x": 11,
+      "y": 2
+    },
+    {
+      "map": "SaffronCity",
+      "index": 1,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SaffronCity_EventScript_RocketGrunt1",
+      "x": 22,
+      "y": 15
+    },
+    {
+      "map": "SaffronCity",
+      "index": 2,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SaffronCity_EventScript_RocketGrunt2",
+      "x": 26,
+      "y": 16
+    },
+    {
+      "map": "SaffronCity",
+      "index": 3,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SaffronCity_EventScript_RocketGrunt3",
+      "x": 46,
+      "y": 13
+    },
+    {
+      "map": "SaffronCity",
+      "index": 4,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SaffronCity_EventScript_RocketGrunt4",
+      "x": 27,
+      "y": 22
+    },
+    {
+      "map": "SaffronCity",
+      "index": 5,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SaffronCity_EventScript_RocketGrunt5",
+      "x": 25,
+      "y": 33
+    },
+    {
+      "map": "SaffronCity",
+      "index": 6,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SaffronCity_EventScript_DoorGuardGrunt",
+      "x": 34,
+      "y": 31
+    },
+    {
+      "map": "SaffronCity",
+      "index": 7,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SaffronCity_EventScript_RocketGrunt7",
+      "x": 30,
+      "y": 39
+    },
+    {
+      "map": "SaffronCity",
+      "index": 8,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SaffronCity_EventScript_RocketGrunt6",
+      "x": 48,
+      "y": 24
+    },
+    {
+      "map": "RocketHideout_B2F",
+      "index": 1,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "RocketHideout_B2F_EventScript_Grunt",
+      "x": 20,
+      "y": 6
+    },
+    {
+      "map": "RocketHideout_B3F",
+      "index": 1,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "RocketHideout_B3F_EventScript_Grunt2",
+      "x": 19,
+      "y": 9
+    },
+    {
+      "map": "RocketHideout_B3F",
+      "index": 2,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "RocketHideout_B3F_EventScript_Grunt1",
+      "x": 2,
+      "y": 20
+    },
+    {
+      "map": "MtMoon_B2F",
+      "index": 4,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "MtMoon_B2F_EventScript_Grunt4",
+      "x": 37,
+      "y": 21
+    },
+    {
+      "map": "MtMoon_B2F",
+      "index": 5,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "MtMoon_B2F_EventScript_Grunt1",
+      "x": 12,
+      "y": 20
+    },
+    {
+      "map": "MtMoon_B2F",
+      "index": 6,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "MtMoon_B2F_EventScript_Grunt3",
+      "x": 35,
+      "y": 12
+    },
+    {
+      "map": "MtMoon_B2F",
+      "index": 7,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "MtMoon_B2F_EventScript_Grunt2",
+      "x": 18,
+      "y": 27
+    },
+    {
+      "map": "CeladonCity_House1",
+      "index": 2,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "CeladonCity_House1_EventScript_Rocket1",
+      "x": 2,
+      "y": 4
+    },
+    {
+      "map": "CeladonCity_House1",
+      "index": 3,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "CeladonCity_House1_EventScript_Rocket2",
+      "x": 8,
+      "y": 4
+    },
+    {
+      "map": "SilphCo_11F",
+      "index": 3,
+      "graphics": "OBJ_EVENT_GFX_GIOVANNI",
+      "script": "0x0",
+      "x": 6,
+      "y": 11
+    },
+    {
+      "map": "SilphCo_11F",
+      "index": 4,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SilphCo_11F_EventScript_Grunt1",
+      "x": 16,
+      "y": 12
+    },
+    {
+      "map": "SilphCo_11F",
+      "index": 6,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SilphCo_11F_EventScript_Grunt2",
+      "x": 2,
+      "y": 19
+    },
+    {
+      "map": "CeruleanCity",
+      "index": 2,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "CeruleanCity_EventScript_Grunt",
+      "x": 33,
+      "y": 6
+    },
+    {
+      "map": "FiveIsland_Meadow",
+      "index": 1,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_F",
+      "script": "FiveIsland_Meadow_EventScript_Rocket3",
+      "x": 18,
+      "y": 18
+    },
+    {
+      "map": "FiveIsland_Meadow",
+      "index": 2,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "FiveIsland_Meadow_EventScript_Rocket1",
+      "x": 17,
+      "y": 5
+    },
+    {
+      "map": "FiveIsland_Meadow",
+      "index": 3,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "FiveIsland_Meadow_EventScript_Rocket2",
+      "x": 11,
+      "y": 27
+    },
+    {
+      "map": "CeladonCity",
+      "index": 1,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "CeladonCity_EventScript_RocketGrunt1",
+      "x": 48,
+      "y": 15
+    },
+    {
+      "map": "CeladonCity",
+      "index": 8,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "CeladonCity_EventScript_RocketGrunt2",
+      "x": 38,
+      "y": 31
+    },
+    {
+      "map": "SixIsland_OutcastIsland",
+      "index": 1,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SixIsland_OutcastIsland_EventScript_Rocket",
+      "x": 9,
+      "y": 24
+    },
+    {
+      "map": "Route24",
+      "index": 1,
+      "graphics": "OBJ_EVENT_GFX_MAN",
+      "script": "Route24_EventScript_Rocket",
+      "x": 12,
+      "y": 15
+    },
+    {
+      "map": "SilphCo_9F",
+      "index": 2,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SilphCo_9F_EventScript_Grunt2",
+      "x": 15,
+      "y": 18
+    },
+    {
+      "map": "SilphCo_9F",
+      "index": 4,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SilphCo_9F_EventScript_Grunt1",
+      "x": 1,
+      "y": 6
+    },
+    {
+      "map": "SilphCo_8F",
+      "index": 1,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SilphCo_8F_EventScript_Grunt1",
+      "x": 28,
+      "y": 5
+    },
+    {
+      "map": "SilphCo_8F",
+      "index": 2,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SilphCo_8F_EventScript_Grunt2",
+      "x": 10,
+      "y": 17
+    },
+    {
+      "map": "SilphCo_7F",
+      "index": 3,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SilphCo_7F_EventScript_Grunt1",
+      "x": 24,
+      "y": 5
+    },
+    {
+      "map": "SilphCo_7F",
+      "index": 4,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SilphCo_7F_EventScript_Grunt2",
+      "x": 24,
+      "y": 15
+    },
+    {
+      "map": "SilphCo_7F",
+      "index": 5,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SilphCo_7F_EventScript_Grunt3",
+      "x": 13,
+      "y": 4
+    },
+    {
+      "map": "SilphCo_2F",
+      "index": 1,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SilphCo_2F_EventScript_Grunt2",
+      "x": 29,
+      "y": 12
+    },
+    {
+      "map": "SilphCo_2F",
+      "index": 3,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "SilphCo_2F_EventScript_Grunt1",
+      "x": 20,
+      "y": 14
+    },
+    {
+      "map": "FourIsland_IcefallCave_Back",
+      "index": 1,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "0x0",
+      "x": 11,
+      "y": 14
+    },
+    {
+      "map": "FourIsland_IcefallCave_Back",
+      "index": 2,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "0x0",
+      "x": 13,
+      "y": 14
+    },
+    {
+      "map": "FourIsland_IcefallCave_Back",
+      "index": 4,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "0x0",
+      "x": 10,
+      "y": 15
+    },
+    {
+      "map": "RocketHideout_B1F",
+      "index": 1,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "RocketHideout_B1F_EventScript_Grunt2",
+      "x": 4,
+      "y": 9
+    },
+    {
+      "map": "RocketHideout_B1F",
+      "index": 2,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "RocketHideout_B1F_EventScript_Grunt1",
+      "x": 24,
+      "y": 12
+    },
+    {
+      "map": "RocketHideout_B1F",
+      "index": 3,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "RocketHideout_B1F_EventScript_Grunt4",
+      "x": 6,
+      "y": 32
+    },
+    {
+      "map": "RocketHideout_B1F",
+      "index": 4,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "RocketHideout_B1F_EventScript_Grunt3",
+      "x": 10,
+      "y": 22
+    },
+    {
+      "map": "RocketHideout_B1F",
+      "index": 5,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "RocketHideout_B1F_EventScript_Grunt5",
+      "x": 21,
+      "y": 27
+    },
+    {
+      "map": "PokemonTower_7F",
+      "index": 2,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "PokemonTower_7F_EventScript_Grunt1",
+      "x": 9,
+      "y": 10
+    },
+    {
+      "map": "PokemonTower_7F",
+      "index": 3,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "PokemonTower_7F_EventScript_Grunt2",
+      "x": 13,
+      "y": 8
+    },
+    {
+      "map": "PokemonTower_7F",
+      "index": 4,
+      "graphics": "OBJ_EVENT_GFX_ROCKET_M",
+      "script": "PokemonTower_7F_EventScript_Grunt3",
+      "x": 9,
+      "y": 6
+    }
+  ],
+  "rocket_trainer_records": 53,
+  "portrait_distribution": {
+    "1": 18,
+    "2": 18,
+    "3": 17
+  },
+  "changed_parties": 31,
+  "all_other_parties_identical": true,
+  "all_other_trainers_identical": true,
+  "levels_counts_IV_items_AI_money_preserved": true,
+  "text_checks": [
+    {
+      "label": "MtMoon_B2F_Text_Grunt1Intro",
+      "maximum_pixels": 192
+    },
+    {
+      "label": "MtMoon_B2F_Text_Grunt1Defeat",
+      "maximum_pixels": 159
+    },
+    {
+      "label": "MtMoon_B2F_Text_Grunt1PostBattle",
+      "maximum_pixels": 196
+    },
+    {
+      "label": "MtMoon_B2F_Text_Grunt2Intro",
+      "maximum_pixels": 205
+    },
+    {
+      "label": "MtMoon_B2F_Text_Grunt2Defeat",
+      "maximum_pixels": 135
+    },
+    {
+      "label": "MtMoon_B2F_Text_Grunt2PostBattle",
+      "maximum_pixels": 184
+    },
+    {
+      "label": "MtMoon_B2F_Text_Grunt3Intro",
+      "maximum_pixels": 187
+    },
+    {
+      "label": "MtMoon_B2F_Text_Grunt3Defeat",
+      "maximum_pixels": 121
+    },
+    {
+      "label": "MtMoon_B2F_Text_Grunt3PostBattle",
+      "maximum_pixels": 198
+    },
+    {
+      "label": "MtMoon_B2F_Text_Grunt4Intro",
+      "maximum_pixels": 160
+    },
+    {
+      "label": "MtMoon_B2F_Text_Grunt4Defeat",
+      "maximum_pixels": 153
+    },
+    {
+      "label": "MtMoon_B2F_Text_Grunt4PostBattle",
+      "maximum_pixels": 185
+    },
+    {
+      "label": "CeruleanCity_Text_GruntIntro",
+      "maximum_pixels": 188
+    },
+    {
+      "label": "CeruleanCity_Text_GruntDefeat",
+      "maximum_pixels": 191
+    },
+    {
+      "label": "CeruleanCity_Text_RecoveredTM28FromGrunt",
+      "maximum_pixels": 188
+    },
+    {
+      "label": "CeruleanCity_Text_PeopleHereWereRobbed",
+      "maximum_pixels": 191
+    },
+    {
+      "label": "Route24_Text_JustEarnedFabulousPrize",
+      "maximum_pixels": 192
+    },
+    {
+      "label": "Route24_Text_ReceivedNuggetFromMysteryTrainer",
+      "maximum_pixels": 199
+    },
+    {
+      "label": "Route24_Text_JoinTeamRocket",
+      "maximum_pixels": 201
+    },
+    {
+      "label": "Route24_Text_RocketDefeat",
+      "maximum_pixels": 147
+    },
+    {
+      "label": "Route24_Text_YoudBecomeTopRocketLeader",
+      "maximum_pixels": 185
+    },
+    {
+      "label": "CeladonCity_Text_KeepOutOfTeamRocketsWay",
+      "maximum_pixels": 180
+    },
+    {
+      "label": "CeladonCity_Text_GameCornerSign",
+      "maximum_pixels": 187
+    },
+    {
+      "label": "CeladonCity_House1_Text_SlotsReelInTheDough",
+      "maximum_pixels": 185
+    },
+    {
+      "label": "CeladonCity_House1_Text_ShippedMonsAsSlotPrizes",
+      "maximum_pixels": 207
+    },
+    {
+      "label": "CeladonCity_House1_Text_DontTouchGameCornerPoster",
+      "maximum_pixels": 202
+    },
+    {
+      "label": "CeladonCity_GameCorner_Text_WelcomeBuySomeCoins",
+      "maximum_pixels": 171
+    },
+    {
+      "label": "CeladonCity_GameCorner_Text_RumoredTeamRocketRunsThisPlace",
+      "maximum_pixels": 203
+    },
+    {
+      "label": "CeladonCity_GameCorner_Text_GruntIntro",
+      "maximum_pixels": 195
+    },
+    {
+      "label": "CeladonCity_GameCorner_Text_GruntDefeat",
+      "maximum_pixels": 167
+    },
+    {
+      "label": "CeladonCity_GameCorner_Text_GruntPostBattle",
+      "maximum_pixels": 189
+    },
+    {
+      "label": "CeladonCity_GameCorner_Text_SwitchBehindPosterPushIt",
+      "maximum_pixels": 188
+    },
+    {
+      "label": "RocketHideout_B1F_Text_Grunt1Intro",
+      "maximum_pixels": 207
+    },
+    {
+      "label": "RocketHideout_B1F_Text_Grunt1Defeat",
+      "maximum_pixels": 168
+    },
+    {
+      "label": "RocketHideout_B1F_Text_Grunt1PostBattle",
+      "maximum_pixels": 168
+    },
+    {
+      "label": "RocketHideout_B1F_Text_Grunt2Intro",
+      "maximum_pixels": 161
+    },
+    {
+      "label": "RocketHideout_B1F_Text_Grunt2Defeat",
+      "maximum_pixels": 118
+    },
+    {
+      "label": "RocketHideout_B1F_Text_Grunt2PostBattle",
+      "maximum_pixels": 194
+    },
+    {
+      "label": "RocketHideout_B1F_Text_Grunt3Intro",
+      "maximum_pixels": 192
+    },
+    {
+      "label": "RocketHideout_B1F_Text_Grunt3Defeat",
+      "maximum_pixels": 109
+    },
+    {
+      "label": "RocketHideout_B1F_Text_Grunt3PostBattle",
+      "maximum_pixels": 197
+    },
+    {
+      "label": "RocketHideout_B1F_Text_Grunt4Intro",
+      "maximum_pixels": 182
+    },
+    {
+      "label": "RocketHideout_B1F_Text_Grunt4Defeat",
+      "maximum_pixels": 94
+    },
+    {
+      "label": "RocketHideout_B1F_Text_Grunt4PostBattle",
+      "maximum_pixels": 167
+    },
+    {
+      "label": "RocketHideout_B1F_Text_Grunt5Intro",
+      "maximum_pixels": 153
+    },
+    {
+      "label": "RocketHideout_B1F_Text_Grunt5Defeat",
+      "maximum_pixels": 84
+    },
+    {
+      "label": "RocketHideout_B1F_Text_Grunt5PostBattle",
+      "maximum_pixels": 197
+    },
+    {
+      "label": "RocketHideout_B2F_Text_GruntIntro",
+      "maximum_pixels": 196
+    },
+    {
+      "label": "RocketHideout_B2F_Text_GruntDefeat",
+      "maximum_pixels": 139
+    },
+    {
+      "label": "RocketHideout_B2F_Text_GruntPostBattle",
+      "maximum_pixels": 198
+    },
+    {
+      "label": "RocketHideout_B3F_Text_Grunt1Intro",
+      "maximum_pixels": 193
+    },
+    {
+      "label": "RocketHideout_B3F_Text_Grunt1Defeat",
+      "maximum_pixels": 141
+    },
+    {
+      "label": "RocketHideout_B3F_Text_Grunt1PostBattle",
+      "maximum_pixels": 195
+    },
+    {
+      "label": "RocketHideout_B3F_Text_Grunt2Intro",
+      "maximum_pixels": 191
+    },
+    {
+      "label": "RocketHideout_B3F_Text_Grunt2Defeat",
+      "maximum_pixels": 162
+    },
+    {
+      "label": "RocketHideout_B3F_Text_Grunt2PostBattle",
+      "maximum_pixels": 207
+    },
+    {
+      "label": "RocketHideout_B4F_Text_Grunt1Intro",
+      "maximum_pixels": 200
+    },
+    {
+      "label": "RocketHideout_B4F_Text_Grunt1Defeat",
+      "maximum_pixels": 95
+    },
+    {
+      "label": "RocketHideout_B4F_Text_Grunt1PostBattle",
+      "maximum_pixels": 171
+    },
+    {
+      "label": "RocketHideout_B4F_Text_Grunt2Intro",
+      "maximum_pixels": 186
+    },
+    {
+      "label": "RocketHideout_B4F_Text_Grunt2Defeat",
+      "maximum_pixels": 61
+    },
+    {
+      "label": "RocketHideout_B4F_Text_Grunt2PostBattle",
+      "maximum_pixels": 196
+    },
+    {
+      "label": "RocketHideout_B4F_Text_Grunt3Intro",
+      "maximum_pixels": 198
+    },
+    {
+      "label": "RocketHideout_B4F_Text_Grunt3Defeat",
+      "maximum_pixels": 153
+    },
+    {
+      "label": "RocketHideout_B4F_Text_Grunt3PostBattle",
+      "maximum_pixels": 199
+    },
+    {
+      "label": "RocketHideout_B4F_Text_GiovanniIntro",
+      "maximum_pixels": 208
+    },
+    {
+      "label": "RocketHideout_B4F_Text_GiovanniDefeat",
+      "maximum_pixels": 160
+    },
+    {
+      "label": "RocketHideout_B4F_Text_GiovanniPostBattle",
+      "maximum_pixels": 207
+    },
+    {
+      "label": "PokemonTower_7F_Text_Grunt1Intro",
+      "maximum_pixels": 176
+    },
+    {
+      "label": "PokemonTower_7F_Text_Grunt1Defeat",
+      "maximum_pixels": 94
+    },
+    {
+      "label": "PokemonTower_7F_Text_Grunt1PostBattle",
+      "maximum_pixels": 176
+    },
+    {
+      "label": "PokemonTower_7F_Text_Grunt2Intro",
+      "maximum_pixels": 203
+    },
+    {
+      "label": "PokemonTower_7F_Text_Grunt2Defeat",
+      "maximum_pixels": 129
+    },
+    {
+      "label": "PokemonTower_7F_Text_Grunt2PostBattle",
+      "maximum_pixels": 181
+    },
+    {
+      "label": "PokemonTower_7F_Text_Grunt3Intro",
+      "maximum_pixels": 192
+    },
+    {
+      "label": "PokemonTower_7F_Text_Grunt3Defeat",
+      "maximum_pixels": 103
+    },
+    {
+      "label": "PokemonTower_7F_Text_Grunt3PostBattle",
+      "maximum_pixels": 172
+    },
+    {
+      "label": "PokemonTower_7F_Text_MrFujiThankYouFollowMe",
+      "maximum_pixels": 194
+    },
+    {
+      "label": "SaffronCity_Text_BossTakeTownForTeamRocket",
+      "maximum_pixels": 207
+    },
+    {
+      "label": "SaffronCity_Text_SaffronBelongsToTeamRocket",
+      "maximum_pixels": 174
+    },
+    {
+      "label": "SaffronCity_Text_YouBeatTeamRocket",
+      "maximum_pixels": 206
+    },
+    {
+      "label": "SaffronCity_Text_SafeToGoOutAgain",
+      "maximum_pixels": 201
+    },
+    {
+      "label": "SaffronCity_Text_PeopleComingBackToSaffron",
+      "maximum_pixels": 204
+    },
+    {
+      "label": "SaffronCity_Text_SawRocketBossEscaping",
+      "maximum_pixels": 199
+    },
+    {
+      "label": "ViridianCity_Gym_Text_GiovanniIntro",
+      "maximum_pixels": 199
+    },
+    {
+      "label": "ViridianCity_Gym_Text_GiovanniPostBattle",
+      "maximum_pixels": 198
+    },
+    {
+      "label": "ViridianCity_Gym_Text_ReceivedTM26FromGiovanni",
+      "maximum_pixels": 168
+    },
+    {
+      "label": "ViridianCity_Gym_Text_GymGuyPostVictory",
+      "maximum_pixels": 186
+    },
+    {
+      "label": "ViridianCity_Gym_Text_GymStatuePlayerWon",
+      "maximum_pixels": 144
+    },
+    {
+      "label": "MtEmber_Exterior_Text_Grunt1Intro",
+      "maximum_pixels": 190
+    },
+    {
+      "label": "MtEmber_Exterior_Text_Grunt1Defeat",
+      "maximum_pixels": 153
+    },
+    {
+      "label": "MtEmber_Exterior_Text_Grunt1PostBattle",
+      "maximum_pixels": 199
+    },
+    {
+      "label": "MtEmber_Exterior_Text_Grunt2Intro",
+      "maximum_pixels": 194
+    },
+    {
+      "label": "MtEmber_Exterior_Text_Grunt2Defeat",
+      "maximum_pixels": 164
+    },
+    {
+      "label": "MtEmber_Exterior_Text_Grunt2PostBattle",
+      "maximum_pixels": 188
+    },
+    {
+      "label": "MtEmber_Exterior_Text_WellTryDiggingHere",
+      "maximum_pixels": 196
+    },
+    {
+      "label": "MtEmber_Exterior_Text_YoureInTheWayGetLost",
+      "maximum_pixels": 162
+    },
+    {
+      "label": "MtEmber_Exterior_Text_PunchedThroughAtLast",
+      "maximum_pixels": 168
+    },
+    {
+      "label": "MtEmber_Exterior_Text_WhatsPasswordAgain",
+      "maximum_pixels": 201
+    },
+    {
+      "label": "MtEmber_Exterior_Text_FirstPasswordGoldeen",
+      "maximum_pixels": 176
+    },
+    {
+      "label": "MtEmber_Exterior_Text_SnoopsBeenListeningIn",
+      "maximum_pixels": 204
+    },
+    {
+      "label": "MtEmber_Exterior_Text_WellRegroupDontStepInsideThere",
+      "maximum_pixels": 189
+    },
+    {
+      "label": "FourIsland_IcefallCave_Back_Text_LoreleiKeepHandsOffMons",
+      "maximum_pixels": 206
+    },
+    {
+      "label": "FourIsland_IcefallCave_Back_Text_ShutItLadyLeaveUsBe",
+      "maximum_pixels": 199
+    },
+    {
+      "label": "FourIsland_IcefallCave_Back_Text_LoreleiPlayerHelpMeKickPoachersOut",
+      "maximum_pixels": 189
+    },
+    {
+      "label": "FourIsland_IcefallCave_Back_Text_GruntIntro",
+      "maximum_pixels": 207
+    },
+    {
+      "label": "FourIsland_IcefallCave_Back_Text_GruntDefeat",
+      "maximum_pixels": 186
+    },
+    {
+      "label": "FourIsland_IcefallCave_Back_Text_LoreleiWhereHaveYouTakenMons",
+      "maximum_pixels": 208
+    },
+    {
+      "label": "FourIsland_IcefallCave_Back_Text_NotTellingYouThat",
+      "maximum_pixels": 125
+    },
+    {
+      "label": "FourIsland_IcefallCave_Back_Text_LoreleiWellDeepFreezeYou",
+      "maximum_pixels": 195
+    },
+    {
+      "label": "FourIsland_IcefallCave_Back_Text_OkayRocketWareHouseFiveIsland",
+      "maximum_pixels": 204
+    },
+    {
+      "label": "FourIsland_IcefallCave_Back_Text_ThankYouThisIsAwful",
+      "maximum_pixels": 206
+    },
+    {
+      "label": "FiveIsland_Meadow_Text_Rocket1Intro",
+      "maximum_pixels": 170
+    },
+    {
+      "label": "FiveIsland_Meadow_Text_Rocket1Defeat",
+      "maximum_pixels": 146
+    },
+    {
+      "label": "FiveIsland_Meadow_Text_Rocket1PostBattle",
+      "maximum_pixels": 197
+    },
+    {
+      "label": "FiveIsland_Meadow_Text_Rocket2Intro",
+      "maximum_pixels": 207
+    },
+    {
+      "label": "FiveIsland_Meadow_Text_Rocket2Defeat",
+      "maximum_pixels": 131
+    },
+    {
+      "label": "FiveIsland_Meadow_Text_Rocket2PostBattle",
+      "maximum_pixels": 189
+    },
+    {
+      "label": "FiveIsland_Meadow_Text_Rocket3Intro",
+      "maximum_pixels": 184
+    },
+    {
+      "label": "FiveIsland_Meadow_Text_Rocket3Defeat",
+      "maximum_pixels": 161
+    },
+    {
+      "label": "FiveIsland_Meadow_Text_Rocket3PostBattle",
+      "maximum_pixels": 208
+    },
+    {
+      "label": "FiveIsland_Meadow_Text_DoorNeedsTwoPasswords",
+      "maximum_pixels": 178
+    },
+    {
+      "label": "FiveIsland_Meadow_Text_EnteredPasswordAnotherNeeded",
+      "maximum_pixels": 174
+    },
+    {
+      "label": "FiveIsland_Meadow_Text_EnteredPasswordDoorOpened",
+      "maximum_pixels": 175
+    },
+    {
+      "label": "FiveIsland_Meadow_Text_WarehouseDoorAlreadyOpen",
+      "maximum_pixels": 174
+    },
+    {
+      "label": "SixIsland_OutcastIsland_Text_RocketIntro",
+      "maximum_pixels": 189
+    },
+    {
+      "label": "SixIsland_OutcastIsland_Text_RocketDefeat",
+      "maximum_pixels": 148
+    },
+    {
+      "label": "SixIsland_OutcastIsland_Text_RocketPostBattle",
+      "maximum_pixels": 178
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_Grunt1Intro",
+      "maximum_pixels": 206
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_Grunt1Defeat",
+      "maximum_pixels": 116
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_Grunt1PostBattle",
+      "maximum_pixels": 195
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_Grunt2Intro",
+      "maximum_pixels": 198
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_Grunt2Defeat",
+      "maximum_pixels": 130
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_Grunt2PostBattle",
+      "maximum_pixels": 183
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_Grunt3Intro",
+      "maximum_pixels": 192
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_Grunt3Defeat",
+      "maximum_pixels": 155
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_Grunt3PostBattle",
+      "maximum_pixels": 208
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_Admin1Intro",
+      "maximum_pixels": 191
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_Admin1Defeat",
+      "maximum_pixels": 145
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_Admin1PostBattle",
+      "maximum_pixels": 190
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_Admin2Intro",
+      "maximum_pixels": 201
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_Admin2Defeat",
+      "maximum_pixels": 180
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_Admin2PostBattle",
+      "maximum_pixels": 174
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_GideonIntro",
+      "maximum_pixels": 172
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_GideonDefeat",
+      "maximum_pixels": 129
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_GideonPostBattle",
+      "maximum_pixels": 192
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_ManyMonsLockedInPen",
+      "maximum_pixels": 208
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_PenUnlockedMonsFled",
+      "maximum_pixels": 171
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_MadeItSoYouCanComeBackThrough",
+      "maximum_pixels": 203
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_ReportWithGraphsAndText",
+      "maximum_pixels": 202
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_GetLostLeaveMeBe",
+      "maximum_pixels": 185
+    },
+    {
+      "label": "FiveIsland_RocketWarehouse_Text_GiovannisKidHasRedHair",
+      "maximum_pixels": 189
+    },
+    {
+      "label": "SilphCo_2F_Text_Grunt1Intro",
+      "maximum_pixels": 194
+    },
+    {
+      "label": "SilphCo_2F_Text_Grunt1Defeat",
+      "maximum_pixels": 96
+    },
+    {
+      "label": "SilphCo_2F_Text_Grunt1PostBattle",
+      "maximum_pixels": 178
+    },
+    {
+      "label": "SilphCo_2F_Text_Grunt2Intro",
+      "maximum_pixels": 198
+    },
+    {
+      "label": "SilphCo_2F_Text_Grunt2Defeat",
+      "maximum_pixels": 158
+    },
+    {
+      "label": "SilphCo_2F_Text_Grunt2PostBattle",
+      "maximum_pixels": 207
+    },
+    {
+      "label": "SilphCo_3F_Text_GruntIntro",
+      "maximum_pixels": 184
+    },
+    {
+      "label": "SilphCo_3F_Text_GruntDefeat",
+      "maximum_pixels": 110
+    },
+    {
+      "label": "SilphCo_3F_Text_GruntPostBattle",
+      "maximum_pixels": 170
+    },
+    {
+      "label": "SilphCo_4F_Text_Grunt1Intro",
+      "maximum_pixels": 207
+    },
+    {
+      "label": "SilphCo_4F_Text_Grunt1Defeat",
+      "maximum_pixels": 129
+    },
+    {
+      "label": "SilphCo_4F_Text_Grunt1PostBattle",
+      "maximum_pixels": 187
+    },
+    {
+      "label": "SilphCo_4F_Text_Grunt2Intro",
+      "maximum_pixels": 196
+    },
+    {
+      "label": "SilphCo_4F_Text_Grunt2Defeat",
+      "maximum_pixels": 89
+    },
+    {
+      "label": "SilphCo_4F_Text_Grunt2PostBattle",
+      "maximum_pixels": 189
+    },
+    {
+      "label": "SilphCo_5F_Text_Grunt1Intro",
+      "maximum_pixels": 160
+    },
+    {
+      "label": "SilphCo_5F_Text_Grunt1Defeat",
+      "maximum_pixels": 142
+    },
+    {
+      "label": "SilphCo_5F_Text_Grunt1PostBattle",
+      "maximum_pixels": 204
+    },
+    {
+      "label": "SilphCo_5F_Text_Grunt2Intro",
+      "maximum_pixels": 190
+    },
+    {
+      "label": "SilphCo_5F_Text_Grunt2Defeat",
+      "maximum_pixels": 133
+    },
+    {
+      "label": "SilphCo_5F_Text_Grunt2PostBattle",
+      "maximum_pixels": 195
+    },
+    {
+      "label": "SilphCo_6F_Text_Grunt1Intro",
+      "maximum_pixels": 203
+    },
+    {
+      "label": "SilphCo_6F_Text_Grunt1Defeat",
+      "maximum_pixels": 122
+    },
+    {
+      "label": "SilphCo_6F_Text_Grunt1PostBattle",
+      "maximum_pixels": 202
+    },
+    {
+      "label": "SilphCo_6F_Text_Grunt2Intro",
+      "maximum_pixels": 177
+    },
+    {
+      "label": "SilphCo_6F_Text_Grunt2Defeat",
+      "maximum_pixels": 128
+    },
+    {
+      "label": "SilphCo_6F_Text_Grunt2PostBattle",
+      "maximum_pixels": 187
+    },
+    {
+      "label": "SilphCo_7F_Text_Grunt1Intro",
+      "maximum_pixels": 196
+    },
+    {
+      "label": "SilphCo_7F_Text_Grunt1Defeat",
+      "maximum_pixels": 127
+    },
+    {
+      "label": "SilphCo_7F_Text_Grunt1PostBattle",
+      "maximum_pixels": 195
+    },
+    {
+      "label": "SilphCo_7F_Text_Grunt2Intro",
+      "maximum_pixels": 205
+    },
+    {
+      "label": "SilphCo_7F_Text_Grunt2Defeat",
+      "maximum_pixels": 157
+    },
+    {
+      "label": "SilphCo_7F_Text_Grunt2PostBattle",
+      "maximum_pixels": 155
+    },
+    {
+      "label": "SilphCo_7F_Text_Grunt3Intro",
+      "maximum_pixels": 187
+    },
+    {
+      "label": "SilphCo_7F_Text_Grunt3Defeat",
+      "maximum_pixels": 125
+    },
+    {
+      "label": "SilphCo_7F_Text_Grunt3PostBattle",
+      "maximum_pixels": 188
+    },
+    {
+      "label": "SilphCo_8F_Text_Grunt1Intro",
+      "maximum_pixels": 201
+    },
+    {
+      "label": "SilphCo_8F_Text_Grunt1Defeat",
+      "maximum_pixels": 140
+    },
+    {
+      "label": "SilphCo_8F_Text_Grunt1PostBattle",
+      "maximum_pixels": 173
+    },
+    {
+      "label": "SilphCo_8F_Text_Grunt2Intro",
+      "maximum_pixels": 199
+    },
+    {
+      "label": "SilphCo_8F_Text_Grunt2Defeat",
+      "maximum_pixels": 139
+    },
+    {
+      "label": "SilphCo_8F_Text_Grunt2PostBattle",
+      "maximum_pixels": 176
+    },
+    {
+      "label": "SilphCo_9F_Text_Grunt1Intro",
+      "maximum_pixels": 206
+    },
+    {
+      "label": "SilphCo_9F_Text_Grunt1Defeat",
+      "maximum_pixels": 136
+    },
+    {
+      "label": "SilphCo_9F_Text_Grunt1PostBattle",
+      "maximum_pixels": 192
+    },
+    {
+      "label": "SilphCo_9F_Text_Grunt2Intro",
+      "maximum_pixels": 207
+    },
+    {
+      "label": "SilphCo_9F_Text_Grunt2Defeat",
+      "maximum_pixels": 182
+    },
+    {
+      "label": "SilphCo_9F_Text_Grunt2PostBattle",
+      "maximum_pixels": 175
+    },
+    {
+      "label": "SilphCo_10F_Text_GruntIntro",
+      "maximum_pixels": 187
+    },
+    {
+      "label": "SilphCo_10F_Text_GruntDefeat",
+      "maximum_pixels": 110
+    },
+    {
+      "label": "SilphCo_10F_Text_GruntPostBattle",
+      "maximum_pixels": 185
+    },
+    {
+      "label": "SilphCo_11F_Text_Grunt1Intro",
+      "maximum_pixels": 191
+    },
+    {
+      "label": "SilphCo_11F_Text_Grunt1Defeat",
+      "maximum_pixels": 128
+    },
+    {
+      "label": "SilphCo_11F_Text_Grunt1PostBattle",
+      "maximum_pixels": 194
+    },
+    {
+      "label": "SilphCo_11F_Text_Grunt2Intro",
+      "maximum_pixels": 203
+    },
+    {
+      "label": "SilphCo_11F_Text_Grunt2Defeat",
+      "maximum_pixels": 137
+    },
+    {
+      "label": "SilphCo_11F_Text_Grunt2PostBattle",
+      "maximum_pixels": 170
+    },
+    {
+      "label": "SilphCo_11F_Text_GiovanniIntro",
+      "maximum_pixels": 193
+    },
+    {
+      "label": "SilphCo_11F_Text_GiovanniDefeat",
+      "maximum_pixels": 190
+    },
+    {
+      "label": "SilphCo_11F_Text_GiovanniPostBattle",
+      "maximum_pixels": 197
+    },
+    {
+      "label": "SilphCo_2F_Text_ConnorDefeat",
+      "maximum_pixels": 205
+    },
+    {
+      "label": "SilphCo_2F_Text_ConnorPostBattle",
+      "maximum_pixels": 170
+    },
+    {
+      "label": "Text_ThunderWaveTeach",
+      "maximum_pixels": 206
+    },
+    {
+      "label": "SilphCo_3F_Text_JoseIntro",
+      "maximum_pixels": 193
+    },
+    {
+      "label": "SilphCo_3F_Text_JosePostBattle",
+      "maximum_pixels": 206
+    },
+    {
+      "label": "SilphCo_4F_Text_TeamRocketIsGone",
+      "maximum_pixels": 185
+    },
+    {
+      "label": "SilphCo_5F_Text_RocketsInUproarAboutIntruder",
+      "maximum_pixels": 185
+    },
+    {
+      "label": "SilphCo_5F_Text_YoureOurHeroThankYou",
+      "maximum_pixels": 187
+    },
+    {
+      "label": "SilphCo_5F_Text_RocketBossLookingForStrongMons",
+      "maximum_pixels": 204
+    },
+    {
+      "label": "SilphCo_6F_Text_RocketsTookOverBuilding",
+      "maximum_pixels": 194
+    },
+    {
+      "label": "SilphCo_6F_Text_RocketsTryingToConquerWorld",
+      "maximum_pixels": 167
+    },
+    {
+      "label": "SilphCo_6F_Text_RocketsRanAwayBecauseOfYou",
+      "maximum_pixels": 171
+    },
+    {
+      "label": "SilphCo_6F_Text_TargetedSilphForOurMonProducts",
+      "maximum_pixels": 174
+    },
+    {
+      "label": "SilphCo_6F_Text_TaylorIntro",
+      "maximum_pixels": 187
+    },
+    {
+      "label": "SilphCo_7F_Text_HaveMonForSavingUs",
+      "maximum_pixels": 179
+    },
+    {
+      "label": "SilphCo_7F_Text_RocketBossWentToBoardroom",
+      "maximum_pixels": 190
+    },
+    {
+      "label": "SilphCo_7F_Text_RocketsAfterMasterBall",
+      "maximum_pixels": 204
+    },
+    {
+      "label": "SilphCo_7F_Text_CanceledMasterBallProject",
+      "maximum_pixels": 204
+    },
+    {
+      "label": "SilphCo_7F_Text_BadIfTeamRocketTookOver",
+      "maximum_pixels": 168
+    },
+    {
+      "label": "SilphCo_7F_Text_WowYouChasedOffTeamRocket",
+      "maximum_pixels": 206
+    },
+    {
+      "label": "SilphCo_7F_Text_RivalIntro",
+      "maximum_pixels": 198
+    },
+    {
+      "label": "SilphCo_7F_Text_RivalDefeat",
+      "maximum_pixels": 202
+    },
+    {
+      "label": "SilphCo_8F_Text_ToRocketBossMonsAreTools",
+      "maximum_pixels": 204
+    },
+    {
+      "label": "CeruleanCity_House2_Text_RocketsStoleTMForDig",
+      "maximum_pixels": 203
+    },
+    {
+      "label": "CeruleanCity_House2_Text_TeamRocketTryingToDigIntoNoGood",
+      "maximum_pixels": 174
+    },
+    {
+      "label": "CeruleanCity_House2_Text_TeamRocketLeftWayOut",
+      "maximum_pixels": 165
+    },
+    {
+      "label": "PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone",
+      "maximum_pixels": 206
+    },
+    {
+      "label": "Route4_PokemonCenter_1F_Text_TeamRocketAttacksCerulean",
+      "maximum_pixels": 208
+    },
+    {
+      "label": "MtMoon_1F_Text_KentPostBattle",
+      "maximum_pixels": 200
+    },
+    {
+      "label": "LavenderTown_Text_GhostsAppearedInTower",
+      "maximum_pixels": 199
+    },
+    {
+      "label": "SSAnne_1F_Room1_Text_ImAGlobalPoliceAgent",
+      "maximum_pixels": 198
+    },
+    {
+      "label": "Route15_Text_ErnestPostBattle",
+      "maximum_pixels": 197
+    },
+    {
+      "label": "VictoryRoad_3F_Text_GeorgePostBattle",
+      "maximum_pixels": 196
+    },
+    {
+      "label": "LavenderTown_House1_Text_RocketsKilledCubonesMother",
+      "maximum_pixels": 199
+    },
+    {
+      "label": "LavenderTown_PokemonCenter_1F_Text_RocketsDoAnythingForMoney",
+      "maximum_pixels": 201
+    },
+    {
+      "label": "LavenderTown_PokemonCenter_1F_Text_CubonesMotherKilledByRockets",
+      "maximum_pixels": 202
+    },
+    {
+      "label": "SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame",
+      "maximum_pixels": 197
+    },
+    {
+      "label": "SaffronCity_PokemonCenter_1F_Text_GreatIfEliteFourCameBeatRockets",
+      "maximum_pixels": 182
+    },
+    {
+      "label": "SaffronCity_PokemonCenter_1F_Text_TeamRocketTookOff",
+      "maximum_pixels": 199
+    },
+    {
+      "label": "VermilionCity_House3_Text_DearPippiLetter",
+      "maximum_pixels": 174
+    },
+    {
+      "label": "VermilionCity_Mart_Text_TeamRocketAreWickedPeople",
+      "maximum_pixels": 192
+    },
+    {
+      "label": "SixIsland_DottedHole_SapphireRoom_Text_SellToTeamRocketTellPassword",
+      "maximum_pixels": 205
+    }
+  ],
+  "visible_Rocket_Giovanni_text_residuals": [],
+  "audio_branch_unchanged": true,
+  "scope": "Static source checks only; Casino R artwork intentionally remains pending approval"
+}

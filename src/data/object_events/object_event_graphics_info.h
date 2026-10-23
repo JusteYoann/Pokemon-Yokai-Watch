@@ -3148,7 +3148,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiDonMorleone =
     .tracks = TRACKS_FOOT,
     .oam = &gObjectEventBaseOam_16x32,
     .subspriteTables = gObjectEventSpriteOamTables_16x32,
-    .anims = sAnimTable_Ariane,
+    .anims = sAnimTable_Standard,
     .images = sPicTable_YokaiDonMorleone,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
@@ -3167,7 +3167,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiMafiamille1 =
     .tracks = TRACKS_FOOT,
     .oam = &gObjectEventBaseOam_16x32,
     .subspriteTables = gObjectEventSpriteOamTables_16x32,
-    .anims = sAnimTable_Ariane,
+    .anims = sAnimTable_Standard,
     .images = sPicTable_YokaiMafiamille1,
     .affineAnims = gDummySpriteAffineAnimTable,
 };

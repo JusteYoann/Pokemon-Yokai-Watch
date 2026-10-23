@@ -1,137 +1,72 @@
 FiveIsland_RocketWarehouse_Text_ManyMonsLockedInPen::
-    .string "There are many Yo-kai locked\n"
-    .string "away in the pen…$"
+    .string "De nombreux Yo-kai sont enfermés dans\ncet enclos...$"
 
 FiveIsland_RocketWarehouse_Text_PenUnlockedMonsFled::
-    .string "The pen door is unlocked.\n"
-    .string "The Yo-kai appear to have fled.$"
+    .string "L'enclos est ouvert. Les Yo-kai\nsemblent s'être échappés.$"
 
 FiveIsland_RocketWarehouse_Text_Grunt2Intro::
-    .string "Did you come here knowing it's\n"
-    .string "TEAM ROCKET's WAREHOUSE?$"
+    .string "Tu sais où tu mets les pieds? Cet\nentrepôt appartient à la Mafiamille!$"
 
 FiveIsland_RocketWarehouse_Text_Grunt2Defeat::
-    .string "What do you think you're doing?!$"
+    .string "Tu dépasses les bornes!$"
 
 FiveIsland_RocketWarehouse_Text_Grunt2PostBattle::
-    .string "TEAM ROCKET broke up?\n"
-    .string "What planet are you from?$"
+    .string "Le Don aurait ordonné le retrait?\nPersonne ne nous a prévenus!$"
 
 FiveIsland_RocketWarehouse_Text_Grunt1Intro::
-    .string "Oh, now your Yo-kai look strong.\n"
-    .string "You're willing to sell them?\p"
-    .string "Oh?\n"
-    .string "You wanted to battle?$"
+    .string "Tes Yo-kai ont de la valeur. Tu veux\nles vendre à la famille?\pAh... tu viens te battre.$"
 
 FiveIsland_RocketWarehouse_Text_Grunt1Defeat::
-    .string "Oh, but…\n"
-    .string "Too much!$"
+    .string "Mauvaise négociation!$"
 
 FiveIsland_RocketWarehouse_Text_Grunt1PostBattle::
-    .string "We can give you a great price.\n"
-    .string "Sell us your Yo-kai!$"
+    .string "Notre offre tient toujours. Non? Tu\nes vraiment attaché à eux.$"
 
 FiveIsland_RocketWarehouse_Text_Grunt3Intro::
-    .string "I got word about you from the\n"
-    .string "others.\p"
-    .string "But there's no way a kid like you'd\n"
-    .string "know our BOSS GIOVANNI!$"
+    .string "Les autres m'ont parlé de toi. Mais\ntu ne peux pas connaître le Don!$"
 
 FiveIsland_RocketWarehouse_Text_Grunt3Defeat::
-    .string "Don't…you…dare…laugh…$"
+    .string "Pas un mot à mes collègues!$"
 
 FiveIsland_RocketWarehouse_Text_Grunt3PostBattle::
-    .string "Don't mess in the doings of adults,\n"
-    .string "you jumped-up pip-squeak!$"
+    .string "Les grandes affaires attirent toujours\nles petits curieux...$"
 
 FiveIsland_RocketWarehouse_Text_Admin1Intro::
-    .string "I don't know or care if what I'm\n"
-    .string "doing is right or wrong…\p"
-    .string "I just put my faith in GIOVANNI\n"
-    .string "and do as I am told.$"
+    .string "Je fais confiance au Don. Quand la\nfamille me confie une tâche, je\ll'accomplis.$"
 
 FiveIsland_RocketWarehouse_Text_Admin1Defeat::
-    .string "I…\n"
-    .string "I'm shattered…$"
+    .string "J'ai manqué à ma parole...$"
 
 FiveIsland_RocketWarehouse_Text_Admin1PostBattle::
-    .string "You're doing things according to\n"
-    .string "your beliefs and morals.\p"
-    .string "I understand now…$"
+    .string "Tu défends tes convictions. Je\ncommence à comprendre pourquoi tu\ltiens bon.$"
 
 FiveIsland_RocketWarehouse_Text_MadeItSoYouCanComeBackThrough::
-    .string "I've made it so you can come back\n"
-    .string "in through there.\p"
-    .string "Why don't you go get rested and\n"
-    .string "refreshed for what lies ahead?\p"
-    .string "The ADMIN after me outranks me\n"
-    .string "thoroughly as a TRAINER.\p"
-    .string "You'd better steel yourself for one\n"
-    .string "harsh challenge.$"
+    .string "J'ai changé les flèches pour te\nlaisser revenir par ici.\pVa reprendre des forces. Le prochain\nadversaire est bien plus redoutable\lque moi.$"
 
 FiveIsland_RocketWarehouse_Text_Admin2Intro::
-    .string "That's quite enough of you \n"
-    .string "playing the hero, kid.\p"
-    .string "Spreading lies about how TEAM\n"
-    .string "ROCKET has disbanded…\p"
-    .string "It's such an obvious attempt to\n"
-    .string "cause confusion in our ranks.\p"
-    .string "Fortunately, we're not so ignorant\n"
-    .string "to fall for the lies of a child!\p"
-    .string "And now, I'll show you how scary\n"
-    .string "an angry adult can be!$"
+    .string "Assez joué les héros! Tu prétends\nque le Don a arrêté nos opérations?\pTu espères nous faire partir avec un\nmensonge?$"
 
 FiveIsland_RocketWarehouse_Text_Admin2Defeat::
-    .string "Urgh…\n"
-    .string "You were too strong…\p"
-    .string "…\n"
-    .string "Th-that's GIOVANNI's BADGE!\p"
-    .string "So it's true?\n"
-    .string "TEAM ROCKET really has disbanded?$"
+    .string "Tu es trop fort...\pCe Badge! C'est celui de Don\nMorléone! Alors... le retrait est\lvraiment son ordre?$"
 
 FiveIsland_RocketWarehouse_Text_Admin2PostBattle::
-    .string "We will abandon this WAREHOUSE…\p"
-    .string "But don't think this is over.\n"
-    .string "I won't let this be the end.\p"
-    .string "I will find GIOVANNI.\n"
-    .string "And I will resurrect TEAM ROCKET!\l"
-    .string "I will…\p"
-    .string "Until then, farewell!$"
+    .string "Nous quitterons l'entrepôt. Les\naffaires s'arrêtent ici.\pMais je retrouverai le Don pour\nsavoir ce qu'il attend de nous.\lAdieu.$"
 
 FiveIsland_RocketWarehouse_Text_ReportWithGraphsAndText::
-    .string "A report with graphs and text is on\n"
-    .string "the PC monitor.\p"
-    .string "“The Influence of Magnetic Waves\n"
-    .string "on Yo-kai Evolution”…\p"
-    .string "… … … … … …\p"
-    .string "It's too difficult to understand…$"
+    .string "Un rapport apparaît à l'écran:\p“Influence des ondes magnétiques sur\nl'évolution des Yo-kai”.\pCes calculs sont difficiles à\ncomprendre...$"
 
 FiveIsland_RocketWarehouse_Text_GideonIntro::
-    .string "I almost managed to sell the\n"
-    .string "SAPPHIRE for huge money…\p"
-    .string "Then, you just had to come along\n"
-    .string "and blow the whole deal apart!\p"
-    .string "Fufu… Fufufufu…\n"
-    .string "There's no forgiveness for you!$"
+    .string "J'allais vendre le Saphir à la\nMafiamille pour une fortune!\pTu viens de ruiner ma meilleure\naffaire!$"
 
 FiveIsland_RocketWarehouse_Text_GideonDefeat::
-    .string "Gah! Darn!\n"
-    .string "Darn! Darn!$"
+    .string "Ma commission! Envolée!$"
 
 FiveIsland_RocketWarehouse_Text_GideonPostBattle::
-    .string "If I can't sell it, it's worthless!\n"
-    .string "Go ahead, take it!$"
+    .string "Sans acheteur, cette pierre ne me\nsert plus. Prends-la et laisse-moi!$"
 
 FiveIsland_RocketWarehouse_Text_GetLostLeaveMeBe::
-    .string "What do you want now?\n"
-    .string "Go on, get lost, leave me be.$"
+    .string "Encore toi? Laisse-moi tranquille.$"
 
 FiveIsland_RocketWarehouse_Text_GiovannisKidHasRedHair::
-    .string "What, you again?\p"
-    .string "You… You're not GIOVANNI's kid,\n"
-    .string "are you?\p"
-    .string "No, that can't be right!\n"
-    .string "GIOVANNI's kid has red hair.\p"
-    .string "You don't have any reasons for\n"
-    .string "bugging me. Leave me alone!$"
+    .string "Tu ne serais pas un envoyé de Don\nMorléone?\pNon... Il ne choisirait pas la\npersonne qui a ruiné notre marché.\pCette affaire ne te concerne plus.\nLaisse-moi!$"
 

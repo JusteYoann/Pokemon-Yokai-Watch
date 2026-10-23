@@ -58,7 +58,7 @@ data/maps/Route4/text.inc	Text_MegaKickWhichMon	Parfait!\nQuel Yo-kai veut l'app
 data/maps/Route4/text.inc	Text_MegaKickTaught	Nous voilà unis\npar l'art du coup de pied!\pFile avant que l'autre là-bas\nne t'entraîne dans ses histoires\lde petits coups de poing!$
 data/maps/Route4/text.inc	Route4_Text_PeopleLikeAndRespectBrock	Oh! Le Badge Roche!\nC'est Pierre qui te l'a remis?\pIl est fort, mais aussi\ntrès apprécié et respecté.\pJ'aimerais devenir\nun Champion comme lui.$
 data/maps/Route4_PokemonCenter_1F/text.inc	Route4_PokemonCenter_1F_Text_CanHaveSixMonsWithYou	Six Yo-kai Balls à ma ceinture…\pVoilà! On peut voyager\navec six Yo-kai au maximum.$
-data/maps/Route4_PokemonCenter_1F/text.inc	Route4_PokemonCenter_1F_Text_TeamRocketAttacksCerulean	La Team Rocket s'en prend\naux habitants de CERULEAN CITY…\pPas un jour sans qu'on parle\nde ses méfaits aux informations.$
+data/maps/Route4_PokemonCenter_1F/text.inc	Route4_PokemonCenter_1F_Text_TeamRocketAttacksCerulean	La Mafiamille s'en prend aux habitants\nd'Azuria.\pOn entend parler de ses méfaits tous\nles jours.$
 data/maps/Route4_PokemonCenter_1F/text.inc	Route4_PokemonCenter_1F_Text_LaddieBuyMagikarpForJust500	MARCHAND: Salut!\nJ'ai une affaire pour toi!\pUn Yo-kai spécial, Castelius III,\npour seulement 500¥!\pAlors, tu l'achètes?$
 data/maps/Route4_PokemonCenter_1F/text.inc	Route4_PokemonCenter_1F_Text_SweetieBuyMagikarpForJust500	MARCHAND: Bonjour!\nJ'ai une affaire pour toi!\pUn Yo-kai spécial, Castelius III,\npour seulement 500¥!\pAlors, tu l'achètes?$
 data/maps/Route4_PokemonCenter_1F/text.inc	Route4_PokemonCenter_1F_Text_PaidOutrageouslyForMagikarp	{PLAYER} débourse 500¥\npour acheter Castelius III…$
@@ -85,7 +85,7 @@ data/maps/MtMoon_1F/text.inc	MtMoon_1F_Text_IrisDefeat	J'ai perdu?$
 data/maps/MtMoon_1F/text.inc	MtMoon_1F_Text_IrisPostBattle	On m'a dit qu'on trouvait ici\ndes fossiles très rares.$
 data/maps/MtMoon_1F/text.inc	MtMoon_1F_Text_KentIntro	Des types louches rôdent ici.\nTu es avec eux?$
 data/maps/MtMoon_1F/text.inc	MtMoon_1F_Text_KentDefeat	Tu m'as eu!$
-data/maps/MtMoon_1F/text.inc	MtMoon_1F_Text_KentPostBattle	Je les ai vus!\nIls sont de la Team Rocket!$
+data/maps/MtMoon_1F/text.inc	MtMoon_1F_Text_KentPostBattle	Je les ai vus! Ces types travaillent\npour la Mafiamille!$
 data/maps/MtMoon_1F/text.inc	MtMoon_1F_Text_RobbyIntro	Il faut traverser cette grotte\npour atteindre CERULEAN CITY.$
 data/maps/MtMoon_1F/text.inc	MtMoon_1F_Text_RobbyDefeat	J'ai perdu.$
 data/maps/MtMoon_1F/text.inc	MtMoon_1F_Text_RobbyPostBattle	Les Yo-kai de cette grotte\npeuvent être coriaces.\pMais ils deviennent\nde précieux compagnons!$
@@ -96,18 +96,18 @@ data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_MiguelDefeat	D'accord!\nJe vais pa
 data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_WellEachTakeAFossil	On prend un fossile chacun!\nPas de gourmandise!$
 data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_ThenThisFossilIsMine	Très bien.\nAlors, je prends celui-ci!$
 data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils	Sur CINNABAR ISLAND,\nun Laboratoire étudie les Yo-kai.\pIls travaillent notamment\nsur la régénération des fossiles.$
-data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt1Intro	Nous, la Team Rocket,\nallons trouver ces fossiles!\pLes Yo-kai qu'ils contiennent\nvont nous rapporter gros!$
-data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt1Defeat	Grrr!\nTu m'énerves!$
-data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt1PostBattle	Tu m'as mis en colère!\nLa Team Rocket ne l'oubliera pas!$
-data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt2Intro	Nous sommes les bandits\nde la Team Rocket!\pAvec nos Yo-kai,\nnous faisons régner la peur!$
-data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt2Defeat	J'ai tout raté!$
-data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt2PostBattle	Zut alors!\nMes collègues ne laisseront pas\lpasser ça!$
-data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt3Intro	Une grosse affaire se prépare!\nDégage de là!$
-data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt3Defeat	Tu te débrouilles bien…$
-data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt3PostBattle	Si tu trouves un fossile,\ndonne-le-moi et file!$
-data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt4Intro	Les enfants ne devraient pas\nse mêler des affaires des grands!\pÇa pourrait mal tourner!$
-data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt4Defeat	Je suis furieux!$
-data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt4PostBattle	Les Yo-kai vivaient ici\nbien avant l'arrivée des humains.$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt1Intro	Ces fossiles sont réservés à la\nMafiamille. Le Don sait reconnaître\lun bon placement!$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt1Defeat	Tu as fait échouer l'affaire!$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt1PostBattle	Un fossile ne rapporte rien si tu le\ngardes pour toi. Réfléchis un peu!$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt2Intro	La Mafiamille mène les fouilles. Tu\npeux repartir... ou tenter de passer.$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt2Defeat	Je n'avais pas prévu ça!$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt2PostBattle	Mes collègues ne seront pas aussi\nconciliants. Enfin, j'espère.$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt3Intro	Une grosse affaire se prépare ici.\nLes curieux restent dehors!$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt3Defeat	Tu sais te défendre...$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt3PostBattle	Un fossile dans ton sac? On pourrait\ns'arranger. Non? Tant pis.$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt4Intro	Les affaires de la famille ne\nregardent pas les enfants!$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt4Defeat	Ça va mal finir... pour moi.$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt4PostBattle	Les Yo-kai vivaient ici bien avant\nnous. Le Don s'intéresse à leurs\lsecrets.$
 data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_YouWantDomeFossil	Veux-tu le Fossile Dôme?$
 data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_YouWantHelixFossil	Veux-tu le Fossile Nautile?$
 data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_ObtainedHelixFossil	Tu obtiens le Fossile Nautile!$

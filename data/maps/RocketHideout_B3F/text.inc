@@ -1,26 +1,18 @@
 RocketHideout_B3F_Text_Grunt1Intro::
-    .string "Stop meddling in TEAM ROCKET's\n"
-    .string "affairs or else!$"
+    .string "Les affaires de la Mafiamille ne te\nconcernent pas!$"
 
 RocketHideout_B3F_Text_Grunt1Defeat::
-    .string "Oof!\n"
-    .string "Taken down!$"
+    .string "Mon service est terminé...$"
 
 RocketHideout_B3F_Text_Grunt1PostBattle::
-    .string "SILPH SCOPE?\n"
-    .string "Oh, that machine the BOSS stole.\p"
-    .string "It's here somewhere.$"
+    .string "Le Scope Sylphe? L'appareil dérobé\npar le patron? Il est quelque part\lici.$"
 
 RocketHideout_B3F_Text_Grunt2Intro::
-    .string "We got word from upstairs that you\n"
-    .string "were coming!$"
+    .string "On nous a prévenus de ton arrivée.\nCette fois, on t'arrête!$"
 
 RocketHideout_B3F_Text_Grunt2Defeat::
-    .string "What?\n"
-    .string "I lost? No!$"
+    .string "Même avec un avertissement...$"
 
 RocketHideout_B3F_Text_Grunt2PostBattle::
-    .string "Go ahead and go!\p"
-    .string "But you can't run the elevator\n"
-    .string "without the LIFT KEY.$"
+    .string "Sans Clé Ascenseur, tu n'iras pas bien\nloin.$"
 

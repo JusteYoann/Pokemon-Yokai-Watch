@@ -9,15 +9,13 @@ SilphCo_9F_Text_ThankYouSoMuch::
     .string "Thank you so much.$"
 
 SilphCo_9F_Text_Grunt1Intro::
-    .string "Your Yo-kai seem to adore you,\n"
-    .string "kid!$"
+    .string "Tes Yo-kai ont l'air de t'adorer.\nVoyons s'ils savent aussi te défendre.$"
 
 SilphCo_9F_Text_Grunt1Defeat::
-    .string "Ghaaah!$"
+    .string "Ça répond à ma question.$"
 
 SilphCo_9F_Text_Grunt1PostBattle::
-    .string "If I had started as a TRAINER at\n"
-    .string "your age…$"
+    .string "Si j'avais commencé à ton âge...\nEnfin, on ne refait pas les comptes\ldu passé.$"
 
 SilphCo_9F_Text_EdIntro::
     .string "Your Yo-kai have weak points!\n"
@@ -31,15 +29,13 @@ SilphCo_9F_Text_EdPostBattle::
     .string "Think about type advantages.$"
 
 SilphCo_9F_Text_Grunt2Intro::
-    .string "I am one of the four ROCKET\n"
-    .string "BROTHERS!$"
+    .string "Le dernier des quatre frères! Je vais\nlaver l'honneur de la famille!$"
 
 SilphCo_9F_Text_Grunt2Defeat::
-    .string "Warg!\n"
-    .string "Brothers, I lost!$"
+    .string "Quatre frères... quatre défaites?$"
 
 SilphCo_9F_Text_Grunt2PostBattle::
-    .string "My brothers will avenge me!$"
+    .string "On devrait peut-être s'entraîner\nensemble avant de recommencer.$"
 
 SilphCo_9F_Text_FloorSign::
     .string "SILPH CO. HEAD OFFICE\n"

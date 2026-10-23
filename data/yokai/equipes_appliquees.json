@@ -10116,13 +10116,13 @@
         "iv": 0
       },
       {
-        "species": "SPECIES_MEOWTH",
+        "species": "SPECIES_NINETALES",
         "level": 13,
         "moves": [
-          "MOVE_TACKLE",
+          "MOVE_SCRATCH",
+          "MOVE_LEER",
           "MOVE_SAND_ATTACK",
-          "MOVE_MUD_SLAP",
-          "MOVE_MUD_SHOT"
+          "MOVE_PURSUIT"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -10169,26 +10169,26 @@
     "mode": "ordinary",
     "party": [
       {
-        "species": "SPECIES_LAPRAS",
+        "species": "SPECIES_PRIMEAPE",
         "level": 15,
         "moves": [
           "MOVE_SCRATCH",
           "MOVE_LEER",
-          "MOVE_PURSUIT",
-          "MOVE_BITE"
+          "MOVE_SAND_ATTACK",
+          "MOVE_PURSUIT"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
         "iv": 0
       },
       {
-        "species": "SPECIES_VILEPLUME",
+        "species": "SPECIES_CLOYSTER",
         "level": 15,
         "moves": [
-          "MOVE_SLUDGE",
-          "MOVE_POISON_STING",
-          "MOVE_LEECH_LIFE",
-          "MOVE_FURY_CUTTER"
+          "MOVE_GROWL",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_PECK",
+          "MOVE_SAND_ATTACK"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -10215,13 +10215,13 @@
         "iv": 0
       },
       {
-        "species": "SPECIES_AERODACTYL",
+        "species": "SPECIES_NINETALES",
         "level": 20,
         "moves": [
-          "MOVE_LEER",
-          "MOVE_POISON_GAS",
-          "MOVE_SMOG",
-          "MOVE_ACID_ARMOR"
+          "MOVE_SAND_ATTACK",
+          "MOVE_PURSUIT",
+          "MOVE_BITE",
+          "MOVE_THIEF"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -10235,26 +10235,26 @@
     "mode": "ordinary",
     "party": [
       {
-        "species": "SPECIES_VILEPLUME",
+        "species": "SPECIES_CLOYSTER",
         "level": 21,
         "moves": [
-          "MOVE_POISON_STING",
-          "MOVE_LEECH_LIFE",
-          "MOVE_FURY_CUTTER",
-          "MOVE_SCREECH"
+          "MOVE_PECK",
+          "MOVE_SAND_ATTACK",
+          "MOVE_HEADBUTT",
+          "MOVE_FOCUS_ENERGY"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
         "iv": 0
       },
       {
-        "species": "SPECIES_SNORLAX",
+        "species": "SPECIES_PRIMEAPE",
         "level": 21,
         "moves": [
-          "MOVE_POISON_GAS",
-          "MOVE_SMOG",
-          "MOVE_HARDEN",
-          "MOVE_SLUDGE"
+          "MOVE_SAND_ATTACK",
+          "MOVE_PURSUIT",
+          "MOVE_BITE",
+          "MOVE_WING_ATTACK"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -10386,13 +10386,13 @@
         "iv": 0
       },
       {
-        "species": "SPECIES_SNORLAX",
+        "species": "SPECIES_NINETALES",
         "level": 19,
         "moves": [
-          "MOVE_GROWL",
-          "MOVE_POISON_GAS",
-          "MOVE_SMOG",
-          "MOVE_HARDEN"
+          "MOVE_SAND_ATTACK",
+          "MOVE_PURSUIT",
+          "MOVE_BITE",
+          "MOVE_THIEF"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -10478,26 +10478,26 @@
         "iv": 0
       },
       {
-        "species": "SPECIES_MEW",
+        "species": "SPECIES_CLOYSTER",
         "level": 17,
         "moves": [
-          "MOVE_LEER",
-          "MOVE_PURSUIT",
-          "MOVE_TAUNT",
-          "MOVE_BITE"
+          "MOVE_QUICK_ATTACK",
+          "MOVE_PECK",
+          "MOVE_SAND_ATTACK",
+          "MOVE_HEADBUTT"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
         "iv": 0
       },
       {
-        "species": "SPECIES_MEOWTH",
+        "species": "SPECIES_NINETALES",
         "level": 17,
         "moves": [
-          "MOVE_TACKLE",
+          "MOVE_LEER",
           "MOVE_SAND_ATTACK",
-          "MOVE_MUD_SLAP",
-          "MOVE_MUD_SHOT"
+          "MOVE_PURSUIT",
+          "MOVE_BITE"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -10511,13 +10511,13 @@
     "mode": "ordinary",
     "party": [
       {
-        "species": "SPECIES_LAPRAS",
+        "species": "SPECIES_PRIMEAPE",
         "level": 20,
         "moves": [
           "MOVE_LEER",
+          "MOVE_SAND_ATTACK",
           "MOVE_PURSUIT",
-          "MOVE_BITE",
-          "MOVE_THIEF"
+          "MOVE_BITE"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -10537,13 +10537,13 @@
         "iv": 0
       },
       {
-        "species": "SPECIES_SNORLAX",
+        "species": "SPECIES_CLOYSTER",
         "level": 20,
         "moves": [
-          "MOVE_GROWL",
-          "MOVE_POISON_GAS",
-          "MOVE_SMOG",
-          "MOVE_HARDEN"
+          "MOVE_QUICK_ATTACK",
+          "MOVE_PECK",
+          "MOVE_SAND_ATTACK",
+          "MOVE_HEADBUTT"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -10590,13 +10590,13 @@
     "mode": "ordinary",
     "party": [
       {
-        "species": "SPECIES_MEOWTH",
+        "species": "SPECIES_IVYSAUR",
         "level": 23,
         "moves": [
-          "MOVE_MUD_SLAP",
-          "MOVE_MUD_SHOT",
-          "MOVE_SAND_TOMB",
-          "MOVE_MAGNITUDE"
+          "MOVE_TAIL_WHIP",
+          "MOVE_LEER",
+          "MOVE_FURY_SWIPES",
+          "MOVE_SCREECH"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -10616,13 +10616,13 @@
         "iv": 0
       },
       {
-        "species": "SPECIES_MEW",
+        "species": "SPECIES_MEOWTH",
         "level": 23,
         "moves": [
-          "MOVE_PURSUIT",
-          "MOVE_TAUNT",
-          "MOVE_BITE",
-          "MOVE_FAKE_TEARS"
+          "MOVE_MUD_SLAP",
+          "MOVE_MUD_SHOT",
+          "MOVE_SAND_TOMB",
+          "MOVE_MAGNITUDE"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -10715,26 +10715,26 @@
     "mode": "ordinary",
     "party": [
       {
-        "species": "SPECIES_AERODACTYL",
+        "species": "SPECIES_NIDOQUEEN",
         "level": 25,
         "moves": [
-          "MOVE_POISON_GAS",
-          "MOVE_SMOG",
-          "MOVE_ACID_ARMOR",
-          "MOVE_SLUDGE"
+          "MOVE_BITE",
+          "MOVE_FOCUS_ENERGY",
+          "MOVE_HEADBUTT",
+          "MOVE_SCREECH"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
         "iv": 0
       },
       {
-        "species": "SPECIES_MEW",
+        "species": "SPECIES_PRIMEAPE",
         "level": 25,
         "moves": [
           "MOVE_PURSUIT",
-          "MOVE_TAUNT",
           "MOVE_BITE",
-          "MOVE_FAKE_TEARS"
+          "MOVE_WING_ATTACK",
+          "MOVE_CONFUSE_RAY"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -10833,13 +10833,13 @@
         "iv": 0
       },
       {
-        "species": "SPECIES_SNORLAX",
+        "species": "SPECIES_NINETALES",
         "level": 23,
         "moves": [
-          "MOVE_POISON_GAS",
-          "MOVE_SMOG",
-          "MOVE_HARDEN",
-          "MOVE_SLUDGE"
+          "MOVE_PURSUIT",
+          "MOVE_BITE",
+          "MOVE_THIEF",
+          "MOVE_TAUNT"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -10899,12 +10899,12 @@
         "iv": 0
       },
       {
-        "species": "SPECIES_VILEPLUME",
+        "species": "SPECIES_PARAS",
         "level": 29,
         "moves": [
           "MOVE_LEECH_LIFE",
-          "MOVE_FURY_CUTTER",
           "MOVE_SCREECH",
+          "MOVE_SLUDGE",
           "MOVE_PIN_MISSILE"
         ],
         "ability_num": 0,
@@ -10958,26 +10958,26 @@
         "iv": 0
       },
       {
-        "species": "SPECIES_LAPRAS",
+        "species": "SPECIES_CLOYSTER",
         "level": 25,
         "moves": [
-          "MOVE_PURSUIT",
-          "MOVE_BITE",
-          "MOVE_THIEF",
-          "MOVE_TAUNT"
+          "MOVE_PECK",
+          "MOVE_SAND_ATTACK",
+          "MOVE_HEADBUTT",
+          "MOVE_FOCUS_ENERGY"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
         "iv": 0
       },
       {
-        "species": "SPECIES_VILEPLUME",
+        "species": "SPECIES_NINETALES",
         "level": 25,
         "moves": [
-          "MOVE_POISON_STING",
-          "MOVE_LEECH_LIFE",
-          "MOVE_FURY_CUTTER",
-          "MOVE_SCREECH"
+          "MOVE_PURSUIT",
+          "MOVE_BITE",
+          "MOVE_THIEF",
+          "MOVE_TAUNT"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -11004,13 +11004,13 @@
         "iv": 0
       },
       {
-        "species": "SPECIES_AERODACTYL",
+        "species": "SPECIES_GASTLY",
         "level": 28,
         "moves": [
-          "MOVE_SMOG",
-          "MOVE_ACID_ARMOR",
-          "MOVE_SLUDGE",
-          "MOVE_TOXIC"
+          "MOVE_QUICK_ATTACK",
+          "MOVE_PECK",
+          "MOVE_HEADBUTT",
+          "MOVE_FOCUS_ENERGY"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -11050,13 +11050,13 @@
         "iv": 0
       },
       {
-        "species": "SPECIES_SNORLAX",
+        "species": "SPECIES_ARTICUNO",
         "level": 29,
         "moves": [
-          "MOVE_SMOG",
+          "MOVE_TACKLE",
+          "MOVE_GROWL",
           "MOVE_HARDEN",
-          "MOVE_SLUDGE",
-          "MOVE_TOXIC"
+          "MOVE_HEADBUTT"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -11235,13 +11235,13 @@
     "mode": "ordinary",
     "party": [
       {
-        "species": "SPECIES_LAPRAS",
+        "species": "SPECIES_PRIMEAPE",
         "level": 26,
         "moves": [
           "MOVE_PURSUIT",
           "MOVE_BITE",
-          "MOVE_THIEF",
-          "MOVE_TAUNT"
+          "MOVE_WING_ATTACK",
+          "MOVE_CONFUSE_RAY"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -11274,13 +11274,13 @@
         "iv": 0
       },
       {
-        "species": "SPECIES_LAPRAS",
+        "species": "SPECIES_CLOYSTER",
         "level": 26,
         "moves": [
-          "MOVE_PURSUIT",
-          "MOVE_BITE",
-          "MOVE_THIEF",
-          "MOVE_TAUNT"
+          "MOVE_PECK",
+          "MOVE_SAND_ATTACK",
+          "MOVE_HEADBUTT",
+          "MOVE_FOCUS_ENERGY"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -11327,13 +11327,13 @@
     "mode": "ordinary",
     "party": [
       {
-        "species": "SPECIES_MEOWTH",
+        "species": "SPECIES_IVYSAUR",
         "level": 29,
         "moves": [
-          "MOVE_MUD_SHOT",
-          "MOVE_SAND_TOMB",
-          "MOVE_MAGNITUDE",
-          "MOVE_ROCK_TOMB"
+          "MOVE_FURY_SWIPES",
+          "MOVE_SCREECH",
+          "MOVE_FLAME_WHEEL",
+          "MOVE_TAUNT"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -11399,13 +11399,13 @@
         "iv": 0
       },
       {
-        "species": "SPECIES_VILEPLUME",
+        "species": "SPECIES_CLOYSTER",
         "level": 26,
         "moves": [
-          "MOVE_LEECH_LIFE",
-          "MOVE_FURY_CUTTER",
-          "MOVE_SCREECH",
-          "MOVE_PIN_MISSILE"
+          "MOVE_PECK",
+          "MOVE_SAND_ATTACK",
+          "MOVE_HEADBUTT",
+          "MOVE_FOCUS_ENERGY"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -11419,13 +11419,13 @@
     "mode": "ordinary",
     "party": [
       {
-        "species": "SPECIES_VILEPLUME",
+        "species": "SPECIES_NINETALES",
         "level": 28,
         "moves": [
-          "MOVE_LEECH_LIFE",
-          "MOVE_FURY_CUTTER",
-          "MOVE_SCREECH",
-          "MOVE_PIN_MISSILE"
+          "MOVE_BITE",
+          "MOVE_THIEF",
+          "MOVE_TAUNT",
+          "MOVE_FAINT_ATTACK"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -11537,13 +11537,13 @@
         "iv": 0
       },
       {
-        "species": "SPECIES_VILEPLUME",
+        "species": "SPECIES_GASTLY",
         "level": 28,
         "moves": [
-          "MOVE_LEECH_LIFE",
-          "MOVE_FURY_CUTTER",
-          "MOVE_SCREECH",
-          "MOVE_PIN_MISSILE"
+          "MOVE_QUICK_ATTACK",
+          "MOVE_PECK",
+          "MOVE_HEADBUTT",
+          "MOVE_FOCUS_ENERGY"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -11616,26 +11616,26 @@
         "iv": 0
       },
       {
-        "species": "SPECIES_MEW",
+        "species": "SPECIES_PRIMEAPE",
         "level": 25,
         "moves": [
           "MOVE_PURSUIT",
-          "MOVE_TAUNT",
           "MOVE_BITE",
-          "MOVE_FAKE_TEARS"
+          "MOVE_WING_ATTACK",
+          "MOVE_CONFUSE_RAY"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
         "iv": 0
       },
       {
-        "species": "SPECIES_MEOWTH",
+        "species": "SPECIES_NINETALES",
         "level": 25,
         "moves": [
-          "MOVE_MUD_SLAP",
-          "MOVE_MUD_SHOT",
-          "MOVE_SAND_TOMB",
-          "MOVE_MAGNITUDE"
+          "MOVE_PURSUIT",
+          "MOVE_BITE",
+          "MOVE_THIEF",
+          "MOVE_TAUNT"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -16941,13 +16941,13 @@
         "iv": 0
       },
       {
-        "species": "SPECIES_MEOWTH",
+        "species": "SPECIES_NIDOQUEEN",
         "level": 49,
         "moves": [
-          "MOVE_ROCK_TOMB",
-          "MOVE_PROTECT",
-          "MOVE_DIG",
-          "MOVE_SANDSTORM"
+          "MOVE_TAUNT",
+          "MOVE_FACADE",
+          "MOVE_REST",
+          "MOVE_BRICK_BREAK"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -17640,26 +17640,26 @@
     "mode": "ordinary",
     "party": [
       {
-        "species": "SPECIES_MEOWTH",
+        "species": "SPECIES_IVYSAUR",
         "level": 37,
         "moves": [
-          "MOVE_MAGNITUDE",
-          "MOVE_ROCK_TOMB",
-          "MOVE_PROTECT",
-          "MOVE_DIG"
+          "MOVE_FLAME_WHEEL",
+          "MOVE_TAUNT",
+          "MOVE_SLASH",
+          "MOVE_CRUNCH"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
         "iv": 0
       },
       {
-        "species": "SPECIES_AERODACTYL",
+        "species": "SPECIES_DITTO",
         "level": 37,
         "moves": [
-          "MOVE_SLUDGE",
-          "MOVE_TOXIC",
-          "MOVE_POISON_FANG",
-          "MOVE_PROTECT"
+          "MOVE_PURSUIT",
+          "MOVE_FAINT_ATTACK",
+          "MOVE_KNOCK_OFF",
+          "MOVE_SCREECH"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -17686,13 +17686,13 @@
         "iv": 0
       },
       {
-        "species": "SPECIES_SNORLAX",
+        "species": "SPECIES_ARTICUNO",
         "level": 35,
         "moves": [
+          "MOVE_GROWL",
           "MOVE_HARDEN",
-          "MOVE_SLUDGE",
-          "MOVE_TOXIC",
-          "MOVE_POISON_FANG"
+          "MOVE_HEADBUTT",
+          "MOVE_QUICK_ATTACK"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -17712,13 +17712,13 @@
         "iv": 0
       },
       {
-        "species": "SPECIES_VILEPLUME",
+        "species": "SPECIES_NINETALES",
         "level": 35,
         "moves": [
-          "MOVE_FURY_CUTTER",
-          "MOVE_SCREECH",
-          "MOVE_PIN_MISSILE",
-          "MOVE_POISON_FANG"
+          "MOVE_THIEF",
+          "MOVE_TAUNT",
+          "MOVE_FAINT_ATTACK",
+          "MOVE_TORMENT"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -17791,13 +17791,13 @@
         "iv": 0
       },
       {
-        "species": "SPECIES_MEW",
+        "species": "SPECIES_GASTLY",
         "level": 48,
         "moves": [
-          "MOVE_KNOCK_OFF",
-          "MOVE_SWAGGER",
-          "MOVE_BEAT_UP",
-          "MOVE_CRUNCH"
+          "MOVE_UPROAR",
+          "MOVE_SLASH",
+          "MOVE_HYPER_VOICE",
+          "MOVE_TAUNT"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -17824,13 +17824,13 @@
     "mode": "ordinary",
     "party": [
       {
-        "species": "SPECIES_SNORLAX",
+        "species": "SPECIES_ARTICUNO",
         "level": 48,
         "moves": [
-          "MOVE_POISON_FANG",
+          "MOVE_SWORDS_DANCE",
+          "MOVE_BODY_SLAM",
           "MOVE_PROTECT",
-          "MOVE_REST",
-          "MOVE_SUBSTITUTE"
+          "MOVE_REST"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -17903,43 +17903,46 @@
     "mode": "locked_boss",
     "party": [
       {
-        "species": "SPECIES_CHANSEY",
+        "species": "SPECIES_NINETALES",
         "level": 52,
         "moves": [
-          "MOVE_FAINT_ATTACK",
-          "MOVE_TAUNT",
-          "MOVE_SCREECH",
-          "MOVE_CONFUSE_RAY"
+          "MOVE_TORMENT",
+          "MOVE_KNOCK_OFF",
+          "MOVE_CRUNCH",
+          "MOVE_SUBSTITUTE"
         ],
-        "ability": "ABILITY_INSOMNIA",
         "ability_num": 0,
-        "held_item": "ITEM_NONE"
+        "held_item": "ITEM_NONE",
+        "iv": 200,
+        "ability": "ABILITY_INTIMIDATE"
       },
       {
         "species": "SPECIES_ARTICUNO",
         "level": 53,
         "moves": [
           "MOVE_BODY_SLAM",
-          "MOVE_QUICK_ATTACK",
-          "MOVE_SWORDS_DANCE",
+          "MOVE_PROTECT",
+          "MOVE_REST",
           "MOVE_DOUBLE_EDGE"
         ],
-        "ability": "ABILITY_IMMUNITY",
         "ability_num": 0,
-        "held_item": "ITEM_NONE"
+        "held_item": "ITEM_NONE",
+        "iv": 200,
+        "ability": "ABILITY_IMMUNITY"
       },
       {
         "species": "SPECIES_PARAS",
         "level": 54,
         "moves": [
-          "MOVE_POISON_FANG",
-          "MOVE_LEECH_LIFE",
-          "MOVE_QUICK_ATTACK",
-          "MOVE_SCREECH"
+          "MOVE_SLUDGE_BOMB",
+          "MOVE_AGILITY",
+          "MOVE_SWORDS_DANCE",
+          "MOVE_MEGAHORN"
         ],
-        "ability": "ABILITY_SWARM",
         "ability_num": 0,
-        "held_item": "ITEM_NONE"
+        "held_item": "ITEM_NONE",
+        "iv": 200,
+        "ability": "ABILITY_SWARM"
       }
     ],
     "items": [],
@@ -17952,40 +17955,43 @@
         "species": "SPECIES_DITTO",
         "level": 53,
         "moves": [
-          "MOVE_CRUNCH",
+          "MOVE_SCREECH",
           "MOVE_BULK_UP",
-          "MOVE_BODY_SLAM",
+          "MOVE_CRUNCH",
           "MOVE_ROCK_SLIDE"
         ],
-        "ability": "ABILITY_INTIMIDATE",
         "ability_num": 0,
-        "held_item": "ITEM_NONE"
+        "held_item": "ITEM_NONE",
+        "iv": 200,
+        "ability": "ABILITY_INTIMIDATE"
       },
       {
-        "species": "SPECIES_PARASECT",
+        "species": "SPECIES_GROWLITHE",
         "level": 54,
         "moves": [
-          "MOVE_BODY_SLAM",
-          "MOVE_SLASH",
-          "MOVE_BRICK_BREAK",
-          "MOVE_SCREECH"
+          "MOVE_TAUNT",
+          "MOVE_AERIAL_ACE",
+          "MOVE_FEATHER_DANCE",
+          "MOVE_SHADOW_BALL"
         ],
-        "ability": "ABILITY_TRACE",
         "ability_num": 0,
-        "held_item": "ITEM_NONE"
+        "held_item": "ITEM_NONE",
+        "iv": 200,
+        "ability": "ABILITY_INTIMIDATE"
       },
       {
-        "species": "SPECIES_EEVEE",
+        "species": "SPECIES_IVYSAUR",
         "level": 55,
         "moves": [
-          "MOVE_METAL_CLAW",
-          "MOVE_BRICK_BREAK",
           "MOVE_CRUNCH",
-          "MOVE_SCREECH"
+          "MOVE_SWORDS_DANCE",
+          "MOVE_FLAMETHROWER",
+          "MOVE_DOUBLE_EDGE"
         ],
-        "ability": "ABILITY_BATTLE_ARMOR",
         "ability_num": 0,
-        "held_item": "ITEM_NONE"
+        "held_item": "ITEM_NONE",
+        "iv": 200,
+        "ability": "ABILITY_GUTS"
       }
     ],
     "items": [],
@@ -18890,13 +18896,13 @@
     "mode": "ordinary",
     "party": [
       {
-        "species": "SPECIES_AERODACTYL",
+        "species": "SPECIES_GROWLITHE",
         "level": 48,
         "moves": [
-          "MOVE_POISON_FANG",
-          "MOVE_PROTECT",
-          "MOVE_HAZE",
-          "MOVE_SUBSTITUTE"
+          "MOVE_FAINT_ATTACK",
+          "MOVE_TAUNT",
+          "MOVE_AERIAL_ACE",
+          "MOVE_FEATHER_DANCE"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
@@ -18936,26 +18942,26 @@
     "mode": "ordinary",
     "party": [
       {
-        "species": "SPECIES_SNORLAX",
+        "species": "SPECIES_ARTICUNO",
         "level": 49,
         "moves": [
-          "MOVE_POISON_FANG",
+          "MOVE_SWORDS_DANCE",
+          "MOVE_BODY_SLAM",
           "MOVE_PROTECT",
-          "MOVE_REST",
-          "MOVE_SUBSTITUTE"
+          "MOVE_REST"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",
         "iv": 0
       },
       {
-        "species": "SPECIES_LAPRAS",
+        "species": "SPECIES_DITTO",
         "level": 49,
         "moves": [
-          "MOVE_FAKE_TEARS",
-          "MOVE_TORMENT",
-          "MOVE_AGILITY",
-          "MOVE_SNATCH"
+          "MOVE_KNOCK_OFF",
+          "MOVE_SCREECH",
+          "MOVE_BULK_UP",
+          "MOVE_CRUNCH"
         ],
         "ability_num": 0,
         "held_item": "ITEM_NONE",

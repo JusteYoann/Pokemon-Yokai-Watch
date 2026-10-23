@@ -3,19 +3,16 @@ SilphCo_4F_Text_CantYouSeeImHiding::
     .string "Can't you see I'm hiding?$"
 
 SilphCo_4F_Text_TeamRocketIsGone::
-    .string "Huh?\n"
-    .string "TEAM ROCKET is gone?$"
+    .string "La Mafiamille est partie? Je peux\nenfin sortir de ma cachette!$"
 
 SilphCo_4F_Text_Grunt1Intro::
-    .string "TEAM ROCKET has taken control\n"
-    .string "of SILPH CO.!$"
+    .string "La Mafiamille contrôle la Sylphe. Les\nréclamations attendront!$"
 
 SilphCo_4F_Text_Grunt1Defeat::
-    .string "Arrgh!$"
+    .string "Réclamation acceptée...$"
 
 SilphCo_4F_Text_Grunt1PostBattle::
-    .string "Fwahahaha!\n"
-    .string "My BOSS has been after this place!$"
+    .string "Le Don convoitait cette entreprise\ndepuis longtemps.$"
 
 SilphCo_4F_Text_RodneyIntro::
     .string "My Yo-kai is my loyal servant.$"
@@ -31,13 +28,13 @@ SilphCo_4F_Text_RodneyPostBattle::
     .string "doors here.$"
 
 SilphCo_4F_Text_Grunt2Intro::
-    .string "Intruder spotted!$"
+    .string "Intrus en vue! Cette fois, j'ai bien\nregardé!$"
 
 SilphCo_4F_Text_Grunt2Defeat::
-    .string "Who are you?$"
+    .string "Mais qui es-tu?!$"
 
 SilphCo_4F_Text_Grunt2PostBattle::
-    .string "I better tell the BOSS on 11F!$"
+    .string "Je dois prévenir le Don au dernier\nétage!$"
 
 SilphCo_4F_Text_FloorSign::
     .string "SILPH CO. HEAD OFFICE\n"

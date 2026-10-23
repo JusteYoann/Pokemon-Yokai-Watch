@@ -81,9 +81,7 @@ Route15_Text_ErnestDefeat::
     .string "Why not?$"
 
 Route15_Text_ErnestPostBattle::
-    .string "Life's too short.\n"
-    .string "It's cool to live as an outlaw.\l"
-    .string "TEAM ROCKET RULES!$"
+    .string "Vivre hors des règles, ça me plaît.\nLes affaires de la Mafiamille, par\lexemple...$"
 
 Route15_Text_AlexIntro::
     .string "Fork over all your cash when you\n"

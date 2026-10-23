@@ -1,20 +1,20 @@
 Route24_Text_JustEarnedFabulousPrize::
-    .string "Félicitations! Tu as battu\nnos cinq Dresseurs!\pTu mérites un prix fabuleux!$"
+    .string "Cinq victoires! La famille apprécie\nle talent. Tu as mérité ton prix.$"
 
 Route24_Text_ReceivedNuggetFromMysteryTrainer::
-    .string "Le mystérieux Dresseur\nremet une Pépite à {PLAYER}!$"
+    .string "Le sbire Mafiamille remet une Pépite\nà {PLAYER}!$"
 
 Route24_Text_YouDontHaveAnyRoom::
     .string "Tu n'as plus de place!$"
 
 Route24_Text_JoinTeamRocket::
-    .string "Au fait, ça te dirait\nde rejoindre la Team Rocket?\pNous sommes des criminels\nspécialisés dans les Yo-kai!\pTu veux nous rejoindre?\pTu es sûr?\pAllez, viens avec nous!\pJe te dis de nous rejoindre!\pBon… Il faut te convaincre!\pJe vais te faire une offre\nque tu ne pourras pas refuser!$"
+    .string "Un talent comme le tien intéresserait\nla Mafiamille.\pNous savons récompenser les amis de\nla famille. Tu veux nous rejoindre?\pNon? Le Don aime les gens décidés.\nMais je peux insister un peu!$"
 
 Route24_Text_RocketDefeat::
-    .string "Argh!\nTu es fort!$"
+    .string "D'accord, tu sais dire non!$"
 
 Route24_Text_YoudBecomeTopRocketLeader::
-    .string "Avec ton talent, tu deviendrais\nun grand chef de la Team Rocket.\pRéfléchis! Ne laisse pas passer\nune occasion pareille.$"
+    .string "Tu aurais fait une belle carrière\ndans la famille.\pEnfin... je vais surtout éviter de\nraconter ce combat au Don.$"
 
 Route24_Text_ShaneIntro::
     .string "J'ai vu tes exploits\ndepuis les hautes herbes!$"

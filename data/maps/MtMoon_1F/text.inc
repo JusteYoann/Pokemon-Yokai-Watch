@@ -50,7 +50,7 @@ MtMoon_1F_Text_KentDefeat::
     .string "Tu m'as eu!$"
 
 MtMoon_1F_Text_KentPostBattle::
-    .string "Je les ai vus!\nIls sont de la Team Rocket!$"
+    .string "Je les ai vus! Ces types travaillent\npour la Mafiamille!$"
 
 MtMoon_1F_Text_RobbyIntro::
     .string "Il faut traverser cette grotte\npour atteindre CERULEAN CITY.$"

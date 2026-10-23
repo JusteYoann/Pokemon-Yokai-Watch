@@ -3,18 +3,11 @@ SaffronCity_PokemonCenter_1F_Text_GrowthRatesDifferBySpecies::
     .string "species to species.$"
 
 SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame::
-    .string "SILPH CO. is widely known to all.\p"
-    .string "It's a victim of its own fame - it\n"
-    .string "attracted TEAM ROCKET.$"
+    .string "La réputation de la Sylphe a attiré\nla Mafiamille. Ses inventions valent\lune fortune.$"
 
 SaffronCity_PokemonCenter_1F_Text_GreatIfEliteFourCameBeatRockets::
-    .string "Sigh…\n"
-    .string "Wouldn't this be great?\p"
-    .string "If the ELITE FOUR came and\n"
-    .string "stomped TEAM ROCKET?$"
+    .string "Si le Conseil 4 venait chasser la\nMafiamille... On pourrait enfin\lsouffler!$"
 
 SaffronCity_PokemonCenter_1F_Text_TeamRocketTookOff::
-    .string "TEAM ROCKET took off!\n"
-    .string "We can go out safely again!\l"
-    .string "That's great!$"
+    .string "Les hommes du Don sont partis! On\npeut de nouveau sortir sans crainte.$"
 

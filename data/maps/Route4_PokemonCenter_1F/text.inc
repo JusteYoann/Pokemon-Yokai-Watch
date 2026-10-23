@@ -2,7 +2,7 @@ Route4_PokemonCenter_1F_Text_CanHaveSixMonsWithYou::
     .string "Six Yo-kai Balls à ma ceinture…\pVoilà! On peut voyager\navec six Yo-kai au maximum.$"
 
 Route4_PokemonCenter_1F_Text_TeamRocketAttacksCerulean::
-    .string "La Team Rocket s'en prend\naux habitants de CERULEAN CITY…\pPas un jour sans qu'on parle\nde ses méfaits aux informations.$"
+    .string "La Mafiamille s'en prend aux habitants\nd'Azuria.\pOn entend parler de ses méfaits tous\nles jours.$"
 
 Route4_PokemonCenter_1F_Text_LaddieBuyMagikarpForJust500::
     .string "MARCHAND: Salut!\nJ'ai une affaire pour toi!\pUn Yo-kai spécial, Castelius III,\npour seulement 500¥!\pAlors, tu l'achètes?$"

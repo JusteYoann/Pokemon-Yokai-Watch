@@ -1,13 +1,11 @@
 SilphCo_10F_Text_GruntIntro::
-    .string "Welcome to 10F!\n"
-    .string "So good of you to join me!$"
+    .string "Bienvenue à cet étage! La famille\nt'offre un combat d'accueil.$"
 
 SilphCo_10F_Text_GruntDefeat::
-    .string "I'm stunned!$"
+    .string "L'accueil est fermé!$"
 
 SilphCo_10F_Text_GruntPostBattle::
-    .string "Nice try, but the boardroom is up\n"
-    .string "one more floor.$"
+    .string "La salle du conseil est encore un\nétage plus haut.$"
 
 SilphCo_10F_Text_TravisIntro::
     .string "Enough of your silly games!$"

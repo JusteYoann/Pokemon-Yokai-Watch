@@ -3,15 +3,14 @@ SaffronCity_Text_WhatDoYouWantGetLost::
     .string "Get lost!$"
 
 SaffronCity_Text_BossTakeTownForTeamRocket::
-    .string "BOSS said he'll take this town\n"
-    .string "in the name of TEAM ROCKET!$"
+    .string "Le Don veut contrôler les affaires de\nSafrania. Nous préparons le terrain.$"
 
 SaffronCity_Text_DontGetDefiantOrIllHurtYou::
     .string "Don't get defiant!\n"
     .string "Or I'll have to hurt you!$"
 
 SaffronCity_Text_SaffronBelongsToTeamRocket::
-    .string "SAFFRON belongs to TEAM ROCKET!$"
+    .string "La Mafiamille tient Safrania. Tu\nferais mieux de le retenir.$"
 
 SaffronCity_Text_CriminalLifeMakesMeFeelAlive::
     .string "My life as a criminal makes me feel\n"
@@ -27,18 +26,13 @@ SaffronCity_Text_WeCanExploitMonsAroundWorld::
     .string "We'll get stinking rich, yeahah!$"
 
 SaffronCity_Text_YouBeatTeamRocket::
-    .string "You beat TEAM ROCKET all alone?\n"
-    .string "That's amazing!$"
+    .string "Tu as chassé la Mafiamille sans aide?\nQuel courage!$"
 
 SaffronCity_Text_SafeToGoOutAgain::
-    .string "Yeah! TEAM ROCKET is gone!\n"
-    .string "It's safe to go out again!$"
+    .string "Les sbires sont partis! On peut enfin\nsortir sans crainte.$"
 
 SaffronCity_Text_PeopleComingBackToSaffron::
-    .string "People fled from here in droves\n"
-    .string "when those ROCKETS came.\p"
-    .string "They should be flocking back to\n"
-    .string "SAFFRON now.$"
+    .string "L'occupation avait fait fuir beaucoup\nde monde.\pLes habitants reviennent depuis le\ndépart de la Mafiamille.$"
 
 SaffronCity_Text_FlewHereOnPidgeot::
     .string "I flew here on my PIDGEOT when\n"
@@ -50,8 +44,7 @@ SaffronCity_Text_Pidgeot::
     .string "PIDGEOT: Bi bibii!$"
 
 SaffronCity_Text_SawRocketBossEscaping::
-    .string "I saw the ROCKET BOSS escaping\n"
-    .string "SILPH's building.$"
+    .string "J'ai vu Don Morléone quitter la\nSylphe. Il n'avait pas l'air content.$"
 
 SaffronCity_Text_ImASecurityGuard::
     .string "I'm a security guard.\p"

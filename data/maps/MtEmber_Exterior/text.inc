@@ -42,65 +42,43 @@ Text_ExplosionTaughtJP::
     .string "す　すごい　スリル！$"
 
 MtEmber_Exterior_Text_WellTryDiggingHere::
-    .string "Over here.\n"
-    .string "We'll try digging here.\p"
-    .string "That treasure the ADMINS've been\n"
-    .string "talking about should be here.$"
+    .string "C'est ici. On creuse. Le trésor dont\non nous a parlé doit être dessous.$"
 
 MtEmber_Exterior_Text_YoureInTheWayGetLost::
-    .string "What the…?\n"
-    .string "You're in the way. Get lost.$"
+    .string "Tu gênes le chantier. Va voir\nailleurs!$"
 
 MtEmber_Exterior_Text_PunchedThroughAtLast::
-    .string "Whew, punched through at last.\n"
-    .string "Let's go treasure hunting!$"
+    .string "Enfin une ouverture! À nous le\ntrésor!$"
 
 MtEmber_Exterior_Text_WhatsPasswordAgain::
-    .string "Any treasure we find, we haul back\n"
-    .string "to the WAREHOUSE, understood?\p"
-    .string "…Oh, and what're the passwords?\n"
-    .string "At the ROCKET WAREHOUSE, I mean.$"
+    .string "Tout ce qu'on trouve part à\nl'entrepôt de la Mafiamille. Compris?\pAu fait... tu te rappelles les mots\nde passe?$"
 
 MtEmber_Exterior_Text_FirstPasswordGoldeen::
-    .string "What, you forgot the password?\n"
-    .string "There're actually two.\p"
-    .string "The first one's “GOLDEEN need\n"
-    .string "log.”\p"
-    .string "And the second one is…$"
+    .string "Il y en a deux. Le premier est:\n“GOLDEEN need log.”\pEt le second...$"
 
 MtEmber_Exterior_Text_SnoopsBeenListeningIn::
-    .string "Hey!\n"
-    .string "This snoop's been listening in!$"
+    .string "Hé! Cet enfant nous écoute depuis le\ndébut!$"
 
 MtEmber_Exterior_Text_Grunt1Intro::
-    .string "You've been eavesdropping on us,\n"
-    .string "haven't you?$"
+    .string "Tu écoutais notre conversation? La\ndiscrétion, ça s'apprend!$"
 
 MtEmber_Exterior_Text_Grunt1Defeat::
-    .string "Huh, what?$"
+    .string "Je parle trop fort, aussi...$"
 
 MtEmber_Exterior_Text_Grunt1PostBattle::
-    .string "Why'd you have to win?$"
+    .string "Le Don n'aime pas qu'on divulgue les\naffaires de la famille.$"
 
 MtEmber_Exterior_Text_Grunt2Intro::
-    .string "Trying to horn in on our treasure?\n"
-    .string "Don't bet on it!$"
+    .string "Tu veux une part du trésor? Il est\ndéjà réservé!$"
 
 MtEmber_Exterior_Text_Grunt2Defeat::
-    .string "Wait!\n"
-    .string "But how?$"
+    .string "Les comptes ne sont pas bons!$"
 
 MtEmber_Exterior_Text_Grunt2PostBattle::
-    .string "Develop amnesia conveniently and\n"
-    .string "forget everything you heard!$"
+    .string "Oublie ce que tu as entendu. Pour\nune fois, rends-nous service.$"
 
 MtEmber_Exterior_Text_WellRegroupDontStepInsideThere::
-    .string "What a setback…\n"
-    .string "We'll have to regroup.\p"
-    .string "You! Don't even think about taking\n"
-    .string "a step inside here!\p"
-    .string "If you know what's good for you,\n"
-    .string "don't even think about this!$"
+    .string "On doit se regrouper. Toi, ne mets\npas un pied là-dedans!\pEt oublie notre conversation!$"
 
 MtEmber_Exterior_Text_LoganIntro::
     .string "An active volcano is one that's\n"

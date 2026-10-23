@@ -1,0 +1,254 @@
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt1Intro	Ces fossiles sont réservés à la\nMafiamille. Le Don sait reconnaître\lun bon placement!$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt1Defeat	Tu as fait échouer l'affaire!$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt1PostBattle	Un fossile ne rapporte rien si tu le\ngardes pour toi. Réfléchis un peu!$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt2Intro	La Mafiamille mène les fouilles. Tu\npeux repartir... ou tenter de passer.$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt2Defeat	Je n'avais pas prévu ça!$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt2PostBattle	Mes collègues ne seront pas aussi\nconciliants. Enfin, j'espère.$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt3Intro	Une grosse affaire se prépare ici.\nLes curieux restent dehors!$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt3Defeat	Tu sais te défendre...$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt3PostBattle	Un fossile dans ton sac? On pourrait\ns'arranger. Non? Tant pis.$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt4Intro	Les affaires de la famille ne\nregardent pas les enfants!$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt4Defeat	Ça va mal finir... pour moi.$
+data/maps/MtMoon_B2F/text.inc	MtMoon_B2F_Text_Grunt4PostBattle	Les Yo-kai vivaient ici bien avant\nnous. Le Don s'intéresse à leurs\lsecrets.$
+data/maps/CeruleanCity/text.inc	CeruleanCity_Text_GruntIntro	Hé! Ce passage est privé!\pMoi, un cambrioleur? La Mafiamille\npréfère parler de récupération.{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$
+data/maps/CeruleanCity/text.inc	CeruleanCity_Text_GruntDefeat	D'accord, je rends la CT! On évite\nde prévenir le Don?$
+data/maps/CeruleanCity/text.inc	CeruleanCity_Text_RecoveredTM28FromGrunt	{PLAYER} récupère la CT28 dérobée\npar le sbire Mafiamille.$
+data/maps/CeruleanCity/text.inc	CeruleanCity_Text_PeopleHereWereRobbed	Cette maison a été cambriolée. La\nMafiamille est impliquée.\pMême la police peine à arrêter ses\nhommes.$
+data/maps/Route24/text.inc	Route24_Text_JustEarnedFabulousPrize	Cinq victoires! La famille apprécie\nle talent. Tu as mérité ton prix.$
+data/maps/Route24/text.inc	Route24_Text_ReceivedNuggetFromMysteryTrainer	Le sbire Mafiamille remet une Pépite\nà {PLAYER}!$
+data/maps/Route24/text.inc	Route24_Text_JoinTeamRocket	Un talent comme le tien intéresserait\nla Mafiamille.\pNous savons récompenser les amis de\nla famille. Tu veux nous rejoindre?\pNon? Le Don aime les gens décidés.\nMais je peux insister un peu!$
+data/maps/Route24/text.inc	Route24_Text_RocketDefeat	D'accord, tu sais dire non!$
+data/maps/Route24/text.inc	Route24_Text_YoudBecomeTopRocketLeader	Tu aurais fait une belle carrière\ndans la famille.\pEnfin... je vais surtout éviter de\nraconter ce combat au Don.$
+data/maps/CeladonCity/text.inc	CeladonCity_Text_KeepOutOfTeamRocketsWay	La Mafiamille règle ses affaires.\nCircule!$
+data/maps/CeladonCity/text.inc	CeladonCity_Text_GameCornerSign	CASINO MAFIAMILLE\nLe rendez-vous des grandes mises!$
+data/maps/CeladonCity_House1/text.inc	CeladonCity_House1_Text_SlotsReelInTheDough	Héhéhé! Chaque jeton finit par\nremplir les caisses de la famille.$
+data/maps/CeladonCity_House1/text.inc	CeladonCity_House1_Text_ShippedMonsAsSlotPrizes	Patron! Encore un lot de Yo-kai livré\npour les lots du Casino!\pLes comptes vont vous plaire.$
+data/maps/CeladonCity_House1/text.inc	CeladonCity_House1_Text_DontTouchGameCornerPoster	Ne touche pas à l'affiche du Casino!\pEt surtout pas à l'interrupteur...\nEuh, quelle affiche?$
+data/maps/CeladonCity_GameCorner/text.inc	CeladonCity_GameCorner_Text_WelcomeBuySomeCoins	Bienvenue au Casino Mafiamille!\pIl vous faut des Jetons?\nSouhaitez-vous en acheter?$
+data/maps/CeladonCity_GameCorner/text.inc	CeladonCity_GameCorner_Text_RumoredTeamRocketRunsThisPlace	Parle moins fort. Ce Casino\nappartiendrait à la Mafiamille.\pJe préfère ne pas savoir où vont les\nrecettes.$
+data/maps/CeladonCity_GameCorner/text.inc	CeladonCity_GameCorner_Text_GruntIntro	Cette affiche? Propriété privée. Tu\nas cinq secondes pour t'éloigner.$
+data/maps/CeladonCity_GameCorner/text.inc	CeladonCity_GameCorner_Text_GruntDefeat	Le Don va me passer un savon!$
+data/maps/CeladonCity_GameCorner/text.inc	CeladonCity_GameCorner_Text_GruntPostBattle	Le passage est découvert! Je dois\nprévenir Don Morléone!$
+data/maps/CeladonCity_GameCorner/text.inc	CeladonCity_GameCorner_Text_SwitchBehindPosterPushIt	Un interrupteur derrière l'affiche!\pAppuyons dessus!$
+data/maps/RocketHideout_B1F/text.inc	RocketHideout_B1F_Text_Grunt1Intro	Qui t'a donné l'adresse? La famille ne\nreçoit pas les visiteurs!$
+data/maps/RocketHideout_B1F/text.inc	RocketHideout_B1F_Text_Grunt1Defeat	Tu n'es pas un simple visiteur!$
+data/maps/RocketHideout_B1F/text.inc	RocketHideout_B1F_Text_Grunt1PostBattle	Entrer ici sans invitation... Tu\ncherches vraiment des ennuis.$
+data/maps/RocketHideout_B1F/text.inc	RocketHideout_B1F_Text_Grunt2Intro	Tu as forcé l'entrée de notre\nrepaire? Quelle audace!$
+data/maps/RocketHideout_B1F/text.inc	RocketHideout_B1F_Text_Grunt2Defeat	Je n'ai rien pu faire!$
+data/maps/RocketHideout_B1F/text.inc	RocketHideout_B1F_Text_Grunt2PostBattle	Le Don n'aime pas qu'on dérange ses\naffaires.$
+data/maps/RocketHideout_B1F/text.inc	RocketHideout_B1F_Text_Grunt3Intro	Intrus repéré! La relève attendra!$
+data/maps/RocketHideout_B1F/text.inc	RocketHideout_B1F_Text_Grunt3Defeat	Relève... demandée!$
+data/maps/RocketHideout_B1F/text.inc	RocketHideout_B1F_Text_Grunt3PostBattle	Le Scope Sylphe? Je ne sais pas où\nle patron l'a rangé.$
+data/maps/RocketHideout_B1F/text.inc	RocketHideout_B1F_Text_Grunt4Intro	Une visite guidée? Tu t'es trompé\nd'endroit.$
+data/maps/RocketHideout_B1F/text.inc	RocketHideout_B1F_Text_Grunt4Defeat	Bon... tu gagnes.$
+data/maps/RocketHideout_B1F/text.inc	RocketHideout_B1F_Text_Grunt4PostBattle	Pour rencontrer le Don, prends\nl'ascenseur. Moi, je reste ici.$
+data/maps/RocketHideout_B1F/text.inc	RocketHideout_B1F_Text_Grunt5Intro	Une petite souris dans le\ngarde-manger de la famille?$
+data/maps/RocketHideout_B1F/text.inc	RocketHideout_B1F_Text_Grunt5Defeat	La souris mord!$
+data/maps/RocketHideout_B1F/text.inc	RocketHideout_B1F_Text_Grunt5PostBattle	Tout ce vacarme a ouvert la porte!\nJ'étais censé la surveiller...$
+data/maps/RocketHideout_B2F/text.inc	RocketHideout_B2F_Text_GruntIntro	Avec le Scope Sylphe, on peut voir\nles fantômes. Une affaire pleine\ld'avenir!$
+data/maps/RocketHideout_B2F/text.inc	RocketHideout_B2F_Text_GruntDefeat	Je préfère rester vivant!$
+data/maps/RocketHideout_B2F/text.inc	RocketHideout_B2F_Text_GruntPostBattle	Quatre sous-sols, et le Don au bout\ndu chemin. Tu tiens tant à le voir?$
+data/maps/RocketHideout_B3F/text.inc	RocketHideout_B3F_Text_Grunt1Intro	Les affaires de la Mafiamille ne te\nconcernent pas!$
+data/maps/RocketHideout_B3F/text.inc	RocketHideout_B3F_Text_Grunt1Defeat	Mon service est terminé...$
+data/maps/RocketHideout_B3F/text.inc	RocketHideout_B3F_Text_Grunt1PostBattle	Le Scope Sylphe? L'appareil dérobé\npar le patron? Il est quelque part\lici.$
+data/maps/RocketHideout_B3F/text.inc	RocketHideout_B3F_Text_Grunt2Intro	On nous a prévenus de ton arrivée.\nCette fois, on t'arrête!$
+data/maps/RocketHideout_B3F/text.inc	RocketHideout_B3F_Text_Grunt2Defeat	Même avec un avertissement...$
+data/maps/RocketHideout_B3F/text.inc	RocketHideout_B3F_Text_Grunt2PostBattle	Sans Clé Ascenseur, tu n'iras pas bien\nloin.$
+data/maps/RocketHideout_B4F/text.inc	RocketHideout_B4F_Text_Grunt1Intro	L'ascenseur est bloqué? Qui avait la\nclé, déjà?$
+data/maps/RocketHideout_B4F/text.inc	RocketHideout_B4F_Text_Grunt1Defeat	Ah... c'était moi.$
+data/maps/RocketHideout_B4F/text.inc	RocketHideout_B4F_Text_Grunt1PostBattle	Oh non! J'ai fait tomber la Clé\nAscenseur!$
+data/maps/RocketHideout_B4F/text.inc	RocketHideout_B4F_Text_Grunt2Intro	Je te reconnais! Tu as saboté nos\nfouilles au Mont Sélénite!$
+data/maps/RocketHideout_B4F/text.inc	RocketHideout_B4F_Text_Grunt2Defeat	Encore toi!$
+data/maps/RocketHideout_B4F/text.inc	RocketHideout_B4F_Text_Grunt2PostBattle	Tu t'es donné pour mission de ruiner\nles affaires de la famille?$
+data/maps/RocketHideout_B4F/text.inc	RocketHideout_B4F_Text_Grunt3Intro	Un costume propre, des comptes bien\ntenus... et une équipe redoutable!$
+data/maps/RocketHideout_B4F/text.inc	RocketHideout_B4F_Text_Grunt3Defeat	Le costume, lui, est intact.$
+data/maps/RocketHideout_B4F/text.inc	RocketHideout_B4F_Text_Grunt3PostBattle	Don Morléone, pardonnez-moi. Je n'ai\npas tenu la porte.$
+data/maps/RocketHideout_B4F/text.inc	RocketHideout_B4F_Text_GiovanniIntro	On entre rarement ici sans mon\naccord. Tu as de l'audace.\pJe suis Don Morléone. La Mafiamille\nsait tirer profit du talent des\lYo-kai.\pMais ton intervention nous coûte cher.\nVoyons comment tu comptes régler ta\ldette.$
+data/maps/RocketHideout_B4F/text.inc	RocketHideout_B4F_Text_GiovanniDefeat	Tu as remporté cette manche.$
+data/maps/RocketHideout_B4F/text.inc	RocketHideout_B4F_Text_GiovanniPostBattle	Tu prends soin de tes Yo-kai. Cela se\nvoit.\pJe vais me retirer pour cette fois.\nN'y vois pas une invitation à\lrecommencer.$
+data/maps/PokemonTower_7F/text.inc	PokemonTower_7F_Text_Grunt1Intro	La tour est fermée aux curieux.\nOrdre de la famille!$
+data/maps/PokemonTower_7F/text.inc	PokemonTower_7F_Text_Grunt1Defeat	Je laisse passer!$
+data/maps/PokemonTower_7F/text.inc	PokemonTower_7F_Text_Grunt1PostBattle	Tu nous fais perdre un temps\nprécieux. Je retiens ton visage.$
+data/maps/PokemonTower_7F/text.inc	PokemonTower_7F_Text_Grunt2Intro	Ce vieil homme est venu dénoncer nos\ncaptures.\pNous lui expliquons simplement qu'on\nne se mêle pas des affaires de la\lMafiamille.$
+data/maps/PokemonTower_7F/text.inc	PokemonTower_7F_Text_Grunt2Defeat	Ça suffit! J'ai compris!$
+data/maps/PokemonTower_7F/text.inc	PokemonTower_7F_Text_Grunt2PostBattle	Ces Yo-kai rapportent gros. C'est\ntout ce qui compte pour mes\lcollègues.$
+data/maps/PokemonTower_7F/text.inc	PokemonTower_7F_Text_Grunt3Intro	Tu veux libérer ce vieux monsieur?\nIl faudra d'abord me convaincre!$
+data/maps/PokemonTower_7F/text.inc	PokemonTower_7F_Text_Grunt3Defeat	Très convaincant...$
+data/maps/PokemonTower_7F/text.inc	PokemonTower_7F_Text_Grunt3PostBattle	Pars avant que je retrouve mon\ncourage.$
+data/maps/PokemonTower_7F/text.inc	PokemonTower_7F_Text_MrFujiThankYouFollowMe	M. FUJI: Tu es venu me sauver?\nMerci.\pJ'étais venu apaiser l'esprit de la\nmère d'OSSELAIT. Elle peut enfin\lreposer en paix.\pSuis-moi jusqu'à ma maison, au pied\nde la tour.$
+data/maps/SaffronCity/text.inc	SaffronCity_Text_BossTakeTownForTeamRocket	Le Don veut contrôler les affaires de\nSafrania. Nous préparons le terrain.$
+data/maps/SaffronCity/text.inc	SaffronCity_Text_SaffronBelongsToTeamRocket	La Mafiamille tient Safrania. Tu\nferais mieux de le retenir.$
+data/maps/SaffronCity/text.inc	SaffronCity_Text_YouBeatTeamRocket	Tu as chassé la Mafiamille sans aide?\nQuel courage!$
+data/maps/SaffronCity/text.inc	SaffronCity_Text_SafeToGoOutAgain	Les sbires sont partis! On peut enfin\nsortir sans crainte.$
+data/maps/SaffronCity/text.inc	SaffronCity_Text_PeopleComingBackToSaffron	L'occupation avait fait fuir beaucoup\nde monde.\pLes habitants reviennent depuis le\ndépart de la Mafiamille.$
+data/maps/SaffronCity/text.inc	SaffronCity_Text_SawRocketBossEscaping	J'ai vu Don Morléone quitter la\nSylphe. Il n'avait pas l'air content.$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GiovanniIntro	Te voilà encore. Ici, je suis aussi\nle Champion de Jadielle.\pCette fois, aucune affaire à\ndiscuter: tu viens chercher mon\lBadge.\pDon Morléone ne fait pas de cadeau.\nMontre-moi ce que vaut ton équipe!{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GiovanniPostBattle	Tu as gagné. Je tiens parole.\pJ'arrête nos opérations à Kanto. Mes\nhommes devront se retirer.\pLa famille ne disparaît pas pour\nautant. Quant à moi, j'ai un\lentraînement à reprendre.$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_ReceivedTM26FromGiovanni	{PLAYER} reçoit la CT26 de Don\nMorléone.$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GymGuyPostVictory	Don Morléone était le Champion de\nJadielle?\pEt tu l'as battu! Quel exploit!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GymStatuePlayerWon	ARÈNE YO-KAI DE JADIELLE\nCHAMPION: DON MORLÉONE\pDRESSEURS VICTORIEUX:\n{RIVAL}, {PLAYER}$
+data/maps/MtEmber_Exterior/text.inc	MtEmber_Exterior_Text_Grunt1Intro	Tu écoutais notre conversation? La\ndiscrétion, ça s'apprend!$
+data/maps/MtEmber_Exterior/text.inc	MtEmber_Exterior_Text_Grunt1Defeat	Je parle trop fort, aussi...$
+data/maps/MtEmber_Exterior/text.inc	MtEmber_Exterior_Text_Grunt1PostBattle	Le Don n'aime pas qu'on divulgue les\naffaires de la famille.$
+data/maps/MtEmber_Exterior/text.inc	MtEmber_Exterior_Text_Grunt2Intro	Tu veux une part du trésor? Il est\ndéjà réservé!$
+data/maps/MtEmber_Exterior/text.inc	MtEmber_Exterior_Text_Grunt2Defeat	Les comptes ne sont pas bons!$
+data/maps/MtEmber_Exterior/text.inc	MtEmber_Exterior_Text_Grunt2PostBattle	Oublie ce que tu as entendu. Pour\nune fois, rends-nous service.$
+data/maps/MtEmber_Exterior/text.inc	MtEmber_Exterior_Text_WellTryDiggingHere	C'est ici. On creuse. Le trésor dont\non nous a parlé doit être dessous.$
+data/maps/MtEmber_Exterior/text.inc	MtEmber_Exterior_Text_YoureInTheWayGetLost	Tu gênes le chantier. Va voir\nailleurs!$
+data/maps/MtEmber_Exterior/text.inc	MtEmber_Exterior_Text_PunchedThroughAtLast	Enfin une ouverture! À nous le\ntrésor!$
+data/maps/MtEmber_Exterior/text.inc	MtEmber_Exterior_Text_WhatsPasswordAgain	Tout ce qu'on trouve part à\nl'entrepôt de la Mafiamille. Compris?\pAu fait... tu te rappelles les mots\nde passe?$
+data/maps/MtEmber_Exterior/text.inc	MtEmber_Exterior_Text_FirstPasswordGoldeen	Il y en a deux. Le premier est:\n“GOLDEEN need log.”\pEt le second...$
+data/maps/MtEmber_Exterior/text.inc	MtEmber_Exterior_Text_SnoopsBeenListeningIn	Hé! Cet enfant nous écoute depuis le\ndébut!$
+data/maps/MtEmber_Exterior/text.inc	MtEmber_Exterior_Text_WellRegroupDontStepInsideThere	On doit se regrouper. Toi, ne mets\npas un pied là-dedans!\pEt oublie notre conversation!$
+data/maps/FourIsland_IcefallCave_Back/text.inc	FourIsland_IcefallCave_Back_Text_LoreleiKeepHandsOffMons	OLGA: Laissez les Yo-kai de cette\ngrotte tranquilles!\pVous allez répondre de vos captures!$
+data/maps/FourIsland_IcefallCave_Back/text.inc	FourIsland_IcefallCave_Back_Text_ShutItLadyLeaveUsBe	On travaille pour la Mafiamille. Vos\nleçons, gardez-les pour vos élèves!$
+data/maps/FourIsland_IcefallCave_Back/text.inc	FourIsland_IcefallCave_Back_Text_LoreleiPlayerHelpMeKickPoachersOut	OLGA: {PLAYER}?! Nous discuterons\nplus tard.\pAide-moi à chasser ces braconniers\navant qu'ils capturent d'autres\lYo-kai!$
+data/maps/FourIsland_IcefallCave_Back/text.inc	FourIsland_IcefallCave_Back_Text_GruntIntro	Nos prises appartiennent à la famille.\nTu veux contester le contrat?$
+data/maps/FourIsland_IcefallCave_Back/text.inc	FourIsland_IcefallCave_Back_Text_GruntDefeat	On n'avait pas prévu votre visite!$
+data/maps/FourIsland_IcefallCave_Back/text.inc	FourIsland_IcefallCave_Back_Text_LoreleiWhereHaveYouTakenMons	OLGA: Où avez-vous emmené les Yo-kai\ncapturés?\pRépondez. Je compte bien arrêter\nvotre trafic!$
+data/maps/FourIsland_IcefallCave_Back/text.inc	FourIsland_IcefallCave_Back_Text_NotTellingYouThat	Je... Je ne dirai rien!$
+data/maps/FourIsland_IcefallCave_Back/text.inc	FourIsland_IcefallCave_Back_Text_LoreleiWellDeepFreezeYou	OLGA: Mon partenaire n'apprécie pas\nce que vous faites à ses amis.\pUn petit Laser Glace t'aiderait-il à\nparler?$
+data/maps/FourIsland_IcefallCave_Back/text.inc	FourIsland_IcefallCave_Back_Text_OkayRocketWareHouseFiveIsland	D'accord! Les Yo-kai sont dans\nl'entrepôt de la Mafiamille, sur l'Île\l5!\pOn s'en va! De toute façon, vous\nn'entrerez jamais sans les mots de\lpasse!$
+data/maps/FourIsland_IcefallCave_Back/text.inc	FourIsland_IcefallCave_Back_Text_ThankYouThisIsAwful	Merci, {PLAYER}. J'ai grandi sur ces\nîles.\pJe ne pensais pas que ces criminels y\navaient installé leur trafic.$
+data/maps/FiveIsland_Meadow/text.inc	FiveIsland_Meadow_Text_Rocket1Intro	Terrain privé de la Mafiamille!\nDemi-tour!$
+data/maps/FiveIsland_Meadow/text.inc	FiveIsland_Meadow_Text_Rocket1Defeat	Tu n'as pas lu le panneau?$
+data/maps/FiveIsland_Meadow/text.inc	FiveIsland_Meadow_Text_Rocket1PostBattle	Tu n'as aucune affaire à régler ici.\nRentre chez toi.$
+data/maps/FiveIsland_Meadow/text.inc	FiveIsland_Meadow_Text_Rocket2Intro	Il n'y a que notre entrepôt, au bout.\nQu'est-ce que tu viens chercher?$
+data/maps/FiveIsland_Meadow/text.inc	FiveIsland_Meadow_Text_Rocket2Defeat	Une mauvaise surprise...$
+data/maps/FiveIsland_Meadow/text.inc	FiveIsland_Meadow_Text_Rocket2PostBattle	Tu veux savoir ce qu'on garde? Tu\ndormirais mieux sans le savoir.$
+data/maps/FiveIsland_Meadow/text.inc	FiveIsland_Meadow_Text_Rocket3Intro	Passer devant moi ne te servira à\nrien!$
+data/maps/FiveIsland_Meadow/text.inc	FiveIsland_Meadow_Text_Rocket3Defeat	Je vais froisser mon costume!$
+data/maps/FiveIsland_Meadow/text.inc	FiveIsland_Meadow_Text_Rocket3PostBattle	La porte demande deux mots de passe.\nUn combat ne l'ouvrira pas.$
+data/maps/FiveIsland_Meadow/text.inc	FiveIsland_Meadow_Text_DoorNeedsTwoPasswords	Il faut deux mots de passe pour\nouvrir cette porte.$
+data/maps/FiveIsland_Meadow/text.inc	FiveIsland_Meadow_Text_EnteredPasswordAnotherNeeded	{PLAYER} saisit un mot de passe.\p“GOLDEEN need log.”\pUn second mot de passe est\nnécessaire...$
+data/maps/FiveIsland_Meadow/text.inc	FiveIsland_Meadow_Text_EnteredPasswordDoorOpened	{PLAYER} saisit les deux mots de\npasse.\p“GOLDEEN need log.”\n“Yes, nah, CHANSEY.”\pLa porte de l'entrepôt s'ouvre!$
+data/maps/FiveIsland_Meadow/text.inc	FiveIsland_Meadow_Text_WarehouseDoorAlreadyOpen	La porte de l'entrepôt est déjà\nouverte.$
+data/maps/SixIsland_OutcastIsland/text.inc	SixIsland_OutcastIsland_Text_RocketIntro	Pas un Yo-kai rare à l'horizon! La\nfamille attend des résultats.\pUn combat me changera les idées!$
+data/maps/SixIsland_OutcastIsland/text.inc	SixIsland_OutcastIsland_Text_RocketDefeat	Même ma pause est ratée...$
+data/maps/SixIsland_OutcastIsland/text.inc	SixIsland_OutcastIsland_Text_RocketPostBattle	Si tu vois un Yo-kai rare, tu me\npréviens? On peut rêver.$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_Grunt1Intro	Tes Yo-kai ont de la valeur. Tu veux\nles vendre à la famille?\pAh... tu viens te battre.$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_Grunt1Defeat	Mauvaise négociation!$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_Grunt1PostBattle	Notre offre tient toujours. Non? Tu\nes vraiment attaché à eux.$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_Grunt2Intro	Tu sais où tu mets les pieds? Cet\nentrepôt appartient à la Mafiamille!$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_Grunt2Defeat	Tu dépasses les bornes!$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_Grunt2PostBattle	Le Don aurait ordonné le retrait?\nPersonne ne nous a prévenus!$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_Grunt3Intro	Les autres m'ont parlé de toi. Mais\ntu ne peux pas connaître le Don!$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_Grunt3Defeat	Pas un mot à mes collègues!$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_Grunt3PostBattle	Les grandes affaires attirent toujours\nles petits curieux...$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_Admin1Intro	Je fais confiance au Don. Quand la\nfamille me confie une tâche, je\ll'accomplis.$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_Admin1Defeat	J'ai manqué à ma parole...$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_Admin1PostBattle	Tu défends tes convictions. Je\ncommence à comprendre pourquoi tu\ltiens bon.$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_Admin2Intro	Assez joué les héros! Tu prétends\nque le Don a arrêté nos opérations?\pTu espères nous faire partir avec un\nmensonge?$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_Admin2Defeat	Tu es trop fort...\pCe Badge! C'est celui de Don\nMorléone! Alors... le retrait est\lvraiment son ordre?$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_Admin2PostBattle	Nous quitterons l'entrepôt. Les\naffaires s'arrêtent ici.\pMais je retrouverai le Don pour\nsavoir ce qu'il attend de nous.\lAdieu.$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_GideonIntro	J'allais vendre le Saphir à la\nMafiamille pour une fortune!\pTu viens de ruiner ma meilleure\naffaire!$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_GideonDefeat	Ma commission! Envolée!$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_GideonPostBattle	Sans acheteur, cette pierre ne me\nsert plus. Prends-la et laisse-moi!$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_ManyMonsLockedInPen	De nombreux Yo-kai sont enfermés dans\ncet enclos...$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_PenUnlockedMonsFled	L'enclos est ouvert. Les Yo-kai\nsemblent s'être échappés.$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_MadeItSoYouCanComeBackThrough	J'ai changé les flèches pour te\nlaisser revenir par ici.\pVa reprendre des forces. Le prochain\nadversaire est bien plus redoutable\lque moi.$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_ReportWithGraphsAndText	Un rapport apparaît à l'écran:\p“Influence des ondes magnétiques sur\nl'évolution des Yo-kai”.\pCes calculs sont difficiles à\ncomprendre...$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_GetLostLeaveMeBe	Encore toi? Laisse-moi tranquille.$
+data/maps/FiveIsland_RocketWarehouse/text.inc	FiveIsland_RocketWarehouse_Text_GiovannisKidHasRedHair	Tu ne serais pas un envoyé de Don\nMorléone?\pNon... Il ne choisirait pas la\npersonne qui a ruiné notre marché.\pCette affaire ne te concerne plus.\nLaisse-moi!$
+data/maps/SilphCo_2F/text.inc	SilphCo_2F_Text_Grunt1Intro	Les visites scolaires sont annulées.\nOrdre de la famille!$
+data/maps/SilphCo_2F/text.inc	SilphCo_2F_Text_Grunt1Defeat	Tu apprends vite!$
+data/maps/SilphCo_2F/text.inc	SilphCo_2F_Text_Grunt1PostBattle	Les dalles en losange sont des\ntéléporteurs. Voilà ton cours de\ltechnologie.$
+data/maps/SilphCo_2F/text.inc	SilphCo_2F_Text_Grunt2Intro	Hé! Qui t'a autorisé à parcourir nos\nnouveaux bureaux?$
+data/maps/SilphCo_2F/text.inc	SilphCo_2F_Text_Grunt2Defeat	Je vais devoir le signaler...$
+data/maps/SilphCo_2F/text.inc	SilphCo_2F_Text_Grunt2PostBattle	La Sylphe travaillera bientôt pour la\nMafiamille. C'est une question de\ltemps.$
+data/maps/SilphCo_3F/text.inc	SilphCo_3F_Text_GruntIntro	Arrête de déranger la famille, tu\nveux?$
+data/maps/SilphCo_3F/text.inc	SilphCo_3F_Text_GruntDefeat	Je prends ma pause!$
+data/maps/SilphCo_3F/text.inc	SilphCo_3F_Text_GruntPostBattle	Une Carte Magnétique ouvre les\nportes. Voilà, tu sais tout.\lMaintenant, laisse-moi.$
+data/maps/SilphCo_4F/text.inc	SilphCo_4F_Text_Grunt1Intro	La Mafiamille contrôle la Sylphe. Les\nréclamations attendront!$
+data/maps/SilphCo_4F/text.inc	SilphCo_4F_Text_Grunt1Defeat	Réclamation acceptée...$
+data/maps/SilphCo_4F/text.inc	SilphCo_4F_Text_Grunt1PostBattle	Le Don convoitait cette entreprise\ndepuis longtemps.$
+data/maps/SilphCo_4F/text.inc	SilphCo_4F_Text_Grunt2Intro	Intrus en vue! Cette fois, j'ai bien\nregardé!$
+data/maps/SilphCo_4F/text.inc	SilphCo_4F_Text_Grunt2Defeat	Mais qui es-tu?!$
+data/maps/SilphCo_4F/text.inc	SilphCo_4F_Text_Grunt2PostBattle	Je dois prévenir le Don au dernier\nétage!$
+data/maps/SilphCo_5F/text.inc	SilphCo_5F_Text_Grunt1Intro	On parle d'un enfant dans les\ncouloirs. Tu viens te rendre?$
+data/maps/SilphCo_5F/text.inc	SilphCo_5F_Text_Grunt1Defeat	Pas du tout, apparemment.$
+data/maps/SilphCo_5F/text.inc	SilphCo_5F_Text_Grunt1PostBattle	Provoquer la Mafiamille, ce n'est pas\nune bonne stratégie de carrière.$
+data/maps/SilphCo_5F/text.inc	SilphCo_5F_Text_Grunt2Intro	Un peu de respect! Tu parles à un\nmembre de la famille.$
+data/maps/SilphCo_5F/text.inc	SilphCo_5F_Text_Grunt2Defeat	Je manque d'arguments...$
+data/maps/SilphCo_5F/text.inc	SilphCo_5F_Text_Grunt2PostBattle	Les Yo-kai grandissent, les affaires\naussi. Moi, je devrais surtout\lm'entraîner.$
+data/maps/SilphCo_6F/text.inc	SilphCo_6F_Text_Grunt1Intro	Nous sommes quatre frères au service\nde la Mafiamille. Tu commences par\lmoi!$
+data/maps/SilphCo_6F/text.inc	SilphCo_6F_Text_Grunt1Defeat	Premier frère à terre!$
+data/maps/SilphCo_6F/text.inc	SilphCo_6F_Text_Grunt1PostBattle	Les trois autres ne te laisseront pas\npasser si facilement.$
+data/maps/SilphCo_6F/text.inc	SilphCo_6F_Text_Grunt2Intro	Tu choisis vraiment de te mettre\ntoute la famille à dos?$
+data/maps/SilphCo_6F/text.inc	SilphCo_6F_Text_Grunt2Defeat	Tu assumes ton choix...$
+data/maps/SilphCo_6F/text.inc	SilphCo_6F_Text_Grunt2PostBattle	Les défenseurs de la justice\ncompliquent toujours nos affaires.$
+data/maps/SilphCo_7F/text.inc	SilphCo_7F_Text_Grunt1Intro	Un des quatre frères de la famille,\npour te servir... enfin, te stopper!$
+data/maps/SilphCo_7F/text.inc	SilphCo_7F_Text_Grunt1Defeat	Les frères! J'ai perdu!$
+data/maps/SilphCo_7F/text.inc	SilphCo_7F_Text_Grunt1PostBattle	Mes frères finiront ce travail. Nous\nsommes solidaires.$
+data/maps/SilphCo_7F/text.inc	SilphCo_7F_Text_Grunt2Intro	L'enfant qu'on recherche? Tu viens de\nte livrer tout seul!$
+data/maps/SilphCo_7F/text.inc	SilphCo_7F_Text_Grunt2Defeat	C'est moi qu'on a retrouvé...$
+data/maps/SilphCo_7F/text.inc	SilphCo_7F_Text_Grunt2PostBattle	Pars avant que le Don perde\npatience.$
+data/maps/SilphCo_7F/text.inc	SilphCo_7F_Text_Grunt3Intro	Un bruit dans le couloir... Encore\ncette petite souris!$
+data/maps/SilphCo_7F/text.inc	SilphCo_7F_Text_Grunt3Defeat	Elle a de bons Yo-kai!$
+data/maps/SilphCo_7F/text.inc	SilphCo_7F_Text_Grunt3PostBattle	Courir partout ne suffira pas pour\ntrouver le bureau du Don.$
+data/maps/SilphCo_8F/text.inc	SilphCo_8F_Text_Grunt1Intro	Ton ascension s'arrête ici. Le Don ne\nreçoit personne!$
+data/maps/SilphCo_8F/text.inc	SilphCo_8F_Text_Grunt1Defeat	Mauvais étage pour moi...$
+data/maps/SilphCo_8F/text.inc	SilphCo_8F_Text_Grunt1PostBattle	Fais demi-tour, ou j'appelle du\nrenfort!$
+data/maps/SilphCo_8F/text.inc	SilphCo_8F_Text_Grunt2Intro	Troisième frère de la Mafiamille! Tu\nne nous arrêteras pas tous!$
+data/maps/SilphCo_8F/text.inc	SilphCo_8F_Text_Grunt2Defeat	Mes frères... au secours!$
+data/maps/SilphCo_8F/text.inc	SilphCo_8F_Text_Grunt2PostBattle	Je laisse la suite à mon dernier\nfrère.$
+data/maps/SilphCo_9F/text.inc	SilphCo_9F_Text_Grunt1Intro	Tes Yo-kai ont l'air de t'adorer.\nVoyons s'ils savent aussi te défendre.$
+data/maps/SilphCo_9F/text.inc	SilphCo_9F_Text_Grunt1Defeat	Ça répond à ma question.$
+data/maps/SilphCo_9F/text.inc	SilphCo_9F_Text_Grunt1PostBattle	Si j'avais commencé à ton âge...\nEnfin, on ne refait pas les comptes\ldu passé.$
+data/maps/SilphCo_9F/text.inc	SilphCo_9F_Text_Grunt2Intro	Le dernier des quatre frères! Je vais\nlaver l'honneur de la famille!$
+data/maps/SilphCo_9F/text.inc	SilphCo_9F_Text_Grunt2Defeat	Quatre frères... quatre défaites?$
+data/maps/SilphCo_9F/text.inc	SilphCo_9F_Text_Grunt2PostBattle	On devrait peut-être s'entraîner\nensemble avant de recommencer.$
+data/maps/SilphCo_10F/text.inc	SilphCo_10F_Text_GruntIntro	Bienvenue à cet étage! La famille\nt'offre un combat d'accueil.$
+data/maps/SilphCo_10F/text.inc	SilphCo_10F_Text_GruntDefeat	L'accueil est fermé!$
+data/maps/SilphCo_10F/text.inc	SilphCo_10F_Text_GruntPostBattle	La salle du conseil est encore un\nétage plus haut.$
+data/maps/SilphCo_11F/text.inc	SilphCo_11F_Text_Grunt1Intro	Halte! Tu as rendez-vous avec Don\nMorléone?$
+data/maps/SilphCo_11F/text.inc	SilphCo_11F_Text_Grunt1Defeat	Rendez-vous confirmé...$
+data/maps/SilphCo_11F/text.inc	SilphCo_11F_Text_Grunt1PostBattle	Le Don choisit des Yo-kai robustes.\nPrépare-toi bien.$
+data/maps/SilphCo_11F/text.inc	SilphCo_11F_Text_Grunt2Intro	Pas un pas de plus! Tu approches du\nbureau du Don!$
+data/maps/SilphCo_11F/text.inc	SilphCo_11F_Text_Grunt2Defeat	Doucement, s'il te plaît!$
+data/maps/SilphCo_11F/text.inc	SilphCo_11F_Text_Grunt2PostBattle	Tu veux toujours rencontrer le\npatron après tout ça?$
+data/maps/SilphCo_11F/text.inc	SilphCo_11F_Text_GiovanniIntro	Ah, {PLAYER}. Nous nous retrouvons.\pLe président et moi négocions un\naccord important.\pLa Mafiamille n'aime pas les\ninterruptions. Tu vas devoir me\lconvaincre de t'écouter.$
+data/maps/SilphCo_11F/text.inc	SilphCo_11F_Text_GiovanniDefeat	Encore une affaire qui tourne mal!$
+data/maps/SilphCo_11F/text.inc	SilphCo_11F_Text_GiovanniPostBattle	Tu nous coûtes la Sylphe. Je\nn'oublierai pas ce nom: {PLAYER}.\pMais un revers ne suffit pas à faire\ntomber la famille.\pNous nous reverrons.$
+data/maps/SilphCo_2F/text.inc	SilphCo_2F_Text_ConnorDefeat	Comment as-tu compris que j'aidais la\nMafiamille?$
+data/maps/SilphCo_2F/text.inc	SilphCo_2F_Text_ConnorPostBattle	La Sylphe paie mon salaire. La\nMafiamille paie mes extras.$
+data/maps/SilphCo_2F/text.inc	Text_ThunderWaveTeach	Au secours! Ne me faites pas de mal!\pOh! Tu n'es pas avec la Mafiamille.\nExcuse-moi...\pPour me faire pardonner, je peux\nenseigner Cage Éclair à un de tes\lYo-kai.$
+data/maps/SilphCo_3F/text.inc	SilphCo_3F_Text_JoseIntro	La Mafiamille reconnaît mes talents\nmieux que la Sylphe!$
+data/maps/SilphCo_3F/text.inc	SilphCo_3F_Text_JosePostBattle	Ils m'avaient promis de me laisser\nétudier les Yo-kai si je les aidais...$
+data/maps/SilphCo_4F/text.inc	SilphCo_4F_Text_TeamRocketIsGone	La Mafiamille est partie? Je peux\nenfin sortir de ma cachette!$
+data/maps/SilphCo_5F/text.inc	SilphCo_5F_Text_RocketsInUproarAboutIntruder	La Mafiamille s'agite à cause d'un\nintrus. C'est toi, n'est-ce pas?$
+data/maps/SilphCo_5F/text.inc	SilphCo_5F_Text_YoureOurHeroThankYou	Les sbires sont partis! Tu nous as\nsauvés, merci!$
+data/maps/SilphCo_5F/text.inc	SilphCo_5F_Text_RocketBossLookingForStrongMons	Le chef des occupants cherchait des\nYo-kai puissants.\pJ'espère que notre président ne lui a\nrien cédé...$
+data/maps/SilphCo_6F/text.inc	SilphCo_6F_Text_RocketsTookOverBuilding	La Mafiamille a pris le contrôle du\nbâtiment!$
+data/maps/SilphCo_6F/text.inc	SilphCo_6F_Text_RocketsTryingToConquerWorld	La Mafiamille veut étendre son\ninfluence grâce aux Yo-kai.$
+data/maps/SilphCo_6F/text.inc	SilphCo_6F_Text_RocketsRanAwayBecauseOfYou	Les sbires ont fui grâce à toi!$
+data/maps/SilphCo_6F/text.inc	SilphCo_6F_Text_TargetedSilphForOurMonProducts	Nos produits pour Yo-kai ont dû\nattirer la convoitise du Don.$
+data/maps/SilphCo_6F/text.inc	SilphCo_6F_Text_TaylorIntro	Ce président m'a envoyé dans une\nfiliale perdue!\pAprès ça, on s'étonne que certains\npréfèrent aider la Mafiamille!$
+data/maps/SilphCo_7F/text.inc	SilphCo_7F_Text_HaveMonForSavingUs	Tu n'es pas de la Mafiamille? Tu\nviens nous sauver?\pMerci! Je voudrais te confier ce\nYo-kai.$
+data/maps/SilphCo_7F/text.inc	SilphCo_7F_Text_RocketBossWentToBoardroom	Don Morléone est dans la salle du\nconseil!\pJe m'inquiète pour notre président.$
+data/maps/SilphCo_7F/text.inc	SilphCo_7F_Text_RocketsAfterMasterBall	La Mafiamille voulait la Master Ball,\ncapable de capturer n'importe quel\lYo-kai.$
+data/maps/SilphCo_7F/text.inc	SilphCo_7F_Text_CanceledMasterBallProject	Nous avons suspendu le projet Master\nBall à cause de la Mafiamille.$
+data/maps/SilphCo_7F/text.inc	SilphCo_7F_Text_BadIfTeamRocketTookOver	Si la Mafiamille contrôlait nos\nrecherches et nos Yo-kai... Je\lpréfère ne pas y penser.$
+data/maps/SilphCo_7F/text.inc	SilphCo_7F_Text_WowYouChasedOffTeamRocket	Tu as chassé la Mafiamille sans aide?\nIncroyable!$
+data/maps/SilphCo_7F/text.inc	SilphCo_7F_Text_RivalIntro	{RIVAL}: Ha! Je savais que tu finirais\npar venir!\pLa Mafiamille t'a retardé? Pas mon\nproblème!\pJe t'ai aperçu à Safrania. Voyons si\ntu as progressé!$
+data/maps/SilphCo_7F/text.inc	SilphCo_7F_Text_RivalDefeat	Ah, mince! Tu es prêt à affronter le\nDon!$
+data/maps/SilphCo_8F/text.inc	SilphCo_8F_Text_ToRocketBossMonsAreTools	Don Morléone fait peur aux employés.\pPour lui, les Yo-kai sont des outils\nau service de ses affaires.\pIl ne doit pas prendre notre\nentreprise!$
+data/maps/CeruleanCity_House2/text.inc	CeruleanCity_House2_Text_RocketsStoleTMForDig	Ces voleurs de la Mafiamille ont\nsaccagé ma maison!\pIls ont pris ma CT Tunnel. Je l'avais\nachetée pour mon Yo-kai!$
+data/maps/CeruleanCity_House2/text.inc	CeruleanCity_House2_Text_TeamRocketTryingToDigIntoNoGood	La Mafiamille prépare encore un\nmauvais coup, c'est certain.$
+data/maps/CeruleanCity_House2/text.inc	CeruleanCity_House2_Text_TeamRocketLeftWayOut	Les cambrioleurs ont laissé un\npassage vers l'extérieur!$
+data/maps/PewterCity_PokemonCenter_1F/text.inc	PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone	Quoi? La Mafiamille au Mont Sélénite?\pUn instant... Je suis au téléphone!$
+data/maps/Route4_PokemonCenter_1F/text.inc	Route4_PokemonCenter_1F_Text_TeamRocketAttacksCerulean	La Mafiamille s'en prend aux habitants\nd'Azuria.\pOn entend parler de ses méfaits tous\nles jours.$
+data/maps/MtMoon_1F/text.inc	MtMoon_1F_Text_KentPostBattle	Je les ai vus! Ces types travaillent\npour la Mafiamille!$
+data/maps/LavenderTown/text.inc	LavenderTown_Text_GhostsAppearedInTower	Des fantômes hantent la tour. On dit\nque les captures de la Mafiamille y\lont troublé les esprits.$
+data/maps/SSAnne_1F_Room1/text.inc	SSAnne_1F_Room1_Text_ImAGlobalPoliceAgent	Chut! Je suis un agent de la Police\nInternationale.\pJe suis la piste de la Mafiamille.\nElle prépare quelque chose.$
+data/maps/Route15/text.inc	Route15_Text_ErnestPostBattle	Vivre hors des règles, ça me plaît.\nLes affaires de la Mafiamille, par\lexemple...$
+data/maps/VictoryRoad_3F/text.inc	VictoryRoad_3F_Text_GeorgePostBattle	C'est donc toi qui as battu Don\nMorléone, le chef de la Mafiamille?$
+data/maps/LavenderTown_House1/text.inc	LavenderTown_House1_Text_RocketsKilledCubonesMother	La Mafiamille ne recule devant rien.\nLa mère d'OSSELAIT a été tuée en\ltentant de leur échapper.$
+data/maps/LavenderTown_PokemonCenter_1F/text.inc	LavenderTown_PokemonCenter_1F_Text_RocketsDoAnythingForMoney	La Mafiamille ferait n'importe quoi\npour de l'argent. Même les Yo-kai ne\lsont pas à l'abri.$
+data/maps/LavenderTown_PokemonCenter_1F/text.inc	LavenderTown_PokemonCenter_1F_Text_CubonesMotherKilledByRockets	J'ai vu la mère d'OSSELAIT tenter de\nfuir la Mafiamille. Elle n'a pas\lsurvécu...$
+data/maps/SaffronCity_PokemonCenter_1F/text.inc	SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame	La réputation de la Sylphe a attiré\nla Mafiamille. Ses inventions valent\lune fortune.$
+data/maps/SaffronCity_PokemonCenter_1F/text.inc	SaffronCity_PokemonCenter_1F_Text_GreatIfEliteFourCameBeatRockets	Si le Conseil 4 venait chasser la\nMafiamille... On pourrait enfin\lsouffler!$
+data/maps/SaffronCity_PokemonCenter_1F/text.inc	SaffronCity_PokemonCenter_1F_Text_TeamRocketTookOff	Les hommes du Don sont partis! On\npeut de nouveau sortir sans crainte.$
+data/maps/VermilionCity_House3/text.inc	VermilionCity_House3_Text_DearPippiLetter	Chère Pippi, j'espère te revoir\nbientôt.\pLa Mafiamille fait des siennes à\nSafrania. Carmin sur Mer semble\lencore tranquille.$
+data/maps/VermilionCity_Mart/text.inc	VermilionCity_Mart_Text_TeamRocketAreWickedPeople	La Mafiamille fait du trafic de\nYo-kai rares.\pElle abandonne ceux qui ne lui\nrapportent rien. Ces gens ne voient\lque le profit.$
+data/maps/SixIsland_DottedHole_SapphireRoom/text.inc	SixIsland_DottedHole_SapphireRoom_Text_SellToTeamRocketTellPassword	Je savais que le Saphir était ici. Je\nvais le vendre à la Mafiamille!\pNe me regarde pas comme ça! Si tu\nle veux, va le reprendre à\ll'entrepôt.\pJe connais un des mots de passe:\n“Yes, nah, CHANSEY.”\pVoilà! Ne m'en veux pas trop.$

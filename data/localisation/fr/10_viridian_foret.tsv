@@ -19,11 +19,11 @@ data/maps/ViridianCity/text.inc	ViridianCity_Text_MovesLimitedByPP	ASTUCE DRESSE
 data/maps/ViridianCity/text.inc	ViridianCity_Text_CitySign	VIRIDIAN CITY\nLe paradis toujours vert$
 data/maps/ViridianCity/text.inc	ViridianCity_Text_GymSign	ARÈNE YO-KAI DE VIRIDIAN CITY$
 data/maps/ViridianCity/text.inc	ViridianCity_Text_GymDoorsAreLocked	Les portes de l'Arène\nde VIRIDIAN sont verrouillées…$
-data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GiovanniIntro	Mouahahaha!\nBienvenue dans mon repaire!\pIl le restera jusqu'à ce que\nla Team Rocket retrouve sa gloire.\pMais tu m'as encore retrouvé.\nTrès bien.\lCette fois, je ne retiendrai rien!\pAffronte une fois encore\nGiovanni, le plus grand Dresseur!{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GiovanniIntro	Te voilà encore. Ici, je suis aussi\nle Champion de Jadielle.\pCette fois, aucune affaire à\ndiscuter: tu viens chercher mon\lBadge.\pDon Morléone ne fait pas de cadeau.\nMontre-moi ce que vaut ton équipe!{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$
 data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GiovanniDefeat	Ha!\nQuel combat intense.\lTu as gagné!\pVoici le Badge Terre,\npreuve de ta victoire!\n{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}$
-data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GiovanniPostBattle	Après une telle défaite,\nje ne peux plus regarder\lmes hommes en face.\pJ'ai trahi leur confiance.\nLa Team Rocket est dissoute!\pQuant à moi, je vais\nreprendre l'entraînement.\pPeut-être nous reverrons-nous.\nAdieu!$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GiovanniPostBattle	Tu as gagné. Je tiens parole.\pJ'arrête nos opérations à Kanto. Mes\nhommes devront se retirer.\pLa famille ne disparaît pas pour\nautant. Quant à moi, j'ai un\lentraînement à reprendre.$
 data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis	Le Badge Terre te fait obéir\ndes Yo-kai de tous les niveaux.\pIl prouve ta maîtrise\ndu dressage des Yo-kai.\pTu peux maintenant\ndéfier la Ligue Yo-kai.\pPrends aussi cette CT.\pUn cadeau pour\nton défi de la Ligue.$
-data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_ReceivedTM26FromGiovanni	{PLAYER} reçoit la CT26\nde Giovanni.$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_ReceivedTM26FromGiovanni	{PLAYER} reçoit la CT26 de Don\nMorléone.$
 data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_ExplainTM26	La CT26 contient Séisme.\pCette attaque puissante\nprovoque une terrible secousse.\pJe l'ai créée quand je dirigeais\ncette Arène, il y a bien longtemps…$
 data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_YouDoNotHaveSpace	Tu n'as pas de place pour ça!$
 data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_YujiIntro	Héhé!\nTu dois commencer\là manquer de souffle!$
@@ -51,9 +51,9 @@ data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_SamuelIntro	L'Arène d
 data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_SamuelDefeat	J'ai été battu?$
 data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_SamuelPostBattle	Il faut vaincre notre Champion\npour atteindre la Ligue Yo-kai!$
 data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GymGuyAdvice	Salut!\nFutur Maître!\pMême moi, j'ignore l'identité\ndu Champion de VIRIDIAN.\pMais une chose est sûre:\nc'est le plus redoutable\lde tous les Champions.\pLes Dresseurs de cette Arène\nont des Yo-kai coriaces.\lPrépare une équipe variée!$
-data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GymGuyPostVictory	Incroyable! Giovanni était\nle Champion de VIRIDIAN?$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GymGuyPostVictory	Don Morléone était le Champion de\nJadielle?\pEt tu l'as battu! Quel exploit!$
 data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GymStatue	ARÈNE YO-KAI DE VIRIDIAN\nCHAMPION: ?\pDRESSEURS VICTORIEUX:\n{RIVAL}$
-data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GymStatuePlayerWon	ARÈNE YO-KAI DE VIRIDIAN\nCHAMPION: GIOVANNI\pDRESSEURS VICTORIEUX:\n{RIVAL}, {PLAYER}$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GymStatuePlayerWon	ARÈNE YO-KAI DE JADIELLE\nCHAMPION: DON MORLÉONE\pDRESSEURS VICTORIEUX:\n{RIVAL}, {PLAYER}$
 data/maps/ViridianCity_House/text.inc	ViridianCity_House_Text_MyDaddyLovesMonsToo	Mon papa aussi adore les Yo-kai.$
 data/maps/ViridianCity_House/text.inc	ViridianCity_House_Text_NicknamingIsFun	Trouver des surnoms est amusant,\nmais ce n'est pas toujours facile.\pLes noms originaux sont sympas,\nmais les plus simples restent en tête.$
 data/maps/ViridianCity_House/text.inc	ViridianCity_House_Text_Speary	TUKKI: Kappa!$

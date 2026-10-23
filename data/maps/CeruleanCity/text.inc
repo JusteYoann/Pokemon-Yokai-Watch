@@ -18,16 +18,16 @@ CeruleanCity_Text_RivalVictory::
     .string "Normal que je gagne!\nJe suis un génie!$"
 
 CeruleanCity_Text_GruntIntro::
-    .string "Hé! Dégage!\nCe n'est pas ton jardin!\pHein? Moi?\pJe suis un simple passant!\nTu ne me crois pas?{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$"
+    .string "Hé! Ce passage est privé!\pMoi, un cambrioleur? La Mafiamille\npréfère parler de récupération.{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$"
 
 CeruleanCity_Text_GruntDefeat::
-    .string "SBIRE: Arrête! Je me rends!\nJe vais partir sans histoires!$"
+    .string "D'accord, je rends la CT! On évite\nde prévenir le Don?$"
 
 CeruleanCity_Text_OkayIllReturnStolenTM::
     .string "Bon, d'accord.\nJe rends la CT que j'ai volée.$"
 
 CeruleanCity_Text_RecoveredTM28FromGrunt::
-    .string "{PLAYER} récupère la CT28\ndérobée par le Sbire Rocket.$"
+    .string "{PLAYER} récupère la CT28 dérobée\npar le sbire Mafiamille.$"
 
 CeruleanCity_Text_BetterGetMovingBye::
     .string "Il vaut mieux que je file!\nSalut!$"
@@ -48,7 +48,7 @@ CeruleanCity_Text_PokemonEncyclopediaAmusing::
     .string "Tu prépares une encyclopédie\nsur les Yo-kai? Ça a l'air amusant!$"
 
 CeruleanCity_Text_PeopleHereWereRobbed::
-    .string "Les habitants de cette maison\nont été cambriolés.\pLa Team Rocket est certainement\nresponsable de ce crime!\pMême la police a du mal\nà mettre fin à ses agissements.$"
+    .string "Cette maison a été cambriolée. La\nMafiamille est impliquée.\pMême la police peine à arrêter ses\nhommes.$"
 
 CeruleanCity_Text_SlowbroUseSonicboom::
     .string "Scatcheur!\nUtilise Sonicboom!$"

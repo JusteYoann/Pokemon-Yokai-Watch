@@ -4,9 +4,7 @@ CeladonCity_GameCorner_Text_CanExchangeCoinsNextDoor::
     .string "fabulous prizes next door.$"
 
 CeladonCity_GameCorner_Text_WelcomeBuySomeCoins::
-    .string "Welcome to ROCKET GAME CORNER!\p"
-    .string "Do you need some game COINS?\n"
-    .string "Would you like to buy some?$"
+    .string "Bienvenue au Casino Mafiamille!\pIl vous faut des Jetons?\nSouhaitez-vous en acheter?$"
 
 CeladonCity_GameCorner_Text_ComePlaySometime::
     .string "No?\n"
@@ -28,9 +26,7 @@ CeladonCity_GameCorner_Text_HereAreYourCoins::
     .string "Here are your COINS!$"
 
 CeladonCity_GameCorner_Text_RumoredTeamRocketRunsThisPlace::
-    .string "Keep this quiet.\p"
-    .string "It's rumored that this place is run\n"
-    .string "by TEAM ROCKET.$"
+    .string "Parle moins fort. Ce Casino\nappartiendrait à la Mafiamille.\pJe préfère ne pas savoir où vont les\nrecettes.$"
 
 CeladonCity_GameCorner_Text_ThinkMachinesHaveDifferentOdds::
     .string "I think these machines have\n"
@@ -107,21 +103,16 @@ CeladonCity_GameCorner_Text_WatchReelsClosely::
     .string "closely.$"
 
 CeladonCity_GameCorner_Text_GruntIntro::
-    .string "I'm guarding this poster!\n"
-    .string "Go away, or else!$"
+    .string "Cette affiche? Propriété privée. Tu\nas cinq secondes pour t'éloigner.$"
 
 CeladonCity_GameCorner_Text_GruntDefeat::
-    .string "Dang!$"
+    .string "Le Don va me passer un savon!$"
 
 CeladonCity_GameCorner_Text_GruntPostBattle::
-    .string "The TEAM ROCKET HIDEOUT might\n"
-    .string "be discovered!\p"
-    .string "I better tell BOSS!$"
+    .string "Le passage est découvert! Je dois\nprévenir Don Morléone!$"
 
 CeladonCity_GameCorner_Text_SwitchBehindPosterPushIt::
-    .string "Hey!\p"
-    .string "A switch behind the poster!?\n"
-    .string "Let's push it!$"
+    .string "Un interrupteur derrière l'affiche!\pAppuyons dessus!$"
 
 CeladonCity_GameCorner_Text_CoinCaseIsRequired::
     .string "A COIN CASE is required…$"

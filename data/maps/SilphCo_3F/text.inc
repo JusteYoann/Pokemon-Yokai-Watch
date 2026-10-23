@@ -7,26 +7,22 @@ SilphCo_3F_Text_YouAndYourMonsSavedUs::
     .string "You and your Yo-kai saved us!$"
 
 SilphCo_3F_Text_GruntIntro::
-    .string "Quit messing with us, kid!$"
+    .string "Arrête de déranger la famille, tu\nveux?$"
 
 SilphCo_3F_Text_GruntDefeat::
-    .string "I give up!$"
+    .string "Je prends ma pause!$"
 
 SilphCo_3F_Text_GruntPostBattle::
-    .string "A hint? You can open doors with\n"
-    .string "a CARD KEY!$"
+    .string "Une Carte Magnétique ouvre les\nportes. Voilà, tu sais tout.\lMaintenant, laisse-moi.$"
 
 SilphCo_3F_Text_JoseIntro::
-    .string "I support TEAM ROCKET more than\n"
-    .string "I support SILPH CO.!$"
+    .string "La Mafiamille reconnaît mes talents\nmieux que la Sylphe!$"
 
 SilphCo_3F_Text_JoseDefeat::
     .string "You really got me!$"
 
 SilphCo_3F_Text_JosePostBattle::
-    .string "Humph…\p"
-    .string "TEAM ROCKET said that if I helped\n"
-    .string "them, they'd let me study Yo-kai.$"
+    .string "Ils m'avaient promis de me laisser\nétudier les Yo-kai si je les aidais...$"
 
 SilphCo_3F_Text_FloorSign::
     .string "SILPH CO. HEAD OFFICE\n"

@@ -32,7 +32,7 @@ CeladonCity_Text_GetLostOrIllPunchYou::
     .string "Get lost, or I'll punch you.$"
 
 CeladonCity_Text_KeepOutOfTeamRocketsWay::
-    .string "Keep out of TEAM ROCKET's way!$"
+    .string "La Mafiamille règle ses affaires.\nCircule!$"
 
 CeladonCity_Text_ExplainXAccuracyDireHit::
     .string "TRAINER TIPS\p"
@@ -72,8 +72,7 @@ CeladonCity_Text_PrizeExchangeSign::
     .string "PRIZE EXCHANGE$"
 
 CeladonCity_Text_GameCornerSign::
-    .string "ROCKET GAME CORNER\n"
-    .string "The playground for grown-ups!$"
+    .string "CASINO MAFIAMILLE\nLe rendez-vous des grandes mises!$"
 
 CeladonCity_Text_ScaldedTongueOnTea::
     .string "Aaaagh, ow…\n"

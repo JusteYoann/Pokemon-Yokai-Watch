@@ -1,56 +1,36 @@
 RocketHideout_B4F_Text_GiovanniIntro::
-    .string "So! I must say, I am impressed you\n"
-    .string "got here.\p"
-    .string "TEAM ROCKET captures Yo-kai from\n"
-    .string "around the world.\p"
-    .string "They're important tools for keeping\n"
-    .string "our criminal enterprise going.\p"
-    .string "I am the leader, GIOVANNI!\p"
-    .string "For your insolence, you will feel a\n"
-    .string "world of pain!$"
+    .string "On entre rarement ici sans mon\naccord. Tu as de l'audace.\pJe suis Don Morléone. La Mafiamille\nsait tirer profit du talent des\lYo-kai.\pMais ton intervention nous coûte cher.\nVoyons comment tu comptes régler ta\ldette.$"
 
 RocketHideout_B4F_Text_GiovanniDefeat::
-    .string "WHAT!\n"
-    .string "This can't be!$"
+    .string "Tu as remporté cette manche.$"
 
 RocketHideout_B4F_Text_GiovanniPostBattle::
-    .string "I see that you raise Yo-kai with\n"
-    .string "utmost care.\p"
-    .string "A child like you would never\n"
-    .string "understand what I hope to achieve.\p"
-    .string "I shall step aside this time!\p"
-    .string "I hope we meet again…$"
+    .string "Tu prends soin de tes Yo-kai. Cela se\nvoit.\pJe vais me retirer pour cette fois.\nN'y vois pas une invitation à\lrecommencer.$"
 
 RocketHideout_B4F_Text_Grunt2Intro::
-    .string "I know you!\n"
-    .string "You ruined our plans at MT. MOON!$"
+    .string "Je te reconnais! Tu as saboté nos\nfouilles au Mont Sélénite!$"
 
 RocketHideout_B4F_Text_Grunt2Defeat::
-    .string "Burned again!$"
+    .string "Encore toi!$"
 
 RocketHideout_B4F_Text_Grunt2PostBattle::
-    .string "Do you have something against TEAM\n"
-    .string "ROCKET?$"
+    .string "Tu t'es donné pour mission de ruiner\nles affaires de la famille?$"
 
 RocketHideout_B4F_Text_Grunt3Intro::
-    .string "How can you not see the beauty of\n"
-    .string "our evil?$"
+    .string "Un costume propre, des comptes bien\ntenus... et une équipe redoutable!$"
 
 RocketHideout_B4F_Text_Grunt3Defeat::
-    .string "Ayaya!$"
+    .string "Le costume, lui, est intact.$"
 
 RocketHideout_B4F_Text_Grunt3PostBattle::
-    .string "BOSS!\n"
-    .string "I'm sorry I failed you!$"
+    .string "Don Morléone, pardonnez-moi. Je n'ai\npas tenu la porte.$"
 
 RocketHideout_B4F_Text_Grunt1Intro::
-    .string "The elevator doesn't work?\n"
-    .string "Who has the LIFT KEY?$"
+    .string "L'ascenseur est bloqué? Qui avait la\nclé, déjà?$"
 
 RocketHideout_B4F_Text_Grunt1Defeat::
-    .string "No!$"
+    .string "Ah... c'était moi.$"
 
 RocketHideout_B4F_Text_Grunt1PostBattle::
-    .string "Oh, no!\n"
-    .string "I dropped the LIFT KEY!$"
+    .string "Oh non! J'ai fait tomber la Clé\nAscenseur!$"
 

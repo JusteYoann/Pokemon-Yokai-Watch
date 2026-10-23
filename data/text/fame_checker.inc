@@ -535,13 +535,7 @@ gFameCheckerFlavorText_MrFuji0:: @ 0x81AFB0C
 	.string "orphaned Yo-kai.$"
 
 gFameCheckerFlavorText_MrFuji1:: @ 0x81AFB76
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}This old guy marched right up to\n"
-	.string "our HIDEOUT.\p"
-	.string "Then, he starts ranting about how\n"
-	.string "TEAM ROCKET's abusing Yo-kai.\p"
-	.string "So, we're just talking it over as\n"
-	.string "adults.$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Son caractère?\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Ce vieil homme est venu dénoncer les\ncaptures de la Mafiamille. Il n'a pas\lpeur de nous tenir tête.$"
 
 gFameCheckerFlavorText_MrFuji2:: @ 0x81AFC38
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
@@ -571,44 +565,22 @@ gFameCheckerFlavorText_MrFuji5:: @ 0x81AFDC4
 	.string "and respected in LAVENDER TOWN.$"
 
 gFameCheckerFlavorText_Giovanni0:: @ 0x81AFE68
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}TEAM ROCKET captures Yo-kai from\n"
-	.string "around the world.\p"
-	.string "They're important tools for keeping\n"
-	.string "our criminal enterprise going.\p"
-	.string "I am the leader, GIOVANNI!$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Son activité?\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Je suis Don Morléone. La Mafiamille\nsait tirer profit du talent des\lYo-kai.$"
 
 gFameCheckerFlavorText_Giovanni1:: @ 0x81AFF23
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of Yo-kai?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Those thugs that took over our\n"
-	.string "building…\p"
-	.string "Their BOSS said he was looking for\n"
-	.string "strong Yo-kai.$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Ses Yo-kai préférés?\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Le chef des occupants cherchait des\nYo-kai puissants pour ses affaires.$"
 
 gFameCheckerFlavorText_Giovanni2:: @ 0x81AFFA8
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}TEAM ROCKET's BOSS is terribly\n"
-	.string "cruel!\p"
-	.string "To him, Yo-kai are just tools to\n"
-	.string "be used.$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Son caractère?\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Don Morléone intimide tout le monde.\nIl traite les Yo-kai comme des outils\lde travail.$"
 
 gFameCheckerFlavorText_Giovanni3:: @ 0x81B0022
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Welcome to my hideout!\p"
-	.string "It shall be so until I can restore\n"
-	.string "TEAM ROCKET to its former glory.$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Son activité?\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Je suis également le Champion de\nJadielle. Mon Badge se mérite sur le\lterrain.$"
 
 gFameCheckerFlavorText_Giovanni4:: @ 0x81B00A6
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Blow me away! GIOVANNI was the\n"
-	.string "GYM LEADER of VIRIDIAN?$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Son activité?\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Don Morléone était le Champion de\nJadielle? Et tu l'as battu!$"
 
 gFameCheckerFlavorText_Giovanni5:: @ 0x81B0106
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}You… You're not GIOVANNI's kid,\n"
-	.string "are you?\p"
-	.string "No, that can't be right.\n"
-	.string "GIOVANNI's kid has red hair.$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Ses relations?\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Tu serais un envoyé du Don? Non, il\nne choisirait pas la personne qui a\lruiné notre marché.$"
 
 
 gFameCheckerPersonName_ProfOak:: @ 0x81B0188
@@ -787,15 +759,10 @@ gFameCheckerPersonQuote_MrFuji:: @ 0x81B0B0E
 	.string "happiness of all Yo-kai?$"
 
 gFameCheckerPersonName_Giovanni:: @ 0x81B0BA6
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}GIOVANNI$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Don Morléone$"
 
 gFameCheckerPersonQuote_Giovanni:: @ 0x81B0BB5
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: GIOVANNI\n"
-	.string "To: {PLAYER}\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}There is nothing that I wish to say\n"
-	.string "to you.\p"
-	.string "I will concentrate solely on\n"
-	.string "bettering myself, and none other.$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Don Morléone\nPour: {PLAYER}\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Notre dernière affaire est réglée. Je\nvais me consacrer à mon entraînement.$"
 
 gFameCheckerFlavorTextOriginLocation_ProfOak0:: @ 0x81B0C45
 	.string "PALLET TOWN$"
@@ -1068,22 +1035,22 @@ gFameCheckerFlavorTextOriginLocation_MrFuji5::
 	.string "CINNABAR ISLAND$"
 
 gFameCheckerFlavorTextOriginLocation_Giovanni0::
-	.string "ROCKET HIDEOUT$"
+	.string "REPAIRE$"
 
 gFameCheckerFlavorTextOriginLocation_Giovanni1::
-	.string "SILPH CO.$"
+	.string "SYLPHE SARL$"
 
 gFameCheckerFlavorTextOriginLocation_Giovanni2::
-	.string "SILPH CO.$"
+	.string "SYLPHE SARL$"
 
 gFameCheckerFlavorTextOriginLocation_Giovanni3::
-	.string "VIRIDIAN GYM$"
+	.string "JADIELLE$"
 
 gFameCheckerFlavorTextOriginLocation_Giovanni4::
-	.string "VIRIDIAN GYM$"
+	.string "JADIELLE$"
 
 gFameCheckerFlavorTextOriginLocation_Giovanni5::
-	.string "ROCKET WAREHOUSE$"
+	.string "ENTREPÔT$"
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak0::
 	.string "SIGN$"
@@ -1341,7 +1308,7 @@ gFameCheckerFlavorTextOriginObjectName_MrFuji0::
 	.string "LITTLE GIRL$"
 
 gFameCheckerFlavorTextOriginObjectName_MrFuji1::
-	.string "TEAM ROCKET$"
+	.string "MAFIAMILLE$"
 
 gFameCheckerFlavorTextOriginObjectName_MrFuji2::
 	.string "MAGAZINE$"
@@ -1356,19 +1323,19 @@ gFameCheckerFlavorTextOriginObjectName_MrFuji5::
 	.string "Yo-kai JOURNAL$"
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni0::
-	.string "GIOVANNI$"
+	.string "Don Morléone$"
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni1::
-	.string "SCIENTIST$"
+	.string "SCIENTIFIQUE$"
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni2::
-	.string "SCIENTIST$"
+	.string "SCIENTIFIQUE$"
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni3::
-	.string "GIOVANNI$"
+	.string "Don Morléone$"
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni4::
-	.string "MAN$"
+	.string "HABITANT$"
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni5::
 	.string "GIDEON$"

@@ -42,48 +42,31 @@ SilphCo_11F_Text_ThanksForRescuingUs::
     .string "are indebted to you.$"
 
 SilphCo_11F_Text_GiovanniIntro::
-    .string "Ah, {PLAYER}!\n"
-    .string "So we meet again!\p"
-    .string "The PRESIDENT and I are discussing\n"
-    .string "a vital business proposition.\p"
-    .string "Keep your nose out of grown-up\n"
-    .string "matters…\p"
-    .string "Or, experience a world of pain!$"
+    .string "Ah, {PLAYER}. Nous nous retrouvons.\pLe président et moi négocions un\naccord important.\pLa Mafiamille n'aime pas les\ninterruptions. Tu vas devoir me\lconvaincre de t'écouter.$"
 
 SilphCo_11F_Text_GiovanniDefeat::
-    .string "Arrgh!!\n"
-    .string "I lost again!?$"
+    .string "Encore une affaire qui tourne mal!$"
 
 SilphCo_11F_Text_GiovanniPostBattle::
-    .string "Blast it all!\n"
-    .string "You ruined our plans for SILPH!\p"
-    .string "But, TEAM ROCKET will never fall!\p"
-    .string "{PLAYER}! Never forget that all\n"
-    .string "Yo-kai exist for TEAM ROCKET!\p"
-    .string "I must go, but I shall return!$"
+    .string "Tu nous coûtes la Sylphe. Je\nn'oublierai pas ce nom: {PLAYER}.\pMais un revers ne suffit pas à faire\ntomber la famille.\pNous nous reverrons.$"
 
 SilphCo_11F_Text_Grunt2Intro::
-    .string "Stop right there!\n"
-    .string "Don't you move!$"
+    .string "Pas un pas de plus! Tu approches du\nbureau du Don!$"
 
 SilphCo_11F_Text_Grunt2Defeat::
-    .string "Don't…\n"
-    .string "Please!$"
+    .string "Doucement, s'il te plaît!$"
 
 SilphCo_11F_Text_Grunt2PostBattle::
-    .string "So, you want to see my BOSS?$"
+    .string "Tu veux toujours rencontrer le\npatron après tout ça?$"
 
 SilphCo_11F_Text_Grunt1Intro::
-    .string "Halt! Do you have an appointment\n"
-    .string "with my BOSS?$"
+    .string "Halte! Tu as rendez-vous avec Don\nMorléone?$"
 
 SilphCo_11F_Text_Grunt1Defeat::
-    .string "Gaah!\n"
-    .string "Demolished!$"
+    .string "Rendez-vous confirmé...$"
 
 SilphCo_11F_Text_Grunt1PostBattle::
-    .string "Watch your step…\n"
-    .string "My BOSS likes his Yo-kai tough!$"
+    .string "Le Don choisit des Yo-kai robustes.\nPrépare-toi bien.$"
 
 SilphCo_11F_Text_MonitorHasMonsOnIt::
     .string "The monitor has Yo-kai on it!$"

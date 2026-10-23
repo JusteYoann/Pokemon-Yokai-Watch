@@ -1,5 +1,5 @@
 PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone::
-    .string "Quoi!?\pLa Team Rocket à MT. MOON?\nHein?\pJe suis au téléphone!\nOuste!$"
+    .string "Quoi? La Mafiamille au Mont Sélénite?\pUn instant... Je suis au téléphone!$"
 
 PewterCity_PokemonCenter_1F_Text_Jigglypuff::
     .string "SABRI: Puu pupuu!$"

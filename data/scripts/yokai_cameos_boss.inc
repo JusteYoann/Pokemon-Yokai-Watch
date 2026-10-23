@@ -184,7 +184,7 @@ YokaiCameo_DonMorleoneBagFull::
 	msgbox YokaiCameo_DonMorleoneTextBagFull
 	goto EventScript_ReleaseEnd
 YokaiCameo_DonMorleoneTextOffer::
-	.string "Don Morleone: On m’a parlé de toi.\n"
+	.string "Don Morléone: On m’a parlé de toi.\n"
 	.string "Un duel pour régler nos affaires?$"
 YokaiCameo_DonMorleoneTextStart::
 	.string "Que personne ne nous dérange!$"

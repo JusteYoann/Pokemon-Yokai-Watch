@@ -1,15 +1,11 @@
 SixIsland_OutcastIsland_Text_RocketIntro::
-    .string "There're no rare Yo-kai around\n"
-    .string "these parts! Not a one!\p"
-    .string "That burns me up, man.\n"
-    .string "I'll take it out on you!$"
+    .string "Pas un Yo-kai rare à l'horizon! La\nfamille attend des résultats.\pUn combat me changera les idées!$"
 
 SixIsland_OutcastIsland_Text_RocketDefeat::
-    .string "…Huh?$"
+    .string "Même ma pause est ratée...$"
 
 SixIsland_OutcastIsland_Text_RocketPostBattle::
-    .string "So listen, you haven't seen any\n"
-    .string "rare Yo-kai, have you?$"
+    .string "Si tu vois un Yo-kai rare, tu me\npréviens? On peut rêver.$"
 
 SixIsland_OutcastIsland_Text_TylorIntro::
     .string "I'm having no luck at all.\n"

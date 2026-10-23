@@ -2,11 +2,7 @@ LavenderTown_House1_Text_Cubone::
     .string "CUBONE: Kyarugoo!$"
 
 LavenderTown_House1_Text_RocketsKilledCubonesMother::
-    .string "Those horrible ROCKETS!\n"
-    .string "They deserve no mercy!\p"
-    .string "That poor CUBONE's mother…\p"
-    .string "It was killed trying to escape from\n"
-    .string "TEAM ROCKET.$"
+    .string "La Mafiamille ne recule devant rien.\nLa mère d'OSSELAIT a été tuée en\ltentant de leur échapper.$"
 
 LavenderTown_House1_Text_GhostOfPokemonTowerIsGone::
     .string "The ghost of Yo-kai TOWER is\n"

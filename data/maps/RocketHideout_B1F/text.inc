@@ -1,53 +1,45 @@
 RocketHideout_B1F_Text_Grunt1Intro::
-    .string "Who are you?\n"
-    .string "How did you get here?$"
+    .string "Qui t'a donné l'adresse? La famille ne\nreçoit pas les visiteurs!$"
 
 RocketHideout_B1F_Text_Grunt1Defeat::
-    .string "Oww!\n"
-    .string "Beaten!$"
+    .string "Tu n'es pas un simple visiteur!$"
 
 RocketHideout_B1F_Text_Grunt1PostBattle::
-    .string "Blast it… You're dissing TEAM\n"
-    .string "ROCKET, aren't you?$"
+    .string "Entrer ici sans invitation... Tu\ncherches vraiment des ennuis.$"
 
 RocketHideout_B1F_Text_Grunt2Intro::
-    .string "You broke into TEAM ROCKET's\n"
-    .string "operation? What nerve!$"
+    .string "Tu as forcé l'entrée de notre\nrepaire? Quelle audace!$"
 
 RocketHideout_B1F_Text_Grunt2Defeat::
-    .string "Boom!$"
+    .string "Je n'ai rien pu faire!$"
 
 RocketHideout_B1F_Text_Grunt2PostBattle::
-    .string "You're not going to get away with\n"
-    .string "this, brat!$"
+    .string "Le Don n'aime pas qu'on dérange ses\naffaires.$"
 
 RocketHideout_B1F_Text_Grunt3Intro::
-    .string "Intruder alert!$"
+    .string "Intrus repéré! La relève attendra!$"
 
 RocketHideout_B1F_Text_Grunt3Defeat::
-    .string "I can't do it!$"
+    .string "Relève... demandée!$"
 
 RocketHideout_B1F_Text_Grunt3PostBattle::
-    .string "SILPH SCOPE? Humph!\n"
-    .string "I don't know where it is.$"
+    .string "Le Scope Sylphe? Je ne sais pas où\nle patron l'a rangé.$"
 
 RocketHideout_B1F_Text_Grunt4Intro::
-    .string "Why did you come here?$"
+    .string "Une visite guidée? Tu t'es trompé\nd'endroit.$"
 
 RocketHideout_B1F_Text_Grunt4Defeat::
-    .string "This won't do!$"
+    .string "Bon... tu gagnes.$"
 
 RocketHideout_B1F_Text_Grunt4PostBattle::
-    .string "Okay, I'll talk…\n"
-    .string "Take the elevator to see my BOSS.$"
+    .string "Pour rencontrer le Don, prends\nl'ascenseur. Moi, je reste ici.$"
 
 RocketHideout_B1F_Text_Grunt5Intro::
-    .string "Are you lost, you little mouse?$"
+    .string "Une petite souris dans le\ngarde-manger de la famille?$"
 
 RocketHideout_B1F_Text_Grunt5Defeat::
-    .string "Why…?$"
+    .string "La souris mord!$"
 
 RocketHideout_B1F_Text_Grunt5PostBattle::
-    .string "Uh-oh, that ruckus somehow opened\n"
-    .string "the door!$"
+    .string "Tout ce vacarme a ouvert la porte!\nJ'étais censé la surveiller...$"
 

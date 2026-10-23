@@ -1,17 +1,17 @@
 ViridianCity_Gym_Text_GiovanniIntro::
-    .string "Mouahahaha!\nBienvenue dans mon repaire!\pIl le restera jusqu'à ce que\nla Team Rocket retrouve sa gloire.\pMais tu m'as encore retrouvé.\nTrès bien.\lCette fois, je ne retiendrai rien!\pAffronte une fois encore\nGiovanni, le plus grand Dresseur!{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$"
+    .string "Te voilà encore. Ici, je suis aussi\nle Champion de Jadielle.\pCette fois, aucune affaire à\ndiscuter: tu viens chercher mon\lBadge.\pDon Morléone ne fait pas de cadeau.\nMontre-moi ce que vaut ton équipe!{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$"
 
 ViridianCity_Gym_Text_GiovanniDefeat::
     .string "Ha!\nQuel combat intense.\lTu as gagné!\pVoici le Badge Terre,\npreuve de ta victoire!\n{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}$"
 
 ViridianCity_Gym_Text_GiovanniPostBattle::
-    .string "Après une telle défaite,\nje ne peux plus regarder\lmes hommes en face.\pJ'ai trahi leur confiance.\nLa Team Rocket est dissoute!\pQuant à moi, je vais\nreprendre l'entraînement.\pPeut-être nous reverrons-nous.\nAdieu!$"
+    .string "Tu as gagné. Je tiens parole.\pJ'arrête nos opérations à Kanto. Mes\nhommes devront se retirer.\pLa famille ne disparaît pas pour\nautant. Quant à moi, j'ai un\lentraînement à reprendre.$"
 
 ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis::
     .string "Le Badge Terre te fait obéir\ndes Yo-kai de tous les niveaux.\pIl prouve ta maîtrise\ndu dressage des Yo-kai.\pTu peux maintenant\ndéfier la Ligue Yo-kai.\pPrends aussi cette CT.\pUn cadeau pour\nton défi de la Ligue.$"
 
 ViridianCity_Gym_Text_ReceivedTM26FromGiovanni::
-    .string "{PLAYER} reçoit la CT26\nde Giovanni.$"
+    .string "{PLAYER} reçoit la CT26 de Don\nMorléone.$"
 
 ViridianCity_Gym_Text_ExplainTM26::
     .string "La CT26 contient Séisme.\pCette attaque puissante\nprovoque une terrible secousse.\pJe l'ai créée quand je dirigeais\ncette Arène, il y a bien longtemps…$"
@@ -95,11 +95,11 @@ ViridianCity_Gym_Text_GymGuyAdvice::
     .string "Salut!\nFutur Maître!\pMême moi, j'ignore l'identité\ndu Champion de VIRIDIAN.\pMais une chose est sûre:\nc'est le plus redoutable\lde tous les Champions.\pLes Dresseurs de cette Arène\nont des Yo-kai coriaces.\lPrépare une équipe variée!$"
 
 ViridianCity_Gym_Text_GymGuyPostVictory::
-    .string "Incroyable! Giovanni était\nle Champion de VIRIDIAN?$"
+    .string "Don Morléone était le Champion de\nJadielle?\pEt tu l'as battu! Quel exploit!$"
 
 ViridianCity_Gym_Text_GymStatue::
     .string "ARÈNE YO-KAI DE VIRIDIAN\nCHAMPION: ?\pDRESSEURS VICTORIEUX:\n{RIVAL}$"
 
 ViridianCity_Gym_Text_GymStatuePlayerWon::
-    .string "ARÈNE YO-KAI DE VIRIDIAN\nCHAMPION: GIOVANNI\pDRESSEURS VICTORIEUX:\n{RIVAL}, {PLAYER}$"
+    .string "ARÈNE YO-KAI DE JADIELLE\nCHAMPION: DON MORLÉONE\pDRESSEURS VICTORIEUX:\n{RIVAL}, {PLAYER}$"
 

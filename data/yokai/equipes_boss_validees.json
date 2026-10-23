@@ -903,92 +903,98 @@
     ]
   },
   "TRAINER_TEAM_ROCKET_ADMIN": {
-    "source_heading": "Admin Rocket n°1 — premier cadre — VALIDÉ DÉFINITIVEMENT",
+    "source_heading": "Mafiamille: composition explicitly approved after audit",
     "items": [],
     "party": [
       {
-        "species": "SPECIES_CHANSEY",
+        "species": "SPECIES_NINETALES",
         "level": 52,
         "moves": [
-          "MOVE_FAINT_ATTACK",
-          "MOVE_TAUNT",
-          "MOVE_SCREECH",
-          "MOVE_CONFUSE_RAY"
+          "MOVE_TORMENT",
+          "MOVE_KNOCK_OFF",
+          "MOVE_CRUNCH",
+          "MOVE_SUBSTITUTE"
         ],
-        "ability": "ABILITY_INSOMNIA",
         "ability_num": 0,
-        "held_item": "ITEM_NONE"
+        "held_item": "ITEM_NONE",
+        "iv": 200,
+        "ability": "ABILITY_INTIMIDATE"
       },
       {
         "species": "SPECIES_ARTICUNO",
         "level": 53,
         "moves": [
           "MOVE_BODY_SLAM",
-          "MOVE_QUICK_ATTACK",
-          "MOVE_SWORDS_DANCE",
+          "MOVE_PROTECT",
+          "MOVE_REST",
           "MOVE_DOUBLE_EDGE"
         ],
-        "ability": "ABILITY_IMMUNITY",
         "ability_num": 0,
-        "held_item": "ITEM_NONE"
+        "held_item": "ITEM_NONE",
+        "iv": 200,
+        "ability": "ABILITY_IMMUNITY"
       },
       {
         "species": "SPECIES_PARAS",
         "level": 54,
         "moves": [
-          "MOVE_POISON_FANG",
-          "MOVE_LEECH_LIFE",
-          "MOVE_QUICK_ATTACK",
-          "MOVE_SCREECH"
+          "MOVE_SLUDGE_BOMB",
+          "MOVE_AGILITY",
+          "MOVE_SWORDS_DANCE",
+          "MOVE_MEGAHORN"
         ],
-        "ability": "ABILITY_SWARM",
         "ability_num": 0,
-        "held_item": "ITEM_NONE"
+        "held_item": "ITEM_NONE",
+        "iv": 200,
+        "ability": "ABILITY_SWARM"
       }
     ]
   },
   "TRAINER_TEAM_ROCKET_ADMIN_2": {
-    "source_heading": "Admin Rocket n°2 — second cadre — VALIDÉ DÉFINITIVEMENT",
+    "source_heading": "Mafiamille: composition explicitly approved after audit",
     "items": [],
     "party": [
       {
         "species": "SPECIES_DITTO",
         "level": 53,
         "moves": [
-          "MOVE_CRUNCH",
+          "MOVE_SCREECH",
           "MOVE_BULK_UP",
-          "MOVE_BODY_SLAM",
+          "MOVE_CRUNCH",
           "MOVE_ROCK_SLIDE"
         ],
-        "ability": "ABILITY_INTIMIDATE",
         "ability_num": 0,
-        "held_item": "ITEM_NONE"
+        "held_item": "ITEM_NONE",
+        "iv": 200,
+        "ability": "ABILITY_INTIMIDATE"
       },
       {
-        "species": "SPECIES_PARASECT",
+        "species": "SPECIES_GROWLITHE",
         "level": 54,
         "moves": [
-          "MOVE_BODY_SLAM",
-          "MOVE_SLASH",
-          "MOVE_BRICK_BREAK",
-          "MOVE_SCREECH"
+          "MOVE_TAUNT",
+          "MOVE_AERIAL_ACE",
+          "MOVE_FEATHER_DANCE",
+          "MOVE_SHADOW_BALL"
         ],
-        "ability": "ABILITY_TRACE",
         "ability_num": 0,
-        "held_item": "ITEM_NONE"
+        "held_item": "ITEM_NONE",
+        "iv": 200,
+        "ability": "ABILITY_INTIMIDATE"
       },
       {
-        "species": "SPECIES_EEVEE",
+        "species": "SPECIES_IVYSAUR",
         "level": 55,
         "moves": [
-          "MOVE_METAL_CLAW",
-          "MOVE_BRICK_BREAK",
           "MOVE_CRUNCH",
-          "MOVE_SCREECH"
+          "MOVE_SWORDS_DANCE",
+          "MOVE_FLAMETHROWER",
+          "MOVE_DOUBLE_EDGE"
         ],
-        "ability": "ABILITY_BATTLE_ARMOR",
         "ability_num": 0,
-        "held_item": "ITEM_NONE"
+        "held_item": "ITEM_NONE",
+        "iv": 200,
+        "ability": "ABILITY_GUTS"
       }
     ]
   },

@@ -1,9 +1,5 @@
 SilphCo_7F_Text_HaveMonForSavingUs::
-    .string "Oh! Hi! You're not a ROCKET!\n"
-    .string "You came to save us?\l"
-    .string "Why, thank you!\p"
-    .string "I want you to have this Yo-kai\n"
-    .string "for saving us.$"
+    .string "Tu n'es pas de la Mafiamille? Tu\nviens nous sauver?\pMerci! Je voudrais te confier ce\nYo-kai.$"
 
 SilphCo_7F_Text_ObtainedLaprasFromEmployee::
     .string "{PLAYER} obtained a LAPRAS from\n"
@@ -20,10 +16,7 @@ SilphCo_7F_Text_ExplainLapras::
     .string "It'll give you a lift across water!$"
 
 SilphCo_7F_Text_RocketBossWentToBoardroom::
-    .string "TEAM ROCKET's BOSS went to the\n"
-    .string "boardroom!\p"
-    .string "Is our PRESIDENT okay?\n"
-    .string "I'm worried.$"
+    .string "Don Morléone est dans la salle du\nconseil!\pJe m'inquiète pour notre président.$"
 
 SilphCo_7F_Text_OhNo::
     .string "あ‥　もう　もてないぞ$"
@@ -32,21 +25,16 @@ SilphCo_7F_Text_SavedAtLast::
     .string "たすかったよ　ありがと！$"
 
 SilphCo_7F_Text_RocketsAfterMasterBall::
-    .string "TEAM ROCKET was after the MASTER\n"
-    .string "BALL, which catches any Yo-kai.$"
+    .string "La Mafiamille voulait la Master Ball,\ncapable de capturer n'importe quel\lYo-kai.$"
 
 SilphCo_7F_Text_CanceledMasterBallProject::
-    .string "We canceled the MASTER BALL\n"
-    .string "project because of TEAM ROCKET.$"
+    .string "Nous avons suspendu le projet Master\nBall à cause de la Mafiamille.$"
 
 SilphCo_7F_Text_BadIfTeamRocketTookOver::
-    .string "It would be bad if TEAM ROCKET\n"
-    .string "took over SILPH or our Yo-kai.$"
+    .string "Si la Mafiamille contrôlait nos\nrecherches et nos Yo-kai... Je\lpréfère ne pas y penser.$"
 
 SilphCo_7F_Text_WowYouChasedOffTeamRocket::
-    .string "Wow!\p"
-    .string "You chased off TEAM ROCKET all by\n"
-    .string "yourself?$"
+    .string "Tu as chassé la Mafiamille sans aide?\nIncroyable!$"
 
 SilphCo_7F_Text_ReallyDangerousHere::
     .string "You!\n"
@@ -58,15 +46,13 @@ SilphCo_7F_Text_ThankYouSoMuch::
     .string "Thank you so much!$"
 
 SilphCo_7F_Text_Grunt3Intro::
-    .string "Uh-oh!\n"
-    .string "I smell a little mouse!$"
+    .string "Un bruit dans le couloir... Encore\ncette petite souris!$"
 
 SilphCo_7F_Text_Grunt3Defeat::
-    .string "Lights out!$"
+    .string "Elle a de bons Yo-kai!$"
 
 SilphCo_7F_Text_Grunt3PostBattle::
-    .string "You won't find my BOSS by just\n"
-    .string "scurrying around!$"
+    .string "Courir partout ne suffira pas pour\ntrouver le bureau du Don.$"
 
 SilphCo_7F_Text_JoshuaIntro::
     .string "Heheh!\p"
@@ -80,44 +66,31 @@ SilphCo_7F_Text_JoshuaPostBattle::
     .string "skilled TRAINER!$"
 
 SilphCo_7F_Text_Grunt1Intro::
-    .string "I am one of the four ROCKET\n"
-    .string "BROTHERS!$"
+    .string "Un des quatre frères de la famille,\npour te servir... enfin, te stopper!$"
 
 SilphCo_7F_Text_Grunt1Defeat::
-    .string "Aack!\n"
-    .string "Brothers, I lost!$"
+    .string "Les frères! J'ai perdu!$"
 
 SilphCo_7F_Text_Grunt1PostBattle::
-    .string "Doesn't matter.\n"
-    .string "My brothers will repay the favor!$"
+    .string "Mes frères finiront ce travail. Nous\nsommes solidaires.$"
 
 SilphCo_7F_Text_Grunt2Intro::
-    .string "A child intruder?\n"
-    .string "That must be you!$"
+    .string "L'enfant qu'on recherche? Tu viens de\nte livrer tout seul!$"
 
 SilphCo_7F_Text_Grunt2Defeat::
-    .string "Fine!\n"
-    .string "I lost!$"
+    .string "C'est moi qu'on a retrouvé...$"
 
 SilphCo_7F_Text_Grunt2PostBattle::
-    .string "Go on home before my BOSS gets\n"
-    .string "ticked off!$"
+    .string "Pars avant que le Don perde\npatience.$"
 
 SilphCo_7F_Text_RivalWhatKeptYou::
     .string "{RIVAL}: What kept you, {PLAYER}?$"
 
 SilphCo_7F_Text_RivalIntro::
-    .string "{RIVAL}: Hahaha! I thought you'd\n"
-    .string "turn up if I waited here!\p"
-    .string "I guess TEAM ROCKET slowed you\n"
-    .string "down! Not that I care!\p"
-    .string "I saw you in SAFFRON, so I decided\n"
-    .string "to see if you got better!$"
+    .string "{RIVAL}: Ha! Je savais que tu finirais\npar venir!\pLa Mafiamille t'a retardé? Pas mon\nproblème!\pJe t'ai aperçu à Safrania. Voyons si\ntu as progressé!$"
 
 SilphCo_7F_Text_RivalDefeat::
-    .string "Oh, man!\n"
-    .string "So, you are ready for BOSS\l"
-    .string "ROCKET!$"
+    .string "Ah, mince! Tu es prêt à affronter le\nDon!$"
 
 SilphCo_7F_Text_RivalVictory::
     .string "{RIVAL}“おまえなあ‥\p"
