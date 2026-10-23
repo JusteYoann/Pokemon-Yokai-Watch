@@ -1,0 +1,112 @@
+{
+  "branch": "feature/champions-yokai-watch",
+  "base": "d32774305",
+  "implementation_commit": "21eb877ab2bbddbe5b0520882c9456d679942e4c",
+  "roms": {
+    "public": {
+      "bytes": 16777216,
+      "sha256": "d2c04bdadd4ba53eca7c8e2f42be8908dcdc3a93805561bf3373dd72bc87cd6f",
+      "remaining_rom_bytes": 16777216,
+      "ewram": 261132,
+      "remaining_ewram_bytes": 1012,
+      "iwram": 29824,
+      "remaining_iwram_bytes": 2944,
+      "reports": {
+        "public/TEST_CHAMPIONS_MGBA.json": {
+          "passed": true,
+          "checks": 11,
+          "lines": null
+        },
+        "public/EFFETS_MGBA.json": {
+          "passed": true,
+          "checks": 12,
+          "lines": null
+        },
+        "public/VARIANTES_DIALOGUES_MGBA.json": {
+          "passed": true,
+          "checks": 4,
+          "lines": null
+        },
+        "public/DIALOGUES_MGBA.json": {
+          "passed": true,
+          "checks": 0,
+          "lines": 840
+        },
+        "regressions/lavanville/public/TEST_MGBA.json": {
+          "passed": true,
+          "checks": 28,
+          "lines": null
+        },
+        "regressions/finale/public/FINALE_NORMALE_MGBA.json": {
+          "passed": true,
+          "checks": 0,
+          "lines": null
+        }
+      },
+      "champion_battles": 10,
+      "champion_checks": 11,
+      "extra_checks": 12,
+      "gender_dialogue_cases": 4,
+      "chapter_checks": 28,
+      "native_text_lines": 840,
+      "finale_hof_continue": true
+    },
+    "prive": {
+      "bytes": 31674139,
+      "sha256": "7e6ac59ad79a6930bf772b8bc7debb5189d93e29f80d36d0504e52840887871f",
+      "remaining_rom_bytes": 1880293,
+      "ewram": 261132,
+      "remaining_ewram_bytes": 1012,
+      "iwram": 29888,
+      "remaining_iwram_bytes": 2880,
+      "reports": {
+        "prive/TEST_CHAMPIONS_MGBA.json": {
+          "passed": true,
+          "checks": 11,
+          "lines": null
+        },
+        "prive/EFFETS_MGBA.json": {
+          "passed": true,
+          "checks": 12,
+          "lines": null
+        },
+        "prive/VARIANTES_DIALOGUES_MGBA.json": {
+          "passed": true,
+          "checks": 4,
+          "lines": null
+        },
+        "prive/DIALOGUES_MGBA.json": {
+          "passed": true,
+          "checks": 0,
+          "lines": 840
+        },
+        "regressions/lavanville/prive/TEST_MGBA.json": {
+          "passed": true,
+          "checks": 28,
+          "lines": null
+        },
+        "regressions/finale/prive/FINALE_NORMALE_MGBA.json": {
+          "passed": true,
+          "checks": 0,
+          "lines": null
+        }
+      },
+      "champion_battles": 10,
+      "champion_checks": 11,
+      "extra_checks": 12,
+      "gender_dialogue_cases": 4,
+      "chapter_checks": 28,
+      "native_text_lines": 840,
+      "finale_hof_continue": true
+    }
+  },
+  "preservation": "PRESERVATION.json",
+  "no_master_merge": true,
+  "limitations": [
+    "Native battles use a boosted QA party; no normal-difficulty complete playthrough or human balance approval is claimed.",
+    "Stat/obedience fixtures explicitly change flags/stats and restore a savestate; they are separate from controller-driven badge victories.",
+    "HM gate source and saved badge IDs are preserved; a manual traversal with every HM is not claimed.",
+    "Native trainer-ball behavior is retained: a blocked Ball can be consumed.",
+    "Original Zombie Night whole-track loop/fade limitation is unchanged."
+  ]
+}

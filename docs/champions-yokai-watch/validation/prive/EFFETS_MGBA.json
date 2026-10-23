@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "rom_sha256": "7e6ac59ad79a6930bf772b8bc7debb5189d93e29f80d36d0504e52840887871f",
+  "scope": "Controlled native fixtures for badge math/obedience, Berenice poses, and\nreal Run/Master Ball refusals in Alyzon's trainer battle. Stat/flag fixtures are\nisolated by a savestate; they do not count as earning badges or natural play.\n",
+  "results": [
+    {
+      "test": "Berenice four native facings: approved PNG tiles, left/right native mirror, no redrawing",
+      "passed": true
+    },
+    {
+      "test": "Badge Roche boosts native physical attack",
+      "passed": true,
+      "without": 17,
+      "with_badge": 18
+    },
+    {
+      "test": "Badge Ame boosts native physical defense",
+      "passed": true,
+      "without": 17,
+      "with_badge": 16
+    },
+    {
+      "test": "Badge Volcan boosts native special attack and defense",
+      "passed": true,
+      "attack": [
+        19,
+        21
+      ],
+      "defense": [
+        19,
+        18
+      ]
+    },
+    {
+      "test": "Badge Foudre native speed bonus changes action order",
+      "passed": true,
+      "without": 1,
+      "with_badge": 0
+    },
+    {
+      "test": "Native traded-mon obedience threshold",
+      "passed": true,
+      "badge": null,
+      "level": 10,
+      "above_level": 30,
+      "above_disobedience_samples": 99
+    },
+    {
+      "test": "Native traded-mon obedience threshold",
+      "passed": true,
+      "badge": 2081,
+      "level": 30,
+      "above_level": 50,
+      "above_disobedience_samples": 81
+    },
+    {
+      "test": "Native traded-mon obedience threshold",
+      "passed": true,
+      "badge": 2083,
+      "level": 50,
+      "above_level": 70,
+      "above_disobedience_samples": 74
+    },
+    {
+      "test": "Native traded-mon obedience threshold",
+      "passed": true,
+      "badge": 2085,
+      "level": 70,
+      "above_level": 90,
+      "above_disobedience_samples": 71
+    },
+    {
+      "test": "Native traded-mon obedience threshold",
+      "passed": true,
+      "badge": 2087,
+      "level": 100,
+      "above_level": null,
+      "above_disobedience_samples": 0
+    },
+    {
+      "test": "Actual Run and Master Ball attempts refused against trainer Colossus; native trainer-ball behavior retained",
+      "passed": true,
+      "native_ball_consumed": true
+    },
+    {
+      "test": "Colossus marker scoped to Alyzon trainer battle and fourth enemy member",
+      "passed": true
+    }
+  ],
+  "failure": null
+}

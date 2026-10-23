@@ -1,0 +1,5890 @@
+{
+  "passed": true,
+  "rom_sha256": "7e6ac59ad79a6930bf772b8bc7debb5189d93e29f80d36d0504e52840887871f",
+  "native_font": 2,
+  "limit_pixels": 208,
+  "lines_checked": 840,
+  "overflows": [],
+  "lines": [
+    {
+      "file": "data/maps/CeladonCity_Condominiums_3F/text.inc",
+      "label": "CeladonCity_Condominiums_3F_Text_IWroteTheStory",
+      "line": 0,
+      "gender": 0,
+      "width": 102
+    },
+    {
+      "file": "data/maps/CeladonCity_Condominiums_3F/text.inc",
+      "label": "CeladonCity_Condominiums_3F_Text_IWroteTheStory",
+      "line": 1,
+      "gender": 0,
+      "width": 101
+    },
+    {
+      "file": "data/maps/CeladonCity_Condominiums_3F/text.inc",
+      "label": "CeladonCity_Condominiums_3F_Text_IWroteTheStory",
+      "line": 2,
+      "gender": 0,
+      "width": 136
+    },
+    {
+      "file": "data/maps/CeladonCity_Condominiums_3F/text.inc",
+      "label": "CeladonCity_Condominiums_3F_Text_IWroteTheStory",
+      "line": 3,
+      "gender": 0,
+      "width": 166
+    },
+    {
+      "file": "data/maps/CeruleanCity/text.inc",
+      "label": "CeruleanCity_Text_GymSign",
+      "line": 0,
+      "gender": 0,
+      "width": 81
+    },
+    {
+      "file": "data/maps/CeruleanCity/text.inc",
+      "label": "CeruleanCity_Text_GymSign",
+      "line": 1,
+      "gender": 0,
+      "width": 30
+    },
+    {
+      "file": "data/maps/CeruleanCity/text.inc",
+      "label": "CeruleanCity_Text_GymSign",
+      "line": 2,
+      "gender": 0,
+      "width": 134
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_MistyIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 122
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_MistyIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 143
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_MistyIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 182
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_MistyIntro",
+      "line": 3,
+      "gender": 0,
+      "width": 106
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_MistyIntro",
+      "line": 4,
+      "gender": 0,
+      "width": 163
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_MistyIntro",
+      "line": 5,
+      "gender": 0,
+      "width": 63
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_MistyIntro",
+      "line": 6,
+      "gender": 0,
+      "width": 197
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_ReceivedTM03FromMisty",
+      "line": 0,
+      "gender": 0,
+      "width": 64
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_ReceivedTM03FromMisty",
+      "line": 1,
+      "gender": 0,
+      "width": 76
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_MistyDefeat",
+      "line": 0,
+      "gender": 0,
+      "width": 106
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_MistyDefeat",
+      "line": 1,
+      "gender": 0,
+      "width": 64
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_MistyDefeat",
+      "line": 2,
+      "gender": 0,
+      "width": 162
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_DianaIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 56
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_DianaIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 175
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_DianaIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 147
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_LuisPostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 108
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_LuisPostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 146
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymGuyAdvice",
+      "line": 0,
+      "gender": 0,
+      "width": 170
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymGuyAdvice",
+      "line": 1,
+      "gender": 0,
+      "width": 119
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymGuyAdvice",
+      "line": 2,
+      "gender": 0,
+      "width": 140
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymGuyAdvice",
+      "line": 3,
+      "gender": 0,
+      "width": 158
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymGuyAdvice",
+      "line": 4,
+      "gender": 0,
+      "width": 123
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_WeMakePrettyGoodTeam",
+      "line": 0,
+      "gender": 0,
+      "width": 105
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_WeMakePrettyGoodTeam",
+      "line": 1,
+      "gender": 0,
+      "width": 124
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_WeMakePrettyGoodTeam",
+      "line": 2,
+      "gender": 0,
+      "width": 60
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_WeMakePrettyGoodTeam",
+      "line": 3,
+      "gender": 0,
+      "width": 146
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymStatue",
+      "line": 0,
+      "gender": 0,
+      "width": 81
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymStatue",
+      "line": 1,
+      "gender": 0,
+      "width": 112
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymStatue",
+      "line": 2,
+      "gender": 0,
+      "width": 131
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymStatue",
+      "line": 3,
+      "gender": 0,
+      "width": 22
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymStatuePlayerWon",
+      "line": 0,
+      "gender": 0,
+      "width": 81
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymStatuePlayerWon",
+      "line": 1,
+      "gender": 0,
+      "width": 112
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymStatuePlayerWon",
+      "line": 2,
+      "gender": 0,
+      "width": 131
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymStatuePlayerWon",
+      "line": 3,
+      "gender": 0,
+      "width": 45
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_NathanIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 130
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_NathanIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 127
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_NathanIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 153
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_NathanIntro",
+      "line": 3,
+      "gender": 0,
+      "width": 191
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_NathanIntro",
+      "line": 4,
+      "gender": 0,
+      "width": 138
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_NathanIntro",
+      "line": 5,
+      "gender": 0,
+      "width": 180
+    },
+    {
+      "file": "data/maps/CinnabarIsland/text.inc",
+      "label": "CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab",
+      "line": 0,
+      "gender": 0,
+      "width": 126
+    },
+    {
+      "file": "data/maps/CinnabarIsland/text.inc",
+      "label": "CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab",
+      "line": 1,
+      "gender": 0,
+      "width": 125
+    },
+    {
+      "file": "data/maps/CinnabarIsland/text.inc",
+      "label": "CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab",
+      "line": 2,
+      "gender": 0,
+      "width": 110
+    },
+    {
+      "file": "data/maps/CinnabarIsland/text.inc",
+      "label": "CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab",
+      "line": 3,
+      "gender": 0,
+      "width": 185
+    },
+    {
+      "file": "data/maps/CinnabarIsland/text.inc",
+      "label": "CinnabarIsland_Text_GymSign",
+      "line": 0,
+      "gender": 0,
+      "width": 117
+    },
+    {
+      "file": "data/maps/CinnabarIsland/text.inc",
+      "label": "CinnabarIsland_Text_GymSign",
+      "line": 1,
+      "gender": 0,
+      "width": 54
+    },
+    {
+      "file": "data/maps/CinnabarIsland/text.inc",
+      "label": "CinnabarIsland_Text_GymSign",
+      "line": 2,
+      "gender": 0,
+      "width": 120
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlaineIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 98
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlaineIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 139
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlaineIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 146
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlaineIntro",
+      "line": 3,
+      "gender": 0,
+      "width": 185
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlaineIntro",
+      "line": 4,
+      "gender": 0,
+      "width": 159
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlaineIntro",
+      "line": 5,
+      "gender": 0,
+      "width": 163
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlaineIntro",
+      "line": 6,
+      "gender": 0,
+      "width": 107
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlaineDefeat",
+      "line": 0,
+      "gender": 0,
+      "width": 146
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlaineDefeat",
+      "line": 1,
+      "gender": 0,
+      "width": 153
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlaineDefeat",
+      "line": 2,
+      "gender": 0,
+      "width": 159
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_FireBlastIsUltimateFireMove",
+      "line": 0,
+      "gender": 0,
+      "width": 167
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_FireBlastIsUltimateFireMove",
+      "line": 1,
+      "gender": 0,
+      "width": 182
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_FireBlastIsUltimateFireMove",
+      "line": 2,
+      "gender": 0,
+      "width": 191
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_ExplainVolcanoBadge",
+      "line": 0,
+      "gender": 0,
+      "width": 138
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_ExplainVolcanoBadge",
+      "line": 1,
+      "gender": 0,
+      "width": 156
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_ExplainVolcanoBadge",
+      "line": 2,
+      "gender": 0,
+      "width": 151
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_ExplainVolcanoBadge",
+      "line": 3,
+      "gender": 0,
+      "width": 112
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_ReceivedTM38FromBlaine",
+      "line": 0,
+      "gender": 0,
+      "width": 88
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_ReceivedTM38FromBlaine",
+      "line": 1,
+      "gender": 0,
+      "width": 76
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlainePostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 179
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlainePostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 143
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlainePostBattle",
+      "line": 2,
+      "gender": 0,
+      "width": 179
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_DerekIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 126
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_DerekIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 179
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_DerekPostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 108
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_DerekPostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 178
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_DerekPostBattle",
+      "line": 2,
+      "gender": 0,
+      "width": 116
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_DerekPostBattle",
+      "line": 3,
+      "gender": 0,
+      "width": 165
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymGuyAdvice",
+      "line": 0,
+      "gender": 0,
+      "width": 194
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymGuyAdvice",
+      "line": 1,
+      "gender": 0,
+      "width": 178
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymGuyAdvice",
+      "line": 2,
+      "gender": 0,
+      "width": 154
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymGuyAdvice",
+      "line": 3,
+      "gender": 0,
+      "width": 138
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymGuyAdvice",
+      "line": 4,
+      "gender": 0,
+      "width": 171
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymStatue",
+      "line": 0,
+      "gender": 0,
+      "width": 117
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymStatue",
+      "line": 1,
+      "gender": 0,
+      "width": 157
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymStatue",
+      "line": 2,
+      "gender": 0,
+      "width": 131
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymStatue",
+      "line": 3,
+      "gender": 0,
+      "width": 22
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymStatuePlayerWon",
+      "line": 0,
+      "gender": 0,
+      "width": 117
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymStatuePlayerWon",
+      "line": 1,
+      "gender": 0,
+      "width": 157
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymStatuePlayerWon",
+      "line": 2,
+      "gender": 0,
+      "width": 131
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymStatuePlayerWon",
+      "line": 3,
+      "gender": 0,
+      "width": 45
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_MichaelIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 109
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_MichaelIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 124
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_MichaelIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 184
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_MichaelIntro",
+      "line": 3,
+      "gender": 0,
+      "width": 108
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_MichaelIntro",
+      "line": 4,
+      "gender": 0,
+      "width": 174
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_MichaelIntro",
+      "line": 5,
+      "gender": 0,
+      "width": 145
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_MichaelIntro",
+      "line": 6,
+      "gender": 0,
+      "width": 145
+    },
+    {
+      "file": "data/maps/MtMoon_1F/text.inc",
+      "label": "MtMoon_1F_Text_BrockHelpsExcavateFossils",
+      "line": 0,
+      "gender": 0,
+      "width": 181
+    },
+    {
+      "file": "data/maps/MtMoon_1F/text.inc",
+      "label": "MtMoon_1F_Text_BrockHelpsExcavateFossils",
+      "line": 1,
+      "gender": 0,
+      "width": 187
+    },
+    {
+      "file": "data/maps/MtMoon_1F/text.inc",
+      "label": "MtMoon_1F_Text_BrockHelpsExcavateFossils",
+      "line": 2,
+      "gender": 0,
+      "width": 196
+    },
+    {
+      "file": "data/maps/MtMoon_1F/text.inc",
+      "label": "MtMoon_1F_Text_BrockHelpsExcavateFossils",
+      "line": 3,
+      "gender": 0,
+      "width": 116
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_BrockOnlySeriousTrainerHere",
+      "line": 0,
+      "gender": 0,
+      "width": 189
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_BrockOnlySeriousTrainerHere",
+      "line": 1,
+      "gender": 0,
+      "width": 164
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_BrockOnlySeriousTrainerHere",
+      "line": 2,
+      "gender": 0,
+      "width": 129
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_BrockOnlySeriousTrainerHere",
+      "line": 3,
+      "gender": 0,
+      "width": 147
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_BrockOnlySeriousTrainerHere",
+      "line": 4,
+      "gender": 0,
+      "width": 128
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_BrockOnlySeriousTrainerHere",
+      "line": 5,
+      "gender": 0,
+      "width": 165
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_BrocksLookingForChallengersFollowMe",
+      "line": 0,
+      "gender": 0,
+      "width": 142
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_BrocksLookingForChallengersFollowMe",
+      "line": 1,
+      "gender": 0,
+      "width": 75
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_BrocksLookingForChallengersFollowMe",
+      "line": 2,
+      "gender": 0,
+      "width": 191
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_GoTakeOnBrock",
+      "line": 0,
+      "gender": 0,
+      "width": 131
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_GoTakeOnBrock",
+      "line": 1,
+      "gender": 0,
+      "width": 90
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_GymSign",
+      "line": 0,
+      "gender": 0,
+      "width": 120
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_GymSign",
+      "line": 1,
+      "gender": 0,
+      "width": 89
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_GymSign",
+      "line": 2,
+      "gender": 0,
+      "width": 181
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_DefeatedBrockYouCanHaveTreasure",
+      "line": 0,
+      "gender": 0,
+      "width": 78
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_DefeatedBrockYouCanHaveTreasure",
+      "line": 1,
+      "gender": 0,
+      "width": 144
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_DefeatedBrockYouCanHaveTreasure",
+      "line": 2,
+      "gender": 0,
+      "width": 97
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_DefeatedBrockYouCanHaveTreasure",
+      "line": 3,
+      "gender": 0,
+      "width": 162
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 144
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 119
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 143
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockIntro",
+      "line": 3,
+      "gender": 0,
+      "width": 68
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockIntro",
+      "line": 4,
+      "gender": 0,
+      "width": 152
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockIntro",
+      "line": 5,
+      "gender": 0,
+      "width": 125
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockIntro",
+      "line": 6,
+      "gender": 0,
+      "width": 165
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockIntro",
+      "line": 7,
+      "gender": 0,
+      "width": 190
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockDefeat",
+      "line": 0,
+      "gender": 0,
+      "width": 118
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockDefeat",
+      "line": 1,
+      "gender": 0,
+      "width": 156
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_ReceivedTM39FromBrock",
+      "line": 0,
+      "gender": 0,
+      "width": 62
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_ReceivedTM39FromBrock",
+      "line": 1,
+      "gender": 0,
+      "width": 76
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockPostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 162
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockPostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 115
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockPostBattle",
+      "line": 2,
+      "gender": 0,
+      "width": 167
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_LiamIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 51
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_LiamIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 178
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_LiamIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 151
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_LiamPostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 62
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_LiamPostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 117
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_GymStatue",
+      "line": 0,
+      "gender": 0,
+      "width": 120
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_GymStatue",
+      "line": 1,
+      "gender": 0,
+      "width": 89
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_GymStatue",
+      "line": 2,
+      "gender": 0,
+      "width": 125
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_GymStatue",
+      "line": 3,
+      "gender": 0,
+      "width": 22
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_GymStatuePlayerWon",
+      "line": 0,
+      "gender": 0,
+      "width": 120
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_GymStatuePlayerWon",
+      "line": 1,
+      "gender": 0,
+      "width": 89
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_GymStatuePlayerWon",
+      "line": 2,
+      "gender": 0,
+      "width": 125
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_GymStatuePlayerWon",
+      "line": 3,
+      "gender": 0,
+      "width": 45
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BadgeRoche",
+      "line": 0,
+      "gender": 0,
+      "width": 50
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BadgeRoche",
+      "line": 1,
+      "gender": 0,
+      "width": 95
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BadgeRoche",
+      "line": 2,
+      "gender": 0,
+      "width": 133
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BadgeRoche",
+      "line": 3,
+      "gender": 0,
+      "width": 78
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BadgeRoche",
+      "line": 4,
+      "gender": 0,
+      "width": 140
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BadgeRoche",
+      "line": 5,
+      "gender": 0,
+      "width": 125
+    },
+    {
+      "file": "data/maps/Route20/text.inc",
+      "label": "Route20_Text_MistyTrainsHere",
+      "line": 0,
+      "gender": 0,
+      "width": 185
+    },
+    {
+      "file": "data/maps/Route20/text.inc",
+      "label": "Route20_Text_MistyTrainsHere",
+      "line": 1,
+      "gender": 0,
+      "width": 182
+    },
+    {
+      "file": "data/maps/Route20/text.inc",
+      "label": "Route20_Text_MistyTrainsHere",
+      "line": 2,
+      "gender": 0,
+      "width": 151
+    },
+    {
+      "file": "data/maps/Route20/text.inc",
+      "label": "Route20_Text_MistyTrainsHere",
+      "line": 3,
+      "gender": 0,
+      "width": 142
+    },
+    {
+      "file": "data/maps/Route25/text.inc",
+      "label": "Route25_Text_MistyHighHopesAboutThisPlace",
+      "line": 0,
+      "gender": 0,
+      "width": 98
+    },
+    {
+      "file": "data/maps/Route25/text.inc",
+      "label": "Route25_Text_MistyHighHopesAboutThisPlace",
+      "line": 1,
+      "gender": 0,
+      "width": 172
+    },
+    {
+      "file": "data/maps/Route25/text.inc",
+      "label": "Route25_Text_MistyHighHopesAboutThisPlace",
+      "line": 2,
+      "gender": 0,
+      "width": 112
+    },
+    {
+      "file": "data/maps/Route25/text.inc",
+      "label": "Route25_Text_MistyHighHopesAboutThisPlace",
+      "line": 3,
+      "gender": 0,
+      "width": 136
+    },
+    {
+      "file": "data/maps/Route4/text.inc",
+      "label": "Route4_Text_PeopleLikeAndRespectBrock",
+      "line": 0,
+      "gender": 0,
+      "width": 114
+    },
+    {
+      "file": "data/maps/Route4/text.inc",
+      "label": "Route4_Text_PeopleLikeAndRespectBrock",
+      "line": 1,
+      "gender": 0,
+      "width": 156
+    },
+    {
+      "file": "data/maps/Route4/text.inc",
+      "label": "Route4_Text_PeopleLikeAndRespectBrock",
+      "line": 2,
+      "gender": 0,
+      "width": 124
+    },
+    {
+      "file": "data/maps/Route4/text.inc",
+      "label": "Route4_Text_PeopleLikeAndRespectBrock",
+      "line": 3,
+      "gender": 0,
+      "width": 145
+    },
+    {
+      "file": "data/maps/Route4/text.inc",
+      "label": "Route4_Text_PeopleLikeAndRespectBrock",
+      "line": 4,
+      "gender": 0,
+      "width": 95
+    },
+    {
+      "file": "data/maps/Route4/text.inc",
+      "label": "Route4_Text_PeopleLikeAndRespectBrock",
+      "line": 5,
+      "gender": 0,
+      "width": 124
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_GymSign",
+      "line": 0,
+      "gender": 0,
+      "width": 102
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_GymSign",
+      "line": 1,
+      "gender": 0,
+      "width": 90
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_GymSign",
+      "line": 2,
+      "gender": 0,
+      "width": 121
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 99
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 87
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 176
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaIntro",
+      "line": 3,
+      "gender": 0,
+      "width": 178
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaIntro",
+      "line": 4,
+      "gender": 0,
+      "width": 164
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaIntro",
+      "line": 5,
+      "gender": 0,
+      "width": 151
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaDefeat",
+      "line": 0,
+      "gender": 0,
+      "width": 157
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaDefeat",
+      "line": 1,
+      "gender": 0,
+      "width": 125
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaDefeat",
+      "line": 2,
+      "gender": 0,
+      "width": 90
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaPostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 120
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaPostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 131
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaPostBattle",
+      "line": 2,
+      "gender": 0,
+      "width": 143
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaPostBattle",
+      "line": 3,
+      "gender": 0,
+      "width": 102
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis",
+      "line": 0,
+      "gender": 0,
+      "width": 145
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis",
+      "line": 1,
+      "gender": 0,
+      "width": 167
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis",
+      "line": 2,
+      "gender": 0,
+      "width": 122
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis",
+      "line": 3,
+      "gender": 0,
+      "width": 170
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ReceivedTM04FromSabrina",
+      "line": 0,
+      "gender": 0,
+      "width": 78
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ReceivedTM04FromSabrina",
+      "line": 1,
+      "gender": 0,
+      "width": 76
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainTM04",
+      "line": 0,
+      "gender": 0,
+      "width": 151
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainTM04",
+      "line": 1,
+      "gender": 0,
+      "width": 179
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainTM04",
+      "line": 2,
+      "gender": 0,
+      "width": 129
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_BagFullOfOtherItems",
+      "line": 0,
+      "gender": 0,
+      "width": 99
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_BagFullOfOtherItems",
+      "line": 1,
+      "gender": 0,
+      "width": 167
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 176
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 171
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaPostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 170
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaPostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 150
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaPostBattle",
+      "line": 2,
+      "gender": 0,
+      "width": 201
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaPostBattle",
+      "line": 3,
+      "gender": 0,
+      "width": 159
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TyronPostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 198
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TyronPostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 98
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_CameronIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 185
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_CameronIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 145
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_CameronIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 151
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_PrestonIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 182
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_PrestonIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 95
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_PrestonIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 176
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_PrestonIntro",
+      "line": 3,
+      "gender": 0,
+      "width": 92
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 0,
+      "gender": 0,
+      "width": 18
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 1,
+      "gender": 0,
+      "width": 112
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 2,
+      "gender": 0,
+      "width": 163
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 3,
+      "gender": 0,
+      "width": 128
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 4,
+      "gender": 0,
+      "width": 171
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 5,
+      "gender": 0,
+      "width": 158
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 6,
+      "gender": 0,
+      "width": 186
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 7,
+      "gender": 0,
+      "width": 121
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatue",
+      "line": 0,
+      "gender": 0,
+      "width": 102
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatue",
+      "line": 1,
+      "gender": 0,
+      "width": 125
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatue",
+      "line": 2,
+      "gender": 0,
+      "width": 131
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatue",
+      "line": 3,
+      "gender": 0,
+      "width": 22
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatuePlayerWon",
+      "line": 0,
+      "gender": 0,
+      "width": 102
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatuePlayerWon",
+      "line": 1,
+      "gender": 0,
+      "width": 125
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatuePlayerWon",
+      "line": 2,
+      "gender": 0,
+      "width": 131
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatuePlayerWon",
+      "line": 3,
+      "gender": 0,
+      "width": 45
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksMyHero",
+      "line": 0,
+      "gender": 0,
+      "width": 91
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksMyHero",
+      "line": 1,
+      "gender": 0,
+      "width": 119
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksMyHero",
+      "line": 2,
+      "gender": 0,
+      "width": 147
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksMyHero",
+      "line": 3,
+      "gender": 0,
+      "width": 94
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksMyHero",
+      "line": 4,
+      "gender": 0,
+      "width": 173
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksMyHero",
+      "line": 5,
+      "gender": 0,
+      "width": 73
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksFanToBitterEnd",
+      "line": 0,
+      "gender": 0,
+      "width": 24
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksFanToBitterEnd",
+      "line": 1,
+      "gender": 0,
+      "width": 24
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksFanToBitterEnd",
+      "line": 2,
+      "gender": 0,
+      "width": 87
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksFanToBitterEnd",
+      "line": 3,
+      "gender": 0,
+      "width": 155
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksFanToBitterEnd",
+      "line": 4,
+      "gender": 0,
+      "width": 178
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksFanToBitterEnd",
+      "line": 5,
+      "gender": 0,
+      "width": 96
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksFanToBitterEnd",
+      "line": 6,
+      "gender": 0,
+      "width": 186
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksLastWordOnCool",
+      "line": 0,
+      "gender": 0,
+      "width": 168
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksLastWordOnCool",
+      "line": 1,
+      "gender": 0,
+      "width": 73
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksLastWordOnCool",
+      "line": 2,
+      "gender": 0,
+      "width": 177
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksLastWordOnCool",
+      "line": 3,
+      "gender": 0,
+      "width": 44
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeSabrina",
+      "line": 0,
+      "gender": 0,
+      "width": 99
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeSabrina",
+      "line": 1,
+      "gender": 0,
+      "width": 155
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeSabrina",
+      "line": 2,
+      "gender": 0,
+      "width": 180
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeSabrina",
+      "line": 3,
+      "gender": 0,
+      "width": 49
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingSabrinasFan",
+      "line": 0,
+      "gender": 0,
+      "width": 181
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingSabrinasFan",
+      "line": 1,
+      "gender": 0,
+      "width": 144
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingSabrinasFan",
+      "line": 2,
+      "gender": 0,
+      "width": 182
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingSabrinasFan",
+      "line": 3,
+      "gender": 0,
+      "width": 85
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingSabrinasFan",
+      "line": 4,
+      "gender": 0,
+      "width": 180
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingSabrinasFan",
+      "line": 5,
+      "gender": 0,
+      "width": 49
+    },
+    {
+      "file": "data/maps/VermilionCity/text.inc",
+      "label": "VermilionCity_Text_GymSign",
+      "line": 0,
+      "gender": 0,
+      "width": 138
+    },
+    {
+      "file": "data/maps/VermilionCity/text.inc",
+      "label": "VermilionCity_Text_GymSign",
+      "line": 1,
+      "gender": 0,
+      "width": 90
+    },
+    {
+      "file": "data/maps/VermilionCity/text.inc",
+      "label": "VermilionCity_Text_GymSign",
+      "line": 2,
+      "gender": 0,
+      "width": 203
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_LtSurgeIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 136
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_LtSurgeIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 135
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_LtSurgeIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 96
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_LtSurgeIntro",
+      "line": 3,
+      "gender": 0,
+      "width": 131
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_LtSurgeIntro",
+      "line": 4,
+      "gender": 0,
+      "width": 155
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_LtSurgeIntro",
+      "line": 5,
+      "gender": 0,
+      "width": 129
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_LtSurgeIntro",
+      "line": 6,
+      "gender": 0,
+      "width": 155
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_ReceivedTM34FromLtSurge",
+      "line": 0,
+      "gender": 0,
+      "width": 66
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_ReceivedTM34FromLtSurge",
+      "line": 1,
+      "gender": 0,
+      "width": 76
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_LtSurgeDefeat",
+      "line": 0,
+      "gender": 0,
+      "width": 111
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_LtSurgeDefeat",
+      "line": 1,
+      "gender": 0,
+      "width": 171
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_LtSurgeDefeat",
+      "line": 2,
+      "gender": 0,
+      "width": 158
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_TuckerIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 118
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_TuckerIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 139
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_TuckerIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 178
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_TuckerPostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 130
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_TuckerPostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 142
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_BailyPostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 122
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_BailyPostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 130
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_DwaynePostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 182
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_DwaynePostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 149
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_DwaynePostBattle",
+      "line": 2,
+      "gender": 0,
+      "width": 188
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymGuyAdvice",
+      "line": 0,
+      "gender": 0,
+      "width": 168
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymGuyAdvice",
+      "line": 1,
+      "gender": 0,
+      "width": 180
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymGuyAdvice",
+      "line": 2,
+      "gender": 0,
+      "width": 143
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymGuyAdvice",
+      "line": 3,
+      "gender": 0,
+      "width": 144
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymGuyAdvice",
+      "line": 4,
+      "gender": 0,
+      "width": 125
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymGuyAdvice",
+      "line": 5,
+      "gender": 0,
+      "width": 125
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymGuyAdvice",
+      "line": 6,
+      "gender": 0,
+      "width": 153
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymStatue",
+      "line": 0,
+      "gender": 0,
+      "width": 138
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymStatue",
+      "line": 1,
+      "gender": 0,
+      "width": 107
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymStatue",
+      "line": 2,
+      "gender": 0,
+      "width": 125
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymStatue",
+      "line": 3,
+      "gender": 0,
+      "width": 22
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymStatuePlayerWon",
+      "line": 0,
+      "gender": 0,
+      "width": 138
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymStatuePlayerWon",
+      "line": 1,
+      "gender": 0,
+      "width": 107
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymStatuePlayerWon",
+      "line": 2,
+      "gender": 0,
+      "width": 125
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymStatuePlayerWon",
+      "line": 3,
+      "gender": 0,
+      "width": 45
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock0",
+      "line": 0,
+      "gender": 0,
+      "width": 118
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock0",
+      "line": 1,
+      "gender": 0,
+      "width": 113
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock1",
+      "line": 0,
+      "gender": 0,
+      "width": 118
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock1",
+      "line": 1,
+      "gender": 0,
+      "width": 94
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock2",
+      "line": 0,
+      "gender": 0,
+      "width": 128
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock2",
+      "line": 1,
+      "gender": 0,
+      "width": 173
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock3",
+      "line": 0,
+      "gender": 0,
+      "width": 140
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock3",
+      "line": 1,
+      "gender": 0,
+      "width": 61
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock4",
+      "line": 0,
+      "gender": 0,
+      "width": 139
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock4",
+      "line": 1,
+      "gender": 0,
+      "width": 143
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock5",
+      "line": 0,
+      "gender": 0,
+      "width": 149
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock5",
+      "line": 1,
+      "gender": 0,
+      "width": 128
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Misty0",
+      "line": 0,
+      "gender": 0,
+      "width": 67
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Misty0",
+      "line": 1,
+      "gender": 0,
+      "width": 89
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Misty1",
+      "line": 0,
+      "gender": 0,
+      "width": 93
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Misty1",
+      "line": 1,
+      "gender": 0,
+      "width": 85
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Misty2",
+      "line": 0,
+      "gender": 0,
+      "width": 121
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Misty3",
+      "line": 0,
+      "gender": 0,
+      "width": 134
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Misty3",
+      "line": 1,
+      "gender": 0,
+      "width": 109
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Misty4",
+      "line": 0,
+      "gender": 0,
+      "width": 140
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Misty4",
+      "line": 1,
+      "gender": 0,
+      "width": 142
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Misty5",
+      "line": 0,
+      "gender": 0,
+      "width": 96
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Misty5",
+      "line": 1,
+      "gender": 0,
+      "width": 111
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge0",
+      "line": 0,
+      "gender": 0,
+      "width": 117
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge0",
+      "line": 1,
+      "gender": 0,
+      "width": 142
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge1",
+      "line": 0,
+      "gender": 0,
+      "width": 93
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge1",
+      "line": 1,
+      "gender": 0,
+      "width": 163
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge2",
+      "line": 0,
+      "gender": 0,
+      "width": 128
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge2",
+      "line": 1,
+      "gender": 0,
+      "width": 94
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge3",
+      "line": 0,
+      "gender": 0,
+      "width": 182
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge3",
+      "line": 1,
+      "gender": 0,
+      "width": 73
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge4",
+      "line": 0,
+      "gender": 0,
+      "width": 125
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge4",
+      "line": 1,
+      "gender": 0,
+      "width": 136
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge5",
+      "line": 0,
+      "gender": 0,
+      "width": 93
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge5",
+      "line": 1,
+      "gender": 0,
+      "width": 147
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina0",
+      "line": 0,
+      "gender": 0,
+      "width": 119
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina0",
+      "line": 1,
+      "gender": 0,
+      "width": 108
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina1",
+      "line": 0,
+      "gender": 0,
+      "width": 109
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina1",
+      "line": 1,
+      "gender": 0,
+      "width": 131
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina2",
+      "line": 0,
+      "gender": 0,
+      "width": 165
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina2",
+      "line": 1,
+      "gender": 0,
+      "width": 90
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina3",
+      "line": 0,
+      "gender": 0,
+      "width": 97
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina3",
+      "line": 1,
+      "gender": 0,
+      "width": 146
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina4",
+      "line": 0,
+      "gender": 0,
+      "width": 126
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina4",
+      "line": 1,
+      "gender": 0,
+      "width": 165
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina5",
+      "line": 0,
+      "gender": 0,
+      "width": 133
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina5",
+      "line": 1,
+      "gender": 0,
+      "width": 118
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Blaine0",
+      "line": 0,
+      "gender": 0,
+      "width": 91
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Blaine0",
+      "line": 1,
+      "gender": 0,
+      "width": 123
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Blaine1",
+      "line": 0,
+      "gender": 0,
+      "width": 107
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Blaine1",
+      "line": 1,
+      "gender": 0,
+      "width": 113
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Blaine2",
+      "line": 0,
+      "gender": 0,
+      "width": 172
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Blaine3",
+      "line": 0,
+      "gender": 0,
+      "width": 155
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Blaine3",
+      "line": 1,
+      "gender": 0,
+      "width": 181
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Blaine4",
+      "line": 0,
+      "gender": 0,
+      "width": 141
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Blaine4",
+      "line": 1,
+      "gender": 0,
+      "width": 185
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Blaine5",
+      "line": 0,
+      "gender": 0,
+      "width": 132
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Blaine5",
+      "line": 1,
+      "gender": 0,
+      "width": 121
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_MrFuji4",
+      "line": 0,
+      "gender": 0,
+      "width": 104
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_MrFuji4",
+      "line": 1,
+      "gender": 0,
+      "width": 166
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_MrFuji4",
+      "line": 2,
+      "gender": 0,
+      "width": 52
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_MrFuji4",
+      "line": 3,
+      "gender": 0,
+      "width": 154
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_MrFuji4",
+      "line": 4,
+      "gender": 0,
+      "width": 130
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_Brock",
+      "line": 0,
+      "gender": 0,
+      "width": 30
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Brock",
+      "line": 0,
+      "gender": 0,
+      "width": 143
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Brock",
+      "line": 1,
+      "gender": 0,
+      "width": 68
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Brock",
+      "line": 2,
+      "gender": 0,
+      "width": 90
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Brock",
+      "line": 3,
+      "gender": 0,
+      "width": 140
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_Misty",
+      "line": 0,
+      "gender": 0,
+      "width": 30
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Misty",
+      "line": 0,
+      "gender": 0,
+      "width": 143
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Misty",
+      "line": 1,
+      "gender": 0,
+      "width": 124
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Misty",
+      "line": 2,
+      "gender": 0,
+      "width": 158
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_LtSurge",
+      "line": 0,
+      "gender": 0,
+      "width": 90
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_LtSurge",
+      "line": 0,
+      "gender": 0,
+      "width": 82
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_LtSurge",
+      "line": 1,
+      "gender": 0,
+      "width": 186
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_LtSurge",
+      "line": 2,
+      "gender": 0,
+      "width": 191
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_Sabrina",
+      "line": 0,
+      "gender": 0,
+      "width": 90
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Sabrina",
+      "line": 0,
+      "gender": 0,
+      "width": 139
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Sabrina",
+      "line": 1,
+      "gender": 0,
+      "width": 124
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Sabrina",
+      "line": 2,
+      "gender": 0,
+      "width": 164
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_Blaine",
+      "line": 0,
+      "gender": 0,
+      "width": 54
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Blaine",
+      "line": 0,
+      "gender": 0,
+      "width": 179
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Blaine",
+      "line": 1,
+      "gender": 0,
+      "width": 150
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Blaine",
+      "line": 2,
+      "gender": 0,
+      "width": 124
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorTextOriginObjectName_Brock1",
+      "line": 0,
+      "gender": 0,
+      "width": 30
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorTextOriginObjectName_Misty1",
+      "line": 0,
+      "gender": 0,
+      "width": 30
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorTextOriginObjectName_LtSurge1",
+      "line": 0,
+      "gender": 0,
+      "width": 36
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorTextOriginObjectName_Sabrina2",
+      "line": 0,
+      "gender": 0,
+      "width": 48
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorTextOriginObjectName_Sabrina3",
+      "line": 0,
+      "gender": 0,
+      "width": 48
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorTextOriginObjectName_Blaine1",
+      "line": 0,
+      "gender": 0,
+      "width": 54
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureBrock",
+      "line": 0,
+      "gender": 0,
+      "width": 81
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureBrock",
+      "line": 1,
+      "gender": 0,
+      "width": 156
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureBrock",
+      "line": 2,
+      "gender": 0,
+      "width": 78
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureBrock",
+      "line": 3,
+      "gender": 0,
+      "width": 196
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureBrock",
+      "line": 4,
+      "gender": 0,
+      "width": 172
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureMisty",
+      "line": 0,
+      "gender": 0,
+      "width": 81
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureMisty",
+      "line": 1,
+      "gender": 0,
+      "width": 168
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureMisty",
+      "line": 2,
+      "gender": 0,
+      "width": 78
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureMisty",
+      "line": 3,
+      "gender": 0,
+      "width": 181
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureMisty",
+      "line": 4,
+      "gender": 0,
+      "width": 105
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureLtSurge",
+      "line": 0,
+      "gender": 0,
+      "width": 81
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureLtSurge",
+      "line": 1,
+      "gender": 0,
+      "width": 174
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureLtSurge",
+      "line": 2,
+      "gender": 0,
+      "width": 84
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureLtSurge",
+      "line": 3,
+      "gender": 0,
+      "width": 173
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureLtSurge",
+      "line": 4,
+      "gender": 0,
+      "width": 166
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureLtSurge",
+      "line": 5,
+      "gender": 0,
+      "width": 185
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureLtSurge",
+      "line": 6,
+      "gender": 0,
+      "width": 163
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureSabrina",
+      "line": 0,
+      "gender": 0,
+      "width": 81
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureSabrina",
+      "line": 1,
+      "gender": 0,
+      "width": 162
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureSabrina",
+      "line": 2,
+      "gender": 0,
+      "width": 96
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureSabrina",
+      "line": 3,
+      "gender": 0,
+      "width": 163
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureSabrina",
+      "line": 4,
+      "gender": 0,
+      "width": 151
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureSabrina",
+      "line": 5,
+      "gender": 0,
+      "width": 169
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureBlaine",
+      "line": 0,
+      "gender": 0,
+      "width": 81
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureBlaine",
+      "line": 1,
+      "gender": 0,
+      "width": 168
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureBlaine",
+      "line": 2,
+      "gender": 0,
+      "width": 102
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureBlaine",
+      "line": 3,
+      "gender": 0,
+      "width": 203
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureBlaine",
+      "line": 4,
+      "gender": 0,
+      "width": 188
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureBlaine",
+      "line": 5,
+      "gender": 0,
+      "width": 104
+    },
+    {
+      "file": "data/maps/CeladonCity_Condominiums_3F/text.inc",
+      "label": "CeladonCity_Condominiums_3F_Text_IWroteTheStory",
+      "line": 0,
+      "gender": 1,
+      "width": 102
+    },
+    {
+      "file": "data/maps/CeladonCity_Condominiums_3F/text.inc",
+      "label": "CeladonCity_Condominiums_3F_Text_IWroteTheStory",
+      "line": 1,
+      "gender": 1,
+      "width": 101
+    },
+    {
+      "file": "data/maps/CeladonCity_Condominiums_3F/text.inc",
+      "label": "CeladonCity_Condominiums_3F_Text_IWroteTheStory",
+      "line": 2,
+      "gender": 1,
+      "width": 142
+    },
+    {
+      "file": "data/maps/CeladonCity_Condominiums_3F/text.inc",
+      "label": "CeladonCity_Condominiums_3F_Text_IWroteTheStory",
+      "line": 3,
+      "gender": 1,
+      "width": 166
+    },
+    {
+      "file": "data/maps/CeruleanCity/text.inc",
+      "label": "CeruleanCity_Text_GymSign",
+      "line": 0,
+      "gender": 1,
+      "width": 81
+    },
+    {
+      "file": "data/maps/CeruleanCity/text.inc",
+      "label": "CeruleanCity_Text_GymSign",
+      "line": 1,
+      "gender": 1,
+      "width": 36
+    },
+    {
+      "file": "data/maps/CeruleanCity/text.inc",
+      "label": "CeruleanCity_Text_GymSign",
+      "line": 2,
+      "gender": 1,
+      "width": 134
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_MistyIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 122
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_MistyIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 143
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_MistyIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 182
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_MistyIntro",
+      "line": 3,
+      "gender": 1,
+      "width": 106
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_MistyIntro",
+      "line": 4,
+      "gender": 1,
+      "width": 163
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_MistyIntro",
+      "line": 5,
+      "gender": 1,
+      "width": 63
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_MistyIntro",
+      "line": 6,
+      "gender": 1,
+      "width": 197
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_ReceivedTM03FromMisty",
+      "line": 0,
+      "gender": 1,
+      "width": 70
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_ReceivedTM03FromMisty",
+      "line": 1,
+      "gender": 1,
+      "width": 76
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_MistyDefeat",
+      "line": 0,
+      "gender": 1,
+      "width": 106
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_MistyDefeat",
+      "line": 1,
+      "gender": 1,
+      "width": 64
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_MistyDefeat",
+      "line": 2,
+      "gender": 1,
+      "width": 162
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_DianaIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 56
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_DianaIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 175
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_DianaIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 153
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_LuisPostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 114
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_LuisPostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 146
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymGuyAdvice",
+      "line": 0,
+      "gender": 1,
+      "width": 170
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymGuyAdvice",
+      "line": 1,
+      "gender": 1,
+      "width": 119
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymGuyAdvice",
+      "line": 2,
+      "gender": 1,
+      "width": 140
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymGuyAdvice",
+      "line": 3,
+      "gender": 1,
+      "width": 158
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymGuyAdvice",
+      "line": 4,
+      "gender": 1,
+      "width": 123
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_WeMakePrettyGoodTeam",
+      "line": 0,
+      "gender": 1,
+      "width": 111
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_WeMakePrettyGoodTeam",
+      "line": 1,
+      "gender": 1,
+      "width": 124
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_WeMakePrettyGoodTeam",
+      "line": 2,
+      "gender": 1,
+      "width": 60
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_WeMakePrettyGoodTeam",
+      "line": 3,
+      "gender": 1,
+      "width": 146
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymStatue",
+      "line": 0,
+      "gender": 1,
+      "width": 81
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymStatue",
+      "line": 1,
+      "gender": 1,
+      "width": 118
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymStatue",
+      "line": 2,
+      "gender": 1,
+      "width": 131
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymStatue",
+      "line": 3,
+      "gender": 1,
+      "width": 22
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymStatuePlayerWon",
+      "line": 0,
+      "gender": 1,
+      "width": 81
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymStatuePlayerWon",
+      "line": 1,
+      "gender": 1,
+      "width": 118
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymStatuePlayerWon",
+      "line": 2,
+      "gender": 1,
+      "width": 131
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_GymStatuePlayerWon",
+      "line": 3,
+      "gender": 1,
+      "width": 45
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_NathanIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 130
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_NathanIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 127
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_NathanIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 153
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_NathanIntro",
+      "line": 3,
+      "gender": 1,
+      "width": 191
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_NathanIntro",
+      "line": 4,
+      "gender": 1,
+      "width": 138
+    },
+    {
+      "file": "data/maps/CeruleanCity_Gym/text.inc",
+      "label": "CeruleanCity_Gym_Text_NathanIntro",
+      "line": 5,
+      "gender": 1,
+      "width": 180
+    },
+    {
+      "file": "data/maps/CinnabarIsland/text.inc",
+      "label": "CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab",
+      "line": 0,
+      "gender": 1,
+      "width": 114
+    },
+    {
+      "file": "data/maps/CinnabarIsland/text.inc",
+      "label": "CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab",
+      "line": 1,
+      "gender": 1,
+      "width": 125
+    },
+    {
+      "file": "data/maps/CinnabarIsland/text.inc",
+      "label": "CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab",
+      "line": 2,
+      "gender": 1,
+      "width": 110
+    },
+    {
+      "file": "data/maps/CinnabarIsland/text.inc",
+      "label": "CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab",
+      "line": 3,
+      "gender": 1,
+      "width": 185
+    },
+    {
+      "file": "data/maps/CinnabarIsland/text.inc",
+      "label": "CinnabarIsland_Text_GymSign",
+      "line": 0,
+      "gender": 1,
+      "width": 117
+    },
+    {
+      "file": "data/maps/CinnabarIsland/text.inc",
+      "label": "CinnabarIsland_Text_GymSign",
+      "line": 1,
+      "gender": 1,
+      "width": 42
+    },
+    {
+      "file": "data/maps/CinnabarIsland/text.inc",
+      "label": "CinnabarIsland_Text_GymSign",
+      "line": 2,
+      "gender": 1,
+      "width": 120
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlaineIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 98
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlaineIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 139
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlaineIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 146
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlaineIntro",
+      "line": 3,
+      "gender": 1,
+      "width": 185
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlaineIntro",
+      "line": 4,
+      "gender": 1,
+      "width": 159
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlaineIntro",
+      "line": 5,
+      "gender": 1,
+      "width": 163
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlaineIntro",
+      "line": 6,
+      "gender": 1,
+      "width": 107
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlaineDefeat",
+      "line": 0,
+      "gender": 1,
+      "width": 146
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlaineDefeat",
+      "line": 1,
+      "gender": 1,
+      "width": 153
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlaineDefeat",
+      "line": 2,
+      "gender": 1,
+      "width": 159
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_FireBlastIsUltimateFireMove",
+      "line": 0,
+      "gender": 1,
+      "width": 167
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_FireBlastIsUltimateFireMove",
+      "line": 1,
+      "gender": 1,
+      "width": 182
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_FireBlastIsUltimateFireMove",
+      "line": 2,
+      "gender": 1,
+      "width": 191
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_ExplainVolcanoBadge",
+      "line": 0,
+      "gender": 1,
+      "width": 138
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_ExplainVolcanoBadge",
+      "line": 1,
+      "gender": 1,
+      "width": 156
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_ExplainVolcanoBadge",
+      "line": 2,
+      "gender": 1,
+      "width": 151
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_ExplainVolcanoBadge",
+      "line": 3,
+      "gender": 1,
+      "width": 112
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_ReceivedTM38FromBlaine",
+      "line": 0,
+      "gender": 1,
+      "width": 76
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_ReceivedTM38FromBlaine",
+      "line": 1,
+      "gender": 1,
+      "width": 76
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlainePostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 179
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlainePostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 143
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_BlainePostBattle",
+      "line": 2,
+      "gender": 1,
+      "width": 179
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_DerekIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 114
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_DerekIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 179
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_DerekPostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 108
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_DerekPostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 178
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_DerekPostBattle",
+      "line": 2,
+      "gender": 1,
+      "width": 116
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_DerekPostBattle",
+      "line": 3,
+      "gender": 1,
+      "width": 153
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymGuyAdvice",
+      "line": 0,
+      "gender": 1,
+      "width": 194
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymGuyAdvice",
+      "line": 1,
+      "gender": 1,
+      "width": 178
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymGuyAdvice",
+      "line": 2,
+      "gender": 1,
+      "width": 154
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymGuyAdvice",
+      "line": 3,
+      "gender": 1,
+      "width": 138
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymGuyAdvice",
+      "line": 4,
+      "gender": 1,
+      "width": 171
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymStatue",
+      "line": 0,
+      "gender": 1,
+      "width": 117
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymStatue",
+      "line": 1,
+      "gender": 1,
+      "width": 145
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymStatue",
+      "line": 2,
+      "gender": 1,
+      "width": 131
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymStatue",
+      "line": 3,
+      "gender": 1,
+      "width": 22
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymStatuePlayerWon",
+      "line": 0,
+      "gender": 1,
+      "width": 117
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymStatuePlayerWon",
+      "line": 1,
+      "gender": 1,
+      "width": 145
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymStatuePlayerWon",
+      "line": 2,
+      "gender": 1,
+      "width": 131
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_GymStatuePlayerWon",
+      "line": 3,
+      "gender": 1,
+      "width": 45
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_MichaelIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 109
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_MichaelIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 124
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_MichaelIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 184
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_MichaelIntro",
+      "line": 3,
+      "gender": 1,
+      "width": 108
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_MichaelIntro",
+      "line": 4,
+      "gender": 1,
+      "width": 174
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_MichaelIntro",
+      "line": 5,
+      "gender": 1,
+      "width": 145
+    },
+    {
+      "file": "data/maps/CinnabarIsland_Gym/text.inc",
+      "label": "CinnabarIsland_Gym_Text_MichaelIntro",
+      "line": 6,
+      "gender": 1,
+      "width": 145
+    },
+    {
+      "file": "data/maps/MtMoon_1F/text.inc",
+      "label": "MtMoon_1F_Text_BrockHelpsExcavateFossils",
+      "line": 0,
+      "gender": 1,
+      "width": 181
+    },
+    {
+      "file": "data/maps/MtMoon_1F/text.inc",
+      "label": "MtMoon_1F_Text_BrockHelpsExcavateFossils",
+      "line": 1,
+      "gender": 1,
+      "width": 187
+    },
+    {
+      "file": "data/maps/MtMoon_1F/text.inc",
+      "label": "MtMoon_1F_Text_BrockHelpsExcavateFossils",
+      "line": 2,
+      "gender": 1,
+      "width": 196
+    },
+    {
+      "file": "data/maps/MtMoon_1F/text.inc",
+      "label": "MtMoon_1F_Text_BrockHelpsExcavateFossils",
+      "line": 3,
+      "gender": 1,
+      "width": 116
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_BrockOnlySeriousTrainerHere",
+      "line": 0,
+      "gender": 1,
+      "width": 189
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_BrockOnlySeriousTrainerHere",
+      "line": 1,
+      "gender": 1,
+      "width": 164
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_BrockOnlySeriousTrainerHere",
+      "line": 2,
+      "gender": 1,
+      "width": 129
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_BrockOnlySeriousTrainerHere",
+      "line": 3,
+      "gender": 1,
+      "width": 147
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_BrockOnlySeriousTrainerHere",
+      "line": 4,
+      "gender": 1,
+      "width": 128
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_BrockOnlySeriousTrainerHere",
+      "line": 5,
+      "gender": 1,
+      "width": 165
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_BrocksLookingForChallengersFollowMe",
+      "line": 0,
+      "gender": 1,
+      "width": 142
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_BrocksLookingForChallengersFollowMe",
+      "line": 1,
+      "gender": 1,
+      "width": 75
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_BrocksLookingForChallengersFollowMe",
+      "line": 2,
+      "gender": 1,
+      "width": 191
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_GoTakeOnBrock",
+      "line": 0,
+      "gender": 1,
+      "width": 131
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_GoTakeOnBrock",
+      "line": 1,
+      "gender": 1,
+      "width": 90
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_GymSign",
+      "line": 0,
+      "gender": 1,
+      "width": 120
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_GymSign",
+      "line": 1,
+      "gender": 1,
+      "width": 89
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_GymSign",
+      "line": 2,
+      "gender": 1,
+      "width": 181
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_DefeatedBrockYouCanHaveTreasure",
+      "line": 0,
+      "gender": 1,
+      "width": 78
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_DefeatedBrockYouCanHaveTreasure",
+      "line": 1,
+      "gender": 1,
+      "width": 144
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_DefeatedBrockYouCanHaveTreasure",
+      "line": 2,
+      "gender": 1,
+      "width": 97
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_DefeatedBrockYouCanHaveTreasure",
+      "line": 3,
+      "gender": 1,
+      "width": 162
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 144
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 119
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 143
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockIntro",
+      "line": 3,
+      "gender": 1,
+      "width": 68
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockIntro",
+      "line": 4,
+      "gender": 1,
+      "width": 152
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockIntro",
+      "line": 5,
+      "gender": 1,
+      "width": 125
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockIntro",
+      "line": 6,
+      "gender": 1,
+      "width": 165
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockIntro",
+      "line": 7,
+      "gender": 1,
+      "width": 190
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockDefeat",
+      "line": 0,
+      "gender": 1,
+      "width": 118
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockDefeat",
+      "line": 1,
+      "gender": 1,
+      "width": 156
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_ReceivedTM39FromBrock",
+      "line": 0,
+      "gender": 1,
+      "width": 62
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_ReceivedTM39FromBrock",
+      "line": 1,
+      "gender": 1,
+      "width": 76
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockPostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 162
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockPostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 115
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BrockPostBattle",
+      "line": 2,
+      "gender": 1,
+      "width": 167
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_LiamIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 51
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_LiamIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 178
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_LiamIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 151
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_LiamPostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 62
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_LiamPostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 117
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_GymStatue",
+      "line": 0,
+      "gender": 1,
+      "width": 120
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_GymStatue",
+      "line": 1,
+      "gender": 1,
+      "width": 89
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_GymStatue",
+      "line": 2,
+      "gender": 1,
+      "width": 125
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_GymStatue",
+      "line": 3,
+      "gender": 1,
+      "width": 22
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_GymStatuePlayerWon",
+      "line": 0,
+      "gender": 1,
+      "width": 120
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_GymStatuePlayerWon",
+      "line": 1,
+      "gender": 1,
+      "width": 89
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_GymStatuePlayerWon",
+      "line": 2,
+      "gender": 1,
+      "width": 125
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_GymStatuePlayerWon",
+      "line": 3,
+      "gender": 1,
+      "width": 45
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BadgeRoche",
+      "line": 0,
+      "gender": 1,
+      "width": 50
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BadgeRoche",
+      "line": 1,
+      "gender": 1,
+      "width": 95
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BadgeRoche",
+      "line": 2,
+      "gender": 1,
+      "width": 133
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BadgeRoche",
+      "line": 3,
+      "gender": 1,
+      "width": 78
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BadgeRoche",
+      "line": 4,
+      "gender": 1,
+      "width": 140
+    },
+    {
+      "file": "data/maps/PewterCity_Gym/text.inc",
+      "label": "PewterCity_Gym_Text_BadgeRoche",
+      "line": 5,
+      "gender": 1,
+      "width": 125
+    },
+    {
+      "file": "data/maps/Route20/text.inc",
+      "label": "Route20_Text_MistyTrainsHere",
+      "line": 0,
+      "gender": 1,
+      "width": 185
+    },
+    {
+      "file": "data/maps/Route20/text.inc",
+      "label": "Route20_Text_MistyTrainsHere",
+      "line": 1,
+      "gender": 1,
+      "width": 182
+    },
+    {
+      "file": "data/maps/Route20/text.inc",
+      "label": "Route20_Text_MistyTrainsHere",
+      "line": 2,
+      "gender": 1,
+      "width": 157
+    },
+    {
+      "file": "data/maps/Route20/text.inc",
+      "label": "Route20_Text_MistyTrainsHere",
+      "line": 3,
+      "gender": 1,
+      "width": 142
+    },
+    {
+      "file": "data/maps/Route25/text.inc",
+      "label": "Route25_Text_MistyHighHopesAboutThisPlace",
+      "line": 0,
+      "gender": 1,
+      "width": 98
+    },
+    {
+      "file": "data/maps/Route25/text.inc",
+      "label": "Route25_Text_MistyHighHopesAboutThisPlace",
+      "line": 1,
+      "gender": 1,
+      "width": 172
+    },
+    {
+      "file": "data/maps/Route25/text.inc",
+      "label": "Route25_Text_MistyHighHopesAboutThisPlace",
+      "line": 2,
+      "gender": 1,
+      "width": 118
+    },
+    {
+      "file": "data/maps/Route25/text.inc",
+      "label": "Route25_Text_MistyHighHopesAboutThisPlace",
+      "line": 3,
+      "gender": 1,
+      "width": 136
+    },
+    {
+      "file": "data/maps/Route4/text.inc",
+      "label": "Route4_Text_PeopleLikeAndRespectBrock",
+      "line": 0,
+      "gender": 1,
+      "width": 114
+    },
+    {
+      "file": "data/maps/Route4/text.inc",
+      "label": "Route4_Text_PeopleLikeAndRespectBrock",
+      "line": 1,
+      "gender": 1,
+      "width": 156
+    },
+    {
+      "file": "data/maps/Route4/text.inc",
+      "label": "Route4_Text_PeopleLikeAndRespectBrock",
+      "line": 2,
+      "gender": 1,
+      "width": 124
+    },
+    {
+      "file": "data/maps/Route4/text.inc",
+      "label": "Route4_Text_PeopleLikeAndRespectBrock",
+      "line": 3,
+      "gender": 1,
+      "width": 145
+    },
+    {
+      "file": "data/maps/Route4/text.inc",
+      "label": "Route4_Text_PeopleLikeAndRespectBrock",
+      "line": 4,
+      "gender": 1,
+      "width": 95
+    },
+    {
+      "file": "data/maps/Route4/text.inc",
+      "label": "Route4_Text_PeopleLikeAndRespectBrock",
+      "line": 5,
+      "gender": 1,
+      "width": 124
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_GymSign",
+      "line": 0,
+      "gender": 1,
+      "width": 102
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_GymSign",
+      "line": 1,
+      "gender": 1,
+      "width": 90
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_GymSign",
+      "line": 2,
+      "gender": 1,
+      "width": 121
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 99
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 87
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 176
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaIntro",
+      "line": 3,
+      "gender": 1,
+      "width": 178
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaIntro",
+      "line": 4,
+      "gender": 1,
+      "width": 164
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaIntro",
+      "line": 5,
+      "gender": 1,
+      "width": 151
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaDefeat",
+      "line": 0,
+      "gender": 1,
+      "width": 157
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaDefeat",
+      "line": 1,
+      "gender": 1,
+      "width": 125
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaDefeat",
+      "line": 2,
+      "gender": 1,
+      "width": 90
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaPostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 120
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaPostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 131
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaPostBattle",
+      "line": 2,
+      "gender": 1,
+      "width": 143
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaPostBattle",
+      "line": 3,
+      "gender": 1,
+      "width": 102
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis",
+      "line": 0,
+      "gender": 1,
+      "width": 145
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis",
+      "line": 1,
+      "gender": 1,
+      "width": 167
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis",
+      "line": 2,
+      "gender": 1,
+      "width": 122
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis",
+      "line": 3,
+      "gender": 1,
+      "width": 170
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ReceivedTM04FromSabrina",
+      "line": 0,
+      "gender": 1,
+      "width": 78
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ReceivedTM04FromSabrina",
+      "line": 1,
+      "gender": 1,
+      "width": 76
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainTM04",
+      "line": 0,
+      "gender": 1,
+      "width": 151
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainTM04",
+      "line": 1,
+      "gender": 1,
+      "width": 179
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainTM04",
+      "line": 2,
+      "gender": 1,
+      "width": 129
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_BagFullOfOtherItems",
+      "line": 0,
+      "gender": 1,
+      "width": 99
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_BagFullOfOtherItems",
+      "line": 1,
+      "gender": 1,
+      "width": 167
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 176
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 171
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaPostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 170
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaPostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 150
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaPostBattle",
+      "line": 2,
+      "gender": 1,
+      "width": 201
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaPostBattle",
+      "line": 3,
+      "gender": 1,
+      "width": 159
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TyronPostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 198
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TyronPostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 98
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_CameronIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 185
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_CameronIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 145
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_CameronIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 151
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_PrestonIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 182
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_PrestonIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 95
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_PrestonIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 176
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_PrestonIntro",
+      "line": 3,
+      "gender": 1,
+      "width": 92
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 0,
+      "gender": 1,
+      "width": 18
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 1,
+      "gender": 1,
+      "width": 112
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 2,
+      "gender": 1,
+      "width": 163
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 3,
+      "gender": 1,
+      "width": 128
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 4,
+      "gender": 1,
+      "width": 171
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 5,
+      "gender": 1,
+      "width": 158
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 6,
+      "gender": 1,
+      "width": 186
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 7,
+      "gender": 1,
+      "width": 121
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatue",
+      "line": 0,
+      "gender": 1,
+      "width": 102
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatue",
+      "line": 1,
+      "gender": 1,
+      "width": 125
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatue",
+      "line": 2,
+      "gender": 1,
+      "width": 131
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatue",
+      "line": 3,
+      "gender": 1,
+      "width": 22
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatuePlayerWon",
+      "line": 0,
+      "gender": 1,
+      "width": 102
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatuePlayerWon",
+      "line": 1,
+      "gender": 1,
+      "width": 125
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatuePlayerWon",
+      "line": 2,
+      "gender": 1,
+      "width": 131
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatuePlayerWon",
+      "line": 3,
+      "gender": 1,
+      "width": 45
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksMyHero",
+      "line": 0,
+      "gender": 1,
+      "width": 91
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksMyHero",
+      "line": 1,
+      "gender": 1,
+      "width": 119
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksMyHero",
+      "line": 2,
+      "gender": 1,
+      "width": 147
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksMyHero",
+      "line": 3,
+      "gender": 1,
+      "width": 94
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksMyHero",
+      "line": 4,
+      "gender": 1,
+      "width": 173
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksMyHero",
+      "line": 5,
+      "gender": 1,
+      "width": 73
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksFanToBitterEnd",
+      "line": 0,
+      "gender": 1,
+      "width": 24
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksFanToBitterEnd",
+      "line": 1,
+      "gender": 1,
+      "width": 24
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksFanToBitterEnd",
+      "line": 2,
+      "gender": 1,
+      "width": 87
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksFanToBitterEnd",
+      "line": 3,
+      "gender": 1,
+      "width": 155
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksFanToBitterEnd",
+      "line": 4,
+      "gender": 1,
+      "width": 178
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksFanToBitterEnd",
+      "line": 5,
+      "gender": 1,
+      "width": 96
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksFanToBitterEnd",
+      "line": 6,
+      "gender": 1,
+      "width": 186
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksLastWordOnCool",
+      "line": 0,
+      "gender": 1,
+      "width": 168
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksLastWordOnCool",
+      "line": 1,
+      "gender": 1,
+      "width": 73
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksLastWordOnCool",
+      "line": 2,
+      "gender": 1,
+      "width": 177
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_BrocksLastWordOnCool",
+      "line": 3,
+      "gender": 1,
+      "width": 44
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeSabrina",
+      "line": 0,
+      "gender": 1,
+      "width": 99
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeSabrina",
+      "line": 1,
+      "gender": 1,
+      "width": 155
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeSabrina",
+      "line": 2,
+      "gender": 1,
+      "width": 180
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeSabrina",
+      "line": 3,
+      "gender": 1,
+      "width": 49
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingSabrinasFan",
+      "line": 0,
+      "gender": 1,
+      "width": 181
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingSabrinasFan",
+      "line": 1,
+      "gender": 1,
+      "width": 144
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingSabrinasFan",
+      "line": 2,
+      "gender": 1,
+      "width": 182
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingSabrinasFan",
+      "line": 3,
+      "gender": 1,
+      "width": 85
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingSabrinasFan",
+      "line": 4,
+      "gender": 1,
+      "width": 180
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+      "label": "SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingSabrinasFan",
+      "line": 5,
+      "gender": 1,
+      "width": 49
+    },
+    {
+      "file": "data/maps/VermilionCity/text.inc",
+      "label": "VermilionCity_Text_GymSign",
+      "line": 0,
+      "gender": 1,
+      "width": 138
+    },
+    {
+      "file": "data/maps/VermilionCity/text.inc",
+      "label": "VermilionCity_Text_GymSign",
+      "line": 1,
+      "gender": 1,
+      "width": 90
+    },
+    {
+      "file": "data/maps/VermilionCity/text.inc",
+      "label": "VermilionCity_Text_GymSign",
+      "line": 2,
+      "gender": 1,
+      "width": 203
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_LtSurgeIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 136
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_LtSurgeIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 135
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_LtSurgeIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 96
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_LtSurgeIntro",
+      "line": 3,
+      "gender": 1,
+      "width": 131
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_LtSurgeIntro",
+      "line": 4,
+      "gender": 1,
+      "width": 155
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_LtSurgeIntro",
+      "line": 5,
+      "gender": 1,
+      "width": 129
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_LtSurgeIntro",
+      "line": 6,
+      "gender": 1,
+      "width": 155
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_ReceivedTM34FromLtSurge",
+      "line": 0,
+      "gender": 1,
+      "width": 66
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_ReceivedTM34FromLtSurge",
+      "line": 1,
+      "gender": 1,
+      "width": 76
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_LtSurgeDefeat",
+      "line": 0,
+      "gender": 1,
+      "width": 111
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_LtSurgeDefeat",
+      "line": 1,
+      "gender": 1,
+      "width": 171
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_LtSurgeDefeat",
+      "line": 2,
+      "gender": 1,
+      "width": 158
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_TuckerIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 118
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_TuckerIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 139
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_TuckerIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 178
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_TuckerPostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 130
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_TuckerPostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 142
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_BailyPostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 122
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_BailyPostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 130
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_DwaynePostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 182
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_DwaynePostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 149
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_DwaynePostBattle",
+      "line": 2,
+      "gender": 1,
+      "width": 188
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymGuyAdvice",
+      "line": 0,
+      "gender": 1,
+      "width": 168
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymGuyAdvice",
+      "line": 1,
+      "gender": 1,
+      "width": 180
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymGuyAdvice",
+      "line": 2,
+      "gender": 1,
+      "width": 143
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymGuyAdvice",
+      "line": 3,
+      "gender": 1,
+      "width": 144
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymGuyAdvice",
+      "line": 4,
+      "gender": 1,
+      "width": 125
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymGuyAdvice",
+      "line": 5,
+      "gender": 1,
+      "width": 125
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymGuyAdvice",
+      "line": 6,
+      "gender": 1,
+      "width": 153
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymStatue",
+      "line": 0,
+      "gender": 1,
+      "width": 138
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymStatue",
+      "line": 1,
+      "gender": 1,
+      "width": 107
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymStatue",
+      "line": 2,
+      "gender": 1,
+      "width": 125
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymStatue",
+      "line": 3,
+      "gender": 1,
+      "width": 22
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymStatuePlayerWon",
+      "line": 0,
+      "gender": 1,
+      "width": 138
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymStatuePlayerWon",
+      "line": 1,
+      "gender": 1,
+      "width": 107
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymStatuePlayerWon",
+      "line": 2,
+      "gender": 1,
+      "width": 125
+    },
+    {
+      "file": "data/maps/VermilionCity_Gym/text.inc",
+      "label": "VermilionCity_Gym_Text_GymStatuePlayerWon",
+      "line": 3,
+      "gender": 1,
+      "width": 45
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock0",
+      "line": 0,
+      "gender": 1,
+      "width": 118
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock0",
+      "line": 1,
+      "gender": 1,
+      "width": 113
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock1",
+      "line": 0,
+      "gender": 1,
+      "width": 118
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock1",
+      "line": 1,
+      "gender": 1,
+      "width": 94
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock2",
+      "line": 0,
+      "gender": 1,
+      "width": 128
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock2",
+      "line": 1,
+      "gender": 1,
+      "width": 173
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock3",
+      "line": 0,
+      "gender": 1,
+      "width": 140
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock3",
+      "line": 1,
+      "gender": 1,
+      "width": 61
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock4",
+      "line": 0,
+      "gender": 1,
+      "width": 139
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock4",
+      "line": 1,
+      "gender": 1,
+      "width": 143
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock5",
+      "line": 0,
+      "gender": 1,
+      "width": 149
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Brock5",
+      "line": 1,
+      "gender": 1,
+      "width": 128
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Misty0",
+      "line": 0,
+      "gender": 1,
+      "width": 73
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Misty0",
+      "line": 1,
+      "gender": 1,
+      "width": 89
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Misty1",
+      "line": 0,
+      "gender": 1,
+      "width": 93
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Misty1",
+      "line": 1,
+      "gender": 1,
+      "width": 85
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Misty2",
+      "line": 0,
+      "gender": 1,
+      "width": 121
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Misty3",
+      "line": 0,
+      "gender": 1,
+      "width": 134
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Misty3",
+      "line": 1,
+      "gender": 1,
+      "width": 109
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Misty4",
+      "line": 0,
+      "gender": 1,
+      "width": 140
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Misty4",
+      "line": 1,
+      "gender": 1,
+      "width": 142
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Misty5",
+      "line": 0,
+      "gender": 1,
+      "width": 96
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Misty5",
+      "line": 1,
+      "gender": 1,
+      "width": 117
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge0",
+      "line": 0,
+      "gender": 1,
+      "width": 117
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge0",
+      "line": 1,
+      "gender": 1,
+      "width": 142
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge1",
+      "line": 0,
+      "gender": 1,
+      "width": 93
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge1",
+      "line": 1,
+      "gender": 1,
+      "width": 163
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge2",
+      "line": 0,
+      "gender": 1,
+      "width": 128
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge2",
+      "line": 1,
+      "gender": 1,
+      "width": 94
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge3",
+      "line": 0,
+      "gender": 1,
+      "width": 182
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge3",
+      "line": 1,
+      "gender": 1,
+      "width": 73
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge4",
+      "line": 0,
+      "gender": 1,
+      "width": 125
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge4",
+      "line": 1,
+      "gender": 1,
+      "width": 136
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge5",
+      "line": 0,
+      "gender": 1,
+      "width": 93
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_LtSurge5",
+      "line": 1,
+      "gender": 1,
+      "width": 147
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina0",
+      "line": 0,
+      "gender": 1,
+      "width": 119
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina0",
+      "line": 1,
+      "gender": 1,
+      "width": 108
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina1",
+      "line": 0,
+      "gender": 1,
+      "width": 109
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina1",
+      "line": 1,
+      "gender": 1,
+      "width": 131
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina2",
+      "line": 0,
+      "gender": 1,
+      "width": 165
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina2",
+      "line": 1,
+      "gender": 1,
+      "width": 90
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina3",
+      "line": 0,
+      "gender": 1,
+      "width": 97
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina3",
+      "line": 1,
+      "gender": 1,
+      "width": 146
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina4",
+      "line": 0,
+      "gender": 1,
+      "width": 126
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina4",
+      "line": 1,
+      "gender": 1,
+      "width": 165
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina5",
+      "line": 0,
+      "gender": 1,
+      "width": 133
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina5",
+      "line": 1,
+      "gender": 1,
+      "width": 118
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Blaine0",
+      "line": 0,
+      "gender": 1,
+      "width": 79
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Blaine0",
+      "line": 1,
+      "gender": 1,
+      "width": 123
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Blaine1",
+      "line": 0,
+      "gender": 1,
+      "width": 107
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Blaine1",
+      "line": 1,
+      "gender": 1,
+      "width": 113
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Blaine2",
+      "line": 0,
+      "gender": 1,
+      "width": 172
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Blaine3",
+      "line": 0,
+      "gender": 1,
+      "width": 155
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Blaine3",
+      "line": 1,
+      "gender": 1,
+      "width": 181
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Blaine4",
+      "line": 0,
+      "gender": 1,
+      "width": 141
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Blaine4",
+      "line": 1,
+      "gender": 1,
+      "width": 185
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Blaine5",
+      "line": 0,
+      "gender": 1,
+      "width": 132
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Blaine5",
+      "line": 1,
+      "gender": 1,
+      "width": 109
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_MrFuji4",
+      "line": 0,
+      "gender": 1,
+      "width": 104
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_MrFuji4",
+      "line": 1,
+      "gender": 1,
+      "width": 154
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_MrFuji4",
+      "line": 2,
+      "gender": 1,
+      "width": 52
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_MrFuji4",
+      "line": 3,
+      "gender": 1,
+      "width": 154
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_MrFuji4",
+      "line": 4,
+      "gender": 1,
+      "width": 130
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_Brock",
+      "line": 0,
+      "gender": 1,
+      "width": 30
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Brock",
+      "line": 0,
+      "gender": 1,
+      "width": 143
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Brock",
+      "line": 1,
+      "gender": 1,
+      "width": 68
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Brock",
+      "line": 2,
+      "gender": 1,
+      "width": 90
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Brock",
+      "line": 3,
+      "gender": 1,
+      "width": 140
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_Misty",
+      "line": 0,
+      "gender": 1,
+      "width": 36
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Misty",
+      "line": 0,
+      "gender": 1,
+      "width": 143
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Misty",
+      "line": 1,
+      "gender": 1,
+      "width": 124
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Misty",
+      "line": 2,
+      "gender": 1,
+      "width": 158
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_LtSurge",
+      "line": 0,
+      "gender": 1,
+      "width": 90
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_LtSurge",
+      "line": 0,
+      "gender": 1,
+      "width": 82
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_LtSurge",
+      "line": 1,
+      "gender": 1,
+      "width": 186
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_LtSurge",
+      "line": 2,
+      "gender": 1,
+      "width": 191
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_Sabrina",
+      "line": 0,
+      "gender": 1,
+      "width": 90
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Sabrina",
+      "line": 0,
+      "gender": 1,
+      "width": 139
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Sabrina",
+      "line": 1,
+      "gender": 1,
+      "width": 124
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Sabrina",
+      "line": 2,
+      "gender": 1,
+      "width": 164
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_Blaine",
+      "line": 0,
+      "gender": 1,
+      "width": 42
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Blaine",
+      "line": 0,
+      "gender": 1,
+      "width": 179
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Blaine",
+      "line": 1,
+      "gender": 1,
+      "width": 150
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Blaine",
+      "line": 2,
+      "gender": 1,
+      "width": 124
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorTextOriginObjectName_Brock1",
+      "line": 0,
+      "gender": 1,
+      "width": 30
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorTextOriginObjectName_Misty1",
+      "line": 0,
+      "gender": 1,
+      "width": 36
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorTextOriginObjectName_LtSurge1",
+      "line": 0,
+      "gender": 1,
+      "width": 36
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorTextOriginObjectName_Sabrina2",
+      "line": 0,
+      "gender": 1,
+      "width": 48
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorTextOriginObjectName_Sabrina3",
+      "line": 0,
+      "gender": 1,
+      "width": 48
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorTextOriginObjectName_Blaine1",
+      "line": 0,
+      "gender": 1,
+      "width": 42
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureBrock",
+      "line": 0,
+      "gender": 1,
+      "width": 81
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureBrock",
+      "line": 1,
+      "gender": 1,
+      "width": 156
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureBrock",
+      "line": 2,
+      "gender": 1,
+      "width": 78
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureBrock",
+      "line": 3,
+      "gender": 1,
+      "width": 196
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureBrock",
+      "line": 4,
+      "gender": 1,
+      "width": 172
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureMisty",
+      "line": 0,
+      "gender": 1,
+      "width": 81
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureMisty",
+      "line": 1,
+      "gender": 1,
+      "width": 168
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureMisty",
+      "line": 2,
+      "gender": 1,
+      "width": 84
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureMisty",
+      "line": 3,
+      "gender": 1,
+      "width": 187
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureMisty",
+      "line": 4,
+      "gender": 1,
+      "width": 105
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureLtSurge",
+      "line": 0,
+      "gender": 1,
+      "width": 81
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureLtSurge",
+      "line": 1,
+      "gender": 1,
+      "width": 174
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureLtSurge",
+      "line": 2,
+      "gender": 1,
+      "width": 84
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureLtSurge",
+      "line": 3,
+      "gender": 1,
+      "width": 173
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureLtSurge",
+      "line": 4,
+      "gender": 1,
+      "width": 166
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureLtSurge",
+      "line": 5,
+      "gender": 1,
+      "width": 185
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureLtSurge",
+      "line": 6,
+      "gender": 1,
+      "width": 163
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureSabrina",
+      "line": 0,
+      "gender": 1,
+      "width": 81
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureSabrina",
+      "line": 1,
+      "gender": 1,
+      "width": 162
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureSabrina",
+      "line": 2,
+      "gender": 1,
+      "width": 96
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureSabrina",
+      "line": 3,
+      "gender": 1,
+      "width": 163
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureSabrina",
+      "line": 4,
+      "gender": 1,
+      "width": 151
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureSabrina",
+      "line": 5,
+      "gender": 1,
+      "width": 169
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureBlaine",
+      "line": 0,
+      "gender": 1,
+      "width": 81
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureBlaine",
+      "line": 1,
+      "gender": 1,
+      "width": 168
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureBlaine",
+      "line": 2,
+      "gender": 1,
+      "width": 90
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureBlaine",
+      "line": 3,
+      "gender": 1,
+      "width": 191
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureBlaine",
+      "line": 4,
+      "gender": 1,
+      "width": 188
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "PokemonJournal_Text_SpecialFeatureBlaine",
+      "line": 5,
+      "gender": 1,
+      "width": 104
+    },
+    {
+      "file": "src/battle_message.c",
+      "label": "sText_AlyzonColossus",
+      "line": 0,
+      "gender": 0,
+      "width": 128
+    },
+    {
+      "file": "src/battle_message.c",
+      "label": "sText_AlyzonColossus",
+      "line": 1,
+      "gender": 0,
+      "width": 111
+    },
+    {
+      "file": "src/battle_message.c",
+      "label": "sText_AlyzonColossus",
+      "line": 2,
+      "gender": 0,
+      "width": 106
+    },
+    {
+      "file": "src/battle_message.c",
+      "label": "sText_AlyzonColossus",
+      "line": 3,
+      "gender": 0,
+      "width": 32
+    },
+    {
+      "file": "src/battle_message.c",
+      "label": "sText_AlyzonColossus",
+      "line": 0,
+      "gender": 1,
+      "width": 128
+    },
+    {
+      "file": "src/battle_message.c",
+      "label": "sText_AlyzonColossus",
+      "line": 1,
+      "gender": 1,
+      "width": 111
+    },
+    {
+      "file": "src/battle_message.c",
+      "label": "sText_AlyzonColossus",
+      "line": 2,
+      "gender": 1,
+      "width": 106
+    },
+    {
+      "file": "src/battle_message.c",
+      "label": "sText_AlyzonColossus",
+      "line": 3,
+      "gender": 1,
+      "width": 32
+    }
+  ]
+}

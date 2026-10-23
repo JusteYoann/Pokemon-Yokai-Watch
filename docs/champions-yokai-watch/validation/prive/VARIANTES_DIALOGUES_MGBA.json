@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "rom_sha256": "7e6ac59ad79a6930bf772b8bc7debb5189d93e29f80d36d0504e52840887871f",
+  "scope": "Actual native intro selection for both sexes, with complete first-page captures.",
+  "results": [
+    {
+      "champion": "katie",
+      "gender": 0,
+      "passed": true,
+      "intro_symbol": "CeruleanCity_Gym_Text_MistyIntro"
+    },
+    {
+      "champion": "nathaniel",
+      "gender": 0,
+      "passed": true,
+      "intro_symbol": "CinnabarIsland_Gym_Text_BlaineIntro"
+    },
+    {
+      "champion": "nathan",
+      "gender": 1,
+      "passed": true,
+      "intro_symbol": "CeruleanCity_Gym_Text_NathanIntro"
+    },
+    {
+      "champion": "michael",
+      "gender": 1,
+      "passed": true,
+      "intro_symbol": "CinnabarIsland_Gym_Text_MichaelIntro"
+    }
+  ]
+}

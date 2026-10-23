@@ -1,0 +1,352 @@
+{
+  "passed": true,
+  "rom_sha256": "7e6ac59ad79a6930bf772b8bc7debb5189d93e29f80d36d0504e52840887871f",
+  "scope": "Native Gym victories driven by controller input. Warps, script entry and a\nboosted one-member player team are fixtures; no enemy HP, outcomes, badges,\nrewards, graphics or palettes are injected. This is not a balance playthrough.\n",
+  "results": [
+    {
+      "test": "Native Gym victory, reward, Flash Continue and no rematch",
+      "passed": true,
+      "champion": "wyatt",
+      "gender": 0,
+      "party": [
+        [
+          137,
+          8
+        ],
+        [
+          52,
+          10
+        ],
+        [
+          25,
+          12
+        ]
+      ],
+      "observed_order": [
+        0,
+        1,
+        2
+      ],
+      "portrait": 152,
+      "colossus_dialogue_observed": false
+    },
+    {
+      "test": "Native Gym victory, reward, Flash Continue and no rematch",
+      "passed": true,
+      "champion": "katie",
+      "gender": 0,
+      "party": [
+        [
+          82,
+          14
+        ],
+        [
+          31,
+          16
+        ],
+        [
+          1,
+          21
+        ]
+      ],
+      "observed_order": [
+        0,
+        1,
+        2
+      ],
+      "portrait": 136,
+      "colossus_dialogue_observed": false
+    },
+    {
+      "test": "Native Gym victory, reward, Flash Continue and no rematch",
+      "passed": true,
+      "champion": "ariane",
+      "gender": 0,
+      "party": [
+        [
+          74,
+          18
+        ],
+        [
+          29,
+          19
+        ],
+        [
+          75,
+          21
+        ],
+        [
+          100,
+          23
+        ]
+      ],
+      "observed_order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "portrait": 148,
+      "colossus_dialogue_observed": false
+    },
+    {
+      "test": "Native Gym victory, reward, Flash Continue and no rematch",
+      "passed": true,
+      "champion": "alyzon",
+      "gender": 0,
+      "party": [
+        [
+          32,
+          27
+        ],
+        [
+          8,
+          28
+        ],
+        [
+          44,
+          29
+        ],
+        [
+          32,
+          31
+        ]
+      ],
+      "observed_order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "portrait": 160,
+      "colossus_dialogue_observed": true
+    },
+    {
+      "test": "Native Gym victory, reward, Flash Continue and no rematch",
+      "passed": true,
+      "champion": "koga",
+      "gender": 0,
+      "party": [
+        [
+          143,
+          34
+        ],
+        [
+          142,
+          35
+        ],
+        [
+          46,
+          36
+        ],
+        [
+          3,
+          38
+        ],
+        [
+          48,
+          40
+        ]
+      ],
+      "observed_order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "portrait": 120,
+      "colossus_dialogue_observed": false
+    },
+    {
+      "test": "Native Gym victory, reward, Flash Continue and no rematch",
+      "passed": true,
+      "champion": "berenice",
+      "gender": 0,
+      "party": [
+        [
+          49,
+          36
+        ],
+        [
+          56,
+          37
+        ],
+        [
+          136,
+          38
+        ],
+        [
+          51,
+          39
+        ],
+        [
+          145,
+          42
+        ]
+      ],
+      "observed_order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "portrait": 162,
+      "colossus_dialogue_observed": false
+    },
+    {
+      "test": "Native Gym victory, reward, Flash Continue and no rematch",
+      "passed": true,
+      "champion": "nathaniel",
+      "gender": 0,
+      "party": [
+        [
+          34,
+          40
+        ],
+        [
+          67,
+          41
+        ],
+        [
+          113,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          20,
+          43
+        ],
+        [
+          149,
+          45
+        ]
+      ],
+      "observed_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "portrait": 150,
+      "colossus_dialogue_observed": false
+    },
+    {
+      "test": "Native Gym victory, reward, Flash Continue and no rematch",
+      "passed": true,
+      "champion": "don",
+      "gender": 0,
+      "party": [
+        [
+          129,
+          41
+        ],
+        [
+          138,
+          42
+        ],
+        [
+          31,
+          44
+        ],
+        [
+          130,
+          45
+        ],
+        [
+          84,
+          49
+        ]
+      ],
+      "observed_order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "portrait": 156,
+      "colossus_dialogue_observed": false
+    },
+    {
+      "test": "All eight native badge flags earned by actual Gym victories",
+      "passed": true
+    },
+    {
+      "test": "Native Gym victory, reward, Flash Continue and no rematch",
+      "passed": true,
+      "champion": "nathan",
+      "gender": 1,
+      "party": [
+        [
+          82,
+          14
+        ],
+        [
+          31,
+          16
+        ],
+        [
+          1,
+          21
+        ]
+      ],
+      "observed_order": [
+        0,
+        1,
+        2
+      ],
+      "portrait": 135,
+      "colossus_dialogue_observed": false
+    },
+    {
+      "test": "Native Gym victory, reward, Flash Continue and no rematch",
+      "passed": true,
+      "champion": "michael",
+      "gender": 1,
+      "party": [
+        [
+          34,
+          40
+        ],
+        [
+          67,
+          41
+        ],
+        [
+          113,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          20,
+          43
+        ],
+        [
+          149,
+          45
+        ]
+      ],
+      "observed_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "portrait": 151,
+      "colossus_dialogue_observed": false
+    }
+  ],
+  "failure": null
+}
