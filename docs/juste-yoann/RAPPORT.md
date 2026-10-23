@@ -2,6 +2,8 @@
 
 **État : EN COURS. La quête complète n’est pas livrée ni validée.** Branche dédiée `feature/juste-yoann-charme-chroma`, issue de `67b227302`. Aucun merge sur master.
 
+**Les captures actuelles ne montrent pas Juste Yoann : elles testent seulement la scène et le cadeau. Son sprite n’est pas intégré.** Placement demandé ensuite par l’utilisateur : contre le mur du haut, de face. La case retenue est `(6,2)`, immédiatement sous le mur ; `(6,3)` permet de lui parler. Ces deux cases sont libres selon les collisions de la carte, sans empiéter sur le PC `(1,1)` ou l’escalier `(10,2)`. Le rendu définitif reste à vérifier avec le PNG original du PNJ.
+
 [Demande intégrale](demande/CAHIER_DES_CHARGES.md) · [Audit](AUDIT.md).
 
 ## Développé et vérifié
@@ -42,7 +44,7 @@ Le chemin `C:/Users/estab/Downloads/weqrt19_53_30.png` désigne le PC de l’uti
 
 1. Extraire les deux sprites sans modification artistique, adapter palette et dimensions GBA, créer leurs tables complètes de portrait et d’objet de face immobile.
 2. Ajouter le Dresseur avec ses six Yo-kai exacts, ses attaques natives légales, IA classique et paramètres modérés. Valider l’ordre et les deux Démophage en combat.
-3. Raccorder l’invitation à Chen en préservant ses autres événements et faire apparaître Juste Yoann dans la chambre avec une position vérifiée. Ces hooks restent volontairement absents : aucun graphisme de substitution n’est intégré.
+3. Raccorder l’invitation à Chen en préservant ses autres événements et faire apparaître Juste Yoann en `(6,2)`, face vers le bas, contre le mur du haut. Vérifier son rendu et l’interaction depuis `(6,3)`. Ces hooks restent volontairement absents : aucun graphisme de substitution n’est intégré.
 4. Tester refus, défaite du joueur, retour et nouvelle tentative, victoire réelle, discours unique, cadeau et dialogue final sans revanche ; vérifier les deux variantes du joueur et la sauvegarde de l’événement.
 5. Fournir les captures du PNJ, de son introduction en combat et les GIF définitifs. Les preuves actuelles de scène seule ne les remplacent pas.
 
