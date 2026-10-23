@@ -89,3 +89,15 @@ PewterCity_Text_MustBeGoingBackToLab::
 PewterCity_Text_RunningShoesLetterFromMom::
     .string "Une lettre les accompagne…\pMon enfant {PLAYER},\pVoici des Chaussures de Sport\npour ton grand voyage.\pJe serai toujours là\npour t'encourager. Ne renonce pas!\pTa maman$"
 
+
+Argenta_MattCall::
+    .string "Hé ! Par ici !$"
+
+Argenta_MattInvite::
+    .string "Viens voir, y a un drôle de\nrassemblement plus haut !$"
+
+Argenta_DonSpeech::
+    .string "Habitants d'Argenta !\pJe viens aujourd'hui vous offrir une\nchance. Une chance que vous seriez\lbien imprudents de refuser !\pLa Mafiamille grandit chaque jour. Et\nil n'est pas trop tard pour rejoindre\lnos rangs !\pBientôt, humains comme Yo-kai seront\nà ma merci !\pJe compte, d'ici les jours à venir,\ndevenir votre nouveau Maître de la\lLigue !\pEt lorsque ce jour arrivera, c'est\ntoute la région de Kanto qui sera\lsous mon autorité !\pAlors choisissez bien votre camp !\pLa Mafiamille saura vous accueillir !$"
+
+Argenta_MattExplain::
+    .string "Tu sais qui c'était ?\pDon Morléone. Le chef de la\nMafiamille.\pC'est un vieux mafieux. Tout le monde\nle connaît dans la région... et pas\lforcément pour de bonnes raisons.\pMon grand-père a déjà eu des ennuis\navec lui.\pMais ce type est tellement riche\nqu'on dirait que personne peut lui\lfaire quoi que ce soit.\pEt maintenant, il veut devenir Maître\nde la Ligue...\pTss... Il rêve !\pBref, moi, j'ai un trophée à gagner.\nOn se reverra !$"

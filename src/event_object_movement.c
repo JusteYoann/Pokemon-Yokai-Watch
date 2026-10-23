@@ -1616,6 +1616,8 @@ void Unref_RemoveAllObjectEventsExceptPlayer(void)
 static u8 TrySetupObjectEventSprite(const struct ObjectEventTemplate *objectEventTemplate, struct SpriteTemplate *spriteTemplate, u8 mapNum, u8 mapGroup, s16 cameraX, s16 cameraY)
 {
     u8 spriteId;
+    u8 paletteSlot;
+    bool8 argentaMatt;
     u8 objectEventId;
     struct Sprite *sprite;
     struct ObjectEvent *objectEvent;
@@ -1627,9 +1629,16 @@ static u8 TrySetupObjectEventSprite(const struct ObjectEventTemplate *objectEven
 
     objectEvent = &gObjectEvents[objectEventId];
     graphicsInfo = GetObjectEventGraphicsInfo(objectEvent->graphicsId);
+    // Argenta only: bank6 is an unused reflection bank on this dry, locked scene.
+    // Keep original pixels/palettes/animations; never overwrite Don's bank10.
+    argentaMatt = mapNum == MAP_NUM(MAP_PEWTER_CITY) && mapGroup == MAP_GROUP(MAP_PEWTER_CITY)
+               && objectEvent->graphicsId == OBJ_EVENT_GFX_BLUE;
+    paletteSlot = argentaMatt ? PALSLOT_NPC_1_REFLECTION : graphicsInfo->paletteSlot;
+    if (argentaMatt)
+        PatchObjectPalette(graphicsInfo->paletteTag, paletteSlot);
     if (graphicsInfo->paletteSlot == PALSLOT_PLAYER)
         LoadPlayerObjectReflectionPalette(graphicsInfo->paletteTag, graphicsInfo->paletteSlot);
-    else if (graphicsInfo->paletteSlot == PALSLOT_NPC_SPECIAL)
+    else if (!argentaMatt && graphicsInfo->paletteSlot == PALSLOT_NPC_SPECIAL)
         LoadSpecialObjectReflectionPalette(graphicsInfo->paletteTag, graphicsInfo->paletteSlot);
 
 
@@ -1650,7 +1659,7 @@ static u8 TrySetupObjectEventSprite(const struct ObjectEventTemplate *objectEven
     sprite->centerToCornerVecY = -(graphicsInfo->height >> 1);
     sprite->x += 8;
     sprite->y += 16 + sprite->centerToCornerVecY;
-    sprite->oam.paletteNum = graphicsInfo->paletteSlot;
+    sprite->oam.paletteNum = paletteSlot;
     sprite->coordOffsetEnabled = TRUE;
     sprite->data[0] = objectEventId;
     objectEvent->spriteId = spriteId;

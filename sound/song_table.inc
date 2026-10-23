@@ -361,7 +361,7 @@ gSongTable::
 	song mus_silph, 0, 0 @ MUS_YOKAI_BADA_BING
 	song mus_celadon, 0, 0 @ MUS_YOKAI_BLOSSOM_HEIGHTS
 	song mus_pallet, 0, 0 @ MUS_YOKAI_ENMA_VILLA
-	song mus_viridian_forest, 0, 0 @ MUS_YOKAI_WILDWOOD
+	song mus_lavender, 0, 0 @ MUS_YOKAI_ZOMBIE_NIGHT
 	song mus_vs_gym_leader, 0, 0 @ MUS_YOKAI_DECISIVE_BATTLE
 	song mus_sevii_123, 0, 0 @ MUS_YOKAI_HARRISVILLE
 	song mus_rocket_hideout, 0, 0 @ MUS_YOKAI_DODGY

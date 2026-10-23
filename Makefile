@@ -200,6 +200,17 @@ ifneq ($(strip $(YOKAI_AUDIO_DIR)),)
   DATA_ASM_OBJS += $(DATA_ASM_BUILDDIR)/yokai_private_audio.o
   $(DATA_ASM_BUILDDIR)/yokai_private_audio.o: $(YOKAI_AUDIO_DIR)/yokai_music.s $(wildcard $(YOKAI_AUDIO_DIR)/*.dpcm)
 	$(AS) $(ASFLAGS) -o $@ $<
+  ifneq ($(wildcard $(YOKAI_AUDIO_DIR)/yokai_music_gap.s),)
+    ifneq ($(MODERN),0)
+      $(error Private gap audio requires the tested agbcc linker layout, MODERN=0)
+    endif
+    ifeq ($(GAME_REVISION),10)
+      $(error Private gap audio is not supported by the revision10 linker layout)
+    endif
+    DATA_ASM_OBJS += $(DATA_ASM_BUILDDIR)/yokai_private_audio_gap.o
+    $(DATA_ASM_BUILDDIR)/yokai_private_audio_gap.o: $(YOKAI_AUDIO_DIR)/yokai_music_gap.s $(wildcard $(YOKAI_AUDIO_DIR)/*.dpcm)
+	$(AS) $(ASFLAGS) -o $@ $<
+  endif
 endif
 
 OBJS     := $(C_OBJS) $(C_ASM_OBJS) $(ASM_OBJS) $(DATA_ASM_OBJS) $(SONG_OBJS) $(MID_OBJS)

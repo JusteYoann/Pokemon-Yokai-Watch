@@ -3,6 +3,7 @@ PewterCity_MapScripts::
 	.byte 0
 
 PewterCity_OnTransition::
+	call PewterCity_MorleoneOnTransition
 	setworldmapflag FLAG_WORLD_MAP_PEWTER_CITY
 	setvar VAR_MAP_SCENE_PEWTER_CITY_MUSEUM_1F, 0
 	end
@@ -841,3 +842,5 @@ PewterCity_Movement_AideExit3::
 PewterCity_Movement_WalkInPlaceLeft::
 	walk_in_place_left
 	step_end
+
+	.include "data/maps/PewterCity/morleone.inc"

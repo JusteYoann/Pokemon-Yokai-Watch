@@ -3627,14 +3627,15 @@
       "limited": false
     },
     {
-      "constant": "MUS_YOKAI_WILDWOOD",
+      "constant": "MUS_YOKAI_ZOMBIE_NIGHT",
       "song_id": 360,
       "baseline_window_lufs": -20.9,
       "target_window_lufs": -29,
       "gain_q8": 101,
       "gain_db": -8.08,
       "private_sample": false,
-      "limited": false
+      "limited": false,
+      "note": "Public native fallback; historical baseline is not the new Zombie recording"
     },
     {
       "constant": "MUS_YOKAI_DECISIVE_BATTLE",
@@ -3860,5 +3861,14 @@
     }
   ],
   "cry_volume_percent": 60,
-  "new_tracks_measurement": "POST_B13/audio/niveaux-nouveaux-avant-gain.json; 12s native mixer, finite window only"
+  "new_tracks_measurement": "POST_B13/audio/niveaux-nouveaux-avant-gain.json; 12s native mixer, finite window only",
+  "argenta_private_zombie_calibration": {
+    "song_id": 360,
+    "gain_q8_before": 256,
+    "gain_q8_after": 370,
+    "before_lufs": -32.0,
+    "target_lufs": -28.8,
+    "private_only": true,
+    "other_gains_unchanged": true
+  }
 }

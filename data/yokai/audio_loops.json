@@ -5,12 +5,16 @@
     2,
     3,
     4,
+    5,
     6,
     7,
+    8,
     9,
     10,
     11,
     12,
+    13,
+    14,
     15,
     16,
     17,
@@ -21,6 +25,7 @@
     22,
     23,
     24,
+    25,
     26,
     27,
     28,
@@ -28,7 +33,7 @@
     30,
     31
   ],
-  "status": "User authorizes extra Yo-kai OST within ~30MiB: 26 active, six recurrent-source additions; Enma5/Final25 still explicitly substituted and Blossom12 phrase assembly still awaiting listening.",
+  "status": "31 slots: original30 preserved. Zombie Night slot14 replaces Wildwood, available but UNASSIGNED per user; original one-shot, no artificial loop.",
   "tracks": [
     {
       "number": 1,
@@ -463,10 +468,13 @@
     5,
     6,
     7,
+    8,
     9,
     10,
     11,
     12,
+    13,
+    14,
     15,
     16,
     17,
@@ -485,10 +493,96 @@
     30,
     31
   ],
-  "pending_tracks": [
-    5,
-    25
+  "pending_tracks": [],
+  "budget_rom_bytes": 33554432,
+  "max_active_tracks": 31,
+  "gap_tracks": [
+    {
+      "number": 5,
+      "title": "Enma Track",
+      "input_bytes": 821056,
+      "input_sha256": "24e2ba44add8b59e3a9c08f46222d0e7dc815eaf8dee79267f3152710b4ea43e",
+      "input_samples": 1592287,
+      "rate": 13379,
+      "loop_start_samples": null,
+      "loop_end_samples": 1592287,
+      "perceptual_listening_validated": false,
+      "derivation": "Complete existing DPCM retained byte-identically; no loop forced because source recurrence research is inconclusive. One-shot experimental playback; natural ending then silence until next music request.",
+      "mp3_sha256": "6c603e218debc62776090308171d7bf9c1651b1109e83023e31465777d2b8e81",
+      "pcm_wav_sha256": "760b7758a84838d478b9e2147262719df4dd39b92be1c4dbc2d59f2881a23647"
+    },
+    {
+      "number": 8,
+      "title": "Katies House",
+      "input_bytes": 978565,
+      "input_sha256": "4b593bf219d701132d65b3a23d226a6eac10517f5cd8208194ea10f2e5306726",
+      "input_samples": 1897743,
+      "rate": 13379,
+      "loop_start_samples": 298726,
+      "loop_end_samples": 1486781,
+      "perceptual_listening_validated": false,
+      "derivation": "88.799985s native-sample lag verified across extended repeated passage (not a short percussion motif). Opening retained; seam aligned within 50ms of 22.3s stable passage. DPCM blocks retained without re-encoding or crossfade. Human listening pending.",
+      "mp3_sha256": "e91a28646d663b50307f0f89334f790a5ff45cac1b6fd83e4e3df19d75a053bd",
+      "pcm_wav_sha256": "df388e4d6816f73abeb3d625ea9731f7c1c99dd589b91b48e0b2f87ce1a96935",
+      "period_samples": 1188055,
+      "loop_boundary_step_pcm8": 0,
+      "recurrence_validation": "Full-window waveform, aligned spectral and relative-level research in AUDIO_31_OST/CORRECTION_BOUCLES. Lower waveform similarity than13/14; not a claim of exact duplicate audio."
+    },
+    {
+      "number": 13,
+      "title": "Enma Villa",
+      "input_bytes": 1455382,
+      "input_sha256": "4fa9cf85882c6571d309827b98c72ee24805cb6532cb721b295386e3a9b65ae0",
+      "input_samples": 2822500,
+      "rate": 13379,
+      "loop_start_samples": 13389,
+      "loop_end_samples": 1332961,
+      "perceptual_listening_validated": false,
+      "period_samples": 1319572,
+      "loop_boundary_step_pcm8": 0,
+      "recurrence_correlations": [
+        0.9901768741184173,
+        0.9950067051161207,
+        0.9969946201294054,
+        0.9956254939276254
+      ],
+      "derivation": "Full-cycle source recurrence; seam aligned within 50 ms of stable intro endpoint. No crossfade or sample re-encoding. Human listening pending.",
+      "mp3_sha256": "f4f42d66b9a8d331fa1f5506ba558fdbd49ba4e3b4156fbd3a3f3358ee33a9e0",
+      "pcm_wav_sha256": "fef3e853eacac76972196bb42e9afd274950987a3e0b342e8feb1e5a74c0e5a3"
+    },
+    {
+      "number": 25,
+      "title": "Final Battle \u2013 Are You Ready?",
+      "input_bytes": 1393936,
+      "input_sha256": "d648b8289d43a212e44840959c5196e483666595840d3e63a492d6ebe2d0a8ae",
+      "input_samples": 2703323,
+      "rate": 13379,
+      "loop_start_samples": 462424,
+      "loop_end_samples": 2474626,
+      "perceptual_listening_validated": false,
+      "derivation": "User-selected experimental variant C: original intro retained once, then exact462424..2474626 native samples. Context-first comparison near34.8/185.2s followed by<=5ms phase refinement. No re-encoding, crossfade or time stretch. Definitive musical listening approval pending.",
+      "mp3_sha256": "449ba293b02001be30decbcfce85d48d63c9ea92534e05f073dcbe865c769470",
+      "pcm_wav_sha256": "9dff4f30a556f5aa0be05216448ded8422823aab5b657a7856bf4df857fdb644",
+      "period_samples": 2012202,
+      "loop_boundary_step_pcm8": 0,
+      "approval_scope": "User explicitly selected variant C for experimental integration, not final musical quality."
+    },
+    {
+      "number": 14,
+      "title": "Zombie Night (Town)",
+      "input_bytes": 680146,
+      "input_sha256": "9af2bf4f61dbce7b3807ee5f86d112d7ed423dc286abd7eac8e146ec0f7426be",
+      "input_samples": 1318984,
+      "rate": 13379,
+      "loop_start_samples": null,
+      "loop_end_samples": null,
+      "perceptual_listening_validated": false,
+      "derivation": "Original full source, no looping/crossfade. User requested unassigned library entry while Lavender retains Mystic Grove.",
+      "mp3_sha256": "a48e984cc7257b9c42d0ff705b21170d83d663b5ad71a65a5909d2d8ac80a7a6",
+      "pcm_wav_sha256": "7bce06e92800c935802eb87b5d5651a60760aa9f8fc7aa6e121715470c327b7b"
+    }
   ],
-  "budget_rom_bytes": 31457280,
-  "max_active_tracks": 31
+  "pending_loop_tracks": [
+    5
+  ]
 }

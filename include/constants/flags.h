@@ -1566,3 +1566,10 @@
 #define FLAG_YOKAI_MORLEONE_REWARD 0x31d
 
 #endif // GUARD_CONSTANTS_FLAGS_H
+
+// Argenta introduction: permanent, independent of gym/running-shoes state.
+#define FLAG_ARGENTA_MORLEONE_DONE 0x31E
+#define FLAG_ARGENTA_MORLEONE_PENDING 0x31F
+
+#define FLAG_HIDE_ARGENTA_MAFIA 0x320
+#define FLAG_HIDE_ARGENTA_MATT 0x321

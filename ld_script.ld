@@ -1028,6 +1028,16 @@ SECTIONS {
         data/multiboot_pokemon_colosseum.o(.rodata);
     } > ROM =0
 
+    /* Optional private songs occupy existing FF padding, never graphics. */
+    yokai_audio_gap : ALIGN(4)
+    {
+        __yokai_audio_gap_start = .;
+        KEEP(*(.yokai_audio_gap))
+        __yokai_audio_gap_end = .;
+    } > ROM =0
+    ASSERT(__yokai_audio_gap_end <= 0x08D00000,
+           "Private audio overlaps graphics at 0x08D00000")
+
     gfx_data 0x08D00000 :
     ALIGN(4)
     {
