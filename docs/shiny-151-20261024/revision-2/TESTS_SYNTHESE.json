@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "versions": [
+    {
+      "version": "public",
+      "sha256": "065a83e926839e4b5d074a2206221dd5a616a00c61925122564cd0bcaa44fa9c",
+      "battles151": true,
+      "palette_pointers302": true,
+      "generic_paths8": true,
+      "BG16": true,
+      "native_turns5": true,
+      "VRAM_retained": true
+    },
+    {
+      "version": "prive",
+      "sha256": "63121ecbc74d8d88353a3aafa4fff3fe3e3a24c736b71c94c35df092d6ad1686",
+      "battles151": true,
+      "palette_pointers302": true,
+      "generic_paths8": true,
+      "BG16": true,
+      "native_turns5": true,
+      "VRAM_retained": true
+    }
+  ],
+  "scope": "All151 native battles per ROM, all302 native palette pointers, eight generic front/back color-mask paths and16 BG copies, five actual controller-driven damaging turns per ROM with texture/VRAM/palette retained. No full adventure or all-attacks claim."
+}

@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "scope": "Eight color-mask renderers: generic UI, battle BG copy and five real turns.\nFixed test parties/moves and Badge8 are fixtures (obedience; enemy uses Splash);\nno ROM, HP or battle result edits.\nFive historically eligible species play a real damaging move via controller.\nThe three blocked species receive explicit palette/texture fixtures for BG tests.\n",
+  "rom_sha256": "065a83e926839e4b5d074a2206221dd5a616a00c61925122564cd0bcaa44fa9c",
+  "error": null,
+  "results": [
+    {
+      "species": 18,
+      "generic_front_back": true,
+      "normal_loader_unchanged": true,
+      "battle_animation_BG_both_sides": true,
+      "real_turn": true,
+      "enemy_hp_before": 243,
+      "enemy_hp_after": 226,
+      "shiny_retained": true,
+      "native_VRAM_retained": true
+    },
+    {
+      "species": 51,
+      "generic_front_back": true,
+      "normal_loader_unchanged": true,
+      "battle_animation_BG_both_sides": true
+    },
+    {
+      "species": 66,
+      "generic_front_back": true,
+      "normal_loader_unchanged": true,
+      "battle_animation_BG_both_sides": true,
+      "real_turn": true,
+      "enemy_hp_before": 159,
+      "enemy_hp_after": 128,
+      "shiny_retained": true,
+      "native_VRAM_retained": true
+    },
+    {
+      "species": 67,
+      "generic_front_back": true,
+      "normal_loader_unchanged": true,
+      "battle_animation_BG_both_sides": true,
+      "real_turn": true,
+      "enemy_hp_before": 234,
+      "enemy_hp_after": 213,
+      "shiny_retained": true,
+      "native_VRAM_retained": true
+    },
+    {
+      "species": 120,
+      "generic_front_back": true,
+      "normal_loader_unchanged": true,
+      "battle_animation_BG_both_sides": true,
+      "real_turn": true,
+      "enemy_hp_before": 220,
+      "enemy_hp_after": 146,
+      "shiny_retained": true,
+      "native_VRAM_retained": true
+    },
+    {
+      "species": 133,
+      "generic_front_back": true,
+      "normal_loader_unchanged": true,
+      "battle_animation_BG_both_sides": true
+    },
+    {
+      "species": 145,
+      "generic_front_back": true,
+      "normal_loader_unchanged": true,
+      "battle_animation_BG_both_sides": true,
+      "real_turn": true,
+      "enemy_hp_before": 255,
+      "enemy_hp_after": 238,
+      "shiny_retained": true,
+      "native_VRAM_retained": true
+    },
+    {
+      "species": 150,
+      "generic_front_back": true,
+      "normal_loader_unchanged": true,
+      "battle_animation_BG_both_sides": true
+    }
+  ]
+}

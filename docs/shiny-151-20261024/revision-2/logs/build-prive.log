@@ -1,0 +1,13 @@
+tools/scaninc/scaninc -M build/firered_audio/src/decompress.d -I include -I tools/agbcc/include src/decompress.c
+tools/agbcc/bin/agbcc <flags> -o build/firered_audio/src/decompress.o src/decompress.c
+tools/agbcc/bin/agbcc <flags> -o build/firered_audio/src/event_object_movement.o src/event_object_movement.c
+tools/agbcc/bin/agbcc <flags> -o build/firered_audio/src/graphics.o src/graphics.c
+tools/agbcc/bin/agbcc <flags> -o build/firered_audio/src/yokai_battle_geometry.o src/yokai_battle_geometry.c
+tools/ramscrgen/ramscrgen COMMON sym_common.txt ENGLISH -c build/firered_audio/src,common_syms > build/firered_audio/sym_common.ld
+Memory region         Used Size  Region Size  %age Used
+           EWRAM:      261368 B       256 KB     99.70%
+           IWRAM:       29888 B        32 KB     91.21%
+             ROM:    31787063 B        32 MB     94.73%
+cd build/firered_audio && arm-none-eabi-ld -Map ../../pokefirered_audio.map -T ../../ld_script.ld --print-memory-usage -o ../../pokefirered_audio.elf <objs> <libs> | cat
+tools/gbafix/gbafix pokefirered_audio.elf -t"POKEMON FIRE" -cBPRE -m01 -r0 --silent
+arm-none-eabi-objcopy -O binary --gap-fill 0xFF --pad-to 0x9000000 pokefirered_audio.elf pokefirered_audio.gba

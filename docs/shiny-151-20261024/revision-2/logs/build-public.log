@@ -1,0 +1,1762 @@
+tools/scaninc/scaninc -M build/firered/src/decompress.d -I include -I tools/agbcc/include src/decompress.c
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/018/back.png graphics/yokai_shiny_revised/018/back.4bpp
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/018/front.png graphics/yokai_shiny_revised/018/front.4bpp
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/051/back.png graphics/yokai_shiny_revised/051/back.4bpp
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/051/front.png graphics/yokai_shiny_revised/051/front.4bpp
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/066/back.png graphics/yokai_shiny_revised/066/back.4bpp
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/066/front.png graphics/yokai_shiny_revised/066/front.4bpp
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/067/back.png graphics/yokai_shiny_revised/067/back.4bpp
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/067/front.png graphics/yokai_shiny_revised/067/front.4bpp
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/120/back.png graphics/yokai_shiny_revised/120/back.4bpp
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/120/front.png graphics/yokai_shiny_revised/120/front.4bpp
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/133/back.png graphics/yokai_shiny_revised/133/back.4bpp
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/133/front.png graphics/yokai_shiny_revised/133/front.4bpp
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/145/back.png graphics/yokai_shiny_revised/145/back.4bpp
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/145/front.png graphics/yokai_shiny_revised/145/front.4bpp
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/150/back.png graphics/yokai_shiny_revised/150/back.4bpp
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/150/front.png graphics/yokai_shiny_revised/150/front.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_characters/ariane/usapion_overworld.4bpp --output graphics/yokai_characters/ariane/usapion_overworld-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_characters/leo_jibanyan/overworld.4bpp --output graphics/yokai_characters/leo_jibanyan/overworld-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/001/back.4bpp --output graphics/yokai/001/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/001/front.4bpp --output graphics/yokai/001/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/001/icon.4bpp --output graphics/yokai/001/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/001/shiny.pal graphics/yokai/001/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/002/back.4bpp --output graphics/yokai/002/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/002/front.4bpp --output graphics/yokai/002/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/002/icon.4bpp --output graphics/yokai/002/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/002/shiny.pal graphics/yokai/002/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/003/back.4bpp --output graphics/yokai/003/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/003/front.4bpp --output graphics/yokai/003/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/003/icon.4bpp --output graphics/yokai/003/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/003/shiny.pal graphics/yokai/003/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/004/back.4bpp --output graphics/yokai/004/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/004/front.4bpp --output graphics/yokai/004/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/004/icon.4bpp --output graphics/yokai/004/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/004/shiny.pal graphics/yokai/004/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/005/back.4bpp --output graphics/yokai/005/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/005/front.4bpp --output graphics/yokai/005/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/005/icon.4bpp --output graphics/yokai/005/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/005/shiny.pal graphics/yokai/005/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/006/back.4bpp --output graphics/yokai/006/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/006/front.4bpp --output graphics/yokai/006/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/006/icon.4bpp --output graphics/yokai/006/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/006/shiny.pal graphics/yokai/006/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/007/back.4bpp --output graphics/yokai/007/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/007/front.4bpp --output graphics/yokai/007/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/007/icon.4bpp --output graphics/yokai/007/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/007/shiny.pal graphics/yokai/007/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/008/back.4bpp --output graphics/yokai/008/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/008/front.4bpp --output graphics/yokai/008/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/008/icon.4bpp --output graphics/yokai/008/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/008/shiny.pal graphics/yokai/008/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/009/back.4bpp --output graphics/yokai/009/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/009/front.4bpp --output graphics/yokai/009/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/009/icon.4bpp --output graphics/yokai/009/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/009/shiny.pal graphics/yokai/009/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/010/back.4bpp --output graphics/yokai/010/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/010/front.4bpp --output graphics/yokai/010/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/010/icon.4bpp --output graphics/yokai/010/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/010/shiny.pal graphics/yokai/010/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/011/back.4bpp --output graphics/yokai/011/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/011/front.4bpp --output graphics/yokai/011/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/011/icon.4bpp --output graphics/yokai/011/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/011/shiny.pal graphics/yokai/011/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/012/back.4bpp --output graphics/yokai/012/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/012/front.4bpp --output graphics/yokai/012/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/012/icon.4bpp --output graphics/yokai/012/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/012/shiny.pal graphics/yokai/012/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/013/back.4bpp --output graphics/yokai/013/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/013/front.4bpp --output graphics/yokai/013/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/013/icon.4bpp --output graphics/yokai/013/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/013/shiny.pal graphics/yokai/013/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/014/back.4bpp --output graphics/yokai/014/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/014/front.4bpp --output graphics/yokai/014/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/014/icon.4bpp --output graphics/yokai/014/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/014/shiny.pal graphics/yokai/014/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/015/back.4bpp --output graphics/yokai/015/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/015/front.4bpp --output graphics/yokai/015/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/015/icon.4bpp --output graphics/yokai/015/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/015/shiny.pal graphics/yokai/015/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/016/back.4bpp --output graphics/yokai/016/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/016/front.4bpp --output graphics/yokai/016/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/016/icon.4bpp --output graphics/yokai/016/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/016/shiny.pal graphics/yokai/016/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/017/back.4bpp --output graphics/yokai/017/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/017/front.4bpp --output graphics/yokai/017/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/017/icon.4bpp --output graphics/yokai/017/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/017/shiny.pal graphics/yokai/017/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/018/back.4bpp --output graphics/yokai/018/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/018/front.4bpp --output graphics/yokai/018/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/018/icon.4bpp --output graphics/yokai/018/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/018/shiny.pal graphics/yokai/018/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/019/back.4bpp --output graphics/yokai/019/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/019/front.4bpp --output graphics/yokai/019/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/019/icon.4bpp --output graphics/yokai/019/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/019/shiny.pal graphics/yokai/019/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/020/back.4bpp --output graphics/yokai/020/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/020/front.4bpp --output graphics/yokai/020/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/020/icon.4bpp --output graphics/yokai/020/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/020/shiny.pal graphics/yokai/020/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/021/back.4bpp --output graphics/yokai/021/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/021/front.4bpp --output graphics/yokai/021/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/021/icon.4bpp --output graphics/yokai/021/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/021/shiny.pal graphics/yokai/021/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/022/back.4bpp --output graphics/yokai/022/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/022/front.4bpp --output graphics/yokai/022/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/022/icon.4bpp --output graphics/yokai/022/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/022/shiny.pal graphics/yokai/022/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/023/back.4bpp --output graphics/yokai/023/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/023/front.4bpp --output graphics/yokai/023/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/023/icon.4bpp --output graphics/yokai/023/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/023/shiny.pal graphics/yokai/023/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/024/back.4bpp --output graphics/yokai/024/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/024/front.4bpp --output graphics/yokai/024/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/024/icon.4bpp --output graphics/yokai/024/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/024/shiny.pal graphics/yokai/024/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/025/back.4bpp --output graphics/yokai/025/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/025/front.4bpp --output graphics/yokai/025/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/025/icon.4bpp --output graphics/yokai/025/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/025/shiny.pal graphics/yokai/025/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/026/back.4bpp --output graphics/yokai/026/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/026/front.4bpp --output graphics/yokai/026/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/026/icon.4bpp --output graphics/yokai/026/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/026/shiny.pal graphics/yokai/026/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/027/back.4bpp --output graphics/yokai/027/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/027/front.4bpp --output graphics/yokai/027/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/027/icon.4bpp --output graphics/yokai/027/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/027/shiny.pal graphics/yokai/027/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/028/back.4bpp --output graphics/yokai/028/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/028/front.4bpp --output graphics/yokai/028/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/028/icon.4bpp --output graphics/yokai/028/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/028/shiny.pal graphics/yokai/028/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/029/back.4bpp --output graphics/yokai/029/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/029/front.4bpp --output graphics/yokai/029/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/029/icon.4bpp --output graphics/yokai/029/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/029/shiny.pal graphics/yokai/029/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/030/back.4bpp --output graphics/yokai/030/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/030/front.4bpp --output graphics/yokai/030/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/030/icon.4bpp --output graphics/yokai/030/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/030/shiny.pal graphics/yokai/030/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/031/back.4bpp --output graphics/yokai/031/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/031/front.4bpp --output graphics/yokai/031/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/031/icon.4bpp --output graphics/yokai/031/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/031/shiny.pal graphics/yokai/031/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/032/back.4bpp --output graphics/yokai/032/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/032/front.4bpp --output graphics/yokai/032/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/032/icon.4bpp --output graphics/yokai/032/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/032/shiny.pal graphics/yokai/032/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/033/back.4bpp --output graphics/yokai/033/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/033/front.4bpp --output graphics/yokai/033/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/033/icon.4bpp --output graphics/yokai/033/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/033/shiny.pal graphics/yokai/033/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/034/back.4bpp --output graphics/yokai/034/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/034/front.4bpp --output graphics/yokai/034/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/034/icon.4bpp --output graphics/yokai/034/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/034/shiny.pal graphics/yokai/034/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/035/back.4bpp --output graphics/yokai/035/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/035/front.4bpp --output graphics/yokai/035/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/035/icon.4bpp --output graphics/yokai/035/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/035/shiny.pal graphics/yokai/035/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/036/back.4bpp --output graphics/yokai/036/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/036/front.4bpp --output graphics/yokai/036/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/036/icon.4bpp --output graphics/yokai/036/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/036/shiny.pal graphics/yokai/036/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/037/back.4bpp --output graphics/yokai/037/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/037/front.4bpp --output graphics/yokai/037/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/037/icon.4bpp --output graphics/yokai/037/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/037/shiny.pal graphics/yokai/037/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/038/back.4bpp --output graphics/yokai/038/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/038/front.4bpp --output graphics/yokai/038/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/038/icon.4bpp --output graphics/yokai/038/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/038/shiny.pal graphics/yokai/038/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/039/back.4bpp --output graphics/yokai/039/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/039/front.4bpp --output graphics/yokai/039/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/039/icon.4bpp --output graphics/yokai/039/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/039/shiny.pal graphics/yokai/039/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/040/back.4bpp --output graphics/yokai/040/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/040/front.4bpp --output graphics/yokai/040/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/040/icon.4bpp --output graphics/yokai/040/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/040/shiny.pal graphics/yokai/040/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/041/back.4bpp --output graphics/yokai/041/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/041/front.4bpp --output graphics/yokai/041/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/041/icon.4bpp --output graphics/yokai/041/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/041/shiny.pal graphics/yokai/041/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/042/back.4bpp --output graphics/yokai/042/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/042/front.4bpp --output graphics/yokai/042/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/042/icon.4bpp --output graphics/yokai/042/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/042/shiny.pal graphics/yokai/042/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/043/back.4bpp --output graphics/yokai/043/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/043/front.4bpp --output graphics/yokai/043/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/043/icon.4bpp --output graphics/yokai/043/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/043/shiny.pal graphics/yokai/043/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/044/back.4bpp --output graphics/yokai/044/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/044/front.4bpp --output graphics/yokai/044/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/044/icon.4bpp --output graphics/yokai/044/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/044/shiny.pal graphics/yokai/044/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/045/back.4bpp --output graphics/yokai/045/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/045/front.4bpp --output graphics/yokai/045/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/045/icon.4bpp --output graphics/yokai/045/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/045/shiny.pal graphics/yokai/045/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/046/back.4bpp --output graphics/yokai/046/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/046/front.4bpp --output graphics/yokai/046/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/046/icon.4bpp --output graphics/yokai/046/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/046/shiny.pal graphics/yokai/046/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/047/back.4bpp --output graphics/yokai/047/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/047/front.4bpp --output graphics/yokai/047/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/047/icon.4bpp --output graphics/yokai/047/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/047/shiny.pal graphics/yokai/047/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/048/back.4bpp --output graphics/yokai/048/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/048/front.4bpp --output graphics/yokai/048/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/048/icon.4bpp --output graphics/yokai/048/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/048/shiny.pal graphics/yokai/048/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/049/back.4bpp --output graphics/yokai/049/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/049/front.4bpp --output graphics/yokai/049/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/049/icon.4bpp --output graphics/yokai/049/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/049/shiny.pal graphics/yokai/049/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/050/back.4bpp --output graphics/yokai/050/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/050/front.4bpp --output graphics/yokai/050/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/050/icon.4bpp --output graphics/yokai/050/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/050/shiny.pal graphics/yokai/050/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/051/back.4bpp --output graphics/yokai/051/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/051/front.4bpp --output graphics/yokai/051/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/051/icon.4bpp --output graphics/yokai/051/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/051/shiny.pal graphics/yokai/051/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/052/back.4bpp --output graphics/yokai/052/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/052/front.4bpp --output graphics/yokai/052/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/052/icon.4bpp --output graphics/yokai/052/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/052/shiny.pal graphics/yokai/052/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/053/back.4bpp --output graphics/yokai/053/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/053/front.4bpp --output graphics/yokai/053/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/053/icon.4bpp --output graphics/yokai/053/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/053/shiny.pal graphics/yokai/053/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/054/back.4bpp --output graphics/yokai/054/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/054/front.4bpp --output graphics/yokai/054/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/054/icon.4bpp --output graphics/yokai/054/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/054/shiny.pal graphics/yokai/054/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/055/back.4bpp --output graphics/yokai/055/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/055/front.4bpp --output graphics/yokai/055/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/055/icon.4bpp --output graphics/yokai/055/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/055/shiny.pal graphics/yokai/055/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/056/back.4bpp --output graphics/yokai/056/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/056/front.4bpp --output graphics/yokai/056/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/056/icon.4bpp --output graphics/yokai/056/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/056/shiny.pal graphics/yokai/056/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/057/back.4bpp --output graphics/yokai/057/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/057/front.4bpp --output graphics/yokai/057/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/057/icon.4bpp --output graphics/yokai/057/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/057/shiny.pal graphics/yokai/057/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/058/back.4bpp --output graphics/yokai/058/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/058/front.4bpp --output graphics/yokai/058/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/058/icon.4bpp --output graphics/yokai/058/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/058/shiny.pal graphics/yokai/058/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/059/back.4bpp --output graphics/yokai/059/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/059/front.4bpp --output graphics/yokai/059/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/059/icon.4bpp --output graphics/yokai/059/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/059/shiny.pal graphics/yokai/059/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/060/back.4bpp --output graphics/yokai/060/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/060/front.4bpp --output graphics/yokai/060/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/060/icon.4bpp --output graphics/yokai/060/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/060/shiny.pal graphics/yokai/060/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/061/back.4bpp --output graphics/yokai/061/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/061/front.4bpp --output graphics/yokai/061/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/061/icon.4bpp --output graphics/yokai/061/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/061/shiny.pal graphics/yokai/061/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/062/back.4bpp --output graphics/yokai/062/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/062/front.4bpp --output graphics/yokai/062/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/062/icon.4bpp --output graphics/yokai/062/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/062/shiny.pal graphics/yokai/062/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/063/back.4bpp --output graphics/yokai/063/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/063/front.4bpp --output graphics/yokai/063/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/063/icon.4bpp --output graphics/yokai/063/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/063/shiny.pal graphics/yokai/063/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/064/back.4bpp --output graphics/yokai/064/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/064/front.4bpp --output graphics/yokai/064/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/064/icon.4bpp --output graphics/yokai/064/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/064/shiny.pal graphics/yokai/064/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/065/back.4bpp --output graphics/yokai/065/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/065/front.4bpp --output graphics/yokai/065/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/065/icon.4bpp --output graphics/yokai/065/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/065/shiny.pal graphics/yokai/065/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/066/back.4bpp --output graphics/yokai/066/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/066/front.4bpp --output graphics/yokai/066/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/066/icon.4bpp --output graphics/yokai/066/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/066/shiny.pal graphics/yokai/066/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/067/back.4bpp --output graphics/yokai/067/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/067/front.4bpp --output graphics/yokai/067/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/067/icon.4bpp --output graphics/yokai/067/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/067/shiny.pal graphics/yokai/067/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/068/back.4bpp --output graphics/yokai/068/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/068/front.4bpp --output graphics/yokai/068/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/068/icon.4bpp --output graphics/yokai/068/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/068/shiny.pal graphics/yokai/068/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/069/back.4bpp --output graphics/yokai/069/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/069/front.4bpp --output graphics/yokai/069/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/069/icon.4bpp --output graphics/yokai/069/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/069/shiny.pal graphics/yokai/069/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/070/back.4bpp --output graphics/yokai/070/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/070/front.4bpp --output graphics/yokai/070/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/070/icon.4bpp --output graphics/yokai/070/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/070/shiny.pal graphics/yokai/070/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/071/back.4bpp --output graphics/yokai/071/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/071/front.4bpp --output graphics/yokai/071/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/071/icon.4bpp --output graphics/yokai/071/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/071/shiny.pal graphics/yokai/071/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/072/back.4bpp --output graphics/yokai/072/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/072/front.4bpp --output graphics/yokai/072/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/072/icon.4bpp --output graphics/yokai/072/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/072/shiny.pal graphics/yokai/072/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/073/back.4bpp --output graphics/yokai/073/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/073/front.4bpp --output graphics/yokai/073/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/073/icon.4bpp --output graphics/yokai/073/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/073/shiny.pal graphics/yokai/073/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/074/back.4bpp --output graphics/yokai/074/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/074/front.4bpp --output graphics/yokai/074/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/074/icon.4bpp --output graphics/yokai/074/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/074/shiny.pal graphics/yokai/074/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/075/back.4bpp --output graphics/yokai/075/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/075/front.4bpp --output graphics/yokai/075/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/075/icon.4bpp --output graphics/yokai/075/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/075/shiny.pal graphics/yokai/075/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/076/back.4bpp --output graphics/yokai/076/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/076/front.4bpp --output graphics/yokai/076/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/076/icon.4bpp --output graphics/yokai/076/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/076/shiny.pal graphics/yokai/076/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/077/back.4bpp --output graphics/yokai/077/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/077/front.4bpp --output graphics/yokai/077/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/077/icon.4bpp --output graphics/yokai/077/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/077/shiny.pal graphics/yokai/077/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/078/back.4bpp --output graphics/yokai/078/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/078/front.4bpp --output graphics/yokai/078/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/078/icon.4bpp --output graphics/yokai/078/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/078/shiny.pal graphics/yokai/078/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/079/back.4bpp --output graphics/yokai/079/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/079/front.4bpp --output graphics/yokai/079/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/079/icon.4bpp --output graphics/yokai/079/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/079/shiny.pal graphics/yokai/079/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/080/back.4bpp --output graphics/yokai/080/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/080/front.4bpp --output graphics/yokai/080/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/080/icon.4bpp --output graphics/yokai/080/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/080/shiny.pal graphics/yokai/080/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/081/back.4bpp --output graphics/yokai/081/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/081/front.4bpp --output graphics/yokai/081/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/081/icon.4bpp --output graphics/yokai/081/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/081/shiny.pal graphics/yokai/081/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/082/back.4bpp --output graphics/yokai/082/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/082/front.4bpp --output graphics/yokai/082/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/082/icon.4bpp --output graphics/yokai/082/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/082/shiny.pal graphics/yokai/082/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/083/back.4bpp --output graphics/yokai/083/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/083/front.4bpp --output graphics/yokai/083/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/083/icon.4bpp --output graphics/yokai/083/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/083/shiny.pal graphics/yokai/083/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/084/back.4bpp --output graphics/yokai/084/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/084/front.4bpp --output graphics/yokai/084/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/084/icon.4bpp --output graphics/yokai/084/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/084/shiny.pal graphics/yokai/084/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/085/back.4bpp --output graphics/yokai/085/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/085/front.4bpp --output graphics/yokai/085/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/085/icon.4bpp --output graphics/yokai/085/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/085/shiny.pal graphics/yokai/085/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/086/back.4bpp --output graphics/yokai/086/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/086/front.4bpp --output graphics/yokai/086/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/086/icon.4bpp --output graphics/yokai/086/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/086/shiny.pal graphics/yokai/086/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/087/back.4bpp --output graphics/yokai/087/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/087/front.4bpp --output graphics/yokai/087/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/087/icon.4bpp --output graphics/yokai/087/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/087/shiny.pal graphics/yokai/087/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/088/back.4bpp --output graphics/yokai/088/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/088/front.4bpp --output graphics/yokai/088/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/088/icon.4bpp --output graphics/yokai/088/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/088/shiny.pal graphics/yokai/088/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/089/back.4bpp --output graphics/yokai/089/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/089/front.4bpp --output graphics/yokai/089/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/089/icon.4bpp --output graphics/yokai/089/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/089/shiny.pal graphics/yokai/089/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/090/back.4bpp --output graphics/yokai/090/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/090/front.4bpp --output graphics/yokai/090/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/090/icon.4bpp --output graphics/yokai/090/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/090/shiny.pal graphics/yokai/090/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/091/back.4bpp --output graphics/yokai/091/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/091/front.4bpp --output graphics/yokai/091/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/091/icon.4bpp --output graphics/yokai/091/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/091/shiny.pal graphics/yokai/091/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/092/back.4bpp --output graphics/yokai/092/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/092/front.4bpp --output graphics/yokai/092/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/092/icon.4bpp --output graphics/yokai/092/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/092/shiny.pal graphics/yokai/092/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/093/back.4bpp --output graphics/yokai/093/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/093/front.4bpp --output graphics/yokai/093/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/093/icon.4bpp --output graphics/yokai/093/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/093/shiny.pal graphics/yokai/093/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/094/back.4bpp --output graphics/yokai/094/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/094/front.4bpp --output graphics/yokai/094/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/094/icon.4bpp --output graphics/yokai/094/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/094/shiny.pal graphics/yokai/094/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/095/back.4bpp --output graphics/yokai/095/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/095/front.4bpp --output graphics/yokai/095/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/095/icon.4bpp --output graphics/yokai/095/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/095/shiny.pal graphics/yokai/095/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/096/back.4bpp --output graphics/yokai/096/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/096/front.4bpp --output graphics/yokai/096/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/096/icon.4bpp --output graphics/yokai/096/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/096/shiny.pal graphics/yokai/096/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/097/back.4bpp --output graphics/yokai/097/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/097/front.4bpp --output graphics/yokai/097/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/097/icon.4bpp --output graphics/yokai/097/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/097/shiny.pal graphics/yokai/097/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/098/back.4bpp --output graphics/yokai/098/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/098/front.4bpp --output graphics/yokai/098/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/098/icon.4bpp --output graphics/yokai/098/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/098/shiny.pal graphics/yokai/098/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/099/back.4bpp --output graphics/yokai/099/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/099/front.4bpp --output graphics/yokai/099/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/099/icon.4bpp --output graphics/yokai/099/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/099/shiny.pal graphics/yokai/099/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/100/back.4bpp --output graphics/yokai/100/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/100/front.4bpp --output graphics/yokai/100/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/100/icon.4bpp --output graphics/yokai/100/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/100/shiny.pal graphics/yokai/100/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/101/back.4bpp --output graphics/yokai/101/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/101/front.4bpp --output graphics/yokai/101/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/101/icon.4bpp --output graphics/yokai/101/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/101/shiny.pal graphics/yokai/101/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/102/back.4bpp --output graphics/yokai/102/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/102/front.4bpp --output graphics/yokai/102/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/102/icon.4bpp --output graphics/yokai/102/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/102/shiny.pal graphics/yokai/102/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/103/back.4bpp --output graphics/yokai/103/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/103/front.4bpp --output graphics/yokai/103/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/103/icon.4bpp --output graphics/yokai/103/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/103/shiny.pal graphics/yokai/103/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/104/back.4bpp --output graphics/yokai/104/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/104/front.4bpp --output graphics/yokai/104/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/104/icon.4bpp --output graphics/yokai/104/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/104/shiny.pal graphics/yokai/104/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/105/back.4bpp --output graphics/yokai/105/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/105/front.4bpp --output graphics/yokai/105/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/105/icon.4bpp --output graphics/yokai/105/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/105/shiny.pal graphics/yokai/105/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/106/back.4bpp --output graphics/yokai/106/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/106/front.4bpp --output graphics/yokai/106/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/106/icon.4bpp --output graphics/yokai/106/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/106/shiny.pal graphics/yokai/106/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/107/back.4bpp --output graphics/yokai/107/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/107/front.4bpp --output graphics/yokai/107/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/107/icon.4bpp --output graphics/yokai/107/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/107/shiny.pal graphics/yokai/107/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/108/back.4bpp --output graphics/yokai/108/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/108/front.4bpp --output graphics/yokai/108/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/108/icon.4bpp --output graphics/yokai/108/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/108/shiny.pal graphics/yokai/108/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/109/back.4bpp --output graphics/yokai/109/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/109/front.4bpp --output graphics/yokai/109/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/109/icon.4bpp --output graphics/yokai/109/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/109/shiny.pal graphics/yokai/109/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/110/back.4bpp --output graphics/yokai/110/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/110/front.4bpp --output graphics/yokai/110/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/110/icon.4bpp --output graphics/yokai/110/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/110/shiny.pal graphics/yokai/110/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/111/back.4bpp --output graphics/yokai/111/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/111/front.4bpp --output graphics/yokai/111/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/111/icon.4bpp --output graphics/yokai/111/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/111/shiny.pal graphics/yokai/111/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/112/back.4bpp --output graphics/yokai/112/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/112/front.4bpp --output graphics/yokai/112/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/112/icon.4bpp --output graphics/yokai/112/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/112/shiny.pal graphics/yokai/112/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/113/back.4bpp --output graphics/yokai/113/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/113/front.4bpp --output graphics/yokai/113/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/113/icon.4bpp --output graphics/yokai/113/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/113/shiny.pal graphics/yokai/113/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/114/back.4bpp --output graphics/yokai/114/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/114/front.4bpp --output graphics/yokai/114/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/114/icon.4bpp --output graphics/yokai/114/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/114/shiny.pal graphics/yokai/114/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/115/back.4bpp --output graphics/yokai/115/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/115/front.4bpp --output graphics/yokai/115/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/115/icon.4bpp --output graphics/yokai/115/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/115/shiny.pal graphics/yokai/115/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/116/back.4bpp --output graphics/yokai/116/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/116/front.4bpp --output graphics/yokai/116/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/116/icon.4bpp --output graphics/yokai/116/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/116/shiny.pal graphics/yokai/116/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/117/back.4bpp --output graphics/yokai/117/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/117/front.4bpp --output graphics/yokai/117/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/117/icon.4bpp --output graphics/yokai/117/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/117/shiny.pal graphics/yokai/117/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/118/back.4bpp --output graphics/yokai/118/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/118/front.4bpp --output graphics/yokai/118/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/118/icon.4bpp --output graphics/yokai/118/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/118/shiny.pal graphics/yokai/118/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/119/back.4bpp --output graphics/yokai/119/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/119/front.4bpp --output graphics/yokai/119/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/119/icon.4bpp --output graphics/yokai/119/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/119/shiny.pal graphics/yokai/119/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/120/back.4bpp --output graphics/yokai/120/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/120/front.4bpp --output graphics/yokai/120/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/120/icon.4bpp --output graphics/yokai/120/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/120/shiny.pal graphics/yokai/120/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/121/back.4bpp --output graphics/yokai/121/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/121/front.4bpp --output graphics/yokai/121/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/121/icon.4bpp --output graphics/yokai/121/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/121/shiny.pal graphics/yokai/121/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/122/back.4bpp --output graphics/yokai/122/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/122/front.4bpp --output graphics/yokai/122/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/122/icon.4bpp --output graphics/yokai/122/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/122/shiny.pal graphics/yokai/122/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/123/back.4bpp --output graphics/yokai/123/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/123/front.4bpp --output graphics/yokai/123/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/123/icon.4bpp --output graphics/yokai/123/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/123/shiny.pal graphics/yokai/123/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/124/back.4bpp --output graphics/yokai/124/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/124/front.4bpp --output graphics/yokai/124/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/124/icon.4bpp --output graphics/yokai/124/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/124/shiny.pal graphics/yokai/124/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/125/back.4bpp --output graphics/yokai/125/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/125/front.4bpp --output graphics/yokai/125/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/125/icon.4bpp --output graphics/yokai/125/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/125/shiny.pal graphics/yokai/125/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/126/back.4bpp --output graphics/yokai/126/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/126/front.4bpp --output graphics/yokai/126/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/126/icon.4bpp --output graphics/yokai/126/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/126/shiny.pal graphics/yokai/126/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/127/back.4bpp --output graphics/yokai/127/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/127/front.4bpp --output graphics/yokai/127/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/127/icon.4bpp --output graphics/yokai/127/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/127/shiny.pal graphics/yokai/127/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/128/back.4bpp --output graphics/yokai/128/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/128/front.4bpp --output graphics/yokai/128/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/128/icon.4bpp --output graphics/yokai/128/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/128/shiny.pal graphics/yokai/128/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/129/back.4bpp --output graphics/yokai/129/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/129/front.4bpp --output graphics/yokai/129/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/129/icon.4bpp --output graphics/yokai/129/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/129/shiny.pal graphics/yokai/129/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/130/back.4bpp --output graphics/yokai/130/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/130/front.4bpp --output graphics/yokai/130/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/130/icon.4bpp --output graphics/yokai/130/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/130/shiny.pal graphics/yokai/130/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/131/back.4bpp --output graphics/yokai/131/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/131/front.4bpp --output graphics/yokai/131/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/131/icon.4bpp --output graphics/yokai/131/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/131/shiny.pal graphics/yokai/131/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/132/back.4bpp --output graphics/yokai/132/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/132/front.4bpp --output graphics/yokai/132/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/132/icon.4bpp --output graphics/yokai/132/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/132/shiny.pal graphics/yokai/132/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/133/back.4bpp --output graphics/yokai/133/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/133/front.4bpp --output graphics/yokai/133/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/133/icon.4bpp --output graphics/yokai/133/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/133/shiny.pal graphics/yokai/133/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/134/back.4bpp --output graphics/yokai/134/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/134/front.4bpp --output graphics/yokai/134/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/134/icon.4bpp --output graphics/yokai/134/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/134/shiny.pal graphics/yokai/134/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/135/back.4bpp --output graphics/yokai/135/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/135/front.4bpp --output graphics/yokai/135/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/135/icon.4bpp --output graphics/yokai/135/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/135/shiny.pal graphics/yokai/135/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/136/back.4bpp --output graphics/yokai/136/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/136/front.4bpp --output graphics/yokai/136/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/136/icon.4bpp --output graphics/yokai/136/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/136/shiny.pal graphics/yokai/136/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/137/back.4bpp --output graphics/yokai/137/back-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/137/front.png graphics/yokai/137/front.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/137/icon.4bpp --output graphics/yokai/137/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/137/normal.pal graphics/yokai/137/normal.gbapal
+tools/gbagfx/gbagfx graphics/yokai/137/shiny.pal graphics/yokai/137/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/138/back.4bpp --output graphics/yokai/138/back-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/138/front.png graphics/yokai/138/front.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/138/icon.4bpp --output graphics/yokai/138/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/138/normal.pal graphics/yokai/138/normal.gbapal
+tools/gbagfx/gbagfx graphics/yokai/138/shiny.pal graphics/yokai/138/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/139/back.4bpp --output graphics/yokai/139/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/139/front.4bpp --output graphics/yokai/139/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/139/icon.4bpp --output graphics/yokai/139/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/139/shiny.pal graphics/yokai/139/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/140/back.4bpp --output graphics/yokai/140/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/140/front.4bpp --output graphics/yokai/140/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/140/icon.4bpp --output graphics/yokai/140/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/140/shiny.pal graphics/yokai/140/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/141/back.4bpp --output graphics/yokai/141/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/141/front.4bpp --output graphics/yokai/141/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/141/icon.4bpp --output graphics/yokai/141/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/141/shiny.pal graphics/yokai/141/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/142/back.4bpp --output graphics/yokai/142/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/142/front.4bpp --output graphics/yokai/142/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/142/icon.4bpp --output graphics/yokai/142/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/142/shiny.pal graphics/yokai/142/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/143/back.4bpp --output graphics/yokai/143/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/143/front.4bpp --output graphics/yokai/143/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/143/icon.4bpp --output graphics/yokai/143/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/143/shiny.pal graphics/yokai/143/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/144/back.4bpp --output graphics/yokai/144/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/144/front.4bpp --output graphics/yokai/144/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/144/icon.4bpp --output graphics/yokai/144/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/144/shiny.pal graphics/yokai/144/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/145/back.4bpp --output graphics/yokai/145/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/145/front.4bpp --output graphics/yokai/145/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/145/icon.4bpp --output graphics/yokai/145/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/145/shiny.pal graphics/yokai/145/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/146/back.4bpp --output graphics/yokai/146/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/146/front.4bpp --output graphics/yokai/146/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/146/icon.4bpp --output graphics/yokai/146/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/146/shiny.pal graphics/yokai/146/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/147/back.4bpp --output graphics/yokai/147/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/147/front.4bpp --output graphics/yokai/147/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/147/icon.4bpp --output graphics/yokai/147/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/147/shiny.pal graphics/yokai/147/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/148/back.4bpp --output graphics/yokai/148/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/148/front.4bpp --output graphics/yokai/148/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/148/icon.4bpp --output graphics/yokai/148/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/148/shiny.pal graphics/yokai/148/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/149/back.4bpp --output graphics/yokai/149/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/149/front.4bpp --output graphics/yokai/149/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/149/icon.4bpp --output graphics/yokai/149/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/149/shiny.pal graphics/yokai/149/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/150/back.4bpp --output graphics/yokai/150/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/150/front.4bpp --output graphics/yokai/150/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/150/icon.4bpp --output graphics/yokai/150/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/150/shiny.pal graphics/yokai/150/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/151/back.4bpp --output graphics/yokai/151/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/151/front.4bpp --output graphics/yokai/151/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/151/icon.4bpp --output graphics/yokai/151/icon-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/151/shiny.pal graphics/yokai/151/shiny.gbapal
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/001/back.4bpp --output graphics/yokai/001/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/001/front.4bpp --output graphics/yokai/001/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/002/back.4bpp --output graphics/yokai/002/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/002/front.4bpp --output graphics/yokai/002/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/003/back.4bpp --output graphics/yokai/003/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/003/front.4bpp --output graphics/yokai/003/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/004/back.4bpp --output graphics/yokai/004/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/004/front.4bpp --output graphics/yokai/004/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/005/back.4bpp --output graphics/yokai/005/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/005/front.4bpp --output graphics/yokai/005/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/006/back.4bpp --output graphics/yokai/006/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/006/front.4bpp --output graphics/yokai/006/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/007/back.4bpp --output graphics/yokai/007/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/007/front.4bpp --output graphics/yokai/007/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/008/back.4bpp --output graphics/yokai/008/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/008/front.4bpp --output graphics/yokai/008/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/009/back.4bpp --output graphics/yokai/009/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/009/front.4bpp --output graphics/yokai/009/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/010/back.4bpp --output graphics/yokai/010/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/010/front.4bpp --output graphics/yokai/010/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/011/back.4bpp --output graphics/yokai/011/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/011/front.4bpp --output graphics/yokai/011/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/012/back.4bpp --output graphics/yokai/012/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/012/front.4bpp --output graphics/yokai/012/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/013/back.4bpp --output graphics/yokai/013/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/013/front.4bpp --output graphics/yokai/013/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/014/back.4bpp --output graphics/yokai/014/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/014/front.4bpp --output graphics/yokai/014/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/015/back.4bpp --output graphics/yokai/015/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/015/front.4bpp --output graphics/yokai/015/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/016/back.4bpp --output graphics/yokai/016/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/016/front.4bpp --output graphics/yokai/016/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/017/back.4bpp --output graphics/yokai/017/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/017/front.4bpp --output graphics/yokai/017/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/018/back.4bpp --output graphics/yokai/018/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/018/front.4bpp --output graphics/yokai/018/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/019/back.4bpp --output graphics/yokai/019/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/019/front.4bpp --output graphics/yokai/019/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/020/back.4bpp --output graphics/yokai/020/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/020/front.4bpp --output graphics/yokai/020/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/021/back.4bpp --output graphics/yokai/021/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/021/front.4bpp --output graphics/yokai/021/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/022/back.4bpp --output graphics/yokai/022/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/022/front.4bpp --output graphics/yokai/022/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/023/back.4bpp --output graphics/yokai/023/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/023/front.4bpp --output graphics/yokai/023/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/024/back.4bpp --output graphics/yokai/024/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/024/front.4bpp --output graphics/yokai/024/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/025/back.4bpp --output graphics/yokai/025/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/025/front.4bpp --output graphics/yokai/025/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/026/back.4bpp --output graphics/yokai/026/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/026/front.4bpp --output graphics/yokai/026/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/027/back.4bpp --output graphics/yokai/027/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/027/front.4bpp --output graphics/yokai/027/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/028/back.4bpp --output graphics/yokai/028/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/028/front.4bpp --output graphics/yokai/028/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/029/back.4bpp --output graphics/yokai/029/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/029/front.4bpp --output graphics/yokai/029/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/030/back.4bpp --output graphics/yokai/030/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/030/front.4bpp --output graphics/yokai/030/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/031/back.4bpp --output graphics/yokai/031/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/031/front.4bpp --output graphics/yokai/031/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/032/back.4bpp --output graphics/yokai/032/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/032/front.4bpp --output graphics/yokai/032/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/033/back.4bpp --output graphics/yokai/033/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/033/front.4bpp --output graphics/yokai/033/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/034/back.4bpp --output graphics/yokai/034/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/034/front.4bpp --output graphics/yokai/034/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/035/back.4bpp --output graphics/yokai/035/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/035/front.4bpp --output graphics/yokai/035/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/036/back.4bpp --output graphics/yokai/036/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/036/front.4bpp --output graphics/yokai/036/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/037/back.4bpp --output graphics/yokai/037/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/037/front.4bpp --output graphics/yokai/037/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/038/back.4bpp --output graphics/yokai/038/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/038/front.4bpp --output graphics/yokai/038/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/039/back.4bpp --output graphics/yokai/039/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/039/front.4bpp --output graphics/yokai/039/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/040/back.4bpp --output graphics/yokai/040/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/040/front.4bpp --output graphics/yokai/040/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/041/back.4bpp --output graphics/yokai/041/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/041/front.4bpp --output graphics/yokai/041/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/042/back.4bpp --output graphics/yokai/042/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/042/front.4bpp --output graphics/yokai/042/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/043/back.4bpp --output graphics/yokai/043/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/043/front.4bpp --output graphics/yokai/043/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/044/back.4bpp --output graphics/yokai/044/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/044/front.4bpp --output graphics/yokai/044/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/045/back.4bpp --output graphics/yokai/045/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/045/front.4bpp --output graphics/yokai/045/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/046/back.4bpp --output graphics/yokai/046/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/046/front.4bpp --output graphics/yokai/046/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/047/back.4bpp --output graphics/yokai/047/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/047/front.4bpp --output graphics/yokai/047/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/048/back.4bpp --output graphics/yokai/048/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/048/front.4bpp --output graphics/yokai/048/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/049/back.4bpp --output graphics/yokai/049/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/049/front.4bpp --output graphics/yokai/049/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/050/back.4bpp --output graphics/yokai/050/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/050/front.4bpp --output graphics/yokai/050/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/051/back.4bpp --output graphics/yokai/051/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/051/front.4bpp --output graphics/yokai/051/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/052/back.4bpp --output graphics/yokai/052/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/052/front.4bpp --output graphics/yokai/052/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/053/back.4bpp --output graphics/yokai/053/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/053/front.4bpp --output graphics/yokai/053/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/054/back.4bpp --output graphics/yokai/054/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/054/front.4bpp --output graphics/yokai/054/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/055/back.4bpp --output graphics/yokai/055/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/055/front.4bpp --output graphics/yokai/055/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/056/back.4bpp --output graphics/yokai/056/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/056/front.4bpp --output graphics/yokai/056/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/057/back.4bpp --output graphics/yokai/057/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/057/front.4bpp --output graphics/yokai/057/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/058/back.4bpp --output graphics/yokai/058/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/058/front.4bpp --output graphics/yokai/058/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/059/back.4bpp --output graphics/yokai/059/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/059/front.4bpp --output graphics/yokai/059/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/060/back.4bpp --output graphics/yokai/060/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/060/front.4bpp --output graphics/yokai/060/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/061/back.4bpp --output graphics/yokai/061/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/061/front.4bpp --output graphics/yokai/061/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/062/back.4bpp --output graphics/yokai/062/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/062/front.4bpp --output graphics/yokai/062/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/063/back.4bpp --output graphics/yokai/063/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/063/front.4bpp --output graphics/yokai/063/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/064/back.4bpp --output graphics/yokai/064/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/064/front.4bpp --output graphics/yokai/064/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/065/back.4bpp --output graphics/yokai/065/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/065/front.4bpp --output graphics/yokai/065/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/066/back.4bpp --output graphics/yokai/066/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/066/front.4bpp --output graphics/yokai/066/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/067/back.4bpp --output graphics/yokai/067/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/067/front.4bpp --output graphics/yokai/067/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/068/back.4bpp --output graphics/yokai/068/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/068/front.4bpp --output graphics/yokai/068/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/069/back.4bpp --output graphics/yokai/069/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/069/front.4bpp --output graphics/yokai/069/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/070/back.4bpp --output graphics/yokai/070/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/070/front.4bpp --output graphics/yokai/070/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/071/back.4bpp --output graphics/yokai/071/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/071/front.4bpp --output graphics/yokai/071/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/072/back.4bpp --output graphics/yokai/072/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/072/front.4bpp --output graphics/yokai/072/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/073/back.4bpp --output graphics/yokai/073/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/073/front.4bpp --output graphics/yokai/073/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/074/back.4bpp --output graphics/yokai/074/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/074/front.4bpp --output graphics/yokai/074/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/075/back.4bpp --output graphics/yokai/075/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/075/front.4bpp --output graphics/yokai/075/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/076/back.4bpp --output graphics/yokai/076/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/076/front.4bpp --output graphics/yokai/076/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/077/back.4bpp --output graphics/yokai/077/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/077/front.4bpp --output graphics/yokai/077/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/078/back.4bpp --output graphics/yokai/078/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/078/front.4bpp --output graphics/yokai/078/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/079/back.4bpp --output graphics/yokai/079/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/079/front.4bpp --output graphics/yokai/079/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/080/back.4bpp --output graphics/yokai/080/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/080/front.4bpp --output graphics/yokai/080/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/081/back.4bpp --output graphics/yokai/081/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/081/front.4bpp --output graphics/yokai/081/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/082/back.4bpp --output graphics/yokai/082/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/082/front.4bpp --output graphics/yokai/082/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/083/back.4bpp --output graphics/yokai/083/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/083/front.4bpp --output graphics/yokai/083/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/084/back.4bpp --output graphics/yokai/084/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/084/front.4bpp --output graphics/yokai/084/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/085/back.4bpp --output graphics/yokai/085/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/085/front.4bpp --output graphics/yokai/085/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/086/back.4bpp --output graphics/yokai/086/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/086/front.4bpp --output graphics/yokai/086/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/087/back.4bpp --output graphics/yokai/087/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/087/front.4bpp --output graphics/yokai/087/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/088/back.4bpp --output graphics/yokai/088/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/088/front.4bpp --output graphics/yokai/088/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/089/back.4bpp --output graphics/yokai/089/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/089/front.4bpp --output graphics/yokai/089/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/090/back.4bpp --output graphics/yokai/090/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/090/front.4bpp --output graphics/yokai/090/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/091/back.4bpp --output graphics/yokai/091/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/091/front.4bpp --output graphics/yokai/091/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/092/back.4bpp --output graphics/yokai/092/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/092/front.4bpp --output graphics/yokai/092/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/093/back.4bpp --output graphics/yokai/093/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/093/front.4bpp --output graphics/yokai/093/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/094/back.4bpp --output graphics/yokai/094/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/094/front.4bpp --output graphics/yokai/094/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/095/back.4bpp --output graphics/yokai/095/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/095/front.4bpp --output graphics/yokai/095/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/096/back.4bpp --output graphics/yokai/096/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/096/front.4bpp --output graphics/yokai/096/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/097/back.4bpp --output graphics/yokai/097/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/097/front.4bpp --output graphics/yokai/097/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/098/back.4bpp --output graphics/yokai/098/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/098/front.4bpp --output graphics/yokai/098/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/099/back.4bpp --output graphics/yokai/099/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/099/front.4bpp --output graphics/yokai/099/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/100/back.4bpp --output graphics/yokai/100/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/100/front.4bpp --output graphics/yokai/100/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/101/back.4bpp --output graphics/yokai/101/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/101/front.4bpp --output graphics/yokai/101/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/102/back.4bpp --output graphics/yokai/102/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/102/front.4bpp --output graphics/yokai/102/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/103/back.4bpp --output graphics/yokai/103/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/103/front.4bpp --output graphics/yokai/103/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/104/back.4bpp --output graphics/yokai/104/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/104/front.4bpp --output graphics/yokai/104/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/105/back.4bpp --output graphics/yokai/105/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/105/front.4bpp --output graphics/yokai/105/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/106/back.4bpp --output graphics/yokai/106/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/106/front.4bpp --output graphics/yokai/106/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/107/back.4bpp --output graphics/yokai/107/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/107/front.4bpp --output graphics/yokai/107/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/108/back.4bpp --output graphics/yokai/108/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/108/front.4bpp --output graphics/yokai/108/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/109/back.4bpp --output graphics/yokai/109/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/109/front.4bpp --output graphics/yokai/109/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/110/back.4bpp --output graphics/yokai/110/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/110/front.4bpp --output graphics/yokai/110/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/111/back.4bpp --output graphics/yokai/111/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/111/front.4bpp --output graphics/yokai/111/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/112/back.4bpp --output graphics/yokai/112/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/112/front.4bpp --output graphics/yokai/112/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/113/back.4bpp --output graphics/yokai/113/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/113/front.4bpp --output graphics/yokai/113/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/114/back.4bpp --output graphics/yokai/114/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/114/front.4bpp --output graphics/yokai/114/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/115/back.4bpp --output graphics/yokai/115/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/115/front.4bpp --output graphics/yokai/115/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/116/back.4bpp --output graphics/yokai/116/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/116/front.4bpp --output graphics/yokai/116/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/117/back.4bpp --output graphics/yokai/117/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/117/front.4bpp --output graphics/yokai/117/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/118/back.4bpp --output graphics/yokai/118/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/118/front.4bpp --output graphics/yokai/118/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/119/back.4bpp --output graphics/yokai/119/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/119/front.4bpp --output graphics/yokai/119/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/120/back.4bpp --output graphics/yokai/120/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/120/front.4bpp --output graphics/yokai/120/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/121/back.4bpp --output graphics/yokai/121/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/121/front.4bpp --output graphics/yokai/121/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/122/back.4bpp --output graphics/yokai/122/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/122/front.4bpp --output graphics/yokai/122/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/123/back.4bpp --output graphics/yokai/123/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/123/front.4bpp --output graphics/yokai/123/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/124/back.4bpp --output graphics/yokai/124/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/124/front.4bpp --output graphics/yokai/124/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/125/back.4bpp --output graphics/yokai/125/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/125/front.4bpp --output graphics/yokai/125/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/126/back.4bpp --output graphics/yokai/126/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/126/front.4bpp --output graphics/yokai/126/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/127/back.4bpp --output graphics/yokai/127/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/127/front.4bpp --output graphics/yokai/127/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/128/back.4bpp --output graphics/yokai/128/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/128/front.4bpp --output graphics/yokai/128/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/129/back.4bpp --output graphics/yokai/129/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/129/front.4bpp --output graphics/yokai/129/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/130/back.4bpp --output graphics/yokai/130/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/130/front.4bpp --output graphics/yokai/130/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/131/back.4bpp --output graphics/yokai/131/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/131/front.4bpp --output graphics/yokai/131/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/132/back.4bpp --output graphics/yokai/132/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/132/front.4bpp --output graphics/yokai/132/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/133/back.4bpp --output graphics/yokai/133/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/133/front.4bpp --output graphics/yokai/133/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/134/back.4bpp --output graphics/yokai/134/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/134/front.4bpp --output graphics/yokai/134/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/135/back.4bpp --output graphics/yokai/135/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/135/front.4bpp --output graphics/yokai/135/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/136/back.4bpp --output graphics/yokai/136/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/136/front.4bpp --output graphics/yokai/136/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/137/back.4bpp --output graphics/yokai/137/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/137/front.4bpp --output graphics/yokai/137/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/138/back.4bpp --output graphics/yokai/138/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/138/front.4bpp --output graphics/yokai/138/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/139/back.4bpp --output graphics/yokai/139/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/139/front.4bpp --output graphics/yokai/139/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/140/back.4bpp --output graphics/yokai/140/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/140/front.4bpp --output graphics/yokai/140/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/141/back.4bpp --output graphics/yokai/141/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/141/front.4bpp --output graphics/yokai/141/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/142/back.4bpp --output graphics/yokai/142/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/142/front.4bpp --output graphics/yokai/142/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/143/back.4bpp --output graphics/yokai/143/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/143/front.4bpp --output graphics/yokai/143/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/144/back.4bpp --output graphics/yokai/144/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/144/front.4bpp --output graphics/yokai/144/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/145/back.4bpp --output graphics/yokai/145/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/145/front.4bpp --output graphics/yokai/145/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/146/back.4bpp --output graphics/yokai/146/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/146/front.4bpp --output graphics/yokai/146/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/147/back.4bpp --output graphics/yokai/147/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/147/front.4bpp --output graphics/yokai/147/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/148/back.4bpp --output graphics/yokai/148/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/148/front.4bpp --output graphics/yokai/148/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/149/back.4bpp --output graphics/yokai/149/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/149/front.4bpp --output graphics/yokai/149/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/150/back.4bpp --output graphics/yokai/150/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/150/front.4bpp --output graphics/yokai/150/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/151/back.4bpp --output graphics/yokai/151/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/151/front.4bpp --output graphics/yokai/151/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/018/back.4bpp --output graphics/yokai_shiny_revised/018/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/018/back.4bpp --output graphics/yokai_shiny_revised/018/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/018/front.4bpp --output graphics/yokai_shiny_revised/018/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/018/front.4bpp --output graphics/yokai_shiny_revised/018/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/051/back.4bpp --output graphics/yokai_shiny_revised/051/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/051/back.4bpp --output graphics/yokai_shiny_revised/051/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/051/front.4bpp --output graphics/yokai_shiny_revised/051/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/051/front.4bpp --output graphics/yokai_shiny_revised/051/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/066/back.4bpp --output graphics/yokai_shiny_revised/066/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/066/back.4bpp --output graphics/yokai_shiny_revised/066/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/066/front.4bpp --output graphics/yokai_shiny_revised/066/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/066/front.4bpp --output graphics/yokai_shiny_revised/066/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/067/back.4bpp --output graphics/yokai_shiny_revised/067/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/067/back.4bpp --output graphics/yokai_shiny_revised/067/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/067/front.4bpp --output graphics/yokai_shiny_revised/067/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/067/front.4bpp --output graphics/yokai_shiny_revised/067/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/120/back.4bpp --output graphics/yokai_shiny_revised/120/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/120/back.4bpp --output graphics/yokai_shiny_revised/120/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/120/front.4bpp --output graphics/yokai_shiny_revised/120/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/120/front.4bpp --output graphics/yokai_shiny_revised/120/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/133/back.4bpp --output graphics/yokai_shiny_revised/133/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/133/back.4bpp --output graphics/yokai_shiny_revised/133/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/133/front.4bpp --output graphics/yokai_shiny_revised/133/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/133/front.4bpp --output graphics/yokai_shiny_revised/133/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/145/back.4bpp --output graphics/yokai_shiny_revised/145/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/145/back.4bpp --output graphics/yokai_shiny_revised/145/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/145/front.4bpp --output graphics/yokai_shiny_revised/145/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/145/front.4bpp --output graphics/yokai_shiny_revised/145/front-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/150/back.4bpp --output graphics/yokai_shiny_revised/150/back-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/150/back.4bpp --output graphics/yokai_shiny_revised/150/back-display.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/150/front.4bpp --output graphics/yokai_shiny_revised/150/front-battle.4bpp
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai_shiny_revised/150/front.4bpp --output graphics/yokai_shiny_revised/150/front-display.4bpp
+tools/agbcc/bin/agbcc <flags> -o build/firered/src/event_object_movement.o src/event_object_movement.c
+tools/gbagfx/gbagfx graphics/yokai/001/back-display.4bpp graphics/yokai/001/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/001/front-display.4bpp graphics/yokai/001/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/001/shiny.gbapal graphics/yokai/001/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/002/back-display.4bpp graphics/yokai/002/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/002/front-display.4bpp graphics/yokai/002/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/002/shiny.gbapal graphics/yokai/002/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/003/back-display.4bpp graphics/yokai/003/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/003/front-display.4bpp graphics/yokai/003/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/003/shiny.gbapal graphics/yokai/003/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/004/back-display.4bpp graphics/yokai/004/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/004/front-display.4bpp graphics/yokai/004/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/004/shiny.gbapal graphics/yokai/004/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/005/back-display.4bpp graphics/yokai/005/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/005/front-display.4bpp graphics/yokai/005/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/005/shiny.gbapal graphics/yokai/005/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/006/back-display.4bpp graphics/yokai/006/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/006/front-display.4bpp graphics/yokai/006/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/006/shiny.gbapal graphics/yokai/006/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/007/back-display.4bpp graphics/yokai/007/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/007/front-display.4bpp graphics/yokai/007/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/007/shiny.gbapal graphics/yokai/007/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/008/back-display.4bpp graphics/yokai/008/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/008/front-display.4bpp graphics/yokai/008/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/008/shiny.gbapal graphics/yokai/008/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/009/back-display.4bpp graphics/yokai/009/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/009/front-display.4bpp graphics/yokai/009/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/009/shiny.gbapal graphics/yokai/009/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/010/back-display.4bpp graphics/yokai/010/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/010/front-display.4bpp graphics/yokai/010/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/010/shiny.gbapal graphics/yokai/010/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/011/back-display.4bpp graphics/yokai/011/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/011/front-display.4bpp graphics/yokai/011/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/011/shiny.gbapal graphics/yokai/011/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/012/back-display.4bpp graphics/yokai/012/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/012/front-display.4bpp graphics/yokai/012/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/012/shiny.gbapal graphics/yokai/012/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/013/back-display.4bpp graphics/yokai/013/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/013/front-display.4bpp graphics/yokai/013/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/013/shiny.gbapal graphics/yokai/013/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/014/back-display.4bpp graphics/yokai/014/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/014/front-display.4bpp graphics/yokai/014/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/014/shiny.gbapal graphics/yokai/014/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/015/back-display.4bpp graphics/yokai/015/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/015/front-display.4bpp graphics/yokai/015/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/015/shiny.gbapal graphics/yokai/015/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/016/back-display.4bpp graphics/yokai/016/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/016/front-display.4bpp graphics/yokai/016/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/016/shiny.gbapal graphics/yokai/016/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/017/back-display.4bpp graphics/yokai/017/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/017/front-display.4bpp graphics/yokai/017/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/017/shiny.gbapal graphics/yokai/017/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/018/back-display.4bpp graphics/yokai/018/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/018/front-display.4bpp graphics/yokai/018/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/018/shiny.gbapal graphics/yokai/018/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/019/back-display.4bpp graphics/yokai/019/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/019/front-display.4bpp graphics/yokai/019/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/019/shiny.gbapal graphics/yokai/019/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/020/back-display.4bpp graphics/yokai/020/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/020/front-display.4bpp graphics/yokai/020/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/020/shiny.gbapal graphics/yokai/020/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/021/back-display.4bpp graphics/yokai/021/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/021/front-display.4bpp graphics/yokai/021/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/021/shiny.gbapal graphics/yokai/021/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/022/back-display.4bpp graphics/yokai/022/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/022/front-display.4bpp graphics/yokai/022/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/022/shiny.gbapal graphics/yokai/022/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/023/back-display.4bpp graphics/yokai/023/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/023/front-display.4bpp graphics/yokai/023/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/023/shiny.gbapal graphics/yokai/023/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/024/back-display.4bpp graphics/yokai/024/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/024/front-display.4bpp graphics/yokai/024/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/024/shiny.gbapal graphics/yokai/024/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/025/back-display.4bpp graphics/yokai/025/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/025/front-display.4bpp graphics/yokai/025/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/025/shiny.gbapal graphics/yokai/025/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/026/back-display.4bpp graphics/yokai/026/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/026/front-display.4bpp graphics/yokai/026/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/026/shiny.gbapal graphics/yokai/026/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/027/back-display.4bpp graphics/yokai/027/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/027/front-display.4bpp graphics/yokai/027/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/027/shiny.gbapal graphics/yokai/027/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/028/back-display.4bpp graphics/yokai/028/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/028/front-display.4bpp graphics/yokai/028/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/028/shiny.gbapal graphics/yokai/028/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/029/back-display.4bpp graphics/yokai/029/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/029/front-display.4bpp graphics/yokai/029/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/029/shiny.gbapal graphics/yokai/029/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/030/back-display.4bpp graphics/yokai/030/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/030/front-display.4bpp graphics/yokai/030/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/030/shiny.gbapal graphics/yokai/030/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/031/back-display.4bpp graphics/yokai/031/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/031/front-display.4bpp graphics/yokai/031/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/031/shiny.gbapal graphics/yokai/031/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/032/back-display.4bpp graphics/yokai/032/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/032/front-display.4bpp graphics/yokai/032/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/032/shiny.gbapal graphics/yokai/032/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/033/back-display.4bpp graphics/yokai/033/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/033/front-display.4bpp graphics/yokai/033/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/033/shiny.gbapal graphics/yokai/033/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/034/back-display.4bpp graphics/yokai/034/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/034/front-display.4bpp graphics/yokai/034/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/034/shiny.gbapal graphics/yokai/034/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/035/back-display.4bpp graphics/yokai/035/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/035/front-display.4bpp graphics/yokai/035/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/035/shiny.gbapal graphics/yokai/035/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/036/back-display.4bpp graphics/yokai/036/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/036/front-display.4bpp graphics/yokai/036/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/036/shiny.gbapal graphics/yokai/036/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/037/back-display.4bpp graphics/yokai/037/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/037/front-display.4bpp graphics/yokai/037/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/037/shiny.gbapal graphics/yokai/037/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/038/back-display.4bpp graphics/yokai/038/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/038/front-display.4bpp graphics/yokai/038/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/038/shiny.gbapal graphics/yokai/038/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/039/back-display.4bpp graphics/yokai/039/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/039/front-display.4bpp graphics/yokai/039/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/039/shiny.gbapal graphics/yokai/039/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/040/back-display.4bpp graphics/yokai/040/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/040/front-display.4bpp graphics/yokai/040/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/040/shiny.gbapal graphics/yokai/040/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/041/back-display.4bpp graphics/yokai/041/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/041/front-display.4bpp graphics/yokai/041/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/041/shiny.gbapal graphics/yokai/041/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/042/back-display.4bpp graphics/yokai/042/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/042/front-display.4bpp graphics/yokai/042/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/042/shiny.gbapal graphics/yokai/042/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/043/back-display.4bpp graphics/yokai/043/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/043/front-display.4bpp graphics/yokai/043/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/043/shiny.gbapal graphics/yokai/043/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/044/back-display.4bpp graphics/yokai/044/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/044/front-display.4bpp graphics/yokai/044/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/044/shiny.gbapal graphics/yokai/044/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/045/back-display.4bpp graphics/yokai/045/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/045/front-display.4bpp graphics/yokai/045/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/045/shiny.gbapal graphics/yokai/045/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/046/back-display.4bpp graphics/yokai/046/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/046/front-display.4bpp graphics/yokai/046/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/046/shiny.gbapal graphics/yokai/046/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/047/back-display.4bpp graphics/yokai/047/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/047/front-display.4bpp graphics/yokai/047/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/047/shiny.gbapal graphics/yokai/047/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/048/back-display.4bpp graphics/yokai/048/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/048/front-display.4bpp graphics/yokai/048/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/048/shiny.gbapal graphics/yokai/048/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/049/back-display.4bpp graphics/yokai/049/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/049/front-display.4bpp graphics/yokai/049/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/049/shiny.gbapal graphics/yokai/049/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/050/back-display.4bpp graphics/yokai/050/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/050/front-display.4bpp graphics/yokai/050/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/050/shiny.gbapal graphics/yokai/050/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/051/back-display.4bpp graphics/yokai/051/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/051/front-display.4bpp graphics/yokai/051/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/051/shiny.gbapal graphics/yokai/051/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/052/back-display.4bpp graphics/yokai/052/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/052/front-display.4bpp graphics/yokai/052/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/052/shiny.gbapal graphics/yokai/052/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/053/back-display.4bpp graphics/yokai/053/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/053/front-display.4bpp graphics/yokai/053/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/053/shiny.gbapal graphics/yokai/053/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/054/back-display.4bpp graphics/yokai/054/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/054/front-display.4bpp graphics/yokai/054/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/054/shiny.gbapal graphics/yokai/054/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/055/back-display.4bpp graphics/yokai/055/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/055/front-display.4bpp graphics/yokai/055/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/055/shiny.gbapal graphics/yokai/055/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/056/back-display.4bpp graphics/yokai/056/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/056/front-display.4bpp graphics/yokai/056/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/056/shiny.gbapal graphics/yokai/056/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/057/back-display.4bpp graphics/yokai/057/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/057/front-display.4bpp graphics/yokai/057/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/057/shiny.gbapal graphics/yokai/057/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/058/back-display.4bpp graphics/yokai/058/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/058/front-display.4bpp graphics/yokai/058/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/058/shiny.gbapal graphics/yokai/058/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/059/back-display.4bpp graphics/yokai/059/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/059/front-display.4bpp graphics/yokai/059/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/059/shiny.gbapal graphics/yokai/059/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/060/back-display.4bpp graphics/yokai/060/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/060/front-display.4bpp graphics/yokai/060/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/060/shiny.gbapal graphics/yokai/060/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/061/back-display.4bpp graphics/yokai/061/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/061/front-display.4bpp graphics/yokai/061/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/061/shiny.gbapal graphics/yokai/061/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/062/back-display.4bpp graphics/yokai/062/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/062/front-display.4bpp graphics/yokai/062/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/062/shiny.gbapal graphics/yokai/062/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/063/back-display.4bpp graphics/yokai/063/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/063/front-display.4bpp graphics/yokai/063/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/063/shiny.gbapal graphics/yokai/063/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/064/back-display.4bpp graphics/yokai/064/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/064/front-display.4bpp graphics/yokai/064/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/064/shiny.gbapal graphics/yokai/064/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/065/back-display.4bpp graphics/yokai/065/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/065/front-display.4bpp graphics/yokai/065/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/065/shiny.gbapal graphics/yokai/065/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/066/back-display.4bpp graphics/yokai/066/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/066/front-display.4bpp graphics/yokai/066/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/066/shiny.gbapal graphics/yokai/066/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/067/back-display.4bpp graphics/yokai/067/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/067/front-display.4bpp graphics/yokai/067/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/067/shiny.gbapal graphics/yokai/067/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/068/back-display.4bpp graphics/yokai/068/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/068/front-display.4bpp graphics/yokai/068/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/068/shiny.gbapal graphics/yokai/068/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/069/back-display.4bpp graphics/yokai/069/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/069/front-display.4bpp graphics/yokai/069/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/069/shiny.gbapal graphics/yokai/069/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/070/back-display.4bpp graphics/yokai/070/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/070/front-display.4bpp graphics/yokai/070/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/070/shiny.gbapal graphics/yokai/070/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/071/back-display.4bpp graphics/yokai/071/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/071/front-display.4bpp graphics/yokai/071/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/071/shiny.gbapal graphics/yokai/071/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/072/back-display.4bpp graphics/yokai/072/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/072/front-display.4bpp graphics/yokai/072/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/072/shiny.gbapal graphics/yokai/072/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/073/back-display.4bpp graphics/yokai/073/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/073/front-display.4bpp graphics/yokai/073/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/073/shiny.gbapal graphics/yokai/073/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/074/back-display.4bpp graphics/yokai/074/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/074/front-display.4bpp graphics/yokai/074/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/074/shiny.gbapal graphics/yokai/074/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/075/back-display.4bpp graphics/yokai/075/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/075/front-display.4bpp graphics/yokai/075/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/075/shiny.gbapal graphics/yokai/075/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/076/back-display.4bpp graphics/yokai/076/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/076/front-display.4bpp graphics/yokai/076/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/076/shiny.gbapal graphics/yokai/076/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/077/back-display.4bpp graphics/yokai/077/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/077/front-display.4bpp graphics/yokai/077/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/077/shiny.gbapal graphics/yokai/077/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/078/back-display.4bpp graphics/yokai/078/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/078/front-display.4bpp graphics/yokai/078/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/078/shiny.gbapal graphics/yokai/078/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/079/back-display.4bpp graphics/yokai/079/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/079/front-display.4bpp graphics/yokai/079/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/079/shiny.gbapal graphics/yokai/079/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/080/back-display.4bpp graphics/yokai/080/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/080/front-display.4bpp graphics/yokai/080/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/080/shiny.gbapal graphics/yokai/080/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/081/back-display.4bpp graphics/yokai/081/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/081/front-display.4bpp graphics/yokai/081/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/081/shiny.gbapal graphics/yokai/081/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/082/back-display.4bpp graphics/yokai/082/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/082/front-display.4bpp graphics/yokai/082/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/082/shiny.gbapal graphics/yokai/082/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/083/back-display.4bpp graphics/yokai/083/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/083/front-display.4bpp graphics/yokai/083/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/083/shiny.gbapal graphics/yokai/083/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/084/back-display.4bpp graphics/yokai/084/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/084/front-display.4bpp graphics/yokai/084/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/084/shiny.gbapal graphics/yokai/084/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/085/back-display.4bpp graphics/yokai/085/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/085/front-display.4bpp graphics/yokai/085/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/085/shiny.gbapal graphics/yokai/085/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/086/back-display.4bpp graphics/yokai/086/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/086/front-display.4bpp graphics/yokai/086/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/086/shiny.gbapal graphics/yokai/086/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/087/back-display.4bpp graphics/yokai/087/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/087/front-display.4bpp graphics/yokai/087/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/087/shiny.gbapal graphics/yokai/087/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/088/back-display.4bpp graphics/yokai/088/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/088/front-display.4bpp graphics/yokai/088/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/088/shiny.gbapal graphics/yokai/088/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/089/back-display.4bpp graphics/yokai/089/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/089/front-display.4bpp graphics/yokai/089/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/089/shiny.gbapal graphics/yokai/089/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/090/back-display.4bpp graphics/yokai/090/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/090/front-display.4bpp graphics/yokai/090/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/090/shiny.gbapal graphics/yokai/090/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/091/back-display.4bpp graphics/yokai/091/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/091/front-display.4bpp graphics/yokai/091/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/091/shiny.gbapal graphics/yokai/091/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/092/back-display.4bpp graphics/yokai/092/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/092/front-display.4bpp graphics/yokai/092/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/092/shiny.gbapal graphics/yokai/092/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/093/back-display.4bpp graphics/yokai/093/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/093/front-display.4bpp graphics/yokai/093/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/093/shiny.gbapal graphics/yokai/093/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/094/back-display.4bpp graphics/yokai/094/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/094/front-display.4bpp graphics/yokai/094/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/094/shiny.gbapal graphics/yokai/094/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/095/back-display.4bpp graphics/yokai/095/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/095/front-display.4bpp graphics/yokai/095/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/095/shiny.gbapal graphics/yokai/095/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/096/back-display.4bpp graphics/yokai/096/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/096/front-display.4bpp graphics/yokai/096/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/096/shiny.gbapal graphics/yokai/096/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/097/back-display.4bpp graphics/yokai/097/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/097/front-display.4bpp graphics/yokai/097/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/097/shiny.gbapal graphics/yokai/097/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/098/back-display.4bpp graphics/yokai/098/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/098/front-display.4bpp graphics/yokai/098/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/098/shiny.gbapal graphics/yokai/098/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/099/back-display.4bpp graphics/yokai/099/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/099/front-display.4bpp graphics/yokai/099/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/099/shiny.gbapal graphics/yokai/099/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/100/back-display.4bpp graphics/yokai/100/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/100/front-display.4bpp graphics/yokai/100/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/100/shiny.gbapal graphics/yokai/100/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/101/back-display.4bpp graphics/yokai/101/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/101/front-display.4bpp graphics/yokai/101/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/101/shiny.gbapal graphics/yokai/101/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/102/back-display.4bpp graphics/yokai/102/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/102/front-display.4bpp graphics/yokai/102/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/102/shiny.gbapal graphics/yokai/102/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/103/back-display.4bpp graphics/yokai/103/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/103/front-display.4bpp graphics/yokai/103/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/103/shiny.gbapal graphics/yokai/103/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/104/back-display.4bpp graphics/yokai/104/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/104/front-display.4bpp graphics/yokai/104/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/104/shiny.gbapal graphics/yokai/104/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/105/back-display.4bpp graphics/yokai/105/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/105/front-display.4bpp graphics/yokai/105/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/105/shiny.gbapal graphics/yokai/105/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/106/back-display.4bpp graphics/yokai/106/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/106/front-display.4bpp graphics/yokai/106/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/106/shiny.gbapal graphics/yokai/106/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/107/back-display.4bpp graphics/yokai/107/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/107/front-display.4bpp graphics/yokai/107/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/107/shiny.gbapal graphics/yokai/107/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/108/back-display.4bpp graphics/yokai/108/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/108/front-display.4bpp graphics/yokai/108/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/108/shiny.gbapal graphics/yokai/108/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/109/back-display.4bpp graphics/yokai/109/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/109/front-display.4bpp graphics/yokai/109/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/109/shiny.gbapal graphics/yokai/109/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/110/back-display.4bpp graphics/yokai/110/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/110/front-display.4bpp graphics/yokai/110/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/110/shiny.gbapal graphics/yokai/110/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/111/back-display.4bpp graphics/yokai/111/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/111/front-display.4bpp graphics/yokai/111/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/111/shiny.gbapal graphics/yokai/111/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/112/back-display.4bpp graphics/yokai/112/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/112/front-display.4bpp graphics/yokai/112/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/112/shiny.gbapal graphics/yokai/112/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/113/back-display.4bpp graphics/yokai/113/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/113/front-display.4bpp graphics/yokai/113/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/113/shiny.gbapal graphics/yokai/113/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/114/back-display.4bpp graphics/yokai/114/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/114/front-display.4bpp graphics/yokai/114/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/114/shiny.gbapal graphics/yokai/114/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/115/back-display.4bpp graphics/yokai/115/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/115/front-display.4bpp graphics/yokai/115/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/115/shiny.gbapal graphics/yokai/115/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/116/back-display.4bpp graphics/yokai/116/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/116/front-display.4bpp graphics/yokai/116/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/116/shiny.gbapal graphics/yokai/116/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/117/back-display.4bpp graphics/yokai/117/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/117/front-display.4bpp graphics/yokai/117/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/117/shiny.gbapal graphics/yokai/117/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/118/back-display.4bpp graphics/yokai/118/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/118/front-display.4bpp graphics/yokai/118/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/118/shiny.gbapal graphics/yokai/118/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/119/back-display.4bpp graphics/yokai/119/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/119/front-display.4bpp graphics/yokai/119/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/119/shiny.gbapal graphics/yokai/119/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/120/back-display.4bpp graphics/yokai/120/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/120/front-display.4bpp graphics/yokai/120/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/120/shiny.gbapal graphics/yokai/120/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/121/back-display.4bpp graphics/yokai/121/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/121/front-display.4bpp graphics/yokai/121/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/121/shiny.gbapal graphics/yokai/121/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/122/back-display.4bpp graphics/yokai/122/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/122/front-display.4bpp graphics/yokai/122/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/122/shiny.gbapal graphics/yokai/122/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/123/back-display.4bpp graphics/yokai/123/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/123/front-display.4bpp graphics/yokai/123/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/123/shiny.gbapal graphics/yokai/123/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/124/back-display.4bpp graphics/yokai/124/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/124/front-display.4bpp graphics/yokai/124/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/124/shiny.gbapal graphics/yokai/124/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/125/back-display.4bpp graphics/yokai/125/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/125/front-display.4bpp graphics/yokai/125/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/125/shiny.gbapal graphics/yokai/125/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/126/back-display.4bpp graphics/yokai/126/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/126/front-display.4bpp graphics/yokai/126/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/126/shiny.gbapal graphics/yokai/126/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/127/back-display.4bpp graphics/yokai/127/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/127/front-display.4bpp graphics/yokai/127/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/127/shiny.gbapal graphics/yokai/127/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/128/back-display.4bpp graphics/yokai/128/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/128/front-display.4bpp graphics/yokai/128/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/128/shiny.gbapal graphics/yokai/128/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/129/back-display.4bpp graphics/yokai/129/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/129/front-display.4bpp graphics/yokai/129/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/129/shiny.gbapal graphics/yokai/129/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/130/back-display.4bpp graphics/yokai/130/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/130/front-display.4bpp graphics/yokai/130/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/130/shiny.gbapal graphics/yokai/130/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/131/back-display.4bpp graphics/yokai/131/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/131/front-display.4bpp graphics/yokai/131/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/131/shiny.gbapal graphics/yokai/131/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/132/back-display.4bpp graphics/yokai/132/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/132/front-display.4bpp graphics/yokai/132/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/132/shiny.gbapal graphics/yokai/132/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/133/back-display.4bpp graphics/yokai/133/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/133/front-display.4bpp graphics/yokai/133/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/133/shiny.gbapal graphics/yokai/133/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/134/back-display.4bpp graphics/yokai/134/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/134/front-display.4bpp graphics/yokai/134/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/134/shiny.gbapal graphics/yokai/134/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/135/back-display.4bpp graphics/yokai/135/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/135/front-display.4bpp graphics/yokai/135/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/135/shiny.gbapal graphics/yokai/135/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/136/back-display.4bpp graphics/yokai/136/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/136/front-display.4bpp graphics/yokai/136/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/136/shiny.gbapal graphics/yokai/136/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/137/back-display.4bpp graphics/yokai/137/back-display.4bpp.lz
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/137/front.4bpp --output graphics/yokai/137/front-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/137/normal.gbapal graphics/yokai/137/normal.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/137/shiny.gbapal graphics/yokai/137/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/138/back-display.4bpp graphics/yokai/138/back-display.4bpp.lz
+python3 tools/yokai/presentation_4bpp.py --input graphics/yokai/138/front.4bpp --output graphics/yokai/138/front-display.4bpp
+tools/gbagfx/gbagfx graphics/yokai/138/normal.gbapal graphics/yokai/138/normal.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/138/shiny.gbapal graphics/yokai/138/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/139/back-display.4bpp graphics/yokai/139/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/139/front-display.4bpp graphics/yokai/139/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/139/shiny.gbapal graphics/yokai/139/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/140/back-display.4bpp graphics/yokai/140/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/140/front-display.4bpp graphics/yokai/140/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/140/shiny.gbapal graphics/yokai/140/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/141/back-display.4bpp graphics/yokai/141/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/141/front-display.4bpp graphics/yokai/141/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/141/shiny.gbapal graphics/yokai/141/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/142/back-display.4bpp graphics/yokai/142/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/142/front-display.4bpp graphics/yokai/142/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/142/shiny.gbapal graphics/yokai/142/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/143/back-display.4bpp graphics/yokai/143/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/143/front-display.4bpp graphics/yokai/143/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/143/shiny.gbapal graphics/yokai/143/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/144/back-display.4bpp graphics/yokai/144/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/144/front-display.4bpp graphics/yokai/144/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/144/shiny.gbapal graphics/yokai/144/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/145/back-display.4bpp graphics/yokai/145/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/145/front-display.4bpp graphics/yokai/145/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/145/shiny.gbapal graphics/yokai/145/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/146/back-display.4bpp graphics/yokai/146/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/146/front-display.4bpp graphics/yokai/146/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/146/shiny.gbapal graphics/yokai/146/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/147/back-display.4bpp graphics/yokai/147/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/147/front-display.4bpp graphics/yokai/147/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/147/shiny.gbapal graphics/yokai/147/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/148/back-display.4bpp graphics/yokai/148/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/148/front-display.4bpp graphics/yokai/148/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/148/shiny.gbapal graphics/yokai/148/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/149/back-display.4bpp graphics/yokai/149/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/149/front-display.4bpp graphics/yokai/149/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/149/shiny.gbapal graphics/yokai/149/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/150/back-display.4bpp graphics/yokai/150/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/150/front-display.4bpp graphics/yokai/150/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/150/shiny.gbapal graphics/yokai/150/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/151/back-display.4bpp graphics/yokai/151/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/151/front-display.4bpp graphics/yokai/151/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/151/shiny.gbapal graphics/yokai/151/shiny.gbapal.lz
+tools/gbagfx/gbagfx graphics/yokai/001/back-battle.4bpp graphics/yokai/001/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/001/front-battle.4bpp graphics/yokai/001/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/002/back-battle.4bpp graphics/yokai/002/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/002/front-battle.4bpp graphics/yokai/002/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/003/back-battle.4bpp graphics/yokai/003/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/003/front-battle.4bpp graphics/yokai/003/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/004/back-battle.4bpp graphics/yokai/004/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/004/front-battle.4bpp graphics/yokai/004/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/005/back-battle.4bpp graphics/yokai/005/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/005/front-battle.4bpp graphics/yokai/005/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/006/back-battle.4bpp graphics/yokai/006/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/006/front-battle.4bpp graphics/yokai/006/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/007/back-battle.4bpp graphics/yokai/007/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/007/front-battle.4bpp graphics/yokai/007/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/008/back-battle.4bpp graphics/yokai/008/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/008/front-battle.4bpp graphics/yokai/008/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/009/back-battle.4bpp graphics/yokai/009/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/009/front-battle.4bpp graphics/yokai/009/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/010/back-battle.4bpp graphics/yokai/010/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/010/front-battle.4bpp graphics/yokai/010/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/011/back-battle.4bpp graphics/yokai/011/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/011/front-battle.4bpp graphics/yokai/011/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/012/back-battle.4bpp graphics/yokai/012/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/012/front-battle.4bpp graphics/yokai/012/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/013/back-battle.4bpp graphics/yokai/013/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/013/front-battle.4bpp graphics/yokai/013/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/014/back-battle.4bpp graphics/yokai/014/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/014/front-battle.4bpp graphics/yokai/014/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/015/back-battle.4bpp graphics/yokai/015/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/015/front-battle.4bpp graphics/yokai/015/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/016/back-battle.4bpp graphics/yokai/016/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/016/front-battle.4bpp graphics/yokai/016/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/017/back-battle.4bpp graphics/yokai/017/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/017/front-battle.4bpp graphics/yokai/017/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/018/back-battle.4bpp graphics/yokai/018/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/018/front-battle.4bpp graphics/yokai/018/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/019/back-battle.4bpp graphics/yokai/019/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/019/front-battle.4bpp graphics/yokai/019/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/020/back-battle.4bpp graphics/yokai/020/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/020/front-battle.4bpp graphics/yokai/020/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/021/back-battle.4bpp graphics/yokai/021/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/021/front-battle.4bpp graphics/yokai/021/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/022/back-battle.4bpp graphics/yokai/022/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/022/front-battle.4bpp graphics/yokai/022/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/023/back-battle.4bpp graphics/yokai/023/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/023/front-battle.4bpp graphics/yokai/023/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/024/back-battle.4bpp graphics/yokai/024/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/024/front-battle.4bpp graphics/yokai/024/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/025/back-battle.4bpp graphics/yokai/025/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/025/front-battle.4bpp graphics/yokai/025/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/026/back-battle.4bpp graphics/yokai/026/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/026/front-battle.4bpp graphics/yokai/026/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/027/back-battle.4bpp graphics/yokai/027/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/027/front-battle.4bpp graphics/yokai/027/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/028/back-battle.4bpp graphics/yokai/028/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/028/front-battle.4bpp graphics/yokai/028/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/029/back-battle.4bpp graphics/yokai/029/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/029/front-battle.4bpp graphics/yokai/029/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/030/back-battle.4bpp graphics/yokai/030/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/030/front-battle.4bpp graphics/yokai/030/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/031/back-battle.4bpp graphics/yokai/031/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/031/front-battle.4bpp graphics/yokai/031/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/032/back-battle.4bpp graphics/yokai/032/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/032/front-battle.4bpp graphics/yokai/032/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/033/back-battle.4bpp graphics/yokai/033/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/033/front-battle.4bpp graphics/yokai/033/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/034/back-battle.4bpp graphics/yokai/034/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/034/front-battle.4bpp graphics/yokai/034/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/035/back-battle.4bpp graphics/yokai/035/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/035/front-battle.4bpp graphics/yokai/035/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/036/back-battle.4bpp graphics/yokai/036/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/036/front-battle.4bpp graphics/yokai/036/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/037/back-battle.4bpp graphics/yokai/037/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/037/front-battle.4bpp graphics/yokai/037/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/038/back-battle.4bpp graphics/yokai/038/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/038/front-battle.4bpp graphics/yokai/038/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/039/back-battle.4bpp graphics/yokai/039/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/039/front-battle.4bpp graphics/yokai/039/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/040/back-battle.4bpp graphics/yokai/040/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/040/front-battle.4bpp graphics/yokai/040/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/041/back-battle.4bpp graphics/yokai/041/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/041/front-battle.4bpp graphics/yokai/041/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/042/back-battle.4bpp graphics/yokai/042/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/042/front-battle.4bpp graphics/yokai/042/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/043/back-battle.4bpp graphics/yokai/043/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/043/front-battle.4bpp graphics/yokai/043/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/044/back-battle.4bpp graphics/yokai/044/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/044/front-battle.4bpp graphics/yokai/044/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/045/back-battle.4bpp graphics/yokai/045/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/045/front-battle.4bpp graphics/yokai/045/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/046/back-battle.4bpp graphics/yokai/046/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/046/front-battle.4bpp graphics/yokai/046/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/047/back-battle.4bpp graphics/yokai/047/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/047/front-battle.4bpp graphics/yokai/047/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/048/back-battle.4bpp graphics/yokai/048/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/048/front-battle.4bpp graphics/yokai/048/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/049/back-battle.4bpp graphics/yokai/049/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/049/front-battle.4bpp graphics/yokai/049/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/050/back-battle.4bpp graphics/yokai/050/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/050/front-battle.4bpp graphics/yokai/050/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/051/back-battle.4bpp graphics/yokai/051/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/051/front-battle.4bpp graphics/yokai/051/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/052/back-battle.4bpp graphics/yokai/052/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/052/front-battle.4bpp graphics/yokai/052/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/053/back-battle.4bpp graphics/yokai/053/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/053/front-battle.4bpp graphics/yokai/053/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/054/back-battle.4bpp graphics/yokai/054/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/054/front-battle.4bpp graphics/yokai/054/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/055/back-battle.4bpp graphics/yokai/055/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/055/front-battle.4bpp graphics/yokai/055/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/056/back-battle.4bpp graphics/yokai/056/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/056/front-battle.4bpp graphics/yokai/056/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/057/back-battle.4bpp graphics/yokai/057/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/057/front-battle.4bpp graphics/yokai/057/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/058/back-battle.4bpp graphics/yokai/058/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/058/front-battle.4bpp graphics/yokai/058/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/059/back-battle.4bpp graphics/yokai/059/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/059/front-battle.4bpp graphics/yokai/059/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/060/back-battle.4bpp graphics/yokai/060/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/060/front-battle.4bpp graphics/yokai/060/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/061/back-battle.4bpp graphics/yokai/061/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/061/front-battle.4bpp graphics/yokai/061/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/062/back-battle.4bpp graphics/yokai/062/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/062/front-battle.4bpp graphics/yokai/062/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/063/back-battle.4bpp graphics/yokai/063/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/063/front-battle.4bpp graphics/yokai/063/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/064/back-battle.4bpp graphics/yokai/064/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/064/front-battle.4bpp graphics/yokai/064/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/065/back-battle.4bpp graphics/yokai/065/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/065/front-battle.4bpp graphics/yokai/065/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/066/back-battle.4bpp graphics/yokai/066/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/066/front-battle.4bpp graphics/yokai/066/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/067/back-battle.4bpp graphics/yokai/067/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/067/front-battle.4bpp graphics/yokai/067/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/068/back-battle.4bpp graphics/yokai/068/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/068/front-battle.4bpp graphics/yokai/068/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/069/back-battle.4bpp graphics/yokai/069/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/069/front-battle.4bpp graphics/yokai/069/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/070/back-battle.4bpp graphics/yokai/070/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/070/front-battle.4bpp graphics/yokai/070/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/071/back-battle.4bpp graphics/yokai/071/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/071/front-battle.4bpp graphics/yokai/071/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/072/back-battle.4bpp graphics/yokai/072/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/072/front-battle.4bpp graphics/yokai/072/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/073/back-battle.4bpp graphics/yokai/073/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/073/front-battle.4bpp graphics/yokai/073/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/074/back-battle.4bpp graphics/yokai/074/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/074/front-battle.4bpp graphics/yokai/074/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/075/back-battle.4bpp graphics/yokai/075/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/075/front-battle.4bpp graphics/yokai/075/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/076/back-battle.4bpp graphics/yokai/076/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/076/front-battle.4bpp graphics/yokai/076/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/077/back-battle.4bpp graphics/yokai/077/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/077/front-battle.4bpp graphics/yokai/077/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/078/back-battle.4bpp graphics/yokai/078/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/078/front-battle.4bpp graphics/yokai/078/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/079/back-battle.4bpp graphics/yokai/079/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/079/front-battle.4bpp graphics/yokai/079/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/080/back-battle.4bpp graphics/yokai/080/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/080/front-battle.4bpp graphics/yokai/080/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/081/back-battle.4bpp graphics/yokai/081/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/081/front-battle.4bpp graphics/yokai/081/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/082/back-battle.4bpp graphics/yokai/082/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/082/front-battle.4bpp graphics/yokai/082/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/083/back-battle.4bpp graphics/yokai/083/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/083/front-battle.4bpp graphics/yokai/083/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/084/back-battle.4bpp graphics/yokai/084/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/084/front-battle.4bpp graphics/yokai/084/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/085/back-battle.4bpp graphics/yokai/085/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/085/front-battle.4bpp graphics/yokai/085/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/086/back-battle.4bpp graphics/yokai/086/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/086/front-battle.4bpp graphics/yokai/086/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/087/back-battle.4bpp graphics/yokai/087/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/087/front-battle.4bpp graphics/yokai/087/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/088/back-battle.4bpp graphics/yokai/088/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/088/front-battle.4bpp graphics/yokai/088/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/089/back-battle.4bpp graphics/yokai/089/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/089/front-battle.4bpp graphics/yokai/089/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/090/back-battle.4bpp graphics/yokai/090/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/090/front-battle.4bpp graphics/yokai/090/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/091/back-battle.4bpp graphics/yokai/091/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/091/front-battle.4bpp graphics/yokai/091/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/092/back-battle.4bpp graphics/yokai/092/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/092/front-battle.4bpp graphics/yokai/092/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/093/back-battle.4bpp graphics/yokai/093/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/093/front-battle.4bpp graphics/yokai/093/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/094/back-battle.4bpp graphics/yokai/094/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/094/front-battle.4bpp graphics/yokai/094/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/095/back-battle.4bpp graphics/yokai/095/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/095/front-battle.4bpp graphics/yokai/095/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/096/back-battle.4bpp graphics/yokai/096/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/096/front-battle.4bpp graphics/yokai/096/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/097/back-battle.4bpp graphics/yokai/097/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/097/front-battle.4bpp graphics/yokai/097/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/098/back-battle.4bpp graphics/yokai/098/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/098/front-battle.4bpp graphics/yokai/098/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/099/back-battle.4bpp graphics/yokai/099/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/099/front-battle.4bpp graphics/yokai/099/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/100/back-battle.4bpp graphics/yokai/100/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/100/front-battle.4bpp graphics/yokai/100/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/101/back-battle.4bpp graphics/yokai/101/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/101/front-battle.4bpp graphics/yokai/101/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/102/back-battle.4bpp graphics/yokai/102/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/102/front-battle.4bpp graphics/yokai/102/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/103/back-battle.4bpp graphics/yokai/103/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/103/front-battle.4bpp graphics/yokai/103/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/104/back-battle.4bpp graphics/yokai/104/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/104/front-battle.4bpp graphics/yokai/104/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/105/back-battle.4bpp graphics/yokai/105/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/105/front-battle.4bpp graphics/yokai/105/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/106/back-battle.4bpp graphics/yokai/106/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/106/front-battle.4bpp graphics/yokai/106/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/107/back-battle.4bpp graphics/yokai/107/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/107/front-battle.4bpp graphics/yokai/107/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/108/back-battle.4bpp graphics/yokai/108/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/108/front-battle.4bpp graphics/yokai/108/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/109/back-battle.4bpp graphics/yokai/109/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/109/front-battle.4bpp graphics/yokai/109/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/110/back-battle.4bpp graphics/yokai/110/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/110/front-battle.4bpp graphics/yokai/110/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/111/back-battle.4bpp graphics/yokai/111/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/111/front-battle.4bpp graphics/yokai/111/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/112/back-battle.4bpp graphics/yokai/112/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/112/front-battle.4bpp graphics/yokai/112/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/113/back-battle.4bpp graphics/yokai/113/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/113/front-battle.4bpp graphics/yokai/113/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/114/back-battle.4bpp graphics/yokai/114/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/114/front-battle.4bpp graphics/yokai/114/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/115/back-battle.4bpp graphics/yokai/115/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/115/front-battle.4bpp graphics/yokai/115/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/116/back-battle.4bpp graphics/yokai/116/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/116/front-battle.4bpp graphics/yokai/116/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/117/back-battle.4bpp graphics/yokai/117/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/117/front-battle.4bpp graphics/yokai/117/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/118/back-battle.4bpp graphics/yokai/118/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/118/front-battle.4bpp graphics/yokai/118/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/119/back-battle.4bpp graphics/yokai/119/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/119/front-battle.4bpp graphics/yokai/119/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/120/back-battle.4bpp graphics/yokai/120/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/120/front-battle.4bpp graphics/yokai/120/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/121/back-battle.4bpp graphics/yokai/121/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/121/front-battle.4bpp graphics/yokai/121/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/122/back-battle.4bpp graphics/yokai/122/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/122/front-battle.4bpp graphics/yokai/122/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/123/back-battle.4bpp graphics/yokai/123/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/123/front-battle.4bpp graphics/yokai/123/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/124/back-battle.4bpp graphics/yokai/124/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/124/front-battle.4bpp graphics/yokai/124/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/125/back-battle.4bpp graphics/yokai/125/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/125/front-battle.4bpp graphics/yokai/125/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/126/back-battle.4bpp graphics/yokai/126/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/126/front-battle.4bpp graphics/yokai/126/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/127/back-battle.4bpp graphics/yokai/127/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/127/front-battle.4bpp graphics/yokai/127/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/128/back-battle.4bpp graphics/yokai/128/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/128/front-battle.4bpp graphics/yokai/128/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/129/back-battle.4bpp graphics/yokai/129/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/129/front-battle.4bpp graphics/yokai/129/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/130/back-battle.4bpp graphics/yokai/130/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/130/front-battle.4bpp graphics/yokai/130/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/131/back-battle.4bpp graphics/yokai/131/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/131/front-battle.4bpp graphics/yokai/131/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/132/back-battle.4bpp graphics/yokai/132/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/132/front-battle.4bpp graphics/yokai/132/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/133/back-battle.4bpp graphics/yokai/133/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/133/front-battle.4bpp graphics/yokai/133/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/134/back-battle.4bpp graphics/yokai/134/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/134/front-battle.4bpp graphics/yokai/134/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/135/back-battle.4bpp graphics/yokai/135/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/135/front-battle.4bpp graphics/yokai/135/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/136/back-battle.4bpp graphics/yokai/136/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/136/front-battle.4bpp graphics/yokai/136/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/137/back-battle.4bpp graphics/yokai/137/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/137/front-battle.4bpp graphics/yokai/137/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/138/back-battle.4bpp graphics/yokai/138/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/138/front-battle.4bpp graphics/yokai/138/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/139/back-battle.4bpp graphics/yokai/139/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/139/front-battle.4bpp graphics/yokai/139/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/140/back-battle.4bpp graphics/yokai/140/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/140/front-battle.4bpp graphics/yokai/140/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/141/back-battle.4bpp graphics/yokai/141/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/141/front-battle.4bpp graphics/yokai/141/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/142/back-battle.4bpp graphics/yokai/142/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/142/front-battle.4bpp graphics/yokai/142/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/143/back-battle.4bpp graphics/yokai/143/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/143/front-battle.4bpp graphics/yokai/143/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/144/back-battle.4bpp graphics/yokai/144/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/144/front-battle.4bpp graphics/yokai/144/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/145/back-battle.4bpp graphics/yokai/145/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/145/front-battle.4bpp graphics/yokai/145/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/146/back-battle.4bpp graphics/yokai/146/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/146/front-battle.4bpp graphics/yokai/146/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/147/back-battle.4bpp graphics/yokai/147/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/147/front-battle.4bpp graphics/yokai/147/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/148/back-battle.4bpp graphics/yokai/148/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/148/front-battle.4bpp graphics/yokai/148/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/149/back-battle.4bpp graphics/yokai/149/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/149/front-battle.4bpp graphics/yokai/149/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/150/back-battle.4bpp graphics/yokai/150/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/150/front-battle.4bpp graphics/yokai/150/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/151/back-battle.4bpp graphics/yokai/151/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/151/front-battle.4bpp graphics/yokai/151/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/018/back-battle.4bpp graphics/yokai_shiny_revised/018/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/018/back-display.4bpp graphics/yokai_shiny_revised/018/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/018/front-battle.4bpp graphics/yokai_shiny_revised/018/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/018/front-display.4bpp graphics/yokai_shiny_revised/018/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/051/back-battle.4bpp graphics/yokai_shiny_revised/051/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/051/back-display.4bpp graphics/yokai_shiny_revised/051/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/051/front-battle.4bpp graphics/yokai_shiny_revised/051/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/051/front-display.4bpp graphics/yokai_shiny_revised/051/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/066/back-battle.4bpp graphics/yokai_shiny_revised/066/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/066/back-display.4bpp graphics/yokai_shiny_revised/066/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/066/front-battle.4bpp graphics/yokai_shiny_revised/066/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/066/front-display.4bpp graphics/yokai_shiny_revised/066/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/067/back-battle.4bpp graphics/yokai_shiny_revised/067/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/067/back-display.4bpp graphics/yokai_shiny_revised/067/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/067/front-battle.4bpp graphics/yokai_shiny_revised/067/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/067/front-display.4bpp graphics/yokai_shiny_revised/067/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/120/back-battle.4bpp graphics/yokai_shiny_revised/120/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/120/back-display.4bpp graphics/yokai_shiny_revised/120/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/120/front-battle.4bpp graphics/yokai_shiny_revised/120/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/120/front-display.4bpp graphics/yokai_shiny_revised/120/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/133/back-battle.4bpp graphics/yokai_shiny_revised/133/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/133/back-display.4bpp graphics/yokai_shiny_revised/133/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/133/front-battle.4bpp graphics/yokai_shiny_revised/133/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/133/front-display.4bpp graphics/yokai_shiny_revised/133/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/145/back-battle.4bpp graphics/yokai_shiny_revised/145/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/145/back-display.4bpp graphics/yokai_shiny_revised/145/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/145/front-battle.4bpp graphics/yokai_shiny_revised/145/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/145/front-display.4bpp graphics/yokai_shiny_revised/145/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/150/back-battle.4bpp graphics/yokai_shiny_revised/150/back-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/150/back-display.4bpp graphics/yokai_shiny_revised/150/back-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/150/front-battle.4bpp graphics/yokai_shiny_revised/150/front-battle.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai_shiny_revised/150/front-display.4bpp graphics/yokai_shiny_revised/150/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/137/front-display.4bpp graphics/yokai/137/front-display.4bpp.lz
+tools/gbagfx/gbagfx graphics/yokai/138/front-display.4bpp graphics/yokai/138/front-display.4bpp.lz
+tools/agbcc/bin/agbcc <flags> -o build/firered/src/yokai_battle_geometry.o src/yokai_battle_geometry.c
+tools/agbcc/bin/agbcc <flags> -o build/firered/src/decompress.o src/decompress.c
+tools/agbcc/bin/agbcc <flags> -o build/firered/src/graphics.o src/graphics.c
+tools/ramscrgen/ramscrgen COMMON sym_common.txt ENGLISH -c build/firered/src,common_syms > build/firered/sym_common.ld
+Memory region         Used Size  Region Size  %age Used
+           EWRAM:      261368 B       256 KB     99.70%
+           IWRAM:       29824 B        32 KB     91.02%
+             ROM:    16025700 B        32 MB     47.76%
+cd build/firered && arm-none-eabi-ld -Map ../../pokefirered.map -T ../../ld_script.ld --print-memory-usage -o ../../pokefirered.elf <objs> <libs> | cat
+tools/gbafix/gbafix pokefirered.elf -t"POKEMON FIRE" -cBPRE -m01 -r0 --silent
+arm-none-eabi-objcopy -O binary --gap-fill 0xFF --pad-to 0x9000000 pokefirered.elf pokefirered.gba

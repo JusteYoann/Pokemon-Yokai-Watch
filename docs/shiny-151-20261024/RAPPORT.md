@@ -1,3 +1,5 @@
+> **Révision2 disponible : [les151 shiny seuls](revision-2/PLANCHES.md) et [le nouveau rapport](revision-2/RAPPORT.md).** Cette page décrit la première passe.
+
 # Refonte des 151 shiny — proposition à valider
 
 Branche : `feature/shiny-151-refonte-20261024`. Base : `903281f49`. Aucun merge sur master.
