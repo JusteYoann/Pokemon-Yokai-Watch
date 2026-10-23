@@ -83,7 +83,8 @@ Route25_Text_SeaCottageSign::
     .string "SEA COTTAGE\nLéo habite ici!$"
 
 Route25_Text_MistyHighHopesAboutThisPlace::
-    .string "Ce cap est réputé\npour les rendez-vous amoureux.\pOndine, la Championne,\nen attend beaucoup.$"
+    .string "Ce cap est réputé\npour les rendez-vous amoureux.\p{CHAMPION_AZURIA} aime beaucoup\nvenir admirer la vue ici.$"
+
 
 Route25_Text_AreYouHereAlone::
     .string "Bonjour, tu es seul?\pQuand on vient sur ce cap,\nc'est mieux à deux.$"

@@ -392,7 +392,8 @@
 #define STRINGID_SPIRATON_CURE_PARALYSIS 390
 #define STRINGID_SPIRATON_CURE_SLEEP 391
 #define STRINGID_SPIRATON_CURE_FREEZE 392
-#define BATTLESTRINGS_COUNT     393
+#define STRINGID_ALYZON_COLOSSUS 393
+#define BATTLESTRINGS_COUNT     394
 
 // This is the string id that gBattleStringsTable starts with.
 // String ids before this (e.g. STRINGID_INTROMSG) are not in the table,

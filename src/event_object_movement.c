@@ -1,3 +1,4 @@
+#include "yokai_champions.h"
 #include "global.h"
 #include "gflib.h"
 #include "event_data.h"
@@ -481,6 +482,7 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 #define OBJ_EVENT_PAL_TAG_YOKAI_LEO_JIBANYAN 0x112A
 #define OBJ_EVENT_PAL_TAG_YOKAI_ALYZON 0x112B
 #define OBJ_EVENT_PAL_TAG_LAVENDER_ZOMBIE 0x112C
+#define OBJ_EVENT_PAL_TAG_YOKAI_BERENICE 0x112D
 #define OBJ_EVENT_PAL_TAG_YOKAI_ENMA_CREATURE 0x1126
 #define OBJ_EVENT_PAL_TAG_YOKAI_ENMA                  0x111E
 #define OBJ_EVENT_PAL_TAG_ARIANE                      0x111D
@@ -497,6 +499,7 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 
 static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_YokaiAlyzon, OBJ_EVENT_PAL_TAG_YOKAI_ALYZON},
+    {gObjectEventPal_YokaiBerenice, OBJ_EVENT_PAL_TAG_YOKAI_BERENICE},
     {gObjectEventPal_LavenderZombie, OBJ_EVENT_PAL_TAG_LAVENDER_ZOMBIE},
     {gObjectEventPal_Player, OBJ_EVENT_PAL_TAG_YOKAI_FRIEND},
     {gObjectEventPal_YokaiNathaniel, OBJ_EVENT_PAL_TAG_YOKAI_NATHANIEL},
@@ -1622,7 +1625,8 @@ static void LoadAlyzonObjectPalette(const struct ObjectEventGraphicsInfo *graphi
     // Alyzon uses reflection bank7, zombies bank8. Keep ordinary green NPCs
     // in body bank4, Nathan0, Matt6 and Don10 unchanged. No saved palette state.
     if (graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_YOKAI_ALYZON
-        || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_LAVENDER_ZOMBIE)
+        || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_LAVENDER_ZOMBIE
+        || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_YOKAI_BERENICE)
         PatchObjectPalette(graphicsInfo->paletteTag, graphicsInfo->paletteSlot);
 }
 
@@ -2152,6 +2156,7 @@ const struct ObjectEventGraphicsInfo *GetObjectEventGraphicsInfo(u8 graphicsId)
     if (graphicsId >= OBJ_EVENT_GFX_VARS)
         graphicsId = VarGetObjectEventGraphicsId(graphicsId - OBJ_EVENT_GFX_VARS);
     
+    graphicsId = YokaiChampionObjectGfx(graphicsId);
     if (graphicsId >= NUM_OBJ_EVENT_GFX)
         graphicsId = OBJ_EVENT_GFX_LITTLE_BOY;
     

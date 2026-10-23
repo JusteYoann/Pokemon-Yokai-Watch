@@ -1,3 +1,4 @@
+#include "yokai_champions.h"
 #include "global.h"
 #include "spiraton_battle.h"
 #include "constants/opponents.h"
@@ -525,7 +526,10 @@ static const u8 sCurePoison[] = _("DON SPIRATON n'est plus\nempoisonné !");
 static const u8 sCureParalysis[] = _("DON SPIRATON n'est plus\nparalysé !");
 static const u8 sCureSleep[] = _("DON SPIRATON s'est réveillé !");
 static const u8 sCureFreeze[] = _("DON SPIRATON n'est plus gelé !");
+static const u8 sText_AlyzonColossus[] = _("ALYZON : Et maintenant,\nje vais te présenter\pmon petit préféré !\nHihi !");
+
 const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT - BATTLESTRINGS_TABLE_START] = {
+    [STRINGID_ALYZON_COLOSSUS - BATTLESTRINGS_TABLE_START] = sText_AlyzonColossus,
     [STRINGID_SPIRATON_TRANSFORM - BATTLESTRINGS_TABLE_START] = sText_SpiratonTransform,
     [STRINGID_SPIRATON_CURE_BURN - BATTLESTRINGS_TABLE_START] = sCureBurn,
     [STRINGID_SPIRATON_CURE_POISON - BATTLESTRINGS_TABLE_START] = sCurePoison,
@@ -2064,7 +2068,8 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                     toCpy = gTrainerClassNames[GetTrainerTowerOpponentClass()];
                 else if (gBattleTypeFlags & BATTLE_TYPE_EREADER_TRAINER)
                     toCpy = gTrainerClassNames[GetEreaderTrainerClassId()];
-                else if (gTrainerBattleOpponent_A == TRAINER_LEADER_ERIKA)
+                else if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_LEADER
+                      && YokaiChampionFemale(gTrainerBattleOpponent_A))
                     toCpy = sAlyzonChampionneClass;
                 // Keep postgame economics/AI classes while presenting all Mafia as sbires.
                 else if (gTrainerBattleOpponent_A == TRAINER_YOKAI_MAFIAMILLE1
@@ -2107,7 +2112,7 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                      || gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_CHAMPION)
                         toCpy = GetExpandedPlaceholder(PLACEHOLDER_ID_RIVAL);
                     else
-                        toCpy = gTrainers[gTrainerBattleOpponent_A].trainerName;
+                        toCpy = YokaiChampionName(gTrainerBattleOpponent_A);
                 }
                 break;
             case B_TXT_LINK_PLAYER_NAME: // link player name

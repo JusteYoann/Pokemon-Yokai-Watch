@@ -14,7 +14,7 @@ PewterCity_Text_ClefairyCameFromMoon::
     .string "On raconte que les Bouh\nviendraient de la lune.\pIls seraient apparus après la chute\nde Pierres Lune sur MT. MOON.$"
 
 PewterCity_Text_BrockOnlySeriousTrainerHere::
-    .string "Il y a peu de Dresseurs de Yo-kai\nvraiment sérieux dans le coin.\pBeaucoup collectionnent\nles Yo-kai pour le plaisir.\pMais Pierre, le Champion\nde l'Arène, c'est autre chose!$"
+    .string "Il y a peu de Dresseurs de Yo-kai\nvraiment sérieux dans le coin.\pBeaucoup collectionnent\nles Yo-kai pour le plaisir.\pMais Wyatt, le Champion\nde l'Arène, c'est autre chose!$"
 
 PewterCity_Text_DidYouCheckOutMuseum::
     .string "As-tu visité le Musée?$"
@@ -38,10 +38,10 @@ PewterCity_Text_SprayingRepelToKeepWildMonsOut::
     .string "Je vaporise du Repousse pour\néloigner les Yo-kai de mon jardin!$"
 
 PewterCity_Text_BrocksLookingForChallengersFollowMe::
-    .string "Tu es Dresseur de Yo-kai?\pPierre cherche\nde nouveaux adversaires. Suis-moi!$"
+    .string "Tu es Dresseur de Yo-kai?\pWyatt cherche\nde nouveaux adversaires. Suis-moi!$"
 
 PewterCity_Text_GoTakeOnBrock::
-    .string "Si tu t'en sens capable,\nva défier Pierre!$"
+    .string "Si tu t'en sens capable,\nva défier Wyatt!$"
 
 PewterCity_Text_TrainerTipsEarningEXP::
     .string "CONSEILS AUX DRESSEURS\pLe Multi Exp. est permanent:\ntoute l'équipe reçoit de l'EXP.\pLes Yo-kai encore en état\nde combattre progressent ensemble!$"
@@ -53,14 +53,14 @@ PewterCity_Text_MuseumOfScience::
     .string "MUSÉE DES SCIENCES\nDE PEWTER CITY$"
 
 PewterCity_Text_GymSign::
-    .string "ARÈNE DE PEWTER CITY\nCHAMPION: PIERRE\lUn Dresseur solide comme le roc!$"
+    .string "ARÈNE DE PEWTER CITY\nCHAMPION: WYATT\lUn Dresseur solide comme le roc!$"
 
 PewterCity_Text_CitySign::
     .string "PEWTER CITY\nLa ville grise comme la pierre$"
 
 @ The below 3 JP texts are unused. Possibly a cut NPC meant to give the player the Berry Pouch
 PewterCity_Text_DefeatedBrockYouCanHaveTreasure::
-    .string "Hé! Ce Badge…\nTu as battu Pierre? Bravo!\pPour te féliciter,\nje vais te donner mon trésor!$"
+    .string "Hé! Ce Badge…\nTu as battu Wyatt? Bravo!\pPour te féliciter,\nje vais te donner mon trésor!$"
 
 PewterCity_Text_BerriesInsideUseCarefully::
     .string "Il contient des Baies.\pCertaines sont très utiles.\nUtilise-les avec soin!$"

@@ -1,3 +1,5 @@
+#include "constants/opponents.h"
+#include "yokai_champions.h"
 #include "global.h"
 #include "gflib.h"
 extern const u8 gText_RivalMatt[];
@@ -483,6 +485,8 @@ u8 *GetExpandedPlaceholder(u32 id)
         [PLACEHOLDER_ID_KYOGRE]       = ExpandPlaceholder_Kyogre,
     };
 
+    if (id == 14) return (u8 *)YokaiChampionName(TRAINER_LEADER_MISTY);
+    if (id == 15) return (u8 *)YokaiChampionName(TRAINER_LEADER_BLAINE);
     if (id >= NELEMS(funcs))
         return gExpandedPlaceholder_Empty;
     else

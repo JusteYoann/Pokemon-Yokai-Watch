@@ -4580,3 +4580,6 @@ extern const u32 gTrainerPalette_YokaiEnma[];
 
 extern const u32 gTrainerFrontPic_LavenderZombie[];
 extern const u32 gTrainerPalette_LavenderZombie[];
+
+extern const u32 gTrainerFrontPic_YokaiBerenice[];
+extern const u32 gTrainerPalette_YokaiBerenice[];

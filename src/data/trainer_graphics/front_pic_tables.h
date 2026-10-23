@@ -161,6 +161,7 @@ const struct MonCoords gTrainerFrontPicCoords[] =
     [TRAINER_PIC_YOKAI_MAFIAMILLE2] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_YOKAI_MAFIAMILLE3] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_YOKAI_ALYZON] = {.size = 8, .y_offset = 1},
+    [TRAINER_PIC_YOKAI_BERENICE] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_LAVENDER_ZOMBIE] = {.size = 8, .y_offset = 1},
 };
 
@@ -328,6 +329,7 @@ const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
     TRAINER_SPRITE(YOKAI_MAFIAMILLE3, gTrainerFrontPic_YokaiMafiamille3, 0x800),
     TRAINER_SPRITE(LAVENDER_ZOMBIE, gTrainerFrontPic_LavenderZombie, 0x800),
     TRAINER_SPRITE(YOKAI_ALYZON, gTrainerFrontPic_YokaiAlyzon, 0x800),
+    TRAINER_SPRITE(YOKAI_BERENICE, gTrainerFrontPic_YokaiBerenice, 0x800),
 };
 
 const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
@@ -494,4 +496,5 @@ const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
     TRAINER_PAL(YOKAI_MAFIAMILLE3, gTrainerPalette_YokaiMafiamille3),
     TRAINER_PAL(LAVENDER_ZOMBIE, gTrainerPalette_LavenderZombie),
     TRAINER_PAL(YOKAI_ALYZON, gTrainerPalette_YokaiAlyzon),
+    TRAINER_PAL(YOKAI_BERENICE, gTrainerPalette_YokaiBerenice),
 };

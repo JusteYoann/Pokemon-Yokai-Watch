@@ -1,3 +1,4 @@
+#include "yokai_champions.h"
 #include "global.h"
 #include "lavanville.h"
 #include "spiraton_battle.h"
@@ -1564,8 +1565,8 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum)
             else
                 personalityValue = 0x88; // Use personality more likely to result in a male Pokémon
 
-            for (j = 0; gTrainers[trainerNum].trainerName[j] != EOS; j++)
-                nameHash += gTrainers[trainerNum].trainerName[j];
+            for (j = 0; YokaiChampionPartySeedName(trainerNum)[j] != EOS; j++)
+                nameHash += YokaiChampionPartySeedName(trainerNum)[j];
 
             switch (gTrainers[trainerNum].partyFlags)
             {
@@ -1640,6 +1641,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum)
         for (i = 0; i < gTrainers[trainerNum].partySize; i++)
             SetMonData(&party[i], MON_DATA_ABILITY_NUM, &sYokaiTrainerAbilitySlots[trainerNum][i]);
 
+        YokaiChampionPrepareParty(trainerNum);
         gBattleTypeFlags |= gTrainers[trainerNum].doubleBattle;
     }
 
@@ -2272,6 +2274,7 @@ static void BattleStartClearSetData(void)
 
     gMultiHitCounter = 0;
     SpiratonBattleReset();
+    YokaiChampionResetBattle();
     gBattleOutcome = 0;
     gBattleControllerExecFlags = 0;
     gPaydayMoney = 0;

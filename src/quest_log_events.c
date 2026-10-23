@@ -1,3 +1,4 @@
+#include "yokai_champions.h"
 #include "global.h"
 #include "gflib.h"
 #include "battle.h"
@@ -1752,7 +1753,7 @@ static const u16 *LoadEvent_DefeatedGymLeader(const u16 *eventData)
     DynamicPlaceholderTextUtil_Reset();
     GetMapNameGeneric(gStringVar1, r6[0]);
     DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, gStringVar1);
-    DynamicPlaceholderTextUtil_SetPlaceholderPtr(1, gTrainers[eventData[2]].trainerName);
+    DynamicPlaceholderTextUtil_SetPlaceholderPtr(1, YokaiChampionName(eventData[2]));
     QuestLog_GetSpeciesName(eventData[0], 0, 2);
     QuestLog_GetSpeciesName(eventData[1], 0, 3);
     DynamicPlaceholderTextUtil_SetPlaceholderPtr(4, sDefeatedOpponentFlavorTexts[r6[1]]);
@@ -1860,7 +1861,7 @@ static const u16 *LoadEvent_DefeatedEliteFourMember(const u16 *eventData)
     eventData = LoadEvent(QL_EVENT_DEFEATED_E4_MEMBER, eventData);
     r5 = (const u8 *)eventData + 6;
     DynamicPlaceholderTextUtil_Reset();
-    DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, gTrainers[eventData[2]].trainerName);
+    DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, YokaiChampionName(eventData[2]));
     QuestLog_GetSpeciesName(eventData[0], NULL, 1);
     QuestLog_GetSpeciesName(eventData[1], NULL, 2);
     DynamicPlaceholderTextUtil_SetPlaceholderPtr(3, sDefeatedOpponentFlavorTexts[r5[1]]);
@@ -1931,7 +1932,7 @@ static const u16 *LoadEvent_DefeatedTrainer(const u16 *eventData)
      || gTrainers[r5[2]].trainerClass == TRAINER_CLASS_CHAMPION)
         DynamicPlaceholderTextUtil_SetPlaceholderPtr(1, GetExpandedPlaceholder(PLACEHOLDER_ID_RIVAL));
     else
-        DynamicPlaceholderTextUtil_SetPlaceholderPtr(1, gTrainers[r5[2]].trainerName);
+        DynamicPlaceholderTextUtil_SetPlaceholderPtr(1, YokaiChampionName(r5[2]));
 
     QuestLog_GetSpeciesName(r5[0], NULL, 2);
     QuestLog_GetSpeciesName(r5[1], NULL, 3);

@@ -17,6 +17,9 @@ PewterCity_Gym_EventScript_DefeatedBrock::
 	setflag FLAG_HIDE_PEWTER_CITY_GYM_GUIDE
 	clearflag FLAG_HIDE_PEWTER_CITY_RUNNING_SHOES_GUY
 	set_gym_trainers 1
+	playfanfare MUS_OBTAIN_BADGE
+	msgbox PewterCity_Gym_Text_BadgeRoche
+	waitfanfare
 	goto PewterCity_Gym_EventScript_GiveTM39
 	end
 

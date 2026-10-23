@@ -96,5 +96,5 @@ CeruleanCity_Text_BikeShopSign::
     .string "À l'aise sur tous les chemins!\nMAGASIN DE VÉLOS$"
 
 CeruleanCity_Text_GymSign::
-    .string "ARÈNE DE CERULEAN CITY\nCHAMPIONNE: ONDINE\lLa sirène au caractère bien trempé!$"
+    .string "ARÈNE D’AZURIA\n{CHAMPION_AZURIA}\lSpécialité : type Normal$"
 

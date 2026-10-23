@@ -179,7 +179,8 @@
 #define OBJ_EVENT_GFX_YOKAI_LEO_JIBANYAN 172
 #define OBJ_EVENT_GFX_YOKAI_ALYZON 173
 #define OBJ_EVENT_GFX_LAVENDER_ZOMBIE 174
-#define NUM_OBJ_EVENT_GFX     175
+#define OBJ_EVENT_GFX_YOKAI_BERENICE 175
+#define NUM_OBJ_EVENT_GFX     176
 
 // These are dynamic object gfx ids.
 // They correspond with the values of the VAR_OBJ_GFX_ID_X vars.

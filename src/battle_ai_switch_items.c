@@ -1,3 +1,4 @@
+#include "yokai_champions.h"
 #include "global.h"
 #include "battle.h"
 #include "battle_anim.h"
@@ -305,7 +306,7 @@ static bool8 ShouldSwitch(void)
     s32 i;
     s32 availableToSwitch;
 
-    if (gTrainerBattleOpponent_A == TRAINER_LEADER_ERIKA)
+    if (YokaiChampionOrderedPartySize())
         return FALSE;
     if ((gBattleMons[gActiveBattler].status2 & (STATUS2_WRAPPED | STATUS2_ESCAPE_PREVENTION))
      || (gStatuses3[gActiveBattler] & STATUS3_ROOTED)
@@ -437,9 +438,9 @@ u8 GetMostSuitableMonToSwitchInto(void)
     u8 invalidMons;
     u16 move;
 
-    if ((gBattleTypeFlags & BATTLE_TYPE_TRAINER) && gTrainerBattleOpponent_A == TRAINER_LEADER_ERIKA)
+    if (YokaiChampionOrderedPartySize())
     {
-        for (i = 0; i < 4; i++)
+        for (i = 0; i < YokaiChampionOrderedPartySize(); i++)
             if (i != gBattlerPartyIndexes[gActiveBattler] && GetMonData(&gEnemyParty[i], MON_DATA_HP) != 0)
                 return i;
     }

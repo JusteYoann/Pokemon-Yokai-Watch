@@ -42,4 +42,4 @@ Text_MegaKickTaught::
     .string "Nous voilà unis\npar l'art du coup de pied!\pFile avant que l'autre là-bas\nne t'entraîne dans ses histoires\lde petits coups de poing!$"
 
 Route4_Text_PeopleLikeAndRespectBrock::
-    .string "Oh! Le Badge Roche!\nC'est Pierre qui te l'a remis?\pIl est fort, mais aussi\ntrès apprécié et respecté.\pJ'aimerais devenir\nun Champion comme lui.$"
+    .string "Oh! Le Badge Roche!\nC'est Wyatt qui te l'a remis?\pIl est fort, mais aussi\ntrès apprécié et respecté.\pJ'aimerais devenir\nun Champion comme lui.$"

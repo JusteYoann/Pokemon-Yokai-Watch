@@ -3,7 +3,13 @@ CeruleanCity_Gym_MapScripts::
 
 CeruleanCity_Gym_EventScript_Misty::
 	famechecker FAMECHECKER_MISTY, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
+	checkplayergender
+	goto_if_eq VAR_RESULT, FEMALE, CeruleanCity_Gym_ChampionNathan
 	trainerbattle_single TRAINER_LEADER_MISTY, CeruleanCity_Gym_Text_MistyIntro, CeruleanCity_Gym_Text_MistyDefeat, CeruleanCity_Gym_EventScript_MistyDefeated, NO_MUSIC
+	goto CeruleanCity_Gym_ChampionAfter
+CeruleanCity_Gym_ChampionNathan::
+	trainerbattle_single TRAINER_LEADER_MISTY, CeruleanCity_Gym_Text_NathanIntro, CeruleanCity_Gym_Text_MistyDefeat, CeruleanCity_Gym_EventScript_MistyDefeated, NO_MUSIC
+CeruleanCity_Gym_ChampionAfter::
 	goto_if_unset FLAG_GOT_TM03_FROM_MISTY, CeruleanCity_Gym_EventScript_GiveTM03
 	msgbox CeruleanCity_Gym_Text_ExplainTM03
 	release

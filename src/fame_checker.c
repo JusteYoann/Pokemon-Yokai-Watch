@@ -1,3 +1,4 @@
+#include "yokai_champions.h"
 #include "global.h"
 #include "gflib.h"
 #include "constants/songs.h"
@@ -1108,7 +1109,7 @@ static bool8 CreateAllFlavorTextIcons(u8 who)
         if ((gSaveBlock1Ptr->fameChecker[sFameCheckerData->unlockedPersons[who]].flavorTextFlags >> i) & 1)
         {
             sFameCheckerData->spriteIds[i] = CreateFameCheckerObject(
-                sFameCheckerArrayNpcGraphicsIds[sFameCheckerData->unlockedPersons[who] * 6 + i],
+                YokaiChampionFameObjectGfx(sFameCheckerArrayNpcGraphicsIds[sFameCheckerData->unlockedPersons[who] * 6 + i]),
                 i,
                 47 * (i % 3) + 0x72,
                 27 * (i / 3) + 0x2F
@@ -1371,7 +1372,7 @@ static u8 CreatePersonPicSprite(u8 fcPersonIdx)
     }
     else
     {
-        spriteId = CreateTrainerPicSprite(sFameCheckerTrainerPicIdxs[fcPersonIdx], TRUE, PERSON_X, PERSON_Y, PERSON_PAL_NUM, TAG_NONE);
+        spriteId = CreateTrainerPicSprite(sTrainerIdxs[fcPersonIdx] < FC_NONTRAINER_START ? YokaiChampionPortrait(sTrainerIdxs[fcPersonIdx]) : sFameCheckerTrainerPicIdxs[fcPersonIdx], TRUE, PERSON_X, PERSON_Y, PERSON_PAL_NUM, TAG_NONE);
     }
     gSprites[spriteId].callback = SpriteCB_FCSpinningPokeball;
     if (gSaveBlock1Ptr->fameChecker[fcPersonIdx].pickState == FCPICKSTATE_SILHOUETTE)
@@ -1562,7 +1563,7 @@ static u8 FC_PopulateListMenu(void)
             {
                 sListMenuItems[nitems].label = fameCheckerIdx == FAMECHECKER_GIOVANNI
                     ? sMafiamilleFameListName
-                    : gTrainers[sTrainerIdxs[fameCheckerIdx]].trainerName;
+                    : YokaiChampionName(sTrainerIdxs[fameCheckerIdx]);
                 sListMenuItems[nitems].index = nitems;
             }
             else

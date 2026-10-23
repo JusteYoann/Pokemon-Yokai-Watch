@@ -1,3 +1,4 @@
+#include "yokai_champions.h"
 #include "global.h"
 #include "lavanville.h"
 #include "spiraton_battle.h"
@@ -3174,7 +3175,7 @@ static void Cmd_getexp(void)
 
             }
 
-            calculatedExp = gSpeciesInfo[gBattleMons[gBattlerFainted].species].expYield * gBattleMons[gBattlerFainted].level / 7;
+            calculatedExp = YokaiChampionExpYield(gBattlerFainted, gSpeciesInfo[gBattleMons[gBattlerFainted].species].expYield) * gBattleMons[gBattlerFainted].level / 7;
 
             // Permanent party Exp. Share: participants split the full reward,
             // each living reserve receives half. No held item is required.
@@ -6210,6 +6211,14 @@ static void Cmd_various(void)
             gBattleCommunication[5] = 1;
         }
         break;
+    case VARIOUS_CHAMPION_COLOSSUS:
+        if (YokaiChampionAnnounceColossus(GetBattlerForBattleScript(gBattlescriptCurrInstr[1])))
+        {
+            BattleScriptPush(gBattlescriptCurrInstr + 3);
+            gBattlescriptCurrInstr = BattleScript_AlyzonColossus;
+            return;
+        }
+        break;
     case VARIOUS_WAIT_FANFARE:
         if (!IsFanfareTaskInactive())
             return;
@@ -6994,9 +7003,9 @@ static void Cmd_forcerandomswitch(void)
                         || !MON_CAN_BATTLE(&party[i]));
                 }
             }
-            if (gTrainerBattleOpponent_A == TRAINER_LEADER_ERIKA && GetBattlerSide(gBattlerTarget) == B_SIDE_OPPONENT)
+            if (YokaiChampionOrderedPartySize() && GetBattlerSide(gBattlerTarget) == B_SIDE_OPPONENT)
             {
-                for (i = 0; i < 4; i++)
+                for (i = 0; i < YokaiChampionOrderedPartySize(); i++)
                     if (i != gBattlerPartyIndexes[gBattlerTarget] && MON_CAN_BATTLE(&party[i])) break;
             }
             *(gBattleStruct->monToSwitchIntoId + gBattlerTarget) = i;

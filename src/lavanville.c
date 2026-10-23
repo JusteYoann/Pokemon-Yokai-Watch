@@ -1,3 +1,4 @@
+#include "yokai_champions.h"
 #include "global.h"
 #include "gflib.h"
 #include "lavanville.h"
@@ -105,9 +106,10 @@ void LavanvilleStartZombieBattle(void)
 bool8 LavanvilleLoadZombieGfx(u8 battler)
 {
     u8 v;
-    if (!(gBattleTypeFlags & BATTLE_TYPE_LAVENDER_ZOMBIE) || GetBattlerSide(battler) != B_SIDE_OPPONENT)
+    if ((!(gBattleTypeFlags & BATTLE_TYPE_LAVENDER_ZOMBIE) && !YokaiChampionIsColossus(battler)) || GetBattlerSide(battler) != B_SIDE_OPPONENT)
         return FALSE;
-    v = (gBattleTypeFlags >> 21) & 3;
+    v = YokaiChampionIsColossus(battler) ? 2 : (gBattleTypeFlags >> 21) & 3;
+    if (YokaiChampionIsColossus(battler) && gBattleSpritesDataPtr->battlerData[battler].transformSpecies != SPECIES_NONE) return FALSE;
     CpuCopy32(sZombiePics[v], gMonSpritesGfxPtr->sprites[GetBattlerPosition(battler)], 2048);
     LoadPalette(sZombiePals[v], OBJ_PLTT_ID(battler), 32);
     LoadPalette(sZombiePals[v], BG_PLTT_ID(8 + battler), 32);

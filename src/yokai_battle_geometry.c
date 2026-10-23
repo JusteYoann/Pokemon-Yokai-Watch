@@ -1,3 +1,4 @@
+#include "yokai_champions.h"
 #include "global.h"
 #include "lavanville.h"
 #include "spiraton_art.h"
@@ -24,6 +25,10 @@ const struct YokaiBattleGeometry *GetYokaiBattleGeometry(u8 battler)
     u16 species;
     if (gMain.inBattle && battler < gBattlersCount && GetBattlerSide(battler) == B_SIDE_OPPONENT && (gBattleTypeFlags & BATTLE_TYPE_LAVENDER_ZOMBIE))
         return &sLavenderZombieGeometry[(gBattleTypeFlags >> 21) & 3];
+    if (YokaiChampionIsColossus(battler) && gBattleSpritesDataPtr != NULL
+        && !gBattleSpritesDataPtr->battlerData[battler].behindSubstitute
+        && gBattleSpritesDataPtr->battlerData[battler].transformSpecies == 0)
+        return &sLavenderZombieGeometry[2];
     if (battler == 1 && SpiratonArtIsActive())
         return NULL;
     if (!gMain.inBattle || battler >= gBattlersCount || gBattleSpritesDataPtr == NULL

@@ -2,10 +2,8 @@ CinnabarIsland_Text_DoorIsLocked::
     .string "The door is locked…$"
 
 CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab::
-    .string "CINNABAR GYM's BLAINE is quite the\n"
-    .string "odd fellow.\p"
-    .string "He's lived on the island since way\n"
-    .string "before the LAB was built.$"
+    .string "{CHAMPION_CRAMOIS} connaît bien\nles histoires du passé.\pCe laboratoire aussi\na beaucoup de choses à raconter.$"
+
 
 CinnabarIsland_Text_ScientistsExperimentInMansion::
     .string "Scientists conduct experiments \n"
@@ -21,9 +19,8 @@ CinnabarIsland_Text_PokemonLab::
     .string "Yo-kai LAB$"
 
 CinnabarIsland_Text_GymSign::
-    .string "CINNABAR ISLAND Yo-kai GYM\n"
-    .string "LEADER: BLAINE\l"
-    .string "The Hotheaded Quiz Master!$"
+    .string "ARÈNE DE CRAMOIS’ÎLE\n{CHAMPION_CRAMOIS}\lLes Yo-kai du passé !$"
+
 
 CinnabarIsland_Text_HeyIfItIsntPlayer::
     .string "Huh?\n"

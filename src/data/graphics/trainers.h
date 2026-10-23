@@ -496,3 +496,6 @@ const u32 gTrainerPalette_YokaiAlyzon[] = INCBIN_U32("graphics/yokai_characters/
 
 const u32 gTrainerFrontPic_LavenderZombie[] = INCBIN_U32("graphics/yokai_zombies/errant/battle-front.4bpp.lz");
 const u32 gTrainerPalette_LavenderZombie[] = INCBIN_U32("graphics/yokai_zombies/errant/battle-front.gbapal.lz");
+
+const u32 gTrainerFrontPic_YokaiBerenice[] = INCBIN_U32("graphics/yokai_characters/berenice/battle.4bpp.lz");
+const u32 gTrainerPalette_YokaiBerenice[] = INCBIN_U32("graphics/yokai_characters/berenice/normal.gbapal.lz");

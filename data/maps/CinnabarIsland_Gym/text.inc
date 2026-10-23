@@ -1,38 +1,26 @@
 CinnabarIsland_Gym_Text_BlaineIntro::
-    .string "Hah!\p"
-    .string "I am BLAINE, the red-hot LEADER\n"
-    .string "of CINNABAR GYM!\p"
-    .string "My fiery Yo-kai are all rough\n"
-    .string "and ready with intense heat!\p"
-    .string "They incinerate all challengers!\p"
-    .string "Hah!\n"
-    .string "You better have BURN HEAL!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "Je suis Nathaniel.\pLes liens avec nos Yo-kai\ntraversent les générations.\pMes compagnons viennent du passé.\nLeurs types sont très variés.\pHovernyan veille à mes côtés.\nRelève notre défi !{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+
 
 CinnabarIsland_Gym_Text_BlaineDefeat::
-    .string "I have burned down to nothing!\n"
-    .string "Not even ashes remain!\p"
-    .string "You have earned the VOLCANOBADGE.$"
+    .string "Une victoire remarquable !\pTu mérites le Badge Volcan.\nHovernyan te félicite aussi !$"
+
 
 CinnabarIsland_Gym_Text_FireBlastIsUltimateFireMove::
-    .string "FIRE BLAST is the ultimate fire\n"
-    .string "technique.\p"
-    .string "Don't waste it on WATER Yo-kai.$"
+    .string "La CT38 enseigne Déflagration.\pC’est une puissante capacité Feu.\nConfie-la à un Yo-kai compatible !$"
+
 
 CinnabarIsland_Gym_Text_ExplainVolcanoBadge::
-    .string "Hah!\p"
-    .string "The VOLCANOBADGE heightens the\n"
-    .string "SPECIAL stats of your Yo-kai.\p"
-    .string "Here, you can have this, too!$"
+    .string "Le Badge Volcan renforce\nles capacités de tes Yo-kai.\pPrends cette CT en souvenir\nde notre rencontre !$"
+
 
 CinnabarIsland_Gym_Text_ReceivedTM38FromBlaine::
-    .string "{PLAYER} received TM38\n"
-    .string "from BLAINE.$"
+    .string "{CHAMPION_CRAMOIS} remet\nla CT38 à {PLAYER}.$"
+
 
 CinnabarIsland_Gym_Text_BlainePostBattle::
-    .string "TM38 contains FIRE BLAST.\n"
-    .string "Teach it to FIRE-type Yo-kai.\p"
-    .string "VULPIX or CHARMELEON would be\n"
-    .string "ideal for that move.$"
+    .string "Le passé nous apprend beaucoup.\pMais c’est avec tes Yo-kai\nque tu écris ton propre avenir !$"
+
 
 CinnabarIsland_Gym_Text_MakeSpaceForThis::
     .string "Make space for this, child!$"
@@ -86,19 +74,15 @@ CinnabarIsland_Gym_Text_RamonPostBattle::
     .string "I'd use that!$"
 
 CinnabarIsland_Gym_Text_DerekIntro::
-    .string "I know why BLAINE became a\n"
-    .string "TRAINER.$"
+    .string "{CHAMPION_CRAMOIS} connaît bien\nles liens entre les générations !$"
+
 
 CinnabarIsland_Gym_Text_DerekDefeat::
     .string "Ow!$"
 
 CinnabarIsland_Gym_Text_DerekPostBattle::
-    .string "Our LEADER, BLAINE, became lost\n"
-    .string "in the mountains but good.\p"
-    .string "Night fell when a fiery bird\n"
-    .string "Yo-kai appeared.\p"
-    .string "Its light allowed BLAINE to find\n"
-    .string "his way down safely.$"
+    .string "Les Yo-kai du passé\nont tant d’histoires à raconter !\pHovernyan accompagne\n{CHAMPION_CRAMOIS} dans ses aventures.$"
+
 
 CinnabarIsland_Gym_Text_DustyIntro::
     .string "I've been to many GYMS, but this\n"
@@ -125,29 +109,20 @@ CinnabarIsland_Gym_Text_ZacPostBattle::
     .string "type beats ICE-type Yo-kai.$"
 
 CinnabarIsland_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "The hotheaded BLAINE is a FIRE\n"
-    .string "Yo-kai pro.\p"
-    .string "Douse his spirits with water!\p"
-    .string "You'd better take some\n"
-    .string "BURN HEALS, too.$"
+    .string "Ici, les Yo-kai viennent du passé !\pIls n’ont pas tous le même type.\nPrépare une équipe variée !\pHovernyan est le dernier.\nAttention à sa grande Vitesse !$"
+
 
 CinnabarIsland_Gym_Text_GymGuyPostVictory::
     .string "{PLAYER}!\n"
     .string "You beat that firebrand!$"
 
 CinnabarIsland_Gym_Text_GymStatue::
-    .string "CINNABAR Yo-kai GYM\n"
-    .string "LEADER: BLAINE\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}$"
+    .string "ARÈNE DE CRAMOIS’ÎLE\n{CHAMPION_CRAMOIS} - Yo-kai du passé\pDRESSEURS VICTORIEUX :\n{RIVAL}$"
+
 
 CinnabarIsland_Gym_Text_GymStatuePlayerWon::
-    .string "CINNABAR Yo-kai GYM\n"
-    .string "LEADER: BLAINE\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}, {PLAYER}$"
+    .string "ARÈNE DE CRAMOIS’ÎLE\n{CHAMPION_CRAMOIS} - Yo-kai du passé\pDRESSEURS VICTORIEUX :\n{RIVAL}, {PLAYER}$"
+
 
 CinnabarIsland_Gym_Text_PokemonQuizRules::
     .string "Yo-kai Quiz!\p"
@@ -188,3 +163,6 @@ CinnabarIsland_Gym_Text_SorryBadCall::
     .string "Sorry!\n"
     .string "Bad call!$"
 
+
+CinnabarIsland_Gym_Text_MichaelIntro::
+    .string "Moi, c’est Michael !\pMes compagnons et moi,\non a traversé bien des aventures.\pLes Yo-kai du passé\nn’ont pas dit leur dernier mot !\pHovernyan attend son tour.\nAlors, prêt pour le défi ?{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"

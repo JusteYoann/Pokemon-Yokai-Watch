@@ -1,49 +1,33 @@
 SaffronCity_Gym_Text_SabrinaIntro::
-    .string "I had a vision of your arrival.\p"
-    .string "I have had psychic powers since\n"
-    .string "I was a child.\p"
-    .string "It started when a spoon I\n"
-    .string "carelessly tossed, bent.\p"
-    .string "I dislike battling, but if you wish,\n"
-    .string "I will show you my powers!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "Bienvenue. Je suis\nBérénice Bélier.\pLes pensées laissent des traces.\nMes Yo-kai savent les percevoir.\pMais rien n’est écrit d’avance.\nProuve-le dans ce combat !{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+
 
 SaffronCity_Gym_Text_SabrinaDefeat::
-    .string "This loss shocks me!\n"
-    .string "But, a loss is a loss.\p"
-    .string "I admit, I didn't work hard enough\n"
-    .string "to win.\p"
-    .string "Your victory has earned you the\n"
-    .string "MARSHBADGE.$"
+    .string "Tu as déjoué mes prévisions.\pTa détermination mérite\nle Badge Marais.$"
+
 
 SaffronCity_Gym_Text_SabrinaPostBattle::
-    .string "Psychic power isn't something that\n"
-    .string "only a few people have.\p"
-    .string "Everyone has psychic power.\n"
-    .string "People just don't realize it.$"
+    .string "Le pouvoir de l’esprit\nse nourrit de confiance.\pPrends soin de tes Yo-kai.\nIls croient en toi.$"
+
 
 SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis::
-    .string "The MARSHBADGE makes Yo-kai up\n"
-    .string "to Lv. 70 obey you.\p"
-    .string "Stronger Yo-kai will become wild,\n"
-    .string "ignoring your orders in battle.\p"
-    .string "Just don't raise your Yo-kai too\n"
-    .string "much to avoid that problem.\p"
-    .string "Wait, please take this TM with you.$"
+    .string "Le Badge Marais fait obéir\nles Yo-kai jusqu’au niveau 70.\pPrends aussi cette CT.\nElle entraîne la concentration.$"
+
 
 SaffronCity_Gym_Text_ReceivedTM04FromSabrina::
-    .string "{PLAYER} received TM04 from\n"
-    .string "SABRINA.$"
+    .string "Bérénice remet\nla CT04 à {PLAYER}.$"
+
 
 SaffronCity_Gym_Text_ExplainTM04::
-    .string "TM04 is CALM MIND.\p"
-    .string "It makes the Yo-kai concentrate\n"
-    .string "to raise both SP. ATK and SP. DEF.$"
+    .string "La CT04 enseigne Plénitude.\pElle augmente l’Attaque Spéciale\net la Défense Spéciale.$"
+
 
 SaffronCity_Gym_Text_BagFullOfOtherItems::
-    .string "Your BAG is full of other items.$"
+    .string "Ton sac est plein.\nReviens avec un peu de place.$"
+
 
 SaffronCity_Gym_Text_AmandaIntro::
-    .string "SABRINA is far younger than I,\n"
+    .string "BÉRÉNICE is far younger than I,\n"
     .string "but she has earned my respect.$"
 
 SaffronCity_Gym_Text_AmandaDefeat::
@@ -52,7 +36,7 @@ SaffronCity_Gym_Text_AmandaDefeat::
 SaffronCity_Gym_Text_AmandaPostBattle::
     .string "In a battle of equals, the one\n"
     .string "with the stronger will wins.\p"
-    .string "If you wish to beat SABRINA, focus\n"
+    .string "If you wish to beat BÉRÉNICE, focus\n"
     .string "and will yourself to victory.$"
 
 SaffronCity_Gym_Text_JohanIntro::
@@ -87,7 +71,7 @@ SaffronCity_Gym_Text_TyronDefeat::
     .string "I don't believe this!$"
 
 SaffronCity_Gym_Text_TyronPostBattle::
-    .string "SABRINA just wiped out the KARATE\n"
+    .string "BÉRÉNICE just wiped out the KARATE\n"
     .string "MASTER next door.$"
 
 SaffronCity_Gym_Text_TashaIntro::
@@ -102,7 +86,7 @@ SaffronCity_Gym_Text_TashaPostBattle::
     .string "place.$"
 
 SaffronCity_Gym_Text_CameronIntro::
-    .string "SABRINA is young, but she's also\n"
+    .string "BÉRÉNICE is young, but she's also\n"
     .string "our highly skilled LEADER.\p"
     .string "You won't reach her easily!$"
 
@@ -121,7 +105,7 @@ SaffronCity_Gym_Text_CameronPostBattle::
 SaffronCity_Gym_Text_PrestonIntro::
     .string "SAFFRON Yo-kai GYM is famous for\n"
     .string "training psychics.\p"
-    .string "You want to see SABRINA, don't\n"
+    .string "You want to see BÉRÉNICE, don't\n"
     .string "you? I can tell!$"
 
 SaffronCity_Gym_Text_PrestonDefeat::
@@ -134,7 +118,7 @@ SaffronCity_Gym_Text_PrestonPostBattle::
 SaffronCity_Gym_Text_GymGuyAdvice::
     .string "Yo!\n"
     .string "Champ in the making!\p"
-    .string "SABRINA's Yo-kai use psychic\n"
+    .string "BÉRÉNICE's Yo-kai use psychic\n"
     .string "power instead of force.\p"
     .string "FIGHTING Yo-kai are especially\n"
     .string "weak against PSYCHIC Yo-kai.\p"
@@ -147,14 +131,9 @@ SaffronCity_Gym_Text_GymGuyPostVictory::
     .string "at the slots!$"
 
 SaffronCity_Gym_Text_GymStatue::
-    .string "SAFFRON Yo-kai GYM\n"
-    .string "LEADER: SABRINA\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}$"
+    .string "ARÈNE DE SAFRANIA\nCHAMPIONNE : BÉRÉNICE\pDRESSEURS VICTORIEUX :\n{RIVAL}$"
+
 
 SaffronCity_Gym_Text_GymStatuePlayerWon::
-    .string "SAFFRON Yo-kai GYM\n"
-    .string "LEADER: SABRINA\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}, {PLAYER}$"
+    .string "ARÈNE DE SAFRANIA\nCHAMPIONNE : BÉRÉNICE\pDRESSEURS VICTORIEUX :\n{RIVAL}, {PLAYER}$"
 

@@ -65,4 +65,4 @@ MtMoon_1F_Text_ZubatIsABloodsucker::
     .string "Attention aux Yo-kai sauvages!\nNe vous laissez pas surprendre!$"
 
 MtMoon_1F_Text_BrockHelpsExcavateFossils::
-    .string "Bonjour! Je cherche des fossiles\ndans les profondeurs de MT. MOON.\pPierre, le Champion de PEWTER CITY,\nvient parfois m'aider.$"
+    .string "Bonjour! Je cherche des fossiles\ndans les profondeurs de MT. MOON.\pWyatt, le Champion de PEWTER CITY,\nvient parfois m'aider.$"

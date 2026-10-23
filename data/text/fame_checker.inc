@@ -74,117 +74,76 @@ gFameCheckerFlavorText_Daisy5:: @ 0x81AD69F
 	.string "PALLET TOWN!$"
 
 gFameCheckerFlavorText_Brock0:: @ 0x81AD705
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}PEWTER CITY Yo-kai GYM\n"
-	.string "LEADER: BROCK\l"
-	.string "The Rock-Solid Dresseur de Yo-kai!$"
+    .string "Wyatt est le Champion\nde l’Arène d’Argenta.$"
+
 
 gFameCheckerFlavorText_Brock1:: @ 0x81AD771
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of Yo-kai?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}My rock-hard willpower is evident\n"
-	.string "in even my Yo-kai.\p"
-	.string "My Yo-kai are all rock hard and\n"
-	.string "have true-grit determination.\p"
-	.string "That's right - my Yo-kai are all\n"
-	.string "the ROCK type!$"
+    .string "Il adore les mystères\net les aventures.$"
+
 
 gFameCheckerFlavorText_Brock2:: @ 0x81AD840
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}There aren't many serious Yo-kai\n"
-	.string "TRAINERS here.\p"
-	.string "They're all like BUG CATCHERS,\n"
-	.string "you know, just hobbyists.\p"
-	.string "But PEWTER GYM's BROCK isn't like\n"
-	.string "that, not one bit.$"
+    .string "Son équipe reste fidèle\naux premiers défis de la Ligue.$"
+
 
 gFameCheckerFlavorText_Brock3:: @ 0x81AD908
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BROCK is cool. He's not just tough.\n"
-	.string "People like and respect him.\p"
-	.string "I want to become a GYM LEADER\n"
-	.string "like him.$"
+    .string "Ses Yo-kai sont résistants\net tenaces.$"
+
 
 gFameCheckerFlavorText_Brock4:: @ 0x81AD99A
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Hi, I'm excavating for fossils here\n"
-	.string "under MT. MOON.\p"
-	.string "Sometimes, BROCK of PEWTER GYM\n"
-	.string "lends me a hand.$"
+    .string "Il apprécie les Dresseurs\nqui osent relever un défi.$"
+
 
 gFameCheckerFlavorText_Brock5:: @ 0x81ADA27
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BROCK rarely laughs, but is said to\n"
-	.string "be unable to stop if he starts.$"
+    .string "On peut aussi le rencontrer\nen visite à Cramois’Île.$"
+
 
 gFameCheckerFlavorText_Misty0:: @ 0x81ADA91
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}CERULEAN CITY Yo-kai GYM\n"
-	.string "LEADER: MISTY\l"
-	.string "The Tomboyish Mermaid!$"
+    .string "{CHAMPION_AZURIA} dirige\nl’Arène d’Azuria.$"
+
 
 gFameCheckerFlavorText_Misty1:: @ 0x81ADAF6
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of Yo-kai?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}My policy is an all-out offensive\n"
-	.string "with WATER-type Yo-kai!$"
+    .string "Sa spécialité est\nle type Normal.$"
+
 
 gFameCheckerFlavorText_Misty2:: @ 0x81ADB5A
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}MISTY is a TRAINER who's going to\n"
-	.string "keep improving.\p"
-	.string "She won't lose to someone like you!$"
+    .string "Noko ouvre le combat.$"
+
 
 gFameCheckerFlavorText_Misty3:: @ 0x81ADBD9
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Strong TRAINERS and WATER Yo-kai\n"
-	.string "are common sights in these parts.\p"
-	.string "They say that MISTY of the\n"
-	.string "CERULEAN GYM trains here.$"
+    .string "Crocho est un partenaire\nsolide et déterminé.$"
+
 
 gFameCheckerFlavorText_Misty4:: @ 0x81ADC72
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}This cape is a famous date spot.\p"
-	.string "MISTY, the GYM LEADER, has high\n"
-	.string "hopes about this place.$"
+    .string "Jibanyan termine l’équipe.\nIl conserve son type Feu.$"
+
 
 gFameCheckerFlavorText_Misty5:: @ 0x81ADCEB
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}MISTY is said to worship LORELEI\n"
-	.string "of the ELITE FOUR.$"
+    .string "On peut retrouver\n{CHAMPION_AZURIA} à Céladopole.$"
+
 
 gFameCheckerFlavorText_LtSurge0:: @ 0x81ADD3C
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}VERMILION CITY Yo-kai GYM\n"
-	.string "LEADER: LT. SURGE\l"
-	.string "The Lightning American!$"
+    .string "Ariane Célestin dirige\nl’Arène de Carmin-sur-Mer.$"
+
 
 gFameCheckerFlavorText_LtSurge1:: @ 0x81ADDA7
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of Yo-kai?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I tell you, kid, electric Yo-kai\n"
-	.string "saved me during the war!$"
+    .string "Elle se passionne\npour les phénomènes étranges.$"
+
 
 gFameCheckerFlavorText_LtSurge2:: @ 0x81ADE0B
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}When I was in the Army, LT. SURGE\n"
-	.string "was my strict CO.\p"
-	.string "He was a hard taskmaster.$"
+    .string "Elle préfère les Yo-kai\nde type Électrik.$"
+
 
 gFameCheckerFlavorText_LtSurge3:: @ 0x81ADE82
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}LT. SURGE was always famous for\n"
-	.string "his cautious nature in the Army.$"
+    .string "Elle a conservé les deux verrous\nde son Arène.$"
+
 
 gFameCheckerFlavorText_LtSurge4:: @ 0x81ADEEC
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}LT. SURGE installed the traps in\n"
-	.string "the GYM himself.\p"
-	.string "He set up double locks everywhere.$"
+    .string "Usapion est son dernier\npartenaire. Il est Acier.$"
+
 
 gFameCheckerFlavorText_LtSurge5:: @ 0x81ADF6A
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}LT. SURGE is rumored to have been\n"
-	.string "a pilot while home in America.\p"
-	.string "He used the electricity generated\n"
-	.string "by Yo-kai to power his plane.$"
+    .string "Ariane et Usapion\nvisitent aussi la Route 25.$"
+
 
 gFameCheckerFlavorText_Erika0::
 	.string "Championne de LAVANVILLE.\nSpécialiste des Yo-kai Spectre.$"
@@ -245,81 +204,52 @@ gFameCheckerFlavorText_Koga5:: @ 0x81AE51B
 	.string "knowing that we're safe.$"
 
 gFameCheckerFlavorText_Sabrina0:: @ 0x81AE5E8
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}SAFFRON CITY Yo-kai GYM\n"
-	.string "LEADER: SABRINA\l"
-	.string "The Master of PSYCHIC Yo-kai!$"
+    .string "Bérénice Bélier dirige\nl’Arène de Safrania.$"
+
 
 gFameCheckerFlavorText_Sabrina1:: @ 0x81AE656
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of Yo-kai?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}You know about a girl GYM LEADER\n"
-	.string "in SAFFRON CITY?\p"
-	.string "She uses PSYCHIC-type Yo-kai,\n"
-	.string "right?$"
+    .string "Ses partenaires sont\ndes Yo-kai de type Psy.$"
+
 
 gFameCheckerFlavorText_Sabrina2:: @ 0x81AE6D7
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I have had psychic powers since\n"
-	.string "I was a child.\p"
-	.string "It started when a spoon I\n"
-	.string "carelessly tossed, bent.$"
+    .string "Elle entraîne sa concentration\navec ses Yo-kai.$"
+
 
 gFameCheckerFlavorText_Sabrina3:: @ 0x81AE762
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I dislike battling, but if you wish,\n"
-	.string "I will show you my powers!$"
+    .string "Son Arène possède\nun réseau de téléporteurs.$"
+
 
 gFameCheckerFlavorText_Sabrina4:: @ 0x81AE7CB
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}People say that SABRINA can\n"
-	.string "communicate with her Yo-kai\l"
-	.string "during battle without speaking.$"
+    .string "Elle respecte les liens\nentre un Dresseur et ses amis.$"
+
 
 gFameCheckerFlavorText_Sabrina5:: @ 0x81AE841
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}SABRINA just wiped out the KARATE\n"
-	.string "MASTER next door.$"
+    .string "Savantard est le dernier\nYo-kai de son équipe.$"
+
 
 gFameCheckerFlavorText_Blaine0:: @ 0x81AE89E
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}CINNABAR ISLAND Yo-kai GYM\n"
-	.string "LEADER: BLAINE\l"
-	.string "The Hotheaded Quiz Master!$"
+    .string "{CHAMPION_CRAMOIS} dirige\nl’Arène de Cramois’Île.$"
+
 
 gFameCheckerFlavorText_Blaine1:: @ 0x81AE90A
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of Yo-kai?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}My fiery Yo-kai are all rough\n"
-	.string "and ready with intense heat!\p"
-	.string "They incinerate all challengers!$"
+    .string "Ses compagnons sont\ndes Yo-kai du passé.$"
+
 
 gFameCheckerFlavorText_Blaine2:: @ 0x81AE990
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Favorite kind of Yo-kai?\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Our LEADER, BLAINE, became lost\n"
-	.string "in the mountains but good.\p"
-	.string "Night fell when a fiery bird\n"
-	.string "Yo-kai appeared.\p"
-	.string "Its light allowed BLAINE to find\n"
-	.string "his way down safely.$"
+    .string "Ils possèdent des types variés.$"
+
 
 gFameCheckerFlavorText_Blaine3:: @ 0x81AEA59
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}CINNABAR GYM's BLAINE is quite the\n"
-	.string "odd fellow.\p"
-	.string "He's lived on the island since way\n"
-	.string "before the LAB was built.$"
+    .string "Aucun de ses six partenaires\nn’est remplacé par son évolution.$"
+
 
 gFameCheckerFlavorText_Blaine4:: @ 0x81AEAEE
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}It's a photo of BLAINE and\n"
-	.string "MR. FUJI.\p"
-	.string "They're standing shoulder to\n"
-	.string "shoulder with big grins.$"
+    .string "Hovernyan attend toujours\nle dernier moment pour combattre.$"
+
 
 gFameCheckerFlavorText_Blaine5:: @ 0x81AEB69
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}BLAINE is said to remove his dark\n"
-	.string "shades only when he is thinking up\l"
-	.string "new quiz questions.$"
+    .string "On peut aussi rencontrer\n{CHAMPION_CRAMOIS} à Parmanie.$"
+
 
 gFameCheckerFlavorText_Lorelei0:: @ 0x81AEBDF
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What does this person do?\p"
@@ -534,7 +464,7 @@ gFameCheckerFlavorText_MrFuji3:: @ 0x81AFCE9
 
 gFameCheckerFlavorText_MrFuji4:: @ 0x81AFD49
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Family and friends?\p"
-	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}It's a photo of BLAINE and\n"
+	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}It's a photo of {CHAMPION_CRAMOIS} and\n"
 	.string "MR. FUJI.\p"
 	.string "They're standing shoulder to\n"
 	.string "shoulder with big grins.$"
@@ -591,39 +521,28 @@ gFameCheckerPersonQuote_Daisy:: @ 0x81B025D
 	.string "to my little brother.$"
 
 gFameCheckerPersonName_Brock:: @ 0x81B030F
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}BROCK$"
+    .string "WYATT$"
+
 
 gFameCheckerPersonQuote_Brock:: @ 0x81B031B
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: BROCK\n"
-	.string "To: {PLAYER}\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}In this big world of ours, there\n"
-	.string "must be many tough TRAINERS.\p"
-	.string "Let's both keep training and\n"
-	.string "making ourselves stronger!$"
+    .string "Les défis et les mystères,\nj’adore ça !\pOn se retrouvera\nau fil de nos aventures !$"
+
 
 gFameCheckerPersonName_Misty:: @ 0x81B03B3
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}MISTY$"
+    .string "{CHAMPION_AZURIA}$"
+
 
 gFameCheckerPersonQuote_Misty:: @ 0x81B03BF
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: MISTY\n"
-	.string "To: {PLAYER}\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}I'm going to keep training here at\n"
-	.string "this GYM.\p"
-	.string "When I get better, I'd love to hit\n"
-	.string "the road and travel.$"
+    .string "Chaque Yo-kai a sa force.\pNotre combat m’a donné\nenvie de progresser encore !$"
+
 
 gFameCheckerPersonName_LtSurge:: @ 0x81B0446
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}LT. SURGE$"
+    .string "ARIANE CÉLESTIN$"
+
 
 gFameCheckerPersonQuote_LtSurge:: @ 0x81B0456
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: LT. SURGE\n"
-	.string "To: {PLAYER}\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Hey, kid!\n"
-	.string "You electrified me in our battle!\p"
-	.string "I didn't know that there were\n"
-	.string "gutsy TRAINERS like you.\p"
-	.string "It made me change my mind about\n"
-	.string "you!$"
+    .string "Usapion et moi,\non cherche toujours du nouveau !\pReviens raconter tes découvertes !$"
+
 
 gFameCheckerPersonName_Erika::
 	.string "ALYZON BIE$"
@@ -643,26 +562,20 @@ gFameCheckerPersonQuote_Koga:: @ 0x81B05CD
 	.string "Now, I must go train my daughter.$"
 
 gFameCheckerPersonName_Sabrina:: @ 0x81B0667
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}SABRINA$"
+    .string "BÉRÉNICE BÉLIER$"
+
 
 gFameCheckerPersonQuote_Sabrina:: @ 0x81B0675
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: SABRINA\n"
-	.string "To: {PLAYER}\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}The love you have towards your\n"
-	.string "Yo-kai…\p"
-	.string "It was a power that was never\n"
-	.string "bested by my psychic power.$"
+    .string "Tes liens avec tes Yo-kai\nont fait la différence.\pGarde cette confiance en eux.$"
+
 
 gFameCheckerPersonName_Blaine:: @ 0x81B06FB
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}BLAINE$"
+    .string "{CHAMPION_CRAMOIS}$"
+
 
 gFameCheckerPersonQuote_Blaine:: @ 0x81B0708
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: BLAINE\n"
-	.string "To: {PLAYER}\p"
-	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}My fire Yo-kai!\n"
-	.string "They'll become even more powerful!\p"
-	.string "And now, a quiz. How many kinds of\n"
-	.string "FIRE-type Yo-kai are there?$"
+    .string "Les souvenirs nous accompagnent.\pÀ toi de construire l’avenir\navec tes amis Yo-kai !$"
+
 
 gFameCheckerPersonName_Lorelei:: @ 0x81B079F
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}LORELEI$"
@@ -1067,7 +980,7 @@ gFameCheckerFlavorTextOriginObjectName_Brock0::
 	.string "SIGN$"
 
 gFameCheckerFlavorTextOriginObjectName_Brock1::
-	.string "BROCK$"
+	.string "WYATT$"
 
 gFameCheckerFlavorTextOriginObjectName_Brock2::
 	.string "YOUNG MAN$"
@@ -1085,7 +998,7 @@ gFameCheckerFlavorTextOriginObjectName_Misty0::
 	.string "SIGN$"
 
 gFameCheckerFlavorTextOriginObjectName_Misty1::
-	.string "MISTY$"
+	.string "{CHAMPION_AZURIA}$"
 
 gFameCheckerFlavorTextOriginObjectName_Misty2::
 	.string "LUIS$"
@@ -1103,7 +1016,7 @@ gFameCheckerFlavorTextOriginObjectName_LtSurge0::
 	.string "SIGN$"
 
 gFameCheckerFlavorTextOriginObjectName_LtSurge1::
-	.string "LT. SURGE$"
+	.string "ARIANE$"
 
 gFameCheckerFlavorTextOriginObjectName_LtSurge2::
 	.string "TUCKER$"
@@ -1160,10 +1073,10 @@ gFameCheckerFlavorTextOriginObjectName_Sabrina1::
 	.string "YOUNG MAN$"
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina2::
-	.string "SABRINA$"
+	.string "BÉRÉNICE$"
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina3::
-	.string "SABRINA$"
+	.string "BÉRÉNICE$"
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina4::
 	.string "Yo-kai JOURNAL$"
@@ -1175,7 +1088,7 @@ gFameCheckerFlavorTextOriginObjectName_Blaine0::
 	.string "SIGN$"
 
 gFameCheckerFlavorTextOriginObjectName_Blaine1::
-	.string "BLAINE$"
+	.string "{CHAMPION_CRAMOIS}$"
 
 gFameCheckerFlavorTextOriginObjectName_Blaine2::
 	.string "DEREK$"
@@ -1318,22 +1231,22 @@ gFameCheckerFlavorTextOriginObjectName_Giovanni5::
 PokemonJournal_Text_SpecialFeatureBrock::
 	.string "Yo-kai JOURNAL\p"
 	.string "Special Feature: PEWTER GYM\n"
-	.string "LEADER BROCK!\p"
-	.string "BROCK rarely laughs, but is said to\n"
+	.string "LEADER WYATT!\p"
+	.string "WYATT rarely laughs, but is said to\n"
 	.string "be unable to stop if he starts.$"
 
 PokemonJournal_Text_SpecialFeatureMisty::
 	.string "Yo-kai JOURNAL\p"
 	.string "Special Feature: CERULEAN GYM\n"
-	.string "LEADER MISTY!\p"
-	.string "MISTY is said to worship LORELEI\n"
+	.string "LEADER {CHAMPION_AZURIA}!\p"
+	.string "{CHAMPION_AZURIA} is said to worship LORELEI\n"
 	.string "of the ELITE FOUR.$"
 
 PokemonJournal_Text_SpecialFeatureLtSurge::
 	.string "Yo-kai JOURNAL\p"
 	.string "Special Feature: VERMILION GYM\n"
-	.string "LEADER LT. SURGE!\p"
-	.string "LT. SURGE is rumored to have been\n"
+	.string "LEADER ARIANE!\p"
+	.string "ARIANE is rumored to have been\n"
 	.string "a pilot while home in America.\p"
 	.string "He used the electricity generated\n"
 	.string "by Yo-kai to power his plane.$"
@@ -1358,16 +1271,16 @@ PokemonJournal_Text_SpecialFeatureKoga::
 PokemonJournal_Text_SpecialFeatureSabrina::
 	.string "Yo-kai JOURNAL\p"
 	.string "Special Feature: SAFFRON GYM\n"
-	.string "LEADER SABRINA!\p"
-	.string "People say that SABRINA can\n"
+	.string "LEADER BÉRÉNICE!\p"
+	.string "People say that BÉRÉNICE can\n"
 	.string "communicate with her Yo-kai\l"
 	.string "during battle without speaking.$"
 
 PokemonJournal_Text_SpecialFeatureBlaine::
 	.string "Yo-kai JOURNAL\p"
 	.string "Special Feature: CINNABAR GYM\n"
-	.string "LEADER BLAINE!\p"
-	.string "BLAINE is said to remove his dark\n"
+	.string "LEADER {CHAMPION_CRAMOIS}!\p"
+	.string "{CHAMPION_CRAMOIS} is said to remove his dark\n"
 	.string "shades only when he is thinking up\l"
 	.string "new quiz questions.$"
 

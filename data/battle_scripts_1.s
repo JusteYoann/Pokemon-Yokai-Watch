@@ -2880,6 +2880,7 @@ BattleScript_FaintedMonSendOutNew::
 	hidepartystatussummary BS_FAINTED
 	switchinanim BS_FAINTED, FALSE
 	waitstate
+	various BS_FAINTED, VARIOUS_CHAMPION_COLOSSUS
 	resetplayerfainted
 	switchineffects BS_FAINTED
 	jumpifbattletype BATTLE_TYPE_DOUBLE, BattleScript_FaintedMonEnd
@@ -4379,4 +4380,9 @@ BattleScript_ActionSelectionItemsCantBeUsed::
 
 BattleScript_FlushMessageBox::
 	printstring STRINGID_EMPTYSTRING3
+	return
+
+BattleScript_AlyzonColossus::
+	printstring STRINGID_ALYZON_COLOSSUS
+	waitmessage 0x40
 	return
