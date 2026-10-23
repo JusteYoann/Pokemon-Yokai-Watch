@@ -1,0 +1,55 @@
+{
+  "reference": "cee38fa5f22f95b65d63d995848c5ee94578b12c",
+  "modified_resources": [
+    {
+      "path": "graphics/slot_machine/firered/reel_icons.png",
+      "approved_preview_exact": true,
+      "palette_bank_attributes_preserved": true,
+      "sha256": "f801f663da23d39ecbe49bf0481a43d6cf5d1a0ba9dd0d42710c9398ac067f61"
+    },
+    {
+      "path": "graphics/slot_machine/firered/combos_window.png",
+      "approved_preview_exact": true,
+      "palette_bank_attributes_preserved": true,
+      "sha256": "9e8ae7995dc7f8b0830d4e136d5de76ba5ed2532a9896047b9def7d8fb8c930b"
+    },
+    {
+      "path": "graphics/map_preview/rocket_hideout/tiles.png",
+      "approved_preview_exact": true,
+      "palette_bank_attributes_preserved": true,
+      "sha256": "81464e0221a195d7e65c46b48188c9cc8fc4c890bdfee97c857235f0cea3f7c2"
+    },
+    {
+      "path": "graphics/map_preview/rocket_hideout/tilemap.bin",
+      "approved_preview_exact": false,
+      "palette_bank_attributes_preserved": true,
+      "sha256": "5d68243bd62bfa3d00c8d00574e6c40de8d29d07cf94e5b0f66176613f588b2c"
+    },
+    {
+      "path": "graphics/map_preview/rocket_warehouse/tiles.png",
+      "sha256": "61bb36ed779b1979c1a845dd719833d688b5507d9e97276a9733a3ce24378c08"
+    },
+    {
+      "path": "graphics/map_preview/rocket_warehouse/tilemap.bin",
+      "sha256": "67198eeafb10a5d11b4ba54f84978f3e43ec8d9dd2a7c8af4a5d640525bd8935"
+    }
+  ],
+  "warehouse": {
+    "no_emblem": true,
+    "restored_box": [
+      17,
+      58,
+      38,
+      83
+    ],
+    "original_wall_boundary_x": 29,
+    "original_palette_indices": [
+      10,
+      2
+    ],
+    "outside_pixels_identical": true,
+    "used_tiles": 224
+  },
+  "palettes_and_dimensions_preserved": true,
+  "other_casino_symbols_preserved": true
+}
