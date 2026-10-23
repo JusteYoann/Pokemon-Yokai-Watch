@@ -1,0 +1,5666 @@
+{
+  "passed": true,
+  "rom_sha256": "e6c107499e45cf5a3f8bcc08a3985f2a2dcfcf2060a529e8547ff082c2062a1d",
+  "native_font": 2,
+  "limit_pixels": 208,
+  "lines_checked": 808,
+  "overflows": [],
+  "lines": [
+    {
+      "file": "data/maps/CeladonCity_Condominiums_RoofRoom/text.inc",
+      "label": "CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs",
+      "line": 0,
+      "gender": 0,
+      "width": 128
+    },
+    {
+      "file": "data/maps/CeladonCity_Condominiums_RoofRoom/text.inc",
+      "label": "CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs",
+      "line": 1,
+      "gender": 0,
+      "width": 18
+    },
+    {
+      "file": "data/maps/CeladonCity_Condominiums_RoofRoom/text.inc",
+      "label": "CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs",
+      "line": 2,
+      "gender": 0,
+      "width": 148
+    },
+    {
+      "file": "data/maps/CeladonCity_Condominiums_RoofRoom/text.inc",
+      "label": "CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs",
+      "line": 3,
+      "gender": 0,
+      "width": 165
+    },
+    {
+      "file": "data/maps/CeladonCity_Condominiums_RoofRoom/text.inc",
+      "label": "CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs",
+      "line": 4,
+      "gender": 0,
+      "width": 132
+    },
+    {
+      "file": "data/maps/CeladonCity_Condominiums_RoofRoom/text.inc",
+      "label": "CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs",
+      "line": 5,
+      "gender": 0,
+      "width": 35
+    },
+    {
+      "file": "data/maps/CeruleanCave_B1F/scripts.inc",
+      "label": "CeruleanCave_B1F_Text_YokaiEnma",
+      "line": 0,
+      "gender": 0,
+      "width": 187
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 194
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 169
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 173
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaIntro",
+      "line": 3,
+      "gender": 0,
+      "width": 144
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaIntro",
+      "line": 4,
+      "gender": 0,
+      "width": 157
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaDefeat",
+      "line": 0,
+      "gender": 0,
+      "width": 168
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaDefeat",
+      "line": 1,
+      "gender": 0,
+      "width": 133
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaPostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 152
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaPostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 161
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaExplainSoulBadge",
+      "line": 0,
+      "gender": 0,
+      "width": 189
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaExplainSoulBadge",
+      "line": 1,
+      "gender": 0,
+      "width": 166
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaExplainSoulBadge",
+      "line": 2,
+      "gender": 0,
+      "width": 125
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaExplainSoulBadge",
+      "line": 3,
+      "gender": 0,
+      "width": 122
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_ReceivedTM06FromKoga",
+      "line": 0,
+      "gender": 0,
+      "width": 97
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_ReceivedTM06FromKoga",
+      "line": 1,
+      "gender": 0,
+      "width": 67
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaExplainTM06",
+      "line": 0,
+      "gender": 0,
+      "width": 133
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaExplainTM06",
+      "line": 1,
+      "gender": 0,
+      "width": 192
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KirkIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 152
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KirkIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 166
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KirkPostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 137
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KirkPostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 79
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_EdgarIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 152
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_EdgarIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 166
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_ShawnIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 152
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_ShawnIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 166
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_GymGuyAdvice",
+      "line": 0,
+      "gender": 0,
+      "width": 153
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_GymGuyAdvice",
+      "line": 1,
+      "gender": 0,
+      "width": 192
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_GymGuyAdvice",
+      "line": 2,
+      "gender": 0,
+      "width": 203
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_GymGuyPostVictory",
+      "line": 0,
+      "gender": 0,
+      "width": 126
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_GymGuyPostVictory",
+      "line": 1,
+      "gender": 0,
+      "width": 130
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_GymStatue",
+      "line": 0,
+      "gender": 0,
+      "width": 102
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_GymStatue",
+      "line": 1,
+      "gender": 0,
+      "width": 119
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_GymStatue",
+      "line": 2,
+      "gender": 0,
+      "width": 93
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_GymStatuePlayerWon",
+      "line": 0,
+      "gender": 0,
+      "width": 102
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_GymStatuePlayerWon",
+      "line": 1,
+      "gender": 0,
+      "width": 119
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_GymStatuePlayerWon",
+      "line": 2,
+      "gender": 0,
+      "width": 116
+    },
+    {
+      "file": "data/maps/LavenderTown/text.inc",
+      "label": "LavenderTown_Text_SilphScopeNotice",
+      "line": 0,
+      "gender": 0,
+      "width": 101
+    },
+    {
+      "file": "data/maps/LavenderTown/text.inc",
+      "label": "LavenderTown_Text_SilphScopeNotice",
+      "line": 1,
+      "gender": 0,
+      "width": 178
+    },
+    {
+      "file": "data/maps/LavenderTown/text.inc",
+      "label": "LavenderTown_Text_SilphScopeNotice",
+      "line": 2,
+      "gender": 0,
+      "width": 35
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "label": "MtEmber_Summit_Text_EnmaOffer",
+      "line": 0,
+      "gender": 0,
+      "width": 149
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "label": "MtEmber_Summit_Text_EnmaOffer",
+      "line": 1,
+      "gender": 0,
+      "width": 192
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "label": "MtEmber_Summit_Text_EnmaOffer",
+      "line": 2,
+      "gender": 0,
+      "width": 130
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "label": "MtEmber_Summit_Text_EnmaOffer",
+      "line": 3,
+      "gender": 0,
+      "width": 160
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "label": "MtEmber_Summit_Text_EnmaUnlocked",
+      "line": 0,
+      "gender": 0,
+      "width": 151
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "label": "MtEmber_Summit_Text_EnmaUnlocked",
+      "line": 1,
+      "gender": 0,
+      "width": 148
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "label": "MtEmber_Summit_Text_EnmaUnlocked",
+      "line": 2,
+      "gender": 0,
+      "width": 120
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "label": "MtEmber_Summit_Text_EnmaUnlocked",
+      "line": 3,
+      "gender": 0,
+      "width": 121
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_TrainerTipsEarningEXP",
+      "line": 0,
+      "gender": 0,
+      "width": 132
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_TrainerTipsEarningEXP",
+      "line": 1,
+      "gender": 0,
+      "width": 142
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_TrainerTipsEarningEXP",
+      "line": 2,
+      "gender": 0,
+      "width": 94
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_TrainerTipsEarningEXP",
+      "line": 3,
+      "gender": 0,
+      "width": 181
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_TrainerTipsEarningEXP",
+      "line": 4,
+      "gender": 0,
+      "width": 128
+    },
+    {
+      "file": "data/maps/PokemonLeague_AgathasRoom/text.inc",
+      "label": "PokemonLeague_AgathasRoom_Text_Intro",
+      "line": 0,
+      "gender": 0,
+      "width": 44
+    },
+    {
+      "file": "data/maps/PokemonLeague_AgathasRoom/text.inc",
+      "label": "PokemonLeague_AgathasRoom_Text_Intro",
+      "line": 1,
+      "gender": 0,
+      "width": 68
+    },
+    {
+      "file": "data/maps/PokemonLeague_AgathasRoom/text.inc",
+      "label": "PokemonLeague_AgathasRoom_Text_Intro",
+      "line": 2,
+      "gender": 0,
+      "width": 90
+    },
+    {
+      "file": "data/maps/PokemonLeague_AgathasRoom/text.inc",
+      "label": "PokemonLeague_AgathasRoom_Text_Intro",
+      "line": 3,
+      "gender": 0,
+      "width": 163
+    },
+    {
+      "file": "data/maps/PokemonLeague_AgathasRoom/text.inc",
+      "label": "PokemonLeague_AgathasRoom_Text_RematchIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 44
+    },
+    {
+      "file": "data/maps/PokemonLeague_AgathasRoom/text.inc",
+      "label": "PokemonLeague_AgathasRoom_Text_RematchIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 68
+    },
+    {
+      "file": "data/maps/PokemonLeague_AgathasRoom/text.inc",
+      "label": "PokemonLeague_AgathasRoom_Text_RematchIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 90
+    },
+    {
+      "file": "data/maps/PokemonLeague_AgathasRoom/text.inc",
+      "label": "PokemonLeague_AgathasRoom_Text_RematchIntro",
+      "line": 3,
+      "gender": 0,
+      "width": 163
+    },
+    {
+      "file": "data/maps/PokemonLeague_AgathasRoom/text.inc",
+      "label": "PokemonLeague_AgathasRoom_Text_Defeat",
+      "line": 0,
+      "gender": 0,
+      "width": 128
+    },
+    {
+      "file": "data/maps/PokemonLeague_AgathasRoom/text.inc",
+      "label": "PokemonLeague_AgathasRoom_Text_PostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 146
+    },
+    {
+      "file": "data/maps/PokemonLeague_BrunosRoom/text.inc",
+      "label": "PokemonLeague_BrunosRoom_Text_Intro",
+      "line": 0,
+      "gender": 0,
+      "width": 74
+    },
+    {
+      "file": "data/maps/PokemonLeague_BrunosRoom/text.inc",
+      "label": "PokemonLeague_BrunosRoom_Text_Intro",
+      "line": 1,
+      "gender": 0,
+      "width": 114
+    },
+    {
+      "file": "data/maps/PokemonLeague_BrunosRoom/text.inc",
+      "label": "PokemonLeague_BrunosRoom_Text_Intro",
+      "line": 2,
+      "gender": 0,
+      "width": 69
+    },
+    {
+      "file": "data/maps/PokemonLeague_BrunosRoom/text.inc",
+      "label": "PokemonLeague_BrunosRoom_Text_Intro",
+      "line": 3,
+      "gender": 0,
+      "width": 174
+    },
+    {
+      "file": "data/maps/PokemonLeague_BrunosRoom/text.inc",
+      "label": "PokemonLeague_BrunosRoom_Text_RematchIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 74
+    },
+    {
+      "file": "data/maps/PokemonLeague_BrunosRoom/text.inc",
+      "label": "PokemonLeague_BrunosRoom_Text_RematchIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 114
+    },
+    {
+      "file": "data/maps/PokemonLeague_BrunosRoom/text.inc",
+      "label": "PokemonLeague_BrunosRoom_Text_RematchIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 69
+    },
+    {
+      "file": "data/maps/PokemonLeague_BrunosRoom/text.inc",
+      "label": "PokemonLeague_BrunosRoom_Text_RematchIntro",
+      "line": 3,
+      "gender": 0,
+      "width": 174
+    },
+    {
+      "file": "data/maps/PokemonLeague_BrunosRoom/text.inc",
+      "label": "PokemonLeague_BrunosRoom_Text_Defeat",
+      "line": 0,
+      "gender": 0,
+      "width": 181
+    },
+    {
+      "file": "data/maps/PokemonLeague_BrunosRoom/text.inc",
+      "label": "PokemonLeague_BrunosRoom_Text_PostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 188
+    },
+    {
+      "file": "data/maps/PokemonLeague_LancesRoom/text.inc",
+      "label": "PokemonLeague_LancesRoom_Text_Intro",
+      "line": 0,
+      "gender": 0,
+      "width": 75
+    },
+    {
+      "file": "data/maps/PokemonLeague_LancesRoom/text.inc",
+      "label": "PokemonLeague_LancesRoom_Text_Intro",
+      "line": 1,
+      "gender": 0,
+      "width": 108
+    },
+    {
+      "file": "data/maps/PokemonLeague_LancesRoom/text.inc",
+      "label": "PokemonLeague_LancesRoom_Text_Intro",
+      "line": 2,
+      "gender": 0,
+      "width": 51
+    },
+    {
+      "file": "data/maps/PokemonLeague_LancesRoom/text.inc",
+      "label": "PokemonLeague_LancesRoom_Text_Intro",
+      "line": 3,
+      "gender": 0,
+      "width": 174
+    },
+    {
+      "file": "data/maps/PokemonLeague_LancesRoom/text.inc",
+      "label": "PokemonLeague_LancesRoom_Text_RematchIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 75
+    },
+    {
+      "file": "data/maps/PokemonLeague_LancesRoom/text.inc",
+      "label": "PokemonLeague_LancesRoom_Text_RematchIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 108
+    },
+    {
+      "file": "data/maps/PokemonLeague_LancesRoom/text.inc",
+      "label": "PokemonLeague_LancesRoom_Text_RematchIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 51
+    },
+    {
+      "file": "data/maps/PokemonLeague_LancesRoom/text.inc",
+      "label": "PokemonLeague_LancesRoom_Text_RematchIntro",
+      "line": 3,
+      "gender": 0,
+      "width": 174
+    },
+    {
+      "file": "data/maps/PokemonLeague_LancesRoom/text.inc",
+      "label": "PokemonLeague_LancesRoom_Text_Defeat",
+      "line": 0,
+      "gender": 0,
+      "width": 175
+    },
+    {
+      "file": "data/maps/PokemonLeague_LancesRoom/text.inc",
+      "label": "PokemonLeague_LancesRoom_Text_PostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 182
+    },
+    {
+      "file": "data/maps/PokemonLeague_LoreleisRoom/text.inc",
+      "label": "PokemonLeague_LoreleisRoom_Text_Intro",
+      "line": 0,
+      "gender": 0,
+      "width": 34
+    },
+    {
+      "file": "data/maps/PokemonLeague_LoreleisRoom/text.inc",
+      "label": "PokemonLeague_LoreleisRoom_Text_Intro",
+      "line": 1,
+      "gender": 0,
+      "width": 106
+    },
+    {
+      "file": "data/maps/PokemonLeague_LoreleisRoom/text.inc",
+      "label": "PokemonLeague_LoreleisRoom_Text_Intro",
+      "line": 2,
+      "gender": 0,
+      "width": 81
+    },
+    {
+      "file": "data/maps/PokemonLeague_LoreleisRoom/text.inc",
+      "label": "PokemonLeague_LoreleisRoom_Text_Intro",
+      "line": 3,
+      "gender": 0,
+      "width": 179
+    },
+    {
+      "file": "data/maps/PokemonLeague_LoreleisRoom/text.inc",
+      "label": "PokemonLeague_LoreleisRoom_Text_RematchIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 34
+    },
+    {
+      "file": "data/maps/PokemonLeague_LoreleisRoom/text.inc",
+      "label": "PokemonLeague_LoreleisRoom_Text_RematchIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 106
+    },
+    {
+      "file": "data/maps/PokemonLeague_LoreleisRoom/text.inc",
+      "label": "PokemonLeague_LoreleisRoom_Text_RematchIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 81
+    },
+    {
+      "file": "data/maps/PokemonLeague_LoreleisRoom/text.inc",
+      "label": "PokemonLeague_LoreleisRoom_Text_RematchIntro",
+      "line": 3,
+      "gender": 0,
+      "width": 179
+    },
+    {
+      "file": "data/maps/PokemonLeague_LoreleisRoom/text.inc",
+      "label": "PokemonLeague_LoreleisRoom_Text_Defeat",
+      "line": 0,
+      "gender": 0,
+      "width": 143
+    },
+    {
+      "file": "data/maps/PokemonLeague_LoreleisRoom/text.inc",
+      "label": "PokemonLeague_LoreleisRoom_Text_PostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 175
+    },
+    {
+      "file": "data/maps/PokemonTower_2F/text.inc",
+      "label": "PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts",
+      "line": 0,
+      "gender": 0,
+      "width": 168
+    },
+    {
+      "file": "data/maps/PokemonTower_2F/text.inc",
+      "label": "PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts",
+      "line": 1,
+      "gender": 0,
+      "width": 85
+    },
+    {
+      "file": "data/maps/PokemonTower_2F/text.inc",
+      "label": "PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts",
+      "line": 2,
+      "gender": 0,
+      "width": 180
+    },
+    {
+      "file": "data/maps/PokemonTower_2F/text.inc",
+      "label": "PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts",
+      "line": 3,
+      "gender": 0,
+      "width": 67
+    },
+    {
+      "file": "data/maps/PokemonTower_3F/text.inc",
+      "label": "PokemonTower_3F_Text_HopePostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 173
+    },
+    {
+      "file": "data/maps/PokemonTower_3F/text.inc",
+      "label": "PokemonTower_3F_Text_HopePostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 99
+    },
+    {
+      "file": "data/maps/RocketHideout_B1F/text.inc",
+      "label": "RocketHideout_B1F_Text_Grunt3PostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 197
+    },
+    {
+      "file": "data/maps/RocketHideout_B1F/text.inc",
+      "label": "RocketHideout_B1F_Text_Grunt3PostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 109
+    },
+    {
+      "file": "data/maps/RocketHideout_B2F/text.inc",
+      "label": "RocketHideout_B2F_Text_GruntIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 196
+    },
+    {
+      "file": "data/maps/RocketHideout_B2F/text.inc",
+      "label": "RocketHideout_B2F_Text_GruntIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 175
+    },
+    {
+      "file": "data/maps/RocketHideout_B2F/text.inc",
+      "label": "RocketHideout_B2F_Text_GruntIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 47
+    },
+    {
+      "file": "data/maps/RocketHideout_B3F/text.inc",
+      "label": "RocketHideout_B3F_Text_Grunt1PostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 195
+    },
+    {
+      "file": "data/maps/RocketHideout_B3F/text.inc",
+      "label": "RocketHideout_B3F_Text_Grunt1PostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 193
+    },
+    {
+      "file": "data/maps/RocketHideout_B3F/text.inc",
+      "label": "RocketHideout_B3F_Text_Grunt1PostBattle",
+      "line": 2,
+      "gender": 0,
+      "width": 19
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_WeCanExploitMonsAroundWorld",
+      "line": 0,
+      "gender": 0,
+      "width": 186
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_WeCanExploitMonsAroundWorld",
+      "line": 1,
+      "gender": 0,
+      "width": 180
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_WeCanExploitMonsAroundWorld",
+      "line": 2,
+      "gender": 0,
+      "width": 173
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_FlewHereOnPidgeot",
+      "line": 0,
+      "gender": 0,
+      "width": 175
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_FlewHereOnPidgeot",
+      "line": 1,
+      "gender": 0,
+      "width": 116
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_FlewHereOnPidgeot",
+      "line": 2,
+      "gender": 0,
+      "width": 100
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_FlewHereOnPidgeot",
+      "line": 3,
+      "gender": 0,
+      "width": 145
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_SawRocketBossEscaping",
+      "line": 0,
+      "gender": 0,
+      "width": 171
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_SawRocketBossEscaping",
+      "line": 1,
+      "gender": 0,
+      "width": 199
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_SilphCoSign",
+      "line": 0,
+      "gender": 0,
+      "width": 131
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_SilphsLatestProduct",
+      "line": 0,
+      "gender": 0,
+      "width": 133
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_SilphsLatestProduct",
+      "line": 1,
+      "gender": 0,
+      "width": 142
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/scripts.inc",
+      "label": "SaffronCity_Gym_Text_YoppleBusy",
+      "line": 0,
+      "gender": 0,
+      "width": 160
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/scripts.inc",
+      "label": "SaffronCity_Gym_Text_YoppleBusy",
+      "line": 1,
+      "gender": 0,
+      "width": 175
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/scripts.inc",
+      "label": "SaffronCity_Gym_Text_YoppleBusy",
+      "line": 2,
+      "gender": 0,
+      "width": 196
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/scripts.inc",
+      "label": "SaffronCity_Gym_Text_RematchOffer",
+      "line": 0,
+      "gender": 0,
+      "width": 133
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/scripts.inc",
+      "label": "SaffronCity_Gym_Text_RematchOffer",
+      "line": 1,
+      "gender": 0,
+      "width": 165
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/scripts.inc",
+      "label": "SaffronCity_Gym_Text_RematchOffer",
+      "line": 2,
+      "gender": 0,
+      "width": 168
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/scripts.inc",
+      "label": "SaffronCity_Gym_Text_RematchStart",
+      "line": 0,
+      "gender": 0,
+      "width": 154
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/scripts.inc",
+      "label": "SaffronCity_Gym_Text_RematchStart",
+      "line": 1,
+      "gender": 0,
+      "width": 178
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/scripts.inc",
+      "label": "SaffronCity_Gym_Text_RematchAfter",
+      "line": 0,
+      "gender": 0,
+      "width": 192
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/scripts.inc",
+      "label": "SaffronCity_Gym_Text_RematchAfter",
+      "line": 1,
+      "gender": 0,
+      "width": 183
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 149
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 187
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 172
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaIntro",
+      "line": 3,
+      "gender": 0,
+      "width": 197
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaIntro",
+      "line": 4,
+      "gender": 0,
+      "width": 160
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaDefeat",
+      "line": 0,
+      "gender": 0,
+      "width": 124
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaDefeat",
+      "line": 1,
+      "gender": 0,
+      "width": 180
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaPostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 176
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaPostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 158
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaPostBattle",
+      "line": 2,
+      "gender": 0,
+      "width": 148
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis",
+      "line": 0,
+      "gender": 0,
+      "width": 146
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis",
+      "line": 1,
+      "gender": 0,
+      "width": 147
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis",
+      "line": 2,
+      "gender": 0,
+      "width": 205
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ReceivedTM04FromSabrina",
+      "line": 0,
+      "gender": 0,
+      "width": 97
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ReceivedTM04FromSabrina",
+      "line": 1,
+      "gender": 0,
+      "width": 76
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainTM04",
+      "line": 0,
+      "gender": 0,
+      "width": 126
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainTM04",
+      "line": 1,
+      "gender": 0,
+      "width": 109
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 133
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 149
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 141
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaIntro",
+      "line": 3,
+      "gender": 0,
+      "width": 112
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaPostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 144
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaPostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 142
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_JohanIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 133
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_JohanIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 149
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_JohanIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 141
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_JohanIntro",
+      "line": 3,
+      "gender": 0,
+      "width": 112
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_JohanPostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 144
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_JohanPostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 142
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_StacyIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 133
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_StacyIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 149
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_StacyIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 141
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_StacyIntro",
+      "line": 3,
+      "gender": 0,
+      "width": 112
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_StacyPostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 144
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_StacyPostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 142
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TyronIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 133
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TyronIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 149
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TyronIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 141
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TyronIntro",
+      "line": 3,
+      "gender": 0,
+      "width": 112
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TyronPostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 144
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TyronPostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 142
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TashaIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 133
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TashaIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 149
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TashaIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 141
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TashaIntro",
+      "line": 3,
+      "gender": 0,
+      "width": 112
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TashaPostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 144
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TashaPostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 142
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_CameronIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 133
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_CameronIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 149
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_CameronIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 141
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_CameronIntro",
+      "line": 3,
+      "gender": 0,
+      "width": 112
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_CameronPostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 144
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_CameronPostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 142
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_PrestonIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 133
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_PrestonIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 149
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_PrestonIntro",
+      "line": 2,
+      "gender": 0,
+      "width": 141
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_PrestonIntro",
+      "line": 3,
+      "gender": 0,
+      "width": 112
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_PrestonPostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 144
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_PrestonPostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 142
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 0,
+      "gender": 0,
+      "width": 128
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 1,
+      "gender": 0,
+      "width": 159
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 2,
+      "gender": 0,
+      "width": 157
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 3,
+      "gender": 0,
+      "width": 175
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyPostVictory",
+      "line": 0,
+      "gender": 0,
+      "width": 128
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyPostVictory",
+      "line": 1,
+      "gender": 0,
+      "width": 136
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatue",
+      "line": 0,
+      "gender": 0,
+      "width": 102
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatue",
+      "line": 1,
+      "gender": 0,
+      "width": 119
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatue",
+      "line": 2,
+      "gender": 0,
+      "width": 93
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatuePlayerWon",
+      "line": 0,
+      "gender": 0,
+      "width": 102
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatuePlayerWon",
+      "line": 1,
+      "gender": 0,
+      "width": 119
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatuePlayerWon",
+      "line": 2,
+      "gender": 0,
+      "width": 116
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonCenter_1F/text.inc",
+      "label": "SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame",
+      "line": 0,
+      "gender": 0,
+      "width": 197
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonCenter_1F/text.inc",
+      "label": "SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame",
+      "line": 1,
+      "gender": 0,
+      "width": 194
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonCenter_1F/text.inc",
+      "label": "SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame",
+      "line": 2,
+      "gender": 0,
+      "width": 66
+    },
+    {
+      "file": "data/maps/SilphCo_10F/text.inc",
+      "label": "SilphCo_10F_Text_FloorSign",
+      "line": 0,
+      "gender": 0,
+      "width": 107
+    },
+    {
+      "file": "data/maps/SilphCo_10F/text.inc",
+      "label": "SilphCo_10F_Text_FloorSign",
+      "line": 1,
+      "gender": 0,
+      "width": 18
+    },
+    {
+      "file": "data/maps/SilphCo_11F/scripts.inc",
+      "label": "SilphCo_11F_Text_StillOccupied",
+      "line": 0,
+      "gender": 0,
+      "width": 135
+    },
+    {
+      "file": "data/maps/SilphCo_11F/scripts.inc",
+      "label": "SilphCo_11F_Text_StillOccupied",
+      "line": 1,
+      "gender": 0,
+      "width": 192
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThanksForSavingMeDearBoy",
+      "line": 0,
+      "gender": 0,
+      "width": 182
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThanksForSavingMeDearBoy",
+      "line": 1,
+      "gender": 0,
+      "width": 168
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThanksForSavingMeDearBoy",
+      "line": 2,
+      "gender": 0,
+      "width": 179
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThanksForSavingMeDearGirl",
+      "line": 0,
+      "gender": 0,
+      "width": 182
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThanksForSavingMeDearGirl",
+      "line": 1,
+      "gender": 0,
+      "width": 168
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThanksForSavingMeDearGirl",
+      "line": 2,
+      "gender": 0,
+      "width": 179
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ObtainedMasterBallFromPresident",
+      "line": 0,
+      "gender": 0,
+      "width": 140
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ObtainedMasterBallFromPresident",
+      "line": 1,
+      "gender": 0,
+      "width": 77
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThatsOurSecretPrototype",
+      "line": 0,
+      "gender": 0,
+      "width": 140
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThatsOurSecretPrototype",
+      "line": 1,
+      "gender": 0,
+      "width": 183
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThatsOurSecretPrototype",
+      "line": 2,
+      "gender": 0,
+      "width": 145
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThatsOurSecretPrototype",
+      "line": 3,
+      "gender": 0,
+      "width": 129
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThatsOurSecretPrototype",
+      "line": 4,
+      "gender": 0,
+      "width": 128
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThatsOurSecretPrototype",
+      "line": 5,
+      "gender": 0,
+      "width": 144
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThatsOurSecretPrototype",
+      "line": 6,
+      "gender": 0,
+      "width": 194
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThatsOurSecretPrototype",
+      "line": 7,
+      "gender": 0,
+      "width": 170
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_GiovanniPostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 161
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_GiovanniPostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 148
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_GiovanniPostBattle",
+      "line": 2,
+      "gender": 0,
+      "width": 197
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_GiovanniPostBattle",
+      "line": 3,
+      "gender": 0,
+      "width": 99
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_GiovanniPostBattle",
+      "line": 4,
+      "gender": 0,
+      "width": 111
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_FloorSign",
+      "line": 0,
+      "gender": 0,
+      "width": 107
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_FloorSign",
+      "line": 1,
+      "gender": 0,
+      "width": 18
+    },
+    {
+      "file": "data/maps/SilphCo_1F/text.inc",
+      "label": "SilphCo_1F_Text_FloorSign",
+      "line": 0,
+      "gender": 0,
+      "width": 107
+    },
+    {
+      "file": "data/maps/SilphCo_1F/text.inc",
+      "label": "SilphCo_1F_Text_FloorSign",
+      "line": 1,
+      "gender": 0,
+      "width": 12
+    },
+    {
+      "file": "data/maps/SilphCo_2F/text.inc",
+      "label": "SilphCo_2F_Text_ConnorIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 29
+    },
+    {
+      "file": "data/maps/SilphCo_2F/text.inc",
+      "label": "SilphCo_2F_Text_ConnorIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 126
+    },
+    {
+      "file": "data/maps/SilphCo_2F/text.inc",
+      "label": "SilphCo_2F_Text_ConnorPostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 170
+    },
+    {
+      "file": "data/maps/SilphCo_2F/text.inc",
+      "label": "SilphCo_2F_Text_ConnorPostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 148
+    },
+    {
+      "file": "data/maps/SilphCo_2F/text.inc",
+      "label": "SilphCo_2F_Text_Grunt2PostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 207
+    },
+    {
+      "file": "data/maps/SilphCo_2F/text.inc",
+      "label": "SilphCo_2F_Text_Grunt2PostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 179
+    },
+    {
+      "file": "data/maps/SilphCo_2F/text.inc",
+      "label": "SilphCo_2F_Text_Grunt2PostBattle",
+      "line": 2,
+      "gender": 0,
+      "width": 33
+    },
+    {
+      "file": "data/maps/SilphCo_2F/text.inc",
+      "label": "SilphCo_2F_Text_FloorSign",
+      "line": 0,
+      "gender": 0,
+      "width": 107
+    },
+    {
+      "file": "data/maps/SilphCo_2F/text.inc",
+      "label": "SilphCo_2F_Text_FloorSign",
+      "line": 1,
+      "gender": 0,
+      "width": 12
+    },
+    {
+      "file": "data/maps/SilphCo_3F/text.inc",
+      "label": "SilphCo_3F_Text_WhatAmIToDo",
+      "line": 0,
+      "gender": 0,
+      "width": 97
+    },
+    {
+      "file": "data/maps/SilphCo_3F/text.inc",
+      "label": "SilphCo_3F_Text_WhatAmIToDo",
+      "line": 1,
+      "gender": 0,
+      "width": 94
+    },
+    {
+      "file": "data/maps/SilphCo_3F/text.inc",
+      "label": "SilphCo_3F_Text_JoseIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 193
+    },
+    {
+      "file": "data/maps/SilphCo_3F/text.inc",
+      "label": "SilphCo_3F_Text_JoseIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 116
+    },
+    {
+      "file": "data/maps/SilphCo_3F/text.inc",
+      "label": "SilphCo_3F_Text_FloorSign",
+      "line": 0,
+      "gender": 0,
+      "width": 107
+    },
+    {
+      "file": "data/maps/SilphCo_3F/text.inc",
+      "label": "SilphCo_3F_Text_FloorSign",
+      "line": 1,
+      "gender": 0,
+      "width": 12
+    },
+    {
+      "file": "data/maps/SilphCo_4F/text.inc",
+      "label": "SilphCo_4F_Text_Grunt1Intro",
+      "line": 0,
+      "gender": 0,
+      "width": 207
+    },
+    {
+      "file": "data/maps/SilphCo_4F/text.inc",
+      "label": "SilphCo_4F_Text_Grunt1Intro",
+      "line": 1,
+      "gender": 0,
+      "width": 131
+    },
+    {
+      "file": "data/maps/SilphCo_4F/text.inc",
+      "label": "SilphCo_4F_Text_FloorSign",
+      "line": 0,
+      "gender": 0,
+      "width": 107
+    },
+    {
+      "file": "data/maps/SilphCo_4F/text.inc",
+      "label": "SilphCo_4F_Text_FloorSign",
+      "line": 1,
+      "gender": 0,
+      "width": 12
+    },
+    {
+      "file": "data/maps/SilphCo_5F/text.inc",
+      "label": "SilphCo_5F_Text_FloorSign",
+      "line": 0,
+      "gender": 0,
+      "width": 107
+    },
+    {
+      "file": "data/maps/SilphCo_5F/text.inc",
+      "label": "SilphCo_5F_Text_FloorSign",
+      "line": 1,
+      "gender": 0,
+      "width": 12
+    },
+    {
+      "file": "data/maps/SilphCo_6F/text.inc",
+      "label": "SilphCo_6F_Text_ComeWorkForSilphWhenYoureOlder",
+      "line": 0,
+      "gender": 0,
+      "width": 168
+    },
+    {
+      "file": "data/maps/SilphCo_6F/text.inc",
+      "label": "SilphCo_6F_Text_ComeWorkForSilphWhenYoureOlder",
+      "line": 1,
+      "gender": 0,
+      "width": 56
+    },
+    {
+      "file": "data/maps/SilphCo_6F/text.inc",
+      "label": "SilphCo_6F_Text_FloorSign",
+      "line": 0,
+      "gender": 0,
+      "width": 107
+    },
+    {
+      "file": "data/maps/SilphCo_6F/text.inc",
+      "label": "SilphCo_6F_Text_FloorSign",
+      "line": 1,
+      "gender": 0,
+      "width": 12
+    },
+    {
+      "file": "data/maps/SilphCo_7F/text.inc",
+      "label": "SilphCo_7F_Text_ObtainedLaprasFromEmployee",
+      "line": 0,
+      "gender": 0,
+      "width": 144
+    },
+    {
+      "file": "data/maps/SilphCo_7F/text.inc",
+      "label": "SilphCo_7F_Text_ObtainedLaprasFromEmployee",
+      "line": 1,
+      "gender": 0,
+      "width": 117
+    },
+    {
+      "file": "data/maps/SilphCo_7F/text.inc",
+      "label": "SilphCo_7F_Text_JoshuaIntro",
+      "line": 0,
+      "gender": 0,
+      "width": 36
+    },
+    {
+      "file": "data/maps/SilphCo_7F/text.inc",
+      "label": "SilphCo_7F_Text_JoshuaIntro",
+      "line": 1,
+      "gender": 0,
+      "width": 199
+    },
+    {
+      "file": "data/maps/SilphCo_7F/text.inc",
+      "label": "SilphCo_7F_Text_FloorSign",
+      "line": 0,
+      "gender": 0,
+      "width": 107
+    },
+    {
+      "file": "data/maps/SilphCo_7F/text.inc",
+      "label": "SilphCo_7F_Text_FloorSign",
+      "line": 1,
+      "gender": 0,
+      "width": 12
+    },
+    {
+      "file": "data/maps/SilphCo_8F/text.inc",
+      "label": "SilphCo_8F_Text_WonderIfSilphIsFinished",
+      "line": 0,
+      "gender": 0,
+      "width": 170
+    },
+    {
+      "file": "data/maps/SilphCo_8F/text.inc",
+      "label": "SilphCo_8F_Text_ParkerPostBattle",
+      "line": 0,
+      "gender": 0,
+      "width": 177
+    },
+    {
+      "file": "data/maps/SilphCo_8F/text.inc",
+      "label": "SilphCo_8F_Text_ParkerPostBattle",
+      "line": 1,
+      "gender": 0,
+      "width": 92
+    },
+    {
+      "file": "data/maps/SilphCo_8F/text.inc",
+      "label": "SilphCo_8F_Text_FloorSign",
+      "line": 0,
+      "gender": 0,
+      "width": 107
+    },
+    {
+      "file": "data/maps/SilphCo_8F/text.inc",
+      "label": "SilphCo_8F_Text_FloorSign",
+      "line": 1,
+      "gender": 0,
+      "width": 12
+    },
+    {
+      "file": "data/maps/SilphCo_9F/text.inc",
+      "label": "SilphCo_9F_Text_FloorSign",
+      "line": 0,
+      "gender": 0,
+      "width": 107
+    },
+    {
+      "file": "data/maps/SilphCo_9F/text.inc",
+      "label": "SilphCo_9F_Text_FloorSign",
+      "line": 1,
+      "gender": 0,
+      "width": 12
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "label": "YokaiCameo_EmployeRougeTextStart",
+      "line": 0,
+      "gender": 0,
+      "width": 170
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "label": "YokaiCameo_EmployeBleuTextStart",
+      "line": 0,
+      "gender": 0,
+      "width": 162
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "label": "YokaiCameo_EmployeBleuTextAfter",
+      "line": 0,
+      "gender": 0,
+      "width": 118
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "label": "YokaiCameo_EmployeBleuTextAfter",
+      "line": 1,
+      "gender": 0,
+      "width": 192
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "label": "YokaiCameo_EmployeRougeTextAdventure",
+      "line": 0,
+      "gender": 0,
+      "width": 150
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "label": "YokaiCameo_EmployeRougeTextAdventure",
+      "line": 1,
+      "gender": 0,
+      "width": 197
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "label": "YokaiCameo_EmployeRougeTextAdventure",
+      "line": 2,
+      "gender": 0,
+      "width": 154
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "label": "YokaiCameo_EmployeBleuTextAdventure",
+      "line": 0,
+      "gender": 0,
+      "width": 160
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "label": "YokaiCameo_EmployeBleuTextAdventure",
+      "line": 1,
+      "gender": 0,
+      "width": 188
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "label": "YokaiCameo_EmployeBleuTextAdventure",
+      "line": 2,
+      "gender": 0,
+      "width": 183
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "label": "YokaiCameo_EmployeBleuTextAdventure",
+      "line": 3,
+      "gender": 0,
+      "width": 148
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga0",
+      "line": 0,
+      "gender": 0,
+      "width": 123
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga0",
+      "line": 1,
+      "gender": 0,
+      "width": 67
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga1",
+      "line": 0,
+      "gender": 0,
+      "width": 125
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga1",
+      "line": 1,
+      "gender": 0,
+      "width": 69
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga2",
+      "line": 0,
+      "gender": 0,
+      "width": 103
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga2",
+      "line": 1,
+      "gender": 0,
+      "width": 106
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga3",
+      "line": 0,
+      "gender": 0,
+      "width": 133
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga3",
+      "line": 1,
+      "gender": 0,
+      "width": 138
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga4",
+      "line": 0,
+      "gender": 0,
+      "width": 148
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga4",
+      "line": 1,
+      "gender": 0,
+      "width": 124
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga5",
+      "line": 0,
+      "gender": 0,
+      "width": 124
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga5",
+      "line": 1,
+      "gender": 0,
+      "width": 82
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina0",
+      "line": 0,
+      "gender": 0,
+      "width": 176
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina0",
+      "line": 1,
+      "gender": 0,
+      "width": 66
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina1",
+      "line": 0,
+      "gender": 0,
+      "width": 114
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina1",
+      "line": 1,
+      "gender": 0,
+      "width": 58
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina2",
+      "line": 0,
+      "gender": 0,
+      "width": 115
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina2",
+      "line": 1,
+      "gender": 0,
+      "width": 126
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina3",
+      "line": 0,
+      "gender": 0,
+      "width": 142
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina3",
+      "line": 1,
+      "gender": 0,
+      "width": 138
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina4",
+      "line": 0,
+      "gender": 0,
+      "width": 161
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina4",
+      "line": 1,
+      "gender": 0,
+      "width": 89
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina5",
+      "line": 0,
+      "gender": 0,
+      "width": 146
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina5",
+      "line": 1,
+      "gender": 0,
+      "width": 162
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei0",
+      "line": 0,
+      "gender": 0,
+      "width": 173
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei0",
+      "line": 1,
+      "gender": 0,
+      "width": 68
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei1",
+      "line": 0,
+      "gender": 0,
+      "width": 134
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei1",
+      "line": 1,
+      "gender": 0,
+      "width": 90
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei2",
+      "line": 0,
+      "gender": 0,
+      "width": 109
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei2",
+      "line": 1,
+      "gender": 0,
+      "width": 59
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei3",
+      "line": 0,
+      "gender": 0,
+      "width": 124
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei3",
+      "line": 1,
+      "gender": 0,
+      "width": 87
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei4",
+      "line": 0,
+      "gender": 0,
+      "width": 138
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei4",
+      "line": 1,
+      "gender": 0,
+      "width": 118
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei5",
+      "line": 0,
+      "gender": 0,
+      "width": 75
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei5",
+      "line": 1,
+      "gender": 0,
+      "width": 149
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno0",
+      "line": 0,
+      "gender": 0,
+      "width": 160
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno0",
+      "line": 1,
+      "gender": 0,
+      "width": 129
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno1",
+      "line": 0,
+      "gender": 0,
+      "width": 160
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno1",
+      "line": 1,
+      "gender": 0,
+      "width": 145
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno2",
+      "line": 0,
+      "gender": 0,
+      "width": 176
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno2",
+      "line": 1,
+      "gender": 0,
+      "width": 179
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno3",
+      "line": 0,
+      "gender": 0,
+      "width": 109
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno3",
+      "line": 1,
+      "gender": 0,
+      "width": 114
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno4",
+      "line": 0,
+      "gender": 0,
+      "width": 93
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno4",
+      "line": 1,
+      "gender": 0,
+      "width": 74
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno5",
+      "line": 0,
+      "gender": 0,
+      "width": 155
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno5",
+      "line": 1,
+      "gender": 0,
+      "width": 74
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha0",
+      "line": 0,
+      "gender": 0,
+      "width": 131
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha0",
+      "line": 1,
+      "gender": 0,
+      "width": 129
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha1",
+      "line": 0,
+      "gender": 0,
+      "width": 154
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha1",
+      "line": 1,
+      "gender": 0,
+      "width": 145
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha2",
+      "line": 0,
+      "gender": 0,
+      "width": 114
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha2",
+      "line": 1,
+      "gender": 0,
+      "width": 93
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha3",
+      "line": 0,
+      "gender": 0,
+      "width": 98
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha3",
+      "line": 1,
+      "gender": 0,
+      "width": 59
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha4",
+      "line": 0,
+      "gender": 0,
+      "width": 160
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha4",
+      "line": 1,
+      "gender": 0,
+      "width": 118
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha5",
+      "line": 0,
+      "gender": 0,
+      "width": 114
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha5",
+      "line": 1,
+      "gender": 0,
+      "width": 164
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance0",
+      "line": 0,
+      "gender": 0,
+      "width": 165
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance0",
+      "line": 1,
+      "gender": 0,
+      "width": 129
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance1",
+      "line": 0,
+      "gender": 0,
+      "width": 134
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance1",
+      "line": 1,
+      "gender": 0,
+      "width": 128
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance2",
+      "line": 0,
+      "gender": 0,
+      "width": 114
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance2",
+      "line": 1,
+      "gender": 0,
+      "width": 119
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance3",
+      "line": 0,
+      "gender": 0,
+      "width": 161
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance3",
+      "line": 1,
+      "gender": 0,
+      "width": 118
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance4",
+      "line": 0,
+      "gender": 0,
+      "width": 139
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance4",
+      "line": 1,
+      "gender": 0,
+      "width": 131
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance5",
+      "line": 0,
+      "gender": 0,
+      "width": 94
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance5",
+      "line": 1,
+      "gender": 0,
+      "width": 115
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_Koga",
+      "line": 0,
+      "gender": 0,
+      "width": 48
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Koga",
+      "line": 0,
+      "gender": 0,
+      "width": 139
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Koga",
+      "line": 1,
+      "gender": 0,
+      "width": 124
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Koga",
+      "line": 2,
+      "gender": 0,
+      "width": 164
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_Sabrina",
+      "line": 0,
+      "gender": 0,
+      "width": 53
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Sabrina",
+      "line": 0,
+      "gender": 0,
+      "width": 118
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Sabrina",
+      "line": 1,
+      "gender": 0,
+      "width": 127
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_Lorelei",
+      "line": 0,
+      "gender": 0,
+      "width": 30
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Lorelei",
+      "line": 0,
+      "gender": 0,
+      "width": 106
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Lorelei",
+      "line": 1,
+      "gender": 0,
+      "width": 140
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_Bruno",
+      "line": 0,
+      "gender": 0,
+      "width": 51
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Bruno",
+      "line": 0,
+      "gender": 0,
+      "width": 113
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Bruno",
+      "line": 1,
+      "gender": 0,
+      "width": 62
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_Agatha",
+      "line": 0,
+      "gender": 0,
+      "width": 42
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Agatha",
+      "line": 0,
+      "gender": 0,
+      "width": 117
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Agatha",
+      "line": 1,
+      "gender": 0,
+      "width": 73
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_Lance",
+      "line": 0,
+      "gender": 0,
+      "width": 47
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Lance",
+      "line": 0,
+      "gender": 0,
+      "width": 75
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Lance",
+      "line": 1,
+      "gender": 0,
+      "width": 155
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorTextOriginLocation_Giovanni1",
+      "line": 0,
+      "gender": 0,
+      "width": 35
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorTextOriginLocation_Giovanni2",
+      "line": 0,
+      "gender": 0,
+      "width": 35
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_AnswerWantToMakeMonStronger",
+      "line": 0,
+      "gender": 0,
+      "width": 184
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_AnswerWantToMakeMonStronger",
+      "line": 1,
+      "gender": 0,
+      "width": 179
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_AnswerWantToMakeMonStronger",
+      "line": 2,
+      "gender": 0,
+      "width": 174
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_AnswerWantToMakeMonStronger",
+      "line": 3,
+      "gender": 0,
+      "width": 160
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_AnswerWantToMakeMonStronger",
+      "line": 4,
+      "gender": 0,
+      "width": 166
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_AnswerWantToMakeMonStronger",
+      "line": 5,
+      "gender": 0,
+      "width": 191
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_DefineEXP",
+      "line": 0,
+      "gender": 0,
+      "width": 186
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_DefineEXP",
+      "line": 1,
+      "gender": 0,
+      "width": 146
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_DefineEXP",
+      "line": 2,
+      "gender": 0,
+      "width": 184
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_DefineEXP",
+      "line": 3,
+      "gender": 0,
+      "width": 158
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_DefineEXP",
+      "line": 4,
+      "gender": 0,
+      "width": 157
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_DefineEXP",
+      "line": 5,
+      "gender": 0,
+      "width": 206
+    },
+    {
+      "file": "data/text/pokedex_rating.inc",
+      "label": "PokedexRating_Text_LessThan60",
+      "line": 0,
+      "gender": 0,
+      "width": 167
+    },
+    {
+      "file": "data/text/pokedex_rating.inc",
+      "label": "PokedexRating_Text_LessThan60",
+      "line": 1,
+      "gender": 0,
+      "width": 176
+    },
+    {
+      "file": "data/text/pokedex_rating.inc",
+      "label": "PokedexRating_Text_LessThan60",
+      "line": 2,
+      "gender": 0,
+      "width": 175
+    },
+    {
+      "file": "data/text/pokedex_rating.inc",
+      "label": "PokedexRating_Text_LessThan60",
+      "line": 3,
+      "gender": 0,
+      "width": 157
+    },
+    {
+      "file": "data/text/pokedude.inc",
+      "label": "Pokedude_Text_MyRattataWonGetsEXP",
+      "line": 0,
+      "gender": 0,
+      "width": 179
+    },
+    {
+      "file": "data/text/pokedude.inc",
+      "label": "Pokedude_Text_MyRattataWonGetsEXP",
+      "line": 1,
+      "gender": 0,
+      "width": 149
+    },
+    {
+      "file": "data/text/pokedude.inc",
+      "label": "Pokedude_Text_MyRattataWonGetsEXP",
+      "line": 2,
+      "gender": 0,
+      "width": 142
+    },
+    {
+      "file": "data/text/pokedude.inc",
+      "label": "Pokedude_Text_MyRattataWonGetsEXP",
+      "line": 3,
+      "gender": 0,
+      "width": 132
+    },
+    {
+      "file": "data/text/pokedude.inc",
+      "label": "Pokedude_Text_MyRattataWonGetsEXP",
+      "line": 4,
+      "gender": 0,
+      "width": 181
+    },
+    {
+      "file": "data/text/pokedude.inc",
+      "label": "Pokedude_Text_MyRattataWonGetsEXP",
+      "line": 5,
+      "gender": 0,
+      "width": 189
+    },
+    {
+      "file": "data/text/pokedude.inc",
+      "label": "Pokedude_Text_MyRattataWonGetsEXP",
+      "line": 6,
+      "gender": 0,
+      "width": 157
+    },
+    {
+      "file": "data/text/pokedude.inc",
+      "label": "Pokedude_Text_MyRattataWonGetsEXP",
+      "line": 7,
+      "gender": 0,
+      "width": 206
+    },
+    {
+      "file": "data/maps/CeladonCity_Condominiums_RoofRoom/text.inc",
+      "label": "CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs",
+      "line": 0,
+      "gender": 1,
+      "width": 128
+    },
+    {
+      "file": "data/maps/CeladonCity_Condominiums_RoofRoom/text.inc",
+      "label": "CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs",
+      "line": 1,
+      "gender": 1,
+      "width": 18
+    },
+    {
+      "file": "data/maps/CeladonCity_Condominiums_RoofRoom/text.inc",
+      "label": "CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs",
+      "line": 2,
+      "gender": 1,
+      "width": 148
+    },
+    {
+      "file": "data/maps/CeladonCity_Condominiums_RoofRoom/text.inc",
+      "label": "CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs",
+      "line": 3,
+      "gender": 1,
+      "width": 165
+    },
+    {
+      "file": "data/maps/CeladonCity_Condominiums_RoofRoom/text.inc",
+      "label": "CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs",
+      "line": 4,
+      "gender": 1,
+      "width": 132
+    },
+    {
+      "file": "data/maps/CeladonCity_Condominiums_RoofRoom/text.inc",
+      "label": "CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs",
+      "line": 5,
+      "gender": 1,
+      "width": 35
+    },
+    {
+      "file": "data/maps/CeruleanCave_B1F/scripts.inc",
+      "label": "CeruleanCave_B1F_Text_YokaiEnma",
+      "line": 0,
+      "gender": 1,
+      "width": 187
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 194
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 169
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 173
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaIntro",
+      "line": 3,
+      "gender": 1,
+      "width": 144
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaIntro",
+      "line": 4,
+      "gender": 1,
+      "width": 157
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaDefeat",
+      "line": 0,
+      "gender": 1,
+      "width": 168
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaDefeat",
+      "line": 1,
+      "gender": 1,
+      "width": 133
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaPostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 152
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaPostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 161
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaExplainSoulBadge",
+      "line": 0,
+      "gender": 1,
+      "width": 189
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaExplainSoulBadge",
+      "line": 1,
+      "gender": 1,
+      "width": 166
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaExplainSoulBadge",
+      "line": 2,
+      "gender": 1,
+      "width": 125
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaExplainSoulBadge",
+      "line": 3,
+      "gender": 1,
+      "width": 122
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_ReceivedTM06FromKoga",
+      "line": 0,
+      "gender": 1,
+      "width": 97
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_ReceivedTM06FromKoga",
+      "line": 1,
+      "gender": 1,
+      "width": 67
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaExplainTM06",
+      "line": 0,
+      "gender": 1,
+      "width": 133
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KogaExplainTM06",
+      "line": 1,
+      "gender": 1,
+      "width": 192
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KirkIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 152
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KirkIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 166
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KirkPostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 137
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_KirkPostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 79
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_EdgarIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 152
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_EdgarIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 166
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_ShawnIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 152
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_ShawnIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 166
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_GymGuyAdvice",
+      "line": 0,
+      "gender": 1,
+      "width": 153
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_GymGuyAdvice",
+      "line": 1,
+      "gender": 1,
+      "width": 192
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_GymGuyAdvice",
+      "line": 2,
+      "gender": 1,
+      "width": 203
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_GymGuyPostVictory",
+      "line": 0,
+      "gender": 1,
+      "width": 126
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_GymGuyPostVictory",
+      "line": 1,
+      "gender": 1,
+      "width": 130
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_GymStatue",
+      "line": 0,
+      "gender": 1,
+      "width": 102
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_GymStatue",
+      "line": 1,
+      "gender": 1,
+      "width": 119
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_GymStatue",
+      "line": 2,
+      "gender": 1,
+      "width": 93
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_GymStatuePlayerWon",
+      "line": 0,
+      "gender": 1,
+      "width": 102
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_GymStatuePlayerWon",
+      "line": 1,
+      "gender": 1,
+      "width": 119
+    },
+    {
+      "file": "data/maps/FuchsiaCity_Gym/text.inc",
+      "label": "FuchsiaCity_Gym_Text_GymStatuePlayerWon",
+      "line": 2,
+      "gender": 1,
+      "width": 116
+    },
+    {
+      "file": "data/maps/LavenderTown/text.inc",
+      "label": "LavenderTown_Text_SilphScopeNotice",
+      "line": 0,
+      "gender": 1,
+      "width": 101
+    },
+    {
+      "file": "data/maps/LavenderTown/text.inc",
+      "label": "LavenderTown_Text_SilphScopeNotice",
+      "line": 1,
+      "gender": 1,
+      "width": 178
+    },
+    {
+      "file": "data/maps/LavenderTown/text.inc",
+      "label": "LavenderTown_Text_SilphScopeNotice",
+      "line": 2,
+      "gender": 1,
+      "width": 35
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "label": "MtEmber_Summit_Text_EnmaOffer",
+      "line": 0,
+      "gender": 1,
+      "width": 149
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "label": "MtEmber_Summit_Text_EnmaOffer",
+      "line": 1,
+      "gender": 1,
+      "width": 192
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "label": "MtEmber_Summit_Text_EnmaOffer",
+      "line": 2,
+      "gender": 1,
+      "width": 130
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "label": "MtEmber_Summit_Text_EnmaOffer",
+      "line": 3,
+      "gender": 1,
+      "width": 160
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "label": "MtEmber_Summit_Text_EnmaUnlocked",
+      "line": 0,
+      "gender": 1,
+      "width": 151
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "label": "MtEmber_Summit_Text_EnmaUnlocked",
+      "line": 1,
+      "gender": 1,
+      "width": 148
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "label": "MtEmber_Summit_Text_EnmaUnlocked",
+      "line": 2,
+      "gender": 1,
+      "width": 120
+    },
+    {
+      "file": "data/maps/MtEmber_Summit/scripts.inc",
+      "label": "MtEmber_Summit_Text_EnmaUnlocked",
+      "line": 3,
+      "gender": 1,
+      "width": 121
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_TrainerTipsEarningEXP",
+      "line": 0,
+      "gender": 1,
+      "width": 132
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_TrainerTipsEarningEXP",
+      "line": 1,
+      "gender": 1,
+      "width": 142
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_TrainerTipsEarningEXP",
+      "line": 2,
+      "gender": 1,
+      "width": 94
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_TrainerTipsEarningEXP",
+      "line": 3,
+      "gender": 1,
+      "width": 181
+    },
+    {
+      "file": "data/maps/PewterCity/text.inc",
+      "label": "PewterCity_Text_TrainerTipsEarningEXP",
+      "line": 4,
+      "gender": 1,
+      "width": 128
+    },
+    {
+      "file": "data/maps/PokemonLeague_AgathasRoom/text.inc",
+      "label": "PokemonLeague_AgathasRoom_Text_Intro",
+      "line": 0,
+      "gender": 1,
+      "width": 44
+    },
+    {
+      "file": "data/maps/PokemonLeague_AgathasRoom/text.inc",
+      "label": "PokemonLeague_AgathasRoom_Text_Intro",
+      "line": 1,
+      "gender": 1,
+      "width": 68
+    },
+    {
+      "file": "data/maps/PokemonLeague_AgathasRoom/text.inc",
+      "label": "PokemonLeague_AgathasRoom_Text_Intro",
+      "line": 2,
+      "gender": 1,
+      "width": 90
+    },
+    {
+      "file": "data/maps/PokemonLeague_AgathasRoom/text.inc",
+      "label": "PokemonLeague_AgathasRoom_Text_Intro",
+      "line": 3,
+      "gender": 1,
+      "width": 163
+    },
+    {
+      "file": "data/maps/PokemonLeague_AgathasRoom/text.inc",
+      "label": "PokemonLeague_AgathasRoom_Text_RematchIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 44
+    },
+    {
+      "file": "data/maps/PokemonLeague_AgathasRoom/text.inc",
+      "label": "PokemonLeague_AgathasRoom_Text_RematchIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 68
+    },
+    {
+      "file": "data/maps/PokemonLeague_AgathasRoom/text.inc",
+      "label": "PokemonLeague_AgathasRoom_Text_RematchIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 90
+    },
+    {
+      "file": "data/maps/PokemonLeague_AgathasRoom/text.inc",
+      "label": "PokemonLeague_AgathasRoom_Text_RematchIntro",
+      "line": 3,
+      "gender": 1,
+      "width": 163
+    },
+    {
+      "file": "data/maps/PokemonLeague_AgathasRoom/text.inc",
+      "label": "PokemonLeague_AgathasRoom_Text_Defeat",
+      "line": 0,
+      "gender": 1,
+      "width": 128
+    },
+    {
+      "file": "data/maps/PokemonLeague_AgathasRoom/text.inc",
+      "label": "PokemonLeague_AgathasRoom_Text_PostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 146
+    },
+    {
+      "file": "data/maps/PokemonLeague_BrunosRoom/text.inc",
+      "label": "PokemonLeague_BrunosRoom_Text_Intro",
+      "line": 0,
+      "gender": 1,
+      "width": 74
+    },
+    {
+      "file": "data/maps/PokemonLeague_BrunosRoom/text.inc",
+      "label": "PokemonLeague_BrunosRoom_Text_Intro",
+      "line": 1,
+      "gender": 1,
+      "width": 114
+    },
+    {
+      "file": "data/maps/PokemonLeague_BrunosRoom/text.inc",
+      "label": "PokemonLeague_BrunosRoom_Text_Intro",
+      "line": 2,
+      "gender": 1,
+      "width": 69
+    },
+    {
+      "file": "data/maps/PokemonLeague_BrunosRoom/text.inc",
+      "label": "PokemonLeague_BrunosRoom_Text_Intro",
+      "line": 3,
+      "gender": 1,
+      "width": 174
+    },
+    {
+      "file": "data/maps/PokemonLeague_BrunosRoom/text.inc",
+      "label": "PokemonLeague_BrunosRoom_Text_RematchIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 74
+    },
+    {
+      "file": "data/maps/PokemonLeague_BrunosRoom/text.inc",
+      "label": "PokemonLeague_BrunosRoom_Text_RematchIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 114
+    },
+    {
+      "file": "data/maps/PokemonLeague_BrunosRoom/text.inc",
+      "label": "PokemonLeague_BrunosRoom_Text_RematchIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 69
+    },
+    {
+      "file": "data/maps/PokemonLeague_BrunosRoom/text.inc",
+      "label": "PokemonLeague_BrunosRoom_Text_RematchIntro",
+      "line": 3,
+      "gender": 1,
+      "width": 174
+    },
+    {
+      "file": "data/maps/PokemonLeague_BrunosRoom/text.inc",
+      "label": "PokemonLeague_BrunosRoom_Text_Defeat",
+      "line": 0,
+      "gender": 1,
+      "width": 181
+    },
+    {
+      "file": "data/maps/PokemonLeague_BrunosRoom/text.inc",
+      "label": "PokemonLeague_BrunosRoom_Text_PostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 188
+    },
+    {
+      "file": "data/maps/PokemonLeague_LancesRoom/text.inc",
+      "label": "PokemonLeague_LancesRoom_Text_Intro",
+      "line": 0,
+      "gender": 1,
+      "width": 75
+    },
+    {
+      "file": "data/maps/PokemonLeague_LancesRoom/text.inc",
+      "label": "PokemonLeague_LancesRoom_Text_Intro",
+      "line": 1,
+      "gender": 1,
+      "width": 108
+    },
+    {
+      "file": "data/maps/PokemonLeague_LancesRoom/text.inc",
+      "label": "PokemonLeague_LancesRoom_Text_Intro",
+      "line": 2,
+      "gender": 1,
+      "width": 51
+    },
+    {
+      "file": "data/maps/PokemonLeague_LancesRoom/text.inc",
+      "label": "PokemonLeague_LancesRoom_Text_Intro",
+      "line": 3,
+      "gender": 1,
+      "width": 174
+    },
+    {
+      "file": "data/maps/PokemonLeague_LancesRoom/text.inc",
+      "label": "PokemonLeague_LancesRoom_Text_RematchIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 75
+    },
+    {
+      "file": "data/maps/PokemonLeague_LancesRoom/text.inc",
+      "label": "PokemonLeague_LancesRoom_Text_RematchIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 108
+    },
+    {
+      "file": "data/maps/PokemonLeague_LancesRoom/text.inc",
+      "label": "PokemonLeague_LancesRoom_Text_RematchIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 51
+    },
+    {
+      "file": "data/maps/PokemonLeague_LancesRoom/text.inc",
+      "label": "PokemonLeague_LancesRoom_Text_RematchIntro",
+      "line": 3,
+      "gender": 1,
+      "width": 174
+    },
+    {
+      "file": "data/maps/PokemonLeague_LancesRoom/text.inc",
+      "label": "PokemonLeague_LancesRoom_Text_Defeat",
+      "line": 0,
+      "gender": 1,
+      "width": 175
+    },
+    {
+      "file": "data/maps/PokemonLeague_LancesRoom/text.inc",
+      "label": "PokemonLeague_LancesRoom_Text_PostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 182
+    },
+    {
+      "file": "data/maps/PokemonLeague_LoreleisRoom/text.inc",
+      "label": "PokemonLeague_LoreleisRoom_Text_Intro",
+      "line": 0,
+      "gender": 1,
+      "width": 34
+    },
+    {
+      "file": "data/maps/PokemonLeague_LoreleisRoom/text.inc",
+      "label": "PokemonLeague_LoreleisRoom_Text_Intro",
+      "line": 1,
+      "gender": 1,
+      "width": 106
+    },
+    {
+      "file": "data/maps/PokemonLeague_LoreleisRoom/text.inc",
+      "label": "PokemonLeague_LoreleisRoom_Text_Intro",
+      "line": 2,
+      "gender": 1,
+      "width": 81
+    },
+    {
+      "file": "data/maps/PokemonLeague_LoreleisRoom/text.inc",
+      "label": "PokemonLeague_LoreleisRoom_Text_Intro",
+      "line": 3,
+      "gender": 1,
+      "width": 179
+    },
+    {
+      "file": "data/maps/PokemonLeague_LoreleisRoom/text.inc",
+      "label": "PokemonLeague_LoreleisRoom_Text_RematchIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 34
+    },
+    {
+      "file": "data/maps/PokemonLeague_LoreleisRoom/text.inc",
+      "label": "PokemonLeague_LoreleisRoom_Text_RematchIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 106
+    },
+    {
+      "file": "data/maps/PokemonLeague_LoreleisRoom/text.inc",
+      "label": "PokemonLeague_LoreleisRoom_Text_RematchIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 81
+    },
+    {
+      "file": "data/maps/PokemonLeague_LoreleisRoom/text.inc",
+      "label": "PokemonLeague_LoreleisRoom_Text_RematchIntro",
+      "line": 3,
+      "gender": 1,
+      "width": 179
+    },
+    {
+      "file": "data/maps/PokemonLeague_LoreleisRoom/text.inc",
+      "label": "PokemonLeague_LoreleisRoom_Text_Defeat",
+      "line": 0,
+      "gender": 1,
+      "width": 143
+    },
+    {
+      "file": "data/maps/PokemonLeague_LoreleisRoom/text.inc",
+      "label": "PokemonLeague_LoreleisRoom_Text_PostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 175
+    },
+    {
+      "file": "data/maps/PokemonTower_2F/text.inc",
+      "label": "PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts",
+      "line": 0,
+      "gender": 1,
+      "width": 168
+    },
+    {
+      "file": "data/maps/PokemonTower_2F/text.inc",
+      "label": "PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts",
+      "line": 1,
+      "gender": 1,
+      "width": 85
+    },
+    {
+      "file": "data/maps/PokemonTower_2F/text.inc",
+      "label": "PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts",
+      "line": 2,
+      "gender": 1,
+      "width": 180
+    },
+    {
+      "file": "data/maps/PokemonTower_2F/text.inc",
+      "label": "PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts",
+      "line": 3,
+      "gender": 1,
+      "width": 67
+    },
+    {
+      "file": "data/maps/PokemonTower_3F/text.inc",
+      "label": "PokemonTower_3F_Text_HopePostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 173
+    },
+    {
+      "file": "data/maps/PokemonTower_3F/text.inc",
+      "label": "PokemonTower_3F_Text_HopePostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 99
+    },
+    {
+      "file": "data/maps/RocketHideout_B1F/text.inc",
+      "label": "RocketHideout_B1F_Text_Grunt3PostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 197
+    },
+    {
+      "file": "data/maps/RocketHideout_B1F/text.inc",
+      "label": "RocketHideout_B1F_Text_Grunt3PostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 109
+    },
+    {
+      "file": "data/maps/RocketHideout_B2F/text.inc",
+      "label": "RocketHideout_B2F_Text_GruntIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 196
+    },
+    {
+      "file": "data/maps/RocketHideout_B2F/text.inc",
+      "label": "RocketHideout_B2F_Text_GruntIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 175
+    },
+    {
+      "file": "data/maps/RocketHideout_B2F/text.inc",
+      "label": "RocketHideout_B2F_Text_GruntIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 47
+    },
+    {
+      "file": "data/maps/RocketHideout_B3F/text.inc",
+      "label": "RocketHideout_B3F_Text_Grunt1PostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 195
+    },
+    {
+      "file": "data/maps/RocketHideout_B3F/text.inc",
+      "label": "RocketHideout_B3F_Text_Grunt1PostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 193
+    },
+    {
+      "file": "data/maps/RocketHideout_B3F/text.inc",
+      "label": "RocketHideout_B3F_Text_Grunt1PostBattle",
+      "line": 2,
+      "gender": 1,
+      "width": 19
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_WeCanExploitMonsAroundWorld",
+      "line": 0,
+      "gender": 1,
+      "width": 186
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_WeCanExploitMonsAroundWorld",
+      "line": 1,
+      "gender": 1,
+      "width": 180
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_WeCanExploitMonsAroundWorld",
+      "line": 2,
+      "gender": 1,
+      "width": 173
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_FlewHereOnPidgeot",
+      "line": 0,
+      "gender": 1,
+      "width": 175
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_FlewHereOnPidgeot",
+      "line": 1,
+      "gender": 1,
+      "width": 116
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_FlewHereOnPidgeot",
+      "line": 2,
+      "gender": 1,
+      "width": 100
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_FlewHereOnPidgeot",
+      "line": 3,
+      "gender": 1,
+      "width": 145
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_SawRocketBossEscaping",
+      "line": 0,
+      "gender": 1,
+      "width": 171
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_SawRocketBossEscaping",
+      "line": 1,
+      "gender": 1,
+      "width": 199
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_SilphCoSign",
+      "line": 0,
+      "gender": 1,
+      "width": 131
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_SilphsLatestProduct",
+      "line": 0,
+      "gender": 1,
+      "width": 133
+    },
+    {
+      "file": "data/maps/SaffronCity/text.inc",
+      "label": "SaffronCity_Text_SilphsLatestProduct",
+      "line": 1,
+      "gender": 1,
+      "width": 142
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/scripts.inc",
+      "label": "SaffronCity_Gym_Text_YoppleBusy",
+      "line": 0,
+      "gender": 1,
+      "width": 160
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/scripts.inc",
+      "label": "SaffronCity_Gym_Text_YoppleBusy",
+      "line": 1,
+      "gender": 1,
+      "width": 175
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/scripts.inc",
+      "label": "SaffronCity_Gym_Text_YoppleBusy",
+      "line": 2,
+      "gender": 1,
+      "width": 196
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/scripts.inc",
+      "label": "SaffronCity_Gym_Text_RematchOffer",
+      "line": 0,
+      "gender": 1,
+      "width": 133
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/scripts.inc",
+      "label": "SaffronCity_Gym_Text_RematchOffer",
+      "line": 1,
+      "gender": 1,
+      "width": 165
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/scripts.inc",
+      "label": "SaffronCity_Gym_Text_RematchOffer",
+      "line": 2,
+      "gender": 1,
+      "width": 168
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/scripts.inc",
+      "label": "SaffronCity_Gym_Text_RematchStart",
+      "line": 0,
+      "gender": 1,
+      "width": 154
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/scripts.inc",
+      "label": "SaffronCity_Gym_Text_RematchStart",
+      "line": 1,
+      "gender": 1,
+      "width": 178
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/scripts.inc",
+      "label": "SaffronCity_Gym_Text_RematchAfter",
+      "line": 0,
+      "gender": 1,
+      "width": 192
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/scripts.inc",
+      "label": "SaffronCity_Gym_Text_RematchAfter",
+      "line": 1,
+      "gender": 1,
+      "width": 183
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 149
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 187
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 172
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaIntro",
+      "line": 3,
+      "gender": 1,
+      "width": 197
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaIntro",
+      "line": 4,
+      "gender": 1,
+      "width": 160
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaDefeat",
+      "line": 0,
+      "gender": 1,
+      "width": 124
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaDefeat",
+      "line": 1,
+      "gender": 1,
+      "width": 180
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaPostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 176
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaPostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 158
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_SabrinaPostBattle",
+      "line": 2,
+      "gender": 1,
+      "width": 148
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis",
+      "line": 0,
+      "gender": 1,
+      "width": 146
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis",
+      "line": 1,
+      "gender": 1,
+      "width": 147
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis",
+      "line": 2,
+      "gender": 1,
+      "width": 205
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ReceivedTM04FromSabrina",
+      "line": 0,
+      "gender": 1,
+      "width": 97
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ReceivedTM04FromSabrina",
+      "line": 1,
+      "gender": 1,
+      "width": 76
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainTM04",
+      "line": 0,
+      "gender": 1,
+      "width": 126
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_ExplainTM04",
+      "line": 1,
+      "gender": 1,
+      "width": 109
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 133
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 149
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 141
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaIntro",
+      "line": 3,
+      "gender": 1,
+      "width": 112
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaPostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 144
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_AmandaPostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 142
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_JohanIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 133
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_JohanIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 149
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_JohanIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 141
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_JohanIntro",
+      "line": 3,
+      "gender": 1,
+      "width": 112
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_JohanPostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 144
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_JohanPostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 142
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_StacyIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 133
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_StacyIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 149
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_StacyIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 141
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_StacyIntro",
+      "line": 3,
+      "gender": 1,
+      "width": 112
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_StacyPostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 144
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_StacyPostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 142
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TyronIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 133
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TyronIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 149
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TyronIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 141
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TyronIntro",
+      "line": 3,
+      "gender": 1,
+      "width": 112
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TyronPostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 144
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TyronPostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 142
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TashaIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 133
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TashaIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 149
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TashaIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 141
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TashaIntro",
+      "line": 3,
+      "gender": 1,
+      "width": 112
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TashaPostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 144
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_TashaPostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 142
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_CameronIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 133
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_CameronIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 149
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_CameronIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 141
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_CameronIntro",
+      "line": 3,
+      "gender": 1,
+      "width": 112
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_CameronPostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 144
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_CameronPostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 142
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_PrestonIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 133
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_PrestonIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 149
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_PrestonIntro",
+      "line": 2,
+      "gender": 1,
+      "width": 141
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_PrestonIntro",
+      "line": 3,
+      "gender": 1,
+      "width": 112
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_PrestonPostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 144
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_PrestonPostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 142
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 0,
+      "gender": 1,
+      "width": 128
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 1,
+      "gender": 1,
+      "width": 159
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 2,
+      "gender": 1,
+      "width": 157
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyAdvice",
+      "line": 3,
+      "gender": 1,
+      "width": 175
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyPostVictory",
+      "line": 0,
+      "gender": 1,
+      "width": 128
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymGuyPostVictory",
+      "line": 1,
+      "gender": 1,
+      "width": 136
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatue",
+      "line": 0,
+      "gender": 1,
+      "width": 102
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatue",
+      "line": 1,
+      "gender": 1,
+      "width": 119
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatue",
+      "line": 2,
+      "gender": 1,
+      "width": 93
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatuePlayerWon",
+      "line": 0,
+      "gender": 1,
+      "width": 102
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatuePlayerWon",
+      "line": 1,
+      "gender": 1,
+      "width": 119
+    },
+    {
+      "file": "data/maps/SaffronCity_Gym/text.inc",
+      "label": "SaffronCity_Gym_Text_GymStatuePlayerWon",
+      "line": 2,
+      "gender": 1,
+      "width": 116
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonCenter_1F/text.inc",
+      "label": "SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame",
+      "line": 0,
+      "gender": 1,
+      "width": 197
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonCenter_1F/text.inc",
+      "label": "SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame",
+      "line": 1,
+      "gender": 1,
+      "width": 194
+    },
+    {
+      "file": "data/maps/SaffronCity_PokemonCenter_1F/text.inc",
+      "label": "SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame",
+      "line": 2,
+      "gender": 1,
+      "width": 66
+    },
+    {
+      "file": "data/maps/SilphCo_10F/text.inc",
+      "label": "SilphCo_10F_Text_FloorSign",
+      "line": 0,
+      "gender": 1,
+      "width": 107
+    },
+    {
+      "file": "data/maps/SilphCo_10F/text.inc",
+      "label": "SilphCo_10F_Text_FloorSign",
+      "line": 1,
+      "gender": 1,
+      "width": 18
+    },
+    {
+      "file": "data/maps/SilphCo_11F/scripts.inc",
+      "label": "SilphCo_11F_Text_StillOccupied",
+      "line": 0,
+      "gender": 1,
+      "width": 135
+    },
+    {
+      "file": "data/maps/SilphCo_11F/scripts.inc",
+      "label": "SilphCo_11F_Text_StillOccupied",
+      "line": 1,
+      "gender": 1,
+      "width": 192
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThanksForSavingMeDearBoy",
+      "line": 0,
+      "gender": 1,
+      "width": 182
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThanksForSavingMeDearBoy",
+      "line": 1,
+      "gender": 1,
+      "width": 168
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThanksForSavingMeDearBoy",
+      "line": 2,
+      "gender": 1,
+      "width": 179
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThanksForSavingMeDearGirl",
+      "line": 0,
+      "gender": 1,
+      "width": 182
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThanksForSavingMeDearGirl",
+      "line": 1,
+      "gender": 1,
+      "width": 168
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThanksForSavingMeDearGirl",
+      "line": 2,
+      "gender": 1,
+      "width": 179
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ObtainedMasterBallFromPresident",
+      "line": 0,
+      "gender": 1,
+      "width": 140
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ObtainedMasterBallFromPresident",
+      "line": 1,
+      "gender": 1,
+      "width": 77
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThatsOurSecretPrototype",
+      "line": 0,
+      "gender": 1,
+      "width": 140
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThatsOurSecretPrototype",
+      "line": 1,
+      "gender": 1,
+      "width": 183
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThatsOurSecretPrototype",
+      "line": 2,
+      "gender": 1,
+      "width": 145
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThatsOurSecretPrototype",
+      "line": 3,
+      "gender": 1,
+      "width": 129
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThatsOurSecretPrototype",
+      "line": 4,
+      "gender": 1,
+      "width": 128
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThatsOurSecretPrototype",
+      "line": 5,
+      "gender": 1,
+      "width": 144
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThatsOurSecretPrototype",
+      "line": 6,
+      "gender": 1,
+      "width": 194
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_ThatsOurSecretPrototype",
+      "line": 7,
+      "gender": 1,
+      "width": 170
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_GiovanniPostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 161
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_GiovanniPostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 148
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_GiovanniPostBattle",
+      "line": 2,
+      "gender": 1,
+      "width": 197
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_GiovanniPostBattle",
+      "line": 3,
+      "gender": 1,
+      "width": 99
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_GiovanniPostBattle",
+      "line": 4,
+      "gender": 1,
+      "width": 111
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_FloorSign",
+      "line": 0,
+      "gender": 1,
+      "width": 107
+    },
+    {
+      "file": "data/maps/SilphCo_11F/text.inc",
+      "label": "SilphCo_11F_Text_FloorSign",
+      "line": 1,
+      "gender": 1,
+      "width": 18
+    },
+    {
+      "file": "data/maps/SilphCo_1F/text.inc",
+      "label": "SilphCo_1F_Text_FloorSign",
+      "line": 0,
+      "gender": 1,
+      "width": 107
+    },
+    {
+      "file": "data/maps/SilphCo_1F/text.inc",
+      "label": "SilphCo_1F_Text_FloorSign",
+      "line": 1,
+      "gender": 1,
+      "width": 12
+    },
+    {
+      "file": "data/maps/SilphCo_2F/text.inc",
+      "label": "SilphCo_2F_Text_ConnorIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 29
+    },
+    {
+      "file": "data/maps/SilphCo_2F/text.inc",
+      "label": "SilphCo_2F_Text_ConnorIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 126
+    },
+    {
+      "file": "data/maps/SilphCo_2F/text.inc",
+      "label": "SilphCo_2F_Text_ConnorPostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 170
+    },
+    {
+      "file": "data/maps/SilphCo_2F/text.inc",
+      "label": "SilphCo_2F_Text_ConnorPostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 148
+    },
+    {
+      "file": "data/maps/SilphCo_2F/text.inc",
+      "label": "SilphCo_2F_Text_Grunt2PostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 207
+    },
+    {
+      "file": "data/maps/SilphCo_2F/text.inc",
+      "label": "SilphCo_2F_Text_Grunt2PostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 179
+    },
+    {
+      "file": "data/maps/SilphCo_2F/text.inc",
+      "label": "SilphCo_2F_Text_Grunt2PostBattle",
+      "line": 2,
+      "gender": 1,
+      "width": 33
+    },
+    {
+      "file": "data/maps/SilphCo_2F/text.inc",
+      "label": "SilphCo_2F_Text_FloorSign",
+      "line": 0,
+      "gender": 1,
+      "width": 107
+    },
+    {
+      "file": "data/maps/SilphCo_2F/text.inc",
+      "label": "SilphCo_2F_Text_FloorSign",
+      "line": 1,
+      "gender": 1,
+      "width": 12
+    },
+    {
+      "file": "data/maps/SilphCo_3F/text.inc",
+      "label": "SilphCo_3F_Text_WhatAmIToDo",
+      "line": 0,
+      "gender": 1,
+      "width": 97
+    },
+    {
+      "file": "data/maps/SilphCo_3F/text.inc",
+      "label": "SilphCo_3F_Text_WhatAmIToDo",
+      "line": 1,
+      "gender": 1,
+      "width": 94
+    },
+    {
+      "file": "data/maps/SilphCo_3F/text.inc",
+      "label": "SilphCo_3F_Text_JoseIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 193
+    },
+    {
+      "file": "data/maps/SilphCo_3F/text.inc",
+      "label": "SilphCo_3F_Text_JoseIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 116
+    },
+    {
+      "file": "data/maps/SilphCo_3F/text.inc",
+      "label": "SilphCo_3F_Text_FloorSign",
+      "line": 0,
+      "gender": 1,
+      "width": 107
+    },
+    {
+      "file": "data/maps/SilphCo_3F/text.inc",
+      "label": "SilphCo_3F_Text_FloorSign",
+      "line": 1,
+      "gender": 1,
+      "width": 12
+    },
+    {
+      "file": "data/maps/SilphCo_4F/text.inc",
+      "label": "SilphCo_4F_Text_Grunt1Intro",
+      "line": 0,
+      "gender": 1,
+      "width": 207
+    },
+    {
+      "file": "data/maps/SilphCo_4F/text.inc",
+      "label": "SilphCo_4F_Text_Grunt1Intro",
+      "line": 1,
+      "gender": 1,
+      "width": 131
+    },
+    {
+      "file": "data/maps/SilphCo_4F/text.inc",
+      "label": "SilphCo_4F_Text_FloorSign",
+      "line": 0,
+      "gender": 1,
+      "width": 107
+    },
+    {
+      "file": "data/maps/SilphCo_4F/text.inc",
+      "label": "SilphCo_4F_Text_FloorSign",
+      "line": 1,
+      "gender": 1,
+      "width": 12
+    },
+    {
+      "file": "data/maps/SilphCo_5F/text.inc",
+      "label": "SilphCo_5F_Text_FloorSign",
+      "line": 0,
+      "gender": 1,
+      "width": 107
+    },
+    {
+      "file": "data/maps/SilphCo_5F/text.inc",
+      "label": "SilphCo_5F_Text_FloorSign",
+      "line": 1,
+      "gender": 1,
+      "width": 12
+    },
+    {
+      "file": "data/maps/SilphCo_6F/text.inc",
+      "label": "SilphCo_6F_Text_ComeWorkForSilphWhenYoureOlder",
+      "line": 0,
+      "gender": 1,
+      "width": 168
+    },
+    {
+      "file": "data/maps/SilphCo_6F/text.inc",
+      "label": "SilphCo_6F_Text_ComeWorkForSilphWhenYoureOlder",
+      "line": 1,
+      "gender": 1,
+      "width": 56
+    },
+    {
+      "file": "data/maps/SilphCo_6F/text.inc",
+      "label": "SilphCo_6F_Text_FloorSign",
+      "line": 0,
+      "gender": 1,
+      "width": 107
+    },
+    {
+      "file": "data/maps/SilphCo_6F/text.inc",
+      "label": "SilphCo_6F_Text_FloorSign",
+      "line": 1,
+      "gender": 1,
+      "width": 12
+    },
+    {
+      "file": "data/maps/SilphCo_7F/text.inc",
+      "label": "SilphCo_7F_Text_ObtainedLaprasFromEmployee",
+      "line": 0,
+      "gender": 1,
+      "width": 144
+    },
+    {
+      "file": "data/maps/SilphCo_7F/text.inc",
+      "label": "SilphCo_7F_Text_ObtainedLaprasFromEmployee",
+      "line": 1,
+      "gender": 1,
+      "width": 117
+    },
+    {
+      "file": "data/maps/SilphCo_7F/text.inc",
+      "label": "SilphCo_7F_Text_JoshuaIntro",
+      "line": 0,
+      "gender": 1,
+      "width": 36
+    },
+    {
+      "file": "data/maps/SilphCo_7F/text.inc",
+      "label": "SilphCo_7F_Text_JoshuaIntro",
+      "line": 1,
+      "gender": 1,
+      "width": 199
+    },
+    {
+      "file": "data/maps/SilphCo_7F/text.inc",
+      "label": "SilphCo_7F_Text_FloorSign",
+      "line": 0,
+      "gender": 1,
+      "width": 107
+    },
+    {
+      "file": "data/maps/SilphCo_7F/text.inc",
+      "label": "SilphCo_7F_Text_FloorSign",
+      "line": 1,
+      "gender": 1,
+      "width": 12
+    },
+    {
+      "file": "data/maps/SilphCo_8F/text.inc",
+      "label": "SilphCo_8F_Text_WonderIfSilphIsFinished",
+      "line": 0,
+      "gender": 1,
+      "width": 170
+    },
+    {
+      "file": "data/maps/SilphCo_8F/text.inc",
+      "label": "SilphCo_8F_Text_ParkerPostBattle",
+      "line": 0,
+      "gender": 1,
+      "width": 177
+    },
+    {
+      "file": "data/maps/SilphCo_8F/text.inc",
+      "label": "SilphCo_8F_Text_ParkerPostBattle",
+      "line": 1,
+      "gender": 1,
+      "width": 92
+    },
+    {
+      "file": "data/maps/SilphCo_8F/text.inc",
+      "label": "SilphCo_8F_Text_FloorSign",
+      "line": 0,
+      "gender": 1,
+      "width": 107
+    },
+    {
+      "file": "data/maps/SilphCo_8F/text.inc",
+      "label": "SilphCo_8F_Text_FloorSign",
+      "line": 1,
+      "gender": 1,
+      "width": 12
+    },
+    {
+      "file": "data/maps/SilphCo_9F/text.inc",
+      "label": "SilphCo_9F_Text_FloorSign",
+      "line": 0,
+      "gender": 1,
+      "width": 107
+    },
+    {
+      "file": "data/maps/SilphCo_9F/text.inc",
+      "label": "SilphCo_9F_Text_FloorSign",
+      "line": 1,
+      "gender": 1,
+      "width": 12
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "label": "YokaiCameo_EmployeRougeTextStart",
+      "line": 0,
+      "gender": 1,
+      "width": 170
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "label": "YokaiCameo_EmployeBleuTextStart",
+      "line": 0,
+      "gender": 1,
+      "width": 162
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "label": "YokaiCameo_EmployeBleuTextAfter",
+      "line": 0,
+      "gender": 1,
+      "width": 118
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "label": "YokaiCameo_EmployeBleuTextAfter",
+      "line": 1,
+      "gender": 1,
+      "width": 192
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "label": "YokaiCameo_EmployeRougeTextAdventure",
+      "line": 0,
+      "gender": 1,
+      "width": 150
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "label": "YokaiCameo_EmployeRougeTextAdventure",
+      "line": 1,
+      "gender": 1,
+      "width": 197
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "label": "YokaiCameo_EmployeRougeTextAdventure",
+      "line": 2,
+      "gender": 1,
+      "width": 154
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "label": "YokaiCameo_EmployeBleuTextAdventure",
+      "line": 0,
+      "gender": 1,
+      "width": 160
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "label": "YokaiCameo_EmployeBleuTextAdventure",
+      "line": 1,
+      "gender": 1,
+      "width": 188
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "label": "YokaiCameo_EmployeBleuTextAdventure",
+      "line": 2,
+      "gender": 1,
+      "width": 183
+    },
+    {
+      "file": "data/scripts/yokai_cameos_boss.inc",
+      "label": "YokaiCameo_EmployeBleuTextAdventure",
+      "line": 3,
+      "gender": 1,
+      "width": 148
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga0",
+      "line": 0,
+      "gender": 1,
+      "width": 123
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga0",
+      "line": 1,
+      "gender": 1,
+      "width": 67
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga1",
+      "line": 0,
+      "gender": 1,
+      "width": 125
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga1",
+      "line": 1,
+      "gender": 1,
+      "width": 69
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga2",
+      "line": 0,
+      "gender": 1,
+      "width": 103
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga2",
+      "line": 1,
+      "gender": 1,
+      "width": 106
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga3",
+      "line": 0,
+      "gender": 1,
+      "width": 133
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga3",
+      "line": 1,
+      "gender": 1,
+      "width": 138
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga4",
+      "line": 0,
+      "gender": 1,
+      "width": 148
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga4",
+      "line": 1,
+      "gender": 1,
+      "width": 124
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga5",
+      "line": 0,
+      "gender": 1,
+      "width": 124
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Koga5",
+      "line": 1,
+      "gender": 1,
+      "width": 82
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina0",
+      "line": 0,
+      "gender": 1,
+      "width": 176
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina0",
+      "line": 1,
+      "gender": 1,
+      "width": 66
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina1",
+      "line": 0,
+      "gender": 1,
+      "width": 114
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina1",
+      "line": 1,
+      "gender": 1,
+      "width": 58
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina2",
+      "line": 0,
+      "gender": 1,
+      "width": 115
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina2",
+      "line": 1,
+      "gender": 1,
+      "width": 126
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina3",
+      "line": 0,
+      "gender": 1,
+      "width": 142
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina3",
+      "line": 1,
+      "gender": 1,
+      "width": 138
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina4",
+      "line": 0,
+      "gender": 1,
+      "width": 161
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina4",
+      "line": 1,
+      "gender": 1,
+      "width": 89
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina5",
+      "line": 0,
+      "gender": 1,
+      "width": 146
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Sabrina5",
+      "line": 1,
+      "gender": 1,
+      "width": 162
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei0",
+      "line": 0,
+      "gender": 1,
+      "width": 173
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei0",
+      "line": 1,
+      "gender": 1,
+      "width": 68
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei1",
+      "line": 0,
+      "gender": 1,
+      "width": 134
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei1",
+      "line": 1,
+      "gender": 1,
+      "width": 90
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei2",
+      "line": 0,
+      "gender": 1,
+      "width": 109
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei2",
+      "line": 1,
+      "gender": 1,
+      "width": 59
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei3",
+      "line": 0,
+      "gender": 1,
+      "width": 124
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei3",
+      "line": 1,
+      "gender": 1,
+      "width": 87
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei4",
+      "line": 0,
+      "gender": 1,
+      "width": 138
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei4",
+      "line": 1,
+      "gender": 1,
+      "width": 118
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei5",
+      "line": 0,
+      "gender": 1,
+      "width": 75
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lorelei5",
+      "line": 1,
+      "gender": 1,
+      "width": 149
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno0",
+      "line": 0,
+      "gender": 1,
+      "width": 160
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno0",
+      "line": 1,
+      "gender": 1,
+      "width": 129
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno1",
+      "line": 0,
+      "gender": 1,
+      "width": 160
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno1",
+      "line": 1,
+      "gender": 1,
+      "width": 145
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno2",
+      "line": 0,
+      "gender": 1,
+      "width": 176
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno2",
+      "line": 1,
+      "gender": 1,
+      "width": 179
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno3",
+      "line": 0,
+      "gender": 1,
+      "width": 109
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno3",
+      "line": 1,
+      "gender": 1,
+      "width": 114
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno4",
+      "line": 0,
+      "gender": 1,
+      "width": 93
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno4",
+      "line": 1,
+      "gender": 1,
+      "width": 74
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno5",
+      "line": 0,
+      "gender": 1,
+      "width": 155
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Bruno5",
+      "line": 1,
+      "gender": 1,
+      "width": 74
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha0",
+      "line": 0,
+      "gender": 1,
+      "width": 131
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha0",
+      "line": 1,
+      "gender": 1,
+      "width": 129
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha1",
+      "line": 0,
+      "gender": 1,
+      "width": 154
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha1",
+      "line": 1,
+      "gender": 1,
+      "width": 145
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha2",
+      "line": 0,
+      "gender": 1,
+      "width": 114
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha2",
+      "line": 1,
+      "gender": 1,
+      "width": 93
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha3",
+      "line": 0,
+      "gender": 1,
+      "width": 98
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha3",
+      "line": 1,
+      "gender": 1,
+      "width": 59
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha4",
+      "line": 0,
+      "gender": 1,
+      "width": 160
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha4",
+      "line": 1,
+      "gender": 1,
+      "width": 118
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha5",
+      "line": 0,
+      "gender": 1,
+      "width": 114
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Agatha5",
+      "line": 1,
+      "gender": 1,
+      "width": 164
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance0",
+      "line": 0,
+      "gender": 1,
+      "width": 165
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance0",
+      "line": 1,
+      "gender": 1,
+      "width": 129
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance1",
+      "line": 0,
+      "gender": 1,
+      "width": 134
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance1",
+      "line": 1,
+      "gender": 1,
+      "width": 128
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance2",
+      "line": 0,
+      "gender": 1,
+      "width": 114
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance2",
+      "line": 1,
+      "gender": 1,
+      "width": 119
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance3",
+      "line": 0,
+      "gender": 1,
+      "width": 161
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance3",
+      "line": 1,
+      "gender": 1,
+      "width": 118
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance4",
+      "line": 0,
+      "gender": 1,
+      "width": 139
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance4",
+      "line": 1,
+      "gender": 1,
+      "width": 131
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance5",
+      "line": 0,
+      "gender": 1,
+      "width": 94
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorText_Lance5",
+      "line": 1,
+      "gender": 1,
+      "width": 115
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_Koga",
+      "line": 0,
+      "gender": 1,
+      "width": 48
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Koga",
+      "line": 0,
+      "gender": 1,
+      "width": 139
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Koga",
+      "line": 1,
+      "gender": 1,
+      "width": 124
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Koga",
+      "line": 2,
+      "gender": 1,
+      "width": 164
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_Sabrina",
+      "line": 0,
+      "gender": 1,
+      "width": 53
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Sabrina",
+      "line": 0,
+      "gender": 1,
+      "width": 118
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Sabrina",
+      "line": 1,
+      "gender": 1,
+      "width": 127
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_Lorelei",
+      "line": 0,
+      "gender": 1,
+      "width": 30
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Lorelei",
+      "line": 0,
+      "gender": 1,
+      "width": 106
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Lorelei",
+      "line": 1,
+      "gender": 1,
+      "width": 140
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_Bruno",
+      "line": 0,
+      "gender": 1,
+      "width": 51
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Bruno",
+      "line": 0,
+      "gender": 1,
+      "width": 113
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Bruno",
+      "line": 1,
+      "gender": 1,
+      "width": 62
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_Agatha",
+      "line": 0,
+      "gender": 1,
+      "width": 42
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Agatha",
+      "line": 0,
+      "gender": 1,
+      "width": 117
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Agatha",
+      "line": 1,
+      "gender": 1,
+      "width": 73
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonName_Lance",
+      "line": 0,
+      "gender": 1,
+      "width": 47
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Lance",
+      "line": 0,
+      "gender": 1,
+      "width": 75
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerPersonQuote_Lance",
+      "line": 1,
+      "gender": 1,
+      "width": 155
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorTextOriginLocation_Giovanni1",
+      "line": 0,
+      "gender": 1,
+      "width": 35
+    },
+    {
+      "file": "data/text/fame_checker.inc",
+      "label": "gFameCheckerFlavorTextOriginLocation_Giovanni2",
+      "line": 0,
+      "gender": 1,
+      "width": 35
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_AnswerWantToMakeMonStronger",
+      "line": 0,
+      "gender": 1,
+      "width": 184
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_AnswerWantToMakeMonStronger",
+      "line": 1,
+      "gender": 1,
+      "width": 179
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_AnswerWantToMakeMonStronger",
+      "line": 2,
+      "gender": 1,
+      "width": 174
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_AnswerWantToMakeMonStronger",
+      "line": 3,
+      "gender": 1,
+      "width": 160
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_AnswerWantToMakeMonStronger",
+      "line": 4,
+      "gender": 1,
+      "width": 166
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_AnswerWantToMakeMonStronger",
+      "line": 5,
+      "gender": 1,
+      "width": 191
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_DefineEXP",
+      "line": 0,
+      "gender": 1,
+      "width": 186
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_DefineEXP",
+      "line": 1,
+      "gender": 1,
+      "width": 146
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_DefineEXP",
+      "line": 2,
+      "gender": 1,
+      "width": 184
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_DefineEXP",
+      "line": 3,
+      "gender": 1,
+      "width": 158
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_DefineEXP",
+      "line": 4,
+      "gender": 1,
+      "width": 157
+    },
+    {
+      "file": "data/text/help_system.inc",
+      "label": "Help_Text_DefineEXP",
+      "line": 5,
+      "gender": 1,
+      "width": 206
+    },
+    {
+      "file": "data/text/pokedex_rating.inc",
+      "label": "PokedexRating_Text_LessThan60",
+      "line": 0,
+      "gender": 1,
+      "width": 167
+    },
+    {
+      "file": "data/text/pokedex_rating.inc",
+      "label": "PokedexRating_Text_LessThan60",
+      "line": 1,
+      "gender": 1,
+      "width": 176
+    },
+    {
+      "file": "data/text/pokedex_rating.inc",
+      "label": "PokedexRating_Text_LessThan60",
+      "line": 2,
+      "gender": 1,
+      "width": 175
+    },
+    {
+      "file": "data/text/pokedex_rating.inc",
+      "label": "PokedexRating_Text_LessThan60",
+      "line": 3,
+      "gender": 1,
+      "width": 157
+    },
+    {
+      "file": "data/text/pokedude.inc",
+      "label": "Pokedude_Text_MyRattataWonGetsEXP",
+      "line": 0,
+      "gender": 1,
+      "width": 179
+    },
+    {
+      "file": "data/text/pokedude.inc",
+      "label": "Pokedude_Text_MyRattataWonGetsEXP",
+      "line": 1,
+      "gender": 1,
+      "width": 149
+    },
+    {
+      "file": "data/text/pokedude.inc",
+      "label": "Pokedude_Text_MyRattataWonGetsEXP",
+      "line": 2,
+      "gender": 1,
+      "width": 142
+    },
+    {
+      "file": "data/text/pokedude.inc",
+      "label": "Pokedude_Text_MyRattataWonGetsEXP",
+      "line": 3,
+      "gender": 1,
+      "width": 132
+    },
+    {
+      "file": "data/text/pokedude.inc",
+      "label": "Pokedude_Text_MyRattataWonGetsEXP",
+      "line": 4,
+      "gender": 1,
+      "width": 181
+    },
+    {
+      "file": "data/text/pokedude.inc",
+      "label": "Pokedude_Text_MyRattataWonGetsEXP",
+      "line": 5,
+      "gender": 1,
+      "width": 189
+    },
+    {
+      "file": "data/text/pokedude.inc",
+      "label": "Pokedude_Text_MyRattataWonGetsEXP",
+      "line": 6,
+      "gender": 1,
+      "width": 157
+    },
+    {
+      "file": "data/text/pokedude.inc",
+      "label": "Pokedude_Text_MyRattataWonGetsEXP",
+      "line": 7,
+      "gender": 1,
+      "width": 206
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "pokefirered": {
+    "file_bytes": 16777216,
+    "baseline_file_bytes": 16777216,
+    "rom_allocated_sections_bytes": 9778412,
+    "baseline_rom_allocated_sections_bytes": 9945656,
+    "net_allocated_rom_gain_bytes": 167244,
+    "audio_sequence_gain_bytes": 167600,
+    "ewram_bytes": 261368,
+    "ewram_free_bytes": 776,
+    "iwram_bytes": 29824,
+    "iwram_free_bytes": 2944,
+    "rom_highest_end_offset": 15987848,
+    "sha256": "e6c107499e45cf5a3f8bcc08a3985f2a2dcfcf2060a529e8547ff082c2062a1d",
+    "sections": {
+      "ewram": {
+        "bytes": 261368,
+        "address": "0x2000000"
+      },
+      "iwram": {
+        "bytes": 29824,
+        "address": "0x3000000"
+      },
+      ".text": {
+        "bytes": 1446640,
+        "address": "0x8000000"
+      },
+      "script_data": {
+        "bytes": 510208,
+        "address": "0x81612f0"
+      },
+      "lib_text": {
+        "bytes": 58144,
+        "address": "0x81ddbf0"
+      },
+      ".rodata": {
+        "bytes": 5090788,
+        "address": "0x81ebf10"
+      },
+      "song_data": {
+        "bytes": 121268,
+        "address": "0x86c6cf4"
+      },
+      "lib_rodata": {
+        "bytes": 1640,
+        "address": "0x86e46a8"
+      },
+      "multiboot_data": {
+        "bytes": 193364,
+        "address": "0x86e4d10"
+      },
+      "gfx_data": {
+        "bytes": 1856840,
+        "address": "0x8d00000"
+      },
+      "extra": {
+        "bytes": 499520,
+        "address": "0x8ec5548"
+      }
+    }
+  },
+  "pokefirered_audio": {
+    "file_bytes": 31749211,
+    "baseline_file_bytes": 31744799,
+    "rom_allocated_sections_bytes": 29771186,
+    "baseline_rom_allocated_sections_bytes": 29938430,
+    "net_allocated_rom_gain_bytes": 167244,
+    "audio_sequence_gain_bytes": 167600,
+    "ewram_bytes": 261368,
+    "ewram_free_bytes": 776,
+    "iwram_bytes": 29888,
+    "iwram_free_bytes": 2880,
+    "rom_highest_end_offset": 31749211,
+    "sha256": "d1c556663f7939e584d3341465e310ce3e3b3df20232d5ffb1d724c893795fb4",
+    "sections": {
+      "ewram": {
+        "bytes": 261368,
+        "address": "0x2000000"
+      },
+      "iwram": {
+        "bytes": 29888,
+        "address": "0x3000000"
+      },
+      ".text": {
+        "bytes": 1446640,
+        "address": "0x8000000"
+      },
+      "script_data": {
+        "bytes": 510208,
+        "address": "0x81612f0"
+      },
+      "lib_text": {
+        "bytes": 58144,
+        "address": "0x81ddbf0"
+      },
+      ".rodata": {
+        "bytes": 5090788,
+        "address": "0x81ebf10"
+      },
+      "song_data": {
+        "bytes": 121268,
+        "address": "0x86c6cf4"
+      },
+      "lib_rodata": {
+        "bytes": 1640,
+        "address": "0x86e46a8"
+      },
+      "multiboot_data": {
+        "bytes": 193364,
+        "address": "0x86e4d10"
+      },
+      "yokai_audio_gap": {
+        "bytes": 4231411,
+        "address": "0x8714064"
+      },
+      "gfx_data": {
+        "bytes": 1856840,
+        "address": "0x8d00000"
+      },
+      "extra": {
+        "bytes": 16260883,
+        "address": "0x8ec5548"
+      }
+    }
+  }
+}

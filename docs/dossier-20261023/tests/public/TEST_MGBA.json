@@ -1,0 +1,809 @@
+{
+  "passed": true,
+  "rom_sha256": "e6c107499e45cf5a3f8bcc08a3985f2a2dcfcf2060a529e8547ff082c2062a1d",
+  "scope": "Native mGBA controlled fixtures, NOT a full adventure or balance playthrough.\nMaps/flags/player party/script entry are fixtures; no enemy HP, outcome, earned\nbadge/reward or enemy party order is patched. Controller earns each tested win.\n",
+  "results": [
+    {
+      "test": "Native party LORELEI",
+      "passed": true,
+      "gender": 0,
+      "party": [
+        [
+          38,
+          52
+        ],
+        [
+          49,
+          53
+        ],
+        [
+          136,
+          54
+        ],
+        [
+          101,
+          55
+        ],
+        [
+          145,
+          56
+        ],
+        [
+          15,
+          58
+        ]
+      ],
+      "ordered": 6
+    },
+    {
+      "test": "Native party LORELEI_2",
+      "passed": true,
+      "gender": 0,
+      "party": [
+        [
+          38,
+          52
+        ],
+        [
+          49,
+          53
+        ],
+        [
+          136,
+          54
+        ],
+        [
+          101,
+          55
+        ],
+        [
+          145,
+          56
+        ],
+        [
+          15,
+          58
+        ]
+      ],
+      "ordered": 6
+    },
+    {
+      "test": "Native party BRUNO",
+      "passed": true,
+      "gender": 0,
+      "party": [
+        [
+          20,
+          54
+        ],
+        [
+          32,
+          55
+        ],
+        [
+          35,
+          56
+        ],
+        [
+          149,
+          57
+        ],
+        [
+          4,
+          58
+        ],
+        [
+          16,
+          60
+        ]
+      ],
+      "ordered": 6
+    },
+    {
+      "test": "Native party BRUNO_2",
+      "passed": true,
+      "gender": 0,
+      "party": [
+        [
+          20,
+          54
+        ],
+        [
+          32,
+          55
+        ],
+        [
+          35,
+          56
+        ],
+        [
+          149,
+          57
+        ],
+        [
+          4,
+          58
+        ],
+        [
+          16,
+          60
+        ]
+      ],
+      "ordered": 6
+    },
+    {
+      "test": "Native party AGATHA",
+      "passed": true,
+      "gender": 0,
+      "party": [
+        [
+          25,
+          56
+        ],
+        [
+          99,
+          57
+        ],
+        [
+          116,
+          58
+        ],
+        [
+          86,
+          59
+        ],
+        [
+          65,
+          60
+        ],
+        [
+          147,
+          62
+        ]
+      ],
+      "ordered": 6
+    },
+    {
+      "test": "Native party AGATHA_2",
+      "passed": true,
+      "gender": 0,
+      "party": [
+        [
+          25,
+          56
+        ],
+        [
+          99,
+          57
+        ],
+        [
+          116,
+          58
+        ],
+        [
+          86,
+          59
+        ],
+        [
+          65,
+          60
+        ],
+        [
+          147,
+          62
+        ]
+      ],
+      "ordered": 6
+    },
+    {
+      "test": "Native party LANCE",
+      "passed": true,
+      "gender": 0,
+      "party": [
+        [
+          27,
+          58
+        ],
+        [
+          30,
+          59
+        ],
+        [
+          14,
+          60
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          40,
+          63
+        ],
+        [
+          148,
+          65
+        ]
+      ],
+      "ordered": 6
+    },
+    {
+      "test": "Native party LANCE_2",
+      "passed": true,
+      "gender": 0,
+      "party": [
+        [
+          27,
+          58
+        ],
+        [
+          30,
+          59
+        ],
+        [
+          14,
+          60
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          40,
+          63
+        ],
+        [
+          148,
+          65
+        ]
+      ],
+      "ordered": 6
+    },
+    {
+      "test": "Native party LORELEI",
+      "passed": true,
+      "gender": 1,
+      "party": [
+        [
+          38,
+          52
+        ],
+        [
+          49,
+          53
+        ],
+        [
+          136,
+          54
+        ],
+        [
+          101,
+          55
+        ],
+        [
+          145,
+          56
+        ],
+        [
+          15,
+          58
+        ]
+      ],
+      "ordered": 6
+    },
+    {
+      "test": "Native party LORELEI_2",
+      "passed": true,
+      "gender": 1,
+      "party": [
+        [
+          38,
+          52
+        ],
+        [
+          49,
+          53
+        ],
+        [
+          136,
+          54
+        ],
+        [
+          101,
+          55
+        ],
+        [
+          145,
+          56
+        ],
+        [
+          15,
+          58
+        ]
+      ],
+      "ordered": 6
+    },
+    {
+      "test": "Native party BRUNO",
+      "passed": true,
+      "gender": 1,
+      "party": [
+        [
+          20,
+          54
+        ],
+        [
+          32,
+          55
+        ],
+        [
+          35,
+          56
+        ],
+        [
+          149,
+          57
+        ],
+        [
+          4,
+          58
+        ],
+        [
+          16,
+          60
+        ]
+      ],
+      "ordered": 6
+    },
+    {
+      "test": "Native party BRUNO_2",
+      "passed": true,
+      "gender": 1,
+      "party": [
+        [
+          20,
+          54
+        ],
+        [
+          32,
+          55
+        ],
+        [
+          35,
+          56
+        ],
+        [
+          149,
+          57
+        ],
+        [
+          4,
+          58
+        ],
+        [
+          16,
+          60
+        ]
+      ],
+      "ordered": 6
+    },
+    {
+      "test": "Native party AGATHA",
+      "passed": true,
+      "gender": 1,
+      "party": [
+        [
+          25,
+          56
+        ],
+        [
+          99,
+          57
+        ],
+        [
+          116,
+          58
+        ],
+        [
+          86,
+          59
+        ],
+        [
+          65,
+          60
+        ],
+        [
+          147,
+          62
+        ]
+      ],
+      "ordered": 6
+    },
+    {
+      "test": "Native party AGATHA_2",
+      "passed": true,
+      "gender": 1,
+      "party": [
+        [
+          25,
+          56
+        ],
+        [
+          99,
+          57
+        ],
+        [
+          116,
+          58
+        ],
+        [
+          86,
+          59
+        ],
+        [
+          65,
+          60
+        ],
+        [
+          147,
+          62
+        ]
+      ],
+      "ordered": 6
+    },
+    {
+      "test": "Native party LANCE",
+      "passed": true,
+      "gender": 1,
+      "party": [
+        [
+          27,
+          58
+        ],
+        [
+          30,
+          59
+        ],
+        [
+          14,
+          60
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          40,
+          63
+        ],
+        [
+          148,
+          65
+        ]
+      ],
+      "ordered": 6
+    },
+    {
+      "test": "Native party LANCE_2",
+      "passed": true,
+      "gender": 1,
+      "party": [
+        [
+          27,
+          58
+        ],
+        [
+          30,
+          59
+        ],
+        [
+          14,
+          60
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          40,
+          63
+        ],
+        [
+          148,
+          65
+        ]
+      ],
+      "ordered": 6
+    },
+    {
+      "test": "Native exhaustive Safari XOR truth table",
+      "passed": true,
+      "ot_values": 3,
+      "outcomes_each": 65536,
+      "shiny_each": 24,
+      "exact_fraction": "3/8192",
+      "regeneration": false
+    },
+    {
+      "test": "Safari statistical check of uniform XOR draws",
+      "passed": true,
+      "draws": 2000000,
+      "shiny": 720,
+      "expected": 732.421875,
+      "seed": 20261023
+    },
+    {
+      "test": "Safari map boundary: SafariZone_Center",
+      "passed": true,
+      "bonus": true
+    },
+    {
+      "test": "Safari map boundary: SafariZone_East",
+      "passed": true,
+      "bonus": true
+    },
+    {
+      "test": "Safari map boundary: SafariZone_North",
+      "passed": true,
+      "bonus": true
+    },
+    {
+      "test": "Safari map boundary: SafariZone_West",
+      "passed": true,
+      "bonus": true
+    },
+    {
+      "test": "Safari map boundary: FuchsiaCity_SafariZone_Entrance",
+      "passed": true,
+      "bonus": false
+    },
+    {
+      "test": "Safari map boundary: FuchsiaCity",
+      "passed": true,
+      "bonus": false
+    },
+    {
+      "test": "Safari map boundary: VictoryRoad_3F",
+      "passed": true,
+      "bonus": false
+    },
+    {
+      "test": "Safari map boundary: CinnabarIsland",
+      "passed": true,
+      "bonus": false
+    },
+    {
+      "test": "Enma appears without optional trial; caught Enma remains hidden",
+      "passed": true
+    },
+    {
+      "test": "Nyada locked before and after League while future quest flag is unset",
+      "passed": true
+    },
+    {
+      "test": "Controller victory: experience-sans-objet",
+      "passed": true,
+      "opponent_indices": [
+        0
+      ],
+      "frames": 1136,
+      "enemy_hp_or_outcome_patched": false
+    },
+    {
+      "test": "Controller victory: experience-2",
+      "passed": true,
+      "opponent_indices": [
+        0
+      ],
+      "frames": 1228,
+      "enemy_hp_or_outcome_patched": false
+    },
+    {
+      "test": "Controller victory: experience-0",
+      "passed": true,
+      "opponent_indices": [
+        0
+      ],
+      "frames": 1136,
+      "enemy_hp_or_outcome_patched": false
+    },
+    {
+      "test": "Controller victory: experience-1-2",
+      "passed": true,
+      "opponent_indices": [
+        0
+      ],
+      "frames": 1356,
+      "enemy_hp_or_outcome_patched": false
+    },
+    {
+      "test": "Native held-only Exp Share; reserves, egg and fainted exclusions",
+      "passed": true,
+      "cases": [
+        {
+          "holders": [],
+          "gains": [
+            45,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "holders": [
+            2
+          ],
+          "gains": [
+            22,
+            0,
+            22,
+            0,
+            0
+          ]
+        },
+        {
+          "holders": [
+            0
+          ],
+          "gains": [
+            44,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "holders": [
+            1,
+            2
+          ],
+          "gains": [
+            22,
+            11,
+            11,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "test": "Controller victory: ligue-zazel",
+      "passed": true,
+      "opponent_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "frames": 8881,
+      "enemy_hp_or_outcome_patched": false
+    },
+    {
+      "test": "Controller victory: ligue-enma-ancien",
+      "passed": true,
+      "opponent_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "frames": 7377,
+      "enemy_hp_or_outcome_patched": false
+    },
+    {
+      "test": "Controller victory: ligue-orqanos",
+      "passed": true,
+      "opponent_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "frames": 16657,
+      "enemy_hp_or_outcome_patched": false
+    },
+    {
+      "test": "Controller victory: ligue-maitre-nyada",
+      "passed": true,
+      "opponent_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "frames": 11425,
+      "enemy_hp_or_outcome_patched": false
+    },
+    {
+      "test": "Gym hard-gated until Yopple liberation",
+      "passed": true
+    },
+    {
+      "test": "Master Ball earned after rescue, before Gym win",
+      "passed": true
+    },
+    {
+      "test": "Master Ball reward not duplicated",
+      "passed": true
+    },
+    {
+      "test": "Controller victory: domniscian-champion",
+      "passed": true,
+      "opponent_indices": [
+        0,
+        2,
+        1,
+        3,
+        4
+      ],
+      "frames": 8305,
+      "enemy_hp_or_outcome_patched": false
+    },
+    {
+      "test": "Controller victory: domniscian-revanche-champion",
+      "passed": true,
+      "opponent_indices": [
+        0,
+        2,
+        1,
+        3,
+        4
+      ],
+      "frames": 7137,
+      "enemy_hp_or_outcome_patched": false
+    },
+    {
+      "test": "Optional CEO cameo hidden after League; employees remain visible",
+      "passed": true
+    },
+    {
+      "test": "Controller victory: yopple-employerouge",
+      "passed": true,
+      "opponent_indices": [
+        0,
+        1
+      ],
+      "frames": 6721,
+      "enemy_hp_or_outcome_patched": false
+    },
+    {
+      "test": "Controller victory: yopple-employebleu",
+      "passed": true,
+      "opponent_indices": [
+        0,
+        1
+      ],
+      "frames": 5345,
+      "enemy_hp_or_outcome_patched": false
+    },
+    {
+      "test": "Controller victory: berenice-psy-parmanie",
+      "passed": true,
+      "opponent_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "frames": 6673,
+      "enemy_hp_or_outcome_patched": false
+    },
+    {
+      "test": "New sword-design Enma front and back rendered with uniform axes",
+      "passed": true
+    }
+  ],
+  "failure": null
+}

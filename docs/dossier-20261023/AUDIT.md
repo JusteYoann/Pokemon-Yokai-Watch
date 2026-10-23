@@ -30,3 +30,7 @@ Branche dédiée `feature/dossier-ligue-yopple-20261023`, base `0fa1808fe55b87d9
 5. Compilations publique/privée, tests mGBA, preuves et bilan ROM/RAM.
 
 Les identifiants des 151 espèces, la finale, les variantes garçon/fille, les apparitions secondaires et Cramois restent des invariants de vérification.
+
+## Clôture des questions
+
+Les décisions finales et leurs preuves remplacent les hypothèses initiales ci-dessus : voir [RAPPORT.md](RAPPORT.md). La planche trois vues est bien Domniscian ; les références finales de Zazel/Nyada/Enma l’Ancien ont été fournies pendant le travail. Le réveil à Yopple était une mauvaise interprétation : aucun réveil n’est créé. Les employés se combattent après la Ligue, et Domniscian se redéfie comme Champion dans son Arène.

@@ -1,0 +1,4171 @@
+{
+  "native_music_slots": [
+    {
+      "id": 0,
+      "constant": "MUS_DUMMY",
+      "compiled_header": "mus_dummy",
+      "original_sequence": "mus_dummy",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/CinnabarIsland/scripts.inc",
+        "data/maps/PalletTown_ProfessorOaksLab/scripts.inc",
+        "src/teachy_tv.c",
+        "src/pokemon_jump.c",
+        "src/sound.c"
+      ]
+    },
+    {
+      "id": 256,
+      "constant": "MUS_HEAL",
+      "compiled_header": "mus_heal",
+      "original_sequence": "mus_heal",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/SSAnne_CaptainsOffice/scripts.inc",
+        "data/maps/PalletTown_RivalsHouse/scripts.inc",
+        "src/sound.c",
+        "src/field_effect.c",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 257,
+      "constant": "MUS_LEVEL_UP",
+      "compiled_header": "mus_level_up",
+      "original_sequence": "mus_level_up",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/FiveIsland_WaterLabyrinth/scripts.inc",
+        "data/maps/CeladonCity_Condominiums_RoofRoom/scripts.inc",
+        "data/maps/FuchsiaCity_SafariZone_Entrance/scripts.inc",
+        "data/maps/CinnabarIsland_Gym/scripts.inc",
+        "data/maps/CinnabarIsland_PokemonLab_ExperimentRoom/scripts.inc",
+        "data/maps/Route4_PokemonCenter_1F/scripts.inc",
+        "data/maps/Route25_SeaCottage/scripts.inc",
+        "data/maps/SilphCo_7F/scripts.inc",
+        "data/maps/CeladonCity_DepartmentStore_Roof/scripts.inc",
+        "data/maps/FourIsland/scripts.inc",
+        "data/maps/SaffronCity_Dojo/scripts.inc",
+        "data/maps/Route1/scripts.inc",
+        "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.inc",
+        "data/scripts/route23.inc",
+        "data/scripts/trainer_card.inc",
+        "data/scripts/obtain_item.inc",
+        "data/scripts/silphco_doors.inc",
+        "data/scripts/trainer_tower.inc",
+        "data/scripts/std_msgbox.inc",
+        "data/text/route23.inc",
+        "src/dodrio_berry_picking.c",
+        "src/pokemon_jump.c",
+        "src/evolution_scene.c",
+        "src/learn_move.c",
+        "src/party_menu.c",
+        "src/sound.c",
+        "src/strings.c",
+        "src/pokemon_special_anim.c",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 258,
+      "constant": "MUS_OBTAIN_ITEM",
+      "compiled_header": "mus_obtain_item",
+      "original_sequence": "mus_obtain_item",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/scripts/obtain_item.inc",
+        "src/mystery_gift_menu.c",
+        "src/ereader_screen.c",
+        "src/sound.c",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 259,
+      "constant": "MUS_EVOLVED",
+      "compiled_header": "mus_evolved",
+      "original_sequence": "mus_evolved",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/scripts/pokedex_rating.inc",
+        "src/evolution_scene.c",
+        "src/sound.c",
+        "src/daycare.c",
+        "src/trade_scene.c",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 260,
+      "constant": "MUS_OBTAIN_BADGE",
+      "compiled_header": "mus_obtain_badge",
+      "original_sequence": "mus_obtain_badge",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/ViridianCity_Gym/text.inc",
+        "data/maps/PewterCity_Gym/scripts.inc",
+        "data/maps/PokemonTower_7F/scripts.inc",
+        "src/sound.c",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 261,
+      "constant": "MUS_OBTAIN_TMHM",
+      "compiled_header": "mus_obtain_tmhm",
+      "original_sequence": "mus_obtain_tmhm",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/TwoIsland_JoyfulGameCorner/scripts.inc",
+        "data/maps/OneIsland_PokemonCenter_1F/scripts.inc",
+        "data/maps/FuchsiaCity_WardensHouse/scripts.inc",
+        "data/maps/PalletTown_ProfessorOaksLab/scripts.inc",
+        "src/sound.c",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 262,
+      "constant": "MUS_OBTAIN_BERRY",
+      "compiled_header": "mus_obtain_berry",
+      "original_sequence": "mus_obtain_berry",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/sound.c",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 263,
+      "constant": "MUS_EVOLUTION_INTRO",
+      "compiled_header": "mus_evolution_intro",
+      "original_sequence": "mus_evolution_intro",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/evolution_scene.c",
+        "src/daycare.c",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 264,
+      "constant": "MUS_EVOLUTION",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_evolution",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/evolution_scene.c",
+        "src/daycare.c",
+        "src/trade_scene.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 265,
+      "constant": "MUS_RS_VS_GYM_LEADER",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_rs_vs_gym_leader",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/cable_club.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 266,
+      "constant": "MUS_RS_VS_TRAINER",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_rs_vs_trainer",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/battle_setup.c",
+        "src/cable_club.c",
+        "src/pokemon.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 267,
+      "constant": "MUS_SCHOOL",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_school",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "data/maps/SevenIsland_SevaultCanyon_House/scripts.inc",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 268,
+      "constant": "MUS_SLOTS_JACKPOT",
+      "compiled_header": "mus_slots_jackpot",
+      "original_sequence": "mus_slots_jackpot",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/slot_machine.c",
+        "src/sound.c",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 269,
+      "constant": "MUS_SLOTS_WIN",
+      "compiled_header": "mus_slots_win",
+      "original_sequence": "mus_slots_win",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/slot_machine.c",
+        "src/sound.c",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 270,
+      "constant": "MUS_MOVE_DELETED",
+      "compiled_header": "mus_move_deleted",
+      "original_sequence": "mus_move_deleted",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/FuchsiaCity_House3/scripts.inc",
+        "src/sound.c",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 271,
+      "constant": "MUS_TOO_BAD",
+      "compiled_header": "mus_too_bad",
+      "original_sequence": "mus_too_bad",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/sound.c",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 272,
+      "constant": "MUS_FOLLOW_ME",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_follow_me",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "data/maps/CinnabarIsland/scripts.inc",
+        "data/maps/CinnabarIsland_PokemonCenter_1F/scripts.inc",
+        "data/maps/PalletTown/scripts.inc",
+        "data/maps/PewterCity/scripts.inc",
+        "src/teachy_tv.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 273,
+      "constant": "MUS_GAME_CORNER",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_game_corner",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/berry_crush.c",
+        "src/trade.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 274,
+      "constant": "MUS_ROCKET_HIDEOUT",
+      "compiled_header": "mus_rocket_hideout",
+      "original_sequence": "mus_rocket_hideout",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 275,
+      "constant": "MUS_GYM",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_gym",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 276,
+      "constant": "MUS_JIGGLYPUFF",
+      "compiled_header": "mus_jigglypuff",
+      "original_sequence": "mus_jigglypuff",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/PewterCity_PokemonCenter_1F/scripts.inc",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 277,
+      "constant": "MUS_INTRO_FIGHT",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_intro_fight",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 278,
+      "constant": "MUS_TITLE",
+      "compiled_header": "mus_title",
+      "original_sequence": "mus_title",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 279,
+      "constant": "MUS_CINNABAR",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_cinnabar",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 280,
+      "constant": "MUS_LAVENDER",
+      "compiled_header": "mus_lavender",
+      "original_sequence": "mus_lavender",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 281,
+      "constant": "MUS_HEAL_UNUSED",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_heal_unused",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 282,
+      "constant": "MUS_CYCLING",
+      "compiled_header": "mus_cycling",
+      "original_sequence": "mus_cycling",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/overworld.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 283,
+      "constant": "MUS_ENCOUNTER_ROCKET",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_encounter_rocket",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "data/maps/MtEmber_Exterior/scripts.inc",
+        "data/maps/RocketHideout_B4F/scripts.inc",
+        "data/maps/ViridianCity_Gym/text.inc",
+        "data/maps/CeruleanCity/scripts.inc",
+        "data/maps/CeruleanCity/text.inc",
+        "data/maps/Route24/scripts.inc",
+        "data/maps/FourIsland_IcefallCave_Back/scripts.inc",
+        "src/trainer_tower.c",
+        "src/battle_setup.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 284,
+      "constant": "MUS_ENCOUNTER_GIRL",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_encounter_girl",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/trainer_tower.c",
+        "src/battle_setup.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 285,
+      "constant": "MUS_ENCOUNTER_BOY",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_encounter_boy",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "data/maps/ThreeIsland/scripts.inc",
+        "data/maps/TwoIsland_JoyfulGameCorner/scripts.inc",
+        "src/trainer_tower.c",
+        "src/battle_setup.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 286,
+      "constant": "MUS_HALL_OF_FAME",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_hall_of_fame",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/hall_of_fame.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 287,
+      "constant": "MUS_VIRIDIAN_FOREST",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_viridian_forest",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 288,
+      "constant": "MUS_MT_MOON",
+      "compiled_header": "mus_mt_moon",
+      "original_sequence": "mus_mt_moon",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 289,
+      "constant": "MUS_POKE_MANSION",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_poke_mansion",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 290,
+      "constant": "MUS_CREDITS",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_credits",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "data/maps/IndigoPlateau_Exterior/scripts.inc",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 291,
+      "constant": "MUS_ROUTE1",
+      "compiled_header": "mus_route1",
+      "original_sequence": "mus_route1",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 292,
+      "constant": "MUS_ROUTE24",
+      "compiled_header": "mus_route24",
+      "original_sequence": "mus_route24",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/oak_speech.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 293,
+      "constant": "MUS_ROUTE3",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_route3",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 294,
+      "constant": "MUS_ROUTE11",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_route11",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 295,
+      "constant": "MUS_VICTORY_ROAD",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_victory_road",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 296,
+      "constant": "MUS_VS_GYM_LEADER",
+      "compiled_header": "mus_vs_gym_leader",
+      "original_sequence": "mus_vs_gym_leader",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 297,
+      "constant": "MUS_VS_TRAINER",
+      "compiled_header": "mus_vs_trainer",
+      "original_sequence": "mus_vs_trainer",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 298,
+      "constant": "MUS_VS_WILD",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_vs_wild",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 299,
+      "constant": "MUS_VS_CHAMPION",
+      "compiled_header": "mus_vs_champion",
+      "original_sequence": "mus_vs_champion",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 300,
+      "constant": "MUS_PALLET",
+      "compiled_header": "mus_pallet",
+      "original_sequence": "mus_pallet",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 301,
+      "constant": "MUS_OAK_LAB",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_oak_lab",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 302,
+      "constant": "MUS_OAK",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_oak",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "data/maps/PalletTown/scripts.inc",
+        "data/maps/PalletTown_ProfessorOaksLab/scripts.inc",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 303,
+      "constant": "MUS_POKE_CENTER",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_poke_center",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "data/maps/PewterCity_PokemonCenter_1F/scripts.inc",
+        "src/berry_crush.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 304,
+      "constant": "MUS_SS_ANNE",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_ss_anne",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 305,
+      "constant": "MUS_SURF",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_surf",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "data/maps/SSAnne_Exterior/scripts.inc",
+        "src/overworld.c",
+        "src/field_effect.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 306,
+      "constant": "MUS_POKE_TOWER",
+      "compiled_header": "mus_poke_tower",
+      "original_sequence": "mus_poke_tower",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 307,
+      "constant": "MUS_SILPH",
+      "compiled_header": "mus_silph",
+      "original_sequence": "mus_silph",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/overworld.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 308,
+      "constant": "MUS_FUCHSIA",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_fuchsia",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 309,
+      "constant": "MUS_CELADON",
+      "compiled_header": "mus_celadon",
+      "original_sequence": "mus_celadon",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 310,
+      "constant": "MUS_VICTORY_TRAINER",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_victory_trainer",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/battle_main.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 311,
+      "constant": "MUS_VICTORY_WILD",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_victory_wild",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/battle_controller_pokedude.c",
+        "src/dodrio_berry_picking.c",
+        "src/battle_script_commands.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 312,
+      "constant": "MUS_VICTORY_GYM_LEADER",
+      "compiled_header": "mus_victory_gym_leader",
+      "original_sequence": "mus_victory_gym_leader",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/PokemonLeague_ChampionsRoom/scripts.inc",
+        "src/overworld.c",
+        "src/battle_main.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 313,
+      "constant": "MUS_VERMILLION",
+      "compiled_header": "mus_vermillion",
+      "original_sequence": "mus_vermillion",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 314,
+      "constant": "MUS_PEWTER",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_pewter",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 315,
+      "constant": "MUS_ENCOUNTER_RIVAL",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_encounter_rival",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "data/maps/SixIsland_PokemonCenter_1F/scripts.inc",
+        "data/maps/Route22/scripts.inc",
+        "data/maps/SSAnne_2F_Corridor/scripts.inc",
+        "data/maps/CeruleanCity/scripts.inc",
+        "data/maps/PokemonTower_2F/scripts.inc",
+        "data/maps/SilphCo_7F/scripts.inc",
+        "data/maps/FourIsland/scripts.inc",
+        "data/maps/PalletTown_ProfessorOaksLab/scripts.inc",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 316,
+      "constant": "MUS_RIVAL_EXIT",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_rival_exit",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "data/maps/Route22/scripts.inc",
+        "data/maps/SSAnne_2F_Corridor/scripts.inc",
+        "data/maps/CeruleanCity/scripts.inc",
+        "data/maps/PokemonTower_2F/scripts.inc",
+        "data/maps/SilphCo_7F/scripts.inc",
+        "data/maps/PalletTown_ProfessorOaksLab/scripts.inc",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 317,
+      "constant": "MUS_DEX_RATING",
+      "compiled_header": "mus_dex_rating",
+      "original_sequence": "mus_dex_rating",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/scripts/pokedex_rating.inc",
+        "src/sound.c",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 318,
+      "constant": "MUS_OBTAIN_KEY_ITEM",
+      "compiled_header": "mus_obtain_key_item",
+      "original_sequence": "mus_obtain_key_item",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/CeruleanCity_BikeShop/scripts.inc",
+        "data/maps/ViridianCity_Mart/scripts.inc",
+        "data/maps/PewterCity_Museum_1F/scripts.inc",
+        "data/maps/VermilionCity_PokemonFanClub/scripts.inc",
+        "data/maps/SixIsland_DottedHole_SapphireRoom/scripts.inc",
+        "data/maps/MtMoon_B2F/scripts.inc",
+        "data/maps/SilphCo_11F/scripts.inc",
+        "data/maps/Route25_SeaCottage/scripts.inc",
+        "data/maps/PewterCity/scripts.inc",
+        "data/maps/PalletTown_RivalsHouse/scripts.inc",
+        "data/maps/MtEmber_RubyPath_B3F/scripts.inc",
+        "data/maps/OneIsland_PokemonCenter_1F/scripts.inc",
+        "data/maps/PalletTown_ProfessorOaksLab/scripts.inc",
+        "data/scripts/std_msgbox.inc",
+        "src/sound.c",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 319,
+      "constant": "MUS_CAUGHT_INTRO",
+      "compiled_header": "mus_caught_intro",
+      "original_sequence": "mus_caught_intro",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/battle_anim_special.c",
+        "src/pokeball.c",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 320,
+      "constant": "MUS_PHOTO",
+      "compiled_header": "mus_photo",
+      "original_sequence": "mus_photo",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/scripts/trainer_card.inc",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 321,
+      "constant": "MUS_GAME_FREAK",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_game_freak",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/intro.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 322,
+      "constant": "MUS_CAUGHT",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_caught",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/battle_message.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 323,
+      "constant": "MUS_NEW_GAME_INSTRUCT",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_new_game_instruct",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/oak_speech.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 324,
+      "constant": "MUS_NEW_GAME_INTRO",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_new_game_intro",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 325,
+      "constant": "MUS_NEW_GAME_EXIT",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_new_game_exit",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/oak_speech.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 326,
+      "constant": "MUS_POKE_JUMP",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_poke_jump",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/pokemon_jump.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 327,
+      "constant": "MUS_UNION_ROOM",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_union_room",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 328,
+      "constant": "MUS_NET_CENTER",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_net_center",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 329,
+      "constant": "MUS_MYSTERY_GIFT",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_mystery_gift",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/mystery_gift_menu.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 330,
+      "constant": "MUS_BERRY_PICK",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_berry_pick",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/dodrio_berry_picking.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 331,
+      "constant": "MUS_SEVII_CAVE",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_sevii_cave",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 332,
+      "constant": "MUS_TEACHY_TV_SHOW",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_teachy_tv_show",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 333,
+      "constant": "MUS_SEVII_ROUTE",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_sevii_route",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 334,
+      "constant": "MUS_SEVII_DUNGEON",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_sevii_dungeon",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 335,
+      "constant": "MUS_SEVII_123",
+      "compiled_header": "mus_sevii_123",
+      "original_sequence": "mus_sevii_123",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 336,
+      "constant": "MUS_SEVII_45",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_sevii_45",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 337,
+      "constant": "MUS_SEVII_67",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_sevii_67",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 338,
+      "constant": "MUS_POKE_FLUTE",
+      "compiled_header": "mus_poke_flute",
+      "original_sequence": "mus_poke_flute",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/scripts/static_pokemon.inc",
+        "src/sound.c",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 339,
+      "constant": "MUS_VS_DEOXYS",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_vs_deoxys",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/battle_setup.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 340,
+      "constant": "MUS_VS_MEWTWO",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_vs_mewtwo",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/battle_setup.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 341,
+      "constant": "MUS_VS_LEGEND",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_vs_legend",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/battle_setup.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 342,
+      "constant": "MUS_ENCOUNTER_GYM_LEADER",
+      "compiled_header": "mus_encounter_gym_leader",
+      "original_sequence": "mus_encounter_gym_leader",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/PokemonLeague_AgathasRoom/text.inc",
+        "data/maps/PokemonLeague_LoreleisRoom/text.inc",
+        "data/maps/PokemonLeague_BrunosRoom/text.inc",
+        "data/maps/PowerPlant/scripts.inc",
+        "data/maps/SeafoamIslands_B4F/scripts.inc",
+        "data/maps/PokemonLeague_LancesRoom/text.inc",
+        "data/maps/MtEmber_Summit/scripts.inc",
+        "data/maps/MtMoon_B2F/scripts.inc",
+        "data/maps/CeruleanCave_B1F/scripts.inc",
+        "data/maps/CinnabarIsland_Gym/text.inc",
+        "data/maps/VermilionCity_Gym/text.inc",
+        "data/maps/FuchsiaCity_Gym/text.inc",
+        "data/maps/PewterCity_Gym/text.inc",
+        "data/maps/CeladonCity_Gym/text.inc",
+        "data/maps/CeruleanCity_Gym/text.inc",
+        "data/maps/SaffronCity_Gym/scripts.inc",
+        "data/maps/SaffronCity_Gym/text.inc",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 343,
+      "constant": "MUS_ENCOUNTER_DEOXYS",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_encounter_deoxys",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "data/maps/BirthIsland_Exterior/scripts.inc",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 344,
+      "constant": "MUS_TRAINER_TOWER",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_trainer_tower",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 345,
+      "constant": "MUS_SLOW_PALLET",
+      "compiled_header": "mus_slow_pallet",
+      "original_sequence": "mus_slow_pallet",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 346,
+      "constant": "MUS_TEACHY_TV_MENU",
+      "compiled_header": "dummy_song_header",
+      "original_sequence": "mus_teachy_tv_menu",
+      "status": "unreachable native sequence excluded",
+      "token_reference_paths": [
+        "src/teachy_tv.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 347,
+      "constant": "MUS_YOKAI_BICYCLE",
+      "compiled_header": "mus_cycling",
+      "original_sequence": "mus_cycling",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/bike.c",
+        "src/field_specials.c",
+        "src/overworld.c",
+        "src/yokai_music.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 348,
+      "constant": "MUS_YOKAI_HINOZALL",
+      "compiled_header": "mus_vs_trainer",
+      "original_sequence": "mus_vs_trainer",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/pokemon.c",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 349,
+      "constant": "MUS_YOKAI_GHOULFATHER",
+      "compiled_header": "mus_vs_trainer",
+      "original_sequence": "mus_vs_trainer",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/PokemonLeague_ChampionsRoom/spiraton.inc",
+        "src/pokemon.c",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 350,
+      "constant": "MUS_YOKAI_INFINITE_TUNNEL",
+      "compiled_header": "mus_poke_tower",
+      "original_sequence": "mus_poke_tower",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/PokemonTower_5F/header.inc",
+        "data/maps/PokemonTower_5F/map.json",
+        "data/maps/PokemonTower_6F/header.inc",
+        "data/maps/PokemonTower_6F/map.json",
+        "data/maps/PokemonTower_3F/header.inc",
+        "data/maps/PokemonTower_3F/map.json",
+        "data/maps/PokemonTower_4F/header.inc",
+        "data/maps/PokemonTower_4F/map.json",
+        "data/maps/PokemonTower_2F/header.inc",
+        "data/maps/PokemonTower_2F/map.json",
+        "data/maps/PokemonTower_7F/header.inc",
+        "data/maps/PokemonTower_7F/map.json",
+        "data/maps/PokemonTower_1F/header.inc",
+        "data/maps/PokemonTower_1F/map.json",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 351,
+      "constant": "MUS_YOKAI_ENMA_DIALOGUE",
+      "compiled_header": "mus_encounter_gym_leader",
+      "original_sequence": "mus_encounter_gym_leader",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/MtEmber_Summit/scripts.inc",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 352,
+      "constant": "MUS_YOKAI_ZAZELMARE",
+      "compiled_header": "mus_vs_trainer",
+      "original_sequence": "mus_vs_trainer",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/PokemonLeague_ChampionsRoom/spiraton.inc",
+        "src/pokemon.c",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 353,
+      "constant": "MUS_YOKAI_NATHAN_HOUSE",
+      "compiled_header": "mus_pallet",
+      "original_sequence": "mus_pallet",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/PalletTown_PlayersHouse_2F/header.inc",
+        "data/maps/PalletTown_PlayersHouse_2F/map.json",
+        "data/maps/PalletTown/header.inc",
+        "data/maps/PalletTown/map.json",
+        "data/maps/Route1/header.inc",
+        "data/maps/Route1/map.json",
+        "data/maps/PalletTown_PlayersHouse_1F/header.inc",
+        "data/maps/PalletTown_PlayersHouse_1F/map.json",
+        "data/maps/PalletTown_ProfessorOaksLab/header.inc",
+        "data/maps/PalletTown_ProfessorOaksLab/map.json",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 354,
+      "constant": "MUS_YOKAI_KATIE_HOUSE",
+      "compiled_header": "mus_pallet",
+      "original_sequence": "mus_pallet",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/PalletTown_RivalsHouse/header.inc",
+        "data/maps/PalletTown_RivalsHouse/map.json",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 355,
+      "constant": "MUS_YOKAI_BLASTERS_HIDEOUT",
+      "compiled_header": "mus_pallet",
+      "original_sequence": "mus_pallet",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/SaffronCity_Dojo/header.inc",
+        "data/maps/SaffronCity_Dojo/map.json",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 356,
+      "constant": "MUS_YOKAI_BLASTERS_THEME",
+      "compiled_header": "mus_vs_trainer",
+      "original_sequence": "mus_vs_trainer",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/pokemon.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 357,
+      "constant": "MUS_YOKAI_BADA_BING",
+      "compiled_header": "mus_silph",
+      "original_sequence": "mus_silph",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/SilphCo_6F/header.inc",
+        "data/maps/SilphCo_6F/map.json",
+        "data/maps/SilphCo_10F/header.inc",
+        "data/maps/SilphCo_10F/map.json",
+        "data/maps/SilphCo_5F/header.inc",
+        "data/maps/SilphCo_5F/map.json",
+        "data/maps/SilphCo_3F/header.inc",
+        "data/maps/SilphCo_3F/map.json",
+        "data/maps/SilphCo_4F/header.inc",
+        "data/maps/SilphCo_4F/map.json",
+        "data/maps/SilphCo_11F/header.inc",
+        "data/maps/SilphCo_11F/map.json",
+        "data/maps/SilphCo_1F/header.inc",
+        "data/maps/SilphCo_1F/map.json",
+        "data/maps/SilphCo_9F/header.inc",
+        "data/maps/SilphCo_9F/map.json",
+        "data/maps/SilphCo_8F/header.inc",
+        "data/maps/SilphCo_8F/map.json",
+        "data/maps/PewterCity/morleone.inc",
+        "data/maps/SilphCo_7F/header.inc",
+        "data/maps/SilphCo_7F/map.json",
+        "data/maps/SilphCo_2F/header.inc",
+        "data/maps/SilphCo_2F/map.json",
+        "src/overworld.c",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    },
+    {
+      "id": 358,
+      "constant": "MUS_YOKAI_BLOSSOM_HEIGHTS",
+      "compiled_header": "mus_celadon",
+      "original_sequence": "mus_celadon",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/PewterCity_House2/header.inc",
+        "data/maps/PewterCity_House2/map.json",
+        "data/maps/PewterCity_PokemonCenter_1F/header.inc",
+        "data/maps/PewterCity_PokemonCenter_1F/map.json",
+        "data/maps/PewterCity_Museum_2F/header.inc",
+        "data/maps/PewterCity_Museum_2F/map.json",
+        "data/maps/ViridianCity_PokemonCenter_1F/header.inc",
+        "data/maps/ViridianCity_PokemonCenter_1F/map.json",
+        "data/maps/PewterCity_Mart/header.inc",
+        "data/maps/PewterCity_Mart/map.json",
+        "data/maps/ViridianCity_Mart/header.inc",
+        "data/maps/ViridianCity_Mart/map.json",
+        "data/maps/ViridianCity_House/header.inc",
+        "data/maps/ViridianCity_House/map.json",
+        "data/maps/ViridianCity_School/header.inc",
+        "data/maps/ViridianCity_School/map.json",
+        "data/maps/PewterCity_Museum_1F/header.inc",
+        "data/maps/PewterCity_Museum_1F/map.json",
+        "data/maps/UndergroundPath_SouthEntrance/header.inc",
+        "data/maps/UndergroundPath_SouthEntrance/map.json",
+        "data/maps/PewterCity_PokemonCenter_2F/header.inc",
+        "data/maps/PewterCity_PokemonCenter_2F/map.json",
+        "data/maps/UndergroundPath_NorthEntrance/header.inc",
+        "data/maps/UndergroundPath_NorthEntrance/map.json",
+        "data/maps/UndergroundPath_WestEntrance/header.inc",
+        "data/maps/UndergroundPath_WestEntrance/map.json",
+        "data/maps/PewterCity_House1/header.inc",
+        "data/maps/PewterCity_House1/map.json",
+        "data/maps/UndergroundPath_EastEntrance/header.inc",
+        "data/maps/UndergroundPath_EastEntrance/map.json",
+        "data/maps/ViridianCity_PokemonCenter_2F/header.inc",
+        "data/maps/ViridianCity_PokemonCenter_2F/map.json",
+        "data/maps/PewterCity/header.inc",
+        "data/maps/PewterCity/map.json",
+        "data/maps/ViridianCity/header.inc",
+        "data/maps/ViridianCity/map.json",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 359,
+      "constant": "MUS_YOKAI_ENMA_VILLA",
+      "compiled_header": "mus_pallet",
+      "original_sequence": "mus_pallet",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 360,
+      "constant": "MUS_YOKAI_ZOMBIE_NIGHT",
+      "compiled_header": "mus_lavender",
+      "original_sequence": "mus_lavender",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/LavenderTown/header.inc",
+        "data/maps/LavenderTown/map.json",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 361,
+      "constant": "MUS_YOKAI_DECISIVE_BATTLE",
+      "compiled_header": "mus_vs_gym_leader",
+      "original_sequence": "mus_vs_gym_leader",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/Route23_UnusedHouse/header.inc",
+        "data/maps/Route23_UnusedHouse/map.json",
+        "data/maps/PokemonLeague_LancesRoom/header.inc",
+        "data/maps/PokemonLeague_LancesRoom/map.json",
+        "data/maps/Route23/header.inc",
+        "data/maps/Route23/map.json",
+        "data/maps/PokemonLeague_ChampionsRoom/header.inc",
+        "data/maps/PokemonLeague_ChampionsRoom/map.json",
+        "src/pokemon.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 362,
+      "constant": "MUS_YOKAI_HARRISVILLE",
+      "compiled_header": "mus_sevii_123",
+      "original_sequence": "mus_sevii_123",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/TwoIsland_House/header.inc",
+        "data/maps/TwoIsland_House/map.json",
+        "data/maps/TwoIsland_PokemonCenter_1F/header.inc",
+        "data/maps/TwoIsland_PokemonCenter_1F/map.json",
+        "data/maps/TwoIsland/header.inc",
+        "data/maps/TwoIsland/map.json",
+        "data/maps/TwoIsland_JoyfulGameCorner/header.inc",
+        "data/maps/TwoIsland_JoyfulGameCorner/map.json",
+        "data/maps/TwoIsland_PokemonCenter_2F/header.inc",
+        "data/maps/TwoIsland_PokemonCenter_2F/map.json",
+        "data/maps/TwoIsland_Harbor/header.inc",
+        "data/maps/TwoIsland_Harbor/map.json",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 363,
+      "constant": "MUS_YOKAI_DODGY",
+      "compiled_header": "mus_rocket_hideout",
+      "original_sequence": "mus_rocket_hideout",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/VermilionCity_PhilosovniWarehouse/header.inc",
+        "data/maps/VermilionCity_PhilosovniWarehouse/map.json",
+        "data/maps/PokemonMansion_1F/header.inc",
+        "data/maps/PokemonMansion_1F/map.json",
+        "data/maps/FiveIsland_RocketWarehouse/header.inc",
+        "data/maps/FiveIsland_RocketWarehouse/map.json",
+        "data/maps/RocketHideout_B4F/header.inc",
+        "data/maps/RocketHideout_B4F/map.json",
+        "data/maps/RocketHideout_Elevator/header.inc",
+        "data/maps/RocketHideout_Elevator/map.json",
+        "data/maps/PokemonLeague_BrunosRoom/header.inc",
+        "data/maps/PokemonLeague_BrunosRoom/map.json",
+        "data/maps/PokemonMansion_B1F/header.inc",
+        "data/maps/PokemonMansion_B1F/map.json",
+        "data/maps/PokemonMansion_2F/header.inc",
+        "data/maps/PokemonMansion_2F/map.json",
+        "data/maps/RocketHideout_B2F/header.inc",
+        "data/maps/RocketHideout_B2F/map.json",
+        "data/maps/RocketHideout_B3F/header.inc",
+        "data/maps/RocketHideout_B3F/map.json",
+        "data/maps/PokemonMansion_3F/header.inc",
+        "data/maps/PokemonMansion_3F/map.json",
+        "data/maps/RocketHideout_B1F/header.inc",
+        "data/maps/RocketHideout_B1F/map.json",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 364,
+      "constant": "MUS_YOKAI_ROBON_ARRIVES",
+      "compiled_header": "mus_pallet",
+      "original_sequence": "mus_pallet",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/battle_setup.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 365,
+      "constant": "MUS_YOKAI_ROBON_3000",
+      "compiled_header": "mus_vs_trainer",
+      "original_sequence": "mus_vs_trainer",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/pokemon.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 366,
+      "constant": "MUS_YOKAI_MINI_BOSS",
+      "compiled_header": "mus_vs_trainer",
+      "original_sequence": "mus_vs_trainer",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/pokemon.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 367,
+      "constant": "MUS_YOKAI_SAN_FANTASTICO",
+      "compiled_header": "mus_vermillion",
+      "original_sequence": "mus_vermillion",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/ThreeIsland_PokemonCenter_2F/header.inc",
+        "data/maps/ThreeIsland_PokemonCenter_2F/map.json",
+        "data/maps/VermilionCity_House1/header.inc",
+        "data/maps/VermilionCity_House1/map.json",
+        "data/maps/VermilionCity_PokemonCenter_2F/header.inc",
+        "data/maps/VermilionCity_PokemonCenter_2F/map.json",
+        "data/maps/SSAnne_1F_Room7/header.inc",
+        "data/maps/SSAnne_1F_Room7/map.json",
+        "data/maps/SevenIsland_House_Room1/header.inc",
+        "data/maps/SevenIsland_House_Room1/map.json",
+        "data/maps/SSAnne_1F_Room1/header.inc",
+        "data/maps/SSAnne_1F_Room1/map.json",
+        "data/maps/SixIsland_PokemonCenter_2F/header.inc",
+        "data/maps/SixIsland_PokemonCenter_2F/map.json",
+        "data/maps/CeruleanCity_Mart/header.inc",
+        "data/maps/CeruleanCity_Mart/map.json",
+        "data/maps/SSAnne_1F_Room3/header.inc",
+        "data/maps/SSAnne_1F_Room3/map.json",
+        "data/maps/SixIsland_DottedHole_1F/header.inc",
+        "data/maps/SixIsland_DottedHole_1F/map.json",
+        "data/maps/FuchsiaCity_SafariZone_Office/header.inc",
+        "data/maps/FuchsiaCity_SafariZone_Office/map.json",
+        "data/maps/SixIsland_WaterPath_House2/header.inc",
+        "data/maps/SixIsland_WaterPath_House2/map.json",
+        "data/maps/VermilionCity_House2/header.inc",
+        "data/maps/VermilionCity_House2/map.json",
+        "data/maps/SixIsland_PokemonCenter_1F/header.inc",
+        "data/maps/SixIsland_PokemonCenter_1F/map.json",
+        "data/maps/SSAnne_Deck/header.inc",
+        "data/maps/SSAnne_Deck/map.json",
+        "data/maps/VermilionCity_Mart/header.inc",
+        "data/maps/VermilionCity_Mart/map.json",
+        "data/maps/SixIsland_Harbor/header.inc",
+        "data/maps/SixIsland_Harbor/map.json",
+        "data/maps/FuchsiaCity_Mart/header.inc",
+        "data/maps/FuchsiaCity_Mart/map.json",
+        "data/maps/ThreeIsland_House1/header.inc",
+        "data/maps/ThreeIsland_House1/map.json",
+        "data/maps/ThreeIsland_Mart/header.inc",
+        "data/maps/ThreeIsland_Mart/map.json",
+        "data/maps/Route11/header.inc",
+        "data/maps/Route11/map.json",
+        "data/maps/SSAnne_B1F_Room2/header.inc",
+        "data/maps/SSAnne_B1F_Room2/map.json",
+        "data/maps/CeruleanCity_BikeShop/header.inc",
+        "data/maps/CeruleanCity_BikeShop/map.json",
+        "data/maps/SixIsland/header.inc",
+        "data/maps/SixIsland/map.json",
+        "data/maps/SSAnne_2F_Room1/header.inc",
+        "data/maps/SSAnne_2F_Room1/map.json",
+        "data/maps/VermilionCity_PokemonCenter_1F/header.inc",
+        "data/maps/VermilionCity_PokemonCenter_1F/map.json",
+        "data/maps/VermilionCity_House3/header.inc",
+        "data/maps/VermilionCity_House3/map.json",
+        "data/maps/SSAnne_3F_Corridor/header.inc",
+        "data/maps/SSAnne_3F_Corridor/map.json",
+        "data/maps/SixIsland_House/header.inc",
+        "data/maps/SixIsland_House/map.json",
+        "data/maps/SSAnne_2F_Corridor/header.inc",
+        "data/maps/SSAnne_2F_Corridor/map.json",
+        "data/maps/ThreeIsland_House4/header.inc",
+        "data/maps/ThreeIsland_House4/map.json",
+        "data/maps/FourIsland_PokemonCenter_2F/header.inc",
+        "data/maps/FourIsland_PokemonCenter_2F/map.json",
+        "data/maps/SixIsland_DottedHole_B1F/header.inc",
+        "data/maps/SixIsland_DottedHole_B1F/map.json",
+        "data/maps/ThreeIsland_PokemonCenter_1F/header.inc",
+        "data/maps/ThreeIsland_PokemonCenter_1F/map.json",
+        "data/maps/FourIsland_PokemonCenter_1F/header.inc",
+        "data/maps/FourIsland_PokemonCenter_1F/map.json",
+        "data/maps/FourIsland_LoreleisHouse/header.inc",
+        "data/maps/FourIsland_LoreleisHouse/map.json",
+        "data/maps/FourIsland_House2/header.inc",
+        "data/maps/FourIsland_House2/map.json",
+        "data/maps/SSAnne_2F_Room2/header.inc",
+        "data/maps/SSAnne_2F_Room2/map.json",
+        "data/maps/SSAnne_1F_Room6/header.inc",
+        "data/maps/SSAnne_1F_Room6/map.json",
+        "data/maps/SSAnne_1F_Corridor/header.inc",
+        "data/maps/SSAnne_1F_Corridor/map.json",
+        "data/maps/ThreeIsland_Harbor/header.inc",
+        "data/maps/ThreeIsland_Harbor/map.json",
+        "data/maps/VermilionCity_PokemonFanClub/header.inc",
+        "data/maps/VermilionCity_PokemonFanClub/map.json",
+        "data/maps/SSAnne_B1F_Room1/header.inc",
+        "data/maps/SSAnne_B1F_Room1/map.json",
+        "data/maps/OneIsland/header.inc",
+        "data/maps/OneIsland/map.json",
+        "data/maps/TwoIsland_CapeBrink_House/header.inc",
+        "data/maps/TwoIsland_CapeBrink_House/map.json",
+        "data/maps/SSAnne_B1F_Room4/header.inc",
+        "data/maps/SSAnne_B1F_Room4/map.json",
+        "data/maps/CeruleanCity_House3/header.inc",
+        "data/maps/CeruleanCity_House3/map.json",
+        "data/maps/FuchsiaCity_PokemonCenter_1F/header.inc",
+        "data/maps/FuchsiaCity_PokemonCenter_1F/map.json",
+        "data/maps/OneIsland_House1/header.inc",
+        "data/maps/OneIsland_House1/map.json",
+        "data/maps/CeruleanCity_House5/header.inc",
+        "data/maps/CeruleanCity_House5/map.json",
+        "data/maps/SSAnne_B1F_Corridor/header.inc",
+        "data/maps/SSAnne_B1F_Corridor/map.json",
+        "data/maps/ThreeIsland_House3/header.inc",
+        "data/maps/ThreeIsland_House3/map.json",
+        "data/maps/OneIsland_Harbor/header.inc",
+        "data/maps/OneIsland_Harbor/map.json",
+        "data/maps/FuchsiaCity/header.inc",
+        "data/maps/FuchsiaCity/map.json",
+        "data/maps/SevenIsland_Harbor/header.inc",
+        "data/maps/SevenIsland_Harbor/map.json",
+        "data/maps/CinnabarIsland_PokemonCenter_2F/header.inc",
+        "data/maps/CinnabarIsland_PokemonCenter_2F/map.json",
+        "data/maps/SixIsland_DottedHole_SapphireRoom/header.inc",
+        "data/maps/SixIsland_DottedHole_SapphireRoom/map.json",
+        "data/maps/CinnabarIsland/header.inc",
+        "data/maps/CinnabarIsland/map.json",
+        "data/maps/ThreeIsland/header.inc",
+        "data/maps/ThreeIsland/map.json",
+        "data/maps/SixIsland_AlteringCave/header.inc",
+        "data/maps/SixIsland_AlteringCave/map.json",
+        "data/maps/SSAnne_1F_Room5/header.inc",
+        "data/maps/SSAnne_1F_Room5/map.json",
+        "data/maps/FiveIsland_PokemonCenter_1F/header.inc",
+        "data/maps/FiveIsland_PokemonCenter_1F/map.json",
+        "data/maps/CeruleanCity/header.inc",
+        "data/maps/CeruleanCity/map.json",
+        "data/maps/FiveIsland_Harbor/header.inc",
+        "data/maps/FiveIsland_Harbor/map.json",
+        "data/maps/FuchsiaCity_House2/header.inc",
+        "data/maps/FuchsiaCity_House2/map.json",
+        "data/maps/SSAnne_2F_Room4/header.inc",
+        "data/maps/SSAnne_2F_Room4/map.json",
+        "data/maps/CeruleanCity_House1/header.inc",
+        "data/maps/CeruleanCity_House1/map.json",
+        "data/maps/ThreeIsland_House5/header.inc",
+        "data/maps/ThreeIsland_House5/map.json",
+        "data/maps/CinnabarIsland_PokemonLab_ResearchRoom/header.inc",
+        "data/maps/CinnabarIsland_PokemonLab_ResearchRoom/map.json",
+        "data/maps/FuchsiaCity_SafariZone_Entrance/header.inc",
+        "data/maps/FuchsiaCity_SafariZone_Entrance/map.json",
+        "data/maps/ThreeIsland_House2/header.inc",
+        "data/maps/ThreeIsland_House2/map.json",
+        "data/maps/OneIsland_PokemonCenter_2F/header.inc",
+        "data/maps/OneIsland_PokemonCenter_2F/map.json",
+        "data/maps/CinnabarIsland_PokemonLab_ExperimentRoom/header.inc",
+        "data/maps/CinnabarIsland_PokemonLab_ExperimentRoom/map.json",
+        "data/maps/SSAnne_CaptainsOffice/header.inc",
+        "data/maps/SSAnne_CaptainsOffice/map.json",
+        "data/maps/SevenIsland_PokemonCenter_1F/header.inc",
+        "data/maps/SevenIsland_PokemonCenter_1F/map.json",
+        "data/maps/CinnabarIsland_PokemonCenter_1F/header.inc",
+        "data/maps/CinnabarIsland_PokemonCenter_1F/map.json",
+        "data/maps/CinnabarIsland_Mart/header.inc",
+        "data/maps/CinnabarIsland_Mart/map.json",
+        "data/maps/SevenIsland/header.inc",
+        "data/maps/SevenIsland/map.json",
+        "data/maps/SixIsland_DottedHole_B3F/header.inc",
+        "data/maps/SixIsland_DottedHole_B3F/map.json",
+        "data/maps/FuchsiaCity_House1/header.inc",
+        "data/maps/FuchsiaCity_House1/map.json",
+        "data/maps/SixIsland_WaterPath_House1/header.inc",
+        "data/maps/SixIsland_WaterPath_House1/map.json",
+        "data/maps/SSAnne_2F_Room6/header.inc",
+        "data/maps/SSAnne_2F_Room6/map.json",
+        "data/maps/SSAnne_2F_Room3/header.inc",
+        "data/maps/SSAnne_2F_Room3/map.json",
+        "data/maps/SixIsland_DottedHole_B2F/header.inc",
+        "data/maps/SixIsland_DottedHole_B2F/map.json",
+        "data/maps/SixIsland_DottedHole_B4F/header.inc",
+        "data/maps/SixIsland_DottedHole_B4F/map.json",
+        "data/maps/FiveIsland_House1/header.inc",
+        "data/maps/FiveIsland_House1/map.json",
+        "data/maps/SSAnne_Kitchen/header.inc",
+        "data/maps/SSAnne_Kitchen/map.json",
+        "data/maps/CinnabarIsland_PokemonLab_Entrance/header.inc",
+        "data/maps/CinnabarIsland_PokemonLab_Entrance/map.json",
+        "data/maps/SevenIsland_PokemonCenter_2F/header.inc",
+        "data/maps/SevenIsland_PokemonCenter_2F/map.json",
+        "data/maps/FourIsland_Harbor/header.inc",
+        "data/maps/FourIsland_Harbor/map.json",
+        "data/maps/CeruleanCity_House4/header.inc",
+        "data/maps/CeruleanCity_House4/map.json",
+        "data/maps/VermilionCity/header.inc",
+        "data/maps/VermilionCity/map.json",
+        "data/maps/Route11_EastEntrance_1F/header.inc",
+        "data/maps/Route11_EastEntrance_1F/map.json",
+        "data/maps/SSAnne_B1F_Room5/header.inc",
+        "data/maps/SSAnne_B1F_Room5/map.json",
+        "data/maps/FourIsland_House1/header.inc",
+        "data/maps/FourIsland_House1/map.json",
+        "data/maps/SSAnne_1F_Room4/header.inc",
+        "data/maps/SSAnne_1F_Room4/map.json",
+        "data/maps/ThreeIsland_Port/header.inc",
+        "data/maps/ThreeIsland_Port/map.json",
+        "data/maps/SSAnne_1F_Room2/header.inc",
+        "data/maps/SSAnne_1F_Room2/map.json",
+        "data/maps/SevenIsland_House_Room2/header.inc",
+        "data/maps/SevenIsland_House_Room2/map.json",
+        "data/maps/SSAnne_2F_Room5/header.inc",
+        "data/maps/SSAnne_2F_Room5/map.json",
+        "data/maps/FiveIsland_PokemonCenter_2F/header.inc",
+        "data/maps/FiveIsland_PokemonCenter_2F/map.json",
+        "data/maps/SSAnne_B1F_Room3/header.inc",
+        "data/maps/SSAnne_B1F_Room3/map.json",
+        "data/maps/CeruleanCity_PokemonCenter_2F/header.inc",
+        "data/maps/CeruleanCity_PokemonCenter_2F/map.json",
+        "data/maps/CeruleanCity_PokemonCenter_1F/header.inc",
+        "data/maps/CeruleanCity_PokemonCenter_1F/map.json",
+        "data/maps/FuchsiaCity_House3/header.inc",
+        "data/maps/FuchsiaCity_House3/map.json",
+        "data/maps/CeruleanCity_House2/header.inc",
+        "data/maps/CeruleanCity_House2/map.json",
+        "data/maps/FiveIsland/header.inc",
+        "data/maps/FiveIsland/map.json",
+        "data/maps/FourIsland_Mart/header.inc",
+        "data/maps/FourIsland_Mart/map.json",
+        "data/maps/FiveIsland_House2/header.inc",
+        "data/maps/FiveIsland_House2/map.json",
+        "data/maps/SevenIsland_UnusedHouse/header.inc",
+        "data/maps/SevenIsland_UnusedHouse/map.json",
+        "data/maps/FourIsland/header.inc",
+        "data/maps/FourIsland/map.json",
+        "data/maps/Route11_EastEntrance_2F/header.inc",
+        "data/maps/Route11_EastEntrance_2F/map.json",
+        "data/maps/SevenIsland_Mart/header.inc",
+        "data/maps/SevenIsland_Mart/map.json",
+        "data/maps/CinnabarIsland_PokemonLab_Lounge/header.inc",
+        "data/maps/CinnabarIsland_PokemonLab_Lounge/map.json",
+        "data/maps/SSAnne_Exterior/header.inc",
+        "data/maps/SSAnne_Exterior/map.json",
+        "data/maps/SixIsland_Mart/header.inc",
+        "data/maps/SixIsland_Mart/map.json",
+        "data/maps/OneIsland_PokemonCenter_1F/header.inc",
+        "data/maps/OneIsland_PokemonCenter_1F/map.json",
+        "data/maps/FuchsiaCity_WardensHouse/header.inc",
+        "data/maps/FuchsiaCity_WardensHouse/map.json",
+        "data/maps/SixIsland_PatternBush/header.inc",
+        "data/maps/SixIsland_PatternBush/map.json",
+        "data/maps/OneIsland_House2/header.inc",
+        "data/maps/OneIsland_House2/map.json",
+        "data/maps/FourIsland_PokemonDayCare/header.inc",
+        "data/maps/FourIsland_PokemonDayCare/map.json",
+        "data/maps/FuchsiaCity_PokemonCenter_2F/header.inc",
+        "data/maps/FuchsiaCity_PokemonCenter_2F/map.json",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 368,
+      "constant": "MUS_YOKAI_UPTOWN",
+      "compiled_header": "mus_celadon",
+      "original_sequence": "mus_celadon",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/PokemonLeague_LoreleisRoom/header.inc",
+        "data/maps/PokemonLeague_LoreleisRoom/map.json",
+        "data/maps/CeladonCity_Restaurant/header.inc",
+        "data/maps/CeladonCity_Restaurant/map.json",
+        "data/maps/SaffronCity_Mart/header.inc",
+        "data/maps/SaffronCity_Mart/map.json",
+        "data/maps/SaffronCity_MrPsychicsHouse/header.inc",
+        "data/maps/SaffronCity_MrPsychicsHouse/map.json",
+        "data/maps/BattleColosseum_4P/header.inc",
+        "data/maps/BattleColosseum_4P/map.json",
+        "data/maps/CeladonCity_PokemonCenter_1F/header.inc",
+        "data/maps/CeladonCity_PokemonCenter_1F/map.json",
+        "data/maps/SaffronCity_CopycatsHouse_2F/header.inc",
+        "data/maps/SaffronCity_CopycatsHouse_2F/map.json",
+        "data/maps/CeladonCity_DepartmentStore_2F/header.inc",
+        "data/maps/CeladonCity_DepartmentStore_2F/map.json",
+        "data/maps/ViridianCity_Gym/header.inc",
+        "data/maps/ViridianCity_Gym/map.json",
+        "data/maps/CeladonCity_GameCorner/header.inc",
+        "data/maps/CeladonCity_GameCorner/map.json",
+        "data/maps/CeladonCity_Condominiums_1F/header.inc",
+        "data/maps/CeladonCity_Condominiums_1F/map.json",
+        "data/maps/SaffronCity/header.inc",
+        "data/maps/SaffronCity/map.json",
+        "data/maps/CeladonCity_Condominiums_3F/header.inc",
+        "data/maps/CeladonCity_Condominiums_3F/map.json",
+        "data/maps/UnionRoom/header.inc",
+        "data/maps/UnionRoom/map.json",
+        "data/maps/SaffronCity_House/header.inc",
+        "data/maps/SaffronCity_House/map.json",
+        "data/maps/TradeCenter/header.inc",
+        "data/maps/TradeCenter/map.json",
+        "data/maps/SaffronCity_PokemonTrainerFanClub/header.inc",
+        "data/maps/SaffronCity_PokemonTrainerFanClub/map.json",
+        "data/maps/CeladonCity_Hotel/header.inc",
+        "data/maps/CeladonCity_Hotel/map.json",
+        "data/maps/CeladonCity_DepartmentStore_3F/header.inc",
+        "data/maps/CeladonCity_DepartmentStore_3F/map.json",
+        "data/maps/CeladonCity_House1/header.inc",
+        "data/maps/CeladonCity_House1/map.json",
+        "data/maps/CeladonCity_Condominiums_Roof/header.inc",
+        "data/maps/CeladonCity_Condominiums_Roof/map.json",
+        "data/maps/CeladonCity_Condominiums_RoofRoom/header.inc",
+        "data/maps/CeladonCity_Condominiums_RoofRoom/map.json",
+        "data/maps/CeladonCity_DepartmentStore_4F/header.inc",
+        "data/maps/CeladonCity_DepartmentStore_4F/map.json",
+        "data/maps/RecordCorner/header.inc",
+        "data/maps/RecordCorner/map.json",
+        "data/maps/CeladonCity/header.inc",
+        "data/maps/CeladonCity/map.json",
+        "data/maps/CeladonCity_DepartmentStore_Elevator/header.inc",
+        "data/maps/CeladonCity_DepartmentStore_Elevator/map.json",
+        "data/maps/CinnabarIsland_Gym/header.inc",
+        "data/maps/CinnabarIsland_Gym/map.json",
+        "data/maps/CeladonCity_DepartmentStore_1F/header.inc",
+        "data/maps/CeladonCity_DepartmentStore_1F/map.json",
+        "data/maps/VermilionCity_Gym/header.inc",
+        "data/maps/VermilionCity_Gym/map.json",
+        "data/maps/CeladonCity_DepartmentStore_5F/header.inc",
+        "data/maps/CeladonCity_DepartmentStore_5F/map.json",
+        "data/maps/FuchsiaCity_Gym/header.inc",
+        "data/maps/FuchsiaCity_Gym/map.json",
+        "data/maps/SaffronCity_CopycatsHouse_1F/header.inc",
+        "data/maps/SaffronCity_CopycatsHouse_1F/map.json",
+        "data/maps/PewterCity_Gym/header.inc",
+        "data/maps/PewterCity_Gym/map.json",
+        "data/maps/SaffronCity_PokemonCenter_1F/header.inc",
+        "data/maps/SaffronCity_PokemonCenter_1F/map.json",
+        "data/maps/CeladonCity_Gym/header.inc",
+        "data/maps/CeladonCity_Gym/map.json",
+        "data/maps/BattleColosseum_2P/header.inc",
+        "data/maps/BattleColosseum_2P/map.json",
+        "data/maps/CeruleanCity_Gym/header.inc",
+        "data/maps/CeruleanCity_Gym/map.json",
+        "data/maps/CeladonCity_DepartmentStore_Roof/header.inc",
+        "data/maps/CeladonCity_DepartmentStore_Roof/map.json",
+        "data/maps/SilphCo_Elevator/header.inc",
+        "data/maps/SilphCo_Elevator/map.json",
+        "data/maps/CeladonCity_Condominiums_2F/header.inc",
+        "data/maps/CeladonCity_Condominiums_2F/map.json",
+        "data/maps/SaffronCity_Gym/header.inc",
+        "data/maps/SaffronCity_Gym/map.json",
+        "data/maps/CeladonCity_PokemonCenter_2F/header.inc",
+        "data/maps/CeladonCity_PokemonCenter_2F/map.json",
+        "data/maps/SaffronCity_PokemonCenter_2F/header.inc",
+        "data/maps/SaffronCity_PokemonCenter_2F/map.json",
+        "data/maps/SaffronCity_Connection/header.inc",
+        "data/maps/SaffronCity_Connection/map.json",
+        "data/maps/CeladonCity_GameCorner_PrizeRoom/header.inc",
+        "data/maps/CeladonCity_GameCorner_PrizeRoom/map.json",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 369,
+      "constant": "MUS_YOKAI_MYSTIC_GROVE",
+      "compiled_header": "mus_mt_moon",
+      "original_sequence": "mus_mt_moon",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/PokemonLeague_AgathasRoom/header.inc",
+        "data/maps/PokemonLeague_AgathasRoom/map.json",
+        "data/maps/IndigoPlateau_PokemonCenter_1F/header.inc",
+        "data/maps/IndigoPlateau_PokemonCenter_1F/map.json",
+        "data/maps/CeruleanCave_2F/header.inc",
+        "data/maps/CeruleanCave_2F/map.json",
+        "data/maps/SeafoamIslands_B2F/header.inc",
+        "data/maps/SeafoamIslands_B2F/map.json",
+        "data/maps/SafariZone_North_RestHouse/header.inc",
+        "data/maps/SafariZone_North_RestHouse/map.json",
+        "data/maps/LavenderTown_PokemonCenter_2F/header.inc",
+        "data/maps/LavenderTown_PokemonCenter_2F/map.json",
+        "data/maps/IndigoPlateau_PokemonCenter_2F/header.inc",
+        "data/maps/IndigoPlateau_PokemonCenter_2F/map.json",
+        "data/maps/SeafoamIslands_B3F/header.inc",
+        "data/maps/SeafoamIslands_B3F/map.json",
+        "data/maps/LavenderTown_Mart/header.inc",
+        "data/maps/LavenderTown_Mart/map.json",
+        "data/maps/ThreeIsland_BerryForest/header.inc",
+        "data/maps/ThreeIsland_BerryForest/map.json",
+        "data/maps/LavenderTown_House2/header.inc",
+        "data/maps/LavenderTown_House2/map.json",
+        "data/maps/SeafoamIslands_B4F/header.inc",
+        "data/maps/SeafoamIslands_B4F/map.json",
+        "data/maps/SafariZone_Center/header.inc",
+        "data/maps/SafariZone_Center/map.json",
+        "data/maps/CeruleanCave_1F/header.inc",
+        "data/maps/CeruleanCave_1F/map.json",
+        "data/maps/ViridianForest/header.inc",
+        "data/maps/ViridianForest/map.json",
+        "data/maps/SeafoamIslands_1F/header.inc",
+        "data/maps/SeafoamIslands_1F/map.json",
+        "data/maps/SafariZone_East/header.inc",
+        "data/maps/SafariZone_East/map.json",
+        "data/maps/SafariZone_West_RestHouse/header.inc",
+        "data/maps/SafariZone_West_RestHouse/map.json",
+        "data/maps/SafariZone_North/header.inc",
+        "data/maps/SafariZone_North/map.json",
+        "data/maps/SafariZone_West/header.inc",
+        "data/maps/SafariZone_West/map.json",
+        "data/maps/DiglettsCave_NorthEntrance/header.inc",
+        "data/maps/DiglettsCave_NorthEntrance/map.json",
+        "data/maps/SafariZone_SecretHouse/header.inc",
+        "data/maps/SafariZone_SecretHouse/map.json",
+        "data/maps/SevenIsland_TanobyRuins_MoneanChamber/header.inc",
+        "data/maps/SevenIsland_TanobyRuins_MoneanChamber/map.json",
+        "data/maps/SafariZone_Center_RestHouse/header.inc",
+        "data/maps/SafariZone_Center_RestHouse/map.json",
+        "data/maps/LavenderTown_House1/header.inc",
+        "data/maps/LavenderTown_House1/map.json",
+        "data/maps/SevenIsland_TanobyRuins_LiptooChamber/header.inc",
+        "data/maps/SevenIsland_TanobyRuins_LiptooChamber/map.json",
+        "data/maps/SevenIsland_TanobyRuins_WeepthChamber/header.inc",
+        "data/maps/SevenIsland_TanobyRuins_WeepthChamber/map.json",
+        "data/maps/CeruleanCave_B1F/header.inc",
+        "data/maps/CeruleanCave_B1F/map.json",
+        "data/maps/SevenIsland_TanobyRuins_ViapoisChamber/header.inc",
+        "data/maps/SevenIsland_TanobyRuins_ViapoisChamber/map.json",
+        "data/maps/SafariZone_East_RestHouse/header.inc",
+        "data/maps/SafariZone_East_RestHouse/map.json",
+        "data/maps/SevenIsland_SevaultCanyon_TanobyKey/header.inc",
+        "data/maps/SevenIsland_SevaultCanyon_TanobyKey/map.json",
+        "data/maps/LavenderTown_VolunteerPokemonHouse/header.inc",
+        "data/maps/LavenderTown_VolunteerPokemonHouse/map.json",
+        "data/maps/SevenIsland_TanobyRuins_ScufibChamber/header.inc",
+        "data/maps/SevenIsland_TanobyRuins_ScufibChamber/map.json",
+        "data/maps/LavenderTown_PokemonCenter_1F/header.inc",
+        "data/maps/LavenderTown_PokemonCenter_1F/map.json",
+        "data/maps/DiglettsCave_B1F/header.inc",
+        "data/maps/DiglettsCave_B1F/map.json",
+        "data/maps/IndigoPlateau_Exterior/header.inc",
+        "data/maps/IndigoPlateau_Exterior/map.json",
+        "data/maps/SeafoamIslands_B1F/header.inc",
+        "data/maps/SeafoamIslands_B1F/map.json",
+        "data/maps/SevenIsland_TanobyRuins_RixyChamber/header.inc",
+        "data/maps/SevenIsland_TanobyRuins_RixyChamber/map.json",
+        "data/maps/DiglettsCave_SouthEntrance/header.inc",
+        "data/maps/DiglettsCave_SouthEntrance/map.json",
+        "data/maps/SevenIsland_TanobyRuins_DilfordChamber/header.inc",
+        "data/maps/SevenIsland_TanobyRuins_DilfordChamber/map.json",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 370,
+      "constant": "MUS_YOKAI_HOPPERS_GORGE",
+      "compiled_header": "mus_mt_moon",
+      "original_sequence": "mus_mt_moon",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/NavelRock_1F/header.inc",
+        "data/maps/NavelRock_1F/map.json",
+        "data/maps/NavelRock_BasePath_B3F/header.inc",
+        "data/maps/NavelRock_BasePath_B3F/map.json",
+        "data/maps/FiveIsland_LostCave_Room12/header.inc",
+        "data/maps/FiveIsland_LostCave_Room12/map.json",
+        "data/maps/NavelRock_SummitPath_5F/header.inc",
+        "data/maps/NavelRock_SummitPath_5F/map.json",
+        "data/maps/MtEmber_RubyPath_B2F/header.inc",
+        "data/maps/MtEmber_RubyPath_B2F/map.json",
+        "data/maps/MtEmber_Exterior/header.inc",
+        "data/maps/MtEmber_Exterior/map.json",
+        "data/maps/FiveIsland_LostCave_Room3/header.inc",
+        "data/maps/FiveIsland_LostCave_Room3/map.json",
+        "data/maps/FiveIsland_LostCave_Room8/header.inc",
+        "data/maps/FiveIsland_LostCave_Room8/map.json",
+        "data/maps/PowerPlant/header.inc",
+        "data/maps/PowerPlant/map.json",
+        "data/maps/NavelRock_BasePath_B10F/header.inc",
+        "data/maps/NavelRock_BasePath_B10F/map.json",
+        "data/maps/MtMoon_1F/header.inc",
+        "data/maps/MtMoon_1F/map.json",
+        "data/maps/NavelRock_BasePath_B6F/header.inc",
+        "data/maps/NavelRock_BasePath_B6F/map.json",
+        "data/maps/NavelRock_BasePath_B4F/header.inc",
+        "data/maps/NavelRock_BasePath_B4F/map.json",
+        "data/maps/FiveIsland_LostCave_Entrance/header.inc",
+        "data/maps/FiveIsland_LostCave_Entrance/map.json",
+        "data/maps/MtEmber_RubyPath_B4F/header.inc",
+        "data/maps/MtEmber_RubyPath_B4F/map.json",
+        "data/maps/FiveIsland_LostCave_Room4/header.inc",
+        "data/maps/FiveIsland_LostCave_Room4/map.json",
+        "data/maps/NavelRock_BasePath_B9F/header.inc",
+        "data/maps/NavelRock_BasePath_B9F/map.json",
+        "data/maps/NavelRock_Base/header.inc",
+        "data/maps/NavelRock_Base/map.json",
+        "data/maps/MtEmber_SummitPath_3F/header.inc",
+        "data/maps/MtEmber_SummitPath_3F/map.json",
+        "data/maps/RockTunnel_1F/header.inc",
+        "data/maps/RockTunnel_1F/map.json",
+        "data/maps/NavelRock_SummitPath_2F/header.inc",
+        "data/maps/NavelRock_SummitPath_2F/map.json",
+        "data/maps/FiveIsland_LostCave_Room9/header.inc",
+        "data/maps/FiveIsland_LostCave_Room9/map.json",
+        "data/maps/FiveIsland_LostCave_Room1/header.inc",
+        "data/maps/FiveIsland_LostCave_Room1/map.json",
+        "data/maps/FiveIsland_LostCave_Room2/header.inc",
+        "data/maps/FiveIsland_LostCave_Room2/map.json",
+        "data/maps/MtEmber_Summit/header.inc",
+        "data/maps/MtEmber_Summit/map.json",
+        "data/maps/MtMoon_B2F/header.inc",
+        "data/maps/MtMoon_B2F/map.json",
+        "data/maps/NavelRock_Fork/header.inc",
+        "data/maps/NavelRock_Fork/map.json",
+        "data/maps/RockTunnel_B1F/header.inc",
+        "data/maps/RockTunnel_B1F/map.json",
+        "data/maps/ThreeIsland_DunsparceTunnel/header.inc",
+        "data/maps/ThreeIsland_DunsparceTunnel/map.json",
+        "data/maps/MtEmber_RubyPath_B5F/header.inc",
+        "data/maps/MtEmber_RubyPath_B5F/map.json",
+        "data/maps/NavelRock_BasePath_B1F/header.inc",
+        "data/maps/NavelRock_BasePath_B1F/map.json",
+        "data/maps/MtEmber_RubyPath_B1F/header.inc",
+        "data/maps/MtEmber_RubyPath_B1F/map.json",
+        "data/maps/MtEmber_RubyPath_1F/header.inc",
+        "data/maps/MtEmber_RubyPath_1F/map.json",
+        "data/maps/FiveIsland_LostCave_Room13/header.inc",
+        "data/maps/FiveIsland_LostCave_Room13/map.json",
+        "data/maps/FiveIsland_LostCave_Room5/header.inc",
+        "data/maps/FiveIsland_LostCave_Room5/map.json",
+        "data/maps/FiveIsland_LostCave_Room10/header.inc",
+        "data/maps/FiveIsland_LostCave_Room10/map.json",
+        "data/maps/NavelRock_B1F/header.inc",
+        "data/maps/NavelRock_B1F/map.json",
+        "data/maps/FourIsland_IcefallCave_B1F/header.inc",
+        "data/maps/FourIsland_IcefallCave_B1F/map.json",
+        "data/maps/NavelRock_SummitPath_4F/header.inc",
+        "data/maps/NavelRock_SummitPath_4F/map.json",
+        "data/maps/NavelRock_BasePath_B7F/header.inc",
+        "data/maps/NavelRock_BasePath_B7F/map.json",
+        "data/maps/FiveIsland_LostCave_Room14/header.inc",
+        "data/maps/FiveIsland_LostCave_Room14/map.json",
+        "data/maps/MtEmber_SummitPath_1F/header.inc",
+        "data/maps/MtEmber_SummitPath_1F/map.json",
+        "data/maps/MtEmber_SummitPath_2F/header.inc",
+        "data/maps/MtEmber_SummitPath_2F/map.json",
+        "data/maps/FiveIsland_LostCave_Room7/header.inc",
+        "data/maps/FiveIsland_LostCave_Room7/map.json",
+        "data/maps/NavelRock_SummitPath_3F/header.inc",
+        "data/maps/NavelRock_SummitPath_3F/map.json",
+        "data/maps/MtEmber_RubyPath_B1F_Stairs/header.inc",
+        "data/maps/MtEmber_RubyPath_B1F_Stairs/map.json",
+        "data/maps/NavelRock_BasePath_B5F/header.inc",
+        "data/maps/NavelRock_BasePath_B5F/map.json",
+        "data/maps/MtEmber_RubyPath_B3F/header.inc",
+        "data/maps/MtEmber_RubyPath_B3F/map.json",
+        "data/maps/NavelRock_BasePath_B2F/header.inc",
+        "data/maps/NavelRock_BasePath_B2F/map.json",
+        "data/maps/FourIsland_IcefallCave_Entrance/header.inc",
+        "data/maps/FourIsland_IcefallCave_Entrance/map.json",
+        "data/maps/NavelRock_BasePath_B8F/header.inc",
+        "data/maps/NavelRock_BasePath_B8F/map.json",
+        "data/maps/NavelRock_Summit/header.inc",
+        "data/maps/NavelRock_Summit/map.json",
+        "data/maps/VictoryRoad_2F/header.inc",
+        "data/maps/VictoryRoad_2F/map.json",
+        "data/maps/FourIsland_IcefallCave_Back/header.inc",
+        "data/maps/FourIsland_IcefallCave_Back/map.json",
+        "data/maps/FiveIsland_LostCave_Room6/header.inc",
+        "data/maps/FiveIsland_LostCave_Room6/map.json",
+        "data/maps/FourIsland_IcefallCave_1F/header.inc",
+        "data/maps/FourIsland_IcefallCave_1F/map.json",
+        "data/maps/MtEmber_RubyPath_B2F_Stairs/header.inc",
+        "data/maps/MtEmber_RubyPath_B2F_Stairs/map.json",
+        "data/maps/FiveIsland_LostCave_Room11/header.inc",
+        "data/maps/FiveIsland_LostCave_Room11/map.json",
+        "data/maps/VictoryRoad_1F/header.inc",
+        "data/maps/VictoryRoad_1F/map.json",
+        "data/maps/NavelRock_BasePath_B11F/header.inc",
+        "data/maps/NavelRock_BasePath_B11F/map.json",
+        "data/maps/VictoryRoad_3F/header.inc",
+        "data/maps/VictoryRoad_3F/map.json",
+        "data/maps/MtMoon_B1F/header.inc",
+        "data/maps/MtMoon_B1F/map.json",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 371,
+      "constant": "MUS_YOKAI_FINAL_BATTLE",
+      "compiled_header": "mus_vs_champion",
+      "original_sequence": "mus_vs_champion",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/pokemon.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 372,
+      "constant": "MUS_YOKAI_TAKE_CARE",
+      "compiled_header": "mus_slow_pallet",
+      "original_sequence": "mus_slow_pallet",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/PokemonLeague_HallOfFame/header.inc",
+        "data/maps/PokemonLeague_HallOfFame/map.json",
+        "data/maps/PokemonLeague_ChampionsRoom/scripts.inc",
+        "data/maps/PokemonLeague_ChampionsRoom/spiraton.inc",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 373,
+      "constant": "MUS_YOKAI_PATROL_MISSION",
+      "compiled_header": "mus_route1",
+      "original_sequence": "mus_route1",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/FiveIsland_MemorialPillar/header.inc",
+        "data/maps/FiveIsland_MemorialPillar/map.json",
+        "data/maps/Route8_WestEntrance/header.inc",
+        "data/maps/Route8_WestEntrance/map.json",
+        "data/maps/Route2_House/header.inc",
+        "data/maps/Route2_House/map.json",
+        "data/maps/Route13/header.inc",
+        "data/maps/Route13/map.json",
+        "data/maps/SixIsland_RuinValley/header.inc",
+        "data/maps/SixIsland_RuinValley/map.json",
+        "data/maps/Route5_PokemonDayCare/header.inc",
+        "data/maps/Route5_PokemonDayCare/map.json",
+        "data/maps/FiveIsland_ResortGorgeous_House/header.inc",
+        "data/maps/FiveIsland_ResortGorgeous_House/map.json",
+        "data/maps/OneIsland_TreasureBeach/header.inc",
+        "data/maps/OneIsland_TreasureBeach/map.json",
+        "data/maps/SevenIsland_TrainerTower/header.inc",
+        "data/maps/SevenIsland_TrainerTower/map.json",
+        "data/maps/Route7/header.inc",
+        "data/maps/Route7/map.json",
+        "data/maps/Route2/header.inc",
+        "data/maps/Route2/map.json",
+        "data/maps/Route16_NorthEntrance_1F/header.inc",
+        "data/maps/Route16_NorthEntrance_1F/map.json",
+        "data/maps/Route15_WestEntrance_1F/header.inc",
+        "data/maps/Route15_WestEntrance_1F/map.json",
+        "data/maps/Route20/header.inc",
+        "data/maps/Route20/map.json",
+        "data/maps/Route2_EastBuilding/header.inc",
+        "data/maps/Route2_EastBuilding/map.json",
+        "data/maps/Route15/header.inc",
+        "data/maps/Route15/map.json",
+        "data/maps/SevenIsland_TanobyRuins/header.inc",
+        "data/maps/SevenIsland_TanobyRuins/map.json",
+        "data/maps/Route5_SouthEntrance/header.inc",
+        "data/maps/Route5_SouthEntrance/map.json",
+        "data/maps/Route22/header.inc",
+        "data/maps/Route22/map.json",
+        "data/maps/SevenIsland_SevaultCanyon_Entrance/header.inc",
+        "data/maps/SevenIsland_SevaultCanyon_Entrance/map.json",
+        "data/maps/Route19_UnusedHouse/header.inc",
+        "data/maps/Route19_UnusedHouse/map.json",
+        "data/maps/FiveIsland_WaterLabyrinth/header.inc",
+        "data/maps/FiveIsland_WaterLabyrinth/map.json",
+        "data/maps/Route21_North/header.inc",
+        "data/maps/Route21_North/map.json",
+        "data/maps/Route14/header.inc",
+        "data/maps/Route14/map.json",
+        "data/maps/Route4/header.inc",
+        "data/maps/Route4/map.json",
+        "data/maps/Route6_UnusedHouse/header.inc",
+        "data/maps/Route6_UnusedHouse/map.json",
+        "data/maps/Route12_NorthEntrance_2F/header.inc",
+        "data/maps/Route12_NorthEntrance_2F/map.json",
+        "data/maps/NavelRock_Harbor/header.inc",
+        "data/maps/NavelRock_Harbor/map.json",
+        "data/maps/Route22_NorthEntrance/header.inc",
+        "data/maps/Route22_NorthEntrance/map.json",
+        "data/maps/Prototype_SeviiIsle_8/header.inc",
+        "data/maps/Prototype_SeviiIsle_8/map.json",
+        "data/maps/UndergroundPath_NorthSouthTunnel/header.inc",
+        "data/maps/UndergroundPath_NorthSouthTunnel/map.json",
+        "data/maps/SixIsland_GreenPath/header.inc",
+        "data/maps/SixIsland_GreenPath/map.json",
+        "data/maps/Route19/header.inc",
+        "data/maps/Route19/map.json",
+        "data/maps/Route7_EastEntrance/header.inc",
+        "data/maps/Route7_EastEntrance/map.json",
+        "data/maps/FiveIsland_ResortGorgeous/header.inc",
+        "data/maps/FiveIsland_ResortGorgeous/map.json",
+        "data/maps/Route18_EastEntrance_2F/header.inc",
+        "data/maps/Route18_EastEntrance_2F/map.json",
+        "data/maps/Route2_ViridianForest_SouthEntrance/header.inc",
+        "data/maps/Route2_ViridianForest_SouthEntrance/map.json",
+        "data/maps/Route2_ViridianForest_NorthEntrance/header.inc",
+        "data/maps/Route2_ViridianForest_NorthEntrance/map.json",
+        "data/maps/Route16_House/header.inc",
+        "data/maps/Route16_House/map.json",
+        "data/maps/Route6/header.inc",
+        "data/maps/Route6/map.json",
+        "data/maps/Route5/header.inc",
+        "data/maps/Route5/map.json",
+        "data/maps/Prototype_SeviiIsle_9/header.inc",
+        "data/maps/Prototype_SeviiIsle_9/map.json",
+        "data/maps/Route18_EastEntrance_1F/header.inc",
+        "data/maps/Route18_EastEntrance_1F/map.json",
+        "data/maps/Route8/header.inc",
+        "data/maps/Route8/map.json",
+        "data/maps/Route12_NorthEntrance_1F/header.inc",
+        "data/maps/Route12_NorthEntrance_1F/map.json",
+        "data/maps/ThreeIsland_BondBridge/header.inc",
+        "data/maps/ThreeIsland_BondBridge/map.json",
+        "data/maps/Route18/header.inc",
+        "data/maps/Route18/map.json",
+        "data/maps/Route15_WestEntrance_2F/header.inc",
+        "data/maps/Route15_WestEntrance_2F/map.json",
+        "data/maps/Route16_NorthEntrance_2F/header.inc",
+        "data/maps/Route16_NorthEntrance_2F/map.json",
+        "data/maps/FiveIsland_Meadow/header.inc",
+        "data/maps/FiveIsland_Meadow/map.json",
+        "data/maps/UndergroundPath_EastWestTunnel/header.inc",
+        "data/maps/UndergroundPath_EastWestTunnel/map.json",
+        "data/maps/SixIsland_OutcastIsland/header.inc",
+        "data/maps/SixIsland_OutcastIsland/map.json",
+        "data/maps/SixIsland_WaterPath/header.inc",
+        "data/maps/SixIsland_WaterPath/map.json",
+        "data/maps/Route6_NorthEntrance/header.inc",
+        "data/maps/Route6_NorthEntrance/map.json",
+        "data/maps/Route9/header.inc",
+        "data/maps/Route9/map.json",
+        "data/maps/OneIsland_KindleRoad/header.inc",
+        "data/maps/OneIsland_KindleRoad/map.json",
+        "data/maps/Route4_PokemonCenter_1F/header.inc",
+        "data/maps/Route4_PokemonCenter_1F/map.json",
+        "data/maps/SevenIsland_SevaultCanyon_House/header.inc",
+        "data/maps/SevenIsland_SevaultCanyon_House/map.json",
+        "data/maps/Route12/header.inc",
+        "data/maps/Route12/map.json",
+        "data/maps/Route25_SeaCottage/header.inc",
+        "data/maps/Route25_SeaCottage/map.json",
+        "data/maps/Route4_PokemonCenter_2F/header.inc",
+        "data/maps/Route4_PokemonCenter_2F/map.json",
+        "data/maps/Route24/header.inc",
+        "data/maps/Route24/map.json",
+        "data/maps/Route21_South/header.inc",
+        "data/maps/Route21_South/map.json",
+        "data/maps/Prototype_SeviiIsle_6/header.inc",
+        "data/maps/Prototype_SeviiIsle_6/map.json",
+        "data/maps/NavelRock_Exterior/header.inc",
+        "data/maps/NavelRock_Exterior/map.json",
+        "data/maps/Route17/header.inc",
+        "data/maps/Route17/map.json",
+        "data/maps/Route10_PokemonCenter_2F/header.inc",
+        "data/maps/Route10_PokemonCenter_2F/map.json",
+        "data/maps/Prototype_SeviiIsle_7/header.inc",
+        "data/maps/Prototype_SeviiIsle_7/map.json",
+        "data/maps/TwoIsland_CapeBrink/header.inc",
+        "data/maps/TwoIsland_CapeBrink/map.json",
+        "data/maps/Route3/header.inc",
+        "data/maps/Route3/map.json",
+        "data/maps/Route12_FishingHouse/header.inc",
+        "data/maps/Route12_FishingHouse/map.json",
+        "data/maps/Route10/header.inc",
+        "data/maps/Route10/map.json",
+        "data/maps/Route16/header.inc",
+        "data/maps/Route16/map.json",
+        "data/maps/OneIsland_KindleRoad_EmberSpa/header.inc",
+        "data/maps/OneIsland_KindleRoad_EmberSpa/map.json",
+        "data/maps/Route25/header.inc",
+        "data/maps/Route25/map.json",
+        "data/maps/Route10_PokemonCenter_1F/header.inc",
+        "data/maps/Route10_PokemonCenter_1F/map.json",
+        "data/maps/SevenIsland_SevaultCanyon/header.inc",
+        "data/maps/SevenIsland_SevaultCanyon/map.json",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 374,
+      "constant": "MUS_YOKAI_VS_YOKAI",
+      "compiled_header": "mus_vs_trainer",
+      "original_sequence": "mus_vs_trainer",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/pokemon.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 375,
+      "constant": "MUS_YOKAI_BOSS_YOKAI",
+      "compiled_header": "mus_vs_gym_leader",
+      "original_sequence": "mus_vs_gym_leader",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/TrainerTower_6F/header.inc",
+        "data/maps/TrainerTower_6F/map.json",
+        "data/maps/TrainerTower_1F/header.inc",
+        "data/maps/TrainerTower_1F/map.json",
+        "data/maps/TrainerTower_Roof/header.inc",
+        "data/maps/TrainerTower_Roof/map.json",
+        "data/maps/TrainerTower_2F/header.inc",
+        "data/maps/TrainerTower_2F/map.json",
+        "data/maps/TrainerTower_8F/header.inc",
+        "data/maps/TrainerTower_8F/map.json",
+        "data/maps/TrainerTower_Lobby/header.inc",
+        "data/maps/TrainerTower_Lobby/map.json",
+        "data/maps/TrainerTower_5F/header.inc",
+        "data/maps/TrainerTower_5F/map.json",
+        "data/maps/TrainerTower_4F/header.inc",
+        "data/maps/TrainerTower_4F/map.json",
+        "data/maps/TrainerTower_Elevator/header.inc",
+        "data/maps/TrainerTower_Elevator/map.json",
+        "data/maps/TrainerTower_7F/header.inc",
+        "data/maps/TrainerTower_7F/map.json",
+        "data/maps/TrainerTower_3F/header.inc",
+        "data/maps/TrainerTower_3F/map.json",
+        "src/pokemon.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 376,
+      "constant": "MUS_YOKAI_CURIOUS",
+      "compiled_header": "mus_title",
+      "original_sequence": "mus_title",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "src/yokai_presentation.c",
+        "src/oak_speech.c",
+        "src/intro.c",
+        "src/title_screen.c",
+        "src/data/yokai_mixer_gains.h",
+        "src/data/yokai_music_aliases.h"
+      ]
+    },
+    {
+      "id": 377,
+      "constant": "MUS_YOKAI_ARIANE",
+      "compiled_header": "mus_route24",
+      "original_sequence": "mus_route24",
+      "status": "retained public fallback / reserved / functional cue",
+      "token_reference_paths": [
+        "data/maps/Route25/scripts.inc",
+        "src/data/yokai_mixer_gains.h"
+      ]
+    }
+  ],
+  "voicegroups": {
+    "voicegroup000": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup001",
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup005"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_fretless_bass",
+        "DirectSoundWaveData_sc88pro_glockenspiel",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sc88pro_slap_bass",
+        "DirectSoundWaveData_sc88pro_synth_bass",
+        "DirectSoundWaveData_sc88pro_timpani"
+      ]
+    },
+    "voicegroup001": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [],
+      "samples": [
+        "DirectSoundWaveData_classical_choir_voice_ahhs"
+      ]
+    },
+    "voicegroup002": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [],
+      "samples": [
+        "DirectSoundWaveData_dance_drums_ride_bell",
+        "DirectSoundWaveData_drum_and_percussion_kick",
+        "DirectSoundWaveData_ethnic_flavours_atarigane",
+        "DirectSoundWaveData_ethnic_flavours_hyoushigi",
+        "DirectSoundWaveData_ethnic_flavours_kotsuzumi",
+        "DirectSoundWaveData_ethnic_flavours_ohtsuzumi",
+        "DirectSoundWaveData_sc88pro_jingle_bell",
+        "DirectSoundWaveData_sc88pro_mute_high_conga",
+        "DirectSoundWaveData_sc88pro_open_low_conga",
+        "DirectSoundWaveData_sc88pro_orchestra_cymbal_crash",
+        "DirectSoundWaveData_sc88pro_orchestra_snare",
+        "DirectSoundWaveData_sc88pro_rnd_kick",
+        "DirectSoundWaveData_sc88pro_rnd_snare",
+        "DirectSoundWaveData_sc88pro_taiko",
+        "DirectSoundWaveData_sc88pro_tambourine",
+        "DirectSoundWaveData_sc88pro_tr909_hand_clap",
+        "DirectSoundWaveData_sd90_ambient_tom",
+        "DirectSoundWaveData_sd90_classical_oboe",
+        "DirectSoundWaveData_sd90_cowbell",
+        "DirectSoundWaveData_sd90_open_triangle",
+        "DirectSoundWaveData_sd90_solo_snare",
+        "DirectSoundWaveData_trinity_cymbal_crash",
+        "DirectSoundWaveData_unknown_snare",
+        "DirectSoundWaveData_unused_guitar_separates_power_chord",
+        "DirectSoundWaveData_unused_heart_of_asia_indian_drum",
+        "DirectSoundWaveData_unused_sc88pro_unison_slap",
+        "DirectSoundWaveData_unused_sd90_oboe"
+      ]
+    },
+    "voicegroup003": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_piano1_48",
+        "DirectSoundWaveData_sc88pro_piano1_60",
+        "DirectSoundWaveData_sc88pro_piano1_72",
+        "DirectSoundWaveData_sc88pro_piano1_84"
+      ]
+    },
+    "voicegroup004": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_string_ensemble_60",
+        "DirectSoundWaveData_sc88pro_string_ensemble_72",
+        "DirectSoundWaveData_sc88pro_string_ensemble_84"
+      ]
+    },
+    "voicegroup005": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_trumpet_60",
+        "DirectSoundWaveData_sc88pro_trumpet_72",
+        "DirectSoundWaveData_sc88pro_trumpet_84"
+      ]
+    },
+    "voicegroup006": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_tuba_39",
+        "DirectSoundWaveData_sc88pro_tuba_51"
+      ]
+    },
+    "voicegroup007": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_french_horn_60",
+        "DirectSoundWaveData_sc88pro_french_horn_72"
+      ]
+    },
+    "voicegroup008": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup001",
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup006",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_flute",
+        "DirectSoundWaveData_sc88pro_glockenspiel",
+        "DirectSoundWaveData_sc88pro_harp",
+        "DirectSoundWaveData_sc88pro_timpani",
+        "DirectSoundWaveData_sc88pro_xylophone",
+        "DirectSoundWaveData_trinity_30303_mega_bass"
+      ]
+    },
+    "voicegroup009": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup001",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_timpani"
+      ]
+    },
+    "voicegroup010": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup001",
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_fingered_bass",
+        "DirectSoundWaveData_sc88pro_pizzicato_strings",
+        "DirectSoundWaveData_sc88pro_timpani"
+      ]
+    },
+    "voicegroup011": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup001",
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_fingered_bass",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sc88pro_timpani",
+        "DirectSoundWaveData_sc88pro_timpani_with_snare"
+      ]
+    },
+    "voicegroup012": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup003"
+      ],
+      "samples": []
+    },
+    "voicegroup127": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup004"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_square_wave",
+        "DirectSoundWaveData_sc88pro_timpani",
+        "DirectSoundWaveData_unknown_synth_snare"
+      ]
+    },
+    "voicegroup128": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [],
+      "samples": [
+        "DirectSoundWaveData_bicycle_bell",
+        "DirectSoundWaveData_sc88pro_accordion",
+        "DirectSoundWaveData_sc88pro_bubbles",
+        "DirectSoundWaveData_sc88pro_french_horn_72",
+        "DirectSoundWaveData_sc88pro_fretless_bass",
+        "DirectSoundWaveData_sc88pro_glockenspiel",
+        "DirectSoundWaveData_sc88pro_harp",
+        "DirectSoundWaveData_sc88pro_orchestra_cymbal_crash",
+        "DirectSoundWaveData_sc88pro_orchestra_snare",
+        "DirectSoundWaveData_sc88pro_pizzicato_strings",
+        "DirectSoundWaveData_sc88pro_rnd_snare",
+        "DirectSoundWaveData_sc88pro_slap_bass",
+        "DirectSoundWaveData_sc88pro_square_wave",
+        "DirectSoundWaveData_sc88pro_string_ensemble_72",
+        "DirectSoundWaveData_sc88pro_synth_bass",
+        "DirectSoundWaveData_sc88pro_timpani",
+        "DirectSoundWaveData_sc88pro_tr909_hand_clap",
+        "DirectSoundWaveData_sc88pro_tubular_bell",
+        "DirectSoundWaveData_sc88pro_wind",
+        "DirectSoundWaveData_sc88pro_xylophone",
+        "DirectSoundWaveData_trinity_30303_mega_bass",
+        "DirectSoundWaveData_trinity_big_boned",
+        "DirectSoundWaveData_unknown_close_hihat",
+        "DirectSoundWaveData_unknown_synth_snare",
+        "DirectSoundWaveData_unused_sc55_tom",
+        "DirectSoundWaveData_wave_54",
+        "DirectSoundWaveData_wave_56",
+        "DirectSoundWaveData_wave_57",
+        "DirectSoundWaveData_wave_58",
+        "DirectSoundWaveData_wave_61",
+        "DirectSoundWaveData_wave_62",
+        "DirectSoundWaveData_wave_64",
+        "DirectSoundWaveData_wave_65",
+        "DirectSoundWaveData_wave_68",
+        "DirectSoundWaveData_wave_72",
+        "DirectSoundWaveData_wave_73"
+      ]
+    },
+    "voicegroup129": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup006"
+      ],
+      "samples": [
+        "DirectSoundWaveData_dance_drums_ride_bell",
+        "DirectSoundWaveData_ethnic_flavours_hyoushigi",
+        "DirectSoundWaveData_ethnic_flavours_ohtsuzumi",
+        "DirectSoundWaveData_register_noise",
+        "DirectSoundWaveData_sc88pro_accordion",
+        "DirectSoundWaveData_sc88pro_harp",
+        "DirectSoundWaveData_sc88pro_mute_high_conga",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_open_low_conga",
+        "DirectSoundWaveData_sc88pro_square_wave",
+        "DirectSoundWaveData_sc88pro_tr909_hand_clap",
+        "DirectSoundWaveData_sd90_open_triangle",
+        "DirectSoundWaveData_sd90_special_scream_drive",
+        "DirectSoundWaveData_wave_54",
+        "DirectSoundWaveData_wave_77"
+      ]
+    },
+    "voicegroup130": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup001"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_accordion_duplicate"
+      ]
+    },
+    "voicegroup131": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_steinway_b_piano"
+      ]
+    },
+    "voicegroup132": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup006",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_flute",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sc88pro_timpani",
+        "DirectSoundWaveData_sc88pro_tubular_bell"
+      ]
+    },
+    "voicegroup133": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_ethnic_flavours_atarigane",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sc88pro_square_wave",
+        "DirectSoundWaveData_sc88pro_synth_bass",
+        "DirectSoundWaveData_sc88pro_timpani",
+        "DirectSoundWaveData_sc88pro_tubular_bell",
+        "DirectSoundWaveData_sd90_classical_distortion_guitar_high",
+        "DirectSoundWaveData_sd90_classical_distortion_guitar_low",
+        "DirectSoundWaveData_sd90_classical_overdrive_guitar",
+        "DirectSoundWaveData_sd90_classical_whistle",
+        "DirectSoundWaveData_sd90_special_scream_drive"
+      ]
+    },
+    "voicegroup134": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup001",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_timpani"
+      ]
+    },
+    "voicegroup135": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_accordion"
+      ]
+    },
+    "voicegroup136": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_synth_bass",
+        "DirectSoundWaveData_sd90_classical_distortion_guitar_high",
+        "DirectSoundWaveData_sd90_classical_distortion_guitar_low",
+        "DirectSoundWaveData_sd90_classical_overdrive_guitar"
+      ]
+    },
+    "voicegroup137": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup006",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_glockenspiel",
+        "DirectSoundWaveData_sc88pro_harp",
+        "DirectSoundWaveData_sc88pro_timpani",
+        "DirectSoundWaveData_sc88pro_tubular_bell",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_high",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_low"
+      ]
+    },
+    "voicegroup138": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup005"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_accordion",
+        "DirectSoundWaveData_sc88pro_flute",
+        "DirectSoundWaveData_sc88pro_harp",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_high",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_low"
+      ]
+    },
+    "voicegroup139": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup006",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_ethnic_flavours_atarigane",
+        "DirectSoundWaveData_sc88pro_accordion",
+        "DirectSoundWaveData_sc88pro_flute",
+        "DirectSoundWaveData_sc88pro_glockenspiel",
+        "DirectSoundWaveData_sc88pro_harp",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sc88pro_tubular_bell",
+        "DirectSoundWaveData_sc88pro_xylophone",
+        "DirectSoundWaveData_sd90_classical_whistle"
+      ]
+    },
+    "voicegroup140": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup001"
+      ],
+      "samples": []
+    },
+    "voicegroup141": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup005"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_accordion",
+        "DirectSoundWaveData_sc88pro_flute",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sc88pro_xylophone"
+      ]
+    },
+    "voicegroup142": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sc88pro_synth_bass",
+        "DirectSoundWaveData_sd90_classical_distortion_guitar_high",
+        "DirectSoundWaveData_sd90_classical_distortion_guitar_low",
+        "DirectSoundWaveData_sd90_classical_overdrive_guitar"
+      ]
+    },
+    "voicegroup143": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2"
+      ]
+    },
+    "voicegroup144": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_fretless_bass",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sc88pro_synth_bass"
+      ]
+    },
+    "voicegroup145": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup005"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_accordion",
+        "DirectSoundWaveData_sc88pro_flute",
+        "DirectSoundWaveData_sc88pro_harp",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_high",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_low"
+      ]
+    },
+    "voicegroup146": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup004"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_xylophone",
+        "DirectSoundWaveData_sd90_classical_whistle",
+        "DirectSoundWaveData_steinway_b_piano"
+      ]
+    },
+    "voicegroup147": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup001",
+        "voicegroup003",
+        "voicegroup004"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar"
+      ]
+    },
+    "voicegroup148": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup004",
+        "voicegroup006"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_square_wave",
+        "DirectSoundWaveData_sc88pro_tubular_bell"
+      ]
+    },
+    "voicegroup149": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup006",
+        "voicegroup007",
+        "voicegroup190"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_flute",
+        "DirectSoundWaveData_sc88pro_glockenspiel",
+        "DirectSoundWaveData_sc88pro_harp",
+        "DirectSoundWaveData_sc88pro_timpani",
+        "DirectSoundWaveData_sc88pro_tubular_bell",
+        "DirectSoundWaveData_sc88pro_xylophone",
+        "DirectSoundWaveData_sd90_classical_oboe",
+        "DirectSoundWaveData_unused_sd90_oboe"
+      ]
+    },
+    "voicegroup150": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sd90_classical_whistle",
+        "DirectSoundWaveData_steinway_b_piano"
+      ]
+    },
+    "voicegroup151": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup006",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_timpani",
+        "DirectSoundWaveData_sc88pro_tubular_bell"
+      ]
+    },
+    "voicegroup152": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup006",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sc88pro_timpani",
+        "DirectSoundWaveData_sc88pro_tubular_bell"
+      ]
+    },
+    "voicegroup153": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup006",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_flute",
+        "DirectSoundWaveData_sc88pro_harp",
+        "DirectSoundWaveData_sc88pro_timpani",
+        "DirectSoundWaveData_sc88pro_tubular_bell"
+      ]
+    },
+    "voicegroup154": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup006",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_timpani",
+        "DirectSoundWaveData_sc88pro_tubular_bell",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_low"
+      ]
+    },
+    "voicegroup155": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sc88pro_timpani",
+        "DirectSoundWaveData_sc88pro_tubular_bell",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_high",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_low",
+        "DirectSoundWaveData_sd90_classical_distortion_guitar_high",
+        "DirectSoundWaveData_sd90_classical_distortion_guitar_low",
+        "DirectSoundWaveData_sd90_classical_overdrive_guitar",
+        "DirectSoundWaveData_sd90_special_scream_drive"
+      ]
+    },
+    "voicegroup156": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_accordion",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_low",
+        "DirectSoundWaveData_sd90_classical_distortion_guitar_high",
+        "DirectSoundWaveData_sd90_classical_distortion_guitar_low",
+        "DirectSoundWaveData_sd90_classical_overdrive_guitar",
+        "DirectSoundWaveData_sd90_special_scream_drive",
+        "DirectSoundWaveData_unused_sc88pro_unison_slap"
+      ]
+    },
+    "voicegroup157": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_accordion",
+        "DirectSoundWaveData_sc88pro_fingered_bass",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sc88pro_synth_bass",
+        "DirectSoundWaveData_sd90_classical_distortion_guitar_high",
+        "DirectSoundWaveData_sd90_classical_distortion_guitar_low",
+        "DirectSoundWaveData_sd90_classical_overdrive_guitar",
+        "DirectSoundWaveData_unused_sc88pro_unison_slap"
+      ]
+    },
+    "voicegroup158": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_classical_choir_voice_ahhs",
+        "DirectSoundWaveData_ethnic_flavours_atarigane",
+        "DirectSoundWaveData_sc88pro_fretless_bass",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sc88pro_square_wave",
+        "DirectSoundWaveData_sc88pro_synth_bass",
+        "DirectSoundWaveData_sc88pro_timpani",
+        "DirectSoundWaveData_sc88pro_tubular_bell",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_low",
+        "DirectSoundWaveData_sd90_classical_distortion_guitar_high",
+        "DirectSoundWaveData_sd90_classical_distortion_guitar_low",
+        "DirectSoundWaveData_sd90_classical_overdrive_guitar",
+        "DirectSoundWaveData_sd90_classical_whistle",
+        "DirectSoundWaveData_sd90_special_scream_drive"
+      ]
+    },
+    "voicegroup159": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup004"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_high",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_low"
+      ]
+    },
+    "voicegroup160": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup001",
+        "voicegroup004"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_fretless_bass",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_tubular_bell"
+      ]
+    },
+    "voicegroup161": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup006"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_accordion",
+        "DirectSoundWaveData_sc88pro_flute",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sc88pro_tubular_bell"
+      ]
+    },
+    "voicegroup162": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup004"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_fingered_bass",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sc88pro_tubular_bell",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_high"
+      ]
+    },
+    "voicegroup163": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup005"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_accordion",
+        "DirectSoundWaveData_sc88pro_flute",
+        "DirectSoundWaveData_sc88pro_harp",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_high",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_low",
+        "DirectSoundWaveData_wave_77"
+      ]
+    },
+    "voicegroup164": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_accordion",
+        "DirectSoundWaveData_sc88pro_flute",
+        "DirectSoundWaveData_sc88pro_harp",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_high",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_low"
+      ]
+    },
+    "voicegroup165": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup006",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_ethnic_flavours_atarigane",
+        "DirectSoundWaveData_sc88pro_flute",
+        "DirectSoundWaveData_sc88pro_glockenspiel",
+        "DirectSoundWaveData_sc88pro_harp",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sc88pro_tubular_bell",
+        "DirectSoundWaveData_sc88pro_xylophone",
+        "DirectSoundWaveData_sd90_classical_whistle",
+        "DirectSoundWaveData_sd90_enhanced_delay_shaku"
+      ]
+    },
+    "voicegroup166": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_ethnic_flavours_atarigane",
+        "DirectSoundWaveData_sc88pro_fretless_bass",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sc88pro_square_wave",
+        "DirectSoundWaveData_sc88pro_synth_bass",
+        "DirectSoundWaveData_sc88pro_timpani",
+        "DirectSoundWaveData_sc88pro_tubular_bell",
+        "DirectSoundWaveData_sd90_classical_distortion_guitar_high",
+        "DirectSoundWaveData_sd90_classical_distortion_guitar_low",
+        "DirectSoundWaveData_sd90_classical_overdrive_guitar",
+        "DirectSoundWaveData_sd90_classical_whistle",
+        "DirectSoundWaveData_sd90_special_scream_drive"
+      ]
+    },
+    "voicegroup167": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup005"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_accordion",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2"
+      ]
+    },
+    "voicegroup168": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_accordion",
+        "DirectSoundWaveData_sc88pro_flute",
+        "DirectSoundWaveData_sc88pro_harp",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sc88pro_pizzicato_strings",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_high",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_low"
+      ]
+    },
+    "voicegroup169": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup001",
+        "voicegroup005",
+        "voicegroup006"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_fretless_bass",
+        "DirectSoundWaveData_sc88pro_organ2"
+      ]
+    },
+    "voicegroup170": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup001",
+        "voicegroup005",
+        "voicegroup006"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_flute",
+        "DirectSoundWaveData_sc88pro_timpani"
+      ]
+    },
+    "voicegroup171": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup001",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_flute",
+        "DirectSoundWaveData_sc88pro_pizzicato_strings",
+        "DirectSoundWaveData_sc88pro_timpani"
+      ]
+    },
+    "voicegroup172": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup005"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_accordion",
+        "DirectSoundWaveData_sc88pro_flute",
+        "DirectSoundWaveData_sc88pro_harp",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_high",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_low"
+      ]
+    },
+    "voicegroup173": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_flute",
+        "DirectSoundWaveData_sc88pro_fretless_bass",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sc88pro_tubular_bell",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_high",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_low"
+      ]
+    },
+    "voicegroup174": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup007",
+        "voicegroup177"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_accordion",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sc88pro_synth_bass",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_low",
+        "DirectSoundWaveData_sd90_classical_distortion_guitar_high",
+        "DirectSoundWaveData_sd90_classical_distortion_guitar_low",
+        "DirectSoundWaveData_sd90_classical_overdrive_guitar",
+        "DirectSoundWaveData_sd90_special_scream_drive"
+      ]
+    },
+    "voicegroup175": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup177"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_xylophone"
+      ]
+    },
+    "voicegroup176": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [],
+      "samples": []
+    },
+    "voicegroup177": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [],
+      "samples": [
+        "DirectSoundWaveData_dance_drums_ride_bell",
+        "DirectSoundWaveData_drum_and_percussion_kick",
+        "DirectSoundWaveData_ethnic_flavours_atarigane",
+        "DirectSoundWaveData_ethnic_flavours_kotsuzumi",
+        "DirectSoundWaveData_sc88pro_jingle_bell",
+        "DirectSoundWaveData_sc88pro_mute_high_conga",
+        "DirectSoundWaveData_sc88pro_open_low_conga",
+        "DirectSoundWaveData_sc88pro_orchestra_cymbal_crash",
+        "DirectSoundWaveData_sc88pro_orchestra_snare",
+        "DirectSoundWaveData_sc88pro_rnd_snare",
+        "DirectSoundWaveData_sc88pro_taiko",
+        "DirectSoundWaveData_sc88pro_tambourine",
+        "DirectSoundWaveData_sc88pro_tr909_hand_clap",
+        "DirectSoundWaveData_sd90_ambient_tom",
+        "DirectSoundWaveData_sd90_cowbell",
+        "DirectSoundWaveData_sd90_open_triangle",
+        "DirectSoundWaveData_sd90_solo_snare",
+        "DirectSoundWaveData_trinity_cymbal_crash",
+        "DirectSoundWaveData_unused_heart_of_asia_indian_drum"
+      ]
+    },
+    "voicegroup178": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup177"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_xylophone"
+      ]
+    },
+    "voicegroup179": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup006",
+        "voicegroup007",
+        "voicegroup176",
+        "voicegroup177"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_fingered_bass",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_xylophone"
+      ]
+    },
+    "voicegroup180": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup003"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_tr909_hand_clap",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_low"
+      ]
+    },
+    "voicegroup181": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup003"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_harp"
+      ]
+    },
+    "voicegroup182": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup006",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_timpani"
+      ]
+    },
+    "voicegroup183": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_fretless_bass",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar"
+      ]
+    },
+    "voicegroup184": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [],
+      "samples": [
+        "DirectSoundWaveData_classical_choir_voice_ahhs",
+        "DirectSoundWaveData_sc88pro_synth_bass",
+        "DirectSoundWaveData_sc88pro_tubular_bell",
+        "DirectSoundWaveData_sd90_special_scream_drive"
+      ]
+    },
+    "voicegroup185": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_classical_choir_voice_ahhs",
+        "DirectSoundWaveData_sc88pro_fingered_bass",
+        "DirectSoundWaveData_sc88pro_fretless_bass",
+        "DirectSoundWaveData_sc88pro_pizzicato_strings",
+        "DirectSoundWaveData_sc88pro_synth_bass",
+        "DirectSoundWaveData_sc88pro_timpani",
+        "DirectSoundWaveData_sc88pro_tubular_bell",
+        "DirectSoundWaveData_sd90_classical_distortion_guitar_high",
+        "DirectSoundWaveData_sd90_classical_distortion_guitar_low",
+        "DirectSoundWaveData_sd90_classical_overdrive_guitar",
+        "DirectSoundWaveData_sd90_classical_whistle",
+        "DirectSoundWaveData_sd90_special_scream_drive"
+      ]
+    },
+    "voicegroup186": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup003"
+      ],
+      "samples": []
+    },
+    "voicegroup187": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004",
+        "voicegroup005",
+        "voicegroup007"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_accordion",
+        "DirectSoundWaveData_sc88pro_flute",
+        "DirectSoundWaveData_sc88pro_harp",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2"
+      ]
+    },
+    "voicegroup188": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_flute",
+        "DirectSoundWaveData_sc88pro_fretless_bass",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sc88pro_tubular_bell",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_high",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_low"
+      ]
+    },
+    "voicegroup189": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [
+        "voicegroup002",
+        "voicegroup003",
+        "voicegroup004"
+      ],
+      "samples": [
+        "DirectSoundWaveData_sc88pro_flute",
+        "DirectSoundWaveData_sc88pro_fretless_bass",
+        "DirectSoundWaveData_sc88pro_nylon_str_guitar",
+        "DirectSoundWaveData_sc88pro_organ2",
+        "DirectSoundWaveData_sc88pro_tubular_bell",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_high",
+        "DirectSoundWaveData_sd90_classical_detuned_ep1_low"
+      ]
+    },
+    "voicegroup190": {
+      "status": "retained shared/reserved bank",
+      "nested_banks": [],
+      "samples": [
+        "DirectSoundWaveData_drum_and_percussion_kick",
+        "DirectSoundWaveData_ethnic_flavours_atarigane",
+        "DirectSoundWaveData_sc88pro_jingle_bell",
+        "DirectSoundWaveData_sc88pro_mute_high_conga",
+        "DirectSoundWaveData_sc88pro_open_low_conga",
+        "DirectSoundWaveData_sc88pro_orchestra_cymbal_crash",
+        "DirectSoundWaveData_sc88pro_orchestra_snare",
+        "DirectSoundWaveData_sc88pro_rnd_snare",
+        "DirectSoundWaveData_sc88pro_taiko",
+        "DirectSoundWaveData_sc88pro_tambourine",
+        "DirectSoundWaveData_sd90_cowbell",
+        "DirectSoundWaveData_sd90_open_triangle",
+        "DirectSoundWaveData_trinity_cymbal_crash",
+        "DirectSoundWaveData_unused_heart_of_asia_indian_drum"
+      ]
+    }
+  },
+  "direct_sound_samples": {
+    "DirectSoundWaveData_sc88pro_glockenspiel": {
+      "path": "sound/direct_sound_samples/sc88pro_glockenspiel.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 1700
+    },
+    "DirectSoundWaveData_sc88pro_organ2": {
+      "path": "sound/direct_sound_samples/sc88pro_organ2.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 2040
+    },
+    "DirectSoundWaveData_sc88pro_fretless_bass": {
+      "path": "sound/direct_sound_samples/sc88pro_fretless_bass.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 3020
+    },
+    "DirectSoundWaveData_sc88pro_slap_bass": {
+      "path": "sound/direct_sound_samples/sc88pro_slap_bass.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 3896
+    },
+    "DirectSoundWaveData_sc88pro_synth_bass": {
+      "path": "sound/direct_sound_samples/sc88pro_synth_bass.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 3188
+    },
+    "DirectSoundWaveData_sc88pro_timpani": {
+      "path": "sound/direct_sound_samples/sc88pro_timpani.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 5328
+    },
+    "DirectSoundWaveData_classical_choir_voice_ahhs": {
+      "path": "sound/direct_sound_samples/classical_choir_voice_ahhs.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 5808
+    },
+    "DirectSoundWaveData_sd90_classical_oboe": {
+      "path": "sound/direct_sound_samples/sd90_classical_oboe.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 4932
+    },
+    "DirectSoundWaveData_unused_sd90_oboe": {
+      "path": "sound/direct_sound_samples/unused_sd90_oboe.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 2724
+    },
+    "DirectSoundWaveData_unused_guitar_separates_power_chord": {
+      "path": "sound/direct_sound_samples/unused_guitar_separates_power_chord.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 4884
+    },
+    "DirectSoundWaveData_unused_sc88pro_unison_slap": {
+      "path": "sound/direct_sound_samples/unused_sc88pro_unison_slap.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 13820
+    },
+    "DirectSoundWaveData_unknown_snare": {
+      "path": "sound/direct_sound_samples/unknown_snare.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 1240
+    },
+    "DirectSoundWaveData_ethnic_flavours_ohtsuzumi": {
+      "path": "sound/direct_sound_samples/ethnic_flavours_ohtsuzumi.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 6364
+    },
+    "DirectSoundWaveData_ethnic_flavours_hyoushigi": {
+      "path": "sound/direct_sound_samples/ethnic_flavours_hyoushigi.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 4904
+    },
+    "DirectSoundWaveData_sc88pro_rnd_kick": {
+      "path": "sound/direct_sound_samples/sc88pro_rnd_kick.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 1184
+    },
+    "DirectSoundWaveData_sc88pro_rnd_snare": {
+      "path": "sound/direct_sound_samples/sc88pro_rnd_snare.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 1780
+    },
+    "DirectSoundWaveData_sc88pro_tr909_hand_clap": {
+      "path": "sound/direct_sound_samples/sc88pro_tr909_hand_clap.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 2192
+    },
+    "DirectSoundWaveData_sc88pro_orchestra_snare": {
+      "path": "sound/direct_sound_samples/sc88pro_orchestra_snare.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 2168
+    },
+    "DirectSoundWaveData_sc88pro_tambourine": {
+      "path": "sound/direct_sound_samples/sc88pro_tambourine.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 2228
+    },
+    "DirectSoundWaveData_trinity_cymbal_crash": {
+      "path": "sound/direct_sound_samples/trinity_cymbal_crash.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 2276
+    },
+    "DirectSoundWaveData_sc88pro_orchestra_cymbal_crash": {
+      "path": "sound/direct_sound_samples/sc88pro_orchestra_cymbal_crash.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 3884
+    },
+    "DirectSoundWaveData_sc88pro_mute_high_conga": {
+      "path": "sound/direct_sound_samples/sc88pro_mute_high_conga.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 1304
+    },
+    "DirectSoundWaveData_sc88pro_open_low_conga": {
+      "path": "sound/direct_sound_samples/sc88pro_open_low_conga.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 1480
+    },
+    "DirectSoundWaveData_drum_and_percussion_kick": {
+      "path": "sound/direct_sound_samples/drum_and_percussion_kick.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 3864
+    },
+    "DirectSoundWaveData_sd90_solo_snare": {
+      "path": "sound/direct_sound_samples/sd90_solo_snare.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 6516
+    },
+    "DirectSoundWaveData_sd90_ambient_tom": {
+      "path": "sound/direct_sound_samples/sd90_ambient_tom.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 8412
+    },
+    "DirectSoundWaveData_dance_drums_ride_bell": {
+      "path": "sound/direct_sound_samples/dance_drums_ride_bell.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 30768
+    },
+    "DirectSoundWaveData_sd90_cowbell": {
+      "path": "sound/direct_sound_samples/sd90_cowbell.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 2488
+    },
+    "DirectSoundWaveData_unused_heart_of_asia_indian_drum": {
+      "path": "sound/direct_sound_samples/unused_heart_of_asia_indian_drum.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 3712
+    },
+    "DirectSoundWaveData_sd90_open_triangle": {
+      "path": "sound/direct_sound_samples/sd90_open_triangle.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 3700
+    },
+    "DirectSoundWaveData_sc88pro_jingle_bell": {
+      "path": "sound/direct_sound_samples/sc88pro_jingle_bell.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 6164
+    },
+    "DirectSoundWaveData_ethnic_flavours_atarigane": {
+      "path": "sound/direct_sound_samples/ethnic_flavours_atarigane.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 5540
+    },
+    "DirectSoundWaveData_sc88pro_taiko": {
+      "path": "sound/direct_sound_samples/sc88pro_taiko.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 5604
+    },
+    "DirectSoundWaveData_ethnic_flavours_kotsuzumi": {
+      "path": "sound/direct_sound_samples/ethnic_flavours_kotsuzumi.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 4340
+    },
+    "DirectSoundWaveData_sc88pro_piano1_48": {
+      "path": "sound/direct_sound_samples/sc88pro_piano1_48.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 3936
+    },
+    "DirectSoundWaveData_sc88pro_piano1_60": {
+      "path": "sound/direct_sound_samples/sc88pro_piano1_60.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 5728
+    },
+    "DirectSoundWaveData_sc88pro_piano1_72": {
+      "path": "sound/direct_sound_samples/sc88pro_piano1_72.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 5468
+    },
+    "DirectSoundWaveData_sc88pro_piano1_84": {
+      "path": "sound/direct_sound_samples/sc88pro_piano1_84.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 2956
+    },
+    "DirectSoundWaveData_sc88pro_string_ensemble_60": {
+      "path": "sound/direct_sound_samples/sc88pro_string_ensemble_60.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 13732
+    },
+    "DirectSoundWaveData_sc88pro_string_ensemble_72": {
+      "path": "sound/direct_sound_samples/sc88pro_string_ensemble_72.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 8988
+    },
+    "DirectSoundWaveData_sc88pro_string_ensemble_84": {
+      "path": "sound/direct_sound_samples/sc88pro_string_ensemble_84.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 14028
+    },
+    "DirectSoundWaveData_sc88pro_trumpet_60": {
+      "path": "sound/direct_sound_samples/sc88pro_trumpet_60.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 4944
+    },
+    "DirectSoundWaveData_sc88pro_trumpet_72": {
+      "path": "sound/direct_sound_samples/sc88pro_trumpet_72.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 5392
+    },
+    "DirectSoundWaveData_sc88pro_trumpet_84": {
+      "path": "sound/direct_sound_samples/sc88pro_trumpet_84.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 5152
+    },
+    "DirectSoundWaveData_sc88pro_tuba_51": {
+      "path": "sound/direct_sound_samples/sc88pro_tuba_51.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 4188
+    },
+    "DirectSoundWaveData_sc88pro_french_horn_60": {
+      "path": "sound/direct_sound_samples/sc88pro_french_horn_60.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 28564
+    },
+    "DirectSoundWaveData_sc88pro_french_horn_72": {
+      "path": "sound/direct_sound_samples/sc88pro_french_horn_72.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 17796
+    },
+    "DirectSoundWaveData_sc88pro_flute": {
+      "path": "sound/direct_sound_samples/sc88pro_flute.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 1892
+    },
+    "DirectSoundWaveData_sc88pro_fingered_bass": {
+      "path": "sound/direct_sound_samples/sc88pro_fingered_bass.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 7248
+    },
+    "DirectSoundWaveData_sc88pro_timpani_with_snare": {
+      "path": "sound/direct_sound_samples/sc88pro_timpani_with_snare.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 5328
+    },
+    "DirectSoundWaveData_unknown_synth_snare": {
+      "path": "sound/direct_sound_samples/unknown_synth_snare.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 2572
+    },
+    "DirectSoundWaveData_sc88pro_square_wave": {
+      "path": "sound/direct_sound_samples/sc88pro_square_wave.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 7188
+    },
+    "DirectSoundWaveData_bicycle_bell": {
+      "path": "sound/direct_sound_samples/bicycle_bell.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 6496
+    },
+    "DirectSoundWaveData_wave_54": {
+      "path": "sound/direct_sound_samples/wave_54.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 5316
+    },
+    "DirectSoundWaveData_sc88pro_pizzicato_strings": {
+      "path": "sound/direct_sound_samples/sc88pro_pizzicato_strings.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 1852
+    },
+    "DirectSoundWaveData_wave_56": {
+      "path": "sound/direct_sound_samples/wave_56.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 7152
+    },
+    "DirectSoundWaveData_wave_57": {
+      "path": "sound/direct_sound_samples/wave_57.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 5044
+    },
+    "DirectSoundWaveData_wave_58": {
+      "path": "sound/direct_sound_samples/wave_58.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 9860
+    },
+    "DirectSoundWaveData_sc88pro_wind": {
+      "path": "sound/direct_sound_samples/sc88pro_wind.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 4676
+    },
+    "DirectSoundWaveData_sc88pro_bubbles": {
+      "path": "sound/direct_sound_samples/sc88pro_bubbles.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 4112
+    },
+    "DirectSoundWaveData_wave_61": {
+      "path": "sound/direct_sound_samples/wave_61.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 4872
+    },
+    "DirectSoundWaveData_wave_62": {
+      "path": "sound/direct_sound_samples/wave_62.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 8460
+    },
+    "DirectSoundWaveData_trinity_30303_mega_bass": {
+      "path": "sound/direct_sound_samples/trinity_30303_mega_bass.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 8156
+    },
+    "DirectSoundWaveData_wave_64": {
+      "path": "sound/direct_sound_samples/wave_64.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 8720
+    },
+    "DirectSoundWaveData_wave_65": {
+      "path": "sound/direct_sound_samples/wave_65.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 1996
+    },
+    "DirectSoundWaveData_sc88pro_tubular_bell": {
+      "path": "sound/direct_sound_samples/sc88pro_tubular_bell.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 6512
+    },
+    "DirectSoundWaveData_unknown_close_hihat": {
+      "path": "sound/direct_sound_samples/unknown_close_hihat.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 1044
+    },
+    "DirectSoundWaveData_wave_68": {
+      "path": "sound/direct_sound_samples/wave_68.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 8112
+    },
+    "DirectSoundWaveData_trinity_big_boned": {
+      "path": "sound/direct_sound_samples/trinity_big_boned.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 13024
+    },
+    "DirectSoundWaveData_sc88pro_harp": {
+      "path": "sound/direct_sound_samples/sc88pro_harp.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 2608
+    },
+    "DirectSoundWaveData_sc88pro_xylophone": {
+      "path": "sound/direct_sound_samples/sc88pro_xylophone.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 2612
+    },
+    "DirectSoundWaveData_wave_72": {
+      "path": "sound/direct_sound_samples/wave_72.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 6976
+    },
+    "DirectSoundWaveData_wave_73": {
+      "path": "sound/direct_sound_samples/wave_73.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 2248
+    },
+    "DirectSoundWaveData_sc88pro_accordion": {
+      "path": "sound/direct_sound_samples/sc88pro_accordion.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 5072
+    },
+    "DirectSoundWaveData_unused_sc55_tom": {
+      "path": "sound/direct_sound_samples/unused_sc55_tom.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 4160
+    },
+    "DirectSoundWaveData_register_noise": {
+      "path": "sound/direct_sound_samples/register_noise.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 8032
+    },
+    "DirectSoundWaveData_wave_77": {
+      "path": "sound/direct_sound_samples/wave_77.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 6816
+    },
+    "DirectSoundWaveData_sc88pro_nylon_str_guitar": {
+      "path": "sound/direct_sound_samples/sc88pro_nylon_str_guitar.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 8048
+    },
+    "DirectSoundWaveData_sd90_special_scream_drive": {
+      "path": "sound/direct_sound_samples/sd90_special_scream_drive.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 6200
+    },
+    "DirectSoundWaveData_sc88pro_accordion_duplicate": {
+      "path": "sound/direct_sound_samples/sc88pro_accordion_duplicate.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 5072
+    },
+    "DirectSoundWaveData_steinway_b_piano": {
+      "path": "sound/direct_sound_samples/steinway_b_piano.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 4548
+    },
+    "DirectSoundWaveData_sd90_classical_overdrive_guitar": {
+      "path": "sound/direct_sound_samples/sd90_classical_overdrive_guitar.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 7792
+    },
+    "DirectSoundWaveData_sd90_classical_distortion_guitar_high": {
+      "path": "sound/direct_sound_samples/sd90_classical_distortion_guitar_high.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 12272
+    },
+    "DirectSoundWaveData_sd90_classical_distortion_guitar_low": {
+      "path": "sound/direct_sound_samples/sd90_classical_distortion_guitar_low.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 11348
+    },
+    "DirectSoundWaveData_sd90_classical_whistle": {
+      "path": "sound/direct_sound_samples/sd90_classical_whistle.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 2656
+    },
+    "DirectSoundWaveData_sd90_classical_detuned_ep1_low": {
+      "path": "sound/direct_sound_samples/sd90_classical_detuned_ep1_low.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 9832
+    },
+    "DirectSoundWaveData_sd90_classical_detuned_ep1_high": {
+      "path": "sound/direct_sound_samples/sd90_classical_detuned_ep1_high.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 5032
+    },
+    "DirectSoundWaveData_sd90_enhanced_delay_shaku": {
+      "path": "sound/direct_sound_samples/sd90_enhanced_delay_shaku.bin",
+      "status": "retained shared/reserved sample",
+      "bytes": 8448
+    }
+  },
+  "private_samples": {
+    "12.dpcm": {
+      "bytes": 331237,
+      "sha256": "5ca70b039cb420d7bb5c0460082992b621968a6d87bf05f7d8c7af59bd0e939c",
+      "status": "external private sample retained; not committed"
+    },
+    "03.dpcm": {
+      "bytes": 1612858,
+      "sha256": "db8e9088c6ee21c9a53e2bb3855a2850700ae86f2183e863bfbca4cd73ddb0e7",
+      "status": "external private sample retained; not committed"
+    },
+    "16.dpcm": {
+      "bytes": 620845,
+      "sha256": "ab824dab707092bae8f27e0ab363bc611071d2c764e0c2944bfc058cca3f92de",
+      "status": "external private sample retained; not committed"
+    },
+    "17.dpcm": {
+      "bytes": 767530,
+      "sha256": "82eb00003562a24556a5272705e3d95e31cc0baf6e6565212b6595741b489b29",
+      "status": "external private sample retained; not committed"
+    },
+    "11.dpcm": {
+      "bytes": 677968,
+      "sha256": "3c021c35af0eccd1bd1f123b2dd5a9041cd24e78b70eb0a0c7b6d3410983aabb",
+      "status": "external private sample retained; not committed"
+    },
+    "09.dpcm": {
+      "bytes": 589792,
+      "sha256": "c5cebc1605c521517c572449c8bade073ac962c05002fce2672568f8a064e1e7",
+      "status": "external private sample retained; not committed"
+    },
+    "06.dpcm": {
+      "bytes": 794623,
+      "sha256": "7d1d540fa90025655c177ee0ccd5628e78c76a61693b9082637826304ef4600d",
+      "status": "external private sample retained; not committed"
+    },
+    "04.dpcm": {
+      "bytes": 784624,
+      "sha256": "e8fb8423c496843ce78d9e51758f1da1a7d2e62ec1abec7a07b625faeec0ab22",
+      "status": "external private sample retained; not committed"
+    },
+    "25.dpcm": {
+      "bytes": 1276027,
+      "sha256": "1c151690a805cd751e6d6d0ac0fcd27928b2960b00a75d0977d86e2384581772",
+      "status": "external private sample retained; not committed"
+    },
+    "02.dpcm": {
+      "bytes": 397303,
+      "sha256": "8b8dc5cad8af26a0ac1d626ba835ac7ba2b11d41cff475ef89405704b7e8c676",
+      "status": "external private sample retained; not committed"
+    },
+    "01.dpcm": {
+      "bytes": 518314,
+      "sha256": "d9137d1787ecd0c9530fa682236397d619726e10f51391c0c8ffcbe068567be6",
+      "status": "external private sample retained; not committed"
+    },
+    "14.dpcm": {
+      "bytes": 680146,
+      "sha256": "5e949e93935cf4b1a7a4eef1807cf9fb83e074967a8375f473502e442b06325a",
+      "status": "external private sample retained; not committed"
+    },
+    "26.dpcm": {
+      "bytes": 496732,
+      "sha256": "099852aa4aa302cfd83576fe104ff9a40aede6831541ac446ff7405945bfdd6c",
+      "status": "external private sample retained; not committed"
+    },
+    "20.dpcm": {
+      "bytes": 734332,
+      "sha256": "18a20034f083f5b8dc9cfe8facb5b588a1868ded16c376f86a8fadef53f158c3",
+      "status": "external private sample retained; not committed"
+    },
+    "22.dpcm": {
+      "bytes": 724069,
+      "sha256": "a74f8195f34e18ca56c855e92b9132f804b7d054dff9146e4648f4312295a5b8",
+      "status": "external private sample retained; not committed"
+    },
+    "27.dpcm": {
+      "bytes": 544681,
+      "sha256": "d0ef03dcd4e321a526339d02000d17e90cb73c2885ab85b85f9393f716b9a6ad",
+      "status": "external private sample retained; not committed"
+    },
+    "28.dpcm": {
+      "bytes": 569761,
+      "sha256": "fb3d278f2ed7886574c0af48291ad0b04f28d0bac421f74fcfb2957a28a1a729",
+      "status": "external private sample retained; not committed"
+    },
+    "10.dpcm": {
+      "bytes": 584941,
+      "sha256": "d1e843d07a3dda6d46f82cef012e7324cb28ea1ffa537af450a993015a9ba540",
+      "status": "external private sample retained; not committed"
+    },
+    "23.dpcm": {
+      "bytes": 503431,
+      "sha256": "7cf26826e832eeeb5a7cdb617ab5e6a0dc5b0b12531935e8afa29ad0991b4cf4",
+      "status": "external private sample retained; not committed"
+    },
+    "31.dpcm": {
+      "bytes": 453007,
+      "sha256": "1ede60c0b2a22fdf9fb7285dbec607f2a00f2bb8421e00f6e9b4dee739ede05a",
+      "status": "external private sample retained; not committed"
+    },
+    "15.dpcm": {
+      "bytes": 458485,
+      "sha256": "cb76bb90d2b56119dde42e5ff4c01eeeb5674389cb47eb436ab1e0e0bdc8552b",
+      "status": "external private sample retained; not committed"
+    },
+    "19.dpcm": {
+      "bytes": 283717,
+      "sha256": "afee7dfb091e4adb31cc14bae8cee77e3e7cd52332e53b1d846179bd5402d54a",
+      "status": "external private sample retained; not committed"
+    },
+    "18.dpcm": {
+      "bytes": 408688,
+      "sha256": "5f977872cfb4f2b060e882b4475ba31c3bb18e6511133e2322fc863311870867",
+      "status": "external private sample retained; not committed"
+    },
+    "24.dpcm": {
+      "bytes": 554053,
+      "sha256": "69f7bbb8f7ebdb4b9774d13c5f78ef7c5a63752698b84aa399c2321ee06a8a3c",
+      "status": "external private sample retained; not committed"
+    },
+    "08.dpcm": {
+      "bytes": 766639,
+      "sha256": "acffa32719d50ce8cc795c09e909e7a4d253f2dc142564be426d852f71893cbf",
+      "status": "external private sample retained; not committed"
+    },
+    "29.dpcm": {
+      "bytes": 692554,
+      "sha256": "c931a795ab1ea6582d038e3ee9ec964bf114a7aea4d5f1ff94ddaaab6fafdcab",
+      "status": "external private sample retained; not committed"
+    },
+    "13.dpcm": {
+      "bytes": 687340,
+      "sha256": "19761fc19a0bb7018a533949836e0f0781c9b3a70e84232b09dd0c2a3e72e575",
+      "status": "external private sample retained; not committed"
+    },
+    "05.dpcm": {
+      "bytes": 821056,
+      "sha256": "24e2ba44add8b59e3a9c08f46222d0e7dc815eaf8dee79267f3152710b4ea43e",
+      "status": "external private sample retained; not committed"
+    },
+    "21.dpcm": {
+      "bytes": 644506,
+      "sha256": "41ccc3ab941232f673876fd67d62c5610f9493d64c0e2f74ae4a5e97f3faab82",
+      "status": "external private sample retained; not committed"
+    },
+    "30.dpcm": {
+      "bytes": 401593,
+      "sha256": "421951e8babfd2f2a38cd643e83a3a54993267cf7be626b91df8ca35ff48ccd1",
+      "status": "external private sample retained; not committed"
+    },
+    "07.dpcm": {
+      "bytes": 609856,
+      "sha256": "f8570e4302c38457a6f026db830727cd7065ac084aaedeb4c7269dcf3d353d34",
+      "status": "external private sample retained; not committed"
+    }
+  },
+  "deleted_private_samples": [],
+  "deleted_shared_samples": [],
+  "notes": "Only54 provably bypassed native sequence objects excluded; sources retained. All banks, sample tables, functional jingles, cries, programmable wave data and31 private OST retained. No claim that reserved unused banks can safely be deleted."
+}

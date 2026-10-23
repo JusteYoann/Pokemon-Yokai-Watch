@@ -1,0 +1,241 @@
+{
+  "passed": true,
+  "base": "0fa1808fe",
+  "checks": [
+    {
+      "path": "include/constants/species.h",
+      "identical_to_base": true
+    },
+    {
+      "path": "src/cramois_past.c",
+      "identical_to_base": true
+    },
+    {
+      "path": "src/palette.c",
+      "identical_to_base": true
+    },
+    {
+      "path": "src/battle_anim.c",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/yokai/cramois-sepia-rgb555.bin",
+      "identical_to_base": true
+    },
+    {
+      "path": "src/philosovni.c",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/Route20/scripts.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/Route20/map.json",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/Route20/text.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/Route21_North/scripts.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/Route21_North/map.json",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/Route21_North/text.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_PokemonCenter_2F/scripts.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_PokemonCenter_2F/map.json",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland/scripts.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland/map.json",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland/text.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_PokemonLab_ResearchRoom/scripts.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_PokemonLab_ResearchRoom/map.json",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_PokemonLab_ResearchRoom/text.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_Gym/scripts.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_Gym/map.json",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_Gym/text.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_PokemonLab_ExperimentRoom/scripts.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_PokemonLab_ExperimentRoom/map.json",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_PokemonLab_ExperimentRoom/text.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_PokemonCenter_1F/scripts.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_PokemonCenter_1F/map.json",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_PokemonCenter_1F/text.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_Mart/scripts.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_Mart/map.json",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_Mart/text.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_PokemonLab_Entrance/scripts.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_PokemonLab_Entrance/map.json",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_PokemonLab_Entrance/text.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/Route21_South/scripts.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/Route21_South/map.json",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/Route21_South/text.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_PokemonLab_Lounge/scripts.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_PokemonLab_Lounge/map.json",
+      "identical_to_base": true
+    },
+    {
+      "path": "data/maps/CinnabarIsland_PokemonLab_Lounge/text.inc",
+      "identical_to_base": true
+    },
+    {
+      "path": "graphics/yokai_characters/hovernyan/overworld-reference.png",
+      "identical_to_base": true
+    },
+    {
+      "path": "graphics/yokai_characters/hovernyan/apercu-x8.png",
+      "identical_to_base": true
+    },
+    {
+      "path": "graphics/yokai_characters/hovernyan/overworld.png",
+      "identical_to_base": true
+    },
+    {
+      "path": "graphics/yokai_characters/hovernyan/overworld.pal",
+      "identical_to_base": true
+    },
+    {
+      "check": "151 IDs fixed; only approved150 species names/stats/frame changed; six other Gym parties and Don Morleone party unchanged",
+      "passed": true
+    },
+    {
+      "rom": "pokefirered",
+      "retired_sequence_symbols_absent": 54,
+      "retained_native_fallbacks": 18,
+      "private_tracks_preserved": 0
+    },
+    {
+      "rom": "pokefirered_audio",
+      "retired_sequence_symbols_absent": 54,
+      "retained_native_fallbacks": 18,
+      "private_tracks_preserved": 31
+    },
+    {
+      "encounters": [
+        {
+          "map": "MAP_VICTORY_ROAD_3F",
+          "slots": [
+            8,
+            10
+          ],
+          "weights": [
+            4,
+            1
+          ],
+          "total_percent": 100,
+          "mademoaiselle_percent": 5,
+          "level_range": [
+            45,
+            48
+          ]
+        },
+        {
+          "map": "MAP_VICTORY_ROAD_3F",
+          "slots": [
+            8,
+            10
+          ],
+          "weights": [
+            4,
+            1
+          ],
+          "total_percent": 100,
+          "mademoaiselle_percent": 5,
+          "level_range": [
+            45,
+            48
+          ]
+        }
+      ],
+      "all_other_encounter_tables_identical": true
+    }
+  ]
+}

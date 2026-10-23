@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "scope": "Short real mGBA introductions; map/player/script fixtures, no edited battle output.",
+  "rom_sha256": "e6c107499e45cf5a3f8bcc08a3985f2a2dcfcf2060a529e8547ff082c2062a1d",
+  "captures": [
+    {
+      "character": "zazel",
+      "native_frames": 1630,
+      "sampled_frames": 133,
+      "file": "zazel-extrait-intro.gif"
+    },
+    {
+      "character": "enma-ancien",
+      "native_frames": 1279,
+      "sampled_frames": 86,
+      "file": "enma-ancien-extrait-intro.gif"
+    },
+    {
+      "character": "orqanos",
+      "native_frames": 1276,
+      "sampled_frames": 90,
+      "file": "orqanos-extrait-intro.gif"
+    },
+    {
+      "character": "maitre-nyada",
+      "native_frames": 1250,
+      "sampled_frames": 83,
+      "file": "maitre-nyada-extrait-intro.gif"
+    },
+    {
+      "character": "domniscian",
+      "native_frames": 1344,
+      "sampled_frames": 94,
+      "file": "domniscian-extrait-intro.gif"
+    },
+    {
+      "character": "berenice",
+      "native_frames": 1248,
+      "sampled_frames": 86,
+      "file": "berenice-extrait-intro.gif"
+    }
+  ]
+}
