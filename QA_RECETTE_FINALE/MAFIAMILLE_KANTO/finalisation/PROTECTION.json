@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "reference": "cee38fa5f22f95b65d63d995848c5ee94578b12c",
+  "allowed_game_resource_changes": [
+    "graphics/map_preview/rocket_hideout/tilemap.bin",
+    "graphics/map_preview/rocket_hideout/tiles.png",
+    "graphics/map_preview/rocket_warehouse/tilemap.bin",
+    "graphics/map_preview/rocket_warehouse/tiles.png",
+    "graphics/slot_machine/firered/combos_window.png",
+    "graphics/slot_machine/firered/reel_icons.png"
+  ],
+  "reference_tracked_files": 16992,
+  "all_palettes_and_dimensions_preserved": true,
+  "all_preview_tile_palette_banks_preserved": true,
+  "all_walk_pixels_palettes_tables_and_engine_unchanged": true,
+  "gameplay_dialogue_events_teams_audio_source_unchanged": true,
+  "all_other_existing_game_files_unchanged": true,
+  "updated_documentation_only": [
+    "QA_RECETTE_FINALE/MAFIAMILLE_KANTO/BILAN.md",
+    "docs/mafiamille/README.md",
+    "docs/mafiamille/casino/README.md",
+    "docs/mafiamille/validation-artistique/README.md"
+  ],
+  "protected_files_byte_identical_to_original_base": 1776,
+  "walking_manifests_are_unchanged_historical_records": true,
+  "definitive_artistic_approval_record": "AUTORISATION.md and README.md",
+  "audio_branch_head": "837bd1757a7c2cdc2d476c3a5eacfd6296177c6a",
+  "master_not_modified_by_this_mission": true
+}

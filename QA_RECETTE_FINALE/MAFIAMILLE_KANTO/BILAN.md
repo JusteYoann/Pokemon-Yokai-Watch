@@ -1,13 +1,19 @@
-# Mafiamille — bilan d’implémentation et validations restantes
+# Mafiamille — bilan final de la transformation graphique
 
 Branche **`feature/mafiamille-kanto`**, base
 `6f143452a026a41c08f1db38f9809959809a31b6`. Code livré au jalon
-`1fa39994b`. Aucun merge. [Autorisation](../../docs/mafiamille/MANDAT.md).
+`1fa39994b`, finalisation graphique au jalon `2389580d4`. Références
+artistiques conservées : `ddcb53b10` et `cee38fa5f`. Aucun merge. [Autorisation](../../docs/mafiamille/MANDAT.md).
 
-**L’adaptation fonctionnelle et textuelle est intégrée. La disparition visuelle
-complète de la Team Rocket reste en attente du choix de symbole : quatre
-ressources contiennent encore un R. Les marches attendent leur validation
-artistique, malgré leurs contrôles techniques réussis.**
+**La transformation graphique demandée est terminée et testée.** Les huit
+marches de Don et du sbire sont définitivement validées par le créateur,
+sans aucune retouche. Le chapeau approuvé remplace les R du Casino et du
+repaire. L’entrepôt ne porte plus aucun emblème : son mur a été reconstitué.
+Les quatre ressources identifiées ne contiennent plus leur ancien R.
+
+[Rapport de clôture graphique et captures mGBA avant/après](finalisation/README.md).
+Cette clôture ne constitue pas une certification d’une traversée complète
+ni de l’équilibrage de l’aventure.
 
 ## Ce qui est réellement intégré
 
@@ -101,8 +107,8 @@ Preuves : [événements](evenements/TEST_MGBA.json), [récompenses](recompenses/
 - ROM publique : **16 777 216 octets**.
 - ROM privée de cette branche : **31 589 579 octets**, environ30,13Mio.
 - Marge sous32Mio : **1 964 853 octets**.
-- Public SHA-256 : `7a2ca7164665eee90992ae4f06d1ed00330a67695d7c6c8349fce8b0a7742ba7`.
-- Privé SHA-256 : `b10e5957a662599f325ae4a59487bc04b5c2c61f9b642fc5e5f96a6ac18869ba`.
+- Public SHA-256 : `3ca10a74c5bf70f00f33caac8ae43ae7a6f67cc4ab67eb60da67dca3539250ed`.
+- Privé SHA-256 : `00004dd1b6f810a6e3f0e014d17dd1dd768da4e9f343ee28a360bef1ed0b73b5`.
 - **1776 fichiers protégés identiques**, dont graphismes des151 Yo-kai,
   données d’espèces/évolutions et ressources sonores. Les425 programmes de
   scripts de cartes restent identiques ; seule la ressource graphique du
@@ -119,25 +125,26 @@ besoin de récupérer un ancien environnement ou de relancer les outils d’aute
 La réapplication des outils d’auteur sélectifs nécessite l’historique Git cité.
 Un nouveau clone propre n’a pas été recompilé pendant cette mission.
 
-## Validations artistiques encore requises
+## Validations artistiques et clôture
 
-1. **Marches :** [Don, sud](marche/don_morleone-sud-marche.gif),
-   [nord](marche/don_morleone-nord-marche.gif), [ouest](marche/don_morleone-ouest-marche.gif),
-   [est](marche/don_morleone-est-marche.gif) ; [sbire, sud](marche/mafiamille_1-sud-marche.gif),
-   [nord](marche/mafiamille_1-nord-marche.gif), [ouest](marche/mafiamille_1-ouest-marche.gif),
-   [est](marche/mafiamille_1-est-marche.gif). Fonctionnelles, non déclarées définitives artistiquement.
-2. **Symboles :** [trois concepts A/B/C](../../docs/mafiamille/casino/README.md).
-   Ce sont des concepts, pas des fichiers natifs importables. Aucun n’est lié.
-   Les R subsistent dans les rouleaux, le tableau des gains et les deux
-   illustrations d’entrée. Après choix, préparer les ressources natives et
-   aperçus en situation avant leur intégration.
+Les huit marches sont **définitivement approuvées** par le créateur. Le chapeau
+natif du jalon `cee38fa5f` est approuvé et intégré sur les rouleaux, le tableau
+des gains et l’entrée du repaire. La décision ultérieure de ne mettre aucun
+emblème à l’entrepôt est appliquée : le R et son fond contrasté sont supprimés,
+en restituant les deux teintes existantes du mur et leur séparation verticale.
 
-Les [captures d’entrée du repaire](entrees/RocketHideout_B1F.png) et
-[de l’entrepôt](entrees/FiveIsland_RocketWarehouse.png) montrent réellement
-les R restants dans mGBA. La porte de l’entrepôt ne porte pas de R. Les captures
-des28 cartes ciblées servent aussi à examiner leurs décors ; chaque pixel de
-tous les tilesets partagés n’a pas été certifié individuellement.
+Les tests finaux ont été rejoués sur les ROM publique et privée : huit marches,
+Casino (trois parties contrôlées et un calcul natif de gain isolé), aide et sortie,
+deux entrées, deux rencontres remportées et sauvegarde/rechargement Flash.
+Les captures des quatre graphismes sont identiques entre les deux profils.
+[Preuves et portée exacte](finalisation/VALIDATION.json).
 
-**La mission n’est pas déclarée entièrement terminée tant que ces validations
-et les remplacements des quatre ressources contenant un R restent ouverts.**
-Aucune fusion ou modification de master effectuée.
+Les anciens rapports ci-dessus décrivent les tests fonctionnels plus larges du
+jalon précédent ; ils ne sont pas présentés comme de nouveaux tests du binaire
+final. Les sources de ces fonctionnalités restent identiques. La porte de
+l’entrepôt ne portait pas de R et reste inchangée. Chaque pixel de tous les
+tilesets partagés du jeu n’a pas été audité individuellement.
+
+**Reste hors de cette clôture graphique :** une traversée continue de toute
+l’aventure et du postgame, l’équilibrage avec une équipe normale et une recette
+manuelle exhaustive des dialogues et des énigmes. Aucune fusion effectuée.

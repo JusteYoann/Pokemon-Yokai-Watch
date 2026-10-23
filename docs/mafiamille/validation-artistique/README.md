@@ -1,5 +1,11 @@
 # Validation artistique — emblème et marche Mafiamille
 
+**Archive des aperçus du jalon `cee38fa5f`.** Le créateur a depuis validé le
+chapeau et les huit marches. Les graphismes sont maintenant intégrés ;
+l’entrepôt est restauré **sans emblème**, conformément à la décision finale.
+[Résultat réel dans mGBA et clôture](../../../QA_RECETTE_FINALE/MAFIAMILLE_KANTO/finalisation/README.md).
+Les mentions d’attente suivantes décrivent uniquement la présentation initiale.
+
 Branche : `feature/mafiamille-kanto`. Référence conservée : `ddcb53b10e8cca51283b291078a1d91d20e3643c`.
 
 **Aperçus uniquement, en attente d’autorisation explicite. Aucun remplacement dans la ROM.** Le choix du concept A est acquis ; son dessin natif ci-dessous reste à valider. Aucune compilation ni nouvelle session mGBA n’a été nécessaire pour cette présentation.

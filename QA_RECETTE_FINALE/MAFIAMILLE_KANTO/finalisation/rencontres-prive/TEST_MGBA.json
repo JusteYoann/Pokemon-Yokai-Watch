@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "rom_sha256": "00004dd1b6f810a6e3f0e014d17dd1dd768da4e9f343ee28a360bef1ed0b73b5",
+  "scope": "Two actual NPC interactions and controller victories after final emblem integration.\n\nExplicit visibility/warp/overpowered-player fixtures; not a campaign/balance test.\n",
+  "results": [
+    {
+      "trainer": "TRAINER_TEAM_ROCKET_GRUNT_7",
+      "map": "CeladonCity_GameCorner",
+      "actual_NPC_interaction": true,
+      "native_controller_victory": true,
+      "captured_frames": [
+        45,
+        160,
+        360
+      ],
+      "passed": true
+    },
+    {
+      "trainer": "TRAINER_BOSS_GIOVANNI",
+      "map": "RocketHideout_B4F",
+      "actual_NPC_interaction": true,
+      "native_controller_victory": true,
+      "captured_frames": [
+        45,
+        160,
+        360
+      ],
+      "passed": true
+    }
+  ]
+}

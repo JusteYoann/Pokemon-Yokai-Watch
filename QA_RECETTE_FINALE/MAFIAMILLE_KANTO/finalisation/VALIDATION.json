@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "references": [
+    "ddcb53b10",
+    "cee38fa5f22f95b65d63d995848c5ee94578b12c"
+  ],
+  "roms": {
+    "pokefirered": {
+      "bytes": 16777216,
+      "sha256": "3ca10a74c5bf70f00f33caac8ae43ae7a6f67cc4ab67eb60da67dca3539250ed"
+    },
+    "pokefirered_audio": {
+      "bytes": 31589579,
+      "sha256": "00004dd1b6f810a6e3f0e014d17dd1dd768da4e9f343ee28a360bef1ed0b73b5"
+    }
+  },
+  "reports": {
+    "avant-public": "7a2ca7164665eee90992ae4f06d1ed00330a67695d7c6c8349fce8b0a7742ba7",
+    "apres-public": "3ca10a74c5bf70f00f33caac8ae43ae7a6f67cc4ab67eb60da67dca3539250ed",
+    "apres-prive": "00004dd1b6f810a6e3f0e014d17dd1dd768da4e9f343ee28a360bef1ed0b73b5",
+    "marche-public": "3ca10a74c5bf70f00f33caac8ae43ae7a6f67cc4ab67eb60da67dca3539250ed",
+    "marche-prive": "00004dd1b6f810a6e3f0e014d17dd1dd768da4e9f343ee28a360bef1ed0b73b5",
+    "rencontres-public": "3ca10a74c5bf70f00f33caac8ae43ae7a6f67cc4ab67eb60da67dca3539250ed",
+    "rencontres-prive": "00004dd1b6f810a6e3f0e014d17dd1dd768da4e9f343ee28a360bef1ed0b73b5"
+  },
+  "all_native_reports_pass": true,
+  "three_controller_slot_rounds_identical_before_after_public_private": [
+    {
+      "coins_before": 200,
+      "bet": 3,
+      "coins_after": 197,
+      "reel_positions": [
+        6,
+        14,
+        0
+      ],
+      "reward_class": 0
+    },
+    {
+      "coins_before": 197,
+      "bet": 3,
+      "coins_after": 194,
+      "reel_positions": [
+        13,
+        7,
+        0
+      ],
+      "reward_class": 0
+    },
+    {
+      "coins_before": 194,
+      "bet": 3,
+      "coins_after": 191,
+      "reel_positions": [
+        16,
+        0,
+        0
+      ],
+      "reward_class": 0
+    }
+  ],
+  "native_hat_triple_payout": 100,
+  "screenshots": [
+    {
+      "capture": "casino-trois-chapeaux-fixture",
+      "native_size": [
+        240,
+        160
+      ],
+      "changed_native_bbox": [
+        65,
+        82,
+        175,
+        102
+      ],
+      "public_private_frames_identical": true
+    },
+    {
+      "capture": "casino-gains",
+      "native_size": [
+        240,
+        160
+      ],
+      "changed_native_bbox": [
+        33,
+        66,
+        80,
+        78
+      ],
+      "public_private_frames_identical": true
+    },
+    {
+      "capture": "RocketHideout_B1F",
+      "native_size": [
+        240,
+        160
+      ],
+      "changed_native_bbox": [
+        2,
+        66,
+        14,
+        83
+      ],
+      "public_private_frames_identical": true
+    },
+    {
+      "capture": "FiveIsland_RocketWarehouse",
+      "native_size": [
+        240,
+        160
+      ],
+      "changed_native_bbox": [
+        17,
+        58,
+        38,
+        83
+      ],
+      "public_private_frames_identical": true
+    }
+  ],
+  "walks_artistically_approved_by_user": true,
+  "whole_adventure_completed": false,
+  "balance_playthrough": false,
+  "no_branch_merge": true
+}

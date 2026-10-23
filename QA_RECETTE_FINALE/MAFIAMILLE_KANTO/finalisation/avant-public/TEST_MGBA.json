@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "rom_sha256": "7a2ca7164665eee90992ae4f06d1ed00330a67695d7c6c8349fce8b0a7742ba7",
+  "scope": "Native Casino play/help/exit and map entrance captures. No ROM patching.\n\nController new game, explicit coins/seed/warps are fixtures. Not a full adventure.\n",
+  "results": [
+    {
+      "test": "triple_emblem_native_payout_fixture",
+      "forced_RAM_reel_positions": [
+        1,
+        2,
+        18
+      ],
+      "bet": 1,
+      "rank": 5,
+      "payout": 100,
+      "naturally_won": false,
+      "passed": true
+    },
+    {
+      "test": "casino",
+      "native_help_and_exit": true,
+      "controller_rounds": [
+        {
+          "coins_before": 200,
+          "bet": 3,
+          "coins_after": 197,
+          "reel_positions": [
+            6,
+            14,
+            0
+          ],
+          "reward_class": 0
+        },
+        {
+          "coins_before": 197,
+          "bet": 3,
+          "coins_after": 194,
+          "reel_positions": [
+            13,
+            7,
+            0
+          ],
+          "reward_class": 0
+        },
+        {
+          "coins_before": 194,
+          "bet": 3,
+          "coins_after": 191,
+          "reel_positions": [
+            16,
+            0,
+            0
+          ],
+          "reward_class": 0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "test": "RocketHideout_B1F",
+      "native_preview_and_return": true,
+      "passed": true
+    },
+    {
+      "test": "FiveIsland_RocketWarehouse",
+      "native_preview_and_return": true,
+      "passed": true
+    },
+    {
+      "test": "native_flash_save_load",
+      "coins": 347,
+      "location_preserved": true,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+tools/gbagfx/gbagfx graphics/map_preview/rocket_hideout/tilemap.bin graphics/map_preview/rocket_hideout/tilemap.bin.lz
+tools/gbagfx/gbagfx graphics/map_preview/rocket_hideout/tiles.png graphics/map_preview/rocket_hideout/tiles.4bpp -num_tiles 194 -Wnum_tiles
+tools/gbagfx/gbagfx graphics/map_preview/rocket_hideout/tiles.png graphics/map_preview/rocket_hideout/tiles.gbapal
+tools/gbagfx/gbagfx graphics/map_preview/rocket_warehouse/tilemap.bin graphics/map_preview/rocket_warehouse/tilemap.bin.lz
+tools/gbagfx/gbagfx graphics/map_preview/rocket_warehouse/tiles.png graphics/map_preview/rocket_warehouse/tiles.4bpp -num_tiles 234 -Wnum_tiles
+tools/gbagfx/gbagfx graphics/map_preview/rocket_warehouse/tiles.png graphics/map_preview/rocket_warehouse/tiles.gbapal
+tools/gbagfx/gbagfx graphics/slot_machine/firered/combos_window.png graphics/slot_machine/firered/combos_window.4bpp -num_tiles 66 -Wnum_tiles
+tools/gbagfx/gbagfx graphics/slot_machine/firered/combos_window.png graphics/slot_machine/firered/combos_window.gbapal
+tools/gbagfx/gbagfx graphics/slot_machine/firered/reel_icons.png graphics/slot_machine/firered/reel_icons.4bpp
+tools/gbagfx/gbagfx graphics/slot_machine/firered/reel_icons.png graphics/slot_machine/firered/reel_icons.gbapal
+tools/gbagfx/gbagfx graphics/map_preview/rocket_hideout/tiles.4bpp graphics/map_preview/rocket_hideout/tiles.4bpp.lz
+tools/gbagfx/gbagfx graphics/map_preview/rocket_warehouse/tiles.4bpp graphics/map_preview/rocket_warehouse/tiles.4bpp.lz
+tools/gbagfx/gbagfx graphics/slot_machine/firered/combos_window.4bpp graphics/slot_machine/firered/combos_window.4bpp.lz
+tools/gbagfx/gbagfx graphics/slot_machine/firered/reel_icons.4bpp graphics/slot_machine/firered/reel_icons.4bpp.lz
+tools/agbcc/bin/agbcc <flags> -o build/firered/src/slot_machine.o src/slot_machine.c
+tools/agbcc/bin/agbcc <flags> -o build/firered/src/map_preview_screen.o src/map_preview_screen.c
+tools/ramscrgen/ramscrgen COMMON sym_common.txt ENGLISH -c build/firered/src,common_syms > build/firered/sym_common.ld
+Memory region         Used Size  Region Size  %age Used
+           EWRAM:      261052 B       256 KB     99.58%
+           IWRAM:       29824 B        32 KB     91.02%
+             ROM:    15828216 B        32 MB     47.17%
+cd build/firered && arm-none-eabi-ld -Map ../../pokefirered.map -T ../../ld_script.ld --print-memory-usage -o ../../pokefirered.elf <objs> <libs> | cat
+tools/gbafix/gbafix pokefirered.elf -t"POKEMON FIRE" -cBPRE -m01 -r0 --silent
+arm-none-eabi-objcopy -O binary --gap-fill 0xFF --pad-to 0x9000000 pokefirered.elf pokefirered.gba

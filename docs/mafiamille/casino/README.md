@@ -1,4 +1,9 @@
-# Symbole du Casino — choix artistique en attente
+# Symbole du Casino — historique des concepts
+
+**Archive :** le concept A a été retenu, redessiné sur une grille native puis
+validé et intégré. Les indications d’attente ci-dessous décrivent le jalon
+antérieur. L’entrepôt est finalement restauré **sans emblème**.
+[État final et preuves mGBA](../../../QA_RECETTE_FINALE/MAFIAMILLE_KANTO/finalisation/README.md).
 
 ![Trois propositions](propositions-conceptuelles.png)
 

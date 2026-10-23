@@ -6,10 +6,11 @@ Base : `6f143452a026a41c08f1db38f9809959809a31b6`. Branche :
 La branche audio 31 OST reste indépendante et intacte à `837bd1757`.
 La présente branche conserve les 26 OST de sa base. Aucune fusion.
 
-Les marches de Don Morléone et du sbire classique peuvent être récupérées
-sélectivement de `740c257b2`, mais attendent une validation artistique.
-Le symbole R du Casino reste actif tant qu'un aperçu de remplacement n'est
-pas choisi. Ni les probabilités ni les gains ne doivent changer.
+Les marches de Don Morléone et du sbire classique sont intégrées et
+**définitivement validées par le créateur**, sans modification supplémentaire.
+Le chapeau approuvé remplace les R du Casino et du repaire. L’entrepôt a un mur
+restauré sans emblème. Probabilités, gains, équipes, événements et musiques
+inchangés. [Clôture graphique et captures mGBA](../../QA_RECETTE_FINALE/MAFIAMILLE_KANTO/finalisation/README.md).
 
 Suivi et preuves : `QA_RECETTE_FINALE/MAFIAMILLE_KANTO/`.
 
@@ -26,4 +27,4 @@ Suivi et preuves : `QA_RECETTE_FINALE/MAFIAMILLE_KANTO/`.
 
 ## Livraison
 
-[Bilan complet, captures et validations restantes](../../QA_RECETTE_FINALE/MAFIAMILLE_KANTO/BILAN.md).
+[Bilan complet et limites de la recette](../../QA_RECETTE_FINALE/MAFIAMILLE_KANTO/BILAN.md).
