@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "scope": "Stage A only: static candidate on real mGBA battle, no production art swap.\nFresh boosted QA party and explicit diagnostic boss. Candidate shown only by RPC.\nAlso inspect unmodified house maps and exercise their existing exit warps.\n",
+  "rom_sha256": "db156eb6d5082d52e803f9a453c2dbd6f24d2a7e685f53a4229e91eb2107e6d4",
+  "production_art_unchanged": true,
+  "production_finale_enabled": false,
+  "morphing_composite_not_yet_integrated": true,
+  "results": [
+    {
+      "test": "Actual static native candidate, HUD/menu unchanged, first turn still pending",
+      "passed": true,
+      "logical_sprite": 7,
+      "hardware_objects": 4,
+      "palette_bank": 7,
+      "tile_start": 469,
+      "obj_bytes": 6144,
+      "visible_bbox_in_screen": [
+        120,
+        -4,
+        232,
+        72
+      ]
+    },
+    {
+      "test": "Preview removal frees tile/palette resources and restores native diagnostic sprite",
+      "passed": true
+    },
+    {
+      "test": "Existing Turboss battle graphic rendered without preview overlay",
+      "species": 86,
+      "passed": true
+    },
+    {
+      "test": "Unmodified existing interior loads and normal door exit reaches paired exterior",
+      "house": "SixIsland_WaterPath_House2",
+      "outside": "SixIsland_WaterPath",
+      "passed": true
+    },
+    {
+      "test": "Unmodified existing interior loads and normal door exit reaches paired exterior",
+      "house": "FiveIsland_House2",
+      "outside": "FiveIsland",
+      "passed": true
+    }
+  ]
+}
