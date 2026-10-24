@@ -1,0 +1,59 @@
+POKEMON ROUGE FEU x YO-KAI WATCH — SAUVEGARDES DE TEST BETA 0.1
+
+Compatibilité vérifiée : Pokemon_Yokai_Watch_Beta_0.1_Audio_Test.gba
+SHA-256 ROM : f95ffce4462f1797843703c360d00a2509a39d846f9863abde1ef734694f1a6c
+Fichiers .sav natifs Flash 128 Kio, pas des états instantanés mGBA.
+
+CHOIX DES SAUVEGARDES
+
+fin-jeu-151-garcon / fin-jeu-151-fille :
+- 8 Badges, Ligue validée, équipe inscrite au Panthéon.
+- 151 Yo-kai enregistrés vus et capturés ; les 151 sont également dans le PC,
+  dans l'ordre du Médallium (5 boîtes pleines, puis le nº151 en boîte 6).
+- Yo-kai du PC niveau 50 ; équipe de six Yo-kai niveau 100, IV 31.
+- 999 999 d'argent, 9 999 jetons.
+- 99 Master Balls, Hyper Balls, Guérisons, Rappels Max, Super Bonbons,
+  Repousses Max, Cordes Sortie et Élixirs Max.
+- CT et CS 01 à 07, objets de déplacement et accès (vélo, carte, cannes,
+  Poké Flûte, clés, Scope, thé, passes et tickets).
+- Charme Chroma, destinations de Vol et accès post-Ligue débloqués.
+- États des principaux épisodes Yo-kai positionnés après leur résolution,
+  drapeaux des dresseurs marqués vaincus. Les futurs événements non intégrés
+  ne sont pas inventés ni débloqués.
+- Position : Centre Yo-kai de Céladopole, près du PC.
+
+Ce profil est un état de fin de jeu préparé pour les tests ; il ne constitue
+pas une partie entièrement jouée ni une certification de tous les scripts.
+Il ne garantit pas que chaque objet caché ou activité annexe est terminé.
+Les scènes uniques déjà terminées ne se relancent pas depuis cette sauvegarde.
+
+DEBUT BOOSTE, pour tester les quêtes et cinématiques dans leur ordre :
+- Versions garçon et fille ; 0 Badge, Ligue non terminée.
+- Mêmes 151 Yo-kai au PC, équipe niveau 100 et ressources de test.
+- Les récompenses, scènes et drapeaux des quêtes restent dans leur état initial.
+- Pas de Charme Chroma donné d'avance, pour pouvoir tester sa quête.
+- Position : chambre du joueur, au début de l'aventure.
+- Les accès soumis au scénario et aux Badges restent à débloquer normalement.
+
+INSTALLATION DANS mGBA
+
+1. Fermer mGBA et conserver une copie de sa sauvegarde personnelle.
+2. Créer un dossier de test séparé et y copier la ROM.
+3. Choisir UN des quatre dossiers de ce pack et copier son .sav avec la ROM.
+   Les deux fichiers doivent avoir le même nom avant l'extension :
+   Pokemon_Yokai_Watch_Beta_0.1_Audio_Test.gba
+   Pokemon_Yokai_Watch_Beta_0.1_Audio_Test.sav
+4. Si mGBA utilise un répertoire de sauvegardes personnalisé, y importer
+   le fichier de test via la gestion des sauvegardes, en gardant l'original.
+5. Ouvrir la ROM puis choisir CONTINUER. Ne pas charger un ancien état instantané.
+6. Pour changer de profil, fermer l'émulateur avant de remplacer la COPIE .sav.
+
+CONTROLES EFFECTUES
+
+Les quatre fichiers ont été réouverts depuis des instances mGBA neuves,
+via le menu Continuer. Sexe, Badges, Ligue, Médallium complet, présence des
+151 espèces dans le PC et niveau de l'équipe contrôlés par les fonctions du jeu.
+Les profils fin de jeu ont aussi été contrôlés pour le Panthéon, la disponibilité
+des revanches de Lavanville, le Charme Chroma et les CS.
+Aucune sauvegarde personnelle utilisée ; aucune modification de la ROM ou de master.
+Détails et empreintes : VERIFICATION.json et VERIFICATION_POSTGAME.json.
