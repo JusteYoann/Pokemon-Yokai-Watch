@@ -1,17 +1,23 @@
 {
   "passed": true,
   "scope": "Native four-direction facing preview with one temporary map actor.\nPrepared new game/map, no story event or user save modified. Screens are mGBA\nframes; the only image processing is nearest-neighbor enlargement / GIF encoding.\n",
-  "rom_sha256": "c71567fcc83e7a211812373c55f50fa83243ad96188fe8e5b7277bc1090f400a",
+  "rom_sha256": "6d413cd5529e3d960aa7e4d6811d4a54cb1986907995a607244eb821b563c871",
   "captured_frames": 60,
   "checks": [
+    {
+      "test": "Four poses match Nathan visible height and baseline",
+      "height": 19,
+      "baseline": 31,
+      "passed": true
+    },
     {
       "direction": "face",
       "native_frame": 0,
       "visible_screen_rectangle": [
+        72,
+        56,
         104,
-        24,
-        136,
-        56
+        88
       ],
       "samples": 15,
       "passed": true
@@ -20,10 +26,10 @@
       "direction": "dos",
       "native_frame": 1,
       "visible_screen_rectangle": [
+        72,
+        56,
         104,
-        24,
-        136,
-        56
+        88
       ],
       "samples": 15,
       "passed": true
@@ -32,10 +38,10 @@
       "direction": "gauche",
       "native_frame": 2,
       "visible_screen_rectangle": [
+        72,
+        56,
         104,
-        24,
-        136,
-        56
+        88
       ],
       "samples": 15,
       "passed": true
@@ -44,10 +50,10 @@
       "direction": "droite",
       "native_frame": 3,
       "visible_screen_rectangle": [
+        72,
+        56,
         104,
-        24,
-        136,
-        56
+        88
       ],
       "samples": 15,
       "passed": true

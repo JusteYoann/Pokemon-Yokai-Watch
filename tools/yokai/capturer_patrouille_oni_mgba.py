@@ -13,9 +13,15 @@ groups=json.loads((ROOT/'data/maps/map_groups.json').read_text());maps={n:(i,j) 
 try:
  r.call('CreateMon',r.symbols['gPlayerParty'],1,50,31,1,12345,0,0);r.write(r.symbols['gPlayerPartyCount'],b'\1')
  g,n=maps['PalletTown'];r.call('SetWarpDestination',g,n,255,9,16);r.call('WarpIntoMap');r.call('SetMainCallback2',r.symbols['CB2_LoadMap']|1);r.run(400)
- r.call('LockPlayerFieldControls');idx=r.call('SpawnSpecialObjectEventParameterized',183,8,200,9+7,14+7,3);assert idx<16
+ r.call('LockPlayerFieldControls');idx=r.call('SpawnSpecialObjectEventParameterized',183,8,200,7+7,16+7,3);assert idx<16
  obj=r.symbols['gObjectEvents']+36*idx;r.run(30);sprite=r.symbols['gSprites']+68*r.read(obj+4,1)[0]
  raw=(ROOT/'graphics/yokai_characters/patrouille_oni/overworld.4bpp').read_bytes();assert len(raw)==2048
+ reference=Image.open(ROOT/'graphics/yokai_characters/nathan/normal.png').convert('RGBA').crop((0,0,16,32)).getbbox()
+ patrol=Image.open(ROOT/'graphics/yokai_characters/patrouille_oni/overworld.png').convert('RGBA')
+ for i in range(4):
+  bounds=patrol.crop((i*32,0,i*32+32,32)).getbbox()
+  assert bounds[1]==reference[1] and bounds[3]==reference[3],(i,bounds,reference)
+ checks.append(dict(test='Four poses match Nathan visible height and baseline',height=reference[3]-reference[1],baseline=reference[3],passed=True))
  assert r.read(r.symbols['gObjectEventPic_PatrouilleOni'],2048)==raw
  bank=int.from_bytes(r.read(sprite+4,2),'little')>>12
  assert r.read(r.symbols['gPlttBufferUnfaded']+512+32*bank,32)==r.read(r.symbols['gObjectEventPal_PatrouilleOni'],32)
