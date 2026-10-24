@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "scope": "Convert generated front battle artwork to native 64px, no game-table edits.",
+  "portraits": [
+    {
+      "actor": "gargaros",
+      "source_sha256": "d0eadaf0fc664c863e59dbecd8d6f15adcbfaa7ab1e28496f5b72aa3dbe9c6ac",
+      "source_bounds": [
+        13,
+        24,
+        1302,
+        1181
+      ],
+      "native_size": [
+        64,
+        64
+      ],
+      "visible_bounds": [
+        2,
+        8,
+        62,
+        62
+      ],
+      "transparent_index": 0,
+      "opaque_color_limit": 15,
+      "game_tables_changed": false
+    },
+    {
+      "actor": "ogralos",
+      "source_sha256": "dd2aa3d9cec63df46172b5d41553b35af672a6ab0bf503e39ca132740039c57c",
+      "source_bounds": [
+        96,
+        89,
+        1206,
+        1166
+      ],
+      "native_size": [
+        64,
+        64
+      ],
+      "visible_bounds": [
+        2,
+        4,
+        62,
+        62
+      ],
+      "transparent_index": 0,
+      "opaque_color_limit": 15,
+      "game_tables_changed": false
+    }
+  ]
+}
