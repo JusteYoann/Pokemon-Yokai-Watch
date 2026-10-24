@@ -204,6 +204,8 @@ static void HandleInputChooseAction(void)
             BtlController_EmitTwoReturnValues(1, B_ACTION_SWITCH, 0);
             break;
         case 3:
+            if (TryStartTrainerForfeit(OakOldManHandleChooseAction, OakOldManBufferExecCompleted))
+                return;
             BtlController_EmitTwoReturnValues(1, B_ACTION_RUN, 0);
             break;
         }

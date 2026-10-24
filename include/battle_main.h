@@ -1,6 +1,8 @@
 #ifndef GUARD_BATTLE_MAIN_H
 #define GUARD_BATTLE_MAIN_H
 
+void ForfeitTrainerBattle(void);
+
 #include "constants/abilities.h"
 
 struct TrainerMoney

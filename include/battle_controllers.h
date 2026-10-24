@@ -253,6 +253,7 @@ void BtlController_EmitEndLinkBattle(u8 bufferId, u8 battleOutcome);
 // player controller
 void BattleControllerDummy(void);
 void SetControllerToPlayer(void);
+bool8 TryStartTrainerForfeit(void (*cancel)(void), void (*complete)(void));
 void PlayerHandleGetRawMonData(void);
 void SpriteCB_FreePlayerSpriteLoadMonSprite(struct Sprite *sprite);
 void SetCB2ToReshowScreenAfterMenu(void);

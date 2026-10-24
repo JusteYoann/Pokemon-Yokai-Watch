@@ -26,6 +26,7 @@
 #include "load_save.h"
 #include "m4a.h"
 #include "party_menu.h"
+#include "overworld.h"
 #include "pokeball.h"
 #include "pokedex.h"
 #include "quest_log.h"
@@ -200,6 +201,7 @@ EWRAM_DATA u16 gPaydayMoney = 0;
 EWRAM_DATA u16 gRandomTurnNumber = 0;
 EWRAM_DATA u8 gBattleCommunication[BATTLE_COMMUNICATION_ENTRIES_COUNT] = {0};
 EWRAM_DATA u8 gBattleOutcome = 0;
+static EWRAM_DATA bool8 sTrainerBattleForfeited = FALSE;
 EWRAM_DATA struct ProtectStruct gProtectStructs[MAX_BATTLERS_COUNT] = {0};
 EWRAM_DATA struct SpecialStatus gSpecialStatuses[MAX_BATTLERS_COUNT] = {0};
 EWRAM_DATA u16 gBattleWeather = 0;
@@ -2278,6 +2280,7 @@ static void BattleStartClearSetData(void)
     SpiratonBattleReset();
     YokaiChampionResetBattle();
     gBattleOutcome = 0;
+    sTrainerBattleForfeited = FALSE;
     gBattleControllerExecFlags = 0;
     gPaydayMoney = 0;
     gBattleResources->battleScriptsStack->size = 0;
@@ -3809,7 +3812,7 @@ static void HandleEndTurn_BattleLost(void)
     }
     else
     {
-        if (gBattleTypeFlags & BATTLE_TYPE_TRAINER && GetTrainerBattleMode() == TRAINER_BATTLE_EARLY_RIVAL)
+        if (!sTrainerBattleForfeited && gBattleTypeFlags & BATTLE_TYPE_TRAINER && GetTrainerBattleMode() == TRAINER_BATTLE_EARLY_RIVAL)
         {
             if (GetRivalBattleFlags() & RIVAL_BATTLE_HEAL_AFTER)
                 gBattleCommunication[MULTISTRING_CHOOSER] = 1; // Dont do white out text
@@ -3966,7 +3969,23 @@ static void ReturnFromBattleToOverworld(void)
                 SetRoamerInactive();
         }
         m4aSongNumStop(SE_LOW_HEALTH);
-        SetMainCallback2(gMain.savedCallback);
+        if (sTrainerBattleForfeited)
+        {
+            // An abandoned scripted encounter must not resume its victory or
+            // can-lose dialogue. WhiteOut resets the script and field controls.
+            // The partner is temporary and must never reach the saved roster.
+            if (gBattleTypeFlags & BATTLE_TYPE_SCRIPTED_PARTNER)
+                ZeroMonData(&gPlayerParty[PARTY_SIZE]);
+            // e-Reader challenges may restore saved held items on exit.
+            if (gBattleTypeFlags & BATTLE_TYPE_EREADER_TRAINER)
+                gMain.savedCallback();
+            sTrainerBattleForfeited = FALSE;
+            SetMainCallback2(CB2_WhiteOut);
+        }
+        else
+        {
+            SetMainCallback2(gMain.savedCallback);
+        }
     }
 }
 
@@ -4316,6 +4335,15 @@ bool8 TryRunFromBattle(u8 battler)
         gBattleOutcome = B_OUTCOME_RAN;
     }
     return effect;
+}
+
+void ForfeitTrainerBattle(void)
+{
+    if (!(gBattleTypeFlags & BATTLE_TYPE_TRAINER) || gBattleTypeFlags & BATTLE_TYPE_LINK)
+        return;
+    sTrainerBattleForfeited = TRUE;
+    gBattleOutcome = B_OUTCOME_LOST;
+    gBattleMainFunc = HandleEndTurn_BattleLost;
 }
 
 static void HandleAction_Run(void)

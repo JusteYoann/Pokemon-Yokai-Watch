@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "rom_sha256": "14addbd73bb730d935a382decc6dac026809ce91fe74db0c36400f7404b8a855",
+  "scope": "mGBA surrender fixtures: native battles and controller confirmation/cancel.\nPrepared map/party/last healing point, explicit test branch snapshots.\nNo injected victory/loss or enemy HP writes; UI triggers the defeat itself.\n",
+  "cases": [
+    "Default No: no turn/HP/PP spent",
+    "B cancels without a turn",
+    "Yes: real loss and native healing center",
+    "Ariane duo: loss, temporary partner cleared, quest remains pending",
+    "Ordinary double: second player battler can forfeit; whole battle lost",
+    "Early rival: No preserves its tutorial controller and party",
+    "Early rival: B preserves its tutorial controller",
+    "Early rival tutorial: surrender reaches healing center instead of resuming the cutscene",
+    "Wild battle still escapes normally, without surrender confirmation"
+  ]
+}

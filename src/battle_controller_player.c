@@ -13,6 +13,7 @@
 #include "task.h"
 #include "util.h"
 #include "battle.h"
+#include "battle_main.h"
 #include "battle_anim.h"
 #include "battle_controllers.h"
 #include "battle_interface.h"
@@ -43,6 +44,12 @@ static void PlayerHandleMoveAnimation(void);
 static void PlayerHandlePrintString(void);
 static void PlayerHandlePrintSelectionString(void);
 static void PlayerHandleChooseAction(void);
+static void WaitForTrainerForfeitPrompt(void);
+static void HandleConfirmTrainerForfeit(void);
+static void DrawTrainerForfeitCursor(bool8 erase);
+static const u8 sText_ConfirmTrainerForfeit[] = _("Abandonner le combat ?\nRetour au Centre Yo-kai.");
+static EWRAM_DATA void (*sForfeitCancel)(void) = NULL;
+static EWRAM_DATA void (*sForfeitComplete)(void) = NULL;
 static void PlayerHandleUnknownYesNoBox(void);
 static void PlayerHandleChooseMove(void);
 static void PlayerHandleChooseItem(void);
@@ -239,6 +246,8 @@ static void HandleInputChooseAction(void)
             BtlController_EmitTwoReturnValues(1, B_ACTION_SWITCH, 0);
             break;
         case 3:
+            if (TryStartTrainerForfeit(PlayerHandleChooseAction, PlayerBufferExecCompleted))
+                return;
             BtlController_EmitTwoReturnValues(1, B_ACTION_RUN, 0);
             break;
         }
@@ -2428,6 +2437,76 @@ static void PlayerHandleChooseAction(void)
     ActionSelectionCreateCursorAt(gActionSelectionCursor[gActiveBattler], 0);
     BattleStringExpandPlaceholdersToDisplayedString(gText_WhatWillPkmnDo);
     BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_ACTION_PROMPT);
+}
+
+bool8 TryStartTrainerForfeit(void (*cancel)(void), void (*complete)(void))
+{
+    if (!(gBattleTypeFlags & BATTLE_TYPE_TRAINER) || (gBattleTypeFlags & BATTLE_TYPE_LINK))
+        return FALSE;
+    sForfeitCancel = cancel;
+    sForfeitComplete = complete;
+    EndBounceEffect(gActiveBattler, BOUNCE_HEALTHBOX);
+    EndBounceEffect(gActiveBattler, BOUNCE_MON);
+    gBattle_BG0_X = 0;
+    gBattle_BG0_Y = 0;
+    BattlePutTextOnWindow(sText_ConfirmTrainerForfeit, B_WIN_MSG);
+    gBattlerControllerFuncs[gActiveBattler] = WaitForTrainerForfeitPrompt;
+    return TRUE;
+}
+
+static void WaitForTrainerForfeitPrompt(void)
+{
+    if (IsTextPrinterActive(B_WIN_MSG))
+        return;
+    // Both windows share the font color lookup: finish the animated prompt
+    // before rendering the instant yes/no text, as native battle scripts do.
+    HandleBattleWindow(23, 8, 29, 13, 0);
+    BattlePutTextOnWindow(gText_BattleYesNoChoice, B_WIN_YESNO);
+    gMultiUsePlayerCursor = 1; // Default No also protects against repeated A.
+    DrawTrainerForfeitCursor(FALSE);
+    gBattlerControllerFuncs[gActiveBattler] = HandleConfirmTrainerForfeit;
+}
+
+static void DrawTrainerForfeitCursor(bool8 erase)
+{
+    // The native cursor renderer uses battleCommunication[1], which also holds
+    // another battler's command-selection state. Preserve that state exactly.
+    u8 saved = gBattleCommunication[1];
+    gBattleCommunication[1] = gMultiUsePlayerCursor;
+    if (erase)
+        BattleDestroyYesNoCursorAt();
+    else
+        BattleCreateYesNoCursorAt();
+    gBattleCommunication[1] = saved;
+}
+
+static void HandleConfirmTrainerForfeit(void)
+{
+    if (IsTextPrinterActive(B_WIN_MSG))
+        return;
+    if (JOY_NEW(DPAD_UP | DPAD_DOWN))
+    {
+        DrawTrainerForfeitCursor(TRUE);
+        gMultiUsePlayerCursor = JOY_NEW(DPAD_DOWN) ? 1 : 0;
+        DrawTrainerForfeitCursor(FALSE);
+        PlaySE(SE_SELECT);
+    }
+    else if (JOY_NEW(A_BUTTON | B_BUTTON))
+    {
+        bool8 abandon = JOY_NEW(A_BUTTON) && gMultiUsePlayerCursor == 0;
+        PlaySE(SE_SELECT);
+        DrawTrainerForfeitCursor(TRUE);
+        HandleBattleWindow(23, 8, 29, 13, WINDOW_CLEAR);
+        if (abandon)
+        {
+            sForfeitComplete();
+            ForfeitTrainerBattle();
+        }
+        else
+        {
+            sForfeitCancel();
+        }
+    }
 }
 
 static void PlayerHandleUnknownYesNoBox(void)
