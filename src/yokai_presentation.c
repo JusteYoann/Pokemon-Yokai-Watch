@@ -13,183 +13,151 @@
 #include "clear_save_data_screen.h"
 #include "berry_fix_program.h"
 #include "yokai_presentation.h"
+#include "yokai_music.h"
 #include "constants/songs.h"
 
-/* Shared 240x160 composition: 600 8bpp tiles (38400 bytes) below char base3.
- * Text lives at char base3, before screen block28; no framebuffer in EWRAM. */
-static const u32 sNightTiles[] = INCBIN_U32("graphics/yokai_presentation/nuit.8bpp.lz");
-static const u16 sNightPal[] = INCBIN_U16("graphics/yokai_presentation/nuit.gbapal");
-static const u16 sNightMap[] = INCBIN_U16("graphics/yokai_presentation/nuit.bin");
-static const u16 sTextPal[16] = {RGB(0,0,0), RGB(31,31,31), RGB(4,12,16), RGB(1,3,8)};
+/* BG0 landscape: char0, maps28/29. BG1 logo: char2, map30.
+ * BG2 text: char3 +128tiles, map31. No full-frame EWRAM buffer. */
+static const u32 sLandscapeTiles[] = INCBIN_U32("graphics/yokai_title/fresque.4bpp.lz");
+static const u16 sLandscapePal[] = INCBIN_U16("graphics/yokai_title/fresque.gbapal");
+static const u16 sLandscapeMap[] = INCBIN_U16("graphics/yokai_title/fresque.bin");
+static const u32 sLogoTiles[] = INCBIN_U32("graphics/yokai_title/logo.4bpp.lz");
+static const u16 sLogoPal[] = INCBIN_U16("graphics/yokai_title/logo.gbapal");
+static const u16 sLogoMap[] = INCBIN_U16("graphics/yokai_title/logo.bin");
+static const u16 sTextPal[16] = {RGB_BLACK, RGB_WHITE, RGB(2,2,2), RGB_BLACK};
 static const u8 sTextColors[] = {0, 1, 2};
-static const u8 sFooterColors[] = {3, 1, 2};
-static const u8 sNightOne[] = _("La nuit tombe sur Kanto...");
-static const u8 sNightTwo[] = _("Les Yo-kai s'éveillent.");
-static const u8 sNightThree[] = _("Ouvrez les yeux sur l'invisible.");
-static const u8 sTitleOne[] = _("POKÉMON");
-static const u8 sTitleTwo[] = _("× YO-KAI WATCH");
-static const u8 sTitleBeta[] = _("BÊTA DE DÉVELOPPEMENT");
-static const u8 sPressStart[] = _("A / START : JOUER");
-static EWRAM_DATA u16 sPresentationTick = 0;
+static const u8 sBannerColors[] = {3, 1, 2};
+static const u8 sSignature[] = _("by Juste Yoann");
+static const u8 sPressStart[] = _("PRESS START");
+static EWRAM_DATA u32 sPresentationTick = 0;
 static EWRAM_DATA bool8 sPresentationLeaving = FALSE;
 static EWRAM_DATA bool8 sPresentationTitle = FALSE;
-
 static const struct BgTemplate sBgs[] = {
-    {.bg=0, .charBaseIndex=0, .mapBaseIndex=28, .screenSize=0, .paletteMode=1, .priority=2},
-    {.bg=1, .charBaseIndex=3, .mapBaseIndex=30, .screenSize=0, .paletteMode=0, .priority=0},
+    {.bg=0, .charBaseIndex=0, .mapBaseIndex=28, .screenSize=1, .paletteMode=0, .priority=2},
+    {.bg=1, .charBaseIndex=2, .mapBaseIndex=30, .screenSize=0, .paletteMode=0, .priority=1},
+    {.bg=2, .charBaseIndex=3, .mapBaseIndex=31, .screenSize=0, .paletteMode=0, .priority=0},
 };
-static const struct WindowTemplate sWindows[] = {
-    {.bg=1, .tilemapLeft=1, .tilemapTop=1, .width=28, .height=6, .paletteNum=15, .baseBlock=1},
-    {.bg=1, .tilemapLeft=1, .tilemapTop=18, .width=28, .height=2, .paletteNum=15, .baseBlock=169},
+static const struct WindowTemplate sIntroWindows[] = {
+    {.bg=2, .tilemapLeft=1, .tilemapTop=8, .width=28, .height=3, .paletteNum=15, .baseBlock=128},
+    DUMMY_WIN_TEMPLATE
+};
+static const struct WindowTemplate sTitleWindows[] = {
+    {.bg=2, .tilemapLeft=0, .tilemapTop=17, .width=30, .height=3, .paletteNum=15, .baseBlock=128},
     DUMMY_WIN_TEMPLATE
 };
 static void VBlankPresentation(void)
 {
-    LoadOam();
-    ProcessSpriteCopyRequests();
-    TransferPlttBuffer();
+    LoadOam(); ProcessSpriteCopyRequests(); TransferPlttBuffer();
 }
-static void PrintCentered(u8 window, u8 font, u8 y, const u8 *text)
+static void StopPresentationMusic(void)
 {
-    s32 x = (224 - GetStringWidth(font, text, 0)) / 2;
-    AddTextPrinterParameterized3(window, font, x < 0 ? 0 : x, y,
-        window == 1 ? sFooterColors : sTextColors, TEXT_SKIP_DRAW, text);
+    StopMapMusic();
+    YokaiDiscardPausedSample(&gMPlayInfo_BGM);
+    m4aMPlayStop(&gMPlayInfo_BGM);
 }
-static void IntroCaption(const u8 *text)
+static void PrintCentered(u8 font, u8 y, const u8 *text)
 {
-    FillWindowPixelBuffer(0, 0);
-    PrintCentered(0, FONT_NORMAL, 12, text);
-    CopyWindowToVram(0, COPYWIN_FULL);
+    s32 x = ((sPresentationTitle ? 240 : 224) - GetStringWidth(font, text, 0)) / 2;
+    AddTextPrinterParameterized3(0, font, x < 0 ? 0 : x, y, sPresentationTitle ? sBannerColors : sTextColors, TEXT_SKIP_DRAW, text);
 }
 static void PresentationCleanup(void)
 {
-    SetVBlankCallback(NULL);
-    FreeAllWindowBuffers();
-    SetGpuReg(REG_OFFSET_DISPCNT, 0);
+    SetVBlankCallback(NULL); FreeAllWindowBuffers();
+    SetGpuReg(REG_OFFSET_BLDCNT, 0); SetGpuReg(REG_OFFSET_DISPCNT, 0);
 }
 static void EnterMainMenu(void)
 {
-    PresentationCleanup();
-    SeedRngAndSetTrainerId();
-    SetSaveBlocksPointers();
-    ResetMenuAndMonGlobals();
-    Save_ResetSaveCounters();
-    LoadGameSave(SAVE_NORMAL);
+    StopPresentationMusic(); PresentationCleanup();
+    SeedRngAndSetTrainerId(); SetSaveBlocksPointers(); ResetMenuAndMonGlobals();
+    Save_ResetSaveCounters(); LoadGameSave(SAVE_NORMAL);
     if (gSaveFileStatus == SAVE_STATUS_EMPTY || gSaveFileStatus == SAVE_STATUS_INVALID)
         Sav2_ClearSetDefault();
     SetPokemonCryStereo(gSaveBlock2Ptr->optionsSound);
-    InitHeap(gHeap, HEAP_SIZE);
-    SetMainCallback2(CB2_InitMainMenu);
+    InitHeap(gHeap, HEAP_SIZE); SetMainCallback2(CB2_InitMainMenu);
 }
 static void CB2_RunYokaiPresentation(void)
 {
     sPresentationTick++;
     if (!sPresentationTitle)
     {
-        if (sPresentationTick == 30) IntroCaption(sNightOne);
-        if (sPresentationTick == 130) IntroCaption(sNightTwo);
-        if (sPresentationTick == 235) IntroCaption(sNightThree);
-        if (sPresentationTick == 150) BeginNormalPaletteFade(PALETTES_BG, 0, 0, 4, RGB(0,15,18));
-        if (sPresentationTick == 175) BeginNormalPaletteFade(PALETTES_BG, 0, 4, 0, RGB(0,15,18));
-        if (!sPresentationLeaving && (sPresentationTick >= 350 || JOY_NEW(A_BUTTON | B_BUTTON | START_BUTTON)))
-        {
-            sPresentationLeaving = TRUE;
+        if (sPresentationTick == 104)
             BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
-        }
-        if (sPresentationLeaving && !gPaletteFade.active)
+        if (sPresentationTick >= 120 && !gPaletteFade.active)
         {
-            PresentationCleanup();
-            SetMainCallback2(CB2_InitYokaiTitle);
-            return;
+            PresentationCleanup(); SetMainCallback2(CB2_InitYokaiTitle); return;
         }
     }
     else
     {
-        if (!sPresentationLeaving && !gPaletteFade.active)
+        u32 alpha = sPresentationTick < 300 ? sPresentationTick * 16 / 300 : 16;
+        /* 11/256px/frame: 2.57px/s at real GBA refresh. Content moves right. */
+        ChangeBgX(0, 0u - sPresentationTick * 11, BG_COORD_SET);
+        SetGpuReg(REG_OFFSET_BLDALPHA, BLDALPHA_BLEND(alpha, 16 - alpha));
+        if (sPresentationTick >= 300 && (sPresentationTick - 300) % 40 == 0)
+        {
+            FillWindowPixelBuffer(0, 0x33);
+            if ((sPresentationTick - 300) % 80 == 0) PrintCentered(FONT_SMALL, 4, sPressStart);
+            CopyWindowToVram(0, COPYWIN_FULL);
+        }
+        if (!sPresentationLeaving)
         {
             if (JOY_HELD(B_BUTTON | SELECT_BUTTON | DPAD_UP) == (B_BUTTON | SELECT_BUTTON | DPAD_UP))
             {
-                PresentationCleanup();
-                SetMainCallback2(CB2_SaveClearScreen_Init);
-                return;
+                StopPresentationMusic(); PresentationCleanup();
+                SetMainCallback2(CB2_SaveClearScreen_Init); return;
             }
             if (JOY_HELD(B_BUTTON | SELECT_BUTTON) == (B_BUTTON | SELECT_BUTTON) && JOY_NEW(R_BUTTON))
             {
-                PresentationCleanup();
-                SetMainCallback2(CB2_InitBerryFixProgram);
-                return;
+                StopPresentationMusic(); PresentationCleanup();
+                SetMainCallback2(CB2_InitBerryFixProgram); return;
             }
             if (JOY_NEW(A_BUTTON | START_BUTTON))
             {
-                sPresentationLeaving = TRUE;
+                StopPresentationMusic(); sPresentationLeaving = TRUE;
                 BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
-                FadeOutBGM(4);
-            }
-            if (sPresentationTick % 40 == 0)
-            {
-                FillWindowPixelBuffer(1, 0x33);
-                if (sPresentationTick % 80 == 0) PrintCentered(1, FONT_SMALL, 1, sPressStart);
-                CopyWindowToVram(1, COPYWIN_FULL);
             }
         }
-        if (sPresentationLeaving && !gPaletteFade.active)
-        {
-            EnterMainMenu();
-            return;
-        }
+        if (sPresentationLeaving && !gPaletteFade.active) { EnterMainMenu(); return; }
     }
-    RunTasks();
-    AnimateSprites();
-    BuildOamBuffer();
-    UpdatePaletteFade();
+    RunTasks(); AnimateSprites(); BuildOamBuffer(); UpdatePaletteFade();
 }
 static void SetupPresentation(bool8 title)
 {
     u8 i;
-    SetVBlankCallback(NULL);
-    SetGpuReg(REG_OFFSET_DISPCNT, 0);
-    HelpSystem_Disable();
-    InitHeap(gHeap, HEAP_SIZE);
-    ResetTasks();
-    ResetSpriteData();
-    FreeAllSpritePalettes();
-    ResetPaletteFade();
+    SetVBlankCallback(NULL); SetGpuReg(REG_OFFSET_DISPCNT, 0);
+    StopPresentationMusic();
+    if (!title) m4aMPlayAllStop();
+    HelpSystem_Disable(); InitHeap(gHeap, HEAP_SIZE); ResetTasks();
+    ResetSpriteData(); FreeAllSpritePalettes(); ResetPaletteFade();
     DmaClearLarge16(3, (void *)VRAM, VRAM_SIZE, 0x1000);
-    DmaClear32(3, (void *)OAM, OAM_SIZE);
-    DmaClear16(3, (void *)PLTT, PLTT_SIZE);
-    ResetBgsAndClearDma3BusyFlags(FALSE);
-    InitBgsFromTemplates(0, sBgs, NELEMS(sBgs));
-    for (i=0; i<4; i++) { ChangeBgX(i,0,0); ChangeBgY(i,0,0); }
-    SetGpuReg(REG_OFFSET_BLDCNT, 0);
-    SetGpuReg(REG_OFFSET_BLDY, 0);
-    LoadPalette(sNightPal, 0, sizeof(sNightPal));
+    DmaClear32(3, (void *)OAM, OAM_SIZE); DmaClear16(3, (void *)PLTT, PLTT_SIZE);
+    ResetBgsAndClearDma3BusyFlags(FALSE); InitBgsFromTemplates(0, sBgs, NELEMS(sBgs));
+    for (i=0; i<4; i++) { ChangeBgX(i,0,BG_COORD_SET); ChangeBgY(i,0,BG_COORD_SET); }
+    SetGpuReg(REG_OFFSET_BLDCNT, 0); SetGpuReg(REG_OFFSET_BLDY, 0);
     LoadPalette(sTextPal, BG_PLTT_ID(15), sizeof(sTextPal));
-    LZ77UnCompVram(sNightTiles, (void *)BG_VRAM);
-    CpuCopy16(sNightMap, (void *)(BG_VRAM + 28 * BG_SCREEN_SIZE), sizeof(sNightMap));
-    InitWindows(sWindows);
-    DeactivateAllTextPrinters();
-    for (i=0; i<2; i++) { FillWindowPixelBuffer(i,0); PutWindowTilemap(i); }
-    sPresentationTitle=title;
-    sPresentationTick=0;
-    sPresentationLeaving=FALSE;
+    InitWindows(title ? sTitleWindows : sIntroWindows); DeactivateAllTextPrinters();
+    FillWindowPixelBuffer(0, 0); PutWindowTilemap(0);
+    sPresentationTitle=title; sPresentationTick=0; sPresentationLeaving=FALSE;
     if (title)
     {
+        FillWindowPixelBuffer(0, 0x33);
         StartTimer1();
-        PrintCentered(0, FONT_NORMAL, 0, sTitleOne);
-        PrintCentered(0, FONT_NORMAL, 16, sTitleTwo);
-        PrintCentered(0, FONT_SMALL, 35, sTitleBeta);
-        FillWindowPixelBuffer(1,0x33);
-        PrintCentered(1, FONT_SMALL, 1, sPressStart);
+        LoadPalette(sLandscapePal, 0, sizeof(sLandscapePal));
+        LoadPalette(sLogoPal, BG_PLTT_ID(1), sizeof(sLogoPal));
+        LZ77UnCompVram(sLandscapeTiles, (void *)BG_VRAM);
+        CpuCopy16(sLandscapeMap, (void *)(BG_VRAM + 28 * BG_SCREEN_SIZE), sizeof(sLandscapeMap));
+        LZ77UnCompVram(sLogoTiles, (void *)(BG_VRAM + 2 * BG_CHAR_SIZE));
+        CpuCopy16(sLogoMap, (void *)(BG_VRAM + 30 * BG_SCREEN_SIZE), sizeof(sLogoMap));
+        SetGpuReg(REG_OFFSET_BLDCNT, BLDCNT_TGT1_BG1 | BLDCNT_TGT2_BG0 | BLDCNT_TGT2_BD | BLDCNT_EFFECT_BLEND);
+        SetGpuReg(REG_OFFSET_BLDALPHA, BLDALPHA_BLEND(0, 16));
+        /* Existing music audition candidate; no extra title sample. */
+        m4aSongNumStartOrChange(MUS_YOKAI_NATHAN_HOUSE);
     }
-    CopyWindowToVram(0,COPYWIN_FULL);
-    CopyWindowToVram(1,COPYWIN_FULL);
-    SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_MODE_0);
-    ShowBg(0);
-    ShowBg(1);
-    BeginNormalPaletteFade(PALETTES_ALL, 0, 16, 0, RGB_BLACK);
-    m4aSongNumStartOrChange(MUS_YOKAI_CURIOUS);
-    SetVBlankCallback(VBlankPresentation);
-    SetMainCallback2(CB2_RunYokaiPresentation);
+    else PrintCentered(FONT_NORMAL, 4, sSignature);
+    CopyWindowToVram(0,COPYWIN_FULL); SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_MODE_0);
+    if (title) { ShowBg(0); ShowBg(1); }
+    ShowBg(2); BeginNormalPaletteFade(PALETTES_ALL, 0, 16, 0, RGB_BLACK);
+    SetVBlankCallback(VBlankPresentation); SetMainCallback2(CB2_RunYokaiPresentation);
 }
 void CB2_InitYokaiIntro(void) { SetupPresentation(FALSE); }
 void CB2_InitYokaiTitle(void) { SetupPresentation(TRUE); }

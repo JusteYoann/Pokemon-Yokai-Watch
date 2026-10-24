@@ -1000,15 +1000,16 @@ static bool8 SetUpCopyrightScreen(void)
 
 void CB2_InitCopyrightScreenAfterBootup(void)
 {
-    if (!SetUpCopyrightScreen())
-    {
-        ResetMenuAndMonGlobals();
-        Save_ResetSaveCounters();
-        LoadGameSave(SAVE_NORMAL);
-        if (gSaveFileStatus == SAVE_STATUS_EMPTY || gSaveFileStatus == SAVE_STATUS_INVALID)
-            Sav2_ClearSetDefault();
-        SetPokemonCryStereo(gSaveBlock2Ptr->optionsSound);
-    }
+    /* Keep native save initialization; opening visuals now start with the
+     * silent signature rather than the copyright/intro animation sequence. */
+    ResetMenuAndMonGlobals();
+    Save_ResetSaveCounters();
+    LoadGameSave(SAVE_NORMAL);
+    if (gSaveFileStatus == SAVE_STATUS_EMPTY || gSaveFileStatus == SAVE_STATUS_INVALID)
+        Sav2_ClearSetDefault();
+    SetPokemonCryStereo(gSaveBlock2Ptr->optionsSound);
+    ResetSerial();
+    SetMainCallback2(CB2_InitYokaiIntro);
 }
 
 void CB2_InitCopyrightScreenAfterTitleScreen(void)

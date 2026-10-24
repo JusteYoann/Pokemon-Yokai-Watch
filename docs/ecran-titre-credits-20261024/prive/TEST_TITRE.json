@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "rom_sha256": "d7b8e3e085e9bcff0689a5cbbfba5ad6e7d9bfa7d535e837c9d7de953333d64c",
+  "signature_frames": 126,
+  "title_frames": 1143,
+  "start_immediate_stop": true,
+  "menu_idle_silent": true,
+  "scope": "Native boot/title/menu proof. Inputs only until menu; fixtures labelled.\n\nPrivate audio captures stay outside Git. Full new-game/continue checks are\nseparate so captures do not depend on a modified save state.\n"
+}

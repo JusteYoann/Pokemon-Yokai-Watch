@@ -17,6 +17,9 @@
 #include "text_window.h"
 #include "text_window_graphics.h"
 #include "constants/songs.h"
+#include "m4a.h"
+#include "sound.h"
+#include "yokai_music.h"
 
 enum MainMenuType
 {
@@ -167,6 +170,10 @@ static bool32 MainMenuGpuInit(u8 a0)
 {
     u8 taskId;
 
+    /* Initial entry and Options/menu return paths must all stay silent. */
+    StopMapMusic();
+    YokaiDiscardPausedSample(&gMPlayInfo_BGM);
+    m4aMPlayStop(&gMPlayInfo_BGM);
     SetVBlankCallback(NULL);
     SetGpuReg(REG_OFFSET_DISPCNT, 0);
     SetGpuReg(REG_OFFSET_BG2CNT, 0);
@@ -314,10 +321,9 @@ static void Task_SetWin0BldRegsNoSaveFileCheck(u8 taskId)
         SetGpuReg(REG_OFFSET_BLDCNT, BLDCNT_TGT1_BG0 | BLDCNT_TGT1_BG1 | BLDCNT_TGT1_BG2 | BLDCNT_TGT1_BG3 | BLDCNT_TGT1_OBJ | BLDCNT_TGT1_BD | BLDCNT_EFFECT_DARKEN);
         SetGpuReg(REG_OFFSET_BLDALPHA, BLDALPHA_BLEND(0, 0));
         SetGpuReg(REG_OFFSET_BLDY, 7);
-        if (gTasks[taskId].tMenuType == MAIN_MENU_NEWGAME)
-            gTasks[taskId].func = Task_ExecuteMainMenuSelection;
-        else
-            gTasks[taskId].func = Task_WaitFadeAndPrintMainMenuText;
+        /* Present the existing New Game row even with an empty save. START
+         * opens the save-selection screen rather than auto-starting Chen. */
+        gTasks[taskId].func = Task_WaitFadeAndPrintMainMenuText;
     }
 }
 

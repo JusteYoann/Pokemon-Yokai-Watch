@@ -7,3 +7,8 @@ $(YOKAI_DISPLAY_GFX): %-display.4bpp: %.4bpp data/yokai/sprite_presentation.json
 	python3 tools/yokai/presentation_4bpp.py --input $< --output $@
 $(YOKAI_BATTLE_GFX): %-battle.4bpp: %.4bpp data/yokai/sprite_presentation.json tools/yokai/presentation_4bpp.py
 	python3 tools/yokai/presentation_4bpp.py --input $< --output $@
+
+graphics/yokai_title/%.4bpp: graphics/yokai_title/%.png tools/yokai/preparer_titre.py
+	python3 tools/yokai/preparer_titre.py --pack $*
+graphics/yokai_title/%.gbapal graphics/yokai_title/%.bin: graphics/yokai_title/%.4bpp
+	@test -f $@ || python3 tools/yokai/preparer_titre.py --pack $*
