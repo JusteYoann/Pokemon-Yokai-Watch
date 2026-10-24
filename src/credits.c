@@ -15,6 +15,7 @@
 #include "constants/maps.h"
 #include "constants/field_weather.h"
 #include "constants/sound.h"
+#include "yokai_presentation.h"
 
 #if defined(FIRERED)
 #define TITLE_TEXT gString_PokemonFireRed_Staff
@@ -710,12 +711,7 @@ static const struct CreditsTextHeader sCreditsTexts[] = {
 
 void DoCredits(void)
 {
-    sCreditsMgr = AllocZeroed(sizeof(*sCreditsMgr));
-    ResetTasks();
-    sCreditsMgr->taskId = TASK_NONE;
-    sCreditsMgr->unk_1D = 0;
-    ResetSpriteData();
-    SetMainCallback2(CB2_Credits);
+    SetMainCallback2(CB2_InitYokaiCredits);
 }
 
 static void CB2_Credits(void)

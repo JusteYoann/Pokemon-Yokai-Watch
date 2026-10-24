@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "rom_sha256": "84dd9974805899f4a9435a2e9d9301e9126f6204c5203f51450c95558cf91de0",
+  "scope": "Actual first-arrival scene via Route2, four entrances; controller dialogue, no ROM patches.",
+  "player_gender": 1,
+  "results": [
+    {
+      "entry": 20,
+      "completed_frames": 3971,
+      "simultaneous_palette_banks": [
+        [
+          6,
+          10
+        ]
+      ],
+      "music_headers": [
+        "0x86d6804",
+        "0x86e123c",
+        "0x86e06bc",
+        "0x86e123c"
+      ],
+      "captured": [
+        "rassemblement",
+        "discours",
+        "dispersion"
+      ],
+      "peak_active_objects": 12,
+      "passed": true
+    }
+  ]
+}

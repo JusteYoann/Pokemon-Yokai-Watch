@@ -19,6 +19,14 @@ r = Emulator(initial_frames=1)
 chunks = []
 callback = BATCH(lambda data, frames: (chunks.append(ctypes.string_at(data, frames * 4)) or frames))
 r.lib.retro_set_audio_sample_batch(callback)
+class Geometry(ctypes.Structure):
+    _fields_ = [('base_width', ctypes.c_uint), ('base_height', ctypes.c_uint), ('max_width', ctypes.c_uint), ('max_height', ctypes.c_uint), ('aspect_ratio', ctypes.c_float)]
+class Timing(ctypes.Structure):
+    _fields_ = [('fps', ctypes.c_double), ('sample_rate', ctypes.c_double)]
+class AV(ctypes.Structure):
+    _fields_ = [('geometry', Geometry), ('timing', Timing)]
+av = AV()
+r.lib.retro_get_system_av_info(ctypes.byref(av))
 frames = []
 def bgm_inactive():
     status = r.u32(r.symbols['gMPlayInfo_BGM'] + 4)
@@ -50,11 +58,13 @@ try:
     assert title_frames > 1000
     frames[0].save(out / 'titre-20s.gif', save_all=True, append_images=frames[1:], duration=100, loop=0)
     raw = b''.join(chunks)
+    assert any(raw), 'Title BGM is silent'
+    assert not bgm_inactive(), 'Title BGM stopped before START'
     if mode == 'prive':
         private = Path('/workspace/private-audio/title-credits-preuves')
         private.mkdir(exist_ok=True)
         with wave.open(str(private / 'titre-nates-house-mgba.wav'), 'wb') as wav:
-            wav.setparams((2, 2, 32768, 0, 'NONE', 'not compressed'))
+            wav.setparams((2, 2, round(av.timing.sample_rate), 0, 'NONE', 'not compressed'))
             wav.writeframes(raw)
     r.keys = {3}  # native START, immediate stop rather than fade-out
     r.run()

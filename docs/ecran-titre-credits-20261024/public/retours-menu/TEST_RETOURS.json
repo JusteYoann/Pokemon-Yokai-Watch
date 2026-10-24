@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "scope": "Real native save/Continue and menu B return. Options-return callback fixture.\n\nFRLG does not expose Options in its save-selection menu. The existing Options\nscreen is opened by a native-call fixture, with return callback set to that menu.\nNo extra Options entry or release debug shortcut is introduced.\n",
+  "rom_sha256": "3e367d69d6e2356ae465e0a1e5ce29ac6e5fed0458f33ec83d020da98299fe7e",
+  "results": [
+    {
+      "gender": 0,
+      "passed": true,
+      "native_save_continue": true,
+      "player_name_gender_map_preserved": true,
+      "menu_B_title_START_return": true,
+      "options_return_fixture": true,
+      "field_music_resumed": true
+    },
+    {
+      "gender": 1,
+      "passed": true,
+      "native_save_continue": true,
+      "player_name_gender_map_preserved": true,
+      "menu_B_title_START_return": true,
+      "options_return_fixture": true,
+      "field_music_resumed": true
+    }
+  ]
+}

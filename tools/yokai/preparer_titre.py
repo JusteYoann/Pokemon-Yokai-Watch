@@ -31,7 +31,7 @@ if a.pack:
     name = a.pack
     im = Image.open(OUT / f'{name}.png')
     assert im.mode == 'P'
-    palette = im.getpalette()[:48]
+    palette = (im.getpalette() + [0] * 48)[:48]
     assert max(im.getdata()) <= 15
     (OUT / f'{name}.gbapal').write_bytes(b''.join(struct.pack('<H', (r >> 3) | ((g >> 3) << 5) | ((b >> 3) << 10)) for r, g, b in zip(palette[::3], palette[1::3], palette[2::3])))
     tiles = [bytes(32)]

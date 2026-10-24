@@ -1,0 +1,50 @@
+{
+  "rom_sha256": "78c5f3e6595604b25de9050602fded2ab1214319fa82d78959d76b5643f13772",
+  "sample_rate": 65536,
+  "candidate": "Nates House",
+  "candidate_status": "provisional; human audition pending",
+  "human_listening_validated": false,
+  "scope": "Native previews of existing cues; private audio stays outside Git.\n\nSignal measurements do not constitute a listening/artistic validation.\n",
+  "results": [
+    {
+      "title": "Nates House",
+      "existing_slot": 7,
+      "start": "native PlayBGM from track beginning",
+      "seconds": 14.06390380859375,
+      "rms_first_half_second": 0.0036537671439207946,
+      "rms_seconds_half_to_three": 0.02185070767715042,
+      "peak": 0.1201171875,
+      "private_file": "07-nates-house.wav"
+    },
+    {
+      "title": "Take Care",
+      "existing_slot": 26,
+      "start": "native PlayBGM from track beginning",
+      "seconds": 14.0638427734375,
+      "rms_first_half_second": 0.010882687474410306,
+      "rms_seconds_half_to_three": 0.0065874602039791355,
+      "peak": 0.08203125,
+      "private_file": "26-take-care.wav"
+    },
+    {
+      "title": "Blossom Heights",
+      "existing_slot": 12,
+      "start": "native PlayBGM from track beginning",
+      "seconds": 14.0638427734375,
+      "rms_first_half_second": 0.0034746343376974116,
+      "rms_seconds_half_to_three": 0.01964162114033861,
+      "peak": 0.123046875,
+      "private_file": "12-blossom-heights.wav"
+    },
+    {
+      "title": "The Very Curious Yo-kai Watch",
+      "existing_slot": 30,
+      "start": "native PlayBGM from track beginning",
+      "seconds": 14.06390380859375,
+      "rms_first_half_second": 0.026538293692048454,
+      "rms_seconds_half_to_three": 0.019993182759454872,
+      "peak": 0.1435546875,
+      "private_file": "30-the-very-curious-yo-kai-watch.wav"
+    }
+  ]
+}

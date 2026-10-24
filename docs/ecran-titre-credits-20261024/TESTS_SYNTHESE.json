@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "versions": [
+    {
+      "version": "public",
+      "passed": true,
+      "rom_sha256": "3e367d69d6e2356ae465e0a1e5ce29ac6e5fed0458f33ec83d020da98299fe7e",
+      "reports": {
+        "title": "TEST_TITRE.json",
+        "credits": "TEST_CREDITS.json",
+        "menu": "retours-menu/TEST_RETOURS.json",
+        "finale": "finale-complete/FINALE_NORMALE_MGBA.json"
+      }
+    },
+    {
+      "version": "prive",
+      "passed": true,
+      "rom_sha256": "78c5f3e6595604b25de9050602fded2ab1214319fa82d78959d76b5643f13772",
+      "reports": {
+        "title": "TEST_TITRE.json",
+        "credits": "TEST_CREDITS.json",
+        "menu": "retours-menu/TEST_RETOURS.json",
+        "finale": "finale-complete/FINALE_NORMALE_MGBA.json"
+      }
+    }
+  ],
+  "artistic_sound_visual_approval_pending": true,
+  "master_merged": false
+}

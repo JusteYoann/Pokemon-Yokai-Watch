@@ -1,0 +1,37 @@
+{
+  "versions": [
+    {
+      "version": "public",
+      "used_before": 15948716,
+      "used_after": 16108172,
+      "added": 159456,
+      "free": 17446260,
+      "rom_sha256": "3e367d69d6e2356ae465e0a1e5ce29ac6e5fed0458f33ec83d020da98299fe7e"
+    },
+    {
+      "version": "prive",
+      "used_before": 31710079,
+      "used_after": 33448311,
+      "added": 1738232,
+      "free": 106121,
+      "rom_sha256": "78c5f3e6595604b25de9050602fded2ab1214319fa82d78959d76b5643f13772"
+    }
+  ],
+  "media": {
+    "8bpp.lz": {
+      "linked_assets": 64,
+      "bytes": 132536
+    },
+    "bin.lz": {
+      "linked_assets": 5,
+      "bytes": 2844
+    },
+    "gbapal": {
+      "linked_assets": 64,
+      "bytes": 32768
+    },
+    "credits_stream_bytes": 1578703
+  },
+  "ewram_after": 261384,
+  "ewram_before": 261368
+}

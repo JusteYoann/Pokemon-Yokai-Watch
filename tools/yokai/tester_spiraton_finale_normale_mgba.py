@@ -10,7 +10,9 @@ from mgba_new_game import new_game
 from mafiamille_qa import C,MAPS,warp,strong_party
 from pilote_combat_mgba import battle_keys
 Q=ROOT/os.environ.get('YOKAI_FINALE_REPORT_DIR','QA_RECETTE_FINALE/DON_SPIRATON/ETAPE_B/jalon3/public');Q.mkdir(parents=True,exist_ok=True)
-r=new_game();passed=False;events=[];battles=[];phases=[];credits=set();hof=False;heal=False;white=False;first=False;conclusion=False;chen=False;departed=False;matt_checks=[]
+r=new_game(int(os.environ.get('YOKAI_QA_GENDER','0')));passed=False;events=[];battles=[];phases=[];credits=set();hof=False;heal=False;white=False;first=False;conclusion=False;chen=False;departed=False;matt_checks=[]
+new_credits='CB2_RollYokaiCredits' in r.symbols
+credits_callback=(r.symbols['CB2_RollYokaiCredits'] if new_credits else r.symbols['CB2_Credits'])|1
 
 def pos():
  for i in range(16):
@@ -135,15 +137,15 @@ try:
    if any(r.read(r.symbols['gTasks']+40*i+4,1)==b'\1' and r.u32(r.symbols['gTasks']+40*i)==r.symbols['Task_Hof_TryDisplayAnotherMon']|1 for i in range(16)) and not locals().get('hof_captured',False):
     r.keys=set();r.run(60);r.frame.save(Q/'pantheon-natif.png');hof_captured=True
    hof=True
-  if cb==r.symbols['CB2_Credits']|1:
-   seencredits=True;mgr=r.u32(r.symbols['sCreditsMgr'])
-   if mgr:
-    state=r.read(mgr,1)[0]
+  if cb==credits_callback:
+   seencredits=True;mgr=0 if new_credits else r.u32(r.symbols['sCreditsMgr'])
+   if new_credits or mgr:
+    state=r.read(r.symbols['sYokaiCreditsSlide'] if new_credits else mgr,1)[0]
     if state not in credits and state in [0,17,18]:r.frame.save(Q/f'credits-{state}.png')
     credits.add(state)
-  if seencredits and cb!=r.symbols['CB2_Credits']|1:break
+  if seencredits and cb!=credits_callback:break
  else:raise AssertionError(dict(timeout=True,events=events,battles=battles,phases=phases,map=mapname(),pos=pos(),cb=hex(cb),script=hex(r.u32(r.symbols['sGlobalScriptContext']+8))))
- assert hof and seencredits and {17,18}<=credits
+ assert hof and seencredits and (set(range(32)) if new_credits else {17,18})<=credits
  assert heal and white and first and conclusion and departed and chen and phases==list(range(56,64)) and battles==[743,744]
  r.keys=set();r.run(1200)
  for f in range(7000):

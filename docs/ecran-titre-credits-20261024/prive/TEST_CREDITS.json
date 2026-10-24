@@ -1,0 +1,285 @@
+{
+  "passed": true,
+  "scope": "Full255s native credits, both genders, native texture/palette/timing checks.\n\nDoCredits entry is a fixture after an actual new game, not a League playthrough.\nSeparate finale tests cover the Hall of Fame and real Continue transition.\n",
+  "rom_sha256": "78c5f3e6595604b25de9050602fded2ab1214319fa82d78959d76b5643f13772",
+  "results": [
+    {
+      "gender": 0,
+      "passed": true,
+      "frames": 15239,
+      "final_frames": 1792,
+      "transitions": [
+        {
+          "index": 0,
+          "frame": 0
+        },
+        {
+          "index": 1,
+          "frame": 434
+        },
+        {
+          "index": 2,
+          "frame": 868
+        },
+        {
+          "index": 3,
+          "frame": 1302
+        },
+        {
+          "index": 4,
+          "frame": 1736
+        },
+        {
+          "index": 5,
+          "frame": 2170
+        },
+        {
+          "index": 6,
+          "frame": 2604
+        },
+        {
+          "index": 7,
+          "frame": 3038
+        },
+        {
+          "index": 8,
+          "frame": 3472
+        },
+        {
+          "index": 9,
+          "frame": 3906
+        },
+        {
+          "index": 10,
+          "frame": 4340
+        },
+        {
+          "index": 11,
+          "frame": 4774
+        },
+        {
+          "index": 12,
+          "frame": 5208
+        },
+        {
+          "index": 13,
+          "frame": 5642
+        },
+        {
+          "index": 14,
+          "frame": 6076
+        },
+        {
+          "index": 15,
+          "frame": 6510
+        },
+        {
+          "index": 16,
+          "frame": 6944
+        },
+        {
+          "index": 17,
+          "frame": 7378
+        },
+        {
+          "index": 18,
+          "frame": 7812
+        },
+        {
+          "index": 19,
+          "frame": 8246
+        },
+        {
+          "index": 20,
+          "frame": 8680
+        },
+        {
+          "index": 21,
+          "frame": 9114
+        },
+        {
+          "index": 22,
+          "frame": 9548
+        },
+        {
+          "index": 23,
+          "frame": 9982
+        },
+        {
+          "index": 24,
+          "frame": 10416
+        },
+        {
+          "index": 25,
+          "frame": 10849
+        },
+        {
+          "index": 26,
+          "frame": 11282
+        },
+        {
+          "index": 27,
+          "frame": 11715
+        },
+        {
+          "index": 28,
+          "frame": 12148
+        },
+        {
+          "index": 29,
+          "frame": 12581
+        },
+        {
+          "index": 30,
+          "frame": 13014
+        },
+        {
+          "index": 31,
+          "frame": 13447
+        }
+      ],
+      "all_32_native_assets_verified": true,
+      "transition_flash_check": true,
+      "ending_black_and_silent": true
+    },
+    {
+      "gender": 1,
+      "passed": true,
+      "frames": 15239,
+      "final_frames": 1792,
+      "transitions": [
+        {
+          "index": 0,
+          "frame": 0
+        },
+        {
+          "index": 1,
+          "frame": 434
+        },
+        {
+          "index": 2,
+          "frame": 868
+        },
+        {
+          "index": 3,
+          "frame": 1302
+        },
+        {
+          "index": 4,
+          "frame": 1736
+        },
+        {
+          "index": 5,
+          "frame": 2170
+        },
+        {
+          "index": 6,
+          "frame": 2604
+        },
+        {
+          "index": 7,
+          "frame": 3038
+        },
+        {
+          "index": 8,
+          "frame": 3472
+        },
+        {
+          "index": 9,
+          "frame": 3906
+        },
+        {
+          "index": 10,
+          "frame": 4340
+        },
+        {
+          "index": 11,
+          "frame": 4774
+        },
+        {
+          "index": 12,
+          "frame": 5208
+        },
+        {
+          "index": 13,
+          "frame": 5642
+        },
+        {
+          "index": 14,
+          "frame": 6076
+        },
+        {
+          "index": 15,
+          "frame": 6510
+        },
+        {
+          "index": 16,
+          "frame": 6944
+        },
+        {
+          "index": 17,
+          "frame": 7378
+        },
+        {
+          "index": 18,
+          "frame": 7812
+        },
+        {
+          "index": 19,
+          "frame": 8246
+        },
+        {
+          "index": 20,
+          "frame": 8680
+        },
+        {
+          "index": 21,
+          "frame": 9114
+        },
+        {
+          "index": 22,
+          "frame": 9548
+        },
+        {
+          "index": 23,
+          "frame": 9982
+        },
+        {
+          "index": 24,
+          "frame": 10416
+        },
+        {
+          "index": 25,
+          "frame": 10849
+        },
+        {
+          "index": 26,
+          "frame": 11282
+        },
+        {
+          "index": 27,
+          "frame": 11715
+        },
+        {
+          "index": 28,
+          "frame": 12148
+        },
+        {
+          "index": 29,
+          "frame": 12581
+        },
+        {
+          "index": 30,
+          "frame": 13014
+        },
+        {
+          "index": 31,
+          "frame": 13447
+        }
+      ],
+      "all_32_native_assets_verified": true,
+      "transition_flash_check": true,
+      "ending_black_and_silent": true
+    }
+  ]
+}

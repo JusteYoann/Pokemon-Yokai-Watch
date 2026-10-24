@@ -12,3 +12,8 @@ graphics/yokai_title/%.4bpp: graphics/yokai_title/%.png tools/yokai/preparer_tit
 	python3 tools/yokai/preparer_titre.py --pack $*
 graphics/yokai_title/%.gbapal graphics/yokai_title/%.bin: graphics/yokai_title/%.4bpp
 	@test -f $@ || python3 tools/yokai/preparer_titre.py --pack $*
+
+graphics/yokai_credits/%.8bpp: graphics/yokai_credits/%.png data/yokai/credits_storyboard.json tools/yokai/preparer_souvenirs_credits.py
+	python3 tools/yokai/preparer_souvenirs_credits.py --pack $*
+graphics/yokai_credits/%.gbapal graphics/yokai_credits/%.bin: graphics/yokai_credits/%.8bpp
+	@test -f $@ || python3 tools/yokai/preparer_souvenirs_credits.py --pack $*
