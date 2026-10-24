@@ -51,7 +51,7 @@ static void VBlankPresentation(void)
 }
 static void StopPresentationMusic(void)
 {
-    StopMapMusic();
+    ResetMapMusic();
     YokaiDiscardPausedSample(&gMPlayInfo_BGM);
     m4aMPlayStop(&gMPlayInfo_BGM);
 }

@@ -1,0 +1,15 @@
+{
+  "song_id": 378,
+  "constant": "MUS_YOKAI_CREDITS",
+  "source_sha256": "d5fc7b40873b4ccba91e28098270aa818095fd7789c7ab2b032d0f15af1a3512",
+  "source": "Yo-kai Watch1 for Nintendo Switch - Credits (Nate).mp3, previously supplied by Yoann",
+  "rate_hz": 12000,
+  "samples": 3061656,
+  "format": "native m4a DPCM with variable-rate voice0x20; no forced loop",
+  "encoded_bytes": 1578703,
+  "encoded_sha256": "20db947642c3c204d4e3af8c865174baf7ca2e8a1d1d5b644d406a2846dcfb1d",
+  "private_pack_tool": "tools/yokai/preparer_audio_credits.py",
+  "separate_from_existing31_slot_table": true,
+  "public_fallback": "MUS_YOKAI_TAKE_CARE native public fallback",
+  "other_usage_of_take_care_preserved": true
+}

@@ -201,6 +201,11 @@ ifneq ($(strip $(YOKAI_AUDIO_DIR)),)
   DATA_ASM_OBJS += $(DATA_ASM_BUILDDIR)/yokai_private_audio.o
   $(DATA_ASM_BUILDDIR)/yokai_private_audio.o: $(YOKAI_AUDIO_DIR)/yokai_music.s $(wildcard $(YOKAI_AUDIO_DIR)/*.dpcm)
 	$(AS) $(ASFLAGS) -o $@ $<
+  ifneq ($(wildcard $(YOKAI_AUDIO_DIR)/credits_music.s),)
+    DATA_ASM_OBJS += $(DATA_ASM_BUILDDIR)/yokai_private_credits.o
+    $(DATA_ASM_BUILDDIR)/yokai_private_credits.o: $(YOKAI_AUDIO_DIR)/credits_music.s $(YOKAI_AUDIO_DIR)/credits.dpcm
+	$(AS) $(ASFLAGS) -o $@ $<
+  endif
   ifneq ($(wildcard $(YOKAI_AUDIO_DIR)/yokai_music_gap.s),)
     ifneq ($(MODERN),0)
       $(error Private gap audio requires the tested agbcc linker layout, MODERN=0)

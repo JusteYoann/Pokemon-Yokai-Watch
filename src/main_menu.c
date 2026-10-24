@@ -171,7 +171,7 @@ static bool32 MainMenuGpuInit(u8 a0)
     u8 taskId;
 
     /* Initial entry and Options/menu return paths must all stay silent. */
-    StopMapMusic();
+    ResetMapMusic();
     YokaiDiscardPausedSample(&gMPlayInfo_BGM);
     m4aMPlayStop(&gMPlayInfo_BGM);
     SetVBlankCallback(NULL);

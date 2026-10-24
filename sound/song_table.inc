@@ -381,6 +381,7 @@ gSongTable::
 	song mus_vs_gym_leader, 0, 0 @ MUS_YOKAI_BOSS_YOKAI
 	song mus_title, 0, 0 @ MUS_YOKAI_CURIOUS
 	song mus_route24, 0, 0 @ MUS_YOKAI_ARIANE
+	song mus_slow_pallet, 0, 0 @ MUS_YOKAI_CREDITS, public fallback
 
 dummy_song_header:
 	.byte 0, 0, 0, 0

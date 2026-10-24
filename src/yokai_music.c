@@ -7,6 +7,7 @@
 extern struct SongHeader *const gYokaiPrivateHeaders[YOKAI_MUSIC_SLOT_COUNT];
 extern const u32 gYokaiPrivateAudioMask;
 extern const u32 gYokaiPrivateSlotCount;
+extern struct SongHeader mus_yokai_credits __attribute__((weak));
 #endif
 
 #include "data/yokai_music_aliases.h"
@@ -14,6 +15,16 @@ extern const u32 gYokaiPrivateSlotCount;
 struct SongHeader *YokaiGetSongHeader(u16 song, struct SongHeader *fallback)
 {
     u32 i;
+    if (song == MUS_YOKAI_CREDITS)
+    {
+#ifdef YOKAI_PRIVATE_AUDIO
+        if (&mus_yokai_credits != NULL)
+            return &mus_yokai_credits;
+#endif
+        /* Keep public/older private pack playback identical to Take Care. */
+        song = MUS_YOKAI_TAKE_CARE;
+        fallback = gSongTable[song].header;
+    }
     /* Resolve legacy script/engine BGM calls as well as map headers. Dedicated
      * character IDs are preserved; fanfares, cries and SE IDs are never aliased.
      * Public builds use the dedicated theme's native fallback, not private data.
@@ -71,6 +82,8 @@ static bool8 sResumePending;
 static bool8 IsPrivateSampleHeader(struct SongHeader *header)
 {
     u32 i;
+    if (&mus_yokai_credits != NULL && header == &mus_yokai_credits)
+        return TRUE;
     for (i = 0; i < YOKAI_MUSIC_SLOT_COUNT; i++)
         if (gYokaiPrivateHeaders[i] != NULL && header == gYokaiPrivateHeaders[i])
             return TRUE;
@@ -183,6 +196,8 @@ void YokaiCalibrateSong(struct MusicPlayerInfo *player, struct SongHeader *heade
     if (index < 0) return;
     sMixGain[index] = 256;
 #ifdef YOKAI_PRIVATE_AUDIO
+    if (&mus_yokai_credits != NULL && header == &mus_yokai_credits)
+        return;
     for (n = 0; n < gYokaiPrivateSlotCount && n < YOKAI_MUSIC_SLOT_COUNT; n++)
         if (gYokaiPrivateHeaders[n] != NULL && gYokaiPrivateHeaders[n] == header)
         {

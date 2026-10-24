@@ -388,6 +388,9 @@
 #define MUS_YOKAI_ARIANE 377
 #define MUS_YOKAI_LAST MUS_YOKAI_ARIANE
 
+/* Separate optional stream; existing31-slot packs remain compatible. */
+#define MUS_YOKAI_CREDITS 378
+
 #define MUS_NONE                    0xFFFF
 
 #endif  // GUARD_CONSTANTS_SONGS_H
