@@ -1,0 +1,655 @@
+{
+  "passed": true,
+  "scope": "mGBA visual fixtures: approach palettes, controller crossings and menu isolation.\nPrepared party, completed intro/Badge4, trainer flags and point warps are fixtures;\nwalking crosses the real connections. No source palette or battle result injected.\n",
+  "rom_sha256": "587d5733bf332db0c8bd33e253497ef9e64e5113509393d951cf5b9e71ca6f92",
+  "cases": [
+    {
+      "test": "Route8-00",
+      "location": [
+        "Route8",
+        [
+          39,
+          12
+        ]
+      ],
+      "strength": 0,
+      "passed": true
+    },
+    {
+      "test": "Route8-08",
+      "location": [
+        "Route8",
+        [
+          47,
+          7
+        ]
+      ],
+      "strength": 8,
+      "passed": true
+    },
+    {
+      "test": "Route8-16",
+      "location": [
+        "Route8",
+        [
+          55,
+          12
+        ]
+      ],
+      "strength": 16,
+      "passed": true
+    },
+    {
+      "test": "Route8-24",
+      "location": [
+        "Route8",
+        [
+          63,
+          12
+        ]
+      ],
+      "strength": 24,
+      "passed": true
+    },
+    {
+      "test": "Route8-32",
+      "location": [
+        "Route8",
+        [
+          71,
+          10
+        ]
+      ],
+      "strength": 32,
+      "passed": true
+    },
+    {
+      "test": "Route10-00",
+      "location": [
+        "Route10",
+        [
+          8,
+          47
+        ]
+      ],
+      "strength": 0,
+      "passed": true
+    },
+    {
+      "test": "Route10-11",
+      "location": [
+        "Route10",
+        [
+          8,
+          58
+        ]
+      ],
+      "strength": 11,
+      "passed": true
+    },
+    {
+      "test": "Route10-17",
+      "location": [
+        "Route10",
+        [
+          17,
+          64
+        ]
+      ],
+      "strength": 17,
+      "passed": true
+    },
+    {
+      "test": "Route10-25",
+      "location": [
+        "Route10",
+        [
+          11,
+          72
+        ]
+      ],
+      "strength": 25,
+      "passed": true
+    },
+    {
+      "test": "Route10-32",
+      "location": [
+        "Route10",
+        [
+          11,
+          79
+        ]
+      ],
+      "strength": 32,
+      "passed": true
+    },
+    {
+      "test": "Route12-00",
+      "location": [
+        "Route12",
+        [
+          11,
+          32
+        ]
+      ],
+      "strength": 0,
+      "passed": true
+    },
+    {
+      "test": "Route12-08",
+      "location": [
+        "Route12",
+        [
+          11,
+          24
+        ]
+      ],
+      "strength": 8,
+      "passed": true
+    },
+    {
+      "test": "Route12-16",
+      "location": [
+        "Route12",
+        [
+          11,
+          16
+        ]
+      ],
+      "strength": 16,
+      "passed": true
+    },
+    {
+      "test": "Route12-24",
+      "location": [
+        "Route12",
+        [
+          11,
+          8
+        ]
+      ],
+      "strength": 24,
+      "passed": true
+    },
+    {
+      "test": "Route12-32",
+      "location": [
+        "Route12",
+        [
+          11,
+          0
+        ]
+      ],
+      "strength": 32,
+      "passed": true
+    },
+    {
+      "test": "Route8-walk-0",
+      "location": [
+        "Route8",
+        [
+          64,
+          10
+        ]
+      ],
+      "strength": 25,
+      "passed": true
+    },
+    {
+      "test": "Route8-walk-1",
+      "location": [
+        "Route8",
+        [
+          64,
+          10
+        ]
+      ],
+      "strength": 25,
+      "passed": true
+    },
+    {
+      "test": "Route8-walk-2",
+      "location": [
+        "Route8",
+        [
+          65,
+          10
+        ]
+      ],
+      "strength": 26,
+      "passed": true
+    },
+    {
+      "test": "Route8-walk-3",
+      "location": [
+        "Route8",
+        [
+          66,
+          10
+        ]
+      ],
+      "strength": 27,
+      "passed": true
+    },
+    {
+      "test": "Route8-walk-4",
+      "location": [
+        "Route8",
+        [
+          67,
+          10
+        ]
+      ],
+      "strength": 28,
+      "passed": true
+    },
+    {
+      "test": "Route8-walk-5",
+      "location": [
+        "Route8",
+        [
+          68,
+          10
+        ]
+      ],
+      "strength": 29,
+      "passed": true
+    },
+    {
+      "test": "Route8-walk-6",
+      "location": [
+        "Route8",
+        [
+          69,
+          10
+        ]
+      ],
+      "strength": 30,
+      "passed": true
+    },
+    {
+      "test": "Route8-walk-7",
+      "location": [
+        "Route8",
+        [
+          70,
+          10
+        ]
+      ],
+      "strength": 31,
+      "passed": true
+    },
+    {
+      "test": "Route8-walk-8",
+      "location": [
+        "Route8",
+        [
+          71,
+          10
+        ]
+      ],
+      "strength": 32,
+      "passed": true
+    },
+    {
+      "test": "Route8-ville",
+      "location": [
+        "LavenderTown",
+        [
+          0,
+          10
+        ]
+      ],
+      "strength": 32,
+      "passed": true
+    },
+    {
+      "test": "Route8-retour",
+      "location": [
+        "Route8",
+        [
+          71,
+          10
+        ]
+      ],
+      "strength": 32,
+      "passed": true
+    },
+    {
+      "test": "Route10-walk-0",
+      "location": [
+        "Route10",
+        [
+          11,
+          72
+        ]
+      ],
+      "strength": 25,
+      "passed": true
+    },
+    {
+      "test": "Route10-walk-1",
+      "location": [
+        "Route10",
+        [
+          11,
+          73
+        ]
+      ],
+      "strength": 26,
+      "passed": true
+    },
+    {
+      "test": "Route10-walk-2",
+      "location": [
+        "Route10",
+        [
+          11,
+          75
+        ]
+      ],
+      "strength": 28,
+      "passed": true
+    },
+    {
+      "test": "Route10-walk-3",
+      "location": [
+        "Route10",
+        [
+          11,
+          76
+        ]
+      ],
+      "strength": 29,
+      "passed": true
+    },
+    {
+      "test": "Route10-walk-4",
+      "location": [
+        "Route10",
+        [
+          11,
+          77
+        ]
+      ],
+      "strength": 30,
+      "passed": true
+    },
+    {
+      "test": "Route10-walk-5",
+      "location": [
+        "Route10",
+        [
+          11,
+          78
+        ]
+      ],
+      "strength": 31,
+      "passed": true
+    },
+    {
+      "test": "Route10-walk-6",
+      "location": [
+        "Route10",
+        [
+          11,
+          79
+        ]
+      ],
+      "strength": 32,
+      "passed": true
+    },
+    {
+      "test": "Route10-walk-7",
+      "location": [
+        "LavenderTown",
+        [
+          11,
+          0
+        ]
+      ],
+      "strength": 32,
+      "passed": true
+    },
+    {
+      "test": "Route10-ville",
+      "location": [
+        "LavenderTown",
+        [
+          11,
+          0
+        ]
+      ],
+      "strength": 32,
+      "passed": true
+    },
+    {
+      "test": "Route10-retour",
+      "location": [
+        "Route10",
+        [
+          11,
+          79
+        ]
+      ],
+      "strength": 32,
+      "passed": true
+    },
+    {
+      "test": "Route12-walk-0",
+      "location": [
+        "Route12",
+        [
+          11,
+          7
+        ]
+      ],
+      "strength": 25,
+      "passed": true
+    },
+    {
+      "test": "Route12-walk-1",
+      "location": [
+        "Route12",
+        [
+          11,
+          7
+        ]
+      ],
+      "strength": 25,
+      "passed": true
+    },
+    {
+      "test": "Route12-walk-2",
+      "location": [
+        "Route12",
+        [
+          11,
+          6
+        ]
+      ],
+      "strength": 26,
+      "passed": true
+    },
+    {
+      "test": "Route12-walk-3",
+      "location": [
+        "Route12",
+        [
+          11,
+          5
+        ]
+      ],
+      "strength": 27,
+      "passed": true
+    },
+    {
+      "test": "Route12-walk-4",
+      "location": [
+        "Route12",
+        [
+          11,
+          4
+        ]
+      ],
+      "strength": 28,
+      "passed": true
+    },
+    {
+      "test": "Route12-walk-5",
+      "location": [
+        "Route12",
+        [
+          11,
+          3
+        ]
+      ],
+      "strength": 29,
+      "passed": true
+    },
+    {
+      "test": "Route12-walk-6",
+      "location": [
+        "Route12",
+        [
+          11,
+          2
+        ]
+      ],
+      "strength": 30,
+      "passed": true
+    },
+    {
+      "test": "Route12-walk-7",
+      "location": [
+        "Route12",
+        [
+          11,
+          1
+        ]
+      ],
+      "strength": 31,
+      "passed": true
+    },
+    {
+      "test": "Route12-walk-8",
+      "location": [
+        "Route12",
+        [
+          11,
+          0
+        ]
+      ],
+      "strength": 32,
+      "passed": true
+    },
+    {
+      "test": "Route12-ville",
+      "location": [
+        "LavenderTown",
+        [
+          11,
+          19
+        ]
+      ],
+      "strength": 32,
+      "passed": true
+    },
+    {
+      "test": "Route12-retour",
+      "location": [
+        "Route12",
+        [
+          11,
+          0
+        ]
+      ],
+      "strength": 32,
+      "passed": true
+    },
+    {
+      "test": "arret-debut",
+      "location": [
+        "Route8",
+        [
+          55,
+          12
+        ]
+      ],
+      "strength": 16,
+      "passed": true
+    },
+    {
+      "test": "arret-dix-secondes",
+      "location": [
+        "Route8",
+        [
+          55,
+          12
+        ]
+      ],
+      "strength": 16,
+      "passed": true
+    },
+    {
+      "test": "retour-menu",
+      "location": [
+        "Route8",
+        [
+          55,
+          12
+        ]
+      ],
+      "strength": 16,
+      "passed": true
+    },
+    {
+      "test": "LavenderTown_PokemonCenter_1F-jour",
+      "location": [
+        "LavenderTown_PokemonCenter_1F",
+        [
+          7,
+          8
+        ]
+      ],
+      "strength": 0,
+      "passed": true
+    },
+    {
+      "test": "Route9-jour",
+      "location": [
+        "Route9",
+        [
+          30,
+          8
+        ]
+      ],
+      "strength": 0,
+      "passed": true
+    },
+    {
+      "test": "Route10-jour",
+      "location": [
+        "Route10",
+        [
+          11,
+          20
+        ]
+      ],
+      "strength": 0,
+      "passed": true
+    },
+    {
+      "test": "ville-nuit-conservee",
+      "location": [
+        "LavenderTown",
+        [
+          14,
+          9
+        ]
+      ],
+      "strength": 32,
+      "passed": true
+    }
+  ]
+}

@@ -62,23 +62,66 @@ bool8 IsLavanvilleNight(void)
         && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_LAVENDER_TOWN);
 }
 
+// Visual approach only: keep IsLavanvilleNight town-only for fog and zombies.
+// The final 32 route tiles smoothly reach the unchanged town palette in both
+// directions, without a timer or persistent state in the saved game.
+u8 LavanvilleNightStrength(void)
+{
+    s32 distance;
+    u16 map;
+    if (gSaveBlock1Ptr == NULL)
+        return 0;
+    if (IsLavanvilleNight())
+        return 32;
+    if (gMapHeader.mapLayout == NULL)
+        return 0;
+    map = (gSaveBlock1Ptr->location.mapGroup << 8) | gSaveBlock1Ptr->location.mapNum;
+    switch (map)
+    {
+    case MAP_ROUTE8:
+        distance = gMapHeader.mapLayout->width - 1 - gSaveBlock1Ptr->pos.x;
+        break;
+    case MAP_ROUTE10:
+        distance = gMapHeader.mapLayout->height - 1 - gSaveBlock1Ptr->pos.y;
+        break;
+    case MAP_ROUTE12:
+        distance = gSaveBlock1Ptr->pos.y;
+        break;
+    default:
+        return 0;
+    }
+    if (distance <= 0)
+        return 32;
+    if (distance >= 32)
+        return 0;
+    return 32 - distance;
+}
+
 // Apply only to hardware output. The source buffers stay unmodified, so fades,
 // menus and repeated VBlanks cannot accumulate tint. UI banks 12..15 stay intact.
 void LavanvilleNightPalette(void)
 {
     u16 i;
-    if (!IsLavanvilleNight() || !IsFieldPaletteView())
+    u16 strength;
+    u16 redFactor, blueFactor, lightFactor;
+    if (!IsFieldPaletteView())
         return;
+    strength = LavanvilleNightStrength();
+    if (strength == 0)
+        return;
+    redFactor = 1024 - strength * 14;
+    blueFactor = 1024 - strength * 8;
+    lightFactor = strength * 4;
     for (i = 0; i < 192; i++)
     {
         u16 c = gPlttBufferFaded[i];
         u16 red = c & 31, green = (c >> 5) & 31, blue = (c >> 10) & 31;
         u16 light = red > green ? red : green;
-        u16 r = red * 18 / 32;
-        u16 g = green * 18 / 32;
+        u16 r = red * redFactor / 1024;
+        u16 g = green * redFactor / 1024;
         u16 b;
         if (blue > light) light = blue;
-        b = (blue * 24 + light * 4) / 32;
+        b = (blue * blueFactor + light * lightFactor) / 1024;
         ((vu16 *)PLTT)[i] = RGB(r, g, b);
     }
 }

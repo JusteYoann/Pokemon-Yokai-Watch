@@ -2,6 +2,7 @@
 #define GUARD_LAVANVILLE_H
 #include "global.h"
 bool8 IsLavanvilleNight(void);
+u8 LavanvilleNightStrength(void);
 bool8 LavanvilleNeedsTemplateRefresh(void);
 void LavanvilleNightPalette(void);
 struct ObjectEvent;

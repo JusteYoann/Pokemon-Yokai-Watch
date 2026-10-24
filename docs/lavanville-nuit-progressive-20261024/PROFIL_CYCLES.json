@@ -1,0 +1,34 @@
+{
+  "scope": "Native timers2/3 wrapper; interruptions included; isolated map/flags/heap instrumentation, not an audio recording.",
+  "vblank_budget_cycles": 83776,
+  "results": [
+    {
+      "version": "avant",
+      "map": "LavenderTown",
+      "median_cycles": 22688.0,
+      "minimum": 22688,
+      "maximum": 22688
+    },
+    {
+      "version": "avant",
+      "map": "Route8",
+      "median_cycles": 124.0,
+      "minimum": 124,
+      "maximum": 124
+    },
+    {
+      "version": "apres",
+      "map": "LavenderTown",
+      "median_cycles": 25852.0,
+      "minimum": 25852,
+      "maximum": 25852
+    },
+    {
+      "version": "apres",
+      "map": "Route8",
+      "median_cycles": 25956.0,
+      "minimum": 25956,
+      "maximum": 25956
+    }
+  ]
+}

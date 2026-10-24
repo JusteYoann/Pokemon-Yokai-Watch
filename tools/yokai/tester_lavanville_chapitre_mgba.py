@@ -125,7 +125,8 @@ try:
  expected=b''.join(struct.pack('<H',((c&31)*18//32)|((((c>>5)&31)*18//32)<<5)|(((((c>>10)&31)*24+max(c&31,(c>>5)&31,(c>>10)&31)*4)//32)<<10)) for c in struct.unpack('<192H',rgb))
  assert hw==expected,'Night hardware palette mismatch'
  shot('ville-nuit-brume');report('Permanent night, 20 animated native fog sprites, no repeated intro, no buffer accumulation, interior reset')
- warp(r,*MAPS['Route8'],50,8);assert not r.call('IsLavanvilleNight');assert r.call('GetCurrentWeather')!=6;shot('sortie-route8');report('Exterior effects stop on Route8')
+ warp(r,*MAPS['Route8'],50,8);assert not r.call('IsLavanvilleNight');assert r.call('GetCurrentWeather')!=6;assert r.call('LavanvilleNightStrength')==11;report('Route8 approach has partial night without town fog or zombie logic')
+ warp(r,*MAPS['Route8'],20,8);assert r.call('LavanvilleNightStrength')==0;shot('sortie-route8');report('Full daylight restored beyond the Route8 approach')
  # Enter each hostile house and immediately leave through its actual door;
  # entry immunity gives control before a wandering resident can ambush the player.
  for house in ['LavenderTown_House1','LavenderTown_VolunteerPokemonHouse']:
