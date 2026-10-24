@@ -29,10 +29,10 @@ static void Task_PorteTerreur(u8 taskId)
     switch (data[3])
     {
     case 0:
-        // The same leaf tiles are translated 16 pixels, one pixel every two
+        // The same leaf tiles are translated 13 pixels, one pixel every two
         // frames. The stationary jamb and the player do not move.
         panel->x2 = ++data[2] / 2;
-        if (data[2] == 32) { data[2] = 0; data[3]++; }
+        if (data[2] == 26) { data[2] = 0; data[3]++; }
         break;
     case 1:
         if (++data[2] == 18)

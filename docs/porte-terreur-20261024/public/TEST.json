@@ -1,22 +1,22 @@
 {
   "passed": true,
   "scope": "Isolated mGBA A-button interaction fixture. Only a RAM map template is\nrepurposed; no map event or user save is permanently changed. Sliding and white\nfade run in the game engine, without injected animation frames or fade state.\n",
-  "rom_sha256": "1cad09bab1e8de1d69ec5e41810d13b5dccc0edd77418fd7537726ae7504e560",
+  "rom_sha256": "f50e5c2df3eb711cdb0efc0e3320683d82db4ec74588dd935cf8d14d02d17b5a",
   "checks": [
     {
       "test": "Closed frame stays closed before interaction, door 26px vs Nathan 19px",
       "passed": true
     },
     {
-      "test": "Native A interaction: rigid leaf slides 0..16 pixels, full white fade, unchanged location, closed/reset and controls restored",
+      "test": "Native A interaction: rigid leaf slides 0..13 pixels, full white fade, unchanged location, closed/reset and controls restored",
       "replay": false,
       "passed": true
     },
     {
-      "test": "Native A interaction: rigid leaf slides 0..16 pixels, full white fade, unchanged location, closed/reset and controls restored",
+      "test": "Native A interaction: rigid leaf slides 0..13 pixels, full white fade, unchanged location, closed/reset and controls restored",
       "replay": true,
       "passed": true
     }
   ],
-  "captured_frames": 75
+  "captured_frames": 73
 }

@@ -1,5 +1,5 @@
 {
-  "source_sha256": "afeb703b4fdeff1e57d667af8f1a89c25ef5dd3884c56dd8bc832297a4da03ba",
+  "source_sha256": "f98e4c1992d6df3c496114155c491880f76fa606f2816ff50e2246b63397e617",
   "frame_size": [
     32,
     32
@@ -10,8 +10,11 @@
     10,
     9,
     23,
-    31
+    30
   ],
-  "translation_pixels": 16,
-  "method": "crop generated artwork, nearest-neighbor native conversion, shared GBA palette; rigid leaf reused"
+  "translation_pixels": 13,
+  "closed_composition_exact": true,
+  "portal_uniform_white": true,
+  "green_palette_entries": 0,
+  "method": "generated artwork converted to native frame; same frame retained, exact rigid leaf rectangle replaced with white"
 }

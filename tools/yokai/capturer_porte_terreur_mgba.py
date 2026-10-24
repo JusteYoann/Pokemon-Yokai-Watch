@@ -26,8 +26,8 @@ def attempt(record):
   if t:
    panelId=struct.unpack('<h',r.read(t+8,2))[0];panel_ids.add(panelId);ps=r.symbols['gSprites']+68*panelId
    shift=struct.unpack('<h',r.read(ps+36,2))[0];positions.add(shift)
-   if record and shift==8 and not half:shot('coulissement');half=True
-   if record and shift==16 and not opened:shot('ouverte');opened=True
+   if record and shift==6 and not half:shot('coulissement');half=True
+   if record and shift==13 and not opened:shot('ouverte');opened=True
   im=r.frame.copy();isWhite=all(lo==hi and lo>=248 for lo,hi in im.getextrema())
   if isWhite:
    assert r.read(0x05000000,1024)==b'\xff\x7f'*512, 'White frame without fully white hardware palettes'
@@ -39,12 +39,12 @@ def attempt(record):
    # Field controls are released only after the demo fade-in. Settle before checking its closed tile.
    r.run(30);break
  else:raise AssertionError(('Interaction did not finish',seen,white,positions))
- assert seen and white and set(range(17))<=positions,(seen,white,positions)
+ assert seen and white and set(range(14))<=positions,(seen,white,positions)
  for panel_id in panel_ids:
   assert not r.read(r.symbols['gSprites']+68*panel_id+62,1)[0]&1, 'Leaked sliding panel sprite'
  tile=int.from_bytes(r.read(sprite+4,2),'little')&1023
  assert r.read(0x06010000+tile*32,512)==raw[:512],'Door did not close after the demonstration'
- checks.append(dict(test='Native A interaction: rigid leaf slides 0..16 pixels, full white fade, unchanged location, closed/reset and controls restored',replay=not record,passed=True))
+ checks.append(dict(test='Native A interaction: rigid leaf slides 0..13 pixels, full white fade, unchanged location, closed/reset and controls restored',replay=not record,passed=True))
 try:
  r.call('CreateMon',r.symbols['gPlayerParty'],1,50,31,1,12345,0,0);r.write(r.symbols['gPlayerPartyCount'],b'\1');r.call('FlagSet',0x828)
  g,n=maps['PalletTown'];r.call('SetWarpDestination',g,n,255,9,16);r.call('WarpIntoMap');r.call('SetMainCallback2',r.symbols['CB2_LoadMap']|1);r.run(400)
