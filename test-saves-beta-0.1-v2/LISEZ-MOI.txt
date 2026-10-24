@@ -1,0 +1,18 @@
+SAUVEGARDES V2 — DEPART DANS LA MAISON DU DEBUT
+
+Ces fichiers remplacent le premier pack, dont le decor sauvegarde etait incorrect.
+Aucune nouvelle ROM necessaire. Compatibility verifiee avec Pokemon_Yokai_Watch_Beta_0.1_Audio_Test.gba.
+
+Choisir fin-jeu-151-garcon ou fin-jeu-151-fille : 8 Badges, Ligue/Pantheon, 151 Yo-kai au PC, equipe niveau100, argent, objets et Charme Chroma conserves.
+Les profils debut-booste gardent les quetes a jouer, comme dans le premier pack.
+Tous les profils commencent dans la chambre du joueur, au Bourg Palette (6,6).
+
+Fermer mGBA. Garder une copie de son ancien .sav. Remplacer uniquement le .sav par celui du profil choisi, dans le dossier de sauvegarde utilise par mGBA.
+Le .sav et le .gba doivent porter le meme nom de base. Ouvrir la ROM et choisir CONTINUER. Ne pas recharger un ancien etat instantane, qui retablirait le mauvais decor.
+
+Controles effectues sur CHAQUE fichier exporte, apres reouverture dans une instance mGBA neuve : deplacements au controleur, menu START, sauvegarde par le menu natif, escalier vers le rez-de-chaussee, sortie de la maison et deplacement au Bourg Palette.
+Collection, argent, jetons, progression et flags de quetes conserves. Seuls la position, le cache du decor et les metadonnees normales de sauvegarde/interface evoluent.
+La ROM et master ne sont pas modifies.
+
+Cause : le generateur appelait TrySavingData sans SaveMapView. La reprise chargeait un cache de decor vide, a cause d'une lecture trop longue de SavedMapViewIsEmpty dans le moteur original. La V2 reconstruit le decor depuis la ROM et sauvegarde via le menu normal.
+Details des preuves : VERIFICATION_V2.json et captures dans chaque dossier.
