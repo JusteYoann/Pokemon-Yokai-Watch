@@ -38,7 +38,7 @@ SaffronCity_Gym_Text_AmandaIntro::
     .string "un bon entraînement!$"
 
 SaffronCity_Gym_Text_AmandaDefeat::
-    .string "Not good enough!$"
+    .string "Pas assez fort !$"
 
 SaffronCity_Gym_Text_AmandaPostBattle::
     .string "Les téléporteurs réservent\n"
@@ -51,7 +51,7 @@ SaffronCity_Gym_Text_JohanIntro::
     .string "un bon entraînement!$"
 
 SaffronCity_Gym_Text_JohanDefeat::
-    .string "I never foresaw this!$"
+    .string "Je n'avais pas prévu ça !$"
 
 SaffronCity_Gym_Text_JohanPostBattle::
     .string "Les téléporteurs réservent\n"
@@ -64,7 +64,7 @@ SaffronCity_Gym_Text_StacyIntro::
     .string "un bon entraînement!$"
 
 SaffronCity_Gym_Text_StacyDefeat::
-    .string "I knew it!$"
+    .string "Je le savais !$"
 
 SaffronCity_Gym_Text_StacyPostBattle::
     .string "Les téléporteurs réservent\n"
@@ -77,7 +77,7 @@ SaffronCity_Gym_Text_TyronIntro::
     .string "un bon entraînement!$"
 
 SaffronCity_Gym_Text_TyronDefeat::
-    .string "I don't believe this!$"
+    .string "Je n'y crois pas !$"
 
 SaffronCity_Gym_Text_TyronPostBattle::
     .string "Les téléporteurs réservent\n"
@@ -90,7 +90,7 @@ SaffronCity_Gym_Text_TashaIntro::
     .string "un bon entraînement!$"
 
 SaffronCity_Gym_Text_TashaDefeat::
-    .string "I lost after all!$"
+    .string "J'ai perdu, finalement !$"
 
 SaffronCity_Gym_Text_TashaPostBattle::
     .string "Les téléporteurs réservent\n"
@@ -103,8 +103,7 @@ SaffronCity_Gym_Text_CameronIntro::
     .string "un bon entraînement!$"
 
 SaffronCity_Gym_Text_CameronDefeat::
-    .string "Ow!\n"
-    .string "Down and out!$"
+    .string "Aïe ! Complètement vaincu !$"
 
 SaffronCity_Gym_Text_CameronPostBattle::
     .string "Les téléporteurs réservent\n"
@@ -117,7 +116,7 @@ SaffronCity_Gym_Text_PrestonIntro::
     .string "un bon entraînement!$"
 
 SaffronCity_Gym_Text_PrestonDefeat::
-    .string "Arrrgh!$"
+    .string "Aaaaaargh !$"
 
 SaffronCity_Gym_Text_PrestonPostBattle::
     .string "Les téléporteurs réservent\n"

@@ -1,17 +1,9 @@
 FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth::
-    .string "The SAFARI ZONE's WARDEN is old, \n"
-    .string "but he's still very much active.\p"
-    .string "All his teeth are false, though.$"
+    .string "Le Gardien du Parc Safari n'est plus\ntout jeune, mais il est encore très\lactif.\pEn revanche, toutes ses dents sont\nfausses.$"
 
 FuchsiaCity_House1_Text_BillIsMyGrandson::
-    .string "Hmm?\n"
-    .string "You've met BILL?\p"
-    .string "He's my grandson!\p"
-    .string "He always liked collecting things,\n"
-    .string "even as a child!$"
+    .string "Hmm ?\nTu as rencontré Léo ?\pC'est mon petit-fils !\pIl aimait déjà collectionner les\nchoses quand il était petit !$"
 
 FuchsiaCity_House1_Text_BillFilesHisOwnMonData::
-    .string "BILL files his own Yo-kai data on\n"
-    .string "his PC.\p"
-    .string "Did he show you?$"
+    .string "Léo classe ses propres données sur\nles Yo-kai dans son PC.\pIl te l'a montré ?$"
 

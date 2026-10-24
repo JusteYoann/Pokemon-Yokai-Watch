@@ -1,26 +1,12 @@
 Route8_WestEntrance_Text_ThirstyOnGuardDuty::
-    .string "I'm on guard duty.\n"
-    .string "Gee, I'm thirsty, though!\p"
-    .string "Oh, wait there, the road's closed.$"
+    .string "Je monte la garde. Mais qu'est-ce\nque j'ai soif !\pHé, attends ! La route est fermée.$"
 
 Route8_WestEntrance_Text_ThatTeaLooksTasty::
-    .string "Oh, that TEA…\n"
-    .string "It looks awfully tasty…$"
+    .string "Oh, ce Thé… Il a l'air délicieux…$"
 
 Route8_WestEntrance_Text_ThanksIllShareTeaWithGuards::
-    .string "Huh? I can have this drink?\n"
-    .string "Gee, thanks!\l"
-    .string "… …\l"
-    .string "Glug, glug…\l"
-    .string "… …\l"
-    .string "Gulp…\l"
-    .string "If you want to go to SAFFRON\l"
-    .string "CITY…\l"
-    .string "… …\l"
-    .string "You can go on through.\p"
-    .string "I'll share this TEA with the other\n"
-    .string "guards!$"
+    .string "Quoi ? Je peux le boire ? Merci\nbeaucoup !\p… … Glou, glou… … … Ah !\pSi tu veux aller à Safrania… … … Tu\npeux passer.\pJe partagerai ce Thé avec les autres\ngardes !$"
 
 Route8_WestEntrance_Text_HiHowsItGoing::
-    .string "Hi, how's it going?$"
+    .string "Salut, comment ça va ?$"
 

@@ -1,35 +1,24 @@
 FuchsiaCity_House3_Text_WouldYouLikeToForgetMove::
-    .string "Uh…\n"
-    .string "Oh, yes, I'm the MOVE DELETER.\p"
-    .string "I can make Yo-kai forget their\n"
-    .string "moves.\p"
-    .string "Would you like me to do that?$"
+    .string "Euh... Ah oui !\nJe suis l'Effaceur de Capacités.\pJe peux faire oublier des techniques\naux Yo-kai.\pVeux-tu que je t'aide ?$"
 
 FuchsiaCity_House3_Text_WhichMonShouldForgetMove::
-    .string "Which Yo-kai should forget a\n"
-    .string "move?$"
+    .string "Quel Yo-kai doit oublier une\ntechnique ?$"
 
 FuchsiaCity_House3_Text_WhichMoveShouldBeForgotten::
-    .string "Which move should be forgotten?$"
+    .string "Quelle technique doit-il oublier ?$"
 
 FuchsiaCity_House3_Text_MonOnlyKnowsOneMove::
-    .string "{STR_VAR_1} seems to know only one\n"
-    .string "move…$"
+    .string "{STR_VAR_1} ne semble connaître\nqu'une capacité…$"
 
 FuchsiaCity_House3_Text_MonsMoveShouldBeForgotten::
-    .string "Hm! {STR_VAR_1}'s {STR_VAR_2}?\n"
-    .string "That move should be forgotten?$"
+    .string "Hmm ! La technique {STR_VAR_2}\nde {STR_VAR_1} ?\nIl doit l'oublier ?$"
 
 FuchsiaCity_House3_Text_MonHasForgottenMoveCompletely::
-    .string "It worked to perfection!\p"
-    .string "{STR_VAR_1} has forgotten\n"
-    .string "{STR_VAR_2} completely.$"
+    .string "Ça a parfaitement fonctionné !\p{STR_VAR_1} a complètement\noublié {STR_VAR_2}.$"
 
 FuchsiaCity_House3_Text_ComeAgainToForgetOtherMoves::
-    .string "Come again if there are other\n"
-    .string "moves to be forgotten.$"
+    .string "Reviens me voir si tu veux faire\noublier d'autres techniques.$"
 
 FuchsiaCity_House3_Text_NoEggShouldKnowMoves::
-    .string "What?\n"
-    .string "No EGG should know any moves.$"
+    .string "Quoi ? Un Oeuf ne devrait connaître\naucune technique !$"
 

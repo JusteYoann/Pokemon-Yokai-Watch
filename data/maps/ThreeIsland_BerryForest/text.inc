@@ -1,43 +1,21 @@
 ThreeIsland_BerryForest_Text_HelpScaryPokemon::
-    .string "LOSTELLE: Whimper… Sniff…\n"
-    .string "Oh! Please, help!\p"
-    .string "A scary Yo-kai appeared there\n"
-    .string "a little while ago.\p"
-    .string "It kept scaring.\n"
-    .string "It made LOSTELLE scared.\p"
-    .string "I'm too scared to move!\n"
-    .string "But I want to go home…$"
+    .string "LOSTELLE : Ouin… Snif… Oh ! À l'aide\n!\pUn Yo-kai effrayant est apparu\nlà-bas, tout à l'heure.\pIl n'arrêtait pas de me faire peur.\nLostelle a très peur.\pJe n'ose plus bouger ! Mais je veux\nrentrer…$"
 
 ThreeIsland_BerryForest_Text_HereItComesAgain::
-    .string "Oh! Here it comes again!\n"
-    .string "No! Go away! It's scaring me!\p"
-    .string "Waaaaaaah!\n"
-    .string "I want my daddy!$"
+    .string "Oh ! Il revient ! Non ! Va-t'en ! Tu\nme fais peur !\pOuin ! Je veux mon papa !$"
 
 ThreeIsland_BerryForest_Text_ThankYouHaveThis::
-    .string "Ohh! That was so scary!\n"
-    .string "Thank you!\p"
-    .string "LOSTELLE came to pick some\n"
-    .string "BERRIES.\p"
-    .string "You can have this!$"
+    .string "Oh ! J'ai eu tellement peur ! Merci !\pLostelle était venue cueillir des\nBaies.\pTiens, c'est pour toi !$"
 
 ThreeIsland_BerryForest_Text_LetsGoHome::
-    .string "What's your name?\p"
-    .string "LOSTELLE's scared, so can I go\n"
-    .string "with you to my daddy's house?\p"
-    .string "Okay!\n"
-    .string "Let's go home!$"
+    .string "Comment tu t'appelles ?\pLostelle a peur. Tu veux bien\nm'accompagner chez mon papa ?\pD'accord ! Rentrons !$"
 
 ThreeIsland_BerryForest_Text_BerryPouchIsFull::
-    .string "Your BERRY POUCH is full.\n"
-    .string "I guess you don't want this.$"
+    .string "Ta Poche à Baies est pleine. Tu n'en\nveux pas, alors.$"
 
 ThreeIsland_BerryForest_Text_WelcomeToBerryForest::
-    .string "Welcome to the BERRY FOREST\p"
-    .string "Be friendly and share BERRIES with\n"
-    .string "others and Yo-kai.$"
+    .string "Bienvenue au Bois aux Baies\pSoyez aimables : partagez les Baies\navec les autres et les Yo-kai.$"
 
 ThreeIsland_BerryForest_Text_BewareWildBerryLovingMons::
-    .string "Beware of wild, BERRY-loving\n"
-    .string "Yo-kai!$"
+    .string "Attention aux Yo-kai sauvages\namateurs de Baies !$"
 

@@ -1,7 +1,7 @@
 {
   "passed": true,
   "error": null,
-  "rom_sha256": "55f6f9fe49218c2ec482403beb10c0e951c7f71fa000e119fd85b18d346f9443",
+  "rom_sha256": "5e350381135282f916616c221ef59db974fec501b73579a406c533e5104469e5",
   "scope": "All298 translated native item names and description widths;15 native bag-panel description fixtures. Not full gameplay testing of item effects or key-item pocket movement.",
   "results": [
     {
@@ -1687,7 +1687,7 @@
     {
       "item": "ITEM_CARD_KEY",
       "linked_name_exact": true,
-      "native_description_pixels": 195,
+      "native_description_pixels": 181,
       "passed": true
     },
     {
@@ -1699,7 +1699,7 @@
     {
       "item": "ITEM_SILPH_SCOPE",
       "linked_name_exact": true,
-      "native_description_pixels": 189,
+      "native_description_pixels": 156,
       "passed": true
     },
     {

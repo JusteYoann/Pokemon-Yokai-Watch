@@ -1,8 +1,8 @@
 SilphCo_8F_Text_WonderIfSilphIsFinished::
-    .string "I wonder if Yopple is finished…$"
+    .string "Est-ce la fin de Yopple… ?$"
 
 SilphCo_8F_Text_ThanksForSavingUs::
-    .string "Thanks for saving us!$"
+    .string "Merci de nous avoir sauvés !$"
 
 SilphCo_8F_Text_Grunt1Intro::
     .string "Ton ascension s'arrête ici. Le Don ne\nreçoit personne!$"
@@ -14,15 +14,13 @@ SilphCo_8F_Text_Grunt1PostBattle::
     .string "Fais demi-tour, ou j'appelle du\nrenfort!$"
 
 SilphCo_8F_Text_ParkerIntro::
-    .string "You're causing us problems!$"
+    .string "Tu nous causes des ennuis !$"
 
 SilphCo_8F_Text_ParkerDefeat::
-    .string "Huh?\n"
-    .string "I lost?$"
+    .string "Hein ? J'ai perdu ?$"
 
 SilphCo_8F_Text_ParkerPostBattle::
-    .string "So, what do you think of Yopple\n"
-    .string "BUILDING's maze?$"
+    .string "Alors, que penses-tu du labyrinthe de\nla société Yopple ?$"
 
 SilphCo_8F_Text_Grunt2Intro::
     .string "Troisième frère de la Mafiamille! Tu\nne nous arrêteras pas tous!$"
@@ -34,8 +32,7 @@ SilphCo_8F_Text_Grunt2PostBattle::
     .string "Je laisse la suite à mon dernier\nfrère.$"
 
 SilphCo_8F_Text_FloorSign::
-    .string "Yopple HEAD OFFICE\n"
-    .string "8F$"
+    .string "SIÈGE DE YOPPLE\n7e ÉTAGE$"
 
 SilphCo_8F_Text_ToRocketBossMonsAreTools::
     .string "Don Morléone fait peur aux employés.\pPour lui, les Yo-kai sont des outils\nau service de ses affaires.\pIl ne doit pas prendre notre\nentreprise!$"

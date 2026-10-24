@@ -1,0 +1,259 @@
+{
+  "visible_literals": 12710,
+  "old_english_city_names": [],
+  "residual_classifications": [
+    {
+      "file": "src/battle_main.c",
+      "symbol": "sText_ShedinjaJpnName",
+      "line": "255",
+      "text": "ヌケニン",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Compatibility name/status comparison or import identity"
+    },
+    {
+      "file": "src/battle_main.c",
+      "symbol": "gStatusConditionString_PoisonJpn",
+      "line": "599",
+      "text": "どく$$$$$",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Compatibility name/status comparison or import identity"
+    },
+    {
+      "file": "src/battle_main.c",
+      "symbol": "gStatusConditionString_SleepJpn",
+      "line": "600",
+      "text": "ねむり$$$$",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Compatibility name/status comparison or import identity"
+    },
+    {
+      "file": "src/battle_main.c",
+      "symbol": "gStatusConditionString_ParalysisJpn",
+      "line": "601",
+      "text": "まひ$$$$$",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Compatibility name/status comparison or import identity"
+    },
+    {
+      "file": "src/battle_main.c",
+      "symbol": "gStatusConditionString_BurnJpn",
+      "line": "602",
+      "text": "やけど$$$$",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Compatibility name/status comparison or import identity"
+    },
+    {
+      "file": "src/battle_main.c",
+      "symbol": "gStatusConditionString_IceJpn",
+      "line": "603",
+      "text": "こおり$$$$",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Compatibility name/status comparison or import identity"
+    },
+    {
+      "file": "src/battle_main.c",
+      "symbol": "gStatusConditionString_ConfusionJpn",
+      "line": "604",
+      "text": "こんらん$$$",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Compatibility name/status comparison or import identity"
+    },
+    {
+      "file": "src/battle_main.c",
+      "symbol": "gStatusConditionString_LoveJpn",
+      "line": "605",
+      "text": "メロメロ$$$",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Compatibility name/status comparison or import identity"
+    },
+    {
+      "file": "src/daycare.c",
+      "symbol": "sJapaneseEggNickname",
+      "line": "135",
+      "text": "タマゴ",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Compatibility name/status comparison or import identity"
+    },
+    {
+      "file": "src/dodrio_berry_picking.c",
+      "symbol": "sJPText_Vowels",
+      "line": "3055",
+      "text": "あいうえおかき",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Developer/debug fixture; not a normal player dialogue"
+    },
+    {
+      "file": "src/evolution_scene.c",
+      "symbol": "sText_ShedinjaJapaneseName",
+      "line": "73",
+      "text": "ヌケニン",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Compatibility name/status comparison or import identity"
+    },
+    {
+      "file": "src/link_rfu_2.c",
+      "symbol": "sText_Akito",
+      "line": "1927",
+      "text": "あきと",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Developer/debug fixture; not a normal player dialogue"
+    },
+    {
+      "file": "src/pokemon.c",
+      "symbol": "sText_GameFreak",
+      "line": "1462",
+      "text": "ゲーフリ",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Compatibility name/status comparison or import identity"
+    },
+    {
+      "file": "src/strings.c",
+      "symbol": "gCreditsString_National_Federation_of_the_Blind_Patricia_A_Maurer_Japan_Braille_Library_European_Blind_Union",
+      "line": "1139",
+      "text": "\\nNational Federation\\n{CLEAR_TO 0x13}of the Blind\\nPatricia A. Maurer\\nJapan Braille Library\\nEuropean Blind Union\\n",
+      "english_candidate": "True",
+      "japanese_candidate": "False",
+      "classification": "Original credit proper name"
+    },
+    {
+      "file": "src/strings.c",
+      "symbol": "gCreditsString_The_Royal_New_Zealand_Foundation_of_the_Blind_Greg_Moran",
+      "line": "1147",
+      "text": "\\n\\nThe Royal New Zealand\\nFoundation of the Blind\\nGreg Moran\\n\\n",
+      "english_candidate": "True",
+      "japanese_candidate": "False",
+      "classification": "Original credit proper name"
+    },
+    {
+      "file": "src/trade.c",
+      "symbol": "baseBlock",
+      "line": "755",
+      "text": "かいめの そうしん",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Developer/debug fixture; not a normal player dialogue"
+    },
+    {
+      "file": "src/trade.c",
+      "symbol": "baseBlock",
+      "line": "756",
+      "text": "かいめの じゅしん",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Developer/debug fixture; not a normal player dialogue"
+    },
+    {
+      "file": "src/trade.c",
+      "symbol": "k",
+      "line": "757",
+      "text": "ポケモンアイコンセット",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Developer/debug fixture; not a normal player dialogue"
+    },
+    {
+      "file": "src/trade.c",
+      "symbol": "",
+      "line": "758",
+      "text": "OBJテキストセット",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Developer/debug fixture; not a normal player dialogue"
+    },
+    {
+      "file": "src/trade.c",
+      "symbol": "",
+      "line": "759",
+      "text": "セルセット",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Developer/debug fixture; not a normal player dialogue"
+    },
+    {
+      "file": "src/trade.c",
+      "symbol": "",
+      "line": "760",
+      "text": "OBJテキストADD",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Developer/debug fixture; not a normal player dialogue"
+    },
+    {
+      "file": "src/trade.c",
+      "symbol": "",
+      "line": "761",
+      "text": "システムメッセージADD",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Developer/debug fixture; not a normal player dialogue"
+    },
+    {
+      "file": "src/trade.c",
+      "symbol": "",
+      "line": "762",
+      "text": "はいけいセット",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Developer/debug fixture; not a normal player dialogue"
+    },
+    {
+      "file": "src/trade.c",
+      "symbol": "sText_ShedinjaJP",
+      "line": "765",
+      "text": "ヌケニン",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Compatibility name/status comparison or import identity"
+    },
+    {
+      "file": "src/trade.c",
+      "symbol": "sText_ShedinjaJP",
+      "line": "768",
+      "text": "こうかんせいりつ     ",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Developer/debug fixture; not a normal player dialogue"
+    },
+    {
+      "file": "src/trade.c",
+      "symbol": "sText_ShedinjaJP",
+      "line": "769",
+      "text": "だめだたらしいよ     ",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Developer/debug fixture; not a normal player dialogue"
+    },
+    {
+      "file": "src/trainer_card.c",
+      "symbol": "playerName",
+      "line": "390",
+      "text": "あかみ どりお",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Developer/debug fixture; not a normal player dialogue"
+    },
+    {
+      "file": "src/trainer_card.c",
+      "symbol": "playerName",
+      "line": "430",
+      "text": "るびさふぁこ！",
+      "english_candidate": "False",
+      "japanese_candidate": "True",
+      "classification": "Developer/debug fixture; not a normal player dialogue"
+    }
+  ],
+  "warning": "Heuristic triage plus manual review; not a full adventure playthrough."
+}

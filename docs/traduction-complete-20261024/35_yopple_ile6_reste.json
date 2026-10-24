@@ -1,0 +1,602 @@
+[
+  {
+    "file": "data/maps/SilphCo_4F/text.inc",
+    "symbol": "SilphCo_4F_Text_RodneyPostBattle",
+    "before": "The doors are electronically\\nlocked.\\pIt takes a CARD KEY to open the\\ndoors here.$",
+    "after": "Les portes sont verrouillées\\nélectroniquement.\\pIl faut une Carte Magnétique pour\\nles ouvrir.$"
+  },
+  {
+    "file": "data/maps/SilphCo_5F/text.inc",
+    "symbol": "SilphCo_5F_Text_BeauIntro",
+    "before": "We study Yo-kai Ball technology on\\nthis floor.$",
+    "after": "À cet étage, nous étudions la\\ntechnologie des Yo-kai Balls.$"
+  },
+  {
+    "file": "data/maps/SilphCo_5F/text.inc",
+    "symbol": "SilphCo_5F_Text_BeauPostBattle",
+    "before": "We worked on the ultimate POKé\\nBALL which would catch anything.$",
+    "after": "Nous travaillions sur la Yo-kai Ball\\nultime, capable de tout attraper.$"
+  },
+  {
+    "file": "data/maps/SilphCo_5F/text.inc",
+    "symbol": "SilphCo_5F_Text_DaltonIntro",
+    "before": "Whaaat?\\pThere shouldn't be any children\\nhere!$",
+    "after": "Quoi ?\\pIl ne devrait pas y avoir d'enfants\\nici !$"
+  },
+  {
+    "file": "data/maps/SilphCo_5F/text.inc",
+    "symbol": "SilphCo_5F_Text_DaltonPostBattle",
+    "before": "You're only on 5F.\\nIt's a long way to my BOSS!$",
+    "after": "Tu n'es qu'au 4e étage. Mon chef est\\nencore loin !$"
+  },
+  {
+    "file": "data/maps/SilphCo_5F/text.inc",
+    "symbol": "SilphCo_5F_Text_PorygonFirstVRMon",
+    "before": "It's a Yo-kai REPORT!\\pYo-kai LAB created PORYGON,\\nthe first virtual-reality Yo-kai.$",
+    "after": "C'est un rapport sur les Yo-kai !\\pLe laboratoire a créé Felipaix, le\\npremier Yo-kai virtuel.$"
+  },
+  {
+    "file": "data/maps/SilphCo_5F/text.inc",
+    "symbol": "SilphCo_5F_Text_Over350TechniquesConfirmed",
+    "before": "It's a Yo-kai REPORT!\\pOver 350 Yo-kai techniques have\\nbeen confirmed.$",
+    "after": "C'est un rapport sur les Yo-kai !\\pPlus de 350 capacités de Yo-kai ont\\nété répertoriées.$"
+  },
+  {
+    "file": "data/maps/SilphCo_5F/text.inc",
+    "symbol": "SilphCo_5F_Text_SomeMonsEvolveWhenTraded",
+    "before": "It's a Yo-kai REPORT!\\pSome Yo-kai have been confirmed\\nto evolve when they are traded.$",
+    "after": "C'est un rapport sur les Yo-kai !\\pOn a confirmé que certains Yo-kai\\névoluent lors d'un échange.$"
+  },
+  {
+    "file": "data/maps/SilphCo_6F/text.inc",
+    "symbol": "SilphCo_6F_Text_HelpMePlease",
+    "before": "Oh dear, oh dear.\\nHelp me, please!$",
+    "after": "Oh là là ! Aide-moi, s'il te plaît !$"
+  },
+  {
+    "file": "data/maps/SilphCo_6F/text.inc",
+    "symbol": "SilphCo_6F_Text_ThatManIsSuchACoward",
+    "before": "That man next to me…\\nHe's such a coward!$",
+    "after": "L'homme à côté de moi… Quel\\ntrouillard !$"
+  },
+  {
+    "file": "data/maps/SilphCo_6F/text.inc",
+    "symbol": "SilphCo_6F_Text_NeedsMeToLookAfterHim",
+    "before": "He's so helpless, he needed\\nsomeone like me to look after him.$",
+    "after": "Il est tellement démuni qu'il lui\\nfallait quelqu'un comme moi pour\\lveiller sur lui.$"
+  },
+  {
+    "file": "data/maps/SilphCo_6F/text.inc",
+    "symbol": "SilphCo_6F_Text_ComeWorkForSilphWhenYoureOlder",
+    "before": "Come work for Yopple when you\\nget older.$",
+    "after": "Viens travailler chez Yopple quand tu\\nseras plus grand.$"
+  },
+  {
+    "file": "data/maps/SilphCo_6F/text.inc",
+    "symbol": "SilphCo_6F_Text_TaylorPostBattle",
+    "before": "TIKSI BRANCH?\\nIt's in Russian no-man's-land!$",
+    "after": "La succursale de Tiksi ? C'est dans\\nun coin perdu de Russie !$"
+  },
+  {
+    "file": "data/maps/SilphCo_7F/text.inc",
+    "symbol": "SilphCo_7F_Text_ObtainedLaprasFromEmployee",
+    "before": "{PLAYER} obtained a LAPRAS from\\nthe Yopple employee!$",
+    "after": "{PLAYER} reçoit un Loubarbare de\\nl'employé de Yopple !$"
+  },
+  {
+    "file": "data/maps/SilphCo_7F/text.inc",
+    "symbol": "SilphCo_7F_Text_ExplainLapras",
+    "before": "It's a LAPRAS.\\nIt's a very intelligent Yo-kai.\\pWe kept it in our lab, but it will\\nbe much better off with you.\\pI think you will be a good TRAINER\\nfor LAPRAS!\\pIt's a good swimmer.\\nIt'll give you a lift across water!$",
+    "after": "C'est un Loubarbare. Un Yo-kai très\\nintelligent.\\pNous le gardions au laboratoire, mais\\nil sera bien mieux avec toi.\\pJe pense que tu sauras bien t'occuper\\nde Loubarbare !\\pC'est un bon nageur. Il te\\ntransportera sur l'eau !$"
+  },
+  {
+    "file": "data/maps/SilphCo_7F/text.inc",
+    "symbol": "SilphCo_7F_Text_ReallyDangerousHere",
+    "before": "You!\\nIt's really dangerous here!\\pYou came to save me?\\nYou can't!$",
+    "after": "Toi ! C'est très dangereux ici !\\pTu viens me sauver ? Non, tu ne peux\\npas !$"
+  },
+  {
+    "file": "data/maps/SilphCo_7F/text.inc",
+    "symbol": "SilphCo_7F_Text_ThankYouSoMuch",
+    "before": "Thank you so much!$",
+    "after": "Merci infiniment !$"
+  },
+  {
+    "file": "data/maps/SilphCo_7F/text.inc",
+    "symbol": "SilphCo_7F_Text_JoshuaIntro",
+    "before": "Heheh!\\pYou mistook me for a Yopple worker?$",
+    "after": "Héhé !\\pTu m'as pris pour un employé de\\nYopple ?$"
+  },
+  {
+    "file": "data/maps/SilphCo_7F/text.inc",
+    "symbol": "SilphCo_7F_Text_JoshuaDefeat",
+    "before": "I'm done!$",
+    "after": "Je suis fichu !$"
+  },
+  {
+    "file": "data/maps/SilphCo_7F/text.inc",
+    "symbol": "SilphCo_7F_Text_JoshuaPostBattle",
+    "before": "Despite your age, you are a\\nskilled TRAINER!$",
+    "after": "Malgré ton âge, tu es un Dresseur\\ntrès habile !$"
+  },
+  {
+    "file": "data/maps/SilphCo_8F/text.inc",
+    "symbol": "SilphCo_8F_Text_WonderIfSilphIsFinished",
+    "before": "I wonder if Yopple is finished…$",
+    "after": "Est-ce la fin de Yopple… ?$"
+  },
+  {
+    "file": "data/maps/SilphCo_8F/text.inc",
+    "symbol": "SilphCo_8F_Text_ThanksForSavingUs",
+    "before": "Thanks for saving us!$",
+    "after": "Merci de nous avoir sauvés !$"
+  },
+  {
+    "file": "data/maps/SilphCo_8F/text.inc",
+    "symbol": "SilphCo_8F_Text_ParkerPostBattle",
+    "before": "So, what do you think of Yopple\\nBUILDING's maze?$",
+    "after": "Alors, que penses-tu du labyrinthe de\\nla société Yopple ?$"
+  },
+  {
+    "file": "data/maps/SilphCo_9F/text.inc",
+    "symbol": "SilphCo_9F_Text_YouShouldTakeQuickNap",
+    "before": "You look tired.\\nYou should take a quick nap.$",
+    "after": "Tu as l'air de manquer de repos. Tu\\ndevrais faire une petite sieste.$"
+  },
+  {
+    "file": "data/maps/SilphCo_9F/text.inc",
+    "symbol": "SilphCo_9F_Text_DontGiveUp",
+    "before": "Don't give up!$",
+    "after": "N'abandonne pas !$"
+  },
+  {
+    "file": "data/maps/SilphCo_9F/text.inc",
+    "symbol": "SilphCo_9F_Text_ThankYouSoMuch",
+    "before": "Thank you so much.$",
+    "after": "Merci beaucoup.$"
+  },
+  {
+    "file": "data/maps/SilphCo_9F/text.inc",
+    "symbol": "SilphCo_9F_Text_EdIntro",
+    "before": "Your Yo-kai have weak points!\\nI can nail them!$",
+    "after": "Tes Yo-kai ont des points faibles !\\nJe vais en profiter !$"
+  },
+  {
+    "file": "data/maps/SilphCo_9F/text.inc",
+    "symbol": "SilphCo_9F_Text_EdDefeat",
+    "before": "You hammered me!$",
+    "after": "Tu m'as écrasé !$"
+  },
+  {
+    "file": "data/maps/SilphCo_9F/text.inc",
+    "symbol": "SilphCo_9F_Text_EdPostBattle",
+    "before": "Exploiting weak spots does work.\\nThink about type advantages.$",
+    "after": "Exploiter les points faibles, ça\\nmarche. Pense aux avantages des\\ltypes.$"
+  },
+  {
+    "file": "data/maps/SixIsland/text.inc",
+    "symbol": "SixIsland_Text_IslandSign",
+    "before": "SIX ISLAND\\nFortune Island of Aged Wisdom$",
+    "after": "ÎLE 6\\nL'île de la sagesse ancienne$"
+  },
+  {
+    "file": "data/maps/SixIsland/text.inc",
+    "symbol": "SixIsland_Text_ThatWayToWaterPathRuinValley",
+    "before": "Keep going this way and you'll get\\nto the WATER PATH.\\pStay on that and you'll get to\\nthe RUIN VALLEY.$",
+    "after": "En continuant par ici, tu atteindras\\nl'Agualcanal.\\pSuis-le pour arriver à la Vallée\\nRuine.$"
+  },
+  {
+    "file": "data/maps/SixIsland/text.inc",
+    "symbol": "SixIsland_Text_SkyAtNightIsFantastic",
+    "before": "When you're this far away from the\\ncity, the sky at night is fantastic.$",
+    "after": "Si loin de la ville, le ciel nocturne\\nest magnifique.$"
+  },
+  {
+    "file": "data/maps/SixIsland_DottedHole_SapphireRoom/text.inc",
+    "symbol": "SixIsland_DottedHole_SapphireRoom_Text_IWasRightInTailingYou",
+    "before": "Fufu… Fufufufu…\\nI guessed right.\\pI was right in tailing you!$",
+    "after": "Héhé… Héhéhé… J'avais vu juste.\\pJ'ai bien fait de te suivre !$"
+  },
+  {
+    "file": "data/maps/SixIsland_GreenPath/text.inc",
+    "symbol": "SixIsland_GreenPath_Text_JaclynIntro",
+    "before": "…Huh?\\pI was envisioning my house, but\\nthis is where I TELEPORT?$",
+    "after": "… Hein ?\\pJe pensais à ma maison, mais Téléport\\nm'a amené ici ?$"
+  },
+  {
+    "file": "data/maps/SixIsland_GreenPath/text.inc",
+    "symbol": "SixIsland_GreenPath_Text_JaclynPostBattle",
+    "before": "I am so scatterbrained!\\pI need to focus so I can TELEPORT\\nproperly to my house!$",
+    "after": "J'ai vraiment la tête ailleurs !\\pJe dois me concentrer pour utiliser\\nTéléport et rentrer chez moi !$"
+  },
+  {
+    "file": "data/maps/SixIsland_GreenPath/text.inc",
+    "symbol": "SixIsland_GreenPath_Text_RightRouteSign",
+    "before": "GREEN PATH\\nThink Green, Keep Nature Clean!$",
+    "after": "CHEMIN VERT\\nPensons nature, gardons-la pure !$"
+  },
+  {
+    "file": "data/maps/SixIsland_House/text.inc",
+    "symbol": "SixIsland_House_Text_GoodPlaceForNatureAndHistory",
+    "before": "There's nothing that young people'd\\nfind exciting here on this island.\\pBut, this is a good place in terms\\nof nature and history.\\pRelax and enjoy your stay.$",
+    "after": "Il n'y a rien de très excitant pour\\nles jeunes sur cette île.\\pMais c'est un endroit merveilleux pour\\nsa nature et son histoire.\\pDétends-toi et profite du séjour.$"
+  },
+  {
+    "file": "data/maps/SixIsland_Mart/text.inc",
+    "symbol": "SixIsland_Mart_Text_AgathaOldestEverEliteFourMember",
+    "before": "Play with Yo-kai lots and live\\na long life!\\pTake AGATHA, for example.\\pShe set a record for being the\\noldest-ever ELITE FOUR member.\\pShe spurs me to do bigger things.$",
+    "after": "Amuse-toi avec les Yo-kai pour vivre\\nlongtemps !\\pPrends Agatha, par exemple.\\pElle détient le record du membre le\\nplus âgé du Conseil 4.\\pElle me donne envie de me dépasser.$"
+  },
+  {
+    "file": "data/maps/SixIsland_Mart/text.inc",
+    "symbol": "SixIsland_Mart_Text_ShouldBuyMailAndWriteLetter",
+    "before": "I should buy some MAIL and write\\nhim a letter…$",
+    "after": "Je devrais acheter du Papier et lui\\nécrire une lettre…$"
+  },
+  {
+    "file": "data/maps/SixIsland_OutcastIsland/text.inc",
+    "symbol": "SixIsland_OutcastIsland_Text_TylorIntro",
+    "before": "I'm having no luck at all.\\nA battle'd be a change of pace!$",
+    "after": "Je n'ai vraiment pas de chance. Un\\ncombat me changera les idées !$"
+  },
+  {
+    "file": "data/maps/SixIsland_OutcastIsland/text.inc",
+    "symbol": "SixIsland_OutcastIsland_Text_TylorDefeat",
+    "before": "Nope, no luck at all…$",
+    "after": "Non, vraiment aucune chance…$"
+  },
+  {
+    "file": "data/maps/SixIsland_OutcastIsland/text.inc",
+    "symbol": "SixIsland_OutcastIsland_Text_TylorPostBattle",
+    "before": "I can't very well go home without\\ncatching something, though.$",
+    "after": "Mais je ne peux tout de même pas\\nrentrer sans rien attraper.$"
+  },
+  {
+    "file": "data/maps/SixIsland_OutcastIsland/text.inc",
+    "symbol": "SixIsland_OutcastIsland_Text_MymoIntro",
+    "before": "Gasp… Gasp…\\pI swam here from SIX ISLE PORT\\nin one go.$",
+    "after": "Haa… Haa…\\pJ'ai nagé depuis le Port de l'Île 6\\nsans m'arrêter.$"
+  },
+  {
+    "file": "data/maps/SixIsland_OutcastIsland/text.inc",
+    "symbol": "SixIsland_OutcastIsland_Text_MymoPostBattle",
+    "before": "I'm only at the halfway point…\\nI'm beat…$",
+    "after": "Je ne suis qu'à mi-chemin… Je n'en\\npeux plus…$"
+  },
+  {
+    "file": "data/maps/SixIsland_OutcastIsland/text.inc",
+    "symbol": "SixIsland_OutcastIsland_Text_NicoleIntro",
+    "before": "It's not so easy sending Yo-kai\\nout while swimming, you know?$",
+    "after": "Ce n'est pas facile d'envoyer ses\\nYo-kai en nageant, tu sais ?$"
+  },
+  {
+    "file": "data/maps/SixIsland_OutcastIsland/text.inc",
+    "symbol": "SixIsland_OutcastIsland_Text_NicoleDefeat",
+    "before": "I didn't lose to you at swimming.\\nThis doesn't bother me.$",
+    "after": "Tu ne m'as pas battu à la nage. Ça\\nne me fait rien.$"
+  },
+  {
+    "file": "data/maps/SixIsland_OutcastIsland/text.inc",
+    "symbol": "SixIsland_OutcastIsland_Text_NicolePostBattle",
+    "before": "Are you headed for the island up\\npast here?\\pI didn't see anything interesting\\nthere.$",
+    "after": "Tu vas sur l'île, plus loin ?\\pJe n'y ai rien vu d'intéressant.$"
+  },
+  {
+    "file": "data/maps/SixIsland_OutcastIsland/text.inc",
+    "symbol": "SixIsland_OutcastIsland_Text_AvaIntro",
+    "before": "AVA: Let's have a two-on-two\\nmarine battle!$",
+    "after": "AVA : Faisons un combat marin à deux\\ncontre deux !$"
+  },
+  {
+    "file": "data/maps/SixIsland_OutcastIsland/text.inc",
+    "symbol": "SixIsland_OutcastIsland_Text_AvaDefeat",
+    "before": "AVA: Oh, you're amazing!\\nEven better, you're on your own!$",
+    "after": "AVA : Oh, tu es incroyable ! Et tu\\nes tout seul, en plus !$"
+  },
+  {
+    "file": "data/maps/SixIsland_OutcastIsland/text.inc",
+    "symbol": "SixIsland_OutcastIsland_Text_AvaPostBattle",
+    "before": "AVA: You know, I do prefer the\\nsea over any pool.$",
+    "after": "AVA : Tu sais, je préfère largement\\nla mer à la piscine.$"
+  },
+  {
+    "file": "data/maps/SixIsland_OutcastIsland/text.inc",
+    "symbol": "SixIsland_OutcastIsland_Text_AvaNotEnoughMons",
+    "before": "AVA: You're challenging us to\\na battle?\\pYou'll need at least two Yo-kai\\nif you want to do that.$",
+    "after": "AVA : Tu veux nous défier ?\\pIl te faut au moins deux Yo-kai pour\\nça.$"
+  },
+  {
+    "file": "data/maps/SixIsland_OutcastIsland/text.inc",
+    "symbol": "SixIsland_OutcastIsland_Text_GebIntro",
+    "before": "GEB: Big Sister, help!\\nPlease battle with me!$",
+    "after": "GEB : Grande sœur, au secours !\\nBats-toi avec moi !$"
+  },
+  {
+    "file": "data/maps/SixIsland_OutcastIsland/text.inc",
+    "symbol": "SixIsland_OutcastIsland_Text_GebDefeat",
+    "before": "GEB: Wow, Big Sister, this person's\\nreally good!$",
+    "after": "GEB : Ouah, grande sœur, cette\\npersonne est vraiment forte !$"
+  },
+  {
+    "file": "data/maps/SixIsland_OutcastIsland/text.inc",
+    "symbol": "SixIsland_OutcastIsland_Text_GebPostBattle",
+    "before": "GEB: I'm hanging onto my sister\\nbecause I can't touch the bottom.$",
+    "after": "GEB : Je m'accroche à ma sœur parce\\nque je n'ai pas pied.$"
+  },
+  {
+    "file": "data/maps/SixIsland_OutcastIsland/text.inc",
+    "symbol": "SixIsland_OutcastIsland_Text_GebNotEnoughMons",
+    "before": "GEB: Please battle against me and\\nmy sister!\\p…Oh, you don't have two Yo-kai?$",
+    "after": "GEB : Affronte ma sœur et moi, s'il\\nte plaît !\\p… Oh, tu n'as pas deux Yo-kai ?$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_BethanyIntro",
+    "before": "I'm curious, how do you raise your\\nYo-kai?$",
+    "after": "Je suis curieuse : comment élèves-tu\\ntes Yo-kai ?$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_BethanyDefeat",
+    "before": "You raise your Yo-kai with a\\nwhole lot of love!$",
+    "after": "Tu élèves tes Yo-kai avec beaucoup\\nd'amour !$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_BethanyPostBattle",
+    "before": "In the same way your mother raised\\nyou full of love, you should raise\\lyour Yo-kai.$",
+    "after": "Tu devrais élever tes Yo-kai avec\\nautant d'amour que ta mère t'en a\\ldonné.$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_AllisonIntro",
+    "before": "I'm working to preserve the natural\\necology of Yo-kai here.$",
+    "after": "Je travaille à préserver l'écosystème\\nnaturel des Yo-kai d'ici.$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_AllisonDefeat",
+    "before": "Oh, for someone so young, you are\\ntremendous!$",
+    "after": "Oh, tu es formidable pour quelqu'un\\nd'aussi jeune !$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_AllisonPostBattle",
+    "before": "I'm not saying that you shouldn't\\ncatch Yo-kai.\\pI just want people to raise their\\nYo-kai responsibly.$",
+    "after": "Je ne dis pas qu'il ne faut pas\\nattraper de Yo-kai.\\pJe veux simplement que chacun les\\nélève de façon responsable.$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_GarretIntro",
+    "before": "I caught a BUG Yo-kai that lives\\nonly around here!$",
+    "after": "J'ai attrapé un Yo-kai Insecte qui ne\\nvit que dans le coin !$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_GarretPostBattle",
+    "before": "There's a girl near the BUSH who\\nmeasures HERACROSS for TRAINERS.$",
+    "after": "Près du Bosquet, une fille mesure les\\nScarhino des Dresseurs.$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_JonahIntro",
+    "before": "You know, it just doesn't feel right\\nif I don't use BUG Yo-kai.$",
+    "after": "Tu sais, sans Yo-kai Insecte, je ne\\nme sens pas moi-même.$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_JonahDefeat",
+    "before": "It's okay, losing is a fun part of\\nYo-kai's appeal, too.$",
+    "after": "Ce n'est pas grave. Perdre fait aussi\\npartie du plaisir avec les Yo-kai.$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_JonahPostBattle",
+    "before": "By the way, “appeal” is a weird\\nword, if you think about it.\\pLike, is it like an orange peel?\\nOr like a ringing bell?$",
+    "after": "C'est drôle, le mot plaisir, quand on\\ny pense.\\pQuand on dit qu'un combat nous a plu,\\non ne parle pas de pluie !$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_VanceIntro",
+    "before": "Yeah, yeah, yeah!\\nLook at all the BUG Yo-kai!$",
+    "after": "Ouais, ouais, ouais ! Regarde tous\\nces Yo-kai Insecte !$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_VanceDefeat",
+    "before": "I got beat while I was still busy\\ncelebrating!$",
+    "after": "Je faisais encore la fête quand tu\\nm'as battu !$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_VancePostBattle",
+    "before": "I'm going to bring my little brother\\nhere next time.$",
+    "after": "La prochaine fois, j'amènerai mon\\npetit frère.$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_NashIntro",
+    "before": "Look, look! There are funny\\npatterns on the ground.$",
+    "after": "Regarde ! Il y a de drôles de motifs\\nsur le sol.$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_NashPostBattle",
+    "before": "The funny patterns on the ground…\\pThey look like the patterns on my\\ngrandpa's clothes.$",
+    "after": "Ces drôles de motifs sur le sol…\\pIls ressemblent à ceux des vêtements\\nde mon grand-père.$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_CordellIntro",
+    "before": "I bet you think I'm just some guy,\\ndon't you, eh?$",
+    "after": "Tu me prends pour un type ordinaire,\\nhein ?$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_CordellDefeat",
+    "before": "I bet you think I'm weak,\\ndon't you, eh?$",
+    "after": "Tu crois que je suis faible, hein ?$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_CordellPostBattle",
+    "before": "Ayup, you townies come around all\\nso dandy with a hat that flashy…\\pHow about giving me that?$",
+    "after": "Ah, vous autres de la ville, vous\\narrivez tout beaux avec vos\\lcouvre-chefs voyants…\\pTu ne voudrais pas me donner le tien\\n?$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_DaliaIntro",
+    "before": "Take a deep breath.\\nIsn't the air delicious?$",
+    "after": "Respire profondément. L'air n'est-il\\npas délicieux ?$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_DaliaDefeat",
+    "before": "If you'd like, I can teach you how\\nto breathe properly.$",
+    "after": "Si tu veux, je peux t'apprendre à\\nbien respirer.$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_DaliaPostBattle",
+    "before": "First, exhale.\\nBlow everything out.\\pWhen you can't exhale anymore,\\ninhale the clean air!\\pIsn't it refreshing?$",
+    "after": "D'abord, expire. Vide complètement\\ntes poumons.\\pQuand tu ne peux plus expirer,\\ninspire de l'air pur !\\pC'est rafraîchissant, non ?$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_JoanaIntro",
+    "before": "I love BUG Yo-kai.\\nThat's why I'm here all the time.\\pAm I the only girl like that?$",
+    "after": "J'adore les Yo-kai Insecte. C'est\\npour ça que je viens toujours ici.\\pJe suis la seule fille comme ça ?$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_JoanaDefeat",
+    "before": "I lost, but I'm still laughing.\\nAm I the only girl like that?$",
+    "after": "J'ai perdu, mais je ris encore. Je\\nsuis la seule fille comme ça ?$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_JoanaPostBattle",
+    "before": "I'm going to keep on collecting\\nBUG Yo-kai.\\pAm I the only girl like that?$",
+    "after": "Je continuerai à collectionner les\\nYo-kai Insecte.\\pJe suis la seule fille comme ça ?$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_RileyIntro",
+    "before": "This is a good spot.\\nI'll pitch my tent here.$",
+    "after": "Cet endroit est bien. Je vais y\\nplanter ma tente.$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_RileyPostBattle",
+    "before": "I'm going to observe the night sky\\nhere.$",
+    "after": "Je vais observer le ciel nocturne\\nici.$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_MarcyDefeat",
+    "before": "It wasn't a bug.\\nI cut my shin on some grass.$",
+    "after": "Ce n'était pas un insecte. Je me suis\\ncoupé le tibia avec une herbe.$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_MarcyPostBattle",
+    "before": "A little cut like that…\\nA little spit's enough to cure it!$",
+    "after": "Une petite coupure comme ça… Un peu\\nde salive et ça passe !$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_LaytonIntro",
+    "before": "Have you noticed something odd\\nabout these parts?$",
+    "after": "As-tu remarqué quelque chose\\nd'étrange dans les environs ?$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_LaytonDefeat",
+    "before": "Have you taken a good look around\\nyour feet?$",
+    "after": "As-tu bien regardé autour de tes\\npieds ?$"
+  },
+  {
+    "file": "data/maps/SixIsland_PatternBush/text.inc",
+    "symbol": "SixIsland_PatternBush_Text_LaytonPostBattle",
+    "before": "There are places here in PATTERN\\nBUSH where grass won't grow.\\pWhat could be the cause of such\\na phenomenon?$",
+    "after": "Dans le Bosquet, certains endroits\\nrestent sans herbe.\\pQu'est-ce qui peut bien provoquer un\\ntel phénomène ?$"
+  },
+  {
+    "file": "data/maps/SixIsland_RuinValley/text.inc",
+    "symbol": "SixIsland_RuinValley_Text_CantFigureOutHowToGetInside",
+    "before": "I can't figure out how I'm supposed\\nto get inside.$",
+    "after": "Je n'arrive pas à trouver comment\\nentrer.$"
+  },
+  {
+    "file": "data/maps/SixIsland_RuinValley/text.inc",
+    "symbol": "SixIsland_RuinValley_Text_IFoundThisPlace",
+    "before": "Let me tell you, I found this\\nplace.\\pDon't look so envious, will you?$",
+    "after": "Je te préviens, c'est moi qui ai\\ndécouvert cet endroit.\\pNe me regarde pas avec tant d'envie\\n!$"
+  },
+  {
+    "file": "data/maps/SixIsland_RuinValley/text.inc",
+    "symbol": "SixIsland_RuinValley_Text_CheckDoorMoreThoroughly",
+    "before": "The door doesn't budge at all.\\nCheck it more thoroughly?$",
+    "after": "La porte ne bouge pas d'un pouce.\\nL'examiner de plus près ?$"
+  },
+  {
+    "file": "data/maps/SixIsland_RuinValley/text.inc",
+    "symbol": "SixIsland_RuinValley_Text_LeftDoorAlone",
+    "before": "{PLAYER} left the door alone.$",
+    "after": "{PLAYER} laisse la porte tranquille.$"
+  },
+  {
+    "file": "data/maps/SixIsland_RuinValley/text.inc",
+    "symbol": "SixIsland_RuinValley_Text_SeveralDotsOnTheDoor",
+    "before": "On closer inspection, there are\\nseveral dots on the door…$",
+    "after": "En regardant de plus près, on\\ndistingue plusieurs points sur la\\lporte…$"
+  },
+  {
+    "file": "data/maps/SixIsland_RuinValley/text.inc",
+    "symbol": "SixIsland_RuinValley_Text_DoorIsOpen",
+    "before": "The door is open.$",
+    "after": "La porte est ouverte.$"
+  },
+  {
+    "file": "data/maps/SixIsland_RuinValley/text.inc",
+    "symbol": "SixIsland_RuinValley_Text_StanlyIntro",
+    "before": "There appear to be many secrets\\nstill unsolved in this world.$",
+    "after": "Notre monde semble encore receler\\nbien des secrets.$"
+  },
+  {
+    "file": "data/maps/SixIsland_RuinValley/text.inc",
+    "symbol": "SixIsland_RuinValley_Text_StanlyPostBattle",
+    "before": "I suggest to you that you, too,\\ngive a thought to the secrets and\\lmysteries of our world once a day.$",
+    "after": "Je te conseille, toi aussi, de\\nréfléchir une fois par jour aux\\lsecrets et aux mystères de notre\\lmonde.$"
+  },
+  {
+    "file": "data/maps/SixIsland_RuinValley/text.inc",
+    "symbol": "SixIsland_RuinValley_Text_FosterIntro",
+    "before": "I'm curious, what compelled you to\\ncome here?$",
+    "after": "Je suis curieuse : qu'est-ce qui t'a\\npoussé à venir ici ?$"
+  },
+  {
+    "file": "data/maps/SixIsland_RuinValley/text.inc",
+    "symbol": "SixIsland_RuinValley_Text_FosterDefeat",
+    "before": "It's been so long since I battled,\\nmy instincts are off.$",
+    "after": "Cela fait si longtemps que je n'ai\\npas combattu… J'ai perdu mes\\lréflexes.$"
+  },
+  {
+    "file": "data/maps/SixIsland_RuinValley/text.inc",
+    "symbol": "SixIsland_RuinValley_Text_FosterPostBattle",
+    "before": "There are several ruins on the\\nSEVII ISLANDS.\\pThe majority of them date back\\na long way.$",
+    "after": "Il y a plusieurs ruines sur les Îles\\nSevii.\\pLa plupart remontent à une époque\\ntrès lointaine.$"
+  },
+  {
+    "file": "data/maps/SixIsland_RuinValley/text.inc",
+    "symbol": "SixIsland_RuinValley_Text_LarryIntro",
+    "before": "It's been said that there are\\nmysterious stones on this island.\\pI suspect it has something to do\\nwith the ruins here.$",
+    "after": "On dit qu'il y a des pierres\\nmystérieuses sur cette île.\\pJe soupçonne un lien avec les ruines.$"
+  },
+  {
+    "file": "data/maps/SixIsland_RuinValley/text.inc",
+    "symbol": "SixIsland_RuinValley_Text_LarryPostBattle",
+    "before": "Those ruins over there…\\pI haven't had any luck in finding\\nhow I can get inside.$",
+    "after": "Ces ruines, là-bas…\\pJe n'ai pas réussi à trouver comment\\ny entrer.$"
+  }
+]

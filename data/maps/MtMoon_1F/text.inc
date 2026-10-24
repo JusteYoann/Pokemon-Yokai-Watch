@@ -53,7 +53,7 @@ MtMoon_1F_Text_KentPostBattle::
     .string "Je les ai vus! Ces types travaillent\npour la Mafiamille!$"
 
 MtMoon_1F_Text_RobbyIntro::
-    .string "Il faut traverser cette grotte\npour atteindre CERULEAN CITY.$"
+    .string "Il faut traverser cette grotte\npour atteindre AZURIA.$"
 
 MtMoon_1F_Text_RobbyDefeat::
     .string "J'ai perdu.$"
@@ -65,4 +65,4 @@ MtMoon_1F_Text_ZubatIsABloodsucker::
     .string "Attention aux Yo-kai sauvages!\nNe vous laissez pas surprendre!$"
 
 MtMoon_1F_Text_BrockHelpsExcavateFossils::
-    .string "Bonjour! Je cherche des fossiles\ndans les profondeurs de MT. MOON.\pWyatt, le Champion de PEWTER CITY,\nvient parfois m'aider.$"
+    .string "Bonjour! Je cherche des fossiles\ndans les profondeurs de MONT\lSÉLÉNITE.\pWyatt, le Champion de ARGENTA,\nvient parfois m'aider.$"

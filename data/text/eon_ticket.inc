@@ -1,44 +1,28 @@
 @ The text here is a copy/paste from Hoenn's Eon Ticket event, all unused and untranslated
 
 Text_DadLetterArrivedForYouPlayer::
-	.string "パパ“{PLAYER}！　よく　きたな！\n"
-	.string "{PLAYER}あての　てがみが　とどけられたぞ$"
+    .string "PAPA : Bonjour, {PLAYER} !\nUne lettre est arrivée pour toi,\l{PLAYER}.$"
 
 Text_DadPassForShipNeverSeenBefore::
-	.string "パパ“わたしも　みたことのない\n"
-	.string "ふねの　チケット　だな‥‥\l"
-	.string "ミナモに　いってみると　いいだろう$"
+    .string "PAPA : Je n’ai jamais vu\nun billet de bateau pareil…\pTu devrais aller à Nénucrique.$"
 
 Text_FerryToSlateportOhThatPass::
-	.string "カイナいき　れんらくせん‥‥\p"
-	.string "あら？\n"
-	.string "その　チケットは‥‥！$"
+    .string "Le ferry pour Poivressel…\pOh ? Mais ce billet… !$"
 
 Text_YoureOneWhoBroughtOddPass::
-	.string "ヘンテコな　チケットを\n"
-	.string "もってきたのは　おまえさんか？\p"
-	.string "おまえが　いこうと　しているのは\n"
-	.string "みなみの　はての　ちっぽけな　しま‥‥\p"
-	.string "そこでは　なにが　おこるのか\n"
-	.string "だれも　わからねえ‥‥\l"
-	.string "ううむ　ふなのりの　ちが　さわぐぜ！\p"
-	.string "さあ　のりな！$"
+    .string "C’est toi qui as apporté\ncet étrange billet ?\pTu veux rejoindre une toute petite\nîle, très loin dans le sud…\pPersonne ne sait ce qui t’y attend.\nMon sang de marin ne fait qu’un tour\l!\pAllez, monte à bord !$"
 
 Text_NothingHereSailBackToLilycove::
-	.string "なにもねえ　ちんけな　しま　だな‥‥\n"
-	.string "ミナモへ　かえるか？$"
+    .string "Cette petite île semble déserte…\nVeux-tu retourner à Nénucrique ?$"
 
 Text_SailHomeWeWill::
-	.string "よし！　かえると　するか！$"
+    .string "Bien ! Rentrons au port !$"
 
 Text_AsYouLikeThen::
-	.string "そうかい\n"
-	.string "まあ　すきにするが　いいさ$"
+    .string "Comme tu veux.\nPrends ton temps.$"
 
 SouthernIsland_Interior_Text_Sign::
-	.string "すべての　ゆめは　もうひとつの　げんじつ\n"
-	.string "それを　わすれるべからず‥‥$"
+    .string "Tous les rêves sont une autre\nréalité.\nNe l’oublie jamais…$"
 
 SouthernIsland_Exterior_Text_Sign::
-	.string "きおく　かすみし　ものは\n"
-	.string "こころに　きざみつける　ことを　のぞむ‥‥$"
+    .string "Ceux dont les souvenirs s’effacent\nsouhaitent les graver dans leur\lcœur…$"

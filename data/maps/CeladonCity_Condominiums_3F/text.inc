@@ -1,41 +1,26 @@
 CeladonCity_Condominiums_3F_Text_ImTheProgrammer::
-    .string "Me?\n"
-    .string "I'm the programmer!$"
+    .string "Moi ?\nJe suis le programmeur !$"
 
 CeladonCity_Condominiums_3F_Text_ImTheGraphicArtist::
-    .string "I'm the graphic artist!\n"
-    .string "I drew you!$"
+    .string "Je suis le graphiste !\nC'est moi qui t'ai dessiné !$"
 
 CeladonCity_Condominiums_3F_Text_IWroteTheStory::
-    .string "I wrote the story!\n"
-    .string "Isn't ALYZON cute?\p"
-    .string "I like {CHAMPION_AZURIA} a lot, too!\n"
-    .string "Oh, and BÉRÉNICE, I like her!$"
+    .string "J'ai écrit le scénario !\nAlyzon est adorable, non ?\pJ'aime aussi beaucoup {CHAMPION_AZURIA} !\nEt Bérénice, bien sûr !$"
 
 CeladonCity_Condominiums_3F_Text_ImGameDesignerShowMeFinishedPokedex::
-    .string "Is that right?\p"
-    .string "I'm the game designer!\p"
-    .string "Filling up your Médallium is tough,\n"
-    .string "but don't quit!\p"
-    .string "When you finish, come tell me!$"
+    .string "Ah oui ?\pJe suis le concepteur du jeu !\pRemplir ton Médallium n'est pas\nfacile, mais ne baisse pas les bras !\pReviens me voir quand tu auras\nterminé !$"
 
 CeladonCity_Condominiums_3F_Text_CompletedPokedexCongratulations::
-    .string "Wow! Excellent!\n"
-    .string "You completed your Médallium!\l"
-    .string "Congratulations!\l"
-    .string "…$"
+    .string "Ouah ! Formidable !\nTu as rempli ton Médallium !\lFélicitations !\l...$"
 
 CeladonCity_Condominiums_3F_Text_ItsTheGameProgram::
-    .string "It's the game program! Messing with\n"
-    .string "it could bug out the game!$"
+    .string "C'est le programme du jeu !\nN'y touche pas, tu risquerais de\lprovoquer un bug !$"
 
 CeladonCity_Condominiums_3F_Text_SomeonesPlayingGame::
-    .string "Someone's playing a game instead of\n"
-    .string "working!$"
+    .string "Quelqu'un joue au lieu de travailler\n!$"
 
 CeladonCity_Condominiums_3F_Text_ItsScriptBetterNotLookAtEnding::
-    .string "It's the script!\n"
-    .string "Better not look at the ending!$"
+    .string "C'est le scénario !\nMieux vaut ne pas lire la fin !$"
 
 CeladonCity_Condominiums_3F_Text_GameFreakDevelopmentRoom::
-    .string "GAME FREAK Development Room$"
+    .string "GAME FREAK\nSalle de développement$"

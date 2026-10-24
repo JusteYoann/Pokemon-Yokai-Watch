@@ -1,47 +1,30 @@
 TwoIsland_House_Text_TeachMonMoveForMushroom::
-    .string "I'm the Yo-kai MOVE MANIAC.\p"
-    .string "I know every single move that\n"
-    .string "Yo-kai learn growing up.\p"
-    .string "I'm also a mushroom maniac.\p"
-    .string "Bring me two TINYMUSHROOMS,\n"
-    .string "or one BIG MUSHROOM.\p"
-    .string "If you do that for me, I'll teach\n"
-    .string "a move to one Yo-kai.$"
+    .string "Je suis le Maître des Capacités\nYo-kai.\pJe connais toutes les capacités que\nles Yo-kai apprennent en grandissant.\pJe suis aussi un passionné de\nchampignons.\pApporte-moi deux Petits Champi ou un\nGros Champi.\pEn échange, j'enseignerai une\ncapacité à un Yo-kai.$"
 
 TwoIsland_House_Text_WantMeToTeachMove::
-    .string "Sniff, sniff…\n"
-    .string "Hm! You smell of MUSHROOMS!\p"
-    .string "Do you want me to teach a move\n"
-    .string "to a Yo-kai of yours?$"
+    .string "Snif, snif… Hmm ! Tu sens les\nchampignons !\pVeux-tu que j'enseigne une capacité\nà l'un de tes Yo-kai ?$"
 
 TwoIsland_House_Text_TutorWhichMon::
-    .string "Which Yo-kai needs tutoring?$"
+    .string "Quel Yo-kai doit apprendre une\ncapacité ?$"
 
 TwoIsland_House_Text_TeachWhichMove::
-    .string "Which move should I teach?$"
+    .string "Quelle capacité dois-je enseigner ?$"
 
 TwoIsland_House_Text_NoMoveICanTeachThatMon::
-    .string "Sorry…\p"
-    .string "It doesn't appear as if I have a\n"
-    .string "move I can teach that Yo-kai.$"
+    .string "Pardon…\pJe n'ai apparemment aucune capacité\nà enseigner à ce Yo-kai.$"
 
 TwoIsland_House_Text_IllNeedMushroomOrTwo::
-    .string "Then, I'll need a MUSHROOM or two.\n"
-    .string "What are you going to give me?$"
+    .string "Alors, il me faut des champignons.\nQue vas-tu me donner ?$"
 
 TwoIsland_House_Text_HandedOverTwoTinyMushrooms::
-    .string "{PLAYER} handed over two\n"
-    .string "TINYMUSHROOMS in exchange.$"
+    .string "{PLAYER} donne deux Petits Champi en\néchange.$"
 
 TwoIsland_House_Text_HandedOverOneBigMushroom::
-    .string "{PLAYER} handed over one\n"
-    .string "BIG MUSHROOM in exchange.$"
+    .string "{PLAYER} donne un Gros Champi en\néchange.$"
 
 TwoIsland_House_Text_NeedMushroomOrTwoToLearnMove::
-    .string "If your Yo-kai need to learn a\n"
-    .string "move, I need a MUSHROOM or two.$"
+    .string "Si tes Yo-kai ont besoin d'apprendre\nune capacité, il me faut des\lchampignons.$"
 
 TwoIsland_House_Text_CantTeachAnEgg::
-    .string "Hunh? There isn't a single move\n"
-    .string "that I can teach an EGG.$"
+    .string "Hein ? Je ne peux enseigner aucune\ncapacité à un Œuf.$"
 

@@ -1,154 +1,116 @@
 Route19_Text_RichardIntro::
-    .string "I have to exercise and warm up\n"
-    .string "before going out for a swim.$"
+    .string "Je dois faire des exercices et\nm'échauffer avant d'aller nager.$"
 
 Route19_Text_RichardDefeat::
-    .string "All warmed up!$"
+    .string "Bien échauffé !$"
 
 Route19_Text_RichardPostBattle::
-    .string "Thanks, kid!\n"
-    .string "I'm ready for a swim.$"
+    .string "Merci, petit !\nJe suis prêt pour la baignade.$"
 
 Route19_Text_ReeceIntro::
-    .string "Wait! Slow down!\n"
-    .string "You'll have a heart attack!$"
+    .string "Attends ! Doucement !\nTu vas te faire mal au coeur !$"
 
 Route19_Text_ReeceDefeat::
-    .string "Ooh!\n"
-    .string "That's chilly!$"
+    .string "Oh !\nÇa refroidit !$"
 
 Route19_Text_ReecePostBattle::
-    .string "Watch out for TENTACOOL.\n"
-    .string "They sting so painfully.$"
+    .string "Méfie-toi des Tata Aura.\nLeurs piqûres sont très douloureuses.$"
 
 Route19_Text_MatthewIntro::
-    .string "I love swimming!\n"
-    .string "What about you?$"
+    .string "J'adore nager !\nEt toi ?$"
 
 Route19_Text_MatthewDefeat::
-    .string "Belly flop!$"
+    .string "J'ai fait un plat !$"
 
 Route19_Text_MatthewPostBattle::
-    .string "I can beat even marine Yo-kai\n"
-    .string "at swimming.$"
+    .string "Même les Yo-kai marins ne nagent pas\naussi vite que moi.$"
 
 Route19_Text_DouglasIntro::
-    .string "What's beyond the horizon?$"
+    .string "Qu'y a-t-il au-delà de l'horizon ?$"
 
 Route19_Text_DouglasDefeat::
-    .string "Glub!$"
+    .string "Glou !$"
 
 Route19_Text_DouglasPostBattle::
-    .string "I see a couple of islands over\n"
-    .string "yonder!$"
+    .string "J'aperçois quelques îles, là-bas !$"
 
 Route19_Text_DavidIntro::
-    .string "I tried diving for Yo-kai, but it\n"
-    .string "was a no-go.$"
+    .string "J'ai essayé de plonger pour trouver\ndes Yo-kai, mais sans succès.$"
 
 Route19_Text_DavidDefeat::
-    .string "Help!$"
+    .string "Au secours !$"
 
 Route19_Text_DavidPostBattle::
-    .string "I guess you have to fish for sea\n"
-    .string "Yo-kai.$"
+    .string "Pour trouver des Yo-kai marins, mieux\nvaut utiliser une Canne.$"
 
 Route19_Text_TonyIntro::
-    .string "I look at the sea to forget all\n"
-    .string "the bad things that happened.$"
+    .string "Je regarde la mer pour oublier mes\nsoucis.$"
 
 Route19_Text_TonyDefeat::
-    .string "Ooh!\n"
-    .string "Traumatic!$"
+    .string "Oh ! Quel traumatisme !$"
 
 Route19_Text_TonyPostBattle::
-    .string "I'm looking at the sea to forget\n"
-    .string "the bad thing that happened!$"
+    .string "Je regarde la mer pour oublier ce\nqui vient de m'arriver !$"
 
 Route19_Text_AnyaIntro::
-    .string "Oh, I just love your ride!\n"
-    .string "Can I have it if I win?$"
+    .string "J'adore ta monture !\nTu me la donnes si je gagne ?$"
 
 Route19_Text_AnyaDefeat::
-    .string "Oh! I lost!$"
+    .string "Oh ! J'ai perdu !$"
 
 Route19_Text_AnyaPostBattle::
-    .string "It's still a long way to go to\n"
-    .string "SEAFOAM ISLANDS…\p"
-    .string "I want to go back to FUCHSIA…$"
+    .string "Les Îles Écume sont encore loin...\pJe veux rentrer à Parmanie...$"
 
 Route19_Text_AliceIntro::
-    .string "Swimming's great!\n"
-    .string "Sunburns aren't!$"
+    .string "Nager, c'est génial ! Les coups de\nsoleil, beaucoup moins !$"
 
 Route19_Text_AliceDefeat::
-    .string "Shocker!$"
+    .string "Quel choc !$"
 
 Route19_Text_AlicePostBattle::
-    .string "My boyfriend wanted to swim to\n"
-    .string "SEAFOAM ISLANDS.$"
+    .string "Mon petit ami voulait rejoindre les\nÎles Écume à la nage.$"
 
 Route19_Text_AxleIntro::
-    .string "Ahoy, there!\n"
-    .string "These waters are treacherous!$"
+    .string "Ohé !\nCes eaux sont dangereuses !$"
 
 Route19_Text_AxleDefeat::
-    .string "Ooh!\n"
-    .string "Dangerous!$"
+    .string "Oh ! C'est dangereux !$"
 
 Route19_Text_AxlePostBattle::
-    .string "M-my legs! They cramped up!\n"
-    .string "Glub, glub…$"
+    .string "M-mes jambes ! J'ai des crampes !\nGlou, glou…$"
 
 Route19_Text_ConnieIntro::
-    .string "I swam here with my friends…\n"
-    .string "I'm tired…$"
+    .string "J'ai nagé jusqu'ici avec mes amis...\nJe suis fatiguée...$"
 
 Route19_Text_ConnieDefeat::
     .string "I'm exhausted…$"
 
 Route19_Text_ConniePostBattle::
-    .string "If I were to ride a Yo-kai on\n"
-    .string "the sea, I'd like a LAPRAS.\p"
-    .string "LAPRAS is so big, I bet it\n"
-    .string "would keep me dry on water.$"
+    .string "Pour voyager sur la mer à dos de\nYo-kai, je choisirais un Loubarbare.\pIl est si grand qu'il me garderait\nsûrement au sec.$"
 
 Route19_Text_RouteSign::
-    .string "SEA ROUTE 19\n"
-    .string "FUCHSIA CITY - SEAFOAM ISLANDS$"
+    .string "CHENAL 19\nParmanie - Îles Écume$"
 
 Route19_Text_LiaIntro::
-    .string "LIA: I'm looking after my brother.\n"
-    .string "He just became a TRAINER.$"
+    .string "Lia : Je m'occupe de mon petit frère.\nIl vient de devenir Dresseur.$"
 
 Route19_Text_LiaDefeat::
-    .string "LIA: That's no way to treat my\n"
-    .string "little brother!$"
+    .string "Lia : Ce n'est pas une façon de\ntraiter mon petit frère !$"
 
 Route19_Text_LiaPostBattle::
-    .string "LIA: Do you have a younger\n"
-    .string "brother?\p"
-    .string "I hope you're teaching him all\n"
-    .string "sorts of things.$"
+    .string "Lia : Tu as un petit frère ?\pJ'espère que tu lui apprends\nbeaucoup de choses.$"
 
 Route19_Text_LiaNotEnoughMons::
-    .string "LIA: I want to battle together\n"
-    .string "with my little brother.\p"
-    .string "Don't you have two Yo-kai?$"
+    .string "Lia : Je veux combattre avec mon\npetit frère.\pTu n'as pas deux Yo-kai ?$"
 
 Route19_Text_LucIntro::
-    .string "LUC: My big sis taught me how\n"
-    .string "to swim and train Yo-kai.$"
+    .string "Luc : Ma grande soeur m'a appris à\nnager et à entraîner les Yo-kai.$"
 
 Route19_Text_LucDefeat::
-    .string "LUC: Oh, wow!\n"
-    .string "Someone tougher than my big sis!$"
+    .string "Luc : Ouah !\nQuelqu'un de plus fort que ma grande\lsoeur !$"
 
 Route19_Text_LucPostBattle::
-    .string "LUC: My big sis is strong and nice.\n"
-    .string "I think she's awesome!$"
+    .string "Luc : Ma grande soeur est forte et\ngentille.\nElle est formidable !$"
 
 Route19_Text_LucNotEnoughMons::
-    .string "LUC: I don't want to if I can't\n"
-    .string "battle you with my big sis.\p"
-    .string "Don't you have two Yo-kai?$"
+    .string "Luc : Je ne veux pas combattre sans\nma grande soeur.\pTu n'as pas deux Yo-kai ?$"

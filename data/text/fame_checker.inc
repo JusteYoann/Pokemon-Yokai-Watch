@@ -62,16 +62,16 @@ gFameCheckerFlavorText_Daisy3:: @ 0x81AD5A7
 
 gFameCheckerFlavorText_Daisy4:: @ 0x81AD608
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}What is this person like?\p"
-	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}A girl from PALLET TOWN, DAISY,\n"
+	.string "{FONT_FEMALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}A girl from BOURG PALETTE, DAISY,\n"
 	.string "she enjoys TEA every day.\p"
-	.string "She visits the CELADON DEPT. STORE\n"
+	.string "She visits the CÉLADOPOLE DEPT. STORE\n"
 	.string "to buy some TEA.$"
 
 gFameCheckerFlavorText_Daisy5:: @ 0x81AD69F
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}There's a rumor…\p"
 	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}The Spring Yo-kai CONTEST's\n"
 	.string "Grand Champion is DAISY OAK of\l"
-	.string "PALLET TOWN!$"
+	.string "BOURG PALETTE!$"
 
 gFameCheckerFlavorText_Brock0:: @ 0x81AD705
     .string "Wyatt est le Champion\nde l’Arène d’Argenta.$"
@@ -366,7 +366,7 @@ gFameCheckerFlavorText_MrFuji5:: @ 0x81AFDC4
 	.string "{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Editor: The shy MR. FUJI turned\n"
 	.string "down our interview requests.\p"
 	.string "He is a kindly man who is adored\n"
-	.string "and respected in LAVENDER TOWN.$"
+	.string "and respected in LAVANVILLE.$"
 
 gFameCheckerFlavorText_Giovanni0:: @ 0x81AFE68
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Son activité?\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Je suis Don Morléone. La Mafiamille\nsait tirer profit du talent des\lYo-kai.$"
@@ -516,166 +516,166 @@ gFameCheckerPersonQuote_Giovanni:: @ 0x81B0BB5
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}De: Don Morléone\nPour: {PLAYER}\p{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}Notre dernière affaire est réglée. Je\nvais me consacrer à mon entraînement.$"
 
 gFameCheckerFlavorTextOriginLocation_ProfOak0:: @ 0x81B0C45
-	.string "PALLET TOWN$"
+	.string "BOURG PALETTE$"
 
 gFameCheckerFlavorTextOriginLocation_ProfOak1::
-	.string "RESEARCH LAB$"
+    .string "LABORATOIRE$"
 
 gFameCheckerFlavorTextOriginLocation_ProfOak2::
-	.string "RESEARCH LAB$"
+    .string "LABORATOIRE$"
 
 gFameCheckerFlavorTextOriginLocation_ProfOak3::
-	.string "VIRIDIAN CITY$"
+    .string "JADIELLE$"
 
 gFameCheckerFlavorTextOriginLocation_ProfOak4::
 	.string "Ligue Yo-kai$"
 
 gFameCheckerFlavorTextOriginLocation_ProfOak5::
-	.string "RESEARCH LAB$"
+    .string "LABORATOIRE$"
 
 gFameCheckerFlavorTextOriginLocation_Daisy0::
-	.string "RESEARCH LAB$"
+    .string "LABORATOIRE$"
 
 gFameCheckerFlavorTextOriginLocation_Daisy1::
-	.string "VERMILION CITY$"
+    .string "CARMIN SUR MER$"
 
 gFameCheckerFlavorTextOriginLocation_Daisy2::
-	.string "WATER LABYRINTH$"
+    .string "LABYRINTHE D’EAU$"
 
 gFameCheckerFlavorTextOriginLocation_Daisy3::
-	.string "VIRIDIAN CITY$"
+    .string "JADIELLE$"
 
 gFameCheckerFlavorTextOriginLocation_Daisy4::
-	.string "CELADON MANSION$"
+    .string "MANOIR CÉLADOPOLE$"
 
 gFameCheckerFlavorTextOriginLocation_Daisy5::
-	.string "FOUR ISLAND$"
+    .string "ÎLE 4$"
 
 gFameCheckerFlavorTextOriginLocation_Brock0::
-	.string "PEWTER CITY$"
+    .string "ARGENTA$"
 
 gFameCheckerFlavorTextOriginLocation_Brock1::
-	.string "PEWTER GYM$"
+    .string "ARÈNE D’ARGENTA$"
 
 gFameCheckerFlavorTextOriginLocation_Brock2::
-	.string "PEWTER CITY$"
+    .string "ARGENTA$"
 
 gFameCheckerFlavorTextOriginLocation_Brock3::
 	.string "ROUTE 4$"
 
 gFameCheckerFlavorTextOriginLocation_Brock4::
-	.string "MT. MOON$"
+    .string "MONT SÉLÉNITE$"
 
 gFameCheckerFlavorTextOriginLocation_Brock5::
-	.string "PEWTER MUSEUM$"
+    .string "MUSÉE D’ARGENTA$"
 
 gFameCheckerFlavorTextOriginLocation_Misty0::
-	.string "CERULEAN CITY$"
+    .string "AZURIA$"
 
 gFameCheckerFlavorTextOriginLocation_Misty1::
-	.string "CERULEAN GYM$"
+    .string "ARÈNE D’AZURIA$"
 
 gFameCheckerFlavorTextOriginLocation_Misty2::
-	.string "CERULEAN GYM$"
+    .string "ARÈNE D’AZURIA$"
 
 gFameCheckerFlavorTextOriginLocation_Misty3::
-	.string "SEAFOAM ISLANDS$"
+    .string "ÎLES ÉCUME$"
 
 gFameCheckerFlavorTextOriginLocation_Misty4::
-	.string "CERULEAN CAPE$"
+    .string "CAP D’AZURIA$"
 
 gFameCheckerFlavorTextOriginLocation_Misty5::
-	.string "CERULEAN CITY$"
+    .string "AZURIA$"
 
 gFameCheckerFlavorTextOriginLocation_LtSurge0::
-	.string "VERMILION CITY$"
+    .string "CARMIN SUR MER$"
 
 gFameCheckerFlavorTextOriginLocation_LtSurge1::
-	.string "VERMILION GYM$"
+    .string "ARÈNE DE CARMIN$"
 
 gFameCheckerFlavorTextOriginLocation_LtSurge2::
-	.string "VERMILION GYM$"
+    .string "ARÈNE DE CARMIN$"
 
 gFameCheckerFlavorTextOriginLocation_LtSurge3::
-	.string "VERMILION GYM$"
+    .string "ARÈNE DE CARMIN$"
 
 gFameCheckerFlavorTextOriginLocation_LtSurge4::
-	.string "VERMILION GYM$"
+    .string "ARÈNE DE CARMIN$"
 
 gFameCheckerFlavorTextOriginLocation_LtSurge5::
-	.string "VERMILION CITY$"
+    .string "CARMIN SUR MER$"
 
 gFameCheckerFlavorTextOriginLocation_Erika0::
-	.string "CELADON CITY$"
+    .string "CÉLADOPOLE$"
 
 gFameCheckerFlavorTextOriginLocation_Erika1::
-	.string "CELADON GYM$"
+    .string "ARÈNE CÉLADOPOLE$"
 
 gFameCheckerFlavorTextOriginLocation_Erika2::
-	.string "CELADON GYM$"
+    .string "ARÈNE CÉLADOPOLE$"
 
 gFameCheckerFlavorTextOriginLocation_Erika3::
-	.string "CELADON GYM$"
+    .string "ARÈNE CÉLADOPOLE$"
 
 gFameCheckerFlavorTextOriginLocation_Erika4::
-	.string "CELADON GYM$"
+    .string "ARÈNE CÉLADOPOLE$"
 
 gFameCheckerFlavorTextOriginLocation_Erika5::
-	.string "CELADON MANSION$"
+    .string "MANOIR CÉLADOPOLE$"
 
 gFameCheckerFlavorTextOriginLocation_Koga0::
-	.string "FUCHSIA CITY$"
+    .string "PARMANIE$"
 
 gFameCheckerFlavorTextOriginLocation_Koga1::
-	.string "FUCHSIA GYM$"
+    .string "ARÈNE PARMANIE$"
 
 gFameCheckerFlavorTextOriginLocation_Koga2::
-	.string "FUCHSIA GYM$"
+    .string "ARÈNE PARMANIE$"
 
 gFameCheckerFlavorTextOriginLocation_Koga3::
-	.string "FUCHSIA CITY$"
+    .string "PARMANIE$"
 
 gFameCheckerFlavorTextOriginLocation_Koga4::
-	.string "FUCHSIA CITY$"
+    .string "PARMANIE$"
 
 gFameCheckerFlavorTextOriginLocation_Koga5::
-	.string "SAFARI ZONE$"
+    .string "PARC SAFARI$"
 
 gFameCheckerFlavorTextOriginLocation_Sabrina0::
-	.string "SAFFRON CITY$"
+    .string "SAFRANIA$"
 
 gFameCheckerFlavorTextOriginLocation_Sabrina1::
-	.string "THREE ISLAND$"
+    .string "ÎLE 3$"
 
 gFameCheckerFlavorTextOriginLocation_Sabrina2::
-	.string "SAFFRON GYM$"
+    .string "ARÈNE SAFRANIA$"
 
 gFameCheckerFlavorTextOriginLocation_Sabrina3::
-	.string "SAFFRON GYM$"
+    .string "ARÈNE SAFRANIA$"
 
 gFameCheckerFlavorTextOriginLocation_Sabrina4::
-	.string "SAFFRON CITY$"
+    .string "SAFRANIA$"
 
 gFameCheckerFlavorTextOriginLocation_Sabrina5::
-	.string "SAFFRON GYM$"
+    .string "ARÈNE SAFRANIA$"
 
 gFameCheckerFlavorTextOriginLocation_Blaine0::
-	.string "CINNABAR ISLAND$"
+    .string "CRAMOIS’ÎLE$"
 
 gFameCheckerFlavorTextOriginLocation_Blaine1::
-	.string "CINNABAR GYM$"
+    .string "ARÈNE CRAMOIS$"
 
 gFameCheckerFlavorTextOriginLocation_Blaine2::
-	.string "CINNABAR GYM$"
+    .string "ARÈNE CRAMOIS$"
 
 gFameCheckerFlavorTextOriginLocation_Blaine3::
-	.string "CINNABAR ISLAND$"
+    .string "CRAMOIS’ÎLE$"
 
 gFameCheckerFlavorTextOriginLocation_Blaine4::
-	.string "CINNABAR GYM$"
+    .string "ARÈNE CRAMOIS$"
 
 gFameCheckerFlavorTextOriginLocation_Blaine5::
-	.string "RESORT GORGEOUS$"
+    .string "CAMP DE VACANCES$"
 
 gFameCheckerFlavorTextOriginLocation_Lorelei0::
 	.string "Ligue Yo-kai$"
@@ -684,16 +684,16 @@ gFameCheckerFlavorTextOriginLocation_Lorelei1::
 	.string "Ligue Yo-kai$"
 
 gFameCheckerFlavorTextOriginLocation_Lorelei2::
-	.string "FOUR ISLAND$"
+    .string "ÎLE 4$"
 
 gFameCheckerFlavorTextOriginLocation_Lorelei3::
-	.string "FIVE ISLAND$"
+    .string "ÎLE 5$"
 
 gFameCheckerFlavorTextOriginLocation_Lorelei4::
-	.string "FOUR ISLAND$"
+    .string "ÎLE 4$"
 
 gFameCheckerFlavorTextOriginLocation_Lorelei5::
-	.string "FOUR ISLAND$"
+    .string "ÎLE 4$"
 
 gFameCheckerFlavorTextOriginLocation_Bruno0::
 	.string "Ligue Yo-kai$"
@@ -702,34 +702,34 @@ gFameCheckerFlavorTextOriginLocation_Bruno1::
 	.string "Ligue Yo-kai$"
 
 gFameCheckerFlavorTextOriginLocation_Bruno2::
-	.string "SAFFRON CITY$"
+    .string "SAFRANIA$"
 
 gFameCheckerFlavorTextOriginLocation_Bruno3::
-	.string "EMBER SPA$"
+    .string "SOURCE BRAISE$"
 
 gFameCheckerFlavorTextOriginLocation_Bruno4::
-	.string "TWO ISLAND$"
+    .string "ÎLE 2$"
 
 gFameCheckerFlavorTextOriginLocation_Bruno5::
-	.string "SEVAULT CANYON$"
+    .string "CANYON SÉVAULT$"
 
 gFameCheckerFlavorTextOriginLocation_Agatha0::
 	.string "Ligue Yo-kai$"
 
 gFameCheckerFlavorTextOriginLocation_Agatha1::
-	.string "INDIGO PLATEAU$"
+    .string "PLATEAU INDIGO$"
 
 gFameCheckerFlavorTextOriginLocation_Agatha2::
-	.string "INDIGO PLATEAU$"
+    .string "PLATEAU INDIGO$"
 
 gFameCheckerFlavorTextOriginLocation_Agatha3::
-	.string "SEVEN ISLAND$"
+    .string "ÎLE 7$"
 
 gFameCheckerFlavorTextOriginLocation_Agatha4::
 	.string "Ligue Yo-kai$"
 
 gFameCheckerFlavorTextOriginLocation_Agatha5::
-	.string "SIX ISLAND$"
+    .string "ÎLE 6$"
 
 gFameCheckerFlavorTextOriginLocation_Lance0::
 	.string "Ligue Yo-kai$"
@@ -738,52 +738,52 @@ gFameCheckerFlavorTextOriginLocation_Lance1::
 	.string "Ligue Yo-kai$"
 
 gFameCheckerFlavorTextOriginLocation_Lance2::
-	.string "SAFFRON CITY$"
+    .string "SAFRANIA$"
 
 gFameCheckerFlavorTextOriginLocation_Lance3::
-	.string "CELADON DEPT.$"
+    .string "CENTRE COMM.$"
 
 gFameCheckerFlavorTextOriginLocation_Lance4::
-	.string "INDIGO PLATEAU$"
+    .string "PLATEAU INDIGO$"
 
 gFameCheckerFlavorTextOriginLocation_Lance5::
-	.string "INDIGO PLATEAU$"
+    .string "PLATEAU INDIGO$"
 
 gFameCheckerFlavorTextOriginLocation_Bill0::
-	.string "CERULEAN CITY$"
+    .string "AZURIA$"
 
 gFameCheckerFlavorTextOriginLocation_Bill1::
-	.string "CERULEAN CITY$"
+    .string "AZURIA$"
 
 gFameCheckerFlavorTextOriginLocation_Bill2::
-	.string "FUCHSIA CITY$"
+    .string "PARMANIE$"
 
 gFameCheckerFlavorTextOriginLocation_Bill3::
-	.string "ONE ISLAND$"
+    .string "ÎLE 1$"
 
 gFameCheckerFlavorTextOriginLocation_Bill4::
-	.string "ONE ISLAND$"
+    .string "ÎLE 1$"
 
 gFameCheckerFlavorTextOriginLocation_Bill5::
-	.string "ONE ISLAND$"
+    .string "ÎLE 1$"
 
 gFameCheckerFlavorTextOriginLocation_MrFuji0::
-	.string "LAVENDER TOWN$"
+    .string "LAVANVILLE$"
 
 gFameCheckerFlavorTextOriginLocation_MrFuji1::
-	.string "Yo-kai TOWER$"
+    .string "TOUR YO-KAI$"
 
 gFameCheckerFlavorTextOriginLocation_MrFuji2::
-	.string "LAVENDER TOWN$"
+    .string "LAVANVILLE$"
 
 gFameCheckerFlavorTextOriginLocation_MrFuji3::
-	.string "LAVENDER TOWN$"
+    .string "LAVANVILLE$"
 
 gFameCheckerFlavorTextOriginLocation_MrFuji4::
-	.string "CINNABAR GYM$"
+    .string "ARÈNE CRAMOIS$"
 
 gFameCheckerFlavorTextOriginLocation_MrFuji5::
-	.string "CINNABAR ISLAND$"
+    .string "CRAMOIS’ÎLE$"
 
 gFameCheckerFlavorTextOriginLocation_Giovanni0::
 	.string "REPAIRE$"
@@ -804,61 +804,61 @@ gFameCheckerFlavorTextOriginLocation_Giovanni5::
 	.string "ENTREPÔT$"
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak0::
-	.string "SIGN$"
+    .string "PANNEAU$"
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak1::
-	.string "PROF. OAK$"
+    .string "PROF. CHEN$"
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak2::
-	.string "AIDE$"
+    .string "ASSISTANT$"
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak3::
-	.string "Yo-kai JOURNAL$"
+    .string "JOURNAL YO-KAI$"
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak4::
 	.string "AGATHA$"
 
 gFameCheckerFlavorTextOriginObjectName_ProfOak5::
-	.string "AIDE$"
+    .string "ASSISTANT$"
 
 gFameCheckerFlavorTextOriginObjectName_Daisy0::
-	.string "AIDE$"
+    .string "ASSISTANT$"
 
 gFameCheckerFlavorTextOriginObjectName_Daisy1::
-	.string "WOMAN$"
+    .string "FEMME$"
 
 gFameCheckerFlavorTextOriginObjectName_Daisy2::
-	.string "MAN$"
+    .string "HOMME$"
 
 gFameCheckerFlavorTextOriginObjectName_Daisy3::
-	.string "Yo-kai JOURNAL$"
+    .string "JOURNAL YO-KAI$"
 
 gFameCheckerFlavorTextOriginObjectName_Daisy4::
-	.string "OLD LADY$"
+    .string "VIEILLE DAME$"
 
 gFameCheckerFlavorTextOriginObjectName_Daisy5::
-	.string "Yo-kai JOURNAL$"
+    .string "JOURNAL YO-KAI$"
 
 gFameCheckerFlavorTextOriginObjectName_Brock0::
-	.string "SIGN$"
+    .string "PANNEAU$"
 
 gFameCheckerFlavorTextOriginObjectName_Brock1::
 	.string "WYATT$"
 
 gFameCheckerFlavorTextOriginObjectName_Brock2::
-	.string "YOUNG MAN$"
+    .string "JEUNE HOMME$"
 
 gFameCheckerFlavorTextOriginObjectName_Brock3::
-	.string "BOY$"
+    .string "GARÇON$"
 
 gFameCheckerFlavorTextOriginObjectName_Brock4::
-	.string "MAN$"
+    .string "HOMME$"
 
 gFameCheckerFlavorTextOriginObjectName_Brock5::
-	.string "Yo-kai JOURNAL$"
+    .string "JOURNAL YO-KAI$"
 
 gFameCheckerFlavorTextOriginObjectName_Misty0::
-	.string "SIGN$"
+    .string "PANNEAU$"
 
 gFameCheckerFlavorTextOriginObjectName_Misty1::
 	.string "{CHAMPION_AZURIA}$"
@@ -867,16 +867,16 @@ gFameCheckerFlavorTextOriginObjectName_Misty2::
 	.string "LUIS$"
 
 gFameCheckerFlavorTextOriginObjectName_Misty3::
-	.string "YOUNG MAN$"
+    .string "JEUNE HOMME$"
 
 gFameCheckerFlavorTextOriginObjectName_Misty4::
 	.string "DAME$"
 
 gFameCheckerFlavorTextOriginObjectName_Misty5::
-	.string "Yo-kai JOURNAL$"
+    .string "JOURNAL YO-KAI$"
 
 gFameCheckerFlavorTextOriginObjectName_LtSurge0::
-	.string "SIGN$"
+    .string "PANNEAU$"
 
 gFameCheckerFlavorTextOriginObjectName_LtSurge1::
 	.string "ARIANE$"
@@ -891,10 +891,10 @@ gFameCheckerFlavorTextOriginObjectName_LtSurge4::
 	.string "DWAYNE$"
 
 gFameCheckerFlavorTextOriginObjectName_LtSurge5::
-	.string "Yo-kai JOURNAL$"
+    .string "JOURNAL YO-KAI$"
 
 gFameCheckerFlavorTextOriginObjectName_Erika0::
-	.string "SIGN$"
+    .string "PANNEAU$"
 
 gFameCheckerFlavorTextOriginObjectName_Erika1::
 	.string "ERIKA$"
@@ -909,10 +909,10 @@ gFameCheckerFlavorTextOriginObjectName_Erika4::
 	.string "ERIKA$"
 
 gFameCheckerFlavorTextOriginObjectName_Erika5::
-	.string "Yo-kai JOURNAL$"
+    .string "JOURNAL YO-KAI$"
 
 gFameCheckerFlavorTextOriginObjectName_Koga0::
-	.string "SIGN$"
+    .string "PANNEAU$"
 
 gFameCheckerFlavorTextOriginObjectName_Koga1::
 	.string "KOGA$"
@@ -924,16 +924,16 @@ gFameCheckerFlavorTextOriginObjectName_Koga3::
 	.string "CHARINE$"
 
 gFameCheckerFlavorTextOriginObjectName_Koga4::
-	.string "Yo-kai JOURNAL$"
+    .string "JOURNAL YO-KAI$"
 
 gFameCheckerFlavorTextOriginObjectName_Koga5::
-	.string "MAN$"
+    .string "HOMME$"
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina0::
-	.string "SIGN$"
+    .string "PANNEAU$"
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina1::
-	.string "YOUNG MAN$"
+    .string "JEUNE HOMME$"
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina2::
 	.string "BÉRÉNICE$"
@@ -942,13 +942,13 @@ gFameCheckerFlavorTextOriginObjectName_Sabrina3::
 	.string "BÉRÉNICE$"
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina4::
-	.string "Yo-kai JOURNAL$"
+    .string "JOURNAL YO-KAI$"
 
 gFameCheckerFlavorTextOriginObjectName_Sabrina5::
 	.string "TYRON$"
 
 gFameCheckerFlavorTextOriginObjectName_Blaine0::
-	.string "SIGN$"
+    .string "PANNEAU$"
 
 gFameCheckerFlavorTextOriginObjectName_Blaine1::
 	.string "{CHAMPION_CRAMOIS}$"
@@ -957,106 +957,106 @@ gFameCheckerFlavorTextOriginObjectName_Blaine2::
 	.string "DEREK$"
 
 gFameCheckerFlavorTextOriginObjectName_Blaine3::
-	.string "WOMAN$"
+    .string "FEMME$"
 
 gFameCheckerFlavorTextOriginObjectName_Blaine4::
 	.string "PHOTO$"
 
 gFameCheckerFlavorTextOriginObjectName_Blaine5::
-	.string "Yo-kai JOURNAL$"
+    .string "JOURNAL YO-KAI$"
 
 gFameCheckerFlavorTextOriginObjectName_Lorelei0::
-	.string "LORELEI$"
+    .string "OLGA$"
 
 gFameCheckerFlavorTextOriginObjectName_Lorelei1::
-	.string "LORELEI$"
+    .string "OLGA$"
 
 gFameCheckerFlavorTextOriginObjectName_Lorelei2::
-	.string "OLD MAN$"
+    .string "VIEIL HOMME$"
 
 gFameCheckerFlavorTextOriginObjectName_Lorelei3::
-	.string "Yo-kai JOURNAL$"
+    .string "JOURNAL YO-KAI$"
 
 gFameCheckerFlavorTextOriginObjectName_Lorelei4::
-	.string "LITTLE GIRL$"
+    .string "FILLETTE$"
 
 gFameCheckerFlavorTextOriginObjectName_Lorelei5::
-	.string "OLD LADY$"
+    .string "VIEILLE DAME$"
 
 gFameCheckerFlavorTextOriginObjectName_Bruno0::
-	.string "BRUNO$"
+    .string "ALDO$"
 
 gFameCheckerFlavorTextOriginObjectName_Bruno1::
-	.string "BRUNO$"
+    .string "ALDO$"
 
 gFameCheckerFlavorTextOriginObjectName_Bruno2::
-	.string "Yo-kai JOURNAL$"
+    .string "JOURNAL YO-KAI$"
 
 gFameCheckerFlavorTextOriginObjectName_Bruno3::
-	.string "CRUSHER$"
+    .string "KARATÉKA$"
 
 gFameCheckerFlavorTextOriginObjectName_Bruno4::
-	.string "WOMAN$"
+    .string "FEMME$"
 
 gFameCheckerFlavorTextOriginObjectName_Bruno5::
-	.string "CRUSHER$"
+    .string "KARATÉKA$"
 
 gFameCheckerFlavorTextOriginObjectName_Agatha0::
 	.string "AGATHA$"
 
 gFameCheckerFlavorTextOriginObjectName_Agatha1::
-	.string "CRUSHER$"
+    .string "KARATÉKA$"
 
 gFameCheckerFlavorTextOriginObjectName_Agatha2::
-	.string "CRUSHER$"
+    .string "KARATÉKA$"
 
 gFameCheckerFlavorTextOriginObjectName_Agatha3::
-	.string "Yo-kai JOURNAL$"
+    .string "JOURNAL YO-KAI$"
 
 gFameCheckerFlavorTextOriginObjectName_Agatha4::
 	.string "AGATHA$"
 
 gFameCheckerFlavorTextOriginObjectName_Agatha5::
-	.string "OLD LADY$"
+    .string "VIEILLE DAME$"
 
 gFameCheckerFlavorTextOriginObjectName_Lance0::
-	.string "LANCE$"
+    .string "PETER$"
 
 gFameCheckerFlavorTextOriginObjectName_Lance1::
-	.string "LANCE$"
+    .string "PETER$"
 
 gFameCheckerFlavorTextOriginObjectName_Lance2::
-	.string "WOMAN$"
+    .string "FEMME$"
 
 gFameCheckerFlavorTextOriginObjectName_Lance3::
-	.string "LITTLE GIRL$"
+    .string "FILLETTE$"
 
 gFameCheckerFlavorTextOriginObjectName_Lance4::
-	.string "Yo-kai JOURNAL$"
+    .string "JOURNAL YO-KAI$"
 
 gFameCheckerFlavorTextOriginObjectName_Lance5::
-	.string "YOUNG MAN$"
+    .string "JEUNE HOMME$"
 
 gFameCheckerFlavorTextOriginObjectName_Bill0::
 	.string "{RIVAL}$"
 
 gFameCheckerFlavorTextOriginObjectName_Bill1::
-	.string "LITTLE BOY$"
+    .string "PETIT GARÇON$"
 
 gFameCheckerFlavorTextOriginObjectName_Bill2::
-	.string "OLD MAN$"
+    .string "VIEIL HOMME$"
 
 gFameCheckerFlavorTextOriginObjectName_Bill3::
-	.string "CELIO$"
+    .string "CILÉO$"
 
 gFameCheckerFlavorTextOriginObjectName_Bill4::
-	.string "CELIO$"
+    .string "CILÉO$"
 
 gFameCheckerFlavorTextOriginObjectName_Bill5::
-	.string "CELIO$"
+    .string "CILÉO$"
 
 gFameCheckerFlavorTextOriginObjectName_MrFuji0::
-	.string "LITTLE GIRL$"
+    .string "FILLETTE$"
 
 gFameCheckerFlavorTextOriginObjectName_MrFuji1::
 	.string "MAFIAMILLE$"
@@ -1065,13 +1065,13 @@ gFameCheckerFlavorTextOriginObjectName_MrFuji2::
 	.string "MAGAZINE$"
 
 gFameCheckerFlavorTextOriginObjectName_MrFuji3::
-	.string "MAN$"
+    .string "HOMME$"
 
 gFameCheckerFlavorTextOriginObjectName_MrFuji4::
 	.string "PHOTO$"
 
 gFameCheckerFlavorTextOriginObjectName_MrFuji5::
-	.string "Yo-kai JOURNAL$"
+    .string "JOURNAL YO-KAI$"
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni0::
 	.string "Don Morléone$"
@@ -1092,114 +1092,43 @@ gFameCheckerFlavorTextOriginObjectName_Giovanni5::
 	.string "GIDEON$"
 
 PokemonJournal_Text_SpecialFeatureBrock::
-	.string "Yo-kai JOURNAL\p"
-	.string "Special Feature: PEWTER GYM\n"
-	.string "LEADER WYATT!\p"
-	.string "WYATT rarely laughs, but is said to\n"
-	.string "be unable to stop if he starts.$"
+    .string "LE JOURNAL DES YO-KAI\pDossier spécial : Wyatt, Champion\nd'Argenta !\pWyatt rit rarement, mais il paraît\nque lorsqu'il commence, il ne peut\lplus s'arrêter.$"
 
 PokemonJournal_Text_SpecialFeatureMisty::
-	.string "Yo-kai JOURNAL\p"
-	.string "Special Feature: CERULEAN GYM\n"
-	.string "LEADER {CHAMPION_AZURIA}!\p"
-	.string "{CHAMPION_AZURIA} is said to worship LORELEI\n"
-	.string "of the ELITE FOUR.$"
+    .string "LE JOURNAL DES YO-KAI\pDossier spécial : {CHAMPION_AZURIA}, Champion d'Azuria\n!\pOn dit que {CHAMPION_AZURIA} admire énormément Olga.$"
 
 PokemonJournal_Text_SpecialFeatureLtSurge::
-	.string "Yo-kai JOURNAL\p"
-	.string "Special Feature: VERMILION GYM\n"
-	.string "LEADER ARIANE!\p"
-	.string "ARIANE is rumored to have been\n"
-	.string "a pilot while home in America.\p"
-	.string "He used the electricity generated\n"
-	.string "by Yo-kai to power his plane.$"
+    .string "LE JOURNAL DES YO-KAI\pDossier spécial : Ariane, Championne\nde Carmin sur Mer !\pAriane utilise des Yo-kai Électrik.\nLeurs décharges rendent ses combats\lspectaculaires.$"
 
 PokemonJournal_Text_SpecialFeatureErika::
-	.string "Yo-kai JOURNAL\p"
-	.string "Special Feature: CELADON GYM\n"
-	.string "LEADER ERIKA!\p"
-	.string "Rumor has it that if you peek into\n"
-	.string "CELADON GYM, you can often\l"
-	.string "see ERIKA snoozing.$"
+    .string "LE JOURNAL DES YO-KAI\pDossier spécial : Erika, Championne\nde Céladopole !\pIl paraît qu'en passant devant\nl'Arène de Céladopole, on peut\lsouvent voir Erika faire la sieste.$"
 
 PokemonJournal_Text_SpecialFeatureKoga::
-	.string "Yo-kai JOURNAL\p"
-	.string "Special Feature: FUCHSIA GYM\n"
-	.string "LEADER KOGA!\p"
-	.string "KOGA is said to have a thorough\n"
-	.string "knowledge of medicine.\p"
-	.string "He even concocts medicine to nurse\n"
-	.string "his Yo-kai to health.$"
+    .string "LE JOURNAL DES YO-KAI\pDossier spécial : Koga, spécialiste\ndes Yo-kai Poison !\pKoga aurait de grandes connaissances\nen médecine.\pIl prépare lui-même des remèdes pour\nsoigner ses Yo-kai.$"
 
 PokemonJournal_Text_SpecialFeatureSabrina::
-	.string "Yo-kai JOURNAL\p"
-	.string "Special Feature: SAFFRON GYM\n"
-	.string "LEADER BÉRÉNICE!\p"
-	.string "People say that BÉRÉNICE can\n"
-	.string "communicate with her Yo-kai\l"
-	.string "during battle without speaking.$"
+    .string "LE JOURNAL DES YO-KAI\pDossier spécial : Bérénice,\nChampionne de Parmanie !\pOn dit que Bérénice peut communiquer\navec ses Yo-kai en combat sans\lprononcer un mot.$"
 
 PokemonJournal_Text_SpecialFeatureBlaine::
-	.string "Yo-kai JOURNAL\p"
-	.string "Special Feature: CINNABAR GYM\n"
-	.string "LEADER {CHAMPION_CRAMOIS}!\p"
-	.string "{CHAMPION_CRAMOIS} is said to remove his dark\n"
-	.string "shades only when he is thinking up\l"
-	.string "new quiz questions.$"
+    .string "LE JOURNAL DES YO-KAI\pDossier spécial : {CHAMPION_CRAMOIS}, Champion de\nCramois'Île !\pLes questions de l'Arène de {CHAMPION_CRAMOIS} mettent\nles connaissances des Dresseurs à\ll'épreuve.$"
 
 PokemonJournal_Text_SpecialFeatureLorelei::
-	.string "Yo-kai JOURNAL\p"
-	.string "Special Feature:\n"
-	.string "ELITE FOUR's LORELEI!\p"
-	.string "Known for her logical, calculated,\n"
-	.string "and cool battling style, LORELEI\l"
-	.string "has a surprising secret!$"
+    .string "LE JOURNAL DES YO-KAI\pArchives du Conseil 4 : Olga !\pConnue pour son style logique,\ncalculé et imperturbable, Olga cache\lpourtant un secret étonnant !$"
 
 PokemonJournal_Text_SpecialFeatureBruno::
-	.string "Yo-kai JOURNAL\p"
-	.string "Special Feature:\n"
-	.string "ELITE FOUR's BRUNO!\p"
-	.string "BRUNO apparently joined the ELITE\n"
-	.string "FOUR out of his burning ambition to\l"
-	.string "battle the best TRAINERS.$"
+    .string "LE JOURNAL DES YO-KAI\pArchives du Conseil 4 : Aldo !\pAldo aurait rejoint le Conseil 4,\npoussé par son désir ardent\ld'affronter les meilleurs Dresseurs.$"
 
 PokemonJournal_Text_SpecialFeatureAgatha::
-	.string "Yo-kai JOURNAL\p"
-	.string "Special Feature:\n"
-	.string "ELITE FOUR's AGATHA!\p"
-	.string "In her youth, AGATHA and PROF.\n"
-	.string "OAK were rivals who vied for\l"
-	.string "supremacy as TRAINERS.$"
+    .string "LE JOURNAL DES YO-KAI\pArchives du Conseil 4 : Agatha !\pDans leur jeunesse, Agatha et le\nProf. Chen rivalisaient pour devenir\lle meilleur Dresseur.$"
 
 PokemonJournal_Text_SpecialFeatureLance::
-	.string "Yo-kai JOURNAL\p"
-	.string "Special Feature:\n"
-	.string "ELITE FOUR's LANCE!\p"
-	.string "LANCE's grandfather is thought to\n"
-	.string "be the elder of a famous clan of\l"
-	.string "dragon masters.$"
+    .string "LE JOURNAL DES YO-KAI\pArchives du Conseil 4 : Peter !\pLe grand-père de Peter serait le\ndoyen d'un célèbre clan de maîtres\ldes dragons.$"
 
 PokemonJournal_Text_SpecialFeatureProfOak::
-	.string "Yo-kai JOURNAL\p"
-	.string "Special Feature: PROF. OAK,\n"
-	.string "the Yo-kai Researcher!\p"
-	.string "PROF. OAK reportedly lives with his\n"
-	.string "grandchildren DAISY and {RIVAL}.$"
+    .string "LE JOURNAL DES YO-KAI\pDossier spécial : le Prof. Chen,\nchercheur en Yo-kai !\pLe Prof. Chen vivrait avec ses\npetits-enfants, Nina et {RIVAL}.$"
 
 PokemonJournal_Text_SpecialFeatureDaisyOak::
-	.string "This is a Yo-kai JOURNAL from\n"
-	.string "years ago…\p"
-	.string "Yo-kai JOURNAL\n"
-	.string "CONTEST Special!\p"
-	.string "The Spring Yo-kai CONTEST's\n"
-	.string "Grand Champion is DAISY OAK of\l"
-	.string "PALLET TOWN!$"
+    .string "C'est un ancien numéro du Journal des\nYo-kai…\pLE JOURNAL DES YO-KAI\nSpécial Concours !\pLa grande gagnante du Concours\nYo-kai du printemps est Nina Chen, de\lBourg Palette !$"
 
 PokemonJournal_Text_SpecialFeatureMrFuji::
-	.string "Yo-kai JOURNAL\p"
-	.string "Special Feature:\n"
-	.string "MR. FUJI of Yo-kai HOUSE!\p"
-	.string "Editor: The shy MR. FUJI turned\n"
-	.string "down our interview requests.\p"
-	.string "He is a kindly man who is adored\n"
-	.string "and respected in LAVENDER TOWN.$"
+    .string "LE JOURNAL DES YO-KAI\pDossier spécial : M. Fuji, de la\nMaison Yo-kai !\pLa rédaction : le timide M. Fuji a\ndécliné nos demandes d'entretien.\pCet homme bienveillant est aimé et\nrespecté dans tout Lavanville.$"

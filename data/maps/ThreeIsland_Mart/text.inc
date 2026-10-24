@@ -1,17 +1,9 @@
 ThreeIsland_Mart_Text_TrueThatCeldadonDeptStoreBigger::
-    .string "Is it true?\p"
-    .string "CELADON DEPT. STORE is several\n"
-    .string "times bigger than this shop?$"
+    .string "C'est vrai ?\pLe Centre Commercial de Céladopole\nest plusieurs fois plus grand que ce\lmagasin ?$"
 
 ThreeIsland_Mart_Text_PeopleHealWithBerriesFromForest::
-    .string "I sometimes buy medicine here.\p"
-    .string "But a lot of people heal Yo-kai\n"
-    .string "with BERRIES from BERRY FOREST.\p"
-    .string "After all, BERRIES are free and\n"
-    .string "they never run out.$"
+    .string "J'achète parfois des remèdes ici.\pMais beaucoup soignent leurs Yo-kai\navec les Baies du Bois aux Baies.\pAprès tout, les Baies sont gratuites\net repoussent sans cesse.$"
 
 ThreeIsland_Mart_Text_BikersWereAboutToTrashMart::
-    .string "Those BIKERS were about to trash\n"
-    .string "this Yo-kai MART.\p"
-    .string "Am I glad they decided to leave!$"
+    .string "Ces Motards allaient saccager cette\nBoutique Yo-kai.\pHeureusement qu'ils ont décidé de\npartir !$"
 

@@ -1,95 +1,72 @@
 RockTunnel_B1F_Text_SofiaIntro::
-    .string "Do you know how you can avoid\n"
-    .string "getting lost in the mountains?\p"
-    .string "You can bend twigs as trail\n"
-    .string "markers.$"
+    .string "Tu sais comment éviter de te perdre\ndans les montagnes ?\pTu peux plier des brindilles pour\nbaliser ton chemin.$"
 
 RockTunnel_B1F_Text_SofiaDefeat::
-    .string "Ohhh!\n"
-    .string "I did my best!$"
+    .string "Oh ! J'ai fait de mon mieux !$"
 
 RockTunnel_B1F_Text_SofiaPostBattle::
-    .string "I want to go home!$"
+    .string "Je veux rentrer chez moi !$"
 
 RockTunnel_B1F_Text_DudleyIntro::
-    .string "Hahaha!\n"
-    .string "Can you beat my power?$"
+    .string "Hahaha !\nPeux-tu rivaliser avec ma puissance ?$"
 
 RockTunnel_B1F_Text_DudleyDefeat::
-    .string "Oops!\n"
-    .string "Outmuscled!$"
+    .string "Oups ! Tu es trop musclé !$"
 
 RockTunnel_B1F_Text_DudleyPostBattle::
-    .string "I go for power because I hate\n"
-    .string "thinking.$"
+    .string "Je mise sur la force parce que je\ndéteste réfléchir.$"
 
 RockTunnel_B1F_Text_CooperIntro::
-    .string "You have a Médallium?\n"
-    .string "I want one, too.$"
+    .string "Tu as un Médallium ?\nJ'en voudrais un aussi.$"
 
 RockTunnel_B1F_Text_CooperDefeat::
-    .string "Shoot!\n"
-    .string "I am so jealous!$"
+    .string "Zut ! Je suis tellement jaloux !$"
 
 RockTunnel_B1F_Text_CooperPostBattle::
-    .string "When you finish your Médallium,\n"
-    .string "can I have it?$"
+    .string "Quand tu auras terminé ton Médallium,\ntu me le donneras ?$"
 
 RockTunnel_B1F_Text_SteveIntro::
-    .string "Um… Do you know about Yo-kai\n"
-    .string "cosplay?$"
+    .string "Euh... Tu connais les déguisements de\nYo-kai ?$"
 
 RockTunnel_B1F_Text_SteveDefeat::
-    .string "Well, that's that.$"
+    .string "Eh bien, voilà.$"
 
 RockTunnel_B1F_Text_StevePostBattle::
-    .string "Yo-kai cosplay is dressing up as\n"
-    .string "Yo-kai for fun.\p"
-    .string "CLEFAIRY is a favorite.$"
+    .string "On se déguise en Yo-kai pour\ns'amuser.\pTauracle est très populaire.$"
 
 RockTunnel_B1F_Text_AllenIntro::
-    .string "My Yo-kai techniques will leave\n"
-    .string "you crying!$"
+    .string "Les techniques de mes Yo-kai vont te\nfaire pleurer !$"
 
 RockTunnel_B1F_Text_AllenDefeat::
-    .string "I give!\n"
-    .string "You're a better technician!$"
+    .string "J'abandonne !\nTu maîtrises mieux les techniques !$"
 
 RockTunnel_B1F_Text_AllenPostBattle::
-    .string "In mountains, you'll often find\n"
-    .string "ROCK-type Yo-kai.$"
+    .string "Dans les montagnes, on trouve souvent\ndes Yo-kai de type Roche.$"
 
 RockTunnel_B1F_Text_MarthaIntro::
-    .string "I don't often come here, but I will\n"
-    .string "battle you.$"
+    .string "Je viens rarement ici, mais je veux\nbien t'affronter.$"
 
 RockTunnel_B1F_Text_MarthaDefeat::
-    .string "Oh!\n"
-    .string "I lost!$"
+    .string "Oh ! J'ai perdu !$"
 
 RockTunnel_B1F_Text_MarthaPostBattle::
-    .string "I like tiny Yo-kai.\n"
-    .string "Big ones are too scary!$"
+    .string "J'aime les petits Yo-kai.\nLes grands me font trop peur !$"
 
 RockTunnel_B1F_Text_EricIntro::
-    .string "Hit me with your best shot!$"
+    .string "Vas-y, donne tout ce que tu as !$"
 
 RockTunnel_B1F_Text_EricDefeat::
-    .string "Fired away!$"
+    .string "Pulvérisé !$"
 
 RockTunnel_B1F_Text_EricPostBattle::
-    .string "I'll raise my Yo-kai to beat\n"
-    .string "yours, kid.$"
+    .string "J'entraînerai mes Yo-kai pour battre\nles tiens, petit.$"
 
 RockTunnel_B1F_Text_WinstonIntro::
-    .string "I draw illustrations of Yo-kai\n"
-    .string "when I'm home.$"
+    .string "Quand je suis chez moi, je dessine\ndes Yo-kai.$"
 
 RockTunnel_B1F_Text_WinstonDefeat::
-    .string "Whew…\n"
-    .string "I'm exhausted…$"
+    .string "Ouf...\nJe suis épuisé...$"
 
 RockTunnel_B1F_Text_WinstonPostBattle::
-    .string "I'm an artist, not a fighter.\n"
-    .string "I'll go home to draw.$"
+    .string "Je suis un artiste, pas un\ncombattant.\nJe vais rentrer dessiner.$"
 

@@ -1,113 +1,93 @@
 Route11_Text_HugoIntro::
-    .string "Win, lose, or draw!$"
+    .string "Victoire, défaite ou égalité !$"
 
 Route11_Text_HugoDefeat::
-    .string "Atcha!\n"
-    .string "Didn't go my way!$"
+    .string "Aïe ! Ça ne s'est pas passé comme\nprévu !$"
 
 Route11_Text_HugoPostBattle::
-    .string "Yo-kai is life!\n"
-    .string "And to live is to play games!$"
+    .string "Les Yo-kai, c'est la vie !\nEt vivre, c'est jouer !$"
 
 Route11_Text_JasperIntro::
-    .string "Competition!\n"
-    .string "I can't get enough!$"
+    .string "La compétition !\nJe ne m'en lasse pas !$"
 
 Route11_Text_JasperDefeat::
-    .string "I had a chance!$"
+    .string "J'avais une chance !$"
 
 Route11_Text_JasperPostBattle::
-    .string "You can't be a coward in the world\n"
-    .string "of Yo-kai!$"
+    .string "Dans le monde des Yo-kai, il ne faut\npas être lâche !$"
 
 Route11_Text_EddieIntro::
-    .string "Let's go, but don't cheat!$"
+    .string "C'est parti, mais ne triche pas !$"
 
 Route11_Text_EddieDefeat::
-    .string "Huh?\n"
-    .string "That's not right!$"
+    .string "Hein ?\nCe n'est pas normal !$"
 
 Route11_Text_EddiePostBattle::
-    .string "I did my best.\n"
-    .string "I have no regrets.$"
+    .string "J'ai fait de mon mieux.\nJe n'ai aucun regret.$"
 
 Route11_Text_BraxtonIntro::
-    .string "Careful!\n"
-    .string "I'm laying down some cables!$"
+    .string "Attention !\nJe pose des câbles !$"
 
 Route11_Text_BraxtonDefeat::
-    .string "That was electric!$"
+    .string "C'était électrisant !$"
 
 Route11_Text_BraxtonPostBattle::
-    .string "Spread the word to save energy!$"
+    .string "Fais passer le message : économisons\nl'énergie !$"
 
 Route11_Text_DillonIntro::
-    .string "I just became a TRAINER.\n"
-    .string "But, I think I can win.$"
+    .string "Je viens de devenir Dresseur.\nMais je crois pouvoir gagner.$"
 
 Route11_Text_DillonDefeat::
-    .string "My Yo-kai couldn't win…\n"
-    .string "Haven't they grown enough?$"
+    .string "Mes Yo-kai n'ont pas pu gagner...\nIls n'ont pas assez grandi ?$"
 
 Route11_Text_DillonPostBattle::
-    .string "What now?\n"
-    .string "Leave me alone!$"
+    .string "Quoi, encore ?\nLaisse-moi tranquille !$"
 
 Route11_Text_DirkIntro::
-    .string "Fwahaha!\n"
-    .string "I have never lost!$"
+    .string "Mouahaha !\nJe n'ai jamais perdu !$"
 
 Route11_Text_DirkDefeat::
-    .string "My first loss!$"
+    .string "Ma première défaite !$"
 
 Route11_Text_DirkPostBattle::
-    .string "You were just lucky, that's all.$"
+    .string "Tu as juste eu de la chance, c'est\ntout.$"
 
 Route11_Text_DarianIntro::
-    .string "I have never won before…$"
+    .string "Je n'ai encore jamais gagné...$"
 
 Route11_Text_DarianDefeat::
-    .string "I saw this coming…$"
+    .string "Je m'y attendais...$"
 
 Route11_Text_DarianPostBattle::
-    .string "I was unlucky, as always.$"
+    .string "J'ai manqué de chance, comme\ntoujours.$"
 
 Route11_Text_YasuIntro::
-    .string "I'm the best in my class.\n"
-    .string "I train every morning.$"
+    .string "Je suis le meilleur de ma classe.\nJe m'entraîne tous les matins.$"
 
 Route11_Text_YasuDefeat::
-    .string "Darn!\n"
-    .string "My Yo-kai need to be stronger!$"
+    .string "Zut ! Mes Yo-kai doivent devenir plus\nforts !$"
 
 Route11_Text_YasuPostBattle::
-    .string "There's a fat Yo-kai that comes\n"
-    .string "down from the mountains.\p"
-    .string "I bet it'd be strong if you can\n"
-    .string "catch it.$"
+    .string "Un gros Yo-kai descend parfois des\nmontagnes.\pSi tu peux le capturer, je parie\nqu'il sera puissant.$"
 
 Route11_Text_BernieIntro::
-    .string "Watch out for live wires!$"
+    .string "Attention aux fils sous tension !$"
 
 Route11_Text_BernieDefeat::
-    .string "Whoa!\n"
-    .string "You spark plug!$"
+    .string "Ouah !\nTu as de l'énergie à revendre !$"
 
 Route11_Text_BerniePostBattle::
-    .string "Well, better get back to work.$"
+    .string "Bon, je ferais mieux de retourner\ntravailler.$"
 
 Route11_Text_DaveIntro::
-    .string "I raised my Yo-kai carefully.\n"
-    .string "They should be ready by now!$"
+    .string "J'ai élevé mes Yo-kai avec soin.\nIls devraient être prêts, maintenant !$"
 
 Route11_Text_DaveDefeat::
-    .string "Bye-bye!\n"
-    .string "Thank you, and good-bye!$"
+    .string "Au revoir !\nMerci et à bientôt !$"
 
 Route11_Text_DavePostBattle::
-    .string "Tch…\n"
-    .string "I better go find stronger ones!$"
+    .string "Pff… Il faut que j'en trouve de plus\nforts !$"
 
 Route11_Text_DiglettsCave::
-    .string "DIGLETT'S CAVE$"
+    .string "CAVE DE BAKUKU$"
 

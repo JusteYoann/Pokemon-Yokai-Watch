@@ -31,10 +31,10 @@ Text_PokecenterSign::
     .string "Pour soigner vos Yo-kai!\nCENTRE YO-KAI$"
 
 Text_Indigo_UltimateGoal::
-    .string "INDIGO PLATEAU\pLe but ultime des Dresseurs!\nSiège de la Ligue Yo-kai$"
+    .string "PLATEAU INDIGO\pLe but ultime des Dresseurs!\nSiège de la Ligue Yo-kai$"
 
 Text_Indigo_HighestAuthority::
-    .string "INDIGO PLATEAU\pLa plus haute autorité Yo-kai!\nSiège de la Ligue Yo-kai$"
+    .string "PLATEAU INDIGO\pLa plus haute autorité Yo-kai!\nSiège de la Ligue Yo-kai$"
 
 Text_Food::
     .string "Il doit y avoir plein de\nbonnes choses à manger.$"

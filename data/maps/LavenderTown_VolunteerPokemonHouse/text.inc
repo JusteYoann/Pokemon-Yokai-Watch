@@ -1,67 +1,42 @@
 LavenderTown_PokemonCenter_1F_Text_HearMrFujiNotFromAroundHere::
-    .string "I recently moved to this town.\p"
-    .string "I hear that MR. FUJI's not from\n"
-    .string "these parts originally, either.$"
+    .string "Je viens de m'installer ici.\pOn m'a dit que M. Fuji n'était pas\noriginaire de cette ville non plus.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_WhereDidMrFujiGo::
-    .string "That's odd, MR. FUJI isn't here.\n"
-    .string "Where'd he go?$"
+    .string "C'est étrange, M. Fuji n'est pas là.\nOù est-il passé ?$"
 
 LavenderTown_VolunteerPokemonHouse_Text_MrFujiWasPrayingForCubonesMother::
-    .string "MR. FUJI had been praying alone\n"
-    .string "for CUBONE's mother.$"
+    .string "M. Fuji priait seul pour la mère de\nCastelius I.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_MrFujiLooksAfterOrphanedMons::
-    .string "This is really MR. FUJI's house.\p"
-    .string "He's really kind.\p"
-    .string "He looks after abandoned and\n"
-    .string "orphaned Yo-kai.$"
+    .string "C'est la maison de M. Fuji.\pIl est vraiment gentil.\pIl s'occupe des Yo-kai abandonnés et\ndes orphelins.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_MonsNiceToHug::
-    .string "It's so warm!\n"
-    .string "Yo-kai are so nice to hug.$"
+    .string "Il est tout chaud !\nC'est si agréable de serrer un Yo-kai\ldans ses bras !$"
 
 LavenderTown_VolunteerPokemonHouse_Text_Nidorino::
-    .string "NIDORINO: Gaoo!$"
+    .string "Misterre : Gaoo !$"
 
 LavenderTown_VolunteerPokemonHouse_Text_Psyduck::
-    .string "PSYDUCK: Gwappa!$"
+    .string "Canastelle : Gwappa !$"
 
 LavenderTown_VolunteerPokemonHouse_Text_IdLikeYouToHaveThis::
-    .string "MR. FUJI: {PLAYER}…\p"
-    .string "Your Médallium quest is one that\n"
-    .string "requires strong dedication.\p"
-    .string "Without deep love for Yo-kai,\n"
-    .string "your quest may fail.\p"
-    .string "I'm not sure if this will help you,\n"
-    .string "but I'd like you to have it.$"
+    .string "M. Fuji : {PLAYER}...\pRemplir ton Médallium exige beaucoup\nde persévérance.\pSans un profond amour des Yo-kai, tu\npourrais te décourager.\pJe ne sais pas si ceci t'aidera, mais\nj'aimerais te l'offrir.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_ReceivedPokeFluteFromMrFuji::
-    .string "{PLAYER} received a POKé FLUTE\n"
-    .string "from MR. FUJI.$"
+    .string "{PLAYER} reçoit une Pokéflûte des\nmains de M. Fuji.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_ExplainPokeFlute::
-    .string "Upon hearing the POKé FLUTE,\n"
-    .string "sleeping Yo-kai will spring awake.\p"
-    .string "Try using it on Yo-kai that are\n"
-    .string "sleeping obstacles.$"
+    .string "Le son de la Pokéflûte réveille les\nYo-kai endormis.\pEssaie de l'utiliser sur les Yo-kai\nqui dorment en bloquant le passage.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_MustMakeRoomForThis::
-    .string "You must make room for this!$"
+    .string "Tu dois faire de la place pour ceci\n!$"
 
 LavenderTown_VolunteerPokemonHouse_Text_HasPokeFluteHelpedYou::
-    .string "MR. FUJI: Has my POKé FLUTE\n"
-    .string "helped you?$"
+    .string "M. FUJI : Ma Poké Flûte\nt’a-t-elle été utile ?$"
 
 LavenderTown_VolunteerPokemonHouse_Text_GrandPrizeDrawingClipped::
-    .string "Yo-kai FAN MAGAZINE\n"
-    .string "Monthly Grand Prize Drawing!\p"
-    .string "The application form is…\p"
-    .string "Gone! It's been clipped out.\n"
-    .string "Someone must have applied already.$"
+    .string "YO-KAI FAN MAGAZINE\nLe grand tirage au sort du mois !\pLe bulletin de participation...\pIl a disparu ! Quelqu'un l'a découpé.\nOn a déjà dû participer.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf::
-    .string "Yo-kai magazines line the shelf.\p"
-    .string "Yo-kai INSIDER…\p"
-    .string "Yo-kai FAN…$"
+    .string "L'étagère est remplie de magazines\nsur les Yo-kai.\pYo-kai Infos...\pYo-kai Fan...$"
 

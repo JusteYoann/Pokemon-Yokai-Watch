@@ -1,40 +1,33 @@
 Route18_Text_WiltonIntro::
-    .string "I always check every grassy area\n"
-    .string "for new Yo-kai.$"
+    .string "J'examine toujours toutes les zones\nherbeuses pour trouver de nouveaux\lYo-kai.$"
 
 Route18_Text_WiltonDefeat::
-    .string "Tch!$"
+    .string "Pff !$"
 
 Route18_Text_WiltonPostBattle::
-    .string "I wish I had a BIKE!$"
+    .string "J'aimerais avoir un Vélo !$"
 
 Route18_Text_RamiroIntro::
-    .string "Kurukkoo!\n"
-    .string "How do you like my birdcall?$"
+    .string "Coucou !\nTu aimes mon cri d'oiseau ?$"
 
 Route18_Text_RamiroDefeat::
-    .string "I had to bug you!$"
+    .string "Il fallait que je t'embête !$"
 
 Route18_Text_RamiroPostBattle::
-    .string "I collect sea Yo-kai on weekends\n"
-    .string "because the sea is so close.$"
+    .string "Le week-end, je collectionne les\nYo-kai marins, car la mer est toute\lproche.$"
 
 Route18_Text_JacobIntro::
-    .string "This is my turf!\n"
-    .string "Get out of here!$"
+    .string "C'est mon territoire !\nDégage !$"
 
 Route18_Text_JacobDefeat::
-    .string "Darn!$"
+    .string "Zut !$"
 
 Route18_Text_JacobPostBattle::
-    .string "This is my fave area for catching\n"
-    .string "Yo-kai.$"
+    .string "C'est mon endroit préféré pour\ncapturer des Yo-kai.$"
 
 Route18_Text_RouteSign::
-    .string "ROUTE 18\n"
-    .string "CELADON CITY - FUCHSIA CITY$"
+    .string "ROUTE 18\nCÉLADOPOLE - PARMANIE$"
 
 Route18_Text_CyclingRoadSign::
-    .string "CYCLING ROAD\n"
-    .string "No pedestrians permitted!$"
+    .string "PISTE CYCLABLE\nPiétons interdits !$"
 

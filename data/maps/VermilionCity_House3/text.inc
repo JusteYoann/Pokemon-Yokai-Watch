@@ -1,5 +1,5 @@
 VermilionCity_House3_Text_PidgeyFlyLetterToSaffron::
-    .string "Mon compagnon va porter\nune Lettre à SAFFRON CITY, au nord.$"
+    .string "Mon compagnon va porter\nune Lettre à SAFRANIA, au nord.$"
 
 VermilionCity_House3_Text_Pidgey::
     .string "YO-KAI: Coucou!$"

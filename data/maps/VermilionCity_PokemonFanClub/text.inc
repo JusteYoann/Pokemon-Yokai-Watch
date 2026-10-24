@@ -26,7 +26,7 @@ VermilionCity_PokemonFanClub_Text_ReceivedBikeVoucherFromChairman::
     .string "Le Président remet\nun Bon Commande à {PLAYER}.$"
 
 VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher::
-    .string "Apporte ce Bon Commande\nau Magasin de Vélos\lde CERULEAN CITY.\pTu l'échangeras gratuitement\ncontre une Bicyclette!\pNe t'inquiète pas pour moi:\nje préfère voyager avec mes Yo-kai.\pJe n'ai donc pas besoin de vélo.\pJ'espère que tu aimeras pédaler!$"
+    .string "Apporte ce Bon Commande\nau Magasin de Vélos\lde AZURIA.\pTu l'échangeras gratuitement\ncontre une Bicyclette!\pNe t'inquiète pas pour moi:\nje préfère voyager avec mes Yo-kai.\pJe n'ai donc pas besoin de vélo.\pJ'espère que tu aimeras pédaler!$"
 
 VermilionCity_PokemonFanClub_Text_ComeBackToHearStory::
     .string "Oh. Reviens quand tu voudras\nentendre mes histoires!$"

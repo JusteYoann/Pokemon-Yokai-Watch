@@ -1,120 +1,95 @@
 Route20_Text_BarryIntro::
-    .string "The water is shallow here.\n"
-    .string "There are many people swimming.$"
+    .string "L'eau est peu profonde, ici.\nBeaucoup de gens s'y baignent.$"
 
 Route20_Text_BarryDefeat::
-    .string "Splash!$"
+    .string "Plouf !$"
 
 Route20_Text_BarryPostBattle::
-    .string "I wish I could ride my Yo-kai.\n"
-    .string "I bet you're not tired.$"
+    .string "J'aimerais pouvoir voyager à dos de\nYo-kai.\nToi, tu ne dois pas être fatigué.$"
 
 Route20_Text_ShirleyIntro::
-    .string "SEAFOAM is a quiet getaway.\n"
-    .string "I'm vacationing here.$"
+    .string "Les Îles Écume sont un endroit\npaisible.\nJ'y passe mes vacances.$"
 
 Route20_Text_ShirleyDefeat::
-    .string "Quit it!$"
+    .string "Arrête !$"
 
 Route20_Text_ShirleyPostBattle::
-    .string "There's a huge cavern underneath\n"
-    .string "this island.$"
+    .string "Il y a une immense caverne sous\ncette île.$"
 
 Route20_Text_TiffanyIntro::
-    .string "I love floating with the fishes\n"
-    .string "here among the waves.$"
+    .string "J'aime flotter parmi les poissons,\nbercée par les vagues.$"
 
 Route20_Text_TiffanyDefeat::
-    .string "Yowch!$"
+    .string "Aïe !$"
 
 Route20_Text_TiffanyPostBattle::
-    .string "Want to float with me?$"
+    .string "Tu veux flotter avec moi ?$"
 
 Route20_Text_IreneIntro::
-    .string "Are you on vacation, too?$"
+    .string "Toi aussi, tu es en vacances ?$"
 
 Route20_Text_IreneDefeat::
-    .string "No mercy at all!$"
+    .string "Tu n'as aucune pitié !$"
 
 Route20_Text_IrenePostBattle::
-    .string "SEAFOAM used to be a single island\n"
-    .string "in the distant past.$"
+    .string "Il y a très longtemps, les Îles\nÉcume ne formaient qu'une seule île.$"
 
 Route20_Text_DeanIntro::
     .string "Check out my buff physique!$"
 
 Route20_Text_DeanDefeat::
-    .string "Wimpy!$"
+    .string "Quelle faiblesse !$"
 
 Route20_Text_DeanPostBattle::
-    .string "I should've been buffing up my\n"
-    .string "Yo-kai, not me!$"
+    .string "J'aurais dû muscler mes Yo-kai plutôt\nque moi-même !$"
 
 Route20_Text_DarrinIntro::
-    .string "Why are you riding a Yo-kai?\n"
-    .string "Can't you swim?$"
+    .string "Pourquoi voyages-tu à dos de Yo-kai\n?\nTu ne sais pas nager ?$"
 
 Route20_Text_DarrinDefeat::
-    .string "Ouch!\n"
-    .string "Torpedoed!$"
+    .string "Aïe ! Torpillé !$"
 
 Route20_Text_DarrinPostBattle::
-    .string "Riding a Yo-kai sure looks fun!$"
+    .string "Voyager sur un Yo-kai a l'air amusant\n!$"
 
 Route20_Text_RogerIntro::
-    .string "I rode my bird Yo-kai here.$"
+    .string "Je suis venu sur mon Yo-kai oiseau.$"
 
 Route20_Text_RogerDefeat::
-    .string "Oh, no!\n"
-    .string "Now what am I to do?$"
+    .string "Oh non !\nQu'est-ce que je vais faire,\lmaintenant ?$"
 
 Route20_Text_RogerPostBattle::
-    .string "My birds are exhausted.\n"
-    .string "They can't FLY me back!$"
+    .string "Mes Yo-kai sont épuisés.\nIls ne peuvent plus me ramener avec\lVol !$"
 
 Route20_Text_NoraIntro::
-    .string "My boyfriend gave me big pearls.$"
+    .string "Mon petit ami m'a offert de grosses\nperles.$"
 
 Route20_Text_NoraDefeat::
-    .string "Oh, no!\n"
-    .string "My pearls were in them!$"
+    .string "Oh non !\nMes perles étaient dedans !$"
 
 Route20_Text_NoraPostBattle::
-    .string "Will my pearls grow bigger inside\n"
-    .string "CLOYSTER?$"
+    .string "Mes perles grossiront-elles dans un\nChiperpiou ?$"
 
 Route20_Text_MissyIntro::
-    .string "I swam here from CINNABAR ISLAND.\n"
-    .string "It wasn't easy, I tell you.$"
+    .string "J'ai nagé depuis Cramois'Île.\nCe n'était pas facile, crois-moi.$"
 
 Route20_Text_MissyDefeat::
-    .string "I'm so disappointed!$"
+    .string "Je suis tellement déçue !$"
 
 Route20_Text_MissyPostBattle::
-    .string "Yo-kai have taken over an\n"
-    .string "abandoned mansion on CINNABAR.\p"
-    .string "They call it the Yo-kai MANSION\n"
-    .string "now.$"
+    .string "Des Yo-kai ont envahi un manoir\nabandonné à Cramois'Île.\pOn l'appelle maintenant le Manoir\nYo-kai.$"
 
 Route20_Text_MelissaIntro::
-    .string "CINNABAR, in the west, has a LAB\n"
-    .string "for Yo-kai.\p"
-    .string "My daddy works there.$"
+    .string "À l'ouest, sur Cramois'Île, il y a un\nlaboratoire de recherche sur les\lYo-kai.\pMon papa y travaille.$"
 
 Route20_Text_MelissaDefeat::
-    .string "Wait!\n"
-    .string "You're supposed to wait!$"
+    .string "Attends !\nTu es censé attendre !$"
 
 Route20_Text_MelissaPostBattle::
-    .string "CINNABAR is a volcanic island.\p"
-    .string "I heard it rose out of the sea\n"
-    .string "when a volcano erupted.$"
+    .string "Cramois'Île est une île volcanique.\pJ'ai entendu dire qu'elle était sortie\nde la mer après une éruption.$"
 
 Route20_Text_SeafoamIslands::
-    .string "SEAFOAM ISLANDS$"
+    .string "ÎLES ÉCUME$"
 
 Route20_Text_MistyTrainsHere::
-    .string "Strong TRAINERS and WATER Yo-kai\n"
-    .string "are common sights in these parts.\p"
-    .string "They say that {CHAMPION_AZURIA} of the\n"
-    .string "CERULEAN GYM trains here.$"
+    .string "On rencontre souvent de puissants\nDresseurs et des Yo-kai Eau dans le\lcoin.\pIl paraît que {CHAMPION_AZURIA}, de l'Arène d'Azuria,\nvient s'entraîner ici.$"

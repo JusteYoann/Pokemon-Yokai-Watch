@@ -8,7 +8,7 @@ VSSeeker_Text_TrainersNotReady::
     .string "Les autres Dresseurs ne semblent\npas prêts à combattre.\pAttendons encore un peu.{PAUSE_UNTIL_PRESS}$"
 
 Route3_Text_ColtonRematchIntro::
-    .string "Hé!\nJe t'ai vu dans VIRIDIAN FOREST!$"
+    .string "Hé!\nJe t'ai vu dans FORÊT DE JADE!$"
 
 Route3_Text_BenRematchIntro::
     .string "Salut! J'adore les shorts!\nC'est confortable et pratique!\pTu devrais en porter aussi!$"
@@ -32,7 +32,7 @@ Route3_Text_RobinRematchIntro::
     .string "Hiii!\nTu m'as poussée?$"
 
 Route4_Text_CrissyRematchIntro::
-    .string "Je cherche toujours\ndes Yo-kai rares à MT. MOON.$"
+    .string "Je cherche toujours\ndes Yo-kai rares à MONT SÉLÉNITE.$"
 
 Route6_Text_RickyRematchIntro::
     .string "Oh! C'est toi, la personne\nqui écoutait notre conversation!$"
@@ -98,7 +98,7 @@ Route9_Text_ChrisRematchIntro::
     .string "Je me souviens de toi\net de tes beaux Yo-kai!$"
 
 Route9_Text_DrewRematchIntro::
-    .string "Je passe par ROCK TUNNEL\npour aller à LAVENDER TOWN…\pMais tout le monde m'arrête\nsur le chemin!$"
+    .string "Je passe par GROTTE SOMBRE\npour aller à LAVANVILLE…\pMais tout le monde m'arrête\nsur le chemin!$"
 
 Route9_Text_CaitlinRematchIntro::
     .string "Ne me prends pas de haut!\nCette fois, je ne plaisante pas!$"
@@ -398,7 +398,7 @@ Route20_Text_BarryRematchIntro::
     .string "L'eau est peu profonde ici.\nBeaucoup de gens viennent nager.$"
 
 Route20_Text_ShirleyRematchIntro::
-    .string "Tu m'envies de passer\nmes vacances à SEAFOAM ISLANDS?$"
+    .string "Tu m'envies de passer\nmes vacances à ÎLES ÉCUME?$"
 
 Route20_Text_TiffanyRematchIntro::
     .string "J'adore flotter parmi les vagues\net les poissons.$"
@@ -419,10 +419,10 @@ Route20_Text_NoraRematchIntro::
     .string "Mon amoureux m'a offert\nde grosses perles.\pElles ont encore grandi!$"
 
 Route20_Text_MissyRematchIntro::
-    .string "J'ai nagé depuis CINNABAR ISLAND.\nComme je te l'ai dit, c'était dur!$"
+    .string "J'ai nagé depuis CRAMOIS’ÎLE.\nComme je te l'ai dit, c'était dur!$"
 
 Route20_Text_MelissaRematchIntro::
-    .string "À l'ouest, sur CINNABAR ISLAND,\nil y a un Laboratoire de Yo-kai.\pMon papa travaille là-bas.$"
+    .string "À l'ouest, sur CRAMOIS’ÎLE,\nil y a un Laboratoire de Yo-kai.\pMon papa travaille là-bas.$"
 
 Route21_North_Text_RonaldRematchIntro::
     .string "Tu veux savoir si ça mord?$"
@@ -462,7 +462,7 @@ Route25_Text_JoeyRematchIntro::
     .string "Tant que je suis ici,\nje ne perdrai pas!$"
 
 Route25_Text_DanRematchIntro::
-    .string "Papa m'a emmené à une grande fête\nsur le S.S. ANNE, à VERMILION CITY.$"
+    .string "Papa m'a emmené à une grande fête\nsur le L’OCÉANE, à CARMIN SUR MER.$"
 
 Route25_Text_FlintRematchIntro::
     .string "J'ai la classe!\nEt une petite amie!\pCette fois, je vais\nl'impressionner pour de bon!$"
@@ -477,7 +477,7 @@ Route25_Text_HaleyRematchIntro::
     .string "Mon amie a plein de Yo-kai mignons.\nQuelle chance elle a!$"
 
 Route25_Text_FranklinRematchIntro::
-    .string "Je viens de m'entraîner\nà MT. MOON, mais j'ai encore\lde l'énergie à revendre!$"
+    .string "Je viens de m'entraîner\nà MONT SÉLÉNITE, mais j'ai encore\lde l'énergie à revendre!$"
 
 Route25_Text_NobRematchIntro::
     .string "Un passionné de Yo-kai\nhabite sur le cap.\pTu as vu sa collection?$"
@@ -603,7 +603,7 @@ SixIsland_OutcastIsland_Text_TylorRematchIntro::
     .string "Toujours aucune chance…\nUn combat me changera les idées!$"
 
 SixIsland_OutcastIsland_Text_MymoRematchIntro::
-    .string "Haa… Haa…\pJ'ai encore nagé d'une traite\ndepuis le port de SIX ISLAND.$"
+    .string "Haa… Haa…\pJ'ai encore nagé d'une traite\ndepuis le port de ÎLE 6.$"
 
 SixIsland_OutcastIsland_Text_NicoleRematchIntro::
     .string "Tu arrives toujours\nquand je nage.$"

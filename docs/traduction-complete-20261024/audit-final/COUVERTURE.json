@@ -1,0 +1,18 @@
+{
+  "source_reference": "working tree",
+  "visible_literals": 12710,
+  "english_candidates": 2,
+  "japanese_candidates": 26,
+  "files_to_review": {
+    "src/trade.c": 11,
+    "src/battle_main.c": 8,
+    "src/strings.c": 2,
+    "src/trainer_card.c": 2,
+    "src/daycare.c": 1,
+    "src/dodrio_berry_picking.c": 1,
+    "src/evolution_scene.c": 1,
+    "src/link_rfu_2.c": 1,
+    "src/pokemon.c": 1
+  },
+  "warning": "Heuristic triage only. Proper names, unused legacy text and mixed-language text require contextual review. JSON-generated item text and bitmap text require separate inspection."
+}

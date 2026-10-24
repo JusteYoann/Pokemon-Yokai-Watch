@@ -14,127 +14,94 @@ Text_PlayedPokeFlute::
     .string "{PLAYER} joue de la\nFLÛTE YO-KAI.$"
 
 Route12_Text_NedIntro::
-    .string "Yeah!\n"
-    .string "I got a bite here!$"
+    .string "Ouais ! Ça mord par ici !$"
 
 Route12_Text_NedDefeat::
-    .string "Tch!\n"
-    .string "Just a small fry…$"
+    .string "Pff ! Du menu fretin…$"
 
 Route12_Text_NedPostBattle::
-    .string "Hang on!\n"
-    .string "My line's snagged!$"
+    .string "Attends ! Ma ligne est accrochée !$"
 
 Route12_Text_ChipIntro::
-    .string "Be patient.\n"
-    .string "Fishing is a waiting game.$"
+    .string "Sois patient.\nLa pêche, c'est une question\ld'attente.$"
 
 Route12_Text_ChipDefeat::
-    .string "That one got away!$"
+    .string "La prise m'a échappé !$"
 
 Route12_Text_ChipPostBattle::
-    .string "With a better ROD, I could catch\n"
-    .string "better Yo-kai…$"
+    .string "Avec une meilleure Canne, je pourrais\ncapturer de meilleurs Yo-kai...$"
 
 Route12_Text_JustinIntro::
-    .string "I'm searching for a MOON STONE.\n"
-    .string "Have you found one?$"
+    .string "Je cherche une Pierre Lune.\nTu en as trouvé une ?$"
 
 Route12_Text_JustinDefeat::
-    .string "Oww!$"
+    .string "Aïe !$"
 
 Route12_Text_JustinPostBattle::
-    .string "I could have made my Yo-kai\n"
-    .string "evolve with a MOON STONE.\p"
-    .string "I would have won then, I bet.$"
+    .string "Avec une Pierre Lune, j'aurais pu\nfaire évoluer mon Yo-kai.\pJe suis sûr que j'aurais gagné.$"
 
 Route12_Text_LucaIntro::
-    .string "Electricity is my specialty.\p"
-    .string "I don't know a thing about Yo-kai\n"
-    .string "of the sea, though.$"
+    .string "L'électricité, c'est ma spécialité.\pEn revanche, je ne connais rien aux\nYo-kai marins.$"
 
 Route12_Text_LucaDefeat::
-    .string "Unplugged!$"
+    .string "Débranché !$"
 
 Route12_Text_LucaPostBattle::
-    .string "Water conducts electricity, so you\n"
-    .string "should zap sea Yo-kai.$"
+    .string "L'eau conduit l'électricité.\nC'est donc efficace contre les Yo-kai\lmarins.$"
 
 Route12_Text_HankIntro::
-    .string "The FISHING FOOL versus Yo-kai\n"
-    .string "KID!$"
+    .string "Le pêcheur fou contre l'enfant aux\nYo-kai !$"
 
 Route12_Text_HankDefeat::
-    .string "Touch too much!$"
+    .string "C'était trop pour moi !$"
 
 Route12_Text_HankPostBattle::
-    .string "I guess you get to be good at\n"
-    .string "what you like.\p"
-    .string "Well, you beat me at Yo-kai,\n"
-    .string "but you can't top me at fishing.$"
+    .string "On devient bon dans ce qu'on aime, je\nsuppose.\pTu m'as battu au combat, mais à la\npêche, tu ne peux pas me dépasser.$"
 
 Route12_Text_ElliotIntro::
-    .string "I love fishing, don't get me wrong.\p"
-    .string "But it'd be best if I also had more\n"
-    .string "work.$"
+    .string "J'adore la pêche, ne te méprends\npas.\pMais j'aimerais aussi avoir un peu\nplus de travail.$"
 
 Route12_Text_ElliotDefeat::
-    .string "It's not easy…$"
+    .string "Ce n'est pas facile…$"
 
 Route12_Text_ElliotPostBattle::
-    .string "It's all right.\n"
-    .string "Losing doesn't bug me anymore.$"
+    .string "Ça va.\nPerdre ne me dérange plus.$"
 
 Route12_Text_AndrewIntro::
-    .string "What's catching?\p"
-    .string "You never know what you could\n"
-    .string "catch!$"
+    .string "Alors, ça mord ?\pOn ne sait jamais ce qu'on va\nattraper !$"
 
 Route12_Text_AndrewDefeat::
-    .string "Lost it!$"
+    .string "Je l'ai perdu !$"
 
 Route12_Text_AndrewPostBattle::
-    .string "What, MAGIKARP?\p"
-    .string "I catch them all the time, sure.\n"
-    .string "But, boy are they wimpy.$"
+    .string "Quoi, des Pachycoul ?\pJ'en attrape tout le temps, bien sûr.\nMais ils ne sont pas très puissants.$"
 
 Route12_Text_RouteSign::
-    .string "ROUTE 12 \n"
-    .string "North to LAVENDER$"
+    .string "ROUTE 12\nLAVANVILLE au nord$"
 
 Route12_Text_SportfishingArea::
-    .string "SPORTFISHING AREA$"
+    .string "ZONE DE PÊCHE SPORTIVE$"
 
 Route12_Text_JesIntro::
-    .string "JES: If I win, I'm going to\n"
-    .string "propose to GIA.$"
+    .string "Jes : Si je gagne, je demanderai Gia\nen mariage.$"
 
 Route12_Text_JesDefeat::
-    .string "JES: Oh, please, why couldn't you\n"
-    .string "let us win?$"
+    .string "Jes : Oh, pourquoi ne pouvais-tu pas\nnous laisser gagner ?$"
 
 Route12_Text_JesPostBattle::
-    .string "JES: Oh, GIA, forgive me,\n"
-    .string "my love!$"
+    .string "JES : Oh, GIA, pardonne-moi, mon\namour !$"
 
 Route12_Text_JesNotEnoughMons::
-    .string "JES: GIA and I, we'll be\n"
-    .string "together forever.\p"
-    .string "We won't battle unless you have\n"
-    .string "two Yo-kai of your own.$"
+    .string "Jes : Gia et moi resterons ensemble\npour toujours.\pNous ne combattrons que si tu as\ndeux Yo-kai avec toi.$"
 
 Route12_Text_GiaIntro::
-    .string "GIA: Hey, JES…\p"
-    .string "If we win, I'll marry you!$"
+    .string "Gia : Dis, Jes...\pSi nous gagnons, je t'épouse !$"
 
 Route12_Text_GiaDefeat::
-    .string "GIA: Oh, but why?$"
+    .string "GIA : Oh, mais pourquoi ?$"
 
 Route12_Text_GiaPostBattle::
-    .string "GIA: JES, you silly!\n"
-    .string "You ruined this!$"
+    .string "Gia : Jes, espèce d'idiot !\nTu as tout gâché !$"
 
 Route12_Text_GiaNotEnoughMons::
-    .string "GIA: I can't bear to battle\n"
-    .string "without my JES!\p"
-    .string "Don't you have one more Yo-kai?$"
+    .string "Gia : Je ne veux pas combattre sans\nmon Jes !\pTu n'as pas un autre Yo-kai ?$"

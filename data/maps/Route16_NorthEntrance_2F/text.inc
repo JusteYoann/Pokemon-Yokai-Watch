@@ -1,47 +1,24 @@
 Route16_NorthEntrance_2F_Text_OnBikeRideWithGirlfriend::
-    .string "I'm on a relaxing ride on my new\n"
-    .string "bike with my girlfriend.$"
+    .string "Je fais une promenade tranquille avec\nma petite amie sur ma nouvelle\lBicyclette.$"
 
 Route16_NorthEntrance_2F_Text_RidingTogetherOnNewBikes::
-    .string "We're going riding together on our\n"
-    .string "new bikes.$"
+    .string "Nous allons nous promener ensemble\nsur nos nouvelles Bicyclettes.$"
 
 Route16_NorthEntrance_2F_Text_ItsCeladonDeptStore::
-    .string "Let's see what the binoculars have\n"
-    .string "to show…\p"
-    .string "It's the CELADON DEPT. STORE!$"
+    .string "Voyons ce que montrent les\njumelles...\pC'est le Centre Commercial de\nCéladopole !$"
 
 Route16_NorthEntrance_2F_Text_LongPathOverWater::
-    .string "Let's see what the binoculars have\n"
-    .string "to show…\p"
-    .string "There's a long path over water far\n"
-    .string "away.$"
+    .string "Voyons ce que montrent les\njumelles...\pAu loin, un long chemin traverse\nl'eau.$"
 
 Route16_NorthEntrance_2F_Text_GiveAmuletCoinIfCaught40::
-    .string "Hi! Remember me?\n"
-    .string "I'm one of PROF. OAK's AIDES.\p"
-    .string "If your Médallium has complete data\n"
-    .string "on 40 species, I'm supposed to\l"
-    .string "give you a reward.\p"
-    .string "PROF. OAK entrusted me with an\n"
-    .string "AMULET COIN for you.\p"
-    .string "So, {PLAYER}, let me ask you.\p"
-    .string "Have you gathered data on at least\n"
-    .string "40 kinds of Yo-kai?$"
+    .string "Bonjour ! Tu te souviens de moi ?\nJe suis un assistant du Prof. Chen.\pSi ton Médallium contient les données\nde 40 espèces, je dois te remettre\lune récompense.\pLe Prof. Chen m'a confié une Pièce\nRune pour toi.\pAlors, {PLAYER}, dis-moi :\pAs-tu réuni des données sur au moins\n40 espèces de Yo-kai ?$"
 
 Route16_NorthEntrance_2F_Text_GreatHereYouGo::
-    .string "Great! You have caught or owned\n"
-    .string "{STR_VAR_3} kinds of Yo-kai!\p"
-    .string "Congratulations!\n"
-    .string "Here you go!$"
+    .string "Formidable ! Tu as possédé\n{STR_VAR_3} espèces de Yo-kai !\pFélicitations !\nVoici ta récompense !$"
 
 Route16_NorthEntrance_2F_Text_ReceivedAmuletCoinFromAide::
-    .string "{PLAYER} received the AMULET COIN\n"
-    .string "from the AIDE.$"
+    .string "{PLAYER} reçoit une Pièce Rune de\nl'assistant.$"
 
 Route16_NorthEntrance_2F_Text_ExplainAmuletCoin::
-    .string "An AMULET COIN is an item to be\n"
-    .string "held by a Yo-kai.\p"
-    .string "If the Yo-kai appears in a winning\n"
-    .string "battle, you will earn more money.$"
+    .string "La Pièce Rune est un objet à faire\ntenir à un Yo-kai.\pSi ce Yo-kai participe à un combat\nque tu remportes, tu gagneras\ldavantage d'argent.$"
 

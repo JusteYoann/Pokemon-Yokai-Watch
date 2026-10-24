@@ -11,5 +11,5 @@ Route2_EastBuilding_Text_ExplainHM05::
     .string "La CS05 contient Flash.\pCette capacité éclaire\nles grottes les plus sombres.$"
 
 Route2_EastBuilding_Text_CanGetThroughRockTunnel::
-    .string "Un Yo-kai connaissant Flash\nt'aidera à traverser ROCK TUNNEL.$"
+    .string "Un Yo-kai connaissant Flash\nt'aidera à traverser GROTTE SOMBRE.$"
 

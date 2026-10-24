@@ -271,6 +271,9 @@ static const u16 *const sKantoTrainerCardPals[] =
     sKantoTrainerCardGold_Pal,   // 4 stars
 };
 
+static const u8 sTrainerCardTitleFr[] = _("CARTE DRESSEUR");
+static const u8 sTrainerCardTitleColors[] = {8, 1, 8};
+
 static const u8 sTrainerCardTextColors[] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_LIGHT_GRAY};
 static const u8 sTrainerCardStatColors[] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_RED, TEXT_COLOR_LIGHT_RED};
 static const u8 sTimeColonInvisibleTextColors[] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_TRANSPARENT, TEXT_COLOR_TRANSPARENT};
@@ -1124,6 +1127,11 @@ static void PrintNameOnCardFront(void)
     u8 buffer[2][32];
     u8 *txtPtr;
 
+    if (sTrainerCardDataPtr->cardType == CARD_TYPE_FRLG)
+    {
+        FillWindowPixelRect(1, PIXEL_FILL(8), 7, 8, 108, 16);
+        AddTextPrinterParameterized3(1, FONT_SMALL, 12, 9, sTrainerCardTitleColors, TEXT_SKIP_DRAW, sTrainerCardTitleFr);
+    }
     txtPtr = StringCopy(buffer[0], gText_TrainerCardName);
     txtPtr = buffer[1];
     StringCopy(txtPtr, sTrainerCardDataPtr->trainerCard.rse.playerName);
@@ -1267,6 +1275,8 @@ static void PrintNameOnCardBack(void)
 
     if (sTrainerCardDataPtr->cardType == CARD_TYPE_FRLG)
     {
+        FillWindowPixelRect(1, PIXEL_FILL(1), 68, 8, 60, 16);
+        AddTextPrinterParameterized3(1, FONT_SMALL, 88, 9, sTrainerCardTextColors, TEXT_SKIP_DRAW, gText_TrainerCardName);
         AddTextPrinterParameterized3(1, sTrainerCardFontIds[1], sTrainerCardBackNameXPositions[sTrainerCardDataPtr->cardType],
             sTrainerCardBackNameYPositions[sTrainerCardDataPtr->cardType], sTrainerCardTextColors, TEXT_SKIP_DRAW, sTrainerCardDataPtr->strings[TRAINER_CARD_STRING_NAME]);
     }

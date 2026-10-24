@@ -1,12 +1,11 @@
 SilphCo_9F_Text_YouShouldTakeQuickNap::
-    .string "You look tired.\n"
-    .string "You should take a quick nap.$"
+    .string "Tu as l'air de manquer de repos. Tu\ndevrais faire une petite sieste.$"
 
 SilphCo_9F_Text_DontGiveUp::
-    .string "Don't give up!$"
+    .string "N'abandonne pas !$"
 
 SilphCo_9F_Text_ThankYouSoMuch::
-    .string "Thank you so much.$"
+    .string "Merci beaucoup.$"
 
 SilphCo_9F_Text_Grunt1Intro::
     .string "Tes Yo-kai ont l'air de t'adorer.\nVoyons s'ils savent aussi te défendre.$"
@@ -18,15 +17,13 @@ SilphCo_9F_Text_Grunt1PostBattle::
     .string "Si j'avais commencé à ton âge...\nEnfin, on ne refait pas les comptes\ldu passé.$"
 
 SilphCo_9F_Text_EdIntro::
-    .string "Your Yo-kai have weak points!\n"
-    .string "I can nail them!$"
+    .string "Tes Yo-kai ont des points faibles !\nJe vais en profiter !$"
 
 SilphCo_9F_Text_EdDefeat::
-    .string "You hammered me!$"
+    .string "Tu m'as écrasé !$"
 
 SilphCo_9F_Text_EdPostBattle::
-    .string "Exploiting weak spots does work.\n"
-    .string "Think about type advantages.$"
+    .string "Exploiter les points faibles, ça\nmarche. Pense aux avantages des\ltypes.$"
 
 SilphCo_9F_Text_Grunt2Intro::
     .string "Le dernier des quatre frères! Je vais\nlaver l'honneur de la famille!$"
@@ -38,6 +35,5 @@ SilphCo_9F_Text_Grunt2PostBattle::
     .string "On devrait peut-être s'entraîner\nensemble avant de recommencer.$"
 
 SilphCo_9F_Text_FloorSign::
-    .string "Yopple HEAD OFFICE\n"
-    .string "9F$"
+    .string "SIÈGE DE YOPPLE\n8e ÉTAGE$"
 

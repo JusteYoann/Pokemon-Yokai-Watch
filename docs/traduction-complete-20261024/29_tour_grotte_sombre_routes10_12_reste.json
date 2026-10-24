@@ -1,0 +1,602 @@
+[
+  {
+    "file": "data/maps/PokemonTower_4F/text.inc",
+    "symbol": "PokemonTower_4F_Text_LaurelDefeat",
+    "before": "What!$",
+    "after": "Quoi ?!$"
+  },
+  {
+    "file": "data/maps/PokemonTower_4F/text.inc",
+    "symbol": "PokemonTower_4F_Text_LaurelPostBattle",
+    "before": "We can't determine the identity of\\nthe ghosts…$",
+    "after": "Nous n'arrivons pas à identifier ces\\nfantômes...$"
+  },
+  {
+    "file": "data/maps/PokemonTower_4F/text.inc",
+    "symbol": "PokemonTower_4F_Text_JodyDefeat",
+    "before": "Huh?\\nWho? What?$",
+    "after": "Hein ?\\nQui ? Quoi ?$"
+  },
+  {
+    "file": "data/maps/PokemonTower_4F/text.inc",
+    "symbol": "PokemonTower_4F_Text_JodyPostBattle",
+    "before": "May the departed Yo-kai rest in\\npeace…$",
+    "after": "Que les Yo-kai disparus reposent en\\npaix...$"
+  },
+  {
+    "file": "data/maps/PokemonTower_5F/text.inc",
+    "symbol": "PokemonTower_5F_Text_RestHereInPurifiedSpace",
+    "before": "Come, child!\\nI have purified this space.\\lYou can rest here.$",
+    "after": "Viens, mon enfant !\\nJ'ai purifié cet endroit.\\lTu peux t'y reposer.$"
+  },
+  {
+    "file": "data/maps/PokemonTower_5F/text.inc",
+    "symbol": "PokemonTower_5F_Text_TammyIntro",
+    "before": "Give…me…\\nyour…all…$",
+    "after": "Donne... tout...\\nce que... tu as...$"
+  },
+  {
+    "file": "data/maps/PokemonTower_5F/text.inc",
+    "symbol": "PokemonTower_5F_Text_RuthIntro",
+    "before": "You…shall…\\njoin…us…$",
+    "after": "Tu vas...\\nnous... rejoindre...$"
+  },
+  {
+    "file": "data/maps/PokemonTower_5F/text.inc",
+    "symbol": "PokemonTower_5F_Text_RuthDefeat",
+    "before": "What a nightmare!$",
+    "after": "Quel cauchemar !$"
+  },
+  {
+    "file": "data/maps/PokemonTower_5F/text.inc",
+    "symbol": "PokemonTower_5F_Text_JanaePostBattle",
+    "before": "I fell to evil spirits despite my\\ntraining in the mountains…$",
+    "after": "J'ai été vaincue par les mauvais\\nesprits, malgré mon entraînement dans\\lles montagnes...$"
+  },
+  {
+    "file": "data/maps/PokemonTower_5F/text.inc",
+    "symbol": "PokemonTower_5F_Text_PurifiedZoneMonsFullyHealed",
+    "before": "Entered the purified and protected\\nzone.\\p{PLAYER}'s Yo-kai were fully\\nhealed.$",
+    "after": "Vous entrez dans une zone purifiée et\\nprotégée.\\pLes Yo-kai de {PLAYER} ont retrouvé\\ntous leurs PV.$"
+  },
+  {
+    "file": "data/maps/PokemonTower_6F/text.inc",
+    "symbol": "PokemonTower_6F_Text_EmiliaPostBattle",
+    "before": "My hair didn't fall out!\\nIt was a malevolent spirit!$",
+    "after": "Mes cheveux ne sont pas tombés !\\nC'était un esprit malveillant !$"
+  },
+  {
+    "file": "data/maps/PokemonTower_6F/text.inc",
+    "symbol": "PokemonTower_6F_Text_JenniferPostBattle",
+    "before": "What's going on here?$",
+    "after": "Qu'est-ce qui se passe ici ?$"
+  },
+  {
+    "file": "data/maps/PokemonTower_6F/text.inc",
+    "symbol": "PokemonTower_6F_Text_GhostWasCubonesMother",
+    "before": "The ghost was the restless spirit\\nof CUBONE's mother!$",
+    "after": "Ce fantôme était l'esprit tourmenté de\\nla mère de Castelius I !$"
+  },
+  {
+    "file": "data/maps/PokemonTower_6F/text.inc",
+    "symbol": "PokemonTower_6F_Text_MothersSpiritWasCalmed",
+    "before": "The mother's spirit was calmed.\\pIt departed to the afterlife…$",
+    "after": "L'esprit de la mère a été apaisé.\\pIl a rejoint l'au-delà...$"
+  },
+  {
+    "file": "data/maps/RockTunnel_1F/text.inc",
+    "symbol": "RockTunnel_1F_Text_LennyIntro",
+    "before": "This tunnel goes a long way, kid!$",
+    "after": "Ce tunnel est très long, petit !$"
+  },
+  {
+    "file": "data/maps/RockTunnel_1F/text.inc",
+    "symbol": "RockTunnel_1F_Text_LennyDefeat",
+    "before": "Doh!\\nYou win!$",
+    "after": "Oh !\\nTu as gagné !$"
+  },
+  {
+    "file": "data/maps/RockTunnel_1F/text.inc",
+    "symbol": "RockTunnel_1F_Text_LennyPostBattle",
+    "before": "Watch for ONIX.\\nThey appear only occasionally.\\pHigh-level ones can put the\\nsqueeze on you!$",
+    "after": "Méfie-toi des Dépotache.\\nIls sont assez rares.\\pLes plus puissants peuvent vraiment\\nte serrer de près !$"
+  },
+  {
+    "file": "data/maps/RockTunnel_1F/text.inc",
+    "symbol": "RockTunnel_1F_Text_OliverIntro",
+    "before": "Hmm.\\nMaybe I'm lost in here…$",
+    "after": "Hmm...\\nJe crois que je suis perdu...$"
+  },
+  {
+    "file": "data/maps/RockTunnel_1F/text.inc",
+    "symbol": "RockTunnel_1F_Text_OliverDefeat",
+    "before": "Ease up!\\nWhat am I doing?\\lWhich way is out?$",
+    "after": "Doucement !\\nQu'est-ce que je fais ?\\lOù est la sortie ?$"
+  },
+  {
+    "file": "data/maps/RockTunnel_1F/text.inc",
+    "symbol": "RockTunnel_1F_Text_OliverPostBattle",
+    "before": "That sleeping Yo-kai on ROUTE 12\\nforced me to take this detour.$",
+    "after": "Le Yo-kai qui dort sur la Route 12\\nm'a obligé à faire ce détour.$"
+  },
+  {
+    "file": "data/maps/RockTunnel_1F/text.inc",
+    "symbol": "RockTunnel_1F_Text_LucasIntro",
+    "before": "Outsiders like you need to show me\\nsome respect!$",
+    "after": "Les visiteurs comme toi devraient me\\nmontrer du respect !$"
+  },
+  {
+    "file": "data/maps/RockTunnel_1F/text.inc",
+    "symbol": "RockTunnel_1F_Text_LucasPostBattle",
+    "before": "You're talented enough to hike!$",
+    "after": "Tu as assez de talent pour faire de\\nla randonnée !$"
+  },
+  {
+    "file": "data/maps/RockTunnel_1F/text.inc",
+    "symbol": "RockTunnel_1F_Text_LeahIntro",
+    "before": "Eek!\\pDon't try anything funny in the\\ndark!$",
+    "after": "Hé !\\pN'essaie pas de faire une bêtise dans\\nle noir !$"
+  },
+  {
+    "file": "data/maps/RockTunnel_1F/text.inc",
+    "symbol": "RockTunnel_1F_Text_LeahPostBattle",
+    "before": "I saw a MACHOP in this tunnel.$",
+    "after": "J'ai vu une Sirénée dans ce tunnel.$"
+  },
+  {
+    "file": "data/maps/RockTunnel_1F/text.inc",
+    "symbol": "RockTunnel_1F_Text_DanaIntro",
+    "before": "I came this far looking for wild\\nYo-kai.$",
+    "after": "Je suis venue jusqu'ici pour trouver\\ndes Yo-kai sauvages.$"
+  },
+  {
+    "file": "data/maps/RockTunnel_1F/text.inc",
+    "symbol": "RockTunnel_1F_Text_DanaDefeat",
+    "before": "I'm out of Yo-kai!$",
+    "after": "Je n'ai plus de Yo-kai !$"
+  },
+  {
+    "file": "data/maps/RockTunnel_1F/text.inc",
+    "symbol": "RockTunnel_1F_Text_DanaPostBattle",
+    "before": "You looked cute and harmless.\\nWas I ever wrong!$",
+    "after": "Tu avais l'air si gentil et inoffensif.\\nJe me trompais bien !$"
+  },
+  {
+    "file": "data/maps/RockTunnel_1F/text.inc",
+    "symbol": "RockTunnel_1F_Text_ArianaIntro",
+    "before": "You have Yo-kai!\\nLet's start!$",
+    "after": "Tu as des Yo-kai !\\nC'est parti !$"
+  },
+  {
+    "file": "data/maps/RockTunnel_1F/text.inc",
+    "symbol": "RockTunnel_1F_Text_ArianaDefeat",
+    "before": "You play hard!$",
+    "after": "Tu ne fais pas semblant !$"
+  },
+  {
+    "file": "data/maps/RockTunnel_1F/text.inc",
+    "symbol": "RockTunnel_1F_Text_ArianaPostBattle",
+    "before": "Whew!\\nI'm all sweaty now.$",
+    "after": "Ouf !\\nJe suis toute en sueur.$"
+  },
+  {
+    "file": "data/maps/RockTunnel_1F/text.inc",
+    "symbol": "RockTunnel_1F_Text_RouteSign",
+    "before": "ROCK TUNNEL\\nCERULEAN CITY - LAVENDER TOWN$",
+    "after": "GROTTE SOMBRE\\nAzuria - Lavanville$"
+  },
+  {
+    "file": "data/maps/RockTunnel_B1F/text.inc",
+    "symbol": "RockTunnel_B1F_Text_SofiaIntro",
+    "before": "Do you know how you can avoid\\ngetting lost in the mountains?\\pYou can bend twigs as trail\\nmarkers.$",
+    "after": "Tu sais comment éviter de te perdre\\ndans les montagnes ?\\pTu peux plier des brindilles pour\\nbaliser ton chemin.$"
+  },
+  {
+    "file": "data/maps/RockTunnel_B1F/text.inc",
+    "symbol": "RockTunnel_B1F_Text_DudleyIntro",
+    "before": "Hahaha!\\nCan you beat my power?$",
+    "after": "Hahaha !\\nPeux-tu rivaliser avec ma puissance ?$"
+  },
+  {
+    "file": "data/maps/RockTunnel_B1F/text.inc",
+    "symbol": "RockTunnel_B1F_Text_CooperIntro",
+    "before": "You have a Médallium?\\nI want one, too.$",
+    "after": "Tu as un Médallium ?\\nJ'en voudrais un aussi.$"
+  },
+  {
+    "file": "data/maps/RockTunnel_B1F/text.inc",
+    "symbol": "RockTunnel_B1F_Text_CooperPostBattle",
+    "before": "When you finish your Médallium,\\ncan I have it?$",
+    "after": "Quand tu auras terminé ton Médallium,\\ntu me le donneras ?$"
+  },
+  {
+    "file": "data/maps/RockTunnel_B1F/text.inc",
+    "symbol": "RockTunnel_B1F_Text_SteveIntro",
+    "before": "Um… Do you know about Yo-kai\\ncosplay?$",
+    "after": "Euh... Tu connais les déguisements de\\nYo-kai ?$"
+  },
+  {
+    "file": "data/maps/RockTunnel_B1F/text.inc",
+    "symbol": "RockTunnel_B1F_Text_SteveDefeat",
+    "before": "Well, that's that.$",
+    "after": "Eh bien, voilà.$"
+  },
+  {
+    "file": "data/maps/RockTunnel_B1F/text.inc",
+    "symbol": "RockTunnel_B1F_Text_StevePostBattle",
+    "before": "Yo-kai cosplay is dressing up as\\nYo-kai for fun.\\pCLEFAIRY is a favorite.$",
+    "after": "On se déguise en Yo-kai pour\\ns'amuser.\\pTauracle est très populaire.$"
+  },
+  {
+    "file": "data/maps/RockTunnel_B1F/text.inc",
+    "symbol": "RockTunnel_B1F_Text_AllenIntro",
+    "before": "My Yo-kai techniques will leave\\nyou crying!$",
+    "after": "Les techniques de mes Yo-kai vont te\\nfaire pleurer !$"
+  },
+  {
+    "file": "data/maps/RockTunnel_B1F/text.inc",
+    "symbol": "RockTunnel_B1F_Text_AllenDefeat",
+    "before": "I give!\\nYou're a better technician!$",
+    "after": "J'abandonne !\\nTu maîtrises mieux les techniques !$"
+  },
+  {
+    "file": "data/maps/RockTunnel_B1F/text.inc",
+    "symbol": "RockTunnel_B1F_Text_AllenPostBattle",
+    "before": "In mountains, you'll often find\\nROCK-type Yo-kai.$",
+    "after": "Dans les montagnes, on trouve souvent\\ndes Yo-kai de type Roche.$"
+  },
+  {
+    "file": "data/maps/RockTunnel_B1F/text.inc",
+    "symbol": "RockTunnel_B1F_Text_MarthaIntro",
+    "before": "I don't often come here, but I will\\nbattle you.$",
+    "after": "Je viens rarement ici, mais je veux\\nbien t'affronter.$"
+  },
+  {
+    "file": "data/maps/RockTunnel_B1F/text.inc",
+    "symbol": "RockTunnel_B1F_Text_MarthaPostBattle",
+    "before": "I like tiny Yo-kai.\\nBig ones are too scary!$",
+    "after": "J'aime les petits Yo-kai.\\nLes grands me font trop peur !$"
+  },
+  {
+    "file": "data/maps/RockTunnel_B1F/text.inc",
+    "symbol": "RockTunnel_B1F_Text_EricIntro",
+    "before": "Hit me with your best shot!$",
+    "after": "Vas-y, donne tout ce que tu as !$"
+  },
+  {
+    "file": "data/maps/RockTunnel_B1F/text.inc",
+    "symbol": "RockTunnel_B1F_Text_EricPostBattle",
+    "before": "I'll raise my Yo-kai to beat\\nyours, kid.$",
+    "after": "J'entraînerai mes Yo-kai pour battre\\nles tiens, petit.$"
+  },
+  {
+    "file": "data/maps/RockTunnel_B1F/text.inc",
+    "symbol": "RockTunnel_B1F_Text_WinstonIntro",
+    "before": "I draw illustrations of Yo-kai\\nwhen I'm home.$",
+    "after": "Quand je suis chez moi, je dessine\\ndes Yo-kai.$"
+  },
+  {
+    "file": "data/maps/RockTunnel_B1F/text.inc",
+    "symbol": "RockTunnel_B1F_Text_WinstonDefeat",
+    "before": "Whew…\\nI'm exhausted…$",
+    "after": "Ouf...\\nJe suis épuisé...$"
+  },
+  {
+    "file": "data/maps/RockTunnel_B1F/text.inc",
+    "symbol": "RockTunnel_B1F_Text_WinstonPostBattle",
+    "before": "I'm an artist, not a fighter.\\nI'll go home to draw.$",
+    "after": "Je suis un artiste, pas un\\ncombattant.\\nJe vais rentrer dessiner.$"
+  },
+  {
+    "file": "data/maps/Route10/text.inc",
+    "symbol": "Route10_Text_MarkIntro",
+    "before": "Wow, you came all the way here?\\nMaybe you're a POKéMANIAC, too?\\lWant to see my collection?$",
+    "after": "Tu es venu jusqu'ici ?\\nTu es peut-être aussi un grand fan\\lde Yo-kai ?\\lTu veux voir ma collection ?$"
+  },
+  {
+    "file": "data/maps/Route10/text.inc",
+    "symbol": "Route10_Text_MarkDefeat",
+    "before": "Humph.\\nI'm not angry!$",
+    "after": "Pfff...\\nJe ne suis pas fâché !$"
+  },
+  {
+    "file": "data/maps/Route10/text.inc",
+    "symbol": "Route10_Text_MarkPostBattle",
+    "before": "I have more rare Yo-kai at home!$",
+    "after": "J'ai d'autres Yo-kai rares chez moi !$"
+  },
+  {
+    "file": "data/maps/Route10/text.inc",
+    "symbol": "Route10_Text_ClarkDefeat",
+    "before": "Ha-haha!\\nNot laughing!\\lHa-hay fever! Haha-ha-choo!$",
+    "after": "Ha-haha !\\nJe ne ris pas !\\lJ'ai le rhume des foins !\\lHa-ha-atchoum !$"
+  },
+  {
+    "file": "data/maps/Route10/text.inc",
+    "symbol": "Route10_Text_HermanDefeat",
+    "before": "Oh, no!\\nMy Yo-kai!$",
+    "after": "Oh non !\\nMes Yo-kai !$"
+  },
+  {
+    "file": "data/maps/Route10/text.inc",
+    "symbol": "Route10_Text_HermanPostBattle",
+    "before": "I don't like you.\\nI don't like anyone better than me!$",
+    "after": "Je ne t'aime pas.\\nJe n'aime personne de plus fort que\\lmoi !$"
+  },
+  {
+    "file": "data/maps/Route10/text.inc",
+    "symbol": "Route10_Text_HeidiIntro",
+    "before": "I've been out at a Yo-kai GYM\\na few times.\\p…But I always lose.$",
+    "after": "J'ai essayé de combattre dans une\\nArène plusieurs fois...\\pMais je perds toujours.$"
+  },
+  {
+    "file": "data/maps/Route10/text.inc",
+    "symbol": "Route10_Text_HeidiPostBattle",
+    "before": "I noticed some POKéMANIACS\\nprowling around.\\pCan you imagine? Them?\\nUp here in the mountains?$",
+    "after": "J'ai vu des fans de Yo-kai rôder dans\\nles environs.\\pTu imagines ?\\nIci, dans les montagnes ?$"
+  },
+  {
+    "file": "data/maps/Route10/text.inc",
+    "symbol": "Route10_Text_TrentIntro",
+    "before": "Ah!\\nThis mountain air is delicious!$",
+    "after": "Ah !\\nL'air de la montagne est délicieux !$"
+  },
+  {
+    "file": "data/maps/Route10/text.inc",
+    "symbol": "Route10_Text_TrentDefeat",
+    "before": "That cleared my head!$",
+    "after": "Ça m'a remis les idées en place !$"
+  },
+  {
+    "file": "data/maps/Route10/text.inc",
+    "symbol": "Route10_Text_CarolIntro",
+    "before": "I'm feeling a bit faint.\\nI haven't hiked in some time.$",
+    "after": "Je me sens un peu faible.\\nJe n'ai pas fait de randonnée depuis\\llongtemps.$"
+  },
+  {
+    "file": "data/maps/Route10/text.inc",
+    "symbol": "Route10_Text_CarolDefeat",
+    "before": "I'm too tired.\\nI wasn't up for it.$",
+    "after": "Je suis trop fatiguée.\\nJe n'étais pas à la hauteur.$"
+  },
+  {
+    "file": "data/maps/Route10/text.inc",
+    "symbol": "Route10_Text_CarolPostBattle",
+    "before": "The Yo-kai here in the mountains\\nare so chunky…\\pI wish there were pink Yo-kai\\nwith a floral pattern!$",
+    "after": "Les Yo-kai des montagnes sont si\\nmassifs...\\pJ'aimerais en voir des roses avec des\\nmotifs de fleurs !$"
+  },
+  {
+    "file": "data/maps/Route11/text.inc",
+    "symbol": "Route11_Text_HugoPostBattle",
+    "before": "Yo-kai is life!\\nAnd to live is to play games!$",
+    "after": "Les Yo-kai, c'est la vie !\\nEt vivre, c'est jouer !$"
+  },
+  {
+    "file": "data/maps/Route11/text.inc",
+    "symbol": "Route11_Text_JasperIntro",
+    "before": "Competition!\\nI can't get enough!$",
+    "after": "La compétition !\\nJe ne m'en lasse pas !$"
+  },
+  {
+    "file": "data/maps/Route11/text.inc",
+    "symbol": "Route11_Text_JasperPostBattle",
+    "before": "You can't be a coward in the world\\nof Yo-kai!$",
+    "after": "Dans le monde des Yo-kai, il ne faut\\npas être lâche !$"
+  },
+  {
+    "file": "data/maps/Route11/text.inc",
+    "symbol": "Route11_Text_EddieIntro",
+    "before": "Let's go, but don't cheat!$",
+    "after": "C'est parti, mais ne triche pas !$"
+  },
+  {
+    "file": "data/maps/Route11/text.inc",
+    "symbol": "Route11_Text_EddieDefeat",
+    "before": "Huh?\\nThat's not right!$",
+    "after": "Hein ?\\nCe n'est pas normal !$"
+  },
+  {
+    "file": "data/maps/Route11/text.inc",
+    "symbol": "Route11_Text_EddiePostBattle",
+    "before": "I did my best.\\nI have no regrets.$",
+    "after": "J'ai fait de mon mieux.\\nJe n'ai aucun regret.$"
+  },
+  {
+    "file": "data/maps/Route11/text.inc",
+    "symbol": "Route11_Text_BraxtonIntro",
+    "before": "Careful!\\nI'm laying down some cables!$",
+    "after": "Attention !\\nJe pose des câbles !$"
+  },
+  {
+    "file": "data/maps/Route11/text.inc",
+    "symbol": "Route11_Text_BraxtonDefeat",
+    "before": "That was electric!$",
+    "after": "C'était électrisant !$"
+  },
+  {
+    "file": "data/maps/Route11/text.inc",
+    "symbol": "Route11_Text_BraxtonPostBattle",
+    "before": "Spread the word to save energy!$",
+    "after": "Fais passer le message : économisons\\nl'énergie !$"
+  },
+  {
+    "file": "data/maps/Route11/text.inc",
+    "symbol": "Route11_Text_DillonIntro",
+    "before": "I just became a TRAINER.\\nBut, I think I can win.$",
+    "after": "Je viens de devenir Dresseur.\\nMais je crois pouvoir gagner.$"
+  },
+  {
+    "file": "data/maps/Route11/text.inc",
+    "symbol": "Route11_Text_DillonDefeat",
+    "before": "My Yo-kai couldn't win…\\nHaven't they grown enough?$",
+    "after": "Mes Yo-kai n'ont pas pu gagner...\\nIls n'ont pas assez grandi ?$"
+  },
+  {
+    "file": "data/maps/Route11/text.inc",
+    "symbol": "Route11_Text_DillonPostBattle",
+    "before": "What now?\\nLeave me alone!$",
+    "after": "Quoi, encore ?\\nLaisse-moi tranquille !$"
+  },
+  {
+    "file": "data/maps/Route11/text.inc",
+    "symbol": "Route11_Text_DirkIntro",
+    "before": "Fwahaha!\\nI have never lost!$",
+    "after": "Mouahaha !\\nJe n'ai jamais perdu !$"
+  },
+  {
+    "file": "data/maps/Route11/text.inc",
+    "symbol": "Route11_Text_DirkPostBattle",
+    "before": "You were just lucky, that's all.$",
+    "after": "Tu as juste eu de la chance, c'est\\ntout.$"
+  },
+  {
+    "file": "data/maps/Route11/text.inc",
+    "symbol": "Route11_Text_DarianIntro",
+    "before": "I have never won before…$",
+    "after": "Je n'ai encore jamais gagné...$"
+  },
+  {
+    "file": "data/maps/Route11/text.inc",
+    "symbol": "Route11_Text_DarianDefeat",
+    "before": "I saw this coming…$",
+    "after": "Je m'y attendais...$"
+  },
+  {
+    "file": "data/maps/Route11/text.inc",
+    "symbol": "Route11_Text_YasuIntro",
+    "before": "I'm the best in my class.\\nI train every morning.$",
+    "after": "Je suis le meilleur de ma classe.\\nJe m'entraîne tous les matins.$"
+  },
+  {
+    "file": "data/maps/Route11/text.inc",
+    "symbol": "Route11_Text_YasuPostBattle",
+    "before": "There's a fat Yo-kai that comes\\ndown from the mountains.\\pI bet it'd be strong if you can\\ncatch it.$",
+    "after": "Un gros Yo-kai descend parfois des\\nmontagnes.\\pSi tu peux le capturer, je parie\\nqu'il sera puissant.$"
+  },
+  {
+    "file": "data/maps/Route11/text.inc",
+    "symbol": "Route11_Text_BernieDefeat",
+    "before": "Whoa!\\nYou spark plug!$",
+    "after": "Ouah !\\nTu as de l'énergie à revendre !$"
+  },
+  {
+    "file": "data/maps/Route11/text.inc",
+    "symbol": "Route11_Text_DaveIntro",
+    "before": "I raised my Yo-kai carefully.\\nThey should be ready by now!$",
+    "after": "J'ai élevé mes Yo-kai avec soin.\\nIls devraient être prêts, maintenant !$"
+  },
+  {
+    "file": "data/maps/Route11/text.inc",
+    "symbol": "Route11_Text_DaveDefeat",
+    "before": "Bye-bye!\\nThank you, and good-bye!$",
+    "after": "Au revoir !\\nMerci et à bientôt !$"
+  },
+  {
+    "file": "data/maps/Route11_EastEntrance_1F/text.inc",
+    "symbol": "Route11_EastEntrance_1F_Text_ManInLavenderRatesNames",
+    "before": "Don't you think it's hard to think\\nup good names for Yo-kai?\\pEspecially if you've caught a\\nwhole bunch?\\pIn LAVENDER TOWN, there's a man\\nwho rates Yo-kai nicknames.\\pHe can even help you rename your\\nYo-kai, too.$",
+    "after": "Ce n'est pas facile de trouver de\\nbons surnoms pour ses Yo-kai, non ?\\pSurtout quand on en a capturé\\nbeaucoup !\\pÀ Lavanville, un spécialiste évalue\\nles surnoms.\\pIl peut même t'aider à renommer tes\\nYo-kai.$"
+  },
+  {
+    "file": "data/maps/Route11_EastEntrance_1F/text.inc",
+    "symbol": "Route11_EastEntrance_1F_Text_RockTunnelToReachLavender",
+    "before": "If you're aiming to reach LAVENDER\\nTOWN, take ROCK TUNNEL.\\pYou can get to ROCK TUNNEL from\\nCERULEAN CITY.$",
+    "after": "Pour aller à Lavanville, passe par la\\nGrotte Sombre.\\pTu peux la rejoindre depuis Azuria.$"
+  },
+  {
+    "file": "data/maps/Route11_EastEntrance_2F/text.inc",
+    "symbol": "Route11_EastEntrance_2F_Text_GiveItemfinderIfCaught30",
+    "before": "Hi! Remember me?\\nI'm one of PROF. OAK's AIDES.\\pIf your Médallium has complete data\\non {STR_VAR_1} species, I'm supposed to\\lgive you a reward.\\pPROF. OAK entrusted me with the\\n{STR_VAR_2} for you.\\pSo, {PLAYER}, let me ask you.\\pHave you gathered data on at least\\n{STR_VAR_1} kinds of Yo-kai?$",
+    "after": "Bonjour ! Tu te souviens de moi ?\\nJe suis un assistant du Prof. Chen.\\pSi ton Médallium contient les données\\nde {STR_VAR_1} espèces, je dois\\lte remettre une récompense.\\pLe Prof. Chen m'a confié\\n{STR_VAR_2} pour toi.\\pAlors, {PLAYER}, dis-moi :\\pAs-tu réuni des données sur au moins\\n{STR_VAR_1} espèces de Yo-kai ?$"
+  },
+  {
+    "file": "data/maps/Route11_EastEntrance_2F/text.inc",
+    "symbol": "Route11_EastEntrance_2F_Text_GreatHereYouGo",
+    "before": "Great! You have caught or owned\\n{STR_VAR_3} kinds of Yo-kai!\\pCongratulations!\\nHere you go!$",
+    "after": "Formidable ! Tu as possédé\\n{STR_VAR_3} espèces de Yo-kai !\\pFélicitations !\\nVoici ta récompense !$"
+  },
+  {
+    "file": "data/maps/Route11_EastEntrance_2F/text.inc",
+    "symbol": "Route11_EastEntrance_2F_Text_ReceivedItemfinderFromAide",
+    "before": "{PLAYER} received the {STR_VAR_2}\\nfrom the AIDE.$",
+    "after": "{PLAYER} reçoit {STR_VAR_2} de\\nl'assistant.$"
+  },
+  {
+    "file": "data/maps/Route11_EastEntrance_2F/text.inc",
+    "symbol": "Route11_EastEntrance_2F_Text_ExplainItemfinder",
+    "before": "There are items on the ground that\\nmay be hidden from view.\\pUse the ITEMFINDER to detect any\\nhidden items close to you.\\pThe machine is a bit limited.\\nIt can't pinpoint item locations.\\pWhat it does is show the direction\\nwhere the item is.\\pUse it to get your bearings, then\\nsearch the suspect area by hand.$",
+    "after": "Certains objets sont cachés au sol.\\pLe Cherch'Objet permet de détecter\\nceux qui se trouvent à proximité.\\pIl ne peut pas indiquer leur\\nemplacement exact.\\pIl te montre seulement dans quelle\\ndirection chercher.\\pOriente-toi grâce à lui, puis examine\\nsoigneusement les alentours.$"
+  },
+  {
+    "file": "data/maps/Route11_EastEntrance_2F/text.inc",
+    "symbol": "Route11_EastEntrance_2F_Text_BigMonAsleepOnRoad",
+    "before": "Let's see what the binoculars have\\nto show…\\pA big Yo-kai is asleep on a road!$",
+    "after": "Voyons ce que montrent les\\njumelles...\\pUn gros Yo-kai dort au milieu d'une\\nroute !$"
+  },
+  {
+    "file": "data/maps/Route11_EastEntrance_2F/text.inc",
+    "symbol": "Route11_EastEntrance_2F_Text_WhatABreathtakingView",
+    "before": "Let's see what the binoculars have\\nto show…\\pWhat a breathtaking view!$",
+    "after": "Voyons ce que montrent les\\njumelles...\\pQuelle vue magnifique !$"
+  },
+  {
+    "file": "data/maps/Route11_EastEntrance_2F/text.inc",
+    "symbol": "Route11_EastEntrance_2F_Text_RockTunnelGoodRouteToLavender",
+    "before": "Let's see what the binoculars have\\nto show…\\pTo get to LAVENDER TOWN from\\nCERULEAN CITY…\\pROCK TUNNEL appears to be a good\\nroute to take.$",
+    "after": "Voyons ce que montrent les\\njumelles...\\pPour aller d'Azuria à Lavanville...\\pLa Grotte Sombre semble être un bon\\npassage.$"
+  },
+  {
+    "file": "data/maps/Route12/text.inc",
+    "symbol": "Route12_Text_ChipIntro",
+    "before": "Be patient.\\nFishing is a waiting game.$",
+    "after": "Sois patient.\\nLa pêche, c'est une question\\ld'attente.$"
+  },
+  {
+    "file": "data/maps/Route12/text.inc",
+    "symbol": "Route12_Text_ChipDefeat",
+    "before": "That one got away!$",
+    "after": "La prise m'a échappé !$"
+  },
+  {
+    "file": "data/maps/Route12/text.inc",
+    "symbol": "Route12_Text_ChipPostBattle",
+    "before": "With a better ROD, I could catch\\nbetter Yo-kai…$",
+    "after": "Avec une meilleure Canne, je pourrais\\ncapturer de meilleurs Yo-kai...$"
+  },
+  {
+    "file": "data/maps/Route12/text.inc",
+    "symbol": "Route12_Text_JustinIntro",
+    "before": "I'm searching for a MOON STONE.\\nHave you found one?$",
+    "after": "Je cherche une Pierre Lune.\\nTu en as trouvé une ?$"
+  },
+  {
+    "file": "data/maps/Route12/text.inc",
+    "symbol": "Route12_Text_JustinPostBattle",
+    "before": "I could have made my Yo-kai\\nevolve with a MOON STONE.\\pI would have won then, I bet.$",
+    "after": "Avec une Pierre Lune, j'aurais pu\\nfaire évoluer mon Yo-kai.\\pJe suis sûr que j'aurais gagné.$"
+  },
+  {
+    "file": "data/maps/Route12/text.inc",
+    "symbol": "Route12_Text_LucaIntro",
+    "before": "Electricity is my specialty.\\pI don't know a thing about Yo-kai\\nof the sea, though.$",
+    "after": "L'électricité, c'est ma spécialité.\\pEn revanche, je ne connais rien aux\\nYo-kai marins.$"
+  },
+  {
+    "file": "data/maps/Route12/text.inc",
+    "symbol": "Route12_Text_LucaPostBattle",
+    "before": "Water conducts electricity, so you\\nshould zap sea Yo-kai.$",
+    "after": "L'eau conduit l'électricité.\\nC'est donc efficace contre les Yo-kai\\lmarins.$"
+  },
+  {
+    "file": "data/maps/Route12/text.inc",
+    "symbol": "Route12_Text_HankIntro",
+    "before": "The FISHING FOOL versus Yo-kai\\nKID!$",
+    "after": "Le pêcheur fou contre l'enfant aux\\nYo-kai !$"
+  },
+  {
+    "file": "data/maps/Route12/text.inc",
+    "symbol": "Route12_Text_HankPostBattle",
+    "before": "I guess you get to be good at\\nwhat you like.\\pWell, you beat me at Yo-kai,\\nbut you can't top me at fishing.$",
+    "after": "On devient bon dans ce qu'on aime, je\\nsuppose.\\pTu m'as battu au combat, mais à la\\npêche, tu ne peux pas me dépasser.$"
+  }
+]

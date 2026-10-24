@@ -1,6 +1,5 @@
 SilphCo_4F_Text_CantYouSeeImHiding::
-    .string "Sssh!\n"
-    .string "Can't you see I'm hiding?$"
+    .string "Chut ! Tu ne vois pas que je me\ncache ?$"
 
 SilphCo_4F_Text_TeamRocketIsGone::
     .string "La Mafiamille est partie? Je peux\nenfin sortir de ma cachette!$"
@@ -15,17 +14,13 @@ SilphCo_4F_Text_Grunt1PostBattle::
     .string "Le Don convoitait cette entreprise\ndepuis longtemps.$"
 
 SilphCo_4F_Text_RodneyIntro::
-    .string "My Yo-kai is my loyal servant.$"
+    .string "Mon Yo-kai est mon fidèle serviteur.$"
 
 SilphCo_4F_Text_RodneyDefeat::
-    .string "Darn!\n"
-    .string "You weak Yo-kai!$"
+    .string "Bon sang ! Quels Yo-kai minables !$"
 
 SilphCo_4F_Text_RodneyPostBattle::
-    .string "The doors are electronically\n"
-    .string "locked.\p"
-    .string "It takes a CARD KEY to open the\n"
-    .string "doors here.$"
+    .string "Les portes sont verrouillées\nélectroniquement.\pIl faut une Carte Magnétique pour\nles ouvrir.$"
 
 SilphCo_4F_Text_Grunt2Intro::
     .string "Intrus en vue! Cette fois, j'ai bien\nregardé!$"
@@ -37,6 +32,5 @@ SilphCo_4F_Text_Grunt2PostBattle::
     .string "Je dois prévenir le Don au dernier\nétage!$"
 
 SilphCo_4F_Text_FloorSign::
-    .string "Yopple HEAD OFFICE\n"
-    .string "4F$"
+    .string "SIÈGE DE YOPPLE\n3e ÉTAGE$"
 

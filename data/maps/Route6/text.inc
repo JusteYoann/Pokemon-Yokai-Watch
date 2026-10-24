@@ -23,7 +23,7 @@ Route6_Text_KeigoDefeat::
     .string "Non!\nTu plaisantes!$"
 
 Route6_Text_KeigoPostBattle::
-    .string "J'aime les insectes, alors\nje vais retourner à VIRIDIAN FOREST.$"
+    .string "J'aime les insectes, alors\nje vais retourner à FORÊT DE JADE.$"
 
 Route6_Text_JeffIntro::
     .string "Hein?\nTu veux me parler?$"
@@ -53,5 +53,5 @@ Route6_Text_ElijahPostBattle::
     .string "Mes Yo-kai sont faibles?\nOu c'est moi qui suis mauvais?\lQu'en penses-tu?$"
 
 Route6_Text_UndergroundPathSign::
-    .string "PASSAGE SOUTERRAIN\nCERULEAN CITY - VERMILION CITY$"
+    .string "PASSAGE SOUTERRAIN\nAZURIA - CARMIN SUR MER$"
 

@@ -1,10 +1,6 @@
 SaffronCity_Mart_Text_MaxRepelMoreEffectiveThanSuper::
-    .string "MAX REPEL keeps weaker Yo-kai\n"
-    .string "from appearing.\p"
-    .string "MAX REPEL stays effective longer\n"
-    .string "than SUPER REPEL.$"
+    .string "Le Max Repousse éloigne les Yo-kai\nfaibles.\pSon effet dure plus longtemps que\ncelui du Super Repousse.$"
 
 SaffronCity_Mart_Text_ReviveIsCostly::
-    .string "REVIVE is costly, but it revives\n"
-    .string "fainted Yo-kai!$"
+    .string "Le Rappel coûte cher, mais il ranime\nles Yo-kai K.O. !$"
 

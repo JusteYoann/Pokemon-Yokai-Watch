@@ -16,15 +16,20 @@ PewterCity_MorleoneShowActors::
 PewterCity_MorleoneLegacy::
 	setflag FLAG_ARGENTA_MORLEONE_DONE
 PewterCity_MorleoneHideActors::
+	@ Temporary variables reset after entering a building. Keep the entrance
+	@ trigger disabled on every return once the speech has been completed.
+	setvar VAR_TEMP_F, 1
 	setflag FLAG_HIDE_ARGENTA_MAFIA
 	setflag FLAG_HIDE_ARGENTA_MATT
 PewterCity_MorleoneReturn::
 	return
 PewterCity_EventScript_MorleoneArrival::
+	@ Consume even an obsolete trigger before returning. A no-op coord script
+	@ otherwise restarts every frame while the player's step remains pending.
+	setvar VAR_TEMP_F, 1
 	goto_if_set FLAG_ARGENTA_MORLEONE_DONE, PewterCity_MorleoneEnd
 	goto_if_unset FLAG_ARGENTA_MORLEONE_PENDING, PewterCity_MorleoneEnd
 	lockall
-	setvar VAR_TEMP_F, 1
 	getplayerxy VAR_TEMP_D, VAR_TEMP_E
 	msgbox Argenta_MattCall
 	closemessage

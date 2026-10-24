@@ -47,10 +47,10 @@ PewterCity_Gym_Text_YoureChampMaterial::
     .string "Je le savais!\nTu as l'étoffe d'un Maître Yo-kai!$"
 
 PewterCity_Gym_Text_GymStatue::
-    .string "ARÈNE DE PEWTER CITY\nCHAMPION: WYATT\pDRESSEURS VICTORIEUX:\n{RIVAL}$"
+    .string "ARÈNE D'ARGENTA\nChampion : Wyatt\pDRESSEURS VICTORIEUX :\n{RIVAL}$"
 
 PewterCity_Gym_Text_GymStatuePlayerWon::
-    .string "ARÈNE DE PEWTER CITY\nCHAMPION: WYATT\pDRESSEURS VICTORIEUX:\n{RIVAL}, {PLAYER}$"
+    .string "ARÈNE D'ARGENTA\nChampion : Wyatt\pDRESSEURS VICTORIEUX :\n{RIVAL}, {PLAYER}$"
 
 
 PewterCity_Gym_Text_BadgeRoche::

@@ -1,19 +1,9 @@
 CinnabarIsland_PokemonLab_ResearchRoom_Text_EeveeCanEvolveIntroThreeMons::
-    .string "EEVEE can evolve into one of three\n"
-    .string "kinds of Yo-kai.$"
+    .string "Terminyanator peut évoluer en trois\nespèces de Yo-kai différentes.$"
 
 CinnabarIsland_PokemonLab_ResearchRoom_Text_LegendaryBirdEmail::
-    .string "There's an e-mail message.\p"
-    .string "… … …\p"
-    .string "There are three legendary bird\n"
-    .string "Yo-kai.\p"
-    .string "They are ARTICUNO, ZAPDOS, and\n"
-    .string "MOLTRES.\p"
-    .string "Their whereabouts are unknown.\p"
-    .string "We plan to explore the cavern\n"
-    .string "close to CERULEAN.\p"
-    .string "From: Yo-kai RESEARCH TEAM…$"
+    .string "Il y a un message électronique.\p... ... ...\pIl existe trois Yo-kai légendaires :\nLamlam'mou, Savantard et Loupépin.\pOn ignore où ils se trouvent.\pNous prévoyons d'explorer la grotte\nproche d'Azuria.\pÉquipe de recherche sur les Yo-kai.$"
 
 CinnabarIsland_PokemonLab_ResearchRoom_Text_AnAmberPipe::
-    .string "An amber pipe!$"
+    .string "Un conduit en ambre !$"
 

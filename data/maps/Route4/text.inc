@@ -2,7 +2,7 @@ Route4_Text_TrippedOverGeodude::
     .string "Aïe! J'ai trébuché\nsur un Yo-kai!\pIl n'avait pas l'air\nde vouloir bouger d'ici…$"
 
 Route4_Text_CrissyIntro::
-    .string "Je suis venue à MT. MOON\nchercher des Yo-kai rares!$"
+    .string "Je suis venue à MONT SÉLÉNITE\nchercher des Yo-kai rares!$"
 
 Route4_Text_CrissyDefeat::
     .string "Après tous mes efforts\npour les capturer!$"
@@ -11,11 +11,10 @@ Route4_Text_CrissyPostBattle::
     .string "J'ai fouillé partout!\pIl ne doit plus rester\ngrand-chose dans le coin.$"
 
 Route4_Text_MtMoonEntrance::
-    .string "MT. MOON\nEntrée du tunnel$"
+    .string "MONT SÉLÉNITE\nEntrée du tunnel$"
 
 Route4_Text_RouteSign::
-    .string "ROUTE 4\n"
-    .string "MT. MOON - CERULEAN CITY$"
+    .string "ROUTE 4\nMONT SÉLÉNITE - AZURIA$"
 
 Text_MegaPunchTeach::
     .string "Un poing d'une férocité terrible!\pUne puissance dévastatrice!\pUltimapoing est l'attaque ultime\nquand tout se joue sur un coup!\pTu es d'accord, n'est-ce pas?\pAlors, laisse-moi l'enseigner\nà un de tes Yo-kai!$"

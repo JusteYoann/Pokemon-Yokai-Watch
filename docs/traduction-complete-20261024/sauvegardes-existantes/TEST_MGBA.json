@@ -1,0 +1,38 @@
+{
+  "rom_sha256": "5e350381135282f916616c221ef59db974fec501b73579a406c533e5104469e5",
+  "scope": "Previously delivered V2 battery saves, fresh core Continue and controller movement; no source save writes, no whole-adventure flag validation",
+  "results": [
+    {
+      "save": "fin-jeu-151-garcon",
+      "passed": true,
+      "save_bytes": 131072,
+      "source_save_unchanged": true,
+      "start": [
+        6,
+        6
+      ],
+      "end": [
+        7,
+        6
+      ],
+      "pc151_hash": "144c761a8ddbd1efd77046b50d4bc68e9ee01094a0f615b00ef0c8fe441420df",
+      "pc151_unchanged_by_walk": true
+    },
+    {
+      "save": "fin-jeu-151-fille",
+      "passed": true,
+      "save_bytes": 131072,
+      "source_save_unchanged": true,
+      "start": [
+        6,
+        6
+      ],
+      "end": [
+        7,
+        6
+      ],
+      "pc151_hash": "62e2b603be1ba4b42d55c281b9f422dbf629d99a064298b3dbc9c46869c1991d",
+      "pc151_unchanged_by_walk": true
+    }
+  ]
+}

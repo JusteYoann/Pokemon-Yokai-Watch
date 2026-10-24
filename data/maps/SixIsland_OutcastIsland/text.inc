@@ -8,74 +8,52 @@ SixIsland_OutcastIsland_Text_RocketPostBattle::
     .string "Si tu vois un Yo-kai rare, tu me\npréviens? On peut rêver.$"
 
 SixIsland_OutcastIsland_Text_TylorIntro::
-    .string "I'm having no luck at all.\n"
-    .string "A battle'd be a change of pace!$"
+    .string "Je n'ai vraiment pas de chance. Un\ncombat me changera les idées !$"
 
 SixIsland_OutcastIsland_Text_TylorDefeat::
-    .string "Nope, no luck at all…$"
+    .string "Non, vraiment aucune chance…$"
 
 SixIsland_OutcastIsland_Text_TylorPostBattle::
-    .string "I can't very well go home without\n"
-    .string "catching something, though.$"
+    .string "Mais je ne peux tout de même pas\nrentrer sans rien attraper.$"
 
 SixIsland_OutcastIsland_Text_MymoIntro::
-    .string "Gasp… Gasp…\p"
-    .string "I swam here from SIX ISLE PORT\n"
-    .string "in one go.$"
+    .string "Haa… Haa…\pJ'ai nagé depuis le Port de l'Île 6\nsans m'arrêter.$"
 
 SixIsland_OutcastIsland_Text_MymoDefeat::
-    .string "Gasp…\n"
-    .string "Gasp…$"
+    .string "Haa… Haa…$"
 
 SixIsland_OutcastIsland_Text_MymoPostBattle::
-    .string "I'm only at the halfway point…\n"
-    .string "I'm beat…$"
+    .string "Je ne suis qu'à mi-chemin… Je n'en\npeux plus…$"
 
 SixIsland_OutcastIsland_Text_NicoleIntro::
-    .string "It's not so easy sending Yo-kai\n"
-    .string "out while swimming, you know?$"
+    .string "Ce n'est pas facile d'envoyer ses\nYo-kai en nageant, tu sais ?$"
 
 SixIsland_OutcastIsland_Text_NicoleDefeat::
-    .string "I didn't lose to you at swimming.\n"
-    .string "This doesn't bother me.$"
+    .string "Tu ne m'as pas battu à la nage. Ça\nne me fait rien.$"
 
 SixIsland_OutcastIsland_Text_NicolePostBattle::
-    .string "Are you headed for the island up\n"
-    .string "past here?\p"
-    .string "I didn't see anything interesting\n"
-    .string "there.$"
+    .string "Tu vas sur l'île, plus loin ?\pJe n'y ai rien vu d'intéressant.$"
 
 SixIsland_OutcastIsland_Text_AvaIntro::
-    .string "AVA: Let's have a two-on-two\n"
-    .string "marine battle!$"
+    .string "AVA : Faisons un combat marin à deux\ncontre deux !$"
 
 SixIsland_OutcastIsland_Text_AvaDefeat::
-    .string "AVA: Oh, you're amazing!\n"
-    .string "Even better, you're on your own!$"
+    .string "AVA : Oh, tu es incroyable ! Et tu\nes tout seul, en plus !$"
 
 SixIsland_OutcastIsland_Text_AvaPostBattle::
-    .string "AVA: You know, I do prefer the\n"
-    .string "sea over any pool.$"
+    .string "AVA : Tu sais, je préfère largement\nla mer à la piscine.$"
 
 SixIsland_OutcastIsland_Text_AvaNotEnoughMons::
-    .string "AVA: You're challenging us to\n"
-    .string "a battle?\p"
-    .string "You'll need at least two Yo-kai\n"
-    .string "if you want to do that.$"
+    .string "AVA : Tu veux nous défier ?\pIl te faut au moins deux Yo-kai pour\nça.$"
 
 SixIsland_OutcastIsland_Text_GebIntro::
-    .string "GEB: Big Sister, help!\n"
-    .string "Please battle with me!$"
+    .string "GEB : Grande sœur, au secours !\nBats-toi avec moi !$"
 
 SixIsland_OutcastIsland_Text_GebDefeat::
-    .string "GEB: Wow, Big Sister, this person's\n"
-    .string "really good!$"
+    .string "GEB : Ouah, grande sœur, cette\npersonne est vraiment forte !$"
 
 SixIsland_OutcastIsland_Text_GebPostBattle::
-    .string "GEB: I'm hanging onto my sister\n"
-    .string "because I can't touch the bottom.$"
+    .string "GEB : Je m'accroche à ma sœur parce\nque je n'ai pas pied.$"
 
 SixIsland_OutcastIsland_Text_GebNotEnoughMons::
-    .string "GEB: Please battle against me and\n"
-    .string "my sister!\p"
-    .string "…Oh, you don't have two Yo-kai?$"
+    .string "GEB : Affronte ma sœur et moi, s'il\nte plaît !\p… Oh, tu n'as pas deux Yo-kai ?$"

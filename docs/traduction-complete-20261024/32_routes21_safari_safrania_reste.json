@@ -1,0 +1,722 @@
+[
+  {
+    "file": "data/maps/Route21_North/text.inc",
+    "symbol": "Route21_North_Text_RonaldIntro",
+    "before": "You want to know if the fish are\\nbiting?$",
+    "after": "Tu veux savoir si ça mord ?$"
+  },
+  {
+    "file": "data/maps/Route21_North/text.inc",
+    "symbol": "Route21_North_Text_RonaldPostBattle",
+    "before": "I can't catch anything good.\\nNot one good Yo-kai to be had!$",
+    "after": "Je ne pêche rien de bon. Pas un seul\\nYo-kai intéressant !$"
+  },
+  {
+    "file": "data/maps/Route21_North/text.inc",
+    "symbol": "Route21_North_Text_WadeDefeat",
+    "before": "Heheh, MAGIKARP just don't make\\nthe grade, do they?$",
+    "after": "Héhé, les Pachycoul ne font vraiment\\npas le poids, hein ?$"
+  },
+  {
+    "file": "data/maps/Route21_North/text.inc",
+    "symbol": "Route21_North_Text_SpencerIntro",
+    "before": "The sea cleanses my body and soul!$",
+    "after": "La mer purifie mon corps et mon\\nesprit !$"
+  },
+  {
+    "file": "data/maps/Route21_North/text.inc",
+    "symbol": "Route21_North_Text_SpencerPostBattle",
+    "before": "The sea is great and all, but I\\nlike the mountains, too.$",
+    "after": "La mer, c'est formidable, mais j'aime\\naussi la montagne.$"
+  },
+  {
+    "file": "data/maps/Route21_South/text.inc",
+    "symbol": "Route21_South_Text_JackIntro",
+    "before": "I caught my Yo-kai at sea.$",
+    "after": "J'ai attrapé mes Yo-kai en mer.$"
+  },
+  {
+    "file": "data/maps/Route21_South/text.inc",
+    "symbol": "Route21_South_Text_JackPostBattle",
+    "before": "Where'd you catch your Yo-kai?$",
+    "after": "Où as-tu attrapé tes Yo-kai ?$"
+  },
+  {
+    "file": "data/maps/Route21_South/text.inc",
+    "symbol": "Route21_South_Text_JeromeIntro",
+    "before": "Right now, I'm in a triathlon meet.$",
+    "after": "Je participe à un triathlon, là.$"
+  },
+  {
+    "file": "data/maps/Route21_South/text.inc",
+    "symbol": "Route21_South_Text_JeromePostBattle",
+    "before": "I'm beat! But, I still have the\\nbike race and marathon left!$",
+    "after": "Je suis à bout ! Et il me reste\\nencore le vélo et le marathon !$"
+  },
+  {
+    "file": "data/maps/Route21_South/text.inc",
+    "symbol": "Route21_South_Text_RolandIntro",
+    "before": "Ahh!\\nFeel the sun and the wind!$",
+    "after": "Ah ! Profite du soleil et du vent !$"
+  },
+  {
+    "file": "data/maps/Route21_South/text.inc",
+    "symbol": "Route21_South_Text_RolandPostBattle",
+    "before": "I'm sunburnt to a crisp!$",
+    "after": "J'ai attrapé un sacré coup de soleil\\n!$"
+  },
+  {
+    "file": "data/maps/Route21_South/text.inc",
+    "symbol": "Route21_South_Text_ClaudeIntro",
+    "before": "Hey, don't scare away the fish!$",
+    "after": "Hé, ne fais pas fuir les poissons !$"
+  },
+  {
+    "file": "data/maps/Route21_South/text.inc",
+    "symbol": "Route21_South_Text_ClaudeDefeat",
+    "before": "Sorry! I'm just so frustrated from\\nnot catching anything.$",
+    "after": "Pardon ! Ne rien attraper me rend\\ntellement irritable.$"
+  },
+  {
+    "file": "data/maps/Route21_South/text.inc",
+    "symbol": "Route21_South_Text_ClaudePostBattle",
+    "before": "Sheesh, I haven't caught a thing.\\nCould this place actually be a\\lgiant pool or something?$",
+    "after": "Pfff, pas une prise. Ce serait une\\npiscine géante, en fait ?$"
+  },
+  {
+    "file": "data/maps/Route21_South/text.inc",
+    "symbol": "Route21_South_Text_NolanDefeat",
+    "before": "That burned some time.$",
+    "after": "Ça m'a fait passer le temps.$"
+  },
+  {
+    "file": "data/maps/Route21_South/text.inc",
+    "symbol": "Route21_North_Text_LilIntro",
+    "before": "LIL: Huh? A battle?\\nIAN, can't you do it alone?$",
+    "after": "LIL : Hein ? Un combat ? IAN, tu ne\\npeux pas te débrouiller seul ?$"
+  },
+  {
+    "file": "data/maps/Route21_South/text.inc",
+    "symbol": "Route21_North_Text_LilPostBattle",
+    "before": "LIL: I'm tired.\\nCan't we go home already?$",
+    "after": "LIL : Je suis fatiguée. On peut\\nrentrer, maintenant ?$"
+  },
+  {
+    "file": "data/maps/Route21_South/text.inc",
+    "symbol": "Route21_North_Text_LilNotEnoughMons",
+    "before": "LIL: Huh? A battle?\\nI can't be bothered to do it alone.\\lBring two Yo-kai, won't you?$",
+    "after": "LIL : Hein ? Un combat ? Je n'ai pas\\nenvie de me battre seule. Reviens\\lavec deux Yo-kai, d'accord ?$"
+  },
+  {
+    "file": "data/maps/Route21_South/text.inc",
+    "symbol": "Route21_North_Text_IanIntro",
+    "before": "IAN: My sis doesn't get enough\\nexercise, so I made her come.$",
+    "after": "IAN : Ma sœur ne fait pas assez\\nd'exercice, alors je l'ai fait venir.$"
+  },
+  {
+    "file": "data/maps/Route21_South/text.inc",
+    "symbol": "Route21_North_Text_IanPostBattle",
+    "before": "IAN: Come on, Sis!\\pYou're not going to lose weight\\nlike this!$",
+    "after": "IAN : Allez, frangine !\\pCe n'est pas comme ça que tu vas\\nperdre du poids !$"
+  },
+  {
+    "file": "data/maps/Route21_South/text.inc",
+    "symbol": "Route21_North_Text_IanNotEnoughMons",
+    "before": "IAN: We want a two-on-two battle.\\nSo can you bring two Yo-kai?$",
+    "after": "IAN : On veut un combat à deux\\ncontre deux. Tu peux revenir avec\\ldeux Yo-kai ?$"
+  },
+  {
+    "file": "data/maps/Route5/text.inc",
+    "symbol": "Route5_Text_UndergroundPathSign",
+    "before": "PASSAGE SOUTERRAIN\\nCERULEAN CITY - VERMILION CITY$",
+    "after": "PASSAGE SOUTERRAIN\\nAZURIA - CARMIN SUR MER$"
+  },
+  {
+    "file": "data/maps/Route6/text.inc",
+    "symbol": "Route6_Text_UndergroundPathSign",
+    "before": "PASSAGE SOUTERRAIN\\nCERULEAN CITY - VERMILION CITY$",
+    "after": "PASSAGE SOUTERRAIN\\nAZURIA - CARMIN SUR MER$"
+  },
+  {
+    "file": "data/maps/Route7/text.inc",
+    "symbol": "Route7_Text_UndergroundPathSign",
+    "before": "UNDERGROUND PATH\\nCELADON CITY - LAVENDER TOWN$",
+    "after": "PASSAGE SOUTERRAIN\\nCÉLADOPOLE - LAVANVILLE$"
+  },
+  {
+    "file": "data/maps/Route7_EastEntrance/text.inc",
+    "symbol": "Route7_EastEntrance_Text_ThirstyOnGuardDuty",
+    "before": "I'm on guard duty.\\nGee, I'm thirsty, though!\\pOh, wait there, the road's closed.$",
+    "after": "Je monte la garde. Mais qu'est-ce\\nque j'ai soif !\\pHé, attends ! La route est fermée.$"
+  },
+  {
+    "file": "data/maps/Route7_EastEntrance/text.inc",
+    "symbol": "Route7_EastEntrance_Text_ThatTeaLooksTasty",
+    "before": "Oh, that TEA…\\nIt looks awfully tasty…$",
+    "after": "Oh, ce Thé… Il a l'air délicieux…$"
+  },
+  {
+    "file": "data/maps/Route7_EastEntrance/text.inc",
+    "symbol": "Route7_EastEntrance_Text_ThanksIllShareTeaWithGuards",
+    "before": "Huh? I can have this drink?\\nGee, thanks!\\l… …\\lGlug, glug…\\l… …\\lGulp…\\lIf you want to go to SAFFRON\\lCITY…\\l… …\\lYou can go on through.\\pI'll share this TEA with the other\\nguards!$",
+    "after": "Quoi ? Je peux le boire ? Merci\\nbeaucoup !\\p… … Glou, glou… … … Ah !\\pSi tu veux aller à Safrania… … … Tu\\npeux passer.\\pJe partagerai ce Thé avec les autres\\ngardes !$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_AidanIntro",
+    "before": "You look good at Yo-kai, but how\\nis your chemistry grade?$",
+    "after": "Tu as l'air de t'y connaître en\\nYo-kai. Mais tu as combien en chimie\\l?$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_AidanPostBattle",
+    "before": "I am better at school than this!$",
+    "after": "Je suis meilleur à l'école qu'en\\ncombat !$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_StanIntro",
+    "before": "All right!\\nLet's play a game!$",
+    "after": "D'accord ! Faisons une partie !$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_GlennIntro",
+    "before": "You should be informed.\\nYou need strategy to win at this!$",
+    "after": "Il faut que tu le saches : sans\\nstratégie, impossible de gagner !$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_GlennPostBattle",
+    "before": "Go with GRIMER first…and…\\n…and…then…$",
+    "after": "Je commence avec Appak… Et… Et\\nensuite…$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_PaigePostBattle",
+    "before": "When Yo-kai grow up, they get\\nugly! They shouldn't evolve.$",
+    "after": "Quand les Yo-kai grandissent, ils\\ndeviennent laids ! Ils ne devraient\\lpas évoluer.$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_LeslieIntro",
+    "before": "School is fun, but so are Yo-kai.$",
+    "after": "L'école, c'est amusant. Les Yo-kai\\naussi !$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_LeslieDefeat",
+    "before": "You made it clear to me that\\nI should stick with school.$",
+    "after": "Tu m'as fait comprendre que je ferais\\nmieux d'étudier.$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_LesliePostBattle",
+    "before": "I was planning on getting some\\nfresh air for a change, but…\\pWe're stuck here because of the\\ngates at SAFFRON.$",
+    "after": "Je voulais prendre l'air pour\\nchanger, mais…\\pLes portes de Safrania sont fermées.\\nNous voilà coincés ici.$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_AndreaIntro",
+    "before": "MEOWTH is so cute, meow, meow,\\nmeow!$",
+    "after": "Bouh est trop mignon ! Miaou, miaou,\\nmiaou !$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_AndreaPostBattle",
+    "before": "I think PIDGEY and RATTATA are\\ncute, too!$",
+    "after": "Je trouve Kyubi et Robonyan 28\\nmignons aussi !$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_MeganIntro",
+    "before": "We must look silly standing here\\nlike this.$",
+    "after": "On doit avoir l'air bête, à rester\\nplantées ici.$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_MeganDefeat",
+    "before": "Look what you did to my poor, cute\\nYo-kai!$",
+    "after": "Regarde ce que tu as fait à mes\\npauvres petits Yo-kai !$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_MeganPostBattle",
+    "before": "SAFFRON's gatekeeper won't let us\\ngo through.\\pI know he's doing his job, but I\\nthink he's mean.$",
+    "after": "Le garde de Safrania refuse de nous\\nlaisser passer.\\pJe sais qu'il fait son travail, mais\\nje le trouve méchant.$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_RichIntro",
+    "before": "I'm a rambling, gaming dude!$",
+    "after": "Je suis un joueur qui ne tient pas en\\nplace !$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_RichDefeat",
+    "before": "Missed the big chance!$",
+    "after": "J'ai raté le gros lot !$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_RichPostBattle",
+    "before": "Playing games and Yo-kai are like\\neating peanuts! I just can't stop!$",
+    "after": "Les jeux et les Yo-kai, c'est comme\\nles cacahuètes : je ne peux plus\\lm'arrêter !$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_JuliaIntro",
+    "before": "What's a cute, round, and fluffy\\nYo-kai?$",
+    "after": "Quel Yo-kai est mignon, rond et tout\\ndoux ?$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_JuliaDefeat",
+    "before": "Stop!\\pDon't be so mean to my CLEFAIRY!$",
+    "after": "Arrête !\\pNe sois pas si méchant avec mon\\nTauracle !$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_JuliaPostBattle",
+    "before": "I read that CLEFAIRY evolves when\\nit's exposed to a MOON STONE.\\pI read that in a Yo-kai JOURNAL.\\nI wonder if it's true?$",
+    "after": "J'ai lu que Tauracle évolue au\\ncontact d'une Pierre Lune.\\pC'était dans un magazine sur les\\nYo-kai. Je me demande si c'est vrai.$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_UndergroundPathSign",
+    "before": "UNDERGROUND PATH\\nCELADON CITY - LAVENDER TOWN$",
+    "after": "PASSAGE SOUTERRAIN\\nCÉLADOPOLE - LAVANVILLE$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_EliIntro",
+    "before": "ELI: Twin power is fantastic.\\nDid you know?$",
+    "after": "ELI : La force des jumelles, c'est\\nformidable. Tu savais ?$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_EliPostBattle",
+    "before": "ELI: I caught my Yo-kai with\\nANNE!$",
+    "after": "ELI : J'ai attrapé mes Yo-kai avec\\nANNE !$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_EliNotEnoughMons",
+    "before": "ELI: We can't battle if you don't\\nhave two Yo-kai.$",
+    "after": "ELI : On ne peut pas se battre si tu\\nn'as pas deux Yo-kai.$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_AnneIntro",
+    "before": "ANNE: We'll shock you with our twin\\npower!$",
+    "after": "ANNE : Notre force de jumelles va te\\nsurprendre !$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_AnnePostBattle",
+    "before": "ANNE: I'm raising Yo-kai with\\nELI.$",
+    "after": "ANNE : J'élève des Yo-kai avec ELI.$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_AnneNotEnoughMons",
+    "before": "ANNE: Hi, hi! Let's battle!\\nBut bring two Yo-kai.$",
+    "after": "ANNE : Coucou ! On se bat ? Mais\\nreviens avec deux Yo-kai.$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_RicardoDefeat",
+    "before": "Aww, man.\\nI'm not into this.$",
+    "after": "Oh, mince. Ça ne me plaît pas.$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_RicardoPostBattle",
+    "before": "I got grass caught up in my\\nspokes, man.$",
+    "after": "J'ai de l'herbe coincée dans les\\nrayons, vieux.$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_JarenIntro",
+    "before": "Clear the way, or I'll run you\\ndown!$",
+    "after": "Pousse-toi ou je te roule dessus !$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_JarenDefeat",
+    "before": "You for real, kid?$",
+    "after": "Tu plaisantes, petit ?$"
+  },
+  {
+    "file": "data/maps/Route8/text.inc",
+    "symbol": "Route8_Text_JarenPostBattle",
+    "before": "Don't think you're all special and\\nall just because of this.$",
+    "after": "Ne va pas te croire exceptionnel\\npour autant.$"
+  },
+  {
+    "file": "data/maps/Route8_WestEntrance/text.inc",
+    "symbol": "Route8_WestEntrance_Text_ThirstyOnGuardDuty",
+    "before": "I'm on guard duty.\\nGee, I'm thirsty, though!\\pOh, wait there, the road's closed.$",
+    "after": "Je monte la garde. Mais qu'est-ce\\nque j'ai soif !\\pHé, attends ! La route est fermée.$"
+  },
+  {
+    "file": "data/maps/Route8_WestEntrance/text.inc",
+    "symbol": "Route8_WestEntrance_Text_ThatTeaLooksTasty",
+    "before": "Oh, that TEA…\\nIt looks awfully tasty…$",
+    "after": "Oh, ce Thé… Il a l'air délicieux…$"
+  },
+  {
+    "file": "data/maps/Route8_WestEntrance/text.inc",
+    "symbol": "Route8_WestEntrance_Text_ThanksIllShareTeaWithGuards",
+    "before": "Huh? I can have this drink?\\nGee, thanks!\\l… …\\lGlug, glug…\\l… …\\lGulp…\\lIf you want to go to SAFFRON\\lCITY…\\l… …\\lYou can go on through.\\pI'll share this TEA with the other\\nguards!$",
+    "after": "Quoi ? Je peux le boire ? Merci\\nbeaucoup !\\p… … Glou, glou… … … Ah !\\pSi tu veux aller à Safrania… … … Tu\\npeux passer.\\pJe partagerai ce Thé avec les autres\\ngardes !$"
+  },
+  {
+    "file": "data/maps/Route9/text.inc",
+    "symbol": "Route9_Text_AliciaIntro",
+    "before": "You have Yo-kai with you!\\nYou're mine!$",
+    "after": "Tu as des Yo-kai ! Tu es à moi !$"
+  },
+  {
+    "file": "data/maps/Route9/text.inc",
+    "symbol": "Route9_Text_AliciaPostBattle",
+    "before": "The tunnel coming up is pitch-black\\ninside.\\pYou'll need FLASH to get through\\nthere.$",
+    "after": "Le tunnel qui vient est plongé dans\\nle noir.\\pIl te faudra Flash pour le traverser.$"
+  },
+  {
+    "file": "data/maps/Route9/text.inc",
+    "symbol": "Route9_Text_ChrisIntro",
+    "before": "Who's that walking there with those\\ngood-looking Yo-kai?$",
+    "after": "Qui se promène par ici avec d'aussi\\nbeaux Yo-kai ?$"
+  },
+  {
+    "file": "data/maps/Route9/text.inc",
+    "symbol": "Route9_Text_DrewIntro",
+    "before": "I'm taking the ROCK TUNNEL to\\ngo to LAVENDER…$",
+    "after": "Je traverse la Grotte Sombre pour\\naller à Lavanville…$"
+  },
+  {
+    "file": "data/maps/Route9/text.inc",
+    "symbol": "Route9_Text_DrewDefeat",
+    "before": "Can't measure up…$",
+    "after": "Je ne suis pas à la hauteur…$"
+  },
+  {
+    "file": "data/maps/Route9/text.inc",
+    "symbol": "Route9_Text_DrewPostBattle",
+    "before": "Are you off to ROCK TUNNEL, too?$",
+    "after": "Tu vas aussi à la Grotte Sombre ?$"
+  },
+  {
+    "file": "data/maps/Route9/text.inc",
+    "symbol": "Route9_Text_CaitlinIntro",
+    "before": "Don't you dare patronize me!$",
+    "after": "Ne me prends pas de haut !$"
+  },
+  {
+    "file": "data/maps/Route9/text.inc",
+    "symbol": "Route9_Text_CaitlinDefeat",
+    "before": "No!\\nYou're too much.$",
+    "after": "Non ! Tu es trop fort.$"
+  },
+  {
+    "file": "data/maps/Route9/text.inc",
+    "symbol": "Route9_Text_CaitlinPostBattle",
+    "before": "You're obviously talented.\\nGood luck to you!$",
+    "after": "Tu as du talent, c'est évident. Bonne\\nchance !$"
+  },
+  {
+    "file": "data/maps/Route9/text.inc",
+    "symbol": "Route9_Text_JeremyDefeat",
+    "before": "Keep it coming, eh!\\pOh wait.\\nI'm out of Yo-kai!$",
+    "after": "Je peux continuer, tu sais !\\pAh, attends. Je n'ai plus de Yo-kai !$"
+  },
+  {
+    "file": "data/maps/Route9/text.inc",
+    "symbol": "Route9_Text_JeremyPostBattle",
+    "before": "You sure had guts standing up to\\nme there, eh?$",
+    "after": "Tu as eu du cran de m'affronter !$"
+  },
+  {
+    "file": "data/maps/Route9/text.inc",
+    "symbol": "Route9_Text_BriceIntro",
+    "before": "Hahaha!\\nAren't you a little toughie!$",
+    "after": "Hahaha ! Tu ne te laisses pas faire\\n!$"
+  },
+  {
+    "file": "data/maps/Route9/text.inc",
+    "symbol": "Route9_Text_BriceDefeat",
+    "before": "What's that?$",
+    "after": "Qu'est-ce que c'est ?$"
+  },
+  {
+    "file": "data/maps/Route9/text.inc",
+    "symbol": "Route9_Text_BrentIntro",
+    "before": "I got up early every day to raise\\nmy Yo-kai from cocoons!$",
+    "after": "Je me suis levé tôt tous les jours\\npour élever mes Yo-kai depuis le\\lcocon !$"
+  },
+  {
+    "file": "data/maps/Route9/text.inc",
+    "symbol": "Route9_Text_BrentDefeat",
+    "before": "WHAT?\\pWhat a total waste of time!$",
+    "after": "QUOI ?\\pTout ce temps pour rien !$"
+  },
+  {
+    "file": "data/maps/Route9/text.inc",
+    "symbol": "Route9_Text_BrentPostBattle",
+    "before": "I have to collect more than bugs\\nto get stronger…$",
+    "after": "Pour progresser, je dois attraper\\nautre chose que des insectes…$"
+  },
+  {
+    "file": "data/maps/Route9/text.inc",
+    "symbol": "Route9_Text_ConnerPostBattle",
+    "before": "If you don't like BUG Yo-kai,\\nyou bug me!$",
+    "after": "Si tu n'aimes pas les Yo-kai Insecte,\\ntu me cherches !$"
+  },
+  {
+    "file": "data/maps/SafariZone_Center/text.inc",
+    "symbol": "SafariZone_Center_Text_PressStartToCheckTime",
+    "before": "TRAINER TIPS\\pPress START to check\\nremaining time.$",
+    "after": "CONSEILS AUX DRESSEURS\\pAppuyez sur START pour connaître le\\ntemps restant.$"
+  },
+  {
+    "file": "data/maps/SafariZone_Center_RestHouse/text.inc",
+    "symbol": "SafariZone_Center_Text_CatchingMonsAsGifts",
+    "before": "I'm catching Yo-kai to take home\\nas gifts.$",
+    "after": "J'attrape des Yo-kai pour les offrir\\nen rentrant.$"
+  },
+  {
+    "file": "data/maps/SafariZone_East/text.inc",
+    "symbol": "SafariZone_East_Text_TimeDeclinesOnlyWhileYouWalk",
+    "before": "TRAINER TIPS\\pThe remaining time declines only\\nwhile you walk.$",
+    "after": "CONSEILS AUX DRESSEURS\\pLe temps restant ne diminue que\\nlorsque vous marchez.$"
+  },
+  {
+    "file": "data/maps/SafariZone_East_RestHouse/text.inc",
+    "symbol": "SafariZone_East_Text_HowManyDidYouCatch",
+    "before": "How many did you catch?\\nI'm bushed from the effort!$",
+    "after": "Tu en as attrapé combien ? Je n'en\\npeux plus !$"
+  },
+  {
+    "file": "data/maps/SafariZone_East_RestHouse/text.inc",
+    "symbol": "SafariZone_East_Text_CaughtChanseyAllWorthwhile",
+    "before": "I caught a CHANSEY!\\pThat makes this all worthwhile.$",
+    "after": "J'ai attrapé un Sal de bain !\\pÇa valait vraiment le coup de venir.$"
+  },
+  {
+    "file": "data/maps/SafariZone_East_RestHouse/text.inc",
+    "symbol": "SafariZone_East_Text_TiredFromAllTheFun",
+    "before": "Whew!\\nI'm tired from all the fun!$",
+    "after": "Ouf ! Je me suis tellement amusé que\\nje suis épuisé !$"
+  },
+  {
+    "file": "data/maps/SafariZone_North/text.inc",
+    "symbol": "SafariZone_North_Text_SecretHouseStillAhead",
+    "before": "TRAINER TIPS\\pThe SECRET HOUSE is still ahead.$",
+    "after": "CONSEILS AUX DRESSEURS\\pLa Cabane Secrète est plus loin.$"
+  },
+  {
+    "file": "data/maps/SafariZone_North/text.inc",
+    "symbol": "SafariZone_North_Text_ZigzagThroughTallGrass",
+    "before": "TRAINER TIPS\\pYo-kai hide in tall grass.\\pZigzag through grassy areas to\\nflush them out.$",
+    "after": "CONSEILS AUX DRESSEURS\\pLes Yo-kai se cachent dans les\\nhautes herbes.\\pParcourez-les en zigzag pour les\\ndébusquer.$"
+  },
+  {
+    "file": "data/maps/SafariZone_North/text.inc",
+    "symbol": "SafariZone_North_Text_WinFreeHMFindSecretHouse",
+    "before": "TRAINER TIPS\\pWin a free HM for finding the\\nSECRET HOUSE.$",
+    "after": "CONSEILS AUX DRESSEURS\\pTrouvez la Cabane Secrète pour\\ngagner une CS !$"
+  },
+  {
+    "file": "data/maps/SafariZone_North_RestHouse/text.inc",
+    "symbol": "SafariZone_East_Text_KeepAnyItemFoundOnSafari",
+    "before": "You can keep any item you find in\\nthe SAFARI ZONE.\\pBut, you'll run out of time if you\\ntry for all of them at once.$",
+    "after": "Tu peux garder tous les objets que\\ntu trouves au Parc Safari.\\pMais si tu veux tout prendre d'un\\ncoup, le temps te manquera.$"
+  },
+  {
+    "file": "data/maps/SafariZone_North_RestHouse/text.inc",
+    "symbol": "SafariZone_East_Text_PrizeInDeepestPartOfSafariZone",
+    "before": "Go to the deepest part of the\\nSAFARI ZONE. You will win a prize!$",
+    "after": "Va tout au fond du Parc Safari. Tu\\ngagneras un prix !$"
+  },
+  {
+    "file": "data/maps/SafariZone_North_RestHouse/text.inc",
+    "symbol": "SafariZone_East_Text_MyEeveeEvolvedIntoFlareon",
+    "before": "My EEVEE evolved into FLAREON.\\pBut, a friend's EEVEE turned into a\\nVAPOREON. I wonder why?$",
+    "after": "Mon Terminyanator a évolué en\\nFourchelangue.\\pMais celui d'un ami est devenu\\nSabruine. Pourquoi ?$"
+  },
+  {
+    "file": "data/maps/SafariZone_SecretHouse/text.inc",
+    "symbol": "SafariZone_SecretHouse_Text_CongratsYouveWon",
+    "before": "Ah! Finally!\\pYou're the first person to reach\\nthe SECRET HOUSE!\\pAlthough I made a campaign\\nfor our grand opening,\\pI was getting worried that no one\\nwould win our campaign prize.\\pCongratulations!\\nYou have won!$",
+    "after": "Ah ! Enfin !\\pTu es la première personne à\\natteindre la Cabane Secrète !\\pJ'avais lancé un grand concours pour\\nnotre ouverture…\\pMais je commençais à craindre que\\npersonne ne remporte le prix.\\pFélicitations ! Tu as gagné !$"
+  },
+  {
+    "file": "data/maps/SafariZone_SecretHouse/text.inc",
+    "symbol": "SafariZone_SecretHouse_Text_ReceivedHM03FromAttendant",
+    "before": "{PLAYER} received HM03\\nfrom the attendant!$",
+    "after": "{PLAYER} reçoit la CS03 des mains du\\nresponsable !$"
+  },
+  {
+    "file": "data/maps/SafariZone_SecretHouse/text.inc",
+    "symbol": "SafariZone_SecretHouse_Text_ExplainSurf",
+    "before": "HM03 is SURF.\\pYo-kai will be able to ferry you\\nacross water using it.\\pAnd, this HM isn't disposable, so\\nyou can use it over and over.\\pYou're super lucky for winning this\\nfabulous prize!$",
+    "after": "La CS03 contient Surf.\\pGrâce à elle, tes Yo-kai pourront te\\ntransporter sur l'eau.\\pUne CS ne s'use pas : tu peux\\nl'utiliser autant de fois que tu veux.\\pQuelle chance de gagner un prix\\naussi fabuleux !$"
+  },
+  {
+    "file": "data/maps/SafariZone_SecretHouse/text.inc",
+    "symbol": "SafariZone_SecretHouse_Text_DontHaveRoomForPrize",
+    "before": "You don't have room for this\\nfabulous prize!$",
+    "after": "Tu n'as pas de place pour ce prix\\nfabuleux !$"
+  },
+  {
+    "file": "data/maps/SafariZone_West/text.inc",
+    "symbol": "SafariZone_West_Text_PleaseFindWardensLostTeeth",
+    "before": "REQUEST NOTICE\\pPlease find the SAFARI WARDEN's\\nlost GOLD TEETH.\\lThey're around here somewhere.\\pReward offered!\\nContact: WARDEN$",
+    "after": "AVIS DE RECHERCHE\\pMerci de retrouver la Dent d'Or\\nperdue par le Gardien du Safari. Elle\\lse trouve quelque part ici.\\pRécompense offerte ! S'adresser au\\nGardien.$"
+  },
+  {
+    "file": "data/maps/SafariZone_West/text.inc",
+    "symbol": "SafariZone_West_Text_SearchForSecretHouse",
+    "before": "TRAINER TIPS\\pZone Exploration Campaign!\\nThe Search for the SECRET HOUSE!$",
+    "after": "CONSEILS AUX DRESSEURS\\pGrand jeu d'exploration ! À la\\nrecherche de la Cabane Secrète !$"
+  },
+  {
+    "file": "data/maps/SafariZone_West_RestHouse/text.inc",
+    "symbol": "SafariZone_West_Text_KogaPatrolsSafariEverySoOften",
+    "before": "The SAFARI ZONE's huge, wouldn't\\nyou say?\\pFUCHSIA's GYM LEADER, KOGA, \\npatrols the grounds every so often.\\pThanks to him, we can play here\\nknowing that we're safe.$",
+    "after": "Le Parc Safari est immense, tu ne\\ntrouves pas ?\\pBérénice, la Championne de Parmanie,\\ny fait régulièrement des rondes.\\pGrâce à elle, on peut s'y amuser en\\ntoute sécurité.$"
+  },
+  {
+    "file": "data/maps/SafariZone_West_RestHouse/text.inc",
+    "symbol": "SafariZone_West_Text_RocksMakeMonRunButEasierCatch",
+    "before": "Tossing ROCKS at Yo-kai might\\nmake them run, but they'll be\\leasier to catch.$",
+    "after": "Lancer des cailloux peut faire fuir\\nles Yo-kai, mais ils seront plus\\lfaciles à attraper.$"
+  },
+  {
+    "file": "data/maps/SafariZone_West_RestHouse/text.inc",
+    "symbol": "SafariZone_West_Text_BaitMakesMonStickAround",
+    "before": "Using BAIT will make Yo-kai more\\nlikely to stick around if they get\\lbusy eating.$",
+    "after": "Avec un appât, les Yo-kai restent\\nplus volontiers sur place pour\\lmanger.$"
+  },
+  {
+    "file": "data/maps/SafariZone_West_RestHouse/text.inc",
+    "symbol": "SafariZone_West_Text_HikedLotsDidntSeeMonIWanted",
+    "before": "I hiked a lot, but I didn't see any\\nYo-kai I wanted.$",
+    "after": "J'ai beaucoup marché, mais je n'ai vu\\naucun Yo-kai qui m'intéressait.$"
+  },
+  {
+    "file": "data/maps/SaffronCity/text.inc",
+    "symbol": "SaffronCity_Text_WhatDoYouWantGetLost",
+    "before": "What do you want?\\nGet lost!$",
+    "after": "Qu'est-ce que tu veux ? Dégage !$"
+  },
+  {
+    "file": "data/maps/SaffronCity/text.inc",
+    "symbol": "SaffronCity_Text_DontGetDefiantOrIllHurtYou",
+    "before": "Don't get defiant!\\nOr I'll have to hurt you!$",
+    "after": "Ne me défie pas ! Ou tu vas le\\nregretter !$"
+  },
+  {
+    "file": "data/maps/SaffronCity/text.inc",
+    "symbol": "SaffronCity_Text_CriminalLifeMakesMeFeelAlive",
+    "before": "My life as a criminal makes me feel\\nso alive!$",
+    "after": "La vie de criminel, ça me donne des\\nfrissons !$"
+  },
+  {
+    "file": "data/maps/SaffronCity/text.inc",
+    "symbol": "SaffronCity_Text_WatchWhereYoureWalking",
+    "before": "Ow!\\nWatch where you're walking!$",
+    "after": "Aïe ! Regarde où tu marches !$"
+  },
+  {
+    "file": "data/maps/SaffronCity/text.inc",
+    "symbol": "SaffronCity_Text_WeCanExploitMonsAroundWorld",
+    "before": "With Yopple under control, we can\\nexploit Yo-kai around the world!\\pWe'll get stinking rich, yeahah!$",
+    "after": "Maintenant qu'on contrôle Yopple, on\\nva exploiter les Yo-kai du monde\\lentier !\\pOn va devenir riches ! Ouais !$"
+  },
+  {
+    "file": "data/maps/SaffronCity/text.inc",
+    "symbol": "SaffronCity_Text_FlewHereOnPidgeot",
+    "before": "I flew here on my PIDGEOT when\\nI read about Yopple.\\pIt's already over?\\nI missed the media action…$",
+    "after": "J'ai volé jusqu'ici sur mon Robonyan\\nF après avoir lu les nouvelles de\\lYopple.\\pC'est déjà fini ? J'ai raté le scoop…$"
+  },
+  {
+    "file": "data/maps/SaffronCity/text.inc",
+    "symbol": "SaffronCity_Text_ImASecurityGuard",
+    "before": "I'm a security guard.\\pSuspicious kids I don't allow in!$",
+    "after": "Je suis agent de sécurité.\\pJe ne laisse pas entrer les gamins\\nsuspects !$"
+  },
+  {
+    "file": "data/maps/SaffronCity/text.inc",
+    "symbol": "SaffronCity_Text_CitySign",
+    "before": "SAFFRON CITY\\nShining, Golden Land of Commerce$",
+    "after": "SAFRANIA\\nLa cité dorée du commerce$"
+  },
+  {
+    "file": "data/maps/SaffronCity/text.inc",
+    "symbol": "SaffronCity_Text_FullHealCuresStatus",
+    "before": "TRAINER TIPS\\pFULL HEAL cures all ailments like\\nburns, paralysis, poisoning,\\lfreezing, and sleep.\\pIt costs a bit more, but it's more\\nconvenient than buying other items.$",
+    "after": "CONSEILS AUX DRESSEURS\\pLe Total Soin guérit tous les\\nproblèmes de statut : brûlure,\\lparalysie, poison, gel et sommeil.\\pIl coûte un peu plus cher, mais\\névite d'acheter plusieurs remèdes.$"
+  },
+  {
+    "file": "data/maps/SaffronCity/text.inc",
+    "symbol": "SaffronCity_Text_GreatBallImprovedCatchRate",
+    "before": "TRAINER TIPS\\pThe new GREAT BALL offers improved\\ncatching rates.\\pTry it on those hard-to-catch\\nYo-kai.$",
+    "after": "CONSEILS AUX DRESSEURS\\pLa Super Ball offre un meilleur taux\\nde capture.\\pEssayez-la sur les Yo-kai difficiles à\\nattraper.$"
+  },
+  {
+    "file": "data/maps/SaffronCity/text.inc",
+    "symbol": "SaffronCity_Text_SilphsLatestProduct",
+    "before": "Yopple's latest product!\\nRelease to be determined…$",
+    "after": "Le dernier produit de Yopple ! Date\\nde sortie à confirmer…$"
+  },
+  {
+    "file": "data/maps/SaffronCity/text.inc",
+    "symbol": "SaffronCity_Text_TrainerFanClubSign",
+    "before": "Dresseur de Yo-kai FAN CLUB\\pMany TRAINERS have scribbled their\\nnames on this sign.$",
+    "after": "FAN-CLUB DES DRESSEURS\\pDe nombreux Dresseurs ont griffonné\\nleur nom sur cette pancarte.$"
+  },
+  {
+    "file": "data/maps/SaffronCity/text.inc",
+    "symbol": "SaffronCity_Text_HowCanClubNotRecognizeLance",
+    "before": "This FAN CLUB…\\nNo one here has a clue!\\pHow could they not recognize\\nthe brilliance that is LANCE?\\pHe stands for justice!\\nHe's cool, and yet passionate!\\lHe's the greatest, LANCE!$",
+    "after": "Ce fan-club… Ils n'y connaissent rien\\n!\\pComment peuvent-ils ignorer le génie\\nde Maître Nyada ?\\pIl défend la justice ! Il est calme\\net passionné à la fois ! C'est le\\lmeilleur, Maître Nyada !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_CopycatsHouse_1F/text.inc",
+    "symbol": "SaffronCity_CopycatsHouse_1F_Text_DaughterIsSelfCentered",
+    "before": "My daughter is so self-centered.\\nShe has but a few friends.$",
+    "after": "Ma fille ne pense qu'à elle. Elle n'a\\npas beaucoup d'amis.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_CopycatsHouse_1F/text.inc",
+    "symbol": "SaffronCity_CopycatsHouse_1F_Text_DaughterLikesToMimicPeople",
+    "before": "My daughter likes to mimic people.\\nIt's rather vexing.\\pHer mimicry has earned her the\\nnickname COPYCAT around here.$",
+    "after": "Ma fille adore imiter les gens. C'est\\nassez agaçant.\\pÀ force, tout le monde l'appelle la\\nCopieuse.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_CopycatsHouse_2F/text.inc",
+    "symbol": "SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyMale",
+    "before": "{PLAYER}: Hi!\\nDo you like Yo-kai?\\p{PLAYER}: Uh, no, I just asked you.\\p{PLAYER}: Huh?\\nYou're strange!\\pCOPYCAT: Hmm? Quit mimicking?\\nBut, that's my favorite hobby!$",
+    "after": "{PLAYER} : Salut ! Tu aimes les\\nYo-kai ?\\p{PLAYER} : Euh, non, c'est moi qui te\\nle demande.\\p{PLAYER} : Hein ? Tu es bizarre !\\pLa Copieuse : Quoi ? Que j'arrête de\\nt'imiter ? Mais c'est mon passe-temps\\lfavori !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_CopycatsHouse_2F/text.inc",
+    "symbol": "SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemale",
+    "before": "{PLAYER}: Hi.\\nYou must like Yo-kai.\\p{PLAYER}: No, not me.\\nI asked you.\\p{PLAYER}: Pardon?\\nYou're weird!\\l \\lCOPYCAT: Hmm? Quit mimicking?\\lBut that's my favorite hobby!$",
+    "after": "{PLAYER} : Salut. Tu dois aimer les\\nYo-kai.\\p{PLAYER} : Non, pas moi. C'est à toi\\nque je demande.\\p{PLAYER} : Pardon ? Tu es bizarre !\\pLa Copieuse : Quoi ? Que j'arrête de\\nt'imiter ? Mais c'est mon passe-temps\\lfavori !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_CopycatsHouse_2F/text.inc",
+    "symbol": "Text_MimicTeach",
+    "before": "Oh wow!\\nA POKé DOLL!\\pFor me?\\nThank you!\\pYou know what?\\nI can teach the move MIMIC.$",
+    "after": "Oh, super ! Une Poképoupée !\\pPour moi ? Merci !\\pTu sais quoi ? Je peux enseigner la\\ncapacité Copie.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_CopycatsHouse_2F/text.inc",
+    "symbol": "Text_MimicDeclined",
+    "before": "Don't you like MIMIC?$",
+    "after": "Tu n'aimes pas Copie ?$"
+  }
+]

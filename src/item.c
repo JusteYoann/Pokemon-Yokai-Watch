@@ -18,6 +18,10 @@ void SortAndCompactBagPocket(struct BagPocket * pocket);
 // Item descriptions and data
 #include "data/items.h"
 
+static const u8 sBerryNamePrefix[] = _("Baie ");
+static const u8 sBerriesNamePrefix[] = _("Baies ");
+static const u8 sPluralLetter[] = _("s");
+
 u16 GetBagItemQuantity(u16 * ptr)
 {
     return gSaveBlock2Ptr->encryptionKey ^ *ptr;
@@ -74,12 +78,31 @@ void CopyItemName(u16 itemId, u8 * dest)
 {
     if (itemId == ITEM_ENIGMA_BERRY)
     {
-        StringCopy(dest, GetBerryInfo(ITEM_TO_BERRY(ITEM_ENIGMA_BERRY))->name);
-        StringAppend(dest, gText_Berry);
+        StringCopy(dest, sBerryNamePrefix);
+        StringAppend(dest, GetBerryInfo(ITEM_TO_BERRY(ITEM_ENIGMA_BERRY))->name);
     }
     else
     {
         StringCopy(dest, ItemId_GetName(itemId));
+    }
+}
+
+void CopyItemNameHandlePlural(u16 itemId, u8 *dest, u32 quantity)
+{
+    if (quantity > 1 && itemId >= FIRST_BERRY_INDEX && itemId <= LAST_BERRY_INDEX)
+    {
+        // French inflects the noun before the variety, not the variety's suffix.
+        StringCopy(dest, sBerriesNamePrefix);
+        if (itemId == ITEM_ENIGMA_BERRY)
+            StringAppend(dest, GetBerryInfo(ITEM_TO_BERRY(itemId))->name);
+        else
+            StringAppend(dest, ItemId_GetName(itemId) + 5); // "Baie "
+    }
+    else
+    {
+        CopyItemName(itemId, dest);
+        if (quantity > 1 && itemId == ITEM_POKE_BALL)
+            StringAppend(dest, sPluralLetter);
     }
 }
 

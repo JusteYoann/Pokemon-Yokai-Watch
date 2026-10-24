@@ -1,0 +1,786 @@
+{
+  "passed": true,
+  "scope": "French names/inflections/status graphics with native calls and controller UI.\nFixtures are explicit; this is not an uninterrupted full-adventure playthrough.\n",
+  "rom_sha256": "5e350381135282f916616c221ef59db974fec501b73579a406c533e5104469e5",
+  "results": [
+    {
+      "test": "New game by controller",
+      "gender": 0,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_PALLET_TOWN",
+      "name": "BOURG PALETTE",
+      "width": 78,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_VIRIDIAN_CITY",
+      "name": "JADIELLE",
+      "width": 48,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_PEWTER_CITY",
+      "name": "ARGENTA",
+      "width": 42,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_CERULEAN_CITY",
+      "name": "AZURIA",
+      "width": 36,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_LAVENDER_TOWN",
+      "name": "LAVANVILLE",
+      "width": 60,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_VERMILION_CITY",
+      "name": "CARMIN SUR MER",
+      "width": 84,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_CELADON_CITY",
+      "name": "CÉLADOPOLE",
+      "width": 60,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_FUCHSIA_CITY",
+      "name": "PARMANIE",
+      "width": 48,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_CINNABAR_ISLAND",
+      "name": "CRAMOIS’ÎLE",
+      "width": 63,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_INDIGO_PLATEAU",
+      "name": "PLATEAU INDIGO",
+      "width": 84,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_SAFFRON_CITY",
+      "name": "SAFRANIA",
+      "width": 48,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_VIRIDIAN_FOREST",
+      "name": "FORÊT DE JADE",
+      "width": 78,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_MT__MOON",
+      "name": "MONT SÉLÉNITE",
+      "width": 78,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_S_S__ANNE",
+      "name": "L’OCÉANE",
+      "width": 45,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_UNDERGROUND_PATH",
+      "name": "PASSAGE SOUTERRAIN",
+      "width": 108,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_UNDERGROUND_PATH_Clone",
+      "name": "PASSAGE SOUTERRAIN",
+      "width": 108,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_DIGLETT_S_CAVE",
+      "name": "CAVE DE BAKUKU",
+      "width": 84,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_VICTORY_ROAD",
+      "name": "ROUTE VICTOIRE",
+      "width": 84,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_POK__MON_MANSION",
+      "name": "MANOIR YO-KAI",
+      "width": 78,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_SAFARI_ZONE",
+      "name": "PARC SAFARI",
+      "width": 66,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_ROCK_TUNNEL",
+      "name": "GROTTE SOMBRE",
+      "width": 78,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_SEAFOAM_ISLANDS",
+      "name": "ÎLES ÉCUME",
+      "width": 60,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_POK__MON_TOWER",
+      "name": "TOUR YO-KAI",
+      "width": 66,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_CERULEAN_CAVE",
+      "name": "CAVERNE AZURÉE",
+      "width": 84,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_POWER_PLANT",
+      "name": "CENTRALE",
+      "width": 48,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_ONE_ISLAND",
+      "name": "ÎLE 1",
+      "width": 30,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_TWO_ISLAND",
+      "name": "ÎLE 2",
+      "width": 30,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_THREE_ISLAND",
+      "name": "ÎLE 3",
+      "width": 30,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_FOUR_ISLAND",
+      "name": "ÎLE 4",
+      "width": 30,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_FIVE_ISLAND",
+      "name": "ÎLE 5",
+      "width": 30,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_SEVEN_ISLAND",
+      "name": "ÎLE 7",
+      "width": 30,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_SIX_ISLAND",
+      "name": "ÎLE 6",
+      "width": 30,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_KINDLE_ROAD",
+      "name": "ROUTE TISON",
+      "width": 66,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_TREASURE_BEACH",
+      "name": "PLAGE TRÉSOR",
+      "width": 72,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_CAPE_BRINK",
+      "name": "CAP FALAISE",
+      "width": 66,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_BOND_BRIDGE",
+      "name": "PONT DU LIEN",
+      "width": 72,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_THREE_ISLE_PORT",
+      "name": "PORT DE L’ÎLE 3",
+      "width": 87,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_SEVII_ISLE_6",
+      "name": "ÎLE SEVII 6",
+      "width": 66,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_SEVII_ISLE_7",
+      "name": "ÎLE SEVII 7",
+      "width": 66,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_SEVII_ISLE_8",
+      "name": "ÎLE SEVII 8",
+      "width": 66,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_SEVII_ISLE_9",
+      "name": "ÎLE SEVII 9",
+      "width": 66,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_RESORT_GORGEOUS",
+      "name": "CAMP DE VACANCES",
+      "width": 96,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_WATER_LABYRINTH",
+      "name": "LABYRINTHE D’EAU",
+      "width": 93,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_FIVE_ISLE_MEADOW",
+      "name": "PRÉ ÎLE 5",
+      "width": 54,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_MEMORIAL_PILLAR",
+      "name": "PILIER DU SOUVENIR",
+      "width": 108,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_OUTCAST_ISLAND",
+      "name": "ÎLE DU LOINTAIN",
+      "width": 90,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_GREEN_PATH",
+      "name": "CHEMIN VERT",
+      "width": 66,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_WATER_PATH",
+      "name": "AGUALCANAL",
+      "width": 60,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_RUIN_VALLEY",
+      "name": "VALLÉE RUINE",
+      "width": 72,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_TRAINER_TOWER",
+      "name": "TOUR DES DRESSEURS",
+      "width": 108,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_CANYON_ENTRANCE",
+      "name": "ENTRÉE DU CANYON",
+      "width": 96,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_SEVAULT_CANYON",
+      "name": "CANYON SÉVAULT",
+      "width": 84,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_TANOBY_RUINS",
+      "name": "RUINES TANOBY",
+      "width": 78,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_SEVII_ISLE_22",
+      "name": "ÎLE SEVII 22",
+      "width": 72,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_SEVII_ISLE_23",
+      "name": "ÎLE SEVII 23",
+      "width": 72,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_SEVII_ISLE_24",
+      "name": "ÎLE SEVII 24",
+      "width": 72,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_NAVEL_ROCK",
+      "name": "ROC NOMBRI",
+      "width": 60,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_MT__EMBER",
+      "name": "MONT BRAISE",
+      "width": 66,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_BERRY_FOREST",
+      "name": "BOIS AUX BAIES",
+      "width": 84,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_ICEFALL_CAVE",
+      "name": "GROTTE DE GLACE",
+      "width": 90,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_TRAINER_TOWER_Clone",
+      "name": "TOUR DES DRESSEURS",
+      "width": 108,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_DOTTED_HOLE",
+      "name": "TROU PERCÉ",
+      "width": 60,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_LOST_CAVE",
+      "name": "GROTTE PERDUE",
+      "width": 78,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_PATTERN_BUSH",
+      "name": "BOSQUET",
+      "width": 42,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_ALTERING_CAVE",
+      "name": "GROTTE MÉTAMO",
+      "width": 78,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_TANOBY_CHAMBERS",
+      "name": "CHAMBRES TANOBY",
+      "width": 90,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_THREE_ISLE_PATH",
+      "name": "CHEMIN ÎLE 3",
+      "width": 72,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_TANOBY_KEY",
+      "name": "CLÉ TANOBY",
+      "width": 60,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_BIRTH_ISLAND",
+      "name": "ÎLE AURORE",
+      "width": 60,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_MONEAN_CHAMBER",
+      "name": "CHAMBRE ANEMONE",
+      "width": 90,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_LIPTOO_CHAMBER",
+      "name": "CHAMBRE DEUXPOIS",
+      "width": 96,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_WEEPTH_CHAMBER",
+      "name": "CHAMBRE PROIS",
+      "width": 78,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_DILFORD_CHAMBER",
+      "name": "CHAMBRE JONQUATRE",
+      "width": 102,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_SCUFIB_CHAMBER",
+      "name": "CHAMBRE IRISIA",
+      "width": 84,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_RIXY_CHAMBER",
+      "name": "CHAMBRE ORCHIDÉE",
+      "width": 96,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_VIAPOIS_CHAMBER",
+      "name": "CHAMBRE POINSEPT",
+      "width": 96,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_EMBER_SPA",
+      "name": "SOURCE BRAISE",
+      "width": 78,
+      "passed": true
+    },
+    {
+      "test": "Linked French map name",
+      "symbol": "sMapsecName_CELADON_DEPT_",
+      "name": "CENTRE COMMERCIAL",
+      "width": 102,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 133,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 134,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 135,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 136,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 137,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 138,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 139,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 140,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 141,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 142,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 143,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 144,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 145,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 146,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 147,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 148,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 149,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 150,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 151,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 152,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 153,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 154,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 155,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 156,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 157,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 158,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 159,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 160,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 161,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 162,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 163,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 164,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 165,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 166,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 167,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 168,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 169,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 170,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 171,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 172,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 173,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 174,
+      "passed": true
+    },
+    {
+      "test": "French berry plural, same variety",
+      "item": 175,
+      "passed": true
+    },
+    {
+      "test": "1006 native vocabulary strings and 72px column bound",
+      "passed": true
+    },
+    {
+      "test": "Native party loads localized SOM/GEL/BRU/K.O., preserves PSN/PAR/PKRS",
+      "passed": true
+    },
+    {
+      "test": "New game by controller",
+      "gender": 1,
+      "passed": true
+    }
+  ]
+}

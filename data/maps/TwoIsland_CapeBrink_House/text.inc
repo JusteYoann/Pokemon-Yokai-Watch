@@ -1,53 +1,26 @@
 Text_UltimateMoveThatMon::
-    .string "I perfected the ultimate move of\n"
-    .string "its type…\p"
-    .string "But will no one take it for\n"
-    .string "future use?\p"
-    .string "…Hm? Hmmm!\p"
-    .string "Y-you…\n"
-    .string "Th-that {STR_VAR_1}…$"
+    .string "J'ai perfectionné la capacité ultime\nde son type…\pMais personne ne veut la transmettre\naux générations futures ?\p… Hmm ? Hmmm !\pT-toi… Ce {STR_VAR_1}…$"
 
 Text_JustMistaken::
-    .string "…No…\n"
-    .string "I was just mistaken.$"
+    .string "… Non… Je me suis trompée.$"
 
 Text_AllowMeToTeachMonUltimateMove::
-    .string "Oh! This is the one!\n"
-    .string "This is the Yo-kai!\p"
-    .string "This {STR_VAR_1} is worthy of\n"
-    .string "learning my ultimate move!\p"
-    .string "Will you allow it?\p"
-    .string "Will you allow your {STR_VAR_1} to\n"
-    .string "learn my {STR_VAR_2}?$"
+    .string "Oh ! C'est lui ! C'est le bon Yo-kai\n!\pCe {STR_VAR_1} est digne\nd'apprendre ma capacité ultime !\pL'acceptes-tu ?\pAcceptes-tu que ton {STR_VAR_1}\napprenne ma capacité {STR_VAR_2}\l?$"
 
 Text_YouRejectIt::
-    .string "Gaah! You reject it?\n"
-    .string "No, I won't be dissuaded!$"
+    .string "Quoi ? Tu refuses ? Non, je\nn'abandonnerai pas !$"
 
 Text_LetMeConferUltimateMove::
-    .string "You will allow it?\p"
-    .string "Then, let me confer my ultimate\n"
-    .string "{STR_VAR_2} on your {STR_VAR_1}.\p"
-    .string "Ggggrah-awooo!$"
+    .string "Tu acceptes ?\pAlors, je vais transmettre ma\ncapacité ultime, {STR_VAR_2}, à\lton {STR_VAR_1}.\pGrrraaa-ouh !$"
 
 Text_TaughtMove::
-    .string "Gasp, gasp, gasp…\p"
-    .string "I didn't think I could teach that\n"
-    .string "move while I still lived…$"
+    .string "Haa, haa, haa…\pJe ne pensais pas pouvoir enseigner\ncette capacité de mon vivant…$"
 
 Text_MakeBestUseOfMove::
-    .string "I implore you to make the best\n"
-    .string "use of that move and gain power!$"
+    .string "Je t'en supplie : fais bon usage de\ncette capacité et gagne en puissance\l!$"
 
 Text_PassedOnEverythingIKnow::
-    .string "Gasp, gasp, gasp…\p"
-    .string "I have no regrets now.\n"
-    .string "I've passed on everything I know.\p"
-    .string "Now I can live out my life knowing\n"
-    .string "my work is done.$"
+    .string "Haa, haa, haa…\pJe n'ai plus de regrets. J'ai transmis\ntout mon savoir.\pJe peux finir mes jours l'esprit\ntranquille, mon œuvre est accomplie.$"
 
 Text_FeelRejuvenated::
-    .string "After I passed on my knowledge to\n"
-    .string "you, I felt so much relief.\p"
-    .string "In fact, I feel rejuvenated,\n"
-    .string "as if I were younger again!$"
+    .string "Après t'avoir transmis mon savoir, j'ai\nressenti un tel soulagement…\pJe me sens même rajeunir !$"

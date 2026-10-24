@@ -1,86 +1,39 @@
 TwoIsland_Text_IslandSign::
-    .string "TWO ISLAND\n"
-    .string "Boon Island for Two$"
+    .string "ÎLE 2\nL'île du bonheur à deux$"
 
 TwoIsland_Text_JoyfulGameCornerSign::
-    .string "Skip & Chomp!\n"
-    .string "Joyful GAME CORNER$"
+    .string "Sauts et gobe-Baies !\nSALLE DE JEU JOYEUSE$"
 
 TwoIsland_Text_DangerFastCurrent::
-    .string "DANGER! FAST CURRENT!\n"
-    .string "Fishing and surfing prohibited!$"
+    .string "DANGER ! COURANT VIOLENT !\nPêche et Surf interdits !$"
 
 TwoIsland_Text_WelcomeToShopMerchandiseLimited::
-    .string "Oh!\n"
-    .string "Hello, welcome to my shop!\p"
-    .string "We've only opened up recently.\p"
-    .string "Our merchandise is limited, but I\n"
-    .string "hope we can serve your needs.$"
+    .string "Oh ! Bonjour, bienvenue dans mon\nmagasin !\pNous venons d'ouvrir.\pNous n'avons pas encore beaucoup de\nproduits, mais j'espère que tu\ltrouveras ton bonheur.$"
 
 TwoIsland_Text_AddedMerchandiseForLostelle::
-    .string "I can't tell you how grateful I am\n"
-    .string "for your rescue of LOSTELLE.\p"
-    .string "Thanks to your feat, the people of\n"
-    .string "THREE ISLAND have changed their\l"
-    .string "attitudes about KANTO people.\p"
-    .string "And, I'm from KANTO, you see.\p"
-    .string "The people of THREE ISLAND\n"
-    .string "helped me add to my merchandise.$"
+    .string "Je ne te remercierai jamais assez\nd'avoir sauvé Lostelle.\pGrâce à toi, les habitants de l'Île 3\nont changé d'avis sur les gens de\lKanto.\pTu vois, moi aussi, je viens de\nKanto.\pLes habitants de l'Île 3 m'ont aidé à\nétoffer mon stock.$"
 
 TwoIsland_Text_HopeYouGiveItYourBest::
-    .string "Hi! I'm giving it my best here.\n"
-    .string "I hope you do too, {PLAYER}.$"
+    .string "Salut ! Je fais de mon mieux ici.\nJ'espère que toi aussi, {PLAYER}.$"
 
 TwoIsland_Text_BringingItemsFromDistantLands::
-    .string "Oh, hello, {PLAYER}!\n"
-    .string "Welcome!\p"
-    .string "I've started bringing in items from\n"
-    .string "distant lands.\p"
-    .string "I've got some rare items in, too.\n"
-    .string "Please have a look!$"
+    .string "Oh, bonjour, {PLAYER} ! Bienvenue !\pJ'importe maintenant des objets de\ncontrées lointaines.\pJ'ai même des objets rares. Jette\ndonc un œil !$"
 
 TwoIsland_Text_FellowMovedFromCeladonCity::
-    .string "That fellow there, he moved here\n"
-    .string "from CELADON CITY.\p"
-    .string "He started up a shop with his\n"
-    .string "younger brother.\p"
-    .string "You have to wonder if he knew what\n"
-    .string "he was getting into.$"
+    .string "Cet homme-là vient de Céladopole.\pIl a ouvert une boutique avec son\npetit frère.\pJe me demande s'il savait dans quoi\nil s'engageait.$"
 
 TwoIsland_Text_ShopkeepersBrotherWorksGameCorner::
-    .string "The shopkeeper's brother took\n"
-    .string "a job at the GAME CORNER.\p"
-    .string "He's trying to pull together money\n"
-    .string "so they can buy more merchandise.$"
+    .string "Le frère du commerçant a trouvé un\ntravail à la Salle de Jeu.\pIl essaie de gagner de quoi acheter\ndavantage de marchandises.$"
 
 TwoIsland_Text_BrunoCameToIslandWhileBack::
-    .string "Listen, listen.\n"
-    .string "Did you know?\p"
-    .string "A famous TRAINER came to the\n"
-    .string "ISLAND a little while back.\p"
-    .string "He's one of the ELITE FOUR.\n"
-    .string "His name is BRUNO.\p"
-    .string "He went away disappointed when he\n"
-    .string "found out that they were all sold\l"
-    .string "out of Rage Candybars.$"
+    .string "Écoute, écoute. Tu savais ?\pUn célèbre Dresseur est venu sur\nl'île il y a quelque temps.\pIl s'appelle Aldo et fait partie du\nConseil 4.\pIl est reparti déçu : ils n'avaient\nplus de Bonbons Rage.$"
 
 TwoIsland_Text_BuyRareItemsHere::
-    .string "The discerning TRAINER knows to\n"
-    .string "buy rare items here!$"
+    .string "Les Dresseurs avertis achètent leurs\nobjets rares ici !$"
 
 TwoIsland_Text_OldWomanLivesOutOnCape::
-    .string "There's an old woman who lives in\n"
-    .string "a cottage out on the cape.\p"
-    .string "She gives the eye to Yo-kai.\n"
-    .string "It's a bit unnerving.$"
+    .string "Une vieille dame vit dans une petite\nmaison sur le cap.\pElle dévisage les Yo-kai. C'est un\npeu inquiétant.$"
 
 TwoIsland_Text_HaveYouTriedJumpingGame::
-    .string "Boing! Boing!\n"
-    .string "Have you tried the jumping game?\p"
-    .string "The Yo-kai you can enter…\n"
-    .string "Boing!\p"
-    .string "Some go boing!\p"
-    .string "And some go boooooooing!\p"
-    .string "Did you know that?\n"
-    .string "Boing!$"
+    .string "Boïng ! Boïng ! Tu as essayé le jeu\nde saut ?\pLes Yo-kai qui peuvent participer…\nBoïng !\pCertains font boïng !\pEt d'autres font booooïng !\pTu savais ? Boïng !$"
 

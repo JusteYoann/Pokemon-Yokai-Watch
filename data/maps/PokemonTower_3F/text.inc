@@ -1,36 +1,27 @@
 PokemonTower_3F_Text_HopeIntro::
-    .string "Urrg… Awaa…\n"
-    .string "Huhu… Graa…$"
+    .string "Grrr… Aaa… Houhou… Graa…$"
 
 PokemonTower_3F_Text_HopeDefeat::
-    .string "Hwa!\n"
-    .string "I'm saved!$"
+    .string "Ah !\nJe suis sauvée !$"
 
 PokemonTower_3F_Text_HopePostBattle::
-    .string "The ghosts can be identified by\n"
-    .string "the Yopple SCOPE.$"
+    .string "Le Scope Yopple permet d'identifier\nles fantômes.$"
 
 PokemonTower_3F_Text_CarlyIntro::
-    .string "Kekeke…\n"
-    .string "Kwaaah!$"
+    .string "Héhéhé… Gwaaah !$"
 
 PokemonTower_3F_Text_CarlyDefeat::
-    .string "Hmm?\n"
-    .string "What am I doing?$"
+    .string "Hmm ?\nQu'est-ce que je fais ici ?$"
 
 PokemonTower_3F_Text_CarlyPostBattle::
-    .string "Sorry!\n"
-    .string "I was possessed!$"
+    .string "Pardon !\nJ'étais possédée !$"
 
 PokemonTower_3F_Text_PatriciaIntro::
-    .string "Be gone!\n"
-    .string "Malevolent spirit!$"
+    .string "Va-t'en ! Esprit maléfique !$"
 
 PokemonTower_3F_Text_PatriciaDefeat::
-    .string "Whew!\n"
-    .string "The spirit left!$"
+    .string "Ouf !\nL'esprit est parti !$"
 
 PokemonTower_3F_Text_PatriciaPostBattle::
-    .string "The others above…\n"
-    .string "They must have been possessed.$"
+    .string "Les autres, plus haut...\nElles doivent être possédées.$"
 

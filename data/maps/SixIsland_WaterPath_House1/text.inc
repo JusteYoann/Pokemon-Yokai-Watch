@@ -1,51 +1,30 @@
 SixIsland_WaterPath_House1_Text_LoveItNeedItHeracross::
-    .string "Hera, hera, HERACROSS!\n"
-    .string "Big and shiny, it's the bug boss!\l"
-    .string "Love it, need it, HERACROSS!$"
+    .string "Scar, Scar, Scarhino ! Grand et\nbrillant, c'est le roi des insectes !\lOn l'adore, Scarhino !$"
 
 SixIsland_WaterPath_House1_Text_MayIMeasureHeracross::
-    .string "Eeeeek!\n"
-    .string "That's a HERACROSS!\p"
-    .string "Please, please, may I measure how\n"
-    .string "big it is?$"
+    .string "Hiiii ! C'est un Scarhino !\pS'il te plaît, je peux le mesurer ?$"
 
 SixIsland_WaterPath_House1_Text_ItsXInchesDeserveReward::
-    .string "Eeeek, it's {STR_VAR_2} inches!\n"
-    .string "I've never seen anything like this!\l"
-    .string "You deserve a reward!$"
+    .string "Hiiii, il mesure {STR_VAR_2}\npouces ! Je n'ai jamais vu ça ! Tu\lmérites une récompense !$"
 
 SixIsland_WaterPath_House1_Text_WantToSeeBiggerOne::
-    .string "I want to see a much, much bigger\n"
-    .string "HERACROSS than that one.\p"
-    .string "Oh, how I adore them, big\n"
-    .string "HERACROSS!$"
+    .string "Je veux voir un Scarhino beaucoup,\nbeaucoup plus grand.\pOh, comme je les adore, les grands\nScarhino !$"
 
 SixIsland_WaterPath_House1_Text_ItsXInchesSameAsBefore::
-    .string "Huh? This {STR_VAR_2}-inch measurement…\n"
-    .string "Oh, boo! It's the same as before.$"
+    .string "Hein ? {STR_VAR_2} pouces… Oh,\nzut ! C'est comme la dernière fois.$"
 
 SixIsland_WaterPath_House1_Text_ItsXInchesYInchesWasBiggest::
-    .string "Oh, it's just {STR_VAR_2} inches.\n"
-    .string "The HERACROSS before was bigger.\p"
-    .string "It was {STR_VAR_3} inches, the biggest\n"
-    .string "HERACROSS you've brought me.$"
+    .string "Oh, seulement {STR_VAR_2}\npouces. Le précédent Scarhino était\lplus grand.\pIl mesurait {STR_VAR_3} pouces :\nc'est le plus grand que tu m'aies\lmontré.$"
 
 SixIsland_WaterPath_House1_Text_ThisWontDo::
-    .string "Oh, no! This won't do!\p"
-    .string "HERACROSS looks much more macho\n"
-    .string "and cool, and has a lovely horn!$"
+    .string "Oh, non ! Ça ne va pas !\pScarhino a bien plus de prestance et\nune superbe corne !$"
 
 SixIsland_WaterPath_House1_Text_YourBagIsFull::
-    .string "Your BAG is full.\n"
-    .string "My reward won't fit.$"
+    .string "Ton Sac est plein. Tu n'as pas de\nplace pour ma récompense.$"
 
 SixIsland_WaterPath_House1_Text_BiggestHeracrossIsXInches::
-    .string "The biggest HERACROSS that I have\n"
-    .string "ever seen measured so far is:\p"
-    .string "{STR_VAR_3} inches!$"
+    .string "Le plus grand Scarhino que j'aie\njamais mesuré faisait…\p{STR_VAR_3} pouces !$"
 
 SixIsland_WaterPath_House1_Text_BlankChartOfSomeSort::
-    .string "It's a blank chart of some sort.\p"
-    .string "It has spaces for writing in\n"
-    .string "records of some kind.$"
+    .string "On dirait un tableau vierge.\pDes cases permettent d'y noter des\nrecords.$"
 

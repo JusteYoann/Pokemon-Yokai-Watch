@@ -1,58 +1,49 @@
 VictoryRoad_2F_Text_DawsonIntro::
-    .string "If you can get through here,\n"
-    .string "you can go meet the ELITE FOUR.$"
+    .string "Si tu traverses cet endroit, tu\npourras rencontrer le Conseil 4.$"
 
 VictoryRoad_2F_Text_DawsonDefeat::
-    .string "No!\n"
-    .string "Unbelievable!$"
+    .string "Non ! Incroyable !$"
 
 VictoryRoad_2F_Text_DawsonPostBattle::
-    .string "I can beat you when it comes to\n"
-    .string "knowledge about Yo-kai!$"
+    .string "En connaissances sur les Yo-kai, je\npeux te battre !$"
 
 VictoryRoad_2F_Text_DaisukeIntro::
-    .string "This here is VICTORY ROAD.\n"
-    .string "It's the final test for TRAINERS!$"
+    .string "Voici la Route Victoire. L'épreuve\nfinale des Dresseurs !$"
 
 VictoryRoad_2F_Text_DaisukeDefeat::
-    .string "Atcho!$"
+    .string "Atchoum !$"
 
 VictoryRoad_2F_Text_DaisukePostBattle::
-    .string "If you get stuck, try moving some\n"
-    .string "boulders around.$"
+    .string "Si tu es bloqué, essaie de déplacer\nles rochers.$"
 
 VictoryRoad_2F_Text_NelsonIntro::
-    .string "Ah, so you wish to challenge the\n"
-    .string "ELITE FOUR?$"
+    .string "Ah, tu souhaites défier le Conseil 4\n?$"
 
 VictoryRoad_2F_Text_NelsonDefeat::
-    .string "You got me!$"
+    .string "Tu m’as eu !$"
 
 VictoryRoad_2F_Text_NelsonPostBattle::
-    .string "{RIVAL} also came through here.$"
+    .string "{RIVAL} est aussi passé par ici.$"
 
 VictoryRoad_2F_Text_VincentIntro::
-    .string "Come on!\n"
-    .string "I'll whip you!$"
+    .string "Viens ! Je vais te battre à plate\ncouture !$"
 
 VictoryRoad_2F_Text_VincentDefeat::
-    .string "I got whipped!$"
+    .string "Tu m'as écrasé !$"
 
 VictoryRoad_2F_Text_VincentPostBattle::
-    .string "You earned the right to be on\n"
-    .string "VICTORY ROAD…$"
+    .string "Tu as mérité ta place sur la Route\nVictoire…$"
 
 VictoryRoad_2F_Text_GregoryIntro::
-    .string "Is VICTORY ROAD too tough?$"
+    .string "La Route Victoire est trop difficile ?$"
 
 VictoryRoad_2F_Text_GregoryDefeat::
-    .string "Well done!$"
+    .string "Bien joué !$"
 
 VictoryRoad_2F_Text_GregoryPostBattle::
-    .string "Many TRAINERS give up their\n"
-    .string "challenge here and go home.$"
+    .string "Beaucoup de Dresseurs renoncent ici\net rentrent chez eux.$"
 
 @ Unused, old text for Moltres
 VictoryRoad_2F_Text_Gyaoo::
-    .string "ギヤーオ！$"
+    .string "Gyaoooh !$"
 

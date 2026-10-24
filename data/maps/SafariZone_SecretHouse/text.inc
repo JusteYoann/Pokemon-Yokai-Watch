@@ -1,28 +1,12 @@
 SafariZone_SecretHouse_Text_CongratsYouveWon::
-    .string "Ah! Finally!\p"
-    .string "You're the first person to reach\n"
-    .string "the SECRET HOUSE!\p"
-    .string "Although I made a campaign\n"
-    .string "for our grand opening,\p"
-    .string "I was getting worried that no one\n"
-    .string "would win our campaign prize.\p"
-    .string "Congratulations!\n"
-    .string "You have won!$"
+    .string "Ah ! Enfin !\pTu es la première personne à\natteindre la Cabane Secrète !\pJ'avais lancé un grand concours pour\nnotre ouverture…\pMais je commençais à craindre que\npersonne ne remporte le prix.\pFélicitations ! Tu as gagné !$"
 
 SafariZone_SecretHouse_Text_ReceivedHM03FromAttendant::
-    .string "{PLAYER} received HM03\n"
-    .string "from the attendant!$"
+    .string "{PLAYER} reçoit la CS03 des mains du\nresponsable !$"
 
 SafariZone_SecretHouse_Text_ExplainSurf::
-    .string "HM03 is SURF.\p"
-    .string "Yo-kai will be able to ferry you\n"
-    .string "across water using it.\p"
-    .string "And, this HM isn't disposable, so\n"
-    .string "you can use it over and over.\p"
-    .string "You're super lucky for winning this\n"
-    .string "fabulous prize!$"
+    .string "La CS03 contient Surf.\pGrâce à elle, tes Yo-kai pourront te\ntransporter sur l'eau.\pUne CS ne s'use pas : tu peux\nl'utiliser autant de fois que tu veux.\pQuelle chance de gagner un prix\naussi fabuleux !$"
 
 SafariZone_SecretHouse_Text_DontHaveRoomForPrize::
-    .string "You don't have room for this\n"
-    .string "fabulous prize!$"
+    .string "Tu n'as pas de place pour ce prix\nfabuleux !$"
 

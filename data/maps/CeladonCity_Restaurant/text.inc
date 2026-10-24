@@ -1,37 +1,24 @@
 CeladonCity_Restaurant_Text_TakingBreakRightNow::
-    .string "Hi!\p"
-    .string "Sorry, but we're taking a break\n"
-    .string "right now.$"
+    .string "Bonjour !\pDésolé, nous sommes en pause pour le\nmoment.$"
 
 CeladonCity_Restaurant_Text_OftenGoToDrugstore::
-    .string "My Yo-kai are weak, so I often\n"
-    .string "have to go to the DRUGSTORE.$"
+    .string "Mes Yo-kai sont fragiles, alors je\ndois souvent passer à la pharmacie.$"
 
 CeladonCity_Restaurant_Text_PsstBasementUnderGameCorner::
-    .string "Psst! There's a basement under the\n"
-    .string "GAME CORNER, I hear.$"
+    .string "Psst ! Il paraît qu'il y a un\nsous-sol sous le Casino.$"
 
 CeladonCity_Restaurant_Text_ManLostItAllAtSlots::
-    .string "Munch…\p"
-    .string "The man at that table lost it all\n"
-    .string "at the slots.$"
+    .string "Miam...\pL'homme à cette table a tout perdu\naux machines à sous.$"
 
 CeladonCity_Restaurant_Text_TakeThisImBusted::
-    .string "Go ahead! Laugh!\n"
-    .string "I'm flat-out busted!\p"
-    .string "No more slots for me!\n"
-    .string "I'm going straight!\p"
-    .string "Here!\n"
-    .string "I won't be needing this anymore!$"
+    .string "Vas-y, moque-toi !\nJe suis complètement fauché !\pLes machines à sous, c'est fini !\nJe vais me reprendre en main !\pTiens !\nJe n'aurai plus besoin de ça !$"
 
 CeladonCity_Restaurant_Text_ReceivedCoinCaseFromMan::
-    .string "{PLAYER} received a COIN CASE\n"
-    .string "from the man.$"
+    .string "{PLAYER} reçoit une Boîte Jetons de\nl'homme.$"
 
 CeladonCity_Restaurant_Text_MakeRoomForThis::
-    .string "Make room for this!$"
+    .string "Fais de la place pour ça !$"
 
 CeladonCity_Restaurant_Text_ThoughtIdWinItBack::
-    .string "I always thought I was going to\n"
-    .string "win it back…$"
+    .string "Je me disais toujours que j'allais me\nrefaire...$"
 

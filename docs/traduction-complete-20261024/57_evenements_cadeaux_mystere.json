@@ -1,0 +1,98 @@
+[
+  {
+    "file": "data/mystery_event_msg.s",
+    "symbol": "sText_MysteryGiftStampCard",
+    "before": "Thank you for using the STAMP CARD\\nSystem.\\pYou have {STR_VAR_1} more to collect to\\nfill your STAMP CARD.$",
+    "after": "Merci d'utiliser le système de Carte à\\nTimbres.\\pIl vous manque {STR_VAR_1}\\ntimbres pour compléter votre carte.$"
+  },
+  {
+    "file": "data/mystery_event_msg.s",
+    "symbol": "sText_MysteryGiftEgg",
+    "before": "Thank you for using the MYSTERY\\nGIFT System.\\pFrom the POKéMON CENTER we\\nhave a gift - a POKéMON EGG!\\pPlease raise it with love and\\nkindness.$",
+    "after": "Merci d'utiliser le Cadeau Mystère.\\pLe Centre Yo-kai vous offre un Œuf\\nde Yo-kai !\\pÉlevez-le avec amour et\\nbienveillance.$"
+  },
+  {
+    "file": "data/mystery_event_msg.s",
+    "symbol": "sText_FullParty",
+    "before": "Oh, your party appears to be full.\\pPlease come see me after storing\\na POKéMON on a PC.$",
+    "after": "Oh, votre équipe semble pleine.\\pRevenez me voir après avoir déposé\\nun Yo-kai dans le PC.$"
+  },
+  {
+    "file": "data/mystery_event_msg.s",
+    "symbol": "sText_MysteryGiftVisitingTrainer",
+    "before": "Thank you for using the MYSTERY\\nGIFT System.\\pBy holding this WONDER CARD, you\\nmay take part in a survey at a\\lPOKéMON MART.\\pUse these surveys to invite\\nTRAINERS to the ÎLES SEVII.\\p…Let me give you a secret\\npassword for a survey:\\p“GIVE ME\\nAWESOME TRAINER”\\pWrite that in on a survey and send\\nit to the WIRELESS\\lCOMMUNICATION SYSTEM.$",
+    "after": "Merci d'utiliser le Cadeau Mystère.\\pCette Carte Miracle vous permet de\\nremplir un questionnaire dans une\\lBoutique Yo-kai.\\pCes questionnaires servent à inviter\\ndes Dresseurs dans les Îles Sevii.\\p… Je vais vous révéler un code à\\nutiliser dans un questionnaire :\\p“DONNE-MOI\\nGÉNIAL DRESSEUR”\\pSaisissez ces mots dans le\\nquestionnaire, puis envoyez-le par\\lcommunication sans fil.$"
+  },
+  {
+    "file": "data/mystery_event_msg.s",
+    "symbol": "sText_MysteryGiftVisitingTrainer_2",
+    "before": "Thank you for using the MYSTERY\\nGIFT System.\\pA TRAINER has arrived in the SEVII\\nISLANDS looking for you.\\pWe hope you will enjoy\\nbattling the visiting TRAINER.\\pYou may invite other TRAINERS by\\nentering other passwords.\\pTry looking for other passwords\\nthat may work.$",
+    "after": "Merci d'utiliser le Cadeau Mystère.\\pUn Dresseur est arrivé dans les Îles\\nSevii pour vous rencontrer.\\pNous espérons que son combat vous\\nplaira.\\pVous pouvez inviter d'autres\\nDresseurs avec d'autres codes.\\pEssayez d'en trouver de nouveaux !$"
+  },
+  {
+    "file": "data/mystery_event_msg.s",
+    "symbol": "sText_MysteryGiftBattleCountCard",
+    "before": "Thank you for using the MYSTERY\\nGIFT System.\\pYour BATTLE COUNT CARD keeps\\ntrack of your battle record against\\lTRAINERS with the same CARD.\\pLook for and battle TRAINERS who\\nhave the same CARD as you.\\pYou may check the overall rankings\\nby reading the NEWS.\\pPlease do give it a try!$",
+    "after": "Merci d'utiliser le Cadeau Mystère.\\pVotre Carte de Combat enregistre vos\\nrésultats face aux Dresseurs qui\\lpossèdent la même carte.\\pRecherchez-les et affrontez-les.\\pConsultez les Infos pour connaître le\\nclassement général.\\pEssayez donc !$"
+  },
+  {
+    "file": "data/mystery_event_msg.s",
+    "symbol": "sText_MysteryGiftBattleCountCard_2",
+    "before": "Thank you for using the MYSTERY\\nGIFT System.\\pCongratulations!\\pYou have won a prize for winning\\nthree battles!\\pWe hope you will be inspired to\\nbattle some more.$",
+    "after": "Merci d'utiliser le Cadeau Mystère.\\pFélicitations !\\pVous remportez un prix pour vos trois\\nvictoires !\\pNous espérons que cela vous donnera\\nenvie de poursuivre les combats.$"
+  },
+  {
+    "file": "data/mystery_event_msg.s",
+    "symbol": "sText_AuroraTicket1",
+    "before": "Thank you for using the MYSTERY\\nGIFT System.\\pYou must be {PLAYER}.\\nThere is a ticket here for you.$",
+    "after": "Merci d'utiliser le Cadeau Mystère.\\pVous devez être {PLAYER}. Un ticket\\nvous attend ici.$"
+  },
+  {
+    "file": "data/mystery_event_msg.s",
+    "symbol": "sText_AuroraTicket2",
+    "before": "It appears to be for use at the\\nCARMIN SUR MER port.\\pWhy not give it a try and see what\\nit is about?$",
+    "after": "Il semble utilisable au port de\\nCarmin sur Mer.\\pPourquoi ne pas aller découvrir de\\nquoi il s'agit ?$"
+  },
+  {
+    "file": "data/mystery_event_msg.s",
+    "symbol": "sText_AuroraTicketGot",
+    "before": "Thank you for using the MYSTERY\\nGIFT System.$",
+    "after": "Merci d'utiliser le Cadeau Mystère.$"
+  },
+  {
+    "file": "data/mystery_event_msg.s",
+    "symbol": "sText_AuroraTicketNoPlace",
+    "before": "Oh, I'm sorry, {PLAYER}. Your BAG's\\nKEY ITEMS POCKET is full.\\pPlease store something on your PC,\\nthen come back for this.$",
+    "after": "Je suis désolée, {PLAYER}. Votre\\nPoche des Objets Rares est pleine.\\pDéposez quelque chose dans votre PC,\\npuis revenez chercher ce cadeau.$"
+  },
+  {
+    "file": "data/mystery_event_msg.s",
+    "symbol": "sText_MysticTicket2",
+    "before": "Thank you for using the MYSTERY\\nGIFT System.\\pYou must be {PLAYER}.\\nThere is a ticket here for you.$",
+    "after": "Merci d'utiliser le Cadeau Mystère.\\pVous devez être {PLAYER}. Un ticket\\nvous attend ici.$"
+  },
+  {
+    "file": "data/mystery_event_msg.s",
+    "symbol": "sText_MysticTicket1",
+    "before": "It appears to be for use at the\\nCARMIN SUR MER port.\\pWhy not give it a try and see what\\nit is about?$",
+    "after": "Il semble utilisable au port de\\nCarmin sur Mer.\\pPourquoi ne pas aller découvrir de\\nquoi il s'agit ?$"
+  },
+  {
+    "file": "data/mystery_event_msg.s",
+    "symbol": "sText_MysticTicketGot",
+    "before": "Thank you for using the MYSTERY\\nGIFT System.$",
+    "after": "Merci d'utiliser le Cadeau Mystère.$"
+  },
+  {
+    "file": "data/mystery_event_msg.s",
+    "symbol": "sText_MysticTicketNoPlace",
+    "before": "Oh, I'm sorry, {PLAYER}. Your BAG's\\nKEY ITEMS POCKET is full.\\pPlease store something on your PC,\\nthen come back for this.$",
+    "after": "Je suis désolée, {PLAYER}. Votre\\nPoche des Objets Rares est pleine.\\pDéposez quelque chose dans votre PC,\\npuis revenez chercher ce cadeau.$"
+  },
+  {
+    "file": "data/mystery_event_msg.s",
+    "symbol": "sText_MysteryGiftAlteringCave",
+    "before": "Thank you for using the MYSTERY\\nGIFT System.\\pRecently, there have been rumors\\nof rare POKéMON appearances.\\pThe rumors are about ALTERING\\nCAVE on ÎLE DU LOINTAIN.\\pWhy not visit there and check if\\nthe rumors are indeed true?$",
+    "after": "Merci d'utiliser le Cadeau Mystère.\\pOn parle récemment d'apparitions de\\nYo-kai rares.\\pLes rumeurs concernent la Grotte\\nMétamo, sur l'Île du Lointain.\\pPourquoi ne pas y aller pour vérifier\\n?$"
+  }
+]

@@ -65,5 +65,5 @@ ViridianForest_Text_WeakenMonsBeforeCapture::
     .string "ASTUCE DRESSEUR\pAffaiblis les Yo-kai\navant de tenter une capture!\pEn pleine forme,\nils peuvent s'échapper!$"
 
 ViridianForest_Text_LeavingViridianForest::
-    .string "SORTIE DE VIRIDIAN FOREST\nDIRECTION PEWTER CITY$"
+    .string "SORTIE DE LA FORÊT DE JADE\nDIRECTION ARGENTA$"
 

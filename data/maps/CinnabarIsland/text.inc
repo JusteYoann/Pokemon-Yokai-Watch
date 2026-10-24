@@ -1,72 +1,38 @@
 CinnabarIsland_Text_DoorIsLocked::
-    .string "The door is locked…$"
+    .string "La porte est fermée à clé...$"
 
 CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab::
     .string "{CHAMPION_CRAMOIS} connaît bien\nles histoires du passé.\pCe laboratoire aussi\na beaucoup de choses à raconter.$"
 
 
 CinnabarIsland_Text_ScientistsExperimentInMansion::
-    .string "Scientists conduct experiments \n"
-    .string "in the burned-out building.\p"
-    .string "You know, the one they call the\n"
-    .string "Yo-kai MANSION.$"
+    .string "Des scientifiques font des expériences\ndans le bâtiment incendié.\pTu sais, celui qu'on appelle le\nManoir Yo-kai.$"
 
 CinnabarIsland_Text_IslandSign::
-    .string "CINNABAR ISLAND\n"
-    .string "The Fiery Town of Burning Desire$"
+    .string "CRAMOIS'ÎLE\nL'île où brûle la passion$"
 
 CinnabarIsland_Text_PokemonLab::
-    .string "Yo-kai LAB$"
+    .string "LABORATOIRE YO-KAI$"
 
 CinnabarIsland_Text_GymSign::
     .string "ARÈNE DE CRAMOIS’ÎLE\n{CHAMPION_CRAMOIS}\lLes Yo-kai du passé !$"
 
 
 CinnabarIsland_Text_HeyIfItIsntPlayer::
-    .string "Huh?\n"
-    .string "Hey, if it isn't {PLAYER}!$"
+    .string "Hein ?\nTiens, mais c'est {PLAYER} !$"
 
 CinnabarIsland_Text_ComeWithMeToOneIsland::
-    .string "Look, it's me, BILL.\n"
-    .string "Long time no see!\p"
-    .string "I hope you're still using my\n"
-    .string "PC system.\p"
-    .string "Well, listen, since we met up here,\n"
-    .string "how about spending time with me?\p"
-    .string "There's this little island in the far\n"
-    .string "south called ONE ISLAND.\p"
-    .string "A friend invited me, so I'm on my\n"
-    .string "way out there.\p"
-    .string "How about it?\n"
-    .string "Do you feel like coming with me?$"
+    .string "C'est moi, Léo !\nÇa faisait longtemps !\pJ'espère que tu utilises toujours mon\nsystème de PC.\pDis-moi, puisque nous nous retrouvons\nici, que dirais-tu de venir avec moi\l?\pIl existe une petite île très au sud,\nappelée l'Île 1.\pUn ami m'y a invité et je m'apprête à\npartir.\pAlors ?\nTu veux m'accompagner ?$"
 
 CinnabarIsland_Text_AllRightLetsGo::
-    .string "All right, then.\n"
-    .string "Let's go!$"
+    .string "Très bien !\nAllons-y !$"
 
 CinnabarIsland_Text_IllBeWaitingInPokeCenter::
-    .string "What, are you too busy?\p"
-    .string "Well, all right.\n"
-    .string "The boat hasn't arrived yet anyway.\p"
-    .string "I'll be waiting at the Yo-kai\n"
-    .string "CENTER over there.\p"
-    .string "Come see me when you're done with\n"
-    .string "your business here.$"
+    .string "Tu as trop de choses à faire ?\pD'accord. Le bateau n'est pas encore\narrivé, de toute façon.\pJe t'attendrai au Centre Yo-kai,\nlà-bas.\pViens me voir quand tu auras terminé\nici.$"
 
 CinnabarIsland_Text_MyPalsBoatArrived::
-    .string "Looks like my pal's boat arrived,\n"
-    .string "too.\p"
-    .string "He sent it specially here to\n"
-    .string "CINNABAR to pick me up.$"
+    .string "On dirait que le bateau de mon ami\nest arrivé.\pIl l'a spécialement envoyé à\nCramois'Île pour venir me chercher.$"
 
 CinnabarIsland_Text_IfYouHaveTriPassYouCanGoAgain::
-    .string "Hey, wasn't that a long cruise?\p"
-    .string "My buddy CELIO seemed to enjoy\n"
-    .string "your company.\p"
-    .string "I'm sure he'd welcome you if you\n"
-    .string "were to visit him again.\p"
-    .string "If you have a TRI-PASS, you can\n"
-    .string "always take a ferry there from\l"
-    .string "VERMILION PORT.\p"
-    .string "All right, thanks for your company!$"
+    .string "Quelle traversée, hein ?\pMon ami Ciléo a eu l'air d'apprécier\nta compagnie.\pJe suis sûr qu'il sera ravi de te\nrevoir.\pAvec le Tri-Passe, tu peux y\nretourner en prenant le ferry au port\lde Carmin-sur-Mer.\pMerci de m'avoir accompagné !$"
 

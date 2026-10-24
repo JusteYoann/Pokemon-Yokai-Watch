@@ -1,39 +1,25 @@
 @ The text here is a copy/paste from Hoenn's competitive brothers, the NPCs in Sootopolis who request to see big Barboach/Shroomish (Seedot/Lotad in Emerald). It's all unused and untranslated
 
 SootopolisCity_Text_PleaseShowMeBigMon::
-    .string "わしは　おおきな　{STR_VAR_1}に\n"
-    .string "とても　きょうみが　ある！\p"
-    .string "ん？　きみ　{STR_VAR_1}　もってるの？\n"
-    .string "ちょ　ちょ　ちょっと···\l"
-    .string "おじさんに　みせて　おくれ！$"
+    .string "Les grands {STR_VAR_1}\nm’intéressent beaucoup !\pTu as un {STR_VAR_1} ?\nMontre-le-moi, s’il te plaît !$"
 
 SootopolisCity_Text_GrandMonThanksForShowingMe::
-    .string "おお！　こいつは　でかい！\n"
-    .string "とても　すばらしい　{STR_VAR_1}だ！\p"
-    .string "みせて　くれて　ありがとう\n"
-    .string "おれいに　これを　もって　いきなさい$"
+    .string "Oh ! Il est énorme !\nQuel superbe {STR_VAR_1} !\pMerci de me l’avoir montré.\nPrends ceci pour te remercier.$"
 
 SootopolisCity_Text_ReceivedOneItem::
-    .string "{PLAYER}は\n"
-    .string "{STR_VAR_2}を　もらった！$"
+    .string "{PLAYER} reçoit {STR_VAR_2} !$"
 
 SootopolisCity_Text_HuhBagIsCrammedFull::
-    .string "ありゃ？\n"
-    .string "きみ　もちもの　いっぱいだね$"
+    .string "Oh ? Ton Sac est plein.$"
 
 SootopolisCity_Text_IveSeenBiggerMonThanThisOne::
-    .string "ううむ　わしは　これより　おおきい\n"
-    .string "{STR_VAR_1}を　みたこと　あるな···$"
+    .string "Hum… J’ai déjà vu\nun {STR_VAR_1} plus grand que\lcelui-ci.$"
 
 SootopolisCity_Text_QuiteSomethingButNotMon::
-    .string "おお　こいつは　なかなか···って\n"
-    .string "これ　{STR_VAR_1}じゃ　ないよ！$"
+    .string "Oh, c’est remarquable…\nMais ce n’est pas un {STR_VAR_1}\l!$"
 
 SootopolisCity_Text_TooBadDontHaveBigMon::
-    .string "おおきい　{STR_VAR_1}　もってないの？\l"
-    .string "それは　ざんねん···\n"
-    .string "こんど　おおきい　{STR_VAR_1}　みせてね$"
+    .string "Tu n’as pas de grand {STR_VAR_1}\n?\nC’est dommage…\pMontre-moi un grand {STR_VAR_1}\nla prochaine fois !$"
 
 SootopolisCity_Text_BiggestMonPlayersXCmColossus::
-    .string "しじょう　さいだいの　{STR_VAR_1}！\n"
-    .string "{STR_VAR_2}の　{STR_VAR_3}cmのやつ！$"
+    .string "Le plus grand {STR_VAR_1} jamais\nvu !\nCelui de {STR_VAR_2} mesure\l{STR_VAR_3} cm !$"

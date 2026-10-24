@@ -1,8 +1,6 @@
 SafariZone_Center_Text_WhereDidErikGo::
-    .string "SARA: Where did my boyfriend,\n"
-    .string "ERIK, go?$"
+    .string "SARA : Où est passé mon petit ami,\nERIK ?$"
 
 SafariZone_Center_Text_CatchingMonsAsGifts::
-    .string "I'm catching Yo-kai to take home\n"
-    .string "as gifts.$"
+    .string "J'attrape des Yo-kai pour les offrir\nen rentrant.$"
 

@@ -1,128 +1,99 @@
 Route13_Text_SebastianIntro::
-    .string "My bird Yo-kai want to battle\n"
-    .string "with you!$"
+    .string "Mes Yo-kai volants\nveulent t’affronter !$"
 
 Route13_Text_SebastianDefeat::
-    .string "My PIDGEY and PIDGEOTTO combo\n"
-    .string "lost?$"
+    .string "Mon duo Kyubi et Robonyan a perdu ?$"
 
 Route13_Text_SebastianPostBattle::
-    .string "My Yo-kai look happy even though\n"
-    .string "they lost.$"
+    .string "Mes Yo-kai ont l'air heureux malgré\nleur défaite.$"
 
 Route13_Text_SusieIntro::
-    .string "I'm told I'm good for a kid.$"
+    .string "On me dit que je suis douée pour mon\nâge.$"
 
 Route13_Text_SusieDefeat::
-    .string "Ohh!\n"
-    .string "I lost!$"
+    .string "Oh ! J'ai perdu !$"
 
 Route13_Text_SusiePostBattle::
-    .string "I want to become a good TRAINER.\n"
-    .string "I'll train hard, just watch.$"
+    .string "Je veux devenir une bonne Dresseuse.\nJe vais m'entraîner dur, tu verras.$"
 
 Route13_Text_ValerieIntro::
-    .string "Wow!\n"
-    .string "Your BADGES are too cool!$"
+    .string "Ouah !\nTes Badges sont superbes !$"
 
 Route13_Text_ValerieDefeat::
-    .string "Not enough!$"
+    .string "Ça ne suffit pas !$"
 
 Route13_Text_ValeriePostBattle::
-    .string "You got those BADGES from GYM\n"
-    .string "LEADERS. I know!$"
+    .string "Tu as gagné ces Badges contre des\nChampions d'Arène. Je le sais !$"
 
 Route13_Text_GwenIntro::
-    .string "My cute Yo-kai wish to make your\n"
-    .string "acquaintance.$"
+    .string "Mes adorables Yo-kai aimeraient faire\nta connaissance.$"
 
 Route13_Text_GwenDefeat::
-    .string "Good going!\n"
-    .string "You totally won!$"
+    .string "Bien joué !\nTu as gagné haut la main !$"
 
 Route13_Text_GwenPostBattle::
-    .string "You have to make Yo-kai battle\n"
-    .string "to toughen them up.$"
+    .string "Les Yo-kai doivent combattre pour\ns'endurcir.$"
 
 Route13_Text_AlmaIntro::
-    .string "I found CARBOS in a cave once\n"
-    .string "while I was spelunking.$"
+    .string "J'ai trouvé du Carbone dans une\ngrotte en faisant de la spéléologie.$"
 
 Route13_Text_AlmaDefeat::
-    .string "Oh, too bad!\n"
-    .string "I just messed up!$"
+    .string "Oh, dommage ! J'ai tout gâché !$"
 
 Route13_Text_AlmaPostBattle::
-    .string "CARBOS boosted the SPEED of my\n"
-    .string "Yo-kai.$"
+    .string "Le Carbone a amélioré la Vitesse de\nmon Yo-kai.$"
 
 Route13_Text_PerryIntro::
-    .string "I'm not going to lose.\n"
-    .string "Not when the wind's blowing my way!$"
+    .string "Je ne vais pas perdre.\nPas avec ce vent favorable !$"
 
 Route13_Text_PerryDefeat::
-    .string "The wind turned!$"
+    .string "Le vent a tourné !$"
 
 Route13_Text_PerryPostBattle::
-    .string "I'm beat.\n"
-    .string "I guess I'll FLY home.$"
+    .string "Je suis battu.\nJe vais rentrer chez moi avec Vol.$"
 
 Route13_Text_LolaIntro::
-    .string "Sure, I'll play with you, sweetie.$"
+    .string "Bien sûr, je veux bien jouer avec\ntoi.$"
 
 Route13_Text_LolaDefeat::
-    .string "Oh!\n"
-    .string "You little beast!$"
+    .string "Oh !\nPetit garnement !$"
 
 Route13_Text_LolaPostBattle::
-    .string "I wonder which is stronger, male or\n"
-    .string "female Yo-kai?$"
+    .string "Je me demande qui est le plus fort,\nun Yo-kai mâle ou une femelle.$"
 
 Route13_Text_SheilaIntro::
-    .string "Do you want to battle some\n"
-    .string "Yo-kai with me?$"
+    .string "Tu veux faire un combat de Yo-kai\navec moi ?$"
 
 Route13_Text_SheilaDefeat::
-    .string "It's over already?$"
+    .string "C'est déjà fini ?$"
 
 Route13_Text_SheilaPostBattle::
-    .string "I don't know anything about\n"
-    .string "Yo-kai actually.\p"
-    .string "The ones I use… I picked them\n"
-    .string "for their looks!$"
+    .string "En réalité, je ne connais pas\ngrand-chose aux Yo-kai.\pJ'ai choisi les miens uniquement pour\nleur apparence !$"
 
 Route13_Text_JaredIntro::
-    .string "What're you lookin' at?$"
+    .string "Qu'est-ce que tu regardes ?$"
 
 Route13_Text_JaredDefeat::
-    .string "Dang!\n"
-    .string "Stripped gears!$"
+    .string "Zut ! J'ai déraillé !$"
 
 Route13_Text_JaredPostBattle::
-    .string "Get lost!$"
+    .string "Dégage !$"
 
 Route13_Text_RobertIntro::
-    .string "I always go with bird Yo-kai.\n"
-    .string "I've dedicated myself to them.$"
+    .string "Je ne choisis que des Yo-kai volants.\nJe leur consacre tout mon temps.$"
 
 Route13_Text_RobertDefeat::
-    .string "Out of power!$"
+    .string "À court d'énergie !$"
 
 Route13_Text_RobertPostBattle::
-    .string "I wish I could fly like PIDGEY and\n"
-    .string "PIDGEOTTO…$"
+    .string "J'aimerais pouvoir voler aussi\nlibrement qu'un Yo-kai volant...$"
 
 Route13_Text_LookToLeftOfThatPost::
-    .string "TRAINER TIPS\p"
-    .string "Look, look!\n"
-    .string "Look to the left of that post!$"
+    .string "ASTUCE\pRegarde ! Regarde à gauche de ce\npoteau !$"
 
 Route13_Text_SelectToSwitchItems::
-    .string "TRAINER TIPS\p"
-    .string "Use SELECT to switch items in the\n"
-    .string "ITEMS window.$"
+    .string "ASTUCE\pUtilise SELECT pour déplacer les\nobjets dans la poche Objets.$"
 
 Route13_Text_RouteSign::
-    .string "ROUTE 13\n"
-    .string "North to SILENCE BRIDGE$"
+    .string "ROUTE 13\nPONT DU SILENCE au nord$"
 

@@ -1,5 +1,5 @@
 ViridianCity_Mart_Text_YouCameFromPallet::
-    .string "Hé!\nTu viens de PALLET TOWN?$"
+    .string "Hé!\nTu viens de BOURG PALETTE?$"
 
 ViridianCity_Mart_Text_TakeThisToProfOak::
     .string "Tu connais le Professeur Chen?\pSa commande est arrivée.\nTu pourrais la lui apporter?$"

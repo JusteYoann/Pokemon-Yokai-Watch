@@ -122,11 +122,7 @@ const struct SpriteTemplate gDummySpriteTemplate;
 // It means "The DMA transfer request table has exceeded its limit."
 static const u8 sDmaOverErrorMsg[] =
     _(
-    "DMA OVER\n"
-    "DMAてんそう\n"
-    "リクエストテーブルが\n"
-    "オーバーしました"
-);
+    "TROP DE DMA\nLa file des transferts\nDMA est pleine.");
 
 // Unreferenced data. Also unreferenced in R/S.
 static const u8 sUnknownData[24] =

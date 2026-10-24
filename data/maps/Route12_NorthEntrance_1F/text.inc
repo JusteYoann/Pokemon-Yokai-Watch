@@ -1,4 +1,3 @@
 Route12_NorthEntrance_1F_Text_LookoutSpotUpstairs::
-    .string "There's a lookout spot upstairs.\n"
-    .string "The view is magnificent.$"
+    .string "Il y a un poste d'observation à\nl'étage.\nLa vue est magnifique.$"
 

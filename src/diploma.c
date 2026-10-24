@@ -44,15 +44,12 @@ static const u32 sDiplomaTilemap[] = INCBIN_U32("graphics/diploma/diploma.bin.lz
 static const u16 sDiplomaPal[] = INCBIN_U16("graphics/diploma/diploma.gbapal");
 
 // Leftover text from RSE (some of which is also unused there)
-static const u8 sText_Player[] = _("{HIGHLIGHT TRANSPARENT}プレイヤー");
-static const u8 sText_Sama[] = _("{HIGHLIGHT TRANSPARENT}さま");
-static const u8 sText_Hoenn[] = _("{HIGHLIGHT TRANSPARENT}ホウエン");
-static const u8 sText_National[] = _("{HIGHLIGHT TRANSPARENT}ぜんこく");
-static const u8 sText_CertifiesPokedexComplete[] = _("{HIGHLIGHT TRANSPARENT}　　　　　ポケモンずかんを\n"
-                                                     "みごと　かんせい　させた\n"
-                                                     "いだいなこうせきを　たたえ\n"
-                                                     "ここに　しょうめい　します");
-static const u8 sText_GameFreak[] = _("{COLOR DARK_GRAY}{HIGHLIGHT TRANSPARENT}ゲームフリーク");
+static const u8 sText_Player[] = _("{HIGHLIGHT TRANSPARENT}JOUEUR");
+static const u8 sText_Sama[] = _("{HIGHLIGHT TRANSPARENT}");
+static const u8 sText_Hoenn[] = _("{HIGHLIGHT TRANSPARENT}HOENN");
+static const u8 sText_National[] = _("{HIGHLIGHT TRANSPARENT}NATIONAL");
+static const u8 sText_CertifiesPokedexComplete[] = _("{HIGHLIGHT TRANSPARENT}Ce diplôme certifie\nla réussite remarquable\nde la collection complète\ndu Médallium.");
+static const u8 sText_GameFreak[] = _("{COLOR DARK_GRAY}{HIGHLIGHT TRANSPARENT}GAME FREAK");
 static const u8 sText_Empty[] = _("{COLOR DARK_GRAY}{HIGHLIGHT TRANSPARENT}");
 
 static const ALIGNED(4) u8 sTextColors[3] = {0, 2, 3};

@@ -1,33 +1,27 @@
 PokemonTower_4F_Text_PaulaIntro::
-    .string "Ghost! No!\n"
-    .string "Kwaaah!$"
+    .string "Un fantôme ! Non !\nAaaah !$"
 
 PokemonTower_4F_Text_PaulaDefeat::
-    .string "Where is the ghost?$"
+    .string "Où est le fantôme ?$"
 
 PokemonTower_4F_Text_PaulaPostBattle::
-    .string "I must have been dreaming…$"
+    .string "J'ai dû rêver...$"
 
 PokemonTower_4F_Text_LaurelIntro::
-    .string "Be cursed with me!\n"
-    .string "Kwaaah!$"
+    .string "Partage ma malédiction !\nAaaah !$"
 
 PokemonTower_4F_Text_LaurelDefeat::
-    .string "What!$"
+    .string "Quoi ?!$"
 
 PokemonTower_4F_Text_LaurelPostBattle::
-    .string "We can't determine the identity of\n"
-    .string "the ghosts…$"
+    .string "Nous n'arrivons pas à identifier ces\nfantômes...$"
 
 PokemonTower_4F_Text_JodyIntro::
-    .string "Huhuhu…\n"
-    .string "Beat me not!$"
+    .string "Houhouhou… Ne me bats pas !$"
 
 PokemonTower_4F_Text_JodyDefeat::
-    .string "Huh?\n"
-    .string "Who? What?$"
+    .string "Hein ?\nQui ? Quoi ?$"
 
 PokemonTower_4F_Text_JodyPostBattle::
-    .string "May the departed Yo-kai rest in\n"
-    .string "peace…$"
+    .string "Que les Yo-kai disparus reposent en\npaix...$"
 

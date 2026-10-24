@@ -1,0 +1,63 @@
+data/maps/VictoryRoad_3F/text.inc	Text_DoubleEdgeTeach	Tu peux être fier d'avoir traversé la\nRoute Victoire avec autant de\lcourage.\pPour saluer cet exploit, je peux\nenseigner Damoclès à ton équipe.\pVeux-tu apprendre cette technique ?$
+data/maps/VictoryRoad_3F/text.inc	Text_DoubleEdgeDeclined	Je pourrai t'enseigner cette technique\nquand tu voudras.$
+data/maps/VictoryRoad_3F/text.inc	Text_DoubleEdgeWhichMon	À quel Yo-kai dois-je enseigner\nDamoclès ?$
+data/maps/VictoryRoad_3F/text.inc	Text_DoubleEdgeTaught	Garde cet enthousiasme pour la Ligue\nYo-kai !\pFonce et terrasse tes adversaires !$
+data/maps/VictoryRoad_3F/text.inc	VictoryRoad_3F_Text_GeorgeDefeat	Les rumeurs disaient vrai !$
+data/maps/VictoryRoad_3F/text.inc	VictoryRoad_3F_Text_AlexaIntro	Les Dresseurs cherchent sans cesse\ndes adversaires plus forts.$
+data/maps/VictoryRoad_3F/text.inc	VictoryRoad_3F_Text_AlexaPostBattle	Les combats difficiles te rendent plus\nfort.$
+data/maps/VictoryRoad_3F/text.inc	VictoryRoad_3F_Text_CarolineIntro	Je vais te montrer à quel point tu es\ndoué. Ou pas !$
+data/maps/VictoryRoad_3F/text.inc	VictoryRoad_3F_Text_CarolineDefeat	Je suis furieuse !$
+data/maps/VictoryRoad_3F/text.inc	VictoryRoad_3F_Text_CarolinePostBattle	Tu m'as montré mon véritable niveau…$
+data/maps/VictoryRoad_3F/text.inc	VictoryRoad_3F_Text_ColbyIntro	Seuls les élus peuvent passer ici !$
+data/maps/VictoryRoad_3F/text.inc	VictoryRoad_3F_Text_ColbyDefeat	Je n'y crois pas !$
+data/maps/VictoryRoad_3F/text.inc	VictoryRoad_3F_Text_ColbyPostBattle	Tous les Dresseurs d'ici se dirigent\nvers la Ligue Yo-kai.\pNe baisse pas ta garde.$
+data/maps/VictoryRoad_3F/text.inc	VictoryRoad_3F_Text_RayIntro	RAY : Ensemble, nous sommes destinés\nà la grandeur !$
+data/maps/VictoryRoad_3F/text.inc	VictoryRoad_3F_Text_RayDefeat	RAY : Absurde ! C'est impossible !$
+data/maps/VictoryRoad_3F/text.inc	VictoryRoad_3F_Text_RayPostBattle	RAY : Tu nous as battus. La grandeur\nnous échappe encore…$
+data/maps/VictoryRoad_3F/text.inc	VictoryRoad_3F_Text_RayNotEnoughMons	RAY : Ensemble, nous visons le\nsommet.\pIl te faut deux Yo-kai pour nous\naffronter.$
+data/maps/VictoryRoad_3F/text.inc	VictoryRoad_3F_Text_TyraIntro	TYRA : Nous essayons de devenir\nchampions ensemble.$
+data/maps/VictoryRoad_3F/text.inc	VictoryRoad_3F_Text_TyraPostBattle	TYRA : Tu m'as appris que la\npuissance peut prendre une infinité de\lformes.$
+data/maps/VictoryRoad_3F/text.inc	VictoryRoad_3F_Text_TyraNotEnoughMons	TYRA : Tu ne peux pas nous affronter\navec un seul Yo-kai.$
+data/maps/ViridianCity_Gym/text.inc	ViridianCity_Gym_Text_GymStatue	ARÈNE YO-KAI DE JADIELLE\nCHAMPION : ?\pDRESSEURS VICTORIEUX :\n{RIVAL}$
+data/maps/ViridianForest/text.inc	ViridianForest_Text_LeavingViridianForest	SORTIE DE LA FORÊT DE JADE\nDIRECTION ARGENTA$
+data/scripts/field_moves.inc	Text_CutTreeDown	Cet arbre semble pouvoir être coupé\n!\pVoulez-vous utiliser Coupe ?$
+data/scripts/field_moves.inc	Text_TreeCanBeCutDown	Cet arbre semble pouvoir être coupé\n!$
+data/scripts/field_moves.inc	Text_UseRockSmash	Ce rocher semble friable.\nVoulez-vous utiliser Éclate-Roc ?$
+data/scripts/field_moves.inc	Text_MonMaySmashRock	Ce rocher est solide, mais un Yo-kai\npourrait peut-être le briser.$
+data/scripts/field_moves.inc	Text_UseStrength	Ce gros rocher pourrait être déplacé\npar un Yo-kai.\pVoulez-vous utiliser Force ?$
+data/scripts/field_moves.inc	Text_MonUsedStrengthCanMoveBoulders	{STR_VAR_1} utilise Force !\pGrâce à la Force de {STR_VAR_1},\nles rochers peuvent être déplacés !$
+data/scripts/field_moves.inc	Text_MonMayPushBoulder	Ce gros rocher pourrait être déplacé\npar un Yo-kai.$
+data/scripts/field_moves.inc	Text_StrengthMadeMovingBouldersPossible	Force permet désormais de déplacer\nles rochers.$
+data/scripts/field_moves.inc	Text_WallOfWaterCrashingDown	Un mur d'eau s'abat dans un\ngrondement assourdissant.$
+data/scripts/field_moves.inc	Text_UseWaterfall	C'est une grande chute d'eau.\nVoulez-vous utiliser Cascade ?$
+data/scripts/field_moves.inc	Text_MonMayGoUnderwater	La mer est profonde ici. Un Yo-kai\npourrait peut-être plonger.$
+data/scripts/field_moves.inc	Text_SeaIsDeepUseDive	La mer est profonde ici. Voulez-vous\nutiliser Plongée ?$
+data/scripts/field_moves.inc	Text_MonMaySurface	La lumière filtre depuis la surface.\nUn Yo-kai pourrait peut-être\lremonter.$
+data/scripts/field_moves.inc	Text_LightFilteringUseDive	La lumière filtre depuis la surface.\nVoulez-vous utiliser Plongée ?$
+data/scripts/field_moves.inc	Text_DiveCantBeUsedHere	Il y a un obstacle au-dessus.\nImpossible d'utiliser Plongée ici.$
+data/scripts/mystery_event_club.inc	Text_IdLoveToHearYourProfile	Salut, ravi de te rencontrer !\p… Ce n'est pas très aimable. Tu\npourrais me dire bonjour.\pAllez, parle-moi de toi.\pJ'aimerais connaître ton profil !$
+data/scripts/mystery_event_club.inc	Text_TellMeWhatsYourProfile	Dis-moi quelque chose sur toi. Quel\nest ton profil ?$
+data/scripts/mystery_event_club.inc	Text_ExplainProfile	Un profil se compose de quatre mots\nou expressions.\pTu disposes d'un grand choix pour\nrédiger le tien.\pLes mots et expressions sont répartis\nen groupes pratiques.\pChoisis d'abord un groupe, puis un\nmot ou une expression.\p… C'est plus simple qu'il n'y paraît.\nTu veux essayer ?$
+data/scripts/mystery_event_club.inc	Text_WhatsYourProfile	Quel est ton profil ?$
+data/scripts/mystery_event_club.inc	Text_DontBeLikeThat	Oh… Ne fais pas ça. Tu peux me\ndonner ton profil.$
+data/scripts/mystery_event_club.inc	Text_DecidedNotTo	Oh, tu renonces ? Tu changes vite\nd'avis !$
+data/scripts/mystery_event_club.inc	Text_ChangeYourProfile	Veux-tu modifier ton profil ?$
+data/scripts/mystery_event_club.inc	Text_WhatAreYouLikeNow	Comment es-tu, maintenant ? J'aimerais\nvraiment le savoir.$
+data/scripts/mystery_event_club.inc	Text_LikeProfileWayItIs	D'accord, ton profil te plaît comme\nça.\pJe suis du même avis.$
+data/scripts/mystery_event_club.inc	Text_ProfileSaysSomethingAboutYou	Hmm…\pTon profil en dit vraiment long sur\ntoi.\pMaintenant que je te connais mieux,\nnous sommes encore plus proches !$
+data/scripts/mystery_event_club.inc	Text_HeardThatBefore	Oh, j'ai déjà entendu ça…\pMon cousin, qui habite loin, le disait\ntout le temps, je crois.$
+data/scripts/mystery_event_club.inc	Text_TellMoreNextTime	Parle-moi encore de toi la prochaine\nfois !$
+data/text/fame_checker.inc	PokemonJournal_Text_SpecialFeatureBrock	LE JOURNAL DES YO-KAI\pDossier spécial : Wyatt, Champion\nd'Argenta !\pWyatt rit rarement, mais il paraît\nque lorsqu'il commence, il ne peut\lplus s'arrêter.$
+data/text/fame_checker.inc	PokemonJournal_Text_SpecialFeatureMisty	LE JOURNAL DES YO-KAI\pDossier spécial : {CHAMPION_AZURIA}, Champion d'Azuria\n!\pOn dit que {CHAMPION_AZURIA} admire énormément Olga.$
+data/text/fame_checker.inc	PokemonJournal_Text_SpecialFeatureLtSurge	LE JOURNAL DES YO-KAI\pDossier spécial : Ariane, Championne\nde Carmin sur Mer !\pAriane utilise des Yo-kai Électrik.\nLeurs décharges rendent ses combats\lspectaculaires.$
+data/text/fame_checker.inc	PokemonJournal_Text_SpecialFeatureErika	LE JOURNAL DES YO-KAI\pDossier spécial : Erika, Championne\nde Céladopole !\pIl paraît qu'en passant devant\nl'Arène de Céladopole, on peut\lsouvent voir Erika faire la sieste.$
+data/text/fame_checker.inc	PokemonJournal_Text_SpecialFeatureKoga	LE JOURNAL DES YO-KAI\pDossier spécial : Koga, spécialiste\ndes Yo-kai Poison !\pKoga aurait de grandes connaissances\nen médecine.\pIl prépare lui-même des remèdes pour\nsoigner ses Yo-kai.$
+data/text/fame_checker.inc	PokemonJournal_Text_SpecialFeatureSabrina	LE JOURNAL DES YO-KAI\pDossier spécial : Bérénice,\nChampionne de Parmanie !\pOn dit que Bérénice peut communiquer\navec ses Yo-kai en combat sans\lprononcer un mot.$
+data/text/fame_checker.inc	PokemonJournal_Text_SpecialFeatureBlaine	LE JOURNAL DES YO-KAI\pDossier spécial : {CHAMPION_CRAMOIS}, Champion de\nCramois'Île !\pLes questions de l'Arène de {CHAMPION_CRAMOIS} mettent\nles connaissances des Dresseurs à\ll'épreuve.$
+data/text/fame_checker.inc	PokemonJournal_Text_SpecialFeatureLorelei	LE JOURNAL DES YO-KAI\pArchives du Conseil 4 : Olga !\pConnue pour son style logique,\ncalculé et imperturbable, Olga cache\lpourtant un secret étonnant !$
+data/text/fame_checker.inc	PokemonJournal_Text_SpecialFeatureBruno	LE JOURNAL DES YO-KAI\pArchives du Conseil 4 : Aldo !\pAldo aurait rejoint le Conseil 4,\npoussé par son désir ardent\ld'affronter les meilleurs Dresseurs.$
+data/text/fame_checker.inc	PokemonJournal_Text_SpecialFeatureAgatha	LE JOURNAL DES YO-KAI\pArchives du Conseil 4 : Agatha !\pDans leur jeunesse, Agatha et le\nProf. Chen rivalisaient pour devenir\lle meilleur Dresseur.$
+data/text/fame_checker.inc	PokemonJournal_Text_SpecialFeatureLance	LE JOURNAL DES YO-KAI\pArchives du Conseil 4 : Peter !\pLe grand-père de Peter serait le\ndoyen d'un célèbre clan de maîtres\ldes dragons.$
+data/text/fame_checker.inc	PokemonJournal_Text_SpecialFeatureProfOak	LE JOURNAL DES YO-KAI\pDossier spécial : le Prof. Chen,\nchercheur en Yo-kai !\pLe Prof. Chen vivrait avec ses\npetits-enfants, Nina et {RIVAL}.$
+data/text/fame_checker.inc	PokemonJournal_Text_SpecialFeatureDaisyOak	C'est un ancien numéro du Journal des\nYo-kai…\pLE JOURNAL DES YO-KAI\nSpécial Concours !\pLa grande gagnante du Concours\nYo-kai du printemps est Nina Chen, de\lBourg Palette !$
+data/text/fame_checker.inc	PokemonJournal_Text_SpecialFeatureMrFuji	LE JOURNAL DES YO-KAI\pDossier spécial : M. Fuji, de la\nMaison Yo-kai !\pLa rédaction : le timide M. Fuji a\ndécliné nos demandes d'entretien.\pCet homme bienveillant est aimé et\nrespecté dans tout Lavanville.$

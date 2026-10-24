@@ -1,4 +1,3 @@
 Route23_Text_VictoryRoadGateSign::
-    .string "VICTORY ROAD GATE -\n"
-    .string "Ligue Yo-kai$"
+    .string "ENTRÉE DE LA ROUTE VICTOIRE\nLigue Yo-kai$"
 

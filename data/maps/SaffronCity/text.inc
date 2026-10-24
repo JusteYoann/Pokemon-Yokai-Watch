@@ -1,29 +1,23 @@
 SaffronCity_Text_WhatDoYouWantGetLost::
-    .string "What do you want?\n"
-    .string "Get lost!$"
+    .string "Qu'est-ce que tu veux ? Dégage !$"
 
 SaffronCity_Text_BossTakeTownForTeamRocket::
     .string "Le Don veut contrôler les affaires de\nSafrania. Nous préparons le terrain.$"
 
 SaffronCity_Text_DontGetDefiantOrIllHurtYou::
-    .string "Don't get defiant!\n"
-    .string "Or I'll have to hurt you!$"
+    .string "Ne me défie pas ! Ou tu vas le\nregretter !$"
 
 SaffronCity_Text_SaffronBelongsToTeamRocket::
     .string "La Mafiamille tient Safrania. Tu\nferais mieux de le retenir.$"
 
 SaffronCity_Text_CriminalLifeMakesMeFeelAlive::
-    .string "My life as a criminal makes me feel\n"
-    .string "so alive!$"
+    .string "La vie de criminel, ça me donne des\nfrissons !$"
 
 SaffronCity_Text_WatchWhereYoureWalking::
-    .string "Ow!\n"
-    .string "Watch where you're walking!$"
+    .string "Aïe ! Regarde où tu marches !$"
 
 SaffronCity_Text_WeCanExploitMonsAroundWorld::
-    .string "With Yopple under control, we can\n"
-    .string "exploit Yo-kai around the world!\p"
-    .string "We'll get stinking rich, yeahah!$"
+    .string "Maintenant qu'on contrôle Yopple, on\nva exploiter les Yo-kai du monde\lentier !\pOn va devenir riches ! Ouais !$"
 
 SaffronCity_Text_YouBeatTeamRocket::
     .string "Tu as chassé la Mafiamille sans aide?\nQuel courage!$"
@@ -35,73 +29,48 @@ SaffronCity_Text_PeopleComingBackToSaffron::
     .string "L'occupation avait fait fuir beaucoup\nde monde.\pLes habitants reviennent depuis le\ndépart de la Mafiamille.$"
 
 SaffronCity_Text_FlewHereOnPidgeot::
-    .string "I flew here on my PIDGEOT when\n"
-    .string "I read about Yopple.\p"
-    .string "It's already over?\n"
-    .string "I missed the media action…$"
+    .string "J'ai volé jusqu'ici sur mon Robonyan\nF après avoir lu les nouvelles de\lYopple.\pC'est déjà fini ? J'ai raté le scoop…$"
 
 SaffronCity_Text_Pidgeot::
-    .string "PIDGEOT: Bi bibii!$"
+    .string "Robonyan F : Bi bibii !$"
 
 SaffronCity_Text_SawRocketBossEscaping::
     .string "J'ai vu Don Morléone quitter la\nYopple. Il n'avait pas l'air content.$"
 
 SaffronCity_Text_ImASecurityGuard::
-    .string "I'm a security guard.\p"
-    .string "Suspicious kids I don't allow in!$"
+    .string "Je suis agent de sécurité.\pJe ne laisse pas entrer les gamins\nsuspects !$"
 
 SaffronCity_Text_HesTakingASnooze::
-    .string "…\n"
-    .string "Snore…\p"
-    .string "Hah! He's taking a snooze!$"
+    .string "… Ronfl…\pAh ! Il pique un somme !$"
 
 SaffronCity_Text_CitySign::
-    .string "SAFFRON CITY\n"
-    .string "Shining, Golden Land of Commerce$"
+    .string "SAFRANIA\nLa cité dorée du commerce$"
 
 SaffronCity_Text_FightingDojo::
-    .string "FIGHTING DOJO$"
+    .string "DOJO DE KARATÉ$"
 
 SaffronCity_Text_GymSign::
     .string "ARÈNE DE SAFRANIA\nBÉRÉNICE BÉLIER\lLa force de l’esprit !$"
 
 
 SaffronCity_Text_FullHealCuresStatus::
-    .string "TRAINER TIPS\p"
-    .string "FULL HEAL cures all ailments like\n"
-    .string "burns, paralysis, poisoning,\l"
-    .string "freezing, and sleep.\p"
-    .string "It costs a bit more, but it's more\n"
-    .string "convenient than buying other items.$"
+    .string "CONSEILS AUX DRESSEURS\pLe Total Soin guérit tous les\nproblèmes de statut : brûlure,\lparalysie, poison, gel et sommeil.\pIl coûte un peu plus cher, mais\névite d'acheter plusieurs remèdes.$"
 
 SaffronCity_Text_GreatBallImprovedCatchRate::
-    .string "TRAINER TIPS\p"
-    .string "The new GREAT BALL offers improved\n"
-    .string "catching rates.\p"
-    .string "Try it on those hard-to-catch\n"
-    .string "Yo-kai.$"
+    .string "CONSEILS AUX DRESSEURS\pLa Super Ball offre un meilleur taux\nde capture.\pEssayez-la sur les Yo-kai difficiles à\nattraper.$"
 
 SaffronCity_Text_SilphCoSign::
-    .string "Yopple OFFICE BUILDING$"
+    .string "IMMEUBLE DE LA SOCIÉTÉ YOPPLE$"
 
 SaffronCity_Text_MrPsychicsHouse::
-    .string "MR. PSYCHIC'S HOUSE$"
+    .string "MAISON DE M. PSY$"
 
 SaffronCity_Text_SilphsLatestProduct::
-    .string "Yopple's latest product!\n"
-    .string "Release to be determined…$"
+    .string "Le dernier produit de Yopple ! Date\nde sortie à confirmer…$"
 
 SaffronCity_Text_TrainerFanClubSign::
-    .string "Dresseur de Yo-kai FAN CLUB\p"
-    .string "Many TRAINERS have scribbled their\n"
-    .string "names on this sign.$"
+    .string "FAN-CLUB DES DRESSEURS\pDe nombreux Dresseurs ont griffonné\nleur nom sur cette pancarte.$"
 
 SaffronCity_Text_HowCanClubNotRecognizeLance::
-    .string "This FAN CLUB…\n"
-    .string "No one here has a clue!\p"
-    .string "How could they not recognize\n"
-    .string "the brilliance that is LANCE?\p"
-    .string "He stands for justice!\n"
-    .string "He's cool, and yet passionate!\l"
-    .string "He's the greatest, LANCE!$"
+    .string "Ce fan-club… Ils n'y connaissent rien\n!\pComment peuvent-ils ignorer le génie\nde Maître Nyada ?\pIl défend la justice ! Il est calme\net passionné à la fois ! C'est le\lmeilleur, Maître Nyada !$"
 

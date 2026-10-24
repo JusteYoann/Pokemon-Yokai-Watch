@@ -5,7 +5,7 @@ VermilionCity_Text_DidYouSeeSSAnneInHarbor::
     .string "Une lumière est tombée du ciel,\nil y a quelques jours !\pUn vaisseau ? Un caillou ?\nPersonne n'est d'accord.$"
 
 VermilionCity_Text_SSAnneHasDepartedForYear::
-    .string "Alors, le S.S. ANNE est reparti?\pIl reviendra à VERMILION CITY\nvers la même date l'an prochain.$"
+    .string "Alors, le L’OCÉANE est reparti?\pIl reviendra à CARMIN SUR MER\nvers la même date l'an prochain.$"
 
 VermilionCity_Text_BuildingOnThisLand::
     .string "Je vais construire un bâtiment\nsur ce terrain. Tout est à moi.\pMon Yo-kai tasse le sol\npour préparer les fondations.$"
@@ -20,10 +20,10 @@ VermilionCity_Text_SSAnneVisitsOnceAYear::
     .string "J'te jure, j'ai vu une lumière\ntomber du ciel, près du port !\pDepuis cet accident, il s'y\npasse de drôles de choses...$"
 
 VermilionCity_Text_CitySign::
-    .string "VERMILION CITY\nLe port aux couchers de soleil\lsublimes$"
+    .string "CARMIN SUR MER\nLe port aux couchers de soleil\lsublimes$"
 
 VermilionCity_Text_SnorlaxBlockingRoute12::
-    .string "AVIS\pUn Yo-kai endormi peut\nbloquer la ROUTE 12.\pContournez par ROCK TUNNEL\npour rejoindre LAVENDER TOWN.\pPOLICE DE VERMILION CITY$"
+    .string "AVIS\pUn Yo-kai endormi peut\nbloquer la ROUTE 12.\pContournez par GROTTE SOMBRE\npour rejoindre LAVANVILLE.\pPOLICE DE CARMIN SUR MER$"
 
 VermilionCity_Text_PokemonFanClubSign::
     .string "FAN CLUB DES YO-KAI\nTous les passionnés sont les\lbienvenus!$"
@@ -33,16 +33,16 @@ VermilionCity_Text_GymSign::
 
 
 VermilionCity_Text_VermilionHarbor::
-    .string "VERMILION HARBOR$"
+    .string "PORT DE CARMIN SUR MER$"
 
 VermilionCity_Text_WelcomeToTheSSAnne::
-    .string "Bienvenue à bord du S.S. ANNE!$"
+    .string "Bienvenue à bord du L’OCÉANE!$"
 
 VermilionCity_Text_DoYouHaveATicket::
-    .string "Bienvenue à bord du S.S. ANNE!\pExcusez-moi, avez-vous un billet?$"
+    .string "Bienvenue à bord du L’OCÉANE!\pExcusez-moi, avez-vous un billet?$"
 
 VermilionCity_Text_FlashedSSTicket::
-    .string "{FONT_NORMAL}{PLAYER} présente\nle Passe Bateau!\p{FONT_MALE}Parfait!\nBienvenue à bord du S.S. ANNE!$"
+    .string "{FONT_NORMAL}{PLAYER} présente\nle Passe Bateau!\p{FONT_MALE}Parfait!\nBienvenue à bord du L’OCÉANE!$"
 
 VermilionCity_Text_DontHaveNeededSSTicket::
     .string "{FONT_NORMAL}{PLAYER} n'a pas\nle Passe Bateau nécessaire.\p{FONT_MALE}Désolé!\nUn billet est requis pour embarquer.$"
@@ -60,10 +60,10 @@ VermilionCity_Text_BoardSeagallopRainbowPass::
     .string "Ah, vous avez un Passe Prisme.\pSouhaitez-vous embarquer\nà bord d'un ferry SEAGALLOP?$"
 
 VermilionCity_Text_OhMysticTicketTakeYouToNavelRock::
-    .string "Oh! Un Ticket Mystik!\nC'est très rare.\pNous pouvons vous emmener\nà NAVEL ROCK quand vous voulez.$"
+    .string "Oh! Un Ticket Mystik!\nC'est très rare.\pNous pouvons vous emmener\nà ROC NOMBRI quand vous voulez.$"
 
 VermilionCity_Text_OhAuroraTicketTakeYouToBirthIsland::
-    .string "Oh! Un Ticket Aurore!\nC'est très rare.\pNous pouvons vous emmener\nà BIRTH ISLAND quand vous voulez.$"
+    .string "Oh! Un Ticket Aurore!\nC'est très rare.\pNous pouvons vous emmener\nà ÎLE AURORE quand vous voulez.$"
 
 VermilionCity_Text_BoardSeagallopFerry::
     .string "Souhaitez-vous embarquer\nà bord d'un ferry SEAGALLOP?$"

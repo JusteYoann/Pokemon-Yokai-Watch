@@ -3,18 +3,16 @@ Text_BodySlamTeach::
     .string "Prêt ? Hop !\pOn fait un concours de Plaquage pour\nvoir qui abandonne en premier.\pTu finirais tout aplati si tu\nparticipais !\pJe peux plutôt enseigner Plaquage à\nl'un de tes Yo-kai. Ça te dit ?$"
 
 Text_BodySlamDeclined::
-    .string "Come again!\n"
-    .string "Boing!$"
+    .string "Reviens me voir ! Boïng !$"
 
 Text_BodySlamWhichMon::
     .string "Quel Yo-kai veut apprendre Plaquage\n?$"
 
 Text_BodySlamTaught::
-    .string "Boioing!$"
+    .string "Boïoïng !$"
 
 FourIsland_House1_Text_FatMan::
-    .string "それ　ぼよーん！\n"
-    .string "おまえ　おもいなあー！$"
+    .string "Boum !\nDis donc, tu pèses lourd !$"
 
 FourIsland_PokemonCenter_1F_Text_RareIceMonsInCave::
     .string "Un rare Yo-kai de type Glace vit\ndans la grotte.\pBeaucoup de visiteurs viennent dans\nl'espoir de l'apercevoir.$"

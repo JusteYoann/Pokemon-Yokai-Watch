@@ -11,7 +11,7 @@ Text_DreamEaterTaught::
     .string "…ZZZ…\nJe… n'ai plus… faim…$"
 
 PewterCity_Text_ClefairyCameFromMoon::
-    .string "On raconte que les Bouh\nviendraient de la lune.\pIls seraient apparus après la chute\nde Pierres Lune sur MT. MOON.$"
+    .string "On raconte que les Bouh\nviendraient de la lune.\pIls seraient apparus après la chute\nde Pierres Lune sur MONT SÉLÉNITE.$"
 
 PewterCity_Text_BrockOnlySeriousTrainerHere::
     .string "Il y a peu de Dresseurs de Yo-kai\nvraiment sérieux dans le coin.\pBeaucoup collectionnent\nles Yo-kai pour le plaisir.\pMais Wyatt, le Champion\nde l'Arène, c'est autre chose!$"
@@ -20,7 +20,7 @@ PewterCity_Text_DidYouCheckOutMuseum::
     .string "As-tu visité le Musée?$"
 
 PewterCity_Text_WerentThoseFossilsAmazing::
-    .string "Ils sont impressionnants,\nces fossiles de MT. MOON, non?$"
+    .string "Ils sont impressionnants,\nces fossiles de MONT SÉLÉNITE, non?$"
 
 PewterCity_Text_ReallyYouHaveToGo::
     .string "Vraiment?\nTu dois absolument y aller!$"
@@ -47,16 +47,16 @@ PewterCity_Text_TrainerTipsEarningEXP::
     .string "CONSEILS AUX DRESSEURS\pLes Yo-kai ayant combattu\ngagnent de l’EXP.\pUn Yo-kai qui tient le Multi Exp.\npeut aussi en recevoir!$"
 
 PewterCity_Text_CallPoliceIfInfoOnThieves::
-    .string "AVIS À LA POPULATION\pDes voleurs dérobent des fossiles\nde Yo-kai à MT. MOON.\pPrévenez la police si vous avez\ndes informations à ce sujet.$"
+    .string "AVIS À LA POPULATION\pDes voleurs dérobent des fossiles\nde Yo-kai à MONT SÉLÉNITE.\pPrévenez la police si vous avez\ndes informations à ce sujet.$"
 
 PewterCity_Text_MuseumOfScience::
-    .string "MUSÉE DES SCIENCES\nDE PEWTER CITY$"
+    .string "MUSÉE DES SCIENCES\nD'ARGENTA$"
 
 PewterCity_Text_GymSign::
-    .string "ARÈNE DE PEWTER CITY\nCHAMPION: WYATT\lUn Dresseur solide comme le roc!$"
+    .string "ARÈNE DE ARGENTA\nCHAMPION: WYATT\lUn Dresseur solide comme le roc!$"
 
 PewterCity_Text_CitySign::
-    .string "PEWTER CITY\nLa ville grise comme la pierre$"
+    .string "ARGENTA\nLa ville grise comme la pierre$"
 
 @ The below 3 JP texts are unused. Possibly a cut NPC meant to give the player the Berry Pouch
 PewterCity_Text_DefeatedBrockYouCanHaveTreasure::

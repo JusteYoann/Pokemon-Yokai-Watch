@@ -1,0 +1,380 @@
+[
+  {
+    "file": "data/maps/VictoryRoad_3F/text.inc",
+    "symbol": "Text_DoubleEdgeTeach",
+    "before": "You should be proud of yourself,\\nhaving battled your way through\\lVICTORY ROAD so courageously.\\pIn recognition of your feat,\\nI'll teach you DOUBLE-EDGE.\\pWould you like me to teach that\\ntechnique?$",
+    "after": "Tu peux être fier d'avoir traversé la\\nRoute Victoire avec autant de\\lcourage.\\pPour saluer cet exploit, je peux\\nenseigner Damoclès à ton équipe.\\pVeux-tu apprendre cette technique ?$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_3F/text.inc",
+    "symbol": "Text_DoubleEdgeDeclined",
+    "before": "I'll teach you the technique\\nanytime.$",
+    "after": "Je pourrai t'enseigner cette technique\\nquand tu voudras.$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_3F/text.inc",
+    "symbol": "Text_DoubleEdgeWhichMon",
+    "before": "Which Yo-kai should I teach\\nDOUBLE-EDGE?$",
+    "after": "À quel Yo-kai dois-je enseigner\\nDamoclès ?$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_3F/text.inc",
+    "symbol": "Text_DoubleEdgeTaught",
+    "before": "Keep that drive going for the\\nLigue Yo-kai!\\pTake a run at them and knock 'em\\nout!$",
+    "after": "Garde cet enthousiasme pour la Ligue\\nYo-kai !\\pFonce et terrasse tes adversaires !$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_3F/text.inc",
+    "symbol": "VictoryRoad_3F_Text_GeorgeDefeat",
+    "before": "The rumors were true!$",
+    "after": "Les rumeurs disaient vrai !$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_3F/text.inc",
+    "symbol": "VictoryRoad_3F_Text_AlexaIntro",
+    "before": "TRAINERS live to seek stronger\\nopponents.$",
+    "after": "Les Dresseurs cherchent sans cesse\\ndes adversaires plus forts.$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_3F/text.inc",
+    "symbol": "VictoryRoad_3F_Text_AlexaPostBattle",
+    "before": "By fighting tough battles, you get\\nstronger.$",
+    "after": "Les combats difficiles te rendent plus\\nfort.$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_3F/text.inc",
+    "symbol": "VictoryRoad_3F_Text_CarolineIntro",
+    "before": "I'll show you just how good you\\nare. Not!$",
+    "after": "Je vais te montrer à quel point tu es\\ndoué. Ou pas !$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_3F/text.inc",
+    "symbol": "VictoryRoad_3F_Text_CarolineDefeat",
+    "before": "I'm furious!$",
+    "after": "Je suis furieuse !$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_3F/text.inc",
+    "symbol": "VictoryRoad_3F_Text_CarolinePostBattle",
+    "before": "You showed me just how good\\nI was…$",
+    "after": "Tu m'as montré mon véritable niveau…$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_3F/text.inc",
+    "symbol": "VictoryRoad_3F_Text_ColbyIntro",
+    "before": "Only the chosen can pass here!$",
+    "after": "Seuls les élus peuvent passer ici !$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_3F/text.inc",
+    "symbol": "VictoryRoad_3F_Text_ColbyDefeat",
+    "before": "I don't believe it!$",
+    "after": "Je n'y crois pas !$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_3F/text.inc",
+    "symbol": "VictoryRoad_3F_Text_ColbyPostBattle",
+    "before": "All TRAINERS here are headed to\\nthe Ligue Yo-kai.\\pDon't let down your guard.$",
+    "after": "Tous les Dresseurs d'ici se dirigent\\nvers la Ligue Yo-kai.\\pNe baisse pas ta garde.$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_3F/text.inc",
+    "symbol": "VictoryRoad_3F_Text_RayIntro",
+    "before": "RAY: Together, the two of us are\\ndestined for greatness!$",
+    "after": "RAY : Ensemble, nous sommes destinés\\nà la grandeur !$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_3F/text.inc",
+    "symbol": "VictoryRoad_3F_Text_RayDefeat",
+    "before": "RAY: Ludicrous!\\nThis can't be!$",
+    "after": "RAY : Absurde ! C'est impossible !$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_3F/text.inc",
+    "symbol": "VictoryRoad_3F_Text_RayPostBattle",
+    "before": "RAY: You've beaten us.\\nGreatness remains elusive…$",
+    "after": "RAY : Tu nous as battus. La grandeur\\nnous échappe encore…$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_3F/text.inc",
+    "symbol": "VictoryRoad_3F_Text_RayNotEnoughMons",
+    "before": "RAY: Together, the two of us are\\nstriving for the pinnacle.\\pWe need you to bring two Yo-kai\\ninto battle with us.$",
+    "after": "RAY : Ensemble, nous visons le\\nsommet.\\pIl te faut deux Yo-kai pour nous\\naffronter.$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_3F/text.inc",
+    "symbol": "VictoryRoad_3F_Text_TyraIntro",
+    "before": "TYRA: We're trying to become\\nchampions together.$",
+    "after": "TYRA : Nous essayons de devenir\\nchampions ensemble.$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_3F/text.inc",
+    "symbol": "VictoryRoad_3F_Text_TyraPostBattle",
+    "before": "TYRA: You've taught me that power\\ncan be infinite in shape and form.$",
+    "after": "TYRA : Tu m'as appris que la\\npuissance peut prendre une infinité de\\lformes.$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_3F/text.inc",
+    "symbol": "VictoryRoad_3F_Text_TyraNotEnoughMons",
+    "before": "TYRA: You can't battle with us if\\nyou have only one Yo-kai.$",
+    "after": "TYRA : Tu ne peux pas nous affronter\\navec un seul Yo-kai.$"
+  },
+  {
+    "file": "data/maps/ViridianCity_Gym/text.inc",
+    "symbol": "ViridianCity_Gym_Text_GymStatue",
+    "before": "ARÈNE YO-KAI DE VIRIDIAN\\nCHAMPION: ?\\pDRESSEURS VICTORIEUX:\\n{RIVAL}$",
+    "after": "ARÈNE YO-KAI DE JADIELLE\\nCHAMPION : ?\\pDRESSEURS VICTORIEUX :\\n{RIVAL}$"
+  },
+  {
+    "file": "data/maps/ViridianForest/text.inc",
+    "symbol": "ViridianForest_Text_LeavingViridianForest",
+    "before": "SORTIE DE VIRIDIAN FOREST\\nDIRECTION PEWTER CITY$",
+    "after": "SORTIE DE LA FORÊT DE JADE\\nDIRECTION ARGENTA$"
+  },
+  {
+    "file": "data/scripts/field_moves.inc",
+    "symbol": "Text_CutTreeDown",
+    "before": "This tree looks like it can be CUT\\ndown!\\pWould you like to CUT it?$",
+    "after": "Cet arbre semble pouvoir être coupé\\n!\\pVoulez-vous utiliser Coupe ?$"
+  },
+  {
+    "file": "data/scripts/field_moves.inc",
+    "symbol": "Text_TreeCanBeCutDown",
+    "before": "This tree looks like it can be CUT\\ndown!$",
+    "after": "Cet arbre semble pouvoir être coupé\\n!$"
+  },
+  {
+    "file": "data/scripts/field_moves.inc",
+    "symbol": "Text_UseRockSmash",
+    "before": "This rock appears to be breakable.\\nWould you like to use ROCK SMASH?$",
+    "after": "Ce rocher semble friable.\\nVoulez-vous utiliser Éclate-Roc ?$"
+  },
+  {
+    "file": "data/scripts/field_moves.inc",
+    "symbol": "Text_MonMaySmashRock",
+    "before": "It's a rugged rock, but a Yo-kai\\nmay be able to smash it.$",
+    "after": "Ce rocher est solide, mais un Yo-kai\\npourrait peut-être le briser.$"
+  },
+  {
+    "file": "data/scripts/field_moves.inc",
+    "symbol": "Text_UseStrength",
+    "before": "It's a big boulder, but a Yo-kai\\nmay be able to push it aside.\\pWould you like to use STRENGTH?$",
+    "after": "Ce gros rocher pourrait être déplacé\\npar un Yo-kai.\\pVoulez-vous utiliser Force ?$"
+  },
+  {
+    "file": "data/scripts/field_moves.inc",
+    "symbol": "Text_MonUsedStrengthCanMoveBoulders",
+    "before": "{STR_VAR_1} used STRENGTH!\\p{STR_VAR_1}'s STRENGTH made it\\npossible to move boulders around!$",
+    "after": "{STR_VAR_1} utilise Force !\\pGrâce à la Force de {STR_VAR_1},\\nles rochers peuvent être déplacés !$"
+  },
+  {
+    "file": "data/scripts/field_moves.inc",
+    "symbol": "Text_MonMayPushBoulder",
+    "before": "It's a big boulder, but a Yo-kai\\nmay be able to push it aside.$",
+    "after": "Ce gros rocher pourrait être déplacé\\npar un Yo-kai.$"
+  },
+  {
+    "file": "data/scripts/field_moves.inc",
+    "symbol": "Text_StrengthMadeMovingBouldersPossible",
+    "before": "STRENGTH made it possible to move\\nboulders around.$",
+    "after": "Force permet désormais de déplacer\\nles rochers.$"
+  },
+  {
+    "file": "data/scripts/field_moves.inc",
+    "symbol": "Text_WallOfWaterCrashingDown",
+    "before": "A wall of water is crashing down\\nwith a mighty roar.$",
+    "after": "Un mur d'eau s'abat dans un\\ngrondement assourdissant.$"
+  },
+  {
+    "file": "data/scripts/field_moves.inc",
+    "symbol": "Text_UseWaterfall",
+    "before": "It's a large waterfall.\\nWould you like to use WATERFALL?$",
+    "after": "C'est une grande chute d'eau.\\nVoulez-vous utiliser Cascade ?$"
+  },
+  {
+    "file": "data/scripts/field_moves.inc",
+    "symbol": "Text_MonMayGoUnderwater",
+    "before": "The sea is deep here. A Yo-kai\\nmay be able to go underwater.$",
+    "after": "La mer est profonde ici. Un Yo-kai\\npourrait peut-être plonger.$"
+  },
+  {
+    "file": "data/scripts/field_moves.inc",
+    "symbol": "Text_SeaIsDeepUseDive",
+    "before": "The sea is deep here.\\nWould you like to use DIVE?$",
+    "after": "La mer est profonde ici. Voulez-vous\\nutiliser Plongée ?$"
+  },
+  {
+    "file": "data/scripts/field_moves.inc",
+    "symbol": "Text_MonMaySurface",
+    "before": "Light is filtering down from above.\\nA Yo-kai may be able to surface.$",
+    "after": "La lumière filtre depuis la surface.\\nUn Yo-kai pourrait peut-être\\lremonter.$"
+  },
+  {
+    "file": "data/scripts/field_moves.inc",
+    "symbol": "Text_LightFilteringUseDive",
+    "before": "Light is filtering down from above.\\nWould you like to use DIVE?$",
+    "after": "La lumière filtre depuis la surface.\\nVoulez-vous utiliser Plongée ?$"
+  },
+  {
+    "file": "data/scripts/field_moves.inc",
+    "symbol": "Text_DiveCantBeUsedHere",
+    "before": "There is an obstacle above.\\nDIVE can't be used here.$",
+    "after": "Il y a un obstacle au-dessus.\\nImpossible d'utiliser Plongée ici.$"
+  },
+  {
+    "file": "data/scripts/mystery_event_club.inc",
+    "symbol": "Text_IdLoveToHearYourProfile",
+    "before": "Hi, glad to meet you!\\p…That's unfriendly of you.\\nHow about saying hi back?\\pSo, come on, tell me about\\nyourself.\\pI'd love to hear your profile!$",
+    "after": "Salut, ravi de te rencontrer !\\p… Ce n'est pas très aimable. Tu\\npourrais me dire bonjour.\\pAllez, parle-moi de toi.\\pJ'aimerais connaître ton profil !$"
+  },
+  {
+    "file": "data/scripts/mystery_event_club.inc",
+    "symbol": "Text_TellMeWhatsYourProfile",
+    "before": "Tell me something good about\\nyourself. What's your profile?$",
+    "after": "Dis-moi quelque chose sur toi. Quel\\nest ton profil ?$"
+  },
+  {
+    "file": "data/scripts/mystery_event_club.inc",
+    "symbol": "Text_ExplainProfile",
+    "before": "A profile is written using four\\nwords or phrases.\\pThere're plenty of words to choose\\nfrom for your profile.\\pThe words and phrases are placed\\nin several convenient groups.\\pFirst, choose a group, then choose\\na word or phrase.\\p…It's easier than it sounds.\\nWhy don't you try it?$",
+    "after": "Un profil se compose de quatre mots\\nou expressions.\\pTu disposes d'un grand choix pour\\nrédiger le tien.\\pLes mots et expressions sont répartis\\nen groupes pratiques.\\pChoisis d'abord un groupe, puis un\\nmot ou une expression.\\p… C'est plus simple qu'il n'y paraît.\\nTu veux essayer ?$"
+  },
+  {
+    "file": "data/scripts/mystery_event_club.inc",
+    "symbol": "Text_WhatsYourProfile",
+    "before": "What's your profile?$",
+    "after": "Quel est ton profil ?$"
+  },
+  {
+    "file": "data/scripts/mystery_event_club.inc",
+    "symbol": "Text_DontBeLikeThat",
+    "before": "Aww… Don't be like that.\\nYou can tell me your profile.$",
+    "after": "Oh… Ne fais pas ça. Tu peux me\\ndonner ton profil.$"
+  },
+  {
+    "file": "data/scripts/mystery_event_club.inc",
+    "symbol": "Text_DecidedNotTo",
+    "before": "Oh, you've decided not to?\\nYou're fickle, aren't you?$",
+    "after": "Oh, tu renonces ? Tu changes vite\\nd'avis !$"
+  },
+  {
+    "file": "data/scripts/mystery_event_club.inc",
+    "symbol": "Text_ChangeYourProfile",
+    "before": "Would you like to change your\\nprofile?$",
+    "after": "Veux-tu modifier ton profil ?$"
+  },
+  {
+    "file": "data/scripts/mystery_event_club.inc",
+    "symbol": "Text_WhatAreYouLikeNow",
+    "before": "What are you like now?\\nI'd really like to know.$",
+    "after": "Comment es-tu, maintenant ? J'aimerais\\nvraiment le savoir.$"
+  },
+  {
+    "file": "data/scripts/mystery_event_club.inc",
+    "symbol": "Text_LikeProfileWayItIs",
+    "before": "Okay, you like your profile the\\nway it is.\\pI think so, too.$",
+    "after": "D'accord, ton profil te plaît comme\\nça.\\pJe suis du même avis.$"
+  },
+  {
+    "file": "data/scripts/mystery_event_club.inc",
+    "symbol": "Text_ProfileSaysSomethingAboutYou",
+    "before": "Hmhm…\\pYour profile really says something\\nabout who you are.\\pNow that I know you better, it \\nmakes us better friends than ever!$",
+    "after": "Hmm…\\pTon profil en dit vraiment long sur\\ntoi.\\pMaintenant que je te connais mieux,\\nnous sommes encore plus proches !$"
+  },
+  {
+    "file": "data/scripts/mystery_event_club.inc",
+    "symbol": "Text_HeardThatBefore",
+    "before": "Oh, I've heard that before…\\pMy cousin, who lives far away,\\nalways used to say that, I think.$",
+    "after": "Oh, j'ai déjà entendu ça…\\pMon cousin, qui habite loin, le disait\\ntout le temps, je crois.$"
+  },
+  {
+    "file": "data/scripts/mystery_event_club.inc",
+    "symbol": "Text_TellMoreNextTime",
+    "before": "Please tell me more about\\nyourself next time!$",
+    "after": "Parle-moi encore de toi la prochaine\\nfois !$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "PokemonJournal_Text_SpecialFeatureBrock",
+    "before": "Yo-kai JOURNAL\\pSpecial Feature: PEWTER GYM\\nLEADER WYATT!\\pWYATT rarely laughs, but is said to\\nbe unable to stop if he starts.$",
+    "after": "LE JOURNAL DES YO-KAI\\pDossier spécial : Wyatt, Champion\\nd'Argenta !\\pWyatt rit rarement, mais il paraît\\nque lorsqu'il commence, il ne peut\\lplus s'arrêter.$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "PokemonJournal_Text_SpecialFeatureMisty",
+    "before": "Yo-kai JOURNAL\\pSpecial Feature: CERULEAN GYM\\nLEADER {CHAMPION_AZURIA}!\\p{CHAMPION_AZURIA} is said to worship LORELEI\\nof the ELITE FOUR.$",
+    "after": "LE JOURNAL DES YO-KAI\\pDossier spécial : {CHAMPION_AZURIA}, Champion d'Azuria\\n!\\pOn dit que {CHAMPION_AZURIA} admire énormément Olga.$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "PokemonJournal_Text_SpecialFeatureLtSurge",
+    "before": "Yo-kai JOURNAL\\pSpecial Feature: VERMILION GYM\\nLEADER ARIANE!\\pARIANE is rumored to have been\\na pilot while home in America.\\pHe used the electricity generated\\nby Yo-kai to power his plane.$",
+    "after": "LE JOURNAL DES YO-KAI\\pDossier spécial : Ariane, Championne\\nde Carmin sur Mer !\\pAriane utilise des Yo-kai Électrik.\\nLeurs décharges rendent ses combats\\lspectaculaires.$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "PokemonJournal_Text_SpecialFeatureErika",
+    "before": "Yo-kai JOURNAL\\pSpecial Feature: CELADON GYM\\nLEADER ERIKA!\\pRumor has it that if you peek into\\nCELADON GYM, you can often\\lsee ERIKA snoozing.$",
+    "after": "LE JOURNAL DES YO-KAI\\pDossier spécial : Erika, Championne\\nde Céladopole !\\pIl paraît qu'en passant devant\\nl'Arène de Céladopole, on peut\\lsouvent voir Erika faire la sieste.$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "PokemonJournal_Text_SpecialFeatureKoga",
+    "before": "Yo-kai JOURNAL\\pSpecial Feature: FUCHSIA GYM\\nLEADER KOGA!\\pKOGA is said to have a thorough\\nknowledge of medicine.\\pHe even concocts medicine to nurse\\nhis Yo-kai to health.$",
+    "after": "LE JOURNAL DES YO-KAI\\pDossier spécial : Koga, spécialiste\\ndes Yo-kai Poison !\\pKoga aurait de grandes connaissances\\nen médecine.\\pIl prépare lui-même des remèdes pour\\nsoigner ses Yo-kai.$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "PokemonJournal_Text_SpecialFeatureSabrina",
+    "before": "Yo-kai JOURNAL\\pSpecial Feature: SAFFRON GYM\\nLEADER BÉRÉNICE!\\pPeople say that BÉRÉNICE can\\ncommunicate with her Yo-kai\\lduring battle without speaking.$",
+    "after": "LE JOURNAL DES YO-KAI\\pDossier spécial : Bérénice,\\nChampionne de Parmanie !\\pOn dit que Bérénice peut communiquer\\navec ses Yo-kai en combat sans\\lprononcer un mot.$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "PokemonJournal_Text_SpecialFeatureBlaine",
+    "before": "Yo-kai JOURNAL\\pSpecial Feature: CINNABAR GYM\\nLEADER {CHAMPION_CRAMOIS}!\\p{CHAMPION_CRAMOIS} is said to remove his dark\\nshades only when he is thinking up\\lnew quiz questions.$",
+    "after": "LE JOURNAL DES YO-KAI\\pDossier spécial : {CHAMPION_CRAMOIS}, Champion de\\nCramois'Île !\\pLes questions de l'Arène de {CHAMPION_CRAMOIS} mettent\\nles connaissances des Dresseurs à\\ll'épreuve.$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "PokemonJournal_Text_SpecialFeatureLorelei",
+    "before": "Yo-kai JOURNAL\\pSpecial Feature:\\nELITE FOUR's LORELEI!\\pKnown for her logical, calculated,\\nand cool battling style, LORELEI\\lhas a surprising secret!$",
+    "after": "LE JOURNAL DES YO-KAI\\pArchives du Conseil 4 : Olga !\\pConnue pour son style logique,\\ncalculé et imperturbable, Olga cache\\lpourtant un secret étonnant !$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "PokemonJournal_Text_SpecialFeatureBruno",
+    "before": "Yo-kai JOURNAL\\pSpecial Feature:\\nELITE FOUR's BRUNO!\\pBRUNO apparently joined the ELITE\\nFOUR out of his burning ambition to\\lbattle the best TRAINERS.$",
+    "after": "LE JOURNAL DES YO-KAI\\pArchives du Conseil 4 : Aldo !\\pAldo aurait rejoint le Conseil 4,\\npoussé par son désir ardent\\ld'affronter les meilleurs Dresseurs.$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "PokemonJournal_Text_SpecialFeatureAgatha",
+    "before": "Yo-kai JOURNAL\\pSpecial Feature:\\nELITE FOUR's AGATHA!\\pIn her youth, AGATHA and PROF.\\nOAK were rivals who vied for\\lsupremacy as TRAINERS.$",
+    "after": "LE JOURNAL DES YO-KAI\\pArchives du Conseil 4 : Agatha !\\pDans leur jeunesse, Agatha et le\\nProf. Chen rivalisaient pour devenir\\lle meilleur Dresseur.$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "PokemonJournal_Text_SpecialFeatureLance",
+    "before": "Yo-kai JOURNAL\\pSpecial Feature:\\nELITE FOUR's LANCE!\\pLANCE's grandfather is thought to\\nbe the elder of a famous clan of\\ldragon masters.$",
+    "after": "LE JOURNAL DES YO-KAI\\pArchives du Conseil 4 : Peter !\\pLe grand-père de Peter serait le\\ndoyen d'un célèbre clan de maîtres\\ldes dragons.$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "PokemonJournal_Text_SpecialFeatureProfOak",
+    "before": "Yo-kai JOURNAL\\pSpecial Feature: PROF. OAK,\\nthe Yo-kai Researcher!\\pPROF. OAK reportedly lives with his\\ngrandchildren DAISY and {RIVAL}.$",
+    "after": "LE JOURNAL DES YO-KAI\\pDossier spécial : le Prof. Chen,\\nchercheur en Yo-kai !\\pLe Prof. Chen vivrait avec ses\\npetits-enfants, Nina et {RIVAL}.$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "PokemonJournal_Text_SpecialFeatureDaisyOak",
+    "before": "This is a Yo-kai JOURNAL from\\nyears ago…\\pYo-kai JOURNAL\\nCONTEST Special!\\pThe Spring Yo-kai CONTEST's\\nGrand Champion is DAISY OAK of\\lPALLET TOWN!$",
+    "after": "C'est un ancien numéro du Journal des\\nYo-kai…\\pLE JOURNAL DES YO-KAI\\nSpécial Concours !\\pLa grande gagnante du Concours\\nYo-kai du printemps est Nina Chen, de\\lBourg Palette !$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "PokemonJournal_Text_SpecialFeatureMrFuji",
+    "before": "Yo-kai JOURNAL\\pSpecial Feature:\\nMR. FUJI of Yo-kai HOUSE!\\pEditor: The shy MR. FUJI turned\\ndown our interview requests.\\pHe is a kindly man who is adored\\nand respected in LAVENDER TOWN.$",
+    "after": "LE JOURNAL DES YO-KAI\\pDossier spécial : M. Fuji, de la\\nMaison Yo-kai !\\pLa rédaction : le timide M. Fuji a\\ndécliné nos demandes d'entretien.\\pCet homme bienveillant est aimé et\\nrespecté dans tout Lavanville.$"
+  }
+]

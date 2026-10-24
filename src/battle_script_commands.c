@@ -818,7 +818,7 @@ static const u8 sBallCatchBonuses[] =
 };
 
 // unused
-ALIGNED(4) static const u8 sJPText_Turn[] = _("ターン");
+ALIGNED(4) static const u8 sJPText_Turn[] = _("TOUR");
 
 static void Cmd_attackcanceler(void)
 {

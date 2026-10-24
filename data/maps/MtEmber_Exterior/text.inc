@@ -1,45 +1,27 @@
 Text_ExplosionTeach::
-    .string "Can you imagine?\n"
-    .string "If this volcano were to erupt?\p"
-    .string "The explosion would be the end of\n"
-    .string "us. How terrifying is that?\p"
-    .string "While we're terrified, would you\n"
-    .string "like me to teach EXPLOSION?$"
+    .string "Tu imagines si ce volcan entrait en\néruption ?\pL'explosion nous emporterait tous.\nC'est terrifiant, non ?\pPuisque nous parlons de frissons,\nveux-tu que j'enseigne Explosion à\ll'un de tes Yo-kai ?$"
 
 Text_ExplosionDeclined::
-    .string "Yeah, you're right.\n"
-    .string "It is too terrifying.$"
+    .string "Oui, tu as raison.\nC'est trop effrayant.$"
 
 Text_ExplosionWhichMon::
-    .string "You're terribly brave!\p"
-    .string "Which Yo-kai should I teach\n"
-    .string "EXPLOSION?$"
+    .string "Quel courage !\pÀ quel Yo-kai veux-tu enseigner\nExplosion ?$"
 
 Text_ExplosionTaught::
-    .string "Using EXPLOSION while on this\n"
-    .string "volcano…\p"
-    .string "What a terrifying thrill!$"
+    .string "Utiliser Explosion sur ce volcan...\pQuelle idée terrifiante, mais\nexaltante !$"
 
 @ Below 4 are unused JP versions of the above texts
 Text_ExplosionTeachJP::
-    .string "こ　この　かざんが\n"
-    .string "もし　だいばくはつ　したら\l"
-    .string "お　おれら　ひとたまりも\l"
-    .string "ないなあ　‥ブルブル！\p"
-    .string "こ　こわい　ついでに\n"
-    .string "だいばくはつ　でも　おぼえてみる？$"
+    .string "Si ce volcan explosait,\non n’aurait aucune chance…\pBrrr ! Rien que d’y penser,\nj’en tremble !\pPuisqu’on en parle…\nTu veux apprendre Explosion ?$"
 
 Text_ExplosionDeclinedJP::
-    .string "や　やっぱ　こわいもんな\n"
-    .string "ブルブル$"
+    .string "O-oui, c’est effrayant…\nBrrr !$"
 
 Text_ExplosionWhichMonJP::
-    .string "つ　つよきだね！\n"
-    .string "じゃあ　どの　ポケモンに　する？$"
+    .string "Tu as du cran !\nQuel Yo-kai choisis-tu ?$"
 
 Text_ExplosionTaughtJP::
-    .string "かざんで　だいばくはつを‥\n"
-    .string "す　すごい　スリル！$"
+    .string "Une Explosion sur un volcan…\nQuelles sensations fortes !$"
 
 MtEmber_Exterior_Text_WellTryDiggingHere::
     .string "C'est ici. On creuse. Le trésor dont\non nous a parlé doit être dessous.$"
@@ -81,42 +63,29 @@ MtEmber_Exterior_Text_WellRegroupDontStepInsideThere::
     .string "On doit se regrouper. Toi, ne mets\npas un pied là-dedans!\pEt oublie notre conversation!$"
 
 MtEmber_Exterior_Text_LoganIntro::
-    .string "An active volcano is one that's\n"
-    .string "erupting, or about to.$"
+    .string "Un volcan actif est un volcan en\néruption, ou sur le point d'entrer en\léruption.$"
 
 MtEmber_Exterior_Text_LoganDefeat::
-    .string "Whew… That was hot!\n"
-    .string "Sweat's erupting from me!$"
+    .string "Ouf... C'était chaud !\nLa sueur jaillit de partout !$"
 
 MtEmber_Exterior_Text_LoganPostBattle::
-    .string "They say there're over 1,500\n"
-    .string "active volcanoes in the world.\p"
-    .string "Just thinking about them makes me\n"
-    .string "feel all hot and gooey inside!$"
+    .string "On dit qu'il existe plus de 1 500\nvolcans actifs dans le monde.\pRien que d'y penser, je me sens tout\nchaud à l'intérieur !$"
 
 MtEmber_Exterior_Text_BethIntro::
-    .string "Do you know how caves form inside\n"
-    .string "volcanoes?$"
+    .string "Sais-tu comment les grottes se\nforment dans les volcans ?$"
 
 MtEmber_Exterior_Text_BethDefeat::
-    .string "Atchah!\n"
-    .string "You're shockingly good!$"
+    .string "Aïe !\nTu es incroyablement doué !$"
 
 MtEmber_Exterior_Text_BethPostBattle::
-    .string "When lava at the surface of magma\n"
-    .string "hardens, and the magma inside flows\l"
-    .string "out, caverns are left behind.$"
+    .string "Quand la surface du magma durcit et\nque le magma liquide s'écoule, il\lreste des cavités.$"
 
 MtEmber_Exterior_Text_JocelynIntro::
-    .string "I've been in training so I can mend\n"
-    .string "my broken heart…\p"
-    .string "It toughened me up physically at\n"
-    .string "least! Hi-yah!$"
+    .string "Je m'entraîne pour me remettre d'un\nchagrin d'amour...\pAu moins, ça m'a endurci physiquement\n! Hi-ya !$"
 
 MtEmber_Exterior_Text_JocelynDefeat::
-    .string "I think I tried to overdo it…$"
+    .string "J'ai voulu en faire trop…$"
 
 MtEmber_Exterior_Text_JocelynPostBattle::
-    .string "The way you battle, it reminds me\n"
-    .string "of the guy who dumped me…$"
+    .string "Ta façon de combattre me rappelle\ncelui qui m'a quittée...$"
 

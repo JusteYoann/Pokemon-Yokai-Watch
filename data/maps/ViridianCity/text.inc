@@ -5,7 +5,7 @@ ViridianCity_Text_GymClosedWonderWhoLeaderIs::
     .string "Cette Arène Yo-kai\nest toujours fermée.\pJe me demande\nqui en est le Champion.$"
 
 ViridianCity_Text_ViridiansGymLeaderReturned::
-    .string "Le Champion de l'Arène\nde VIRIDIAN est revenu!$"
+    .string "Le Champion de l'Arène\nde JADIELLE est revenu!$"
 
 ViridianCity_Text_WantToKnowAboutCaterpillarMons::
     .string "Tu veux un conseil pour protéger\ntes Yo-kai contre le poison?$"
@@ -20,7 +20,7 @@ ViridianCity_Text_GrandpaHasntHadCoffeeYet::
     .string "Oh, Papi!\nNe sois pas si méchant!\pJe suis désolée.\nIl n'a pas encore bu son café.$"
 
 ViridianCity_Text_GoShoppingInPewterOccasionally::
-    .string "Je vais parfois faire\ndes achats à PEWTER CITY.\pPour y aller, je traverse\nles sentiers de VIRIDIAN FOREST.$"
+    .string "Je vais parfois faire\ndes achats à ARGENTA.\pPour y aller, je traverse\nles sentiers de FORÊT DE JADE.$"
 
 ViridianCity_Text_ThisIsPrivateProperty::
     .string "Je t'interdis de passer ici!\pC'est une propriété privée!$"
@@ -47,7 +47,7 @@ ViridianCity_Text_TooBusyForTeachyTV::
     .string "Hmm… Tu n'as même pas\nle temps de regarder la TV ABC…\pLe temps, c'est de l'argent.\nMieux vaut ne gaspiller ni l'un ni\ll'autre.$"
 
 ViridianCity_Text_CitySign::
-    .string "VIRIDIAN CITY\nLe paradis toujours vert$"
+    .string "JADIELLE\nLe paradis toujours vert$"
 
 ViridianCity_Text_CatchMonsForEasierBattles::
     .string "ASTUCE DRESSEUR\pCapture des Yo-kai\npour agrandir ta collection.\pPlus ton équipe est variée,\nplus tu peux t'adapter au combat.$"
@@ -56,8 +56,8 @@ ViridianCity_Text_MovesLimitedByPP::
     .string "ASTUCE DRESSEUR\pLes capacités des Yo-kai\nconsomment des Points de Pouvoir,\lappelés PP.\pPour récupérer leurs PP,\nfais soigner tes Yo-kai\lau Centre Yo-kai.$"
 
 ViridianCity_Text_GymSign::
-    .string "ARÈNE YO-KAI DE VIRIDIAN CITY$"
+    .string "ARÈNE YO-KAI DE JADIELLE$"
 
 ViridianCity_Text_GymDoorsAreLocked::
-    .string "Les portes de l'Arène\nde VIRIDIAN sont verrouillées…$"
+    .string "Les portes de l'Arène\nde JADIELLE sont verrouillées…$"
 

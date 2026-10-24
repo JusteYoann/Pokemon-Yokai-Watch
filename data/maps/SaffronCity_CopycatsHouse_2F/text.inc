@@ -1,102 +1,44 @@
 SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyMale::
-    .string "{PLAYER}: Hi!\n"
-    .string "Do you like Yo-kai?\p"
-    .string "{PLAYER}: Uh, no, I just asked you.\p"
-    .string "{PLAYER}: Huh?\n"
-    .string "You're strange!\p"
-    .string "COPYCAT: Hmm? Quit mimicking?\n"
-    .string "But, that's my favorite hobby!$"
+    .string "{PLAYER} : Salut ! Tu aimes les\nYo-kai ?\p{PLAYER} : Euh, non, c'est moi qui te\nle demande.\p{PLAYER} : Hein ? Tu es bizarre !\pLa Copieuse : Quoi ? Que j'arrête de\nt'imiter ? Mais c'est mon passe-temps\lfavori !$"
 
 SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemale::
-    .string "{PLAYER}: Hi.\n"
-    .string "You must like Yo-kai.\p"
-    .string "{PLAYER}: No, not me.\n"
-    .string "I asked you.\p"
-    .string "{PLAYER}: Pardon?\n"
-    .string "You're weird!\l"
-    .string " \l"
-    .string "COPYCAT: Hmm? Quit mimicking?\l"
-    .string "But that's my favorite hobby!$"
+    .string "{PLAYER} : Salut. Tu dois aimer les\nYo-kai.\p{PLAYER} : Non, pas moi. C'est à toi\nque je demande.\p{PLAYER} : Pardon ? Tu es bizarre !\pLa Copieuse : Quoi ? Que j'arrête de\nt'imiter ? Mais c'est mon passe-temps\lfavori !$"
 
 Text_MimicTeach::
-    .string "Oh wow!\n"
-    .string "A POKé DOLL!\p"
-    .string "For me?\n"
-    .string "Thank you!\p"
-    .string "You know what?\n"
-    .string "I can teach the move MIMIC.$"
+    .string "Oh, super ! Une Poképoupée !\pPour moi ? Merci !\pTu sais quoi ? Je peux enseigner la\ncapacité Copie.$"
 
 Text_MimicDeclined::
-    .string "Don't you like MIMIC?$"
+    .string "Tu n'aimes pas Copie ?$"
 
 Text_MimicWhichMon::
-    .string "I really love MIMIC!\n"
-    .string "Who's going to learn it?$"
+    .string "J'adore Copie ! Qui va l'apprendre ?$"
 
 Text_MimicTaughtMale::
-    .string "{PLAYER}: Hi!\n"
-    .string "Thanks for earlier!\p"
-    .string "{PLAYER}: Pardon?\p"
-    .string "{PLAYER}: Is it that fun to mimic my\n"
-    .string "every move?\p"
-    .string "COPYCAT: You bet!\n"
-    .string "It's a scream!$"
+    .string "{PLAYER} : Salut ! Merci pour tout à\nl'heure !\p{PLAYER} : Pardon ?\p{PLAYER} : C'est si amusant que ça\nd'imiter chacun de mes gestes ?\pLa Copieuse : Et comment ! C'est à\nmourir de rire !$"
 
 Text_MimicTaughtFemale::
-    .string "{PLAYER}: Hi!\n"
-    .string "Thanks for what you did for us.\p"
-    .string "{PLAYER}: Pardon?\p"
-    .string "{PLAYER}: Is it really that fun to\n"
-    .string "copy what I say and do?\p"
-    .string "COPYCAT: You bet!\n"
-    .string "It's a scream!$"
+    .string "{PLAYER} : Salut ! Merci pour ce que\ntu as fait pour nous.\p{PLAYER} : Pardon ?\p{PLAYER} : C'est vraiment si amusant\nde répéter tout ce que je dis et\lfais ?\pLa Copieuse : Et comment ! C'est à\nmourir de rire !$"
 
 SaffronCity_CopycatsHouse_2F_Text_TooMuchInBag::
-    .string "にもつが　いっぱいね！$"
+    .string "Ton Sac est plein !$"
 
 SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyMaleJP::
-    .string "{PLAYER}“やあ！　こんにちは！\n"
-    .string "きみ　ポケモン　すきかい？\p"
-    .string "{PLAYER}“ぼく　じゃなくって\n"
-    .string "きみに　きいてるんだ　けど\p"
-    .string "{PLAYER}“‥‥　えー　なんだよ！\n"
-    .string "ヘンな　やつ　だなあ！\p"
-    .string "モノマネむすめ“‥‥　なに？\n"
-    .string "ひとの　マネ　すんなって？\p"
-    .string "だって　あたし　\n"
-    .string "ものまね　しゅみ　なんだ　もん！”$"
+    .string "{PLAYER} : Salut !\nTu aimes les Yo-kai ?\p{PLAYER} : Je ne parle pas\nde moi, mais de toi !\p{PLAYER} : Hein ?\nTu es vraiment bizarre !\pCOPIEUSE : Quoi ?\nTu veux que j’arrête de t’imiter ?\pMais c’est mon passe-temps !$"
 
 SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemaleJP::
-    .string "{PLAYER}“こんにちは！\n"
-    .string "ポケモン　すきなのね？\p"
-    .string "{PLAYER}“わたし　じゃなくって\n"
-    .string "あなたに　きいてるんだ　けど\p"
-    .string "{PLAYER}“‥　えー　なんなの！\n"
-    .string "おかしなこ　ねー！\p"
-    .string "モノマネむすめ“‥　なに？\n"
-    .string "ひとの　マネ　すんなって？\p"
-    .string "だって　あたし\n"
-    .string "ものまね　しゅみ　なんだ　もん！$"
+    .string "{PLAYER} : Bonjour !\nTu aimes les Yo-kai ?\p{PLAYER} : Je ne parle pas\nde moi, mais de toi !\p{PLAYER} : Hein ?\nQuelle drôle de fille !\pCOPIEUSE : Quoi ?\nTu veux que j’arrête de t’imiter ?\pMais c’est mon passe-temps !$"
 
 SaffronCity_CopycatsHouse_2F_Text_Doduo::
-    .string "DODUO: Giiih!\p"
-    .string "PRETTY MIRROR LOOK AT ME,\n"
-    .string "SEE HOW PRETTY I CAN BE?$"
+    .string "Tryptik : Giii !\pMiroir, mon beau miroir, dis-moi comme\nje suis beau !$"
 
 SaffronCity_CopycatsHouse_2F_Text_RareMonOnlyDoll::
-    .string "This is a rare Yo-kai!\n"
-    .string "Huh? It's only a doll!$"
+    .string "C'est un Yo-kai rare ! Hein ? Ce n'est\nqu'une poupée !$"
 
 SaffronCity_CopycatsHouse_2F_Text_MarioWearingABucket::
-    .string "A game with MARIO wearing a bucket\n"
-    .string "on his head!$"
+    .string "Un jeu où Mario porte un seau sur la\ntête !$"
 
 SaffronCity_CopycatsHouse_2F_Text_MySecrets::
-    .string "…\p"
-    .string "My Secrets!\p"
-    .string "Skill: Mimicry!\n"
-    .string "Hobby: Collecting dolls!\l"
-    .string "Favorite Yo-kai: CLEFAIRY!$"
+    .string "…\pMes petits secrets !\pTalent : les imitations ! Loisir :\ncollectionner les poupées ! Yo-kai\lfavori : Tauracle !$"
 
 SaffronCity_CopycatsHouse_2F_Text_HuhCantSee::
-    .string "？　みえないぞ‥$"
+    .string "Hein ? Je ne vois rien…$"

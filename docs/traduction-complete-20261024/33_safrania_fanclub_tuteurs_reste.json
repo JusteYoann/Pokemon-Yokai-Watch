@@ -1,0 +1,470 @@
+[
+  {
+    "file": "data/maps/SaffronCity_CopycatsHouse_2F/text.inc",
+    "symbol": "Text_MimicWhichMon",
+    "before": "I really love MIMIC!\\nWho's going to learn it?$",
+    "after": "J'adore Copie ! Qui va l'apprendre ?$"
+  },
+  {
+    "file": "data/maps/SaffronCity_CopycatsHouse_2F/text.inc",
+    "symbol": "Text_MimicTaughtMale",
+    "before": "{PLAYER}: Hi!\\nThanks for earlier!\\p{PLAYER}: Pardon?\\p{PLAYER}: Is it that fun to mimic my\\nevery move?\\pCOPYCAT: You bet!\\nIt's a scream!$",
+    "after": "{PLAYER} : Salut ! Merci pour tout à\\nl'heure !\\p{PLAYER} : Pardon ?\\p{PLAYER} : C'est si amusant que ça\\nd'imiter chacun de mes gestes ?\\pLa Copieuse : Et comment ! C'est à\\nmourir de rire !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_CopycatsHouse_2F/text.inc",
+    "symbol": "Text_MimicTaughtFemale",
+    "before": "{PLAYER}: Hi!\\nThanks for what you did for us.\\p{PLAYER}: Pardon?\\p{PLAYER}: Is it really that fun to\\ncopy what I say and do?\\pCOPYCAT: You bet!\\nIt's a scream!$",
+    "after": "{PLAYER} : Salut ! Merci pour ce que\\ntu as fait pour nous.\\p{PLAYER} : Pardon ?\\p{PLAYER} : C'est vraiment si amusant\\nde répéter tout ce que je dis et\\lfais ?\\pLa Copieuse : Et comment ! C'est à\\nmourir de rire !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_CopycatsHouse_2F/text.inc",
+    "symbol": "SaffronCity_CopycatsHouse_2F_Text_Doduo",
+    "before": "DODUO: Giiih!\\pPRETTY MIRROR LOOK AT ME,\\nSEE HOW PRETTY I CAN BE?$",
+    "after": "Tryptik : Giii !\\pMiroir, mon beau miroir, dis-moi comme\\nje suis beau !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_CopycatsHouse_2F/text.inc",
+    "symbol": "SaffronCity_CopycatsHouse_2F_Text_RareMonOnlyDoll",
+    "before": "This is a rare Yo-kai!\\nHuh? It's only a doll!$",
+    "after": "C'est un Yo-kai rare ! Hein ? Ce n'est\\nqu'une poupée !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_CopycatsHouse_2F/text.inc",
+    "symbol": "SaffronCity_CopycatsHouse_2F_Text_MarioWearingABucket",
+    "before": "A game with MARIO wearing a bucket\\non his head!$",
+    "after": "Un jeu où Mario porte un seau sur la\\ntête !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_CopycatsHouse_2F/text.inc",
+    "symbol": "SaffronCity_CopycatsHouse_2F_Text_MySecrets",
+    "before": "…\\pMy Secrets!\\pSkill: Mimicry!\\nHobby: Collecting dolls!\\lFavorite Yo-kai: CLEFAIRY!$",
+    "after": "…\\pMes petits secrets !\\pTalent : les imitations ! Loisir :\\ncollectionner les poupées ! Yo-kai\\lfavori : Tauracle !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_Dojo/text.inc",
+    "symbol": "SaffronCity_Dojo_Text_MasterKoichiIntro",
+    "before": "Grunt!\\pI am the KARATE MASTER!\\nI am the LEADER here!\\pYou wish to challenge us?\\nExpect no mercy!\\pFwaaa!$",
+    "after": "Hmm !\\pJe suis le Maître de Karaté ! C'est\\nmoi qui dirige ce dojo !\\pTu veux nous défier ? Nous serons\\nsans pitié !\\pHyaaa !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_Dojo/text.inc",
+    "symbol": "SaffronCity_Dojo_Text_ChoosePrizedFightingMon",
+    "before": "Indeed, I have lost!\\pBut, I beseech you, do not take\\nour emblem as your trophy!\\pIn return, I will give you a prized\\nFIGHTING Yo-kai!\\pChoose whichever one you like!$",
+    "after": "C'est vrai, j'ai perdu !\\pMais je t'en supplie : ne prends pas\\nnotre emblème comme trophée !\\pÀ la place, je t'offre un précieux\\nYo-kai Combat !\\pChoisis celui que tu préfères !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_Dojo/text.inc",
+    "symbol": "SaffronCity_Dojo_Text_StayAndTrainWithUs",
+    "before": "Grunt!\\nStay and train at karate with us!$",
+    "after": "Hmm ! Reste t'entraîner au karaté\\navec nous !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_Dojo/text.inc",
+    "symbol": "SaffronCity_Dojo_Text_MikeIntro",
+    "before": "Hoargh!\\nTake your shoes off!$",
+    "after": "Hyaaa ! Enlève tes chaussures !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_Dojo/text.inc",
+    "symbol": "SaffronCity_Dojo_Text_MikePostBattle",
+    "before": "You wait 'til you see our MASTER!\\nI'm a small fry compared to him!$",
+    "after": "Attends de voir notre Maître ! À\\ncôté de lui, je ne suis rien !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_Dojo/text.inc",
+    "symbol": "SaffronCity_Dojo_Text_HidekiIntro",
+    "before": "I hear you're good!\\nShow me!$",
+    "after": "On dit que tu es fort ! Montre-moi ça\\n!$"
+  },
+  {
+    "file": "data/maps/SaffronCity_Dojo/text.inc",
+    "symbol": "SaffronCity_Dojo_Text_HidekiPostBattle",
+    "before": "Our MASTER is a pro fighter.\\nBe prepared to lose!$",
+    "after": "Notre Maître est un combattant\\nprofessionnel. Prépare-toi à perdre !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_Dojo/text.inc",
+    "symbol": "SaffronCity_Dojo_Text_AaronIntro",
+    "before": "Hiyah!\\nI have no fear for anything tough!\\pI shatter boulders for training\\nevery day!$",
+    "after": "Hiya ! Rien ne me résiste !\\pPour m'entraîner, je brise des\\nrochers tous les jours !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_Dojo/text.inc",
+    "symbol": "SaffronCity_Dojo_Text_AaronPostBattle",
+    "before": "The only thing that frightens us is\\npsychic power!$",
+    "after": "La seule chose qui nous effraie, ce\\nsont les pouvoirs psychiques !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_Dojo/text.inc",
+    "symbol": "SaffronCity_Dojo_Text_HitoshiIntro",
+    "before": "Hwaah!\\pYou're trespassing in our\\nFIGHTING DOJO!$",
+    "after": "Hyaaa !\\pTu n'as rien à faire dans notre Dojo\\nde Karaté !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_Dojo/text.inc",
+    "symbol": "SaffronCity_Dojo_Text_HitoshiPostBattle",
+    "before": "The prime fighters across the land\\ntrain here.$",
+    "after": "Les meilleurs combattants du pays\\ns'entraînent ici.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_Dojo/text.inc",
+    "symbol": "SaffronCity_Dojo_Text_YouWantHitmonlee",
+    "before": "You want the hard-kicking\\nHITMONLEE?$",
+    "after": "Tu veux Pitou, aux redoutables coups\\nde pied ?$"
+  },
+  {
+    "file": "data/maps/SaffronCity_Dojo/text.inc",
+    "symbol": "SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster",
+    "before": "{PLAYER} received the {STR_VAR_1}\\nfrom the KARATE MASTER.$",
+    "after": "{PLAYER} reçoit {STR_VAR_1} des\\nmains du Maître de Karaté.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_Dojo/text.inc",
+    "symbol": "SaffronCity_Dojo_Text_YouWantHitmonchan",
+    "before": "You want the piston-punching\\nHITMONCHAN?$",
+    "after": "Tu veux Choubidou, aux poings aussi\\nrapides que des pistons ?$"
+  },
+  {
+    "file": "data/maps/SaffronCity_Dojo/text.inc",
+    "symbol": "SaffronCity_Dojo_Text_GoesAroundComesAround",
+    "before": "What goes around comes around.$",
+    "after": "On récolte ce que l'on sème.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_Gym/text.inc",
+    "symbol": "SaffronCity_Gym_Text_JohanDefeat",
+    "before": "I never foresaw this!$",
+    "after": "Je n'avais pas prévu ça !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_Gym/text.inc",
+    "symbol": "SaffronCity_Gym_Text_TyronDefeat",
+    "before": "I don't believe this!$",
+    "after": "Je n'y crois pas !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_House/text.inc",
+    "symbol": "SaffronCity_House_Text_DontLookAtMyLetter",
+    "before": "…Thank you for writing.\\nI hope to see you soon!\\p…Hey!\\nDon't look at my letter!$",
+    "after": "… Merci pour ta lettre. J'espère te\\nrevoir bientôt !\\p… Hé ! Ne lis pas ma lettre !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_House/text.inc",
+    "symbol": "SaffronCity_House_Text_GettingCopycatPokeDoll",
+    "before": "The COPYCAT is cute!\\nI'm getting her a POKé DOLL.$",
+    "after": "La Copieuse est mignonne ! Je vais\\nlui offrir une Poképoupée.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_House/text.inc",
+    "symbol": "SaffronCity_House_Text_ExplainPPUp",
+    "before": "I was given a PP UP as a gift.\\pIt's used to increase the PP of\\na Yo-kai's move.\\pI should use it on a powerful move\\nwith only a few PP.$",
+    "after": "On m'a offert un PP Plus.\\pIl augmente les PP d'une capacité\\nd'un Yo-kai.\\pJe devrais l'utiliser sur une capacité\\npuissante qui a peu de PP.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_Mart/text.inc",
+    "symbol": "SaffronCity_Mart_Text_MaxRepelMoreEffectiveThanSuper",
+    "before": "MAX REPEL keeps weaker Yo-kai\\nfrom appearing.\\pMAX REPEL stays effective longer\\nthan SUPER REPEL.$",
+    "after": "Le Max Repousse éloigne les Yo-kai\\nfaibles.\\pSon effet dure plus longtemps que\\ncelui du Super Repousse.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_Mart/text.inc",
+    "symbol": "SaffronCity_Mart_Text_ReviveIsCostly",
+    "before": "REVIVE is costly, but it revives\\nfainted Yo-kai!$",
+    "after": "Le Rappel coûte cher, mais il ranime\\nles Yo-kai K.O. !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_MrPsychicsHouse/text.inc",
+    "symbol": "SaffronCity_MrPsychicsHouse_Text_YouWantedThis",
+    "before": "…Wait! Don't say a word!\\pYou wanted this!$",
+    "after": "… Attends ! Ne dis rien !\\pC'est ça que tu voulais !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_MrPsychicsHouse/text.inc",
+    "symbol": "SaffronCity_MrPsychicsHouse_Text_ExplainTM29",
+    "before": "You already know, don't you?\\nTM29 is PSYCHIC.\\pIt's an attack that may also lower\\nthe target's special stats.$",
+    "after": "Tu le sais déjà, n'est-ce pas ? La\\nCT29 contient Psyko.\\pCette attaque peut aussi réduire la\\nDéfense Spéciale de la cible.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_MrPsychicsHouse/text.inc",
+    "symbol": "SaffronCity_MrPsychicsHouse_Text_YouveNoRoom",
+    "before": "Where do you plan to put this?\\nYou've no room.$",
+    "after": "Où comptes-tu ranger ça ? Tu n'as\\nplus de place.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_HuhYou",
+    "before": "Huh?\\nYou…$",
+    "after": "Hein ? Toi…$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_YourePlayerWereYourFansNow",
+    "before": "Are you maybe…\\n… …\\pYou are!\\nYou are {PLAYER}!\\pWe were just talking about you!\\pWe were talking about how an\\nincredibly good TRAINER appeared.\\pAnd that someone is you!\\nYou're so cool!\\pSo, we decided that we'll become\\nyour FAN CLUB!\\pWe all hope you'll keep battling\\nand show us how cool you are.\\pThat way, maybe other people will\\nbecome fans just like me.$",
+    "after": "Est-ce que tu serais… … …\\pMais oui ! C'est toi, {PLAYER} !\\pOn parlait justement de toi !\\pOn disait qu'un Dresseur\\nincroyablement doué avait fait son\\lapparition.\\pEt c'est toi ! Tu as trop la classe !\\pOn a donc décidé de créer ton\\nfan-club !\\pOn espère tous que tu continueras à\\nlivrer des combats extraordinaires.\\pComme ça, d'autres deviendront\\npeut-être fans, comme nous.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_AlwaysCheerForYou",
+    "before": "I'll always be cheering for you!\\pGo, {PLAYER}, go!$",
+    "after": "Je t'encouragerai toujours !\\pAllez, {PLAYER}, allez !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_IllAlwaysBelieveInYou",
+    "before": "I'll always believe in you,\\n{PLAYER}.\\pPlease show the others what you're\\nlike when you battle seriously.$",
+    "after": "Je croirai toujours en toi, {PLAYER}.\\pMontre aux autres ce que tu vaux\\nquand tu combats sérieusement.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_WasYourFanNotAnymore",
+    "before": "I'm sorry.\\nI was your fan before.\\pBut now, you seem to have lost\\nthe drive you had before.\\pLately, I think {STR_VAR_1} has been\\na lot cooler.$",
+    "after": "Pardon. Avant, j'étais fan de toi.\\pMais tu sembles avoir perdu ton\\nenthousiasme d'autrefois.\\pCes derniers temps, je trouve que\\n{STR_VAR_1} a bien plus la\\lclasse.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_EveryonesYourFanButICantBe",
+    "before": "Oh!\\n{PLAYER}!\\pEveryone's been all excited about\\nyou recently.\\pI can understand why.\\nI know that you're strong.\\pBut, do you know what?\\pOnce I became {STR_VAR_1}'s fan,\\nI can't just stop being a fan.$",
+    "after": "Oh ! {PLAYER} !\\pTout le monde s'enthousiasme pour\\ntoi, ces derniers temps.\\pJe comprends pourquoi. Je sais que\\ntu es fort.\\pMais tu sais quoi ?\\pDepuis que je suis fan de\\n{STR_VAR_1}, je ne peux plus m'en\\lpasser.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_TrainersCoolWhenBattling",
+    "before": "I think TRAINERS are so cool when\\nthey're battling.\\pDon't you think so, too?$",
+    "after": "Je trouve que les Dresseurs ont une\\nclasse folle quand ils se battent.\\pPas toi ?$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_CanYouAutographShorts",
+    "before": "Oh! It's {PLAYER}!\\nToo cool!\\pOh!\\nOh, yeah!\\pCan you autograph something?\\nHow about my shorts?$",
+    "after": "Oh ! C'est {PLAYER} ! Trop la classe\\n!\\pOh ! Au fait !\\pTu peux me signer un autographe ?\\nSur mon short, par exemple ?$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_CountingOnYou",
+    "before": "However hot it's been…\\pAnd however cold it may get…\\pI've always believed in, and worn,\\nshorts!\\pI'm counting on you to keep\\nwinning!\\pI believe in you just as much as\\nI believe in shorts!$",
+    "after": "Qu'il fasse très chaud…\\pOu très froid…\\pJ'ai toujours porté des shorts et cru\\nen eux !\\pJe compte sur toi pour continuer à\\ngagner !\\pJe crois en toi autant qu'en mes\\nshorts !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_BrocksMyHero",
+    "before": "WYATT's my hero!\\nHe's a man among men!\\pHeheh, I got my mom to do\\nsomething for me.\\pI got her to embroider “WYATT”\\non my shorts!$",
+    "after": "Wyatt est mon héros ! Quel homme !\\pHéhé, j'ai demandé un service à ma\\nmère.\\pElle a brodé le nom de Wyatt sur mon\\nshort !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_BrocksFanToBitterEnd",
+    "before": "…  …\\p…  …\\nI'm WYATT's fan!\\pEven if I were his only fan,\\nI swear it on my rock-hard will,\\land on my shorts!\\pI'll be his fan to the bitter end!$",
+    "after": "… …\\p… … Je suis fan de Wyatt !\\pMême si je suis le dernier, je le\\njure sur ma volonté de fer et sur\\lmon short !\\pJe resterai son fan jusqu'au bout !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_BrocksLastWordOnCool",
+    "before": "WYATT's the last word on cool,\\nend of story!\\pNow there's a guy who I want to\\nbe like!$",
+    "after": "Wyatt, c'est le summum de la classe.\\nUn point, c'est tout !\\pC'est à lui que je veux ressembler !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_HadPleasureOfWatchingYouBattle",
+    "before": "{PLAYER}, I've had the pleasure of\\nwatching you battle.\\pIt brings back sweet memories of\\nmy own long-lost youth.\\pMay you continue to find success.\\nYou have a fan in me!$",
+    "after": "{PLAYER}, j'ai eu le plaisir de te\\nvoir combattre.\\pCela me rappelle les doux souvenirs\\nde ma jeunesse lointaine.\\pQue le succès t'accompagne encore\\nlongtemps ! Je suis fan de toi !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_NeverSeenTrainerOfYourMagnificence",
+    "before": "I have journeyed far and wide\\nacross the lands.\\pBut never have I seen a TRAINER\\nof your magnificence.\\pTake courage in your abilities\\nand keep battling on!\\pMake that a promise to me,\\nmy young idol!$",
+    "after": "J'ai parcouru le monde de long en\\nlarge.\\pMais je n'ai jamais vu de Dresseur\\naussi remarquable.\\pAie confiance en tes capacités et\\ncontinue de te battre !\\pPromets-le-moi, jeune idole !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_HmmAndYouAre",
+    "before": "Hmm…\\nAnd you are?\\pWere you hoping to sign up for\\na membership in our FAN CLUB?$",
+    "after": "Hmm… Qui es-tu ?\\pTu espérais adhérer à notre fan-club\\n?$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_YouveStillAWaysToGo",
+    "before": "Ah, so you are the much-\\ntalked-about {PLAYER}.\\pYou certainly do have the look of\\na winner.\\pBut for me to accept you as\\na true Yo-kai great…\\p… …\\pYou've still a ways to go!$",
+    "after": "Ah, tu es donc {PLAYER}, dont tout le\\nmonde parle.\\pTu as bien l'allure d'une graine de\\nchampion.\\pMais pour que je te considère comme\\nune légende des Yo-kai…\\p… …\\pTu as encore du chemin à faire !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_YoullBeTalkedAboutIfYouKeepWinning",
+    "before": "All of us gathered here are fans\\nof Yo-kai TRAINERS.\\pThe way they look in battle…\\nThey are the picture of coolness.\\pPerhaps you will be talked about\\nhere, too, if you keep winning.$",
+    "after": "Nous sommes tous ici des fans de\\nDresseurs de Yo-kai.\\pQuand ils se battent… Ils ont une\\nclasse folle.\\pPeut-être parlerons-nous aussi de toi\\nsi tu continues à gagner.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeYouOneDay",
+    "before": "It's {PLAYER}!\\nIt's {PLAYER}!\\pI want to be like {PLAYER} one day!$",
+    "after": "C'est {PLAYER} ! C'est {PLAYER} !\\pUn jour, je veux être comme {PLAYER}\\n!$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_EveryoneButMeStoppedBeingYourFan",
+    "before": "Everyone stopped being {PLAYER}'s\\nfan…\\pBut that means I can have {PLAYER}\\nall to myself!\\pYay! Go for it!\\nMy one and only {PLAYER}!$",
+    "after": "Tout le monde a cessé d'être fan de\\n{PLAYER}…\\pMais comme ça, je peux garder\\n{PLAYER} pour moi !\\pYoupi ! Vas-y ! Mon unique {PLAYER}\\n!$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeSabrina",
+    "before": "Do you know what?\\nI want to be like BÉRÉNICE!\\pI want to be a psychic girl just\\nlike her!$",
+    "after": "Tu sais quoi ? Je veux ressembler à\\nBérénice !\\pJe veux être une fille aux pouvoirs\\npsychiques, comme elle !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingSabrinasFan",
+    "before": "Even if I'm the only one, I won't\\nstop being BÉRÉNICE's fan.\\pMy dream is to be like BÉRÉNICE,\\ncute, but cool.\\pI want to be a psychic girl just\\nlike her!$",
+    "after": "Même si je suis la dernière, je\\nresterai fan de Bérénice.\\pMon rêve, c'est de lui ressembler :\\nmignonne, mais pleine de classe.\\pJe veux être une fille aux pouvoirs\\npsychiques, comme elle !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_CanIBecomeCoolTrainerOneDay",
+    "before": "I wonder if I can become a cool\\nTRAINER one day?$",
+    "after": "Est-ce que je pourrai devenir un\\nDresseur plein de classe, un jour ?$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_TheWayYouBattleIsCool",
+    "before": "Oh, man, oh, man!\\nCool! Too cool!\\p…Huh?\\nNo, not you.\\pJust the way you battle.\\nThat's cool.$",
+    "after": "Oh là là ! Quelle classe ! Trop la\\nclasse !\\p… Hein ? Non, pas toi.\\pTa façon de combattre. C'est ça qui\\na la classe.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_ImOnlyOneLeftOfYourFans",
+    "before": "Yo, {PLAYER}!\\pLooks like I'm the only one left\\nout of your fans.\\pBut, you know, I like being an only\\nfan… It's less stressful.\\pKeep up and at it!$",
+    "after": "Salut, {PLAYER} !\\pOn dirait que je suis ton dernier fan.\\pMais ça me plaît, d'être le seul…\\nC'est moins stressant.\\pContinue comme ça !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_LoveWayTrainerTalks",
+    "before": "{STR_VAR_1}'s cool, huh?\\nI love the way he talks.\\pI'd really relish a chance to meet\\nhim in person once.$",
+    "after": "{STR_VAR_1} a la classe, hein ?\\nJ'adore sa façon de parler.\\pJ'aimerais tellement avoir l'occasion\\nde le rencontrer.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_ImLoneTrainerFan",
+    "before": "Huh, can you believe it?\\nEveryone turned into your fans.\\pSo after all we've been through,\\nI'm the lone {STR_VAR_1} fan?\\pEh, being the one and only\\n{STR_VAR_1} fan's my style, anyway.$",
+    "after": "Tu te rends compte ? Tout le monde\\nest devenu fan de toi.\\pAprès tout ça, je suis le dernier fan\\nde {STR_VAR_1} ?\\pBah, être le seul fan de\\n{STR_VAR_1}, ça me correspond\\lbien.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_AdoreWayYouBattle",
+    "before": "Oh, my goodness!\\nIs it really you, {PLAYER}?\\pI have to tell you, I adore the\\nway you battle.\\pI hope you'll keep at it.\\nI'll be your number one fan!$",
+    "after": "Oh, là là ! C'est vraiment toi,\\n{PLAYER} ?\\pIl faut que je te le dise : j'adore\\nta façon de combattre.\\pJ'espère que tu continueras. Je serai\\nta première fan !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_ImYourNumberOneFan",
+    "before": "Oh, my goodness!\\nIf it isn't {PLAYER}!\\pIt's so disappointing… I realized\\nI'm your number-one-and-only fan!\\pWell, it can't be helped!\\nLet me cheer you on, at least!\\pHurray, hurray, {PLAYER}!$",
+    "after": "Oh, là là ! Voilà {PLAYER} !\\pQuelle déception… Je viens de\\nréaliser que je suis ta seule et\\lunique fan !\\pTant pis ! Laisse-moi au moins\\nt'encourager !\\pAllez, allez, {PLAYER} !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_TrainerHasBeenOnFire",
+    "before": "Recently, {STR_VAR_1} has been on\\nfire.\\pThe way he battles… It's just \\nthe way that I like it!$",
+    "after": "Ces derniers temps, {STR_VAR_1}\\nest en pleine forme.\\pSa façon de combattre… C'est tout ce\\nque j'aime !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_EveryoneTalksAboutYou",
+    "before": "Oh, hello!\\nIf it isn't {PLAYER}!\\pLately, all everyone talks about\\nis you.\\pI'm feeling lonesome because I\\nprefer {STR_VAR_1}.$",
+    "after": "Oh, bonjour ! Mais c'est {PLAYER} !\\pTout le monde ne parle plus que de\\ntoi.\\pJe me sens un peu seule, car je\\npréfère {STR_VAR_1}.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_YouReallyAreAmazing",
+    "before": "Amazing!\\n{PLAYER}, you really are amazing!\\pInstead of just watching, maybe\\nI should become a TRAINER, too.$",
+    "after": "Incroyable ! {PLAYER}, tu es\\nincroyable !\\pAu lieu de regarder les combats, je\\ndevrais peut-être devenir Dresseur.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_ImYourOnlyFan",
+    "before": "I'm your only fan…\\nSigh… This is lonely…\\pCan't you try harder and make the\\nothers take notice of you?$",
+    "after": "Je suis ta seule fan… Soupir… Je me\\nsens seule…\\pTu ne peux pas faire un effort pour\\nque les autres te remarquent ?$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_WhyCantOthersSeeMastersDignity",
+    "before": "Master {STR_VAR_1} is so dignified…\\nHe is so my type.\\pWhy can't the others see the\\ndignity he simply oozes?$",
+    "after": "Maître {STR_VAR_1} est si digne…\\nC'est tout à fait mon genre.\\pPourquoi les autres ne voient-ils pas\\nla noblesse qui émane de lui ?$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_BelieveInMasterWithAllMyHeart",
+    "before": "I believe in Master {STR_VAR_1}\\nwith all my heart.\\pEven if I am the only one to\\nbelieve in him.\\pI won't ever feel lonesome, though.\\pNot if I keep thinking about Master\\n{STR_VAR_1}.$",
+    "after": "Je crois en Maître {STR_VAR_1}\\nde tout mon cœur.\\pMême si je suis la seule à croire en\\nlui.\\pJe ne me sentirai jamais seule.\\pPas tant que je penserai à Maître\\n{STR_VAR_1}.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_YourBattleStyleIsEducational",
+    "before": "Hiyah!\\pYour battling style is most\\neducational.\\pI hope that you will keep plugging\\naway at success, hiyah!$",
+    "after": "Hiya !\\pTon style de combat est très\\ninstructif.\\pJ'espère que tu continueras à\\nchercher la victoire ! Hiya !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingYourFan",
+    "before": "Instead of just watching others\\nbattle, battle yourself!\\p…My DOJO's MASTER chewed me out\\nlike that…\\pBut I won't let that stop me from\\nbeing your fan!\\pI can't stop being your fan!$",
+    "after": "Au lieu de regarder les autres\\ncombattre, bats-toi toi-même !\\p… Voilà ce que m'a dit le Maître de\\nmon dojo…\\pMais ça ne m'empêchera pas d'être ton\\nfan !\\pJe ne peux pas m'en empêcher !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_OnlyMasterHasMyRespect",
+    "before": "Hiyah! There is but one TRAINER\\nwho has my respect.\\pAnd that is none other than my\\nMASTER at the FIGHTING DOJO.\\pYou should become a fan of my\\nMASTER like me! Hiyah!$",
+    "after": "Hiya ! Il n'y a qu'un seul Dresseur\\nque je respecte.\\pEt c'est le Maître de mon Dojo de\\nKaraté.\\pTu devrais devenir son fan, toi aussi\\n! Hiya !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonTrainerFanClub/text.inc",
+    "symbol": "SaffronCity_PokemonTrainerFanClub_Text_NeverBeFanOfAnyoneButMaster",
+    "before": "Hiyah! I respect my MASTER at the\\nFIGHTING DOJO.\\pI will never become a fan of\\nanyone other than my MASTER!\\pI will even sneak out of the DOJO\\nto spread word of his greatness.\\pHiyah!$",
+    "after": "Hiya ! Je respecte le Maître de mon\\nDojo de Karaté.\\pJe ne serai jamais fan de quelqu'un\\nd'autre que mon Maître !\\pJe quitte même le dojo en cachette\\npour vanter ses mérites.\\pHiya !$"
+  },
+  {
+    "file": "data/maps/SeafoamIslands_B4F/text.inc",
+    "symbol": "Text_RockSlideTeach",
+    "before": "When you're up on a rocky mountain\\nlike this, rockslides are a threat.\\pCan you imagine?\\nBoulders tumbling down on you?\\pThat'd be, like, waaaaaaaaaaah!\\nTotal terror!\\pYou don't seem to be scared.\\nWant to try using ROCK SLIDE?$",
+    "after": "Dans une montagne rocheuse comme\\ncelle-ci, les éboulements sont\\ldangereux.\\pTu imagines ? Des rochers qui te\\ntombent dessus ?\\pCe serait… Aaaaaah ! Terrifiant !\\pTu n'as pas l'air d'avoir peur. Tu\\nveux essayer Éboulement ?$"
+  },
+  {
+    "file": "data/maps/SeafoamIslands_B4F/text.inc",
+    "symbol": "Text_RockSlideDeclined",
+    "before": "Oh, so you are scared after all.$",
+    "after": "Ah, tu as peur, finalement.$"
+  },
+  {
+    "file": "data/maps/SeafoamIslands_B4F/text.inc",
+    "symbol": "Text_RockSlideWhichMon",
+    "before": "Which Yo-kai should I teach\\nROCK SLIDE?$",
+    "after": "À quel Yo-kai dois-je enseigner\\nÉboulement ?$"
+  },
+  {
+    "file": "data/maps/SeafoamIslands_B4F/text.inc",
+    "symbol": "Text_RockSlideTaught",
+    "before": "It might be scary to use it in this\\ntunnel…$",
+    "after": "Ça peut faire peur de l'utiliser dans\\nce tunnel…$"
+  },
+  {
+    "file": "data/maps/SeafoamIslands_B4F/text.inc",
+    "symbol": "SeafoamIslands_B4F_Text_BouldersMightChangeWaterFlow",
+    "before": "Hint: Boulders might change the\\nflow of water.$",
+    "after": "Indice : des rochers pourraient\\nmodifier le courant.$"
+  },
+  {
+    "file": "data/maps/SevenIsland/text.inc",
+    "symbol": "Text_SwordsDanceTeach",
+    "before": "Not many people come out here.\\pIf I train here, I'm convinced that\\nI'll get stronger and stronger.\\pYep, stronger and stronger…\\pHow would you like to learn a move\\nlike that? It's SWORDS DANCE.$",
+    "after": "Peu de gens viennent ici.\\pEn m'entraînant ici, je suis sûr de\\ndevenir toujours plus fort.\\pOui, toujours plus fort…\\pTu veux apprendre une capacité de\\nce genre ? C'est Danse Lames.$"
+  },
+  {
+    "file": "data/maps/SevenIsland/text.inc",
+    "symbol": "Text_SwordsDanceDeclined",
+    "before": "Well, that's fine, too.$",
+    "after": "Eh bien, comme tu veux.$"
+  },
+  {
+    "file": "data/maps/SevenIsland/text.inc",
+    "symbol": "Text_SwordsDanceWhichMon",
+    "before": "All right, pick which Yo-kai\\nI should teach it to.$",
+    "after": "D'accord. Choisis le Yo-kai à qui je\\ndois l'enseigner.$"
+  }
+]

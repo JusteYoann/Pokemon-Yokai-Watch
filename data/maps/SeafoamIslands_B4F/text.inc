@@ -1,29 +1,18 @@
 Text_RockSlideTeach::
-    .string "When you're up on a rocky mountain\n"
-    .string "like this, rockslides are a threat.\p"
-    .string "Can you imagine?\n"
-    .string "Boulders tumbling down on you?\p"
-    .string "That'd be, like, waaaaaaaaaaah!\n"
-    .string "Total terror!\p"
-    .string "You don't seem to be scared.\n"
-    .string "Want to try using ROCK SLIDE?$"
+    .string "Dans une montagne rocheuse comme\ncelle-ci, les éboulements sont\ldangereux.\pTu imagines ? Des rochers qui te\ntombent dessus ?\pCe serait… Aaaaaah ! Terrifiant !\pTu n'as pas l'air d'avoir peur. Tu\nveux essayer Éboulement ?$"
 
 Text_RockSlideDeclined::
-    .string "Oh, so you are scared after all.$"
+    .string "Ah, tu as peur, finalement.$"
 
 Text_RockSlideWhichMon::
-    .string "Which Yo-kai should I teach\n"
-    .string "ROCK SLIDE?$"
+    .string "À quel Yo-kai dois-je enseigner\nÉboulement ?$"
 
 Text_RockSlideTaught::
-    .string "It might be scary to use it in this\n"
-    .string "tunnel…$"
+    .string "Ça peut faire peur de l'utiliser dans\nce tunnel…$"
 
 SeafoamIslands_B4F_Text_BouldersMightChangeWaterFlow::
-    .string "Hint: Boulders might change the\n"
-    .string "flow of water.$"
+    .string "Indice : des rochers pourraient\nmodifier le courant.$"
 
 SeafoamIslands_B4F_Text_DangerFastCurrent::
-    .string "DANGER\n"
-    .string "Fast current!$"
+    .string "DANGER\nCourant violent !$"
 

@@ -1,0 +1,782 @@
+[
+  {
+    "file": "data/maps/CeladonCity_Condominiums_RoofRoom/text.inc",
+    "symbol": "CeladonCity_Condominiums_RoofRoom_Text_BoxIsFull",
+    "before": "ポケモンが　いっぱいだ\\nボックスを　かえて　きなさい$",
+    "after": "Tes Boîtes sont pleines.\\nFais de la place, puis reviens.$"
+  },
+  {
+    "file": "data/maps/CeladonCity_GameCorner_PrizeRoom/text.inc",
+    "symbol": "CeladonCity_GameCorner_PrizeRoom_Text_HereYouGo",
+    "before": "はい どうぞ$",
+    "after": "Voilà, c’est pour toi.$"
+  },
+  {
+    "file": "data/maps/CeladonCity_GameCorner_PrizeRoom/text.inc",
+    "symbol": "CeladonCity_GameCorner_PrizeRoom_Text_OopsNotEnoughRoom",
+    "before": "おきゃくさん もう もてないよ$",
+    "after": "Ton Sac est plein !$"
+  },
+  {
+    "file": "data/maps/CeladonCity_GameCorner_PrizeRoom/text.inc",
+    "symbol": "CeladonCity_GameCorner_PrizeRoom_Text_OhFineThen",
+    "before": "あっ そう$",
+    "after": "Ah, très bien.$"
+  },
+  {
+    "file": "data/maps/CeladonCity_House1/text.inc",
+    "symbol": "Text_ItsABuddhistAltar",
+    "before": "ぶつだん　だ‥$",
+    "after": "C’est un autel bouddhiste…$"
+  },
+  {
+    "file": "data/maps/CinnabarIsland_PokemonLab_ExperimentRoom/text.inc",
+    "symbol": "CinnabarIsland_PokemonLab_ExperimentRoom_Text_TakesTimeGoForWalkJP",
+    "before": "ちょっと　じかん　かかるよ！\\pそこらへんを　すこし\\nブラブラ　してくると　よろしー！$",
+    "after": "Ça va prendre un peu de temps !\\pVa donc te promener\\nun moment dans les environs !$"
+  },
+  {
+    "file": "data/maps/CinnabarIsland_PokemonLab_ExperimentRoom/text.inc",
+    "symbol": "CinnabarIsland_PokemonLab_ExperimentRoom_Text_NoRoomForPokemon",
+    "before": "ポケモン　いっぱいで　もてないね！$",
+    "after": "Tu n’as plus de place\\npour un autre Yo-kai !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_House1/text.inc",
+    "symbol": "FiveIsland_House1_JPText_HusbandWentOffFishing",
+    "before": "こんばんの　おかずは\\nようい　しなくて　いいぞ！\\pって　だんなが\\nつりに　いったん　だけど‥\\lしんじて　いいのかねえ$",
+    "after": "Mon mari est parti pêcher\\nen disant :\\pInutile de préparer\\nle dîner de ce soir !\\pJe me demande\\nsi je peux le croire…$"
+  },
+  {
+    "file": "data/maps/FiveIsland_WaterLabyrinth/text.inc",
+    "symbol": "FiveIsland_WaterLabyrinth_Text_YouveComeBackForTheEgg",
+    "before": "やあ\\nタマゴを　もらいに\\lきて　くれたんだね$",
+    "after": "Ah, te revoilà !\\nTu viens chercher l’Œuf.$"
+  },
+  {
+    "file": "data/maps/FourIsland_House1/text.inc",
+    "symbol": "JPText_BodySlamTeach",
+    "before": "そーれ　ぼよーん！\\nどっちが　さきに　へたばるか？\\lのしかかり　しょうぶ　してるんだ\\pきみは　なかまに　はいったら\\nつぶれそうだな‥\\lかわりに　きみの　ポケモンに\\lのしかかり　おしえて　やろっか？$",
+    "after": "Boum ! Qui de nous deux\\nva céder en premier ?\\pOn fait un concours\\nde Plaquage !\\pSi tu participais,\\ntu finirais à plat…\\pJe peux plutôt apprendre\\nPlaquage à un de tes Yo-kai ?$"
+  },
+  {
+    "file": "data/maps/FourIsland_House1/text.inc",
+    "symbol": "JPText_BodySlamDeclined",
+    "before": "また　おいで　ぼよーん！$",
+    "after": "Reviens nous voir !\\nBoum !$"
+  },
+  {
+    "file": "data/maps/FourIsland_House1/text.inc",
+    "symbol": "JPText_BodySlamWhichMon",
+    "before": "どの　ポケモンに\\nおしえたい　かい？$",
+    "after": "Quel Yo-kai doit\\napprendre cette capacité ?$"
+  },
+  {
+    "file": "data/maps/FourIsland_House1/text.inc",
+    "symbol": "JPText_BodySlamTaught",
+    "before": "ぼよよーん！$",
+    "after": "Boum, badaboum !$"
+  },
+  {
+    "file": "data/maps/FourIsland_PokemonCenter_1F/text.inc",
+    "symbol": "FourIsland_House1_Text_FatMan",
+    "before": "それ　ぼよーん！\\nおまえ　おもいなあー！$",
+    "after": "Boum !\\nDis donc, tu pèses lourd !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_WardensHouse/text.inc",
+    "symbol": "FuchsiaCity_WardensHouse_Text_YouHaveTooMuchStuff",
+    "before": "なんや　にもつ\\nいっぱいやんけ！$",
+    "after": "Hé, ton Sac est plein !$"
+  },
+  {
+    "file": "data/maps/LavenderTown_Mart/text.inc",
+    "symbol": "LavenderTown_Mart_Text_SoldNuggetFromMountainsFor5000",
+    "before": "この　あいだ　やまおくで\\nきんのたまを　ひろい　ましてね！\\pつかえない　しなもの　ですが\\nうったら　なんと　5000¥でした$",
+    "after": "J’ai trouvé une Pépite\\ndans les montagnes !\\pElle ne me servait à rien,\\nmais je l’ai vendue 5 000¥ !$"
+  },
+  {
+    "file": "data/maps/MtEmber_Exterior/text.inc",
+    "symbol": "Text_ExplosionTeachJP",
+    "before": "こ　この　かざんが\\nもし　だいばくはつ　したら\\lお　おれら　ひとたまりも\\lないなあ　‥ブルブル！\\pこ　こわい　ついでに\\nだいばくはつ　でも　おぼえてみる？$",
+    "after": "Si ce volcan explosait,\\non n’aurait aucune chance…\\pBrrr ! Rien que d’y penser,\\nj’en tremble !\\pPuisqu’on en parle…\\nTu veux apprendre Explosion ?$"
+  },
+  {
+    "file": "data/maps/MtEmber_Exterior/text.inc",
+    "symbol": "Text_ExplosionDeclinedJP",
+    "before": "や　やっぱ　こわいもんな\\nブルブル$",
+    "after": "O-oui, c’est effrayant…\\nBrrr !$"
+  },
+  {
+    "file": "data/maps/MtEmber_Exterior/text.inc",
+    "symbol": "Text_ExplosionWhichMonJP",
+    "before": "つ　つよきだね！\\nじゃあ　どの　ポケモンに　する？$",
+    "after": "Tu as du cran !\\nQuel Yo-kai choisis-tu ?$"
+  },
+  {
+    "file": "data/maps/MtEmber_Exterior/text.inc",
+    "symbol": "Text_ExplosionTaughtJP",
+    "before": "かざんで　だいばくはつを‥\\nす　すごい　スリル！$",
+    "after": "Une Explosion sur un volcan…\\nQuelles sensations fortes !$"
+  },
+  {
+    "file": "data/maps/OneIsland/text.inc",
+    "symbol": "OneIsland_Text_ReturnToCinnabar",
+    "before": "グレンタウンに　もどりますか？$",
+    "after": "Veux-tu retourner\\nà Cramois’Île ?$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_3F/text.inc",
+    "symbol": "PokemonMansion_Text_PressSecretSwitchJP",
+    "before": "ひみつの　スイッチが　ある！\\pおして　みますか？$",
+    "after": "Il y a un bouton secret !\\pVeux-tu appuyer dessus ?$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_3F/text.inc",
+    "symbol": "PokemonMansion_Text_LetsTryIt",
+    "before": "おしてみよう！　‥ポチッとな$",
+    "after": "Essayons !\\n… Clic !$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_3F/text.inc",
+    "symbol": "PokemonMansion_Text_GaveUpOnPressingSwitch",
+    "before": "おすのは　あきらめた$",
+    "after": "Tu renonces à appuyer.$"
+  },
+  {
+    "file": "data/maps/PokemonTower_2F/text.inc",
+    "symbol": "PokemonTower_2F_Text_RivalVictory",
+    "before": "{RIVAL}“あーあ‥！\\nほんとに　くたばっちまったぞ！\\lよわいなー！\\lもっと　ちゃんと　そだてて　やれよ$",
+    "after": "{RIVAL} : Oh là là !\\nIl est vraiment K.O. !\\pTu devrais mieux\\nentraîner tes Yo-kai !$"
+  },
+  {
+    "file": "data/maps/Route11_EastEntrance_1F/text.inc",
+    "symbol": "Route11_EastEntrance_1F_Text_BagIsFull",
+    "before": "{PLAYER}{KUN}の　バッグ\\nいっぱい　みたい　だね$",
+    "after": "{PLAYER}{KUN}, ton Sac\\nsemble être plein.$"
+  },
+  {
+    "file": "data/maps/Route21_North/text.inc",
+    "symbol": "Route21_North_Text_CueBallIntro",
+    "before": "おれだって　たまには\\nおよぎに　くるぜ！$",
+    "after": "Moi aussi, je viens\\nnager de temps en temps !$"
+  },
+  {
+    "file": "data/maps/Route21_North/text.inc",
+    "symbol": "Route21_North_Text_CueBallDefeat",
+    "before": "ぐわわ！$",
+    "after": "Gwaaah !$"
+  },
+  {
+    "file": "data/maps/Route21_North/text.inc",
+    "symbol": "Route21_North_Text_CueBallPostBattle",
+    "before": "うきやすそう　だと？\\nうるせー　おおきな　おせわだッ！$",
+    "after": "Je flotte facilement, tu dis ?\\nOccupe-toi de tes affaires !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_CopycatsHouse_2F/text.inc",
+    "symbol": "SaffronCity_CopycatsHouse_2F_Text_TooMuchInBag",
+    "before": "にもつが　いっぱいね！$",
+    "after": "Ton Sac est plein !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_CopycatsHouse_2F/text.inc",
+    "symbol": "SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyMaleJP",
+    "before": "{PLAYER}“やあ！　こんにちは！\\nきみ　ポケモン　すきかい？\\p{PLAYER}“ぼく　じゃなくって\\nきみに　きいてるんだ　けど\\p{PLAYER}“‥‥　えー　なんだよ！\\nヘンな　やつ　だなあ！\\pモノマネむすめ“‥‥　なに？\\nひとの　マネ　すんなって？\\pだって　あたし　\\nものまね　しゅみ　なんだ　もん！”$",
+    "after": "{PLAYER} : Salut !\\nTu aimes les Yo-kai ?\\p{PLAYER} : Je ne parle pas\\nde moi, mais de toi !\\p{PLAYER} : Hein ?\\nTu es vraiment bizarre !\\pCOPIEUSE : Quoi ?\\nTu veux que j’arrête de t’imiter ?\\pMais c’est mon passe-temps !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_CopycatsHouse_2F/text.inc",
+    "symbol": "SaffronCity_CopycatsHouse_2F_Text_MimickingFavoriteHobbyFemaleJP",
+    "before": "{PLAYER}“こんにちは！\\nポケモン　すきなのね？\\p{PLAYER}“わたし　じゃなくって\\nあなたに　きいてるんだ　けど\\p{PLAYER}“‥　えー　なんなの！\\nおかしなこ　ねー！\\pモノマネむすめ“‥　なに？\\nひとの　マネ　すんなって？\\pだって　あたし\\nものまね　しゅみ　なんだ　もん！$",
+    "after": "{PLAYER} : Bonjour !\\nTu aimes les Yo-kai ?\\p{PLAYER} : Je ne parle pas\\nde moi, mais de toi !\\p{PLAYER} : Hein ?\\nQuelle drôle de fille !\\pCOPIEUSE : Quoi ?\\nTu veux que j’arrête de t’imiter ?\\pMais c’est mon passe-temps !$"
+  },
+  {
+    "file": "data/maps/SaffronCity_CopycatsHouse_2F/text.inc",
+    "symbol": "SaffronCity_CopycatsHouse_2F_Text_HuhCantSee",
+    "before": "？　みえないぞ‥$",
+    "after": "Hein ? Je ne vois rien…$"
+  },
+  {
+    "file": "data/maps/SaffronCity_Dojo/text.inc",
+    "symbol": "SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster2",
+    "before": "{PLAYER}は　カラテ　だいおう　から\\n{STR_VAR_1}を　もらった！$",
+    "after": "{PLAYER} reçoit {STR_VAR_1}\\ndu Maître du Karaté !$"
+  },
+  {
+    "file": "data/maps/SevenIsland_TrainerTower/text.inc",
+    "symbol": "SevenIsland_TrainerTower_Text_LooksLikeTrainerTowerIsClosed",
+    "before": "トレーナータワーには\\nいまは　はいれない　みたい‥$",
+    "after": "La Tour des Dresseurs\\nsemble fermée pour le moment…$"
+  },
+  {
+    "file": "data/maps/SevenIsland_TrainerTower/text.inc",
+    "symbol": "SevenIsland_TrainerTower_Text_TrainerTowerIsOpenLetsGoIn",
+    "before": "トレーナータワーが　あいてる！\\nさっそく　はいってみよう！$",
+    "after": "La Tour des Dresseurs\\nest ouverte ! Entrons !$"
+  },
+  {
+    "file": "data/maps/SilphCo_1F/text.inc",
+    "symbol": "SilphCo_1F_Text_DestroyedWontBeFixedForWhile",
+    "before": "めちゃめちゃに　こわされてる\\nとうぶん　なおりそうに　ない‥$",
+    "after": "Tout a été saccagé…\\nLes réparations vont être longues.$"
+  },
+  {
+    "file": "data/maps/SilphCo_7F/text.inc",
+    "symbol": "SilphCo_7F_Text_OhNo",
+    "before": "あ‥　もう　もてないぞ$",
+    "after": "Ah… Ton Sac est plein.$"
+  },
+  {
+    "file": "data/maps/SilphCo_7F/text.inc",
+    "symbol": "SilphCo_7F_Text_SavedAtLast",
+    "before": "たすかったよ　ありがと！$",
+    "after": "Tu nous as sauvés !\\nMerci !$"
+  },
+  {
+    "file": "data/maps/SilphCo_7F/text.inc",
+    "symbol": "SilphCo_7F_Text_RivalVictory",
+    "before": "{RIVAL}“おまえなあ‥\\pこんな　うでまえじゃ\\nまだまだ‥\\lいちにんまえ　とは　いえないぜ$",
+    "after": "{RIVAL} : Écoute…\\pAvec un niveau pareil,\\ntu as encore du chemin à faire !$"
+  },
+  {
+    "file": "data/maps/TrainerTower_Lobby/text.inc",
+    "symbol": "TrainerTower_Lobby_Text_HereAreTheResults",
+    "before": "せいせきひょうです$",
+    "after": "Voici tes résultats.$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_2F/text.inc",
+    "symbol": "VictoryRoad_2F_Text_Gyaoo",
+    "before": "ギヤーオ！$",
+    "after": "Gyaoooh !$"
+  },
+  {
+    "file": "data/scripts/test.inc",
+    "symbol": "Test_Text_WelcomeToWorldOfPokemon",
+    "before": "テストよう　メッセージです！\\nポケモンの　せかいへ　ようこそ！$",
+    "after": "Message de test !\\nBienvenue dans le monde des Yo-kai !$"
+  },
+  {
+    "file": "data/scripts/test.inc",
+    "symbol": "Test_Text_ThisIsASignpost",
+    "before": "テストよう　メッセージです！\\nかんばん　です$",
+    "after": "Message de test !\\nCeci est un panneau.$"
+  },
+  {
+    "file": "data/scripts/test.inc",
+    "symbol": "Test_Text_ThisIsACoordEvent",
+    "before": "テストよう　メッセージです！\\nざひょう　チェックの　イベントです$",
+    "after": "Message de test !\\nCeci est un événement de case.$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "PetalburgCity_Gym_Text_GiveEnigmaBerry",
+    "before": "パパ“やあ　{PLAYER}！\\pめずらしい　きのみを　てに　いれたから\\nプレゼント　するよ！$",
+    "after": "PAPA : Bonjour, {PLAYER} !\\pJ’ai trouvé une Baie rare.\\nJe te l’offre !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route104_Text_PlantBerriesInSoilTakeThis",
+    "before": "ふかふかの　つちに　はえている　きのみは\\nじゆうに　とっても　よいのじゃが‥\\p1つだけ　きのみを　おなじ　ばしょに　うめる\\nそれが　れいぎと　いうものじゃ\\pほれ　これを　わけてやろう$",
+    "after": "Tu peux cueillir les Baies\\nqui poussent sur ce terreau…\\pMais il faut en replanter une\\nau même endroit. C’est la règle !\\pTiens, je vais t’en donner.$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route104_Text_TrainersOftenMakeMonHoldBerries",
+    "before": "あんた　みたところ　トレーナーじゃろ？\\pトレーナーは　よく　きのみを　ポケモンに\\nもたせとるわい\\pふやすも　つかうも　あんた　しだいじゃ$",
+    "after": "Tu es Dresseur, n’est-ce pas ?\\pLes Dresseurs font souvent\\ntenir des Baies à leurs Yo-kai.\\pÀ toi de choisir si tu veux\\nles planter ou les utiliser !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route111_Text_WateredPlantsEveryDayTakeBerry",
+    "before": "いつも　みずを　あげてたら\\nたくさん　はなが　さいたんだ\\pそしたら　きのみも　たくさん　できた！\\pはい！\\nこれ　あげる$",
+    "after": "J’ai arrosé mes plantes\\ntous les jours.\\pElles ont donné beaucoup de fleurs,\\npuis plein de Baies !\\pTiens, c’est pour toi !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route111_Text_TryToMakeRedPokeblock",
+    "before": "がんばって　あかいポロック　つくるんだ！\\n{STR_VAR_1}も　がんばってね！$",
+    "after": "Je vais faire un Pokébloc rouge !\\nBon courage à toi aussi,\\l{STR_VAR_1} !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route111_Text_WhatColorBerriesToLookForToday",
+    "before": "きょうは　なにいろの　きのみを\\nさがそっかなー$",
+    "after": "Quelle couleur de Baie\\nvais-je chercher aujourd’hui ?$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route114_Text_GatheringBerriesForContest",
+    "before": "ポケモンコンテストの　ゆうしょうを　めざして\\nきのみを　あつめているんだ\\pよかったら　きみにも　わけて　あげるよ！$",
+    "after": "Je ramasse des Baies pour gagner\\nun Concours de Yo-kai.\\pJe veux bien t’en donner\\nquelques-unes !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route114_Text_GoodLuckToYouToo",
+    "before": "きみも　がんばれ！$",
+    "after": "Bon courage à toi aussi !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route114_Text_WhatBerriesShouldIPlantToday",
+    "before": "きょうは　どの　きのみを　うめるか‥\\nそして　なにいろの　ポロックを　つくるか‥\\pなやむのも　また　たのしいよ$",
+    "after": "Quelles Baies planter aujourd’hui ?\\nQuelle couleur de Pokébloc préparer\\l?\\pMême choisir est amusant !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route120_Text_PokeblocksExpressionOfLove",
+    "before": "ケースを　ふると　でてくる　ポロック‥\\pそして　それを　キャッチして\\nたべてくれる　ポケモン‥\\pこれって　あい　だよね？$",
+    "after": "On secoue la Boîte à Pokéblocs…\\pUn Pokébloc sort, et notre Yo-kai\\nl’attrape pour le manger…\\pC’est une preuve d’affection, non ?$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route120_Text_YouUnderstandTakeThis",
+    "before": "うん　うん！\\nやっぱ　わかるひとには　わかるよね\\pこれ　あげる$",
+    "after": "Oui, oui !\\nJe savais que tu comprendrais !\\pTiens, c’est pour toi.$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route120_Text_OwnImpressionsImportantTakeThis",
+    "before": "そっか‥‥\\nでも　ちがうと　かんじることも　たいせつだね\\pこれ　あげる$",
+    "after": "Ah… Je vois.\\nC’est aussi important\\lde ne pas toujours être d’accord.\\pTiens, c’est pour toi.$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route120_Text_BerryIsRareRaiseItWithCare",
+    "before": "その　きのみは　めずらしいもの　らしいから\\nたいせつに　そだててね！$",
+    "after": "Cette Baie semble très rare.\\nPrends-en bien soin !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route120_Text_IllGetMoreBerriesFromBerryMaster",
+    "before": "また　きのみめいじんに　もらって　こようっと$",
+    "after": "Je demanderai d’autres Baies\\nau Maître des Baies.$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "LilycoveCity_Text_BerrySuitsYou",
+    "before": "やっぱり\\pわたしに　スーツが　にあうように\\nうみには　しおかぜが　にあうな\\lそして　きみには　きのみが　にあいそうだ‥‥\\pなんでだろうね？$",
+    "after": "Ce costume me va bien…\\pLa brise salée va bien à la mer…\\pEt les Baies semblent\\nbien t’aller aussi !\\pJe me demande pourquoi…$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "LilycoveCity_Text_BecauseYoureTrainer",
+    "before": "やっぱり　それは‥‥‥‥\\pきみが　トレーナーだからだ！$",
+    "after": "Mais oui, bien sûr…\\nC’est parce que tu es Dresseur !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "LilycoveCity_Text_PokeblocksSuitPokemon",
+    "before": "やっぱり\\pわたしに　シンプルさが　にあうように\\nポケモンには　ポロックが　にあうな$",
+    "after": "La simplicité me va bien…\\pEt les Pokéblocs\\nvont bien aux Yo-kai !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route123_BerryMastersHouse_Text_YoureDeservingOfBerry",
+    "before": "わしは　きのみめいじんと　よばれておる\\pわしは　せかいじゅうを　うつくしい　はなで\\nうめつくそうと　きのみを　そだてて\\lそして　くばり　まくって　おるのじゃ\\pきみにも　きのみを　わけて　あげよう！$",
+    "after": "On m’appelle le Maître des Baies.\\pJe cultive des Baies et\\nje les distribue partout.\\pJ’aimerais couvrir le monde\\nde belles fleurs !\\pJe vais aussi t’en offrir !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route123_BerryMastersHouse_Text_WhyBeStingyTakeAnother",
+    "before": "ほれ　えんりょ　せずに　もう　ひとつ！$",
+    "after": "Ne te prive pas !\\nPrends-en une autre !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route123_BerryMastersHouse_Text_VisitPrettyPetalFlowerShop",
+    "before": "カナズミの　ちかくにある　サン·トウカという\\nフラワーショップも　よろしくの\\pせかいに　はなを　さかせましょう！$",
+    "after": "Passe aussi chez JOLI FLOR,\\nprès de Mérouville !\\pFaisons fleurir le monde !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route123_BerryMastersHouse_Text_DoneForToday",
+    "before": "きょうは　もう　おしまいじゃ\\nまた　おいで\\pせかいに　はなを　さかせましょう！$",
+    "after": "Ce sera tout pour aujourd’hui.\\nReviens me voir !\\pFaisons fleurir le monde !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route123_BerryMastersHouse_Text_HeardAGoodSayingLately",
+    "before": "じいさんの　きのみの　そだてかたは\\nそりゃあ　せかいいちじゃ\\pわしも　はなが　たかいわい\\pところで　あんた\\nいい　ことばを　きいたことが　ないかい？$",
+    "after": "Mon mari est le meilleur\\npour cultiver les Baies.\\pJ’en suis très fière !\\pAu fait, as-tu entendu\\nune belle expression récemment ?$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route123_BerryMastersHouse_Text_InspirationalTakeThis",
+    "before": "おお！　とても　よい　ことばじゃ！\\nかんどう　したわい\\pほれ　これを　もっていきなされ$",
+    "after": "Oh ! Quelle belle expression !\\nC’est très touchant.\\pTiens, prends ceci !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route123_BerryMastersHouse_Text_GoodSayingTakeThis",
+    "before": "おお！　なかなか　よい　ことばじゃ\\nあんたも　たいしたもんじゃ\\pほれ　これを　もっていきなされ$",
+    "after": "Oh ! C’est une belle expression.\\nTu m’impressionnes !\\pTiens, prends ceci !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route123_BerryMastersHouse_Text_JoyNeverGoesOutOfMyLife",
+    "before": "まごたち　4にんも　じいさんを　しのぐ\\nおおものに　なるじゃろうて\\pじんせい　たのしいことが　つきんのう！$",
+    "after": "Nos quatre petits-enfants\\nle dépasseront sûrement un jour.\\pLa vie réserve tant de joies !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route123_BerryMastersHouse_Text_Ah",
+    "before": "ほう‥‥$",
+    "after": "Oh…$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route104_PrettyPetalFlowerShop_Text_ThisIsPrettyPetalFlowerShop",
+    "before": "こんにちは！\\pはなを　せかいに　ひろめる\\nフラワーショップ　サン·トウカです！$",
+    "after": "Bonjour !\\pBienvenue chez JOLI FLOR !\\nNous faisons fleurir le monde !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route104_PrettyPetalFlowerShop_Text_LearnAboutBerries",
+    "before": "{PLAYER}{KUN}　きのみの　こと　しりたい？$",
+    "after": "{PLAYER}{KUN}, veux-tu\\nen savoir plus sur les Baies ?$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route104_PrettyPetalFlowerShop_Text_IntroLearnAboutBerries",
+    "before": "あなたの　なまえは‥‥\\p{PLAYER}{KUN}ね！\\nとっても　いい　なまえだね！\\l{PLAYER}{KUN}　きのみのこと　しりたい？$",
+    "after": "Tu t’appelles…\\p{PLAYER}{KUN} ! Quel joli nom !\\p{PLAYER}{KUN}, veux-tu\\nen savoir plus sur les Baies ?$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route104_PrettyPetalFlowerShop_Text_BerriesExplanation",
+    "before": "きのみはね　くろい　ふかふかの　つちの\\nところで　たまに　とれるの\\lでね‥‥\\pとったら　その1つを　また　うめるの！\\pそうすると　その　きのみ　から\\nめがでて　みきが　できて　はながさいて\\lまた　きのみ　が　できるの\\pそうやって　はなを　ふやして\\nせかいじゅうを　はなに　するのが\\lわたしの　ゆめ　なんだ！\\pだから　{PLAYER}{KUN}も　きのみを　うめて\\nせかいに　はなを　ふやしてね！$",
+    "after": "On trouve parfois des Baies\\nsur les sols meubles et sombres.\\pAprès la récolte,\\nil faut en replanter une !\\pElle germera, grandira, fleurira\\net donnera de nouvelles Baies.\\pJe rêve de faire fleurir\\nle monde entier !\\p{PLAYER}{KUN}, plante aussi\\ndes Baies pour le rendre plus beau !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route104_PrettyPetalFlowerShop_Text_FlowersBringHappiness",
+    "before": "おはなって　とっても　しあわせな　きぶんに\\nしてくれるよね$",
+    "after": "Les fleurs nous mettent\\nde bonne humeur, tu ne trouves pas ?$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route104_PrettyPetalFlowerShop_Text_YouCanHaveThis",
+    "before": "こんにちは！\\pおはなは　せわを　すれば　するほど\\nたくさん　きれいに　さいて　くれるの\\pあなたも　せわを　したく　なった　でしょ？\\nこれ　あげるわ$",
+    "after": "Bonjour !\\pPlus on prend soin des fleurs,\\nplus elles s’épanouissent.\\pTu as envie d’essayer, non ?\\nTiens, prends ceci !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route104_PrettyPetalFlowerShop_Text_WailmerPailExplanation",
+    "before": "きのみが　そだつ　たびに\\nじょうろで　みずを　あげてね！\\pあとね\\pきのみは　ずっと　ずっと　ほうっておくと\\nじめんに　おちてしまうの\\lでもね　そこから　また　めがでて　くるの！\\pすごいよね！\\nいきものの　ちからを　かんじるよね$",
+    "after": "Arrose tes plants de Baies\\navec l’Arrosoir !\\pSi tu les délaisses trop longtemps,\\nles Baies tombent au sol.\\pMais de nouvelles pousses\\nnaissent alors à leur place !\\pLa force de la vie\\nest impressionnante, non ?$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route104_PrettyPetalFlowerShop_Text_ImGrowingFlowers",
+    "before": "おねーちゃんたちを　みならって\\nがんばって　おはなを　そだててるの\\pはい！　これあげる！$",
+    "after": "Je fais de mon mieux pour cultiver\\ndes fleurs, comme mes grandes sœurs\\l!\\pTiens, c’est pour toi !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "Route104_PrettyPetalFlowerShop_Text_MachineMixesBerries",
+    "before": "きのみは　うめて　おおきく　したり\\nポケモンに　もたせたり　できるの\\pでも　さいきん　きのみを　いくつか　まぜると\\nポケモンの　おかしになる　きかいが\\lある　らしいんだ\\pあたしも　おかし　ほしー$",
+    "after": "Tu peux planter les Baies\\nou les faire tenir à tes Yo-kai.\\pIl paraît qu’une machine permet\\naussi d’en faire des friandises.\\pMoi aussi, j’en voudrais !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "SootopolisCity_Text_NameIsKiriHaveOneOfThese",
+    "before": "{STR_VAR_1}　なまえ　なんていうの？\\p‥‥‥　‥‥‥　‥‥‥\\nへー　いいねー\\pわたしは　キリ　っていう　なまえなの\\pパパと　ママが　すくすくと　そだって\\nこころの　あたたかい　おんなのこに　なって\\lほしいっていう　ねがいを　こめたんだって！\\p{STR_VAR_1}にも　これ　あげる$",
+    "after": "Bonjour ! Tu t’appelles\\n{STR_VAR_1} ?\\p… Ah, c’est joli !\\pMoi, je m’appelle KIRI.\\pMes parents ont choisi ce nom\\npour que je grandisse bien\\let que je sois généreuse !\\pTiens, {STR_VAR_1}, c’est pour toi\\n!$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "SootopolisCity_Text_GiveYouThisBerryToo",
+    "before": "あと　{STR_VAR_1}には　キリの　だいすきな\\nこの　きのみも　あげちゃう！$",
+    "after": "Et voici aussi ma Baie préférée\\npour toi, {STR_VAR_1} !$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "SootopolisCity_Text_WhatKindOfWishInYourName",
+    "before": "{STR_VAR_1}の　なまえには\\nどんな　ねがいが　こめられてるの？$",
+    "after": "Quel souhait tes parents\\nont-ils mis dans ton nom,\\l{STR_VAR_1} ?$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "SootopolisCity_Text_LikeSeasonBornIn",
+    "before": "はる　なつ　あき　ふゆ\\nはるに　うまれると　はるが　すきで\\lなつに　うまれると　なつが　すきなのかな？$",
+    "after": "Le printemps, l’été, l’automne,\\nl’hiver…\\pEst-ce qu’on préfère la saison\\npendant laquelle on est né ?$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "SootopolisCity_Text_ThenILoveAutumn",
+    "before": "じゃあ　キリは　あきに　うまれたから\\nあきが　だいすき！\\p{STR_VAR_1}は　いつが　すき？$",
+    "after": "Alors, comme je suis née\\nen automne, c’est ma saison préférée\\l!\\pEt toi, {STR_VAR_1},\\nlaquelle préfères-tu ?$"
+  },
+  {
+    "file": "data/text/berries.inc",
+    "symbol": "SootopolisCity_Text_OhDoesntMatter",
+    "before": "そっか‥\\nかんけいないのか‥\\pしりたいことって　たくさんあるなー$",
+    "after": "Ah… Ça n’a aucun rapport ?\\pIl y a tant de choses\\nque j’aimerais savoir !$"
+  },
+  {
+    "file": "data/text/competitive_brothers.inc",
+    "symbol": "SootopolisCity_Text_PleaseShowMeBigMon",
+    "before": "わしは　おおきな　{STR_VAR_1}に\\nとても　きょうみが　ある！\\pん？　きみ　{STR_VAR_1}　もってるの？\\nちょ　ちょ　ちょっと···\\lおじさんに　みせて　おくれ！$",
+    "after": "Les grands {STR_VAR_1}\\nm’intéressent beaucoup !\\pTu as un {STR_VAR_1} ?\\nMontre-le-moi, s’il te plaît !$"
+  },
+  {
+    "file": "data/text/competitive_brothers.inc",
+    "symbol": "SootopolisCity_Text_GrandMonThanksForShowingMe",
+    "before": "おお！　こいつは　でかい！\\nとても　すばらしい　{STR_VAR_1}だ！\\pみせて　くれて　ありがとう\\nおれいに　これを　もって　いきなさい$",
+    "after": "Oh ! Il est énorme !\\nQuel superbe {STR_VAR_1} !\\pMerci de me l’avoir montré.\\nPrends ceci pour te remercier.$"
+  },
+  {
+    "file": "data/text/competitive_brothers.inc",
+    "symbol": "SootopolisCity_Text_ReceivedOneItem",
+    "before": "{PLAYER}は\\n{STR_VAR_2}を　もらった！$",
+    "after": "{PLAYER} reçoit {STR_VAR_2} !$"
+  },
+  {
+    "file": "data/text/competitive_brothers.inc",
+    "symbol": "SootopolisCity_Text_HuhBagIsCrammedFull",
+    "before": "ありゃ？\\nきみ　もちもの　いっぱいだね$",
+    "after": "Oh ? Ton Sac est plein.$"
+  },
+  {
+    "file": "data/text/competitive_brothers.inc",
+    "symbol": "SootopolisCity_Text_IveSeenBiggerMonThanThisOne",
+    "before": "ううむ　わしは　これより　おおきい\\n{STR_VAR_1}を　みたこと　あるな···$",
+    "after": "Hum… J’ai déjà vu\\nun {STR_VAR_1} plus grand que\\lcelui-ci.$"
+  },
+  {
+    "file": "data/text/competitive_brothers.inc",
+    "symbol": "SootopolisCity_Text_QuiteSomethingButNotMon",
+    "before": "おお　こいつは　なかなか···って\\nこれ　{STR_VAR_1}じゃ　ないよ！$",
+    "after": "Oh, c’est remarquable…\\nMais ce n’est pas un {STR_VAR_1}\\l!$"
+  },
+  {
+    "file": "data/text/competitive_brothers.inc",
+    "symbol": "SootopolisCity_Text_TooBadDontHaveBigMon",
+    "before": "おおきい　{STR_VAR_1}　もってないの？\\lそれは　ざんねん···\\nこんど　おおきい　{STR_VAR_1}　みせてね$",
+    "after": "Tu n’as pas de grand {STR_VAR_1}\\n?\\nC’est dommage…\\pMontre-moi un grand {STR_VAR_1}\\nla prochaine fois !$"
+  },
+  {
+    "file": "data/text/eon_ticket.inc",
+    "symbol": "Text_DadLetterArrivedForYouPlayer",
+    "before": "パパ“{PLAYER}！　よく　きたな！\\n{PLAYER}あての　てがみが　とどけられたぞ$",
+    "after": "PAPA : Bonjour, {PLAYER} !\\nUne lettre est arrivée pour toi,\\l{PLAYER}.$"
+  },
+  {
+    "file": "data/text/eon_ticket.inc",
+    "symbol": "Text_DadPassForShipNeverSeenBefore",
+    "before": "パパ“わたしも　みたことのない\\nふねの　チケット　だな‥‥\\lミナモに　いってみると　いいだろう$",
+    "after": "PAPA : Je n’ai jamais vu\\nun billet de bateau pareil…\\pTu devrais aller à Nénucrique.$"
+  },
+  {
+    "file": "data/text/eon_ticket.inc",
+    "symbol": "Text_FerryToSlateportOhThatPass",
+    "before": "カイナいき　れんらくせん‥‥\\pあら？\\nその　チケットは‥‥！$",
+    "after": "Le ferry pour Poivressel…\\pOh ? Mais ce billet… !$"
+  },
+  {
+    "file": "data/text/eon_ticket.inc",
+    "symbol": "Text_YoureOneWhoBroughtOddPass",
+    "before": "ヘンテコな　チケットを\\nもってきたのは　おまえさんか？\\pおまえが　いこうと　しているのは\\nみなみの　はての　ちっぽけな　しま‥‥\\pそこでは　なにが　おこるのか\\nだれも　わからねえ‥‥\\lううむ　ふなのりの　ちが　さわぐぜ！\\pさあ　のりな！$",
+    "after": "C’est toi qui as apporté\\ncet étrange billet ?\\pTu veux rejoindre une toute petite\\nîle, très loin dans le sud…\\pPersonne ne sait ce qui t’y attend.\\nMon sang de marin ne fait qu’un tour\\l!\\pAllez, monte à bord !$"
+  },
+  {
+    "file": "data/text/eon_ticket.inc",
+    "symbol": "Text_NothingHereSailBackToLilycove",
+    "before": "なにもねえ　ちんけな　しま　だな‥‥\\nミナモへ　かえるか？$",
+    "after": "Cette petite île semble déserte…\\nVeux-tu retourner à Nénucrique ?$"
+  },
+  {
+    "file": "data/text/eon_ticket.inc",
+    "symbol": "Text_SailHomeWeWill",
+    "before": "よし！　かえると　するか！$",
+    "after": "Bien ! Rentrons au port !$"
+  },
+  {
+    "file": "data/text/eon_ticket.inc",
+    "symbol": "Text_AsYouLikeThen",
+    "before": "そうかい\\nまあ　すきにするが　いいさ$",
+    "after": "Comme tu veux.\\nPrends ton temps.$"
+  },
+  {
+    "file": "data/text/eon_ticket.inc",
+    "symbol": "SouthernIsland_Interior_Text_Sign",
+    "before": "すべての　ゆめは　もうひとつの　げんじつ\\nそれを　わすれるべからず‥‥$",
+    "after": "Tous les rêves sont une autre\\nréalité.\\nNe l’oublie jamais…$"
+  },
+  {
+    "file": "data/text/eon_ticket.inc",
+    "symbol": "SouthernIsland_Exterior_Text_Sign",
+    "before": "きおく　かすみし　ものは\\nこころに　きざみつける　ことを　のぞむ‥‥$",
+    "after": "Ceux dont les souvenirs s’effacent\\nsouhaitent les graver dans leur\\lcœur…$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_Text_WelcomeToSafariZone",
+    "before": "サファリゾーンへ　ようこそ！\\pここでは　ホウエンでは　なかなか\\nみることの　できない　ポケモンを\\pしぜんの　すがたの　まま\\nめに　することが　できます\\pまた　ポケモントレーナーの\\nようぼうに　おこたえ　して\\pポケモンを\\nつかまえる　ことも　できます！\\pサファリゾーンを　たのしんで　いってね！$",
+    "after": "Bienvenue au Parc Safari !\\pTu peux y observer des Yo-kai\\nrares à Hoenn, dans la nature.\\pEt pour répondre aux attentes\\ndes Dresseurs…\\pTu peux aussi les capturer !\\pProfite bien du Parc Safari !$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_Text_WelcomeFirstTime",
+    "before": "サファリゾーンへ　ようこそ！\\nサファリゾーンは　はじめて　ですか？$",
+    "after": "Bienvenue au Parc Safari !\\nC’est ta première visite ?$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_Text_ComeInAndEnjoy",
+    "before": "サファリゾーンを　たのしんで　いってね！$",
+    "after": "Profite bien du Parc Safari !$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_Text_FirstTimeInfo",
+    "before": "サファリゾーンでは\\n30この　サファリボールを　つかって\\lポケモンを　つかまえる　ことが　できます\\pサファリボールを　つかいきるか\\n500ぽ　あるくと\\pゲームは　しゅうりょう　です\\pサファリゾーンを　たのしんで　いってね！$",
+    "after": "Tu disposes de 30 Safari Balls\\npour capturer des Yo-kai.\\pLa partie s’arrête quand tu n’as\\nplus de Balls ou après 500 pas.\\pProfite bien du Parc Safari !$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_Text_WouldYouLikeToPlay",
+    "before": "サファリゾーンへ　ようこそ！\\p500えんで　ポケモン　つかまえほうだい！\\nサファリゲームに　さんか　しますか？$",
+    "after": "Bienvenue au Parc Safari !\\pPour 500¥, capture autant\\nde Yo-kai que possible !\\pVeux-tu participer ?$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_Text_PlayAnotherTime",
+    "before": "そうですか\\nこんど　ぜひ　さんか　してください！$",
+    "after": "Très bien.\\nReviens essayer une autre fois !$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_Text_NotEnoughMoney",
+    "before": "おかねが　たりませんよ！$",
+    "after": "Tu n’as pas assez d’argent !$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_Text_ThatWillBe500Please",
+    "before": "それでは　500えん　いただきます$",
+    "after": "Cela fera 500¥, s’il te plaît.$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_Text_HereAreYourSafariBalls",
+    "before": "では　サファリボールを　どうぞ！$",
+    "after": "Voici tes Safari Balls !$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_Text_Received30SafariBalls",
+    "before": "{PLAYER}は　サファリボールを\\n30こ　うけとった！$",
+    "after": "{PLAYER} reçoit\\n30 Safari Balls !$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_Text_PleaseEnjoyYourself",
+    "before": "じかんに　なりましたら\\nこちらから　おしらせ　しますので\\pぞんぶんに　おたのしみ　ください！\\nでは　いってらっしゃい！$",
+    "after": "Nous t’avertirons\\nquand la partie sera terminée.\\pProfite bien de ta visite !$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_Text_YouNeedPokeblockCase",
+    "before": "あ！　おきゃくさん\\nポロックケースを　おもちで　ないですね？\\pサファリゾーンは　ポロックを　つかうと\\nより　おたのしみ　いただけますので\\pぜひ　ポロックケースを\\nおもちに　なって　おこし　ください！$",
+    "after": "Oh ! Tu n’as pas\\nde Boîte à Pokéblocs ?\\pLe Parc Safari est encore plus\\namusant avec des Pokéblocs.\\pReviens avec une Boîte\\nà Pokéblocs !$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_South_Text_StillHaveTimeExit",
+    "before": "まだ　じかんが　のこっていますが\\nサファリゾーンを　やめますか？$",
+    "after": "Il te reste encore du temps.\\nVeux-tu quitter le Parc Safari ?$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_South_Text_EnjoyTheRestOfYourAdventure",
+    "before": "では　ひきつづき　おたのしみ　ください！$",
+    "after": "Continue à bien t’amuser !$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_South_Text_ExitEarlyThankYouForPlaying",
+    "before": "わかりました\\pそれでは　のこりの　サファリボールを\\nおあずかり　します\\pおつかれさまでした\\nまた　ごりよう　ください$",
+    "after": "Très bien.\\pJe récupère les Safari Balls\\nqu’il te reste.\\pMerci de ta visite !\\nReviens nous voir !$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_South_Text_GoodLuck",
+    "before": "それでは　いってらっしゃい！\\lなにか　ありましたら\\nわたしに　こえを　かけて　くださいね$",
+    "after": "Bonne visite !\\pSi tu as besoin d’aide,\\nviens me parler !$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_South_Text_Boy",
+    "before": "しってた？\\pあの　しかくい　はこに　ポロックを　おくと\\nポケモンが　あつまって　くるんだよ！$",
+    "after": "Tu savais que les Yo-kai\\nse rassemblent autour des boîtes\\loù l’on dépose des Pokéblocs ?$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_South_Text_Man",
+    "before": "この　さきに　いきたい　けど\\nじてんしゃ　もって　くるの　わすれた‥‥\\pおくに　めずらしい　ポケモンが\\nいそうな　きが　するのに！$",
+    "after": "J’aimerais aller plus loin,\\nmais j’ai oublié mon vélo…\\pJe suis sûr qu’il y a\\ndes Yo-kai rares là-bas !$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_Southwest_Text_Woman",
+    "before": "ポケモンに　ポロックを　なげても\\nしらんぷり　される　ときが　あるのよ\\pポケモンにも　すききらいが　あるのかしら？$",
+    "after": "Parfois, les Yo-kai ignorent\\nles Pokéblocs que je leur lance.\\pIls ont sûrement\\nleurs préférences, eux aussi !$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_Northwest_Text_Man",
+    "before": "ぜぇ‥‥　ぜぇ‥‥\\nやっと　ここまで　きたけど‥‥\\pつかれちゃって　ポケモン　つかまえる\\nげんきも　のこって　ないよ‥‥$",
+    "after": "Pfiou… Enfin arrivé !\\pMais je suis trop fatigué\\npour capturer des Yo-kai…$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_North_Text_Fisherman",
+    "before": "ホウエンに　いない　みずポケモンを\\nさがしに　きたんだけど‥‥\\pみずうみは　どこにあるのか\\nきみ　しってるかい？$",
+    "after": "Je cherche des Yo-kai aquatiques\\nintrouvables à Hoenn.\\pTu sais où se trouve le lac ?$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_North_Text_Man",
+    "before": "ここで　めずらしい　ポケモンを\\nたくさん　つかまえて\\lともだちと　こうかん　するんだ！$",
+    "after": "Je vais capturer plein de Yo-kai\\nrares pour les échanger\\lavec mes amis !$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_South_Text_Youngster",
+    "before": "ポロックおきばに　おいた　ポロックが\\nいつのまにか　なくなっていた‥‥\\pしらない　うちに\\nポケモンが　たべちゃったのかな？$",
+    "after": "Les Pokéblocs que j’avais déposés\\nont disparu sans que je m’en\\laperçoive…\\pLes Yo-kai les ont peut-être mangés\\npendant que j’avais le dos tourné !$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "Route121_SafariZoneEntrance_Text_TrainerTip",
+    "before": "サファリゾーンの　おとくな　じょうほう！\\pであった　ポケモンに\\nポロックを　なげると　にげにくく　なります！$",
+    "after": "ASTUCE DU PARC SAFARI\\pLance un Pokébloc à un Yo-kai\\npour réduire ses chances de fuir !$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_Southwest_Text_RestHouseSign",
+    "before": "あるき　つかれたら　ちょっと　ひといき！\\n‘みんなの　きゅうけいじょ'$",
+    "after": "Une pause quand la marche fatigue !\\nLa maison de repos pour tous$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_RestHouse_Text_Youngster",
+    "before": "おれ　ポロック　もってないけど\\nポケモン　たくさん　つかまえたよ\\pちかづいて　ボールを　なげる　だけで\\nけっこう　つかまえられる　もんだよ！$",
+    "after": "Je n’ai pas de Pokéblocs,\\nmais j’ai capturé plein de Yo-kai !\\pIl suffit souvent de s’approcher\\net de lancer une Ball !$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_RestHouse_Text_PsychicM",
+    "before": "ポロックを　つかうと　いつもより\\nちょっぴり　にげにくく　なるみたい\\pだから　にげにくい　ポケモンに　つかっても\\nあんまり　いみが　ないかもね$",
+    "after": "Les Pokéblocs réduisent un peu\\nles chances de fuite des Yo-kai.\\pIls sont donc moins utiles\\nsur ceux qui fuient rarement.$"
+  },
+  {
+    "file": "data/text/safari_zone.inc",
+    "symbol": "SafariZone_RestHouse_Text_FatMan",
+    "before": "ポロックおきばに　ポロック　おいて\\nポケモンを　つかまえると\\pおなじ　ような　せいかくの　ポケモンが\\nあつまる　きが　するなあ$",
+    "after": "Quand je dépose des Pokéblocs\\ndans les boîtes à appâts…\\pJ’ai l’impression d’attirer\\ndes Yo-kai au caractère similaire !$"
+  }
+]

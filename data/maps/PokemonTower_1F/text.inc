@@ -1,29 +1,18 @@
 PokemonTower_1F_Text_ErectedInMemoryOfDeadMons::
-    .string "Yo-kai TOWER was erected in the\n"
-    .string "memory of Yo-kai that died.$"
+    .string "La Tour Yo-kai a été construite à la\nmémoire des Yo-kai disparus.$"
 
 PokemonTower_1F_Text_ComeToPayRespectsSon::
-    .string "Did you come to pay respects?\p"
-    .string "Bless your Yo-kai-loving heart,\n"
-    .string "son.$"
+    .string "Tu es venu leur rendre hommage ?\pSois béni pour l'amour que tu portes\naux Yo-kai, mon garçon.$"
 
 PokemonTower_1F_Text_ComeToPayRespectsGirl::
-    .string "Did you come to pay respects?\p"
-    .string "Bless your Yo-kai-loving heart,\n"
-    .string "girl.$"
+    .string "Tu es venue leur rendre hommage ?\pSois bénie pour l'amour que tu portes\naux Yo-kai, ma petite.$"
 
 PokemonTower_1F_Text_CameToPrayForDepartedClefairy::
-    .string "I came to pray for my dearly\n"
-    .string "departed CLEFAIRY.\p"
-    .string "Sniff!\n"
-    .string "I'm awash in tears…$"
+    .string "Je suis venu prier pour mon cher\nTauracle disparu.\pSnif !\nJe n'arrête pas de pleurer...$"
 
 PokemonTower_1F_Text_GrowlitheWhyDidYouDie::
-    .string "My GROWLITHE…\n"
-    .string "Why did you die?$"
+    .string "Mon Noctambill...\nPourquoi es-tu mort ?$"
 
 PokemonTower_1F_Text_SenseSpiritsUpToMischief::
-    .string "I am a CHANNELER.\p"
-    .string "There are spirits up to mischief.\n"
-    .string "I sense them high in the TOWER.$"
+    .string "Je suis une Exorciste.\pJe sens des esprits malfaisants dans\nles étages de la Tour.$"
 

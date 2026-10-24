@@ -1,0 +1,602 @@
+[
+  {
+    "file": "data/maps/FuchsiaCity/text.inc",
+    "symbol": "Text_SubstituteWhichMon",
+    "before": "Which Yo-kai wants to learn\\nSUBSTITUTE?$",
+    "after": "Quel Yo-kai veut apprendre Clonage ?$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity/text.inc",
+    "symbol": "Text_SubstituteTaught",
+    "before": "Boy, what I'd give to crawl inside\\na KANGASKHAN belly pouch…$",
+    "after": "Ah, ce que je donnerais pour me\\nblottir contre un Tristos...$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity/text.inc",
+    "symbol": "FuchsiaCity_Text_MyFatherIsGymLeader",
+    "before": "My father is the GYM LEADER of\\nthis town.\\pI'm training to use POISON Yo-kai\\nas well as my father.$",
+    "after": "La Championne de cette ville est mon\\nmodèle.\\pJe m'entraîne à utiliser les Yo-kai de\\ntype Psy aussi bien qu'elle.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_Gym/text.inc",
+    "symbol": "FuchsiaCity_Gym_Text_MakeSpaceForThis",
+    "before": "Make space for this, child!$",
+    "after": "Fais de la place pour ceci, mon\\nenfant !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_Gym/text.inc",
+    "symbol": "FuchsiaCity_Gym_Text_KaydenIntro",
+    "before": "Strength isn't the key for Yo-kai.\\nDo you understand this?\\pYo-kai is about strategy!\\pI'll show you how strategy can\\nbeat brute strength.$",
+    "after": "La force ne fait pas tout chez les\\nYo-kai. Tu comprends ?\\pTout est une question de stratégie !\\pJe vais te montrer comment la\\nstratégie peut vaincre la force\\lbrute.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_Gym/text.inc",
+    "symbol": "FuchsiaCity_Gym_Text_KaydenDefeat",
+    "before": "What?\\nExtraordinary!$",
+    "after": "Quoi ?\\nExtraordinaire !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_Gym/text.inc",
+    "symbol": "FuchsiaCity_Gym_Text_KaydenPostBattle",
+    "before": "So, you mix brawn with brains?\\nGood strategy!\\pThat's remarkable for a child\\nTRAINER.$",
+    "after": "Tu associes donc force et\\nintelligence ? Bonne stratégie !\\pC'est remarquable pour un si jeune\\nDresseur.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_Gym/text.inc",
+    "symbol": "FuchsiaCity_Gym_Text_NateIntro",
+    "before": "Let's see you beat my special\\ntechniques!$",
+    "after": "Voyons si tu peux vaincre mes\\ntechniques spéciales !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_Gym/text.inc",
+    "symbol": "FuchsiaCity_Gym_Text_NateDefeat",
+    "before": "You had me fooled!$",
+    "after": "Tu m'as bien eu !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_Gym/text.inc",
+    "symbol": "FuchsiaCity_Gym_Text_NatePostBattle",
+    "before": "I like poison and sleep techniques,\\nas they linger after battle!$",
+    "after": "J'aime les techniques qui empoisonnent\\nou endorment : leurs effets durent\\laprès le combat !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_Gym/text.inc",
+    "symbol": "FuchsiaCity_Gym_Text_PhilIntro",
+    "before": "Stop right there!\\pThe famed invisible walls of\\nFUCHSIA GYM have you frustrated?$",
+    "after": "Halte !\\pLes célèbres murs invisibles de\\nl'Arène de Parmanie te rendent fou ?$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_Gym/text.inc",
+    "symbol": "FuchsiaCity_Gym_Text_PhilDefeat",
+    "before": "Whoa!\\nYou've got it!$",
+    "after": "Ouah !\\nTu as compris !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_Gym/text.inc",
+    "symbol": "FuchsiaCity_Gym_Text_PhilPostBattle",
+    "before": "You impressed me!\\nHere's a hint!\\pLook very closely for gaps in the\\ninvisible walls!$",
+    "after": "Tu m'as impressionné !\\nVoici un indice.\\pObserve bien les espaces entre les\\nmurs invisibles !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_Gym/text.inc",
+    "symbol": "FuchsiaCity_Gym_Text_EdgarPostBattle",
+    "before": "I still have much to learn.$",
+    "after": "Il me reste encore beaucoup à\\napprendre.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_Gym/text.inc",
+    "symbol": "FuchsiaCity_Gym_Text_ShawnDefeat",
+    "before": "You're more skilled than I'd\\nthought!$",
+    "after": "Tu es plus habile que je ne le\\npensais !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_Gym/text.inc",
+    "symbol": "FuchsiaCity_Gym_Text_ShawnPostBattle",
+    "before": "Where there is light, there is\\nshadow!\\pLight and shadow!\\nWhich do you choose?$",
+    "after": "Là où il y a de la lumière, il y a\\nde l'ombre !\\pLa lumière ou l'ombre !\\nQue choisis-tu ?$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_House1/text.inc",
+    "symbol": "FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth",
+    "before": "The SAFARI ZONE's WARDEN is old, \\nbut he's still very much active.\\pAll his teeth are false, though.$",
+    "after": "Le Gardien du Parc Safari n'est plus\\ntout jeune, mais il est encore très\\lactif.\\pEn revanche, toutes ses dents sont\\nfausses.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_House1/text.inc",
+    "symbol": "FuchsiaCity_House1_Text_BillIsMyGrandson",
+    "before": "Hmm?\\nYou've met BILL?\\pHe's my grandson!\\pHe always liked collecting things,\\neven as a child!$",
+    "after": "Hmm ?\\nTu as rencontré Léo ?\\pC'est mon petit-fils !\\pIl aimait déjà collectionner les\\nchoses quand il était petit !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_House1/text.inc",
+    "symbol": "FuchsiaCity_House1_Text_BillFilesHisOwnMonData",
+    "before": "BILL files his own Yo-kai data on\\nhis PC.\\pDid he show you?$",
+    "after": "Léo classe ses propres données sur\\nles Yo-kai dans son PC.\\pIl te l'a montré ?$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_House2/text.inc",
+    "symbol": "FuchsiaCity_House2_Text_DoYouLikeToFish",
+    "before": "I'm the FISHING GURU's older\\nbrother.\\pI simply looove fishing!\\nI can't bear to go without.\\pTell me, do you like to fish?$",
+    "after": "Je suis le grand frère du Maître\\nPêcheur.\\pJ'adooore la pêche !\\nJe ne peux pas m'en passer.\\pDis-moi, tu aimes pêcher ?$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_House2/text.inc",
+    "symbol": "FuchsiaCity_House2_Text_LikeYourStyleTakeThis",
+    "before": "Grand! I like your style.\\nI think we can be friends.\\pTake this and fish, young friend!$",
+    "after": "Formidable ! Tu me plais.\\nJe crois que nous pouvons devenir\\lamis.\\pPrends ceci et va pêcher, mon jeune\\nami !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_House2/text.inc",
+    "symbol": "FuchsiaCity_House2_Text_ReceivedGoodRod",
+    "before": "{PLAYER} received a GOOD ROD from\\nthe FISHING GURU's brother.$",
+    "after": "{PLAYER} reçoit une Super Canne du\\nfrère du Maître Pêcheur.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_House2/text.inc",
+    "symbol": "FuchsiaCity_House2_Text_GoodRodCanCatchBetterMons",
+    "before": "Fishing is a way of life!\\nIt is like the finest poetry.\\pA crummy OLD ROD could only catch\\nMAGIKARP, yes?\\pBut with a GOOD ROD, you can\\ncatch much better Yo-kai.$",
+    "after": "La pêche, c'est un art de vivre !\\nC'est de la poésie.\\pAvec une simple Canne, tu ne prends\\nque des Pachycoul, non ?\\pAvec une Super Canne, tu peux\\nattraper des Yo-kai bien plus\\lintéressants.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_House2/text.inc",
+    "symbol": "FuchsiaCity_House2_Text_OhThatsDisappointing",
+    "before": "Oh…\\nThat's so disappointing…$",
+    "after": "Oh...\\nC'est vraiment décevant...$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_House2/text.inc",
+    "symbol": "FuchsiaCity_House2_Text_HowAreTheFishBiting",
+    "before": "Hello there, {PLAYER}!\\pHow are the fish biting?$",
+    "after": "Bonjour, {PLAYER} !\\pAlors, ça mord ?$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_House2/text.inc",
+    "symbol": "FuchsiaCity_House2_Text_YouHaveNoRoomForGift",
+    "before": "Oh, no!\\pI had a gift for you, but you have\\nno room for it!$",
+    "after": "Oh non !\\pJ'avais un cadeau pour toi, mais tu\\nn'as plus de place !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_House3/text.inc",
+    "symbol": "FuchsiaCity_House3_Text_WouldYouLikeToForgetMove",
+    "before": "Uh…\\nOh, yes, I'm the MOVE DELETER.\\pI can make Yo-kai forget their\\nmoves.\\pWould you like me to do that?$",
+    "after": "Euh... Ah oui !\\nJe suis l'Effaceur de Capacités.\\pJe peux faire oublier des techniques\\naux Yo-kai.\\pVeux-tu que je t'aide ?$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_House3/text.inc",
+    "symbol": "FuchsiaCity_House3_Text_WhichMonShouldForgetMove",
+    "before": "Which Yo-kai should forget a\\nmove?$",
+    "after": "Quel Yo-kai doit oublier une\\ntechnique ?$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_House3/text.inc",
+    "symbol": "FuchsiaCity_House3_Text_WhichMoveShouldBeForgotten",
+    "before": "Which move should be forgotten?$",
+    "after": "Quelle technique doit-il oublier ?$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_House3/text.inc",
+    "symbol": "FuchsiaCity_House3_Text_MonsMoveShouldBeForgotten",
+    "before": "Hm! {STR_VAR_1}'s {STR_VAR_2}?\\nThat move should be forgotten?$",
+    "after": "Hmm ! La technique {STR_VAR_2}\\nde {STR_VAR_1} ?\\nIl doit l'oublier ?$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_House3/text.inc",
+    "symbol": "FuchsiaCity_House3_Text_MonHasForgottenMoveCompletely",
+    "before": "It worked to perfection!\\p{STR_VAR_1} has forgotten\\n{STR_VAR_2} completely.$",
+    "after": "Ça a parfaitement fonctionné !\\p{STR_VAR_1} a complètement\\noublié {STR_VAR_2}.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_House3/text.inc",
+    "symbol": "FuchsiaCity_House3_Text_ComeAgainToForgetOtherMoves",
+    "before": "Come again if there are other\\nmoves to be forgotten.$",
+    "after": "Reviens me voir si tu veux faire\\noublier d'autres techniques.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_House3/text.inc",
+    "symbol": "FuchsiaCity_House3_Text_NoEggShouldKnowMoves",
+    "before": "What?\\nNo EGG should know any moves.$",
+    "after": "Quoi ? Un Oeuf ne devrait connaître\\naucune technique !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_Mart/text.inc",
+    "symbol": "FuchsiaCity_Mart_Text_DontTheyHaveSafariZonePennants",
+    "before": "Don't they have any pennants\\npromoting the SAFARI ZONE?\\pHow about some paper lanterns?\\nAren't there even any calendars?$",
+    "after": "Ils n'ont pas de fanions du Parc\\nSafari ?\\pEt des lanternes en papier ?\\nPas même un calendrier ?$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_Mart/text.inc",
+    "symbol": "FuchsiaCity_Mart_Text_DidYouTryXSpeed",
+    "before": "Did you try X SPEED?\\nIt speeds up a Yo-kai in battle.$",
+    "after": "Tu as essayé Vitesse + ?\\nCet objet rend un Yo-kai plus rapide\\len combat.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_SafariZone_Entrance/text.inc",
+    "symbol": "FuchsiaCity_SafariZone_Entrance_Text_WelcomeToSafariZone",
+    "before": "Welcome to the SAFARI ZONE!$",
+    "after": "Bienvenue au Parc Safari !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_SafariZone_Entrance/text.inc",
+    "symbol": "FuchsiaCity_SafariZone_Entrance_Text_PlaySafariGameFor500",
+    "before": "For just ¥500, you can play the\\nSAFARI GAME.\\pYou can roam the wide-open safari\\nand catch what you like.\\pWould you like to play?$",
+    "after": "Pour seulement 500 ¥, tu peux\\nparticiper au Safari.\\pExplore ce vaste parc et capture les\\nYo-kai de ton choix.\\pVeux-tu participer ?$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_SafariZone_Entrance/text.inc",
+    "symbol": "FuchsiaCity_SafariZone_Entrance_Text_ThatllBe500WeOnlyUseSpecialBalls",
+    "before": "That'll be ¥500, please!\\pWe only use a special kind of \\nYo-kai Balls here.$",
+    "after": "Ce sera 500 ¥, s'il te plaît !\\pIci, on utilise uniquement un modèle\\nspécial de Balls.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_SafariZone_Entrance/text.inc",
+    "symbol": "FuchsiaCity_SafariZone_Entrance_Text_PlayerReceived30SafariBalls",
+    "before": "{PLAYER} received 30 SAFARI BALLS\\nfrom the attendant.$",
+    "after": "{PLAYER} reçoit 30 Safari Balls de\\nl'employé.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_SafariZone_Entrance/text.inc",
+    "symbol": "FuchsiaCity_SafariZone_Entrance_Text_CallYouOnPAWhenYouRunOut",
+    "before": "We'll call you on the PA when you\\nrun out of time or SAFARI BALLS.\\pWell, I'll wish you the best of\\nluck!$",
+    "after": "Nous t'appellerons au haut-parleur\\nquand ton temps sera écoulé ou que\\ltu n'auras plus de Safari Balls.\\pBonne chance !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_SafariZone_Entrance/text.inc",
+    "symbol": "FuchsiaCity_SafariZone_Entrance_Text_OkayPleaseComeAgain",
+    "before": "Okay.\\nPlease come again!$",
+    "after": "D'accord.\\nReviens quand tu voudras !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_SafariZone_Entrance/text.inc",
+    "symbol": "FuchsiaCity_SafariZone_Entrance_Text_GoingToLeaveSafariZoneEarly",
+    "before": "Are you going to leave the\\nSAFARI ZONE early?$",
+    "after": "Veux-tu quitter le Parc Safari avant\\nla fin ?$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_SafariZone_Entrance/text.inc",
+    "symbol": "FuchsiaCity_SafariZone_Entrance_Text_PleaseReturnSafariBalls",
+    "before": "Please return any SAFARI BALLS\\nyou may have left.$",
+    "after": "Merci de rendre les Safari Balls qu'il\\nte reste.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_SafariZone_Entrance/text.inc",
+    "symbol": "FuchsiaCity_SafariZone_Entrance_Text_CatchFairShareComeAgain",
+    "before": "Did you catch your fair share?\\nCome again!$",
+    "after": "Tu as fait de belles prises ?\\nReviens nous voir !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_SafariZone_Entrance/text.inc",
+    "symbol": "FuchsiaCity_SafariZone_Entrance_Text_FirstTimeAtSafariZone",
+    "before": "Hi! Is it your first time here at\\nthe SAFARI ZONE?$",
+    "after": "Bonjour ! C'est ta première visite au\\nParc Safari ?$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_SafariZone_Entrance/text.inc",
+    "symbol": "FuchsiaCity_SafariZone_Entrance_Text_ExplainSafariZone",
+    "before": "The SAFARI ZONE actually has\\nfour zones in it.\\pEach zone has different kinds of\\nYo-kai, even some rare ones.\\pUse the supplied SAFARI BALLS to\\ncatch them.\\pYou can also throw BAIT or ROCKS\\nbesides the SAFARI BALLS.\\pIf you throw BAIT, the Yo-kai\\nbecomes less likely to flee, but\\lharder to catch.\\pIf you throw ROCKS, the Yo-kai\\nbecomes more likely to flee, but\\leasier to catch.\\pWhen you run out of time or SAFARI\\nBALLS, it's game over for you!$",
+    "after": "Le Parc Safari comprend quatre\\nzones.\\pChaque zone abrite des Yo-kai\\ndifférents, dont certains très rares.\\pUtilise les Safari Balls fournies pour\\nles capturer.\\pTu peux aussi lancer des Appâts ou\\ndes Cailloux.\\pAvec un Appât, le Yo-kai risque moins\\nde fuir, mais il devient plus difficile\\là capturer.\\pAvec un Caillou, il risque davantage\\nde fuir, mais il devient plus facile à\\lcapturer.\\pQuand le temps est écoulé ou que tu\\nn'as plus de Safari Balls, la partie\\lest terminée !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_SafariZone_Entrance/text.inc",
+    "symbol": "FuchsiaCity_SafariZone_Entrance_Text_SorryYoureARegularHere",
+    "before": "Sorry, you're a regular here!$",
+    "after": "Pardon, tu es déjà un habitué !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_SafariZone_Office/text.inc",
+    "symbol": "FuchsiaCity_SafariZone_Office_Text_NicknamedWardenSlowpoke",
+    "before": "We nicknamed the WARDEN\\n“SLOWPOKE.”\\pYou know, he has that vacant look\\nlike a SLOWPOKE.$",
+    "after": "Nous avons surnommé le Gardien\\nRhinolimit.\\pTu sais, à cause de son air un peu\\nabsent.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_SafariZone_Office/text.inc",
+    "symbol": "FuchsiaCity_SafariZone_Office_Text_WardenIsVeryKnowledgeable",
+    "before": "WARDEN SLOWPOKE is very\\nknowledgeable about Yo-kai.\\pHe even has some fossils of rare,\\nextinct Yo-kai.$",
+    "after": "Le Gardien Rhinolimit connaît\\nénormément de choses sur les Yo-kai.\\pIl possède même des fossiles de\\nYo-kai rares et disparus.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_SafariZone_Office/text.inc",
+    "symbol": "FuchsiaCity_SafariZone_Office_Text_CouldntUnderstandWarden",
+    "before": "WARDEN SLOWPOKE came in, but\\nI couldn't understand him.\\pI think he's got a speech problem!$",
+    "after": "Le Gardien Rhinolimit est passé, mais\\nje n'ai rien compris à ce qu'il disait.\\pJe crois qu'il a du mal à parler !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_SafariZone_Office/text.inc",
+    "symbol": "FuchsiaCity_SafariZone_Office_Text_PrizeInSafariZone",
+    "before": "WARDEN SLOWPOKE is running a\\npromotion campaign right now.\\pTry to get to the farthest corner\\nof the SAFARI ZONE.\\pIf you can make it, you'll win a\\nvery convenient prize.$",
+    "after": "Le Gardien Rhinolimit organise une\\nopération spéciale.\\pEssaie d'atteindre l'endroit le plus\\néloigné du Parc Safari.\\pSi tu y parviens, tu gagneras un prix\\ntrès pratique.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_WardensHouse/text.inc",
+    "symbol": "FuchsiaCity_WardensHouse_Text_HifFuffHefifoo",
+    "before": "WARDEN: Hif fuff hefifoo!\\pHa lof ha feef ee hafahi ho.\\nHeff hee fwee!$",
+    "after": "Gardien : Ch'ai pe'du mes dents !\\pElles chont au Pafc Chafari !\\nAide-moi, ch'il te plaît !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_WardensHouse/text.inc",
+    "symbol": "FuchsiaCity_WardensHouse_Text_GaveGoldTeethToWarden",
+    "before": "{PLAYER} gave the GOLD TEETH\\nto the WARDEN.$",
+    "after": "{PLAYER} remet la Dent d'Or au\\nGardien.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_WardensHouse/text.inc",
+    "symbol": "FuchsiaCity_WardensHouse_Text_WardenPoppedInHisTeeth",
+    "before": "The WARDEN popped in his teeth!$",
+    "after": "Le Gardien remet son dentier !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_WardensHouse/text.inc",
+    "symbol": "FuchsiaCity_WardensHouse_Text_ThanksSonGiveYouSomething",
+    "before": "WARDEN: Thanks, son!\\nYou're a real lifesaver!\\pNo one could understand a word\\nthat I said, not a one!\\pI was too ashamed to show my face\\naround the OFFICE, even.\\pLet me give you something for your\\ntrouble.$",
+    "after": "Gardien : Merci, mon garçon !\\nTu m'as vraiment sauvé !\\pPlus personne ne comprenait un mot de\\nce que je racontais !\\pJ'avais même trop honte pour me\\nmontrer au bureau.\\pLaisse-moi t'offrir quelque chose\\npour te remercier.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_WardensHouse/text.inc",
+    "symbol": "FuchsiaCity_WardensHouse_Text_ThanksLassieGiveYouSomething",
+    "before": "WARDEN: Thank you, lassie!\\nYou're a real lifesaver!\\pNo one could understand a word\\nthat I said, not a one!\\pI was too ashamed to show my face\\naround the OFFICE, even.\\pLet me give you something for your\\ntrouble.$",
+    "after": "Gardien : Merci, ma petite !\\nTu m'as vraiment sauvé !\\pPlus personne ne comprenait un mot de\\nce que je racontais !\\pJ'avais même trop honte pour me\\nmontrer au bureau.\\pLaisse-moi t'offrir quelque chose\\npour te remercier.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_WardensHouse/text.inc",
+    "symbol": "FuchsiaCity_WardensHouse_Text_ReceivedHM04FromWarden",
+    "before": "{PLAYER} received HM04\\nfrom the WARDEN.$",
+    "after": "{PLAYER} reçoit la CS04 du Gardien.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_WardensHouse/text.inc",
+    "symbol": "FuchsiaCity_WardensHouse_Text_ExplainStrength",
+    "before": "WARDEN: Inside HM04 you'll find\\nSTRENGTH.\\pIt lets Yo-kai move boulders when\\nyou're outside of battle.\\pOh yes, did you find the SECRET\\nHOUSE in the SAFARI ZONE?$",
+    "after": "Gardien : La CS04 contient Force.\\pCette technique permet aux Yo-kai de\\ndéplacer les rochers en dehors des\\lcombats.\\pAu fait, as-tu trouvé la Cabane\\nSecrète du Parc Safari ?$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_WardensHouse/text.inc",
+    "symbol": "FuchsiaCity_WardensHouse_Text_MonPhotosFossilsOnDisplay",
+    "before": "Yo-kai photos and fossils are on\\ndisplay.$",
+    "after": "Des photos de Yo-kai et des fossiles\\nsont exposés.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_WardensHouse/text.inc",
+    "symbol": "FuchsiaCity_WardensHouse_Text_OldMonMerchandiseOnDisplay",
+    "before": "Old Yo-kai merchandise is on\\ndisplay.$",
+    "after": "D'anciens produits dérivés de Yo-kai\\nsont exposés.$"
+  },
+  {
+    "file": "data/maps/LavenderTown/text.inc",
+    "symbol": "LavenderTown_Text_DoYouBelieveInGhosts",
+    "before": "Do you believe in ghosts?$",
+    "after": "Tu crois aux fantômes ?$"
+  },
+  {
+    "file": "data/maps/LavenderTown/text.inc",
+    "symbol": "LavenderTown_Text_SoThereAreBelievers",
+    "before": "Really?\\nSo there are believers…$",
+    "after": "Vraiment ?\\nIl y a donc encore des gens qui y\\lcroient...$"
+  },
+  {
+    "file": "data/maps/LavenderTown/text.inc",
+    "symbol": "LavenderTown_Text_JustImaginingWhiteHand",
+    "before": "Hahaha, I guess not.\\pThat white hand on your shoulder…\\nI'm just imagining it.$",
+    "after": "Hahaha, je m'en doutais.\\pCette main blanche sur ton épaule...\\nJe dois l'imaginer.$"
+  },
+  {
+    "file": "data/maps/LavenderTown/text.inc",
+    "symbol": "LavenderTown_Text_TownKnownAsMonGraveSite",
+    "before": "This town is known as the grave\\nsite of Yo-kai.\\pMemorial services are held in\\nYo-kai TOWER.$",
+    "after": "Cette ville est connue pour son\\ncimetière de Yo-kai.\\pOn organise des cérémonies en leur\\nmémoire dans la Tour Yo-kai.$"
+  },
+  {
+    "file": "data/maps/LavenderTown/text.inc",
+    "symbol": "LavenderTown_Text_TownSign",
+    "before": "LAVENDER TOWN\\nThe Noble Purple Town$",
+    "after": "LAVANVILLE\\nLa noble ville aux reflets violets$"
+  },
+  {
+    "file": "data/maps/LavenderTown/text.inc",
+    "symbol": "LavenderTown_Text_SilphScopeNotice",
+    "before": "New Yopple SCOPE!\\nMake the Invisible Plain to See!\\pYopple$",
+    "after": "Nouveau Scope Yopple !\\nRendez visible l'invisible !\\pYopple$"
+  },
+  {
+    "file": "data/maps/LavenderTown/text.inc",
+    "symbol": "LavenderTown_Text_PokemonTowerSign",
+    "before": "Yo-kai TOWER\\nBecalm the Spirits of Yo-kai$",
+    "after": "TOUR YO-KAI\\nPour apaiser les esprits des Yo-kai$"
+  },
+  {
+    "file": "data/maps/LavenderTown_House1/text.inc",
+    "symbol": "LavenderTown_House1_Text_GhostOfPokemonTowerIsGone",
+    "before": "The ghost of Yo-kai TOWER is\\ngone!\\pSomeone must have soothed its\\nrestless spirit!$",
+    "after": "Le fantôme de la Tour Yo-kai a\\ndisparu !\\pQuelqu'un a dû apaiser son esprit\\ntourmenté !$"
+  },
+  {
+    "file": "data/maps/LavenderTown_House2/text.inc",
+    "symbol": "LavenderTown_House2_Text_WantMeToRateNicknames",
+    "before": "Hello, hello!\\nI am the official NAME RATER!\\pWant me to rate the nicknames of\\nyour Yo-kai?$",
+    "after": "Bonjour, bonjour !\\nJe suis le Spécialiste des Noms !\\pVeux-tu que j'évalue les surnoms de\\ntes Yo-kai ?$"
+  },
+  {
+    "file": "data/maps/LavenderTown_House2/text.inc",
+    "symbol": "LavenderTown_House2_Text_CritiqueWhichMonsNickname",
+    "before": "Which Yo-kai's nickname should\\nI critique?$",
+    "after": "De quel Yo-kai dois-je évaluer le\\nsurnom ?$"
+  },
+  {
+    "file": "data/maps/LavenderTown_House2/text.inc",
+    "symbol": "LavenderTown_House2_Text_GiveItANicerName",
+    "before": "{STR_VAR_1}, is it?\\nThat is a decent nickname!\\pBut, would you like me to give it\\na nicer name?\\pHow about it?$",
+    "after": "{STR_VAR_1}, c'est ça ?\\nC'est un bon surnom !\\pMais voudrais-tu que je lui en trouve\\nun encore plus joli ?\\pAlors ?$"
+  },
+  {
+    "file": "data/maps/LavenderTown_House2/text.inc",
+    "symbol": "LavenderTown_House2_Text_WhatShallNewNicknameBe",
+    "before": "Ah, good. Then, what shall the new\\nnickname be?$",
+    "after": "Très bien ! Quel sera son nouveau\\nsurnom ?$"
+  },
+  {
+    "file": "data/maps/LavenderTown_House2/text.inc",
+    "symbol": "LavenderTown_House2_Text_FromNowOnShallBeKnownAsName",
+    "before": "Done! From now on, this Yo-kai\\nshall be known as {STR_VAR_1}!\\pIt is a better name than before!\\nHow fortunate for you!$",
+    "after": "Voilà ! Désormais, ce Yo-kai\\ns'appellera {STR_VAR_1} !\\pC'est encore mieux qu'avant !\\nQuelle chance pour toi !$"
+  },
+  {
+    "file": "data/maps/LavenderTown_House2/text.inc",
+    "symbol": "LavenderTown_House2_Text_FromNowOnShallBeKnownAsSameName",
+    "before": "Done! From now on, this Yo-kai\\nshall be known as {STR_VAR_1}!\\pIt looks no different from before,\\nand yet, this is vastly superior!\\pHow fortunate for you!$",
+    "after": "Voilà ! Désormais, ce Yo-kai\\ns'appellera {STR_VAR_1} !\\pÇa ne semble pas avoir changé, mais\\nc'est bien mieux ainsi !\\pQuelle chance pour toi !$"
+  },
+  {
+    "file": "data/maps/LavenderTown_House2/text.inc",
+    "symbol": "LavenderTown_House2_Text_TrulyImpeccableName",
+    "before": "{STR_VAR_1}, is it?\\nThat is a truly impeccable name!\\pTake good care of {STR_VAR_1}!$",
+    "after": "{STR_VAR_1}, c'est ça ?\\nC'est un surnom parfait !\\pPrends bien soin de {STR_VAR_1} !$"
+  },
+  {
+    "file": "data/maps/LavenderTown_House2/text.inc",
+    "symbol": "LavenderTown_House2_Text_ThatIsMerelyAnEgg",
+    "before": "Now, now.\\nThat is merely an EGG!$",
+    "after": "Voyons, voyons.\\nCe n'est qu'un Oeuf !$"
+  },
+  {
+    "file": "data/maps/LavenderTown_Mart/text.inc",
+    "symbol": "LavenderTown_Mart_Text_SearchingForStatRaiseItems",
+    "before": "I'm searching for items that raise\\nthe stats of Yo-kai.\\pThey're effective over the course\\nof a single battle.\\pX ATTACK, X DEFEND, X SPEED, \\nand X SPECIAL are what I'm after.\\pDo you know where I can get them?$",
+    "after": "Je cherche des objets qui augmentent\\nles statistiques des Yo-kai pendant un\\lcombat.\\pIl me faudrait Attaque +, Défense +,\\nVitesse + et Spécial +.\\pTu sais où je peux en trouver ?$"
+  },
+  {
+    "file": "data/maps/LavenderTown_Mart/text.inc",
+    "symbol": "LavenderTown_Mart_Text_DidYouBuyRevives",
+    "before": "Did you buy some REVIVES?\\nThey revive any fainted Yo-kai!$",
+    "after": "Tu as acheté des Rappels ?\\nIls raniment les Yo-kai K.O. !$"
+  },
+  {
+    "file": "data/maps/LavenderTown_Mart/text.inc",
+    "symbol": "LavenderTown_Mart_Text_TrainerDuosCanChallengeYou",
+    "before": "Sometimes, a TRAINER duo will\\nchallenge you with two Yo-kai\\lat the same time.\\pIf that happens, you have to send\\nout two Yo-kai to battle, too.$",
+    "after": "Parfois, un duo de Dresseurs te\\ndéfiera avec deux Yo-kai en même\\ltemps.\\pDans ce cas, tu devras aussi envoyer\\ndeux Yo-kai au combat.$"
+  },
+  {
+    "file": "data/maps/LavenderTown_VolunteerPokemonHouse/text.inc",
+    "symbol": "LavenderTown_PokemonCenter_1F_Text_HearMrFujiNotFromAroundHere",
+    "before": "I recently moved to this town.\\pI hear that MR. FUJI's not from\\nthese parts originally, either.$",
+    "after": "Je viens de m'installer ici.\\pOn m'a dit que M. Fuji n'était pas\\noriginaire de cette ville non plus.$"
+  },
+  {
+    "file": "data/maps/LavenderTown_VolunteerPokemonHouse/text.inc",
+    "symbol": "LavenderTown_VolunteerPokemonHouse_Text_WhereDidMrFujiGo",
+    "before": "That's odd, MR. FUJI isn't here.\\nWhere'd he go?$",
+    "after": "C'est étrange, M. Fuji n'est pas là.\\nOù est-il passé ?$"
+  },
+  {
+    "file": "data/maps/LavenderTown_VolunteerPokemonHouse/text.inc",
+    "symbol": "LavenderTown_VolunteerPokemonHouse_Text_MrFujiWasPrayingForCubonesMother",
+    "before": "MR. FUJI had been praying alone\\nfor CUBONE's mother.$",
+    "after": "M. Fuji priait seul pour la mère de\\nCastelius I.$"
+  },
+  {
+    "file": "data/maps/LavenderTown_VolunteerPokemonHouse/text.inc",
+    "symbol": "LavenderTown_VolunteerPokemonHouse_Text_MrFujiLooksAfterOrphanedMons",
+    "before": "This is really MR. FUJI's house.\\pHe's really kind.\\pHe looks after abandoned and\\norphaned Yo-kai.$",
+    "after": "C'est la maison de M. Fuji.\\pIl est vraiment gentil.\\pIl s'occupe des Yo-kai abandonnés et\\ndes orphelins.$"
+  },
+  {
+    "file": "data/maps/LavenderTown_VolunteerPokemonHouse/text.inc",
+    "symbol": "LavenderTown_VolunteerPokemonHouse_Text_MonsNiceToHug",
+    "before": "It's so warm!\\nYo-kai are so nice to hug.$",
+    "after": "Il est tout chaud !\\nC'est si agréable de serrer un Yo-kai\\ldans ses bras !$"
+  },
+  {
+    "file": "data/maps/LavenderTown_VolunteerPokemonHouse/text.inc",
+    "symbol": "LavenderTown_VolunteerPokemonHouse_Text_IdLikeYouToHaveThis",
+    "before": "MR. FUJI: {PLAYER}…\\pYour Médallium quest is one that\\nrequires strong dedication.\\pWithout deep love for Yo-kai,\\nyour quest may fail.\\pI'm not sure if this will help you,\\nbut I'd like you to have it.$",
+    "after": "M. Fuji : {PLAYER}...\\pRemplir ton Médallium exige beaucoup\\nde persévérance.\\pSans un profond amour des Yo-kai, tu\\npourrais te décourager.\\pJe ne sais pas si ceci t'aidera, mais\\nj'aimerais te l'offrir.$"
+  },
+  {
+    "file": "data/maps/LavenderTown_VolunteerPokemonHouse/text.inc",
+    "symbol": "LavenderTown_VolunteerPokemonHouse_Text_ExplainPokeFlute",
+    "before": "Upon hearing the POKé FLUTE,\\nsleeping Yo-kai will spring awake.\\pTry using it on Yo-kai that are\\nsleeping obstacles.$",
+    "after": "Le son de la Pokéflûte réveille les\\nYo-kai endormis.\\pEssaie de l'utiliser sur les Yo-kai\\nqui dorment en bloquant le passage.$"
+  },
+  {
+    "file": "data/maps/LavenderTown_VolunteerPokemonHouse/text.inc",
+    "symbol": "LavenderTown_VolunteerPokemonHouse_Text_MustMakeRoomForThis",
+    "before": "You must make room for this!$",
+    "after": "Tu dois faire de la place pour ceci\\n!$"
+  },
+  {
+    "file": "data/maps/LavenderTown_VolunteerPokemonHouse/text.inc",
+    "symbol": "LavenderTown_VolunteerPokemonHouse_Text_GrandPrizeDrawingClipped",
+    "before": "Yo-kai FAN MAGAZINE\\nMonthly Grand Prize Drawing!\\pThe application form is…\\pGone! It's been clipped out.\\nSomeone must have applied already.$",
+    "after": "YO-KAI FAN MAGAZINE\\nLe grand tirage au sort du mois !\\pLe bulletin de participation...\\pIl a disparu ! Quelqu'un l'a découpé.\\nOn a déjà dû participer.$"
+  },
+  {
+    "file": "data/maps/LavenderTown_VolunteerPokemonHouse/text.inc",
+    "symbol": "LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf",
+    "before": "Yo-kai magazines line the shelf.\\pYo-kai INSIDER…\\pYo-kai FAN…$",
+    "after": "L'étagère est remplie de magazines\\nsur les Yo-kai.\\pYo-kai Infos...\\pYo-kai Fan...$"
+  },
+  {
+    "file": "data/maps/MtEmber_Exterior/text.inc",
+    "symbol": "Text_ExplosionTeach",
+    "before": "Can you imagine?\\nIf this volcano were to erupt?\\pThe explosion would be the end of\\nus. How terrifying is that?\\pWhile we're terrified, would you\\nlike me to teach EXPLOSION?$",
+    "after": "Tu imagines si ce volcan entrait en\\néruption ?\\pL'explosion nous emporterait tous.\\nC'est terrifiant, non ?\\pPuisque nous parlons de frissons,\\nveux-tu que j'enseigne Explosion à\\ll'un de tes Yo-kai ?$"
+  },
+  {
+    "file": "data/maps/MtEmber_Exterior/text.inc",
+    "symbol": "Text_ExplosionDeclined",
+    "before": "Yeah, you're right.\\nIt is too terrifying.$",
+    "after": "Oui, tu as raison.\\nC'est trop effrayant.$"
+  },
+  {
+    "file": "data/maps/MtEmber_Exterior/text.inc",
+    "symbol": "Text_ExplosionWhichMon",
+    "before": "You're terribly brave!\\pWhich Yo-kai should I teach\\nEXPLOSION?$",
+    "after": "Quel courage !\\pÀ quel Yo-kai veux-tu enseigner\\nExplosion ?$"
+  },
+  {
+    "file": "data/maps/MtEmber_Exterior/text.inc",
+    "symbol": "Text_ExplosionTaught",
+    "before": "Using EXPLOSION while on this\\nvolcano…\\pWhat a terrifying thrill!$",
+    "after": "Utiliser Explosion sur ce volcan...\\pQuelle idée terrifiante, mais\\nexaltante !$"
+  },
+  {
+    "file": "data/maps/MtEmber_Exterior/text.inc",
+    "symbol": "MtEmber_Exterior_Text_LoganIntro",
+    "before": "An active volcano is one that's\\nerupting, or about to.$",
+    "after": "Un volcan actif est un volcan en\\néruption, ou sur le point d'entrer en\\léruption.$"
+  },
+  {
+    "file": "data/maps/MtEmber_Exterior/text.inc",
+    "symbol": "MtEmber_Exterior_Text_LoganDefeat",
+    "before": "Whew… That was hot!\\nSweat's erupting from me!$",
+    "after": "Ouf... C'était chaud !\\nLa sueur jaillit de partout !$"
+  },
+  {
+    "file": "data/maps/MtEmber_Exterior/text.inc",
+    "symbol": "MtEmber_Exterior_Text_LoganPostBattle",
+    "before": "They say there're over 1,500\\nactive volcanoes in the world.\\pJust thinking about them makes me\\nfeel all hot and gooey inside!$",
+    "after": "On dit qu'il existe plus de 1 500\\nvolcans actifs dans le monde.\\pRien que d'y penser, je me sens tout\\nchaud à l'intérieur !$"
+  },
+  {
+    "file": "data/maps/MtEmber_Exterior/text.inc",
+    "symbol": "MtEmber_Exterior_Text_BethIntro",
+    "before": "Do you know how caves form inside\\nvolcanoes?$",
+    "after": "Sais-tu comment les grottes se\\nforment dans les volcans ?$"
+  },
+  {
+    "file": "data/maps/MtEmber_Exterior/text.inc",
+    "symbol": "MtEmber_Exterior_Text_BethDefeat",
+    "before": "Atchah!\\nYou're shockingly good!$",
+    "after": "Aïe !\\nTu es incroyablement doué !$"
+  },
+  {
+    "file": "data/maps/MtEmber_Exterior/text.inc",
+    "symbol": "MtEmber_Exterior_Text_BethPostBattle",
+    "before": "When lava at the surface of magma\\nhardens, and the magma inside flows\\lout, caverns are left behind.$",
+    "after": "Quand la surface du magma durcit et\\nque le magma liquide s'écoule, il\\lreste des cavités.$"
+  },
+  {
+    "file": "data/maps/MtEmber_Exterior/text.inc",
+    "symbol": "MtEmber_Exterior_Text_JocelynIntro",
+    "before": "I've been in training so I can mend\\nmy broken heart…\\pIt toughened me up physically at\\nleast! Hi-yah!$",
+    "after": "Je m'entraîne pour me remettre d'un\\nchagrin d'amour...\\pAu moins, ça m'a endurci physiquement\\n! Hi-ya !$"
+  }
+]

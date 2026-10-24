@@ -1,290 +1,114 @@
 SaffronCity_PokemonTrainerFanClub_Text_HuhYou::
-    .string "Huh?\n"
-    .string "You…$"
+    .string "Hein ? Toi…$"
 
 SaffronCity_PokemonTrainerFanClub_Text_YourePlayerWereYourFansNow::
-    .string "Are you maybe…\n"
-    .string "… …\p"
-    .string "You are!\n"
-    .string "You are {PLAYER}!\p"
-    .string "We were just talking about you!\p"
-    .string "We were talking about how an\n"
-    .string "incredibly good TRAINER appeared.\p"
-    .string "And that someone is you!\n"
-    .string "You're so cool!\p"
-    .string "So, we decided that we'll become\n"
-    .string "your FAN CLUB!\p"
-    .string "We all hope you'll keep battling\n"
-    .string "and show us how cool you are.\p"
-    .string "That way, maybe other people will\n"
-    .string "become fans just like me.$"
+    .string "Est-ce que tu serais… … …\pMais oui ! C'est toi, {PLAYER} !\pOn parlait justement de toi !\pOn disait qu'un Dresseur\nincroyablement doué avait fait son\lapparition.\pEt c'est toi ! Tu as trop la classe !\pOn a donc décidé de créer ton\nfan-club !\pOn espère tous que tu continueras à\nlivrer des combats extraordinaires.\pComme ça, d'autres deviendront\npeut-être fans, comme nous.$"
 
 SaffronCity_PokemonTrainerFanClub_Text_AlwaysCheerForYou::
-    .string "I'll always be cheering for you!\p"
-    .string "Go, {PLAYER}, go!$"
+    .string "Je t'encouragerai toujours !\pAllez, {PLAYER}, allez !$"
 
 SaffronCity_PokemonTrainerFanClub_Text_IllAlwaysBelieveInYou::
-    .string "I'll always believe in you,\n"
-    .string "{PLAYER}.\p"
-    .string "Please show the others what you're\n"
-    .string "like when you battle seriously.$"
+    .string "Je croirai toujours en toi, {PLAYER}.\pMontre aux autres ce que tu vaux\nquand tu combats sérieusement.$"
 
 SaffronCity_PokemonTrainerFanClub_Text_WasYourFanNotAnymore::
-    .string "I'm sorry.\n"
-    .string "I was your fan before.\p"
-    .string "But now, you seem to have lost\n"
-    .string "the drive you had before.\p"
-    .string "Lately, I think {STR_VAR_1} has been\n"
-    .string "a lot cooler.$"
+    .string "Pardon. Avant, j'étais fan de toi.\pMais tu sembles avoir perdu ton\nenthousiasme d'autrefois.\pCes derniers temps, je trouve que\n{STR_VAR_1} a bien plus la\lclasse.$"
 
 SaffronCity_PokemonTrainerFanClub_Text_EveryonesYourFanButICantBe::
-    .string "Oh!\n"
-    .string "{PLAYER}!\p"
-    .string "Everyone's been all excited about\n"
-    .string "you recently.\p"
-    .string "I can understand why.\n"
-    .string "I know that you're strong.\p"
-    .string "But, do you know what?\p"
-    .string "Once I became {STR_VAR_1}'s fan,\n"
-    .string "I can't just stop being a fan.$"
+    .string "Oh ! {PLAYER} !\pTout le monde s'enthousiasme pour\ntoi, ces derniers temps.\pJe comprends pourquoi. Je sais que\ntu es fort.\pMais tu sais quoi ?\pDepuis que je suis fan de\n{STR_VAR_1}, je ne peux plus m'en\lpasser.$"
 
 SaffronCity_PokemonTrainerFanClub_Text_TrainersCoolWhenBattling::
-    .string "I think TRAINERS are so cool when\n"
-    .string "they're battling.\p"
-    .string "Don't you think so, too?$"
+    .string "Je trouve que les Dresseurs ont une\nclasse folle quand ils se battent.\pPas toi ?$"
 
 SaffronCity_PokemonTrainerFanClub_Text_CanYouAutographShorts::
-    .string "Oh! It's {PLAYER}!\n"
-    .string "Too cool!\p"
-    .string "Oh!\n"
-    .string "Oh, yeah!\p"
-    .string "Can you autograph something?\n"
-    .string "How about my shorts?$"
+    .string "Oh ! C'est {PLAYER} ! Trop la classe\n!\pOh ! Au fait !\pTu peux me signer un autographe ?\nSur mon short, par exemple ?$"
 
 SaffronCity_PokemonTrainerFanClub_Text_CountingOnYou::
-    .string "However hot it's been…\p"
-    .string "And however cold it may get…\p"
-    .string "I've always believed in, and worn,\n"
-    .string "shorts!\p"
-    .string "I'm counting on you to keep\n"
-    .string "winning!\p"
-    .string "I believe in you just as much as\n"
-    .string "I believe in shorts!$"
+    .string "Qu'il fasse très chaud…\pOu très froid…\pJ'ai toujours porté des shorts et cru\nen eux !\pJe compte sur toi pour continuer à\ngagner !\pJe crois en toi autant qu'en mes\nshorts !$"
 
 SaffronCity_PokemonTrainerFanClub_Text_BrocksMyHero::
-    .string "WYATT's my hero!\n"
-    .string "He's a man among men!\p"
-    .string "Heheh, I got my mom to do\n"
-    .string "something for me.\p"
-    .string "I got her to embroider “WYATT”\n"
-    .string "on my shorts!$"
+    .string "Wyatt est mon héros ! Quel homme !\pHéhé, j'ai demandé un service à ma\nmère.\pElle a brodé le nom de Wyatt sur mon\nshort !$"
 
 SaffronCity_PokemonTrainerFanClub_Text_BrocksFanToBitterEnd::
-    .string "…  …\p"
-    .string "…  …\n"
-    .string "I'm WYATT's fan!\p"
-    .string "Even if I were his only fan,\n"
-    .string "I swear it on my rock-hard will,\l"
-    .string "and on my shorts!\p"
-    .string "I'll be his fan to the bitter end!$"
+    .string "… …\p… … Je suis fan de Wyatt !\pMême si je suis le dernier, je le\njure sur ma volonté de fer et sur\lmon short !\pJe resterai son fan jusqu'au bout !$"
 
 SaffronCity_PokemonTrainerFanClub_Text_BrocksLastWordOnCool::
-    .string "WYATT's the last word on cool,\n"
-    .string "end of story!\p"
-    .string "Now there's a guy who I want to\n"
-    .string "be like!$"
+    .string "Wyatt, c'est le summum de la classe.\nUn point, c'est tout !\pC'est à lui que je veux ressembler !$"
 
 SaffronCity_PokemonTrainerFanClub_Text_HadPleasureOfWatchingYouBattle::
-    .string "{PLAYER}, I've had the pleasure of\n"
-    .string "watching you battle.\p"
-    .string "It brings back sweet memories of\n"
-    .string "my own long-lost youth.\p"
-    .string "May you continue to find success.\n"
-    .string "You have a fan in me!$"
+    .string "{PLAYER}, j'ai eu le plaisir de te\nvoir combattre.\pCela me rappelle les doux souvenirs\nde ma jeunesse lointaine.\pQue le succès t'accompagne encore\nlongtemps ! Je suis fan de toi !$"
 
 SaffronCity_PokemonTrainerFanClub_Text_NeverSeenTrainerOfYourMagnificence::
-    .string "I have journeyed far and wide\n"
-    .string "across the lands.\p"
-    .string "But never have I seen a TRAINER\n"
-    .string "of your magnificence.\p"
-    .string "Take courage in your abilities\n"
-    .string "and keep battling on!\p"
-    .string "Make that a promise to me,\n"
-    .string "my young idol!$"
+    .string "J'ai parcouru le monde de long en\nlarge.\pMais je n'ai jamais vu de Dresseur\naussi remarquable.\pAie confiance en tes capacités et\ncontinue de te battre !\pPromets-le-moi, jeune idole !$"
 
 SaffronCity_PokemonTrainerFanClub_Text_HmmAndYouAre::
-    .string "Hmm…\n"
-    .string "And you are?\p"
-    .string "Were you hoping to sign up for\n"
-    .string "a membership in our FAN CLUB?$"
+    .string "Hmm… Qui es-tu ?\pTu espérais adhérer à notre fan-club\n?$"
 
 SaffronCity_PokemonTrainerFanClub_Text_YouveStillAWaysToGo::
-    .string "Ah, so you are the much-\n"
-    .string "talked-about {PLAYER}.\p"
-    .string "You certainly do have the look of\n"
-    .string "a winner.\p"
-    .string "But for me to accept you as\n"
-    .string "a true Yo-kai great…\p"
-    .string "… …\p"
-    .string "You've still a ways to go!$"
+    .string "Ah, tu es donc {PLAYER}, dont tout le\nmonde parle.\pTu as bien l'allure d'une graine de\nchampion.\pMais pour que je te considère comme\nune légende des Yo-kai…\p… …\pTu as encore du chemin à faire !$"
 
 SaffronCity_PokemonTrainerFanClub_Text_YoullBeTalkedAboutIfYouKeepWinning::
-    .string "All of us gathered here are fans\n"
-    .string "of Yo-kai TRAINERS.\p"
-    .string "The way they look in battle…\n"
-    .string "They are the picture of coolness.\p"
-    .string "Perhaps you will be talked about\n"
-    .string "here, too, if you keep winning.$"
+    .string "Nous sommes tous ici des fans de\nDresseurs de Yo-kai.\pQuand ils se battent… Ils ont une\nclasse folle.\pPeut-être parlerons-nous aussi de toi\nsi tu continues à gagner.$"
 
 SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeYouOneDay::
-    .string "It's {PLAYER}!\n"
-    .string "It's {PLAYER}!\p"
-    .string "I want to be like {PLAYER} one day!$"
+    .string "C'est {PLAYER} ! C'est {PLAYER} !\pUn jour, je veux être comme {PLAYER}\n!$"
 
 SaffronCity_PokemonTrainerFanClub_Text_EveryoneButMeStoppedBeingYourFan::
-    .string "Everyone stopped being {PLAYER}'s\n"
-    .string "fan…\p"
-    .string "But that means I can have {PLAYER}\n"
-    .string "all to myself!\p"
-    .string "Yay! Go for it!\n"
-    .string "My one and only {PLAYER}!$"
+    .string "Tout le monde a cessé d'être fan de\n{PLAYER}…\pMais comme ça, je peux garder\n{PLAYER} pour moi !\pYoupi ! Vas-y ! Mon unique {PLAYER}\n!$"
 
 SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeSabrina::
-    .string "Do you know what?\n"
-    .string "I want to be like BÉRÉNICE!\p"
-    .string "I want to be a psychic girl just\n"
-    .string "like her!$"
+    .string "Tu sais quoi ? Je veux ressembler à\nBérénice !\pJe veux être une fille aux pouvoirs\npsychiques, comme elle !$"
 
 SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingSabrinasFan::
-    .string "Even if I'm the only one, I won't\n"
-    .string "stop being BÉRÉNICE's fan.\p"
-    .string "My dream is to be like BÉRÉNICE,\n"
-    .string "cute, but cool.\p"
-    .string "I want to be a psychic girl just\n"
-    .string "like her!$"
+    .string "Même si je suis la dernière, je\nresterai fan de Bérénice.\pMon rêve, c'est de lui ressembler :\nmignonne, mais pleine de classe.\pJe veux être une fille aux pouvoirs\npsychiques, comme elle !$"
 
 SaffronCity_PokemonTrainerFanClub_Text_CanIBecomeCoolTrainerOneDay::
-    .string "I wonder if I can become a cool\n"
-    .string "TRAINER one day?$"
+    .string "Est-ce que je pourrai devenir un\nDresseur plein de classe, un jour ?$"
 
 SaffronCity_PokemonTrainerFanClub_Text_TheWayYouBattleIsCool::
-    .string "Oh, man, oh, man!\n"
-    .string "Cool! Too cool!\p"
-    .string "…Huh?\n"
-    .string "No, not you.\p"
-    .string "Just the way you battle.\n"
-    .string "That's cool.$"
+    .string "Oh là là ! Quelle classe ! Trop la\nclasse !\p… Hein ? Non, pas toi.\pTa façon de combattre. C'est ça qui\na la classe.$"
 
 SaffronCity_PokemonTrainerFanClub_Text_ImOnlyOneLeftOfYourFans::
-    .string "Yo, {PLAYER}!\p"
-    .string "Looks like I'm the only one left\n"
-    .string "out of your fans.\p"
-    .string "But, you know, I like being an only\n"
-    .string "fan… It's less stressful.\p"
-    .string "Keep up and at it!$"
+    .string "Salut, {PLAYER} !\pOn dirait que je suis ton dernier fan.\pMais ça me plaît, d'être le seul…\nC'est moins stressant.\pContinue comme ça !$"
 
 SaffronCity_PokemonTrainerFanClub_Text_LoveWayTrainerTalks::
-    .string "{STR_VAR_1}'s cool, huh?\n"
-    .string "I love the way he talks.\p"
-    .string "I'd really relish a chance to meet\n"
-    .string "him in person once.$"
+    .string "{STR_VAR_1} a la classe, hein ?\nJ'adore sa façon de parler.\pJ'aimerais tellement avoir l'occasion\nde le rencontrer.$"
 
 SaffronCity_PokemonTrainerFanClub_Text_ImLoneTrainerFan::
-    .string "Huh, can you believe it?\n"
-    .string "Everyone turned into your fans.\p"
-    .string "So after all we've been through,\n"
-    .string "I'm the lone {STR_VAR_1} fan?\p"
-    .string "Eh, being the one and only\n"
-    .string "{STR_VAR_1} fan's my style, anyway.$"
+    .string "Tu te rends compte ? Tout le monde\nest devenu fan de toi.\pAprès tout ça, je suis le dernier fan\nde {STR_VAR_1} ?\pBah, être le seul fan de\n{STR_VAR_1}, ça me correspond\lbien.$"
 
 SaffronCity_PokemonTrainerFanClub_Text_AdoreWayYouBattle::
-    .string "Oh, my goodness!\n"
-    .string "Is it really you, {PLAYER}?\p"
-    .string "I have to tell you, I adore the\n"
-    .string "way you battle.\p"
-    .string "I hope you'll keep at it.\n"
-    .string "I'll be your number one fan!$"
+    .string "Oh, là là ! C'est vraiment toi,\n{PLAYER} ?\pIl faut que je te le dise : j'adore\nta façon de combattre.\pJ'espère que tu continueras. Je serai\nta première fan !$"
 
 SaffronCity_PokemonTrainerFanClub_Text_ImYourNumberOneFan::
-    .string "Oh, my goodness!\n"
-    .string "If it isn't {PLAYER}!\p"
-    .string "It's so disappointing… I realized\n"
-    .string "I'm your number-one-and-only fan!\p"
-    .string "Well, it can't be helped!\n"
-    .string "Let me cheer you on, at least!\p"
-    .string "Hurray, hurray, {PLAYER}!$"
+    .string "Oh, là là ! Voilà {PLAYER} !\pQuelle déception… Je viens de\nréaliser que je suis ta seule et\lunique fan !\pTant pis ! Laisse-moi au moins\nt'encourager !\pAllez, allez, {PLAYER} !$"
 
 SaffronCity_PokemonTrainerFanClub_Text_TrainerHasBeenOnFire::
-    .string "Recently, {STR_VAR_1} has been on\n"
-    .string "fire.\p"
-    .string "The way he battles… It's just \n"
-    .string "the way that I like it!$"
+    .string "Ces derniers temps, {STR_VAR_1}\nest en pleine forme.\pSa façon de combattre… C'est tout ce\nque j'aime !$"
 
 SaffronCity_PokemonTrainerFanClub_Text_EveryoneTalksAboutYou::
-    .string "Oh, hello!\n"
-    .string "If it isn't {PLAYER}!\p"
-    .string "Lately, all everyone talks about\n"
-    .string "is you.\p"
-    .string "I'm feeling lonesome because I\n"
-    .string "prefer {STR_VAR_1}.$"
+    .string "Oh, bonjour ! Mais c'est {PLAYER} !\pTout le monde ne parle plus que de\ntoi.\pJe me sens un peu seule, car je\npréfère {STR_VAR_1}.$"
 
 SaffronCity_PokemonTrainerFanClub_Text_YouReallyAreAmazing::
-    .string "Amazing!\n"
-    .string "{PLAYER}, you really are amazing!\p"
-    .string "Instead of just watching, maybe\n"
-    .string "I should become a TRAINER, too.$"
+    .string "Incroyable ! {PLAYER}, tu es\nincroyable !\pAu lieu de regarder les combats, je\ndevrais peut-être devenir Dresseur.$"
 
 SaffronCity_PokemonTrainerFanClub_Text_ImYourOnlyFan::
-    .string "I'm your only fan…\n"
-    .string "Sigh… This is lonely…\p"
-    .string "Can't you try harder and make the\n"
-    .string "others take notice of you?$"
+    .string "Je suis ta seule fan… Soupir… Je me\nsens seule…\pTu ne peux pas faire un effort pour\nque les autres te remarquent ?$"
 
 SaffronCity_PokemonTrainerFanClub_Text_WhyCantOthersSeeMastersDignity::
-    .string "Master {STR_VAR_1} is so dignified…\n"
-    .string "He is so my type.\p"
-    .string "Why can't the others see the\n"
-    .string "dignity he simply oozes?$"
+    .string "Maître {STR_VAR_1} est si digne…\nC'est tout à fait mon genre.\pPourquoi les autres ne voient-ils pas\nla noblesse qui émane de lui ?$"
 
 SaffronCity_PokemonTrainerFanClub_Text_BelieveInMasterWithAllMyHeart::
-    .string "I believe in Master {STR_VAR_1}\n"
-    .string "with all my heart.\p"
-    .string "Even if I am the only one to\n"
-    .string "believe in him.\p"
-    .string "I won't ever feel lonesome, though.\p"
-    .string "Not if I keep thinking about Master\n"
-    .string "{STR_VAR_1}.$"
+    .string "Je crois en Maître {STR_VAR_1}\nde tout mon cœur.\pMême si je suis la seule à croire en\nlui.\pJe ne me sentirai jamais seule.\pPas tant que je penserai à Maître\n{STR_VAR_1}.$"
 
 SaffronCity_PokemonTrainerFanClub_Text_YourBattleStyleIsEducational::
-    .string "Hiyah!\p"
-    .string "Your battling style is most\n"
-    .string "educational.\p"
-    .string "I hope that you will keep plugging\n"
-    .string "away at success, hiyah!$"
+    .string "Hiya !\pTon style de combat est très\ninstructif.\pJ'espère que tu continueras à\nchercher la victoire ! Hiya !$"
 
 SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingYourFan::
-    .string "Instead of just watching others\n"
-    .string "battle, battle yourself!\p"
-    .string "…My DOJO's MASTER chewed me out\n"
-    .string "like that…\p"
-    .string "But I won't let that stop me from\n"
-    .string "being your fan!\p"
-    .string "I can't stop being your fan!$"
+    .string "Au lieu de regarder les autres\ncombattre, bats-toi toi-même !\p… Voilà ce que m'a dit le Maître de\nmon dojo…\pMais ça ne m'empêchera pas d'être ton\nfan !\pJe ne peux pas m'en empêcher !$"
 
 SaffronCity_PokemonTrainerFanClub_Text_OnlyMasterHasMyRespect::
-    .string "Hiyah! There is but one TRAINER\n"
-    .string "who has my respect.\p"
-    .string "And that is none other than my\n"
-    .string "MASTER at the FIGHTING DOJO.\p"
-    .string "You should become a fan of my\n"
-    .string "MASTER like me! Hiyah!$"
+    .string "Hiya ! Il n'y a qu'un seul Dresseur\nque je respecte.\pEt c'est le Maître de mon Dojo de\nKaraté.\pTu devrais devenir son fan, toi aussi\n! Hiya !$"
 
 SaffronCity_PokemonTrainerFanClub_Text_NeverBeFanOfAnyoneButMaster::
-    .string "Hiyah! I respect my MASTER at the\n"
-    .string "FIGHTING DOJO.\p"
-    .string "I will never become a fan of\n"
-    .string "anyone other than my MASTER!\p"
-    .string "I will even sneak out of the DOJO\n"
-    .string "to spread word of his greatness.\p"
-    .string "Hiyah!$"
+    .string "Hiya ! Je respecte le Maître de mon\nDojo de Karaté.\pJe ne serai jamais fan de quelqu'un\nd'autre que mon Maître !\pJe quitte même le dojo en cachette\npour vanter ses mérites.\pHiya !$"
 

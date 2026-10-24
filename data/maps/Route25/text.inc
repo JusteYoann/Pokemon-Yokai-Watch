@@ -8,13 +8,13 @@ Route25_Text_JoeyPostBattle::
     .string "Tous les Yo-kai ont des faiblesses,\nmême les plus forts.\pC'est pour ça qu'une équipe\nde types variés est utile.$"
 
 Route25_Text_DanIntro::
-    .string "Papa m'a emmené à une grande fête\nsur le S.S. ANNE, à VERMILION CITY.$"
+    .string "Papa m'a emmené à une grande fête\nsur le L’OCÉANE, à CARMIN SUR MER.$"
 
 Route25_Text_DanDefeat::
     .string "Je ne suis pas fâché!$"
 
 Route25_Text_DanPostBattle::
-    .string "Sur le S.S. ANNE, j'ai vu\ndes Dresseurs du monde entier.$"
+    .string "Sur le L’OCÉANE, j'ai vu\ndes Dresseurs du monde entier.$"
 
 Route25_Text_FlintIntro::
     .string "J'ai la classe.\nEt une petite amie!$"
@@ -50,10 +50,10 @@ Route25_Text_HaleyDefeat::
     .string "Finalement, je ne suis pas jalouse!$"
 
 Route25_Text_HaleyPostBattle::
-    .string "Tu viens de MT. MOON?\nTu pourrais me donner un Bouh?$"
+    .string "Tu viens de MONT SÉLÉNITE?\nTu pourrais me donner un Bouh?$"
 
 Route25_Text_FranklinIntro::
-    .string "Je descends tout juste de MT. MOON,\nmais j'ai encore de l'énergie!$"
+    .string "Je descends tout juste de MONT\nSÉLÉNITE,\nmais j'ai encore de l'énergie!$"
 
 Route25_Text_FranklinDefeat::
     .string "Tu t'es bien donné du mal!$"
@@ -77,7 +77,7 @@ Route25_Text_WayneDefeat::
     .string "Tu es impressionnant.$"
 
 Route25_Text_WaynePostBattle::
-    .string "Le sentier en dessous est\nun raccourci vers CERULEAN CITY.$"
+    .string "Le sentier en dessous est\nun raccourci vers AZURIA.$"
 
 Route25_Text_SeaCottageSign::
     .string "SEA COTTAGE\nLéo habite ici!$"

@@ -1,65 +1,37 @@
 FuchsiaCity_WardensHouse_Text_HifFuffHefifoo::
-    .string "WARDEN: Hif fuff hefifoo!\p"
-    .string "Ha lof ha feef ee hafahi ho.\n"
-    .string "Heff hee fwee!$"
+    .string "Gardien : Ch'ai pe'du mes dents !\pElles chont au Pafc Chafari !\nAide-moi, ch'il te plaît !$"
 
 FuchsiaCity_WardensHouse_Text_AhHowheeHoHoo::
-    .string "Ah howhee ho hoo!\n"
-    .string "Eef ee hafahi ho!$"
+    .string "Ah, che chuis cha ché ! Merci pour\nle Chafari !$"
 
 FuchsiaCity_WardensHouse_Text_HeOhayHeHaHoo::
-    .string "Ha?\n"
-    .string "He ohay heh ha hoo ee haheh!$"
+    .string "Hein ? Che chais pas che que tu\nracontes !$"
 
 FuchsiaCity_WardensHouse_Text_GaveGoldTeethToWarden::
-    .string "{PLAYER} gave the GOLD TEETH\n"
-    .string "to the WARDEN.$"
+    .string "{PLAYER} remet la Dent d'Or au\nGardien.$"
 
 FuchsiaCity_WardensHouse_Text_WardenPoppedInHisTeeth::
-    .string "The WARDEN popped in his teeth!$"
+    .string "Le Gardien remet son dentier !$"
 
 FuchsiaCity_WardensHouse_Text_ThanksSonGiveYouSomething::
-    .string "WARDEN: Thanks, son!\n"
-    .string "You're a real lifesaver!\p"
-    .string "No one could understand a word\n"
-    .string "that I said, not a one!\p"
-    .string "I was too ashamed to show my face\n"
-    .string "around the OFFICE, even.\p"
-    .string "Let me give you something for your\n"
-    .string "trouble.$"
+    .string "Gardien : Merci, mon garçon !\nTu m'as vraiment sauvé !\pPlus personne ne comprenait un mot de\nce que je racontais !\pJ'avais même trop honte pour me\nmontrer au bureau.\pLaisse-moi t'offrir quelque chose\npour te remercier.$"
 
 FuchsiaCity_WardensHouse_Text_ThanksLassieGiveYouSomething::
-    .string "WARDEN: Thank you, lassie!\n"
-    .string "You're a real lifesaver!\p"
-    .string "No one could understand a word\n"
-    .string "that I said, not a one!\p"
-    .string "I was too ashamed to show my face\n"
-    .string "around the OFFICE, even.\p"
-    .string "Let me give you something for your\n"
-    .string "trouble.$"
+    .string "Gardien : Merci, ma petite !\nTu m'as vraiment sauvé !\pPlus personne ne comprenait un mot de\nce que je racontais !\pJ'avais même trop honte pour me\nmontrer au bureau.\pLaisse-moi t'offrir quelque chose\npour te remercier.$"
 
 FuchsiaCity_WardensHouse_Text_ReceivedHM04FromWarden::
-    .string "{PLAYER} received HM04\n"
-    .string "from the WARDEN.$"
+    .string "{PLAYER} reçoit la CS04 du Gardien.$"
 
 FuchsiaCity_WardensHouse_Text_ExplainStrength::
-    .string "WARDEN: Inside HM04 you'll find\n"
-    .string "STRENGTH.\p"
-    .string "It lets Yo-kai move boulders when\n"
-    .string "you're outside of battle.\p"
-    .string "Oh yes, did you find the SECRET\n"
-    .string "HOUSE in the SAFARI ZONE?$"
+    .string "Gardien : La CS04 contient Force.\pCette technique permet aux Yo-kai de\ndéplacer les rochers en dehors des\lcombats.\pAu fait, as-tu trouvé la Cabane\nSecrète du Parc Safari ?$"
 
 @ Unused
 FuchsiaCity_WardensHouse_Text_YouHaveTooMuchStuff::
-    .string "なんや　にもつ\n"
-    .string "いっぱいやんけ！$"
+    .string "Hé, ton Sac est plein !$"
 
 FuchsiaCity_WardensHouse_Text_MonPhotosFossilsOnDisplay::
-    .string "Yo-kai photos and fossils are on\n"
-    .string "display.$"
+    .string "Des photos de Yo-kai et des fossiles\nsont exposés.$"
 
 FuchsiaCity_WardensHouse_Text_OldMonMerchandiseOnDisplay::
-    .string "Old Yo-kai merchandise is on\n"
-    .string "display.$"
+    .string "D'anciens produits dérivés de Yo-kai\nsont exposés.$"
 

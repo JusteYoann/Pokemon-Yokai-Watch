@@ -1,0 +1,572 @@
+[
+  {
+    "file": "data/maps/MtEmber_Exterior/text.inc",
+    "symbol": "MtEmber_Exterior_Text_JocelynPostBattle",
+    "before": "The way you battle, it reminds me\\nof the guy who dumped me…$",
+    "after": "Ta façon de combattre me rappelle\\ncelui qui m'a quittée...$"
+  },
+  {
+    "file": "data/maps/OneIsland/text.inc",
+    "symbol": "OneIsland_Text_BillLetsGoSeeCelio",
+    "before": "BILL: Here we are!\\nThis is ONE ISLAND.\\pThere are several islands around\\nhere, and this is one of them.\\pMy friend CELIO sent the boat to\\nfetch me here.\\pHe's in charge of the island's PC\\nnetwork by his lonesome.\\p…Why am I telling you this now?\\nLet's just go see CELIO!$",
+    "after": "Léo : Nous y voilà !\\nBienvenue sur l'Île 1 !\\pIl y a plusieurs îles dans les\\nenvirons.\\pMon ami Ciléo a envoyé le bateau\\npour me chercher.\\pIl s'occupe tout seul du réseau de\\nPC de l'île.\\pPourquoi te raconter tout ça ici ?\\nAllons plutôt voir Ciléo !$"
+  },
+  {
+    "file": "data/maps/OneIsland/text.inc",
+    "symbol": "Text_WhereDoYouWantToSail",
+    "before": "Ahoy, there!\\nWhere do you want to sail?$",
+    "after": "Ohé !\\nOù veux-tu embarquer ?$"
+  },
+  {
+    "file": "data/maps/OneIsland/text.inc",
+    "symbol": "OneIsland_Text_LuckyToHaveCelioHere",
+    "before": "Here we are on an island smack in\\nthe middle of nowhere.\\pWe're lucky to have an upstanding\\nyoung man like CELIO here.\\pMy granddaughter was in a tizzy\\nover CELIO's friend.\\pSomething about a famous\\nPOKéMANIAC?\\pI'm not sure what that means, but\\nCELIO is quite the man!$",
+    "after": "Nous vivons sur une île au milieu de\\nnulle part.\\pHeureusement qu'un jeune homme aussi\\nsérieux que Ciléo est là.\\pMa petite-fille était toute excitée à\\npropos d'un de ses amis.\\pUn célèbre fan de Yo-kai, paraît-il ?\\pJe n'ai pas tout compris, mais Ciléo\\nest un garçon formidable !$"
+  },
+  {
+    "file": "data/maps/OneIsland/text.inc",
+    "symbol": "OneIsland_Text_HavePCLinkageWithKanto",
+    "before": "My granddaughter was in a tizzy\\nover a new breakthrough.\\pShe said we now have PC linkage\\nwith people in KANTO.\\pI'm not sure what that means, but\\nCELIO is quite the man!$",
+    "after": "Ma petite-fille était toute excitée\\npar une nouvelle découverte.\\pElle dit que nos PC peuvent\\nmaintenant communiquer avec ceux de\\lKanto.\\pJe n'y comprends pas grand-chose,\\nmais Ciléo est vraiment formidable !$"
+  },
+  {
+    "file": "data/maps/OneIsland/text.inc",
+    "symbol": "OneIsland_Text_HavePCLinkageWithHoenn",
+    "before": "My granddaughter was in a tizzy\\nover a new breakthrough.\\pShe said we finally have PC linkage\\nwith people in HOENN.\\pI'm not sure what that means, but\\nCELIO is quite the man.\\pHe would make a fine husband for\\nmy granddaughter!$",
+    "after": "Ma petite-fille était toute excitée\\npar une nouvelle découverte.\\pElle dit que nos PC peuvent enfin\\ncommuniquer avec ceux de Hoenn.\\pJe n'y comprends pas grand-chose,\\nmais Ciléo est un garçon formidable.\\pIl ferait un très bon mari pour ma\\npetite-fille !$"
+  },
+  {
+    "file": "data/maps/OneIsland/text.inc",
+    "symbol": "OneIsland_Text_IslandSign",
+    "before": "ONE ISLAND\\nFriends Gather at Knot Island$",
+    "after": "ÎLE 1\\nL'île où se retrouvent les amis$"
+  },
+  {
+    "file": "data/maps/OneIsland/text.inc",
+    "symbol": "OneIsland_Text_PokemonNetCenterSign",
+    "before": "Expanding the Yo-kai World!\\nYo-kai NET CENTER$",
+    "after": "Élargissons le monde des Yo-kai !\\nCENTRE RÉSEAU YO-KAI$"
+  },
+  {
+    "file": "data/maps/OneIsland/text.inc",
+    "symbol": "OneIsland_Text_IsntWarmClimateHereGreat",
+    "before": "Hi, sight-seeing, are you?\\nIsn't the warm climate here great?$",
+    "after": "Bonjour ! Tu fais du tourisme ?\\nLe climat chaud est agréable, ici,\\lnon ?$"
+  },
+  {
+    "file": "data/maps/OneIsland_House1/text.inc",
+    "symbol": "OneIsland_House1_Text_GazeUponVolcanoOnSunnyDays",
+    "before": "On sunny days, I step out and gaze\\nupon the volcano.\\pThat's my daily routine.$",
+    "after": "Quand il fait beau, je sors admirer\\nle volcan.\\pC'est mon petit rituel quotidien.$"
+  },
+  {
+    "file": "data/maps/OneIsland_House1/text.inc",
+    "symbol": "OneIsland_House1_Text_LastTimeMtEmberErupted",
+    "before": "Let me think… When was the last\\ntime MT. EMBER erupted?$",
+    "after": "Voyons... Quand le Mont Braise est-il\\nentré en éruption pour la dernière\\lfois ?$"
+  },
+  {
+    "file": "data/maps/OneIsland_House2/text.inc",
+    "symbol": "OneIsland_House2_Text_IWantToStayHereForever",
+    "before": "Young people all want to go off to\\nbig cities.\\pBut I want to stay here forever!$",
+    "after": "Les jeunes veulent tous partir dans\\nles grandes villes.\\pMoi, je veux rester ici pour toujours\\n!$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_MariaIntro",
+    "before": "The weather's gorgeous!\\nPerfect for a battle!$",
+    "after": "Il fait un temps magnifique !\\nParfait pour un combat !$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_MariaPostBattle",
+    "before": "Please don't splash my face!\\nYou'll ruin the makeup.$",
+    "after": "Ne m'éclabousse pas le visage !\\nTu vas abîmer mon maquillage.$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_AbigailIntro",
+    "before": "I'm beginning to get a sunburn…$",
+    "after": "Je commence à attraper un coup de\\nsoleil...$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_AbigailDefeat",
+    "before": "Oh, you're so awful.$",
+    "after": "Oh, ce que tu es désagréable !$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_AbigailPostBattle",
+    "before": "I like that cap you have.\\nMaybe I should wear one, too…$",
+    "after": "J'aime bien ta casquette.\\nJe devrais peut-être en porter une,\\lmoi aussi...$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_FinnIntro",
+    "before": "Seen from here, MT. EMBER towers\\ninto the sky.$",
+    "after": "Vu d'ici, le Mont Braise semble\\ntoucher le ciel.$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_FinnDefeat",
+    "before": "Well, aren't you tough?$",
+    "after": "Eh bien, tu es coriace !$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_FinnPostBattle",
+    "before": "The sky is immense around these\\nparts.$",
+    "after": "Le ciel paraît immense, dans le coin.$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_GarrettIntro",
+    "before": "I took a break from swimming,\\nonly to have you challenge me?$",
+    "after": "Je faisais une pause dans ma baignade\\net tu viens me défier ?$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_GarrettDefeat",
+    "before": "Hey, what the…\\nYou're good, you!$",
+    "after": "Hé, mais...\\nTu es fort, toi !$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_GarrettPostBattle",
+    "before": "Instead of using SURF all the time,\\nyou should swim some.$",
+    "after": "Au lieu d'utiliser Surf tout le temps,\\ntu devrais nager un peu.$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_TommyIntro",
+    "before": "Wait! Wait a second!\\nI think I've hooked a big one!$",
+    "after": "Attends ! Une seconde !\\nJe crois que j'ai ferré un gros\\lpoisson !$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_TommyPostBattle",
+    "before": "Not only did I lose, the big one\\ngot away from me, too!$",
+    "after": "Non seulement j'ai perdu, mais ma\\ngrosse prise s'est échappée !$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_SharonIntro",
+    "before": "Could you help me out with my\\ntraining?$",
+    "after": "Tu pourrais m'aider à m'entraîner ?$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_SharonDefeat",
+    "before": "You were a cut above me.$",
+    "after": "Tu étais un cran au-dessus de moi.$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_SharonPostBattle",
+    "before": "It's clear that you're skilled.\\nI like you!$",
+    "after": "Tu as du talent, ça se voit.\\nJe t'aime bien !$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_TanyaIntro",
+    "before": "There isn't a day in which we don't\\ntrain!$",
+    "after": "Nous ne passons pas une journée sans\\nnous entraîner !$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_TanyaDefeat",
+    "before": "I'm such a fool!$",
+    "after": "Quelle idiote je fais !$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_SheaIntro",
+    "before": "Every morning, before breakfast,\\nI swim around this island.$",
+    "after": "Tous les matins, avant le petit\\ndéjeuner, je fais le tour de cette\\lîle à la nage.$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_SheaPostBattle",
+    "before": "I lost because I'm pooped from all\\nthe running I did…$",
+    "after": "J'ai perdu parce que toutes ces\\ncourses m'ont épuisée...$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_HughIntro",
+    "before": "Dress appropriately for battle!\\nLose that frivolous outfit!$",
+    "after": "Il faut une tenue adaptée au combat\\n!\\nQuitte donc ces vêtements frivoles !$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_HughPostBattle",
+    "before": "Even martial artists are becoming\\nfashion conscious these days…$",
+    "after": "Même les experts en arts martiaux\\ns'intéressent à la mode, maintenant...$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_BryceIntro",
+    "before": "You know, everything tastes great\\nwhen you're out in the wild.$",
+    "after": "Tu sais, tout a meilleur goût en\\npleine nature.$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_BrycePostBattle",
+    "before": "The water in volcanic regions is\\ndelicious.$",
+    "after": "L'eau des régions volcaniques est\\ndélicieuse.$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_ClaireIntro",
+    "before": "My lunch filled us up, so will you\\nbattle us for some exercise?$",
+    "after": "Le déjeuner nous a bien rassasiés.\\nUn combat pour faire un peu\\ld'exercice ?$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_ClaireDefeat",
+    "before": "That made me all sweaty.$",
+    "after": "Ça m'a donné chaud !$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_ClairePostBattle",
+    "before": "What should I do?\\nI feel famished again.$",
+    "after": "Qu'est-ce que je vais faire ?\\nJ'ai déjà faim à nouveau.$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_KiaIntro",
+    "before": "KIA: My big brother and I make\\nan awesome combination!$",
+    "after": "Kia : Mon grand frère et moi formons\\nun duo formidable !$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_KiaDefeat",
+    "before": "KIA: Huh?!\\nI can't believe it!$",
+    "after": "Kia : Hein ?!\\nJe n'y crois pas !$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_KiaPostBattle",
+    "before": "KIA: How could there be anyone\\nbetter than my big brother?$",
+    "after": "Kia : Comment peut-on être plus fort\\nque mon grand frère ?$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_KiaNotEnoughMons",
+    "before": "KIA: If you want to battle with\\nus, you have to bring at least two\\lYo-kai with you.$",
+    "after": "Kia : Pour nous affronter, tu dois\\navoir au moins deux Yo-kai avec toi.$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_MikIntro",
+    "before": "MIK: Together with KIA, I'm afraid\\nof nothing!$",
+    "after": "Mik : Avec Kia à mes côtés, je n'ai\\npeur de rien !$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_MikDefeat",
+    "before": "MIK: Whoa!\\nThat's too much!$",
+    "after": "Mik : Ouah !\\nC'en est trop !$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_MikPostBattle",
+    "before": "MIK: How could my combination\\nwith KIA fail?$",
+    "after": "Mik : Comment notre duo a-t-il pu\\néchouer ?$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_MikNotEnoughMons",
+    "before": "MIK: Hey, do you want to battle\\nwith us two?\\pBring two or more Yo-kai with\\nyou, then.$",
+    "after": "Mik : Tu veux nous affronter tous les\\ndeux ?\\pDans ce cas, viens avec au moins\\ndeux Yo-kai.$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_RouteSign",
+    "before": "This is KINDLE ROAD.\\pGo straight for MT. EMBER.$",
+    "after": "ROUTE TISON\\pTout droit vers le Mont Braise.$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_EmberSpaSign",
+    "before": "Light the Fire in Your Heart!\\nEMBER SPA$",
+    "after": "Ravivez la flamme de votre coeur !\\nSOURCE BRAISE$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad_EmberSpa/text.inc",
+    "symbol": "OneIsland_KindleRoad_EmberSpa_Text_WaterWarmsMeToCore",
+    "before": "Hm!\\nHaaaaaaaaaaah!\\pAaaah! This is heavenly!\\nThe water warms me to my core!\\pYou should jump in, too.\\pGo to the middle, relax, and get\\ngood and warm!$",
+    "after": "Hmm !\\nHaaaaaaah !\\pAaah ! Quel bonheur !\\nCette eau me réchauffe jusqu'aux os\\l!\\pTu devrais en profiter aussi.\\pVa au milieu, détends-toi et\\nréchauffe-toi bien !$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad_EmberSpa/text.inc",
+    "symbol": "OneIsland_KindleRoad_EmberSpa_Text_EnjoyBowlOfChowder",
+    "before": "My favorite part of bathing comes\\nup right after this.\\pI enjoy a bowl of chowder to\\nwarm me from the inside, too!$",
+    "after": "Mon moment préféré vient après le\\nbain.\\pJe déguste un bol de soupe pour me\\nréchauffer aussi de l'intérieur !$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad_EmberSpa/text.inc",
+    "symbol": "OneIsland_KindleRoad_EmberSpa_Text_WaterExquisiteFullyRefreshed",
+    "before": "The water is perfectly warm.\\nIt feels exquisite…\\p{PLAYER} and the Yo-kai were\\nfully refreshed!$",
+    "after": "L'eau est à la température idéale.\\nQuel délice...\\p{PLAYER} et ses Yo-kai ont retrouvé\\ntoutes leurs forces !$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad_EmberSpa/text.inc",
+    "symbol": "OneIsland_KindleRoad_EmberSpa_Text_HotSpringIsTherapeutic",
+    "before": "Soaking in a hot spring pool is\\ntherapeutic, people say.$",
+    "after": "Il paraît que les bains chauds sont\\nbons pour la santé.$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad_EmberSpa/text.inc",
+    "symbol": "OneIsland_KindleRoad_EmberSpa_Text_SeeHowSmoothMySkinIs",
+    "before": "Have a look at my face.\\nSee how smooth my skin is?\\pThe hot spring's water keeps my\\nskin younger than my age.$",
+    "after": "Regarde mon visage.\\nTu vois comme ma peau est lisse ?\\pL'eau de cette source lui garde\\ntoute sa jeunesse.$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad_EmberSpa/text.inc",
+    "symbol": "OneIsland_KindleRoad_EmberSpa_Text_BrunoVisitsSpaOnOccasion",
+    "before": "After an honest day of training,\\nnothing beats a relaxing soak in\\lthe hot spring pool.\\pBRUNO, who's a senior ahead of me,\\nvisits the SPA on occasion.\\pHe comes to rehab injuries, both\\nhis own and his Yo-kai's.$",
+    "after": "Après une bonne journée\\nd'entraînement, rien ne vaut un bain\\ldans la source chaude.\\pEnma l'Ancien, un expert bien plus\\nexpérimenté que moi, vient parfois\\lici.\\pIl y soigne ses blessures et celles\\nde ses Yo-kai.$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad_EmberSpa/text.inc",
+    "symbol": "OneIsland_KindleRoad_EmberSpa_Text_UsedThisToMakeEmberSpa",
+    "before": "Hot springs go hand-in-hand with\\nvolcanoes.\\pThe EMBER SPA here, well,\\nI made it years ago.\\pI hewed the pool right out of a\\ngigantic boulder by hand.\\pI was using this at the time.\\nI suppose I can part with it.$",
+    "after": "Les sources chaudes vont de pair\\navec les volcans.\\pLa Source Braise, c'est moi qui l'ai\\naménagée il y a longtemps.\\pJ'ai creusé le bassin à la main dans\\nun immense rocher.\\pJe me servais de ceci.\\nJe suppose que je peux te le\\lconfier.$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad_EmberSpa/text.inc",
+    "symbol": "OneIsland_KindleRoad_EmberSpa_Text_ExplainHM06",
+    "before": "That shatters boulders as if they\\nwere made of crackers.$",
+    "after": "Avec ça, les rochers se brisent\\ncomme de simples biscuits.$"
+  },
+  {
+    "file": "data/maps/OneIsland_TreasureBeach/text.inc",
+    "symbol": "OneIsland_TreasureBeach_Text_AmaraIntro",
+    "before": "Lying back, rocked by the waves…\\nIt's exquisite.$",
+    "after": "Se laisser bercer par les vagues...\\nQuel bonheur !$"
+  },
+  {
+    "file": "data/maps/OneIsland_TreasureBeach/text.inc",
+    "symbol": "OneIsland_TreasureBeach_Text_AmaraPostBattle",
+    "before": "The sea is pleasantly warm in these\\nparts.$",
+    "after": "La mer est agréablement chaude, par\\nici.$"
+  },
+  {
+    "file": "data/maps/OneIsland_TreasureBeach/text.inc",
+    "symbol": "OneIsland_TreasureBeach_Text_GoodThingsWashUpOnBeach",
+    "before": "Good things get washed up by the\\nocean current onto this beach.\\pThat's why I often come here for\\nsome beachcombing.$",
+    "after": "Les courants déposent de belles\\nchoses sur cette plage.\\pC'est pour ça que je viens souvent la\\nfouiller.$"
+  },
+  {
+    "file": "data/maps/PalletTown_PlayersHouse_1F/text.inc",
+    "symbol": "PalletTown_PlayersHouse_1F_Text_YouShouldTakeQuickRest",
+    "before": "MOM: {PLAYER}!\\nYou should take a quick rest.$",
+    "after": "Maman : {PLAYER} !\\nTu devrais te reposer un peu.$"
+  },
+  {
+    "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+    "symbol": "PalletTown_ProfessorOaksLab_Text_OakHeyDontGoAwayYet",
+    "before": "OAK: Hey!\\nDon't go away yet!$",
+    "after": "Chen : Hé !\\nNe pars pas encore !$"
+  },
+  {
+    "file": "data/maps/PewterCity_Gym/text.inc",
+    "symbol": "PewterCity_Gym_Text_GymStatue",
+    "before": "ARÈNE DE PEWTER CITY\\nCHAMPION: WYATT\\pDRESSEURS VICTORIEUX:\\n{RIVAL}$",
+    "after": "ARÈNE D'ARGENTA\\nChampion : Wyatt\\pDRESSEURS VICTORIEUX :\\n{RIVAL}$"
+  },
+  {
+    "file": "data/maps/PewterCity_Gym/text.inc",
+    "symbol": "PewterCity_Gym_Text_GymStatuePlayerWon",
+    "before": "ARÈNE DE PEWTER CITY\\nCHAMPION: WYATT\\pDRESSEURS VICTORIEUX:\\n{RIVAL}, {PLAYER}$",
+    "after": "ARÈNE D'ARGENTA\\nChampion : Wyatt\\pDRESSEURS VICTORIEUX :\\n{RIVAL}, {PLAYER}$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_1F/text.inc",
+    "symbol": "PokemonMansion_1F_Text_TedIntro",
+    "before": "Who are you?\\nThere shouldn't be anyone here.$",
+    "after": "Qui es-tu ?\\nIl ne devrait y avoir personne ici.$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_1F/text.inc",
+    "symbol": "PokemonMansion_1F_Text_TedPostBattle",
+    "before": "A key? I don't know what you're\\ntalking about.$",
+    "after": "Une clé ? Je ne vois pas de quoi tu\\nparles.$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_1F/text.inc",
+    "symbol": "PokemonMansion_1F_Text_JohnsonIntro",
+    "before": "W-w-waah! You startled me!\\nI thought you were a ghost.$",
+    "after": "Aaaah ! Tu m'as fait peur !\\nJe t'ai pris pour un fantôme.$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_1F/text.inc",
+    "symbol": "PokemonMansion_1F_Text_JohnsonDefeat",
+    "before": "Tch!\\nI can't get any wins.$",
+    "after": "Tss !\\nJe n'arrive jamais à gagner.$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_1F/text.inc",
+    "symbol": "PokemonMansion_1F_Text_JohnsonPostBattle",
+    "before": "I was exploring here by myself,\\nbut I feel spooked.\\pI ought to go soon.$",
+    "after": "J'explorais cet endroit tout seul,\\nmais je commence à avoir peur.\\pJe ferais mieux de partir.$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_2F/text.inc",
+    "symbol": "PokemonMansion_1F_Text_ArnieIntro",
+    "before": "I can't get out!\\nThis old place is one big puzzle.$",
+    "after": "Je n'arrive pas à sortir !\\nCet endroit est un vrai casse-tête.$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_2F/text.inc",
+    "symbol": "PokemonMansion_1F_Text_ArnieDefeat",
+    "before": "Oh, no!\\nMy bag of loot!$",
+    "after": "Oh non !\\nMon sac de butin !$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_2F/text.inc",
+    "symbol": "PokemonMansion_1F_Text_ArniePostBattle",
+    "before": "The switches here open and close\\nalternating sets of doors.$",
+    "after": "Les interrupteurs ouvrent et ferment\\ndifférents groupes de portes.$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_3F/text.inc",
+    "symbol": "PokemonMansion_1F_Text_SimonIntro",
+    "before": "This place is, like, huge!$",
+    "after": "Cet endroit est immense !$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_3F/text.inc",
+    "symbol": "PokemonMansion_1F_Text_BraydonPostBattle",
+    "before": "So, you're stuck?\\nTry jumping off over there!$",
+    "after": "Tu es coincé ?\\nEssaie de sauter, là-bas !$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_B1F/text.inc",
+    "symbol": "PokemonMansion_B1F_Text_LewisPostBattle",
+    "before": "You can find stuff lying around.\\nThe residents must've left them.$",
+    "after": "On trouve des objets par terre.\\nLes anciens habitants ont dû les\\llaisser.$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_B1F/text.inc",
+    "symbol": "PokemonMansion_B1F_Text_IvanIntro",
+    "before": "This place is ideal for a lab.\\nLook at all this space.$",
+    "after": "Cet endroit ferait un laboratoire\\nidéal.\\nIl y a tellement d'espace !$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_B1F/text.inc",
+    "symbol": "PokemonMansion_B1F_Text_IvanDefeat",
+    "before": "What was that for?$",
+    "after": "Pourquoi tu m'as fait ça ?$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_B1F/text.inc",
+    "symbol": "PokemonMansion_B1F_Text_IvanPostBattle",
+    "before": "I like it here.\\nIt's conducive to my studies.$",
+    "after": "J'aime cet endroit.\\nIl est propice à mes recherches.$"
+  },
+  {
+    "file": "data/maps/PokemonTower_1F/text.inc",
+    "symbol": "PokemonTower_1F_Text_ErectedInMemoryOfDeadMons",
+    "before": "Yo-kai TOWER was erected in the\\nmemory of Yo-kai that died.$",
+    "after": "La Tour Yo-kai a été construite à la\\nmémoire des Yo-kai disparus.$"
+  },
+  {
+    "file": "data/maps/PokemonTower_1F/text.inc",
+    "symbol": "PokemonTower_1F_Text_ComeToPayRespectsSon",
+    "before": "Did you come to pay respects?\\pBless your Yo-kai-loving heart,\\nson.$",
+    "after": "Tu es venu leur rendre hommage ?\\pSois béni pour l'amour que tu portes\\naux Yo-kai, mon garçon.$"
+  },
+  {
+    "file": "data/maps/PokemonTower_1F/text.inc",
+    "symbol": "PokemonTower_1F_Text_ComeToPayRespectsGirl",
+    "before": "Did you come to pay respects?\\pBless your Yo-kai-loving heart,\\ngirl.$",
+    "after": "Tu es venue leur rendre hommage ?\\pSois bénie pour l'amour que tu portes\\naux Yo-kai, ma petite.$"
+  },
+  {
+    "file": "data/maps/PokemonTower_1F/text.inc",
+    "symbol": "PokemonTower_1F_Text_CameToPrayForDepartedClefairy",
+    "before": "I came to pray for my dearly\\ndeparted CLEFAIRY.\\pSniff!\\nI'm awash in tears…$",
+    "after": "Je suis venu prier pour mon cher\\nTauracle disparu.\\pSnif !\\nJe n'arrête pas de pleurer...$"
+  },
+  {
+    "file": "data/maps/PokemonTower_1F/text.inc",
+    "symbol": "PokemonTower_1F_Text_GrowlitheWhyDidYouDie",
+    "before": "My GROWLITHE…\\nWhy did you die?$",
+    "after": "Mon Noctambill...\\nPourquoi es-tu mort ?$"
+  },
+  {
+    "file": "data/maps/PokemonTower_1F/text.inc",
+    "symbol": "PokemonTower_1F_Text_SenseSpiritsUpToMischief",
+    "before": "I am a CHANNELER.\\pThere are spirits up to mischief.\\nI sense them high in the TOWER.$",
+    "after": "Je suis une Exorciste.\\pJe sens des esprits malfaisants dans\\nles étages de la Tour.$"
+  },
+  {
+    "file": "data/maps/PokemonTower_2F/text.inc",
+    "symbol": "PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts",
+    "before": "Even we could not identify the\\nwayward ghosts.\\pA Yopple SCOPE might be able to\\nunmask them.$",
+    "after": "Même nous ne pouvions pas identifier\\nces fantômes errants.\\pUn Scope Yopple pourrait révéler\\nleur véritable nature.$"
+  },
+  {
+    "file": "data/maps/PokemonTower_3F/text.inc",
+    "symbol": "PokemonTower_3F_Text_HopeDefeat",
+    "before": "Hwa!\\nI'm saved!$",
+    "after": "Ah !\\nJe suis sauvée !$"
+  },
+  {
+    "file": "data/maps/PokemonTower_3F/text.inc",
+    "symbol": "PokemonTower_3F_Text_HopePostBattle",
+    "before": "The ghosts can be identified by\\nthe Yopple SCOPE.$",
+    "after": "Le Scope Yopple permet d'identifier\\nles fantômes.$"
+  },
+  {
+    "file": "data/maps/PokemonTower_3F/text.inc",
+    "symbol": "PokemonTower_3F_Text_CarlyDefeat",
+    "before": "Hmm?\\nWhat am I doing?$",
+    "after": "Hmm ?\\nQu'est-ce que je fais ici ?$"
+  },
+  {
+    "file": "data/maps/PokemonTower_3F/text.inc",
+    "symbol": "PokemonTower_3F_Text_CarlyPostBattle",
+    "before": "Sorry!\\nI was possessed!$",
+    "after": "Pardon !\\nJ'étais possédée !$"
+  },
+  {
+    "file": "data/maps/PokemonTower_3F/text.inc",
+    "symbol": "PokemonTower_3F_Text_PatriciaDefeat",
+    "before": "Whew!\\nThe spirit left!$",
+    "after": "Ouf !\\nL'esprit est parti !$"
+  },
+  {
+    "file": "data/maps/PokemonTower_3F/text.inc",
+    "symbol": "PokemonTower_3F_Text_PatriciaPostBattle",
+    "before": "The others above…\\nThey must have been possessed.$",
+    "after": "Les autres, plus haut...\\nElles doivent être possédées.$"
+  },
+  {
+    "file": "data/maps/PokemonTower_4F/text.inc",
+    "symbol": "PokemonTower_4F_Text_PaulaIntro",
+    "before": "Ghost! No!\\nKwaaah!$",
+    "after": "Un fantôme ! Non !\\nAaaah !$"
+  },
+  {
+    "file": "data/maps/PokemonTower_4F/text.inc",
+    "symbol": "PokemonTower_4F_Text_PaulaDefeat",
+    "before": "Where is the ghost?$",
+    "after": "Où est le fantôme ?$"
+  },
+  {
+    "file": "data/maps/PokemonTower_4F/text.inc",
+    "symbol": "PokemonTower_4F_Text_PaulaPostBattle",
+    "before": "I must have been dreaming…$",
+    "after": "J'ai dû rêver...$"
+  },
+  {
+    "file": "data/maps/PokemonTower_4F/text.inc",
+    "symbol": "PokemonTower_4F_Text_LaurelIntro",
+    "before": "Be cursed with me!\\nKwaaah!$",
+    "after": "Partage ma malédiction !\\nAaaah !$"
+  }
+]

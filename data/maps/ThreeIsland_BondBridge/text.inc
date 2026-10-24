@@ -1,101 +1,75 @@
 ThreeIsland_BondBridge_Text_NikkiIntro::
-    .string "The salty tang of the sea…\n"
-    .string "It tickles my heart.$"
+    .string "L'odeur salée de la mer… Elle me fait\nvibrer le cœur.$"
 
 ThreeIsland_BondBridge_Text_NikkiDefeat::
-    .string "…Sniff, sniff…\n"
-    .string "Something smells unpleasant…$"
+    .string "… Snif, snif… Ça sent mauvais…$"
 
 ThreeIsland_BondBridge_Text_NikkiPostBattle::
-    .string "Perhaps that reek is your sweaty\n"
-    .string "Yo-kai's body odor…$"
+    .string "Cette odeur viendrait-elle de la\nsueur de tes Yo-kai… ?$"
 
 ThreeIsland_BondBridge_Text_VioletIntro::
-    .string "Where are you off to in such\n"
-    .string "a hurry?$"
+    .string "Où vas-tu si vite ?$"
 
 ThreeIsland_BondBridge_Text_VioletDefeat::
-    .string "You're raising some wonderful\n"
-    .string "Yo-kai.$"
+    .string "Tu élèves de merveilleux Yo-kai.$"
 
 ThreeIsland_BondBridge_Text_VioletPostBattle::
-    .string "If you keep going this way, you'll\n"
-    .string "eventually reach BERRY FOREST.$"
+    .string "En continuant par ici, tu finiras par\natteindre le Bois aux Baies.$"
 
 ThreeIsland_BondBridge_Text_AmiraIntro::
-    .string "My mommy said that I can't swim\n"
-    .string "without my float ring.$"
+    .string "Maman m'a dit de ne pas nager sans ma\nbouée.$"
 
 ThreeIsland_BondBridge_Text_AmiraDefeat::
-    .string "Waaah!\n"
-    .string "Waaah!$"
+    .string "Ouin ! Ouin !$"
 
 ThreeIsland_BondBridge_Text_AmiraPostBattle::
-    .string "This year, I'm going to finally\n"
-    .string "learn how to swim!$"
+    .string "Cette année, je vais enfin apprendre\nà nager !$"
 
 ThreeIsland_BondBridge_Text_AlexisIntro::
-    .string "Yay, yay!\n"
-    .string "Yo-kai!$"
+    .string "Youpi, youpi ! Des Yo-kai !$"
 
 ThreeIsland_BondBridge_Text_AlexisDefeat::
-    .string "What happens now?$"
+    .string "Et maintenant ?$"
 
 ThreeIsland_BondBridge_Text_AlexisPostBattle::
-    .string "Did I just win?\n"
-    .string "Or did I lose?$"
+    .string "Je viens de gagner ? Ou j'ai perdu ?$"
 
 ThreeIsland_BondBridge_Text_TishaIntro::
-    .string "Oh, no, don't come here!\n"
-    .string "Please, stay away from me!$"
+    .string "Oh, non, ne viens pas ici ! S'il te\nplaît, reste loin de moi !$"
 
 ThreeIsland_BondBridge_Text_TishaDefeat::
-    .string "Okay, you've won!\n"
-    .string "Now will you please go away?$"
+    .string "D'accord, tu as gagné ! Tu veux bien\npartir, maintenant ?$"
 
 ThreeIsland_BondBridge_Text_TishaPostBattle::
-    .string "A Yo-kai bit through my \n"
-    .string "swimsuit.\p"
-    .string "I can't get out of the water!$"
+    .string "Un Yo-kai a déchiré mon maillot de\nbain d'un coup de dents.\pJe ne peux plus sortir de l'eau !$"
 
 ThreeIsland_BondBridge_Text_JoyIntro::
-    .string "JOY: We'll teach you what our\n"
-    .string "favorite Yo-kai is!$"
+    .string "JOY : On va te montrer notre Yo-kai\npréféré !$"
 
 ThreeIsland_BondBridge_Text_JoyDefeat::
-    .string "JOY: Ohh…\n"
-    .string "MEG!$"
+    .string "JOY : Oh… MEG !$"
 
 ThreeIsland_BondBridge_Text_JoyPostBattle::
-    .string "JOY: Wasn't that fun?\n"
-    .string "I hope we can battle again!$"
+    .string "JOY : C'était amusant, non ? J'espère\nqu'on pourra recommencer !$"
 
 ThreeIsland_BondBridge_Text_JoyNotEnoughMons::
-    .string "JOY: I really want to battle with\n"
-    .string "MEG.\p"
-    .string "One Yo-kai isn't enough.$"
+    .string "JOY : Je veux vraiment me battre\navec MEG.\pUn seul Yo-kai ne suffit pas.$"
 
 ThreeIsland_BondBridge_Text_MegIntro::
-    .string "MEG: We'll show you our favorite\n"
-    .string "Yo-kai.$"
+    .string "MEG : On va te montrer notre Yo-kai\npréféré.$"
 
 ThreeIsland_BondBridge_Text_MegDefeat::
-    .string "MEG: Ohh…\n"
-    .string "JOY!$"
+    .string "MEG : Oh… JOY !$"
 
 ThreeIsland_BondBridge_Text_MegPostBattle::
-    .string "MEG: JOY, wasn't that fun?$"
+    .string "MEG : JOY, on s'est bien amusées, non\n?$"
 
 ThreeIsland_BondBridge_Text_MegNotEnoughMons::
-    .string "MEG: I want to battle together\n"
-    .string "with JOY.\p"
-    .string "One Yo-kai isn't enough.$"
+    .string "MEG : Je veux me battre avec JOY.\pUn seul Yo-kai ne suffit pas.$"
 
 ThreeIsland_BondBridge_Text_BerryForestAhead::
-    .string "BERRY FOREST AHEAD$"
+    .string "BOIS AUX BAIES PLUS LOIN$"
 
 ThreeIsland_BondBridge_Text_BondBridgeSign::
-    .string "BOND BRIDGE\n"
-    .string "Please be quiet when crossing.\p"
-    .string "BERRY FOREST AHEAD$"
+    .string "PONT DU LIEN\nMerci de traverser en silence.\pBOIS AUX BAIES PLUS LOIN$"
 

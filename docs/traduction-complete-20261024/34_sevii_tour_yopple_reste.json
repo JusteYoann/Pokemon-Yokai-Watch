@@ -1,0 +1,602 @@
+[
+  {
+    "file": "data/maps/SevenIsland/text.inc",
+    "symbol": "Text_SwordsDanceTaught",
+    "before": "If only we could keep getting\\nstronger and stronger, eh?$",
+    "after": "Si seulement on pouvait devenir\\ntoujours plus forts, hein ?$"
+  },
+  {
+    "file": "data/maps/SevenIsland/text.inc",
+    "symbol": "SevenIsland_Text_IslandsMadeInSevenDays",
+    "before": "These islands are called the SEVII\\nISLANDS because there are seven.\\p…Or at least that's what the young\\npeople believe.\\pThe truth is, these islands are so\\nnamed because they are said to\\lhave been made in seven days.$",
+    "after": "On appelle ces îles les Îles Sevii\\nparce qu'il y en a sept.\\p… C'est du moins ce que croient les\\njeunes.\\pEn réalité, elles portent ce nom\\nparce que, selon la légende, elles\\lont été créées en sept jours.$"
+  },
+  {
+    "file": "data/maps/SevenIsland/text.inc",
+    "symbol": "SevenIsland_Text_IslandVirtuallyUntouched",
+    "before": "This island has been left virtually\\nuntouched in its natural state.\\pIt could be a little difficult to\\nhike around because of that.$",
+    "after": "Cette île a presque entièrement\\nconservé son état naturel.\\pDu coup, les randonnées peuvent y\\nêtre un peu difficiles.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_House_Room1/text.inc",
+    "symbol": "SevenIsland_House_Room1_Text_OnlyEnjoymentWatchingBattles",
+    "before": "I may not look like much now,\\nbut when I was younger…\\pI flew everywhere, challenging\\nTRAINERS wherever I found them.\\pNow, my only source of enjoyment\\nis reminiscing about the past while\\lwatching battles.$",
+    "after": "Je n'en ai peut-être pas l'air\\naujourd'hui, mais dans ma jeunesse…\\pJe volais partout pour défier les\\nDresseurs que je croisais.\\pÀ présent, mon seul plaisir est de me\\nremémorer le passé en regardant les\\lcombats.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_House_Room1/text.inc",
+    "symbol": "SevenIsland_House_Room1_Text_SlightBreezeAroundBox",
+    "before": "There is a slight breeze blowing\\naround the box.$",
+    "after": "Un léger courant d'air passe autour\\nde la caisse.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_House_Room1/text.inc",
+    "symbol": "SevenIsland_House_Room1_Text_ChallengeVisitingTrainer",
+    "before": "Ah!\\nWelcome, my friend!\\pLet me tell you something. There's\\na hidden room in the basement.\\pA TRAINER named {STR_VAR_1} is\\nwaiting there now.\\pTell me, you did come to challenge\\n{STR_VAR_1}, am I right?$",
+    "after": "Ah ! Bienvenue, mon ami !\\pLaisse-moi te révéler une chose. Il y\\na une salle cachée au sous-sol.\\pUn Dresseur du nom de\\n{STR_VAR_1} t'y attend.\\pDis-moi, tu viens bien défier\\n{STR_VAR_1} ?$"
+  },
+  {
+    "file": "data/maps/SevenIsland_House_Room1/text.inc",
+    "symbol": "SevenIsland_House_Room1_Text_OhYouWontBattle",
+    "before": "Oh…\\nYou won't battle…\\pI see, I see.\\n… …\\pWell, perhaps if you change your\\nmind, do come back.$",
+    "after": "Oh… Tu ne veux pas te battre…\\pJe vois, je vois. … …\\pSi tu changes d'avis, reviens.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_House_Room1/text.inc",
+    "symbol": "SevenIsland_House_Room1_Text_LimitThreeMonsPerSide",
+    "before": "Ah!\\nYou will battle for me?\\pIt was worth my time moving the\\nbox aside, then.\\p… …\\nBut there is one slight problem.\\pThis hidden room is not built very\\nsturdy.\\pCan I get you to limit it to\\nbattles of three Yo-kai per side?$",
+    "after": "Ah ! Tu acceptes de te battre ?\\pJ'ai bien fait de déplacer cette\\ncaisse, alors.\\p… … Mais il reste un petit problème.\\pCette salle cachée n'est pas très\\nsolide.\\pPeux-tu te limiter à trois Yo-kai de\\nchaque côté ?$"
+  },
+  {
+    "file": "data/maps/SevenIsland_House_Room1/text.inc",
+    "symbol": "SevenIsland_House_Room1_Text_SaveProgressBeforeBattle",
+    "before": "Fine! Before your battle, would\\nyou like to save your game?$",
+    "after": "Bien ! Veux-tu sauvegarder ta partie\\navant le combat ?$"
+  },
+  {
+    "file": "data/maps/SevenIsland_House_Room1/text.inc",
+    "symbol": "SevenIsland_House_Room1_Text_DontHoldAnythingBack",
+    "before": "All right.\\nDon't hold anything back!$",
+    "after": "Très bien. Donne tout ce que tu as !$"
+  },
+  {
+    "file": "data/maps/SevenIsland_House_Room1/text.inc",
+    "symbol": "SevenIsland_House_Room2_Text_MatchEndedUpDraw",
+    "before": "The match ended up a draw.$",
+    "after": "Le match s'est terminé par une\\négalité.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_House_Room1/text.inc",
+    "symbol": "SevenIsland_House_Room1_Text_DrawWasIt",
+    "before": "A draw, was it?\\pHowever, let me say that it was\\na worthy spectacle.\\pI'd say it was a wonderful battle\\nwith a real sense of depth!$",
+    "after": "Une égalité, donc ?\\pPermets-moi de dire que le spectacle\\nen valait la peine.\\pUn combat magnifique, d'une grande\\nprofondeur !$"
+  },
+  {
+    "file": "data/maps/SevenIsland_House_Room1/text.inc",
+    "symbol": "SevenIsland_House_Room1_Text_AstoundingBattle",
+    "before": "Bravo!\\pBravo, indeed!\\nWhat an astounding battle!\\pIt was so astounding, why, it keeps\\nfilling my eyes with tears!\\pThe thrust and parry of expertly\\nused techniques!\\pThe clash of power upon power!\\pYes!\\nIt was sheer magnificence!$",
+    "after": "Bravo !\\pBravo, vraiment ! Quel combat\\népoustouflant !\\pJ'en ai encore les larmes aux yeux !\\pCes échanges de techniques si\\nhabilement maîtrisées !\\pCe choc de puissances !\\pOui ! C'était tout simplement sublime\\n!$"
+  },
+  {
+    "file": "data/maps/SevenIsland_House_Room1/text.inc",
+    "symbol": "SevenIsland_House_Room1_Text_FeelYourDisappointment",
+    "before": "Too bad!\\nI feel your disappointment.\\pHowever, that disappointment is\\nwhat will make you better.\\pUse it, learn from it, and make it\\nmotivate you to seek greatness.\\pForget not this disappointment\\nand redouble your training!$",
+    "after": "Dommage ! Je comprends ta déception.\\pMais cette déception t'aidera à\\nprogresser.\\pTire-en une leçon et la force de\\nviser l'excellence.\\pN'oublie pas cette déception et\\nredouble d'efforts à l'entraînement !$"
+  },
+  {
+    "file": "data/maps/SevenIsland_Mart/text.inc",
+    "symbol": "SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn",
+    "before": "Yo-kai have personalities of their\\nown, just like people.\\pMy PIKACHU has a HASTY nature,\\nso it grew to be a speedy Yo-kai.$",
+    "after": "Les Yo-kai ont leur propre caractère,\\ncomme les gens.\\pMon Passpa est de nature Pressé : il\\nest devenu très rapide.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_Mart/text.inc",
+    "symbol": "SevenIsland_Mart_Text_PreparationsCompleteForRuins",
+    "before": "Okay, preparations are complete\\nfor me to explore the RUINS.$",
+    "after": "Bien, tout est prêt pour mon\\nexploration des ruines.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_Mart/text.inc",
+    "symbol": "SevenIsland_Mart_Text_NeedToFishOnSevenIsland",
+    "before": "I need to fish on SEVEN ISLAND.\\pThat will complete my fishing tour\\nof the SEVII ISLANDS.\\pI'd better stock up on some\\nYo-kai Balls first, though.$",
+    "after": "Il faut que j'aille pêcher sur l'Île\\n7.\\pAinsi, j'aurai pêché sur toutes les\\nÎles Sevii.\\pMais je ferais mieux de refaire mon\\nstock de Yo-kai Balls.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_CyndyPostBattle",
+    "before": "The way I am now, I may have to\\nhold off on TRAINER TOWER…$",
+    "after": "À mon niveau, je devrais peut-être\\nattendre avant d'aller à la Tour des\\lDresseurs…$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_EvanIntro",
+    "before": "It doesn't matter if you happen to\\nhave the strongest Yo-kai…\\pIt doesn't mean a thing if you don't\\nknow how to use them properly!$",
+    "after": "Avoir les Yo-kai les plus forts ne\\nsuffit pas…\\pCela ne sert à rien si tu ne sais pas\\nt'en servir !$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_EvanDefeat",
+    "before": "You're a master at this.$",
+    "after": "Tu maîtrises ton sujet.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_EvanPostBattle",
+    "before": "You see them every so often,\\nTRAINERS with awesome Yo-kai\\lwho have no idea what to do.\\pBefore training Yo-kai, TRAINERS\\nthemselves need to grow up.$",
+    "after": "On croise parfois des Dresseurs avec\\ndes Yo-kai incroyables, mais qui ne\\lsavent pas quoi en faire.\\pAvant d'entraîner leurs Yo-kai, les\\nDresseurs doivent eux-mêmes\\lprogresser.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_JacksonIntro",
+    "before": "I work to protect the environment.\\nIn turn, nature protects me!$",
+    "after": "Je protège l'environnement. En retour,\\nla nature me protège !$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_JacksonDefeat",
+    "before": "Whoa! You're tough!\\nHow about protecting me?$",
+    "after": "Oh ! Tu es fort ! Tu veux bien me\\nprotéger ?$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_JacksonPostBattle",
+    "before": "From far out among the stars, our\\nplanet is just a drop of water.\\pBut we want to protect that drop\\nof water for everyone.$",
+    "after": "Depuis les étoiles lointaines, notre\\nplanète n'est qu'une goutte d'eau.\\pMais nous voulons protéger cette\\ngoutte d'eau pour tout le monde.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_KatelynIntro",
+    "before": "Those shoes you have are pretty\\nsnazzy.$",
+    "after": "Elles sont chouettes, tes chaussures.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_KatelynDefeat",
+    "before": "You're hot stuff in spite of your\\ncute looks.$",
+    "after": "Tu caches bien ton jeu derrière ton\\nair mignon.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_KatelynPostBattle",
+    "before": "Your mom bought those snazzy\\nRUNNING SHOES for you?\\pShe must adore you.$",
+    "after": "C'est ta mère qui t'a acheté ces\\nbelles Chaussures de Sport ?\\pElle doit t'adorer.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_LeroyIntro",
+    "before": "You look strong.\\nLet me battle you, please!$",
+    "after": "Tu as l'air fort. Affronte-moi, s'il te\\nplaît !$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_LeroyDefeat",
+    "before": "I knew it!\\nYou're as tough as I thought!$",
+    "after": "Je le savais ! Tu es aussi fort que\\nje le pensais !$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_LeroyPostBattle",
+    "before": "The way you battle has given me\\na lot of useful data.\\pThanks so much!$",
+    "after": "Ta façon de combattre m'a fourni de\\nnombreuses données utiles.\\pMerci beaucoup !$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_MichelleIntro",
+    "before": "I was given the best possible\\neducation to become this strong.\\pI don't want to lose to anyone!$",
+    "after": "J'ai reçu la meilleure formation\\npossible pour devenir aussi fort.\\pJe ne veux perdre contre personne !$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_MichelleDefeat",
+    "before": "Thank you. I feel like I've been\\nset free by losing to you.$",
+    "after": "Merci. Cette défaite m'a comme libéré\\nd'un poids.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_MichellePostBattle",
+    "before": "For some reason, I get furious\\nover the slightest thing.\\pI'll calm myself by breathing\\ndeeply.$",
+    "after": "Je ne sais pas pourquoi, mais un rien\\nme met en colère.\\pJe vais respirer profondément pour me\\ncalmer.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_LexIntro",
+    "before": "LEX: My darling NYA, together\\nwe could win!$",
+    "after": "LEX : Ma chère NYA, ensemble, nous\\npouvons gagner !$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_LexDefeat",
+    "before": "LEX: I seem to have been too\\ncareless…$",
+    "after": "LEX : J'ai manqué de prudence…$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_LexPostBattle",
+    "before": "LEX: I think it was a good\\nexperience for NYA.\\pYou have my gratitude.$",
+    "after": "LEX : Je pense que c'était une bonne\\nexpérience pour NYA.\\pTu as toute ma gratitude.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_LexNotEnoughMons",
+    "before": "LEX: May I ask you to battle the\\nboth of us at the same time?$",
+    "after": "LEX : Puis-je te demander de nous\\naffronter tous les deux à la fois ?$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_NyaIntro",
+    "before": "NYA: I'll do my best so I won't\\ndrag down my mentor, LEX!$",
+    "after": "NYA : Je vais faire de mon mieux\\npour ne pas ralentir mon mentor, LEX\\l!$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_NyaDefeat",
+    "before": "NYA: Oh, no…\\nI'm so sorry, I…$",
+    "after": "NYA : Oh, non… Je suis désolée, je…$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_NyaPostBattle",
+    "before": "NYA: I think I'm going to need\\nmuch more seasoning and tutoring\\lunder LEX…\\p…So, LEX, please, may I stay with\\nyou like this?$",
+    "after": "NYA : Il me faut encore beaucoup\\nd'expérience et d'entraînement auprès\\lde LEX…\\p… Alors, LEX, je peux rester à tes\\ncôtés ?$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_NyaNotEnoughMons",
+    "before": "NYA: I'm sorry, but may we battle\\nin two-on-two style?$",
+    "after": "NYA : Pardon, mais pouvons-nous nous\\nbattre à deux contre deux ?$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Text_BrunoTrainedWithBrawly",
+    "before": "Training by oneself is certainly\\nnot a bad thing.\\pBut it's also not bad to aim for\\nthe top with a partner.\\pEven BRUNO…\\nHe trained with a fellow by the\\lname of BRAWLY before.$",
+    "after": "S'entraîner seul, c'est bien.\\pMais viser le sommet avec un\\npartenaire, c'est bien aussi.\\pMême Aldo… Il s'entraînait autrefois\\navec un certain Bastien.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon_Entrance/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Entrance_Text_MiahIntro",
+    "before": "Kyahaha!\\nI'll flick you away effortlessly!$",
+    "after": "Kyahaha ! Je vais me débarrasser de\\ntoi sans effort !$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon_Entrance/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Entrance_Text_MiahPostBattle",
+    "before": "What's that?\\nI don't act the way I look?\\pHeh, that's a part of my strategy!$",
+    "after": "Quoi ? Je n'agis pas comme mon\\napparence le laisse croire ?\\pHéhé, ça fait partie de ma stratégie\\n!$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon_Entrance/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Entrance_Text_MasonIntro",
+    "before": "Howdy!\\nAre you a member of my fan club?$",
+    "after": "Salut ! Tu fais partie de mon\\nfan-club ?$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon_Entrance/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Entrance_Text_MasonDefeat",
+    "before": "Oh, so you're not a fan…\\pWell, I can change that.\\nLet me sing for you!$",
+    "after": "Ah, tu n'es pas fan…\\pÇa peut s'arranger. Laisse-moi\\nchanter pour toi !$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon_Entrance/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Entrance_Text_MasonPostBattle",
+    "before": "Lalalah…\\nMy Yo-kai, I send them out,\\lall the girls scream and shout!$",
+    "after": "Lalalala…\\pQuand j'envoie mes Yo-kai, toutes les\\nfilles crient de joie !$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon_Entrance/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Entrance_Text_NicolasIntro",
+    "before": "This island is too spread out…\\nIt's not easy patrolling the place.$",
+    "after": "Cette île est trop étendue… Ce n'est\\npas facile d'y faire des rondes.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon_Entrance/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Entrance_Text_NicolasPostBattle",
+    "before": "TRAINERS like you from cities,\\nthey sure are tough.\\pYou'll be headed for the TOWER,\\nwon't you?$",
+    "after": "Les Dresseurs de la ville comme toi\\nsont vraiment costauds.\\pTu vas à la Tour, n'est-ce pas ?$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon_Entrance/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Entrance_Text_MadelineDefeat",
+    "before": "You don't seem to be a problem\\nTRAINER.$",
+    "after": "Tu n'as pas l'air de causer des\\nproblèmes.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon_Entrance/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Entrance_Text_MadelinePostBattle",
+    "before": "If you treat your Yo-kai with\\nkindness, they'll understand.$",
+    "after": "Si tu traites tes Yo-kai avec\\ngentillesse, ils le comprendront.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon_Entrance/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Entrance_Text_EveIntro",
+    "before": "EVE: I'll team up with JON and\\nbattle together.$",
+    "after": "EVE : Je vais faire équipe avec JON\\npour ce combat.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon_Entrance/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Entrance_Text_EvePostBattle",
+    "before": "EVE: I'm going to work harder with\\nJON.$",
+    "after": "EVE : Je vais redoubler d'efforts\\navec JON.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon_Entrance/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Entrance_Text_EveNotEnoughMons",
+    "before": "EVE: I want to team up with JON\\nwhen I battle you.\\pCome back with two Yo-kai, okay?$",
+    "after": "EVE : Je veux faire équipe avec JON\\npour t'affronter.\\pReviens avec deux Yo-kai, d'accord ?$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon_Entrance/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Entrance_Text_JonIntro",
+    "before": "JON: When I'm with EVE, it feels\\nlike we could never lose.$",
+    "after": "JON : Avec EVE, j'ai l'impression\\nqu'on ne peut pas perdre.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon_Entrance/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Entrance_Text_JonDefeat",
+    "before": "JON: When I'm with EVE,\\nit doesn't feel like I've lost!$",
+    "after": "JON : Avec EVE, je n'ai pas\\nl'impression d'avoir perdu !$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon_Entrance/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Entrance_Text_JonPostBattle",
+    "before": "JON: When I'm with EVE, I feel\\ngiddy whether I win or lose.\\pIt's magical!$",
+    "after": "JON : Avec EVE, victoire ou défaite,\\nj'ai la tête qui tourne.\\pC'est magique !$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon_Entrance/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Entrance_Text_JonNotEnoughMons",
+    "before": "JON: If it's with EVE, I'll be\\nhappy to battle with you.\\pSo, I'd like to make it a\\ntwo-on-two battle, if I may.$",
+    "after": "JON : Avec EVE, je veux bien\\nt'affronter.\\pAlors, si tu le veux bien, faisons un\\ncombat à deux contre deux.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon_Entrance/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_Entrance_Text_RouteSign",
+    "before": "SEVAULT CANYON ENTRANCE\\pTRAINERS are asked to refrain from\\ndamaging plants in the CANYON.$",
+    "after": "ENTRÉE DU CANYON SÉVAULT\\pLes Dresseurs sont priés de ne pas\\nabîmer les plantes du canyon.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon_House/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_House_Text_WouldYouLikeToDance",
+    "before": "Would you like to dance?$",
+    "after": "Veux-tu danser ?$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon_House/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_House_Text_DancedChanseyDance",
+    "before": "{PLAYER} danced the CHANSEY Dance!$",
+    "after": "{PLAYER} danse la danse de Sal de\\nbain !$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon_House/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_House_Text_YoureAllChipperNow",
+    "before": "Ahahahaha!\\pThere, you're all chipper now!\\nLucky!$",
+    "after": "Ahahahaha !\\pVoilà, tu as retrouvé la forme !\\nQuelle chance !$"
+  },
+  {
+    "file": "data/maps/SevenIsland_SevaultCanyon_TanobyKey/text.inc",
+    "symbol": "SevenIsland_SevaultCanyon_TanobyKey_Text_MysteriousRumbleFarAway",
+    "before": "A mysterious rumble echoed\\nsomewhere far away.$",
+    "after": "Un grondement mystérieux retentit au\\nloin.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_TanobyRuins/text.inc",
+    "symbol": "SevenIsland_TanobyRuins_Text_BrandonIntro",
+    "before": "Do you know anything about this\\nstone chamber?$",
+    "after": "Sais-tu quelque chose sur cette\\nchambre de pierre ?$"
+  },
+  {
+    "file": "data/maps/SevenIsland_TanobyRuins/text.inc",
+    "symbol": "SevenIsland_TanobyRuins_Text_BrandonDefeat",
+    "before": "That was uncalled for.\\nYou didn't have to be so rough.$",
+    "after": "Ce n'était pas nécessaire. Tu n'avais\\npas besoin d'y aller si fort.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_TanobyRuins/text.inc",
+    "symbol": "SevenIsland_TanobyRuins_Text_BrandonPostBattle",
+    "before": "The TANOBY RUINS date back at\\nleast 1,500 years.\\pBut it's a baffling mystery as to\\nwhy it was built in the first place.$",
+    "after": "Les Ruines Tanoby datent d'au moins 1\\n500 ans.\\pMais la raison de leur construction\\nreste un mystère.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_TanobyRuins/text.inc",
+    "symbol": "SevenIsland_TanobyRuins_Text_BenjaminIntro",
+    "before": "A mystic Yo-kai is said to sleep\\ninside here.$",
+    "after": "On dit qu'un Yo-kai mystique dort ici.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_TanobyRuins/text.inc",
+    "symbol": "SevenIsland_TanobyRuins_Text_BenjaminDefeat",
+    "before": "I'm not much good in battle.$",
+    "after": "Je ne suis pas très doué en combat.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_TanobyRuins/text.inc",
+    "symbol": "SevenIsland_TanobyRuins_Text_BenjaminPostBattle",
+    "before": "I hear there are other ruins like\\nthe one here.\\pMight they be the resting places\\nof other mystic Yo-kai?$",
+    "after": "Il paraît qu'il existe d'autres ruines\\ncomme celles-ci.\\pSeraient-elles le lieu de repos\\nd'autres Yo-kai mystiques ?$"
+  },
+  {
+    "file": "data/maps/SevenIsland_TanobyRuins/text.inc",
+    "symbol": "SevenIsland_TanobyRuins_Text_EdnaIntro",
+    "before": "CLIFFORD is teaching me how to\\npaint.$",
+    "after": "CLIFFORD m'apprend à peindre.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_TanobyRuins/text.inc",
+    "symbol": "SevenIsland_TanobyRuins_Text_EdnaDefeat",
+    "before": "We might get in trouble for being\\nnoisy here.$",
+    "after": "On risque d'avoir des ennuis si on\\nfait du bruit ici.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_TanobyRuins/text.inc",
+    "symbol": "SevenIsland_TanobyRuins_Text_EdnaPostBattle",
+    "before": "I said that I wanted to paint an\\nold building.\\pSo CLIFFORD brought me here.$",
+    "after": "J'avais dit que je voulais peindre un\\nvieux bâtiment.\\pAlors CLIFFORD m'a amenée ici.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_TanobyRuins/text.inc",
+    "symbol": "SevenIsland_TanobyRuins_Text_CliffordIntro",
+    "before": "Today, in addition to our lesson,\\nwe came to see the chamber.$",
+    "after": "Aujourd'hui, en plus de notre leçon,\\nnous sommes venus visiter la chambre.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_TanobyRuins/text.inc",
+    "symbol": "SevenIsland_TanobyRuins_Text_CliffordPostBattle",
+    "before": "Ah, so you are studying Yo-kai\\non your own…\\pYes, you certainly are quite the\\nextraordinary person, indeed.$",
+    "after": "Ah, tu étudies donc les Yo-kai par\\ntoi-même…\\pOui, tu es vraiment une personne\\nextraordinaire.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_TrainerTower/text.inc",
+    "symbol": "SevenIsland_TrainerTower_Text_DarioIntro",
+    "before": "I sensed your approach.$",
+    "after": "J'ai senti ton approche.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_TrainerTower/text.inc",
+    "symbol": "SevenIsland_TrainerTower_Text_DarioPostBattle",
+    "before": "In your future, I sense that you\\nwill meet many others.\\pI think you will be linked to each\\nother by a strange power.$",
+    "after": "Je sens que tu feras de nombreuses\\nrencontres.\\pUne force étrange semble destinée à\\nvous unir.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_TrainerTower/text.inc",
+    "symbol": "SevenIsland_TrainerTower_Text_RodetteIntro",
+    "before": "Somewhere on this island, peculiar\\nYo-kai are sleeping.$",
+    "after": "Quelque part sur cette île dorment\\ndes Yo-kai singuliers.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_TrainerTower/text.inc",
+    "symbol": "SevenIsland_TrainerTower_Text_RodetteDefeat",
+    "before": "What an amazing TRAINER!$",
+    "after": "Quel Dresseur extraordinaire !$"
+  },
+  {
+    "file": "data/maps/SevenIsland_TrainerTower/text.inc",
+    "symbol": "SevenIsland_TrainerTower_Text_RodettePostBattle",
+    "before": "Somewhere on this island, peculiar\\nYo-kai are sleeping.\\pCould it be that they're waiting\\nfor you?$",
+    "after": "Quelque part sur cette île dorment\\ndes Yo-kai singuliers.\\pEt s'ils t'attendaient ?$"
+  },
+  {
+    "file": "data/maps/SevenIsland_TrainerTower/text.inc",
+    "symbol": "SevenIsland_TrainerTower_Text_TrainerTowerSign",
+    "before": "TRAINER TOWER ENTRANCE\\nRise to the Challenge, TRAINERS!$",
+    "after": "ENTRÉE DE LA TOUR DES DRESSEURS\\nDresseurs, relevez le défi !$"
+  },
+  {
+    "file": "data/maps/SilphCo_10F/text.inc",
+    "symbol": "SilphCo_10F_Text_TravisIntro",
+    "before": "Enough of your silly games!$",
+    "after": "Assez de tes petits jeux !$"
+  },
+  {
+    "file": "data/maps/SilphCo_10F/text.inc",
+    "symbol": "SilphCo_10F_Text_TravisPostBattle",
+    "before": "Are you satisfied with beating me?\\nThen go on home!$",
+    "after": "Tu es content de m'avoir battu ?\\nAlors rentre chez toi !$"
+  },
+  {
+    "file": "data/maps/SilphCo_10F/text.inc",
+    "symbol": "SilphCo_10F_Text_WaaaImScared",
+    "before": "Waaaaa!\\nI'm scared!$",
+    "after": "Aaaaaah ! J'ai peur !$"
+  },
+  {
+    "file": "data/maps/SilphCo_10F/text.inc",
+    "symbol": "SilphCo_10F_Text_KeepMeCryingASecret",
+    "before": "About me crying…\\nPlease keep it a secret.$",
+    "after": "Ne dis à personne que j'ai pleuré,\\ns'il te plaît.$"
+  },
+  {
+    "file": "data/maps/SilphCo_11F/text.inc",
+    "symbol": "SilphCo_11F_Text_YouHaveNoRoomForThis",
+    "before": "You have no room for this.$",
+    "after": "Tu n'as pas de place pour ça.$"
+  },
+  {
+    "file": "data/maps/SilphCo_11F/text.inc",
+    "symbol": "SilphCo_11F_Text_ThanksForRescuingUs",
+    "before": "SECRETARY: Thank you for rescuing\\nall of us.\\pWe, from the PRESIDENT down,\\nare indebted to you.$",
+    "after": "SECRÉTAIRE : Merci de nous avoir\\ntous sauvés.\\pDu Président aux employés, nous te\\nsommes tous reconnaissants.$"
+  },
+  {
+    "file": "data/maps/SilphCo_11F/text.inc",
+    "symbol": "SilphCo_11F_Text_MonitorHasMonsOnIt",
+    "before": "The monitor has Yo-kai on it!$",
+    "after": "Il y a des Yo-kai à l'écran !$"
+  },
+  {
+    "file": "data/maps/SilphCo_1F/text.inc",
+    "symbol": "SilphCo_1F_Text_WelcomePresidentInBoardroom",
+    "before": "Welcome.\\pThe PRESIDENT is in the boardroom\\non 11F.$",
+    "after": "Bienvenue.\\pLe Président est dans la salle de\\nréunion, au 10e étage.$"
+  },
+  {
+    "file": "data/maps/SilphCo_2F/text.inc",
+    "symbol": "SilphCo_2F_Text_ConnorIntro",
+    "before": "Help!\\nI'm a Yopple employee.$",
+    "after": "Au secours ! Je travaille chez\\nYopple.$"
+  },
+  {
+    "file": "data/maps/SilphCo_2F/text.inc",
+    "symbol": "SilphCo_2F_Text_JerryDefeat",
+    "before": "You're good.$",
+    "after": "Tu es doué.$"
+  },
+  {
+    "file": "data/maps/SilphCo_2F/text.inc",
+    "symbol": "SilphCo_2F_Text_JerryPostBattle",
+    "before": "Can you solve the maze in here?\\nIt's not easy, I tell you!$",
+    "after": "Tu arriveras à résoudre ce labyrinthe\\n? Ce n'est pas facile, crois-moi !$"
+  },
+  {
+    "file": "data/maps/SilphCo_2F/text.inc",
+    "symbol": "Text_ThunderWaveDeclined",
+    "before": "Oh…\\nBut THUNDER WAVE is convenient…$",
+    "after": "Oh… Pourtant, Cage Éclair est bien\\npratique…$"
+  },
+  {
+    "file": "data/maps/SilphCo_2F/text.inc",
+    "symbol": "Text_ThunderWaveWhichMon",
+    "before": "Which Yo-kai should I teach\\nTHUNDER WAVE?$",
+    "after": "À quel Yo-kai dois-je enseigner Cage\\nÉclair ?$"
+  },
+  {
+    "file": "data/maps/SilphCo_2F/text.inc",
+    "symbol": "Text_ThunderWaveTaught",
+    "before": "THUNDER WAVE causes paralysis in\\nthe target Yo-kai.\\pA paralyzed Yo-kai may be unable\\nto move in battle.\\pIt's an ELECTRIC-type move, so it\\nwon't work on some Yo-kai.$",
+    "after": "Cage Éclair paralyse le Yo-kai visé.\\pUn Yo-kai paralysé peut être\\nincapable d'agir en combat.\\pC'est une capacité Électrik : certains\\nYo-kai y sont donc insensibles.$"
+  },
+  {
+    "file": "data/maps/SilphCo_3F/text.inc",
+    "symbol": "SilphCo_3F_Text_WhatAmIToDo",
+    "before": "I work for Yopple\\nWhat am I to do?$",
+    "after": "Je travaille chez Yopple. Qu'est-ce\\nque je vais faire ?$"
+  },
+  {
+    "file": "data/maps/SilphCo_3F/text.inc",
+    "symbol": "SilphCo_3F_Text_YouAndYourMonsSavedUs",
+    "before": "{PLAYER}!\\nYou and your Yo-kai saved us!$",
+    "after": "{PLAYER} ! Tes Yo-kai et toi nous\\navez sauvés !$"
+  },
+  {
+    "file": "data/maps/SilphCo_3F/text.inc",
+    "symbol": "SilphCo_3F_Text_JoseDefeat",
+    "before": "You really got me!$",
+    "after": "Tu m'as bien eu !$"
+  },
+  {
+    "file": "data/maps/SilphCo_4F/text.inc",
+    "symbol": "SilphCo_4F_Text_CantYouSeeImHiding",
+    "before": "Sssh!\\nCan't you see I'm hiding?$",
+    "after": "Chut ! Tu ne vois pas que je me\\ncache ?$"
+  },
+  {
+    "file": "data/maps/SilphCo_4F/text.inc",
+    "symbol": "SilphCo_4F_Text_RodneyIntro",
+    "before": "My Yo-kai is my loyal servant.$",
+    "after": "Mon Yo-kai est mon fidèle serviteur.$"
+  },
+  {
+    "file": "data/maps/SilphCo_4F/text.inc",
+    "symbol": "SilphCo_4F_Text_RodneyDefeat",
+    "before": "Darn!\\nYou weak Yo-kai!$",
+    "after": "Bon sang ! Quels Yo-kai minables !$"
+  }
+]

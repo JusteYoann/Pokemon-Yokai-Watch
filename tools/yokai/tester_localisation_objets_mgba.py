@@ -6,11 +6,12 @@ from mgba_rpc import ROOT
 from mgba_new_game import new_game
 P=ROOT/'QA_RECETTE_FINALE/LOCALISATION_FR/objets';P.mkdir(parents=True,exist_ok=True)
 entries=json.loads((P.parent/'OBJETS_FR.json').read_text())['entries'];constants={k:int(v) for k,v in re.findall(r'^#define\s+(ITEM_\w+)\s+(\d+)\b',(ROOT/'include/constants/items.h').read_text(),re.M)}
+final_names={x['itemId']:x['english'] for x in json.loads((ROOT/'src/data/items.json').read_text())['items']}
 glyph={m[1]:int(m[2],16) for m in re.finditer(r"^'(.*?)'\s*= ([0-9A-F]{2})$",(ROOT/'charmap.txt').read_text(),re.M)};glyph["'"]=glyph['’']
 r=new_game();results=[];shots=[];passed=False;error='Interrupted'
 try:
  for e in entries:
-  ident=constants[e['item']];ptr=r.call('ItemId_GetName',ident);expected=bytes(glyph[c] for c in e['display'])+b'\xff';assert r.read(ptr,len(expected))==expected,(e['item'],'Wrong linked item name')
+  ident=constants[e['item']];ptr=r.call('ItemId_GetName',ident);expected=bytes(glyph[c] for c in final_names[e['item']])+b'\xff';assert r.read(ptr,len(expected))==expected,(e['item'],'Wrong linked item name')
   desc=r.call('ItemId_GetDescription',ident);width=r.call('GetStringWidth',2,desc,0);assert width<=196,(e['item'],width)
   results.append(dict(item=e['item'],linked_name_exact=True,native_description_pixels=width,passed=True))
  r.call('ClearBag');assert r.call('AddBagItem',constants['ITEM_POTION'],1)

@@ -1,47 +1,27 @@
 LavenderTown_House2_Text_WantMeToRateNicknames::
-    .string "Hello, hello!\n"
-    .string "I am the official NAME RATER!\p"
-    .string "Want me to rate the nicknames of\n"
-    .string "your Yo-kai?$"
+    .string "Bonjour, bonjour !\nJe suis le Spécialiste des Noms !\pVeux-tu que j'évalue les surnoms de\ntes Yo-kai ?$"
 
 LavenderTown_House2_Text_CritiqueWhichMonsNickname::
-    .string "Which Yo-kai's nickname should\n"
-    .string "I critique?$"
+    .string "De quel Yo-kai dois-je évaluer le\nsurnom ?$"
 
 LavenderTown_House2_Text_GiveItANicerName::
-    .string "{STR_VAR_1}, is it?\n"
-    .string "That is a decent nickname!\p"
-    .string "But, would you like me to give it\n"
-    .string "a nicer name?\p"
-    .string "How about it?$"
+    .string "{STR_VAR_1}, c'est ça ?\nC'est un bon surnom !\pMais voudrais-tu que je lui en trouve\nun encore plus joli ?\pAlors ?$"
 
 LavenderTown_House2_Text_WhatShallNewNicknameBe::
-    .string "Ah, good. Then, what shall the new\n"
-    .string "nickname be?$"
+    .string "Très bien ! Quel sera son nouveau\nsurnom ?$"
 
 LavenderTown_House2_Text_FromNowOnShallBeKnownAsName::
-    .string "Done! From now on, this Yo-kai\n"
-    .string "shall be known as {STR_VAR_1}!\p"
-    .string "It is a better name than before!\n"
-    .string "How fortunate for you!$"
+    .string "Voilà ! Désormais, ce Yo-kai\ns'appellera {STR_VAR_1} !\pC'est encore mieux qu'avant !\nQuelle chance pour toi !$"
 
 LavenderTown_House2_Text_ISeeComeVisitAgain::
-    .string "I see.\n"
-    .string "Do come visit again.$"
+    .string "Je vois. Reviens nous rendre visite.$"
 
 LavenderTown_House2_Text_FromNowOnShallBeKnownAsSameName::
-    .string "Done! From now on, this Yo-kai\n"
-    .string "shall be known as {STR_VAR_1}!\p"
-    .string "It looks no different from before,\n"
-    .string "and yet, this is vastly superior!\p"
-    .string "How fortunate for you!$"
+    .string "Voilà ! Désormais, ce Yo-kai\ns'appellera {STR_VAR_1} !\pÇa ne semble pas avoir changé, mais\nc'est bien mieux ainsi !\pQuelle chance pour toi !$"
 
 LavenderTown_House2_Text_TrulyImpeccableName::
-    .string "{STR_VAR_1}, is it?\n"
-    .string "That is a truly impeccable name!\p"
-    .string "Take good care of {STR_VAR_1}!$"
+    .string "{STR_VAR_1}, c'est ça ?\nC'est un surnom parfait !\pPrends bien soin de {STR_VAR_1} !$"
 
 LavenderTown_House2_Text_ThatIsMerelyAnEgg::
-    .string "Now, now.\n"
-    .string "That is merely an EGG!$"
+    .string "Voyons, voyons.\nCe n'est qu'un Oeuf !$"
 

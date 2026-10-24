@@ -1,35 +1,35 @@
 
-static const u8 sEasyChatWord_IChooseYou[] = _("I CHOOSE YOU");
-static const u8 sEasyChatWord_Gotcha[] = _("GOTCHA");
-static const u8 sEasyChatWord_Trade[] = _("TRADE");
-static const u8 sEasyChatWord_Sapphire[] = _("SAPPHIRE");
-static const u8 sEasyChatWord_Evolve[] = _("EVOLVE");
-static const u8 sEasyChatWord_Encyclopedia[] = _("ENCYCLOPEDIA");
+static const u8 sEasyChatWord_IChooseYou[] = _("JE TE VEUX");
+static const u8 sEasyChatWord_Gotcha[] = _("JE T'AI EU");
+static const u8 sEasyChatWord_Trade[] = _("ÉCHANGE");
+static const u8 sEasyChatWord_Sapphire[] = _("SAPHIR");
+static const u8 sEasyChatWord_Evolve[] = _("ÉVOLUER");
+static const u8 sEasyChatWord_Encyclopedia[] = _("ENCYCLOPÉDIE");
 static const u8 sEasyChatWord_Nature[] = _("NATURE");
-static const u8 sEasyChatWord_Center[] = _("CENTER");
-static const u8 sEasyChatWord_Egg[] = _("EGG");
-static const u8 sEasyChatWord_Link[] = _("LINK");
-static const u8 sEasyChatWord_SpAbility[] = _("SP. ABILITY");
-static const u8 sEasyChatWord_Trainer[] = _("TRAINER");
+static const u8 sEasyChatWord_Center[] = _("CENTRE");
+static const u8 sEasyChatWord_Egg[] = _("ŒUF");
+static const u8 sEasyChatWord_Link[] = _("LIEN");
+static const u8 sEasyChatWord_SpAbility[] = _("TALENT");
+static const u8 sEasyChatWord_Trainer[] = _("DRESSEUR");
 static const u8 sEasyChatWord_Version[] = _("VERSION");
-static const u8 sEasyChatWord_Pokenav[] = _("POKéNAV");
-static const u8 sEasyChatWord_Pokemon[] = _("Yo-kai");
-static const u8 sEasyChatWord_Get[] = _("GET");
-static const u8 sEasyChatWord_Pokedex[] = _("Médallium");
-static const u8 sEasyChatWord_Ruby[] = _("RUBY");
-static const u8 sEasyChatWord_Level[] = _("LEVEL");
-static const u8 sEasyChatWord_Red[] = _("RED");
-static const u8 sEasyChatWord_Green[] = _("GREEN");
-static const u8 sEasyChatWord_Bag[] = _("BAG");
-static const u8 sEasyChatWord_Flame[] = _("FLAME");
-static const u8 sEasyChatWord_Gold[] = _("GOLD");
-static const u8 sEasyChatWord_Leaf[] = _("LEAF");
-static const u8 sEasyChatWord_Silver[] = _("SILVER");
+static const u8 sEasyChatWord_Pokenav[] = _("POKÉNAV");
+static const u8 sEasyChatWord_Pokemon[] = _("YO-KAI");
+static const u8 sEasyChatWord_Get[] = _("OBTENIR");
+static const u8 sEasyChatWord_Pokedex[] = _("MÉDALLIUM");
+static const u8 sEasyChatWord_Ruby[] = _("RUBIS");
+static const u8 sEasyChatWord_Level[] = _("NIVEAU");
+static const u8 sEasyChatWord_Red[] = _("ROUGE");
+static const u8 sEasyChatWord_Green[] = _("VERT");
+static const u8 sEasyChatWord_Bag[] = _("SAC");
+static const u8 sEasyChatWord_Flame[] = _("FLAMME");
+static const u8 sEasyChatWord_Gold[] = _("OR");
+static const u8 sEasyChatWord_Leaf[] = _("FEUILLE");
+static const u8 sEasyChatWord_Silver[] = _("ARGENT");
 
 static const struct EasyChatWordInfo sEasyChatGroup_Trainer[] = {
     {
         .text = sEasyChatWord_IChooseYou,
-        .alphabeticalOrder = 21,
+        .alphabeticalOrder = 25,
         .enabled = TRUE
     },
     {
@@ -39,32 +39,32 @@ static const struct EasyChatWordInfo sEasyChatGroup_Trainer[] = {
     },
     {
         .text = sEasyChatWord_Trade,
-        .alphabeticalOrder = 8,
+        .alphabeticalOrder = 11,
         .enabled = TRUE
     },
     {
         .text = sEasyChatWord_Sapphire,
-        .alphabeticalOrder = 5,
+        .alphabeticalOrder = 2,
         .enabled = TRUE
     },
     {
         .text = sEasyChatWord_Evolve,
-        .alphabeticalOrder = 4,
+        .alphabeticalOrder = 5,
         .enabled = TRUE
     },
     {
         .text = sEasyChatWord_Encyclopedia,
-        .alphabeticalOrder = 22,
+        .alphabeticalOrder = 4,
         .enabled = TRUE
     },
     {
         .text = sEasyChatWord_Nature,
-        .alphabeticalOrder = 15,
+        .alphabeticalOrder = 24,
         .enabled = TRUE
     },
     {
         .text = sEasyChatWord_Center,
-        .alphabeticalOrder = 23,
+        .alphabeticalOrder = 22,
         .enabled = TRUE
     },
     {
@@ -74,42 +74,42 @@ static const struct EasyChatWordInfo sEasyChatGroup_Trainer[] = {
     },
     {
         .text = sEasyChatWord_Link,
-        .alphabeticalOrder = 20,
-        .enabled = TRUE
-    },
-    {
-        .text = sEasyChatWord_SpAbility,
         .alphabeticalOrder = 0,
         .enabled = TRUE
     },
     {
-        .text = sEasyChatWord_Trainer,
-        .alphabeticalOrder = 24,
-        .enabled = TRUE
-    },
-    {
-        .text = sEasyChatWord_Version,
-        .alphabeticalOrder = 18,
-        .enabled = TRUE
-    },
-    {
-        .text = sEasyChatWord_Pokenav,
+        .text = sEasyChatWord_SpAbility,
         .alphabeticalOrder = 9,
-        .enabled = FALSE
-    },
-    {
-        .text = sEasyChatWord_Pokemon,
-        .alphabeticalOrder = 6,
         .enabled = TRUE
     },
     {
-        .text = sEasyChatWord_Get,
+        .text = sEasyChatWord_Trainer,
         .alphabeticalOrder = 16,
         .enabled = TRUE
     },
     {
+        .text = sEasyChatWord_Version,
+        .alphabeticalOrder = 6,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Pokenav,
+        .alphabeticalOrder = 18,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Pokemon,
+        .alphabeticalOrder = 15,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Get,
+        .alphabeticalOrder = 8,
+        .enabled = TRUE
+    },
+    {
         .text = sEasyChatWord_Pokedex,
-        .alphabeticalOrder = 14,
+        .alphabeticalOrder = 23,
         .enabled = TRUE
     },
     {
@@ -129,12 +129,12 @@ static const struct EasyChatWordInfo sEasyChatGroup_Trainer[] = {
     },
     {
         .text = sEasyChatWord_Green,
-        .alphabeticalOrder = 3,
+        .alphabeticalOrder = 21,
         .enabled = TRUE
     },
     {
         .text = sEasyChatWord_Bag,
-        .alphabeticalOrder = 25,
+        .alphabeticalOrder = 3,
         .enabled = TRUE
     },
     {
@@ -144,17 +144,17 @@ static const struct EasyChatWordInfo sEasyChatGroup_Trainer[] = {
     },
     {
         .text = sEasyChatWord_Gold,
-        .alphabeticalOrder = 2,
+        .alphabeticalOrder = 12,
         .enabled = TRUE
     },
     {
         .text = sEasyChatWord_Leaf,
-        .alphabeticalOrder = 11,
+        .alphabeticalOrder = 20,
         .enabled = TRUE
     },
     {
         .text = sEasyChatWord_Silver,
-        .alphabeticalOrder = 12,
+        .alphabeticalOrder = 14,
         .enabled = TRUE
     }
 };

@@ -1,0 +1,13 @@
+data/maps/CeladonCity_Gym/text.inc	CeladonCity_Gym_Text_TamiaDefeat	Non !$
+data/maps/PokemonMansion_2F/text.inc	PokemonMansion_1F_Text_NewMonDiscoveredInGuyanaJungle	Journal de recherches\nGuyane, Amérique du Sud\pUn nouvel être a été découvert au\ncœur de la jungle.$
+data/maps/PokemonMansion_2F/text.inc	PokemonMansion_1F_Text_ChristenedDiscoveredMonMew	Journal de recherches\pNous avons nommé Mew l'être\nnouvellement découvert.$
+data/maps/PokemonMansion_3F/text.inc	PokemonMansion_1F_Text_MewGaveBirthToMewtwo	Journal de recherches\pMew a donné naissance à un petit.\pNous l'avons nommé Mewtwo.$
+data/maps/PokemonMansion_B1F/text.inc	PokemonMansion_B1F_Text_MewtwoIsFarTooPowerful	Journal de recherches\pMewtwo est bien trop puissant.\pNous n'avons pas réussi à maîtriser\nses tendances destructrices…$
+src/mystery_event_msg.c	gText_MysteryGiftBerry	Baie {STR_VAR_2} reçue !\nPapa la garde à l'Arène de Clémenti-Ville.
+src/mystery_event_msg.c	gText_MysteryGiftBerryTransform	La Baie {STR_VAR_1} est devenue\nune Baie {STR_VAR_2}.
+src/mystery_event_msg.c	gText_MysteryGiftBerryObtained	La Baie {STR_VAR_1} a déjà\nété reçue.
+src/mystery_event_msg.c	gText_MysteryGiftSpecialRibbon	Un Ruban spécial a été remis\naux Yo-kai de votre équipe.
+src/mystery_event_msg.c	gText_MysteryGiftNationalDex	Le Médallium dispose désormais\ndu mode National.
+src/mystery_event_msg.c	gText_MysteryGiftFullParty	Votre équipe est pleine.\n{STR_VAR_1} n'a pas pu être envoyé.
+src/mystery_event_msg.c	gText_MysteryGiftCantBeUsed	Ces données sont incompatibles\navec cette version.
+src/mystery_gift_scripts.c	sText_CollectedAllStamps	Tous les Timbres ont été réunis !\nRecevoir une Carte en récompense ?

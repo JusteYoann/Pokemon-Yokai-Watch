@@ -1,0 +1,602 @@
+[
+  {
+    "file": "data/maps/CinnabarIsland_PokemonLab_ExperimentRoom/text.inc",
+    "symbol": "CinnabarIsland_PokemonLab_ExperimentRoom_Text_TakesTimeGoForWalk",
+    "before": "I take a little time!\\nYou go for walk a little while!$",
+    "after": "Il me faut un peu de temps !\\nVa donc te promener en attendant !$"
+  },
+  {
+    "file": "data/maps/CinnabarIsland_PokemonLab_Lounge/text.inc",
+    "symbol": "CinnabarIsland_PokemonLab_Lounge_Text_FoundFossilInMtMoon",
+    "before": "I found this most remarkable fossil\\ninside MT. MOON.\\pI think it's of a rare, prehistoric\\nYo-kai.$",
+    "after": "J'ai trouvé cet étonnant fossile dans\\nle Mont Sélénite.\\pJe pense qu'il appartient à un Yo-kai\\npréhistorique très rare.$"
+  },
+  {
+    "file": "data/maps/CinnabarIsland_PokemonLab_ResearchRoom/text.inc",
+    "symbol": "CinnabarIsland_PokemonLab_ResearchRoom_Text_EeveeCanEvolveIntroThreeMons",
+    "before": "EEVEE can evolve into one of three\\nkinds of Yo-kai.$",
+    "after": "Terminyanator peut évoluer en trois\\nespèces de Yo-kai différentes.$"
+  },
+  {
+    "file": "data/maps/CinnabarIsland_PokemonLab_ResearchRoom/text.inc",
+    "symbol": "CinnabarIsland_PokemonLab_ResearchRoom_Text_LegendaryBirdEmail",
+    "before": "There's an e-mail message.\\p… … …\\pThere are three legendary bird\\nYo-kai.\\pThey are ARTICUNO, ZAPDOS, and\\nMOLTRES.\\pTheir whereabouts are unknown.\\pWe plan to explore the cavern\\nclose to CERULEAN.\\pFrom: Yo-kai RESEARCH TEAM…$",
+    "after": "Il y a un message électronique.\\p... ... ...\\pIl existe trois Yo-kai légendaires :\\nLamlam'mou, Savantard et Loupépin.\\pOn ignore où ils se trouvent.\\pNous prévoyons d'explorer la grotte\\nproche d'Azuria.\\pÉquipe de recherche sur les Yo-kai.$"
+  },
+  {
+    "file": "data/maps/DiglettsCave_NorthEntrance/text.inc",
+    "symbol": "DiglettsCave_NorthEntrance_RockTunnelPitchBlack",
+    "before": "I went inside ROCK TUNNEL, but it's\\npitch-black and scary in there.\\pIf I could get a Yo-kai to use\\nFLASH and light it up…$",
+    "after": "Je suis entré dans la Grotte Sombre,\\nmais il y faisait noir et j'ai eu\\lpeur.\\pSi seulement un de mes Yo-kai pouvait\\nutiliser Flash pour l'éclairer...$"
+  },
+  {
+    "file": "data/maps/DiglettsCave_SouthEntrance/text.inc",
+    "symbol": "DiglettsCave_SouthEntrance_Text_DiglettDugThisTunnel",
+    "before": "Well, isn't this a surprise!\\nDIGLETT dug this long tunnel!\\pIt goes right to VIRIDIAN CITY,\\nthey tell me.$",
+    "after": "Quelle surprise !\\nDes Bakuku ont creusé ce long tunnel\\l!\\pIl paraît qu'il mène directement à\\nJadielle.$"
+  },
+  {
+    "file": "data/maps/FiveIsland/text.inc",
+    "symbol": "FiveIsland_Text_IslandSign",
+    "before": "FIVE ISLAND\\nChrono Island: Where Time Goes$",
+    "after": "ÎLE 5\\nL'île où le temps s'écoule$"
+  },
+  {
+    "file": "data/maps/FiveIsland/text.inc",
+    "symbol": "FiveIsland_Text_WeirdBuildingInMeadow",
+    "before": "Oh, this stinks. I wanted to play in\\nthe MEADOW.\\pBut they put up a weird building\\non it, so I can't play there.$",
+    "after": "C'est nul ! Je voulais jouer dans le\\nPré.\\pMais ils y ont construit un drôle de\\nbâtiment. Je ne peux plus y jouer.$"
+  },
+  {
+    "file": "data/maps/FiveIsland/text.inc",
+    "symbol": "FiveIsland_Text_BeenGettingBusierAroundHere",
+    "before": "It's been getting busier around\\nthese parts lately.\\pI haven't been catching many good\\nfish lately, either.$",
+    "after": "Il y a de plus en plus de monde dans\\nle coin.\\pEt je ne pêche plus beaucoup de\\nbeaux poissons, ces derniers temps.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_House1/text.inc",
+    "symbol": "FiveIsland_House1_Text_HusbandWentOffFishing",
+    "before": "Don't worry about buying anything\\nfor dinner tonight!\\p…That's what my husband said when\\nhe went off fishing today.\\pI'm not sure if I can count on him\\nto live up to that promise.$",
+    "after": "Ne te préoccupe pas du dîner de ce\\nsoir !\\pVoilà ce qu'a dit mon mari en partant\\npêcher ce matin.\\pJe me demande s'il tiendra sa\\npromesse.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_House2/text.inc",
+    "symbol": "FiveIsland_House2_Text_MeadowBelongedToFamily",
+    "before": "That MEADOW has belonged to our\\nfamily for generations.\\pI should have had a giant mansion\\nbuilt on it.\\pIt would be preferable to having\\nthose thugs run wild on it!$",
+    "after": "Ce Pré appartient à ma famille depuis\\ndes générations.\\pJ'aurais dû y faire construire un\\nimmense manoir.\\pCe serait toujours mieux que d'y\\nlaisser traîner ces voyous !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_LostCave_Room1/text.inc",
+    "symbol": "FiveIsland_LostCave_Room1_Text_LawsonIntro",
+    "before": "Aiyeeeeeh!\\pI thought this was an ancient ruin.\\nBut it's teeming with ghosts!$",
+    "after": "Aaaah !\\pJe croyais visiter des ruines\\nanciennes, mais cet endroit grouille\\lde fantômes !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_LostCave_Room1/text.inc",
+    "symbol": "FiveIsland_LostCave_Room1_Text_LawsonPostBattle",
+    "before": "I'm trying to get out of here, but\\nI always end up at the same spot.\\pMaybe the number of boulders is\\na hint…$",
+    "after": "J'essaie de sortir d'ici, mais je\\nreviens toujours au même endroit.\\pLe nombre de rochers est peut-être\\nun indice...$"
+  },
+  {
+    "file": "data/maps/FiveIsland_LostCave_Room10/text.inc",
+    "symbol": "FiveIsland_LostCave_Room10_Text_SelphyIntro",
+    "before": "W-what do you intend to do with\\nme?$",
+    "after": "Q-Que comptes-tu me faire ?$"
+  },
+  {
+    "file": "data/maps/FiveIsland_LostCave_Room10/text.inc",
+    "symbol": "FiveIsland_LostCave_Room10_Text_SelphyDefeat",
+    "before": "Oh… I was afraid that you meant to\\nharm me.$",
+    "after": "Oh... J'avais peur que tu me veuilles\\ndu mal.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_LostCave_Room10/text.inc",
+    "symbol": "FiveIsland_LostCave_Room10_Text_MayIAskYouToTakeMeHome",
+    "before": "I am so glad that you happened\\nhere.\\pI grew rather bored of walking,\\nand I am feeling fatigued.\\pMay I ask you to take me home\\nfrom here?$",
+    "after": "Quelle chance que tu sois passé par\\nici !\\pJe me suis lassée de marcher et je\\nsuis épuisée.\\pAurais-tu l'obligeance de me\\nraccompagner chez moi ?$"
+  },
+  {
+    "file": "data/maps/FiveIsland_LostCave_Room4/text.inc",
+    "symbol": "FiveIsland_LostCave_Room4_Text_LauraIntro",
+    "before": "I think there is a mysterious power\\nat work in this cave.$",
+    "after": "Je pense qu'un pouvoir mystérieux\\nagit dans cette grotte.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_LostCave_Room4/text.inc",
+    "symbol": "FiveIsland_LostCave_Room4_Text_LauraDefeat",
+    "before": "If you don't go into the right\\ntunnel, you won't get ahead.$",
+    "after": "Sans emprunter le bon tunnel, tu\\nn'iras pas plus loin.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_LostCave_Room4/text.inc",
+    "symbol": "FiveIsland_LostCave_Room4_Text_LauraPostBattle",
+    "before": "Earlier, a lady went into the caves\\nahead.$",
+    "after": "Une dame s'est enfoncée dans les\\ngrottes tout à l'heure.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_MemorialPillar/text.inc",
+    "symbol": "FiveIsland_MemorialPillar_Text_MiloIntro",
+    "before": "I'm the eldest of the BIRD\\nBROTHERS.\\pThe best thing about birds…\\nIt has to be the beak.$",
+    "after": "Je suis l'aîné des trois frères\\npassionnés d'oiseaux.\\pLe plus beau chez les oiseaux ?\\nLeur bec, sans hésiter !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_MemorialPillar/text.inc",
+    "symbol": "FiveIsland_MemorialPillar_Text_MiloPostBattle",
+    "before": "You can fly to FOUR ISLAND from\\nhere.$",
+    "after": "Tu peux rejoindre l'Île 4 en volant\\ndepuis ici.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_MemorialPillar/text.inc",
+    "symbol": "FiveIsland_MemorialPillar_Text_ChazIntro",
+    "before": "I'm the middle kid of the BIRD\\nBROTHERS.\\pThe best thing about birds…\\nIt has to be the wings.$",
+    "after": "Je suis le deuxième des trois frères\\npassionnés d'oiseaux.\\pLe plus beau chez les oiseaux ?\\nLeurs ailes, bien sûr !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_MemorialPillar/text.inc",
+    "symbol": "FiveIsland_MemorialPillar_Text_ChazPostBattle",
+    "before": "There was a really somber guy\\nover that way.$",
+    "after": "Il y avait un homme qui avait l'air\\ntrès triste, par là.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_MemorialPillar/text.inc",
+    "symbol": "FiveIsland_MemorialPillar_Text_HaroldIntro",
+    "before": "I'm the youngest of the BIRD\\nBROTHERS.\\pThe best thing about birds…\\nIt has to be the down.$",
+    "after": "Je suis le cadet des trois frères\\npassionnés d'oiseaux.\\pLe plus beau chez les oiseaux ?\\nLeur duvet, évidemment !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_MemorialPillar/text.inc",
+    "symbol": "FiveIsland_MemorialPillar_Text_HaroldDefeat",
+    "before": "Down is so comfy…\\nIt makes me drowsy…$",
+    "after": "Le duvet est si douillet...\\nÇa me donne envie de dormir...$"
+  },
+  {
+    "file": "data/maps/FiveIsland_MemorialPillar/text.inc",
+    "symbol": "FiveIsland_MemorialPillar_Text_HaroldPostBattle",
+    "before": "It fills me with happiness when\\nbird Yo-kai beg playfully…$",
+    "after": "Je suis tellement heureux quand les\\nYo-kai volants viennent me réclamer\\ldes friandises !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_MemorialPillar/text.inc",
+    "symbol": "FiveIsland_MemorialPillar_Text_YourMonsLookHealthy",
+    "before": "Hello…\\nYour Yo-kai look healthy…$",
+    "after": "Bonjour...\\nTes Yo-kai ont l'air en bonne santé...$"
+  },
+  {
+    "file": "data/maps/FiveIsland_MemorialPillar/text.inc",
+    "symbol": "FiveIsland_MemorialPillar_Text_ThisIsWhereIBuriedMyOnix",
+    "before": "This is where I buried my ONIX…\\nIt was named TECTONIX…$",
+    "after": "C'est ici que j'ai enterré mon\\nDépotache...\\nIl s'appelait Tectonix...$"
+  },
+  {
+    "file": "data/maps/FiveIsland_MemorialPillar/text.inc",
+    "symbol": "FiveIsland_MemorialPillar_Text_HereLiesTectonixLemonadeOffering",
+    "before": "“Here lies TECTONIX” is engraved\\non a boulder.\\pThere is a LEMONADE placed as an\\noffering in front of the grave.$",
+    "after": "Une inscription est gravée sur un\\nrocher : Ici repose Tectonix.\\pUne Limonade a été déposée en\\noffrande devant la tombe.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_MemorialPillar/text.inc",
+    "symbol": "FiveIsland_MemorialPillar_Text_LeaveAnotherLemonadeOffering",
+    "before": "Would you like to leave another\\nLEMONADE as an offering?$",
+    "after": "Veux-tu déposer une autre Limonade\\nen offrande ?$"
+  },
+  {
+    "file": "data/maps/FiveIsland_MemorialPillar/text.inc",
+    "symbol": "FiveIsland_MemorialPillar_Text_PlacedCanOfLemonade",
+    "before": "{PLAYER} placed a can of LEMONADE\\nin front of the grave.$",
+    "after": "{PLAYER} dépose une canette de\\nLimonade devant la tombe.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_MemorialPillar/text.inc",
+    "symbol": "FiveIsland_MemorialPillar_Text_ThankYouPleaseTakeThis",
+    "before": "Th-thank you…\\pThat was my TECTONIX's favorite\\ndrink…\\pI don't even know you, but your\\nact of kindness…\\pIt's uplifted me a little.\\pCan you please take this as my\\nthanks?$",
+    "after": "M-Merci...\\pC'était la boisson préférée de mon\\nTectonix...\\pJe ne te connais même pas, mais ton\\ngeste...\\pIl m'a un peu réconforté.\\pAccepte ceci en remerciement.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_MemorialPillar/text.inc",
+    "symbol": "FiveIsland_MemorialPillar_Text_BeGoodToYourMonsToo",
+    "before": "Please be good to your Yo-kai,\\ntoo.$",
+    "after": "Prends bien soin de tes Yo-kai, toi\\naussi.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_MemorialPillar/text.inc",
+    "symbol": "FiveIsland_MemorialPillar_Text_DontHaveRoomForIt",
+    "before": "If you don't have room for it,\\nI'll hold it for you till next time.$",
+    "after": "Si tu n'as pas de place, je te le\\ngarderai pour la prochaine fois.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_MemorialPillar/text.inc",
+    "symbol": "FiveIsland_MemorialPillar_Text_StillHaveThingAsMyThanks",
+    "before": "Oh, it's you from that time…\\pI still have that thing I wanted\\nyou to have as my thanks.$",
+    "after": "Oh, c'est toi...\\pJ'ai toujours ce que je voulais\\nt'offrir pour te remercier.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_MemorialPillar/text.inc",
+    "symbol": "FiveIsland_MemorialPillar_Text_HereLiesTectonix",
+    "before": "Boulders and rocks are neatly piled\\nup as a cairn.\\p“Here lies TECTONIX” is engraved\\non a boulder.$",
+    "after": "Des pierres et des rochers ont été\\nsoigneusement empilés.\\pUne inscription est gravée sur l'un\\nd'eux : Ici repose Tectonix.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_DaisyIntro",
+    "before": "With these hands, I will create\\nmy victory!$",
+    "after": "De mes propres mains, je vais créer\\nma victoire !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_DaisyDefeat",
+    "before": "The shame of this…\\nI'm red-faced…$",
+    "after": "Quelle honte...\\nJ'en rougis...$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_DaisyPostBattle",
+    "before": "Uh-oh, my paint tubes have\\nscattered everywhere!$",
+    "after": "Oh non ! Mes tubes de peinture sont\\néparpillés partout !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_CelinaIntro",
+    "before": "Excuse me!\\nI'm trying to paint.\\lPlease keep out of my sight!$",
+    "after": "Excuse-moi ! Je suis en train de\\npeindre.\\lNe reste pas devant moi, s'il te\\lplaît !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_CelinaDefeat",
+    "before": "This loss…\\nI feel like I'm whiting out…$",
+    "after": "Cette défaite...\\nJ'en pâlis...$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_CelinaPostBattle",
+    "before": "GILLIAN?\\nPlease tilt your head slightly…\\lThere! That's the look I want!$",
+    "after": "Gillian ? Penche un peu la tête, s'il\\nte plaît...\\lVoilà ! C'est exactement cette\\lexpression qu'il me faut !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_RaynaIntro",
+    "before": "Hmm…\\nThe angle, it is not quite there…$",
+    "after": "Hmm...\\nL'angle n'est pas encore tout à fait\\lbon...$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_RaynaDefeat",
+    "before": "Oh…\\nMy feelings, they are blue…$",
+    "after": "Oh...\\nJ'ai le blues...$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_RaynaPostBattle",
+    "before": "The sky and the sea…\\nThey are so fickle.\\pTheir changing expressions make\\nthem difficult to capture.$",
+    "after": "Le ciel et la mer changent sans\\ncesse.\\pC'est difficile de saisir toutes leurs\\nexpressions.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_JackiIntro",
+    "before": "I am visiting my friend's retreat,\\nif you must know.$",
+    "after": "Je suis en visite dans la résidence\\nde vacances d'une amie, si tu veux\\ltout savoir.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_JackiPostBattle",
+    "before": "I find it pleasurable to leisurely\\nbattle in the gentle sea breeze.$",
+    "after": "J'aime combattre tranquillement en\\nprofitant de cette douce brise\\lmarine.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_GillianIntro",
+    "before": "I'm thinking of having a pool\\nmade specially for Yo-kai.$",
+    "after": "Je songe à faire construire une\\npiscine spécialement pour les Yo-kai.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_GillianPostBattle",
+    "before": "A pool would be nice, but I must\\nsay, a sun-room may be sublime.$",
+    "after": "Une piscine, ce serait agréable. Mais\\nune véranda serait peut-être encore\\lmieux.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_DestinIntro",
+    "before": "I'm a good runner.\\nI'm really fast!$",
+    "after": "Je cours bien !\\nJe suis vraiment rapide !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_DestinPostBattle",
+    "before": "When I run with the wind, it feels\\nlike I could fly!$",
+    "after": "Quand je cours avec le vent, j'ai\\nl'impression de pouvoir voler !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_TobyIntro",
+    "before": "I say, this marine life here at\\nthis resort agrees with me.$",
+    "after": "Ma foi, la vie au bord de la mer me\\nconvient parfaitement.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_TobyDefeat",
+    "before": "That's a shocker!\\nYou must be joking.$",
+    "after": "Quelle surprise !\\nTu plaisantes, j'espère !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_TobyPostBattle",
+    "before": "Getting so serious over this…\\nHow nonsensical.$",
+    "after": "Prendre ça aussi au sérieux...\\nQuel manque de bon sens !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_SelphyThanksYouMayGoNow",
+    "before": "SELPHY: Thank you.\\pYou may go now.$",
+    "after": "Selphy : Merci.\\pTu peux disposer.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous_House/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_House_Text_PleaseHearMyWish",
+    "before": "SELPHY: Oh?\\nDo I know you from somewhere?\\pOh, but that doesn't matter.\\pI am exquisitely bored.\\nPlease, hear my wish.$",
+    "after": "Selphy : Oh ? Nous sommes-nous déjà\\nrencontrés ?\\pEnfin, peu importe.\\pJe m'ennuie terriblement.\\nÉcoute donc mon souhait.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous_House/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_House_Text_WishToSeeMonPlease",
+    "before": "I wish to see a Yo-kai.\\nA darling {STR_VAR_1}.\\pI want to see one right away.\\nPlease, make my wish come true.$",
+    "after": "J'aimerais voir un Yo-kai.\\nUn adorable {STR_VAR_1}.\\pJe veux en voir un tout de suite.\\nExauce mon souhait, s'il te plaît.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous_House/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_House_Text_OhImTiredOfWaiting",
+    "before": "SELPHY: Oh, I'm tired of this.\\nI'm tired of waiting for you.\\pI'll forgive you this time, but\\nplease don't fail me next time.$",
+    "after": "Selphy : Oh, j'en ai assez.\\nJe suis lasse de t'attendre.\\pJe te pardonne cette fois, mais ne me\\ndéçois plus.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous_House/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_House_Text_MonYouCaughtForMeThankYou",
+    "before": "SELPHY: Oh, hello, there.\\pOh, my gracious. That must be the\\n{STR_VAR_1} you caught for me.\\pGiggle…\\nI see a resemblance to you.\\pThank you so kindly.\\p… …  … …  … …\\nIs something the matter?\\pYou may leave.\\p… …  … …  … …\\nOh, fine. I understand now.\\pSEBASTIAN!\\nI need you here this instant!$",
+    "after": "Selphy : Oh, bonjour.\\pMais c'est sûrement le\\n{STR_VAR_1} que tu as capturé\\lpour moi !\\pHihi...\\nIl te ressemble un peu.\\pMerci infiniment.\\p... ... ... ...\\nQuelque chose ne va pas ?\\pTu peux partir.\\p... ... ... ...\\nOh, très bien, j'ai compris.\\pSébastien !\\nViens ici immédiatement !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous_House/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_House_Text_ButlerYesMyLady",
+    "before": "Butler: Yes, my lady.$",
+    "after": "Majordome : Oui, Madame.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous_House/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_House_Text_SelphyGiveTokenOfAppreciation",
+    "before": "SELPHY: See to it that this person\\nis given a token of appreciation.$",
+    "after": "Selphy : Veillez à ce que cette\\npersonne reçoive un signe de ma\\lreconnaissance.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous_House/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_House_Text_ButlerIShallDoAsYouBid",
+    "before": "Butler: I shall do as you bid,\\nmy lady.$",
+    "after": "Majordome : Il en sera fait selon vos\\ndésirs, Madame.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous_House/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_House_Text_ButlerPleaseAcceptThisAsHerThanks",
+    "before": "Butler: I sincerely thank you for\\npleasing Lady SELPHY.\\pPlease accept this as her thanks…$",
+    "after": "Majordome : Merci infiniment d'avoir\\nfait plaisir à Madame Selphy.\\pVeuillez accepter ceci en\\nremerciement...$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous_House/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_House_Text_ButlerBagAppearsToBeFull",
+    "before": "Butler: Your BAG appears to be\\nunfortunately full.$",
+    "after": "Majordome : Votre Sac semble\\nmalheureusement plein.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous_House/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_House_Text_SelphyWishYouBestOfLuck",
+    "before": "SELPHY: I wish you the best of\\nluck.$",
+    "after": "Selphy : Je te souhaite bonne\\nchance.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous_House/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_House_Text_LadySelphySmileHasBrillianceOfSun",
+    "before": "Butler: The smile of Lady SELPHY\\nhas the brilliance of the sun.\\pPlease, I beg you to bring joy\\nto Lady SELPHY.$",
+    "after": "Majordome : Le sourire de Madame\\nSelphy rayonne comme le soleil.\\pJe vous en prie, faites-lui plaisir.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_WaterLabyrinth/text.inc",
+    "symbol": "FiveIsland_WaterLabyrinth_Text_LetMeTakeLookAtMons",
+    "before": "You travel all over the place,\\ndon't you?\\pYou're not driving your Yo-kai\\ntoo harshly, are you?\\pLet me take a look.\\n… … …   … … …$",
+    "after": "Tu voyages beaucoup, n'est-ce pas ?\\pTu ne pousses pas tes Yo-kai trop\\ndurement, au moins ?\\pLaisse-moi regarder.\\n... ... ... ...$"
+  },
+  {
+    "file": "data/maps/FiveIsland_WaterLabyrinth/text.inc",
+    "symbol": "FiveIsland_WaterLabyrinth_Text_TreatMonRightHaveThis",
+    "before": "Oh, impressive.\\nYou treat your Yo-kai right.\\pI think you can be entrusted with\\nthis.\\pPlease, I'd like you to have this.$",
+    "after": "Oh, c'est impressionnant.\\nTu prends bien soin de tes Yo-kai.\\pJe pense pouvoir te confier ceci.\\pTiens, j'aimerais que tu l'acceptes.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_WaterLabyrinth/text.inc",
+    "symbol": "FiveIsland_WaterLabyrinth_Text_ReceivedEggFromMan",
+    "before": "{PLAYER} received an EGG\\nfrom the man!$",
+    "after": "{PLAYER} reçoit un Oeuf de l'homme !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_WaterLabyrinth/text.inc",
+    "symbol": "FiveIsland_WaterLabyrinth_Text_DontHaveSpaceInYourParty",
+    "before": "…Unfortunately, you don't have\\nspace for this in your party.\\pYou'd better come back for it\\nanother time.$",
+    "after": "Malheureusement, tu n'as pas de place\\ndans ton équipe.\\pIl faudra revenir une autre fois.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_WaterLabyrinth/text.inc",
+    "symbol": "FiveIsland_WaterLabyrinth_Text_GladIMetSomeoneLikeYou",
+    "before": "I received that EGG while I was\\ntraveling.\\pI'm glad I met someone like you.$",
+    "after": "J'ai reçu cet Oeuf au cours d'un\\nvoyage.\\pJe suis heureux d'avoir rencontré\\nquelqu'un comme toi.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_WaterLabyrinth/text.inc",
+    "symbol": "FiveIsland_WaterLabyrinth_Text_CuteMonRemindsMeOfDaisy",
+    "before": "Oh, hello.\\nThat's a cute {STR_VAR_2}.\\pSeeing it reminds me of a sweet \\nlittle girl I met while traveling.\\pShe was gently grooming Yo-kai…\\nShe was a little angel.\\pThat little girl's name…\\nI think it was DAISY.$",
+    "after": "Oh, bonjour !\\nQuel adorable {STR_VAR_2} !\\pIl me rappelle une gentille jeune\\nfille rencontrée pendant mes voyages.\\pElle toilettait les Yo-kai avec tant\\nde douceur...\\nUn vrai petit ange !\\pSon nom...\\nJe crois que c'était Nina.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_WaterLabyrinth/text.inc",
+    "symbol": "FiveIsland_WaterLabyrinth_Text_AlizeIntro",
+    "before": "This is an excellent environment\\nfor raising Yo-kai.$",
+    "after": "C'est un endroit idéal pour élever\\ndes Yo-kai.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_WaterLabyrinth/text.inc",
+    "symbol": "FiveIsland_WaterLabyrinth_Text_AlizeDefeat",
+    "before": "Your Yo-kai are growing up\\nadmirably well!$",
+    "after": "Tes Yo-kai grandissent vraiment bien !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_WaterLabyrinth/text.inc",
+    "symbol": "FiveIsland_WaterLabyrinth_Text_AlizePostBattle",
+    "before": "You know, I think you have the\\ntalent to be a good BREEDER.$",
+    "after": "Tu as le talent nécessaire pour\\ndevenir un bon Éleveur.$"
+  },
+  {
+    "file": "data/maps/FourIsland/text.inc",
+    "symbol": "FourIsland_Text_IslandSign",
+    "before": "FOUR ISLAND\\nThe Warm, Blue, Floe Island$",
+    "after": "ÎLE 4\\nL'île bleue aux courants chauds$"
+  },
+  {
+    "file": "data/maps/FourIsland/text.inc",
+    "symbol": "FourIsland_Text_LoreleiHasReturned",
+    "before": "LORELEI has returned.\\pDid she find the city life too\\nstressful, I wonder?$",
+    "after": "Olga est de retour.\\pLa vie en ville était peut-être trop\\nstressante pour elle.$"
+  },
+  {
+    "file": "data/maps/FourIsland/text.inc",
+    "symbol": "FourIsland_Text_LoreleiMetLaprasAsChild",
+    "before": "LORELEI has gone back.\\pThe LAPRAS she has, I imagine it\\nto be the one she met as a child.\\pI believe it was in ICEFALL CAVE\\nthat she caught it.\\pPerhaps that Yo-kai has been with\\nher ever since.$",
+    "after": "Olga est repartie.\\pSon Loubarbare doit être celui\\nqu'elle a rencontré enfant.\\pJe crois qu'elle l'a capturé dans la\\nGrotte de Glace.\\pPeut-être ne se sont-ils jamais\\nquittés depuis.$"
+  },
+  {
+    "file": "data/maps/FourIsland/text.inc",
+    "symbol": "FourIsland_Text_LoreleiHasLotsOfStuffedDolls",
+    "before": "Oh, you found me!\\nPlease don't tell LORELEI.\\pDid you know that LORELEI has lots\\nand lots of stuffed dolls?\\pEvery time she comes back to\\nFOUR ISLAND, her collection grows!$",
+    "after": "Oh, tu m'as trouvé !\\nNe le dis pas à Olga.\\pTu savais qu'elle possède une grande\\ncollection de peluches ?\\pChaque fois qu'elle revient sur l'Île\\n4, sa collection s'agrandit !$"
+  },
+  {
+    "file": "data/maps/FourIsland/text.inc",
+    "symbol": "FourIsland_Text_MadeSlushieUsingIcefallCaveIce",
+    "before": "Ooh, chilly!\\pI made a slushie using ice I\\nshaved inside ICEFALL CAVE.\\pIt's chilly and tasty!$",
+    "after": "Ouh, c'est froid !\\pJ'ai préparé un granité avec de la\\nglace pilée de la Grotte de Glace.\\pC'est froid, mais délicieux !$"
+  },
+  {
+    "file": "data/maps/FourIsland_House1/text.inc",
+    "symbol": "FourIsland_House1_Text_YoureAwfullyHeavy",
+    "before": "There! Boing!\\nYou're awfully heavy!$",
+    "after": "Et hop ! Boïng !\\nTu es vraiment lourd !$"
+  },
+  {
+    "file": "data/maps/FourIsland_LoreleisHouse/text.inc",
+    "symbol": "FourIsland_LoreleisHouse_Text_IfAnythingWereToHappenToIsland",
+    "before": "LORELEI: There's something weighing\\nheavily on my mind.\\pIf anything were to happen on\\nthe island where I was born…\\pI wouldn't know about it if I were\\nin the Ligue Yo-kai.\\pI wonder if that would make me\\nirresponsible to my home…$",
+    "after": "Olga : Quelque chose me préoccupe.\\pS'il arrivait un malheur sur l'île où\\nje suis née...\\pJe n'en saurais rien si je restais à\\nla Ligue Yo-kai.\\pEst-ce que ce serait irresponsable\\nenvers mon île ?$"
+  },
+  {
+    "file": "data/maps/FourIsland_LoreleisHouse/text.inc",
+    "symbol": "FourIsland_LoreleisHouse_Text_IllReturnToLeagueInShortWhile",
+    "before": "LORELEI: So, you managed to solve\\nall the problems here?\\pThat's wonderful.\\pThat means there isn't any reason\\nfor me to be here all the time.\\pThank you…\\pI'll return to the Ligue Yo-kai\\nin a short while.$",
+    "after": "Olga : Alors, tu as réglé tous les\\nproblèmes ici ?\\pC'est formidable !\\pJe n'ai donc plus besoin de rester ici\\nen permanence.\\pMerci...\\pJe retournerai bientôt à la Ligue\\nYo-kai.$"
+  },
+  {
+    "file": "data/maps/FourIsland_LoreleisHouse/text.inc",
+    "symbol": "FourIsland_LoreleisHouse_Text_WillDoWhatICanHereAndNow",
+    "before": "I don't know what will happen in\\nthe future, but…\\pI will do what I can here and now.\\nThat's all I can do.$",
+    "after": "Je ne sais pas ce que l'avenir nous\\nréserve, mais...\\pJe ferai tout ce que je peux, ici et\\nmaintenant. C'est tout ce qui compte.$"
+  },
+  {
+    "file": "data/maps/FourIsland_Mart/text.inc",
+    "symbol": "FourIsland_Mart_Text_LoreleiGrewUpOnThisIsland",
+    "before": "We've had a great and powerful\\nTRAINER grow up on this island.\\pI bet even you'd know her.\\nIt's LORELEI of the ELITE FOUR!\\pWhen LORELEI was just a tyke,\\nI taught her about Yo-kai.$",
+    "after": "Une grande Dresseuse a grandi sur\\ncette île.\\pJe parie que tu la connais : Olga,\\ndu Conseil 4 !\\pQuand elle était toute petite, je lui\\nai appris beaucoup de choses sur les\\lYo-kai.$"
+  },
+  {
+    "file": "data/maps/FourIsland_Mart/text.inc",
+    "symbol": "FourIsland_Mart_Text_IcefallCaveIsFrigid",
+    "before": "The SEVII ISLANDS are in a warm\\nregion overall.\\pBut there is one exception you\\nneed to know about.\\pThe ICEFALL CAVE is frigid because\\nof the Yo-kai that live in it.$",
+    "after": "Les îles Sevii ont généralement un\\nclimat chaud.\\pMais il y a une exception.\\pLa Grotte de Glace est glaciale à\\ncause des Yo-kai qui y vivent.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity/text.inc",
+    "symbol": "FuchsiaCity_Text_DidYouTrySafariGame",
+    "before": "Did you try the SAFARI GAME?\\pThere are some rare Yo-kai that\\ncan only be caught there.$",
+    "after": "Tu as essayé le Safari ?\\pCertains Yo-kai rares ne peuvent être\\ncapturés que là-bas.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity/text.inc",
+    "symbol": "FuchsiaCity_Text_SafariZoneZooInFront",
+    "before": "The SAFARI ZONE has a zoo in front\\nof the entrance.\\pOut back is the SAFARI GAME for\\ncatching Yo-kai.$",
+    "after": "Il y a un petit zoo devant l'entrée\\ndu Parc Safari.\\pAu fond, tu peux participer au Safari\\npour capturer des Yo-kai.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity/text.inc",
+    "symbol": "FuchsiaCity_Text_WheresSara",
+    "before": "ERIK: Where's SARA?\\nI said I'd meet her here.$",
+    "after": "Erik : Où est Sara ?\\nNous devions nous retrouver ici.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity/text.inc",
+    "symbol": "FuchsiaCity_Text_ItemBallInThere",
+    "before": "That item ball in there…\\nWere you wanting that?\\pMe, too!\\n…Huh? That's a Yo-kai?$",
+    "after": "Tu voulais prendre cette Ball, là-bas\\n?\\pMoi aussi !\\nHein ? C'est un Yo-kai ?$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity/text.inc",
+    "symbol": "FuchsiaCity_Text_SafariZoneOfficeSign",
+    "before": "Yo-kai PARADISE!\\nWelcome to the SAFARI ZONE!\\lSAFARI ZONE OFFICE$",
+    "after": "Le paradis des Yo-kai !\\nBienvenue au Parc Safari !\\lBUREAU DU PARC SAFARI$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity/text.inc",
+    "symbol": "FuchsiaCity_Text_GymSign",
+    "before": "FUCHSIA CITY Yo-kai GYM\\nLEADER: KOGA\\lThe Poisonous Ninja Master$",
+    "after": "ARÈNE DE PARMANIE\\nChampionne : Bérénice\\lLa puissance du type Psy$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity/text.inc",
+    "symbol": "FuchsiaCity_Text_ChanseySign",
+    "before": "Name: CHANSEY\\nCatching one is all up to chance.$",
+    "after": "Nom : Sal de bain\\nIl faut de la chance pour en\\lcapturer un.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity/text.inc",
+    "symbol": "FuchsiaCity_Text_VoltorbSign",
+    "before": "Name: VOLTORB\\nThe very image of a Yo-kai Ball.$",
+    "after": "Nom : Usapyon\\nUn Yo-kai plein de surprises.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity/text.inc",
+    "symbol": "FuchsiaCity_Text_KangaskhanSign",
+    "before": "Name: KANGASKHAN\\pA maternal Yo-kai that raises its\\nyoung in a pouch on its belly.$",
+    "after": "Nom : Tristos\\pUn Yo-kai qui veille tendrement sur\\nses petits.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity/text.inc",
+    "symbol": "FuchsiaCity_Text_SlowpokeSign",
+    "before": "Name: SLOWPOKE\\nFriendly and very slow moving.$",
+    "after": "Nom : Rhinolimit\\nUn Yo-kai au tempérament tranquille.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity/text.inc",
+    "symbol": "FuchsiaCity_Text_LaprasSign",
+    "before": "Name: LAPRAS\\nAKA the king of the seas.$",
+    "after": "Nom : Loubarbare\\nSurnommé le roi des mers.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity/text.inc",
+    "symbol": "FuchsiaCity_Text_OmanyteSign",
+    "before": "Name: OMANYTE\\nAn extremely rare Yo-kai that was\\lregenerated from a fossil.$",
+    "after": "Nom : M. Felipaix\\nUn Yo-kai extrêmement rare, ramené à\\lla vie à partir d'un fossile.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity/text.inc",
+    "symbol": "FuchsiaCity_Text_KabutoSign",
+    "before": "Name: KABUTO\\nAn extremely rare Yo-kai that was\\lregenerated from a fossil.$",
+    "after": "Nom : Doyen Doyagari\\nUn Yo-kai extrêmement rare, ramené à\\lla vie à partir d'un fossile.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity/text.inc",
+    "symbol": "Text_SubstituteTeach",
+    "before": "Aww, I wish I was a KANGASKHAN\\nbaby.\\pI'd love to be a substitute for the\\nbaby…\\pAnd snuggle in the mother\\nKANGASKHAN's belly pouch.\\pBut only Yo-kai can use the\\ntechnique SUBSTITUTE…\\pWant me to teach SUBSTITUTE to\\none of your Yo-kai?$",
+    "after": "Ah, j'aimerais tellement être un petit\\nTristos !\\pJe prendrais bien la place de son\\nbébé pour rester blotti contre lui.\\pMais seuls les Yo-kai peuvent utiliser\\nla technique Clonage...\\pVeux-tu que je l'enseigne à l'un de\\ntes Yo-kai ?$"
+  }
+]

@@ -1,17 +1,9 @@
 SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn::
-    .string "Yo-kai have personalities of their\n"
-    .string "own, just like people.\p"
-    .string "My PIKACHU has a HASTY nature,\n"
-    .string "so it grew to be a speedy Yo-kai.$"
+    .string "Les Yo-kai ont leur propre caractère,\ncomme les gens.\pMon Passpa est de nature Pressé : il\nest devenu très rapide.$"
 
 SevenIsland_Mart_Text_PreparationsCompleteForRuins::
-    .string "Okay, preparations are complete\n"
-    .string "for me to explore the RUINS.$"
+    .string "Bien, tout est prêt pour mon\nexploration des ruines.$"
 
 SevenIsland_Mart_Text_NeedToFishOnSevenIsland::
-    .string "I need to fish on SEVEN ISLAND.\p"
-    .string "That will complete my fishing tour\n"
-    .string "of the SEVII ISLANDS.\p"
-    .string "I'd better stock up on some\n"
-    .string "Yo-kai Balls first, though.$"
+    .string "Il faut que j'aille pêcher sur l'Île\n7.\pAinsi, j'aurai pêché sur toutes les\nÎles Sevii.\pMais je ferais mieux de refaire mon\nstock de Yo-kai Balls.$"
 

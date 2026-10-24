@@ -84,10 +84,10 @@ CeruleanCity_Text_WantBrightRedBicycle::
     .string "Je voudrais un vélo rouge vif.\pJe le garderais à la maison\npour ne pas le salir.$"
 
 CeruleanCity_Text_ThisIsCeruleanCave::
-    .string "Voici CERULEAN CAVE.\pDes Yo-kai extrêmement puissants\nvivent à l'intérieur.\pSeuls des Dresseurs exceptionnels\npeuvent y entrer.\pIl faut d'abord remporter\nla Ligue des Yo-kai.\pEt accomplir ensuite\nun exploit remarquable.$"
+    .string "Voici CAVERNE AZURÉE.\pDes Yo-kai extrêmement puissants\nvivent à l'intérieur.\pSeuls des Dresseurs exceptionnels\npeuvent y entrer.\pIl faut d'abord remporter\nla Ligue des Yo-kai.\pEt accomplir ensuite\nun exploit remarquable.$"
 
 CeruleanCity_Text_CitySign::
-    .string "CERULEAN CITY\nUne mystérieuse aura bleutée$"
+    .string "AZURIA\nUne mystérieuse aura bleutée$"
 
 CeruleanCity_Text_TrainerTipsHeldItems::
     .string "CONSEILS AUX DRESSEURS\pUn Yo-kai peut tenir un objet.\pCertains objets sont utilisés\npar leur porteur pendant le combat.$"

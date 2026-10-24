@@ -1,36 +1,22 @@
 @ Male and female text identical, differ (presumably) in JP
 Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreMale::
-    .string "My Yo-kai's ashes are stored in\n"
-    .string "Yo-kai TOWER.\p"
-    .string "You can have this TM.\n"
-    .string "I don't need it anymore…$"
+    .string "Les cendres de mon Yo-kai reposent\ndans la Tour Yo-kai.\pTu peux prendre cette CT.\nJe n'en ai plus besoin...$"
 
 Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreFemale::
-    .string "My Yo-kai's ashes are stored in\n"
-    .string "Yo-kai TOWER.\p"
-    .string "You can have this TM.\n"
-    .string "I don't need it anymore…$"
+    .string "Les cendres de mon Yo-kai reposent\ndans la Tour Yo-kai.\pTu peux prendre cette CT.\nJe n'en ai plus besoin...$"
 
 Route12_NorthEntrance_2F_Text_ReceivedTM27FromLittleGirl::
-    .string "{PLAYER} received TM27\n"
-    .string "from the little girl.$"
+    .string "{PLAYER} reçoit la CT27 de la petite\nfille.$"
 
 Route12_NorthEntrance_2F_Text_ExplainTM27::
-    .string "TM27 is a move called RETURN…\p"
-    .string "If you treat your Yo-kai good,\n"
-    .string "it will return your love by working\l"
-    .string "its hardest in battle.$"
+    .string "La CT27 contient Retour...\pSi tu prends bien soin de ton Yo-kai,\nil te rendra ton affection en donnant\ltout au combat.$"
 
 Route12_NorthEntrance_2F_Text_DontHaveRoomForThis::
-    .string "You don't have room for this.$"
+    .string "Tu n'as plus de place pour ça.$"
 
 Route12_NorthEntrance_2F_Text_TheresManFishing::
-    .string "Let's see what the binoculars have\n"
-    .string "to show…\p"
-    .string "There's a man fishing!$"
+    .string "Voyons ce que montrent les\njumelles...\pUn homme est en train de pêcher !$"
 
 Route12_NorthEntrance_2F_Text_ItsPokemonTower::
-    .string "Let's see what the binoculars have\n"
-    .string "to show…\p"
-    .string "It's Yo-kai TOWER!$"
+    .string "Voyons ce que montrent les\njumelles...\pC'est la Tour Yo-kai !$"
 

@@ -1,106 +1,84 @@
 Route9_Text_AliciaIntro::
-    .string "You have Yo-kai with you!\n"
-    .string "You're mine!$"
+    .string "Tu as des Yo-kai ! Tu es à moi !$"
 
 Route9_Text_AliciaDefeat::
-    .string "You deceived me…$"
+    .string "Tu m’as trompée…$"
 
 Route9_Text_AliciaPostBattle::
-    .string "The tunnel coming up is pitch-black\n"
-    .string "inside.\p"
-    .string "You'll need FLASH to get through\n"
-    .string "there.$"
+    .string "Le tunnel qui vient est plongé dans\nle noir.\pIl te faudra Flash pour le traverser.$"
 
 Route9_Text_ChrisIntro::
-    .string "Who's that walking there with those\n"
-    .string "good-looking Yo-kai?$"
+    .string "Qui se promène par ici avec d'aussi\nbeaux Yo-kai ?$"
 
 Route9_Text_ChrisDefeat::
-    .string "Out like a light!$"
+    .string "Éteint d'un coup !$"
 
 Route9_Text_ChrisPostBattle::
-    .string "Keep walking!$"
+    .string "Continue ton chemin !$"
 
 Route9_Text_DrewIntro::
-    .string "I'm taking the ROCK TUNNEL to\n"
-    .string "go to LAVENDER…$"
+    .string "Je traverse la Grotte Sombre pour\naller à Lavanville…$"
 
 Route9_Text_DrewDefeat::
-    .string "Can't measure up…$"
+    .string "Je ne suis pas à la hauteur…$"
 
 Route9_Text_DrewPostBattle::
-    .string "Are you off to ROCK TUNNEL, too?$"
+    .string "Tu vas aussi à la Grotte Sombre ?$"
 
 Route9_Text_CaitlinIntro::
-    .string "Don't you dare patronize me!$"
+    .string "Ne me prends pas de haut !$"
 
 Route9_Text_CaitlinDefeat::
-    .string "No!\n"
-    .string "You're too much.$"
+    .string "Non ! Tu es trop fort.$"
 
 Route9_Text_CaitlinPostBattle::
-    .string "You're obviously talented.\n"
-    .string "Good luck to you!$"
+    .string "Tu as du talent, c'est évident. Bonne\nchance !$"
 
 Route9_Text_JeremyIntro::
-    .string "Bwahaha!\n"
-    .string "Great! I was bored, eh!$"
+    .string "Mouahaha ! Super ! Je m'ennuyais !$"
 
 Route9_Text_JeremyDefeat::
-    .string "Keep it coming, eh!\p"
-    .string "Oh wait.\n"
-    .string "I'm out of Yo-kai!$"
+    .string "Je peux continuer, tu sais !\pAh, attends. Je n'ai plus de Yo-kai !$"
 
 Route9_Text_JeremyPostBattle::
-    .string "You sure had guts standing up to\n"
-    .string "me there, eh?$"
+    .string "Tu as eu du cran de m'affronter !$"
 
 Route9_Text_BriceIntro::
-    .string "Hahaha!\n"
-    .string "Aren't you a little toughie!$"
+    .string "Hahaha ! Tu ne te laisses pas faire\n!$"
 
 Route9_Text_BriceDefeat::
-    .string "What's that?$"
+    .string "Qu'est-ce que c'est ?$"
 
 Route9_Text_BricePostBattle::
-    .string "Hahaha!\n"
-    .string "Kids should be tough!$"
+    .string "Hahaha ! Les enfants doivent être\ncostauds !$"
 
 Route9_Text_BrentIntro::
-    .string "I got up early every day to raise\n"
-    .string "my Yo-kai from cocoons!$"
+    .string "Je me suis levé tôt tous les jours\npour élever mes Yo-kai depuis le\lcocon !$"
 
 Route9_Text_BrentDefeat::
-    .string "WHAT?\p"
-    .string "What a total waste of time!$"
+    .string "QUOI ?\pTout ce temps pour rien !$"
 
 Route9_Text_BrentPostBattle::
-    .string "I have to collect more than bugs\n"
-    .string "to get stronger…$"
+    .string "Pour progresser, je dois attraper\nautre chose que des insectes…$"
 
 Route9_Text_AlanIntro::
-    .string "Hahahaha!\n"
-    .string "Bring it on!$"
+    .string "Hahahaha ! Viens te battre !$"
 
 Route9_Text_AlanDefeat::
-    .string "Hahahaha!\n"
-    .string "You beat me fair!$"
+    .string "Hahaha !\nTu m’as battu à la loyale !$"
 
 Route9_Text_AlanPostBattle::
-    .string "Hahahaha!\n"
-    .string "Us hearty guys always laugh!$"
+    .string "Hahahaha ! Nous, les bons vivants,\non rit toujours !$"
 
 Route9_Text_ConnerIntro::
-    .string "Go, my super BUG Yo-kai!$"
+    .string "Allez, mes super Yo-kai Insecte !$"
 
 Route9_Text_ConnerDefeat::
-    .string "My bugs…$"
+    .string "Mes insectes…$"
 
 Route9_Text_ConnerPostBattle::
-    .string "If you don't like BUG Yo-kai,\n"
-    .string "you bug me!$"
+    .string "Si tu n'aimes pas les Yo-kai Insecte,\ntu me cherches !$"
 
 Route9_Text_RouteSign::
-    .string "ROUTE 9\n"
-    .string "CERULEAN CITY - ROCK TUNNEL$"
+    .string "ROUTE 9\nAZURIA - GROTTE SOMBRE$"
 

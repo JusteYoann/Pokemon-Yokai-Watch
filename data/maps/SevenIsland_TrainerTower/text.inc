@@ -1,41 +1,31 @@
 SevenIsland_TrainerTower_Text_DarioIntro::
-    .string "I sensed your approach.$"
+    .string "J'ai senti ton approche.$"
 
 SevenIsland_TrainerTower_Text_DarioDefeat::
-    .string "Give up…$"
+    .string "J'abandonne…$"
 
 SevenIsland_TrainerTower_Text_DarioPostBattle::
-    .string "In your future, I sense that you\n"
-    .string "will meet many others.\p"
-    .string "I think you will be linked to each\n"
-    .string "other by a strange power.$"
+    .string "Je sens que tu feras de nombreuses\nrencontres.\pUne force étrange semble destinée à\nvous unir.$"
 
 SevenIsland_TrainerTower_Text_RodetteIntro::
-    .string "Somewhere on this island, peculiar\n"
-    .string "Yo-kai are sleeping.$"
+    .string "Quelque part sur cette île dorment\ndes Yo-kai singuliers.$"
 
 SevenIsland_TrainerTower_Text_RodetteDefeat::
-    .string "What an amazing TRAINER!$"
+    .string "Quel Dresseur extraordinaire !$"
 
 SevenIsland_TrainerTower_Text_RodettePostBattle::
-    .string "Somewhere on this island, peculiar\n"
-    .string "Yo-kai are sleeping.\p"
-    .string "Could it be that they're waiting\n"
-    .string "for you?$"
+    .string "Quelque part sur cette île dorment\ndes Yo-kai singuliers.\pEt s'ils t'attendaient ?$"
 
 SevenIsland_TrainerTower_Text_TrainerTowerSign::
-    .string "TRAINER TOWER ENTRANCE\n"
-    .string "Rise to the Challenge, TRAINERS!$"
+    .string "ENTRÉE DE LA TOUR DES DRESSEURS\nDresseurs, relevez le défi !$"
 
 SevenIsland_TrainerTower_Text_TrainerTowerAhead::
-    .string "TRAINER TOWER AHEAD$"
+    .string "TOUR DES DRESSEURS PLUS LOIN$"
 
 @ Unused text perhaps indicating Trainer Tower was planned to be unlocked by something
 SevenIsland_TrainerTower_Text_LooksLikeTrainerTowerIsClosed::
-    .string "トレーナータワーには\n"
-    .string "いまは　はいれない　みたい‥$"
+    .string "La Tour des Dresseurs\nsemble fermée pour le moment…$"
 
 SevenIsland_TrainerTower_Text_TrainerTowerIsOpenLetsGoIn::
-    .string "トレーナータワーが　あいてる！\n"
-    .string "さっそく　はいってみよう！$"
+    .string "La Tour des Dresseurs\nest ouverte ! Entrons !$"
 

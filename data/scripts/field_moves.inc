@@ -45,16 +45,13 @@ EventScript_DontCutTree::
 	end
 
 Text_CutTreeDown::
-	.string "This tree looks like it can be CUT\n"
-	.string "down!\p"
-	.string "Would you like to CUT it?$"
+    .string "Cet arbre semble pouvoir être coupé\n!\pVoulez-vous utiliser Coupe ?$"
 
 Text_MonUsedMove::
-	.string "{STR_VAR_1} used {STR_VAR_2}!$"
+    .string "{STR_VAR_1} utilise\n{STR_VAR_2} !$"
 
 Text_TreeCanBeCutDown::
-	.string "This tree looks like it can be CUT\n"
-	.string "down!$"
+    .string "Cet arbre semble pouvoir être coupé\n!$"
 
 EventScript_RockSmash::
 	goto_if_questlog EventScript_ReleaseEnd
@@ -109,12 +106,10 @@ EventScript_DontSmashRock::
 	end
 
 Text_UseRockSmash::
-	.string "This rock appears to be breakable.\n"
-	.string "Would you like to use ROCK SMASH?$"
+    .string "Ce rocher semble friable.\nVoulez-vous utiliser Éclate-Roc ?$"
 
 Text_MonMaySmashRock::
-	.string "It's a rugged rock, but a Yo-kai\n"
-	.string "may be able to smash it.$"
+    .string "Ce rocher est solide, mais un Yo-kai\npourrait peut-être le briser.$"
 
 EventScript_StrengthBoulder::
 	goto_if_questlog EventScript_ReleaseEnd
@@ -158,22 +153,16 @@ EventScript_DontUseStrength::
 	end
 
 Text_UseStrength::
-	.string "It's a big boulder, but a Yo-kai\n"
-	.string "may be able to push it aside.\p"
-	.string "Would you like to use STRENGTH?$"
+    .string "Ce gros rocher pourrait être déplacé\npar un Yo-kai.\pVoulez-vous utiliser Force ?$"
 
 Text_MonUsedStrengthCanMoveBoulders::
-	.string "{STR_VAR_1} used STRENGTH!\p"
-	.string "{STR_VAR_1}'s STRENGTH made it\n"
-	.string "possible to move boulders around!$"
+    .string "{STR_VAR_1} utilise Force !\pGrâce à la Force de {STR_VAR_1},\nles rochers peuvent être déplacés !$"
 
 Text_MonMayPushBoulder::
-	.string "It's a big boulder, but a Yo-kai\n"
-	.string "may be able to push it aside.$"
+    .string "Ce gros rocher pourrait être déplacé\npar un Yo-kai.$"
 
 Text_StrengthMadeMovingBouldersPossible::
-	.string "STRENGTH made it possible to move\n"
-	.string "boulders around.$"
+    .string "Force permet désormais de déplacer\nles rochers.$"
 
 EventScript_Waterfall::
 	goto_if_questlog EventScript_ReleaseEnd
@@ -197,15 +186,13 @@ EventScript_EndWaterfall:
 	end
 
 Text_WallOfWaterCrashingDown::
-	.string "A wall of water is crashing down\n"
-	.string "with a mighty roar.$"
+    .string "Un mur d'eau s'abat dans un\ngrondement assourdissant.$"
 
 Text_UseWaterfall::
-	.string "It's a large waterfall.\n"
-	.string "Would you like to use WATERFALL?$"
+    .string "C'est une grande chute d'eau.\nVoulez-vous utiliser Cascade ?$"
 
 Text_MonUsedWaterfall::
-	.string "{STR_VAR_1} used WATERFALL.$"
+    .string "{STR_VAR_1} utilise Cascade.$"
 
 @ Unused leftover from R/S
 EventScript_DeepWater::
@@ -255,31 +242,26 @@ EventScript_EndSurface:
 	end
 
 Text_MonMayGoUnderwater::
-	.string "The sea is deep here. A Yo-kai\n"
-	.string "may be able to go underwater.$"
+    .string "La mer est profonde ici. Un Yo-kai\npourrait peut-être plonger.$"
 
 Text_SeaIsDeepUseDive::
-	.string "The sea is deep here.\n"
-	.string "Would you like to use DIVE?$"
+    .string "La mer est profonde ici. Voulez-vous\nutiliser Plongée ?$"
 
 Text_MonUsedDive::
-	.string "{STR_VAR_1} used DIVE.$"
+    .string "{STR_VAR_1} utilise Plongée.$"
 
 Text_MonMaySurface::
-	.string "Light is filtering down from above.\n"
-	.string "A Yo-kai may be able to surface.$"
+    .string "La lumière filtre depuis la surface.\nUn Yo-kai pourrait peut-être\lremonter.$"
 
 Text_LightFilteringUseDive::
-	.string "Light is filtering down from above.\n"
-	.string "Would you like to use DIVE?$"
+    .string "La lumière filtre depuis la surface.\nVoulez-vous utiliser Plongée ?$"
 
 Text_DiveCantBeUsedHere::
-	.string "There is an obstacle above.\n"
-	.string "DIVE can't be used here.$"
+    .string "Il y a un obstacle au-dessus.\nImpossible d'utiliser Plongée ici.$"
 
 EventScript_FailSweetScent::
 	msgbox Text_LooksLikeNothingHere, MSGBOX_SIGN
 	end
 
 Text_LooksLikeNothingHere::
-	.string "Looks like there's nothing here…$"
+    .string "On dirait qu'il n'y a rien ici…$"

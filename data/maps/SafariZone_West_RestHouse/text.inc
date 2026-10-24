@@ -1,22 +1,12 @@
 SafariZone_West_Text_KogaPatrolsSafariEverySoOften::
-    .string "The SAFARI ZONE's huge, wouldn't\n"
-    .string "you say?\p"
-    .string "FUCHSIA's GYM LEADER, KOGA, \n"
-    .string "patrols the grounds every so often.\p"
-    .string "Thanks to him, we can play here\n"
-    .string "knowing that we're safe.$"
+    .string "Le Parc Safari est immense, tu ne\ntrouves pas ?\pBérénice, la Championne de Parmanie,\ny fait régulièrement des rondes.\pGrâce à elle, on peut s'y amuser en\ntoute sécurité.$"
 
 SafariZone_West_Text_RocksMakeMonRunButEasierCatch::
-    .string "Tossing ROCKS at Yo-kai might\n"
-    .string "make them run, but they'll be\l"
-    .string "easier to catch.$"
+    .string "Lancer des cailloux peut faire fuir\nles Yo-kai, mais ils seront plus\lfaciles à attraper.$"
 
 SafariZone_West_Text_BaitMakesMonStickAround::
-    .string "Using BAIT will make Yo-kai more\n"
-    .string "likely to stick around if they get\l"
-    .string "busy eating.$"
+    .string "Avec un appât, les Yo-kai restent\nplus volontiers sur place pour\lmanger.$"
 
 SafariZone_West_Text_HikedLotsDidntSeeMonIWanted::
-    .string "I hiked a lot, but I didn't see any\n"
-    .string "Yo-kai I wanted.$"
+    .string "J'ai beaucoup marché, mais je n'ai vu\naucun Yo-kai qui m'intéressait.$"
 

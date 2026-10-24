@@ -1,25 +1,11 @@
 LavenderTown_Mart_Text_SearchingForStatRaiseItems::
-    .string "I'm searching for items that raise\n"
-    .string "the stats of Yo-kai.\p"
-    .string "They're effective over the course\n"
-    .string "of a single battle.\p"
-    .string "X ATTACK, X DEFEND, X SPEED, \n"
-    .string "and X SPECIAL are what I'm after.\p"
-    .string "Do you know where I can get them?$"
+    .string "Je cherche des objets qui augmentent\nles statistiques des Yo-kai pendant un\lcombat.\pIl me faudrait Attaque +, Défense +,\nVitesse + et Spécial +.\pTu sais où je peux en trouver ?$"
 
 LavenderTown_Mart_Text_DidYouBuyRevives::
-    .string "Did you buy some REVIVES?\n"
-    .string "They revive any fainted Yo-kai!$"
+    .string "Tu as acheté des Rappels ?\nIls raniment les Yo-kai K.O. !$"
 
 LavenderTown_Mart_Text_TrainerDuosCanChallengeYou::
-    .string "Sometimes, a TRAINER duo will\n"
-    .string "challenge you with two Yo-kai\l"
-    .string "at the same time.\p"
-    .string "If that happens, you have to send\n"
-    .string "out two Yo-kai to battle, too.$"
+    .string "Parfois, un duo de Dresseurs te\ndéfiera avec deux Yo-kai en même\ltemps.\pDans ce cas, tu devras aussi envoyer\ndeux Yo-kai au combat.$"
 
 LavenderTown_Mart_Text_SoldNuggetFromMountainsFor5000::
-    .string "この　あいだ　やまおくで\n"
-    .string "きんのたまを　ひろい　ましてね！\p"
-    .string "つかえない　しなもの　ですが\n"
-    .string "うったら　なんと　5000¥でした$"
+    .string "J’ai trouvé une Pépite\ndans les montagnes !\pElle ne me servait à rien,\nmais je l’ai vendue 5 000¥ !$"

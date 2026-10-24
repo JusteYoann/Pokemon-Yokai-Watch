@@ -1,4 +1,5 @@
 #include "global.h"
+#include "compact_labels_fr.h"
 #include "gflib.h"
 #include "menu.h"
 #include "list_menu.h"
@@ -752,7 +753,74 @@ void ListMenuLoadStdPalAt(u8 palOffset, u8 palId)
     LoadPalette(palette, palOffset, PLTT_SIZE_4BPP);
 }
 
+static const u8 sMenuIconFr0[] = _("NORMAL");
+static const u8 sMenuIconFr1[] = _("COMBAT");
+static const u8 sMenuIconFr2[] = _("VOL");
+static const u8 sMenuIconFr3[] = _("POISON");
+static const u8 sMenuIconFr4[] = _("SOL");
+static const u8 sMenuIconFr5[] = _("ROCHE");
+static const u8 sMenuIconFr6[] = _("INSECTE");
+static const u8 sMenuIconFr7[] = _("SPECTRE");
+static const u8 sMenuIconFr8[] = _("ACIER");
+static const u8 sMenuIconFr9[] = _("???");
+static const u8 sMenuIconFr10[] = _("FEU");
+static const u8 sMenuIconFr11[] = _("EAU");
+static const u8 sMenuIconFr12[] = _("PLANTE");
+static const u8 sMenuIconFr13[] = _("ÉLECTRIK");
+static const u8 sMenuIconFr14[] = _("PSY");
+static const u8 sMenuIconFr15[] = _("GLACE");
+static const u8 sMenuIconFr16[] = _("DRAGON");
+static const u8 sMenuIconFr17[] = _("TÉNÈBRES");
+static const u8 sMenuIconFr18[] = _("TYPE");
+static const u8 sMenuIconFr19[] = _("PUISS.");
+static const u8 sMenuIconFr20[] = _("PRÉC.");
+static const u8 sMenuIconFr21[] = _("PP");
+static const u8 sMenuIconFr22[] = _("EFFET");
+static const u8 *const sMenuIconsFr[] = {
+    sMenuIconFr0,
+    sMenuIconFr1,
+    sMenuIconFr2,
+    sMenuIconFr3,
+    sMenuIconFr4,
+    sMenuIconFr5,
+    sMenuIconFr6,
+    sMenuIconFr7,
+    sMenuIconFr8,
+    sMenuIconFr9,
+    sMenuIconFr10,
+    sMenuIconFr11,
+    sMenuIconFr12,
+    sMenuIconFr13,
+    sMenuIconFr14,
+    sMenuIconFr15,
+    sMenuIconFr16,
+    sMenuIconFr17,
+    sMenuIconFr18,
+    sMenuIconFr19,
+    sMenuIconFr20,
+    sMenuIconFr21,
+    sMenuIconFr22,
+};
+
 void BlitMenuInfoIcon(u8 windowId, u8 iconId, u16 x, u16 y)
 {
     BlitBitmapRectToWindow(windowId, &gMenuInfoElements_Gfx[sMenuInfoIcons[iconId].offset * TILE_SIZE_4BPP], 0, 0, 128, 128, x, y, sMenuInfoIcons[iconId].width, sMenuInfoIcons[iconId].height);
+    if (iconId != MENU_INFO_ICON_CAUGHT && iconId <= MENU_INFO_ICON_EFFECT)
+    {
+        u16 counts[16] = {0};
+        u16 *tiles = (u16 *)gWindows[windowId].tileData;
+        u8 wide = gWindows[windowId].window.width;
+        u8 width = sMenuInfoIcons[iconId].width;
+        u8 height = sMenuInfoIcons[iconId].height;
+        u8 i, j, background = 0;
+        if (x + width > wide * 8 || y + height > gWindows[windowId].window.height * 8)
+            return;
+        for (j = 0; j < height; j++)
+            for (i = 0; i < width; i++)
+                counts[CompactFrPixelGet(tiles, wide, x + i, y + j)]++;
+        for (i = 1; i < 14; i++)
+            if (counts[i] && (background == 0 || counts[i] > counts[background]))
+                background = i;
+        CompactFrLabel(tiles, wide, x, y, width, height, background, 14, sMenuIconsFr[iconId - 1]);
+    }
 }

@@ -1,10 +1,6 @@
 ThreeIsland_House4_Text_GhostsInBerryForest::
-    .string "You must never, ever go out to\n"
-    .string "the BERRY FOREST alone.\p"
-    .string "Why?\n"
-    .string "There are ghosts there.$"
+    .string "Tu ne dois jamais aller seul au Bois\naux Baies.\pPourquoi ? Il y a des fantômes.$"
 
 ThreeIsland_House4_Text_PapaKeepsLyingToMe::
-    .string "Papa keeps lying to me, and won't\n"
-    .string "let me go out and play!$"
+    .string "Papa me raconte toujours des\nmensonges et m'interdit de sortir\ljouer !$"
 

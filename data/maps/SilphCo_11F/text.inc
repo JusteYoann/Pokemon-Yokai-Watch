@@ -23,13 +23,10 @@ SilphCo_11F_Text_ThatsOurSecretPrototype::
     .string "Mes Yo-kai Acier t’y attendent!$"
 
 SilphCo_11F_Text_YouHaveNoRoomForThis::
-    .string "You have no room for this.$"
+    .string "Tu n'as pas de place pour ça.$"
 
 SilphCo_11F_Text_ThanksForRescuingUs::
-    .string "SECRETARY: Thank you for rescuing\n"
-    .string "all of us.\p"
-    .string "We, from the PRESIDENT down,\n"
-    .string "are indebted to you.$"
+    .string "SECRÉTAIRE : Merci de nous avoir\ntous sauvés.\pDu Président aux employés, nous te\nsommes tous reconnaissants.$"
 
 SilphCo_11F_Text_GiovanniIntro::
     .string "Ah, {PLAYER}. Nous nous retrouvons.\pLe président et moi négocions un\naccord important.\pLa Mafiamille n'aime pas les\ninterruptions. Tu vas devoir me\lconvaincre de t'écouter.$"
@@ -59,9 +56,8 @@ SilphCo_11F_Text_Grunt1PostBattle::
     .string "Le Don choisit des Yo-kai robustes.\nPrépare-toi bien.$"
 
 SilphCo_11F_Text_MonitorHasMonsOnIt::
-    .string "The monitor has Yo-kai on it!$"
+    .string "Il y a des Yo-kai à l'écran !$"
 
 SilphCo_11F_Text_FloorSign::
-    .string "Yopple HEAD OFFICE\n"
-    .string "11F$"
+    .string "SIÈGE DE YOPPLE\n10e ÉTAGE$"
 

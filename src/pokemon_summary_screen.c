@@ -1,4 +1,6 @@
 #include "global.h"
+#include "status_labels_fr.h"
+#include "compact_labels_fr.h"
 #include "gflib.h"
 #include "pokemon.h"
 #include "pokemon_summary_screen.h"
@@ -2001,6 +2003,40 @@ static void CB2_SetUpPSS(void)
     sMonSummaryScreen->summarySetupStep++;
 }
 
+static void LocalizeSummaryLabels(void)
+{
+    static const u8 label0[] = _("NOM");
+    static const u8 label1[] = _("DO");
+    static const u8 label2[] = _("OBJET");
+    static const u8 label3[] = _("MÉMO DRESSEUR");
+    static const u8 label4[] = _("PV");
+    static const u8 label5[] = _("ATTAQUE");
+    static const u8 label6[] = _("DÉFENSE");
+    static const u8 label7[] = _("ATQ.SPÉ");
+    static const u8 label8[] = _("DÉF.SPÉ");
+    static const u8 label9[] = _("VITESSE");
+    static const u8 label10[] = _("ÉTAT");
+    static const u8 label11[] = _("PUISS.");
+    static const u8 label12[] = _("PRÉC.");
+    static const u8 label13[] = _("EFFET");
+    static const u8 label14[] = _("TALENT");
+    CompactFrLabel((u16 *)BG_CHAR_ADDR(2), 16, 4, 45, 40, 9, 13, 14, label0);
+    CompactFrLabel((u16 *)BG_CHAR_ADDR(2), 16, 4, 75, 40, 9, 13, 14, label1);
+    CompactFrLabel((u16 *)BG_CHAR_ADDR(2), 16, 4, 105, 40, 9, 13, 14, label2);
+    CompactFrLabel((u16 *)BG_CHAR_ADDR(2), 16, 60, 7, 66, 9, 13, 14, label3);
+    CompactFrLabel((u16 *)BG_CHAR_ADDR(2), 16, 4, 125, 40, 9, 13, 14, label4);
+    CompactFrLabel((u16 *)BG_CHAR_ADDR(2), 16, 4, 143, 40, 9, 13, 14, label5);
+    CompactFrLabel((u16 *)BG_CHAR_ADDR(2), 16, 4, 156, 40, 9, 13, 14, label6);
+    CompactFrLabel((u16 *)BG_CHAR_ADDR(2), 16, 4, 169, 40, 9, 13, 14, label7);
+    CompactFrLabel((u16 *)BG_CHAR_ADDR(2), 16, 4, 182, 40, 9, 13, 14, label8);
+    CompactFrLabel((u16 *)BG_CHAR_ADDR(2), 16, 4, 195, 40, 9, 13, 14, label9);
+    CompactFrLabel((u16 *)BG_CHAR_ADDR(2), 16, 78, 107, 36, 9, 13, 14, label10);
+    CompactFrLabel((u16 *)BG_CHAR_ADDR(2), 16, 78, 123, 36, 9, 13, 14, label11);
+    CompactFrLabel((u16 *)BG_CHAR_ADDR(2), 16, 78, 137, 36, 9, 13, 14, label12);
+    CompactFrLabel((u16 *)BG_CHAR_ADDR(2), 16, 78, 150, 36, 9, 13, 14, label13);
+    CompactFrLabel((u16 *)BG_CHAR_ADDR(2), 16, 18, 243, 38, 9, 13, 14, label14);
+}
+
 static u8 PokeSum_HandleLoadBgGfx(void)
 {
     switch (sMonSummaryScreen->loadBgGfxStep)
@@ -2032,6 +2068,7 @@ static u8 PokeSum_HandleLoadBgGfx(void)
     case 4:
         if (FreeTempTileDataBuffersIfPossible() == TRUE)
             return FALSE;
+        LocalizeSummaryLabels();
         break;
 
     case 5:
@@ -4309,6 +4346,8 @@ static void CreateMonStatusIconObj(u16 tileTag, u16 palTag)
     gfxBufferPtr = AllocZeroed(0x20 * 32);
 
     LZ77UnCompWram(gSummaryScreen_StatusAilmentIcon_Gfx, gfxBufferPtr);
+    if (gfxBufferPtr != NULL)
+        LocalizeStatusSheet(gfxBufferPtr);
 
     if (sStatusIcon != NULL)
     {
@@ -4401,6 +4440,11 @@ static void CreateHpBarObjs(u16 tileTag, u16 palTag)
     sHpBarObjs = AllocZeroed(sizeof(struct HpBarObjs));
     gfxBufferPtr = AllocZeroed(0x20 * 12);
     LZ77UnCompWram(gSummaryScreen_HpBar_Gfx, gfxBufferPtr);
+    if (gfxBufferPtr != NULL)
+    {
+        static const u8 label[] = _("PV");
+        CompactFrLabel(gfxBufferPtr, 12, 75, 1, 11, 5, 4, 6, label);
+    }
 
     curHp = GetMonData(&sMonSummaryScreen->currentMon, MON_DATA_HP);
     maxHp = GetMonData(&sMonSummaryScreen->currentMon, MON_DATA_MAX_HP);

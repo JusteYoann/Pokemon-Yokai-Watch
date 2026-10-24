@@ -20,7 +20,7 @@ PalletTown_Text_RivalsHouse::
     .string "Maison de {RIVAL}$"
 
 PalletTown_Text_TownSign::
-    .string "PALLET TOWN\nLes couleurs de ton voyage\lt'attendent!$"
+    .string "BOURG PALETTE\nLes couleurs de ton voyage\lt'attendent!$"
 
 PalletTown_Text_OakLetMeSeePokedex::
     .string "CHEN: Ah, {PLAYER}!\nTe voilà de retour!\pComment avance\nton Médallium?\pPuis-je le voir?\pVoyons…$"

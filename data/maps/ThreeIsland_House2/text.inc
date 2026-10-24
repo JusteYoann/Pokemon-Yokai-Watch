@@ -1,17 +1,6 @@
 ThreeIsland_House2_Text_CantMakeThisSpoonBend::
-    .string "Urrrrrrrrgggghhhh…\n"
-    .string "Kwaaaaah!\p"
-    .string "…It's useless! I can't make this\n"
-    .string "spoon bend with my mind.\p"
-    .string "Maybe I really don't have any\n"
-    .string "psychic powers.$"
+    .string "Grrrr… Hyaaa !\p… Inutile ! Je n'arrive pas à tordre\ncette cuillère par la pensée.\pJe n'ai peut-être vraiment aucun\npouvoir psychique.$"
 
 ThreeIsland_House2_Text_IAdmireSabrina::
-    .string "You know about a girl GYM LEADER\n"
-    .string "in SAFFRON CITY?\p"
-    .string "She uses PSYCHIC-type Yo-kai,\n"
-    .string "right?\p"
-    .string "I admire her, I really do.\p"
-    .string "I've heard that she's one cool\n"
-    .string "customer and beautiful, too.$"
+    .string "Tu connais Bérénice, la Championne de\nParmanie ?\pElle utilise des Yo-kai Psy, n'est-ce\npas ?\pJe l'admire vraiment.\pIl paraît qu'elle est aussi belle\nqu'imperturbable.$"
 

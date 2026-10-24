@@ -180,11 +180,11 @@ static const u8 sMoveTutorMenuWindowFrameDimensions[][4] =
     { 2, 14, 27, 19}
 };
 
-static const u8 sJPText_TatakauWaza[] = _("たたかうわざ");
-static const u8 sJPText_Taipu[] = _("タイプ/");
+static const u8 sJPText_TatakauWaza[] = _("CAPACITÉS");
+static const u8 sJPText_Taipu[] = _("TYPE/");
 static const u8 sJPText_PP[] = _("PP/");
-static const u8 sJPText_Iryoku[] = _("いりょく/");
-static const u8 sJPText_Meichuu[] = _("めいちゅう/");
+static const u8 sJPText_Iryoku[] = _("PUISS./");
+static const u8 sJPText_Meichuu[] = _("PRÉC./");
 
 static const struct MoveTutorMoveInfoHeaders sMoveTutorMoveInfoHeaders[][5] =
 {

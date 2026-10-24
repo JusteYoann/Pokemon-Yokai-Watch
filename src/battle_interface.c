@@ -1,4 +1,6 @@
 #include "global.h"
+#include "status_labels_fr.h"
+#include "compact_labels_fr.h"
 #include "spiraton_battle.h"
 #include "gflib.h"
 #include "battle_anim.h"
@@ -538,6 +540,12 @@ enum
     HEALTHBAR_TYPE_OPPONENT,
 };
 
+static void LocalizeHealthbarPv(u16 tileNum)
+{
+    static const u8 label[] = _("PV");
+    CompactFrLabel((u16 *)(OBJ_VRAM0 + tileNum * TILE_SIZE_4BPP), 2, 1, 1, 12, 6, 7, 6, label);
+}
+
 u8 CreateBattlerHealthboxSprites(u8 battlerId)
 {
     s16 healthbarType = HEALTHBAR_TYPE_PLAYER_SINGLE;
@@ -601,6 +609,7 @@ u8 CreateBattlerHealthboxSprites(u8 battlerId)
     healthbarSprite->subspriteMode = SUBSPRITES_IGNORE_PRIORITY;
     healthbarSprite->oam.priority = 1;
     CpuCopy32(GetBattleInterfaceGfxPtr(B_INTERFACE_GFX_HP_BAR_HP_TEXT), OBJ_VRAM0 + healthbarSprite->oam.tileNum * TILE_SIZE_4BPP, 2 * TILE_SIZE_4BPP);
+    LocalizeHealthbarPv(healthbarSprite->oam.tileNum);
 
     gSprites[healthboxSpriteId].sHealthBarSpriteId = healthbarSpriteId;
     gSprites[healthboxSpriteId].sBattlerId = battlerId;
@@ -1656,9 +1665,12 @@ static void UpdateStatusIconInHealthbox(u8 healthboxSpriteId)
                       1 * TILE_SIZE_4BPP);
 
         if (!gBattleSpritesDataPtr->battlerData[battlerId].hpNumbersNoBars)
+        {
             CpuCopy32(GetBattleInterfaceGfxPtr(B_INTERFACE_GFX_HP_BAR_HP_TEXT),
                       (void *)(OBJ_VRAM0 + gSprites[healthBarSpriteId].oam.tileNum * TILE_SIZE_4BPP),
                       2 * TILE_SIZE_4BPP);
+            LocalizeHealthbarPv(gSprites[healthBarSpriteId].oam.tileNum);
+        }
 
         TryAddPokeballIconToHealthbox(healthboxSpriteId, TRUE);
         return;
@@ -1670,6 +1682,12 @@ static void UpdateStatusIconInHealthbox(u8 healthboxSpriteId)
     FillPalette(sStatusIconColors[statusPalId], pltAdder + OBJ_PLTT_OFFSET, PLTT_SIZEOF(1));
     CpuCopy16(&gPlttBufferUnfaded[OBJ_PLTT_OFFSET + pltAdder], (u16 *)OBJ_PLTT + pltAdder, PLTT_SIZEOF(1));
     CpuCopy32(statusGfxPtr, (void *)(OBJ_VRAM0 + (gSprites[healthboxSpriteId].oam.tileNum + tileNumAdder) * TILE_SIZE_4BPP), 3 * TILE_SIZE_4BPP);
+    if (statusPalId == PAL_STATUS_SLP || statusPalId == PAL_STATUS_FRZ || statusPalId == PAL_STATUS_BRN)
+    {
+        u16 *tiles = (u16 *)(OBJ_VRAM0 + (gSprites[healthboxSpriteId].oam.tileNum + tileNumAdder) * TILE_SIZE_4BPP);
+        const u8 *label = statusPalId == PAL_STATUS_SLP ? sStatusSom : statusPalId == PAL_STATUS_FRZ ? sStatusGel : sStatusBru;
+        StatusLabelDraw(tiles, 2, 17, battlerId + 12, label, 3);
+    }
     if (IsDoubleBattle() == TRUE || GetBattlerSide(battlerId) == B_SIDE_OPPONENT)
     {
         if (!gBattleSpritesDataPtr->battlerData[battlerId].hpNumbersNoBars)

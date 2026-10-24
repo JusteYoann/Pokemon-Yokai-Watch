@@ -2,25 +2,17 @@
 @ Theres also an unused JP version of that text in this file instead
 
 JPText_BodySlamTeach::
-    .string "そーれ　ぼよーん！\n"
-    .string "どっちが　さきに　へたばるか？\l"
-    .string "のしかかり　しょうぶ　してるんだ\p"
-    .string "きみは　なかまに　はいったら\n"
-    .string "つぶれそうだな‥\l"
-    .string "かわりに　きみの　ポケモンに\l"
-    .string "のしかかり　おしえて　やろっか？$"
+    .string "Boum ! Qui de nous deux\nva céder en premier ?\pOn fait un concours\nde Plaquage !\pSi tu participais,\ntu finirais à plat…\pJe peux plutôt apprendre\nPlaquage à un de tes Yo-kai ?$"
 
 JPText_BodySlamDeclined::
-    .string "また　おいで　ぼよーん！$"
+    .string "Reviens nous voir !\nBoum !$"
 
 JPText_BodySlamWhichMon::
-    .string "どの　ポケモンに\n"
-    .string "おしえたい　かい？$"
+    .string "Quel Yo-kai doit\napprendre cette capacité ?$"
 
 JPText_BodySlamTaught::
-    .string "ぼよよーん！$"
+    .string "Boum, badaboum !$"
 
 FourIsland_House1_Text_YoureAwfullyHeavy::
-    .string "There! Boing!\n"
-    .string "You're awfully heavy!$"
+    .string "Et hop ! Boïng !\nTu es vraiment lourd !$"
 

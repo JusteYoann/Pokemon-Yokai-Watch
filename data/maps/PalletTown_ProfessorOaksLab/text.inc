@@ -33,7 +33,7 @@ PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon::
     .string "{RIVAL}: Bon! Je vais entraîner\nmon Yo-kai au combat!\p{PLAYER}! Papi!\nÀ plus!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGramps::
-    .string "{RIVAL}: Gramps!$"
+    .string "{RIVAL} : Papy !$"
 
 PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor::
     .string "{RIVAL}: J'allais oublier!\nPourquoi tu m'as fait venir?$"
@@ -54,8 +54,7 @@ PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose::
     .string "CHEN: Alors, {PLAYER}.\pCes trois Yo-kai Balls\ncontiennent chacune un Yo-kai.\pLequel souhaites-tu\nprendre avec toi?$"
 
 PalletTown_ProfessorOaksLab_Text_OakHeyDontGoAwayYet::
-    .string "OAK: Hey!\n"
-    .string "Don't go away yet!$"
+    .string "Chen : Hé !\nNe pars pas encore !$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingCharmander::
     .string "Ah, tu choisis Kappacap!\nÉlève-le avec patience.\pAlors, {PLAYER}, tu prends\nKappacap, le Yo-kai Eau?$"
@@ -82,7 +81,7 @@ PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe::
     .string "CHEN: Oh, {PLAYER}!\nComment va mon ancien Yo-kai?\pIl semble déjà\ns'être attaché à toi.\pTu as du talent\npour élever les Yo-kai.\pQu'est-ce que c'est?\nTu as quelque chose pour moi?$"
 
 PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel::
-    .string "{PLAYER} delivered OAK'S PARCEL.$"
+    .string "{PLAYER} remet le Colis de Chen.$"
 
 PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered::
     .string "Ah!\nLa Yo-kai Ball spéciale!\pJe l'avais commandée.\nMerci!$"
@@ -103,7 +102,7 @@ PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese::
     .string "CHEN: Voir un Yo-kai ne suffit\npas à tout apprendre sur lui.\pIl faut le capturer\npour compléter ses données.\pVoici donc de quoi\ncapturer des Yo-kai sauvages.$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls::
-    .string "{PLAYER} received five Yo-kai Balls.$"
+    .string "{PLAYER} reçoit cinq Yo-kai Balls.$"
 
 PalletTown_ProfessorOaksLab_Text_OakExplainCatching::
     .string "Quand un Yo-kai sauvage\napparaît, tu peux le capturer.\pLance-lui une Yo-kai Ball\npour tenter ta chance!\pMais cela ne marche pas toujours.\pUn Yo-kai en pleine forme\npeut facilement s'échapper!$"
@@ -142,8 +141,7 @@ PalletTown_ProfessorOaksLab_Text_EmailMessage::
     .string "Il y a un message électronique.\p…\pEnfin! Les meilleurs Dresseurs\nde la Ligue Yo-kai sont prêts\là relever tous les défis!\pVenez avec vos meilleurs Yo-kai\npour mesurer votre talent!\pSiège de la Ligue Yo-kai\nINDIGO PLATEAU\pProfesseur Chen, rendez-nous visite!\n…$"
 
 PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide::
-    .string "I study Yo-kai as PROF. OAK's\n"
-    .string "AIDE.$"
+    .string "J'étudie les Yo-kai en tant\nqu'assistant du Prof. Chen.$"
 
 PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons::
     .string "Salut, {PLAYER}. Tu dois être\nproche de tes Yo-kai maintenant.\pAu fait, tu connais Nina?\pMontre-lui tes Yo-kai: elle peut\nte dire à quel point ils t'aiment.\pParfois, elle prend même\nle temps de les toiletter.\pMais c'est un secret,\nalors ne le répète pas.$"

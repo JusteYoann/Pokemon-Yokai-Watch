@@ -1,156 +1,116 @@
 Route14_Text_CarterIntro::
-    .string "You need to use TMs to teach good\n"
-    .string "moves to Yo-kai.$"
+    .string "Pour enseigner de bonnes techniques\naux Yo-kai, il faut utiliser des CT.$"
 
 Route14_Text_CarterDefeat::
-    .string "Not good enough quite yet.$"
+    .string "Je ne suis pas encore à la hauteur.$"
 
 Route14_Text_CarterPostBattle::
-    .string "You have some HMs, right? Yo-kai\n"
-    .string "can't forget those moves easily.$"
+    .string "Tu as des CS, n'est-ce pas ?\nLes Yo-kai ne peuvent pas oublier\lces techniques facilement.$"
 
 Route14_Text_MitchIntro::
-    .string "My bird Yo-kai should be ready\n"
-    .string "for battle.$"
+    .string "Mes Yo-kai volants devraient être\nprêts pour le combat.$"
 
 Route14_Text_MitchDefeat::
-    .string "Not ready yet!$"
+    .string "Je ne suis pas encore prêt !$"
 
 Route14_Text_MitchPostBattle::
-    .string "My bird Yo-kai need to learn\n"
-    .string "better moves.$"
+    .string "Mes Yo-kai volants doivent apprendre\nde meilleures techniques.$"
 
 Route14_Text_BeckIntro::
-    .string "They have TMs on sale at the\n"
-    .string "CELADON DEPT. STORE.\p"
-    .string "TMs aren't really rare, but not\n"
-    .string "many people have HMs.$"
+    .string "On vend des CT au Centre Commercial\nde Céladopole.\pLes CT ne sont pas si rares, mais peu\nde gens possèdent des CS.$"
 
 Route14_Text_BeckDefeat::
-    .string "Aww, bummer!$"
+    .string "Oh, mince !$"
 
 Route14_Text_BeckPostBattle::
-    .string "Try teaching Yo-kai a move that's\n"
-    .string "the same type as it.\p"
-    .string "That apparently boosts the power\n"
-    .string "of the move.$"
+    .string "Essaie d'enseigner à un Yo-kai une\ntechnique de son propre type.\pIl paraît que cela augmente sa\npuissance.$"
 
 Route14_Text_MarlonIntro::
-    .string "Have you taught your bird Yo-kai\n"
-    .string "how to FLY?\p"
-    .string "You'll be able to soar with it into\n"
-    .string "the sky!$"
+    .string "As-tu appris Vol à ton Yo-kai volant\n?\pTu pourras t'envoler avec lui dans le\nciel !$"
 
 Route14_Text_MarlonDefeat::
-    .string "Shot down in flames!$"
+    .string "Abattu en plein vol !$"
 
 Route14_Text_MarlonPostBattle::
-    .string "Bird Yo-kai are my one true love.\n"
-    .string "I don't want to raise anything else.$"
+    .string "Je n'aime que les Yo-kai volants.\nJe ne veux rien élever d'autre.$"
 
 Route14_Text_DonaldIntro::
-    .string "Have you heard the legend of the\n"
-    .string "winged mirages?$"
+    .string "Tu connais la légende des mirages\nailés ?$"
 
 Route14_Text_DonaldDefeat::
-    .string "Why?\n"
-    .string "Why'd I lose?$"
+    .string "Pourquoi ? Pourquoi j'ai perdu ?$"
 
 Route14_Text_DonaldPostBattle::
-    .string "Well, the winged mirages are the\n"
-    .string "legendary bird Yo-kai.\p"
-    .string "There are three of them: ARTICUNO,\n"
-    .string "ZAPDOS, and MOLTRES.$"
+    .string "Les mirages ailés sont des Yo-kai\nlégendaires.\pOn en connaît trois : Lamlam'mou,\nSavantard et Loupépin.$"
 
 Route14_Text_BennyIntro::
-    .string "I'm not into it, but okay.\n"
-    .string "Let's go!$"
+    .string "Je ne suis pas très motivé, mais\nd'accord.\nC'est parti !$"
 
 Route14_Text_BennyDefeat::
-    .string "I knew it!$"
+    .string "Je le savais !$"
 
 Route14_Text_BennyPostBattle::
-    .string "Winning, losing… It's insignificant\n"
-    .string "under this huge sky.$"
+    .string "Gagner, perdre... Tout ça paraît\ninsignifiant sous un ciel aussi vaste.$"
 
 Route14_Text_LukasIntro::
-    .string "C'mon, c'mon.\n"
-    .string "Let's go, let's go, let's go!$"
+    .string "Allez, allez !\nC'est parti, c'est parti !$"
 
 Route14_Text_LukasDefeat::
-    .string "Arrg!\n"
-    .string "Lost! Get lost!$"
+    .string "Argh ! J'ai perdu ! Dégage !$"
 
 Route14_Text_LukasPostBattle::
-    .string "What, what, what?\n"
-    .string "What do you want still?$"
+    .string "Quoi, quoi, quoi ?\nQu'est-ce que tu veux encore ?$"
 
 Route14_Text_IsaacIntro::
-    .string "I need to burn some time.\n"
-    .string "Shut up and battle.$"
+    .string "Il faut que je passe le temps.\nTais-toi et combats.$"
 
 Route14_Text_IsaacDefeat::
-    .string "What?\n"
-    .string "You!?$"
+    .string "Quoi ?\nToi ?!$"
 
 Route14_Text_IsaacPostBattle::
-    .string "Raising Yo-kai is a drag, man.$"
+    .string "Élever des Yo-kai, c'est vraiment\npénible.$"
 
 Route14_Text_GeraldIntro::
-    .string "We ride out here because of the\n"
-    .string "wide-open spaces.$"
+    .string "Nous venons rouler ici parce qu'il y\na de grands espaces.$"
 
 Route14_Text_GeraldDefeat::
-    .string "Wipeout!$"
+    .string "Écrasé !$"
 
 Route14_Text_GeraldPostBattle::
-    .string "It's cool you made your Yo-kai so\n"
-    .string "strong.\p"
-    .string "Might is right!\n"
-    .string "And you know it!$"
+    .string "C'est bien d'avoir rendu tes Yo-kai\naussi puissants.\pLa force fait loi !\nTu le sais bien !$"
 
 Route14_Text_MalikIntro::
-    .string "Yo-kai battle?\n"
-    .string "Cool! Rumble!$"
+    .string "Un combat de Yo-kai ?\nGénial ! À l'attaque !$"
 
 Route14_Text_MalikDefeat::
-    .string "Blown away!$"
+    .string "Balayé !$"
 
 Route14_Text_MalikPostBattle::
-    .string "You know who'd win, you and me\n"
-    .string "one-on-one!$"
+    .string "Tu sais bien qui gagnerait un duel\nentre toi et moi !$"
 
 Route14_Text_RouteSign::
-    .string "ROUTE 14\n"
-    .string "West to FUCHSIA CITY$"
+    .string "ROUTE 14\nPARMANIE à l'ouest$"
 
 Route14_Text_KiriIntro::
-    .string "KIRI: JAN, let's try really,\n"
-    .string "really hard together.$"
+    .string "Kiri : Jan, donnons vraiment tout ce\nque nous avons !$"
 
 Route14_Text_KiriDefeat::
-    .string "KIRI: Whimper…\n"
-    .string "We lost, didn't we?$"
+    .string "KIRI : Snif… On a perdu, hein ?$"
 
 Route14_Text_KiriPostBattle::
-    .string "KIRI: Did we lose because of me?$"
+    .string "KIRI : On a perdu à cause de moi ?$"
 
 Route14_Text_KiriNotEnoughMons::
-    .string "KIRI: We can battle if you have\n"
-    .string "two Yo-kai.$"
+    .string "Kiri : Nous pouvons combattre si tu\nas deux Yo-kai.$"
 
 Route14_Text_JanIntro::
-    .string "JAN: KIRI, here we go!\n"
-    .string "We have to try hard!$"
+    .string "Jan : Kiri, c'est parti !\nIl faut donner le meilleur de\lnous-mêmes !$"
 
 Route14_Text_JanDefeat::
-    .string "JAN: Eeeeh!\n"
-    .string "No fair!$"
+    .string "Jan : Hééé !\nCe n'est pas juste !$"
 
 Route14_Text_JanPostBattle::
-    .string "JAN: KIRI, don't cry!\n"
-    .string "We'll just try harder next time.$"
+    .string "Jan : Kiri, ne pleure pas !\nNous ferons encore mieux la prochaine\lfois.$"
 
 Route14_Text_JanNotEnoughMons::
-    .string "JAN: You want to battle?\n"
-    .string "You don't have enough Yo-kai.$"
+    .string "Jan : Tu veux combattre ?\nTu n'as pas assez de Yo-kai.$"

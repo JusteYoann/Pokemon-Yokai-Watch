@@ -1,33 +1,24 @@
 PokemonMansion_Text_PressSecretSwitch::
-    .string "A secret switch!\p"
-    .string "Press it?$"
+    .string "Un bouton secret !\pAppuyer dessus ?$"
 
 PokemonMansion_Text_WhoWouldnt::
-    .string "Who wouldn't?$"
+    .string "Qui résisterait ?$"
 
 PokemonMansion_Text_NotQuiteYet::
-    .string "Not quite yet!$"
+    .string "Pas encore !$"
 
 PokemonMansion_1F_Text_ArnieIntro::
-    .string "I can't get out!\n"
-    .string "This old place is one big puzzle.$"
+    .string "Je n'arrive pas à sortir !\nCet endroit est un vrai casse-tête.$"
 
 PokemonMansion_1F_Text_ArnieDefeat::
-    .string "Oh, no!\n"
-    .string "My bag of loot!$"
+    .string "Oh non !\nMon sac de butin !$"
 
 PokemonMansion_1F_Text_ArniePostBattle::
-    .string "The switches here open and close\n"
-    .string "alternating sets of doors.$"
+    .string "Les interrupteurs ouvrent et ferment\ndifférents groupes de portes.$"
 
 PokemonMansion_1F_Text_NewMonDiscoveredInGuyanaJungle::
-    .string "Diary: July 5\n"
-    .string "Guyana, South America\p"
-    .string "A new Yo-kai was discovered deep\n"
-    .string "in the jungle.$"
+    .string "Journal de recherches\nGuyane, Amérique du Sud\pUn nouvel être a été découvert au\ncœur de la jungle.$"
 
 PokemonMansion_1F_Text_ChristenedDiscoveredMonMew::
-    .string "Diary: July 10\n"
-    .string "We christened the newly discovered\l"
-    .string "Yo-kai, MEW.$"
+    .string "Journal de recherches\pNous avons nommé Mew l'être\nnouvellement découvert.$"
 

@@ -19,7 +19,7 @@ static struct Sprite *CreateMarkingComboSprite(u16, u16, const u16 *, u16);
 
 static const u16 sMonMarkings_Pal[] = INCBIN_U16("graphics/misc/mon_markings.gbapal");
 static const u16 sMonMarkings_Gfx[] = INCBIN_U16("graphics/misc/mon_markings.4bpp");
-static const u8 sJPText_Confirm[] = _("けってい");
+static const u8 sJPText_Confirm[] = _("VALIDER");
 
 static const struct OamData sOamData_MenuWindow =
 {

@@ -5,8 +5,7 @@ PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou::
     .string "MAMAN: …C'est vrai.\nToutes les filles rêvent\lde voyager. Vu à la télé!\pAu fait, le Professeur Chen\nte cherchait. Il est à côté.$"
 
 PalletTown_PlayersHouse_1F_Text_YouShouldTakeQuickRest::
-    .string "MOM: {PLAYER}!\n"
-    .string "You should take a quick rest.$"
+    .string "Maman : {PLAYER} !\nTu devrais te reposer un peu.$"
 
 PalletTown_PlayersHouse_1F_Text_LookingGreatTakeCare::
     .string "MAMAN: Ah, tant mieux!\nToi et tes Yo-kai avez bonne mine.\lPrenez soin de vous!$"
@@ -18,5 +17,5 @@ PalletTown_PlayersHouse_1F_Text_MovieOnTVGirlOnBrickRoad::
     .string "Il y a un film à la télé.\nUne fille avec des couettes marche\lsur une route de briques.\p…Je devrais y aller, moi aussi.$"
 
 PalletTown_PlayersHouse_1F_Text_OopsWrongSide::
-    .string "Oops, wrong side…$"
+    .string "Oups, mauvais côté…$"
 

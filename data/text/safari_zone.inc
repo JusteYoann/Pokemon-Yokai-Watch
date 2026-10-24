@@ -10,153 +10,88 @@ SafariZone_Text_OutOfBalls::
     .string "HAUT-PARLEUR: Ding-dong!\pVous n'avez plus de Safari Balls!\pVotre partie de Safari\nest terminée!$"
 
 SafariZone_Text_WelcomeToSafariZone::
-	.string "サファリゾーンへ　ようこそ！\p"
-	.string "ここでは　ホウエンでは　なかなか\n"
-	.string "みることの　できない　ポケモンを\p"
-	.string "しぜんの　すがたの　まま\n"
-	.string "めに　することが　できます\p"
-	.string "また　ポケモントレーナーの\n"
-	.string "ようぼうに　おこたえ　して\p"
-	.string "ポケモンを\n"
-	.string "つかまえる　ことも　できます！\p"
-	.string "サファリゾーンを　たのしんで　いってね！$"
+    .string "Bienvenue au Parc Safari !\pTu peux y observer des Yo-kai\nrares à Hoenn, dans la nature.\pEt pour répondre aux attentes\ndes Dresseurs…\pTu peux aussi les capturer !\pProfite bien du Parc Safari !$"
 
 SafariZone_Text_WelcomeFirstTime::
-	.string "サファリゾーンへ　ようこそ！\n"
-	.string "サファリゾーンは　はじめて　ですか？$"
+    .string "Bienvenue au Parc Safari !\nC’est ta première visite ?$"
 
 SafariZone_Text_ComeInAndEnjoy::
-	.string "サファリゾーンを　たのしんで　いってね！$"
+    .string "Profite bien du Parc Safari !$"
 
 SafariZone_Text_FirstTimeInfo::
-	.string "サファリゾーンでは\n"
-	.string "30この　サファリボールを　つかって\l"
-	.string "ポケモンを　つかまえる　ことが　できます\p"
-	.string "サファリボールを　つかいきるか\n"
-	.string "500ぽ　あるくと\p"
-	.string "ゲームは　しゅうりょう　です\p"
-	.string "サファリゾーンを　たのしんで　いってね！$"
+    .string "Tu disposes de 30 Safari Balls\npour capturer des Yo-kai.\pLa partie s’arrête quand tu n’as\nplus de Balls ou après 500 pas.\pProfite bien du Parc Safari !$"
 
 SafariZone_Text_WouldYouLikeToPlay::
-	.string "サファリゾーンへ　ようこそ！\p"
-	.string "500えんで　ポケモン　つかまえほうだい！\n"
-	.string "サファリゲームに　さんか　しますか？$"
+    .string "Bienvenue au Parc Safari !\pPour 500¥, capture autant\nde Yo-kai que possible !\pVeux-tu participer ?$"
 
 SafariZone_Text_PlayAnotherTime::
-	.string "そうですか\n"
-	.string "こんど　ぜひ　さんか　してください！$"
+    .string "Très bien.\nReviens essayer une autre fois !$"
 
 SafariZone_Text_NotEnoughMoney::
-	.string "おかねが　たりませんよ！$"
+    .string "Tu n’as pas assez d’argent !$"
 
 SafariZone_Text_ThatWillBe500Please::
-	.string "それでは　500えん　いただきます$"
+    .string "Cela fera 500¥, s’il te plaît.$"
 
 SafariZone_Text_HereAreYourSafariBalls::
-	.string "では　サファリボールを　どうぞ！$"
+    .string "Voici tes Safari Balls !$"
 
 SafariZone_Text_Received30SafariBalls::
-	.string "{PLAYER}は　サファリボールを\n"
-	.string "30こ　うけとった！$"
+    .string "{PLAYER} reçoit\n30 Safari Balls !$"
 
 SafariZone_Text_PleaseEnjoyYourself::
-	.string "じかんに　なりましたら\n"
-	.string "こちらから　おしらせ　しますので\p"
-	.string "ぞんぶんに　おたのしみ　ください！\n"
-	.string "では　いってらっしゃい！$"
+    .string "Nous t’avertirons\nquand la partie sera terminée.\pProfite bien de ta visite !$"
 
 SafariZone_Text_ExcuseMeYourPCBoxIsFull::
     .string "Excuse-moi!\nTa Boîte PC est pleine.$"
 
 SafariZone_Text_YouNeedPokeblockCase::
-	.string "あ！　おきゃくさん\n"
-	.string "ポロックケースを　おもちで　ないですね？\p"
-	.string "サファリゾーンは　ポロックを　つかうと\n"
-	.string "より　おたのしみ　いただけますので\p"
-	.string "ぜひ　ポロックケースを\n"
-	.string "おもちに　なって　おこし　ください！$"
+    .string "Oh ! Tu n’as pas\nde Boîte à Pokéblocs ?\pLe Parc Safari est encore plus\namusant avec des Pokéblocs.\pReviens avec une Boîte\nà Pokéblocs !$"
 
 SafariZone_South_Text_StillHaveTimeExit::
-	.string "まだ　じかんが　のこっていますが\n"
-	.string "サファリゾーンを　やめますか？$"
+    .string "Il te reste encore du temps.\nVeux-tu quitter le Parc Safari ?$"
 
 SafariZone_South_Text_EnjoyTheRestOfYourAdventure::
-	.string "では　ひきつづき　おたのしみ　ください！$"
+    .string "Continue à bien t’amuser !$"
 
 SafariZone_South_Text_ExitEarlyThankYouForPlaying::
-	.string "わかりました\p"
-	.string "それでは　のこりの　サファリボールを\n"
-	.string "おあずかり　します\p"
-	.string "おつかれさまでした\n"
-	.string "また　ごりよう　ください$"
+    .string "Très bien.\pJe récupère les Safari Balls\nqu’il te reste.\pMerci de ta visite !\nReviens nous voir !$"
 
 SafariZone_South_Text_GoodLuck::
-	.string "それでは　いってらっしゃい！\l"
-	.string "なにか　ありましたら\n"
-	.string "わたしに　こえを　かけて　くださいね$"
+    .string "Bonne visite !\pSi tu as besoin d’aide,\nviens me parler !$"
 
 SafariZone_South_Text_Boy::
-	.string "しってた？\p"
-	.string "あの　しかくい　はこに　ポロックを　おくと\n"
-	.string "ポケモンが　あつまって　くるんだよ！$"
+    .string "Tu savais que les Yo-kai\nse rassemblent autour des boîtes\loù l’on dépose des Pokéblocs ?$"
 
 SafariZone_South_Text_Man::
-	.string "この　さきに　いきたい　けど\n"
-	.string "じてんしゃ　もって　くるの　わすれた‥‥\p"
-	.string "おくに　めずらしい　ポケモンが\n"
-	.string "いそうな　きが　するのに！$"
+    .string "J’aimerais aller plus loin,\nmais j’ai oublié mon vélo…\pJe suis sûr qu’il y a\ndes Yo-kai rares là-bas !$"
 
 SafariZone_Southwest_Text_Woman::
-	.string "ポケモンに　ポロックを　なげても\n"
-	.string "しらんぷり　される　ときが　あるのよ\p"
-	.string "ポケモンにも　すききらいが　あるのかしら？$"
+    .string "Parfois, les Yo-kai ignorent\nles Pokéblocs que je leur lance.\pIls ont sûrement\nleurs préférences, eux aussi !$"
 
 SafariZone_Northwest_Text_Man::
-	.string "ぜぇ‥‥　ぜぇ‥‥\n"
-	.string "やっと　ここまで　きたけど‥‥\p"
-	.string "つかれちゃって　ポケモン　つかまえる\n"
-	.string "げんきも　のこって　ないよ‥‥$"
+    .string "Pfiou… Enfin arrivé !\pMais je suis trop fatigué\npour capturer des Yo-kai…$"
 
 SafariZone_North_Text_Fisherman::
-	.string "ホウエンに　いない　みずポケモンを\n"
-	.string "さがしに　きたんだけど‥‥\p"
-	.string "みずうみは　どこにあるのか\n"
-	.string "きみ　しってるかい？$"
+    .string "Je cherche des Yo-kai aquatiques\nintrouvables à Hoenn.\pTu sais où se trouve le lac ?$"
 
 SafariZone_North_Text_Man::
-	.string "ここで　めずらしい　ポケモンを\n"
-	.string "たくさん　つかまえて\l"
-	.string "ともだちと　こうかん　するんだ！$"
+    .string "Je vais capturer plein de Yo-kai\nrares pour les échanger\lavec mes amis !$"
 
 SafariZone_South_Text_Youngster::
-	.string "ポロックおきばに　おいた　ポロックが\n"
-	.string "いつのまにか　なくなっていた‥‥\p"
-	.string "しらない　うちに\n"
-	.string "ポケモンが　たべちゃったのかな？$"
+    .string "Les Pokéblocs que j’avais déposés\nont disparu sans que je m’en\laperçoive…\pLes Yo-kai les ont peut-être mangés\npendant que j’avais le dos tourné !$"
 
 Route121_SafariZoneEntrance_Text_TrainerTip::
-	.string "サファリゾーンの　おとくな　じょうほう！\p"
-	.string "であった　ポケモンに\n"
-	.string "ポロックを　なげると　にげにくく　なります！$"
+    .string "ASTUCE DU PARC SAFARI\pLance un Pokébloc à un Yo-kai\npour réduire ses chances de fuir !$"
 
 SafariZone_Southwest_Text_RestHouseSign::
-	.string "あるき　つかれたら　ちょっと　ひといき！\n"
-	.string "‘みんなの　きゅうけいじょ'$"
+    .string "Une pause quand la marche fatigue !\nLa maison de repos pour tous$"
 
 SafariZone_RestHouse_Text_Youngster::
-	.string "おれ　ポロック　もってないけど\n"
-	.string "ポケモン　たくさん　つかまえたよ\p"
-	.string "ちかづいて　ボールを　なげる　だけで\n"
-	.string "けっこう　つかまえられる　もんだよ！$"
+    .string "Je n’ai pas de Pokéblocs,\nmais j’ai capturé plein de Yo-kai !\pIl suffit souvent de s’approcher\net de lancer une Ball !$"
 
 SafariZone_RestHouse_Text_PsychicM::
-	.string "ポロックを　つかうと　いつもより\n"
-	.string "ちょっぴり　にげにくく　なるみたい\p"
-	.string "だから　にげにくい　ポケモンに　つかっても\n"
-	.string "あんまり　いみが　ないかもね$"
+    .string "Les Pokéblocs réduisent un peu\nles chances de fuite des Yo-kai.\pIls sont donc moins utiles\nsur ceux qui fuient rarement.$"
 
 SafariZone_RestHouse_Text_FatMan::
-	.string "ポロックおきばに　ポロック　おいて\n"
-	.string "ポケモンを　つかまえると\p"
-	.string "おなじ　ような　せいかくの　ポケモンが\n"
-	.string "あつまる　きが　するなあ$"
+    .string "Quand je dépose des Pokéblocs\ndans les boîtes à appâts…\pJ’ai l’impression d’attirer\ndes Yo-kai au caractère similaire !$"

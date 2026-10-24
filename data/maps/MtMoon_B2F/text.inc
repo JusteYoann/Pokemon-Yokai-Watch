@@ -11,7 +11,7 @@ MtMoon_B2F_Text_ThenThisFossilIsMine::
     .string "Très bien.\nAlors, je prends celui-ci!$"
 
 MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils::
-    .string "Sur CINNABAR ISLAND,\nun Laboratoire étudie les Yo-kai.\pIls travaillent notamment\nsur la régénération des fossiles.$"
+    .string "Sur CRAMOIS’ÎLE,\nun Laboratoire étudie les Yo-kai.\pIls travaillent notamment\nsur la régénération des fossiles.$"
 
 MtMoon_B2F_Text_Grunt1Intro::
     .string "Ces fossiles sont réservés à la\nMafiamille. Le Don sait reconnaître\lun bon placement!$"

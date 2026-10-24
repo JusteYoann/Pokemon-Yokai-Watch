@@ -1,52 +1,27 @@
 CeladonCity_Condominiums_RoofRoom_Text_TheresNothingIDontKnow::
-    .string "There is nothing that I don't know,\n"
-    .string "like I wrote on the blackboard.\p"
-    .string "I know about the world of Yo-kai\n"
-    .string "in your GAME BOY ADVANCE!\p"
-    .string "Get together with your friends and\n"
-    .string "enjoy trading Yo-kai!$"
+    .string "Comme je l'ai écrit au tableau, rien\nne m'échappe !\pJe connais le monde des Yo-kai qui\nvivent dans ta GAME BOY ADVANCE !\pRetrouve tes amis et amusez-vous à\néchanger des Yo-kai !$"
 
 CeladonCity_Condominiums_RoofRoom_Text_ObtainedAnEevee::
     .string "{PLAYER} reçoit un Jibanyan!$"
 
 CeladonCity_Condominiums_RoofRoom_Text_BoxIsFull::
-    .string "ポケモンが　いっぱいだ\n"
-    .string "ボックスを　かえて　きなさい$"
+    .string "Tes Boîtes sont pleines.\nFais de la place, puis reviens.$"
 
 CeladonCity_Condominiums_RoofRoom_Text_WirelessAdapterLecture::
-    .string "Yo-kai Lecture\p"
-    .string "Playing with the Wireless Adapter$"
+    .string "Leçon sur les Yo-kai\pJouer avec l'adaptateur sans fil$"
 
 CeladonCity_Condominiums_RoofRoom_Text_ReadWhichHeading::
-    .string "Which heading do you want to read?$"
+    .string "Quelle rubrique veux-tu lire ?$"
 
 CeladonCity_Condominiums_RoofRoom_Text_ExplainWirelessClub::
-    .string "The Yo-kai WIRELESS CLUB is\n"
-    .string "upstairs at any Centre Yo-kai.\p"
-    .string "Visit one to link up with friend(s)\n"
-    .string "using your Wireless Adapter.$"
+    .string "Le Club Sans Fil se trouve à l'étage\ndes Centres Yo-kai.\pTu peux y retrouver tes amis grâce à\nl'adaptateur sans fil.$"
 
 CeladonCity_Condominiums_RoofRoom_Text_ExplainDirectCorner::
-    .string "To link only with a friend, go to\n"
-    .string "the DIRECT CORNER.\p"
-    .string "It is the right counter at the\n"
-    .string "Yo-kai WIRELESS CLUB.\p"
-    .string "Go into the TRADE CORNER or the\n"
-    .string "COLOSSEUM with your friend.$"
+    .string "Pour te connecter uniquement avec un\nami, rends-toi au Coin Direct.\pC'est le guichet de droite du Club\nSans Fil.\pAvec ton ami, entre dans la Salle\nd'Échange ou le Colisée.$"
 
 CeladonCity_Condominiums_RoofRoom_Text_ExplainUnionRoom::
-    .string "To link and communicate with\n"
-    .string "anyone, go to the UNION ROOM.\p"
-    .string "It is the left counter at the\n"
-    .string "Yo-kai WIRELESS CLUB.\p"
-    .string "Go to the UNION ROOM and enjoy\n"
-    .string "meeting other TRAINERS.$"
+    .string "Pour rencontrer tous les joueurs à\nproximité, entre dans la Salle Union.\pC'est le guichet de gauche du Club\nSans Fil.\pTu pourras y faire connaissance avec\nd'autres Dresseurs !$"
 
 CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs::
-    .string "It's a pamphlet on TMs.\p"
-    .string "… …\p"
-    .string "There are fifty TMs in all.\p"
-    .string "There are also seven HMs that\n"
-    .string "can be used repeatedly.\p"
-    .string "Yopple$"
+    .string "C'est une brochure sur les CT.\p... ...\pIl existe cinquante CT en tout.\pIl y a aussi sept CS, utilisables\nautant de fois que tu le souhaites.\pYopple$"
 

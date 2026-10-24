@@ -1,0 +1,266 @@
+[
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_WouldYouLikeToMixRecords",
+    "before": "Would you like to mix records with\\nother TRAINERS?$",
+    "after": "Voulez-vous échanger des données\\navec d'autres Dresseurs ?$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_WeHopeToSeeYouAgain2",
+    "before": "We hope to see you again!$",
+    "after": "Nous espérons vous revoir bientôt !$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_WelcomeTradeCenter",
+    "before": "Welcome to the POKéMON CABLE CLUB\\nTRADE CENTER.$",
+    "after": "Bienvenue au Centre d'Échange du\\nClub Câble Yo-kai.$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_WelcomeColosseum",
+    "before": "Welcome to the POKéMON CABLE CLUB\\nCOLOSSEUM.$",
+    "after": "Bienvenue au Colisée du Club Câble\\nYo-kai.$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_WelcomeTimeCapsule",
+    "before": "Welcome to the POKéMON CABLE CLUB\\nTIME CAPSULE.$",
+    "after": "Bienvenue dans la Capsule Temporelle\\ndu Club Câble Yo-kai.$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_PleaseComeAgain",
+    "before": "Please come again!$",
+    "after": "Revenez nous voir !$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_HavingDiscountSaleToday",
+    "before": "Welcome!\\pWe're having a discount sale today!$",
+    "after": "Bienvenue !\\pAujourd'hui, nous proposons des\\nréductions !$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_PlayerWhatCanIDoForYou",
+    "before": "{PLAYER}{KUN}, welcome!\\pWhat can I do for you?$",
+    "after": "Bienvenue, {PLAYER}{KUN} !\\pQue puis-je pour vous ?$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_MakingPreparations",
+    "before": "じゅんびちゅうです！$",
+    "after": "Préparatifs en cours !$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_WantWhichFloor",
+    "before": "Which floor do you want?$",
+    "after": "À quel étage voulez-vous aller ?$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_BagItemCanBeRegistered",
+    "before": "An item in the BAG can be\\nregistered to SELECT for easy use.$",
+    "after": "Vous pouvez enregistrer un objet du\\nSac sur SELECT pour l'utiliser\\lrapidement.$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_TrainerSchoolEmail",
+    "before": "パソコンに\\nポケモン　トレーナー　こうざの\\lメールが　きている！\\p‥‥　‥‥　‥‥\\pポケモンが　おぼえられる　わざは　4つ！\\pどんな　わざを　おぼえさせるかで\\nトレーナーの　じつりょくが　とわれます！\\p‥‥　‥‥　‥‥$",
+    "after": "Un message de l'École des Dresseurs\\nest arrivé sur le PC !\\p… … …\\pUn Yo-kai peut connaître quatre\\ncapacités !\\pLe choix des capacités révèle les\\nqualités du Dresseur.\\p… … …$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_PlayerBootedUpPC",
+    "before": "{PLAYER} booted up the PC.$",
+    "after": "{PLAYER} allume le PC.$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_LinkWasCanceled",
+    "before": "つうしんは　キャンセルされました$",
+    "after": "La communication a été annulée.$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_GiveNicknameToReceivedMon",
+    "before": "Want to give a nickname to the\\n{STR_VAR_2} you received?$",
+    "after": "Voulez-vous donner un surnom au\\n{STR_VAR_2} que vous avez reçu ?$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "gText_PkmnFainted3",
+    "before": "{STR_VAR_1} fainted…\\p$",
+    "after": "{STR_VAR_1} est K.O.…\\p$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_WelcomeWantToHealPkmn",
+    "before": "Welcome to our POKéMON CENTER!\\pWould you like me to heal your\\nPOKéMON back to perfect health?$",
+    "after": "Bienvenue au Centre Yo-kai !\\pVoulez-vous que je soigne vos Yo-kai\\npour les remettre en pleine forme ?$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_TakeYourPkmnForFewSeconds",
+    "before": "Okay, I'll take your POKéMON for a\\nfew seconds.$",
+    "after": "Très bien, je vais prendre vos Yo-kai\\nquelques instants.$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_WeHopeToSeeYouAgain",
+    "before": "We hope to see you again!$",
+    "after": "Nous espérons vous revoir bientôt !$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_RestoredPkmnToFullHealth",
+    "before": "Thank you for waiting.\\nWe've restored your POKéMON to\\lfull health.$",
+    "after": "Merci d'avoir patienté. Vos Yo-kai ont\\nretrouvé toute leur énergie.$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_DoorOpenedFarAway",
+    "before": "どこか　とおくの　とびらが\\nひらいたような　おとだ‥‥$",
+    "after": "On dirait qu'une porte vient de\\ns'ouvrir au loin…$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_BigHoleInTheWall",
+    "before": "かべに\\nおおきな　あなが　あいている！$",
+    "after": "Il y a un grand trou dans le mur !$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_WirelessClubUndergoingAdjustments",
+    "before": "I'm terribly sorry.\\nThe POKéMON WIRELESS CLUB is\\lundergoing adjustments now.$",
+    "after": "Je suis vraiment désolée. Le Club\\nSans Fil Yo-kai est actuellement en\\lcours de réglage.$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_AppearsToBeUndergoingAdjustments",
+    "before": "It appears to be undergoing\\nadjustments…$",
+    "after": "Des réglages semblent être en cours…$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_HandedOverItem",
+    "before": "{PLAYER} handed over the\\n{STR_VAR_1}.$",
+    "after": "{PLAYER} remet {STR_VAR_1}.$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_GiveNicknameToThisMon",
+    "before": "Do you want to give a nickname to\\nthis {STR_VAR_1}?$",
+    "after": "Voulez-vous donner un surnom à ce\\n{STR_VAR_1} ?$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_CardKeyOpenedDoor",
+    "before": "Bingo!\\nThe CARD KEY opened the door!$",
+    "after": "Bingo ! La Carte Magnétique a ouvert\\nla porte !$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_ItNeedsCardKey",
+    "before": "No!\\nIt needs a CARD KEY!$",
+    "after": "Non ! Il faut une Carte Magnétique !$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_AccessedProfOaksPC",
+    "before": "Accessed PROF. OAK's PC…\\pAccessed the POKéDEX Rating\\nSystem…$",
+    "after": "Connexion au PC du Prof. Chen…\\pAccès au système d'évaluation du\\nMédallium…$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_HavePokedexRated",
+    "before": "Would you like to have your\\nPOKéDEX rated?$",
+    "after": "Voulez-vous faire évaluer votre\\nMédallium ?$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_ClosedLinkToProfOaksPC",
+    "before": "Closed link to PROF. OAK's PC.$",
+    "after": "La connexion au PC du Prof. Chen est\\nfermée.$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_VoiceRangOutDontRunAway",
+    "before": "Someone's voice rang out,\\n“Don't run away!”$",
+    "after": "Une voix retentit :\\n“Ne t'enfuis pas !”$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_IdLikeToSeeRequest",
+    "before": "えっとー\\n{STR_VAR_2}が　みてみたいなー\\pそれも　{STR_VAR_1}{STR_VAR_3}\\n{STR_VAR_2}が　みてみたいなー$",
+    "after": "Euh… J'aimerais voir {STR_VAR_2}.\\pPlus précisément, {STR_VAR_2}\\navec {STR_VAR_1}{STR_VAR_3}.$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_ThankYouForShowingMe",
+    "before": "わぁー　すごい！\\n{STR_VAR_1}{STR_VAR_3}{STR_VAR_2}だー！\\pありがとー\\nまた　よろしくねー！$",
+    "after": "Oh, formidable !\\n{STR_VAR_1}{STR_VAR_3}{STR_VAR_2}\\l!\\pMerci ! À la prochaine !$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_ThatsNotRight",
+    "before": "それっ　ちがうよー！$",
+    "after": "Ce n'est pas le bon !$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_ISee",
+    "before": "そっか‥$",
+    "after": "Je vois…$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_TheDoorIsClosed",
+    "before": "ドアは　しまっている‥$",
+    "after": "La porte est fermée…$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_TheDoorIsOpen",
+    "before": "The door is open…$",
+    "after": "La porte est ouverte…$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_MonFlewAway",
+    "before": "The {STR_VAR_1} flew away!$",
+    "after": "Le {STR_VAR_1} s'est envolé !$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_TheresBedLetsRest",
+    "before": "ベッドが　ある‥‥\\nやすんでいこう$",
+    "after": "Il y a un lit… Reposons-nous un peu.$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_FoundTMHMContainsMove",
+    "before": "{PLAYER} found a {STR_VAR_2}!\\nIt contains {STR_VAR_1}.$",
+    "after": "{PLAYER} trouve {STR_VAR_2} !\\nCette capsule contient\\l{STR_VAR_1}.$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_Gyaoo",
+    "before": "Gyaoo!$",
+    "after": "Gyaoo !$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_MoveCanOnlyBeLearnedOnce",
+    "before": "This move can be learned only\\nonce. Is that okay?$",
+    "after": "Cette capacité ne peut être apprise\\nqu'une fois. Êtes-vous d'accord ?$"
+  },
+  {
+    "file": "data/event_scripts.s",
+    "symbol": "Text_TestMsg",
+    "before": "テストよう　メッセージです！\\nポケモンの　せかいへ　ようこそ！$",
+    "after": "Message de test !\\nBienvenue dans le monde des Yo-kai !$"
+  }
+]

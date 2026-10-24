@@ -1,38 +1,21 @@
 Text_SwordsDanceTeach::
-    .string "Not many people come out here.\p"
-    .string "If I train here, I'm convinced that\n"
-    .string "I'll get stronger and stronger.\p"
-    .string "Yep, stronger and stronger…\p"
-    .string "How would you like to learn a move\n"
-    .string "like that? It's SWORDS DANCE.$"
+    .string "Peu de gens viennent ici.\pEn m'entraînant ici, je suis sûr de\ndevenir toujours plus fort.\pOui, toujours plus fort…\pTu veux apprendre une capacité de\nce genre ? C'est Danse Lames.$"
 
 Text_SwordsDanceDeclined::
-    .string "Well, that's fine, too.$"
+    .string "Eh bien, comme tu veux.$"
 
 Text_SwordsDanceWhichMon::
-    .string "All right, pick which Yo-kai\n"
-    .string "I should teach it to.$"
+    .string "D'accord. Choisis le Yo-kai à qui je\ndois l'enseigner.$"
 
 Text_SwordsDanceTaught::
-    .string "If only we could keep getting\n"
-    .string "stronger and stronger, eh?$"
+    .string "Si seulement on pouvait devenir\ntoujours plus forts, hein ?$"
 
 SevenIsland_Text_IslandSign::
-    .string "SEVEN ISLAND\n"
-    .string "Quest Island of Infinity$"
+    .string "ÎLE 7\nL'île aux quêtes infinies$"
 
 SevenIsland_Text_IslandsMadeInSevenDays::
-    .string "These islands are called the SEVII\n"
-    .string "ISLANDS because there are seven.\p"
-    .string "…Or at least that's what the young\n"
-    .string "people believe.\p"
-    .string "The truth is, these islands are so\n"
-    .string "named because they are said to\l"
-    .string "have been made in seven days.$"
+    .string "On appelle ces îles les Îles Sevii\nparce qu'il y en a sept.\p… C'est du moins ce que croient les\njeunes.\pEn réalité, elles portent ce nom\nparce que, selon la légende, elles\lont été créées en sept jours.$"
 
 SevenIsland_Text_IslandVirtuallyUntouched::
-    .string "This island has been left virtually\n"
-    .string "untouched in its natural state.\p"
-    .string "It could be a little difficult to\n"
-    .string "hike around because of that.$"
+    .string "Cette île a presque entièrement\nconservé son état naturel.\pDu coup, les randonnées peuvent y\nêtre un peu difficiles.$"
 

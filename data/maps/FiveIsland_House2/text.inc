@@ -1,8 +1,3 @@
 FiveIsland_House2_Text_MeadowBelongedToFamily::
-    .string "That MEADOW has belonged to our\n"
-    .string "family for generations.\p"
-    .string "I should have had a giant mansion\n"
-    .string "built on it.\p"
-    .string "It would be preferable to having\n"
-    .string "those thugs run wild on it!$"
+    .string "Ce Pré appartient à ma famille depuis\ndes générations.\pJ'aurais dû y faire construire un\nimmense manoir.\pCe serait toujours mieux que d'y\nlaisser traîner ces voyous !$"
 

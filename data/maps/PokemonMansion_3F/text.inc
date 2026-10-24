@@ -1,35 +1,30 @@
 PokemonMansion_Text_PressSecretSwitchJP::
-    .string "ひみつの　スイッチが　ある！\p"
-    .string "おして　みますか？$"
+    .string "Il y a un bouton secret !\pVeux-tu appuyer dessus ?$"
 
 PokemonMansion_Text_LetsTryIt::
-    .string "おしてみよう！　‥ポチッとな$"
+    .string "Essayons !\n… Clic !$"
 
 PokemonMansion_Text_GaveUpOnPressingSwitch::
-    .string "おすのは　あきらめた$"
+    .string "Tu renonces à appuyer.$"
 
 PokemonMansion_1F_Text_SimonIntro::
-    .string "This place is, like, huge!$"
+    .string "Cet endroit est immense !$"
 
 PokemonMansion_1F_Text_SimonDefeat::
-    .string "Ayah!$"
+    .string "Aïe !$"
 
 PokemonMansion_1F_Text_SimonPostBattle::
-    .string "I wonder where my partner went.$"
+    .string "Où est donc passé mon partenaire ?$"
 
 PokemonMansion_1F_Text_BraydonIntro::
-    .string "My mentor once lived here.$"
+    .string "Mon mentor vivait ici autrefois.$"
 
 PokemonMansion_1F_Text_BraydonDefeat::
-    .string "Whew!\n"
-    .string "Overwhelming!$"
+    .string "Ouf ! Quelle puissance !$"
 
 PokemonMansion_1F_Text_BraydonPostBattle::
-    .string "So, you're stuck?\n"
-    .string "Try jumping off over there!$"
+    .string "Tu es coincé ?\nEssaie de sauter, là-bas !$"
 
 PokemonMansion_1F_Text_MewGaveBirthToMewtwo::
-    .string "Diary: Feb. 6\n"
-    .string "MEW gave birth.\p"
-    .string "We named the newborn MEWTWO.$"
+    .string "Journal de recherches\pMew a donné naissance à un petit.\pNous l'avons nommé Mewtwo.$"
 

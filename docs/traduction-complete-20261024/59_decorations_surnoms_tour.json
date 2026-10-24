@@ -1,0 +1,2882 @@
+[
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "NONE",
+    "before": "SMALL DESK",
+    "after": "PETIT BUREAU"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "SMALL_DESK",
+    "before": "SMALL DESK",
+    "after": "PETIT BUREAU"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "POKEMON_DESK",
+    "before": "Yo-kai DESK",
+    "after": "BUREAU YO-KAI"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "HEAVY_DESK",
+    "before": "HEAVY DESK",
+    "after": "BUREAU LOURD"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "RAGGED_DESK",
+    "before": "RAGGED DESK",
+    "after": "BUREAU RUSTIQUE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "COMFORT_DESK",
+    "before": "COMFORT DESK",
+    "after": "BUREAU CONFORT"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "PRETTY_DESK",
+    "before": "PRETTY DESK",
+    "after": "JOLI BUREAU"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "BRICK_DESK",
+    "before": "BRICK DESK",
+    "after": "BUREAU BRIQUES"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "CAMP_DESK",
+    "before": "CAMP DESK",
+    "after": "BUREAU CAMPING"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "HARD_DESK",
+    "before": "HARD DESK",
+    "after": "BUREAU SOLIDE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "SMALL_CHAIR",
+    "before": "SMALL CHAIR",
+    "after": "PETITE CHAISE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "POKEMON_CHAIR",
+    "before": "Yo-kai CHAIR",
+    "after": "CHAISE YO-KAI"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "HEAVY_CHAIR",
+    "before": "HEAVY CHAIR",
+    "after": "CHAISE LOURDE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "PRETTY_CHAIR",
+    "before": "PRETTY CHAIR",
+    "after": "JOLIE CHAISE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "COMFORT_CHAIR",
+    "before": "COMFORT CHAIR",
+    "after": "CHAISE CONFORT"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "RAGGED_CHAIR",
+    "before": "RAGGED CHAIR",
+    "after": "CHAISE RUSTIQUE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "BRICK_CHAIR",
+    "before": "BRICK CHAIR",
+    "after": "CHAISE BRIQUES"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "CAMP_CHAIR",
+    "before": "CAMP CHAIR",
+    "after": "CHAISE CAMPING"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "HARD_CHAIR",
+    "before": "HARD CHAIR",
+    "after": "CHAISE SOLIDE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "RED_PLANT",
+    "before": "RED PLANT",
+    "after": "PLANTE ROUGE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "TROPICAL_PLANT",
+    "before": "TROPICAL PLANT",
+    "after": "PLANTE TROPIC."
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "PRETTY_FLOWERS",
+    "before": "PRETTY FLOWERS",
+    "after": "JOLIES FLEURS"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "COLORFUL_PLANT",
+    "before": "COLORFUL PLANT",
+    "after": "PLANTE COLORÉE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "BIG_PLANT",
+    "before": "BIG PLANT",
+    "after": "GRANDE PLANTE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "GORGEOUS_PLANT",
+    "before": "GORGEOUS PLANT",
+    "after": "PLANTE SUPERBE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "RED_BRICK",
+    "before": "RED BRICK",
+    "after": "BRIQUE ROUGE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "YELLOW_BRICK",
+    "before": "YELLOW BRICK",
+    "after": "BRIQUE JAUNE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "BLUE_BRICK",
+    "before": "BLUE BRICK",
+    "after": "BRIQUE BLEUE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "RED_BALLOON",
+    "before": "RED BALLOON",
+    "after": "BALLON ROUGE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "BLUE_BALLOON",
+    "before": "BLUE BALLOON",
+    "after": "BALLON BLEU"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "YELLOW_BALLOON",
+    "before": "YELLOW BALLOON",
+    "after": "BALLON JAUNE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "RED_TENT",
+    "before": "RED TENT",
+    "after": "TENTE ROUGE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "BLUE_TENT",
+    "before": "BLUE TENT",
+    "after": "TENTE BLEUE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "SOLID_BOARD",
+    "before": "SOLID BOARD",
+    "after": "PLANCHE SOLIDE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "SLIDE",
+    "before": "SLIDE",
+    "after": "TOBOGGAN"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "FENCE_LENGTH",
+    "before": "FENCE LENGTH",
+    "after": "BARRIÈRE LONG."
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "FENCE_WIDTH",
+    "before": "FENCE WIDTH",
+    "after": "BARRIÈRE LARG."
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "TIRE",
+    "before": "TIRE",
+    "after": "PNEU"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "STAND",
+    "before": "STAND",
+    "after": "SOCLE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "MUD_BALL",
+    "before": "MUD BALL",
+    "after": "BOULE DE BOUE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "BREAKABLE_DOOR",
+    "before": "BREAKABLE DOOR",
+    "after": "PORTE FRAGILE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "SAND_ORNAMENT",
+    "before": "SAND ORNAMENT",
+    "after": "OBJET EN SABLE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "SILVER_SHIELD",
+    "before": "SILVER SHIELD",
+    "after": "BOUCLIER ARGENT"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "GOLD_SHIELD",
+    "before": "GOLD SHIELD",
+    "after": "BOUCLIER OR"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "GLASS_ORNAMENT",
+    "before": "GLASS ORNAMENT",
+    "after": "OBJET EN VERRE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "TV",
+    "before": "TV",
+    "after": "TÉLÉ"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "ROUND_TV",
+    "before": "ROUND TV",
+    "after": "TÉLÉ RONDE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "CUTE_TV",
+    "before": "CUTE TV",
+    "after": "JOLIE TÉLÉ"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "GLITTER_MAT",
+    "before": "GLITTER MAT",
+    "after": "TAPIS BRILLANT"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "JUMP_MAT",
+    "before": "JUMP MAT",
+    "after": "TAPIS SAUTEUR"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "SPIN_MAT",
+    "before": "SPIN MAT",
+    "after": "TAPIS TOURNANT"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "C_LOW_NOTE_MAT",
+    "before": "C Low NOTE MAT",
+    "after": "TAPIS DO GRAVE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "D_NOTE_MAT",
+    "before": "D NOTE MAT",
+    "after": "TAPIS RÉ"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "E_NOTE_MAT",
+    "before": "E NOTE MAT",
+    "after": "TAPIS MI"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "F_NOTE_MAT",
+    "before": "F NOTE MAT",
+    "after": "TAPIS FA"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "G_NOTE_MAT",
+    "before": "G NOTE MAT",
+    "after": "TAPIS SOL"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "A_NOTE_MAT",
+    "before": "A NOTE MAT",
+    "after": "TAPIS LA"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "B_NOTE_MAT",
+    "before": "B NOTE MAT",
+    "after": "TAPIS SI"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "C_HIGH_NOTE_MAT",
+    "before": "C High NOTE MAT",
+    "after": "TAPIS DO AIGU"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "SURF_MAT",
+    "before": "SURF MAT",
+    "after": "TAPIS SURF"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "THUNDER_MAT",
+    "before": "THUNDER MAT",
+    "after": "TAPIS FOUDRE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "FIRE_BLAST_MAT",
+    "before": "FIRE BLAST MAT",
+    "after": "TAPIS DÉFLAG."
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "POWDER_SNOW_MAT",
+    "before": "POWDER SNOW MAT",
+    "after": "TAPIS POUDREUSE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "ATTRACT_MAT",
+    "before": "ATTRACT MAT",
+    "after": "TAPIS ATTRACT."
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "FISSURE_MAT",
+    "before": "FISSURE MAT",
+    "after": "TAPIS ABÎME"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "SPIKES_MAT",
+    "before": "SPIKES MAT",
+    "after": "TAPIS PICOTS"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "BALL_POSTER",
+    "before": "BALL POSTER",
+    "after": "AFFICHE BALL"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "GREEN_POSTER",
+    "before": "GREEN POSTER",
+    "after": "AFFICHE VERTE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "RED_POSTER",
+    "before": "RED POSTER",
+    "after": "AFFICHE ROUGE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "BLUE_POSTER",
+    "before": "BLUE POSTER",
+    "after": "AFFICHE BLEUE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "CUTE_POSTER",
+    "before": "CUTE POSTER",
+    "after": "JOLIE AFFICHE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "PIKA_POSTER",
+    "before": "PIKA POSTER",
+    "after": "AFFICHE PIKA"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "LONG_POSTER",
+    "before": "LONG POSTER",
+    "after": "AFFICHE LONGUE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "SEA_POSTER",
+    "before": "SEA POSTER",
+    "after": "AFFICHE MARINE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "SKY_POSTER",
+    "before": "SKY POSTER",
+    "after": "AFFICHE CÉLESTE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "KISS_POSTER",
+    "before": "KISS POSTER",
+    "after": "AFFICHE BISOUS"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "PICHU_DOLL",
+    "before": "PICHU DOLL",
+    "after": "POUP. PICHU"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "PIKACHU_DOLL",
+    "before": "PIKACHU DOLL",
+    "after": "POUP. PIKACHU"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "MARILL_DOLL",
+    "before": "MARILL DOLL",
+    "after": "POUP. MARILL"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "TOGEPI_DOLL",
+    "before": "TOGEPI DOLL",
+    "after": "POUP. TOGEPI"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "CYNDAQUIL_DOLL",
+    "before": "CYNDAQUIL DOLL",
+    "after": "POUP. HÉRIC."
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "CHIKORITA_DOLL",
+    "before": "CHIKORITA DOLL",
+    "after": "POUP. GERMIGNON"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "TOTODILE_DOLL",
+    "before": "TOTODILE DOLL",
+    "after": "POUP. KAIMINUS"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "JIGGLYPUFF_DOLL",
+    "before": "JIGGLYPUFF DOLL",
+    "after": "POUP. RONDOUDOU"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "MEOWTH_DOLL",
+    "before": "MEOWTH DOLL",
+    "after": "POUP. MIAOUSS"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "CLEFAIRY_DOLL",
+    "before": "CLEFAIRY DOLL",
+    "after": "POUP. MÉLOFÉE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "DITTO_DOLL",
+    "before": "DITTO DOLL",
+    "after": "POUP. MÉTAMORPH"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "SMOOCHUM_DOLL",
+    "before": "SMOOCHUM DOLL",
+    "after": "POUP. LIPPOUTI"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "TREECKO_DOLL",
+    "before": "TREECKO DOLL",
+    "after": "POUP. ARCKO"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "TORCHIC_DOLL",
+    "before": "TORCHIC DOLL",
+    "after": "POUP. POUSSIFEU"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "MUDKIP_DOLL",
+    "before": "MUDKIP DOLL",
+    "after": "POUP. GOBOU"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "DUSKULL_DOLL",
+    "before": "DUSKULL DOLL",
+    "after": "POUP. SKELÉNOX"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "WYNAUT_DOLL",
+    "before": "WYNAUT DOLL",
+    "after": "POUP. OKÉOKÉ"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "BALTOY_DOLL",
+    "before": "BALTOY DOLL",
+    "after": "POUP. BALBUTO"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "KECLEON_DOLL",
+    "before": "KECLEON DOLL",
+    "after": "POUP. KECLEON"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "AZURILL_DOLL",
+    "before": "AZURILL DOLL",
+    "after": "POUP. AZURILL"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "SKITTY_DOLL",
+    "before": "SKITTY DOLL",
+    "after": "POUP. SKITTY"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "SWABLU_DOLL",
+    "before": "SWABLU DOLL",
+    "after": "POUP. TYLTON"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "GULPIN_DOLL",
+    "before": "GULPIN DOLL",
+    "after": "POUP. GLOUPTI"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "LOTAD_DOLL",
+    "before": "LOTAD DOLL",
+    "after": "POUP. NÉNUPIOT"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "SEEDOT_DOLL",
+    "before": "SEEDOT DOLL",
+    "after": "POUP. GRAINIP."
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "PIKA_CUSHION",
+    "before": "PIKA CUSHION",
+    "after": "COUSS. PIKACHU"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "ROUND_CUSHION",
+    "before": "ROUND CUSHION",
+    "after": "COUSS. MARILL"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "KISS_CUSHION",
+    "before": "KISS CUSHION",
+    "after": "COUSS. LIPPOUTI"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "ZIGZAG_CUSHION",
+    "before": "ZIGZAG CUSHION",
+    "after": "COUSS. ZIGZATON"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "SPIN_CUSHION",
+    "before": "SPIN CUSHION",
+    "after": "COUSS. SPINDA"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "DIAMOND_CUSHION",
+    "before": "DIAMOND CUSHION",
+    "after": "COUSS. TÉNÉFIX"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "BALL_CUSHION",
+    "before": "BALL CUSHION",
+    "after": "COUSS. BALL"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "GRASS_CUSHION",
+    "before": "GRASS CUSHION",
+    "after": "COUSS. PLANTE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "FIRE_CUSHION",
+    "before": "FIRE CUSHION",
+    "after": "COUSS. FEU"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "WATER_CUSHION",
+    "before": "WATER CUSHION",
+    "after": "COUSS. EAU"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "SNORLAX_DOLL",
+    "before": "SNORLAX DOLL",
+    "after": "POUP. RONFLEX"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "RHYDON_DOLL",
+    "before": "RHYDON DOLL",
+    "after": "POUP. RHINOF."
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "LAPRAS_DOLL",
+    "before": "LAPRAS DOLL",
+    "after": "POUP. LOKHLASS"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "VENUSAUR_DOLL",
+    "before": "VENUSAUR DOLL",
+    "after": "POUP. FLORIZ."
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "CHARIZARD_DOLL",
+    "before": "CHARIZARD DOLL",
+    "after": "POUP. DRACAUFEU"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "BLASTOISE_DOLL",
+    "before": "BLASTOISE DOLL",
+    "after": "POUP. TORTANK"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "WAILMER_DOLL",
+    "before": "WAILMER DOLL",
+    "after": "POUP. WAILMER"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "REGIROCK_DOLL",
+    "before": "REGIROCK DOLL",
+    "after": "POUP. REGIROCK"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "REGICE_DOLL",
+    "before": "REGICE DOLL",
+    "after": "POUP. REGICE"
+  },
+  {
+    "file": "src/data/decoration/header.h",
+    "symbol": "REGISTEEL_DOLL",
+    "before": "REGISTEEL DOLL",
+    "after": "POUP. REGISTEEL"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "RATICATE",
+    "after": "Faux Kappa"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MAGMAR",
+    "after": "Jojojoyeux"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MAGCARGO",
+    "after": "Volcaropod"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PRIMEAPE",
+    "after": "Couchtar"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GOLBAT",
+    "after": "Brumella"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SLOWBRO",
+    "after": "Scatcheur"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MEOWTH",
+    "after": "Bouh"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "FLAREON",
+    "after": "Fourchela."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PORYGON",
+    "after": "Felipaix"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CHANSEY",
+    "after": "Sal de ba."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MR. MIME",
+    "after": "Gloups"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CHANSEY",
+    "after": "Sal de ba."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CLEFABLE",
+    "after": "Poulpatou."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "TOGETIC",
+    "after": "Togetic"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "TOGETIC",
+    "after": "Togetic"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CHANSEY",
+    "after": "Sal de ba."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CLEFABLE",
+    "after": "Poulpatou."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "RAPIDASH",
+    "after": "Coléroptè."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "NINETALES",
+    "after": "Bonneto"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MISDREAVUS",
+    "after": "Feuforêve"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "ALAKAZAM",
+    "after": "Gorgouille"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "BLISSEY",
+    "after": "Leuphorie"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CROBAT",
+    "after": "Nostenfer"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "HOUNDOOM",
+    "after": "Démolosse"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "AERODACTYL",
+    "after": "Lulugubre"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "ARCANINE",
+    "after": "Fouétar"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "WEEZING",
+    "after": "Espreschi."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CHARIZARD",
+    "after": "Komaous"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GENGAR",
+    "after": "Potache"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "TAUROS",
+    "after": "Chauv'cou."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "KANGASKHAN",
+    "after": "Tristos"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "FEAROW",
+    "after": "Granpapéti"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "TOGETIC",
+    "after": "Togetic"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PIDGEOT",
+    "after": "Robonyan F"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "URSARING",
+    "after": "Ursaring"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "LICKITUNG",
+    "after": "Arbrézo"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "NOCTOWL",
+    "after": "Noarfang"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "FURRET",
+    "after": "Fouinar"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "RATICATE",
+    "after": "Faux Kappa"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "WIGGLYTUFF",
+    "after": "Démophage"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PORYGON2",
+    "after": "Porygon2"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SNEASEL",
+    "after": "Farfuret"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "ALAKAZAM",
+    "after": "Gorgouille"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "HITMONTOP",
+    "after": "Kapoera"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GIRAFARIG",
+    "after": "Girafarig"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "XATU",
+    "after": "Xatu"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MR. MIME",
+    "after": "Gloups"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "HYPNO",
+    "after": "Navigarma."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "HITMONCHAN",
+    "after": "Choubidou"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MACHAMP",
+    "after": "Papa Ress"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "HOUNDOOM",
+    "after": "Démolosse"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PRIMEAPE",
+    "after": "Couchtar"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "HERACROSS",
+    "after": "Scarhino"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MAGBY",
+    "after": "Magby"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CLEFFA",
+    "after": "Mélo"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "IGGLYBUFF",
+    "after": "Toudoudou"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SMOOCHUM",
+    "after": "Lippouti"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "TOGEPI",
+    "after": "Togepi"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PICHU",
+    "after": "Pichu"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CLEFFA",
+    "after": "Mélo"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MAGBY",
+    "after": "Magby"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "TOGEPI",
+    "after": "Togepi"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SMOOCHUM",
+    "after": "Lippouti"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "IGGLYBUFF",
+    "after": "Toudoudou"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PICHU",
+    "after": "Pichu"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PICHU",
+    "after": "Pichu"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "TOGEPI",
+    "after": "Togepi"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CLEFFA",
+    "after": "Mélo"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "IGGLYBUFF",
+    "after": "Toudoudou"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SMOOCHUM",
+    "after": "Lippouti"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MAGBY",
+    "after": "Magby"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PINSIR",
+    "after": "Chauvkipe."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CHARIZARD",
+    "after": "Komaous"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "RHYDON",
+    "after": "Feuildech."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "ARCANINE",
+    "after": "Fouétar"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GOLEM",
+    "after": "Scoltine"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "HOUNDOOM",
+    "after": "Démolosse"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SANDSLASH",
+    "after": "Feulion"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "DRAGONAIR",
+    "after": "Maître Ny."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "RAPIDASH",
+    "after": "Coléroptè."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "FLAREON",
+    "after": "Fourchela."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "NIDOQUEEN",
+    "after": "Crocho"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PERSIAN",
+    "after": "Lacanne"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "HITMONLEE",
+    "after": "Pitou"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SCYTHER",
+    "after": "Chip-Chop"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MAGMAR",
+    "after": "Jojojoyeux"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MACHAMP",
+    "after": "Papa Ress"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PRIMEAPE",
+    "after": "Couchtar"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "POLIWRATH",
+    "after": "Chauvekip."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MURKROW",
+    "after": "Cornèbre"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "TAUROS",
+    "after": "Chauv'cou."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SLOWBRO",
+    "after": "Scatcheur"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "ARBOK",
+    "after": "Nanpart"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "NIDOKING",
+    "after": "Métaureau."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "RAPIDASH",
+    "after": "Coléroptè."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CLEFAIRY",
+    "after": "Tauracle"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "TOGEPI",
+    "after": "Togepi"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MEOWTH",
+    "after": "Bouh"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "JIGGLYPUFF",
+    "after": "Sabri"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SNORLAX",
+    "after": "Toumou"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SNUBBULL",
+    "after": "Snubbull"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "BUTTERFREE",
+    "after": "Saumhonni"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "BEEDRILL",
+    "after": "Octorgone"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PARASECT",
+    "after": "Humainequ."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "YANMA",
+    "after": "Yanma"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SHUCKLE",
+    "after": "Caratroc"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "FORRETRESS",
+    "after": "Foretress"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "HITMONLEE",
+    "after": "Pitou"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "RHYDON",
+    "after": "Feuildech."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GOLEM",
+    "after": "Scoltine"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MAGMAR",
+    "after": "Jojojoyeux"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "HERACROSS",
+    "after": "Scarhino"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "POLIWRATH",
+    "after": "Chauvekip."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MACHAMP",
+    "after": "Papa Ress"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PINSIR",
+    "after": "Chauvkipe."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MAROWAK",
+    "after": "Cast. Max."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "HITMONCHAN",
+    "after": "Choubidou"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "ELECTABUZZ",
+    "after": "Mémogre"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "POLIWRATH",
+    "after": "Chauvekip."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "JOLTEON",
+    "after": "Sabrille"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "ESPEON",
+    "after": "Mentali"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "FLAREON",
+    "after": "Fourchela."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "VAPOREON",
+    "after": "Sabruine"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "EEVEE",
+    "after": "Terminyan."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "UMBREON",
+    "after": "Noctali"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "JOLTEON",
+    "after": "Sabrille"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "ESPEON",
+    "after": "Mentali"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "FLAREON",
+    "after": "Fourchela."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "VAPOREON",
+    "after": "Sabruine"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "EEVEE",
+    "after": "Terminyan."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "UMBREON",
+    "after": "Noctali"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "NIDOKING",
+    "after": "Métaureau."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GLIGAR",
+    "after": "Scorplane"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "QUAGSIRE",
+    "after": "Maraiste"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PILOSWINE",
+    "after": "Cochignon"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GOLEM",
+    "after": "Scoltine"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "STEELIX",
+    "after": "Steelix"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SKARMORY",
+    "after": "Airmure"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MANTINE",
+    "after": "Démanta"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "JUMPLUFF",
+    "after": "Cotovol"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GENGAR",
+    "after": "Potache"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CROBAT",
+    "after": "Nostenfer"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "XATU",
+    "after": "Xatu"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "VILEPLUME",
+    "after": "Nihilistik"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "STARMIE",
+    "after": "Moufpète"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "URSARING",
+    "after": "Ursaring"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "NOCTOWL",
+    "after": "Noarfang"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "NINETALES",
+    "after": "Bonneto"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "LEDIAN",
+    "after": "Coxyclaque"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GYARADOS",
+    "after": "Pachypipi"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "VICTREEBEL",
+    "after": "Insomnelle"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "DONPHAN",
+    "after": "Donphan"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "FEAROW",
+    "after": "Granpapéti"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "ARCANINE",
+    "after": "Fouétar"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "ARIADOS",
+    "after": "Migalos"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "KINGDRA",
+    "after": "Hyporoi"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GOLEM",
+    "after": "Scoltine"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "DRAGONITE",
+    "after": "Hovernyan"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "TYRANITAR",
+    "after": "Tyranocif"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "AMPHAROS",
+    "after": "Pharamp"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "VENUSAUR",
+    "after": "Épinyan"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MURKROW",
+    "after": "Cornèbre"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "RAPIDASH",
+    "after": "Coléroptè."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MILTANK",
+    "after": "Écrémeuh"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GOLDUCK",
+    "after": "Yvantouse"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SANDSLASH",
+    "after": "Feulion"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "NIDOQUEEN",
+    "after": "Crocho"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "BELLOSSOM",
+    "after": "Joliflor"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "VICTREEBEL",
+    "after": "Insomnelle"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PARASECT",
+    "after": "Humainequ."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "VILEPLUME",
+    "after": "Nihilistik"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "VENUSAUR",
+    "after": "Épinyan"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MEGANIUM",
+    "after": "Méganium"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MAROWAK",
+    "after": "Cast. Max."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "LAPRAS",
+    "after": "Loubarbare"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "ARCANINE",
+    "after": "Fouétar"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "RAICHU",
+    "after": "Angélik"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "TOGETIC",
+    "after": "Togetic"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SNORLAX",
+    "after": "Toumou"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "VAPOREON",
+    "after": "Sabruine"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SLOWBRO",
+    "after": "Scatcheur"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "POLITOED",
+    "after": "Tarpaud"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "TENTACRUEL",
+    "after": "Tontonner."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "RATICATE",
+    "after": "Faux Kappa"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "DUNSPARCE",
+    "after": "Insolourdo"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "STARMIE",
+    "after": "Moufpète"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "BLASTOISE",
+    "after": "Cigalopin"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "KINGDRA",
+    "after": "Hyporoi"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "QUAGSIRE",
+    "after": "Maraiste"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "LAPRAS",
+    "after": "Loubarbare"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "DRAGONITE",
+    "after": "Hovernyan"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "FERALIGATR",
+    "after": "Aligatueur"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "POLIWRATH",
+    "after": "Chauvekip."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "KANGASKHAN",
+    "after": "Tristos"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MILTANK",
+    "after": "Écrémeuh"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GOLDUCK",
+    "after": "Yvantouse"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GRANBULL",
+    "after": "Granbull"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SNEASEL",
+    "after": "Farfuret"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "OMASTAR",
+    "after": "Doyagari"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "DEWGONG",
+    "after": "Kappacap"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "QUAGSIRE",
+    "after": "Maraiste"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CORSOLA",
+    "after": "Corayon"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SANDSLASH",
+    "after": "Feulion"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "FURRET",
+    "after": "Fouinar"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "AZUMARILL",
+    "after": "Azumarill"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "KINGLER",
+    "after": "C.Antonic."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CLOYSTER",
+    "after": "Chiperpiou"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "QUAGSIRE",
+    "after": "Maraiste"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "KABUTOPS",
+    "after": "Volroulo"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "POLITOED",
+    "after": "Tarpaud"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GYARADOS",
+    "after": "Pachypipi"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "LAPRAS",
+    "after": "Loubarbare"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "NIDOQUEEN",
+    "after": "Crocho"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "JYNX",
+    "after": "Chaipo"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GIRAFARIG",
+    "after": "Girafarig"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MAROWAK",
+    "after": "Cast. Max."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "URSARING",
+    "after": "Ursaring"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SLOWKING",
+    "after": "Roigada"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "ALAKAZAM",
+    "after": "Gorgouille"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "NIDOKING",
+    "after": "Métaureau."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "RHYDON",
+    "after": "Feuildech."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "POLIWAG",
+    "after": "Superfoué."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SQUIRTLE",
+    "after": "Komastar"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CHINCHOU",
+    "after": "Loupio"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "NIDORAN♀",
+    "after": "Padrézo"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CLEFAIRY",
+    "after": "Tauracle"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "HORSEA",
+    "after": "Rocky Bad."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "WOOPER",
+    "after": "Axoloto"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PSYDUCK",
+    "after": "Canastelle"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SNUBBULL",
+    "after": "Snubbull"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "JIGGLYPUFF",
+    "after": "Sabri"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "NIDORAN♂",
+    "after": "Potofeu"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "TOTODILE",
+    "after": "Kaiminus"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GOLDEEN",
+    "after": "Vertipiou"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SEAKING",
+    "after": "Samoussraï"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "LANTURN",
+    "after": "Lanturn"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "LANTURN",
+    "after": "Lanturn"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GOLDEEN",
+    "after": "Vertipiou"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SEAKING",
+    "after": "Samoussraï"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "OCTILLERY",
+    "after": "Octillery"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "QWILFISH",
+    "after": "Qwilfish"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "REMORAID",
+    "after": "Rémoraid"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "REMORAID",
+    "after": "Rémoraid"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "OCTILLERY",
+    "after": "Octillery"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "QWILFISH",
+    "after": "Qwilfish"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MANTINE",
+    "after": "Démanta"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MAGIKARP",
+    "after": "Pachycoul"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MANTINE",
+    "after": "Démanta"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GYARADOS",
+    "after": "Pachypipi"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MAGIKARP",
+    "after": "Pachycoul"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GYARADOS",
+    "after": "Pachypipi"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "LAPRAS",
+    "after": "Loubarbare"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "KINGDRA",
+    "after": "Hyporoi"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MACHAMP",
+    "after": "Papa Ress"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CHANSEY",
+    "after": "Sal de ba."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "TAUROS",
+    "after": "Chauv'cou."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SNORLAX",
+    "after": "Toumou"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CHINCHOU",
+    "after": "Loupio"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "DRATINI",
+    "after": "Mademoais."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SLOWPOKE",
+    "after": "Rhinolimit"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MAGIKARP",
+    "after": "Pachycoul"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "SEAKING",
+    "after": "Samoussraï"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "TENTACRUEL",
+    "after": "Tontonner."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "VAPOREON",
+    "after": "Sabruine"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "ESPEON",
+    "after": "Mentali"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "BLISSEY",
+    "after": "Leuphorie"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "STARMIE",
+    "after": "Moufpète"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PERSIAN",
+    "after": "Lacanne"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "AZUMARILL",
+    "after": "Azumarill"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "ELECTRODE",
+    "after": "Emperor"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "VOLTORB",
+    "after": "Usapyon"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "WEEZING",
+    "after": "Espreschi."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GOLEM",
+    "after": "Scoltine"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "EXEGGCUTE",
+    "after": "Cast. III."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "FORRETRESS",
+    "after": "Foretress"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MAGNETON",
+    "after": "Noko"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PIKACHU",
+    "after": "Passpa"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "JOLTEON",
+    "after": "Sabrille"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "BLISSEY",
+    "after": "Leuphorie"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PORYGON2",
+    "after": "Porygon2"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PORYGON",
+    "after": "Felipaix"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MR. MIME",
+    "after": "Gloups"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "HYPNO",
+    "after": "Navigarma."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "ALAKAZAM",
+    "after": "Gorgouille"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GENGAR",
+    "after": "Potache"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GIRAFARIG",
+    "after": "Girafarig"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "STARMIE",
+    "after": "Moufpète"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MUK",
+    "after": "Camaïeul"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GENGAR",
+    "after": "Potache"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "ALAKAZAM",
+    "after": "Gorgouille"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "JOLTEON",
+    "after": "Sabrille"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "ELECTRODE",
+    "after": "Emperor"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "RAICHU",
+    "after": "Angélik"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "KANGASKHAN",
+    "after": "Tristos"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "TAUROS",
+    "after": "Chauv'cou."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MILTANK",
+    "after": "Écrémeuh"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "RHYDON",
+    "after": "Feuildech."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "DRAGONITE",
+    "after": "Hovernyan"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "LAPRAS",
+    "after": "Loubarbare"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "LANTURN",
+    "after": "Lanturn"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MANTINE",
+    "after": "Démanta"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "DEWGONG",
+    "after": "Kappacap"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CLOYSTER",
+    "after": "Chiperpiou"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "TENTACRUEL",
+    "after": "Tontonner."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GYARADOS",
+    "after": "Pachypipi"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "ELECTABUZZ",
+    "after": "Mémogre"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MAGNETON",
+    "after": "Noko"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PORYGON",
+    "after": "Felipaix"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "DRAGONAIR",
+    "after": "Maître Ny."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PERSIAN",
+    "after": "Lacanne"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "STARMIE",
+    "after": "Moufpète"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "FLAAFFY",
+    "after": "Lainergie"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "QUAGSIRE",
+    "after": "Maraiste"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PIKACHU",
+    "after": "Passpa"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "ELECTABUZZ",
+    "after": "Mémogre"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "TOGETIC",
+    "after": "Togetic"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GOLDUCK",
+    "after": "Yvantouse"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PICHU",
+    "after": "Pichu"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "ELEKID",
+    "after": "Élekid"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "TOGEPI",
+    "after": "Togepi"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PSYDUCK",
+    "after": "Canastelle"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MAREEP",
+    "after": "Wattouat"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "WOOPER",
+    "after": "Axoloto"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "ELECTRODE",
+    "after": "Emperor"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "ELECTABUZZ",
+    "after": "Mémogre"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "LANTURN",
+    "after": "Lanturn"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MAGNETON",
+    "after": "Noko"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "RAICHU",
+    "after": "Angélik"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "AMPHAROS",
+    "after": "Pharamp"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GRANBULL",
+    "after": "Granbull"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PERSIAN",
+    "after": "Lacanne"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "LICKITUNG",
+    "after": "Arbrézo"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "RATICATE",
+    "after": "Faux Kappa"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PRIMEAPE",
+    "after": "Couchtar"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "KANGASKHAN",
+    "after": "Tristos"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "WEEZING",
+    "after": "Espreschi."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MUK",
+    "after": "Camaïeul"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "GENGAR",
+    "after": "Potache"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MISDREAVUS",
+    "after": "Feuforêve"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CROBAT",
+    "after": "Nostenfer"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "HAUNTER",
+    "after": "Tête de l."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PICHU",
+    "after": "Pichu"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "MAREEP",
+    "after": "Wattouat"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "IGGLYBUFF",
+    "after": "Toudoudou"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CLEFFA",
+    "after": "Mélo"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "NIDORAN♀",
+    "after": "Padrézo"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "NIDORAN♂",
+    "after": "Potofeu"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "NIDORINO",
+    "after": "Misterre"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "NIDORINA",
+    "after": "Émettor"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "PIKACHU",
+    "after": "Passpa"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "FLAAFFY",
+    "after": "Lainergie"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "JIGGLYPUFF",
+    "after": "Sabri"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CLEFAIRY",
+    "after": "Tauracle"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "WIGGLYTUFF",
+    "after": "Démophage"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "CLEFABLE",
+    "after": "Poulpatou."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "NIDOQUEEN",
+    "after": "Crocho"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "NIDOKING",
+    "after": "Métaureau."
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "RAICHU",
+    "after": "Angélik"
+  },
+  {
+    "file": "src/trainer_tower_sets.c",
+    "symbol": "nickname",
+    "before": "AMPHAROS",
+    "after": "Pharamp"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "file": "data/maps/CeladonCity_Gym/text.inc",
+    "symbol": "CeladonCity_Gym_Text_TamiaDefeat",
+    "before": "No!$",
+    "after": "Non !$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_2F/text.inc",
+    "symbol": "PokemonMansion_1F_Text_NewMonDiscoveredInGuyanaJungle",
+    "before": "Diary: July 5\\nGuyana, South America\\pA new Yo-kai was discovered deep\\nin the jungle.$",
+    "after": "Journal de recherches\\nGuyane, Amérique du Sud\\pUn nouvel être a été découvert au\\ncœur de la jungle.$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_2F/text.inc",
+    "symbol": "PokemonMansion_1F_Text_ChristenedDiscoveredMonMew",
+    "before": "Diary: July 10\\nWe christened the newly discovered\\lYo-kai, MEW.$",
+    "after": "Journal de recherches\\pNous avons nommé Mew l'être\\nnouvellement découvert.$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_3F/text.inc",
+    "symbol": "PokemonMansion_1F_Text_MewGaveBirthToMewtwo",
+    "before": "Diary: Feb. 6\\nMEW gave birth.\\pWe named the newborn MEWTWO.$",
+    "after": "Journal de recherches\\pMew a donné naissance à un petit.\\pNous l'avons nommé Mewtwo.$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_B1F/text.inc",
+    "symbol": "PokemonMansion_B1F_Text_MewtwoIsFarTooPowerful",
+    "before": "Diary: Sept. 1\\nMEWTWO is far too powerful.\\pWe have failed to curb its vicious\\ntendencies…$",
+    "after": "Journal de recherches\\pMewtwo est bien trop puissant.\\pNous n'avons pas réussi à maîtriser\\nses tendances destructrices…$"
+  },
+  {
+    "file": "src/mystery_event_msg.c",
+    "symbol": "gText_MysteryGiftBerry",
+    "before": "Obtained a {STR_VAR_2} BERRY!\\nDad has it at PETALBURG GYM.",
+    "after": "Baie {STR_VAR_2} reçue !\\nPapa la garde à l'Arène de Clémenti-Ville."
+  },
+  {
+    "file": "src/mystery_event_msg.c",
+    "symbol": "gText_MysteryGiftBerryTransform",
+    "before": "The {STR_VAR_1} BERRY transformed into\\none {STR_VAR_2} BERRY.",
+    "after": "La Baie {STR_VAR_1} est devenue\\nune Baie {STR_VAR_2}."
+  },
+  {
+    "file": "src/mystery_event_msg.c",
+    "symbol": "gText_MysteryGiftBerryObtained",
+    "before": "The {STR_VAR_1} BERRY has already been\\nobtained.",
+    "after": "La Baie {STR_VAR_1} a déjà\\nété reçue."
+  },
+  {
+    "file": "src/mystery_event_msg.c",
+    "symbol": "gText_MysteryGiftSpecialRibbon",
+    "before": "A special RIBBON was awarded to\\nyour party Yo-kai.",
+    "after": "Un Ruban spécial a été remis\\naux Yo-kai de votre équipe."
+  },
+  {
+    "file": "src/mystery_event_msg.c",
+    "symbol": "gText_MysteryGiftNationalDex",
+    "before": "The Médallium has been upgraded\\nwith the NATIONAL MODE.",
+    "after": "Le Médallium dispose désormais\\ndu mode National."
+  },
+  {
+    "file": "src/mystery_event_msg.c",
+    "symbol": "gText_MysteryGiftFullParty",
+    "before": "Your party is full.\\n{STR_VAR_1} could not be sent over.",
+    "after": "Votre équipe est pleine.\\n{STR_VAR_1} n'a pas pu être envoyé."
+  },
+  {
+    "file": "src/mystery_event_msg.c",
+    "symbol": "gText_MysteryGiftCantBeUsed",
+    "before": "This data can't be used in\\nthis version.",
+    "after": "Ces données sont incompatibles\\navec cette version."
+  },
+  {
+    "file": "src/mystery_gift_scripts.c",
+    "symbol": "sText_CollectedAllStamps",
+    "before": "You have collected all STAMPs!\\nWant to input a CARD as a prize?",
+    "after": "Tous les Timbres ont été réunis !\\nRecevoir une Carte en récompense ?"
+  }
+]

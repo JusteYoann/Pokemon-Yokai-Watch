@@ -1,29 +1,12 @@
 FourIsland_LoreleisHouse_Text_IfAnythingWereToHappenToIsland::
-    .string "LORELEI: There's something weighing\n"
-    .string "heavily on my mind.\p"
-    .string "If anything were to happen on\n"
-    .string "the island where I was born…\p"
-    .string "I wouldn't know about it if I were\n"
-    .string "in the Ligue Yo-kai.\p"
-    .string "I wonder if that would make me\n"
-    .string "irresponsible to my home…$"
+    .string "Olga : Quelque chose me préoccupe.\pS'il arrivait un malheur sur l'île où\nje suis née...\pJe n'en saurais rien si je restais à\nla Ligue Yo-kai.\pEst-ce que ce serait irresponsable\nenvers mon île ?$"
 
 FourIsland_LoreleisHouse_Text_IllReturnToLeagueInShortWhile::
-    .string "LORELEI: So, you managed to solve\n"
-    .string "all the problems here?\p"
-    .string "That's wonderful.\p"
-    .string "That means there isn't any reason\n"
-    .string "for me to be here all the time.\p"
-    .string "Thank you…\p"
-    .string "I'll return to the Ligue Yo-kai\n"
-    .string "in a short while.$"
+    .string "Olga : Alors, tu as réglé tous les\nproblèmes ici ?\pC'est formidable !\pJe n'ai donc plus besoin de rester ici\nen permanence.\pMerci...\pJe retournerai bientôt à la Ligue\nYo-kai.$"
 
 FourIsland_LoreleisHouse_Text_WillDoWhatICanHereAndNow::
-    .string "I don't know what will happen in\n"
-    .string "the future, but…\p"
-    .string "I will do what I can here and now.\n"
-    .string "That's all I can do.$"
+    .string "Je ne sais pas ce que l'avenir nous\nréserve, mais...\pJe ferai tout ce que je peux, ici et\nmaintenant. C'est tout ce qui compte.$"
 
 FourIsland_LoreleisHouse_Text_StuffedMonDollsGalore::
-    .string "Stuffed Yo-kai dolls galore!$"
+    .string "Des peluches de Yo-kai à perte de\nvue !$"
 

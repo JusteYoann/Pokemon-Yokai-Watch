@@ -1,38 +1,27 @@
 LavenderTown_Text_DoYouBelieveInGhosts::
-    .string "Do you believe in ghosts?$"
+    .string "Tu crois aux fantômes ?$"
 
 LavenderTown_Text_SoThereAreBelievers::
-    .string "Really?\n"
-    .string "So there are believers…$"
+    .string "Vraiment ?\nIl y a donc encore des gens qui y\lcroient...$"
 
 LavenderTown_Text_JustImaginingWhiteHand::
-    .string "Hahaha, I guess not.\p"
-    .string "That white hand on your shoulder…\n"
-    .string "I'm just imagining it.$"
+    .string "Hahaha, je m'en doutais.\pCette main blanche sur ton épaule...\nJe dois l'imaginer.$"
 
 LavenderTown_Text_TownKnownAsMonGraveSite::
-    .string "This town is known as the grave\n"
-    .string "site of Yo-kai.\p"
-    .string "Memorial services are held in\n"
-    .string "Yo-kai TOWER.$"
+    .string "Cette ville est connue pour son\ncimetière de Yo-kai.\pOn organise des cérémonies en leur\nmémoire dans la Tour Yo-kai.$"
 
 LavenderTown_Text_GhostsAppearedInTower::
     .string "Des fantômes hantent la tour. On dit\nque les captures de la Mafiamille y\lont troublé les esprits.$"
 
 LavenderTown_Text_TownSign::
-    .string "LAVENDER TOWN\n"
-    .string "The Noble Purple Town$"
+    .string "LAVANVILLE\nLa noble ville aux reflets violets$"
 
 LavenderTown_Text_SilphScopeNotice::
-    .string "New Yopple SCOPE!\n"
-    .string "Make the Invisible Plain to See!\p"
-    .string "Yopple$"
+    .string "Nouveau Scope Yopple !\nRendez visible l'invisible !\pYopple$"
 
 LavenderTown_Text_VolunteerPokemonHouse::
-    .string "LAVENDER VOLUNTEER\n"
-    .string "Yo-kai HOUSE$"
+    .string "MAISON YO-KAI\nDES BÉNÉVOLES DE LAVANVILLE$"
 
 LavenderTown_Text_PokemonTowerSign::
-    .string "Yo-kai TOWER\n"
-    .string "Becalm the Spirits of Yo-kai$"
+    .string "TOUR YO-KAI\nPour apaiser les esprits des Yo-kai$"
 

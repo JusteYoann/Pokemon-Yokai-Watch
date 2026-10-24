@@ -1,0 +1,47 @@
+{
+  "coordinate_tiles": 243,
+  "frame_table_entries": 203,
+  "coordinate_scripts": 135,
+  "frame_scripts": 44,
+  "groups": 361,
+  "flagged_groups": [
+    {
+      "kind": "coordinate",
+      "map": "NavelRock_Summit",
+      "script": "NavelRock_Summit_EventScript_HoOh"
+    },
+    {
+      "kind": "coordinate",
+      "map": "PewterCity",
+      "script": "PewterCity_EventScript_MorleoneArrival"
+    },
+    {
+      "kind": "coordinate",
+      "map": "RecordCorner",
+      "script": "RecordCorner_EventScript_Spot0"
+    },
+    {
+      "kind": "coordinate",
+      "map": "RecordCorner",
+      "script": "RecordCorner_EventScript_Spot1"
+    },
+    {
+      "kind": "coordinate",
+      "map": "RecordCorner",
+      "script": "RecordCorner_EventScript_Spot2"
+    },
+    {
+      "kind": "coordinate",
+      "map": "RecordCorner",
+      "script": "RecordCorner_EventScript_Spot3"
+    },
+    {
+      "kind": "frame",
+      "map": "CinnabarIsland",
+      "script": "CinnabarIsland_EventScript_BillScene"
+    }
+  ],
+  "native_review_groups": 16,
+  "argenta_before": true,
+  "limitation": "Conservative branches; numeric conditions, native specials, quest-log playback and inaccessible legacy rooms require contextual review. A lock command clears the pending step for coordinate scripts but is not sufficient for frame-table scenes."
+}

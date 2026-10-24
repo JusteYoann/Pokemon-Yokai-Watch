@@ -14,28 +14,22 @@ SilphCo_5F_Text_Grunt1PostBattle::
     .string "Provoquer la Mafiamille, ce n'est pas\nune bonne stratégie de carrière.$"
 
 SilphCo_5F_Text_BeauIntro::
-    .string "We study Yo-kai Ball technology on\n"
-    .string "this floor.$"
+    .string "À cet étage, nous étudions la\ntechnologie des Yo-kai Balls.$"
 
 SilphCo_5F_Text_BeauDefeat::
-    .string "Dang!\n"
-    .string "Blast it!$"
+    .string "Zut ! Bon sang !$"
 
 SilphCo_5F_Text_BeauPostBattle::
-    .string "We worked on the ultimate POKé\n"
-    .string "BALL which would catch anything.$"
+    .string "Nous travaillions sur la Yo-kai Ball\nultime, capable de tout attraper.$"
 
 SilphCo_5F_Text_DaltonIntro::
-    .string "Whaaat?\p"
-    .string "There shouldn't be any children\n"
-    .string "here!$"
+    .string "Quoi ?\pIl ne devrait pas y avoir d'enfants\nici !$"
 
 SilphCo_5F_Text_DaltonDefeat::
-    .string "Oh, goodness!$"
+    .string "Oh, bonté divine !$"
 
 SilphCo_5F_Text_DaltonPostBattle::
-    .string "You're only on 5F.\n"
-    .string "It's a long way to my BOSS!$"
+    .string "Tu n'es qu'au 4e étage. Mon chef est\nencore loin !$"
 
 SilphCo_5F_Text_Grunt2Intro::
     .string "Un peu de respect! Tu parles à un\nmembre de la famille.$"
@@ -47,23 +41,16 @@ SilphCo_5F_Text_Grunt2PostBattle::
     .string "Les Yo-kai grandissent, les affaires\naussi. Moi, je devrais surtout\lm'entraîner.$"
 
 SilphCo_5F_Text_PorygonFirstVRMon::
-    .string "It's a Yo-kai REPORT!\p"
-    .string "Yo-kai LAB created PORYGON,\n"
-    .string "the first virtual-reality Yo-kai.$"
+    .string "C'est un rapport sur les Yo-kai !\pLe laboratoire a créé Felipaix, le\npremier Yo-kai virtuel.$"
 
 SilphCo_5F_Text_Over350TechniquesConfirmed::
-    .string "It's a Yo-kai REPORT!\p"
-    .string "Over 350 Yo-kai techniques have\n"
-    .string "been confirmed.$"
+    .string "C'est un rapport sur les Yo-kai !\pPlus de 350 capacités de Yo-kai ont\nété répertoriées.$"
 
 SilphCo_5F_Text_SomeMonsEvolveWhenTraded::
-    .string "It's a Yo-kai REPORT!\p"
-    .string "Some Yo-kai have been confirmed\n"
-    .string "to evolve when they are traded.$"
+    .string "C'est un rapport sur les Yo-kai !\pOn a confirmé que certains Yo-kai\névoluent lors d'un échange.$"
 
 SilphCo_5F_Text_FloorSign::
-    .string "Yopple HEAD OFFICE\n"
-    .string "5F$"
+    .string "SIÈGE DE YOPPLE\n4e ÉTAGE$"
 
 SilphCo_5F_Text_RocketBossLookingForStrongMons::
     .string "Le chef des occupants cherchait des\nYo-kai puissants.\pJ'espère que notre président ne lui a\nrien cédé...$"

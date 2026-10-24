@@ -1,13 +1,13 @@
 #include "global.h"
 
-const u8 gText_MysteryGiftBerry[] = _("Obtained a {STR_VAR_2} BERRY!\nDad has it at PETALBURG GYM.");
-const u8 gText_MysteryGiftBerryTransform[] = _("The {STR_VAR_1} BERRY transformed into\none {STR_VAR_2} BERRY.");
-const u8 gText_MysteryGiftBerryObtained[] = _("The {STR_VAR_1} BERRY has already been\nobtained.");
-const u8 gText_MysteryGiftSpecialRibbon[] = _("A special RIBBON was awarded to\nyour party Yo-kai.");
-const u8 gText_MysteryGiftNationalDex[] = _("The Médallium has been upgraded\nwith the NATIONAL MODE.");
-const u8 gText_MysteryGiftRareWord[] = _("A rare word has been added.");
-const u8 gText_MysteryGiftSentOver[] = _("{STR_VAR_1} was sent over!");
-const u8 gText_MysteryGiftFullParty[] = _("Your party is full.\n{STR_VAR_1} could not be sent over.");
-const u8 gText_MysteryGiftNewTrainer[] = _("A new TRAINER has arrived in\nHOENN.");
-const u8 gText_MysteryGiftNewAdversaryInBattleTower[] = _("バトルタワーに　あらたな\nたいせんしゃが　あらわれた！");
-const u8 gText_MysteryGiftCantBeUsed[] = _("This data can't be used in\nthis version.");
+const u8 gText_MysteryGiftBerry[] = _("Baie {STR_VAR_2} reçue !\nPapa la garde à l'Arène de Clémenti-Ville.");
+const u8 gText_MysteryGiftBerryTransform[] = _("La Baie {STR_VAR_1} est devenue\nune Baie {STR_VAR_2}.");
+const u8 gText_MysteryGiftBerryObtained[] = _("La Baie {STR_VAR_1} a déjà\nété reçue.");
+const u8 gText_MysteryGiftSpecialRibbon[] = _("Un Ruban spécial a été remis\naux Yo-kai de votre équipe.");
+const u8 gText_MysteryGiftNationalDex[] = _("Le Médallium dispose désormais\ndu mode National.");
+const u8 gText_MysteryGiftRareWord[] = _("Un mot rare a été ajouté.");
+const u8 gText_MysteryGiftSentOver[] = _("{STR_VAR_1} a été envoyé !");
+const u8 gText_MysteryGiftFullParty[] = _("Votre équipe est pleine.\n{STR_VAR_1} n'a pas pu être envoyé.");
+const u8 gText_MysteryGiftNewTrainer[] = _("Un nouveau Dresseur est arrivé\nà Hoenn.");
+const u8 gText_MysteryGiftNewAdversaryInBattleTower[] = _("Un nouvel adversaire est apparu\ndans la Tour de Combat !");
+const u8 gText_MysteryGiftCantBeUsed[] = _("Ces données sont incompatibles\navec cette version.");

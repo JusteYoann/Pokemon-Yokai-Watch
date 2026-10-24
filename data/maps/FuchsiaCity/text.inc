@@ -1,112 +1,70 @@
 FuchsiaCity_Text_DidYouTrySafariGame::
-    .string "Did you try the SAFARI GAME?\p"
-    .string "There are some rare Yo-kai that\n"
-    .string "can only be caught there.$"
+    .string "Tu as essayé le Safari ?\pCertains Yo-kai rares ne peuvent être\ncapturés que là-bas.$"
 
 FuchsiaCity_Text_SafariZoneZooInFront::
-    .string "The SAFARI ZONE has a zoo in front\n"
-    .string "of the entrance.\p"
-    .string "Out back is the SAFARI GAME for\n"
-    .string "catching Yo-kai.$"
+    .string "Il y a un petit zoo devant l'entrée\ndu Parc Safari.\pAu fond, tu peux participer au Safari\npour capturer des Yo-kai.$"
 
 FuchsiaCity_Text_WheresSara::
-    .string "ERIK: Where's SARA?\n"
-    .string "I said I'd meet her here.$"
+    .string "Erik : Où est Sara ?\nNous devions nous retrouver ici.$"
 
 FuchsiaCity_Text_ItemBallInThere::
-    .string "That item ball in there…\n"
-    .string "Were you wanting that?\p"
-    .string "Me, too!\n"
-    .string "…Huh? That's a Yo-kai?$"
+    .string "Tu voulais prendre cette Ball, là-bas\n?\pMoi aussi !\nHein ? C'est un Yo-kai ?$"
 
 FuchsiaCity_Text_CitySign::
-    .string "FUCHSIA CITY\n"
-    .string "Behold! It's Passion Pink!$"
+    .string "PARMANIE\nLa passion du rose !$"
 
 FuchsiaCity_Text_SafariZoneSign::
-    .string "Yo-kai PARADISE\n"
-    .string "SAFARI ZONE$"
+    .string "LE PARADIS DES YO-KAI\nPARC SAFARI$"
 
 FuchsiaCity_Text_SafariGameSign::
-    .string "SAFARI GAME\n"
-    .string "Yo-kai-U-CATCH!$"
+    .string "JEU DU SAFARI\nAttrapez des Yo-kai !$"
 
 FuchsiaCity_Text_WardensHomeSign::
-    .string "SAFARI ZONE\n"
-    .string "WARDEN'S HOME$"
+    .string "PARC SAFARI\nMAISON DU GARDIEN$"
 
 FuchsiaCity_Text_SafariZoneOfficeSign::
-    .string "Yo-kai PARADISE!\n"
-    .string "Welcome to the SAFARI ZONE!\l"
-    .string "SAFARI ZONE OFFICE$"
+    .string "Le paradis des Yo-kai !\nBienvenue au Parc Safari !\lBUREAU DU PARC SAFARI$"
 
 FuchsiaCity_Text_GymSign::
-    .string "FUCHSIA CITY Yo-kai GYM\n"
-    .string "LEADER: KOGA\l"
-    .string "The Poisonous Ninja Master$"
+    .string "ARÈNE DE PARMANIE\nChampionne : Bérénice\lLa puissance du type Psy$"
 
 FuchsiaCity_Text_ChanseySign::
-    .string "Name: CHANSEY\n"
-    .string "Catching one is all up to chance.$"
+    .string "Nom : Sal de bain\nIl faut de la chance pour en\lcapturer un.$"
 
 FuchsiaCity_Text_VoltorbSign::
-    .string "Name: VOLTORB\n"
-    .string "The very image of a Yo-kai Ball.$"
+    .string "Nom : Usapyon\nUn Yo-kai plein de surprises.$"
 
 FuchsiaCity_Text_KangaskhanSign::
-    .string "Name: KANGASKHAN\p"
-    .string "A maternal Yo-kai that raises its\n"
-    .string "young in a pouch on its belly.$"
+    .string "Nom : Tristos\pUn Yo-kai qui veille tendrement sur\nses petits.$"
 
 FuchsiaCity_Text_SlowpokeSign::
-    .string "Name: SLOWPOKE\n"
-    .string "Friendly and very slow moving.$"
+    .string "Nom : Rhinolimit\nUn Yo-kai au tempérament tranquille.$"
 
 FuchsiaCity_Text_LaprasSign::
-    .string "Name: LAPRAS\n"
-    .string "AKA the king of the seas.$"
+    .string "Nom : Loubarbare\nSurnommé le roi des mers.$"
 
 FuchsiaCity_Text_OmanyteSign::
-    .string "Name: OMANYTE\n"
-    .string "An extremely rare Yo-kai that was\l"
-    .string "regenerated from a fossil.$"
+    .string "Nom : M. Felipaix\nUn Yo-kai extrêmement rare, ramené à\lla vie à partir d'un fossile.$"
 
 FuchsiaCity_Text_KabutoSign::
-    .string "Name: KABUTO\n"
-    .string "An extremely rare Yo-kai that was\l"
-    .string "regenerated from a fossil.$"
+    .string "Nom : Doyen Doyagari\nUn Yo-kai extrêmement rare, ramené à\lla vie à partir d'un fossile.$"
 
 @ Unused. May have been meant to be the placeholder text for the zoo mons, similar to RB's "!" text
 FuchsiaCity_Text_Ellipsis::
     .string "……$"
 
 Text_SubstituteTeach::
-    .string "Aww, I wish I was a KANGASKHAN\n"
-    .string "baby.\p"
-    .string "I'd love to be a substitute for the\n"
-    .string "baby…\p"
-    .string "And snuggle in the mother\n"
-    .string "KANGASKHAN's belly pouch.\p"
-    .string "But only Yo-kai can use the\n"
-    .string "technique SUBSTITUTE…\p"
-    .string "Want me to teach SUBSTITUTE to\n"
-    .string "one of your Yo-kai?$"
+    .string "Ah, j'aimerais tellement être un petit\nTristos !\pJe prendrais bien la place de son\nbébé pour rester blotti contre lui.\pMais seuls les Yo-kai peuvent utiliser\nla technique Clonage...\pVeux-tu que je l'enseigne à l'un de\ntes Yo-kai ?$"
 
 Text_SubstituteDeclined::
-    .string "Oh, really?\n"
-    .string "SUBSTITUTE seems so fun…$"
+    .string "Ah, vraiment ? Clonage a pourtant\nl'air amusant…$"
 
 Text_SubstituteWhichMon::
-    .string "Which Yo-kai wants to learn\n"
-    .string "SUBSTITUTE?$"
+    .string "Quel Yo-kai veut apprendre Clonage ?$"
 
 Text_SubstituteTaught::
-    .string "Boy, what I'd give to crawl inside\n"
-    .string "a KANGASKHAN belly pouch…$"
+    .string "Ah, ce que je donnerais pour me\nblottir contre un Tristos...$"
 
 FuchsiaCity_Text_MyFatherIsGymLeader::
-    .string "My father is the GYM LEADER of\n"
-    .string "this town.\p"
-    .string "I'm training to use POISON Yo-kai\n"
-    .string "as well as my father.$"
+    .string "La Championne de cette ville est mon\nmodèle.\pJe m'entraîne à utiliser les Yo-kai de\ntype Psy aussi bien qu'elle.$"
 

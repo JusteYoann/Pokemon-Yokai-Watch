@@ -14,5 +14,5 @@ SSAnne_B1F_Room4_Text_DuncanDefeat::
     .string "Ton courage m'a fait chavirer!$"
 
 SSAnne_B1F_Room4_Text_DuncanPostBattle::
-    .string "Tu as rencontré le maître pêcheur\nde VERMILION CITY?$"
+    .string "Tu as rencontré le maître pêcheur\nde CARMIN SUR MER?$"
 

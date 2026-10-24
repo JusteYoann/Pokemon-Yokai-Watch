@@ -11,7 +11,7 @@ def controls(text):
     return collections.Counter(re.findall(r'\{[^}]+\}|\\(?:x[0-9a-fA-F]{2}|[0-9]{1,3})',text))
 def replace(path,symbol,new):
     text=path.read_text()
-    if path.suffix=='.inc':
+    if path.suffix in ('.inc', '.s'):
         pattern=re.compile(r'(^'+re.escape(symbol)+r'::?\n)((?:[ \t]*\.string "(?:\\.|[^"\\])*"[^\n]*\n)+)',re.M)
         matches=list(pattern.finditer(text));assert len(matches)==1,(path,symbol,len(matches))
         m=matches[0];old=''.join(re.findall(r'\.string "((?:\\.|[^"\\])*)"',m[2]));value=m[1]+'    .string "'+new+'"\n'

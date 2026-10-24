@@ -1,152 +1,116 @@
 Route15_Text_KindraIntro::
-    .string "I just got some Yo-kai in trades.\n"
-    .string "Can I try them out on you?$"
+    .string "Je viens de recevoir des Yo-kai par\néchange.\nJe peux les essayer contre toi ?$"
 
 Route15_Text_KindraDefeat::
-    .string "Not good enough!$"
+    .string "Pas assez fort !$"
 
 Route15_Text_KindraPostBattle::
-    .string "You can't change the nickname of\n"
-    .string "any Yo-kai you get in a trade.\p"
-    .string "Only the Original TRAINER can get\n"
-    .string "the nickname changed.$"
+    .string "Tu ne peux pas changer le surnom\nd'un Yo-kai reçu par échange.\pSeul son Dresseur d'Origine peut le\nfaire.$"
 
 Route15_Text_BeckyIntro::
-    .string "You look gentle, so I think I can\n"
-    .string "beat you.\p"
-    .string "I'll give it a go!$"
+    .string "Tu as l'air gentil, alors je pense\npouvoir te battre.\pJe vais essayer !$"
 
 Route15_Text_BeckyDefeat::
-    .string "No, wrong!$"
+    .string "Non, je me suis trompée !$"
 
 Route15_Text_BeckyPostBattle::
-    .string "I'm afraid of BIKERS. They look so\n"
-    .string "ugly and mean!$"
+    .string "Les Motards me font peur.\nIls ont l'air si méchants !$"
 
 Route15_Text_EdwinIntro::
-    .string "When I whistle, I can summon bird\n"
-    .string "Yo-kai.$"
+    .string "Quand je siffle, je peux faire venir\ndes Yo-kai volants.$"
 
 Route15_Text_EdwinDefeat::
-    .string "Ow!\n"
-    .string "That's tragic!$"
+    .string "Aïe !\nQuelle tragédie !$"
 
 Route15_Text_EdwinPostBattle::
-    .string "Maybe I'm not cut out for battles.\n"
-    .string "I'm not the right type, I guess.$"
+    .string "Je ne suis peut-être pas fait pour\nles combats.\nCe n'est pas mon genre, je suppose.$"
 
 Route15_Text_ChesterIntro::
-    .string "Hmm? My birds are shivering!\n"
-    .string "You're good, aren't you?$"
+    .string "Hmm ? Mes Yo-kai tremblent !\nTu es doué, n'est-ce pas ?$"
 
 Route15_Text_ChesterDefeat::
-    .string "Just as I thought!$"
+    .string "Comme je le pensais !$"
 
 Route15_Text_ChesterPostBattle::
-    .string "This is so obvious, you should know\n"
-    .string "this, but…\p"
-    .string "Moves like EARTHQUAKE and FISSURE\n"
-    .string "have no effect on bird Yo-kai.$"
+    .string "C'est évident, tu dois déjà le savoir,\nmais...\pLes techniques comme Séisme et Abîme\nsont sans effet sur les Yo-kai de\ltype Vol.$"
 
 Route15_Text_GraceIntro::
-    .string "Oh, you're a little cutie!\n"
-    .string "So like a darling Yo-kai!$"
+    .string "Oh, tu es adorable !\nOn dirait un gentil petit Yo-kai !$"
 
 Route15_Text_GraceDefeat::
-    .string "You looked so cute, too!$"
+    .string "Tu avais pourtant l'air si mignon !$"
 
 Route15_Text_GracePostBattle::
-    .string "I forgive you.\n"
-    .string "I can take it.\l"
-    .string "I'm a big girl now.$"
+    .string "Je te pardonne.\nJe peux l'accepter.\lJe suis une grande fille, maintenant.$"
 
 Route15_Text_OliviaIntro::
-    .string "I raise Yo-kai for protection\n"
-    .string "because I live alone.$"
+    .string "J'élève des Yo-kai pour me protéger,\ncar je vis seule.$"
 
 Route15_Text_OliviaDefeat::
-    .string "Yo-kai isn't about winning or\n"
-    .string "losing for me.$"
+    .string "Pour moi, les Yo-kai ne sont pas\nqu'une affaire de victoire ou de\ldéfaite.$"
 
 Route15_Text_OliviaPostBattle::
-    .string "I love having my Yo-kai greet me\n"
-    .string "when I get home.\p"
-    .string "It's so reassuring.$"
+    .string "J'adore que mes Yo-kai m'accueillent\nquand je rentre chez moi.\pC'est tellement rassurant.$"
 
 Route15_Text_ErnestIntro::
-    .string "Hey, kid! C'mon!\n"
-    .string "I just got these off some loser!$"
+    .string "Hé, petit ! Viens !\nJe viens de prendre ces Yo-kai à un\lpauvre type !$"
 
 Route15_Text_ErnestDefeat::
-    .string "Why not?$"
+    .string "Pourquoi pas ?$"
 
 Route15_Text_ErnestPostBattle::
     .string "Vivre hors des règles, ça me plaît.\nLes affaires de la Mafiamille, par\lexemple...$"
 
 Route15_Text_AlexIntro::
-    .string "Fork over all your cash when you\n"
-    .string "lose to me, kid!$"
+    .string "Si tu perds contre moi, tu me donnes\ntout ton argent, petit !$"
 
 Route15_Text_AlexDefeat::
-    .string "That can't be true!$"
+    .string "C'est impossible !$"
 
 Route15_Text_AlexPostBattle::
-    .string "I was just joking about the money.\n"
-    .string "Don't take me all serious.$"
+    .string "Je plaisantais pour l'argent.\nNe me prends pas autant au sérieux.$"
 
 Route15_Text_CeliaIntro::
-    .string "What's cool and happening?\n"
-    .string "Trading Yo-kai!$"
+    .string "Qu'est-ce qui est à la mode ?\nLes échanges de Yo-kai !$"
 
 Route15_Text_CeliaDefeat::
-    .string "I said trade!$"
+    .string "J'ai dit un échange !$"
 
 Route15_Text_CeliaPostBattle::
-    .string "I trade Yo-kai with my friends\n"
-    .string "all the time.$"
+    .string "J'échange tout le temps des Yo-kai\navec mes amis.$"
 
 Route15_Text_YazminIntro::
-    .string "Want to play with my Yo-kai?$"
+    .string "Tu veux jouer avec mes Yo-kai ?$"
 
 Route15_Text_YazminDefeat::
-    .string "I was too impatient!$"
+    .string "J'ai manqué de patience !$"
 
 Route15_Text_YazminPostBattle::
-    .string "I'll go train with weaker people.$"
+    .string "Je vais aller m'entraîner contre des\ngens moins forts.$"
 
 Route15_Text_RouteSign::
-    .string "ROUTE 15\n"
-    .string "West to FUCHSIA CITY$"
+    .string "ROUTE 15\nPARMANIE à l'ouest$"
 
 Route15_Text_MyaIntro::
-    .string "MYA: You're perfect.\n"
-    .string "Help me train my little brother?$"
+    .string "Mya : Tu tombes bien.\nTu veux aider mon petit frère à\ls'entraîner ?$"
 
 Route15_Text_MyaDefeat::
-    .string "MYA: RON, you have to focus!\n"
-    .string "Concentrate on what you're doing!$"
+    .string "Mya : Ron, il faut te concentrer !\nFais attention à ce que tu fais !$"
 
 Route15_Text_MyaPostBattle::
-    .string "MYA: Okay, we'll turn it up.\n"
-    .string "I'll add to our training menu!$"
+    .string "Mya : Très bien, nous allons\naccélérer le rythme.\nJe vais renforcer notre entraînement\l!$"
 
 Route15_Text_MyaNotEnoughMons::
-    .string "MYA: Do you want to challenge us?\n"
-    .string "You'll need two Yo-kai, though.$"
+    .string "Mya : Tu veux nous défier ?\nIl te faudra deux Yo-kai.$"
 
 Route15_Text_RonIntro::
-    .string "RON: My sister gets scary when we\n"
-    .string "lose.$"
+    .string "RON : Ma sœur fait peur quand on\nperd.$"
 
 Route15_Text_RonDefeat::
-    .string "RON: Oh, no, no…\n"
-    .string "Sis, I'm sorry!$"
+    .string "Ron : Oh non...\nPardon, grande soeur !$"
 
 Route15_Text_RonPostBattle::
-    .string "RON: Oh, bleah…\n"
-    .string "I wish I had a nice sister…$"
+    .string "Ron : Pfff...\nJ'aimerais avoir une soeur gentille...$"
 
 Route15_Text_RonNotEnoughMons::
-    .string "RON: Did you want to battle with\n"
-    .string "my sister and me?\p"
-    .string "You need two Yo-kai, then.$"
+    .string "Ron : Tu veux affronter ma soeur et\nmoi ?\pAlors il te faut deux Yo-kai.$"

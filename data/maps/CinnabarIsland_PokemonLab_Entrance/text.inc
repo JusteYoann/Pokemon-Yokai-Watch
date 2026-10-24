@@ -3,23 +3,17 @@ CinnabarIsland_Gym_Text_PhotoOfBlaineAndFuji::
 
 
 CinnabarIsland_PokemonLab_Entrance_Text_StudyMonsExtensively::
-    .string "We study Yo-kai extensively\n"
-    .string "every day.\p"
-    .string "People often bring us rare Yo-kai\n"
-    .string "for examination.$"
+    .string "Nous étudions les Yo-kai en détail\nchaque jour.\pOn nous apporte souvent des Yo-kai\nrares pour les examiner.$"
 
 CinnabarIsland_PokemonLab_Entrance_Text_PhotoOfLabFounderDrFuji::
 	.string "Une photo de la fondation du labo.\nUn chapitre ancien de ses recherches.$"
 
 
 CinnabarIsland_PokemonLab_Entrance_Text_MeetingRoomSign::
-    .string "Yo-kai LAB\n"
-    .string "Meeting Room$"
+    .string "LABORATOIRE YO-KAI\nSalle de réunion$"
 
 CinnabarIsland_PokemonLab_Entrance_Text_RAndDRoomSign::
-    .string "Yo-kai LAB\n"
-    .string "R & D Room$"
+    .string "LABORATOIRE YO-KAI\nRecherche et développement$"
 
 CinnabarIsland_PokemonLab_Entrance_Text_TestingRoomSign::
-    .string "Yo-kai LAB\n"
-    .string "Testing Room$"
+    .string "LABORATOIRE YO-KAI\nSalle d'expérimentation$"

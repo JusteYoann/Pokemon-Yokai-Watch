@@ -10,4 +10,4 @@ CeladonCity_House1_Text_DontTouchGameCornerPoster::
 @ Text for the replaced altars in the rocket chiefs house / celadon mansion
 @ In English RB, this is westernized as "It's a sculpture of DIGLETT.", and is removed altogether in FRLG
 Text_ItsABuddhistAltar::
-    .string "ぶつだん　だ‥$"
+    .string "C’est un autel bouddhiste…$"

@@ -346,8 +346,8 @@ ALIGNED(4) static const u8 sTextColors_TopMenu[3]      = { 0, 1, 2 };
 ALIGNED(4) static const u8 sTextColors_TopMenu_Copy[3] = { 0, 1, 2 };
 ALIGNED(4) static const u8 sMG_Ereader_TextColor_2[3]  = { 1, 2, 3 };
 
-static const u8 sText_Test[] = _("テスト");
-static const u8 sText_EonTicket[] = _("むげんのチケット");
+static const u8 sText_Test[] = _("TEST");
+static const u8 sText_EonTicket[] = _("PASSE ÉON");
 
 static void VBlankCB_MysteryGiftEReader(void)
 {

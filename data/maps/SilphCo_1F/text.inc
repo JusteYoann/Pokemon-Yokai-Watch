@@ -1,14 +1,10 @@
 SilphCo_1F_Text_WelcomePresidentInBoardroom::
-    .string "Welcome.\p"
-    .string "The PRESIDENT is in the boardroom\n"
-    .string "on 11F.$"
+    .string "Bienvenue.\pLe Président est dans la salle de\nréunion, au 10e étage.$"
 
 @ Tentative translation. Unknown origin
 SilphCo_1F_Text_DestroyedWontBeFixedForWhile::
-    .string "めちゃめちゃに　こわされてる\n"
-    .string "とうぶん　なおりそうに　ない‥$"
+    .string "Tout a été saccagé…\nLes réparations vont être longues.$"
 
 SilphCo_1F_Text_FloorSign::
-    .string "Yopple HEAD OFFICE\n"
-    .string "1F$"
+    .string "SIÈGE DE YOPPLE\nREZ-DE-CHAUSSÉE$"
 

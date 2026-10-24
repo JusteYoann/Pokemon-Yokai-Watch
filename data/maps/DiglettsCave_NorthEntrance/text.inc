@@ -1,6 +1,3 @@
 DiglettsCave_NorthEntrance_RockTunnelPitchBlack::
-    .string "I went inside ROCK TUNNEL, but it's\n"
-    .string "pitch-black and scary in there.\p"
-    .string "If I could get a Yo-kai to use\n"
-    .string "FLASH and light it up…$"
+    .string "Je suis entré dans la Grotte Sombre,\nmais il y faisait noir et j'ai eu\lpeur.\pSi seulement un de mes Yo-kai pouvait\nutiliser Flash pour l'éclairer...$"
 

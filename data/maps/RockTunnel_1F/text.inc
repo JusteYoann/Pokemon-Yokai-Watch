@@ -1,83 +1,66 @@
 RockTunnel_1F_Text_LennyIntro::
-    .string "This tunnel goes a long way, kid!$"
+    .string "Ce tunnel est très long, petit !$"
 
 RockTunnel_1F_Text_LennyDefeat::
-    .string "Doh!\n"
-    .string "You win!$"
+    .string "Oh !\nTu as gagné !$"
 
 RockTunnel_1F_Text_LennyPostBattle::
-    .string "Watch for ONIX.\n"
-    .string "They appear only occasionally.\p"
-    .string "High-level ones can put the\n"
-    .string "squeeze on you!$"
+    .string "Méfie-toi des Dépotache.\nIls sont assez rares.\pLes plus puissants peuvent vraiment\nte serrer de près !$"
 
 RockTunnel_1F_Text_OliverIntro::
-    .string "Hmm.\n"
-    .string "Maybe I'm lost in here…$"
+    .string "Hmm...\nJe crois que je suis perdu...$"
 
 RockTunnel_1F_Text_OliverDefeat::
-    .string "Ease up!\n"
-    .string "What am I doing?\l"
-    .string "Which way is out?$"
+    .string "Doucement !\nQu'est-ce que je fais ?\lOù est la sortie ?$"
 
 RockTunnel_1F_Text_OliverPostBattle::
-    .string "That sleeping Yo-kai on ROUTE 12\n"
-    .string "forced me to take this detour.$"
+    .string "Le Yo-kai qui dort sur la Route 12\nm'a obligé à faire ce détour.$"
 
 RockTunnel_1F_Text_LucasIntro::
-    .string "Outsiders like you need to show me\n"
-    .string "some respect!$"
+    .string "Les visiteurs comme toi devraient me\nmontrer du respect !$"
 
 RockTunnel_1F_Text_LucasDefeat::
-    .string "I give!$"
+    .string "J'abandonne !$"
 
 RockTunnel_1F_Text_LucasPostBattle::
-    .string "You're talented enough to hike!$"
+    .string "Tu as assez de talent pour faire de\nla randonnée !$"
 
 RockTunnel_1F_Text_AshtonIntro::
-    .string "Yo-kai fight!\n"
-    .string "Ready, go!$"
+    .string "Combat de Yo-kai ! Prêts ? Partez !$"
 
 RockTunnel_1F_Text_AshtonDefeat::
-    .string "Game over!$"
+    .string "Partie terminée !$"
 
 RockTunnel_1F_Text_AshtonPostBattle::
-    .string "Oh well, I'll get a ZUBAT as I go!$"
+    .string "Tant pis, j'attraperai un Brumette en\nchemin !$"
 
 RockTunnel_1F_Text_LeahIntro::
-    .string "Eek!\p"
-    .string "Don't try anything funny in the\n"
-    .string "dark!$"
+    .string "Hé !\pN'essaie pas de faire une bêtise dans\nle noir !$"
 
 RockTunnel_1F_Text_LeahDefeat::
-    .string "It was too dark…$"
+    .string "Il faisait trop sombre…$"
 
 RockTunnel_1F_Text_LeahPostBattle::
-    .string "I saw a MACHOP in this tunnel.$"
+    .string "J'ai vu une Sirénée dans ce tunnel.$"
 
 RockTunnel_1F_Text_DanaIntro::
-    .string "I came this far looking for wild\n"
-    .string "Yo-kai.$"
+    .string "Je suis venue jusqu'ici pour trouver\ndes Yo-kai sauvages.$"
 
 RockTunnel_1F_Text_DanaDefeat::
-    .string "I'm out of Yo-kai!$"
+    .string "Je n'ai plus de Yo-kai !$"
 
 RockTunnel_1F_Text_DanaPostBattle::
-    .string "You looked cute and harmless.\n"
-    .string "Was I ever wrong!$"
+    .string "Tu avais l'air si gentil et inoffensif.\nJe me trompais bien !$"
 
 RockTunnel_1F_Text_ArianaIntro::
-    .string "You have Yo-kai!\n"
-    .string "Let's start!$"
+    .string "Tu as des Yo-kai !\nC'est parti !$"
 
 RockTunnel_1F_Text_ArianaDefeat::
-    .string "You play hard!$"
+    .string "Tu ne fais pas semblant !$"
 
 RockTunnel_1F_Text_ArianaPostBattle::
-    .string "Whew!\n"
-    .string "I'm all sweaty now.$"
+    .string "Ouf !\nJe suis toute en sueur.$"
 
 RockTunnel_1F_Text_RouteSign::
-    .string "ROCK TUNNEL\n"
-    .string "CERULEAN CITY - LAVENDER TOWN$"
+    .string "GROTTE SOMBRE\nAzuria - Lavanville$"
 

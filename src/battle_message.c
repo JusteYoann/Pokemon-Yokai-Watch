@@ -1332,7 +1332,7 @@ static const u8 *const sStatNamesTable2[] =
     sText_Speed
 };
 
-const u8 gText_SafariBalls[] = _("{HIGHLIGHT 2}SAFARI BALLS"); //
+const u8 gText_SafariBalls[] = _("{HIGHLIGHT 2}BALLS SAFARI"); //
 const u8 gText_HighlightRed_Left[] = _("{HIGHLIGHT 2}Reste: ");
 const u8 gText_HighlightRed[] = _("{HIGHLIGHT 2}");
 const u8 gText_Sleep[] = _("sommeil");

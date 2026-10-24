@@ -44,8 +44,7 @@ OneIsland_PokemonCenter_1F_Text_ReceivedExtraPageForTownMap::
     .string "{PLAYER} reçoit une page\nsupplémentaire pour la Carte !$"
 
 OneIsland_PokemonCenter_1F_Text_ReceivedTownMap::
-    .string "{PLAYER} received\n"
-    .string "a TOWN MAP!$"
+    .string "{PLAYER} reçoit une Carte !$"
 
 OneIsland_PokemonCenter_1F_Text_BillCatchYouLater::
     .string "LÉO : À tout à l'heure ! Passe-lui le\nbonjour pour moi !$"
@@ -75,8 +74,7 @@ OneIsland_PokemonCenter_1F_Text_BillYouveLearnedALot::
     .string "LÉO : Mais non ! Tu avais déjà\npresque tout fait.\pCiléo, tu as fait des progrès\nremarquables.$"
 
 OneIsland_PokemonCenter_1F_Text_CelioOhReallyEhehe::
-    .string "CELIO: Oh, really?\n"
-    .string "Ehehe…$"
+    .string "CILÉO : Oh, vraiment ? Héhéhé…$"
 
 OneIsland_PokemonCenter_1F_Text_BillWeShouldHeadBackToKanto::
     .string "LÉO : Voilà, le travail est terminé !\pIl est temps de rentrer à Kanto.\pÀ bientôt, Ciléo !$"

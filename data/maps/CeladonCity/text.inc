@@ -1,106 +1,66 @@
 CeladonCity_Text_GotMyKoffingInCinnabar::
-    .string "I got my KOFFING in CINNABAR.\p"
-    .string "It's usually nice, but it breathes\n"
-    .string "poison when it's angry.$"
+    .string "J'ai trouvé mon Abrézo Social à\nCramois'Île.\pIl est plutôt gentil, mais il crache\ndu poison quand il se fâche !$"
 
 CeladonCity_Text_GymIsGreatFullOfWomen::
-    .string "Heheh! This GYM is great!\n"
-    .string "It's full of women!$"
+    .string "Héhé ! Cette Arène est formidable !\nElle est pleine de femmes !$"
 
 CeladonCity_Text_GameCornerIsBadForCitysImage::
-    .string "CELADON takes pride in its efforts\n"
-    .string "to keep the city beautiful.\p"
-    .string "That's why the new GAME CORNER is\n"
-    .string "bad for our city's image.$"
+    .string "Céladopole fait tout pour rester une\nbelle ville.\pCe nouveau Casino donne une bien\nmauvaise image du quartier.$"
 
 CeladonCity_Text_BlewItAllAtSlots::
-    .string "Moan…\n"
-    .string "I blew it all at the slots!\p"
-    .string "I knew I should have cashed in my\n"
-    .string "COINS for prizes!$"
+    .string "Oh non... J'ai tout perdu aux\nmachines à sous !\pJ'aurais dû échanger mes Jetons\ncontre des lots pendant qu'il était\lencore temps !$"
 
 CeladonCity_Text_MyTrustedPalPoliwrath::
-    .string "This is my trusted pal, POLIWRATH.\p"
-    .string "It evolved from a POLIWHIRL when\n"
-    .string "I used a WATER STONE.$"
+    .string "Voici mon fidèle Chauvekipeut.\pIl a évolué grâce à une Pierre Eau.$"
 
 CeladonCity_Text_Poliwrath::
-    .string "POLIWRATH: Ribi ribit!$"
+    .string "Chauvekipeut : Coâ, coâ !$"
 
 CeladonCity_Text_GetLostOrIllPunchYou::
-    .string "What are you staring at?\n"
-    .string "Get lost, or I'll punch you.$"
+    .string "Qu'est-ce que tu regardes ?\nDégage avant que je m'énerve !$"
 
 CeladonCity_Text_KeepOutOfTeamRocketsWay::
     .string "La Mafiamille règle ses affaires.\nCircule!$"
 
 CeladonCity_Text_ExplainXAccuracyDireHit::
-    .string "TRAINER TIPS\p"
-    .string "X ACCURACY boosts the accuracy of\n"
-    .string "techniques.\p"
-    .string "DIRE HIT jacks up the likelihood\n"
-    .string "of critical hits.\p"
-    .string "Get your items at the CELADON\n"
-    .string "DEPT. STORE!$"
+    .string "ASTUCE\pPrécision + améliore la précision des\ntechniques.\pMuscle + augmente les chances de\nporter un coup critique.\pTu en trouveras au Centre Commercial\nde Céladopole !$"
 
 CeladonCity_Text_CitySign::
-    .string "CELADON CITY\n"
-    .string "The City of Rainbow Dreams$"
+    .string "CÉLADOPOLE\nLa ville aux couleurs de\ll'arc-en-ciel$"
 
 CeladonCity_Text_GymSign::
 	.string "Seconde résidence d'ALYZON BIE.\nSon Arène est à LAVANVILLE.$"
 
 
 CeladonCity_Text_MansionSign::
-    .string "CELADON MANSION$"
+    .string "MANOIR DE CÉLADOPOLE$"
 
 CeladonCity_Text_DeptStoreSign::
-    .string "Find what you need at the\n"
-    .string "CELADON DEPT. STORE!$"
+    .string "Tout ce qu'il vous faut au Centre\nCommercial de Céladopole !$"
 
 CeladonCity_Text_GuardSpecProtectsFromStatus::
-    .string "TRAINER TIPS\p"
-    .string "GUARD SPEC. protects Yo-kai\n"
-    .string "from status-reduction moves during\l"
-    .string "battle.\p"
-    .string "Get your items at the\n"
-    .string "CELADON DEPT. STORE!$"
+    .string "ASTUCE\pDéf. Spé. protège les Yo-kai contre\nles techniques qui diminuent leurs\lstatistiques en combat.\pEn vente au Centre Commercial de\nCéladopole !$"
 
 CeladonCity_Text_PrizeExchangeSign::
-    .string "COINS exchanged for prizes!\n"
-    .string "PRIZE EXCHANGE$"
+    .string "Échangez vos Jetons contre des lots\n!\nGUICHET DES LOTS$"
 
 CeladonCity_Text_GameCornerSign::
     .string "CASINO MAFIAMILLE\nLe rendez-vous des grandes mises!$"
 
 CeladonCity_Text_ScaldedTongueOnTea::
-    .string "Aaaagh, ow…\n"
-    .string "I scalded my tongue!\p"
-    .string "This nice old lady in the MANSION\n"
-    .string "gave me some TEA.\p"
-    .string "But it was boiling hot!\n"
-    .string "Gotta cool it to drink it.$"
+    .string "Aaaah ! Aïe ! Je me suis brûlé la\nlangue !\pUne gentille dame du Manoir m'a donné\ndu Thé.\pMais il était bouillant ! Je dois\nattendre qu'il refroidisse.$"
 
 Text_SoftboiledTeach::
-    .string "Hello, there!\p"
-    .string "I've seen you about, but I never\n"
-    .string "had a chance to chat.\p"
-    .string "It must be good luck that brought\n"
-    .string "us together finally.\p"
-    .string "I'd like to celebrate by teaching\n"
-    .string "you the move SOFTBOILED.$"
+    .string "Bonjour !\pJe t'ai déjà vu dans le coin, mais\nnous n'avions jamais eu l'occasion de\ldiscuter.\pQuelle chance de te rencontrer enfin\n!\pPour fêter ça, je peux enseigner la\ntechnique E-Coque à l'un de tes\lYo-kai.$"
 
 Text_SoftboiledDeclined::
-    .string "I'll always be keeping an eye out\n"
-    .string "for you.\p"
-    .string "I hope we can chat again.$"
+    .string "Je garderai toujours un oeil sur toi.\pJ'espère que nous pourrons encore\ndiscuter !$"
 
 Text_SoftboiledWhichMon::
-    .string "So, who's the Yo-kai that gets\n"
-    .string "the chance to learn SOFTBOILED?$"
+    .string "Quel Yo-kai aura la chance\nd'apprendre E-Coque ?$"
 
 Text_SoftboiledTaught::
-    .string "I wish you the best of luck!$"
+    .string "Je te souhaite bonne chance !$"
 
 CeladonCity_Text_SomeoneStoleSilphScope::
     .string "La MAFIAMILLE cache quelque chose\n"

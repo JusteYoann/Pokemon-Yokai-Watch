@@ -29,5 +29,5 @@ PewterCity_Museum_1F_Text_SpaceShuttle::
     .string "Navette spatiale$"
 
 PewterCity_Museum_1F_Text_MeteoriteThatFellOnMtMoon::
-    .string "Une météorite tombée\nsur MT. MOON.\pIl s'agirait d'une Pierre Lune.$"
+    .string "Une météorite tombée\nsur MONT SÉLÉNITE.\pIl s'agirait d'une Pierre Lune.$"
 

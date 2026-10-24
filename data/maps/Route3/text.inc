@@ -1,8 +1,8 @@
 Route3_Text_TunnelFromCeruleanTiring::
-    .string "Ouf… Je dois me reposer…\nHaaaan…\pCe tunnel depuis CERULEAN CITY\nm'a vidé de toutes mes forces!$"
+    .string "Ouf… Je dois me reposer…\nHaaaan…\pCe tunnel depuis AZURIA\nm'a vidé de toutes mes forces!$"
 
 Route3_Text_ColtonIntro::
-    .string "Hé!\nJe t'ai vu dans VIRIDIAN FOREST!$"
+    .string "Hé!\nJe t'ai vu dans FORÊT DE JADE!$"
 
 Route3_Text_ColtonDefeat::
     .string "Tu m'as encore battu!$"
@@ -71,8 +71,8 @@ Route3_Text_RobinDefeat::
     .string "C'est tout?$"
 
 Route3_Text_RobinPostBattle::
-    .string "La ROUTE 4 se trouve\nau pied de MT. MOON.$"
+    .string "La ROUTE 4 se trouve\nau pied de MONT SÉLÉNITE.$"
 
 Route3_Text_RouteSign::
-    .string "ROUTE 3\nVERS MT. MOON$"
+    .string "ROUTE 3\nVERS LE MONT SÉLÉNITE$"
 

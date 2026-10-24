@@ -1,73 +1,42 @@
 FuchsiaCity_SafariZone_Entrance_Text_WelcomeToSafariZone::
-    .string "Welcome to the SAFARI ZONE!$"
+    .string "Bienvenue au Parc Safari !$"
 
 FuchsiaCity_SafariZone_Entrance_Text_PlaySafariGameFor500::
-    .string "For just ¥500, you can play the\n"
-    .string "SAFARI GAME.\p"
-    .string "You can roam the wide-open safari\n"
-    .string "and catch what you like.\p"
-    .string "Would you like to play?$"
+    .string "Pour seulement 500 ¥, tu peux\nparticiper au Safari.\pExplore ce vaste parc et capture les\nYo-kai de ton choix.\pVeux-tu participer ?$"
 
 FuchsiaCity_SafariZone_Entrance_Text_ThatllBe500WeOnlyUseSpecialBalls::
-    .string "That'll be ¥500, please!\p"
-    .string "We only use a special kind of \n"
-    .string "Yo-kai Balls here.$"
+    .string "Ce sera 500 ¥, s'il te plaît !\pIci, on utilise uniquement un modèle\nspécial de Balls.$"
 
 FuchsiaCity_SafariZone_Entrance_Text_PlayerReceived30SafariBalls::
-    .string "{PLAYER} received 30 SAFARI BALLS\n"
-    .string "from the attendant.$"
+    .string "{PLAYER} reçoit 30 Safari Balls de\nl'employé.$"
 
 FuchsiaCity_SafariZone_Entrance_Text_CallYouOnPAWhenYouRunOut::
-    .string "We'll call you on the PA when you\n"
-    .string "run out of time or SAFARI BALLS.\p"
-    .string "Well, I'll wish you the best of\n"
-    .string "luck!$"
+    .string "Nous t'appellerons au haut-parleur\nquand ton temps sera écoulé ou que\ltu n'auras plus de Safari Balls.\pBonne chance !$"
 
 FuchsiaCity_SafariZone_Entrance_Text_OkayPleaseComeAgain::
-    .string "Okay.\n"
-    .string "Please come again!$"
+    .string "D'accord.\nReviens quand tu voudras !$"
 
 FuchsiaCity_SafariZone_Entrance_Text_OopsNotEnoughMoney::
-    .string "Oops!\n"
-    .string "Not enough money!$"
+    .string "Oups ! Il n'y a pas assez d'argent !$"
 
 FuchsiaCity_SafariZone_Entrance_Text_GoingToLeaveSafariZoneEarly::
-    .string "Are you going to leave the\n"
-    .string "SAFARI ZONE early?$"
+    .string "Veux-tu quitter le Parc Safari avant\nla fin ?$"
 
 FuchsiaCity_SafariZone_Entrance_Text_PleaseReturnSafariBalls::
-    .string "Please return any SAFARI BALLS\n"
-    .string "you may have left.$"
+    .string "Merci de rendre les Safari Balls qu'il\nte reste.$"
 
 FuchsiaCity_SafariZone_Entrance_Text_GoodLuck::
-    .string "Good luck!$"
+    .string "Bonne chance !$"
 
 FuchsiaCity_SafariZone_Entrance_Text_CatchFairShareComeAgain::
-    .string "Did you catch your fair share?\n"
-    .string "Come again!$"
+    .string "Tu as fait de belles prises ?\nReviens nous voir !$"
 
 FuchsiaCity_SafariZone_Entrance_Text_FirstTimeAtSafariZone::
-    .string "Hi! Is it your first time here at\n"
-    .string "the SAFARI ZONE?$"
+    .string "Bonjour ! C'est ta première visite au\nParc Safari ?$"
 
 FuchsiaCity_SafariZone_Entrance_Text_ExplainSafariZone::
-    .string "The SAFARI ZONE actually has\n"
-    .string "four zones in it.\p"
-    .string "Each zone has different kinds of\n"
-    .string "Yo-kai, even some rare ones.\p"
-    .string "Use the supplied SAFARI BALLS to\n"
-    .string "catch them.\p"
-    .string "You can also throw BAIT or ROCKS\n"
-    .string "besides the SAFARI BALLS.\p"
-    .string "If you throw BAIT, the Yo-kai\n"
-    .string "becomes less likely to flee, but\l"
-    .string "harder to catch.\p"
-    .string "If you throw ROCKS, the Yo-kai\n"
-    .string "becomes more likely to flee, but\l"
-    .string "easier to catch.\p"
-    .string "When you run out of time or SAFARI\n"
-    .string "BALLS, it's game over for you!$"
+    .string "Le Parc Safari comprend quatre\nzones.\pChaque zone abrite des Yo-kai\ndifférents, dont certains très rares.\pUtilise les Safari Balls fournies pour\nles capturer.\pTu peux aussi lancer des Appâts ou\ndes Cailloux.\pAvec un Appât, le Yo-kai risque moins\nde fuir, mais il devient plus difficile\là capturer.\pAvec un Caillou, il risque davantage\nde fuir, mais il devient plus facile à\lcapturer.\pQuand le temps est écoulé ou que tu\nn'as plus de Safari Balls, la partie\lest terminée !$"
 
 FuchsiaCity_SafariZone_Entrance_Text_SorryYoureARegularHere::
-    .string "Sorry, you're a regular here!$"
+    .string "Pardon, tu es déjà un habitué !$"
 

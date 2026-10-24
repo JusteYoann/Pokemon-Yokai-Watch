@@ -1,22 +1,18 @@
 VictoryRoad_1F_Text_NaomiIntro::
-    .string "I wonder if you are good enough\n"
-    .string "for me?$"
+    .string "Voyons si tu es à ma hauteur.$"
 
 VictoryRoad_1F_Text_NaomiDefeat::
-    .string "I lost out…$"
+    .string "J'ai échoué…$"
 
 VictoryRoad_1F_Text_NaomiPostBattle::
-    .string "I never wanted to lose to anybody,\n"
-    .string "especially to a younger kid…$"
+    .string "Je ne voulais perdre contre personne,\nsurtout pas contre un enfant plus\ljeune…$"
 
 VictoryRoad_1F_Text_RolandoIntro::
-    .string "I can see you're good.\n"
-    .string "Let me see exactly how good!$"
+    .string "Je vois que tu es fort. Voyons\njusqu'à quel point !$"
 
 VictoryRoad_1F_Text_RolandoDefeat::
-    .string "I had a chance…$"
+    .string "J'avais une chance…$"
 
 VictoryRoad_1F_Text_RolandoPostBattle::
-    .string "Tch!\n"
-    .string "I concede, you are better than I!$"
+    .string "Pff ! Je l'admets, tu es meilleur que\nmoi !$"
 

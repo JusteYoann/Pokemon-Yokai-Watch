@@ -1,0 +1,124 @@
+{
+  "passed": true,
+  "rom_sha256": "9f39dbfdd694cc0fde1c4cd6e699096f408102b310bc1abe4c075d12ecb148b5",
+  "scope": "Speech, Centre healing, museum ticket, Route2 exit, START and return beyond trigger row",
+  "player_gender": 0,
+  "results": [
+    {
+      "centre_heal": true,
+      "museum_admission": true,
+      "return_route2": true,
+      "start_menu": true,
+      "north_past_trigger": true,
+      "stale_guards": true,
+      "entry": 20,
+      "completed_frames": 4115,
+      "simultaneous_palette_banks": [
+        [
+          6,
+          10
+        ]
+      ],
+      "music_headers": [
+        "0x9bdb34c",
+        "0x95a16cc",
+        "0x94fbe54",
+        "0x95a16cc"
+      ],
+      "captured": [
+        "rassemblement",
+        "dispersion",
+        "discours"
+      ],
+      "peak_active_objects": 13,
+      "passed": true
+    },
+    {
+      "centre_heal": true,
+      "museum_admission": true,
+      "return_route2": true,
+      "start_menu": true,
+      "north_past_trigger": true,
+      "stale_guards": true,
+      "entry": 21,
+      "completed_frames": 4275,
+      "simultaneous_palette_banks": [
+        [
+          6,
+          10
+        ]
+      ],
+      "music_headers": [
+        "0x9bdb34c",
+        "0x95a16cc",
+        "0x94fbe54",
+        "0x95a16cc"
+      ],
+      "captured": [
+        "rassemblement",
+        "dispersion",
+        "discours"
+      ],
+      "peak_active_objects": 13,
+      "passed": true
+    },
+    {
+      "centre_heal": true,
+      "museum_admission": true,
+      "return_route2": true,
+      "start_menu": true,
+      "north_past_trigger": true,
+      "stale_guards": true,
+      "entry": 22,
+      "completed_frames": 4083,
+      "simultaneous_palette_banks": [
+        [
+          6,
+          10
+        ]
+      ],
+      "music_headers": [
+        "0x9bdb34c",
+        "0x95a16cc",
+        "0x94fbe54",
+        "0x95a16cc"
+      ],
+      "captured": [
+        "rassemblement",
+        "dispersion",
+        "discours"
+      ],
+      "peak_active_objects": 13,
+      "passed": true
+    },
+    {
+      "centre_heal": true,
+      "museum_admission": true,
+      "return_route2": true,
+      "start_menu": true,
+      "north_past_trigger": true,
+      "stale_guards": true,
+      "entry": 23,
+      "completed_frames": 4243,
+      "simultaneous_palette_banks": [
+        [
+          6,
+          10
+        ]
+      ],
+      "music_headers": [
+        "0x9bdb34c",
+        "0x95a16cc",
+        "0x94fbe54",
+        "0x95a16cc"
+      ],
+      "captured": [
+        "rassemblement",
+        "dispersion",
+        "discours"
+      ],
+      "peak_active_objects": 13,
+      "passed": true
+    }
+  ]
+}

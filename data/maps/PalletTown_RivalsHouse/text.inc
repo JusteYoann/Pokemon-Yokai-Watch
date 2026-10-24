@@ -8,8 +8,7 @@ PalletTown_RivalsHouse_Text_ErrandForGrandpaThisWillHelp::
     .string "Papi t'a demandé\nde faire une course?\pIl exagère un peu!\nTiens, ceci t'aidera.$"
 
 PalletTown_RivalsHouse_Text_ReceivedTownMapFromDaisy::
-    .string "{PLAYER} received a TOWN MAP\n"
-    .string "from DAISY.$"
+    .string "{PLAYER} reçoit une Carte des mains\nde Nina.$"
 
 PalletTown_RivalsHouse_Text_DontHaveSpaceForThis::
     .string "Tu n'as pas assez\nde place dans ton Sac.$"

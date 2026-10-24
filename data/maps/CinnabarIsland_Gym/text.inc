@@ -23,98 +23,79 @@ CinnabarIsland_Gym_Text_BlainePostBattle::
 
 
 CinnabarIsland_Gym_Text_MakeSpaceForThis::
-    .string "Make space for this, child!$"
+    .string "Fais de la place pour ceci, mon\nenfant !$"
 
 CinnabarIsland_Gym_Text_ErikIntro::
-    .string "Do you know how hot Yo-kai fire\n"
-    .string "breath can get?$"
+    .string "Tu sais à quelle température peut\nmonter le souffle enflammé d'un\lYo-kai ?$"
 
 CinnabarIsland_Gym_Text_ErikDefeat::
-    .string "Yow!\n"
-    .string "Hot, hot, hot!$"
+    .string "Aïe ! Ça brûle, ça brûle !$"
 
 CinnabarIsland_Gym_Text_ErikPostBattle::
-    .string "Fire, or to be more precise,\n"
-    .string "combustion…\p"
-    .string "…Oxygen in the air…\n"
-    .string "Blah, blah, blah, blah…$"
+    .string "Le feu, ou plus précisément, la\ncombustion...\pL'oxygène dans l'air...\nBla, bla, bla...$"
 
 CinnabarIsland_Gym_Text_QuinnIntro::
-    .string "I was a thief, but I went straight\n"
-    .string "as a TRAINER.$"
+    .string "J'étais un voleur, mais je me suis\nrangé en devenant Dresseur.$"
 
 CinnabarIsland_Gym_Text_QuinnDefeat::
     .string "I surrender!$"
 
 CinnabarIsland_Gym_Text_QuinnPostBattle::
-    .string "I get this uncontrollable urge to\n"
-    .string "steal other people's Yo-kai.$"
+    .string "J'ai parfois une envie incontrôlable\nde voler les Yo-kai des autres.$"
 
 CinnabarIsland_Gym_Text_AveryIntro::
-    .string "I've studied Yo-kai thoroughly.\n"
-    .string "You can't win!$"
+    .string "J'ai étudié les Yo-kai sous toutes les\ncoutures.\nTu ne peux pas gagner !$"
 
 CinnabarIsland_Gym_Text_AveryDefeat::
-    .string "Waah!\n"
-    .string "My studies were insufficient!$"
+    .string "Ouah ! Je n'avais pas assez étudié !$"
 
 CinnabarIsland_Gym_Text_AveryPostBattle::
-    .string "My theories are too complicated\n"
-    .string "for you to understand.$"
+    .string "Mes théories sont trop complexes pour\ntoi.$"
 
 CinnabarIsland_Gym_Text_RamonIntro::
-    .string "I like using FIRE-type Yo-kai.\n"
-    .string "I just do.$"
+    .string "J'aime les Yo-kai de type Feu.\nC'est comme ça !$"
 
 CinnabarIsland_Gym_Text_RamonDefeat::
-    .string "Too hot to handle!$"
+    .string "Trop brûlant pour moi !$"
 
 CinnabarIsland_Gym_Text_RamonPostBattle::
-    .string "I wish there were a thief Yo-kai.\n"
-    .string "I'd use that!$"
+    .string "J'aimerais qu'il existe un Yo-kai\nvoleur.\nJe l'utiliserais !$"
 
 CinnabarIsland_Gym_Text_DerekIntro::
     .string "{CHAMPION_CRAMOIS} connaît bien\nles liens entre les générations !$"
 
 
 CinnabarIsland_Gym_Text_DerekDefeat::
-    .string "Ow!$"
+    .string "Aïe !$"
 
 CinnabarIsland_Gym_Text_DerekPostBattle::
     .string "Les Yo-kai du passé\nont tant d’histoires à raconter !\pHovernyan accompagne\n{CHAMPION_CRAMOIS} dans ses aventures.$"
 
 
 CinnabarIsland_Gym_Text_DustyIntro::
-    .string "I've been to many GYMS, but this\n"
-    .string "one best suits my style.$"
+    .string "J'ai visité de nombreuses Arènes, mais\ncelle-ci correspond le mieux à mon\lstyle.$"
 
 CinnabarIsland_Gym_Text_DustyDefeat::
-    .string "Yowza!\n"
-    .string "Too hot!$"
+    .string "Ouille ! Trop chaud !$"
 
 CinnabarIsland_Gym_Text_DustyPostBattle::
-    .string "PONYTA, NINETALES…\n"
-    .string "Those are popular FIRE Yo-kai.$"
+    .string "Scolérique, Bonneto...\nCe sont des Yo-kai Feu très\lpopulaires.$"
 
 CinnabarIsland_Gym_Text_ZacIntro::
-    .string "Fire is weak against H2O.$"
+    .string "Le feu est faible face à l'eau.\nOu H2O, pour les scientifiques !$"
 
 CinnabarIsland_Gym_Text_ZacDefeat::
-    .string "Oh!\n"
-    .string "Snuffed out!$"
+    .string "Oh ! Ma flamme s'est éteinte !$"
 
 CinnabarIsland_Gym_Text_ZacPostBattle::
-    .string "Water beats fire, of course.\p"
-    .string "But fire melts ice, so the FIRE\n"
-    .string "type beats ICE-type Yo-kai.$"
+    .string "L'eau éteint le feu, bien sûr.\pMais le feu fait fondre la glace : le\ntype Feu est donc efficace contre le\ltype Glace.$"
 
 CinnabarIsland_Gym_Text_GymGuyAdvice::
     .string "Ici, les Yo-kai viennent du passé !\pIls n’ont pas tous le même type.\nPrépare une équipe variée !\pHovernyan est le dernier.\nAttention à sa grande Vitesse !$"
 
 
 CinnabarIsland_Gym_Text_GymGuyPostVictory::
-    .string "{PLAYER}!\n"
-    .string "You beat that firebrand!$"
+    .string "{PLAYER} !\nTu as battu cette tête brûlée !$"
 
 CinnabarIsland_Gym_Text_GymStatue::
     .string "ARÈNE DE CRAMOIS’ÎLE\n{CHAMPION_CRAMOIS} - Yo-kai du passé\pDRESSEURS VICTORIEUX :\n{RIVAL}$"
@@ -146,12 +127,10 @@ CinnabarIsland_Gym_Text_QuizQuestion6::
     .string "L'équipe des Blasters de Coach\nAntonic apparaît-elle dans plus\lde trois jeux différents ?$"
 
 CinnabarIsland_Gym_Text_CorrectGoOnThrough::
-    .string "You're absolutely correct!\p"
-    .string "Go on through!$"
+    .string "C'est tout à fait exact !\pTu peux passer !$"
 
 CinnabarIsland_Gym_Text_SorryBadCall::
-    .string "Sorry!\n"
-    .string "Bad call!$"
+    .string "Désolé !\nMauvaise réponse !$"
 
 
 CinnabarIsland_Gym_Text_MichaelIntro::

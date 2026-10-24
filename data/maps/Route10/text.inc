@@ -1,86 +1,63 @@
 Route10_Text_MarkIntro::
-    .string "Wow, you came all the way here?\n"
-    .string "Maybe you're a POKéMANIAC, too?\l"
-    .string "Want to see my collection?$"
+    .string "Tu es venu jusqu'ici ?\nTu es peut-être aussi un grand fan\lde Yo-kai ?\lTu veux voir ma collection ?$"
 
 Route10_Text_MarkDefeat::
-    .string "Humph.\n"
-    .string "I'm not angry!$"
+    .string "Pfff...\nJe ne suis pas fâché !$"
 
 Route10_Text_MarkPostBattle::
-    .string "I have more rare Yo-kai at home!$"
+    .string "J'ai d'autres Yo-kai rares chez moi !$"
 
 Route10_Text_ClarkIntro::
-    .string "Ha-hahah-ah-ha!$"
+    .string "Ha-hahaha-ha-ha !$"
 
 Route10_Text_ClarkDefeat::
-    .string "Ha-haha!\n"
-    .string "Not laughing!\l"
-    .string "Ha-hay fever! Haha-ha-choo!$"
+    .string "Ha-haha !\nJe ne ris pas !\lJ'ai le rhume des foins !\lHa-ha-atchoum !$"
 
 Route10_Text_ClarkPostBattle::
-    .string "Haha-ha-choo!\n"
-    .string "Ha-choo!\l"
-    .string "Snort! Snivel!$"
+    .string "Haha-atchoum ! Atchoum ! Snif, snif\n!$"
 
 Route10_Text_HermanIntro::
-    .string "Hi, kid!\n"
-    .string "Want to see my Yo-kai?$"
+    .string "Salut, petit ! Tu veux voir mes\nYo-kai ?$"
 
 Route10_Text_HermanDefeat::
-    .string "Oh, no!\n"
-    .string "My Yo-kai!$"
+    .string "Oh non !\nMes Yo-kai !$"
 
 Route10_Text_HermanPostBattle::
-    .string "I don't like you.\n"
-    .string "I don't like anyone better than me!$"
+    .string "Je ne t'aime pas.\nJe n'aime personne de plus fort que\lmoi !$"
 
 Route10_Text_HeidiIntro::
-    .string "I've been out at a Yo-kai GYM\n"
-    .string "a few times.\p"
-    .string "…But I always lose.$"
+    .string "J'ai essayé de combattre dans une\nArène plusieurs fois...\pMais je perds toujours.$"
 
 Route10_Text_HeidiDefeat::
-    .string "Ohh!\n"
-    .string "After all my training!$"
+    .string "Oh ! Après tout cet entraînement !$"
 
 Route10_Text_HeidiPostBattle::
-    .string "I noticed some POKéMANIACS\n"
-    .string "prowling around.\p"
-    .string "Can you imagine? Them?\n"
-    .string "Up here in the mountains?$"
+    .string "J'ai vu des fans de Yo-kai rôder dans\nles environs.\pTu imagines ?\nIci, dans les montagnes ?$"
 
 Route10_Text_TrentIntro::
-    .string "Ah!\n"
-    .string "This mountain air is delicious!$"
+    .string "Ah !\nL'air de la montagne est délicieux !$"
 
 Route10_Text_TrentDefeat::
-    .string "That cleared my head!$"
+    .string "Ça m'a remis les idées en place !$"
 
 Route10_Text_TrentPostBattle::
-    .string "I feel bloated on mountain air!$"
+    .string "L'air de la montagne me gonfle à bloc\n!$"
 
 Route10_Text_CarolIntro::
-    .string "I'm feeling a bit faint.\n"
-    .string "I haven't hiked in some time.$"
+    .string "Je me sens un peu faible.\nJe n'ai pas fait de randonnée depuis\llongtemps.$"
 
 Route10_Text_CarolDefeat::
-    .string "I'm too tired.\n"
-    .string "I wasn't up for it.$"
+    .string "Je suis trop fatiguée.\nJe n'étais pas à la hauteur.$"
 
 Route10_Text_CarolPostBattle::
-    .string "The Yo-kai here in the mountains\n"
-    .string "are so chunky…\p"
-    .string "I wish there were pink Yo-kai\n"
-    .string "with a floral pattern!$"
+    .string "Les Yo-kai des montagnes sont si\nmassifs...\pJ'aimerais en voir des roses avec des\nmotifs de fleurs !$"
 
 Route10_Text_RockTunnelDetourToLavender::
-    .string "ROCK TUNNEL\n"
-    .string "Detour to LAVENDER TOWN$"
+    .string "GROTTE SOMBRE\nDétour vers LAVANVILLE$"
 
 Route10_Text_RockTunnel::
-    .string "ROCK TUNNEL$"
+    .string "GROTTE SOMBRE$"
 
 Route10_Text_PowerPlant::
-    .string "POWER PLANT$"
+    .string "CENTRALE$"
 

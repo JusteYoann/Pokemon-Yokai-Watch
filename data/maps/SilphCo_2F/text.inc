@@ -1,6 +1,5 @@
 SilphCo_2F_Text_ConnorIntro::
-    .string "Help!\n"
-    .string "I'm a Yopple employee.$"
+    .string "Au secours ! Je travaille chez\nYopple.$"
 
 SilphCo_2F_Text_ConnorDefeat::
     .string "Comment as-tu compris que j'aidais la\nMafiamille?$"
@@ -9,15 +8,13 @@ SilphCo_2F_Text_ConnorPostBattle::
     .string "La Yopple paie mon salaire. La\nMafiamille paie mes extras.$"
 
 SilphCo_2F_Text_JerryIntro::
-    .string "It's off-limits here!\n"
-    .string "Go home!$"
+    .string "Accès interdit ! Rentre chez toi !$"
 
 SilphCo_2F_Text_JerryDefeat::
-    .string "You're good.$"
+    .string "Tu es doué.$"
 
 SilphCo_2F_Text_JerryPostBattle::
-    .string "Can you solve the maze in here?\n"
-    .string "It's not easy, I tell you!$"
+    .string "Tu arriveras à résoudre ce labyrinthe\n? Ce n'est pas facile, crois-moi !$"
 
 SilphCo_2F_Text_Grunt1Intro::
     .string "Les visites scolaires sont annulées.\nOrdre de la famille!$"
@@ -41,22 +38,14 @@ Text_ThunderWaveTeach::
     .string "Au secours! Ne me faites pas de mal!\pOh! Tu n'es pas avec la Mafiamille.\nExcuse-moi...\pPour me faire pardonner, je peux\nenseigner Cage Éclair à un de tes\lYo-kai.$"
 
 Text_ThunderWaveDeclined::
-    .string "Oh…\n"
-    .string "But THUNDER WAVE is convenient…$"
+    .string "Oh… Pourtant, Cage Éclair est bien\npratique…$"
 
 Text_ThunderWaveWhichMon::
-    .string "Which Yo-kai should I teach\n"
-    .string "THUNDER WAVE?$"
+    .string "À quel Yo-kai dois-je enseigner Cage\nÉclair ?$"
 
 Text_ThunderWaveTaught::
-    .string "THUNDER WAVE causes paralysis in\n"
-    .string "the target Yo-kai.\p"
-    .string "A paralyzed Yo-kai may be unable\n"
-    .string "to move in battle.\p"
-    .string "It's an ELECTRIC-type move, so it\n"
-    .string "won't work on some Yo-kai.$"
+    .string "Cage Éclair paralyse le Yo-kai visé.\pUn Yo-kai paralysé peut être\nincapable d'agir en combat.\pC'est une capacité Électrik : certains\nYo-kai y sont donc insensibles.$"
 
 SilphCo_2F_Text_FloorSign::
-    .string "Yopple HEAD OFFICE\n"
-    .string "2F$"
+    .string "SIÈGE DE YOPPLE\n1er ÉTAGE$"
 

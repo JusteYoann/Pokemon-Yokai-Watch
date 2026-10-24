@@ -1,0 +1,602 @@
+[
+  {
+    "file": "data/maps/CeladonCity/text.inc",
+    "symbol": "CeladonCity_Text_Poliwrath",
+    "before": "POLIWRATH: Ribi ribit!$",
+    "after": "Chauvekipeut : Coâ, coâ !$"
+  },
+  {
+    "file": "data/maps/CeladonCity/text.inc",
+    "symbol": "CeladonCity_Text_MansionSign",
+    "before": "CELADON MANSION$",
+    "after": "MANOIR DE CÉLADOPOLE$"
+  },
+  {
+    "file": "data/maps/CeladonCity_Condominiums_1F/text.inc",
+    "symbol": "CeladonCity_Condominiums_1F_Text_Meowth",
+    "before": "MEOWTH: Meow!$",
+    "after": "Bouh : Miaou !$"
+  },
+  {
+    "file": "data/maps/CeladonCity_Condominiums_1F/text.inc",
+    "symbol": "CeladonCity_Condominiums_1F_Text_Clefairy",
+    "before": "CLEFAIRY: Pi pippippi!$",
+    "after": "Tauracle : Pi pippippi !$"
+  },
+  {
+    "file": "data/maps/CeladonCity_Condominiums_1F/text.inc",
+    "symbol": "CeladonCity_Condominiums_1F_Text_Nidoran",
+    "before": "NIDORAN♀: Kya kyaoo!$",
+    "after": "Padrézo : Kya kyaoo !$"
+  },
+  {
+    "file": "data/maps/CeladonCity_Condominiums_1F/text.inc",
+    "symbol": "CeladonCity_Condominiums_1F_Text_ManagersSuite",
+    "before": "CELADON MANSION\\nManager's Suite$",
+    "after": "MANOIR DE CÉLADOPOLE\\nSuite du gérant$"
+  },
+  {
+    "file": "data/maps/CeladonCity_Condominiums_2F/text.inc",
+    "symbol": "CeladonCity_Condominiums_2F_Text_GameFreakMeetingRoom",
+    "before": "GAME FREAK Meeting Room$",
+    "after": "GAME FREAK\\nSalle de réunion$"
+  },
+  {
+    "file": "data/maps/CeladonCity_Condominiums_3F/text.inc",
+    "symbol": "CeladonCity_Condominiums_3F_Text_GameFreakDevelopmentRoom",
+    "before": "GAME FREAK Development Room$",
+    "after": "GAME FREAK\\nSalle de développement$"
+  },
+  {
+    "file": "data/maps/CeladonCity_Condominiums_Roof/text.inc",
+    "symbol": "CeladonCity_Condominiums_Roof_Text_IKnowEverything",
+    "before": "I KNOW EVERYTHING!$",
+    "after": "JE SAIS TOUT !$"
+  },
+  {
+    "file": "data/maps/CeladonCity_DepartmentStore_1F/text.inc",
+    "symbol": "CeladonCity_DepartmentStore_1F_Text_ServiceCounter",
+    "before": "1F: SERVICE COUNTER$",
+    "after": "RDC : ACCUEIL$"
+  },
+  {
+    "file": "data/maps/CeladonCity_DepartmentStore_3F/text.inc",
+    "symbol": "CeladonCity_DepartmentStore_3F_Text_ItsSuperNES",
+    "before": "It's a Super NES.$",
+    "after": "C'est une Super NES.$"
+  },
+  {
+    "file": "data/maps/CeladonCity_DepartmentStore_3F/text.inc",
+    "symbol": "CeladonCity_DepartmentStore_3F_Text_PuzzleGame",
+    "before": "A puzzle game!\\nLooks addictive!$",
+    "after": "Un jeu de réflexion ! On dirait qu'il\\nest prenant !$"
+  },
+  {
+    "file": "data/maps/CeladonCity_DepartmentStore_3F/text.inc",
+    "symbol": "CeladonCity_DepartmentStore_3F_Text_FightingGame",
+    "before": "A fighting game!\\nLooks tough!$",
+    "after": "Un jeu de combat ! Ça a l'air\\ndifficile !$"
+  },
+  {
+    "file": "data/maps/CeladonCity_DepartmentStore_3F/text.inc",
+    "symbol": "CeladonCity_DepartmentStore_3F_Text_TVGameShop",
+    "before": "3F: TV GAME SHOP$",
+    "after": "2e : BOUTIQUE DE JEUX VIDÉO$"
+  },
+  {
+    "file": "data/maps/CeladonCity_DepartmentStore_5F/text.inc",
+    "symbol": "CeladonCity_DepartmentStore_5F_Text_Drugstore",
+    "before": "5F: DRUGSTORE$",
+    "after": "4e : PARAPHARMACIE$"
+  },
+  {
+    "file": "data/maps/CeladonCity_DepartmentStore_Roof/text.inc",
+    "symbol": "CeladonCity_DepartmentStore_Roof_Text_FloorSign",
+    "before": "ROOFTOP SQUARE:\\nVENDING MACHINES$",
+    "after": "PLACE DU TOIT :\\nDISTRIBUTEURS AUTOMATIQUES$"
+  },
+  {
+    "file": "data/maps/CeladonCity_DepartmentStore_Roof/text.inc",
+    "symbol": "CeladonCity_DepartmentStore_Roof_Text_NotEnoughMoney",
+    "before": "Oops, not enough money!$",
+    "after": "Oups, il n'y a pas assez d'argent !$"
+  },
+  {
+    "file": "data/maps/CeladonCity_DepartmentStore_Roof/text.inc",
+    "symbol": "CeladonCity_DepartmentStore_Roof_Text_DrinkCanPoppedOut",
+    "before": "A can of {STR_VAR_1} popped out!$",
+    "after": "Une canette de {STR_VAR_1} est\\ntombée !$"
+  },
+  {
+    "file": "data/maps/CeladonCity_DepartmentStore_Roof/text.inc",
+    "symbol": "CeladonCity_DepartmentStore_Roof_Text_NotThirsty",
+    "before": "Not thirsty!$",
+    "after": "Pas soif !$"
+  },
+  {
+    "file": "data/maps/CeladonCity_GameCorner/text.inc",
+    "symbol": "CeladonCity_GameCorner_Text_SlotMachineWantToPlay",
+    "before": "A slot machine!\\nWant to play?$",
+    "after": "Une machine à sous ! Voulez-vous\\njouer ?$"
+  },
+  {
+    "file": "data/maps/CeladonCity_GameCorner/text.inc",
+    "symbol": "CeladonCity_GameCorner_Text_SomeonesKeys",
+    "before": "Someone's keys!\\nThey'll be back.$",
+    "after": "Les clés de quelqu'un ! Cette\\npersonne va revenir.$"
+  },
+  {
+    "file": "data/maps/CeladonCity_Gym/text.inc",
+    "symbol": "CeladonCity_Gym_Text_ReceivedTM19FromErika",
+    "before": "{PLAYER} received TM19\\nfrom ERIKA.$",
+    "after": "{PLAYER} reçoit la CT19 des mains\\nd'Erika.$"
+  },
+  {
+    "file": "data/maps/CeladonCity_Gym/text.inc",
+    "symbol": "CeladonCity_Gym_Text_BridgetIntro",
+    "before": "Oh, welcome.\\nI was getting bored.$",
+    "after": "Oh, bienvenue. Je commençais à\\nm'ennuyer.$"
+  },
+  {
+    "file": "data/maps/CeladonCity_Gym/text.inc",
+    "symbol": "CeladonCity_Gym_Text_BridgetDefeat",
+    "before": "My makeup!$",
+    "after": "Mon maquillage !$"
+  },
+  {
+    "file": "data/maps/CeladonCity_Gym/text.inc",
+    "symbol": "CeladonCity_Gym_Text_LoriDefeat",
+    "before": "Oh!\\nSplendid!$",
+    "after": "Oh ! Splendide !$"
+  },
+  {
+    "file": "data/maps/CeladonCity_Gym/text.inc",
+    "symbol": "CeladonCity_Gym_Text_MaryDefeat",
+    "before": "Oh!\\nBeaten!$",
+    "after": "Oh ! Battue !$"
+  },
+  {
+    "file": "data/maps/CeladonCity_Hotel/text.inc",
+    "symbol": "CeladonCity_Hotel_Text_WhyDidSheBringBrother",
+    "before": "Why?\\nWhy did she bring her brother?$",
+    "after": "Pourquoi ? Pourquoi a-t-elle amené\\nson frère ?$"
+  },
+  {
+    "file": "data/maps/CeruleanCave_B1F/text.inc",
+    "symbol": "CeruleanCave_B1F_Text_Mew",
+    "before": "Mew!$",
+    "after": "Enma !$"
+  },
+  {
+    "file": "data/maps/CinnabarIsland/text.inc",
+    "symbol": "CinnabarIsland_Text_PokemonLab",
+    "before": "Yo-kai LAB$",
+    "after": "LABORATOIRE YO-KAI$"
+  },
+  {
+    "file": "data/maps/CinnabarIsland_Gym/text.inc",
+    "symbol": "CinnabarIsland_Gym_Text_ErikDefeat",
+    "before": "Yow!\\nHot, hot, hot!$",
+    "after": "Aïe ! Ça brûle, ça brûle !$"
+  },
+  {
+    "file": "data/maps/CinnabarIsland_Gym/text.inc",
+    "symbol": "CinnabarIsland_Gym_Text_AveryDefeat",
+    "before": "Waah!\\nMy studies were insufficient!$",
+    "after": "Ouah ! Je n'avais pas assez étudié !$"
+  },
+  {
+    "file": "data/maps/CinnabarIsland_Gym/text.inc",
+    "symbol": "CinnabarIsland_Gym_Text_RamonDefeat",
+    "before": "Too hot to handle!$",
+    "after": "Trop brûlant pour moi !$"
+  },
+  {
+    "file": "data/maps/CinnabarIsland_Gym/text.inc",
+    "symbol": "CinnabarIsland_Gym_Text_DerekDefeat",
+    "before": "Ow!$",
+    "after": "Aïe !$"
+  },
+  {
+    "file": "data/maps/CinnabarIsland_Gym/text.inc",
+    "symbol": "CinnabarIsland_Gym_Text_DustyDefeat",
+    "before": "Yowza!\\nToo hot!$",
+    "after": "Ouille ! Trop chaud !$"
+  },
+  {
+    "file": "data/maps/CinnabarIsland_Gym/text.inc",
+    "symbol": "CinnabarIsland_Gym_Text_ZacDefeat",
+    "before": "Oh!\\nSnuffed out!$",
+    "after": "Oh ! Ma flamme s'est éteinte !$"
+  },
+  {
+    "file": "data/maps/CinnabarIsland_PokemonLab_Entrance/text.inc",
+    "symbol": "CinnabarIsland_PokemonLab_Entrance_Text_MeetingRoomSign",
+    "before": "Yo-kai LAB\\nMeeting Room$",
+    "after": "LABORATOIRE YO-KAI\\nSalle de réunion$"
+  },
+  {
+    "file": "data/maps/CinnabarIsland_PokemonLab_Entrance/text.inc",
+    "symbol": "CinnabarIsland_PokemonLab_Entrance_Text_RAndDRoomSign",
+    "before": "Yo-kai LAB\\nR & D Room$",
+    "after": "LABORATOIRE YO-KAI\\nRecherche et développement$"
+  },
+  {
+    "file": "data/maps/CinnabarIsland_PokemonLab_Entrance/text.inc",
+    "symbol": "CinnabarIsland_PokemonLab_Entrance_Text_TestingRoomSign",
+    "before": "Yo-kai LAB\\nTesting Room$",
+    "after": "LABORATOIRE YO-KAI\\nSalle d'expérimentation$"
+  },
+  {
+    "file": "data/maps/CinnabarIsland_PokemonLab_ResearchRoom/text.inc",
+    "symbol": "CinnabarIsland_PokemonLab_ResearchRoom_Text_AnAmberPipe",
+    "before": "An amber pipe!$",
+    "after": "Un conduit en ambre !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_LostCave_Room1/text.inc",
+    "symbol": "FiveIsland_LostCave_Room1_Text_LawsonDefeat",
+    "before": "Aiyeeeeeh!\\nMercy!$",
+    "after": "Aïe ! Pitié !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_MemorialPillar/text.inc",
+    "symbol": "FiveIsland_MemorialPillar_Text_MiloDefeat",
+    "before": "Oh, so sharp!$",
+    "after": "Oh, quelle précision !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_MemorialPillar/text.inc",
+    "symbol": "FiveIsland_MemorialPillar_Text_ChazDefeat",
+    "before": "Flap, flap!$",
+    "after": "Flap, flap !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_JackiDefeat",
+    "before": "Oh, my, so strong.$",
+    "after": "Oh là là, quelle force.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_GillianDefeat",
+    "before": "Oh, my goodness gracious!$",
+    "after": "Oh, bonté divine !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_DestinDefeat",
+    "before": "Oops!\\nI rushed things!$",
+    "after": "Oups ! Je me suis précipité !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_Text_SelphysHouse",
+    "before": "SELPHY'S HOUSE$",
+    "after": "MAISON DE SELPHY$"
+  },
+  {
+    "file": "data/maps/FiveIsland_ResortGorgeous_House/text.inc",
+    "symbol": "FiveIsland_ResortGorgeous_House_Text_OhHowDisappointing",
+    "before": "Oh…\\nHow disappointing.$",
+    "after": "Oh… Quelle déception.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_WaterLabyrinth/text.inc",
+    "symbol": "FiveIsland_WaterLabyrinth_Text_HmmISeeIsee",
+    "before": "Ah, hmm…\\nI see, I see…$",
+    "after": "Ah, hmm… Je vois, je vois…$"
+  },
+  {
+    "file": "data/maps/FourIsland/text.inc",
+    "symbol": "FourIsland_Text_LoreleisHouse",
+    "before": "LORELEI'S HOUSE$",
+    "after": "MAISON D'OLGA$"
+  },
+  {
+    "file": "data/maps/FourIsland_LoreleisHouse/text.inc",
+    "symbol": "FourIsland_LoreleisHouse_Text_StuffedMonDollsGalore",
+    "before": "Stuffed Yo-kai dolls galore!$",
+    "after": "Des peluches de Yo-kai à perte de\\nvue !$"
+  },
+  {
+    "file": "data/maps/FourIsland_PokemonCenter_1F/text.inc",
+    "symbol": "Text_BodySlamDeclined",
+    "before": "Come again!\\nBoing!$",
+    "after": "Reviens me voir ! Boïng !$"
+  },
+  {
+    "file": "data/maps/FourIsland_PokemonCenter_1F/text.inc",
+    "symbol": "Text_BodySlamTaught",
+    "before": "Boioing!$",
+    "after": "Boïoïng !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity/text.inc",
+    "symbol": "FuchsiaCity_Text_CitySign",
+    "before": "FUCHSIA CITY\\nBehold! It's Passion Pink!$",
+    "after": "PARMANIE\\nLa passion du rose !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity/text.inc",
+    "symbol": "FuchsiaCity_Text_SafariZoneSign",
+    "before": "Yo-kai PARADISE\\nSAFARI ZONE$",
+    "after": "LE PARADIS DES YO-KAI\\nPARC SAFARI$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity/text.inc",
+    "symbol": "FuchsiaCity_Text_SafariGameSign",
+    "before": "SAFARI GAME\\nYo-kai-U-CATCH!$",
+    "after": "JEU DU SAFARI\\nAttrapez des Yo-kai !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity/text.inc",
+    "symbol": "FuchsiaCity_Text_WardensHomeSign",
+    "before": "SAFARI ZONE\\nWARDEN'S HOME$",
+    "after": "PARC SAFARI\\nMAISON DU GARDIEN$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity/text.inc",
+    "symbol": "Text_SubstituteDeclined",
+    "before": "Oh, really?\\nSUBSTITUTE seems so fun…$",
+    "after": "Ah, vraiment ? Clonage a pourtant\\nl'air amusant…$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_Gym/text.inc",
+    "symbol": "FuchsiaCity_Gym_Text_EdgarDefeat",
+    "before": "Awoo!$",
+    "after": "Ahou !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_House3/text.inc",
+    "symbol": "FuchsiaCity_House3_Text_MonOnlyKnowsOneMove",
+    "before": "{STR_VAR_1} seems to know only one\\nmove…$",
+    "after": "{STR_VAR_1} ne semble connaître\\nqu'une capacité…$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_SafariZone_Entrance/text.inc",
+    "symbol": "FuchsiaCity_SafariZone_Entrance_Text_OopsNotEnoughMoney",
+    "before": "Oops!\\nNot enough money!$",
+    "after": "Oups ! Il n'y a pas assez d'argent !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_SafariZone_Entrance/text.inc",
+    "symbol": "FuchsiaCity_SafariZone_Entrance_Text_GoodLuck",
+    "before": "Good luck!$",
+    "after": "Bonne chance !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_WardensHouse/text.inc",
+    "symbol": "FuchsiaCity_WardensHouse_Text_AhHowheeHoHoo",
+    "before": "Ah howhee ho hoo!\\nEef ee hafahi ho!$",
+    "after": "Ah, che chuis cha ché ! Merci pour\\nle Chafari !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_WardensHouse/text.inc",
+    "symbol": "FuchsiaCity_WardensHouse_Text_HeOhayHeHaHoo",
+    "before": "Ha?\\nHe ohay heh ha hoo ee haheh!$",
+    "after": "Hein ? Che chais pas che que tu\\nracontes !$"
+  },
+  {
+    "file": "data/maps/LavenderTown/text.inc",
+    "symbol": "LavenderTown_Text_VolunteerPokemonHouse",
+    "before": "LAVENDER VOLUNTEER\\nYo-kai HOUSE$",
+    "after": "MAISON YO-KAI\\nDES BÉNÉVOLES DE LAVANVILLE$"
+  },
+  {
+    "file": "data/maps/LavenderTown_House1/text.inc",
+    "symbol": "LavenderTown_House1_Text_Cubone",
+    "before": "CUBONE: Kyarugoo!$",
+    "after": "Castelius I : Kyarugoo !$"
+  },
+  {
+    "file": "data/maps/LavenderTown_House2/text.inc",
+    "symbol": "LavenderTown_House2_Text_ISeeComeVisitAgain",
+    "before": "I see.\\nDo come visit again.$",
+    "after": "Je vois. Reviens nous rendre visite.$"
+  },
+  {
+    "file": "data/maps/LavenderTown_VolunteerPokemonHouse/text.inc",
+    "symbol": "LavenderTown_VolunteerPokemonHouse_Text_Nidorino",
+    "before": "NIDORINO: Gaoo!$",
+    "after": "Misterre : Gaoo !$"
+  },
+  {
+    "file": "data/maps/LavenderTown_VolunteerPokemonHouse/text.inc",
+    "symbol": "LavenderTown_VolunteerPokemonHouse_Text_Psyduck",
+    "before": "PSYDUCK: Gwappa!$",
+    "after": "Canastelle : Gwappa !$"
+  },
+  {
+    "file": "data/maps/LavenderTown_VolunteerPokemonHouse/text.inc",
+    "symbol": "LavenderTown_VolunteerPokemonHouse_Text_ReceivedPokeFluteFromMrFuji",
+    "before": "{PLAYER} received a POKé FLUTE\\nfrom MR. FUJI.$",
+    "after": "{PLAYER} reçoit une Pokéflûte des\\nmains de M. Fuji.$"
+  },
+  {
+    "file": "data/maps/MtEmber_Exterior/text.inc",
+    "symbol": "MtEmber_Exterior_Text_JocelynDefeat",
+    "before": "I think I tried to overdo it…$",
+    "after": "J'ai voulu en faire trop…$"
+  },
+  {
+    "file": "data/maps/MtEmber_RubyPath_B3F/text.inc",
+    "symbol": "MtEmber_RubyPath_B3F_Text_FoundARuby",
+    "before": "{PLAYER} found a RUBY!$",
+    "after": "{PLAYER} trouve un Rubis !$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_MariaDefeat",
+    "before": "Aiyeeeeh!$",
+    "after": "Aïe !$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_TommyDefeat",
+    "before": "I've lost it all again…$",
+    "after": "J'ai encore tout perdu…$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_TanyaPostBattle",
+    "before": "I'll train even harder from now on!$",
+    "after": "Dorénavant, je m'entraînerai encore\\nplus dur !$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_SheaDefeat",
+    "before": "Gasp…\\nGasp…$",
+    "after": "Haa… Haa…$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_HughDefeat",
+    "before": "Why me?!$",
+    "after": "Pourquoi moi ?!$"
+  },
+  {
+    "file": "data/maps/OneIsland_KindleRoad/text.inc",
+    "symbol": "OneIsland_KindleRoad_Text_BryceDefeat",
+    "before": "Awww, blown!$",
+    "after": "Oh, balayé !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_ReceivedTownMap",
+    "before": "{PLAYER} received\\na TOWN MAP!$",
+    "after": "{PLAYER} reçoit une Carte !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_CelioOhReallyEhehe",
+    "before": "CELIO: Oh, really?\\nEhehe…$",
+    "after": "CILÉO : Oh, vraiment ? Héhéhé…$"
+  },
+  {
+    "file": "data/maps/OneIsland_TreasureBeach/text.inc",
+    "symbol": "OneIsland_TreasureBeach_Text_AmaraDefeat",
+    "before": "I lost…\\nIt feels awful.$",
+    "after": "J'ai perdu… C'est horrible.$"
+  },
+  {
+    "file": "data/maps/PalletTown_PlayersHouse_1F/text.inc",
+    "symbol": "PalletTown_PlayersHouse_1F_Text_OopsWrongSide",
+    "before": "Oops, wrong side…$",
+    "after": "Oups, mauvais côté…$"
+  },
+  {
+    "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+    "symbol": "PalletTown_ProfessorOaksLab_Text_RivalGramps",
+    "before": "{RIVAL}: Gramps!$",
+    "after": "{RIVAL} : Papy !$"
+  },
+  {
+    "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+    "symbol": "PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel",
+    "before": "{PLAYER} delivered OAK'S PARCEL.$",
+    "after": "{PLAYER} remet le Colis de Chen.$"
+  },
+  {
+    "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+    "symbol": "PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls",
+    "before": "{PLAYER} received five Yo-kai Balls.$",
+    "after": "{PLAYER} reçoit cinq Yo-kai Balls.$"
+  },
+  {
+    "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+    "symbol": "PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide",
+    "before": "I study Yo-kai as PROF. OAK's\\nAIDE.$",
+    "after": "J'étudie les Yo-kai en tant\\nqu'assistant du Prof. Chen.$"
+  },
+  {
+    "file": "data/maps/PalletTown_RivalsHouse/text.inc",
+    "symbol": "PalletTown_RivalsHouse_Text_ReceivedTownMapFromDaisy",
+    "before": "{PLAYER} received a TOWN MAP\\nfrom DAISY.$",
+    "after": "{PLAYER} reçoit une Carte des mains\\nde Nina.$"
+  },
+  {
+    "file": "data/maps/PewterCity/text.inc",
+    "symbol": "PewterCity_Text_MuseumOfScience",
+    "before": "MUSÉE DES SCIENCES\\nDE PEWTER CITY$",
+    "after": "MUSÉE DES SCIENCES\\nD'ARGENTA$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_1F/text.inc",
+    "symbol": "PokemonMansion_1F_Text_TedDefeat",
+    "before": "Ouch!$",
+    "after": "Aïe !$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_2F/text.inc",
+    "symbol": "PokemonMansion_Text_PressSecretSwitch",
+    "before": "A secret switch!\\pPress it?$",
+    "after": "Un bouton secret !\\pAppuyer dessus ?$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_2F/text.inc",
+    "symbol": "PokemonMansion_Text_WhoWouldnt",
+    "before": "Who wouldn't?$",
+    "after": "Qui résisterait ?$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_3F/text.inc",
+    "symbol": "PokemonMansion_1F_Text_SimonDefeat",
+    "before": "Ayah!$",
+    "after": "Aïe !$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_3F/text.inc",
+    "symbol": "PokemonMansion_1F_Text_SimonPostBattle",
+    "before": "I wonder where my partner went.$",
+    "after": "Où est donc passé mon partenaire ?$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_3F/text.inc",
+    "symbol": "PokemonMansion_1F_Text_BraydonIntro",
+    "before": "My mentor once lived here.$",
+    "after": "Mon mentor vivait ici autrefois.$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_3F/text.inc",
+    "symbol": "PokemonMansion_1F_Text_BraydonDefeat",
+    "before": "Whew!\\nOverwhelming!$",
+    "after": "Ouf ! Quelle puissance !$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_B1F/text.inc",
+    "symbol": "PokemonMansion_B1F_Text_LewisIntro",
+    "before": "Uh-oh…\\nWhere am I now?$",
+    "after": "Oh oh… Où suis-je, maintenant ?$"
+  },
+  {
+    "file": "data/maps/PokemonMansion_B1F/text.inc",
+    "symbol": "PokemonMansion_B1F_Text_LewisDefeat",
+    "before": "Awooh!$",
+    "after": "Ahou !$"
+  },
+  {
+    "file": "data/maps/PokemonTower_3F/text.inc",
+    "symbol": "PokemonTower_3F_Text_HopeIntro",
+    "before": "Urrg… Awaa…\\nHuhu… Graa…$",
+    "after": "Grrr… Aaa… Houhou… Graa…$"
+  },
+  {
+    "file": "data/maps/PokemonTower_3F/text.inc",
+    "symbol": "PokemonTower_3F_Text_CarlyIntro",
+    "before": "Kekeke…\\nKwaaah!$",
+    "after": "Héhéhé… Gwaaah !$"
+  },
+  {
+    "file": "data/maps/PokemonTower_3F/text.inc",
+    "symbol": "PokemonTower_3F_Text_PatriciaIntro",
+    "before": "Be gone!\\nMalevolent spirit!$",
+    "after": "Va-t'en ! Esprit maléfique !$"
+  },
+  {
+    "file": "data/maps/PokemonTower_4F/text.inc",
+    "symbol": "PokemonTower_4F_Text_JodyIntro",
+    "before": "Huhuhu…\\nBeat me not!$",
+    "after": "Houhouhou… Ne me bats pas !$"
+  }
+]

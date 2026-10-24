@@ -1,54 +1,24 @@
 OneIsland_KindleRoad_EmberSpa_Text_WaterWarmsMeToCore::
-    .string "Hm!\n"
-    .string "Haaaaaaaaaaah!\p"
-    .string "Aaaah! This is heavenly!\n"
-    .string "The water warms me to my core!\p"
-    .string "You should jump in, too.\p"
-    .string "Go to the middle, relax, and get\n"
-    .string "good and warm!$"
+    .string "Hmm !\nHaaaaaaah !\pAaah ! Quel bonheur !\nCette eau me réchauffe jusqu'aux os\l!\pTu devrais en profiter aussi.\pVa au milieu, détends-toi et\nréchauffe-toi bien !$"
 
 OneIsland_KindleRoad_EmberSpa_Text_EnjoyBowlOfChowder::
-    .string "My favorite part of bathing comes\n"
-    .string "up right after this.\p"
-    .string "I enjoy a bowl of chowder to\n"
-    .string "warm me from the inside, too!$"
+    .string "Mon moment préféré vient après le\nbain.\pJe déguste un bol de soupe pour me\nréchauffer aussi de l'intérieur !$"
 
 OneIsland_KindleRoad_EmberSpa_Text_WaterExquisiteFullyRefreshed::
-    .string "The water is perfectly warm.\n"
-    .string "It feels exquisite…\p"
-    .string "{PLAYER} and the Yo-kai were\n"
-    .string "fully refreshed!$"
+    .string "L'eau est à la température idéale.\nQuel délice...\p{PLAYER} et ses Yo-kai ont retrouvé\ntoutes leurs forces !$"
 
 OneIsland_KindleRoad_EmberSpa_Text_HotSpringIsTherapeutic::
-    .string "Soaking in a hot spring pool is\n"
-    .string "therapeutic, people say.$"
+    .string "Il paraît que les bains chauds sont\nbons pour la santé.$"
 
 OneIsland_KindleRoad_EmberSpa_Text_SeeHowSmoothMySkinIs::
-    .string "Have a look at my face.\n"
-    .string "See how smooth my skin is?\p"
-    .string "The hot spring's water keeps my\n"
-    .string "skin younger than my age.$"
+    .string "Regarde mon visage.\nTu vois comme ma peau est lisse ?\pL'eau de cette source lui garde\ntoute sa jeunesse.$"
 
 OneIsland_KindleRoad_EmberSpa_Text_BrunoVisitsSpaOnOccasion::
-    .string "After an honest day of training,\n"
-    .string "nothing beats a relaxing soak in\l"
-    .string "the hot spring pool.\p"
-    .string "BRUNO, who's a senior ahead of me,\n"
-    .string "visits the SPA on occasion.\p"
-    .string "He comes to rehab injuries, both\n"
-    .string "his own and his Yo-kai's.$"
+    .string "Après une bonne journée\nd'entraînement, rien ne vaut un bain\ldans la source chaude.\pEnma l'Ancien, un expert bien plus\nexpérimenté que moi, vient parfois\lici.\pIl y soigne ses blessures et celles\nde ses Yo-kai.$"
 
 OneIsland_KindleRoad_EmberSpa_Text_UsedThisToMakeEmberSpa::
-    .string "Hot springs go hand-in-hand with\n"
-    .string "volcanoes.\p"
-    .string "The EMBER SPA here, well,\n"
-    .string "I made it years ago.\p"
-    .string "I hewed the pool right out of a\n"
-    .string "gigantic boulder by hand.\p"
-    .string "I was using this at the time.\n"
-    .string "I suppose I can part with it.$"
+    .string "Les sources chaudes vont de pair\navec les volcans.\pLa Source Braise, c'est moi qui l'ai\naménagée il y a longtemps.\pJ'ai creusé le bassin à la main dans\nun immense rocher.\pJe me servais de ceci.\nJe suppose que je peux te le\lconfier.$"
 
 OneIsland_KindleRoad_EmberSpa_Text_ExplainHM06::
-    .string "That shatters boulders as if they\n"
-    .string "were made of crackers.$"
+    .string "Avec ça, les rochers se brisent\ncomme de simples biscuits.$"
 

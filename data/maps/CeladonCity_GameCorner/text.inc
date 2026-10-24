@@ -1,54 +1,44 @@
 CeladonCity_GameCorner_Text_CanExchangeCoinsNextDoor::
-    .string "Welcome!\p"
-    .string "You can exchange your COINS for\n"
-    .string "fabulous prizes next door.$"
+    .string "Bienvenue !\pTu peux échanger tes Jetons contre\nde superbes lots dans le bâtiment\lvoisin.$"
 
 CeladonCity_GameCorner_Text_WelcomeBuySomeCoins::
     .string "Bienvenue au Casino Mafiamille!\pIl vous faut des Jetons?\nSouhaitez-vous en acheter?$"
 
 CeladonCity_GameCorner_Text_ComePlaySometime::
-    .string "No?\n"
-    .string "Please come play sometime!$"
+    .string "Non ?\nReviens jouer quand tu voudras !$"
 
 CeladonCity_GameCorner_Text_SorryDontHaveCoinCase::
-    .string "Oh, I'm sorry.\n"
-    .string "You don't have a COIN CASE.$"
+    .string "Désolé, tu n'as pas de Boîte Jetons.$"
 
 CeladonCity_GameCorner_Text_CoinCaseIsFull::
-    .string "Whoops!\n"
-    .string "Your COIN CASE is full.$"
+    .string "Oups !\nTa Boîte Jetons est pleine.$"
 
 CeladonCity_GameCorner_Text_CantAffordCoins::
-    .string "You can't afford the COINS.$"
+    .string "Tu n'as pas assez d'argent pour\nacheter ces Jetons.$"
 
 CeladonCity_GameCorner_Text_HereAreYourCoins::
-    .string "Thank you.\n"
-    .string "Here are your COINS!$"
+    .string "Merci !\nVoici tes Jetons !$"
 
 CeladonCity_GameCorner_Text_RumoredTeamRocketRunsThisPlace::
     .string "Parle moins fort. Ce Casino\nappartiendrait à la Mafiamille.\pJe préfère ne pas savoir où vont les\nrecettes.$"
 
 CeladonCity_GameCorner_Text_ThinkMachinesHaveDifferentOdds::
-    .string "I think these machines have\n"
-    .string "different odds.$"
+    .string "J'ai l'impression que les chances de\ngagner varient selon les machines.$"
 
 CeladonCity_GameCorner_Text_DoYouWantToPlay::
-    .string "Kid, do you want to play?$"
+    .string "Petit, tu veux jouer ?$"
 
 CeladonCity_GameCorner_Text_Received10CoinsFromMan::
-    .string "{PLAYER} received 10 COINS\n"
-    .string "from the man.$"
+    .string "{PLAYER} reçoit 10 Jetons de l'homme.$"
 
 CeladonCity_GameCorner_Text_DontNeedMyCoins::
-    .string "You don't need my COINS!$"
+    .string "Tu n'as pas besoin de mes Jetons !$"
 
 CeladonCity_GameCorner_Text_WinsComeAndGo::
-    .string "Wins seem to come and go.\n"
-    .string "Nothing's a sure thing.$"
+    .string "Parfois on gagne, parfois on perd.\nOn n'est jamais sûr de rien.$"
 
 CeladonCity_GameCorner_Text_WinOrLoseItsOnlyLuck::
-    .string "These slot games…\n"
-    .string "Win or lose, it's only by luck.$"
+    .string "Ces machines à sous...\nTout est une question de chance.$"
 
 CeladonCity_GameCorner_Text_GymGuyAdvice::
     .string "La Championne ALYZON BIE t'attend\n"
@@ -57,44 +47,34 @@ CeladonCity_GameCorner_Text_GymGuyAdvice::
     .string "Attention à leurs immunités!$"
 
 CeladonCity_GameCorner_Text_RareMonsForCoins::
-    .string "They offer rare Yo-kai that can\n"
-    .string "be exchanged for your COINS.\p"
-    .string "But, I just can't seem to win!$"
+    .string "On peut échanger ses Jetons contre\ndes Yo-kai rares.\pMais je n'arrive jamais à gagner !$"
 
 CeladonCity_GameCorner_Text_SoEasyToGetHooked::
-    .string "Games are scary!\n"
-    .string "It's so easy to get hooked!$"
+    .string "Les jeux, ça fait peur !\nOn devient accro si facilement !$"
 
 CeladonCity_GameCorner_Text_WantSomeCoins::
-    .string "What's up?\n"
-    .string "Want some COINS?$"
+    .string "Ça va ?\nTu veux des Jetons ?$"
 
 CeladonCity_GameCorner_Text_Received20CoinsFromNiceGuy::
-    .string "{PLAYER} received 20 COINS\n"
-    .string "from the nice guy.$"
+    .string "{PLAYER} reçoit 20 Jetons du gentil\nmonsieur.$"
 
 CeladonCity_GameCorner_Text_YouHaveLotsOfCoins::
-    .string "You have lots of COINS!$"
+    .string "Tu as déjà beaucoup de Jetons !$"
 
 CeladonCity_GameCorner_Text_NeedMoreCoinsForMonIWant::
-    .string "Darn! I need more COINS for the\n"
-    .string "Yo-kai I want!$"
+    .string "Zut ! Il me faut encore des Jetons\npour obtenir le Yo-kai que je veux !$"
 
 CeladonCity_GameCorner_Text_HereAreSomeCoinsShoo::
-    .string "Hey, what? You're throwing me off!\n"
-    .string "Here are some COINS, so shoo!$"
+    .string "Hé ! Tu me déconcentres !\nTiens, prends ces Jetons et laisse-moi\ljouer !$"
 
 CeladonCity_GameCorner_Text_Received20CoinsFromMan::
-    .string "{PLAYER} received 20 COINS\n"
-    .string "from the man.$"
+    .string "{PLAYER} reçoit 20 Jetons de l'homme.$"
 
 CeladonCity_GameCorner_Text_YouveGotPlentyCoins::
-    .string "You've got plenty of your own\n"
-    .string "COINS!$"
+    .string "Tu as déjà bien assez de Jetons !$"
 
 CeladonCity_GameCorner_Text_WatchReelsClosely::
-    .string "The trick is to watch the reels\n"
-    .string "closely.$"
+    .string "Le secret, c'est de bien observer les\nrouleaux.$"
 
 CeladonCity_GameCorner_Text_GruntIntro::
     .string "Cette affiche? Propriété privée. Tu\nas cinq secondes pour t'éloigner.$"
@@ -109,24 +89,19 @@ CeladonCity_GameCorner_Text_SwitchBehindPosterPushIt::
     .string "Un interrupteur derrière l'affiche!\pAppuyons dessus!$"
 
 CeladonCity_GameCorner_Text_CoinCaseIsRequired::
-    .string "A COIN CASE is required…$"
+    .string "Il faut une Boîte Jetons...$"
 
 CeladonCity_GameCorner_Text_DontHaveCoinCase::
-    .string "Oops!\n"
-    .string "Don't have the COIN CASE!$"
+    .string "Oups !\nJe n'ai pas de Boîte Jetons !$"
 
 CeladonCity_GameCorner_Text_SlotMachineWantToPlay::
-    .string "A slot machine!\n"
-    .string "Want to play?$"
+    .string "Une machine à sous ! Voulez-vous\njouer ?$"
 
 CeladonCity_GameCorner_Text_OutOfOrder::
-    .string "OUT OF ORDER\n"
-    .string "This is broken.$"
+    .string "HORS SERVICE\nCette machine est en panne.$"
 
 CeladonCity_GameCorner_Text_OutToLunch::
-    .string "OUT TO LUNCH\n"
-    .string "This is reserved.$"
+    .string "PAUSE DÉJEUNER\nCette place est réservée.$"
 
 CeladonCity_GameCorner_Text_SomeonesKeys::
-    .string "Someone's keys!\n"
-    .string "They'll be back.$"
+    .string "Les clés de quelqu'un ! Cette\npersonne va revenir.$"

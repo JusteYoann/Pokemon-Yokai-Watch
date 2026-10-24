@@ -1,0 +1,602 @@
+[
+  {
+    "file": "data/maps/ThreeIsland_House2/text.inc",
+    "symbol": "ThreeIsland_House2_Text_IAdmireSabrina",
+    "before": "You know about a girl GYM LEADER\\nin SAFFRON CITY?\\pShe uses PSYCHIC-type Yo-kai,\\nright?\\pI admire her, I really do.\\pI've heard that she's one cool\\ncustomer and beautiful, too.$",
+    "after": "Tu connais Bérénice, la Championne de\\nParmanie ?\\pElle utilise des Yo-kai Psy, n'est-ce\\npas ?\\pJe l'admire vraiment.\\pIl paraît qu'elle est aussi belle\\nqu'imperturbable.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_House3/text.inc",
+    "symbol": "ThreeIsland_House3_Text_WantedToLiveSomewhereQuiet",
+    "before": "I bought this house because I\\nwanted to live somewhere quiet.\\pToday, I think I'll go out fishing.$",
+    "after": "J'ai acheté cette maison pour vivre\\nau calme.\\pAujourd'hui, je crois que je vais\\naller pêcher.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_House4/text.inc",
+    "symbol": "ThreeIsland_House4_Text_GhostsInBerryForest",
+    "before": "You must never, ever go out to\\nthe BERRY FOREST alone.\\pWhy?\\nThere are ghosts there.$",
+    "after": "Tu ne dois jamais aller seul au Bois\\naux Baies.\\pPourquoi ? Il y a des fantômes.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_House4/text.inc",
+    "symbol": "ThreeIsland_House4_Text_PapaKeepsLyingToMe",
+    "before": "Papa keeps lying to me, and won't\\nlet me go out and play!$",
+    "after": "Papa me raconte toujours des\\nmensonges et m'interdit de sortir\\ljouer !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_House5/text.inc",
+    "symbol": "ThreeIsland_House5_Text_ImNotLostelle",
+    "before": "Me?\\nI'm not LOSTELLE.\\pShe's probably gone to the\\nBERRY FOREST, I think.\\pShe picks BERRIES there for making\\nlunch.$",
+    "after": "Moi ? Je ne suis pas Lostelle.\\pElle est sûrement partie au Bois aux\\nBaies.\\pElle y cueille des Baies pour\\npréparer le déjeuner.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_House5/text.inc",
+    "symbol": "ThreeIsland_House5_Text_IllGoPlayWithLostelle",
+    "before": "I think I'll go play with LOSTELLE\\ntoday.$",
+    "after": "Je crois que je vais jouer avec\\nLostelle aujourd'hui.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_Mart/text.inc",
+    "symbol": "ThreeIsland_Mart_Text_TrueThatCeldadonDeptStoreBigger",
+    "before": "Is it true?\\pCELADON DEPT. STORE is several\\ntimes bigger than this shop?$",
+    "after": "C'est vrai ?\\pLe Centre Commercial de Céladopole\\nest plusieurs fois plus grand que ce\\lmagasin ?$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_Mart/text.inc",
+    "symbol": "ThreeIsland_Mart_Text_PeopleHealWithBerriesFromForest",
+    "before": "I sometimes buy medicine here.\\pBut a lot of people heal Yo-kai\\nwith BERRIES from BERRY FOREST.\\pAfter all, BERRIES are free and\\nthey never run out.$",
+    "after": "J'achète parfois des remèdes ici.\\pMais beaucoup soignent leurs Yo-kai\\navec les Baies du Bois aux Baies.\\pAprès tout, les Baies sont gratuites\\net repoussent sans cesse.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_Mart/text.inc",
+    "symbol": "ThreeIsland_Mart_Text_BikersWereAboutToTrashMart",
+    "before": "Those BIKERS were about to trash\\nthis Yo-kai MART.\\pAm I glad they decided to leave!$",
+    "after": "Ces Motards allaient saccager cette\\nBoutique Yo-kai.\\pHeureusement qu'ils ont décidé de\\npartir !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_Port/text.inc",
+    "symbol": "ThreeIsland_Port_Text_WereKantoRiderFederation",
+    "before": "We're the KANTO RIDER FEDERATION!\\nVroom! Vavavavooom! Vroom!\\pMy bike's wimpy, so I have to\\nmake exhaust noises myself!$",
+    "after": "On est la Fédération des Motards de\\nKanto ! Vroum ! Vavavavroum !\\pMa moto manque de puissance, alors\\nje fais le bruit moi-même !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_Port/text.inc",
+    "symbol": "ThreeIsland_Port_Text_ForkOverMoney",
+    "before": "Hey, hey, lady!\\nFork over some spending money!$",
+    "after": "Hé, madame ! File-nous un peu\\nd'argent de poche !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_Port/text.inc",
+    "symbol": "ThreeIsland_Port_Text_IllCallThePolice",
+    "before": "Aiyeeh!\\pWh-who are you?!\\nI… I'll call the police!$",
+    "after": "Aaaaah !\\pQu-qui êtes-vous ?! Je… Je vais\\nappeler la police !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_Port/text.inc",
+    "symbol": "ThreeIsland_Port_Text_ThankGoodnessBikersGone",
+    "before": "Those BIKERS…\\nAre they gone?\\pOh, thank goodness!\\nThey certainly had me terrified!$",
+    "after": "Les Motards… Ils sont partis ?\\pOh, tant mieux ! Ils m'ont fait une\\nde ces peurs !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_Port/text.inc",
+    "symbol": "ThreeIsland_Port_Text_EverythingTurnedOutForBest",
+    "before": "Those BIKERS ran off, and\\nLOSTELLE was found safe.\\pEverything turned out for the best!$",
+    "after": "Les Motards sont partis et Lostelle a\\nété retrouvée saine et sauve.\\pTout est bien qui finit bien !$"
+  },
+  {
+    "file": "data/maps/TrainerTower_Lobby/text.inc",
+    "symbol": "TrainerTower_Lobby_Text_WelcomeToTrainerTower",
+    "before": "Hello!\\pWelcome to TRAINER TOWER where\\nTRAINERS gather from all over!$",
+    "after": "Bonjour !\\pBienvenue à la Tour des Dresseurs,\\noù se retrouvent des Dresseurs de\\ltous horizons !$"
+  },
+  {
+    "file": "data/maps/TrainerTower_Lobby/text.inc",
+    "symbol": "TrainerTower_Lobby_Text_TrainersUpToFloorNum",
+    "before": "TRAINERS from all over the world\\ngather here to battle.\\pLet me see…\\pRight now, there are TRAINERS only\\nup to Floor {STR_VAR_1}.$",
+    "after": "Des Dresseurs du monde entier se\\nréunissent ici pour combattre.\\pVoyons…\\pActuellement, il n'y en a que\\njusqu'au niveau {STR_VAR_1}.$"
+  },
+  {
+    "file": "data/maps/TrainerTower_Lobby/text.inc",
+    "symbol": "TrainerTower_Lobby_Text_TrainersUpEighthFloor",
+    "before": "TRAINERS are awaiting your\\nchallenge up to the eighth floor.$",
+    "after": "Des Dresseurs attendent ton défi\\njusqu'au huitième niveau.$"
+  },
+  {
+    "file": "data/maps/TrainerTower_Lobby/text.inc",
+    "symbol": "TrainerTower_Lobby_Text_LikeToChallengeTrainers",
+    "before": "Would you like to challenge the\\nwaiting TRAINERS?$",
+    "after": "Veux-tu défier les Dresseurs qui\\nt'attendent ?$"
+  },
+  {
+    "file": "data/maps/TrainerTower_Lobby/text.inc",
+    "symbol": "TrainerTower_Lobby_Text_StartClockGetSetGo",
+    "before": "Okay, I'll get the clock started,\\nso give it everything you have.\\pOn your marks…\\pGet set…\\pGo!$",
+    "after": "Bien, je vais lancer le chronomètre.\\nDonne tout ce que tu as !\\pÀ vos marques…\\pPrêts…\\pPartez !$"
+  },
+  {
+    "file": "data/maps/TrainerTower_Lobby/text.inc",
+    "symbol": "TrainerTower_Lobby_Text_PleaseVisitUsAgain",
+    "before": "Please do visit us again!$",
+    "after": "Reviens nous voir !$"
+  },
+  {
+    "file": "data/maps/TrainerTower_Lobby/text.inc",
+    "symbol": "TrainerTower_Lobby_Text_TooBadComeBackTryAgain",
+    "before": "That was too bad.\\pI think you put in a tremendous\\neffort in your battling.\\pPlease come back and try again!$",
+    "after": "Dommage.\\pTu as pourtant fait de beaux efforts\\npendant les combats.\\pReviens tenter ta chance !$"
+  },
+  {
+    "file": "data/maps/TrainerTower_Lobby/text.inc",
+    "symbol": "TrainerTower_Lobby_Text_GiveItYourBest",
+    "before": "I hope you give it your best.$",
+    "after": "J'espère que tu donneras le meilleur\\nde toi-même.$"
+  },
+  {
+    "file": "data/maps/TrainerTower_Lobby/text.inc",
+    "symbol": "TrainerTower_Lobby_Text_MoveCounterHereWhenTrainersSwitch",
+    "before": "When the TRAINERS switch places,\\nthe movement can be hectic.\\pTo avoid the stampede, we moved\\nthe reception counter here.\\pI'm sorry for the inconvenience.$",
+    "after": "Quand les Dresseurs changent de\\nplace, il y a beaucoup d'agitation.\\pPour éviter la bousculade, nous\\navons déplacé l'accueil ici.\\pPardon pour ce désagrément.$"
+  },
+  {
+    "file": "data/maps/TrainerTower_Lobby/text.inc",
+    "symbol": "TrainerTower_Roof_Text_ImOwnerBattledPerfectly",
+    "before": "Hello…\\pI am the owner of this TOWER…\\pHow the sky soars above this\\nrooftop…\\pThe caress of the winds up here…\\pIt's all so perfect…\\pThe way you battled…\\nIt, too, was perfection…$",
+    "after": "Bonjour…\\pJe suis le propriétaire de cette\\ntour…\\pLe ciel qui s'étend au-dessus du\\ntoit…\\pLa caresse du vent, ici…\\pTout est si parfait…\\pTa façon de combattre… Elle aussi\\nétait parfaite…$"
+  },
+  {
+    "file": "data/maps/TrainerTower_Lobby/text.inc",
+    "symbol": "TrainerTower_Roof_Text_ThisIsForYou",
+    "before": "This is for you…$",
+    "after": "Ceci est pour toi…$"
+  },
+  {
+    "file": "data/maps/TrainerTower_Lobby/text.inc",
+    "symbol": "TrainerTower_Roof_Text_DoneItInRecordTime",
+    "before": "Oh!\\nStupendous!\\pIt's marvelous how you've come up\\nhere so quickly.\\pThe fact is, you've done it in\\nrecord time…\\pI'll have your record posted at\\nthe reception counter.$",
+    "after": "Oh ! Splendide !\\pC'est merveilleux d'être arrivé ici si\\nvite.\\pTu as même établi un nouveau record…\\pJe vais le faire afficher à l'accueil.$"
+  },
+  {
+    "file": "data/maps/TrainerTower_Lobby/text.inc",
+    "symbol": "TrainerTower_Roof_Text_TookSweetTimeGettingHere",
+    "before": "You seem to have taken your sweet\\ntime getting here…$",
+    "after": "Tu as pris tout ton temps pour\\narriver jusqu'ici…$"
+  },
+  {
+    "file": "data/maps/TrainerTower_Lobby/text.inc",
+    "symbol": "TrainerTower_Roof_Text_IdLikeToSeeBetterTime",
+    "before": "What I would like to see is a\\nbetter time out of you…\\pI'm counting on you.\\pUntil then, farewell…$",
+    "after": "J'aimerais te voir réaliser un\\nmeilleur temps…\\pJe compte sur toi.\\pD'ici là, au revoir…$"
+  },
+  {
+    "file": "data/maps/TrainerTower_Lobby/text.inc",
+    "symbol": "TrainerTower_Lobby_Text_NeedTwoMonsForDouble",
+    "before": "This is a two-on-two battle.\\pYou may not battle unless you have\\nat least two Yo-kai.$",
+    "after": "C'est un combat à deux contre deux.\\pTu ne peux pas participer sans avoir\\nau moins deux Yo-kai.$"
+  },
+  {
+    "file": "data/maps/TrainerTower_Lobby/text.inc",
+    "symbol": "TrainerTower_Lobby_Text_ExplainTrainerTower",
+    "before": "Here at TRAINER TOWER, there is an\\nevent called TIME ATTACK.\\pYou will be timed on how quickly\\nyou can get from the reception\\lcounter to the OWNER on the roof.\\pThe best times will be recorded on\\nthe Time Board.\\pTry competing with friends to see\\nwho can beat it the fastest.\\pYou will not earn any EXP. Points\\nor money by beating TRAINERS here.$",
+    "after": "À la Tour des Dresseurs, nous\\norganisons une épreuve contre la\\lmontre.\\pLe chronomètre mesure ton temps de\\nl'accueil jusqu'au propriétaire, sur\\lle toit.\\pLes meilleurs temps sont inscrits au\\ntableau des records.\\pCompare tes performances avec celles\\nde tes amis !\\pLes combats d'ici ne rapportent ni\\nPoints Exp ni argent.$"
+  },
+  {
+    "file": "data/maps/TrainerTower_Lobby/text.inc",
+    "symbol": "TrainerTower_Lobby_Text_ThanksForCompeting",
+    "before": "Thank you for competing!$",
+    "after": "Merci de ta participation !$"
+  },
+  {
+    "file": "data/maps/TrainerTower_Lobby/text.inc",
+    "symbol": "TrainerTower_Lobby_Text_WonderWhatKindsOfTrainers",
+    "before": "I'm here to see how good I am.\\pI wonder what kinds of TRAINERS\\nare waiting for me?\\pIt's nerve-racking!$",
+    "after": "Je viens mesurer mon niveau.\\pQuels Dresseurs vont m'attendre ?\\pÇa me rend nerveux !$"
+  },
+  {
+    "file": "data/maps/TrainerTower_Lobby/text.inc",
+    "symbol": "TrainerTower_Lobby_Text_StairsTougherThanAnyBattle",
+    "before": "Gasp, gasp…\\nGasp…\\pNever mind battling! These stairs…\\nThey're tougher than any battle…$",
+    "after": "Haa, haa… Haa…\\pLes combats, ça va ! Mais ces\\nescaliers… C'est encore plus dur…$"
+  },
+  {
+    "file": "data/maps/TwoIsland/text.inc",
+    "symbol": "TwoIsland_Text_DangerFastCurrent",
+    "before": "DANGER! FAST CURRENT!\\nFishing and surfing prohibited!$",
+    "after": "DANGER ! COURANT VIOLENT !\\nPêche et Surf interdits !$"
+  },
+  {
+    "file": "data/maps/TwoIsland/text.inc",
+    "symbol": "TwoIsland_Text_WelcomeToShopMerchandiseLimited",
+    "before": "Oh!\\nHello, welcome to my shop!\\pWe've only opened up recently.\\pOur merchandise is limited, but I\\nhope we can serve your needs.$",
+    "after": "Oh ! Bonjour, bienvenue dans mon\\nmagasin !\\pNous venons d'ouvrir.\\pNous n'avons pas encore beaucoup de\\nproduits, mais j'espère que tu\\ltrouveras ton bonheur.$"
+  },
+  {
+    "file": "data/maps/TwoIsland/text.inc",
+    "symbol": "TwoIsland_Text_AddedMerchandiseForLostelle",
+    "before": "I can't tell you how grateful I am\\nfor your rescue of LOSTELLE.\\pThanks to your feat, the people of\\nTHREE ISLAND have changed their\\lattitudes about KANTO people.\\pAnd, I'm from KANTO, you see.\\pThe people of THREE ISLAND\\nhelped me add to my merchandise.$",
+    "after": "Je ne te remercierai jamais assez\\nd'avoir sauvé Lostelle.\\pGrâce à toi, les habitants de l'Île 3\\nont changé d'avis sur les gens de\\lKanto.\\pTu vois, moi aussi, je viens de\\nKanto.\\pLes habitants de l'Île 3 m'ont aidé à\\nétoffer mon stock.$"
+  },
+  {
+    "file": "data/maps/TwoIsland/text.inc",
+    "symbol": "TwoIsland_Text_HopeYouGiveItYourBest",
+    "before": "Hi! I'm giving it my best here.\\nI hope you do too, {PLAYER}.$",
+    "after": "Salut ! Je fais de mon mieux ici.\\nJ'espère que toi aussi, {PLAYER}.$"
+  },
+  {
+    "file": "data/maps/TwoIsland/text.inc",
+    "symbol": "TwoIsland_Text_BringingItemsFromDistantLands",
+    "before": "Oh, hello, {PLAYER}!\\nWelcome!\\pI've started bringing in items from\\ndistant lands.\\pI've got some rare items in, too.\\nPlease have a look!$",
+    "after": "Oh, bonjour, {PLAYER} ! Bienvenue !\\pJ'importe maintenant des objets de\\ncontrées lointaines.\\pJ'ai même des objets rares. Jette\\ndonc un œil !$"
+  },
+  {
+    "file": "data/maps/TwoIsland/text.inc",
+    "symbol": "TwoIsland_Text_FellowMovedFromCeladonCity",
+    "before": "That fellow there, he moved here\\nfrom CELADON CITY.\\pHe started up a shop with his\\nyounger brother.\\pYou have to wonder if he knew what\\nhe was getting into.$",
+    "after": "Cet homme-là vient de Céladopole.\\pIl a ouvert une boutique avec son\\npetit frère.\\pJe me demande s'il savait dans quoi\\nil s'engageait.$"
+  },
+  {
+    "file": "data/maps/TwoIsland/text.inc",
+    "symbol": "TwoIsland_Text_ShopkeepersBrotherWorksGameCorner",
+    "before": "The shopkeeper's brother took\\na job at the GAME CORNER.\\pHe's trying to pull together money\\nso they can buy more merchandise.$",
+    "after": "Le frère du commerçant a trouvé un\\ntravail à la Salle de Jeu.\\pIl essaie de gagner de quoi acheter\\ndavantage de marchandises.$"
+  },
+  {
+    "file": "data/maps/TwoIsland/text.inc",
+    "symbol": "TwoIsland_Text_BrunoCameToIslandWhileBack",
+    "before": "Listen, listen.\\nDid you know?\\pA famous TRAINER came to the\\nISLAND a little while back.\\pHe's one of the ELITE FOUR.\\nHis name is BRUNO.\\pHe went away disappointed when he\\nfound out that they were all sold\\lout of Rage Candybars.$",
+    "after": "Écoute, écoute. Tu savais ?\\pUn célèbre Dresseur est venu sur\\nl'île il y a quelque temps.\\pIl s'appelle Aldo et fait partie du\\nConseil 4.\\pIl est reparti déçu : ils n'avaient\\nplus de Bonbons Rage.$"
+  },
+  {
+    "file": "data/maps/TwoIsland/text.inc",
+    "symbol": "TwoIsland_Text_BuyRareItemsHere",
+    "before": "The discerning TRAINER knows to\\nbuy rare items here!$",
+    "after": "Les Dresseurs avertis achètent leurs\\nobjets rares ici !$"
+  },
+  {
+    "file": "data/maps/TwoIsland/text.inc",
+    "symbol": "TwoIsland_Text_OldWomanLivesOutOnCape",
+    "before": "There's an old woman who lives in\\na cottage out on the cape.\\pShe gives the eye to Yo-kai.\\nIt's a bit unnerving.$",
+    "after": "Une vieille dame vit dans une petite\\nmaison sur le cap.\\pElle dévisage les Yo-kai. C'est un\\npeu inquiétant.$"
+  },
+  {
+    "file": "data/maps/TwoIsland/text.inc",
+    "symbol": "TwoIsland_Text_HaveYouTriedJumpingGame",
+    "before": "Boing! Boing!\\nHave you tried the jumping game?\\pThe Yo-kai you can enter…\\nBoing!\\pSome go boing!\\pAnd some go boooooooing!\\pDid you know that?\\nBoing!$",
+    "after": "Boïng ! Boïng ! Tu as essayé le jeu\\nde saut ?\\pLes Yo-kai qui peuvent participer…\\nBoïng !\\pCertains font boïng !\\pEt d'autres font booooïng !\\pTu savais ? Boïng !$"
+  },
+  {
+    "file": "data/maps/TwoIsland_CapeBrink_House/text.inc",
+    "symbol": "Text_UltimateMoveThatMon",
+    "before": "I perfected the ultimate move of\\nits type…\\pBut will no one take it for\\nfuture use?\\p…Hm? Hmmm!\\pY-you…\\nTh-that {STR_VAR_1}…$",
+    "after": "J'ai perfectionné la capacité ultime\\nde son type…\\pMais personne ne veut la transmettre\\naux générations futures ?\\p… Hmm ? Hmmm !\\pT-toi… Ce {STR_VAR_1}…$"
+  },
+  {
+    "file": "data/maps/TwoIsland_CapeBrink_House/text.inc",
+    "symbol": "Text_JustMistaken",
+    "before": "…No…\\nI was just mistaken.$",
+    "after": "… Non… Je me suis trompée.$"
+  },
+  {
+    "file": "data/maps/TwoIsland_CapeBrink_House/text.inc",
+    "symbol": "Text_AllowMeToTeachMonUltimateMove",
+    "before": "Oh! This is the one!\\nThis is the Yo-kai!\\pThis {STR_VAR_1} is worthy of\\nlearning my ultimate move!\\pWill you allow it?\\pWill you allow your {STR_VAR_1} to\\nlearn my {STR_VAR_2}?$",
+    "after": "Oh ! C'est lui ! C'est le bon Yo-kai\\n!\\pCe {STR_VAR_1} est digne\\nd'apprendre ma capacité ultime !\\pL'acceptes-tu ?\\pAcceptes-tu que ton {STR_VAR_1}\\napprenne ma capacité {STR_VAR_2}\\l?$"
+  },
+  {
+    "file": "data/maps/TwoIsland_CapeBrink_House/text.inc",
+    "symbol": "Text_YouRejectIt",
+    "before": "Gaah! You reject it?\\nNo, I won't be dissuaded!$",
+    "after": "Quoi ? Tu refuses ? Non, je\\nn'abandonnerai pas !$"
+  },
+  {
+    "file": "data/maps/TwoIsland_CapeBrink_House/text.inc",
+    "symbol": "Text_LetMeConferUltimateMove",
+    "before": "You will allow it?\\pThen, let me confer my ultimate\\n{STR_VAR_2} on your {STR_VAR_1}.\\pGgggrah-awooo!$",
+    "after": "Tu acceptes ?\\pAlors, je vais transmettre ma\\ncapacité ultime, {STR_VAR_2}, à\\lton {STR_VAR_1}.\\pGrrraaa-ouh !$"
+  },
+  {
+    "file": "data/maps/TwoIsland_CapeBrink_House/text.inc",
+    "symbol": "Text_TaughtMove",
+    "before": "Gasp, gasp, gasp…\\pI didn't think I could teach that\\nmove while I still lived…$",
+    "after": "Haa, haa, haa…\\pJe ne pensais pas pouvoir enseigner\\ncette capacité de mon vivant…$"
+  },
+  {
+    "file": "data/maps/TwoIsland_CapeBrink_House/text.inc",
+    "symbol": "Text_MakeBestUseOfMove",
+    "before": "I implore you to make the best\\nuse of that move and gain power!$",
+    "after": "Je t'en supplie : fais bon usage de\\ncette capacité et gagne en puissance\\l!$"
+  },
+  {
+    "file": "data/maps/TwoIsland_CapeBrink_House/text.inc",
+    "symbol": "Text_PassedOnEverythingIKnow",
+    "before": "Gasp, gasp, gasp…\\pI have no regrets now.\\nI've passed on everything I know.\\pNow I can live out my life knowing\\nmy work is done.$",
+    "after": "Haa, haa, haa…\\pJe n'ai plus de regrets. J'ai transmis\\ntout mon savoir.\\pJe peux finir mes jours l'esprit\\ntranquille, mon œuvre est accomplie.$"
+  },
+  {
+    "file": "data/maps/TwoIsland_CapeBrink_House/text.inc",
+    "symbol": "Text_FeelRejuvenated",
+    "before": "After I passed on my knowledge to\\nyou, I felt so much relief.\\pIn fact, I feel rejuvenated,\\nas if I were younger again!$",
+    "after": "Après t'avoir transmis mon savoir, j'ai\\nressenti un tel soulagement…\\pJe me sens même rajeunir !$"
+  },
+  {
+    "file": "data/maps/TwoIsland_House/text.inc",
+    "symbol": "TwoIsland_House_Text_TeachMonMoveForMushroom",
+    "before": "I'm the Yo-kai MOVE MANIAC.\\pI know every single move that\\nYo-kai learn growing up.\\pI'm also a mushroom maniac.\\pBring me two TINYMUSHROOMS,\\nor one BIG MUSHROOM.\\pIf you do that for me, I'll teach\\na move to one Yo-kai.$",
+    "after": "Je suis le Maître des Capacités\\nYo-kai.\\pJe connais toutes les capacités que\\nles Yo-kai apprennent en grandissant.\\pJe suis aussi un passionné de\\nchampignons.\\pApporte-moi deux Petits Champi ou un\\nGros Champi.\\pEn échange, j'enseignerai une\\ncapacité à un Yo-kai.$"
+  },
+  {
+    "file": "data/maps/TwoIsland_House/text.inc",
+    "symbol": "TwoIsland_House_Text_WantMeToTeachMove",
+    "before": "Sniff, sniff…\\nHm! You smell of MUSHROOMS!\\pDo you want me to teach a move\\nto a Yo-kai of yours?$",
+    "after": "Snif, snif… Hmm ! Tu sens les\\nchampignons !\\pVeux-tu que j'enseigne une capacité\\nà l'un de tes Yo-kai ?$"
+  },
+  {
+    "file": "data/maps/TwoIsland_House/text.inc",
+    "symbol": "TwoIsland_House_Text_TutorWhichMon",
+    "before": "Which Yo-kai needs tutoring?$",
+    "after": "Quel Yo-kai doit apprendre une\\ncapacité ?$"
+  },
+  {
+    "file": "data/maps/TwoIsland_House/text.inc",
+    "symbol": "TwoIsland_House_Text_TeachWhichMove",
+    "before": "Which move should I teach?$",
+    "after": "Quelle capacité dois-je enseigner ?$"
+  },
+  {
+    "file": "data/maps/TwoIsland_House/text.inc",
+    "symbol": "TwoIsland_House_Text_NoMoveICanTeachThatMon",
+    "before": "Sorry…\\pIt doesn't appear as if I have a\\nmove I can teach that Yo-kai.$",
+    "after": "Pardon…\\pJe n'ai apparemment aucune capacité\\nà enseigner à ce Yo-kai.$"
+  },
+  {
+    "file": "data/maps/TwoIsland_House/text.inc",
+    "symbol": "TwoIsland_House_Text_IllNeedMushroomOrTwo",
+    "before": "Then, I'll need a MUSHROOM or two.\\nWhat are you going to give me?$",
+    "after": "Alors, il me faut des champignons.\\nQue vas-tu me donner ?$"
+  },
+  {
+    "file": "data/maps/TwoIsland_House/text.inc",
+    "symbol": "TwoIsland_House_Text_HandedOverTwoTinyMushrooms",
+    "before": "{PLAYER} handed over two\\nTINYMUSHROOMS in exchange.$",
+    "after": "{PLAYER} donne deux Petits Champi en\\néchange.$"
+  },
+  {
+    "file": "data/maps/TwoIsland_House/text.inc",
+    "symbol": "TwoIsland_House_Text_HandedOverOneBigMushroom",
+    "before": "{PLAYER} handed over one\\nBIG MUSHROOM in exchange.$",
+    "after": "{PLAYER} donne un Gros Champi en\\néchange.$"
+  },
+  {
+    "file": "data/maps/TwoIsland_House/text.inc",
+    "symbol": "TwoIsland_House_Text_NeedMushroomOrTwoToLearnMove",
+    "before": "If your Yo-kai need to learn a\\nmove, I need a MUSHROOM or two.$",
+    "after": "Si tes Yo-kai ont besoin d'apprendre\\nune capacité, il me faut des\\lchampignons.$"
+  },
+  {
+    "file": "data/maps/TwoIsland_House/text.inc",
+    "symbol": "TwoIsland_House_Text_CantTeachAnEgg",
+    "before": "Hunh? There isn't a single move\\nthat I can teach an EGG.$",
+    "after": "Hein ? Je ne peux enseigner aucune\\ncapacité à un Œuf.$"
+  },
+  {
+    "file": "data/maps/TwoIsland_JoyfulGameCorner/text.inc",
+    "symbol": "TwoIsland_JoyfulGameCorner_Text_WhereHasLostelleGottenTo",
+    "before": "Now, where's LOSTELLE gotten to\\ntoday?\\pShe always brings me lunch every\\nday right about now…$",
+    "after": "Où est donc passée Lostelle,\\naujourd'hui ?\\pElle m'apporte toujours le déjeuner\\nà cette heure-ci…$"
+  },
+  {
+    "file": "data/maps/TwoIsland_JoyfulGameCorner/text.inc",
+    "symbol": "TwoIsland_JoyfulGameCorner_Text_PleaseHelpFindLostelle",
+    "before": "Hm? You, there!\\nAre you a friend of LOSTELLE's?\\pHave you seen LOSTELLE around?\\nI don't know where she might be.\\lShe should've been here long ago.\\pLOSTELLE's a cutie - she got my\\nlooks - so what if someone…\\pWhat if something's happened to\\nmy LOSTELLE?!\\pPlease, help me find her!\\nPlease go search THREE ISLAND!$",
+    "after": "Hmm ? Toi, là ! Tu es un ami de\\nLostelle ?\\pAs-tu vu Lostelle ? J'ignore où elle\\nest. Elle aurait dû arriver depuis\\llongtemps.\\pElle est si mignonne, elle tient ça de\\nmoi… Et si quelqu'un…\\pEt s'il était arrivé quelque chose à\\nma Lostelle ?!\\pAide-moi à la retrouver ! Va la\\nchercher sur l'Île 3 !$"
+  },
+  {
+    "file": "data/maps/TwoIsland_JoyfulGameCorner/text.inc",
+    "symbol": "TwoIsland_JoyfulGameCorner_Text_IsThisOnlyThreeIsland",
+    "before": "Hah? What is this GAME CORNER?\\nHow much sadder can this get?\\pThose clowns…\\pThey said they'd be waiting on the\\nisland, so where are they?\\pHey, you! Is this the only THREE\\nISLAND around here?$",
+    "after": "Hein ? C'est ça, la Salle de Jeu ?\\nQuel endroit minable !\\pCes clowns…\\pIls avaient dit qu'ils m'attendraient\\nsur l'île. Où sont-ils ?\\pHé, toi ! C'est la seule Île 3 du\\ncoin ?$"
+  },
+  {
+    "file": "data/maps/TwoIsland_JoyfulGameCorner/text.inc",
+    "symbol": "TwoIsland_JoyfulGameCorner_Text_ThisIsTwoIslandMoveIt",
+    "before": "Try waking up before you crawl out\\nof bed, you punk.\\pThis is TWO ISLAND!\\pMove it! Get your filthy motorbike\\nout of my place!$",
+    "after": "Réveille-toi avant de sortir du lit,\\nvoyou !\\pTu es sur l'Île 2 !\\pAllez ! Sors ta sale moto de chez\\nmoi !$"
+  },
+  {
+    "file": "data/maps/TwoIsland_JoyfulGameCorner/text.inc",
+    "symbol": "TwoIsland_JoyfulGameCorner_Text_TheseIslandsAreConfusing",
+    "before": "Huh…\\nOh, oh, gotcha.\\pTch…\\nThese islands are confusing…$",
+    "after": "Hein… Ah, d'accord.\\pPff… Pas moyen de s'y retrouver,\\navec ces îles…$"
+  },
+  {
+    "file": "data/maps/TwoIsland_JoyfulGameCorner/text.inc",
+    "symbol": "TwoIsland_JoyfulGameCorner_Text_PunkScuffedUpMyFloor",
+    "before": "Would you look at that?\\nThat punk scuffed up my floor.$",
+    "after": "Regarde-moi ça ! Ce voyou a rayé\\nmon sol.$"
+  },
+  {
+    "file": "data/maps/TwoIsland_JoyfulGameCorner/text.inc",
+    "symbol": "TwoIsland_JoyfulGameCorner_Text_PleaseGoToThreeIsland",
+    "before": "Hey, but listen! I'm begging you,\\nyou have to go to THREE ISLAND.\\pIf anything were to happen to my\\nLOSTELLE…\\pMy place is the house with the red\\nroof on THREE ISLAND.\\pShe may just show up late here,\\nso I can't run off anywhere.\\pThat's why I have to get you to do\\nme this big favor.$",
+    "after": "Mais écoute ! Je t'en prie, va sur\\nl'Île 3.\\pS'il arrivait quelque chose à ma\\nLostelle…\\pMa maison a un toit rouge, sur l'Île\\n3.\\pElle a peut-être simplement du\\nretard, alors je ne peux pas partir.\\pC'est pour ça que je te demande cet\\nimmense service.$"
+  },
+  {
+    "file": "data/maps/TwoIsland_JoyfulGameCorner/text.inc",
+    "symbol": "TwoIsland_JoyfulGameCorner_Text_NotRunningAnyGamesToday",
+    "before": "I'm sorry.\\nWe're not running any games today.$",
+    "after": "Pardon. Les jeux sont fermés\\naujourd'hui.$"
+  },
+  {
+    "file": "data/maps/TwoIsland_JoyfulGameCorner/text.inc",
+    "symbol": "TwoIsland_JoyfulGameCorner_Text_GetGamesGoingSoon",
+    "before": "We'll get the games going soon\\nfor you!$",
+    "after": "Nous allons bientôt ouvrir les jeux\\npour vous !$"
+  },
+  {
+    "file": "data/maps/TwoIsland_JoyfulGameCorner/text.inc",
+    "symbol": "TwoIsland_JoyfulGameCorner_Text_YouRescuedLostelle",
+    "before": "So you rescued LOSTELLE?\\nHow can I thank you?\\pLOSTELLE, darling, forgive me!\\pDaddy didn't know you were scared\\nand in trouble!$",
+    "after": "Tu as sauvé Lostelle ? Comment te\\nremercier ?\\pLostelle, ma chérie, pardonne-moi !\\pPapa ne savait pas que tu avais peur\\net que tu étais en danger !$"
+  },
+  {
+    "file": "data/maps/TwoIsland_JoyfulGameCorner/text.inc",
+    "symbol": "TwoIsland_JoyfulGameCorner_Text_LostelleItsOkayDaddy",
+    "before": "LOSTELLE: It's okay, Daddy.\\nI got to be friends with {PLAYER}!$",
+    "after": "LOSTELLE : Ce n'est pas grave, papa.\\nJ'ai fait la connaissance de {PLAYER}\\l!$"
+  },
+  {
+    "file": "data/maps/TwoIsland_JoyfulGameCorner/text.inc",
+    "symbol": "TwoIsland_JoyfulGameCorner_Text_ThisIsForMe",
+    "before": "Oh, what's that?\\nYou're saying that this is for me?\\pHow did you know that I love rare\\nrocks and gems?\\pYou sure know how to make a guy\\nhappy.$",
+    "after": "Oh, qu'est-ce que c'est ? C'est pour\\nmoi ?\\pComment savais-tu que j'adore les\\npierres rares et les gemmes ?\\pTu sais comment faire plaisir.$"
+  },
+  {
+    "file": "data/maps/TwoIsland_JoyfulGameCorner/text.inc",
+    "symbol": "TwoIsland_JoyfulGameCorner_Text_HandedMeteoriteToLostellesDaddy",
+    "before": "{PLAYER} handed the METEORITE\\nto LOSTELLE's daddy.$",
+    "after": "{PLAYER} donne la Météorite au papa\\nde Lostelle.$"
+  },
+  {
+    "file": "data/maps/TwoIsland_JoyfulGameCorner/text.inc",
+    "symbol": "TwoIsland_JoyfulGameCorner_Text_OhThisIsFromBill",
+    "before": "Oh, I see, this is from BILL!\\nYou have to thank him for me!\\pYou know, you've been fantastic.\\nI want you to have this.$",
+    "after": "Oh, je vois, c'est de la part de Léo\\n! Remercie-le pour moi !\\pTu as été formidable. Je veux\\nt'offrir ceci.$"
+  },
+  {
+    "file": "data/maps/TwoIsland_JoyfulGameCorner/text.inc",
+    "symbol": "TwoIsland_JoyfulGameCorner_Text_ReceivedMoonStoneFromLostellesDaddy",
+    "before": "{PLAYER} received a MOON STONE\\nfrom LOSTELLE's daddy.$",
+    "after": "{PLAYER} reçoit une Pierre Lune du\\npapa de Lostelle.$"
+  },
+  {
+    "file": "data/maps/TwoIsland_JoyfulGameCorner/text.inc",
+    "symbol": "TwoIsland_JoyfulGameCorner_Text_NotGoingToFitInBag",
+    "before": "Your BAG's not going to fit another\\nthing…$",
+    "after": "Ton Sac ne peut plus rien contenir…$"
+  },
+  {
+    "file": "data/maps/TwoIsland_JoyfulGameCorner/text.inc",
+    "symbol": "TwoIsland_JoyfulGameCorner_Text_IllGetGameCornerRunning",
+    "before": "All right, I'll get the GAME CORNER\\nrunning right away.\\pYou have to come visit with a\\nfriend.$",
+    "after": "Bien, je vais rouvrir la Salle de Jeu\\ntout de suite.\\pViens nous voir avec un ami.$"
+  },
+  {
+    "file": "data/maps/TwoIsland_JoyfulGameCorner/text.inc",
+    "symbol": "TwoIsland_JoyfulGameCorner_Text_PleaseShowMeYouBeingCool",
+    "before": "Listen, listen!\\pPlease show me you being cool\\nagain!$",
+    "after": "Dis, dis !\\pMontre-moi encore comme tu as la\\nclasse !$"
+  },
+  {
+    "file": "data/maps/UndergroundPath_EastEntrance/text.inc",
+    "symbol": "UndergroundPath_EastEntrance_Text_DoYouGoToCeladonDeptStore",
+    "before": "The DEPARTMENT STORE in CELADON\\nhas a great selection.\\pDo you go there very often?$",
+    "after": "Le Centre Commercial de Céladopole a\\nun grand choix de produits.\\pTu y vas souvent ?$"
+  },
+  {
+    "file": "data/maps/UndergroundPath_SouthEntrance/text.inc",
+    "symbol": "UndergroundPath_SouthEntrance_Text_PeopleLoseThingsInTheDarkness",
+    "before": "People often lose things in the\\ndarkness of the UNDERGROUND PATH.$",
+    "after": "Les gens perdent souvent des objets\\ndans l'obscurité du Passage\\lSouterrain.$"
+  },
+  {
+    "file": "data/maps/UndergroundPath_WestEntrance/text.inc",
+    "symbol": "UndergroundPath_WestEntrance_Text_SleepyMonNearCeladon",
+    "before": "I heard a sleepy Yo-kai appeared\\nout near CELADON CITY, too.$",
+    "after": "Il paraît qu'un Yo-kai endormi est\\naussi apparu près de Céladopole.$"
+  },
+  {
+    "file": "data/maps/VermilionCity_Gym/text.inc",
+    "symbol": "VermilionCity_Gym_Text_GymStatue",
+    "before": "ARÈNE DE VERMILION CITY\\nCHAMPIONNE: ARIANE\\pDRESSEURS VICTORIEUX:\\n{RIVAL}$",
+    "after": "ARÈNE DE CARMIN SUR MER\\nCHAMPIONNE : ARIANE\\pDRESSEURS VICTORIEUX :\\n{RIVAL}$"
+  },
+  {
+    "file": "data/maps/VermilionCity_Gym/text.inc",
+    "symbol": "VermilionCity_Gym_Text_GymStatuePlayerWon",
+    "before": "ARÈNE DE VERMILION CITY\\nCHAMPIONNE: ARIANE\\pDRESSEURS VICTORIEUX:\\n{RIVAL}, {PLAYER}$",
+    "after": "ARÈNE DE CARMIN SUR MER\\nCHAMPIONNE : ARIANE\\pDRESSEURS VICTORIEUX :\\n{RIVAL}, {PLAYER}$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_1F/text.inc",
+    "symbol": "VictoryRoad_1F_Text_NaomiIntro",
+    "before": "I wonder if you are good enough\\nfor me?$",
+    "after": "Voyons si tu es à ma hauteur.$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_1F/text.inc",
+    "symbol": "VictoryRoad_1F_Text_NaomiPostBattle",
+    "before": "I never wanted to lose to anybody,\\nespecially to a younger kid…$",
+    "after": "Je ne voulais perdre contre personne,\\nsurtout pas contre un enfant plus\\ljeune…$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_1F/text.inc",
+    "symbol": "VictoryRoad_1F_Text_RolandoIntro",
+    "before": "I can see you're good.\\nLet me see exactly how good!$",
+    "after": "Je vois que tu es fort. Voyons\\njusqu'à quel point !$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_1F/text.inc",
+    "symbol": "VictoryRoad_1F_Text_RolandoPostBattle",
+    "before": "Tch!\\nI concede, you are better than I!$",
+    "after": "Pff ! Je l'admets, tu es meilleur que\\nmoi !$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_2F/text.inc",
+    "symbol": "VictoryRoad_2F_Text_DawsonIntro",
+    "before": "If you can get through here,\\nyou can go meet the ELITE FOUR.$",
+    "after": "Si tu traverses cet endroit, tu\\npourras rencontrer le Conseil 4.$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_2F/text.inc",
+    "symbol": "VictoryRoad_2F_Text_DawsonDefeat",
+    "before": "No!\\nUnbelievable!$",
+    "after": "Non ! Incroyable !$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_2F/text.inc",
+    "symbol": "VictoryRoad_2F_Text_DawsonPostBattle",
+    "before": "I can beat you when it comes to\\nknowledge about Yo-kai!$",
+    "after": "En connaissances sur les Yo-kai, je\\npeux te battre !$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_2F/text.inc",
+    "symbol": "VictoryRoad_2F_Text_DaisukeIntro",
+    "before": "This here is VICTORY ROAD.\\nIt's the final test for TRAINERS!$",
+    "after": "Voici la Route Victoire. L'épreuve\\nfinale des Dresseurs !$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_2F/text.inc",
+    "symbol": "VictoryRoad_2F_Text_DaisukePostBattle",
+    "before": "If you get stuck, try moving some\\nboulders around.$",
+    "after": "Si tu es bloqué, essaie de déplacer\\nles rochers.$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_2F/text.inc",
+    "symbol": "VictoryRoad_2F_Text_NelsonIntro",
+    "before": "Ah, so you wish to challenge the\\nELITE FOUR?$",
+    "after": "Ah, tu souhaites défier le Conseil 4\\n?$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_2F/text.inc",
+    "symbol": "VictoryRoad_2F_Text_VincentIntro",
+    "before": "Come on!\\nI'll whip you!$",
+    "after": "Viens ! Je vais te battre à plate\\ncouture !$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_2F/text.inc",
+    "symbol": "VictoryRoad_2F_Text_VincentPostBattle",
+    "before": "You earned the right to be on\\nVICTORY ROAD…$",
+    "after": "Tu as mérité ta place sur la Route\\nVictoire…$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_2F/text.inc",
+    "symbol": "VictoryRoad_2F_Text_GregoryIntro",
+    "before": "Is VICTORY ROAD too tough?$",
+    "after": "La Route Victoire est trop difficile ?$"
+  },
+  {
+    "file": "data/maps/VictoryRoad_2F/text.inc",
+    "symbol": "VictoryRoad_2F_Text_GregoryPostBattle",
+    "before": "Many TRAINERS give up their\\nchallenge here and go home.$",
+    "after": "Beaucoup de Dresseurs renoncent ici\\net rentrent chez eux.$"
+  }
+]

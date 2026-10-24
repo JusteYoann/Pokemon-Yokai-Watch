@@ -1,7 +1,7 @@
 {
   "passed": true,
   "error": null,
-  "rom_sha256": "9381ef37376b8e8aa9f3fa199d10ed523b7e947c9ba3c0adeb3755f65f24e97f",
+  "rom_sha256": "105d2a88f5f67c2eb64cde739994b96e83dae9aa79180fbd68b7c7f79e8e75b1",
   "scope": "369 linked help text/native width checks, seven-line answer capacity, actual R-button opening with early Help permission granted in RAM;10 native question-answer panel fixtures. Not full traversal of all context-dependent help menus.",
   "glyph_height": 14,
   "results": [
@@ -940,12 +940,12 @@
     {
       "symbol": "Help_Text_AnswerWantToMakeMonStronger",
       "native_widths": [
-        188,
-        204,
-        203,
+        184,
+        179,
         174,
-        175,
-        101
+        160,
+        166,
+        191
       ],
       "conservative_width": 204,
       "lines": 6,
@@ -2569,13 +2569,12 @@
     {
       "symbol": "Help_Text_DefineEXP",
       "native_widths": [
-        204,
-        208,
-        187,
-        206,
-        175,
-        189,
-        42
+        186,
+        146,
+        184,
+        158,
+        157,
+        206
       ],
       "conservative_width": 208,
       "lines": 7,

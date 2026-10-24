@@ -1,0 +1,602 @@
+[
+  {
+    "file": "data/maps/SixIsland_RuinValley/text.inc",
+    "symbol": "SixIsland_RuinValley_Text_DarylIntro",
+    "before": "A battle with you, so high up!$",
+    "after": "Un combat contre toi, si haut dans la\\nmontagne !$"
+  },
+  {
+    "file": "data/maps/SixIsland_RuinValley/text.inc",
+    "symbol": "SixIsland_RuinValley_Text_DarylDefeat",
+    "before": "Oh, the heartbreak of losing so\\neasily to you!$",
+    "after": "Quelle peine de perdre aussi\\nfacilement contre toi !$"
+  },
+  {
+    "file": "data/maps/SixIsland_RuinValley/text.inc",
+    "symbol": "SixIsland_RuinValley_Text_DarylPostBattle",
+    "before": "Experience the joy of climbing!$",
+    "after": "Découvre les joies de l'escalade !$"
+  },
+  {
+    "file": "data/maps/SixIsland_RuinValley/text.inc",
+    "symbol": "SixIsland_RuinValley_Text_HectorIntro",
+    "before": "I'm pretty familiar with the land\\naround these parts.$",
+    "after": "Je connais assez bien le terrain dans\\nles environs.$"
+  },
+  {
+    "file": "data/maps/SixIsland_RuinValley/text.inc",
+    "symbol": "SixIsland_RuinValley_Text_HectorDefeat",
+    "before": "You don't need to be so pushy.\\nI'll be happy to tell you.$",
+    "after": "Inutile d'insister autant. Je te le\\ndirai volontiers.$"
+  },
+  {
+    "file": "data/maps/SixIsland_RuinValley/text.inc",
+    "symbol": "SixIsland_RuinValley_Text_HectorPostBattle",
+    "before": "The door to the ruins…\\nIt has these strange patterns\\lengraved on the outside.\\pI don't know what they mean,\\nthough.$",
+    "after": "La porte des ruines… D'étranges motifs\\nsont gravés dessus.\\pMais j'ignore ce qu'ils signifient.$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_RoseIntro",
+    "before": "I let a pleasant breeze lead me\\nall the way here.$",
+    "after": "Une brise agréable m'a guidée\\njusqu'ici.$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_RoseDefeat",
+    "before": "Giggle… You're so cute when you're\\ndetermined.$",
+    "after": "Hihi… Tu es si mignon quand tu prends\\ncet air déterminé.$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_RosePostBattle",
+    "before": "I want to go to the woods over\\nthere, but…\\pThere are lots of BUG Yo-kai.\\nThey scare me a little.$",
+    "after": "Je voudrais aller dans le bois\\nlà-bas, mais…\\pIl y a beaucoup de Yo-kai Insecte.\\nIls me font un peu peur.$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_EdwardIntro",
+    "before": "I'm practicing in secret so no one\\ncan see me.$",
+    "after": "Je m'entraîne en secret pour que\\npersonne ne me voie.$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_EdwardPostBattle",
+    "before": "As a performer, I don't want people\\nto know about the effort I put in.$",
+    "after": "En tant qu'artiste, je ne veux pas\\nque le public voie tous mes efforts.$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_SamirIntro",
+    "before": "What, you're suggesting that you're\\nsick of seeing SWIMMERS like me?\\pAww, don't be hatin'!$",
+    "after": "Quoi, tu en as assez de voir des\\nNageurs comme moi ?\\pOh, ne sois pas si dur !$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_SamirDefeat",
+    "before": "Oh, no, no, no.$",
+    "after": "Oh, non, non, non.$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_SamirPostBattle",
+    "before": "I couldn't lift the stigma of being\\na SWIMMER…$",
+    "after": "Je n'ai pas réussi à redorer l'image\\ndes Nageurs…$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_DeniseIntro",
+    "before": "My boyfriend's always busy, so I\\ncome swimming by myself.$",
+    "after": "Mon petit ami est toujours occupé,\\nalors je viens nager seule.$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_DeniseDefeat",
+    "before": "Awww, I knew this would happen!$",
+    "after": "Oh, je savais que ça finirait comme\\nça !$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_DenisePostBattle",
+    "before": "When I can't be with my boyfriend,\\nI spend time with the Yo-kai he\\lgave me.$",
+    "after": "Quand je ne peux pas être avec mon\\npetit ami, je passe du temps avec le\\lYo-kai qu'il m'a offert.$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_EarlIntro",
+    "before": "Tell me, where are the mountains\\naround these parts?$",
+    "after": "Dis-moi, où sont les montagnes dans\\nles environs ?$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_EarlDefeat",
+    "before": "I lost my way while I was busy\\nbattling!$",
+    "after": "J'ai perdu mon chemin à force de me\\nbattre !$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_EarlPostBattle",
+    "before": "Aren't there any mountains around\\nthese parts?$",
+    "after": "Il n'y a pas de montagnes dans le\\ncoin ?$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_MiuIntro",
+    "before": "MIU: Hello, Yo-kai!\\nIt's time to play!$",
+    "after": "MIU : Bonjour, les Yo-kai ! C'est\\nl'heure de jouer !$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_MiuDefeat",
+    "before": "MIU: Oh, no!\\nMommy!$",
+    "after": "MIU : Oh, non ! Maman !$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_MiuPostBattle",
+    "before": "MIU: It makes me all sad inside\\nwhen we lose…$",
+    "after": "MIU : Ça me rend toute triste quand\\non perd…$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_MiuNotEnoughMons",
+    "before": "MIU: MIA and I are TWINS.\\nWe want to battle together.$",
+    "after": "MIU : MIA et moi, on est jumelles.\\nOn veut se battre ensemble.$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_MiaIntro",
+    "before": "MIA: Hello, Yo-kai!\\nIt's time to battle!$",
+    "after": "MIA : Bonjour, les Yo-kai ! C'est\\nl'heure du combat !$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_MiaDefeat",
+    "before": "MIA: You're mean!\\nYou're bad for winning!$",
+    "after": "MIA : Tu es méchant ! Ce n'est pas\\ngentil de gagner !$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_MiaPostBattle",
+    "before": "MIA: Ohh…\\nI'm sorry, my Yo-kai…$",
+    "after": "MIA : Oh… Pardon, mes Yo-kai…$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_MiaNotEnoughMons",
+    "before": "MIA: Oh, you only have one\\nYo-kai?\\pDon't you feel lonesome?$",
+    "after": "MIA : Oh, tu n'as qu'un Yo-kai ?\\pTu ne te sens pas seul ?$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath/text.inc",
+    "symbol": "SixIsland_WaterPath_Text_WantedUltimateHorn",
+    "before": "Wanted!\\nThe Ultimate Horn!$",
+    "after": "Avis de recherche ! La corne ultime\\n!$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath_House1/text.inc",
+    "symbol": "SixIsland_WaterPath_House1_Text_LoveItNeedItHeracross",
+    "before": "Hera, hera, HERACROSS!\\nBig and shiny, it's the bug boss!\\lLove it, need it, HERACROSS!$",
+    "after": "Scar, Scar, Scarhino ! Grand et\\nbrillant, c'est le roi des insectes !\\lOn l'adore, Scarhino !$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath_House1/text.inc",
+    "symbol": "SixIsland_WaterPath_House1_Text_MayIMeasureHeracross",
+    "before": "Eeeeek!\\nThat's a HERACROSS!\\pPlease, please, may I measure how\\nbig it is?$",
+    "after": "Hiiii ! C'est un Scarhino !\\pS'il te plaît, je peux le mesurer ?$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath_House1/text.inc",
+    "symbol": "SixIsland_WaterPath_House1_Text_ItsXInchesDeserveReward",
+    "before": "Eeeek, it's {STR_VAR_2} inches!\\nI've never seen anything like this!\\lYou deserve a reward!$",
+    "after": "Hiiii, il mesure {STR_VAR_2}\\npouces ! Je n'ai jamais vu ça ! Tu\\lmérites une récompense !$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath_House1/text.inc",
+    "symbol": "SixIsland_WaterPath_House1_Text_WantToSeeBiggerOne",
+    "before": "I want to see a much, much bigger\\nHERACROSS than that one.\\pOh, how I adore them, big\\nHERACROSS!$",
+    "after": "Je veux voir un Scarhino beaucoup,\\nbeaucoup plus grand.\\pOh, comme je les adore, les grands\\nScarhino !$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath_House1/text.inc",
+    "symbol": "SixIsland_WaterPath_House1_Text_ItsXInchesSameAsBefore",
+    "before": "Huh? This {STR_VAR_2}-inch measurement…\\nOh, boo! It's the same as before.$",
+    "after": "Hein ? {STR_VAR_2} pouces… Oh,\\nzut ! C'est comme la dernière fois.$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath_House1/text.inc",
+    "symbol": "SixIsland_WaterPath_House1_Text_ItsXInchesYInchesWasBiggest",
+    "before": "Oh, it's just {STR_VAR_2} inches.\\nThe HERACROSS before was bigger.\\pIt was {STR_VAR_3} inches, the biggest\\nHERACROSS you've brought me.$",
+    "after": "Oh, seulement {STR_VAR_2}\\npouces. Le précédent Scarhino était\\lplus grand.\\pIl mesurait {STR_VAR_3} pouces :\\nc'est le plus grand que tu m'aies\\lmontré.$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath_House1/text.inc",
+    "symbol": "SixIsland_WaterPath_House1_Text_ThisWontDo",
+    "before": "Oh, no! This won't do!\\pHERACROSS looks much more macho\\nand cool, and has a lovely horn!$",
+    "after": "Oh, non ! Ça ne va pas !\\pScarhino a bien plus de prestance et\\nune superbe corne !$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath_House1/text.inc",
+    "symbol": "SixIsland_WaterPath_House1_Text_YourBagIsFull",
+    "before": "Your BAG is full.\\nMy reward won't fit.$",
+    "after": "Ton Sac est plein. Tu n'as pas de\\nplace pour ma récompense.$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath_House1/text.inc",
+    "symbol": "SixIsland_WaterPath_House1_Text_BiggestHeracrossIsXInches",
+    "before": "The biggest HERACROSS that I have\\never seen measured so far is:\\p{STR_VAR_3} inches!$",
+    "after": "Le plus grand Scarhino que j'aie\\njamais mesuré faisait…\\p{STR_VAR_3} pouces !$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath_House1/text.inc",
+    "symbol": "SixIsland_WaterPath_House1_Text_BlankChartOfSomeSort",
+    "before": "It's a blank chart of some sort.\\pIt has spaces for writing in\\nrecords of some kind.$",
+    "after": "On dirait un tableau vierge.\\pDes cases permettent d'y noter des\\nrecords.$"
+  },
+  {
+    "file": "data/maps/SixIsland_WaterPath_House2/text.inc",
+    "symbol": "SixIsland_WaterPath_House2_Text_MyNeighborMeasuredMe",
+    "before": "My height is 67.0 inches on the\\nbutton.\\pI know it is this precisely because\\nmy neighbor measured me.$",
+    "after": "Je mesure exactement 67 pouces.\\pJe le sais avec précision parce que\\nma voisine m'a mesuré.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_IslandSign",
+    "before": "THREE ISLAND\\nKin Island of Family Bonding$",
+    "after": "ÎLE 3\\nL'île des liens familiaux$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_IslandBelongsToUs",
+    "before": "Hyahoo!\\pFrom this day on, this island\\nbelongs to us!$",
+    "after": "Youhou !\\pÀ partir d'aujourd'hui, cette île est\\nà nous !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_GoBackToKanto",
+    "before": "We don't need you people bringing\\nyour noise and trouble here!\\pWe're asking you to go back to\\nKANTO!$",
+    "after": "On ne veut pas de vos nuisances et\\nde vos ennuis ici !\\pRetournez à Kanto !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_BossIsOnHisWay",
+    "before": "Hey, go cry somewhere else.\\nOur boss is on his way.\\pWhen he gets here, we'll give you\\na k-rad motorbike show you won't\\lsoon forget!$",
+    "after": "Hé, allez pleurer ailleurs. Notre\\nchef arrive.\\pQuand il sera là, on vous fera une\\ndémonstration de moto inoubliable !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_GetOffIslandNow",
+    "before": "W-what!? Not on your life!\\nGet off the island now!$",
+    "after": "Qu-quoi ? Pas question ! Quittez\\ncette île immédiatement !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_AreYouBossGoBackToKanto",
+    "before": "Are you the boss?\\nGo back to KANTO right now!$",
+    "after": "C'est toi, le chef ? Retournez à\\nKanto tout de suite !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_JustGotHerePal",
+    "before": "Hah?\\pI just got here, pal.\\pWhat's with the hostile attitude?\\nIt's mighty cold of you!$",
+    "after": "Hein ?\\pJe viens d'arriver, mon vieux.\\pPourquoi tant d'hostilité ? Vous\\nn'êtes pas très accueillants !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_FollowersRaisingHavoc",
+    "before": "Your gang of followers have been\\nraising havoc on their bikes.\\pDo you have any idea how much\\ntrouble they've caused us on the\\lisland?$",
+    "after": "Tes hommes sèment le chaos avec\\nleurs motos.\\pTu as idée de tous les problèmes\\nqu'ils nous ont causés sur cette île\\l?$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_OughtToBeThankingUs",
+    "before": "No, man, I don't get it at all.\\pLook at this place.\\nWhat do you do for entertainment?\\pYou ought to be thanking us for\\nlivening up this sleepy village.\\pBut hey, if you insist, you can try\\nmaking us leave.$",
+    "after": "Non, vieux, je ne comprends vraiment\\npas.\\pRegarde cet endroit. Vous faites quoi\\npour vous amuser ?\\pVous devriez nous remercier d'animer\\nce village endormi.\\pMais si vous insistez, essayez donc\\nde nous faire partir.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_YouCowardsToughInPack",
+    "before": "Grr… You cowards…\\nSo tough in a pack…$",
+    "after": "Grrr… Lâches… Vous faites les fiers\\nparce que vous êtes en bande…$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_WannaMakeSomethingOfYourStaring",
+    "before": "You, what are you staring at?\\nDon't you know it's not polite?\\pYou wanna make something of it\\nor what?$",
+    "after": "Toi, qu'est-ce que tu regardes ? Tu\\nsais que c'est malpoli ?\\pTu cherches les ennuis ou quoi ?$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_ThatsSmart",
+    "before": "That's smart.\\nKeep your nose out of this.$",
+    "after": "C'est plus sage. Reste en dehors de\\nça.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_Biker1Intro",
+    "before": "Heh, I like your guts.\\nYou'll be losing money to me, but…$",
+    "after": "Héhé, tu as du cran. Mais tu vas y\\nlaisser ton argent…$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_Biker1Defeat",
+    "before": "Wha…\\nWhat is this kid?!$",
+    "after": "Qu… C'est qui, ce gamin ?!$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_Biker1PostBattle",
+    "before": "Aww, man…\\nDon't you dare laugh!$",
+    "after": "Oh, mince… Ne t'avise pas de rire !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_Biker2Intro",
+    "before": "Aren't you from KANTO?\\nYou should be on our side!$",
+    "after": "Tu viens de Kanto, non ? Tu devrais\\nêtre avec nous !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_Biker2PostBattle",
+    "before": "What's the matter with you,\\ngetting all hot like that?\\pTotally uncool, man!$",
+    "after": "Qu'est-ce qui te prend de t'énerver\\ncomme ça ?\\pCe n'est vraiment pas la classe,\\nvieux !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_Biker3Intro",
+    "before": "We invited the boss out here,\\nbut you had to mess it up!\\pYou embarrassed us, man!$",
+    "after": "On avait invité le chef ici, et tu as\\ntout gâché !\\pTu nous as humiliés, vieux !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_Biker3PostBattle",
+    "before": "Boss, I'm telling you, you've gotta\\ndo something about this kid!$",
+    "after": "Chef, il faut vraiment que tu fasses\\nquelque chose contre ce gamin !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_PaxtonIntro",
+    "before": "I've been watching you, and I'd say\\nyou've done enough.\\pWhat are you, their friend or\\nsomething?\\pThen I guess you'll be battling me\\nin their place.$",
+    "after": "Je t'observe depuis un moment. Ça\\nsuffit, maintenant.\\pTu es leur ami, c'est ça ?\\pAlors tu vas te battre à leur place.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_PaxtonDefeat",
+    "before": "All right, enough!\\nWe'll leave like you wanted!\\pWe'll be happy to see the last of\\nthis boring island!$",
+    "after": "Bon, ça suffit ! On s'en va, comme\\nvous le vouliez !\\pOn sera bien contents de quitter\\ncette île ennuyeuse !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_PaxtonPostBattle",
+    "before": "Humph! Yeah, go right on hanging\\naround with these hayseeds!$",
+    "after": "Pff ! Reste donc avec ces ploucs !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_ThankYouOhYourMonGotHurt",
+    "before": "Thank you! Those goons were\\nnothing but bad trouble.\\pOh, look, your Yo-kai got hurt\\non my account.$",
+    "after": "Merci ! Ces voyous ne causaient que\\ndes ennuis.\\pOh, regarde, tes Yo-kai ont été\\nblessés à cause de moi.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_OhYourBagIsFull",
+    "before": "Oh?\\nYour BAG is full.$",
+    "after": "Oh ? Ton Sac est plein.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_YouveGotImpressiveMons",
+    "before": "You've got seriously impressive\\nYo-kai with you.$",
+    "after": "Tes Yo-kai sont vraiment\\nimpressionnants.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_LostelleWentOffTowardsBondBridge",
+    "before": "It'd be fantastic if someone as\\nstrong as you lived here.\\pI hope you'll at least stay here\\na while.\\p…I beg your pardon?\\nYou're looking for LOSTELLE?\\pLOSTELLE went off towards BOND\\nBRIDGE a while ago.$",
+    "after": "Ce serait formidable que quelqu'un\\nd'aussi fort que toi vive ici.\\pJ'espère que tu resteras au moins un\\nmoment.\\p… Pardon ? Tu cherches Lostelle ?\\pLostelle est partie vers le Pont du\\nLien il y a un moment.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_WouldntWantToSeeBikersHereAgain",
+    "before": "THREE ISLAND is actually the most\\npopulous of the islands here.\\pStill, it could be less sleepy.\\pBut I wouldn't want to see goons\\nlike those BIKERS here again.$",
+    "after": "L'Île 3 est en fait la plus peuplée\\ndes îles d'ici.\\pElle pourrait quand même être plus\\nanimée.\\pMais je ne voudrais pas revoir des\\nvoyous comme ces Motards.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland/text.inc",
+    "symbol": "ThreeIsland_Text_WhenDodouEvolvesGoingToPlayGame",
+    "before": "I'm going to train my DODUO in the\\nBERRY FOREST.\\pWhen it evolves, I'm going to play\\na game on TWO ISLAND.$",
+    "after": "Je vais entraîner mon Tryptik dans le\\nBois aux Baies.\\pQuand il aura évolué, j'irai jouer\\nsur l'Île 2.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BerryForest/text.inc",
+    "symbol": "ThreeIsland_BerryForest_Text_HelpScaryPokemon",
+    "before": "LOSTELLE: Whimper… Sniff…\\nOh! Please, help!\\pA scary Yo-kai appeared there\\na little while ago.\\pIt kept scaring.\\nIt made LOSTELLE scared.\\pI'm too scared to move!\\nBut I want to go home…$",
+    "after": "LOSTELLE : Ouin… Snif… Oh ! À l'aide\\n!\\pUn Yo-kai effrayant est apparu\\nlà-bas, tout à l'heure.\\pIl n'arrêtait pas de me faire peur.\\nLostelle a très peur.\\pJe n'ose plus bouger ! Mais je veux\\nrentrer…$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BerryForest/text.inc",
+    "symbol": "ThreeIsland_BerryForest_Text_HereItComesAgain",
+    "before": "Oh! Here it comes again!\\nNo! Go away! It's scaring me!\\pWaaaaaaah!\\nI want my daddy!$",
+    "after": "Oh ! Il revient ! Non ! Va-t'en ! Tu\\nme fais peur !\\pOuin ! Je veux mon papa !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BerryForest/text.inc",
+    "symbol": "ThreeIsland_BerryForest_Text_ThankYouHaveThis",
+    "before": "Ohh! That was so scary!\\nThank you!\\pLOSTELLE came to pick some\\nBERRIES.\\pYou can have this!$",
+    "after": "Oh ! J'ai eu tellement peur ! Merci !\\pLostelle était venue cueillir des\\nBaies.\\pTiens, c'est pour toi !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BerryForest/text.inc",
+    "symbol": "ThreeIsland_BerryForest_Text_LetsGoHome",
+    "before": "What's your name?\\pLOSTELLE's scared, so can I go\\nwith you to my daddy's house?\\pOkay!\\nLet's go home!$",
+    "after": "Comment tu t'appelles ?\\pLostelle a peur. Tu veux bien\\nm'accompagner chez mon papa ?\\pD'accord ! Rentrons !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BerryForest/text.inc",
+    "symbol": "ThreeIsland_BerryForest_Text_BerryPouchIsFull",
+    "before": "Your BERRY POUCH is full.\\nI guess you don't want this.$",
+    "after": "Ta Poche à Baies est pleine. Tu n'en\\nveux pas, alors.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BerryForest/text.inc",
+    "symbol": "ThreeIsland_BerryForest_Text_WelcomeToBerryForest",
+    "before": "Welcome to the BERRY FOREST\\pBe friendly and share BERRIES with\\nothers and Yo-kai.$",
+    "after": "Bienvenue au Bois aux Baies\\pSoyez aimables : partagez les Baies\\navec les autres et les Yo-kai.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BondBridge/text.inc",
+    "symbol": "ThreeIsland_BondBridge_Text_NikkiIntro",
+    "before": "The salty tang of the sea…\\nIt tickles my heart.$",
+    "after": "L'odeur salée de la mer… Elle me fait\\nvibrer le cœur.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BondBridge/text.inc",
+    "symbol": "ThreeIsland_BondBridge_Text_NikkiDefeat",
+    "before": "…Sniff, sniff…\\nSomething smells unpleasant…$",
+    "after": "… Snif, snif… Ça sent mauvais…$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BondBridge/text.inc",
+    "symbol": "ThreeIsland_BondBridge_Text_NikkiPostBattle",
+    "before": "Perhaps that reek is your sweaty\\nYo-kai's body odor…$",
+    "after": "Cette odeur viendrait-elle de la\\nsueur de tes Yo-kai… ?$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BondBridge/text.inc",
+    "symbol": "ThreeIsland_BondBridge_Text_VioletIntro",
+    "before": "Where are you off to in such\\na hurry?$",
+    "after": "Où vas-tu si vite ?$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BondBridge/text.inc",
+    "symbol": "ThreeIsland_BondBridge_Text_VioletDefeat",
+    "before": "You're raising some wonderful\\nYo-kai.$",
+    "after": "Tu élèves de merveilleux Yo-kai.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BondBridge/text.inc",
+    "symbol": "ThreeIsland_BondBridge_Text_VioletPostBattle",
+    "before": "If you keep going this way, you'll\\neventually reach BERRY FOREST.$",
+    "after": "En continuant par ici, tu finiras par\\natteindre le Bois aux Baies.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BondBridge/text.inc",
+    "symbol": "ThreeIsland_BondBridge_Text_AmiraIntro",
+    "before": "My mommy said that I can't swim\\nwithout my float ring.$",
+    "after": "Maman m'a dit de ne pas nager sans ma\\nbouée.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BondBridge/text.inc",
+    "symbol": "ThreeIsland_BondBridge_Text_AmiraPostBattle",
+    "before": "This year, I'm going to finally\\nlearn how to swim!$",
+    "after": "Cette année, je vais enfin apprendre\\nà nager !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BondBridge/text.inc",
+    "symbol": "ThreeIsland_BondBridge_Text_AlexisDefeat",
+    "before": "What happens now?$",
+    "after": "Et maintenant ?$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BondBridge/text.inc",
+    "symbol": "ThreeIsland_BondBridge_Text_TishaIntro",
+    "before": "Oh, no, don't come here!\\nPlease, stay away from me!$",
+    "after": "Oh, non, ne viens pas ici ! S'il te\\nplaît, reste loin de moi !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BondBridge/text.inc",
+    "symbol": "ThreeIsland_BondBridge_Text_TishaDefeat",
+    "before": "Okay, you've won!\\nNow will you please go away?$",
+    "after": "D'accord, tu as gagné ! Tu veux bien\\npartir, maintenant ?$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BondBridge/text.inc",
+    "symbol": "ThreeIsland_BondBridge_Text_TishaPostBattle",
+    "before": "A Yo-kai bit through my \\nswimsuit.\\pI can't get out of the water!$",
+    "after": "Un Yo-kai a déchiré mon maillot de\\nbain d'un coup de dents.\\pJe ne peux plus sortir de l'eau !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BondBridge/text.inc",
+    "symbol": "ThreeIsland_BondBridge_Text_JoyIntro",
+    "before": "JOY: We'll teach you what our\\nfavorite Yo-kai is!$",
+    "after": "JOY : On va te montrer notre Yo-kai\\npréféré !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BondBridge/text.inc",
+    "symbol": "ThreeIsland_BondBridge_Text_JoyPostBattle",
+    "before": "JOY: Wasn't that fun?\\nI hope we can battle again!$",
+    "after": "JOY : C'était amusant, non ? J'espère\\nqu'on pourra recommencer !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BondBridge/text.inc",
+    "symbol": "ThreeIsland_BondBridge_Text_JoyNotEnoughMons",
+    "before": "JOY: I really want to battle with\\nMEG.\\pOne Yo-kai isn't enough.$",
+    "after": "JOY : Je veux vraiment me battre\\navec MEG.\\pUn seul Yo-kai ne suffit pas.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BondBridge/text.inc",
+    "symbol": "ThreeIsland_BondBridge_Text_MegIntro",
+    "before": "MEG: We'll show you our favorite\\nYo-kai.$",
+    "after": "MEG : On va te montrer notre Yo-kai\\npréféré.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BondBridge/text.inc",
+    "symbol": "ThreeIsland_BondBridge_Text_MegPostBattle",
+    "before": "MEG: JOY, wasn't that fun?$",
+    "after": "MEG : JOY, on s'est bien amusées, non\\n?$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BondBridge/text.inc",
+    "symbol": "ThreeIsland_BondBridge_Text_MegNotEnoughMons",
+    "before": "MEG: I want to battle together\\nwith JOY.\\pOne Yo-kai isn't enough.$",
+    "after": "MEG : Je veux me battre avec JOY.\\pUn seul Yo-kai ne suffit pas.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_BondBridge/text.inc",
+    "symbol": "ThreeIsland_BondBridge_Text_BondBridgeSign",
+    "before": "BOND BRIDGE\\nPlease be quiet when crossing.\\pBERRY FOREST AHEAD$",
+    "after": "PONT DU LIEN\\nMerci de traverser en silence.\\pBOIS AUX BAIES PLUS LOIN$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_DunsparceTunnel/text.inc",
+    "symbol": "ThreeIsland_DunsparceTunnel_Text_ProspectingForGold",
+    "before": "Hey, there!\\nHow's it going?\\pWhat am I doing here, you ask?\\nWhy, I'm prospecting for gold!\\pWhen I strike it rich, I'm buying\\na house in KANTO.$",
+    "after": "Salut ! Comment ça va ?\\pCe que je fais ici ? Je cherche de\\nl'or !\\pQuand je serai riche, je m'achèterai\\nune maison à Kanto.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_DunsparceTunnel/text.inc",
+    "symbol": "ThreeIsland_DunsparceTunnel_Text_StruckGoldThisIsForYou",
+    "before": "Hey, there! How's it going?\\nDid you hear? I've struck gold!\\pYou remembered that I was\\nprospecting, didn't you?\\pYou can't begin to imagine just\\nhow happy I am.\\pSo, I'll show you!\\nThis is for you!$",
+    "after": "Salut ! Comment ça va ? Tu sais quoi\\n? J'ai trouvé de l'or !\\pTu te souviens que j'en cherchais ?\\pTu n'imagines pas à quel point je suis\\nheureux.\\pAlors je vais te le montrer ! Tiens,\\nc'est pour toi !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_DunsparceTunnel/text.inc",
+    "symbol": "ThreeIsland_DunsparceTunnel_Text_ThatsANugget",
+    "before": "That's a NUGGET!\\pI can't give you any nuggets of\\nwisdom, so that'll have to do!$",
+    "after": "C'est une Pépite !\\pJe n'ai pas de pépite de sagesse à\\nt'offrir, alors ça fera l'affaire !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_DunsparceTunnel/text.inc",
+    "symbol": "ThreeIsland_DunsparceTunnel_Text_WhoopsBagCrammedFull",
+    "before": "Whoops, your BAG is crammed full!\\nI'll give this to you later.$",
+    "after": "Oups, ton Sac est plein ! Je te la\\ndonnerai plus tard.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_House1/text.inc",
+    "symbol": "ThreeIsland_House1_Text_YoureAlwaysSoCool",
+    "before": "LOSTELLE: Hi, {PLAYER}!\\nYou're always so cool!\\pI'll make lunch for you, too, one\\nday, {PLAYER}.$",
+    "after": "LOSTELLE : Salut, {PLAYER} ! Tu as\\ntoujours la classe !\\pUn jour, je te préparerai aussi un\\ndéjeuner, {PLAYER}.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_House1/text.inc",
+    "symbol": "ThreeIsland_House1_Text_RareRocksGemsDisplayed",
+    "before": "Rare rocks and gems are displayed.$",
+    "after": "Des pierres rares et des gemmes sont\\nexposées.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_House2/text.inc",
+    "symbol": "ThreeIsland_House2_Text_CantMakeThisSpoonBend",
+    "before": "Urrrrrrrrgggghhhh…\\nKwaaaaah!\\p…It's useless! I can't make this\\nspoon bend with my mind.\\pMaybe I really don't have any\\npsychic powers.$",
+    "after": "Grrrr… Hyaaa !\\p… Inutile ! Je n'arrive pas à tordre\\ncette cuillère par la pensée.\\pJe n'ai peut-être vraiment aucun\\npouvoir psychique.$"
+  }
+]

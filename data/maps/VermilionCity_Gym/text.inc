@@ -60,10 +60,10 @@ VermilionCity_Gym_Text_GymGuyPostVictory::
     .string "Ouf!\nQuel combat électrisant!$"
 
 VermilionCity_Gym_Text_GymStatue::
-    .string "ARÈNE DE VERMILION CITY\nCHAMPIONNE: ARIANE\pDRESSEURS VICTORIEUX:\n{RIVAL}$"
+    .string "ARÈNE DE CARMIN SUR MER\nCHAMPIONNE : ARIANE\pDRESSEURS VICTORIEUX :\n{RIVAL}$"
 
 VermilionCity_Gym_Text_GymStatuePlayerWon::
-    .string "ARÈNE DE VERMILION CITY\nCHAMPIONNE: ARIANE\pDRESSEURS VICTORIEUX:\n{RIVAL}, {PLAYER}$"
+    .string "ARÈNE DE CARMIN SUR MER\nCHAMPIONNE : ARIANE\pDRESSEURS VICTORIEUX :\n{RIVAL}, {PLAYER}$"
 
 VermilionCity_Gym_Text_NopeOnlyTrashHere::
     .string "Non!\nRien que des déchets.$"

@@ -8,24 +8,20 @@ SilphCo_10F_Text_GruntPostBattle::
     .string "La salle du conseil est encore un\nétage plus haut.$"
 
 SilphCo_10F_Text_TravisIntro::
-    .string "Enough of your silly games!$"
+    .string "Assez de tes petits jeux !$"
 
 SilphCo_10F_Text_TravisDefeat::
     .string "No continues left!$"
 
 SilphCo_10F_Text_TravisPostBattle::
-    .string "Are you satisfied with beating me?\n"
-    .string "Then go on home!$"
+    .string "Tu es content de m'avoir battu ?\nAlors rentre chez toi !$"
 
 SilphCo_10F_Text_WaaaImScared::
-    .string "Waaaaa!\n"
-    .string "I'm scared!$"
+    .string "Aaaaaah ! J'ai peur !$"
 
 SilphCo_10F_Text_KeepMeCryingASecret::
-    .string "About me crying…\n"
-    .string "Please keep it a secret.$"
+    .string "Ne dis à personne que j'ai pleuré,\ns'il te plaît.$"
 
 SilphCo_10F_Text_FloorSign::
-    .string "Yopple HEAD OFFICE\n"
-    .string "10F$"
+    .string "SIÈGE DE YOPPLE\n9e ÉTAGE$"
 

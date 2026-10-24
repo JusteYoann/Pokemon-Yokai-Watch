@@ -1,0 +1,848 @@
+[
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_ProfOak1",
+    "before": "RESEARCH LAB$",
+    "after": "LABORATOIRE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_ProfOak2",
+    "before": "RESEARCH LAB$",
+    "after": "LABORATOIRE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_ProfOak3",
+    "before": "VIRIDIAN CITY$",
+    "after": "JADIELLE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_ProfOak5",
+    "before": "RESEARCH LAB$",
+    "after": "LABORATOIRE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Daisy0",
+    "before": "RESEARCH LAB$",
+    "after": "LABORATOIRE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Daisy1",
+    "before": "VERMILION CITY$",
+    "after": "CARMIN SUR MER$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Daisy2",
+    "before": "WATER LABYRINTH$",
+    "after": "LABYRINTHE D’EAU$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Daisy3",
+    "before": "VIRIDIAN CITY$",
+    "after": "JADIELLE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Daisy4",
+    "before": "CELADON MANSION$",
+    "after": "MANOIR CÉLADOPOLE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Daisy5",
+    "before": "FOUR ISLAND$",
+    "after": "ÎLE 4$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Brock0",
+    "before": "PEWTER CITY$",
+    "after": "ARGENTA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Brock1",
+    "before": "PEWTER GYM$",
+    "after": "ARÈNE D’ARGENTA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Brock2",
+    "before": "PEWTER CITY$",
+    "after": "ARGENTA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Brock4",
+    "before": "MT. MOON$",
+    "after": "MONT SÉLÉNITE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Brock5",
+    "before": "PEWTER MUSEUM$",
+    "after": "MUSÉE D’ARGENTA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Misty0",
+    "before": "CERULEAN CITY$",
+    "after": "AZURIA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Misty1",
+    "before": "CERULEAN GYM$",
+    "after": "ARÈNE D’AZURIA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Misty2",
+    "before": "CERULEAN GYM$",
+    "after": "ARÈNE D’AZURIA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Misty3",
+    "before": "SEAFOAM ISLANDS$",
+    "after": "ÎLES ÉCUME$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Misty4",
+    "before": "CERULEAN CAPE$",
+    "after": "CAP D’AZURIA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Misty5",
+    "before": "CERULEAN CITY$",
+    "after": "AZURIA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_LtSurge0",
+    "before": "VERMILION CITY$",
+    "after": "CARMIN SUR MER$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_LtSurge1",
+    "before": "VERMILION GYM$",
+    "after": "ARÈNE DE CARMIN$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_LtSurge2",
+    "before": "VERMILION GYM$",
+    "after": "ARÈNE DE CARMIN$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_LtSurge3",
+    "before": "VERMILION GYM$",
+    "after": "ARÈNE DE CARMIN$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_LtSurge4",
+    "before": "VERMILION GYM$",
+    "after": "ARÈNE DE CARMIN$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_LtSurge5",
+    "before": "VERMILION CITY$",
+    "after": "CARMIN SUR MER$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Erika0",
+    "before": "CELADON CITY$",
+    "after": "CÉLADOPOLE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Erika1",
+    "before": "CELADON GYM$",
+    "after": "ARÈNE CÉLADOPOLE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Erika2",
+    "before": "CELADON GYM$",
+    "after": "ARÈNE CÉLADOPOLE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Erika3",
+    "before": "CELADON GYM$",
+    "after": "ARÈNE CÉLADOPOLE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Erika4",
+    "before": "CELADON GYM$",
+    "after": "ARÈNE CÉLADOPOLE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Erika5",
+    "before": "CELADON MANSION$",
+    "after": "MANOIR CÉLADOPOLE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Koga0",
+    "before": "FUCHSIA CITY$",
+    "after": "PARMANIE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Koga1",
+    "before": "FUCHSIA GYM$",
+    "after": "ARÈNE PARMANIE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Koga2",
+    "before": "FUCHSIA GYM$",
+    "after": "ARÈNE PARMANIE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Koga3",
+    "before": "FUCHSIA CITY$",
+    "after": "PARMANIE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Koga4",
+    "before": "FUCHSIA CITY$",
+    "after": "PARMANIE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Koga5",
+    "before": "SAFARI ZONE$",
+    "after": "PARC SAFARI$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Sabrina0",
+    "before": "SAFFRON CITY$",
+    "after": "SAFRANIA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Sabrina1",
+    "before": "THREE ISLAND$",
+    "after": "ÎLE 3$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Sabrina2",
+    "before": "SAFFRON GYM$",
+    "after": "ARÈNE SAFRANIA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Sabrina3",
+    "before": "SAFFRON GYM$",
+    "after": "ARÈNE SAFRANIA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Sabrina4",
+    "before": "SAFFRON CITY$",
+    "after": "SAFRANIA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Sabrina5",
+    "before": "SAFFRON GYM$",
+    "after": "ARÈNE SAFRANIA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Blaine0",
+    "before": "CINNABAR ISLAND$",
+    "after": "CRAMOIS’ÎLE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Blaine1",
+    "before": "CINNABAR GYM$",
+    "after": "ARÈNE CRAMOIS$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Blaine2",
+    "before": "CINNABAR GYM$",
+    "after": "ARÈNE CRAMOIS$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Blaine3",
+    "before": "CINNABAR ISLAND$",
+    "after": "CRAMOIS’ÎLE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Blaine4",
+    "before": "CINNABAR GYM$",
+    "after": "ARÈNE CRAMOIS$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Blaine5",
+    "before": "RESORT GORGEOUS$",
+    "after": "CAMP DE VACANCES$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Lorelei2",
+    "before": "FOUR ISLAND$",
+    "after": "ÎLE 4$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Lorelei3",
+    "before": "FIVE ISLAND$",
+    "after": "ÎLE 5$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Lorelei4",
+    "before": "FOUR ISLAND$",
+    "after": "ÎLE 4$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Lorelei5",
+    "before": "FOUR ISLAND$",
+    "after": "ÎLE 4$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Bruno2",
+    "before": "SAFFRON CITY$",
+    "after": "SAFRANIA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Bruno3",
+    "before": "EMBER SPA$",
+    "after": "SOURCE BRAISE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Bruno4",
+    "before": "TWO ISLAND$",
+    "after": "ÎLE 2$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Bruno5",
+    "before": "SEVAULT CANYON$",
+    "after": "CANYON SÉVAULT$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Agatha1",
+    "before": "INDIGO PLATEAU$",
+    "after": "PLATEAU INDIGO$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Agatha2",
+    "before": "INDIGO PLATEAU$",
+    "after": "PLATEAU INDIGO$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Agatha3",
+    "before": "SEVEN ISLAND$",
+    "after": "ÎLE 7$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Agatha5",
+    "before": "SIX ISLAND$",
+    "after": "ÎLE 6$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Lance2",
+    "before": "SAFFRON CITY$",
+    "after": "SAFRANIA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Lance3",
+    "before": "CELADON DEPT.$",
+    "after": "CENTRE COMM.$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Lance4",
+    "before": "INDIGO PLATEAU$",
+    "after": "PLATEAU INDIGO$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Lance5",
+    "before": "INDIGO PLATEAU$",
+    "after": "PLATEAU INDIGO$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Bill0",
+    "before": "CERULEAN CITY$",
+    "after": "AZURIA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Bill1",
+    "before": "CERULEAN CITY$",
+    "after": "AZURIA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Bill2",
+    "before": "FUCHSIA CITY$",
+    "after": "PARMANIE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Bill3",
+    "before": "ONE ISLAND$",
+    "after": "ÎLE 1$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Bill4",
+    "before": "ONE ISLAND$",
+    "after": "ÎLE 1$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_Bill5",
+    "before": "ONE ISLAND$",
+    "after": "ÎLE 1$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_MrFuji0",
+    "before": "LAVENDER TOWN$",
+    "after": "LAVANVILLE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_MrFuji1",
+    "before": "Yo-kai TOWER$",
+    "after": "TOUR YO-KAI$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_MrFuji2",
+    "before": "LAVENDER TOWN$",
+    "after": "LAVANVILLE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_MrFuji3",
+    "before": "LAVENDER TOWN$",
+    "after": "LAVANVILLE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_MrFuji4",
+    "before": "CINNABAR GYM$",
+    "after": "ARÈNE CRAMOIS$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginLocation_MrFuji5",
+    "before": "CINNABAR ISLAND$",
+    "after": "CRAMOIS’ÎLE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_ProfOak0",
+    "before": "SIGN$",
+    "after": "PANNEAU$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_ProfOak1",
+    "before": "PROF. OAK$",
+    "after": "PROF. CHEN$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_ProfOak2",
+    "before": "AIDE$",
+    "after": "ASSISTANT$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_ProfOak3",
+    "before": "Yo-kai JOURNAL$",
+    "after": "JOURNAL YO-KAI$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_ProfOak5",
+    "before": "AIDE$",
+    "after": "ASSISTANT$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Daisy0",
+    "before": "AIDE$",
+    "after": "ASSISTANT$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Daisy1",
+    "before": "WOMAN$",
+    "after": "FEMME$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Daisy2",
+    "before": "MAN$",
+    "after": "HOMME$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Daisy3",
+    "before": "Yo-kai JOURNAL$",
+    "after": "JOURNAL YO-KAI$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Daisy4",
+    "before": "OLD LADY$",
+    "after": "VIEILLE DAME$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Daisy5",
+    "before": "Yo-kai JOURNAL$",
+    "after": "JOURNAL YO-KAI$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Brock0",
+    "before": "SIGN$",
+    "after": "PANNEAU$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Brock2",
+    "before": "YOUNG MAN$",
+    "after": "JEUNE HOMME$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Brock3",
+    "before": "BOY$",
+    "after": "GARÇON$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Brock4",
+    "before": "MAN$",
+    "after": "HOMME$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Brock5",
+    "before": "Yo-kai JOURNAL$",
+    "after": "JOURNAL YO-KAI$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Misty0",
+    "before": "SIGN$",
+    "after": "PANNEAU$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Misty3",
+    "before": "YOUNG MAN$",
+    "after": "JEUNE HOMME$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Misty5",
+    "before": "Yo-kai JOURNAL$",
+    "after": "JOURNAL YO-KAI$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_LtSurge0",
+    "before": "SIGN$",
+    "after": "PANNEAU$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_LtSurge5",
+    "before": "Yo-kai JOURNAL$",
+    "after": "JOURNAL YO-KAI$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Erika0",
+    "before": "SIGN$",
+    "after": "PANNEAU$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Erika5",
+    "before": "Yo-kai JOURNAL$",
+    "after": "JOURNAL YO-KAI$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Koga0",
+    "before": "SIGN$",
+    "after": "PANNEAU$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Koga4",
+    "before": "Yo-kai JOURNAL$",
+    "after": "JOURNAL YO-KAI$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Koga5",
+    "before": "MAN$",
+    "after": "HOMME$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Sabrina0",
+    "before": "SIGN$",
+    "after": "PANNEAU$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Sabrina1",
+    "before": "YOUNG MAN$",
+    "after": "JEUNE HOMME$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Sabrina4",
+    "before": "Yo-kai JOURNAL$",
+    "after": "JOURNAL YO-KAI$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Blaine0",
+    "before": "SIGN$",
+    "after": "PANNEAU$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Blaine3",
+    "before": "WOMAN$",
+    "after": "FEMME$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Blaine5",
+    "before": "Yo-kai JOURNAL$",
+    "after": "JOURNAL YO-KAI$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Lorelei0",
+    "before": "LORELEI$",
+    "after": "OLGA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Lorelei1",
+    "before": "LORELEI$",
+    "after": "OLGA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Lorelei2",
+    "before": "OLD MAN$",
+    "after": "VIEIL HOMME$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Lorelei3",
+    "before": "Yo-kai JOURNAL$",
+    "after": "JOURNAL YO-KAI$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Lorelei4",
+    "before": "LITTLE GIRL$",
+    "after": "FILLETTE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Lorelei5",
+    "before": "OLD LADY$",
+    "after": "VIEILLE DAME$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Bruno0",
+    "before": "BRUNO$",
+    "after": "ALDO$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Bruno1",
+    "before": "BRUNO$",
+    "after": "ALDO$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Bruno2",
+    "before": "Yo-kai JOURNAL$",
+    "after": "JOURNAL YO-KAI$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Bruno3",
+    "before": "CRUSHER$",
+    "after": "KARATÉKA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Bruno4",
+    "before": "WOMAN$",
+    "after": "FEMME$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Bruno5",
+    "before": "CRUSHER$",
+    "after": "KARATÉKA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Agatha1",
+    "before": "CRUSHER$",
+    "after": "KARATÉKA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Agatha2",
+    "before": "CRUSHER$",
+    "after": "KARATÉKA$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Agatha3",
+    "before": "Yo-kai JOURNAL$",
+    "after": "JOURNAL YO-KAI$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Agatha5",
+    "before": "OLD LADY$",
+    "after": "VIEILLE DAME$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Lance0",
+    "before": "LANCE$",
+    "after": "PETER$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Lance1",
+    "before": "LANCE$",
+    "after": "PETER$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Lance2",
+    "before": "WOMAN$",
+    "after": "FEMME$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Lance3",
+    "before": "LITTLE GIRL$",
+    "after": "FILLETTE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Lance4",
+    "before": "Yo-kai JOURNAL$",
+    "after": "JOURNAL YO-KAI$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Lance5",
+    "before": "YOUNG MAN$",
+    "after": "JEUNE HOMME$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Bill1",
+    "before": "LITTLE BOY$",
+    "after": "PETIT GARÇON$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Bill2",
+    "before": "OLD MAN$",
+    "after": "VIEIL HOMME$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Bill3",
+    "before": "CELIO$",
+    "after": "CILÉO$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Bill4",
+    "before": "CELIO$",
+    "after": "CILÉO$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_Bill5",
+    "before": "CELIO$",
+    "after": "CILÉO$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_MrFuji0",
+    "before": "LITTLE GIRL$",
+    "after": "FILLETTE$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_MrFuji3",
+    "before": "MAN$",
+    "after": "HOMME$"
+  },
+  {
+    "file": "data/text/fame_checker.inc",
+    "symbol": "gFameCheckerFlavorTextOriginObjectName_MrFuji5",
+    "before": "Yo-kai JOURNAL$",
+    "after": "JOURNAL YO-KAI$"
+  }
+]

@@ -32,7 +32,7 @@ ViridianCity_Gym_Text_AtsushiIntro::
     .string "Grrr!\nJe fais monter ma rage!$"
 
 ViridianCity_Gym_Text_AtsushiDefeat::
-    .string "Aaaargh!$"
+    .string "Aaaaaargh !$"
 
 ViridianCity_Gym_Text_AtsushiPostBattle::
     .string "Je ne suis pas encore à la hauteur!$"
@@ -83,7 +83,7 @@ ViridianCity_Gym_Text_ColePostBattle::
     .string "Attends!\nJ'ai juste été imprudent!$"
 
 ViridianCity_Gym_Text_SamuelIntro::
-    .string "L'Arène de VIRIDIAN\nest restée fermée longtemps.\pMais notre Champion\nest enfin de retour!$"
+    .string "L'Arène de JADIELLE\nest restée fermée longtemps.\pMais notre Champion\nest enfin de retour!$"
 
 ViridianCity_Gym_Text_SamuelDefeat::
     .string "J'ai été battu?$"
@@ -92,13 +92,13 @@ ViridianCity_Gym_Text_SamuelPostBattle::
     .string "Il faut vaincre notre Champion\npour atteindre la Ligue Yo-kai!$"
 
 ViridianCity_Gym_Text_GymGuyAdvice::
-    .string "Salut!\nFutur Maître!\pMême moi, j'ignore l'identité\ndu Champion de VIRIDIAN.\pMais une chose est sûre:\nc'est le plus redoutable\lde tous les Champions.\pLes Dresseurs de cette Arène\nont des Yo-kai coriaces.\lPrépare une équipe variée!$"
+    .string "Salut!\nFutur Maître!\pMême moi, j'ignore l'identité\ndu Champion de JADIELLE.\pMais une chose est sûre:\nc'est le plus redoutable\lde tous les Champions.\pLes Dresseurs de cette Arène\nont des Yo-kai coriaces.\lPrépare une équipe variée!$"
 
 ViridianCity_Gym_Text_GymGuyPostVictory::
     .string "Don Morléone était le Champion de\nJadielle?\pEt tu l'as battu! Quel exploit!$"
 
 ViridianCity_Gym_Text_GymStatue::
-    .string "ARÈNE YO-KAI DE VIRIDIAN\nCHAMPION: ?\pDRESSEURS VICTORIEUX:\n{RIVAL}$"
+    .string "ARÈNE YO-KAI DE JADIELLE\nCHAMPION : ?\pDRESSEURS VICTORIEUX :\n{RIVAL}$"
 
 ViridianCity_Gym_Text_GymStatuePlayerWon::
     .string "ARÈNE YO-KAI DE JADIELLE\nCHAMPION: DON MORLÉONE\pDRESSEURS VICTORIEUX:\n{RIVAL}, {PLAYER}$"

@@ -1,10 +1,6 @@
 FuchsiaCity_Mart_Text_DontTheyHaveSafariZonePennants::
-    .string "Don't they have any pennants\n"
-    .string "promoting the SAFARI ZONE?\p"
-    .string "How about some paper lanterns?\n"
-    .string "Aren't there even any calendars?$"
+    .string "Ils n'ont pas de fanions du Parc\nSafari ?\pEt des lanternes en papier ?\nPas même un calendrier ?$"
 
 FuchsiaCity_Mart_Text_DidYouTryXSpeed::
-    .string "Did you try X SPEED?\n"
-    .string "It speeds up a Yo-kai in battle.$"
+    .string "Tu as essayé Vitesse + ?\nCet objet rend un Yo-kai plus rapide\len combat.$"
 

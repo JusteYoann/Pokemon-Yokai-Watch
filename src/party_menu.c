@@ -1,5 +1,6 @@
 #include "philosovni.h"
 #include "global.h"
+#include "status_labels_fr.h"
 #include "gflib.h"
 #include "battle.h"
 #include "battle_anim.h"
@@ -2941,7 +2942,10 @@ static void UpdatePartyMonAilmentGfx(u8 status, struct PartyMenuBox *menuBox)
 
 static void LoadPartyMenuAilmentGfx(void)
 {
-    LoadCompressedSpriteSheet(&sSpriteSheet_StatusIcons);
+    struct SpriteSheet sheet = {gDecompressionBuffer, 0x400, 1202};
+    LZ77UnCompWram(sSpriteSheet_StatusIcons.data, gDecompressionBuffer);
+    LocalizeStatusSheet((u16 *)gDecompressionBuffer);
+    LoadSpriteSheet(&sheet);
     LoadCompressedSpritePalette(&sSpritePalette_StatusIcons);
 }
 

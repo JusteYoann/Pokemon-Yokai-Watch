@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "rom_sha256": "5ac3df63ea192cd4392613108d7ccd8fdc4c7c0c60eba3403d1427f7453f2068",
+  "scope": "First arrival, south exit to Route2 and free re-entry",
+  "player_gender": 0,
+  "results": [
+    {
+      "return_route2": true,
+      "reentry_free": true,
+      "entry": 23,
+      "completed_frames": 4099,
+      "simultaneous_palette_banks": [
+        [
+          6,
+          10
+        ]
+      ],
+      "music_headers": [
+        "0x9bdb34c",
+        "0x95a16cc",
+        "0x94fbe54",
+        "0x95a16cc"
+      ],
+      "captured": [
+        "discours",
+        "rassemblement",
+        "dispersion"
+      ],
+      "peak_active_objects": 12,
+      "passed": true
+    }
+  ]
+}
