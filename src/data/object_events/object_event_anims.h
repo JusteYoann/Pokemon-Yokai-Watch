@@ -1643,3 +1643,48 @@ static const union AnimCmd *const sAnimTable_CramoisHovernyan[] = {
     [19] = sAnim_QuintyPlumpFaceSouth,
     [20] = sAnim_QuintyPlumpFaceSouth,
 };
+
+// Gargaros keeps all twelve authored directions: never mirror a side frame.
+static const union AnimCmd sAnim_GargarosFace0[] = { ANIMCMD_FRAME(1, 16), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_GargarosWalk0_0[] = { ANIMCMD_FRAME(0, 8), ANIMCMD_FRAME(1, 8), ANIMCMD_FRAME(2, 8), ANIMCMD_FRAME(1, 8), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_GargarosWalk0_1[] = { ANIMCMD_FRAME(0, 4), ANIMCMD_FRAME(1, 4), ANIMCMD_FRAME(2, 4), ANIMCMD_FRAME(1, 4), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_GargarosWalk0_2[] = { ANIMCMD_FRAME(0, 2), ANIMCMD_FRAME(1, 2), ANIMCMD_FRAME(2, 2), ANIMCMD_FRAME(1, 2), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_GargarosWalk0_3[] = { ANIMCMD_FRAME(0, 1), ANIMCMD_FRAME(1, 1), ANIMCMD_FRAME(2, 1), ANIMCMD_FRAME(1, 1), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_GargarosFace1[] = { ANIMCMD_FRAME(4, 16), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_GargarosWalk1_0[] = { ANIMCMD_FRAME(3, 8), ANIMCMD_FRAME(4, 8), ANIMCMD_FRAME(5, 8), ANIMCMD_FRAME(4, 8), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_GargarosWalk1_1[] = { ANIMCMD_FRAME(3, 4), ANIMCMD_FRAME(4, 4), ANIMCMD_FRAME(5, 4), ANIMCMD_FRAME(4, 4), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_GargarosWalk1_2[] = { ANIMCMD_FRAME(3, 2), ANIMCMD_FRAME(4, 2), ANIMCMD_FRAME(5, 2), ANIMCMD_FRAME(4, 2), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_GargarosWalk1_3[] = { ANIMCMD_FRAME(3, 1), ANIMCMD_FRAME(4, 1), ANIMCMD_FRAME(5, 1), ANIMCMD_FRAME(4, 1), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_GargarosFace2[] = { ANIMCMD_FRAME(7, 16), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_GargarosWalk2_0[] = { ANIMCMD_FRAME(6, 8), ANIMCMD_FRAME(7, 8), ANIMCMD_FRAME(8, 8), ANIMCMD_FRAME(7, 8), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_GargarosWalk2_1[] = { ANIMCMD_FRAME(6, 4), ANIMCMD_FRAME(7, 4), ANIMCMD_FRAME(8, 4), ANIMCMD_FRAME(7, 4), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_GargarosWalk2_2[] = { ANIMCMD_FRAME(6, 2), ANIMCMD_FRAME(7, 2), ANIMCMD_FRAME(8, 2), ANIMCMD_FRAME(7, 2), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_GargarosWalk2_3[] = { ANIMCMD_FRAME(6, 1), ANIMCMD_FRAME(7, 1), ANIMCMD_FRAME(8, 1), ANIMCMD_FRAME(7, 1), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_GargarosFace3[] = { ANIMCMD_FRAME(10, 16), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_GargarosWalk3_0[] = { ANIMCMD_FRAME(9, 8), ANIMCMD_FRAME(10, 8), ANIMCMD_FRAME(11, 8), ANIMCMD_FRAME(10, 8), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_GargarosWalk3_1[] = { ANIMCMD_FRAME(9, 4), ANIMCMD_FRAME(10, 4), ANIMCMD_FRAME(11, 4), ANIMCMD_FRAME(10, 4), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_GargarosWalk3_2[] = { ANIMCMD_FRAME(9, 2), ANIMCMD_FRAME(10, 2), ANIMCMD_FRAME(11, 2), ANIMCMD_FRAME(10, 2), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_GargarosWalk3_3[] = { ANIMCMD_FRAME(9, 1), ANIMCMD_FRAME(10, 1), ANIMCMD_FRAME(11, 1), ANIMCMD_FRAME(10, 1), ANIMCMD_JUMP(0) };
+static const union AnimCmd *const sAnimTable_Gargaros[] = {
+    sAnim_GargarosFace0,
+    sAnim_GargarosFace1,
+    sAnim_GargarosFace2,
+    sAnim_GargarosFace3,
+    sAnim_GargarosWalk0_0,
+    sAnim_GargarosWalk1_0,
+    sAnim_GargarosWalk2_0,
+    sAnim_GargarosWalk3_0,
+    sAnim_GargarosWalk0_1,
+    sAnim_GargarosWalk1_1,
+    sAnim_GargarosWalk2_1,
+    sAnim_GargarosWalk3_1,
+    sAnim_GargarosWalk0_2,
+    sAnim_GargarosWalk1_2,
+    sAnim_GargarosWalk2_2,
+    sAnim_GargarosWalk3_2,
+    sAnim_GargarosWalk0_3,
+    sAnim_GargarosWalk1_3,
+    sAnim_GargarosWalk2_3,
+    sAnim_GargarosWalk3_3,
+    sAnim_GargarosFace0,
+};

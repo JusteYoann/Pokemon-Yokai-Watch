@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "scope": "Temporary mGBA actors on a real map; native tile movement and VRAM frames.\nNo map event, story, player save or ROM distribution is added by this fixture.\n",
+  "rom_sha256": "14eb981705d7927cea8634063875f3adc636a95b0763ad9ea41a83407e0d3263",
+  "checks": [
+    {
+      "test": "independent palettes and all twelve linked frames",
+      "passed": true
+    },
+    {
+      "direction": "droite",
+      "steps": 4,
+      "observed_frames": [
+        9,
+        10,
+        11
+      ],
+      "passed": true
+    },
+    {
+      "direction": "face",
+      "steps": 2,
+      "observed_frames": [
+        0,
+        1,
+        2
+      ],
+      "passed": true
+    },
+    {
+      "direction": "gauche",
+      "steps": 4,
+      "observed_frames": [
+        6,
+        7,
+        8
+      ],
+      "passed": true
+    },
+    {
+      "direction": "dos",
+      "steps": 2,
+      "observed_frames": [
+        3,
+        4,
+        5
+      ],
+      "passed": true
+    }
+  ],
+  "captured_frames": 156
+}

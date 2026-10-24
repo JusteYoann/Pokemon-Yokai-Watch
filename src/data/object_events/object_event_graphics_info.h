@@ -3391,3 +3391,14 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JusteYoann = {
     .anims = sAnimTable_Inanimate, .images = sPicTable_JusteYoann,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiGargaros = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_YOKAI_GARGAROS,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32,
+    .paletteSlot = PALSLOT_NPC_1_REFLECTION, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = TRUE, .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_32x32, .subspriteTables = gObjectEventSpriteOamTables_32x32,
+    .anims = sAnimTable_Gargaros, .images = sPicTable_YokaiGargaros,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};

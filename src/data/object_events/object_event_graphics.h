@@ -311,3 +311,6 @@ const u16 gObjectEventPal_DossierKyubi[] = INCBIN_U16("graphics/dossier-20261023
 
 const u16 gObjectEventPic_JusteYoann[] = INCBIN_U16("graphics/juste_yoann/overworld.4bpp");
 const u16 gObjectEventPal_JusteYoann[] = INCBIN_U16("graphics/juste_yoann/normal.gbapal");
+
+const u16 gObjectEventPal_YokaiGargaros[] = INCBIN_U16("graphics/yokai_characters/gargaros/normal.gbapal");
+const u32 gObjectEventPic_YokaiGargaros[] = INCBIN_U32("graphics/yokai_characters/gargaros/overworld.4bpp");
