@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "rom_sha256": "c80f2d7dc14248b8b4ae2e40f34e5c9e145774ee7b88084b74d5be383eb45386",
+  "rom_bytes": 33449979,
+  "baseline_sha256": "5e350381135282f916616c221ef59db974fec501b73579a406c533e5104469e5",
+  "cases": [
+    {
+      "gender": 0,
+      "entry_x": 22,
+      "passed": true,
+      "details": "apres/0-22/TEST.json"
+    },
+    {
+      "gender": 0,
+      "entry_x": 23,
+      "passed": true,
+      "details": "apres/0-23/TEST.json"
+    },
+    {
+      "gender": 0,
+      "entry_x": 24,
+      "passed": true,
+      "details": "apres/0-24/TEST.json"
+    },
+    {
+      "gender": 1,
+      "entry_x": 22,
+      "passed": true,
+      "details": "apres/1-22/TEST.json"
+    },
+    {
+      "gender": 1,
+      "entry_x": 23,
+      "passed": true,
+      "details": "apres/1-23/TEST.json"
+    },
+    {
+      "gender": 1,
+      "entry_x": 24,
+      "passed": true,
+      "details": "apres/1-24/TEST.json"
+    }
+  ],
+  "native_saves_reloaded": 10,
+  "public_build_passed": true,
+  "private_ost_build_passed": true
+}

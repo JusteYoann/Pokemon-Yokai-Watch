@@ -1,0 +1,48 @@
+{
+  "rom_sha256": "c80f2d7dc14248b8b4ae2e40f34e5c9e145774ee7b88084b74d5be383eb45386",
+  "gender": 1,
+  "entry_x": 23,
+  "fixture": "New game, prepared level100 team, warp to Azuria; native trigger and actual battle by controller. Mafiamille actor explicitly spawned after Matt to exercise the opposite allocation order; independent from player campaign.",
+  "rows": [
+    {
+      "stage": "avant-combat",
+      "object": 2,
+      "slot": 6,
+      "actual": "00000000a80c0d0d931158221f4b9f635a362711cd19932ade73c4248849bc0d",
+      "expected": "00000000a80c0d0d931158221f4b9f635a362711cd19932ade73c4248849bc0d",
+      "matches": true
+    },
+    {
+      "stage": "apres-apparition-mafiamille",
+      "object": 2,
+      "slot": 6,
+      "actual": "00000000a80c0d0d931158221f4b9f635a362711cd19932ade73c4248849bc0d",
+      "expected": "00000000a80c0d0d931158221f4b9f635a362711cd19932ade73c4248849bc0d",
+      "matches": true
+    },
+    {
+      "stage": "apres-combat",
+      "object": 2,
+      "slot": 6,
+      "actual": "00000000a80c0d0d931158221f4b9f635a362711cd19932ade73c4248849bc0d",
+      "expected": "00000000a80c0d0d931158221f4b9f635a362711cd19932ade73c4248849bc0d",
+      "matches": true
+    },
+    {
+      "stage": "dialogue-apres-combat",
+      "object": 2,
+      "slot": 6,
+      "actual": "00000000a80c0d0d931158221f4b9f635a362711cd19932ade73c4248849bc0d",
+      "expected": "00000000a80c0d0d931158221f4b9f635a362711cd19932ade73c4248849bc0d",
+      "matches": true
+    },
+    {
+      "stage": "apres-aide",
+      "object": 2,
+      "slot": 6,
+      "actual": "00000000a80c0d0d931158221f4b9f635a362711cd19932ade73c4248849bc0d",
+      "expected": "00000000a80c0d0d931158221f4b9f635a362711cd19932ade73c4248849bc0d",
+      "matches": true
+    }
+  ]
+}

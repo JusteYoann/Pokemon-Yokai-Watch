@@ -1658,8 +1658,13 @@ static u8 ObjectScenePaletteSlot(const struct ObjectEvent *objectEvent, u16 grap
         && objectEvent->mapGroup == MAP_GROUP(MAP_PEWTER_CITY);
     if (argenta && graphicsId == OBJ_EVENT_GFX_YOKAI_WYATT)
         return PALSLOT_NPC_2_REFLECTION;
+    // Azuria's Mafiamille actor can remain active just beyond the viewport.
+    // It shares bank 10 with Matt; rebuilding it after Matt on battle return
+    // would replace Matt's colors. Isolate Matt regardless of spawn order.
     if (graphicsId == OBJ_EVENT_GFX_BLUE
-        && (argenta || (objectEvent->mapNum == MAP_NUM(MAP_POKEMON_LEAGUE_CHAMPIONS_ROOM)
+        && (argenta || (objectEvent->mapNum == MAP_NUM(MAP_CERULEAN_CITY)
+         && objectEvent->mapGroup == MAP_GROUP(MAP_CERULEAN_CITY))
+         || (objectEvent->mapNum == MAP_NUM(MAP_POKEMON_LEAGUE_CHAMPIONS_ROOM)
          && objectEvent->mapGroup == MAP_GROUP(MAP_POKEMON_LEAGUE_CHAMPIONS_ROOM))))
         return PALSLOT_NPC_1_REFLECTION;
     return defaultSlot;

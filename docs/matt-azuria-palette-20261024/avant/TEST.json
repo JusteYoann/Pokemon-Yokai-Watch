@@ -1,0 +1,45 @@
+{
+  "fixture": "New game, prepared level100 team, warp to Azuria; native trigger and actual battle by controller. Separate from player campaign.",
+  "rows": [
+    {
+      "stage": "avant-combat",
+      "object": 2,
+      "slot": 10,
+      "actual": "00000000a80c0d0d931158221f4b9f635a362711cd19932ade73c4248849bc0d",
+      "expected": "00000000a80c0d0d931158221f4b9f635a362711cd19932ade73c4248849bc0d",
+      "matches": true
+    },
+    {
+      "stage": "apres-apparition-mafiamille",
+      "object": 2,
+      "slot": 10,
+      "actual": "0000000084140929de6ff75a4e14992051357d56212d024aca21143b104dd861",
+      "expected": "00000000a80c0d0d931158221f4b9f635a362711cd19932ade73c4248849bc0d",
+      "matches": false
+    },
+    {
+      "stage": "apres-combat",
+      "object": 2,
+      "slot": 10,
+      "actual": "0000000084140929de6ff75a4e14992051357d56212d024aca21143b104dd861",
+      "expected": "00000000a80c0d0d931158221f4b9f635a362711cd19932ade73c4248849bc0d",
+      "matches": false
+    },
+    {
+      "stage": "dialogue-apres-combat",
+      "object": 2,
+      "slot": 10,
+      "actual": "0000000084140929de6ff75a4e14992051357d56212d024aca21143b104dd861",
+      "expected": "00000000a80c0d0d931158221f4b9f635a362711cd19932ade73c4248849bc0d",
+      "matches": false
+    },
+    {
+      "stage": "apres-aide",
+      "object": 2,
+      "slot": 10,
+      "actual": "0000000084140929de6ff75a4e14992051357d56212d024aca21143b104dd861",
+      "expected": "00000000a80c0d0d931158221f4b9f635a362711cd19932ade73c4248849bc0d",
+      "matches": false
+    }
+  ]
+}
