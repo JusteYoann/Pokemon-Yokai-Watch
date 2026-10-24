@@ -13,6 +13,7 @@ from scipy.signal import resample_poly,fftconvolve
 from mgba_rpc import ROOT,Emulator,BATCH
 import tester_cameos_boss_mgba as boss
 from dpcm_m4a import decode
+from adpcm_m4a import decode as decode_adaptive
 P=ROOT/'QA_RECETTE_FINALE/INTEGRATION_MUSIQUES';P.mkdir(parents=True,exist_ok=True);(P/'preuves').mkdir(exist_ok=True)
 G=json.loads((ROOT/'data/maps/map_groups.json').read_text());MAPS={name:(i,j) for i,key in enumerate(G['group_order']) for j,name in enumerate(G[key])}
 CONFIG=json.loads((ROOT/'data/yokai/audio_loops.json').read_text());LOOPS={r['number']:r for r in CONFIG['tracks']}
@@ -81,7 +82,7 @@ def run_song(r,n,trigger):
  # Compare real mixer output with encoded reference, in a low band independent of volume.
  audio=np.frombuffer(b''.join(chunks),dtype='<i2').reshape(-1,2).mean(axis=1)
  actual=resample_poly(resample_poly(audio,125,2048),4,1) # bandlimit4kHz, align on16kHz grid; reject DAC DC bias below
- blob=(private/f'{n:02d}.dpcm').read_bytes();size=struct.unpack_from('<I',blob,12)[0];decoded=np.array(decode(blob[16:],size),float)
+ blob=(private/f'{n:02d}.dpcm').read_bytes();size=struct.unpack_from('<I',blob,12)[0];decoder=decode_adaptive if struct.unpack_from('<H',blob)[0]==2 else decode;decoded=np.array(decoder(blob[16:],size),float)
  expected=decoded[first:first+round(8*13379)]
  if len(expected)<8*13379:expected=np.r_[expected,decoded[loop_start:loop_start+8*13379]]
  reference=resample_poly(resample_poly(expected,4000,13379),4,1)

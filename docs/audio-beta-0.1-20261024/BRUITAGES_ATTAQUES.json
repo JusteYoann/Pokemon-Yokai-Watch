@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "fatal": null,
+  "rom_sha256": "f95ffce4462f1797843703c360d00a2509a39d846f9863abde1ef734694f1a6c",
+  "scope": "Actual compiled private BGM during selected loud/multi-SFX native attack animations; fixture calls/snapshots, not hardware CPU profiling or all soundtrack/move combinations",
+  "results": [
+    {
+      "move": 57,
+      "side": 0,
+      "frames": 136,
+      "missing_voice_frames": 0,
+      "sampled_music_present_after_animation": true
+    },
+    {
+      "move": 57,
+      "side": 1,
+      "frames": 136,
+      "missing_voice_frames": 0,
+      "sampled_music_present_after_animation": true
+    },
+    {
+      "move": 63,
+      "side": 0,
+      "frames": 279,
+      "missing_voice_frames": 0,
+      "sampled_music_present_after_animation": true
+    },
+    {
+      "move": 63,
+      "side": 1,
+      "frames": 279,
+      "missing_voice_frames": 0,
+      "sampled_music_present_after_animation": true
+    },
+    {
+      "move": 87,
+      "side": 0,
+      "frames": 260,
+      "missing_voice_frames": 0,
+      "sampled_music_present_after_animation": true
+    },
+    {
+      "move": 87,
+      "side": 1,
+      "frames": 260,
+      "missing_voice_frames": 0,
+      "sampled_music_present_after_animation": true
+    },
+    {
+      "move": 126,
+      "side": 0,
+      "frames": 196,
+      "missing_voice_frames": 0,
+      "sampled_music_present_after_animation": true
+    },
+    {
+      "move": 126,
+      "side": 1,
+      "frames": 196,
+      "missing_voice_frames": 0,
+      "sampled_music_present_after_animation": true
+    },
+    {
+      "move": 153,
+      "side": 0,
+      "frames": 216,
+      "missing_voice_frames": 0,
+      "sampled_music_present_after_animation": true
+    },
+    {
+      "move": 153,
+      "side": 1,
+      "frames": 216,
+      "missing_voice_frames": 0,
+      "sampled_music_present_after_animation": true
+    },
+    {
+      "move": 354,
+      "side": 0,
+      "frames": 388,
+      "missing_voice_frames": 0,
+      "sampled_music_present_after_animation": true
+    },
+    {
+      "move": 354,
+      "side": 1,
+      "frames": 388,
+      "missing_voice_frames": 0,
+      "sampled_music_present_after_animation": true
+    }
+  ],
+  "failures": []
+}

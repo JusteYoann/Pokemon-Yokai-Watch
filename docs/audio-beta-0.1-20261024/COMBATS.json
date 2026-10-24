@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "f95ffce4462f1797843703c360d00a2509a39d846f9863abde1ef734694f1a6c",
+  "results": [
+    {
+      "event": "scientifique",
+      "map": "PokemonMansion_1F",
+      "trainer": "TRAINER_SCIENTIST_TED",
+      "battle_slot": 19,
+      "actual_original_interaction": true,
+      "controller_victory": true,
+      "field_music_restored": true,
+      "encounter_hook_checked": true,
+      "passed": true
+    },
+    {
+      "event": "dojo",
+      "map": "SaffronCity_Dojo",
+      "trainer": "TRAINER_BLACK_BELT_KOICHI",
+      "battle_slot": 10,
+      "actual_original_interaction": true,
+      "controller_victory": true,
+      "field_music_restored": true,
+      "encounter_hook_checked": false,
+      "passed": true
+    },
+    {
+      "event": "employe",
+      "map": "SilphCo_11F",
+      "trainer": "TRAINER_YOKAI_EMPLOYEROUGE",
+      "battle_slot": 20,
+      "actual_original_interaction": true,
+      "controller_victory": true,
+      "field_music_restored": true,
+      "encounter_hook_checked": false,
+      "passed": true
+    }
+  ],
+  "scope": "Real new game, explicit warp/progression/item/party preparation; original map NPC interaction and native battles won through controller. Scientist encounter hook also called directly as a fixture. Not the four unimplemented recurring-scientist quests or Coach Antonic scene."
+}

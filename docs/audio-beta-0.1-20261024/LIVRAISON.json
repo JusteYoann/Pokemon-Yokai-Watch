@@ -1,0 +1,22 @@
+{
+  "base_commit": "08ee1aa042b3d5aee1caa5afb988a52814ee6966",
+  "branch": "fix/audio-gresillement-beta-0.1",
+  "before_rom_sha256": "121ae4cccdcccb250b82bd598729f811b75aae2a6b855d43af087c80f028860d",
+  "after_rom_sha256": "f95ffce4462f1797843703c360d00a2509a39d846f9863abde1ef734694f1a6c",
+  "before_bytes": 33445455,
+  "after_bytes": 33319168,
+  "reduction_bytes": 126287,
+  "remaining_rom_bytes": 235264,
+  "music_count": 32,
+  "reencoded_streams": 31,
+  "original_streams_preserved": [
+    18
+  ],
+  "snr_improvement_min_db": 1.0323699305001455,
+  "snr_improvement_max_db": 5.6026141020259175,
+  "snr_improvement_median_db": 3.2972856965825343,
+  "master_not_merged": true,
+  "save_layout_unchanged": true,
+  "human_listening_validated": false,
+  "full_hiss_elimination_certified": false
+}

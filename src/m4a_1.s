@@ -670,6 +670,10 @@ _081DD4F4:
 	arm_func_start SoundMainRAM_Unk2
 SoundMainRAM_Unk2:
 	push {r0,r2,r5-r7,lr}
+	ldr r0, [r4, o_SoundChannel_wav]
+	ldrh r2, [r0, o_WaveData_type]
+	cmp r2, 2
+	beq YokaiImaSample
 	mov r0, r3, lsr 6
 	ldr r1, [r4, o_SoundChannel_xpi]
 	cmp r0, r1
@@ -704,6 +708,31 @@ _081DD594:
 	ldr r5, =sDecodingBuffer
 	and r0, r3, 0x3F
 	ldrsb r1, [r5, r0]
+	pop {r0,r2,r5-r7,pc}
+
+@ Type 2 is reserved for the private adaptive music streams. Leave SDK type 1
+@ decoding intact. Cache by wave AND block because sound channels can alternate.
+YokaiImaSample:
+	ldr r5, =gYokaiImaCache
+	ldr r6, [r5]
+	cmp r6, r0
+	bne YokaiImaDecodeBlock
+	mov r6, r3, lsr 8
+	ldr r7, [r5, 4]
+	cmp r6, r7
+	bne YokaiImaDecodeBlock
+	add r5, r5, 8
+	and r6, r3, 255
+	ldrsb r1, [r5, r6]
+	pop {r0,r2,r5-r7,pc}
+YokaiImaDecodeBlock:
+	push {r3,r12}
+	mov r1, r3
+	ldr r12, =YokaiImaDecodeSample
+	mov lr, pc
+	bx r12
+	mov r1, r0
+	pop {r3,r12}
 	pop {r0,r2,r5-r7,pc}
 	.pool
 	arm_func_end SoundMainRAM_Unk2

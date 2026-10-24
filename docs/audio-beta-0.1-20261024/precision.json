@@ -1,0 +1,68 @@
+{
+  "sine8": {
+    "peak": 0.123046875,
+    "rms": 0.08474513986724268,
+    "nonzero_samples": 1293852,
+    "clip_samples": 0,
+    "sound_info": "536d73680400050c0401080700000000",
+    "active_channels": [
+      0
+    ],
+    "pwm_bias_register": "0042"
+  },
+  "sine9": {
+    "peak": 0.123046875,
+    "rms": 0.0846537141343535,
+    "nonzero_samples": 1295900,
+    "clip_samples": 0,
+    "sound_info": "536d73680300050c0401070700000000",
+    "active_channels": [
+      0
+    ],
+    "pwm_bias_register": "0002"
+  },
+  "sine8-gain2": {
+    "peak": 0.24609375,
+    "rms": 0.1716952693121651,
+    "nonzero_samples": 1305362,
+    "clip_samples": 0,
+    "sound_info": "536d73680300050c0401070700000000",
+    "active_channels": [
+      0
+    ],
+    "pwm_bias_register": "0042"
+  },
+  "sine9-gain2": {
+    "peak": 0.24609375,
+    "rms": 0.1716146889544195,
+    "nonzero_samples": 1306690,
+    "clip_samples": 0,
+    "sound_info": "536d73680200050c0401060700000000",
+    "active_channels": [
+      0
+    ],
+    "pwm_bias_register": "0002"
+  },
+  "title-pcm8-pwm9": {
+    "peak": 0.10546875,
+    "rms": 0.021830989360188603,
+    "nonzero_samples": 978032,
+    "clip_samples": 0,
+    "sound_info": "536d73680300050c0401070700000000",
+    "active_channels": [
+      0
+    ],
+    "pwm_bias_register": "0002"
+  },
+  "title-gain2-pwm9": {
+    "peak": 0.2080078125,
+    "rms": 0.04401855261871633,
+    "nonzero_samples": 1065678,
+    "clip_samples": 0,
+    "sound_info": "536d73680200050c0401060700000000",
+    "active_channels": [
+      0
+    ],
+    "pwm_bias_register": "0002"
+  }
+}

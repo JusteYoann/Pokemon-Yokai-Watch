@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "native_decoder": "SoundMainRAM_Unk2 ARM dispatcher + Thumb IMA",
+  "rom_sha256": "f95ffce4462f1797843703c360d00a2509a39d846f9863abde1ef734694f1a6c",
+  "results": [
+    {
+      "vector": "silence",
+      "checked_samples": 376,
+      "passed": true
+    },
+    {
+      "vector": "extremes",
+      "checked_samples": 376,
+      "passed": true
+    },
+    {
+      "vector": "sine",
+      "checked_samples": 376,
+      "passed": true
+    },
+    {
+      "vector": "ramp",
+      "checked_samples": 376,
+      "passed": true
+    },
+    {
+      "vector": "original_sdk_type1",
+      "checked_samples": 273,
+      "passed": true
+    }
+  ],
+  "limitations": "Synthetic decoding/cache verification, not listening or hardware profiling."
+}

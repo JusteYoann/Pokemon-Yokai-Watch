@@ -1,0 +1,10 @@
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=0 -o build/firered_audio/data/yokai_private_audio.o /workspace/private-audio/audio-adaptive-integration/yokai_music.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=0 -o build/firered_audio/data/yokai_private_credits.o /workspace/private-audio/audio-adaptive-integration/credits_music.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=0 -o build/firered_audio/data/yokai_private_audio_gap.o /workspace/private-audio/audio-adaptive-integration/yokai_music_gap.s
+Memory region         Used Size  Region Size  %age Used
+           EWRAM:      261384 B       256 KB     99.71%
+           IWRAM:       30156 B        32 KB     92.03%
+             ROM:    33319168 B        32 MB     99.30%
+cd build/firered_audio && arm-none-eabi-ld -Map ../../pokefirered_audio.map -T ../../ld_script.ld --print-memory-usage -o ../../pokefirered_audio.elf <objs> <libs> | cat
+tools/gbafix/gbafix pokefirered_audio.elf -t"POKEMON FIRE" -cBPRE -m01 -r0 --silent
+arm-none-eabi-objcopy -O binary --gap-fill 0xFF --pad-to 0x9000000 pokefirered_audio.elf pokefirered_audio.gba
