@@ -514,3 +514,9 @@ const u32 gTrainerPalette_DossierNyada[] = INCBIN_U32("graphics/dossier-20261023
 
 const u32 gTrainerFrontPic_JusteYoann[] = INCBIN_U32("graphics/juste_yoann/battle.4bpp.lz");
 const u32 gTrainerPalette_JusteYoann[] = INCBIN_U32("graphics/juste_yoann/normal.gbapal.lz");
+
+const u32 gTrainerFrontPic_OniGargaros[] = INCBIN_U32("graphics/oni_battle/gargaros/front.4bpp.lz");
+const u32 gTrainerPalette_OniGargaros[] = INCBIN_U32("graphics/oni_battle/gargaros/normal.gbapal.lz");
+
+const u32 gTrainerFrontPic_OniOgralos[] = INCBIN_U32("graphics/oni_battle/ogralos/front.4bpp.lz");
+const u32 gTrainerPalette_OniOgralos[] = INCBIN_U32("graphics/oni_battle/ogralos/normal.gbapal.lz");

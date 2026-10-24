@@ -13970,3 +13970,19 @@ static const struct TrainerMonNoItemDefaultMoves sParty_JusteYoann[] = {
     {.iv = 100, .lvl = 70, .species = SPECIES_WIGGLYTUFF},
     {.iv = 100, .lvl = 70, .species = SPECIES_MEWTWO},
 };
+
+static const struct TrainerMonNoItemDefaultMoves sParty_OniGARGAROS[] = {
+    {.iv = 200, .lvl = 75, .species = SPECIES_ARCANINE},
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_OniOGRALOS[] = {
+    {.iv = 200, .lvl = 75, .species = SPECIES_DODRIO},
+    {.iv = 200, .lvl = 75, .species = SPECIES_SEEL},
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_OniORQANOS[] = {
+    {.iv = 200, .lvl = 80, .species = SPECIES_POLIWAG},
+    {.iv = 200, .lvl = 80, .species = SPECIES_POLIWAG},
+    {.iv = 200, .lvl = 80, .species = SPECIES_POLIWAG},
+    {.iv = 200, .lvl = 80, .species = SPECIES_POLIWAG},
+};

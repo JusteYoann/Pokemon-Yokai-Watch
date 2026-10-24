@@ -1,4 +1,5 @@
 #include "global.h"
+#include "terre_heure.h"
 #include "nuzlocke.h"
 #include "gflib.h"
 #include "battle.h"
@@ -300,6 +301,7 @@ static bool8 CanFish(void)
     s16 x, y;
     u16 behavior;
 
+    if (TerreHeureActive()) return FALSE;
     GetXYCoordsOneStepInFrontOfPlayer(&x, &y);
     behavior = MapGridGetMetatileBehaviorAt(x, y);
 
@@ -614,6 +616,7 @@ static void Task_UsedBlackWhiteFlute(u8 taskId)
 
 bool8 CanUseEscapeRopeOnCurrMap(void)
 {
+    if (TerreHeureActive()) return FALSE;
     if (gMapHeader.allowEscaping)
         return TRUE;
     else

@@ -4596,3 +4596,12 @@ extern const u32 gTrainerFrontPic_JusteYoann[];
 extern const u32 gTrainerPalette_JusteYoann[];
 extern const u32 gTrainerFrontPic_DossierNyada[];
 extern const u32 gTrainerPalette_DossierNyada[];
+
+extern const u32 gItemIcon_ShortOni[];
+extern const u32 gItemIconPalette_ShortOni[];
+
+extern const u32 gTrainerFrontPic_OniGargaros[];
+extern const u32 gTrainerPalette_OniGargaros[];
+
+extern const u32 gTrainerFrontPic_OniOgralos[];
+extern const u32 gTrainerPalette_OniOgralos[];

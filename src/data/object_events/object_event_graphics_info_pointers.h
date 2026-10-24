@@ -1,3 +1,6 @@
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_OrqanosTerreur;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ogralos;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GorgouilleStatique;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PorteTerreur;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PatrouilleOni;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiGargaros;
@@ -357,6 +360,9 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_YOKAI_ENMA] = &gObjectEventGraphicsInfo_YokaiEnma,
     [OBJ_EVENT_GFX_YOKAI_KYUBI] = &gObjectEventGraphicsInfo_YokaiKyubi,
     [OBJ_EVENT_GFX_YOKAI_NATHAN] = &gObjectEventGraphicsInfo_YokaiNathan,
+    [OBJ_EVENT_GFX_GORGOUILLE_STATIQUE] = &gObjectEventGraphicsInfo_GorgouilleStatique,
+    [OBJ_EVENT_GFX_OGRALOS] = &gObjectEventGraphicsInfo_Ogralos,
+    [OBJ_EVENT_GFX_ORQANOSTERREUR] = &gObjectEventGraphicsInfo_OrqanosTerreur,
     [OBJ_EVENT_GFX_PORTE_TERREUR] = &gObjectEventGraphicsInfo_PorteTerreur,
     [OBJ_EVENT_GFX_PATROUILLE_ONI] = &gObjectEventGraphicsInfo_PatrouilleOni,
     [OBJ_EVENT_GFX_YOKAI_GARGAROS] = &gObjectEventGraphicsInfo_YokaiGargaros,

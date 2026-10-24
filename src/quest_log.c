@@ -1,4 +1,5 @@
 #include "global.h"
+#include "terre_heure.h"
 #include "gflib.h"
 #include "task.h"
 #include "menu.h"
@@ -1367,6 +1368,7 @@ void QL_UpdateObject(struct Sprite *sprite)
 
 void QuestLogRecordNPCStep(u8 localId, u8 mapNum, u8 mapGroup, u8 movementActionId)
 {
+    if (TerreHeureActive()) return;
     if (!RecordHeadAtEndOfEntryOrScriptContext2Enabled())
     {
         sCurSceneActions[gQuestLogCurActionIdx].duration = sNextActionDelay;
@@ -1382,6 +1384,7 @@ void QuestLogRecordNPCStep(u8 localId, u8 mapNum, u8 mapGroup, u8 movementAction
 
 void QuestLogRecordNPCStepWithDuration(u8 localId, u8 mapNum, u8 mapGroup, u8 movementActionId, u8 duration)
 {
+    if (TerreHeureActive()) return;
     if (!RecordHeadAtEndOfEntry())
     {
         sCurSceneActions[gQuestLogCurActionIdx].duration = sNextActionDelay;

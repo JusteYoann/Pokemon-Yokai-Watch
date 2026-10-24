@@ -777,7 +777,10 @@
 
 #define TRAINER_PHILOSOVNI_DUO                  745
 #define TRAINER_JUSTE_YOANN                     746
-#define NUM_TRAINERS                             747
+#define TRAINER_ONI_GARGAROS 747
+#define TRAINER_ONI_OGRALOS 748
+#define TRAINER_ONI_ORQANOS 749
+#define NUM_TRAINERS                             750
 #define MAX_TRAINERS_COUNT                       768
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H

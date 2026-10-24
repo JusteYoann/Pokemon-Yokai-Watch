@@ -17,7 +17,7 @@
   "object_events": [
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_YOKAI_NYADA",
+      "graphics_id": "OBJ_EVENT_GFX_GORGOUILLE_STATIQUE",
       "x": 9,
       "y": 6,
       "elevation": 3,
@@ -26,8 +26,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtEmber_Summit_EventScript_Moltres",
-      "flag": "FLAG_HIDE_MOLTRES"
+      "script": "Onis_EventScript_Gorgouille",
+      "flag": "FLAG_HIDE_ONI_GORGOUILLE"
     },
     {
       "type": "object",
@@ -98,6 +98,20 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "MtEmber_Summit_EventScript_LordEnma",
       "flag": "FLAG_HIDE_YOKAI_LORD_ENMA"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_YOKAI_ALYZON",
+      "x": 7,
+      "y": 6,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Onis_EventScript_AlizonBraise",
+      "flag": "FLAG_HIDE_ONI_ALIZON"
     }
   ],
   "warp_events": [

@@ -3424,3 +3424,36 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PorteTerreur = {
     .anims = sAnimTable_PorteTerreur, .images = sPicTable_PorteTerreur,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GorgouilleStatique = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_GORGOUILLE_STATIQUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32,
+    .paletteSlot = PALSLOT_NPC_1_REFLECTION, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = TRUE, .disableReflectionPaletteLoad = TRUE, .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_32x32, .subspriteTables = gObjectEventSpriteOamTables_32x32,
+    .anims = sAnimTable_Inanimate, .images = sPicTable_GorgouilleStatique,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ogralos = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_OGRALOS,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32,
+    .paletteSlot = PALSLOT_NPC_1_REFLECTION, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = TRUE, .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_32x32, .subspriteTables = gObjectEventSpriteOamTables_32x32,
+    .anims = sAnimTable_Gargaros, .images = sPicTable_Ogralos,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_OrqanosTerreur = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_ORQANOSTERREUR,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32,
+    .paletteSlot = PALSLOT_NPC_1_REFLECTION, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = TRUE, .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_32x32, .subspriteTables = gObjectEventSpriteOamTables_32x32,
+    .anims = sAnimTable_Gargaros, .images = sPicTable_OrqanosTerreur,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};

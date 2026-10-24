@@ -1,5 +1,6 @@
 #include "lavanville.h"
 #include "global.h"
+#include "terre_heure.h"
 #include "cramois_past.h"
 #include "gflib.h"
 #include "util.h"
@@ -108,6 +109,7 @@ void TransferPlttBuffer(void)
         if (!CramoisTransferPalette(src))
             DmaCopy16(3, src, dest, PLTT_SIZE);
         LavanvilleNightPalette();
+        TerreHeurePalette();
         sPlttBufferTransferPending = FALSE;
         if (gPaletteFade.mode == HARDWARE_FADE && gPaletteFade.active)
             UpdateBlendRegisters();
@@ -188,6 +190,7 @@ bool8 BeginNormalPaletteFade(u32 selectedPalettes, s8 delay, u8 startY, u8 targe
         if (!CramoisTransferPalette(gPlttBufferFaded))
             CpuCopy32(gPlttBufferFaded, (void *)PLTT, PLTT_SIZE);
         LavanvilleNightPalette();
+        TerreHeurePalette();
         sPlttBufferTransferPending = FALSE;
         if (gPaletteFade.mode == HARDWARE_FADE && gPaletteFade.active)
             UpdateBlendRegisters();

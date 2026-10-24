@@ -1,0 +1,15 @@
+{
+  "rom_sha256": "962068f74227a6eadcf25b322cccb2c69f29dcffc052f3ef6473806535db3e5d",
+  "checks": [
+    "Pas de Gorgouille ni Alizon avant le postgame",
+    "La Ligue seule ne débloque pas Gorgouille",
+    "Trois Oni sans rendez-vous: rencontre toujours verrouillée",
+    "Trois victoires et rendez-vous: Gorgouille et Alizon apparaissent ensemble",
+    "Gorgouille utilise exactement l’ancien emplacement de Nyada",
+    "Résultat K.O.: disparition temporaire puis réapparition après sortie et retour",
+    "Résultat capture: disparition permanente de Gorgouille et Alizon",
+    "Short Oni ajouté au SAC sous son identifiant propre",
+    "Fixtures terminées sans sauvegarde externe ni modification de master"
+  ],
+  "limite": "Les branches de résultat sont exercées directement; tests de combat réel dans une phase séparée."
+}

@@ -1,0 +1,2763 @@
+{
+  "maps": [
+    {
+      "map": "MtMoon_1F",
+      "width": 48,
+      "height": 40,
+      "walkable": 1156,
+      "components": [
+        1156
+      ],
+      "candidates": [
+        [
+          2,
+          3,
+          1
+        ],
+        [
+          7,
+          2,
+          1
+        ],
+        [
+          2,
+          9,
+          1
+        ],
+        [
+          7,
+          8,
+          1
+        ],
+        [
+          10,
+          5,
+          1
+        ],
+        [
+          2,
+          15,
+          1
+        ],
+        [
+          5,
+          12,
+          1
+        ],
+        [
+          10,
+          11,
+          1
+        ]
+      ],
+      "pursuers": true,
+      "warps": [
+        {
+          "x": 5,
+          "y": 6,
+          "elevation": 3,
+          "dest_map": "MAP_MT_MOON_B1F",
+          "dest_warp_id": "0"
+        },
+        {
+          "x": 19,
+          "y": 14,
+          "elevation": 3,
+          "dest_map": "MAP_MT_MOON_B1F",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 31,
+          "y": 16,
+          "elevation": 3,
+          "dest_map": "MAP_MT_MOON_B1F",
+          "dest_warp_id": "2"
+        },
+        {
+          "x": 18,
+          "y": 37,
+          "elevation": 3,
+          "dest_map": "MAP_ROUTE4",
+          "dest_warp_id": "0"
+        }
+      ]
+    },
+    {
+      "map": "MtMoon_B1F",
+      "width": 49,
+      "height": 40,
+      "walkable": 304,
+      "components": [
+        38,
+        33,
+        128,
+        105
+      ],
+      "candidates": [
+        [
+          2,
+          5,
+          4
+        ],
+        [
+          2,
+          11,
+          4
+        ],
+        [
+          5,
+          8,
+          4
+        ],
+        [
+          2,
+          17,
+          4
+        ],
+        [
+          5,
+          14,
+          4
+        ],
+        [
+          7,
+          18,
+          4
+        ],
+        [
+          11,
+          16,
+          4
+        ],
+        [
+          15,
+          18,
+          4
+        ],
+        [
+          41,
+          22,
+          5
+        ],
+        [
+          41,
+          28,
+          5
+        ],
+        [
+          44,
+          25,
+          5
+        ],
+        [
+          42,
+          33,
+          5
+        ],
+        [
+          39,
+          36,
+          5
+        ],
+        [
+          35,
+          34,
+          5
+        ],
+        [
+          31,
+          36,
+          5
+        ],
+        [
+          27,
+          34,
+          5
+        ]
+      ],
+      "pursuers": true,
+      "warps": [
+        {
+          "x": 3,
+          "y": 3,
+          "elevation": 3,
+          "dest_map": "MAP_MT_MOON_1F",
+          "dest_warp_id": "0"
+        },
+        {
+          "x": 25,
+          "y": 4,
+          "elevation": 3,
+          "dest_map": "MAP_MT_MOON_1F",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 43,
+          "y": 21,
+          "elevation": 3,
+          "dest_map": "MAP_MT_MOON_1F",
+          "dest_warp_id": "2"
+        },
+        {
+          "x": 22,
+          "y": 18,
+          "elevation": 3,
+          "dest_map": "MAP_MT_MOON_B2F",
+          "dest_warp_id": "0"
+        },
+        {
+          "x": 17,
+          "y": 5,
+          "elevation": 3,
+          "dest_map": "MAP_MT_MOON_B2F",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 26,
+          "y": 36,
+          "elevation": 3,
+          "dest_map": "MAP_MT_MOON_B2F",
+          "dest_warp_id": "2"
+        },
+        {
+          "x": 39,
+          "y": 4,
+          "elevation": 3,
+          "dest_map": "MAP_MT_MOON_B2F",
+          "dest_warp_id": "3"
+        },
+        {
+          "x": 45,
+          "y": 4,
+          "elevation": 3,
+          "dest_map": "MAP_ROUTE4",
+          "dest_warp_id": "1"
+        }
+      ]
+    },
+    {
+      "map": "MtMoon_B2F",
+      "width": 48,
+      "height": 40,
+      "walkable": 857,
+      "components": [
+        638,
+        106,
+        113
+      ],
+      "candidates": [
+        [
+          3,
+          4,
+          6
+        ],
+        [
+          8,
+          3,
+          6
+        ],
+        [
+          2,
+          9,
+          6
+        ],
+        [
+          11,
+          6,
+          6
+        ],
+        [
+          14,
+          3,
+          6
+        ],
+        [
+          13,
+          10,
+          6
+        ],
+        [
+          17,
+          6,
+          6
+        ],
+        [
+          13,
+          16,
+          6
+        ],
+        [
+          34,
+          5,
+          7
+        ],
+        [
+          34,
+          11,
+          7
+        ],
+        [
+          31,
+          8,
+          7
+        ],
+        [
+          37,
+          8,
+          7
+        ],
+        [
+          30,
+          13,
+          7
+        ],
+        [
+          38,
+          13,
+          7
+        ],
+        [
+          41,
+          10,
+          7
+        ],
+        [
+          29,
+          26,
+          8
+        ],
+        [
+          29,
+          32,
+          8
+        ],
+        [
+          26,
+          29,
+          8
+        ],
+        [
+          32,
+          29,
+          8
+        ],
+        [
+          23,
+          32,
+          8
+        ],
+        [
+          22,
+          27,
+          8
+        ],
+        [
+          19,
+          30,
+          8
+        ]
+      ],
+      "pursuers": true,
+      "warps": [
+        {
+          "x": 25,
+          "y": 21,
+          "elevation": 3,
+          "dest_map": "MAP_MT_MOON_B1F",
+          "dest_warp_id": "3"
+        },
+        {
+          "x": 31,
+          "y": 11,
+          "elevation": 3,
+          "dest_map": "MAP_MT_MOON_B1F",
+          "dest_warp_id": "4"
+        },
+        {
+          "x": 17,
+          "y": 31,
+          "elevation": 3,
+          "dest_map": "MAP_MT_MOON_B1F",
+          "dest_warp_id": "5"
+        },
+        {
+          "x": 5,
+          "y": 10,
+          "elevation": 3,
+          "dest_map": "MAP_MT_MOON_B1F",
+          "dest_warp_id": "6"
+        }
+      ]
+    },
+    {
+      "map": "RockTunnel_1F",
+      "width": 48,
+      "height": 40,
+      "walkable": 1080,
+      "components": [
+        10,
+        59,
+        39,
+        314,
+        257,
+        400,
+        1
+      ],
+      "candidates": [
+        [
+          23,
+          1,
+          10
+        ],
+        [
+          28,
+          0,
+          10
+        ],
+        [
+          32,
+          2,
+          10
+        ],
+        [
+          36,
+          0,
+          10
+        ],
+        [
+          3,
+          4,
+          12
+        ],
+        [
+          3,
+          10,
+          12
+        ],
+        [
+          6,
+          7,
+          12
+        ],
+        [
+          3,
+          16,
+          12
+        ],
+        [
+          9,
+          10,
+          12
+        ],
+        [
+          3,
+          22,
+          12
+        ],
+        [
+          10,
+          15,
+          12
+        ],
+        [
+          8,
+          21,
+          12
+        ],
+        [
+          44,
+          4,
+          13
+        ],
+        [
+          44,
+          10,
+          13
+        ],
+        [
+          42,
+          14,
+          13
+        ],
+        [
+          38,
+          12,
+          13
+        ],
+        [
+          35,
+          15,
+          13
+        ],
+        [
+          32,
+          12,
+          13
+        ],
+        [
+          29,
+          15,
+          13
+        ],
+        [
+          27,
+          11,
+          13
+        ],
+        [
+          30,
+          20,
+          14
+        ],
+        [
+          30,
+          26,
+          14
+        ],
+        [
+          33,
+          23,
+          14
+        ],
+        [
+          29,
+          31,
+          14
+        ],
+        [
+          33,
+          29,
+          14
+        ],
+        [
+          26,
+          28,
+          14
+        ],
+        [
+          23,
+          31,
+          14
+        ],
+        [
+          34,
+          34,
+          14
+        ]
+      ],
+      "pursuers": true,
+      "warps": [
+        {
+          "x": 17,
+          "y": 2,
+          "elevation": 3,
+          "dest_map": "MAP_ROUTE10",
+          "dest_warp_id": "0"
+        },
+        {
+          "x": 45,
+          "y": 2,
+          "elevation": 3,
+          "dest_map": "MAP_ROCK_TUNNEL_B1F",
+          "dest_warp_id": "0"
+        },
+        {
+          "x": 4,
+          "y": 2,
+          "elevation": 3,
+          "dest_map": "MAP_ROCK_TUNNEL_B1F",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 20,
+          "y": 13,
+          "elevation": 3,
+          "dest_map": "MAP_ROCK_TUNNEL_B1F",
+          "dest_warp_id": "2"
+        },
+        {
+          "x": 45,
+          "y": 21,
+          "elevation": 3,
+          "dest_map": "MAP_ROCK_TUNNEL_B1F",
+          "dest_warp_id": "3"
+        },
+        {
+          "x": 18,
+          "y": 37,
+          "elevation": 3,
+          "dest_map": "MAP_ROUTE10",
+          "dest_warp_id": "1"
+        }
+      ]
+    },
+    {
+      "map": "RockTunnel_B1F",
+      "width": 48,
+      "height": 40,
+      "walkable": 1133,
+      "components": [
+        40,
+        457,
+        635,
+        1
+      ],
+      "candidates": [
+        [
+          4,
+          2,
+          17
+        ],
+        [
+          3,
+          7,
+          17
+        ],
+        [
+          3,
+          13,
+          17
+        ],
+        [
+          7,
+          11,
+          17
+        ],
+        [
+          3,
+          19,
+          17
+        ],
+        [
+          8,
+          16,
+          17
+        ],
+        [
+          11,
+          13,
+          17
+        ],
+        [
+          9,
+          7,
+          17
+        ],
+        [
+          35,
+          1,
+          18
+        ],
+        [
+          34,
+          6,
+          18
+        ],
+        [
+          38,
+          4,
+          18
+        ],
+        [
+          34,
+          12,
+          18
+        ],
+        [
+          31,
+          9,
+          18
+        ],
+        [
+          43,
+          3,
+          18
+        ],
+        [
+          37,
+          15,
+          18
+        ],
+        [
+          40,
+          12,
+          18
+        ]
+      ],
+      "pursuers": true,
+      "warps": [
+        {
+          "x": 38,
+          "y": 28,
+          "elevation": 3,
+          "dest_map": "MAP_ROCK_TUNNEL_1F",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 33,
+          "y": 3,
+          "elevation": 3,
+          "dest_map": "MAP_ROCK_TUNNEL_1F",
+          "dest_warp_id": "2"
+        },
+        {
+          "x": 27,
+          "y": 12,
+          "elevation": 3,
+          "dest_map": "MAP_ROCK_TUNNEL_1F",
+          "dest_warp_id": "3"
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "elevation": 3,
+          "dest_map": "MAP_ROCK_TUNNEL_1F",
+          "dest_warp_id": "4"
+        }
+      ]
+    },
+    {
+      "map": "SeafoamIslands_1F",
+      "width": 38,
+      "height": 24,
+      "walkable": 469,
+      "components": [
+        409,
+        1,
+        50,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidates": [
+        [
+          4,
+          4,
+          20
+        ],
+        [
+          5,
+          9,
+          20
+        ],
+        [
+          9,
+          3,
+          20
+        ],
+        [
+          13,
+          5,
+          20
+        ],
+        [
+          7,
+          13,
+          20
+        ],
+        [
+          10,
+          10,
+          20
+        ],
+        [
+          17,
+          3,
+          20
+        ],
+        [
+          8,
+          18,
+          20
+        ],
+        [
+          26,
+          16,
+          22
+        ],
+        [
+          31,
+          15,
+          22
+        ],
+        [
+          33,
+          19,
+          22
+        ]
+      ],
+      "pursuers": true,
+      "warps": [
+        {
+          "x": 10,
+          "y": 6,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B1F",
+          "dest_warp_id": "0"
+        },
+        {
+          "x": 31,
+          "y": 4,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B1F",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 28,
+          "y": 19,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B1F",
+          "dest_warp_id": "2"
+        },
+        {
+          "x": 6,
+          "y": 21,
+          "elevation": 3,
+          "dest_map": "MAP_ROUTE20",
+          "dest_warp_id": "0"
+        },
+        {
+          "x": 32,
+          "y": 21,
+          "elevation": 3,
+          "dest_map": "MAP_ROUTE20",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 21,
+          "y": 8,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B1F",
+          "dest_warp_id": "9"
+        },
+        {
+          "x": 30,
+          "y": 8,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B1F",
+          "dest_warp_id": "10"
+        }
+      ]
+    },
+    {
+      "map": "SeafoamIslands_B1F",
+      "width": 38,
+      "height": 23,
+      "walkable": 484,
+      "components": [
+        318,
+        64,
+        68,
+        1,
+        24,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "candidates": [
+        [
+          15,
+          2,
+          32
+        ],
+        [
+          20,
+          1,
+          32
+        ],
+        [
+          15,
+          8,
+          32
+        ],
+        [
+          18,
+          5,
+          32
+        ],
+        [
+          23,
+          4,
+          32
+        ],
+        [
+          15,
+          14,
+          32
+        ],
+        [
+          12,
+          11,
+          32
+        ],
+        [
+          18,
+          11,
+          32
+        ],
+        [
+          26,
+          4,
+          33
+        ],
+        [
+          30,
+          6,
+          33
+        ],
+        [
+          33,
+          3,
+          33
+        ],
+        [
+          32,
+          10,
+          33
+        ],
+        [
+          26,
+          13,
+          34
+        ],
+        [
+          31,
+          12,
+          34
+        ],
+        [
+          29,
+          16,
+          34
+        ],
+        [
+          34,
+          15,
+          34
+        ],
+        [
+          32,
+          19,
+          34
+        ]
+      ],
+      "pursuers": true,
+      "warps": [
+        {
+          "x": 10,
+          "y": 6,
+          "elevation": 4,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_1F",
+          "dest_warp_id": "0"
+        },
+        {
+          "x": 31,
+          "y": 4,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_1F",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 28,
+          "y": 19,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_1F",
+          "dest_warp_id": "2"
+        },
+        {
+          "x": 7,
+          "y": 3,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B2F",
+          "dest_warp_id": "3"
+        },
+        {
+          "x": 17,
+          "y": 9,
+          "elevation": 4,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B2F",
+          "dest_warp_id": "4"
+        },
+        {
+          "x": 25,
+          "y": 19,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B2F",
+          "dest_warp_id": "5"
+        },
+        {
+          "x": 32,
+          "y": 14,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B2F",
+          "dest_warp_id": "6"
+        },
+        {
+          "x": 23,
+          "y": 8,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B2F",
+          "dest_warp_id": "7"
+        },
+        {
+          "x": 28,
+          "y": 8,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B2F",
+          "dest_warp_id": "8"
+        },
+        {
+          "x": 21,
+          "y": 8,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_1F",
+          "dest_warp_id": "5"
+        },
+        {
+          "x": 29,
+          "y": 8,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_1F",
+          "dest_warp_id": "6"
+        }
+      ]
+    },
+    {
+      "map": "SeafoamIslands_B2F",
+      "width": 38,
+      "height": 24,
+      "walkable": 570,
+      "components": [
+        21,
+        3,
+        2,
+        1,
+        129,
+        61,
+        1,
+        235,
+        12,
+        28,
+        1,
+        44,
+        17,
+        15
+      ],
+      "candidates": [
+        [
+          3,
+          4,
+          50
+        ],
+        [
+          4,
+          9,
+          50
+        ],
+        [
+          8,
+          6,
+          50
+        ],
+        [
+          11,
+          3,
+          50
+        ],
+        [
+          11,
+          9,
+          50
+        ],
+        [
+          15,
+          5,
+          50
+        ],
+        [
+          19,
+          3,
+          50
+        ],
+        [
+          23,
+          5,
+          50
+        ],
+        [
+          28,
+          4,
+          51
+        ],
+        [
+          31,
+          9,
+          51
+        ],
+        [
+          14,
+          6,
+          53
+        ],
+        [
+          14,
+          12,
+          53
+        ],
+        [
+          19,
+          7,
+          53
+        ],
+        [
+          10,
+          10,
+          53
+        ],
+        [
+          19,
+          13,
+          53
+        ],
+        [
+          22,
+          10,
+          53
+        ],
+        [
+          9,
+          15,
+          53
+        ],
+        [
+          6,
+          12,
+          53
+        ],
+        [
+          37,
+          21,
+          57
+        ],
+        [
+          25,
+          23,
+          57
+        ]
+      ],
+      "pursuers": true,
+      "warps": [
+        {
+          "x": 7,
+          "y": 17,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B3F",
+          "dest_warp_id": "0"
+        },
+        {
+          "x": 32,
+          "y": 4,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B3F",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 31,
+          "y": 17,
+          "elevation": 4,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B3F",
+          "dest_warp_id": "2"
+        },
+        {
+          "x": 7,
+          "y": 4,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B1F",
+          "dest_warp_id": "3"
+        },
+        {
+          "x": 17,
+          "y": 9,
+          "elevation": 4,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B1F",
+          "dest_warp_id": "4"
+        },
+        {
+          "x": 25,
+          "y": 19,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B1F",
+          "dest_warp_id": "5"
+        },
+        {
+          "x": 32,
+          "y": 14,
+          "elevation": 4,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B1F",
+          "dest_warp_id": "6"
+        },
+        {
+          "x": 22,
+          "y": 7,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B1F",
+          "dest_warp_id": "7"
+        },
+        {
+          "x": 29,
+          "y": 8,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B1F",
+          "dest_warp_id": "8"
+        },
+        {
+          "x": 24,
+          "y": 8,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B3F",
+          "dest_warp_id": "5"
+        },
+        {
+          "x": 27,
+          "y": 8,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B3F",
+          "dest_warp_id": "6"
+        }
+      ]
+    },
+    {
+      "map": "SeafoamIslands_B3F",
+      "width": 38,
+      "height": 24,
+      "walkable": 329,
+      "components": [
+        203,
+        30,
+        54,
+        4,
+        10,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        4,
+        6,
+        1,
+        3,
+        1,
+        1,
+        1,
+        2
+      ],
+      "candidates": [
+        [
+          4,
+          4,
+          60
+        ],
+        [
+          9,
+          3,
+          60
+        ],
+        [
+          4,
+          10,
+          60
+        ],
+        [
+          7,
+          7,
+          60
+        ],
+        [
+          12,
+          6,
+          60
+        ],
+        [
+          9,
+          11,
+          60
+        ],
+        [
+          14,
+          12,
+          60
+        ],
+        [
+          16,
+          8,
+          60
+        ],
+        [
+          27,
+          8,
+          62
+        ],
+        [
+          30,
+          11,
+          62
+        ],
+        [
+          33,
+          14,
+          62
+        ]
+      ],
+      "pursuers": true,
+      "warps": [
+        {
+          "x": 8,
+          "y": 14,
+          "elevation": 4,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B2F",
+          "dest_warp_id": "0"
+        },
+        {
+          "x": 31,
+          "y": 4,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B2F",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 31,
+          "y": 16,
+          "elevation": 4,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B2F",
+          "dest_warp_id": "2"
+        },
+        {
+          "x": 12,
+          "y": 9,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B4F",
+          "dest_warp_id": "0"
+        },
+        {
+          "x": 29,
+          "y": 5,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B4F",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 23,
+          "y": 9,
+          "elevation": 1,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B2F",
+          "dest_warp_id": "7"
+        },
+        {
+          "x": 24,
+          "y": 9,
+          "elevation": 1,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B2F",
+          "dest_warp_id": "8"
+        },
+        {
+          "x": 6,
+          "y": 18,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B4F",
+          "dest_warp_id": "2"
+        },
+        {
+          "x": 9,
+          "y": 18,
+          "elevation": 3,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B4F",
+          "dest_warp_id": "3"
+        }
+      ]
+    },
+    {
+      "map": "SeafoamIslands_B4F",
+      "width": 38,
+      "height": 24,
+      "walkable": 194,
+      "components": [
+        26,
+        166,
+        1,
+        1
+      ],
+      "candidates": [
+        [
+          21,
+          2,
+          82
+        ],
+        [
+          26,
+          1,
+          82
+        ],
+        [
+          21,
+          8,
+          82
+        ],
+        [
+          24,
+          5,
+          82
+        ],
+        [
+          29,
+          4,
+          82
+        ],
+        [
+          32,
+          1,
+          82
+        ],
+        [
+          19,
+          12,
+          82
+        ],
+        [
+          14,
+          11,
+          82
+        ]
+      ],
+      "pursuers": true,
+      "warps": [
+        {
+          "x": 15,
+          "y": 9,
+          "elevation": 4,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B3F",
+          "dest_warp_id": "3"
+        },
+        {
+          "x": 32,
+          "y": 5,
+          "elevation": 4,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B3F",
+          "dest_warp_id": "4"
+        },
+        {
+          "x": 8,
+          "y": 17,
+          "elevation": 1,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B3F",
+          "dest_warp_id": "7"
+        },
+        {
+          "x": 9,
+          "y": 17,
+          "elevation": 1,
+          "dest_map": "MAP_SEAFOAM_ISLANDS_B3F",
+          "dest_warp_id": "8"
+        }
+      ]
+    },
+    {
+      "map": "VictoryRoad_1F",
+      "width": 48,
+      "height": 22,
+      "walkable": 206,
+      "components": [
+        8,
+        198
+      ],
+      "candidates": [
+        [
+          18,
+          3,
+          86
+        ],
+        [
+          21,
+          6,
+          86
+        ],
+        [
+          20,
+          11,
+          86
+        ],
+        [
+          17,
+          8,
+          86
+        ],
+        [
+          13,
+          6,
+          86
+        ],
+        [
+          15,
+          12,
+          86
+        ],
+        [
+          9,
+          8,
+          86
+        ],
+        [
+          10,
+          14,
+          86
+        ]
+      ],
+      "pursuers": true,
+      "warps": [
+        {
+          "x": 3,
+          "y": 2,
+          "elevation": 3,
+          "dest_map": "MAP_VICTORY_ROAD_2F",
+          "dest_warp_id": "0"
+        },
+        {
+          "x": 11,
+          "y": 20,
+          "elevation": 3,
+          "dest_map": "MAP_ROUTE23",
+          "dest_warp_id": "0"
+        }
+      ]
+    },
+    {
+      "map": "VictoryRoad_2F",
+      "width": 51,
+      "height": 22,
+      "walkable": 741,
+      "components": [
+        55,
+        474,
+        105,
+        1,
+        48,
+        1,
+        57
+      ],
+      "candidates": [
+        [
+          44,
+          0,
+          87
+        ],
+        [
+          45,
+          5,
+          87
+        ],
+        [
+          48,
+          2,
+          87
+        ],
+        [
+          49,
+          7,
+          87
+        ],
+        [
+          23,
+          2,
+          88
+        ],
+        [
+          28,
+          1,
+          88
+        ],
+        [
+          23,
+          8,
+          88
+        ],
+        [
+          26,
+          5,
+          88
+        ],
+        [
+          31,
+          4,
+          88
+        ],
+        [
+          34,
+          1,
+          88
+        ],
+        [
+          24,
+          13,
+          88
+        ],
+        [
+          27,
+          10,
+          88
+        ],
+        [
+          5,
+          2,
+          89
+        ],
+        [
+          9,
+          4,
+          89
+        ],
+        [
+          13,
+          2,
+          89
+        ],
+        [
+          14,
+          7,
+          89
+        ],
+        [
+          17,
+          4,
+          89
+        ],
+        [
+          18,
+          9,
+          89
+        ],
+        [
+          21,
+          6,
+          89
+        ],
+        [
+          43,
+          9,
+          91
+        ],
+        [
+          40,
+          12,
+          91
+        ],
+        [
+          36,
+          10,
+          91
+        ],
+        [
+          44,
+          13,
+          93
+        ],
+        [
+          46,
+          17,
+          93
+        ],
+        [
+          48,
+          21,
+          93
+        ]
+      ],
+      "pursuers": true,
+      "warps": [
+        {
+          "x": 1,
+          "y": 9,
+          "elevation": 3,
+          "dest_map": "MAP_VICTORY_ROAD_1F",
+          "dest_warp_id": "0"
+        },
+        {
+          "x": 3,
+          "y": 3,
+          "elevation": 3,
+          "dest_map": "MAP_VICTORY_ROAD_3F",
+          "dest_warp_id": "0"
+        },
+        {
+          "x": 34,
+          "y": 9,
+          "elevation": 3,
+          "dest_map": "MAP_VICTORY_ROAD_3F",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 38,
+          "y": 9,
+          "elevation": 3,
+          "dest_map": "MAP_VICTORY_ROAD_3F",
+          "dest_warp_id": "2"
+        },
+        {
+          "x": 36,
+          "y": 17,
+          "elevation": 4,
+          "dest_map": "MAP_VICTORY_ROAD_3F",
+          "dest_warp_id": "3"
+        },
+        {
+          "x": 49,
+          "y": 13,
+          "elevation": 0,
+          "dest_map": "MAP_ROUTE23",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 48,
+          "y": 12,
+          "elevation": 3,
+          "dest_map": "MAP_ROUTE23",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 47,
+          "y": 13,
+          "elevation": 0,
+          "dest_map": "MAP_ROUTE23",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 34,
+          "y": 19,
+          "elevation": 3,
+          "dest_map": "MAP_VICTORY_ROAD_3F",
+          "dest_warp_id": "4"
+        }
+      ]
+    },
+    {
+      "map": "VictoryRoad_3F",
+      "width": 45,
+      "height": 22,
+      "walkable": 556,
+      "components": [
+        2,
+        3,
+        23,
+        460,
+        54,
+        14
+      ],
+      "candidates": [
+        [
+          5,
+          5,
+          97
+        ],
+        [
+          10,
+          3,
+          97
+        ],
+        [
+          11,
+          8,
+          97
+        ],
+        [
+          15,
+          2,
+          97
+        ],
+        [
+          20,
+          3,
+          97
+        ],
+        [
+          25,
+          2,
+          97
+        ],
+        [
+          29,
+          4,
+          97
+        ],
+        [
+          33,
+          2,
+          97
+        ],
+        [
+          36,
+          12,
+          98
+        ],
+        [
+          39,
+          9,
+          98
+        ],
+        [
+          40,
+          14,
+          98
+        ],
+        [
+          37,
+          18,
+          98
+        ]
+      ],
+      "pursuers": true,
+      "warps": [
+        {
+          "x": 5,
+          "y": 2,
+          "elevation": 3,
+          "dest_map": "MAP_VICTORY_ROAD_2F",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 34,
+          "y": 9,
+          "elevation": 3,
+          "dest_map": "MAP_VICTORY_ROAD_2F",
+          "dest_warp_id": "2"
+        },
+        {
+          "x": 37,
+          "y": 10,
+          "elevation": 3,
+          "dest_map": "MAP_VICTORY_ROAD_2F",
+          "dest_warp_id": "3"
+        },
+        {
+          "x": 39,
+          "y": 17,
+          "elevation": 3,
+          "dest_map": "MAP_VICTORY_ROAD_2F",
+          "dest_warp_id": "4"
+        },
+        {
+          "x": 34,
+          "y": 18,
+          "elevation": 3,
+          "dest_map": "MAP_VICTORY_ROAD_2F",
+          "dest_warp_id": "8"
+        }
+      ]
+    },
+    {
+      "map": "CeruleanCave_1F",
+      "width": 40,
+      "height": 23,
+      "walkable": 387,
+      "components": [
+        328,
+        17,
+        8,
+        34
+      ],
+      "candidates": [
+        [
+          7,
+          2,
+          100
+        ],
+        [
+          7,
+          8,
+          100
+        ],
+        [
+          10,
+          5,
+          100
+        ],
+        [
+          7,
+          14,
+          100
+        ],
+        [
+          4,
+          11,
+          100
+        ],
+        [
+          4,
+          17,
+          100
+        ],
+        [
+          6,
+          21,
+          100
+        ],
+        [
+          9,
+          18,
+          100
+        ]
+      ],
+      "pursuers": true,
+      "warps": [
+        {
+          "x": 33,
+          "y": 21,
+          "elevation": 3,
+          "dest_map": "MAP_CERULEAN_CITY",
+          "dest_warp_id": "7"
+        },
+        {
+          "x": 34,
+          "y": 2,
+          "elevation": 3,
+          "dest_map": "MAP_CERULEAN_CAVE_2F",
+          "dest_warp_id": "0"
+        },
+        {
+          "x": 1,
+          "y": 7,
+          "elevation": 3,
+          "dest_map": "MAP_CERULEAN_CAVE_B1F",
+          "dest_warp_id": "0"
+        },
+        {
+          "x": 10,
+          "y": 2,
+          "elevation": 3,
+          "dest_map": "MAP_CERULEAN_CAVE_2F",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 5,
+          "y": 15,
+          "elevation": 3,
+          "dest_map": "MAP_CERULEAN_CAVE_2F",
+          "dest_warp_id": "2"
+        },
+        {
+          "x": 30,
+          "y": 10,
+          "elevation": 4,
+          "dest_map": "MAP_CERULEAN_CAVE_2F",
+          "dest_warp_id": "3"
+        },
+        {
+          "x": 24,
+          "y": 11,
+          "elevation": 3,
+          "dest_map": "MAP_CERULEAN_CAVE_2F",
+          "dest_warp_id": "4"
+        },
+        {
+          "x": 2,
+          "y": 4,
+          "elevation": 3,
+          "dest_map": "MAP_CERULEAN_CAVE_2F",
+          "dest_warp_id": "5"
+        }
+      ]
+    },
+    {
+      "map": "CeruleanCave_2F",
+      "width": 40,
+      "height": 23,
+      "walkable": 291,
+      "components": [
+        34,
+        34,
+        183,
+        15,
+        25
+      ],
+      "candidates": [],
+      "pursuers": false,
+      "warps": [
+        {
+          "x": 33,
+          "y": 4,
+          "elevation": 3,
+          "dest_map": "MAP_CERULEAN_CAVE_1F",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 13,
+          "y": 4,
+          "elevation": 3,
+          "dest_map": "MAP_CERULEAN_CAVE_1F",
+          "dest_warp_id": "3"
+        },
+        {
+          "x": 7,
+          "y": 14,
+          "elevation": 3,
+          "dest_map": "MAP_CERULEAN_CAVE_1F",
+          "dest_warp_id": "4"
+        },
+        {
+          "x": 26,
+          "y": 9,
+          "elevation": 3,
+          "dest_map": "MAP_CERULEAN_CAVE_1F",
+          "dest_warp_id": "5"
+        },
+        {
+          "x": 23,
+          "y": 10,
+          "elevation": 3,
+          "dest_map": "MAP_CERULEAN_CAVE_1F",
+          "dest_warp_id": "6"
+        },
+        {
+          "x": 5,
+          "y": 6,
+          "elevation": 3,
+          "dest_map": "MAP_CERULEAN_CAVE_1F",
+          "dest_warp_id": "7"
+        }
+      ]
+    },
+    {
+      "map": "CeruleanCave_B1F",
+      "width": 40,
+      "height": 23,
+      "walkable": 387,
+      "components": [
+        373,
+        14
+      ],
+      "candidates": [
+        [
+          2,
+          2,
+          109
+        ],
+        [
+          7,
+          1,
+          109
+        ],
+        [
+          3,
+          8,
+          109
+        ],
+        [
+          11,
+          3,
+          109
+        ],
+        [
+          13,
+          7,
+          109
+        ],
+        [
+          17,
+          5,
+          109
+        ],
+        [
+          19,
+          1,
+          109
+        ],
+        [
+          23,
+          3,
+          109
+        ]
+      ],
+      "pursuers": true,
+      "warps": [
+        {
+          "x": 5,
+          "y": 7,
+          "elevation": 3,
+          "dest_map": "MAP_CERULEAN_CAVE_1F",
+          "dest_warp_id": "2"
+        }
+      ]
+    },
+    {
+      "map": "MtEmber_RubyPath_1F",
+      "width": 27,
+      "height": 19,
+      "walkable": 105,
+      "components": [
+        85,
+        20
+      ],
+      "candidates": [
+        [
+          1,
+          4,
+          111
+        ],
+        [
+          6,
+          7,
+          111
+        ],
+        [
+          11,
+          8,
+          111
+        ],
+        [
+          16,
+          7,
+          111
+        ],
+        [
+          19,
+          10,
+          111
+        ],
+        [
+          21,
+          14,
+          111
+        ]
+      ],
+      "pursuers": false,
+      "warps": [
+        {
+          "x": 22,
+          "y": 17,
+          "elevation": 3,
+          "dest_map": "MAP_MT_EMBER_EXTERIOR",
+          "dest_warp_id": "5"
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "elevation": 0,
+          "dest_map": "MAP_MT_EMBER_RUBY_PATH_B1F",
+          "dest_warp_id": "0"
+        },
+        {
+          "x": 24,
+          "y": 5,
+          "elevation": 0,
+          "dest_map": "MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS",
+          "dest_warp_id": "1"
+        }
+      ]
+    },
+    {
+      "map": "MtEmber_RubyPath_B1F",
+      "width": 11,
+      "height": 23,
+      "walkable": 50,
+      "components": [
+        50
+      ],
+      "candidates": [
+        [
+          2,
+          8,
+          113
+        ],
+        [
+          2,
+          14,
+          113
+        ],
+        [
+          4,
+          18,
+          113
+        ]
+      ],
+      "pursuers": false,
+      "warps": [
+        {
+          "x": 9,
+          "y": 21,
+          "elevation": 0,
+          "dest_map": "MAP_MT_EMBER_RUBY_PATH_1F",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 6,
+          "y": 1,
+          "elevation": 0,
+          "dest_map": "MAP_MT_EMBER_RUBY_PATH_B2F",
+          "dest_warp_id": "0"
+        }
+      ]
+    },
+    {
+      "map": "MtEmber_RubyPath_B1F_Stairs",
+      "width": 6,
+      "height": 7,
+      "walkable": 9,
+      "components": [
+        9
+      ],
+      "candidates": [],
+      "pursuers": false,
+      "warps": [
+        {
+          "x": 4,
+          "y": 1,
+          "elevation": 0,
+          "dest_map": "MAP_MT_EMBER_RUBY_PATH_B3F",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 1,
+          "y": 5,
+          "elevation": 0,
+          "dest_map": "MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS",
+          "dest_warp_id": "0"
+        }
+      ]
+    },
+    {
+      "map": "MtEmber_RubyPath_B2F",
+      "width": 16,
+      "height": 11,
+      "walkable": 43,
+      "components": [
+        15,
+        21,
+        7
+      ],
+      "candidates": [],
+      "pursuers": false,
+      "warps": [
+        {
+          "x": 1,
+          "y": 7,
+          "elevation": 3,
+          "dest_map": "MAP_MT_EMBER_RUBY_PATH_B1F",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 13,
+          "y": 9,
+          "elevation": 3,
+          "dest_map": "MAP_MT_EMBER_RUBY_PATH_B3F",
+          "dest_warp_id": "0"
+        }
+      ]
+    },
+    {
+      "map": "MtEmber_RubyPath_B2F_Stairs",
+      "width": 8,
+      "height": 6,
+      "walkable": 11,
+      "components": [
+        11
+      ],
+      "candidates": [],
+      "pursuers": false,
+      "warps": [
+        {
+          "x": 6,
+          "y": 1,
+          "elevation": 0,
+          "dest_map": "MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 1,
+          "y": 4,
+          "elevation": 0,
+          "dest_map": "MAP_MT_EMBER_RUBY_PATH_1F",
+          "dest_warp_id": "2"
+        }
+      ]
+    },
+    {
+      "map": "MtEmber_RubyPath_B3F",
+      "width": 31,
+      "height": 23,
+      "walkable": 137,
+      "components": [
+        27,
+        58,
+        1,
+        5,
+        1,
+        27,
+        18
+      ],
+      "candidates": [
+        [
+          18,
+          5,
+          120
+        ],
+        [
+          24,
+          6,
+          120
+        ],
+        [
+          18,
+          12,
+          120
+        ]
+      ],
+      "pursuers": false,
+      "warps": [
+        {
+          "x": 1,
+          "y": 4,
+          "elevation": 0,
+          "dest_map": "MAP_MT_EMBER_RUBY_PATH_B2F",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 19,
+          "y": 19,
+          "elevation": 3,
+          "dest_map": "MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS",
+          "dest_warp_id": "0"
+        },
+        {
+          "x": 5,
+          "y": 19,
+          "elevation": 3,
+          "dest_map": "MAP_MT_EMBER_RUBY_PATH_B4F",
+          "dest_warp_id": "1"
+        }
+      ]
+    },
+    {
+      "map": "MtEmber_RubyPath_B4F",
+      "width": 18,
+      "height": 16,
+      "walkable": 156,
+      "components": [
+        156
+      ],
+      "candidates": [
+        [
+          2,
+          3,
+          126
+        ],
+        [
+          7,
+          2,
+          126
+        ],
+        [
+          5,
+          6,
+          126
+        ],
+        [
+          2,
+          10,
+          126
+        ],
+        [
+          10,
+          5,
+          126
+        ],
+        [
+          13,
+          2,
+          126
+        ],
+        [
+          6,
+          12,
+          126
+        ],
+        [
+          11,
+          10,
+          126
+        ]
+      ],
+      "pursuers": true,
+      "warps": [
+        {
+          "x": 14,
+          "y": 14,
+          "elevation": 3,
+          "dest_map": "MAP_MT_EMBER_RUBY_PATH_B5F",
+          "dest_warp_id": "0"
+        },
+        {
+          "x": 4,
+          "y": 2,
+          "elevation": 3,
+          "dest_map": "MAP_MT_EMBER_RUBY_PATH_B3F",
+          "dest_warp_id": "2"
+        }
+      ]
+    },
+    {
+      "map": "MtEmber_RubyPath_B5F",
+      "width": 16,
+      "height": 15,
+      "walkable": 57,
+      "components": [
+        57
+      ],
+      "candidates": [
+        [
+          5,
+          4,
+          127
+        ],
+        [
+          6,
+          9,
+          127
+        ],
+        [
+          9,
+          6,
+          127
+        ]
+      ],
+      "pursuers": false,
+      "warps": [
+        {
+          "x": 11,
+          "y": 7,
+          "elevation": 3,
+          "dest_map": "MAP_MT_EMBER_RUBY_PATH_B4F",
+          "dest_warp_id": "0"
+        }
+      ]
+    },
+    {
+      "map": "MtEmber_SummitPath_1F",
+      "width": 15,
+      "height": 18,
+      "walkable": 27,
+      "components": [
+        27
+      ],
+      "candidates": [],
+      "pursuers": false,
+      "warps": [
+        {
+          "x": 2,
+          "y": 15,
+          "elevation": 0,
+          "dest_map": "MAP_MT_EMBER_EXTERIOR",
+          "dest_warp_id": "2"
+        },
+        {
+          "x": 11,
+          "y": 1,
+          "elevation": 0,
+          "dest_map": "MAP_MT_EMBER_SUMMIT_PATH_2F",
+          "dest_warp_id": "0"
+        }
+      ]
+    },
+    {
+      "map": "MtEmber_SummitPath_2F",
+      "width": 48,
+      "height": 46,
+      "walkable": 145,
+      "components": [
+        1,
+        1,
+        1,
+        6,
+        2,
+        114,
+        5,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        3,
+        5,
+        1
+      ],
+      "candidates": [
+        [
+          30,
+          5,
+          134
+        ],
+        [
+          24,
+          10,
+          134
+        ],
+        [
+          16,
+          20,
+          134
+        ],
+        [
+          14,
+          27,
+          134
+        ],
+        [
+          11,
+          30,
+          134
+        ],
+        [
+          9,
+          34,
+          134
+        ]
+      ],
+      "pursuers": false,
+      "warps": [
+        {
+          "x": 8,
+          "y": 39,
+          "elevation": 0,
+          "dest_map": "MAP_MT_EMBER_SUMMIT_PATH_1F",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 39,
+          "y": 6,
+          "elevation": 3,
+          "dest_map": "MAP_MT_EMBER_SUMMIT_PATH_3F",
+          "dest_warp_id": "0"
+        }
+      ]
+    },
+    {
+      "map": "MtEmber_SummitPath_3F",
+      "width": 15,
+      "height": 11,
+      "walkable": 27,
+      "components": [
+        27
+      ],
+      "candidates": [],
+      "pursuers": false,
+      "warps": [
+        {
+          "x": 2,
+          "y": 4,
+          "elevation": 0,
+          "dest_map": "MAP_MT_EMBER_SUMMIT_PATH_2F",
+          "dest_warp_id": "1"
+        },
+        {
+          "x": 11,
+          "y": 8,
+          "elevation": 0,
+          "dest_map": "MAP_MT_EMBER_EXTERIOR",
+          "dest_warp_id": "3"
+        }
+      ]
+    }
+  ],
+  "components": 145,
+  "stair_edges": [
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      14,
+      17
+    ],
+    [
+      20,
+      32
+    ],
+    [
+      20,
+      33
+    ],
+    [
+      22,
+      34
+    ],
+    [
+      32,
+      50
+    ],
+    [
+      32,
+      53
+    ],
+    [
+      34,
+      55
+    ],
+    [
+      36,
+      53
+    ],
+    [
+      51,
+      61
+    ],
+    [
+      53,
+      60
+    ],
+    [
+      55,
+      62
+    ],
+    [
+      60,
+      82
+    ],
+    [
+      61,
+      82
+    ],
+    [
+      86,
+      88
+    ],
+    [
+      88,
+      97
+    ],
+    [
+      88,
+      98
+    ],
+    [
+      89,
+      97
+    ],
+    [
+      91,
+      98
+    ],
+    [
+      100,
+      104
+    ],
+    [
+      100,
+      106
+    ],
+    [
+      100,
+      107
+    ],
+    [
+      100,
+      108
+    ],
+    [
+      101,
+      105
+    ],
+    [
+      102,
+      106
+    ],
+    [
+      102,
+      109
+    ],
+    [
+      111,
+      113
+    ],
+    [
+      112,
+      118
+    ],
+    [
+      113,
+      116
+    ],
+    [
+      114,
+      118
+    ],
+    [
+      114,
+      125
+    ],
+    [
+      115,
+      119
+    ],
+    [
+      124,
+      126
+    ],
+    [
+      126,
+      127
+    ]
+  ],
+  "excluded": [
+    "DiglettsCave",
+    "MtEmber_Exterior",
+    "MtEmber_Summit"
+  ]
+}

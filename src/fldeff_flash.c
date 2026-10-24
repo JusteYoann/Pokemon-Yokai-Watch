@@ -1,4 +1,5 @@
 #include "global.h"
+#include "terre_heure.h"
 #include "gflib.h"
 #include "event_data.h"
 #include "event_scripts.h"
@@ -163,6 +164,7 @@ static const u32 sCaveTransitionTiles[] = INCBIN_U32("graphics/cave_transition/t
 
 bool8 SetUpFieldMove_Flash(void)
 {
+    if (TerreHeureActive()) return FALSE;
     if (gMapHeader.cave != TRUE)
         return FALSE;
 

@@ -19,6 +19,7 @@ PokemonTower_7F_EventScript_Grunt3::
 PokemonTower_7F_EventScript_MrFuji::
 	lock
 	faceplayer
+	goto_if_set FLAG_SYS_GAME_CLEAR, Onis_EventScript_AlizonTour
 	goto_if_set FLAG_BADGE04_GET, LavenderAlyzon_After
 	trainerbattle_single TRAINER_LEADER_ERIKA, LavenderAlyzon_Text_Intro, LavenderAlyzon_Text_Defeat, LavenderAlyzon_Won, NO_MUSIC
 	goto LavenderAlyzon_Won

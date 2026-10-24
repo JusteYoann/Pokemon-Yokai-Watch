@@ -1943,3 +1943,35 @@ static const struct SpriteFrameImage sPicTable_PatrouilleOni[] = {
 };
 
 static const struct SpriteFrameImage sPicTable_PorteTerreur[] = { overworld_frame(gObjectEventPic_PorteTerreur, 4, 4, 0), overworld_frame(gObjectEventPic_PorteTerreur, 4, 4, 1) };
+
+static const struct SpriteFrameImage sPicTable_GorgouilleStatique[] = { overworld_frame(gObjectEventPic_GorgouilleStatique, 4, 4, 0) };
+
+static const struct SpriteFrameImage sPicTable_Ogralos[] = {
+    overworld_frame(gObjectEventPic_Ogralos, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Ogralos, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Ogralos, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Ogralos, 4, 4, 3),
+    overworld_frame(gObjectEventPic_Ogralos, 4, 4, 4),
+    overworld_frame(gObjectEventPic_Ogralos, 4, 4, 5),
+    overworld_frame(gObjectEventPic_Ogralos, 4, 4, 6),
+    overworld_frame(gObjectEventPic_Ogralos, 4, 4, 7),
+    overworld_frame(gObjectEventPic_Ogralos, 4, 4, 8),
+    overworld_frame(gObjectEventPic_Ogralos, 4, 4, 9),
+    overworld_frame(gObjectEventPic_Ogralos, 4, 4, 10),
+    overworld_frame(gObjectEventPic_Ogralos, 4, 4, 11),
+};
+
+static const struct SpriteFrameImage sPicTable_OrqanosTerreur[] = {
+    overworld_frame(gObjectEventPic_OrqanosTerreur, 4, 4, 0),
+    overworld_frame(gObjectEventPic_OrqanosTerreur, 4, 4, 1),
+    overworld_frame(gObjectEventPic_OrqanosTerreur, 4, 4, 2),
+    overworld_frame(gObjectEventPic_OrqanosTerreur, 4, 4, 3),
+    overworld_frame(gObjectEventPic_OrqanosTerreur, 4, 4, 4),
+    overworld_frame(gObjectEventPic_OrqanosTerreur, 4, 4, 5),
+    overworld_frame(gObjectEventPic_OrqanosTerreur, 4, 4, 6),
+    overworld_frame(gObjectEventPic_OrqanosTerreur, 4, 4, 7),
+    overworld_frame(gObjectEventPic_OrqanosTerreur, 4, 4, 8),
+    overworld_frame(gObjectEventPic_OrqanosTerreur, 4, 4, 9),
+    overworld_frame(gObjectEventPic_OrqanosTerreur, 4, 4, 10),
+    overworld_frame(gObjectEventPic_OrqanosTerreur, 4, 4, 11),
+};

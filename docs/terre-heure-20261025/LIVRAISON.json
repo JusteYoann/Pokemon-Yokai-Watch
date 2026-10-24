@@ -1,0 +1,19 @@
+{
+  "rom": "Pokemon_Yokai_Watch_Beta_0.1_Terre_Heure.gba",
+  "taille_octets": 33489991,
+  "sha256": "962068f74227a6eadcf25b322cccb2c69f29dcffc052f3ef6473806535db3e5d",
+  "branche": "feature/terre-heure-quete-oni-20261025",
+  "validation_mgba": "78 contrôles ciblés sur cette ROM, sans parcours naturel complet à 100%.",
+  "ewram_utilisee": 261612,
+  "ewram_libre": 532,
+  "iwram_utilisee": 30912,
+  "iwram_libre": 1856,
+  "rom_espace_libre": 64441,
+  "rapports": {
+    "TESTS_TRANSITION.json": 4,
+    "TESTS_PROGRESSION.json": 13,
+    "TESTS_CARTES_PORTE.json": 41,
+    "TESTS_QUETE.json": 9,
+    "TESTS_COMBATS_REELS.json": 11
+  }
+}

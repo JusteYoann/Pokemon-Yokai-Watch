@@ -1,4 +1,5 @@
 #include "global.h"
+#include "terre_heure.h"
 #include "gflib.h"
 #include "scanline_effect.h"
 #include "overworld.h"
@@ -218,7 +219,7 @@ static void SetUpStartMenu_NormalField(void)
         AppendToStartMenuItems(STARTMENU_POKEMON);
     AppendToStartMenuItems(STARTMENU_BAG);
     AppendToStartMenuItems(STARTMENU_PLAYER);
-    AppendToStartMenuItems(STARTMENU_SAVE);
+    if (!TerreHeureActive()) AppendToStartMenuItems(STARTMENU_SAVE);
     AppendToStartMenuItems(STARTMENU_OPTION);
     AppendToStartMenuItems(STARTMENU_EXIT);
 }

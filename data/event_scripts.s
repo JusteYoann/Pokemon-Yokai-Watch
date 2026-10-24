@@ -1324,3 +1324,7 @@ Text_TestMsg::
 	.include "data/maps/VermilionCity_PhilosovniWarehouse/scripts.inc"
 
 	.include "data/scripts/porte_terreur.inc"
+
+	.include "data/scripts/quete_oni.inc"
+
+	.include "data/scripts/terre_heure.inc"

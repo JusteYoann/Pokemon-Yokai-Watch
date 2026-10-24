@@ -473,4 +473,10 @@ gSpecials::
 	def_special LavanvilleZombieApproach
 	def_special NuzlockeEnabled
 	def_special PorteTerreurOuvrir
+	def_special TerreHeureBegin
+	def_special TerreHeureRun
+	def_special TerreHeureEnd
+	def_special TerreHeureBattleResult
+	def_special TerreHeureReward
+	def_special TerreHeureTier
 gSpecialsEnd::

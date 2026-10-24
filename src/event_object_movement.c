@@ -2,6 +2,7 @@
 #include "philosovni.h"
 #include "yokai_champions.h"
 #include "global.h"
+#include "terre_heure.h"
 #include "gflib.h"
 #include "event_data.h"
 #include "event_object_movement.h"
@@ -499,6 +500,9 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 #define OBJ_EVENT_PAL_TAG_YOKAI_GARGAROS 0x1135
 #define OBJ_EVENT_PAL_TAG_PATROUILLE_ONI 0x1136
 #define OBJ_EVENT_PAL_TAG_PORTE_TERREUR 0x1137
+#define OBJ_EVENT_PAL_TAG_GORGOUILLE_STATIQUE 0x1138
+#define OBJ_EVENT_PAL_TAG_OGRALOS 0x1139
+#define OBJ_EVENT_PAL_TAG_ORQANOSTERREUR 0x113A
 #define OBJ_EVENT_PAL_TAG_NONE                        0x11FF
 
 #include "data/object_events/object_event_graphics_info_pointers.h"
@@ -510,6 +514,9 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 #include "data/object_events/object_event_graphics_info.h"
 
 static const struct SpritePalette sObjectEventSpritePalettes[] = {
+    {gObjectEventPal_GorgouilleStatique, OBJ_EVENT_PAL_TAG_GORGOUILLE_STATIQUE},
+    {gObjectEventPal_Ogralos, OBJ_EVENT_PAL_TAG_OGRALOS},
+    {gObjectEventPal_OrqanosTerreur, OBJ_EVENT_PAL_TAG_ORQANOSTERREUR},
     {gObjectEventPal_PorteTerreur, OBJ_EVENT_PAL_TAG_PORTE_TERREUR},
     {gObjectEventPal_PatrouilleOni, OBJ_EVENT_PAL_TAG_PATROUILLE_ONI},
     {gObjectEventPal_YokaiGargaros, OBJ_EVENT_PAL_TAG_YOKAI_GARGAROS},
@@ -1648,6 +1655,9 @@ static void LoadAlyzonObjectPalette(const struct ObjectEventGraphicsInfo *graphi
     // Alyzon uses reflection bank7, zombies bank8. Keep ordinary green NPCs
     // in body bank4, Nathan0, Matt6 and Don10 unchanged. No saved palette state.
     if ((graphicsInfo->paletteTag >= OBJ_EVENT_PAL_TAG_DOSSIER_ZAZEL && graphicsInfo->paletteTag <= OBJ_EVENT_PAL_TAG_JUSTE_YOANN)
+        || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_GORGOUILLE_STATIQUE
+        || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_OGRALOS
+        || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_ORQANOSTERREUR
         || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_PORTE_TERREUR
         || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_PATROUILLE_ONI
         || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_YOKAI_GARGAROS
@@ -1743,6 +1753,8 @@ static u8 TrySpawnObjectEventTemplate(const struct ObjectEventTemplate *objectEv
     struct SpriteFrameImage spriteFrameImage;
     const struct ObjectEventGraphicsInfo *graphicsInfo;
     const struct SubspriteTable *subspriteTables = NULL;
+
+    if (TerreHeureHideOrdinary() && objectEventTemplate->localId < 230 && objectEventTemplate->graphicsId != OBJ_EVENT_GFX_PUSHABLE_BOULDER) return OBJECT_EVENTS_COUNT;
 
     if (PhilosovniFollowing() && objectEventTemplate->graphicsId == OBJ_EVENT_GFX_ARIANE
         && objectEventTemplate->localId != 202)
@@ -1990,6 +2002,7 @@ static void RemoveObjectEventIfOutsideView(struct ObjectEvent *objectEvent)
     s16 top =    gSaveBlock1Ptr->pos.y;
     s16 bottom = gSaveBlock1Ptr->pos.y + MAP_OFFSET_H + 2;
 
+    if (TerreHeureActive() && objectEvent->localId >= 230 && objectEvent->localId < 236) return;
     if (objectEvent->currentCoords.x >= left && objectEvent->currentCoords.x <= right
      && objectEvent->currentCoords.y >= top && objectEvent->currentCoords.y <= bottom)
         return;
@@ -2749,10 +2762,12 @@ u8 GetObjectEventBerryTreeId(u8 objectEventId)
 
 static const struct ObjectEventTemplate *GetObjectEventTemplateByLocalIdAndMap(u8 localId, u8 mapNum, u8 mapGroup)
 {
+    const struct ObjectEventTemplate *th = TerreHeureTemplate(localId, mapNum, mapGroup);
     const struct ObjectEventTemplate *templates;
     const struct MapHeader *mapHeader;
     u8 count;
 
+    if (th != NULL) return th;
     if (gSaveBlock1Ptr->location.mapNum == mapNum && gSaveBlock1Ptr->location.mapGroup == mapGroup)
     {
         templates = gSaveBlock1Ptr->objectEventTemplates;

@@ -349,3 +349,10 @@
 #define VAR_LAVENDER_INTRO VAR_0x40F3
 
 #define VAR_PHILOSOVNI_STATE VAR_0x40F4
+
+// Deferred Terr'heure rewards if both bag and PC were full on successful exit.
+#define VAR_TERRE_HEURE_REWARD_FIRST VAR_0x40F5
+#define VAR_TERRE_HEURE_REWARD_LAST VAR_0x40F8
+
+// First mandatory Terr’heure: 1=Mont Sélénite, 2=Grotte Sombre; Route Victoire is a fallback.
+#define VAR_TERRE_HEURE_FIRST_CAVE VAR_0x40F9

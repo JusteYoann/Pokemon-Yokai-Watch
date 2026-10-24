@@ -56,6 +56,7 @@
 #define ITEM_034 52
 #define ITEM_SHINY_CHARM ITEM_034
 #define ITEM_035 53
+#define ITEM_SHORT_ONI ITEM_035
 #define ITEM_036 54
 #define ITEM_037 55
 #define ITEM_038 56

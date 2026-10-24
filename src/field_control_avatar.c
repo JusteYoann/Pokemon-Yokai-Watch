@@ -1,4 +1,5 @@
 #include "global.h"
+#include "terre_heure.h"
 #include "gflib.h"
 #include "bike.h"
 #include "coord_event_weather.h"
@@ -209,11 +210,12 @@ int ProcessPlayerFieldInput(struct FieldInput *input)
     if (CheckForTrainersWantingBattle() == TRUE)
         return TRUE;
 
-    if (TryRunOnFrameMapScript() == TRUE)
+    if (!TerreHeureActive() && TryRunOnFrameMapScript() == TRUE)
         return TRUE;
 
     if (input->tookStep)
     {
+        if (TerreHeureTryStep()) return TRUE;
         IncrementGameStat(GAME_STAT_STEPS);
         WonderNews_IncrementStepCounter();
         IncrementRenewableHiddenItemStepCounter();
@@ -617,6 +619,7 @@ static const u8 *GetInteractedWaterScript(struct MapPosition *unused1, u8 metati
 
 static bool8 TryStartStepBasedScript(struct MapPosition *position, u16 metatileBehavior, u16 direction)
 {
+    if (TerreHeureActive()) return TryStartWarpEventScript(position, metatileBehavior);
     if (TryStartCoordEventScript(position) == TRUE)
         return TRUE;
     if (TryStartWarpEventScript(position, metatileBehavior) == TRUE)
@@ -829,6 +832,8 @@ static bool8 TryArrowWarp(struct MapPosition *position, u16 metatileBehavior, u8
 
     if (warpEventId != -1)
     {
+        const struct WarpEvent *warp = &gMapHeader.events->warps[warpEventId];
+        if (TerreHeureBlockWarp(warp->mapGroup, warp->mapNum)) return TRUE;
         if (IsArrowWarpMetatileBehavior(metatileBehavior, direction) == TRUE)
         {
             StoreInitialPlayerAvatarState();
@@ -859,6 +864,8 @@ static bool8 TryStartWarpEventScript(struct MapPosition *position, u16 metatileB
 
     if (warpEventId != -1 && IsWarpMetatileBehavior(metatileBehavior) == TRUE)
     {
+        const struct WarpEvent *warp = &gMapHeader.events->warps[warpEventId];
+        if (TerreHeureBlockWarp(warp->mapGroup, warp->mapNum)) return TRUE;
         StoreInitialPlayerAvatarState();
         SetupWarp(&gMapHeader, warpEventId, position);
         if (MetatileBehavior_IsEscalator(metatileBehavior) == TRUE)

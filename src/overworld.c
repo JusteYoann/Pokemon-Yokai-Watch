@@ -1,5 +1,6 @@
 #include "philosovni.h"
 #include "global.h"
+#include "terre_heure.h"
 #include "nuzlocke.h"
 #include "cramois_past.h"
 #include "cramois_fog.h"
@@ -975,6 +976,8 @@ bool32 Overworld_IsBikingAllowed(void)
 
 static void SetDefaultFlashLevel(void)
 {
+    s16 thFlash = TerreHeureFlashOverride();
+    if (thFlash >= 0) { gSaveBlock1Ptr->flashLevel = thFlash; return; }
     if (!gMapHeader.cave)
         gSaveBlock1Ptr->flashLevel = 0;
     else if (FlagGet(FLAG_SYS_FLASH_ACTIVE))
@@ -1269,6 +1272,7 @@ bool8 IsMapTypeOutdoors(u8 mapType)
 
 bool8 Overworld_MapTypeAllowsTeleportAndFly(u8 mapType)
 {
+    if (TerreHeureActive()) return FALSE;
     if (mapType == MAP_TYPE_ROUTE
         || mapType == MAP_TYPE_TOWN
         || mapType == MAP_TYPE_OCEAN_ROUTE
@@ -1494,6 +1498,7 @@ static void OverworldBasic(void)
     AnimateSprites();
     CameraUpdate();
     CramoisFogUpdate();
+    if (gMain.callback2 == CB2_Overworld) TerreHeureUpdate();
     if (gMain.callback2 == CB2_Overworld) PhilosovniFollowerUpdate();
     SetQuestLogEvent_Arrived();
     UpdateCameraPanning();
@@ -2094,6 +2099,7 @@ static void DoMapLoadLoop(u8 *state)
 
 static void MoveSaveBlocks_ResetHeap_(void)
 {
+    TerreHeureReload();
     MoveSaveBlocks_ResetHeap();
 }
 

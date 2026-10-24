@@ -1,6 +1,7 @@
 #include "philosovni.h"
 #include "yokai_champions.h"
 #include "global.h"
+#include "terre_heure.h"
 #include "nuzlocke.h"
 #include "lavanville.h"
 #include "spiraton_battle.h"
@@ -3971,6 +3972,13 @@ static void ReturnFromBattleToOverworld(void)
                 SetRoamerInactive();
         }
         m4aSongNumStop(SE_LOW_HEALTH);
+        if (TerreHeureActive())
+        {
+            if (NuzlockeResolveParty() == 2) { NuzlockeGameOver(); return; }
+            sTrainerBattleForfeited = FALSE;
+            SetMainCallback2(gMain.savedCallback);
+            return;
+        }
         if (NuzlockeBattleApplies())
         {
             u8 resolution = NuzlockeResolveParty();

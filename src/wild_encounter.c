@@ -1,4 +1,5 @@
 #include "global.h"
+#include "terre_heure.h"
 #include "item.h"
 #include "random.h"
 #include "wild_encounter.h"
@@ -503,6 +504,7 @@ bool8 StandardWildEncounter(u32 currMetatileAttrs, u16 previousMetatileBehavior)
 void RockSmashWildEncounter(void)
 {
     u16 headerIdx = GetCurrentMapWildMonHeaderId();
+    if (TerreHeureActive()) { gSpecialVar_Result = FALSE; return; }
     if (headerIdx == HEADER_NONE)
         gSpecialVar_Result = FALSE;
     else if (gWildMonHeaders[headerIdx].rockSmashMonsInfo == NULL)
@@ -523,6 +525,7 @@ bool8 SweetScentWildEncounter(void)
     s16 x, y;
     u16 headerId;
 
+    if (TerreHeureActive()) return FALSE;
     PlayerGetDestCoords(&x, &y);
     headerId = GetCurrentMapWildMonHeaderId();
     if (headerId != HEADER_NONE)
@@ -566,6 +569,7 @@ bool8 SweetScentWildEncounter(void)
 bool8 DoesCurrentMapHaveFishingMons(void)
 {
     u16 headerIdx = GetCurrentMapWildMonHeaderId();
+    if (TerreHeureActive()) return FALSE;
     if (headerIdx == HEADER_NONE)
         return FALSE;
     if (gWildMonHeaders[headerIdx].fishingMonsInfo == NULL)
@@ -813,6 +817,7 @@ static bool8 HandleWildEncounterCooldown(u32 currMetatileAttrs)
 
 bool8 TryStandardWildEncounter(u32 currMetatileAttrs)
 {
+    if (TerreHeureActive()) return FALSE;
     if (!HandleWildEncounterCooldown(currMetatileAttrs))
     {
         sWildEncounterData.prevMetatileBehavior = ExtractMetatileAttribute(currMetatileAttrs, METATILE_ATTRIBUTE_BEHAVIOR);

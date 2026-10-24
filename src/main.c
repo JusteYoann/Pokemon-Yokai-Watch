@@ -1,4 +1,5 @@
 #include "global.h"
+#include "terre_heure.h"
 #include "gflib.h"
 #include "link.h"
 #include "link_rfu.h"
@@ -212,6 +213,7 @@ void AgbMain()
         }
 
         PlayTimeCounter_Update();
+        TerreHeureClock();
         MapMusicMain();
         WaitForVBlank();
     }

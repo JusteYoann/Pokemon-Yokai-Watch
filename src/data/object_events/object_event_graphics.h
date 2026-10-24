@@ -320,3 +320,12 @@ const u32 gObjectEventPic_PatrouilleOni[] = INCBIN_U32("graphics/yokai_character
 
 const u16 gObjectEventPal_PorteTerreur[] = INCBIN_U16("graphics/yokai_characters/porte_terreur/normal.gbapal");
 const u32 gObjectEventPic_PorteTerreur[] = INCBIN_U32("graphics/yokai_characters/porte_terreur/overworld.4bpp");
+
+const u16 gObjectEventPal_GorgouilleStatique[] = INCBIN_U16("graphics/yokai_characters/gorgouille_statique/normal.gbapal");
+const u32 gObjectEventPic_GorgouilleStatique[] = INCBIN_U32("graphics/yokai_characters/gorgouille_statique/overworld.4bpp");
+
+const u16 gObjectEventPal_Ogralos[] = INCBIN_U16("graphics/yokai_characters/ogralos_sans_massue/normal.gbapal");
+const u32 gObjectEventPic_Ogralos[] = INCBIN_U32("graphics/yokai_characters/ogralos_sans_massue/overworld.4bpp");
+
+const u16 gObjectEventPal_OrqanosTerreur[] = INCBIN_U16("graphics/yokai_characters/orqanos_sans_massue/normal.gbapal");
+const u32 gObjectEventPic_OrqanosTerreur[] = INCBIN_U32("graphics/yokai_characters/orqanos_sans_massue/overworld.4bpp");

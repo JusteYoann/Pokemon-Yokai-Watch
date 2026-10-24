@@ -1,4 +1,5 @@
 #include "global.h"
+#include "terre_heure.h"
 #include "lavanville.h"
 #include "battle_setup.h"
 #include "event_object_movement.h"
@@ -89,6 +90,7 @@ static const TrainerSeeFunc sTrainerSeeFuncList2[] = {
 bool8 CheckForTrainersWantingBattle(void)
 {
     u8 i;
+    if (TerreHeureActive()) return FALSE;
     if (QL_IsTrainerSightDisabled() == TRUE)
         return FALSE;
     if (LavanvilleTryZombieSight())

@@ -459,3 +459,12 @@ graphics/yokai_characters/patrouille_oni/overworld.4bpp: %.4bpp: %.png
 
 graphics/yokai_characters/porte_terreur/overworld.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+graphics/yokai_characters/gorgouille_statique/overworld.4bpp: graphics/yokai_characters/gorgouille_statique/overworld.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+graphics/yokai_characters/ogralos_sans_massue/overworld.4bpp: graphics/yokai_characters/ogralos_sans_massue/overworld.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+graphics/yokai_characters/orqanos_sans_massue/overworld.4bpp: graphics/yokai_characters/orqanos_sans_massue/overworld.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4

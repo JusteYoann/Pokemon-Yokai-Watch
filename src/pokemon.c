@@ -1,6 +1,7 @@
 #define IS_POKEMON_C
 
 #include "global.h"
+#include "terre_heure.h"
 #include "nuzlocke.h"
 #include "gflib.h"
 #include "random.h"
@@ -5906,6 +5907,7 @@ void ClearBattleMonForms(void)
 
 static u16 GetBattleBGM(void)
 {
+    if (TerreHeureActive()) return MUS_YOKAI_BOSS_YOKAI;
     if (gBattleTypeFlags & BATTLE_TYPE_KYOGRE_GROUDON)
         return MUS_YOKAI_VS_YOKAI;
     if (gBattleTypeFlags & BATTLE_TYPE_REGI)

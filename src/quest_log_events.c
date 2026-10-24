@@ -1,5 +1,6 @@
 #include "yokai_champions.h"
 #include "global.h"
+#include "terre_heure.h"
 #include "gflib.h"
 #include "battle.h"
 #include "data.h"
@@ -551,6 +552,7 @@ void SetQuestLogEvent(u16 eventId, const u16 * data)
 
 static bool8 InQuestLogDisabledLocation(void)
 {
+    if (TerreHeureActive()) return TRUE;
     // In Trainer Tower
     if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_TRAINER_TOWER_1F)
         && (gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_TRAINER_TOWER_1F)

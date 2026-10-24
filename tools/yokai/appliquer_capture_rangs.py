@@ -19,6 +19,10 @@ def capture_rules():
   rate=policy['taux_par_rang'][row['rang']];assert 1<=rate<=255
   assert row['species_constant'] not in result
   result[row['species_constant']]=dict(numero=int(row['species_id']),nom=row['nom_yokai'],rang=row['rang'],taux=rate)
+ for species,exception in policy.get('exceptions_quete',{}).items():
+  assert species in result and 1<=exception['taux']<=255
+  result[species]['taux']=exception['taux']
+  result[species]['exception_quete']=exception['raison']
  return result
 
 def rates(text):

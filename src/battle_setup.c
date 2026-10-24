@@ -1,4 +1,6 @@
 #include "global.h"
+#include "terre_heure.h"
+#include "nuzlocke.h"
 #include "spiraton_battle.h"
 #include "task.h"
 #include "help_system.h"
@@ -907,6 +909,13 @@ void BattleSetup_StartPartnerBattle(void)
 
 static void CB2_EndTrainerBattle(void)
 {
+    if (TerreHeureActive())
+    {
+        if (NuzlockeResolveParty() == 2) { NuzlockeGameOver(); return; }
+        if (IsPlayerDefeated(gBattleOutcome)) HealPlayerParty();
+        SetMainCallback2(CB2_ReturnToFieldContinueScriptPlayMapMusic);
+        return;
+    }
     if (sTrainerBattleMode == TRAINER_BATTLE_EARLY_RIVAL)
     {
         if (IsPlayerDefeated(gBattleOutcome) == TRUE)
