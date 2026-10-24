@@ -61,16 +61,17 @@ Le discours d’Argenta s’est terminé dans cette partie.
 Le retour Argenta → Route 2 a été vérifié après les soins au Centre et une
 entrée payante au musée : déplacements vers le sud, menu Start fonctionnel,
 puis retour à Argenta. Ce contrôle ne valide pas les autres cinématiques par
-anticipation. Le premier Dresseur de l’Arène d’Argenta est battu, mais les trois
+anticipation. Le premier Dresseur de l’Arène d’Argenta est battu, mais les quatre
 premières tentatives contre Wyatt ont été perdues. La progression continue sans
-recharger une ancienne issue pour obtenir une victoire. L’équipe s’entraîne
-sur la Route 2 ; aucun Badge acquis et seulement deux Yo-kai obtenus à ce stade.
+recharger une ancienne issue pour obtenir une victoire. Komasan a atteint le niveau 20 grâce aux combats
+sauvages de la Route 2. La session est sauvegardée au Centre d’Argenta ; aucun Badge acquis et seulement deux Yo-kai obtenus à ce stade.
 
-Huit sauvegardes natives ont été exportées après le menu SAUVER et rechargées
+Neuf sauvegardes natives ont été exportées après le menu SAUVER et rechargées
 avec CONTINUER dans une nouvelle instance mGBA : laboratoire avant rival,
 Médallium débloqué, avant la Forêt, première capture, porte de la Forêt,
 avant le discours d’Argenta, avant l’Arène après vérification du retour Route 2,
-et devant Wyatt avant le premier affrontement. Les positions, niveaux, PV et
+devant Wyatt avant le premier affrontement et devant Wyatt après cet
+entraînement. Les positions, niveaux, PV et
 le nombre de membres sont comparés, et le fichier fourni reste inchangé.
 
 mGBA fonctionne sans limite de cadence. Les trajets groupés observés tournent
