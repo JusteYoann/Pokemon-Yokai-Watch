@@ -1,6 +1,7 @@
 #define IS_POKEMON_C
 
 #include "global.h"
+#include "nuzlocke.h"
 #include "gflib.h"
 #include "random.h"
 #include "text.h"
@@ -3390,6 +3391,7 @@ void SetMonData(struct Pokemon *mon, s32 field, const void *dataArg)
         SET8(mon->level);
         break;
     case MON_DATA_HP:
+        if (NuzlockeIsDead(mon)) { mon->hp = 0; break; }
         SET16(mon->hp);
         break;
     case MON_DATA_MAX_HP:
@@ -3729,6 +3731,8 @@ u8 GiveMonToPlayer(struct Pokemon *mon)
 {
     s32 i;
 
+    NuzlockeRecordOwned(mon);
+
     SetMonData(mon, MON_DATA_OT_NAME, gSaveBlock2Ptr->playerName);
     SetMonData(mon, MON_DATA_OT_GENDER, &gSaveBlock2Ptr->playerGender);
     SetMonData(mon, MON_DATA_OT_ID, gSaveBlock2Ptr->playerTrainerId);
@@ -4055,6 +4059,8 @@ bool8 PokemonUseItemEffects(struct Pokemon *mon, u16 item, u8 partyIndex, u8 mov
     u16 heldItem;
     u8 val;
     u32 evDelta;
+
+    if (NuzlockeIsDead(mon)) return TRUE;
 
     // Get item hold effect
     heldItem = GetMonData(mon, MON_DATA_HELD_ITEM, NULL);
@@ -4583,6 +4589,8 @@ bool8 PokemonItemUseNoEffect(struct Pokemon *mon, u16 item, u8 partyIndex, u8 mo
     u16 heldItem;
     u8 curEffect;
     u32 curMoveId;
+
+    if (NuzlockeIsDead(mon)) return TRUE;
 
     // Get item hold effect
     heldItem = GetMonData(mon, MON_DATA_HELD_ITEM, NULL);

@@ -1,6 +1,7 @@
 #include "philosovni.h"
 #include "yokai_champions.h"
 #include "global.h"
+#include "nuzlocke.h"
 #include "lavanville.h"
 #include "spiraton_battle.h"
 #include "gflib.h"
@@ -2881,6 +2882,8 @@ static void Cmd_tryfaintmon(void)
             gBattlescriptCurrInstr = BS_ptr;
             if (GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER)
             {
+                if (NuzlockeBattleApplies() && gBattlerPartyIndexes[gActiveBattler] < PARTY_SIZE)
+                    NuzlockeMarkDead(&gPlayerParty[gBattlerPartyIndexes[gActiveBattler]]);
                 gHitMarker |= HITMARKER_PLAYER_FAINTED;
                 if (gBattleResults.playerFaintCounter < 255)
                     gBattleResults.playerFaintCounter++;
@@ -9537,6 +9540,10 @@ static void Cmd_handleballthrow(void)
         MarkBattlerForControllerExec(gActiveBattler);
         gBattlescriptCurrInstr = BattleScript_OldMan_Pokedude_CaughtMessage;
     }
+    else if (!NuzlockeCanCapture(&gEnemyParty[gBattlerPartyIndexes[gBattlerTarget]]))
+    {
+        gBattlescriptCurrInstr = BattleScript_NuzlockeCaptureBlocked;
+    }
     else
     {
         u32 odds;
@@ -9665,6 +9672,7 @@ static void Cmd_handleballthrow(void)
 
 static void Cmd_givecaughtmon(void)
 {
+    NuzlockeRecordCapture(&gEnemyParty[gBattlerPartyIndexes[gBattlerAttacker ^ BIT_SIDE]]);
     if (GiveMonToPlayer(&gEnemyParty[gBattlerPartyIndexes[gBattlerAttacker ^ BIT_SIDE]]) != MON_GIVEN_TO_PARTY)
     {
         if (!ShouldShowBoxWasFullMessage())

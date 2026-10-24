@@ -236,6 +236,8 @@ extern const u8 *const gBattlescriptsForRunningByItem[];
 extern const u8 *const gBattlescriptsForUsingItem[];
 extern const u8 *const gBattlescriptsForSafariActions[];
 
+extern const u8 BattleScript_NuzlockeCaptureBlocked[];
+
 #endif // GUARD_BATTLE_SCRIPTS_H
 
 extern const u8 BattleScript_AlyzonColossus[];

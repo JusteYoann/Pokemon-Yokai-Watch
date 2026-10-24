@@ -1,4 +1,5 @@
 #include "global.h"
+#include "nuzlocke.h"
 #include "gflib.h"
 #include "berry.h"
 #include "event_data.h"
@@ -643,7 +644,10 @@ u16 ItemId_GetId(u16 itemId)
 
 u16 ItemId_GetPrice(u16 itemId)
 {
-    return gItems[SanitizeItemId(itemId)].price;
+    itemId = SanitizeItemId(itemId);
+    if (NuzlockeEnabled() && gItems[itemId].pocket == POCKET_POKE_BALLS)
+        return gItems[itemId].price * 4 / 5;
+    return gItems[itemId].price;
 }
 
 u8 ItemId_GetHoldEffect(u16 itemId)

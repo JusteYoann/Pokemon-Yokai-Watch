@@ -2,7 +2,7 @@
 from mgba_rpc import Emulator
 
 
-def new_game(gender=0):
+def new_game(gender=0, nuzlocke=False, difficulty_capture=None):
     r=Emulator();rev={v|1:k for k,v in r.symbols.items()}
     def tasks():
         return {rev.get(r.u32(r.symbols['gTasks']+40*i),'?') for i in range(16)
@@ -17,7 +17,14 @@ def new_game(gender=0):
     try:
         wait('Task_OakSpeech_HandleGenderInput')
         if gender:pulse(5,4)
-        pulse(8,0);wait('Task_OakSpeech_YourNameWhatIsIt',False);r.run(60)
+        pulse(8,0)
+        if 'Task_HandleDifficulty' in r.symbols:
+            wait('Task_HandleDifficulty')
+            if difficulty_capture:
+                r.frame.save(difficulty_capture)
+            if nuzlocke:pulse(5,4)
+            pulse(8,0)
+        wait('Task_OakSpeech_YourNameWhatIsIt',False);r.run(60)
         for f in range(8000):
             r.keys={8} if f%16<4 else set();r.run()
             if 'Naming' in rev.get(r.u32(r.symbols['gMain']+4),''):break

@@ -529,7 +529,9 @@ static const u8 sCureSleep[] = _("DON SPIRATON s'est réveillé !");
 static const u8 sCureFreeze[] = _("DON SPIRATON n'est plus gelé !");
 static const u8 sText_AlyzonColossus[] = _("ALYZON : Et maintenant,\nje vais te présenter\pmon petit préféré !\nHihi !");
 
+static const u8 sNuzlockeCaptureBlocked[] = _("Nuzlocke : capture interdite.\nRencontre passée ou espèce déjà prise.");
 const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT - BATTLESTRINGS_TABLE_START] = {
+    [STRINGID_NUZLOCKE_CAPTURE_BLOCKED - BATTLESTRINGS_TABLE_START] = sNuzlockeCaptureBlocked,
     [STRINGID_ALYZON_COLOSSUS - BATTLESTRINGS_TABLE_START] = sText_AlyzonColossus,
     [STRINGID_SPIRATON_TRANSFORM - BATTLESTRINGS_TABLE_START] = sText_SpiratonTransform,
     [STRINGID_SPIRATON_CURE_BURN - BATTLESTRINGS_TABLE_START] = sCureBurn,

@@ -659,7 +659,7 @@ PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene::
 	special SetUnlockedPokedexFlags
 	setvar VAR_MAP_SCENE_POKEMON_CENTER_TEALA, 1
 	msgbox PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese
-	giveitem_msg PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls, ITEM_POKE_BALL, 5
+	call PalletTown_ProfessorOaksLab_EventScript_InitialNuzlockeBalls
 	msgbox PalletTown_ProfessorOaksLab_Text_OakExplainCatching
 	famechecker FAMECHECKER_OAK, 1
 	msgbox PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream
@@ -1306,3 +1306,14 @@ PalletTown_ProfessorOaksLab_EventScript_YoannInvitation::
 	call Yoann_EventScript_ChenInvitation
 	release
 	end
+
+@ Only the first starter supply changes; the later rescue gift stays native.
+PalletTown_ProfessorOaksLab_EventScript_InitialNuzlockeBalls::
+	specialvar VAR_RESULT, NuzlockeEnabled
+	goto_if_eq VAR_RESULT, TRUE, PalletTown_ProfessorOaksLab_EventScript_TenNuzlockeBalls
+	giveitem_msg PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls, ITEM_POKE_BALL, 5
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_TenNuzlockeBalls::
+	giveitem_msg PalletTown_ProfessorOaksLab_Text_ReceivedTenPokeBalls, ITEM_POKE_BALL, 10
+	return

@@ -806,7 +806,14 @@ struct SaveBlock1
     /*0x30D0*/ struct Roamer roamer;
     /*0x30EC*/ struct EnigmaBerry enigmaBerry;
     /*0x3120*/ struct MysteryGiftSave mysteryGift;
-    /*0x348C*/ u8 unused_348C[400];
+    /*0x348C*/ struct {
+        u32 magic;
+        u8 capturedZones[32];
+        u8 ownedSpecies[64];
+        u8 started;
+        u8 reserved[299];
+    } nuzlocke; // occupies the existing 400-byte unused save area
+
     /*0x361C*/ struct RamScript ramScript;
     /*0x3A08*/ struct RecordMixingGift recordMixingGift; // unused
     /*0x3A18*/ u8 seen2[DEX_FLAGS_NO];

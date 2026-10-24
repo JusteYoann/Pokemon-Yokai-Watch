@@ -1,4 +1,5 @@
 #include "global.h"
+#include "nuzlocke.h"
 #include "strings.h"
 #include "gflib.h"
 #include "random.h"
@@ -125,6 +126,7 @@ void NewGameInitData(void)
     PlayTimeCounter_Reset();
     ClearPokedexFlags();
     InitEventData();
+    NuzlockeInit();
     ResetFameChecker();
     SetMoney(&gSaveBlock1Ptr->money, 3000);
     ResetGameStats();

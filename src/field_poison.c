@@ -1,4 +1,5 @@
 #include "global.h"
+#include "nuzlocke.h"
 #include "gflib.h"
 #include "strings.h"
 #include "task.h"
@@ -33,6 +34,7 @@ static void FaintFromFieldPoison(u8 partyIdx)
 {
     struct Pokemon *pokemon = gPlayerParty + partyIdx;
     u32 status = STATUS1_NONE;
+    NuzlockeMarkDead(pokemon);
     AdjustFriendship(pokemon, FRIENDSHIP_EVENT_FAINT_OUTSIDE_BATTLE);
     SetMonData(pokemon, MON_DATA_STATUS, &status);
     GetMonData(pokemon, MON_DATA_NICKNAME, gStringVar1);
@@ -73,6 +75,18 @@ static void Task_TryFieldPoisonWhiteOut(u8 taskId)
             tState--;
         break;
     case 2:
+        if (NuzlockeEnabled())
+        {
+            u8 resolution = NuzlockeResolveParty();
+            if (resolution == 2) { DestroyTask(taskId); NuzlockeGameOver(); return; }
+            if (resolution == 1)
+            {
+                gSpecialVar_Result = TRUE;
+                ScriptContext_Enable();
+                DestroyTask(taskId);
+                return;
+            }
+        }
         if (AllMonsFainted())
             gSpecialVar_Result = TRUE;
         else

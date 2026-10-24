@@ -180,3 +180,6 @@ PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex::
 PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex::
     .string "{RIVAL}: Papi, du calme.\nNe t'emballe pas autant.\pJe vais compléter le Médallium,\nne t'inquiète pas.\pJe vais d'abord explorer\nONE ISLAND…\pBon, je file!$"
 
+
+PalletTown_ProfessorOaksLab_Text_ReceivedTenPokeBalls::
+    .string "{PLAYER} reçoit dix Yo-kai Balls.$"

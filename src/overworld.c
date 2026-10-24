@@ -1,5 +1,6 @@
 #include "philosovni.h"
 #include "global.h"
+#include "nuzlocke.h"
 #include "cramois_past.h"
 #include "cramois_fog.h"
 #include "lavanville.h"
@@ -1595,6 +1596,7 @@ void CB2_WhiteOut(void)
         FieldClearVBlankHBlankCallbacks();
         StopMapMusic();
         ResetSafariZoneFlag_();
+        if (NuzlockeResolveParty() == 2) { NuzlockeGameOver(); return; }
         DoWhiteOut();
         SetInitialPlayerAvatarStateWithDirection(DIR_NORTH);
         ScriptContext_Init();

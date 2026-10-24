@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "scope": "Native combat fixtures: prepared parties/enemies; real attacks, capture UI,\nencounter consumption after escape, PC rescue and final loss. No injected battle\noutcome or injected faint/HP loss. Saves belong to the isolated emulator only.\n",
+  "rom_sha256": "f3832fe2a0cfcf3763425c11985183bf0e689c0110aecfb0c64847fb77325fbc",
+  "cases": [
+    "Real first encounter escaped; next encounter refuses capture without consuming a Ball",
+    "Eligible first encounter caught through the real Ball UI, added to party and registered",
+    "Actual lethal enemy attack: PC survivor is moved to party and player reaches the healing Center",
+    "Actual lethal enemy attack with no reserve: Game Over and erased battery",
+    "Actual trainer battle loss reaches Game Over instead of the native healing callback"
+  ]
+}

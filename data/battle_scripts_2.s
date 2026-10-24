@@ -236,3 +236,8 @@ BattleScript_LeftoverWallyPrepToThrow::
 	printstring STRINGID_YOUTHROWABALLNOWRIGHT
 	waitmessage B_WAIT_TIME_LONG
 	end2
+
+BattleScript_NuzlockeCaptureBlocked::
+	printstring STRINGID_NUZLOCKE_CAPTURE_BLOCKED
+	waitmessage B_WAIT_TIME_LONG
+	finishaction

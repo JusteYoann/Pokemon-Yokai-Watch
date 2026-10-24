@@ -1,4 +1,5 @@
 #include "global.h"
+#include "nuzlocke.h"
 #include "gflib.h"
 #include "battle.h"
 #include "berry_pouch.h"
@@ -736,6 +737,11 @@ void Task_ItemUse_CloseMessageBoxAndReturnToField_VsSeeker(u8 taskId)
 
 void BattleUseFunc_PokeBallEtc(u8 taskId)
 {
+    if (!(gBattleTypeFlags & BATTLE_TYPE_TRAINER) && !NuzlockeCanCapture(&gEnemyParty[0]))
+    {
+        DisplayItemMessageInBag(taskId, FONT_NORMAL, gText_NuzlockeCaptureBlocked, Task_ReturnToBagFromContextMenu);
+        return;
+    }
     if (!IsPlayerPartyAndPokemonStorageFull())
     {
         RemoveBagItem(gSpecialVar_ItemId, 1);

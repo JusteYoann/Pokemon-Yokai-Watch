@@ -1,4 +1,5 @@
 #include "global.h"
+#include "nuzlocke.h"
 #include "strings.h"
 #include "gflib.h"
 #include "decompress.h"
@@ -48,6 +49,11 @@ struct OakSpeechResources
 static EWRAM_DATA struct OakSpeechResources *sOakSpeechResources = NULL;
 
 static void Task_NewGameScene(u8);
+static const u8 sDifficultyPrompt[] = _("Choisis ton mode de jeu.\pNuzlocke : chaque K.O. est définitif.\nSans survivant, la partie est effacée.");
+static const u8 sModeNormal[] = _("Normal");
+static const u8 sModeNuzlocke[] = _("Nuzlocke");
+static void Task_ShowDifficulty(u8);
+static void Task_HandleDifficulty(u8);
 
 static void ControlsGuide_LoadPage1(void);
 static void Task_ControlsGuide_HandleInput(u8);
@@ -686,6 +692,7 @@ static void CB2_NewGameScene(void)
 
 void StartNewGameScene(void)
 {
+    gNewGameNuzlocke = FALSE;
     gPlttBufferUnfaded[0] = RGB_BLACK;
     gPlttBufferFaded[0]   = RGB_BLACK;
     CreateTask(Task_NewGameScene, 0);
@@ -1322,8 +1329,35 @@ static void Task_OakSpeech_HandleGenderInput(u8 taskId)
     case MENU_NOTHING_CHOSEN:
         return;
     }
-    gTasks[taskId].func = Task_OakSpeech_ClearGenderWindows;
+    ClearStdWindowAndFrameToTransparent(gTasks[taskId].tMenuWindowId, TRUE);
+    RemoveWindow(gTasks[taskId].tMenuWindowId);
+    OakSpeechPrintMessage(sDifficultyPrompt, sOakSpeechResources->textSpeed);
+    gTasks[taskId].func = Task_ShowDifficulty;
 
+}
+
+static void Task_ShowDifficulty(u8 taskId)
+{
+    u8 window;
+    if (IsTextPrinterActive(WIN_INTRO_TEXTBOX)) return;
+    window = AddWindow(&sIntro_WindowTemplates[WIN_INTRO_BOYGIRL]);
+    gTasks[taskId].tMenuWindowId = window;
+    PutWindowTilemap(window);
+    DrawStdFrameWithCustomTileAndPalette(window, TRUE, GetStdWindowBaseTileNum(), 14);
+    FillWindowPixelBuffer(window, PIXEL_FILL(1));
+    AddTextPrinterParameterized3(window, FONT_NORMAL, 8, 1, sOakSpeechResources->textColor, 0, sModeNormal);
+    AddTextPrinterParameterized3(window, FONT_NORMAL, 8, 17, sOakSpeechResources->textColor, 0, sModeNuzlocke);
+    Menu_InitCursor(window, FONT_NORMAL, 0, 1, GetFontAttribute(FONT_NORMAL, FONTATTR_MAX_LETTER_HEIGHT) + 2, 2, 0);
+    CopyWindowToVram(window, COPYWIN_FULL);
+    gTasks[taskId].func = Task_HandleDifficulty;
+}
+
+static void Task_HandleDifficulty(u8 taskId)
+{
+    s8 input = Menu_ProcessInputNoWrapAround();
+    if (input != 0 && input != 1) return;
+    gNewGameNuzlocke = input == 1;
+    gTasks[taskId].func = Task_OakSpeech_ClearGenderWindows;
 }
 
 static void Task_OakSpeech_ClearGenderWindows(u8 taskId)

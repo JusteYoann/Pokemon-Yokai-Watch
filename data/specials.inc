@@ -471,4 +471,5 @@ gSpecials::
 	def_special YoannThankForPlay
 	def_special YoannGiveCharm
 	def_special LavanvilleZombieApproach
+	def_special NuzlockeEnabled
 gSpecialsEnd::

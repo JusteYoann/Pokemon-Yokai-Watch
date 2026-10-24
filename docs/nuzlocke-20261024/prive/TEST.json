@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "scope": "Isolated mGBA Nuzlocke fixtures, not a complete adventure playthrough.\nNew-game mode selection and Continue use controller input. Parties, maps, status,\nencounter policies and PC rosters are prepared via native calls. Flash writes and\nfinal erasure affect only this emulator's temporary battery, never a user save.\n",
+  "rom_sha256": "f3832fe2a0cfcf3763425c11985183bf0e689c0110aecfb0c64847fb77325fbc",
+  "cases": [
+    "New game selects Nuzlocke through the native menu",
+    "First encounter stays eligible for multiple Ball attempts",
+    "Leaving the first encounter without a catch consumes the zone",
+    "Owned starter is skipped as a duplicate; the first new species is eligible",
+    "Previously obtained species blocked in another zone, including after release",
+    "Shiny duplicate can be caught even in a consumed zone",
+    "Shiny encounter does not consume the ordinary encounter",
+    "Encounter limits begin with the first Ball supply, not the parcel trip",
+    "Balls cost 20 percent less; Potion price unchanged",
+    "Permanent death: healing, Revive, Max Revive and PC reconstruction cannot revive; dead slot removed",
+    "Field poison death is permanent too",
+    "A survivor in the last PC slot rescues the run",
+    "Native battery Continue preserves mode and the lost first encounter",
+    "Total loss erases all flash sectors, including both alternating save slots",
+    "After Game Over, reset has no valid Continue save"
+  ]
+}

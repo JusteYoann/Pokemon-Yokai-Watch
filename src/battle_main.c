@@ -1,6 +1,7 @@
 #include "philosovni.h"
 #include "yokai_champions.h"
 #include "global.h"
+#include "nuzlocke.h"
 #include "lavanville.h"
 #include "spiraton_battle.h"
 #include "gflib.h"
@@ -2281,6 +2282,7 @@ static void BattleStartClearSetData(void)
     YokaiChampionResetBattle();
     gBattleOutcome = 0;
     sTrainerBattleForfeited = FALSE;
+    NuzlockeBeginBattle();
     gBattleControllerExecFlags = 0;
     gPaydayMoney = 0;
     gBattleResources->battleScriptsStack->size = 0;
@@ -3969,6 +3971,18 @@ static void ReturnFromBattleToOverworld(void)
                 SetRoamerInactive();
         }
         m4aSongNumStop(SE_LOW_HEALTH);
+        if (NuzlockeBattleApplies())
+        {
+            u8 resolution = NuzlockeResolveParty();
+            if (resolution == 2) { NuzlockeGameOver(); return; }
+            if (resolution == 1)
+            {
+                ZeroMonData(&gPlayerParty[PARTY_SIZE]);
+                sTrainerBattleForfeited = FALSE;
+                SetMainCallback2(CB2_WhiteOut);
+                return;
+            }
+        }
         if (sTrainerBattleForfeited)
         {
             // An abandoned scripted encounter must not resume its victory or
