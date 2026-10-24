@@ -317,3 +317,6 @@ const u32 gObjectEventPic_YokaiGargaros[] = INCBIN_U32("graphics/yokai_character
 
 const u16 gObjectEventPal_PatrouilleOni[] = INCBIN_U16("graphics/yokai_characters/patrouille_oni/normal.gbapal");
 const u32 gObjectEventPic_PatrouilleOni[] = INCBIN_U32("graphics/yokai_characters/patrouille_oni/overworld.4bpp");
+
+const u16 gObjectEventPal_PorteTerreur[] = INCBIN_U16("graphics/yokai_characters/porte_terreur/normal.gbapal");
+const u32 gObjectEventPic_PorteTerreur[] = INCBIN_U32("graphics/yokai_characters/porte_terreur/overworld.4bpp");

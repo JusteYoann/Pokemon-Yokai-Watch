@@ -472,4 +472,5 @@ gSpecials::
 	def_special YoannGiveCharm
 	def_special LavanvilleZombieApproach
 	def_special NuzlockeEnabled
+	def_special PorteTerreurOuvrir
 gSpecialsEnd::

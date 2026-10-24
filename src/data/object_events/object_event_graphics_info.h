@@ -3413,3 +3413,14 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PatrouilleOni = {
     .anims = sAnimTable_PatrouilleOni, .images = sPicTable_PatrouilleOni,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PorteTerreur = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_PORTE_TERREUR,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32,
+    .paletteSlot = PALSLOT_NPC_4_REFLECTION, .shadowSize = SHADOW_SIZE_S,
+    .inanimate = TRUE, .disableReflectionPaletteLoad = TRUE, .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_32x32, .subspriteTables = gObjectEventSpriteOamTables_32x32,
+    .anims = sAnimTable_PorteTerreur, .images = sPicTable_PorteTerreur,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};

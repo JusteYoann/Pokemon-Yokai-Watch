@@ -1941,3 +1941,5 @@ static const struct SpriteFrameImage sPicTable_PatrouilleOni[] = {
     overworld_frame(gObjectEventPic_PatrouilleOni, 4, 4, 2),
     overworld_frame(gObjectEventPic_PatrouilleOni, 4, 4, 3),
 };
+
+static const struct SpriteFrameImage sPicTable_PorteTerreur[] = { overworld_frame(gObjectEventPic_PorteTerreur, 4, 4, 0), overworld_frame(gObjectEventPic_PorteTerreur, 4, 4, 1) };

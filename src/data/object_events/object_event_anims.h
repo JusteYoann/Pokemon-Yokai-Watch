@@ -1720,3 +1720,7 @@ static const union AnimCmd *const sAnimTable_Gargaros[] = {
     sAnim_GargarosWalk3_3,
     sAnim_GargarosFace0,
 };
+
+static const union AnimCmd sAnim_PorteFermee[] = { ANIMCMD_FRAME(0, 16), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_PorteOuverte[] = { ANIMCMD_FRAME(1, 16), ANIMCMD_JUMP(0) };
+static const union AnimCmd *const sAnimTable_PorteTerreur[] = { sAnim_PorteFermee, sAnim_PorteOuverte };
