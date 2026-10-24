@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "expected_old_bug": false,
+  "rom_sha256": "59c13912b8b988f125385a11c66e59a436b751ca31d50a879efb8b58d87a01ee",
+  "scope": "Reproduce the completed speech's obsolete tile trigger, or verify the fix.\n\nCompleted flag and starting position are explicit fixtures, not a played story.\nThe old ROM must freeze directions and START at y36 while L help still opens.\n",
+  "results": {
+    "var_temp_f_after_reload": 1,
+    "after_south": [
+      [
+        3,
+        20
+      ],
+      [
+        11,
+        1
+      ]
+    ],
+    "start_works": true
+  }
+}

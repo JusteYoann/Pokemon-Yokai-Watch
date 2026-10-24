@@ -1,0 +1,391 @@
+{
+  "passed": true,
+  "rom_sha256": "9f39dbfdd694cc0fde1c4cd6e699096f408102b310bc1abe4c075d12ecb148b5",
+  "scope": "Completed-scene fixtures: real map reload, walking over old triggers, and START.\n\nThis is regression testing of completed states, not an uninterrupted playthrough.\nNo battle outcome, ROM byte or save format is altered. Initial flags/positions are\nexplicit fixtures; controller input crosses each checked tile after map loading.\n",
+  "cases": [
+    {
+      "test": "argenta-sortie-20",
+      "before": [
+        [
+          3,
+          2
+        ],
+        [
+          20,
+          34
+        ]
+      ],
+      "after": [
+        [
+          3,
+          20
+        ],
+        [
+          8,
+          4
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "test": "argenta-sortie-21",
+      "before": [
+        [
+          3,
+          2
+        ],
+        [
+          21,
+          34
+        ]
+      ],
+      "after": [
+        [
+          3,
+          20
+        ],
+        [
+          9,
+          4
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "test": "argenta-sortie-22",
+      "before": [
+        [
+          3,
+          2
+        ],
+        [
+          22,
+          34
+        ]
+      ],
+      "after": [
+        [
+          3,
+          20
+        ],
+        [
+          10,
+          4
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "test": "argenta-sortie-23",
+      "before": [
+        [
+          3,
+          2
+        ],
+        [
+          23,
+          34
+        ]
+      ],
+      "after": [
+        [
+          3,
+          20
+        ],
+        [
+          11,
+          4
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "test": "lavanville-intro-deja-vue",
+      "before": [
+        [
+          3,
+          4
+        ],
+        [
+          11,
+          18
+        ]
+      ],
+      "after": [
+        [
+          3,
+          4
+        ],
+        [
+          11,
+          17
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "test": "lavanville-rechargement",
+      "before": [
+        [
+          3,
+          4
+        ],
+        [
+          11,
+          18
+        ]
+      ],
+      "after": [
+        [
+          3,
+          4
+        ],
+        [
+          11,
+          17
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "test": "carmin-entrepot-etat-2",
+      "before": [
+        [
+          9,
+          8
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "after": [
+        [
+          9,
+          8
+        ],
+        [
+          6,
+          4
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "test": "carmin-entrepot-etat-3",
+      "before": [
+        [
+          9,
+          8
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "after": [
+        [
+          9,
+          8
+        ],
+        [
+          6,
+          4
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "test": "cramois-arene-rencontre-vue",
+      "before": [
+        [
+          12,
+          0
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "after": [
+        [
+          12,
+          0
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "test": "cramois-retour-sur-ile",
+      "before": [
+        [
+          3,
+          8
+        ],
+        [
+          17,
+          13
+        ]
+      ],
+      "after": [
+        [
+          3,
+          8
+        ],
+        [
+          17,
+          14
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "test": "carmin-apres-oceane",
+      "before": [
+        [
+          3,
+          5
+        ],
+        [
+          22,
+          31
+        ]
+      ],
+      "after": [
+        [
+          3,
+          5
+        ],
+        [
+          22,
+          30
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "test": "yopple-apres-liberation",
+      "before": [
+        [
+          1,
+          57
+        ],
+        [
+          5,
+          10
+        ]
+      ],
+      "after": [
+        [
+          1,
+          57
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "test": "conseil-1-apres-combat",
+      "before": [
+        [
+          1,
+          75
+        ],
+        [
+          5,
+          10
+        ]
+      ],
+      "after": [
+        [
+          1,
+          75
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "test": "conseil-2-apres-combat",
+      "before": [
+        [
+          1,
+          76
+        ],
+        [
+          5,
+          10
+        ]
+      ],
+      "after": [
+        [
+          1,
+          76
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "test": "conseil-3-apres-combat",
+      "before": [
+        [
+          1,
+          77
+        ],
+        [
+          5,
+          10
+        ]
+      ],
+      "after": [
+        [
+          1,
+          77
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "test": "conseil-4-apres-combat",
+      "before": [
+        [
+          1,
+          78
+        ],
+        [
+          5,
+          10
+        ]
+      ],
+      "after": [
+        [
+          1,
+          78
+        ],
+        [
+          5,
+          11
+        ]
+      ],
+      "passed": true
+    }
+  ]
+}

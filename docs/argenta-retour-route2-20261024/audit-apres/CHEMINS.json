@@ -1,0 +1,7045 @@
+[
+  {
+    "kind": "coordinate",
+    "map": "BattleColosseum_2P",
+    "script": "BattleColosseum_2P_EventScript_PlayerSpot0",
+    "var": "VAR_TEMP_0",
+    "value": "0",
+    "positions": [
+      [
+        3,
+        5
+      ]
+    ],
+    "states": 5,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": [
+      {
+        "specials": [
+          "special EnterColosseumPlayerSpot",
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/cable_club.inc:577 setvar VAR_0x8005,0",
+          "data/scripts/cable_club.inc:578 textcolor NPC_TEXT_COLOR_NEUTRAL",
+          "data/scripts/cable_club.inc:579 special EnterColosseumPlayerSpot",
+          "data/scripts/cable_club.inc:580 waitstate ",
+          "data/scripts/cable_club.inc:581 end "
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "coordinate",
+    "map": "BattleColosseum_2P",
+    "script": "BattleColosseum_2P_EventScript_PlayerSpot1",
+    "var": "VAR_TEMP_0",
+    "value": "0",
+    "positions": [
+      [
+        10,
+        5
+      ]
+    ],
+    "states": 5,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": [
+      {
+        "specials": [
+          "special EnterColosseumPlayerSpot",
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/cable_club.inc:584 setvar VAR_0x8005,1",
+          "data/scripts/cable_club.inc:585 textcolor NPC_TEXT_COLOR_NEUTRAL",
+          "data/scripts/cable_club.inc:586 special EnterColosseumPlayerSpot",
+          "data/scripts/cable_club.inc:587 waitstate ",
+          "data/scripts/cable_club.inc:588 end "
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "coordinate",
+    "map": "BattleColosseum_4P",
+    "script": "BattleColosseum_4P_EventScript_PlayerSpot0",
+    "var": "VAR_TEMP_0",
+    "value": "0",
+    "positions": [
+      [
+        3,
+        4
+      ]
+    ],
+    "states": 10,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": [
+      {
+        "specials": [
+          "fadescreen FADE_TO_BLACK",
+          "special ChooseHalfPartyForBattle",
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/cable_club.inc:591 fadescreen FADE_TO_BLACK",
+          "data/scripts/cable_club.inc:592 special ChooseHalfPartyForBattle",
+          "data/scripts/cable_club.inc:593 waitstate ",
+          "data/scripts/cable_club.inc:594 goto_if_eq VAR_RESULT,0,BattleColosseum_4P_EventScript_CancelSpotTrigger",
+          "data/scripts/cable_club.inc:635 end "
+        ]
+      },
+      {
+        "specials": [
+          "fadescreen FADE_TO_BLACK",
+          "special ChooseHalfPartyForBattle",
+          "special EnterColosseumPlayerSpot",
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/cable_club.inc:591 fadescreen FADE_TO_BLACK",
+          "data/scripts/cable_club.inc:592 special ChooseHalfPartyForBattle",
+          "data/scripts/cable_club.inc:593 waitstate ",
+          "data/scripts/cable_club.inc:594 goto_if_eq VAR_RESULT,0,BattleColosseum_4P_EventScript_CancelSpotTrigger",
+          "data/scripts/cable_club.inc:595 setvar VAR_0x8005,0",
+          "data/scripts/cable_club.inc:596 textcolor NPC_TEXT_COLOR_NEUTRAL",
+          "data/scripts/cable_club.inc:597 special EnterColosseumPlayerSpot",
+          "data/scripts/cable_club.inc:598 waitstate ",
+          "data/scripts/cable_club.inc:599 end "
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "coordinate",
+    "map": "BattleColosseum_4P",
+    "script": "BattleColosseum_4P_EventScript_PlayerSpot2",
+    "var": "VAR_TEMP_0",
+    "value": "0",
+    "positions": [
+      [
+        3,
+        6
+      ]
+    ],
+    "states": 10,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": [
+      {
+        "specials": [
+          "fadescreen FADE_TO_BLACK",
+          "special ChooseHalfPartyForBattle",
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/cable_club.inc:613 fadescreen FADE_TO_BLACK",
+          "data/scripts/cable_club.inc:614 special ChooseHalfPartyForBattle",
+          "data/scripts/cable_club.inc:615 waitstate ",
+          "data/scripts/cable_club.inc:616 goto_if_eq VAR_RESULT,0,BattleColosseum_4P_EventScript_CancelSpotTrigger",
+          "data/scripts/cable_club.inc:635 end "
+        ]
+      },
+      {
+        "specials": [
+          "fadescreen FADE_TO_BLACK",
+          "special ChooseHalfPartyForBattle",
+          "special EnterColosseumPlayerSpot",
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/cable_club.inc:613 fadescreen FADE_TO_BLACK",
+          "data/scripts/cable_club.inc:614 special ChooseHalfPartyForBattle",
+          "data/scripts/cable_club.inc:615 waitstate ",
+          "data/scripts/cable_club.inc:616 goto_if_eq VAR_RESULT,0,BattleColosseum_4P_EventScript_CancelSpotTrigger",
+          "data/scripts/cable_club.inc:617 setvar VAR_0x8005,2",
+          "data/scripts/cable_club.inc:618 textcolor NPC_TEXT_COLOR_NEUTRAL",
+          "data/scripts/cable_club.inc:619 special EnterColosseumPlayerSpot",
+          "data/scripts/cable_club.inc:620 waitstate ",
+          "data/scripts/cable_club.inc:621 end "
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "coordinate",
+    "map": "BattleColosseum_4P",
+    "script": "BattleColosseum_4P_EventScript_PlayerSpot1",
+    "var": "VAR_TEMP_0",
+    "value": "0",
+    "positions": [
+      [
+        10,
+        4
+      ]
+    ],
+    "states": 10,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": [
+      {
+        "specials": [
+          "fadescreen FADE_TO_BLACK",
+          "special ChooseHalfPartyForBattle",
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/cable_club.inc:602 fadescreen FADE_TO_BLACK",
+          "data/scripts/cable_club.inc:603 special ChooseHalfPartyForBattle",
+          "data/scripts/cable_club.inc:604 waitstate ",
+          "data/scripts/cable_club.inc:605 goto_if_eq VAR_RESULT,0,BattleColosseum_4P_EventScript_CancelSpotTrigger",
+          "data/scripts/cable_club.inc:635 end "
+        ]
+      },
+      {
+        "specials": [
+          "fadescreen FADE_TO_BLACK",
+          "special ChooseHalfPartyForBattle",
+          "special EnterColosseumPlayerSpot",
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/cable_club.inc:602 fadescreen FADE_TO_BLACK",
+          "data/scripts/cable_club.inc:603 special ChooseHalfPartyForBattle",
+          "data/scripts/cable_club.inc:604 waitstate ",
+          "data/scripts/cable_club.inc:605 goto_if_eq VAR_RESULT,0,BattleColosseum_4P_EventScript_CancelSpotTrigger",
+          "data/scripts/cable_club.inc:606 setvar VAR_0x8005,1",
+          "data/scripts/cable_club.inc:607 textcolor NPC_TEXT_COLOR_NEUTRAL",
+          "data/scripts/cable_club.inc:608 special EnterColosseumPlayerSpot",
+          "data/scripts/cable_club.inc:609 waitstate ",
+          "data/scripts/cable_club.inc:610 end "
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "coordinate",
+    "map": "BattleColosseum_4P",
+    "script": "BattleColosseum_4P_EventScript_PlayerSpot3",
+    "var": "VAR_TEMP_0",
+    "value": "0",
+    "positions": [
+      [
+        10,
+        6
+      ]
+    ],
+    "states": 10,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": [
+      {
+        "specials": [
+          "fadescreen FADE_TO_BLACK",
+          "special ChooseHalfPartyForBattle",
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/cable_club.inc:624 fadescreen FADE_TO_BLACK",
+          "data/scripts/cable_club.inc:625 special ChooseHalfPartyForBattle",
+          "data/scripts/cable_club.inc:626 waitstate ",
+          "data/scripts/cable_club.inc:627 goto_if_eq VAR_RESULT,0,BattleColosseum_4P_EventScript_CancelSpotTrigger",
+          "data/scripts/cable_club.inc:635 end "
+        ]
+      },
+      {
+        "specials": [
+          "fadescreen FADE_TO_BLACK",
+          "special ChooseHalfPartyForBattle",
+          "special EnterColosseumPlayerSpot",
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/cable_club.inc:624 fadescreen FADE_TO_BLACK",
+          "data/scripts/cable_club.inc:625 special ChooseHalfPartyForBattle",
+          "data/scripts/cable_club.inc:626 waitstate ",
+          "data/scripts/cable_club.inc:627 goto_if_eq VAR_RESULT,0,BattleColosseum_4P_EventScript_CancelSpotTrigger",
+          "data/scripts/cable_club.inc:628 setvar VAR_0x8005,3",
+          "data/scripts/cable_club.inc:629 textcolor NPC_TEXT_COLOR_NEUTRAL",
+          "data/scripts/cable_club.inc:630 special EnterColosseumPlayerSpot",
+          "data/scripts/cable_club.inc:631 waitstate ",
+          "data/scripts/cable_club.inc:632 end "
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "coordinate",
+    "map": "CeladonCity_GameCorner",
+    "script": "LavenderHideout_CheckEntry",
+    "var": "VAR_TEMP_0",
+    "value": "0",
+    "positions": [
+      [
+        14,
+        2
+      ]
+    ],
+    "states": 10,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "CeruleanCity",
+    "script": "CeruleanCity_EventScript_RivalTriggerLeft",
+    "var": "VAR_MAP_SCENE_CERULEAN_CITY_RIVAL",
+    "value": "0",
+    "positions": [
+      [
+        22,
+        6
+      ]
+    ],
+    "states": 51,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "CeruleanCity",
+    "script": "CeruleanCity_EventScript_RivalTriggerMid",
+    "var": "VAR_MAP_SCENE_CERULEAN_CITY_RIVAL",
+    "value": "0",
+    "positions": [
+      [
+        23,
+        6
+      ]
+    ],
+    "states": 52,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "CeruleanCity",
+    "script": "CeruleanCity_EventScript_RivalTriggerRight",
+    "var": "VAR_MAP_SCENE_CERULEAN_CITY_RIVAL",
+    "value": "0",
+    "positions": [
+      [
+        24,
+        6
+      ]
+    ],
+    "states": 52,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "CeruleanCity",
+    "script": "CeruleanCity_EventScript_GruntTriggerTop",
+    "var": "VAR_MAP_SCENE_CERULEAN_CITY_ROCKET",
+    "value": "0",
+    "positions": [
+      [
+        33,
+        5
+      ]
+    ],
+    "states": 29,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "CeruleanCity",
+    "script": "CeruleanCity_EventScript_GruntTriggerBottom",
+    "var": "VAR_MAP_SCENE_CERULEAN_CITY_ROCKET",
+    "value": "0",
+    "positions": [
+      [
+        33,
+        7
+      ]
+    ],
+    "states": 29,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "CinnabarIsland",
+    "script": "CinnabarIsland_EventScript_GymDoorLocked",
+    "var": "VAR_TEMP_1",
+    "value": "0",
+    "positions": [
+      [
+        20,
+        5
+      ]
+    ],
+    "states": 10,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "FiveIsland_RocketWarehouse",
+    "script": "FiveIsland_RocketWarehouse_EventScript_Admin2Trigger",
+    "var": "VAR_MAP_SCENE_ROCKET_WAREHOUSE",
+    "value": "0",
+    "positions": [
+      [
+        22,
+        11
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        24,
+        11
+      ]
+    ],
+    "states": 6,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "FourIsland_IcefallCave_Back",
+    "script": "FourIsland_IcefallCave_Back_EventScript_LoreleiRocketsScene",
+    "var": "VAR_MAP_SCENE_ICEFALL_CAVE_BACK",
+    "value": "0",
+    "positions": [
+      [
+        11,
+        18
+      ],
+      [
+        12,
+        18
+      ],
+      [
+        13,
+        18
+      ]
+    ],
+    "states": 74,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "FuchsiaCity_SafariZone_Entrance",
+    "script": "FuchsiaCity_SafariZone_Entrance_EventScript_EntryTriggerMid",
+    "var": "VAR_TEMP_1",
+    "value": "0",
+    "positions": [
+      [
+        4,
+        3
+      ]
+    ],
+    "states": 103,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "FuchsiaCity_SafariZone_Entrance",
+    "script": "FuchsiaCity_SafariZone_Entrance_EventScript_EntryTriggerRight",
+    "var": "VAR_TEMP_1",
+    "value": "0",
+    "positions": [
+      [
+        5,
+        3
+      ]
+    ],
+    "states": 103,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "FuchsiaCity_SafariZone_Entrance",
+    "script": "FuchsiaCity_SafariZone_Entrance_EventScript_EntryTriggerLeft",
+    "var": "VAR_TEMP_1",
+    "value": "0",
+    "positions": [
+      [
+        3,
+        3
+      ]
+    ],
+    "states": 103,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "MtEmber_Exterior",
+    "script": "MtEmber_Exterior_EventScript_RocketPasswordScene",
+    "var": "VAR_MAP_SCENE_MT_EMBER_EXTERIOR",
+    "value": "1",
+    "positions": [
+      [
+        37,
+        43
+      ],
+      [
+        38,
+        43
+      ],
+      [
+        39,
+        43
+      ]
+    ],
+    "states": 27,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "MtMoon_B2F",
+    "script": "MtMoon_B2F_EventScript_MiguelTrigger",
+    "var": "VAR_MAP_SCENE_MT_MOON_B2F",
+    "value": "0",
+    "positions": [
+      [
+        14,
+        11
+      ]
+    ],
+    "states": 16,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "NavelRock_Summit",
+    "script": "NavelRock_Summit_EventScript_HoOh",
+    "var": "VAR_TEMP_1",
+    "value": "0",
+    "positions": [
+      [
+        9,
+        12
+      ]
+    ],
+    "states": 53,
+    "ends": 3,
+    "unsafe_paths": [
+      [
+        "data/maps/NavelRock_Summit/scripts.inc:34 goto_if_questlog EventScript_ReleaseEnd",
+        "data/event_scripts.s:1172 release ",
+        "data/event_scripts.s:1173 end "
+      ]
+    ],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "OneIsland_KindleRoad_EmberSpa",
+    "script": "OneIsland_KindleRoad_EmberSpa_EventScript_SpaHeal",
+    "var": "VAR_TEMP_1",
+    "value": "0",
+    "positions": [
+      [
+        13,
+        13
+      ]
+    ],
+    "states": 8,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "OneIsland_PokemonCenter_1F",
+    "script": "OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandTriggerTop",
+    "var": "VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F",
+    "value": "2",
+    "positions": [
+      [
+        12,
+        6
+      ]
+    ],
+    "states": 76,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "OneIsland_PokemonCenter_1F",
+    "script": "OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandTriggerMidTop",
+    "var": "VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F",
+    "value": "2",
+    "positions": [
+      [
+        12,
+        7
+      ]
+    ],
+    "states": 76,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "OneIsland_PokemonCenter_1F",
+    "script": "OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandTriggerMidBottom",
+    "var": "VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F",
+    "value": "2",
+    "positions": [
+      [
+        12,
+        8
+      ]
+    ],
+    "states": 76,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "OneIsland_PokemonCenter_1F",
+    "script": "OneIsland_PokemonCenter_1F_EventScript_LeaveOneIslandTriggerBottom",
+    "var": "VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F",
+    "value": "2",
+    "positions": [
+      [
+        12,
+        9
+      ]
+    ],
+    "states": 76,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PalletTown",
+    "script": "PalletTown_EventScript_OakTriggerLeft",
+    "var": "VAR_MAP_SCENE_PALLET_TOWN_OAK",
+    "value": "0",
+    "positions": [
+      [
+        12,
+        1
+      ]
+    ],
+    "states": 53,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PalletTown",
+    "script": "PalletTown_EventScript_OakTriggerRight",
+    "var": "VAR_MAP_SCENE_PALLET_TOWN_OAK",
+    "value": "0",
+    "positions": [
+      [
+        13,
+        1
+      ]
+    ],
+    "states": 53,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PalletTown",
+    "script": "PalletTown_EventScript_SignLadyTrigger",
+    "var": "VAR_TEMP_2",
+    "value": "1",
+    "positions": [
+      [
+        13,
+        2
+      ]
+    ],
+    "states": 21,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PalletTown_ProfessorOaksLab",
+    "script": "PalletTown_ProfessorOaksLab_EventScript_LeaveStarterSceneTrigger",
+    "var": "VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB",
+    "value": "2",
+    "positions": [
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "states": 10,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PalletTown_ProfessorOaksLab",
+    "script": "PalletTown_ProfessorOaksLab_EventScript_RivalBattleTriggerLeft",
+    "var": "VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB",
+    "value": "3",
+    "positions": [
+      [
+        5,
+        8
+      ]
+    ],
+    "states": 88,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PalletTown_ProfessorOaksLab",
+    "script": "PalletTown_ProfessorOaksLab_EventScript_RivalBattleTriggerMid",
+    "var": "VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB",
+    "value": "3",
+    "positions": [
+      [
+        6,
+        8
+      ]
+    ],
+    "states": 88,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PalletTown_ProfessorOaksLab",
+    "script": "PalletTown_ProfessorOaksLab_EventScript_RivalBattleTriggerRight",
+    "var": "VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB",
+    "value": "3",
+    "positions": [
+      [
+        7,
+        8
+      ]
+    ],
+    "states": 88,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PewterCity",
+    "script": "PewterCity_EventScript_GymGuideTriggerTop",
+    "var": "VAR_MAP_SCENE_PEWTER_CITY",
+    "value": "0",
+    "positions": [
+      [
+        42,
+        21
+      ]
+    ],
+    "states": 37,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PewterCity",
+    "script": "PewterCity_EventScript_GymGuideTriggerMid",
+    "var": "VAR_MAP_SCENE_PEWTER_CITY",
+    "value": "0",
+    "positions": [
+      [
+        42,
+        22
+      ]
+    ],
+    "states": 37,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PewterCity",
+    "script": "PewterCity_EventScript_GymGuideTriggerBottom",
+    "var": "VAR_MAP_SCENE_PEWTER_CITY",
+    "value": "0",
+    "positions": [
+      [
+        42,
+        23
+      ]
+    ],
+    "states": 37,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PewterCity",
+    "script": "PewterCity_EventScript_GymGuideTriggerRight",
+    "var": "VAR_MAP_SCENE_PEWTER_CITY",
+    "value": "0",
+    "positions": [
+      [
+        43,
+        23
+      ]
+    ],
+    "states": 37,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PewterCity",
+    "script": "PewterCity_EventScript_RunningShoesAideTriggerTop",
+    "var": "VAR_MAP_SCENE_PEWTER_CITY",
+    "value": "1",
+    "positions": [
+      [
+        46,
+        21
+      ]
+    ],
+    "states": 88,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PewterCity",
+    "script": "PewterCity_EventScript_RunningShoesAideTriggerMid",
+    "var": "VAR_MAP_SCENE_PEWTER_CITY",
+    "value": "1",
+    "positions": [
+      [
+        46,
+        22
+      ]
+    ],
+    "states": 88,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PewterCity",
+    "script": "PewterCity_EventScript_RunningShoesAideTriggerBottom",
+    "var": "VAR_MAP_SCENE_PEWTER_CITY",
+    "value": "1",
+    "positions": [
+      [
+        46,
+        23
+      ]
+    ],
+    "states": 88,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PewterCity",
+    "script": "PewterCity_EventScript_MorleoneArrival",
+    "var": "VAR_TEMP_F",
+    "value": "0",
+    "positions": [
+      [
+        20,
+        36
+      ],
+      [
+        21,
+        36
+      ],
+      [
+        22,
+        36
+      ],
+      [
+        23,
+        36
+      ]
+    ],
+    "states": 105,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PewterCity_Museum_1F",
+    "script": "PewterCity_Museum_1F_EventScript_EntranceTriggerLeft",
+    "var": "VAR_MAP_SCENE_PEWTER_CITY_MUSEUM_1F",
+    "value": "0",
+    "positions": [
+      [
+        12,
+        5
+      ]
+    ],
+    "states": 47,
+    "ends": 3,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PewterCity_Museum_1F",
+    "script": "PewterCity_Museum_1F_EventScript_EntranceTriggerMid",
+    "var": "VAR_MAP_SCENE_PEWTER_CITY_MUSEUM_1F",
+    "value": "0",
+    "positions": [
+      [
+        13,
+        5
+      ]
+    ],
+    "states": 47,
+    "ends": 3,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PewterCity_Museum_1F",
+    "script": "PewterCity_Museum_1F_EventScript_EntranceTriggerRight",
+    "var": "VAR_MAP_SCENE_PEWTER_CITY_MUSEUM_1F",
+    "value": "0",
+    "positions": [
+      [
+        14,
+        5
+      ]
+    ],
+    "states": 47,
+    "ends": 3,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PokemonTower_2F",
+    "script": "PokemonTower_2F_EventScript_RivalTriggerRight",
+    "var": "VAR_MAP_SCENE_POKEMON_TOWER_2F",
+    "value": "0",
+    "positions": [
+      [
+        17,
+        5
+      ]
+    ],
+    "states": 48,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PokemonTower_2F",
+    "script": "PokemonTower_2F_EventScript_RivalTriggerDown",
+    "var": "VAR_MAP_SCENE_POKEMON_TOWER_2F",
+    "value": "0",
+    "positions": [
+      [
+        16,
+        6
+      ]
+    ],
+    "states": 48,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PokemonTower_4F",
+    "script": "LavenderTower_Gate4",
+    "var": "VAR_TEMP_0",
+    "value": "0",
+    "positions": [
+      [
+        5,
+        10
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        4,
+        9
+      ]
+    ],
+    "states": 10,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PokemonTower_5F",
+    "script": "PokemonTower_5F_EventScript_PurifiedZone",
+    "var": "VAR_TEMP_1",
+    "value": "0",
+    "positions": [
+      [
+        10,
+        8
+      ],
+      [
+        11,
+        8
+      ],
+      [
+        12,
+        8
+      ],
+      [
+        10,
+        9
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        12,
+        10
+      ]
+    ],
+    "states": 8,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PokemonTower_5F",
+    "script": "PokemonTower_5F_EventScript_ExitPurifiedZone",
+    "var": "VAR_TEMP_1",
+    "value": "1",
+    "positions": [
+      [
+        9,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        11
+      ],
+      [
+        13,
+        8
+      ],
+      [
+        13,
+        9
+      ],
+      [
+        13,
+        10
+      ]
+    ],
+    "states": 4,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "PokemonTower_6F",
+    "script": "LavenderTower_Gate6",
+    "var": "VAR_TEMP_0",
+    "value": "0",
+    "positions": [
+      [
+        12,
+        16
+      ],
+      [
+        11,
+        17
+      ],
+      [
+        11,
+        15
+      ]
+    ],
+    "states": 10,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "RecordCorner",
+    "script": "RecordCorner_EventScript_Spot0",
+    "var": "VAR_TEMP_0",
+    "value": "0",
+    "positions": [
+      [
+        6,
+        4
+      ]
+    ],
+    "states": 1,
+    "ends": 1,
+    "unsafe_paths": [
+      [
+        "data/scripts/cable_club.inc:673 end "
+      ]
+    ],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "RecordCorner",
+    "script": "RecordCorner_EventScript_Spot1",
+    "var": "VAR_TEMP_0",
+    "value": "0",
+    "positions": [
+      [
+        6,
+        6
+      ]
+    ],
+    "states": 1,
+    "ends": 1,
+    "unsafe_paths": [
+      [
+        "data/scripts/cable_club.inc:673 end "
+      ]
+    ],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "RecordCorner",
+    "script": "RecordCorner_EventScript_Spot2",
+    "var": "VAR_TEMP_0",
+    "value": "0",
+    "positions": [
+      [
+        13,
+        4
+      ]
+    ],
+    "states": 1,
+    "ends": 1,
+    "unsafe_paths": [
+      [
+        "data/scripts/cable_club.inc:673 end "
+      ]
+    ],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "RecordCorner",
+    "script": "RecordCorner_EventScript_Spot3",
+    "var": "VAR_TEMP_0",
+    "value": "0",
+    "positions": [
+      [
+        13,
+        6
+      ]
+    ],
+    "states": 1,
+    "ends": 1,
+    "unsafe_paths": [
+      [
+        "data/scripts/cable_club.inc:673 end "
+      ]
+    ],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route16_NorthEntrance_1F",
+    "script": "EventScript_SetExitingCyclingRoad",
+    "var": "VAR_MAP_SCENE_ROUTE16",
+    "value": "1",
+    "positions": [
+      [
+        10,
+        12
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        11,
+        13
+      ]
+    ],
+    "states": 5,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route16_NorthEntrance_1F",
+    "script": "EventScript_SetEnteringCyclingRoad",
+    "var": "VAR_MAP_SCENE_ROUTE16",
+    "value": "0",
+    "positions": [
+      [
+        2,
+        12
+      ],
+      [
+        1,
+        13
+      ],
+      [
+        1,
+        11
+      ]
+    ],
+    "states": 4,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route16_NorthEntrance_1F",
+    "script": "Route16_NorthEntrance_1F_EventScript_NeedBikeTriggerTop",
+    "var": "VAR_TEMP_1",
+    "value": "0",
+    "positions": [
+      [
+        6,
+        10
+      ]
+    ],
+    "states": 31,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route16_NorthEntrance_1F",
+    "script": "Route16_NorthEntrance_1F_EventScript_NeedBikeTriggerMidTop",
+    "var": "VAR_TEMP_1",
+    "value": "0",
+    "positions": [
+      [
+        6,
+        11
+      ]
+    ],
+    "states": 31,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route16_NorthEntrance_1F",
+    "script": "Route16_NorthEntrance_1F_EventScript_NeedBikeTriggerMid",
+    "var": "VAR_TEMP_1",
+    "value": "0",
+    "positions": [
+      [
+        6,
+        12
+      ]
+    ],
+    "states": 31,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route16_NorthEntrance_1F",
+    "script": "Route16_NorthEntrance_1F_EventScript_NeedBikeTriggerMidBottom",
+    "var": "VAR_TEMP_1",
+    "value": "0",
+    "positions": [
+      [
+        6,
+        13
+      ]
+    ],
+    "states": 31,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route16_NorthEntrance_1F",
+    "script": "Route16_NorthEntrance_1F_EventScript_NeedBikeTriggerBottom",
+    "var": "VAR_TEMP_1",
+    "value": "0",
+    "positions": [
+      [
+        6,
+        14
+      ]
+    ],
+    "states": 31,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route18_EastEntrance_1F",
+    "script": "EventScript_SetEnteringCyclingRoad",
+    "var": "VAR_MAP_SCENE_ROUTE16",
+    "value": "0",
+    "positions": [
+      [
+        2,
+        6
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        7
+      ]
+    ],
+    "states": 4,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route18_EastEntrance_1F",
+    "script": "Route18_EastEntrance_1F_EventScript_NeedBikeTriggerTop",
+    "var": "VAR_TEMP_1",
+    "value": "0",
+    "positions": [
+      [
+        6,
+        4
+      ]
+    ],
+    "states": 31,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route18_EastEntrance_1F",
+    "script": "Route18_EastEntrance_1F_EventScript_NeedBikeTriggerMidTop",
+    "var": "VAR_TEMP_1",
+    "value": "0",
+    "positions": [
+      [
+        6,
+        5
+      ]
+    ],
+    "states": 31,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route18_EastEntrance_1F",
+    "script": "Route18_EastEntrance_1F_EventScript_NeedBikeTriggerMid",
+    "var": "VAR_TEMP_1",
+    "value": "0",
+    "positions": [
+      [
+        6,
+        6
+      ]
+    ],
+    "states": 31,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route18_EastEntrance_1F",
+    "script": "Route18_EastEntrance_1F_EventScript_NeedBikeTriggerMidBottom",
+    "var": "VAR_TEMP_1",
+    "value": "0",
+    "positions": [
+      [
+        6,
+        7
+      ]
+    ],
+    "states": 31,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route18_EastEntrance_1F",
+    "script": "Route18_EastEntrance_1F_EventScript_NeedBikeTriggerBottom",
+    "var": "VAR_TEMP_1",
+    "value": "0",
+    "positions": [
+      [
+        6,
+        8
+      ]
+    ],
+    "states": 31,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route18_EastEntrance_1F",
+    "script": "EventScript_SetExitingCyclingRoad",
+    "var": "VAR_MAP_SCENE_ROUTE16",
+    "value": "1",
+    "positions": [
+      [
+        10,
+        6
+      ],
+      [
+        11,
+        5
+      ],
+      [
+        11,
+        7
+      ]
+    ],
+    "states": 5,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route22",
+    "script": "Route22_EventScript_EarlyRivalTriggerTop",
+    "var": "VAR_MAP_SCENE_ROUTE22",
+    "value": "1",
+    "positions": [
+      [
+        33,
+        4
+      ]
+    ],
+    "states": 51,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route22",
+    "script": "Route22_EventScript_EarlyRivalTriggerMid",
+    "var": "VAR_MAP_SCENE_ROUTE22",
+    "value": "1",
+    "positions": [
+      [
+        33,
+        5
+      ]
+    ],
+    "states": 52,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route22",
+    "script": "Route22_EventScript_EarlyRivalTriggerBottom",
+    "var": "VAR_MAP_SCENE_ROUTE22",
+    "value": "1",
+    "positions": [
+      [
+        33,
+        6
+      ]
+    ],
+    "states": 52,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route22",
+    "script": "Route22_EventScript_LateRivalTriggerTop",
+    "var": "VAR_MAP_SCENE_ROUTE22",
+    "value": "3",
+    "positions": [
+      [
+        33,
+        4
+      ]
+    ],
+    "states": 41,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route22",
+    "script": "Route22_EventScript_LateRivalTriggerMid",
+    "var": "VAR_MAP_SCENE_ROUTE22",
+    "value": "3",
+    "positions": [
+      [
+        33,
+        5
+      ]
+    ],
+    "states": 42,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route22",
+    "script": "Route22_EventScript_LateRivalTriggerBottom",
+    "var": "VAR_MAP_SCENE_ROUTE22",
+    "value": "3",
+    "positions": [
+      [
+        33,
+        6
+      ]
+    ],
+    "states": 42,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route22_NorthEntrance",
+    "script": "Route22_NorthEntrance_EventScript_BoulderBadgeGuardTrigger",
+    "var": "VAR_MAP_SCENE_ROUTE23",
+    "value": "0",
+    "positions": [
+      [
+        7,
+        2
+      ]
+    ],
+    "states": 66,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route23",
+    "script": "Route23_EventScript_CascadeBadgeGuardTrigger",
+    "var": "VAR_MAP_SCENE_ROUTE23",
+    "value": "1",
+    "positions": [
+      [
+        13,
+        149
+      ],
+      [
+        12,
+        148
+      ],
+      [
+        11,
+        148
+      ],
+      [
+        14,
+        149
+      ],
+      [
+        10,
+        148
+      ]
+    ],
+    "states": 66,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route23",
+    "script": "Route23_EventScript_ThunderBadgeGuardTrigger",
+    "var": "VAR_MAP_SCENE_ROUTE23",
+    "value": "2",
+    "positions": [
+      [
+        7,
+        140
+      ],
+      [
+        4,
+        139
+      ],
+      [
+        5,
+        139
+      ],
+      [
+        6,
+        140
+      ]
+    ],
+    "states": 66,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route23",
+    "script": "Route23_EventScript_RainbowBadgeGuardTrigger",
+    "var": "VAR_MAP_SCENE_ROUTE23",
+    "value": "3",
+    "positions": [
+      [
+        12,
+        123
+      ],
+      [
+        10,
+        122
+      ],
+      [
+        11,
+        122
+      ],
+      [
+        13,
+        123
+      ]
+    ],
+    "states": 66,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route23",
+    "script": "Route23_EventScript_SoulBadgeGuardTrigger",
+    "var": "VAR_MAP_SCENE_ROUTE23",
+    "value": "4",
+    "positions": [
+      [
+        11,
+        111
+      ],
+      [
+        8,
+        109
+      ],
+      [
+        9,
+        109
+      ],
+      [
+        10,
+        109
+      ],
+      [
+        11,
+        109
+      ],
+      [
+        12,
+        109
+      ],
+      [
+        12,
+        111
+      ],
+      [
+        14,
+        112
+      ],
+      [
+        13,
+        112
+      ],
+      [
+        15,
+        112
+      ]
+    ],
+    "states": 66,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route23",
+    "script": "Route23_EventScript_MarshBadgeGuardTrigger",
+    "var": "VAR_MAP_SCENE_ROUTE23",
+    "value": "5",
+    "positions": [
+      [
+        9,
+        94
+      ],
+      [
+        8,
+        94
+      ],
+      [
+        5,
+        92
+      ],
+      [
+        7,
+        94
+      ],
+      [
+        4,
+        92
+      ],
+      [
+        3,
+        92
+      ],
+      [
+        2,
+        92
+      ]
+    ],
+    "states": 66,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route23",
+    "script": "Route23_EventScript_VolcanoBadgeGuardTrigger",
+    "var": "VAR_MAP_SCENE_ROUTE23",
+    "value": "6",
+    "positions": [
+      [
+        12,
+        61
+      ],
+      [
+        10,
+        60
+      ],
+      [
+        13,
+        61
+      ],
+      [
+        11,
+        60
+      ]
+    ],
+    "states": 66,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route23",
+    "script": "Route23_EventScript_EarthBadgeGuardTrigger",
+    "var": "VAR_MAP_SCENE_ROUTE23",
+    "value": "7",
+    "positions": [
+      [
+        1,
+        35
+      ],
+      [
+        1,
+        34
+      ],
+      [
+        1,
+        32
+      ],
+      [
+        1,
+        33
+      ],
+      [
+        1,
+        31
+      ],
+      [
+        1,
+        36
+      ],
+      [
+        5,
+        35
+      ],
+      [
+        4,
+        35
+      ]
+    ],
+    "states": 66,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route24",
+    "script": "Route24_EventScript_RocketTriggerLeft",
+    "var": "VAR_MAP_SCENE_ROUTE24",
+    "value": "0",
+    "positions": [
+      [
+        10,
+        15
+      ]
+    ],
+    "states": 40,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route24",
+    "script": "Route24_EventScript_RocketTriggerRight",
+    "var": "VAR_MAP_SCENE_ROUTE24",
+    "value": "0",
+    "positions": [
+      [
+        11,
+        15
+      ]
+    ],
+    "states": 40,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route5_SouthEntrance",
+    "script": "Route5_SouthEntrance_EventScript_GuardTriggerLeft",
+    "var": "VAR_MAP_SCENE_ROUTE5_ROUTE6_ROUTE7_ROUTE8_GATES",
+    "value": "0",
+    "positions": [
+      [
+        3,
+        5
+      ]
+    ],
+    "states": 33,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route5_SouthEntrance",
+    "script": "Route5_SouthEntrance_EventScript_GuardTriggerMid",
+    "var": "VAR_MAP_SCENE_ROUTE5_ROUTE6_ROUTE7_ROUTE8_GATES",
+    "value": "0",
+    "positions": [
+      [
+        4,
+        5
+      ]
+    ],
+    "states": 33,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route5_SouthEntrance",
+    "script": "Route5_SouthEntrance_EventScript_GuardTriggerRight",
+    "var": "VAR_MAP_SCENE_ROUTE5_ROUTE6_ROUTE7_ROUTE8_GATES",
+    "value": "0",
+    "positions": [
+      [
+        5,
+        5
+      ]
+    ],
+    "states": 33,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route6_NorthEntrance",
+    "script": "Route6_NorthEntrance_EventScript_GuardTriggerLeft",
+    "var": "VAR_MAP_SCENE_ROUTE5_ROUTE6_ROUTE7_ROUTE8_GATES",
+    "value": "0",
+    "positions": [
+      [
+        3,
+        5
+      ]
+    ],
+    "states": 33,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route6_NorthEntrance",
+    "script": "Route6_NorthEntrance_EventScript_GuardTriggerMid",
+    "var": "VAR_MAP_SCENE_ROUTE5_ROUTE6_ROUTE7_ROUTE8_GATES",
+    "value": "0",
+    "positions": [
+      [
+        4,
+        5
+      ]
+    ],
+    "states": 33,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route6_NorthEntrance",
+    "script": "Route6_NorthEntrance_EventScript_GuardTriggerRight",
+    "var": "VAR_MAP_SCENE_ROUTE5_ROUTE6_ROUTE7_ROUTE8_GATES",
+    "value": "0",
+    "positions": [
+      [
+        5,
+        5
+      ]
+    ],
+    "states": 33,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route7_EastEntrance",
+    "script": "Route7_EastEntrance_EventScript_GuardTriggerTop",
+    "var": "VAR_MAP_SCENE_ROUTE5_ROUTE6_ROUTE7_ROUTE8_GATES",
+    "value": "0",
+    "positions": [
+      [
+        6,
+        4
+      ]
+    ],
+    "states": 33,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route7_EastEntrance",
+    "script": "Route7_EastEntrance_EventScript_GuardTriggerMid",
+    "var": "VAR_MAP_SCENE_ROUTE5_ROUTE6_ROUTE7_ROUTE8_GATES",
+    "value": "0",
+    "positions": [
+      [
+        6,
+        5
+      ]
+    ],
+    "states": 33,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route7_EastEntrance",
+    "script": "Route7_EastEntrance_EventScript_GuardTriggerBottom",
+    "var": "VAR_MAP_SCENE_ROUTE5_ROUTE6_ROUTE7_ROUTE8_GATES",
+    "value": "0",
+    "positions": [
+      [
+        6,
+        6
+      ]
+    ],
+    "states": 33,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route8_WestEntrance",
+    "script": "Route8_WestEntrance_EventScript_GuardTriggerTop",
+    "var": "VAR_MAP_SCENE_ROUTE5_ROUTE6_ROUTE7_ROUTE8_GATES",
+    "value": "0",
+    "positions": [
+      [
+        6,
+        4
+      ]
+    ],
+    "states": 33,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route8_WestEntrance",
+    "script": "Route8_WestEntrance_EventScript_GuardTriggerMid",
+    "var": "VAR_MAP_SCENE_ROUTE5_ROUTE6_ROUTE7_ROUTE8_GATES",
+    "value": "0",
+    "positions": [
+      [
+        6,
+        5
+      ]
+    ],
+    "states": 33,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "Route8_WestEntrance",
+    "script": "Route8_WestEntrance_EventScript_GuardTriggerBottom",
+    "var": "VAR_MAP_SCENE_ROUTE5_ROUTE6_ROUTE7_ROUTE8_GATES",
+    "value": "0",
+    "positions": [
+      [
+        6,
+        6
+      ]
+    ],
+    "states": 33,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "SSAnne_2F_Corridor",
+    "script": "SSAnne_2F_Corridor_EventScript_RivalTriggerLeft",
+    "var": "VAR_MAP_SCENE_S_S_ANNE_2F_CORRIDOR",
+    "value": "0",
+    "positions": [
+      [
+        30,
+        6
+      ]
+    ],
+    "states": 58,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "SSAnne_2F_Corridor",
+    "script": "SSAnne_2F_Corridor_EventScript_RivalTriggerMid",
+    "var": "VAR_MAP_SCENE_S_S_ANNE_2F_CORRIDOR",
+    "value": "0",
+    "positions": [
+      [
+        31,
+        6
+      ]
+    ],
+    "states": 58,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "SSAnne_2F_Corridor",
+    "script": "SSAnne_2F_Corridor_EventScript_RivalTriggerRight",
+    "var": "VAR_MAP_SCENE_S_S_ANNE_2F_CORRIDOR",
+    "value": "0",
+    "positions": [
+      [
+        32,
+        6
+      ]
+    ],
+    "states": 58,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "SaffronCity_Dojo",
+    "script": "SaffronCity_Dojo_EventScript_TriggerMasterBattleLeft",
+    "var": "VAR_MAP_SCENE_SAFFRON_CITY_DOJO",
+    "value": "0",
+    "positions": [
+      [
+        5,
+        5
+      ]
+    ],
+    "states": 6,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "SaffronCity_Dojo",
+    "script": "SaffronCity_Dojo_EventScript_TriggerMasterBattleRight",
+    "var": "VAR_MAP_SCENE_SAFFRON_CITY_DOJO",
+    "value": "0",
+    "positions": [
+      [
+        7,
+        5
+      ]
+    ],
+    "states": 6,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "SeafoamIslands_B4F",
+    "script": "SeafoamIslands_B4F_EventScript_UpwardCurrent",
+    "var": "VAR_MAP_SCENE_SEAFOAM_ISLANDS_B4F",
+    "value": "0",
+    "positions": [
+      [
+        26,
+        19
+      ],
+      [
+        27,
+        19
+      ],
+      [
+        28,
+        19
+      ]
+    ],
+    "states": 5,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "SevenIsland_SevaultCanyon_TanobyKey",
+    "script": "SevenIsland_SevaultCanyon_TanobyKey_EventScript_Switch1",
+    "var": "VAR_TEMP_1",
+    "value": "99",
+    "positions": [
+      [
+        7,
+        2
+      ]
+    ],
+    "states": 38,
+    "ends": 3,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "SevenIsland_SevaultCanyon_TanobyKey",
+    "script": "SevenIsland_SevaultCanyon_TanobyKey_EventScript_Switch7",
+    "var": "VAR_TEMP_7",
+    "value": "99",
+    "positions": [
+      [
+        9,
+        8
+      ]
+    ],
+    "states": 38,
+    "ends": 3,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "SevenIsland_SevaultCanyon_TanobyKey",
+    "script": "SevenIsland_SevaultCanyon_TanobyKey_EventScript_Switch6",
+    "var": "VAR_TEMP_6",
+    "value": "99",
+    "positions": [
+      [
+        5,
+        8
+      ]
+    ],
+    "states": 38,
+    "ends": 3,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "SevenIsland_SevaultCanyon_TanobyKey",
+    "script": "SevenIsland_SevaultCanyon_TanobyKey_EventScript_Switch5",
+    "var": "VAR_TEMP_5",
+    "value": "99",
+    "positions": [
+      [
+        9,
+        6
+      ]
+    ],
+    "states": 38,
+    "ends": 3,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "SevenIsland_SevaultCanyon_TanobyKey",
+    "script": "SevenIsland_SevaultCanyon_TanobyKey_EventScript_Switch4",
+    "var": "VAR_TEMP_4",
+    "value": "99",
+    "positions": [
+      [
+        5,
+        6
+      ]
+    ],
+    "states": 38,
+    "ends": 3,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "SevenIsland_SevaultCanyon_TanobyKey",
+    "script": "SevenIsland_SevaultCanyon_TanobyKey_EventScript_Switch3",
+    "var": "VAR_TEMP_3",
+    "value": "99",
+    "positions": [
+      [
+        10,
+        4
+      ]
+    ],
+    "states": 38,
+    "ends": 3,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "SevenIsland_SevaultCanyon_TanobyKey",
+    "script": "SevenIsland_SevaultCanyon_TanobyKey_EventScript_Switch2",
+    "var": "VAR_TEMP_2",
+    "value": "99",
+    "positions": [
+      [
+        4,
+        4
+      ]
+    ],
+    "states": 38,
+    "ends": 3,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "SilphCo_11F",
+    "script": "SilphCo_11F_EventScript_GiovanniTriggerLeft",
+    "var": "VAR_MAP_SCENE_SILPH_CO_11F",
+    "value": "0",
+    "positions": [
+      [
+        5,
+        15
+      ]
+    ],
+    "states": 33,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "SilphCo_11F",
+    "script": "SilphCo_11F_EventScript_GiovanniTriggerRight",
+    "var": "VAR_MAP_SCENE_SILPH_CO_11F",
+    "value": "0",
+    "positions": [
+      [
+        6,
+        15
+      ]
+    ],
+    "states": 33,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "SilphCo_7F",
+    "script": "SilphCo_7F_EventScript_RivalTriggerTop",
+    "var": "VAR_MAP_SCENE_SILPH_CO_7F",
+    "value": "0",
+    "positions": [
+      [
+        2,
+        4
+      ]
+    ],
+    "states": 47,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "SilphCo_7F",
+    "script": "SilphCo_7F_EventScript_RivalTriggerBottom",
+    "var": "VAR_MAP_SCENE_SILPH_CO_7F",
+    "value": "0",
+    "positions": [
+      [
+        2,
+        5
+      ]
+    ],
+    "states": 47,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "ThreeIsland",
+    "script": "ThreeIsland_EventScript_BikerBossIntroTrigger",
+    "var": "VAR_MAP_SCENE_THREE_ISLAND",
+    "value": "2",
+    "positions": [
+      [
+        7,
+        27
+      ],
+      [
+        8,
+        27
+      ],
+      [
+        9,
+        27
+      ],
+      [
+        10,
+        27
+      ],
+      [
+        11,
+        27
+      ]
+    ],
+    "states": 20,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "ThreeIsland",
+    "script": "ThreeIsland_EventScript_BattleBikersTriggerLeft",
+    "var": "VAR_MAP_SCENE_THREE_ISLAND",
+    "value": "3",
+    "positions": [
+      [
+        7,
+        26
+      ]
+    ],
+    "states": 102,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "ThreeIsland",
+    "script": "ThreeIsland_EventScript_BattleBikersTriggerMidLeft",
+    "var": "VAR_MAP_SCENE_THREE_ISLAND",
+    "value": "3",
+    "positions": [
+      [
+        8,
+        26
+      ]
+    ],
+    "states": 102,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "ThreeIsland",
+    "script": "ThreeIsland_EventScript_BattleBikersTriggerMid",
+    "var": "VAR_MAP_SCENE_THREE_ISLAND",
+    "value": "3",
+    "positions": [
+      [
+        9,
+        26
+      ]
+    ],
+    "states": 102,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "ThreeIsland",
+    "script": "ThreeIsland_EventScript_BattleBikersTriggerMidRight",
+    "var": "VAR_MAP_SCENE_THREE_ISLAND",
+    "value": "3",
+    "positions": [
+      [
+        10,
+        26
+      ]
+    ],
+    "states": 102,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "ThreeIsland",
+    "script": "ThreeIsland_EventScript_BattleBikersTriggerRight",
+    "var": "VAR_MAP_SCENE_THREE_ISLAND",
+    "value": "3",
+    "positions": [
+      [
+        11,
+        26
+      ]
+    ],
+    "states": 102,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "TradeCenter",
+    "script": "TradeCenter_EventScript_Chair0",
+    "var": "VAR_TEMP_0",
+    "value": "0",
+    "positions": [
+      [
+        4,
+        5
+      ]
+    ],
+    "states": 5,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": [
+      {
+        "specials": [
+          "special EnterTradeSeat",
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/cable_club.inc:638 setvar VAR_0x8005,0",
+          "data/scripts/cable_club.inc:639 textcolor NPC_TEXT_COLOR_NEUTRAL",
+          "data/scripts/cable_club.inc:640 special EnterTradeSeat",
+          "data/scripts/cable_club.inc:641 waitstate ",
+          "data/scripts/cable_club.inc:642 end "
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "coordinate",
+    "map": "TradeCenter",
+    "script": "TradeCenter_EventScript_Chair1",
+    "var": "VAR_TEMP_0",
+    "value": "0",
+    "positions": [
+      [
+        7,
+        5
+      ]
+    ],
+    "states": 5,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": [
+      {
+        "specials": [
+          "special EnterTradeSeat",
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/cable_club.inc:645 setvar VAR_0x8005,1",
+          "data/scripts/cable_club.inc:646 textcolor NPC_TEXT_COLOR_NEUTRAL",
+          "data/scripts/cable_club.inc:647 special EnterTradeSeat",
+          "data/scripts/cable_club.inc:648 waitstate ",
+          "data/scripts/cable_club.inc:649 end "
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_1F",
+    "script": "TrainerTower_EventScript_SingleBattleTrigger",
+    "var": "VAR_TEMP_E",
+    "value": "0",
+    "positions": [
+      [
+        10,
+        13
+      ]
+    ],
+    "states": 243,
+    "ends": 6,
+    "unsafe_paths": [],
+    "manual_paths": [
+      {
+        "specials": [
+          "special CallTrainerTowerFunc",
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/trainer_tower.inc:128 special CallTrainerTowerFunc",
+          "data/scripts/trainer_tower.inc:129 msgbox gStringVar4",
+          "data/scripts/trainer_tower.inc:130 closemessage ",
+          "data/scripts/trainer_tower.inc:131 goto TrainerTower_EventScript_DoBattle",
+          "data/scripts/trainer_tower.inc:172 ttower_dobattle ",
+          "data/scripts/trainer_tower.inc:173 waitstate ",
+          "data/scripts/trainer_tower.inc:174 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:175 case B_OUTCOME_WON,TrainerTower_EventScript_WonBattle",
+          "data/scripts/trainer_tower.inc:179 ttower_getchallengetype ",
+          "data/scripts/trainer_tower.inc:180 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:181 case CHALLENGE_TYPE_SINGLE,TrainerTower_EventScript_SetFloorCleared",
+          "data/scripts/trainer_tower.inc:208 ttower_clearedfloor ",
+          "data/scripts/trainer_tower.inc:209 end "
+        ]
+      },
+      {
+        "specials": [
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/trainer_tower.inc:147 goto TrainerTower_EventScript_DoKnockoutBattleIntro",
+          "data/scripts/trainer_tower.inc:168 ttower_getspeech TRAINER_TOWER_TEXT_INTRO,VAR_TEMP_1",
+          "data/scripts/trainer_tower.inc:169 msgbox gStringVar4",
+          "data/scripts/trainer_tower.inc:170 closemessage ",
+          "data/scripts/trainer_tower.inc:172 ttower_dobattle ",
+          "data/scripts/trainer_tower.inc:173 waitstate ",
+          "data/scripts/trainer_tower.inc:174 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:175 case B_OUTCOME_WON,TrainerTower_EventScript_WonBattle",
+          "data/scripts/trainer_tower.inc:179 ttower_getchallengetype ",
+          "data/scripts/trainer_tower.inc:180 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:181 case CHALLENGE_TYPE_SINGLE,TrainerTower_EventScript_SetFloorCleared",
+          "data/scripts/trainer_tower.inc:208 ttower_clearedfloor ",
+          "data/scripts/trainer_tower.inc:209 end "
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_1F",
+    "script": "TrainerTower_EventScript_DoubleBattleTriggerTop",
+    "var": "VAR_TEMP_F",
+    "value": "0",
+    "positions": [
+      [
+        9,
+        12
+      ]
+    ],
+    "states": 200,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_1F",
+    "script": "TrainerTower_EventScript_DoubleBattleTriggerBottom",
+    "var": "VAR_TEMP_F",
+    "value": "0",
+    "positions": [
+      [
+        9,
+        13
+      ]
+    ],
+    "states": 199,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_2F",
+    "script": "TrainerTower_EventScript_SingleBattleTrigger",
+    "var": "VAR_TEMP_E",
+    "value": "0",
+    "positions": [
+      [
+        10,
+        13
+      ]
+    ],
+    "states": 243,
+    "ends": 6,
+    "unsafe_paths": [],
+    "manual_paths": [
+      {
+        "specials": [
+          "special CallTrainerTowerFunc",
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/trainer_tower.inc:128 special CallTrainerTowerFunc",
+          "data/scripts/trainer_tower.inc:129 msgbox gStringVar4",
+          "data/scripts/trainer_tower.inc:130 closemessage ",
+          "data/scripts/trainer_tower.inc:131 goto TrainerTower_EventScript_DoBattle",
+          "data/scripts/trainer_tower.inc:172 ttower_dobattle ",
+          "data/scripts/trainer_tower.inc:173 waitstate ",
+          "data/scripts/trainer_tower.inc:174 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:175 case B_OUTCOME_WON,TrainerTower_EventScript_WonBattle",
+          "data/scripts/trainer_tower.inc:179 ttower_getchallengetype ",
+          "data/scripts/trainer_tower.inc:180 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:181 case CHALLENGE_TYPE_SINGLE,TrainerTower_EventScript_SetFloorCleared",
+          "data/scripts/trainer_tower.inc:208 ttower_clearedfloor ",
+          "data/scripts/trainer_tower.inc:209 end "
+        ]
+      },
+      {
+        "specials": [
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/trainer_tower.inc:147 goto TrainerTower_EventScript_DoKnockoutBattleIntro",
+          "data/scripts/trainer_tower.inc:168 ttower_getspeech TRAINER_TOWER_TEXT_INTRO,VAR_TEMP_1",
+          "data/scripts/trainer_tower.inc:169 msgbox gStringVar4",
+          "data/scripts/trainer_tower.inc:170 closemessage ",
+          "data/scripts/trainer_tower.inc:172 ttower_dobattle ",
+          "data/scripts/trainer_tower.inc:173 waitstate ",
+          "data/scripts/trainer_tower.inc:174 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:175 case B_OUTCOME_WON,TrainerTower_EventScript_WonBattle",
+          "data/scripts/trainer_tower.inc:179 ttower_getchallengetype ",
+          "data/scripts/trainer_tower.inc:180 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:181 case CHALLENGE_TYPE_SINGLE,TrainerTower_EventScript_SetFloorCleared",
+          "data/scripts/trainer_tower.inc:208 ttower_clearedfloor ",
+          "data/scripts/trainer_tower.inc:209 end "
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_2F",
+    "script": "TrainerTower_EventScript_DoubleBattleTriggerTop",
+    "var": "VAR_TEMP_F",
+    "value": "0",
+    "positions": [
+      [
+        9,
+        12
+      ]
+    ],
+    "states": 200,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_2F",
+    "script": "TrainerTower_EventScript_DoubleBattleTriggerBottom",
+    "var": "VAR_TEMP_F",
+    "value": "0",
+    "positions": [
+      [
+        9,
+        13
+      ]
+    ],
+    "states": 199,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_3F",
+    "script": "TrainerTower_EventScript_SingleBattleTrigger",
+    "var": "VAR_TEMP_E",
+    "value": "0",
+    "positions": [
+      [
+        10,
+        13
+      ]
+    ],
+    "states": 243,
+    "ends": 6,
+    "unsafe_paths": [],
+    "manual_paths": [
+      {
+        "specials": [
+          "special CallTrainerTowerFunc",
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/trainer_tower.inc:128 special CallTrainerTowerFunc",
+          "data/scripts/trainer_tower.inc:129 msgbox gStringVar4",
+          "data/scripts/trainer_tower.inc:130 closemessage ",
+          "data/scripts/trainer_tower.inc:131 goto TrainerTower_EventScript_DoBattle",
+          "data/scripts/trainer_tower.inc:172 ttower_dobattle ",
+          "data/scripts/trainer_tower.inc:173 waitstate ",
+          "data/scripts/trainer_tower.inc:174 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:175 case B_OUTCOME_WON,TrainerTower_EventScript_WonBattle",
+          "data/scripts/trainer_tower.inc:179 ttower_getchallengetype ",
+          "data/scripts/trainer_tower.inc:180 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:181 case CHALLENGE_TYPE_SINGLE,TrainerTower_EventScript_SetFloorCleared",
+          "data/scripts/trainer_tower.inc:208 ttower_clearedfloor ",
+          "data/scripts/trainer_tower.inc:209 end "
+        ]
+      },
+      {
+        "specials": [
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/trainer_tower.inc:147 goto TrainerTower_EventScript_DoKnockoutBattleIntro",
+          "data/scripts/trainer_tower.inc:168 ttower_getspeech TRAINER_TOWER_TEXT_INTRO,VAR_TEMP_1",
+          "data/scripts/trainer_tower.inc:169 msgbox gStringVar4",
+          "data/scripts/trainer_tower.inc:170 closemessage ",
+          "data/scripts/trainer_tower.inc:172 ttower_dobattle ",
+          "data/scripts/trainer_tower.inc:173 waitstate ",
+          "data/scripts/trainer_tower.inc:174 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:175 case B_OUTCOME_WON,TrainerTower_EventScript_WonBattle",
+          "data/scripts/trainer_tower.inc:179 ttower_getchallengetype ",
+          "data/scripts/trainer_tower.inc:180 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:181 case CHALLENGE_TYPE_SINGLE,TrainerTower_EventScript_SetFloorCleared",
+          "data/scripts/trainer_tower.inc:208 ttower_clearedfloor ",
+          "data/scripts/trainer_tower.inc:209 end "
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_3F",
+    "script": "TrainerTower_EventScript_DoubleBattleTriggerTop",
+    "var": "VAR_TEMP_F",
+    "value": "0",
+    "positions": [
+      [
+        9,
+        12
+      ]
+    ],
+    "states": 200,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_3F",
+    "script": "TrainerTower_EventScript_DoubleBattleTriggerBottom",
+    "var": "VAR_TEMP_F",
+    "value": "0",
+    "positions": [
+      [
+        9,
+        13
+      ]
+    ],
+    "states": 199,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_4F",
+    "script": "TrainerTower_EventScript_SingleBattleTrigger",
+    "var": "VAR_TEMP_E",
+    "value": "0",
+    "positions": [
+      [
+        10,
+        13
+      ]
+    ],
+    "states": 243,
+    "ends": 6,
+    "unsafe_paths": [],
+    "manual_paths": [
+      {
+        "specials": [
+          "special CallTrainerTowerFunc",
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/trainer_tower.inc:128 special CallTrainerTowerFunc",
+          "data/scripts/trainer_tower.inc:129 msgbox gStringVar4",
+          "data/scripts/trainer_tower.inc:130 closemessage ",
+          "data/scripts/trainer_tower.inc:131 goto TrainerTower_EventScript_DoBattle",
+          "data/scripts/trainer_tower.inc:172 ttower_dobattle ",
+          "data/scripts/trainer_tower.inc:173 waitstate ",
+          "data/scripts/trainer_tower.inc:174 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:175 case B_OUTCOME_WON,TrainerTower_EventScript_WonBattle",
+          "data/scripts/trainer_tower.inc:179 ttower_getchallengetype ",
+          "data/scripts/trainer_tower.inc:180 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:181 case CHALLENGE_TYPE_SINGLE,TrainerTower_EventScript_SetFloorCleared",
+          "data/scripts/trainer_tower.inc:208 ttower_clearedfloor ",
+          "data/scripts/trainer_tower.inc:209 end "
+        ]
+      },
+      {
+        "specials": [
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/trainer_tower.inc:147 goto TrainerTower_EventScript_DoKnockoutBattleIntro",
+          "data/scripts/trainer_tower.inc:168 ttower_getspeech TRAINER_TOWER_TEXT_INTRO,VAR_TEMP_1",
+          "data/scripts/trainer_tower.inc:169 msgbox gStringVar4",
+          "data/scripts/trainer_tower.inc:170 closemessage ",
+          "data/scripts/trainer_tower.inc:172 ttower_dobattle ",
+          "data/scripts/trainer_tower.inc:173 waitstate ",
+          "data/scripts/trainer_tower.inc:174 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:175 case B_OUTCOME_WON,TrainerTower_EventScript_WonBattle",
+          "data/scripts/trainer_tower.inc:179 ttower_getchallengetype ",
+          "data/scripts/trainer_tower.inc:180 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:181 case CHALLENGE_TYPE_SINGLE,TrainerTower_EventScript_SetFloorCleared",
+          "data/scripts/trainer_tower.inc:208 ttower_clearedfloor ",
+          "data/scripts/trainer_tower.inc:209 end "
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_4F",
+    "script": "TrainerTower_EventScript_DoubleBattleTriggerTop",
+    "var": "VAR_TEMP_F",
+    "value": "0",
+    "positions": [
+      [
+        9,
+        12
+      ]
+    ],
+    "states": 200,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_4F",
+    "script": "TrainerTower_EventScript_DoubleBattleTriggerBottom",
+    "var": "VAR_TEMP_F",
+    "value": "0",
+    "positions": [
+      [
+        9,
+        13
+      ]
+    ],
+    "states": 199,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_5F",
+    "script": "TrainerTower_EventScript_SingleBattleTrigger",
+    "var": "VAR_TEMP_E",
+    "value": "0",
+    "positions": [
+      [
+        10,
+        13
+      ]
+    ],
+    "states": 243,
+    "ends": 6,
+    "unsafe_paths": [],
+    "manual_paths": [
+      {
+        "specials": [
+          "special CallTrainerTowerFunc",
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/trainer_tower.inc:128 special CallTrainerTowerFunc",
+          "data/scripts/trainer_tower.inc:129 msgbox gStringVar4",
+          "data/scripts/trainer_tower.inc:130 closemessage ",
+          "data/scripts/trainer_tower.inc:131 goto TrainerTower_EventScript_DoBattle",
+          "data/scripts/trainer_tower.inc:172 ttower_dobattle ",
+          "data/scripts/trainer_tower.inc:173 waitstate ",
+          "data/scripts/trainer_tower.inc:174 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:175 case B_OUTCOME_WON,TrainerTower_EventScript_WonBattle",
+          "data/scripts/trainer_tower.inc:179 ttower_getchallengetype ",
+          "data/scripts/trainer_tower.inc:180 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:181 case CHALLENGE_TYPE_SINGLE,TrainerTower_EventScript_SetFloorCleared",
+          "data/scripts/trainer_tower.inc:208 ttower_clearedfloor ",
+          "data/scripts/trainer_tower.inc:209 end "
+        ]
+      },
+      {
+        "specials": [
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/trainer_tower.inc:147 goto TrainerTower_EventScript_DoKnockoutBattleIntro",
+          "data/scripts/trainer_tower.inc:168 ttower_getspeech TRAINER_TOWER_TEXT_INTRO,VAR_TEMP_1",
+          "data/scripts/trainer_tower.inc:169 msgbox gStringVar4",
+          "data/scripts/trainer_tower.inc:170 closemessage ",
+          "data/scripts/trainer_tower.inc:172 ttower_dobattle ",
+          "data/scripts/trainer_tower.inc:173 waitstate ",
+          "data/scripts/trainer_tower.inc:174 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:175 case B_OUTCOME_WON,TrainerTower_EventScript_WonBattle",
+          "data/scripts/trainer_tower.inc:179 ttower_getchallengetype ",
+          "data/scripts/trainer_tower.inc:180 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:181 case CHALLENGE_TYPE_SINGLE,TrainerTower_EventScript_SetFloorCleared",
+          "data/scripts/trainer_tower.inc:208 ttower_clearedfloor ",
+          "data/scripts/trainer_tower.inc:209 end "
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_5F",
+    "script": "TrainerTower_EventScript_DoubleBattleTriggerTop",
+    "var": "VAR_TEMP_F",
+    "value": "0",
+    "positions": [
+      [
+        9,
+        12
+      ]
+    ],
+    "states": 200,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_5F",
+    "script": "TrainerTower_EventScript_DoubleBattleTriggerBottom",
+    "var": "VAR_TEMP_F",
+    "value": "0",
+    "positions": [
+      [
+        9,
+        13
+      ]
+    ],
+    "states": 199,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_6F",
+    "script": "TrainerTower_EventScript_SingleBattleTrigger",
+    "var": "VAR_TEMP_E",
+    "value": "0",
+    "positions": [
+      [
+        10,
+        13
+      ]
+    ],
+    "states": 243,
+    "ends": 6,
+    "unsafe_paths": [],
+    "manual_paths": [
+      {
+        "specials": [
+          "special CallTrainerTowerFunc",
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/trainer_tower.inc:128 special CallTrainerTowerFunc",
+          "data/scripts/trainer_tower.inc:129 msgbox gStringVar4",
+          "data/scripts/trainer_tower.inc:130 closemessage ",
+          "data/scripts/trainer_tower.inc:131 goto TrainerTower_EventScript_DoBattle",
+          "data/scripts/trainer_tower.inc:172 ttower_dobattle ",
+          "data/scripts/trainer_tower.inc:173 waitstate ",
+          "data/scripts/trainer_tower.inc:174 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:175 case B_OUTCOME_WON,TrainerTower_EventScript_WonBattle",
+          "data/scripts/trainer_tower.inc:179 ttower_getchallengetype ",
+          "data/scripts/trainer_tower.inc:180 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:181 case CHALLENGE_TYPE_SINGLE,TrainerTower_EventScript_SetFloorCleared",
+          "data/scripts/trainer_tower.inc:208 ttower_clearedfloor ",
+          "data/scripts/trainer_tower.inc:209 end "
+        ]
+      },
+      {
+        "specials": [
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/trainer_tower.inc:147 goto TrainerTower_EventScript_DoKnockoutBattleIntro",
+          "data/scripts/trainer_tower.inc:168 ttower_getspeech TRAINER_TOWER_TEXT_INTRO,VAR_TEMP_1",
+          "data/scripts/trainer_tower.inc:169 msgbox gStringVar4",
+          "data/scripts/trainer_tower.inc:170 closemessage ",
+          "data/scripts/trainer_tower.inc:172 ttower_dobattle ",
+          "data/scripts/trainer_tower.inc:173 waitstate ",
+          "data/scripts/trainer_tower.inc:174 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:175 case B_OUTCOME_WON,TrainerTower_EventScript_WonBattle",
+          "data/scripts/trainer_tower.inc:179 ttower_getchallengetype ",
+          "data/scripts/trainer_tower.inc:180 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:181 case CHALLENGE_TYPE_SINGLE,TrainerTower_EventScript_SetFloorCleared",
+          "data/scripts/trainer_tower.inc:208 ttower_clearedfloor ",
+          "data/scripts/trainer_tower.inc:209 end "
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_6F",
+    "script": "TrainerTower_EventScript_DoubleBattleTriggerTop",
+    "var": "VAR_TEMP_F",
+    "value": "0",
+    "positions": [
+      [
+        9,
+        12
+      ]
+    ],
+    "states": 200,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_6F",
+    "script": "TrainerTower_EventScript_DoubleBattleTriggerBottom",
+    "var": "VAR_TEMP_F",
+    "value": "0",
+    "positions": [
+      [
+        9,
+        13
+      ]
+    ],
+    "states": 199,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_7F",
+    "script": "TrainerTower_EventScript_SingleBattleTrigger",
+    "var": "VAR_TEMP_E",
+    "value": "0",
+    "positions": [
+      [
+        10,
+        13
+      ]
+    ],
+    "states": 243,
+    "ends": 6,
+    "unsafe_paths": [],
+    "manual_paths": [
+      {
+        "specials": [
+          "special CallTrainerTowerFunc",
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/trainer_tower.inc:128 special CallTrainerTowerFunc",
+          "data/scripts/trainer_tower.inc:129 msgbox gStringVar4",
+          "data/scripts/trainer_tower.inc:130 closemessage ",
+          "data/scripts/trainer_tower.inc:131 goto TrainerTower_EventScript_DoBattle",
+          "data/scripts/trainer_tower.inc:172 ttower_dobattle ",
+          "data/scripts/trainer_tower.inc:173 waitstate ",
+          "data/scripts/trainer_tower.inc:174 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:175 case B_OUTCOME_WON,TrainerTower_EventScript_WonBattle",
+          "data/scripts/trainer_tower.inc:179 ttower_getchallengetype ",
+          "data/scripts/trainer_tower.inc:180 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:181 case CHALLENGE_TYPE_SINGLE,TrainerTower_EventScript_SetFloorCleared",
+          "data/scripts/trainer_tower.inc:208 ttower_clearedfloor ",
+          "data/scripts/trainer_tower.inc:209 end "
+        ]
+      },
+      {
+        "specials": [
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/trainer_tower.inc:147 goto TrainerTower_EventScript_DoKnockoutBattleIntro",
+          "data/scripts/trainer_tower.inc:168 ttower_getspeech TRAINER_TOWER_TEXT_INTRO,VAR_TEMP_1",
+          "data/scripts/trainer_tower.inc:169 msgbox gStringVar4",
+          "data/scripts/trainer_tower.inc:170 closemessage ",
+          "data/scripts/trainer_tower.inc:172 ttower_dobattle ",
+          "data/scripts/trainer_tower.inc:173 waitstate ",
+          "data/scripts/trainer_tower.inc:174 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:175 case B_OUTCOME_WON,TrainerTower_EventScript_WonBattle",
+          "data/scripts/trainer_tower.inc:179 ttower_getchallengetype ",
+          "data/scripts/trainer_tower.inc:180 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:181 case CHALLENGE_TYPE_SINGLE,TrainerTower_EventScript_SetFloorCleared",
+          "data/scripts/trainer_tower.inc:208 ttower_clearedfloor ",
+          "data/scripts/trainer_tower.inc:209 end "
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_7F",
+    "script": "TrainerTower_EventScript_DoubleBattleTriggerTop",
+    "var": "VAR_TEMP_F",
+    "value": "0",
+    "positions": [
+      [
+        9,
+        12
+      ]
+    ],
+    "states": 200,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_7F",
+    "script": "TrainerTower_EventScript_DoubleBattleTriggerBottom",
+    "var": "VAR_TEMP_F",
+    "value": "0",
+    "positions": [
+      [
+        9,
+        13
+      ]
+    ],
+    "states": 199,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_8F",
+    "script": "TrainerTower_EventScript_SingleBattleTrigger",
+    "var": "VAR_TEMP_E",
+    "value": "0",
+    "positions": [
+      [
+        10,
+        13
+      ]
+    ],
+    "states": 243,
+    "ends": 6,
+    "unsafe_paths": [],
+    "manual_paths": [
+      {
+        "specials": [
+          "special CallTrainerTowerFunc",
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/trainer_tower.inc:128 special CallTrainerTowerFunc",
+          "data/scripts/trainer_tower.inc:129 msgbox gStringVar4",
+          "data/scripts/trainer_tower.inc:130 closemessage ",
+          "data/scripts/trainer_tower.inc:131 goto TrainerTower_EventScript_DoBattle",
+          "data/scripts/trainer_tower.inc:172 ttower_dobattle ",
+          "data/scripts/trainer_tower.inc:173 waitstate ",
+          "data/scripts/trainer_tower.inc:174 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:175 case B_OUTCOME_WON,TrainerTower_EventScript_WonBattle",
+          "data/scripts/trainer_tower.inc:179 ttower_getchallengetype ",
+          "data/scripts/trainer_tower.inc:180 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:181 case CHALLENGE_TYPE_SINGLE,TrainerTower_EventScript_SetFloorCleared",
+          "data/scripts/trainer_tower.inc:208 ttower_clearedfloor ",
+          "data/scripts/trainer_tower.inc:209 end "
+        ]
+      },
+      {
+        "specials": [
+          "waitstate "
+        ],
+        "trace": [
+          "data/scripts/trainer_tower.inc:147 goto TrainerTower_EventScript_DoKnockoutBattleIntro",
+          "data/scripts/trainer_tower.inc:168 ttower_getspeech TRAINER_TOWER_TEXT_INTRO,VAR_TEMP_1",
+          "data/scripts/trainer_tower.inc:169 msgbox gStringVar4",
+          "data/scripts/trainer_tower.inc:170 closemessage ",
+          "data/scripts/trainer_tower.inc:172 ttower_dobattle ",
+          "data/scripts/trainer_tower.inc:173 waitstate ",
+          "data/scripts/trainer_tower.inc:174 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:175 case B_OUTCOME_WON,TrainerTower_EventScript_WonBattle",
+          "data/scripts/trainer_tower.inc:179 ttower_getchallengetype ",
+          "data/scripts/trainer_tower.inc:180 switch VAR_RESULT",
+          "data/scripts/trainer_tower.inc:181 case CHALLENGE_TYPE_SINGLE,TrainerTower_EventScript_SetFloorCleared",
+          "data/scripts/trainer_tower.inc:208 ttower_clearedfloor ",
+          "data/scripts/trainer_tower.inc:209 end "
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_8F",
+    "script": "TrainerTower_EventScript_DoubleBattleTriggerTop",
+    "var": "VAR_TEMP_F",
+    "value": "0",
+    "positions": [
+      [
+        9,
+        12
+      ]
+    ],
+    "states": 200,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_8F",
+    "script": "TrainerTower_EventScript_DoubleBattleTriggerBottom",
+    "var": "VAR_TEMP_F",
+    "value": "0",
+    "positions": [
+      [
+        9,
+        13
+      ]
+    ],
+    "states": 199,
+    "ends": 5,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "TrainerTower_Lobby",
+    "script": "TrainerTower_Lobby_EventScript_EntryTrigger",
+    "var": "VAR_MAP_SCENE_TRAINER_TOWER",
+    "value": "0",
+    "positions": [
+      [
+        9,
+        7
+      ]
+    ],
+    "states": 42,
+    "ends": 4,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "VermilionCity",
+    "script": "VermilionCity_EventScript_CheckTicketLeft",
+    "var": "VAR_VERMILION_CITY_TICKET_CHECK_TRIGGER",
+    "value": "0",
+    "positions": [
+      [
+        22,
+        33
+      ]
+    ],
+    "states": 258,
+    "ends": 23,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "VermilionCity",
+    "script": "VermilionCity_EventScript_CheckTicketRight",
+    "var": "VAR_VERMILION_CITY_TICKET_CHECK_TRIGGER",
+    "value": "0",
+    "positions": [
+      [
+        23,
+        33
+      ]
+    ],
+    "states": 258,
+    "ends": 23,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "VermilionCity",
+    "script": "VermilionCity_EventScript_ExitedTicketCheck",
+    "var": "VAR_TEMP_1",
+    "value": "0",
+    "positions": [
+      [
+        22,
+        32
+      ],
+      [
+        23,
+        32
+      ]
+    ],
+    "states": 4,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "VermilionCity_PhilosovniWarehouse",
+    "script": "Philosovni_Overhear",
+    "var": "VAR_PHILOSOVNI_STATE",
+    "value": "1",
+    "positions": [
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        9,
+        6
+      ]
+    ],
+    "states": 56,
+    "ends": 3,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "VictoryRoad_1F",
+    "script": "VictoryRoad_1F_EventScript_FloorSwitch",
+    "var": "VAR_MAP_SCENE_VICTORY_ROAD_1F",
+    "value": "99",
+    "positions": [
+      [
+        20,
+        16
+      ]
+    ],
+    "states": 13,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "VictoryRoad_2F",
+    "script": "VictoryRoad_2F_EventScript_FloorSwitch1",
+    "var": "VAR_MAP_SCENE_VICTORY_ROAD_2F_BOULDER1",
+    "value": "99",
+    "positions": [
+      [
+        2,
+        19
+      ]
+    ],
+    "states": 13,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "VictoryRoad_2F",
+    "script": "VictoryRoad_2F_EventScript_FloorSwitch2",
+    "var": "VAR_MAP_SCENE_VICTORY_ROAD_2F_BOULDER2",
+    "value": "99",
+    "positions": [
+      [
+        14,
+        19
+      ]
+    ],
+    "states": 13,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "VictoryRoad_3F",
+    "script": "VictoryRoad_3F_EventScript_FloorSwitch",
+    "var": "VAR_MAP_SCENE_VICTORY_ROAD_3F",
+    "value": "99",
+    "positions": [
+      [
+        7,
+        7
+      ]
+    ],
+    "states": 14,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "ViridianCity",
+    "script": "ViridianCity_EventScript_RoadBlocked",
+    "var": "VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN",
+    "value": "0",
+    "positions": [
+      [
+        22,
+        11
+      ]
+    ],
+    "states": 8,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "ViridianCity",
+    "script": "ViridianCity_EventScript_GymDoorLocked",
+    "var": "VAR_MAP_SCENE_VIRIDIAN_CITY_GYM_DOOR",
+    "value": "0",
+    "positions": [
+      [
+        36,
+        11
+      ]
+    ],
+    "states": 11,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "ViridianCity",
+    "script": "ViridianCity_EventScript_TutorialTriggerLeft",
+    "var": "VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN",
+    "value": "1",
+    "positions": [
+      [
+        20,
+        8
+      ]
+    ],
+    "states": 24,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "coordinate",
+    "map": "ViridianCity",
+    "script": "ViridianCity_EventScript_TutorialTriggerRight",
+    "var": "VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN",
+    "value": "1",
+    "positions": [
+      [
+        22,
+        8
+      ]
+    ],
+    "states": 24,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CeladonCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_Tutorial",
+    "var": "VAR_MAP_SCENE_POKEMON_CENTER_TEALA",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 13,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CeladonCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_SINGLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CeladonCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_DOUBLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CeladonCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MULTI_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CeladonCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitTradeCenter",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_TRADE_CENTER",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 35,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CeladonCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitUnionRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_UNION_ROOM",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 34,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CeladonCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_BERRY_CRUSH",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CeladonCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitMinigameRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MINIGAME",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CeruleanCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_Tutorial",
+    "var": "VAR_MAP_SCENE_POKEMON_CENTER_TEALA",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 13,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CeruleanCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_SINGLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CeruleanCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_DOUBLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CeruleanCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MULTI_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CeruleanCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitTradeCenter",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_TRADE_CENTER",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 35,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CeruleanCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitUnionRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_UNION_ROOM",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 34,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CeruleanCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_BERRY_CRUSH",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CeruleanCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitMinigameRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MINIGAME",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CinnabarIsland",
+    "script": "CinnabarIsland_EventScript_ExitPokeCenterForOneIsland",
+    "var": "VAR_MAP_SCENE_CINNABAR_ISLAND_2",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 52,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CinnabarIsland",
+    "script": "CinnabarIsland_EventScript_BillScene",
+    "var": "VAR_MAP_SCENE_CINNABAR_ISLAND",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 100,
+    "ends": 4,
+    "unsafe_paths": [
+      [
+        "data/maps/CinnabarIsland/scripts.inc:118 waitmovement 0",
+        "data/maps/CinnabarIsland/scripts.inc:119 return ",
+        "data/maps/CinnabarIsland/scripts.inc:99 call_if_set FLAG_TEMP_2,CinnabarIsland_EventScript_BillApproachPlayer2",
+        "data/maps/CinnabarIsland/scripts.inc:122 applymovement LOCALID_CINNABAR_BILL,CinnabarIsland_Movement_BillApproachPlayer2",
+        "data/maps/CinnabarIsland/scripts.inc:123 waitmovement 0",
+        "data/maps/CinnabarIsland/scripts.inc:124 applymovement LOCALID_PLAYER,Common_Movement_WalkInPlaceFasterRight",
+        "data/maps/CinnabarIsland/scripts.inc:125 waitmovement 0",
+        "data/maps/CinnabarIsland/scripts.inc:126 return ",
+        "data/maps/CinnabarIsland/scripts.inc:100 msgbox CinnabarIsland_Text_HeyIfItIsntPlayer",
+        "data/maps/CinnabarIsland/scripts.inc:101 msgbox CinnabarIsland_Text_ComeWithMeToOneIsland,MSGBOX_YESNO",
+        "data/maps/CinnabarIsland/scripts.inc:102 goto_if_eq VAR_RESULT,YES,CinnabarIsland_EventScript_AgreeSailToOneIsland",
+        "data/maps/CinnabarIsland/scripts.inc:103 goto_if_eq VAR_RESULT,NO,CinnabarIsland_EventScript_DeclineSailToOneIsland",
+        "data/maps/CinnabarIsland/scripts.inc:104 end "
+      ]
+    ],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CinnabarIsland",
+    "script": "CinnabarIsland_EventScript_ReturnFromSeviiIslands",
+    "var": "VAR_MAP_SCENE_CINNABAR_ISLAND",
+    "value": "3",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 12,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CinnabarIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_Tutorial",
+    "var": "VAR_MAP_SCENE_POKEMON_CENTER_TEALA",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 13,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CinnabarIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_SINGLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CinnabarIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_DOUBLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CinnabarIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MULTI_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CinnabarIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitTradeCenter",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_TRADE_CENTER",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 35,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CinnabarIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitUnionRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_UNION_ROOM",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 34,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CinnabarIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_BERRY_CRUSH",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "CinnabarIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitMinigameRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MINIGAME",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FiveIsland_LostCave_Room10",
+    "script": "FiveIsland_LostCave_Room10_EventScript_FindSelphyScene",
+    "var": "VAR_MAP_SCENE_FIVE_ISLAND_LOST_CAVE_ROOM10",
+    "value": "0",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 28,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FiveIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_Tutorial",
+    "var": "VAR_MAP_SCENE_POKEMON_CENTER_TEALA",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 13,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FiveIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_SINGLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FiveIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_DOUBLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FiveIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MULTI_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FiveIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitTradeCenter",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_TRADE_CENTER",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 35,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FiveIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitUnionRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_UNION_ROOM",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 34,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FiveIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_BERRY_CRUSH",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FiveIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitMinigameRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MINIGAME",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FiveIsland_ResortGorgeous",
+    "script": "FiveIsland_ResortGorgeous_EventScript_SelphyReturnHomeScene",
+    "var": "VAR_MAP_SCENE_FIVE_ISLAND_RESORT_GORGEOUS",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 17,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FourIsland",
+    "script": "FourIsland_EventScript_RivalScene",
+    "var": "VAR_MAP_SCENE_FOUR_ISLAND",
+    "value": "0",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 24,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FourIsland_IcefallCave_1F",
+    "script": "FourIsland_IcefallCave_1F_EventScript_FallDownHole",
+    "var": "VAR_TEMP_1",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 7,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FourIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_Tutorial",
+    "var": "VAR_MAP_SCENE_POKEMON_CENTER_TEALA",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 13,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FourIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_SINGLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FourIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_DOUBLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FourIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MULTI_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FourIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitTradeCenter",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_TRADE_CENTER",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 35,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FourIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitUnionRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_UNION_ROOM",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 34,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FourIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_BERRY_CRUSH",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FourIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitMinigameRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MINIGAME",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FuchsiaCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_Tutorial",
+    "var": "VAR_MAP_SCENE_POKEMON_CENTER_TEALA",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 13,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FuchsiaCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_SINGLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FuchsiaCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_DOUBLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FuchsiaCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MULTI_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FuchsiaCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitTradeCenter",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_TRADE_CENTER",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 35,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FuchsiaCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitUnionRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_UNION_ROOM",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 34,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FuchsiaCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_BERRY_CRUSH",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FuchsiaCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitMinigameRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MINIGAME",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FuchsiaCity_SafariZone_Entrance",
+    "script": "FuchsiaCity_SafariZone_Entrance_EventScript_ExitWarpIn",
+    "var": "VAR_MAP_SCENE_FUCHSIA_CITY_SAFARI_ZONE_ENTRANCE",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 10,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FuchsiaCity_SafariZone_Entrance",
+    "script": "FuchsiaCity_SafariZone_Entrance_EventScript_ExitEarly",
+    "var": "VAR_MAP_SCENE_FUCHSIA_CITY_SAFARI_ZONE_ENTRANCE",
+    "value": "2",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 17,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "FuchsiaCity_SafariZone_Entrance",
+    "script": "FuchsiaCity_SafariZone_Entrance_EventScript_ExitWalkIn",
+    "var": "VAR_MAP_SCENE_FUCHSIA_CITY_SAFARI_ZONE_ENTRANCE",
+    "value": "3",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 12,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "IndigoPlateau_Exterior",
+    "script": "IndigoPlateau_Exterior_EventScript_Credits",
+    "var": "VAR_MAP_SCENE_INDIGO_PLATEAU_EXTERIOR",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 45,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "IndigoPlateau_PokemonCenter_2F",
+    "script": "CableClub_EventScript_Tutorial",
+    "var": "VAR_MAP_SCENE_POKEMON_CENTER_TEALA",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 13,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "IndigoPlateau_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_SINGLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "IndigoPlateau_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_DOUBLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "IndigoPlateau_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MULTI_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "IndigoPlateau_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitTradeCenter",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_TRADE_CENTER",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 35,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "IndigoPlateau_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitUnionRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_UNION_ROOM",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 34,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "IndigoPlateau_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_BERRY_CRUSH",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "IndigoPlateau_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitMinigameRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MINIGAME",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "LavenderTown",
+    "script": "LavenderIntro_Start",
+    "var": "VAR_LAVENDER_INTRO",
+    "value": "0",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 116,
+    "ends": 4,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "LavenderTown_PokemonCenter_2F",
+    "script": "CableClub_EventScript_Tutorial",
+    "var": "VAR_MAP_SCENE_POKEMON_CENTER_TEALA",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 13,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "LavenderTown_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_SINGLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "LavenderTown_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_DOUBLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "LavenderTown_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MULTI_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "LavenderTown_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitTradeCenter",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_TRADE_CENTER",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 35,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "LavenderTown_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitUnionRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_UNION_ROOM",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 34,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "LavenderTown_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_BERRY_CRUSH",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "LavenderTown_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitMinigameRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MINIGAME",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "OneIsland",
+    "script": "OneIsland_EventScript_EnterOneIslandFirstTime",
+    "var": "VAR_MAP_SCENE_ONE_ISLAND_HARBOR",
+    "value": "2",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 19,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "OneIsland_Harbor",
+    "script": "OneIsland_Harbor_EventScript_PlayerEnterHarborFirstTime",
+    "var": "VAR_MAP_SCENE_ONE_ISLAND_HARBOR",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 6,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "OneIsland_PokemonCenter_1F",
+    "script": "OneIsland_PokemonCenter_1F_EventScript_MeetCelioScene",
+    "var": "VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F",
+    "value": "0",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 80,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "OneIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_Tutorial",
+    "var": "VAR_MAP_SCENE_POKEMON_CENTER_TEALA",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 13,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "OneIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_SINGLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "OneIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_DOUBLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "OneIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MULTI_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "OneIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitTradeCenter",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_TRADE_CENTER",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 35,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "OneIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitUnionRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_UNION_ROOM",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 34,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "OneIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_BERRY_CRUSH",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "OneIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitMinigameRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MINIGAME",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "PalletTown",
+    "script": "PalletTown_EventScript_OakRatingScene",
+    "var": "VAR_MAP_SCENE_PALLET_TOWN_OAK",
+    "value": "2",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 51,
+    "ends": 3,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "PalletTown_ProfessorOaksLab",
+    "script": "PalletTown_ProfessorOaksLab_ChooseStarterScene",
+    "var": "VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 28,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "PalletTown_ProfessorOaksLab",
+    "script": "PalletTown_ProfessorOaksLab_EventScript_EnterForNationalDexScene",
+    "var": "VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB",
+    "value": "7",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 144,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "PewterCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_Tutorial",
+    "var": "VAR_MAP_SCENE_POKEMON_CENTER_TEALA",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 13,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "PewterCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_SINGLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "PewterCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_DOUBLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "PewterCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MULTI_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "PewterCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitTradeCenter",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_TRADE_CENTER",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 35,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "PewterCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitUnionRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_UNION_ROOM",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 34,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "PewterCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_BERRY_CRUSH",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "PewterCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitMinigameRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MINIGAME",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "PokemonLeague_AgathasRoom",
+    "script": "PokemonLeague_AgathasRoom_EventScript_EnterRoom",
+    "var": "VAR_MAP_SCENE_POKEMON_LEAGUE",
+    "value": "2",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 19,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "PokemonLeague_BrunosRoom",
+    "script": "PokemonLeague_BrunosRoom_EventScript_EnterRoom",
+    "var": "VAR_MAP_SCENE_POKEMON_LEAGUE",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 19,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "PokemonLeague_ChampionsRoom",
+    "script": "PokemonLeague_ChampionsRoom_EventScript_EnterRoom",
+    "var": "VAR_TEMP_1",
+    "value": "0",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 161,
+    "ends": 3,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "PokemonLeague_HallOfFame",
+    "script": "PokemonLeague_HallOfFame_EventScript_EnterRoom",
+    "var": "VAR_TEMP_1",
+    "value": "0",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 51,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "PokemonLeague_LancesRoom",
+    "script": "PokemonLeague_LancesRoom_EventScript_EnterRoom",
+    "var": "VAR_MAP_SCENE_POKEMON_LEAGUE",
+    "value": "3",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 20,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "PokemonLeague_LoreleisRoom",
+    "script": "PokemonLeague_LoreleisRoom_EventScript_EnterRoom",
+    "var": "VAR_MAP_SCENE_POKEMON_LEAGUE",
+    "value": "0",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 19,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "Route10_PokemonCenter_2F",
+    "script": "CableClub_EventScript_Tutorial",
+    "var": "VAR_MAP_SCENE_POKEMON_CENTER_TEALA",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 13,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "Route10_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_SINGLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "Route10_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_DOUBLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "Route10_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MULTI_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "Route10_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitTradeCenter",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_TRADE_CENTER",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 35,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "Route10_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitUnionRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_UNION_ROOM",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 34,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "Route10_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_BERRY_CRUSH",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "Route10_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitMinigameRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MINIGAME",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "Route4_PokemonCenter_2F",
+    "script": "CableClub_EventScript_Tutorial",
+    "var": "VAR_MAP_SCENE_POKEMON_CENTER_TEALA",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 13,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "Route4_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_SINGLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "Route4_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_DOUBLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "Route4_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MULTI_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "Route4_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitTradeCenter",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_TRADE_CENTER",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 35,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "Route4_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitUnionRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_UNION_ROOM",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 34,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "Route4_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_BERRY_CRUSH",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "Route4_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitMinigameRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MINIGAME",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SSAnne_Exterior",
+    "script": "SSAnne_Exterior_ExitSSAnne",
+    "var": "VAR_MAP_SCENE_VERMILION_CITY",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 20,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SaffronCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_Tutorial",
+    "var": "VAR_MAP_SCENE_POKEMON_CENTER_TEALA",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 13,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SaffronCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_SINGLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SaffronCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_DOUBLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SaffronCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MULTI_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SaffronCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitTradeCenter",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_TRADE_CENTER",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 35,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SaffronCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitUnionRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_UNION_ROOM",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 34,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SaffronCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_BERRY_CRUSH",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SaffronCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitMinigameRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MINIGAME",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SaffronCity_PokemonTrainerFanClub",
+    "script": "SaffronCity_PokemonTrainerFanClub_EventScript_MeetFirstFans",
+    "var": "VAR_MAP_SCENE_SAFFRON_CITY_POKEMON_TRAINER_FAN_CLUB",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 19,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SeafoamIslands_B3F",
+    "script": "SeafoamIslands_B3F_EventScript_EnterByFalling",
+    "var": "VAR_TEMP_1",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 23,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SeafoamIslands_B4F",
+    "script": "SeafoamIslands_B4F_EventScript_EnterOnCurrent",
+    "var": "VAR_MAP_SCENE_SEAFOAM_ISLANDS_B4F",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 6,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SeafoamIslands_B4F",
+    "script": "SeafoamIslands_B4F_EventScript_EnterByFalling",
+    "var": "VAR_TEMP_1",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 25,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SevenIsland_House_Room1",
+    "script": "SevenIsland_House_Room1_EventScript_OldWomanCommentOnBattle",
+    "var": "VAR_MAP_SCENE_SEVEN_ISLAND_HOUSE_ROOM1",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 22,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SevenIsland_House_Room1",
+    "script": "SevenIsland_House_Room1_EventScript_OldWomanCommentOnBattle",
+    "var": "VAR_MAP_SCENE_SEVEN_ISLAND_HOUSE_ROOM1",
+    "value": "2",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 22,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SevenIsland_House_Room1",
+    "script": "SevenIsland_House_Room1_EventScript_OldWomanCommentOnBattle",
+    "var": "VAR_MAP_SCENE_SEVEN_ISLAND_HOUSE_ROOM1",
+    "value": "3",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 22,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SevenIsland_House_Room2",
+    "script": "SevenIsland_House_Room2_EventScript_BattleVisitingTrainer",
+    "var": "VAR_TEMP_1",
+    "value": "0",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 43,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SevenIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_Tutorial",
+    "var": "VAR_MAP_SCENE_POKEMON_CENTER_TEALA",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 13,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SevenIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_SINGLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SevenIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_DOUBLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SevenIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MULTI_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SevenIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitTradeCenter",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_TRADE_CENTER",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 35,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SevenIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitUnionRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_UNION_ROOM",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 34,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SevenIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_BERRY_CRUSH",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SevenIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitMinigameRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MINIGAME",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SixIsland_PokemonCenter_1F",
+    "script": "SixIsland_PokemonCenter_1F_EventScript_RivalScene",
+    "var": "VAR_MAP_SCENE_SIX_ISLAND_POKEMON_CENTER_1F",
+    "value": "0",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 25,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SixIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_Tutorial",
+    "var": "VAR_MAP_SCENE_POKEMON_CENTER_TEALA",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 13,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SixIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_SINGLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SixIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_DOUBLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SixIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MULTI_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SixIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitTradeCenter",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_TRADE_CENTER",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 35,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SixIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitUnionRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_UNION_ROOM",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 34,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SixIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_BERRY_CRUSH",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "SixIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitMinigameRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MINIGAME",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "ThreeIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_Tutorial",
+    "var": "VAR_MAP_SCENE_POKEMON_CENTER_TEALA",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 13,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "ThreeIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_SINGLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "ThreeIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_DOUBLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "ThreeIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MULTI_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "ThreeIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitTradeCenter",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_TRADE_CENTER",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 35,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "ThreeIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitUnionRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_UNION_ROOM",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 34,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "ThreeIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_BERRY_CRUSH",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "ThreeIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitMinigameRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MINIGAME",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TrainerTower_1F",
+    "script": "TrainerTower_EventScript_EnterFloor",
+    "var": "VAR_TEMP_2",
+    "value": "0",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 9,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TrainerTower_2F",
+    "script": "TrainerTower_EventScript_EnterFloor",
+    "var": "VAR_TEMP_2",
+    "value": "0",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 9,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TrainerTower_3F",
+    "script": "TrainerTower_EventScript_EnterFloor",
+    "var": "VAR_TEMP_2",
+    "value": "0",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 9,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TrainerTower_4F",
+    "script": "TrainerTower_EventScript_EnterFloor",
+    "var": "VAR_TEMP_2",
+    "value": "0",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 9,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TrainerTower_5F",
+    "script": "TrainerTower_EventScript_EnterFloor",
+    "var": "VAR_TEMP_2",
+    "value": "0",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 9,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TrainerTower_6F",
+    "script": "TrainerTower_EventScript_EnterFloor",
+    "var": "VAR_TEMP_2",
+    "value": "0",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 9,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TrainerTower_7F",
+    "script": "TrainerTower_EventScript_EnterFloor",
+    "var": "VAR_TEMP_2",
+    "value": "0",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 9,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TrainerTower_8F",
+    "script": "TrainerTower_EventScript_EnterFloor",
+    "var": "VAR_TEMP_2",
+    "value": "0",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 9,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TrainerTower_Elevator",
+    "script": "TrainerTower_EventScript_EnterFloor",
+    "var": "VAR_TEMP_2",
+    "value": "0",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 9,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TrainerTower_Lobby",
+    "script": "TrainerTower_Lobby_EventScript_Enter",
+    "var": "VAR_TEMP_0",
+    "value": "0",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 23,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TrainerTower_Lobby",
+    "script": "TrainerTower_Lobby_EventScript_ExitElevator",
+    "var": "VAR_TEMP_D",
+    "value": "17",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 10,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TrainerTower_Roof",
+    "script": "TrainerTower_EventScript_EnterFloor",
+    "var": "VAR_TEMP_2",
+    "value": "0",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 9,
+    "ends": 2,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TwoIsland_JoyfulGameCorner",
+    "script": "TwoIsland_JoyfulGameCorner_EventScript_HelpFindLostelleScene",
+    "var": "VAR_MAP_SCENE_TWO_ISLAND_JOYFUL_GAME_CORNER",
+    "value": "0",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 45,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TwoIsland_JoyfulGameCorner",
+    "script": "TwoIsland_JoyfulGameCorner_EventScript_FoundLostelleScene",
+    "var": "VAR_MAP_SCENE_TWO_ISLAND_JOYFUL_GAME_CORNER",
+    "value": "2",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 12,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TwoIsland_JoyfulGameCorner",
+    "script": "CableClub_EventScript_ExitMinigameRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MINIGAME",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TwoIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_Tutorial",
+    "var": "VAR_MAP_SCENE_POKEMON_CENTER_TEALA",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 13,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TwoIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_SINGLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TwoIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_DOUBLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TwoIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MULTI_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TwoIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitTradeCenter",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_TRADE_CENTER",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 35,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TwoIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitUnionRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_UNION_ROOM",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 34,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TwoIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_BERRY_CRUSH",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "TwoIsland_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitMinigameRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MINIGAME",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "VermilionCity",
+    "script": "VermilionCity_EventScript_ExitSSAnne",
+    "var": "VAR_MAP_SCENE_VERMILION_CITY",
+    "value": "2",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 6,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "VermilionCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_Tutorial",
+    "var": "VAR_MAP_SCENE_POKEMON_CENTER_TEALA",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 13,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "VermilionCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_SINGLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "VermilionCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_DOUBLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "VermilionCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MULTI_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "VermilionCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitTradeCenter",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_TRADE_CENTER",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 35,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "VermilionCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitUnionRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_UNION_ROOM",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 34,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "VermilionCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_BERRY_CRUSH",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "VermilionCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitMinigameRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MINIGAME",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "ViridianCity_Mart",
+    "script": "ViridianCity_Mart_EventScript_ParcelScene",
+    "var": "VAR_MAP_SCENE_VIRIDIAN_CITY_MART",
+    "value": "0",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 15,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "ViridianCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_Tutorial",
+    "var": "VAR_MAP_SCENE_POKEMON_CENTER_TEALA",
+    "value": "1",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 13,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "ViridianCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_SINGLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "ViridianCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_DOUBLE_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "ViridianCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MULTI_BATTLE",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "ViridianCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitTradeCenter",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_TRADE_CENTER",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 35,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "ViridianCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitUnionRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_UNION_ROOM",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 34,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "ViridianCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitLinkRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_BERRY_CRUSH",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  },
+  {
+    "kind": "frame",
+    "map": "ViridianCity_PokemonCenter_2F",
+    "script": "CableClub_EventScript_ExitMinigameRoom",
+    "var": "VAR_CABLE_CLUB_STATE",
+    "value": "USING_MINIGAME",
+    "positions": [
+      [
+        0,
+        0
+      ]
+    ],
+    "states": 26,
+    "ends": 1,
+    "unsafe_paths": [],
+    "manual_paths": []
+  }
+]
