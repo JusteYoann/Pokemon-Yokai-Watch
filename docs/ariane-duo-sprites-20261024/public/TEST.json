@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "scope": "Isolated mGBA fixture: Ariane double intro, four textures, move and switch.\nInitial party/map and direct native duo start are fixtures. No enemy HP/outcome\nis forced. Branch snapshots isolate UI checks, separate from player campaign.\n",
+  "rom_sha256": "8c031a33ccbb2ee4747bc88e11ebf4b504577f156f5e81dc911ecbf27b5e3d01",
+  "gender": 0,
+  "cases": [
+    {
+      "test": "introduction",
+      "passed": true,
+      "actors": [
+        {
+          "battler": 0,
+          "species": 93,
+          "tile": 358,
+          "pixels_sha256": "c9f69516ce43a13cf908dd7f78cc8f7962dfb2aa1a7b1ab20b646074cb5a0b6a",
+          "vram_matches": true
+        },
+        {
+          "battler": 1,
+          "species": 69,
+          "tile": 526,
+          "pixels_sha256": "3dfcdca75a904133447d7e9b67006c692c6905ed661d26ba9b87dbcb2210311b",
+          "vram_matches": true
+        },
+        {
+          "battler": 2,
+          "species": 100,
+          "tile": 422,
+          "pixels_sha256": "c15c23ba5a8eaab7ba2f53fb065a189848532cfba096263df7c6c6d1ff0ba018",
+          "vram_matches": true
+        },
+        {
+          "battler": 3,
+          "species": 32,
+          "tile": 590,
+          "pixels_sha256": "6e87c6068a961746df7fa35d834dbd185e3449edb92debba65e0b2c25897ed3f",
+          "vram_matches": true
+        }
+      ]
+    },
+    {
+      "test": "apres-attaque",
+      "passed": true,
+      "actors": [
+        {
+          "battler": 0,
+          "species": 93,
+          "tile": 358,
+          "pixels_sha256": "c9f69516ce43a13cf908dd7f78cc8f7962dfb2aa1a7b1ab20b646074cb5a0b6a",
+          "vram_matches": true
+        },
+        {
+          "battler": 1,
+          "species": 69,
+          "tile": 526,
+          "pixels_sha256": "3dfcdca75a904133447d7e9b67006c692c6905ed661d26ba9b87dbcb2210311b",
+          "vram_matches": true
+        },
+        {
+          "battler": 2,
+          "species": 100,
+          "tile": 422,
+          "pixels_sha256": "c15c23ba5a8eaab7ba2f53fb065a189848532cfba096263df7c6c6d1ff0ba018",
+          "vram_matches": true
+        },
+        {
+          "battler": 3,
+          "species": 32,
+          "tile": 590,
+          "pixels_sha256": "6e87c6068a961746df7fa35d834dbd185e3449edb92debba65e0b2c25897ed3f",
+          "vram_matches": true
+        }
+      ]
+    },
+    {
+      "test": "apres-changement",
+      "passed": true,
+      "actors": [
+        {
+          "battler": 0,
+          "species": 1,
+          "tile": 290,
+          "pixels_sha256": "d100f3a6e3cd3837ff9594d62683e6e9c701ff74106b483df25ba46d6dfdfa16",
+          "vram_matches": true
+        },
+        {
+          "battler": 1,
+          "species": 69,
+          "tile": 354,
+          "pixels_sha256": "3dfcdca75a904133447d7e9b67006c692c6905ed661d26ba9b87dbcb2210311b",
+          "vram_matches": true
+        },
+        {
+          "battler": 2,
+          "species": 100,
+          "tile": 418,
+          "pixels_sha256": "c15c23ba5a8eaab7ba2f53fb065a189848532cfba096263df7c6c6d1ff0ba018",
+          "vram_matches": true
+        },
+        {
+          "battler": 3,
+          "species": 32,
+          "tile": 482,
+          "pixels_sha256": "6e87c6068a961746df7fa35d834dbd185e3449edb92debba65e0b2c25897ed3f",
+          "vram_matches": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 #include "yokai_champions.h"
 #include "global.h"
+#include "event_object_movement.h"
 #include "spiraton_art.h"
 #include "gflib.h"
 #include "data.h"
@@ -1180,12 +1181,16 @@ static void OpponentHandleDrawTrainerPic(void)
     if (gBattleTypeFlags & BATTLE_TYPE_SCRIPTED_PARTNER)
     {
         u8 original = gBattlerSpriteIds[gActiveBattler];
-        u8 clone = CreateSprite(&gMultiuseSpriteTemplate, 144, 40, GetBattlerSpriteSubpriority(gActiveBattler));
+        // A non-owning view of the original trainer sheet: replacing the OAM
+        // of a newly allocated sprite made its destruction free shared tiles,
+        // allowing later battlers to claim overlapping VRAM ranges.
+        u8 clone = CreateCopySpriteAt(&gSprites[original], 144, 40, GetBattlerSpriteSubpriority(gActiveBattler));
         sPhilosovniSecondGrunt = clone;
         gSprites[original].x = 200;
         if (clone != MAX_SPRITES)
         {
-            gSprites[clone].oam = gSprites[original].oam;
+            gSprites[clone].usingSheet = TRUE;
+            gSprites[clone].sheetTileStart = gSprites[original].oam.tileNum;
             gSprites[clone].x2 = -DISPLAY_WIDTH;
             gSprites[clone].data[0] = 2;
             gSprites[clone].callback = SpriteCB_TrainerSlideIn;
