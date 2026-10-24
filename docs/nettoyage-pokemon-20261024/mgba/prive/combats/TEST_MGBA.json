@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "scope": "151 native battles with front/back tiles and compiled palette-bank checks.\nPID0 requests shiny naturally (84 allowed/67 blocked). After checking automatic selection, normal/shiny images are compared using\nexplicit native color-loading fixtures (required for the67 blocked species). No ROM,\nPID rules, encounter probabilities or eligibility tables are modified.\nThis is not a full adventure or an all-attacks test.\n",
+  "rom_sha256": "c9bbac626d43f52043a38eb346f7ca9443898c0bbc3ff574d09f7e0d86405681",
+  "error": null,
+  "all_302_current_ROM_palette_pointers_verified": true,
+  "results": [
+    {
+      "number": 1,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "localized_texture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 18,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "localized_texture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 51,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "localized_texture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 66,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "localized_texture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 67,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "localized_texture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 120,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "localized_texture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 133,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "localized_texture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 145,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "localized_texture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 149,
+      "natural_shiny": true,
+      "explicit_palette_fixture": false,
+      "localized_texture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 150,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "localized_texture": true,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    },
+    {
+      "number": 151,
+      "natural_shiny": false,
+      "explicit_palette_fixture": true,
+      "localized_texture": false,
+      "front_back_tiles": true,
+      "automatic_palette": true,
+      "compiled_normal_shiny_palettes": true
+    }
+  ]
+}
