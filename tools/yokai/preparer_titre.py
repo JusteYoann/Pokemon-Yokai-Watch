@@ -14,18 +14,25 @@ ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / 'graphics/yokai_title'
 p = argparse.ArgumentParser(description=__doc__)
 p.add_argument('--landscape', type=Path)
+p.add_argument('--logo', action='store_true', help='Regenerate the half-size original logo, preserving its screen centre')
 p.add_argument('--pack', choices=['fresque', 'logo'])
 a = p.parse_args()
 if a.landscape:
     image = Image.open(a.landscape).convert('RGB').resize((256, 128), Image.Resampling.LANCZOS)
     image.quantize(colors=16, dither=Image.Dither.NONE).save(OUT / 'fresque.png')
-    image = Image.open(OUT / 'logo-original.png').convert('RGBA').resize((208, 120), Image.Resampling.LANCZOS)
+if a.landscape or a.logo:
+    image = Image.open(OUT / 'logo-original.png').convert('RGBA').resize((104, 60), Image.Resampling.LANCZOS)
     mask = image.getchannel('A').point(lambda n: 255 if n >= 128 else 0)
     colors = image.convert('RGB').quantize(colors=15, dither=Image.Dither.NONE)
     indexed = Image.new('P', image.size)
     indexed.putpalette([0, 0, 0] + colors.getpalette()[:45] + [0] * (768 - 48))
     indexed.putdata([n + 1 if opaque else 0 for n, opaque in zip(colors.getdata(), mask.getdata())])
-    indexed.save(OUT / 'logo.png', transparency=0)
+    # Keep the existing BG placement and centre, with half the painted width
+    # and height. Transparent padding is deduplicated into the blank tile.
+    canvas = Image.new('P', (208, 120), 0)
+    canvas.putpalette(indexed.getpalette())
+    canvas.paste(indexed, (52, 30))
+    canvas.save(OUT / 'logo.png', transparency=0)
 
 if a.pack:
     name = a.pack

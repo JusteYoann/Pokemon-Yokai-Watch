@@ -13,7 +13,7 @@ from pathlib import Path
 from mgba_rpc import ROOT, Emulator, BATCH
 
 mode = 'prive' if '_audio' in os.environ.get('YOKAI_QA_ROM', '') else 'public'
-out = ROOT / 'docs/ecran-titre-credits-20261024' / mode
+out = Path(os.environ.get('YOKAI_TITLE_QA_DIR', str(ROOT / 'docs/ecran-titre-credits-20261024' / mode)))
 out.mkdir(parents=True, exist_ok=True)
 r = Emulator(initial_frames=1)
 chunks = []

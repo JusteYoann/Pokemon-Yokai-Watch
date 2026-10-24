@@ -4,7 +4,9 @@ Le nouveau titre et les **32 souvenirs** sont intégrés sur `feature/ecran-titr
 
 ## Écran titre
 
-![Titre dans mGBA](prive/titre-x3.png)
+Le logo est désormais réduit de moitié en largeur et en hauteur : **104×60 pixels**, en conservant son centre. [Captures et contrôles de cet ajustement](logo-reduit/RAPPORT.md). Les budgets et recettes complètes plus bas documentent l'intégration initiale.
+
+![Titre dans mGBA](logo-reduit/prive/titre-x3.png)
 
 Au lancement : carton noir silencieux `by Juste Yoann`, environ deux secondes, puis le logo original fourni apparaît progressivement sur cinq secondes. Le fond est un **paysage sans personnages ni Yo-kai**, conformément à la dernière demande. Le décor défile vers la droite à environ 2,57 pixels/seconde ; logo et texte restent fixes.
 
