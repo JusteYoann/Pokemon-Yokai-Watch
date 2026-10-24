@@ -17,25 +17,7 @@ FourIsland_Text_LoreleiMetLaprasAsChild::
     .string "her ever since.$"
 
 FourIsland_Text_RivalAlreadyGotEggBeSmellingYa::
-    .string "{RIVAL}: Hey!\n"
-    .string "{PLAYER}!\p"
-    .string "What are you doing here in the\n"
-    .string "SEVII ISLANDS?\p"
-    .string "You should quit copying me,\n"
-    .string "you know?\p"
-    .string "Anyways, I already got my Yo-kai\n"
-    .string "EGG, so I'm done with this island.\p"
-    .string "Heh, I bet you don't even know\n"
-    .string "about Yo-kai EGGS.\p"
-    .string "You'll never fill your NATIONAL\n"
-    .string "Médallium that way.\p"
-    .string "By the way, I saw someone we both\n"
-    .string "know on this island.\p"
-    .string "Why don't you go look around if\n"
-    .string "it makes you curious?\p"
-    .string "Me, I don't have the time to\n"
-    .string "waste.\p"
-    .string "Be smelling ya!$"
+    .string "{RIVAL} : Hé, {PLAYER} !\pQu'est-ce que tu fais aux Îles Sevii\n? Arrête un peu de me copier !\pJ'ai déjà mon Oeuf de Yo-kai. J'en ai\nfini avec cette île.\pTu ne connais même pas les Oeufs,\npas vrai ?\pTu ne rempliras jamais ton Médallium\nNational comme ça !\pAu fait, j'ai aperçu quelqu'un que\nnous connaissons tous les deux.\pFais donc un tour, si ça t'intrigue !\nMoi, je n'ai pas de temps à perdre.\pÀ plus !$"
 
 FourIsland_Text_LoreleiHasLotsOfStuffedDolls::
     .string "Oh, you found me!\n"

@@ -84,7 +84,7 @@ SilphCo_7F_Text_Grunt2PostBattle::
     .string "Pars avant que le Don perde\npatience.$"
 
 SilphCo_7F_Text_RivalWhatKeptYou::
-    .string "{RIVAL}: What kept you, {PLAYER}?$"
+    .string "{RIVAL} : Qu'est-ce qui t'a retenu,\n{PLAYER} ?$"
 
 SilphCo_7F_Text_RivalIntro::
     .string "{RIVAL}: Ha! Je savais que tu finirais\npar venir!\pLa Mafiamille t'a retardé? Pas mon\nproblème!\pJe t'ai aperçu à Safrania. Voyons si\ntu as progressé!$"
@@ -99,19 +99,7 @@ SilphCo_7F_Text_RivalVictory::
     .string "いちにんまえ　とは　いえないぜ$"
 
 SilphCo_7F_Text_RivalPostBattle::
-    .string "Well, {PLAYER}!\n"
-    .string "I'm moving on up and ahead!\p"
-    .string "By checking my Médallium, I'm\n"
-    .string "starting to see what's strong and\l"
-    .string "how they evolve!\p"
-    .string "Am I a genius or what?\p"
-    .string "I'm going to the Ligue Yo-kai to\n"
-    .string "boot out the ELITE FOUR.\p"
-    .string "I'll become the world's most\n"
-    .string "powerful TRAINER!\p"
-    .string "{PLAYER}, well, good luck to you!\n"
-    .string "Don't sweat it!\l"
-    .string "Smell ya!$"
+    .string "Alors, {PLAYER} ! Je progresse à\ntoute vitesse !\pGrâce au Médallium, je comprends\nmieux les forces et les évolutions\ldes Yo-kai.\pJe suis un génie, non ?\pJe vais à la Ligue Yo-kai pour\nbattre le Conseil 4.\pJe deviendrai le meilleur Dresseur du\nmonde !\pBonne chance à toi, {PLAYER} ! Ne te\nmets pas trop la pression.\pÀ plus !$"
 
 SilphCo_7F_Text_FloorSign::
     .string "Yopple HEAD OFFICE\n"

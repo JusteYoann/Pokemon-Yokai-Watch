@@ -3023,7 +3023,7 @@ u8 IsRunningFromBattleImpossible(void)
     u8 side;
     s32 i;
 
-    if (gBattleTypeFlags & BATTLE_TYPE_LAVENDER_ZOMBIE)
+    if ((gBattleTypeFlags & BATTLE_TYPE_LAVENDER_ZOMBIE) && !FlagGet(FLAG_BADGE04_GET))
         return BATTLE_RUN_FORBIDDEN;
 
     if (gBattleMons[gActiveBattler].item == ITEM_ENIGMA_BERRY)
@@ -4268,7 +4268,7 @@ bool8 TryRunFromBattle(u8 battler)
     u8 holdEffect;
     u8 speedVar;
 
-    if (gBattleTypeFlags & BATTLE_TYPE_LAVENDER_ZOMBIE)
+    if ((gBattleTypeFlags & BATTLE_TYPE_LAVENDER_ZOMBIE) && !FlagGet(FLAG_BADGE04_GET))
         return FALSE;
     if (gBattleMons[battler].item == ITEM_ENIGMA_BERRY)
         holdEffect = gEnigmaBerries[battler].holdEffect;

@@ -77,7 +77,13 @@ void m4aSoundInit(void)
 
     SoundInit(&gSoundInfo);
     MPlayExtender(gCgbChans);
-    m4aSoundMode(SOUND_MODE_DA_BIT_8
+    // The B13 title initialized native reverb to 50. The sampled title has
+    // no SET flag, so explicitly preserve that mixer state at startup.
+    m4aSoundMode(
+#ifdef YOKAI_PRIVATE_AUDIO
+                 SOUND_MODE_REVERB_SET | 50 |
+#endif
+                 SOUND_MODE_DA_BIT_8
                | SOUND_MODE_FREQ_13379
                | (12 << SOUND_MODE_MASVOL_SHIFT)
                | (5 << SOUND_MODE_MAXCHN_SHIFT));

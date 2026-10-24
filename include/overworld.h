@@ -4,6 +4,8 @@
 #include "global.h"
 #include "main.h"
 
+bool8 IsFieldPaletteView(void);
+
 #define LINK_KEY_CODE_NULL 0x00
 #define LINK_KEY_CODE_EMPTY 0x11
 #define LINK_KEY_CODE_DPAD_DOWN 0x12

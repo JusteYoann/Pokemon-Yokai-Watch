@@ -1,6 +1,9 @@
 #include "global.h"
 #include "gba/m4a_internal.h"
 
+// Archived experiment; the delivered mixer uses the reference SDK decoder.
+#ifdef YOKAI_EXPERIMENTAL_IMA
+
 /* Private WaveData type 2: 256 samples / 131 bytes. Each independently seekable
  * block holds a signed LE16 predictor, an IMA index, then 255 low-first nibbles.
  * The last unused high nibble is zero. Native PCM/DPCM and their cache are intact.
@@ -63,3 +66,5 @@ s32 YokaiImaDecodeSample(const struct WaveData *wave, u32 sample)
     gYokaiImaCache.block = block;
     return gYokaiImaCache.samples[sample & 255];
 }
+
+#endif // YOKAI_EXPERIMENTAL_IMA

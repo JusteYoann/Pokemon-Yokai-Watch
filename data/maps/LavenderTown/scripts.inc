@@ -62,6 +62,10 @@ LavenderZombie_Errant::
 	faceplayer
 	specialvar VAR_RESULT, LavanvilleCheckZombieImmunity
 	goto_if_eq VAR_RESULT, TRUE, LavenderZombie_Release
+	special LavanvilleZombieApproach
+	waitstate
+	msgbox LavenderZombie_Growl
+	closemessage
 	special LavanvilleStartZombieBattle
 	waitstate
 	special LavanvilleZombieImmunity
@@ -249,3 +253,6 @@ LavenderIntro_Face_right::
 LavenderZombieHouse_Immunity::
 	special LavanvilleZombieImmunity
 	end
+
+LavenderZombie_Growl::
+	.string "Grrr...$"

@@ -45,3 +45,7 @@ for mon,ref in zip(baseline,refs):
  for side in ['front','back']:
   pth=R/f'src/data/pokemon_graphics/{side}_pic_coordinates.h';s=pth.read_text();s=re.sub(r'(\['+mon['species']+r'\]\s*=\s*\{[^}]*?\.y_offset\s*=\s*)\d+',lambda m:m[1]+'0',s);pth.write_text(s)
 pictures+=['static const u32 *const sYokaiBattlePictures[152][2] = {']+pointers+['};'];(R/'src/data/yokai_battle_pictures.h').write_text('\n'.join(pictures)+'\n');table.append('};');(R/'src/data/yokai_battle_geometry.h').write_text('\n'.join(table)+'\n');data['scope']='Original indexed artwork; generic displays unchanged. Separate centered/cropped battle textures use per-species GBA affine OAM presentation and matching animation background transforms.';data['profiles']=list(profiles.values());p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n');(O/'GEOMETRIE_302.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print('GEOMETRY',len(report),'max background bytes',max(math.ceil(v['width']/8)*math.ceil(v['height']/8)*32 for v in report))
+
+if config.get("restore_lower_back_rows"):
+ import subprocess,sys
+ subprocess.run([sys.executable,str(R/"tools/yokai/corriger_cadrages_beta.py")],check=True)

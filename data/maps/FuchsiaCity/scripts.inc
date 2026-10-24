@@ -142,13 +142,8 @@ FuchsiaCity_EventScript_OmanyteSign::
 FuchsiaCity_OnTransitionYokaiAncestor::
 	setflag FLAG_HIDE_YOKAI_NATHANIEL
 	setflag FLAG_HIDE_YOKAI_MICHAEL
-	checkplayergender
-	goto_if_eq VAR_RESULT, FEMALE, FuchsiaCity_ShowMichael
-	clearflag FLAG_HIDE_YOKAI_NATHANIEL
 	return
-FuchsiaCity_ShowMichael::
-	clearflag FLAG_HIDE_YOKAI_MICHAEL
-	return
+
 FuchsiaCity_EventScript_YokaiAncestor::
 	lock
 	faceplayer

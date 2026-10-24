@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Native static photo set: actual field background and14 native OW sprites.
+"""Native static photo set: plain grass field background and14 native OW sprites.
 
 Developer-only staging uses OAM sprites rather than moving field objects.
 No sprite artwork is drawn or composited into the screenshot. Every palette is
@@ -13,7 +13,7 @@ from mgba_new_game import new_game
 from mafiamille_qa import MAPS, C, warp
 
 gender = int(os.environ.get('YOKAI_QA_GENDER', '0'))
-out = ROOT / 'docs/ecran-titre-credits-20261024/souvenirs' / ['garcon', 'fille'][gender]
+out = ROOT / os.environ.get('YOKAI_CREDITS_PHOTO_DIR', 'docs/ecran-titre-credits-20261024/souvenirs') / ['garcon', 'fille'][gender]
 out.mkdir(parents=True, exist_ok=True)
 actors = [
     ("Enma l'Ancien", 178, 44, 48), ('Orqanos', 179, 82, 48),
@@ -28,6 +28,12 @@ actors = [
 r = new_game(gender)
 try:
     warp(r, *MAPS['Route1'], 10, 17)
+    r.call('InitMap')
+    for y in range(7, 32):
+        for x in range(7, 30):
+            r.call('MapGridSetMetatileIdAt', x, y, 0x3001)
+    r.call('DrawWholeMapView')
+    r.run(4)
     r.call('SetMainCallback1', 0)
     r.call('SetMainCallback2', r.symbols['SpriteCallbackDummy'] | 1)
     r.call('ResetTasks')

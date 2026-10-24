@@ -1,3 +1,4 @@
+#include "field_effect_helpers.h"
 #include "global.h"
 #include "gflib.h"
 #include "cramois_fog.h"
@@ -16,9 +17,13 @@
 #define FOG_CONTROL (BLDCNT_TGT2_BG1 | BLDCNT_TGT2_BG2 | BLDCNT_TGT2_BG3 | BLDCNT_TGT2_OBJ | BLDCNT_EFFECT_BLEND)
 static EWRAM_DATA struct {
     u16 map, amount, scroll, oldAlpha, oldControl, lastAlpha;
-    bool8 loaded;
+    bool8 loaded, visible, paletteReady, cacheValid;
+    u8 cachedTone, cachedBlend, cachedSpriteBlend;
+    u16 paletteMap;
+    u32 sourceHash, sourceSum, mountMask;
 } sFog = {0};
 
+static ALIGNED(4) u16 sFogPalette[512];
 static void FogSprite(struct Sprite *sprite);
 static const struct OamData sOam = {
     .objMode = ST_OAM_OBJ_BLEND, .shape = SPRITE_SHAPE(64x64),
@@ -77,7 +82,7 @@ static void FogSprite(struct Sprite *sprite)
 {
     sprite->x = (sprite->data[0] % 5) * 64 + 32 - ((sFog.scroll >> 2) & 63);
     sprite->y = (sprite->data[0] / 5) * 64 + 24;
-    sprite->invisible = !MaritimeView() || sFog.amount == 0;
+    sprite->invisible = !sFog.visible || sFog.amount == 0;
 }
 
 static void ReleaseFog(void)
@@ -125,15 +130,16 @@ void CramoisFogUpdate(void)
 {
     u16 map, target;
     u8 density;
+    sFog.visible = MaritimeView();
     map = (gSaveBlock1Ptr->location.mapGroup << 8) | gSaveBlock1Ptr->location.mapNum;
     // ResetSpriteData on menu/map/battle entry can invalidate all old slots.
     if (sFog.loaded && IndexOfSpritePaletteTag(FOG_TAG)==0xFF)
     {sFog.loaded=FALSE;sFog.amount=0;}
-    if (!MaritimeView() || sFog.map != map)
+    if (!sFog.visible || sFog.map != map)
     {
         if (sFog.loaded) ReleaseFog();
         sFog.map=map;
-        if (!MaritimeView()) return;
+        if (!sFog.visible) return;
     }
     target=CramoisFogTarget()*16;
     if (!target && !sFog.loaded) return;
@@ -148,24 +154,48 @@ void CramoisFogUpdate(void)
     SetGpuReg(REG_OFFSET_BLDALPHA,sFog.lastAlpha);
 }
 
-void CramoisFogPalette(void)
+void CramoisFogPreparePalette(void)
 {
     u16 i,c,amount,blend,spriteBlend,past;
     s16 r,g,b;
     s16 x,y,tone;
-    u32 mask=0x0FFF1FFF;
-    vu16 *dest=(vu16 *)PLTT;
-    if (!MaritimeView() || gPaletteFade.active || gPaletteFade.bufferTransferDisabled) return;
+    u32 mountMask = NativeMountPaletteMask();
+    u32 mask = 0x0FFF1FFF | mountMask;
+    u32 hash = 2166136261u, sum = 0;
+    u16 *dest=sFogPalette;
+    u16 map;
+    sFog.paletteReady = FALSE;
+    if (!CramoisIsOverworldView() || gMain.inBattle || gPaletteFade.bufferTransferDisabled) return;
+    map = (gSaveBlock1Ptr->location.mapGroup << 8) | gSaveBlock1Ptr->location.mapNum;
+    if (map != MAP_ROUTE20 && map != MAP_ROUTE21_SOUTH) return;
     PlayerGetDestCoords(&x,&y);
     x-=MAP_OFFSET;y-=MAP_OFFSET;
     // Match the island palette before the connection, while dense fog masks the
     // change. No temporal state is saved and no island palette code is changed.
-    tone = gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE20) ? (10-x)*2 : (y-38)*2;
+    tone = CramoisPastStrength();
     if (tone<0) tone=0;
     if (tone>16) tone=16;
     amount=sFog.amount*5/(FOG_MAX*16);
     if (!amount && !tone) return;
+    if (gPaletteFade.active) amount = amount * (16 - gPaletteFade.y) / 16;
     spriteBlend=sFog.amount*9/(FOG_MAX*16);
+    if (gPaletteFade.active) spriteBlend = spriteBlend * (16 - gPaletteFade.y) / 16;
+    // Two source fingerprints avoid retaining another 1KB in scarce IWRAM.
+    for (i = 0; i < 512; i++)
+    {
+        hash = (hash ^ gPlttBufferFaded[i]) * 16777619u;
+        sum += gPlttBufferFaded[i] * (i + 1);
+    }
+    if (sFog.cacheValid && sFog.paletteMap == map && sFog.cachedTone == tone
+        && sFog.cachedBlend == amount && sFog.cachedSpriteBlend == spriteBlend)
+    {
+        if (hash == sFog.sourceHash && sum == sFog.sourceSum && mountMask == sFog.mountMask)
+        {
+            sFog.paletteReady = TRUE;
+            return;
+        }
+    }
+    CpuCopy32(gPlttBufferFaded, sFogPalette, PLTT_SIZE);
     for (i=0;i<512;i++)
     {
         if (i && !(i&15)) mask>>=1;
@@ -182,4 +212,21 @@ void CramoisFogPalette(void)
         r+=((31-r)*blend)>>4;g+=((31-g)*blend)>>4;b+=((31-b)*blend)>>4;
         dest[i]=RGB(r,g,b);
     }
+    sFog.paletteMap = map;
+    sFog.cachedTone = tone;
+    sFog.cachedBlend = amount;
+    sFog.cachedSpriteBlend = spriteBlend;
+    sFog.sourceHash = hash;
+    sFog.sourceSum = sum;
+    sFog.mountMask = mountMask;
+    sFog.cacheValid = TRUE;
+    sFog.paletteReady = TRUE;
+}
+
+void CramoisFogPalette(void)
+{
+    u16 map;
+    if (!sFog.paletteReady || !CramoisIsOverworldView() || gMain.inBattle || gPaletteFade.bufferTransferDisabled) return;
+    map = (gSaveBlock1Ptr->location.mapGroup << 8) | gSaveBlock1Ptr->location.mapNum;
+    if (map == sFog.paletteMap) DmaCopy16(3, sFogPalette, (void *)PLTT, PLTT_SIZE);
 }

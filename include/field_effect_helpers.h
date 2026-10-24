@@ -4,8 +4,10 @@
 
 #ifndef GUARD_FIELD_EFFECT_HELPERS_H
 #define GUARD_FIELD_EFFECT_HELPERS_H
-
 #include "global.h"
+
+u8 LoadNativeMountPalette(void);
+u32 NativeMountPaletteMask(void);
 
 enum {
     BOB_NONE,

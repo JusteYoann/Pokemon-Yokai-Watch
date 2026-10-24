@@ -1,10 +1,6 @@
 FiveIsland_PokemonCenter_1F_Text_OnMyWayToPrepareMeal::
-    .string "I'm on my way to prepare a meal\n"
-    .string "for a certain high-society person.$"
+    .string "Je vais préparer un repas pour une\npersonne de la haute société.$"
 
 FiveIsland_PokemonCenter_1F_Text_YoureOnQuestToCatchEveryMon::
-    .string "You're on a quest to catch every\n"
-    .string "single kind of Yo-kai?\p"
-    .string "…How incredible. Please tell me if\n"
-    .string "you catch a strong one!$"
+    .string "Tu veux capturer toutes les espèces\nde Yo-kai ?\pC'est incroyable ! Préviens-moi si tu\nen attrapes un particulièrement\lpuissant !$"
 

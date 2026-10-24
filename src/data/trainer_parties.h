@@ -12357,7 +12357,7 @@ static const struct TrainerMonItemCustomMoves sYokaiParty_ELITE_FOUR_LANCE[] = {
     {.iv = 200, .lvl = 60, .species = SPECIES_KAKUNA, .heldItem = ITEM_NONE, .moves = {MOVE_DRAGON_CLAW, MOVE_AERIAL_ACE, MOVE_EARTHQUAKE, MOVE_DRAGON_DANCE}},
     {.iv = 200, .lvl = 61, .species = SPECIES_PIDGEOT, .heldItem = ITEM_NONE, .moves = {MOVE_METEOR_MASH, MOVE_BRICK_BREAK, MOVE_THUNDERBOLT, MOVE_PROTECT}},
     {.iv = 200, .lvl = 63, .species = SPECIES_WIGGLYTUFF, .heldItem = ITEM_NONE, .moves = {MOVE_CROSS_CHOP, MOVE_SHADOW_BALL, MOVE_EARTHQUAKE, MOVE_BULK_UP}},
-    {.iv = 200, .lvl = 65, .species = SPECIES_DRAGONAIR, .heldItem = ITEM_SITRUS_BERRY, .moves = {MOVE_PSYCHIC, MOVE_FLAMETHROWER, MOVE_SURF, MOVE_CALM_MIND}},
+    {.iv = 200, .lvl = 65, .species = SPECIES_DRAGONAIR, .heldItem = ITEM_SITRUS_BERRY, .moves = {MOVE_PSYCHIC, MOVE_SHOCK_WAVE, MOVE_SURF, MOVE_CALM_MIND}},
 };
 static const struct TrainerMonItemCustomMoves sYokaiParty_LEADER_BROCK[] = {
     {.iv = 200, .lvl = 8, .species = SPECIES_PORYGON, .heldItem = ITEM_NONE, .moves = {MOVE_TACKLE, MOVE_SAND_ATTACK, MOVE_MUD_SLAP, MOVE_NONE}},

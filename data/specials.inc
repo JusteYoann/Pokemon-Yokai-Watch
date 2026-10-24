@@ -470,4 +470,5 @@ gSpecials::
 	def_special YoannFadeWhite
 	def_special YoannThankForPlay
 	def_special YoannGiveCharm
+	def_special LavanvilleZombieApproach
 gSpecialsEnd::

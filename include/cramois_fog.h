@@ -3,5 +3,6 @@
 #include "global.h"
 void CramoisFogUpdate(void);
 void CramoisFogPalette(void);
+void CramoisFogPreparePalette(void);
 u8 CramoisFogTarget(void);
 #endif

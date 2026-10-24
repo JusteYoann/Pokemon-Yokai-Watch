@@ -62,18 +62,18 @@ PewterCity_EventScript_MorleoneArrival::
 	waitmovement 0
 	msgbox Argenta_DonSpeech
 	closemessage
-	applymovement LOCALID_ARGENTA_DON, Argenta_Exit25
-	waitmovement 0
-	removeobject LOCALID_ARGENTA_DON
 	applymovement LOCALID_ARGENTA_MAFIA2, Argenta_Exit27
 	waitmovement 0
 	removeobject LOCALID_ARGENTA_MAFIA2
-	applymovement LOCALID_ARGENTA_MAFIA1, Argenta_Exit23
-	waitmovement 0
-	removeobject LOCALID_ARGENTA_MAFIA1
 	applymovement LOCALID_ARGENTA_MAFIA4, Argenta_Exit27Lower
 	waitmovement 0
 	removeobject LOCALID_ARGENTA_MAFIA4
+	applymovement LOCALID_ARGENTA_DON, Argenta_Exit25
+	waitmovement 0
+	removeobject LOCALID_ARGENTA_DON
+	applymovement LOCALID_ARGENTA_MAFIA1, Argenta_Exit23
+	waitmovement 0
+	removeobject LOCALID_ARGENTA_MAFIA1
 	applymovement LOCALID_ARGENTA_MAFIA3, Argenta_Exit23Lower
 	waitmovement 0
 	removeobject LOCALID_ARGENTA_MAFIA3

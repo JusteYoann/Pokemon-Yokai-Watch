@@ -8,7 +8,7 @@ for path in (ROOT/'include/constants').glob('*.h'):
 C['FLAG_SYS_GAME_CLEAR']=0x82C
 
 def warp(r,group,num,x,y):
- r.keys=set();r.call('SetWarpDestination',group,num,255,x,y);r.call('WarpIntoMap');r.call('SetMainCallback2',r.symbols['CB2_LoadMap']|1)
+ r.keys=set();r.call('SetWarpDestination',group,num,255,x,y);r.call('WarpIntoMap');r.call('InitMap');r.call('SaveMapView');r.call('SetMainCallback2',r.symbols['CB2_LoadMap']|1)
  for f in range(1800):
   r.run()
   if f>60 and r.u32(r.symbols['gMain']+4)==r.symbols['CB2_Overworld']|1:break

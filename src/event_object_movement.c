@@ -1,3 +1,4 @@
+#include "lavanville.h"
 #include "philosovni.h"
 #include "yokai_champions.h"
 #include "global.h"
@@ -2886,7 +2887,10 @@ static bool8 MovementType_WanderAround_Step2(struct ObjectEvent *objectEvent, st
     {
         return FALSE;
     }
-    SetMovementDelay(sprite, gMovementDelaysMedium[Random() & 3]);
+    {
+        u16 zombieDelay = LavanvilleZombieStepDelay(objectEvent);
+        SetMovementDelay(sprite, zombieDelay ? zombieDelay : gMovementDelaysMedium[Random() & 3]);
+    }
     sprite->data[1] = 3;
     return TRUE;
 }
@@ -2926,7 +2930,7 @@ static bool8 MovementType_WanderAround_Step5(struct ObjectEvent *objectEvent, st
 
 static bool8 MovementType_WanderAround_Step5Slower(struct ObjectEvent *objectEvent, struct Sprite *sprite)
 {
-    ObjectEventSetSingleMovement(objectEvent, sprite, GetWalkSlowerMovementAction(objectEvent->movementDirection));
+    ObjectEventSetSingleMovement(objectEvent, sprite, LavanvilleZombieStepDelay(objectEvent) == 44 ? GetWalkNormalMovementAction(objectEvent->movementDirection) : GetWalkSlowerMovementAction(objectEvent->movementDirection));
     objectEvent->singleMovementActive = TRUE;
     sprite->data[1] = 6;
     return TRUE;

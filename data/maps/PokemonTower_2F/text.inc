@@ -1,15 +1,8 @@
 PokemonTower_2F_Text_RivalIntro::
-    .string "{RIVAL}: Hey, {PLAYER}!\n"
-    .string "What brings you here?\l"
-    .string "Is your Yo-kai dead?\p"
-    .string "Hey! It's alive!\p"
-    .string "I can at least make them faint!\n"
-    .string "Let's go!$"
+    .string "{RIVAL} : Salut, {PLAYER} ! Qu'est-ce\nqui t'amène ici ?\pTu viens pour ton Yo-kai ?\pAh, il est bien vivant ! Je peux au\nmoins le mettre K.O. !\pAllez, on se bat !$"
 
 PokemonTower_2F_Text_RivalDefeat::
-    .string "What?\n"
-    .string "You stinker!\p"
-    .string "I took it easy on you, too!$"
+    .string "Quoi ?! J'avais pourtant retenu mes\ncoups !$"
 
 @ Unused. Translated below
 @ Aw, man! They really kicked the bucket! Weak! Do them a favor and raise them more properly.
@@ -20,15 +13,7 @@ PokemonTower_2F_Text_RivalVictory::
     .string "もっと　ちゃんと　そだてて　やれよ$"
 
 PokemonTower_2F_Text_RivalPostBattle::
-    .string "How's your Médallium coming?\n"
-    .string "I just caught a CUBONE!\p"
-    .string "I can't find the bigger MAROWAK.\n"
-    .string "Where could they be?\p"
-    .string "I bet there aren't any left!\p"
-    .string "Well, I better get going.\n"
-    .string "I've got a lot to accomplish,\l"
-    .string "unlike you.\p"
-    .string "Smell ya later!$"
+    .string "Alors, ton Médallium avance ? Je\nviens encore de capturer un Yo-kai !\pMais impossible de trouver sa grande\nforme...\pIl n'en reste peut-être plus !\pBon, je file ! J'ai plein de choses à\naccomplir, contrairement à toi.\pÀ plus !$"
 
 PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts::
     .string "Even we could not identify the\n"

@@ -1,6 +1,5 @@
 SaffronCity_PokemonCenter_1F_Text_GrowthRatesDifferBySpecies::
-    .string "Yo-kai growth rates differ from\n"
-    .string "species to species.$"
+    .string "Les Yo-kai ne grandissent pas tous à\nla même vitesse. Cela dépend de leur\lespèce.$"
 
 SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame::
     .string "La réputation de la Yopple a attiré\nla Mafiamille. Ses inventions valent\lune fortune.$"

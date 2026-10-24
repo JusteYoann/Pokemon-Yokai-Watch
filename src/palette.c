@@ -1,3 +1,4 @@
+#include "lavanville.h"
 #include "global.h"
 #include "cramois_past.h"
 #include "gflib.h"
@@ -106,6 +107,7 @@ void TransferPlttBuffer(void)
         void *dest = (void *)PLTT;
         if (!CramoisTransferPalette(src))
             DmaCopy16(3, src, dest, PLTT_SIZE);
+        LavanvilleNightPalette();
         sPlttBufferTransferPending = FALSE;
         if (gPaletteFade.mode == HARDWARE_FADE && gPaletteFade.active)
             UpdateBlendRegisters();
@@ -185,6 +187,7 @@ bool8 BeginNormalPaletteFade(u32 selectedPalettes, s8 delay, u8 startY, u8 targe
         // Keep local display transforms during the immediate fade upload too.
         if (!CramoisTransferPalette(gPlttBufferFaded))
             CpuCopy32(gPlttBufferFaded, (void *)PLTT, PLTT_SIZE);
+        LavanvilleNightPalette();
         sPlttBufferTransferPending = FALSE;
         if (gPaletteFade.mode == HARDWARE_FADE && gPaletteFade.active)
             UpdateBlendRegisters();

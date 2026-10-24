@@ -102,40 +102,67 @@ void ApplyYokaiBattleOam(void)
     gOamMatrixAllocBitmap = saved;
 }
 
+static bool8 SameAnimationTile(const u8 *a, const u8 *b)
+{
+    u32 i;
+    for (i = 0; i < 32; ++i)
+        if (a[i] != b[i]) return FALSE;
+    return TRUE;
+}
+
 // Animation silhouettes use the same indexed pixels and inverse transforms as
 // hardware OBJ. Compact tile packing stays inside the existing4096-byte half.
 bool8 CopyYokaiBattlerToBg(s32 bgId, u8 battler, u8 pal, u8 *tiles, u16 *map, u16 offset)
 {
     const struct YokaiBattleGeometry *p = GetYokaiBattleGeometry(battler);
     const u8 *source;
-    u32 x, y, cols, rows, size;
+    u32 x, y, tx, ty, cols, rows, used = 1;
+    u8 tile[32];
     if (p == NULL)
         return FALSE;
     cols = (p->width + 7) / 8; rows = (p->height + 7) / 8;
-    size = cols * rows * 32;
-    if (size > 0x1000)
-        return FALSE;
     source = gMonSpritesGfxPtr->sprites[GetBattlerPosition(battler)] + 0x800 * gBattleMonForms[battler];
     CpuFill16(0, tiles, 0x1000);
-    for (y = 0; y < p->height; ++y)
+    /* Deduplicate empty/repeated tiles. Full lower-body silhouettes can occupy
+     * a wide rectangle while still fitting the native 128-tile allocation. */
+    for (ty = 0; ty < rows; ++ty)
     {
-        s32 sy = (((s32)y + p->top) * p->inverseY >> 8) + 32;
-        for (x = 0; x < p->width; ++x)
+        for (tx = 0; tx < cols; ++tx)
         {
-            s32 sx = (((s32)x + p->left) * p->inverseX >> 8) + 32;
-            u32 idx, value;
-            if (sx < 0 || sx >= 64 || sy < 0 || sy >= 64)
-                continue;
-            idx = (sy / 8 * 8 + sx / 8) * 32 + (sy % 8) * 4 + (sx % 8) / 2;
-            value = (source[idx] >> ((sx & 1) * 4)) & 15;
-            idx = (y / 8 * cols + x / 8) * 32 + (y % 8) * 4 + (x % 8) / 2;
-            tiles[idx] |= value << ((x & 1) * 4);
+            u32 found;
+            memset(tile, 0, sizeof(tile));
+            for (y = 0; y < 8; ++y)
+            {
+                s32 py = ty * 8 + y;
+                s32 sy = ((py + p->top) * p->inverseY >> 8) + 32;
+                if (py >= p->height || sy < 0 || sy >= 64)
+                    continue;
+                for (x = 0; x < 8; ++x)
+                {
+                    s32 px = tx * 8 + x;
+                    s32 sx = ((px + p->left) * p->inverseX >> 8) + 32;
+                    u32 idx, value;
+                    if (px >= p->width || sx < 0 || sx >= 64)
+                        continue;
+                    idx = (sy / 8 * 8 + sx / 8) * 32 + (sy % 8) * 4 + (sx % 8) / 2;
+                    value = (source[idx] >> ((sx & 1) * 4)) & 15;
+                    tile[y * 4 + x / 2] |= value << ((x & 1) * 4);
+                }
+            }
+            for (found = 0; found < used; ++found)
+                if (SameAnimationTile(tile, tiles + found * 32))
+                    break;
+            if (found == used)
+            {
+                if (used >= 128)
+                    return FALSE;
+                memcpy(tiles + used * 32, tile, 32);
+                ++used;
+            }
+            map[ty * 32 + tx] = (offset + found) | (pal << 12);
         }
     }
-    for (y = 0; y < rows; ++y)
-        for (x = 0; x < cols; ++x)
-            map[y * 32 + x] = (offset + y * cols + x) | (pal << 12);
-    LoadBgTiles(bgId, tiles, size, offset);
+    LoadBgTiles(bgId, tiles, used * 32, offset);
     LoadBgTilemap(bgId, map, 0x800, 0);
     if (bgId == 1)
     {

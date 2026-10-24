@@ -5,14 +5,22 @@ PewterCity_Gym_EventScript_Brock::
 	lock
 	faceplayer
 	goto_if_set FLAG_BADGE01_GET, Philosovni_Wyatt_Normal
-	call_if_set FLAG_ARGENTA_MORLEONE_DONE, Philosovni_Wyatt_Concern
+	goto_if_set FLAG_ARGENTA_MORLEONE_DONE, PewterCity_Gym_WyattStoryBattle
 Philosovni_Wyatt_Normal::
 	famechecker FAMECHECKER_BROCK, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
 	trainerbattle_single TRAINER_LEADER_BROCK, PewterCity_Gym_Text_BrockIntro, PewterCity_Gym_Text_BrockDefeat, PewterCity_Gym_EventScript_DefeatedBrock, NO_MUSIC
+PewterCity_Gym_AfterWyattBattle::
 	goto_if_unset FLAG_GOT_TM39_FROM_BROCK, PewterCity_Gym_EventScript_GiveTM39
 	msgbox PewterCity_Gym_Text_BrockPostBattle
 	release
 	end
+
+@ The story introduction already greets the player and challenges them.
+PewterCity_Gym_WyattStoryBattle::
+	setflag FLAG_PHILOSOVNI_WYATT_DONE
+	famechecker FAMECHECKER_BROCK, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
+	trainerbattle_single TRAINER_LEADER_BROCK, Philosovni_Text_WyattConcern, PewterCity_Gym_Text_BrockDefeat, PewterCity_Gym_EventScript_DefeatedBrock, NO_MUSIC
+	goto PewterCity_Gym_AfterWyattBattle
 
 PewterCity_Gym_EventScript_DefeatedBrock::
 	call_if_set FLAG_PHILOSOVNI_WYATT_DONE, Philosovni_Wyatt_After

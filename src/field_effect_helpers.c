@@ -941,9 +941,26 @@ static void UpdateAshFieldEffect_Step2(struct Sprite *sprite)
 #define sBobDirection   data[3]
 #define sTimer          data[4]
 
+// Surf/Fly used the original player's palette0. Custom protagonists no longer
+// contain those colors; give both native mounts their own original tagged bank.
+#define NATIVE_MOUNT_PAL_TAG 0x12F1
+extern const u16 gObjectEventPal_PlayerUnused[];
+u8 LoadNativeMountPalette(void)
+{
+    const struct SpritePalette palette = {gObjectEventPal_PlayerUnused, NATIVE_MOUNT_PAL_TAG};
+    u8 bank = LoadSpritePalette(&palette);
+    return bank == 0xFF ? 0 : bank;
+}
+
+u32 NativeMountPaletteMask(void)
+{
+    u8 bank = IndexOfSpritePaletteTag(NATIVE_MOUNT_PAL_TAG);
+    return bank < 16 ? 1u << (16 + bank) : 0;
+}
+
 u32 FldEff_SurfBlob(void)
 {
-    u8 spriteId;
+    u8 spriteId, mountPalette = LoadNativeMountPalette();
     struct Sprite *sprite;
 
     SetSpritePosToOffsetMapCoords((s16 *)&gFieldEffectArguments[0], (s16 *)&gFieldEffectArguments[1], 8, 8);
@@ -952,7 +969,7 @@ u32 FldEff_SurfBlob(void)
     {
         sprite = &gSprites[spriteId];
         sprite->coordOffsetEnabled = TRUE;
-        sprite->oam.paletteNum = 0;
+        sprite->oam.paletteNum = mountPalette;
         sprite->sPlayerObjectId = gFieldEffectArguments[2];
         sprite->sBobDirection = 0;
         sprite->data[6] = -1;

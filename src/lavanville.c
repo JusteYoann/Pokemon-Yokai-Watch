@@ -3,6 +3,7 @@
 #include "gflib.h"
 #include "lavanville.h"
 #include "battle.h"
+#include "battle_main.h"
 #include "battle_anim.h"
 #include "constants/trainer_types.h"
 #include "battle_setup.h"
@@ -27,6 +28,8 @@
 #include "task.h"
 
 static EWRAM_DATA u16 sZombieCooldown = 0;
+static EWRAM_DATA bool8 sZombieSightApproach = FALSE;
+extern const u8 LavenderZombie_Variant1[];
 extern const u8 LavenderZombie_Errant[];
 static const u32 sZombiePics[4][512] = {
     INCBIN_U32("graphics/yokai_zombies/errant/battle-front.4bpp"),
@@ -64,7 +67,7 @@ bool8 IsLavanvilleNight(void)
 void LavanvilleNightPalette(void)
 {
     u16 i;
-    if (!IsLavanvilleNight() || gMain.inBattle)
+    if (!IsLavanvilleNight() || !IsFieldPaletteView())
         return;
     for (i = 0; i < 192; i++)
     {
@@ -83,7 +86,7 @@ void LavanvilleNightPalette(void)
 void LavanvilleZombieImmunity(void) { sZombieCooldown = 180; }
 u16 LavanvilleCheckZombieImmunity(void)
 {
-    return gSpecialVar_Result = sZombieCooldown != 0;
+    return gSpecialVar_Result = !FlagGet(FLAG_BADGE04_GET) && sZombieCooldown != 0;
 }
 
 void LavanvilleStartZombieBattle(void)
@@ -123,7 +126,9 @@ bool8 LavanvilleTryZombieSight(void)
 {
     u8 i, n, dir;
     s16 px, py, x, y, dx, dy;
+    if (!IsLavanvilleNight()) return FALSE;
     if (sZombieCooldown) { sZombieCooldown--; return FALSE; }
+    if (FlagGet(FLAG_BADGE04_GET)) return FALSE;
     if (!FlagGet(FLAG_LAVENDER_INTRO_DONE)) return FALSE;
     PlayerGetDestCoords(&px, &py);
     for (i = 0; i < OBJECT_EVENTS_COUNT; i++)
@@ -141,6 +146,7 @@ bool8 LavanvilleTryZombieSight(void)
             if (MapGridGetCollisionAt(x, y)) break;
             if (x == px && y == py)
             {
+                sZombieSightApproach = TRUE;
                 gSelectedObjectEvent = i;
                 gSpecialVar_LastTalked = o->localId;
                 ScriptContext_SetupScript(GetObjectEventScriptPointerByObjectEventId(i));
@@ -150,6 +156,51 @@ bool8 LavanvilleTryZombieSight(void)
         }
     }
     return FALSE;
+}
+
+// Patrol period includes the walking animation: ~60 or ~120 field frames.
+u16 LavanvilleZombieStepDelay(struct ObjectEvent *object)
+{
+    if (!IsLavanvilleNight() || object->graphicsId != OBJ_EVENT_GFX_LAVENDER_ZOMBIE)
+        return 0;
+    return GetObjectEventScriptPointerByObjectEventId(object - gObjectEvents) == LavenderZombie_Variant1 ? 44 : 88;
+}
+
+static void Task_ZombieApproach(u8 taskId)
+{
+    struct Task *task = &gTasks[taskId];
+    struct ObjectEvent *object = &gObjectEvents[task->data[0]];
+    s16 px, py, dx, dy, x, y;
+    u8 dir, collision, oldX, oldY;
+    if (object->heldMovementActive && !ObjectEventClearHeldMovementIfFinished(object)) return;
+    if (!task->data[1] || !object->active || FlagGet(FLAG_BADGE04_GET)) goto finish;
+    PlayerGetDestCoords(&px, &py);
+    dx = px - object->currentCoords.x; dy = py - object->currentCoords.y;
+    if ((dx && dy) || (dx < 0 ? -dx : dx) + (dy < 0 ? -dy : dy) <= 1) goto finish;
+    dir = dx > 0 ? DIR_EAST : dx < 0 ? DIR_WEST : dy > 0 ? DIR_SOUTH : DIR_NORTH;
+    x = object->currentCoords.x + (dx > 0 ? 1 : dx < 0 ? -1 : 0);
+    y = object->currentCoords.y + (dy > 0 ? 1 : dy < 0 ? -1 : 0);
+    oldX = object->rangeX; oldY = object->rangeY;
+    object->rangeX = object->rangeY = 15;
+    collision = GetCollisionAtCoords(object, x, y, dir);
+    object->rangeX = oldX; object->rangeY = oldY;
+    if (collision) goto finish;
+    ObjectEventTurn(object, dir);
+    ObjectEventSetHeldMovement(object, GetWalkSlowerMovementAction(dir));
+    task->data[1]--;
+    return;
+finish:
+    if (object->active) object->initialCoords = object->currentCoords;
+    DestroyTask(taskId);
+    ScriptContext_Enable();
+}
+
+void LavanvilleZombieApproach(void)
+{
+    u8 task = CreateTask(Task_ZombieApproach, 8);
+    gTasks[task].data[0] = gSelectedObjectEvent;
+    gTasks[task].data[1] = sZombieSightApproach ? 4 : 0;
+    sZombieSightApproach = FALSE;
 }
 
 // Scene adapts to all three entrances, Fly, Teleport and saved positions.

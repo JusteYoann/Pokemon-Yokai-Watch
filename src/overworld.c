@@ -1498,6 +1498,7 @@ static void OverworldBasic(void)
     UpdateCameraPanning();
     BuildOamBuffer();
     UpdatePaletteFade();
+    CramoisFogPreparePalette();
     UpdateTilesetAnimations();
     DoScheduledBgTilemapCopiesToVram();
 }
@@ -1511,6 +1512,13 @@ void CB2_OverworldBasic(void)
 bool8 CramoisIsOverworldView(void)
 {
     return gMain.callback2 == CB2_Overworld || gMain.callback2 == CB2_OverworldBasic;
+}
+
+bool8 IsFieldPaletteView(void)
+{
+    // Keep field colors during battle setup, until its VBlank is replaced.
+    // Menus install their own callbacks and must retain their native palettes.
+    return gMain.vblankCallback == VBlankCB_Field || CramoisIsOverworldView();
 }
 
 static void CB2_Overworld(void)
@@ -1786,7 +1794,6 @@ static void VBlankCB_Field(void)
     ScanlineEffect_InitHBlankDmaTransfer();
     FieldUpdateBgTilemapScroll();
     TransferPlttBuffer();
-    LavanvilleNightPalette();
     CramoisFogPalette();
     TransferTilesetAnimsBuffer();
 }

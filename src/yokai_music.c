@@ -196,14 +196,10 @@ void YokaiCalibrateSong(struct MusicPlayerInfo *player, struct SongHeader *heade
     if (index < 0) return;
     sMixGain[index] = 256;
 #ifdef YOKAI_PRIVATE_AUDIO
-    if (&mus_yokai_credits != NULL && header == &mus_yokai_credits)
-        return;
-    for (n = 0; n < gYokaiPrivateSlotCount && n < YOKAI_MUSIC_SLOT_COUNT; n++)
-        if (gYokaiPrivateHeaders[n] != NULL && gYokaiPrivateHeaders[n] == header)
-        {
-            sMixGain[index] = sYokaiSongGain[MUS_YOKAI_BICYCLE + n];
-            return;
-        }
+    /* Restore the reference B13 mixer gain, including sound effects. The
+     * later per-song boost amplified the sampled noise as well as the music.
+     * Source waveforms, sequences and relative native fades stay unchanged. */
+    return;
 #endif
     for (n = 0; n <= MUS_YOKAI_LAST; n++)
         if (gSongTable[n].header == header)

@@ -5,8 +5,7 @@ PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting::
     .string "{RIVAL}: Papi!\nJ'en ai assez d'attendre!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe::
-    .string "{RIVAL}: Hey! Gramps! No fair!\n"
-    .string "What about me?$"
+    .string "{RIVAL} : Hé, Pépé ! C'est pas juste !\nEt moi, alors ?$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer::
     .string "{RIVAL}: Je ne suis pas aussi\nimpatient que toi, moi!\pVas-y, choisis, {PLAYER}!$"
@@ -18,8 +17,7 @@ PalletTown_ProfessorOaksLab_Text_RivalReceivedMonFromOak::
     .string "{RIVAL} reçoit {STR_VAR_1}\ndu Professeur Chen!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalMyMonLooksTougher::
-    .string "{RIVAL}: My Yo-kai looks a lot\n"
-    .string "tougher than yours.$"
+    .string "{RIVAL} : Mon Yo-kai a l'air bien plus\ncostaud que le tien !$"
 
 PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons::
     .string "{RIVAL}: Attends, {PLAYER}!\nComparons nos Yo-kai!\pAllez, je te défie!$"

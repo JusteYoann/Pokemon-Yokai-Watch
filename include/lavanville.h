@@ -4,6 +4,9 @@
 bool8 IsLavanvilleNight(void);
 bool8 LavanvilleNeedsTemplateRefresh(void);
 void LavanvilleNightPalette(void);
+struct ObjectEvent;
+void LavanvilleZombieApproach(void);
+u16 LavanvilleZombieStepDelay(struct ObjectEvent *object);
 void LavanvilleStartZombieBattle(void);
 void LavanvilleZombieImmunity(void);
 u16 LavanvilleCheckZombieImmunity(void);

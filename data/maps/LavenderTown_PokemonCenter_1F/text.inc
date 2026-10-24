@@ -5,7 +5,5 @@ LavenderTown_PokemonCenter_1F_Text_CubonesMotherKilledByRockets::
     .string "J'ai vu la mère d'OSSELAIT tenter de\nfuir la Mafiamille. Elle n'a pas\lsurvécu...$"
 
 LavenderTown_PokemonCenter_1F_Text_PeoplePayForCuboneSkulls::
-    .string "You know how the CUBONE species\n"
-    .string "wears skulls, right?\p"
-    .string "People will pay a lot for one.$"
+    .string "Tu connais ces Yo-kai qui portent un\ncrâne sur la tête ?\pCertaines personnes sont prêtes à\npayer très cher pour en obtenir un.$"
 
