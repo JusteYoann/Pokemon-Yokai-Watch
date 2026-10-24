@@ -1,0 +1,320 @@
+[
+  {
+    "version": "avant",
+    "steps": [
+      [
+        0,
+        [
+          17,
+          16
+        ]
+      ],
+      [
+        8,
+        [
+          18,
+          16
+        ]
+      ],
+      [
+        17,
+        [
+          19,
+          16
+        ]
+      ],
+      [
+        26,
+        [
+          20,
+          16
+        ]
+      ],
+      [
+        35,
+        [
+          21,
+          16
+        ]
+      ],
+      [
+        44,
+        [
+          22,
+          16
+        ]
+      ],
+      [
+        53,
+        [
+          23,
+          16
+        ]
+      ],
+      [
+        62,
+        [
+          24,
+          16
+        ]
+      ],
+      [
+        71,
+        [
+          25,
+          16
+        ]
+      ],
+      [
+        80,
+        [
+          26,
+          16
+        ]
+      ],
+      [
+        88,
+        [
+          27,
+          16
+        ]
+      ],
+      [
+        96,
+        [
+          28,
+          16
+        ]
+      ],
+      [
+        104,
+        [
+          29,
+          16
+        ]
+      ],
+      [
+        112,
+        [
+          30,
+          16
+        ]
+      ],
+      [
+        120,
+        [
+          31,
+          16
+        ]
+      ],
+      [
+        128,
+        [
+          32,
+          16
+        ]
+      ],
+      [
+        136,
+        [
+          33,
+          16
+        ]
+      ],
+      [
+        144,
+        [
+          34,
+          16
+        ]
+      ],
+      [
+        152,
+        [
+          35,
+          16
+        ]
+      ]
+    ],
+    "timing": {
+      "SpriteCallbackDummy": {
+        "median_cycles": 28.0,
+        "min_cycles": 28,
+        "max_cycles": 28
+      },
+      "CramoisFogPalette": {
+        "median_cycles": 92396.0,
+        "min_cycles": 92396,
+        "max_cycles": 92396
+      }
+    },
+    "cycles_per_frame": 280896,
+    "vblank_cycles_budget": 83776,
+    "fixture": "Native timer2+3 profiling wrapper; no ROM change; interrupts included; movement by held RIGHT button"
+  },
+  {
+    "version": "apres",
+    "steps": [
+      [
+        0,
+        [
+          17,
+          16
+        ]
+      ],
+      [
+        8,
+        [
+          18,
+          16
+        ]
+      ],
+      [
+        16,
+        [
+          19,
+          16
+        ]
+      ],
+      [
+        24,
+        [
+          20,
+          16
+        ]
+      ],
+      [
+        32,
+        [
+          21,
+          16
+        ]
+      ],
+      [
+        41,
+        [
+          22,
+          16
+        ]
+      ],
+      [
+        49,
+        [
+          23,
+          16
+        ]
+      ],
+      [
+        58,
+        [
+          24,
+          16
+        ]
+      ],
+      [
+        66,
+        [
+          25,
+          16
+        ]
+      ],
+      [
+        75,
+        [
+          26,
+          16
+        ]
+      ],
+      [
+        83,
+        [
+          27,
+          16
+        ]
+      ],
+      [
+        91,
+        [
+          28,
+          16
+        ]
+      ],
+      [
+        99,
+        [
+          29,
+          16
+        ]
+      ],
+      [
+        107,
+        [
+          30,
+          16
+        ]
+      ],
+      [
+        115,
+        [
+          31,
+          16
+        ]
+      ],
+      [
+        123,
+        [
+          32,
+          16
+        ]
+      ],
+      [
+        131,
+        [
+          33,
+          16
+        ]
+      ],
+      [
+        139,
+        [
+          34,
+          16
+        ]
+      ],
+      [
+        147,
+        [
+          35,
+          16
+        ]
+      ],
+      [
+        155,
+        [
+          36,
+          16
+        ]
+      ]
+    ],
+    "timing": {
+      "SpriteCallbackDummy": {
+        "median_cycles": 28.0,
+        "min_cycles": 28,
+        "max_cycles": 28
+      },
+      "CramoisFogPalette": {
+        "median_cycles": 1317.0,
+        "min_cycles": 1317,
+        "max_cycles": 1317
+      },
+      "CramoisFogPreparePalette": {
+        "median_cycles": 27216.0,
+        "min_cycles": 27216,
+        "max_cycles": 27216
+      }
+    },
+    "cycles_per_frame": 280896,
+    "vblank_cycles_budget": 83776,
+    "fixture": "Native timer2+3 profiling wrapper; no ROM change; interrupts included; movement by held RIGHT button"
+  }
+]

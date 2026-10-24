@@ -1,0 +1,140 @@
+{
+  "passed": true,
+  "scope": "Native static photo set: plain grass field background and14 native OW sprites.\n\nDeveloper-only staging uses OAM sprites rather than moving field objects.\nNo sprite artwork is drawn or composited into the screenshot. Every palette is\nloaded from its native graphics tag, assigned its own OBJ bank and verified.\n",
+  "rom_sha256": "7cb09555cdc919598ed9e569d432b9b2e6dee84b9da1b42d73058b78f91d9c5a",
+  "members": [
+    {
+      "name": "Enma l'Ancien",
+      "graphics_id": 178,
+      "sprite_id": 0,
+      "x": 44,
+      "y": 48,
+      "bank": 0,
+      "palette": 138104752
+    },
+    {
+      "name": "Orqanos",
+      "graphics_id": 179,
+      "sprite_id": 1,
+      "x": 82,
+      "y": 48,
+      "bank": 1,
+      "palette": 138105296
+    },
+    {
+      "name": "Zazel",
+      "graphics_id": 177,
+      "sprite_id": 2,
+      "x": 120,
+      "y": 48,
+      "bank": 2,
+      "palette": 138104208
+    },
+    {
+      "name": "Maître Nyada",
+      "graphics_id": 180,
+      "sprite_id": 3,
+      "x": 158,
+      "y": 48,
+      "bank": 3,
+      "palette": 138105840
+    },
+    {
+      "name": "Domniscian",
+      "graphics_id": 161,
+      "sprite_id": 4,
+      "x": 196,
+      "y": 48,
+      "bank": 4,
+      "palette": 138086960
+    },
+    {
+      "name": "Nathaniel",
+      "graphics_id": 158,
+      "sprite_id": 5,
+      "x": 44,
+      "y": 80,
+      "bank": 5,
+      "palette": 138075344
+    },
+    {
+      "name": "Hovernyan",
+      "graphics_id": 176,
+      "sprite_id": 6,
+      "x": 82,
+      "y": 80,
+      "bank": 6,
+      "palette": 138103152
+    },
+    {
+      "name": "Don Morléone",
+      "graphics_id": 164,
+      "sprite_id": 7,
+      "x": 120,
+      "y": 80,
+      "bank": 7,
+      "palette": 138086992
+    },
+    {
+      "name": "Ariane",
+      "graphics_id": 152,
+      "sprite_id": 8,
+      "x": 158,
+      "y": 80,
+      "bank": 8,
+      "palette": 138072688
+    },
+    {
+      "name": "Usapion",
+      "graphics_id": 153,
+      "sprite_id": 9,
+      "x": 196,
+      "y": 80,
+      "bank": 9,
+      "palette": 138072688
+    },
+    {
+      "name": "Matt",
+      "graphics_id": 72,
+      "sprite_id": 10,
+      "x": 62,
+      "y": 112,
+      "bank": 10,
+      "palette": 138072656
+    },
+    {
+      "name": "Protagoniste",
+      "graphics_id": 0,
+      "sprite_id": 11,
+      "x": 100,
+      "y": 112,
+      "bank": 11,
+      "palette": 137788912
+    },
+    {
+      "name": "Katie",
+      "graphics_id": 157,
+      "sprite_id": 12,
+      "x": 138,
+      "y": 112,
+      "bank": 12,
+      "palette": 137788912
+    },
+    {
+      "name": "Jibanyan",
+      "graphics_id": 172,
+      "sprite_id": 13,
+      "x": 176,
+      "y": 112,
+      "bank": 13,
+      "palette": 138089200
+    }
+  ],
+  "excluded": [
+    "Whisper",
+    "Komasan",
+    "Don Spiraton",
+    "Léo",
+    "Professeur Chen"
+  ]
+}

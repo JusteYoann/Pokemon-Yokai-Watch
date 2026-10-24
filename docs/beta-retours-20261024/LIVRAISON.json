@@ -1,0 +1,39 @@
+{
+  "branch": "fix/beta-retours-20261024",
+  "base_commit": "3524e51072cc84c10d16786f39ef7a6d75e491f4",
+  "rom_filename": "Pokemon_Yokai_Watch_Beta_0.1_Corrigee.gba",
+  "rom_bytes": 33449971,
+  "rom_sha256": "5ac3df63ea192cd4392613108d7ccd8fdc4c7c0c60eba3403d1427f7453f2068",
+  "master_untouched": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+  "protected_source_files": [
+    {
+      "path": "include/global.h",
+      "unchanged": true,
+      "sha256": "044325b90e7c79146cc0cf73d31b6be3e4840059e2e778b63d9b5448fe538429"
+    },
+    {
+      "path": "include/constants/species.h",
+      "unchanged": true,
+      "sha256": "ec3f9f9c2717dcd453aa7a27506c32e1e6ca067864534dee494695d74344c51a"
+    },
+    {
+      "path": "src/data/pokemon/species_info.h",
+      "unchanged": true,
+      "sha256": "43b4e39e795fc5be5b845fe063c4fd68977f5fa0bad13d2c8ca11be2fb8e28e0"
+    },
+    {
+      "path": "data/yokai/noms_affiches.json",
+      "unchanged": true,
+      "sha256": "d91e9d25877ef39637e3bdc7f5fa71d37e504c834b5634dfcd8b1fc8d1693512"
+    },
+    {
+      "path": "src/data/pokemon/evolution.h",
+      "unchanged": true,
+      "sha256": "e37a0c61146ff91135419c55976381a471e5f5be8484a65490718fed91adb700"
+    }
+  ],
+  "source_commit": "062a21dc1ba5bfb36817503e4c729a934b1b1bcd",
+  "download_branch": "downloads/beta-0.1-corrections-20261024",
+  "download_commit": "ae2f8436851e4bf9857b8be9f762140e36e04797",
+  "download_url": "https://raw.githubusercontent.com/JusteYoann/Pokemon-Yokai-Watch/ae2f8436851e4bf9857b8be9f762140e36e04797/Pokemon_Yokai_Watch_Beta_0.1_Corrigee.gba"
+}

@@ -1,0 +1,176 @@
+{
+  "scope": "Completed native battles only; no bag item use, full team recovery before each isolated encounter. Initial driver RPC failures are archived outside this published result set and are not counted as wins.",
+  "results": [
+    {
+      "report": "TEST_L55_410-411-412-413.json",
+      "rom_sha256": "d26202ddba1f4f0ab2673acf572104a0ad6dd3ed9def551428e706363977237b",
+      "trainer": 410,
+      "level": 55,
+      "seed": null,
+      "victory": true,
+      "native_outcome": 1
+    },
+    {
+      "report": "TEST_L55_410-411-412-413.json",
+      "rom_sha256": "d26202ddba1f4f0ab2673acf572104a0ad6dd3ed9def551428e706363977237b",
+      "trainer": 411,
+      "level": 55,
+      "seed": null,
+      "victory": true,
+      "native_outcome": 1
+    },
+    {
+      "report": "TEST_L55_410-411-412-413.json",
+      "rom_sha256": "d26202ddba1f4f0ab2673acf572104a0ad6dd3ed9def551428e706363977237b",
+      "trainer": 412,
+      "level": 55,
+      "seed": null,
+      "victory": false,
+      "native_outcome": 2
+    },
+    {
+      "report": "TEST_L55_410-411-412-413.json",
+      "rom_sha256": "d26202ddba1f4f0ab2673acf572104a0ad6dd3ed9def551428e706363977237b",
+      "trainer": 413,
+      "level": 55,
+      "seed": null,
+      "victory": false,
+      "native_outcome": 2
+    },
+    {
+      "report": "TEST_L55_413_42-1312-20261024.json",
+      "rom_sha256": "4b4f2a5f70c8f29b65b3c4cdbffc5fa49e6adc0c87f61d3e935735371adf1359",
+      "trainer": 413,
+      "level": 55,
+      "seed": 42,
+      "victory": false,
+      "native_outcome": 2
+    },
+    {
+      "report": "TEST_L55_413_42-1312-20261024.json",
+      "rom_sha256": "4b4f2a5f70c8f29b65b3c4cdbffc5fa49e6adc0c87f61d3e935735371adf1359",
+      "trainer": 413,
+      "level": 55,
+      "seed": 1312,
+      "victory": false,
+      "native_outcome": 2
+    },
+    {
+      "report": "TEST_L55_413_42-1312-20261024.json",
+      "rom_sha256": "4b4f2a5f70c8f29b65b3c4cdbffc5fa49e6adc0c87f61d3e935735371adf1359",
+      "trainer": 413,
+      "level": 55,
+      "seed": 20261024,
+      "victory": false,
+      "native_outcome": 2
+    },
+    {
+      "report": "TEST_L60_410-411-412-413_42.json",
+      "rom_sha256": "b41478a455c7f66f5ba7f2ea824877eaf2d7e40d0905052f43cecf18cd48baa8",
+      "trainer": 410,
+      "level": 60,
+      "seed": 42,
+      "victory": true,
+      "native_outcome": 1
+    },
+    {
+      "report": "TEST_L60_410-411-412-413_42.json",
+      "rom_sha256": "b41478a455c7f66f5ba7f2ea824877eaf2d7e40d0905052f43cecf18cd48baa8",
+      "trainer": 411,
+      "level": 60,
+      "seed": 42,
+      "victory": true,
+      "native_outcome": 1
+    },
+    {
+      "report": "TEST_L60_410-411-412-413_42.json",
+      "rom_sha256": "b41478a455c7f66f5ba7f2ea824877eaf2d7e40d0905052f43cecf18cd48baa8",
+      "trainer": 412,
+      "level": 60,
+      "seed": 42,
+      "victory": true,
+      "native_outcome": 1
+    },
+    {
+      "report": "TEST_L60_410-411-412-413_42.json",
+      "rom_sha256": "b41478a455c7f66f5ba7f2ea824877eaf2d7e40d0905052f43cecf18cd48baa8",
+      "trainer": 413,
+      "level": 60,
+      "seed": 42,
+      "victory": true,
+      "native_outcome": 1
+    },
+    {
+      "report": "TEST_L60_411-412-413.json",
+      "rom_sha256": "d26202ddba1f4f0ab2673acf572104a0ad6dd3ed9def551428e706363977237b",
+      "trainer": 411,
+      "level": 60,
+      "seed": null,
+      "victory": true,
+      "native_outcome": 1
+    },
+    {
+      "report": "TEST_L60_411-412-413.json",
+      "rom_sha256": "d26202ddba1f4f0ab2673acf572104a0ad6dd3ed9def551428e706363977237b",
+      "trainer": 412,
+      "level": 60,
+      "seed": null,
+      "victory": true,
+      "native_outcome": 1
+    },
+    {
+      "report": "TEST_L60_411-412-413.json",
+      "rom_sha256": "d26202ddba1f4f0ab2673acf572104a0ad6dd3ed9def551428e706363977237b",
+      "trainer": 413,
+      "level": 60,
+      "seed": null,
+      "victory": false,
+      "native_outcome": 2
+    },
+    {
+      "report": "TEST_L60_413.json",
+      "rom_sha256": "89d9fcd840043c5a5a0679414b1d003a89431f29b6dac3e7412acfaa083f19eb",
+      "trainer": 413,
+      "level": 60,
+      "seed": null,
+      "victory": false,
+      "native_outcome": 2
+    },
+    {
+      "report": "TEST_L60_413_42-1312-20261024.json",
+      "rom_sha256": "4b4f2a5f70c8f29b65b3c4cdbffc5fa49e6adc0c87f61d3e935735371adf1359",
+      "trainer": 413,
+      "level": 60,
+      "seed": 42,
+      "victory": true,
+      "native_outcome": 1
+    },
+    {
+      "report": "TEST_L60_413_42-1312-20261024.json",
+      "rom_sha256": "4b4f2a5f70c8f29b65b3c4cdbffc5fa49e6adc0c87f61d3e935735371adf1359",
+      "trainer": 413,
+      "level": 60,
+      "seed": 1312,
+      "victory": false,
+      "native_outcome": 2
+    },
+    {
+      "report": "TEST_L60_413_42-1312-20261024.json",
+      "rom_sha256": "4b4f2a5f70c8f29b65b3c4cdbffc5fa49e6adc0c87f61d3e935735371adf1359",
+      "trainer": 413,
+      "level": 60,
+      "seed": 20261024,
+      "victory": true,
+      "native_outcome": 1
+    },
+    {
+      "report": "TEST_L65_413.json",
+      "rom_sha256": "89d9fcd840043c5a5a0679414b1d003a89431f29b6dac3e7412acfaa083f19eb",
+      "trainer": 413,
+      "level": 65,
+      "seed": null,
+      "victory": true,
+      "native_outcome": 1
+    }
+  ]
+}

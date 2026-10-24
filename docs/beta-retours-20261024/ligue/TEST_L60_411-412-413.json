@@ -1,0 +1,708 @@
+{
+  "error": null,
+  "completed": true,
+  "scope": "Native League battles with legal offensive teams and controller-only decisions.\nFixtures: ordinary six-member team, IV20/EV80 per stat, full health per encounter.\nNo opponent/stat/HP/PP/outcome edits during battle. No bag items/revives used.\nDamage estimates choose moves; the ROM alone resolves turns, AI and outcomes.\n",
+  "rom_sha256": "d26202ddba1f4f0ab2673acf572104a0ad6dd3ed9def551428e706363977237b",
+  "team": [
+    {
+      "species": 2,
+      "level": 60,
+      "iv": 20,
+      "ev_per_stat": 80,
+      "moves": [
+        280,
+        126,
+        38,
+        242
+      ],
+      "legal_pool": [
+        10,
+        14,
+        38,
+        39,
+        43,
+        44,
+        45,
+        52,
+        53,
+        70,
+        103,
+        126,
+        154,
+        163,
+        172,
+        216,
+        242,
+        247,
+        263,
+        269,
+        280,
+        290,
+        332,
+        339
+      ],
+      "stats": {
+        "MAX_HP": 188,
+        "ATK": 146,
+        "DEF": 121,
+        "SPEED": 122,
+        "SPATK": 125,
+        "SPDEF": 98
+      }
+    },
+    {
+      "species": 27,
+      "level": 60,
+      "iv": 20,
+      "ev_per_stat": 80,
+      "moves": [
+        58,
+        216,
+        59,
+        62
+      ],
+      "legal_pool": [
+        45,
+        54,
+        58,
+        59,
+        62,
+        97,
+        181,
+        196,
+        216,
+        219,
+        227,
+        243,
+        258,
+        263,
+        290
+      ],
+      "stats": {
+        "MAX_HP": 172,
+        "ATK": 84,
+        "DEF": 98,
+        "SPEED": 156,
+        "SPATK": 185,
+        "SPDEF": 107
+      }
+    },
+    {
+      "species": 30,
+      "level": 60,
+      "iv": 20,
+      "ev_per_stat": 80,
+      "moves": [
+        85,
+        216,
+        87,
+        209
+      ],
+      "legal_pool": [
+        33,
+        45,
+        63,
+        84,
+        85,
+        86,
+        87,
+        97,
+        113,
+        192,
+        209,
+        216,
+        263,
+        290,
+        347,
+        351
+      ],
+      "stats": {
+        "MAX_HP": 190,
+        "ATK": 113,
+        "DEF": 113,
+        "SPEED": 137,
+        "SPATK": 179,
+        "SPDEF": 131
+      }
+    },
+    {
+      "species": 79,
+      "level": 60,
+      "iv": 20,
+      "ev_per_stat": 80,
+      "moves": [
+        224,
+        280,
+        309,
+        216
+      ],
+      "legal_pool": [
+        10,
+        29,
+        42,
+        63,
+        70,
+        89,
+        106,
+        157,
+        182,
+        210,
+        216,
+        224,
+        231,
+        232,
+        263,
+        280,
+        290,
+        309,
+        317,
+        324,
+        332,
+        334,
+        339
+      ],
+      "stats": {
+        "MAX_HP": 208,
+        "ATK": 179,
+        "DEF": 221,
+        "SPEED": 77,
+        "SPATK": 59,
+        "SPDEF": 131
+      }
+    },
+    {
+      "species": 86,
+      "level": 60,
+      "iv": 20,
+      "ev_per_stat": 80,
+      "moves": [
+        276,
+        216,
+        89,
+        57
+      ],
+      "legal_pool": [
+        33,
+        34,
+        43,
+        55,
+        57,
+        58,
+        59,
+        63,
+        67,
+        70,
+        89,
+        116,
+        152,
+        216,
+        223,
+        238,
+        240,
+        263,
+        276,
+        279,
+        280,
+        290,
+        317,
+        339
+      ],
+      "stats": {
+        "MAX_HP": 233,
+        "ATK": 179,
+        "DEF": 173,
+        "SPEED": 63,
+        "SPATK": 113,
+        "SPDEF": 125
+      }
+    },
+    {
+      "species": 89,
+      "level": 60,
+      "iv": 20,
+      "ev_per_stat": 80,
+      "moves": [
+        80,
+        216,
+        202,
+        345
+      ],
+      "legal_pool": [
+        22,
+        45,
+        63,
+        71,
+        72,
+        73,
+        74,
+        76,
+        79,
+        80,
+        202,
+        216,
+        235,
+        241,
+        263,
+        290,
+        312,
+        345
+      ],
+      "stats": {
+        "MAX_HP": 182,
+        "ATK": 90,
+        "DEF": 114,
+        "SPEED": 168,
+        "SPATK": 199,
+        "SPDEF": 120
+      }
+    }
+  ],
+  "results": [
+    {
+      "trainer": 411,
+      "level": 60,
+      "native_outcome": 1,
+      "victory": true,
+      "frames": 28523,
+      "opponents_seen": [
+        0,
+        20,
+        32,
+        35,
+        149,
+        4,
+        16
+      ],
+      "decisions": [
+        {
+          "attacker": 2,
+          "hp": 188,
+          "enemy": 20,
+          "enemy_hp": 126,
+          "move": 38
+        },
+        {
+          "attacker": 27,
+          "hp": 172,
+          "enemy": 32,
+          "enemy_hp": 197,
+          "move": 58
+        },
+        {
+          "attacker": 27,
+          "hp": 103,
+          "enemy": 32,
+          "enemy_hp": 115,
+          "move": 58
+        },
+        {
+          "attacker": 27,
+          "hp": 34,
+          "enemy": 32,
+          "enemy_hp": 40,
+          "move": 58
+        },
+        {
+          "attacker": 27,
+          "hp": 34,
+          "enemy": 32,
+          "enemy_hp": 121,
+          "move": 58
+        },
+        {
+          "attacker": 2,
+          "hp": 146,
+          "enemy": 32,
+          "enemy_hp": 42,
+          "move": 242
+        },
+        {
+          "attacker": 30,
+          "hp": 190,
+          "enemy": 35,
+          "enemy_hp": 189,
+          "move": 85
+        },
+        {
+          "attacker": 30,
+          "hp": 48,
+          "enemy": 35,
+          "enemy_hp": 43,
+          "move": 85
+        },
+        {
+          "attacker": 2,
+          "hp": 146,
+          "enemy": 149,
+          "enemy_hp": 154,
+          "move": 38
+        },
+        {
+          "attacker": 2,
+          "hp": 27,
+          "enemy": 149,
+          "enemy_hp": 46,
+          "move": 38
+        },
+        {
+          "attacker": 30,
+          "hp": 48,
+          "enemy": 149,
+          "enemy_hp": 46,
+          "move": 85
+        },
+        {
+          "attacker": 79,
+          "hp": 208,
+          "enemy": 149,
+          "enemy_hp": 46,
+          "move": 309
+        },
+        {
+          "attacker": 79,
+          "hp": 208,
+          "enemy": 149,
+          "enemy_hp": 46,
+          "move": 309
+        },
+        {
+          "attacker": 86,
+          "hp": 233,
+          "enemy": 4,
+          "enemy_hp": 161,
+          "move": 89
+        },
+        {
+          "attacker": 79,
+          "hp": 164,
+          "enemy": 16,
+          "enemy_hp": 186,
+          "move": 216
+        },
+        {
+          "attacker": 86,
+          "hp": 154,
+          "enemy": 16,
+          "enemy_hp": 186,
+          "move": 89
+        },
+        {
+          "attacker": 86,
+          "hp": 11,
+          "enemy": 16,
+          "enemy_hp": 59,
+          "move": 89
+        },
+        {
+          "attacker": 89,
+          "hp": 182,
+          "enemy": 16,
+          "enemy_hp": 59,
+          "move": 216
+        },
+        {
+          "attacker": 89,
+          "hp": 182,
+          "enemy": 16,
+          "enemy_hp": 22,
+          "move": 216
+        }
+      ]
+    },
+    {
+      "trainer": 412,
+      "level": 60,
+      "native_outcome": 1,
+      "victory": true,
+      "frames": 28847,
+      "opponents_seen": [
+        0,
+        25,
+        99,
+        116,
+        86,
+        65,
+        147
+      ],
+      "decisions": [
+        {
+          "attacker": 2,
+          "hp": 188,
+          "enemy": 25,
+          "enemy_hp": 192,
+          "move": 280
+        },
+        {
+          "attacker": 2,
+          "hp": 188,
+          "enemy": 25,
+          "enemy_hp": 105,
+          "move": 242
+        },
+        {
+          "attacker": 2,
+          "hp": 97,
+          "enemy": 25,
+          "enemy_hp": 38,
+          "move": 242
+        },
+        {
+          "attacker": 2,
+          "hp": 97,
+          "enemy": 25,
+          "enemy_hp": 85,
+          "move": 242
+        },
+        {
+          "attacker": 27,
+          "hp": 172,
+          "enemy": 99,
+          "enemy_hp": 176,
+          "move": 58
+        },
+        {
+          "attacker": 2,
+          "hp": 97,
+          "enemy": 99,
+          "enemy_hp": 35,
+          "move": 126
+        },
+        {
+          "attacker": 30,
+          "hp": 190,
+          "enemy": 116,
+          "enemy_hp": 203,
+          "move": 85
+        },
+        {
+          "attacker": 30,
+          "hp": 81,
+          "enemy": 116,
+          "enemy_hp": 85,
+          "move": 85
+        },
+        {
+          "attacker": 2,
+          "hp": 97,
+          "enemy": 86,
+          "enemy_hp": 220,
+          "move": 126
+        },
+        {
+          "attacker": 2,
+          "hp": 29,
+          "enemy": 86,
+          "enemy_hp": 140,
+          "move": 126
+        },
+        {
+          "attacker": 30,
+          "hp": 81,
+          "enemy": 86,
+          "enemy_hp": 12,
+          "move": 85
+        },
+        {
+          "attacker": 79,
+          "hp": 208,
+          "enemy": 65,
+          "enemy_hp": 221,
+          "move": 309
+        },
+        {
+          "attacker": 79,
+          "hp": 170,
+          "enemy": 65,
+          "enemy_hp": 128,
+          "move": 309
+        },
+        {
+          "attacker": 79,
+          "hp": 132,
+          "enemy": 65,
+          "enemy_hp": 38,
+          "move": 309
+        },
+        {
+          "attacker": 30,
+          "hp": 81,
+          "enemy": 147,
+          "enemy_hp": 235,
+          "move": 85
+        },
+        {
+          "attacker": 79,
+          "hp": 132,
+          "enemy": 147,
+          "enemy_hp": 166,
+          "move": 309
+        },
+        {
+          "attacker": 79,
+          "hp": 132,
+          "enemy": 147,
+          "enemy_hp": 40,
+          "move": 309
+        }
+      ]
+    },
+    {
+      "trainer": 413,
+      "level": 60,
+      "native_outcome": 2,
+      "victory": false,
+      "frames": 30933,
+      "opponents_seen": [
+        0,
+        27,
+        30,
+        14,
+        18,
+        40,
+        148
+      ],
+      "decisions": [
+        {
+          "attacker": 2,
+          "hp": 188,
+          "enemy": 27,
+          "enemy_hp": 157,
+          "move": 126
+        },
+        {
+          "attacker": 2,
+          "hp": 90,
+          "enemy": 27,
+          "enemy_hp": 32,
+          "move": 126
+        },
+        {
+          "attacker": 2,
+          "hp": 90,
+          "enemy": 27,
+          "enemy_hp": 35,
+          "move": 126
+        },
+        {
+          "attacker": 27,
+          "hp": 172,
+          "enemy": 27,
+          "enemy_hp": 35,
+          "move": 58
+        },
+        {
+          "attacker": 30,
+          "hp": 190,
+          "enemy": 30,
+          "enemy_hp": 177,
+          "move": 216
+        },
+        {
+          "attacker": 30,
+          "hp": 190,
+          "enemy": 30,
+          "enemy_hp": 117,
+          "move": 216
+        },
+        {
+          "attacker": 30,
+          "hp": 134,
+          "enemy": 30,
+          "enemy_hp": 8,
+          "move": 216
+        },
+        {
+          "attacker": 27,
+          "hp": 172,
+          "enemy": 14,
+          "enemy_hp": 214,
+          "move": 58
+        },
+        {
+          "attacker": 30,
+          "hp": 58,
+          "enemy": 18,
+          "enemy_hp": 208,
+          "move": 85
+        },
+        {
+          "attacker": 30,
+          "hp": 5,
+          "enemy": 18,
+          "enemy_hp": 208,
+          "move": 85
+        },
+        {
+          "attacker": 27,
+          "hp": 172,
+          "enemy": 18,
+          "enemy_hp": 208,
+          "move": 58
+        },
+        {
+          "attacker": 79,
+          "hp": 208,
+          "enemy": 18,
+          "enemy_hp": 155,
+          "move": 280
+        },
+        {
+          "attacker": 79,
+          "hp": 183,
+          "enemy": 18,
+          "enemy_hp": 75,
+          "move": 280
+        },
+        {
+          "attacker": 86,
+          "hp": 233,
+          "enemy": 40,
+          "enemy_hp": 225,
+          "move": 276
+        },
+        {
+          "attacker": 86,
+          "hp": 233,
+          "enemy": 40,
+          "enemy_hp": 169,
+          "move": 57
+        },
+        {
+          "attacker": 86,
+          "hp": 233,
+          "enemy": 40,
+          "enemy_hp": 94,
+          "move": 57
+        },
+        {
+          "attacker": 86,
+          "hp": 64,
+          "enemy": 40,
+          "enemy_hp": 22,
+          "move": 57
+        },
+        {
+          "attacker": 79,
+          "hp": 183,
+          "enemy": 40,
+          "enemy_hp": 22,
+          "move": 309
+        },
+        {
+          "attacker": 89,
+          "hp": 182,
+          "enemy": 148,
+          "enemy_hp": 188,
+          "move": 80
+        },
+        {
+          "attacker": 79,
+          "hp": 183,
+          "enemy": 148,
+          "enemy_hp": 99,
+          "move": 224
+        }
+      ]
+    }
+  ]
+}

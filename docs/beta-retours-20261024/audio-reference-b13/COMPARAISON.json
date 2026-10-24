@@ -1,0 +1,111 @@
+{
+  "scope": "Native mGBA captures, source identity and old B13 mixer parity; no human listening or physical hardware assertion",
+  "rows": [
+    {
+      "version": "b13",
+      "slot": 1,
+      "rom_sha256": "36bbf1f1c759f0e355be122caf68d7d110f86c83c1862bda1e85c72ea37abfc5",
+      "reverb": 50,
+      "sample_hash": "d9137d1787ecd0c9530fa682236397d619726e10f51391c0c8ffcbe068567be6",
+      "rate": 13379.0,
+      "rms": 0.02893405637247482,
+      "peak": 0.10546875
+    },
+    {
+      "version": "b13",
+      "slot": 11,
+      "rom_sha256": "36bbf1f1c759f0e355be122caf68d7d110f86c83c1862bda1e85c72ea37abfc5",
+      "reverb": 50,
+      "sample_hash": "3c021c35af0eccd1bd1f123b2dd5a9041cd24e78b70eb0a0c7b6d3410983aabb",
+      "rate": 13379.0,
+      "rms": 0.009787745240004581,
+      "peak": 0.076171875
+    },
+    {
+      "version": "b13",
+      "slot": 23,
+      "rom_sha256": "36bbf1f1c759f0e355be122caf68d7d110f86c83c1862bda1e85c72ea37abfc5",
+      "reverb": 50,
+      "sample_hash": "7cf26826e832eeeb5a7cdb617ab5e6a0dc5b0b12531935e8afa29ad0991b4cf4",
+      "rate": 13379.0,
+      "rms": 0.006339480247768807,
+      "peak": 0.03515625
+    },
+    {
+      "version": "b13",
+      "slot": 26,
+      "rom_sha256": "36bbf1f1c759f0e355be122caf68d7d110f86c83c1862bda1e85c72ea37abfc5",
+      "reverb": 50,
+      "sample_hash": "099852aa4aa302cfd83576fe104ff9a40aede6831541ac446ff7405945bfdd6c",
+      "rate": 13379.0,
+      "rms": 0.004436485066486649,
+      "peak": 0.029296875
+    },
+    {
+      "version": "candidate",
+      "slot": 1,
+      "rom_sha256": "d26202ddba1f4f0ab2673acf572104a0ad6dd3ed9def551428e706363977237b",
+      "reverb": 50,
+      "sample_hash": "d9137d1787ecd0c9530fa682236397d619726e10f51391c0c8ffcbe068567be6",
+      "rate": 13379.0,
+      "rms": 0.028933777010031643,
+      "peak": 0.10546875
+    },
+    {
+      "version": "candidate",
+      "slot": 11,
+      "rom_sha256": "d26202ddba1f4f0ab2673acf572104a0ad6dd3ed9def551428e706363977237b",
+      "reverb": 50,
+      "sample_hash": "3c021c35af0eccd1bd1f123b2dd5a9041cd24e78b70eb0a0c7b6d3410983aabb",
+      "rate": 13379.0,
+      "rms": 0.009787634240224814,
+      "peak": 0.076171875
+    },
+    {
+      "version": "candidate",
+      "slot": 23,
+      "rom_sha256": "d26202ddba1f4f0ab2673acf572104a0ad6dd3ed9def551428e706363977237b",
+      "reverb": 50,
+      "sample_hash": "7cf26826e832eeeb5a7cdb617ab5e6a0dc5b0b12531935e8afa29ad0991b4cf4",
+      "rate": 13379.0,
+      "rms": 0.00633958992712068,
+      "peak": 0.03515625
+    },
+    {
+      "version": "candidate",
+      "slot": 26,
+      "rom_sha256": "d26202ddba1f4f0ab2673acf572104a0ad6dd3ed9def551428e706363977237b",
+      "reverb": 50,
+      "sample_hash": "099852aa4aa302cfd83576fe104ff9a40aede6831541ac446ff7405945bfdd6c",
+      "rate": 13379.0,
+      "rms": 0.004436916044248156,
+      "peak": 0.029296875
+    }
+  ],
+  "comparisons": [
+    {
+      "slot": 1,
+      "alignment_samples": 0,
+      "residual_db": -46.97045378874673,
+      "same_source": true
+    },
+    {
+      "slot": 11,
+      "alignment_samples": 0,
+      "residual_db": -41.44645924019664,
+      "same_source": true
+    },
+    {
+      "slot": 23,
+      "alignment_samples": 0,
+      "residual_db": -38.32506095042585,
+      "same_source": true
+    },
+    {
+      "slot": 26,
+      "alignment_samples": 0,
+      "residual_db": -36.56015745343532,
+      "same_source": true
+    }
+  ]
+}

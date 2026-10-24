@@ -1,0 +1,28 @@
+{
+  "scope": "Native UI/events with explicit party/warp/script fixtures; not full adventure",
+  "rom_sha256": "89d9fcd840043c5a5a0679414b1d003a89431f29b6dac3e7412acfaa083f19eb",
+  "results": [
+    {
+      "test": "Enma party icon native tiles and original shared palette",
+      "stored_frames_identical": true,
+      "native_frames_observed": [
+        0
+      ],
+      "passed": true
+    },
+    {
+      "test": "Wyatt story intro directly starts native battle without generic second greeting",
+      "passed": true
+    },
+    {
+      "test": "Native Centre dialogue",
+      "script": "CeladonCity_PokemonCenter_1F_EventScript_CooltrainerF",
+      "passed": true
+    },
+    {
+      "test": "Native Fly bird uses independent original mount palette",
+      "bank": 13,
+      "passed": true
+    }
+  ]
+}

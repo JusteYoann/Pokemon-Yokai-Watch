@@ -1,0 +1,656 @@
+[
+  {
+    "file": "data/maps/CeladonCity_PokemonCenter_1F/text.inc",
+    "symbol": "CeladonCity_PokemonCenter_1F_Text_PokeFluteAwakensSleepingMons",
+    "before": "A POKé FLUTE awakens sleeping\\nYo-kai. You know that.\\pIt does so with a sound that only\\nthey can hear.$",
+    "after": "La Poké Flûte réveille les Yo-kai\\nendormis.\\pElle produit un son qu'eux seuls\\npeuvent entendre.$"
+  },
+  {
+    "file": "data/maps/CeladonCity_PokemonCenter_1F/text.inc",
+    "symbol": "CeladonCity_PokemonCenter_1F_Text_RodeHereFromFuchsia",
+    "before": "I rode here from FUCHSIA.\\pIt's an uphill ride on CYCLING\\nROAD, so I'm exhausted.$",
+    "after": "Je viens de Parmanie à vélo.\\pLa Piste Cyclable monte dans ce\\nsens... Je suis à bout de souffle !$"
+  },
+  {
+    "file": "data/maps/CeladonCity_PokemonCenter_1F/text.inc",
+    "symbol": "CeladonCity_PokemonCenter_1F_Text_GoToCyclingRoadIfIHadBike",
+    "before": "If I had a BIKE, I would go to\\nCYCLING ROAD!$",
+    "after": "Avec un vélo, j'irais faire un tour\\nsur la Piste Cyclable !$"
+  },
+  {
+    "file": "data/maps/CinnabarIsland_PokemonCenter_1F/text.inc",
+    "symbol": "CinnabarIsland_PokemonCenter_1F_Text_CinnabarGymLocked",
+    "before": "I came to visit the CINNABAR GYM,\\nbut the door is locked tight.\\pThere should be a key for it\\nsomewhere.\\pCould it be in that burned-out\\nmansion?\\pThe GYM LEADER's friend used to\\nlive there, they say.$",
+    "after": "Je voulais visiter l'Arène, mais la\\nporte est verrouillée.\\pIl doit y avoir une clé quelque\\npart...\\pPeut-être dans le Manoir calciné ? On\\ndit qu'un ami du Champion y habitait.$"
+  },
+  {
+    "file": "data/maps/CinnabarIsland_PokemonCenter_1F/text.inc",
+    "symbol": "CinnabarIsland_PokemonCenter_1F_Text_VisitUnionRoom",
+    "before": "Do you have lots of friends?\\pLinking up with the usual friends\\nis fun, of course.\\pBut how about visiting the\\nUNION ROOM every so often?\\pWho knows, you may end up making\\nnew friends.\\pI think it would be worth your time\\nto check the UNION ROOM.$",
+    "after": "Tu as beaucoup d'amis ?\\pC'est amusant de jouer avec ses amis\\nhabituels.\\pMais passe aussi à la Salle Union de\\ntemps en temps !\\pTu pourrais y faire de nouvelles\\nrencontres.$"
+  },
+  {
+    "file": "data/maps/CinnabarIsland_PokemonCenter_1F/text.inc",
+    "symbol": "CinnabarIsland_PokemonCenter_1F_Text_EvolutionCanWaitForNewMoves",
+    "before": "Yo-kai can still learn techniques\\nafter canceling evolution.\\pEvolution can wait until new moves\\nhave been learned.$",
+    "after": "Un Yo-kai peut encore apprendre des\\ncapacités si tu annules son évolution.\\pTu peux attendre qu'il en apprenne de\\nnouvelles avant de le faire évoluer.$"
+  },
+  {
+    "file": "data/maps/CinnabarIsland_PokemonCenter_1F/text.inc",
+    "symbol": "CinnabarIsland_PokemonCenter_1F_Text_ReadyToSailToOneIsland",
+    "before": "BILL: Hey, you kept me waiting!\\nReady to set sail to ONE ISLAND?$",
+    "after": "LÉO : Tu m'as fait attendre ! Prêt à\\nembarquer pour l'Île 1 ?$"
+  },
+  {
+    "file": "data/maps/CinnabarIsland_PokemonCenter_1F/text.inc",
+    "symbol": "CinnabarIsland_PokemonCenter_1F_Text_OhNotDoneYet",
+    "before": "Oh, you're still not done yet?$",
+    "after": "Oh, tu as encore des choses à faire\\n?$"
+  },
+  {
+    "file": "data/maps/CinnabarIsland_PokemonCenter_1F/text.inc",
+    "symbol": "CinnabarIsland_PokemonCenter_1F_Text_LetsGo",
+    "before": "Well, that's it.\\nLet's go!$",
+    "after": "Bon, tout est prêt. Allons-y !$"
+  },
+  {
+    "file": "data/maps/FiveIsland_PokemonCenter_1F/text.inc",
+    "symbol": "FiveIsland_PokemonCenter_1F_Text_OnMyWayToPrepareMeal",
+    "before": "I'm on my way to prepare a meal\\nfor a certain high-society person.$",
+    "after": "Je vais préparer un repas pour une\\npersonne de la haute société.$"
+  },
+  {
+    "file": "data/maps/FiveIsland_PokemonCenter_1F/text.inc",
+    "symbol": "FiveIsland_PokemonCenter_1F_Text_YoureOnQuestToCatchEveryMon",
+    "before": "You're on a quest to catch every\\nsingle kind of Yo-kai?\\p…How incredible. Please tell me if\\nyou catch a strong one!$",
+    "after": "Tu veux capturer toutes les espèces\\nde Yo-kai ?\\pC'est incroyable ! Préviens-moi si tu\\nen attrapes un particulièrement\\lpuissant !$"
+  },
+  {
+    "file": "data/maps/FourIsland/text.inc",
+    "symbol": "FourIsland_Text_RivalAlreadyGotEggBeSmellingYa",
+    "before": "{RIVAL}: Hey!\\n{PLAYER}!\\pWhat are you doing here in the\\nSEVII ISLANDS?\\pYou should quit copying me,\\nyou know?\\pAnyways, I already got my Yo-kai\\nEGG, so I'm done with this island.\\pHeh, I bet you don't even know\\nabout Yo-kai EGGS.\\pYou'll never fill your NATIONAL\\nMédallium that way.\\pBy the way, I saw someone we both\\nknow on this island.\\pWhy don't you go look around if\\nit makes you curious?\\pMe, I don't have the time to\\nwaste.\\pBe smelling ya!$",
+    "after": "{RIVAL} : Hé, {PLAYER} !\\pQu'est-ce que tu fais aux Îles Sevii\\n? Arrête un peu de me copier !\\pJ'ai déjà mon Oeuf de Yo-kai. J'en ai\\nfini avec cette île.\\pTu ne connais même pas les Oeufs,\\npas vrai ?\\pTu ne rempliras jamais ton Médallium\\nNational comme ça !\\pAu fait, j'ai aperçu quelqu'un que\\nnous connaissons tous les deux.\\pFais donc un tour, si ça t'intrigue !\\nMoi, je n'ai pas de temps à perdre.\\pÀ plus !$"
+  },
+  {
+    "file": "data/maps/FourIsland_PokemonCenter_1F/text.inc",
+    "symbol": "Text_BodySlamTeach",
+    "before": "Ready?\\nBoing!\\pWe're having a BODY SLAM match\\nto see who wimps out first.\\pIf you were to join us, you'd be\\nsquashed like a bug, though…\\pHow about I teach BODY SLAM to\\na Yo-kai of yours instead?$",
+    "after": "Prêt ? Hop !\\pOn fait un concours de Plaquage pour\\nvoir qui abandonne en premier.\\pTu finirais tout aplati si tu\\nparticipais !\\pJe peux plutôt enseigner Plaquage à\\nl'un de tes Yo-kai. Ça te dit ?$"
+  },
+  {
+    "file": "data/maps/FourIsland_PokemonCenter_1F/text.inc",
+    "symbol": "Text_BodySlamWhichMon",
+    "before": "Which Yo-kai wants to learn how\\nto BODY SLAM?$",
+    "after": "Quel Yo-kai veut apprendre Plaquage\\n?$"
+  },
+  {
+    "file": "data/maps/FourIsland_PokemonCenter_1F/text.inc",
+    "symbol": "FourIsland_PokemonCenter_1F_Text_RareIceMonsInCave",
+    "before": "There's a rare kind of ICE Yo-kai\\nthat lives in the cave.\\pWe get a lot of visitors hoping to\\nsee that Yo-kai.$",
+    "after": "Un rare Yo-kai de type Glace vit\\ndans la grotte.\\pBeaucoup de visiteurs viennent dans\\nl'espoir de l'apercevoir.$"
+  },
+  {
+    "file": "data/maps/FourIsland_PokemonCenter_1F/text.inc",
+    "symbol": "FourIsland_PokemonCenter_1F_Text_DayCarePeopleFoundEggBefore",
+    "before": "Oh? A Yo-kai EGG?\\n…I have no idea.\\p…Oh, wait. The DAY-CARE people\\nin town were saying something.\\pThey said that they'd found EGGS\\nbefore on their property.$",
+    "after": "Un Oeuf de Yo-kai ? Je n'en sais\\nrien...\\pAttends ! Les gens de la Pension en\\nparlaient.\\pIls disent en avoir déjà trouvé chez\\neux.$"
+  },
+  {
+    "file": "data/maps/FourIsland_PokemonCenter_1F/text.inc",
+    "symbol": "FourIsland_PokemonCenter_1F_Text_NewPokemonJournalHasntArrived",
+    "before": "What's this?\\pThe new Yo-kai JOURNAL hasn't\\narrived on this island?$",
+    "after": "Comment ça ? Le nouveau Journal des\\nYo-kai n'est pas encore arrivé sur\\lcette île ?$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_PokemonCenter_1F/text.inc",
+    "symbol": "FuchsiaCity_PokemonCenter_1F_Text_CantBecomeGoodTrainerWithOneMon",
+    "before": "You can't become a good TRAINER\\nwith just one strong Yo-kai.\\pBut raising many Yo-kai evenly\\nis no easy task, either.$",
+    "after": "Un seul Yo-kai puissant ne suffit pas\\npour devenir un bon Dresseur.\\pMais entraîner toute une équipe de\\nfaçon équilibrée, ce n'est pas facile\\lnon plus !$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_PokemonCenter_1F/text.inc",
+    "symbol": "FuchsiaCity_PokemonCenter_1F_Text_PokemonLeagueWestOfViridian",
+    "before": "There's a narrow trail west of\\nVIRIDIAN CITY.\\pIt goes to the Ligue Yo-kai HQ.\\nThe HQ governs all TRAINERS.$",
+    "after": "Un petit chemin part à l'ouest de\\nJadielle.\\pIl conduit au siège de la Ligue\\nYo-kai, qui supervise les Dresseurs.$"
+  },
+  {
+    "file": "data/maps/FuchsiaCity_PokemonCenter_1F/text.inc",
+    "symbol": "FuchsiaCity_PokemonCenter_1F_Text_VisitSafariZoneForPokedex",
+    "before": "If you're working on a Médallium,\\nvisit the SAFARI ZONE.\\pAll sorts of rare Yo-kai breed\\nthere.$",
+    "after": "Pour compléter ton Médallium, visite\\nle Parc Safari !\\pOn y trouve toutes sortes de Yo-kai\\nrares.$"
+  },
+  {
+    "file": "data/maps/IndigoPlateau_PokemonCenter_1F/text.inc",
+    "symbol": "IndigoPlateau_PokemonCenter_1F_Text_GymGuyAdvice",
+    "before": "Yo!\\nChamp in the making!\\pAt the Ligue Yo-kai, you will\\nface the ELITE FOUR all in a row.\\pIf you lose, you have to start all\\nover again!\\pThis is it!\\nGo for it!$",
+    "after": "Salut, futur Champion !\\pÀ la Ligue Yo-kai, tu dois affronter\\nles quatre membres du Conseil à la\\lsuite.\\pSi tu perds, tout est à recommencer\\n!\\pC'est le grand moment. Donne tout ce\\nque tu as !$"
+  },
+  {
+    "file": "data/maps/IndigoPlateau_PokemonCenter_1F/text.inc",
+    "symbol": "IndigoPlateau_PokemonCenter_1F_Text_FaceEliteFourGoodLuck",
+    "before": "From here on, you face the\\nELITE FOUR one by one.\\pIf you win, a door opens to the\\nnext TRAINER. Good luck!$",
+    "after": "À partir d'ici, tu affrontes les\\nmembres du Conseil 4 un par un.\\pChaque victoire ouvre la porte vers\\nle prochain adversaire. Bonne chance\\l!$"
+  },
+  {
+    "file": "data/maps/IndigoPlateau_PokemonCenter_1F/text.inc",
+    "symbol": "IndigoPlateau_PokemonCenter_1F_Text_LoreleiIsAbsentClosedForTimeBeing",
+    "before": "I am so sorry, but you've wasted\\nyour time coming here.\\pLORELEI of the ELITE FOUR is\\nabsent, you see.\\pAs a result, the Ligue Yo-kai is\\nclosed for the time being.$",
+    "after": "Je suis désolé, mais Zazel est\\nabsent.\\pLa Ligue Yo-kai est donc fermée pour\\nle moment.$"
+  },
+  {
+    "file": "data/maps/IndigoPlateau_PokemonCenter_1F/text.inc",
+    "symbol": "IndigoPlateau_PokemonCenter_1F_Text_AgathaWhuppedUs",
+    "before": "AGATHA's GHOST-type Yo-kai are\\nhorrifically terrifying in toughness.\\pI took my FIGHTING-type Yo-kai\\nand raised them to the max.\\pI went at AGATHA feeling pretty\\nconfident, but she whupped us.\\pThat old lady's also got a really\\nshort fuse, too.\\pIt doesn't take anything to get\\nthat scary lady hollering.$",
+    "after": "Les Yo-kai d'Orqanos frappent\\nterriblement fort !\\pJ'avais pourtant entraîné mon équipe\\navec soin.\\pJe pensais avoir toutes mes\\nchances... mais il nous a écrasés !\\pEt quel caractère ! Mieux vaut ne\\npas le provoquer.$"
+  },
+  {
+    "file": "data/maps/IndigoPlateau_PokemonCenter_1F/text.inc",
+    "symbol": "IndigoPlateau_PokemonCenter_1F_Text_LancesCousinGymLeaderFarAway",
+    "before": "Maybe becoming an ELITE FOUR\\nmember is in the blood.\\pFrom what I've heard, LANCE has\\na cousin who's a GYM LEADER\\lsomewhere far away.$",
+    "after": "Maître Nyada a voyagé dans bien des\\nrégions, paraît-il.\\pSon expérience fait de lui un\\nadversaire redoutable.$"
+  },
+  {
+    "file": "data/maps/LavenderTown_PokemonCenter_1F/text.inc",
+    "symbol": "LavenderTown_PokemonCenter_1F_Text_PeoplePayForCuboneSkulls",
+    "before": "You know how the CUBONE species\\nwears skulls, right?\\pPeople will pay a lot for one.$",
+    "after": "Tu connais ces Yo-kai qui portent un\\ncrâne sur la tête ?\\pCertaines personnes sont prêtes à\\npayer très cher pour en obtenir un.$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_BillHeyThereCelio",
+    "before": "BILL: Hey, there!\\nCELIO!$",
+    "after": "LÉO : Hé, Ciléo !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_CelioCantBelieveYouCameOut",
+    "before": "CELIO: BILL!\\nI can't believe you came out here.$",
+    "after": "CILÉO : Léo ! Je n'en reviens pas de\\nte voir ici !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_BillHowsYourResearchComing",
+    "before": "BILL: Well, absolutely!\\nHow's your research coming along?\\p…Oh, wait a sec.$",
+    "after": "LÉO : Bien sûr ! Comment avancent\\ntes recherches ?\\pAh, attends une seconde.$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_ThisIsMyBuddyCelio",
+    "before": "{PLAYER}, this is my buddy CELIO.\\nHe's one dedicated PC MANIAC!$",
+    "after": "{PLAYER}, voici mon ami Ciléo. C'est\\nun vrai passionné de PC !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_PlayerIsRisingPokemonChamp",
+    "before": "CELIO, this is {PLAYER}, a rising\\ncontender as the Yo-kai CHAMP!$",
+    "after": "Ciléo, voici {PLAYER}. Un grand espoir\\nparmi les Dresseurs de Yo-kai !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_PlayerIsReigningPokemonChamp",
+    "before": "CELIO, this is {PLAYER}, the\\nreigning Yo-kai CHAMP!$",
+    "after": "Ciléo, voici {PLAYER}, le Champion de\\nla Ligue Yo-kai !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_CelioThatsReallyImpressive",
+    "before": "CELIO: That's really impressive.\\pI hate to say it, but I have zero\\naptitude for battling.\\pAnyways, I'm glad to meet you.$",
+    "after": "CILÉO : C'est impressionnant !\\pMoi, je dois avouer que je suis très\\nmauvais en combat...\\pEn tout cas, je suis ravi de te\\nrencontrer.$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_BillBringMeUpToSpeed",
+    "before": "BILL: So, bring me up to speed.\\nHow's your machine running?$",
+    "after": "LÉO : Alors, raconte-moi ! Comment\\nfonctionne ta machine ?$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_CelioPCsCantLinkWithYours",
+    "before": "CELIO: It's running fine, but we're\\ntoo remote out here.\\pThe PCs on this island just can't\\nlink with your PC, BILL.$",
+    "after": "CILÉO : Elle fonctionne bien, mais\\nnous sommes trop isolés.\\pLes PC de cette île n'arrivent pas à\\nse connecter à ton réseau, Léo.$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_BillLetMeHelpYou",
+    "before": "BILL: Oh, yeah?\\nOkay, let me take a look-see.\\p…Hang on here…\\nI think we can make it work.\\lLet me help you, okay?$",
+    "after": "LÉO : Ah oui ? Laisse-moi regarder...\\pUn instant... Je pense qu'on peut\\narranger ça.\\pJe vais te donner un coup de main !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_CanYouDeliverThisMeteoritePlayer",
+    "before": "{PLAYER}, can I get you to wait for\\nme just a bit?\\p…Actually, can I get you to do\\nme a favor?\\pThe island next to this one's\\ncalled TWO ISLAND.\\pThere's a guy there that runs\\na GAME CORNER.\\pHe has this thing for rare rocks\\nand gems.\\pWe keep in touch, being fellow\\nmaniacs.\\pSo, can I get you to deliver this\\nMETEORITE to him?$",
+    "after": "{PLAYER}, tu peux patienter un peu ?\\pEn fait, pourrais-tu me rendre un\\nservice ?\\pL'île voisine s'appelle l'Île 2. Un\\nami y tient une Salle de Jeu.\\pComme moi, c'est un passionné... mais\\nlui collectionne les pierres rares !\\pPourrais-tu lui apporter cette\\nMétéorite ?$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_AcceptedMeteoriteFromBill",
+    "before": "{PLAYER} accepted the METEORITE\\nfrom BILL.$",
+    "after": "{PLAYER} reçoit la Météorite de Léo.$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_CelioPleaseTakeThis",
+    "before": "CELIO: {PLAYER}, if you are going\\nto TWO ISLAND, please take this.$",
+    "after": "CILÉO : {PLAYER}, si tu vas sur l'Île\\n2, prends donc ceci.$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_PassLetsYouTravelBetweenIslands",
+    "before": "It's a PASS for the ferry service\\nserving the local islands.\\pIt will let you travel between the\\nISLANDS ONE, TWO, and THREE.\\pOh, you should have this, too.$",
+    "after": "Ce passe permet d'utiliser les ferries\\ndes îles voisines.\\pTu pourras voyager entre les Îles 1,\\n2 et 3.\\pTiens, prends aussi ceci !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_ReceivedExtraPageForTownMap",
+    "before": "{PLAYER} received an extra page\\nfor the TOWN MAP!$",
+    "after": "{PLAYER} reçoit une page\\nsupplémentaire pour la Carte !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_BillCatchYouLater",
+    "before": "BILL: I'll catch you later!\\nSay hi to the guy for me!$",
+    "after": "LÉO : À tout à l'heure ! Passe-lui le\\nbonjour pour moi !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_HmmHowAboutLikeThis",
+    "before": "Hmm…\\pHow about we try this like this…$",
+    "after": "Hmm... Et si on essayait de cette\\nfaçon ?$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_GotPCWorkingStrollAWhileMore",
+    "before": "Oh, hey, {PLAYER}!\\pDid you see?\\nWe got the PC working!\\pI've got a few things to show\\nCELIO here.\\pCan you go out on a stroll or\\nsomething for a while more?$",
+    "after": "Ah, {PLAYER} ! Tu as vu ? Le PC\\nfonctionne !\\pJ'ai encore quelques explications à\\ndonner à Ciléo.\\pTu peux te promener un moment en\\nattendant ?$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_SorryForBeingPoorHost",
+    "before": "I'm sorry for taking up so much of\\nBILL's time.\\pI'm also sorry for being such a \\npoor host on your visit here.$",
+    "after": "Je suis désolé d'accaparer Léo aussi\\nlongtemps.\\pEt quel accueil je te fais... Tu\\nviens nous voir et je ne m'occupe\\lmême pas de toi !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_UsualPCServicesUnavailable",
+    "before": "The usual PC services aren't\\navailable…$",
+    "after": "Les services habituels du PC sont\\nindisponibles...$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_BillOhHeyPlayer",
+    "before": "BILL: Oh, hey!\\n{PLAYER}!$",
+    "after": "LÉO : Ah, salut, {PLAYER} !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_BillWeGotItDone",
+    "before": "BILL: What kept you so long?\\nBeen out having a good time?\\pWe got it done.\\nThe PCs are up and running!$",
+    "after": "LÉO : Tu en as mis du temps ! Tu\\nt'es bien amusé ?\\pÇa y est, les PC sont opérationnels !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_CelioJobWentQuick",
+    "before": "CELIO: The job went incredibly\\nquick.\\pBILL is one amazing guy…$",
+    "after": "CILÉO : Nous avons terminé à une\\nvitesse incroyable !\\pLéo est vraiment doué...$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_BillYouveLearnedALot",
+    "before": "BILL: No, no! There was almost\\nnothing left for me to do.\\pCELIO, I have to hand it to you.\\nYou've learned a lot.$",
+    "after": "LÉO : Mais non ! Tu avais déjà\\npresque tout fait.\\pCiléo, tu as fait des progrès\\nremarquables.$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_BillWeShouldHeadBackToKanto",
+    "before": "BILL: Well, there you have it.\\nI'm finished with the job.\\lWe should head back to KANTO.\\pCELIO, I'll be seeing you again.$",
+    "after": "LÉO : Voilà, le travail est terminé !\\pIl est temps de rentrer à Kanto.\\pÀ bientôt, Ciléo !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_CelioPromiseIllShowYouAroundSometime",
+    "before": "CELIO: {PLAYER}, I'm really sorry\\nthat we sent you off alone today.\\pI promise, I will show you around\\nthese islands sometime.$",
+    "after": "CILÉO : {PLAYER}, désolé de t'avoir\\nlaissé te débrouiller aujourd'hui.\\pJe te promets de te faire visiter ces\\nîles un de ces jours !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_CelioImModifyingMyNetworkMachine",
+    "before": "CELIO: Hello!\\nYou look awfully busy as always.\\pHow am I doing?\\pWell, I'm modifying my Network\\nMachine.\\pWhen I get done with the machine,\\nI hope you'll be first to use it,\\l{PLAYER}.$",
+    "after": "CILÉO : Bonjour ! Tu as l'air\\ntoujours aussi occupé.\\pMoi ? Je travaille sur ma Machine\\nRéseau.\\pQuand elle sera prête, j'espère que\\ntu seras la première personne à\\ll'essayer, {PLAYER} !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_CelioCaughtMoreMonMaybeICanBeUseful",
+    "before": "CELIO: {PLAYER}, how have things\\nbeen for you?\\pOh, is that right?\\nYou've caught more Yo-kai.\\pDo you know what?\\nMaybe I can be useful to you.$",
+    "after": "CILÉO : {PLAYER}, comment vas-tu ?\\pAh, tu as capturé davantage de\\nYo-kai !\\pTu sais quoi ? Je pourrais peut-être\\nt'être utile.$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_YoullBeTradingFromTrainersFarAway",
+    "before": "I'm modifying the Network Machine\\nright now.\\pI'm changing it so it can handle\\ntrades over long distances.\\pWhen I get finished, you'll be\\ntrading for exotic Yo-kai from\\lTRAINERS far away.$",
+    "after": "Je modifie la Machine Réseau pour\\npermettre les échanges à grande\\ldistance.\\pTu pourras ainsi échanger des Yo-kai\\navec des Dresseurs de régions\\llointaines.$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_NeedsSpecialGemstone",
+    "before": "But, there is a slight catch.\\pFor the link to work, the Machine\\nneeds a special gemstone.\\pIt's supposed to be on ONE ISLAND,\\nbut I haven't found one yet.\\pWho knows where it could be.$",
+    "after": "Mais il y a un petit problème...\\pPour établir la connexion, la machine\\na besoin d'une gemme spéciale.\\pElle se trouverait sur l'Île 1, mais\\nje ne l'ai pas encore découverte.\\pOù peut-elle bien se cacher ?$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_TryingToFindGem",
+    "before": "I was trying to find the gem\\neven while I was studying.\\pAs a result, I've made no headway\\nin both my search and studies…\\pIf I relied on BILL, I'm sure my\\nresearch would progress.\\pBut this time, I want to try to do\\nthings by myself.$",
+    "after": "Je cherchais la gemme tout en\\npoursuivant mes recherches.\\pRésultat : je n'avance ni dans l'un,\\nni dans l'autre...\\pLéo pourrait sûrement m'aider, mais\\ncette fois, je veux y arriver par\\lmoi-même.$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_OhThats",
+    "before": "Oh!\\nTh-that's…$",
+    "after": "Oh ! Mais... c'est...$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_HandedRubyToCelio",
+    "before": "{PLAYER} handed the RUBY\\nto CELIO.$",
+    "after": "{PLAYER} remet le Rubis à Ciléo.$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_MayIAskOneMoreFavor",
+    "before": "Thank you!\\n{PLAYER}, you're simply amazing.\\p… … …  … … …\\pUm… May I ask one more giant favor\\nof you?$",
+    "after": "Merci ! {PLAYER}, tu es vraiment\\nformidable !\\p...\\pDis... pourrais-tu me rendre un autre\\ngrand service ?$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_PleaseINeedYourHelp",
+    "before": "It… It's not anything weird.\\nPlease, I need your help.$",
+    "after": "Ce n'est rien de bizarre ! S'il te\\nplaît, j'ai besoin de ton aide.$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_AnotherGemstoneInSeviiIslands",
+    "before": "While I was studying gemstones,\\nI discovered something important.\\pThere is another gem that forms\\na pair with this RUBY.\\pThat other gemstone is supposed to\\nbe in the SEVII ISLANDS.\\p{PLAYER}, please, I need you to go\\nfind the other gem.\\p{PLAYER}, may I have your ferry\\nPASS and the TOWN MAP?$",
+    "after": "Mes recherches m'ont appris quelque\\nchose d'important.\\pUne autre gemme forme une paire avec\\nce Rubis.\\pElle se trouverait quelque part dans\\nles Îles Sevii.\\p{PLAYER}, pourrais-tu la chercher ?\\p{PLAYER}, confie-moi ton passe et ta\\nCarte un instant.$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_ReturnedTriPassForRainbowPass",
+    "before": "{PLAYER} returned the TRI-PASS and\\nreceived the RAINBOW PASS.$",
+    "after": "{PLAYER} rend le Tri-Passe et reçoit\\nle Passe Prisme.$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_ObtainedExtraMapPage",
+    "before": "Obtained an extra page for the\\nTOWN MAP!$",
+    "after": "La Carte reçoit une page\\nsupplémentaire !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_PassLetYouGetToAllIslands",
+    "before": "This is my own ferry PASS.\\pIt will let you get to all the\\nSEVII ISLANDS.\\p{PLAYER}, please, I can't do\\nit without your help.$",
+    "after": "Voici mon propre passe de ferry. Il\\npermet de rejoindre toutes les Îles\\lSevii.\\p{PLAYER}, je compte sur ton aide !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_HandedSapphireToCelio",
+    "before": "{PLAYER} handed the SAPPHIRE\\nto CELIO.$",
+    "after": "{PLAYER} remet le Saphir à Ciléo.$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_ThankYouGiveMeTime",
+    "before": "CELIO: So this is the gem that\\nforms a pair with the RUBY…\\p{PLAYER}, you've gone through a lot\\nto get this, didn't you?\\pYou don't have to tell me. I know\\nit wasn't easy.\\pThank you so much!\\pNow it's my turn to work for you!\\nPlease give me a little time.$",
+    "after": "CILÉO : C'est donc cette gemme qui\\nforme une paire avec le Rubis...\\p{PLAYER}, tu as dû traverser bien des\\népreuves pour l'obtenir.\\pInutile de m'expliquer. Je sais que\\nça n'a pas été facile.\\pMerci infiniment !\\pÀ mon tour de travailler pour toi.\\nLaisse-moi un petit moment !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_OkayThisIsGood",
+    "before": "Okay, this is good…$",
+    "after": "Voilà... Ça devrait aller.$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_LinkedUpWithLanette",
+    "before": "I did it!\\nI linked up with LANETTE!$",
+    "after": "J'ai réussi ! La connexion avec\\nAnnette est établie !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_ManagedToLinkWithHoennThankYou",
+    "before": "{PLAYER}…\\n{PLAYER}, I did it!\\pI've managed to link up with\\nTRAINERS in the HOENN region!\\pFinally, the Network Machine is\\nfully operational!\\p{PLAYER}, I owe it all to you!\\pThanks to you, my dream came\\ntrue…$",
+    "after": "{PLAYER}... {PLAYER}, j'ai réussi !\\pNous pouvons communiquer avec les\\nDresseurs de Hoenn !\\pLa Machine Réseau est enfin\\ntotalement opérationnelle !\\p{PLAYER}, c'est grâce à toi.\\pMon rêve est devenu réalité... Merci\\n!$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_WishYouBestOfLuck",
+    "before": "I…\\nI'm not crying.\\pThat's enough about me!\\p{PLAYER}, you're going to keep\\nlooking for exotic Yo-kai, right?\\pI wish you the best of luck!$",
+    "after": "Je... Non, je ne pleure pas.\\pBon, assez parlé de moi !\\p{PLAYER}, tu vas continuer à chercher\\ndes Yo-kai rares, n'est-ce pas ?\\pJe te souhaite bonne chance !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_CelioHearingRumorsAboutYou",
+    "before": "CELIO: Hello!\\p{PLAYER}, I've been hearing rumors\\nabout you.$",
+    "after": "CILÉO : Bonjour !\\p{PLAYER}, j'entends beaucoup parler\\nde toi en ce moment.$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_BillsFirstMonWasAbra",
+    "before": "{PLAYER}, what's your favorite kind\\nof Yo-kai?\\pBILL is a POKéMANIAC, so he loves\\nevery kind.\\pApparently, the first one he caught\\nwas an ABRA.$",
+    "after": "{PLAYER}, quelle espèce de Yo-kai\\npréfères-tu ?\\pLéo est un passionné : il les aime\\ntous !\\pIl paraît que le premier qu'il a\\ncapturé était un Yo-kai Psy.$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_BillsHometownInGoldenrod",
+    "before": "By the way, {PLAYER}, you're from\\nPALLET TOWN, aren't you?\\pI've heard that it's a quiet and\\npleasant place.\\pBILL's hometown is GOLDENROD CITY,\\nwhere his folks still live.\\pI've heard that it's quite the\\nfestive, bustling city.\\pI'd like to go there one day.$",
+    "after": "Au fait, {PLAYER}, tu viens de Bourg\\nPalette, non ?\\pOn dit que c'est un endroit calme et\\nagréable.\\pLa famille de Léo vit à Doublonville,\\nsa ville natale.\\pIl paraît que c'est une ville très\\nanimée. J'aimerais la visiter un jour.$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_BillCantStomachMilk",
+    "before": "{PLAYER}, is there anything that\\nyou can't stand?\\pApparently, BILL simply can't\\nstomach milk at all.$",
+    "after": "{PLAYER}, y a-t-il quelque chose que\\ntu ne supportes pas ?\\pIl paraît que Léo ne peut pas boire\\nde lait. Ça le rend malade !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_CameFromPalletDontKnowIt",
+    "before": "Oh, you're a stranger here!\\nHi! Where did you come from?\\p…PALLET TOWN?\\nI don't know it!$",
+    "after": "Oh, un nouveau visage ! Bonjour,\\nd'où viens-tu ?\\pBourg Palette ? Je ne connais pas !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_EnormousVolcanoOnIsland",
+    "before": "On this island, there's an enormous\\nvolcano.\\pIt hasn't erupted lately, so why\\nnot enjoy a hike?$",
+    "after": "Cette île possède un immense volcan.\\pIl est calme en ce moment. Pourquoi\\nne pas en profiter pour faire une\\lrandonnée ?$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_WishICouldTradeWithBoyfriend",
+    "before": "I wish I could trade Yo-kai with\\nmy boyfriend who lives far away…$",
+    "after": "J'aimerais pouvoir échanger des\\nYo-kai avec mon petit ami, qui vit\\lloin d'ici...$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_TradedWithFarAwayBoyfriend",
+    "before": "I traded Yo-kai with my boyfriend\\nfar away!\\pEveryone's saying that we can\\nthank you and CELIO.\\pSo, thank you!$",
+    "after": "J'ai pu échanger des Yo-kai avec mon\\npetit ami !\\pIl paraît que c'est grâce à toi et à\\nCiléo. Alors, merci !$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_MachineUnderAdjustment",
+    "before": "Network Machine\\nLink Level 0\\p…Yo-kai Storage System under\\nadjustment…$",
+    "after": "Machine Réseau\\nConnexion : niveau 0\\pConfiguration du système de stockage\\nen cours...$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKanto",
+    "before": "Network Machine\\nLink Level 1\\pLink established with the KANTO\\nregion.$",
+    "after": "Machine Réseau\\nConnexion : niveau 1\\pConnexion établie avec Kanto.$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKantoAndHoenn",
+    "before": "Network Machine\\nLink Level 2\\pLink established with the KANTO\\nand HOENN regions.$",
+    "after": "Machine Réseau\\nConnexion : niveau 2\\pConnexion établie avec Kanto et\\nHoenn.$"
+  },
+  {
+    "file": "data/maps/OneIsland_PokemonCenter_1F/text.inc",
+    "symbol": "OneIsland_PokemonCenter_1F_Text_ObtainedTriPass",
+    "before": "Obtained the TRI-PASS!$",
+    "after": "Vous obtenez le Tri-Passe !$"
+  },
+  {
+    "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+    "symbol": "PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe",
+    "before": "{RIVAL}: Hey! Gramps! No fair!\\nWhat about me?$",
+    "after": "{RIVAL} : Hé, Pépé ! C'est pas juste !\\nEt moi, alors ?$"
+  },
+  {
+    "file": "data/maps/PalletTown_ProfessorOaksLab/text.inc",
+    "symbol": "PalletTown_ProfessorOaksLab_Text_RivalMyMonLooksTougher",
+    "before": "{RIVAL}: My Yo-kai looks a lot\\ntougher than yours.$",
+    "after": "{RIVAL} : Mon Yo-kai a l'air bien plus\\ncostaud que le tien !$"
+  },
+  {
+    "file": "data/maps/PokemonTower_2F/text.inc",
+    "symbol": "PokemonTower_2F_Text_RivalIntro",
+    "before": "{RIVAL}: Hey, {PLAYER}!\\nWhat brings you here?\\lIs your Yo-kai dead?\\pHey! It's alive!\\pI can at least make them faint!\\nLet's go!$",
+    "after": "{RIVAL} : Salut, {PLAYER} ! Qu'est-ce\\nqui t'amène ici ?\\pTu viens pour ton Yo-kai ?\\pAh, il est bien vivant ! Je peux au\\nmoins le mettre K.O. !\\pAllez, on se bat !$"
+  },
+  {
+    "file": "data/maps/PokemonTower_2F/text.inc",
+    "symbol": "PokemonTower_2F_Text_RivalDefeat",
+    "before": "What?\\nYou stinker!\\pI took it easy on you, too!$",
+    "after": "Quoi ?! J'avais pourtant retenu mes\\ncoups !$"
+  },
+  {
+    "file": "data/maps/PokemonTower_2F/text.inc",
+    "symbol": "PokemonTower_2F_Text_RivalPostBattle",
+    "before": "How's your Médallium coming?\\nI just caught a CUBONE!\\pI can't find the bigger MAROWAK.\\nWhere could they be?\\pI bet there aren't any left!\\pWell, I better get going.\\nI've got a lot to accomplish,\\lunlike you.\\pSmell ya later!$",
+    "after": "Alors, ton Médallium avance ? Je\\nviens encore de capturer un Yo-kai !\\pMais impossible de trouver sa grande\\nforme...\\pIl n'en reste peut-être plus !\\pBon, je file ! J'ai plein de choses à\\naccomplir, contrairement à toi.\\pÀ plus !$"
+  },
+  {
+    "file": "data/maps/Route10_PokemonCenter_1F/text.inc",
+    "symbol": "Route10_PokemonCenter_1F_Text_EveryTypeStrongerThanOthers",
+    "before": "The types of Yo-kai match up\\ndifferently with each other.\\pEvery type is stronger than some\\ntypes and weaker than others.$",
+    "after": "Les types des Yo-kai n'ont pas tous\\nles mêmes affinités.\\pChaque type est fort contre certains\\net faible contre d'autres.$"
+  },
+  {
+    "file": "data/maps/Route10_PokemonCenter_1F/text.inc",
+    "symbol": "Route10_PokemonCenter_1F_Text_NuggetUselessSoldFor5000",
+    "before": "A NUGGET is totally useless.\\nSo I sold it for ¥5000.$",
+    "after": "Une Pépite ne sert à rien en combat.\\pAlors j'ai vendu la mienne pour 5 000\\n!$"
+  },
+  {
+    "file": "data/maps/Route10_PokemonCenter_1F/text.inc",
+    "symbol": "Route10_PokemonCenter_1F_Text_HeardGhostsHauntLavender",
+    "before": "I heard that ghosts haunt\\nLAVENDER TOWN.$",
+    "after": "Il paraît que des fantômes hantent\\nLavanville.$"
+  },
+  {
+    "file": "data/maps/Route10_PokemonCenter_1F/text.inc",
+    "symbol": "Route10_PokemonCenter_1F_Text_GiveEverstoneIfCaught20Mons",
+    "before": "Oh… {PLAYER}!\\nI've been looking for you!\\pIt's me, one of the ever-present\\nAIDES to PROF. OAK.\\pIf your Médallium has complete data\\non twenty species, I'm supposed to\\lgive you a reward from PROF. OAK.\\pHe entrusted me with this\\nEVERSTONE.\\pSo, {PLAYER}, let me ask you.\\pHave you gathered data on at least\\ntwenty kinds of Yo-kai?$",
+    "after": "Ah, {PLAYER} ! Je te cherchais !\\pJe suis l'un des assistants du\\nProfesseur Chen.\\pSi ton Médallium contient les données\\nde vingt espèces, je dois te remettre\\lune récompense.\\pLe Professeur m'a confié cette Pierre\\nStase.\\pAlors, {PLAYER}, as-tu obtenu les\\ndonnées d'au moins vingt espèces de\\lYo-kai ?$"
+  },
+  {
+    "file": "data/maps/Route10_PokemonCenter_1F/text.inc",
+    "symbol": "Route10_PokemonCenter_1F_Text_GreatHereYouGo",
+    "before": "Great! You have caught or owned\\n{STR_VAR_3} kinds of Yo-kai!\\pCongratulations!\\nHere you go!$",
+    "after": "Formidable ! Tu as capturé ou\\npossédé {STR_VAR_3} espèces de\\lYo-kai !\\pFélicitations ! Tiens, voici ta\\nrécompense.$"
+  },
+  {
+    "file": "data/maps/Route10_PokemonCenter_1F/text.inc",
+    "symbol": "Route10_PokemonCenter_1F_Text_ReceivedEverstoneFromAide",
+    "before": "{PLAYER} received the EVERSTONE\\nfrom the AIDE.$",
+    "after": "{PLAYER} reçoit la Pierre Stase de\\nl'assistant.$"
+  },
+  {
+    "file": "data/maps/Route10_PokemonCenter_1F/text.inc",
+    "symbol": "Route10_PokemonCenter_1F_Text_ExplainEverstone",
+    "before": "Making Yo-kai evolve certainly\\ncan add to the Médallium.\\pHowever, at times, you may not\\nwant a certain Yo-kai to evolve.\\pIn that case, give the EVERSTONE\\nto that Yo-kai.\\pIt will prevent evolution according\\nto the PROFESSOR.$",
+    "after": "Faire évoluer les Yo-kai permet de\\ncompléter le Médallium.\\pMais tu peux aussi vouloir garder un\\nYo-kai sous sa forme actuelle.\\pConfie-lui alors une Pierre Stase :\\nelle empêchera son évolution.$"
+  },
+  {
+    "file": "data/maps/SaffronCity_PokemonCenter_1F/text.inc",
+    "symbol": "SaffronCity_PokemonCenter_1F_Text_GrowthRatesDifferBySpecies",
+    "before": "Yo-kai growth rates differ from\\nspecies to species.$",
+    "after": "Les Yo-kai ne grandissent pas tous à\\nla même vitesse. Cela dépend de leur\\lespèce.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_PokemonCenter_1F/text.inc",
+    "symbol": "SevenIsland_PokemonCenter_1F_Text_EventsDependingOnConnections",
+    "before": "On this island, different events\\noccur depending on connections.\\pWhat are those connections?\\pThey are for you to discover on\\nyour own.$",
+    "after": "Sur cette île, certains événements\\ndépendent des liens que tu crées.\\pQuels liens ? À toi de le découvrir !$"
+  },
+  {
+    "file": "data/maps/SevenIsland_PokemonCenter_1F/text.inc",
+    "symbol": "SevenIsland_PokemonCenter_1F_Text_DidYouRideSeagallopHere",
+    "before": "Did you ride a SEAGALLOP ferry\\nto get here?\\pThere are at least ten of those\\nhigh-speed ships.\\pI don't know where they all go,\\nthough.$",
+    "after": "Tu es arrivé avec l'un des ferries\\nFlèche des Mers ?\\pIl en existe au moins dix ! Mais je\\nne sais pas où ils vont tous.$"
+  },
+  {
+    "file": "data/maps/SevenIsland_PokemonCenter_1F/text.inc",
+    "symbol": "SevenIsland_PokemonCenter_1F_Text_CheckOutTrainerTower",
+    "before": "If you're confident, you should\\ncheck out TRAINER TOWER.$",
+    "after": "Si tu as confiance en ton équipe, va\\nfaire un tour à la Tour des Dresseurs\\l!$"
+  },
+  {
+    "file": "data/maps/SilphCo_7F/text.inc",
+    "symbol": "SilphCo_7F_Text_RivalWhatKeptYou",
+    "before": "{RIVAL}: What kept you, {PLAYER}?$",
+    "after": "{RIVAL} : Qu'est-ce qui t'a retenu,\\n{PLAYER} ?$"
+  },
+  {
+    "file": "data/maps/SilphCo_7F/text.inc",
+    "symbol": "SilphCo_7F_Text_RivalPostBattle",
+    "before": "Well, {PLAYER}!\\nI'm moving on up and ahead!\\pBy checking my Médallium, I'm\\nstarting to see what's strong and\\lhow they evolve!\\pAm I a genius or what?\\pI'm going to the Ligue Yo-kai to\\nboot out the ELITE FOUR.\\pI'll become the world's most\\npowerful TRAINER!\\p{PLAYER}, well, good luck to you!\\nDon't sweat it!\\lSmell ya!$",
+    "after": "Alors, {PLAYER} ! Je progresse à\\ntoute vitesse !\\pGrâce au Médallium, je comprends\\nmieux les forces et les évolutions\\ldes Yo-kai.\\pJe suis un génie, non ?\\pJe vais à la Ligue Yo-kai pour\\nbattre le Conseil 4.\\pJe deviendrai le meilleur Dresseur du\\nmonde !\\pBonne chance à toi, {PLAYER} ! Ne te\\nmets pas trop la pression.\\pÀ plus !$"
+  },
+  {
+    "file": "data/maps/SixIsland_PokemonCenter_1F/text.inc",
+    "symbol": "SixIsland_PokemonCenter_1F_Text_SomethingHiddenOnThisIsland",
+    "before": "For ten years, I've searched for\\nRUINS.\\pNo, make that twenty years.\\pI get this feeling that there's\\nsomething hidden on this island.$",
+    "after": "Cela fait dix ans que je cherche des\\nruines...\\pNon, plutôt vingt !\\pJe sens que cette île cache quelque\\nchose.$"
+  },
+  {
+    "file": "data/maps/SixIsland_PokemonCenter_1F/text.inc",
+    "symbol": "SixIsland_PokemonCenter_1F_Text_SomeMonsEvolveByTradingWithHeldItem",
+    "before": "You know of Yo-kai that evolve\\nonly upon trading, yes?\\pBut did you know that there are\\nstill others?\\pSome Yo-kai evolve only when\\ntraded while holding specific items.$",
+    "after": "Certains Yo-kai n'évoluent que lors\\nd'un échange. Tu le savais ?\\pMais ce n'est pas tout ! Certains\\ndoivent aussi tenir un objet\\lparticulier pendant cet échange.$"
+  },
+  {
+    "file": "data/maps/SixIsland_PokemonCenter_1F/text.inc",
+    "symbol": "SixIsland_PokemonCenter_1F_Text_RivalImpossibleToGetAllMonsAroundHere",
+    "before": "{RIVAL}: Hey, {PLAYER}!\\nHow's your Médallium filling up?\\pIt looks like it's impossible to get\\nall the Yo-kai by hanging around\\ljust these parts.\\pMaybe there are Yo-kai we don't\\nknow about somewhere far away…\\p… … …  … … …  … … …\\pWell, if I can't do it, there's no\\nway for you to get it done.\\pI'm not going to get all desperate\\nover this.\\pI'll keep collecting Yo-kai at my\\nown pace while I train them.\\pThat's what I'll do.\\nSo there's no point staying here.\\lI may as well leave for home.\\pThat's that, then!\\nSmell ya later!$",
+    "after": "{RIVAL} : Salut, {PLAYER} ! Ton\\nMédallium se remplit ?\\pOn dirait qu'on ne peut pas trouver\\ntous les Yo-kai dans les environs.\\pIl doit en rester dans des régions\\nlointaines...\\p...\\pEnfin, si même moi je n'y arrive pas,\\ntu n'as aucune chance !\\pJe ne vais pas me rendre malade pour\\nça.\\pJe continuerai à les collectionner et\\nà les entraîner à mon rythme.\\pInutile de rester ici. Je vais rentrer\\nchez moi.\\pÀ plus !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_PokemonCenter_1F/text.inc",
+    "symbol": "ThreeIsland_PokemonCenter_1F_Text_PCNetworkCanLinkWithKanto",
+    "before": "Hey, did you hear the news?\\pThe PC network here can now link\\nwith PCs in KANTO.\\pI don't know how that came about,\\nbut it's fantastic!$",
+    "after": "Tu as appris la nouvelle ?\\pLe réseau de PC peut maintenant\\ncommuniquer avec celui de Kanto !\\pJe ne sais pas comment c'est arrivé,\\nmais c'est formidable !$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_PokemonCenter_1F/text.inc",
+    "symbol": "ThreeIsland_PokemonCenter_1F_Text_ImpossibleToSurfBetweenIslands",
+    "before": "It's impossible to SURF between the\\nislands around these parts.\\pThe tides are too fast and\\ntreacherous.$",
+    "after": "On ne peut pas passer d'une île à\\nl'autre avec Surf, ici.\\pLes courants sont bien trop rapides\\net dangereux.$"
+  },
+  {
+    "file": "data/maps/ThreeIsland_PokemonCenter_1F/text.inc",
+    "symbol": "ThreeIsland_PokemonCenter_1F_Text_AlwaysBerriesInBerryForest",
+    "before": "Let's crush BERRIES!\\n…That'd be wasting BERRIES?\\pYou can always find some BERRIES\\non the ground in BERRY FOREST.$",
+    "after": "On écrase des Baies ? Comment ça,\\nc'est du gaspillage ?\\pOn en trouve toujours par terre dans\\nla Forêt Baies !$"
+  },
+  {
+    "file": "data/maps/TwoIsland_PokemonCenter_1F/text.inc",
+    "symbol": "TwoIsland_PokemonCenter_1F_Text_HaveYouVisitedGameCorner",
+    "before": "Have you visited the GAME CORNER\\nalready?\\pIt's no good to go alone.\\nYou have to take a friend along.$",
+    "after": "Tu as déjà visité la Salle de Jeu ?\\pIl faut y aller avec un ami pour en\\nprofiter !$"
+  },
+  {
+    "file": "data/maps/TwoIsland_PokemonCenter_1F/text.inc",
+    "symbol": "TwoIsland_PokemonCenter_1F_Text_OldLadyLivesOutOnCape",
+    "before": "Not many people live on\\nTWO ISLAND.\\pThere is this old lady who lives\\nout on the cape.\\pShe's been there since I don't know\\nwhen.$",
+    "after": "Peu de gens vivent sur l'Île 2.\\pUne vieille dame habite au bout du\\ncap.\\pElle est là depuis si longtemps que\\nplus personne ne se souvient de son\\larrivée.$"
+  }
+]

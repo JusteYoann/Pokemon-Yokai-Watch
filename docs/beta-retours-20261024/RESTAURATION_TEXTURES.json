@@ -1,0 +1,1141 @@
+{
+  "passed": true,
+  "scope": "All 151 battle backs retain every opaque source pixel. The 26 former source crops are removed; padding corrections preserve the upper-body world anchor within one hardware pixel, without changing affine scale or animation scripts.",
+  "results": [
+    {
+      "profile": "001/battle-back",
+      "source_pixels": 1584,
+      "texture_pixels": 1584,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "d100f3a6e3cd3837ff9594d62683e6e9c701ff74106b483df25ba46d6dfdfa16"
+    },
+    {
+      "profile": "002/battle-back",
+      "source_pixels": 1447,
+      "texture_pixels": 1447,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "3fff85c46f5ea51b9640de3d34ffae473d4879911660ec32878c473c13b8a4af"
+    },
+    {
+      "profile": "003/battle-back",
+      "source_pixels": 1200,
+      "texture_pixels": 1200,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "cd81e69047958e0d8584fc7b5e1f7907f31e17e5cd798ef55556edaba3346c83"
+    },
+    {
+      "profile": "004/battle-back",
+      "source_pixels": 1391,
+      "texture_pixels": 1391,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "b1bfe7e29583b0e39b6840cb5a5775659b7e96e5b2ccfa31110eefb034dc0e0f"
+    },
+    {
+      "profile": "005/battle-back",
+      "source_pixels": 1726,
+      "texture_pixels": 1726,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "b8ee16912f622541467d12f697621884306e7ecfcdcc2797f72392be5eed0e50"
+    },
+    {
+      "profile": "006/battle-back",
+      "source_pixels": 1610,
+      "texture_pixels": 1610,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "e8308fe11f8ca413907df6a0fe89e9398f97ebdebad629361ad0d6e91f22c064"
+    },
+    {
+      "profile": "007/battle-back",
+      "source_pixels": 1196,
+      "texture_pixels": 1196,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "0b6d68d22f1b996fb00e8aa96bc9714b7aa4edbe08fa9465862947510d4c9833"
+    },
+    {
+      "profile": "008/battle-back",
+      "source_pixels": 1767,
+      "texture_pixels": 1767,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "d4e1902027bd42ea3fe2df4151e9b7253204dbc5074930b829298086dc89f7c5"
+    },
+    {
+      "profile": "009/battle-back",
+      "source_pixels": 1644,
+      "texture_pixels": 1644,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "590e3b8b03ca860e79b6c29fd2a2da737b90237ffe12381ab844b0bb926523b9",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": 0,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "010/battle-back",
+      "source_pixels": 1635,
+      "texture_pixels": 1635,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "35410721389708aa6e3baa908225f0eef9241e4d012da0fc4adc21520292eca7"
+    },
+    {
+      "profile": "011/battle-back",
+      "source_pixels": 1408,
+      "texture_pixels": 1408,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "b45e652912671492f202b247f728c60382bb9d705f981c6711dd14b75c140e08",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": 0,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "012/battle-back",
+      "source_pixels": 1377,
+      "texture_pixels": 1377,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "056be4644ab576b282e0580fccafc953274828213ff8335c8b0c6714f163966d"
+    },
+    {
+      "profile": "013/battle-back",
+      "source_pixels": 1586,
+      "texture_pixels": 1586,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "abf95937667249bcbac31d0d58761f3f54b4751a4ee729e311490074238c380c",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": 0,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "014/battle-back",
+      "source_pixels": 1760,
+      "texture_pixels": 1760,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "3d66ea1280e8457b1e03e3e6bc66f111262a81cf6795ef75076c35b15f53f9ec"
+    },
+    {
+      "profile": "015/battle-back",
+      "source_pixels": 1389,
+      "texture_pixels": 1389,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "2fd0ac8474230c1c97210c30cfc5dc575c941e6506e2d97210b767285a0f93c5"
+    },
+    {
+      "profile": "016/battle-back",
+      "source_pixels": 1470,
+      "texture_pixels": 1470,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "5c52b00dc6eb39cb165171bf6ff04532fac976b6ae9956f86f3f7353ce689dca"
+    },
+    {
+      "profile": "017/battle-back",
+      "source_pixels": 1405,
+      "texture_pixels": 1405,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "61f6d7673f55644d88559ee5f2f1c4098fccdbf7a053e2e2eef3069e16c7ec17"
+    },
+    {
+      "profile": "018/battle-back",
+      "source_pixels": 1440,
+      "texture_pixels": 1440,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "63ae621d265889fa448c9cd4f673c3c092377f74120b23d3e0f2f214289a523a"
+    },
+    {
+      "profile": "019/battle-back",
+      "source_pixels": 1455,
+      "texture_pixels": 1455,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "db2d551e74710db2862491419844b56dd9c6acd186e49877287a7b20bfc85ec9"
+    },
+    {
+      "profile": "020/battle-back",
+      "source_pixels": 2041,
+      "texture_pixels": 2041,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "08f0e7f092133f414d0a3db16f465792ab6c745afab87ceb4304704d0f8a9d88"
+    },
+    {
+      "profile": "021/battle-back",
+      "source_pixels": 1744,
+      "texture_pixels": 1744,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "4e295e3c71b9c8c17bb3a1f4e6de8682081e82df958c4479054ef9f044e85608"
+    },
+    {
+      "profile": "022/battle-back",
+      "source_pixels": 1442,
+      "texture_pixels": 1442,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "cb559954741b9b7540250a56a4bbecc11d0a448c2a1ee99f521ba232789c568c",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": -1,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "023/battle-back",
+      "source_pixels": 1592,
+      "texture_pixels": 1592,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "7287c06e7bcda4b06eaeaec9ede5ffe9c850e06e3de05cca66c69bd8fcf2a589"
+    },
+    {
+      "profile": "024/battle-back",
+      "source_pixels": 1387,
+      "texture_pixels": 1387,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "432a62d205a19a5ba95c3b562ca46d9cc1985f9035c7ba43c6db1bf5db0c13db"
+    },
+    {
+      "profile": "025/battle-back",
+      "source_pixels": 1770,
+      "texture_pixels": 1770,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "45aa4500089465b9c1e6b46916b26e3c718367d7f24207e82bb69e8bddbe712c",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": -1,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "026/battle-back",
+      "source_pixels": 1797,
+      "texture_pixels": 1797,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "88d3e27ba2741fd3a3662b8231eb0ba71fd4a859d2c65c93b644907bce6675a5",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": 0,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "027/battle-back",
+      "source_pixels": 1683,
+      "texture_pixels": 1683,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "253c52689256a794c8dbfde4512270426cb9e6474a6c07299d0a82d6e6e7fe2b"
+    },
+    {
+      "profile": "028/battle-back",
+      "source_pixels": 1599,
+      "texture_pixels": 1599,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "8ac8f131ee4029e9cf81be3ef4b1bdbba355d272ee49df36c5f663e3a0520a1c"
+    },
+    {
+      "profile": "029/battle-back",
+      "source_pixels": 1137,
+      "texture_pixels": 1137,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "7ba33f2d24b5c6d4136911479930be4b8255ded520947b23ea44909cbb2503c2"
+    },
+    {
+      "profile": "030/battle-back",
+      "source_pixels": 1252,
+      "texture_pixels": 1252,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "c7bf6c32553dc4153f88b7eda6e4f01bc397203eb980d1a789e6a49836b44136"
+    },
+    {
+      "profile": "031/battle-back",
+      "source_pixels": 1529,
+      "texture_pixels": 1529,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "c1583f01a6a1c1ca840fcd096ea35d16e23090d4e0deec1e794737a0216aa8ef"
+    },
+    {
+      "profile": "032/battle-back",
+      "source_pixels": 1680,
+      "texture_pixels": 1680,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "34d31d410625e7b3bb338deda3271aa71a19aeae7d593645299bc336d6b790c2"
+    },
+    {
+      "profile": "033/battle-back",
+      "source_pixels": 1476,
+      "texture_pixels": 1476,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "13bea2514773ab9c608979bfeacf65fdd24adb042a976bbe57271873686608c7"
+    },
+    {
+      "profile": "034/battle-back",
+      "source_pixels": 1708,
+      "texture_pixels": 1708,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "6d784560f1a935ef5d139421b9460c8174b0c365ab16078a701a13d25b4fb73f"
+    },
+    {
+      "profile": "035/battle-back",
+      "source_pixels": 1572,
+      "texture_pixels": 1572,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "b4cd47c97c8a97e8c73151a048167282fd5ef4aa143ddcd4e6e4e5fa77cbf5d8"
+    },
+    {
+      "profile": "036/battle-back",
+      "source_pixels": 1571,
+      "texture_pixels": 1571,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "e84c6cb2c793895819c3e0f5d21cd8f2419aead4c221e6a8d5b46a3989e9c975"
+    },
+    {
+      "profile": "037/battle-back",
+      "source_pixels": 1427,
+      "texture_pixels": 1427,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "08f5816d1c2d3b1bf32d78d90724b960d3663bd7310bb9248e54289902ad5656"
+    },
+    {
+      "profile": "038/battle-back",
+      "source_pixels": 1439,
+      "texture_pixels": 1439,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "b2001e34cb26f1e23a9316bcb4a840c40770ee6ffa35e6a784f4039b0037bcd3"
+    },
+    {
+      "profile": "039/battle-back",
+      "source_pixels": 1568,
+      "texture_pixels": 1568,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "aee9c3bb1721faacd202d321bfb977e7072d58d2192850feef917cc1cdf9953f"
+    },
+    {
+      "profile": "040/battle-back",
+      "source_pixels": 1717,
+      "texture_pixels": 1717,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "e5b3556ca8bb4165dc2c3cfb91b2fc35dd27638950ca30431bec169a729307d3",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": 0,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "041/battle-back",
+      "source_pixels": 1740,
+      "texture_pixels": 1740,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "9ee83c7ef95d91216983a39f501444dc3e4b0adf80762dc3ec23a9fd97309f58"
+    },
+    {
+      "profile": "042/battle-back",
+      "source_pixels": 1836,
+      "texture_pixels": 1836,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "f5f1f299115a8cf00b2e9787b6f6ded3f16580f8d4ae01af1ba057ed8b01ead2"
+    },
+    {
+      "profile": "043/battle-back",
+      "source_pixels": 2027,
+      "texture_pixels": 2027,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "d42f9583a3654c770be8c2f1eb88e0e41561978f43e1e63c3bb3f089645d31da"
+    },
+    {
+      "profile": "044/battle-back",
+      "source_pixels": 1721,
+      "texture_pixels": 1721,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "0855e95cf619d6816e5fd503b5cbfac3d617f49581382e1785da4b41656b1e68"
+    },
+    {
+      "profile": "045/battle-back",
+      "source_pixels": 1247,
+      "texture_pixels": 1247,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "1918a85dacdeecbe859e09a6f5f2fd54d3af72c6853c0a7a70f7dfb6bf87e930",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": 0,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "046/battle-back",
+      "source_pixels": 1324,
+      "texture_pixels": 1324,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "220461572c043a908c50b80f1b634b9430d56055bcf5573c702d8ec710c0c389"
+    },
+    {
+      "profile": "047/battle-back",
+      "source_pixels": 1267,
+      "texture_pixels": 1267,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "e0c8b13c696d4a2487143d8ea371e426d2457365e44820db8c1cbc04dd987921"
+    },
+    {
+      "profile": "048/battle-back",
+      "source_pixels": 1726,
+      "texture_pixels": 1726,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "41c9512f9d1830c365d22364f58b6913e0d8fd25fc90efe2109cd8214641275e"
+    },
+    {
+      "profile": "049/battle-back",
+      "source_pixels": 1112,
+      "texture_pixels": 1112,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "da371e9c5738e2867bfb6db8b1f1359d8d709a4f8f5fcb1ae22fd7c078798530"
+    },
+    {
+      "profile": "050/battle-back",
+      "source_pixels": 1687,
+      "texture_pixels": 1687,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "6a01064ad395a974e888ff6cabbb6960571460f0b2bfeaa170cd4c68ebea4737"
+    },
+    {
+      "profile": "051/battle-back",
+      "source_pixels": 1335,
+      "texture_pixels": 1335,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "4a2e0a4d82113d50d3915978cb990192d4f3ca86e7d44c81b5c2da0eaa7f9695"
+    },
+    {
+      "profile": "052/battle-back",
+      "source_pixels": 1107,
+      "texture_pixels": 1107,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "3134afc495be7d60378651ef3be35e2b8333b0331ca5519b0a95afbbb8681298"
+    },
+    {
+      "profile": "053/battle-back",
+      "source_pixels": 1381,
+      "texture_pixels": 1381,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "12c50f4ffdfad594c0eab85bd838fcb5f4fa07d028024584054c9287b3bdc1af"
+    },
+    {
+      "profile": "054/battle-back",
+      "source_pixels": 1388,
+      "texture_pixels": 1388,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "5cbef555533218995be91c2ad362efd20f389951cab94a430c018c060bf383f7"
+    },
+    {
+      "profile": "055/battle-back",
+      "source_pixels": 1215,
+      "texture_pixels": 1215,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "3c6bbd0f388953402f389e341f15bd5ecb1360d3655e6c7af610a81a3763f8f5"
+    },
+    {
+      "profile": "056/battle-back",
+      "source_pixels": 1319,
+      "texture_pixels": 1319,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "587b66b9d051f0618eebba7a4c086c95bb59d67a7713fa5d43f57b70771d6fb6"
+    },
+    {
+      "profile": "057/battle-back",
+      "source_pixels": 1761,
+      "texture_pixels": 1761,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "fdf54cc31b23f6136256c7a6b4e364f3827d3e3fb0db520eba1e9add2b453065"
+    },
+    {
+      "profile": "058/battle-back",
+      "source_pixels": 1232,
+      "texture_pixels": 1232,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "75c0e45a01a82f65c9fb76ff1aab3b20678778192936d5358a47b1af7fe14c10"
+    },
+    {
+      "profile": "059/battle-back",
+      "source_pixels": 1308,
+      "texture_pixels": 1308,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "a40e1fdaa36aa2bb442454f635f11c738d094faf54b7de630d690f739ef26124"
+    },
+    {
+      "profile": "060/battle-back",
+      "source_pixels": 1335,
+      "texture_pixels": 1335,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "426ae273a0a58512c2b1f78036c9a91ad4030df8d5a12b996fdf4c81d07e8173"
+    },
+    {
+      "profile": "061/battle-back",
+      "source_pixels": 1298,
+      "texture_pixels": 1298,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "253630ef87ef8c473eb89a666a5ad4fd2bdd0489c4c70d5990aed9697f4da1c2"
+    },
+    {
+      "profile": "062/battle-back",
+      "source_pixels": 1349,
+      "texture_pixels": 1349,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "e9a54a886b8d427af41cdc51d7d7a29a3c7f1a04eb038e4c7adc2b6b08c2f911"
+    },
+    {
+      "profile": "063/battle-back",
+      "source_pixels": 1480,
+      "texture_pixels": 1480,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "5c541a3dcfefc8c1821e818b5f8f67abff76c0412b7f888ece788c8ea852f8c3"
+    },
+    {
+      "profile": "064/battle-back",
+      "source_pixels": 1835,
+      "texture_pixels": 1835,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "290ac2f8d914d6d8046e5bc533eee139e1609474d99ba241875b47bff827a7f1"
+    },
+    {
+      "profile": "065/battle-back",
+      "source_pixels": 1375,
+      "texture_pixels": 1375,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "4943303bf556451f091347d76da8495f87806c2df4855f87dab8df6628253e1b"
+    },
+    {
+      "profile": "066/battle-back",
+      "source_pixels": 1320,
+      "texture_pixels": 1320,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "4a0f3a6c4778753cbd0a5d59a0ae4ce122382415347d0069d809c26628b3fafb"
+    },
+    {
+      "profile": "067/battle-back",
+      "source_pixels": 1646,
+      "texture_pixels": 1646,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "f1cd3f389409582244ecf88ff5d2ca77bea698fdcb1e71c4091cf5fdfb36b7e4"
+    },
+    {
+      "profile": "068/battle-back",
+      "source_pixels": 1514,
+      "texture_pixels": 1514,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "18af93d27be136290d74a79abb7344eb4b611e4c9727c62dfc44a009461cdb75",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": 0,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "069/battle-back",
+      "source_pixels": 1406,
+      "texture_pixels": 1406,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "c525eba16f1c25a212bfdf20e0b0df193a51a8b6bfdebf4371eb326de82b1e77"
+    },
+    {
+      "profile": "070/battle-back",
+      "source_pixels": 1735,
+      "texture_pixels": 1735,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "e951440d089c7986bbbb83c2511ea43ce49e376a449fa7ad64c26371ccf2b554"
+    },
+    {
+      "profile": "071/battle-back",
+      "source_pixels": 1445,
+      "texture_pixels": 1445,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "0915ee41ffd61ec5eee734a1c8dbe9b3b13cdb179ca1fd291f98cd8ae171e750"
+    },
+    {
+      "profile": "072/battle-back",
+      "source_pixels": 2250,
+      "texture_pixels": 2250,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "7193a4b0400da153316adc0acea89caf3dd26230962371a58ec584c4dd28d804"
+    },
+    {
+      "profile": "073/battle-back",
+      "source_pixels": 2066,
+      "texture_pixels": 2066,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "740ede06ea33287d0d19f21e47f51ba8e55acfe9f1d2da751743bf83b126dc59"
+    },
+    {
+      "profile": "074/battle-back",
+      "source_pixels": 1393,
+      "texture_pixels": 1393,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "5e762844db11c787aea6ecc3c8f95ceac6d0051eb20b73b65fa80891cb7de279"
+    },
+    {
+      "profile": "075/battle-back",
+      "source_pixels": 1413,
+      "texture_pixels": 1413,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "3283f0a13c15b632433117a5bec33a54b4ca6962b7c8faf935a904468db2c3a3"
+    },
+    {
+      "profile": "076/battle-back",
+      "source_pixels": 1436,
+      "texture_pixels": 1436,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "0369eb3107d8028586e7bb39cd1340345d9672cbf1d2e0e7e46d595a2f3fb45c"
+    },
+    {
+      "profile": "077/battle-back",
+      "source_pixels": 1493,
+      "texture_pixels": 1493,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "343453d3d97ae05ea777c8999ed83bb0c11a11e5fa681edde8783f4bd3f3089b"
+    },
+    {
+      "profile": "078/battle-back",
+      "source_pixels": 1784,
+      "texture_pixels": 1784,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "4905360efe19775e2bc646ff726f452697e43fc1f9d75f0005621e00343521f2"
+    },
+    {
+      "profile": "079/battle-back",
+      "source_pixels": 1367,
+      "texture_pixels": 1367,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "87a31746cc2d029f241366ed4079d597a445b010a4d5cbf75b39db2c83980769"
+    },
+    {
+      "profile": "080/battle-back",
+      "source_pixels": 1371,
+      "texture_pixels": 1371,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "3cd4ace9dfdefa8614b1e356e169427075fdad5e53c273c1cc3a5f625bf63752",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": 0,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "081/battle-back",
+      "source_pixels": 1764,
+      "texture_pixels": 1764,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "732372eac99f94003786f5042b35ca21eb9f1dbf801ef8fe50cc7de17bb90991"
+    },
+    {
+      "profile": "082/battle-back",
+      "source_pixels": 1903,
+      "texture_pixels": 1903,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "272bd45270300d6108016f2e49a83376d5ea9c1ff97b5092e2b3d165393d0faf"
+    },
+    {
+      "profile": "083/battle-back",
+      "source_pixels": 1693,
+      "texture_pixels": 1693,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "d6f01554a4ace59f8d012c723ca35ad75368e045307914cfdb5619167e5dffac"
+    },
+    {
+      "profile": "084/battle-back",
+      "source_pixels": 1558,
+      "texture_pixels": 1558,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "b0e351e9cacf231538a29233695f6e854c9f0a3252447a17f93a5e12f244d7e0"
+    },
+    {
+      "profile": "085/battle-back",
+      "source_pixels": 1452,
+      "texture_pixels": 1452,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "8ef92f9d4ab7b9291c931146215c28453e8970aebe9cc60c07094c5ed2f808b5"
+    },
+    {
+      "profile": "086/battle-back",
+      "source_pixels": 1480,
+      "texture_pixels": 1480,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "0149a3c4a34b6f387557f5eda6493110ebb9b1945aa3867283af701c3a1b8108"
+    },
+    {
+      "profile": "087/battle-back",
+      "source_pixels": 1159,
+      "texture_pixels": 1159,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "57db74909ec4853f81990726b5ab79df4c1744fdc72f164a5fc2c5fcb00a19f1"
+    },
+    {
+      "profile": "088/battle-back",
+      "source_pixels": 1187,
+      "texture_pixels": 1187,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "b664ab5c4e554b38c5d0ea3da8a24b8c6883605c2408bdd713b902555955757f"
+    },
+    {
+      "profile": "089/battle-back",
+      "source_pixels": 1912,
+      "texture_pixels": 1912,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "8324ac64e48d45c0fd192732cbfa4189c55bed1cbdf7d37253a55bdaaf61cb42"
+    },
+    {
+      "profile": "090/battle-back",
+      "source_pixels": 1402,
+      "texture_pixels": 1402,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "aba477ae46121f166d689e08515adda703c7ceb92bbb8dbbac40e6a70fa38e31",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": 0,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "091/battle-back",
+      "source_pixels": 1303,
+      "texture_pixels": 1303,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "e82b5b6ce06c44a6c9dbbd60a2fbf1bad25f1e7f527bca40dccb8e2f2b21b185"
+    },
+    {
+      "profile": "092/battle-back",
+      "source_pixels": 1194,
+      "texture_pixels": 1194,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "67ca0122202b562d10c2ca0ebd4a710f12dd69d99d0f55736231b4fe6134d7f4"
+    },
+    {
+      "profile": "093/battle-back",
+      "source_pixels": 1765,
+      "texture_pixels": 1765,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "170a3aaf329fd43d6fbc9ae166bfef2bdb3b72508056be3d37e465be5a0a0d72"
+    },
+    {
+      "profile": "094/battle-back",
+      "source_pixels": 2175,
+      "texture_pixels": 2175,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "8940b1ec1045e2c814c90fc6ad72f59f86fc25f5e5982b57a76fe559584bc0d8"
+    },
+    {
+      "profile": "095/battle-back",
+      "source_pixels": 1945,
+      "texture_pixels": 1945,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "450273435cd08626e9fb9d6a4c1dcb9275dc1d4c70f169002dee0b2054264663",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": -1,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "096/battle-back",
+      "source_pixels": 2175,
+      "texture_pixels": 2175,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "46bd451a6754e3c6475b71f0b2830a54f71cdf60cf9e5c14eab5f73f862da077"
+    },
+    {
+      "profile": "097/battle-back",
+      "source_pixels": 1558,
+      "texture_pixels": 1558,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "41ba0d809e19684a48714303c521e7bb1c4b5a72c0f0751b56f88e363508b838",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": -1,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "098/battle-back",
+      "source_pixels": 1906,
+      "texture_pixels": 1906,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "4d963806c26706d225115ba601a47861f32a869a32a09a8ec8fc9bc2568130b5",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": -1,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "099/battle-back",
+      "source_pixels": 1573,
+      "texture_pixels": 1573,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "2f9bb15a4b0398fd69f4ba8d94121cea7238337c7e6cb0aa50dfc73d61d85789"
+    },
+    {
+      "profile": "100/battle-back",
+      "source_pixels": 1306,
+      "texture_pixels": 1306,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "1d39550b07eedc0e0d46041492890fe5b8291022ead60d26765e186e19afbb43",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": 0,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "101/battle-back",
+      "source_pixels": 1538,
+      "texture_pixels": 1538,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "cb5bea92988522920efa2b82591c62533d97f8a84297aa9fbe1442dff5eeb874"
+    },
+    {
+      "profile": "102/battle-back",
+      "source_pixels": 1437,
+      "texture_pixels": 1437,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "c27d017bfc33854ef62e33940a6897a9e07d999e284ebfd46ae10354ad988082"
+    },
+    {
+      "profile": "103/battle-back",
+      "source_pixels": 1433,
+      "texture_pixels": 1433,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "b483ae99cc04de5498f35ea8b52839e15ac6a9a7a8e20fcea6af600c05f9083c"
+    },
+    {
+      "profile": "104/battle-back",
+      "source_pixels": 1367,
+      "texture_pixels": 1367,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "b19304e2e6dcc103b967891aa694604402cbadb40e1e668123790e0d074f8f20"
+    },
+    {
+      "profile": "105/battle-back",
+      "source_pixels": 1397,
+      "texture_pixels": 1397,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "fc1e57311a1a7680b141a4162fcf2fb2a379ff6131b0391d1a33450361118dfc"
+    },
+    {
+      "profile": "106/battle-back",
+      "source_pixels": 1843,
+      "texture_pixels": 1843,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "f8a8934a7e5dafbb04cb0b5eee55d2572d8c171da5f174978c414d234d5e064d"
+    },
+    {
+      "profile": "107/battle-back",
+      "source_pixels": 1711,
+      "texture_pixels": 1711,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "8f21c7ca27ddd83f98e3e55a8119c47d8dc997eba7d81c4ec8d1ce490b4a834a"
+    },
+    {
+      "profile": "108/battle-back",
+      "source_pixels": 1964,
+      "texture_pixels": 1964,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "44b8c0667fca7836b6d0648bb3ddafc55ce56fb6383e784938266b4468f08ccd"
+    },
+    {
+      "profile": "109/battle-back",
+      "source_pixels": 2122,
+      "texture_pixels": 2122,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "d1f42b8b17af7824214ebeb7178912e91a11086294f465070f099ffe22b954c2",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": -1,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "110/battle-back",
+      "source_pixels": 1942,
+      "texture_pixels": 1942,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "50f898041d490cb271565ac743255a2dcf19c45fd936e88c9509cbb8d08ab30a"
+    },
+    {
+      "profile": "111/battle-back",
+      "source_pixels": 2410,
+      "texture_pixels": 2410,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "a05b7035e1de7515ebcde1f53a38dae7e442a4feb6fb3ed231f9fc562b1cb465"
+    },
+    {
+      "profile": "112/battle-back",
+      "source_pixels": 1041,
+      "texture_pixels": 1041,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "c24fe3d18482cca71bf0ff9cebec7484ebb071272053becfc1e817b8e9d68a43"
+    },
+    {
+      "profile": "113/battle-back",
+      "source_pixels": 2069,
+      "texture_pixels": 2069,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "6331d8476c88118e6bc2fd27d7a305131a55dc464531b06b0dff0232d40c9e95"
+    },
+    {
+      "profile": "114/battle-back",
+      "source_pixels": 1243,
+      "texture_pixels": 1243,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "010798bf31e97821da20f08c8f7fdb7b4f1a243c278b3a0c84178d432928ad59",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": 0,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "115/battle-back",
+      "source_pixels": 1555,
+      "texture_pixels": 1555,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "6ed152770770465012d4700a8a7ece8b453d1871ba0e216e8b64539c45d58437"
+    },
+    {
+      "profile": "116/battle-back",
+      "source_pixels": 695,
+      "texture_pixels": 695,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "8a4366fec023190ad7f43b95e7374c9f374e411804264cea483a4f011e8c0156"
+    },
+    {
+      "profile": "117/battle-back",
+      "source_pixels": 1053,
+      "texture_pixels": 1053,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "3741b42a2ce635f6c40c5a587d3c3882f198e6ab3307e22a87371849ed709ea8",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": 0,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "118/battle-back",
+      "source_pixels": 1838,
+      "texture_pixels": 1838,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "1aa743cc87729903902daece26e401669d4b5a233041bb60bba37eb824b434d0"
+    },
+    {
+      "profile": "119/battle-back",
+      "source_pixels": 1192,
+      "texture_pixels": 1192,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "6c753613f1b009d6ab231314c8fab68654dd300eff65be6a1f94733fc6c49e00",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": 0,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "120/battle-back",
+      "source_pixels": 1881,
+      "texture_pixels": 1881,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "74507d4a6de3f7d5edd3ea5a45813b6ec5e60411261fa4e1845f6356353d781f"
+    },
+    {
+      "profile": "121/battle-back",
+      "source_pixels": 1779,
+      "texture_pixels": 1779,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "69201ad1d8bedcc8ad5fb663240e0ba547bcd6f6783e360a8751853e1c18d97d"
+    },
+    {
+      "profile": "122/battle-back",
+      "source_pixels": 1249,
+      "texture_pixels": 1249,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "10182f1f678bc70236bc2d264c1ee378aac211ec86fe93855dd9d46552ee77eb"
+    },
+    {
+      "profile": "123/battle-back",
+      "source_pixels": 2007,
+      "texture_pixels": 2007,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "731d61a9bae10cb5e68291299fe54bee670f6eef2183f6aadfda3a0994143529"
+    },
+    {
+      "profile": "124/battle-back",
+      "source_pixels": 1287,
+      "texture_pixels": 1287,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "188cefd6a5705ebcd05e1397104395898b0b35ee497bf03069e83962ccdfdc80"
+    },
+    {
+      "profile": "125/battle-back",
+      "source_pixels": 2145,
+      "texture_pixels": 2145,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "137619c1c0b0a95da1ac7d8dc854d8dee30ed004e08a7acf9900e1d50eee7b2b"
+    },
+    {
+      "profile": "126/battle-back",
+      "source_pixels": 1341,
+      "texture_pixels": 1341,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "de79bc72957bca5771ed1566906faa944ffcb8ed224042a5357b31c92ae76cae"
+    },
+    {
+      "profile": "127/battle-back",
+      "source_pixels": 1665,
+      "texture_pixels": 1665,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "5d518122069f24bfc822a7c2711875e7d483f74c1468f7a7dc91285fa17085c3",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": 0,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "128/battle-back",
+      "source_pixels": 1159,
+      "texture_pixels": 1159,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "6035d6501907ca598ec1ea2601e9f0197ab70161ceb395e63e362e4c4b7b3910",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": 0,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "129/battle-back",
+      "source_pixels": 1032,
+      "texture_pixels": 1032,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "154ceb2b6084c7ad2e96a4fed4a8606eb4067d26b7838cdcc24b293f061d3710"
+    },
+    {
+      "profile": "130/battle-back",
+      "source_pixels": 1732,
+      "texture_pixels": 1732,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "06bd2a59caff9eb1015bbb2057d8d9ee4b61cd14276e45d2067e6fba4e1bc210"
+    },
+    {
+      "profile": "131/battle-back",
+      "source_pixels": 1125,
+      "texture_pixels": 1125,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "8082bdb577e0d199e1ebe39168fb967e7c471f375aa30359687fa9b237c446a2"
+    },
+    {
+      "profile": "132/battle-back",
+      "source_pixels": 1499,
+      "texture_pixels": 1499,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "dfa87620e4c3d73a34b11c1f71593a2534bf4e8fcff01de3e032da868a0b8898"
+    },
+    {
+      "profile": "133/battle-back",
+      "source_pixels": 1880,
+      "texture_pixels": 1880,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "7c829607681d67fc2a1dc7ec99c09684dedf4ff0e08630ebbbdfeb87927903d1"
+    },
+    {
+      "profile": "134/battle-back",
+      "source_pixels": 1501,
+      "texture_pixels": 1501,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "06d5925e7d71a464ae78ff6c58df65d5e40c890919b333b91d12c4b5224fedf7",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": 0,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "135/battle-back",
+      "source_pixels": 1530,
+      "texture_pixels": 1530,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "993245aa5789c2cb38c333e88344b97c57f630cba5b39d1260bec5f05746a886"
+    },
+    {
+      "profile": "136/battle-back",
+      "source_pixels": 1947,
+      "texture_pixels": 1947,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "250765bc99d14aa943e4ef9e524407a79fd1013288292ba5335765c694bdf0d2",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": 0,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "137/battle-back",
+      "source_pixels": 1497,
+      "texture_pixels": 1497,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "77c7725cd7930ae5b7cb821c73cd9b065915829c1337b02311ae492d72c216c8"
+    },
+    {
+      "profile": "138/battle-back",
+      "source_pixels": 1500,
+      "texture_pixels": 1500,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "c2704bfa13c132af8de3612add26e6829f7961444582a4ee713cf6171cade095"
+    },
+    {
+      "profile": "139/battle-back",
+      "source_pixels": 1799,
+      "texture_pixels": 1799,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "2d0343deb052f1091ac9c0de94ef9e0aadcce251953abdcfb07c1087121984f3"
+    },
+    {
+      "profile": "140/battle-back",
+      "source_pixels": 1700,
+      "texture_pixels": 1700,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "271ea60c47edec1b95d155ba6ddf9cb01428293e6886b7db6645594d355aaddc"
+    },
+    {
+      "profile": "141/battle-back",
+      "source_pixels": 1906,
+      "texture_pixels": 1906,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "5557b45d4ecdcabdd4c2a23dd479bba338551bd539514afbd772b0b6c67308d9",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": 0,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "142/battle-back",
+      "source_pixels": 1090,
+      "texture_pixels": 1090,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "08c9ab2f7b85f09d18dfba11c7fc51e30482344e8d947714d0a8b649ae215b75",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": 0,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "143/battle-back",
+      "source_pixels": 1438,
+      "texture_pixels": 1438,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "69f1419a9b1aa5435b32d91af96d9b95cc57f2973c993e9c23a90acd28e6b08a"
+    },
+    {
+      "profile": "144/battle-back",
+      "source_pixels": 1429,
+      "texture_pixels": 1429,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "005dd378b3850ead5ae5b797f332322b8ff376a571c3f6e4e3ddc55eca3a3e3a"
+    },
+    {
+      "profile": "145/battle-back",
+      "source_pixels": 1520,
+      "texture_pixels": 1520,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "a0686800501b0a810775535f919d1f9a0ab6143fb21166b2c335c3c30035225b"
+    },
+    {
+      "profile": "146/battle-back",
+      "source_pixels": 1402,
+      "texture_pixels": 1402,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "2d96dac8f404b7b9813fcaf9f05d06dab9e0edcf83aadbbff3e2363b416de5f8"
+    },
+    {
+      "profile": "147/battle-back",
+      "source_pixels": 1900,
+      "texture_pixels": 1900,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "e41ef286caaa29f351fac6d4da829ac7284c16bef6289382ea73dd2a2075b165"
+    },
+    {
+      "profile": "148/battle-back",
+      "source_pixels": 1681,
+      "texture_pixels": 1681,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "79a8349f0b8e399a8b8fafedaa7994a906cd7a575d8199e960019442ffc67788"
+    },
+    {
+      "profile": "149/battle-back",
+      "source_pixels": 1594,
+      "texture_pixels": 1594,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "4232f3d8b6a6cfb45e49d72e96d44119a7e64ff1e88baac66e8d6418fc0276cd",
+      "restored_lower_rows": true,
+      "upper_body_world_anchor_delta_pixels": 0,
+      "scale_unchanged": true
+    },
+    {
+      "profile": "150/battle-back",
+      "source_pixels": 1330,
+      "texture_pixels": 1330,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "bba2cd938c80752abd7c020d1cf37569d0e012b16ba1355e9b079164ede612a0"
+    },
+    {
+      "profile": "151/battle-back",
+      "source_pixels": 2047,
+      "texture_pixels": 2047,
+      "no_opaque_source_pixels_clipped": true,
+      "original_source_sha256": "0312a1713930587d81154d0c8ea2fd8e1b8fc6e1641f2ef35855345f581f1f58"
+    }
+  ]
+}

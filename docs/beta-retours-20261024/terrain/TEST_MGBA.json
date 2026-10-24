@@ -1,0 +1,274 @@
+{
+  "passed": true,
+  "error": null,
+  "scope": "Targeted native field fixtures, not a complete adventure playthrough.",
+  "rom_sha256": "5ac3df63ea192cd4392613108d7ccd8fdc4c7c0c60eba3403d1427f7453f2068",
+  "results": [
+    {
+      "test": "No automatic encounter after Alyzon; native patrol timings",
+      "moves": {
+        "1": [
+          79,
+          197,
+          315,
+          433,
+          551,
+          669,
+          787,
+          905,
+          1023,
+          1141,
+          1346,
+          1464,
+          1582,
+          1700
+        ],
+        "2": [
+          50,
+          152,
+          254,
+          313,
+          501,
+          560,
+          662,
+          721,
+          823,
+          882,
+          941,
+          1086,
+          1188,
+          1290,
+          1349,
+          1408,
+          1510,
+          1569,
+          1628,
+          1730,
+          1789
+        ],
+        "3": [
+          197,
+          315,
+          433,
+          551,
+          669,
+          787,
+          905,
+          1023,
+          1402,
+          1520,
+          1638,
+          1756
+        ],
+        "4": [
+          79,
+          197,
+          489,
+          694,
+          1160,
+          1452,
+          1657,
+          1775
+        ]
+      },
+      "periods": {
+        "1": [
+          118,
+          118,
+          118,
+          118,
+          118,
+          118,
+          118,
+          118,
+          118,
+          205,
+          118,
+          118,
+          118
+        ],
+        "2": [
+          102,
+          102,
+          59,
+          188,
+          59,
+          102,
+          59,
+          102,
+          59,
+          59,
+          145,
+          102,
+          102,
+          59,
+          59,
+          102,
+          59,
+          59,
+          102,
+          59
+        ],
+        "3": [
+          118,
+          118,
+          118,
+          118,
+          118,
+          118,
+          118,
+          379,
+          118,
+          118,
+          118
+        ],
+        "4": [
+          118,
+          292,
+          205,
+          466,
+          292,
+          205,
+          118
+        ]
+      }
+    },
+    {
+      "test": "Lavender bag UI retains native hardware palette",
+      "passed": true
+    },
+    {
+      "test": "Voluntary postbadge talk starts battle despite arrival immunity; controller RUN succeeds",
+      "native_outcome": 4,
+      "no_automatic_rebattle": true
+    },
+    {
+      "test": "Sight approach and native escape restriction follow badge",
+      "start": [
+        12,
+        14
+      ],
+      "positions": [
+        [
+          12,
+          14
+        ],
+        [
+          12,
+          15
+        ]
+      ],
+      "growl_observed": true,
+      "prebadge_escape_denied": true,
+      "postbadge_escape_success": true
+    },
+    {
+      "test": "Route21_South graded sepia and independent native mount palette",
+      "samples": [
+        {
+          "x": 18,
+          "y": 49,
+          "sepia_strength": 16,
+          "mount_palette_bank": 13,
+          "original_mount_palette_preserved": true
+        },
+        {
+          "x": 18,
+          "y": 46,
+          "sepia_strength": 16,
+          "mount_palette_bank": 13,
+          "original_mount_palette_preserved": true
+        },
+        {
+          "x": 18,
+          "y": 44,
+          "sepia_strength": 12,
+          "mount_palette_bank": 13,
+          "original_mount_palette_preserved": true
+        },
+        {
+          "x": 18,
+          "y": 42,
+          "sepia_strength": 8,
+          "mount_palette_bank": 13,
+          "original_mount_palette_preserved": true
+        },
+        {
+          "x": 18,
+          "y": 40,
+          "sepia_strength": 4,
+          "mount_palette_bank": 13,
+          "original_mount_palette_preserved": true
+        },
+        {
+          "x": 18,
+          "y": 38,
+          "sepia_strength": 0,
+          "mount_palette_bank": 13,
+          "original_mount_palette_preserved": true
+        },
+        {
+          "x": 18,
+          "y": 34,
+          "sepia_strength": 0,
+          "mount_palette_bank": 13,
+          "original_mount_palette_preserved": true
+        }
+      ]
+    },
+    {
+      "test": "Route20 graded sepia and independent native mount palette",
+      "samples": [
+        {
+          "x": 1,
+          "y": 9,
+          "sepia_strength": 16,
+          "mount_palette_bank": 13,
+          "original_mount_palette_preserved": true
+        },
+        {
+          "x": 2,
+          "y": 9,
+          "sepia_strength": 16,
+          "mount_palette_bank": 13,
+          "original_mount_palette_preserved": true
+        },
+        {
+          "x": 4,
+          "y": 9,
+          "sepia_strength": 12,
+          "mount_palette_bank": 13,
+          "original_mount_palette_preserved": true
+        },
+        {
+          "x": 6,
+          "y": 9,
+          "sepia_strength": 8,
+          "mount_palette_bank": 13,
+          "original_mount_palette_preserved": true
+        },
+        {
+          "x": 8,
+          "y": 9,
+          "sepia_strength": 4,
+          "mount_palette_bank": 13,
+          "original_mount_palette_preserved": true
+        },
+        {
+          "x": 10,
+          "y": 9,
+          "sepia_strength": 0,
+          "mount_palette_bank": 13,
+          "original_mount_palette_preserved": true
+        },
+        {
+          "x": 18,
+          "y": 9,
+          "sepia_strength": 0,
+          "mount_palette_bank": 13,
+          "original_mount_palette_preserved": true
+        }
+      ]
+    }
+  ]
+}
