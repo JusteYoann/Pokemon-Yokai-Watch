@@ -1,0 +1,41 @@
+{
+  "source_sha256": "6470be22c86a44dc38a35212fab68f0874e7330815d86ac1af326509ba758ccc",
+  "frame_size": [
+    32,
+    32
+  ],
+  "visible_height": 22,
+  "order": [
+    "face",
+    "dos",
+    "gauche",
+    "droite"
+  ],
+  "source_boxes": [
+    [
+      53,
+      109,
+      490,
+      603
+    ],
+    [
+      597,
+      109,
+      1033,
+      603
+    ],
+    [
+      1148,
+      109,
+      1538,
+      603
+    ],
+    [
+      1720,
+      109,
+      2108,
+      603
+    ]
+  ],
+  "method": "alpha threshold, nearest-neighbor reduction, common 15-color GBA palette; no repainted shapes"
+}

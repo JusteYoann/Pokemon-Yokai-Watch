@@ -453,3 +453,6 @@ $(WALLPAPERGFXDIR)/volcano/tiles.4bpp: %.4bpp: %.png
 # Native 32x32 Gargaros frames, horizontal strip.
 graphics/yokai_characters/gargaros/overworld.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+graphics/yokai_characters/patrouille_oni/overworld.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4

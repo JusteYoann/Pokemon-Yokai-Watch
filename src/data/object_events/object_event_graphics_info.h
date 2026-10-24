@@ -3402,3 +3402,14 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YokaiGargaros = {
     .anims = sAnimTable_Gargaros, .images = sPicTable_YokaiGargaros,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PatrouilleOni = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_PATROUILLE_ONI,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32,
+    .paletteSlot = PALSLOT_NPC_2_REFLECTION, .shadowSize = SHADOW_SIZE_S,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = TRUE, .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_32x32, .subspriteTables = gObjectEventSpriteOamTables_32x32,
+    .anims = sAnimTable_PatrouilleOni, .images = sPicTable_PatrouilleOni,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};

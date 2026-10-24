@@ -1934,3 +1934,10 @@ static const struct SpriteFrameImage sPicTable_YokaiGargaros[] = {
     overworld_frame(gObjectEventPic_YokaiGargaros, 4, 4, 10),
     overworld_frame(gObjectEventPic_YokaiGargaros, 4, 4, 11),
 };
+
+static const struct SpriteFrameImage sPicTable_PatrouilleOni[] = {
+    overworld_frame(gObjectEventPic_PatrouilleOni, 4, 4, 0),
+    overworld_frame(gObjectEventPic_PatrouilleOni, 4, 4, 1),
+    overworld_frame(gObjectEventPic_PatrouilleOni, 4, 4, 2),
+    overworld_frame(gObjectEventPic_PatrouilleOni, 4, 4, 3),
+};

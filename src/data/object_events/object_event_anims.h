@@ -1267,7 +1267,39 @@ static const union AnimCmd *const sAnimTable_RedGreenFish[] = {
     [ANIM_HOOKED_POKEMON_EAST] = sAnim_HookedPokemonEast,
 };
 
+static const union AnimCmd sAnim_PatrouilleOni0[] = { ANIMCMD_FRAME(0, 16), ANIMCMD_JUMP(0) };
+
+static const union AnimCmd sAnim_PatrouilleOni1[] = { ANIMCMD_FRAME(1, 16), ANIMCMD_JUMP(0) };
+
+static const union AnimCmd sAnim_PatrouilleOni2[] = { ANIMCMD_FRAME(2, 16), ANIMCMD_JUMP(0) };
+
+static const union AnimCmd sAnim_PatrouilleOni3[] = { ANIMCMD_FRAME(3, 16), ANIMCMD_JUMP(0) };
+static const union AnimCmd *const sAnimTable_PatrouilleOni[] = {
+    sAnim_PatrouilleOni0,
+    sAnim_PatrouilleOni1,
+    sAnim_PatrouilleOni2,
+    sAnim_PatrouilleOni3,
+    sAnim_PatrouilleOni0,
+    sAnim_PatrouilleOni1,
+    sAnim_PatrouilleOni2,
+    sAnim_PatrouilleOni3,
+    sAnim_PatrouilleOni0,
+    sAnim_PatrouilleOni1,
+    sAnim_PatrouilleOni2,
+    sAnim_PatrouilleOni3,
+    sAnim_PatrouilleOni0,
+    sAnim_PatrouilleOni1,
+    sAnim_PatrouilleOni2,
+    sAnim_PatrouilleOni3,
+    sAnim_PatrouilleOni0,
+    sAnim_PatrouilleOni1,
+    sAnim_PatrouilleOni2,
+    sAnim_PatrouilleOni3,
+    sAnim_PatrouilleOni0,
+};
+
 static const struct StepAnimTable sStepAnimTables[] = {
+    { .anims = sAnimTable_PatrouilleOni, .animPos = {0, 0, 0, 0} },
     {
         .anims = sAnimTable_QuintyPlump,
         .animPos = {1, 3, 0, 2},
