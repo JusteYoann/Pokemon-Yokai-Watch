@@ -13,6 +13,7 @@ from collections import defaultdict
 from pathlib import Path
 
 from PIL import Image
+from appliquer_capture_rangs import apply_capture_rates
 
 ROOT = Path(__file__).resolve().parents[2]
 INPUT = ROOT / 'RECUPERATION_PROJET/sources_validees'
@@ -85,7 +86,7 @@ for row in stats:
     # Uniform family growth prevents total experience changing level on evolution.
     body = re.sub(r'\.growthRate = \w+', '.growthRate = GROWTH_MEDIUM_FAST', body)
     data = data[:match.start()] + match[1] + body + match[3] + data[match.end():]
-write('src/data/pokemon/species_info.h', data)
+write('src/data/pokemon/species_info.h', apply_capture_rates(data))
 
 edges = defaultdict(list)
 evolution_moves = defaultdict(list)

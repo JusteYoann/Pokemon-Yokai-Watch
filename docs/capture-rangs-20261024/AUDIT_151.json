@@ -1,0 +1,1216 @@
+{
+  "source_avant": "dd6a66c4dba0da61cb32abc6f1a592a048914c77",
+  "source_rouge_feu": "ab417d12552b25c8434592a942006cc0219932bf",
+  "anciens_taux_identiques_rouge_feu": 151,
+  "taux_modifies": 140,
+  "yokai": [
+    {
+      "constante": "SPECIES_BULBASAUR",
+      "numero": 1,
+      "nom": "Jibanyan",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_IVYSAUR",
+      "numero": 2,
+      "nom": "Bandinyan",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_VENUSAUR",
+      "numero": 3,
+      "nom": "Épinyan",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_CHARMANDER",
+      "numero": 4,
+      "nom": "Shogunyan",
+      "rang": "S",
+      "taux": 45,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_CHARMELEON",
+      "numero": 5,
+      "nom": "Komasan",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_CHARIZARD",
+      "numero": 6,
+      "nom": "Komaous",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_SQUIRTLE",
+      "numero": 7,
+      "nom": "Komastar",
+      "rang": "S",
+      "taux": 45,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_WARTORTLE",
+      "numero": 8,
+      "nom": "Whisper",
+      "rang": "C",
+      "taux": 180,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_BLASTOISE",
+      "numero": 9,
+      "nom": "Cigalopin",
+      "rang": "E",
+      "taux": 255,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_CATERPIE",
+      "numero": 10,
+      "nom": "Cigallard",
+      "rang": "C",
+      "taux": 180,
+      "ancien_taux": 255
+    },
+    {
+      "constante": "SPECIES_METAPOD",
+      "numero": 11,
+      "nom": "Murhaine",
+      "rang": "E",
+      "taux": 255,
+      "ancien_taux": 120
+    },
+    {
+      "constante": "SPECIES_BUTTERFREE",
+      "numero": 12,
+      "nom": "Saumhonni",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_WEEDLE",
+      "numero": 13,
+      "nom": "Dracounet",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 255
+    },
+    {
+      "constante": "SPECIES_KAKUNA",
+      "numero": 14,
+      "nom": "Sir Dragon",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 120
+    },
+    {
+      "constante": "SPECIES_BEEDRILL",
+      "numero": 15,
+      "nom": "Octorgone",
+      "rang": "S",
+      "taux": 45,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_PIDGEY",
+      "numero": 16,
+      "nom": "Kyubi",
+      "rang": "S",
+      "taux": 45,
+      "ancien_taux": 255
+    },
+    {
+      "constante": "SPECIES_PIDGEOTTO",
+      "numero": 17,
+      "nom": "Robonyan",
+      "rang": "C",
+      "taux": 180,
+      "ancien_taux": 120
+    },
+    {
+      "constante": "SPECIES_PIDGEOT",
+      "numero": 18,
+      "nom": "Robonyan F",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_RATTATA",
+      "numero": 19,
+      "nom": "Robonyan 28",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 255
+    },
+    {
+      "constante": "SPECIES_RATICATE",
+      "numero": 20,
+      "nom": "Faux Kappa",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 127
+    },
+    {
+      "constante": "SPECIES_SPEAROW",
+      "numero": 21,
+      "nom": "Tukappa",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 255
+    },
+    {
+      "constante": "SPECIES_FEAROW",
+      "numero": 22,
+      "nom": "Granpapéti",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 90
+    },
+    {
+      "constante": "SPECIES_EKANS",
+      "numero": 23,
+      "nom": "Puissanfon",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 255
+    },
+    {
+      "constante": "SPECIES_ARBOK",
+      "numero": 24,
+      "nom": "Nanpart",
+      "rang": "E",
+      "taux": 255,
+      "ancien_taux": 90
+    },
+    {
+      "constante": "SPECIES_PIKACHU",
+      "numero": 25,
+      "nom": "Passpa",
+      "rang": "C",
+      "taux": 180,
+      "ancien_taux": 190
+    },
+    {
+      "constante": "SPECIES_RAICHU",
+      "numero": 26,
+      "nom": "Angelik",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 75
+    },
+    {
+      "constante": "SPECIES_SANDSHREW",
+      "numero": 27,
+      "nom": "Blizzaria",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 255
+    },
+    {
+      "constante": "SPECIES_SANDSLASH",
+      "numero": 28,
+      "nom": "Feulion",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 90
+    },
+    {
+      "constante": "SPECIES_NIDORAN_F",
+      "numero": 29,
+      "nom": "Padrezo",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 235
+    },
+    {
+      "constante": "SPECIES_NIDORINA",
+      "numero": 30,
+      "nom": "Émettor",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 120
+    },
+    {
+      "constante": "SPECIES_NIDOQUEEN",
+      "numero": 31,
+      "nom": "Crocho",
+      "rang": "C",
+      "taux": 180,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_NIDORAN_M",
+      "numero": 32,
+      "nom": "Potofeu",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 235
+    },
+    {
+      "constante": "SPECIES_NIDORINO",
+      "numero": 33,
+      "nom": "Misterre",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 120
+    },
+    {
+      "constante": "SPECIES_NIDOKING",
+      "numero": 34,
+      "nom": "Métaurolog",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_CLEFAIRY",
+      "numero": 35,
+      "nom": "Tauracle",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 150
+    },
+    {
+      "constante": "SPECIES_CLEFABLE",
+      "numero": 36,
+      "nom": "Poulpatouch",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 25
+    },
+    {
+      "constante": "SPECIES_VULPIX",
+      "numero": 37,
+      "nom": "Poulpater",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 190
+    },
+    {
+      "constante": "SPECIES_NINETALES",
+      "numero": 38,
+      "nom": "Bonneto",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 75
+    },
+    {
+      "constante": "SPECIES_JIGGLYPUFF",
+      "numero": 39,
+      "nom": "Sabri",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 170
+    },
+    {
+      "constante": "SPECIES_WIGGLYTUFF",
+      "numero": 40,
+      "nom": "Démophage",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 50
+    },
+    {
+      "constante": "SPECIES_ZUBAT",
+      "numero": 41,
+      "nom": "Brumette",
+      "rang": "E",
+      "taux": 255,
+      "ancien_taux": 255
+    },
+    {
+      "constante": "SPECIES_GOLBAT",
+      "numero": 42,
+      "nom": "Brumella",
+      "rang": "C",
+      "taux": 180,
+      "ancien_taux": 90
+    },
+    {
+      "constante": "SPECIES_ODDISH",
+      "numero": 43,
+      "nom": "Télémir",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 255
+    },
+    {
+      "constante": "SPECIES_GLOOM",
+      "numero": 44,
+      "nom": "Triptic-tac",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 120
+    },
+    {
+      "constante": "SPECIES_VILEPLUME",
+      "numero": 45,
+      "nom": "Nihilistik",
+      "rang": "E",
+      "taux": 255,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_PARAS",
+      "numero": 46,
+      "nom": "Émousstik",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 190
+    },
+    {
+      "constante": "SPECIES_PARASECT",
+      "numero": 47,
+      "nom": "Humainequin",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 75
+    },
+    {
+      "constante": "SPECIES_VENONAT",
+      "numero": 48,
+      "nom": "Slurpent",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 190
+    },
+    {
+      "constante": "SPECIES_VENOMOTH",
+      "numero": 49,
+      "nom": "Baku",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 75
+    },
+    {
+      "constante": "SPECIES_DIGLETT",
+      "numero": 50,
+      "nom": "Bakuku",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 255
+    },
+    {
+      "constante": "SPECIES_DUGTRIO",
+      "numero": 51,
+      "nom": "Mognyan",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 50
+    },
+    {
+      "constante": "SPECIES_MEOWTH",
+      "numero": 52,
+      "nom": "Bouh",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 255
+    },
+    {
+      "constante": "SPECIES_PERSIAN",
+      "numero": 53,
+      "nom": "Lacanne",
+      "rang": "E",
+      "taux": 255,
+      "ancien_taux": 90
+    },
+    {
+      "constante": "SPECIES_PSYDUCK",
+      "numero": 54,
+      "nom": "Canastelle",
+      "rang": "C",
+      "taux": 180,
+      "ancien_taux": 190
+    },
+    {
+      "constante": "SPECIES_GOLDUCK",
+      "numero": 55,
+      "nom": "Yvantouse",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 75
+    },
+    {
+      "constante": "SPECIES_MANKEY",
+      "numero": 56,
+      "nom": "Ed Mémoire",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 190
+    },
+    {
+      "constante": "SPECIES_PRIMEAPE",
+      "numero": 57,
+      "nom": "Couchtar",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 75
+    },
+    {
+      "constante": "SPECIES_GROWLITHE",
+      "numero": 58,
+      "nom": "Noctambill",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 190
+    },
+    {
+      "constante": "SPECIES_ARCANINE",
+      "numero": 59,
+      "nom": "Fouetar",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 75
+    },
+    {
+      "constante": "SPECIES_POLIWAG",
+      "numero": 60,
+      "nom": "Superfouetar",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 255
+    },
+    {
+      "constante": "SPECIES_POLIWHIRL",
+      "numero": 61,
+      "nom": "Égare-dare",
+      "rang": "E",
+      "taux": 255,
+      "ancien_taux": 120
+    },
+    {
+      "constante": "SPECIES_POLIWRATH",
+      "numero": 62,
+      "nom": "Charivari",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_ABRA",
+      "numero": 63,
+      "nom": "Chihuaglagla",
+      "rang": "E",
+      "taux": 255,
+      "ancien_taux": 200
+    },
+    {
+      "constante": "SPECIES_KADABRA",
+      "numero": 64,
+      "nom": "Frohuahua",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 100
+    },
+    {
+      "constante": "SPECIES_ALAKAZAM",
+      "numero": 65,
+      "nom": "Gorgouille",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 50
+    },
+    {
+      "constante": "SPECIES_MACHOP",
+      "numero": 66,
+      "nom": "Siréné",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 180
+    },
+    {
+      "constante": "SPECIES_MACHOKE",
+      "numero": 67,
+      "nom": "Sirénité",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 90
+    },
+    {
+      "constante": "SPECIES_MACHAMP",
+      "numero": 68,
+      "nom": "Papa Ress",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_BELLSPROUT",
+      "numero": 69,
+      "nom": "Ralbouc",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 255
+    },
+    {
+      "constante": "SPECIES_WEEPINBELL",
+      "numero": 70,
+      "nom": "Sorcophage",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 120
+    },
+    {
+      "constante": "SPECIES_VICTREEBEL",
+      "numero": 71,
+      "nom": "Insomnel",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_TENTACOOL",
+      "numero": 72,
+      "nom": "Tata Aura",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 190
+    },
+    {
+      "constante": "SPECIES_TENTACRUEL",
+      "numero": 73,
+      "nom": "Tontonnerre",
+      "rang": "C",
+      "taux": 180,
+      "ancien_taux": 60
+    },
+    {
+      "constante": "SPECIES_GEODUDE",
+      "numero": 74,
+      "nom": "Antonnerre",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 255
+    },
+    {
+      "constante": "SPECIES_GRAVELER",
+      "numero": 75,
+      "nom": "Parantonn",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 120
+    },
+    {
+      "constante": "SPECIES_GOLEM",
+      "numero": 76,
+      "nom": "Scoltine",
+      "rang": "E",
+      "taux": 255,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_PONYTA",
+      "numero": 77,
+      "nom": "Scolérique",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 190
+    },
+    {
+      "constante": "SPECIES_RAPIDASH",
+      "numero": 78,
+      "nom": "Coléroptere",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 60
+    },
+    {
+      "constante": "SPECIES_SLOWPOKE",
+      "numero": 79,
+      "nom": "Rhinolimit",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 190
+    },
+    {
+      "constante": "SPECIES_SLOWBRO",
+      "numero": 80,
+      "nom": "Scatcheur",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 75
+    },
+    {
+      "constante": "SPECIES_MAGNEMITE",
+      "numero": 81,
+      "nom": "Scarmouche",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 190
+    },
+    {
+      "constante": "SPECIES_MAGNETON",
+      "numero": 82,
+      "nom": "Noko",
+      "rang": "E",
+      "taux": 255,
+      "ancien_taux": 60
+    },
+    {
+      "constante": "SPECIES_FARFETCHD",
+      "numero": 83,
+      "nom": "Nénunoko",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_DODUO",
+      "numero": 84,
+      "nom": "Trytik",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 190
+    },
+    {
+      "constante": "SPECIES_DODRIO",
+      "numero": 85,
+      "nom": "Carpitaine",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_SEEL",
+      "numero": 86,
+      "nom": "Turboss",
+      "rang": "A/S",
+      "taux": 60,
+      "ancien_taux": 190
+    },
+    {
+      "constante": "SPECIES_DEWGONG",
+      "numero": 87,
+      "nom": "Kappacap",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 75
+    },
+    {
+      "constante": "SPECIES_GRIMER",
+      "numero": 88,
+      "nom": "Appak",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 190
+    },
+    {
+      "constante": "SPECIES_MUK",
+      "numero": 89,
+      "nom": "Camaueil",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 75
+    },
+    {
+      "constante": "SPECIES_SHELLDER",
+      "numero": 90,
+      "nom": "Glapie",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 190
+    },
+    {
+      "constante": "SPECIES_CLOYSTER",
+      "numero": 91,
+      "nom": "Chiperpiou",
+      "rang": "E",
+      "taux": 255,
+      "ancien_taux": 60
+    },
+    {
+      "constante": "SPECIES_GASTLY",
+      "numero": 92,
+      "nom": "Rapiaf",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 190
+    },
+    {
+      "constante": "SPECIES_HAUNTER",
+      "numero": 93,
+      "nom": "Tête de lard",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 90
+    },
+    {
+      "constante": "SPECIES_GENGAR",
+      "numero": 94,
+      "nom": "Potache",
+      "rang": "E",
+      "taux": 255,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_ONIX",
+      "numero": 95,
+      "nom": "Dépotache",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_DROWZEE",
+      "numero": 96,
+      "nom": "Navétéran",
+      "rang": "C",
+      "taux": 180,
+      "ancien_taux": 190
+    },
+    {
+      "constante": "SPECIES_HYPNO",
+      "numero": 97,
+      "nom": "Navigarmateur",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 75
+    },
+    {
+      "constante": "SPECIES_KRABBY",
+      "numero": 98,
+      "nom": "Sergent Rampant",
+      "rang": "E",
+      "taux": 255,
+      "ancien_taux": 225
+    },
+    {
+      "constante": "SPECIES_KINGLER",
+      "numero": 99,
+      "nom": "Coach Antonic",
+      "rang": "C",
+      "taux": 180,
+      "ancien_taux": 60
+    },
+    {
+      "constante": "SPECIES_VOLTORB",
+      "numero": 100,
+      "nom": "Usapion",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 190
+    },
+    {
+      "constante": "SPECIES_ELECTRODE",
+      "numero": 101,
+      "nom": "Emperor",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 60
+    },
+    {
+      "constante": "SPECIES_EXEGGCUTE",
+      "numero": 102,
+      "nom": "Castelius III",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 90
+    },
+    {
+      "constante": "SPECIES_EXEGGUTOR",
+      "numero": 103,
+      "nom": "Castelius II",
+      "rang": "C",
+      "taux": 180,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_CUBONE",
+      "numero": 104,
+      "nom": "Castelius I",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 190
+    },
+    {
+      "constante": "SPECIES_MAROWAK",
+      "numero": 105,
+      "nom": "Castelius Max",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 75
+    },
+    {
+      "constante": "SPECIES_HITMONLEE",
+      "numero": 106,
+      "nom": "Pitou",
+      "rang": "C",
+      "taux": 180,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_HITMONCHAN",
+      "numero": 107,
+      "nom": "Choubidou",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_LICKITUNG",
+      "numero": 108,
+      "nom": "Arbrézo",
+      "rang": "E",
+      "taux": 255,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_KOFFING",
+      "numero": 109,
+      "nom": "Abrézo Social",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 190
+    },
+    {
+      "constante": "SPECIES_WEEZING",
+      "numero": 110,
+      "nom": "Espreschiot",
+      "rang": "C",
+      "taux": 180,
+      "ancien_taux": 60
+    },
+    {
+      "constante": "SPECIES_RHYHORN",
+      "numero": 111,
+      "nom": "Duc DeLaFeuille",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 120
+    },
+    {
+      "constante": "SPECIES_RHYDON",
+      "numero": 112,
+      "nom": "FeuildeChou",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 60
+    },
+    {
+      "constante": "SPECIES_CHANSEY",
+      "numero": 113,
+      "nom": "Sal de bain",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 30
+    },
+    {
+      "constante": "SPECIES_TANGELA",
+      "numero": 114,
+      "nom": "XXL de bain",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_KANGASKHAN",
+      "numero": 115,
+      "nom": "Tristos",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_HORSEA",
+      "numero": 116,
+      "nom": "Rocky Badboya",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 225
+    },
+    {
+      "constante": "SPECIES_SEADRA",
+      "numero": 117,
+      "nom": "Raton Glandeur",
+      "rang": "C",
+      "taux": 180,
+      "ancien_taux": 75
+    },
+    {
+      "constante": "SPECIES_GOLDEEN",
+      "numero": 118,
+      "nom": "Vertipiou",
+      "rang": "E",
+      "taux": 255,
+      "ancien_taux": 225
+    },
+    {
+      "constante": "SPECIES_SEAKING",
+      "numero": 119,
+      "nom": "Samoussrai",
+      "rang": "E",
+      "taux": 255,
+      "ancien_taux": 60
+    },
+    {
+      "constante": "SPECIES_STARYU",
+      "numero": 120,
+      "nom": "Ronimpec",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 225
+    },
+    {
+      "constante": "SPECIES_STARMIE",
+      "numero": 121,
+      "nom": "Moufpète",
+      "rang": "C",
+      "taux": 180,
+      "ancien_taux": 60
+    },
+    {
+      "constante": "SPECIES_MR_MIME",
+      "numero": 122,
+      "nom": "Gloups",
+      "rang": "E",
+      "taux": 255,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_SCYTHER",
+      "numero": 123,
+      "nom": "Chip-Chop",
+      "rang": "C",
+      "taux": 180,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_JYNX",
+      "numero": 124,
+      "nom": "Chaipo",
+      "rang": "E",
+      "taux": 255,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_ELECTABUZZ",
+      "numero": 125,
+      "nom": "Mémogre",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_MAGMAR",
+      "numero": 126,
+      "nom": "Jojojoyeux",
+      "rang": "C",
+      "taux": 180,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_PINSIR",
+      "numero": 127,
+      "nom": "Chauvkipeut",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_TAUROS",
+      "numero": 128,
+      "nom": "Chauv'coucou",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_MAGIKARP",
+      "numero": 129,
+      "nom": "Pachycool",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 255
+    },
+    {
+      "constante": "SPECIES_GYARADOS",
+      "numero": 130,
+      "nom": "Pachypipi",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_LAPRAS",
+      "numero": 131,
+      "nom": "Loubarbare",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_DITTO",
+      "numero": 132,
+      "nom": "Racaïd",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 35
+    },
+    {
+      "constante": "SPECIES_EEVEE",
+      "numero": 133,
+      "nom": "Terminyanator",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_VAPOREON",
+      "numero": 134,
+      "nom": "Sabruine",
+      "rang": "C",
+      "taux": 180,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_JOLTEON",
+      "numero": 135,
+      "nom": "Sabrille",
+      "rang": "C",
+      "taux": 180,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_FLAREON",
+      "numero": 136,
+      "nom": "Fourchelang",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_PORYGON",
+      "numero": 137,
+      "nom": "Felipaix",
+      "rang": "E",
+      "taux": 255,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_OMANYTE",
+      "numero": 138,
+      "nom": "M. Felipaix",
+      "rang": "C",
+      "taux": 180,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_OMASTAR",
+      "numero": 139,
+      "nom": "Doyaris",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_KABUTO",
+      "numero": 140,
+      "nom": "Doyen Doyaris",
+      "rang": "B",
+      "taux": 120,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_KABUTOPS",
+      "numero": 141,
+      "nom": "Volroulo",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_AERODACTYL",
+      "numero": 142,
+      "nom": "Lulugubre",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_SNORLAX",
+      "numero": 143,
+      "nom": "Toumou",
+      "rang": "E",
+      "taux": 255,
+      "ancien_taux": 25
+    },
+    {
+      "constante": "SPECIES_ARTICUNO",
+      "numero": 144,
+      "nom": "Lamlam'mou",
+      "rang": "C",
+      "taux": 180,
+      "ancien_taux": 3
+    },
+    {
+      "constante": "SPECIES_ZAPDOS",
+      "numero": 145,
+      "nom": "Savantard",
+      "rang": "S",
+      "taux": 45,
+      "ancien_taux": 3
+    },
+    {
+      "constante": "SPECIES_MOLTRES",
+      "numero": 146,
+      "nom": "Loupépin",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 3
+    },
+    {
+      "constante": "SPECIES_DRATINI",
+      "numero": 147,
+      "nom": "Mademoaiselle",
+      "rang": "S",
+      "taux": 45,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_DRAGONAIR",
+      "numero": 148,
+      "nom": "Maître Nyada",
+      "rang": "S",
+      "taux": 45,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_DRAGONITE",
+      "numero": 149,
+      "nom": "Hovernyan",
+      "rang": "A",
+      "taux": 75,
+      "ancien_taux": 45
+    },
+    {
+      "constante": "SPECIES_MEWTWO",
+      "numero": 150,
+      "nom": "Enma",
+      "rang": "Z",
+      "taux": 30,
+      "ancien_taux": 3
+    },
+    {
+      "constante": "SPECIES_MEW",
+      "numero": 151,
+      "nom": "Raltesse",
+      "rang": "D",
+      "taux": 225,
+      "ancien_taux": 45
+    }
+  ]
+}

@@ -1,0 +1,1071 @@
+{
+  "passed": true,
+  "scope": "Read all 151 linked catch rates in mGBA; compare the entire table to baseline.\nNo savedata or game RAM writes. This is not a simulated full playthrough.\n",
+  "rom_sha256": "5876639da53782c59d34eaa6b259b30935775e439661277625e33188323e5756",
+  "rom_size": 16777216,
+  "native_entries_checked": 151,
+  "catch_rates_changed": 140,
+  "other_table_bytes_unchanged": true,
+  "reference_sha256": "5e350381135282f916616c221ef59db974fec501b73579a406c533e5104469e5",
+  "captures_non_jouees": true,
+  "indices_not_percentages": true,
+  "entries": [
+    {
+      "numero": 1,
+      "nom": "Jibanyan",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 2,
+      "nom": "Bandinyan",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 3,
+      "nom": "Épinyan",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 4,
+      "nom": "Shogunyan",
+      "rang": "S",
+      "taux": 45,
+      "indice_charge": 45
+    },
+    {
+      "numero": 5,
+      "nom": "Komasan",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 6,
+      "nom": "Komaous",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 7,
+      "nom": "Komastar",
+      "rang": "S",
+      "taux": 45,
+      "indice_charge": 45
+    },
+    {
+      "numero": 8,
+      "nom": "Whisper",
+      "rang": "C",
+      "taux": 180,
+      "indice_charge": 180
+    },
+    {
+      "numero": 9,
+      "nom": "Cigalopin",
+      "rang": "E",
+      "taux": 255,
+      "indice_charge": 255
+    },
+    {
+      "numero": 10,
+      "nom": "Cigallard",
+      "rang": "C",
+      "taux": 180,
+      "indice_charge": 180
+    },
+    {
+      "numero": 11,
+      "nom": "Murhaine",
+      "rang": "E",
+      "taux": 255,
+      "indice_charge": 255
+    },
+    {
+      "numero": 12,
+      "nom": "Saumhonni",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 13,
+      "nom": "Dracounet",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 14,
+      "nom": "Sir Dragon",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 15,
+      "nom": "Octorgone",
+      "rang": "S",
+      "taux": 45,
+      "indice_charge": 45
+    },
+    {
+      "numero": 16,
+      "nom": "Kyubi",
+      "rang": "S",
+      "taux": 45,
+      "indice_charge": 45
+    },
+    {
+      "numero": 17,
+      "nom": "Robonyan",
+      "rang": "C",
+      "taux": 180,
+      "indice_charge": 180
+    },
+    {
+      "numero": 18,
+      "nom": "Robonyan F",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 19,
+      "nom": "Robonyan 28",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 20,
+      "nom": "Faux Kappa",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 21,
+      "nom": "Tukappa",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 22,
+      "nom": "Granpapéti",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 23,
+      "nom": "Puissanfon",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 24,
+      "nom": "Nanpart",
+      "rang": "E",
+      "taux": 255,
+      "indice_charge": 255
+    },
+    {
+      "numero": 25,
+      "nom": "Passpa",
+      "rang": "C",
+      "taux": 180,
+      "indice_charge": 180
+    },
+    {
+      "numero": 26,
+      "nom": "Angelik",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 27,
+      "nom": "Blizzaria",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 28,
+      "nom": "Feulion",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 29,
+      "nom": "Padrezo",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 30,
+      "nom": "Émettor",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 31,
+      "nom": "Crocho",
+      "rang": "C",
+      "taux": 180,
+      "indice_charge": 180
+    },
+    {
+      "numero": 32,
+      "nom": "Potofeu",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 33,
+      "nom": "Misterre",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 34,
+      "nom": "Métaurolog",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 35,
+      "nom": "Tauracle",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 36,
+      "nom": "Poulpatouch",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 37,
+      "nom": "Poulpater",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 38,
+      "nom": "Bonneto",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 39,
+      "nom": "Sabri",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 40,
+      "nom": "Démophage",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 41,
+      "nom": "Brumette",
+      "rang": "E",
+      "taux": 255,
+      "indice_charge": 255
+    },
+    {
+      "numero": 42,
+      "nom": "Brumella",
+      "rang": "C",
+      "taux": 180,
+      "indice_charge": 180
+    },
+    {
+      "numero": 43,
+      "nom": "Télémir",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 44,
+      "nom": "Triptic-tac",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 45,
+      "nom": "Nihilistik",
+      "rang": "E",
+      "taux": 255,
+      "indice_charge": 255
+    },
+    {
+      "numero": 46,
+      "nom": "Émousstik",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 47,
+      "nom": "Humainequin",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 48,
+      "nom": "Slurpent",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 49,
+      "nom": "Baku",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 50,
+      "nom": "Bakuku",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 51,
+      "nom": "Mognyan",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 52,
+      "nom": "Bouh",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 53,
+      "nom": "Lacanne",
+      "rang": "E",
+      "taux": 255,
+      "indice_charge": 255
+    },
+    {
+      "numero": 54,
+      "nom": "Canastelle",
+      "rang": "C",
+      "taux": 180,
+      "indice_charge": 180
+    },
+    {
+      "numero": 55,
+      "nom": "Yvantouse",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 56,
+      "nom": "Ed Mémoire",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 57,
+      "nom": "Couchtar",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 58,
+      "nom": "Noctambill",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 59,
+      "nom": "Fouetar",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 60,
+      "nom": "Superfouetar",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 61,
+      "nom": "Égare-dare",
+      "rang": "E",
+      "taux": 255,
+      "indice_charge": 255
+    },
+    {
+      "numero": 62,
+      "nom": "Charivari",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 63,
+      "nom": "Chihuaglagla",
+      "rang": "E",
+      "taux": 255,
+      "indice_charge": 255
+    },
+    {
+      "numero": 64,
+      "nom": "Frohuahua",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 65,
+      "nom": "Gorgouille",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 66,
+      "nom": "Siréné",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 67,
+      "nom": "Sirénité",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 68,
+      "nom": "Papa Ress",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 69,
+      "nom": "Ralbouc",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 70,
+      "nom": "Sorcophage",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 71,
+      "nom": "Insomnel",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 72,
+      "nom": "Tata Aura",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 73,
+      "nom": "Tontonnerre",
+      "rang": "C",
+      "taux": 180,
+      "indice_charge": 180
+    },
+    {
+      "numero": 74,
+      "nom": "Antonnerre",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 75,
+      "nom": "Parantonn",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 76,
+      "nom": "Scoltine",
+      "rang": "E",
+      "taux": 255,
+      "indice_charge": 255
+    },
+    {
+      "numero": 77,
+      "nom": "Scolérique",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 78,
+      "nom": "Coléroptere",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 79,
+      "nom": "Rhinolimit",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 80,
+      "nom": "Scatcheur",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 81,
+      "nom": "Scarmouche",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 82,
+      "nom": "Noko",
+      "rang": "E",
+      "taux": 255,
+      "indice_charge": 255
+    },
+    {
+      "numero": 83,
+      "nom": "Nénunoko",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 84,
+      "nom": "Trytik",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 85,
+      "nom": "Carpitaine",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 86,
+      "nom": "Turboss",
+      "rang": "A/S",
+      "taux": 60,
+      "indice_charge": 60
+    },
+    {
+      "numero": 87,
+      "nom": "Kappacap",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 88,
+      "nom": "Appak",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 89,
+      "nom": "Camaueil",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 90,
+      "nom": "Glapie",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 91,
+      "nom": "Chiperpiou",
+      "rang": "E",
+      "taux": 255,
+      "indice_charge": 255
+    },
+    {
+      "numero": 92,
+      "nom": "Rapiaf",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 93,
+      "nom": "Tête de lard",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 94,
+      "nom": "Potache",
+      "rang": "E",
+      "taux": 255,
+      "indice_charge": 255
+    },
+    {
+      "numero": 95,
+      "nom": "Dépotache",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 96,
+      "nom": "Navétéran",
+      "rang": "C",
+      "taux": 180,
+      "indice_charge": 180
+    },
+    {
+      "numero": 97,
+      "nom": "Navigarmateur",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 98,
+      "nom": "Sergent Rampant",
+      "rang": "E",
+      "taux": 255,
+      "indice_charge": 255
+    },
+    {
+      "numero": 99,
+      "nom": "Coach Antonic",
+      "rang": "C",
+      "taux": 180,
+      "indice_charge": 180
+    },
+    {
+      "numero": 100,
+      "nom": "Usapion",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 101,
+      "nom": "Emperor",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 102,
+      "nom": "Castelius III",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 103,
+      "nom": "Castelius II",
+      "rang": "C",
+      "taux": 180,
+      "indice_charge": 180
+    },
+    {
+      "numero": 104,
+      "nom": "Castelius I",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 105,
+      "nom": "Castelius Max",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 106,
+      "nom": "Pitou",
+      "rang": "C",
+      "taux": 180,
+      "indice_charge": 180
+    },
+    {
+      "numero": 107,
+      "nom": "Choubidou",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 108,
+      "nom": "Arbrézo",
+      "rang": "E",
+      "taux": 255,
+      "indice_charge": 255
+    },
+    {
+      "numero": 109,
+      "nom": "Abrézo Social",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 110,
+      "nom": "Espreschiot",
+      "rang": "C",
+      "taux": 180,
+      "indice_charge": 180
+    },
+    {
+      "numero": 111,
+      "nom": "Duc DeLaFeuille",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 112,
+      "nom": "FeuildeChou",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 113,
+      "nom": "Sal de bain",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 114,
+      "nom": "XXL de bain",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 115,
+      "nom": "Tristos",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 116,
+      "nom": "Rocky Badboya",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 117,
+      "nom": "Raton Glandeur",
+      "rang": "C",
+      "taux": 180,
+      "indice_charge": 180
+    },
+    {
+      "numero": 118,
+      "nom": "Vertipiou",
+      "rang": "E",
+      "taux": 255,
+      "indice_charge": 255
+    },
+    {
+      "numero": 119,
+      "nom": "Samoussrai",
+      "rang": "E",
+      "taux": 255,
+      "indice_charge": 255
+    },
+    {
+      "numero": 120,
+      "nom": "Ronimpec",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 121,
+      "nom": "Moufpète",
+      "rang": "C",
+      "taux": 180,
+      "indice_charge": 180
+    },
+    {
+      "numero": 122,
+      "nom": "Gloups",
+      "rang": "E",
+      "taux": 255,
+      "indice_charge": 255
+    },
+    {
+      "numero": 123,
+      "nom": "Chip-Chop",
+      "rang": "C",
+      "taux": 180,
+      "indice_charge": 180
+    },
+    {
+      "numero": 124,
+      "nom": "Chaipo",
+      "rang": "E",
+      "taux": 255,
+      "indice_charge": 255
+    },
+    {
+      "numero": 125,
+      "nom": "Mémogre",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 126,
+      "nom": "Jojojoyeux",
+      "rang": "C",
+      "taux": 180,
+      "indice_charge": 180
+    },
+    {
+      "numero": 127,
+      "nom": "Chauvkipeut",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 128,
+      "nom": "Chauv'coucou",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 129,
+      "nom": "Pachycool",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 130,
+      "nom": "Pachypipi",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 131,
+      "nom": "Loubarbare",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 132,
+      "nom": "Racaïd",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 133,
+      "nom": "Terminyanator",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 134,
+      "nom": "Sabruine",
+      "rang": "C",
+      "taux": 180,
+      "indice_charge": 180
+    },
+    {
+      "numero": 135,
+      "nom": "Sabrille",
+      "rang": "C",
+      "taux": 180,
+      "indice_charge": 180
+    },
+    {
+      "numero": 136,
+      "nom": "Fourchelang",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 137,
+      "nom": "Felipaix",
+      "rang": "E",
+      "taux": 255,
+      "indice_charge": 255
+    },
+    {
+      "numero": 138,
+      "nom": "M. Felipaix",
+      "rang": "C",
+      "taux": 180,
+      "indice_charge": 180
+    },
+    {
+      "numero": 139,
+      "nom": "Doyaris",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 140,
+      "nom": "Doyen Doyaris",
+      "rang": "B",
+      "taux": 120,
+      "indice_charge": 120
+    },
+    {
+      "numero": 141,
+      "nom": "Volroulo",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 142,
+      "nom": "Lulugubre",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 143,
+      "nom": "Toumou",
+      "rang": "E",
+      "taux": 255,
+      "indice_charge": 255
+    },
+    {
+      "numero": 144,
+      "nom": "Lamlam'mou",
+      "rang": "C",
+      "taux": 180,
+      "indice_charge": 180
+    },
+    {
+      "numero": 145,
+      "nom": "Savantard",
+      "rang": "S",
+      "taux": 45,
+      "indice_charge": 45
+    },
+    {
+      "numero": 146,
+      "nom": "Loupépin",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    },
+    {
+      "numero": 147,
+      "nom": "Mademoaiselle",
+      "rang": "S",
+      "taux": 45,
+      "indice_charge": 45
+    },
+    {
+      "numero": 148,
+      "nom": "Maître Nyada",
+      "rang": "S",
+      "taux": 45,
+      "indice_charge": 45
+    },
+    {
+      "numero": 149,
+      "nom": "Hovernyan",
+      "rang": "A",
+      "taux": 75,
+      "indice_charge": 75
+    },
+    {
+      "numero": 150,
+      "nom": "Enma",
+      "rang": "Z",
+      "taux": 30,
+      "indice_charge": 30
+    },
+    {
+      "numero": 151,
+      "nom": "Raltesse",
+      "rang": "D",
+      "taux": 225,
+      "indice_charge": 225
+    }
+  ]
+}

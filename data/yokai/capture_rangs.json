@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "source_rangs": "RECUPERATION_PROJET/sources_validees/REPARTITION_OBTENTION_151_YOKAI_CODEX.csv",
+  "taux_par_rang": {"E": 255, "D": 225, "C": 180, "B": 120, "A": 75, "A/S": 60, "S": 45, "Z": 30},
+  "unite": "Indice natif GBA sur 255, pas un pourcentage de capture.",
+  "rang_mixte": "Turboss reste A/S, comme dans le dossier valide ; indice intermediaire 60.",
+  "regles": "Conserver le calcul natif des PV, statuts, Balls et Safari ainsi que toutes les restrictions de capture. Aucun lieu ni mode d'obtention n'est ajoute."
+}
