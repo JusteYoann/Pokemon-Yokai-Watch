@@ -1,4 +1,5 @@
-@ User-approved introduction. Local object IDs 1,3,4 are existing residents.
+@ User-approved introduction. Wyatt joins the crowd with a scene-only actor.
+@ Local object IDs 1,3,4 are existing residents; all previous IDs stay unchanged.
 PewterCity_MorleoneOnTransition::
 	goto_if_set FLAG_ARGENTA_MORLEONE_DONE, PewterCity_MorleoneHideActors
 	goto_if_set FLAG_ARGENTA_MORLEONE_PENDING, PewterCity_MorleoneShowActors
@@ -83,6 +84,9 @@ PewterCity_EventScript_MorleoneArrival::
 	waitmovement 0
 	applymovement 4, Argenta_Crowd4Exit
 	waitmovement 0
+	applymovement LOCALID_ARGENTA_WYATT, Argenta_WyattExit
+	waitmovement 0
+	removeobject LOCALID_ARGENTA_WYATT
 	fadedefaultbgm
 	applymovement LOCALID_CAMERA, Argenta_CameraReturn
 	waitmovement 0
@@ -288,6 +292,18 @@ Argenta_Crowd4Exit::
 	walk_right
 	step_end
 Argenta_MattExit::
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	step_end
+
+@ This open column avoids the crowd and leaves the revealed camera view.
+Argenta_WyattExit::
+	walk_down
 	walk_down
 	walk_down
 	walk_down

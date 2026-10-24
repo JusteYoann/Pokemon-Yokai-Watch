@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "rom_sha256": "cc5cad0f8c4786fb3cc488b8ad0436ed3e0ba7196e31328f1ad66c4fe9bf1ae2",
+  "scope": "Actual first-arrival scene via Route2, four entrances; controller dialogue, no ROM patches.",
+  "player_gender": 1,
+  "results": [
+    {
+      "entry": 20,
+      "completed_frames": 4115,
+      "simultaneous_palette_banks": [
+        [
+          6,
+          10
+        ]
+      ],
+      "music_headers": [
+        "0x9bdb34c",
+        "0x95a16cc",
+        "0x94fbe54",
+        "0x95a16cc"
+      ],
+      "captured": [
+        "dispersion",
+        "discours",
+        "rassemblement"
+      ],
+      "peak_active_objects": 13,
+      "passed": true
+    },
+    {
+      "entry": 21,
+      "completed_frames": 4275,
+      "simultaneous_palette_banks": [
+        [
+          6,
+          10
+        ]
+      ],
+      "music_headers": [
+        "0x9bdb34c",
+        "0x95a16cc",
+        "0x94fbe54",
+        "0x95a16cc"
+      ],
+      "captured": [
+        "dispersion",
+        "discours",
+        "rassemblement"
+      ],
+      "peak_active_objects": 13,
+      "passed": true
+    },
+    {
+      "entry": 22,
+      "completed_frames": 4083,
+      "simultaneous_palette_banks": [
+        [
+          6,
+          10
+        ]
+      ],
+      "music_headers": [
+        "0x9bdb34c",
+        "0x95a16cc",
+        "0x94fbe54",
+        "0x95a16cc"
+      ],
+      "captured": [
+        "dispersion",
+        "discours",
+        "rassemblement"
+      ],
+      "peak_active_objects": 13,
+      "passed": true
+    },
+    {
+      "entry": 23,
+      "completed_frames": 4243,
+      "simultaneous_palette_banks": [
+        [
+          6,
+          10
+        ]
+      ],
+      "music_headers": [
+        "0x9bdb34c",
+        "0x95a16cc",
+        "0x94fbe54",
+        "0x95a16cc"
+      ],
+      "captured": [
+        "dispersion",
+        "discours",
+        "rassemblement"
+      ],
+      "peak_active_objects": 13,
+      "passed": true
+    }
+  ],
+  "wyatt_frames_checked": 23880,
+  "wyatt_palette_bank": 7,
+  "wyatt_overlaps": 0
+}

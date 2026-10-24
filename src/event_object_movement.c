@@ -1650,20 +1650,26 @@ static void LoadAlyzonObjectPalette(const struct ObjectEventGraphicsInfo *graphi
         PatchObjectPalette(graphicsInfo->paletteTag, graphicsInfo->paletteSlot);
 }
 
-// These scenes show Matt and Don together. Keep the same separate palette
-// both at initial spawn and when the overworld sprites are rebuilt after battle.
-static bool8 ObjectUsesMattScenePalette(const struct ObjectEvent *objectEvent, u16 graphicsId)
+// Keep simultaneous scene actors in independent palette banks at initial
+// spawn, sprite reconstruction and graphics changes. Other maps stay native.
+static u8 ObjectScenePaletteSlot(const struct ObjectEvent *objectEvent, u16 graphicsId, u8 defaultSlot)
 {
-    return graphicsId == OBJ_EVENT_GFX_BLUE
-        && ((objectEvent->mapNum == MAP_NUM(MAP_PEWTER_CITY) && objectEvent->mapGroup == MAP_GROUP(MAP_PEWTER_CITY))
-         || (objectEvent->mapNum == MAP_NUM(MAP_POKEMON_LEAGUE_CHAMPIONS_ROOM) && objectEvent->mapGroup == MAP_GROUP(MAP_POKEMON_LEAGUE_CHAMPIONS_ROOM)));
+    bool8 argenta = objectEvent->mapNum == MAP_NUM(MAP_PEWTER_CITY)
+        && objectEvent->mapGroup == MAP_GROUP(MAP_PEWTER_CITY);
+    if (argenta && graphicsId == OBJ_EVENT_GFX_YOKAI_WYATT)
+        return PALSLOT_NPC_2_REFLECTION;
+    if (graphicsId == OBJ_EVENT_GFX_BLUE
+        && (argenta || (objectEvent->mapNum == MAP_NUM(MAP_POKEMON_LEAGUE_CHAMPIONS_ROOM)
+         && objectEvent->mapGroup == MAP_GROUP(MAP_POKEMON_LEAGUE_CHAMPIONS_ROOM))))
+        return PALSLOT_NPC_1_REFLECTION;
+    return defaultSlot;
 }
 
 static u8 TrySetupObjectEventSprite(const struct ObjectEventTemplate *objectEventTemplate, struct SpriteTemplate *spriteTemplate, u8 mapNum, u8 mapGroup, s16 cameraX, s16 cameraY)
 {
     u8 spriteId;
     u8 paletteSlot;
-    bool8 separateMattPalette;
+    bool8 separateScenePalette;
     u8 objectEventId;
     struct Sprite *sprite;
     struct ObjectEvent *objectEvent;
@@ -1676,13 +1682,13 @@ static u8 TrySetupObjectEventSprite(const struct ObjectEventTemplate *objectEven
     objectEvent = &gObjectEvents[objectEventId];
     graphicsInfo = GetObjectEventGraphicsInfo(objectEvent->graphicsId);
     LoadAlyzonObjectPalette(graphicsInfo);
-    separateMattPalette = ObjectUsesMattScenePalette(objectEvent, objectEvent->graphicsId);
-    paletteSlot = separateMattPalette ? PALSLOT_NPC_1_REFLECTION : graphicsInfo->paletteSlot;
-    if (separateMattPalette)
+    paletteSlot = ObjectScenePaletteSlot(objectEvent, objectEvent->graphicsId, graphicsInfo->paletteSlot);
+    separateScenePalette = paletteSlot != graphicsInfo->paletteSlot;
+    if (separateScenePalette)
         PatchObjectPalette(graphicsInfo->paletteTag, paletteSlot);
     if (graphicsInfo->paletteSlot == PALSLOT_PLAYER)
         LoadPlayerObjectReflectionPalette(graphicsInfo->paletteTag, graphicsInfo->paletteSlot);
-    else if (!separateMattPalette && graphicsInfo->paletteSlot == PALSLOT_NPC_SPECIAL)
+    else if (!separateScenePalette && graphicsInfo->paletteSlot == PALSLOT_NPC_SPECIAL)
         LoadSpecialObjectReflectionPalette(graphicsInfo->paletteTag, graphicsInfo->paletteSlot);
 
 
@@ -1996,7 +2002,7 @@ static void SpawnObjectEventOnReturnToField(u8 objectEventId, s16 x, s16 y)
 {
     u8 spriteId;
     u8 paletteSlot;
-    bool8 separateMattPalette;
+    bool8 separateScenePalette;
     struct Sprite *sprite;
     struct ObjectEvent *objectEvent;
     struct SpriteTemplate spriteTemplate;
@@ -2017,19 +2023,19 @@ static void SpawnObjectEventOnReturnToField(u8 objectEventId, s16 x, s16 y)
     subspriteTables = NULL;
     graphicsInfo = GetObjectEventGraphicsInfo(objectEvent->graphicsId);
     LoadAlyzonObjectPalette(graphicsInfo);
-    separateMattPalette = ObjectUsesMattScenePalette(objectEvent, objectEvent->graphicsId);
-    paletteSlot = separateMattPalette ? PALSLOT_NPC_1_REFLECTION : graphicsInfo->paletteSlot;
+    paletteSlot = ObjectScenePaletteSlot(objectEvent, objectEvent->graphicsId, graphicsInfo->paletteSlot);
+    separateScenePalette = paletteSlot != graphicsInfo->paletteSlot;
     spriteFrameImage.size = graphicsInfo->size;
     CopyObjectGraphicsInfoToSpriteTemplate_WithMovementType(objectEvent->graphicsId, objectEvent->movementType, &spriteTemplate, &subspriteTables);
     spriteTemplate.images = &spriteFrameImage;
 
     *(u16 *)&spriteTemplate.paletteTag = TAG_NONE;
-    if (separateMattPalette)
+    if (separateScenePalette)
         PatchObjectPalette(graphicsInfo->paletteTag, paletteSlot);
     else if (graphicsInfo->paletteSlot == PALSLOT_PLAYER)
         LoadPlayerObjectReflectionPalette(graphicsInfo->paletteTag, graphicsInfo->paletteSlot);
 
-    if (!separateMattPalette && graphicsInfo->paletteSlot >= PALSLOT_NPC_SPECIAL)
+    if (!separateScenePalette && graphicsInfo->paletteSlot >= PALSLOT_NPC_SPECIAL)
         LoadSpecialObjectReflectionPalette(graphicsInfo->paletteTag, graphicsInfo->paletteSlot);
 
     *(u16 *)&spriteTemplate.paletteTag = TAG_NONE;
@@ -2091,17 +2097,17 @@ void ObjectEventSetGraphicsId(struct ObjectEvent *objectEvent, u8 graphicsId)
     u8 var;
     u8 var3;
     u8 paletteSlot;
-    bool8 separateMattPalette;
+    bool8 separateScenePalette;
 
     graphicsInfo = GetObjectEventGraphicsInfo(graphicsId);
     LoadAlyzonObjectPalette(graphicsInfo);
-    separateMattPalette = ObjectUsesMattScenePalette(objectEvent, graphicsId);
-    paletteSlot = separateMattPalette ? PALSLOT_NPC_1_REFLECTION : graphicsInfo->paletteSlot;
+    paletteSlot = ObjectScenePaletteSlot(objectEvent, graphicsId, graphicsInfo->paletteSlot);
+    separateScenePalette = paletteSlot != graphicsInfo->paletteSlot;
     sprite = &gSprites[objectEvent->spriteId];
-    if (separateMattPalette || graphicsInfo->paletteSlot == PALSLOT_PLAYER)
+    if (separateScenePalette || graphicsInfo->paletteSlot == PALSLOT_PLAYER)
         PatchObjectPalette(graphicsInfo->paletteTag, paletteSlot);
 
-    if (!separateMattPalette && graphicsInfo->paletteSlot == PALSLOT_NPC_SPECIAL)
+    if (!separateScenePalette && graphicsInfo->paletteSlot == PALSLOT_NPC_SPECIAL)
         LoadSpecialObjectReflectionPalette(graphicsInfo->paletteTag, graphicsInfo->paletteSlot);
     
     var = sprite->images->size / TILE_SIZE_4BPP;
