@@ -46,6 +46,17 @@
         5
       ],
       "passed": true
+    },
+    {
+      "test": "Every captured frame shows Gargaros fully on screen with red sprite pixels; at least 48 native pixels of travel",
+      "frames": 156,
+      "screen_bounds": [
+        72,
+        8,
+        136,
+        40
+      ],
+      "passed": true
     }
   ],
   "captured_frames": 156
