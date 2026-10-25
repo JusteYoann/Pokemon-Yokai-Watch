@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "scope": "Rejoue les scènes existantes sans nouvelle vidéo puis vérifie START et les déplacements.\nChaque scène utilise une partie isolée et les prérequis documentés du pilote cinéma.\nLes équipes ennemies et résultats ne sont pas modifiés. Ce n'est pas un parcours continu.\n",
+  "rom_sha256": "41d62f157ef47859eb52bd88718861f8fc22eca5e1d64d1846734589e32537dd",
+  "scene": "10b-chen-jibanyan",
+  "frames": 4714,
+  "seconds": 78.92511703556816,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "checks": {
+    "script_finished": true,
+    "controls_unlocked": true,
+    "native_player_moved": true,
+    "native_start_menu": true
+  },
+  "map": "PalletTown_ProfessorOaksLab",
+  "entry_script": "PalletTown_ProfessorOaksLab_EventScript_ProfOak",
+  "prepared_flags": [
+    2092
+  ],
+  "prepared_vars": [
+    [
+      16469,
+      9
+    ]
+  ],
+  "prepared_party_level": 100,
+  "native_battles": true,
+  "complete": true
+}

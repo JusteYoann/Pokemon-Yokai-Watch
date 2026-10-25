@@ -1,0 +1,136 @@
+{
+  "passed": true,
+  "scope": "Rejoue les scènes existantes sans nouvelle vidéo puis vérifie START et les déplacements.\nChaque scène utilise une partie isolée et les prérequis documentés du pilote cinéma.\nLes équipes ennemies et résultats ne sont pas modifiés. Ce n'est pas un parcours continu.\n",
+  "rom_sha256": "41d62f157ef47859eb52bd88718861f8fc22eca5e1d64d1846734589e32537dd",
+  "scene": "arene-03",
+  "frames": 10842,
+  "seconds": 181.5244206405664,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 16.642249964648865,
+      "callback": "CB2_OverworldBasic"
+    },
+    {
+      "seconds": 18.350005997238586,
+      "callback": "CB2_InitBattle"
+    },
+    {
+      "seconds": 18.45046223444975,
+      "callback": "CB2_HandleStartBattle"
+    },
+    {
+      "seconds": 19.069942363918567,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 19.069942363918567,
+      "trainer": 416
+    },
+    {
+      "seconds": 53.20832030951116,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 53.64363067075952,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 54.3635670374395,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 54.38030974364136,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 54.39705244984322,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 54.91607634210089,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 79.46088363402768,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 79.89619399527604,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 80.61613036195602,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 80.63287306815788,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 80.64961577435975,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 81.15189696041554,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 111.07111294313941,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 111.50642330438777,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 112.22635967106775,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 112.24310237726961,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 112.25984508347148,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 112.77886897572913,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 152.14097125630204,
+      "callback": "CB2_ReturnToFieldContinueScriptPlayMapMusic"
+    },
+    {
+      "seconds": 152.15771396250392,
+      "callback": "CB2_ReturnToFieldLocal"
+    },
+    {
+      "seconds": 152.35862643692624,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "checks": {
+    "script_finished": true,
+    "controls_unlocked": true,
+    "native_player_moved": true,
+    "native_start_menu": true
+  },
+  "map": "VermilionCity_Gym",
+  "entry_script": "VermilionCity_Gym_EventScript_LtSurge",
+  "prepared_flags": [],
+  "prepared_vars": [
+    [
+      16628,
+      3
+    ]
+  ],
+  "prepared_party_level": 100,
+  "native_battles": true,
+  "complete": true
+}

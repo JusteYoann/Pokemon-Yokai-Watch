@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "scope": "Rejoue les scènes existantes sans nouvelle vidéo puis vérifie START et les déplacements.\nChaque scène utilise une partie isolée et les prérequis documentés du pilote cinéma.\nLes équipes ennemies et résultats ne sont pas modifiés. Ce n'est pas un parcours continu.\n",
+  "rom_sha256": "41d62f157ef47859eb52bd88718861f8fc22eca5e1d64d1846734589e32537dd",
+  "scene": "arene-01",
+  "frames": 9882,
+  "seconds": 165.45142268678077,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 18.517433059257186,
+      "callback": "CB2_OverworldBasic"
+    },
+    {
+      "seconds": 20.22518909184691,
+      "callback": "CB2_InitBattle"
+    },
+    {
+      "seconds": 20.32564532905807,
+      "callback": "CB2_HandleStartBattle"
+    },
+    {
+      "seconds": 20.811183808912013,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 20.811183808912013,
+      "trainer": 414
+    },
+    {
+      "seconds": 58.03021969564685,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 58.46553005689521,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 59.18546642357519,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 59.20220912977705,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 59.218951835978906,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 59.72123302203471,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 90.44409890244786,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 90.87940926369622,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 91.59934563037619,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 91.61608833657806,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 91.63283104277991,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 92.13511222883572,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 123.47745823871769,
+      "callback": "CB2_ReturnToFieldContinueScriptPlayMapMusic"
+    },
+    {
+      "seconds": 123.49420094491954,
+      "callback": "CB2_ReturnToFieldLocal"
+    },
+    {
+      "seconds": 123.67837071314001,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "checks": {
+    "script_finished": true,
+    "controls_unlocked": true,
+    "native_player_moved": true,
+    "native_start_menu": true
+  },
+  "map": "PewterCity_Gym",
+  "entry_script": "PewterCity_Gym_EventScript_Brock",
+  "prepared_flags": [],
+  "prepared_vars": [],
+  "prepared_party_level": 100,
+  "native_battles": true,
+  "complete": true
+}

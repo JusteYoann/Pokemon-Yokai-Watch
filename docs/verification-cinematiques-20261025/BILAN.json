@@ -1,0 +1,263 @@
+{
+  "passed": true,
+  "scope": "Rejoue les scènes existantes sans nouvelle vidéo puis vérifie START et les déplacements.\nChaque scène utilise une partie isolée et les prérequis documentés du pilote cinéma.\nLes équipes ennemies et résultats ne sont pas modifiés. Ce n'est pas un parcours continu.\n",
+  "scenes": [
+    {
+      "scene": "01-chen-depart",
+      "passed": true
+    },
+    {
+      "scene": "01b-choix-partenaire",
+      "passed": true
+    },
+    {
+      "scene": "01c-matt-laboratoire",
+      "passed": true
+    },
+    {
+      "scene": "01d-medallium",
+      "passed": true
+    },
+    {
+      "scene": "01e-tutoriel-capture",
+      "passed": true
+    },
+    {
+      "scene": "02-argenta",
+      "passed": true
+    },
+    {
+      "scene": "02b-matt-route22",
+      "passed": true
+    },
+    {
+      "scene": "02c-matt-azuria",
+      "passed": true
+    },
+    {
+      "scene": "02d-chaussures",
+      "passed": true
+    },
+    {
+      "scene": "02e-fossiles",
+      "passed": true
+    },
+    {
+      "scene": "03-ariane-rencontre",
+      "passed": true
+    },
+    {
+      "scene": "03b-matt-oceane",
+      "passed": true
+    },
+    {
+      "scene": "03c-capitaine",
+      "passed": true
+    },
+    {
+      "scene": "03d-depart-oceane",
+      "passed": true
+    },
+    {
+      "scene": "04-enquete-entrepot",
+      "passed": true
+    },
+    {
+      "scene": "05-zombie-night",
+      "passed": true
+    },
+    {
+      "scene": "06-cramois-rencontre",
+      "passed": true
+    },
+    {
+      "scene": "07-yopple-liberation",
+      "passed": true
+    },
+    {
+      "scene": "07b-matt-yopple",
+      "passed": true
+    },
+    {
+      "scene": "07c-matt-route22",
+      "passed": true
+    },
+    {
+      "scene": "08-finale",
+      "passed": true
+    },
+    {
+      "scene": "09-terreur",
+      "passed": true
+    },
+    {
+      "scene": "10-enma-postgame",
+      "passed": true
+    },
+    {
+      "scene": "10b-chen-jibanyan",
+      "passed": true
+    },
+    {
+      "scene": "11-nyada-premiere-quete",
+      "passed": true
+    },
+    {
+      "scene": "12-nyada-retour-amis",
+      "passed": true
+    },
+    {
+      "scene": "13-alizon-quete-oni",
+      "passed": true
+    },
+    {
+      "scene": "14-alizon-rendez-vous",
+      "passed": true
+    },
+    {
+      "scene": "16-nyada-seconde-quete",
+      "passed": true
+    },
+    {
+      "scene": "17-demophage",
+      "passed": true
+    },
+    {
+      "scene": "18-nyada-sommet",
+      "passed": true
+    },
+    {
+      "scene": "19-scientifique-lavanville",
+      "passed": true
+    },
+    {
+      "scene": "20-scientifique-carmin",
+      "passed": true
+    },
+    {
+      "scene": "21-scientifique-yopple",
+      "passed": true
+    },
+    {
+      "scene": "21b-chen-invitation",
+      "passed": true
+    },
+    {
+      "scene": "22-yoann",
+      "passed": true
+    },
+    {
+      "scene": "23-leo-transformation",
+      "passed": true
+    },
+    {
+      "scene": "23b-leo-separateur",
+      "passed": true
+    },
+    {
+      "scene": "24-repaire-morleone",
+      "passed": true
+    },
+    {
+      "scene": "25-champion-don-exil",
+      "passed": true
+    },
+    {
+      "scene": "26-lorelei-grotte",
+      "passed": true
+    },
+    {
+      "scene": "27-perdue-sauvetage",
+      "passed": true
+    },
+    {
+      "scene": "28-depart-sevii",
+      "passed": true
+    },
+    {
+      "scene": "28b-motards-argument",
+      "passed": true
+    },
+    {
+      "scene": "28c-motards-depart",
+      "passed": true
+    },
+    {
+      "scene": "29-retour-sevii",
+      "passed": true
+    },
+    {
+      "scene": "30-saphir-vol",
+      "passed": true
+    },
+    {
+      "scene": "31-entrepot-admin1",
+      "passed": true
+    },
+    {
+      "scene": "32-entrepot-admin2",
+      "passed": true
+    },
+    {
+      "scene": "33-entrepot-scientifique",
+      "passed": true
+    },
+    {
+      "scene": "34-celio-rubis",
+      "passed": true
+    },
+    {
+      "scene": "35-celio-saphir",
+      "passed": true
+    },
+    {
+      "scene": "arene-01",
+      "passed": true
+    },
+    {
+      "scene": "arene-02",
+      "passed": true
+    },
+    {
+      "scene": "arene-03",
+      "passed": true
+    },
+    {
+      "scene": "arene-04",
+      "passed": true
+    },
+    {
+      "scene": "arene-05",
+      "passed": true
+    },
+    {
+      "scene": "arene-06",
+      "passed": true
+    },
+    {
+      "scene": "arene-07",
+      "passed": true
+    },
+    {
+      "scene": "arene-08",
+      "passed": true
+    },
+    {
+      "scene": "conseil-01",
+      "passed": true
+    },
+    {
+      "scene": "conseil-02",
+      "passed": true
+    },
+    {
+      "scene": "conseil-03",
+      "passed": true
+    },
+    {
+      "scene": "conseil-04",
+      "passed": true
+    }
+  ],
+  "rom_sha256": "41d62f157ef47859eb52bd88718861f8fc22eca5e1d64d1846734589e32537dd"
+}

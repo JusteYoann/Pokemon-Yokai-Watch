@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "scope": "Rejoue les scènes existantes sans nouvelle vidéo puis vérifie START et les déplacements.\nChaque scène utilise une partie isolée et les prérequis documentés du pilote cinéma.\nLes équipes ennemies et résultats ne sont pas modifiés. Ce n'est pas un parcours continu.\n",
+  "rom_sha256": "41d62f157ef47859eb52bd88718861f8fc22eca5e1d64d1846734589e32537dd",
+  "scene": "01b-choix-partenaire",
+  "frames": 2361,
+  "seconds": 39.52952934259152,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 21.313464994967813,
+      "callback": "CB2_LoadNamingScreen"
+    },
+    {
+      "seconds": 21.480892056986413,
+      "callback": "CB2_NamingScreen"
+    },
+    {
+      "seconds": 25.59959778264398,
+      "callback": "ChangePokemonNickname_CB"
+    },
+    {
+      "seconds": 25.61634048884584,
+      "callback": "CB2_ReturnToFieldLocal"
+    },
+    {
+      "seconds": 25.8005102570663,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "checks": {
+    "script_finished": true,
+    "controls_unlocked": true,
+    "native_player_moved": true,
+    "native_start_menu": true
+  },
+  "map": "PalletTown_ProfessorOaksLab",
+  "entry_script": "PalletTown_ProfessorOaksLab_EventScript_BulbasaurBall",
+  "prepared_flags": [],
+  "prepared_vars": [
+    [
+      16469,
+      2
+    ]
+  ],
+  "prepared_party_level": 100,
+  "native_battles": true,
+  "complete": true
+}

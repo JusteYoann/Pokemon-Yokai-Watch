@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "scene": "02-argenta",
+  "rom_sha256": "41d62f157ef47859eb52bd88718861f8fc22eca5e1d64d1846734589e32537dd",
+  "checks": {
+    "real_Route2_entries": 8,
+    "both_genders": true,
+    "speech_finished": true,
+    "controls_menu_and_building_return": true
+  },
+  "proofs": [
+    "docs/verification-cinematiques-20261025/argenta-0/TEST_MGBA.json",
+    "docs/verification-cinematiques-20261025/argenta-1/TEST_MGBA.json"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "scope": "Rejoue les scènes existantes sans nouvelle vidéo puis vérifie START et les déplacements.\nChaque scène utilise une partie isolée et les prérequis documentés du pilote cinéma.\nLes équipes ennemies et résultats ne sont pas modifiés. Ce n'est pas un parcours continu.\n",
+  "rom_sha256": "41d62f157ef47859eb52bd88718861f8fc22eca5e1d64d1846734589e32537dd",
+  "scene": "27-perdue-sauvetage",
+  "frames": 6448,
+  "seconds": 107.95696958959344,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 27.776149588885783,
+      "callback": "CB2_OverworldBasic"
+    },
+    {
+      "seconds": 28.981624435419704,
+      "callback": "CB2_InitBattle"
+    },
+    {
+      "seconds": 29.115566085034583,
+      "callback": "CB2_HandleStartBattle"
+    },
+    {
+      "seconds": 29.483905621475504,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 29.483905621475504,
+      "trainer": 0
+    },
+    {
+      "seconds": 57.09262814834268,
+      "callback": "CB2_ReturnToFieldContinueScriptPlayMapMusic"
+    },
+    {
+      "seconds": 57.109370854544544,
+      "callback": "CB2_ReturnToFieldLocal"
+    },
+    {
+      "seconds": 57.29354062276501,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 84.45021008218197,
+      "callback": "CB2_LoadMap"
+    },
+    {
+      "seconds": 84.46695278838382,
+      "callback": "CB2_DoChangeMap"
+    },
+    {
+      "seconds": 84.48369549458569,
+      "callback": "CB2_LoadMap2"
+    },
+    {
+      "seconds": 84.61763714420057,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "checks": {
+    "script_finished": true,
+    "controls_unlocked": true,
+    "native_player_moved": true,
+    "native_start_menu": true
+  },
+  "map": "ThreeIsland_BerryForest",
+  "entry_script": "ThreeIsland_BerryForest_EventScript_Lostelle",
+  "prepared_flags": [],
+  "prepared_vars": [],
+  "prepared_party_level": 100,
+  "native_battles": true,
+  "complete": true
+}

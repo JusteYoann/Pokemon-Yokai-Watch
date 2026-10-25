@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "rom_sha256": "41d62f157ef47859eb52bd88718861f8fc22eca5e1d64d1846734589e32537dd",
+  "title_rise_frames": 419,
+  "title_rise_seconds": 7.015194006111088,
+  "start_A_blocked_before_end": true,
+  "menu_B_return_and_second_intro": true,
+  "fog_sprites": 15,
+  "fog_movement_visible_in_render": true,
+  "white_fog_alpha": "3/16, fond 13/16, identique Terr’heure",
+  "samples": [
+    {
+      "tick": 1,
+      "bg1_y": 416,
+      "alpha": 3331
+    },
+    {
+      "tick": 120,
+      "bg1_y": 443,
+      "alpha": 3331
+    },
+    {
+      "tick": 240,
+      "bg1_y": 470,
+      "alpha": 3331
+    },
+    {
+      "tick": 418,
+      "bg1_y": 511,
+      "alpha": 3331
+    },
+    {
+      "tick": 419,
+      "bg1_y": 0,
+      "alpha": 3331
+    },
+    {
+      "tick": 480,
+      "bg1_y": 0,
+      "alpha": 3331
+    }
+  ],
+  "results": [
+    {
+      "gender": 0,
+      "new_game": true,
+      "native_save_continue": true,
+      "name_gender_map_preserved": true
+    },
+    {
+      "gender": 1,
+      "new_game": true,
+      "native_save_continue": true,
+      "name_gender_map_preserved": true
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "scope": "Rejoue les scènes existantes sans nouvelle vidéo puis vérifie START et les déplacements.\nChaque scène utilise une partie isolée et les prérequis documentés du pilote cinéma.\nLes équipes ennemies et résultats ne sont pas modifiés. Ce n'est pas un parcours continu.\n",
+  "rom_sha256": "41d62f157ef47859eb52bd88718861f8fc22eca5e1d64d1846734589e32537dd",
+  "scene": "20-scientifique-carmin",
+  "frames": 6889,
+  "seconds": 115.34050302461371,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 30.572181524596406,
+      "callback": "CB2_OverworldBasic"
+    },
+    {
+      "seconds": 32.27993755718613,
+      "callback": "CB2_InitBattle"
+    },
+    {
+      "seconds": 32.380393794397285,
+      "callback": "CB2_HandleStartBattle"
+    },
+    {
+      "seconds": 32.89941768665495,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 32.89941768665495,
+      "trainer": 753
+    },
+    {
+      "seconds": 79.27671386580722,
+      "callback": "CB2_ReturnToFieldContinueScriptPlayMapMusic"
+    },
+    {
+      "seconds": 79.29345657200908,
+      "callback": "CB2_ReturnToFieldLocal"
+    },
+    {
+      "seconds": 79.47762634022953,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "checks": {
+    "script_finished": true,
+    "controls_unlocked": true,
+    "native_player_moved": true,
+    "native_start_menu": true
+  },
+  "map": "VermilionCity",
+  "entry_script": "PG_ScientistPort",
+  "prepared_flags": [
+    2092,
+    "FLAG_PG_SCIENTIST_1"
+  ],
+  "prepared_vars": [
+    [
+      16628,
+      3
+    ]
+  ],
+  "prepared_party_level": 100,
+  "native_battles": true,
+  "complete": true
+}

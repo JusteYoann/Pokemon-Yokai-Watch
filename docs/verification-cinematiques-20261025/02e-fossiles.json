@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "scope": "Rejoue les scènes existantes sans nouvelle vidéo puis vérifie START et les déplacements.\nChaque scène utilise une partie isolée et les prérequis documentés du pilote cinéma.\nLes équipes ennemies et résultats ne sont pas modifiés. Ce n'est pas un parcours continu.\n",
+  "rom_sha256": "41d62f157ef47859eb52bd88718861f8fc22eca5e1d64d1846734589e32537dd",
+  "scene": "02e-fossiles",
+  "frames": 6458,
+  "seconds": 108.12439665161205,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 7.316562610212831,
+      "callback": "CB2_OverworldBasic"
+    },
+    {
+      "seconds": 8.806663462178374,
+      "callback": "CB2_InitBattle"
+    },
+    {
+      "seconds": 8.940605111793253,
+      "callback": "CB2_HandleStartBattle"
+    },
+    {
+      "seconds": 9.459629004050914,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 9.459629004050914,
+      "trainer": 170
+    },
+    {
+      "seconds": 43.02875493878027,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 43.547778831037924,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 44.18400166670861,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 44.200744372910464,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 44.217487079112324,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 44.73651097136999,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 70.08496816098607,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 70.60399205324373,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 71.24021488891441,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 71.25695759511626,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 71.27370030131813,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 71.77598148737393,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 101.24314440264757,
+      "callback": "CB2_ReturnToFieldContinueScriptPlayMapMusic"
+    },
+    {
+      "seconds": 101.25988710884943,
+      "callback": "CB2_ReturnToFieldLocal"
+    },
+    {
+      "seconds": 101.4440568770699,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "checks": {
+    "script_finished": true,
+    "controls_unlocked": true,
+    "native_player_moved": true,
+    "native_start_menu": true
+  },
+  "map": "MtMoon_B2F",
+  "entry_script": "MtMoon_B2F_EventScript_MiguelTrigger",
+  "prepared_flags": [],
+  "prepared_vars": [],
+  "prepared_party_level": 100,
+  "native_battles": true,
+  "complete": true
+}

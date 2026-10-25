@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "scope": "Rejoue les scènes existantes sans nouvelle vidéo puis vérifie START et les déplacements.\nChaque scène utilise une partie isolée et les prérequis documentés du pilote cinéma.\nLes équipes ennemies et résultats ne sont pas modifiés. Ce n'est pas un parcours continu.\n",
+  "rom_sha256": "41d62f157ef47859eb52bd88718861f8fc22eca5e1d64d1846734589e32537dd",
+  "scene": "19-scientifique-lavanville",
+  "frames": 6029,
+  "seconds": 100.94177569101409,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 29.768531626907127,
+      "callback": "CB2_OverworldBasic"
+    },
+    {
+      "seconds": 31.476287659496847,
+      "callback": "CB2_InitBattle"
+    },
+    {
+      "seconds": 31.576743896708006,
+      "callback": "CB2_HandleStartBattle"
+    },
+    {
+      "seconds": 32.09576778896567,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 32.09576778896567,
+      "trainer": 752
+    },
+    {
+      "seconds": 77.40153077119889,
+      "callback": "CB2_ReturnToFieldContinueScriptPlayMapMusic"
+    },
+    {
+      "seconds": 77.41827347740076,
+      "callback": "CB2_ReturnToFieldLocal"
+    },
+    {
+      "seconds": 77.60244324562122,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "checks": {
+    "script_finished": true,
+    "controls_unlocked": true,
+    "native_player_moved": true,
+    "native_start_menu": true
+  },
+  "map": "LavenderTown",
+  "entry_script": "PG_ScientistLav",
+  "prepared_flags": [
+    2092,
+    802
+  ],
+  "prepared_vars": [
+    [
+      16627,
+      1
+    ]
+  ],
+  "prepared_party_level": 100,
+  "native_battles": true,
+  "complete": true
+}

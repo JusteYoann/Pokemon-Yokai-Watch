@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "scope": "Rejoue les scènes existantes sans nouvelle vidéo puis vérifie START et les déplacements.\nChaque scène utilise une partie isolée et les prérequis documentés du pilote cinéma.\nLes équipes ennemies et résultats ne sont pas modifiés. Ce n'est pas un parcours continu.\n",
+  "rom_sha256": "41d62f157ef47859eb52bd88718861f8fc22eca5e1d64d1846734589e32537dd",
+  "scene": "02b-matt-route22",
+  "frames": 7351,
+  "seconds": 123.07563328987305,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 20.71072757170085,
+      "callback": "CB2_OverworldBasic"
+    },
+    {
+      "seconds": 22.418483604290575,
+      "callback": "CB2_InitBattle"
+    },
+    {
+      "seconds": 22.518939841501734,
+      "callback": "CB2_HandleStartBattle"
+    },
+    {
+      "seconds": 22.970992908951956,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 22.970992908951956,
+      "trainer": 331
+    },
+    {
+      "seconds": 59.36963619179565,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 59.80494655304401,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 60.52488291972399,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 60.54162562592585,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 60.55836833212771,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 61.06064951818351,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 104.4577439934047,
+      "callback": "CB2_ReturnToFieldContinueScriptPlayMapMusic"
+    },
+    {
+      "seconds": 104.47448669960656,
+      "callback": "CB2_ReturnToFieldLocal"
+    },
+    {
+      "seconds": 104.65865646782702,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "checks": {
+    "script_finished": true,
+    "controls_unlocked": true,
+    "native_player_moved": true,
+    "native_start_menu": true
+  },
+  "map": "Route22",
+  "entry_script": "Route22_EventScript_EarlyRivalTriggerTop",
+  "prepared_flags": [],
+  "prepared_vars": [],
+  "prepared_party_level": 100,
+  "native_battles": true,
+  "complete": true
+}

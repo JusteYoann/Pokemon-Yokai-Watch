@@ -1,0 +1,131 @@
+{
+  "passed": true,
+  "scope": "Rejoue les scènes existantes sans nouvelle vidéo puis vérifie START et les déplacements.\nChaque scène utilise une partie isolée et les prérequis documentés du pilote cinéma.\nLes équipes ennemies et résultats ne sont pas modifiés. Ce n'est pas un parcours continu.\n",
+  "rom_sha256": "41d62f157ef47859eb52bd88718861f8fc22eca5e1d64d1846734589e32537dd",
+  "scene": "arene-04",
+  "frames": 11642,
+  "seconds": 194.9185856020544,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 16.106483366189345,
+      "callback": "CB2_OverworldBasic"
+    },
+    {
+      "seconds": 17.814239398779065,
+      "callback": "CB2_InitBattle"
+    },
+    {
+      "seconds": 17.914695635990228,
+      "callback": "CB2_HandleStartBattle"
+    },
+    {
+      "seconds": 18.601146590266488,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 18.601146590266488,
+      "trainer": 417
+    },
+    {
+      "seconds": 53.476203608740924,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 53.91151396998928,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 54.63145033666926,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 54.64819304287112,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 54.66493574907298,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 55.167216935128785,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 80.80030013017648,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 81.23561049142484,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 81.95554685810482,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 81.97228956430668,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 81.98903227050855,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 82.49131345656434,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 108.66016325007156,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 109.09547361131993,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 109.8154099779999,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 109.83215268420177,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 109.84889539040363,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 110.36791928266129,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 151.33732135861277,
+      "callback": "CB2_ReturnToFieldContinueScriptPlayMapMusic"
+    },
+    {
+      "seconds": 151.35406406481462,
+      "callback": "CB2_ReturnToFieldLocal"
+    },
+    {
+      "seconds": 151.5382338330351,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "checks": {
+    "script_finished": true,
+    "controls_unlocked": true,
+    "native_player_moved": true,
+    "native_start_menu": true
+  },
+  "map": "PokemonTower_7F",
+  "entry_script": "PokemonTower_7F_EventScript_MrFuji",
+  "prepared_flags": [],
+  "prepared_vars": [],
+  "prepared_party_level": 100,
+  "native_battles": true,
+  "complete": true
+}

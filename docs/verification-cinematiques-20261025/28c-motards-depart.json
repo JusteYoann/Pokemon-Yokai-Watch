@@ -1,0 +1,203 @@
+{
+  "passed": true,
+  "scope": "Rejoue les scènes existantes sans nouvelle vidéo puis vérifie START et les déplacements.\nChaque scène utilise une partie isolée et les prérequis documentés du pilote cinéma.\nLes équipes ennemies et résultats ne sont pas modifiés. Ce n'est pas un parcours continu.\n",
+  "rom_sha256": "41d62f157ef47859eb52bd88718861f8fc22eca5e1d64d1846734589e32537dd",
+  "scene": "28c-motards-depart",
+  "frames": 19720,
+  "seconds": 330.1661663006797,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 13.74576179172708,
+      "callback": "CB2_OverworldBasic"
+    },
+    {
+      "seconds": 15.453517824316803,
+      "callback": "CB2_InitBattle"
+    },
+    {
+      "seconds": 15.553974061527963,
+      "callback": "CB2_HandleStartBattle"
+    },
+    {
+      "seconds": 16.123226072391205,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 16.123226072391205,
+      "trainer": 527
+    },
+    {
+      "seconds": 52.9404370102814,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 53.37574737152976,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 54.09568373820974,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 54.112426444411604,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 54.129169150613464,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 54.64819304287112,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 87.31321284270003,
+      "callback": "CB2_ReturnToFieldContinueScriptPlayMapMusic"
+    },
+    {
+      "seconds": 87.32995554890189,
+      "callback": "CB2_ReturnToFieldLocal"
+    },
+    {
+      "seconds": 87.53086802332422,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 97.05746785218257,
+      "callback": "CB2_OverworldBasic"
+    },
+    {
+      "seconds": 98.76522388477228,
+      "callback": "CB2_InitBattle"
+    },
+    {
+      "seconds": 98.86568012198344,
+      "callback": "CB2_HandleStartBattle"
+    },
+    {
+      "seconds": 99.33447589563553,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 99.33447589563553,
+      "trainer": 528
+    },
+    {
+      "seconds": 147.31907187016637,
+      "callback": "CB2_ReturnToFieldContinueScriptPlayMapMusic"
+    },
+    {
+      "seconds": 147.33581457636822,
+      "callback": "CB2_ReturnToFieldLocal"
+    },
+    {
+      "seconds": 147.53672705079055,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 164.56405925808218,
+      "callback": "CB2_OverworldBasic"
+    },
+    {
+      "seconds": 166.27181529067192,
+      "callback": "CB2_InitBattle"
+    },
+    {
+      "seconds": 166.37227152788307,
+      "callback": "CB2_HandleStartBattle"
+    },
+    {
+      "seconds": 166.84106730153516,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 166.84106730153516,
+      "trainer": 529
+    },
+    {
+      "seconds": 214.28989667760646,
+      "callback": "CB2_ReturnToFieldContinueScriptPlayMapMusic"
+    },
+    {
+      "seconds": 214.30663938380832,
+      "callback": "CB2_ReturnToFieldLocal"
+    },
+    {
+      "seconds": 214.50755185823064,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 233.9290910523883,
+      "callback": "CB2_OverworldBasic"
+    },
+    {
+      "seconds": 235.636847084978,
+      "callback": "CB2_InitBattle"
+    },
+    {
+      "seconds": 235.73730332218915,
+      "callback": "CB2_HandleStartBattle"
+    },
+    {
+      "seconds": 236.3065553330524,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 236.3065553330524,
+      "trainer": 742
+    },
+    {
+      "seconds": 273.40839227637423,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 273.8437026376226,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 274.56363900430256,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 274.5803817105044,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 274.59712441670627,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 275.11614830896394,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 323.31839946411895,
+      "callback": "CB2_ReturnToFieldContinueScriptPlayMapMusic"
+    },
+    {
+      "seconds": 323.3351421703208,
+      "callback": "CB2_ReturnToFieldLocal"
+    },
+    {
+      "seconds": 323.5360546447431,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "checks": {
+    "script_finished": true,
+    "controls_unlocked": true,
+    "native_player_moved": true,
+    "native_start_menu": true
+  },
+  "map": "ThreeIsland",
+  "entry_script": "ThreeIsland_EventScript_BattleBikersTriggerMid",
+  "prepared_flags": [],
+  "prepared_vars": [],
+  "prepared_party_level": 100,
+  "native_battles": true,
+  "complete": true
+}
