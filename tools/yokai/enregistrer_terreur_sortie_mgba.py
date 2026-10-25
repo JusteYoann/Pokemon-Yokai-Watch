@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Continuous mGBA recording: normal cave, native trigger, escape door and ten seconds after return.
+"""Continuous mGBA recording: native Terror Time, escape or battle, and ten seconds after return.
 Only the starting map, party and encounter eligibility are prepared. Once the
 recording starts, only controller input is used; no warp, timer edit or battle
 outcome is injected. Raw native video and audio are encoded without cuts.
@@ -14,7 +14,8 @@ from mgba_rpc import ROOT,BATCH
 
 P=ROOT/'docs'/os.environ.get('TH_VIDEO_DIR','terre-heure-progressive-20261025');P.mkdir(parents=True,exist_ok=True)
 work=Path(tempfile.mkdtemp(prefix='terreur-video-'))
-demo_map=os.environ.get('TH_DEMO_MAP','MtMoon_1F');demo_x,demo_y=map(int,os.environ.get('TH_DEMO_START','20,27').split(','));demo_tier=int(os.environ.get('TH_DEMO_TIER','0'));demo_level=int(os.environ.get('TH_DEMO_LEVEL','85'));hunt=os.environ.get('TH_DEMO_HUNT')=='1';trigger_key=int(os.environ.get('TH_DEMO_KEY','6'));escape_only=os.environ.get('TH_DEMO_ESCAPE_ONLY')=='1'
+demo_map=os.environ.get('TH_DEMO_MAP','MtMoon_1F');demo_x,demo_y=map(int,os.environ.get('TH_DEMO_START','20,27').split(','));demo_tier=int(os.environ.get('TH_DEMO_TIER','0'));demo_level=int(os.environ.get('TH_DEMO_LEVEL','85'));hunt=os.environ.get('TH_DEMO_HUNT')=='1';trigger_key=int(os.environ.get('TH_DEMO_KEY','6'));escape_only=os.environ.get('TH_DEMO_ESCAPE_ONLY')=='1';defeat_demo=os.environ.get('TH_DEMO_DEFEAT')=='1'
+assert not (escape_only and defeat_demo)
 assert demo_tier in (0,1,2) and 1<=demo_level<=100
 r=new_game();th=r.symbols['sTh'];checks=[];events={};frames=0;alerts=[];last_locked=False
 class Geometry(C.Structure):_fields_=[('w',C.c_uint),('h',C.c_uint),('mw',C.c_uint),('mh',C.c_uint),('aspect',C.c_float)]
@@ -110,7 +111,8 @@ encoder=None;audio=None;recording=None;log=None
 try:
  party=r.symbols['gPlayerParty'];r.call('CreateMon',party,150,demo_level,31,1,12345,0,0);r.write(r.symbols['gPlayerPartyCount'],b'\1')
  # Keep two natural level-up moves: Swift first (level 33), Recover second (44).
- r.call('SetMonMoveSlot',party,129,0);r.call('SetMonMoveSlot',party,105,1)
+ if not defeat_demo:
+  r.call('SetMonMoveSlot',party,129,0);r.call('SetMonMoveSlot',party,105,1)
  sb=r.u32(r.symbols['gSaveBlock1Ptr']);r.write(sb+0xee0+0x500//8,b'\xff'*96);r.call('VarSet',0x40f9,1);r.call('VarSet',0x40fa,0x101);r.call('FlagSet',0x82f)
  groups=json.loads((ROOT/'data/maps/map_groups.json').read_text());maps={n:(i,j) for i,g in enumerate(groups['group_order']) for j,n in enumerate(groups[g])}
 
@@ -166,6 +168,7 @@ try:
   if escape_only and active and phase==2 and r.symbols['TerreHeure_EventScript_Oni']<=script_ptr<r.symbols['TerreHeure_EventScript_Chest']:raise AssertionError(('Oni au contact',f/fps,actors()))
   if escape_only and battle:raise AssertionError(('Oni rencontré pendant le parcours de fuite',f/fps,actors()))
   if battle and 'combat_oni' not in events:events['combat_oni']=f/fps
+  if defeat_demo and 'combat_oni' in events and not battle and r.read(r.symbols['gBattleOutcome'],1)==b'\2' and 'defaite_oni' not in events:events['defaite_oni']=f/fps
   if active and r.read(th+183,1)==b'\1' and 'victoire_oni' not in events:events['victoire_oni']=f/fps
   if not active and 'exploration' in events and field and not locked and not r.read(r.symbols['gPaletteFade']+7,1)[0]&0x80:
    if returned_at is None:returned_at=f;events['sortie_controles_rendus']=f/fps;shot('sortie')
@@ -208,14 +211,19 @@ try:
   if f%600==0:print('VIDEO',round(f/fps,1),events,'NAV',current_floor(),actors().get(255),goal,sorted(r.keys),flush=True)
   if returned_at is not None and f-returned_at>=int(fps*10+1):break
  else:raise AssertionError('Sortie non atteinte dans le délai de capture')
- assert all(k in events for k in ('declenchement','transformation','texte_intro','exploration','interaction_porte','sortie_controles_rendus')),events
+ required=('declenchement','transformation','texte_intro','exploration','combat_oni','defaite_oni','sortie_controles_rendus') if defeat_demo else ('declenchement','transformation','texte_intro','exploration','interaction_porte','sortie_controles_rendus')
+ assert all(k in events for k in required),events
+ if defeat_demo:
+  assert 'victoire_oni' not in events and 'interaction_porte' not in events
+  assert r.read(r.symbols['gBattleOutcome'],1)==b'\2'
+  hp,maxhp=struct.unpack('<HH',r.read(party+86,4));assert hp==maxhp and hp>0,(hp,maxhp)
  assert (frames-1-returned_at)/fps>=10
  r.lib.retro_set_audio_sample_batch(r.callbacks[3]);audio.close();audio=None
  encoder.stdin.close();assert encoder.wait()==0,(work/'ffmpeg.log').read_text();encoder=None;log.close();log=None
- output=P/'declenchement-porte-sortie-mgba.mp4'
+ output=P/('defaite-oni-mgba.mp4' if defeat_demo else 'declenchement-porte-sortie-mgba.mp4')
  subprocess.run(['ffmpeg','-y','-i',str(work/'video.mp4'),'-i',str(work/'audio.wav'),'-c:v','copy','-c:a','aac','-b:a','192k','-ar','48000','-movflags','+faststart','-shortest',str(output)],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,check=True)
  info=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(output)],text=True))
- metadata={'rom_sha256':hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),'video':output.name,'video_sha256':hashlib.sha256(output.read_bytes()).hexdigest(),'scope':__doc__,'preparation':{'oni':('Gargaros','Ogralos','Orqanos')[demo_tier],'grotte_depart':demo_map,'tirage_porte_natif_seed':chosen[0],'etage_porte':floors[chosen[2]]['map'],'distance_minimale_pas':chosen[3],'equipe':f'Seigneur Enma niveau {demo_level}, statistiques naturelles, capacités naturelles de montée en niveau; Météores placé en premier. Aucun résultat de combat imposé.','depart':'Visite réussie préparée juste avant son dernier pas programmé. Équipe et position préparées avant capture. Aucune mutation RAM ni téléportation pendant la vidéo.'},'frames':frames,'fps':fps,'duree_secondes':float(info['format']['duration']),'taille_octets':output.stat().st_size,'evenements_secondes':events,'alertes':alerts,'objectif_fuite_sans_combat':escape_only,'chronometre':'Durée normale de 360 secondes, jamais modifiée pendant la capture. Sortie par interaction réelle avec la porte; chronomètre non modifié.','montage':'Continu, sans coupe ni accélération. Image agrandie x3 au plus proche voisin.','audio':'Sortie directe mGBA, encodée en AAC 48 kHz pour le MP4. Aucune OST modifiée.'}
+ metadata={'rom_sha256':hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),'video':output.name,'video_sha256':hashlib.sha256(output.read_bytes()).hexdigest(),'scope':__doc__,'preparation':{'oni':('Gargaros','Ogralos','Orqanos')[demo_tier],'grotte_depart':demo_map,'tirage_porte_natif_seed':chosen[0],'etage_porte':floors[chosen[2]]['map'],'distance_minimale_pas':chosen[3],'equipe':f'Seigneur Enma niveau {demo_level}, statistiques naturelles et capacités naturelles'+('; Météores placé en premier.' if not defeat_demo else ' de début de partie, volontairement trop faible face au boss.')+' Aucun résultat de combat imposé.','depart':'Visite réussie préparée juste avant son dernier pas programmé. Équipe et position préparées avant capture. Aucune mutation RAM ni téléportation pendant la vidéo.'},'frames':frames,'fps':fps,'duree_secondes':float(info['format']['duration']),'taille_octets':output.stat().st_size,'evenements_secondes':events,'alertes':alerts,'objectif_fuite_sans_combat':escape_only,'objectif_defaite_reelle':defeat_demo,'chronometre':'Durée normale de 360 secondes, jamais modifiée pendant la capture. '+('Retour après combat perdu, équipe rétablie par le jeu.' if defeat_demo else 'Sortie par interaction réelle avec la porte.'),'montage':'Continu, sans coupe ni accélération. Image agrandie x3 au plus proche voisin.','audio':'Sortie directe mGBA, encodée en AAC 48 kHz pour le MP4. Aucune OST modifiée.'}
  (P/'ENREGISTREMENT_SORTIE.json').write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+'\n');print(json.dumps(metadata,ensure_ascii=False,indent=2),flush=True)
 except BaseException as error:
  (P/'ECHEC.json').write_text(json.dumps({'erreur':str(error),'frames':frames,'evenements':events,'alertes':alerts,'rom_sha256':hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest()},ensure_ascii=False,indent=2)+'\n');raise

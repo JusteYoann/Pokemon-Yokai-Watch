@@ -1,0 +1,53 @@
+{
+  "rom_sha256": "53c62090c8838a2eff68d6abc019ec9b3f13f44daa1ba679fdb6079faefb101b",
+  "video": "defaite-gargaros-mont-selenite-mgba.mp4",
+  "video_sha256": "9c37fe0bdff3045ba3b7380f9c897673d797eac04f63da66fb4b1a1fea1f7800",
+  "scope": "Continuous mGBA recording: native Terror Time, escape or battle, and ten seconds after return.\nOnly the starting map, party and encounter eligibility are prepared. Once the\nrecording starts, only controller input is used; no warp, timer edit or battle\noutcome is injected. Raw native video and audio are encoded without cuts.\n",
+  "preparation": {
+    "oni": "Gargaros",
+    "grotte_depart": "MtMoon_1F",
+    "tirage_porte_natif_seed": 1,
+    "etage_porte": "MtMoon_B1F",
+    "distance_minimale_pas": 170,
+    "equipe": "Seigneur Enma niveau 5, statistiques naturelles et capacités naturelles de début de partie, volontairement trop faible face au boss. Aucun résultat de combat imposé.",
+    "depart": "Visite réussie préparée juste avant son dernier pas programmé. Équipe et position préparées avant capture. Aucune mutation RAM ni téléportation pendant la vidéo."
+  },
+  "frames": 5261,
+  "fps": 59.727500915527344,
+  "duree_secondes": 88.083,
+  "taille_octets": 12112968,
+  "evenements_secondes": {
+    "declenchement": 2.645347579893884,
+    "transformation": 8.957347817995114,
+    "materialisation_patrouilles": 14.063873209562422,
+    "texte_intro": 15.135406406481463,
+    "exploration": 23.473274095007756,
+    "combat_oni": 32.56456356261775,
+    "defaite_oni": 69.08040578887446,
+    "sortie_controles_rendus": 78.05449631307144
+  },
+  "alertes": [
+    {
+      "secondes": 25.8005102570663,
+      "etage": 0,
+      "distance_oni": 1,
+      "regards": 1
+    },
+    {
+      "secondes": 28.295173481143443,
+      "etage": 0,
+      "distance_oni": 1,
+      "regards": 256
+    }
+  ],
+  "objectif_fuite_sans_combat": false,
+  "objectif_defaite_reelle": true,
+  "chronometre": "Durée normale de 360 secondes, jamais modifiée pendant la capture. Retour après combat perdu, équipe rétablie par le jeu.",
+  "montage": "Continu, sans coupe ni accélération. Image agrandie x3 au plus proche voisin.",
+  "audio": "Sortie directe mGBA, encodée en AAC 48 kHz pour le MP4. Aucune OST modifiée.",
+  "validations_natives": [
+    "Résultat B_OUTCOME_LOST (2) observé, aucune victoire injectée.",
+    "Retour à la grotte normale, commandes rendues puis au moins dix secondes enregistrées.",
+    "PV de l’équipe après retour égaux aux PV maximum et supérieurs à zéro."
+  ]
+}

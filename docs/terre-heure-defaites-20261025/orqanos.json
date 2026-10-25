@@ -1,0 +1,53 @@
+{
+  "rom_sha256": "53c62090c8838a2eff68d6abc019ec9b3f13f44daa1ba679fdb6079faefb101b",
+  "video": "defaite-orqanos-iles-ecume-mgba.mp4",
+  "video_sha256": "c110dd4d3abd24ac6bd8593a284d692f69ad5b51f9e790446c4e2a4bee684c52",
+  "scope": "Continuous mGBA recording: native Terror Time, escape or battle, and ten seconds after return.\nOnly the starting map, party and encounter eligibility are prepared. Once the\nrecording starts, only controller input is used; no warp, timer edit or battle\noutcome is injected. Raw native video and audio are encoded without cuts.\n",
+  "preparation": {
+    "oni": "Orqanos",
+    "grotte_depart": "SeafoamIslands_1F",
+    "tirage_porte_natif_seed": 1,
+    "etage_porte": "SeafoamIslands_B4F",
+    "distance_minimale_pas": 72,
+    "equipe": "Seigneur Enma niveau 5, statistiques naturelles et capacités naturelles de début de partie, volontairement trop faible face au boss. Aucun résultat de combat imposé.",
+    "depart": "Visite réussie préparée juste avant son dernier pas programmé. Équipe et position préparées avant capture. Aucune mutation RAM ni téléportation pendant la vidéo."
+  },
+  "frames": 7561,
+  "fps": 59.727500915527344,
+  "duree_secondes": 126.591602,
+  "taille_octets": 15786866,
+  "evenements_secondes": {
+    "declenchement": 2.611862167490164,
+    "transformation": 8.923862405591393,
+    "materialisation_patrouilles": 14.18107215297544,
+    "texte_intro": 15.252605349894482,
+    "exploration": 23.473274095007756,
+    "combat_oni": 34.74111536885955,
+    "defaite_oni": 107.58863005315253,
+    "sortie_controles_rendus": 116.5627205773495
+  },
+  "alertes": [
+    {
+      "secondes": 27.575237114463462,
+      "etage": 5,
+      "distance_oni": 2,
+      "regards": 2
+    },
+    {
+      "secondes": 29.919215982723866,
+      "etage": 5,
+      "distance_oni": 1,
+      "regards": 256
+    }
+  ],
+  "objectif_fuite_sans_combat": false,
+  "objectif_defaite_reelle": true,
+  "chronometre": "Durée normale de 360 secondes, jamais modifiée pendant la capture. Retour après combat perdu, équipe rétablie par le jeu.",
+  "montage": "Continu, sans coupe ni accélération. Image agrandie x3 au plus proche voisin.",
+  "audio": "Sortie directe mGBA, encodée en AAC 48 kHz pour le MP4. Aucune OST modifiée.",
+  "validations_natives": [
+    "Résultat B_OUTCOME_LOST (2) observé, aucune victoire injectée.",
+    "Retour à la grotte normale, commandes rendues puis au moins dix secondes enregistrées.",
+    "PV de l’équipe après retour égaux aux PV maximum et supérieurs à zéro."
+  ]
+}
