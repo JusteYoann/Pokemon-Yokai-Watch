@@ -1,0 +1,1149 @@
+{
+  "speed": 1,
+  "native_audio": true,
+  "chapters": [
+    {
+      "start_seconds": 0,
+      "name": "00-titre-introduction",
+      "title": "Titre et présentation du monde",
+      "source": "docs/cinematiques-compilation-20261025/00-titre-introduction.mp4",
+      "source_sha256": "eb68d32087b7179f1db4d5b4b962099b562fdae6c3a6c81a30ad930172329aab",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          119.308524
+        ]
+      ],
+      "seconds": 121.308
+    },
+    {
+      "start_seconds": 121.308,
+      "name": "01-chen-depart",
+      "title": "Le professeur Chen vient chercher Nathan",
+      "source": "docs/cinematiques-compilation-20261025/01-chen-depart.mp4",
+      "source_sha256": "ee2e022d3b8c8e2e7945f42caf872148510b1331c539c3db015559f8360bcef9",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          79.461
+        ]
+      ],
+      "seconds": 81.466667
+    },
+    {
+      "start_seconds": 202.77466700000002,
+      "name": "01b-choix-partenaire",
+      "title": "Le choix du premier partenaire",
+      "source": "docs/cinematiques-compilation-20261025/01b-choix-partenaire.mp4",
+      "source_sha256": "e373b3538e5d6026ab1c31747a05818d9c00eb9d45aae2b9fce0b28530971afa",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          39.529529
+        ]
+      ],
+      "seconds": 41.533333
+    },
+    {
+      "start_seconds": 244.30800000000002,
+      "name": "01c-matt-laboratoire",
+      "title": "Premier défi de Matt",
+      "source": "docs/cinematiques-compilation-20261025/01c-matt-laboratoire.mp4",
+      "source_sha256": "be64acd6e17a1bb26fdcfacf5b684f1dbb17f6a84b11c0e00ddd71c3d93a3304",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          19.894939365299273
+        ],
+        [
+          109.79866727179805,
+          121.418105
+        ]
+      ],
+      "seconds": 33.533333
+    },
+    {
+      "start_seconds": 277.841333,
+      "name": "01d-medallium",
+      "title": "Le colis et le Médallium",
+      "source": "docs/cinematiques-compilation-20261025/01d-medallium.mp4",
+      "source_sha256": "e00ac60e536080f0e47f1258004ed12c322c7776e739e4efe3952aaca89dec69",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          146.733077
+        ]
+      ],
+      "seconds": 148.733333
+    },
+    {
+      "start_seconds": 426.574666,
+      "name": "01e-tutoriel-capture",
+      "title": "La démonstration de capture",
+      "source": "docs/cinematiques-compilation-20261025/01e-tutoriel-capture.mp4",
+      "source_sha256": "405633ef33bc2e000518f61bc1e94a410b9cb7d12eeadc196012c4cb6252328c",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          41.27537518507452
+        ],
+        [
+          67.48984869969776,
+          92.051399
+        ]
+      ],
+      "seconds": 67.866667
+    },
+    {
+      "start_seconds": 494.441333,
+      "name": "02b-matt-route22",
+      "title": "Matt sur la Route 22",
+      "source": "docs/cinematiques-compilation-20261025/02b-matt-route22.mp4",
+      "source_sha256": "11e3eaf5bc68bfdf0848ab9121babbf9c8b53e6bea369850f8777186daff8d8f",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          32.41848360429057
+        ],
+        [
+          106.60081038724279,
+          125.219
+        ]
+      ],
+      "seconds": 53.066667
+    },
+    {
+      "start_seconds": 547.508,
+      "name": "02-argenta",
+      "title": "Le discours de Don Morléone, avec Wyatt",
+      "source": "docs/cinematiques-compilation-20261025/02-argenta.mp4",
+      "source_sha256": "04f9dc5de2e4dda02ce38290d302091fc4fc522d3530f0a06db0608e4bdada8e",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          127.44548
+        ]
+      ],
+      "seconds": 129.445
+    },
+    {
+      "start_seconds": 676.953,
+      "name": "arene-01",
+      "title": "Wyatt : premier Badge",
+      "source": "docs/cinematiques-compilation-20261025/arene-01.mp4",
+      "source_sha256": "f667342b75988377cf1f9b12328388cb7aa0b360f0684f7d54cd6667f825bf61",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          30.22518909184691
+        ],
+        [
+          120.26285864796056,
+          162.237
+        ]
+      ],
+      "seconds": 74.207
+    },
+    {
+      "start_seconds": 751.16,
+      "name": "02d-chaussures",
+      "title": "Le cadeau du professeur Chen",
+      "source": "docs/cinematiques-compilation-20261025/02d-chaussures.mp4",
+      "source_sha256": "9ca9016a11acc9d650d122ef079cc73a21fec9a0d3dfe976f10785f4a5e882c9",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          47.583
+        ]
+      ],
+      "seconds": 49.583
+    },
+    {
+      "start_seconds": 800.7429999999999,
+      "name": "02e-fossiles",
+      "title": "Le conflit autour des fossiles au Mont Sélénite",
+      "source": "docs/cinematiques-compilation-20261025/02e-fossiles.mp4",
+      "source_sha256": "828b9fe0b6c1bd0966bde8053f2e73608b342a2159cba06126c0f225d9e3e650",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          18.806663462178374
+        ],
+        [
+          101.24314440264757,
+          108.124397
+        ]
+      ],
+      "seconds": 27.714
+    },
+    {
+      "start_seconds": 828.4569999999999,
+      "name": "02c-matt-azuria",
+      "title": "Retrouvailles avec Matt à Azuria",
+      "source": "docs/cinematiques-compilation-20261025/02c-matt-azuria.mp4",
+      "source_sha256": "b003081af66761a7c04dffa87dd03a5b1ce9531a7cc2bddbee737f36e3fcff27",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          28.66811741507393
+        ],
+        [
+          126.42417453024505,
+          196.291488
+        ]
+      ],
+      "seconds": 100.535
+    },
+    {
+      "start_seconds": 928.9919999999998,
+      "name": "arene-02",
+      "title": "Le deuxième Badge",
+      "source": "docs/cinematiques-compilation-20261025/arene-02.mp4",
+      "source_sha256": "7e31e66fe9d74b48856f94ef37a5997c4c2a93a62782743ef44592b8905508fb",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          28.61788929646835
+        ],
+        [
+          117.04825905720344,
+          153.396674
+        ]
+      ],
+      "seconds": 66.982
+    },
+    {
+      "start_seconds": 995.9739999999998,
+      "name": "23-leo-transformation",
+      "title": "Léo et son problème de transformation",
+      "source": "docs/cinematiques-compilation-20261025/23-leo-transformation.mp4",
+      "source_sha256": "2aa3d27c9a8eca1ad33d09b1ebb990d3f3efd85a0238971cb2be4bce0d145786",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          29.249508
+        ]
+      ],
+      "seconds": 31.249
+    },
+    {
+      "start_seconds": 1027.2229999999997,
+      "name": "23b-leo-separateur",
+      "title": "Le séparateur de Léo",
+      "source": "docs/cinematiques-compilation-20261025/23b-leo-separateur.mp4",
+      "source_sha256": "8a6de4aa39bdabb7ca98c437300f24dcfc7a9ff569b12a00365bef7de3181a34",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          6.061
+        ]
+      ],
+      "seconds": 8.066667
+    },
+    {
+      "start_seconds": 1035.2896669999998,
+      "name": "03b-matt-oceane",
+      "title": "Matt à bord de l’Océane",
+      "source": "docs/cinematiques-compilation-20261025/03b-matt-oceane.mp4",
+      "source_sha256": "88214e2c33d5228fdb5972982b538b24724dc06cadd5ece0a9c7fe099aa98ec3",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          35.900966494277455
+        ],
+        [
+          173.30375189545313,
+          195.672007
+        ]
+      ],
+      "seconds": 60.269
+    },
+    {
+      "start_seconds": 1095.5586669999998,
+      "name": "03c-capitaine",
+      "title": "Le capitaine de l’Océane",
+      "source": "docs/cinematiques-compilation-20261025/03c-capitaine.mp4",
+      "source_sha256": "66f11adee3fa5212dd93bea047fbfe44c2a8f6675c26cd0cefe2ea1772bea498",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          36.064
+        ]
+      ],
+      "seconds": 38.066667
+    },
+    {
+      "start_seconds": 1133.6253339999998,
+      "name": "03d-depart-oceane",
+      "title": "Le départ de l’Océane",
+      "source": "docs/cinematiques-compilation-20261025/03d-depart-oceane.mp4",
+      "source_sha256": "aaf397a57d96cee1d01e6153a6dc3e66d6b0776334baeef3000bbd358a00f7cd",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          27.391067
+        ]
+      ],
+      "seconds": 29.4
+    },
+    {
+      "start_seconds": 1163.025334,
+      "name": "03-ariane-rencontre",
+      "title": "La rencontre avec Ariane",
+      "source": "docs/cinematiques-compilation-20261025/03-ariane-rencontre.mp4",
+      "source_sha256": "b2c9557d47cbae69a2d374197d109150639c375a950fe8ad24bea34f1fb69d72",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          36.599556
+        ]
+      ],
+      "seconds": 38.6
+    },
+    {
+      "start_seconds": 1201.6253339999998,
+      "name": "04-enquete-entrepot",
+      "title": "La Pierre Philosovni : enquête dans l’entrepôt",
+      "source": "docs/cinematiques-compilation-20261025/04-enquete-entrepot.mp4",
+      "source_sha256": "ada3aae52c2d0c0f4016fa62a62e6ca7bb8e66cffdd6db4269434302267e3e02",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          80.31936604781211
+        ],
+        [
+          158.30228713858654,
+          218.459
+        ]
+      ],
+      "seconds": 142.5
+    },
+    {
+      "start_seconds": 1344.1253339999998,
+      "name": "arene-03",
+      "title": "Ariane : le Badge Foudre",
+      "source": "docs/cinematiques-compilation-20261025/arene-03.mp4",
+      "source_sha256": "41149cd75f88c6661f7a6e3f368bbab6c5a3a6574da1fe670c4ed7be9e105f86",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          28.350005997238586
+        ],
+        [
+          152.14097125630204,
+          181.524421
+        ]
+      ],
+      "seconds": 59.766667
+    },
+    {
+      "start_seconds": 1403.892001,
+      "name": "05-zombie-night",
+      "title": "Lavanville : la Zombie Night et Alizon Bie",
+      "source": "docs/cinematiques-compilation-20261025/05-zombie-night.mp4",
+      "source_sha256": "499a34fbd3161c38da8183e7b6672b0d4b7318ee99535f36ca171581489550d0",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          62.618
+        ]
+      ],
+      "seconds": 64.633333
+    },
+    {
+      "start_seconds": 1468.525334,
+      "name": "arene-04",
+      "title": "Alizon Bie au sommet de la Tour",
+      "source": "docs/cinematiques-compilation-20261025/arene-04.mp4",
+      "source_sha256": "ba3616d29452c2c1f9e288c20f3bb561346408910f3b81f2438e189cc4d7ff66",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          27.814239398779065
+        ],
+        [
+          151.33732135861277,
+          194.918586
+        ]
+      ],
+      "seconds": 73.414
+    },
+    {
+      "start_seconds": 1541.939334,
+      "name": "24-repaire-morleone",
+      "title": "Don Morléone dans le repaire",
+      "source": "docs/cinematiques-compilation-20261025/24-repaire-morleone.mp4",
+      "source_sha256": "3af2f16823eeee21be23032ac9f75a7dc536c3ce785fa66cde93c374600f301a",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          32.41848360429057
+        ],
+        [
+          125.62052463255577,
+          141.040557
+        ]
+      ],
+      "seconds": 49.866667
+    },
+    {
+      "start_seconds": 1591.806001,
+      "name": "07b-matt-yopple",
+      "title": "Matt dans les bureaux de Yopple",
+      "source": "docs/cinematiques-compilation-20261025/07b-matt-yopple.mp4",
+      "source_sha256": "295d59eaf216effa65c79fc3b2c51e1b7b01db02e4a4dac8924b58e766c2b3bf",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          30.00753391122273
+        ],
+        [
+          201.9672649130375,
+          237.026492
+        ]
+      ],
+      "seconds": 67.1
+    },
+    {
+      "start_seconds": 1658.9060009999998,
+      "name": "07-yopple-liberation",
+      "title": "La libération de Yopple",
+      "source": "docs/cinematiques-compilation-20261025/07-yopple-liberation.mp4",
+      "source_sha256": "98031d6537761085dfc58a142593a10de5baf66f215e54414cf4e47e31ae2488",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          29.52199543136879
+        ],
+        [
+          160.17747023319487,
+          176.133269
+        ]
+      ],
+      "seconds": 47.5
+    },
+    {
+      "start_seconds": 1706.4060009999998,
+      "name": "arene-05",
+      "title": "Bérénice : le cinquième Badge",
+      "source": "docs/cinematiques-compilation-20261025/arene-05.mp4",
+      "source_sha256": "887b7fcdb749255b097cb4a20627d69aa0dfda669ca12018edb566637bacbe9b",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          25.671173004940982
+        ],
+        [
+          184.2869671638733,
+          209.1164
+        ]
+      ],
+      "seconds": 52.5
+    },
+    {
+      "start_seconds": 1758.9060009999998,
+      "name": "arene-06",
+      "title": "Domniscian : le sixième Badge",
+      "source": "docs/cinematiques-compilation-20261025/arene-06.mp4",
+      "source_sha256": "77b1bbc2515429da978c93d145ecef3980663d3111139dea86fe2a37a2a8ee8a",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          25.939056304170744
+        ],
+        [
+          235.7205606159873,
+          261.086
+        ]
+      ],
+      "seconds": 53.333333
+    },
+    {
+      "start_seconds": 1812.2393339999999,
+      "name": "06-cramois-rencontre",
+      "title": "Cramois’Île et la rencontre avec Nathaniel",
+      "source": "docs/cinematiques-compilation-20261025/06-cramois-rencontre.mp4",
+      "source_sha256": "f11513a26945bd4cdc121103c32cd8a3c8fc250d2d1408d3ebc5c5d5e07878ad",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          49.2449033371599
+        ],
+        [
+          254.7402748613003,
+          281.713
+        ]
+      ],
+      "seconds": 78.239
+    },
+    {
+      "start_seconds": 1890.478334,
+      "name": "28-depart-sevii",
+      "title": "Le départ pour les Îles Sevii",
+      "source": "docs/cinematiques-compilation-20261025/28-depart-sevii.mp4",
+      "source_sha256": "ed0a08eb3334629d7b785fde00b2a91313ca374dec90dfd0cf1e629dd5eaa903",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          222.711478
+        ]
+      ],
+      "seconds": 224.711
+    },
+    {
+      "start_seconds": 2115.1893339999997,
+      "name": "28b-motards-argument",
+      "title": "Les motards sur l’Île 3",
+      "source": "docs/cinematiques-compilation-20261025/28b-motards-argument.mp4",
+      "source_sha256": "ec545bd2956ec1949bece923bc1ac5b54662d054d12d100fd8959034d3c443f1",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          54.548
+        ]
+      ],
+      "seconds": 56.548
+    },
+    {
+      "start_seconds": 2171.7373339999995,
+      "name": "28c-motards-depart",
+      "title": "La fin des troubles sur l’Île 3",
+      "source": "docs/cinematiques-compilation-20261025/28c-motards-depart.mp4",
+      "source_sha256": "9d873a3048561362368794eee2fa274e0e129bc328f9fb9b8acddc066f3740bc",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          25.453517824316805
+        ],
+        [
+          95.6175951188226,
+          117.06960616089486
+        ],
+        [
+          155.62345414628894,
+          184.5761975667945
+        ],
+        [
+          222.59427895372903,
+          253.94122936110057
+        ],
+        [
+          339.39139741790456,
+          346.239164
+        ]
+      ],
+      "seconds": 116.114
+    },
+    {
+      "start_seconds": 2287.8513339999995,
+      "name": "27-perdue-sauvetage",
+      "title": "Le sauvetage de la petite fille dans la forêt",
+      "source": "docs/cinematiques-compilation-20261025/27-perdue-sauvetage.mp4",
+      "source_sha256": "18b1c17876fd923d714d0a46c4829d3c52d100f9ca3f8af42b8f290e9c4c27e3",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          38.981624435419704
+        ],
+        [
+          57.09262814834268,
+          107.957
+        ]
+      ],
+      "seconds": 91.866667
+    },
+    {
+      "start_seconds": 2379.7180009999993,
+      "name": "29-retour-sevii",
+      "title": "Le retour des Îles Sevii",
+      "source": "docs/cinematiques-compilation-20261025/29-retour-sevii.mp4",
+      "source_sha256": "5b4f10b4de6ab6bd061142e283cbad8878125c37d262aed5a43fe5fcd2261f57",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          27.257126
+        ]
+      ],
+      "seconds": 29.266667
+    },
+    {
+      "start_seconds": 2408.984667999999,
+      "name": "arene-08",
+      "title": "Le dernier Badge",
+      "source": "docs/cinematiques-compilation-20261025/arene-08.mp4",
+      "source_sha256": "a7cf7b7951434b006f933ade934f9fba9a52a9f86e91262ee639be38c9ee1364",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          30.22518909184691
+        ],
+        [
+          208.93223069301126,
+          251.71
+        ]
+      ],
+      "seconds": 75.011
+    },
+    {
+      "start_seconds": 2483.995667999999,
+      "name": "07c-matt-route22",
+      "title": "Le dernier défi de Matt avant la Ligue",
+      "source": "docs/cinematiques-compilation-20261025/07c-matt-route22.mp4",
+      "source_sha256": "900901586e00acf6e437642de998d0683320c3e937da050508d8f5b2629d8b99",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          32.15060030506081
+        ],
+        [
+          203.3066814091863,
+          219.514
+        ]
+      ],
+      "seconds": 50.374
+    },
+    {
+      "start_seconds": 2534.369667999999,
+      "name": "conseil-01",
+      "title": "Conseil 4 : premier adversaire",
+      "source": "docs/cinematiques-compilation-20261025/conseil-01.mp4",
+      "source_sha256": "b5bac1c3b0512cb69f1758cbe4f2379afec0312651d7048b6d0c7ccebfca8824",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          22.088233877742937
+        ],
+        [
+          276.43882209891086,
+          283.052191
+        ]
+      ],
+      "seconds": 30.713
+    },
+    {
+      "start_seconds": 2565.082667999999,
+      "name": "conseil-02",
+      "title": "Conseil 4 : deuxième adversaire",
+      "source": "docs/cinematiques-compilation-20261025/conseil-02.mp4",
+      "source_sha256": "cdecc9ee499f797051e1f9678960a044b3cfe96ceafa43207614b16d55ba3f03",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          22.64074318240432
+        ],
+        [
+          220.98697915835047,
+          227.600348
+        ]
+      ],
+      "seconds": 31.28
+    },
+    {
+      "start_seconds": 2596.3626679999993,
+      "name": "conseil-03",
+      "title": "Conseil 4 : Zazel",
+      "source": "docs/cinematiques-compilation-20261025/conseil-03.mp4",
+      "source_sha256": "7ac5a26d85c3a024cb57cb7ee1413e3812e20c46f55d87df3e818a3febe638e1",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          21.820350578513178
+        ],
+        [
+          220.98697915835047,
+          227.332465
+        ]
+      ],
+      "seconds": 30.179
+    },
+    {
+      "start_seconds": 2626.5416679999994,
+      "name": "conseil-04",
+      "title": "Conseil 4 : Maître Nyada",
+      "source": "docs/cinematiques-compilation-20261025/conseil-04.mp4",
+      "source_sha256": "876800675b34b0565fe8bfb3a6b27c7c4d963597837321aa01af337ead914193",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          22.389602589376416
+        ],
+        [
+          251.52567527054316,
+          258.139044
+        ]
+      ],
+      "seconds": 31.013
+    },
+    {
+      "start_seconds": 2657.5546679999993,
+      "name": "08-finale",
+      "title": "Don Morléone, fusion, Don Spiration et fin de l’histoire",
+      "source": "docs/cinematiques-compilation-20261025/08-finale.mp4",
+      "source_sha256": "990c0361e766fca50c772b7ebc2a2500974ad95fd314c903c9b535c4d3258f6b",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          53.598006949643505
+        ],
+        [
+          255.2760414597598,
+          297.30483842391806
+        ],
+        [
+          451.68472791377974,
+          879.963153
+        ]
+      ],
+      "seconds": 525.912
+    },
+    {
+      "start_seconds": 3183.466667999999,
+      "name": "10-enma-postgame",
+      "title": "Le Seigneur Enma après la Ligue",
+      "source": "docs/cinematiques-compilation-20261025/10-enma-postgame.mp4",
+      "source_sha256": "886d158a20ecafd30ba0578b54451a83ec3472d9eefefceb2cb6afdb18ca58c1",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          94.194465
+        ]
+      ],
+      "seconds": 96.2
+    },
+    {
+      "start_seconds": 3279.666667999999,
+      "name": "10b-chen-jibanyan",
+      "title": "Le cadeau postgame du professeur Chen",
+      "source": "docs/cinematiques-compilation-20261025/10b-chen-jibanyan.mp4",
+      "source_sha256": "3a06309b3b1c6f438aac6526933c15643ddb8568f14dd376724295dbf6d0dcab",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          67.674018
+        ]
+      ],
+      "seconds": 69.674
+    },
+    {
+      "start_seconds": 3349.340667999999,
+      "name": "26-lorelei-grotte",
+      "title": "L’intervention dans la Grotte de Glace",
+      "source": "docs/cinematiques-compilation-20261025/26-lorelei-grotte.mp4",
+      "source_sha256": "ed90a68456a71df467999d66f8b08eb48a0d4ce0b3f9f935afae5316a8b0df2c",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          47.202293180532976
+        ],
+        [
+          149.1942549647747,
+          201.08
+        ]
+      ],
+      "seconds": 101.1
+    },
+    {
+      "start_seconds": 3450.440667999999,
+      "name": "34-celio-rubis",
+      "title": "Le Rubis et le Passe Prisme",
+      "source": "docs/cinematiques-compilation-20261025/34-celio-rubis.mp4",
+      "source_sha256": "c4f3eb38e404bac5db141f6031aa25cfb1230a4ed074747f50e1169ad17e19a1",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          58.03022
+        ]
+      ],
+      "seconds": 60.033333
+    },
+    {
+      "start_seconds": 3510.4740009999987,
+      "name": "30-saphir-vol",
+      "title": "Le vol du Saphir",
+      "source": "docs/cinematiques-compilation-20261025/30-saphir-vol.mp4",
+      "source_sha256": "038591117349239aebf020f5b8c387324bb76ef6bda743344d385125446c8154",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          37.102
+        ]
+      ],
+      "seconds": 39.102
+    },
+    {
+      "start_seconds": 3549.5760009999985,
+      "name": "31-entrepot-admin1",
+      "title": "L’entrepôt de la Mafiamille : premier administrateur",
+      "source": "docs/cinematiques-compilation-20261025/31-entrepot-admin1.mp4",
+      "source_sha256": "afce3588225aa1ec9c3320ac542565a2e288e3939077e4c2938c9cc250f55b6c",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          19.509857122656495
+        ],
+        [
+          120.79862524642009,
+          144.824409
+        ]
+      ],
+      "seconds": 45.566667
+    },
+    {
+      "start_seconds": 3595.1426679999986,
+      "name": "32-entrepot-admin2",
+      "title": "L’entrepôt de la Mafiamille : second administrateur",
+      "source": "docs/cinematiques-compilation-20261025/32-entrepot-admin2.mp4",
+      "source_sha256": "455805113b6fcfc42389d7addbe39b878045ed723a3fcf8067321acffac787a0",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          21.92080681572434
+        ],
+        [
+          142.2292891848009,
+          157.917205
+        ]
+      ],
+      "seconds": 39.633333
+    },
+    {
+      "start_seconds": 3634.776000999999,
+      "name": "33-entrepot-scientifique",
+      "title": "La récupération du Saphir",
+      "source": "docs/cinematiques-compilation-20261025/33-entrepot-scientifique.mp4",
+      "source_sha256": "5394914d7944b78bc0bec848cbb172b033afe977c780e73b238e67fb111819e6",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          21.117156918035057
+        ],
+        [
+          203.57456470841606,
+          217.421
+        ]
+      ],
+      "seconds": 36.98
+    },
+    {
+      "start_seconds": 3671.756000999999,
+      "name": "35-celio-saphir",
+      "title": "Le Saphir et la machine réseau",
+      "source": "docs/cinematiques-compilation-20261025/35-celio-saphir.mp4",
+      "source_sha256": "8a7339a5ee1b5e7f3e9419e67e08df0c075cb0fad9224326d25f8c718e7a0edc",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          61.312
+        ]
+      ],
+      "seconds": 63.312
+    },
+    {
+      "start_seconds": 3735.0680009999987,
+      "name": "11-nyada-premiere-quete",
+      "title": "Maître Nyada : la première quête",
+      "source": "docs/cinematiques-compilation-20261025/11-nyada-premiere-quete.mp4",
+      "source_sha256": "882c53b951330bc7810af20ae4b9a11cb5f4169e83f595f1c222ede4d6dd3b4f",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          74.907
+        ]
+      ],
+      "seconds": 76.907
+    },
+    {
+      "start_seconds": 3811.975000999999,
+      "name": "12-nyada-retour-amis",
+      "title": "Le retour auprès de Maître Nyada",
+      "source": "docs/cinematiques-compilation-20261025/12-nyada-retour-amis.mp4",
+      "source_sha256": "267dc8fb4e200def35f223cfc1319a1c98e1915751bcfa85beebda4652d87b4d",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          49.458
+        ]
+      ],
+      "seconds": 51.466667
+    },
+    {
+      "start_seconds": 3863.441667999999,
+      "name": "13-alizon-quete-oni",
+      "title": "Alizon Bie et le Short Oni",
+      "source": "docs/cinematiques-compilation-20261025/13-alizon-quete-oni.mp4",
+      "source_sha256": "913b53eb635f1749b65fb215723ba7f17dc64a4472ea5bef60b71dd1ac1e93e5",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          55.887153
+        ]
+      ],
+      "seconds": 57.9
+    },
+    {
+      "start_seconds": 3921.341667999999,
+      "name": "terre-heure-complete",
+      "title": "La Terr’heure : activation et porte de sortie",
+      "source": "docs/cinematiques-compilation-20261025/terre-heure-complete/declenchement-porte-sortie-mgba.mp4",
+      "source_sha256": "82a6c323ed8b6c5c5662663f9f7567fd20c354f91a52fd2b6cf992cf8bfb575b",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          27.73353943225886
+        ],
+        [
+          88.11380715052226,
+          108.861076
+        ]
+      ],
+      "seconds": 50.466667
+    },
+    {
+      "start_seconds": 3971.8083349999993,
+      "name": "14-alizon-rendez-vous",
+      "title": "Les trois Oni vaincus : le rendez-vous",
+      "source": "docs/cinematiques-compilation-20261025/14-alizon-rendez-vous.mp4",
+      "source_sha256": "5c277196b4b88ba0d69928f502bcf94fcbfc0c21930501a6c31783839eb19b64",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          16.240425
+        ]
+      ],
+      "seconds": 18.24
+    },
+    {
+      "start_seconds": 3990.048334999999,
+      "name": "gorgouille",
+      "title": "Gorgouille : arrivée d’Alizon, capture et départ",
+      "source": "docs/gorgouille-alizon-20261025/gorgouille-arrivee-capture-depart-mgba.mp4",
+      "source_sha256": "76680511468a4cbfa09c0e3bc02b916d5115dacec9443d94cf9234c730984205",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          92.085
+        ]
+      ],
+      "seconds": 94.1
+    },
+    {
+      "start_seconds": 4084.148334999999,
+      "name": "16-nyada-seconde-quete",
+      "title": "Maître Nyada : la seconde quête",
+      "source": "docs/cinematiques-compilation-20261025/16-nyada-seconde-quete.mp4",
+      "source_sha256": "c50fd61d31b714a5c3605eef8cb928083852950473945f15a2a6ddf922238ed7",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          37.403206
+        ]
+      ],
+      "seconds": 39.403
+    },
+    {
+      "start_seconds": 4123.551334999999,
+      "name": "17-demophage",
+      "title": "L’endormissement, Démophage et la récompense",
+      "source": "docs/cinematiques-compilation-20261025/17-demophage.mp4",
+      "source_sha256": "585af90287b6ab3f1c7b3061a997bd06fa404e9aebf167cfe1b4409c3e3612dc",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          82.24477726102602
+        ],
+        [
+          258.49064105051696,
+          333.950018
+        ]
+      ],
+      "seconds": 159.733333
+    },
+    {
+      "start_seconds": 4283.284667999999,
+      "name": "18-nyada-sommet",
+      "title": "Maître Nyada au sommet de la Tour",
+      "source": "docs/cinematiques-compilation-20261025/18-nyada-sommet.mp4",
+      "source_sha256": "70898633861e9b6f9bd6e57aac9ec8737222ddc01aea4b5c7b1567e36ffa64dc",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          45.61173609135627
+        ],
+        [
+          252.86509176669196,
+          283.35356
+        ]
+      ],
+      "seconds": 78.133333
+    },
+    {
+      "start_seconds": 4361.418000999999,
+      "name": "19-scientifique-lavanville",
+      "title": "Le scientifique : Lavanville",
+      "source": "docs/cinematiques-compilation-20261025/19-scientifique-lavanville.mp4",
+      "source_sha256": "d77e87aabcd716213da949b828da1fdd05367c7b8587196dac8d5f3c56fe5691",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          41.47628765949685
+        ],
+        [
+          77.40153077119889,
+          98.213
+        ]
+      ],
+      "seconds": 64.311
+    },
+    {
+      "start_seconds": 4425.729000999999,
+      "name": "20-scientifique-carmin",
+      "title": "Le scientifique : Carmin sur Mer",
+      "source": "docs/cinematiques-compilation-20261025/20-scientifique-carmin.mp4",
+      "source_sha256": "c81a0075e73dbf4b3b81384effd3d8a83211d4ded136fcd29f4f81d520469233",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          42.27993755718613
+        ],
+        [
+          79.27671386580722,
+          106.517097
+        ]
+      ],
+      "seconds": 71.54
+    },
+    {
+      "start_seconds": 4497.269000999999,
+      "name": "21-scientifique-yopple",
+      "title": "Le scientifique : Yopple et Robonyan 28 shiny",
+      "source": "docs/cinematiques-compilation-20261025/21-scientifique-yopple.mp4",
+      "source_sha256": "25b28a96cf428fc69ac7ce174f0dcc0dafb27be2125b416dd0d2f53baadbf3ca",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          48.173370140240856
+        ],
+        [
+          87.04532954347027,
+          147.235358
+        ]
+      ],
+      "seconds": 110.4
+    },
+    {
+      "start_seconds": 4607.669000999998,
+      "name": "25-champion-don-exil",
+      "title": "Don Morléone en exil",
+      "source": "docs/cinematiques-compilation-20261025/25-champion-don-exil.mp4",
+      "source_sha256": "da2717355d46acf26a91e694beb51f5e01f395be4d53c2440316ee8833ec04b1",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          36.70461639196674
+        ],
+        [
+          236.25632721444683,
+          238.902
+        ]
+      ],
+      "seconds": 41.379
+    },
+    {
+      "start_seconds": 4649.048000999998,
+      "name": "21b-chen-invitation",
+      "title": "Médallium rempli : l’invitation de Juste Yoann",
+      "source": "docs/cinematiques-compilation-20261025/21b-chen-invitation.mp4",
+      "source_sha256": "a18172f1eaf1043b1a365043313c1e9620ff2632b278d40ba5e91724db25e3ab",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          67.674018
+        ]
+      ],
+      "seconds": 69.674
+    },
+    {
+      "start_seconds": 4718.722000999998,
+      "name": "22-yoann",
+      "title": "Juste Yoann, THANK FOR PLAY, crédits et Charme Chroma",
+      "source": "docs/cinematiques-compilation-20261025/22-yoann.mp4",
+      "source_sha256": "79721f0294ed8dfee14d230f0822223fe586ff613e9ae43495ffd0506d66dcd3",
+      "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+      "retained_source_intervals": [
+        [
+          0,
+          37.993804769509964
+        ],
+        [
+          261.4373573420443,
+          638.801212
+        ]
+      ],
+      "seconds": 417.366667
+    }
+  ]
+}
