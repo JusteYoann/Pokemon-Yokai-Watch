@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "scope": "Fixtures mGBA isolées : crédits postgame, retour blanc, cadeau et sauvegarde.\nCes vérifications ne font pas partie de l'aventure filmée par entrées manette.\n",
+  "rom_sha256": "40a6bf27ac1c5dc1683837f1ba010d2a80a37b3fe690c6764c5705edef9dcec9",
+  "checks": [
+    {
+      "gender": "garcon",
+      "native_six_mon_victory": true,
+      "all_32_slides": true,
+      "postgame_photos_and_original_group": true,
+      "white_return": true,
+      "return_to_same_position": true,
+      "charm_after_credits": true,
+      "single_charm": true,
+      "native_save_continue": true,
+      "later_dialogue_no_replay": true
+    },
+    {
+      "gender": "fille",
+      "native_six_mon_victory": false,
+      "all_32_slides": true,
+      "postgame_photos_and_original_group": true,
+      "white_return": true,
+      "return_to_same_position": true,
+      "charm_after_credits": true,
+      "single_charm": true,
+      "native_save_continue": true,
+      "later_dialogue_no_replay": true
+    },
+    {
+      "league_32_slides": true,
+      "league_original_images": true,
+      "league_reset": true
+    }
+  ]
+}

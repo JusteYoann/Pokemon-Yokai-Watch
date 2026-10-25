@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Apparitions natives de Domniscian et routage de ses deux combats d’arène."""
-import json,hashlib,struct
+import json,hashlib,struct,os
 from postgame_qa_common import QA
 from mafiamille_qa import strong_party
 from mgba_rpc import ROOT
-q=QA('TEMP_DOMNISCIAN.json');r=q.r;P=ROOT/'docs/cinematiques-collisions-20261025';rows=[]
+q=QA('TEMP_DOMNISCIAN.json');r=q.r;P=ROOT/os.environ.get('YOKAI_DOMNISCIAN_REPORT_DIR','docs/cinematiques-collisions-20261025');rows=[]
 try:
  strong_party(r);q.f(0x3e);base=r.snapshot()
  for rematch in (False,True):

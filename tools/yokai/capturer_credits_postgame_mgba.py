@@ -2,12 +2,12 @@
 """Photographies natives préparées pour les crédits postgame, hors aventure filmée.
 Cartes, progression et équipes de test sont des fixtures isolées.
 """
-import json,hashlib,subprocess
+import json,hashlib,subprocess,os
 from pathlib import Path
 from PIL import Image,ImageOps
 from postgame_qa_common import QA
 from mgba_rpc import ROOT
-D=ROOT/'docs/credits-postgame-yoann-20261025';D.mkdir(exist_ok=True)
+D=ROOT/os.environ.get('YOKAI_CREDITS_POSTGAME_DIR','docs/credits-postgame-yoann-20261025');D.mkdir(exist_ok=True)
 board=json.loads((ROOT/'data/yokai/credits_storyboard.json').read_text())['slides']
 rows=[];declarations=[];tables=[]
 base_header=(ROOT/'src/data/yokai_credits.h').read_text()
@@ -36,7 +36,7 @@ for gender,label in enumerate(('garcon','fille')):
   capture(27,'La rencontre avec le Seigneur Enma')
   # Stop this scene by loading a separate prepared map; nothing is saved.
   r.call('ScriptContext_Init');r.call('UnlockPlayerFieldControls');q.f(0x32f)
-  q.f(0x806);q.warp('CeruleanCave_1F',9,6);r.keys=set();r.run(300);r.call('LockPlayerFieldControls');r.call('FreezeObjectEvents');r.run(4)
+  q.f(0x806);q.warp('CeruleanCave_1F',22,20);r.keys=set();r.run(300);r.call('LockPlayerFieldControls');r.call('FreezeObjectEvents');r.run(4)
   capture(28,'Maître Nyada et Démophage dans la Grotte Azurée')
   r.call('ScriptContext_Init');r.call('UnlockPlayerFieldControls')
   q.f('FLAG_PG_SCIENTIST_1');q.f('FLAG_PG_SCIENTIST_2');q.warp('SaffronCity',19,23);q.script('PG_ScientistYopple')

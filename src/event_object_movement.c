@@ -1688,6 +1688,12 @@ static u8 ObjectScenePaletteSlot(const struct ObjectEvent *objectEvent, u16 grap
         && objectEvent->mapGroup == MAP_GROUP(MAP_PEWTER_CITY);
     if (argenta && graphicsId == OBJ_EVENT_GFX_YOKAI_WYATT)
         return PALSLOT_NPC_2_REFLECTION;
+    // Nyada and Démophage are visible together during the cave quest.
+    // Their independent palettes must survive spawn, battle return and rebuild.
+    if (graphicsId == OBJ_EVENT_GFX_YOKAI_NYADA
+        && objectEvent->mapNum == MAP_NUM(MAP_CERULEAN_CAVE_1F)
+        && objectEvent->mapGroup == MAP_GROUP(MAP_CERULEAN_CAVE_1F))
+        return PALSLOT_NPC_1_REFLECTION;
     // Azuria's Mafiamille actor can remain active just beyond the viewport.
     // It shares bank 10 with Matt; rebuilding it after Matt on battle return
     // would replace Matt's colors. Isolate Matt regardless of spawn order.
@@ -1716,11 +1722,12 @@ static u8 TrySetupObjectEventSprite(const struct ObjectEventTemplate *objectEven
 
     objectEvent = &gObjectEvents[objectEventId];
     graphicsInfo = GetObjectEventGraphicsInfo(objectEvent->graphicsId);
-    LoadAlyzonObjectPalette(graphicsInfo);
     paletteSlot = ObjectScenePaletteSlot(objectEvent, objectEvent->graphicsId, graphicsInfo->paletteSlot);
     separateScenePalette = paletteSlot != graphicsInfo->paletteSlot;
     if (separateScenePalette)
         PatchObjectPalette(graphicsInfo->paletteTag, paletteSlot);
+    else
+        LoadAlyzonObjectPalette(graphicsInfo);
     if (graphicsInfo->paletteSlot == PALSLOT_PLAYER)
         LoadPlayerObjectReflectionPalette(graphicsInfo->paletteTag, graphicsInfo->paletteSlot);
     else if (!separateScenePalette && graphicsInfo->paletteSlot == PALSLOT_NPC_SPECIAL)
@@ -2060,9 +2067,10 @@ static void SpawnObjectEventOnReturnToField(u8 objectEventId, s16 x, s16 y)
     objectEvent++;objectEvent--; // fakematch
     subspriteTables = NULL;
     graphicsInfo = GetObjectEventGraphicsInfo(objectEvent->graphicsId);
-    LoadAlyzonObjectPalette(graphicsInfo);
     paletteSlot = ObjectScenePaletteSlot(objectEvent, objectEvent->graphicsId, graphicsInfo->paletteSlot);
     separateScenePalette = paletteSlot != graphicsInfo->paletteSlot;
+    if (!separateScenePalette)
+        LoadAlyzonObjectPalette(graphicsInfo);
     spriteFrameImage.size = graphicsInfo->size;
     CopyObjectGraphicsInfoToSpriteTemplate_WithMovementType(objectEvent->graphicsId, objectEvent->movementType, &spriteTemplate, &subspriteTables);
     spriteTemplate.images = &spriteFrameImage;
@@ -2138,9 +2146,10 @@ void ObjectEventSetGraphicsId(struct ObjectEvent *objectEvent, u8 graphicsId)
     bool8 separateScenePalette;
 
     graphicsInfo = GetObjectEventGraphicsInfo(graphicsId);
-    LoadAlyzonObjectPalette(graphicsInfo);
     paletteSlot = ObjectScenePaletteSlot(objectEvent, graphicsId, graphicsInfo->paletteSlot);
     separateScenePalette = paletteSlot != graphicsInfo->paletteSlot;
+    if (!separateScenePalette)
+        LoadAlyzonObjectPalette(graphicsInfo);
     sprite = &gSprites[objectEvent->spriteId];
     if (separateScenePalette || graphicsInfo->paletteSlot == PALSLOT_PLAYER)
         PatchObjectPalette(graphicsInfo->paletteTag, paletteSlot);

@@ -2,11 +2,11 @@
 """Fixtures mGBA isolées : crédits postgame, retour blanc, cadeau et sauvegarde.
 Ces vérifications ne font pas partie de l'aventure filmée par entrées manette.
 """
-import hashlib,json,struct
+import hashlib,json,struct,os
 from pathlib import Path
 from postgame_qa_common import QA
 from mgba_rpc import ROOT
-D=ROOT/'docs/credits-postgame-yoann-20261025';D.mkdir(exist_ok=True)
+D=ROOT/os.environ.get('YOKAI_CREDITS_POSTGAME_DIR','docs/credits-postgame-yoann-20261025');D.mkdir(exist_ok=True)
 checks=[]
 for gender,label in enumerate(('garcon','fille')):
  q=QA('TEMP_CREDITS.json');q.P=D;r=q.r
