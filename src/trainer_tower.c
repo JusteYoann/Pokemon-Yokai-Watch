@@ -993,6 +993,9 @@ static void BuildEnemyParty(void)
     s32 i;
     u8 monIdx;
 
+    level=level-6+(floorIdx<6?floorIdx:6);
+    if(level<40)level=40;
+    if(level>100)level=100;
     ZeroEnemyPartyMons();
 
     switch (CURR_FLOOR.challengeType)

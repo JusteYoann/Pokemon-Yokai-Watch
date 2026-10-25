@@ -12,6 +12,7 @@
 
 // Battle-local presentation only. No SaveBlock or global species entry changes.
 static EWRAM_DATA bool8 sColossusAnnounced = FALSE;
+static const u8 sMaitreNyada[] = _("Maître Nyada");
 static const u8 sKatie[] = _("KATIE");
 static const u8 sNathan[] = _("NATHAN");
 static const u8 sNathaniel[] = _("NATHANIEL");
@@ -31,6 +32,7 @@ const u8 *YokaiChampionPartySeedName(u16 trainer)
 
 const u8 *YokaiChampionName(u16 trainer)
 {
+    if(trainer==TRAINER_ELITE_FOUR_LANCE || trainer==TRAINER_ELITE_FOUR_LANCE_2 || trainer==TRAINER_PG_NYADA_FINAL)return sMaitreNyada;
     if (trainer == TRAINER_LEADER_MISTY)
         return gSaveBlock2Ptr->playerGender == FEMALE ? sNathan : sKatie;
     if (trainer == TRAINER_LEADER_BLAINE)

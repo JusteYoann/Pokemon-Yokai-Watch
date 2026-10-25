@@ -46,7 +46,10 @@ if a.generate:
     for gender in ['garcon', 'fille']:
         records = []
         for index, scene in enumerate(ORDER):
-            source = DOC / f'souvenirs/{gender}/{scene:02}.png'
+            replacements_path=ROOT/'data/yokai/credits_replacements.json'
+            replacements=json.loads(replacements_path.read_text()) if replacements_path.exists() else {}
+            replacement=replacements.get(str(index))
+            source = ROOT/replacement['captures'][gender] if replacement else DOC / f'souvenirs/{gender}/{scene:02}.png'
             original = Image.open(source).convert('RGB')
             w,h,x,y,tx,ty,tw = (192,112,24,8,0,136,240) if scene == 32 else LAYOUTS[index % 4]
             if scene == 32:
@@ -70,7 +73,7 @@ if a.generate:
             records.append(f'    {{sCreditTiles_{suffix}, sCreditMap_{shared_maps[(w,h,x,y)]}, sCreditPal_{suffix}}},')
             if gender == 'garcon':
                 frames = 1792 if scene == 32 else 434 if index < 24 else 433
-                slides.append(dict(index=index, original_scene=scene, title=storyboard[scene-1]['scene'], width=w,height=h,x=x,y=y,text_x=tx,text_y=ty,text_width=tw,frames=frames,text=PAGES[index]))
+                slides.append(dict(index=index, original_scene=scene, title=replacement['title'] if replacement else storyboard[scene-1]['scene'], width=w,height=h,x=x,y=y,text_x=tx,text_y=ty,text_width=tw,frames=frames,text=PAGES[index]))
         tables.append('{\n' + '\n'.join(records) + '\n}')
     for s in slides:
         declarations.append(f'static const u8 sCreditText{s["index"]}[] = _({json.dumps(s["text"],ensure_ascii=False)});')

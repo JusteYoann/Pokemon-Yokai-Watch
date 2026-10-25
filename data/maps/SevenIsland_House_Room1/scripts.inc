@@ -6,6 +6,7 @@ SevenIsland_House_Room1_MapScripts::
 	.byte 0
 
 SevenIsland_House_Room1_OnTransition::
+	special PostgameSync
 	special ValidateEReaderTrainer
 	call_if_eq VAR_RESULT, 0, SevenIsland_House_Room1_EventScript_SetTrainerVisitingLayout
 	call_if_ne VAR_MAP_SCENE_SEVEN_ISLAND_HOUSE_ROOM1, 0, SevenIsland_House_Room1_EventScript_MoveOldWomanToDoor

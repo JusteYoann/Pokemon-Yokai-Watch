@@ -62,6 +62,9 @@ TrainerTower_Lobby_Movement_ExitElevator::
 	step_end
 
 TrainerTower_Lobby_EventScript_Enter::
+	goto_if_unset FLAG_SYS_GAME_CLEAR, PG_TowerBlocked
+	checkitem ITEM_TOWER_TICKET, 1
+	goto_if_eq VAR_RESULT, FALSE, PG_TowerBlocked
 	setvar VAR_TEMP_0, 1
 	ttower_getchallengestatus
 	switch VAR_RESULT

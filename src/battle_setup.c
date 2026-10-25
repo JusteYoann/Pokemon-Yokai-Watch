@@ -913,9 +913,11 @@ static void CB2_EndTrainerBattle(void)
 {
     if (TerreHeureActive())
     {
-        if (NuzlockeResolveParty() == 2) { NuzlockeGameOver(); return; }
-        if (IsPlayerDefeated(gBattleOutcome)) HealPlayerParty();
-        SetMainCallback2(CB2_ReturnToFieldContinueScriptPlayMapMusic);
+        bool8 defeated=IsPlayerDefeated(gBattleOutcome);
+        if(defeated)TerreHeureBlackout();
+        if (NuzlockeResolveParty() == 2) { TerreHeureBlackout(); NuzlockeGameOver(); return; }
+        if(defeated)SetMainCallback2(CB2_WhiteOut);
+        else SetMainCallback2(CB2_ReturnToFieldContinueScriptPlayMapMusic);
         return;
     }
     if (sTrainerBattleMode == TRAINER_BATTLE_EARLY_RIVAL)

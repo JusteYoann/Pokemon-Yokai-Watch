@@ -14,6 +14,7 @@ PowerPlant_EventScript_TryRemoveStaticMon::
 	return
 
 PowerPlant_OnTransition::
+	special PostgameSync
 	setworldmapflag FLAG_WORLD_MAP_POWER_PLANT
 	call_if_unset FLAG_FOUGHT_ZAPDOS, PowerPlant_EventScript_ShowZapdos
 	call_if_unset FLAG_FOUGHT_POWER_PLANT_ELECTRODE_1, PowerPlant_EventScript_ShowElectrode1
@@ -21,7 +22,8 @@ PowerPlant_OnTransition::
 	end
 
 PowerPlant_EventScript_ShowZapdos::
-	clearflag FLAG_HIDE_ZAPDOS
+	special PostgameSync
+	@ Quest sync chooses visibility; no unconditional restoration.
 	return
 
 PowerPlant_EventScript_ShowElectrode1::

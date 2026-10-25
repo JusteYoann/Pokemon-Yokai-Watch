@@ -3,6 +3,7 @@ CeruleanCity_MapScripts::
 	.byte 0
 
 CeruleanCity_OnTransition::
+	call_if_set FLAG_SYS_GAME_CLEAR, PG_OpenAzureCave
 	setworldmapflag FLAG_WORLD_MAP_CERULEAN_CITY
 	call_if_unset FLAG_GOT_SS_TICKET, CeruleanCity_EventScript_BlockExits
 	end
@@ -356,3 +357,7 @@ CeruleanCity_EventScript_GymSign::
 	msgbox CeruleanCity_Text_GymSign
 	releaseall
 	end
+
+PG_OpenAzureCave::
+	setflag FLAG_HIDE_CERULEAN_CAVE_GUARD
+	return

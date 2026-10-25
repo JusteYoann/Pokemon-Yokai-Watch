@@ -14,6 +14,7 @@ void TerreHeureReload(void);
 void TerreHeureBegin(void);
 void TerreHeureRun(void);
 void TerreHeureEnd(void);
+void TerreHeureBlackout(void);
 void TerreHeureBattleResult(void);
 void TerreHeureReward(void);
 const struct ObjectEventTemplate *TerreHeureTemplate(u8 localId, u8 num, u8 group);

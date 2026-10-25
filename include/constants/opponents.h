@@ -780,7 +780,13 @@
 #define TRAINER_ONI_GARGAROS 747
 #define TRAINER_ONI_OGRALOS 748
 #define TRAINER_ONI_ORQANOS 749
-#define NUM_TRAINERS                             750
+#define NUM_TRAINERS                             755
 #define MAX_TRAINERS_COUNT                       768
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H
+
+#define TRAINER_PG_DEMOPHAGE 750
+#define TRAINER_PG_NYADA_FINAL 751
+#define TRAINER_PG_SCIENTIST_1 752
+#define TRAINER_PG_SCIENTIST_2 753
+#define TRAINER_PG_SCIENTIST_3 754

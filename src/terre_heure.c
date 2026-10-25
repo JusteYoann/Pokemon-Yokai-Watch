@@ -825,3 +825,17 @@ u8 TerreHeureTransitionAmount(void)
 bool8 TerreHeureFogVisible(void) { return sTh.active && (sTh.phase==10 || sTh.phase==9 || sTh.phase==7 || sTh.phase==1 || sTh.phase==2 || sTh.phase==3 || sTh.phase==4) && IsFieldPaletteView() && !gMain.inBattle; }
 
 void TerreHeureBattleStarting(void) { if(sTh.active) { sTh.phase=6; TerreHeureFogClear(); } }
+
+// Battle resources have replaced field windows/sprites. Discard only the
+// session state; the standard blackout callback owns healing and the warp.
+void TerreHeureBlackout(void)
+{
+    u8 i;
+    TerreHeureFogClear();
+    sTh.active=FALSE;sTh.phase=0;sTh.window=TH_NONE;
+    sTh.cooldown=0;sTh.sightMask=0;
+    for(i=0;i<4;i++)sTh.loot[i]=0;
+    VarSet(VAR_TERRE_HEURE_VISIT,0);VarSet(VAR_TERRE_HEURE_PENDING,0);
+    VarSet(VAR_TERRE_HEURE_TRAINER_GUARD,0);
+    if(sTh.helpWasEnabled)HelpSystem_Enable();
+}

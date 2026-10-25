@@ -19,7 +19,8 @@ CeruleanCave_B1F_EventScript_TryRemoveMewtwo::
 CeruleanCave_B1F_OnTransition::
 	goto_if_unset FLAG_SYS_GAME_CLEAR, CeruleanCave_B1F_EventScript_HideLockedEnma
 	goto_if_set FLAG_YOKAI_ENMA_CAUGHT, CeruleanCave_B1F_EventScript_HideLockedEnma
-	call_if_unset FLAG_FOUGHT_MEWTWO, CeruleanCave_B1F_EventScript_ShowMewtwo
+	clearflag FLAG_FOUGHT_MEWTWO
+	call CeruleanCave_B1F_EventScript_ShowMewtwo
 	end
 
 CeruleanCave_B1F_EventScript_HideLockedEnma::
@@ -59,7 +60,6 @@ CeruleanCave_B1F_EventScript_Mewtwo::
 	end
 
 CeruleanCave_B1F_EventScript_DefeatedMewtwo::
-	setflag FLAG_FOUGHT_MEWTWO
 	goto EventScript_RemoveStaticMon
 	end
 

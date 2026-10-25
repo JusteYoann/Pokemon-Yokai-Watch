@@ -4,6 +4,7 @@ LavenderTown_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, LavenderTown_Frame
 	.byte 0
 LavenderTown_OnTransition::
+	special PostgameSync
 	special LavanvilleZombieImmunity
 	setworldmapflag FLAG_WORLD_MAP_LAVENDER_TOWN
 	setvar VAR_MAP_SCENE_S_S_ANNE_2F_CORRIDOR, 1

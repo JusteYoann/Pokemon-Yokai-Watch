@@ -65,7 +65,7 @@ void YoannFadeWhite(void)
     CreateTask(Task_YoannWaitFade, 0);
 }
 
-static const u8 sThankForPlay[] = _("MERCI D'AVOIR JOUÉ");
+static const u8 sThankForPlay[] = _("THANK FOR PLAY");
 static const u8 sThankColors[] = {0, 2, 3};
 static const struct WindowTemplate sThankWindow =
 {

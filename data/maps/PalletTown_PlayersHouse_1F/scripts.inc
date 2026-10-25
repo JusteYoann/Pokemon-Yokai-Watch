@@ -1,4 +1,5 @@
 PalletTown_PlayersHouse_1F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, PalletTown_PlayersHouse_1F_PostgameTransition
 	.byte 0
 
 PalletTown_PlayersHouse_1F_EventScript_Mom::
@@ -52,3 +53,7 @@ PalletTown_PlayersHouse_1F_EventScript_TVScreenMale::
 PalletTown_PlayersHouse_1F_EventScript_TVScreenFemale::
 	msgbox PalletTown_PlayersHouse_1F_Text_MovieOnTVGirlOnBrickRoad
 	return
+
+PalletTown_PlayersHouse_1F_PostgameTransition::
+	special PostgameArmIntro
+	end

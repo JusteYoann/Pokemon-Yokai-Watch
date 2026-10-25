@@ -1,0 +1,1568 @@
+{
+  "remaining_non151": [],
+  "missing_acquisition_paths": [],
+  "acquisition_ledger": [
+    {
+      "number": 1,
+      "species": "SPECIES_BULBASAUR",
+      "yokai": "Jibanyan",
+      "sources": [
+        "Nouveaux cadeaux postgame, équipe ou PC",
+        "data/maps/CeladonCity_Condominiums_RoofRoom/scripts.inc"
+      ]
+    },
+    {
+      "number": 2,
+      "species": "SPECIES_IVYSAUR",
+      "yokai": "Bandinyan",
+      "sources": [
+        "Évolution de Jibanyan"
+      ]
+    },
+    {
+      "number": 3,
+      "species": "SPECIES_VENUSAUR",
+      "yokai": "Épinyan",
+      "sources": [
+        "Évolution de Jibanyan"
+      ]
+    },
+    {
+      "number": 4,
+      "species": "SPECIES_CHARMANDER",
+      "yokai": "Shogunyan",
+      "sources": [
+        "Évolution de Jibanyan"
+      ]
+    },
+    {
+      "number": 5,
+      "species": "SPECIES_CHARMELEON",
+      "yokai": "Komasan",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_SEVAULT_CANYON"
+      ]
+    },
+    {
+      "number": 6,
+      "species": "SPECIES_CHARIZARD",
+      "yokai": "Komaous",
+      "sources": [
+        "Évolution de Komasan"
+      ]
+    },
+    {
+      "number": 7,
+      "species": "SPECIES_SQUIRTLE",
+      "yokai": "Komastar",
+      "sources": [
+        "Évolution de Komaous"
+      ]
+    },
+    {
+      "number": 8,
+      "species": "SPECIES_WARTORTLE",
+      "yokai": "Whisper",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_VIRIDIAN_FOREST"
+      ]
+    },
+    {
+      "number": 9,
+      "species": "SPECIES_BLASTOISE",
+      "yokai": "Cigalopin",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_VIRIDIAN_FOREST"
+      ]
+    },
+    {
+      "number": 10,
+      "species": "SPECIES_CATERPIE",
+      "yokai": "Cigallard",
+      "sources": [
+        "Évolution de Cigalopin"
+      ]
+    },
+    {
+      "number": 11,
+      "species": "SPECIES_METAPOD",
+      "yokai": "Murhaine",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_CELADON_CITY",
+        "Rencontres sauvages Rouge Feu: MAP_CERULEAN_CITY",
+        "Rencontres sauvages Rouge Feu: MAP_CINNABAR_ISLAND",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_MEADOW",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_MEMORIAL_PILLAR",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_RESORT_GORGEOUS",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_WATER_LABYRINTH",
+        "Rencontres sauvages Rouge Feu: MAP_FOUR_ISLAND",
+        "Rencontres sauvages Rouge Feu: MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK",
+        "Rencontres sauvages Rouge Feu: MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE",
+        "Rencontres sauvages Rouge Feu: MAP_FUCHSIA_CITY",
+        "Rencontres sauvages Rouge Feu: MAP_ONE_ISLAND",
+        "Rencontres sauvages Rouge Feu: MAP_ONE_ISLAND_KINDLE_ROAD",
+        "Rencontres sauvages Rouge Feu: MAP_ONE_ISLAND_TREASURE_BEACH",
+        "Rencontres sauvages Rouge Feu: MAP_PALLET_TOWN",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE10",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE11",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE12",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE13",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE19",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE20",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE21_NORTH",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE21_SOUTH",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE22",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE23",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE24",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE25",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE4",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE6",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TRAINER_TOWER",
+        "Rencontres sauvages Rouge Feu: MAP_SIX_ISLAND_GREEN_PATH",
+        "Rencontres sauvages Rouge Feu: MAP_SIX_ISLAND_OUTCAST_ISLAND",
+        "Rencontres sauvages Rouge Feu: MAP_SIX_ISLAND_RUIN_VALLEY",
+        "Rencontres sauvages Rouge Feu: MAP_SIX_ISLAND_WATER_PATH",
+        "Rencontres sauvages Rouge Feu: MAP_SSANNE_EXTERIOR",
+        "Rencontres sauvages Rouge Feu: MAP_THREE_ISLAND_BERRY_FOREST",
+        "Rencontres sauvages Rouge Feu: MAP_THREE_ISLAND_BOND_BRIDGE",
+        "Rencontres sauvages Rouge Feu: MAP_TWO_ISLAND_CAPE_BRINK",
+        "Rencontres sauvages Rouge Feu: MAP_VERMILION_CITY",
+        "Rencontres sauvages Rouge Feu: MAP_VIRIDIAN_CITY"
+      ]
+    },
+    {
+      "number": 12,
+      "species": "SPECIES_BUTTERFREE",
+      "yokai": "Saumhonni",
+      "sources": [
+        "Évolution de Murhaine"
+      ]
+    },
+    {
+      "number": 13,
+      "species": "SPECIES_WEEDLE",
+      "yokai": "Dracounet",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_3F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_4F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_5F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_6F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_7F"
+      ]
+    },
+    {
+      "number": 14,
+      "species": "SPECIES_KAKUNA",
+      "yokai": "Sir Dragon",
+      "sources": [
+        "Évolution de Dracounet"
+      ]
+    },
+    {
+      "number": 15,
+      "species": "SPECIES_BEEDRILL",
+      "yokai": "Octorgone",
+      "sources": [
+        "data/maps/PowerPlant/scripts.inc",
+        "data/scripts/postgame_quests.inc"
+      ]
+    },
+    {
+      "number": 16,
+      "species": "SPECIES_PIDGEY",
+      "yokai": "Kyubi",
+      "sources": [
+        "data/maps/SeafoamIslands_B4F/scripts.inc",
+        "data/scripts/postgame_quests.inc"
+      ]
+    },
+    {
+      "number": 17,
+      "species": "SPECIES_PIDGEOTTO",
+      "yokai": "Robonyan",
+      "sources": [
+        "data/maps/SilphCo_7F/scripts.inc"
+      ]
+    },
+    {
+      "number": 18,
+      "species": "SPECIES_PIDGEOT",
+      "yokai": "Robonyan F",
+      "sources": [
+        "Évolution de Robonyan"
+      ]
+    },
+    {
+      "number": 19,
+      "species": "SPECIES_RATTATA",
+      "yokai": "Robonyan 28",
+      "sources": [
+        "Nouveaux cadeaux postgame, équipe ou PC"
+      ]
+    },
+    {
+      "number": 20,
+      "species": "SPECIES_RATICATE",
+      "yokai": "Faux Kappa",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_CENTER",
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_EAST",
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_NORTH",
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_WEST",
+        "Échange interne disponible sur une même sauvegarde"
+      ]
+    },
+    {
+      "number": 21,
+      "species": "SPECIES_SPEAROW",
+      "yokai": "Tukappa",
+      "sources": [
+        "Évolution de Faux Kappa"
+      ]
+    },
+    {
+      "number": 22,
+      "species": "SPECIES_FEAROW",
+      "yokai": "Granpapéti",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE2",
+        "Échange interne disponible sur une même sauvegarde"
+      ]
+    },
+    {
+      "number": 23,
+      "species": "SPECIES_EKANS",
+      "yokai": "Puissanfon",
+      "sources": [
+        "Évolution de Granpapéti"
+      ]
+    },
+    {
+      "number": 24,
+      "species": "SPECIES_ARBOK",
+      "yokai": "Nanpart",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_CERULEAN_CAVE_1F",
+        "Rencontres sauvages Rouge Feu: MAP_CERULEAN_CAVE_2F",
+        "Rencontres sauvages Rouge Feu: MAP_CERULEAN_CAVE_B1F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_EXTERIOR",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_1F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B1F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B2F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B3F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_SUMMIT_PATH_2F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_MOON_1F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_MOON_B1F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_MOON_B2F",
+        "Rencontres sauvages Rouge Feu: MAP_ONE_ISLAND_KINDLE_ROAD",
+        "Rencontres sauvages Rouge Feu: MAP_ROCK_TUNNEL_B1F",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE4",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_SEVAULT_CANYON"
+      ]
+    },
+    {
+      "number": 25,
+      "species": "SPECIES_PIKACHU",
+      "yokai": "Passpa",
+      "sources": [
+        "Évolution de Nanpart"
+      ]
+    },
+    {
+      "number": 26,
+      "species": "SPECIES_RAICHU",
+      "yokai": "Angelik",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_FOUR_ISLAND_ICEFALL_CAVE_1F",
+        "Rencontres sauvages Rouge Feu: MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F",
+        "Rencontres sauvages Rouge Feu: MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK",
+        "Rencontres sauvages Rouge Feu: MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE",
+        "Rencontres sauvages Rouge Feu: MAP_SEAFOAM_ISLANDS_1F",
+        "Rencontres sauvages Rouge Feu: MAP_SEAFOAM_ISLANDS_B1F",
+        "Rencontres sauvages Rouge Feu: MAP_SEAFOAM_ISLANDS_B2F",
+        "Rencontres sauvages Rouge Feu: MAP_SEAFOAM_ISLANDS_B3F",
+        "Rencontres sauvages Rouge Feu: MAP_SEAFOAM_ISLANDS_B4F"
+      ]
+    },
+    {
+      "number": 27,
+      "species": "SPECIES_SANDSHREW",
+      "yokai": "Blizzaria",
+      "sources": [
+        "Évolution de Angelik"
+      ]
+    },
+    {
+      "number": 28,
+      "species": "SPECIES_SANDSLASH",
+      "yokai": "Feulion",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_EXTERIOR",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_1F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B1F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B2F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B3F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_SUMMIT_PATH_1F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_SUMMIT_PATH_2F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_SUMMIT_PATH_3F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_MANSION_1F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_MANSION_2F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_MANSION_3F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_MANSION_B1F"
+      ]
+    },
+    {
+      "number": 29,
+      "species": "SPECIES_NIDORAN_F",
+      "yokai": "Padrezo",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_SEVAULT_CANYON"
+      ]
+    },
+    {
+      "number": 30,
+      "species": "SPECIES_NIDORINA",
+      "yokai": "Émettor",
+      "sources": [
+        "Évolution de Padrezo"
+      ]
+    },
+    {
+      "number": 31,
+      "species": "SPECIES_NIDOQUEEN",
+      "yokai": "Crocho",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_MANSION_1F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_MANSION_2F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_MANSION_3F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_MANSION_B1F"
+      ]
+    },
+    {
+      "number": 32,
+      "species": "SPECIES_NIDORAN_M",
+      "yokai": "Potofeu",
+      "sources": [
+        "data/maps/CinnabarIsland_PokemonLab_ExperimentRoom/scripts.inc"
+      ]
+    },
+    {
+      "number": 33,
+      "species": "SPECIES_NIDORINO",
+      "yokai": "Misterre",
+      "sources": [
+        "data/maps/Route12/scripts.inc",
+        "data/maps/Route16/scripts.inc"
+      ]
+    },
+    {
+      "number": 34,
+      "species": "SPECIES_NIDOKING",
+      "yokai": "Métaurolog",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_DIGLETTS_CAVE_B1F"
+      ]
+    },
+    {
+      "number": 35,
+      "species": "SPECIES_CLEFAIRY",
+      "yokai": "Tauracle",
+      "sources": [
+        "Évolution de Métaurolog"
+      ]
+    },
+    {
+      "number": 36,
+      "species": "SPECIES_CLEFABLE",
+      "yokai": "Poulpatouch",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE24",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE25",
+        "Rencontres sauvages Rouge Feu: MAP_SIX_ISLAND_ALTERING_CAVE",
+        "Rencontres sauvages Rouge Feu: MAP_SIX_ISLAND_PATTERN_BUSH",
+        "Rencontres sauvages Rouge Feu: MAP_SIX_ISLAND_RUIN_VALLEY",
+        "Rencontres sauvages Rouge Feu: MAP_SIX_ISLAND_WATER_PATH",
+        "Rencontres sauvages Rouge Feu: MAP_TWO_ISLAND_CAPE_BRINK"
+      ]
+    },
+    {
+      "number": 37,
+      "species": "SPECIES_VULPIX",
+      "yokai": "Poulpater",
+      "sources": [
+        "Évolution de Poulpatouch"
+      ]
+    },
+    {
+      "number": 38,
+      "species": "SPECIES_NINETALES",
+      "yokai": "Bonneto",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_EXTERIOR",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_1F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B1F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B2F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B3F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_SUMMIT_PATH_1F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_SUMMIT_PATH_2F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_SUMMIT_PATH_3F",
+        "Rencontres sauvages Rouge Feu: MAP_ROCK_TUNNEL_1F",
+        "Rencontres sauvages Rouge Feu: MAP_ROCK_TUNNEL_B1F"
+      ]
+    },
+    {
+      "number": 39,
+      "species": "SPECIES_JIGGLYPUFF",
+      "yokai": "Sabri",
+      "sources": [
+        "Évolution de Bonneto"
+      ]
+    },
+    {
+      "number": 40,
+      "species": "SPECIES_WIGGLYTUFF",
+      "yokai": "Démophage",
+      "sources": [
+        "Nouveaux cadeaux postgame, équipe ou PC",
+        "Rencontres sauvages Rouge Feu: MAP_VICTORY_ROAD_1F",
+        "Rencontres sauvages Rouge Feu: MAP_VICTORY_ROAD_2F",
+        "Rencontres sauvages Rouge Feu: MAP_VICTORY_ROAD_3F"
+      ]
+    },
+    {
+      "number": 41,
+      "species": "SPECIES_ZUBAT",
+      "yokai": "Brumette",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_3F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_4F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_5F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_6F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_7F"
+      ]
+    },
+    {
+      "number": 42,
+      "species": "SPECIES_GOLBAT",
+      "yokai": "Brumella",
+      "sources": [
+        "Évolution de Brumette"
+      ]
+    },
+    {
+      "number": 43,
+      "species": "SPECIES_ODDISH",
+      "yokai": "Télémir",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_3F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_4F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_5F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_6F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_7F"
+      ]
+    },
+    {
+      "number": 44,
+      "species": "SPECIES_GLOOM",
+      "yokai": "Triptic-tac",
+      "sources": [
+        "Évolution de Télémir"
+      ]
+    },
+    {
+      "number": 45,
+      "species": "SPECIES_VILEPLUME",
+      "yokai": "Nihilistik",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_VIRIDIAN_FOREST"
+      ]
+    },
+    {
+      "number": 46,
+      "species": "SPECIES_PARAS",
+      "yokai": "Émousstik",
+      "sources": [
+        "Évolution de Nihilistik"
+      ]
+    },
+    {
+      "number": 47,
+      "species": "SPECIES_PARASECT",
+      "yokai": "Humainequin",
+      "sources": [
+        "Échange interne disponible sur une même sauvegarde"
+      ]
+    },
+    {
+      "number": 48,
+      "species": "SPECIES_VENONAT",
+      "yokai": "Slurpent",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_LOST_CAVE_ROOM10",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_LOST_CAVE_ROOM11",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_LOST_CAVE_ROOM12",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_LOST_CAVE_ROOM13",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_LOST_CAVE_ROOM14",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_LOST_CAVE_ROOM2",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_LOST_CAVE_ROOM3",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_LOST_CAVE_ROOM4",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_LOST_CAVE_ROOM5",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_LOST_CAVE_ROOM6",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_LOST_CAVE_ROOM7",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_LOST_CAVE_ROOM8",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_LOST_CAVE_ROOM9"
+      ]
+    },
+    {
+      "number": 49,
+      "species": "SPECIES_VENOMOTH",
+      "yokai": "Baku",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE24",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE25",
+        "Rencontres sauvages Rouge Feu: MAP_SIX_ISLAND_ALTERING_CAVE",
+        "Rencontres sauvages Rouge Feu: MAP_SIX_ISLAND_PATTERN_BUSH",
+        "Rencontres sauvages Rouge Feu: MAP_SIX_ISLAND_RUIN_VALLEY",
+        "Rencontres sauvages Rouge Feu: MAP_SIX_ISLAND_WATER_PATH",
+        "Rencontres sauvages Rouge Feu: MAP_TWO_ISLAND_CAPE_BRINK"
+      ]
+    },
+    {
+      "number": 50,
+      "species": "SPECIES_DIGLETT",
+      "yokai": "Bakuku",
+      "sources": [
+        "Évolution de Baku"
+      ]
+    },
+    {
+      "number": 51,
+      "species": "SPECIES_DUGTRIO",
+      "yokai": "Mognyan",
+      "sources": [
+        "data/maps/SilphCo_3F/scripts.inc"
+      ]
+    },
+    {
+      "number": 52,
+      "species": "SPECIES_MEOWTH",
+      "yokai": "Bouh",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_CERULEAN_CAVE_1F",
+        "Rencontres sauvages Rouge Feu: MAP_CERULEAN_CAVE_2F",
+        "Rencontres sauvages Rouge Feu: MAP_CERULEAN_CAVE_B1F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_EXTERIOR",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_1F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B1F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B2F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B3F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_SUMMIT_PATH_2F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_MOON_1F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_MOON_B1F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_MOON_B2F",
+        "Rencontres sauvages Rouge Feu: MAP_ONE_ISLAND_KINDLE_ROAD",
+        "Rencontres sauvages Rouge Feu: MAP_ROCK_TUNNEL_B1F",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE4",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_SEVAULT_CANYON"
+      ]
+    },
+    {
+      "number": 53,
+      "species": "SPECIES_PERSIAN",
+      "yokai": "Lacanne",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_ONE_ISLAND_KINDLE_ROAD",
+        "Rencontres sauvages Rouge Feu: MAP_ONE_ISLAND_TREASURE_BEACH",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE3",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE4"
+      ]
+    },
+    {
+      "number": 54,
+      "species": "SPECIES_PSYDUCK",
+      "yokai": "Canastelle",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE11"
+      ]
+    },
+    {
+      "number": 55,
+      "species": "SPECIES_GOLDUCK",
+      "yokai": "Yvantouse",
+      "sources": [
+        "data/maps/UndergroundPath_EastWestTunnel/scripts.inc"
+      ]
+    },
+    {
+      "number": 56,
+      "species": "SPECIES_MANKEY",
+      "yokai": "Ed Mémoire",
+      "sources": [
+        "Évolution de Yvantouse"
+      ]
+    },
+    {
+      "number": 57,
+      "species": "SPECIES_PRIMEAPE",
+      "yokai": "Couchtar",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_EXTERIOR",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_1F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B1F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B2F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_RUBY_PATH_B3F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_SUMMIT_PATH_1F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_SUMMIT_PATH_2F",
+        "Rencontres sauvages Rouge Feu: MAP_MT_EMBER_SUMMIT_PATH_3F",
+        "Rencontres sauvages Rouge Feu: MAP_ROCK_TUNNEL_1F",
+        "Rencontres sauvages Rouge Feu: MAP_ROCK_TUNNEL_B1F"
+      ]
+    },
+    {
+      "number": 58,
+      "species": "SPECIES_GROWLITHE",
+      "yokai": "Noctambill",
+      "sources": [
+        "Évolution de Couchtar"
+      ]
+    },
+    {
+      "number": 59,
+      "species": "SPECIES_ARCANINE",
+      "yokai": "Fouetar",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_VICTORY_ROAD_1F",
+        "Rencontres sauvages Rouge Feu: MAP_VICTORY_ROAD_2F",
+        "Rencontres sauvages Rouge Feu: MAP_VICTORY_ROAD_3F"
+      ]
+    },
+    {
+      "number": 60,
+      "species": "SPECIES_POLIWAG",
+      "yokai": "Superfouetar",
+      "sources": [
+        "Évolution de Fouetar"
+      ]
+    },
+    {
+      "number": 61,
+      "species": "SPECIES_POLIWHIRL",
+      "yokai": "Égare-dare",
+      "sources": [
+        "data/maps/SilphCo_5F/scripts.inc"
+      ]
+    },
+    {
+      "number": 62,
+      "species": "SPECIES_POLIWRATH",
+      "yokai": "Charivari",
+      "sources": [
+        "Évolution de Égare-dare"
+      ]
+    },
+    {
+      "number": 63,
+      "species": "SPECIES_ABRA",
+      "yokai": "Chihuaglagla",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_FOUR_ISLAND_ICEFALL_CAVE_1F",
+        "Rencontres sauvages Rouge Feu: MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F",
+        "Rencontres sauvages Rouge Feu: MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK",
+        "Rencontres sauvages Rouge Feu: MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE",
+        "Rencontres sauvages Rouge Feu: MAP_SEAFOAM_ISLANDS_1F",
+        "Rencontres sauvages Rouge Feu: MAP_SEAFOAM_ISLANDS_B1F",
+        "Rencontres sauvages Rouge Feu: MAP_SEAFOAM_ISLANDS_B2F",
+        "Rencontres sauvages Rouge Feu: MAP_SEAFOAM_ISLANDS_B3F",
+        "Rencontres sauvages Rouge Feu: MAP_SEAFOAM_ISLANDS_B4F"
+      ]
+    },
+    {
+      "number": 64,
+      "species": "SPECIES_KADABRA",
+      "yokai": "Frohuahua",
+      "sources": [
+        "Évolution de Chihuaglagla"
+      ]
+    },
+    {
+      "number": 65,
+      "species": "SPECIES_ALAKAZAM",
+      "yokai": "Gorgouille",
+      "sources": [
+        "data/scripts/quete_oni.inc"
+      ]
+    },
+    {
+      "number": 66,
+      "species": "SPECIES_MACHOP",
+      "yokai": "Siréné",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE12"
+      ]
+    },
+    {
+      "number": 67,
+      "species": "SPECIES_MACHOKE",
+      "yokai": "Sirénité",
+      "sources": [
+        "Évolution de Siréné"
+      ]
+    },
+    {
+      "number": 68,
+      "species": "SPECIES_MACHAMP",
+      "yokai": "Papa Ress",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE22"
+      ]
+    },
+    {
+      "number": 69,
+      "species": "SPECIES_BELLSPROUT",
+      "yokai": "Ralbouc",
+      "sources": [
+        "Évolution de Papa Ress"
+      ]
+    },
+    {
+      "number": 70,
+      "species": "SPECIES_WEEPINBELL",
+      "yokai": "Sorcophage",
+      "sources": [
+        "data/maps/CinnabarIsland_PokemonLab_ExperimentRoom/scripts.inc"
+      ]
+    },
+    {
+      "number": 71,
+      "species": "SPECIES_VICTREEBEL",
+      "yokai": "Insomnel",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_3F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_4F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_5F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_6F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_7F"
+      ]
+    },
+    {
+      "number": 72,
+      "species": "SPECIES_TENTACOOL",
+      "yokai": "Tata Aura",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_VICTORY_ROAD_1F",
+        "Rencontres sauvages Rouge Feu: MAP_VICTORY_ROAD_2F",
+        "Rencontres sauvages Rouge Feu: MAP_VICTORY_ROAD_3F"
+      ]
+    },
+    {
+      "number": 73,
+      "species": "SPECIES_TENTACRUEL",
+      "yokai": "Tontonnerre",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_POWER_PLANT"
+      ]
+    },
+    {
+      "number": 74,
+      "species": "SPECIES_GEODUDE",
+      "yokai": "Antonnerre",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_POWER_PLANT"
+      ]
+    },
+    {
+      "number": 75,
+      "species": "SPECIES_GRAVELER",
+      "yokai": "Parantonn",
+      "sources": [
+        "Évolution de Antonnerre"
+      ]
+    },
+    {
+      "number": 76,
+      "species": "SPECIES_GOLEM",
+      "yokai": "Scoltine",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE2",
+        "Échange interne disponible sur une même sauvegarde"
+      ]
+    },
+    {
+      "number": 77,
+      "species": "SPECIES_PONYTA",
+      "yokai": "Scolérique",
+      "sources": [
+        "Évolution de Scoltine"
+      ]
+    },
+    {
+      "number": 78,
+      "species": "SPECIES_RAPIDASH",
+      "yokai": "Coléroptere",
+      "sources": [
+        "Dojo de Safrania: les deux cadeaux ont chacun leur drapeau"
+      ]
+    },
+    {
+      "number": 79,
+      "species": "SPECIES_SLOWPOKE",
+      "yokai": "Rhinolimit",
+      "sources": [
+        "Évolution de Coléroptere"
+      ]
+    },
+    {
+      "number": 80,
+      "species": "SPECIES_SLOWBRO",
+      "yokai": "Scatcheur",
+      "sources": [
+        "Dojo de Safrania: les deux cadeaux ont chacun leur drapeau"
+      ]
+    },
+    {
+      "number": 81,
+      "species": "SPECIES_MAGNEMITE",
+      "yokai": "Scarmouche",
+      "sources": [
+        "Évolution de Scatcheur"
+      ]
+    },
+    {
+      "number": 82,
+      "species": "SPECIES_MAGNETON",
+      "yokai": "Noko",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_CENTER",
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_EAST",
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_NORTH",
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_WEST"
+      ]
+    },
+    {
+      "number": 83,
+      "species": "SPECIES_FARFETCHD",
+      "yokai": "Nénunoko",
+      "sources": [
+        "Échange interne disponible sur une même sauvegarde"
+      ]
+    },
+    {
+      "number": 84,
+      "species": "SPECIES_DODUO",
+      "yokai": "Trytik",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_CERULEAN_CAVE_1F",
+        "Rencontres sauvages Rouge Feu: MAP_CERULEAN_CAVE_2F",
+        "Rencontres sauvages Rouge Feu: MAP_CERULEAN_CAVE_B1F"
+      ]
+    },
+    {
+      "number": 85,
+      "species": "SPECIES_DODRIO",
+      "yokai": "Carpitaine",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_CENTER",
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_EAST",
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_NORTH",
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_WEST",
+        "Échange interne disponible sur une même sauvegarde"
+      ]
+    },
+    {
+      "number": 86,
+      "species": "SPECIES_SEEL",
+      "yokai": "Turboss",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_SEAFOAM_ISLANDS_1F",
+        "Rencontres sauvages Rouge Feu: MAP_SEAFOAM_ISLANDS_B1F",
+        "Rencontres sauvages Rouge Feu: MAP_SEAFOAM_ISLANDS_B2F",
+        "Rencontres sauvages Rouge Feu: MAP_SEAFOAM_ISLANDS_B3F",
+        "Rencontres sauvages Rouge Feu: MAP_SEAFOAM_ISLANDS_B4F"
+      ]
+    },
+    {
+      "number": 87,
+      "species": "SPECIES_DEWGONG",
+      "yokai": "Kappacap",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_SEVAULT_CANYON"
+      ]
+    },
+    {
+      "number": 88,
+      "species": "SPECIES_GRIMER",
+      "yokai": "Appak",
+      "sources": [
+        "Évolution de Kappacap"
+      ]
+    },
+    {
+      "number": 89,
+      "species": "SPECIES_MUK",
+      "yokai": "Camaueil",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_CENTER",
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_EAST",
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_NORTH",
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_WEST"
+      ]
+    },
+    {
+      "number": 90,
+      "species": "SPECIES_SHELLDER",
+      "yokai": "Glapie",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_MANSION_1F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_MANSION_2F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_MANSION_3F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_MANSION_B1F"
+      ]
+    },
+    {
+      "number": 91,
+      "species": "SPECIES_CLOYSTER",
+      "yokai": "Chiperpiou",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE1",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE21_NORTH",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE21_SOUTH"
+      ]
+    },
+    {
+      "number": 92,
+      "species": "SPECIES_GASTLY",
+      "yokai": "Rapiaf",
+      "sources": [
+        "Évolution de Chiperpiou"
+      ]
+    },
+    {
+      "number": 93,
+      "species": "SPECIES_HAUNTER",
+      "yokai": "Tête de lard",
+      "sources": [
+        "data/maps/UndergroundPath_NorthSouthTunnel/scripts.inc"
+      ]
+    },
+    {
+      "number": 94,
+      "species": "SPECIES_GENGAR",
+      "yokai": "Potache",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_DIGLETTS_CAVE_B1F"
+      ]
+    },
+    {
+      "number": 95,
+      "species": "SPECIES_ONIX",
+      "yokai": "Dépotache",
+      "sources": [
+        "Évolution de Potache"
+      ]
+    },
+    {
+      "number": 96,
+      "species": "SPECIES_DROWZEE",
+      "yokai": "Navétéran",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE19",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE20",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE21_NORTH",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE21_SOUTH",
+        "data/maps/SSAnne_1F_Corridor/scripts.inc"
+      ]
+    },
+    {
+      "number": 97,
+      "species": "SPECIES_HYPNO",
+      "yokai": "Navigarmateur",
+      "sources": [
+        "data/maps/ThreeIsland_BerryForest/scripts.inc"
+      ]
+    },
+    {
+      "number": 98,
+      "species": "SPECIES_KRABBY",
+      "yokai": "Sergent Rampant",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_CENTER",
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_EAST",
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_NORTH",
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_WEST"
+      ]
+    },
+    {
+      "number": 99,
+      "species": "SPECIES_KINGLER",
+      "yokai": "Coach Antonic",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_MANSION_1F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_MANSION_2F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_MANSION_3F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_MANSION_B1F"
+      ]
+    },
+    {
+      "number": 100,
+      "species": "SPECIES_VOLTORB",
+      "yokai": "Usapion",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_POWER_PLANT"
+      ]
+    },
+    {
+      "number": 101,
+      "species": "SPECIES_ELECTRODE",
+      "yokai": "Emperor",
+      "sources": [
+        "data/maps/PowerPlant/scripts.inc"
+      ]
+    },
+    {
+      "number": 102,
+      "species": "SPECIES_EXEGGCUTE",
+      "yokai": "Castelius III",
+      "sources": [
+        "data/maps/Route4_PokemonCenter_1F/scripts.inc"
+      ]
+    },
+    {
+      "number": 103,
+      "species": "SPECIES_EXEGGUTOR",
+      "yokai": "Castelius II",
+      "sources": [
+        "Évolution de Castelius III"
+      ]
+    },
+    {
+      "number": 104,
+      "species": "SPECIES_CUBONE",
+      "yokai": "Castelius I",
+      "sources": [
+        "Évolution de Castelius II"
+      ]
+    },
+    {
+      "number": 105,
+      "species": "SPECIES_MAROWAK",
+      "yokai": "Castelius Max",
+      "sources": [
+        "data/maps/PokemonTower_6F/scripts.inc"
+      ]
+    },
+    {
+      "number": 106,
+      "species": "SPECIES_HITMONLEE",
+      "yokai": "Pitou",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_MEADOW",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_MEMORIAL_PILLAR",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE12",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE13",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE14",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE15",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE18",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE21_NORTH",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE21_SOUTH",
+        "Rencontres sauvages Rouge Feu: MAP_THREE_ISLAND_BERRY_FOREST",
+        "Rencontres sauvages Rouge Feu: MAP_THREE_ISLAND_BOND_BRIDGE",
+        "Rencontres sauvages Rouge Feu: MAP_THREE_ISLAND_PORT"
+      ]
+    },
+    {
+      "number": 107,
+      "species": "SPECIES_HITMONCHAN",
+      "yokai": "Choubidou",
+      "sources": [
+        "Évolution de Pitou"
+      ]
+    },
+    {
+      "number": 108,
+      "species": "SPECIES_LICKITUNG",
+      "yokai": "Arbrézo",
+      "sources": [
+        "data/maps/SilphCo_9F/scripts.inc",
+        "Échange interne disponible sur une même sauvegarde"
+      ]
+    },
+    {
+      "number": 109,
+      "species": "SPECIES_KOFFING",
+      "yokai": "Abrézo Social",
+      "sources": [
+        "Évolution de Arbrézo"
+      ]
+    },
+    {
+      "number": 110,
+      "species": "SPECIES_WEEZING",
+      "yokai": "Espreschiot",
+      "sources": [
+        "data/maps/RocketHideout_B1F/scripts.inc"
+      ]
+    },
+    {
+      "number": 111,
+      "species": "SPECIES_RHYHORN",
+      "yokai": "Duc DeLaFeuille",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_ONE_ISLAND_KINDLE_ROAD",
+        "Rencontres sauvages Rouge Feu: MAP_ONE_ISLAND_TREASURE_BEACH",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE10",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE9"
+      ]
+    },
+    {
+      "number": 112,
+      "species": "SPECIES_RHYDON",
+      "yokai": "FeuildeChou",
+      "sources": [
+        "Évolution de Duc DeLaFeuille"
+      ]
+    },
+    {
+      "number": 113,
+      "species": "SPECIES_CHANSEY",
+      "yokai": "Sal de bain",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE7",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE8"
+      ]
+    },
+    {
+      "number": 114,
+      "species": "SPECIES_TANGELA",
+      "yokai": "XXL de bain",
+      "sources": [
+        "Échange interne disponible sur une même sauvegarde"
+      ]
+    },
+    {
+      "number": 115,
+      "species": "SPECIES_KANGASKHAN",
+      "yokai": "Tristos",
+      "sources": [
+        "data/maps/CinnabarIsland_PokemonLab_ExperimentRoom/scripts.inc"
+      ]
+    },
+    {
+      "number": 116,
+      "species": "SPECIES_HORSEA",
+      "yokai": "Rocky Badboya",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE8"
+      ]
+    },
+    {
+      "number": 117,
+      "species": "SPECIES_SEADRA",
+      "yokai": "Raton Glandeur",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_CELADON_CITY",
+        "Rencontres sauvages Rouge Feu: MAP_CERULEAN_CITY",
+        "Rencontres sauvages Rouge Feu: MAP_CINNABAR_ISLAND",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_MEADOW",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_MEMORIAL_PILLAR",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_RESORT_GORGEOUS",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_WATER_LABYRINTH",
+        "Rencontres sauvages Rouge Feu: MAP_FOUR_ISLAND",
+        "Rencontres sauvages Rouge Feu: MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK",
+        "Rencontres sauvages Rouge Feu: MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE",
+        "Rencontres sauvages Rouge Feu: MAP_FUCHSIA_CITY",
+        "Rencontres sauvages Rouge Feu: MAP_ONE_ISLAND",
+        "Rencontres sauvages Rouge Feu: MAP_ONE_ISLAND_KINDLE_ROAD",
+        "Rencontres sauvages Rouge Feu: MAP_ONE_ISLAND_TREASURE_BEACH",
+        "Rencontres sauvages Rouge Feu: MAP_PALLET_TOWN",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE10",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE11",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE12",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE13",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE19",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE20",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE21_NORTH",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE21_SOUTH",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE22",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE23",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE24",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE25",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE4",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE6",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TRAINER_TOWER",
+        "Rencontres sauvages Rouge Feu: MAP_SIX_ISLAND_GREEN_PATH",
+        "Rencontres sauvages Rouge Feu: MAP_SIX_ISLAND_OUTCAST_ISLAND",
+        "Rencontres sauvages Rouge Feu: MAP_SIX_ISLAND_RUIN_VALLEY",
+        "Rencontres sauvages Rouge Feu: MAP_SIX_ISLAND_WATER_PATH",
+        "Rencontres sauvages Rouge Feu: MAP_SSANNE_EXTERIOR",
+        "Rencontres sauvages Rouge Feu: MAP_THREE_ISLAND_BERRY_FOREST",
+        "Rencontres sauvages Rouge Feu: MAP_THREE_ISLAND_BOND_BRIDGE",
+        "Rencontres sauvages Rouge Feu: MAP_TWO_ISLAND_CAPE_BRINK",
+        "Rencontres sauvages Rouge Feu: MAP_VERMILION_CITY",
+        "Rencontres sauvages Rouge Feu: MAP_VIRIDIAN_CITY"
+      ]
+    },
+    {
+      "number": 118,
+      "species": "SPECIES_GOLDEEN",
+      "yokai": "Vertipiou",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_VIRIDIAN_FOREST"
+      ]
+    },
+    {
+      "number": 119,
+      "species": "SPECIES_SEAKING",
+      "yokai": "Samoussrai",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE11",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE12"
+      ]
+    },
+    {
+      "number": 120,
+      "species": "SPECIES_STARYU",
+      "yokai": "Ronimpec",
+      "sources": [
+        "Évolution de Samoussrai"
+      ]
+    },
+    {
+      "number": 121,
+      "species": "SPECIES_STARMIE",
+      "yokai": "Moufpète",
+      "sources": [
+        "data/maps/RocketHideout_B2F/scripts.inc"
+      ]
+    },
+    {
+      "number": 122,
+      "species": "SPECIES_MR_MIME",
+      "yokai": "Gloups",
+      "sources": [
+        "data/maps/RocketHideout_B3F/scripts.inc"
+      ]
+    },
+    {
+      "number": 123,
+      "species": "SPECIES_SCYTHER",
+      "yokai": "Chip-Chop",
+      "sources": [
+        "Évolution de Gloups"
+      ]
+    },
+    {
+      "number": 124,
+      "species": "SPECIES_JYNX",
+      "yokai": "Chaipo",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_3F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_4F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_5F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_6F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_7F",
+        "Échange interne disponible sur une même sauvegarde"
+      ]
+    },
+    {
+      "number": 125,
+      "species": "SPECIES_ELECTABUZZ",
+      "yokai": "Mémogre",
+      "sources": [
+        "Évolution de Chaipo"
+      ]
+    },
+    {
+      "number": 126,
+      "species": "SPECIES_MAGMAR",
+      "yokai": "Jojojoyeux",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_MEADOW",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_MEMORIAL_PILLAR",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE13",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE14",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE15",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE18",
+        "Rencontres sauvages Rouge Feu: MAP_THREE_ISLAND_BERRY_FOREST",
+        "Rencontres sauvages Rouge Feu: MAP_THREE_ISLAND_BOND_BRIDGE",
+        "Rencontres sauvages Rouge Feu: MAP_THREE_ISLAND_PORT"
+      ]
+    },
+    {
+      "number": 127,
+      "species": "SPECIES_PINSIR",
+      "yokai": "Chauvkipeut",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_MEADOW",
+        "Rencontres sauvages Rouge Feu: MAP_FIVE_ISLAND_MEMORIAL_PILLAR",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE16",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE17",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE18",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS_DILFORD_CHAMBER",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS_LIPTOO_CHAMBER",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS_RIXY_CHAMBER",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS_SCUFIB_CHAMBER",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS_VIAPOIS_CHAMBER",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS_WEEPTH_CHAMBER"
+      ]
+    },
+    {
+      "number": 128,
+      "species": "SPECIES_TAUROS",
+      "yokai": "Chauv'coucou",
+      "sources": [
+        "Évolution de Chauvkipeut"
+      ]
+    },
+    {
+      "number": 129,
+      "species": "SPECIES_MAGIKARP",
+      "yokai": "Pachycool",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_CENTER",
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_EAST",
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_NORTH",
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_WEST"
+      ]
+    },
+    {
+      "number": 130,
+      "species": "SPECIES_GYARADOS",
+      "yokai": "Pachypipi",
+      "sources": [
+        "Évolution de Pachycool"
+      ]
+    },
+    {
+      "number": 131,
+      "species": "SPECIES_LAPRAS",
+      "yokai": "Loubarbare",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE16",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE17",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE18",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS_DILFORD_CHAMBER",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS_LIPTOO_CHAMBER",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS_RIXY_CHAMBER",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS_SCUFIB_CHAMBER",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS_VIAPOIS_CHAMBER",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS_WEEPTH_CHAMBER"
+      ]
+    },
+    {
+      "number": 132,
+      "species": "SPECIES_DITTO",
+      "yokai": "Racaïd",
+      "sources": [
+        "Évolution de Loubarbare"
+      ]
+    },
+    {
+      "number": 133,
+      "species": "SPECIES_EEVEE",
+      "yokai": "Terminyanator",
+      "sources": [
+        "data/maps/Route17/scripts.inc"
+      ]
+    },
+    {
+      "number": 134,
+      "species": "SPECIES_VAPOREON",
+      "yokai": "Sabruine",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE19",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE20",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE21_NORTH",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE21_SOUTH"
+      ]
+    },
+    {
+      "number": 135,
+      "species": "SPECIES_JOLTEON",
+      "yokai": "Sabrille",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE7",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE8"
+      ]
+    },
+    {
+      "number": 136,
+      "species": "SPECIES_FLAREON",
+      "yokai": "Fourchelang",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_VICTORY_ROAD_1F",
+        "Rencontres sauvages Rouge Feu: MAP_VICTORY_ROAD_2F",
+        "Rencontres sauvages Rouge Feu: MAP_VICTORY_ROAD_3F"
+      ]
+    },
+    {
+      "number": 137,
+      "species": "SPECIES_PORYGON",
+      "yokai": "Felipaix",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_DIGLETTS_CAVE_B1F"
+      ]
+    },
+    {
+      "number": 138,
+      "species": "SPECIES_OMANYTE",
+      "yokai": "M. Felipaix",
+      "sources": [
+        "Évolution de Felipaix"
+      ]
+    },
+    {
+      "number": 139,
+      "species": "SPECIES_OMASTAR",
+      "yokai": "Doyaris",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_CENTER",
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_EAST",
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_NORTH",
+        "Rencontres sauvages Rouge Feu: MAP_SAFARI_ZONE_WEST",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS_DILFORD_CHAMBER",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS_LIPTOO_CHAMBER",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS_RIXY_CHAMBER",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS_SCUFIB_CHAMBER",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS_VIAPOIS_CHAMBER",
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_TANOBY_RUINS_WEEPTH_CHAMBER",
+        "Rencontres sauvages Rouge Feu: MAP_SIX_ISLAND_ALTERING_CAVE",
+        "Rencontres sauvages Rouge Feu: MAP_SIX_ISLAND_PATTERN_BUSH",
+        "Rencontres sauvages Rouge Feu: MAP_SIX_ISLAND_RUIN_VALLEY",
+        "Rencontres sauvages Rouge Feu: MAP_SIX_ISLAND_WATER_PATH",
+        "Rencontres sauvages Rouge Feu: MAP_THREE_ISLAND_BERRY_FOREST",
+        "Rencontres sauvages Rouge Feu: MAP_THREE_ISLAND_BOND_BRIDGE",
+        "Rencontres sauvages Rouge Feu: MAP_THREE_ISLAND_PORT"
+      ]
+    },
+    {
+      "number": 140,
+      "species": "SPECIES_KABUTO",
+      "yokai": "Doyen Doyaris",
+      "sources": [
+        "Évolution de Doyaris"
+      ]
+    },
+    {
+      "number": 141,
+      "species": "SPECIES_KABUTOPS",
+      "yokai": "Volroulo",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE23"
+      ]
+    },
+    {
+      "number": 142,
+      "species": "SPECIES_AERODACTYL",
+      "yokai": "Lulugubre",
+      "sources": [
+        "data/maps/RocketHideout_B4F/scripts.inc"
+      ]
+    },
+    {
+      "number": 143,
+      "species": "SPECIES_SNORLAX",
+      "yokai": "Toumou",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_3F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_4F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_5F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_6F",
+        "Rencontres sauvages Rouge Feu: MAP_POKEMON_TOWER_7F"
+      ]
+    },
+    {
+      "number": 144,
+      "species": "SPECIES_ARTICUNO",
+      "yokai": "Lamlam'mou",
+      "sources": [
+        "Évolution de Toumou"
+      ]
+    },
+    {
+      "number": 145,
+      "species": "SPECIES_ZAPDOS",
+      "yokai": "Savantard",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_CERULEAN_CAVE_1F",
+        "Rencontres sauvages Rouge Feu: MAP_CERULEAN_CAVE_2F",
+        "Rencontres sauvages Rouge Feu: MAP_CERULEAN_CAVE_B1F"
+      ]
+    },
+    {
+      "number": 146,
+      "species": "SPECIES_MOLTRES",
+      "yokai": "Loupépin",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_ONE_ISLAND_KINDLE_ROAD",
+        "Rencontres sauvages Rouge Feu: MAP_ONE_ISLAND_TREASURE_BEACH",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE3",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE4"
+      ]
+    },
+    {
+      "number": 147,
+      "species": "SPECIES_DRATINI",
+      "yokai": "Mademoaiselle",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_VICTORY_ROAD_3F"
+      ]
+    },
+    {
+      "number": 148,
+      "species": "SPECIES_DRAGONAIR",
+      "yokai": "Maître Nyada",
+      "sources": [
+        "Nouveaux cadeaux postgame, équipe ou PC"
+      ]
+    },
+    {
+      "number": 149,
+      "species": "SPECIES_DRAGONITE",
+      "yokai": "Hovernyan",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_SEVEN_ISLAND_SEVAULT_CANYON",
+        "data/maps/CinnabarIsland_Gym/scripts.inc"
+      ]
+    },
+    {
+      "number": 150,
+      "species": "SPECIES_MEWTWO",
+      "yokai": "Enma",
+      "sources": [
+        "data/maps/CeruleanCave_B1F/scripts.inc"
+      ]
+    },
+    {
+      "number": 151,
+      "species": "SPECIES_MEW",
+      "yokai": "Raltesse",
+      "sources": [
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE5",
+        "Rencontres sauvages Rouge Feu: MAP_ROUTE6",
+        "Rencontres sauvages Rouge Feu: MAP_TWO_ISLAND_CAPE_BRINK"
+      ]
+    }
+  ],
+  "scope": "Audit statique des sources accessibles et des évolutions; les scripts et les cadeaux sont complétés par des fixtures mGBA. Ne prétend pas être une partie complète."
+}

@@ -19,6 +19,7 @@ SeafoamIslands_B4F_EventScript_TryRemoveArticuno::
 	return
 
 SeafoamIslands_B4F_OnTransition::
+	special PostgameSync
 	call_if_unset FLAG_FOUGHT_ARTICUNO, SeafoamIslands_B4F_EventScript_ShowArticuno
 	call_if_unset FLAG_STOPPED_SEAFOAM_B4F_CURRENT, SeafoamIslands_B4F_EventScript_CheckStoppedCurrent
 	call_if_set FLAG_STOPPED_SEAFOAM_B4F_CURRENT, SeafoamIslands_B4F_EventScript_SetNoCurrentLayout
@@ -40,7 +41,8 @@ SeafoamIslands_B4F_EventScript_SetNoCurrentLayout::
 	return
 
 SeafoamIslands_B4F_EventScript_ShowArticuno::
-	clearflag FLAG_HIDE_ARTICUNO
+	special PostgameSync
+	@ Quest sync chooses visibility; no unconditional restoration.
 	return
 
 SeafoamIslands_B4F_OnLoad::

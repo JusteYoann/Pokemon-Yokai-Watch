@@ -1,6 +1,7 @@
 #include "philosovni.h"
 #include "yokai_champions.h"
 #include "global.h"
+#include "postgame_quests.h"
 #include "terre_heure.h"
 #include "nuzlocke.h"
 #include "lavanville.h"
@@ -1641,6 +1642,8 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum)
             }
             }
         }
+
+        if(trainerNum==TRAINER_PG_SCIENTIST_3)PostgameMakeScientistShiny(&party[0]);
 
         // Boss documents may choose either of the species' two validated abilities.
         // Apply the slot after creation; no per-mon layout or PID mutation is needed.

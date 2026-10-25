@@ -3,6 +3,7 @@ SaffronCity_MapScripts::
 	.byte 0
 
 SaffronCity_OnTransition::
+	special PostgameSync
 	setworldmapflag FLAG_WORLD_MAP_SAFFRON_CITY
 	call_if_unset FLAG_GOT_POKE_FLUTE, SaffronCity_EventScript_MoveDoorGuardGrunt
 	end

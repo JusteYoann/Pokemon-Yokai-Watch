@@ -1328,3 +1328,5 @@ Text_TestMsg::
 	.include "data/scripts/quete_oni.inc"
 
 	.include "data/scripts/terre_heure.inc"
+
+	.include "data/scripts/postgame_quests.inc"

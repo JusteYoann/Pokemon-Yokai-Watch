@@ -1,0 +1,49 @@
+{
+  "rom_sha256": "64de51a65db083fbe5bba74285c857508383cc01db223837d6f07d12221a942b",
+  "tests_cibles": [
+    {
+      "file": "TESTS_CADEAUX.json",
+      "nombre": 11,
+      "passed": true
+    },
+    {
+      "file": "TESTS_CREDITS.json",
+      "nombre": 2,
+      "passed": true
+    },
+    {
+      "file": "TESTS_DEFAITE_ONI.json",
+      "nombre": 3,
+      "passed": true
+    },
+    {
+      "file": "TESTS_REGRESSIONS.json",
+      "nombre": 4,
+      "passed": true
+    },
+    {
+      "file": "TESTS_SCENES.json",
+      "nombre": 9,
+      "passed": true
+    },
+    {
+      "file": "TESTS_SCIENTIFIQUE.json",
+      "nombre": 5,
+      "passed": true
+    },
+    {
+      "file": "TESTS_STATIQUES.json",
+      "nombre": 8,
+      "passed": true
+    },
+    {
+      "file": "TESTS_TOUR.json",
+      "nombre": 9,
+      "passed": true
+    }
+  ],
+  "nombre_controles": 51,
+  "films_continus_avec_audio": 2,
+  "audit_151_sans_espece_inconnue": true,
+  "partie_complete_jouee": false
+}

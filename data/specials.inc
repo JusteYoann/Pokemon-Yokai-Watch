@@ -479,4 +479,10 @@ gSpecials::
 	def_special TerreHeureBattleResult
 	def_special TerreHeureReward
 	def_special TerreHeureTier
+
+	def_special PostgameSync
+	def_special PostgameArmIntro
+	def_special PostgameHaveFriends
+	def_special PostgameGiveGift
+	def_special PostgameGiveTicket
 gSpecialsEnd::

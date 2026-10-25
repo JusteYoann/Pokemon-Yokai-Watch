@@ -3,5 +3,6 @@ CeruleanCave_1F_MapScripts::
 	.byte 0
 
 CeruleanCave_1F_OnTransition::
+	special PostgameSync
 	setworldmapflag FLAG_WORLD_MAP_CERULEAN_CAVE_1F
 	end

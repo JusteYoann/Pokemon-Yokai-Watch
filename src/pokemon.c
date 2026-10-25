@@ -5918,6 +5918,11 @@ static u16 GetBattleBGM(void)
     {
         switch (gTrainerBattleOpponent_A)
         {
+        case TRAINER_PG_DEMOPHAGE:
+        case TRAINER_PG_NYADA_FINAL: return MUS_YOKAI_BOSS_YOKAI;
+        case TRAINER_PG_SCIENTIST_1:
+        case TRAINER_PG_SCIENTIST_2:
+        case TRAINER_PG_SCIENTIST_3: return MUS_YOKAI_ROBON_ARRIVES;
         case TRAINER_ELITE_FOUR_LORELEI:
         case TRAINER_ELITE_FOUR_BRUNO:
         case TRAINER_ELITE_FOUR_AGATHA:

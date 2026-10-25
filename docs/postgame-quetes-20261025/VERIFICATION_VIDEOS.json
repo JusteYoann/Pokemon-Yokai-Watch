@@ -1,0 +1,62 @@
+[
+  {
+    "fichier": "domniscian-arene-avec-son-mgba.mp4",
+    "duree": "305.253019",
+    "taille": "12837123",
+    "flux": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "975589/16334",
+        "sample_rate": null,
+        "channels": null,
+        "duration": "305.253019"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "duration": "305.253000"
+      }
+    ],
+    "extrait_audio_verifie_secondes": 30,
+    "volume_moyen_db": -33.0,
+    "pic_db": -12.0
+  },
+  {
+    "fichier": "combat-final-credits-redemarrage-mgba.mp4",
+    "duree": "937.273436",
+    "taille": "39068694",
+    "flux": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 720,
+        "height": 480,
+        "r_frame_rate": "975589/16334",
+        "sample_rate": null,
+        "channels": null,
+        "duration": "937.273436"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "duration": "937.273000"
+      }
+    ],
+    "extrait_audio_verifie_secondes": 30,
+    "volume_moyen_db": -29.6,
+    "pic_db": -9.9
+  }
+]
