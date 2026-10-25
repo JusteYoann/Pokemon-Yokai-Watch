@@ -207,15 +207,19 @@ int ProcessPlayerFieldInput(struct FieldInput *input)
     FieldClearPlayerInput(&gFieldInputRecord);
     gFieldInputRecord.dpadDirection = input->dpadDirection;
 
-    if (CheckForTrainersWantingBattle() == TRUE)
-        return TRUE;
+    TerreHeureInputStep(input->tookStep);
 
     if (!TerreHeureActive() && TryRunOnFrameMapScript() == TRUE)
         return TRUE;
 
+    // A due Terr’heure wins this frame before a trainer can queue an approach.
+    if (TerreHeureTryStep()) return TRUE;
+
+    if (CheckForTrainersWantingBattle() == TRUE)
+        return TRUE;
+
     if (input->tookStep)
     {
-        if (TerreHeureTryStep()) return TRUE;
         IncrementGameStat(GAME_STAT_STEPS);
         WonderNews_IncrementStepCounter();
         IncrementRenewableHiddenItemStepCounter();

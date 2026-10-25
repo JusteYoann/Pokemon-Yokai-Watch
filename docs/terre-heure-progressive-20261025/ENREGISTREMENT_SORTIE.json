@@ -1,0 +1,25 @@
+{
+  "rom_sha256": "6fa4668ae1c5cfb3562ae769044e03d69b6473375dce326f20ad65cb6450e4bc",
+  "video": "declenchement-porte-sortie-mgba.mp4",
+  "video_sha256": "e18f8d559c74762ff91bf03ea98fb42212fec8367294f1b26c28de026001f53f",
+  "scope": "Continuous mGBA recording: normal cave, native trigger, escape door and ten seconds after return.\nOnly the starting map, party and encounter eligibility are prepared. Once the\nrecording starts, only controller input is used; no warp, timer edit or battle\noutcome is injected. Raw native video and audio are encoded without cuts.\n",
+  "preparation": {
+    "tirage_porte_natif_seed": 7,
+    "depart": "Visite réussie préparée juste avant son dernier pas programmé. Équipe et position préparées avant capture. Aucune mutation RAM ni téléportation pendant la vidéo."
+  },
+  "frames": 3003,
+  "fps": 59.727500915527344,
+  "duree_secondes": 50.278,
+  "taille_octets": 12804826,
+  "evenements_secondes": {
+    "declenchement": 1.925411213213903,
+    "transformation": 8.237411451315133,
+    "texte_intro": 13.59507743591034,
+    "exploration": 21.799003474821752,
+    "interaction_porte": 31.72742825252475,
+    "sortie_controles_rendus": 40.249465709271504
+  },
+  "chronometre": "Durée normale de 360 secondes, jamais modifiée pendant la capture. Sortie par interaction réelle avec la porte; chronomètre non modifié.",
+  "montage": "Continu, sans coupe ni accélération. Image agrandie x3 au plus proche voisin.",
+  "audio": "Sortie directe mGBA, encodée en AAC 48 kHz pour le MP4. Aucune OST modifiée."
+}

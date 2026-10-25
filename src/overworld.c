@@ -1799,6 +1799,7 @@ static void VBlankCB_Field(void)
 {
     LoadOam();
     ProcessSpriteCopyRequests();
+    TerreHeureFadeResidents();
     ScanlineEffect_InitHBlankDmaTransfer();
     FieldUpdateBgTilemapScroll();
     TransferPlttBuffer();

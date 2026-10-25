@@ -1,0 +1,23 @@
+{
+  "rom_sha256": "6fa4668ae1c5cfb3562ae769044e03d69b6473375dce326f20ad65cb6450e4bc",
+  "scope": "Fixtures mGBA: tirage d’entrée, délai persistant, priorité réelle sur Iris, sauvegarde/Continuer.",
+  "checks": [
+    "Taux natifs exacts 5/15 % aventure et 10/30 % postgame; plusieurs Shorts ne se cumulent pas",
+    "Tirage réussi et échec reproduits; un succès programme secrètement entre 30 et 150 pas",
+    "Un échec reste consommé pendant toute la visite, même après 160 pas",
+    "Attendre immobile ne fait ni avancer le compteur ni relancer le tirage",
+    "Déclenchement exactement au 30e pas natif; première rencontre enregistrée dès le début",
+    "Déclenchement exactement au 150e pas natif; première rencontre enregistrée dès le début",
+    "Compteur de 73 pas conservé après changement d’étage du même massif",
+    "Sortie complète annule le compteur; nouvelle entrée réarme un unique tirage",
+    "Un seuil atteint sur un escalier attend la fin de la transition et se lance une seule fois sur terrain sûr",
+    "Seuil atteint sous verrouillage: attente persistante puis lancement unique lorsque le terrain est sûr",
+    "Garantie tardive à la Route Victoire avant la première rencontre; pas de garantie systématique au Mont Sélénite",
+    "Grotte Bakuku et petits étages de passage: aucun déclenchement",
+    "Grotte Azurée protégée tant que le marqueur réservé de quête Nyada est actif",
+    "Vrai pas manette dans le regard d’Iris: Terr’heure prioritaire, aucune tâche d’approche ni dialogue de Dresseur créé",
+    "Retour normal pendant 180 frames: Iris restaurée et non vaincue, aucun dialogue ou combat fantôme",
+    "Une rencontre normale ultérieure relance effectivement le combat d’Iris",
+    "Sauvegarde native et Continuer: résultat de visite et compteur de 73 pas conservés sans nouveau tirage"
+  ]
+}

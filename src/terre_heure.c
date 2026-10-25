@@ -41,7 +41,12 @@
 
 #define TH_LOCAL 230
 #define TH_NONE 255
-#define TH_SECONDS 180
+#define TH_SECONDS 360
+#define TH_PATROLS 8
+#define TH_EXTRA_PATROL_FIRST (TH_LOCAL+6)
+
+static void MaintainPatrols(bool8 initial);
+static u8 PatrolLocal(u8 index) { return index<2?TH_LOCAL+1+index:TH_EXTRA_PATROL_FIRST+index-2; }
 struct ThPoint { u8 x, y, component; };
 struct ThMap { u8 group, num, width, height, cave, pursuers; const u8 *labels; const struct ThPoint *points; u8 count; };
 #include "data/terre_heure_maps.h"
@@ -84,9 +89,23 @@ static u8 Object(u8 local)
 }
 const struct ObjectEventTemplate *TerreHeureTemplate(u8 localId, u8 num, u8 group)
 {
-    if (sTh.active && localId >= TH_LOCAL && localId < TH_LOCAL + 6
-        && group == gSaveBlock1Ptr->location.mapGroup && num == gSaveBlock1Ptr->location.mapNum)
-        return &sTh.templates[localId - TH_LOCAL];
+    if (sTh.active && group == gSaveBlock1Ptr->location.mapGroup && num == gSaveBlock1Ptr->location.mapNum) {
+        if(localId==TH_LOCAL+1 || localId==TH_LOCAL+2 || (localId>=TH_EXTRA_PATROL_FIRST && localId<TH_EXTRA_PATROL_FIRST+TH_PATROLS-2)) {
+            u8 id=Object(localId);
+            if(id<OBJECT_EVENTS_COUNT) {
+                // Extra patrols share a script-only template; coordinates live in
+                // their native ObjectEvent. No extra persistent RAM is required.
+                struct ObjectEventTemplate *t=&sTh.templates[2];
+                t->localId=localId;t->graphicsId=OBJ_EVENT_GFX_PATROUILLE_ONI;
+                t->x=gObjectEvents[id].currentCoords.x-7;t->y=gObjectEvents[id].currentCoords.y-7;
+                t->objUnion.normal.elevation=gObjectEvents[id].currentElevation;
+                t->objUnion.normal.movementType=MOVEMENT_TYPE_FACE_DOWN;
+                t->script=TerreHeure_EventScript_Blocked;
+                return t;
+            }
+        }
+        if(localId>=TH_LOCAL && localId<TH_LOCAL+6)return &sTh.templates[localId-TH_LOCAL];
+    }
     return NULL;
 }
 static bool8 IsFree(s16 x, s16 y)
@@ -109,8 +128,10 @@ static void Spawn(u8 slot, u8 gfx, u8 x, u8 y, const u8 *script)
 static void RemovePursuers(void)
 {
     u8 i;
-    for(i=0;i<3;i++) if(Object(TH_LOCAL+i)<OBJECT_EVENTS_COUNT)
-        RemoveObjectEventByLocalIdAndMap(TH_LOCAL+i,gSaveBlock1Ptr->location.mapNum,gSaveBlock1Ptr->location.mapGroup);
+    for(i=0;i<=TH_PATROLS;i++) {
+        u8 local=i?PatrolLocal(i-1):TH_LOCAL;
+        if(Object(local)<OBJECT_EVENTS_COUNT)RemoveObjectEventByLocalIdAndMap(local,gSaveBlock1Ptr->location.mapNum,gSaveBlock1Ptr->location.mapGroup);
+    }
 }
 static bool8 WasPicked(u8 slot)
 {
@@ -145,8 +166,54 @@ static void Populate(void)
         }
         if(k==5)break;
     }
+    MaintainPatrols(TRUE);
     sTh.alerted=FALSE;sTh.seen=FALSE;sTh.direction=0;sTh.aiDelay=0;
     PlayNewMapMusic(MUS_YOKAI_INFINITE_TUNNEL);
+}
+// Keep patrols spread through open ground near the camera. Distant patrols
+// are recycled only when off screen; occupied cells, warps and chokepoints are excluded.
+static void MaintainPatrols(bool8 initial)
+{
+    const struct ThMap *map=&sThMaps[sTh.map];
+    s16 px,py,x,y,bx,by,score,best,distance,nearest;
+    u8 i,j,id,near=0,neighbors,co;
+    if(!map->pursuers || sTh.freeRoam)return;
+    PlayerGetDestCoords(&px,&py);px-=7;py-=7;co=Component(map,px,py);
+    for(i=0;i<TH_PATROLS;i++)if((id=Object(PatrolLocal(i)))<OBJECT_EVENTS_COUNT)
+        if(abs(gObjectEvents[id].currentCoords.x-7-px)<=7 && abs(gObjectEvents[id].currentCoords.y-7-py)<=5)near++;
+    for(i=0;i<TH_PATROLS;i++) {
+        id=Object(PatrolLocal(i));
+        if(id<OBJECT_EVENTS_COUNT) {
+            if(initial || near>=2 || (abs(gObjectEvents[id].currentCoords.x-7-px)<=9 && abs(gObjectEvents[id].currentCoords.y-7-py)<=7))continue;
+        } else if(!initial && near>=2)continue;
+        bx=-1;by=-1;best=-32767;
+        for(y=py-5;y<=py+5;y++)for(x=px-7;x<=px+7;x++) {
+            distance=abs(x-px)+abs(y-py);
+            if(distance<4 || Component(map,x,y)!=co || !IsFree(x,y))continue;
+            // During exploration, new patrols enter at the camera edge.
+            if(!initial && abs(x-px)<7 && abs(y-py)<5)continue;
+            for(j=0;j<gMapHeader.events->warpCount;j++)if(gMapHeader.events->warps[j].x==x && gMapHeader.events->warps[j].y==y)break;
+            if(j<gMapHeader.events->warpCount)continue;
+            neighbors=0;
+            for(j=1;j<=4;j++)if(!MapGridGetCollisionAt(x+7+gDirectionToVectors[j].x,y+7+gDirectionToVectors[j].y))neighbors++;
+            if(neighbors<3)continue;
+            nearest=20;
+            for(j=0;j<TH_PATROLS;j++) {
+                u8 other=Object(PatrolLocal(j));
+                if(other<OBJECT_EVENTS_COUNT && other!=id) {
+                    s16 d=abs(gObjectEvents[other].currentCoords.x-7-x)+abs(gObjectEvents[other].currentCoords.y-7-y);
+                    if(d<nearest)nearest=d;
+                }
+            }
+            if(nearest<3)continue;
+            score=nearest*4-distance;
+            if(score>best){best=score;bx=x;by=y;}
+        }
+        if(bx<0)continue;
+        if(id<OBJECT_EVENTS_COUNT)RemoveObjectEventByLocalIdAndMap(PatrolLocal(i),gSaveBlock1Ptr->location.mapNum,gSaveBlock1Ptr->location.mapGroup);
+        id=SpawnSpecialObjectEventParameterized(OBJ_EVENT_GFX_PATROUILLE_ONI,MOVEMENT_TYPE_FACE_DOWN,PatrolLocal(i),bx+7,by+7,MapGridGetElevationAt(bx+7,by+7));
+        if(id<OBJECT_EVENTS_COUNT)near++;
+    }
 }
 static bool8 ChooseDoor(s16 mapId,s16 x,s16 y)
 {
@@ -172,33 +239,97 @@ static bool8 ChooseDoor(s16 mapId,s16 x,s16 y)
         }
     Free(distance);return FALSE;
 }
+u8 TerreHeureEncounterChance(void)
+{
+    u8 i,chance=FlagGet(FLAG_SYS_GAME_CLEAR)?10:5;
+    for(i=0;i<PARTY_SIZE;i++)
+        if(GetMonData(&gPlayerParty[i],MON_DATA_SPECIES)
+            && GetMonData(&gPlayerParty[i],MON_DATA_HELD_ITEM)==ITEM_SHORT_ONI) {
+            chance*=3;break;
+        }
+    return chance;
+}
+static bool8 QuestBlocksTerreHeure(s16 mapId)
+{
+    u8 i;
+    if(sThMaps[mapId].cave!=5)return FALSE;
+    // The dedicated Nyada quest is reserved in this branch. Its active flag
+    // protects the whole cave; visible Nyada actors also protect their map.
+    if(FlagGet(FLAG_NYADA_QUEST_UNLOCKED))return TRUE;
+    for(i=0;i<gMapHeader.events->objectEventCount;i++) {
+        const struct ObjectEventTemplate *t=&gMapHeader.events->objectEvents[i];
+        if(t->graphicsId==OBJ_EVENT_GFX_YOKAI_NYADA && (!t->flagId || !FlagGet(t->flagId)))return TRUE;
+    }
+    return FALSE;
+}
+void TerreHeureInputStep(bool8 tookStep)
+{
+    s16 mapId;u16 visit,pending,roll;bool8 rolledNow=FALSE;
+    if(sTh.active || gQuestLogState==QL_STATE_PLAYBACK || gQuestLogState==QL_STATE_PLAYBACK_LAST)return;
+    mapId=CurrentMap();
+    if(mapId<0) {
+        VarSet(VAR_TERRE_HEURE_VISIT,0);VarSet(VAR_TERRE_HEURE_PENDING,0);
+        VarSet(VAR_TERRE_HEURE_TRAINER_GUARD,0);return;
+    }
+    visit=VarGet(VAR_TERRE_HEURE_VISIT);
+    if((visit&255)!=sThMaps[mapId].cave) {
+        visit=sThMaps[mapId].cave;VarSet(VAR_TERRE_HEURE_VISIT,visit);
+        VarSet(VAR_TERRE_HEURE_PENDING,0);VarSet(VAR_TERRE_HEURE_TRAINER_GUARD,0);
+    }
+    if(QuestBlocksTerreHeure(mapId))return;
+    if(!(visit&0x100) && sThMaps[mapId].pursuers) {
+        VarSet(VAR_TERRE_HEURE_VISIT,visit|0x100);rolledNow=TRUE;
+        do {roll=Random();}while(roll>=65500);
+        // Route Victoire guarantees a first encounter late in the adventure.
+        // Earlier caves use the normal rates, even before the first encounter.
+        if((!FlagGet(FLAG_ONI_FIRST_SEEN) && sThMaps[mapId].cave==4)
+            || roll%100<TerreHeureEncounterChance()) {
+            do {roll=Random();}while(roll>=65461); // 121 * 541
+            VarSet(VAR_TERRE_HEURE_PENDING,30+roll%121);
+        }
+    }
+    pending=VarGet(VAR_TERRE_HEURE_PENDING);
+    if(tookStep && !rolledNow && pending && pending<0x100) {
+        pending--;VarSet(VAR_TERRE_HEURE_PENDING,pending?pending:0x100);
+    }
+}
+bool8 TerreHeureTrainerSightAllowed(void)
+{
+    u16 guard=VarGet(VAR_TERRE_HEURE_TRAINER_GUARD);s16 x,y,mapId;
+    // Native sight checks use destination coordinates before the walking
+    // animation has completed. Let the final scheduled step finish first.
+    if(VarGet(VAR_TERRE_HEURE_PENDING)==1 && gPlayerAvatar.runningState==MOVING
+        && gPlayerAvatar.tileTransitionState!=T_TILE_CENTER) {
+        mapId=CurrentMap();
+        if(mapId>=0 && sThMaps[mapId].pursuers && !QuestBlocksTerreHeure(mapId))return FALSE;
+    }
+    if(!guard)return TRUE;
+    PlayerGetDestCoords(&x,&y);x-=7;y-=7;guard--;
+    if(x==(guard>>8) && y==(guard&255))return FALSE;
+    VarSet(VAR_TERRE_HEURE_TRAINER_GUARD,0);return TRUE;
+}
 bool8 TerreHeureTryStep(void)
 {
-    s16 mapId,x,y;u8 i,boost=FALSE,points=0,component;u16 firstCave;
+    s16 mapId,x,y;u8 i,points=0,component;
     if(sTh.active || gQuestLogState==QL_STATE_PLAYBACK || gQuestLogState==QL_STATE_PLAYBACK_LAST)return FALSE;
+    TerreHeureInputStep(FALSE);
     for(i=0;i<4;i++) {
         u16 count=VarGet(VAR_TERRE_HEURE_REWARD_FIRST+i);
         if(count && AddBagItem(sRewardItems[i],count)) {
             VarSet(VAR_TERRE_HEURE_REWARD_FIRST+i,0);ScriptContext_SetupScript(TerreHeure_EventScript_StoredRewards);return TRUE;
         }
     }
-    if(sTh.cooldown){sTh.cooldown--;return FALSE;}
-    mapId=CurrentMap();if(mapId<0 || !sThMaps[mapId].pursuers)return FALSE;
-    PlayerGetDestCoords(&x,&y);component=Component(&sThMaps[mapId],x-7,y-7);
+    if(VarGet(VAR_TERRE_HEURE_PENDING)!=0x100 || gMain.inBattle
+        || ScriptContext_IsEnabled() || ArePlayerFieldControlsLocked() || gPaletteFade.active)return FALSE;
+    mapId=CurrentMap();if(mapId<0 || !sThMaps[mapId].pursuers || QuestBlocksTerreHeure(mapId))return FALSE;
+    PlayerGetDestCoords(&x,&y);
+    // A scheduled event waits on stairs/exit tiles instead of interrupting a
+    // map transition. Leaving the cave then cancels it through InputStep.
+    for(i=0;i<gMapHeader.events->warpCount;i++)
+        if(gMapHeader.events->warps[i].x==x-7 && gMapHeader.events->warps[i].y==y-7)return FALSE;
+    component=Component(&sThMaps[mapId],x-7,y-7);
     for(i=0;i<sThMaps[mapId].count;i++)if(sThMaps[mapId].points[i].component==component)points++;
     if(points<5)return FALSE;
-    if(++sTh.steps<16)return FALSE;
-    sTh.steps=0;
-    for(i=0;i<PARTY_SIZE;i++) if(GetMonData(&gPlayerParty[i],MON_DATA_SPECIES) && GetMonData(&gPlayerParty[i],MON_DATA_HELD_ITEM)==ITEM_SHORT_ONI)boost=TRUE;
-    if(FlagGet(FLAG_ONI_FIRST_SEEN)) {
-        if(Random()%(boost?4:16))return FALSE;
-    } else {
-        firstCave=VarGet(VAR_TERRE_HEURE_FIRST_CAVE);
-        if(!firstCave) {firstCave=1+(Random()&1);VarSet(VAR_TERRE_HEURE_FIRST_CAVE,firstCave);}
-        // A saved random choice varies the first cave between playthroughs.
-        // Route Victoire guarantees the event even if the selected cave was bypassed.
-        if(sThMaps[mapId].cave!=firstCave && sThMaps[mapId].cave!=4 && Random()%(boost?4:16))return FALSE;
-    }
     PlayerGetDestCoords(&x,&y);
     if(!ChooseDoor(mapId,x-7,y-7))return FALSE;
     sTh.origin=gSaveBlock1Ptr->location;sTh.origin.warpId=-1;sTh.origin.x=x-7;sTh.origin.y=y-7;
@@ -206,8 +337,9 @@ bool8 TerreHeureTryStep(void)
     sTh.tier=FlagGet(FLAG_ONI_OGRALOS_WON)?2:FlagGet(FLAG_ONI_GARGAROS_WON)?1:0;
     sTh.helpWasEnabled=gHelpSystemEnabled;
     sTh.active=TRUE;sTh.phase=0;sTh.freeRoam=FALSE;sTh.map=mapId;sTh.window=TH_NONE;
-    sTh.remaining=10751;sTh.seconds=TH_NONE;
+    sTh.remaining=(TH_SECONDS*262144U+4388)/4389U;sTh.seconds=TH_NONE;
     memset(sTh.picked,0,sizeof(sTh.picked));memset(sTh.loot,0,sizeof(sTh.loot));
+    VarSet(VAR_TERRE_HEURE_PENDING,0);
     FlagSet(FLAG_ONI_FIRST_SEEN);
     ScriptContext_SetupScript(TerreHeure_EventScript_Intro);
     return TRUE;
@@ -225,14 +357,9 @@ void TerreHeureReload(void)
 }
 void TerreHeureBegin(void)
 {
-    // Fade ordinary NPCs individually. Normal OAM objects (including Nathan)
-    // are never enabled as first-target blend sources.
-    u8 i;
     HelpSystem_Disable();
     gSaveBlock1Ptr->flashLevel=0;ScanlineEffect_Stop();
     SetGpuReg(REG_OFFSET_WINOUT,WINOUT_WIN01_BG_ALL|WINOUT_WIN01_OBJ|WINOUT_WINOBJ_BG_ALL|WINOUT_WINOBJ_OBJ);
-    for(i=0;i<OBJECT_EVENTS_COUNT;i++) if(gObjectEvents[i].active && i!=gPlayerAvatar.objectEventId && gObjectEvents[i].graphicsId!=OBJ_EVENT_GFX_PUSHABLE_BOULDER)
-        gSprites[gObjectEvents[i].spriteId].oam.objMode=ST_OAM_OBJ_BLEND;
     sTh.phase=1;sTh.clock=gMain.vblankCounter2;
 }
 void TerreHeureRun(void)
@@ -241,13 +368,16 @@ void TerreHeureRun(void)
 }
 static void Timer(void)
 {
-    static const struct WindowTemplate win={.bg=0,.tilemapLeft=24,.tilemapTop=0,.width=6,.height=2,.paletteNum=14,.baseBlock=0x380};
-    u8 str[8],colors[3]={0,1,2};u16 seconds=(sTh.remaining*280896U+16777215U)>>24;
+    // BG0 character base is 0x8000: 0x380 overlapped the terrain map at 0xF000.
+    // Reserve 12 tiles at 0xD000, below all three terrain tilemaps.
+    static const struct WindowTemplate win={.bg=0,.tilemapLeft=24,.tilemapTop=0,.width=6,.height=2,.paletteNum=14,.baseBlock=0x280};
+    u8 str[8],colors[3]={0,1,2},stamp;u16 seconds=(sTh.remaining*4389U+262143U)>>18;
     if(sTh.freeRoam)return;
     if(ArePlayerFieldControlsLocked()){sTh.seconds=TH_NONE;return;}
     if(sTh.window==TH_NONE){sTh.window=AddWindow(&win);sTh.seconds=TH_NONE;if(sTh.window==TH_NONE)return;}
     if(seconds>TH_SECONDS)seconds=TH_SECONDS;
-    if(seconds==sTh.seconds)return;sTh.seconds=seconds;
+    stamp=seconds%254;
+    if(stamp==sTh.seconds)return;sTh.seconds=stamp;
     str[0]=CHAR_0+seconds/60;str[1]=CHAR_COLON;str[2]=CHAR_0+(seconds%60)/10;str[3]=CHAR_0+seconds%10;str[4]=EOS;
     if(seconds<30)colors[1]=3;else if(seconds<=60)colors[1]=4;
     LoadPalette(sTimerColors,14*16,32);
@@ -299,13 +429,14 @@ static void Pursuers(void)
     PlayerGetDestCoords(&x,&y);
     if(++sTh.patrolClock>=60) {
         sTh.patrolClock=0;
-        for(i=1;i<3;i++)if((id=Object(TH_LOCAL+i))<OBJECT_EVENTS_COUNT) {
+        MaintainPatrols(FALSE);
+        for(i=0;i<TH_PATROLS;i++)if((id=Object(PatrolLocal(i)))<OBJECT_EVENTS_COUNT) {
             o=&gObjectEvents[id];ObjectEventClearHeldMovementIfActive(o);
             ObjectEventSetHeldMovement(o,GetFaceDirectionMovementAction(1+Random()%4));
         }
     }
-    for(i=1;i<3;i++)if((id=Object(TH_LOCAL+i))<OBJECT_EVENTS_COUNT && Sight(&gObjectEvents[id],x,y,5) && !sTh.alerted) {
-        sTh.alerted=TRUE;gFieldEffectArguments[0]=TH_LOCAL+i;gFieldEffectArguments[1]=gSaveBlock1Ptr->location.mapNum;gFieldEffectArguments[2]=gSaveBlock1Ptr->location.mapGroup;
+    for(i=0;i<TH_PATROLS;i++)if((id=Object(PatrolLocal(i)))<OBJECT_EVENTS_COUNT && Sight(&gObjectEvents[id],x,y,5) && !sTh.alerted) {
+        sTh.alerted=TRUE;gFieldEffectArguments[0]=PatrolLocal(i);gFieldEffectArguments[1]=gSaveBlock1Ptr->location.mapNum;gFieldEffectArguments[2]=gSaveBlock1Ptr->location.mapGroup;
         FieldEffectStart(FLDEFF_EXCLAMATION_MARK_ICON);PlaySE(SE_PIN);
     }
     id=Object(TH_LOCAL);if(id>=OBJECT_EVENTS_COUNT)return;o=&gObjectEvents[id];
@@ -337,9 +468,7 @@ void TerreHeureUpdate(void)
     if(!sTh.active){if(sTh.phase==5)sTh.phase=0;return;}
     if(sTh.phase==1) {
         elapsed=gMain.vblankCounter2-sTh.clock;
-        SetGpuReg(REG_OFFSET_BLDCNT,BLDCNT_TGT2_BG_ALL|BLDCNT_TGT2_BD|BLDCNT_EFFECT_BLEND);
-        SetGpuReg(REG_OFFSET_BLDALPHA,BLDALPHA_BLEND(elapsed>=120?0:16-elapsed*16/120,16));
-        if(elapsed>=120) {SetGpuReg(REG_OFFSET_BLDCNT,0);Populate();sTh.phase=3;ScriptContext_Enable();}
+        if(elapsed>=300) {Populate();sTh.phase=3;ScriptContext_Enable();}
         return;
     }
     if(sTh.phase!=2)return;
@@ -351,12 +480,40 @@ void TerreHeureUpdate(void)
     }
     Timer();
 }
+// The GBA has one shared alpha coefficient. Dissolve only resident pixels so
+// their disappearance can run alongside an independently growing cloud layer.
+// Each resident owns its OBJ tiles; original graphics and the player are untouched.
+void TerreHeureFadeResidents(void)
+{
+    static const u8 bayer[4][4]={{0,8,2,10},{12,4,14,6},{3,11,1,9},{15,7,13,5}};
+    u16 masks[4],row,x,i,word;
+    u8 amount;
+    if(!sTh.active || sTh.phase!=1)return;
+    amount=TerreHeureTransitionAmount();
+    if(!amount)return;
+    for(row=0;row<4;row++) {
+        masks[row]=0;
+        for(x=0;x<4;x++)if(bayer[row][x]>=amount)masks[row]|=0xF<<(x*4);
+    }
+    // Called after native animation uploads, once in the field VBlank.
+    for(i=0;i<OBJECT_EVENTS_COUNT;i++) {
+        struct ObjectEvent *object=&gObjectEvents[i];
+        struct Sprite *sprite;
+        vu16 *tiles;
+        if(!object->active || i==gPlayerAvatar.objectEventId
+            || object->graphicsId==OBJ_EVENT_GFX_PUSHABLE_BOULDER)continue;
+        sprite=&gSprites[object->spriteId];
+        if(!sprite->inUse || sprite->invisible || sprite->images==NULL)continue;
+        tiles=(vu16 *)(OBJ_VRAM0+sprite->oam.tileNum*32);
+        for(word=0;word<sprite->images[0].size/2;word++)tiles[word]&=masks[(word>>1)&3];
+    }
+}
 void TerreHeurePalette(void)
 {
     u16 i,c,r,g,b,v;u8 amount;
     if(!sTh.active || sTh.phase==0 || !IsFieldPaletteView())return;
     if(gPaletteFade.blendColor==RGB_WHITE && gPaletteFade.y==16)return;
-    amount=sTh.phase==1?((gMain.vblankCounter2-sTh.clock)*16/120):16;if(amount>16)amount=16;
+    amount=TerreHeureTransitionAmount();
     // Only terrain banks 0..12; NPC, player, UI and effects remain colored.
     for(i=0;i<13*16;i++) {
         c=gPlttBufferFaded[i];r=c&31;g=(c>>5)&31;b=(c>>10)&31;v=(r*5+g*9+b*2)/16;
@@ -394,7 +551,8 @@ void TerreHeureEnd(void)
     if(success)for(i=0;i<4;i++)if(sTh.loot[i] && !AddBagItem(sRewardItems[i],sTh.loot[i]) && !AddPCItem(sRewardItems[i],sTh.loot[i]))
         VarSet(VAR_TERRE_HEURE_REWARD_FIRST+i,VarGet(VAR_TERRE_HEURE_REWARD_FIRST+i)+sTh.loot[i]);
     if(sTh.helpWasEnabled)HelpSystem_Enable();
-    sTh.active=FALSE;sTh.cooldown=256;sTh.steps=0;sTh.phase=5;
+    sTh.active=FALSE;sTh.cooldown=0;sTh.steps=0;sTh.phase=5;
+    VarSet(VAR_TERRE_HEURE_TRAINER_GUARD,1+((u16)origin.x<<8)+origin.y);
     SetWarpDestination(origin.mapGroup,origin.mapNum,-1,origin.x,origin.y);
     gSaveBlock1Ptr->flashLevel=flash;
     gSpecialVar_0x8005=flash;
@@ -418,6 +576,15 @@ void TerreHeureClock(void)
         sTh.remaining=sTh.remaining>elapsed?sTh.remaining-elapsed:0;
 }
 
-bool8 TerreHeureFogVisible(void) { return sTh.active && (sTh.phase==2 || sTh.phase==3 || sTh.phase==4) && IsFieldPaletteView() && !gMain.inBattle; }
+// 300 VBlanks are slightly more than five seconds on real GBA hardware.
+u8 TerreHeureTransitionAmount(void)
+{
+    u32 elapsed;
+    if(!sTh.active || sTh.phase==0)return 0;
+    if(sTh.phase!=1)return 16;
+    elapsed=gMain.vblankCounter2-sTh.clock;
+    return elapsed>=300?16:elapsed*16/300;
+}
+bool8 TerreHeureFogVisible(void) { return sTh.active && (sTh.phase==1 || sTh.phase==2 || sTh.phase==3 || sTh.phase==4) && IsFieldPaletteView() && !gMain.inBattle; }
 
 void TerreHeureBattleStarting(void) { if(sTh.active) { sTh.phase=6; TerreHeureFogClear(); } }

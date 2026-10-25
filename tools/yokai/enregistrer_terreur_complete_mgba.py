@@ -4,14 +4,14 @@ Only the starting map, party and encounter eligibility are prepared. Once the
 recording starts, only controller input is used; no warp, timer edit or battle
 outcome is injected. Raw native video and audio are encoded without cuts.
 """
-import ctypes as C,hashlib,json,re,struct,subprocess,tempfile,wave
+import ctypes as C,hashlib,json,os,re,struct,subprocess,tempfile,wave
 from collections import deque
 from pathlib import Path
 from PIL import Image
 from mgba_new_game import new_game
 from mgba_rpc import ROOT,BATCH
 
-P=ROOT/'docs/terre-heure-video-20261025';P.mkdir(parents=True,exist_ok=True)
+P=ROOT/'docs'/os.environ.get('TH_VIDEO_DIR','terre-heure-video-20261025');P.mkdir(parents=True,exist_ok=True)
 work=Path(tempfile.mkdtemp(prefix='terreur-video-'))
 r=new_game();th=r.symbols['sTh'];checks=[];events={};frames=0
 class Geometry(C.Structure):_fields_=[('w',C.c_uint),('h',C.c_uint),('mw',C.c_uint),('mh',C.c_uint),('aspect',C.c_float)]
@@ -47,11 +47,11 @@ def shot(n):r.frame.resize((720,480),Image.Resampling.NEAREST).save(P/(n+'.png')
 encoder=None;audio=None;recording=None;log=None
 try:
  party=r.symbols['gPlayerParty'];r.call('CreateMon',party,1,50,31,1,12345,0,0);r.write(r.symbols['gPlayerPartyCount'],b'\1')
- sb=r.u32(r.symbols['gSaveBlock1Ptr']);r.write(sb+0xee0+0x500//8,b'\xff'*96);r.call('VarSet',0x40f9,1)
+ sb=r.u32(r.symbols['gSaveBlock1Ptr']);r.write(sb+0xee0+0x500//8,b'\xff'*96);r.call('VarSet',0x40f9,1);r.call('VarSet',0x40fa,0x101)
  groups=json.loads((ROOT/'data/maps/map_groups.json').read_text());maps={n:(i,j) for i,g in enumerate(groups['group_order']) for j,n in enumerate(groups[g])}
- g,n=maps['MtMoon_1F'];r.call('SetWarpDestination',g,n,255,24,28);r.call('WarpIntoMap');r.call('SetMainCallback2',r.symbols['CB2_LoadMap']|1);r.run(240)
- # Leave the actual sixteenth step to the controller during the recording.
- for i in range(15):assert not r.call('TerreHeureTryStep')
+ g,n=maps['MtMoon_1F'];r.call('SetWarpDestination',g,n,255,20,27);r.call('WarpIntoMap');r.call('SetMainCallback2',r.symbols['CB2_LoadMap']|1);r.run(240)
+ # Fixture only: successful visit, just before its last scheduled step.
+ r.call('VarSet',0x40fb,1)
  assert r.read(th+175,1)==b'\0'
  raw,width,height,pitch=r.frame_packet;fmt={0:'rgb555le',1:'bgr0',2:'rgb565le'}[r.pixel_format];bpp=4 if r.pixel_format==1 else 2
  log=(work/'ffmpeg.log').open('wb')
@@ -65,6 +65,7 @@ try:
   field=r.u32(r.symbols['gMain']+4)==r.symbols['CB2_Overworld']|1
   if active and 'declenchement' not in events:events['declenchement']=f/fps
   if phase==1 and 'transformation' not in events:events['transformation']=f/fps
+  if phase==3 and 'texte_intro' not in events:events['texte_intro']=f/fps
   if phase==2 and not locked and 'exploration' not in events:events['exploration']=f/fps;shot('exploration')
   alert=r.read(th+184,2)
   if active and (alert[0] or alert[1]) and not noticed:
@@ -74,7 +75,7 @@ try:
   if menu and menu_at is None:menu_at=f;events['menu_combat']=f/fps;shot('combat')
   if menu_at is not None:r.keys=set()
   elif 'combat' in events:r.keys={8} if f%100<2 else set()
-  elif not active:r.keys={4} if f>=round(fps*1.5) else set()
+  elif not active:r.keys={6} if f>=round(fps*1.5) else set()
   elif field and locked:r.keys={8} if f%100<2 else set()
   elif field and phase==2 and not noticed:
    if nav%16==0:
@@ -97,7 +98,7 @@ try:
  output=P/'debut-terreur-jusqu-au-combat-mgba.mp4'
  subprocess.run(['ffmpeg','-y','-i',str(work/'video.mp4'),'-i',str(work/'audio.wav'),'-c:v','copy','-c:a','aac','-b:a','192k','-ar','48000','-movflags','+faststart','-shortest',str(output)],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,check=True)
  info=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(output)],text=True))
- metadata={'rom_sha256':hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),'video':output.name,'video_sha256':hashlib.sha256(output.read_bytes()).hexdigest(),'scope':__doc__,'frames':frames,'fps':fps,'duree_secondes':float(info['format']['duration']),'taille_octets':output.stat().st_size,'evenements_secondes':events,'chronometre':'Durée normale de 180 secondes, jamais modifiée pendant la capture. Combat déclenché par la poursuite.','montage':'Continu, sans coupe ni accélération. Image agrandie x3 au plus proche voisin.','audio':'Sortie directe mGBA, encodée en AAC 48 kHz pour le MP4. Aucune OST modifiée.'}
+ metadata={'rom_sha256':hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),'video':output.name,'video_sha256':hashlib.sha256(output.read_bytes()).hexdigest(),'scope':__doc__,'frames':frames,'fps':fps,'duree_secondes':float(info['format']['duration']),'taille_octets':output.stat().st_size,'evenements_secondes':events,'chronometre':'Durée normale de 360 secondes, jamais modifiée pendant la capture. Combat déclenché par la poursuite.','montage':'Continu, sans coupe ni accélération. Image agrandie x3 au plus proche voisin.','audio':'Sortie directe mGBA, encodée en AAC 48 kHz pour le MP4. Aucune OST modifiée.'}
  (P/'ENREGISTREMENT.json').write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+'\n');print(json.dumps(metadata,ensure_ascii=False,indent=2),flush=True)
 finally:
  if audio:r.lib.retro_set_audio_sample_batch(r.callbacks[3]);audio.close()

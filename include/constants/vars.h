@@ -356,3 +356,9 @@
 
 // First mandatory Terr’heure: 1=Mont Sélénite, 2=Grotte Sombre; Route Victoire is a fallback.
 #define VAR_TERRE_HEURE_FIRST_CAVE VAR_0x40F9
+// Current cave visit + bit 8: its single entrance roll has been consumed.
+#define VAR_TERRE_HEURE_VISIT VAR_0x40FA
+// 1..150: remaining steps; 0x100: due, waiting for a safe field context.
+#define VAR_TERRE_HEURE_PENDING VAR_0x40FB
+// Encoded return position, suppresses automatic trainer sight until moving away.
+#define VAR_TERRE_HEURE_TRAINER_GUARD VAR_0x40FC

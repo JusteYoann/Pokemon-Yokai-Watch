@@ -8,7 +8,7 @@
 #define TH_FOG_TAG 0x12F1
 #define TH_FOG_SPRITES 15
 #define TH_FOG_CONTROL (BLDCNT_TGT2_BG1 | BLDCNT_TGT2_BG2 | BLDCNT_TGT2_BG3 | BLDCNT_EFFECT_BLEND)
-#define TH_FOG_ALPHA BLDALPHA_BLEND(3, 13)
+#define TH_FOG_ALPHA_MAX 3
 
 // Only 8 fixed bytes; no full palette copy or per-pixel frame processing.
 static EWRAM_DATA struct {
@@ -47,8 +47,7 @@ void TerreHeureFogClear(void)
     bool8 ownsPalette = IndexOfSpritePaletteTag(TH_FOG_TAG) != 0xFF;
     for(i=0;i<MAX_SPRITES;i++)
         if(gSprites[i].inUse && gSprites[i].callback==Cloud) DestroySprite(&gSprites[i]);
-    if(sThFog.loaded && ownsPalette && GetGpuReg(REG_OFFSET_BLDCNT)==TH_FOG_CONTROL
-        && GetGpuReg(REG_OFFSET_BLDALPHA)==TH_FOG_ALPHA) {
+    if(sThFog.loaded && ownsPalette && GetGpuReg(REG_OFFSET_BLDCNT)==TH_FOG_CONTROL) {
         SetGpuReg(REG_OFFSET_BLDCNT,sThFog.oldControl);
         SetGpuReg(REG_OFFSET_BLDALPHA,sThFog.oldAlpha);
     }
@@ -101,5 +100,8 @@ void TerreHeureFogUpdate(void)
     if(!sThFog.loaded && !CreateClouds())return;
     sThFog.scroll++;
     SetGpuReg(REG_OFFSET_BLDCNT,TH_FOG_CONTROL);
-    SetGpuReg(REG_OFFSET_BLDALPHA,TH_FOG_ALPHA);
+    {
+        u8 alpha=(TerreHeureTransitionAmount()*TH_FOG_ALPHA_MAX+15)/16;
+        SetGpuReg(REG_OFFSET_BLDALPHA,BLDALPHA_BLEND(alpha,16-alpha));
+    }
 }

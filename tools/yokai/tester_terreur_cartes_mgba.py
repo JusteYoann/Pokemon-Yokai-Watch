@@ -30,7 +30,8 @@ def wait(cond,n=6000,record=False):
  raise AssertionError(('Timeout',hex(r.u32(r.symbols['gMain']+4)),list(r.read(th+175,17))))
 def unlocked():return r.u32(r.symbols['gMain']+4)==r.symbols['CB2_Overworld']|1 and r.read(r.symbols['sLockFieldControls'],1)==b'\0'
 def begin():
- for i in range(16):r.call('TerreHeureTryStep')
+ # Fixture only: a successful visit whose step threshold has already elapsed.
+ r.call('VarSet',0x40fb,0x100);r.call('TerreHeureTryStep')
  assert r.call('TerreHeureActive');wait(lambda:unlocked() and r.read(th+176,1)==b'\2')
 def actor(local):
  for i in range(16):
