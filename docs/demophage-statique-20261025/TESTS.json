@@ -1,0 +1,17 @@
+{
+  "rom_sha256": "32ea472a8de51966ed3b4896996bc87e275bca005c92fab24575ef50101de1ac",
+  "scope": "Capture native mGBA: nouveaux objets temporaires, aucune scène d’aventure ajoutée.",
+  "checks": [
+    "Cellule statique 32×32 liée à la ROM et réellement chargée dans la VRAM de Démophage",
+    "Palette propre de Démophage chargée, distincte de celle de Gargaros",
+    "Démophage entièrement visible à l’écran, avec 183 pixels dorés dans la vraie capture",
+    "Pose de face et position immobiles pendant 120 frames natives"
+  ],
+  "scene": "Bourg Palette, Démophage à gauche, Nathan au centre, Gargaros à droite",
+  "demophage_screen_bounds": [
+    72,
+    56,
+    104,
+    88
+  ]
+}

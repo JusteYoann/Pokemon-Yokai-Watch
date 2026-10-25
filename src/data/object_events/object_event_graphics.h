@@ -329,3 +329,6 @@ const u32 gObjectEventPic_Ogralos[] = INCBIN_U32("graphics/yokai_characters/ogra
 
 const u16 gObjectEventPal_OrqanosTerreur[] = INCBIN_U16("graphics/yokai_characters/orqanos_sans_massue/normal.gbapal");
 const u32 gObjectEventPic_OrqanosTerreur[] = INCBIN_U32("graphics/yokai_characters/orqanos_sans_massue/overworld.4bpp");
+
+const u16 gObjectEventPal_DemophageStatique[] = INCBIN_U16("graphics/yokai_characters/demophage_statique/normal.gbapal");
+const u32 gObjectEventPic_DemophageStatique[] = INCBIN_U32("graphics/yokai_characters/demophage_statique/overworld.4bpp");

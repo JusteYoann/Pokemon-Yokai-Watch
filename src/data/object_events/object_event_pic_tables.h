@@ -1975,3 +1975,5 @@ static const struct SpriteFrameImage sPicTable_OrqanosTerreur[] = {
     overworld_frame(gObjectEventPic_OrqanosTerreur, 4, 4, 10),
     overworld_frame(gObjectEventPic_OrqanosTerreur, 4, 4, 11),
 };
+
+static const struct SpriteFrameImage sPicTable_DemophageStatique[] = { overworld_frame(gObjectEventPic_DemophageStatique, 4, 4, 0) };

@@ -3457,3 +3457,14 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_OrqanosTerreur = {
     .anims = sAnimTable_Gargaros, .images = sPicTable_OrqanosTerreur,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DemophageStatique = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_DEMOPHAGE_STATIQUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32,
+    .paletteSlot = PALSLOT_NPC_2_REFLECTION, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = TRUE, .disableReflectionPaletteLoad = TRUE, .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_32x32, .subspriteTables = gObjectEventSpriteOamTables_32x32,
+    .anims = sAnimTable_Inanimate, .images = sPicTable_DemophageStatique,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
