@@ -13,6 +13,7 @@ PalletTown_ProfessorOaksLab_MapScripts::
 
 PalletTown_ProfessorOaksLab_OnTransition::
 	setflag FLAG_VISITED_OAKS_LAB
+	call_if_set FLAG_SYS_GAME_CLEAR, PalletTown_ProfessorOaksLab_PostgameReady
 	call_if_eq VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 1, PalletTown_ProfessorOaksLab_EventScript_ReadyOakForStarterScene
 	call_if_eq VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 7, PalletTown_ProfessorOaksLab_EventScript_ReadyOakForNationalDexScene
 	call_if_eq VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 8, PalletTown_ProfessorOaksLab_EventScript_SetNationalDexSceneFinished
@@ -1317,4 +1318,14 @@ PalletTown_ProfessorOaksLab_EventScript_InitialNuzlockeBalls::
 
 PalletTown_ProfessorOaksLab_EventScript_TenNuzlockeBalls::
 	giveitem_msg PalletTown_ProfessorOaksLab_Text_ReceivedTenPokeBalls, ITEM_POKE_BALL, 10
+	return
+
+@ Postgame conversations take place with Oak alone, at his desk.
+PalletTown_ProfessorOaksLab_PostgameReady::
+	clearflag FLAG_HIDE_OAK_IN_HIS_LAB
+	setflag FLAG_HIDE_RIVAL_IN_LAB
+	setobjectxyperm LOCALID_OAKS_LAB_PROF_OAK, 6, 3
+	setobjectmovementtype LOCALID_OAKS_LAB_PROF_OAK, MOVEMENT_TYPE_FACE_DOWN
+	special EnableNationalPokedex
+	setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 9
 	return

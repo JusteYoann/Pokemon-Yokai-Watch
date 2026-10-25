@@ -1,0 +1,641 @@
+{
+  "passed": true,
+  "scope": "Retours de combats isolés : routes natives, obstacles, Coupe, acteurs/palettes et crédits.",
+  "rom_sha256": "ea8f2359dd55e101ce9e4ac960973bb1916d31054b39d164a9d35c16361ac7e3",
+  "checks": [
+    {
+      "scene": "LavenderTown",
+      "player_approach": [
+        0,
+        1
+      ],
+      "tree_already_cut": false,
+      "steps": [
+        [
+          9,
+          12
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          12
+        ],
+        [
+          14,
+          12
+        ],
+        [
+          15,
+          12
+        ],
+        [
+          16,
+          12
+        ],
+        [
+          17,
+          12
+        ],
+        [
+          18,
+          12
+        ],
+        [
+          19,
+          12
+        ]
+      ],
+      "all_floor": true,
+      "no_actor_overlap": true,
+      "removed_only_offscreen": true,
+      "cut_tree": false
+    },
+    {
+      "scene": "LavenderTown",
+      "player_approach": [
+        1,
+        0
+      ],
+      "tree_already_cut": false,
+      "steps": [
+        [
+          9,
+          12
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          6,
+          12
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          0,
+          11
+        ]
+      ],
+      "all_floor": true,
+      "no_actor_overlap": true,
+      "removed_only_offscreen": true,
+      "cut_tree": false
+    },
+    {
+      "scene": "LavenderTown",
+      "player_approach": [
+        -1,
+        0
+      ],
+      "tree_already_cut": false,
+      "steps": [
+        [
+          9,
+          12
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          12
+        ],
+        [
+          14,
+          12
+        ],
+        [
+          15,
+          12
+        ],
+        [
+          16,
+          12
+        ],
+        [
+          17,
+          12
+        ],
+        [
+          18,
+          12
+        ]
+      ],
+      "all_floor": true,
+      "no_actor_overlap": true,
+      "removed_only_offscreen": true,
+      "cut_tree": false
+    },
+    {
+      "scene": "VermilionCity",
+      "player_approach": [
+        0,
+        1
+      ],
+      "tree_already_cut": false,
+      "steps": [
+        [
+          17,
+          26
+        ],
+        [
+          17,
+          25
+        ],
+        [
+          18,
+          25
+        ],
+        [
+          19,
+          25
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          19,
+          23
+        ],
+        [
+          19,
+          22
+        ],
+        [
+          19,
+          21
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          19,
+          19
+        ]
+      ],
+      "all_floor": true,
+      "no_actor_overlap": true,
+      "removed_only_offscreen": true,
+      "cut_tree": true
+    },
+    {
+      "scene": "VermilionCity",
+      "player_approach": [
+        1,
+        0
+      ],
+      "tree_already_cut": false,
+      "steps": [
+        [
+          17,
+          26
+        ],
+        [
+          17,
+          25
+        ],
+        [
+          18,
+          25
+        ],
+        [
+          19,
+          25
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          19,
+          23
+        ],
+        [
+          19,
+          22
+        ],
+        [
+          19,
+          21
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          19,
+          18
+        ]
+      ],
+      "all_floor": true,
+      "no_actor_overlap": true,
+      "removed_only_offscreen": true,
+      "cut_tree": true
+    },
+    {
+      "scene": "VermilionCity",
+      "player_approach": [
+        0,
+        -1
+      ],
+      "tree_already_cut": false,
+      "steps": [
+        [
+          17,
+          26
+        ],
+        [
+          18,
+          26
+        ],
+        [
+          18,
+          25
+        ],
+        [
+          19,
+          25
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          19,
+          23
+        ],
+        [
+          19,
+          22
+        ],
+        [
+          19,
+          21
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          19,
+          18
+        ],
+        [
+          18,
+          18
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          17,
+          17
+        ]
+      ],
+      "all_floor": true,
+      "no_actor_overlap": true,
+      "removed_only_offscreen": true,
+      "cut_tree": true
+    },
+    {
+      "scene": "VermilionCity",
+      "player_approach": [
+        -1,
+        0
+      ],
+      "tree_already_cut": false,
+      "steps": [
+        [
+          17,
+          26
+        ],
+        [
+          17,
+          25
+        ],
+        [
+          18,
+          25
+        ],
+        [
+          19,
+          25
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          19,
+          23
+        ],
+        [
+          19,
+          22
+        ],
+        [
+          19,
+          21
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          19,
+          18
+        ]
+      ],
+      "all_floor": true,
+      "no_actor_overlap": true,
+      "removed_only_offscreen": true,
+      "cut_tree": true
+    },
+    {
+      "scene": "SaffronCity",
+      "player_approach": [
+        0,
+        1
+      ],
+      "tree_already_cut": false,
+      "steps": [
+        [
+          19,
+          22
+        ],
+        [
+          18,
+          22
+        ],
+        [
+          17,
+          22
+        ],
+        [
+          17,
+          21
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          17,
+          19
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          17,
+          16
+        ],
+        [
+          17,
+          15
+        ]
+      ],
+      "all_floor": true,
+      "no_actor_overlap": true,
+      "removed_only_offscreen": true,
+      "cut_tree": false
+    },
+    {
+      "scene": "SaffronCity",
+      "player_approach": [
+        1,
+        0
+      ],
+      "tree_already_cut": false,
+      "steps": [
+        [
+          19,
+          22
+        ],
+        [
+          19,
+          23
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          19,
+          25
+        ],
+        [
+          18,
+          25
+        ],
+        [
+          18,
+          26
+        ],
+        [
+          18,
+          27
+        ],
+        [
+          18,
+          28
+        ],
+        [
+          18,
+          29
+        ],
+        [
+          17,
+          29
+        ],
+        [
+          17,
+          30
+        ]
+      ],
+      "all_floor": true,
+      "no_actor_overlap": true,
+      "removed_only_offscreen": true,
+      "cut_tree": false
+    },
+    {
+      "scene": "SaffronCity",
+      "player_approach": [
+        -1,
+        0
+      ],
+      "tree_already_cut": false,
+      "steps": [
+        [
+          19,
+          22
+        ],
+        [
+          19,
+          23
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          19,
+          25
+        ],
+        [
+          18,
+          25
+        ],
+        [
+          18,
+          26
+        ],
+        [
+          18,
+          27
+        ],
+        [
+          18,
+          28
+        ],
+        [
+          18,
+          29
+        ],
+        [
+          17,
+          29
+        ],
+        [
+          17,
+          30
+        ]
+      ],
+      "all_floor": true,
+      "no_actor_overlap": true,
+      "removed_only_offscreen": true,
+      "cut_tree": false
+    },
+    {
+      "scene": "VermilionCity",
+      "player_approach": [
+        0,
+        1
+      ],
+      "tree_already_cut": true,
+      "steps": [
+        [
+          17,
+          26
+        ],
+        [
+          17,
+          25
+        ],
+        [
+          18,
+          25
+        ],
+        [
+          19,
+          25
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          19,
+          23
+        ],
+        [
+          19,
+          22
+        ],
+        [
+          19,
+          21
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          19,
+          19
+        ]
+      ],
+      "all_floor": true,
+      "no_actor_overlap": true,
+      "removed_only_offscreen": true,
+      "cut_tree": true
+    }
+  ]
+}

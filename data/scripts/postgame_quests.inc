@@ -190,7 +190,8 @@ PG_ScientistWin1::
 	msgbox PG_Text_Scientist1After
 	setflag FLAG_PG_SCIENTIST_1
 	setflag FLAG_PG_HIDE_SCIENTIST_LAV
-	removeobject LOCALID_PG_SCIENTIST_LAV
+	setvar VAR_0x8004, LOCALID_PG_SCIENTIST_LAV
+	call PG_ScientistWalkAway
 	releaseall
 	end
 PG_ScientistPort::
@@ -206,8 +207,10 @@ PG_ScientistWin2::
 	lockall
 	msgbox PG_Text_Scientist2After
 	setflag FLAG_PG_SCIENTIST_2
+	call PG_ScientistCut
 	setflag FLAG_PG_HIDE_SCIENTIST_PORT
-	removeobject LOCALID_PG_SCIENTIST_PORT
+	setvar VAR_0x8004, LOCALID_PG_SCIENTIST_PORT
+	call PG_ScientistWalkAway
 	releaseall
 	end
 PG_ScientistYopple::
@@ -233,7 +236,8 @@ PG_RoboGift::
 	call PG_GiftPCNotice
 	msgbox PG_Text_ScientistBye
 	setflag FLAG_PG_HIDE_SCIENTIST_YOPPLE
-	removeobject LOCALID_PG_SCIENTIST_YOPPLE
+	setvar VAR_0x8004, LOCALID_PG_SCIENTIST_YOPPLE
+	call PG_ScientistWalkAway
 	releaseall
 	end
 
@@ -566,3 +570,30 @@ PG_Text_ScientistBye::
 
 PG_Text_TicketReceived::
 	.string "Vous obtenez le\nTICKET DE LA TOUR !$"
+
+PG_ScientistWalkAway::
+	closemessage
+	setvar VAR_0x8005, 0
+	special PostgameScientistDeparture
+	goto_if_eq VAR_RESULT, FALSE, EventScript_Return
+	waitstate
+	return
+
+PG_ScientistCut::
+	goto_if_set FLAG_TEMP_12, EventScript_Return
+	closemessage
+	setvar VAR_0x8004, LOCALID_PG_SCIENTIST_PORT
+	setvar VAR_0x8005, 1
+	special PostgameScientistDeparture
+	goto_if_eq VAR_RESULT, FALSE, EventScript_Return
+	waitstate
+	goto_if_eq VAR_RESULT, FALSE, EventScript_Return
+	msgbox PG_Text_ScientistCut
+	closemessage
+	playse SE_M_CUT
+	applymovement 7, Movement_CutTreeDown
+	waitmovement 7
+	removeobject 7
+	return
+PG_Text_ScientistCut::
+	.string "Un obstacle? Mon prototype connaît\nCoupe. Ouvrons le passage!$"

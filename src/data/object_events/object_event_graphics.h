@@ -99,7 +99,7 @@ const u16 gObjectEventPic_TuberF[] = INCBIN_U16("graphics/object_events/pics/peo
 const u16 gObjectEventPic_TuberMWater[] = INCBIN_U16("graphics/object_events/pics/people/tuber_m_water.4bpp");
 const u16 gObjectEventPic_TuberMLand[] = INCBIN_U16("graphics/object_events/pics/people/tuber_m_land.4bpp");
 const u16 gObjectEventPic_Hiker[] = INCBIN_U16("graphics/object_events/pics/people/hiker.4bpp");
-const u16 gObjectEventPic_Biker[] = INCBIN_U16("graphics/object_events/pics/people/biker.4bpp");
+const u16 gObjectEventPic_Biker[] = INCBIN_U16("graphics/yokai_characters/terminyanator/overworld.4bpp");
 const u16 gObjectEventPic_GymGuy[] = INCBIN_U16("graphics/object_events/pics/people/gym_guy.4bpp");
 const u16 gObjectEventPic_Man[] = INCBIN_U16("graphics/object_events/pics/people/man.4bpp");
 const u16 gObjectEventPic_Rocker[] = INCBIN_U16("graphics/object_events/pics/people/rocker.4bpp");
@@ -335,3 +335,5 @@ const u32 gObjectEventPic_DemophageStatique[] = INCBIN_U32("graphics/yokai_chara
 
 const u16 gObjectEventPal_RequinLunettes[] = INCBIN_U16("graphics/yokai_characters/requin_lunettes/normal.gbapal");
 const u32 gObjectEventPic_RequinLunettes[] = INCBIN_U32("graphics/yokai_characters/requin_lunettes/overworld.4bpp");
+
+const u16 gObjectEventPal_Terminyanator[] = INCBIN_U16("graphics/yokai_characters/terminyanator/normal.gbapal");

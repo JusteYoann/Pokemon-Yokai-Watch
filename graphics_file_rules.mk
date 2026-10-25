@@ -471,3 +471,6 @@ graphics/yokai_characters/orqanos_sans_massue/overworld.4bpp: graphics/yokai_cha
 
 graphics/yokai_characters/requin_lunettes/overworld.4bpp: graphics/yokai_characters/requin_lunettes/overworld.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+graphics/yokai_characters/terminyanator/overworld.4bpp: graphics/yokai_characters/terminyanator/overworld.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4

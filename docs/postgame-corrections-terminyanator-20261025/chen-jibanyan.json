@@ -1,0 +1,21 @@
+{
+  "rom_sha256": "ea8f2359dd55e101ce9e4ac960973bb1916d31054b39d164a9d35c16361ac7e3",
+  "native_mgba_audio": true,
+  "speed": 1,
+  "continuous": true,
+  "buttons_only_during_capture": true,
+  "frames": 4774,
+  "seconds": 79.92967940767976,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "scene": "chen-jibanyan",
+  "prepared_party_level": 100,
+  "prepared_battle_return": false,
+  "diploma_shown": false,
+  "trainers": [],
+  "complete": true
+}

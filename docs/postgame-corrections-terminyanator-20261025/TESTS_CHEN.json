@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "scope": "Compatibilité des anciens états de laboratoire : garçon/fille, visibilité et histoire.",
+  "rom_sha256": "ea8f2359dd55e101ce9e4ac960973bb1916d31054b39d164a9d35c16361ac7e3",
+  "checks": [
+    {
+      "gender": 0,
+      "old_stage": 7,
+      "Chen_visible": true,
+      "Matt_absent": true,
+      "normalized_stage": 9
+    },
+    {
+      "gender": 0,
+      "old_stage": 8,
+      "Chen_visible": true,
+      "Matt_absent": true,
+      "normalized_stage": 9
+    },
+    {
+      "gender": 0,
+      "old_stage": 9,
+      "Chen_visible": true,
+      "Matt_absent": true,
+      "normalized_stage": 9
+    },
+    {
+      "gender": 0,
+      "story_rival_preserved": true
+    },
+    {
+      "gender": 0,
+      "native_text_maximum": 207
+    },
+    {
+      "gender": 1,
+      "old_stage": 7,
+      "Chen_visible": true,
+      "Matt_absent": true,
+      "normalized_stage": 9
+    },
+    {
+      "gender": 1,
+      "old_stage": 8,
+      "Chen_visible": true,
+      "Matt_absent": true,
+      "normalized_stage": 9
+    },
+    {
+      "gender": 1,
+      "old_stage": 9,
+      "Chen_visible": true,
+      "Matt_absent": true,
+      "normalized_stage": 9
+    },
+    {
+      "gender": 1,
+      "story_rival_preserved": true
+    },
+    {
+      "gender": 1,
+      "native_text_maximum": 207
+    }
+  ]
+}

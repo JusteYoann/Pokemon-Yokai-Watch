@@ -1,0 +1,21 @@
+{
+  "rom_sha256": "ea8f2359dd55e101ce9e4ac960973bb1916d31054b39d164a9d35c16361ac7e3",
+  "native_mgba_audio": true,
+  "speed": 1,
+  "continuous": true,
+  "buttons_only_during_capture": true,
+  "frames": 2181,
+  "seconds": 36.515842226256716,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "scene": "scientifique-2",
+  "prepared_party_level": 100,
+  "prepared_battle_return": true,
+  "diploma_shown": false,
+  "trainers": [],
+  "complete": true
+}

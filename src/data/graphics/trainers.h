@@ -271,8 +271,8 @@ const u32 gTrainerPalette_SuperNerd[] = INCBIN_U32("graphics/trainers/palettes/s
 const u32 gTrainerFrontPic_Hiker[] = INCBIN_U32("graphics/trainers/front_pics/hiker_front_pic.4bpp.lz");
 const u32 gTrainerPalette_Hiker[] = INCBIN_U32("graphics/trainers/palettes/hiker.gbapal.lz");
 
-const u32 gTrainerFrontPic_Biker[] = INCBIN_U32("graphics/trainers/front_pics/biker_front_pic.4bpp.lz");
-const u32 gTrainerPalette_Biker[] = INCBIN_U32("graphics/trainers/palettes/biker.gbapal.lz");
+const u32 gTrainerFrontPic_Biker[] = INCBIN_U32("graphics/yokai_characters/terminyanator/battle.4bpp.lz");
+const u32 gTrainerPalette_Biker[] = INCBIN_U32("graphics/yokai_characters/terminyanator/normal.gbapal.lz");
 
 const u32 gTrainerFrontPic_Burglar[] = INCBIN_U32("graphics/trainers/front_pics/burglar_front_pic.4bpp.lz");
 const u32 gTrainerPalette_Burglar[] = INCBIN_U32("graphics/trainers/palettes/burglar.gbapal.lz");

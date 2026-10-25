@@ -1,0 +1,103 @@
+{
+  "rom_sha256": "ea8f2359dd55e101ce9e4ac960973bb1916d31054b39d164a9d35c16361ac7e3",
+  "native_mgba_audio": true,
+  "speed": 1,
+  "continuous": true,
+  "buttons_only_during_capture": true,
+  "frames": 12166,
+  "seconds": 203.69176365182906,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 33.83700923395911,
+      "callback": "CB2_OverworldBasic"
+    },
+    {
+      "seconds": 35.32711008592465,
+      "callback": "CB2_InitBattle"
+    },
+    {
+      "seconds": 35.461051735539534,
+      "callback": "CB2_HandleStartBattle"
+    },
+    {
+      "seconds": 36.197730808421376,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 36.197730808421376,
+      "trainer": 539
+    },
+    {
+      "seconds": 74.10321764943247,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 74.62224154169013,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 75.25846437736081,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 75.27520708356268,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 75.29194978976453,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 75.8109736820222,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 111.60687954159893,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 112.12590343385659,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 112.76212626952727,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 112.77886897572913,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 112.79561168193099,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 113.31463557418866,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 149.7300215632342,
+      "callback": "CB2_ReturnToFieldContinueScriptPlayMapMusic"
+    },
+    {
+      "seconds": 149.74676426943606,
+      "callback": "CB2_ReturnToFieldLocal"
+    },
+    {
+      "seconds": 149.94767674385838,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "scene": "alizon-grotte",
+  "prepared_party_level": 100,
+  "prepared_battle_return": false,
+  "diploma_shown": false,
+  "trainers": [
+    539
+  ],
+  "complete": true
+}

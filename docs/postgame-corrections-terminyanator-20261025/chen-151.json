@@ -1,0 +1,41 @@
+{
+  "rom_sha256": "ea8f2359dd55e101ce9e4ac960973bb1916d31054b39d164a9d35c16361ac7e3",
+  "native_mgba_audio": true,
+  "speed": 1,
+  "continuous": true,
+  "buttons_only_during_capture": true,
+  "frames": 2886,
+  "seconds": 48.31945009856803,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 19.053199657716707,
+      "callback": "CB2_ShowDiploma"
+    },
+    {
+      "seconds": 19.069942363918567,
+      "callback": "CB2_Diploma"
+    },
+    {
+      "seconds": 25.83399566947002,
+      "callback": "CB2_ReturnToFieldFromDiploma"
+    },
+    {
+      "seconds": 25.850738375671877,
+      "callback": "CB2_ReturnToFieldLocal"
+    },
+    {
+      "seconds": 26.034908143892338,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "scene": "chen-151",
+  "prepared_party_level": 100,
+  "prepared_battle_return": false,
+  "diploma_shown": true,
+  "trainers": [],
+  "complete": true
+}

@@ -21,8 +21,16 @@ Yoann_EventScript_Release::
 	end
 
 Yoann_EventScript_ChenInvitation::
+	goto_if_set FLAG_YOANN_INVITED, Yoann_EventScript_ChenReminder
+	msgbox Yoann_Text_ChenDiploma
+	closemessage
+	special ShowDiploma
+	waitstate
 	msgbox Yoann_Text_Chen
 	setflag FLAG_YOANN_INVITED
+	return
+Yoann_EventScript_ChenReminder::
+	msgbox Yoann_Text_Chen
 	return
 
 Yoann_EventScript_FirstVictory::
@@ -107,13 +115,16 @@ Yoann_EventScript_BagFull::
 	releaseall
 	end
 
-Yoann_Text_Chen::
+Yoann_Text_ChenDiploma::
 	.string "Incroyable ! Tu as réussi !\p"
 	.string "Les 151 Yo-kai de Kanto sont\n"
 	.string "désormais enregistrés dans ton\l"
 	.string "Médallium !\p"
 	.string "Voilà un exploit dont tu peux\n"
 	.string "être fier !\p"
+	.string "Voici ton diplôme pour cette\nréussite exceptionnelle !$"
+
+Yoann_Text_Chen::
 	.string "Ah ! J'allais oublier...\p"
 	.string "Une personne assez particulière\n"
 	.string "est venue me voir récemment.\p"

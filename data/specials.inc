@@ -490,4 +490,5 @@ gSpecials::
 	def_special GorgouilleAlizonDeparture
 	def_special PostgameEnmaArrival
 	def_special PostgameEnmaDeparture
+	def_special PostgameScientistDeparture
 gSpecialsEnd::

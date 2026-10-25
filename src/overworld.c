@@ -1729,7 +1729,13 @@ void CB2_ReturnToFieldContinueScriptPlayMapMusic(void)
 void CB2_ReturnToFieldFromDiploma(void)
 {
     FieldClearVBlankHBlankCallbacks();
-    gFieldCallback = FieldCB_WarpExitFadeFromBlack;
+    // Oak continues with the invitation after presenting the postgame diploma.
+    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_PALLET_TOWN_PROFESSOR_OAKS_LAB)
+     && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_PALLET_TOWN_PROFESSOR_OAKS_LAB)
+     && FlagGet(FLAG_SYS_GAME_CLEAR))
+        gFieldCallback = FieldCB_ContinueScriptHandleMusic;
+    else
+        gFieldCallback = FieldCB_WarpExitFadeFromBlack;
     CB2_ReturnToField();
 }
 
