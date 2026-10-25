@@ -1,0 +1,21 @@
+{
+  "rom_sha256": "d20247d540b4d33905bd113eb5b6f3f9f154eb497a0fa79a8ab0ea0ab3c291fb",
+  "video": "debut-terreur-jusqu-au-combat-mgba.mp4",
+  "video_sha256": "51d3a4d647e169c756f398cdb99dbca69fd532a23fa215cf1d75fcb6a958823c",
+  "scope": "Continuous mGBA recording: normal cave, native trigger, pursuit and battle.\nOnly the starting map, party and encounter eligibility are prepared. Once the\nrecording starts, only controller input is used; no warp, timer edit or battle\noutcome is injected. Raw native video and audio are encoded without cuts.\n",
+  "frames": 3500,
+  "fps": 59.727500915527344,
+  "duree_secondes": 58.599472,
+  "taille_octets": 17410875,
+  "evenements_secondes": {
+    "declenchement": 1.925411213213903,
+    "transformation": 8.237411451315133,
+    "exploration": 18.45046223444975,
+    "alerte_ou_vue_oni": 35.8963620967879,
+    "combat": 42.610187283733765,
+    "menu_combat": 56.59034696228689
+  },
+  "chronometre": "Durée normale de 180 secondes, jamais modifiée pendant la capture. Combat déclenché par la poursuite.",
+  "montage": "Continu, sans coupe ni accélération. Image agrandie x3 au plus proche voisin.",
+  "audio": "Sortie directe mGBA, encodée en AAC 48 kHz pour le MP4. Aucune OST modifiée."
+}
