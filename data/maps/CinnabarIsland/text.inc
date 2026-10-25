@@ -34,5 +34,5 @@ CinnabarIsland_Text_MyPalsBoatArrived::
     .string "On dirait que le bateau de mon ami\nest arrivé.\pIl l'a spécialement envoyé à\nCramois'Île pour venir me chercher.$"
 
 CinnabarIsland_Text_IfYouHaveTriPassYouCanGoAgain::
-    .string "Quelle traversée, hein ?\pMon ami Ciléo a eu l'air d'apprécier\nta compagnie.\pJe suis sûr qu'il sera ravi de te\nrevoir.\pAvec le Tri-Passe, tu peux y\nretourner en prenant le ferry au port\lde Carmin-sur-Mer.\pMerci de m'avoir accompagné !$"
+    .string "Quelle traversée, hein ?\pMon ami Steve Jaws a eu l'air\nd'apprécier ta compagnie.\pJe suis sûr qu'il sera ravi de\nte revoir.\pAvec le Tri-Passe, tu peux y\nretourner en prenant le ferry\pau port de Carmin-sur-Mer.\pMerci de m'avoir accompagné !$"
 

@@ -14009,3 +14009,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_PG_Scientist1[] = {{.iv=
 static const struct TrainerMonNoItemDefaultMoves sParty_PG_Scientist2[] = {{.iv=100, .lvl=65, .species=SPECIES_PIDGEOT}};
 
 static const struct TrainerMonNoItemDefaultMoves sParty_PG_Scientist3[] = {{.iv=100, .lvl=70, .species=SPECIES_RATTATA}};
+
+static const struct TrainerMonItemCustomMoves sParty_SteveJaws[] = {
+    {.iv=200, .lvl=75, .species=SPECIES_PIDGEOT, .heldItem=ITEM_NONE, .moves={MOVE_METEOR_MASH, MOVE_EARTHQUAKE, MOVE_BRICK_BREAK, MOVE_PROTECT}},
+    {.iv=200, .lvl=76, .species=SPECIES_GLOOM, .heldItem=ITEM_NONE, .moves={MOVE_SHADOW_BALL, MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_THUNDER_WAVE}},
+    {.iv=200, .lvl=77, .species=SPECIES_MAROWAK, .heldItem=ITEM_NONE, .moves={MOVE_STEEL_WING, MOVE_AERIAL_ACE, MOVE_EARTHQUAKE, MOVE_IRON_DEFENSE}},
+    {.iv=200, .lvl=78, .species=SPECIES_ZAPDOS, .heldItem=ITEM_NONE, .moves={MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_CALM_MIND, MOVE_REFLECT}},
+    {.iv=200, .lvl=79, .species=SPECIES_HYPNO, .heldItem=ITEM_NONE, .moves={MOVE_METEOR_MASH, MOVE_BRICK_BREAK, MOVE_ROCK_SLIDE, MOVE_PROTECT}},
+    {.iv=200, .lvl=80, .species=SPECIES_RATTATA, .heldItem=ITEM_SITRUS_BERRY, .moves={MOVE_METEOR_MASH, MOVE_EARTHQUAKE, MOVE_SHADOW_BALL, MOVE_BULK_UP}},
+};

@@ -4605,3 +4605,6 @@ extern const u32 gTrainerPalette_OniGargaros[];
 
 extern const u32 gTrainerFrontPic_OniOgralos[];
 extern const u32 gTrainerPalette_OniOgralos[];
+
+extern const u32 gTrainerFrontPic_SteveJaws[];
+extern const u32 gTrainerPalette_SteveJaws[];

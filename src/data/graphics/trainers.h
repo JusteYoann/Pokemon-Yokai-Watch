@@ -520,3 +520,6 @@ const u32 gTrainerPalette_OniGargaros[] = INCBIN_U32("graphics/oni_battle/gargar
 
 const u32 gTrainerFrontPic_OniOgralos[] = INCBIN_U32("graphics/oni_battle/ogralos/front.4bpp.lz");
 const u32 gTrainerPalette_OniOgralos[] = INCBIN_U32("graphics/oni_battle/ogralos/normal.gbapal.lz");
+
+const u32 gTrainerFrontPic_SteveJaws[] = INCBIN_U32("graphics/yokai_characters/steve_jaws/battle.4bpp.lz");
+const u32 gTrainerPalette_SteveJaws[] = INCBIN_U32("graphics/yokai_characters/steve_jaws/normal.gbapal.lz");

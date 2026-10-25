@@ -188,10 +188,10 @@ gFameCheckerFlavorText_Sabrina1:: @ 0x81AE656
     .string "Il est le PDG actuel\nde Yopple.$"
 
 gFameCheckerFlavorText_Sabrina2:: @ 0x81AE6D7
-    .string "Il a racheté Yopple,\nfondée par Steve Jaws.$"
+    .string "Il a racheté Yopple, fondée par\nSteve Jaws.$"
 
 gFameCheckerFlavorText_Sabrina3:: @ 0x81AE762
-    .string "Steve Jaws est à l’origine\ndes inventions de Yopple.$"
+    .string "Steve Jaws est à l’origine des\ninventions de Yopple.$"
 
 gFameCheckerFlavorText_Sabrina4:: @ 0x81AE7CB
     .string "Après son sauvetage, il offre\nune Master Ball.$"
@@ -1047,13 +1047,13 @@ gFameCheckerFlavorTextOriginObjectName_Bill2::
     .string "VIEIL HOMME$"
 
 gFameCheckerFlavorTextOriginObjectName_Bill3::
-    .string "CILÉO$"
+    .string "STEVE JAWS$"
 
 gFameCheckerFlavorTextOriginObjectName_Bill4::
-    .string "CILÉO$"
+    .string "STEVE JAWS$"
 
 gFameCheckerFlavorTextOriginObjectName_Bill5::
-    .string "CILÉO$"
+    .string "STEVE JAWS$"
 
 gFameCheckerFlavorTextOriginObjectName_MrFuji0::
     .string "FILLETTE$"

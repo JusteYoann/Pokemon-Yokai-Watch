@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "rom_sha256": "7ac5ebed5db9d1ccc6b241ce2f56d735fdd97d463bcad5304470544cb7f24727",
+  "scope": "Parties isolées : graphisme Ciléo, scènes Sevii, équipe native et Arène postgame.\nPrérequis et équipe niveau100 préparés ; progression et combat par commandes natives.\n",
+  "checks": [
+    {
+      "test": "native_font_widths",
+      "maximum": 208
+    },
+    {
+      "test": "pre_League_Don_unchanged",
+      "passed": true
+    },
+    {
+      "test": "Sevii_introduction_actor_and_palette",
+      "passed": true
+    },
+    {
+      "test": "Ruby_exchange",
+      "passed": true
+    },
+    {
+      "test": "Sapphire_exchange",
+      "passed": true
+    },
+    {
+      "test": "native_postgame_Gym_victory",
+      "party": [
+        [
+          18,
+          75
+        ],
+        [
+          44,
+          76
+        ],
+        [
+          105,
+          77
+        ],
+        [
+          145,
+          78
+        ],
+        [
+          97,
+          79
+        ],
+        [
+          19,
+          80
+        ]
+      ],
+      "portrait": 171,
+      "leader_remains": true
+    },
+    {
+      "test": "rematch_available",
+      "passed": true
+    }
+  ]
+}

@@ -1,29 +1,29 @@
 OneIsland_PokemonCenter_1F_Text_BillHeyThereCelio::
-    .string "LÉO : Hé, Ciléo !$"
+    .string "LÉO : Hé, Steve Jaws !$"
 
 OneIsland_PokemonCenter_1F_Text_CelioCantBelieveYouCameOut::
-    .string "CILÉO : Léo ! Je n'en reviens pas de\nte voir ici !$"
+    .string "STEVE : Léo ! Je n'en reviens\npas de te voir ici !$"
 
 OneIsland_PokemonCenter_1F_Text_BillHowsYourResearchComing::
     .string "LÉO : Bien sûr ! Comment avancent\ntes recherches ?\pAh, attends une seconde.$"
 
 OneIsland_PokemonCenter_1F_Text_ThisIsMyBuddyCelio::
-    .string "{PLAYER}, voici mon ami Ciléo. C'est\nun vrai passionné de PC !$"
+    .string "{PLAYER}, voici mon ami\nSteve Jaws.\pC'est un passionné de PC !$"
 
 OneIsland_PokemonCenter_1F_Text_PlayerIsRisingPokemonChamp::
-    .string "Ciléo, voici {PLAYER}. Un grand espoir\nparmi les Dresseurs de Yo-kai !$"
+    .string "Steve Jaws, voici {PLAYER}. Un\ngrand espoir parmi les\pDresseurs de Yo-kai !$"
 
 OneIsland_PokemonCenter_1F_Text_PlayerIsReigningPokemonChamp::
-    .string "Ciléo, voici {PLAYER}, le Champion de\nla Ligue Yo-kai !$"
+    .string "Steve Jaws, voici {PLAYER}, le\nChampion de la Ligue Yo-kai !$"
 
 OneIsland_PokemonCenter_1F_Text_CelioThatsReallyImpressive::
-    .string "CILÉO : C'est impressionnant !\pMoi, je dois avouer que je suis très\nmauvais en combat...\pEn tout cas, je suis ravi de te\nrencontrer.$"
+    .string "STEVE : C'est impressionnant !\pJe travaille surtout sur les\nréseaux de PC.\pMes Yo-kai Acier sont prêts\nà relever tous les défis !\pEn tout cas, je suis ravi de te\nrencontrer.$"
 
 OneIsland_PokemonCenter_1F_Text_BillBringMeUpToSpeed::
     .string "LÉO : Alors, raconte-moi ! Comment\nfonctionne ta machine ?$"
 
 OneIsland_PokemonCenter_1F_Text_CelioPCsCantLinkWithYours::
-    .string "CILÉO : Elle fonctionne bien, mais\nnous sommes trop isolés.\pLes PC de cette île n'arrivent pas à\nse connecter à ton réseau, Léo.$"
+    .string "STEVE : Elle fonctionne bien,\nmais nous sommes trop isolés.\pLes PC de cette île n'arrivent\npas à se connecter à ton\préseau, Léo.$"
 
 OneIsland_PokemonCenter_1F_Text_BillLetMeHelpYou::
     .string "LÉO : Ah oui ? Laisse-moi regarder...\pUn instant... Je pense qu'on peut\narranger ça.\pJe vais te donner un coup de main !$"
@@ -35,7 +35,7 @@ OneIsland_PokemonCenter_1F_Text_AcceptedMeteoriteFromBill::
     .string "{PLAYER} reçoit la Météorite de Léo.$"
 
 OneIsland_PokemonCenter_1F_Text_CelioPleaseTakeThis::
-    .string "CILÉO : {PLAYER}, si tu vas sur l'Île\n2, prends donc ceci.$"
+    .string "STEVE : {PLAYER}, si tu vas sur\nl'Île 2, prends donc ceci.$"
 
 OneIsland_PokemonCenter_1F_Text_PassLetsYouTravelBetweenIslands::
     .string "Ce passe permet d'utiliser les ferries\ndes îles voisines.\pTu pourras voyager entre les Îles 1,\n2 et 3.\pTiens, prends aussi ceci !$"
@@ -53,7 +53,7 @@ OneIsland_PokemonCenter_1F_Text_HmmHowAboutLikeThis::
     .string "Hmm... Et si on essayait de cette\nfaçon ?$"
 
 OneIsland_PokemonCenter_1F_Text_GotPCWorkingStrollAWhileMore::
-    .string "Ah, {PLAYER} ! Tu as vu ? Le PC\nfonctionne !\pJ'ai encore quelques explications à\ndonner à Ciléo.\pTu peux te promener un moment en\nattendant ?$"
+    .string "Ah, {PLAYER} ! Tu as vu ? Le PC\nfonctionne !\pJ'ai encore quelques\nexplications à donner à\pSteve Jaws.\pTu peux te promener un moment\nen attendant ?$"
 
 OneIsland_PokemonCenter_1F_Text_SorryForBeingPoorHost::
     .string "Je suis désolé d'accaparer Léo aussi\nlongtemps.\pEt quel accueil je te fais... Tu\nviens nous voir et je ne m'occupe\lmême pas de toi !$"
@@ -68,25 +68,25 @@ OneIsland_PokemonCenter_1F_Text_BillWeGotItDone::
     .string "LÉO : Tu en as mis du temps ! Tu\nt'es bien amusé ?\pÇa y est, les PC sont opérationnels !$"
 
 OneIsland_PokemonCenter_1F_Text_CelioJobWentQuick::
-    .string "CILÉO : Nous avons terminé à une\nvitesse incroyable !\pLéo est vraiment doué...$"
+    .string "STEVE : Nous avons terminé à\nune vitesse incroyable !\pLéo est vraiment doué...$"
 
 OneIsland_PokemonCenter_1F_Text_BillYouveLearnedALot::
-    .string "LÉO : Mais non ! Tu avais déjà\npresque tout fait.\pCiléo, tu as fait des progrès\nremarquables.$"
+    .string "LÉO : Mais non ! Tu avais déjà\npresque tout fait.\pSteve Jaws, tu as fait des\nprogrès remarquables.$"
 
 OneIsland_PokemonCenter_1F_Text_CelioOhReallyEhehe::
-    .string "CILÉO : Oh, vraiment ? Héhéhé…$"
+    .string "STEVE : Oh, vraiment ? Héhéhé…$"
 
 OneIsland_PokemonCenter_1F_Text_BillWeShouldHeadBackToKanto::
-    .string "LÉO : Voilà, le travail est terminé !\pIl est temps de rentrer à Kanto.\pÀ bientôt, Ciléo !$"
+    .string "LÉO : Voilà, le travail est\nterminé !\pIl est temps de rentrer à\nKanto.\pÀ bientôt, Steve Jaws !$"
 
 OneIsland_PokemonCenter_1F_Text_CelioPromiseIllShowYouAroundSometime::
-    .string "CILÉO : {PLAYER}, désolé de t'avoir\nlaissé te débrouiller aujourd'hui.\pJe te promets de te faire visiter ces\nîles un de ces jours !$"
+    .string "STEVE : {PLAYER}, désolé de\nt'avoir laissé te débrouiller\paujourd'hui.\pJe te promets de te faire\nvisiter ces îles un de ces\pjours !$"
 
 OneIsland_PokemonCenter_1F_Text_CelioImModifyingMyNetworkMachine::
-    .string "CILÉO : Bonjour ! Tu as l'air\ntoujours aussi occupé.\pMoi ? Je travaille sur ma Machine\nRéseau.\pQuand elle sera prête, j'espère que\ntu seras la première personne à\ll'essayer, {PLAYER} !$"
+    .string "STEVE : Bonjour ! Tu as l'air\ntoujours aussi occupé.\pMoi ? Je travaille sur ma\nMachine Réseau.\pQuand elle sera prête, j'espère\nque tu seras la première\ppersonne à l'essayer, {PLAYER}\n!$"
 
 OneIsland_PokemonCenter_1F_Text_CelioCaughtMoreMonMaybeICanBeUseful::
-    .string "CILÉO : {PLAYER}, comment vas-tu ?\pAh, tu as capturé davantage de\nYo-kai !\pTu sais quoi ? Je pourrais peut-être\nt'être utile.$"
+    .string "STEVE : {PLAYER}, comment\nvas-tu ?\pAh, tu as capturé davantage de\nYo-kai !\pTu sais quoi ? Je pourrais\npeut-être t'être utile.$"
 
 OneIsland_PokemonCenter_1F_Text_YoullBeTradingFromTrainersFarAway::
     .string "Je modifie la Machine Réseau pour\npermettre les échanges à grande\ldistance.\pTu pourras ainsi échanger des Yo-kai\navec des Dresseurs de régions\llointaines.$"
@@ -101,7 +101,7 @@ OneIsland_PokemonCenter_1F_Text_OhThats::
     .string "Oh ! Mais... c'est...$"
 
 OneIsland_PokemonCenter_1F_Text_HandedRubyToCelio::
-    .string "{PLAYER} remet le Rubis à Ciléo.$"
+    .string "{PLAYER} remet le Rubis à\nSteve Jaws.$"
 
 OneIsland_PokemonCenter_1F_Text_MayIAskOneMoreFavor::
     .string "Merci ! {PLAYER}, tu es vraiment\nformidable !\p...\pDis... pourrais-tu me rendre un autre\ngrand service ?$"
@@ -122,10 +122,10 @@ OneIsland_PokemonCenter_1F_Text_PassLetYouGetToAllIslands::
     .string "Voici mon propre passe de ferry. Il\npermet de rejoindre toutes les Îles\lSevii.\p{PLAYER}, je compte sur ton aide !$"
 
 OneIsland_PokemonCenter_1F_Text_HandedSapphireToCelio::
-    .string "{PLAYER} remet le Saphir à Ciléo.$"
+    .string "{PLAYER} remet le Saphir à\nSteve Jaws.$"
 
 OneIsland_PokemonCenter_1F_Text_ThankYouGiveMeTime::
-    .string "CILÉO : C'est donc cette gemme qui\nforme une paire avec le Rubis...\p{PLAYER}, tu as dû traverser bien des\népreuves pour l'obtenir.\pInutile de m'expliquer. Je sais que\nça n'a pas été facile.\pMerci infiniment !\pÀ mon tour de travailler pour toi.\nLaisse-moi un petit moment !$"
+    .string "STEVE : C'est donc cette gemme\nqui forme une paire avec le\pRubis...\p{PLAYER}, tu as dû traverser\nbien des épreuves pour\pl'obtenir.\pInutile de m'expliquer. Je sais\nque ça n'a pas été facile.\pMerci infiniment !\pÀ mon tour de travailler pour\ntoi. Laisse-moi un petit moment\p!$"
 
 OneIsland_PokemonCenter_1F_Text_OkayThisIsGood::
     .string "Voilà... Ça devrait aller.$"
@@ -140,7 +140,7 @@ OneIsland_PokemonCenter_1F_Text_WishYouBestOfLuck::
     .string "Je... Non, je ne pleure pas.\pBon, assez parlé de moi !\p{PLAYER}, tu vas continuer à chercher\ndes Yo-kai rares, n'est-ce pas ?\pJe te souhaite bonne chance !$"
 
 OneIsland_PokemonCenter_1F_Text_CelioHearingRumorsAboutYou::
-    .string "CILÉO : Bonjour !\p{PLAYER}, j'entends beaucoup parler\nde toi en ce moment.$"
+    .string "STEVE : Bonjour !\p{PLAYER}, j'entends beaucoup\nparler de toi en ce moment.$"
 
 OneIsland_PokemonCenter_1F_Text_BillsFirstMonWasAbra::
     .string "{PLAYER}, quelle espèce de Yo-kai\npréfères-tu ?\pLéo est un passionné : il les aime\ntous !\pIl paraît que le premier qu'il a\ncapturé était un Yo-kai Psy.$"
@@ -161,7 +161,7 @@ OneIsland_PokemonCenter_1F_Text_WishICouldTradeWithBoyfriend::
     .string "J'aimerais pouvoir échanger des\nYo-kai avec mon petit ami, qui vit\lloin d'ici...$"
 
 OneIsland_PokemonCenter_1F_Text_TradedWithFarAwayBoyfriend::
-    .string "J'ai pu échanger des Yo-kai avec mon\npetit ami !\pIl paraît que c'est grâce à toi et à\nCiléo. Alors, merci !$"
+    .string "J'ai pu échanger des Yo-kai\navec mon petit ami !\pIl paraît que c'est grâce à toi\net à Steve Jaws. Alors, merci !$"
 
 OneIsland_PokemonCenter_1F_Text_MachineUnderAdjustment::
     .string "Machine Réseau\nConnexion : niveau 0\pConfiguration du système de stockage\nen cours...$"

@@ -280,7 +280,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_BLAINE]                   = &gObjectEventGraphicsInfo_Blaine,
     [OBJ_EVENT_GFX_GIOVANNI]                 = &gObjectEventGraphicsInfo_YokaiDonMorleone,
     [OBJ_EVENT_GFX_MOM]                      = &gObjectEventGraphicsInfo_Mom,
-    [OBJ_EVENT_GFX_CELIO]                    = &gObjectEventGraphicsInfo_Celio,
+    [OBJ_EVENT_GFX_CELIO]                    = &gObjectEventGraphicsInfo_RequinLunettes,
     [OBJ_EVENT_GFX_TEACHY_TV_HOST]           = &gObjectEventGraphicsInfo_TeachyTVHost,
     [OBJ_EVENT_GFX_GYM_GUY]                  = &gObjectEventGraphicsInfo_GymGuy,
     [OBJ_EVENT_GFX_ITEM_BALL]                = &gObjectEventGraphicsInfo_ItemBall,

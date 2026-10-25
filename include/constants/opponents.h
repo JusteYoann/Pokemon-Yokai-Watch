@@ -780,7 +780,7 @@
 #define TRAINER_ONI_GARGAROS 747
 #define TRAINER_ONI_OGRALOS 748
 #define TRAINER_ONI_ORQANOS 749
-#define NUM_TRAINERS                             755
+#define NUM_TRAINERS                             756
 #define MAX_TRAINERS_COUNT                       768
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H
@@ -790,3 +790,5 @@
 #define TRAINER_PG_SCIENTIST_1 752
 #define TRAINER_PG_SCIENTIST_2 753
 #define TRAINER_PG_SCIENTIST_3 754
+
+#define TRAINER_STEVE_JAWS 755

@@ -893,6 +893,7 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
     [TRAINER_PIC_YOKAI_NATHANIEL] = sAnims_AquaLeaderArchie,
     [TRAINER_PIC_YOKAI_MICHAEL] = sAnims_AquaLeaderArchie,
     [TRAINER_PIC_YOKAI_WYATT] = sAnims_AquaLeaderArchie,
+    [TRAINER_PIC_STEVE_JAWS] = sAnims_AquaLeaderArchie,
     [TRAINER_PIC_YOKAI_DOMNISCIAN] = sAnims_AquaLeaderArchie,
     [TRAINER_PIC_YOKAI_EMPLOYEROUGE] = sAnims_AquaLeaderArchie,
     [TRAINER_PIC_YOKAI_EMPLOYEBLEU] = sAnims_AquaLeaderArchie,
