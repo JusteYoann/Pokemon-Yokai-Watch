@@ -3,14 +3,7 @@ SixIsland_WaterPath_House2_Text_MyNeighborMeasuredMe::
 
 
 SixIsland_WaterPath_House2_Text_DonRematch::
-    .string "Tiens, tiens...\p"
-    .string "Je ne pensais pas te revoir ici.\p"
-    .string "Depuis notre affrontement, j'ai eu\n"
-    .string "le temps de réfléchir.\p"
-    .string "Kanto ne m'appartient plus...\p"
-    .string "Mais je n'ai pas perdu\n"
-    .string "le goût du combat !\p"
-    .string "Que dirais-tu d'une revanche ?$"
+    .string "Tiens... {PLAYER}. Loin des bureaux\net des contrats.\pJ'ai eu le temps de réfléchir à ce\nque m'a coûté mon ambition.\pIci, je ne dirige aucune affaire.\nMais je n'ai pas perdu le goût du\lcombat.\pUne revanche? Sans pierre, sans\nfusion. Seulement nos équipes.$"
 
 SixIsland_WaterPath_House2_Text_DonDecline::
     .string "Une autre fois, peut-être...$"

@@ -8,7 +8,7 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor,as_completed
 from mgba_rpc import ROOT
 import film_cible_mgba as cinema
-D=ROOT/'docs/verification-cinematiques-20261025';D.mkdir(exist_ok=True)
+D=Path(os.environ.get('YOKAI_CINEMATICS_REPORT_DIR',str(ROOT/'docs/verification-cinematiques-20261025')));D.mkdir(exist_ok=True)
 source=(ROOT/'tools/yokai/enregistrer_cinematiques_mgba.py').read_text()
 rom_sha=hashlib.sha256(Path(os.environ.get('YOKAI_QA_ROM',str(ROOT/'pokefirered.gba'))).read_bytes()).hexdigest()
 def valid_report(name):
@@ -84,7 +84,7 @@ class Verification(cinema.Film):
 cinema.Film=Verification
 source=source.replace("from mafiamille_qa import C","from mafiamille_qa import C\nC.update(VAR_TEMP_F=0x400F, VAR_PHILOSOVNI_STATE=0x40F4)")
 source=source.replace(" q.warp(map_,x,y)\n  if not trigger"," q.warp(map_,x,y)\n  if trigger:r.call('VarSet',C[trigger['var']],int(trigger['var_value']))\n  if not trigger")
-source=source.replace("D=ROOT/'docs/cinematiques-compilation-20261025'","D=ROOT/'docs/verification-cinematiques-20261025'")
+source=source.replace("D=ROOT/'docs/cinematiques-compilation-20261025'","D=Path("+repr(str(D))+")")
 # Current routes and quest states replace obsolete movie-only preparations.
 source=source.replace("('RocketHideout_B4F',25,4,","('RocketHideout_B4F',19,5,")
 source=source.replace("for i in range(1,152):r.call('GetSetPokedexFlag',i,3)","for i in range(1,152):\n   r.call('GetSetPokedexFlag',i,2);r.call('GetSetPokedexFlag',i,3)")

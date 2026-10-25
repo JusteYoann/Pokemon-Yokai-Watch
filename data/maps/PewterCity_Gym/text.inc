@@ -1,6 +1,5 @@
 PewterCity_Gym_Text_BrockIntro::
-    .string "Salut ! Moi, c’est Wyatt !\nBienvenue à Argenta !\pLes mystères et les défis,\nj’adore ça !\pMes Yo-kai ont un caractère\nsolide comme la roche.\pPrêt pour ton premier badge ?\nMontre-nous ce que tu sais faire !{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
-
+    .string "Salut! Wyatt! Les mystères, les\ngrands espaces et les défis...\lc'est mon rayon!\pMes Yo-kai sont solides comme la\nroche. Mais on n'est pas venus\lprendre la poussière!\pPrêt pour ton premier Badge? À\nl'aventure!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 PewterCity_Gym_Text_BrockDefeat::
     .string "Ouah ! Quel combat !\nTu mérites le Badge Roche !$"
@@ -16,8 +15,7 @@ PewterCity_Gym_Text_ExplainTM39::
     .string "Une CT, ou Capsule Technique,\nenseigne une capacité à un Yo-kai.\pChaque CT ne sert qu'une fois:\nchoisis bien son destinataire.\pLa CT39 contient Tomberoche.\pDes rochers s'abattent sur la cible\net réduisent sa Vitesse.$"
 
 PewterCity_Gym_Text_BrockPostBattle::
-    .string "Tu as le sens de l’aventure !\pContinue vers Azuria.\nDe beaux défis t’y attendent !$"
-
+    .string "Quel départ! Avec cette énergie,\ntu iras loin!\pDirection Azuria! Et si tu trouves\nun mystère en chemin, garde-m'en\lun morceau!$"
 
 PewterCity_Gym_Text_DontHaveRoomForThis::
     .string "Tu n'as pas de place pour ça.$"

@@ -1,22 +1,8 @@
 Route25_SeaCottage_Text_ImBillHelpMeOutPal::
-    .string "LÉO: Bonjour! Je suis un Yo-kai…\n"
-    .string "Enfin, non! Je suis Léo!\p"
-    .string "J’ai inventé le PC et\n"
-    .string "les Boîtes Yo-kai.\p"
-    .string "Mais une expérience m’a\n"
-    .string "transformé en Jibanyan!\p"
-    .string "Ce n’était vraiment pas prévu…\n"
-    .string "Tu peux m’aider?$"
+    .string "LÉO: Bonjour! Je suis un Yo-kai...\nNon! Mauvaise présentation!\pLéo, inventeur du PC et des Boîtes\nYo-kai.\pMon téléporteur m'a changé en\nJibanyan. Un résultat fascinant...\lmais très poilu.\pTu peux m'aider avant que je ne\nvide les réserves de chocolat?$"
 
 Route25_SeaCottage_Text_ImBillHelpMeOutLady::
-    .string "LÉO: Bonjour! Je suis un Yo-kai…\n"
-    .string "Enfin, non! Je suis Léo!\p"
-    .string "J’ai inventé le PC et\n"
-    .string "les Boîtes Yo-kai.\p"
-    .string "Mais une expérience m’a\n"
-    .string "transformé en Jibanyan!\p"
-    .string "Ce n’était vraiment pas prévu…\n"
-    .string "Tu peux m’aider?$"
+    .string "LÉO: Bonjour! Je suis un Yo-kai...\nNon! Mauvaise présentation!\pLéo, inventeur du PC et des Boîtes\nYo-kai.\pMon téléporteur m'a changé en\nJibanyan. Un résultat fascinant...\lmais très poilu.\pTu peux m'aider avant que je ne\nvide les réserves de chocolat?$"
 
 Route25_SeaCottage_Text_RunCellSeparationOnPC::
     .string "Attends que j’entre dans\n"
@@ -87,4 +73,3 @@ Route25_SeaCottage_Text_BillsFavoriteMonList::
 
 Route25_SeaCottage_Text_SeeWhichMon::
     .string "Quel Yo-kai veux-tu voir?$"
-

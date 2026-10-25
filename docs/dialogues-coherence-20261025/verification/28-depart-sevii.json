@@ -1,0 +1,100 @@
+{
+  "passed": true,
+  "scope": "Rejoue les scènes existantes sans nouvelle vidéo puis vérifie START et les déplacements.\nChaque scène utilise une partie isolée et les prérequis documentés du pilote cinéma.\nLes équipes ennemies et résultats ne sont pas modifiés. Ce n'est pas un parcours continu.\n",
+  "rom_sha256": "9611b4957e7ce67c5129566b887a532d4510ecc5ab0ec4d8ceb738c40bd80a56",
+  "scene": "28-depart-sevii",
+  "frames": 14998,
+  "seconds": 251.10710761549666,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_LoadMap"
+    },
+    {
+      "seconds": 0.016742706201860025,
+      "callback": "CB2_DoChangeMap"
+    },
+    {
+      "seconds": 0.03348541240372005,
+      "callback": "CB2_LoadMap2"
+    },
+    {
+      "seconds": 0.16742706201860025,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 50.747142497837736,
+      "callback": "CB2_SetUpSeagallopScene"
+    },
+    {
+      "seconds": 50.88108414745262,
+      "callback": "MainCB2_SeaGallop"
+    },
+    {
+      "seconds": 54.33008162503578,
+      "callback": "CB2_LoadMap"
+    },
+    {
+      "seconds": 54.34682433123764,
+      "callback": "CB2_DoChangeMap"
+    },
+    {
+      "seconds": 54.3635670374395,
+      "callback": "CB2_LoadMap2"
+    },
+    {
+      "seconds": 54.497508687054385,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 56.171779307240385,
+      "callback": "CB2_LoadMap"
+    },
+    {
+      "seconds": 56.188522013442245,
+      "callback": "CB2_DoChangeMap"
+    },
+    {
+      "seconds": 56.205264719644106,
+      "callback": "CB2_LoadMap2"
+    },
+    {
+      "seconds": 56.35594907546084,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 86.39236400159773,
+      "callback": "CB2_LoadMap"
+    },
+    {
+      "seconds": 86.4091067077996,
+      "callback": "CB2_DoChangeMap"
+    },
+    {
+      "seconds": 86.42584941400145,
+      "callback": "CB2_LoadMap2"
+    },
+    {
+      "seconds": 86.59327647602005,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "checks": {
+    "script_finished": true,
+    "controls_unlocked": true,
+    "native_player_moved": true,
+    "native_start_menu": true
+  },
+  "map": "CinnabarIsland",
+  "entry_script": null,
+  "prepared_flags": [],
+  "prepared_vars": [
+    [
+      16497,
+      1
+    ]
+  ],
+  "prepared_party_level": 100,
+  "native_battles": true,
+  "complete": true
+}

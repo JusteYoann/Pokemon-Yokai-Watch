@@ -1,11 +1,11 @@
 RocketHideout_B4F_Text_GiovanniIntro::
-    .string "On entre rarement ici sans mon\naccord. Tu as de l'audace.\pJe suis Don Morléone. La Mafiamille\nsait tirer profit du talent des\lYo-kai.\pMais ton intervention nous coûte cher.\nVoyons comment tu comptes régler ta\ldette.$"
+    .string "On entre rarement ici sans mon\naccord. Tu as de l'audace.\pDon Morléone, pour te servir...\nfaçon de parler.\pLa Pierre Philosovni est une\nacquisition de la famille. Son\lpouvoir sur les forces Yo-kai vaut\lune fortune.\pEt tes interventions retardent mes\naffaires. Voyons comment tu comptes\lrégler ta dette.$"
 
 RocketHideout_B4F_Text_GiovanniDefeat::
     .string "Tu as remporté cette manche.$"
 
 RocketHideout_B4F_Text_GiovanniPostBattle::
-    .string "Tu prends soin de tes Yo-kai. Cela se\nvoit.\pJe vais me retirer pour cette fois.\nN'y vois pas une invitation à\lrecommencer.$"
+    .string "Tu prends soin de tes Yo-kai. Cela\nse voit.\pMais tu cherches la pierre trop\ntard: elle a déjà quitté ce\lrepaire.\pLes recherches de Yopple, à\nSafrania, vont révéler son\lvéritable potentiel.\pJe me retire pour cette fois. Notre\ncompte reste ouvert.$"
 
 RocketHideout_B4F_Text_Grunt2Intro::
     .string "Je te reconnais! Tu as saboté nos\nfouilles au Mont Sélénite!$"
@@ -33,4 +33,3 @@ RocketHideout_B4F_Text_Grunt1Defeat::
 
 RocketHideout_B4F_Text_Grunt1PostBattle::
     .string "Oh non! J'ai fait tomber la Clé\nAscenseur!$"
-

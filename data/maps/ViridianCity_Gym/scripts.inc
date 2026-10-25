@@ -135,13 +135,15 @@ SteveJaws_GymStatue::
 	msgbox SteveJaws_Text_Statue, MSGBOX_SIGN
 	end
 SteveJaws_Text_Offer::
-	.string "Steve Jaws: J'ai repris cette\nArène après le départ de Morléone.\pMes Yo-kai ont la force de l'Acier!\nPrêt à relever le défi?$"
+    .string "Steve Jaws: Nouveau défi, nouveau\nprototype! J'ai repris l'Arène\laprès Morléone.\pMes Yo-kai Acier ont passé tous mes\ntests. Il reste le plus intéressant:\ltoi!\pOn essaie?$"
+
 SteveJaws_Text_Start::
 	.string "Mettons tes talents à l'épreuve!$"
 SteveJaws_Text_Defeat::
 	.string "Une démonstration remarquable!$"
 SteveJaws_Text_Won::
-	.string "Steve Jaws: Solide, précis...\nTu as tout d'un grand Champion!\pReviens quand tu veux.\nMon équipe sera prête!$"
+    .string "Steve Jaws: Solide, précis... Voilà\nune belle démonstration!\pUne défaite, c'est aussi une idée\npour la prochaine version.\pReviens quand tu veux. On a encore\ndes progrès à inventer!$"
+
 SteveJaws_Text_Guide::
 	.string "Steve Jaws dirige cette Arène.\nIl compte surtout sur l'Acier!$"
 SteveJaws_Text_Statue::

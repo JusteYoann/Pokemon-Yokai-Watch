@@ -520,13 +520,13 @@ const u8 gText_OakNoRunningFromATrainer[] = _("CHEN: Impossible de fuir\nun comb
 const u8 gText_WinEarnsPrizeMoney[] = _("CHEN: Excellent!\pUne victoire te rapporte de\nl'argent et renforce tes Yo-kai!\pAffronte d'autres Dresseurs\npour faire progresser ton équipe!\p");
 const u8 gText_HowDissapointing[] = _("CHEN: Hum…\nDommage…\pGagner rapporte de l'argent\net entraîne tes Yo-kai.\pPerdre coûte de l'argent,\n{B_PLAYER_NAME}…\pCette fois, je paie pour toi.\pMais dehors, tu devras\nte débrouiller seul.\pEntraîne tes Yo-kai\ncontre des Yo-kai sauvages!\p");
 
-static const u8 sText_SpiratonTransform[] = _("DON SPIRATON se transforme\nen {B_BUFF1} !");
-static const u8 sText_SpiratonAppears[] = _("Don Spiraton apparaît !");
-static const u8 sCureBurn[] = _("DON SPIRATON n'est plus brûlé !");
-static const u8 sCurePoison[] = _("DON SPIRATON n'est plus\nempoisonné !");
-static const u8 sCureParalysis[] = _("DON SPIRATON n'est plus\nparalysé !");
-static const u8 sCureSleep[] = _("DON SPIRATON s'est réveillé !");
-static const u8 sCureFreeze[] = _("DON SPIRATON n'est plus gelé !");
+static const u8 sText_SpiratonTransform[] = _("DON SPIRATION se transforme\nen {B_BUFF1} !");
+static const u8 sText_SpiratonAppears[] = _("Don Spiration apparaît !");
+static const u8 sCureBurn[] = _("DON SPIRATION n'est plus brûlé !");
+static const u8 sCurePoison[] = _("DON SPIRATION n'est plus\nempoisonné !");
+static const u8 sCureParalysis[] = _("DON SPIRATION n'est plus\nparalysé !");
+static const u8 sCureSleep[] = _("DON SPIRATION s'est réveillé !");
+static const u8 sCureFreeze[] = _("DON SPIRATION n'est plus gelé !");
 static const u8 sText_AlyzonColossus[] = _("ALYZON : Et maintenant,\nje vais te présenter\pmon petit préféré !\nHihi !");
 
 static const u8 sNuzlockeCaptureBlocked[] = _("Nuzlocke : capture interdite.\nRencontre passée ou espèce déjà prise.");

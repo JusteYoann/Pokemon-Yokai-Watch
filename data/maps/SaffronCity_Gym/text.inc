@@ -1,13 +1,8 @@
 SaffronCity_Gym_Text_SabrinaIntro::
-    .string "DOMNISCIAN: Bienvenue dans\n"
-    .string "mon Arène! Quel honneur pour toi!\p"
-    .string "J’ai racheté Yopple. Son avenir\n"
-    .string "ne peut être que brillant avec moi!\p"
-    .string "Tout comme mes Yo-kai Acier!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "DOMNISCIAN: Bienvenue! Quelle\nchance tu as de me rencontrer!\pSteve Jaws a fondé Yopple. Moi, je\nl'ai rachetée. Son avenir a enfin\lmon visage!\pMes Yo-kai Acier sont un\ninvestissement de premier choix.\pAdmire cette démonstration de\nréussite!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 SaffronCity_Gym_Text_SabrinaDefeat::
-    .string "Mon équipe... battue?!\p"
-    .string "Tu mérites donc le Badge Marais.$"
+    .string "Une défaite?!\pHum... Disons une étude de marché.\nTrès instructive.\pTu mérites le Badge Marais.$"
 
 SaffronCity_Gym_Text_SabrinaPostBattle::
     .string "Cette CT contient Queue de Fer.\p"

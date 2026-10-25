@@ -291,30 +291,7 @@ PG_OctorgoneKO::
 	end
 
 PG_Text_Enma::
-	.string "Te voilà enfin, {PLAYER}.\p"
-	.string "Je suis Enma, souverain du\nYo-kai World.\p"
-	.string "Depuis quelque temps, ton nom\nrevient souvent parmi les\p"
-	.string "Yo-kai.\p"
-	.string "Tu as traversé Kanto, affronté\ndes adversaires redoutables et\p"
-	.string "mis un terme aux agissements de\nDon Morléone.\p"
-	.string "Peu de personnes auraient été\ncapables d'un tel exploit.\p"
-	.string "Mais j'ai également entendu\nparler d'une ambition encore\p"
-	.string "plus étonnante.\p"
-	.string "Tu souhaiterais réunir les 151\nYo-kai de ce monde dans ton\p"
-	.string "Médallium ?\p"
-	.string "Intéressant…\p"
-	.string "Sache que personne n'a encore\nréussi cet exploit.\p"
-	.string "Si tu y parviens, ton nom\nrestera gravé dans l'histoire\p"
-	.string "du Yo-kai World.\p"
-	.string "Et puisque nous parlons de ton\nMédallium…\p"
-	.string "Je dois t'avouer quelque chose.\p"
-	.string "J'en fais moi-même partie !\p"
-	.string "Si tu souhaites devenir mon\nami, il faudra cependant me\p"
-	.string "retrouver.\p"
-	.string "Je t'attendrai quelque part\ndans ce vaste monde.\p"
-	.string "Considère cela comme une\ndernière épreuve.\p"
-	.string "Encore une fois, merci d'avoir\nprotégé ce monde.\p"
-	.string "J'espère que nos chemins se\ncroiseront bientôt, {PLAYER}.$"
+    .string "Alors, c'est toi, {PLAYER}! Ton nom\nfait du bruit jusque dans le Yo-kai\lWorld.\pJe suis Enma, son souverain. Mais\naujourd'hui, je viens saluer un\lDresseur.\pTu as arrêté Don Morléone sans\nchercher à posséder les autres.\lJ'aime cette façon de gagner.\pOn me dit que tu veux réunir les\n151 Yo-kai dans ton Médallium.\lQuel beau défi!\pJ'en fais moi-même partie. Tu\npensais que j'allais me laisser de\lcôté?\pRetrouve-moi, puis gagne mon amitié\ndans un vrai combat. Une couronne\ln'empêche pas d'aimer les défis!\pBonne chasse aux rencontres,\n{PLAYER}. Nous nous reverrons!$"
 
 PG_Text_Chen::
 	.string "Ah, {PLAYER} !\p"
@@ -327,25 +304,7 @@ PG_Text_Chen::
 	.string "de lui !$"
 
 PG_Text_NyadaI::
-	.string "Tiens donc… Voilà un visage que\nje ne connais pas.\p"
-	.string "Tu dois être {PLAYER}.\p"
-	.string "J'ai entendu parler de tes\nexploits. Impressionnant, pour\p"
-	.string "quelqu'un d'aussi jeune.\p"
-	.string "Dis-moi… Que sais-tu de la\nguerre contre les Perfides ?\p"
-	.string "Il y a bien longtemps, j'ai\ncombattu aux côtés de deux\p"
-	.string "puissants Yo-kai.\p"
-	.string "Kyubi et Octorgone.\p"
-	.string "Deux guerriers exceptionnels…\net deux sacrées têtes de mule.\p"
-	.string "Nous avons traversé bien des\népreuves ensemble.\p"
-	.string "Malheureusement, une récente\ndispute nous a séparés.\p"
-	.string "Ils sont partis chacun de leur\ncôté.\p"
-	.string "J'aimerais savoir ce qu'ils\ndeviennent.\p"
-	.string "Pourrais-tu les retrouver et\nles convaincre de t'accompagner\p"
-	.string "?\p"
-	.string "Kyubi se trouve aux Îles Écume.\p"
-	.string "Quant à Octorgone, cherche-le\ndu côté de la Centrale\p"
-	.string "électrique.\p"
-	.string "Ils ne sont pas faciles à\napprocher. Prépare-toi bien.$"
+    .string "Ah, mon élève! Je reconnaîtrais ce\npas entre deux siestes.\pNotre combat à la Ligue m'a montré\nton talent. Aujourd'hui, c'est ton\lamitié que j'aimerais éprouver.\pConnais-tu la guerre contre les\nPerfides? Je l'ai traversée avec\lKyubi et Octorgone.\pDeux grands guerriers. Deux\nsacrées têtes de mule, aussi! Une\ldispute nous a séparés.\pRetrouve-les et gagne leur\nconfiance. Kyubi est aux Îles\lÉcume, Octorgone à la Centrale\lélectrique.\pIls écouteront peut-être un jeune\nDresseur mieux qu'un vieux maître!$"
 
 PG_Text_NyadaIThanks::
 	.string "Alors… Tu les as retrouvés ?\p"
@@ -374,45 +333,16 @@ PG_Text_NyadaII::
 	.string "l'autre.$"
 
 PG_Text_DemBeforeSleep::
-	.string "Ah, te voilà !\p"
-	.string "{PLAYER}, je te présente\nDémophage.\p"
-	.string "E-Enchanté !\p"
-	.string "Maître Nyada m'a beaucoup parlé\nde vous !\p"
-	.string "Démophage possède une force\nextraordinaire.\p"
-	.string "Il est même capable de dévorer\ncertains Oni.\p"
-	.string "Mais pour devenir un véritable\nguerrier, la puissance seule ne\p"
-	.string "suffit pas.\p"
-	.string "Il lui faut un adversaire\ncapable de…\p"
-	.string "…$"
+    .string "NYADA: Ah, mon élève! Voici\nDémophage, mon apprenti.\pDÉMOPHAGE: E-enchanté! Le Maître\nm'a beaucoup parlé de vous.\pNYADA: Il pourrait dévorer un Oni.\nMais pour devenir un guerrier, il\llui faut...\p...\pDÉMOPHAGE: Maître? Vous avez\nencore les yeux fermés...$"
 
 PG_Text_DemWake::
-	.string "…Maître ?\p"
-	.string "MAÎTRE, RÉVEILLEZ-VOUS !\p"
-	.string "Hein ?! Quoi ?!\p"
-	.string "Ah, oui… Où en étais-je ?$"
+    .string "DÉMOPHAGE: MAÎTRE,\nREVEILLEZ-VOUS!\pNYADA: Hein? Je méditais! Très\nprofondément.\pOù en étions-nous?$"
 
 PG_Text_DemAfterSleep::
-	.string "Vous parliez de mon\nentraînement, Maître !\p"
-	.string "Exactement.\p"
-	.string "{PLAYER}, je voudrais que tu\naffrontes mon apprenti.\p"
-	.string "Ne te fie pas à sa timidité.\p"
-	.string "Lorsqu'il combat, Démophage est\nredoutable.\p"
-	.string "Je ferai de mon mieux, Maître !\p"
-	.string "{PLAYER}, j'espère que vous\nêtes prêt !$"
+    .string "DÉMOPHAGE: À mon entraînement,\nMaître...\pNYADA: Exact! {PLAYER}, montre-lui\nqu'une grande force doit savoir\lécouter.\pDÉMOPHAGE: Je ferai de mon mieux!\nPromis, je ne vous prendrai pas\lpour mon déjeuner.$"
 
 PG_Text_DemVictory::
-	.string "Incroyable…\p"
-	.string "Vous êtes vraiment aussi fort\nque le disait Maître Nyada !\p"
-	.string "Excellent combat.\p"
-	.string "Démophage, qu'as-tu appris ?\p"
-	.string "Que même avec une force\nimmense, il me reste encore\p"
-	.string "beaucoup à apprendre !\p"
-	.string "Voilà une bonne réponse.\p"
-	.string "{PLAYER}… J'aimerais continuer\nmon entraînement à vos côtés !\p"
-	.string "Maître, vous êtes d'accord ?\p"
-	.string "Bien entendu.\p"
-	.string "Tu ne progresseras pas en\nrestant toujours dans mon\p"
-	.string "ombre.$"
+    .string "DÉMOPHAGE: Ouah... Le Maître\nn'exagérait pas!\pNYADA: Démophage, la leçon?\pDÉMOPHAGE: Je dois compter sur\nautre chose que ma force. Et\lécouter mes amis!\pNYADA: Bien! Voilà qui mérite une\nsieste... une récompense!\pDÉMOPHAGE: {PLAYER}, je peux\ncontinuer l'entraînement avec vous?\lJe tâcherai de ne pas manger vos\lprovisions.$"
 
 PG_Text_Ticket::
 	.string "Avant que tu partes, j'ai une\ndernière chose pour toi.\p"

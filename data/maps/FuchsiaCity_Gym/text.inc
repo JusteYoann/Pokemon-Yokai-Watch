@@ -1,17 +1,12 @@
 FuchsiaCity_Gym_Text_KogaIntro::
-    .string "BÉRÉNICE: Tu as trouvé ton chemin.\p"
-    .string "Les murs cachent les passages,\n"
-    .string "mais l’esprit perçoit davantage.\p"
-    .string "Mes Yo-kai Psy sont prêts.\n"
-    .string "À toi de lire dans leur jeu!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "BÉRÉNICE: Tu regardes les murs.\nEssaie d'écouter les silences.\pMes Yo-kai Psy savent attendre. Moi\naussi.\p...\pRassure-toi. Je ne lirai pas ta\nstratégie avant le combat. Ce\lserait trop facile.{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 FuchsiaCity_Gym_Text_KogaDefeat::
     .string "Tu as su garder l’esprit clair.\p"
     .string "Le Badge Âme est à toi!$"
 
 FuchsiaCity_Gym_Text_KogaPostBattle::
-    .string "La force de l’esprit grandit\n"
-    .string "avec la confiance entre amis.$"
+    .string "J'avais pressenti ta victoire.\pNon, vraiment.\pLa confiance de ton équipe était\nbien plus claire que tes pensées.$"
 
 FuchsiaCity_Gym_Text_KogaExplainSoulBadge::
     .string "Le Badge Âme renforce la Défense.\p"

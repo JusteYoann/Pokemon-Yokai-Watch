@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "scope": "Rejoue les scènes existantes sans nouvelle vidéo puis vérifie START et les déplacements.\nChaque scène utilise une partie isolée et les prérequis documentés du pilote cinéma.\nLes équipes ennemies et résultats ne sont pas modifiés. Ce n'est pas un parcours continu.\n",
+  "rom_sha256": "9611b4957e7ce67c5129566b887a532d4510ecc5ab0ec4d8ceb738c40bd80a56",
+  "scene": "01e-tutoriel-capture",
+  "frames": 5498,
+  "seconds": 92.05139869782641,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 30.069900338540606,
+      "callback": "CB2_OverworldBasic"
+    },
+    {
+      "seconds": 31.275375185074527,
+      "callback": "CB2_InitBattle"
+    },
+    {
+      "seconds": 31.409316834689406,
+      "callback": "CB2_HandleStartBattle"
+    },
+    {
+      "seconds": 31.777656371130327,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 31.777656371130327,
+      "trainer": 0
+    },
+    {
+      "seconds": 41.38796973099798,
+      "callback": "CB2_OpenBagMenu"
+    },
+    {
+      "seconds": 41.538654086814724,
+      "callback": "CB2_BagMenuRun"
+    },
+    {
+      "seconds": 49.658866594716834,
+      "callback": "SetCB2ToReshowScreenAfterMenu2"
+    },
+    {
+      "seconds": 49.675609300918694,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 49.692352007120554,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 50.19463319317636,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 67.48984869969776,
+      "callback": "CB2_ReturnToFieldLocal"
+    },
+    {
+      "seconds": 67.67401846791822,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "checks": {
+    "script_finished": true,
+    "controls_unlocked": true,
+    "native_player_moved": true,
+    "native_start_menu": true
+  },
+  "map": "ViridianCity",
+  "entry_script": "ViridianCity_EventScript_TutorialOldMan",
+  "prepared_flags": [],
+  "prepared_vars": [
+    [
+      16465,
+      1
+    ]
+  ],
+  "prepared_party_level": 100,
+  "native_battles": true,
+  "complete": true
+}

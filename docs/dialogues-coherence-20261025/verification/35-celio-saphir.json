@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "scope": "Rejoue les scènes existantes sans nouvelle vidéo puis vérifie START et les déplacements.\nChaque scène utilise une partie isolée et les prérequis documentés du pilote cinéma.\nLes équipes ennemies et résultats ne sont pas modifiés. Ce n'est pas un parcours continu.\n",
+  "rom_sha256": "9611b4957e7ce67c5129566b887a532d4510ecc5ab0ec4d8ceb738c40bd80a56",
+  "scene": "35-celio-saphir",
+  "frames": 3886,
+  "seconds": 65.06215630042806,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "checks": {
+    "script_finished": true,
+    "controls_unlocked": true,
+    "native_player_moved": true,
+    "native_start_menu": true
+  },
+  "map": "OneIsland_PokemonCenter_1F",
+  "entry_script": "OneIsland_PokemonCenter_1F_EventScript_Celio",
+  "prepared_flags": [
+    2092
+  ],
+  "prepared_vars": [
+    [
+      16502,
+      5
+    ]
+  ],
+  "prepared_party_level": 100,
+  "native_battles": true,
+  "complete": true
+}

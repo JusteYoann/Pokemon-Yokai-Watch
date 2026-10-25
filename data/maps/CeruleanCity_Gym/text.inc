@@ -1,6 +1,5 @@
 CeruleanCity_Gym_Text_MistyIntro::
-    .string "Katie, à ton service !\pLes Yo-kai de type Normal\nont plus d’un tour dans leur sac.\pEt mon ami Jibanyan\na aussi très envie de jouer !\pAllez, {PLAYER} !\nDonnons le meilleur de nous-mêmes !{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
-
+    .string "Katie, enchantée!\pUne équipe ordinaire? Ne te fie pas\naux apparences. Mes amis ont plus\ld'un tour dans leur sac.\pJibanyan, le goûter attendra!\pÀ toi, {PLAYER}. Voyons si tu\nremarques nos petits pièges.{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 CeruleanCity_Gym_Text_ExplainTM03::
     .string "La CT03 enseigne Vibraqua.\pChoisis un Yo-kai compatible\nqui en fera bon usage!$"
@@ -53,4 +52,4 @@ CeruleanCity_Gym_Text_GymStatuePlayerWon::
 
 
 CeruleanCity_Gym_Text_NathanIntro::
-    .string "Hé, {PLAYER} ! C’est Nathan !\pMes amis Yo-kai et moi,\non forme une sacrée équipe.\pNos types Normal savent se battre.\nJibanyan aussi est prêt !\pÀ toi de nous montrer ta force !{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "Hé, {PLAYER}! Nathan!\pJe voulais préparer un grand\ndiscours... et Jibanyan a trouvé\lmes provisions.\pBref! On est une équipe tout à fait\nnormale. Enfin... presque!\pÀ vous de jouer, les amis!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"

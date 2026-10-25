@@ -1,9 +1,8 @@
 VermilionCity_Gym_Text_LtSurgeIntro::
-    .string "Je suis Ariane Célestin !\pLes phénomènes étranges,\nça me passionne !\pIci, mes Yo-kai Électrik\nfont jaillir les étincelles !\pUsapion, à toi de jouer\nquand le moment sera venu !{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
-
+    .string "ARIANE: Nouveau mystère: qui va\ngagner ce combat?\pMa théorie est prête. Place à\nl'expérience!\pMes Yo-kai Electrik vont faire des\nétincelles. Usapion, on compte sur\ltoi!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 VermilionCity_Gym_Text_LtSurgePostBattle::
-    .string "Un petit conseil!\pL'électricité est puissante,\nmais sans effet contre le type Sol!$"
+    .string "ARIANE: Théorie corrigée: tu es\nredoutable!\pNote bien celle-ci: le type Sol\nignore les attaques Electrik.\pUSAPION: Pour une fois, les\npreuves sont faciles à trouver,\ldany.$"
 
 VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis::
     .string "Le Badge Foudre augmente\nla Vitesse de tes Yo-kai!\pIl permet aussi d'utiliser Vol\nen dehors des combats!\pTu as du talent!\nPrends ceci!$"
@@ -79,4 +78,3 @@ VermilionCity_Gym_Text_SecondLockOpened::
 
 VermilionCity_Gym_Text_OnlyTrashLocksWereReset::
     .string "Non! Rien que des déchets.\pOh! Les verrous électriques\nse sont réinitialisés!$"
-

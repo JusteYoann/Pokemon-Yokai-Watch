@@ -1,14 +1,8 @@
 PokemonLeague_LoreleisRoom_Text_Intro::
-    .string "Zazel:\p"
-    .string "Les rêves troublent\n"
-    .string "les certitudes.\p"
-    .string "Garde l’esprit clair, si tu peux!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "ZAZEL: Huit Badges. Dossier\ncomplet.\pIl reste une formalité: me vaincre.\pJe vous prie de rester lucide au\nmilieu de mes illusions. Le\lrèglement ne prévoit pas de pause\lthé.{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 PokemonLeague_LoreleisRoom_Text_RematchIntro::
-    .string "Zazel:\p"
-    .string "Les rêves troublent\n"
-    .string "les certitudes.\p"
-    .string "Garde l’esprit clair, si tu peux!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "ZAZEL: Huit Badges. Dossier\ncomplet.\pIl reste une formalité: me vaincre.\pJe vous prie de rester lucide au\nmilieu de mes illusions. Le\lrèglement ne prévoit pas de pause\lthé.{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 PokemonLeague_LoreleisRoom_Text_Defeat::
     .string "Tu as percé mes illusions.$"

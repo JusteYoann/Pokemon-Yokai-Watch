@@ -8,7 +8,7 @@ OneIsland_PokemonCenter_1F_Text_BillHowsYourResearchComing::
     .string "LÉO : Bien sûr ! Comment avancent\ntes recherches ?\pAh, attends une seconde.$"
 
 OneIsland_PokemonCenter_1F_Text_ThisIsMyBuddyCelio::
-    .string "{PLAYER}, voici mon ami\nSteve Jaws.\pC'est un passionné de PC !$"
+    .string "{PLAYER}, voici Steve Jaws. Il a\nfondé Yopple et créé la\lYo-kai Watch moderne.\pAujourd'hui, il a un nouvel\natelier... et toujours trop\ld'idées!$"
 
 OneIsland_PokemonCenter_1F_Text_PlayerIsRisingPokemonChamp::
     .string "Steve Jaws, voici {PLAYER}. Un\ngrand espoir parmi les\pDresseurs de Yo-kai !$"
@@ -17,13 +17,13 @@ OneIsland_PokemonCenter_1F_Text_PlayerIsReigningPokemonChamp::
     .string "Steve Jaws, voici {PLAYER}, le\nChampion de la Ligue Yo-kai !$"
 
 OneIsland_PokemonCenter_1F_Text_CelioThatsReallyImpressive::
-    .string "STEVE : C'est impressionnant !\pJe travaille surtout sur les\nréseaux de PC.\pMes Yo-kai Acier sont prêts\nà relever tous les défis !\pEn tout cas, je suis ravi de te\nrencontrer.$"
+    .string "STEVE: Ravi de te rencontrer! Une\nbelle invention commence par une\lbonne idée... ou une rencontre.\pJ'ai vendu Yopple à Domniscian,\npas mon envie d'inventer.\pIci, je travaille sur les réseaux\nde PC. Et mes Yo-kai Acier testent\lla solidité du matériel!$"
 
 OneIsland_PokemonCenter_1F_Text_BillBringMeUpToSpeed::
     .string "LÉO : Alors, raconte-moi ! Comment\nfonctionne ta machine ?$"
 
 OneIsland_PokemonCenter_1F_Text_CelioPCsCantLinkWithYours::
-    .string "STEVE : Elle fonctionne bien,\nmais nous sommes trop isolés.\pLes PC de cette île n'arrivent\npas à se connecter à ton\préseau, Léo.$"
+    .string "STEVE: Le prototype fonctionne!\nPresque.\pLes PC de l'île restent isolés du\nréseau. J'ai tout prévu... sauf ce\lpetit détail.\pLéo, tu peux regarder la liaison\navec moi?$"
 
 OneIsland_PokemonCenter_1F_Text_BillLetMeHelpYou::
     .string "LÉO : Ah oui ? Laisse-moi regarder...\pUn instant... Je pense qu'on peut\narranger ça.\pJe vais te donner un coup de main !$"
@@ -174,4 +174,3 @@ OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKantoAndHoenn::
 
 OneIsland_PokemonCenter_1F_Text_ObtainedTriPass::
     .string "Vous obtenez le Tri-Passe !$"
-

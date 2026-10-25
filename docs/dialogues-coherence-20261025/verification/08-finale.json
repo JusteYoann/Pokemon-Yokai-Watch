@@ -1,0 +1,284 @@
+{
+  "passed": true,
+  "scope": "Rejoue les scènes existantes sans nouvelle vidéo puis vérifie START et les déplacements.\nChaque scène utilise une partie isolée et les prérequis documentés du pilote cinéma.\nLes équipes ennemies et résultats ne sont pas modifiés. Ce n'est pas un parcours continu.\n",
+  "rom_sha256": "9611b4957e7ce67c5129566b887a532d4510ecc5ab0ec4d8ceb738c40bd80a56",
+  "scene": "08-finale",
+  "frames": 54158,
+  "seconds": 906.7514824803352,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_LoadMap"
+    },
+    {
+      "seconds": 0.016742706201860025,
+      "callback": "CB2_DoChangeMap"
+    },
+    {
+      "seconds": 0.03348541240372005,
+      "callback": "CB2_LoadMap2"
+    },
+    {
+      "seconds": 0.2009124744223203,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 39.47930122398594,
+      "callback": "CB2_OverworldBasic"
+    },
+    {
+      "seconds": 41.18705725657566,
+      "callback": "CB2_InitBattle"
+    },
+    {
+      "seconds": 41.287513493786825,
+      "callback": "CB2_HandleStartBattle"
+    },
+    {
+      "seconds": 42.626929989935626,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 42.626929989935626,
+      "trainer": 743
+    },
+    {
+      "seconds": 81.87183332709553,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 82.30714368834388,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 83.02708005502386,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 83.04382276122573,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 83.06056546742758,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 83.57958935968524,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 111.8747628408287,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 112.31007320207705,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 113.03000956875704,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 113.04675227495889,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 113.06349498116074,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 113.58251887341841,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 141.6098090553321,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 142.04511941658046,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 142.76505578326044,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 142.7817984894623,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 142.79854119566414,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 143.30082238171997,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 176.7025212544307,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 177.13783161567906,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 177.85776798235904,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 177.87451068856092,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 177.89125339476277,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 178.41027728702042,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 207.7769839650829,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 208.2122943263313,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 208.93223069301126,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 208.94897339921312,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 208.96571610541497,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 209.48473999767265,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 253.4008583651515,
+      "callback": "CB2_ReturnToFieldContinueScriptPlayMapMusic"
+    },
+    {
+      "seconds": 253.41760107135335,
+      "callback": "CB2_ReturnToFieldLocal"
+    },
+    {
+      "seconds": 253.61851354577567,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 303.2438947280888,
+      "callback": "CB2_OverworldBasic"
+    },
+    {
+      "seconds": 304.4493695746227,
+      "callback": "CB2_InitBattle"
+    },
+    {
+      "seconds": 304.5833112242376,
+      "callback": "CB2_HandleStartBattle"
+    },
+    {
+      "seconds": 305.1190778226971,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 305.1190778226971,
+      "trainer": 744
+    },
+    {
+      "seconds": 474.45480834830937,
+      "callback": "CB2_ReturnToFieldContinueScriptPlayMapMusic"
+    },
+    {
+      "seconds": 474.4715510545113,
+      "callback": "CB2_ReturnToFieldLocal"
+    },
+    {
+      "seconds": 474.6724635289336,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 556.0587583761752,
+      "callback": "CB2_LoadMap"
+    },
+    {
+      "seconds": 556.0755010823771,
+      "callback": "CB2_DoChangeMap"
+    },
+    {
+      "seconds": 556.0922437885789,
+      "callback": "CB2_LoadMap2"
+    },
+    {
+      "seconds": 556.2429281443956,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 590.5319904458049,
+      "callback": "CB2_DoHallOfFameScreen"
+    },
+    {
+      "seconds": 591.0342716318607,
+      "callback": "CB2_HofIdle"
+    },
+    {
+      "seconds": 623.0798113022208,
+      "callback": "CB2_LoadMap"
+    },
+    {
+      "seconds": 623.0965540084227,
+      "callback": "CB2_DoChangeMap"
+    },
+    {
+      "seconds": 623.1132967146245,
+      "callback": "CB2_LoadMap2"
+    },
+    {
+      "seconds": 623.2472383642395,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 647.5241623569365,
+      "callback": "CB2_InitYokaiCredits"
+    },
+    {
+      "seconds": 647.5911331817439,
+      "callback": "CB2_RollYokaiCredits"
+    },
+    {
+      "seconds": 904.742357736112,
+      "callback": "?"
+    },
+    {
+      "seconds": 904.9432702105344,
+      "callback": "CB2_InitCopyrightScreenAfterBootup"
+    },
+    {
+      "seconds": 905.3116097469753,
+      "callback": "CB2_InitYokaiIntro"
+    },
+    {
+      "seconds": 905.345095159379,
+      "callback": "CB2_RunYokaiPresentation"
+    }
+  ],
+  "checks": {
+    "native_return_after_credits": "CB2_RunYokaiPresentation"
+  },
+  "map": "PokemonLeague_ChampionsRoom",
+  "entry_script": null,
+  "prepared_flags": [],
+  "prepared_vars": [],
+  "prepared_party_level": 100,
+  "native_battles": true,
+  "complete": true
+}

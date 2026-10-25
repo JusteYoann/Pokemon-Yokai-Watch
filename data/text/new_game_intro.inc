@@ -198,15 +198,7 @@ gOakSpeech_Text_IsInhabitedFarAndWide::
     .string "même tout près de nous!\p$"
 
 gOakSpeech_Text_IStudyPokemon::
-    .string "J’ai inventé la Yo-kai Watch\n"
-    .string "pour les voir. Je t’en confie une!\p"
-    .string "Elle fonctionne toute seule.\p"
-    .string "J’ai aussi découvert une relique:\n"
-    .string "le Médallium des Yo-kai.\p"
-    .string "Aide-moi à y répertorier\n"
-    .string "les 151 espèces de Kanto!\p"
-    .string "Et tente la Ligue Yo-kai\n"
-    .string "pour en devenir le Champion!\p$"
+    .string "J'étudie les Yo-kai et leurs liens\navec les humains. Observer,\lcomparer... quelle aventure!\pJe te confie une Yo-kai Watch\nmoderne, conçue par Steve Jaws.\lElle permet de voir nos amis\linvisibles.\pSteve a aussi fondé Yopple.\nDomniscian a racheté l'entreprise\let la dirige aujourd'hui.\pCe Médallium recueillera tes\ndécouvertes. Aide-moi à y\lrépertorier les 151 Yo-kai de\lKanto!\pLa Ligue Yo-kai t'attend aussi.\nApprends à connaître ton équipe,\let vise le titre de Champion!$"
 
 gOakSpeech_Text_TellMeALittleAboutYourself::
     .string "Parle-moi un peu de toi.\p$"
@@ -233,8 +225,4 @@ gOakSpeech_Text_RememberRivalsName::
     .string "Ce sera ton rival!\p$"
 
 gOakSpeech_Text_LetsGo::
-    .string "{PLAYER}!\p"
-    .string "La Ligue et le Médallium\n"
-    .string "t’attendent!\p"
-    .string "Pars à la rencontre des Yo-kai\n"
-    .string "et fais-toi de nouveaux amis!$"
+    .string "{PLAYER}! La Ligue et le Médallium\nt'attendent!\pObserve bien, parle aux gens et\nprends soin de tes amis Yo-kai.\pLes grandes découvertes commencent\nsouvent par de petites questions.\lBonne route!$"

@@ -120,7 +120,8 @@ Philosovni_Text_WyattConcern::
 Philosovni_Text_WyattAfter::
 	.string "Pas mal du tout !\pAvec tes Yo-kai, tu pourrais\ndonner du fil à retordre\pà cette Mafiamille !$"
 Philosovni_Text_Meet::
-	.string "ARIANE : Hé ! Toi, là !\pT'as entendu parler de l'OVNI\nqui s'est écrasé ici ?!\pMoi, c'est Ariane Célestin !\nUsapion est mon partenaire !$"
+    .string "ARIANE: Hé! Tu as entendu parler\ndu crash de l'OVNI?\pAriane Célestin, enquêtrice de\nl'impossible! Enfin... de ce qui\lparaît impossible.\pEt voici Usapion. Mon partenaire,\npas ma peluche!$"
+
 Philosovni_Text_UsapionHello::
 	.string "USAPION : Salut, dany !$"
 Philosovni_Text_Offer::
@@ -130,7 +131,8 @@ Philosovni_Text_Directions::
 Philosovni_Text_Decline::
 	.string "ARIANE : Pas de souci !\nOn reste ici si tu changes d'avis.$"
 Philosovni_Text_UsapionHint::
-	.string "USAPION : Une piste, c'est bien.\nDes preuves, c'est mieux, dany !$"
+    .string "USAPION: Elle a déjà trouvé le\ntitre de l'enquête. Il nous manque\ljuste les preuves, dany.$"
+
 Philosovni_Text_FirstMeetOutside::
 	.string "ARIANE : Retrouve-nous dehors.\nOn t'explique notre enquête !$"
 Philosovni_Text_Quiet::
@@ -142,7 +144,8 @@ Philosovni_Text_GruntA::
 Philosovni_Text_GruntB::
 	.string "SBIRE B : Ferme-la ! Tu sais ce\nque vaut la Pierre Philosovni ?\pOn l'a récupérée après le crash.\nC'est une sacrée prise !$"
 Philosovni_Text_GruntA2::
-	.string "SBIRE A : Depuis qu'on l'a,\ndes trucs bizarres se passent\ppartout dans Kanto...$"
+    .string "SBIRE A: Depuis qu'on l'a, les\nYo-kai des caisses réagissent tous\lensemble.\pComme si leurs forces se\nrépondaient... Ça me donne la chair\lde poule!$"
+
 Philosovni_Text_GruntB2::
 	.string "SBIRE B : C'est justement pour ça\nque Don Morléone la veut !$"
 Philosovni_Text_OriginA::
@@ -150,9 +153,11 @@ Philosovni_Text_OriginA::
 Philosovni_Text_OriginB::
 	.string "SBIRE B : Aucune idée !\nEt le patron s'en fiche.\pTout ce qui l'intéresse,\nc'est cette fichue pierre !$"
 Philosovni_Text_UsapionOops::
-	.string "USAPION : La Pierre Philosovni ?!\nMais c'est...$"
+    .string "USAPION: La Pierre Philosovni?! Ce\ntruc pourrait...\pOh. J'ai parlé trop fort, dany.$"
+
 Philosovni_Text_Shush::
-	.string "ARIANE : CHUUUT !\nIls vont nous entendre !$"
+    .string "ARIANE: CHUUUT! La discrétion,\npartenaire!\pPour la sortie spectaculaire, on\nattendra un peu.$"
+
 Philosovni_Text_Discovered::
 	.string "SBIRE A : Hé ! Qui va là ?!\pSBIRE B : Vous en avez\ntrop entendu !$"
 Philosovni_Text_DuoReady::
@@ -162,7 +167,8 @@ Philosovni_Text_Lost::
 Philosovni_Text_StoneGone::
 	.string "SBIRE A : On ne peut pas\nles arrêter ! On file !\pSBIRE B : Trop tard pour vous !\nLa Pierre a déjà quitté Carmin.\pElle est partie pour Céladopole !$"
 Philosovni_Text_Conclusion::
-	.string "ARIANE : Incroyable ! Cet OVNI\ntransportait quelque chose !\pUSAPION : Et la Mafiamille\na mis la main dessus, dany...\pOn ignore ce que cette pierre\nest capable de faire.\pARIANE : Encore tant de mystères !\nMerci pour ton aide !$"
+    .string "ARIANE: Un crash, une pierre et la\nMafiamille... Cette affaire devient\lénorme!\pUSAPION: La pierre est partie pour\nCéladopole. C'est notre prochaine\lpiste, dany.\pARIANE: Exact! Garde l'oeil ouvert\npendant ton voyage. Moi, je vais\lprévenir mes contacts.$"
+
 Philosovni_Text_GiveCut::
 	.string "ARIANE : Tiens, pour te remercier !\nC'est la CS Coupe !\pElle te servira pendant\nton aventure !$"
 Philosovni_Text_AlreadyCut::

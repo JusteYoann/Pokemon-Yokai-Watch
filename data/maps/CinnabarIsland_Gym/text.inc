@@ -1,6 +1,5 @@
 CinnabarIsland_Gym_Text_BlaineIntro::
-    .string "Je suis Nathaniel.\pLes liens avec nos Yo-kai\ntraversent les générations.\pMes compagnons viennent du passé.\nLeurs types sont très variés.\pHovernyan veille à mes côtés.\nRelève notre défi !{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
-
+    .string "Nathaniel, inventeur... et bricoleur\nobstiné!\pUne montre se répare avec des\noutils. Une équipe progresse avec\lde la confiance.\pHovernyan, on lui montre nos vieux\ntours? Enfin... vieux pour lui!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 CinnabarIsland_Gym_Text_BlaineDefeat::
     .string "Une victoire remarquable !\pTu mérites le Badge Volcan.\nHovernyan te félicite aussi !$"
@@ -19,8 +18,7 @@ CinnabarIsland_Gym_Text_ReceivedTM38FromBlaine::
 
 
 CinnabarIsland_Gym_Text_BlainePostBattle::
-    .string "Le passé nous apprend beaucoup.\pMais c’est avec tes Yo-kai\nque tu écris ton propre avenir !$"
-
+    .string "Quelle rencontre!\pJe vais noter tout ça... sans trop\nen dire sur l'avenir.\pÀ toi d'y construire tes propres\nsouvenirs, avec tes amis!$"
 
 CinnabarIsland_Gym_Text_MakeSpaceForThis::
     .string "Fais de la place pour ceci, mon\nenfant !$"
@@ -134,12 +132,13 @@ CinnabarIsland_Gym_Text_SorryBadCall::
 
 
 CinnabarIsland_Gym_Text_MichaelIntro::
-    .string "Moi, c’est Michael !\pMes compagnons et moi,\non a traversé bien des aventures.\pLes Yo-kai du passé\nn’ont pas dit leur dernier mot !\pHovernyan attend son tour.\nAlors, prêt pour le défi ?{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "Michael! J'ai mille idées... et\njamais assez de place dans mon\latelier.\pMes prototypes font parfois des\nétincelles. Mon équipe, elle, tient\lla route!\pHovernyan, prêt? Faisons une\ndémonstration au futur!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 CinnabarIsland_Gym_Text_ShockedPlayer::
     .string "{PLAYER} :\n...Grand-père ?!$"
 CinnabarIsland_Gym_Text_Meeting::
-    .string "Grand-père ? Moi ? Ha ha !\pTu me confonds avec quelqu'un !\nMoi, c'est {CHAMPION_CRAMOIS}.\pEt voici mon ami Hovernyan.\nOn dirait que tu as vu un spectre !\pReprends ton souffle.\nOn pourra se défier ensuite !$"
+    .string "Grand-père? Moi? Ha ha! Je\nm'appelle {CHAMPION_CRAMOIS}. J'ai encore\lle temps, j'espère!\pAttends... la montre à ton poignet!\nC'est une Yo-kai Watch? Je n'ai\ljamais vu ce modèle!\pHOVERNYAN: La brume t'a ramené\nsoixante ans dans le passé. Tu n'as\lpas rêvé.\p{CHAMPION_CRAMOIS}: Du futur?! Je travaille\nsur les premiers prototypes de\lcette montre!\pLa tienne est plus petite... et\nelle fonctionne sans mes réglages!\lSi je pouvais voir son mécanisme...\pHOVERNYAN: Pas de tournevis dans\nl'avenir! Il y a des surprises\lqu'il vaut mieux garder.\pEn retraversant la brume, tu\nretrouveras ton époque. Ce passage\lexiste depuis bien longtemps.\p{CHAMPION_CRAMOIS}: Ha ha! Entendu. Mais\nmontre-moi au moins tes amis\lYo-kai!\pOn se défie? Pour une fois, je ne\ntoucherai à aucun bouton suspect!$"
+
 CinnabarIsland_Gym_Text_RematchOffer::
     .string "Te voilà Champion de la Ligue !\pUn nouveau combat,\navec Hovernyan et moi ?$"
 CinnabarIsland_Gym_Text_RematchStart::

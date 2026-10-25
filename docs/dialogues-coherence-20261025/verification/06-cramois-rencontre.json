@@ -1,0 +1,184 @@
+{
+  "passed": true,
+  "scope": "Rejoue les scènes existantes sans nouvelle vidéo puis vérifie START et les déplacements.\nChaque scène utilise une partie isolée et les prérequis documentés du pilote cinéma.\nLes équipes ennemies et résultats ne sont pas modifiés. Ce n'est pas un parcours continu.\n",
+  "rom_sha256": "9611b4957e7ce67c5129566b887a532d4510ecc5ab0ec4d8ceb738c40bd80a56",
+  "scene": "06-cramois-rencontre",
+  "frames": 19386,
+  "seconds": 324.57410242925846,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 91.64957374898178,
+      "callback": "CB2_OverworldBasic"
+    },
+    {
+      "seconds": 93.35732978157151,
+      "callback": "CB2_InitBattle"
+    },
+    {
+      "seconds": 93.45778601878266,
+      "callback": "CB2_HandleStartBattle"
+    },
+    {
+      "seconds": 94.54606192190356,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 94.54606192190356,
+      "trainer": 419
+    },
+    {
+      "seconds": 131.16236038537144,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 131.5976707466198,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 132.31760711329977,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 132.33434981950165,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 132.3510925257035,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 132.87011641796116,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 163.57623959217244,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 164.0115499534208,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 164.7314863201008,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 164.74822902630265,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 164.7649717325045,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 165.2672529185603,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 194.65070230282464,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 195.08601266407302,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 195.805949030753,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 195.82269173695485,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 195.8394344431567,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 196.35845833541438,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 223.04633202117927,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 223.48164238242762,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 224.2015787491076,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 224.21832145530945,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 224.23506416151133,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 224.73734534756713,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 255.1923279287505,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 255.62763828999886,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 256.34757465667883,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 256.3643173628807,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 256.3810600690826,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 256.9000839613402,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 297.60160273806196,
+      "callback": "CB2_ReturnToFieldContinueScriptPlayMapMusic"
+    },
+    {
+      "seconds": 297.6183454442638,
+      "callback": "CB2_ReturnToFieldLocal"
+    },
+    {
+      "seconds": 297.80251521248425,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "checks": {
+    "script_finished": true,
+    "controls_unlocked": true,
+    "native_player_moved": true,
+    "native_start_menu": true
+  },
+  "map": "CinnabarIsland_Gym",
+  "entry_script": "CinnabarIsland_Gym_EventScript_Blaine",
+  "prepared_flags": [],
+  "prepared_vars": [
+    [
+      16628,
+      3
+    ]
+  ],
+  "prepared_party_level": 100,
+  "native_battles": true,
+  "complete": true
+}

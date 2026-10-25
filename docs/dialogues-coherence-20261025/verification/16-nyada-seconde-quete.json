@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "scope": "Rejoue les scènes existantes sans nouvelle vidéo puis vérifie START et les déplacements.\nChaque scène utilise une partie isolée et les prérequis documentés du pilote cinéma.\nLes équipes ennemies et résultats ne sont pas modifiés. Ce n'est pas un parcours continu.\n",
+  "rom_sha256": "9611b4957e7ce67c5129566b887a532d4510ecc5ab0ec4d8ceb738c40bd80a56",
+  "scene": "16-nyada-seconde-quete",
+  "frames": 2234,
+  "seconds": 37.40320565495529,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "checks": {
+    "script_finished": true,
+    "controls_unlocked": true,
+    "native_player_moved": true,
+    "native_start_menu": true
+  },
+  "map": "SevenIsland_House_Room1",
+  "entry_script": "PG_NyadaHome",
+  "prepared_flags": [
+    2092,
+    "FLAG_PG_NYADA_I_COMPLETE",
+    827,
+    "FLAG_PG_NYADA_II_LEAVE_OK"
+  ],
+  "prepared_vars": [],
+  "prepared_party_level": 100,
+  "native_battles": true,
+  "complete": true
+}

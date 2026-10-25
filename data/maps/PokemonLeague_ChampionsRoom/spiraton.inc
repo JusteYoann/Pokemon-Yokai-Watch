@@ -150,37 +150,13 @@ Spiraton_Text_NoDefeatDialogue::
 	.string "$"
 
 Spiraton_Text_DonIntro::
-	.string "Te voilà enfin...\p"
-	.string "Je savais que tu serais\n"
-	.string "mon dernier obstacle.\p"
-	.string "Depuis notre première rencontre,\n"
-	.string "tu n'as cessé de contrecarrer\l"
-	.string "mes plans.\p"
-	.string "Je dois l'admettre...\n"
-	.string "Tu as gagné mon respect.\p"
-	.string "Mais tu arrives trop tard.\p"
-	.string "Il ne me reste qu'une victoire\n"
-	.string "à remporter pour inscrire mes\l"
-	.string "Yo-kai au Panthéon.\p"
-	.string "Je deviendrai le nouveau\n"
-	.string "Maître de la Ligue.\p"
-	.string "Et Kanto appartiendra\n"
-	.string "à la Mafiamille !$"
+    .string "Te voilà enfin, {PLAYER}. Tu as le\nchic pour retrouver la famille.\pJ'ai retiré mes hommes des rues.\nJe n'ai jamais promis de renoncer à\lla Ligue.\pLa Ligue est le dernier rempart de\nKanto. Lorsque son Maître portera\lmes couleurs, qui osera encore me\lrésister?\pIl me reste une victoire pour\natteindre le Panthéon.\pTu as gagné mon respect. Mais je\nne te céderai pas cette place.$"
 
 Spiraton_Text_MattHeal::
-	.string "Hé ! J'ai raté quelque chose ?\p"
-	.string "Attends... Tu l'as vraiment battu ?!\p"
-	.string "Tss... J'aurais préféré\n"
-	.string "m'en charger moi-même.\p"
-	.string "Mais c'est pas encore terminé.\p"
-	.string "Tiens, laisse-moi soigner\n"
-	.string "tes Yo-kai !$"
+    .string "Hé! Vous avez commencé sans moi?\pTss... Tu l'as vraiment battu.\nJ'aurais préféré m'en charger!\pIl cache encore quelque chose.\nTiens, je soigne ton équipe.\pUne victoire ne vaut rien si mes\nrivaux ne sont pas en forme!$"
 
 Spiraton_Text_DonFusion::
-	.string "Je vois...\p"
-	.string "Tu ne me laisses donc\n"
-	.string "plus le choix.\p"
-	.string "MAFIAMILLE ! À MOI !$"
+    .string "Très bien. Fin des négociations.\pJ'ai gardé la Pierre Philosovni\npour cet instant. Elle réunira la\lpuissance de mes hommes à la\lmienne!\pTu comptes sur tes amis? Moi, je\npossède une famille entière.\pMAFIAMILLE! À MOI!\pContemple notre force réunie: DON\nSPIRATION!$"
 
 @ Use the right-hand lane, then the central bridge; x=8 is scenery below y=13.
 Spiraton_DonExit::
@@ -290,27 +266,10 @@ Spiraton_PlayerExit::
 	step_end
 
 Spiraton_Text_DonDefeated::
-	.string "Alors... même ce pouvoir\n"
-	.string "n'aura pas suffi...\p"
-	.string "Je pensais pouvoir soumettre\n"
-	.string "toute cette région.\p"
-	.string "Mais tu as réussi à me vaincre...\n"
-	.string "deux fois.\p"
-	.string "Je dois reconnaître ma défaite.\p"
-	.string "La Ligue est à toi.\p"
-	.string "Quant à moi... il est temps\n"
-	.string "de quitter Kanto.\p"
-	.string "Nous nous reverrons\n"
-	.string "peut-être un jour...$"
+    .string "Même cette puissance... Tu l'as\nvaincue.\pLa pierre est fendue. Elle a uni\nnos forces, mais pas nos volontés.\pTu n'as pas traité tes amis comme\nde simples outils. C'est donc cela\lqui m'a manqué...\pJe reconnais ma défaite. La Ligue\nest à toi.\pJe quitte Kanto. Pour une fois, ce\nn'est pas une négociation.$"
 
 Spiraton_Text_MattCongratulations::
-	.string "Tss... Tu l'as vraiment fait.\p"
-	.string "Tu as battu Don Morléone...\n"
-	.string "et ce monstre !\p"
-	.string "Mais ne prends pas trop\n"
-	.string "la grosse tête !\p"
-	.string "La prochaine fois, c'est moi\n"
-	.string "qui serai le Maître !$"
+    .string "Tss... Don Morléone ET cette\nchose! Tu n'as pas choisi la\lvictoire la plus discrète.\pSavoure ton titre, {PLAYER}. Mais\ngarde-moi une place dans ton\lagenda.\pLa prochaine fois, c'est moi le\nMaître!$"
 
 Spiraton_Text_OakCongratulations::
 	.string "Incroyable...\p"

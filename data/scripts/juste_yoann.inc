@@ -135,16 +135,7 @@ Yoann_Text_Chen::
 	.string "s'agit.$"
 
 Yoann_Text_Intro::
-	.string "Ah ! Te voilà enfin !\p"
-	.string "Alors comme ça, c'est toi qui as\n"
-	.string "réussi à compléter le Médallium\l"
-	.string "?\p"
-	.string "Je dois reconnaître que tu\n"
-	.string "m'impressionnes !\p"
-	.string "Tu sais quoi ? Avant de\n"
-	.string "discuter, j'ai une petite\l"
-	.string "proposition à te faire...\p"
-	.string "Ça te dit un dernier combat ?$"
+    .string "Ah! Voici la personne aux 151\nYo-kai! Franchement, tu\lm'impressionnes.\pTu te souviens du visiteur discret\ndont parlait Alizon Bie? C'était\lmoi.\pSes zombies sont accueillants...\nquand ils ne te courent pas après!\pMais assez parlé de mes visites. Un\ndernier combat avant de discuter?$"
 
 Yoann_Text_Victory::
 	.string "Ahahah ! Eh bien, tu m'as eu !\p"
@@ -241,4 +232,3 @@ Yoann_Text_Defeat::
 
 Yoann_Text_BattleStart::
 	.string "C'est parti !$"
-

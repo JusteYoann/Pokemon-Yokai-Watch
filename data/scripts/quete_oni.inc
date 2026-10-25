@@ -145,20 +145,11 @@ Onis_Text_PathBlocked::
 	.string "Dégage-le et reparle-moi.$"
 
 Onis_Text_Offer::
-	.string "Alizon Bie: Tu te souviens de\n"
-	.string "notre Zombie Night? Quelle nuit!\p"
-	.string "J’enquête sur la Terr’heure:\n"
-	.string "des grottes changent d’aspect...\p"
-	.string "Gargaros, Ogralos et Orqanos\n"
-	.string "y traquent les imprudents.\p"
-	.string "Une légende promet un cadeau\n"
-	.string "mythique à qui bat ces trois Oni.\p"
-	.string "Tu veux enquêter avec moi?$"
+    .string "Alizon Bie: Alors, tu t'es remis de\nnotre Zombie Night? Mes petits\lparlent encore de toi!\pJe m'intéresse à la Terr'heure.\nLà, même mes zombies hésitent à\lsortir.\pGargaros, Ogralos et Orqanos\ntraquent les visiteurs dans\lcertaines grottes.\pUne légende promet une rencontre\nmythique à qui gagne leur respect.\pTu viens frissonner avec moi?$"
+
 Onis_Text_Short::
-	.string "Fais porter ce Short Oni à\n"
-	.string "un Yo-kai de ton équipe.\p"
-	.string "Il attire la Terr’heure dans\n"
-	.string "les grandes grottes. Sois prudent!$"
+    .string "Fais porter ce Short Oni à un\nYo-kai. Il triple les chances de\lTerr'heure dans les grottes\léligibles.\pUn seul porteur suffit! Inutile de\ndéguiser toute ton équipe.\pEt reste prudent. Les Oni, eux, ne\nsont pas mes petits zombies!$"
+
 Onis_Text_Investigate::
 	.string "Alizon Bie: Il faut vaincre\n"
 	.string "Gargaros, Ogralos et Orqanos.\p"
@@ -167,12 +158,8 @@ Onis_Text_Investigate::
 	.string "Tes victoires passées comptent\n"
 	.string "aussi. Reviens après les trois!$"
 Onis_Text_Rendezvous::
-	.string "Alizon Bie: Les trois Oni vaincus!\n"
-	.string "Tu as fait fort!\p"
-	.string "J’ai trouvé la récompense de\n"
-	.string "la légende: au Mont Braise!\p"
-	.string "Retrouve-moi au sommet.\n"
-	.string "Et prends des Yo-kai Balls!$"
+    .string "Les trois Oni? Vaincus?! Tu sais\nrecevoir les invités difficiles!\pJ'ai retrouvé la rencontre promise\npar la légende. Direction le sommet\ldu Mont Braise!\pEt prends des Yo-kai Balls. On ne\nrentre pas les mains vides!$"
+
 Onis_Text_Mythical::
 	.string "Alizon Bie: Voici Gorgouille,\n"
 	.string "la récompense mythique des Oni!\p"
@@ -181,16 +168,11 @@ Onis_Text_Mythical::
 	.string "À toi l’honneur de le capturer.\n"
 	.string "Vas-y, je te regarde!$"
 Onis_Text_KnockedOut::
-	.string "Alizon Bie: Mais quel imbécile!\n"
-	.string "J’ai dit CAPTURER, pas assommer!\p"
-	.string "Je te taquine. Il reviendra:\n"
-	.string "quitte les lieux, puis reviens.\p"
-	.string "Avec des Yo-kai Balls, cette fois!$"
+    .string "Tu lui as offert une sieste?!\nJ'avais dit CAPTURER!\pJe te taquine. Il reviendra si tu\nquittes les lieux puis reviens.\pCette fois, n'oublie pas les Yo-kai\nBalls!$"
+
 Onis_Text_Captured::
-	.string "Alizon Bie: Tu as réussi!\n"
-	.string "Gorgouille est ton nouvel ami!\p"
-	.string "Quelle enquête! Merci pour\n"
-	.string "ton aide. À bientôt!$"
+    .string "Alizon Bie: Quelle rencontre! Et\nvoilà Gorgouille parmi tes amis.\pJe te laisse savourer ça. Je\nreprends le chemin dégagé.\pPromis, j'essaierai de ne pas\nramener de zombies en route!$"
+
 Onis_Text_QuestDone::
 	.string "Alizon Bie: Prends bien soin\n"
 	.string "de Gorgouille!\p"

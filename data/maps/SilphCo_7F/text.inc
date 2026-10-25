@@ -17,7 +17,7 @@ SilphCo_7F_Text_SavedAtLast::
     .string "Tu nous as sauvés !\nMerci !$"
 
 SilphCo_7F_Text_RocketsAfterMasterBall::
-    .string "La Mafiamille voulait la Master Ball,\ncapable de capturer n'importe quel\lYo-kai.$"
+    .string "La Mafiamille voulait nos\nrecherches sur la Pierre Philosovni\let la Master Ball.\pUne puissance immense et un moyen\nde capturer n'importe quel\lYo-kai... quel désastre!$"
 
 SilphCo_7F_Text_CanceledMasterBallProject::
     .string "Nous avons suspendu le projet Master\nBall à cause de la Mafiamille.$"
@@ -74,7 +74,7 @@ SilphCo_7F_Text_RivalWhatKeptYou::
     .string "{RIVAL} : Qu'est-ce qui t'a retenu,\n{PLAYER} ?$"
 
 SilphCo_7F_Text_RivalIntro::
-    .string "{RIVAL}: Ha! Je savais que tu finirais\npar venir!\pLa Mafiamille t'a retardé? Pas mon\nproblème!\pJe t'ai aperçu à Safrania. Voyons si\ntu as progressé!$"
+    .string "Matt: Enfin! A force de t'attendre,\nje vais devenir un meuble de\lYopple.\pLa Mafiamille est là-haut. On les\nfera patienter une minute.\pSi tu veux affronter le Don,\ncommence par me montrer tes\lprogrès!$"
 
 SilphCo_7F_Text_RivalDefeat::
     .string "Ah, mince! Tu es prêt à affronter le\nDon!$"
@@ -87,4 +87,3 @@ SilphCo_7F_Text_RivalPostBattle::
 
 SilphCo_7F_Text_FloorSign::
     .string "SIÈGE DE YOPPLE\n6e ÉTAGE$"
-

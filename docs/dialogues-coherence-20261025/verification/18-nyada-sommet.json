@@ -1,0 +1,183 @@
+{
+  "passed": true,
+  "scope": "Rejoue les scènes existantes sans nouvelle vidéo puis vérifie START et les déplacements.\nChaque scène utilise une partie isolée et les prérequis documentés du pilote cinéma.\nLes équipes ennemies et résultats ne sont pas modifiés. Ce n'est pas un parcours continu.\n",
+  "rom_sha256": "9611b4957e7ce67c5129566b887a532d4510ecc5ab0ec4d8ceb738c40bd80a56",
+  "scene": "18-nyada-sommet",
+  "frames": 18764,
+  "seconds": 314.16013917170153,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 32.17948131997497,
+      "callback": "CB2_OverworldBasic"
+    },
+    {
+      "seconds": 35.61173609135627,
+      "callback": "CB2_InitBattle"
+    },
+    {
+      "seconds": 35.74567774097115,
+      "callback": "CB2_HandleStartBattle"
+    },
+    {
+      "seconds": 37.33623483014786,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 37.33623483014786,
+      "trainer": 751
+    },
+    {
+      "seconds": 78.6572337363384,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 79.17625762859606,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 79.81248046426674,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 79.8292231704686,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 79.84596587667046,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 80.36498976892813,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 112.14264614005845,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 112.66167003231611,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 113.29789286798679,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 113.31463557418866,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 113.33137828039051,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 113.85040217264817,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 145.09229194531898,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 145.61131583757665,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 146.24753867324733,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 146.2642813794492,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 146.28102408565104,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 146.8000479779087,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 180.45288744364734,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 180.97191133590502,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 181.6081341715757,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 181.62487687777755,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 181.6416195839794,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 182.16064347623708,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 216.34924954043524,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 216.86827343269292,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 217.5044962683636,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 217.52123897456545,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 217.5379816807673,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 218.05700557302498,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 283.6716711781144,
+      "callback": "CB2_ReturnToFieldContinueScriptPlayMapMusic"
+    },
+    {
+      "seconds": 283.6884138843163,
+      "callback": "CB2_ReturnToFieldLocal"
+    },
+    {
+      "seconds": 283.8893263587386,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "checks": {
+    "script_finished": true,
+    "controls_unlocked": true,
+    "native_player_moved": true,
+    "native_start_menu": true
+  },
+  "map": "TrainerTower_Roof",
+  "entry_script": "PG_NyadaRoof",
+  "prepared_flags": [
+    2092,
+    "FLAG_PG_TOWER_CLEAR",
+    "FLAG_PG_NYADA_II_COMPLETE"
+  ],
+  "prepared_vars": [],
+  "prepared_party_level": 100,
+  "native_battles": true,
+  "complete": true
+}

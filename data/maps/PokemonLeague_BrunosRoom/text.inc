@@ -1,14 +1,8 @@
 PokemonLeague_BrunosRoom_Text_Intro::
-    .string "Enma l’Ancien:\p"
-    .string "Les liens des anciens\n"
-    .string "sont solides.\p"
-    .string "Voyons ce que valent les tiens!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "ENMA L'ANCIEN: Approche, jeune\nDresseur.\pJ'ai vu passer bien des règnes. Les\nambitions passent vite; les liens\lsincères leur survivent.\pFais-moi voir ce que ton voyage a\nconstruit.{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 PokemonLeague_BrunosRoom_Text_RematchIntro::
-    .string "Enma l’Ancien:\p"
-    .string "Les liens des anciens\n"
-    .string "sont solides.\p"
-    .string "Voyons ce que valent les tiens!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "ENMA L'ANCIEN: Approche, jeune\nDresseur.\pJ'ai vu passer bien des règnes. Les\nambitions passent vite; les liens\lsincères leur survivent.\pFais-moi voir ce que ton voyage a\nconstruit.{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 PokemonLeague_BrunosRoom_Text_Defeat::
     .string "Ces liens sont dignes de respect.$"

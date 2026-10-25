@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "scope": "Rejoue les scènes existantes sans nouvelle vidéo puis vérifie START et les déplacements.\nChaque scène utilise une partie isolée et les prérequis documentés du pilote cinéma.\nLes équipes ennemies et résultats ne sont pas modifiés. Ce n'est pas un parcours continu.\n",
+  "rom_sha256": "9611b4957e7ce67c5129566b887a532d4510ecc5ab0ec4d8ceb738c40bd80a56",
+  "scene": "31-entrepot-admin1",
+  "frames": 9818,
+  "seconds": 164.37988948986174,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_Overworld"
+    },
+    {
+      "seconds": 7.802101090066772,
+      "callback": "CB2_OverworldBasic"
+    },
+    {
+      "seconds": 9.509857122656495,
+      "callback": "CB2_InitBattle"
+    },
+    {
+      "seconds": 9.610313359867655,
+      "callback": "CB2_HandleStartBattle"
+    },
+    {
+      "seconds": 10.430705963758795,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 10.430705963758795,
+      "trainer": 543
+    },
+    {
+      "seconds": 55.61927000257901,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 56.05458036382736,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 56.774516730507344,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 56.791259436709204,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 56.808002142911064,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 57.31028332896687,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 86.96161601246096,
+      "callback": "CB2_InitPartyMenu"
+    },
+    {
+      "seconds": 87.39692637370933,
+      "callback": "CB2_UpdatePartyMenu"
+    },
+    {
+      "seconds": 88.11686274038931,
+      "callback": "SetCB2ToReshowScreenAfterMenu"
+    },
+    {
+      "seconds": 88.13360544659118,
+      "callback": "ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 88.15034815279303,
+      "callback": "CB2_ReshowBattleScreenAfterMenu"
+    },
+    {
+      "seconds": 88.6693720450507,
+      "callback": "BattleMainCB2"
+    },
+    {
+      "seconds": 140.3541060901926,
+      "callback": "CB2_ReturnToFieldContinueScriptPlayMapMusic"
+    },
+    {
+      "seconds": 140.37084879639445,
+      "callback": "CB2_ReturnToFieldLocal"
+    },
+    {
+      "seconds": 140.57176127081678,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "checks": {
+    "script_finished": true,
+    "controls_unlocked": true,
+    "native_player_moved": true,
+    "native_start_menu": true
+  },
+  "map": "FiveIsland_RocketWarehouse",
+  "entry_script": "FiveIsland_RocketWarehouse_EventScript_Admin1",
+  "prepared_flags": [
+    2092
+  ],
+  "prepared_vars": [],
+  "prepared_party_level": 100,
+  "native_battles": true,
+  "complete": true
+}

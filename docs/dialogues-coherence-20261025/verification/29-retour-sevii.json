@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "scope": "Rejoue les scènes existantes sans nouvelle vidéo puis vérifie START et les déplacements.\nChaque scène utilise une partie isolée et les prérequis documentés du pilote cinéma.\nLes équipes ennemies et résultats ne sont pas modifiés. Ce n'est pas un parcours continu.\n",
+  "rom_sha256": "9611b4957e7ce67c5129566b887a532d4510ecc5ab0ec4d8ceb738c40bd80a56",
+  "scene": "29-retour-sevii",
+  "frames": 1628,
+  "seconds": 27.257125696628123,
+  "events": [
+    {
+      "seconds": 0.0,
+      "callback": "CB2_LoadMap"
+    },
+    {
+      "seconds": 0.016742706201860025,
+      "callback": "CB2_DoChangeMap"
+    },
+    {
+      "seconds": 0.03348541240372005,
+      "callback": "CB2_LoadMap2"
+    },
+    {
+      "seconds": 0.16742706201860025,
+      "callback": "CB2_Overworld"
+    }
+  ],
+  "checks": {
+    "script_finished": true,
+    "controls_unlocked": true,
+    "native_player_moved": true,
+    "native_start_menu": true
+  },
+  "map": "CinnabarIsland",
+  "entry_script": null,
+  "prepared_flags": [],
+  "prepared_vars": [
+    [
+      16497,
+      3
+    ]
+  ],
+  "prepared_party_level": 100,
+  "native_battles": true,
+  "complete": true
+}

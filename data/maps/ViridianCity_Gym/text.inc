@@ -5,7 +5,7 @@ ViridianCity_Gym_Text_GiovanniDefeat::
     .string "Ha!\nQuel combat intense.\lTu as gagné!\pVoici le Badge Terre,\npreuve de ta victoire!\n{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}$"
 
 ViridianCity_Gym_Text_GiovanniPostBattle::
-    .string "Tu as gagné. Je tiens parole.\pJ'arrête nos opérations à Kanto. Mes\nhommes devront se retirer.\pLa famille ne disparaît pas pour\nautant. Quant à moi, j'ai un\lentraînement à reprendre.$"
+    .string "Tu as gagné. Je tiens parole: je\nretire mes hommes des rues de\lKanto.\pLes petites affaires m'ont assez\ncoûté. Désormais, je vise un autre\lgenre de pouvoir.\pQuant à toi... entraîne bien ton\néquipe. Nos chemins peuvent encore\lse croiser.$"
 
 ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis::
     .string "Le Badge Terre te fait obéir\ndes Yo-kai de tous les niveaux.\pIl prouve ta maîtrise\ndu dressage des Yo-kai.\pTu peux maintenant\ndéfier la Ligue Yo-kai.\pPrends aussi cette CT.\pUn cadeau pour\nton défi de la Ligue.$"
@@ -102,4 +102,3 @@ ViridianCity_Gym_Text_GymStatue::
 
 ViridianCity_Gym_Text_GymStatuePlayerWon::
     .string "ARÈNE YO-KAI DE JADIELLE\nCHAMPION: DON MORLÉONE\pDRESSEURS VICTORIEUX:\n{RIVAL}, {PLAYER}$"
-

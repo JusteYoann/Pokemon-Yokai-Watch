@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "rom_sha256": "9611b4957e7ce67c5129566b887a532d4510ecc5ab0ec4d8ceb738c40bd80a56",
+  "scope": "Dialogues compilés : nouvelle partie des deux genres, noms dynamiques et police native.",
+  "checks": [
+    {
+      "gender": 0,
+      "new_game_completed": true,
+      "dialogues": 63,
+      "expanded_lines": 520,
+      "native_max_width": {
+        "2": 196,
+        "4": 196
+      },
+      "first_inventor": "NATHANIEL",
+      "prototype_revealed_at_Cramois": true
+    },
+    {
+      "gender": 1,
+      "new_game_completed": true,
+      "dialogues": 63,
+      "expanded_lines": 520,
+      "native_max_width": {
+        "2": 196,
+        "4": 196
+      },
+      "first_inventor": "MICHAEL",
+      "prototype_revealed_at_Cramois": true
+    }
+  ]
+}
