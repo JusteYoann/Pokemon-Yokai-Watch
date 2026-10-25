@@ -1,0 +1,154 @@
+{
+  "rom_sha256": "90b247b24c0383b9e0c260f084fbe737698abb58171ddbc34405ef97ac1b6df7",
+  "rom_commit": "f4979a031",
+  "source_frames": 41077,
+  "source_seconds": 687.7401426538042,
+  "output_seconds": 561.2992254173573,
+  "only_speed_changes_no_story_cuts": true,
+  "ordinary_speed": 5,
+  "important_speed": 1,
+  "normal_speed_margin_seconds": 2,
+  "pitch_preserved_in_accelerated_sections": true,
+  "intervals": [
+    {
+      "source_start": 0,
+      "source_end": 7403,
+      "speed": 1,
+      "output_start_frame": 0,
+      "output_frames": 7403
+    },
+    {
+      "source_start": 7403,
+      "source_end": 8590,
+      "speed": 5,
+      "output_start_frame": 7403,
+      "output_frames": 237
+    },
+    {
+      "source_start": 8590,
+      "source_end": 8898,
+      "speed": 1,
+      "output_start_frame": 7640,
+      "output_frames": 308
+    },
+    {
+      "source_start": 8898,
+      "source_end": 8963,
+      "speed": 5,
+      "output_start_frame": 7948,
+      "output_frames": 13
+    },
+    {
+      "source_start": 8963,
+      "source_end": 10414,
+      "speed": 1,
+      "output_start_frame": 7961,
+      "output_frames": 1451
+    },
+    {
+      "source_start": 10414,
+      "source_end": 10683,
+      "speed": 5,
+      "output_start_frame": 9412,
+      "output_frames": 54
+    },
+    {
+      "source_start": 10683,
+      "source_end": 30777,
+      "speed": 1,
+      "output_start_frame": 9466,
+      "output_frames": 20094
+    },
+    {
+      "source_start": 30777,
+      "source_end": 31582,
+      "speed": 5,
+      "output_start_frame": 29560,
+      "output_frames": 161
+    },
+    {
+      "source_start": 31582,
+      "source_end": 31922,
+      "speed": 1,
+      "output_start_frame": 29721,
+      "output_frames": 340
+    },
+    {
+      "source_start": 31922,
+      "source_end": 34686,
+      "speed": 5,
+      "output_start_frame": 30061,
+      "output_frames": 553
+    },
+    {
+      "source_start": 34686,
+      "source_end": 34960,
+      "speed": 1,
+      "output_start_frame": 30614,
+      "output_frames": 274
+    },
+    {
+      "source_start": 34960,
+      "source_end": 35866,
+      "speed": 5,
+      "output_start_frame": 30888,
+      "output_frames": 181
+    },
+    {
+      "source_start": 35866,
+      "source_end": 36206,
+      "speed": 1,
+      "output_start_frame": 31069,
+      "output_frames": 340
+    },
+    {
+      "source_start": 36206,
+      "source_end": 39650,
+      "speed": 5,
+      "output_start_frame": 31409,
+      "output_frames": 689
+    },
+    {
+      "source_start": 39650,
+      "source_end": 41077,
+      "speed": 1,
+      "output_start_frame": 32098,
+      "output_frames": 1427
+    }
+  ],
+  "chapters": [
+    {
+      "seconds": 0.016742706201860025,
+      "title": "Lancement — Nathan, mode Normal"
+    },
+    {
+      "seconds": 121.95387197434843,
+      "title": "Bourg Palette — le départ de Nathan"
+    },
+    {
+      "seconds": 157.16378311686006,
+      "title": "La rencontre du Professeur Chen"
+    },
+    {
+      "seconds": 246.51960611618702,
+      "title": "Le choix du premier compagnon"
+    },
+    {
+      "seconds": 257.60327762181834,
+      "title": "Komasan rejoint Nathan"
+    },
+    {
+      "seconds": 282.39922550677306,
+      "title": "Avant le premier combat contre Matt"
+    },
+    {
+      "seconds": 299.5939847760833,
+      "title": "Premier combat contre Matt"
+    },
+    {
+      "seconds": 496.7594415504273,
+      "title": "Route 1 — vers Jadielle"
+    }
+  ],
+  "file": "episode-01-depart.mp4"
+}
