@@ -110,6 +110,7 @@ void m4aSoundInit(void)
 void m4aSoundMain(void)
 {
     YokaiRetryPausedSample();
+    YokaiDomniscianLoopGap();
     SoundMain();
 }
 

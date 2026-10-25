@@ -6,6 +6,11 @@ MtEmber_Summit_MapScripts::
 MtEmber_Summit_OnResume::
 	setflag FLAG_HIDE_YOKAI_LORD_ENMA
 	removeobject 6
+	goto_if_eq VAR_TEMP_4, 2, MtEmber_Summit_KeepSceneActors
+	setflag FLAG_HIDE_ONI_ALIZON
+	removeobject 7
+MtEmber_Summit_KeepSceneActors::
+	call_if_set FLAG_SYS_SPECIAL_WILD_BATTLE, Onis_EventScript_ReturnFromGorgouille
 	end
 
 MtEmber_Summit_OnTransition::

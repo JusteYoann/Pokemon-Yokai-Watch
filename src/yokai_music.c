@@ -2,6 +2,9 @@
 #include "m4a.h"
 #include "constants/songs.h"
 #include "yokai_music.h"
+#include "battle.h"
+#include "main.h"
+#include "constants/opponents.h"
 
 #ifdef YOKAI_PRIVATE_AUDIO
 extern struct SongHeader *const gYokaiPrivateHeaders[YOKAI_MUSIC_SLOT_COUNT];
@@ -169,6 +172,43 @@ void YokaiResumePausedSample(struct MusicPlayerInfo *player)
         sResumePending = TRUE;
         YokaiRetryPausedSample();
     }
+#endif
+}
+
+// Let the native mixer finish the complete sample, rather than wrapping it.
+// Only Domniscian's Hinozall BGM voice is affected; SE/cry players keep running.
+void YokaiDomniscianLoopGap(void)
+{
+#ifdef YOKAI_PRIVATE_AUDIO
+    static EWRAM_DATA u16 gap = 0;
+    static EWRAM_DATA bool8 playing = FALSE;
+    struct SoundChannel *channel;
+    struct SongHeader *header=YokaiGetSongHeader(MUS_YOKAI_HINOZALL,gSongTable[MUS_YOKAI_HINOZALL].header);
+    bool8 active=gMain.inBattle && (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
+        && (gTrainerBattleOpponent_A==TRAINER_LEADER_SABRINA || gTrainerBattleOpponent_A==TRAINER_YOKAI_DOMNISCIAN)
+        && gMPlayInfo_BGM.songHeader==header && IsPrivateSampleHeader(header);
+    channel=gMPlayInfo_BGM.tracks[0].chan;
+    if(!active) {
+        if(playing && gMPlayInfo_BGM.songHeader==header)
+            for(;channel;channel=channel->nextChannelPointer)
+                if(channel->statusFlags & SOUND_CHANNEL_SF_ON)channel->statusFlags|=SOUND_CHANNEL_SF_LOOP;
+        gap=0;playing=FALSE;return;
+    }
+    if((gMPlayInfo_BGM.status & MUSICPLAYER_STATUS_PAUSE) || sPausedValid || sResumePending)return;
+    if(gap) {
+        // 896 native refreshes are 15.001 seconds at the GBA clock.
+        if(--gap==0)m4aSongNumStart(MUS_YOKAI_HINOZALL);
+        return;
+    }
+    for(;channel;channel=channel->nextChannelPointer)
+        if(channel->statusFlags & SOUND_CHANNEL_SF_ON) {
+            if(!(channel->statusFlags & SOUND_CHANNEL_SF_START)) {
+                channel->statusFlags&=~SOUND_CHANNEL_SF_LOOP;
+                playing=TRUE;
+            }
+            return;
+        }
+    if(playing) {playing=FALSE;gap=896;}
 #endif
 }
 

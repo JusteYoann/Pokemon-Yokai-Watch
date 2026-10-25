@@ -1,0 +1,33 @@
+{
+  "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+  "native_mgba_audio": true,
+  "speed": 1,
+  "continuous": true,
+  "buttons_only_during_capture": true,
+  "frames": 5500,
+  "seconds": 92.08488411023013,
+  "events": [
+    {
+      "seconds": 18.78531635848695,
+      "scene": "Alizon à droite du joueur"
+    },
+    {
+      "seconds": 23.607215744622636,
+      "trainer": 0
+    },
+    {
+      "seconds": 66.10020408494339,
+      "scene": "Gorgouille capturé"
+    },
+    {
+      "seconds": 79.1595149223942,
+      "scene": "Alizon a quitté le sommet"
+    }
+  ],
+  "native_capture": true,
+  "prepared_inventory": "Une Master Ball",
+  "prepared_party_level": 100,
+  "prepared_rock_positions": "Passage déjà dégagé, avant le début du film",
+  "arrival_and_departure": true,
+  "player_follows_same_path": true
+}

@@ -2,6 +2,7 @@
 Onis_EventScript_SyncBraise::
 	setflag FLAG_HIDE_ONI_GORGOUILLE
 	setflag FLAG_HIDE_ONI_ALIZON
+	setvar VAR_TEMP_4, 1
 	goto_if_unset FLAG_SYS_GAME_CLEAR, EventScript_Return
 	goto_if_unset FLAG_ONI_GARGAROS_WON, EventScript_Return
 	goto_if_unset FLAG_ONI_OGRALOS_WON, EventScript_Return
@@ -9,8 +10,42 @@ Onis_EventScript_SyncBraise::
 	goto_if_unset FLAG_ONI_GORGOUILLE_READY, EventScript_Return
 	goto_if_set FLAG_ONI_GORGOUILLE_CAUGHT, EventScript_Return
 	clearflag FLAG_HIDE_ONI_GORGOUILLE
-	clearflag FLAG_HIDE_ONI_ALIZON
+	setvar VAR_TEMP_4, 0
 	return
+
+@ Called before the return-to-field picture is displayed, as for Mewtwo.
+Onis_EventScript_ReturnFromGorgouille::
+	goto_if_ne VAR_LAST_TALKED, 1, EventScript_Return
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_CAUGHT, Onis_EventScript_HideCaughtGorgouille
+	goto_if_ne VAR_RESULT, B_OUTCOME_WON, EventScript_Return
+	goto Onis_EventScript_HideGorgouille
+Onis_EventScript_HideCaughtGorgouille::
+	setflag FLAG_ONI_GORGOUILLE_CAUGHT
+Onis_EventScript_HideGorgouille::
+	setflag FLAG_HIDE_ONI_GORGOUILLE
+	removeobject 1
+	return
+
+Onis_EventScript_ApproachGorgouille::
+	setvar VAR_TEMP_4, 1
+	lockall
+	call Onis_EventScript_Arrival
+	goto_if_ne VAR_TEMP_4, 2, Onis_EventScript_Blocked
+	releaseall
+	end
+Onis_EventScript_Arrival::
+	setobjectxyperm 7, 9, 15
+	special GorgouilleAlizonArrival
+	waitstate
+	goto_if_eq VAR_RESULT, FALSE, EventScript_Return
+	msgbox Onis_Text_Mythical
+	setvar VAR_TEMP_4, 2
+	return
+Onis_EventScript_Blocked::
+	msgbox Onis_Text_PathBlocked
+	releaseall
+	end
 
 @ Entered with lock + faceplayer from the original Tower badge script.
 Onis_EventScript_AlizonTour::
@@ -52,23 +87,29 @@ Onis_EventScript_QuestDone::
 	end
 
 Onis_EventScript_AlizonBraise::
-	lock
+	lockall
 	faceplayer
+	goto_if_set FLAG_ONI_GORGOUILLE_CAUGHT, Onis_EventScript_Captured
 	msgbox Onis_Text_Mythical
 	release
 	end
 
 Onis_EventScript_Gorgouille::
 	goto_if_questlog Onis_EventScript_End
-	lock
+	lockall
 	goto_if_unset FLAG_ONI_GARGAROS_WON, EventScript_ReleaseEnd
 	goto_if_unset FLAG_ONI_OGRALOS_WON, EventScript_ReleaseEnd
 	goto_if_unset FLAG_ONI_ORQANOS_WON, EventScript_ReleaseEnd
 	goto_if_unset FLAG_ONI_GORGOUILLE_READY, EventScript_ReleaseEnd
 	goto_if_set FLAG_ONI_GORGOUILLE_CAUGHT, EventScript_ReleaseEnd
 	special QuestLog_CutRecording
-	msgbox Onis_Text_Mythical
+	goto_if_eq VAR_TEMP_4, 2, Onis_EventScript_StartGorgouille
+	setvar VAR_TEMP_4, 1
+	call Onis_EventScript_Arrival
+	goto_if_ne VAR_TEMP_4, 2, Onis_EventScript_Blocked
+Onis_EventScript_StartGorgouille::
 	closemessage
+	setvar VAR_LAST_TALKED, 1
 	setwildbattle SPECIES_ALAKAZAM, 80
 	playmoncry SPECIES_ALAKAZAM, CRY_MODE_ENCOUNTER
 	waitmoncry
@@ -90,12 +131,18 @@ Onis_EventScript_KnockedOut::
 Onis_EventScript_Captured::
 	setflag FLAG_ONI_GORGOUILLE_CAUGHT
 	setflag FLAG_HIDE_ONI_GORGOUILLE
-	setflag FLAG_HIDE_ONI_ALIZON
 	removeobject 1
 	msgbox Onis_Text_Captured
-	removeobject 7
-	release
+	closemessage
+	special GorgouilleAlizonDeparture
+	waitstate
+	goto_if_eq VAR_RESULT, FALSE, Onis_EventScript_Blocked
+	releaseall
 	end
+
+Onis_Text_PathBlocked::
+	.string "Alizon Bie: Le passage est bloqué.\n"
+	.string "Dégage-le et reparle-moi.$"
 
 Onis_Text_Offer::
 	.string "Alizon Bie: Tu te souviens de\n"

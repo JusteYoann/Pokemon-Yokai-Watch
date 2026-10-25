@@ -486,4 +486,6 @@ gSpecials::
 	def_special PostgameGiveGift
 	def_special PostgameGiveTicket
 	def_special YoannPostgameCredits
+	def_special GorgouilleAlizonArrival
+	def_special GorgouilleAlizonDeparture
 gSpecialsEnd::

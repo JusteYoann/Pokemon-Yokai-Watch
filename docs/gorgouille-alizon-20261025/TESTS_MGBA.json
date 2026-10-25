@@ -1,0 +1,131 @@
+{
+  "passed": true,
+  "scope": "Parties mGBA isolées : arrivée réelle à 3 cases, capture, sortie et rochers.\nÉquipe, inventaire et prérequis préparés ; combat et déplacements natifs.\n",
+  "rom_sha256": "500430b529fc1fbd4ab15580cfa5e450858bae661922fe5cb4727a0600229bfa",
+  "checks": [
+    {
+      "case": "native_capture_and_departure",
+      "zero_object_collisions": true,
+      "zero_wall_steps": true,
+      "zero_visible_gorgouille_frames_after_capture": true,
+      "rock_pushes": [
+        [
+          2,
+          [
+            10,
+            12
+          ],
+          [
+            10,
+            11
+          ]
+        ],
+        [
+          3,
+          [
+            9,
+            12
+          ],
+          [
+            8,
+            12
+          ]
+        ],
+        [
+          4,
+          [
+            8,
+            11
+          ],
+          [
+            7,
+            11
+          ]
+        ],
+        [
+          5,
+          [
+            8,
+            10
+          ],
+          [
+            8,
+            9
+          ]
+        ],
+        [
+          5,
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        [
+          5,
+          [
+            9,
+            9
+          ],
+          [
+            10,
+            9
+          ]
+        ],
+        [
+          5,
+          [
+            10,
+            9
+          ],
+          [
+            11,
+            9
+          ]
+        ]
+      ],
+      "rocks_after_scene": {
+        "2": [
+          10,
+          11
+        ],
+        "3": [
+          8,
+          12
+        ],
+        "4": [
+          7,
+          11
+        ],
+        "5": [
+          11,
+          9
+        ]
+      },
+      "player_can_follow_exit_path": true
+    },
+    {
+      "case": "arrival_open_path",
+      "no_rock_moved": true,
+      "alizon_right_of_player": true,
+      "zero_object_collisions": true,
+      "zero_wall_steps": true
+    },
+    {
+      "case": "arrival_side",
+      "no_rock_moved": true,
+      "alizon_right_of_player": true,
+      "zero_object_collisions": true,
+      "zero_wall_steps": true
+    },
+    {
+      "case": "native_KO",
+      "zero_visible_gorgouille_frames_after_KO": true,
+      "respawns_on_next_visit": true,
+      "alizon_initially_hidden_on_return": true
+    }
+  ]
+}
