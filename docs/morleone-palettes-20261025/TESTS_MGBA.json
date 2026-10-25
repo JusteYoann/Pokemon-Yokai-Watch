@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "rom_sha256": "b0710f79317f867caa1fda28b4ec157c2e963a6d618ba6c1bffdfc860ce4133d",
+  "scope": "Entrées natives et commandes normales jusqu'aux deux combats de Don.\nPrérequis de portes/sbires déjà vaincus et équipe niveau 100 préparés avant test.\nAucune modification des adversaires, résultats, palettes ou caméra.\n",
+  "cases": [
+    {
+      "map": "RocketHideout_B4F",
+      "entered_with_controller": true,
+      "entry_source": "RocketHideout_Elevator",
+      "walking_paths": [
+        {
+          "reason": "arrived",
+          "steps": 24,
+          "goal": [
+            19,
+            5
+          ]
+        }
+      ],
+      "don_palette_bank": 10,
+      "palette_frames_checked": 1252,
+      "native_interaction_or_coordinate_trigger": true,
+      "native_battle_won": true,
+      "don_removed_after_victory": true,
+      "other_group_colors_preserved_after_battle": null,
+      "entry_route": "elevator exit"
+    },
+    {
+      "map": "SilphCo_11F",
+      "entered_with_controller": true,
+      "entry_source": "SilphCo_7F",
+      "walking_paths": [
+        {
+          "reason": "arrived",
+          "steps": 19,
+          "goal": [
+            6,
+            16
+          ]
+        }
+      ],
+      "don_palette_bank": 6,
+      "palette_frames_checked": 1158,
+      "native_interaction_or_coordinate_trigger": true,
+      "native_battle_won": true,
+      "don_removed_after_victory": true,
+      "other_group_colors_preserved_after_battle": true,
+      "entry_route": "teleporter"
+    }
+  ]
+}

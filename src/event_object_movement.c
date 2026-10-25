@@ -1688,6 +1688,13 @@ static u8 ObjectScenePaletteSlot(const struct ObjectEvent *objectEvent, u16 grap
         && objectEvent->mapGroup == MAP_GROUP(MAP_PEWTER_CITY);
     if (argenta && graphicsId == OBJ_EVENT_GFX_YOKAI_WYATT)
         return PALSLOT_NPC_2_REFLECTION;
+    // Yopple's CEO and employees keep their shared special bank. Don and his
+    // grunts need their own bank, including when an off-screen employee spawns
+    // later or all sprites are rebuilt after a battle/menu.
+    if (objectEvent->mapNum == MAP_NUM(MAP_SILPH_CO_11F)
+        && objectEvent->mapGroup == MAP_GROUP(MAP_SILPH_CO_11F)
+        && GetObjectEventGraphicsInfo(graphicsId)->paletteTag == OBJ_EVENT_PAL_TAG_YOKAI_MORLEONE_GROUP)
+        return PALSLOT_NPC_1_REFLECTION;
     // Nyada and Démophage are visible together during the cave quest.
     // Their independent palettes must survive spawn, battle return and rebuild.
     if (graphicsId == OBJ_EVENT_GFX_YOKAI_NYADA
