@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "scope": "Fixtures natives de la scène Nyada/Démophage : sol, accès, palettes et combat.\nLes déplacements d'approche et le combat emploient les boutons du jeu.\n",
+  "rom_sha256": "66304c6077c19099a09e2ae3dcb3e066c3156b1f77d1b47caee8f1daac8fc9ec",
+  "checks": [
+    {
+      "gender": "garcon",
+      "walked_from_ladder_landing": true,
+      "both_npcs_reachable": true,
+      "open_floor_elevation": 4,
+      "foot_tiles_and_approaches_clear": true,
+      "palettes": {
+        "Nyada": 6,
+        "Démophage": 7
+      },
+      "palettes_after_native_battle": {
+        "Nyada": 6,
+        "Démophage": 7
+      },
+      "graphics_rebuild_preserves_both_palettes": true,
+      "native_victory_and_rewards": true
+    },
+    {
+      "gender": "fille",
+      "walked_from_ladder_landing": true,
+      "both_npcs_reachable": true,
+      "open_floor_elevation": 4,
+      "foot_tiles_and_approaches_clear": true,
+      "palettes": {
+        "Nyada": 6,
+        "Démophage": 7
+      },
+      "palettes_after_native_battle": {
+        "Nyada": 6,
+        "Démophage": 7
+      },
+      "graphics_rebuild_preserves_both_palettes": true,
+      "native_victory_and_rewards": true
+    }
+  ]
+}

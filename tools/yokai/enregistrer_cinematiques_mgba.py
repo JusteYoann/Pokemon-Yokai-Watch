@@ -57,7 +57,7 @@ cases={
  '13-alizon-quete-oni':('PokemonTower_7F',11,5,'PokemonTower_7F_EventScript_MrFuji',[0x82c],[]),
  '14-alizon-rendez-vous':('PokemonTower_7F',11,5,'PokemonTower_7F_EventScript_MrFuji',[0x82c,0x335,0x336,0x337,0x338,0x339],[]),
  '16-nyada-seconde-quete':('SevenIsland_House_Room1',2,5,'PG_NyadaHome',[0x82c,'FLAG_PG_NYADA_I_COMPLETE',0x33b,'FLAG_PG_NYADA_II_LEAVE_OK'],[]),
- '17-demophage':('CeruleanCave_1F',20,20,'PG_CaveScene',[0x82c,0x32f,0x345,0x33b],[]),
+ '17-demophage':('CeruleanCave_1F',21,18,'PG_CaveScene',[0x82c,0x32f,0x345,0x33b],[]),
  '18-nyada-sommet':('TrainerTower_Roof',9,8,'PG_NyadaRoof',[0x82c,'FLAG_PG_TOWER_CLEAR','FLAG_PG_NYADA_II_COMPLETE'],[]),
  '19-scientifique-lavanville':('LavenderTown',12,8,'PG_ScientistLav',[0x82c,0x322],[(0x40f3,1)]),
  '20-scientifique-carmin':('VermilionCity',30,29,'PG_ScientistPort',[0x82c,'FLAG_PG_SCIENTIST_1'],[(0x40f4,3)]),
