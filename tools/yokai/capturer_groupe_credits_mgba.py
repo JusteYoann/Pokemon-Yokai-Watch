@@ -20,7 +20,7 @@ actors = [
     ('Zazel', 177, 120, 48), ('Maître Nyada', 180, 158, 48), ('Domniscian', 161, 196, 48),
     ('Michael' if gender else 'Nathaniel', 159 if gender else 158, 44, 80),
     ('Hovernyan', 176, 82, 80), ('Don Morléone', 164, 120, 80),
-    ('Ariane', 152, 158, 80), ('Usapion', 153, 196, 80),
+    ('Ariane', 152, 158, 80), ('Alizon Bie', 173, 196, 80),
     ('Matt', 72, 62, 112), ('Protagoniste', 7 if gender else 0, 100, 112),
     ('Nathan' if gender else 'Katie', 156 if gender else 157, 138, 112),
     ('Jibanyan', 172, 176, 112),
@@ -61,7 +61,7 @@ try:
         assert r.read(r.symbols['gPlttBufferFaded'] + 512 + 32 * row['bank'], 32) == r.read(row['palette'], 32), row['name']
     r.frame.save(out / '32.png')
     r.frame.resize((720, 480)).save(out / 'groupe-x3.png')
-    (out / 'GROUPE.json').write_text(json.dumps(dict(passed=True, scope=__doc__, rom_sha256=hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(), members=rows, excluded=['Whisper', 'Komasan', 'Don Spiraton', 'Léo', 'Professeur Chen']), ensure_ascii=False, indent=2) + '\n')
+    (out / 'GROUPE.json').write_text(json.dumps(dict(passed=True, scope=__doc__, rom_sha256=hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(), members=rows, excluded=['Whisper', 'Komasan', 'Don Spiraton', 'Léo', 'Professeur Chen', 'Usapion']), ensure_ascii=False, indent=2) + '\n')
     print('PASS native14-member group', gender)
 finally:
     r.close()

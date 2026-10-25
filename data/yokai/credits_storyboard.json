@@ -1,11 +1,12 @@
 {
   "order_approved_by_user": true,
   "final_exclusions": [
-    "Whisper",
-    "Komasan",
     "Don Spiraton",
+    "Komasan",
     "Léo",
-    "Professeur Chen"
+    "Professeur Chen",
+    "Usapion",
+    "Whisper"
   ],
   "slides": [
     {
@@ -230,7 +231,8 @@
       "text_y": 24,
       "text_width": 120,
       "frames": 434,
-      "text": "Adaptation de Kanto\nJuste Yoann"
+      "text": "Adaptation de Kanto\nJuste Yoann",
+      "replacement_source": "data/yokai/credits_replacements.json"
     },
     {
       "index": 16,
@@ -385,7 +387,8 @@
       "text_y": 96,
       "text_width": 224,
       "frames": 433,
-      "text": "Adaptation Yo-kai\nJuste Yoann"
+      "text": "Adaptation Yo-kai\nJuste Yoann",
+      "replacement_source": "data/yokai/credits_replacements.json"
     },
     {
       "index": 27,
@@ -399,7 +402,8 @@
       "text_y": 24,
       "text_width": 120,
       "frames": 433,
-      "text": "Univers Yo-kai\nLEVEL-5"
+      "text": "Univers Yo-kai\nLEVEL-5",
+      "replacement_source": "data/yokai/credits_replacements.json"
     },
     {
       "index": 28,
@@ -455,7 +459,8 @@
       "text_y": 136,
       "text_width": 240,
       "frames": 1792,
-      "text": "MERCI D'AVOIR JOUÉ !"
+      "text": "MERCI D'AVOIR JOUÉ !",
+      "replacement_source": "data/yokai/credits_replacements.json"
     }
   ]
 }

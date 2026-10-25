@@ -69,9 +69,12 @@ FourIsland_IcefallCave_Back_EventScript_LoreleiRocketsScene::
 	applymovement LOCALID_ICEFALL_ROCKET1, FourIsland_IcefallCave_Back_Movement_Rocket1Exit
 	applymovement LOCALID_ICEFALL_ROCKET2, FourIsland_IcefallCave_Back_Movement_Rocket2Exit
 	applymovement LOCALID_ICEFALL_ROCKET3, FourIsland_IcefallCave_Back_Movement_Rocket3Exit
-	waitmovement 0
+	@ Retire each runner as soon as it reaches the shared off-screen exit.
+	waitmovement LOCALID_ICEFALL_ROCKET1
 	removeobject LOCALID_ICEFALL_ROCKET1
+	waitmovement LOCALID_ICEFALL_ROCKET2
 	removeobject LOCALID_ICEFALL_ROCKET2
+	waitmovement LOCALID_ICEFALL_ROCKET3
 	removeobject LOCALID_ICEFALL_ROCKET3
 	delay 50
 	applymovement LOCALID_ICEFALL_LORELEI, FourIsland_IcefallCave_Back_Movement_LoreleiWalkToPlayer

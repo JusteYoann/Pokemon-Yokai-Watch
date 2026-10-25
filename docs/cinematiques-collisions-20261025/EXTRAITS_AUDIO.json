@@ -1,0 +1,22 @@
+{
+  "rom_sha256": "90b247b24c0383b9e0c260f084fbe737698abb58171ddbc34405ef97ac1b6df7",
+  "scope": "Deux extraits de 12 s, son natif: vrais blocs de lancement de la scène.\nPréparation séparée de chaque départ; aucun appel natif pendant une capture.\n",
+  "effet": "playmoncry SPECIES_ARCANINE, CRY_MODE_ENCOUNTER, identique aux scripts Intro/Alert de Terr’heure",
+  "extraits": [
+    {
+      "boss": "Don Morléone",
+      "script": "Spiraton_LaunchDonBattle",
+      "cri_natif_declenche": true,
+      "combat_natif_lance": true,
+      "secondes": 12.004520346733639
+    },
+    {
+      "boss": "Don Spiraton",
+      "script": "Spiraton_LaunchFinalBattle",
+      "cri_natif_declenche": true,
+      "combat_natif_lance": true,
+      "secondes": 12.004520346733639
+    }
+  ],
+  "capture": "Touches uniquement pendant chaque extrait, audio mGBA natif; deux départs préparés séparément puis assemblés."
+}

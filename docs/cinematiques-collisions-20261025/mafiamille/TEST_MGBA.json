@@ -1,0 +1,153 @@
+{
+  "passed": true,
+  "error": null,
+  "rom_sha256": "5685bea688fa57873676f500cd6889f8e9e47407f3c62711618e1e54d1a12ca8",
+  "scope": "Native NPC/coordinate events with controller victories and explicit isolated progression fixtures.",
+  "fixtures": "Real new-game then warps, explicit visibility/progression, level100 player with999 stats for wins; enemy teams and event programs unchanged. Independent cases, not a full adventure or balance validation.",
+  "results": [
+    {
+      "map": "MtMoon_B2F",
+      "script": "MtMoon_B2F_EventScript_Grunt1",
+      "trainer": "TRAINER_TEAM_ROCKET_GRUNT",
+      "native_battle": true,
+      "frames": 2624,
+      "controller_victory": true,
+      "passed": true
+    },
+    {
+      "map": "CeruleanCity",
+      "script": "CeruleanCity_EventScript_Grunt",
+      "trainer": "TRAINER_TEAM_ROCKET_GRUNT_5",
+      "native_battle": true,
+      "frames": 3871,
+      "controller_victory": true,
+      "passed": true
+    },
+    {
+      "map": "Route24",
+      "script": "Route24_EventScript_Rocket",
+      "trainer": "TRAINER_TEAM_ROCKET_GRUNT_6",
+      "native_battle": true,
+      "frames": 4017,
+      "controller_victory": true,
+      "passed": true
+    },
+    {
+      "map": "CeladonCity_GameCorner",
+      "script": "CeladonCity_GameCorner_EventScript_RocketGrunt",
+      "trainer": "TRAINER_TEAM_ROCKET_GRUNT_7",
+      "native_battle": true,
+      "frames": 3219,
+      "controller_victory": true,
+      "passed": true
+    },
+    {
+      "map": "RocketHideout_B4F",
+      "script": "RocketHideout_B4F_EventScript_Grunt1",
+      "trainer": "TRAINER_TEAM_ROCKET_GRUNT_18",
+      "native_battle": true,
+      "frames": 2993,
+      "controller_victory": true,
+      "native_reward_collected": true,
+      "passed": true
+    },
+    {
+      "map": "RocketHideout_B4F",
+      "script": "RocketHideout_B4F_EventScript_Giovanni",
+      "trainer": "TRAINER_BOSS_GIOVANNI",
+      "native_battle": true,
+      "frames": 4191,
+      "controller_victory": true,
+      "passed": true
+    },
+    {
+      "map": "ViridianCity_Gym",
+      "script": "ViridianCity_Gym_EventScript_Giovanni",
+      "trainer": "TRAINER_LEADER_GIOVANNI",
+      "native_battle": true,
+      "frames": 7665,
+      "controller_victory": true,
+      "passed": true
+    },
+    {
+      "map": "MtEmber_Exterior",
+      "script": "MtEmber_Exterior_EventScript_Grunt1",
+      "trainer": "TRAINER_TEAM_ROCKET_GRUNT_43",
+      "native_battle": true,
+      "frames": 3519,
+      "controller_victory": true,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_Meadow",
+      "script": "FiveIsland_Meadow_EventScript_Rocket1",
+      "trainer": "TRAINER_TEAM_ROCKET_GRUNT_49",
+      "native_battle": true,
+      "frames": 3857,
+      "controller_victory": true,
+      "passed": true
+    },
+    {
+      "map": "SixIsland_OutcastIsland",
+      "script": "SixIsland_OutcastIsland_EventScript_Rocket",
+      "trainer": "TRAINER_TEAM_ROCKET_GRUNT_46",
+      "native_battle": true,
+      "frames": 5840,
+      "controller_victory": true,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_RocketWarehouse",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Admin1",
+      "trainer": "TRAINER_TEAM_ROCKET_ADMIN",
+      "native_battle": true,
+      "frames": 4849,
+      "controller_victory": true,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_RocketWarehouse",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Admin2",
+      "trainer": "TRAINER_TEAM_ROCKET_ADMIN_2",
+      "native_battle": true,
+      "frames": 5167,
+      "controller_victory": true,
+      "passed": true
+    },
+    {
+      "map": "FiveIsland_RocketWarehouse",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Gideon",
+      "trainer": "TRAINER_SCIENTIST_GIDEON",
+      "native_battle": true,
+      "frames": 8929,
+      "controller_victory": true,
+      "passed": true
+    },
+    {
+      "map": "SilphCo_11F",
+      "coordinate_trigger_x": 5,
+      "liberation_flags": true,
+      "native_battle": true,
+      "frames": 5263,
+      "controller_victory": true,
+      "passed": true
+    },
+    {
+      "map": "SilphCo_11F",
+      "coordinate_trigger_x": 6,
+      "liberation_flags": true,
+      "native_battle": true,
+      "frames": 5151,
+      "controller_victory": true,
+      "passed": true
+    },
+    {
+      "map": "FourIsland_IcefallCave_Back",
+      "original_Lorelei_scene": true,
+      "native_battle": true,
+      "frames": 6689,
+      "controller_victory": true,
+      "passed": true
+    }
+  ]
+}

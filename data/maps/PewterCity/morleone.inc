@@ -87,8 +87,10 @@ PewterCity_EventScript_MorleoneArrival::
 	waitmovement 0
 	applymovement 3, Argenta_Crowd3Exit
 	waitmovement 0
+	removeobject 3
 	applymovement 4, Argenta_Crowd4Exit
 	waitmovement 0
+	removeobject 4
 	applymovement LOCALID_ARGENTA_WYATT, Argenta_WyattExit
 	waitmovement 0
 	removeobject LOCALID_ARGENTA_WYATT

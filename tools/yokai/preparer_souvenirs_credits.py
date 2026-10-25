@@ -54,7 +54,7 @@ if a.generate:
             w,h,x,y,tx,ty,tw = (192,112,24,8,0,136,240) if scene == 32 else LAYOUTS[index % 4]
             if scene == 32:
                 original = original.crop((24,24,216,136))
-            elif scene in [28,29]:
+            elif scene in [28,29] and not replacement:
                 original = original.crop((0,40,240,160))
             photo = ImageOps.fit(original,(w,h),method=Image.Resampling.NEAREST).quantize(colors=223,dither=Image.Dither.NONE)
             indexed = Image.new('P',photo.size)
@@ -83,7 +83,7 @@ if a.generate:
         declarations.append(f'    {{sCreditText{s["index"]}, {s["frames"]}, {s["text_x"]}, {s["text_y"]}, {s["text_width"]}}},')
     declarations.append('};\n')
     (ROOT / 'src/data/yokai_credits.h').write_text('\n'.join(declarations))
-    (ROOT / 'data/yokai/credits_storyboard.json').write_text(json.dumps(dict(order_approved_by_user=True,final_exclusions=['Whisper','Komasan','Don Spiraton','Léo','Professeur Chen'],slides=slides),indent=2,ensure_ascii=False) + '\n')
+    (ROOT / 'data/yokai/credits_storyboard.json').write_text(json.dumps(dict(order_approved_by_user=True,final_exclusions=['Whisper','Komasan','Don Spiraton','Léo','Professeur Chen','Usapion'],slides=slides),indent=2,ensure_ascii=False) + '\n')
     assert sum(s['frames'] for s in slides) == 15239
     print('Generated64 native indexed photographs, total15239 frames')
 

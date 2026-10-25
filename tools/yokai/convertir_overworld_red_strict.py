@@ -89,7 +89,7 @@ for actor,relative in manifest.get('approved_overrides',{}).items():
  source=S.parent/relative;target=D/actor/'overworld.png';target.write_bytes(source.read_bytes())
  views=[v for v in views if v[0]!=actor];im=Image.open(target);width=32 if actor=='domniscian' else 16
  for i in range(3):views.append((actor,i,im.crop((i*width,0,(i+1)*width,32))))
- report.append(dict(actor=actor,final_approved_override=str(source.relative_to(R)),source_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),restored_byte_for_byte=True,source_commit=manifest['override_source_commit']))
+ report.append(dict(actor=actor,final_approved_override=str(source.relative_to(R)),source_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),restored_byte_for_byte=True,source_commit=manifest.get('override_source_commits',{}).get(actor,manifest['override_source_commit'])))
 sheet=Image.new('RGB',(768,((len(views)+7)//8)*148),(224,224,224));draw=ImageDraw.Draw(sheet)
 for k,(actor,i,im) in enumerate(views):
  x=k%8*96;y=k//8*148;draw.text((x+2,y+2),actor[:14],fill='black');draw.text((x+2,y+14),str(i),fill='black');p=im.convert('RGBA').resize((im.width*3,96),Image.Resampling.NEAREST);sheet.paste(p,(x+(96-p.width)//2,y+36),p)

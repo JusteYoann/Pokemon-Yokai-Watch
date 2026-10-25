@@ -1,0 +1,52 @@
+{
+  "source": "graphics/yokai_characters/overworld_red_v3/source/domniscian.png",
+  "source_sha256": "011993d215f3c24ca7ce81da794dd8d169f98b80614bb539ec4fc59aea7e0c8f",
+  "frames": [
+    {
+      "pose": 0,
+      "source_box": [
+        189,
+        273,
+        495,
+        651
+      ],
+      "native_visible_size": [
+        21,
+        26
+      ]
+    },
+    {
+      "pose": 1,
+      "source_box": [
+        784,
+        273,
+        1076,
+        651
+      ],
+      "native_visible_size": [
+        20,
+        26
+      ]
+    },
+    {
+      "pose": 2,
+      "source_box": [
+        1367,
+        261,
+        1674,
+        651
+      ],
+      "native_visible_size": [
+        20,
+        26
+      ]
+    }
+  ],
+  "frame_size": [
+    32,
+    32
+  ],
+  "standing_without_desk": true,
+  "palette_unchanged": true,
+  "battle_portrait_unchanged": true
+}

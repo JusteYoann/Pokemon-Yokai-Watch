@@ -1,0 +1,30 @@
+{
+  "rom_sha256": "90b247b24c0383b9e0c260f084fbe737698abb58171ddbc34405ef97ac1b6df7",
+  "scope": "Apparitions natives de Domniscian et routage de ses deux combats d’arène.",
+  "checks": [
+    {
+      "combat": "initial",
+      "graphics_id": 161,
+      "sprite_debout_natif_verifie": true,
+      "ost_id": 348,
+      "ost_native": [
+        "mus_yokai_02"
+      ]
+    },
+    {
+      "combat": "revanche",
+      "graphics_id": 161,
+      "sprite_debout_natif_verifie": true,
+      "ost_id": 348,
+      "ost_native": [
+        "mus_yokai_02"
+      ]
+    },
+    {
+      "lieu": "Yopple, 11F",
+      "graphics_id": 161,
+      "apparitions_natives": 1,
+      "standing_without_desk": true
+    }
+  ]
+}

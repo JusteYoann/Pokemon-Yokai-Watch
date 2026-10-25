@@ -27,6 +27,7 @@ Spiraton_PlayerEnter::
 	walk_up
 	walk_up
 	walk_up
+	walk_up
 	step_end
 
 PokemonLeague_Spiraton_DevelopmentEntry::
@@ -42,6 +43,10 @@ PokemonLeague_Spiraton_DevelopmentEntry::
 	setvar VAR_TEMP_2, 1
 	msgbox Spiraton_Text_DonIntro
 	closemessage
+Spiraton_LaunchDonBattle::
+	@ Same encounter cry as the Oni introduction and alert.
+	playmoncry SPECIES_ARCANINE, CRY_MODE_ENCOUNTER
+	waitmoncry
 	savebgm MUS_YOKAI_GHOULFATHER
 	trainerbattle_no_intro TRAINER_DON_MORLEONE_LEAGUE, Spiraton_Text_NoDefeatDialogue
 	setvar VAR_TEMP_2, 2
@@ -64,6 +69,8 @@ PokemonLeague_Spiraton_DevelopmentEntry::
 	waitmovement LOCALID_SPIRATON_GUARD_BACK
 	fadescreenspeed FADE_TO_WHITE, 0
 PokemonLeague_Spiraton_WhiteRemoval::
+	@ Prevent the fused actors from respawning on the battle field reload.
+	setflag FLAG_TEMP_6
 	removeobject LOCALID_SPIRATON_DON
 	removeobject LOCALID_SPIRATON_GUARD_LEFT
 	removeobject LOCALID_SPIRATON_GUARD_RIGHT
@@ -71,29 +78,23 @@ PokemonLeague_Spiraton_WhiteRemoval::
 	setvar VAR_TEMP_2, 5
 	delay 20
 	special SpiratonBattleArmPrototype
+Spiraton_LaunchFinalBattle::
+	playmoncry SPECIES_ARCANINE, CRY_MODE_ENCOUNTER
+	waitmoncry
 	savebgm MUS_YOKAI_ZAZELMARE
 	trainerbattle_no_intro TRAINER_DON_SPIRATON_PROTOTYPE, Spiraton_Text_NoDefeatDialogue
 PokemonLeague_Spiraton_DevelopmentWon::
 	setvar VAR_TEMP_2, 6
 	setflag FLAG_DEFEATED_CHAMP
 	addobject LOCALID_SPIRATON_DON
-	addobject LOCALID_SPIRATON_GUARD_LEFT
-	addobject LOCALID_SPIRATON_GUARD_RIGHT
-	addobject LOCALID_SPIRATON_GUARD_BACK
+	removeobject LOCALID_SPIRATON_GUARD_LEFT
+	removeobject LOCALID_SPIRATON_GUARD_RIGHT
+	removeobject LOCALID_SPIRATON_GUARD_BACK
 	msgbox Spiraton_Text_DonDefeated
 	closemessage
 	applymovement LOCALID_SPIRATON_DON, Spiraton_DonExit
 	waitmovement 0
 	removeobject LOCALID_SPIRATON_DON
-	applymovement LOCALID_SPIRATON_GUARD_LEFT, Spiraton_LeftExit
-	waitmovement 0
-	removeobject LOCALID_SPIRATON_GUARD_LEFT
-	applymovement LOCALID_SPIRATON_GUARD_RIGHT, Spiraton_RightExit
-	waitmovement 0
-	removeobject LOCALID_SPIRATON_GUARD_RIGHT
-	applymovement LOCALID_SPIRATON_GUARD_BACK, Spiraton_BackExit
-	waitmovement 0
-	removeobject LOCALID_SPIRATON_GUARD_BACK
 	setvar VAR_TEMP_2, 7
 	applymovement LOCALID_CHAMPIONS_ROOM_RIVAL, Common_Movement_WalkInPlaceFasterRight
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
@@ -119,30 +120,29 @@ PokemonLeague_Spiraton_DevelopmentWon::
 	releaseall
 	end
 
+@ Matt takes the west aisle before approaching the player.
 Spiraton_MattEnter::
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
 	walk_fast_left
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
 	walk_fast_up
 	walk_in_place_faster_up
 	step_end
 
 Spiraton_GuardLeft::
 	walk_faster_right
-	walk_faster_right
 	walk_faster_down
 	step_end
 
 Spiraton_GuardRight::
 	walk_faster_left
-	walk_faster_left
 	walk_faster_down
 	step_end
 
 Spiraton_GuardBack::
-	walk_faster_down
 	walk_faster_down
 	step_end
 
@@ -182,21 +182,21 @@ Spiraton_Text_DonFusion::
 	.string "plus le choix.\p"
 	.string "MAFIAMILLE ! À MOI !$"
 
+@ Use the right-hand lane, then the central bridge; x=8 is scenery below y=13.
 Spiraton_DonExit::
 	walk_right
-	walk_right
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
 	walk_down
 	walk_down
 	walk_down
 	walk_down
 	walk_down
 	walk_left
-	walk_left
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
 	step_end
 
 Spiraton_LeftExit::
@@ -253,11 +253,12 @@ Spiraton_BackExit::
 	walk_left
 	step_end
 
+@ Take the left bridge edge, then the outer aisle around Matt/player.
 Spiraton_OakEnter::
-	walk_up
-	walk_up
-	walk_up
 	walk_left
+	walk_up
+	walk_up
+	walk_up
 	walk_left
 	walk_up
 	walk_up

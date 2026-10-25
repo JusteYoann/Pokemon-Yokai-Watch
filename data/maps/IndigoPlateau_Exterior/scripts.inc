@@ -29,9 +29,11 @@ IndigoPlateau_Exterior_EventScript_Credits::
 	opendoor 11, 6
 	waitdooranim
 	special SpawnCameraObject
+	@ Clear the doorway before Matt steps outside.
+	applymovement LOCALID_PLAYER, IndigoPlateau_Exterior_Movement_PushPlayerOutOfWay
+	waitmovement LOCALID_PLAYER
 	addobject LOCALID_CREDITS_RIVAL
 	applymovement LOCALID_CREDITS_RIVAL, IndigoPlateau_Exterior_Movement_RivalExitBuilding
-	applymovement LOCALID_PLAYER, IndigoPlateau_Exterior_Movement_PushPlayerOutOfWay
 	waitmovement 0
 	closedoor 11, 6
 	waitdooranim
@@ -40,6 +42,7 @@ IndigoPlateau_Exterior_EventScript_Credits::
 	applymovement LOCALID_PLAYER, IndigoPlateau_Exterior_Movement_PlayerWatchRivalLeave
 	applymovement LOCALID_CREDITS_RIVAL, IndigoPlateau_Exterior_Movement_RivalLeave
 	waitmovement 0
+	removeobject LOCALID_CREDITS_RIVAL
 	delay 100
 
 	@ Oak exits building
@@ -56,6 +59,7 @@ IndigoPlateau_Exterior_EventScript_Credits::
 	applymovement LOCALID_PLAYER, IndigoPlateau_Exterior_Movement_PlayerWatchOakLeave
 	applymovement LOCALID_CREDITS_PROF_OAK, IndigoPlateau_Exterior_Movement_OakLeave
 	waitmovement 0
+	removeobject LOCALID_CREDITS_PROF_OAK
 	delay 100
 
 	@ Player begin to leave

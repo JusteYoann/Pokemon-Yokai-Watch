@@ -1,0 +1,184 @@
+{
+  "passed": true,
+  "error": null,
+  "mode": "prive",
+  "rom_sha256": "5685bea688fa57873676f500cd6889f8e9e47407f3c62711618e1e54d1a12ca8",
+  "rom_bytes": 33522071,
+  "scope": "Native mGBA chapter scenarios. Map warps, starter strength and selected script\nentry points are fixtures; graphics/palettes/battle results/flags are never injected.\nController input drives dialogues, native battles and capture menus. This is not a\nclaim of an uninterrupted playthrough from Pallet Town or a full balance playtest.\n",
+  "results": [
+    {
+      "test": "New French dialogue fits native GBA font within208 pixels per line",
+      "passed": true,
+      "lines": 75,
+      "maximum_width": 193
+    },
+    {
+      "test": "First-entry native intro completes with both actors and releases controls",
+      "passed": true,
+      "entry": "nord",
+      "frames": 1968
+    },
+    {
+      "test": "First-entry native intro completes with both actors and releases controls",
+      "passed": true,
+      "entry": "ouest",
+      "frames": 2096
+    },
+    {
+      "test": "First-entry native intro completes with both actors and releases controls",
+      "passed": true,
+      "entry": "sud",
+      "frames": 2080
+    },
+    {
+      "test": "First-entry native intro completes with both actors and releases controls",
+      "passed": true,
+      "entry": "vol",
+      "frames": 1968
+    },
+    {
+      "test": "Cramped legacy-save position returns explicit0 and completes dialogue without a stuck scene task",
+      "passed": true
+    },
+    {
+      "test": "Permanent night, 20 animated native fog sprites, no repeated intro, no buffer accumulation, interior reset",
+      "passed": true
+    },
+    {
+      "test": "Route8 approach has partial night without town fog or zombie logic",
+      "passed": true
+    },
+    {
+      "test": "Full daylight restored beyond the Route8 approach",
+      "passed": true
+    },
+    {
+      "test": "Hostile house can be entered and left without an unavoidable combat",
+      "passed": true,
+      "house": "LavenderTown_House1"
+    },
+    {
+      "test": "Hostile house can be entered and left without an unavoidable combat",
+      "passed": true,
+      "house": "LavenderTown_VolunteerPokemonHouse"
+    },
+    {
+      "test": "Direct zombie native KO battle, no run, real art, field return and immunity",
+      "passed": true,
+      "variant": "errant",
+      "party_indices": [
+        0
+      ]
+    },
+    {
+      "test": "Direct zombie native KO battle, no run, real art, field return and immunity",
+      "passed": true,
+      "variant": "sprinteur",
+      "party_indices": [
+        0
+      ]
+    },
+    {
+      "test": "Direct zombie native KO battle, no run, real art, field return and immunity",
+      "passed": true,
+      "variant": "colosse",
+      "party_indices": [
+        0
+      ]
+    },
+    {
+      "test": "Direct zombie native KO battle, no run, real art, field return and immunity",
+      "passed": true,
+      "variant": "spectral",
+      "party_indices": [
+        0
+      ]
+    },
+    {
+      "test": "Controller Run refused and real Master Ball attempt dodged: no capture, battle continues",
+      "passed": true
+    },
+    {
+      "test": "Same errant can be defeated twice without a trainer victory flag or removal",
+      "passed": true
+    },
+    {
+      "test": "Ordinary Tower encounter without Scope: native wild flags, Run permitted, actual Master Ball capture",
+      "passed": true
+    },
+    {
+      "test": "Tower trainer is one-time; actual native battle victory survives Flash save/reload",
+      "passed": true
+    },
+    {
+      "test": "Leader official team and ordered send-out, native victory, badge04 and no rematch/duplicate reward",
+      "passed": true,
+      "team": [
+        [
+          32,
+          27
+        ],
+        [
+          8,
+          28
+        ],
+        [
+          44,
+          29
+        ],
+        [
+          32,
+          31
+        ]
+      ],
+      "send_out_order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "test": "Residence changes Matt to Alyzon; future rematch requires BOTH League flag and Hall of Fame count, no invented team",
+      "passed": true
+    },
+    {
+      "test": "Old Scope-collected save receives real Flute reward after Don; inventory and wake-up flag set",
+      "passed": true
+    },
+    {
+      "test": "Actual movement into stair approach triggers mandatory trainer once",
+      "passed": true,
+      "floor": 4,
+      "trainer": "TRAINER_CHANNELER_PAULA"
+    },
+    {
+      "test": "Actual movement into stair approach triggers mandatory trainer once",
+      "passed": true,
+      "floor": 6,
+      "trainer": "TRAINER_CHANNELER_ANGELICA"
+    },
+    {
+      "test": "Original healing zone heals on actual tile entry",
+      "passed": true
+    },
+    {
+      "test": "Real Flute awakening and KO removes route-blocking Misterre",
+      "passed": true,
+      "route": "Route12"
+    },
+    {
+      "test": "Real Flute awakening and KO removes route-blocking Misterre",
+      "passed": true,
+      "route": "Route16"
+    },
+    {
+      "test": "Hideout refuses actual west stair approach before badge and permits native entry after, including legacy open flag",
+      "passed": true
+    },
+    {
+      "test": "Native Flash save/continue retains intro completion and night, refreshes chapter object templates",
+      "passed": true
+    }
+  ]
+}
