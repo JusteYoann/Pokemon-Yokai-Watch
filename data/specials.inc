@@ -488,4 +488,6 @@ gSpecials::
 	def_special YoannPostgameCredits
 	def_special GorgouilleAlizonArrival
 	def_special GorgouilleAlizonDeparture
+	def_special PostgameEnmaArrival
+	def_special PostgameEnmaDeparture
 gSpecialsEnd::

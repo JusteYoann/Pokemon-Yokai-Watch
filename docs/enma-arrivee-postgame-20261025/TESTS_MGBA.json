@@ -1,0 +1,291 @@
+{
+  "passed": true,
+  "rom_sha256": "71273b4a0702785073033d35c58ce71d764c0be40f5db0345d3427a579cadcc6",
+  "scope": "Sorties réelles de la maison, scène et trajet natifs, deux protagonistes.\nLa Ligue terminée et l'équipe sont préparées ; aucun PNJ ou déplacement imposé\npendant la cinématique. Observation des collisions et cases bloquées par image.\n",
+  "cases": [
+    {
+      "gender": 0,
+      "from_house_by_controller": true,
+      "north_start": [
+        12,
+        1
+      ],
+      "route": [
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          2
+        ],
+        [
+          12,
+          3
+        ],
+        [
+          12,
+          4
+        ],
+        [
+          12,
+          5
+        ],
+        [
+          12,
+          6
+        ],
+        [
+          12,
+          7
+        ],
+        [
+          12,
+          8
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          12,
+          10
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          10,
+          8
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          12,
+          2
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "zero_actor_collisions": true,
+      "zero_blocked_tiles": true,
+      "stops_in_front": true,
+      "all_four_facings": true,
+      "royal_palette_preserved": true,
+      "walks_back_north": true,
+      "hidden_after_departure": true,
+      "not_repeated": true
+    },
+    {
+      "gender": 1,
+      "from_house_by_controller": true,
+      "north_start": [
+        12,
+        1
+      ],
+      "route": [
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          2
+        ],
+        [
+          12,
+          3
+        ],
+        [
+          12,
+          4
+        ],
+        [
+          12,
+          5
+        ],
+        [
+          12,
+          6
+        ],
+        [
+          12,
+          7
+        ],
+        [
+          12,
+          8
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          12,
+          10
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          10,
+          8
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          12,
+          2
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "zero_actor_collisions": true,
+      "zero_blocked_tiles": true,
+      "stops_in_front": true,
+      "all_four_facings": true,
+      "royal_palette_preserved": true,
+      "walks_back_north": true,
+      "hidden_after_departure": true,
+      "not_repeated": true
+    }
+  ]
+}

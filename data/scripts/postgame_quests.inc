@@ -3,17 +3,16 @@ PG_IntroEnma::
 	lockall
 	goto_if_unset FLAG_SYS_GAME_CLEAR, EventScript_ReleaseEnd
 	goto_if_set FLAG_PG_ENMA_INTRO, PG_IntroDone
-	getplayerxy VAR_0x8008, VAR_0x8009
-	addvar VAR_0x8009, 2
-	setobjectxyperm LOCALID_PG_ENMA_INTRO, VAR_0x8008, VAR_0x8009
-	clearflag FLAG_PG_HIDE_ENMA_INTRO
-	addobject LOCALID_PG_ENMA_INTRO
-	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
-	applymovement LOCALID_PG_ENMA_INTRO, Common_Movement_WalkInPlaceFasterUp
-	waitmovement 0
+	special PostgameEnmaArrival
+	goto_if_eq VAR_RESULT, FALSE, PG_IntroDone
+	waitstate
+	goto_if_eq VAR_RESULT, FALSE, PG_IntroDone
 	msgbox PG_Text_Enma
-	removeobject LOCALID_PG_ENMA_INTRO
-	setflag FLAG_PG_HIDE_ENMA_INTRO
+	closemessage
+	special PostgameEnmaDeparture
+	goto_if_eq VAR_RESULT, FALSE, PG_IntroDone
+	waitstate
+	goto_if_eq VAR_RESULT, FALSE, PG_IntroDone
 	setflag FLAG_PG_ENMA_INTRO
 	clearflag FLAG_PG_ENMA_INTRO_PENDING
 PG_IntroDone::
