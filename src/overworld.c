@@ -1505,6 +1505,7 @@ static void OverworldBasic(void)
     BuildOamBuffer();
     UpdatePaletteFade();
     CramoisFogPreparePalette();
+    TerreHeureFogUpdate();
     UpdateTilesetAnimations();
     DoScheduledBgTilemapCopiesToVram();
 }

@@ -21,4 +21,9 @@ bool8 TerreHeureHideOrdinary(void);
 
 void TerreHeureClock(void);
 
+void TerreHeureBattleStarting(void);
+bool8 TerreHeureFogVisible(void);
+void TerreHeureFogUpdate(void);
+void TerreHeureFogClear(void);
+
 #endif // GUARD_TERRE_HEURE_H

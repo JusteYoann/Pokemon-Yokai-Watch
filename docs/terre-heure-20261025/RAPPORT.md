@@ -1,5 +1,7 @@
 # Terr’heure et quête des trois Oni — 25 octobre 2026
 
+> Une correction ultérieure remplace le voile fixe par un décor gris avec des nuages jaunes mobiles, et déclenche le combat à zéro : [nouvelle version et tests](../terre-heure-corrections-20261025/RAPPORT.md).
+
 Branche dédiée : `feature/terre-heure-quete-oni-20261025`. Aucune fusion sur `master`.
 
 [**Télécharger la ROM de test avec les OST**](Pokemon_Yokai_Watch_Beta_0.1_Terre_Heure.gba) · [Informations et SHA-256](LIVRAISON.json)

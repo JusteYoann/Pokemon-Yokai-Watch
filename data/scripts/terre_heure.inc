@@ -107,3 +107,22 @@ TerreHeure_Text_Reward::
 	.string "{STR_VAR_1} de la Terr’heure!\p"
 	.string "Il sera à toi si tu t’échappes.\n"
 	.string "Sinon, il disparaîtra...$"
+
+@ Time expiry forces the current tier without an overworld NPC or a prompt.
+TerreHeure_EventScript_Timeout::
+	lockall
+	playse SE_PIN
+	special TerreHeureTier
+	goto_if_eq VAR_RESULT, 1, TerreHeure_EventScript_TimeoutOgralos
+	goto_if_eq VAR_RESULT, 2, TerreHeure_EventScript_TimeoutOrqanos
+	cleartrainerflag TRAINER_ONI_GARGAROS
+	trainerbattle_no_intro TRAINER_ONI_GARGAROS, TerreHeure_Text_Defeat
+	goto TerreHeure_EventScript_AfterBattle
+TerreHeure_EventScript_TimeoutOgralos::
+	cleartrainerflag TRAINER_ONI_OGRALOS
+	trainerbattle_no_intro TRAINER_ONI_OGRALOS, TerreHeure_Text_Defeat
+	goto TerreHeure_EventScript_AfterBattle
+TerreHeure_EventScript_TimeoutOrqanos::
+	cleartrainerflag TRAINER_ONI_ORQANOS
+	trainerbattle_no_intro TRAINER_ONI_ORQANOS, TerreHeure_Text_Defeat
+	goto TerreHeure_EventScript_AfterBattle

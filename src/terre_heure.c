@@ -61,7 +61,7 @@ static EWRAM_DATA struct {
 } sTh = {};
 extern const u8 TerreHeure_EventScript_Intro[], TerreHeure_EventScript_Door[];
 extern const u8 TerreHeure_EventScript_Oni[], TerreHeure_EventScript_Chest[];
-extern const u8 TerreHeure_EventScript_Failure[], TerreHeure_EventScript_Blocked[], TerreHeure_EventScript_StoredRewards[];
+extern const u8 TerreHeure_EventScript_Failure[], TerreHeure_EventScript_Timeout[], TerreHeure_EventScript_Blocked[], TerreHeure_EventScript_StoredRewards[];
 
 bool8 TerreHeureActive(void) { return sTh.active; }
 static s16 CurrentMap(void)
@@ -220,6 +220,7 @@ bool8 TerreHeureBlockWarp(u8 group,u8 num)
 }
 void TerreHeureReload(void)
 {
+    TerreHeureFogClear();
     if(sTh.active){sTh.window=TH_NONE;sTh.seconds=TH_NONE;gSaveBlock1Ptr->flashLevel=0;}
 }
 void TerreHeureBegin(void)
@@ -345,7 +346,7 @@ void TerreHeureUpdate(void)
     mapId=CurrentMap();if(mapId<0)return;
     if(sTh.map!=mapId) {sTh.map=mapId;Populate();sTh.clock=gMain.vblankCounter2;}
     if(!sTh.freeRoam && !ScriptContext_IsEnabled() && !ArePlayerFieldControlsLocked() && !gPaletteFade.active) {
-        if(!sTh.remaining) {sTh.phase=4;ScriptContext_SetupScript(TerreHeure_EventScript_Failure);LockPlayerFieldControls();return;}
+        if(!sTh.remaining) {Timer();sTh.phase=4;ScriptContext_SetupScript(TerreHeure_EventScript_Timeout);LockPlayerFieldControls();return;}
         Pursuers();
     }
     Timer();
@@ -359,13 +360,14 @@ void TerreHeurePalette(void)
     // Only terrain banks 0..12; NPC, player, UI and effects remain colored.
     for(i=0;i<13*16;i++) {
         c=gPlttBufferFaded[i];r=c&31;g=(c>>5)&31;b=(c>>10)&31;v=(r*5+g*9+b*2)/16;
-        // Translucent golden mist over neutral terrain, composed once at transfer.
-        ((vu16 *)PLTT)[i]=RGB((r*(16-amount)+(v*13/16+v/6)*amount)/16,(g*(16-amount)+(v*13/16+v/8)*amount)/16,(b*(16-amount)+(v*11/16)*amount)/16);
+        // True neutral grayscale. Yellow is a separate moving cloud layer.
+        ((vu16 *)PLTT)[i]=RGB((r*(16-amount)+v*amount)/16,(g*(16-amount)+v*amount)/16,(b*(16-amount)+v*amount)/16);
     }
 }
 void TerreHeureBattleResult(void)
 {
     if(!sTh.active)return;
+    sTh.phase=2;
     if(gBattleOutcome==B_OUTCOME_WON) {
         FlagSet(sTh.tier==0?FLAG_ONI_GARGAROS_WON:sTh.tier==1?FLAG_ONI_OGRALOS_WON:FLAG_ONI_ORQANOS_WON);
         sTh.freeRoam=TRUE;RemovePursuers();
@@ -388,6 +390,7 @@ void TerreHeureEnd(void)
 {
     struct WarpData origin=sTh.origin;u8 flash=sTh.flash,i;bool8 success=gSpecialVar_0x8004;
     if(!sTh.active)return;
+    TerreHeureFogClear();
     if(success)for(i=0;i<4;i++)if(sTh.loot[i] && !AddBagItem(sRewardItems[i],sTh.loot[i]) && !AddPCItem(sRewardItems[i],sTh.loot[i]))
         VarSet(VAR_TERRE_HEURE_REWARD_FIRST+i,VarGet(VAR_TERRE_HEURE_REWARD_FIRST+i)+sTh.loot[i]);
     if(sTh.helpWasEnabled)HelpSystem_Enable();
@@ -414,3 +417,7 @@ void TerreHeureClock(void)
         && (!IsFieldPaletteView() || !ArePlayerFieldControlsLocked() || FuncIsActiveTask(Task_StartMenuHandleInput)))
         sTh.remaining=sTh.remaining>elapsed?sTh.remaining-elapsed:0;
 }
+
+bool8 TerreHeureFogVisible(void) { return sTh.active && (sTh.phase==2 || sTh.phase==3 || sTh.phase==4) && IsFieldPaletteView() && !gMain.inBattle; }
+
+void TerreHeureBattleStarting(void) { if(sTh.active) { sTh.phase=6; TerreHeureFogClear(); } }

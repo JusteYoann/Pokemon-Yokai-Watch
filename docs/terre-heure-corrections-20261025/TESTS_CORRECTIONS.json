@@ -1,0 +1,16 @@
+{
+  "rom_sha256": "d20247d540b4d33905bd113eb5b6f3f9f154eb497a0fa79a8ab0ea0ab3c291fb",
+  "scope": "Rendu natif gris/brume et expiration: combats réellement exécutés par mGBA.",
+  "checks": [
+    "Les 208 couleurs du décor sont réellement en niveaux de gris, sans composante sépia",
+    "Quinze nappes légères se déplacent alors que Nathan reste immobile",
+    "Les pixels colorés de Nathan restent identiques: les nuages passent derrière lui",
+    "Gargaros: combat automatique à zéro, sans confirmation ni sortie de la Terr’heure",
+    "Gargaros: victoire après expiration, exploration libre et brume restaurées",
+    "Ogralos: combat automatique à zéro, sans confirmation ni sortie de la Terr’heure",
+    "Ogralos: victoire après expiration, exploration libre et brume restaurées",
+    "Orqanos: combat automatique à zéro, sans confirmation ni sortie de la Terr’heure",
+    "Orqanos: victoire après expiration, exploration libre et brume restaurées",
+    "L’expiration démarre le combat même sur un petit étage sans Oni visible"
+  ]
+}

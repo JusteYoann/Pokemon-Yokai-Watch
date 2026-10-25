@@ -1,0 +1,17 @@
+{
+  "rom_sha256": "d20247d540b4d33905bd113eb5b6f3f9f154eb497a0fa79a8ab0ea0ab3c291fb",
+  "scope": "Combats réellement exécutés par mGBA, avec une équipe de test préparée.\nLes dégâts, résultats, captures et retours terrain ne sont pas injectés.\n",
+  "checks": [
+    "Le chronomètre est suspendu pendant un vrai combat Oni",
+    "Gargaros: vrai combat gagné, équipe et niveaux contrôlés, poursuivants retirés",
+    "Ogralos: vrai combat gagné, équipe et niveaux contrôlés, poursuivants retirés",
+    "Orqanos: vrai combat gagné, équipe et niveaux contrôlés, poursuivants retirés",
+    "Abandon réel: défaite, retour dans la grotte, aucun palier Oni validé",
+    "Gorgouille niveau 80: vrai K.O. sans indicateur de capture",
+    "Gorgouille réapparaît après un vrai K.O.",
+    "Capture réelle: Gorgouille rejoint l’équipe et la quête se termine",
+    "Après capture et rechargement de zone: aucun doublon de rencontre",
+    "Gorgouille capturé est enregistré dans le Médallium sans modifier sa numérotation",
+    "Sauvegarde native puis Continuer: capture et fin de quête conservées, aucun blocage"
+  ]
+}

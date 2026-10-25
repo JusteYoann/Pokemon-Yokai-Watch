@@ -66,7 +66,7 @@ try:
  assert 4 not in order[:count],(order,count) # STARTMENU_SAVE=4
  r.run(120);assert r.u32(th+156)<remaining-100;passed('Le menu continue de décompter et ne propose pas Sauvegarder')
  r.w32(th+156,2);r.run(20);assert r.u32(th+156)==0
- pulse(0,120);wait(lambda:r.read(th+175,1)==b'\0' and unlocked());shot('expiration-retour');passed('Temps épuisé dans le menu: échec imposé dès le retour au terrain, sans blocage')
+ pulse(0,120);wait(lambda:r.u32(r.symbols['gMain']+4)==r.symbols['BattleMainCB2']|1);assert r.read(th+175,1)==b'\1';shot('expiration-combat');passed('Temps épuisé dans le menu: combat Oni imposé au retour au terrain')
  # Native Flash register restoration on a dark floor.
  r.restore(base);warp('RockTunnel_1F',17,4);before=r.read(r.u32(r.symbols['gSaveBlock1Ptr'])+0x30,1);assert before!=b'\0';r.call('VarSet',0x40f9,2);begin();assert r.read(r.u32(r.symbols['gSaveBlock1Ptr'])+0x30,1)==b'\0';shot('grotte-sombre-eclairee')
  r.call('ScriptContext_SetupScript',r.symbols['TerreHeure_EventScript_Failure']);r.call('LockPlayerFieldControls');wait(lambda:r.read(th+175,1)==b'\0' and unlocked());assert r.read(r.u32(r.symbols['gSaveBlock1Ptr'])+0x30,1)==before;shot('obscurite-restauree');passed('Flash absent: visibilité complète pendant l’événement, obscurité initiale restaurée à la sortie')
