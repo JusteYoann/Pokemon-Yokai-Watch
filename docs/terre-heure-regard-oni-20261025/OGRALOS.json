@@ -1,0 +1,136 @@
+{
+  "rom_sha256": "53c62090c8838a2eff68d6abc019ec9b3f13f44daa1ba679fdb6079faefb101b",
+  "video": "declenchement-porte-sortie-mgba.mp4",
+  "video_sha256": "55aabefb67da2744f66ea067ab2ee89f1091a605c48b2bda0b4910b4c7404fbe",
+  "scope": "Continuous mGBA recording: normal cave, native trigger, escape door and ten seconds after return.\nOnly the starting map, party and encounter eligibility are prepared. Once the\nrecording starts, only controller input is used; no warp, timer edit or battle\noutcome is injected. Raw native video and audio are encoded without cuts.\n",
+  "preparation": {
+    "oni": "Ogralos",
+    "grotte_depart": "RockTunnel_1F",
+    "tirage_porte_natif_seed": 1,
+    "etage_porte": "RockTunnel_B1F",
+    "distance_minimale_pas": 174,
+    "equipe": "Seigneur Enma niveau 85, statistiques naturelles, capacités naturelles de montée en niveau; Météores placé en premier. Aucun résultat de combat imposé.",
+    "depart": "Visite réussie préparée juste avant son dernier pas programmé. Équipe et position préparées avant capture. Aucune mutation RAM ni téléportation pendant la vidéo."
+  },
+  "frames": 5502,
+  "fps": 59.727500915527344,
+  "duree_secondes": 92.11837,
+  "taille_octets": 35623649,
+  "evenements_secondes": {
+    "declenchement": 2.595119461288304,
+    "transformation": 8.907119699389533,
+    "materialisation_patrouilles": 14.063873209562422,
+    "texte_intro": 15.135406406481463,
+    "exploration": 23.473274095007756,
+    "interaction_porte": 73.18236880833017,
+    "sortie_controles_rendus": 82.08948850771971
+  },
+  "alertes": [
+    {
+      "secondes": 25.549369664038398,
+      "etage": 3,
+      "distance_oni": 5,
+      "regards": 0
+    },
+    {
+      "secondes": 26.82181533537976,
+      "etage": 4,
+      "distance_oni": 80,
+      "regards": 0
+    },
+    {
+      "secondes": 28.295173481143443,
+      "etage": 4,
+      "distance_oni": 31,
+      "regards": 1
+    },
+    {
+      "secondes": 40.38340735888638,
+      "etage": 4,
+      "distance_oni": 8,
+      "regards": 2
+    },
+    {
+      "secondes": 48.31945009856803,
+      "etage": 4,
+      "distance_oni": 13,
+      "regards": 0
+    },
+    {
+      "secondes": 49.59189576990939,
+      "etage": 3,
+      "distance_oni": 20,
+      "regards": 0
+    },
+    {
+      "secondes": 50.395545667598675,
+      "etage": 3,
+      "distance_oni": 8,
+      "regards": 0
+    },
+    {
+      "secondes": 51.66799133894004,
+      "etage": 4,
+      "distance_oni": 50,
+      "regards": 0
+    },
+    {
+      "secondes": 52.48838394283118,
+      "etage": 4,
+      "distance_oni": 5,
+      "regards": 0
+    },
+    {
+      "secondes": 53.76082961417254,
+      "etage": 3,
+      "distance_oni": 20,
+      "regards": 0
+    },
+    {
+      "secondes": 54.56447951186182,
+      "etage": 3,
+      "distance_oni": 8,
+      "regards": 0
+    },
+    {
+      "secondes": 55.836925183203185,
+      "etage": 4,
+      "distance_oni": 50,
+      "regards": 0
+    },
+    {
+      "secondes": 56.791259436709204,
+      "etage": 4,
+      "distance_oni": 5,
+      "regards": 0
+    },
+    {
+      "secondes": 58.06370510805057,
+      "etage": 3,
+      "distance_oni": 20,
+      "regards": 0
+    },
+    {
+      "secondes": 64.47616158336295,
+      "etage": 3,
+      "distance_oni": 24,
+      "regards": 0
+    },
+    {
+      "secondes": 65.74860725470432,
+      "etage": 4,
+      "distance_oni": 53,
+      "regards": 0
+    },
+    {
+      "secondes": 73.34979587034877,
+      "etage": 4,
+      "distance_oni": 27,
+      "regards": 0
+    }
+  ],
+  "objectif_fuite_sans_combat": true,
+  "chronometre": "Durée normale de 360 secondes, jamais modifiée pendant la capture. Sortie par interaction réelle avec la porte; chronomètre non modifié.",
+  "montage": "Continu, sans coupe ni accélération. Image agrandie x3 au plus proche voisin.",
+  "audio": "Sortie directe mGBA, encodée en AAC 48 kHz pour le MP4. Aucune OST modifiée."
+}

@@ -1,0 +1,31 @@
+{
+  "rom_sha256": "53c62090c8838a2eff68d6abc019ec9b3f13f44daa1ba679fdb6079faefb101b",
+  "video": "trois-oni-trois-grottes-mgba.mp4",
+  "video_sha256": "871f79772519559617042bba17be52fddd498582bdc285700d20801705cf98d3",
+  "taille_octets": 43813401,
+  "duree_secondes": 276.324016,
+  "chapitres": [
+    {
+      "titre": "Gargaros - Mont Sélénite",
+      "debut_secondes": 0,
+      "duree_secondes": 97.141181
+    },
+    {
+      "titre": "Ogralos - Grotte Sombre",
+      "debut_secondes": 97.141181,
+      "duree_secondes": 92.11837
+    },
+    {
+      "titre": "Orqanos - Îles Écume",
+      "debut_secondes": 189.259551,
+      "duree_secondes": 72.042
+    },
+    {
+      "titre": "Bonus - Fondu après une victoire",
+      "debut_secondes": 261.301551,
+      "duree_secondes": 15.001465
+    }
+  ],
+  "montage": "Trois prises continues, séparées par un changement de scénario; aucune coupe interne et aucune accélération. Bonus: extrait de 15 secondes autour d’une victoire réelle. Bandeau ajouté au-dessus de l’image du jeu, sans cacher le chrono.",
+  "preparation": "Situations, stades Oni, équipe et visite favorable préparés avant chaque capture. Aucun changement RAM, warp ou résultat de combat injecté ensuite. Les déplacements sont pilotés à la manette par un algorithme qui connaît les cartes et la destination de la porte."
+}

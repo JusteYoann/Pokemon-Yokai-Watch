@@ -1,0 +1,26 @@
+{
+  "rom_sha256": "53c62090c8838a2eff68d6abc019ec9b3f13f44daa1ba679fdb6079faefb101b",
+  "scope": "Fixtures ciblées mGBA, pas un parcours complet.",
+  "checks": [
+    "1 patrouilles présentes; aucune ancrée dans un couloir à deux issues",
+    "Patrouilles espacées, même après leurs premiers mouvements",
+    "Regard Oni à six cases: même script de cri et immobilisation que les patrouilles",
+    "Pendant 124 VBlanks, Nathan reste immobile et l’Oni se rapproche réellement",
+    "Contact derrière: aucun combat immédiat hors de la case face à l’Oni",
+    "Contact gauche: aucun combat immédiat hors de la case face à l’Oni",
+    "Contact droite: aucun combat immédiat hors de la case face à l’Oni",
+    "Case immédiatement devant l’Oni: vrai combat lancé par le moteur natif",
+    "Texte compilé de l’introduction: 6 MINUTES",
+    "Passage étroit réel du Mont Sélénite (2,22): seulement 1 patrouille(s)",
+    "Les patrouilles ne pénètrent pas dans les couloirs à deux issues pendant leurs déplacements",
+    "Gargaros: 1 patrouille(s), plafond 1, déplacements natifs mesurés sur 240 cycles de contrôle: {231: 10}",
+    "Ogralos: 2 patrouille(s), plafond 2, déplacements natifs mesurés sur 240 cycles de contrôle: {231: 8, 232: 8}",
+    "Orqanos: 3 patrouille(s), plafond 3, déplacements natifs mesurés sur 240 cycles de contrôle: {231: 15, 232: 15, 236: 15}",
+    "La densité augmente progressivement de Gargaros vers Orqanos",
+    "Délai de reprise: un nouveau regard ne réimmobilise pas Nathan pendant la période de protection",
+    "Gargaros: alerte à deux cases, commandes rendues sans contact imposé pendant le verrouillage",
+    "Ogralos: alerte à deux cases, commandes rendues sans contact imposé pendant le verrouillage",
+    "Orqanos: alerte à deux cases, commandes rendues sans contact imposé pendant le verrouillage",
+    "Victoire: Oni et patrouilles se dissolvent en 64 VBlanks avant retrait; Nathan conserve tous ses pixels"
+  ]
+}

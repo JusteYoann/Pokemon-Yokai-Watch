@@ -46,6 +46,7 @@
 #define TH_EXTRA_PATROL_FIRST (TH_LOCAL+6)
 
 static void MaintainPatrols(bool8 initial);
+static void MoveOni(struct ObjectEvent *o,s16 x,s16 y);
 static u8 PatrolLocal(u8 index) { return index<2?TH_LOCAL+1+index:TH_EXTRA_PATROL_FIRST+index-2; }
 struct ThPoint { u8 x, y, component; };
 struct ThMap { u8 group, num, width, height, cave, pursuers; const u8 *labels; const struct ThPoint *points; u8 count; };
@@ -188,12 +189,17 @@ static void MaintainPatrols(bool8 initial)
 {
     const struct ThMap *map=&sThMaps[sTh.map];
     s16 px,py,x,y,bx,by,score,best,distance,nearest,interest,d;
-    u8 i,j,id,near=0,neighbors,co,budget;u16 openCells=0;u8 orientation=gMain.vblankCounter2&3;
+    u8 i,j,id,near=0,neighbors,co,budget,space;u16 openCells=0;u8 orientation=gMain.vblankCounter2&3;
     if(!map->pursuers || sTh.freeRoam)return;
     PlayerGetDestCoords(&px,&py);px-=7;py-=7;co=Component(map,px,py);
     for(y=py-5;y<=py+5;y++)for(x=px-7;x<=px+7;x++)
-        if(Component(map,x,y)==co && !MapGridGetCollisionAt(x+7,y+7))openCells++;
-    budget=(openCells+27)/28;if(budget<2)budget=2;if(budget>TH_PATROLS)budget=TH_PATROLS;
+        if(Component(map,x,y)==co && !MapGridGetCollisionAt(x+7,y+7)) {
+            neighbors=0;
+            for(j=1;j<=4;j++)if(!MapGridGetCollisionAt(x+7+gDirectionToVectors[j].x,y+7+gDirectionToVectors[j].y))neighbors++;
+            // Corridor tiles do not justify extra guards, even if many are visible.
+            if(neighbors>=3)openCells++;
+        }
+    budget=(openCells+35)/36;if(budget<1)budget=1;if(budget>1+sTh.tier)budget=1+sTh.tier;
     for(i=0;i<TH_PATROLS;i++)if((id=Object(PatrolLocal(i)))<OBJECT_EVENTS_COUNT)
         if(abs(gObjectEvents[id].currentCoords.x-7-px)<=7 && abs(gObjectEvents[id].currentCoords.y-7-py)<=5)near++;
     for(i=0;i<budget;i++) {
@@ -212,6 +218,10 @@ static void MaintainPatrols(bool8 initial)
             neighbors=0;
             for(j=1;j<=4;j++)if(!MapGridGetCollisionAt(x+7+gDirectionToVectors[j].x,y+7+gDirectionToVectors[j].y))neighbors++;
             if(neighbors<3)continue;
+            space=0;
+            for(d=-2;d<=2;d++)for(interest=-2;interest<=2;interest++)
+                if(Component(map,x+d,y+interest)==co && !MapGridGetCollisionAt(x+d+7,y+interest+7))space++;
+            if(space<15)continue;
             nearest=20;
             for(j=0;j<TH_PATROLS;j++) {
                 u8 other=Object(PatrolLocal(j));
@@ -220,7 +230,7 @@ static void MaintainPatrols(bool8 initial)
                     if(d<nearest)nearest=d;
                 }
             }
-            if(nearest<3)continue;
+            if(nearest<(sTh.tier?5:6))continue;
             // Prefer junction mouths and approaches to stairs/the escape door,
             // leaving the actual access tiles clear and guards well separated.
             interest=neighbors==3?12:0;
@@ -445,7 +455,7 @@ bool8 TerreHeureTryStep(void)
     sTh.flash=gSaveBlock1Ptr->flashLevel;sTh.cave=sThMaps[mapId].cave;
     sTh.tier=FlagGet(FLAG_ONI_OGRALOS_WON)?2:FlagGet(FLAG_ONI_GARGAROS_WON)?1:0;
     sTh.helpWasEnabled=gHelpSystemEnabled;
-    sTh.active=TRUE;sTh.phase=0;sTh.freeRoam=FALSE;sTh.map=mapId;sTh.window=TH_NONE;
+    sTh.active=TRUE;sTh.phase=0;sTh.freeRoam=FALSE;sTh.cooldown=0;sTh.map=mapId;sTh.window=TH_NONE;
     sTh.remaining=(TH_SECONDS*262144U+4388)/4389U;sTh.seconds=TH_NONE;
     memset(sTh.picked,0,sizeof(sTh.picked));memset(sTh.loot,0,sizeof(sTh.loot));
     VarSet(VAR_TERRE_HEURE_PENDING,0);
@@ -536,25 +546,31 @@ static void Pursuers(void)
     s16 x,y;u8 i,id,dir=0;struct ObjectEvent *o;
     if(sTh.freeRoam)return;
     PlayerGetDestCoords(&x,&y);
+    if(sTh.cooldown)sTh.cooldown--;
     if(++sTh.patrolClock>=48) {sTh.patrolClock=0;MaintainPatrols(FALSE);}
     for(i=0;i<TH_PATROLS;i++)if((id=Object(PatrolLocal(i)))<OBJECT_EVENTS_COUNT) {
         u8 attempt,start=1+Random()%4,j; s16 nx,ny;
         o=&gObjectEvents[id];
         if(ObjectEventIsMovementOverridden(o) && !ObjectEventCheckHeldMovementStatus(o))continue;
-        if((sTh.patrolClock+i*3)%8)continue;
+        if((sTh.patrolClock+i*3)%(sTh.tier==0?24:sTh.tier==1?16:8))continue;
         ObjectEventClearHeldMovementIfActive(o);
         // Walk a small beat around the strategic anchor at normal walking speed.
         for(attempt=0;attempt<4;attempt++) {
             dir=1+(start-1+attempt)%4;
             nx=o->currentCoords.x+gDirectionToVectors[dir].x;ny=o->currentCoords.y+gDirectionToVectors[dir].y;
             if(abs(nx-o->initialCoords.x)+abs(ny-o->initialCoords.y)>3)continue;
+            {
+                u8 open=0,k;
+                for(k=1;k<=4;k++)if(!MapGridGetCollisionAt(nx+gDirectionToVectors[k].x,ny+gDirectionToVectors[k].y))open++;
+                if(open<3)continue;
+            }
             for(j=0;j<gMapHeader.events->warpCount;j++)if(gMapHeader.events->warps[j].x==nx-7 && gMapHeader.events->warps[j].y==ny-7)break;
             if(j<gMapHeader.events->warpCount)continue;
             if(sTh.map==sTh.doorMap) {
                 if(abs(nx-7-sTh.doorX)<=2 && abs(ny-7-sTh.doorY)<=2)continue;
             }
             if(!GetCollisionAtCoords(o,nx,ny,dir)) {
-                ObjectEventSetHeldMovement(o,GetWalkNormalMovementAction(dir));break;
+                ObjectEventSetHeldMovement(o,sTh.tier<2?GetWalkSlowMovementAction(dir):GetWalkNormalMovementAction(dir));break;
             }
         }
     }
@@ -563,20 +579,35 @@ static void Pursuers(void)
         // Latch the complete set before reacting: simultaneous sightings
         // produce one cry/freeze, never one queued freeze per patrol.
         for(i=0;i<TH_PATROLS;i++)if((id=Object(PatrolLocal(i)))<OBJECT_EVENTS_COUNT && Sight(&gObjectEvents[id],x,y,5))mask|=1<<i;
+        id=Object(TH_LOCAL);
+        if(id<OBJECT_EVENTS_COUNT && Sight(&gObjectEvents[id],x,y,sTh.tier==2?8:6)) {
+            mask|=1<<TH_PATROLS;sTh.seen|=1;
+        }
         entered=mask&~sTh.sightMask;sTh.sightMask=mask;
-        if(entered) {
-            for(i=0;i<TH_PATROLS;i++)if(entered&(1<<i))break;
-            sTh.alerted=TRUE;gFieldEffectArguments[0]=PatrolLocal(i);
+        if(entered && !sTh.cooldown) {
+            sTh.cooldown=(8-2*sTh.tier)*60;
+            for(i=0;i<=TH_PATROLS;i++)if(entered&(1<<i))break;
+            // Bit 1 lets only the Oni approach during this two-second alert.
+            // Bits 2..3 bound the approach during the forced player pause.
+            sTh.seen|=2|((sTh.tier==2?3:2)<<2);
+            sTh.alerted=TRUE;gFieldEffectArguments[0]=i==TH_PATROLS?TH_LOCAL:PatrolLocal(i);
             gFieldEffectArguments[1]=gSaveBlock1Ptr->location.mapNum;gFieldEffectArguments[2]=gSaveBlock1Ptr->location.mapGroup;
             FieldEffectStart(FLDEFF_EXCLAMATION_MARK_ICON);PlaySE(SE_PIN);
             ScriptContext_SetupScript(TerreHeure_EventScript_Alert);LockPlayerFieldControls();return;
         }
     }
     id=Object(TH_LOCAL);if(id>=OBJECT_EVENTS_COUNT)return;o=&gObjectEvents[id];
-    if(Sight(o,x,y,sTh.tier==2?8:6))sTh.seen=TRUE;
-    if(abs(x-o->currentCoords.x)+abs(y-o->currentCoords.y)<=1) {
+    if(Sight(o,x,y,1)) {
         ScriptContext_SetupScript(TerreHeure_EventScript_Oni);LockPlayerFieldControls();return;
     }
+    MoveOni(o,x,y);
+}
+static void MoveOni(struct ObjectEvent *o,s16 x,s16 y)
+{
+    u8 dir=0,i;
+    // A forced alert must leave a chance to run when control returns.
+    // The Oni may approach, but cannot close the final two tiles during it.
+    if((sTh.seen&2) && (!(sTh.seen>>2) || abs(x-o->currentCoords.x)+abs(y-o->currentCoords.y)<=2))return;
     if(ObjectEventIsMovementOverridden(o) && !ObjectEventCheckHeldMovementStatus(o))return;
     if(++sTh.aiDelay<(sTh.tier?8:16))return;sTh.aiDelay=0;
     ObjectEventClearHeldMovementIfActive(o);
@@ -592,8 +623,12 @@ static void Pursuers(void)
         }
     }
     sTh.direction=dir;
+    if(dir && o->currentCoords.x+gDirectionToVectors[dir].x==x && o->currentCoords.y+gDirectionToVectors[dir].y==y)
+        ObjectEventTurn(o,dir);
     if(dir && !GetCollisionAtCoords(o,o->currentCoords.x+gDirectionToVectors[dir].x,o->currentCoords.y+gDirectionToVectors[dir].y,dir))
-        ObjectEventSetHeldMovement(o,GetWalkSlowMovementAction(dir));
+    {
+        if(!ObjectEventSetHeldMovement(o,GetWalkSlowMovementAction(dir)) && (sTh.seen&2))sTh.seen-=4;
+    }
 }
 void TerreHeureUpdate(void)
 {
@@ -613,9 +648,24 @@ void TerreHeureUpdate(void)
         if(gMain.vblankCounter2-sTh.clock>=64) {sTh.phase=3;ScriptContext_Enable();}
         return;
     }
+    if(sTh.phase==10) {
+        if(gMain.vblankCounter2-sTh.clock>=64) {
+            RemovePursuers();sTh.phase=2;ScriptContext_Enable();
+        }
+        return;
+    }
     if(sTh.phase!=2)return;
     mapId=CurrentMap();if(mapId<0)return;
     if(sTh.map!=mapId) {sTh.map=mapId;Populate();sTh.clock=gMain.vblankCounter2;}
+    if(!ArePlayerFieldControlsLocked())sTh.seen&=1;
+    if(!sTh.freeRoam && (sTh.seen&2) && ArePlayerFieldControlsLocked() && !gPaletteFade.active) {
+        u8 id=Object(TH_LOCAL);s16 x,y;
+        if(id<OBJECT_EVENTS_COUNT) {
+            PlayerGetDestCoords(&x,&y);
+            UnfreezeObjectEvent(&gObjectEvents[id]);
+            MoveOni(&gObjectEvents[id],x,y);
+        }
+    }
     if(!sTh.freeRoam && !ScriptContext_IsEnabled() && !ArePlayerFieldControlsLocked() && !gPaletteFade.active) {
         if(!sTh.remaining) {Timer();sTh.phase=4;ScriptContext_SetupScript(TerreHeure_EventScript_Timeout);LockPlayerFieldControls();return;}
         Pursuers();
@@ -630,13 +680,13 @@ void TerreHeureFadeResidents(void)
     static const u8 bayer[4][4]={{0,8,2,10},{12,4,14,6},{3,11,1,9},{15,7,13,5}};
     u16 masks[4],row,x,i,word;
     u8 amount;
-    if(!sTh.active || (sTh.phase!=1 && sTh.phase!=7))return;
-    amount=sTh.phase==7?(gMain.vblankCounter2-sTh.clock)*16/60:TerreHeureTransitionAmount();
+    if(!sTh.active || (sTh.phase!=1 && sTh.phase!=7 && sTh.phase!=10))return;
+    amount=(sTh.phase==7 || sTh.phase==10)?(gMain.vblankCounter2-sTh.clock)*16/60:TerreHeureTransitionAmount();
     if(amount>16)amount=16;
     if(!amount && sTh.phase!=7)return;
     for(row=0;row<4;row++) {
         masks[row]=0;
-        for(x=0;x<4;x++)if((sTh.phase==7 && bayer[row][x]<amount) || (sTh.phase==1 && bayer[row][x]>=amount))masks[row]|=0xF<<(x*4);
+        for(x=0;x<4;x++)if((sTh.phase==7 && bayer[row][x]<amount) || ((sTh.phase==1 || sTh.phase==10) && bayer[row][x]>=amount))masks[row]|=0xF<<(x*4);
     }
     // Called after native animation uploads, once in the field VBlank.
     for(i=0;i<OBJECT_EVENTS_COUNT;i++) {
@@ -647,6 +697,7 @@ void TerreHeureFadeResidents(void)
         if(!object->active || i==gPlayerAvatar.objectEventId || object->localId==LOCALID_PLAYER
             || object->spriteId==gPlayerAvatar.spriteId || object->graphicsId==OBJ_EVENT_GFX_PUSHABLE_BOULDER)continue;
         if(sTh.phase==7 && object->graphicsId!=OBJ_EVENT_GFX_PATROUILLE_ONI)continue;
+        if(sTh.phase==10 && object->localId!=TH_LOCAL && object->graphicsId!=OBJ_EVENT_GFX_PATROUILLE_ONI)continue;
         sprite=&gSprites[object->spriteId];
         if(!sprite->inUse || sprite->invisible || sprite->images==NULL || sprite->data[0]!=i)continue;
         tiles=(vu16 *)(OBJ_VRAM0+sprite->oam.tileNum*32);
@@ -679,7 +730,7 @@ void TerreHeureBattleResult(void)
     sTh.phase=2;
     if(gBattleOutcome==B_OUTCOME_WON) {
         FlagSet(sTh.tier==0?FLAG_ONI_GARGAROS_WON:sTh.tier==1?FLAG_ONI_OGRALOS_WON:FLAG_ONI_ORQANOS_WON);
-        sTh.freeRoam=TRUE;RemovePursuers();
+        sTh.freeRoam=TRUE;sTh.clock=gMain.vblankCounter2;sTh.phase=10;
         if(sTh.window!=TH_NONE){ClearStdWindowAndFrameToTransparent(sTh.window,TRUE);RemoveWindow(sTh.window);sTh.window=TH_NONE;}
         PlayNewMapMusic(MUS_YOKAI_INFINITE_TUNNEL);
     }
@@ -767,6 +818,6 @@ u8 TerreHeureTransitionAmount(void)
     elapsed=gMain.vblankCounter2-sTh.clock;
     return elapsed>=300?16:elapsed*16/300;
 }
-bool8 TerreHeureFogVisible(void) { return sTh.active && (sTh.phase==9 || sTh.phase==7 || sTh.phase==1 || sTh.phase==2 || sTh.phase==3 || sTh.phase==4) && IsFieldPaletteView() && !gMain.inBattle; }
+bool8 TerreHeureFogVisible(void) { return sTh.active && (sTh.phase==10 || sTh.phase==9 || sTh.phase==7 || sTh.phase==1 || sTh.phase==2 || sTh.phase==3 || sTh.phase==4) && IsFieldPaletteView() && !gMain.inBattle; }
 
 void TerreHeureBattleStarting(void) { if(sTh.active) { sTh.phase=6; TerreHeureFogClear(); } }
