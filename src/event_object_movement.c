@@ -2010,7 +2010,7 @@ static void RemoveObjectEventIfOutsideView(struct ObjectEvent *objectEvent)
     s16 top =    gSaveBlock1Ptr->pos.y;
     s16 bottom = gSaveBlock1Ptr->pos.y + MAP_OFFSET_H + 2;
 
-    if (TerreHeureActive() && objectEvent->localId >= 230 && objectEvent->localId < 236) return;
+    if (TerreHeureActive() && objectEvent->localId >= 230 && objectEvent->localId < 242) return;
     if (objectEvent->currentCoords.x >= left && objectEvent->currentCoords.x <= right
      && objectEvent->currentCoords.y >= top && objectEvent->currentCoords.y <= bottom)
         return;

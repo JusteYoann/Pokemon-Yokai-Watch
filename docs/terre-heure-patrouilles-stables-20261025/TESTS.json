@@ -1,0 +1,11 @@
+{
+  "rom_sha256": "85fbf1ea4324abf81e17f870225bd95dac5960c8618e2cf47ed88691554279b9",
+  "scope": "Fixtures mGBA ciblées sur le retrait et le repositionnement, sans enregistrement vidéo.",
+  "checks": [
+    "Les huit identifiants de patrouille survivent à la suppression native des objets hors champ",
+    "Patrouille près du joueur conservée sur 90 vérifications, sans recréation ni téléportation",
+    "2 nouvelles patrouilles placées entièrement au-delà du champ et de sa marge, jamais au bord visible",
+    "Les patrouilles nouvellement placées gardent leur ancrage hors champ et ne sont pas recyclées en boucle",
+    "Plafond de difficulté Orqanos conservé; aucune hausse de densité"
+  ]
+}

@@ -189,7 +189,7 @@ static void MaintainPatrols(bool8 initial)
 {
     const struct ThMap *map=&sThMaps[sTh.map];
     s16 px,py,x,y,bx,by,score,best,distance,nearest,interest,d;
-    u8 i,j,id,near=0,neighbors,co,budget,space;u16 openCells=0;u8 orientation=gMain.vblankCounter2&3;
+    u8 i,j,id,near=0,neighbors,co,budget,space,rx=initial?7:11,ry=initial?5:9;u16 openCells=0;u8 orientation=gMain.vblankCounter2&3;
     if(!map->pursuers || sTh.freeRoam)return;
     PlayerGetDestCoords(&px,&py);px-=7;py-=7;co=Component(map,px,py);
     for(y=py-5;y<=py+5;y++)for(x=px-7;x<=px+7;x++)
@@ -205,14 +205,16 @@ static void MaintainPatrols(bool8 initial)
     for(i=0;i<budget;i++) {
         id=Object(PatrolLocal(i));
         if(id<OBJECT_EVENTS_COUNT) {
-            if(initial || near>=2 || (abs(gObjectEvents[id].currentCoords.x-7-px)<=9 && abs(gObjectEvents[id].currentCoords.y-7-py)<=7))continue;
+            // Keep the same actor while any of its sprite remains on screen,
+            // and retain a larger buffer so new arrivals can walk into view.
+            if(initial || !gObjectEvents[id].offScreen || near>=2 || (abs(gObjectEvents[id].currentCoords.x-7-px)<=12 && abs(gObjectEvents[id].currentCoords.y-7-py)<=10))continue;
         } else if(!initial && near>=2)continue;
         bx=-1;by=-1;best=-32767;
-        for(y=py-5;y<=py+5;y++)for(x=px-7;x<=px+7;x++) {
+        for(y=py-ry;y<=py+ry;y++)for(x=px-rx;x<=px+rx;x++) {
             distance=abs(x-px)+abs(y-py);
             if(distance<4 || Component(map,x,y)!=co || !IsFree(x,y))continue;
-            // During exploration, new patrols enter at the camera edge.
-            if(!initial && abs(x-px)<7 && abs(y-py)<5)continue;
+            // Replacements start beyond the viewport, including sprite overhang.
+            if(!initial && abs(x-px)<=9 && abs(y-py)<=7)continue;
             for(j=0;j<gMapHeader.events->warpCount;j++)if(gMapHeader.events->warps[j].x==x && gMapHeader.events->warps[j].y==y)break;
             if(j<gMapHeader.events->warpCount)continue;
             neighbors=0;
