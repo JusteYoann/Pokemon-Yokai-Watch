@@ -37,7 +37,7 @@ for gender in (0,1):
      if local!=4 and p==position(a):collisions.append((p,local))
     w,h,ptr=struct.unpack('<III',r.read(r.symbols['VMap'],12));tile=int.from_bytes(r.read(ptr+2*((p[1]+7)*w+p[0]+7),2),'little')
     if tile>>10&3:walls.append(p)
-    
+
     player=position(actors[255]);expected=(player[0],player[1]+2)
     if p==expected and not talk:
      talk=True
