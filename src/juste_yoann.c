@@ -111,11 +111,7 @@ static void Task_YoannThank(u8 taskId)
         data[0]++;
         // fall through
     case 3:
-        BeginNormalPaletteFade(PALETTES_ALL, 3, 16, 0, RGB_WHITE);
-        FadeInBGM(4);
-        data[0]++;
-        break;
-    case 4:
+        // Keep the room hidden until the following postgame credits start.
         DestroyTask(taskId);
         ScriptContext_Enable();
         break;

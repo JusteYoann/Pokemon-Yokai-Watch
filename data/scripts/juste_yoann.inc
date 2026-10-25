@@ -87,6 +87,8 @@ Yoann_EventScript_FirstVictory::
 	closemessage
 	special YoannThankForPlay
 	waitstate
+	special YoannPostgameCredits
+	waitstate
 	goto Yoann_EventScript_Reward
 
 Yoann_EventScript_Reward::

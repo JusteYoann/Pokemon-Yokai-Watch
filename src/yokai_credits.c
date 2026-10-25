@@ -10,6 +10,7 @@
 #include "overworld.h"
 #include "yokai_music.h"
 #include "yokai_presentation.h"
+#include "script.h"
 #include "constants/songs.h"
 
 struct CreditAssets
@@ -27,11 +28,45 @@ struct CreditSlide
     u8 textWidth;
 };
 #include "data/yokai_credits.h"
+#include "data/yokai_credits_postgame.h"
 
 static EWRAM_DATA u8 sYokaiCreditsSlide = 0;
 static EWRAM_DATA u16 sYokaiCreditsTick = 0;
 static EWRAM_DATA u32 sYokaiCreditsTotalFrames = 0;
 static EWRAM_DATA u32 sYokaiCreditsStartVBlank = 0;
+static EWRAM_DATA bool8 sPostgameCredits = FALSE;
+
+static void Task_ReturnFromPostgameCredits(u8 taskId)
+{
+    if (!gPaletteFade.active)
+    {
+        DestroyTask(taskId);
+        ScriptContext_Enable();
+    }
+}
+
+static void FieldCB_ReturnFromPostgameCredits(void)
+{
+    SetMainCallback1(CB1_Overworld);
+    LockPlayerFieldControls();
+    Overworld_PlaySpecialMapMusic();
+    BeginNormalPaletteFade(PALETTES_ALL, 1, 16, 0, RGB_WHITE);
+    CreateTask(Task_ReturnFromPostgameCredits, 10);
+}
+
+static void CB2_ReturnFromPostgameCredits(void)
+{
+    SetVBlankCallback(NULL);
+    SetHBlankCallback(NULL);
+    gFieldCallback = FieldCB_ReturnFromPostgameCredits;
+    CB2_ReturnToField();
+}
+
+void YoannPostgameCredits(void)
+{
+    sPostgameCredits = TRUE;
+    SetMainCallback2(CB2_InitYokaiCredits);
+}
 static const u16 sCreditTextPalette[16] = {RGB_BLACK, RGB_WHITE, RGB(3,3,3)};
 static const u8 sCreditTextColors[] = {0,1,2};
 static const struct BgTemplate sCreditBgs[] = {
@@ -56,6 +91,8 @@ static void LoadCreditSlide(u8 index)
     const struct CreditSlide *slide = &sCreditSlides[index];
     u8 font = index == 31 ? FONT_NORMAL : FONT_SMALL;
     s16 x = slide->textX;
+    if (sPostgameCredits && index >= 27 && index <= 30)
+        assets = &sPostgameCreditAssets[gSaveBlock2Ptr->playerGender == FEMALE][index - 27];
     if (slide->textWidth >= 200)
         x += (slide->textWidth - GetStringWidth(font, slide->text, 0)) / 2;
     /* Largest image21568B ends below char2; text19232B ends below map28.
@@ -119,13 +156,31 @@ static void CB2_RollYokaiCredits(void)
         BlendPalette(0, 240, photoFade, RGB_BLACK);
         BlendPalette(240, 16, textFade, RGB_BLACK);
     }
+    else if (sPostgameCredits && sYokaiCreditsTick < 180)
+    {
+        // The slideshow ends in black; reach white before reloading the room.
+        if (sYokaiCreditsTick >= 120)
+        {
+            u16 light = (sYokaiCreditsTick - 120) * 31 / 59;
+            CpuFill16(RGB(light, light, light), gPlttBufferFaded, 256 * sizeof(u16));
+        }
+    }
     else if (sYokaiCreditsTick >= 120)
     {
         SetVBlankCallback(NULL);
         FreeAllWindowBuffers();
-        FlagClear(FLAG_DONT_SHOW_MAP_NAME_POPUP);
-        gDisableMapMusicChangeOnMapLoad = MUSIC_DISABLE_OFF;
-        SoftReset(RESET_ALL);
+        if (sPostgameCredits)
+        {
+            sPostgameCredits = FALSE;
+            SetMainCallback2(CB2_ReturnFromPostgameCredits);
+            return;
+        }
+        else
+        {
+            FlagClear(FLAG_DONT_SHOW_MAP_NAME_POPUP);
+            gDisableMapMusicChangeOnMapLoad = MUSIC_DISABLE_OFF;
+            SoftReset(RESET_ALL);
+        }
     }
     RunTasks();
     BuildOamBuffer();

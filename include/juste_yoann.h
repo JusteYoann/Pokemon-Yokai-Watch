@@ -7,5 +7,6 @@ void YoannSyncVisibility(void);
 void YoannFadeWhite(void);
 void YoannThankForPlay(void);
 void YoannGiveCharm(void);
+void YoannPostgameCredits(void);
 
 #endif

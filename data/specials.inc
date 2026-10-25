@@ -485,4 +485,5 @@ gSpecials::
 	def_special PostgameHaveFriends
 	def_special PostgameGiveGift
 	def_special PostgameGiveTicket
+	def_special YoannPostgameCredits
 gSpecialsEnd::
