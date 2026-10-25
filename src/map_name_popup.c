@@ -6,6 +6,7 @@
 #include "quest_log.h"
 #include "region_map.h"
 #include "strings.h"
+#include "terre_heure.h"
 
 #define FLOOR_ROOFTOP 127
 
@@ -27,6 +28,9 @@ static u8 *MapNamePopupAppendFloorNum(u8 *dest, s8 flags);
 void ShowMapNamePopup(bool32 palIntoFadedBuffer)
 {
     u8 taskId;
+    // The popup scrolls BG0, which also carries the Terror Time timer.
+    if (TerreHeureActive())
+        return;
     if (FlagGet(FLAG_DONT_SHOW_MAP_NAME_POPUP) != TRUE && !QL_IS_PLAYBACK_STATE)
     {
         taskId = FindTaskIdByFunc(Task_MapNamePopup);

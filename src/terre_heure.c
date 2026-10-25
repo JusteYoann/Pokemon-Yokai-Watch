@@ -33,6 +33,7 @@
 #include "string_util.h"
 #include "window.h"
 #include "menu.h"
+#include "map_name_popup.h"
 #include "start_menu.h"
 #include "help_system.h"
 #include "characters.h"
@@ -478,6 +479,7 @@ void TerreHeureReload(void)
 }
 void TerreHeureBegin(void)
 {
+    DismissMapNamePopup();
     HelpSystem_Disable();
     gSaveBlock1Ptr->flashLevel=0;ScanlineEffect_Stop();
     SetGpuReg(REG_OFFSET_WINOUT,WINOUT_WIN01_BG_ALL|WINOUT_WIN01_OBJ|WINOUT_WINOBJ_BG_ALL|WINOUT_WINOBJ_OBJ);

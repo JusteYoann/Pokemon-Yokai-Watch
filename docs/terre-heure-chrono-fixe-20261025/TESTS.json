@@ -1,0 +1,14 @@
+{
+  "rom_sha256": "3963629a60b3ced5355c7824ebc910a3c6387b77d066cae79849ac26b551c271",
+  "scope": "Fixtures mGBA avec transitions natives entre étages, sans vidéo.",
+  "checks": [
+    "Hors Terr’heure, le bandeau natif du nom de grotte apparaît normalement",
+    "Le bandeau encore actif au début est fermé avant le chrono; décalage BG0 remis à zéro",
+    "RockTunnel_B1F (38,28): aucun bandeau, chrono sans décalage sur 180 frames",
+    "RockTunnel_1F (44,4): aucun bandeau, chrono sans décalage sur 180 frames",
+    "RockTunnel_B1F (33,4): aucun bandeau, chrono sans décalage sur 180 frames",
+    "RockTunnel_1F (3,4): aucun bandeau, chrono sans décalage sur 180 frames",
+    "Après la Terr’heure, l’affichage normal des noms de lieux est rétabli",
+    "720 contrôles du décalage matériel BG0 au cours de quatre changements d’étage"
+  ]
+}
