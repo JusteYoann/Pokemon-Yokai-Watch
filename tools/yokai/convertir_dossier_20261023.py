@@ -62,6 +62,9 @@ dest=R/'graphics/yokai/150';frames=save([fit(im.crop((0,0,w//2,h//2)),(64,64),58
 # Domniscian's user-confirmed three views already exist; preserve their native palette.
 for name,frame_width in [('enma',16),('domniscian',32)]:
  p=R/'graphics/yokai_characters'/name/'overworld.png';orig=p.with_name('overworld-before-dossier.png')
+ approved=R/'graphics/yokai_characters/overworld_red_v3/approved_overrides'/(name+'.png')
+ if approved.exists():
+  p.write_bytes(approved.read_bytes());results.append({'name':name,'method':'Approved native override preserved without a second resize','source':str(approved.relative_to(R))});continue
  if not orig.exists():orig.write_bytes(p.read_bytes())
  im=Image.open(orig);pal=im.getpalette();out=Image.new('P',im.size);out.putpalette(pal)
  boxes=[]

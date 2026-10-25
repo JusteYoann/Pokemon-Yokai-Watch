@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "scope": "Fixtures isolées mGBA : taille/palette Enma et retrait du caméo au Mont Braise.",
+  "rom_sha256": "f970d58fe95987f1b626ab5af1e623c7ad36209be5c49a6bd1790ec111f695e7",
+  "checks": [
+    "Mont Braise avant/après Ligue : Enma absent ; après les prérequis Oni, Gorgouille et Alizon restent présents",
+    "Un ancien objet Enma déjà chargé est également retiré au retour terrain, sans décaler les identifiants des autres PNJ",
+    "Grotte Azurée : Enma royal présent, bons graphismes et bonne palette, largeur frontale 12 px comme Nathan, hauteur visible 21 px contre 19",
+    "Le même grand sprite royal reste présent dans l’introduction du postgame"
+  ]
+}

@@ -4,13 +4,13 @@ MtEmber_Summit_MapScripts::
 	.byte 0
 
 MtEmber_Summit_OnResume::
+	setflag FLAG_HIDE_YOKAI_LORD_ENMA
+	removeobject 6
 	end
 
 MtEmber_Summit_OnTransition::
 	setflag FLAG_HIDE_YOKAI_LORD_ENMA
 	call Onis_EventScript_SyncBraise
-	goto_if_unset FLAG_SYS_GAME_CLEAR, Onis_EventScript_End
-	clearflag FLAG_HIDE_YOKAI_LORD_ENMA
 	end
 
 @ Original cameo, shared with the final Enma trial: no duplicated encounter.

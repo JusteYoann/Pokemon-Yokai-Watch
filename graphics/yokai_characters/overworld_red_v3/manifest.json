@@ -17,7 +17,7 @@
     "katie"
   ],
   "battle_art_all_unchanged": true,
-  "latest_selection": "Domniscian debout à la hauteur visible de Maître Nyada (19 pixels); autres sélections conservées.",
+  "latest_selection": "Seigneur Enma royal des caméos adapté à la largeur de Nathan ; Domniscian et autres sélections conservés.",
   "approved_overrides": {
     "enma": "approved_overrides/enma.png",
     "domniscian": "approved_overrides/domniscian.png",
@@ -27,9 +27,11 @@
   },
   "override_source_commit": "daff2e5b824c4e76dc89270820a0574ffc15f3ae",
   "override_source_commits": {
-    "domniscian": null
+    "domniscian": null,
+    "enma": null
   },
   "override_origins": {
-    "domniscian": "graphics/yokai_characters/overworld_red_v3/source/domniscian.png"
+    "domniscian": "graphics/yokai_characters/overworld_red_v3/source/domniscian.png",
+    "enma": "graphics/yokai_characters/enma/source/cameo-original-3abcd3586.png"
   }
 }
