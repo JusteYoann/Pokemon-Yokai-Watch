@@ -39,10 +39,14 @@ for gender,label in enumerate(('garcon','fille')):
   q.f(0x806);q.warp('CeruleanCave_1F',22,20);r.keys=set();r.run(300);r.call('LockPlayerFieldControls');r.call('FreezeObjectEvents');r.run(4)
   capture(28,'Maître Nyada et Démophage dans la Grotte Azurée')
   r.call('ScriptContext_Init');r.call('UnlockPlayerFieldControls')
+  q.mon(0,6,70) # Komaous, requested protagonist for the Robonyan 28 shiny memory.
   q.f('FLAG_PG_SCIENTIST_1');q.f('FLAG_PG_SCIENTIST_2');q.warp('SaffronCity',19,23);q.script('PG_ScientistYopple')
   q.wait(lambda:q.callback()=='BattleMainCB2',30000)
   actions={int(f[0],16)|1 for line in subprocess.check_output(['arm-none-eabi-nm','--defined-only',str(r.elf_path)],text=True).splitlines() if len(f:=line.split())==3 and f[2]=='HandleInputChooseAction'}
-  q.wait(lambda:r.u32(r.symbols['gBattlerControllerFuncs']) in actions,12000);r.keys=set();r.run(8);capture(29,'Le dernier combat contre le scientifique')
+  q.wait(lambda:r.u32(r.symbols['gBattlerControllerFuncs']) in actions,12000);r.keys=set();r.run(8)
+  assert r.call('GetMonData',r.symbols['gPlayerParty'],11,0)==6
+  assert r.call('GetMonData',r.symbols['gEnemyParty'],11,0)==19 and r.call('IsMonShiny',r.symbols['gEnemyParty'])
+  capture(29,'Komaous face à Robonyan 28 shiny')
   # A fresh emulator isolates the next battle from the unfinished scientist fight.
  finally:r.close()
  q=QA('TEMP_PHOTOS.json');r=q.r

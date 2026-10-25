@@ -1,0 +1,29 @@
+{
+  "scope": "Capture native du discours actuel avec Wyatt, via l'entrée Route 2.\nParties de test isolées ; aucun acteur ajouté ni recomposé dans l'image.\n",
+  "captures": [
+    {
+      "gender": "garcon",
+      "source_rom_sha256": "40a6bf27ac1c5dc1683837f1ba010d2a80a37b3fe690c6764c5705edef9dcec9",
+      "capture": "docs/credits-souvenirs-20261025/garcon-03-discours-wyatt-native.png",
+      "wyatt_visible": true,
+      "wyatt_palette_verified": true,
+      "wyatt_native_screen_xy": [
+        88,
+        72
+      ],
+      "current_arrival_scene_via_route2": true
+    },
+    {
+      "gender": "fille",
+      "source_rom_sha256": "40a6bf27ac1c5dc1683837f1ba010d2a80a37b3fe690c6764c5705edef9dcec9",
+      "capture": "docs/credits-souvenirs-20261025/fille-03-discours-wyatt-native.png",
+      "wyatt_visible": true,
+      "wyatt_palette_verified": true,
+      "wyatt_native_screen_xy": [
+        88,
+        72
+      ],
+      "current_arrival_scene_via_route2": true
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "scope": "Contrôle ciblé des photos 3, 29 et 31 dans le moteur de crédits mGBA.\nHorloge du générique avancée dans ces seules fixtures ; aucun film d'aventure.\n",
+  "rom_sha256": "0b5c977d61d8118f2a3ccfc6cd7705384b31d9064331e957a46e1f8902bb53b4",
+  "photos": [
+    {
+      "gender": "garcon",
+      "postgame": false,
+      "index": 3,
+      "native_tiles_and_palette": true
+    },
+    {
+      "gender": "garcon",
+      "postgame": false,
+      "index": 29,
+      "native_tiles_and_palette": true
+    },
+    {
+      "gender": "garcon",
+      "postgame": false,
+      "index": 31,
+      "native_tiles_and_palette": true
+    },
+    {
+      "gender": "garcon",
+      "postgame": true,
+      "index": 3,
+      "native_tiles_and_palette": true
+    },
+    {
+      "gender": "garcon",
+      "postgame": true,
+      "index": 29,
+      "native_tiles_and_palette": true
+    },
+    {
+      "gender": "garcon",
+      "postgame": true,
+      "index": 31,
+      "native_tiles_and_palette": true
+    },
+    {
+      "gender": "fille",
+      "postgame": false,
+      "index": 3,
+      "native_tiles_and_palette": true
+    },
+    {
+      "gender": "fille",
+      "postgame": false,
+      "index": 29,
+      "native_tiles_and_palette": true
+    },
+    {
+      "gender": "fille",
+      "postgame": false,
+      "index": 31,
+      "native_tiles_and_palette": true
+    },
+    {
+      "gender": "fille",
+      "postgame": true,
+      "index": 3,
+      "native_tiles_and_palette": true
+    },
+    {
+      "gender": "fille",
+      "postgame": true,
+      "index": 29,
+      "native_tiles_and_palette": true
+    },
+    {
+      "gender": "fille",
+      "postgame": true,
+      "index": 31,
+      "native_tiles_and_palette": true
+    }
+  ],
+  "domniscian_visible_heights": [
+    19,
+    19,
+    19
+  ],
+  "final_group_source": "docs/nyada-espace-domniscian-20261025/groupe"
+}
