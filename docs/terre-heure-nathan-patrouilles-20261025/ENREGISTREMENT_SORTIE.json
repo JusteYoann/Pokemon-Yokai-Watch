@@ -1,0 +1,31 @@
+{
+  "rom_sha256": "d8edc8263d1802a15122f0b04dcca6f9ee7edfdd563a98411c998d847a266700",
+  "video": "declenchement-porte-sortie-mgba.mp4",
+  "video_sha256": "67798b788f071cf156299444c3ab659911af673dc957436a04beb63b2645952e",
+  "scope": "Continuous mGBA recording: normal cave, native trigger, escape door and ten seconds after return.\nOnly the starting map, party and encounter eligibility are prepared. Once the\nrecording starts, only controller input is used; no warp, timer edit or battle\noutcome is injected. Raw native video and audio are encoded without cuts.\n",
+  "preparation": {
+    "tirage_porte_natif_seed": 1,
+    "etage_porte": "MtMoon_B1F",
+    "distance_minimale_pas": 246,
+    "equipe": "Seigneur Enma niveau 85, statistiques naturelles, capacités naturelles de montée en niveau; Météores placé en premier. Aucun résultat de combat imposé.",
+    "depart": "Visite réussie préparée juste avant son dernier pas programmé. Équipe et position préparées avant capture. Aucune mutation RAM ni téléportation pendant la vidéo."
+  },
+  "frames": 9702,
+  "fps": 59.727500915527344,
+  "duree_secondes": 162.437736,
+  "taille_octets": 39179423,
+  "evenements_secondes": {
+    "declenchement": 2.645347579893884,
+    "transformation": 8.957347817995114,
+    "materialisation_patrouilles": 14.197814859177301,
+    "texte_intro": 15.269348056096343,
+    "exploration": 23.473274095007756,
+    "combat_oni": 49.072871877651735,
+    "victoire_oni": 109.59775479737573,
+    "interaction_porte": 144.17144310421668,
+    "sortie_controles_rendus": 152.4088545555318
+  },
+  "chronometre": "Durée normale de 360 secondes, jamais modifiée pendant la capture. Sortie par interaction réelle avec la porte; chronomètre non modifié.",
+  "montage": "Continu, sans coupe ni accélération. Image agrandie x3 au plus proche voisin.",
+  "audio": "Sortie directe mGBA, encodée en AAC 48 kHz pour le MP4. Aucune OST modifiée."
+}

@@ -1,0 +1,236 @@
+{
+  "rom_sha256": "d8edc8263d1802a15122f0b04dcca6f9ee7edfdd563a98411c998d847a266700",
+  "scope": "Vérifie les choix natifs de portes contre un BFS Python indépendant et le rattrapage à trois pas.",
+  "checks": [
+    "MtMoon_1F: porte la plus éloignée sur un autre étage, vérifiée sur tous les emplacements viables",
+    "MtMoon_B1F: porte la plus éloignée sur un autre étage, vérifiée sur tous les emplacements viables",
+    "MtMoon_B2F: porte la plus éloignée sur un autre étage, vérifiée sur tous les emplacements viables",
+    "RockTunnel_1F: aucun autre étage accessible, déclenchement reporté",
+    "RockTunnel_B1F: porte la plus éloignée sur un autre étage, vérifiée sur tous les emplacements viables",
+    "SeafoamIslands_1F: porte la plus éloignée sur un autre étage, vérifiée sur tous les emplacements viables",
+    "SeafoamIslands_B1F: porte la plus éloignée sur un autre étage, vérifiée sur tous les emplacements viables",
+    "SeafoamIslands_B2F: porte la plus éloignée sur un autre étage, vérifiée sur tous les emplacements viables",
+    "SeafoamIslands_B3F: porte la plus éloignée sur un autre étage, vérifiée sur tous les emplacements viables",
+    "SeafoamIslands_B4F: porte la plus éloignée sur un autre étage, vérifiée sur tous les emplacements viables",
+    "VictoryRoad_1F: porte la plus éloignée sur un autre étage, vérifiée sur tous les emplacements viables",
+    "VictoryRoad_2F: aucun autre étage accessible, déclenchement reporté",
+    "VictoryRoad_3F: porte la plus éloignée sur un autre étage, vérifiée sur tous les emplacements viables",
+    "CeruleanCave_1F: porte la plus éloignée sur un autre étage, vérifiée sur tous les emplacements viables",
+    "CeruleanCave_B1F: porte la plus éloignée sur un autre étage, vérifiée sur tous les emplacements viables",
+    "MtEmber_RubyPath_B4F: porte la plus éloignée sur un autre étage, vérifiée sur tous les emplacements viables",
+    "Trois pas avant la sortie: un tirage favorable avec 73 pas restants ne provoque aucune anticipation",
+    "Seuil déjà atteint et essai précédemment bloqué: nouvelle tentative prioritaire à trois pas, avec porte sur un autre étage, la plus éloignée disponible"
+  ],
+  "portes_tirees": [
+    {
+      "depart": "MtMoon_1F",
+      "porte": "MtMoon_B1F",
+      "distance_minimale": 169
+    },
+    {
+      "depart": "MtMoon_1F",
+      "porte": "MtMoon_B1F",
+      "distance_minimale": 169
+    },
+    {
+      "depart": "MtMoon_1F",
+      "porte": "MtMoon_B1F",
+      "distance_minimale": 169
+    },
+    {
+      "depart": "MtMoon_B1F",
+      "porte": "MtMoon_B2F",
+      "distance_minimale": 158
+    },
+    {
+      "depart": "MtMoon_B1F",
+      "porte": "MtMoon_B2F",
+      "distance_minimale": 158
+    },
+    {
+      "depart": "MtMoon_B1F",
+      "porte": "MtMoon_B2F",
+      "distance_minimale": 158
+    },
+    {
+      "depart": "MtMoon_B2F",
+      "porte": "MtMoon_1F",
+      "distance_minimale": 264
+    },
+    {
+      "depart": "MtMoon_B2F",
+      "porte": "MtMoon_1F",
+      "distance_minimale": 264
+    },
+    {
+      "depart": "MtMoon_B2F",
+      "porte": "MtMoon_1F",
+      "distance_minimale": 264
+    },
+    {
+      "depart": "RockTunnel_B1F",
+      "porte": "RockTunnel_1F",
+      "distance_minimale": 209
+    },
+    {
+      "depart": "RockTunnel_B1F",
+      "porte": "RockTunnel_1F",
+      "distance_minimale": 209
+    },
+    {
+      "depart": "RockTunnel_B1F",
+      "porte": "RockTunnel_1F",
+      "distance_minimale": 209
+    },
+    {
+      "depart": "SeafoamIslands_1F",
+      "porte": "SeafoamIslands_B4F",
+      "distance_minimale": 78
+    },
+    {
+      "depart": "SeafoamIslands_1F",
+      "porte": "SeafoamIslands_B4F",
+      "distance_minimale": 78
+    },
+    {
+      "depart": "SeafoamIslands_1F",
+      "porte": "SeafoamIslands_B4F",
+      "distance_minimale": 78
+    },
+    {
+      "depart": "SeafoamIslands_B1F",
+      "porte": "SeafoamIslands_B4F",
+      "distance_minimale": 62
+    },
+    {
+      "depart": "SeafoamIslands_B1F",
+      "porte": "SeafoamIslands_B4F",
+      "distance_minimale": 62
+    },
+    {
+      "depart": "SeafoamIslands_B1F",
+      "porte": "SeafoamIslands_B4F",
+      "distance_minimale": 62
+    },
+    {
+      "depart": "SeafoamIslands_B2F",
+      "porte": "SeafoamIslands_B4F",
+      "distance_minimale": 71
+    },
+    {
+      "depart": "SeafoamIslands_B2F",
+      "porte": "SeafoamIslands_B4F",
+      "distance_minimale": 71
+    },
+    {
+      "depart": "SeafoamIslands_B2F",
+      "porte": "SeafoamIslands_B4F",
+      "distance_minimale": 71
+    },
+    {
+      "depart": "SeafoamIslands_B3F",
+      "porte": "SeafoamIslands_1F",
+      "distance_minimale": 68
+    },
+    {
+      "depart": "SeafoamIslands_B3F",
+      "porte": "SeafoamIslands_1F",
+      "distance_minimale": 68
+    },
+    {
+      "depart": "SeafoamIslands_B3F",
+      "porte": "SeafoamIslands_1F",
+      "distance_minimale": 68
+    },
+    {
+      "depart": "SeafoamIslands_B4F",
+      "porte": "SeafoamIslands_B1F",
+      "distance_minimale": 67
+    },
+    {
+      "depart": "SeafoamIslands_B4F",
+      "porte": "SeafoamIslands_B1F",
+      "distance_minimale": 67
+    },
+    {
+      "depart": "SeafoamIslands_B4F",
+      "porte": "SeafoamIslands_B1F",
+      "distance_minimale": 67
+    },
+    {
+      "depart": "VictoryRoad_1F",
+      "porte": "VictoryRoad_3F",
+      "distance_minimale": 127
+    },
+    {
+      "depart": "VictoryRoad_1F",
+      "porte": "VictoryRoad_3F",
+      "distance_minimale": 127
+    },
+    {
+      "depart": "VictoryRoad_1F",
+      "porte": "VictoryRoad_3F",
+      "distance_minimale": 127
+    },
+    {
+      "depart": "VictoryRoad_3F",
+      "porte": "VictoryRoad_2F",
+      "distance_minimale": 77
+    },
+    {
+      "depart": "VictoryRoad_3F",
+      "porte": "VictoryRoad_2F",
+      "distance_minimale": 77
+    },
+    {
+      "depart": "VictoryRoad_3F",
+      "porte": "VictoryRoad_2F",
+      "distance_minimale": 77
+    },
+    {
+      "depart": "CeruleanCave_1F",
+      "porte": "CeruleanCave_B1F",
+      "distance_minimale": 224
+    },
+    {
+      "depart": "CeruleanCave_1F",
+      "porte": "CeruleanCave_B1F",
+      "distance_minimale": 224
+    },
+    {
+      "depart": "CeruleanCave_1F",
+      "porte": "CeruleanCave_B1F",
+      "distance_minimale": 224
+    },
+    {
+      "depart": "CeruleanCave_B1F",
+      "porte": "CeruleanCave_1F",
+      "distance_minimale": 137
+    },
+    {
+      "depart": "CeruleanCave_B1F",
+      "porte": "CeruleanCave_1F",
+      "distance_minimale": 137
+    },
+    {
+      "depart": "CeruleanCave_B1F",
+      "porte": "CeruleanCave_1F",
+      "distance_minimale": 137
+    },
+    {
+      "depart": "MtEmber_RubyPath_B4F",
+      "porte": "MtEmber_RubyPath_B5F",
+      "distance_minimale": 33
+    },
+    {
+      "depart": "MtEmber_RubyPath_B4F",
+      "porte": "MtEmber_RubyPath_B5F",
+      "distance_minimale": 33
+    },
+    {
+      "depart": "MtEmber_RubyPath_B4F",
+      "porte": "MtEmber_RubyPath_B5F",
+      "distance_minimale": 33
+    }
+  ]
+}

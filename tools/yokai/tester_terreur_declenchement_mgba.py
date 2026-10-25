@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Fixtures mGBA: tirage d’entrée, délai persistant, priorité réelle sur Iris, sauvegarde/Continuer."""
-import hashlib,json,struct
+import hashlib,json,os,struct
 from mgba_new_game import new_game
 from mgba_rpc import ROOT
-P=ROOT/'docs/terre-heure-progressive-20261025';P.mkdir(parents=True,exist_ok=True)
+P=ROOT/'docs'/os.environ.get('TH_TEST_DIR','terre-heure-progressive-20261025');P.mkdir(parents=True,exist_ok=True)
 r=new_game();checks=[];th=r.symbols['sTh'];party=r.symbols['gPlayerParty']
 groups=json.loads((ROOT/'data/maps/map_groups.json').read_text());maps={n:(i,j) for i,g in enumerate(groups['group_order']) for j,n in enumerate(groups[g])}
 def passed(s):checks.append(s);print('PASS',s,flush=True)
@@ -76,10 +76,10 @@ try:
  assert var(0x40fb)==0x100 and not r.call('TerreHeureTryStep') and var(0x40fb)==0x100
  r.call('UnlockPlayerFieldControls');assert r.call('TerreHeureTryStep')
  passed('Seuil atteint sous verrouillage: attente persistante puis lancement unique lorsque le terrain est sûr')
- r.restore(base);setvar(0x40fa,0x104);warp('VictoryRoad_1F',5,3);setvar(0x40fa,0);setvar(0x40fb,0);r.call('TerreHeureInputStep',False)
+ r.restore(base);setvar(0x40fa,0x102);warp('RockTunnel_1F',44,4);setvar(0x40fa,0);setvar(0x40fb,0);r.call('TerreHeureInputStep',False)
  assert 30<=var(0x40fb)<=150
  r.call('FlagSet',0x33e);assert r.call('TerreHeureEncounterChance')==5
- passed('Garantie tardive à la Route Victoire avant la première rencontre; pas de garantie systématique au Mont Sélénite')
+ passed('Garantie après le début de l’aventure à la Grotte Sombre avant la première rencontre; pas de garantie systématique au Mont Sélénite')
  for name in ('DiglettsCave_NorthEntrance','DiglettsCave_B1F','DiglettsCave_SouthEntrance','MtEmber_SummitPath_3F'):
   r.restore(base);setvar(0x40fa,0);setvar(0x40fb,0x100);warp(name,3,4);assert r.read(th+175,1)==b'\0' and not r.call('TerreHeureTryStep')
  passed('Grotte Bakuku et petits étages de passage: aucun déclenchement')

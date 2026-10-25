@@ -11,6 +11,12 @@ TerreHeure_EventScript_Intro::
 	special TerreHeureRun
 	releaseall
 	end
+TerreHeure_EventScript_Alert::
+	lockall
+	playmoncry SPECIES_ARCANINE, CRY_MODE_ENCOUNTER
+	delay 120
+	releaseall
+	end
 TerreHeure_EventScript_Door::
 	lockall
 	special PorteTerreurOuvrir

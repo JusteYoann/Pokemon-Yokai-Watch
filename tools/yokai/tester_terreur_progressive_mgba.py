@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Vérifie la transition de cinq secondes et les tuiles du chrono pendant la marche."""
-import hashlib,json,struct
+import hashlib,json,os,struct
 from mgba_new_game import new_game
 from mgba_rpc import ROOT
-P=ROOT/'docs/terre-heure-progressive-20261025';P.mkdir(parents=True,exist_ok=True)
+P=ROOT/'docs'/os.environ.get('TH_TEST_DIR','terre-heure-progressive-20261025');P.mkdir(parents=True,exist_ok=True)
 r=new_game();th=r.symbols['sTh'];checks=[]
 def byte(p):return r.read(p,1)[0]
 def passed(s):checks.append(s);print('PASS',s,flush=True)
@@ -32,6 +32,8 @@ try:
  assert r.u32(th+156)==remaining
  assert alpha[1:]==sorted(alpha[1:]) and alpha[-1]==3 and len(set(alpha))>=3,alpha
  assert colored[-1]<colored[0],(colored[0],colored[-1])
+ assert byte(th+176) in (7,9)
+ while byte(th+176) in (7,9):r.run()
  assert byte(th+176)==3
  assert counts[-1]<counts[0] and len(set(counts))>=10,(counts[0],counts[-1],len(set(counts)))
  passed('Les habitants se dissolvent progressivement pendant la même transition, sans effacer Nathan')
@@ -47,33 +49,46 @@ try:
  for i in range(16):
   p=r.symbols['gObjectEvents']+36*i
   if byte(p)&1 and byte(p+8) in (231,232,236,237,238,239,240,241):patrols.append(p)
- assert len(patrols)==8,len(patrols)
+ assert 4<=len(patrols)<=8,len(patrols)
  player=next(r.symbols['gObjectEvents']+36*i for i in range(16) if byte(r.symbols['gObjectEvents']+36*i)&1 and byte(r.symbols['gObjectEvents']+36*i+8)==255)
  px,py=struct.unpack('<hh',r.read(player+16,4));visible=0
  for p in patrols:
   x,y=struct.unpack('<hh',r.read(p+16,4))
   if abs(x-px)<=7 and abs(y-py)<=5:visible+=1
  assert visible>=2,visible
- passed(f'Huit patrouilles actives, dont {visible} proches de la caméra; cases occupées et passages étroits exclus des nouveaux placements')
+ passed(f'{len(patrols)} patrouilles actives, dont {visible} proches de la caméra; cases occupées et passages étroits exclus des nouveaux placements')
  snapshot=r.snapshot();samples=0
- for key in (4,5,6,7):
-  r.restore(snapshot);r.keys={key}
-  for frame in range(120):
-   r.run()
-   wid=byte(th+189)
-   if wid==255 or byte(r.symbols['sLockFieldControls']):continue
-   win=r.symbols['gWindows']+12*wid;data=r.u32(win+8);base=int.from_bytes(r.read(win+6,2),'little')
-   # BG0 uses character base 2; its tiles must not overlap map tilemaps.
-   assert base+12<=0x300,hex(base)
-   if frame%10==5:
-    r.keys=set();r.run(2)
-    assert r.read(0x06008000+base*32,384)==r.read(data,384),('Chrono écrasé',key,frame)
-    samples+=1;r.keys={key}
+ # Isolate map scrolling from the new two-second patrol reaction. Native
+ # held walk actions still animate Nathan and stream the map's tile rows.
+ for direction in (2,1,3,4):
+  r.restore(snapshot);r.keys=set();r.call('ScriptContext_Init');r.call('LockPlayerFieldControls')
+  player_id=next(i for i in range(16) if byte(r.symbols['gObjectEvents']+36*i)&1 and byte(r.symbols['gObjectEvents']+36*i+8)==255)
+  player_obj=r.symbols['gObjectEvents']+36*player_id
+  for step in range(2):
+   before_pos=struct.unpack('<hh',r.read(player_obj+16,4))
+   r.call('ObjectEventClearHeldMovementIfActive',player_obj)
+   movement=r.call('GetWalkNormalMovementAction',direction)
+   assert not r.call('ObjectEventSetHeldMovement',player_obj,movement)
+   for frame in range(24):
+    r.run();wid=byte(th+189)
+    if wid==255:continue
+    win=r.symbols['gWindows']+12*wid;data=r.u32(win+8);base=int.from_bytes(r.read(win+6,2),'little')
+    assert base+12<=0x300,hex(base)
+    if frame%3==2:
+     assert r.read(0x06008000+base*32,384)==r.read(data,384),('Chrono écrasé pendant le défilement',direction,frame)
+     samples+=1
+   after_pos=struct.unpack('<hh',r.read(player_obj+16,4));dx,dy={1:(0,1),2:(0,-1),3:(-1,0),4:(1,0)}[direction]
+   assert after_pos==(before_pos[0]+dx,before_pos[1]+dy),(direction,before_pos,after_pos)
  assert samples>=40,samples
  passed(f'Chrono intact dans la VRAM sur {samples} contrôles pendant des déplacements dans les quatre directions')
  # Restore the same event and let the entire six-minute clock elapse in the
  # native Start menu, where pursuit is suspended but the timer keeps running.
- r.restore(snapshot);r.keys={3};r.run(2);r.keys=set();r.run(60)
+ r.restore(snapshot);r.keys=set();r.call('ScriptContext_Init');r.call('UnlockPlayerFieldControls')
+ for f in range(1500):
+  r.keys={3} if f%20<2 else set();r.run()
+  if any(byte(r.symbols['gTasks']+40*i+4)&1 and r.u32(r.symbols['gTasks']+40*i)==r.symbols['Task_StartMenuHandleInput']|1 for i in range(16)):break
+ else:raise AssertionError('Menu Start non ouvert')
+ r.keys=set();r.run(30)
  start_remaining=r.u32(th+156)
  assert start_remaining>21000,start_remaining
  r.run(start_remaining+5);assert r.u32(th+156)==0

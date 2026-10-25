@@ -1621,6 +1621,14 @@ static void RemoveObjectEvent(struct ObjectEvent *objectEvent)
     RemoveObjectEventInternal(objectEvent);
 }
 
+// Session-only removal: unlike collecting an item or hiding a story actor,
+// this must not set the object's persistent hide flag.
+void RemoveObjectEventTemporarily(u8 objectEventId)
+{
+    if(objectEventId<OBJECT_EVENTS_COUNT && gObjectEvents[objectEventId].active)
+        RemoveObjectEvent(&gObjectEvents[objectEventId]);
+}
+
 void RemoveObjectEventByLocalIdAndMap(u8 localId, u8 mapNum, u8 mapGroup)
 {
     u8 objectEventId;

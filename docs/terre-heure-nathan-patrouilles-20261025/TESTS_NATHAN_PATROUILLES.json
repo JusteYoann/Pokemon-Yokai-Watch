@@ -1,0 +1,18 @@
+{
+  "rom_sha256": "d8edc8263d1802a15122f0b04dcca6f9ee7edfdd563a98411c998d847a266700",
+  "checks": [
+    "Un objet transitoire pointant vers le sprite de Nathan ne peut plus effacer ses tuiles",
+    "Patrouilles matérialisées progressivement avant le texte; Nathan conserve ses pixels pendant toute la transition",
+    "Orientations initiales variées: au moins trois directions différentes",
+    "Nathan reste visible et intact pendant trois secondes de texte immobile, sans mouvement pour recharger son image",
+    "La disparition temporaire des objets conserve leurs drapeaux: aucun objet original marqué comme ramassé",
+    "4 patrouilles se déplacent réellement à vitesse de marche normale en quatre secondes",
+    "Collision native du joueur avec la patrouille, comme avec un Dresseur",
+    "Regard détecté: cri de l’introduction via script natif, immobilisation de 124 VBlanks malgré la manette",
+    "Tunnel et Corde Sortie refusés par leur validation native pendant la Terr’heure",
+    "Périmètre carré de deux cases vérifié sur l’étage réel de la porte (480 contrôles), y compris pendant la marche",
+    "Retour par écran blanc maintenu sur 75 frames; aucune palette de l’ancien décor révélée",
+    "Tunnel redevient utilisable après la sortie, sans modification de la sauvegarde",
+    "Après retour: les objets originaux restent disponibles avec leurs drapeaux inchangés"
+  ]
+}

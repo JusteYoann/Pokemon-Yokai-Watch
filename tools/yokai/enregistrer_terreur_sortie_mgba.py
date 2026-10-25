@@ -18,9 +18,13 @@ class Geometry(C.Structure):_fields_=[('w',C.c_uint),('h',C.c_uint),('mw',C.c_ui
 class Timing(C.Structure):_fields_=[('fps',C.c_double),('rate',C.c_double)]
 class AV(C.Structure):_fields_=[('geometry',Geometry),('timing',Timing)]
 av=AV();r.lib.retro_get_system_av_info(C.byref(av));fps=av.timing.fps
-labels=list(map(int,re.search(r'sThLabels_MtMoon_1F\[\] = \{([^}]+)',(ROOT/'src/data/terre_heure_maps.h').read_text())[1].split(',')))
-w,h=48,40
-warp_cells={(v['x'],v['y']) for v in json.loads((ROOT/'data/maps/MtMoon_1F/map.json').read_text())['warp_events']}
+graph=json.loads((ROOT/'docs/terre-heure-nathan-patrouilles-20261025/GRAPHE_DISTANCES.json').read_text())
+floors=graph['maps'];lower_stairs={(m,x,y):(n,u,v) for m,x,y,n,u,v in graph['stairs']};safe_keys={(m,x,y) for m,x,y,n,u,v in graph['safe_stairs']}
+stairs={key:value if key in safe_keys else (255,0,0) for key,value in lower_stairs.items()}
+group_data=json.loads((ROOT/'data/maps/map_groups.json').read_text())
+room_indices={n:(i,j) for i,g in enumerate(group_data['group_order']) for j,n in enumerate(group_data[g])}
+room_by_id={room_indices[v['map']]:i for i,v in enumerate(floors)}
+def current_floor():return room_by_id[tuple(r.read(r.u32(r.symbols['gSaveBlock1Ptr'])+4,2))]
 nm=subprocess.check_output(['arm-none-eabi-nm','--defined-only',str(r.elf_path)],text=True)
 actions={int(f[0],16)|1 for line in nm.splitlines() if len(f:=line.split())==3 and f[2]=='HandleInputChooseAction'}
 def actors():
@@ -29,30 +33,44 @@ def actors():
   b=r.read(r.symbols['gObjectEvents']+36*i,36)
   if b[0]&1:out[b[8]]=(struct.unpack('<hh',b[16:20]),b[24]&15)
  return out
-def walk(goal,objects):
- start=objects[255][0];start=(start[0]-7,start[1]-7)
- blocked={(p[0]-7,p[1]-7) for local,(p,d) in objects.items() if local!=255}
- blocked.update(warp_cells);blocked.discard(goal);q=deque([start]);first={start:None};distance={start:0}
- for_x_y=((0,1,5),(0,-1,4),(-1,0,6),(1,0,7))
+def walk(goal,objects,block=True):
+ m=current_floor();p=objects[255][0];start=(m,p[0]-7,p[1]-7)
+ blocked={(m,p[0]-7,p[1]-7) for local,(p,d) in objects.items() if local!=255} if block else set()
+ if block and 230 in objects:
+  ox,oy=objects[230][0];ox-=7;oy-=7
+  blocked.update((m,ox+dx,oy+dy) for dx,dy in ((0,0),(0,1),(0,-1),(1,0),(-1,0)))
+ native=None
+ if block:
+  vw,vh,pointer=struct.unpack('<III',r.read(r.symbols['VMap'],12));native=struct.unpack('<'+'H'*(vw*vh),r.read(pointer,vw*vh*2))
+ q=deque([start]);first={start:None};distance={start:0}
  while q:
   a=q.popleft()
   if a==goal:return first[a],distance[a]
-  for dx,dy,key in for_x_y:
-   b=(a[0]+dx,a[1]+dy)
-   if not (0<=b[0]<w and 0<=b[1]<h) or not labels[b[1]*w+b[0]] or b in blocked or b in first:continue
+  cm,x,y=a;row=floors[cm];edges=row['edges'][y*row['width']+x]
+  for bit,(dx,dy,key) in enumerate(((0,1,5),(0,-1,4),(-1,0,6),(1,0,7))):
+   if not edges>>bit&1:continue
+   neighbor=(cm,x+dx,y+dy)
+   if neighbor in blocked:continue
+   if block and not row['safe_labels'][(y+dy)*row['width']+x+dx]:continue
+   if native is not None and cm==m and native[(y+dy+7)*vw+x+dx+7]>>10&3:continue
+   b=(stairs if block else lower_stairs).get(neighbor,neighbor)
+   if b[0]==255 or b in first or b in blocked:continue
+   if block and not floors[b[0]]['safe_labels'][b[2]*floors[b[0]]['width']+b[1]]:continue
    first[b]=first[a] if first[a] is not None else key;distance[b]=distance[a]+1;q.append(b)
  return None
 
 def shot(n):r.frame.resize((720,480),Image.Resampling.NEAREST).save(P/(n+'.png'))
 encoder=None;audio=None;recording=None;log=None
 try:
- party=r.symbols['gPlayerParty'];r.call('CreateMon',party,1,50,31,1,12345,0,0);r.write(r.symbols['gPlayerPartyCount'],b'\1')
+ party=r.symbols['gPlayerParty'];r.call('CreateMon',party,150,85,31,1,12345,0,0);r.write(r.symbols['gPlayerPartyCount'],b'\1')
+ # Keep two natural level-up moves: Swift first (level 33), Recover second (44).
+ r.call('SetMonMoveSlot',party,129,0);r.call('SetMonMoveSlot',party,105,1)
  sb=r.u32(r.symbols['gSaveBlock1Ptr']);r.write(sb+0xee0+0x500//8,b'\xff'*96);r.call('VarSet',0x40f9,1);r.call('VarSet',0x40fa,0x101);r.call('FlagSet',0x82f)
  groups=json.loads((ROOT/'data/maps/map_groups.json').read_text());maps={n:(i,j) for i,g in enumerate(groups['group_order']) for j,n in enumerate(groups[g])}
  g,n=maps['MtMoon_1F'];r.call('SetWarpDestination',g,n,255,20,27);r.call('WarpIntoMap');r.call('SetMainCallback2',r.symbols['CB2_LoadMap']|1);r.run(240)
  # Fixture only: successful visit, just before its last scheduled step.
  r.call('VarSet',0x40fb,1)
- # Select a reproducible native door draw on the same floor before recording.
+ # Select a reproducible native farthest door on another floor.
  # Each trial is a rolled-back fixture; the published capture is continuous.
  audit=json.loads((ROOT/'docs/terre-heure-20261025/AUDIT_GROTTES.json').read_text())['maps']
  initial=r.snapshot();chosen=None
@@ -61,12 +79,12 @@ try:
   for trial_frame in range(100):
    r.run()
    if r.read(th+175,1)==b'\1':break
-  if r.read(th+175,1)!=b'\1' or r.read(th+179,1)!=b'\0':continue
-  point=audit[0]['candidates'][r.read(th+180,1)[0]];dx,dy=point[:2]
-  player=actors()[255][0];distance=abs(dx-(player[0]-7))+abs(dy-(player[1]-7))
-  if 6<=distance<=26:
-   chosen=(seed,point);r.restore(prepared);r.keys=set();break
- assert chosen,'Aucune porte de démonstration accessible sur ce premier étage'
+  if r.read(th+175,1)!=b'\1':continue
+  door_map=r.read(th+179,1)[0];dx,dy=r.read(th+192,2);point=(dx,dy)
+  route=walk((door_map,dx,dy),actors(),False)
+  if door_map!=current_floor() and route and 0<route[1]<5000:
+   chosen=(seed,point,door_map,route[1]);r.restore(prepared);r.keys=set();break
+ assert chosen,'Aucune porte interétages de démonstration conforme aux distances'
  print('FIXTURE',chosen,flush=True)
  assert r.read(th+175,1)==b'\0'
  raw,width,height,pitch=r.frame_packet;fmt={0:'rgb555le',1:'bgr0',2:'rgb565le'}[r.pixel_format];bpp=4 if r.pixel_format==1 else 2
@@ -76,17 +94,23 @@ try:
  def batch(data,n):audio.writeframesraw(C.string_at(data,n*4));return n
  recording=BATCH(batch);r.lib.retro_set_audio_sample_batch(recording)
  last_key=None;nav=0;returned_at=None;goal=None
- for f in range(round(fps*230)):
+ for f in range(round(fps*480)):
   active=r.read(th+175,1)[0];phase=r.read(th+176,1)[0];locked=r.read(r.symbols['sLockFieldControls'],1)[0]
   field=r.u32(r.symbols['gMain']+4)==r.symbols['CB2_Overworld']|1
   if active and 'declenchement' not in events:events['declenchement']=f/fps
   if phase==1 and 'transformation' not in events:events['transformation']=f/fps
+  if phase==7 and 'materialisation_patrouilles' not in events:events['materialisation_patrouilles']=f/fps
+  if phase==8 and field:
+   assert r.read(0x05000000,416)==b'\xff\x7f'*208,'Ancien décor révélé après le blanc'
   if phase==3 and 'texte_intro' not in events:events['texte_intro']=f/fps
   if phase==2 and not locked and 'exploration' not in events:events['exploration']=f/fps;shot('exploration')
-  if r.u32(r.symbols['gMain']+4)==r.symbols['BattleMainCB2']|1:raise AssertionError('Capture interrompue par un combat: ne pas publier comme une fuite réussie')
+  battle=r.u32(r.symbols['gMain']+4)==r.symbols['BattleMainCB2']|1
+  if battle and 'combat_oni' not in events:events['combat_oni']=f/fps
+  if active and r.read(th+183,1)==b'\1' and 'victoire_oni' not in events:events['victoire_oni']=f/fps
   if not active and 'exploration' in events and field and not locked and not r.read(r.symbols['gPaletteFade']+7,1)[0]&0x80:
    if returned_at is None:returned_at=f;events['sortie_controles_rendus']=f/fps;shot('sortie')
-  if returned_at is not None:
+  if battle:r.keys={8} if f%20<2 else set()
+  elif returned_at is not None:
    # Brief real movement after return demonstrates that control is restored.
    elapsed=f-returned_at
    r.keys={6} if round(fps*2)<=elapsed<round(fps*2)+8 else ({7} if round(fps*3)<=elapsed<round(fps*3)+8 else set())
@@ -94,9 +118,8 @@ try:
   elif field and locked:r.keys={8} if f%100<2 else set()
   elif field and phase==2:
    objs=actors();player,direction=objs[255];px,py=player[0]-7,player[1]-7
-   if 233 not in objs:raise AssertionError('La porte attendue n’est pas sur cet étage')
-   door=objs[233][0];dx,dy=door[0]-7,door[1]-7
-   if abs(dx-px)+abs(dy-py)==1:
+   door_map=r.read(th+179,1)[0];dx,dy=r.read(th+192,2);point=(dx,dy);cm=current_floor()
+   if cm==door_map and abs(dx-px)+abs(dy-py)==1:
     key,face=(7,4) if dx>px else ((6,3) if dx<px else ((5,1) if dy>py else (4,2)))
     if direction!=face:r.keys={key}
     else:
@@ -105,8 +128,9 @@ try:
    else:
     if nav%4==0:
      if goal is None or walk(goal,objs) is None:
-      occupied={(p[0]-7,p[1]-7) for local,(p,d) in objs.items() if local!=255}
-      candidates=[(dx+ox,dy+oy) for ox,oy in ((0,1),(1,0),(0,-1),(-1,0)) if 0<=dx+ox<w and 0<=dy+oy<h and labels[(dy+oy)*w+dx+ox] and (dx+ox,dy+oy) not in occupied]
+      occupied={(cm,p[0]-7,p[1]-7) for local,(p,d) in objs.items() if local!=255}
+      row=floors[door_map]
+      candidates=[(door_map,dx+ox,dy+oy) for ox,oy in ((0,1),(1,0),(0,-1),(-1,0)) if 0<=dx+ox<row['width'] and 0<=dy+oy<row['height'] and row['edges'][(dy+oy)*row['width']+dx+ox] and (door_map,dx+ox,dy+oy) not in occupied]
       routes=[(walk(t,objs),t) for t in candidates]
       routes=[v for v in routes if v[0] is not None]
       goal=min(routes,key=lambda v:v[0][1])[1] if routes else None
@@ -117,7 +141,7 @@ try:
   r.run();raw,vw,vh,stride=r.frame_packet
   encoder.stdin.write(raw if stride==width*bpp else b''.join(raw[y*stride:y*stride+width*bpp] for y in range(height)))
   frames+=1
-  if f%600==0:print('VIDEO',round(f/fps,1),events,flush=True)
+  if f%600==0:print('VIDEO',round(f/fps,1),events,'NAV',current_floor(),actors().get(255),goal,sorted(r.keys),flush=True)
   if returned_at is not None and f-returned_at>=int(fps*10+1):break
  else:raise AssertionError('Sortie non atteinte dans le délai de capture')
  assert all(k in events for k in ('declenchement','transformation','texte_intro','exploration','interaction_porte','sortie_controles_rendus')),events
@@ -127,7 +151,7 @@ try:
  output=P/'declenchement-porte-sortie-mgba.mp4'
  subprocess.run(['ffmpeg','-y','-i',str(work/'video.mp4'),'-i',str(work/'audio.wav'),'-c:v','copy','-c:a','aac','-b:a','192k','-ar','48000','-movflags','+faststart','-shortest',str(output)],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,check=True)
  info=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(output)],text=True))
- metadata={'rom_sha256':hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),'video':output.name,'video_sha256':hashlib.sha256(output.read_bytes()).hexdigest(),'scope':__doc__,'preparation':{'tirage_porte_natif_seed':chosen[0],'depart':'Visite réussie préparée juste avant son dernier pas programmé. Équipe et position préparées avant capture. Aucune mutation RAM ni téléportation pendant la vidéo.'},'frames':frames,'fps':fps,'duree_secondes':float(info['format']['duration']),'taille_octets':output.stat().st_size,'evenements_secondes':events,'chronometre':'Durée normale de 360 secondes, jamais modifiée pendant la capture. Sortie par interaction réelle avec la porte; chronomètre non modifié.','montage':'Continu, sans coupe ni accélération. Image agrandie x3 au plus proche voisin.','audio':'Sortie directe mGBA, encodée en AAC 48 kHz pour le MP4. Aucune OST modifiée.'}
+ metadata={'rom_sha256':hashlib.sha256(r.rom_buffer.raw[:-1]).hexdigest(),'video':output.name,'video_sha256':hashlib.sha256(output.read_bytes()).hexdigest(),'scope':__doc__,'preparation':{'tirage_porte_natif_seed':chosen[0],'etage_porte':floors[chosen[2]]['map'],'distance_minimale_pas':chosen[3],'equipe':'Seigneur Enma niveau 85, statistiques naturelles, capacités naturelles de montée en niveau; Météores placé en premier. Aucun résultat de combat imposé.','depart':'Visite réussie préparée juste avant son dernier pas programmé. Équipe et position préparées avant capture. Aucune mutation RAM ni téléportation pendant la vidéo.'},'frames':frames,'fps':fps,'duree_secondes':float(info['format']['duration']),'taille_octets':output.stat().st_size,'evenements_secondes':events,'chronometre':'Durée normale de 360 secondes, jamais modifiée pendant la capture. Sortie par interaction réelle avec la porte; chronomètre non modifié.','montage':'Continu, sans coupe ni accélération. Image agrandie x3 au plus proche voisin.','audio':'Sortie directe mGBA, encodée en AAC 48 kHz pour le MP4. Aucune OST modifiée.'}
  (P/'ENREGISTREMENT_SORTIE.json').write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+'\n');print(json.dumps(metadata,ensure_ascii=False,indent=2),flush=True)
 finally:
  if audio:r.lib.retro_set_audio_sample_batch(r.callbacks[3]);audio.close()
