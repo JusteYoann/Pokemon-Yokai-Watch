@@ -1,0 +1,242 @@
+{
+  "source_sha256": "a19c6742ac8757c15e9ee6cb692b73b36fb556fb4f5bc60777cfbc21b48edc9d",
+  "approved_profiles_sha256": "cf277226ef1d2ef75e3eef6e31551a6c2c27f642a19ce6fdede21bba99664de3",
+  "method": "Conversion technique de la planche imagegen : découpe, réduction, palette GBA.\nAucun redessin : les silhouettes viennent entièrement de la planche source.\n",
+  "nyada_bbox": [
+    5,
+    12,
+    27,
+    31
+  ],
+  "height": 19,
+  "baseline": 31,
+  "colors": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      14,
+      14,
+      20
+    ],
+    [
+      40,
+      42,
+      54
+    ],
+    [
+      64,
+      66,
+      76
+    ],
+    [
+      39,
+      69,
+      91
+    ],
+    [
+      64,
+      106,
+      133
+    ],
+    [
+      95,
+      145,
+      166
+    ],
+    [
+      236,
+      235,
+      200
+    ],
+    [
+      223,
+      218,
+      169
+    ],
+    [
+      250,
+      250,
+      247
+    ],
+    [
+      163,
+      192,
+      204
+    ],
+    [
+      81,
+      142,
+      171
+    ],
+    [
+      47,
+      99,
+      130
+    ],
+    [
+      101,
+      58,
+      31
+    ],
+    [
+      155,
+      100,
+      51
+    ],
+    [
+      208,
+      87,
+      112
+    ]
+  ],
+  "right_profile": "exact hardware horizontal flip of left profile",
+  "frames": [
+    {
+      "direction": "face",
+      "pose": "pas-gauche",
+      "source_box": [
+        91,
+        415,
+        293,
+        703
+      ],
+      "native_bbox": [
+        9,
+        12,
+        22,
+        31
+      ]
+    },
+    {
+      "direction": "face",
+      "pose": "repos",
+      "source_box": [
+        100,
+        82,
+        293,
+        370
+      ],
+      "native_bbox": [
+        9,
+        12,
+        22,
+        31
+      ]
+    },
+    {
+      "direction": "face",
+      "pose": "pas-droit",
+      "source_box": [
+        91,
+        746,
+        305,
+        1033
+      ],
+      "native_bbox": [
+        9,
+        12,
+        23,
+        31
+      ]
+    },
+    {
+      "direction": "dos",
+      "pose": "pas-gauche",
+      "source_box": [
+        437,
+        415,
+        642,
+        703
+      ],
+      "native_bbox": [
+        9,
+        12,
+        23,
+        31
+      ]
+    },
+    {
+      "direction": "dos",
+      "pose": "repos",
+      "source_box": [
+        442,
+        82,
+        646,
+        371
+      ],
+      "native_bbox": [
+        9,
+        12,
+        22,
+        31
+      ]
+    },
+    {
+      "direction": "dos",
+      "pose": "pas-droit",
+      "source_box": [
+        444,
+        744,
+        651,
+        1034
+      ],
+      "native_bbox": [
+        9,
+        12,
+        23,
+        31
+      ]
+    },
+    {
+      "direction": "gauche",
+      "pose": "pas-gauche",
+      "source_box": [
+        771,
+        414,
+        1018,
+        703
+      ],
+      "native_bbox": [
+        8,
+        12,
+        24,
+        31
+      ]
+    },
+    {
+      "direction": "gauche",
+      "pose": "repos",
+      "source_box": [
+        771,
+        82,
+        1019,
+        371
+      ],
+      "native_bbox": [
+        8,
+        12,
+        24,
+        31
+      ]
+    },
+    {
+      "direction": "gauche",
+      "pose": "pas-droit",
+      "source_box": [
+        771,
+        744,
+        1029,
+        1034
+      ],
+      "native_bbox": [
+        7,
+        12,
+        24,
+        31
+      ]
+    }
+  ]
+}

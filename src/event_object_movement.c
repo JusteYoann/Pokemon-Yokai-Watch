@@ -504,6 +504,7 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 #define OBJ_EVENT_PAL_TAG_OGRALOS 0x1139
 #define OBJ_EVENT_PAL_TAG_ORQANOSTERREUR 0x113A
 #define OBJ_EVENT_PAL_TAG_DEMOPHAGE_STATIQUE 0x113B
+#define OBJ_EVENT_PAL_TAG_REQUIN_LUNETTES 0x113C
 #define OBJ_EVENT_PAL_TAG_NONE                        0x11FF
 
 #include "data/object_events/object_event_graphics_info_pointers.h"
@@ -515,6 +516,7 @@ static const u8 gInitialMovementTypeFacingDirections[MOVEMENT_TYPES_COUNT] = {
 #include "data/object_events/object_event_graphics_info.h"
 
 static const struct SpritePalette sObjectEventSpritePalettes[] = {
+    {gObjectEventPal_RequinLunettes, OBJ_EVENT_PAL_TAG_REQUIN_LUNETTES},
     {gObjectEventPal_DemophageStatique, OBJ_EVENT_PAL_TAG_DEMOPHAGE_STATIQUE},
     {gObjectEventPal_GorgouilleStatique, OBJ_EVENT_PAL_TAG_GORGOUILLE_STATIQUE},
     {gObjectEventPal_Ogralos, OBJ_EVENT_PAL_TAG_OGRALOS},
@@ -1664,7 +1666,8 @@ static void LoadAlyzonObjectPalette(const struct ObjectEventGraphicsInfo *graphi
 {
     // Alyzon uses reflection bank7, zombies bank8. Keep ordinary green NPCs
     // in body bank4, Nathan0, Matt6 and Don10 unchanged. No saved palette state.
-    if ((graphicsInfo->paletteTag >= OBJ_EVENT_PAL_TAG_DOSSIER_ZAZEL && graphicsInfo->paletteTag <= OBJ_EVENT_PAL_TAG_JUSTE_YOANN)
+    if (graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_REQUIN_LUNETTES
+        || (graphicsInfo->paletteTag >= OBJ_EVENT_PAL_TAG_DOSSIER_ZAZEL && graphicsInfo->paletteTag <= OBJ_EVENT_PAL_TAG_JUSTE_YOANN)
         || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_DEMOPHAGE_STATIQUE
         || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_GORGOUILLE_STATIQUE
         || graphicsInfo->paletteTag == OBJ_EVENT_PAL_TAG_OGRALOS

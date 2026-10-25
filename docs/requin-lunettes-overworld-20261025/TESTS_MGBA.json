@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "scope": "GIF d'images mGBA réelles : acteur temporaire, marche native sur les quatre axes.\nMaître Nyada sert de référence de taille. Aucun événement permanent n'est ajouté.\n",
+  "rom_sha256": "63f006bf7ab1c3582ad72e5b21aabe9b8bf4109076b9d0e13c972a9d127ac9e2",
+  "temporary_graphics_id": 189,
+  "height_native_pixels": 19,
+  "same_height_and_baseline_as_nyada": true,
+  "glasses_on_both_eyes": true,
+  "right_exact_hardware_mirror": true,
+  "distinct_palette_from_nyada": true,
+  "frames_recorded": 262,
+  "directions": [
+    {
+      "direction": "dos",
+      "steps": 2,
+      "frames_seen": [
+        3,
+        4,
+        5
+      ],
+      "right_is_hardware_mirror_of_left": false
+    },
+    {
+      "direction": "droite",
+      "steps": 3,
+      "frames_seen": [
+        6,
+        7,
+        8
+      ],
+      "right_is_hardware_mirror_of_left": true
+    },
+    {
+      "direction": "face",
+      "steps": 2,
+      "frames_seen": [
+        0,
+        1,
+        2
+      ],
+      "right_is_hardware_mirror_of_left": false
+    },
+    {
+      "direction": "gauche",
+      "steps": 3,
+      "frames_seen": [
+        6,
+        7,
+        8
+      ],
+      "right_is_hardware_mirror_of_left": false
+    }
+  ]
+}

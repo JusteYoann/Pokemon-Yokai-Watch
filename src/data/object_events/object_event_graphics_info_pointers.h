@@ -1,3 +1,4 @@
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RequinLunettes;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DemophageStatique;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_OrqanosTerreur;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ogralos;
@@ -379,4 +380,5 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_YOKAI_MAFIAMILLE1] = &gObjectEventGraphicsInfo_YokaiMafiamille1,
     [OBJ_EVENT_GFX_YOKAI_MAFIAMILLE2] = &gObjectEventGraphicsInfo_YokaiMafiamille1,
     [OBJ_EVENT_GFX_YOKAI_MAFIAMILLE3] = &gObjectEventGraphicsInfo_YokaiMafiamille1,
+    [OBJ_EVENT_GFX_REQUIN_LUNETTES] = &gObjectEventGraphicsInfo_RequinLunettes,
 };

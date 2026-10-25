@@ -1342,11 +1342,27 @@ static const union AnimCmd *const sAnimTable_Gargaros[] = {
     sAnim_GargarosFace0,
 };
 
+// The shark's right profile is the exact hardware mirror of its left profile.
+static const union AnimCmd sAnim_RequinFaceEast[] = { ANIMCMD_FRAME(7, 16, .hFlip = TRUE), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_RequinEast0[] = { ANIMCMD_FRAME(6, 8, .hFlip = TRUE), ANIMCMD_FRAME(7, 8, .hFlip = TRUE), ANIMCMD_FRAME(8, 8, .hFlip = TRUE), ANIMCMD_FRAME(7, 8, .hFlip = TRUE), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_RequinEast1[] = { ANIMCMD_FRAME(6, 4, .hFlip = TRUE), ANIMCMD_FRAME(7, 4, .hFlip = TRUE), ANIMCMD_FRAME(8, 4, .hFlip = TRUE), ANIMCMD_FRAME(7, 4, .hFlip = TRUE), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_RequinEast2[] = { ANIMCMD_FRAME(6, 2, .hFlip = TRUE), ANIMCMD_FRAME(7, 2, .hFlip = TRUE), ANIMCMD_FRAME(8, 2, .hFlip = TRUE), ANIMCMD_FRAME(7, 2, .hFlip = TRUE), ANIMCMD_JUMP(0) };
+static const union AnimCmd sAnim_RequinEast3[] = { ANIMCMD_FRAME(6, 1, .hFlip = TRUE), ANIMCMD_FRAME(7, 1, .hFlip = TRUE), ANIMCMD_FRAME(8, 1, .hFlip = TRUE), ANIMCMD_FRAME(7, 1, .hFlip = TRUE), ANIMCMD_JUMP(0) };
+static const union AnimCmd *const sAnimTable_RequinLunettes[] = {
+    sAnim_GargarosFace0, sAnim_GargarosFace1, sAnim_GargarosFace2, sAnim_RequinFaceEast,
+    sAnim_GargarosWalk0_0, sAnim_GargarosWalk1_0, sAnim_GargarosWalk2_0, sAnim_RequinEast0,
+    sAnim_GargarosWalk0_1, sAnim_GargarosWalk1_1, sAnim_GargarosWalk2_1, sAnim_RequinEast1,
+    sAnim_GargarosWalk0_2, sAnim_GargarosWalk1_2, sAnim_GargarosWalk2_2, sAnim_RequinEast2,
+    sAnim_GargarosWalk0_3, sAnim_GargarosWalk1_3, sAnim_GargarosWalk2_3, sAnim_RequinEast3,
+    sAnim_GargarosFace0,
+};
+
 static const union AnimCmd sAnim_PorteFermee[] = { ANIMCMD_FRAME(0, 16), ANIMCMD_JUMP(0) };
 static const union AnimCmd sAnim_PorteOuverte[] = { ANIMCMD_FRAME(1, 16), ANIMCMD_JUMP(0) };
 static const union AnimCmd *const sAnimTable_PorteTerreur[] = { sAnim_PorteFermee, sAnim_PorteOuverte };
 
 static const struct StepAnimTable sStepAnimTables[] = {
+    { .anims = sAnimTable_RequinLunettes, .animPos = {1, 3, 0, 2} },
     { .anims = sAnimTable_Gargaros, .animPos = {0, 0, 0, 0} },
     { .anims = sAnimTable_PatrouilleOni, .animPos = {0, 0, 0, 0} },
     {

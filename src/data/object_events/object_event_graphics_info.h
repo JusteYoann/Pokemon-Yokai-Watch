@@ -3468,3 +3468,14 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DemophageStatique 
     .anims = sAnimTable_Inanimate, .images = sPicTable_DemophageStatique,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RequinLunettes = {
+    .tileTag = TAG_NONE, .paletteTag = OBJ_EVENT_PAL_TAG_REQUIN_LUNETTES,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512, .width = 32, .height = 32,
+    .paletteSlot = PALSLOT_NPC_3_REFLECTION, .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE, .disableReflectionPaletteLoad = TRUE, .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_32x32, .subspriteTables = gObjectEventSpriteOamTables_32x32,
+    .anims = sAnimTable_RequinLunettes, .images = sPicTable_RequinLunettes,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};

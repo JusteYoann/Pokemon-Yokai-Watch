@@ -332,3 +332,6 @@ const u32 gObjectEventPic_OrqanosTerreur[] = INCBIN_U32("graphics/yokai_characte
 
 const u16 gObjectEventPal_DemophageStatique[] = INCBIN_U16("graphics/yokai_characters/demophage_statique/normal.gbapal");
 const u32 gObjectEventPic_DemophageStatique[] = INCBIN_U32("graphics/yokai_characters/demophage_statique/overworld.4bpp");
+
+const u16 gObjectEventPal_RequinLunettes[] = INCBIN_U16("graphics/yokai_characters/requin_lunettes/normal.gbapal");
+const u32 gObjectEventPic_RequinLunettes[] = INCBIN_U32("graphics/yokai_characters/requin_lunettes/overworld.4bpp");
