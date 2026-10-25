@@ -19,7 +19,7 @@ try:
  else:raise AssertionError('Transition non atteinte')
  npc=next(r.symbols['gObjectEvents']+36*i for i in range(16) if byte(r.symbols['gObjectEvents']+36*i)&1 and byte(r.symbols['gObjectEvents']+36*i+8)==1)
  sprite=r.symbols['gSprites']+68*byte(npc+4);tile=int.from_bytes(r.read(sprite+4,2),'little')&1023;counts=[]
- remaining=r.u32(th+156);assert remaining==21502,remaining;start=r.u32(r.symbols['gMain']+0x24);alpha=[];colored=[]
+ remaining=r.u32(th+156);assert remaining==17919,remaining;start=r.u32(r.symbols['gMain']+0x24);alpha=[];colored=[]
  while byte(th+176)==1:
   assert byte(r.symbols['sLockFieldControls'])
   assert byte(r.symbols['sGlobalScriptContextStatus'])==1, 'Texte autorisé avant la fin'
@@ -43,8 +43,8 @@ try:
   if byte(th+176)==2 and not byte(r.symbols['sLockFieldControls']):break
  else:raise AssertionError('Exploration non atteinte')
  r.keys=set();r.run(4)
- assert 21494<=r.u32(th+156)<=21502,r.u32(th+156)
- passed('Durée de six minutes (21502 VBlanks), sans décompte pendant l’introduction')
+ assert 17911<=r.u32(th+156)<=17919,r.u32(th+156)
+ passed('Durée de cinq minutes (17919 VBlanks), sans décompte pendant l’introduction')
  patrols=[]
  for i in range(16):
   p=r.symbols['gObjectEvents']+36*i
@@ -81,7 +81,7 @@ try:
    assert after_pos==(before_pos[0]+dx,before_pos[1]+dy),(direction,before_pos,after_pos)
  assert samples>=40,samples
  passed(f'Chrono intact dans la VRAM sur {samples} contrôles pendant des déplacements dans les quatre directions')
- # Restore the same event and let the entire six-minute clock elapse in the
+ # Restore the same event and let the entire five-minute clock elapse in the
  # native Start menu, where pursuit is suspended but the timer keeps running.
  r.restore(snapshot);r.keys=set();r.call('ScriptContext_Init');r.call('UnlockPlayerFieldControls')
  for f in range(1500):
@@ -90,14 +90,14 @@ try:
  else:raise AssertionError('Menu Start non ouvert')
  r.keys=set();r.run(30)
  start_remaining=r.u32(th+156)
- assert start_remaining>21000,start_remaining
+ assert start_remaining>17800,start_remaining
  r.run(start_remaining+5);assert r.u32(th+156)==0
  r.keys={0};r.run(2);r.keys=set()
  for f in range(1200):
   r.run()
   if r.u32(r.symbols['gMain']+4)==r.symbols['BattleMainCB2']|1:break
- else:raise AssertionError('Combat absent après six minutes et fermeture du menu')
- passed('Six minutes réellement écoulées dans mGBA; chrono à zéro puis combat imposé en fermant le menu')
+ else:raise AssertionError('Combat absent après cinq minutes et fermeture du menu')
+ passed('Cinq minutes réellement écoulées dans mGBA; chrono à zéro puis combat imposé en fermant le menu')
 
  r.restore(snapshot);r.keys=set();r.write(r.symbols['gBattleOutcome'],b'\1');r.call('TerreHeureBattleResult');r.run(80)
  assert byte(th+183)==1

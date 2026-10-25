@@ -41,7 +41,7 @@
 
 #define TH_LOCAL 230
 #define TH_NONE 255
-#define TH_SECONDS 360
+#define TH_SECONDS 300
 #define TH_PATROLS 8
 #define TH_EXTRA_PATROL_FIRST (TH_LOCAL+6)
 

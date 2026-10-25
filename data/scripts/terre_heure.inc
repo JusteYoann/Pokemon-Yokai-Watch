@@ -90,7 +90,7 @@ TerreHeure_Text_StoredRewards::
 TerreHeure_Text_Intro::
 	.string "LA TERR’HEURE A COMMENCÉ!\p"
 	.string "Trouve la {COLOR RED}PORTE{COLOR DARK_GRAY} pour sortir d’ici.\n"
-	.string "Tu n’as que {COLOR RED}6 MINUTES{COLOR DARK_GRAY}!$"
+	.string "Tu n’as que {COLOR RED}5 MINUTES{COLOR DARK_GRAY}!$"
 TerreHeure_Text_Escape::
 	.string "Tu as échappé à la Terr’heure!\n"
 	.string "Les trésors trouvés sont à toi.$"

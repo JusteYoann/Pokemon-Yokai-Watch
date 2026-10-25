@@ -68,9 +68,9 @@ try:
  wait(lambda:r.u32(r.symbols['gMain']+4)==r.symbols['BattleMainCB2']|1,2400)
  passed('Case immédiatement devant l’Oni: vrai combat lancé par le moteur natif')
  raw=r.read(r.symbols['TerreHeure_Text_Intro'],180)
- six=bytes([0xa7,0,0xc7,0xc3,0xc8,0xcf,0xce,0xbf,0xcd])
- assert six in raw,raw
- passed('Texte compilé de l’introduction: 6 MINUTES')
+ five=bytes([0xa6,0,0xc7,0xc3,0xc8,0xcf,0xce,0xbf,0xcd])
+ assert five in raw,raw
+ passed('Texte compilé de l’introduction: 5 MINUTES')
  r.restore(base)
  # Narrow-area fixture selected from the actual map's foot-traversable mask.
  graph=json.loads((ROOT/'docs/terre-heure-nathan-patrouilles-20261025/GRAPHE_DISTANCES.json').read_text())['maps']

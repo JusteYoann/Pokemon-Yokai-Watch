@@ -14,7 +14,7 @@ def encode(spec):
  if name=='victoire':args+=['-ss',str(meta['evenements_secondes']['victoire_oni']-3)]
  else:
   assert meta['objectif_fuite_sans_combat'] and 'combat_oni' not in meta['evenements_secondes']
-  assert meta['evenements_secondes']['interaction_porte']-meta['evenements_secondes']['exploration']<360
+  assert meta['evenements_secondes']['interaction_porte']-meta['evenements_secondes']['exploration']<300
  args+=['-i',str(source/meta['video'])]
  if name=='victoire':args+=['-t','15']
  target=work/(key+'.mp4');args+=['-vf',f"pad=iw:ih+32:0:32:color=black,drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf:text='{label}':x=12:y=7:fontsize=18:fontcolor=white",'-c:v','libx264','-preset','fast','-crf','22','-threads','2','-pix_fmt','yuv420p','-c:a','aac','-b:a','160k','-ar','48000',str(target)]
