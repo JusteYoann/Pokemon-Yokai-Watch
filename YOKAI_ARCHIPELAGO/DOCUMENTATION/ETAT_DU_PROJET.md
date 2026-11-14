@@ -15,7 +15,7 @@ un dossier par chantier sous `YOKAI_ARCHIPELAGO/`. Les agents de recherche n'éc
 | A — Yo-kai Watch 2 | coordinateur | ✅ intégration existante V3 (doryan-meunier) générée dans le multiworld | test en jeu sur votre PC (Zakuro/Azahar) |
 | B — Yo-kai Watch 3 | — | ⛔ aucun projet existant ; exige votre dump + rétro-ingénierie | lire un flag de progression (sonde RPC) |
 | C — Mario Kart Wii | agent C (rapport) | 🧪 base trouvée : `toent/Archipelago-MKWii` v0.4.0 (MIT), PAL `RMCP01` ; ⛔ exécution non autorisée ici | votre accord pour l'exécuter, puis génération |
-| D — Rouge Feu × Yo-kai | agent D (en cours) | 📋 audit de la ROM 32 Mio en cours | rapport D |
+| D — Rouge Feu × Yo-kai | agent D (rapport) | ✅ audit : build pret/pokefirered (agbcc), 304 Yo-kai, texte français ; patch FRLG de Vyneras inapplicable (MD5, bsdiff) ; adresses RAM confirmées sous mGBA | ⛔ code source du fangame nécessaire pour une intégration complète |
 
 ## Ce qui fonctionne réellement (testé dans ce conteneur)
 
@@ -36,4 +36,4 @@ un dossier par chantier sous `YOKAI_ARCHIPELAGO/`. Les agents de recherche n'éc
    vous autorisez son exécution. Il exige un ISO **PAL** (`RMCP01`) et Dolphin 2512+. Les pages GameBanana des mods Yo-kai
    sont bloquées par le réseau de cette session (autoriser `gamebanana.com` pour les lire).
 3. **Yo-kai Watch 3** : votre dump EUR de la cartouche (jamais transmis : les tests se font sur votre PC avec la sonde).
-4. **Rouge Feu** : selon le rapport D, le code source du fangame sera probablement nécessaire.
+4. **Rouge Feu** : le code source du fangame (ou au minimum le `.map`/`.elf` de la build 1.0) est nécessaire pour une intégration complète (rapport D). Le dépôt local `Pokemon-Yokai-Watch` est un pokefirered sans contenu Yo-kai : où est le source du fangame ?
