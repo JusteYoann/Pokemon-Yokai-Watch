@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "kind": "real_server_real_mgba_libretro",
+  "gui_lua_tested": false,
+  "party_and_location_prepared_by_fixture": true,
+  "badge_flag_injected": false,
+  "complete_playthrough": false,
+  "checks": [
+    "Real AP server authenticated the FireRed slot",
+    "Server gift reached real native bag",
+    "Client received the actual AP item packet",
+    "Network reconnect does not duplicate native gift",
+    "Badge is not set before the actual battle",
+    "Wyatt native battle/script awarded badge",
+    "Real badge check acknowledged by AP server"
+  ],
+  "requests": 157
+}

@@ -6,6 +6,8 @@ Les adresses mémoire NE sont PAS ici : elles diffèrent par jeu ET par région 
 un code.bin différent, voir games.h) et restent à établir sur le PC du joueur.
 """
 TITLES = {
+    # Verified in Zakuro COMPATIBILITY.md at 3f8995e62f7a702c4fd4896c1f78bf0220854637.
+    0x0004000000167800: "Yo-kai Watch 1 (EUR)",
     0x00040000001B2900: "Yo-kai Watch 2 : Spectres Psychiques (EUR)",
     0x00040000001D6800: "Yo-kai Watch 3 (EUR)",
     0x00040000001CEC00: "Yo-kai Watch Blasters : Peloton du Chat Rouge (EUR)",

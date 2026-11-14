@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "type": "native_mgba_fixture",
+  "network_server_tested": false,
+  "badge_source": "FlagSet fixture, no gym battle played",
+  "rom_sha256": "aaed938c8f02fcda2ec5eb2329ad801e4f2b377380f63ce8b83e591df59e9c15",
+  "checks": [
+    "Mailbox below native fixture trampoline",
+    "Native mailbox initialised safely",
+    "Seed and slot bound in native save",
+    "Real native AddBagItem consumes first request",
+    "Replayed request does not give twice",
+    "Out-of-order request rejected",
+    "Progression item outside bonus whitelist rejected",
+    "Other seed refused without altering counter",
+    "Other slot refused",
+    "Full native bag retains unacknowledged request",
+    "Freeing bag space retries same request exactly once",
+    "Protected storage unchanged: vacuum_state",
+    "Protected storage unchanged: nuzlocke",
+    "Protected storage unchanged: before_gap",
+    "Protected storage unchanged: after_gap",
+    "AP ledger survives real Blasters backup/restore",
+    "Vacuum held-mon region preserved",
+    "Badge flag fixture reflected in native check bits",
+    "Native save routine succeeds",
+    "Native cold Continue reloads applied item count",
+    "Native cold Continue reloads inventory",
+    "Reconnect replay after cold restart still idempotent"
+  ],
+  "battery_bytes": 131072
+}

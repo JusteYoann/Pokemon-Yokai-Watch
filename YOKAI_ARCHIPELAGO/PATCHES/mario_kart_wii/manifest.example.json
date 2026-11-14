@@ -1,0 +1,10 @@
+{
+  "game_id": "RMCP01",
+  "name": "Exemple à adapter aux chemins réels fournis par l’auteur du mod",
+  "credit": "Auteur du mod : à renseigner",
+  "source_url": "https://gamebanana.com/mods/413572",
+  "characters": [{"yokai": "Jibanyan", "replaces": "Luigi", "ap_item": "Luigi"}],
+  "files": [
+    {"source": "mes_fichiers/lg.szs", "disc": "/Race/Driver/lg.szs"}
+  ]
+}
