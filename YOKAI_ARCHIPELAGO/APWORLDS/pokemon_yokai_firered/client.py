@@ -56,7 +56,7 @@ class YokaiFireRedClient(BizHawkClient):
 
     async def game_watcher(self,ctx):
         if ctx.server is None or ctx.server.socket.closed or ctx.slot_data is None:return
-        if ctx.slot_data.get('protocol')!=1 or ctx.slot_data.get('mode')!='bonus':
+        if ctx.slot_data.get('protocol')!=1 or self.profile is None or ctx.slot_data.get('mode')!=self.profile['mode']:
             raise RuntimeError('Le slot et le canal FireRed utilisent des protocoles différents')
         if self.profile is None or not ctx.server_seed_name or not ctx.slot:return
         box=self.profile['mailbox']
@@ -81,6 +81,10 @@ class YokaiFireRedClient(BizHawkClient):
             if not snap['bound'] or snap['seed']!=seed or snap['slot']!=ctx.slot:
                 self.confirmed=False;return
             checks={LOCATION_BASE+i for i in range(8) if snap['checks'] & (1<<i)} & ctx.server_locations
+            if ctx.slot_data.get('mode')=='surf_randomized':
+                ids=ctx.slot_data.get('pickup_ids',[])
+                if len(ids)!=7:raise RuntimeError('Liste des collectes FireRed incompatible')
+                checks |= {code for i,code in enumerate(ids) if snap['checks'] & (1<<(8+i))} & ctx.server_locations
             if checks!=self.reported_checks:
                 await ctx.check_locations(checks);self.reported_checks=checks
             if snap['goal'] and not ctx.finished_game:

@@ -6,6 +6,7 @@ import hashlib
 import json
 from pathlib import Path
 import shutil
+from inventory_checks import inventory
 
 HERE=Path(__file__).resolve().parent
 EXPECTED='4192f6ac785eed8a431fdbb322712818c31c4bfd9573e647ee791b04452ed329'
@@ -34,6 +35,11 @@ def prepare(source,output):
     ignore=shutil.ignore_patterns('.git','build','__pycache__','*.o','*.d','*.elf','*.map','*.sym','*.sav','*.sgm')
     shutil.copytree(source,output,ignore=ignore)
     for p in output.glob('*.gba'):p.unlink()  # generated outputs only, not data/mb_*.gba payloads
+    return install(output)
+
+
+def install(output):
+    """Apply once to a separate, clean baseline checkout (including source worktrees)."""
     for name,target in [('yokai_ap.c','src'),('yokai_ap.h','include')]:
         shutil.copy2(HERE/'native'/name,output/target/name)
     p=output/'src/overworld.c';s=p.read_text()
@@ -45,9 +51,53 @@ def prepare(source,output):
     s=replace_once(s,'        src/manoir_perfide.o(.text .rodata);\n',
                    '        src/manoir_perfide.o(.text .rodata);\n        src/yokai_ap.o(.text .rodata);\n')
     p.write_text(s)
-    report={'base_sha256':EXPECTED,'mode':'bonus','modified':['src/overworld.c','ld_script.ld'],
-            'added':['src/yokai_ap.c','include/yokai_ap.h'],'save_storage':{'block':2,'offset':'0xE20','bytes':64},
-            'preserved':['species','stats','learnsets','evolutions','encounters','trainers','maps','dialogs','story','original_rewards']}
+    active=[c for c in inventory(output)['checks'] if c['status']=='active']
+    (output/'include/yokai_ap_checks.h').write_text('#define YOKAI_AP_PICKUP_COUNT 7\n'
+        'static const u16 sYokaiAPPickupFlags[] = {\n'+''.join('    '+c['flag']+',\n' for c in active)+'};\n')
+    p=output/'data/scripts/item_ball_scripts.inc';s=p.read_text()
+    for c in active:
+        if c['kind']!='ball':continue
+        old=c['script']+'::\n\tfinditem '+c['original_item']+'\n\tend'
+        new=(c['script']+'::\n\tlock\n\tfaceplayer\n\tsetvar VAR_0x8004, '+c['flag']
+             +'\n\tcallnative YokaiAPTryCollect\n\tgoto_if_eq VAR_RESULT, 2, YokaiAP_ConnectFirst'
+             +'\n\tremoveobject VAR_LAST_TALKED\n\tmsgbox YokaiAP_TextCheck, MSGBOX_DEFAULT\n\trelease\n\tend')
+        s=replace_once(s,old,new)
+    s+='''
+YokaiAP_ConnectFirst::
+\tmsgbox YokaiAP_TextConnect, MSGBOX_DEFAULT
+\treleaseall
+\tend
+
+YokaiAP_HiddenCollected::
+\tmsgbox YokaiAP_TextCheck, MSGBOX_DEFAULT
+\treleaseall
+\tend
+
+YokaiAP_TextCheck::
+\t.string "Emplacement Archipelago validé !$"
+
+YokaiAP_TextConnect::
+\t.string "Connecte le client Archipelago\\n"
+\t.string "avant de prendre cet objet.$"
+'''
+    p.write_text(s)
+    p=output/'data/scripts/obtain_item.inc';s=p.read_text()
+    s=replace_once(s,'EventScript_HiddenItemScript::\n\tlockall\n',
+        'EventScript_HiddenItemScript::\n\tlockall\n\tcallnative YokaiAPTryCollect\n'
+        '\tgoto_if_eq VAR_RESULT, 1, YokaiAP_HiddenCollected\n'
+        '\tgoto_if_eq VAR_RESULT, 2, YokaiAP_ConnectFirst\n')
+    p.write_text(s)
+    p=output/'data/maps/SafariZone_SecretHouse/scripts.inc';s=p.read_text()
+    s=replace_once(s,'\tcheckitemspace ITEM_HM03\n\tgoto_if_eq VAR_RESULT, FALSE, SafariZone_SecretHouse_EventScript_NoRoomForHM03\n'
+        '\tgiveitem_msg SafariZone_SecretHouse_Text_ReceivedHM03FromAttendant, ITEM_HM03',
+        '\tsetvar VAR_0x8004, FLAG_GOT_HM03\n\tcallnative YokaiAPTryCollect\n'
+        '\tgoto_if_eq VAR_RESULT, 2, YokaiAP_ConnectFirst\n\tmsgbox YokaiAP_TextCheck, MSGBOX_DEFAULT')
+    p.write_text(s)
+    report={'base_sha256':EXPECTED,'mode':'surf_randomized','modified':['src/overworld.c','ld_script.ld','data/scripts/item_ball_scripts.inc','data/scripts/obtain_item.inc'],
+            'added':['src/yokai_ap.c','include/yokai_ap.h','include/yokai_ap_checks.h'],'save_storage':{'block':2,'offset':'0xE20','bytes':64},
+            'replaced_pickups':[c['flag'] for c in active],
+            'preserved':['species','stats','learnsets','evolutions','encounters','trainers','maps','story','other_original_rewards']}
+    report['modified'].append('data/maps/SafariZone_SecretHouse/scripts.inc')
     (output/'YOKAI_AP_SOURCE_PATCH.json').write_text(json.dumps(report,indent=2)+'\n')
     return report
 

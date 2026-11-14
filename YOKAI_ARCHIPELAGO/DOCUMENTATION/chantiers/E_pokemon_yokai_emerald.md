@@ -1,3 +1,5 @@
+> **Chantier gelé à la demande de l’utilisateur.** Les résultats ci-dessous sont conservés. La base française AP compilée n’est pas une version Yo-kai finale ni une preuve de réception native. Ne pas redemander les fichiers maintenant ; voir `ETAT_DU_PROJET.md` pour l’état actif.
+
 # Chantier E — Pokémon Yo-kai Emerald (journal)
 
 ## Architecture retenue (prouvée)

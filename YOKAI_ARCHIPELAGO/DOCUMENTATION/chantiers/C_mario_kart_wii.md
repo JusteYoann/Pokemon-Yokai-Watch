@@ -1,3 +1,5 @@
+> **Jalon Codex ajouté.** Générations réelles avec YW2 et Rouge Feu réussies. `PATCHES/mario_kart_wii/build_visual_pack.py` assemble localement un pack Riivolution RMCP01 limité aux fichiers visuels, avec 5 tests synthétiques. Aucun personnage ni Dolphin réel testé. Téléchargement GameBanana refusé (403), sans contournement. Les assets devront provenir des auteurs/utilisateurs. Sauvegarder `rksys.dat` avant le client existant.
+
 # Chantier C : Mario Kart Wii × Yo-kai Watch (Archipelago, Dolphin, Windows)
 
 Date de la recherche : 2026-11-14. Référence Archipelago : clone local `ArchipelagoMW/Archipelago` à `f5b97c5e` (2026-11-06), `Utils.__version__ = "0.6.9"`.

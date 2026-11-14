@@ -57,4 +57,5 @@ struct YokaiAPRomInfo
 extern EWRAM_DATA volatile struct YokaiAPMailbox gYokaiAPMailbox;
 extern const struct YokaiAPRomInfo gYokaiAPRomInfo;
 void YokaiAPUpdate(void);
+void YokaiAPTryCollect(void);
 #endif

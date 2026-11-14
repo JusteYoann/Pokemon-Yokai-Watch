@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "kind": "native_hall_of_fame_script_fixture",
+  "final_boss_fought": false,
+  "victory_flag_injected": false,
+  "rom_sha256": "0f6f0bfb739d246af3a73a7503db5c311c277133b9ce7befca1fcb79facd6c57",
+  "checks": [
+    "New game has no Hall of Fame record",
+    "Native Hall of Fame scene created a record",
+    "Native Hall save survives cold Continue",
+    "AP Goal reported after native Hall record and cold Continue"
+  ]
+}

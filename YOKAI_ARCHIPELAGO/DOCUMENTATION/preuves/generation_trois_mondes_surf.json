@@ -1,0 +1,405 @@
+{
+  "kind": "actual_AP_generate_and_spheres",
+  "tested_games": 3,
+  "native_gameplay_tested": false,
+  "caution": [
+    "FireRed randomise Surf ; les autres objets de progression restent natifs.",
+    "Ce modèle ne mesure pas les checks immédiatement accessibles au personnage : les étapes natives pré-Surf restent regroupées ; six objets ordinaires précoces sont activés.",
+    "Aucune équivalence sphère/minutes et aucune garantie sur cinq jeux."
+  ],
+  "seeds": [
+    {
+      "seed": 14112032,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 13
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 81,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 85,
+          "Yoann_MKW": 45,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 85,
+          "Yoann_MKW": 45,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 61,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 63,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 2
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 52,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 21,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 11,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 0,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 1,
+        "Yoann_MKW": 1,
+        "Yoann_FireRed": 4
+      },
+      "remote_progression_routes": {
+        "Yoann_FireRed -> Yoann_YW2": 1,
+        "Yoann_MKW -> Yoann_YW2": 23,
+        "Yoann_FireRed -> Yoann_MKW": 3,
+        "Yoann_YW2 -> Yoann_MKW": 4,
+        "Yoann_YW2 -> Yoann_FireRed": 1
+      },
+      "forest_remote_progression_count": 2
+    },
+    {
+      "seed": 14112033,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 13
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 99,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 84,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 87,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 62,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 60,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 2
+        },
+        {
+          "Yoann_YW2": 26,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 53,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 28,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 7,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 0,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 1,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 1,
+        "Yoann_MKW": 0,
+        "Yoann_FireRed": 4
+      },
+      "remote_progression_routes": {
+        "Yoann_FireRed -> Yoann_YW2": 5,
+        "Yoann_MKW -> Yoann_YW2": 14,
+        "Yoann_FireRed -> Yoann_MKW": 4,
+        "Yoann_YW2 -> Yoann_MKW": 3,
+        "Yoann_YW2 -> Yoann_FireRed": 1
+      },
+      "forest_remote_progression_count": 2
+    },
+    {
+      "seed": 14112034,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 13
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 144,
+          "Yoann_FireRed": 2
+        },
+        {
+          "Yoann_YW2": 84,
+          "Yoann_MKW": 45,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 83,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 57,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 62,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 24,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 53,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 27,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 13,
+          "Yoann_MKW": 27,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 9,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 0,
+        "Yoann_MKW": 3,
+        "Yoann_FireRed": 0
+      },
+      "remote_progression_routes": {
+        "Yoann_MKW -> Yoann_YW2": 25,
+        "Yoann_FireRed -> Yoann_YW2": 1,
+        "Yoann_FireRed -> Yoann_MKW": 8,
+        "Yoann_YW2 -> Yoann_MKW": 7
+      },
+      "forest_remote_progression_count": 4
+    },
+    {
+      "seed": 14112035,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 13
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 108,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 86,
+          "Yoann_MKW": 54,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 86,
+          "Yoann_MKW": 27,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 61,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 2
+        },
+        {
+          "Yoann_YW2": 62,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 25,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 54,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 25,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 10,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 3,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 0,
+        "Yoann_MKW": 1,
+        "Yoann_FireRed": 3
+      },
+      "remote_progression_routes": {
+        "Yoann_MKW -> Yoann_YW2": 17,
+        "Yoann_FireRed -> Yoann_MKW": 6,
+        "Yoann_YW2 -> Yoann_FireRed": 1,
+        "Yoann_YW2 -> Yoann_MKW": 6
+      },
+      "forest_remote_progression_count": 3
+    },
+    {
+      "seed": 14112036,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 13
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 81,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 83,
+          "Yoann_MKW": 72,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 81,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 2
+        },
+        {
+          "Yoann_YW2": 62,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 64,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 31,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 55,
+          "Yoann_MKW": 27,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 27,
+          "Yoann_MKW": 27,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 7,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 0,
+        "Yoann_MKW": 0,
+        "Yoann_FireRed": 2
+      },
+      "remote_progression_routes": {
+        "Yoann_MKW -> Yoann_YW2": 21,
+        "Yoann_FireRed -> Yoann_YW2": 6,
+        "Yoann_FireRed -> Yoann_MKW": 2,
+        "Yoann_YW2 -> Yoann_FireRed": 1,
+        "Yoann_YW2 -> Yoann_MKW": 8
+      },
+      "forest_remote_progression_count": 5
+    }
+  ]
+}

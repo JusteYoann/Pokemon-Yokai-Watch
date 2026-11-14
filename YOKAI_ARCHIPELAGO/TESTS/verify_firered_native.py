@@ -51,6 +51,11 @@ def main():
         def gift(item,index):
             r.write(box+10,struct.pack('<HI',item,index));r.write(box+6,struct.pack('<H',2));r.run(4)
         before=r.call('BagGetQuantityByItemId',13)
+        pickups='YokaiAPTryCollect' in r.symbols
+        if pickups:
+            r.write(r.symbols['gSpecialVar_0x8004'],struct.pack('<H',0x156))
+            r.call('YokaiAPTryCollect')
+            ok('Pickup before initial binding is deferred without setting flag',r.call('FlagGet',0x156)==0)
         bind();ok('Seed and slot bound in native save',r.read(box+39,1)==b'\1' and u16(box+36)==0)
         gift(13,1)
         ok('Real native AddBagItem consumes first request',r.call('BagGetQuantityByItemId',13)==before+1 and r.u32(box+32)==1)
@@ -78,6 +83,28 @@ def main():
         ok('Vacuum held-mon region preserved',r.read(sb2+0xB20+0x380,80)==held)
         r.call('FlagSet',0x820);r.run(5)
         ok('Badge flag fixture reflected in native check bits',u16(box+40)&1==1)
+        if pickups:
+            r.write(r.symbols['gSpecialVar_0x8004'],struct.pack('<H',0x156))
+            r.call('YokaiAPTryCollect');r.run(5)
+            ok('Native pickup records persistent flag without original item',r.call('FlagGet',0x156)==1 and r.call('BagGetQuantityByItemId',4)==0)
+            ok('Ordinary pickup exported in check bit eight',bool(u16(box+40)&(1<<8)))
+            r.call('YokaiAPTryCollect');r.run(3)
+            ok('Pickup replay does not give original reward',r.call('BagGetQuantityByItemId',4)==0)
+            # Read the actual named constant below; do not guess GAME_CLEAR.
+            sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'PATCHES/pokemon_yokai_firered'))
+            from inventory_checks import constants
+            clear=constants(a.build/'include/constants/flags.h')['FLAG_SYS_GAME_CLEAR']
+            r.call('FlagSet',clear);r.run(5)
+            ok('Game-clear flag alone never reports Hall of Fame goal',r.read(box+42,1)==b'\0')
+            r.call('FlagClear',clear)
+            gift(341,3)
+            ok('Native progression Surf delivered once',r.call('BagGetQuantityByItemId',341)==1 and r.u32(box+32)==3)
+            ok('Received Surf still requires native fifth badge',r.call('FieldHMUnlocked',57)==0)
+            r.call('FlagSet',0x824)
+            ok('Surf works with fifth badge without learning attack',r.call('FieldHMUnlocked',57)==1)
+            gift(341,3)
+            ok('Replayed Surf does not duplicate progression item',r.call('BagGetQuantityByItemId',341)==1)
+        expected_count=3 if pickups else 2
         r.call('SaveMapView');save_result=r.call('TrySavingData',0);r.run(10)
         ok('Native save routine succeeds',save_result==1)
         r.lib.retro_get_memory_data.argtypes=[C.c_uint];r.lib.retro_get_memory_data.restype=C.c_void_p
@@ -92,10 +119,12 @@ def main():
             if r.u32(r.symbols['gMain']+4)==r.symbols['CB2_Overworld']|1 and r.read(r.symbols['sLockFieldControls'],1)==b'\0':break
         else:raise AssertionError('Native cold Continue did not reach player control')
         r.keys=set();r.run(60);box=r.symbols['gYokaiAPMailbox']
-        ok('Native cold Continue reloads applied item count',r.u32(box+32)==2)
+        ok('Native cold Continue reloads applied item count',r.u32(box+32)==expected_count)
         ok('Native cold Continue reloads inventory',r.call('BagGetQuantityByItemId',13)==before+2)
+        if pickups:ok('Cold restart preserves ordinary check for resend',bool(u16(box+40)&(1<<8)))
+        if pickups:ok('Cold restart preserves received Surf',r.call('BagGetQuantityByItemId',341)==1)
         bind();gift(13,2)
-        ok('Reconnect replay after cold restart still idempotent',r.call('BagGetQuantityByItemId',13)==before+2 and r.u32(box+32)==2)
+        ok('Reconnect replay after cold restart still idempotent',r.call('BagGetQuantityByItemId',13)==before+2 and r.u32(box+32)==expected_count)
         report['passed']=True
     except BaseException as e:
         report['error']=str(e);traceback.print_exc()

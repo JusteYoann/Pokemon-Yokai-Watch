@@ -66,7 +66,7 @@ du fork de Flit demande Node.js et `bsdiff4` (Python) et la ROM de base copiée 
 ## Reprendre sans repartir de zéro
 
 1. Ne pas réauditer : les rapports existent (§3 et §4 de `CODEX_HANDOFF.md`).
-2. Priorité actuelle : YW1 EUR, YW2 EUR, Mario Kart Wii PAL et Rouge Feu. Emerald est en attente à la demande de l’utilisateur ; ne pas redemander immédiatement ses fichiers.
+2. Priorité actuelle : randomisation Rouge Feu selon `YOKAI_ARCHIPELAGO/DOCUMENTATION/CAHIER_DES_CHARGES_FIRERED_20261114.md`, puis YW1 EUR, YW2 EUR et Mario Kart Wii PAL. Emerald est en attente à la demande de l’utilisateur ; ne pas redemander immédiatement ses fichiers.
 3. Mettre à jour `ETAT_DU_PROJET.md` et le journal du chantier à chaque jalon, avec les commits.
 
 ## Périmètre définitif — décision du 14 novembre 2026
@@ -74,3 +74,14 @@ du fork de Flit demande Node.js et `bsdiff4` (Python) et la ROM de base copiée 
 A : Yo-kai Watch 1 EUR ; B : Yo-kai Watch 2 Spectres Psychiques EUR ; C : Mario Kart Wii PAL avec mods visuels Yo-kai ; D : fangame Rouge Feu ; E : Yo-kai Emerald (en attente). Yo-kai Watch 3 est abandonné. Conserver seulement son historique utile aux transports 3DS.
 
 Ne pas supprimer les corrections Emerald déjà réalisées : les geler et documenter leur niveau de test. Les anciennes permissions refusées dans l’environnement Claude ne sont pas des refus applicables automatiquement à la mission actuelle. Une génération ou un test mémoire simulée ne prouve pas une communication avec un jeu réel.
+
+
+## Jalon Rouge Feu et limites à préserver
+
+Le code AP est dans `YOKAI_ARCHIPELAGO/PATCHES/pokemon_yokai_firered/` ; l’appliquer au snapshot complet RC1, jamais au moteur vanilla de cette racine. Branche du vrai source locale `codex/firered-archipelago-randomizer-20261114` depuis `a589cf00`, jalon `d14b93cb`. Le code d’intégration est publié sur la branche de coordination ; les assets du snapshot restent locaux.
+
+Quinze checks actifs, Surf seul objet de progression randomisé. Ne pas réintroduire sa remise gratuite au Safari. Les autres clefs sont encore natives : avant de les retirer, vérifier restaurations, cinématiques et accès. L’APWorld n’est pas un randomizer Kanto complet. Les 301 espèces actives et les systèmes du fangame sont intacts.
+
+La sauvegarde AP occupe SB2+0xE20 sur64 octets. Ne pas utiliser SB1 unused_3A94 (Aspirateur), ni le début/fin de filler_B20 (Blasters/monstre aspiré). Étendre le bitmap de checks exige une nouvelle étude du protocole, actuellement 8 badges +7 collectes. Les tests réseau préparent le contexte d’interaction mais exécutent réellement les scripts natifs, sans poser leurs flags.
+
+Le groupe compte cinq personnes et cinq slots, pas un joueur à cinq jeux. Voir `CONFIG/createurs/`. Garder les modèles non jouables hors du dossier fourni à Generate.py. Les trois mondes YW2/MKW/FR se génèrent réellement ; cela ne valide pas une partie à cinq jeux.

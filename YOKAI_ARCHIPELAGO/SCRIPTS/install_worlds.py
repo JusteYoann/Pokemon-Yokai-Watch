@@ -43,6 +43,7 @@ def main(argv=None):
     p.add_argument('--dependencies',type=Path,required=True)
     p.add_argument('--archipelago',type=Path,required=True)
     p.add_argument('--emerald-apworld',type=Path)
+    p.add_argument('--firered-apworld',type=Path)
     p.add_argument('--replace',action='store_true')
     a=p.parse_args(argv)
     if not (a.archipelago/'MultiServer.py').is_file():p.error('Dossier Archipelago invalide')
@@ -60,13 +61,21 @@ def main(argv=None):
             md=json.loads(z.read('pokemon_yokai_emerald/archipelago.json'))
             if md['game']!='Pokemon Yo-kai Emerald':raise ValueError('Mauvais monde Emerald')
         commit_file(a.emerald_apworld,custom/'pokemon_yokai_emerald.apworld',a.replace)
+    if a.firered_apworld:
+        with zipfile.ZipFile(a.firered_apworld) as z:
+            md=json.loads(z.read('pokemon_yokai_firered/archipelago.json'))
+            profile=json.loads(z.read('pokemon_yokai_firered/build.json'))
+            if md['game']!='Pokemon Yo-kai FireRed' or profile['mode']!='surf_randomized':
+                raise ValueError('Mauvais monde ou profil Rouge Feu')
+        commit_file(a.firered_apworld,custom/'pokemon_yokai_firered.apworld',a.replace)
     lua=a.archipelago/'data/lua'
     for dep in ['base64.lua','json.lua']:
         if not (lua/dep).is_file():raise ValueError(f'Archipelago incomplet : data/lua/{dep}')
     commit_file(ROOT/'CONNECTORS/mgba/connector_bizhawkclient_yokai.lua',lua/'connector_bizhawkclient_yokai.lua',a.replace)
     print('Installés : Yo-kai Watch 2, Mario Kart Wii, connecteur Lua mGBA.')
     print('Emerald : '+('installé depuis votre build personnelle.' if a.emerald_apworld else 'en attente de votre APWorld local.'))
-    print('Yo-kai Watch 3 et Rouge Feu : intégrations encore à développer, pas de faux APWorld installé.')
+    print('Rouge Feu : '+('jalon Surf installé depuis votre build.' if a.firered_apworld else 'fournir --firered-apworld après compilation locale.'))
+    print('Yo-kai Watch 1 : prototype non jouable, exclu de cette installation. Yo-kai Watch 3 abandonné.')
     return 0
 
 if __name__=='__main__':raise SystemExit(main())

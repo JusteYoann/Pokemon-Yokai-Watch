@@ -13,7 +13,7 @@ def export(rom,elf):
     info=image[offset:offset+81]
     if info[:8]!=struct.pack('<IHH',0x31504B59,1,48) or info[40:81].split(b'\0')[0].decode()!=BASE_SHA1:
         raise ValueError('Mauvais module AP, base ou ABI')
-    return {'version':1,'mode':'bonus','base_sha1':BASE_SHA1,'rom_sha256':hashlib.sha256(image).hexdigest(),
+    return {'version':1,'mode':'surf_randomized','base_sha1':BASE_SHA1,'rom_sha256':hashlib.sha256(image).hexdigest(),
             'rom_info':symbols['gYokaiAPRomInfo'],'mailbox':symbols['gYokaiAPMailbox'],
             'saveblock2_pointer':symbols['gSaveBlock2Ptr'],'main':symbols['gMain'],
             'overworld_callback':symbols['CB2_Overworld']|1,'save_storage_offset':0xE20,'save_storage_bytes':64}

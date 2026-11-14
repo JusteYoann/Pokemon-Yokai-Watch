@@ -114,6 +114,10 @@ async def scenario(a,report):
         await wait(lambda:sum(e['event']=='connected' for e in records())>=2)
         await asyncio.sleep(1)
         ok('Network reconnect does not duplicate native gift',r.call('BagGetQuantityByItemId',13)==before+1 and r.u32(box+32)==1)
+        if 'YokaiAPTryCollect' in r.symbols:
+            server.stdin.write('/send Yoann_FireRed CS03 Surf\n');server.stdin.flush()
+            await wait(lambda:r.call('BagGetQuantityByItemId',341)==1)
+            ok('Progression Surf from real server reached native inventory',r.u32(box+32)==2)
         # Controlled party/position fixture, then native dialogue and battle.
         frames.cancel();await asyncio.gather(frames,return_exceptions=True);frames=None
         q.mon(0,65,100);r.call('SetMonMoveSlot',r.symbols['gPlayerParty'],280,0)
@@ -134,6 +138,47 @@ async def scenario(a,report):
         await wait(lambda:any(e['event']=='sent' and e['packet'].get('cmd')=='LocationChecks' and 0x594B1000 in e['packet']['locations'] for e in records()))
         await wait(lambda:any(e['event']=='checked' and 0x594B1000 in e['locations'] for e in records()))
         ok('Real badge check acknowledged by AP server',True)
+        if 'YokaiAPTryCollect' in r.symbols:
+            frames.cancel();await asyncio.gather(frames,return_exceptions=True);frames=None
+            for flag,x,y,item,check in [(0x156,5,41,4,0x594B2156),(1000,3,22,13,0x594B23E8)]:
+                # Prepare the native interaction context, then run its real
+                # script. No collection flag or reward is injected.
+                q.warp('ViridianForest',x,y+1)
+                quantity=r.call('BagGetQuantityByItemId',item)
+                ok('Ordinary source is uncollected before interaction '+str(flag),r.call('FlagGet',flag)==0)
+                if flag==0x156:
+                    r.write(r.symbols['gSpecialVar_LastTalked'],struct.pack('<H',6))
+                    q.script('ViridianForest_EventScript_ItemPokeBall')
+                else:
+                    for name,value in [('gSpecialVar_0x8004',flag),('gSpecialVar_0x8005',item),('gSpecialVar_0x8006',1)]:
+                        r.write(r.symbols[name],struct.pack('<H',value))
+                    q.script('EventScript_HiddenItemScript')
+                q.drain();r.run(10)
+                ok('Native ordinary interaction sets check '+str(flag),r.call('FlagGet',flag)==1)
+                ok('Original ordinary reward replaced '+str(flag),r.call('BagGetQuantityByItemId',item)==quantity)
+                frames=asyncio.create_task(game_frames())
+                await wait(lambda:any(e['event']=='checked' and check in e['locations'] for e in records()))
+                ok('Server acknowledged ordinary check '+str(flag),True)
+                frames.cancel();await asyncio.gather(frames,return_exceptions=True);frames=None
+            q.warp('SafariZone_SecretHouse',3,4)
+            ok('Surf source not consumed by receiving remote Surf',r.call('FlagGet',0x239)==0)
+            q.script('SafariZone_SecretHouse_EventScript_Attendant');q.drain();r.run(10)
+            ok('Native Safari gift validates its AP check',r.call('FlagGet',0x239)==1)
+            ok('Native Safari gift does not duplicate randomized Surf',r.call('BagGetQuantityByItemId',341)==1)
+            frames=asyncio.create_task(game_frames())
+            await wait(lambda:any(e['event']=='checked' and 0x594B2239 in e['locations'] for e in records()))
+            ok('Server acknowledged randomized Surf source',True)
+            frames.cancel();await asyncio.gather(frames,return_exceptions=True);frames=None
+            q.warp('PokemonLeague_HallOfFame',5,12)
+            q.wait(lambda:r.call('GetGameStat',10)>0,limit=24000)
+            r.keys=set();r.run(180)
+            # Targeted endpoint fixture: skip credits by placing the player in
+            # an overworld map after the real Hall record/save. No goal injection.
+            q.warp('Route1',10,18)
+            frames=asyncio.create_task(game_frames())
+            await wait(lambda:any(e['event']=='sent' and e['packet'].get('cmd')=='StatusUpdate' and e['packet'].get('status')==30 for e in records()))
+            ok('Real native Hall record triggers Goal packet to server',True)
+            report['hall_endpoint_position_prepared_by_fixture']=True
         report['requests']=transport.requests;report['passed']=True
     finally:
         if frames:frames.cancel();await asyncio.gather(frames,return_exceptions=True)
@@ -149,7 +194,8 @@ def main():
     p.add_argument('--python',default=sys.executable);p.add_argument('--server-port',type=int,default=38281);p.add_argument('--emulator-port',type=int,default=43056);a=p.parse_args()
     a.out.parent.mkdir(parents=True,exist_ok=True)
     report={'passed':False,'kind':'real_server_real_mgba_libretro','gui_lua_tested':False,
-            'party_and_location_prepared_by_fixture':True,'badge_flag_injected':False,'complete_playthrough':False,'checks':[]}
+            'party_and_location_prepared_by_fixture':True,'ordinary_interaction_context_prepared_by_fixture':True,
+            'badge_flag_injected':False,'complete_playthrough':False,'checks':[]}
     try:asyncio.run(scenario(a,report))
     except Exception as e:
         import traceback;traceback.print_exc();report['error']=str(e)

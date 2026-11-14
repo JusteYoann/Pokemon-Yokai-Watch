@@ -1,3 +1,5 @@
+> **Audit historique Claude.** Depuis, les sources complètes RC1 ont été retrouvées et une version AP spécifique compilée. État actif : [progression et objets](../FIRERED_PROGRESSION_ET_OBJETS.md), [tests](../preuves/). Les 304 emplacements bruts ci-dessous comprennent des entrées retirées ; le fangame contient 301 espèces actives.
+
 # Chantier D : Pokémon Rouge Feu × Yo-kai Watch (« Yo-kai Watch GBA 1.0 »), audit technique
 
 Date : 2026-11-14. Analyse en lecture seule de la ROM fournie par l'utilisateur. La ROM n'a été ni modifiée ni copiée dans un dépôt git. Les copies de travail sont restées dans le scratchpad de session.

@@ -1,4 +1,4 @@
-// Project-specific AP receive channel. No species, encounters or scripts altered.
+// Project-specific AP channel. No species, stats, encounters or maps altered.
 #include "global.h"
 #include "yokai_ap.h"
 #include "main.h"
@@ -12,6 +12,9 @@
 #include "yopple_devices.h"
 #include "constants/items.h"
 #include "constants/flags.h"
+#include "overworld.h"
+#include "constants/game_stat.h"
+#include "yokai_ap_checks.h"
 
 EWRAM_DATA volatile struct YokaiAPMailbox gYokaiAPMailbox = {0};
 const struct YokaiAPRomInfo gYokaiAPRomInfo = {
@@ -47,8 +50,8 @@ static bool8 SameSession(struct YokaiAPSave *save)
     return TRUE;
 }
 
-// Deliberately limited first receive channel: native progression rewards stay
-// untouched. The APWorld calls this mode "bonus", not a full Kanto randomizer.
+// Explicit whitelist: consumables and Surf, whose source is replaced exactly
+// once. Other progression sources remain native, outside this first item pool.
 static bool8 AllowedItem(u16 item)
 {
     switch (item)
@@ -67,9 +70,32 @@ static bool8 AllowedItem(u16 item)
     case ITEM_AWAKENING:
     case ITEM_BURN_HEAL:
     case ITEM_ICE_HEAL:
+    case ITEM_HM03:
         return TRUE;
     }
     return FALSE;
+}
+
+// Called only by the seven audited pickup/gift scripts. Original flags are persistent
+// and authoritative; collecting a check never touches the bag.
+void YokaiAPTryCollect(void)
+{
+    struct YokaiAPSave *save = Save();
+    u8 i;
+    gSpecialVar_Result = 0; // not one of our pickups: run original script
+    for (i = 0; i < YOKAI_AP_PICKUP_COUNT; i++)
+    {
+        if (gSpecialVar_0x8004 != sYokaiAPPickupFlags[i])
+            continue;
+        if (save->magic != YOKAI_AP_MAGIC || save->version != YOKAI_AP_VERSION)
+        {
+            gSpecialVar_Result = 2; // connect before first pickup, keep reward
+            return;
+        }
+        FlagSet(sYokaiAPPickupFlags[i]);
+        gSpecialVar_Result = 1;
+        return;
+    }
 }
 
 void YokaiAPUpdate(void)
@@ -85,11 +111,17 @@ void YokaiAPUpdate(void)
     gYokaiAPMailbox.appliedCount = save->magic == YOKAI_AP_MAGIC ? save->appliedCount : 0;
     gYokaiAPMailbox.saveSchema = save->magic == YOKAI_AP_MAGIC ? save->version : 0;
     gYokaiAPMailbox.bound = SameSession(save);
-    gYokaiAPMailbox.goal = FlagGet(FLAG_SYS_GAME_CLEAR);
+    // EnterHallOfFame sets GAME_CLEAR before the actual record is saved.
+    // The native finale resets DEFEATED_CHAMP before entering this screen.
+    gYokaiAPMailbox.goal = FlagGet(FLAG_SYS_GAME_CLEAR)
+        && GetGameStat(GAME_STAT_ENTERED_HOF) > 0;
     gYokaiAPMailbox.checkBits = 0;
     for (i = 0; i < 8; i++)
         if (FlagGet(FLAG_BADGE01_GET + i))
             gYokaiAPMailbox.checkBits |= 1 << i;
+    for (i = 0; i < YOKAI_AP_PICKUP_COUNT; i++)
+        if (FlagGet(sYokaiAPPickupFlags[i]))
+            gYokaiAPMailbox.checkBits |= 1 << (8 + i);
     if (save->magic == YOKAI_AP_MAGIC && save->lastItem)
         gYokaiAPMailbox.lastItemCount = BagGetQuantityByItemId(save->lastItem);
     if (!gYokaiAPMailbox.command)
