@@ -468,6 +468,13 @@ const u8 gMonFootprint_{CAMEL[n]}[] = INCGFX_U8("graphics/pokemon/{n.lower()}/fo
         b.putpalette(im.getpalette())
         b.save(back, bits=4)
 
+    # ---- 7. patch Archipelago (fork de Flit) : nom de ROM distinct, vérifié par le client du monde « Pokemon Yo-kai Emerald »
+    hdr_c = "src/rom_header_gf.c"
+    if "flit ap" in src.get(hdr_c):
+        t = src.get(hdr_c)
+        t2 = re.sub(r'\.gameName = "pokemon emerald / flit ap [^"]*"', '.gameName = "pokemon emerald / yokai ap v0.1"', t)
+        src.set(hdr_c, t2, "nom de ROM « pokemon emerald / yokai ap v0.1 »")
+
     src.write_all()
     open(os.path.join(a.decomp, "YOKAI_PATCH_LOG.txt"), "w", encoding="utf-8").write("\n".join(src.log) + "\n")
     print(f"{len(src.log)} modifications de sources ; graphismes écrits pour {len(ORDER)} Yo-kai et Nathan/Katie.")
