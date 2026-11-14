@@ -1,0 +1,8 @@
+# Jamais de ROM, de sorties d'extraction (assets du créateur) ni de captures de jeu dans le dépôt
+*.gba
+*.sav
+*.ss[0-9]
+yokai_out/
+out*/
+__pycache__/
+*.pyc

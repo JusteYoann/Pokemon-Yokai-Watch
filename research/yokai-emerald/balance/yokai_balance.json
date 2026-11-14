@@ -1,0 +1,75 @@
+{
+  "_comment": "Spécification validée de l'équilibrage des six Yo-kai (mission du 2026-11-14). Noms d'attaques en français officiel (Pokémon Émeraude FR) ; résolus en identifiants internes par resolve_names.py. Source unique pour le patch binaire (patch_rom.py) et, plus tard, pour la décompilation.",
+  "species": {
+    "JIBANYAN": {
+      "id": 412, "rank": "D", "types": ["FEU", "COMBAT"],
+      "stats": {"hp": 60, "atk": 85, "def": 50, "spa": 60, "spd": 50, "spe": 95}, "total": 400,
+      "ability": "BRASIER",
+      "learnset": [[1, "GRIFFE"], [1, "RUGISSEMENT"], [5, "FLAMMECHE"], [9, "VIVE-ATTAQUE"], [13, "COMBO-GRIFFE"],
+                   [17, "DOUBLE PIED"], [21, "POING FEU"], [25, "METEORES"], [29, "CASSE-BRIQUE"], [33, "DANSE-LAMES"],
+                   [37, "LANCE-FLAMMES"], [42, "TRANCHE"], [47, "PIED VOLTIGE"], [53, "SURCHAUFFE"], [59, "DAMOCLES"]],
+      "tm": [1, 6, 8, 10, 11, 17, 21, 27, 28, 31, 32, 35, 38, 40, 42, 43, 44, 45, 50],
+      "hm": [1, 4, 6]
+    },
+    "KOMASAN": {
+      "id": 413, "rank": "D", "types": ["FEU"],
+      "stats": {"hp": 70, "atk": 45, "def": 65, "spa": 85, "spd": 75, "spe": 55}, "total": 395,
+      "ability": "TORCHE",
+      "learnset": [[1, "CHARGE"], [1, "BOUL'ARMURE"], [6, "FLAMMECHE"], [10, "JET DE SABLE"], [14, "FEU FOLLET"],
+                   [18, "AMPLEUR"], [22, "ROUE DE FEU"], [26, "AMNESIE"], [30, "LANCE-FLAMMES"], [34, "REPOS"],
+                   [38, "LANCE-BOUE"], [42, "SEISME"], [47, "DEFLAGRATION"], [53, "PLENITUDE"], [59, "ERUPTION"]],
+      "tm": [4, 6, 10, 11, 15, 16, 17, 21, 22, 26, 27, 28, 32, 35, 37, 38, 42, 43, 44, 45, 50],
+      "hm": [4, 6]
+    },
+    "KOMAJIRO": {
+      "id": 414, "rank": "C", "types": ["ELECTRIK"],
+      "stats": {"hp": 65, "atk": 50, "def": 60, "spa": 100, "spd": 65, "spe": 95}, "total": 435,
+      "ability": "STATIK",
+      "learnset": [[1, "CHARGE"], [1, "MIMI-QUEUE"], [7, "ECLAIR"], [11, "VIVE-ATTAQUE"], [15, "CAGE-ECLAIR"],
+                   [19, "ETINCELLE"], [23, "METEORES"], [27, "ONDE DE CHOC"], [31, "MUR LUMIERE"], [35, "TONNERRE"],
+                   [40, "HATE"], [45, "GRINCEMENT"], [50, "FATAL-FOUDRE"], [56, "PROTECTION"]],
+      "tm": [6, 10, 16, 17, 18, 21, 24, 25, 27, 32, 34, 42, 43, 44, 45],
+      "hm": [5]
+    },
+    "WHISPER": {
+      "id": 417, "rank": "C", "types": ["SPECTRE"],
+      "stats": {"hp": 85, "atk": 35, "def": 80, "spa": 70, "spd": 100, "spe": 55}, "total": 425,
+      "ability": "LEVITATION",
+      "learnset": [[1, "LECHOUILLE"], [1, "REGARD NOIR"], [6, "DEPIT"], [10, "ONDE FOLIE"], [14, "TENEBRES"],
+                   [18, "HYPNOSE"], [22, "MALEDICTION"], [26, "FEU FOLLET"], [30, "BALANCE"], [34, "BALL'OMBRE"],
+                   [38, "ONDE FOLIE"], [42, "DEVOREVE"], [47, "REPOS"], [52, "PRLVT DESTIN"], [58, "CAUCHEMAR"]],
+      "learnset_note": "Niveau 38 : doublon d'Onde Folie conservé tel que spécifié (sans effet en jeu). Remplacement proposé en attente de validation : voir YOKAI_MOVESETS.md.",
+      "tm": [6, 10, 12, 17, 18, 21, 27, 29, 30, 32, 41, 42, 43, 44, 45, 49],
+      "hm": [5]
+    },
+    "BLIZZARIA": {
+      "id": 415, "rank": "A", "types": ["GLACE"],
+      "stats": {"hp": 75, "atk": 45, "def": 70, "spa": 115, "spd": 105, "spe": 95}, "total": 505,
+      "ability": "LEVITATION",
+      "learnset": [[1, "POUDREUSE"], [1, "REGARD TOUCHANT"], [7, "CHOC MENTAL"], [11, "VENT GLACE"], [15, "BRUME"],
+                   [19, "ONDE FOLIE"], [23, "RAFALE PSY"], [27, "ONDE BOREALE"], [31, "PLENITUDE"], [35, "LASER GLACE"],
+                   [40, "PSYKO"], [45, "GRELE"], [50, "BLIZZARD"], [56, "PROTECTION"]],
+      "tm": [3, 4, 6, 7, 10, 13, 14, 16, 17, 20, 21, 27, 29, 32, 33, 42, 43, 44, 45],
+      "hm": [3, 5, 7, 8]
+    },
+    "GARGAROS": {
+      "id": 416, "rank": "A", "types": ["ROCHE", "TENEBRES"],
+      "stats": {"hp": 100, "atk": 135, "def": 105, "spa": 40, "spd": 90, "spe": 45}, "total": 515,
+      "ability": "INTIMIDATION",
+      "learnset": [[1, "CHARGE"], [1, "GROZ'YEUX"], [8, "JET-PIERRES"], [12, "HURLEMENT"], [16, "MORSURE"],
+                   [20, "TOMBEROCHE"], [24, "COGNE"], [28, "FORCE"], [32, "EBOULEMENT"], [36, "GRIMACE"],
+                   [40, "CASSE-BRIQUE"], [44, "MACHOUILLE"], [49, "SEISME"], [54, "DAMOCLES"], [60, "ULTRALASER"]],
+      "tm": [1, 5, 6, 8, 10, 12, 15, 17, 21, 26, 27, 28, 31, 32, 37, 39, 41, 42, 43, 44, 45, 46],
+      "hm": [1, 4, 6]
+    }
+  },
+  "starter": {"species": "JIBANYAN", "level": 5, "where": "Bourg-en-Vol, sac du Prof. Seko"},
+  "encounters": {
+    "KOMASAN":   {"maps": ["MAP_PETALBURG_WOODS"], "levels": [6, 8], "target_rate": "10-20 %"},
+    "WHISPER":   {"maps": ["MAP_GRANITE_CAVE_1F", "MAP_GRANITE_CAVE_B1F", "MAP_GRANITE_CAVE_B2F"], "levels": [10, 13], "target_rate": "10-20 %"},
+    "KOMAJIRO":  {"maps": ["MAP_ROUTE110"], "levels": [12, 15], "target_rate": "10-20 %"},
+    "BLIZZARIA": {"maps": ["MAP_ROUTE113"], "levels": [17, 20], "target_rate": "10-20 %"},
+    "GARGAROS":  {"maps": ["MAP_JAGGED_PASS"], "levels": [20, 23], "target_rate": "10-20 %",
+                  "note": "emplacement de la spécification ; alternative après le 5e badge proposée dans YOKAI_ENCOUNTERS.md, non appliquée"}
+  }
+}

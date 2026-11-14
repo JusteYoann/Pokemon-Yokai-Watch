@@ -1,0 +1,2225 @@
+{
+ "_comment": "Emplacements de rencontre modifi\u00e9s par le cr\u00e9ateur du hack (comparaison avec pret/pokeemerald 731ad5bfd, make modern). 'vanilla' = valeurs d'\u00c9meraude d'origine (donn\u00e9es de la d\u00e9compilation).",
+ "slots": [
+  {
+   "header_index": 0,
+   "map": "Route101",
+   "group": 0,
+   "num": 16,
+   "table": "land",
+   "slot": 10,
+   "creator": {
+    "min": 3,
+    "max": 3,
+    "species": 414,
+    "name": "KOMAJIRO"
+   },
+   "vanilla": {
+    "min": 3,
+    "max": 3,
+    "species": 288,
+    "name": "SPECIES_ZIGZAGOON"
+   }
+  },
+  {
+   "header_index": 0,
+   "map": "Route101",
+   "group": 0,
+   "num": 16,
+   "table": "land",
+   "slot": 11,
+   "creator": {
+    "min": 3,
+    "max": 3,
+    "species": 412,
+    "name": "JIBANYAN"
+   },
+   "vanilla": {
+    "min": 3,
+    "max": 3,
+    "species": 288,
+    "name": "SPECIES_ZIGZAGOON"
+   }
+  },
+  {
+   "header_index": 1,
+   "map": "Route102",
+   "group": 0,
+   "num": 17,
+   "table": "land",
+   "slot": 2,
+   "creator": {
+    "min": 4,
+    "max": 4,
+    "species": 415,
+    "name": "BLIZZARIA"
+   },
+   "vanilla": {
+    "min": 4,
+    "max": 4,
+    "species": 286,
+    "name": "SPECIES_POOCHYENA"
+   }
+  },
+  {
+   "header_index": 1,
+   "map": "Route102",
+   "group": 0,
+   "num": 17,
+   "table": "land",
+   "slot": 6,
+   "creator": {
+    "min": 3,
+    "max": 3,
+    "species": 417,
+    "name": "WHISPER"
+   },
+   "vanilla": {
+    "min": 3,
+    "max": 3,
+    "species": 288,
+    "name": "SPECIES_ZIGZAGOON"
+   }
+  },
+  {
+   "header_index": 1,
+   "map": "Route102",
+   "group": 0,
+   "num": 17,
+   "table": "land",
+   "slot": 10,
+   "creator": {
+    "min": 4,
+    "max": 4,
+    "species": 416,
+    "name": "GARGAROS"
+   },
+   "vanilla": {
+    "min": 4,
+    "max": 4,
+    "species": 288,
+    "name": "SPECIES_ZIGZAGOON"
+   }
+  },
+  {
+   "header_index": 2,
+   "map": "Route103",
+   "group": 0,
+   "num": 18,
+   "table": "land",
+   "slot": 6,
+   "creator": {
+    "min": 3,
+    "max": 3,
+    "species": 417,
+    "name": "WHISPER"
+   },
+   "vanilla": {
+    "min": 3,
+    "max": 3,
+    "species": 288,
+    "name": "SPECIES_ZIGZAGOON"
+   }
+  },
+  {
+   "header_index": 2,
+   "map": "Route103",
+   "group": 0,
+   "num": 18,
+   "table": "land",
+   "slot": 7,
+   "creator": {
+    "min": 4,
+    "max": 4,
+    "species": 416,
+    "name": "GARGAROS"
+   },
+   "vanilla": {
+    "min": 4,
+    "max": 4,
+    "species": 288,
+    "name": "SPECIES_ZIGZAGOON"
+   }
+  },
+  {
+   "header_index": 2,
+   "map": "Route103",
+   "group": 0,
+   "num": 18,
+   "table": "land",
+   "slot": 8,
+   "creator": {
+    "min": 3,
+    "max": 3,
+    "species": 413,
+    "name": "KOMASAN"
+   },
+   "vanilla": {
+    "min": 3,
+    "max": 3,
+    "species": 309,
+    "name": "SPECIES_WINGULL"
+   }
+  },
+  {
+   "header_index": 2,
+   "map": "Route103",
+   "group": 0,
+   "num": 18,
+   "table": "land",
+   "slot": 9,
+   "creator": {
+    "min": 3,
+    "max": 3,
+    "species": 414,
+    "name": "KOMAJIRO"
+   },
+   "vanilla": {
+    "min": 3,
+    "max": 3,
+    "species": 309,
+    "name": "SPECIES_WINGULL"
+   }
+  },
+  {
+   "header_index": 2,
+   "map": "Route103",
+   "group": 0,
+   "num": 18,
+   "table": "land",
+   "slot": 10,
+   "creator": {
+    "min": 2,
+    "max": 2,
+    "species": 412,
+    "name": "JIBANYAN"
+   },
+   "vanilla": {
+    "min": 2,
+    "max": 2,
+    "species": 309,
+    "name": "SPECIES_WINGULL"
+   }
+  },
+  {
+   "header_index": 2,
+   "map": "Route103",
+   "group": 0,
+   "num": 18,
+   "table": "land",
+   "slot": 11,
+   "creator": {
+    "min": 4,
+    "max": 4,
+    "species": 415,
+    "name": "BLIZZARIA"
+   },
+   "vanilla": {
+    "min": 4,
+    "max": 4,
+    "species": 309,
+    "name": "SPECIES_WINGULL"
+   }
+  },
+  {
+   "header_index": 3,
+   "map": "Route104",
+   "group": 0,
+   "num": 19,
+   "table": "land",
+   "slot": 3,
+   "creator": {
+    "min": 5,
+    "max": 5,
+    "species": 413,
+    "name": "KOMASAN"
+   },
+   "vanilla": {
+    "min": 5,
+    "max": 5,
+    "species": 183,
+    "name": "SPECIES_MARILL"
+   }
+  },
+  {
+   "header_index": 3,
+   "map": "Route104",
+   "group": 0,
+   "num": 19,
+   "table": "land",
+   "slot": 6,
+   "creator": {
+    "min": 4,
+    "max": 4,
+    "species": 414,
+    "name": "KOMAJIRO"
+   },
+   "vanilla": {
+    "min": 4,
+    "max": 4,
+    "species": 304,
+    "name": "SPECIES_TAILLOW"
+   }
+  },
+  {
+   "header_index": 3,
+   "map": "Route104",
+   "group": 0,
+   "num": 19,
+   "table": "land",
+   "slot": 8,
+   "creator": {
+    "min": 4,
+    "max": 4,
+    "species": 412,
+    "name": "JIBANYAN"
+   },
+   "vanilla": {
+    "min": 4,
+    "max": 4,
+    "species": 309,
+    "name": "SPECIES_WINGULL"
+   }
+  },
+  {
+   "header_index": 3,
+   "map": "Route104",
+   "group": 0,
+   "num": 19,
+   "table": "land",
+   "slot": 11,
+   "creator": {
+    "min": 5,
+    "max": 5,
+    "species": 417,
+    "name": "WHISPER"
+   },
+   "vanilla": {
+    "min": 5,
+    "max": 5,
+    "species": 309,
+    "name": "SPECIES_WINGULL"
+   }
+  },
+  {
+   "header_index": 5,
+   "map": "Route110",
+   "group": 0,
+   "num": 25,
+   "table": "land",
+   "slot": 6,
+   "creator": {
+    "min": 13,
+    "max": 13,
+    "species": 414,
+    "name": "KOMAJIRO"
+   },
+   "vanilla": {
+    "min": 13,
+    "max": 13,
+    "species": 354,
+    "name": "SPECIES_MINUN"
+   }
+  },
+  {
+   "header_index": 5,
+   "map": "Route110",
+   "group": 0,
+   "num": 25,
+   "table": "land",
+   "slot": 11,
+   "creator": {
+    "min": 13,
+    "max": 13,
+    "species": 413,
+    "name": "KOMASAN"
+   },
+   "vanilla": {
+    "min": 13,
+    "max": 13,
+    "species": 353,
+    "name": "SPECIES_PLUSLE"
+   }
+  },
+  {
+   "header_index": 6,
+   "map": "Route111",
+   "group": 0,
+   "num": 26,
+   "table": "land",
+   "slot": 2,
+   "creator": {
+    "min": 21,
+    "max": 21,
+    "species": 416,
+    "name": "GARGAROS"
+   },
+   "vanilla": {
+    "min": 21,
+    "max": 21,
+    "species": 27,
+    "name": "SPECIES_SANDSHREW"
+   }
+  },
+  {
+   "header_index": 6,
+   "map": "Route111",
+   "group": 0,
+   "num": 26,
+   "table": "land",
+   "slot": 9,
+   "creator": {
+    "min": 20,
+    "max": 20,
+    "species": 417,
+    "name": "WHISPER"
+   },
+   "vanilla": {
+    "min": 20,
+    "max": 20,
+    "species": 344,
+    "name": "SPECIES_CACNEA"
+   }
+  },
+  {
+   "header_index": 7,
+   "map": "Route112",
+   "group": 0,
+   "num": 27,
+   "table": "land",
+   "slot": 3,
+   "creator": {
+    "min": 14,
+    "max": 14,
+    "species": 414,
+    "name": "KOMAJIRO"
+   },
+   "vanilla": {
+    "min": 14,
+    "max": 14,
+    "species": 339,
+    "name": "SPECIES_NUMEL"
+   }
+  },
+  {
+   "header_index": 7,
+   "map": "Route112",
+   "group": 0,
+   "num": 27,
+   "table": "land",
+   "slot": 4,
+   "creator": {
+    "min": 14,
+    "max": 14,
+    "species": 413,
+    "name": "KOMASAN"
+   },
+   "vanilla": {
+    "min": 14,
+    "max": 14,
+    "species": 339,
+    "name": "SPECIES_NUMEL"
+   }
+  },
+  {
+   "header_index": 7,
+   "map": "Route112",
+   "group": 0,
+   "num": 27,
+   "table": "land",
+   "slot": 11,
+   "creator": {
+    "min": 16,
+    "max": 16,
+    "species": 412,
+    "name": "JIBANYAN"
+   },
+   "vanilla": {
+    "min": 16,
+    "max": 16,
+    "species": 339,
+    "name": "SPECIES_NUMEL"
+   }
+  },
+  {
+   "header_index": 8,
+   "map": "Route113",
+   "group": 0,
+   "num": 28,
+   "table": "land",
+   "slot": 6,
+   "creator": {
+    "min": 16,
+    "max": 16,
+    "species": 416,
+    "name": "GARGAROS"
+   },
+   "vanilla": {
+    "min": 16,
+    "max": 16,
+    "species": 308,
+    "name": "SPECIES_SPINDA"
+   }
+  },
+  {
+   "header_index": 9,
+   "map": "Route114",
+   "group": 0,
+   "num": 29,
+   "table": "land",
+   "slot": 3,
+   "creator": {
+    "min": 15,
+    "max": 15,
+    "species": 412,
+    "name": "JIBANYAN"
+   },
+   "vanilla": {
+    "min": 15,
+    "max": 15,
+    "species": 358,
+    "name": "SPECIES_SWABLU"
+   }
+  },
+  {
+   "header_index": 9,
+   "map": "Route114",
+   "group": 0,
+   "num": 29,
+   "table": "land",
+   "slot": 7,
+   "creator": {
+    "min": 18,
+    "max": 18,
+    "species": 412,
+    "name": "JIBANYAN"
+   },
+   "vanilla": {
+    "min": 18,
+    "max": 18,
+    "species": 296,
+    "name": "SPECIES_LOMBRE"
+   }
+  },
+  {
+   "header_index": 9,
+   "map": "Route114",
+   "group": 0,
+   "num": 29,
+   "table": "land",
+   "slot": 10,
+   "creator": {
+    "min": 17,
+    "max": 17,
+    "species": 409,
+    "name": "SPECIES_JIRACHI"
+   },
+   "vanilla": {
+    "min": 17,
+    "max": 17,
+    "species": 379,
+    "name": "SPECIES_SEVIPER"
+   }
+  },
+  {
+   "header_index": 10,
+   "map": "Route116",
+   "group": 0,
+   "num": 31,
+   "table": "land",
+   "slot": 5,
+   "creator": {
+    "min": 6,
+    "max": 6,
+    "species": 417,
+    "name": "WHISPER"
+   },
+   "vanilla": {
+    "min": 6,
+    "max": 6,
+    "species": 304,
+    "name": "SPECIES_TAILLOW"
+   }
+  },
+  {
+   "header_index": 10,
+   "map": "Route116",
+   "group": 0,
+   "num": 31,
+   "table": "land",
+   "slot": 10,
+   "creator": {
+    "min": 7,
+    "max": 7,
+    "species": 412,
+    "name": "JIBANYAN"
+   },
+   "vanilla": {
+    "min": 7,
+    "max": 7,
+    "species": 315,
+    "name": "SPECIES_SKITTY"
+   }
+  },
+  {
+   "header_index": 11,
+   "map": "Route117",
+   "group": 0,
+   "num": 32,
+   "table": "land",
+   "slot": 7,
+   "creator": {
+    "min": 13,
+    "max": 13,
+    "species": 386,
+    "name": "SPECIES_VOLBEAT"
+   },
+   "vanilla": {
+    "min": 13,
+    "max": 13,
+    "species": 387,
+    "name": "SPECIES_ILLUMISE"
+   }
+  },
+  {
+   "header_index": 11,
+   "map": "Route117",
+   "group": 0,
+   "num": 32,
+   "table": "land",
+   "slot": 8,
+   "creator": {
+    "min": 14,
+    "max": 14,
+    "species": 414,
+    "name": "KOMAJIRO"
+   },
+   "vanilla": {
+    "min": 14,
+    "max": 14,
+    "species": 387,
+    "name": "SPECIES_ILLUMISE"
+   }
+  },
+  {
+   "header_index": 11,
+   "map": "Route117",
+   "group": 0,
+   "num": 32,
+   "table": "land",
+   "slot": 9,
+   "creator": {
+    "min": 14,
+    "max": 14,
+    "species": 413,
+    "name": "KOMASAN"
+   },
+   "vanilla": {
+    "min": 14,
+    "max": 14,
+    "species": 387,
+    "name": "SPECIES_ILLUMISE"
+   }
+  },
+  {
+   "header_index": 12,
+   "map": "Route118",
+   "group": 0,
+   "num": 33,
+   "table": "land",
+   "slot": 6,
+   "creator": {
+    "min": 25,
+    "max": 25,
+    "species": 416,
+    "name": "GARGAROS"
+   },
+   "vanilla": {
+    "min": 25,
+    "max": 25,
+    "species": 309,
+    "name": "SPECIES_WINGULL"
+   }
+  },
+  {
+   "header_index": 12,
+   "map": "Route118",
+   "group": 0,
+   "num": 33,
+   "table": "land",
+   "slot": 7,
+   "creator": {
+    "min": 25,
+    "max": 25,
+    "species": 416,
+    "name": "GARGAROS"
+   },
+   "vanilla": {
+    "min": 25,
+    "max": 25,
+    "species": 309,
+    "name": "SPECIES_WINGULL"
+   }
+  },
+  {
+   "header_index": 12,
+   "map": "Route118",
+   "group": 0,
+   "num": 33,
+   "table": "land",
+   "slot": 8,
+   "creator": {
+    "min": 26,
+    "max": 26,
+    "species": 417,
+    "name": "WHISPER"
+   },
+   "vanilla": {
+    "min": 26,
+    "max": 26,
+    "species": 309,
+    "name": "SPECIES_WINGULL"
+   }
+  },
+  {
+   "header_index": 16,
+   "map": "GraniteCave_1F",
+   "group": 24,
+   "num": 7,
+   "table": "land",
+   "slot": 11,
+   "creator": {
+    "min": 9,
+    "max": 9,
+    "species": 416,
+    "name": "GARGAROS"
+   },
+   "vanilla": {
+    "min": 9,
+    "max": 9,
+    "species": 74,
+    "name": "SPECIES_GEODUDE"
+   }
+  },
+  {
+   "header_index": 18,
+   "map": "MtPyre_1F",
+   "group": 24,
+   "num": 15,
+   "table": "land",
+   "slot": 6,
+   "creator": {
+    "min": 23,
+    "max": 23,
+    "species": 417,
+    "name": "WHISPER"
+   },
+   "vanilla": {
+    "min": 23,
+    "max": 23,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 18,
+   "map": "MtPyre_1F",
+   "group": 24,
+   "num": 15,
+   "table": "land",
+   "slot": 7,
+   "creator": {
+    "min": 22,
+    "max": 22,
+    "species": 413,
+    "name": "KOMASAN"
+   },
+   "vanilla": {
+    "min": 22,
+    "max": 22,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 18,
+   "map": "MtPyre_1F",
+   "group": 24,
+   "num": 15,
+   "table": "land",
+   "slot": 8,
+   "creator": {
+    "min": 29,
+    "max": 29,
+    "species": 414,
+    "name": "KOMAJIRO"
+   },
+   "vanilla": {
+    "min": 29,
+    "max": 29,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 18,
+   "map": "MtPyre_1F",
+   "group": 24,
+   "num": 15,
+   "table": "land",
+   "slot": 9,
+   "creator": {
+    "min": 24,
+    "max": 24,
+    "species": 415,
+    "name": "BLIZZARIA"
+   },
+   "vanilla": {
+    "min": 24,
+    "max": 24,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 18,
+   "map": "MtPyre_1F",
+   "group": 24,
+   "num": 15,
+   "table": "land",
+   "slot": 10,
+   "creator": {
+    "min": 29,
+    "max": 29,
+    "species": 412,
+    "name": "JIBANYAN"
+   },
+   "vanilla": {
+    "min": 29,
+    "max": 29,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 18,
+   "map": "MtPyre_1F",
+   "group": 24,
+   "num": 15,
+   "table": "land",
+   "slot": 11,
+   "creator": {
+    "min": 24,
+    "max": 24,
+    "species": 416,
+    "name": "GARGAROS"
+   },
+   "vanilla": {
+    "min": 24,
+    "max": 24,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 26,
+   "map": "JaggedPass",
+   "group": 24,
+   "num": 13,
+   "table": "land",
+   "slot": 7,
+   "creator": {
+    "min": 22,
+    "max": 22,
+    "species": 416,
+    "name": "GARGAROS"
+   },
+   "vanilla": {
+    "min": 22,
+    "max": 22,
+    "species": 66,
+    "name": "SPECIES_MACHOP"
+   }
+  },
+  {
+   "header_index": 27,
+   "map": "Route106",
+   "group": 0,
+   "num": 21,
+   "table": "water",
+   "slot": 4,
+   "creator": {
+    "min": 25,
+    "max": 30,
+    "species": 409,
+    "name": "SPECIES_JIRACHI"
+   },
+   "vanilla": {
+    "min": 25,
+    "max": 30,
+    "species": 310,
+    "name": "SPECIES_PELIPPER"
+   }
+  },
+  {
+   "header_index": 27,
+   "map": "Route106",
+   "group": 0,
+   "num": 21,
+   "table": "fish",
+   "slot": 9,
+   "creator": {
+    "min": 40,
+    "max": 45,
+    "species": 251,
+    "name": "SPECIES_CELEBI"
+   },
+   "vanilla": {
+    "min": 40,
+    "max": 45,
+    "species": 313,
+    "name": "SPECIES_WAILMER"
+   }
+  },
+  {
+   "header_index": 31,
+   "map": "Route115",
+   "group": 0,
+   "num": 30,
+   "table": "land",
+   "slot": 10,
+   "creator": {
+    "min": 26,
+    "max": 26,
+    "species": 415,
+    "name": "BLIZZARIA"
+   },
+   "vanilla": {
+    "min": 26,
+    "max": 26,
+    "species": 309,
+    "name": "SPECIES_WINGULL"
+   }
+  },
+  {
+   "header_index": 31,
+   "map": "Route115",
+   "group": 0,
+   "num": 30,
+   "table": "land",
+   "slot": 11,
+   "creator": {
+    "min": 25,
+    "max": 25,
+    "species": 415,
+    "name": "BLIZZARIA"
+   },
+   "vanilla": {
+    "min": 25,
+    "max": 25,
+    "species": 309,
+    "name": "SPECIES_WINGULL"
+   }
+  },
+  {
+   "header_index": 33,
+   "map": "Route119",
+   "group": 0,
+   "num": 34,
+   "table": "land",
+   "slot": 5,
+   "creator": {
+    "min": 26,
+    "max": 26,
+    "species": 412,
+    "name": "JIBANYAN"
+   },
+   "vanilla": {
+    "min": 26,
+    "max": 26,
+    "species": 43,
+    "name": "SPECIES_ODDISH"
+   }
+  },
+  {
+   "header_index": 33,
+   "map": "Route119",
+   "group": 0,
+   "num": 34,
+   "table": "land",
+   "slot": 8,
+   "creator": {
+    "min": 25,
+    "max": 25,
+    "species": 417,
+    "name": "WHISPER"
+   },
+   "vanilla": {
+    "min": 25,
+    "max": 25,
+    "species": 369,
+    "name": "SPECIES_TROPIUS"
+   }
+  },
+  {
+   "header_index": 34,
+   "map": "Route120",
+   "group": 0,
+   "num": 35,
+   "table": "land",
+   "slot": 1,
+   "creator": {
+    "min": 25,
+    "max": 25,
+    "species": 417,
+    "name": "WHISPER"
+   },
+   "vanilla": {
+    "min": 25,
+    "max": 25,
+    "species": 287,
+    "name": "SPECIES_MIGHTYENA"
+   }
+  },
+  {
+   "header_index": 34,
+   "map": "Route120",
+   "group": 0,
+   "num": 35,
+   "table": "land",
+   "slot": 6,
+   "creator": {
+    "min": 27,
+    "max": 27,
+    "species": 415,
+    "name": "BLIZZARIA"
+   },
+   "vanilla": {
+    "min": 27,
+    "max": 27,
+    "species": 43,
+    "name": "SPECIES_ODDISH"
+   }
+  },
+  {
+   "header_index": 34,
+   "map": "Route120",
+   "group": 0,
+   "num": 35,
+   "table": "land",
+   "slot": 8,
+   "creator": {
+    "min": 25,
+    "max": 25,
+    "species": 416,
+    "name": "GARGAROS"
+   },
+   "vanilla": {
+    "min": 25,
+    "max": 25,
+    "species": 376,
+    "name": "SPECIES_ABSOL"
+   }
+  },
+  {
+   "header_index": 35,
+   "map": "Route121",
+   "group": 0,
+   "num": 36,
+   "table": "land",
+   "slot": 3,
+   "creator": {
+    "min": 28,
+    "max": 28,
+    "species": 415,
+    "name": "BLIZZARIA"
+   },
+   "vanilla": {
+    "min": 28,
+    "max": 28,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 35,
+   "map": "Route121",
+   "group": 0,
+   "num": 36,
+   "table": "land",
+   "slot": 6,
+   "creator": {
+    "min": 28,
+    "max": 28,
+    "species": 413,
+    "name": "KOMASAN"
+   },
+   "vanilla": {
+    "min": 28,
+    "max": 28,
+    "species": 43,
+    "name": "SPECIES_ODDISH"
+   }
+  },
+  {
+   "header_index": 37,
+   "map": "Route123",
+   "group": 0,
+   "num": 38,
+   "table": "land",
+   "slot": 3,
+   "creator": {
+    "min": 28,
+    "max": 28,
+    "species": 415,
+    "name": "BLIZZARIA"
+   },
+   "vanilla": {
+    "min": 28,
+    "max": 28,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 37,
+   "map": "Route123",
+   "group": 0,
+   "num": 38,
+   "table": "land",
+   "slot": 5,
+   "creator": {
+    "min": 26,
+    "max": 26,
+    "species": 412,
+    "name": "JIBANYAN"
+   },
+   "vanilla": {
+    "min": 26,
+    "max": 26,
+    "species": 43,
+    "name": "SPECIES_ODDISH"
+   }
+  },
+  {
+   "header_index": 37,
+   "map": "Route123",
+   "group": 0,
+   "num": 38,
+   "table": "land",
+   "slot": 9,
+   "creator": {
+    "min": 27,
+    "max": 27,
+    "species": 414,
+    "name": "KOMAJIRO"
+   },
+   "vanilla": {
+    "min": 27,
+    "max": 27,
+    "species": 309,
+    "name": "SPECIES_WINGULL"
+   }
+  },
+  {
+   "header_index": 38,
+   "map": "MtPyre_2F",
+   "group": 24,
+   "num": 16,
+   "table": "land",
+   "slot": 5,
+   "creator": {
+    "min": 24,
+    "max": 24,
+    "species": 417,
+    "name": "WHISPER"
+   },
+   "vanilla": {
+    "min": 24,
+    "max": 24,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 38,
+   "map": "MtPyre_2F",
+   "group": 24,
+   "num": 16,
+   "table": "land",
+   "slot": 6,
+   "creator": {
+    "min": 23,
+    "max": 23,
+    "species": 412,
+    "name": "JIBANYAN"
+   },
+   "vanilla": {
+    "min": 23,
+    "max": 23,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 38,
+   "map": "MtPyre_2F",
+   "group": 24,
+   "num": 16,
+   "table": "land",
+   "slot": 7,
+   "creator": {
+    "min": 22,
+    "max": 22,
+    "species": 413,
+    "name": "KOMASAN"
+   },
+   "vanilla": {
+    "min": 22,
+    "max": 22,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 38,
+   "map": "MtPyre_2F",
+   "group": 24,
+   "num": 16,
+   "table": "land",
+   "slot": 8,
+   "creator": {
+    "min": 29,
+    "max": 29,
+    "species": 414,
+    "name": "KOMAJIRO"
+   },
+   "vanilla": {
+    "min": 29,
+    "max": 29,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 38,
+   "map": "MtPyre_2F",
+   "group": 24,
+   "num": 16,
+   "table": "land",
+   "slot": 9,
+   "creator": {
+    "min": 24,
+    "max": 24,
+    "species": 415,
+    "name": "BLIZZARIA"
+   },
+   "vanilla": {
+    "min": 24,
+    "max": 24,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 38,
+   "map": "MtPyre_2F",
+   "group": 24,
+   "num": 16,
+   "table": "land",
+   "slot": 10,
+   "creator": {
+    "min": 29,
+    "max": 29,
+    "species": 416,
+    "name": "GARGAROS"
+   },
+   "vanilla": {
+    "min": 29,
+    "max": 29,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 39,
+   "map": "MtPyre_3F",
+   "group": 24,
+   "num": 17,
+   "table": "land",
+   "slot": 4,
+   "creator": {
+    "min": 29,
+    "max": 29,
+    "species": 417,
+    "name": "WHISPER"
+   },
+   "vanilla": {
+    "min": 29,
+    "max": 29,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 39,
+   "map": "MtPyre_3F",
+   "group": 24,
+   "num": 17,
+   "table": "land",
+   "slot": 5,
+   "creator": {
+    "min": 24,
+    "max": 24,
+    "species": 412,
+    "name": "JIBANYAN"
+   },
+   "vanilla": {
+    "min": 24,
+    "max": 24,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 39,
+   "map": "MtPyre_3F",
+   "group": 24,
+   "num": 17,
+   "table": "land",
+   "slot": 6,
+   "creator": {
+    "min": 23,
+    "max": 23,
+    "species": 414,
+    "name": "KOMAJIRO"
+   },
+   "vanilla": {
+    "min": 23,
+    "max": 23,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 39,
+   "map": "MtPyre_3F",
+   "group": 24,
+   "num": 17,
+   "table": "land",
+   "slot": 7,
+   "creator": {
+    "min": 22,
+    "max": 22,
+    "species": 413,
+    "name": "KOMASAN"
+   },
+   "vanilla": {
+    "min": 22,
+    "max": 22,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 39,
+   "map": "MtPyre_3F",
+   "group": 24,
+   "num": 17,
+   "table": "land",
+   "slot": 8,
+   "creator": {
+    "min": 29,
+    "max": 29,
+    "species": 415,
+    "name": "BLIZZARIA"
+   },
+   "vanilla": {
+    "min": 29,
+    "max": 29,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 39,
+   "map": "MtPyre_3F",
+   "group": 24,
+   "num": 17,
+   "table": "land",
+   "slot": 9,
+   "creator": {
+    "min": 24,
+    "max": 24,
+    "species": 416,
+    "name": "GARGAROS"
+   },
+   "vanilla": {
+    "min": 24,
+    "max": 24,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 40,
+   "map": "MtPyre_4F",
+   "group": 24,
+   "num": 18,
+   "table": "land",
+   "slot": 3,
+   "creator": {
+    "min": 25,
+    "max": 25,
+    "species": 417,
+    "name": "WHISPER"
+   },
+   "vanilla": {
+    "min": 25,
+    "max": 25,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 40,
+   "map": "MtPyre_4F",
+   "group": 24,
+   "num": 18,
+   "table": "land",
+   "slot": 4,
+   "creator": {
+    "min": 29,
+    "max": 29,
+    "species": 412,
+    "name": "JIBANYAN"
+   },
+   "vanilla": {
+    "min": 29,
+    "max": 29,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 40,
+   "map": "MtPyre_4F",
+   "group": 24,
+   "num": 18,
+   "table": "land",
+   "slot": 5,
+   "creator": {
+    "min": 24,
+    "max": 24,
+    "species": 414,
+    "name": "KOMAJIRO"
+   },
+   "vanilla": {
+    "min": 24,
+    "max": 24,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 40,
+   "map": "MtPyre_4F",
+   "group": 24,
+   "num": 18,
+   "table": "land",
+   "slot": 6,
+   "creator": {
+    "min": 23,
+    "max": 23,
+    "species": 413,
+    "name": "KOMASAN"
+   },
+   "vanilla": {
+    "min": 23,
+    "max": 23,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 40,
+   "map": "MtPyre_4F",
+   "group": 24,
+   "num": 18,
+   "table": "land",
+   "slot": 7,
+   "creator": {
+    "min": 22,
+    "max": 22,
+    "species": 415,
+    "name": "BLIZZARIA"
+   },
+   "vanilla": {
+    "min": 22,
+    "max": 22,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 40,
+   "map": "MtPyre_4F",
+   "group": 24,
+   "num": 18,
+   "table": "land",
+   "slot": 8,
+   "creator": {
+    "min": 27,
+    "max": 27,
+    "species": 416,
+    "name": "GARGAROS"
+   },
+   "vanilla": {
+    "min": 27,
+    "max": 27,
+    "species": 361,
+    "name": "SPECIES_DUSKULL"
+   }
+  },
+  {
+   "header_index": 41,
+   "map": "MtPyre_5F",
+   "group": 24,
+   "num": 19,
+   "table": "land",
+   "slot": 2,
+   "creator": {
+    "min": 26,
+    "max": 26,
+    "species": 417,
+    "name": "WHISPER"
+   },
+   "vanilla": {
+    "min": 26,
+    "max": 26,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 41,
+   "map": "MtPyre_5F",
+   "group": 24,
+   "num": 19,
+   "table": "land",
+   "slot": 3,
+   "creator": {
+    "min": 25,
+    "max": 25,
+    "species": 412,
+    "name": "JIBANYAN"
+   },
+   "vanilla": {
+    "min": 25,
+    "max": 25,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 41,
+   "map": "MtPyre_5F",
+   "group": 24,
+   "num": 19,
+   "table": "land",
+   "slot": 4,
+   "creator": {
+    "min": 29,
+    "max": 29,
+    "species": 413,
+    "name": "KOMASAN"
+   },
+   "vanilla": {
+    "min": 29,
+    "max": 29,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 41,
+   "map": "MtPyre_5F",
+   "group": 24,
+   "num": 19,
+   "table": "land",
+   "slot": 5,
+   "creator": {
+    "min": 24,
+    "max": 24,
+    "species": 414,
+    "name": "KOMAJIRO"
+   },
+   "vanilla": {
+    "min": 24,
+    "max": 24,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 41,
+   "map": "MtPyre_5F",
+   "group": 24,
+   "num": 19,
+   "table": "land",
+   "slot": 6,
+   "creator": {
+    "min": 23,
+    "max": 23,
+    "species": 415,
+    "name": "BLIZZARIA"
+   },
+   "vanilla": {
+    "min": 23,
+    "max": 23,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 41,
+   "map": "MtPyre_5F",
+   "group": 24,
+   "num": 19,
+   "table": "land",
+   "slot": 7,
+   "creator": {
+    "min": 22,
+    "max": 22,
+    "species": 416,
+    "name": "GARGAROS"
+   },
+   "vanilla": {
+    "min": 22,
+    "max": 22,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 42,
+   "map": "MtPyre_6F",
+   "group": 24,
+   "num": 20,
+   "table": "land",
+   "slot": 1,
+   "creator": {
+    "min": 28,
+    "max": 28,
+    "species": 417,
+    "name": "WHISPER"
+   },
+   "vanilla": {
+    "min": 28,
+    "max": 28,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 42,
+   "map": "MtPyre_6F",
+   "group": 24,
+   "num": 20,
+   "table": "land",
+   "slot": 2,
+   "creator": {
+    "min": 26,
+    "max": 26,
+    "species": 412,
+    "name": "JIBANYAN"
+   },
+   "vanilla": {
+    "min": 26,
+    "max": 26,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 42,
+   "map": "MtPyre_6F",
+   "group": 24,
+   "num": 20,
+   "table": "land",
+   "slot": 3,
+   "creator": {
+    "min": 25,
+    "max": 25,
+    "species": 414,
+    "name": "KOMAJIRO"
+   },
+   "vanilla": {
+    "min": 25,
+    "max": 25,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 42,
+   "map": "MtPyre_6F",
+   "group": 24,
+   "num": 20,
+   "table": "land",
+   "slot": 4,
+   "creator": {
+    "min": 29,
+    "max": 29,
+    "species": 413,
+    "name": "KOMASAN"
+   },
+   "vanilla": {
+    "min": 29,
+    "max": 29,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 42,
+   "map": "MtPyre_6F",
+   "group": 24,
+   "num": 20,
+   "table": "land",
+   "slot": 5,
+   "creator": {
+    "min": 24,
+    "max": 24,
+    "species": 415,
+    "name": "BLIZZARIA"
+   },
+   "vanilla": {
+    "min": 24,
+    "max": 24,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 42,
+   "map": "MtPyre_6F",
+   "group": 24,
+   "num": 20,
+   "table": "land",
+   "slot": 6,
+   "creator": {
+    "min": 23,
+    "max": 23,
+    "species": 416,
+    "name": "GARGAROS"
+   },
+   "vanilla": {
+    "min": 23,
+    "max": 23,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 44,
+   "map": "MtPyre_Summit",
+   "group": 24,
+   "num": 22,
+   "table": "land",
+   "slot": 2,
+   "creator": {
+    "min": 27,
+    "max": 27,
+    "species": 417,
+    "name": "WHISPER"
+   },
+   "vanilla": {
+    "min": 27,
+    "max": 27,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 44,
+   "map": "MtPyre_Summit",
+   "group": 24,
+   "num": 22,
+   "table": "land",
+   "slot": 3,
+   "creator": {
+    "min": 26,
+    "max": 26,
+    "species": 412,
+    "name": "JIBANYAN"
+   },
+   "vanilla": {
+    "min": 26,
+    "max": 26,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 44,
+   "map": "MtPyre_Summit",
+   "group": 24,
+   "num": 22,
+   "table": "land",
+   "slot": 4,
+   "creator": {
+    "min": 30,
+    "max": 30,
+    "species": 413,
+    "name": "KOMASAN"
+   },
+   "vanilla": {
+    "min": 30,
+    "max": 30,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 44,
+   "map": "MtPyre_Summit",
+   "group": 24,
+   "num": 22,
+   "table": "land",
+   "slot": 5,
+   "creator": {
+    "min": 25,
+    "max": 25,
+    "species": 414,
+    "name": "KOMAJIRO"
+   },
+   "vanilla": {
+    "min": 25,
+    "max": 25,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 44,
+   "map": "MtPyre_Summit",
+   "group": 24,
+   "num": 22,
+   "table": "land",
+   "slot": 6,
+   "creator": {
+    "min": 24,
+    "max": 24,
+    "species": 415,
+    "name": "BLIZZARIA"
+   },
+   "vanilla": {
+    "min": 24,
+    "max": 24,
+    "species": 377,
+    "name": "SPECIES_SHUPPET"
+   }
+  },
+  {
+   "header_index": 44,
+   "map": "MtPyre_Summit",
+   "group": 24,
+   "num": 22,
+   "table": "land",
+   "slot": 7,
+   "creator": {
+    "min": 28,
+    "max": 28,
+    "species": 416,
+    "name": "GARGAROS"
+   },
+   "vanilla": {
+    "min": 28,
+    "max": 28,
+    "species": 361,
+    "name": "SPECIES_DUSKULL"
+   }
+  },
+  {
+   "header_index": 45,
+   "map": "GraniteCave_StevensRoom",
+   "group": 24,
+   "num": 10,
+   "table": "land",
+   "slot": 4,
+   "creator": {
+    "min": 9,
+    "max": 9,
+    "species": 413,
+    "name": "KOMASAN"
+   },
+   "vanilla": {
+    "min": 9,
+    "max": 9,
+    "species": 335,
+    "name": "SPECIES_MAKUHITA"
+   }
+  },
+  {
+   "header_index": 45,
+   "map": "GraniteCave_StevensRoom",
+   "group": 24,
+   "num": 10,
+   "table": "land",
+   "slot": 7,
+   "creator": {
+    "min": 6,
+    "max": 6,
+    "species": 414,
+    "name": "KOMAJIRO"
+   },
+   "vanilla": {
+    "min": 6,
+    "max": 6,
+    "species": 335,
+    "name": "SPECIES_MAKUHITA"
+   }
+  },
+  {
+   "header_index": 45,
+   "map": "GraniteCave_StevensRoom",
+   "group": 24,
+   "num": 10,
+   "table": "land",
+   "slot": 9,
+   "creator": {
+    "min": 8,
+    "max": 8,
+    "species": 412,
+    "name": "JIBANYAN"
+   },
+   "vanilla": {
+    "min": 8,
+    "max": 8,
+    "species": 382,
+    "name": "SPECIES_ARON"
+   }
+  },
+  {
+   "header_index": 45,
+   "map": "GraniteCave_StevensRoom",
+   "group": 24,
+   "num": 10,
+   "table": "land",
+   "slot": 11,
+   "creator": {
+    "min": 8,
+    "max": 8,
+    "species": 417,
+    "name": "WHISPER"
+   },
+   "vanilla": {
+    "min": 8,
+    "max": 8,
+    "species": 382,
+    "name": "SPECIES_ARON"
+   }
+  },
+  {
+   "header_index": 64,
+   "map": "SeafloorCavern_Room8",
+   "group": 24,
+   "num": 35,
+   "table": "land",
+   "slot": 11,
+   "creator": {
+    "min": 36,
+    "max": 36,
+    "species": 250,
+    "name": "SPECIES_HO_OH"
+   },
+   "vanilla": {
+    "min": 36,
+    "max": 36,
+    "species": 42,
+    "name": "SPECIES_GOLBAT"
+   }
+  },
+  {
+   "header_index": 77,
+   "map": "MeteorFalls_1F_1R",
+   "group": 24,
+   "num": 0,
+   "table": "land",
+   "slot": 4,
+   "creator": {
+    "min": 14,
+    "max": 14,
+    "species": 416,
+    "name": "GARGAROS"
+   },
+   "vanilla": {
+    "min": 14,
+    "max": 14,
+    "species": 41,
+    "name": "SPECIES_ZUBAT"
+   }
+  },
+  {
+   "header_index": 77,
+   "map": "MeteorFalls_1F_1R",
+   "group": 24,
+   "num": 0,
+   "table": "land",
+   "slot": 8,
+   "creator": {
+    "min": 19,
+    "max": 19,
+    "species": 417,
+    "name": "WHISPER"
+   },
+   "vanilla": {
+    "min": 19,
+    "max": 19,
+    "species": 41,
+    "name": "SPECIES_ZUBAT"
+   }
+  },
+  {
+   "header_index": 79,
+   "map": "MeteorFalls_B1F_1R",
+   "group": 24,
+   "num": 2,
+   "table": "land",
+   "slot": 6,
+   "creator": {
+    "min": 35,
+    "max": 35,
+    "species": 416,
+    "name": "GARGAROS"
+   },
+   "vanilla": {
+    "min": 35,
+    "max": 35,
+    "species": 42,
+    "name": "SPECIES_GOLBAT"
+   }
+  },
+  {
+   "header_index": 80,
+   "map": "ShoalCave_LowTideStairsRoom",
+   "group": 24,
+   "num": 48,
+   "table": "land",
+   "slot": 1,
+   "creator": {
+    "min": 26,
+    "max": 26,
+    "species": 415,
+    "name": "BLIZZARIA"
+   },
+   "vanilla": {
+    "min": 26,
+    "max": 26,
+    "species": 341,
+    "name": "SPECIES_SPHEAL"
+   }
+  },
+  {
+   "header_index": 82,
+   "map": "ShoalCave_LowTideInnerRoom",
+   "group": 24,
+   "num": 47,
+   "table": "land",
+   "slot": 1,
+   "creator": {
+    "min": 26,
+    "max": 26,
+    "species": 415,
+    "name": "BLIZZARIA"
+   },
+   "vanilla": {
+    "min": 26,
+    "max": 26,
+    "species": 341,
+    "name": "SPECIES_SPHEAL"
+   }
+  },
+  {
+   "header_index": 83,
+   "map": "ShoalCave_LowTideEntranceRoom",
+   "group": 24,
+   "num": 46,
+   "table": "land",
+   "slot": 1,
+   "creator": {
+    "min": 26,
+    "max": 26,
+    "species": 415,
+    "name": "BLIZZARIA"
+   },
+   "vanilla": {
+    "min": 26,
+    "max": 26,
+    "species": 341,
+    "name": "SPECIES_SPHEAL"
+   }
+  },
+  {
+   "header_index": 92,
+   "map": "ShoalCave_LowTideIceRoom",
+   "group": 24,
+   "num": 83,
+   "table": "land",
+   "slot": 9,
+   "creator": {
+    "min": 28,
+    "max": 28,
+    "species": 415,
+    "name": "BLIZZARIA"
+   },
+   "vanilla": {
+    "min": 28,
+    "max": 28,
+    "species": 346,
+    "name": "SPECIES_SNORUNT"
+   }
+  },
+  {
+   "header_index": 92,
+   "map": "ShoalCave_LowTideIceRoom",
+   "group": 24,
+   "num": 83,
+   "table": "land",
+   "slot": 11,
+   "creator": {
+    "min": 1,
+    "max": 100,
+    "species": 415,
+    "name": "BLIZZARIA"
+   },
+   "vanilla": {
+    "min": 30,
+    "max": 30,
+    "species": 346,
+    "name": "SPECIES_SNORUNT"
+   }
+  },
+  {
+   "header_index": 93,
+   "map": "SkyPillar_1F",
+   "group": 24,
+   "num": 79,
+   "table": "land",
+   "slot": 6,
+   "creator": {
+    "min": 38,
+    "max": 38,
+    "species": 417,
+    "name": "WHISPER"
+   },
+   "vanilla": {
+    "min": 38,
+    "max": 38,
+    "species": 378,
+    "name": "SPECIES_BANETTE"
+   }
+  },
+  {
+   "header_index": 93,
+   "map": "SkyPillar_1F",
+   "group": 24,
+   "num": 79,
+   "table": "land",
+   "slot": 10,
+   "creator": {
+    "min": 37,
+    "max": 37,
+    "species": 416,
+    "name": "GARGAROS"
+   },
+   "vanilla": {
+    "min": 37,
+    "max": 37,
+    "species": 319,
+    "name": "SPECIES_CLAYDOL"
+   }
+  },
+  {
+   "header_index": 95,
+   "map": "SkyPillar_3F",
+   "group": 24,
+   "num": 81,
+   "table": "land",
+   "slot": 8,
+   "creator": {
+    "min": 37,
+    "max": 37,
+    "species": 412,
+    "name": "JIBANYAN"
+   },
+   "vanilla": {
+    "min": 37,
+    "max": 37,
+    "species": 319,
+    "name": "SPECIES_CLAYDOL"
+   }
+  },
+  {
+   "header_index": 95,
+   "map": "SkyPillar_3F",
+   "group": 24,
+   "num": 81,
+   "table": "land",
+   "slot": 10,
+   "creator": {
+    "min": 37,
+    "max": 37,
+    "species": 415,
+    "name": "BLIZZARIA"
+   },
+   "vanilla": {
+    "min": 37,
+    "max": 37,
+    "species": 319,
+    "name": "SPECIES_CLAYDOL"
+   }
+  },
+  {
+   "header_index": 96,
+   "map": "SkyPillar_5F",
+   "group": 24,
+   "num": 84,
+   "table": "land",
+   "slot": 6,
+   "creator": {
+    "min": 38,
+    "max": 38,
+    "species": 413,
+    "name": "KOMASAN"
+   },
+   "vanilla": {
+    "min": 38,
+    "max": 38,
+    "species": 378,
+    "name": "SPECIES_BANETTE"
+   }
+  },
+  {
+   "header_index": 96,
+   "map": "SkyPillar_5F",
+   "group": 24,
+   "num": 84,
+   "table": "land",
+   "slot": 7,
+   "creator": {
+    "min": 36,
+    "max": 36,
+    "species": 414,
+    "name": "KOMAJIRO"
+   },
+   "vanilla": {
+    "min": 36,
+    "max": 36,
+    "species": 319,
+    "name": "SPECIES_CLAYDOL"
+   }
+  }
+ ]
+}

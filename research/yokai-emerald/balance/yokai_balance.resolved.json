@@ -1,0 +1,1866 @@
+{
+ "resolved": {
+  "JIBANYAN": {
+   "types": [
+    "TYPE_FIRE",
+    "TYPE_FIGHTING"
+   ],
+   "ability": {
+    "const": "ABILITY_BLAZE",
+    "id": 66
+   },
+   "learnset": [
+    {
+     "level": 1,
+     "fr": "GRIFFE",
+     "const": "MOVE_SCRATCH",
+     "id": 10,
+     "type": "TYPE_NORMAL",
+     "power": 40,
+     "accuracy": 100,
+     "pp": 35,
+     "effect": "EFFECT_HIT",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 1,
+     "fr": "RUGISSEMENT",
+     "const": "MOVE_GROWL",
+     "id": 45,
+     "type": "TYPE_NORMAL",
+     "power": 0,
+     "accuracy": 100,
+     "pp": 40,
+     "effect": "EFFECT_ATTACK_DOWN",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 5,
+     "fr": "FLAMMECHE",
+     "const": "MOVE_EMBER",
+     "id": 52,
+     "type": "TYPE_FIRE",
+     "power": 40,
+     "accuracy": 100,
+     "pp": 25,
+     "effect": "EFFECT_BURN_HIT",
+     "alias_of": null,
+     "category": "special"
+    },
+    {
+     "level": 9,
+     "fr": "VIVE-ATTAQUE",
+     "const": "MOVE_QUICK_ATTACK",
+     "id": 98,
+     "type": "TYPE_NORMAL",
+     "power": 40,
+     "accuracy": 100,
+     "pp": 30,
+     "effect": "EFFECT_QUICK_ATTACK",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 13,
+     "fr": "COMBO-GRIFFE",
+     "const": "MOVE_FURY_SWIPES",
+     "id": 154,
+     "type": "TYPE_NORMAL",
+     "power": 18,
+     "accuracy": 80,
+     "pp": 15,
+     "effect": "EFFECT_MULTI_HIT",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 17,
+     "fr": "DOUBLE PIED",
+     "const": "MOVE_DOUBLE_KICK",
+     "id": 24,
+     "type": "TYPE_FIGHTING",
+     "power": 30,
+     "accuracy": 100,
+     "pp": 30,
+     "effect": "EFFECT_DOUBLE_HIT",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 21,
+     "fr": "POING FEU",
+     "const": "MOVE_FIRE_PUNCH",
+     "id": 7,
+     "type": "TYPE_FIRE",
+     "power": 75,
+     "accuracy": 100,
+     "pp": 15,
+     "effect": "EFFECT_BURN_HIT",
+     "alias_of": "POING DE FEU",
+     "category": "special"
+    },
+    {
+     "level": 25,
+     "fr": "METEORES",
+     "const": "MOVE_SWIFT",
+     "id": 129,
+     "type": "TYPE_NORMAL",
+     "power": 60,
+     "accuracy": 0,
+     "pp": 20,
+     "effect": "EFFECT_ALWAYS_HIT",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 29,
+     "fr": "CASSE-BRIQUE",
+     "const": "MOVE_BRICK_BREAK",
+     "id": 280,
+     "type": "TYPE_FIGHTING",
+     "power": 75,
+     "accuracy": 100,
+     "pp": 15,
+     "effect": "EFFECT_BRICK_BREAK",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 33,
+     "fr": "DANSE-LAMES",
+     "const": "MOVE_SWORDS_DANCE",
+     "id": 14,
+     "type": "TYPE_NORMAL",
+     "power": 0,
+     "accuracy": 0,
+     "pp": 30,
+     "effect": "EFFECT_ATTACK_UP_2",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 37,
+     "fr": "LANCE-FLAMMES",
+     "const": "MOVE_FLAMETHROWER",
+     "id": 53,
+     "type": "TYPE_FIRE",
+     "power": 95,
+     "accuracy": 100,
+     "pp": 15,
+     "effect": "EFFECT_BURN_HIT",
+     "alias_of": "LANCE-FLAMME",
+     "category": "special"
+    },
+    {
+     "level": 42,
+     "fr": "TRANCHE",
+     "const": "MOVE_SLASH",
+     "id": 163,
+     "type": "TYPE_NORMAL",
+     "power": 70,
+     "accuracy": 100,
+     "pp": 20,
+     "effect": "EFFECT_HIGH_CRITICAL",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 47,
+     "fr": "PIED VOLTIGE",
+     "const": "MOVE_HI_JUMP_KICK",
+     "id": 136,
+     "type": "TYPE_FIGHTING",
+     "power": 85,
+     "accuracy": 90,
+     "pp": 20,
+     "effect": "EFFECT_RECOIL_IF_MISS",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 53,
+     "fr": "SURCHAUFFE",
+     "const": "MOVE_OVERHEAT",
+     "id": 315,
+     "type": "TYPE_FIRE",
+     "power": 140,
+     "accuracy": 90,
+     "pp": 5,
+     "effect": "EFFECT_OVERHEAT",
+     "alias_of": null,
+     "category": "special"
+    },
+    {
+     "level": 59,
+     "fr": "DAMOCLES",
+     "const": "MOVE_DOUBLE_EDGE",
+     "id": 38,
+     "type": "TYPE_NORMAL",
+     "power": 120,
+     "accuracy": 100,
+     "pp": 15,
+     "effect": "EFFECT_DOUBLE_EDGE",
+     "alias_of": null,
+     "category": "physical"
+    }
+   ],
+   "tm": [
+    {
+     "tm": 1,
+     "bit": 0,
+     "move": "FOCUS_PUNCH"
+    },
+    {
+     "tm": 6,
+     "bit": 5,
+     "move": "TOXIC"
+    },
+    {
+     "tm": 8,
+     "bit": 7,
+     "move": "BULK_UP"
+    },
+    {
+     "tm": 10,
+     "bit": 9,
+     "move": "HIDDEN_POWER"
+    },
+    {
+     "tm": 11,
+     "bit": 10,
+     "move": "SUNNY_DAY"
+    },
+    {
+     "tm": 17,
+     "bit": 16,
+     "move": "PROTECT"
+    },
+    {
+     "tm": 21,
+     "bit": 20,
+     "move": "FRUSTRATION"
+    },
+    {
+     "tm": 27,
+     "bit": 26,
+     "move": "RETURN"
+    },
+    {
+     "tm": 28,
+     "bit": 27,
+     "move": "DIG"
+    },
+    {
+     "tm": 31,
+     "bit": 30,
+     "move": "BRICK_BREAK"
+    },
+    {
+     "tm": 32,
+     "bit": 31,
+     "move": "DOUBLE_TEAM"
+    },
+    {
+     "tm": 35,
+     "bit": 34,
+     "move": "FLAMETHROWER"
+    },
+    {
+     "tm": 38,
+     "bit": 37,
+     "move": "FIRE_BLAST"
+    },
+    {
+     "tm": 40,
+     "bit": 39,
+     "move": "AERIAL_ACE"
+    },
+    {
+     "tm": 42,
+     "bit": 41,
+     "move": "FACADE"
+    },
+    {
+     "tm": 43,
+     "bit": 42,
+     "move": "SECRET_POWER"
+    },
+    {
+     "tm": 44,
+     "bit": 43,
+     "move": "REST"
+    },
+    {
+     "tm": 45,
+     "bit": 44,
+     "move": "ATTRACT"
+    },
+    {
+     "tm": 50,
+     "bit": 49,
+     "move": "OVERHEAT"
+    }
+   ],
+   "hm": [
+    {
+     "hm": 1,
+     "bit": 50,
+     "move": "CUT"
+    },
+    {
+     "hm": 4,
+     "bit": 53,
+     "move": "STRENGTH"
+    },
+    {
+     "hm": 6,
+     "bit": 55,
+     "move": "ROCK_SMASH"
+    }
+   ]
+  },
+  "KOMASAN": {
+   "types": [
+    "TYPE_FIRE"
+   ],
+   "ability": {
+    "const": "ABILITY_FLASH_FIRE",
+    "id": 18
+   },
+   "learnset": [
+    {
+     "level": 1,
+     "fr": "CHARGE",
+     "const": "MOVE_TACKLE",
+     "id": 33,
+     "type": "TYPE_NORMAL",
+     "power": 35,
+     "accuracy": 95,
+     "pp": 35,
+     "effect": "EFFECT_HIT",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 1,
+     "fr": "BOUL'ARMURE",
+     "const": "MOVE_DEFENSE_CURL",
+     "id": 111,
+     "type": "TYPE_NORMAL",
+     "power": 0,
+     "accuracy": 0,
+     "pp": 40,
+     "effect": "EFFECT_DEFENSE_CURL",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 6,
+     "fr": "FLAMMECHE",
+     "const": "MOVE_EMBER",
+     "id": 52,
+     "type": "TYPE_FIRE",
+     "power": 40,
+     "accuracy": 100,
+     "pp": 25,
+     "effect": "EFFECT_BURN_HIT",
+     "alias_of": null,
+     "category": "special"
+    },
+    {
+     "level": 10,
+     "fr": "JET DE SABLE",
+     "const": "MOVE_SAND_ATTACK",
+     "id": 28,
+     "type": "TYPE_GROUND",
+     "power": 0,
+     "accuracy": 100,
+     "pp": 15,
+     "effect": "EFFECT_ACCURACY_DOWN",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 14,
+     "fr": "FEU FOLLET",
+     "const": "MOVE_WILL_O_WISP",
+     "id": 261,
+     "type": "TYPE_FIRE",
+     "power": 0,
+     "accuracy": 75,
+     "pp": 15,
+     "effect": "EFFECT_WILL_O_WISP",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 18,
+     "fr": "AMPLEUR",
+     "const": "MOVE_MAGNITUDE",
+     "id": 222,
+     "type": "TYPE_GROUND",
+     "power": 1,
+     "accuracy": 100,
+     "pp": 30,
+     "effect": "EFFECT_MAGNITUDE",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 22,
+     "fr": "ROUE DE FEU",
+     "const": "MOVE_FLAME_WHEEL",
+     "id": 172,
+     "type": "TYPE_FIRE",
+     "power": 60,
+     "accuracy": 100,
+     "pp": 25,
+     "effect": "EFFECT_THAW_HIT",
+     "alias_of": null,
+     "category": "special"
+    },
+    {
+     "level": 26,
+     "fr": "AMNESIE",
+     "const": "MOVE_AMNESIA",
+     "id": 133,
+     "type": "TYPE_PSYCHIC",
+     "power": 0,
+     "accuracy": 0,
+     "pp": 20,
+     "effect": "EFFECT_SPECIAL_DEFENSE_UP_2",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 30,
+     "fr": "LANCE-FLAMMES",
+     "const": "MOVE_FLAMETHROWER",
+     "id": 53,
+     "type": "TYPE_FIRE",
+     "power": 95,
+     "accuracy": 100,
+     "pp": 15,
+     "effect": "EFFECT_BURN_HIT",
+     "alias_of": "LANCE-FLAMME",
+     "category": "special"
+    },
+    {
+     "level": 34,
+     "fr": "REPOS",
+     "const": "MOVE_REST",
+     "id": 156,
+     "type": "TYPE_PSYCHIC",
+     "power": 0,
+     "accuracy": 0,
+     "pp": 10,
+     "effect": "EFFECT_REST",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 38,
+     "fr": "LANCE-BOUE",
+     "const": "MOVE_MUD_SPORT",
+     "id": 300,
+     "type": "TYPE_GROUND",
+     "power": 0,
+     "accuracy": 100,
+     "pp": 15,
+     "effect": "EFFECT_MUD_SPORT",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 42,
+     "fr": "SEISME",
+     "const": "MOVE_EARTHQUAKE",
+     "id": 89,
+     "type": "TYPE_GROUND",
+     "power": 100,
+     "accuracy": 100,
+     "pp": 10,
+     "effect": "EFFECT_EARTHQUAKE",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 47,
+     "fr": "DEFLAGRATION",
+     "const": "MOVE_FIRE_BLAST",
+     "id": 126,
+     "type": "TYPE_FIRE",
+     "power": 120,
+     "accuracy": 85,
+     "pp": 5,
+     "effect": "EFFECT_BURN_HIT",
+     "alias_of": null,
+     "category": "special"
+    },
+    {
+     "level": 53,
+     "fr": "PLENITUDE",
+     "const": "MOVE_CALM_MIND",
+     "id": 347,
+     "type": "TYPE_PSYCHIC",
+     "power": 0,
+     "accuracy": 0,
+     "pp": 20,
+     "effect": "EFFECT_CALM_MIND",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 59,
+     "fr": "ERUPTION",
+     "const": "MOVE_ERUPTION",
+     "id": 284,
+     "type": "TYPE_FIRE",
+     "power": 150,
+     "accuracy": 100,
+     "pp": 5,
+     "effect": "EFFECT_ERUPTION",
+     "alias_of": null,
+     "category": "special"
+    }
+   ],
+   "tm": [
+    {
+     "tm": 4,
+     "bit": 3,
+     "move": "CALM_MIND"
+    },
+    {
+     "tm": 6,
+     "bit": 5,
+     "move": "TOXIC"
+    },
+    {
+     "tm": 10,
+     "bit": 9,
+     "move": "HIDDEN_POWER"
+    },
+    {
+     "tm": 11,
+     "bit": 10,
+     "move": "SUNNY_DAY"
+    },
+    {
+     "tm": 15,
+     "bit": 14,
+     "move": "HYPER_BEAM"
+    },
+    {
+     "tm": 16,
+     "bit": 15,
+     "move": "LIGHT_SCREEN"
+    },
+    {
+     "tm": 17,
+     "bit": 16,
+     "move": "PROTECT"
+    },
+    {
+     "tm": 21,
+     "bit": 20,
+     "move": "FRUSTRATION"
+    },
+    {
+     "tm": 22,
+     "bit": 21,
+     "move": "SOLAR_BEAM"
+    },
+    {
+     "tm": 26,
+     "bit": 25,
+     "move": "EARTHQUAKE"
+    },
+    {
+     "tm": 27,
+     "bit": 26,
+     "move": "RETURN"
+    },
+    {
+     "tm": 28,
+     "bit": 27,
+     "move": "DIG"
+    },
+    {
+     "tm": 32,
+     "bit": 31,
+     "move": "DOUBLE_TEAM"
+    },
+    {
+     "tm": 35,
+     "bit": 34,
+     "move": "FLAMETHROWER"
+    },
+    {
+     "tm": 37,
+     "bit": 36,
+     "move": "SANDSTORM"
+    },
+    {
+     "tm": 38,
+     "bit": 37,
+     "move": "FIRE_BLAST"
+    },
+    {
+     "tm": 42,
+     "bit": 41,
+     "move": "FACADE"
+    },
+    {
+     "tm": 43,
+     "bit": 42,
+     "move": "SECRET_POWER"
+    },
+    {
+     "tm": 44,
+     "bit": 43,
+     "move": "REST"
+    },
+    {
+     "tm": 45,
+     "bit": 44,
+     "move": "ATTRACT"
+    },
+    {
+     "tm": 50,
+     "bit": 49,
+     "move": "OVERHEAT"
+    }
+   ],
+   "hm": [
+    {
+     "hm": 4,
+     "bit": 53,
+     "move": "STRENGTH"
+    },
+    {
+     "hm": 6,
+     "bit": 55,
+     "move": "ROCK_SMASH"
+    }
+   ]
+  },
+  "KOMAJIRO": {
+   "types": [
+    "TYPE_ELECTRIC"
+   ],
+   "ability": {
+    "const": "ABILITY_STATIC",
+    "id": 9
+   },
+   "learnset": [
+    {
+     "level": 1,
+     "fr": "CHARGE",
+     "const": "MOVE_TACKLE",
+     "id": 33,
+     "type": "TYPE_NORMAL",
+     "power": 35,
+     "accuracy": 95,
+     "pp": 35,
+     "effect": "EFFECT_HIT",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 1,
+     "fr": "MIMI-QUEUE",
+     "const": "MOVE_TAIL_WHIP",
+     "id": 39,
+     "type": "TYPE_NORMAL",
+     "power": 0,
+     "accuracy": 100,
+     "pp": 30,
+     "effect": "EFFECT_DEFENSE_DOWN",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 7,
+     "fr": "ECLAIR",
+     "const": "MOVE_THUNDER_SHOCK",
+     "id": 84,
+     "type": "TYPE_ELECTRIC",
+     "power": 40,
+     "accuracy": 100,
+     "pp": 30,
+     "effect": "EFFECT_PARALYZE_HIT",
+     "alias_of": null,
+     "category": "special"
+    },
+    {
+     "level": 11,
+     "fr": "VIVE-ATTAQUE",
+     "const": "MOVE_QUICK_ATTACK",
+     "id": 98,
+     "type": "TYPE_NORMAL",
+     "power": 40,
+     "accuracy": 100,
+     "pp": 30,
+     "effect": "EFFECT_QUICK_ATTACK",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 15,
+     "fr": "CAGE-ECLAIR",
+     "const": "MOVE_THUNDER_WAVE",
+     "id": 86,
+     "type": "TYPE_ELECTRIC",
+     "power": 0,
+     "accuracy": 100,
+     "pp": 20,
+     "effect": "EFFECT_PARALYZE",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 19,
+     "fr": "ETINCELLE",
+     "const": "MOVE_SPARK",
+     "id": 209,
+     "type": "TYPE_ELECTRIC",
+     "power": 65,
+     "accuracy": 100,
+     "pp": 20,
+     "effect": "EFFECT_PARALYZE_HIT",
+     "alias_of": null,
+     "category": "special"
+    },
+    {
+     "level": 23,
+     "fr": "METEORES",
+     "const": "MOVE_SWIFT",
+     "id": 129,
+     "type": "TYPE_NORMAL",
+     "power": 60,
+     "accuracy": 0,
+     "pp": 20,
+     "effect": "EFFECT_ALWAYS_HIT",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 27,
+     "fr": "ONDE DE CHOC",
+     "const": "MOVE_SHOCK_WAVE",
+     "id": 351,
+     "type": "TYPE_ELECTRIC",
+     "power": 60,
+     "accuracy": 0,
+     "pp": 20,
+     "effect": "EFFECT_ALWAYS_HIT",
+     "alias_of": null,
+     "category": "special"
+    },
+    {
+     "level": 31,
+     "fr": "MUR LUMIERE",
+     "const": "MOVE_LIGHT_SCREEN",
+     "id": 113,
+     "type": "TYPE_PSYCHIC",
+     "power": 0,
+     "accuracy": 0,
+     "pp": 30,
+     "effect": "EFFECT_LIGHT_SCREEN",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 35,
+     "fr": "TONNERRE",
+     "const": "MOVE_THUNDERBOLT",
+     "id": 85,
+     "type": "TYPE_ELECTRIC",
+     "power": 95,
+     "accuracy": 100,
+     "pp": 15,
+     "effect": "EFFECT_PARALYZE_HIT",
+     "alias_of": null,
+     "category": "special"
+    },
+    {
+     "level": 40,
+     "fr": "HATE",
+     "const": "MOVE_AGILITY",
+     "id": 97,
+     "type": "TYPE_PSYCHIC",
+     "power": 0,
+     "accuracy": 0,
+     "pp": 30,
+     "effect": "EFFECT_SPEED_UP_2",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 45,
+     "fr": "GRINCEMENT",
+     "const": "MOVE_SCREECH",
+     "id": 103,
+     "type": "TYPE_NORMAL",
+     "power": 0,
+     "accuracy": 85,
+     "pp": 40,
+     "effect": "EFFECT_DEFENSE_DOWN_2",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 50,
+     "fr": "FATAL-FOUDRE",
+     "const": "MOVE_THUNDER",
+     "id": 87,
+     "type": "TYPE_ELECTRIC",
+     "power": 120,
+     "accuracy": 70,
+     "pp": 10,
+     "effect": "EFFECT_THUNDER",
+     "alias_of": null,
+     "category": "special"
+    },
+    {
+     "level": 56,
+     "fr": "PROTECTION",
+     "const": "MOVE_REFLECT",
+     "id": 115,
+     "type": "TYPE_PSYCHIC",
+     "power": 0,
+     "accuracy": 0,
+     "pp": 20,
+     "effect": "EFFECT_REFLECT",
+     "alias_of": null,
+     "category": "status"
+    }
+   ],
+   "tm": [
+    {
+     "tm": 6,
+     "bit": 5,
+     "move": "TOXIC"
+    },
+    {
+     "tm": 10,
+     "bit": 9,
+     "move": "HIDDEN_POWER"
+    },
+    {
+     "tm": 16,
+     "bit": 15,
+     "move": "LIGHT_SCREEN"
+    },
+    {
+     "tm": 17,
+     "bit": 16,
+     "move": "PROTECT"
+    },
+    {
+     "tm": 18,
+     "bit": 17,
+     "move": "RAIN_DANCE"
+    },
+    {
+     "tm": 21,
+     "bit": 20,
+     "move": "FRUSTRATION"
+    },
+    {
+     "tm": 24,
+     "bit": 23,
+     "move": "THUNDERBOLT"
+    },
+    {
+     "tm": 25,
+     "bit": 24,
+     "move": "THUNDER"
+    },
+    {
+     "tm": 27,
+     "bit": 26,
+     "move": "RETURN"
+    },
+    {
+     "tm": 32,
+     "bit": 31,
+     "move": "DOUBLE_TEAM"
+    },
+    {
+     "tm": 34,
+     "bit": 33,
+     "move": "SHOCK_WAVE"
+    },
+    {
+     "tm": 42,
+     "bit": 41,
+     "move": "FACADE"
+    },
+    {
+     "tm": 43,
+     "bit": 42,
+     "move": "SECRET_POWER"
+    },
+    {
+     "tm": 44,
+     "bit": 43,
+     "move": "REST"
+    },
+    {
+     "tm": 45,
+     "bit": 44,
+     "move": "ATTRACT"
+    }
+   ],
+   "hm": [
+    {
+     "hm": 5,
+     "bit": 54,
+     "move": "FLASH"
+    }
+   ]
+  },
+  "WHISPER": {
+   "types": [
+    "TYPE_GHOST"
+   ],
+   "ability": {
+    "const": "ABILITY_LEVITATE",
+    "id": 26
+   },
+   "learnset": [
+    {
+     "level": 1,
+     "fr": "LECHOUILLE",
+     "const": "MOVE_LICK",
+     "id": 122,
+     "type": "TYPE_GHOST",
+     "power": 20,
+     "accuracy": 100,
+     "pp": 30,
+     "effect": "EFFECT_PARALYZE_HIT",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 1,
+     "fr": "REGARD NOIR",
+     "const": "MOVE_MEAN_LOOK",
+     "id": 212,
+     "type": "TYPE_NORMAL",
+     "power": 0,
+     "accuracy": 100,
+     "pp": 5,
+     "effect": "EFFECT_MEAN_LOOK",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 6,
+     "fr": "DEPIT",
+     "const": "MOVE_SPITE",
+     "id": 180,
+     "type": "TYPE_GHOST",
+     "power": 0,
+     "accuracy": 100,
+     "pp": 10,
+     "effect": "EFFECT_SPITE",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 10,
+     "fr": "ONDE FOLIE",
+     "const": "MOVE_CONFUSE_RAY",
+     "id": 109,
+     "type": "TYPE_GHOST",
+     "power": 0,
+     "accuracy": 100,
+     "pp": 10,
+     "effect": "EFFECT_CONFUSE",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 14,
+     "fr": "TENEBRES",
+     "const": "MOVE_NIGHT_SHADE",
+     "id": 101,
+     "type": "TYPE_GHOST",
+     "power": 1,
+     "accuracy": 100,
+     "pp": 15,
+     "effect": "EFFECT_LEVEL_DAMAGE",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 18,
+     "fr": "HYPNOSE",
+     "const": "MOVE_HYPNOSIS",
+     "id": 95,
+     "type": "TYPE_PSYCHIC",
+     "power": 0,
+     "accuracy": 60,
+     "pp": 20,
+     "effect": "EFFECT_SLEEP",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 22,
+     "fr": "MALEDICTION",
+     "const": "MOVE_CURSE",
+     "id": 174,
+     "type": "TYPE_MYSTERY",
+     "power": 0,
+     "accuracy": 0,
+     "pp": 10,
+     "effect": "EFFECT_CURSE",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 26,
+     "fr": "FEU FOLLET",
+     "const": "MOVE_WILL_O_WISP",
+     "id": 261,
+     "type": "TYPE_FIRE",
+     "power": 0,
+     "accuracy": 75,
+     "pp": 15,
+     "effect": "EFFECT_WILL_O_WISP",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 30,
+     "fr": "BALANCE",
+     "const": "MOVE_PAIN_SPLIT",
+     "id": 220,
+     "type": "TYPE_NORMAL",
+     "power": 0,
+     "accuracy": 100,
+     "pp": 20,
+     "effect": "EFFECT_PAIN_SPLIT",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 34,
+     "fr": "BALL'OMBRE",
+     "const": "MOVE_SHADOW_BALL",
+     "id": 247,
+     "type": "TYPE_GHOST",
+     "power": 80,
+     "accuracy": 100,
+     "pp": 15,
+     "effect": "EFFECT_SPECIAL_DEFENSE_DOWN_HIT",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 38,
+     "fr": "ONDE FOLIE",
+     "const": "MOVE_CONFUSE_RAY",
+     "id": 109,
+     "type": "TYPE_GHOST",
+     "power": 0,
+     "accuracy": 100,
+     "pp": 10,
+     "effect": "EFFECT_CONFUSE",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 42,
+     "fr": "DEVOREVE",
+     "const": "MOVE_DREAM_EATER",
+     "id": 138,
+     "type": "TYPE_PSYCHIC",
+     "power": 100,
+     "accuracy": 100,
+     "pp": 15,
+     "effect": "EFFECT_DREAM_EATER",
+     "alias_of": null,
+     "category": "special"
+    },
+    {
+     "level": 47,
+     "fr": "REPOS",
+     "const": "MOVE_REST",
+     "id": 156,
+     "type": "TYPE_PSYCHIC",
+     "power": 0,
+     "accuracy": 0,
+     "pp": 10,
+     "effect": "EFFECT_REST",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 52,
+     "fr": "PRLVT DESTIN",
+     "const": "MOVE_DESTINY_BOND",
+     "id": 194,
+     "type": "TYPE_GHOST",
+     "power": 0,
+     "accuracy": 0,
+     "pp": 5,
+     "effect": "EFFECT_DESTINY_BOND",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 58,
+     "fr": "CAUCHEMAR",
+     "const": "MOVE_NIGHTMARE",
+     "id": 171,
+     "type": "TYPE_GHOST",
+     "power": 0,
+     "accuracy": 100,
+     "pp": 15,
+     "effect": "EFFECT_NIGHTMARE",
+     "alias_of": null,
+     "category": "status"
+    }
+   ],
+   "tm": [
+    {
+     "tm": 6,
+     "bit": 5,
+     "move": "TOXIC"
+    },
+    {
+     "tm": 10,
+     "bit": 9,
+     "move": "HIDDEN_POWER"
+    },
+    {
+     "tm": 12,
+     "bit": 11,
+     "move": "TAUNT"
+    },
+    {
+     "tm": 17,
+     "bit": 16,
+     "move": "PROTECT"
+    },
+    {
+     "tm": 18,
+     "bit": 17,
+     "move": "RAIN_DANCE"
+    },
+    {
+     "tm": 21,
+     "bit": 20,
+     "move": "FRUSTRATION"
+    },
+    {
+     "tm": 27,
+     "bit": 26,
+     "move": "RETURN"
+    },
+    {
+     "tm": 29,
+     "bit": 28,
+     "move": "PSYCHIC"
+    },
+    {
+     "tm": 30,
+     "bit": 29,
+     "move": "SHADOW_BALL"
+    },
+    {
+     "tm": 32,
+     "bit": 31,
+     "move": "DOUBLE_TEAM"
+    },
+    {
+     "tm": 41,
+     "bit": 40,
+     "move": "TORMENT"
+    },
+    {
+     "tm": 42,
+     "bit": 41,
+     "move": "FACADE"
+    },
+    {
+     "tm": 43,
+     "bit": 42,
+     "move": "SECRET_POWER"
+    },
+    {
+     "tm": 44,
+     "bit": 43,
+     "move": "REST"
+    },
+    {
+     "tm": 45,
+     "bit": 44,
+     "move": "ATTRACT"
+    },
+    {
+     "tm": 49,
+     "bit": 48,
+     "move": "SNATCH"
+    }
+   ],
+   "hm": [
+    {
+     "hm": 5,
+     "bit": 54,
+     "move": "FLASH"
+    }
+   ]
+  },
+  "BLIZZARIA": {
+   "types": [
+    "TYPE_ICE"
+   ],
+   "ability": {
+    "const": "ABILITY_LEVITATE",
+    "id": 26
+   },
+   "learnset": [
+    {
+     "level": 1,
+     "fr": "POUDREUSE",
+     "const": "MOVE_POWDER_SNOW",
+     "id": 181,
+     "type": "TYPE_ICE",
+     "power": 40,
+     "accuracy": 100,
+     "pp": 25,
+     "effect": "EFFECT_FREEZE_HIT",
+     "alias_of": null,
+     "category": "special"
+    },
+    {
+     "level": 1,
+     "fr": "REGARD TOUCHANT",
+     "const": null,
+     "id": null
+    },
+    {
+     "level": 7,
+     "fr": "CHOC MENTAL",
+     "const": "MOVE_CONFUSION",
+     "id": 93,
+     "type": "TYPE_PSYCHIC",
+     "power": 50,
+     "accuracy": 100,
+     "pp": 25,
+     "effect": "EFFECT_CONFUSE_HIT",
+     "alias_of": null,
+     "category": "special"
+    },
+    {
+     "level": 11,
+     "fr": "VENT GLACE",
+     "const": "MOVE_ICY_WIND",
+     "id": 196,
+     "type": "TYPE_ICE",
+     "power": 55,
+     "accuracy": 95,
+     "pp": 15,
+     "effect": "EFFECT_SPEED_DOWN_HIT",
+     "alias_of": null,
+     "category": "special"
+    },
+    {
+     "level": 15,
+     "fr": "BRUME",
+     "const": "MOVE_MIST",
+     "id": 54,
+     "type": "TYPE_ICE",
+     "power": 0,
+     "accuracy": 0,
+     "pp": 30,
+     "effect": "EFFECT_MIST",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 19,
+     "fr": "ONDE FOLIE",
+     "const": "MOVE_CONFUSE_RAY",
+     "id": 109,
+     "type": "TYPE_GHOST",
+     "power": 0,
+     "accuracy": 100,
+     "pp": 10,
+     "effect": "EFFECT_CONFUSE",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 23,
+     "fr": "RAFALE PSY",
+     "const": "MOVE_PSYBEAM",
+     "id": 60,
+     "type": "TYPE_PSYCHIC",
+     "power": 65,
+     "accuracy": 100,
+     "pp": 20,
+     "effect": "EFFECT_CONFUSE_HIT",
+     "alias_of": null,
+     "category": "special"
+    },
+    {
+     "level": 27,
+     "fr": "ONDE BOREALE",
+     "const": "MOVE_AURORA_BEAM",
+     "id": 62,
+     "type": "TYPE_ICE",
+     "power": 65,
+     "accuracy": 100,
+     "pp": 20,
+     "effect": "EFFECT_ATTACK_DOWN_HIT",
+     "alias_of": null,
+     "category": "special"
+    },
+    {
+     "level": 31,
+     "fr": "PLENITUDE",
+     "const": "MOVE_CALM_MIND",
+     "id": 347,
+     "type": "TYPE_PSYCHIC",
+     "power": 0,
+     "accuracy": 0,
+     "pp": 20,
+     "effect": "EFFECT_CALM_MIND",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 35,
+     "fr": "LASER GLACE",
+     "const": "MOVE_ICE_BEAM",
+     "id": 58,
+     "type": "TYPE_ICE",
+     "power": 95,
+     "accuracy": 100,
+     "pp": 10,
+     "effect": "EFFECT_FREEZE_HIT",
+     "alias_of": null,
+     "category": "special"
+    },
+    {
+     "level": 40,
+     "fr": "PSYKO",
+     "const": "MOVE_PSYCHIC",
+     "id": 94,
+     "type": "TYPE_PSYCHIC",
+     "power": 90,
+     "accuracy": 100,
+     "pp": 10,
+     "effect": "EFFECT_SPECIAL_DEFENSE_DOWN_HIT",
+     "alias_of": null,
+     "category": "special"
+    },
+    {
+     "level": 45,
+     "fr": "GRELE",
+     "const": "MOVE_HAIL",
+     "id": 258,
+     "type": "TYPE_ICE",
+     "power": 0,
+     "accuracy": 0,
+     "pp": 10,
+     "effect": "EFFECT_HAIL",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 50,
+     "fr": "BLIZZARD",
+     "const": "MOVE_BLIZZARD",
+     "id": 59,
+     "type": "TYPE_ICE",
+     "power": 120,
+     "accuracy": 70,
+     "pp": 5,
+     "effect": "EFFECT_FREEZE_HIT",
+     "alias_of": null,
+     "category": "special"
+    },
+    {
+     "level": 56,
+     "fr": "PROTECTION",
+     "const": "MOVE_REFLECT",
+     "id": 115,
+     "type": "TYPE_PSYCHIC",
+     "power": 0,
+     "accuracy": 0,
+     "pp": 20,
+     "effect": "EFFECT_REFLECT",
+     "alias_of": null,
+     "category": "status"
+    }
+   ],
+   "tm": [
+    {
+     "tm": 3,
+     "bit": 2,
+     "move": "WATER_PULSE"
+    },
+    {
+     "tm": 4,
+     "bit": 3,
+     "move": "CALM_MIND"
+    },
+    {
+     "tm": 6,
+     "bit": 5,
+     "move": "TOXIC"
+    },
+    {
+     "tm": 7,
+     "bit": 6,
+     "move": "HAIL"
+    },
+    {
+     "tm": 10,
+     "bit": 9,
+     "move": "HIDDEN_POWER"
+    },
+    {
+     "tm": 13,
+     "bit": 12,
+     "move": "ICE_BEAM"
+    },
+    {
+     "tm": 14,
+     "bit": 13,
+     "move": "BLIZZARD"
+    },
+    {
+     "tm": 16,
+     "bit": 15,
+     "move": "LIGHT_SCREEN"
+    },
+    {
+     "tm": 17,
+     "bit": 16,
+     "move": "PROTECT"
+    },
+    {
+     "tm": 20,
+     "bit": 19,
+     "move": "SAFEGUARD"
+    },
+    {
+     "tm": 21,
+     "bit": 20,
+     "move": "FRUSTRATION"
+    },
+    {
+     "tm": 27,
+     "bit": 26,
+     "move": "RETURN"
+    },
+    {
+     "tm": 29,
+     "bit": 28,
+     "move": "PSYCHIC"
+    },
+    {
+     "tm": 32,
+     "bit": 31,
+     "move": "DOUBLE_TEAM"
+    },
+    {
+     "tm": 33,
+     "bit": 32,
+     "move": "REFLECT"
+    },
+    {
+     "tm": 42,
+     "bit": 41,
+     "move": "FACADE"
+    },
+    {
+     "tm": 43,
+     "bit": 42,
+     "move": "SECRET_POWER"
+    },
+    {
+     "tm": 44,
+     "bit": 43,
+     "move": "REST"
+    },
+    {
+     "tm": 45,
+     "bit": 44,
+     "move": "ATTRACT"
+    }
+   ],
+   "hm": [
+    {
+     "hm": 3,
+     "bit": 52,
+     "move": "SURF"
+    },
+    {
+     "hm": 5,
+     "bit": 54,
+     "move": "FLASH"
+    },
+    {
+     "hm": 7,
+     "bit": 56,
+     "move": "WATERFALL"
+    },
+    {
+     "hm": 8,
+     "bit": 57,
+     "move": "DIVE"
+    }
+   ]
+  },
+  "GARGAROS": {
+   "types": [
+    "TYPE_ROCK",
+    "TYPE_DARK"
+   ],
+   "ability": {
+    "const": "ABILITY_INTIMIDATE",
+    "id": 22
+   },
+   "learnset": [
+    {
+     "level": 1,
+     "fr": "CHARGE",
+     "const": "MOVE_TACKLE",
+     "id": 33,
+     "type": "TYPE_NORMAL",
+     "power": 35,
+     "accuracy": 95,
+     "pp": 35,
+     "effect": "EFFECT_HIT",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 1,
+     "fr": "GROZ'YEUX",
+     "const": "MOVE_LEER",
+     "id": 43,
+     "type": "TYPE_NORMAL",
+     "power": 0,
+     "accuracy": 100,
+     "pp": 30,
+     "effect": "EFFECT_DEFENSE_DOWN",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 8,
+     "fr": "JET-PIERRES",
+     "const": "MOVE_ROCK_THROW",
+     "id": 88,
+     "type": "TYPE_ROCK",
+     "power": 50,
+     "accuracy": 90,
+     "pp": 15,
+     "effect": "EFFECT_HIT",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 12,
+     "fr": "HURLEMENT",
+     "const": "MOVE_ROAR",
+     "id": 46,
+     "type": "TYPE_NORMAL",
+     "power": 0,
+     "accuracy": 100,
+     "pp": 20,
+     "effect": "EFFECT_ROAR",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 16,
+     "fr": "MORSURE",
+     "const": "MOVE_BITE",
+     "id": 44,
+     "type": "TYPE_DARK",
+     "power": 60,
+     "accuracy": 100,
+     "pp": 25,
+     "effect": "EFFECT_FLINCH_HIT",
+     "alias_of": null,
+     "category": "special"
+    },
+    {
+     "level": 20,
+     "fr": "TOMBEROCHE",
+     "const": "MOVE_ROCK_TOMB",
+     "id": 317,
+     "type": "TYPE_ROCK",
+     "power": 50,
+     "accuracy": 80,
+     "pp": 10,
+     "effect": "EFFECT_SPEED_DOWN_HIT",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 24,
+     "fr": "COGNE",
+     "const": "MOVE_ARM_THRUST",
+     "id": 292,
+     "type": "TYPE_FIGHTING",
+     "power": 15,
+     "accuracy": 100,
+     "pp": 20,
+     "effect": "EFFECT_MULTI_HIT",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 28,
+     "fr": "FORCE",
+     "const": "MOVE_STRENGTH",
+     "id": 70,
+     "type": "TYPE_NORMAL",
+     "power": 80,
+     "accuracy": 100,
+     "pp": 15,
+     "effect": "EFFECT_HIT",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 32,
+     "fr": "EBOULEMENT",
+     "const": "MOVE_ROCK_SLIDE",
+     "id": 157,
+     "type": "TYPE_ROCK",
+     "power": 75,
+     "accuracy": 90,
+     "pp": 10,
+     "effect": "EFFECT_FLINCH_HIT",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 36,
+     "fr": "GRIMACE",
+     "const": "MOVE_SCARY_FACE",
+     "id": 184,
+     "type": "TYPE_NORMAL",
+     "power": 0,
+     "accuracy": 90,
+     "pp": 10,
+     "effect": "EFFECT_SPEED_DOWN_2",
+     "alias_of": null,
+     "category": "status"
+    },
+    {
+     "level": 40,
+     "fr": "CASSE-BRIQUE",
+     "const": "MOVE_BRICK_BREAK",
+     "id": 280,
+     "type": "TYPE_FIGHTING",
+     "power": 75,
+     "accuracy": 100,
+     "pp": 15,
+     "effect": "EFFECT_BRICK_BREAK",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 44,
+     "fr": "MACHOUILLE",
+     "const": "MOVE_CRUNCH",
+     "id": 242,
+     "type": "TYPE_DARK",
+     "power": 80,
+     "accuracy": 100,
+     "pp": 15,
+     "effect": "EFFECT_SPECIAL_DEFENSE_DOWN_HIT",
+     "alias_of": null,
+     "category": "special"
+    },
+    {
+     "level": 49,
+     "fr": "SEISME",
+     "const": "MOVE_EARTHQUAKE",
+     "id": 89,
+     "type": "TYPE_GROUND",
+     "power": 100,
+     "accuracy": 100,
+     "pp": 10,
+     "effect": "EFFECT_EARTHQUAKE",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 54,
+     "fr": "DAMOCLES",
+     "const": "MOVE_DOUBLE_EDGE",
+     "id": 38,
+     "type": "TYPE_NORMAL",
+     "power": 120,
+     "accuracy": 100,
+     "pp": 15,
+     "effect": "EFFECT_DOUBLE_EDGE",
+     "alias_of": null,
+     "category": "physical"
+    },
+    {
+     "level": 60,
+     "fr": "ULTRALASER",
+     "const": "MOVE_HYPER_BEAM",
+     "id": 63,
+     "type": "TYPE_NORMAL",
+     "power": 150,
+     "accuracy": 90,
+     "pp": 5,
+     "effect": "EFFECT_RECHARGE",
+     "alias_of": null,
+     "category": "physical"
+    }
+   ],
+   "tm": [
+    {
+     "tm": 1,
+     "bit": 0,
+     "move": "FOCUS_PUNCH"
+    },
+    {
+     "tm": 5,
+     "bit": 4,
+     "move": "ROAR"
+    },
+    {
+     "tm": 6,
+     "bit": 5,
+     "move": "TOXIC"
+    },
+    {
+     "tm": 8,
+     "bit": 7,
+     "move": "BULK_UP"
+    },
+    {
+     "tm": 10,
+     "bit": 9,
+     "move": "HIDDEN_POWER"
+    },
+    {
+     "tm": 12,
+     "bit": 11,
+     "move": "TAUNT"
+    },
+    {
+     "tm": 15,
+     "bit": 14,
+     "move": "HYPER_BEAM"
+    },
+    {
+     "tm": 17,
+     "bit": 16,
+     "move": "PROTECT"
+    },
+    {
+     "tm": 21,
+     "bit": 20,
+     "move": "FRUSTRATION"
+    },
+    {
+     "tm": 26,
+     "bit": 25,
+     "move": "EARTHQUAKE"
+    },
+    {
+     "tm": 27,
+     "bit": 26,
+     "move": "RETURN"
+    },
+    {
+     "tm": 28,
+     "bit": 27,
+     "move": "DIG"
+    },
+    {
+     "tm": 31,
+     "bit": 30,
+     "move": "BRICK_BREAK"
+    },
+    {
+     "tm": 32,
+     "bit": 31,
+     "move": "DOUBLE_TEAM"
+    },
+    {
+     "tm": 37,
+     "bit": 36,
+     "move": "SANDSTORM"
+    },
+    {
+     "tm": 39,
+     "bit": 38,
+     "move": "ROCK_TOMB"
+    },
+    {
+     "tm": 41,
+     "bit": 40,
+     "move": "TORMENT"
+    },
+    {
+     "tm": 42,
+     "bit": 41,
+     "move": "FACADE"
+    },
+    {
+     "tm": 43,
+     "bit": 42,
+     "move": "SECRET_POWER"
+    },
+    {
+     "tm": 44,
+     "bit": 43,
+     "move": "REST"
+    },
+    {
+     "tm": 45,
+     "bit": 44,
+     "move": "ATTRACT"
+    },
+    {
+     "tm": 46,
+     "bit": 45,
+     "move": "THIEF"
+    }
+   ],
+   "hm": [
+    {
+     "hm": 1,
+     "bit": 50,
+     "move": "CUT"
+    },
+    {
+     "hm": 4,
+     "bit": 53,
+     "move": "STRENGTH"
+    },
+    {
+     "hm": 6,
+     "bit": 55,
+     "move": "ROCK_SMASH"
+    }
+   ]
+  }
+ },
+ "problems": [
+  "BLIZZARIA: attaque introuvable en génération 3 « REGARD TOUCHANT » (niveau 1)"
+ ]
+}
