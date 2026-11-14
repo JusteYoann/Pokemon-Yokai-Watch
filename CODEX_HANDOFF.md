@@ -207,6 +207,9 @@ git clone https://github.com/ArchipelagoMW/Archipelago && cd Archipelago && git 
 pip install -r requirements.txt "setuptools<81" && python ModuleUpdate.py --yes
 ```
 
+Fichiers privés de Yo-kai Emerald déjà produits (ROM du hack, build AP, `.map`, `.apworld`, partie de test) : remis à
+l'utilisateur hors GitHub, voir `YOKAI_ARCHIPELAGO/DOCUMENTATION/TRANSFERT_FICHIERS_PRIVES.md`.
+
 Fichiers personnels nécessaires (jamais dans le dépôt) : ROM du hack Yo-kai Emerald (SHA-1 `ff71db05…`), Émeraude US
 (`f3ae0881…`, reproductible à l'octet par `make` dans pret/pokeemerald) et/ou France (`ca666651…`), ROM du fangame
 Rouge Feu (`40c59a9f…`), dumps 3DS EUR, ISO MKW PAL.

@@ -1,0 +1,6 @@
+# Modèle de slot « Pokemon Yo-kai Emerald » (testé : génération avec Yo-kai Watch 2, Archipelago 0.6.9).
+# Options : celles du monde de Flit (FlitPix/ap-pokeemerald, c62beb1) ; défaut si omises.
+# Les six Yo-kai, leurs zones et le starter Jibanyan sont fixés par le patch : aucune option ne les randomise.
+name: YokaiEmerald
+game: Pokemon Yo-kai Emerald
+Pokemon Yo-kai Emerald: {}
