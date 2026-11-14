@@ -1,0 +1,54 @@
+{
+  "format": 1,
+  "archipelago_version": "0.6.9",
+  "dependencies": [
+    {
+      "id": "archipelago",
+      "url": "https://github.com/ArchipelagoMW/Archipelago.git",
+      "commit": "f5b97c5e9a3dad23840d6f659488bf50da3d8aa4",
+      "directory": "Archipelago"
+    },
+    {
+      "id": "mgba_connector",
+      "url": "https://github.com/Zunawe/bhc-substitutes.git",
+      "commit": "8954261f63f8032893b3a9a28a049a718ee480fc",
+      "directory": "bhc-substitutes"
+    },
+    {
+      "id": "emerald_apworld",
+      "url": "https://github.com/FlitPix/ap-pokeemerald.git",
+      "commit": "c62beb13765bb358a855170ea52f81131abb4396",
+      "directory": "ap-pokeemerald"
+    },
+    {
+      "id": "emerald_ap_code",
+      "url": "https://github.com/FlitPix/pokeemerald.git",
+      "commit": "fd643016b031fe3a12d21e8b75e7d12df3a6659f",
+      "directory": "pokeemerald-ap"
+    },
+    {
+      "id": "emerald_fr",
+      "url": "https://github.com/qigast/pokeemeraude.git",
+      "commit": "2ec3c4d96b62cf4cc5a4e10b71a15bd89aab5072",
+      "directory": "pokeemeraude-fr"
+    },
+    {
+      "id": "yokai_watch_2",
+      "url": "https://github.com/doryan-meunier/Yo-kai-Watch-2-Archipelago.git",
+      "commit": "6d125940ecd5ae10048d5f3d101f3475945cf3a3",
+      "directory": "yokai-watch-2"
+    },
+    {
+      "id": "mario_kart_wii",
+      "url": "https://github.com/toent/Archipelago-MKWii.git",
+      "commit": "a8949c5f9261bc70112c2e5336d91bfa0dc3c475",
+      "directory": "mkwii"
+    },
+    {
+      "id": "agbcc",
+      "url": "https://github.com/pret/agbcc.git",
+      "commit": "da598c1d918402c42c0c0d7128ba14567f3175e9",
+      "directory": "agbcc"
+    }
+  ]
+}

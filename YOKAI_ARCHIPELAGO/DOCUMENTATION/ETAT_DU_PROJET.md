@@ -1,3 +1,5 @@
+> Reprise Codex du 14/11/2026 : voir [journal vérifié](REPRISE_CODEX_20261114.md). Branche `codex/archipelago-five-games-20261114`. Les sources exactes Rouge Feu sont retrouvées ; le test de communication Emerald attend ses fichiers personnels. Le tableau ci-dessous conserve le jalon historique de Claude.
+
 # État du projet — Yo-kai Watch Multiworld Archipelago
 
 Mis à jour : 2026-11-14 (jalon 1). Légende : ✅ testé ici · 🧪 implémenté, non testé · 📋 plan · ⛔ bloqué.
