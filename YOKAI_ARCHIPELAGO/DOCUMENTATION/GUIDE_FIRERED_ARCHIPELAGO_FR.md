@@ -28,7 +28,7 @@ Le dossier de sortie doit être absent. Le script vérifie les entrées du snaps
 - `dist/pokemon_yokai_firered.apworld` : code AP et profil, aucune ROM ni image ;
 - `YOKAI_AP_SOURCE_PATCH.json` : liste exacte des sources modifiées.
 
-Build validée : SHA256 `0f6f0bfb739d246af3a73a7503db5c311c277133b9ce7befca1fcb79facd6c57`. Source complète locale : branche `codex/firered-archipelago-randomizer-20261114`, commit `d14b93cb803f60188e50917be2870c507eb6e748`, depuis `a589cf0057fd0f579d003d8dd58616b3f4649ea2`. Les binaires hôtes du compilateur sont réinstallés localement ; ils ne font pas partie du changement de gameplay.
+Reconstruction complète depuis une copie neuve également vérifiée, résultat byte pour byte identique (`preuves/firered_reconstruction.json`). Build validée : SHA256 `0f6f0bfb739d246af3a73a7503db5c311c277133b9ce7befca1fcb79facd6c57`. Source complète locale : branche `codex/firered-archipelago-randomizer-20261114`, commit `d14b93cb803f60188e50917be2870c507eb6e748`, depuis `a589cf0057fd0f579d003d8dd58616b3f4649ea2`. Les binaires hôtes du compilateur sont réinstallés localement ; ils ne font pas partie du changement de gameplay.
 
 Un autre hash demande une vérification ; ne pas contourner le contrôle en saisissant des offsets vanilla. Aucun patch binaire de distribution n’est publié à ce jalon : les générateurs sources sont livrés, les ressources privées restent locales.
 
@@ -82,7 +82,7 @@ Attendre le message de connexion avant la première collecte. Un mauvais profil,
 
 ## Jouer, sauvegarder, reprendre
 
-Une récompense peut arriver pendant un combat ou une cinématique : elle attend un état sûr. Si le sac est plein, elle reste en attente ; libérer de la place. Le compteur n’avance qu’après la remise réussie. Les collectes déjà validées sont renvoyées de façon idempotente au serveur après reconnexion. Surf exige toujours le cinquième badge.
+Une récompense peut arriver pendant un combat ou une cinématique : elle attend un état sûr. Si le sac est plein, elle reste en attente ; le client demande de libérer de la place. Les checks sortants continuent d’être envoyés pendant cette attente. Fermer les dialogues/cinématiques natifs pour reprendre la distribution en état sûr. Le compteur n’avance qu’après la remise réussie. Les collectes déjà validées sont renvoyées de façon idempotente au serveur après reconnexion. Surf exige toujours le cinquième badge.
 
 Sauvegarder normalement, fermer proprement mGBA et conserver la sauvegarde `.sav`. Pour reprendre, relancer le même serveur et sa sauvegarde AP, la même ROM, la même sauvegarde et le même slot. Aucun savestate, retour arrière ou changement de seed en cours. Comme dans le jeu original, un arrêt brutal avant la sauvegarde perd les actions non sauvegardées.
 

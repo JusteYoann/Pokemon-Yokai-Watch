@@ -12,9 +12,12 @@
     "Client received the actual AP item packet",
     "Network reconnect does not duplicate native gift",
     "Progression Surf from real server reached native inventory",
+    "Real network gift stays pending when native bag is full",
     "Badge is not set before the actual battle",
     "Wyatt native battle/script awarded badge",
     "Real badge check acknowledged by AP server",
+    "Outgoing badge check succeeds while receive queue is blocked by full bag",
+    "Pending network gift resumes after freeing bag",
     "Ordinary source is uncollected before interaction 342",
     "Native ordinary interaction sets check 342",
     "Original ordinary reward replaced 342",
@@ -30,5 +33,5 @@
     "Real native Hall record triggers Goal packet to server"
   ],
   "hall_endpoint_position_prepared_by_fixture": true,
-  "requests": 369
+  "requests": 387
 }

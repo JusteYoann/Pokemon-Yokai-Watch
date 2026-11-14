@@ -56,3 +56,10 @@ Les cinq créateurs ont cinq slots : Yochix/YW1, Juste Yoann/YW2, RougeFeu (Kamm
 ## Travaux à poursuivre
 
 Finir l’audit des 351 objets et 67 macros de dons, compléter les sources C, activer progressivement les sources pré-Ligue sûres. Détailler les régions et randomiser les autres CS/clefs sans récompense en double. Étendre le canal de checks au-delà de ses 16 bits avant de dépasser huit collectes. Tester le parcours manuel et le chemin graphique Lua/Windows. Poursuivre YW1/YW2/MKW avec les transports éprouvés et les copies locales fournies à terme ; ne pas redemander les fichiers Emerald. Aucune intégration à cinq jeux n’est déclarée fonctionnelle.
+
+
+## Correctif transport après le jalon Surf `8e82d34e`
+
+Un sac plein doit différer les dons entrants sans bloquer les checks sortants. Le client l’autorise désormais et affiche un avertissement. Le test réseau complet passe 24 contrôles : Potion en attente pendant Wyatt, badge envoyé malgré cette attente, remise reprise après libération du sac, collectes et Safari, puis Goal effectivement journalisé par MultiServer. La fixture restaure les quantités par les fonctions natives : le chiffrement peut changer pendant un combat, donc recopier un ancien sac chiffré serait invalide.
+
+`build_firered.sh` a été exécuté sur un dossier neuf depuis le snapshot : ROM identique byte pour byte au build testé. Preuve `firered_reconstruction.json`. Le code C et son commit local `d14b93cb` sont inchangés par ce correctif client. Lors d’une extension de protocole future, séparer version de sauvegarde et version de transport ou prévoir une migration explicite, afin de conserver le ledger existant.

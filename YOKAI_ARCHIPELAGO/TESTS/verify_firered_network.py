@@ -118,6 +118,13 @@ async def scenario(a,report):
             server.stdin.write('/send Yoann_FireRed CS03 Surf\n');server.stdin.flush()
             await wait(lambda:r.call('BagGetQuantityByItemId',341)==1)
             ok('Progression Surf from real server reached native inventory',r.u32(box+32)==2)
+            bag=r.u32(r.symbols['gSaveBlock1Ptr'])+0x310
+            saved_bag=[(int.from_bytes(r.read(bag+4*i,2),'little'),r.call('GetBagItemQuantity',bag+4*i+2)) for i in range(42)]
+            for i in range(42):
+                r.write(bag+4*i,struct.pack('<H',13));r.call('SetBagItemQuantity',bag+4*i+2,999)
+            server.stdin.write('/send Yoann_FireRed Potion\n');server.stdin.flush()
+            await wait(lambda:int.from_bytes(r.read(box+36,2),'little')==3)
+            ok('Real network gift stays pending when native bag is full',r.u32(box+32)==2)
         # Controlled party/position fixture, then native dialogue and battle.
         frames.cancel();await asyncio.gather(frames,return_exceptions=True);frames=None
         q.mon(0,65,100);r.call('SetMonMoveSlot',r.symbols['gPlayerParty'],280,0)
@@ -139,6 +146,15 @@ async def scenario(a,report):
         await wait(lambda:any(e['event']=='checked' and 0x594B1000 in e['locations'] for e in records()))
         ok('Real badge check acknowledged by AP server',True)
         if 'YokaiAPTryCollect' in r.symbols:
+            ok('Outgoing badge check succeeds while receive queue is blocked by full bag',r.u32(box+32)==2)
+            # Battles may rotate the save encryption key. Restore logical
+            # quantities through the native setter, never old ciphertext.
+            bag=r.u32(r.symbols['gSaveBlock1Ptr'])+0x310
+            for i,(item,quantity) in enumerate(saved_bag):
+                r.write(bag+4*i,struct.pack('<H',item));r.call('SetBagItemQuantity',bag+4*i+2,quantity)
+            q.drain()  # finish any remaining native gym reward dialogue
+            await wait(lambda:r.u32(box+32)>=3)
+            ok('Pending network gift resumes after freeing bag',True)
             frames.cancel();await asyncio.gather(frames,return_exceptions=True);frames=None
             for flag,x,y,item,check in [(0x156,5,41,4,0x594B2156),(1000,3,22,13,0x594B23E8)]:
                 # Prepare the native interaction context, then run its real
@@ -177,6 +193,7 @@ async def scenario(a,report):
             q.warp('Route1',10,18)
             frames=asyncio.create_task(game_frames())
             await wait(lambda:any(e['event']=='sent' and e['packet'].get('cmd')=='StatusUpdate' and e['packet'].get('status')==30 for e in records()))
+            await wait(lambda:'Yoann_FireRed (Team #1) has completed their goal.' in (a.out.parent/'firered-real-server.log').read_text())
             ok('Real native Hall record triggers Goal packet to server',True)
             report['hall_endpoint_position_prepared_by_fixture']=True
         report['requests']=transport.requests;report['passed']=True

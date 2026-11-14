@@ -65,14 +65,14 @@ class YokaiFireRedClient(BizHawkClient):
             raw,pointer=await bizhawk.read(ctx.bizhawk_ctx,[(box,48,'System Bus'),
                                   (self.profile['saveblock2_pointer'],4,'System Bus')])
             snap=decode(raw)
-            if snap['magic']!=MAGIC or snap['version']!=1 or not snap['ready'] or snap['command']:return
+            if snap['magic']!=MAGIC or snap['version']!=1 or not snap['ready']:return
             guards=[(box,struct.pack('<IH',MAGIC,1),'System Bus'),(box+6,b'\0\0','System Bus'),
                     (box+38,b'\1','System Bus'),(self.profile['saveblock2_pointer'],pointer,'System Bus')]
             if not self.confirmed:
                 if snap['error']==1 and snap['seed']==seed and snap['slot']==ctx.slot:
                     if self.last_error!=1:logger.error('Sauvegarde liée à une autre graine/slot : aucun don ni check envoyé.')
                     self.last_error=1;return
-                if snap['bound'] and snap['seed']==seed and snap['slot']==ctx.slot and snap['error']==0:
+                if snap['bound'] and snap['seed']==seed and snap['slot']==ctx.slot and snap['error'] in (0,3):
                     self.confirmed=True
                 else:
                     await bizhawk.guarded_write(ctx.bizhawk_ctx,[(box+8,struct.pack('<H',ctx.slot),'System Bus'),
@@ -89,6 +89,12 @@ class YokaiFireRedClient(BizHawkClient):
                 await ctx.check_locations(checks);self.reported_checks=checks
             if snap['goal'] and not ctx.finished_game:
                 await ctx.send_msgs([{'cmd':'StatusUpdate','status':ClientStatus.CLIENT_GOAL}]);ctx.finished_game=True
+            if snap['command']:
+                if snap['error']==3 and self.last_error!=3:
+                    logger.warning('Sac plein : libère de la place pour recevoir l’objet AP. Les checks continuent d’être envoyés.')
+                self.last_error=snap['error']
+                return  # don't overwrite the native pending receive request
+            self.last_error=None
             if snap['error'] in (2,4,5):
                 raise RuntimeError(f'Canal FireRed refuse le don (code {snap["error"]}) ; inventaire préservé')
             if snap['applied']>=len(ctx.items_received):return

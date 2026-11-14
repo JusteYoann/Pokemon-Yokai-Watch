@@ -1,0 +1,101 @@
+{
+  "kind": "actual_AP_generate_and_spheres",
+  "tested_games": 3,
+  "native_gameplay_tested": false,
+  "caution": [
+    "FireRed randomise Surf ; les autres objets de progression restent natifs.",
+    "Ce modèle ne mesure pas les checks immédiatement accessibles au personnage : les étapes natives pré-Surf restent regroupées ; six objets ordinaires précoces sont activés.",
+    "Aucune équivalence sphère/minutes et aucune garantie sur cinq jeux."
+  ],
+  "seeds": [
+    {
+      "seed": 14112037,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Juste Yoann": 2,
+          "RougeFeu": 13,
+          "Krackonyx": 18
+        },
+        {
+          "Juste Yoann": 30,
+          "RougeFeu": 0,
+          "Krackonyx": 108
+        },
+        {
+          "Juste Yoann": 84,
+          "RougeFeu": 0,
+          "Krackonyx": 36
+        },
+        {
+          "Juste Yoann": 86,
+          "RougeFeu": 2,
+          "Krackonyx": 27
+        },
+        {
+          "Juste Yoann": 58,
+          "RougeFeu": 0,
+          "Krackonyx": 9
+        },
+        {
+          "Juste Yoann": 67,
+          "RougeFeu": 0,
+          "Krackonyx": 0
+        },
+        {
+          "Juste Yoann": 23,
+          "RougeFeu": 0,
+          "Krackonyx": 0
+        },
+        {
+          "Juste Yoann": 53,
+          "RougeFeu": 0,
+          "Krackonyx": 0
+        },
+        {
+          "Juste Yoann": 21,
+          "RougeFeu": 0,
+          "Krackonyx": 27
+        },
+        {
+          "Juste Yoann": 10,
+          "RougeFeu": 0,
+          "Krackonyx": 9
+        },
+        {
+          "Juste Yoann": 3,
+          "RougeFeu": 0,
+          "Krackonyx": 18
+        },
+        {
+          "Juste Yoann": 1,
+          "RougeFeu": 0,
+          "Krackonyx": 27
+        },
+        {
+          "Juste Yoann": 2,
+          "RougeFeu": 0,
+          "Krackonyx": 9
+        },
+        {
+          "Juste Yoann": 4,
+          "RougeFeu": 0,
+          "Krackonyx": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Juste Yoann": 0,
+        "RougeFeu": 2,
+        "Krackonyx": 3
+      },
+      "remote_progression_routes": {
+        "Krackonyx -> Juste Yoann": 28,
+        "RougeFeu -> Juste Yoann": 1,
+        "RougeFeu -> Krackonyx": 5,
+        "Krackonyx -> RougeFeu": 1,
+        "Juste Yoann -> Krackonyx": 4
+      },
+      "forest_remote_progression_count": 4
+    }
+  ]
+}
