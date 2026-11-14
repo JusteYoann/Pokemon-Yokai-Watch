@@ -10,9 +10,9 @@ Lire d'abord `CODEX_HANDOFF.md` (état exact, décisions, blocages) puis
   ne pas y toucher sans demande explicite.
 - Le projet Multiworld vit dans :
   - `YOKAI_ARCHIPELAGO/` — produit (APWORLDS, CONNECTORS, PATCHES, CONFIG, SCRIPTS, TESTS, DOCUMENTATION) ;
-  - `research/yokai-3ds/` — études et prototypes 3DS (YW2/YW3) ;
+  - `research/yokai-3ds/` — études et prototypes 3DS réutilisables (YW1/YW2 ; YW3 historique uniquement) ;
   - `research/yokai-emerald/` — audit et équilibrage de Pokémon Yo-kai Emerald.
-- Branche de travail : `claude/archipelago-multiworld`. Ne jamais pousser sur `master`, ne jamais réécrire l'historique
+- Branche de départ : `claude/archipelago-multiworld` à `4617e348`. Branche Codex : `codex/archipelago-five-games-20261114`. Ne jamais pousser sur `master`, ne jamais réécrire l'historique
   publié (`push --force` interdit).
 
 ## Fichiers à ne pas modifier sans raison
@@ -66,5 +66,11 @@ du fork de Flit demande Node.js et `bsdiff4` (Python) et la ROM de base copiée 
 ## Reprendre sans repartir de zéro
 
 1. Ne pas réauditer : les rapports existent (§3 et §4 de `CODEX_HANDOFF.md`).
-2. Commencer par la priorité 1 de `CODEX_HANDOFF.md` §10 (communication réelle de Yo-kai Emerald).
+2. Priorité actuelle : YW1 EUR, YW2 EUR, Mario Kart Wii PAL et Rouge Feu. Emerald est en attente à la demande de l’utilisateur ; ne pas redemander immédiatement ses fichiers.
 3. Mettre à jour `ETAT_DU_PROJET.md` et le journal du chantier à chaque jalon, avec les commits.
+
+## Périmètre définitif — décision du 14 novembre 2026
+
+A : Yo-kai Watch 1 EUR ; B : Yo-kai Watch 2 Spectres Psychiques EUR ; C : Mario Kart Wii PAL avec mods visuels Yo-kai ; D : fangame Rouge Feu ; E : Yo-kai Emerald (en attente). Yo-kai Watch 3 est abandonné. Conserver seulement son historique utile aux transports 3DS.
+
+Ne pas supprimer les corrections Emerald déjà réalisées : les geler et documenter leur niveau de test. Les anciennes permissions refusées dans l’environnement Claude ne sont pas des refus applicables automatiquement à la mission actuelle. Une génération ou un test mémoire simulée ne prouve pas une communication avec un jeu réel.

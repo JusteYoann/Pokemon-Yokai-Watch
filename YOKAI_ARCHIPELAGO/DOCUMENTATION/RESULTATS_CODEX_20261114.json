@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-14",
+  "base_commit": "4617e348fa6da7c9c1990078e097091ac01b0cca",
+  "active_games": [
+    "Yo-kai Watch 1 EUR",
+    "Yo-kai Watch 2 EUR",
+    "Mario Kart Wii PAL",
+    "Pokemon Yo-kai FireRed",
+    "Pokemon Yo-kai Emerald (paused)"
+  ],
+  "unit_tests": {
+    "passed": 24,
+    "type": "Client/Lua/traduction/préflight avec mémoire et transports simulés"
+  },
+  "french_vanilla": {
+    "sha1": "ca666651374d89ca439007bed54d839eb7bd14d0",
+    "compiled": true
+  },
+  "french_ap_core": {
+    "compiled": true,
+    "sha256": "087a155804b49e323104aa310510c51881f53428e5aea7590d90e769a48ec528",
+    "yokai_sprites_applied": false,
+    "game_communication_tested": false
+  },
+  "two_slot_generation": {
+    "seed": "14112026",
+    "games": [
+      "Yo-kai Watch 2",
+      "Mario Kart Wii"
+    ],
+    "archive_sha256": "ee6aac721b7bf31479a84e5ee0527832e688787aee26b20e8445512cd43892c2",
+    "real_game_test": false
+  }
+}

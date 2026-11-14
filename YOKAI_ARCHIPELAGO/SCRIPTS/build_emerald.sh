@@ -1,33 +1,59 @@
 #!/usr/bin/env bash
-# Construit « Pokémon Yo-kai Emerald » compatible Archipelago, puis l'APWorld, à partir de VOS fichiers.
-# Linux ou WSL2 (Ubuntu 24.04) sous Windows. Usage :
-#   SCRIPTS/build_emerald.sh <rom_du_hack.gba> <rom_emeraude_de_base.gba> us|fr <dossier_de_travail>
-#   - rom_du_hack : « Pokémon Yo-kai Emerald » de SnappleRainKirby (SHA-1 ff71db05…)
-#   - rom de base : Émeraude US (SHA-1 f3ae0881…) pour « us », Émeraude France (SHA-1 ca666651…) pour « fr »
-# Résultat : <travail>/apworld/pokemon_yokai_emerald.apworld (à copier dans Archipelago/custom_worlds).
-# Dépendances : build-essential git libpng-dev binutils-arm-none-eabi gcc-arm-none-eabi nodejs python3-pip ;
-#               pip install pillow bsdiff4
+# Sources et assets personnels uniquement locaux. Voir DOCUMENTATION/INSTALLATION_PC_FR.md.
 set -euo pipefail
+if [[ ${1:-} == --help ]]; then
+  echo 'Usage: build_emerald.sh <hack.gba> <base.gba> us|fr <dossier_de_travail>'
+  exit 0
+fi
+if [[ $# != 4 ]]; then
+  echo 'Usage: build_emerald.sh <hack.gba> <base.gba> us|fr <dossier_de_travail>' >&2
+  exit 2
+fi
 HACK=$(realpath "$1"); BASE=$(realpath "$2"); LANG_=$3; WORK=$(realpath -m "$4")
 HERE=$(cd "$(dirname "$0")/.." && pwd)
-FLIT_BASEPATCH=https://github.com/FlitPix/pokeemerald      # branche combo, commit validé fd64301
-FLIT_APWORLD=https://github.com/FlitPix/ap-pokeemerald     # commit validé c62beb1
-QIGAST_FR=https://github.com/qigast/pokeemeraude           # commit validé 2ec3c4d9
-mkdir -p "$WORK" && cd "$WORK"
-[ -d agbcc ] || { git clone -q https://github.com/pret/agbcc && (cd agbcc && ./build.sh); }
-[ -d ap-pokeemerald ] || { git clone -q "$FLIT_APWORLD" ap-pokeemerald && git -C ap-pokeemerald checkout -q c62beb1; }
-if [ ! -d build ]; then
-  git clone -q -b combo "$FLIT_BASEPATCH" build && git -C build checkout -q fd64301
-  if [ "$LANG_" = fr ]; then
-    # Base française : fusion du code AP de Flit dans la décompilation française (étape à valider sur votre PC)
-    git -C build remote add fr "$QIGAST_FR" && git -C build fetch -q fr && git -C build merge --no-edit fr/master \
-      || { echo "Conflits de fusion AP × français : voir DOCUMENTATION/chantiers/E_pokemon_yokai_emerald.md"; exit 2; }
+# No build directory, checkout, copy, or download before validating both inputs.
+INPUT_STATE=$(python3 "$HERE/SCRIPTS/emerald_inputs.py" "$HACK" "$BASE" "$LANG_" "$WORK")
+case "$LANG_" in us) SOURCE_LANG=en;; fr) SOURCE_LANG=fr;; *) exit 2;; esac
+lock_value() {
+  python3 - "$HERE/CONFIG/dependencies.lock.json" "$1" "$2" <<'PY'
+import json,sys
+entries=json.load(open(sys.argv[1]))['dependencies']
+print(next(e[sys.argv[3]] for e in entries if e['id']==sys.argv[2]))
+PY
+}
+ensure_repo() {
+  local path=$1 key=$2 url commit
+  url=$(lock_value "$key" url); commit=$(lock_value "$key" commit)
+  if [[ ! -e "$path" ]]; then git clone --filter=blob:none "$url" "$path"; fi
+  [[ -d "$path/.git" ]] || { echo "Dossier non Git existant : $path" >&2; exit 2; }
+  [[ -z $(git -C "$path" status --porcelain --untracked-files=no) ]] || {
+    echo "Sources modifiées, arrêt pour les préserver : $path" >&2; exit 2; }
+  git -C "$path" cat-file -e "$commit^{commit}" 2>/dev/null || git -C "$path" fetch origin "$commit"
+  git -C "$path" checkout --detach "$commit"
+}
+mkdir -p "$WORK"
+printf '%s\n' "$INPUT_STATE" > "$WORK/.yokai_build_inputs.json"
+ensure_repo "$WORK/agbcc" agbcc
+if [[ ! -x "$WORK/agbcc/agbcc" || ! -f "$WORK/agbcc/libc.a" ]]; then (cd "$WORK/agbcc" && bash ./build.sh); fi
+ensure_repo "$WORK/ap-pokeemerald" emerald_apworld
+if [[ ! -d "$WORK/build" ]]; then
+  if [[ "$LANG_" == fr ]]; then
+    ensure_repo "$WORK/ap-source" emerald_ap_code
+    ensure_repo "$WORK/fr-source" emerald_fr
+    python3 "$HERE/PATCHES/pokemon_yokai_emerald/merge_french_base.py" \
+      --ap-source "$WORK/ap-source" --fr-source "$WORK/fr-source" --output "$WORK/build"
+  else
+    ensure_repo "$WORK/build" emerald_ap_code
   fi
-  (cd agbcc && ./install.sh ../build)
-  python3 "$HERE/PATCHES/pokemon_yokai_emerald/yokai_source_patch.py" build "$HACK" --lang "$LANG_" --extract-dir yokai_extract
+  (cd "$WORK/agbcc" && bash ./install.sh "$WORK/build")
+  python3 "$HERE/PATCHES/pokemon_yokai_emerald/yokai_source_patch.py" "$WORK/build" "$HACK" \
+    --lang "$SOURCE_LANG" --extract-dir "$WORK/yokai_extract"
+  touch "$WORK/build/.yokai_source_ready"
 fi
-cp "$BASE" build/pokeemerald.gba          # base du différentiel (bsdiff) : votre ROM d'origine
-(cd build && make tools -j"$(nproc)" && make -j"$(nproc)" && make extract)
-python3 "$HERE/TESTS/verify_emerald_build.py" build/pokeemerald_ap_flit.gba build/pokeemerald_ap_flit.map --hack "$HACK"
-python3 "$HERE/APWORLDS/pokemon_yokai_emerald/make_apworld.py" ap-pokeemerald build --base "$LANG_" --out apworld
-echo "OK : $WORK/apworld/pokemon_yokai_emerald.apworld"
+cp "$BASE" "$WORK/build/pokeemerald.gba"
+JOBS=${YOKAI_BUILD_JOBS:-4}
+(cd "$WORK/build" && make tools -j"$JOBS" && make -j"$JOBS" && make extract)
+python3 "$HERE/TESTS/verify_emerald_build.py" "$WORK/build/pokeemerald_ap_flit.gba" "$WORK/build/pokeemerald_ap_flit.map" --hack "$HACK"
+python3 "$HERE/APWORLDS/pokemon_yokai_emerald/make_apworld.py" "$WORK/ap-pokeemerald" "$WORK/build" \
+  --base "$LANG_" --out "$WORK/apworld"
+echo "OK : $WORK/apworld/pokemon_yokai_emerald.apworld (fichier personnel, ne pas committer)"

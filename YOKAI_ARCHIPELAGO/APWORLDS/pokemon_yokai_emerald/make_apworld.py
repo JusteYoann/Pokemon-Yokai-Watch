@@ -18,6 +18,8 @@ Le monde de Flit n'a pas d'option de randomisation des starters ni des rencontre
 restent ceux du patch, quelle que soit la graine.
 """
 import argparse
+import hashlib
+import json
 import os
 import re
 import shutil
@@ -42,6 +44,11 @@ def main():
     ap.add_argument("--out", required=True)
     a = ap.parse_args()
     work = os.path.join(a.out, PKG)
+    if os.path.realpath(work) in (os.path.realpath(a.flit), os.path.realpath(a.build)):
+        raise SystemExit("La sortie ne doit pas remplacer les sources ou la compilation.")
+    for required in ("base_patch.bsdiff4", "extracted_data.json"):
+        if not os.path.isfile(os.path.join(a.build, required)):
+            raise SystemExit(f"Compilation incomplète : {required} manquant.")
     shutil.rmtree(work, ignore_errors=True)
     shutil.copytree(a.flit, work, ignore=shutil.ignore_patterns(".git", ".github", "__pycache__", "test", "*.md"))
     for d in ("docs",):
@@ -60,6 +67,30 @@ def main():
     edit("rom.py", [('patch_file_ending = ".apemeraldflit"', 'patch_file_ending = ".apyokaiemerald"'),
                     ("pokemon_emerald_flit_settings", "pokemon_yokai_emerald_settings")])
     edit("world.py", [('settings_key = "pokemon_emerald_flit_settings"', 'settings_key = "pokemon_yokai_emerald_settings"')])
+    # The client is registered independently from the procedure patch. Both must
+    # use our extension, and Steven's goal must reference the defined flag.
+    edit("client.py", [('patch_suffix = ".apemeraldflit"', 'patch_suffix = ".apyokaiemerald"'),
+                       ('FLAG_IS_CHAMPION = data.constants["TRAINER_FLAGS_START"] + data.constants["FLAG_IS_CHAMPION"]',
+                        'FLAG_IS_CHAMPION = data.constants["FLAG_IS_CHAMPION"]'),
+                       ('self.goal_flags.add(FLAG_DEFEATED_WALLACE)', 'self.goal_flags.add(FLAG_DEFEATED_STEVEN)'),
+                       ('if not ctx.finished_game and self.goal_flags == self.checked_goal_flags:',
+                        'if self.goal_flags and not ctx.finished_game and self.goal_flags == self.checked_goal_flags:')])
+    # Do not write a gift after the save block moved or the player left the
+    # overworld between the preceding read and the actual write. Publish the
+    # full flag last, after the payload and item classification are complete.
+    edit("client.py", [('''            await bizhawk.write(ctx.bizhawk_ctx, [
+                (received_item_address + 0, (next_item.item).to_bytes(2, "little"), "System Bus"),
+                (received_item_address + 2, (num_received_items + 1).to_bytes(2, "little"), "System Bus"),
+                (received_item_address + 4, [1], "System Bus"),
+                (received_item_address + 5, [classification], "System Bus"),
+            ])''', '''            await bizhawk.guarded_write(ctx.bizhawk_ctx, [
+                (received_item_address + 0, (next_item.item).to_bytes(2, "little"), "System Bus"),
+                (received_item_address + 2, (num_received_items + 1).to_bytes(2, "little"), "System Bus"),
+                (received_item_address + 5, [classification], "System Bus"),
+                (received_item_address + 4, [1], "System Bus"),
+            ], [guards["IN OVERWORLD"], guards["SAVE BLOCK 1"],
+                (sb1_address + 0x3700, read_result[0], "System Bus"),
+                (received_item_address + 4, [0], "System Bus")])''')])
     p = os.path.join(work, "data.py"); t = open(p, encoding="utf-8").read()
     t = sub_once(t, '    ("SPECIES_CHIMECHO", "Chimecho", 358),\n]',
                  '    ("SPECIES_CHIMECHO", "Chimecho", 358),\n' + "".join(f'    ("{c}", "{n}", {k}),\n' for c, n, k in YOKAI) + "]", "data.py")
@@ -70,10 +101,23 @@ def main():
     open(p, "w", encoding="utf-8").write(t)
     for f in ("base_patch.bsdiff4", "extracted_data.json"):
         shutil.copyfile(os.path.join(a.build, f), os.path.join(work, "data", f))
+    manifest_path = os.path.join(work, "archipelago.json")
+    with open(manifest_path, encoding="utf-8") as stream:
+        manifest = json.load(stream)
+    manifest.update(compatible_version=7, version=7)
+    with open(manifest_path, "w", encoding="utf-8") as stream:
+        json.dump(manifest, stream, ensure_ascii=False, indent=2)
+        stream.write("\n")
+    with open(os.path.join(work, "yokai_build.json"), "w", encoding="utf-8") as stream:
+        json.dump({"base": a.base, "rom_md5": MD5[a.base], "game": "Pokemon Yo-kai Emerald",
+                   "inputs": {f: hashlib.sha256(open(os.path.join(a.build, f), "rb").read()).hexdigest()
+                              for f in ("base_patch.bsdiff4", "extracted_data.json")}}, stream, indent=2)
+        stream.write("\n")
     out = os.path.join(a.out, PKG + ".apworld")
     with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:
-        for root, _, files in os.walk(work):
-            for f in files:
+        for root, dirs, files in os.walk(work):
+            dirs.sort()
+            for f in sorted(files):
                 full = os.path.join(root, f)
                 z.write(full, os.path.relpath(full, a.out))
     print("APWorld :", out)
