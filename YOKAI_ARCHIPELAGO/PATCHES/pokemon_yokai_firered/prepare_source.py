@@ -86,7 +86,10 @@ def install(output):
     start=s.index('static void CB2_EndTrainerBattle(void)\n{')
     tail=s[start:];tail=replace_once(tail,anchor,
         '    if (gBattleOutcome == B_OUTCOME_WON) YokaiAPTrainerVictory(gTrainerBattleOpponent_A);\n'+anchor)
-    s=s[:start]+tail;p.write_text(s)
+    s=s[:start]+tail
+    s=replace_once(s,'void SetTrainerFlag(u16 trainerId)\n{\n    FlagSet(TRAINER_FLAGS_START + trainerId);\n}',
+        'void SetTrainerFlag(u16 trainerId)\n{\n    if (YokaiAPKeepTrainerAvailable(trainerId)) return;\n    FlagSet(TRAINER_FLAGS_START + trainerId);\n}')
+    p.write_text(s)
     p=output/'data/scripts/item_ball_scripts.inc';s=p.read_text()
     for c in active:
         if c['kind']!='ball':continue

@@ -1,6 +1,6 @@
 # Installer et tester le jalon Rouge Feu Archipelago
 
-État actuel : [extension FRLG validée](FRLG_EXTENSION_VALIDEE.md), 74 checks, Surf/Flash randomisés, transport2 et sauvegarde1. Une nouvelle seed est nécessaire. Les étapes de compilation et de transport restent les mêmes.
+État actuel : [import massif classique](FRLG_IMPORT_MASSIF.md),625 checks, Surf/Flash randomisés, transport3 et sauvegarde1. Une nouvelle seed est nécessaire. Les étapes de compilation et de transport restent les mêmes.
 
 **Version de développement, pas encore la distribution définitive pour les cinq créateurs.** Le vrai serveur et mGBA libretro ont été testés sous Linux. La procédure graphique mGBA/Lua et Windows ci-dessous reste à valider sur PC. Ne pas réserver le tournage sur cette seule base.
 
@@ -30,7 +30,7 @@ Le dossier de sortie doit être absent. Le script vérifie les entrées du snaps
 - `dist/pokemon_yokai_firered.apworld` : code AP et profil, aucune ROM ni image ;
 - `YOKAI_AP_SOURCE_PATCH.json` : liste exacte des sources modifiées.
 
-Reconstruction complète depuis une copie neuve également vérifiée, résultat byte pour byte identique (`preuves/firered_reconstruction_v2.json`). Build validée : SHA256 `d85d62c7638f8290f7b62e635f170b73a3f5100c555374dfceb8af2f6b603972`. Source complète locale : branche `codex/firered-archipelago-checks-20261114`, commit `9a35394a01e4c3c10985287c09b42277a6ae6006`, depuis `a589cf0057fd0f579d003d8dd58616b3f4649ea2`. Les binaires hôtes du compilateur sont réinstallés localement ; ils ne font pas partie du changement de gameplay.
+Reconstruction complète depuis une copie neuve également vérifiée, résultat byte pour byte identique (`preuves/firered_reconstruction_massif.json`). Build validée : SHA256 `1af5821cc9d03a744b125fe9281c95208e5dfe7fd27c1c2b8f65a5ab7464ee56`. Source complète locale : branche `codex/firered-classic-bulk-20261116`, commit `d287d375cd253f8a729581f884768d3811b1e549`, depuis `a589cf0057fd0f579d003d8dd58616b3f4649ea2`. Les binaires hôtes du compilateur sont réinstallés localement ; ils ne font pas partie du changement de gameplay.
 
 Un autre hash demande une vérification ; ne pas contourner le contrôle en saisissant des offsets vanilla. Aucun patch binaire de distribution n’est publié à ce jalon : les générateurs sources sont livrés, les ressources privées restent locales.
 
@@ -80,7 +80,7 @@ python "C:/Projet/YOKAI_ARCHIPELAGO/CONNECTORS/mgba/connect_firered.py" --archip
 
 Le serveur distant doit être joignable depuis chaque PC. L’interface émulateur/client reste **locale** ; il n’est pas nécessaire d’exposer le port 43056 sur Internet. En cas de mot de passe, utiliser localement la variable `YOKAI_AP_PASSWORD` ; ne pas la committer.
 
-Attendre le message de connexion avant la première collecte. Un mauvais profil, une mauvaise seed ou un mauvais slot bloque les écritures. Si le client annonce une séquence incohérente, arrêter et conserver les logs ; ne pas modifier la sauvegarde ou les compteurs à la main.
+Attendre le message de connexion avant la première collecte et le premier combat de dresseur. Un mauvais profil, une mauvaise seed ou un mauvais slot bloque les écritures. Si le client annonce une séquence incohérente, arrêter et conserver les logs ; ne pas modifier la sauvegarde ou les compteurs à la main.
 
 ## Jouer, sauvegarder, reprendre
 
@@ -99,3 +99,5 @@ Après 20 minutes de blocage réel, demander un indice natif AP avec `!hint` et 
 Voir `preuves/firered_native_surf.json`, `firered_reseau_surf.json`, `firered_pantheon_surf.json`, `generation_trois_mondes_surf.json`. Le transport testé est un adaptateur Python relié à la vraie mémoire mGBA libretro, avec le vrai client officiel et un vrai serveur. Les contextes d’interaction, l’équipe et les positions sont préparés par fixtures. Les scripts, récompenses, flags, sauvegardes et échanges sont traités par les vrais programmes. Aucun parcours intégral ni test Windows/Lua graphique n’est revendiqué.
 
 Surf et Flash sont randomisés ; les autres objets clés restent natifs. Les sources candidates ne sont pas toutes activées. La réception native YW1/YW2/MKW et le Multiworld à cinq jeux restent à valider. Emerald demeure en attente.
+
+La reconstruction propre utilise une copie neuve du snapshot vérifié, sans objets ni dossier `build`. **Ne pas employer `make clean` sur ces entrées** : la règle vanilla supprime aussi des ressources binaires livrées comme sources, notamment les palettes Zombie Night, puis leur régénération générique ne retrouve pas le format16 couleurs. Un essai de cette méthode a échoué ; le script de copie/compilation fourni conserve les entrées du manifeste et reconstruit correctement tous les objets.

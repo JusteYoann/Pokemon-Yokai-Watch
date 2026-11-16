@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "base_source_commit": "a589cf0057fd0f579d003d8dd58616b3f4649ea2",
-  "id_formula": "0x594B2000 + native_flag_value",
+  "id_formula": "Preserved badge/flag IDs; trainer 0x594B6000+upstream AP ID; capture 0x594B8000+national dex; visit 0x594BA000+native flag",
   "checks": [
     {
       "id": 1498096081,
@@ -11137,7 +11137,7 @@
       "upstream_ap_id": 1553,
       "upstream_region": "REGION_ROUTE15/SOUTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11167,7 +11167,7 @@
       "upstream_ap_id": 1548,
       "upstream_region": "REGION_ROUTE13/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11197,7 +11197,7 @@
       "upstream_ap_id": 1554,
       "upstream_region": "REGION_ROUTE15/SOUTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11227,7 +11227,7 @@
       "upstream_ap_id": 1549,
       "upstream_region": "REGION_ROUTE13/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11257,7 +11257,7 @@
       "upstream_ap_id": 1478,
       "upstream_region": "REGION_ROUTE15/SOUTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11287,7 +11287,7 @@
       "upstream_ap_id": 1483,
       "upstream_region": "REGION_ROUTE17/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11317,7 +11317,7 @@
       "upstream_ap_id": 1477,
       "upstream_region": "REGION_ROUTE15/SOUTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11347,7 +11347,7 @@
       "upstream_ap_id": 1489,
       "upstream_region": "REGION_ROUTE14/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11377,7 +11377,7 @@
       "upstream_ap_id": 1481,
       "upstream_region": "REGION_ROUTE16/SOUTHWEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11407,7 +11407,7 @@
       "upstream_ap_id": 1488,
       "upstream_region": "REGION_ROUTE14/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11437,7 +11437,7 @@
       "upstream_ap_id": 1475,
       "upstream_region": "REGION_ROUTE13/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11467,7 +11467,7 @@
       "upstream_ap_id": 1816,
       "upstream_region": "REGION_ROUTE8/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11497,7 +11497,7 @@
       "upstream_ap_id": 1485,
       "upstream_region": "REGION_ROUTE17/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11527,7 +11527,7 @@
       "upstream_ap_id": 1479,
       "upstream_region": "REGION_ROUTE16/SOUTHWEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11557,7 +11557,7 @@
       "upstream_ap_id": 1487,
       "upstream_region": "REGION_ROUTE14/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11587,7 +11587,7 @@
       "upstream_ap_id": 1476,
       "upstream_region": "REGION_ROUTE14/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11617,7 +11617,7 @@
       "upstream_ap_id": 1484,
       "upstream_region": "REGION_ROUTE17/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11647,7 +11647,7 @@
       "upstream_ap_id": 1815,
       "upstream_region": "REGION_ROUTE8/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11677,7 +11677,7 @@
       "upstream_ap_id": 1482,
       "upstream_region": "REGION_ROUTE16/SOUTHWEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11707,7 +11707,7 @@
       "upstream_ap_id": 1750,
       "upstream_region": "REGION_ROUTE17/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11737,7 +11737,7 @@
       "upstream_ap_id": 1486,
       "upstream_region": "REGION_ROUTE17/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11767,7 +11767,7 @@
       "upstream_ap_id": 1595,
       "upstream_region": "REGION_ROUTE14/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11797,7 +11797,7 @@
       "upstream_ap_id": 1584,
       "upstream_region": "REGION_ROUTE14/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11827,7 +11827,7 @@
       "upstream_ap_id": 1593,
       "upstream_region": "REGION_ROUTE14/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11857,7 +11857,7 @@
       "upstream_ap_id": 1586,
       "upstream_region": "REGION_ROUTE15/SOUTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11887,7 +11887,7 @@
       "upstream_ap_id": 1583,
       "upstream_region": "REGION_ROUTE14/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11917,7 +11917,7 @@
       "upstream_ap_id": 1585,
       "upstream_region": "REGION_ROUTE15/SOUTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11947,7 +11947,7 @@
       "upstream_ap_id": 1589,
       "upstream_region": "REGION_ROUTE18/EAST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -11977,7 +11977,7 @@
       "upstream_ap_id": 1596,
       "upstream_region": "REGION_ROUTE14/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12007,7 +12007,7 @@
       "upstream_ap_id": 1594,
       "upstream_region": "REGION_ROUTE14/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12037,7 +12037,7 @@
       "upstream_ap_id": 1581,
       "upstream_region": "REGION_ROUTE13/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12067,7 +12067,7 @@
       "upstream_ap_id": 1588,
       "upstream_region": "REGION_ROUTE18/EAST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12097,7 +12097,7 @@
       "upstream_ap_id": 1582,
       "upstream_region": "REGION_ROUTE13/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12127,7 +12127,7 @@
       "upstream_ap_id": 1590,
       "upstream_region": "REGION_ROUTE20/WEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12157,7 +12157,7 @@
       "upstream_ap_id": 1580,
       "upstream_region": "REGION_ROUTE13/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12187,7 +12187,7 @@
       "upstream_ap_id": 1587,
       "upstream_region": "REGION_ROUTE18/EAST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12217,7 +12217,7 @@
       "upstream_ap_id": 1600,
       "upstream_region": "REGION_SAFFRON_CITY_DOJO/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12247,7 +12247,7 @@
       "upstream_ap_id": 1602,
       "upstream_region": "REGION_VIRIDIAN_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12277,7 +12277,7 @@
       "upstream_ap_id": 1605,
       "upstream_region": "REGION_VICTORY_ROAD_2F/CENTER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12307,7 +12307,7 @@
       "upstream_ap_id": 1599,
       "upstream_region": "REGION_SAFFRON_CITY_DOJO/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12337,7 +12337,7 @@
       "upstream_ap_id": 1601,
       "upstream_region": "REGION_SAFFRON_CITY_DOJO/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12367,7 +12367,7 @@
       "upstream_ap_id": 1603,
       "upstream_region": "REGION_VIRIDIAN_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12397,7 +12397,7 @@
       "upstream_ap_id": 1597,
       "upstream_region": "REGION_SAFFRON_CITY_DOJO/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12427,7 +12427,7 @@
       "upstream_ap_id": 1598,
       "upstream_region": "REGION_SAFFRON_CITY_DOJO/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12457,7 +12457,7 @@
       "upstream_ap_id": 1604,
       "upstream_region": "REGION_VIRIDIAN_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12487,7 +12487,7 @@
       "upstream_ap_id": 1811,
       "upstream_region": "REGION_VIRIDIAN_FOREST/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12517,7 +12517,7 @@
       "upstream_ap_id": 1394,
       "upstream_region": "REGION_ROUTE9/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12547,7 +12547,7 @@
       "upstream_ap_id": 1390,
       "upstream_region": "REGION_ROUTE24/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12577,7 +12577,7 @@
       "upstream_ap_id": 1812,
       "upstream_region": "REGION_VIRIDIAN_FOREST/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12607,7 +12607,7 @@
       "upstream_ap_id": 1385,
       "upstream_region": "REGION_ROUTE3/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12637,7 +12637,7 @@
       "upstream_ap_id": 1395,
       "upstream_region": "REGION_ROUTE9/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12667,7 +12667,7 @@
       "upstream_ap_id": 1383,
       "upstream_region": "REGION_VIRIDIAN_FOREST/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12697,7 +12697,7 @@
       "upstream_ap_id": 1392,
       "upstream_region": "REGION_ROUTE6/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12727,7 +12727,7 @@
       "upstream_ap_id": 1386,
       "upstream_region": "REGION_ROUTE3/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12757,7 +12757,7 @@
       "upstream_ap_id": 1387,
       "upstream_region": "REGION_ROUTE3/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12787,7 +12787,7 @@
       "upstream_ap_id": 1391,
       "upstream_region": "REGION_ROUTE6/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12817,7 +12817,7 @@
       "upstream_ap_id": 1388,
       "upstream_region": "REGION_MT_MOON_1F/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12847,7 +12847,7 @@
       "upstream_ap_id": 1382,
       "upstream_region": "REGION_VIRIDIAN_FOREST/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12877,7 +12877,7 @@
       "upstream_ap_id": 1389,
       "upstream_region": "REGION_MT_MOON_1F/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12907,7 +12907,7 @@
       "upstream_ap_id": 1384,
       "upstream_region": "REGION_VIRIDIAN_FOREST/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12937,7 +12937,7 @@
       "upstream_ap_id": 1496,
       "upstream_region": "REGION_POKEMON_MANSION_2F/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12967,7 +12967,7 @@
       "upstream_ap_id": 1495,
       "upstream_region": "REGION_CINNABAR_ISLAND_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -12997,7 +12997,7 @@
       "upstream_ap_id": 1499,
       "upstream_region": "REGION_POKEMON_MANSION_B1F",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13027,7 +13027,7 @@
       "upstream_ap_id": 1493,
       "upstream_region": "REGION_CINNABAR_ISLAND_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13057,7 +13057,7 @@
       "upstream_ap_id": 1494,
       "upstream_region": "REGION_CINNABAR_ISLAND_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13087,7 +13087,7 @@
       "upstream_ap_id": 1498,
       "upstream_region": "REGION_POKEMON_MANSION_3F/SOUTHWEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13117,7 +13117,7 @@
       "upstream_ap_id": 1428,
       "upstream_region": "REGION_ROUTE9/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13147,7 +13147,7 @@
       "upstream_ap_id": 1429,
       "upstream_region": "REGION_ROUTE9/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13177,7 +13177,7 @@
       "upstream_ap_id": 1424,
       "upstream_region": "REGION_ROUTE24/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13207,7 +13207,7 @@
       "upstream_ap_id": 1751,
       "upstream_region": "REGION_ROUTE25/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13237,7 +13237,7 @@
       "upstream_ap_id": 1426,
       "upstream_region": "REGION_ROUTE6/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13267,7 +13267,7 @@
       "upstream_ap_id": 1757,
       "upstream_region": "REGION_ROUTE12/BEHIND_NORTH_TREE",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13297,7 +13297,7 @@
       "upstream_ap_id": 1422,
       "upstream_region": "REGION_PEWTER_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13327,7 +13327,7 @@
       "upstream_ap_id": 1425,
       "upstream_region": "REGION_ROUTE6/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13357,7 +13357,7 @@
       "upstream_ap_id": 1423,
       "upstream_region": "REGION_ROUTE24/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13387,7 +13387,7 @@
       "upstream_ap_id": 1742,
       "upstream_region": "REGION_SAFFRON_CITY_GYM/NORTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13417,7 +13417,7 @@
       "upstream_ap_id": 1731,
       "upstream_region": "REGION_POKEMON_TOWER_6F/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13447,7 +13447,7 @@
       "upstream_ap_id": 1722,
       "upstream_region": "REGION_POKEMON_TOWER_3F/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13477,7 +13477,7 @@
       "upstream_ap_id": 1732,
       "upstream_region": "REGION_POKEMON_TOWER_6F/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13507,7 +13507,7 @@
       "upstream_ap_id": 1723,
       "upstream_region": "REGION_POKEMON_TOWER_3F/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13537,7 +13537,7 @@
       "upstream_ap_id": 1730,
       "upstream_region": "REGION_POKEMON_TOWER_5F/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13567,7 +13567,7 @@
       "upstream_ap_id": 1733,
       "upstream_region": "REGION_POKEMON_TOWER_6F/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13597,7 +13597,7 @@
       "upstream_ap_id": 1726,
       "upstream_region": "REGION_POKEMON_TOWER_4F/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13627,7 +13627,7 @@
       "upstream_ap_id": 1729,
       "upstream_region": "REGION_POKEMON_TOWER_5F/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13657,7 +13657,7 @@
       "upstream_ap_id": 1725,
       "upstream_region": "REGION_POKEMON_TOWER_4F/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13687,7 +13687,7 @@
       "upstream_ap_id": 1721,
       "upstream_region": "REGION_POKEMON_TOWER_3F/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13717,7 +13717,7 @@
       "upstream_ap_id": 1724,
       "upstream_region": "REGION_POKEMON_TOWER_4F/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13747,7 +13747,7 @@
       "upstream_ap_id": 1728,
       "upstream_region": "REGION_POKEMON_TOWER_5F/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13777,7 +13777,7 @@
       "upstream_ap_id": 1743,
       "upstream_region": "REGION_SAFFRON_CITY_GYM/WEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13807,7 +13807,7 @@
       "upstream_ap_id": 1727,
       "upstream_region": "REGION_POKEMON_TOWER_5F/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13837,7 +13837,7 @@
       "upstream_ap_id": 1744,
       "upstream_region": "REGION_SAFFRON_CITY_GYM/SOUTHWEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13867,7 +13867,7 @@
       "upstream_ap_id": 1684,
       "upstream_region": "REGION_VICTORY_ROAD_3F/NORTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13897,7 +13897,7 @@
       "upstream_ap_id": 1683,
       "upstream_region": "REGION_VICTORY_ROAD_3F/SOUTHWEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13927,7 +13927,7 @@
       "upstream_ap_id": 1674,
       "upstream_region": "REGION_VICTORY_ROAD_3F/SOUTHWEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13957,7 +13957,7 @@
       "upstream_ap_id": 1673,
       "upstream_region": "REGION_VICTORY_ROAD_3F/NORTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -13987,7 +13987,7 @@
       "upstream_ap_id": 1686,
       "upstream_region": "REGION_VICTORY_ROAD_1F/NORTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14017,7 +14017,7 @@
       "upstream_ap_id": 1676,
       "upstream_region": "REGION_VICTORY_ROAD_1F/NORTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14047,7 +14047,7 @@
       "upstream_ap_id": 1672,
       "upstream_region": "REGION_VIRIDIAN_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14077,7 +14077,7 @@
       "upstream_ap_id": 1681,
       "upstream_region": "REGION_VIRIDIAN_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14107,7 +14107,7 @@
       "upstream_ap_id": 1680,
       "upstream_region": "REGION_VIRIDIAN_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14137,7 +14137,7 @@
       "upstream_ap_id": 1765,
       "upstream_region": "REGION_VICTORY_ROAD_3F/SOUTHEAST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14167,7 +14167,7 @@
       "upstream_ap_id": 1768,
       "upstream_region": "REGION_ROUTE15/NORTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14197,7 +14197,7 @@
       "upstream_ap_id": 1531,
       "upstream_region": "REGION_ROUTE16/SOUTHWEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14227,7 +14227,7 @@
       "upstream_ap_id": 1536,
       "upstream_region": "REGION_ROUTE17/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14257,7 +14257,7 @@
       "upstream_ap_id": 1533,
       "upstream_region": "REGION_ROUTE17/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14287,7 +14287,7 @@
       "upstream_ap_id": 1535,
       "upstream_region": "REGION_ROUTE17/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14317,7 +14317,7 @@
       "upstream_ap_id": 1529,
       "upstream_region": "REGION_ROUTE16/SOUTHWEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14347,7 +14347,7 @@
       "upstream_ap_id": 1530,
       "upstream_region": "REGION_ROUTE16/SOUTHWEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14377,7 +14377,7 @@
       "upstream_ap_id": 1532,
       "upstream_region": "REGION_ROUTE17/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14407,7 +14407,7 @@
       "upstream_ap_id": 1534,
       "upstream_region": "REGION_ROUTE17/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14437,7 +14437,7 @@
       "upstream_ap_id": 1692,
       "upstream_region": "REGION_POKEMON_LEAGUE_AGATHAS_ROOM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14467,7 +14467,7 @@
       "upstream_ap_id": 1691,
       "upstream_region": "REGION_POKEMON_LEAGUE_BRUNOS_ROOM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14497,7 +14497,7 @@
       "upstream_ap_id": 1693,
       "upstream_region": "REGION_POKEMON_LEAGUE_LANCES_ROOM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14527,7 +14527,7 @@
       "upstream_ap_id": 1690,
       "upstream_region": "REGION_POKEMON_LEAGUE_LORELEIS_ROOM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14557,7 +14557,7 @@
       "upstream_ap_id": 1500,
       "upstream_region": "REGION_VERMILION_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14587,7 +14587,7 @@
       "upstream_ap_id": 1502,
       "upstream_region": "REGION_ROUTE11/WEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14617,7 +14617,7 @@
       "upstream_ap_id": 1501,
       "upstream_region": "REGION_ROUTE11/WEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14647,7 +14647,7 @@
       "upstream_ap_id": 1513,
       "upstream_region": "REGION_ROUTE12/SOUTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14677,7 +14677,7 @@
       "upstream_ap_id": 1506,
       "upstream_region": "REGION_ROUTE12/CENTER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14707,7 +14707,7 @@
       "upstream_ap_id": 1510,
       "upstream_region": "REGION_ROUTE21/WATER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14737,7 +14737,7 @@
       "upstream_ap_id": 1508,
       "upstream_region": "REGION_ROUTE12/CENTER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14767,7 +14767,7 @@
       "upstream_ap_id": 1507,
       "upstream_region": "REGION_ROUTE12/CENTER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14797,7 +14797,7 @@
       "upstream_ap_id": 1505,
       "upstream_region": "REGION_ROUTE12/CENTER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14827,7 +14827,7 @@
       "upstream_ap_id": 1512,
       "upstream_region": "REGION_ROUTE21/WATER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14857,7 +14857,7 @@
       "upstream_ap_id": 1509,
       "upstream_region": "REGION_ROUTE21/WATER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14887,7 +14887,7 @@
       "upstream_ap_id": 1511,
       "upstream_region": "REGION_ROUTE21/WATER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14917,7 +14917,7 @@
       "upstream_ap_id": 1541,
       "upstream_region": "REGION_ROUTE11/WEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14947,7 +14947,7 @@
       "upstream_ap_id": 1540,
       "upstream_region": "REGION_ROUTE11/WEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -14977,7 +14977,7 @@
       "upstream_ap_id": 1538,
       "upstream_region": "REGION_ROUTE11/WEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15007,7 +15007,7 @@
       "upstream_ap_id": 1539,
       "upstream_region": "REGION_ROUTE11/WEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15037,7 +15037,7 @@
       "upstream_ap_id": 1544,
       "upstream_region": "REGION_ROUTE8/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15067,7 +15067,7 @@
       "upstream_ap_id": 1542,
       "upstream_region": "REGION_ROUTE8/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15097,7 +15097,7 @@
       "upstream_ap_id": 1703,
       "upstream_region": "REGION_VERMILION_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15127,7 +15127,7 @@
       "upstream_ap_id": 1465,
       "upstream_region": "REGION_ROUTE9/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15157,7 +15157,7 @@
       "upstream_ap_id": 1470,
       "upstream_region": "REGION_ROCK_TUNNEL_B1F/SOUTHEAST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15187,7 +15187,7 @@
       "upstream_ap_id": 1466,
       "upstream_region": "REGION_ROUTE9/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15217,7 +15217,7 @@
       "upstream_ap_id": 1467,
       "upstream_region": "REGION_ROUTE10/SOUTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15247,7 +15247,7 @@
       "upstream_ap_id": 1469,
       "upstream_region": "REGION_ROCK_TUNNEL_B1F/NORTHWEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15277,7 +15277,7 @@
       "upstream_ap_id": 1471,
       "upstream_region": "REGION_ROCK_TUNNEL_B1F/SOUTHEAST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15307,7 +15307,7 @@
       "upstream_ap_id": 1462,
       "upstream_region": "REGION_ROUTE25/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15337,7 +15337,7 @@
       "upstream_ap_id": 1745,
       "upstream_region": "REGION_ROUTE9/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15367,7 +15367,7 @@
       "upstream_ap_id": 1472,
       "upstream_region": "REGION_ROCK_TUNNEL_1F/NORTHWEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15397,7 +15397,7 @@
       "upstream_ap_id": 1474,
       "upstream_region": "REGION_ROCK_TUNNEL_1F/NORTHWEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15427,7 +15427,7 @@
       "upstream_ap_id": 1461,
       "upstream_region": "REGION_MT_MOON_1F/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15457,7 +15457,7 @@
       "upstream_ap_id": 1463,
       "upstream_region": "REGION_ROUTE25/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15487,7 +15487,7 @@
       "upstream_ap_id": 1473,
       "upstream_region": "REGION_ROCK_TUNNEL_1F/NORTHWEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15517,7 +15517,7 @@
       "upstream_ap_id": 1468,
       "upstream_region": "REGION_ROUTE10/SOUTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15547,7 +15547,7 @@
       "upstream_ap_id": 1464,
       "upstream_region": "REGION_ROUTE25/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15577,7 +15577,7 @@
       "upstream_ap_id": 1570,
       "upstream_region": "REGION_VICTORY_ROAD_2F/CENTER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15607,7 +15607,7 @@
       "upstream_ap_id": 1572,
       "upstream_region": "REGION_FUCHSIA_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15637,7 +15637,7 @@
       "upstream_ap_id": 1568,
       "upstream_region": "REGION_FUCHSIA_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15667,7 +15667,7 @@
       "upstream_ap_id": 1573,
       "upstream_region": "REGION_FUCHSIA_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15697,7 +15697,7 @@
       "upstream_ap_id": 1567,
       "upstream_region": "REGION_VICTORY_ROAD_2F/CENTER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15727,7 +15727,7 @@
       "upstream_ap_id": 1569,
       "upstream_region": "REGION_FUCHSIA_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15757,7 +15757,7 @@
       "upstream_ap_id": 1403,
       "upstream_region": "REGION_ROUTE24/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15787,7 +15787,7 @@
       "upstream_ap_id": 1409,
       "upstream_region": "REGION_ROUTE8/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15817,7 +15817,7 @@
       "upstream_ap_id": 1399,
       "upstream_region": "REGION_ROUTE4/NORTHEAST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15847,7 +15847,7 @@
       "upstream_ap_id": 1405,
       "upstream_region": "REGION_ROUTE25/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15877,7 +15877,7 @@
       "upstream_ap_id": 1401,
       "upstream_region": "REGION_MT_MOON_1F/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15907,7 +15907,7 @@
       "upstream_ap_id": 1396,
       "upstream_region": "REGION_ROUTE3/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15937,7 +15937,7 @@
       "upstream_ap_id": 1411,
       "upstream_region": "REGION_ROUTE8/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15967,7 +15967,7 @@
       "upstream_ap_id": 1410,
       "upstream_region": "REGION_ROUTE8/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -15997,7 +15997,7 @@
       "upstream_ap_id": 1400,
       "upstream_region": "REGION_MT_MOON_1F/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16027,7 +16027,7 @@
       "upstream_ap_id": 1408,
       "upstream_region": "REGION_ROUTE8/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16057,7 +16057,7 @@
       "upstream_ap_id": 1402,
       "upstream_region": "REGION_ROUTE24/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16087,7 +16087,7 @@
       "upstream_ap_id": 1398,
       "upstream_region": "REGION_ROUTE3/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16117,7 +16117,7 @@
       "upstream_ap_id": 1397,
       "upstream_region": "REGION_ROUTE3/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16147,7 +16147,7 @@
       "upstream_ap_id": 1699,
       "upstream_region": "REGION_CINNABAR_ISLAND_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16177,7 +16177,7 @@
       "upstream_ap_id": 1694,
       "upstream_region": "REGION_PEWTER_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16207,7 +16207,7 @@
       "upstream_ap_id": 1697,
       "upstream_region": "REGION_CELADON_CITY_GYM/BEHIND_TREES",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16237,7 +16237,7 @@
       "upstream_ap_id": 1698,
       "upstream_region": "REGION_FUCHSIA_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16267,7 +16267,7 @@
       "upstream_ap_id": 1695,
       "upstream_region": "REGION_CERULEAN_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16297,7 +16297,7 @@
       "upstream_ap_id": 1700,
       "upstream_region": "REGION_SAFFRON_CITY_GYM/CENTER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16327,7 +16327,7 @@
       "upstream_ap_id": 1434,
       "upstream_region": "REGION_ROUTE9/WEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16357,7 +16357,7 @@
       "upstream_ap_id": 1746,
       "upstream_region": "REGION_ROUTE13/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16387,7 +16387,7 @@
       "upstream_ap_id": 1755,
       "upstream_region": "REGION_ROCK_TUNNEL_1F/SOUTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16417,7 +16417,7 @@
       "upstream_ap_id": 1760,
       "upstream_region": "REGION_ROUTE15/NORTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16447,7 +16447,7 @@
       "upstream_ap_id": 1435,
       "upstream_region": "REGION_ROUTE9/EAST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16477,7 +16477,7 @@
       "upstream_ap_id": 1437,
       "upstream_region": "REGION_ROUTE10/SOUTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16507,7 +16507,7 @@
       "upstream_ap_id": 1761,
       "upstream_region": "REGION_ROUTE15/NORTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16537,7 +16537,7 @@
       "upstream_ap_id": 1754,
       "upstream_region": "REGION_ROCK_TUNNEL_1F/SOUTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16567,7 +16567,7 @@
       "upstream_ap_id": 1430,
       "upstream_region": "REGION_CERULEAN_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16597,7 +16597,7 @@
       "upstream_ap_id": 1749,
       "upstream_region": "REGION_ROUTE13/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16627,7 +16627,7 @@
       "upstream_ap_id": 1436,
       "upstream_region": "REGION_ROUTE10/NORTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16657,7 +16657,7 @@
       "upstream_ap_id": 1753,
       "upstream_region": "REGION_ROUTE20/NEAR_SOUTH_CAVE",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16687,7 +16687,7 @@
       "upstream_ap_id": 1432,
       "upstream_region": "REGION_ROUTE6/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16717,7 +16717,7 @@
       "upstream_ap_id": 1433,
       "upstream_region": "REGION_ROUTE25/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16747,7 +16747,7 @@
       "upstream_ap_id": 1759,
       "upstream_region": "REGION_ROUTE15/SOUTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16777,7 +16777,7 @@
       "upstream_ap_id": 1756,
       "upstream_region": "REGION_ROCK_TUNNEL_1F/SOUTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16807,7 +16807,7 @@
       "upstream_ap_id": 1439,
       "upstream_region": "REGION_ROCK_TUNNEL_B1F/SOUTHEAST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16837,7 +16837,7 @@
       "upstream_ap_id": 1752,
       "upstream_region": "REGION_ROUTE20/WEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16867,7 +16867,7 @@
       "upstream_ap_id": 1431,
       "upstream_region": "REGION_ROUTE6/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16897,7 +16897,7 @@
       "upstream_ap_id": 1438,
       "upstream_region": "REGION_ROCK_TUNNEL_B1F/NORTHWEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16927,7 +16927,7 @@
       "upstream_ap_id": 1747,
       "upstream_region": "REGION_ROUTE13/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16957,7 +16957,7 @@
       "upstream_ap_id": 1748,
       "upstream_region": "REGION_ROUTE13/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -16987,7 +16987,7 @@
       "upstream_ap_id": 1758,
       "upstream_region": "REGION_ROUTE15/SOUTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17017,7 +17017,7 @@
       "upstream_ap_id": 1448,
       "upstream_region": "REGION_ROCK_TUNNEL_1F/NORTHEAST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17047,7 +17047,7 @@
       "upstream_ap_id": 1444,
       "upstream_region": "REGION_ROCK_TUNNEL_B1F/NORTHWEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17077,7 +17077,7 @@
       "upstream_ap_id": 1447,
       "upstream_region": "REGION_VICTORY_ROAD_2F/NORTHWEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17107,7 +17107,7 @@
       "upstream_ap_id": 1443,
       "upstream_region": "REGION_ROUTE10/SOUTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17137,7 +17137,7 @@
       "upstream_ap_id": 1442,
       "upstream_region": "REGION_ROUTE10/NEAR_POWER_PLANT",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17167,7 +17167,7 @@
       "upstream_ap_id": 1445,
       "upstream_region": "REGION_ROCK_TUNNEL_B1F/SOUTHEAST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17197,7 +17197,7 @@
       "upstream_ap_id": 1446,
       "upstream_region": "REGION_ROCK_TUNNEL_B1F/SOUTHEAST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17227,7 +17227,7 @@
       "upstream_ap_id": 1562,
       "upstream_region": "REGION_SAFFRON_CITY_GYM/SOUTHEAST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17257,7 +17257,7 @@
       "upstream_ap_id": 1560,
       "upstream_region": "REGION_SAFFRON_CITY_GYM/NORTHEAST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17287,7 +17287,7 @@
       "upstream_ap_id": 1563,
       "upstream_region": "REGION_SAFFRON_CITY_GYM/NORTHWEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17317,7 +17317,7 @@
       "upstream_ap_id": 1561,
       "upstream_region": "REGION_SAFFRON_CITY_GYM/EAST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17347,7 +17347,7 @@
       "upstream_ap_id": 1565,
       "upstream_region": "REGION_ROUTE12/SOUTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17377,7 +17377,7 @@
       "upstream_ap_id": 1421,
       "upstream_region": "REGION_VERMILION_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17407,7 +17407,7 @@
       "upstream_ap_id": 1626,
       "upstream_region": "REGION_POKEMON_MANSION_3F/SOUTHEAST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17437,7 +17437,7 @@
       "upstream_ap_id": 1627,
       "upstream_region": "REGION_POKEMON_MANSION_B1F",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17467,7 +17467,7 @@
       "upstream_ap_id": 1615,
       "upstream_region": "REGION_POKEMON_MANSION_1F/SOUTH",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17497,7 +17497,7 @@
       "upstream_ap_id": 1770,
       "upstream_region": "REGION_ROUTE19/WATER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17527,7 +17527,7 @@
       "upstream_ap_id": 1771,
       "upstream_region": "REGION_ROUTE21/WATER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17557,7 +17557,7 @@
       "upstream_ap_id": 1451,
       "upstream_region": "REGION_ROUTE8/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17587,7 +17587,7 @@
       "upstream_ap_id": 1458,
       "upstream_region": "REGION_CINNABAR_ISLAND_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17617,7 +17617,7 @@
       "upstream_ap_id": 1459,
       "upstream_region": "REGION_CINNABAR_ISLAND_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17647,7 +17647,7 @@
       "upstream_ap_id": 1457,
       "upstream_region": "REGION_CINNABAR_ISLAND_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17677,7 +17677,7 @@
       "upstream_ap_id": 1452,
       "upstream_region": "REGION_ROUTE8/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17707,7 +17707,7 @@
       "upstream_ap_id": 1449,
       "upstream_region": "REGION_MT_MOON_1F/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17737,7 +17737,7 @@
       "upstream_ap_id": 1453,
       "upstream_region": "REGION_ROUTE8/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17767,7 +17767,7 @@
       "upstream_ap_id": 1450,
       "upstream_region": "REGION_MT_MOON_B2F/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17797,7 +17797,7 @@
       "upstream_ap_id": 1460,
       "upstream_region": "REGION_CINNABAR_ISLAND_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17827,7 +17827,7 @@
       "upstream_ap_id": 1557,
       "upstream_region": "REGION_ROUTE19/WATER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17857,7 +17857,7 @@
       "upstream_ap_id": 1556,
       "upstream_region": "REGION_ROUTE19/WATER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17887,7 +17887,7 @@
       "upstream_ap_id": 1558,
       "upstream_region": "REGION_ROUTE19/WATER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17917,7 +17917,7 @@
       "upstream_ap_id": 1552,
       "upstream_region": "REGION_ROUTE20/WEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17947,7 +17947,7 @@
       "upstream_ap_id": 1551,
       "upstream_region": "REGION_ROUTE20/WEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -17977,7 +17977,7 @@
       "upstream_ap_id": 1559,
       "upstream_region": "REGION_ROUTE20/EAST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18007,7 +18007,7 @@
       "upstream_ap_id": 1550,
       "upstream_region": "REGION_ROUTE20/EAST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18037,7 +18037,7 @@
       "upstream_ap_id": 1521,
       "upstream_region": "REGION_ROUTE19/WATER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18067,7 +18067,7 @@
       "upstream_ap_id": 1522,
       "upstream_region": "REGION_ROUTE20/EAST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18097,7 +18097,7 @@
       "upstream_ap_id": 1524,
       "upstream_region": "REGION_ROUTE20/EAST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18127,7 +18127,7 @@
       "upstream_ap_id": 1519,
       "upstream_region": "REGION_ROUTE19/WATER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18157,7 +18157,7 @@
       "upstream_ap_id": 1523,
       "upstream_region": "REGION_ROUTE20/WEST",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18187,7 +18187,7 @@
       "upstream_ap_id": 1518,
       "upstream_region": "REGION_ROUTE19/WATER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18217,7 +18217,7 @@
       "upstream_ap_id": 1526,
       "upstream_region": "REGION_ROUTE21/WATER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18247,7 +18247,7 @@
       "upstream_ap_id": 1527,
       "upstream_region": "REGION_ROUTE21/WATER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18277,7 +18277,7 @@
       "upstream_ap_id": 1514,
       "upstream_region": "REGION_CERULEAN_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18307,7 +18307,7 @@
       "upstream_ap_id": 1517,
       "upstream_region": "REGION_ROUTE19/WATER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18337,7 +18337,7 @@
       "upstream_ap_id": 1516,
       "upstream_region": "REGION_ROUTE19/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18367,7 +18367,7 @@
       "upstream_ap_id": 1515,
       "upstream_region": "REGION_ROUTE19/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18397,7 +18397,7 @@
       "upstream_ap_id": 1528,
       "upstream_region": "REGION_ROUTE21/WATER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18427,7 +18427,7 @@
       "upstream_ap_id": 1525,
       "upstream_region": "REGION_ROUTE21/WATER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18457,7 +18457,7 @@
       "upstream_ap_id": 1520,
       "upstream_region": "REGION_ROUTE19/WATER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18487,7 +18487,7 @@
       "upstream_ap_id": 1577,
       "upstream_region": "REGION_VIRIDIAN_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18517,7 +18517,7 @@
       "upstream_ap_id": 1575,
       "upstream_region": "REGION_FUCHSIA_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18547,7 +18547,7 @@
       "upstream_ap_id": 1576,
       "upstream_region": "REGION_VIRIDIAN_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18577,7 +18577,7 @@
       "upstream_ap_id": 1574,
       "upstream_region": "REGION_FUCHSIA_CITY_GYM/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18607,7 +18607,7 @@
       "upstream_ap_id": 1578,
       "upstream_region": "REGION_VICTORY_ROAD_2F/CENTER",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18637,7 +18637,7 @@
       "upstream_ap_id": 1764,
       "upstream_region": "REGION_ROUTE8/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18667,7 +18667,7 @@
       "upstream_ap_id": 1767,
       "upstream_region": "REGION_ROUTE14/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18697,7 +18697,7 @@
       "upstream_ap_id": 1369,
       "upstream_region": "REGION_ROUTE3/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18727,7 +18727,7 @@
       "upstream_ap_id": 1370,
       "upstream_region": "REGION_ROUTE3/BETWEEN_LEDGES",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18757,7 +18757,7 @@
       "upstream_ap_id": 1375,
       "upstream_region": "REGION_ROUTE25/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -18787,7 +18787,7 @@
       "upstream_ap_id": 1374,
       "upstream_region": "REGION_ROUTE25/MAIN",
       "original_reward": "native_battle_money_preserved_separate_AP_check",
-      "validation": "Native trainer victory flag, latched before rematch reset",
+      "validation": "Won trainer battle callback, separate persistent AP victory bit; native flags are not proof",
       "mandatory": false,
       "prerequisites": [
         "Native campaign",
@@ -24957,9 +24957,11 @@
     }
   ],
   "limits": [
-    "Inventaire des macros finditem/événements cachés et giveitem uniquement ; les dons C et scripts indirects exigent un audit séparé.",
-    "Les candidats ne sont pas des checks jouables. Hors forêt, les prérequis restent à vérifier.",
-    "Îles 1–3 exclues prudemment de ce premier périmètre malgré certains accès possibles avant la Ligue."
+    "Only positively matched pre-League sources are active; unknown sources remain disabled.",
+    "Native campaign/story keys remain; AP access groups Flash/Surf capabilities rather than every narrative condition.",
+    "256 separate persistent trainer victory groups exhaust the existing reserved32-byte ledger.",
+    "No shops/rematches/Fame entries activated; no optional RNG check can contain progression.",
+    "Native fixtures and representative played battles are distinct from a complete physical playthrough."
   ],
   "capture_capacity": {
     "counter": "GetKantoPokedexCount(FLAG_GET_CAUGHT), first151 national entries, not all301",

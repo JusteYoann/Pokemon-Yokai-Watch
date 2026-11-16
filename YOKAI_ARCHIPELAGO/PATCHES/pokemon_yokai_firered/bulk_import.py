@@ -174,7 +174,7 @@ def expand(data,source,project):
             'flag_values':[flags['TRAINER_FLAGS_START']+opponents[a] for a in aliases],
             'source':match['source'],'script_source':match['source'],'script':match['root'],
             'upstream_key':key,'upstream_ap_id':row['upstream_ap_id'],'upstream_region':row['upstream_region'],
-            'original_reward':'native_battle_money_preserved_separate_AP_check','validation':'Native trainer victory flag, latched before rematch reset',
+            'original_reward':'native_battle_money_preserved_separate_AP_check','validation':'Won trainer battle callback, separate persistent AP victory bit; native flags are not proof',
             'mandatory':False,'prerequisites':['Native campaign',stage],'risks':[]})
     data['checks']+=trainer_rows
 
@@ -281,6 +281,12 @@ def expand(data,source,project):
             evidence=[{'map':native_map,'source':m['source'],'command':label} for label,body in blocks.items() if 'pokemart' in body
                       for m in owners.get(label,[]) if m['map']==native_map]
         correspondence.append({**row,'classification':cls,'adaptation_complete':adapted,'integrated':bool(entry),'yokai_id':entry['id'] if entry else None,'bulk_reason':reason,'category_evidence':evidence})
+    data['id_formula']='Preserved badge/flag IDs; trainer 0x594B6000+upstream AP ID; capture 0x594B8000+national dex; visit 0x594BA000+native flag'
+    data['limits']=['Only positively matched pre-League sources are active; unknown sources remain disabled.',
+        'Native campaign/story keys remain; AP access groups Flash/Surf capabilities rather than every narrative condition.',
+        '256 separate persistent trainer victory groups exhaust the existing reserved32-byte ledger.',
+        'No shops/rematches/Fame entries activated; no optional RNG check can contain progression.',
+        'Native fixtures and representative played battles are distinct from a complete physical playthrough.']
     data['bulk_correspondence']={'total':len(correspondence),'summary':dict(Counter(r['classification'] for r in correspondence)),
         'by_category':{cat:dict(Counter(r['classification'] for r in correspondence if r['category']==cat)) for cat in sorted({r['category'] for r in correspondence})},'rows':correspondence}
     return data

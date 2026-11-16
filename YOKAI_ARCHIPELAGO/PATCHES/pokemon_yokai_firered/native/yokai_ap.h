@@ -63,4 +63,5 @@ extern EWRAM_DATA volatile u16 gYokaiAPOwnedCount;
 void YokaiAPUpdate(void);
 void YokaiAPTryCollect(void);
 void YokaiAPTrainerVictory(u16 trainerId);
+bool8 YokaiAPKeepTrainerAvailable(u16 trainerId);
 #endif

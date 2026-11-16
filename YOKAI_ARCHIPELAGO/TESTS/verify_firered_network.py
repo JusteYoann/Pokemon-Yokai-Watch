@@ -105,29 +105,36 @@ async def scenario(a,report):
         box=transport.box
         await wait(lambda:r.read(box+39,1)==b'\1')
         ok('Real AP server authenticated the FireRed slot',client.poll() is None)
+        await asyncio.sleep(1)  # allow automatic starting-town checks to settle
+        initial_count=r.u32(box+32)
         before=r.call('BagGetQuantityByItemId',13)
         server.stdin.write('/send Yoann_FireRed Potion\n');server.stdin.flush()
-        await wait(lambda:r.u32(box+32)==1)
-        ok('Server gift reached real native bag',r.call('BagGetQuantityByItemId',13)==before+1)
+        await wait(lambda:r.u32(box+32)>=initial_count+1)
+        ok('Server gift reached real native bag',r.call('BagGetQuantityByItemId',13)>=before+1)
         ok('Client received the actual AP item packet',any(e['event']=='received_items' and 13 in e['items'] for e in records()))
+        await asyncio.sleep(.5)
+        reconnect_count=r.u32(box+32);reconnect_potions=r.call('BagGetQuantityByItemId',13)
         client.terminate();client.wait(10);client=start_client(2)
         await wait(lambda:sum(e['event']=='connected' for e in records())>=2)
         await asyncio.sleep(1)
-        ok('Network reconnect does not duplicate native gift',r.call('BagGetQuantityByItemId',13)==before+1 and r.u32(box+32)==1)
+        ok('Network reconnect does not duplicate native gift',r.call('BagGetQuantityByItemId',13)==reconnect_potions and r.u32(box+32)==reconnect_count)
         if 'YokaiAPTryCollect' in r.symbols:
+            delivered=r.u32(box+32);surf_before=r.call('BagGetQuantityByItemId',341)
             server.stdin.write('/send Yoann_FireRed CS03 Surf\n');server.stdin.flush()
-            await wait(lambda:r.call('BagGetQuantityByItemId',341)==1)
-            ok('Progression Surf from real server reached native inventory',r.u32(box+32)==2)
+            await wait(lambda:r.call('BagGetQuantityByItemId',341)>=surf_before+1)
+            ok('Progression Surf from real server reached native inventory',r.u32(box+32)>=delivered+1)
+            delivered=r.u32(box+32);flash_before=r.call('BagGetQuantityByItemId',343)
             server.stdin.write('/send Yoann_FireRed CS05 Flash\n');server.stdin.flush()
-            await wait(lambda:r.call('BagGetQuantityByItemId',343)==1)
-            ok('Progression Flash from real server reached native inventory',r.u32(box+32)==3)
+            await wait(lambda:r.call('BagGetQuantityByItemId',343)>=flash_before+1)
+            ok('Progression Flash from real server reached native inventory',r.u32(box+32)>=delivered+1)
+            blocked_count=r.u32(box+32)
             bag=r.u32(r.symbols['gSaveBlock1Ptr'])+0x310
             saved_bag=[(int.from_bytes(r.read(bag+4*i,2),'little'),r.call('GetBagItemQuantity',bag+4*i+2)) for i in range(42)]
             for i in range(42):
                 r.write(bag+4*i,struct.pack('<H',13));r.call('SetBagItemQuantity',bag+4*i+2,999)
             server.stdin.write('/send Yoann_FireRed Potion\n');server.stdin.flush()
             await wait(lambda:int.from_bytes(r.read(box+36,2),'little')==3)
-            ok('Real network gift stays pending when native bag is full',r.u32(box+32)==3)
+            ok('Real network gift stays pending when native bag is full',r.u32(box+32)==blocked_count)
         # Controlled party/position fixture, then native dialogue and battle.
         frames.cancel();await asyncio.gather(frames,return_exceptions=True);frames=None
         q.mon(0,65,100);r.call('SetMonMoveSlot',r.symbols['gPlayerParty'],280,0)
@@ -149,14 +156,14 @@ async def scenario(a,report):
         await wait(lambda:any(e['event']=='checked' and 0x594B1000 in e['locations'] for e in records()))
         ok('Real badge check acknowledged by AP server',True)
         if 'YokaiAPTryCollect' in r.symbols:
-            ok('Outgoing badge check succeeds while receive queue is blocked by full bag',r.u32(box+32)==3)
+            ok('Outgoing badge check succeeds while receive queue is blocked by full bag',r.u32(box+32)==blocked_count)
             # Battles may rotate the save encryption key. Restore logical
             # quantities through the native setter, never old ciphertext.
             bag=r.u32(r.symbols['gSaveBlock1Ptr'])+0x310
             for i,(item,quantity) in enumerate(saved_bag):
                 r.write(bag+4*i,struct.pack('<H',item));r.call('SetBagItemQuantity',bag+4*i+2,quantity)
             q.drain()  # finish any remaining native gym reward dialogue
-            await wait(lambda:r.u32(box+32)>=4)
+            await wait(lambda:r.u32(box+32)>=blocked_count+1)
             ok('Pending network gift resumes after freeing bag',True)
             frames.cancel();await asyncio.gather(frames,return_exceptions=True);frames=None
             for flag,x,y,item,check in [(0x156,5,41,4,0x594B2156),(1000,3,22,13,0x594B23E8)]:
@@ -181,9 +188,10 @@ async def scenario(a,report):
                 frames.cancel();await asyncio.gather(frames,return_exceptions=True);frames=None
             q.warp('SafariZone_SecretHouse',3,4)
             ok('Surf source not consumed by receiving remote Surf',r.call('FlagGet',0x239)==0)
+            surf_source_before=r.call('BagGetQuantityByItemId',341)
             q.script('SafariZone_SecretHouse_EventScript_Attendant');q.drain();r.run(10)
             ok('Native Safari gift validates its AP check',r.call('FlagGet',0x239)==1)
-            ok('Native Safari gift does not duplicate randomized Surf',r.call('BagGetQuantityByItemId',341)==1)
+            ok('Native Safari gift does not duplicate randomized Surf',r.call('BagGetQuantityByItemId',341)==surf_source_before)
             frames=asyncio.create_task(game_frames())
             await wait(lambda:any(e['event']=='checked' and 0x594B2239 in e['locations'] for e in records()))
             ok('Server acknowledged randomized Surf source',True)
@@ -198,15 +206,58 @@ async def scenario(a,report):
                 r.call('GetSetPokedexFlag',species,2);r.call('GetSetPokedexFlag',species,3)
             ok('Native fixture has at least10 valid caught entries',r.call('GetKantoPokedexCount',1)>=10)
             aide=next(c for c in catalog['checks'] if c.get('caught_required')==10)
+            flash_source_before=r.call('BagGetQuantityByItemId',343)
             q.warp(aide['map'],1,1);q.script(aide['script']);q.drain();r.run(8)
             ok('Native aide earned collection flag',r.call('FlagGet',aide['flag_value'])==1)
-            ok('Native aide check does not duplicate remotely received Flash',r.call('BagGetQuantityByItemId',343)==1)
+            ok('Native aide check does not duplicate remotely received Flash',r.call('BagGetQuantityByItemId',343)==flash_source_before)
             frames=asyncio.create_task(game_frames())
             await wait(lambda:any(e['event']=='checked' and aide['id'] in e['locations'] for e in records()))
             ok('Server acknowledged aide check using extended bitmap',True)
             r.call('BingoWelcomeGift');await asyncio.sleep(.7)
             repeated=[e for e in records() if e['event']=='sent' and e['packet'].get('cmd')=='LocationChecks' and 0x594B4000 in e['packet']['locations']]
             ok('Repeating native Bingo welcome sends only one location check',len(repeated)==1)
+            frames.cancel();await asyncio.gather(frames,return_exceptions=True);frames=None
+            # Play a real regular trainer battle: completion is not injected.
+            active=[c for c in catalog['checks'] if c['status']=='active']
+            trainer=next(c for c in active if c['kind']=='trainer' and c['map']=='Route3')
+            idx=active.index(trainer)
+            def earned():return bool(r.read(r.symbols['gYokaiAPChecks']+idx//8,1)[0]&(1<<(idx%8)))
+            q.mon(0,65,100);r.call('SetMonMoveSlot',r.symbols['gPlayerParty'],17,0)
+            trainer_objects=json.loads((a.build/f"data/maps/{trainer['map']}/map.json").read_text())['object_events']
+            local,actor=next((i,e) for i,e in enumerate(trainer_objects,1) if e.get('script')==trainer['script'])
+            q.warp(trainer['map'],actor['x']+1,actor['y'])
+            r.write(r.symbols['gSpecialVar_LastTalked'],struct.pack('<H',local))
+            selected=r.call('GetObjectEventIdByLocalIdAndMap',local,q.maps[trainer['map']][1],q.maps[trainer['map']][0])
+            r.write(r.symbols['gSelectedObjectEvent'],bytes([selected]))
+            ok('Regular trainer is not checked before battle',not earned())
+            q.script(trainer['script'])
+            for f in range(30000):
+                if earned():break
+                if q.callback()=='BattleMainCB2':
+                    from pilote_combat_mgba import battle_keys
+                    r.keys=battle_keys(r,f)
+                elif q.callback()=='CB2_UpdatePartyMenu':
+                    # Decline optional switch after defeating an enemy.
+                    # Keep battle decisions in the native UI, never edit outcome.
+                    r.keys={0} if f%16<2 else set()
+                else:r.keys={8} if f%16<2 else set()
+                r.run()
+                if f%20==0:await asyncio.sleep(0)
+            else:
+                report['battle_diagnostic']={'callback':q.callback(),'opponent':int.from_bytes(r.read(r.symbols['gTrainerBattleOpponent_A'],2),'little'),'outcome':r.read(r.symbols['gBattleOutcome'],1)[0],'flag':r.call('FlagGet',trainer['flag_values'][0]),'script_status':r.read(r.symbols['sGlobalScriptContextStatus'],1).hex()}
+                raise TimeoutError('Regular native battle did not produce persistent trainer check')
+            r.keys=set();q.drain()
+            ok('Actual trainer victory latched its persistent check',earned())
+            frames=asyncio.create_task(game_frames())
+            await wait(lambda:any(e['event']=='checked' and trainer['id'] in e['locations'] for e in records()))
+            ok('Server acknowledged actual regular trainer victory',True)
+            captured=[c for c in active if c['kind']=='pokedex' and r.call('GetSetPokedexFlag',c['dex_number'],1)]
+            await wait(lambda:all(any(e['event']=='checked' and c['id'] in e['locations'] for e in records()) for c in captured))
+            ok('Server acknowledged native caught-bit fixtures',bool(captured))
+            r.call('ClearTrainerFlag',trainer['trainer_ids'][0]);await asyncio.sleep(.7)
+            repeats=[e for e in records() if e['event']=='sent' and e['packet'].get('cmd')=='LocationChecks' and trainer['id'] in e['packet']['locations']]
+            ok('Trainer flag reset does not resend check',len(repeats)==1)
+            report['real_trainer_battle_id']=trainer['id']
             frames.cancel();await asyncio.gather(frames,return_exceptions=True);frames=None
             q.warp('PokemonLeague_HallOfFame',5,12)
             q.wait(lambda:r.call('GetGameStat',10)>0,limit=24000)
@@ -234,6 +285,7 @@ def main():
     p.add_argument('--python',default=sys.executable);p.add_argument('--server-port',type=int,default=38281);p.add_argument('--emulator-port',type=int,default=43056);a=p.parse_args()
     a.out.parent.mkdir(parents=True,exist_ok=True)
     report={'passed':False,'kind':'real_server_real_mgba_libretro','gui_lua_tested':False,
+            'rom_sha256':hashlib.sha256((a.build/'pokefirered_audio.gba').read_bytes()).hexdigest(),
             'party_and_location_prepared_by_fixture':True,'ordinary_interaction_context_prepared_by_fixture':True,
             'badge_flag_injected':False,'complete_playthrough':False,'checks':[]}
     try:asyncio.run(scenario(a,report))

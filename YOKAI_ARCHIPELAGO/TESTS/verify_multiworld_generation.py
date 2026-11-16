@@ -15,6 +15,8 @@ def main():
     p.add_argument('--seeds',nargs='+',type=int,default=[14112029,14112030,14112031])
     p.add_argument('--random-terreur',action='store_true')
     a=p.parse_args();ap=a.archipelago.resolve();players=a.players.resolve();out=a.out.resolve()
+    catalog=json.loads((Path(__file__).resolve().parents[1]/'APWORLDS/pokemon_yokai_firered/checks.json').read_text())
+    expected_ids={c['id'] for c in catalog['checks'] if c['status']=='active'}|{c['id'] for c in catalog['badge_checks']}
     out.mkdir(parents=True,exist_ok=True)
     if a.random_terreur:
         import yaml
@@ -54,7 +56,7 @@ def main():
         world=mw.worlds[next(p for p,w in mw.worlds.items() if w.game=='Pokemon Yo-kai FireRed')]
         own=mw.get_locations(world.player)
         assert {0x594B1000+i for i in range(8)}.issubset(world.location_name_to_id.values())
-        assert len(world.location_name_to_id)==75
+        assert set(world.location_name_to_id.values())==expected_ids
         optional=[loc for loc in own if loc.address==0x594B4002]
         assert bool(optional)==a.random_terreur
         assert not any(loc.item.advancement for loc in optional)

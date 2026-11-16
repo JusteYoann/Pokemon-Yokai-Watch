@@ -1,0 +1,187 @@
+{
+  "kind": "actual_AP_generate_and_spheres",
+  "tested_games": 3,
+  "native_gameplay_tested": false,
+  "caution": [
+    "FireRed randomise Surf et Flash ; les autres objets de progression restent natifs.",
+    "Régions FRLG réutilisées pour les checks activés ; les étapes narratives natives restent regroupées, pas un modèle de durée.",
+    "Aucune équivalence sphère/minutes et aucune garantie sur cinq jeux."
+  ],
+  "seeds": [
+    {
+      "seed": 1611202611,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 166
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 83,
+          "Yoann_MKW": 27,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 84,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 285
+        },
+        {
+          "Yoann_YW2": 66,
+          "Yoann_MKW": 99,
+          "Yoann_FireRed": 175
+        },
+        {
+          "Yoann_YW2": 67,
+          "Yoann_MKW": 45,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 24,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 54,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 24,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 7,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 3,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 0,
+        "Yoann_MKW": 1,
+        "Yoann_FireRed": 2
+      },
+      "remote_progression_routes": {
+        "Yoann_FireRed -> Yoann_MKW": 15,
+        "Yoann_FireRed -> Yoann_YW2": 20,
+        "Yoann_MKW -> Yoann_YW2": 9,
+        "Yoann_MKW -> Yoann_FireRed": 1,
+        "Yoann_YW2 -> Yoann_FireRed": 1,
+        "Yoann_YW2 -> Yoann_MKW": 5
+      },
+      "forest_remote_progression_count": 0,
+      "firered_checks": 626,
+      "firered_progression_locations": [
+        {
+          "item": "CS03 Surf",
+          "source_player": "Yoann_YW2",
+          "source_check": "Centre-ville de Granval - Coffre 08"
+        },
+        {
+          "item": "CS05 Flash",
+          "source_player": "Yoann_MKW",
+          "source_check": "Moo Moo Meadows Mirror - 1st Place"
+        }
+      ]
+    },
+    {
+      "seed": 1611202612,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 166
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 81,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 87,
+          "Yoann_MKW": 45,
+          "Yoann_FireRed": 285
+        },
+        {
+          "Yoann_YW2": 88,
+          "Yoann_MKW": 72,
+          "Yoann_FireRed": 175
+        },
+        {
+          "Yoann_YW2": 66,
+          "Yoann_MKW": 27,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 62,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 22,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 55,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 20,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 9,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 3,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 0,
+        "Yoann_MKW": 1,
+        "Yoann_FireRed": 1
+      },
+      "remote_progression_routes": {
+        "Yoann_MKW -> Yoann_YW2": 10,
+        "Yoann_FireRed -> Yoann_MKW": 17,
+        "Yoann_FireRed -> Yoann_YW2": 31,
+        "Yoann_YW2 -> Yoann_MKW": 8,
+        "Yoann_MKW -> Yoann_FireRed": 1
+      },
+      "forest_remote_progression_count": 1,
+      "firered_checks": 626,
+      "firered_progression_locations": [
+        {
+          "item": "CS05 Flash",
+          "source_player": "Yoann_MKW",
+          "source_check": "Shell Cup Mirror - 2nd place"
+        },
+        {
+          "item": "CS03 Surf",
+          "source_player": "Yoann_FireRed",
+          "source_check": "Médallium — PainSurpr. (248)"
+        }
+      ]
+    }
+  ]
+}

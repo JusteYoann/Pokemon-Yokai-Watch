@@ -1,0 +1,273 @@
+{
+  "kind": "actual_AP_generate_and_spheres",
+  "tested_games": 3,
+  "native_gameplay_tested": false,
+  "caution": [
+    "FireRed randomise Surf et Flash ; les autres objets de progression restent natifs.",
+    "Régions FRLG réutilisées pour les checks activés ; les étapes narratives natives restent regroupées, pas un modèle de durée.",
+    "Aucune équivalence sphère/minutes et aucune garantie sur cinq jeux."
+  ],
+  "seeds": [
+    {
+      "seed": 1611202601,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 165
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 72,
+          "Yoann_FireRed": 285
+        },
+        {
+          "Yoann_YW2": 83,
+          "Yoann_MKW": 126,
+          "Yoann_FireRed": 175
+        },
+        {
+          "Yoann_YW2": 93,
+          "Yoann_MKW": 45,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 60,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 60,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 23,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 52,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 29,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 7,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 5,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 0,
+        "Yoann_MKW": 2,
+        "Yoann_FireRed": 0
+      },
+      "remote_progression_routes": {
+        "Yoann_FireRed -> Yoann_MKW": 19,
+        "Yoann_FireRed -> Yoann_YW2": 20,
+        "Yoann_MKW -> Yoann_YW2": 12,
+        "Yoann_MKW -> Yoann_FireRed": 1,
+        "Yoann_YW2 -> Yoann_MKW": 3
+      },
+      "forest_remote_progression_count": 0,
+      "firered_checks": 625,
+      "firered_progression_locations": [
+        {
+          "item": "CS03 Surf",
+          "source_player": "Yoann_MKW",
+          "source_check": "Lightning Cup 50cc - 1 Star"
+        },
+        {
+          "item": "CS05 Flash",
+          "source_player": "Yoann_FireRed",
+          "source_check": "Médallium — Bobdruche (166)"
+        }
+      ]
+    },
+    {
+      "seed": 1611202602,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 165
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 54,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 78,
+          "Yoann_MKW": 45,
+          "Yoann_FireRed": 285
+        },
+        {
+          "Yoann_YW2": 96,
+          "Yoann_MKW": 72,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 59,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 175
+        },
+        {
+          "Yoann_YW2": 65,
+          "Yoann_MKW": 63,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 26,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 52,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 25,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 9,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 0,
+        "Yoann_MKW": 1,
+        "Yoann_FireRed": 1
+      },
+      "remote_progression_routes": {
+        "Yoann_FireRed -> Yoann_YW2": 22,
+        "Yoann_FireRed -> Yoann_MKW": 15,
+        "Yoann_YW2 -> Yoann_MKW": 12,
+        "Yoann_MKW -> Yoann_YW2": 8,
+        "Yoann_MKW -> Yoann_FireRed": 2
+      },
+      "forest_remote_progression_count": 3,
+      "firered_checks": 625,
+      "firered_progression_locations": [
+        {
+          "item": "CS03 Surf",
+          "source_player": "Yoann_MKW",
+          "source_check": "Shell Cup 50cc - 1 Star"
+        },
+        {
+          "item": "CS05 Flash",
+          "source_player": "Yoann_MKW",
+          "source_check": "GCN DK Mountain 50cc - 1st Place"
+        }
+      ]
+    },
+    {
+      "seed": 1611202603,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 165
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 72,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 86,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 80,
+          "Yoann_MKW": 27,
+          "Yoann_FireRed": 285
+        },
+        {
+          "Yoann_YW2": 70,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 175
+        },
+        {
+          "Yoann_YW2": 63,
+          "Yoann_MKW": 54,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 26,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 53,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 24,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 8,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 0,
+        "Yoann_MKW": 0,
+        "Yoann_FireRed": 2
+      },
+      "remote_progression_routes": {
+        "Yoann_FireRed -> Yoann_MKW": 16,
+        "Yoann_FireRed -> Yoann_YW2": 22,
+        "Yoann_MKW -> Yoann_YW2": 9,
+        "Yoann_YW2 -> Yoann_MKW": 3,
+        "Yoann_MKW -> Yoann_FireRed": 1
+      },
+      "forest_remote_progression_count": 0,
+      "firered_checks": 625,
+      "firered_progression_locations": [
+        {
+          "item": "CS05 Flash",
+          "source_player": "Yoann_MKW",
+          "source_check": "Mushroom Cup 150cc - 1 Star"
+        },
+        {
+          "item": "CS03 Surf",
+          "source_player": "Yoann_FireRed",
+          "source_check": "Route12 — objet (9,101)"
+        }
+      ]
+    }
+  ]
+}

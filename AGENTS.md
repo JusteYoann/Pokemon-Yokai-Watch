@@ -1,3 +1,7 @@
+> **Jalon courant — import massif du 16 novembre :** [rapport et limites](YOKAI_ARCHIPELAGO/DOCUMENTATION/FRLG_IMPORT_MASSIF.md). 625 checks par défaut (626 avec Terr’heure),74 anciens IDs conservés ; transport3, sauvegarde1 et registre256 dresseurs. Les descriptions15/74 ci-dessous sont historiques. Le graphe de progression reste regroupé et les cinq jeux ensemble ne sont pas validés.
+
+Tests du jalon :617 détecteurs natifs et persistance à froid,2057 assertions ;37 protections ;36 contrôles avec vrai serveur/mGBA dont Wyatt et un dresseur ordinaire joués ;5 seeds résolubles à trois mondes. Captures et256 victoires sont vérifiées par fixtures natives, pas par166 captures et256 combats joués.
+
 # AGENTS.md — consignes pour les agents (Codex, Claude…)
 
 Lire d'abord `CODEX_HANDOFF.md` (état exact, décisions, blocages) puis

@@ -55,6 +55,22 @@ void YokaiAPTrainerVictory(u16 trainerId)
         }
 }
 
+bool8 YokaiAPKeepTrainerAvailable(u16 trainerId)
+{
+    struct YokaiAPSave *save;
+    u16 i,bit;
+    if (!gSaveBlock2Ptr || QL_IS_PLAYBACK_STATE) return FALSE;
+    save=Save();
+    if (save->magic!=YOKAI_AP_MAGIC || save->version!=YOKAI_AP_SAVE_VERSION) return FALSE;
+    for (i=0;i<ARRAY_COUNT(sYokaiAPTrainerSlots);i++)
+        if (sYokaiAPTrainerSlots[i][0]==trainerId)
+        {
+            bit=sYokaiAPTrainerSlots[i][1];
+            return !(save->reserved[bit/8] & (1 << (bit%8)));
+        }
+    return FALSE;
+}
+
 static bool8 Safe(void)
 {
     return !QL_IS_PLAYBACK_STATE && !gPaletteFade.active && !ScriptContext_IsEnabled()
@@ -109,6 +125,7 @@ void YokaiAPTryCollect(void)
 void YokaiAPUpdate(void)
 {
     struct YokaiAPSave *save;
+    u8 nextChecks[sizeof(gYokaiAPChecks)];
     u16 i;
     gYokaiAPMailbox.magic = YOKAI_AP_MAGIC;
     gYokaiAPMailbox.version = YOKAI_AP_VERSION;
@@ -130,7 +147,7 @@ void YokaiAPUpdate(void)
     for (i = 0; i < 7; i++)
         if (FlagGet(sYokaiAPLegacyFlags[i]))
             gYokaiAPMailbox.checkBits |= 1 << (8 + i);
-    memset((void *)gYokaiAPChecks, 0, sizeof(gYokaiAPChecks));
+    memset(nextChecks, 0, sizeof(nextChecks));
     for (i = 0; i < YOKAI_AP_CHECK_COUNT; i++)
         if (sYokaiAPCheckData[i][0]==0xFFFE
             ? (save->magic==YOKAI_AP_MAGIC && (save->reserved[sYokaiAPCheckData[i][1]/8] & (1 << (sYokaiAPCheckData[i][1]%8))))
@@ -138,7 +155,10 @@ void YokaiAPUpdate(void)
             ? GetSetPokedexFlag(sYokaiAPCheckData[i][1],1)
             : sYokaiAPCheckData[i][0] ? FlagGet(sYokaiAPCheckData[i][0])
             : VarGet(sYokaiAPCheckData[i][1]) == sYokaiAPCheckData[i][2])
-            gYokaiAPChecks[i / 8] |= 1 << (i % 8);
+            nextChecks[i / 8] |= 1 << (i % 8);
+    // Build on the stack: an emulator read between frames must never observe
+    // a bitmap cleared halfway through the expensive native capture scan.
+    memcpy((void *)gYokaiAPChecks, nextChecks, sizeof(nextChecks));
     gYokaiAPOwnedCount = GetKantoPokedexCount(1);
     if (save->magic == YOKAI_AP_MAGIC && save->lastItem)
         gYokaiAPMailbox.lastItemCount = BagGetQuantityByItemId(save->lastItem);

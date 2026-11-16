@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "kind": "fresh_copy_full_build_preserving_manifest_inputs",
+  "same_bytes": true,
+  "rom_sha256": "1af5821cc9d03a744b125fe9281c95208e5dfe7fd27c1c2b8f65a5ab7464ee56",
+  "rebuild_sha256": "1af5821cc9d03a744b125fe9281c95208e5dfe7fd27c1c2b8f65a5ab7464ee56",
+  "base_source_commit": "a589cf0057fd0f579d003d8dd58616b3f4649ea2",
+  "local_complete_source_commit": "d287d375cd253f8a729581f884768d3811b1e549",
+  "local_complete_source_branch": "codex/firered-classic-bulk-20261116",
+  "baseline_sha256": "4192f6ac785eed8a431fdbb322712818c31c4bfd9573e647ee791b04452ed329",
+  "source_command": "bash YOKAI_ARCHIPELAGO/SCRIPTS/build_firered.sh <verified-RC1-snapshot> <built-agbcc> <new-output-directory>",
+  "rom_size": 33553715,
+  "catalog_sha256": "ca546cfa0a3e81c0bfdcfbdbf1945fb876384e19cc6ecb00f78a293a9120e493",
+  "note": "No copied object files/build directory. Snapshot binary assets are authored inputs; make clean removes them and is unsuitable for this snapshot."
+}

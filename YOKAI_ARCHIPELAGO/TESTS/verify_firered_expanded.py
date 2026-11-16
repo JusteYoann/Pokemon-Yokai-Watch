@@ -34,9 +34,9 @@ def main():
         r=new_game();q=QA.__new__(QA);q.r=r;q.reverse={v|1:k for k,v in r.symbols.items()}
         groups=json.loads((a.build/'data/maps/map_groups.json').read_text());q.maps={n:(i,j) for i,k in enumerate(groups['group_order']) for j,n in enumerate(groups[k])}
         q.mon(0,65,100);box=r.symbols['gYokaiAPMailbox']
-        ok('Expanded bitmap outside native test trampoline',r.symbols['gYokaiAPChecks']+64<r.STUB)
+        ok('Expanded bitmap outside native test trampoline',r.symbols['gYokaiAPChecks']+128<r.STUB)
         r.write(box+8,struct.pack('<H',1));r.write(box+16,hashlib.sha256(b'expanded-native').digest()[:16]);r.write(box+6,struct.pack('<H',1));r.run(6)
-        ok('Transport2 keeps native save schema1',u16(box+4)==2 and u16(box+46)==1)
+        ok('Expanded transport keeps native save schema1',u16(box+4)>=2 and u16(box+46)==1)
         for c in active:
             if c['kind'] not in ('ball','hidden','gift'):continue
             q.warp(c['map'],1,1)
@@ -72,6 +72,39 @@ def main():
         validate(next(c for c in active if c['id']==0x594B4000))
         r.call('JibanyanGiveFriend');r.run(8)
         validate(next(c for c in active if c['id']==0x594B4001))
+        # Exercise actual gift scripts with a native friendship prerequisite fixture.
+        r.write(r.symbols['gSpecialVar_0x8007'],b'\xff')
+        r.call('SetMonData',r.symbols['gPlayerParty'],32,r.symbols['gSpecialVar_0x8007'])
+        for c in active:
+            if c['kind']!='npc_gift':continue
+            q.warp(c['map'],1,1)
+            before=r.call('BagGetQuantityByItemId',c['native_item_id'])
+            q.script(c['gift_label']);q.drain();validate(c)
+            ok('Gift original suppressed '+str(c['id']),r.call('BagGetQuantityByItemId',c['native_item_id'])==before)
+        # Native map load executes the real visit script; this is not a walking route test.
+        for c in active:
+            if c['kind']=='visit':
+                q.warp(c['map'],1,1);q.drain();validate(c)
+        # Handler fixtures distinguish earned victories from scripted gym completion.
+        for c in active:
+            if c['kind']!='trainer':continue
+            for trainer in c['trainer_ids']:
+                r.call('ClearTrainerFlag',trainer)
+                r.call('SetTrainerFlag',trainer)
+                ok('Unfought AP trainer remains available '+str(trainer),not r.call('FlagGet',0x500+trainer))
+            r.call('YokaiAPTrainerVictory',c['trainer_ids'][0]);r.run(6);validate(c)
+            r.call('ClearTrainerFlag',c['trainer_ids'][0]);validate(c)
+        for c in active:
+            if c['kind']!='pokedex':continue
+            n=c['dex_number']
+            if not r.call('GetSetPokedexFlag',n,1):
+                r.call('GetSetPokedexFlag',n,2);r.run(6)
+                idx=active.index(c)
+                ok('Seen alone is not a capture '+str(n),not (r.read(r.symbols['gYokaiAPChecks']+idx//8,1)[0]&(1<<(idx%8))))
+            r.call('GetSetPokedexFlag',n,2);r.call('GetSetPokedexFlag',n,3);validate(c)
+        saved_caught=r.call('GetKantoPokedexCount',1)
+        report['validated_ids']=sorted(set(report['validated_ids']))
+        report['trainer_test_type']='native victory handler fixtures; not 256 played battles'
         q.warp('PalletTown_PlayersHouse_2F',6,6)
         r.call('SaveMapView');ok('Native save after all checks',r.call('TrySavingData',0)==1);r.run(15)
         r.lib.retro_get_memory_data.argtypes=[C.c_uint];r.lib.retro_get_memory_data.restype=C.c_void_p
@@ -90,7 +123,7 @@ def main():
             if c['id'] in report['validated_ids']:
                 idx=active.index(c)
                 ok('Cold Continue check persists '+str(c['id']),bool(r.read(r.symbols['gYokaiAPChecks']+idx//8,1)[0]&(1<<(idx%8))))
-        ok('Native captured count survives cold restart',r.call('GetKantoPokedexCount',1)==50)
+        ok('Native captured count survives cold restart',r.call('GetKantoPokedexCount',1)==saved_caught)
         report['passed']=True
     except Exception as e:report['error']=str(e);traceback.print_exc()
     finally:

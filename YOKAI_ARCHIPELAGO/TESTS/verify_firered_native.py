@@ -61,7 +61,7 @@ def main():
         ok('Real native AddBagItem consumes first request',r.call('BagGetQuantityByItemId',13)==before+1 and r.u32(box+32)==1)
         gift(13,1)
         ok('Replayed request does not give twice',r.call('BagGetQuantityByItemId',13)==before+1 and r.u32(box+32)==1)
-        if u16(box+4)==2:
+        if u16(box+4)>=2:
             journal=r.symbols['gQuestLogState'];previous=r.read(journal,1)
             r.write(journal,b'\x02');r.call('YokaiAPUpdate')
             ok('Journal playback state fixture pauses AP without consuming items',r.read(box+38,1)==b'\0' and r.u32(box+32)==1)
@@ -76,8 +76,8 @@ def main():
             ok('AP resumes after vacuum state clears without modifying loot',u16(box+6)==0 and r.u32(box+32)==1)
         gift(13,3)
         ok('Out-of-order request rejected',u16(box+36)==2 and r.u32(box+32)==1)
-        gift(289,2)
-        ok('Progression item outside bonus whitelist rejected',u16(box+36)==4 and r.u32(box+32)==1)
+        gift(0,2)
+        ok('Invalid item outside native whitelist rejected',u16(box+36)==4 and r.u32(box+32)==1)
         bind(b'wrong-session!!!')
         ok('Other seed refused without altering counter',u16(box+36)==1 and r.u32(box+32)==1)
         bind();bind(seed,2)

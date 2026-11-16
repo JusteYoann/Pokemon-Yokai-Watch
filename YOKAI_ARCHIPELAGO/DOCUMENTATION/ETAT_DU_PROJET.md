@@ -1,3 +1,7 @@
+> **Jalon courant — import massif du 16 novembre :** [rapport et limites](FRLG_IMPORT_MASSIF.md). 625 checks par défaut (626 avec Terr’heure),74 anciens IDs conservés ; transport3, sauvegarde1 et registre256 dresseurs. Les descriptions15/74 ci-dessous sont historiques. Le graphe de progression reste regroupé et les cinq jeux ensemble ne sont pas validés.
+
+Tests du jalon :617 détecteurs natifs et persistance à froid,2057 assertions ;37 protections ;36 contrôles avec vrai serveur/mGBA dont Wyatt et un dresseur ordinaire joués ;5 seeds résolubles à trois mondes. Captures et256 victoires sont vérifiées par fixtures natives, pas par166 captures et256 combats joués.
+
 > **État actif au 16 novembre :** [extension FRLG validée](FRLG_EXTENSION_VALIDEE.md). 74 checks par défaut, Surf/Flash randomisés ; 15 anciens IDs conservés. 211 contrôles de sources natifs, 37 contrôles de protections, 37 tests unitaires, 15 seeds à trois mondes. Le test réseau étendu a réussi. Les cinq jeux ensemble et Windows restent non validés. Les sections suivantes décrivent le jalon historique du 14 novembre.
 
 # État actif — 14 novembre 2026

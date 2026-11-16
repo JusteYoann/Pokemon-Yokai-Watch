@@ -27,6 +27,30 @@ class FireRedCatalog(unittest.TestCase):
         self.assertNotIn(18,cap['pre_surf_species']) # retired, not an obtainable species
         self.assertIn('first151',cap['counter'])
 
+    def test_all_seventy_four_ids_are_stable(self):
+        old=json.loads((Path(__file__).parent/'fixtures/firered_74_ids.json').read_text())
+        self.assertEqual(len(old),74)
+        self.assertTrue(set(old).issubset({c['id'] for c in ACTIVE+DATA['badge_checks']}))
+
+    def test_trainer_ledger_has_no_save_overlap_or_aliases(self):
+        trainers=[c for c in ACTIVE if c['kind']=='trainer']
+        self.assertEqual(sorted(c['persistent_index'] for c in trainers),list(range(len(trainers))))
+        self.assertLessEqual(len(trainers),256)
+        ids=[t for c in trainers for t in c['trainer_ids']]
+        self.assertEqual(len(ids),len(set(ids)))
+        for c in ACTIVE:
+            if c['map']=='ViridianCity_Gym':self.assertEqual(c['access'],'surf')
+
+    def test_all_reference_categories_have_evidence(self):
+        ref=DATA['bulk_correspondence']
+        self.assertEqual(ref['total'],1715)
+        self.assertEqual(len(ref['by_category']),9)
+        self.assertEqual(sum(ref['summary'].values()),1715)
+        self.assertEqual(set(ref['summary']),{'compatible','a_adapter','absent_ou_incompatible'})
+        self.assertTrue(all(any(r['category_evidence'] for r in ref['rows'] if r['category']==cat) for cat in ('SHOP_ITEM','TRAINER_REMATCH','FAME_ENTRY')))
+        self.assertTrue(all(not r['integrated'] for r in ref['rows'] if r['category'] in ('SHOP_ITEM','TRAINER_REMATCH','FAME_ENTRY')))
+        self.assertFalse(any(c.get('original_item')=='ITEM_NONE' for c in ACTIVE))
+
     def test_rng_is_explicitly_optional_and_never_a_required_gate(self):
         rng=[c for c in ACTIVE if c['access']=='optional_random']
         self.assertEqual([c['id'] for c in rng],[0x594B4002])
