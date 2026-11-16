@@ -206,6 +206,23 @@ def expand(data,source,project):
                 'mandatory':False,'prerequisites':['Native gift requirements',m['access']],'risks':[]})
             active_flags.add(flag);break
 
+    # Classical field gifts with positively traced fangame sources. Cut moved
+    # from the ship to Ariane's Philosovni conclusion; receiving it is not quest completion.
+    for flag,item,mp,path,label,macro,stage in [
+        ('FLAG_GOT_HM01','ITEM_HM01','VermilionCity','data/scripts/philosovni.inc','Philosovni_Reward','giveitem ITEM_HM01, 1','native_early'),
+        ('FLAG_GOT_HM02','ITEM_HM02','Route16_House','data/maps/Route16_House/scripts.inc','Route16_House_EventScript_Woman','giveitem_msg Route16_House_Text_ReceivedHM02FromGirl, ITEM_HM02','flash'),
+        ('FLAG_GOT_HM04','ITEM_HM04','FuchsiaCity_WardensHouse','data/maps/FuchsiaCity_WardensHouse/scripts.inc','FuchsiaCity_WardensHouse_EventScript_GiveGoldTeeth','giveitem_msg FuchsiaCity_WardensHouse_Text_ReceivedHM04FromWarden, ITEM_HM04','flash')]:
+        body=(source/path).read_text()
+        assert macro in body and 'setflag '+flag in body
+        row=byflag[flag]
+        data['checks'].append({'id':0x594B2000+flags[flag],'name_fr':{'ITEM_HM01':'Ariane — récompense Coupe','ITEM_HM02':'Refuge Route16 — récompense Vol','ITEM_HM04':'Gardien Safari — récompense Force'}[item],
+            'kind':'npc_gift','status':'active','category':'NPC_GIFT','access':stage,'map':mp,
+            'flag':flag,'flag_value':flags[flag],'original_item':item,'quantity':1,
+            'source':path,'script_source':path,'script':label,'gift_label':label,'gift_macro':macro,
+            'upstream_key':row['upstream_key'],'upstream_region':row['upstream_region'],'original_reward':'replaced',
+            'validation':'Native gift completion flag, never remote item receipt','mandatory':False,
+            'prerequisites':['Native quest or Gold Teeth retained; received HM does not complete source',stage],'risks':[]})
+
     # Pure visit markers are native persistent map-preview flags.
     for row in reference['rows']:
         if row['category']!='TOWN_VISIT':continue
@@ -255,7 +272,7 @@ def expand(data,source,project):
     for row in reference['rows']:
         key=row['upstream_key'];entry=active_keys.get(key)
         cls='compatible' if entry else 'a_adapter';reason='Integrated native event'
-        adapted=bool(entry and (key=='BADGE_4' or entry.get('kind') in ('aide','trainer','pokedex')))
+        adapted=bool(entry and (key in ('BADGE_4','NPC_GIFT_GOT_HM01') or entry.get('kind') in ('aide','trainer','pokedex')))
         if adapted:cls='a_adapter'
         if not entry:
             cat=row['category'];reason={'SHOP_ITEM':'Successful purchase needs a transaction hook; opening the shop is not a purchase.',

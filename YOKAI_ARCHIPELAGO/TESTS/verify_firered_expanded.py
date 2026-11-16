@@ -72,6 +72,13 @@ def main():
         validate(next(c for c in active if c['id']==0x594B4000))
         r.call('JibanyanGiveFriend');r.run(8)
         validate(next(c for c in active if c['id']==0x594B4001))
+        # Native mailbox receives Cut before its quest: ownership must never
+        # fabricate the local reward flag or skip that AP source.
+        cut=next(c for c in active if c.get('original_item')=='ITEM_HM01')
+        r.write(box+10,struct.pack('<HI',339,1));r.write(box+6,struct.pack('<H',2));r.run(20)
+        ok('Native mailbox receives randomized Cut',r.call('BagGetQuantityByItemId',339)==1)
+        r.call('PhilosovniRefreshHM')
+        ok('Remote Cut does not consume Ariane quest reward',not r.call('FlagGet',cut['flag_value']))
         # Exercise actual gift scripts with a native friendship prerequisite fixture.
         r.write(r.symbols['gSpecialVar_0x8007'],b'\xff')
         r.call('SetMonData',r.symbols['gPlayerParty'],32,r.symbols['gSpecialVar_0x8007'])

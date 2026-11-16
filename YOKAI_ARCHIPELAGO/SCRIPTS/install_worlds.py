@@ -74,7 +74,7 @@ def main(argv=None):
     commit_file(ROOT/'CONNECTORS/mgba/connector_bizhawkclient_yokai.lua',lua/'connector_bizhawkclient_yokai.lua',a.replace)
     print('Installés : Yo-kai Watch 2, Mario Kart Wii, connecteur Lua mGBA.')
     print('Emerald : '+('installé depuis votre build personnelle.' if a.emerald_apworld else 'en attente de votre APWorld local.'))
-    print('Rouge Feu : '+('jalon Surf installé depuis votre build.' if a.firered_apworld else 'fournir --firered-apworld après compilation locale.'))
+    print('Rouge Feu : '+('version de test installée depuis votre build.' if a.firered_apworld else 'fournir --firered-apworld après compilation locale.'))
     print('Yo-kai Watch 1 : prototype non jouable, exclu de cette installation. Yo-kai Watch 3 abandonné.')
     return 0
 

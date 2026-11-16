@@ -29,7 +29,7 @@ def main():
     os.environ.update(SKIP_REQUIREMENTS_UPDATE='1',AP_TEST_WORLDS='yokaiwatch2,mkwii,pokemon_yokai_firered')
     os.chdir(ap);sys.path.insert(0,str(ap))
     report={'kind':'actual_AP_generate_and_spheres','tested_games':3,'native_gameplay_tested':False,
-            'caution':['FireRed randomise Surf et Flash ; les autres objets de progression restent natifs.',
+            'caution':['FireRed randomise Coupe, Surf, Force et Flash ; Vol utile, autres clefs natives.',
                        'Régions FRLG réutilisées pour les checks activés ; les étapes narratives natives restent regroupées, pas un modèle de durée.',
                        'Aucune équivalence sphère/minutes et aucune garantie sur cinq jeux.'], 'seeds':[]}
     for seed in a.seeds:
@@ -68,6 +68,10 @@ def main():
         state.collect(world.create_item('CS03 Surf'),True)
         assert not mw.get_location('Panthéon',world.player).can_reach(state)
         state.collect(world.create_item('CS05 Flash'),True)
+        assert not mw.get_location('Panthéon',world.player).can_reach(state)
+        state.collect(world.create_item('CS01 Coupe'),True)
+        assert not mw.get_location('Panthéon',world.player).can_reach(state)
+        state.collect(world.create_item('CS04 Force'),True)
         assert mw.get_location('Panthéon',world.player).can_reach(state)
         assert mw.get_location('Assistant Chen — 50 espèces capturées',world.player).can_reach(state)
         report['seeds'].append({'seed':seed,'beatable_by_logic':True,'spheres':spheres,
@@ -75,7 +79,7 @@ def main():
             'remote_progression_routes':dict(crossworld),'forest_remote_progression_count':forest_progression,
             'firered_checks':len([loc for loc in own if loc.address is not None]),
             'firered_progression_locations':[{ 'item':loc.item.name,'source_player':mw.player_name[loc.player],'source_check':loc.name}
-                for loc in mw.get_locations() if loc.item and loc.item.player==world.player and loc.item.name in ('CS03 Surf','CS05 Flash')]})
+                for loc in mw.get_locations() if loc.item and loc.item.player==world.player and loc.item.name in ('CS01 Coupe','CS03 Surf','CS04 Force','CS05 Flash')]})
     (out/'RESULTAT.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(out/'RESULTAT.json')
 

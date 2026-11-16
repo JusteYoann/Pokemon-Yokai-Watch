@@ -18886,6 +18886,96 @@
       "item_name": "CT29"
     },
     {
+      "id": 1498096183,
+      "name_fr": "Ariane — récompense Coupe",
+      "kind": "npc_gift",
+      "status": "active",
+      "category": "NPC_GIFT",
+      "access": "native_early",
+      "map": "VermilionCity",
+      "flag": "FLAG_GOT_HM01",
+      "flag_value": 567,
+      "original_item": "ITEM_HM01",
+      "quantity": 1,
+      "source": "data/scripts/philosovni.inc",
+      "script_source": "data/scripts/philosovni.inc",
+      "script": "Philosovni_Reward",
+      "gift_label": "Philosovni_Reward",
+      "gift_macro": "giveitem ITEM_HM01, 1",
+      "upstream_key": "NPC_GIFT_GOT_HM01",
+      "upstream_region": "REGION_SSANNE_CAPTAINS_OFFICE/MAIN",
+      "original_reward": "replaced",
+      "validation": "Native gift completion flag, never remote item receipt",
+      "mandatory": false,
+      "prerequisites": [
+        "Native quest or Gold Teeth retained; received HM does not complete source",
+        "native_early"
+      ],
+      "risks": [],
+      "native_item_id": 339,
+      "item_name": "CS01"
+    },
+    {
+      "id": 1498096184,
+      "name_fr": "Refuge Route16 — récompense Vol",
+      "kind": "npc_gift",
+      "status": "active",
+      "category": "NPC_GIFT",
+      "access": "flash",
+      "map": "Route16_House",
+      "flag": "FLAG_GOT_HM02",
+      "flag_value": 568,
+      "original_item": "ITEM_HM02",
+      "quantity": 1,
+      "source": "data/maps/Route16_House/scripts.inc",
+      "script_source": "data/maps/Route16_House/scripts.inc",
+      "script": "Route16_House_EventScript_Woman",
+      "gift_label": "Route16_House_EventScript_Woman",
+      "gift_macro": "giveitem_msg Route16_House_Text_ReceivedHM02FromGirl, ITEM_HM02",
+      "upstream_key": "NPC_GIFT_GOT_HM02",
+      "upstream_region": "REGION_ROUTE16_HOUSE/MAIN",
+      "original_reward": "replaced",
+      "validation": "Native gift completion flag, never remote item receipt",
+      "mandatory": false,
+      "prerequisites": [
+        "Native quest or Gold Teeth retained; received HM does not complete source",
+        "flash"
+      ],
+      "risks": [],
+      "native_item_id": 340,
+      "item_name": "CS02"
+    },
+    {
+      "id": 1498096186,
+      "name_fr": "Gardien Safari — récompense Force",
+      "kind": "npc_gift",
+      "status": "active",
+      "category": "NPC_GIFT",
+      "access": "flash",
+      "map": "FuchsiaCity_WardensHouse",
+      "flag": "FLAG_GOT_HM04",
+      "flag_value": 570,
+      "original_item": "ITEM_HM04",
+      "quantity": 1,
+      "source": "data/maps/FuchsiaCity_WardensHouse/scripts.inc",
+      "script_source": "data/maps/FuchsiaCity_WardensHouse/scripts.inc",
+      "script": "FuchsiaCity_WardensHouse_EventScript_GiveGoldTeeth",
+      "gift_label": "FuchsiaCity_WardensHouse_EventScript_GiveGoldTeeth",
+      "gift_macro": "giveitem_msg FuchsiaCity_WardensHouse_Text_ReceivedHM04FromWarden, ITEM_HM04",
+      "upstream_key": "NPC_GIFT_GOT_HM04",
+      "upstream_region": "REGION_FUCHSIA_CITY_WARDENS_HOUSE/MAIN",
+      "original_reward": "replaced",
+      "validation": "Native gift completion flag, never remote item receipt",
+      "mandatory": false,
+      "prerequisites": [
+        "Native quest or Gold Teeth retained; received HM does not complete source",
+        "flash"
+      ],
+      "risks": [],
+      "native_item_id": 342,
+      "item_name": "CS04"
+    },
+    {
       "id": 1498130582,
       "name_fr": "Visite — Celadon City - Unlock Fly Destination",
       "kind": "visit",
@@ -29133,8 +29223,8 @@
   "bulk_correspondence": {
     "total": 1715,
     "summary": {
-      "compatible": 195,
-      "a_adapter": 1271,
+      "compatible": 197,
+      "a_adapter": 1269,
       "absent_ou_incompatible": 249
     },
     "by_category": {
@@ -29147,8 +29237,8 @@
         "compatible": 60
       },
       "NPC_GIFT": {
-        "compatible": 11,
-        "a_adapter": 40,
+        "compatible": 13,
+        "a_adapter": 38,
         "absent_ou_incompatible": 36
       },
       "OVERWORLD_ITEM": {
@@ -29409,13 +29499,13 @@
           "src/philosovni.c:89"
         ],
         "native_map": null,
-        "yokai_id": null,
+        "yokai_id": 1498096183,
         "status": "modified",
         "reason": "Coupe dans la quête Philosovni, plus à sa remise vanilla.",
         "classification": "a_adapter",
-        "adaptation_complete": false,
-        "integrated": false,
-        "bulk_reason": "No pre-League source/access proof or reward protected by story.",
+        "adaptation_complete": true,
+        "integrated": true,
+        "bulk_reason": "Integrated native event",
         "category_evidence": []
       },
       {
@@ -29435,13 +29525,13 @@
           "data/maps/Route16_House/scripts.inc:13"
         ],
         "native_map": null,
-        "yokai_id": null,
+        "yokai_id": 1498096184,
         "status": "modified_or_gift_review",
         "reason": "Flag de remise présent ; cinématique et conditions à comparer.",
-        "classification": "a_adapter",
+        "classification": "compatible",
         "adaptation_complete": false,
-        "integrated": false,
-        "bulk_reason": "No pre-League source/access proof or reward protected by story.",
+        "integrated": true,
+        "bulk_reason": "Integrated native event",
         "category_evidence": []
       },
       {
@@ -29487,13 +29577,13 @@
           "data/maps/FuchsiaCity_WardensHouse/scripts.inc:27"
         ],
         "native_map": null,
-        "yokai_id": null,
+        "yokai_id": 1498096186,
         "status": "modified_or_gift_review",
         "reason": "Flag de remise présent ; cinématique et conditions à comparer.",
-        "classification": "a_adapter",
+        "classification": "compatible",
         "adaptation_complete": false,
-        "integrated": false,
-        "bulk_reason": "No pre-League source/access proof or reward protected by story.",
+        "integrated": true,
+        "bulk_reason": "Integrated native event",
         "category_evidence": []
       },
       {
@@ -73308,7 +73398,7 @@
     1498096617,
     1498096185
   ],
-  "catalog_sha256": "ca546cfa0a3e81c0bfdcfbdbf1945fb876384e19cc6ecb00f78a293a9120e493",
+  "catalog_sha256": "d3519aa46bee74c3d29f4d0ff2743dc0bd7b5cd47042572a786181fdff23785f",
   "summary_active": {
     "ball": 111,
     "hidden": 60,
@@ -73316,7 +73406,7 @@
     "aide": 5,
     "event": 3,
     "trainer": 256,
-    "npc_gift": 3,
+    "npc_gift": 6,
     "visit": 13,
     "pokedex": 166
   }

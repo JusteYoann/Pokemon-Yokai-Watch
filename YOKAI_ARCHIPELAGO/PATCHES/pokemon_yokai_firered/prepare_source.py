@@ -61,6 +61,12 @@ def install(output):
     p.write_text(s)
     p=output/'include/yopple_devices.h';s=p.read_text()
     s=replace_once(s,'bool8 YoppleInDungeon(void);','bool8 YoppleInDungeon(void);\nbool8 YoppleAPBusy(void);');p.write_text(s)
+    # Receiving Cut must not set FLAG_GOT_HM01: that flag belongs to Ariane's
+    # local reward/check. Preserve the quest and its completion independently.
+    p=output/'src/philosovni.c';s=p.read_text()
+    s=replace_once(s,'    if (CheckBagHasItem(ITEM_HM01, 1)) FlagSet(FLAG_GOT_HM01);',
+        '    // AP: remote HM ownership is independent of the local quest reward.')
+    p.write_text(s)
     active=[c for c in catalog['checks'] if c['status']=='active']
     pickups=[c for c in active if c.get('original_reward')=='replaced']
     legacy={c['id']:c for c in active}
@@ -157,7 +163,7 @@ YokaiAP_TextConnect::
             'replaced_pickups':[c['flag'] for c in pickups],
             'preserved':['species','stats','learnsets','evolutions','encounters','trainers','maps','story','other_original_rewards']}
     report['modified'].append('data/maps/SafariZone_SecretHouse/scripts.inc')
-    report['modified'] += ['src/yopple_devices.c','include/yopple_devices.h']
+    report['modified'] += ['src/philosovni.c','src/yopple_devices.c','include/yopple_devices.h']
     report['modified'] += [c['source'] for c in active if c['kind']=='aide']
     report['modified'] += [c['source'] for c in active if c['kind']=='npc_gift']
     report['modified']=sorted(set(report['modified']))

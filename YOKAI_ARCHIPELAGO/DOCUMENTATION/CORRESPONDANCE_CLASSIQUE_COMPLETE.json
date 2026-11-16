@@ -1,8 +1,8 @@
 {
   "total": 1715,
   "summary": {
-    "compatible": 195,
-    "a_adapter": 1271,
+    "compatible": 197,
+    "a_adapter": 1269,
     "absent_ou_incompatible": 249
   },
   "by_category": {
@@ -15,8 +15,8 @@
       "compatible": 60
     },
     "NPC_GIFT": {
-      "compatible": 11,
-      "a_adapter": 40,
+      "compatible": 13,
+      "a_adapter": 38,
       "absent_ou_incompatible": 36
     },
     "OVERWORLD_ITEM": {
@@ -277,13 +277,13 @@
         "src/philosovni.c:89"
       ],
       "native_map": null,
-      "yokai_id": null,
+      "yokai_id": 1498096183,
       "status": "modified",
       "reason": "Coupe dans la quête Philosovni, plus à sa remise vanilla.",
       "classification": "a_adapter",
-      "adaptation_complete": false,
-      "integrated": false,
-      "bulk_reason": "No pre-League source/access proof or reward protected by story.",
+      "adaptation_complete": true,
+      "integrated": true,
+      "bulk_reason": "Integrated native event",
       "category_evidence": []
     },
     {
@@ -303,13 +303,13 @@
         "data/maps/Route16_House/scripts.inc:13"
       ],
       "native_map": null,
-      "yokai_id": null,
+      "yokai_id": 1498096184,
       "status": "modified_or_gift_review",
       "reason": "Flag de remise présent ; cinématique et conditions à comparer.",
-      "classification": "a_adapter",
+      "classification": "compatible",
       "adaptation_complete": false,
-      "integrated": false,
-      "bulk_reason": "No pre-League source/access proof or reward protected by story.",
+      "integrated": true,
+      "bulk_reason": "Integrated native event",
       "category_evidence": []
     },
     {
@@ -355,13 +355,13 @@
         "data/maps/FuchsiaCity_WardensHouse/scripts.inc:27"
       ],
       "native_map": null,
-      "yokai_id": null,
+      "yokai_id": 1498096186,
       "status": "modified_or_gift_review",
       "reason": "Flag de remise présent ; cinématique et conditions à comparer.",
-      "classification": "a_adapter",
+      "classification": "compatible",
       "adaptation_complete": false,
-      "integrated": false,
-      "bulk_reason": "No pre-League source/access proof or reward protected by story.",
+      "integrated": true,
+      "bulk_reason": "Integrated native event",
       "category_evidence": []
     },
     {

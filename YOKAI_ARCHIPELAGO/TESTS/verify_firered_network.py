@@ -90,7 +90,7 @@ async def scenario(a,report):
     def start_client(number):
         log=(a.out.parent/f'firered-client-{number}.log').open('w');logs.append(log)
         return launch_python(a.python,ROOT/'YOKAI_ARCHIPELAGO/CONNECTORS/mgba/connect_firered.py',
-            ['--archipelago',str(a.archipelago),'--slot','Yoann_FireRed','--server',f'127.0.0.1:{a.server_port}',
+            ['--archipelago',str(a.archipelago),'--slot',a.slot,'--server',f'127.0.0.1:{a.server_port}',
              '--emulator-port',str(a.emulator_port),'--no-cli','--event-log',str(events)],str(a.archipelago),env,subprocess.DEVNULL,log)
     async def game_frames():
         while True:r.run(3);await asyncio.sleep(.005)
@@ -108,7 +108,7 @@ async def scenario(a,report):
         await asyncio.sleep(1)  # allow automatic starting-town checks to settle
         initial_count=r.u32(box+32)
         before=r.call('BagGetQuantityByItemId',13)
-        server.stdin.write('/send Yoann_FireRed Potion\n');server.stdin.flush()
+        server.stdin.write(f'/send {a.slot} Potion\n');server.stdin.flush()
         await wait(lambda:r.u32(box+32)>=initial_count+1)
         ok('Server gift reached real native bag',r.call('BagGetQuantityByItemId',13)>=before+1)
         ok('Client received the actual AP item packet',any(e['event']=='received_items' and 13 in e['items'] for e in records()))
@@ -120,11 +120,11 @@ async def scenario(a,report):
         ok('Network reconnect does not duplicate native gift',r.call('BagGetQuantityByItemId',13)==reconnect_potions and r.u32(box+32)==reconnect_count)
         if 'YokaiAPTryCollect' in r.symbols:
             delivered=r.u32(box+32);surf_before=r.call('BagGetQuantityByItemId',341)
-            server.stdin.write('/send Yoann_FireRed CS03 Surf\n');server.stdin.flush()
+            server.stdin.write(f'/send {a.slot} CS03 Surf\n');server.stdin.flush()
             await wait(lambda:r.call('BagGetQuantityByItemId',341)>=surf_before+1)
             ok('Progression Surf from real server reached native inventory',r.u32(box+32)>=delivered+1)
             delivered=r.u32(box+32);flash_before=r.call('BagGetQuantityByItemId',343)
-            server.stdin.write('/send Yoann_FireRed CS05 Flash\n');server.stdin.flush()
+            server.stdin.write(f'/send {a.slot} CS05 Flash\n');server.stdin.flush()
             await wait(lambda:r.call('BagGetQuantityByItemId',343)>=flash_before+1)
             ok('Progression Flash from real server reached native inventory',r.u32(box+32)>=delivered+1)
             blocked_count=r.u32(box+32)
@@ -132,7 +132,7 @@ async def scenario(a,report):
             saved_bag=[(int.from_bytes(r.read(bag+4*i,2),'little'),r.call('GetBagItemQuantity',bag+4*i+2)) for i in range(42)]
             for i in range(42):
                 r.write(bag+4*i,struct.pack('<H',13));r.call('SetBagItemQuantity',bag+4*i+2,999)
-            server.stdin.write('/send Yoann_FireRed Potion\n');server.stdin.flush()
+            server.stdin.write(f'/send {a.slot} Potion\n');server.stdin.flush()
             await wait(lambda:int.from_bytes(r.read(box+36,2),'little')==3)
             ok('Real network gift stays pending when native bag is full',r.u32(box+32)==blocked_count)
         # Controlled party/position fixture, then native dialogue and battle.
@@ -165,6 +165,23 @@ async def scenario(a,report):
             q.drain()  # finish any remaining native gym reward dialogue
             await wait(lambda:r.u32(box+32)>=blocked_count+1)
             ok('Pending network gift resumes after freeing bag',True)
+            for name,item in [('CS01 Coupe',339),('CS04 Force',342),('CS02 Vol',340)]:
+                if not r.call('BagGetQuantityByItemId',item):
+                    server.stdin.write(f'/send {a.slot} {name}\n');server.stdin.flush()
+                    await wait(lambda item=item:r.call('BagGetQuantityByItemId',item)>=1)
+                ok('Field item received through real server '+name,r.call('BagGetQuantityByItemId',item)>=1)
+            r.call('PhilosovniRefreshHM')
+            cut_catalog=json.loads((ROOT/'YOKAI_ARCHIPELAGO/APWORLDS/pokemon_yokai_firered/checks.json').read_text())
+            cut=next(c for c in cut_catalog['checks'] if c.get('original_item')=='ITEM_HM01')
+            ok('Remote Cut leaves Ariane quest reward unconsumed',not r.call('FlagGet',cut['flag_value']))
+            for item_name,item_id in [('CS01 Coupe',339),('CS02 Vol',340),('CS04 Force',342)]:
+                if not r.call('BagGetQuantityByItemId',item_id):
+                    server.stdin.write(f'/send {a.slot} {item_name}\n');server.stdin.flush()
+                    await wait(lambda item_id=item_id:r.call('BagGetQuantityByItemId',item_id)>0)
+                ok('Native inventory receives '+item_name,True)
+            r.call('PhilosovniRefreshHM')
+            cutflag=next(c['flag_value'] for c in json.loads((ROOT/'YOKAI_ARCHIPELAGO/APWORLDS/pokemon_yokai_firered/checks.json').read_text())['checks'] if c.get('original_item')=='ITEM_HM01')
+            ok('Remote Cut never marks Ariane reward complete',not r.call('FlagGet',cutflag))
             frames.cancel();await asyncio.gather(frames,return_exceptions=True);frames=None
             for flag,x,y,item,check in [(0x156,5,41,4,0x594B2156),(1000,3,22,13,0x594B23E8)]:
                 # Prepare the native interaction context, then run its real
@@ -267,7 +284,7 @@ async def scenario(a,report):
             q.warp('Route1',10,18)
             frames=asyncio.create_task(game_frames())
             await wait(lambda:any(e['event']=='sent' and e['packet'].get('cmd')=='StatusUpdate' and e['packet'].get('status')==30 for e in records()))
-            await wait(lambda:'Yoann_FireRed (Team #1) has completed their goal.' in (a.out.parent/'firered-real-server.log').read_text())
+            await wait(lambda:f'{a.slot} (Team #1) has completed their goal.' in (a.out.parent/'firered-real-server.log').read_text())
             ok('Real native Hall record triggers Goal packet to server',True)
             report['hall_endpoint_position_prepared_by_fixture']=True
         report['requests']=transport.requests;report['passed']=True
@@ -282,7 +299,7 @@ async def scenario(a,report):
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     for name in ['build','libretro','archipelago','multidata','out']:p.add_argument('--'+name,type=Path,required=True)
-    p.add_argument('--python',default=sys.executable);p.add_argument('--server-port',type=int,default=38281);p.add_argument('--emulator-port',type=int,default=43056);a=p.parse_args()
+    p.add_argument('--slot',default='Yoann_FireRed');p.add_argument('--python',default=sys.executable);p.add_argument('--server-port',type=int,default=38281);p.add_argument('--emulator-port',type=int,default=43056);a=p.parse_args()
     a.out.parent.mkdir(parents=True,exist_ok=True)
     report={'passed':False,'kind':'real_server_real_mgba_libretro','gui_lua_tested':False,
             'rom_sha256':hashlib.sha256((a.build/'pokefirered_audio.gba').read_bytes()).hexdigest(),

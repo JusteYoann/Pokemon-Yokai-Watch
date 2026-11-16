@@ -15,7 +15,7 @@ CHECKS=['Badge de Wyatt','Badge de Nathan/Katie','Badge d’Ariane','Badge d’A
         'Badge de Bérénice','Badge de Domniscian','Badge de Nathaniel/Michael','Badge de Steve Jaws']
 ITEMS={'Potion':13,'Super Potion':22,'Hyper Potion':21,'Poké Ball':4,'Super Ball':3,
        'Hyper Ball':2,'Repousse':86,'Super Repousse':85,'Max Repousse':84,
-       'Antidote':14,'Anti-Para':18,'Réveil':17,'Anti-Brûle':15,'Antigel':16,'CS03 Surf':341,'CS05 Flash':343}
+       'Antidote':14,'Anti-Para':18,'Réveil':17,'Anti-Brûle':15,'Antigel':16,'CS01 Coupe':339,'CS02 Vol':340,'CS03 Surf':341,'CS04 Force':342,'CS05 Flash':343}
 for c in PICKUPS:
     if 'native_item_id' not in c:continue
     code=c['native_item_id']
@@ -24,8 +24,8 @@ for c in PICKUPS:
     if name in ITEMS:name+=f' ({code})'
     ITEMS[name]=code
 NAMES={code:name for name,code in ITEMS.items()}
-PROGRESSION={'CS03 Surf','CS05 Flash'}
-USEFUL={NAMES[c['native_item_id']] for c in PICKUPS if 'native_item_id' in c and
+PROGRESSION={'CS01 Coupe','CS03 Surf','CS04 Force','CS05 Flash'}
+USEFUL={'CS02 Vol'}|{NAMES[c['native_item_id']] for c in PICKUPS if 'native_item_id' in c and
         (c['kind']=='aide' or c['original_item'].startswith(('ITEM_TM','ITEM_MOON_STONE')))}-PROGRESSION
 
 class YokaiFireRedItem(Item):game=GAME
@@ -54,8 +54,10 @@ class YokaiFireRedWorld(World):
         return YokaiFireRedItem(name,classification,ITEMS[name],self.player)
 
     def access(self,kind):
-        if kind=='surf':return lambda state:state.has_all(PROGRESSION,self.player)
-        if kind=='flash':return lambda state:state.has('CS05 Flash',self.player)
+        if kind=='league':return lambda state:state.has_all(PROGRESSION,self.player)
+        if kind=='surf':return lambda state:state.has_all({'CS01 Coupe','CS03 Surf','CS05 Flash'},self.player)
+        if kind=='flash':return lambda state:state.has_all({'CS01 Coupe','CS05 Flash'},self.player)
+        if kind=='cut':return lambda state:state.has('CS01 Coupe',self.player)
         return lambda state:True
 
     def create_regions(self):
@@ -68,12 +70,17 @@ class YokaiFireRedWorld(World):
                 self.multiworld.regions.append(regions[key]);menu.connect(regions[key],rule=self.access(kind))
             return regions[key]
         for i,name in enumerate(CHECKS):
-            kind='surf' if i>=6 else 'flash' if i>=3 else 'native_early'
+            kind='surf' if i>=6 else 'flash' if i>=3 else 'cut' if i==2 else 'native_early'
             r=region(DATA['badge_checks'][i]['map'],kind)
             r.locations.append(YokaiFireRedLocation(self.player,name,LOCATION_BASE+i,r))
         for c in PICKUPS:
             if not self.enabled(c):continue
-            r=region(c.get('upstream_region') or c['map'],c['access'])
+            kind=c['access']
+            if kind=='native_early' and c['map'].split('_')[0] in {'Route9','Route10'}:kind='cut'
+            if c['map'].split('_')[0] in {'VictoryRoad','PokemonLeague','IndigoPlateau','SeafoamIslands'} or (c['kind']=='pokedex' and kind=='surf'):kind='league'
+            witness=c.get('acquisition_witness',{})
+            if kind=='native_early' and witness.get('map','').startswith(('MAP_ROUTE9','MAP_ROUTE10')):kind='cut'
+            r=region(c.get('upstream_region') or c['map'],kind)
             loc=YokaiFireRedLocation(self.player,c['name_fr'],c['id'],r);r.locations.append(loc)
             if c.get('caught_required'):
                 n=c['caught_required'];cap=DATA['capture_capacity']
@@ -81,7 +88,7 @@ class YokaiFireRedWorld(World):
             if c['access']=='optional_random':
                 loc.progress_type=LocationProgressType.EXCLUDED
                 loc.item_rule=lambda item:not item.advancement and not (item.classification & ItemClassification.trap)
-        r=region('Panthéon','surf');goal=YokaiFireRedLocation(self.player,'Panthéon',None,r)
+        r=region('Panthéon','league');goal=YokaiFireRedLocation(self.player,'Panthéon',None,r)
         goal.place_locked_item(self.create_item('Victoire'));r.locations.append(goal)
         self.multiworld.completion_condition[self.player]=lambda state:state.has('Victoire',self.player)
 

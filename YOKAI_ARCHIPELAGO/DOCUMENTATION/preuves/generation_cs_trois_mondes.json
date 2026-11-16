@@ -1,0 +1,306 @@
+{
+  "kind": "actual_AP_generate_and_spheres",
+  "tested_games": 3,
+  "native_gameplay_tested": false,
+  "caution": [
+    "FireRed randomise Coupe, Surf, Force et Flash ; Vol utile, autres clefs natives.",
+    "Régions FRLG réutilisées pour les checks activés ; les étapes narratives natives restent regroupées, pas un modèle de durée.",
+    "Aucune équivalence sphère/minutes et aucune garantie sur cinq jeux."
+  ],
+  "seeds": [
+    {
+      "seed": 1611202621,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 137
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 81,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 316
+        },
+        {
+          "Yoann_YW2": 92,
+          "Yoann_MKW": 72,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 60,
+          "Yoann_MKW": 27,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 61,
+          "Yoann_MKW": 27,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 25,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 175
+        },
+        {
+          "Yoann_YW2": 59,
+          "Yoann_MKW": 72,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 25,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 7,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 0,
+        "Yoann_MKW": 1,
+        "Yoann_FireRed": 3
+      },
+      "remote_progression_routes": {
+        "Yoann_FireRed -> Yoann_YW2": 27,
+        "Yoann_FireRed -> Yoann_MKW": 17,
+        "Yoann_MKW -> Yoann_YW2": 11,
+        "Yoann_YW2 -> Yoann_FireRed": 2,
+        "Yoann_YW2 -> Yoann_MKW": 10,
+        "Yoann_MKW -> Yoann_FireRed": 1
+      },
+      "forest_remote_progression_count": 0,
+      "firered_checks": 628,
+      "firered_progression_locations": [
+        {
+          "item": "CS01 Coupe",
+          "source_player": "Yoann_YW2",
+          "source_check": "Les Hauts de Granval - Coffre 03"
+        },
+        {
+          "item": "CS03 Surf",
+          "source_player": "Yoann_YW2",
+          "source_check": "San Fantastico - Coffre 05"
+        },
+        {
+          "item": "CS05 Flash",
+          "source_player": "Yoann_MKW",
+          "source_check": "Leaf Cup 150cc - 1 Star"
+        },
+        {
+          "item": "CS04 Force",
+          "source_player": "Yoann_FireRed",
+          "source_check": "Dresseur — Route 9 - Picnicker Caitlin Reward"
+        }
+      ]
+    },
+    {
+      "seed": 1611202622,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 137
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 72,
+          "Yoann_FireRed": 29
+        },
+        {
+          "Yoann_YW2": 88,
+          "Yoann_MKW": 27,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 79,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 287
+        },
+        {
+          "Yoann_YW2": 64,
+          "Yoann_MKW": 27,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 59,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 22,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 175
+        },
+        {
+          "Yoann_YW2": 61,
+          "Yoann_MKW": 81,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 7,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 0,
+        "Yoann_MKW": 0,
+        "Yoann_FireRed": 2
+      },
+      "remote_progression_routes": {
+        "Yoann_FireRed -> Yoann_MKW": 18,
+        "Yoann_FireRed -> Yoann_YW2": 31,
+        "Yoann_MKW -> Yoann_YW2": 6,
+        "Yoann_MKW -> Yoann_FireRed": 2,
+        "Yoann_YW2 -> Yoann_MKW": 5,
+        "Yoann_YW2 -> Yoann_FireRed": 1
+      },
+      "forest_remote_progression_count": 1,
+      "firered_checks": 628,
+      "firered_progression_locations": [
+        {
+          "item": "CS03 Surf",
+          "source_player": "Yoann_YW2",
+          "source_check": "San Fantastico - Coffre 13"
+        },
+        {
+          "item": "CS05 Flash",
+          "source_player": "Yoann_MKW",
+          "source_check": "Mushroom Cup 150cc - 2nd place"
+        },
+        {
+          "item": "CS04 Force",
+          "source_player": "Yoann_MKW",
+          "source_check": "Koopa Cape Mirror - 1st Place"
+        },
+        {
+          "item": "CS01 Coupe",
+          "source_player": "Yoann_FireRed",
+          "source_check": "Route2 — objet (17,54)"
+        }
+      ]
+    },
+    {
+      "seed": 1611202623,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 137
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 27,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 81,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 29
+        },
+        {
+          "Yoann_YW2": 78,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 287
+        },
+        {
+          "Yoann_YW2": 68,
+          "Yoann_MKW": 72,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 64,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 80
+        },
+        {
+          "Yoann_YW2": 26,
+          "Yoann_MKW": 45,
+          "Yoann_FireRed": 95
+        },
+        {
+          "Yoann_YW2": 61,
+          "Yoann_MKW": 45,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 22,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 10,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 0,
+        "Yoann_MKW": 1,
+        "Yoann_FireRed": 1
+      },
+      "remote_progression_routes": {
+        "Yoann_FireRed -> Yoann_YW2": 27,
+        "Yoann_FireRed -> Yoann_MKW": 16,
+        "Yoann_YW2 -> Yoann_MKW": 7,
+        "Yoann_MKW -> Yoann_YW2": 9,
+        "Yoann_YW2 -> Yoann_FireRed": 1,
+        "Yoann_MKW -> Yoann_FireRed": 1
+      },
+      "forest_remote_progression_count": 0,
+      "firered_checks": 628,
+      "firered_progression_locations": [
+        {
+          "item": "CS01 Coupe",
+          "source_player": "Yoann_YW2",
+          "source_check": "Les Hauts de Granval - Coffre 10"
+        },
+        {
+          "item": "CS03 Surf",
+          "source_player": "Yoann_MKW",
+          "source_check": "Special Cup 50cc - 2nd place"
+        },
+        {
+          "item": "CS04 Force",
+          "source_player": "Yoann_FireRed",
+          "source_check": "PowerPlant — objet (40,22)"
+        },
+        {
+          "item": "CS05 Flash",
+          "source_player": "Yoann_FireRed",
+          "source_check": "Dresseur — Route 10 - PokeManiac Herman Reward"
+        }
+      ]
+    }
+  ]
+}

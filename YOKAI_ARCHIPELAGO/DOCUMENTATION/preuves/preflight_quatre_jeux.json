@@ -1,0 +1,19 @@
+{
+  "passed": false,
+  "kind": "official_four_world_generation_and_logic",
+  "seed": 1611202604,
+  "four_native_games_tested": false,
+  "games": [
+    "Pokemon Yo-kai FireRed",
+    "Pokemon Yo-kai Emerald",
+    "Yo-kai Watch 2",
+    "Mario Kart Wii"
+  ],
+  "error": "APWorlds validés manquants : /workspace/archipelago-deps/Archipelago/custom_worlds/pokemon_yokai_emerald.apworld. Fournir le package réellement utilisé ; aucun substitut vanilla ne sera installé.",
+  "user_reported_emerald": {
+    "version": "0.2.1",
+    "signature": "pokemon emerald / yokai ap fr2",
+    "local_file_available": false,
+    "note": "The supplied path is absent in this environment; attach the validated APWorld. No vanilla replacement used."
+  }
+}

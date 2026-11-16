@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Package le code propre au mode bonus et son profil mesuré ; aucune ROM ni image."""
+"""Package le code Archipelago Rouge Feu et son profil mesuré ; aucune ROM ni image."""
 import argparse,json
 from pathlib import Path
 import zipfile
