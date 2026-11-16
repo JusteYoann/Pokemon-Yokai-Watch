@@ -1,3 +1,17 @@
+## Situation corrigée — retour utilisateur du 16 novembre 2026
+
+Cette mise à jour prévaut sur les anciens états « Emerald en attente » ou « YW2/MKW seulement générés » ci-dessous. Elle rapporte le fonctionnement indiqué par l’utilisateur ; elle n’ajoute pas de tests effectués sur ce poste.
+
+| Jeu | État actuel | Suite |
+|---|---|---|
+| Pokémon Yo-kai Emerald | Fonctionnel selon le retour utilisateur | Conserver l’intégration existante |
+| Yo-kai Watch 2 : Spectres Psychiques EUR | Fonctionnel selon le retour utilisateur | Conserver l’intégration existante |
+| Mario Kart Wii | Archipelago fonctionnel selon le retour utilisateur | Ajouter le mod visuel Yo-kai dans la même installation |
+| Pokémon Rouge Feu × Yo-kai Watch | Intégration en développement,625 checks actifs et tests natifs/réseau documentés | Poursuivre la couverture et les essais de progression |
+| Yo-kai Watch 1 EUR | Seule intégration de jeu encore absente ; prototype technique présent | Développer l’intégration jouable |
+
+Le test collectif final avec les cinq jeux reste à réaliser après l’intégration de YW1. Ne pas redemander les fichiers Emerald pour cette simple correction de statut, ni recommencer les intégrations déclarées fonctionnelles. Les limites et preuves locales des anciens essais restent conservées comme historique.
+
 > **Jalon courant — import massif du 16 novembre :** [rapport et limites](YOKAI_ARCHIPELAGO/DOCUMENTATION/FRLG_IMPORT_MASSIF.md). 625 checks par défaut (626 avec Terr’heure),74 anciens IDs conservés ; transport3, sauvegarde1 et registre256 dresseurs. Les descriptions15/74 ci-dessous sont historiques. Le graphe de progression reste regroupé et les cinq jeux ensemble ne sont pas validés.
 
 Tests du jalon :617 détecteurs natifs et persistance à froid,2057 assertions ;37 protections ;36 contrôles avec vrai serveur/mGBA dont Wyatt et un dresseur ordinaire joués ;5 seeds résolubles à trois mondes. Captures et256 victoires sont vérifiées par fixtures natives, pas par166 captures et256 combats joués.
@@ -13,7 +27,7 @@ Branche de travail : `codex/archipelago-five-games-20261114`. Le fangame princip
 2. B — Yo-kai Watch 2 : Spectres Psychiques, 3DS européenne. Réutiliser l’intégration V3 existante.
 3. C — Mario Kart Wii PAL, avec personnages Yo-kai dans la même installation Dolphin.
 4. D — Pokémon Rouge Feu × Yo-kai, fangame personnel.
-5. E — Pokémon Yo-kai Emerald, six Yo-kai. **En attente : ne plus demander ses fichiers pour l’instant.**
+5. E — Pokémon Yo-kai Emerald, six Yo-kai. Fonctionnel selon le retour utilisateur du16 novembre ; conserver cette intégration.
 
 ## Acquis et limites
 
@@ -37,7 +51,7 @@ Développer dans les dossiers Multiworld, jamais dans le fangame principal. Pas 
 
 ## Priorité actuelle
 
-Priorité Rouge Feu : poursuivre l’inventaire et la randomisation au-delà des quinze checks actuels. Ne pas repartir du mode bonus. Surf est randomisé et ses sources natives sont supprimées ; les autres clefs sont encore natives. Chaque nouvelle clef exige de tracer aussi ses restaurations automatiques et les accès avant d’étendre le pool. YW1 et Emerald ne sont pas jouables ; ne pas générer une fausse session à cinq jeux.
+Priorité Rouge Feu : poursuivre l’inventaire et la randomisation au-delà des quinze checks actuels. Ne pas repartir du mode bonus. Surf est randomisé et ses sources natives sont supprimées ; les autres clefs sont encore natives. Chaque nouvelle clef exige de tracer aussi ses restaurations automatiques et les accès avant d’étendre le pool. YW1 est la seule intégration encore absente selon le retour utilisateur du16 novembre. Emerald, YW2 et MKW sont déclarés fonctionnels ; le mod visuel MKW reste à ajouter. Le test collectif des cinq jeux reste à réaliser.
 
 
 ## Dernier jalon : récompenses ordinaires et Surf

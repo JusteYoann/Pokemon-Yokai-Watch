@@ -1,3 +1,5 @@
+> **Statut utilisateur du16 novembre :** Emerald, YW2 et Mario Kart Wii sont déclarés fonctionnels. Le mod visuel Yo-kai de MKW manque encore ; YW1 est la seule intégration absente. Préserver ces acquis. Les anciens états de gel et les limites des essais locaux ci-dessous sont historiques ; ne pas les confondre avec le statut actuel communiqué par l’utilisateur. Voir `YOKAI_ARCHIPELAGO/DOCUMENTATION/ETAT_DU_PROJET.md`.
+
 > **Jalon courant — import massif du 16 novembre :** [rapport et limites](YOKAI_ARCHIPELAGO/DOCUMENTATION/FRLG_IMPORT_MASSIF.md). 625 checks par défaut (626 avec Terr’heure),74 anciens IDs conservés ; transport3, sauvegarde1 et registre256 dresseurs. Les descriptions15/74 ci-dessous sont historiques. Le graphe de progression reste regroupé et les cinq jeux ensemble ne sont pas validés.
 
 Tests du jalon :617 détecteurs natifs et persistance à froid,2057 assertions ;37 protections ;36 contrôles avec vrai serveur/mGBA dont Wyatt et un dresseur ordinaire joués ;5 seeds résolubles à trois mondes. Captures et256 victoires sont vérifiées par fixtures natives, pas par166 captures et256 combats joués.

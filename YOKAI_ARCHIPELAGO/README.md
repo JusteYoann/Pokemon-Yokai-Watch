@@ -1,6 +1,6 @@
 # Yo-kai Archipelago — cinq jeux
 
-Développement sur `codex/archipelago-five-games-20261114`, depuis la passation Claude `4617e348`. YW1 EUR remplace définitivement YW3. Emerald reste en attente.
+Développement sur `codex/archipelago-five-games-20261114`, depuis la passation Claude `4617e348`. YW1 EUR remplace définitivement YW3. Selon le retour utilisateur du16 novembre, Emerald, YW2 et Mario Kart Wii fonctionnent. Le mod visuel Yo-kai de Mario Kart reste à ajouter ; YW1 est la seule intégration encore absente. Les tests locaux et le statut communiqué sont distingués dans le document d’état.
 
 Le cahier des charges actif est [ici](DOCUMENTATION/CAHIER_DES_CHARGES_FIRERED_20261114.md). Le dernier jalon Rouge Feu comporte **625 checks et Surf/Flash randomisés**, avec tests sur vrai serveur et cœur mGBA. Ce n’est pas encore une version complète à cinq jeux prête pour le tournage.
 
