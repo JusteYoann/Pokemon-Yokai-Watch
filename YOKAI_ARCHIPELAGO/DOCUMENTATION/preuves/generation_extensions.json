@@ -1,0 +1,935 @@
+{
+  "kind": "actual_AP_generate_and_spheres",
+  "tested_games": 3,
+  "native_gameplay_tested": false,
+  "caution": [
+    "FireRed randomise Surf et Flash ; les autres objets de progression restent natifs.",
+    "Régions FRLG réutilisées pour les checks activés ; les étapes narratives natives restent regroupées, pas un modèle de durée.",
+    "Aucune équivalence sphère/minutes et aucune garantie sur cinq jeux."
+  ],
+  "seeds": [
+    {
+      "seed": 14112100,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 35
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 72,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 80,
+          "Yoann_MKW": 63,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 84,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 37
+        },
+        {
+          "Yoann_YW2": 62,
+          "Yoann_MKW": 45,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 65,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 27,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 2
+        },
+        {
+          "Yoann_YW2": 54,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 23,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 15,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 0,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 0,
+        "Yoann_MKW": 1,
+        "Yoann_FireRed": 2
+      },
+      "remote_progression_routes": {
+        "Yoann_FireRed -> Yoann_MKW": 9,
+        "Yoann_MKW -> Yoann_YW2": 12,
+        "Yoann_FireRed -> Yoann_YW2": 6,
+        "Yoann_YW2 -> Yoann_MKW": 8,
+        "Yoann_MKW -> Yoann_FireRed": 2
+      },
+      "forest_remote_progression_count": 1,
+      "firered_checks": 74,
+      "firered_progression_locations": [
+        {
+          "item": "CS03 Surf",
+          "source_player": "Yoann_MKW",
+          "source_check": "Star Cup 150cc - 2 Star"
+        },
+        {
+          "item": "CS05 Flash",
+          "source_player": "Yoann_MKW",
+          "source_check": "GBA Shy Guy Beach 100cc - 1st Place"
+        }
+      ]
+    },
+    {
+      "seed": 14112101,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 35
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 72,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 80,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 80,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 65,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 37
+        },
+        {
+          "Yoann_YW2": 66,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 29,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 2
+        },
+        {
+          "Yoann_YW2": 54,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 24,
+          "Yoann_MKW": 54,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 12,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 0,
+        "Yoann_MKW": 0,
+        "Yoann_FireRed": 3
+      },
+      "remote_progression_routes": {
+        "Yoann_FireRed -> Yoann_MKW": 7,
+        "Yoann_FireRed -> Yoann_YW2": 6,
+        "Yoann_MKW -> Yoann_YW2": 18,
+        "Yoann_MKW -> Yoann_FireRed": 2,
+        "Yoann_YW2 -> Yoann_MKW": 10
+      },
+      "forest_remote_progression_count": 2,
+      "firered_checks": 74,
+      "firered_progression_locations": [
+        {
+          "item": "CS05 Flash",
+          "source_player": "Yoann_MKW",
+          "source_check": "Mario Circuit 100cc - 1st Place"
+        },
+        {
+          "item": "CS03 Surf",
+          "source_player": "Yoann_MKW",
+          "source_check": "Special Cup 150cc - 3rd place"
+        }
+      ]
+    },
+    {
+      "seed": 14112102,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 35
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 54,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 81,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 83,
+          "Yoann_MKW": 27,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 65,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 59,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 28,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 39
+        },
+        {
+          "Yoann_YW2": 57,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 25,
+          "Yoann_MKW": 27,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 7,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 3,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 4,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 0,
+        "Yoann_MKW": 0,
+        "Yoann_FireRed": 5
+      },
+      "remote_progression_routes": {
+        "Yoann_MKW -> Yoann_YW2": 21,
+        "Yoann_FireRed -> Yoann_MKW": 6,
+        "Yoann_FireRed -> Yoann_YW2": 2,
+        "Yoann_YW2 -> Yoann_MKW": 6,
+        "Yoann_YW2 -> Yoann_FireRed": 1,
+        "Yoann_MKW -> Yoann_FireRed": 1
+      },
+      "forest_remote_progression_count": 0,
+      "firered_checks": 74,
+      "firered_progression_locations": [
+        {
+          "item": "CS03 Surf",
+          "source_player": "Yoann_YW2",
+          "source_check": "Manoir arrière (Coteau fleuri) - Coffre 03"
+        },
+        {
+          "item": "CS05 Flash",
+          "source_player": "Yoann_MKW",
+          "source_check": "Flower Cup 150cc - 3rd place"
+        }
+      ]
+    },
+    {
+      "seed": 14112103,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 35
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 63,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 81,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 80,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 65,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 64,
+          "Yoann_MKW": 45,
+          "Yoann_FireRed": 37
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 63,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 54,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 2
+        },
+        {
+          "Yoann_YW2": 23,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 12,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 3,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 0,
+        "Yoann_MKW": 0,
+        "Yoann_FireRed": 4
+      },
+      "remote_progression_routes": {
+        "Yoann_FireRed -> Yoann_MKW": 8,
+        "Yoann_FireRed -> Yoann_YW2": 6,
+        "Yoann_MKW -> Yoann_YW2": 16,
+        "Yoann_YW2 -> Yoann_MKW": 17,
+        "Yoann_MKW -> Yoann_FireRed": 2
+      },
+      "forest_remote_progression_count": 1,
+      "firered_checks": 74,
+      "firered_progression_locations": [
+        {
+          "item": "CS03 Surf",
+          "source_player": "Yoann_MKW",
+          "source_check": "Mario Circuit Mirror - 1st Place"
+        },
+        {
+          "item": "CS05 Flash",
+          "source_player": "Yoann_MKW",
+          "source_check": "Dry Dry Ruins 100cc - 1st Place"
+        }
+      ]
+    },
+    {
+      "seed": 14112104,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 35
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 81,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 89,
+          "Yoann_MKW": 54,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 83,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 37
+        },
+        {
+          "Yoann_YW2": 61,
+          "Yoann_MKW": 27,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 61,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 27,
+          "Yoann_MKW": 27,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 56,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 2
+        },
+        {
+          "Yoann_YW2": 26,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 7,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 0,
+        "Yoann_MKW": 1,
+        "Yoann_FireRed": 3
+      },
+      "remote_progression_routes": {
+        "Yoann_FireRed -> Yoann_MKW": 9,
+        "Yoann_FireRed -> Yoann_YW2": 7,
+        "Yoann_MKW -> Yoann_YW2": 17,
+        "Yoann_YW2 -> Yoann_MKW": 12,
+        "Yoann_MKW -> Yoann_FireRed": 2
+      },
+      "forest_remote_progression_count": 5,
+      "firered_checks": 74,
+      "firered_progression_locations": [
+        {
+          "item": "CS03 Surf",
+          "source_player": "Yoann_MKW",
+          "source_check": "Shell Cup 100cc - 3rd place"
+        },
+        {
+          "item": "CS05 Flash",
+          "source_player": "Yoann_MKW",
+          "source_check": "Banana Cup Mirror - 1st place"
+        }
+      ]
+    },
+    {
+      "seed": 14112105,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 35
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 135,
+          "Yoann_FireRed": 37
+        },
+        {
+          "Yoann_YW2": 87,
+          "Yoann_MKW": 27,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 83,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 61,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 63,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 2
+        },
+        {
+          "Yoann_YW2": 23,
+          "Yoann_MKW": 27,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 59,
+          "Yoann_MKW": 27,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 24,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 7,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 5,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 0,
+        "Yoann_MKW": 0,
+        "Yoann_FireRed": 3
+      },
+      "remote_progression_routes": {
+        "Yoann_FireRed -> Yoann_YW2": 5,
+        "Yoann_FireRed -> Yoann_MKW": 9,
+        "Yoann_MKW -> Yoann_YW2": 22,
+        "Yoann_YW2 -> Yoann_FireRed": 1,
+        "Yoann_YW2 -> Yoann_MKW": 7
+      },
+      "forest_remote_progression_count": 5,
+      "firered_checks": 74,
+      "firered_progression_locations": [
+        {
+          "item": "CS03 Surf",
+          "source_player": "Yoann_YW2",
+          "source_check": "Chemin du Puits - Coffre 01"
+        },
+        {
+          "item": "CS05 Flash",
+          "source_player": "Yoann_FireRed",
+          "source_check": "Assistant Chen — 20 espèces capturées"
+        }
+      ]
+    },
+    {
+      "seed": 14112106,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 35
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 63,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 81,
+          "Yoann_MKW": 72,
+          "Yoann_FireRed": 39
+        },
+        {
+          "Yoann_YW2": 84,
+          "Yoann_MKW": 45,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 62,
+          "Yoann_MKW": 27,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 69,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 24,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 52,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 28,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 10,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 0,
+        "Yoann_MKW": 0,
+        "Yoann_FireRed": 1
+      },
+      "remote_progression_routes": {
+        "Yoann_FireRed -> Yoann_YW2": 4,
+        "Yoann_FireRed -> Yoann_MKW": 6,
+        "Yoann_YW2 -> Yoann_FireRed": 1,
+        "Yoann_MKW -> Yoann_FireRed": 1,
+        "Yoann_YW2 -> Yoann_MKW": 8,
+        "Yoann_MKW -> Yoann_YW2": 16
+      },
+      "forest_remote_progression_count": 2,
+      "firered_checks": 74,
+      "firered_progression_locations": [
+        {
+          "item": "CS03 Surf",
+          "source_player": "Yoann_YW2",
+          "source_check": "Histoire : chapitre 2 terminé"
+        },
+        {
+          "item": "CS05 Flash",
+          "source_player": "Yoann_MKW",
+          "source_check": "Coconut Mall 50cc - 1st Place"
+        }
+      ]
+    },
+    {
+      "seed": 14112107,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 35
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 72,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 86,
+          "Yoann_MKW": 45,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 83,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 59,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 65,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 39
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 56,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 21,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 9,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 3,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 0,
+        "Yoann_MKW": 0,
+        "Yoann_FireRed": 4
+      },
+      "remote_progression_routes": {
+        "Yoann_FireRed -> Yoann_MKW": 8,
+        "Yoann_FireRed -> Yoann_YW2": 4,
+        "Yoann_YW2 -> Yoann_MKW": 11,
+        "Yoann_MKW -> Yoann_YW2": 15,
+        "Yoann_MKW -> Yoann_FireRed": 1,
+        "Yoann_YW2 -> Yoann_FireRed": 1
+      },
+      "forest_remote_progression_count": 3,
+      "firered_checks": 74,
+      "firered_progression_locations": [
+        {
+          "item": "CS05 Flash",
+          "source_player": "Yoann_YW2",
+          "source_check": "Histoire : chapitre 5 terminé"
+        },
+        {
+          "item": "CS03 Surf",
+          "source_player": "Yoann_MKW",
+          "source_check": "Mushroom Cup 50cc - 1 Star"
+        }
+      ]
+    },
+    {
+      "seed": 14112108,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 35
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 54,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 78,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 81,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 63,
+          "Yoann_MKW": 27,
+          "Yoann_FireRed": 37
+        },
+        {
+          "Yoann_YW2": 64,
+          "Yoann_MKW": 27,
+          "Yoann_FireRed": 2
+        },
+        {
+          "Yoann_YW2": 25,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 51,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 22,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 13,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 7,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 1,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 1,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 0,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 3,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 0,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 1,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 1,
+        "Yoann_MKW": 2,
+        "Yoann_FireRed": 3
+      },
+      "remote_progression_routes": {
+        "Yoann_FireRed -> Yoann_MKW": 4,
+        "Yoann_FireRed -> Yoann_YW2": 2,
+        "Yoann_MKW -> Yoann_YW2": 15,
+        "Yoann_YW2 -> Yoann_MKW": 8,
+        "Yoann_YW2 -> Yoann_FireRed": 1
+      },
+      "forest_remote_progression_count": 2,
+      "firered_checks": 74,
+      "firered_progression_locations": [
+        {
+          "item": "CS05 Flash",
+          "source_player": "Yoann_YW2",
+          "source_check": "Centre-ville de Granval - Coffre 04"
+        },
+        {
+          "item": "CS03 Surf",
+          "source_player": "Yoann_FireRed",
+          "source_check": "Assistant Chen — 50 espèces capturées"
+        }
+      ]
+    },
+    {
+      "seed": 14112109,
+      "beatable_by_logic": true,
+      "spheres": [
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 18,
+          "Yoann_FireRed": 35
+        },
+        {
+          "Yoann_YW2": 30,
+          "Yoann_MKW": 72,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 78,
+          "Yoann_MKW": 81,
+          "Yoann_FireRed": 37
+        },
+        {
+          "Yoann_YW2": 91,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 66,
+          "Yoann_MKW": 36,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 64,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 22,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 55,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 23,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 8,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 2
+        },
+        {
+          "Yoann_YW2": 3,
+          "Yoann_MKW": 9,
+          "Yoann_FireRed": 0
+        },
+        {
+          "Yoann_YW2": 2,
+          "Yoann_MKW": 0,
+          "Yoann_FireRed": 0
+        }
+      ],
+      "max_internal_gap_spheres": {
+        "Yoann_YW2": 0,
+        "Yoann_MKW": 1,
+        "Yoann_FireRed": 6
+      },
+      "remote_progression_routes": {
+        "Yoann_FireRed -> Yoann_MKW": 5,
+        "Yoann_MKW -> Yoann_YW2": 19,
+        "Yoann_FireRed -> Yoann_YW2": 4,
+        "Yoann_YW2 -> Yoann_MKW": 5,
+        "Yoann_MKW -> Yoann_FireRed": 2
+      },
+      "forest_remote_progression_count": 1,
+      "firered_checks": 74,
+      "firered_progression_locations": [
+        {
+          "item": "CS05 Flash",
+          "source_player": "Yoann_MKW",
+          "source_check": "Special Cup 50cc - 1 Star"
+        },
+        {
+          "item": "CS03 Surf",
+          "source_player": "Yoann_MKW",
+          "source_check": "Lightning Cup 50cc - 2 Star"
+        }
+      ]
+    }
+  ]
+}

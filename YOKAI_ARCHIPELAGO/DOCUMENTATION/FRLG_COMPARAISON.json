@@ -13,7 +13,8 @@
     "modified_or_gift_review": 42,
     "disabled_postgame_or_sevii": 128,
     "retained_candidate": 238,
-    "absent_or_unresolved": 36,
+    "absent_or_unresolved": 35,
+    "disabled_replaced_reward": 1,
     "not_imported_category": 1254
   },
   "rows": [
@@ -820,8 +821,8 @@
       "native_sources": [],
       "native_map": null,
       "yokai_id": null,
-      "status": "absent_or_unresolved",
-      "reason": "Pas de source de remise correspondante identifiée ; désactivé."
+      "status": "disabled_replaced_reward",
+      "reason": "Le script nommé SilphScope remet maintenant la Poké Flûte : une seule source physique, aucun second check Scope."
     },
     {
       "upstream_key": "NPC_GIFT_GOT_SS_TICKET",

@@ -1,5 +1,7 @@
 # Installer et tester le jalon Rouge Feu Archipelago
 
+État actuel : [extension FRLG validée](FRLG_EXTENSION_VALIDEE.md), 74 checks, Surf/Flash randomisés, transport2 et sauvegarde1. Une nouvelle seed est nécessaire. Les étapes de compilation et de transport restent les mêmes.
+
 **Version de développement, pas encore la distribution définitive pour les cinq créateurs.** Le vrai serveur et mGBA libretro ont été testés sous Linux. La procédure graphique mGBA/Lua et Windows ci-dessous reste à valider sur PC. Ne pas réserver le tournage sur cette seule base.
 
 ## Ce qu’il faut préparer
@@ -28,7 +30,7 @@ Le dossier de sortie doit être absent. Le script vérifie les entrées du snaps
 - `dist/pokemon_yokai_firered.apworld` : code AP et profil, aucune ROM ni image ;
 - `YOKAI_AP_SOURCE_PATCH.json` : liste exacte des sources modifiées.
 
-Reconstruction complète depuis une copie neuve également vérifiée, résultat byte pour byte identique (`preuves/firered_reconstruction.json`). Build validée : SHA256 `0f6f0bfb739d246af3a73a7503db5c311c277133b9ce7befca1fcb79facd6c57`. Source complète locale : branche `codex/firered-archipelago-randomizer-20261114`, commit `d14b93cb803f60188e50917be2870c507eb6e748`, depuis `a589cf0057fd0f579d003d8dd58616b3f4649ea2`. Les binaires hôtes du compilateur sont réinstallés localement ; ils ne font pas partie du changement de gameplay.
+Reconstruction complète depuis une copie neuve également vérifiée, résultat byte pour byte identique (`preuves/firered_reconstruction_v2.json`). Build validée : SHA256 `d85d62c7638f8290f7b62e635f170b73a3f5100c555374dfceb8af2f6b603972`. Source complète locale : branche `codex/firered-archipelago-checks-20261114`, commit `9a35394a01e4c3c10985287c09b42277a6ae6006`, depuis `a589cf0057fd0f579d003d8dd58616b3f4649ea2`. Les binaires hôtes du compilateur sont réinstallés localement ; ils ne font pas partie du changement de gameplay.
 
 Un autre hash demande une vérification ; ne pas contourner le contrôle en saisissant des offsets vanilla. Aucun patch binaire de distribution n’est publié à ce jalon : les générateurs sources sont livrés, les ressources privées restent locales.
 
@@ -96,4 +98,4 @@ Après 20 minutes de blocage réel, demander un indice natif AP avec `!hint` et 
 
 Voir `preuves/firered_native_surf.json`, `firered_reseau_surf.json`, `firered_pantheon_surf.json`, `generation_trois_mondes_surf.json`. Le transport testé est un adaptateur Python relié à la vraie mémoire mGBA libretro, avec le vrai client officiel et un vrai serveur. Les contextes d’interaction, l’équipe et les positions sont préparés par fixtures. Les scripts, récompenses, flags, sauvegardes et échanges sont traités par les vrais programmes. Aucun parcours intégral ni test Windows/Lua graphique n’est revendiqué.
 
-Les autres objets clés ne sont pas encore randomisés. Les sources candidates ne sont pas toutes activées. La réception native YW1/YW2/MKW et le Multiworld à cinq jeux restent à valider. Emerald demeure en attente.
+Surf et Flash sont randomisés ; les autres objets clés restent natifs. Les sources candidates ne sont pas toutes activées. La réception native YW1/YW2/MKW et le Multiworld à cinq jeux restent à valider. Emerald demeure en attente.

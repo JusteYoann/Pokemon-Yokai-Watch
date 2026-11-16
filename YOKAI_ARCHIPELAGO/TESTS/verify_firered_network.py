@@ -118,13 +118,16 @@ async def scenario(a,report):
             server.stdin.write('/send Yoann_FireRed CS03 Surf\n');server.stdin.flush()
             await wait(lambda:r.call('BagGetQuantityByItemId',341)==1)
             ok('Progression Surf from real server reached native inventory',r.u32(box+32)==2)
+            server.stdin.write('/send Yoann_FireRed CS05 Flash\n');server.stdin.flush()
+            await wait(lambda:r.call('BagGetQuantityByItemId',343)==1)
+            ok('Progression Flash from real server reached native inventory',r.u32(box+32)==3)
             bag=r.u32(r.symbols['gSaveBlock1Ptr'])+0x310
             saved_bag=[(int.from_bytes(r.read(bag+4*i,2),'little'),r.call('GetBagItemQuantity',bag+4*i+2)) for i in range(42)]
             for i in range(42):
                 r.write(bag+4*i,struct.pack('<H',13));r.call('SetBagItemQuantity',bag+4*i+2,999)
             server.stdin.write('/send Yoann_FireRed Potion\n');server.stdin.flush()
             await wait(lambda:int.from_bytes(r.read(box+36,2),'little')==3)
-            ok('Real network gift stays pending when native bag is full',r.u32(box+32)==2)
+            ok('Real network gift stays pending when native bag is full',r.u32(box+32)==3)
         # Controlled party/position fixture, then native dialogue and battle.
         frames.cancel();await asyncio.gather(frames,return_exceptions=True);frames=None
         q.mon(0,65,100);r.call('SetMonMoveSlot',r.symbols['gPlayerParty'],280,0)
@@ -146,14 +149,14 @@ async def scenario(a,report):
         await wait(lambda:any(e['event']=='checked' and 0x594B1000 in e['locations'] for e in records()))
         ok('Real badge check acknowledged by AP server',True)
         if 'YokaiAPTryCollect' in r.symbols:
-            ok('Outgoing badge check succeeds while receive queue is blocked by full bag',r.u32(box+32)==2)
+            ok('Outgoing badge check succeeds while receive queue is blocked by full bag',r.u32(box+32)==3)
             # Battles may rotate the save encryption key. Restore logical
             # quantities through the native setter, never old ciphertext.
             bag=r.u32(r.symbols['gSaveBlock1Ptr'])+0x310
             for i,(item,quantity) in enumerate(saved_bag):
                 r.write(bag+4*i,struct.pack('<H',item));r.call('SetBagItemQuantity',bag+4*i+2,quantity)
             q.drain()  # finish any remaining native gym reward dialogue
-            await wait(lambda:r.u32(box+32)>=3)
+            await wait(lambda:r.u32(box+32)>=4)
             ok('Pending network gift resumes after freeing bag',True)
             frames.cancel();await asyncio.gather(frames,return_exceptions=True);frames=None
             for flag,x,y,item,check in [(0x156,5,41,4,0x594B2156),(1000,3,22,13,0x594B23E8)]:
@@ -184,6 +187,26 @@ async def scenario(a,report):
             frames=asyncio.create_task(game_frames())
             await wait(lambda:any(e['event']=='checked' and 0x594B2239 in e['locations'] for e in records()))
             ok('Server acknowledged randomized Surf source',True)
+            frames.cancel();await asyncio.gather(frames,return_exceptions=True);frames=None
+            q.warp('ViridianForest',1,1);r.call('BingoWelcomeGift');r.call('JibanyanGiveFriend');r.run(10)
+            frames=asyncio.create_task(game_frames())
+            await wait(lambda:any(e['event']=='checked' and 0x594B4000 in e['locations'] and 0x594B4001 in e['locations'] for e in records()))
+            ok('Server acknowledged native Bingo welcome and Jibanyan friendship',True)
+            frames.cancel();await asyncio.gather(frames,return_exceptions=True);frames=None
+            catalog=json.loads((ROOT/'YOKAI_ARCHIPELAGO/APWORLDS/pokemon_yokai_firered/checks.json').read_text())
+            for species in catalog['capture_capacity']['pre_flash_species'][:10]:
+                r.call('GetSetPokedexFlag',species,2);r.call('GetSetPokedexFlag',species,3)
+            ok('Native fixture has at least10 valid caught entries',r.call('GetKantoPokedexCount',1)>=10)
+            aide=next(c for c in catalog['checks'] if c.get('caught_required')==10)
+            q.warp(aide['map'],1,1);q.script(aide['script']);q.drain();r.run(8)
+            ok('Native aide earned collection flag',r.call('FlagGet',aide['flag_value'])==1)
+            ok('Native aide check does not duplicate remotely received Flash',r.call('BagGetQuantityByItemId',343)==1)
+            frames=asyncio.create_task(game_frames())
+            await wait(lambda:any(e['event']=='checked' and aide['id'] in e['locations'] for e in records()))
+            ok('Server acknowledged aide check using extended bitmap',True)
+            r.call('BingoWelcomeGift');await asyncio.sleep(.7)
+            repeated=[e for e in records() if e['event']=='sent' and e['packet'].get('cmd')=='LocationChecks' and 0x594B4000 in e['packet']['locations']]
+            ok('Repeating native Bingo welcome sends only one location check',len(repeated)==1)
             frames.cancel();await asyncio.gather(frames,return_exceptions=True);frames=None
             q.warp('PokemonLeague_HallOfFame',5,12)
             q.wait(lambda:r.call('GetGameStat',10)>0,limit=24000)

@@ -13,13 +13,22 @@ def main():
     p=argparse.ArgumentParser(description=__doc__)
     for n in ('archipelago','players','out'):p.add_argument('--'+n,type=Path,required=True)
     p.add_argument('--seeds',nargs='+',type=int,default=[14112029,14112030,14112031])
+    p.add_argument('--random-terreur',action='store_true')
     a=p.parse_args();ap=a.archipelago.resolve();players=a.players.resolve();out=a.out.resolve()
     out.mkdir(parents=True,exist_ok=True)
+    if a.random_terreur:
+        import yaml
+        target=out/'players';target.mkdir(exist_ok=True)
+        for path in players.glob('*.yaml'):
+            settings=yaml.safe_load(path.read_text())
+            if settings['game']=='Pokemon Yo-kai FireRed':settings[settings['game']]['random_terreur']=True
+            (target/path.name).write_text(yaml.safe_dump(settings,allow_unicode=True))
+        players=target
     os.environ.update(SKIP_REQUIREMENTS_UPDATE='1',AP_TEST_WORLDS='yokaiwatch2,mkwii,pokemon_yokai_firered')
     os.chdir(ap);sys.path.insert(0,str(ap))
     report={'kind':'actual_AP_generate_and_spheres','tested_games':3,'native_gameplay_tested':False,
-            'caution':['FireRed randomise Surf ; les autres objets de progression restent natifs.',
-                       'Ce modèle ne mesure pas les checks immédiatement accessibles au personnage : les étapes natives pré-Surf restent regroupées ; six objets ordinaires précoces sont activés.',
+            'caution':['FireRed randomise Surf et Flash ; les autres objets de progression restent natifs.',
+                       'Régions FRLG réutilisées pour les checks activés ; les étapes narratives natives restent regroupées, pas un modèle de durée.',
                        'Aucune équivalence sphère/minutes et aucune garantie sur cinq jeux.'], 'seeds':[]}
     for seed in a.seeds:
         sys.argv=['Generate.py','--player_files_path',str(players),'--outputpath',str(out/str(seed)),
@@ -43,16 +52,28 @@ def main():
                     crossworld[f'{mw.player_name[loc.player]} -> {mw.player_name[loc.item.player]}']+=1
                     if loc.name.startswith('Forêt de Jade'):forest_progression+=1
         world=mw.worlds[next(p for p,w in mw.worlds.items() if w.game=='Pokemon Yo-kai FireRed')]
-        assert len(world.location_name_to_id)==15
-        assert all('Forêt de Jade' in name or name.startswith(('Badge','Parc Safari')) for name in world.location_name_to_id)
+        own=mw.get_locations(world.player)
+        assert {0x594B1000+i for i in range(8)}.issubset(world.location_name_to_id.values())
+        assert len(world.location_name_to_id)==75
+        optional=[loc for loc in own if loc.address==0x594B4002]
+        assert bool(optional)==a.random_terreur
+        assert not any(loc.item.advancement for loc in optional)
         from BaseClasses import CollectionState
         state=CollectionState(mw)
         assert not mw.get_location('Panthéon',world.player).can_reach(state)
+        assert mw.get_location('Assistant Chen — 10 espèces capturées',world.player).can_reach(state)
+        assert not mw.get_location('Assistant Chen — 50 espèces capturées',world.player).can_reach(state)
         state.collect(world.create_item('CS03 Surf'),True)
+        assert not mw.get_location('Panthéon',world.player).can_reach(state)
+        state.collect(world.create_item('CS05 Flash'),True)
         assert mw.get_location('Panthéon',world.player).can_reach(state)
+        assert mw.get_location('Assistant Chen — 50 espèces capturées',world.player).can_reach(state)
         report['seeds'].append({'seed':seed,'beatable_by_logic':True,'spheres':spheres,
             'max_internal_gap_spheres':{mw.player_name[p]:gaps[p] for p in mw.player_ids},
-            'remote_progression_routes':dict(crossworld),'forest_remote_progression_count':forest_progression})
+            'remote_progression_routes':dict(crossworld),'forest_remote_progression_count':forest_progression,
+            'firered_checks':len([loc for loc in own if loc.address is not None]),
+            'firered_progression_locations':[{ 'item':loc.item.name,'source_player':mw.player_name[loc.player],'source_check':loc.name}
+                for loc in mw.get_locations() if loc.item and loc.item.player==world.player and loc.item.name in ('CS03 Surf','CS05 Flash')]})
     (out/'RESULTAT.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(out/'RESULTAT.json')
 

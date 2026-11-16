@@ -85,3 +85,12 @@ Quinze checks actifs, Surf seul objet de progression randomisé. Ne pas réintro
 La sauvegarde AP occupe SB2+0xE20 sur64 octets. Ne pas utiliser SB1 unused_3A94 (Aspirateur), ni le début/fin de filler_B20 (Blasters/monstre aspiré). Étendre le bitmap de checks exige une nouvelle étude du protocole, actuellement 8 badges +7 collectes. Les tests réseau préparent le contexte d’interaction mais exécutent réellement les scripts natifs, sans poser leurs flags.
 
 Le groupe compte cinq personnes et cinq slots, pas un joueur à cinq jeux. Voir `CONFIG/createurs/`. Garder les modèles non jouables hors du dossier fourni à Generate.py. Les trois mondes YW2/MKW/FR se génèrent réellement ; cela ne valide pas une partie à cinq jeux.
+
+
+## Priorité active — extension du 16 novembre 2026
+
+Le jalon quinze checks décrit plus haut est historique. Lire `DOCUMENTATION/FRLG_EXTENSION_VALIDEE.md` sous YOKAI_ARCHIPELAGO :74 checks, Flash/Surf randomisés, sauvegarde1/transport2. Source locale `codex/firered-archipelago-checks-20261114`, commit `9a35394a`. Les IDs initiaux restent immuables. Le tableau comparatif FRLG est un inventaire avant extension, pas une liste de checks tous validés.
+
+Terr’heure RNG : option désactivée par défaut ; item_rule et EXCLUDED interdisent progression/pièges. Aucune quête postgame. Les assistants emploient le compteur Kanto natif des captures (premières151 entrées), pas le nombre vu ni toutes301 espèces. Ne pas étendre silencieusement ce compteur. Le pool doit garder un exemplaire de Surf et de Flash, avec leurs remises originales supprimées.
+
+La liste publiée et le bitmap natif sont liés par SHA256 ; régénérer ROM/profil/package/seed ensemble après modification. La sauvegarde64octets et sa version1 sont indépendantes du protocole2. Ne pas remplacer la garde YoppleAPBusy par YoppleInDungeon (ce dernier est vrai dans les simples grottes). Ne pas distribuer pendant les états temporaires du journal.

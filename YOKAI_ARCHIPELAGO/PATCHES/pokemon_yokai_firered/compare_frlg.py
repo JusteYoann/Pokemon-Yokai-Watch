@@ -47,7 +47,8 @@ def compare(upstream,source):
             status='absent_or_unresolved';reason='Pas de source de remise correspondante identifiée ; désactivé.'
         if key=='NPC_GIFT_GOT_HM01':status='modified';reason='Coupe dans la quête Philosovni, plus à sa remise vanilla.'
         if key=='NPC_GIFT_GOT_POKE_FLUTE':status='modified';reason='Flûte déplacée au repaire Mafiamille ; restauration si absente.'
-        if key=='ITEM_SILPH_SCOPE':status='modified';reason='Le script nommé SilphScope remet maintenant la Poké Flûte.'
+        if key=='NPC_GIFT_GOT_SILPH_SCOPE':
+            status='disabled_replaced_reward';reason='Le script nommé SilphScope remet maintenant la Poké Flûte : une seule source physique, aucun second check Scope.'
         rows.append({'upstream_key':key,'upstream_ap_id':extracted.get(key,{}).get('flag'),
             'name_original':data['name'],'category':category,'tags':data.get('tags',[]),
             'upstream_region':region_key,'upstream_map':region.get('parent_map'),
@@ -72,7 +73,8 @@ def compare(upstream,source):
 
 def markdown(report):
     lines=['# Comparaison Rouge Feu Archipelago → fangame Yo-kai','',
-        f"Référence : Vyneras `frlg-stable`, `{COMMIT}`, licence MIT. Aucun patch binaire vanilla importé.",'',
+        f"Référence : Vyneras `frlg-stable`, `{COMMIT}`, licence MIT. Aucun patch binaire vanilla importé.",
+        'État comparatif avant extension : les quinze checks historiques sont conservés. Pour les activations récentes, voir FRLG_EXTENSION_VALIDEE.md.', '',
         '| Catégorie de comparaison | Nombre |','|---|---:|']
     lines += [f'| {k} | {v} |' for k,v in report['summary'].items()]
     lines += ['', 'Les candidats restent désactivés jusqu’à l’audit. Les IDs historiques Yo-kai sont inchangés ; l’ID upstream est conservé dans la correspondance.', '',

@@ -1,3 +1,5 @@
+> **État actif au 16 novembre :** [extension FRLG validée](FRLG_EXTENSION_VALIDEE.md). 74 checks par défaut, Surf/Flash randomisés ; 15 anciens IDs conservés. 211 contrôles de sources natifs, 37 contrôles de protections, 37 tests unitaires, 15 seeds à trois mondes. Le test réseau étendu a réussi. Les cinq jeux ensemble et Windows restent non validés. Les sections suivantes décrivent le jalon historique du 14 novembre.
+
 # État actif — 14 novembre 2026
 
 Branche de coordination : `codex/archipelago-five-games-20261114`, depuis Claude `4617e348`. Fangame principal et master intacts.

@@ -61,6 +61,19 @@ def main():
         ok('Real native AddBagItem consumes first request',r.call('BagGetQuantityByItemId',13)==before+1 and r.u32(box+32)==1)
         gift(13,1)
         ok('Replayed request does not give twice',r.call('BagGetQuantityByItemId',13)==before+1 and r.u32(box+32)==1)
+        if u16(box+4)==2:
+            journal=r.symbols['gQuestLogState'];previous=r.read(journal,1)
+            r.write(journal,b'\x02');r.call('YokaiAPUpdate')
+            ok('Journal playback state fixture pauses AP without consuming items',r.read(box+38,1)==b'\0' and r.u32(box+32)==1)
+            r.write(journal,previous);r.run(4)
+            ok('AP resumes after journal playback state fixture',r.read(box+38,1)==b'\1' and r.u32(box+32)==1)
+        if 'YoppleAPBusy' in r.symbols:
+            vacuum=sb1+0x3A94;original_vacuum=r.read(vacuum,64)
+            busy=bytearray(64);struct.pack_into('<I',busy,0,0x41535031);busy[8]=3
+            r.write(vacuum,bytes(busy));bind()
+            ok('Real vacuum busy state defers AP input',r.call('YoppleAPBusy')==1 and u16(box+6)==1 and r.read(box+38,1)==b'\0')
+            r.write(vacuum,original_vacuum);r.run(8)
+            ok('AP resumes after vacuum state clears without modifying loot',u16(box+6)==0 and r.u32(box+32)==1)
         gift(13,3)
         ok('Out-of-order request rejected',u16(box+36)==2 and r.u32(box+32)==1)
         gift(289,2)

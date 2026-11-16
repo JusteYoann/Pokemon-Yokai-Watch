@@ -6,7 +6,7 @@ import hashlib
 import json
 from pathlib import Path
 import shutil
-from inventory_checks import inventory
+from expand_checks import build_catalog
 
 HERE=Path(__file__).resolve().parent
 EXPECTED='4192f6ac785eed8a431fdbb322712818c31c4bfd9573e647ee791b04452ed329'
@@ -51,9 +51,30 @@ def install(output):
     s=replace_once(s,'        src/manoir_perfide.o(.text .rodata);\n',
                    '        src/manoir_perfide.o(.text .rodata);\n        src/yokai_ap.o(.text .rodata);\n')
     p.write_text(s)
-    active=[c for c in inventory(output)['checks'] if c['status']=='active']
-    (output/'include/yokai_ap_checks.h').write_text('#define YOKAI_AP_PICKUP_COUNT 7\n'
-        'static const u16 sYokaiAPPickupFlags[] = {\n'+''.join('    '+c['flag']+',\n' for c in active)+'};\n')
+    catalog=build_catalog(output)
+    # YoppleInDungeon means "map supports the vacuum", not "vacuum busy".
+    # Read-only getter: don't suppress all AP communication in ordinary caves.
+    p=output/'src/yopple_devices.c';s=p.read_text()
+    s=replace_once(s,'bool8 YoppleInDungeon(void){return VacuumMap()!=NULL;}',
+        'bool8 YoppleInDungeon(void){return VacuumMap()!=NULL;}\n'
+        'bool8 YoppleAPBusy(void){struct VacuumSave *s=State();return s->magic==VACUUM_MAGIC && s->phase!=0;}')
+    p.write_text(s)
+    p=output/'include/yopple_devices.h';s=p.read_text()
+    s=replace_once(s,'bool8 YoppleInDungeon(void);','bool8 YoppleInDungeon(void);\nbool8 YoppleAPBusy(void);');p.write_text(s)
+    active=[c for c in catalog['checks'] if c['status']=='active']
+    pickups=[c for c in active if c.get('original_reward')=='replaced']
+    legacy={c['id']:c for c in active}
+    legacy_flags=[legacy[code]['flag'] for code in catalog['legacy_pickup_ids']]
+    allowed=set(c['original_item'] for c in pickups)|{'ITEM_POTION','ITEM_SUPER_POTION','ITEM_HYPER_POTION',
+        'ITEM_POKE_BALL','ITEM_GREAT_BALL','ITEM_ULTRA_BALL','ITEM_REPEL','ITEM_SUPER_REPEL','ITEM_MAX_REPEL',
+        'ITEM_ANTIDOTE','ITEM_PARALYZE_HEAL','ITEM_AWAKENING','ITEM_BURN_HEAL','ITEM_ICE_HEAL'}
+    header=f'#define YOKAI_AP_PICKUP_COUNT {len(pickups)}\n#define YOKAI_AP_CHECK_COUNT {len(active)}\n'
+    header+=f'#define YOKAI_AP_CATALOG_HASH "{catalog["catalog_sha256"]}"\n'
+    for name,values in [('sYokaiAPPickupFlags',[c['flag'] for c in pickups]),('sYokaiAPLegacyFlags',legacy_flags),('sYokaiAPAllowedItems',sorted(allowed))]:
+        header+='static const u16 '+name+'[] = {\n'+''.join('    '+v+',\n' for v in values)+'};\n'
+    header+='static const u16 sYokaiAPCheckData[][3] = {\n'+''.join(
+        '    {'+str(c.get('flag_value',0))+', '+str(c.get('variable_value',0))+', '+str(c.get('target_value',0))+'},\n' for c in active)+'};\n'
+    (output/'include/yokai_ap_checks.h').write_text(header)
     p=output/'data/scripts/item_ball_scripts.inc';s=p.read_text()
     for c in active:
         if c['kind']!='ball':continue
@@ -81,6 +102,17 @@ YokaiAP_TextConnect::
 \t.string "avant de prendre cet objet.$"
 '''
     p.write_text(s)
+    # Keep native caught-count tests and refusal paths. Only replace the reward.
+    for c in active:
+        if c['kind']!='aide':continue
+        p=output/c['source'];s=p.read_text()
+        import re
+        pattern=r'\tcheckitemspace '+c['original_item']+r'\n\tgoto_if_eq VAR_RESULT, FALSE, \w+\n\tgiveitem_msg [^\n]+'
+        match=re.search(pattern,s)
+        if match is None:raise ValueError('Aide gift anchor differs: '+c['source'])
+        s=replace_once(s,match[0],'\tsetvar VAR_0x8004, '+c['flag']+'\n\tcallnative YokaiAPTryCollect\n'
+            '\tgoto_if_eq VAR_RESULT, 2, YokaiAP_ConnectFirst\n\tmsgbox YokaiAP_TextCheck, MSGBOX_DEFAULT')
+        p.write_text(s)
     p=output/'data/scripts/obtain_item.inc';s=p.read_text()
     s=replace_once(s,'EventScript_HiddenItemScript::\n\tlockall\n',
         'EventScript_HiddenItemScript::\n\tlockall\n\tcallnative YokaiAPTryCollect\n'
@@ -93,11 +125,13 @@ YokaiAP_TextConnect::
         '\tsetvar VAR_0x8004, FLAG_GOT_HM03\n\tcallnative YokaiAPTryCollect\n'
         '\tgoto_if_eq VAR_RESULT, 2, YokaiAP_ConnectFirst\n\tmsgbox YokaiAP_TextCheck, MSGBOX_DEFAULT')
     p.write_text(s)
-    report={'base_sha256':EXPECTED,'mode':'surf_randomized','modified':['src/overworld.c','ld_script.ld','data/scripts/item_ball_scripts.inc','data/scripts/obtain_item.inc'],
+    report={'base_sha256':EXPECTED,'mode':'expanded_checks','catalog_sha256':catalog['catalog_sha256'],'modified':['src/overworld.c','ld_script.ld','data/scripts/item_ball_scripts.inc','data/scripts/obtain_item.inc'],
             'added':['src/yokai_ap.c','include/yokai_ap.h','include/yokai_ap_checks.h'],'save_storage':{'block':2,'offset':'0xE20','bytes':64},
-            'replaced_pickups':[c['flag'] for c in active],
+            'replaced_pickups':[c['flag'] for c in pickups],
             'preserved':['species','stats','learnsets','evolutions','encounters','trainers','maps','story','other_original_rewards']}
     report['modified'].append('data/maps/SafariZone_SecretHouse/scripts.inc')
+    report['modified'] += ['src/yopple_devices.c','include/yopple_devices.h']
+    report['modified'] += [c['source'] for c in active if c['kind']=='aide']
     (output/'YOKAI_AP_SOURCE_PATCH.json').write_text(json.dumps(report,indent=2)+'\n')
     return report
 

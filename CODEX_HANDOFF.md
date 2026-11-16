@@ -63,3 +63,18 @@ Finir l’audit des 351 objets et 67 macros de dons, compléter les sources C, a
 Un sac plein doit différer les dons entrants sans bloquer les checks sortants. Le client l’autorise désormais et affiche un avertissement. Le test réseau complet passe 24 contrôles : Potion en attente pendant Wyatt, badge envoyé malgré cette attente, remise reprise après libération du sac, collectes et Safari, puis Goal effectivement journalisé par MultiServer. La fixture restaure les quantités par les fonctions natives : le chiffrement peut changer pendant un combat, donc recopier un ancien sac chiffré serait invalide.
 
 `build_firered.sh` a été exécuté sur un dossier neuf depuis le snapshot : ROM identique byte pour byte au build testé. Preuve `firered_reconstruction.json`. Le code C et son commit local `d14b93cb` sont inchangés par ce correctif client. Lors d’une extension de protocole future, séparer version de sauvegarde et version de transport ou prévoir une migration explicite, afin de conserver le ledger existant.
+
+
+## Reprise du 16 novembre 2026 — extension FRLG validée
+
+État actif : `YOKAI_ARCHIPELAGO/DOCUMENTATION/FRLG_EXTENSION_VALIDEE.md`. Tableau comparatif enregistré avant l’implémentation au commit `88ba5698`. Port MIT Vyneras `frlg-stable` / `3d1359cf`, inventaire1715 et régions symboliques réutilisés ; aucun patch vanilla ni code C non licencié importé.
+
+74 checks par défaut, 75 avec `random_terreur`. Les quinze IDs historiques sont inchangés. 45 objets visibles, 13 cachés, Safari, cinq assistants Chen, accueil Bingo, amitié Jibanyan, huit badges. L’enquête Alyzon/Gorgouille est postgame et exclue. Le premier événement Terr’heure est aléatoire, optionnel, jamais progression. Surf ET Flash randomisés ; autres clefs natives.
+
+Source complet local : `/workspace/archipelago-work/firered-source-branch`, branche `codex/firered-archipelago-checks-20261114`, commit `9a35394a01e4c3c10985287c09b42277a6ae6006`. SHA256 `d85d62c7638f8290f7b62e635f170b73a3f5100c555374dfceb8af2f6b603972`, reconstruction propre identique dans `firered-expanded-repro`.
+
+Transport2, sauvegarde1, même bloc64 octets SB2+0xE20. Bitmap64 octets RAM et empreinte catalogue contrôlée ROM/profil/seed. Ne pas réutiliser le package/profil du mode Surf précédent. Le getter Yopple ajouté est purement en lecture : l’ancienne garde confondait carte compatible avec Aspirateur réellement occupé et bloquait toutes les grottes. Le journal de reprise suspend la distribution ; tests de l’état journal explicitement préparé, pas une preuve d’un don reçu pendant une vraie lecture de journal.
+
+211 contrôles natifs vérifient les66 sources déterministes, les seuils capturés (pas vus), les remises supprimées et les marqueurs après redémarrage. 37 contrôles de protections natifs et37 tests unitaires passent. 10 seeds à trois mondes +5 avec Terr’heure optionnelle sont terminables selon la logique ; aucun progrès dans le check RNG. Le vrai test réseau valide aussi Flash, l’assistant10 captures, les événements Bingo/Jibanyan et leur idempotence. Voir les preuves dédiées `*_extensions*` et `*_v2`.
+
+Les essais utilisent contextes, positions et bits de capture préparés : pas un parcours manuel de toutes les cases, ni cinquante captures jouées. Les événements RNG natifs ne sont pas joués. Windows/Lua et cinq jeux ensemble non validés. Emerald toujours gelé. Le reste des candidats/clefs nécessite un audit, notamment les restaurations automatiques et les endroits à visite unique (bateau exclu). Le graphe conserve des étapes narratives regroupées tant que leurs clefs restent natives.

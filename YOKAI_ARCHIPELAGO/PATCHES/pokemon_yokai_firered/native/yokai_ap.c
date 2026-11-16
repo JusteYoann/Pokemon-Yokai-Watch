@@ -14,9 +14,16 @@
 #include "constants/flags.h"
 #include "overworld.h"
 #include "constants/game_stat.h"
+#include "constants/vars.h"
 #include "yokai_ap_checks.h"
+#include "pokedex.h"
+#include "quest_log.h"
+#include "constants/quest_log.h"
 
 EWRAM_DATA volatile struct YokaiAPMailbox gYokaiAPMailbox = {0};
+EWRAM_DATA volatile u8 gYokaiAPChecks[64] = {0};
+EWRAM_DATA volatile u16 gYokaiAPOwnedCount = 0;
+const u8 gYokaiAPCatalogHash[] = YOKAI_AP_CATALOG_HASH;
 const struct YokaiAPRomInfo gYokaiAPRomInfo = {
     YOKAI_AP_MAGIC, YOKAI_AP_VERSION, sizeof(struct YokaiAPMailbox),
     "Pokemon Yo-kai FireRed", "40c59a9f240d29a7b16d1dd299b1125513a280c4"
@@ -33,15 +40,15 @@ static struct YokaiAPSave *Save(void)
 
 static bool8 Safe(void)
 {
-    return !gPaletteFade.active && !ScriptContext_IsEnabled()
+    return !QL_IS_PLAYBACK_STATE && !gPaletteFade.active && !ScriptContext_IsEnabled()
         && !ArePlayerFieldControlsLocked() && !gMain.inBattle
-        && !BlastersCityActive() && !TerreHeureActive() && !YoppleInDungeon();
+        && !BlastersCityActive() && !TerreHeureActive() && !YoppleAPBusy();
 }
 
 static bool8 SameSession(struct YokaiAPSave *save)
 {
     u8 i;
-    if (save->magic != YOKAI_AP_MAGIC || save->version != YOKAI_AP_VERSION
+    if (save->magic != YOKAI_AP_MAGIC || save->version != YOKAI_AP_SAVE_VERSION
         || save->slot != gYokaiAPMailbox.slot)
         return FALSE;
     for (i = 0; i < 16; i++)
@@ -54,25 +61,9 @@ static bool8 SameSession(struct YokaiAPSave *save)
 // once. Other progression sources remain native, outside this first item pool.
 static bool8 AllowedItem(u16 item)
 {
-    switch (item)
-    {
-    case ITEM_POTION:
-    case ITEM_SUPER_POTION:
-    case ITEM_HYPER_POTION:
-    case ITEM_POKE_BALL:
-    case ITEM_GREAT_BALL:
-    case ITEM_ULTRA_BALL:
-    case ITEM_REPEL:
-    case ITEM_SUPER_REPEL:
-    case ITEM_MAX_REPEL:
-    case ITEM_ANTIDOTE:
-    case ITEM_PARALYZE_HEAL:
-    case ITEM_AWAKENING:
-    case ITEM_BURN_HEAL:
-    case ITEM_ICE_HEAL:
-    case ITEM_HM03:
-        return TRUE;
-    }
+    u16 i;
+    for (i = 0; i < ARRAY_COUNT(sYokaiAPAllowedItems); i++)
+        if (item == sYokaiAPAllowedItems[i]) return TRUE;
     return FALSE;
 }
 
@@ -81,13 +72,13 @@ static bool8 AllowedItem(u16 item)
 void YokaiAPTryCollect(void)
 {
     struct YokaiAPSave *save = Save();
-    u8 i;
+    u16 i;
     gSpecialVar_Result = 0; // not one of our pickups: run original script
     for (i = 0; i < YOKAI_AP_PICKUP_COUNT; i++)
     {
         if (gSpecialVar_0x8004 != sYokaiAPPickupFlags[i])
             continue;
-        if (save->magic != YOKAI_AP_MAGIC || save->version != YOKAI_AP_VERSION)
+        if (save->magic != YOKAI_AP_MAGIC || save->version != YOKAI_AP_SAVE_VERSION)
         {
             gSpecialVar_Result = 2; // connect before first pickup, keep reward
             return;
@@ -101,7 +92,7 @@ void YokaiAPTryCollect(void)
 void YokaiAPUpdate(void)
 {
     struct YokaiAPSave *save;
-    u8 i;
+    u16 i;
     gYokaiAPMailbox.magic = YOKAI_AP_MAGIC;
     gYokaiAPMailbox.version = YOKAI_AP_VERSION;
     gYokaiAPMailbox.ready = Safe();
@@ -119,9 +110,15 @@ void YokaiAPUpdate(void)
     for (i = 0; i < 8; i++)
         if (FlagGet(FLAG_BADGE01_GET + i))
             gYokaiAPMailbox.checkBits |= 1 << i;
-    for (i = 0; i < YOKAI_AP_PICKUP_COUNT; i++)
-        if (FlagGet(sYokaiAPPickupFlags[i]))
+    for (i = 0; i < 7; i++)
+        if (FlagGet(sYokaiAPLegacyFlags[i]))
             gYokaiAPMailbox.checkBits |= 1 << (8 + i);
+    memset((void *)gYokaiAPChecks, 0, sizeof(gYokaiAPChecks));
+    for (i = 0; i < YOKAI_AP_CHECK_COUNT; i++)
+        if (sYokaiAPCheckData[i][0] ? FlagGet(sYokaiAPCheckData[i][0])
+            : VarGet(sYokaiAPCheckData[i][1]) == sYokaiAPCheckData[i][2])
+            gYokaiAPChecks[i / 8] |= 1 << (i % 8);
+    gYokaiAPOwnedCount = GetKantoPokedexCount(1);
     if (save->magic == YOKAI_AP_MAGIC && save->lastItem)
         gYokaiAPMailbox.lastItemCount = BagGetQuantityByItemId(save->lastItem);
     if (!gYokaiAPMailbox.command)
@@ -137,7 +134,7 @@ void YokaiAPUpdate(void)
         {
             memset(save, 0, sizeof(*save));
             save->magic = YOKAI_AP_MAGIC;
-            save->version = YOKAI_AP_VERSION;
+            save->version = YOKAI_AP_SAVE_VERSION;
             save->slot = gYokaiAPMailbox.slot;
             for (i = 0; i < 16; i++)
                 save->seed[i] = gYokaiAPMailbox.seed[i];

@@ -1,3 +1,5 @@
+> **Historique du jalon quinze checks.** Pour la version actuelle à74 checks, voir [extension validée](FRLG_EXTENSION_VALIDEE.md).
+
 # Rouge Feu Archipelago : progression et traitement des récompenses
 
 Jalon expérimental du 14 novembre 2026. Sources du vrai fangame RC1, pas le moteur vanilla de ce dépôt. Aucun changement aux espèces, statistiques, talents, équipes, rencontres, cartes ou scénario.

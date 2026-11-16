@@ -1,6 +1,7 @@
 # Comparaison Rouge Feu Archipelago → fangame Yo-kai
 
 Référence : Vyneras `frlg-stable`, `3d1359cf0606cee11eebfecc0d820063bef7c2a2`, licence MIT. Aucun patch binaire vanilla importé.
+État comparatif avant extension : les quinze checks historiques sont conservés. Pour les activations récentes, voir FRLG_EXTENSION_VALIDEE.md.
 
 | Catégorie de comparaison | Nombre |
 |---|---:|
@@ -9,7 +10,8 @@ Référence : Vyneras `frlg-stable`, `3d1359cf0606cee11eebfecc0d820063bef7c2a2`,
 | modified_or_gift_review | 42 |
 | disabled_postgame_or_sevii | 128 |
 | retained_candidate | 238 |
-| absent_or_unresolved | 36 |
+| absent_or_unresolved | 35 |
+| disabled_replaced_reward | 1 |
 | not_imported_category | 1254 |
 
 Les candidats restent désactivés jusqu’à l’audit. Les IDs historiques Yo-kai sont inchangés ; l’ID upstream est conservé dans la correspondance.
@@ -53,7 +55,7 @@ Les candidats restent désactivés jusqu’à l’audit. Les IDs historiques Yo-
 | Rocket Warehouse - Recover Stolen Gem | `NPC_GIFT_RECOVERED_SAPPHIRE` / 726 | disabled_postgame_or_sevii | `data/maps/FiveIsland_RocketWarehouse/scripts.inc:60` ; Hors périmètre pré-Ligue conservateur ; accès réel à examiner. |
 | Pokemon Mansion B1F - Northwest Room Item | `ITEM_POKEMON_MANSION_B1F_SECRET_KEY` / 424 | retained_candidate | `data/scripts/item_ball_scripts.inc:334` ; Source présente ; règles et détection à valider avant activation. |
 | Tanoby Ruins - Island Item | `NPC_GIFT_GOT_SCANNER` / 565 | disabled_postgame_or_sevii | `non identifiée` ; Hors périmètre pré-Ligue conservateur ; accès réel à examiner. |
-| Rocket Hideout B4F - Giovanni Item | `NPC_GIFT_GOT_SILPH_SCOPE` / 602 | absent_or_unresolved | `non identifiée` ; Pas de source de remise correspondante identifiée ; désactivé. |
+| Rocket Hideout B4F - Giovanni Item | `NPC_GIFT_GOT_SILPH_SCOPE` / 602 | disabled_replaced_reward | `non identifiée` ; Le script nommé SilphScope remet maintenant la Poké Flûte : une seule source physique, aucun second check Scope. |
 | Sea Cottage - Bill Gift | `NPC_GIFT_GOT_SS_TICKET` / 564 | modified_or_gift_review | `data/maps/Route25_SeaCottage/scripts.inc:104` ; Flag de remise présent ; cinématique et conditions à comparer. |
 | Route 12 Fishing House - Fishing Guru Gift | `NPC_GIFT_GOT_SUPER_ROD` / 597 | modified_or_gift_review | `data/maps/Route12_FishingHouse/scripts.inc:20` ; Flag de remise présent ; cinématique et conditions à comparer. |
 | Celadon Condominiums 1F - Tea Woman Gift | `NPC_GIFT_GOT_TEA` / 678 | modified_or_gift_review | `data/maps/CeladonCity_Condominiums_1F/scripts.inc:12` ; Flag de remise présent ; cinématique et conditions à comparer. |
