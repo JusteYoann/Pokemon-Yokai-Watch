@@ -2,7 +2,7 @@
 #define GUARD_YOKAI_AP_H
 
 #define YOKAI_AP_MAGIC 0x31504B59
-#define YOKAI_AP_VERSION 2
+#define YOKAI_AP_VERSION 3
 #define YOKAI_AP_SAVE_VERSION 1
 #define YOKAI_AP_SAVE_OFFSET 0x300
 #define YOKAI_AP_CMD_BIND 1
@@ -58,8 +58,9 @@ struct YokaiAPRomInfo
 extern EWRAM_DATA volatile struct YokaiAPMailbox gYokaiAPMailbox;
 extern const struct YokaiAPRomInfo gYokaiAPRomInfo;
 extern const u8 gYokaiAPCatalogHash[];
-extern EWRAM_DATA volatile u8 gYokaiAPChecks[64];
+extern EWRAM_DATA volatile u8 gYokaiAPChecks[128];
 extern EWRAM_DATA volatile u16 gYokaiAPOwnedCount;
 void YokaiAPUpdate(void);
 void YokaiAPTryCollect(void);
+void YokaiAPTrainerVictory(u16 trainerId);
 #endif

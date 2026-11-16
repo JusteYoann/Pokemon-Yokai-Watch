@@ -109,15 +109,19 @@ def build_catalog(source):
         'status':'active','category':'FANGAME_EVENT','original_reward':'native_preserved_filler_only',
         'source':'src/terre_heure.c:539','script_source':'src/terre_heure.c:539','mandatory':False,
         'validation':'FlagGet(FLAG_ONI_FIRST_SEEN)','prerequisites':['Random native event'],'risks':['RNG: filler only, option disabled by default']})
+    from bulk_import import augment_catalog
+    data['capture_capacity']=capture_capacity(source)
+    data=augment_catalog(source,data)
     active=[c for c in data['checks'] if c['status']=='active']
     assert len({c['id'] for c in active})==len(active)
     assert set(legacy).issubset(c['id'] for c in active)
-    assert len(active)+8<=512
+    assert len(active)+8<=1024
     for c in active:
         if 'original_item' in c:
             c['native_item_id']=items[c['original_item']]
             c['item_name']=item_records[c['original_item']]['english']
-    data['legacy_pickup_ids']=legacy;data['capture_capacity']=capture_capacity(source)
-    canonical=[(c['id'],c.get('flag_value',0),c.get('variable_value',0),c.get('target_value',0)) for c in active]
+    data['legacy_pickup_ids']=legacy
+    canonical=[(c['id'],c.get('flag_value',0),c.get('variable_value',0),c.get('target_value',0),
+                c.get('trainer_ids',[]),c.get('persistent_index'),c.get('dex_number')) for c in active]
     data['catalog_sha256']=hashlib.sha256(json.dumps(canonical,separators=(',',':')).encode()).hexdigest()
     data['summary_active']=dict(Counter(c['kind'] for c in active));return data

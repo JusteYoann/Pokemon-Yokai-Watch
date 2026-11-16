@@ -65,7 +65,7 @@ def main(argv=None):
         with zipfile.ZipFile(a.firered_apworld) as z:
             md=json.loads(z.read('pokemon_yokai_firered/archipelago.json'))
             profile=json.loads(z.read('pokemon_yokai_firered/build.json'))
-            if md['game']!='Pokemon Yo-kai FireRed' or profile['mode']!='expanded_checks':
+            if md['game']!='Pokemon Yo-kai FireRed' or profile['mode']!='classic_bulk':
                 raise ValueError('Mauvais monde ou profil Rouge Feu')
         commit_file(a.firered_apworld,custom/'pokemon_yokai_firered.apworld',a.replace)
     lua=a.archipelago/'data/lua'

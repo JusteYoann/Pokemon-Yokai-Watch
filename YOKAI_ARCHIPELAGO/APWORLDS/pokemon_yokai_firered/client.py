@@ -39,12 +39,12 @@ class YokaiFireRedClient(BizHawkClient):
         if self.profile is None:return False
         try:
             rom=(await bizhawk.read(ctx.bizhawk_ctx,[(self.profile['rom_info']-0x08000000,81,'ROM')]))[0]
-            if int.from_bytes(rom[:4],'little')!=MAGIC or rom[4:8]!=struct.pack('<HH',2,48):return False
+            if int.from_bytes(rom[:4],'little')!=MAGIC or rom[4:8]!=struct.pack('<HH',3,48):return False
             if rom[8:40].split(b'\0',1)[0].decode('ascii')!=GAME:return False
             if rom[40:81].split(b'\0',1)[0].decode('ascii')!=BASE_SHA1:return False
             raw=(await bizhawk.read(ctx.bizhawk_ctx,[(self.profile['mailbox'],48,'System Bus')]))[0]
             snap=decode(raw)
-            if snap['magic']!=MAGIC or snap['version']!=2:return False
+            if snap['magic']!=MAGIC or snap['version']!=3:return False
             native_hash=(await bizhawk.read(ctx.bizhawk_ctx,[(self.profile['catalog_hash_address']-0x08000000,65,'ROM')]))[0]
             if native_hash.rstrip(b'\0').decode('ascii')!=self.profile['catalog_sha256']:return False
         except (bizhawk.RequestFailedError,UnicodeError,ValueError):return False
@@ -58,17 +58,17 @@ class YokaiFireRedClient(BizHawkClient):
 
     async def game_watcher(self,ctx):
         if ctx.server is None or ctx.server.socket.closed or ctx.slot_data is None:return
-        if ctx.slot_data.get('protocol')!=2 or self.profile is None or ctx.slot_data.get('mode')!=self.profile['mode'] or ctx.slot_data.get('catalog_sha256')!=self.profile['catalog_sha256']:
+        if ctx.slot_data.get('protocol')!=3 or self.profile is None or ctx.slot_data.get('mode')!=self.profile['mode'] or ctx.slot_data.get('catalog_sha256')!=self.profile['catalog_sha256']:
             raise RuntimeError('Le slot et le canal FireRed utilisent des protocoles différents')
         if self.profile is None or not ctx.server_seed_name or not ctx.slot:return
         box=self.profile['mailbox']
         seed=hashlib.sha256(ctx.server_seed_name.encode('utf-8')).digest()[:16]
         try:
             raw,pointer,bits=await bizhawk.read(ctx.bizhawk_ctx,[(box,48,'System Bus'),
-                                  (self.profile['saveblock2_pointer'],4,'System Bus'),(self.profile['checks'],64,'System Bus')])
+                                  (self.profile['saveblock2_pointer'],4,'System Bus'),(self.profile['checks'],self.profile['checks_bytes'],'System Bus')])
             snap=decode(raw)
-            if snap['magic']!=MAGIC or snap['version']!=2 or not snap['ready']:return
-            guards=[(box,struct.pack('<IH',MAGIC,2),'System Bus'),(box+6,b'\0\0','System Bus'),
+            if snap['magic']!=MAGIC or snap['version']!=3 or not snap['ready']:return
+            guards=[(box,struct.pack('<IH',MAGIC,3),'System Bus'),(box+6,b'\0\0','System Bus'),
                     (box+38,b'\1','System Bus'),(self.profile['saveblock2_pointer'],pointer,'System Bus')]
             if not self.confirmed:
                 if snap['error']==1 and snap['seed']==seed and snap['slot']==ctx.slot:
@@ -84,7 +84,7 @@ class YokaiFireRedClient(BizHawkClient):
                 self.confirmed=False;return
             checks={LOCATION_BASE+i for i in range(8) if snap['checks'] & (1<<i)} & ctx.server_locations
             ids=ctx.slot_data.get('check_ids',[])
-            if not ids or len(ids)>512:raise RuntimeError('Liste des collectes FireRed incompatible')
+            if not ids or len(ids)>self.profile['checks_bytes']*8:raise RuntimeError('Liste des collectes FireRed incompatible')
             checks |= {code for i,code in enumerate(ids) if bits[i//8] & (1<<(i%8))} & ctx.server_locations
             if checks!=self.reported_checks:
                 await ctx.check_locations(checks);self.reported_checks=checks

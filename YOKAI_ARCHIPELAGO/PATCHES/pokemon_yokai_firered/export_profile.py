@@ -11,13 +11,13 @@ def export(rom,elf):
         if len(f)==3:symbols[f[2]]=int(f[0],16)
     image=rom.read_bytes();offset=symbols['gYokaiAPRomInfo']-0x08000000
     info=image[offset:offset+81]
-    if info[:8]!=struct.pack('<IHH',0x31504B59,2,48) or info[40:81].split(b'\0')[0].decode()!=BASE_SHA1:
+    if info[:8]!=struct.pack('<IHH',0x31504B59,3,48) or info[40:81].split(b'\0')[0].decode()!=BASE_SHA1:
         raise ValueError('Mauvais module AP, base ou ABI')
     catalog_offset=symbols['gYokaiAPCatalogHash']-0x08000000
     catalog_hash=image[catalog_offset:catalog_offset+65].split(b'\0')[0].decode('ascii')
     if len(catalog_hash)!=64:raise ValueError('Invalid native catalog hash')
-    return {'version':2,'mode':'expanded_checks','base_sha1':BASE_SHA1,'rom_sha256':hashlib.sha256(image).hexdigest(),
-            'checks':symbols['gYokaiAPChecks'],'checks_bytes':64,'owned_count':symbols['gYokaiAPOwnedCount'],
+    return {'version':3,'mode':'classic_bulk','base_sha1':BASE_SHA1,'rom_sha256':hashlib.sha256(image).hexdigest(),
+            'checks':symbols['gYokaiAPChecks'],'checks_bytes':128,'owned_count':symbols['gYokaiAPOwnedCount'],
             'catalog_hash_address':symbols['gYokaiAPCatalogHash'],'catalog_sha256':catalog_hash,
             'rom_info':symbols['gYokaiAPRomInfo'],'mailbox':symbols['gYokaiAPMailbox'],
             'saveblock2_pointer':symbols['gSaveBlock2Ptr'],'main':symbols['gMain'],

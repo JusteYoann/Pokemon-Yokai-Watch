@@ -73,8 +73,20 @@ def install(output):
     for name,values in [('sYokaiAPPickupFlags',[c['flag'] for c in pickups]),('sYokaiAPLegacyFlags',legacy_flags),('sYokaiAPAllowedItems',sorted(allowed))]:
         header+='static const u16 '+name+'[] = {\n'+''.join('    '+v+',\n' for v in values)+'};\n'
     header+='static const u16 sYokaiAPCheckData[][3] = {\n'+''.join(
-        '    {'+str(c.get('flag_value',0))+', '+str(c.get('variable_value',0))+', '+str(c.get('target_value',0))+'},\n' for c in active)+'};\n'
+        '    {'+str(0xFFFE if c['kind']=='trainer' else 0xFFFD if c['kind']=='pokedex' else c.get('flag_value',0))+', '
+        +str(c['persistent_index'] if c['kind']=='trainer' else c['dex_number'] if c['kind']=='pokedex' else c.get('variable_value',0))+', '
+        +str(c.get('target_value',0))+'},\n' for c in active)+'};\n'
+    header+='static const u16 sYokaiAPTrainerSlots[][2] = {\n'+''.join(
+        f'    {{{trainer}, {c["persistent_index"]}}},\n' for c in active if c['kind']=='trainer' for trainer in c['trainer_ids'])+'};\n'
     (output/'include/yokai_ap_checks.h').write_text(header)
+    p=output/'src/battle_setup.c';s=p.read_text()
+    s=replace_once(s,'#include "global.h"\n','#include "global.h"\n#include "yokai_ap.h"\n')
+    anchor='    if (sTrainerBattleMode == TRAINER_BATTLE_EARLY_RIVAL)\n'
+    # This anchor is scoped to the actual end callback, after special modes return.
+    start=s.index('static void CB2_EndTrainerBattle(void)\n{')
+    tail=s[start:];tail=replace_once(tail,anchor,
+        '    if (gBattleOutcome == B_OUTCOME_WON) YokaiAPTrainerVictory(gTrainerBattleOpponent_A);\n'+anchor)
+    s=s[:start]+tail;p.write_text(s)
     p=output/'data/scripts/item_ball_scripts.inc';s=p.read_text()
     for c in active:
         if c['kind']!='ball':continue
@@ -104,6 +116,18 @@ YokaiAP_TextConnect::
     p.write_text(s)
     # Keep native caught-count tests and refusal paths. Only replace the reward.
     for c in active:
+        if c['kind']!='npc_gift':continue
+        p=output/c['source'];s=p.read_text();import re
+        label=re.search(r'^'+re.escape(c['gift_label'])+r'::?\s*(?:@[^\n]*)?$',s,re.M)
+        if label is None:raise ValueError('Gift label changed: '+c['gift_label'])
+        end=re.search(r'^\w+::?',s[label.end():],re.M)
+        finish=label.end()+end.start() if end else len(s)
+        body=s[label.end():finish]
+        body=re.sub(r'\tcheckitemspace '+re.escape(c['original_item'])+r'(?:,\s*1)?\n\tgoto_if_eq VAR_RESULT, FALSE, \w+\n','',body,count=1)
+        body=replace_once(body,c['gift_macro'],'setvar VAR_0x8004, '+c['flag']+'\n\tcallnative YokaiAPTryCollect\n'
+            '\tgoto_if_eq VAR_RESULT, 2, YokaiAP_ConnectFirst\n\tmsgbox YokaiAP_TextCheck, MSGBOX_DEFAULT\n\tsetvar VAR_RESULT, TRUE')
+        p.write_text(s[:label.end()]+body+s[finish:])
+    for c in active:
         if c['kind']!='aide':continue
         p=output/c['source'];s=p.read_text()
         import re
@@ -125,13 +149,15 @@ YokaiAP_TextConnect::
         '\tsetvar VAR_0x8004, FLAG_GOT_HM03\n\tcallnative YokaiAPTryCollect\n'
         '\tgoto_if_eq VAR_RESULT, 2, YokaiAP_ConnectFirst\n\tmsgbox YokaiAP_TextCheck, MSGBOX_DEFAULT')
     p.write_text(s)
-    report={'base_sha256':EXPECTED,'mode':'expanded_checks','catalog_sha256':catalog['catalog_sha256'],'modified':['src/overworld.c','ld_script.ld','data/scripts/item_ball_scripts.inc','data/scripts/obtain_item.inc'],
+    report={'base_sha256':EXPECTED,'mode':'classic_bulk','catalog_sha256':catalog['catalog_sha256'],'modified':['src/overworld.c','src/battle_setup.c','ld_script.ld','data/scripts/item_ball_scripts.inc','data/scripts/obtain_item.inc'],
             'added':['src/yokai_ap.c','include/yokai_ap.h','include/yokai_ap_checks.h'],'save_storage':{'block':2,'offset':'0xE20','bytes':64},
             'replaced_pickups':[c['flag'] for c in pickups],
             'preserved':['species','stats','learnsets','evolutions','encounters','trainers','maps','story','other_original_rewards']}
     report['modified'].append('data/maps/SafariZone_SecretHouse/scripts.inc')
     report['modified'] += ['src/yopple_devices.c','include/yopple_devices.h']
     report['modified'] += [c['source'] for c in active if c['kind']=='aide']
+    report['modified'] += [c['source'] for c in active if c['kind']=='npc_gift']
+    report['modified']=sorted(set(report['modified']))
     (output/'YOKAI_AP_SOURCE_PATCH.json').write_text(json.dumps(report,indent=2)+'\n')
     return report
 

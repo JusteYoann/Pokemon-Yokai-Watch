@@ -21,7 +21,7 @@
 #include "constants/quest_log.h"
 
 EWRAM_DATA volatile struct YokaiAPMailbox gYokaiAPMailbox = {0};
-EWRAM_DATA volatile u8 gYokaiAPChecks[64] = {0};
+EWRAM_DATA volatile u8 gYokaiAPChecks[128] = {0};
 EWRAM_DATA volatile u16 gYokaiAPOwnedCount = 0;
 const u8 gYokaiAPCatalogHash[] = YOKAI_AP_CATALOG_HASH;
 const struct YokaiAPRomInfo gYokaiAPRomInfo = {
@@ -36,6 +36,23 @@ typedef char YokaiAPBeforeVacuum[(YOKAI_AP_SAVE_OFFSET + sizeof(struct YokaiAPSa
 static struct YokaiAPSave *Save(void)
 {
     return (struct YokaiAPSave *)(gSaveBlock2Ptr->filler_B20 + YOKAI_AP_SAVE_OFFSET);
+}
+
+// Called from the native trainer battle end callback only on B_OUTCOME_WON.
+// Native gym/Vs Seeker flag bookkeeping must never manufacture a victory.
+void YokaiAPTrainerVictory(u16 trainerId)
+{
+    struct YokaiAPSave *save;
+    u16 i,bit;
+    if (!gSaveBlock2Ptr || QL_IS_PLAYBACK_STATE) return;
+    save=Save();
+    if (save->magic!=YOKAI_AP_MAGIC || save->version!=YOKAI_AP_SAVE_VERSION) return;
+    for (i=0;i<ARRAY_COUNT(sYokaiAPTrainerSlots);i++)
+        if (sYokaiAPTrainerSlots[i][0]==trainerId)
+        {
+            bit=sYokaiAPTrainerSlots[i][1];
+            save->reserved[bit/8] |= 1 << (bit%8);
+        }
 }
 
 static bool8 Safe(void)
@@ -115,7 +132,11 @@ void YokaiAPUpdate(void)
             gYokaiAPMailbox.checkBits |= 1 << (8 + i);
     memset((void *)gYokaiAPChecks, 0, sizeof(gYokaiAPChecks));
     for (i = 0; i < YOKAI_AP_CHECK_COUNT; i++)
-        if (sYokaiAPCheckData[i][0] ? FlagGet(sYokaiAPCheckData[i][0])
+        if (sYokaiAPCheckData[i][0]==0xFFFE
+            ? (save->magic==YOKAI_AP_MAGIC && (save->reserved[sYokaiAPCheckData[i][1]/8] & (1 << (sYokaiAPCheckData[i][1]%8))))
+            : sYokaiAPCheckData[i][0]==0xFFFD
+            ? GetSetPokedexFlag(sYokaiAPCheckData[i][1],1)
+            : sYokaiAPCheckData[i][0] ? FlagGet(sYokaiAPCheckData[i][0])
             : VarGet(sYokaiAPCheckData[i][1]) == sYokaiAPCheckData[i][2])
             gYokaiAPChecks[i / 8] |= 1 << (i % 8);
     gYokaiAPOwnedCount = GetKantoPokedexCount(1);

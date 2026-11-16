@@ -7,7 +7,7 @@ import zipfile
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--profile',type=Path,required=True);p.add_argument('--out',type=Path,required=True);a=p.parse_args()
     profile=json.loads(a.profile.read_text())
-    if profile['base_sha1']!='40c59a9f240d29a7b16d1dd299b1125513a280c4' or profile['mode']!='expanded_checks':
+    if profile['base_sha1']!='40c59a9f240d29a7b16d1dd299b1125513a280c4' or profile['mode']!='classic_bulk':
         p.error('Profil incompatible')
     a.out.mkdir(parents=True,exist_ok=True);output=a.out/'pokemon_yokai_firered.apworld';root=Path(__file__).parent
     if json.loads((root/'checks.json').read_text())['catalog_sha256']!=profile['catalog_sha256']:

@@ -93,7 +93,7 @@ class YokaiFireRedWorld(World):
 
     def get_filler_item_name(self):return 'Potion'
     def fill_slot_data(self):
-        return {'protocol':2,'mode':'expanded_checks','goal':'hall_of_fame_record',
+        return {'protocol':3,'mode':'classic_bulk','goal':'hall_of_fame_record',
                 'catalog_sha256':DATA['catalog_sha256'],'location_base':LOCATION_BASE,
                 'check_ids':[c['id'] for c in PICKUPS],'pickup_ids':DATA['legacy_pickup_ids'],
                 'replaced_rewards':[c['flag'] for c in PICKUPS if c.get('original_reward')=='replaced'],
