@@ -79,7 +79,7 @@ async def scenario(a,report):
     q.reverse={address|1:name for name,address in r.symbols.items()}
     groups=json.loads((a.build/'data/maps/map_groups.json').read_text())
     q.maps={name:(i,j) for i,key in enumerate(groups['group_order']) for j,name in enumerate(groups[key])}
-    env=dict(os.environ,SKIP_REQUIREMENTS_UPDATE='1',AP_TEST_WORLDS='yokaiwatch2,mkwii,pokemon_yokai_firered')
+    env=dict(os.environ,SKIP_REQUIREMENTS_UPDATE='1',AP_TEST_WORLDS=a.test_worlds)
     logs=[];events=a.out.parent/'firered-client-events.jsonl'
     if events.exists():events.unlink()
     def records():
@@ -299,7 +299,7 @@ async def scenario(a,report):
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     for name in ['build','libretro','archipelago','multidata','out']:p.add_argument('--'+name,type=Path,required=True)
-    p.add_argument('--slot',default='Yoann_FireRed');p.add_argument('--python',default=sys.executable);p.add_argument('--server-port',type=int,default=38281);p.add_argument('--emulator-port',type=int,default=43056);a=p.parse_args()
+    p.add_argument('--test-worlds',default='yokaiwatch2,mkwii,pokemon_yokai_firered');p.add_argument('--slot',default='Yoann_FireRed');p.add_argument('--python',default=sys.executable);p.add_argument('--server-port',type=int,default=38281);p.add_argument('--emulator-port',type=int,default=43056);a=p.parse_args()
     a.out.parent.mkdir(parents=True,exist_ok=True)
     report={'passed':False,'kind':'real_server_real_mgba_libretro','gui_lua_tested':False,
             'rom_sha256':hashlib.sha256((a.build/'pokefirered_audio.gba').read_bytes()).hexdigest(),

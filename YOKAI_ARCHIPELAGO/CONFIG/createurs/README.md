@@ -1,3 +1,5 @@
+État du17 novembre : le package Emerald français0.2.1 a été reçu et le dossier `quatre_jeux/` a généré la seed1711202601 avec succès. Le blocage de fichier absent décrit plus bas est historique. Voir `DOCUMENTATION/SEED_QUATRE_JEUX_20261117.md` pour distinguer génération, serveur quatre slots et tests natifs.
+
 # Slots des créateurs
 
 YW1 EUR : Yochix ; YW2 EUR : Juste Yoann ; Rouge Feu : Kammy64 ou Petit Shiny (nom technique `RougeFeu`) ; MKW PAL : Krackonyx ; Emerald : Dejais.

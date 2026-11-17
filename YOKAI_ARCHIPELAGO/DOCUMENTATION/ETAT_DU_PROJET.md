@@ -1,3 +1,5 @@
+> **17 novembre — seed à quatre testée :**1711202601,1629 checks. Package Emerald français0.2.1 reçu ; blocage levé. Génération résoluble,36 contrôles serveur à quatre slots avec checks simulés,44 contrôles natifs mGBA Rouge Feu sur cette seed. Les quatre émulateurs simultanés restent non testés. Les anciennes mentions de package absent ci-dessous sont historiques. Voir [rapport](SEED_QUATRE_JEUX_20261117.md).
+
 > **Version de test FR0.5.0 — 16 novembre :**628 checks ; Coupe/Surf/Force/Flash randomisés, Vol utile.620 détecteurs avec redémarrage,44 contrôles réseau,37 protections et finale native testés. Configuration quatre jeux préparée ; génération à quatre bloquée ici par le package Emerald français0.2.1 absent du système de fichiers. Voir [version de test et procédure quatre jeux](FIRERED_VERSION_TEST_4_JEUX.md). Les résultats précédents restent historiques.
 
 ## Situation corrigée — retour utilisateur du 16 novembre 2026

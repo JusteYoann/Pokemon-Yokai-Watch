@@ -5,6 +5,7 @@ Développement sur `codex/archipelago-five-games-20261114`, depuis la passation 
 Le cahier des charges actif est [ici](DOCUMENTATION/CAHIER_DES_CHARGES_FIRERED_20261114.md). Le dernier jalon Rouge Feu comporte **628 checks et Coupe/Surf/Force/Flash randomisés**, avec tests sur vrai serveur et cœur mGBA. Ce n’est pas encore une version complète à cinq jeux prête pour le tournage.
 
 - [Version FR0.5.0 et premier essai à quatre](DOCUMENTATION/FIRERED_VERSION_TEST_4_JEUX.md)
+- [Première seed à quatre : résultats et limites](DOCUMENTATION/SEED_QUATRE_JEUX_20261117.md)
 - [État vérifié et limites](DOCUMENTATION/ETAT_DU_PROJET.md)
 - [Import massif : correspondance, tests et limites](DOCUMENTATION/FRLG_IMPORT_MASSIF.md)
 - [Reconstruction et lancement du jalon](DOCUMENTATION/GUIDE_FIRERED_ARCHIPELAGO_FR.md)

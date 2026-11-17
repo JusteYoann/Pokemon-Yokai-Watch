@@ -1,3 +1,5 @@
+> **17 novembre — seed à quatre testée :**1711202601,1629 checks. Package Emerald français0.2.1 reçu ; blocage levé. Génération résoluble,36 contrôles serveur à quatre slots avec checks simulés,44 contrôles natifs mGBA Rouge Feu sur cette seed. Les quatre émulateurs simultanés restent non testés. Les anciennes mentions de package absent ci-dessous sont historiques. Voir [rapport](SEED_QUATRE_JEUX_20261117.md).
+
 # Rouge Feu0.5.0 et premier essai à quatre — 16 novembre 2026
 
 ## Version de test Rouge Feu

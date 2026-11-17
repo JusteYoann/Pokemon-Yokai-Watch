@@ -1,0 +1,214 @@
+{
+  "passed": true,
+  "kind": "official_four_world_generation_and_logic",
+  "seed": 1711202601,
+  "four_native_games_tested": false,
+  "games": [
+    "Pokemon Yo-kai FireRed",
+    "Pokemon Yo-kai Emerald",
+    "Yo-kai Watch 2",
+    "Mario Kart Wii"
+  ],
+  "packages": {
+    "pokemon_yokai_firered": {
+      "sha256": "088513963b4736073256785b2635a297ed9a18c431646f11701fcdac02181952",
+      "metadata": {
+        "game": "Pokemon Yo-kai FireRed",
+        "package_name": "pokemon_yokai_firered",
+        "world_version": "0.5.0",
+        "minimum_ap_version": "0.6.9",
+        "compatible_version": 7,
+        "version": 7,
+        "authors": [
+          "JusteYoann"
+        ],
+        "description": "628 checks pré-Ligue ; Coupe, Surf, Force et Flash randomisés, Vol utile ; progression adaptée au fangame."
+      }
+    },
+    "pokemon_yokai_emerald": {
+      "sha256": "6fc85d334553f29491743cd5acac5eb804e3642a921f50d0700dfa98930e8224",
+      "metadata": {
+        "game": "Pokemon Yo-kai Emerald",
+        "author": "Flit",
+        "world_version": "0.2.1",
+        "minimum_ap_version": "0.6.7",
+        "compatible_version": 7,
+        "version": 7
+      }
+    },
+    "yokaiwatch2": {
+      "sha256": "62988c908568efce41c65fbb3c79be530b32c3b08b8846f2006dd385b07f004d",
+      "metadata": {
+        "game": "Yo-kai Watch 2",
+        "world_version": "3.0.0",
+        "authors": [
+          "Doteos"
+        ],
+        "minimum_ap_version": "0.6.0",
+        "version": 7,
+        "compatible_version": 7
+      }
+    },
+    "mkwii": {
+      "sha256": "3a6fb5bd5e4981c08a1d89c3eda44184495173533da81c1a8ad134772684a6fb",
+      "metadata": {
+        "game": "Mario Kart Wii",
+        "package_name": "mkwii",
+        "world_version": "0.4.0",
+        "minimum_ap_version": "0.6.6",
+        "display_name": "Mario Kart Wii",
+        "authors": [
+          "toent"
+        ],
+        "description": "Race through Mario Kart Wii cups and tracks in a multiworld randomizer",
+        "version": 7,
+        "compatible_version": 7
+      }
+    }
+  },
+  "beatable_by_logic": true,
+  "server_seed_name": "40446171867215790995",
+  "slots": [
+    {
+      "name": "Juste Yoann",
+      "slot": 1,
+      "game": "Yo-kai Watch 2",
+      "checks": 444
+    },
+    {
+      "name": "RougeFeu",
+      "slot": 2,
+      "game": "Pokemon Yo-kai FireRed",
+      "checks": 628
+    },
+    {
+      "name": "Krackonyx",
+      "slot": 3,
+      "game": "Mario Kart Wii",
+      "checks": 288
+    },
+    {
+      "name": "Dejais",
+      "slot": 4,
+      "game": "Pokemon Yo-kai Emerald",
+      "checks": 269
+    }
+  ],
+  "spheres": [
+    {
+      "Juste Yoann": 2,
+      "RougeFeu": 137,
+      "Krackonyx": 18,
+      "Dejais": 23
+    },
+    {
+      "Juste Yoann": 30,
+      "RougeFeu": 316,
+      "Krackonyx": 36,
+      "Dejais": 63
+    },
+    {
+      "Juste Yoann": 98,
+      "RougeFeu": 0,
+      "Krackonyx": 90,
+      "Dejais": 42
+    },
+    {
+      "Juste Yoann": 80,
+      "RougeFeu": 0,
+      "Krackonyx": 27,
+      "Dejais": 33
+    },
+    {
+      "Juste Yoann": 58,
+      "RougeFeu": 175,
+      "Krackonyx": 18,
+      "Dejais": 8
+    },
+    {
+      "Juste Yoann": 63,
+      "RougeFeu": 0,
+      "Krackonyx": 45,
+      "Dejais": 17
+    },
+    {
+      "Juste Yoann": 26,
+      "RougeFeu": 0,
+      "Krackonyx": 18,
+      "Dejais": 4
+    },
+    {
+      "Juste Yoann": 53,
+      "RougeFeu": 0,
+      "Krackonyx": 9,
+      "Dejais": 13
+    },
+    {
+      "Juste Yoann": 22,
+      "RougeFeu": 0,
+      "Krackonyx": 9,
+      "Dejais": 2
+    },
+    {
+      "Juste Yoann": 7,
+      "RougeFeu": 0,
+      "Krackonyx": 18,
+      "Dejais": 7
+    },
+    {
+      "Juste Yoann": 3,
+      "RougeFeu": 0,
+      "Krackonyx": 0,
+      "Dejais": 45
+    },
+    {
+      "Juste Yoann": 1,
+      "RougeFeu": 0,
+      "Krackonyx": 0,
+      "Dejais": 6
+    },
+    {
+      "Juste Yoann": 1,
+      "RougeFeu": 0,
+      "Krackonyx": 0,
+      "Dejais": 2
+    },
+    {
+      "Juste Yoann": 0,
+      "RougeFeu": 0,
+      "Krackonyx": 0,
+      "Dejais": 1
+    },
+    {
+      "Juste Yoann": 0,
+      "RougeFeu": 0,
+      "Krackonyx": 0,
+      "Dejais": 0
+    },
+    {
+      "Juste Yoann": 0,
+      "RougeFeu": 0,
+      "Krackonyx": 0,
+      "Dejais": 3
+    }
+  ],
+  "remote_progression_routes": {
+    "RougeFeu -> Juste Yoann": 25,
+    "RougeFeu -> Krackonyx": 13,
+    "RougeFeu -> Dejais": 23,
+    "Krackonyx -> Juste Yoann": 7,
+    "Dejais -> Krackonyx": 6,
+    "Dejais -> Juste Yoann": 7,
+    "Juste Yoann -> Krackonyx": 7,
+    "Juste Yoann -> Dejais": 7,
+    "Krackonyx -> RougeFeu": 1,
+    "Juste Yoann -> RougeFeu": 1,
+    "Krackonyx -> Dejais": 6
+  },
+  "output_files": [
+    {
+      "name": "AP_40446171867215790995.zip",
+      "sha256": "bc7e7ef2ca0e046f345548c90495e6fa1e546a7a5fd695b5a05eae05744773dc"
+    }
+  ]
+}
